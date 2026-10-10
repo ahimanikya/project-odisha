@@ -6576,6 +6576,28 @@
         "records/berhampuri-profile-merged-2026-10-10.json"
       ],
       "acceptance_criteria": "Develop the existing Berhampuri Patta page into a reader profile explaining source-attributed silk, border/end-panel construction and the joda textile distinction. Reuse saved primary documents and original source IDs, preserve the publisher disagreement and original research body, and avoid royal-origin, current cooperative, stock, authentication or visit claims. Validate research/classification, KB and derived indexes; pass required PR checks and save the reviewed-head merge receipt. KB-only; no website deployment or search expansion."
+    },
+    {
+      "id": "UTP-WORK-226",
+      "title": "Explain paddy procurement payments without losing their scope",
+      "category": "research_and_writing",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Pass required checks and merge reviewed documentation.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-189",
+        "UTP-REV-194"
+      ],
+      "evidence": [
+        "records/paddy-payments-story-review-2026-10-11.json",
+        "research/stories/rice-procurement-payments.md"
+      ],
+      "acceptance_criteria": "Turn the existing paddy-procurement payment draft into a connected reader explainer with a seasonal quantity table and the farmer-income question. Reuse canonical reconciliation and source IDs; inspect original report quantities, payment category and period definitions, verify arithmetic and preserve earlier draft. Do not mix MSP-only with MSP-plus-assistance, equate procurement with production, add seasonal people as unique farmers or infer profit/current entitlements. Validate research/classification, KB and indexes; pass required PR checks and save the reviewed-head merge receipt. KB-only; no website or search expansion."
     }
   ],
   "decisions": [
@@ -15575,6 +15597,29 @@
         "Undated directory describes examples and institutional product associations; it does not establish current service, stock, maker attribution for other pieces or authentication.",
         "Incredible India disagreement is preserved from the saved2October check; its endpoint was not re-retrieved and no publisher correction claimed. Royal-origin, ritual and tourism loom narratives not adopted as new claims.",
         "No fieldwork, visit arrangement, current GI status, relationship, image rights or commercial activation established. KB-only reader profile; no public website or search expansion."
+      ]
+    },
+    {
+      "id": "UTP-REV-194",
+      "title": "Paddy procurement quantities and payment-story review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-226",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/paddy-payments-story-review-2026-10-11.json"
+      ],
+      "limitations": [
+        "Same-assistant documentary/editorial review; no independent economics or human review.",
+        "Departmental reported payments are not independently audited settlements. No timely payment, household income, welfare outcome or unique annual farmer count established.",
+        "Earlier canonical payment disagreement and arithmetic discrepancy preserved; no correction notice or settlement explanation obtained.",
+        "No interviews, fieldwork, current entitlement advice, public website change or search expansion."
       ]
     }
   ],

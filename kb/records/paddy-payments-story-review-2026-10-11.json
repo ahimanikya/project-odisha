@@ -1,0 +1,59 @@
+{
+  "recorded_at": "2026-10-10T23:19:07.454632+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-041",
+  "work_id": "UTP-WORK-226",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "output": "research/stories/rice-procurement-payments.md",
+  "brief": {
+    "reader": "Reader interested in the farm economy behind Odisha’s rice.",
+    "reason_to_read": "Understand what the quantity and payment headlines measure before asking about household income.",
+    "memorable_detail": "The two seasonal quantities add; the farmer columns cannot establish unique annual people.",
+    "visual_treatment": "Seasonal quantity table; original report pages visually inspected, no source images reproduced.",
+    "next_step": "Separate future farmer interviews and settlement research."
+  },
+  "reuse": {
+    "research_map_read": true,
+    "queries": [
+      "procurement"
+    ],
+    "inputs": [
+      "research/economy/rice-economy.md",
+      "research/stories/rice-income-after-costs.md",
+      "research/references/data/rice-economy.json",
+      "research/sources/rice-fscw2026.md"
+    ],
+    "queue_pointers_inspected": [
+      "RES-061",
+      "RES-022"
+    ],
+    "earlier_draft_sha256": "df131a3d148ccd4bc842c1b622e6a0d5d12fff1c39f7557f4f00d3be6653ee16",
+    "preserved": "Earlier draft body retained verbatim; canonical reconciliation and source identity retained. Dataset and research queue unchanged."
+  },
+  "sources": [
+    {
+      "id": "rice-fscw2026",
+      "url": "https://foododisha.in/Download/annual-activity-glance-25-26.pdf",
+      "sha256": "6ea461a64ab0254746c638e978167ab7d924b1bbdf0a565eb7b2ae4933b73fff",
+      "inspection": "Original image-only PDF downloaded. PDF pages12/28/31, printed10/26/29 rendered and visually read: seasonal quantities, distinct FY/KMS windows and MSP-only versus MSP-plus-assistance payment labels. Partial next-year figures and promotional impact claims excluded."
+    }
+  ],
+  "verification": {
+    "arithmetic": "7,345,707 + 1,918,528 = 9,264,235 tonnes; /100,000 =92.64235 lakh, rounded92.64. Assertions passed.",
+    "claims": "₹28,718 crore attributed as KMS2024–25 MSP plus input assistance;86.30 lakh tonnes attributed to FY1April2024–31March2025. No rate or profit inference introduced.",
+    "local_checks": "Research1093concepts/3726links; classification303relationships; KB1247concepts/4996links; registers/program; workbench build/check, six Python and three Node tests; whitespace pass.",
+    "visual": "Three original report pages visually inspected. Article and internal indexes only."
+  },
+  "limitations": [
+    "Same-assistant documentary/editorial review; no independent economics or human review.",
+    "Departmental reported payments are not independently audited settlements. No timely payment, household income, welfare outcome or unique annual farmer count established.",
+    "Earlier canonical payment disagreement and arithmetic discrepancy preserved; no correction notice or settlement explanation obtained.",
+    "No interviews, fieldwork, current entitlement advice, public website change or search expansion."
+  ],
+  "delivery": "Pending required checks and reviewed-head KB merge; no website deployment required."
+}
