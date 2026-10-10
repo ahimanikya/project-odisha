@@ -92,3 +92,8 @@ Subject membership is editorial classification. It does not establish historical
 ## 2026-10-10 · Prathamastami: relationships and preparations
 
 [Prathamastami](../culture/osha/prathamastami.md) relates family gifts and blessings to [Enduri](../food/enduri-pitha.md), while retaining the differing scope of an offering list, a recipe and a personal account.
+
+
+## 2026-10-10 · Dutiya: produce and care
+
+[Dutiya](../culture/osha/dutiya.md) follows offered produce into [Ghanta](../food/ghanta-tarkari.md) for sharing; published story and regional identities retain their own scope.

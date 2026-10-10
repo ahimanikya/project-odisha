@@ -5330,6 +5330,44 @@
       "content_type": "Research Source",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "subjects/food",
+      "primary_subject": "food",
+      "secondary_subjects": [],
+      "content_type": "Subject Guide",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "food/ghanta-tarkari",
+      "primary_subject": "food",
+      "secondary_subjects": [
+        "everyday"
+      ],
+      "content_type": "Food",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "sources/osha-dutiya-tripathy2023",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food"
+      ],
+      "content_type": "Research Source",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "sources/food-jajpur-tourism-ghanta",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food"
+      ],
+      "content_type": "Research Source",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -7809,7 +7847,7 @@
       "to": "culture/osha/pua-jiuntia",
       "type": "related_reading",
       "basis": "editorial_context",
-      "explanation": "Compare regional identities without assuming identical practice."
+      "explanation": "Source-linked comparison retains regional names, food roles and thread/leaf differences; related reading does not establish identical practices or stories."
     },
     {
       "from": "culture/osha-brata-seasonal-food",
@@ -8804,6 +8842,27 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Adjacent seasonal accounts retain distinct offering roles and conflicting next-day/evening timing; related reading is not an identity merge."
+    },
+    {
+      "from": "culture/osha/dutiya",
+      "to": "food/ghanta-tarkari",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "The food companion separates preparation and serving evidence from Dutiya’s offering-to-sharing sequence; no universal recipe or visitor offer follows."
+    },
+    {
+      "from": "food/ghanta-tarkari",
+      "to": "culture/osha/dutiya",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "The food companion separates preparation and serving evidence from Dutiya’s offering-to-sharing sequence; no universal recipe or visitor offer follows."
+    },
+    {
+      "from": "culture/osha/pua-jiuntia",
+      "to": "culture/osha/dutiya",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Source-linked comparison retains regional names, food roles and thread/leaf differences; related reading does not establish identical practices or stories."
     }
   ],
   "relationship_types": {

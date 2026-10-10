@@ -1090,3 +1090,7 @@ The existing collection gains shared month labels, recurrence and unresolved-ide
 ## UTP-HIS-OSHA-PRATHAMASTAMI-20261010 · Prathamastami family and food evidence
 
 Prathamastami gains a fuller family and food narrative. Source-specific offerings, preparation, personal gifting and temple kinship remain distinct; the historical textual lead is unconfirmed. Saved sources reused; no interviews, human review, merge or publication claimed. [Checkpoint](../records/osha-prathamastami-review-2026-10-10.json).
+
+## UTP-HIS-OSHA-DUTIYA-20261010 · Dutiya family and food evidence
+
+Dutiya gains a fuller family and food narrative. Attributed narrative, source-specific offerings, next-day curry and exchange remain distinct; full original katha and dated origins remain unresolved. Saved sources reused; no interviews, human review, merge or publication claimed. [Checkpoint](../records/osha-dutiya-review-2026-10-10.json).

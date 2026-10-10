@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `42ef400526cd5ecbd8a1c24e783df72ac78bc991ab0ace8aa531da9c6a5c70dd`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `88f03c9aeb1caf62b5d28304099a49117f6cf9ded360032c87e71b879ddc1c6d`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -197,7 +197,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-185 · Illustrated Kala Bhoomi, Dhauli and Pipili stories | completed | published | Ahimanikya Satapathy | Current museum displays and visitor arrangements, and independent local or specialist review remain follow-up research. | — |
 | UTP-WORK-186 · Three flexible illustrated visit plans | completed | published | Ahimanikya Satapathy | Use the published plans as starting points for WORK-171 after local confirmation of timings, capacity and costs. | — |
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
-| UTP-WORK-2026100701 · Osha, stories and the food year: fifty-three profiles and dated food evidence | in_progress | draft | Ahimanikya Satapathy | Prathamastami family and food narrative reconciled into the existing 53-profile draft. Preserve historical original-image, cited1915 text and situated household gaps, with17October retry. Existing14–17October holds remain; source workspace remains scheduling authority. No publication or current food offer inferred. | — |
+| UTP-WORK-2026100701 · Osha, stories and the food year: fifty-three profiles and dated food evidence | in_progress | draft | Ahimanikya Satapathy | Dutiya offering and Ghanta food account reconciled into the existing 53-profile draft. Full katha and dated historical origins remain unresolved; preserve source-specific regional and food differences and17October retry. Deepen Budhei (OSHA-005) next using saved records first. Source workspace remains scheduling authority; all14–17October holds remain. No current serving offer or publication inferred. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
 
@@ -763,7 +763,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-261 | 2026-10-07T07:08:20.250505+00:00 | Founder-approved PR146 merged and GitHub Pages deployment succeeded. Three live stories, licensed image hashes, stable journey IDs, book photographs and discovery/visit-plan links verified. | Continue authorized research; field-dependent verification remains deferred. |
 | UTP-EVT-2026100702 | 2026-10-07T11:07:54.805693+00:00 | Reconciled B02/B03 research, fifteen profiles and sixteen website routes. Preserved native food-story publication records from current main; no osha publication. | Continue OSHA-B04 while PR145 remains the review candidate; retry unresolved B02/B03 texts on/after2026-10-14. Source workspace remains scheduling authority. |
 | UTP-EVT-2026100703 | 2026-10-07T14:11:19.648903+00:00 | Reconciled B04 research, eighteen profiles and nineteen website routes. Native food-story publication records preserved; no osha publication. | Continue OSHA-B05 using saved Bada/Kanji Anla and Mahanti accounts first; retry unresolved B02/B03/B04 evidence on/after2026-10-14. Source workspace remains scheduling authority. |
 | UTP-EVT-2026100704 | 2026-10-07T21:09:30.553967+00:00 | Reconciled B05 research, twenty-one profiles and twenty-two website routes. Native publication records preserved; no osha publication. | Continue OSHA-B06 with Sukutuni Osha, the earliest eligible remaining inventory lead, using saved Dash and Mahanti first. Retry unresolved B02–B05 texts, calendars and local variants on/after2026-10-14. Source workspace remains scheduling authority. |
@@ -773,6 +772,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101002 | 2026-10-10T09:43:50.199797+00:00 | Raja and dated food evidence prepared for existing draft review branch.53 profiles; no merge or publication. | Review the53-profile candidate and new dated-food evidence page; retain prior14–17October text, locality and operator holds. Source workspace remains scheduling authority. Earlier Raja witnesses and museum original retry17October. No current offer, human review or publication inferred. |
 | UTP-EVT-2026101003 | 2026-10-10T12:03:21.358785+00:00 | Source-scoped seasonal navigation prepared for the existing Osha review collection; no merge or publication. | Review month/recurrence filtering and source-scoped food notes in the existing draft collection. Preserve all 14–17 October textual, local and serving-evidence holds; source workspace remains scheduling authority. |
 | UTP-EVT-2026101004 | 2026-10-10T15:24:02.890568+00:00 | Prathamastami narrative and Enduri food evidence prepared for existing draft review branch.53 profiles; no merge or publication. | Prathamastami family and food narrative reconciled into the existing 53-profile draft. Preserve historical original-image, cited1915 text and situated household gaps, with17October retry. Existing14–17October holds remain; source workspace remains scheduling authority. No publication or current food offer inferred. |
+| UTP-EVT-2026101005 | 2026-10-10T22:24:23.846715+00:00 | Dutiya narrative and Ghanta food evidence prepared for existing draft review branch.53 profiles; no merge or publication. | Dutiya offering and Ghanta food account reconciled into the existing 53-profile draft. Full katha and dated historical origins remain unresolved; preserve source-specific regional and food differences and17October retry. Deepen Budhei (OSHA-005) next using saved records first. Source workspace remains scheduling authority; all14–17October holds remain. No current serving offer or publication inferred. |
 
 ## Deferred extensions
 

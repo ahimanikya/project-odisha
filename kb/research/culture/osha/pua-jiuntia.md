@@ -66,3 +66,10 @@ Ashwina and the lunar rule support cultural browsing. No annual date, public hos
 [Bhai Jiuntia](bhai-jiuntia.md).
 
 No project fieldwork, human cultural review or image permissions are claimed.
+
+
+## 2026-10-10 · Dutiya comparison deepened
+
+[Dutiya](dutiya.md) now retains an attributed Jimutavahana retelling alongside distinct coastal food/animal descriptions. Its full local fox-and-bird katha is still missing; shared names do not erase this western page’s differences.
+
+[Related reading](dutiya.md) — Source-linked comparison retains regional names, food roles and thread/leaf differences; related reading does not establish identical practices or stories.

@@ -76,3 +76,8 @@ Prepared 10 October 2026 from saved research. Original source-check dates are pr
 ## 2026-10-10 · Prathamastami row revised locally
 
 The Prathamastami row now records source-specific offerings and revised provenance. It remains under Margasira with its finer calendar disagreement visible. This revision is reconciled into draftPR145; the earlier navigation implementation receipt is historical, not a claim that this new content is published.
+
+
+## 2026-10-10 · Dutiya row revised locally
+
+The Dutiya food-role row now records offering, next-day meal/exchange and the unresolved lunar-day comparison. This local revision awaits draftPR145 reconciliation; prior pushed receipt is historical.

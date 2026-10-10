@@ -138,3 +138,8 @@ Printed16/PDF2. Skanda Sasthi Brata listed in Chaitra; no named food or narrativ
 ## 2026-10-10 · Guru Purnima reading
 
 Printed16/PDF2. Guru Purnima Brata assigned to Pausa; no specific story or food in entry. [Profile](../culture/osha/guru-purnima-brata.md).
+
+
+## 2026-10-10 · Dutiya scoped reading
+
+Printed15/PDF1 and printed17/PDF3. Saved original pages visually inspected: fox/eagle, Apamaranga branch, offered produce and next-day ghanta. Named fruit forms retained without botanical identification. [Profile](../culture/osha/dutiya.md).

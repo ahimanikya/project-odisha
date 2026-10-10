@@ -186,3 +186,8 @@ The [Raja service account](../visitor-index/seasonal-food-offer-evidence.md) nam
 ## 2026-10-10 · Enduri and the occasion
 
 [Enduri](enduri-pitha.md) and [Prathamastami](../culture/osha/prathamastami.md) now connect the saved leaf-steaming method to gifts, blessings and source-specific offerings. A published paneer filling does not establish dairy in every version; alternative leaves remain unverified.
+
+
+## 2026-10-10 · Ghanta: retain the occasion
+
+[Ghanta](ghanta-tarkari.md) and [Dutiya](../culture/osha/dutiya.md) distinguish offered produce, next-day cooking and exchange. Source-named fruits, a leaf or branch and a general cuisine listing are not a universal recipe.

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "task_id": "RES-077",
-  "run_id": "2026-10-10-prathamastami",
-  "checked_at": "2026-10-10T14:41:06.609060+00:00",
+  "run_id": "2026-10-10-dutiya",
+  "checked_at": "2026-10-10T16:41:39.080658+00:00",
   "scope": "Fifty-three selected seasonal entries and fifty-three linked profiles; overlapping traditions are not statewide totals. No new current venue verified.",
   "user_direction": "Explore osha/brata/parba through food, season and everyday life; consider a visitor food calendar.",
   "entries": [
@@ -163,24 +163,28 @@
       "name": "Dutiya Osha",
       "observance_type": "osha",
       "foods": [
-        "ghanta"
+        "ghanta tarkari"
       ],
-      "food_paths": [],
+      "food_paths": [
+        "food/ghanta-tarkari"
+      ],
       "traditional_month": "Ashwina",
       "season_window": null,
-      "calendar_rule": null,
+      "calendar_rule": "Mahanti dark eighth; Tripathy seventh-day conflict retained. No annual date adopted.",
       "occurrence_year": null,
       "gregorian_date": null,
       "geography": "Odisha; locality and household distribution not established",
       "source_ids": [
         "osha-review2006",
         "osha-mahanti",
+        "osha-dutiya-tripathy2023",
         "osha-nmm-catalogue",
-        "osha-osm-literature"
+        "osha-osm-literature",
+        "food-jajpur-tourism-ghanta"
       ],
-      "source_locator": "Printed pp.15,17",
+      "source_locator": "Dash printed15,17/PDF1,3; Mahanti printed58/PDF74; Tripathy narrative paragraphs. Institutional catalogues are leads only.",
       "evidence_status": "documented_association",
-      "notes": "Essay describes offered fruits/vegetables used for ghanta the following day. Do not merge every ghanta recipe or source-listed regional alias. Original PDF recovered 7 October; locality and calendar limitations remain. Text-witness checkpoint 7 October: catalogue references do not establish practice. Read profile for source-specific offerings; dates and venues remain unknown.",
+      "notes": "Offered produce becomes next-day ghanta in Dash;21 vegetables and exchange belong to Mahanti’s coastal account. Named fruits/items are not a complete recipe. Regional Pua Jiuntia foods and general Jajpur cuisine are not transferred into a universal Dutiya menu.",
       "venue_ids": [],
       "current_serving_availability": null,
       "visitor_access": null,
@@ -3566,6 +3570,56 @@
       "status": "retrieved_existing_source_new_scope",
       "locator": "Prathamastami paragraph and following Manabasa paragraph; web lines172–173",
       "scope": "Existing source identity reused; original article re-opened and HTML captured. Named foods and sequence remain author-specific."
+    },
+    {
+      "source_id": "osha-dutiya-tripathy2023",
+      "url": "https://odishasambad.in/jimut-bahan-puja-or-dutiya-usha-in-our-literature-an-article-by-rajalakshmi-tripaty/",
+      "checked_at": "2026-10-10T16:41:39.080658+00:00",
+      "status": "retrieved",
+      "locator": "Byline/date and two narrative paragraphs; web lines23–28",
+      "scope": "Primary evidence of this author’s published retelling, not an inspected Ramayana edition or proof of observance origin. Seventh-day, early panji, Dhauli, historical reconciliation and health claims not adopted.",
+      "method": "Original HTML and scoped Odia paragraphs read; no full source-text translation or human Odia review"
+    },
+    {
+      "source_id": "food-jajpur-tourism-ghanta",
+      "url": "https://odishatourism.gov.in/en/destinations/jajpur",
+      "checked_at": "2026-10-10T16:41:39.080658+00:00",
+      "status": "retrieved",
+      "locator": "Local Food & Cuisine, Desi Ghanta Tarkari & Macha Besara heading",
+      "scope": "Institutional promotional description lists home-style mixed vegetable curry alongside a separate mustard fish preparation. Place association only; no Dutiya connection, recipe, dated menu, serving venue or current availability established.",
+      "method": "Original HTML and scoped gastronomy paragraph inspected"
+    },
+    {
+      "source_id": "osha-review2006",
+      "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf",
+      "checked_at": "2026-10-10T16:41:39.080658+00:00",
+      "status": "saved_evidence_reused",
+      "locator": "Printed15/PDF1 and printed17/PDF3",
+      "scope": "Saved original pages visually inspected: fox/eagle, Apamaranga branch, offered produce and next-day ghanta. Named fruit forms retained without botanical identification."
+    },
+    {
+      "source_id": "osha-mahanti",
+      "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf",
+      "checked_at": "2026-10-10T16:41:39.080658+00:00",
+      "status": "saved_evidence_reused",
+      "locator": "Printed58/PDF74, Dwitiya osha",
+      "scope": "Saved original page visually inspected: attributed Surya-parentage belief, fox/kite, aparamanga leaf,21 vegetables and ghanta exchange."
+    },
+    {
+      "source_id": "osha-nmm-catalogue",
+      "url": "https://www.namami.gov.in/sites/default/files/Orissa_State_Museum_Bhubaneswar_Odisha.pdf",
+      "checked_at": "2026-10-10T16:41:39.080658+00:00",
+      "status": "saved_evidence_reused",
+      "locator": "PDF21 and45, ORPR-106 and OL-2452",
+      "scope": "Saved catalogue metadata reused; manuscript contents and dates remain unknown."
+    },
+    {
+      "source_id": "osha-osm-literature",
+      "url": "https://www.odishamuseum.nic.in/?field_abstraction_tid=All&field_author_value=&field_category_tid=All&field_subject_value=&page=4&q=palm-leaf-ol",
+      "checked_at": "2026-10-10T16:41:39.080658+00:00",
+      "status": "saved_evidence_reused",
+      "locator": "OL/2673 and OL/2674",
+      "scope": "Saved institutional catalogue records reused; images and full text not newly recovered."
     }
   ],
   "failed_fetches": [
@@ -4754,6 +4808,44 @@
       "error": "Internal Error",
       "attempted_at": "2026-10-10T14:41:06.609060+00:00",
       "retry_after": "2026-10-17"
+    },
+    {
+      "url": "https://magazines.odisha.gov.in/orissareview/2018/Sept-Oct/engpdf/sept-oct-2018.pdf",
+      "status": "unavailable",
+      "method": "Web reader then direct HTTPS",
+      "reason": "Web reader502; direct HTTPS certificate expired. Original pages not retrieved; indexed Subarnapur passage not adopted.",
+      "retry_after": "2026-10-17"
+    },
+    {
+      "url": "https://www.gapuphotography.com/2018/10/ghantia.html",
+      "status": "unavailable",
+      "method": "Web reader",
+      "reason": "Internal fetch error; indexed personal food account not adopted.",
+      "retry_after": "2026-10-17"
+    },
+    {
+      "url": "https://magazines.odisha.gov.in/orissareview/2018/Sept-Oct/engpdf/sept-oct-2018.pdf",
+      "at": "2026-10-10T16:24:34.657713+00:00",
+      "status": "unavailable",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "url": "https://odishasambad.in/jimut-bahan-puja-or-dutiya-usha-in-our-literature-an-article-by-rajalakshmi-tripaty/",
+      "at": "2026-10-10T16:24:34.657939+00:00",
+      "status": "unavailable",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "url": "https://odishatourism.gov.in/en/destinations/jajpur",
+      "at": "2026-10-10T16:24:34.658019+00:00",
+      "status": "unavailable",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "url": "https://magazines.odisha.gov.in/orissareview/2018/Sept-Oct/engpdf/sept-oct-2018.pdf",
+      "at": "2026-10-10T16:38:24.247261+00:00",
+      "status": "unavailable",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1082)>"
     }
   ],
   "followup_candidates": [

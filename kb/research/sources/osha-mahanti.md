@@ -171,3 +171,8 @@ Printed116–119 / PDF132–135 visually inspected. [Raja](../culture/osha/raja-
 ## 2026-10-10 · Prathamastami scope reading
 
 Printed59 / PDF75, Prathamastami paragraph. Saved PDF and newly rendered page inspected; household sequence and enduri/kheeri; no fresh retrieval. [Profile](../culture/osha/prathamastami.md).
+
+
+## 2026-10-10 · Dutiya scoped reading
+
+Printed58/PDF74, Dwitiya osha. Saved original page visually inspected: attributed Surya-parentage belief, fox/kite, aparamanga leaf,21 vegetables and ghanta exchange. [Profile](../culture/osha/dutiya.md).

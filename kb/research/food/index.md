@@ -42,3 +42,8 @@ Foods, ingredients and culinary story opportunities.
 [Bela pana](bela-pana.md) — summer preparation, credited variations and a documented Odia New Year serving.
 
 [Mohu/honey](mohu-honey.md) · [Mahua/mohula](mahua-mohula.md) — named forest-product profiles, with supply origin and local season still requiring verification.
+
+
+## 2026-10-10 · Ghanta and shared food
+
+[Ghanta tarkari](ghanta-tarkari.md): preparation context and offering-to-meal roles.

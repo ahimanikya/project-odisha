@@ -438,3 +438,7 @@ Raja earlier witnesses, museum article and situated local accounts retry17Octobe
 ## 2026-10-10 · Prathamastami review
 
 Prathamastami original chapter image, cited1915 text and situated household accounts retry17October. Existing14–17October holds remain. No current serving offers verified.
+
+## 2026-10-10 · Dutiya review
+
+Dutiya full original katha, manuscript images, named plant identities and situated household accounts remain open; retry17October. Existing14–17October holds remain. No current serving offers verified.

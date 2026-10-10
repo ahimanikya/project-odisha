@@ -310,56 +310,86 @@
       "name": "Dutiya Osha",
       "profile_path": "culture/osha/dutiya.md",
       "route": "/culture/osha/dutiya/",
-      "source_checked_on": "2026-10-07",
+      "source_checked_on": "2026-10-10",
       "calendar_status": "source_month",
       "month_ids": [
         "ashwina"
       ],
       "unresolved_month_ids": [],
-      "calendar_note": "Month label reused from the saved Odisha account; exact annual date remains unverified.",
+      "calendar_note": "Ashwina supported; seventh/eighth-day conflict retained; annual date unknown.",
       "traditional_month_verbatim": "Ashwina",
-      "calendar_rule_verbatim": null,
+      "calendar_rule_verbatim": "Mahanti dark eighth; Tripathy seventh-day conflict retained. No annual date adopted.",
       "food_terms_verbatim": [
-        "ghanta"
+        "ghanta tarkari"
       ],
-      "food_role_note": "Vegetables are offered, then cooked into ghanta and exchanged in the coastal account.",
+      "food_role_note": "Produce offered as bhoga becomes ghanta for meal/exchange; source-specific fruit/leaf terms are not a complete recipe. General food listing is not a ritual serving offer.",
       "current_serving_availability": null,
       "annual_date": null,
       "source_ids": [
+        "osha-review2006",
         "osha-mahanti",
+        "osha-dutiya-tripathy2023",
         "osha-nmm-catalogue",
         "osha-osm-literature",
-        "osha-review2006"
+        "food-jajpur-tourism-ghanta"
       ],
       "evidence_sections": [
         {
-          "section_title": "A documented sequence",
+          "section_title": "Produce changes its role",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-mahanti"
+          ],
+          "locator": "Dash printed15/PDF1 and17/PDF3; Mahanti printed58/PDF74"
+        },
+        {
+          "section_title": "A maternal vow and its figures",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-review2006"
+          ],
+          "locator": "Mahanti printed58/PDF74; Dash printed15/PDF1"
+        },
+        {
+          "section_title": "A published story of choosing to protect another",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-dutiya-tripathy2023"
+          ],
+          "locator": "Published6October2023; narrative paragraphs, web27–28"
+        },
+        {
+          "section_title": "An offering list is not a recipe",
           "evidence_class": "documented_description",
           "source_ids": [
             "osha-review2006"
           ],
-          "locator": "Printed pp.15,17"
+          "locator": "Printed17/PDF3, right column, Dutiya passage followed by Danda Panhara"
         },
         {
-          "section_title": "A coastal food account",
-          "evidence_class": "documented_description",
-          "source_ids": [
-            "osha-mahanti"
-          ],
-          "locator": "Printed p.58, PDF p.74"
-        },
-        {
-          "section_title": "Manuscripts to compare",
-          "evidence_class": "documented_description",
+          "section_title": "Where history still needs a text",
+          "evidence_class": "research_limit",
           "source_ids": [
             "osha-nmm-catalogue",
-            "osha-osm-literature"
+            "osha-osm-literature",
+            "osha-dutiya-tripathy2023"
           ],
-          "locator": "NMM PDF pp.21,45; museum OL/2673 and OL/2674"
+          "locator": "NMM PDF21,45; museum OL/2673,2674; Tripathy web26; existing text-witness portal lead"
+        },
+        {
+          "section_title": "A seasonal enquiry, not a promised meal",
+          "evidence_class": "visitor_context",
+          "source_ids": [
+            "osha-mahanti",
+            "food-jajpur-tourism-ghanta"
+          ],
+          "locator": "Mahanti printed58/PDF74; retained text-witness calendar conflict; Tourism gastronomy heading"
         }
       ],
-      "profile_digest": "2d2b8bcd37aba038f84fd11091d2e43078c654562a69a3db81738c86ed4bca3a",
-      "seasonal_entry_digest": "dc962cc5e05ade2d1c75d4e815e091c9778a7c185360650fa9e70aa9add50ee4"
+      "profile_digest": "76b5795dc2894d29dbc7f414320c626715c941afbd9ff89764eed2f14a177520",
+      "seasonal_entry_digest": "cf9e3e437a6ca5ee3ea4e6457f4ec251aac6f8a57b19f19878c2e03bf9243670"
     },
     {
       "profile_id": "OSHA-005",
@@ -4136,6 +4166,19 @@
       "run_id": "2026-10-10-prathamastami",
       "at": "2026-10-10T14:41:06.609060+00:00",
       "scope": "Prathamastami row refreshed from revised profile and seasonal entry; prior draft implementation receipt retained, new row not yet pushed."
+    },
+    {
+      "at": "2026-10-10T15:32:38.691292+00:00",
+      "run_id": "2026-10-10-prathamastami-review",
+      "status": "draft_candidate_reconciled",
+      "prior_revision": "8491012a52f8994389faca4232553e3dbbd852c8",
+      "revision": "e336ff1d5cddd80139e3b7da5e1f418afa59b114",
+      "published": false
+    },
+    {
+      "run_id": "2026-10-10-dutiya",
+      "at": "2026-10-10T16:41:39.080658+00:00",
+      "scope": "Dutiya profile/food-role row revised locally; prior implementation receipt retained."
     }
   ]
 }

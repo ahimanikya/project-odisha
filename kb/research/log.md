@@ -484,3 +484,7 @@ Saved seasonal-navigation audit reconciled into the existing 53-profile draft co
 ## 2026-10-10 · Prathamastami review
 
 Prathamastami joins fifteen narrative checkpoints in the53-profile review candidate. No new source research, merge or publication.
+
+## 2026-10-10 · Dutiya review
+
+Dutiya remains an early research note in the53-profile review candidate:15 narrative checkpoints and38 early notes. No new source research, merge or publication.

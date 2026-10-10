@@ -453,3 +453,7 @@ The seasonal-navigation derivative reuses saved profile/seasonal identities, sec
 ## 2026-10-10 · Prathamastami review
 
 Prathamastami and Enduri study reconciled using saved captures. Historical discovery leads remain distinct from inspected sources.
+
+## 2026-10-10 · Dutiya review
+
+Dutiya and Ghanta study reconciled using saved captures. Historical discovery leads remain distinct from inspected sources.

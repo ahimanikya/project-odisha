@@ -228,3 +228,8 @@ The [dated serving-evidence study](seasonal-food-offer-evidence.md) records an o
 ## 2026-10-10 · Prathamastami enquiry notes
 
 [Prathamastami](../culture/osha/prathamastami.md) now has a fuller family and food narrative. Ask which enduri version is being prepared and on what confirmed date. An operator’s personal blog about receiving pitha is not a public serving offer; all availability and consent fields remain unknown.
+
+
+## 2026-10-10 · Dutiya: identify the preparation
+
+[Dutiya](../culture/osha/dutiya.md) and [Ghanta](../food/ghanta-tarkari.md) distinguish an observance-associated shared dish from a general cuisine description. Annual date, venue, price and household welcome remain unknown.
