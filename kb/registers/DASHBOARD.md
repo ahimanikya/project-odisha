@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `ed20b621acd0822b805dcc19b9d2dc95f8ef4a0b630b166578b9ac2cbe1d72ec`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `33206b749be0c3c88ef48d331ff4fd971b9d64109f36f5a7df2afc1627976f65`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -235,6 +235,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-222 · Make Growing Odisha a reader story about what growth measures | completed | applied | Ahimanikya Satapathy | KB story delivered. Independent economics review, participant reporting and illustrated website treatment remain separate work. | — |
 | UTP-WORK-223 · Give Habaspuri a coherent source-led textile profile | completed | applied | Ahimanikya Satapathy | KB profile delivered. Practitioner review, cooperative chronology and illustrated website treatment remain separate work. | — |
 | UTP-WORK-224 · Develop Kotpad colour and maker reader profile | completed | applied | Ahimanikya Satapathy | KB profile delivered. Practitioner terminology review, current arrangements and any website revision remain separate work. | — |
+| UTP-WORK-225 · Give Berhampuri Patta a clear cloth and construction profile | in_progress | reviewed | Ahimanikya Satapathy | Pass required checks and merge reviewed documentation. | — |
 
 ## Pending human review and decisions
 
@@ -714,6 +715,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-190 | pass_with_limitations | False | Same-assistant source and editorial review; no independent economist, participant or human editorial review.; Bounded source passages and two survey tables checked; not a comprehensive refresh of every economic series. Source estimates and displayed rounding retained.; No producer interview, field visit, household income, job creation, environmental outcome or commercial project completion established.; KB-only reader draft with a six-year table. No new photography, website publication, search eligibility or participant media permission. |
 | UTP-REV-191 | pass_with_limitations | False | Same-assistant documentary and editorial review; no independent practitioner or human editorial review.; The directory was re-inspected from a saved official PDF because its live endpoint returned 502. It does not establish current operations, stock or visiting arrangements.; The held Ugrasen Meher revival lead and cooperative formation chronology remain unresolved; no new retrieval of the held study or society registration records.; No textile authentication, current GI renewal, authorized-user status, maker interview, field visit or image reuse permission established. KB-only reader draft; no website publication or search expansion. |
 | UTP-REV-192 | pass_with_limitations | False | Same-assistant source and editorial review; practitioner, community terminology and independent human review remain open.; Award announcement extracted text checked through web PDF reader; screenshot cache miss and direct retrieval returned HTML, so no fresh visual inspection of the award row is claimed.; No botanical identity, quantified environmental benefit, product certification, current dye recipe or universal gender-role claim independently established.; Film catalogue metadata checked, not the complete film or current screening availability. No source photograph or film reproduced; no new reuse rights assumed.; No fieldwork, current stock, GI renewal, workshop invitation or human review claimed. KB-only profile; existing website narrative and search eligibility remain separate. |
+| UTP-REV-193 | pass_with_limitations | False | Same-assistant documentary and editorial review; no independent practitioner, local terminology or human review.; Undated directory describes examples and institutional product associations; it does not establish current service, stock, maker attribution for other pieces or authentication.; Incredible India disagreement is preserved from the saved2October check; its endpoint was not re-retrieved and no publisher correction claimed. Royal-origin, ritual and tourism loom narratives not adopted as new claims.; No fieldwork, visit arrangement, current GI status, relationship, image rights or commercial activation established. KB-only reader profile; no public website or search expansion. |
 
 ## Publication and application history
 
@@ -849,7 +851,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-324 | 2026-10-10T11:05:04.042086+00:00 | Taste Odisha campaign expanded into attributed food story. Existing sources re-inspected, ICAR PDF recovered and enduri page visually checked. Recipe and visitor limits retained; item35 awaits checked merge. | Pass required checks, merge reviewed documentation and record delivery. |
 | UTP-EVT-325 | 2026-10-10T11:33:04.817544+00:00 | PR178 passed required checks and exact-head merge confirmed after transient transport reset. Taste Odisha article matches fetched merge; item35 delivered toKB. Public website unchanged. | Continue eligible backlog work; local recipe and visitor checks remain open. |
 | UTP-EVT-326 | 2026-10-10T14:03:01.044724+00:00 | Coastal outline expanded into connected stone, painting and cloth reader journey. Three primary source passages reviewed; current access and media gaps retained. Item36 awaits checked merge. | Pass required checks and merge exact reviewed documentation. |
 | UTP-EVT-327 | 2026-10-10T14:14:01.864422+00:00 | PR179 passed required checks and exact reviewed head merged. Coastal materials article matches fetched merge; item36 delivered toKB. Public website unchanged. | Continue eligible backlog; practitioner and current visitor checks remain open. |
@@ -859,6 +860,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-331 | 2026-10-10T15:28:56.120571+00:00 | PR181 passed required checks and exact reviewed head merged. Habaspuri profile matches fetched merge; item38 delivered to KB. Public website unchanged. | Continue eligible backlog; practitioner review and local confirmations remain open. |
 | UTP-EVT-332 | 2026-10-10T16:40:54.208802+00:00 | Kotpad reader profile connects sourced colours, motif names, maker credits and film catalogue. Original textile page inspected; award-year text checked with visual retrieval limitation retained. Earlier research preserved. Item39 awaits checked merge. | Pass required checks and merge reviewed documentation. |
 | UTP-EVT-333 | 2026-10-10T16:47:17.200299+00:00 | PR182 passed required checks and reviewed head merged. Kotpad profile matches fetched merge; item39 delivered to KB. | Continue eligible backlog; practitioner review and local confirmations remain open. |
+| UTP-EVT-334 | 2026-10-10T17:23:38.167143+00:00 | Berhampuri Patta reader profile developed from original source examples; joda classification and construction checked, publisher disagreement and earlier research preserved. Item40 awaits checked merge. | Pass required checks and merge reviewed documentation. |
 
 ## Deferred extensions
 
