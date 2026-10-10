@@ -1,0 +1,69 @@
+{
+  "recorded_at": "2026-10-10T17:23:38.167143+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-040",
+  "work_id": "UTP-WORK-225",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "output": "research/handlooms/berhampuri-patta.md",
+  "brief": {
+    "reader": "Reader curious about southern Odisha textiles and a coastal journey.",
+    "reason_to_read": "Learn to notice border and end-panel work while understanding the joda textile distinction.",
+    "memorable_detail": "A temple-shaped border and Salari anchal provide two details to ask a maker about.",
+    "visual_treatment": "Saved original PDF pages67 and19–20 rendered and inspected; no source image reproduced.",
+    "next_step": "Research Gopalpur or compare textile details; confirm any maker encounter separately."
+  },
+  "reuse": {
+    "research_map_read": true,
+    "queries": [
+      "Berhampuri"
+    ],
+    "inputs": [
+      "research/handlooms/berhampuri-patta.md",
+      "research/sources/handloom-berhampur-tourism-conflict.md",
+      "research/references/data/handloom-markets.json",
+      "research/stories/handlooms-from-loom-to-market.md"
+    ],
+    "queue_pointers_inspected": [
+      "RES-012",
+      "RES-022"
+    ],
+    "earlier_draft_sha256": "45a87e9d3153d26e4821061888ca4713a53db87b6407edd52d91f506a00b2b6f",
+    "preserved": "Original research body retained verbatim below reader introduction. Stable source IDs preserved; tourism classification disagreement remains explicit. No research dataset, queue or website narrative edits."
+  },
+  "sources": [
+    {
+      "id": "handloom-mapping2017",
+      "url": "https://ignca.gov.in/PDF_data/Report_Mapping_Indian_Textiles.pdf",
+      "sha256": "276ac0e84f6f9f77787da53fd5eb76d87cfd1f4e8b332d947282ef3c53b3a861",
+      "inspection": "Saved original PDF p67 re-read and rendered. Berhampuri section joda as men’s textile and kumbha/phoda motifs checked. Adjacent Bomkai, Gopalpur and Dhalapathar passages not used to characterize Berhampuri."
+    },
+    {
+      "id": "handloom-weaver-directory",
+      "url": "https://handlooms.nic.in/assets/img/Weavers%20Database/Odisha637322660372253324.pdf",
+      "sha256": "6d782f16e9a7eef8b8f6bf3f5e7676d8c7050647ca816b79b822ae54174688b0",
+      "inspection": "Saved31-page document. Pages3–4 rows12–13 text re-read; pages19–20 rendered/visually checked. Berhampur and Choudeswari cooperative product profiles: silk warp/weft,kumbha,Salari extra-weft panel,product range; table plain weave/three-shuttle/extra-weft motifs. Contact details not published."
+    },
+    {
+      "id": "handloom-berhampur-tourism-conflict",
+      "url": "https://www.incredibleindia.gov.in/en/odisha/berhampur-patta-phoda-kumbha-saree-and-joda",
+      "inspection": "Prior2October source record reused, not fresh endpoint retrieval. Bangles classification and associated origin/loom text remain excluded; no publisher correction assumed."
+    }
+  ],
+  "verification": {
+    "claims": "Construction confined to the relevant directory rows/profiles. Ghose textile classification attributed, tourism disagreement dated. Earlier body preservation asserted against HEAD.",
+    "local_checks": "1093research concepts,303relationships,1247KB concepts/4994links; registers/program,workbench build/check;six Python/three Node tests;whitespace pass.",
+    "visual": "Original PDF pages67,19–20 visually inspected after correcting local fontconfig/cache path for rendering. No website/asset change."
+  },
+  "limitations": [
+    "Same-assistant documentary and editorial review; no independent practitioner, local terminology or human review.",
+    "Undated directory describes examples and institutional product associations; it does not establish current service, stock, maker attribution for other pieces or authentication.",
+    "Incredible India disagreement is preserved from the saved2October check; its endpoint was not re-retrieved and no publisher correction claimed. Royal-origin, ritual and tourism loom narratives not adopted as new claims.",
+    "No fieldwork, visit arrangement, current GI status, relationship, image rights or commercial activation established. KB-only reader profile; no public website or search expansion."
+  ],
+  "delivery": "Pending required checks and reviewed-head documentation merge; deployment not required."
+}

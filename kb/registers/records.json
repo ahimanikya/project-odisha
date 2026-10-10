@@ -6553,6 +6553,28 @@
         "records/kotpad-profile-merged-2026-10-10.json"
       ],
       "acceptance_criteria": "Develop the existing Kotpad research page into a connected reader profile centred on colour, maker credit and a documentary viewing lead. Reuse original source identities and saved narratives; check selected primary source passages, preserve earlier notes and the 2018 award-year correction. Do not infer certified organic status, current dye recipes, stock, workshop visits or that the film was watched. Validate KB, classification and derived indexes, pass required PR checks and save the reviewed-head merge receipt. KB-only; no website deployment or search expansion."
+    },
+    {
+      "id": "UTP-WORK-225",
+      "title": "Give Berhampuri Patta a clear cloth and construction profile",
+      "category": "research_and_writing",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Pass required checks and merge reviewed documentation.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-189",
+        "UTP-REV-193"
+      ],
+      "evidence": [
+        "records/berhampuri-profile-review-2026-10-10.json",
+        "research/handlooms/berhampuri-patta.md"
+      ],
+      "acceptance_criteria": "Develop the existing Berhampuri Patta page into a reader profile explaining source-attributed silk, border/end-panel construction and the joda textile distinction. Reuse saved primary documents and original source IDs, preserve the publisher disagreement and original research body, and avoid royal-origin, current cooperative, stock, authentication or visit claims. Validate research/classification, KB and derived indexes; pass required PR checks and save the reviewed-head merge receipt. KB-only; no website deployment or search expansion."
     }
   ],
   "decisions": [
@@ -15529,6 +15551,29 @@
         "No botanical identity, quantified environmental benefit, product certification, current dye recipe or universal gender-role claim independently established.",
         "Film catalogue metadata checked, not the complete film or current screening availability. No source photograph or film reproduced; no new reuse rights assumed.",
         "No fieldwork, current stock, GI renewal, workshop invitation or human review claimed. KB-only profile; existing website narrative and search eligibility remain separate."
+      ]
+    },
+    {
+      "id": "UTP-REV-193",
+      "title": "Berhampuri construction and reader-profile source review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-225",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/berhampuri-profile-review-2026-10-10.json"
+      ],
+      "limitations": [
+        "Same-assistant documentary and editorial review; no independent practitioner, local terminology or human review.",
+        "Undated directory describes examples and institutional product associations; it does not establish current service, stock, maker attribution for other pieces or authentication.",
+        "Incredible India disagreement is preserved from the saved2October check; its endpoint was not re-retrieved and no publisher correction claimed. Royal-origin, ritual and tourism loom narratives not adopted as new claims.",
+        "No fieldwork, visit arrangement, current GI status, relationship, image rights or commercial activation established. KB-only reader profile; no public website or search expansion."
       ]
     }
   ],

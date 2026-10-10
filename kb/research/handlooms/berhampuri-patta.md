@@ -1,7 +1,7 @@
 ---
 type: "Textile"
 title: "Berhampuri Patta"
-description: "Berhampuri Patta — research and reuse notes."
+description: "Meet Berhampuri Patta through its documented silk, temple border and decorated end panel, with the joda source disagreement preserved."
 tags: ["handlooms", "brahmapur-berhampur"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}
@@ -9,12 +9,59 @@ sources: [{"id": "weaving-tourism", "title": "Handloom", "resource": "https://od
 verified: [{"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}]
 geography: "Brahmapur / Berhampur"
 aliases: ["Berhampuri Patta", "berhampuri patta"]
-verification_scope: "Sourced knowledge paragraph checked against the cited extract; story and next-research sections are proposals."
+verification_scope: "10 October 2026: saved original textile report and cooperative-directory examples re-inspected; publisher disagreement preserved, without a current operating or product-authentication claim."
 stale_after: "2027-09-27T00:00:00Z"
-readiness: "Research nucleus; feature needs local detail and media"
+readiness: "Source-led reader profile; practitioner terminology, local arrangements and media remain open."
+revised_on: "2026-10-10"
+human_review_claimed: false
 ---
 
 # Berhampuri Patta
+
+**Let the border catch your eye. Then ask how it became part of the cloth.**
+
+A textile can give you a reason to look at a city differently. Berhampuri Patta opens that possibility for Berhampur in Ganjam: a silk surface, a patterned edge, and the work that joins them. The first encounter can begin with one detail rather than a vocabulary lesson.
+
+## A border and an end panel
+
+The official Odisha weaver directory describes its Berhampur Patta examples as silk in both warp and weft—the two directions of yarn in the fabric. It identifies temple-shaped *kumbha* border designs and an extra-weft end panel called *Salari anchal*. Its table describes plain weave with three-shuttle work and additional weft motifs.[^handloom-weaver-directory]
+
+These are descriptions of documented examples. Choose a border detail and a detail in the decorated end of a saree, then ask someone knowledgeable how each was formed. Seeing the yarn or work on a loom would make that answer more tangible, if a maker agrees to show it.
+
+The examples give us a way to begin looking. They cannot certify the fibre, construction or maker of another cloth offered for sale.
+
+## What does joda name here?
+
+In *Mapping Indian Textiles* (2017), **Ruchira Ghose** identifies the Berhampur sari and joda as textiles, distinguishing the sari for women and joda for men. Her Berhampuri section also names kumbha and phoda motifs.[^handloom-mapping2017]
+
+That distinction matters when researching the tradition. Our earlier source check recorded an Incredible India page describing joda as bridal bangles. We use the attributed textile account here and retain the disagreement in the notes below. A tourism description should not quietly change the identity of the thing being described.
+
+For a piece you encounter, ask its wearer or maker what they call it, how it is used and whether a particular occasion gives it significance. Record the explanation with its source; do not assume that an institutional summary answers every local question.
+
+## Put a production name beside the place
+
+The directory associates its examples with **Berhampur Cotton & Silk Weavers Co-operative Society Ltd.** and **Choudeswari Silk Weavers Co-operative Society Ltd.**, both listed in Berhampur, Ganjam. Their illustrated profiles include sarees, joda, dhoti, chaddar and stoles.[^handloom-weaver-directory]
+
+Those names are documentary starting points. A visit, order or demonstration needs current confirmation from a willing host. The directory is undated, and the information here does not establish that a particular service or product is available today.
+
+If you buy a piece, keep its documented maker or production-group credit, fibre description and care advice with the receipt. A place name draws you towards the tradition; the details of a particular cloth help you remember the work itself.
+
+## Carry the question towards the coast
+
+The earlier story idea paired this textile with a southern-coast feature. Begin that reading path with [Gopalpur](../places/gopalpur.md), or compare the ways of noticing cloth in [Habaspuri](habaspuri.md) and the wider [loom-to-market story](../stories/handlooms-from-loom-to-market.md).
+
+This is an invitation to research a journey, not a timed route or an arranged workshop. Give the textile encounter room of its own. One explained border may stay with you longer than a hurried list of shops.
+
+<details>
+<summary>Sources, disagreement and earlier research</summary>
+
+On 10 October 2026, Ghose’s original PDF page67 and the official directory’s pages19–20 were read and visually inspected from saved documents. Directory table rows12–13 on pages3–4 were re-read. No source photograph is reproduced, and no reuse rights are inferred. Practitioner confirmation of terminology and the structure of a particular piece remains open.
+
+The publisher disagreement below is the saved 2 October finding; the tourism page was not retrieved again in this update. Its bangles classification, loom description and royal-origin narrative are not adopted. This is an attributed choice for our reader profile, not a claim that the publisher has corrected its page.
+
+Creative direction: **Ahimanikya Satapathy**. Developed and document-reviewed by the current AI assistant. Earlier research is retained below without rewriting its evidence. No new independent human review, field visit, cooperative relationship, stock confirmation or current GI status is claimed.
+
+### Earlier research checkpoints
 
 ## Sourced knowledge
 
@@ -65,3 +112,9 @@ The [undated official Odisha weaver directory](https://handlooms.nic.in/assets/i
 ## Recovered loom evidence
 
 The official directory describes **three-shuttle work and extra-weft motifs** in rows12–13 (PDF pp.3–4). Its two cooperative profiles (pp.19–20) identify silk in warp and weft, kumbha temple borders and a Salari anchal with supplementary weft. The description covers documented examples and a product range including saree, joda, dhoti, chaddar and stole. It is not a test of every product sold under the name.
+
+</details>
+
+[^handloom-weaver-directory]: [Official Odisha weaver directory](https://handlooms.nic.in/assets/img/Weavers%20Database/Odisha637322660372253324.pdf), undated. Pages3–4, rows12–13; illustrated production profiles, pages19–20. Saved original document re-inspected 10 October 2026; documented examples and associations, not current operations.
+
+[^handloom-mapping2017]: Ruchira Ghose, [Mapping Indian Textiles](https://ignca.gov.in/PDF_data/Report_Mapping_Indian_Textiles.pdf), 2017, PDF p.67, Berhampuri Sari section. Joda classification and motif names only; adjoining sections describe different textile traditions.
