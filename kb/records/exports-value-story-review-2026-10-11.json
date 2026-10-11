@@ -1,0 +1,59 @@
+{
+  "recorded_at": "2026-10-11T15:27:15.649404+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-054",
+  "work_id": "UTP-WORK-239",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "output": "research/trade/merchandise-exports.md",
+  "additional_output": "research/sources/maritime-exports-2026.md",
+  "brief": {
+    "reader": "Readers curious about Odisha’s goods reaching other markets.",
+    "reason_to_read": "Understand an export value without changing baskets or treating money as physical cargo and earnings.",
+    "memorable_detail": "The nearby total-export chart is a larger basket than the goods comparison.",
+    "visual_treatment": "Same-scale goods endpoint bars with nominal basis; separate annual-rate annotation and dated composition.",
+    "next_step": "Willing actual producer/exporter and matched product/transaction/cost evidence."
+  },
+  "reuse": {
+    "research_map_read": true,
+    "queries": [
+      "merchandise exports"
+    ],
+    "queue_pointers_inspected": [
+      "RES-017"
+    ],
+    "inputs": [
+      "research/trade/merchandise-exports.md",
+      "research/trade/export-destinations.md",
+      "research/sources/maritime-exports-2026.md",
+      "research/trade/paradip-throughput.md"
+    ],
+    "earlier_draft_sha256": "8fd5507919395e118e93870229a8228967bfd8f6a9e9564abd72adb5269aa8c6",
+    "preserved": "Earlier body/source footnote retained verbatim; source capture appended without erasing earlier failures. No observation or queue changes."
+  },
+  "sources": [
+    {
+      "id": "maritime-exports-2026",
+      "url": "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf",
+      "sha256": "1af94ebd625a031f4ffb93f2d5307dee91efd1b26b27fea7a98c40cf4677e65c",
+      "inspection": "Full499-page publisher PDF retrieved directly after web size-limit error; printedpp.18–19/PDFpp.65–66 rendered and visually inspected. Section1.7.2 goods47.24to85.54thousandcrore; Figure1.15totalexports and Figure1.16goodscomposition distinguished."
+    }
+  ],
+  "verification": {
+    "claims": "47.24/85.54thousandcrore converted to47240/85540crore. Endpoint81.1%; five-interval CAGR12.61%, compatible with published12.6% precision. Not every-year growth.",
+    "local_checks": "Passed research3791links, classification305relationships, KB5063links, registers/program, catalogue and workbench build/check. Required CI pending.",
+    "visual": "Original two PDFpages visually inspected; written graphic brief, no new website layout."
+  },
+  "limitations": [
+    "Same-assistant source/editorial review; no independent human or exporter review.",
+    "Nominal goods-value endpoints, not real quantity growth, a measured annual series or household returns.",
+    "Goods-plus-services total chart and merchandise composition are distinct; no replacement of canonical measures.",
+    "Destination denominator reconciliation remains open; no country rupee conversion, exact route, exporter testimony or photo rights claimed.",
+    "No new forecast, ranking, causation, website/search eligibility or external activation."
+  ],
+  "delivery": "Pending required checks and reviewed-head KB merge; deployment not required."
+}
