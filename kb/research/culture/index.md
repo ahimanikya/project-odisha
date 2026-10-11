@@ -43,3 +43,5 @@
 [Dalkhai](dalkhai.md) now connects song, occasion and listening in Sounds of Odisha; earlier evidence and viewing limits preserved.
 
 [Daskathia](daskathia.md) connects voice, wooden rhythm and literary storytelling in Sounds of Odisha.
+
+[Ghanta and ghanti](daskathia.md) connects metalworking, ritual sound and local group playing in Sounds of Odisha.
