@@ -45,3 +45,5 @@
 [Daskathia](daskathia.md) connects voice, wooden rhythm and literary storytelling in Sounds of Odisha.
 
 [Ghanta and ghanti](daskathia.md) connects metalworking, ritual sound and local group playing in Sounds of Odisha.
+
+[Pala](daskathia.md) now includes an illustrated Sounds of Odisha listening story; earlier research is preserved.
