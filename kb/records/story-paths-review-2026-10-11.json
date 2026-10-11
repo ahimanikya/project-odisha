@@ -1,0 +1,55 @@
+{
+  "recorded_at": "2026-10-11T07:13:46.894485+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-046",
+  "work_id": "UTP-WORK-231",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "output": "research/stories/index.md",
+  "brief": {
+    "reader": "Readers and editors navigating existing research drafts.",
+    "reason_to_read": "Choose a subject and follow a coherent reading path rather than search folders.",
+    "scope": "Food, cloth, regions, livelihoods, headline measures and creative development; current draft/release distinction visible."
+  },
+  "reuse": {
+    "research_map_read": true,
+    "queries": [
+      "stories"
+    ],
+    "inputs": [
+      "research/stories/index.md",
+      "research/collections/index.md",
+      "research/about/statistics-storytelling.md",
+      "reference/storytelling-standard.md",
+      "research/stories/*.md"
+    ],
+    "queue_pointers_inspected": [
+      "RES-022"
+    ],
+    "earlier_index_sha256": "31a8ab5a0d7594e6ff4cac1f02d70fd7907eaf43abfa34fcbc6fc67e780a145c",
+    "preserved": "Earlier index retained verbatim; article bodies, source data and research queue unchanged."
+  },
+  "verification": {
+    "coverage": {
+      "direct_drafts": 21,
+      "all_linked_once_in_main_guide": true,
+      "main_markdown_destinations": 26,
+      "all_destinations_exist": true,
+      "original_index_preserved": true,
+      "new_research_claims": false
+    },
+    "local_checks": "Research3768links and classification305relationships passed; workbench build/catalogue passed. Registers/bundle/program/workbench consistency checked before commit.",
+    "editorial": "Checked all direct story titles/scopes against existing bodies; summaries use no new numerical or current-operation claims. Main guide leads through reading choices and clearly distinguishes proposed journeys and campaign work."
+  },
+  "limitations": [
+    "Same-assistant editorial and navigation review; no independent reader comprehension or human review.",
+    "Index summaries reuse existing story scope; underlying sources not freshly reverified in this navigation change.",
+    "All21 current direct Markdown story drafts linked once in main guide, with separate narrative collection link; future additions need maintenance.",
+    "KB collection is not a website release list, confirmed travel itinerary or activation of commercial work. No public selection or search eligibility expansion."
+  ],
+  "delivery": "Pending required checks and reviewed-head KB merge; deployment not required."
+}

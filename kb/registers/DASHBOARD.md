@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `ef1cc5bef297cb64e85d3991040f7ba814ea88bce7394dee4b7c7ff60b89db60`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `c1d00609295be56facc3b1644e1902f5b28c9df05cfcf8d6622e098773e20cbd`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -241,6 +241,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-228 · Follow forest products into named local enterprise stories | completed | applied | Ahimanikya Satapathy | KB story delivered. Current cluster operations, product sales and collector receipts remain separate research and fieldwork. | — |
 | UTP-WORK-229 · Connect the work behind a sweet from chhena to customer | completed | applied | Ahimanikya Satapathy | KB story delivered. Current maker accounts, dated batch costs and receipts remain separate research and fieldwork. | — |
 | UTP-WORK-230 · Read Bhubaneswar university rankings through the graduates behind them | completed | applied | Ahimanikya Satapathy | KB story delivered. Current admissions, programme costs and actual graduate accounts remain separate research. | — |
+| UTP-WORK-231 · Give the growing story collection clear reading paths | in_progress | reviewed | Ahimanikya Satapathy | Pass required checks and merge reviewed documentation. | — |
 
 ## Pending human review and decisions
 
@@ -726,6 +727,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-196 | pass_with_limitations | False | Same-assistant documentary/editorial review; no independent human or economics review.; 2021 cluster plans do not establish subsequent completed sales, current operation, ownership, service or community access. Mayurbhanj product list remains collective; Ban Durga district unresolved.; 2023 cumulative programme total includes MFP and non-MFP; precise common sales cutoff unstated. No current ranking, annual turnover or collector-income inference.; No interviews, fieldwork, relationships, outreach, purchase promises, website release or search expansion. |
 | UTP-REV-197 | pass_with_limitations | False | Same-assistant documentary/editorial review; no independent human, economics or maker review.; Pahala case study fieldwork date unstated;10retailers/200customers not a statewide census. Current routes, prices, venue operation and market size not inferred.; Quantity/revenue arithmetic, retailer denominator and GI-date discrepancies retained in canonical dataset. No revenue extrapolation, current GI judgement or food-safety guidance adopted.; Other sweet leads retained as earlier dated research, not freshly confirmed businesses or interviews. No fieldwork, image rights, visit promises, website release or search expansion. |
 | UTP-REV-198 | pass_with_limitations | False | Same-assistant documentary/editorial review; no independent human or student review.; Dated 2024/2025 NIRF University category; no claim about current 2026 ranks or causal learning gains.; 2025 institutional submissions contain earlier four-year UG cohorts, not engineering-only or Odisha-resident-only outcomes. Median salary concerns placed graduates; figures not independently audited.; Intake/admission scope issue retained; no completion-rate, utilisation-rate, statewide jobs or student ROI calculation.; Current programme recognition, admissions, costs, student testimony and image rights remain open. No fieldwork, public website change or search expansion. |
+| UTP-REV-199 | pass_with_limitations | False | Same-assistant editorial and navigation review; no independent reader comprehension or human review.; Index summaries reuse existing story scope; underlying sources not freshly reverified in this navigation change.; All21 current direct Markdown story drafts linked once in main guide, with separate narrative collection link; future additions need maintenance.; KB collection is not a website release list, confirmed travel itinerary or activation of commercial work. No public selection or search eligibility expansion. |
 
 ## Publication and application history
 
@@ -861,7 +863,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-336 | 2026-10-10T23:19:07.454632+00:00 | Paddy payment reader story separates seasonal quantities, FY/KMS windows and payment categories; original report visually checked and earlier draft preserved. Item41 awaits checked merge. | Pass required checks and merge reviewed documentation. |
 | UTP-EVT-337 | 2026-10-11T02:42:35.496803+00:00 | PR184 passed required checks and reviewed head merged. Paddy payment story matches fetched merge; item41 delivered to KB. Founder reiterated next-week permission without routine questions. | Continue eligible backlog; settlement and farmer-income reporting remain open. |
 | UTP-EVT-338 | 2026-10-11T02:46:17.906072+00:00 | Regional rice-cost story explains gross value and cost boundaries; original methods and paddy tables checked, earlier body and unresolved survey year preserved. Item42 awaits checked merge. | Pass required checks and merge reviewed documentation. |
 | UTP-EVT-339 | 2026-10-11T02:49:17.580648+00:00 | PR185 passed required checks and reviewed head merged. Rice cost story matches fetched merge; item42 delivered to KB. Founder reiterated next-week permission without routine questions. | Continue eligible backlog; survey-year confirmation and household reporting remain open. |
@@ -871,6 +872,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-343 | 2026-10-11T04:48:30.095231+00:00 | PR189 passed required checks and reviewed head merged. Sweets supply story matches fetched merge; item44 delivered to KB. Founder reiterated next-week permission without routine questions. | Continue eligible backlog; dated maker accounts and actual receipt evidence remain open. |
 | UTP-EVT-344 | 2026-10-11T05:47:51.217750+00:00 | Dated university story separates ranking scores and positions from graduate cohorts. Original rank rows and PDF tables checked; cohort denominators, salary scope and prior draft preserved. Item45 awaits checked merge. | Pass required checks and merge reviewed documentation. |
 | UTP-EVT-345 | 2026-10-11T05:50:49.834964+00:00 | PR190 passed required checks and reviewed head merged. University cohort story matches fetched merge; item45 delivered to KB. Founder reiterated next-week permission without routine questions. | Continue eligible backlog; current programme and independent outcome evidence remain open. |
+| UTP-EVT-346 | 2026-10-11T07:13:46.894485+00:00 | Story index gains curated reading paths. All21 direct drafts linked once in main guide, extra destinations exist and earlier index preserved. Drafts and reading journeys clearly separated from release and confirmed visits; item46 awaits checked merge. | Pass required checks and merge reviewed documentation. |
 
 ## Deferred extensions
 
