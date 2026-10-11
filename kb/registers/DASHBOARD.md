@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `f9b089f4b193bccaee069809e4246181c460a1c2942883f35f72a7b24ec10aa7`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `7b45ae7b73c22c1b49ce6c1f5947da71b76988e76ffcbf4f3f0a6bab6031e6c3`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -245,6 +245,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-232 · Tell the institution-building story through distinct evidence lenses | completed | applied | Ahimanikya Satapathy | KB story delivered. Original founding records, separate audit opinion and independent participant evidence remain separate blocked research. | — |
 | UTP-WORK-233 · Follow industrial purchases towards the local supplier evidence | completed | applied | Ahimanikya Satapathy | KB story delivered. Named supplier awards, completion/payment and permitted participant accounts remain separate evidence work. | — |
 | UTP-WORK-234 · Read Odisha industrial trade through separate company measures | completed | applied | Ahimanikya Satapathy | KB story delivered. Named destinations, exact material routes, mine-scope reconciliation and participant evidence remain separate work. | — |
+| UTP-WORK-235 · Read the harvest beyond the headline yield | in_progress | reviewed | Ahimanikya Satapathy | Pass required checks and merge reviewed KB draft. | — |
 
 ## Pending human review and decisions
 
@@ -734,6 +735,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-200 | pass_with_limitations | False | Same-assistant source/editorial review; no independent human, accountant or student review.; Dated university-labelled expenses include depreciation/amortisation; separate audit opinion and held scope/vintage questions unresolved.; 2025 NIRF institutional PG tuition-support row has no explicit census day. Not a current enrolment, all-cost coverage, admissions or employment promise.; School, Foundation, university and KIIT boundaries retained. No per-student expense, causal impact, participant testimony or fieldwork inferred.; RES047 original founding records, separate audit opinion and lawful full-text community evidence remain blocked. No queue closure or website/search expansion. |
 | UTP-REV-201 | pass_with_limitations | False | Same-assistant documentary/editorial review; no independent human, supplier or economist review.; Company-reported nominal procurement values in two report editions; same corporate provenance, not independent corroboration. Odisha supplier location does not prove manufacturing origin.; Location share uses all-location MSE purchase denominator; source policy percentages have separate scope. Not total company procurement share, business count, profit, jobs or household outcome.; RSP purchase-order measure retained separately in prior research, not freshly verified or combined into statewide total.; No enterprise award, delivery, payment, interview, photo rights or supplier endorsement obtained. Wider research gaps, website selection and search eligibility unchanged. |
 | UTP-REV-202 | pass_with_limitations | False | Same-assistant source/editorial review; no independent human, worker or trade assurance.; Dated company standalone market/export disclosure and company sales table; not statewide exports or global popularity.; Country count, physical tonnes and export turnover share have different meanings. No named destinations, exact cargo route or tonnes-share conversion supplied.; Mine-output reconciliation, current commissioning, plant allocations, supplier and worker outcomes remain unresolved. No invented interview, job gain or image-rights claim.; Earlier draft and canonical research preserved; no website/search selection expansion. |
+| UTP-REV-203 | pass_with_limitations | False | Same-assistant source/editorial review; no independent human or farmer review.; Dated statewide crop totals; not current forecasts, individual farm yields, unique landowners, causal evaluation or household profit.; Rice production, paddy production and procurement quantity remain distinct; rounded historical precision retained.; Settlement coverage and cost-study survey year remain unresolved in RES-061. No interview, farm inspection or media rights invented.; Original draft and chart retained; no website or search eligibility change. |
 
 ## Publication and application history
 
@@ -869,7 +871,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-344 | 2026-10-11T05:47:51.217750+00:00 | Dated university story separates ranking scores and positions from graduate cohorts. Original rank rows and PDF tables checked; cohort denominators, salary scope and prior draft preserved. Item45 awaits checked merge. | Pass required checks and merge reviewed documentation. |
 | UTP-EVT-345 | 2026-10-11T05:50:49.834964+00:00 | PR190 passed required checks and reviewed head merged. University cohort story matches fetched merge; item45 delivered to KB. Founder reiterated next-week permission without routine questions. | Continue eligible backlog; current programme and independent outcome evidence remain open. |
 | UTP-EVT-346 | 2026-10-11T07:13:46.894485+00:00 | Story index gains curated reading paths. All21 direct drafts linked once in main guide, extra destinations exist and earlier index preserved. Drafts and reading journeys clearly separated from release and confirmed visits; item46 awaits checked merge. | Pass required checks and merge reviewed documentation. |
 | UTP-EVT-347 | 2026-10-11T07:26:45.689892+00:00 | PR191 passed required checks and reviewed head merged. Story reading guide matches fetched merge; item46 delivered to KB. Founder reiterated next-week permission without routine questions. | Continue eligible backlog; article-level research and public editorial review remain separate. |
@@ -879,6 +880,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-351 | 2026-10-11T08:55:08.666610+00:00 | PR193 passed required checks and reviewed head merged. Local-supplier story matches fetched merge; item48 delivered to KB. Founder reiterated next-week permission without routine questions. | Continue eligible backlog; named supplier records and household outcomes remain open. |
 | UTP-EVT-352 | 2026-10-11T09:53:07.397857+00:00 | Ferrochrome trade reader story separates market reach, physical sales and export turnover. Two original report spreads checked; prior draft and mine/community scope holds preserved. Item49 awaits checked merge. | Pass required checks and merge reviewed documentation. |
 | UTP-EVT-353 | 2026-10-11T09:56:02.274977+00:00 | PR194 passed required checks and reviewed head merged. Ferrochrome trade story matches fetched merge; item49 delivered to KB. Founder reiterated next-week permission without routine questions. | Continue eligible backlog; material routes and worker/community outcomes remain open. |
+| UTP-EVT-354 | 2026-10-11T11:01:51.141249+00:00 | Rice harvest reader draft separates area, yield and total rice output, preserves annual setbacks and connects costs, procurement and seed stories. Original historical table visually checked; no farmer or causal outcome claimed. Item50 awaits checked merge. | Pass required checks and merge reviewed KB draft. |
 
 ## Deferred extensions
 
