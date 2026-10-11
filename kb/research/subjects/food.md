@@ -97,3 +97,8 @@ Subject membership is editorial classification. It does not establish historical
 ## 2026-10-10 · Dutiya: produce and care
 
 [Dutiya](../culture/osha/dutiya.md) follows offered produce into [Ghanta](../food/ghanta-tarkari.md) for sharing; published story and regional identities retain their own scope.
+
+
+## 2026-10-10 · Budhei named foods
+
+[Budhei](../culture/osha/budhei.md) and [Kakara](../food/kakara-pitha.md) now separate a dated offering association from general preparation versions.

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "task_id": "RES-077",
-  "run_id": "2026-10-10-dutiya",
-  "checked_at": "2026-10-10T16:41:39.080658+00:00",
+  "run_id": "2026-10-10-budhei",
+  "checked_at": "2026-10-10T23:15:45.717004+00:00",
   "scope": "Fifty-three selected seasonal entries and fifty-three linked profiles; overlapping traditions are not statewide totals. No new current venue verified.",
   "user_direction": "Explore osha/brata/parba through food, season and everyday life; consider a visitor food calendar.",
   "entries": [
@@ -254,25 +254,36 @@
       "name": "Budhei Osha",
       "observance_type": "osha",
       "foods": [
+        "coconut",
+        "banana",
         "fruit offerings",
-        "pitha (types not established)"
+        "muan",
+        "ukhuda",
+        "khai",
+        "kakara",
+        "pitha (other types unspecified)"
       ],
-      "food_paths": [],
+      "food_paths": [
+        "food/kakara-pitha"
+      ],
       "traditional_month": "Bhadraba",
       "season_window": null,
-      "calendar_rule": null,
+      "calendar_rule": "Bhadraba Wednesdays in Mahanti; Pradhan reports differing lunar/solar boundaries and four/five observances. No annual date or universal count.",
       "occurrence_year": null,
       "gregorian_date": null,
       "geography": "Source-scoped Odisha accounts; household and regional distribution not measured",
       "source_ids": [
-        "osha-review2006",
         "osha-mahanti",
+        "osha-review2006",
+        "osha-budhei-pradhan2023",
+        "osha-budhei-puriwaves",
         "osha-nmm-catalogue",
-        "osha-osm-literature"
+        "osha-osm-literature",
+        "osha-budhei-portal-lead"
       ],
-      "source_locator": "Dash p.15; Mahanti pp.56–57",
+      "source_locator": "Mahanti printed56–57/PDF72–73; Pradhan report29–31; Puriwaves myth summary19; catalogue metadata only.",
       "evidence_status": "documented_association",
-      "notes": "Read linked profile for limits; a documented description is not an agreed universal practice. Text-witness checkpoint 7 October: catalogue references do not establish practice. Read profile for source-specific offerings; dates and venues remain unknown.",
+      "notes": "Source-specific offerings: retained coconut broken/offered or used in final pitha. Named Kakara association from one dated local report, not a ritual recipe or operating offer.",
       "venue_ids": [],
       "current_serving_availability": null,
       "visitor_access": null,
@@ -3620,6 +3631,65 @@
       "status": "saved_evidence_reused",
       "locator": "OL/2673 and OL/2674",
       "scope": "Saved institutional catalogue records reused; images and full text not newly recovered."
+    },
+    {
+      "source_id": "osha-budhei-pradhan2023",
+      "url": "https://upantaodisha.com/27/09/2023/15263/",
+      "checked_at": "2026-10-10T23:15:45.717004+00:00",
+      "status": "retrieved",
+      "locator": "Bolagarh dateline, report paragraphs and signed reporter credit; web28–32",
+      "scope": "Primary published local report; named offerings and calendar variations attributed to this account, not statewide prevalence or a tested recipe.",
+      "method": "Original HTML saved; scoped Odia paragraphs inspected"
+    },
+    {
+      "source_id": "osha-budhei-puriwaves",
+      "url": "https://puriwaves.nirmalya.in/feature-article/budhei-sudhei-osha",
+      "checked_at": "2026-10-10T23:15:45.717004+00:00",
+      "status": "retrieved",
+      "locator": "Myth summary paragraph, web19",
+      "scope": "Primary evidence of this website’s published summary only; no identified original katha, author, earliest composition or independent story variant established. Healing claims are narrative beliefs, not medical facts.",
+      "method": "Web reader scoped passage; direct HTML403 unavailable"
+    },
+    {
+      "source_id": "osha-budhei-portal-lead",
+      "url": "https://www.odiaportal.in/2016/08/Download-Budhei-Osha-Budhibaman-Osha-Bahi-Katha-Free-eBook.pdf.html",
+      "checked_at": "2026-10-10T23:15:45.717004+00:00",
+      "status": "retrieved",
+      "locator": "Article body and Download eBook (APP) link",
+      "scope": "Discovery only: current download route points to an app; book contents, edition, author and rights are not verified. Portal wording resembles Dash; not independent ritual corroboration.",
+      "method": "Original HTML inspected after web429; no app installed"
+    },
+    {
+      "source_id": "osha-review2006",
+      "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf",
+      "status": "saved_evidence_reused",
+      "checked_at": "2026-10-10T23:15:45.717004+00:00",
+      "locator": "Printed15/PDF1",
+      "scope": "Saved Budhei-Sudhei entry reused; Bimala/Tarini and sila attribution."
+    },
+    {
+      "source_id": "osha-mahanti",
+      "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf",
+      "status": "saved_evidence_reused",
+      "checked_at": "2026-10-10T23:15:45.717004+00:00",
+      "locator": "Printed56–57/PDF72–73",
+      "scope": "Saved original pages visually inspected: sila/silapua, differing deity identifications, first-to-last coconut and chapter reading. No named pitha types supplied."
+    },
+    {
+      "source_id": "osha-nmm-catalogue",
+      "url": "https://www.namami.gov.in/sites/default/files/Orissa_State_Museum_Bhubaneswar_Odisha.pdf",
+      "status": "saved_evidence_reused",
+      "checked_at": "2026-10-10T23:15:45.717004+00:00",
+      "locator": "PDF13,45: OL-2022 and OL-2443",
+      "scope": "Saved catalogue metadata only; contents and dates not inspected."
+    },
+    {
+      "source_id": "osha-osm-literature",
+      "url": "https://www.odishamuseum.nic.in/?field_abstraction_tid=All&field_author_value=&field_category_tid=All&field_subject_value=&page=4&q=palm-leaf-ol",
+      "status": "saved_evidence_reused",
+      "checked_at": "2026-10-10T23:15:45.717004+00:00",
+      "locator": "OL/2636",
+      "scope": "Saved palm-leaf catalogue metadata only; images not recovered."
     }
   ],
   "failed_fetches": [
@@ -4846,6 +4916,52 @@
       "at": "2026-10-10T16:38:24.247261+00:00",
       "status": "unavailable",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1082)>"
+    },
+    {
+      "url": "https://publication.banamalli.org/products/budhei-osha/",
+      "status": "unavailable",
+      "reason": "Web reader inaccessible; direct HTTPS403; no book recovered.",
+      "retry_after": "2026-10-17"
+    },
+    {
+      "url": "https://www.odiaportal.in/2016/08/Download-Budhei-Osha-Budhibaman-Osha-Bahi-Katha-Free-eBook.pdf.html",
+      "status": "unavailable",
+      "reason": "Web reader429; direct HTML later recovered, but full katha remains app-only.",
+      "retry_after": "2026-10-17"
+    },
+    {
+      "url": "https://puriwaves.nirmalya.in/feature-article/budhei-sudhei-osha",
+      "status": "unavailable",
+      "reason": "Direct HTTPS403; scoped web-reader summary available; no original katha recovered.",
+      "retry_after": "2026-10-17"
+    },
+    {
+      "url": "https://odia.pratilipi.com/series/budhibaman-osha-r-kahani-ma-budhei-budhei-osha-by-ananta-behura-jsynd5raxlud",
+      "status": "unavailable",
+      "reason": "Ananta Behura series lists three locked/app-only parts dated21August2024 while introduction mentions four stories. Metadata only, no full text or edition comparison.",
+      "retry_after": "2026-10-17",
+      "scope": "Full text unavailable; listing metadata only."
+    },
+    {
+      "name": "upanta",
+      "url": "https://upantaodisha.com/27/09/2023/15263/",
+      "retrieved_at": "2026-10-10T22:48:35.039267+00:00",
+      "status": "unavailable",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "name": "banamalli",
+      "url": "https://publication.banamalli.org/products/budhei-osha/",
+      "retrieved_at": "2026-10-10T22:48:35.058699+00:00",
+      "status": "unavailable",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "name": "portal",
+      "url": "https://www.odiaportal.in/2016/08/Download-Budhei-Osha-Budhibaman-Osha-Bahi-Katha-Free-eBook.pdf.html",
+      "retrieved_at": "2026-10-10T22:48:35.058907+00:00",
+      "status": "unavailable",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
     }
   ],
   "followup_candidates": [

@@ -251,3 +251,8 @@ Subject membership is editorial classification. It does not establish historical
 ## 2026-10-10 · Dutiya: produce and care
 
 [Dutiya](../culture/osha/dutiya.md) follows offered produce into [Ghanta](../food/ghanta-tarkari.md) for sharing; published story and regional identities retain their own scope.
+
+
+## 2026-10-10 · Budhei household sequence
+
+[Budhei](../culture/osha/budhei.md) connects kitchen objects, repeated reading and the retained coconut; interpretation is distinguished from source descriptions.

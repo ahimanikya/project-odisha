@@ -81,3 +81,8 @@ The Prathamastami row now records source-specific offerings and revised provenan
 ## 2026-10-10 · Dutiya row revised locally
 
 The Dutiya food-role row now records offering, next-day meal/exchange and the unresolved lunar-day comparison. This local revision awaits draftPR145 reconciliation; prior pushed receipt is historical.
+
+
+## 2026-10-10 · Budhei row revised locally
+
+Budhei now retains the coconut sequence, named local foods and four/five/lunar/solar qualifications. Local revision awaits draftPR145 reconciliation; prior implementation receipt retained.

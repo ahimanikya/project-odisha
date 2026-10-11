@@ -176,3 +176,8 @@ Printed59 / PDF75, Prathamastami paragraph. Saved PDF and newly rendered page in
 ## 2026-10-10 · Dutiya scoped reading
 
 Printed58/PDF74, Dwitiya osha. Saved original page visually inspected: attributed Surya-parentage belief, fox/kite, aparamanga leaf,21 vegetables and ghanta exchange. [Profile](../culture/osha/dutiya.md).
+
+
+## 2026-10-10 · Budhei scoped reading
+
+Saved printed56–57/PDF72–73 visually inspected: deity differences, sila/silapua, retained coconut and chapter reading. Pitha types unspecified; same publication is one evidence family.

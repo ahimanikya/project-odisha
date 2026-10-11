@@ -442,3 +442,7 @@ Prathamastami original chapter image, cited1915 text and situated household acco
 ## 2026-10-10 · Dutiya review
 
 Dutiya full original katha, manuscript images, named plant identities and situated household accounts remain open; retry17October. Existing14–17October holds remain. No current serving offers verified.
+
+## 2026-10-10 · Budhei review
+
+Budhei full original katha, manuscript dates and situated household recipes remain open; retry17October. Existing14–17October holds remain. No current serving offers verified.

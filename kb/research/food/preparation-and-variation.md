@@ -191,3 +191,8 @@ The [Raja service account](../visitor-index/seasonal-food-offer-evidence.md) nam
 ## 2026-10-10 · Ghanta: retain the occasion
 
 [Ghanta](ghanta-tarkari.md) and [Dutiya](../culture/osha/dutiya.md) distinguish offered produce, next-day cooking and exchange. Source-named fruits, a leaf or branch and a general cuisine listing are not a universal recipe.
+
+
+## 2026-10-10 · Budhei: identify the Kakara version
+
+[Budhei](../culture/osha/budhei.md) names [Kakara](kakara-pitha.md) from one local report. No flour, filling, quantity or universal final-Wednesday menu is established.

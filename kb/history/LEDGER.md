@@ -1094,3 +1094,7 @@ Prathamastami gains a fuller family and food narrative. Source-specific offering
 ## UTP-HIS-OSHA-DUTIYA-20261010 · Dutiya family and food evidence
 
 Dutiya gains a fuller family and food narrative. Attributed narrative, source-specific offerings, next-day curry and exchange remain distinct; full original katha and dated origins remain unresolved. Saved sources reused; no interviews, human review, merge or publication claimed. [Checkpoint](../records/osha-dutiya-review-2026-10-10.json).
+
+## UTP-HIS-OSHA-BUDHEI-20261010 · Budhei family and food evidence
+
+Budhei gains a fuller family and food narrative. Published myth summary, repeated readings, coconut sequence and dated food association remain attributed; full original katha and dated origins remain unresolved. Saved sources reused; no interviews, human review, merge or publication claimed. [Checkpoint](../records/osha-budhei-review-2026-10-10.json).

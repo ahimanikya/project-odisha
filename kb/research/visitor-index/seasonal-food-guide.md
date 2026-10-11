@@ -233,3 +233,8 @@ The [dated serving-evidence study](seasonal-food-offer-evidence.md) records an o
 ## 2026-10-10 · Dutiya: identify the preparation
 
 [Dutiya](../culture/osha/dutiya.md) and [Ghanta](../food/ghanta-tarkari.md) distinguish an observance-associated shared dish from a general cuisine description. Annual date, venue, price and household welcome remain unknown.
+
+
+## 2026-10-10 · Budhei: repeated Wednesdays
+
+[Budhei](../culture/osha/budhei.md) has named food offerings and differing calendar boundaries. Cultural association remains distinct from a current public meal, price, host consent or annual date.

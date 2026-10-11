@@ -55,3 +55,10 @@ This fried kakara combines rice and refined wheat flour around a sweet coconut f
 ## Observance reading
 
 [Osha and food culture](../culture/osha-brata-seasonal-food.md) links the preparation to source-attributed observances; it does not establish one universal ritual recipe.
+
+
+## 2026-10-10 · Budhei offering association
+
+Pradhan’s dated Bolagarh report names Kakara among Budhei offerings; it does not give a recipe. Existing Tourism, university and CRRI versions remain general preparation accounts, not the identified ritual version.
+
+[Related reading](../culture/osha/budhei.md) — A dated local report names Kakara as a Budhei offering; general preparation versions do not establish the ritual recipe or a serving venue.

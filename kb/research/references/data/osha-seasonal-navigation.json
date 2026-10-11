@@ -397,50 +397,101 @@
       "name": "Budhei Osha",
       "profile_path": "culture/osha/budhei.md",
       "route": "/culture/osha/budhei/",
-      "source_checked_on": "2026-10-07",
+      "source_checked_on": "2026-10-10",
       "calendar_status": "source_month",
       "month_ids": [
         "bhadraba"
       ],
       "unresolved_month_ids": [],
-      "calendar_note": "Month label reused from the saved Odisha account; exact annual date remains unverified.",
+      "calendar_note": "Bhadraba supported; lunar/solar start boundaries and four/five counts source-specific; annual dates unknown.",
       "traditional_month_verbatim": "Bhadraba",
-      "calendar_rule_verbatim": null,
+      "calendar_rule_verbatim": "Bhadraba Wednesdays in Mahanti; Pradhan reports differing lunar/solar boundaries and four/five observances. No annual date or universal count.",
       "food_terms_verbatim": [
+        "coconut",
+        "banana",
         "fruit offerings",
-        "pitha (types not established)"
+        "muan",
+        "ukhuda",
+        "khai",
+        "kakara",
+        "pitha (other types unspecified)"
       ],
-      "food_role_note": "Fruit and unspecified pitha are attributed offerings; no universal pitha menu.",
+      "food_role_note": "First-to-last coconut sequence; dated local named foods including Kakara. Final five types remain unspecified; no recipe or current offer.",
       "current_serving_availability": null,
       "annual_date": null,
       "source_ids": [
         "osha-mahanti",
+        "osha-review2006",
+        "osha-budhei-pradhan2023",
+        "osha-budhei-puriwaves",
         "osha-nmm-catalogue",
         "osha-osm-literature",
-        "osha-review2006"
+        "osha-budhei-portal-lead"
       ],
       "evidence_sections": [
         {
-          "section_title": "The record we have",
+          "section_title": "The kitchen stone becomes a ritual figure",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed56–57/PDF72–73"
+        },
+        {
+          "section_title": "Names do not settle one deity",
           "evidence_class": "documented_description",
           "source_ids": [
             "osha-review2006",
             "osha-mahanti"
           ],
-          "locator": "Dash p.15; Mahanti pp.56–57"
+          "locator": "Dash printed15/PDF1; Mahanti printed56–57/PDF72–73"
         },
         {
-          "section_title": "Manuscripts to compare",
+          "section_title": "The coconut carries the month",
           "evidence_class": "documented_description",
           "source_ids": [
-            "osha-nmm-catalogue",
-            "osha-osm-literature"
+            "osha-mahanti"
           ],
-          "locator": "NMM PDF pp.13,45; museum OL/2636"
+          "locator": "Printed57/PDF73"
+        },
+        {
+          "section_title": "A Bolagarh report names the foods",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-budhei-pradhan2023"
+          ],
+          "locator": "Report food paragraphs, web29,31"
+        },
+        {
+          "section_title": "A published summary points toward several stories",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-budhei-puriwaves"
+          ],
+          "locator": "Myth-summary paragraph, web19"
+        },
+        {
+          "section_title": "Where a history must begin",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-nmm-catalogue",
+            "osha-osm-literature",
+            "osha-budhei-portal-lead"
+          ],
+          "locator": "NMM PDF13,45; museum OL/2636; portal app link"
+        },
+        {
+          "section_title": "Use the season as an enquiry",
+          "evidence_class": "visitor_context",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-budhei-pradhan2023"
+          ],
+          "locator": "Mahanti printed56–57; report web30–31"
         }
       ],
-      "profile_digest": "4688938f3c42dd696225c8b19ce3354d5d21cbf028ae91ea735823bc3a56e2a3",
-      "seasonal_entry_digest": "210e3ef43062a261d22f7d44f59a76b285c84e86e9188cc557ad3b26541537b9"
+      "profile_digest": "fa686d224159faf1656e85016dc31724c6d9fdb3b9322ddd3b423463dac49c24",
+      "seasonal_entry_digest": "a62b9db0fca3f8cc07ad606c27ea907a4f23d1f8b234a3319ab008fd90647c01"
     },
     {
       "profile_id": "OSHA-006",
@@ -4179,6 +4230,19 @@
       "run_id": "2026-10-10-dutiya",
       "at": "2026-10-10T16:41:39.080658+00:00",
       "scope": "Dutiya profile/food-role row revised locally; prior implementation receipt retained."
+    },
+    {
+      "at": "2026-10-10T22:46:18.599169+00:00",
+      "run_id": "2026-10-10-dutiya-review",
+      "status": "draft_candidate_reconciled",
+      "prior_revision": "e336ff1d5cddd80139e3b7da5e1f418afa59b114",
+      "revision": "cba3e533fb7fba295bc37769426d065d843b758f",
+      "published": false
+    },
+    {
+      "run_id": "2026-10-10-budhei",
+      "at": "2026-10-10T23:15:45.717004+00:00",
+      "scope": "Budhei profile/food row revised locally; prior pushed receipt retained."
     }
   ]
 }

@@ -139,3 +139,8 @@ A [public-food evidence study](../visitor-index/seasonal-food-offer-evidence.md)
 ## 2026-10-10 · Dutiya: story and food roles
 
 [Dutiya](osha/dutiya.md) gains a published-retelling comparison and [Ghanta](../food/ghanta-tarkari.md) companion. It remains a research note: full local katha and historical originals are missing. Counts remain15 narrative checkpoints and38 early notes across53 selected profiles.
+
+
+## 2026-10-10 · Budhei: objects, food and story strands
+
+[Budhei](osha/budhei.md) deepened; original katha and historical origins remain missing.53 selected profiles still contain15 narrative checkpoints and38 early notes.
