@@ -150,3 +150,5 @@ Historical visitor-experience release: [PR 23 publication evidence](records/visi
 - [Konark and Mamallapuram heritage learning proposal](specs/konark-mamallapuram-learning-proposal.md) — a sourced candidate for reciprocal visitor storytelling, with local interest and activity decisions still open.
 
 - [Huluhuli and the sounds of Odisha](research/culture/huluhuli.md) — a sourced article on origin, tradition and culture, with [research notes](research/sources/huluhuli-research.md).
+
+[Sounds of Odisha](research/culture/sounds-of-odisha.md) — voices, instruments and everyday sound; [Sankha](research/culture/sankha.md) joins Huluhuli.
