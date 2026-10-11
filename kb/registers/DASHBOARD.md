@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `850c28a1a63960e741e0ef676fbbbef773527a9c63eab7e5e6a11d6b1411cdea`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `ae56c1335d97ba9eecd4f59c79123926c805806070552080d17a8f69e0d73cdd`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -199,7 +199,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
-| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue the next eligible substantive backlog item. 54 of 500 items delivered with linked evidence; no routine approval required within UTP-DEC-225. | — |
+| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue the next eligible substantive backlog item. 58 of 500 items delivered with linked evidence; no routine approval required within UTP-DEC-225. | — |
 | UTP-WORK-190 · Food discovery, portable reading collection and current review-queue repair | completed | published | Ahimanikya Satapathy | Published and live-verified. Continue through the program queue under DEC225. | — |
 | UTP-WORK-191 · Build the tourism opportunities information section | completed | reviewed | Ahimanikya Satapathy | Published information scope complete. Continue WORK166 and WORK171 only when new documentary or operating evidence is available. | — |
 | UTP-WORK-192 · Align saved food cards with canonical story introductions | completed | reviewed | Ahimanikya Satapathy | Repair published and live catalogue verified; preserve canonical food fields when future stories change. | — |
@@ -255,7 +255,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-242 · Hear the people and learning behind Mardala | completed | draft | Ahimanikya Satapathy | KB draft delivered through checked PR203. Practitioner/audio follow-up open; Dalkhai next. | — |
 | UTP-WORK-243 · Dalkhai story for Sounds of Odisha | completed | draft | Ahimanikya Satapathy | KB draft delivered through checked PR204. Practitioner/audio follow-up open; Continue Sounds of Odisha research. | — |
 | UTP-WORK-244 · Daskathia story for Sounds of Odisha | completed | draft | Ahimanikya Satapathy | KB draft delivered through checked PR205. Practitioner/audio follow-up open; Continue Sounds of Odisha research. | — |
-| UTP-WORK-245 · Ghanta and ghanti story for Sounds of Odisha | in_progress | draft | Ahimanikya Satapathy | Read primary craft and local ensemble evidence; write sourced story and delivery review. | — |
+| UTP-WORK-245 · Ghanta and ghanti story for Sounds of Odisha | completed | draft | Ahimanikya Satapathy | KB draft delivered through checked PR206. Practitioner/audio follow-up open; Continue Sounds of Odisha research. | — |
 
 ## Pending human review and decisions
 
@@ -893,7 +893,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-365 | 2026-10-11T16:41:20.084956+00:00 | Huluhuli KB article and evidence dossier merged through PR201 after required checks on reviewed head; fetched merge bytes verified. | Continue eligible backlog; website unchanged and programme count stays54. |
 | UTP-EVT-366 | 2026-10-11T17:08:43.785777+00:00 | Sankha article, Sounds of Odisha collection index and evidence dossier saved as sourced KB drafts; no website deployment or new programme completion. | Preserve through checked PR; practitioner and audio follow-up open. |
 | UTP-EVT-367 | 2026-10-11T17:12:13.658400+00:00 | Sankha article, Sounds of Odisha collection outline and evidence dossier merged through checked PR202; fetched output bytes verified. | Research Mardala; practitioner/audio follow-up remains open, website unchanged. |
 | UTP-EVT-368 | 2026-10-11T17:40:40.794580+00:00 | Mardala story and source dossier drafted for Sounds of Odisha; primary credits scoped and teaching history separated from current access. Item055 remains in progress until checked delivery. | Validate and preserve through exact-head checked PR. |
@@ -903,6 +902,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-372 | 2026-10-11T19:38:11.288701+00:00 | Daskathia story and dossier drafted from primary descriptions, literary connections and public communication use. Item057 awaits checked delivery. | Validate and merge reviewed research head. |
 | UTP-EVT-373 | 2026-10-11T19:45:30.974258+00:00 | Daskathia story and source dossier merged through checked PR205; fetched output hashes matched. Item057 completed; programme57/500. | Continue Sounds of Odisha; practitioner/audio follow-up remains open, website unchanged. |
 | UTP-EVT-374 | 2026-10-11T20:43:27.435555+00:00 | Ghanta and ghanti story connects primary craft descriptions, ritual use and a local ensemble. Item058 awaits checked delivery. | Validate and merge reviewed research head. |
+| UTP-EVT-375 | 2026-10-11T20:46:58.813209+00:00 | Ghanta and ghanti story and source dossier merged through checked PR206; fetched output hashes matched. Item058 completed; programme58/500. | Continue Sounds of Odisha; practitioner/audio follow-up remains open, website unchanged. |
 
 ## Deferred extensions
 
