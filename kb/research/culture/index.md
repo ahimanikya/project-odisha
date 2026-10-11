@@ -35,3 +35,5 @@
 [Dance, learning and religious traditions](../methods/culture-learning-programme.md) — seven connected research tasks, existing-record reuse and a source-backed first checkpoint.
 
 [Huluhuli (ହୁଳହୁଳି): The sacred sound of Odisha](huluhuli.md) — Sounds of Odisha; history, tradition and cultural meaning.
+
+[Sounds of Odisha](sounds-of-odisha.md) — collection outline, with [Sankha ଶଙ୍ଖ](sankha.md) and Huluhuli.
