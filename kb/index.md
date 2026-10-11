@@ -156,3 +156,5 @@ Historical visitor-experience release: [PR 23 publication evidence](records/visi
 [Mardala: the conversation beneath the dance](research/culture/mardala.md) joins Sounds of Odisha, with named teachers, creative credits and listening prompts.
 
 [Dalkhai](research/culture/dalkhai.md) now connects song, occasion and listening in Sounds of Odisha; earlier evidence and viewing limits preserved.
+
+[Daskathia](research/culture/daskathia.md) connects voice, wooden rhythm and literary storytelling in Sounds of Odisha.
