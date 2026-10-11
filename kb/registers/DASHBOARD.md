@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e322df6dc96ba044299fea3fa44b4d445aa3fa7707cefd5022a8fba16acfe3a1`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `45de3fcba56413045538edf97243c0a86f738884ce212c9761e54f7b91ca446d`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -254,7 +254,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-241 · Sankha and the Sounds of Odisha collection | completed | draft | Ahimanikya Satapathy | KB draft preserved through checked PR202. Practitioner and audio review remain open; research Mardala next. | — |
 | UTP-WORK-242 · Hear the people and learning behind Mardala | completed | draft | Ahimanikya Satapathy | KB draft delivered through checked PR203. Practitioner/audio follow-up open; Dalkhai next. | — |
 | UTP-WORK-243 · Dalkhai story for Sounds of Odisha | completed | draft | Ahimanikya Satapathy | KB draft delivered through checked PR204. Practitioner/audio follow-up open; Continue Sounds of Odisha research. | — |
-| UTP-WORK-244 · Daskathia story for Sounds of Odisha | in_progress | draft | Ahimanikya Satapathy | Read primary passages and draft distinct story; reuse Pala sources without conflation. | — |
+| UTP-WORK-244 · Daskathia story for Sounds of Odisha | completed | draft | Ahimanikya Satapathy | KB draft delivered through checked PR205. Practitioner/audio follow-up open; Continue Sounds of Odisha research. | — |
 
 ## Pending human review and decisions
 
@@ -891,7 +891,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-363 | 2026-10-11T15:31:44.995099+00:00 | PR199 passed required checks and reviewed head merged. Goods-export story matches fetched merge; item54 delivered to KB with earlier comparison and updated source capture. | Continue eligible backlog; destination denominator and transaction/household evidence remain open. |
 | UTP-EVT-364 | 2026-10-11T16:30:33.734382+00:00 | Founder-requested Huluhuli article and research notes saved as linked KB drafts; historical scan visually inspected, origins and specific community scopes qualified. | Keep literary and practitioner review open; no website publication or500item count. |
 | UTP-EVT-365 | 2026-10-11T16:41:20.084956+00:00 | Huluhuli KB article and evidence dossier merged through PR201 after required checks on reviewed head; fetched merge bytes verified. | Continue eligible backlog; website unchanged and programme count stays54. |
 | UTP-EVT-366 | 2026-10-11T17:08:43.785777+00:00 | Sankha article, Sounds of Odisha collection index and evidence dossier saved as sourced KB drafts; no website deployment or new programme completion. | Preserve through checked PR; practitioner and audio follow-up open. |
@@ -901,6 +900,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-370 | 2026-10-11T18:34:50.713735+00:00 | Existing Dalkhai record extended with song, occasion and visitor listening story; dated viewing limits retained. Item056 awaits checked delivery. | Validate and merge reviewed research head. |
 | UTP-EVT-371 | 2026-10-11T18:37:27.599320+00:00 | Dalkhai story and source dossier merged through checked PR204; fetched output hashes matched. Item056 completed; programme56/500. | Continue Sounds of Odisha; practitioner/audio follow-up remains open, website unchanged. |
 | UTP-EVT-372 | 2026-10-11T19:38:11.288701+00:00 | Daskathia story and dossier drafted from primary descriptions, literary connections and public communication use. Item057 awaits checked delivery. | Validate and merge reviewed research head. |
+| UTP-EVT-373 | 2026-10-11T19:45:30.974258+00:00 | Daskathia story and source dossier merged through checked PR205; fetched output hashes matched. Item057 completed; programme57/500. | Continue Sounds of Odisha; practitioner/audio follow-up remains open, website unchanged. |
 
 ## Deferred extensions
 
