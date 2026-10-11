@@ -1,0 +1,57 @@
+{
+  "recorded_at": "2026-10-11T09:53:07.397857+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-049",
+  "work_id": "UTP-WORK-234",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "output": "research/stories/odisha-ferrochrome-markets.md",
+  "brief": {
+    "reader": "Readers curious about Odisha’s industrial trade.",
+    "reason_to_read": "Follow a company trade connection while keeping reach, quantity and turnover apart.",
+    "memorable_detail": "Domestic sales rise while international tonnes ease; one label misses part of the story.",
+    "visual_treatment": "Two same-scale sales panels, separate market count card; exact map/route requires documented destinations.",
+    "next_step": "Actual participant role and permitted account, with traceable production/logistics records."
+  },
+  "reuse": {
+    "research_map_read": true,
+    "queries": [
+      "ferrochrome"
+    ],
+    "inputs": [
+      "research/stories/odisha-ferrochrome-markets.md",
+      "research/economy/company-imfa.md",
+      "research/sources/mining-imfa-ar2026.md"
+    ],
+    "queue_pointers_inspected": [
+      "RES-052"
+    ],
+    "earlier_draft_sha256": "5394e20b0f8b756cb5a403542357f969a80018d40c69a92c5cb0fcb819622f1c",
+    "preserved": "Earlier body retained verbatim within story; source IDs, mine-scope holds and queue states unchanged."
+  },
+  "sources": [
+    {
+      "id": "mining-imfa-ar2026",
+      "url": "https://www.imfa.in/api/pdf/IMFAAnnualReportFY2526.pdf/IMFA_Annual_Report_FY_2526_10bbee90f9.pdf",
+      "sha256": "76e403539924a9e0a4620853fc032d14ae44b821ce820ef42809be00427ed18d",
+      "inspection": "Printed40/PDF22 ferro-alloy sales table and printed58/PDF31 market-count13, export turnover85.47% and industrial customer description visually inspected. Web extraction unavailable; direct publisher HTTP retrieval succeeded."
+    }
+  ],
+  "verification": {
+    "claims": "Original table domestic34066to48769tonnes and international225801to221355tonnes checked. BRSR standalone markets count/export share retained with company year; no cargo or destination inference.",
+    "local_checks": "Research3775links, classification305relationships, workbench build/catalogue passed. Registers, bundle5047links, program and workbench consistency passed before commit.",
+    "visual": "Original two-page PDFspreads22and31 rendered and visually inspected."
+  },
+  "limitations": [
+    "Same-assistant source/editorial review; no independent human, worker or trade assurance.",
+    "Dated company standalone market/export disclosure and company sales table; not statewide exports or global popularity.",
+    "Country count, physical tonnes and export turnover share have different meanings. No named destinations, exact cargo route or tonnes-share conversion supplied.",
+    "Mine-output reconciliation, current commissioning, plant allocations, supplier and worker outcomes remain unresolved. No invented interview, job gain or image-rights claim.",
+    "Earlier draft and canonical research preserved; no website/search selection expansion."
+  ],
+  "delivery": "Pending required checks and reviewed-head KB merge; deployment not required."
+}
