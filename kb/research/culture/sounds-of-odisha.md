@@ -15,6 +15,7 @@ A sound can open a story before a photograph does. Follow voices, instruments an
 ## Stories drafted
 
 - [Huluhuli ହୁଳହୁଳି](huluhuli.md) — women's voices, welcome, worship and community memory.
+- [Daskathia](daskathia.md) — two voices, wooden rhythm and a story told aloud.
 - [Dalkhai](dalkhai.md) — song, festive occasion and the people behind a performance.
 - [Mardala](mardala.md) — the player, the learning lineage and the conversation beneath the dance.
 - [Sankha ଶଙ୍ଖ](sankha.md) — the wedding threshold, Ganjam performance, Puri and the remembered voyage.
@@ -26,7 +27,7 @@ These are sourced KB drafts. They are not yet public website pages or an audio a
 | Subject | Narrative question |
 | --- | --- |
 | Ghanta and ghanti | How do bells mark ritual time, and who rings them? |
-| Pala and Daskathia | How do performers make a story audible through song, speech and rhythm? |
+| Pala | How do performers make a story audible through song, speech and rhythm? |
 | Dhemsa | Which community, place and occasion give the dance its distinctive sound? |
 | Boat and fishing songs | What survives in testimony and recordings, and who can explain the working context? |
 | Lullabies and work songs | What do families remember, and which local words make the song their own? |

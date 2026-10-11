@@ -427,3 +427,5 @@ Sounds of Odisha now connects the [collection outline](../culture/sounds-of-odis
 [Mardala](../culture/mardala.md) and its [evidence dossier](../sources/mardala-research.md) extend Sounds of Odisha with learning history and production credits; practitioner and recording follow-up open.
 
 [Dalkhai](../culture/dalkhai.md) now extends its existing record into Sounds of Odisha; [source dossier](../sources/dalkhai-story-research.md) retains prior viewing scope and blocked retrieval leads.
+
+[Daskathia](../culture/daskathia.md) adds a distinct Sounds of Odisha entry, reusing Pala discovery records; [source dossier](../sources/daskathia-research.md) scopes roles, repertoire, origin interpretation and public communication evidence.
