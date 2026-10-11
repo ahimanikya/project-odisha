@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `8d9da9d096cdb39af9d16327e873f97daf347867863d64a21bee9da98a6086bf`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `38b376ff62ed931f6063e7b38fe815dcd91a24031c8d3ad1852b43cc131f0b85`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -199,7 +199,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
-| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue the next eligible substantive backlog item. 40 of 500 items delivered with linked evidence; no routine approval required within UTP-DEC-225. | — |
+| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue the next eligible substantive backlog item. 41 of 500 items delivered with linked evidence; no routine approval required within UTP-DEC-225. | — |
 | UTP-WORK-190 · Food discovery, portable reading collection and current review-queue repair | completed | published | Ahimanikya Satapathy | Published and live-verified. Continue through the program queue under DEC225. | — |
 | UTP-WORK-191 · Build the tourism opportunities information section | completed | reviewed | Ahimanikya Satapathy | Published information scope complete. Continue WORK166 and WORK171 only when new documentary or operating evidence is available. | — |
 | UTP-WORK-192 · Align saved food cards with canonical story introductions | completed | reviewed | Ahimanikya Satapathy | Repair published and live catalogue verified; preserve canonical food fields when future stories change. | — |
@@ -236,7 +236,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-223 · Give Habaspuri a coherent source-led textile profile | completed | applied | Ahimanikya Satapathy | KB profile delivered. Practitioner review, cooperative chronology and illustrated website treatment remain separate work. | — |
 | UTP-WORK-224 · Develop Kotpad colour and maker reader profile | completed | applied | Ahimanikya Satapathy | KB profile delivered. Practitioner terminology review, current arrangements and any website revision remain separate work. | — |
 | UTP-WORK-225 · Give Berhampuri Patta a clear cloth and construction profile | completed | applied | Ahimanikya Satapathy | KB profile delivered. Practitioner terminology, current cooperative operations, visit arrangements and illustrated website treatment remain separate work. | — |
-| UTP-WORK-226 · Explain paddy procurement payments without losing their scope | in_progress | reviewed | Ahimanikya Satapathy | Pass required checks and merge reviewed documentation. | — |
+| UTP-WORK-226 · Explain paddy procurement payments without losing their scope | completed | applied | Ahimanikya Satapathy | KB story delivered. Farmer interviews, settlement verification and current entitlements remain separate work. | — |
 
 ## Pending human review and decisions
 
@@ -853,7 +853,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-327 | 2026-10-10T14:14:01.864422+00:00 | PR179 passed required checks and exact reviewed head merged. Coastal materials article matches fetched merge; item36 delivered toKB. Public website unchanged. | Continue eligible backlog; practitioner and current visitor checks remain open. |
 | UTP-EVT-328 | 2026-10-10T14:41:25.133027+00:00 | Growing Odisha expanded into a sourced reader story. Fish/port endpoints and six construction years checked, two PDF tables visually reviewed; livelihood questions left open. Item37 awaits checked merge. | Pass required checks and merge exact reviewed documentation. |
 | UTP-EVT-329 | 2026-10-10T14:44:24.543401+00:00 | PR180 passed required checks and exact reviewed head merged. Growing Odisha article matches fetched merge; item37 delivered toKB. Public website unchanged. | Continue eligible backlog; independent review and participant reporting remain open. |
 | UTP-EVT-330 | 2026-10-10T15:25:00.272253+00:00 | Habaspuri fragments developed into a source-led reader profile. Three documentary pages visually checked; technique gap clarified and earlier research preserved. Revival, formation and current access remain open. Item38 awaits checked merge. | Pass required checks and merge exact reviewed documentation. |
@@ -863,6 +862,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-334 | 2026-10-10T17:23:38.167143+00:00 | Berhampuri Patta reader profile developed from original source examples; joda classification and construction checked, publisher disagreement and earlier research preserved. Item40 awaits checked merge. | Pass required checks and merge reviewed documentation. |
 | UTP-EVT-335 | 2026-10-10T22:50:59.242914+00:00 | PR183 passed required checks and reviewed head merged. Berhampuri profile matches fetched merge; item40 delivered to KB. | Continue eligible backlog; practitioner review and local confirmations remain open. |
 | UTP-EVT-336 | 2026-10-10T23:19:07.454632+00:00 | Paddy payment reader story separates seasonal quantities, FY/KMS windows and payment categories; original report visually checked and earlier draft preserved. Item41 awaits checked merge. | Pass required checks and merge reviewed documentation. |
+| UTP-EVT-337 | 2026-10-11T02:42:35.496803+00:00 | PR184 passed required checks and reviewed head merged. Paddy payment story matches fetched merge; item41 delivered to KB. Founder reiterated next-week permission without routine questions. | Continue eligible backlog; settlement and farmer-income reporting remain open. |
 
 ## Deferred extensions
 
