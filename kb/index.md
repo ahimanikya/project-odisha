@@ -154,3 +154,5 @@ Historical visitor-experience release: [PR 23 publication evidence](records/visi
 [Sounds of Odisha](research/culture/sounds-of-odisha.md) — voices, instruments and everyday sound; [Sankha](research/culture/sankha.md) joins Huluhuli.
 
 [Mardala: the conversation beneath the dance](research/culture/mardala.md) joins Sounds of Odisha, with named teachers, creative credits and listening prompts.
+
+[Dalkhai](research/culture/dalkhai.md) now connects song, occasion and listening in Sounds of Odisha; earlier evidence and viewing limits preserved.

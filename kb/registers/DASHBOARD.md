@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `2e66c4eddc647434c90c18e274d4d1eff633b3142b3032997109475b439cf80d`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `6f6645ee5ccb514de9edfbd12459ffbc59c62f45fb0aea6d25806eae021f1241`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -253,6 +253,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-240 · Huluhuli and the sounds of Odisha | completed | draft | Ahimanikya Satapathy | KB draft preserved through checked PR201. Practitioner review, original literary editions and audio documentation remain follow-up work. | — |
 | UTP-WORK-241 · Sankha and the Sounds of Odisha collection | completed | draft | Ahimanikya Satapathy | KB draft preserved through checked PR202. Practitioner and audio review remain open; research Mardala next. | — |
 | UTP-WORK-242 · Hear the people and learning behind Mardala | completed | draft | Ahimanikya Satapathy | KB draft delivered through checked PR203. Practitioner/audio follow-up open; Dalkhai next. | — |
+| UTP-WORK-243 · Dalkhai story for Sounds of Odisha | in_progress | draft | Ahimanikya Satapathy | Extend existing evidence into sourced song and occasion story; preserve dated viewing limits. | — |
 
 ## Pending human review and decisions
 
@@ -752,6 +753,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-208 | pass_with_limitations | False | Desk research by current AI assistant; not independent human, Odia language or practitioner review.; 1906 attestation does not establish earliest origin or diffusion.; Dhemsa ministry entry and2015competition used through indexed text with live retrieval failures documented.; Literary originals, exact dictionary headword and archival land grants remain uninspected.; No fieldwork, licensed audio, website publication or autonomous500completion claimed. |
 | UTP-REV-209 | pass_with_limitations | False | Current assistant desk research, not independent human or practitioner review.; No origin date, diffusion, contemporary practitioner count, field recording or reusable media rights claimed.; KB draft only; no public website, search eligibility change or autonomous programme completion. |
 | UTP-REV-210 | pass_with_limitations | False | Current assistant desk research, not independent human or practitioner review.; No origin date, diffusion, contemporary practitioner count, field recording or reusable media rights claimed.; KB draft only; no public website or search eligibility change. |
+| UTP-REV-211 | pass_with_limitations | False | Current assistant desk review; no independent human or practitioner review.; Existing muted viewing check retained as dated evidence; no new audible/full playback or media rights.; No origin date, fixed statewide ensemble, reviewed song translation or current booking claimed.; KB draft only; website and search unchanged. |
 
 ## Publication and application history
 
@@ -887,7 +889,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-360 | 2026-10-11T14:33:12.575632+00:00 | Paradip cargo draft now asks about handled quantity, geography and work. Two original releases and endpoint/coastal arithmetic checked; earlier metric record preserved. Item53 awaits checked merge. | Pass required checks and merge reviewed KB article. |
 | UTP-EVT-361 | 2026-10-11T14:36:47.070871+00:00 | PR198 passed required checks and reviewed head merged. Paradip cargo story matches fetched merge; item53 delivered to KB with earlier metric record preserved. | Continue eligible backlog; cargo geography and livelihood effects remain separate evidence work. |
 | UTP-EVT-362 | 2026-10-11T15:27:15.649404+00:00 | Goods-value draft separates merchandise, total exports, nominal change and participant outcomes. Original survey pages visually checked; earlier record and destination hold preserved. Item54 awaits checked merge. | Pass required checks and merge reviewed KB article. |
 | UTP-EVT-363 | 2026-10-11T15:31:44.995099+00:00 | PR199 passed required checks and reviewed head merged. Goods-export story matches fetched merge; item54 delivered to KB with earlier comparison and updated source capture. | Continue eligible backlog; destination denominator and transaction/household evidence remain open. |
@@ -897,6 +898,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-367 | 2026-10-11T17:12:13.658400+00:00 | Sankha article, Sounds of Odisha collection outline and evidence dossier merged through checked PR202; fetched output bytes verified. | Research Mardala; practitioner/audio follow-up remains open, website unchanged. |
 | UTP-EVT-368 | 2026-10-11T17:40:40.794580+00:00 | Mardala story and source dossier drafted for Sounds of Odisha; primary credits scoped and teaching history separated from current access. Item055 remains in progress until checked delivery. | Validate and preserve through exact-head checked PR. |
 | UTP-EVT-369 | 2026-10-11T17:45:29.731032+00:00 | Mardala story and source dossier merged through checked PR203; fetched output hashes matched. Item055 completed; programme55/500. | Research Dalkhai; practitioner/audio follow-up remains open, website unchanged. |
+| UTP-EVT-370 | 2026-10-11T18:34:50.713735+00:00 | Existing Dalkhai record extended with song, occasion and visitor listening story; dated viewing limits retained. Item056 awaits checked delivery. | Validate and merge reviewed research head. |
 
 ## Deferred extensions
 

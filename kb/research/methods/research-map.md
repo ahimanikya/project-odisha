@@ -425,3 +425,5 @@ Two project-native records add Huluhuli article and source-inspection notes afte
 Sounds of Odisha now connects the [collection outline](../culture/sounds-of-odisha.md), [Sankha article](../culture/sankha.md) and [source notes](../sources/sankha-research.md), reusing Huluhuli evidence. Draft status and practitioner follow-up remain explicit.
 
 [Mardala](../culture/mardala.md) and its [evidence dossier](../sources/mardala-research.md) extend Sounds of Odisha with learning history and production credits; practitioner and recording follow-up open.
+
+[Dalkhai](../culture/dalkhai.md) now extends its existing record into Sounds of Odisha; [source dossier](../sources/dalkhai-story-research.md) retains prior viewing scope and blocked retrieval leads.

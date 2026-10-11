@@ -39,3 +39,5 @@
 [Sounds of Odisha](sounds-of-odisha.md) — collection outline, with [Sankha ଶଙ୍ଖ](sankha.md) and Huluhuli.
 
 [Mardala: the conversation beneath the dance](mardala.md) joins Sounds of Odisha, with named teachers, creative credits and listening prompts.
+
+[Dalkhai](dalkhai.md) now connects song, occasion and listening in Sounds of Odisha; earlier evidence and viewing limits preserved.
