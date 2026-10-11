@@ -37,3 +37,5 @@
 [Huluhuli (ହୁଳହୁଳି): The sacred sound of Odisha](huluhuli.md) — Sounds of Odisha; history, tradition and cultural meaning.
 
 [Sounds of Odisha](sounds-of-odisha.md) — collection outline, with [Sankha ଶଙ୍ଖ](sankha.md) and Huluhuli.
+
+[Mardala: the conversation beneath the dance](mardala.md) joins Sounds of Odisha, with named teachers, creative credits and listening prompts.
