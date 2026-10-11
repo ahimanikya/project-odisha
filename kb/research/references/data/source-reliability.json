@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-03T08:06:11.256094+00:00",
+  "updated_at": "2026-10-11T16:12:19.349772+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -1323,6 +1323,99 @@
       "checked_at": "2026-10-03T08:06:11.256094+00:00",
       "status": "available_selected_scope",
       "scope": "Printed p.353, footnote356 Indexed official report text states all twelve Palli Sabhas rejected mining; footnote356 cites state-provided English translations on file with committee. Full PDF download and web open timed out; no visual review, hash, signed original minutes or final ministry order retrieved."
+    },
+    {
+      "run_id": "2026-10-11T160110Z",
+      "checked_at": "2026-10-11T16:12:19.349772+00:00",
+      "report": "../../../community-project/weekly-runs/2026-10-11T160110Z.json",
+      "scope": "17 watch tracks attempted with bounded release discovery; unavailable and conflicting scope retained. Two original PDFs recovered after initial fetch failures.",
+      "tracks": [
+        {
+          "id": "tourism",
+          "status": "conflicted",
+          "note": "Catalogue still lists Statistical Bulletin2024 and Annual Report2025–26; bulletin download unavailable. Known foreign-visits conflict retained."
+        },
+        {
+          "id": "gsdp",
+          "status": "unavailable",
+          "note": "Economic Survey catalogue latest2025–26; DES tables unavailable. Catalogue check does not revalidate underlying values."
+        },
+        {
+          "id": "sector-growth",
+          "status": "unavailable",
+          "note": "Survey catalogue unchanged; current underlying sector table retrieval incomplete. Saved estimates retained."
+        },
+        {
+          "id": "exports",
+          "status": "unchanged",
+          "note": "July9 fisheries release recovered with same2025–26 seafood scope; broader survey export revision check unavailable."
+        },
+        {
+          "id": "port-cargo",
+          "status": "changed",
+          "note": "Daily report11October gives financial-year cargo through10October2026 versus same date2025, and matched1–10October totals. Four observations and two calculations appended; annual series untouched."
+        },
+        {
+          "id": "investment",
+          "status": "unavailable",
+          "note": "InvestOdisha unavailable; no new realised spending/output established. Announcements and undated counters not promoted."
+        },
+        {
+          "id": "smart-cities",
+          "status": "unchanged",
+          "note": "Saved March parliamentary answer recovered; no newer completion snapshot established. Urban catalogue unavailable; tenders do not establish completion."
+        },
+        {
+          "id": "rare-earths",
+          "status": "unchanged",
+          "note": "IREL annual catalogue latest2024–25 and OSCOM plant page recovered. No newly established operating output; capacity and proposals retained separately."
+        },
+        {
+          "id": "semiconductors",
+          "status": "unchanged",
+          "note": "Saved18September proposal release recovered; no newer operating output established. Potential jobs and proposals remain prospective."
+        },
+        {
+          "id": "banking-and-enterprise-finance",
+          "status": "conflicted",
+          "note": "SLBC latest184th agenda/June2026 listing retained. Known credit/deposit scope conflicts remain quarantined."
+        },
+        {
+          "id": "public-finances",
+          "status": "unavailable",
+          "note": "CAG catalogue latestAugust2026; monthly PDF unavailable. No September values established."
+        },
+        {
+          "id": "people-and-learning",
+          "status": "unavailable",
+          "note": "NFHS release route and UDISE report unavailable; UDISE and MoSPI catalogue pages returned JS/empty content. No unchanged metric claim."
+        },
+        {
+          "id": "land-and-livelihoods",
+          "status": "conflicted",
+          "note": "FSI catalogue latestISFR2023; July fisheries release same scope. Known anomalous Chilika dolphin value remains quarantined; no new agriculture series."
+        },
+        {
+          "id": "services-and-environment",
+          "status": "unavailable",
+          "note": "Urban report catalogue unavailable; historical OSDMA page recovered. No current rural-water, PM10 or urban-service revision established."
+        },
+        {
+          "id": "mobility-and-digital-access",
+          "status": "changed",
+          "note": "TRAI annual2025–26 release5October repeats six March2026 Odisha values already saved; edition captured without duplicate observations. AAI direct listing unavailable; indexedAugust listing is discovery only. Saved rail release unchanged."
+        },
+        {
+          "id": "innovation-and-startups",
+          "status": "unavailable",
+          "note": "IPIndia annual route failed and wall-of-fame timed out. Indexed national figures do not establish a new Odisha observation."
+        },
+        {
+          "id": "visitor-economy-and-crafts",
+          "status": "conflicted",
+          "note": "Tourism and rooms/beds conflicts retained. Guidelines recovered; GoHomestay JS shell cannot establish active availability. No fresh craft or operating count promoted."
+        }
+      ]
     }
   ],
   "supplemental_discovery_routes": [

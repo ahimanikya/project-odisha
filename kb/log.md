@@ -447,3 +447,7 @@ Added four bounded case studies, three source records and a reusable evidence mo
 ## 2026-10-03 · Mining evidence follow-up
 
 Recovered a CGWB annex scan and IBM inspection; linked a committee account of Niyamgiri decisions and matched the Bharatpur incident in a ministry agenda. Source roles and unresolved sample totals remain explicit. Four new source records; existing956 atlas observations unchanged. RES-054 remains in progress; no public website story publication.
+
+## 11 October 2026 · Weekly port and telecom checks
+
+[Weekly receipt](records/weekly-data-2026-10-11.json): Paradip year-to10October cargo almost flat, with four matched partial-period observations and two calculations. New TRAI annual edition repeats savedMarch figures.17 tracks attempted; partial availability and conflicts retained. Research KB update; no website release claimed.

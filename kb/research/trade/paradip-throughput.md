@@ -5,7 +5,7 @@ description: "Paradip: cargo has more than doubled over a decade — evidence, s
 tags: ["maritime", "trade"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T08:14:32+00:00"}
-sources: [{"id": "maritime-paradip-2016", "title": "Increasing efficiency of Major Ports", "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1513070"}, {"id": "maritime-paradip-2026", "title": "Paradip port registers historic high cargo handling in FY 25–26", "resource": "https://paradipport.gov.in/all_news/paradip-port-registers-historic-high-cargo-handling-in-fy-25-26-best-ever-in-its-history/"}]
+sources: [{"id": "maritime-paradip-2016", "title": "Increasing efficiency of Major Ports", "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1513070"}, {"id": "maritime-paradip-2026", "title": "Paradip port registers historic high cargo handling in FY 25–26", "resource": "https://paradipport.gov.in/all_news/paradip-port-registers-historic-high-cargo-handling-in-fy-25-26-best-ever-in-its-history/"}, {"id": "weekly-paradip-oct2026", "title": "Paradip Port Authority daily traffic report, 11 October 2026", "resource": "https://www.paradipport.gov.in/uploads/2026/10/dtr1110.pdf"}]
 verified: [{"by": "codex/gpt-6", "at": "2026-09-27T08:14:32+00:00"}]
 verification_scope: "Source endpoints rechecked; arithmetic reproducible."
 stale_after: "2027-04-15T00:00:00Z"
@@ -70,3 +70,16 @@ Use two same-scale bars labelled “Paradip cargo handled”, with full financia
 The original PIB baseline table and Paradip Port Authority’s 1 April 2026 release were re-read on 11 October 2026. The endpoint change and coastal-share arithmetic were recalculated using reported rounded quantities; the published42.06% is retained at source precision. The earlier record and source footnotes remain intact. No current project commissioning, capacity utilisation, employment gain, exact route, cargo-origin estimate or new ranking is claimed. Same-assistant source review is not independent human or port-operating assurance. This KB draft does not change website content or search selection.
 
 </details>
+
+## Cargo is almost flat so far this financial year · 11 October 2026
+
+**Paradip’s cargo was up just 0.16% through 10 October**, with 80.691 million tonnes in FY 2026–27 against 80.561 million tonnes through the same date in FY 2025–26. The increase was 129,652 tonnes. This is a partial-year comparison, separate from the full-year figures above.[^weekly-paradip-oct2026]
+
+| Matched reporting window | Prior year, metric tonnes | Current year, metric tonnes | Calculated change |
+|---|---:|---:|---:|
+| 1 April–10 October | 80,561,351 | 80,691,003 | +0.16% |
+| 1–10 October | 3,781,301 | 4,727,031 | +25.01% |
+
+The stronger first ten days of October have not translated into comparable growth across the financial year so far. Neither window is a forecast. These are cargo movements at Paradip, including inward and outward flows serving a wider hinterland; they do not measure Odisha-origin exports, economic impact or capacity. The report is dated 11 October and its cargo summary closes on 10 October. Exact integers and the two calculations are retained in the structured records.
+
+[^weekly-paradip-oct2026]: [Paradip Port Authority daily report,11 October 2026](https://www.paradipport.gov.in/uploads/2026/10/dtr1110.pdf), PDF p.3, cargo footer.
