@@ -465,3 +465,7 @@ Budhei and Kakara study reconciled using saved captures. Historical discovery le
 ## 2026-10-11 · Alana review
 
 Alana study reconciled using saved captures. Historical discovery leads remain distinct from inspected sources.
+
+## 2026-10-11 · Kanji Anla review
+
+Kanji Anla study reconciled using saved captures. Historical discovery leads remain distinct from inspected sources.

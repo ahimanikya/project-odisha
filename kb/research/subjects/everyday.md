@@ -261,3 +261,8 @@ Subject membership is editorial classification. It does not establish historical
 ## 2026-10-11 · Alana sharing and restraint
 
 [Alana](../culture/osha/alana.md) distinguishes narrated family exclusion and care from documented salt restraint and unknown local practice.
+
+
+## 11 October 2026 · Kanji Anla food roles
+
+[Kanji Anla](../culture/osha/kanji-anla.md) relates a published maternal-care story to its author-specific household meal sequence.

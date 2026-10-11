@@ -107,3 +107,8 @@ Subject membership is editorial classification. It does not establish historical
 ## 2026-10-11 · Alana food roles
 
 [Alana](../culture/osha/alana.md) keeps a narrated family pitha meal separate from the offering categories and any visitor menu.
+
+
+## 11 October 2026 · Kanji Anla food roles
+
+[Kanji Anla](../culture/osha/kanji-anla.md) distinguishes prepared offerings and a child-directed meal from food-shaped ritual figures.

@@ -3,7 +3,7 @@ type: "Cultural Observance"
 title: "Kanji Anla Osha"
 description: "Kanji Anla Osha — source-bounded cultural research."
 status: "draft"
-generated: {"by": "codex/gpt-6", "at": "2026-10-07T16:19:02.056682+00:00"}
+generated: {"by": "codex/gpt-6", "at": "2026-10-11T05:45:04.590566+00:00"}
 subjects: ["everyday", "food", "arts"]
 sources: [{"id": "osha-review2006", "title": "The Perishing Tradition of Osha, Brata and Mela in Orissa: An Overview", "resource": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf"}, {"id": "osha-mahanti", "title": "Fading Festivals of Odisha: A peep into the religious practices in Odisha", "resource": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf"}, {"id": "osha-kanji-sarangi2018", "title": "ଓଡିଆ ଘରେ ‘ଶୀତ ଋତୁ’", "resource": "https://samadhwani.com/1311"}, {"id": "osha-kanji-mahakud2021", "title": "କାଞ୍ଜିଅଁଳା ଓଷା", "resource": "https://antarangakalinga.org/କାଞ୍ଜିଅଁଳା-ଓଷା/"}]
 human_review_claimed: false
@@ -50,6 +50,32 @@ The accounts document sour rice-water use, cooking and tempering. They do not me
 ## Comparing everyday food without promising a visit
 
 Our torani-kanji food entry is a useful comparison for rice-water cooking. Its modern household recipe is not the ritual recipe established here. A Margasira food association can help a visitor ask informed questions, but this research identifies no serving venue, public distribution, invitation to private worship or current availability.
+
+
+## A kitchen figure and a courtyard arrangement
+
+Sarangi describes a dried-fish figure dressed as a bride, seated on a stool in a kitchen corner beside kanji and dried-fish rai. Mahakud describes evening worship near the tulasi platform, a small water-filled pit and seven dressed fish figures. These are author-specific descriptions with no identified fieldwork locality. Their different settings should remain visible rather than be combined into one ritual sequence.
+
+Sources: [ଓଡିଆ ଘରେ ‘ଶୀତ ଋତୁ’](https://samadhwani.com/1311), [କାଞ୍ଜିଅଁଳା ଓଷା](https://antarangakalinga.org/କାଞ୍ଜିଅଁଳା-ଓଷା/). Sarangi Kanji Anla passage / web172; Mahakud ritual-procedure paragraph / web88.
+
+
+## After the offering: children and separate ritual materials
+
+Mahakud lists rice, dal, kanji, a taro–radish–dried-fish curry and two chakuli pithas. He describes feeding the offerings to the children for whom the vow was made, then burying or immersing the remainder. Poi stalks placed beside the fish figures have a separate non-sharing rule in his account. This is an attributed description, not a disposal instruction or a claim about every household.
+
+Sources: [କାଞ୍ଜିଅଁଳା ଓଷା](https://antarangakalinga.org/କାଞ୍ଜିଅଁଳା-ଓଷା/). Ritual-procedure paragraph / web88.
+
+
+## Care expressed through a meal
+
+Read alongside the mother’s appeal in the story, feeding the intended children gives the offering a concrete relationship: the household’s hope is expressed through preparing and sharing food. This is an editorial interpretation of the published retelling. It does not establish an observed benefit, a universal meaning or permission to enter private worship.
+
+
+## Names that should stay distinct
+
+Kanji Anla remains a separate observance from Alana and Anla Navami. Sarangi discusses Anla Navami in a Kartika passage and Kanji Anla after Prathamastami in Margasira. Similar spelling and a shared food vocabulary do not prove that these are interchangeable names.
+
+Sources: [ଓଡିଆ ଘରେ ‘ଶୀତ ଋତୁ’](https://samadhwani.com/1311). Kartika Anla Navami passage / web161; Prathamastami–Kanji Anla passage / web172.
 
 ## Questions for the next research pass
 

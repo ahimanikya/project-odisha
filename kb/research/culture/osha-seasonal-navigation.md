@@ -91,3 +91,8 @@ Budhei now retains the coconut sequence, named local foods and four/five/lunar/s
 ## 2026-10-11 · Alana held calendar
 
 Alana’s ordinary Ashwina facet is removed in the local derivative because a new collected account gives solar Dhanu Sundays. Unresolved alternatives are visible; no lunar conversion or visit date.
+
+
+## 11 October 2026 · Kanji Anla food roles
+
+Kanji Anla food-role revision is local and awaits draftPR145 reconciliation. Calendar disagreement and all unknown serving fields retained.

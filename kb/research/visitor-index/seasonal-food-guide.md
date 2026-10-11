@@ -243,3 +243,8 @@ The [dated serving-evidence study](seasonal-food-offer-evidence.md) records an o
 ## 2026-10-11 · Alana season unresolved
 
 [Alana](../culture/osha/alana.md) has a held calendar and unspecified fruit/sweet offerings. Story pitha is not an identified ritual preparation or public meal.
+
+
+## 11 October 2026 · Kanji Anla food roles
+
+Kanji Anla has attributed kanji, curry and chakuli offerings. A child-directed household meal is not a public food offer; date, venue and host consent remain unknown.

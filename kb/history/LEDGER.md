@@ -1102,3 +1102,7 @@ Budhei gains a fuller family and food narrative. Published myth summary, repeate
 ## UTP-HIS-OSHA-ALANA-20261011 · Alana family and food evidence
 
 Alana gains a modern collected narrative about exclusion, care and remembrance. The story meal, salt-free consumption and salt-free offering preparation retain separate source scopes. Ashwina and solar Dhanu calendars conflict; older textual lineage and locality remain unresolved. Saved sources reused; no interviews, human review, merge or publication claimed. [Checkpoint](../records/osha-alana-review-2026-10-11.json).
+
+## UTP-HIS-OSHA-KANJI-20261011 · Kanji Anla food roles
+
+Existing authored descriptions retain distinct kitchen/courtyard settings, offering/child-meal roles and ritual materials. Older historical lineage and local variation remain unresolved. Saved evidence reused; no human review or public release. [Checkpoint](../records/osha-kanji-review-2026-10-11.json).

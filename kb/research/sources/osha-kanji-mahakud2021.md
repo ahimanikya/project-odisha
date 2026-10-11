@@ -18,3 +18,7 @@ Author: ମନୋରଞ୍ଜନ ମିଥୁନ ମହାକୁଡ଼ (Manoranj
 Locator: Opening calendar paragraph; two story paragraphs; ritual procedure heading; separate scientific-reason heading (web extraction lines83–92). Web extraction opened successfully on 2026-10-07. Publication date displayed on page; no original HTML archive, interview or image reuse claimed.
 
 [Kanji Anla](../culture/osha/kanji-anla.md). Independent textual lineage is not established merely because this is a separate website.
+
+## 11 October 2026 · Food roles inspected
+
+Food roles, household setting and post-offering sequence. Authored cultural description, not observed fieldwork or historical origin evidence. Ritual-procedure paragraph / web line88. Original HTML archived with its hash in the Kanji Anla food-role checkpoint. Earlier publication and retrieval records preserved.

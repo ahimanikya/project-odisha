@@ -450,3 +450,7 @@ Budhei full original katha, manuscript dates and situated household recipes rema
 ## 2026-10-11 · Alana review
 
 Alana full original katha, manuscript dates and situated household recipes remain open; retry17October. Existing14–17October holds remain. No current serving offers verified.
+
+## 2026-10-11 · Kanji Anla review
+
+Kanji Anla full original katha, manuscript dates and situated household recipes remain open; retry14October. Existing14–17October holds remain. No current serving offers verified.

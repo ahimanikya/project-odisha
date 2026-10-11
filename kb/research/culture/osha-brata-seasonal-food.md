@@ -149,3 +149,8 @@ A [public-food evidence study](../visitor-index/seasonal-food-offer-evidence.md)
 ## 2026-10-11 · Alana narrative and timing
 
 [Alana](osha/alana.md) now distinguishes a modern collected narrative, salt restraint and conflicting calendars. Older history remains absent;53 profiles/15 narrative checkpoints/38 early notes unchanged.
+
+
+## 11 October 2026 · Kanji Anla food roles
+
+Kanji Anla separates kitchen/courtyard accounts, food offered to children and ritual materials;53 profiles/15 narrative checkpoints/38 early notes remain unchanged.
