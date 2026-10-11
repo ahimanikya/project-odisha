@@ -1,0 +1,80 @@
+{
+  "recorded_at": "2026-10-11T08:51:55.256043+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-048",
+  "work_id": "UTP-WORK-233",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "output": "research/stories/minerals-and-local-suppliers.md",
+  "brief": {
+    "reader": "Readers curious about work around Odisha industry.",
+    "reason_to_read": "Follow a company purchasing measure towards the records needed for a named enterprise story.",
+    "memorable_detail": "Odisha-based purchase value rose while its share of MSE purchases fell.",
+    "visual_treatment": "Separately labelled annual amount bars divided by supplier location; no source photo reuse or invented supplier portrait.",
+    "next_step": "A named enterprise needs dated classification, actual award, completion/payment records and permitted participant account."
+  },
+  "reuse": {
+    "research_map_read": true,
+    "queries": [
+      "suppliers"
+    ],
+    "inputs": [
+      "research/stories/minerals-and-local-suppliers.md",
+      "research/economy/bauxite-to-aluminium.md",
+      "research/sources/mining-nalco-ar2026.md",
+      "research/sources/mining-nalco-sd2025.md"
+    ],
+    "queue_pointers_inspected": [
+      "RES-052"
+    ],
+    "earlier_draft_sha256": "1240c6537d29c45c7a873d46d91b30bd734e44ea1b7b055c54fb5bc09656bc5f",
+    "preserved": "Earlier body retained verbatim; canonical company/community/workforce gaps and queue states unchanged."
+  },
+  "sources": [
+    {
+      "id": "mining-nalco-ar2026",
+      "url": "https://nalcoindia.com/wp-content/uploads/2026/08/45th-Annual-Report-2025-26.pdf",
+      "sha256": "4c9b97844771ca234658df8ea8d58da8576ffb93a8b665020067d61c8c6193c6",
+      "inspection": "Printed56/PDF76 section19(a):652.19crore Odisha-based and1447.94crore all-location MSE procurement; distinct policy denominator wording visually checked.",
+      "retrieval": "Web tool502; publisher PDFs successfully retrieved via direct HTTP and inspected locally."
+    },
+    {
+      "id": "mining-nalco-sd2025",
+      "url": "https://nalcoindia.com/wp-content/uploads/2026/03/NALCO-SD-Report-2025-Final.pdf",
+      "sha256": "e1eceb1cdacb8aa9637a8bdec5d8173c969985bfa20df07b0a94388fb600e1f9",
+      "inspection": "Printed41/PDF43 procurement passage:570.46crore Odisha-based and898.76crore all-location MSE procurement visually checked.",
+      "retrieval": "Web tool502; publisher PDFs successfully retrieved via direct HTTP and inspected locally."
+    }
+  ],
+  "calculations": [
+    {
+      "formula": "570.46/898.76*100",
+      "result": 63.47,
+      "unit": "percent",
+      "basis": "Reported FY2024–25 Odisha-based purchases divided by all-location MSE purchases; rounded2dp."
+    },
+    {
+      "formula": "652.19/1447.94*100",
+      "result": 45.04,
+      "unit": "percent",
+      "basis": "Reported FY2025–26 Odisha-based purchases divided by all-location MSE purchases; rounded2dp."
+    }
+  ],
+  "verification": {
+    "claims": "Original purchase values and denominator wording inspected; arithmetic checked; award/delivery/payment ladder labelled as reporting path, not observed enterprise.",
+    "local_checks": "Research3774links, classification305relationships, workbench build/catalogue passed. Registers, bundle5046links, program and workbench consistency passed before commit.",
+    "visual": "Original annual-report PDF76 and sustainability-report PDF43 rendered and visually inspected."
+  },
+  "limitations": [
+    "Same-assistant documentary/editorial review; no independent human, supplier or economist review.",
+    "Company-reported nominal procurement values in two report editions; same corporate provenance, not independent corroboration. Odisha supplier location does not prove manufacturing origin.",
+    "Location share uses all-location MSE purchase denominator; source policy percentages have separate scope. Not total company procurement share, business count, profit, jobs or household outcome.",
+    "RSP purchase-order measure retained separately in prior research, not freshly verified or combined into statewide total.",
+    "No enterprise award, delivery, payment, interview, photo rights or supplier endorsement obtained. Wider research gaps, website selection and search eligibility unchanged."
+  ],
+  "delivery": "Pending required checks and reviewed-head KB merge; deployment not required."
+}
