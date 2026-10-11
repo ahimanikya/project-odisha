@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `805492efd48a40a27a611270b85915980ceb5ec52c5f160c8c517c9f2fd17eb6`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `45213efeb930b1a8b3fa8b12ff701375566edbbd24b2db6264501ecbad595343`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -199,7 +199,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
-| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue the next eligible substantive backlog item. 46 of 500 items delivered with linked evidence; no routine approval required within UTP-DEC-225. | — |
+| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue the next eligible substantive backlog item. 47 of 500 items delivered with linked evidence; no routine approval required within UTP-DEC-225. | — |
 | UTP-WORK-190 · Food discovery, portable reading collection and current review-queue repair | completed | published | Ahimanikya Satapathy | Published and live-verified. Continue through the program queue under DEC225. | — |
 | UTP-WORK-191 · Build the tourism opportunities information section | completed | reviewed | Ahimanikya Satapathy | Published information scope complete. Continue WORK166 and WORK171 only when new documentary or operating evidence is available. | — |
 | UTP-WORK-192 · Align saved food cards with canonical story introductions | completed | reviewed | Ahimanikya Satapathy | Repair published and live catalogue verified; preserve canonical food fields when future stories change. | — |
@@ -242,7 +242,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-229 · Connect the work behind a sweet from chhena to customer | completed | applied | Ahimanikya Satapathy | KB story delivered. Current maker accounts, dated batch costs and receipts remain separate research and fieldwork. | — |
 | UTP-WORK-230 · Read Bhubaneswar university rankings through the graduates behind them | completed | applied | Ahimanikya Satapathy | KB story delivered. Current admissions, programme costs and actual graduate accounts remain separate research. | — |
 | UTP-WORK-231 · Give the growing story collection clear reading paths | completed | applied | Ahimanikya Satapathy | KB reading guide delivered. Future story additions require coverage maintenance; underlying editorial review remains separate. | — |
-| UTP-WORK-232 · Tell the institution-building story through distinct evidence lenses | in_progress | reviewed | Ahimanikya Satapathy | Pass required checks and merge reviewed documentation. | — |
+| UTP-WORK-232 · Tell the institution-building story through distinct evidence lenses | completed | applied | Ahimanikya Satapathy | KB story delivered. Original founding records, separate audit opinion and independent participant evidence remain separate blocked research. | — |
 
 ## Pending human review and decisions
 
@@ -865,7 +865,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-339 | 2026-10-11T02:49:17.580648+00:00 | PR185 passed required checks and reviewed head merged. Rice cost story matches fetched merge; item42 delivered to KB. Founder reiterated next-week permission without routine questions. | Continue eligible backlog; survey-year confirmation and household reporting remain open. |
 | UTP-EVT-340 | 2026-10-11T03:49:10.441356+00:00 | Van Dhan reader story connects named historical cluster plans to product processing; original release and parliamentary reply checked, aggregate/collector-income distinction and earlier draft retained. Item43 awaits checked merge. | Pass required checks and merge reviewed documentation. |
 | UTP-EVT-341 | 2026-10-11T03:52:56.794359+00:00 | PR188 passed required checks and reviewed head merged. Forest enterprise story matches fetched merge; item43 delivered to KB. Founder reiterated next-week permission without routine questions. | Continue eligible backlog; current-operation and collector-payment evidence remain open. |
 | UTP-EVT-342 | 2026-10-11T04:46:18.943688+00:00 | Milk-to-market reader story connects documented Pahala supply roles with future reporting questions; original study checked, disputed revenue excluded and earlier draft preserved. Item44 awaits checked merge. | Pass required checks and merge reviewed documentation. |
@@ -875,6 +874,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-346 | 2026-10-11T07:13:46.894485+00:00 | Story index gains curated reading paths. All21 direct drafts linked once in main guide, extra destinations exist and earlier index preserved. Drafts and reading journeys clearly separated from release and confirmed visits; item46 awaits checked merge. | Pass required checks and merge reviewed documentation. |
 | UTP-EVT-347 | 2026-10-11T07:26:45.689892+00:00 | PR191 passed required checks and reviewed head merged. Story reading guide matches fetched merge; item46 delivered to KB. Founder reiterated next-week permission without routine questions. | Continue eligible backlog; article-level research and public editorial review remain separate. |
 | UTP-EVT-348 | 2026-10-11T07:52:37.331427+00:00 | Institution-building reader story separates university identity, expenses and PG tuition support. Three original PDFpages inspected; prior draft and broader research blockers preserved. Item47 awaits checked merge. | Pass required checks and merge reviewed documentation. |
+| UTP-EVT-349 | 2026-10-11T08:00:37.433342+00:00 | PR192 passed required checks and reviewed head merged. Institution-building story matches fetched merge; item47 delivered to KB. Founder reiterated next-week permission without routine questions. | Continue eligible backlog; broader RES047 blockers and current student evidence remain open. |
 
 ## Deferred extensions
 
