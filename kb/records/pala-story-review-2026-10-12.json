@@ -1,0 +1,55 @@
+{
+  "reviewed_at": "2026-10-11T21:39:32.741492+00:00",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "status": "pass_with_limitations",
+  "work_id": "UTP-WORK-246",
+  "program_item": "UTP-A500-059",
+  "authorization": "UTP-DEC-225",
+  "checks": [
+    "Existing Pala record, feature draft and map/RES040 pointers read.",
+    "Full local role table and dated Sammilan report re-read.",
+    "Existing photograph visually inspected and hash verified; metadata/rights preserved.",
+    "Earlier overview preserved verbatim, JSON feature and image unchanged.",
+    "No origin, current booking, invented verse or field encounter claimed."
+  ],
+  "verification": {
+    "source_review": [
+      "Existing Pala record, feature draft and map/RES040 pointers read.",
+      "Full local role table and dated Sammilan report re-read.",
+      "Existing photograph visually inspected and hash verified; metadata/rights preserved.",
+      "Earlier overview preserved verbatim, JSON feature and image unchanged.",
+      "No origin, current booking, invented verse or field encounter claimed."
+    ],
+    "preservation": {
+      "earlier_body_sha256": "075388731926e576cce14f09c541123def9c3e503bcf1bd32f2432efed33f387",
+      "earlier_body_retained_verbatim": true,
+      "unchanged_feature_sha256": "6ff786021c7a7c5e8602cb03ef842a99efc2dc9656f69975694d6994d113a5ad",
+      "unchanged_image_sha256": "8a0fc3f16e7091b1f0169f6a10992315ce8efab2bbc3cc5e953f8e802f21ef35",
+      "visual_inspection": "Local photograph inspected; alt and caption match. No identity or verse inferred."
+    }
+  },
+  "limitations": [
+    "Current assistant desk review; no independent human or practitioner review.",
+    "Behera saved full-text evidence reused; fresh Behera and Dash fetches failed.",
+    "Local roles and dated gathering do not establish universal format or current event availability.",
+    "KB draft only; website/search unchanged."
+  ],
+  "outputs": [
+    {
+      "path": "research/culture/pala.md",
+      "sha256": "5c93fa82e3a9fe72bc828d5c9a815b9c29878af3425b6eac213d3e2aa991601d"
+    },
+    {
+      "path": "research/culture/sounds-of-odisha.md",
+      "sha256": "c4ccce6ed411bca3f8b877b3fda1f2a7678d2f201b0120fc8e1e25df2ed61de7"
+    },
+    {
+      "path": "research/sources/pala-sounds-story-research.md",
+      "sha256": "387ef48adf08bdd1099b4077bd6cc02ede8cfeb20af5a31961ae81545b5e9efe"
+    }
+  ]
+}
