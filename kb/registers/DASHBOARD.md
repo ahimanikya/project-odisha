@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `ebc3dcd85ef539746db2cfbf0619be674918b0bf6d4980e4e089430baf71f791`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `13cfb9c000c0f3182ef246be5faea72615501b0979cdb4ec3a9422d1c85d80f2`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -246,6 +246,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-233 · Follow industrial purchases towards the local supplier evidence | completed | applied | Ahimanikya Satapathy | KB story delivered. Named supplier awards, completion/payment and permitted participant accounts remain separate evidence work. | — |
 | UTP-WORK-234 · Read Odisha industrial trade through separate company measures | completed | applied | Ahimanikya Satapathy | KB story delivered. Named destinations, exact material routes, mine-scope reconciliation and participant evidence remain separate work. | — |
 | UTP-WORK-235 · Read the harvest beyond the headline yield | completed | applied | Ahimanikya Satapathy | KB story delivered. Farmer accounts, causal evidence, procurement settlements and cost-study periods remain separate evidence work. | — |
+| UTP-WORK-236 · Make the trading-culture concept a usable documentary brief | in_progress | reviewed | Ahimanikya Satapathy | Pass required checks and merge reviewed production brief. | — |
 
 ## Pending human review and decisions
 
@@ -736,6 +737,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-201 | pass_with_limitations | False | Same-assistant documentary/editorial review; no independent human, supplier or economist review.; Company-reported nominal procurement values in two report editions; same corporate provenance, not independent corroboration. Odisha supplier location does not prove manufacturing origin.; Location share uses all-location MSE purchase denominator; source policy percentages have separate scope. Not total company procurement share, business count, profit, jobs or household outcome.; RSP purchase-order measure retained separately in prior research, not freshly verified or combined into statewide total.; No enterprise award, delivery, payment, interview, photo rights or supplier endorsement obtained. Wider research gaps, website selection and search eligibility unchanged. |
 | UTP-REV-202 | pass_with_limitations | False | Same-assistant source/editorial review; no independent human, worker or trade assurance.; Dated company standalone market/export disclosure and company sales table; not statewide exports or global popularity.; Country count, physical tonnes and export turnover share have different meanings. No named destinations, exact cargo route or tonnes-share conversion supplied.; Mine-output reconciliation, current commissioning, plant allocations, supplier and worker outcomes remain unresolved. No invented interview, job gain or image-rights claim.; Earlier draft and canonical research preserved; no website/search selection expansion. |
 | UTP-REV-203 | pass_with_limitations | False | Same-assistant source/editorial review; no independent human or farmer review.; Dated statewide crop totals; not current forecasts, individual farm yields, unique landowners, causal evaluation or household profit.; Rice production, paddy production and procurement quantity remain distinct; rounded historical precision retained.; Settlement coverage and cost-study survey year remain unresolved in RES-061. No interview, farm inspection or media rights invented.; Original draft and chart retained; no website or search eligibility change. |
+| UTP-REV-204 | pass_with_limitations | False | Same-assistant editorial review; no independent human, language or participant review.; Production brief only: no rendered film, asset clearances, read-through, player or actual device checks.; Dated 2023 event rechecked; other research reused with original scope, no new historical or numerical trade claim.; No institutional endorsement, continuous merchant lineage, cargo-origin or household-income inference.; No outreach, booking, spending, AI persona appointment, held commercial activation or website/search change. |
 
 ## Publication and application history
 
@@ -871,7 +873,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-346 | 2026-10-11T07:13:46.894485+00:00 | Story index gains curated reading paths. All21 direct drafts linked once in main guide, extra destinations exist and earlier index preserved. Drafts and reading journeys clearly separated from release and confirmed visits; item46 awaits checked merge. | Pass required checks and merge reviewed documentation. |
 | UTP-EVT-347 | 2026-10-11T07:26:45.689892+00:00 | PR191 passed required checks and reviewed head merged. Story reading guide matches fetched merge; item46 delivered to KB. Founder reiterated next-week permission without routine questions. | Continue eligible backlog; article-level research and public editorial review remain separate. |
 | UTP-EVT-348 | 2026-10-11T07:52:37.331427+00:00 | Institution-building reader story separates university identity, expenses and PG tuition support. Three original PDFpages inspected; prior draft and broader research blockers preserved. Item47 awaits checked merge. | Pass required checks and merge reviewed documentation. |
 | UTP-EVT-349 | 2026-10-11T08:00:37.433342+00:00 | PR192 passed required checks and reviewed head merged. Institution-building story matches fetched merge; item47 delivered to KB. Founder reiterated next-week permission without routine questions. | Continue eligible backlog; broader RES047 blockers and current student evidence remain open. |
@@ -881,6 +882,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-353 | 2026-10-11T09:56:02.274977+00:00 | PR194 passed required checks and reviewed head merged. Ferrochrome trade story matches fetched merge; item49 delivered to KB. Founder reiterated next-week permission without routine questions. | Continue eligible backlog; material routes and worker/community outcomes remain open. |
 | UTP-EVT-354 | 2026-10-11T11:01:51.141249+00:00 | Rice harvest reader draft separates area, yield and total rice output, preserves annual setbacks and connects costs, procurement and seed stories. Original historical table visually checked; no farmer or causal outcome claimed. Item50 awaits checked merge. | Pass required checks and merge reviewed KB draft. |
 | UTP-EVT-355 | 2026-10-11T11:23:01.532239+00:00 | PR195 passed required checks and reviewed head merged. Rice harvest story matches fetched merge; item50 delivered to KB with original draft/chart preserved. | Continue eligible backlog; household and causal outcomes remain separate evidence work. |
+| UTP-EVT-356 | 2026-10-11T12:07:37.185347+00:00 | Trading-culture concept now includes six-scene original narration, media/evidence fallbacks, current palette, rights manifest and accessible-film acceptance. Dated Paradip event rechecked; no actual film or commercial activation. Item51 awaits checked merge. | Pass required checks and merge reviewed production brief. |
 
 ## Deferred extensions
 
