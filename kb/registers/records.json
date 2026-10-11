@@ -6599,6 +6599,28 @@
         "records/paddy-payments-story-merged-2026-10-11.json"
       ],
       "acceptance_criteria": "Turn the existing paddy-procurement payment draft into a connected reader explainer with a seasonal quantity table and the farmer-income question. Reuse canonical reconciliation and source IDs; inspect original report quantities, payment category and period definitions, verify arithmetic and preserve earlier draft. Do not mix MSP-only with MSP-plus-assistance, equate procurement with production, add seasonal people as unique farmers or infer profit/current entitlements. Validate research/classification, KB and indexes; pass required PR checks and save the reviewed-head merge receipt. KB-only; no website or search expansion."
+    },
+    {
+      "id": "UTP-WORK-227",
+      "title": "Explain the costs behind a historical rice-income case",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-189",
+        "UTP-REV-195"
+      ],
+      "evidence": [
+        "records/rice-cost-story-review-2026-10-11.json",
+        "research/stories/rice-income-after-costs.md"
+      ],
+      "next_action": "Pass required checks and merge reviewed documentation.",
+      "category": "research_and_writing",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "blockers": [],
+      "acceptance_criteria": "Develop the existing rice-income-after-costs draft into a coherent reader explainer with defined gross value, C2 and household-income limits. Reuse the canonical regional case, inspect original methods and paddy tables, preserve unresolved survey year, one-paisa difference and earlier body. Do not treat A2 as cash-only, infer statewide current profit or mix cost definitions. Validate research/classification, KB/indexes and records; pass PR checks and save reviewed-head documentation merge receipt. No website/search change."
     }
   ],
   "decisions": [
@@ -15621,6 +15643,29 @@
         "Departmental reported payments are not independently audited settlements. No timely payment, household income, welfare outcome or unique annual farmer count established.",
         "Earlier canonical payment disagreement and arithmetic discrepancy preserved; no correction notice or settlement explanation obtained.",
         "No interviews, fieldwork, current entitlement advice, public website change or search expansion."
+      ]
+    },
+    {
+      "id": "UTP-REV-195",
+      "title": "Historical rice cost definitions and reader-story review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-227",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/rice-cost-story-review-2026-10-11.json"
+      ],
+      "limitations": [
+        "Same-assistant documentary/editorial review; no independent economics or human review.",
+        "Paddy survey/valuation year and crop-specific sample remain unresolved. Historical nominal regional case, not current statewide or total household income.",
+        "Source table/method definition differences and one-paisa subtraction difference retained; no C3 or cross-crop ratio adopted.",
+        "No interview, fieldwork, current farm budget, agronomic recommendation, website release or search expansion."
       ]
     }
   ],

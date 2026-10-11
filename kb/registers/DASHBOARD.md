@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `38b376ff62ed931f6063e7b38fe815dcd91a24031c8d3ad1852b43cc131f0b85`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `a3695d1667a8eb964b69ee478b8e5462a81531ee00cf509f1e2a2801c08413dd`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -237,6 +237,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-224 · Develop Kotpad colour and maker reader profile | completed | applied | Ahimanikya Satapathy | KB profile delivered. Practitioner terminology review, current arrangements and any website revision remain separate work. | — |
 | UTP-WORK-225 · Give Berhampuri Patta a clear cloth and construction profile | completed | applied | Ahimanikya Satapathy | KB profile delivered. Practitioner terminology, current cooperative operations, visit arrangements and illustrated website treatment remain separate work. | — |
 | UTP-WORK-226 · Explain paddy procurement payments without losing their scope | completed | applied | Ahimanikya Satapathy | KB story delivered. Farmer interviews, settlement verification and current entitlements remain separate work. | — |
+| UTP-WORK-227 · Explain the costs behind a historical rice-income case | in_progress | reviewed | Ahimanikya Satapathy | Pass required checks and merge reviewed documentation. | — |
 
 ## Pending human review and decisions
 
@@ -718,6 +719,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-192 | pass_with_limitations | False | Same-assistant source and editorial review; practitioner, community terminology and independent human review remain open.; Award announcement extracted text checked through web PDF reader; screenshot cache miss and direct retrieval returned HTML, so no fresh visual inspection of the award row is claimed.; No botanical identity, quantified environmental benefit, product certification, current dye recipe or universal gender-role claim independently established.; Film catalogue metadata checked, not the complete film or current screening availability. No source photograph or film reproduced; no new reuse rights assumed.; No fieldwork, current stock, GI renewal, workshop invitation or human review claimed. KB-only profile; existing website narrative and search eligibility remain separate. |
 | UTP-REV-193 | pass_with_limitations | False | Same-assistant documentary and editorial review; no independent practitioner, local terminology or human review.; Undated directory describes examples and institutional product associations; it does not establish current service, stock, maker attribution for other pieces or authentication.; Incredible India disagreement is preserved from the saved2October check; its endpoint was not re-retrieved and no publisher correction claimed. Royal-origin, ritual and tourism loom narratives not adopted as new claims.; No fieldwork, visit arrangement, current GI status, relationship, image rights or commercial activation established. KB-only reader profile; no public website or search expansion. |
 | UTP-REV-194 | pass_with_limitations | False | Same-assistant documentary/editorial review; no independent economics or human review.; Departmental reported payments are not independently audited settlements. No timely payment, household income, welfare outcome or unique annual farmer count established.; Earlier canonical payment disagreement and arithmetic discrepancy preserved; no correction notice or settlement explanation obtained.; No interviews, fieldwork, current entitlement advice, public website change or search expansion. |
+| UTP-REV-195 | pass_with_limitations | False | Same-assistant documentary/editorial review; no independent economics or human review.; Paddy survey/valuation year and crop-specific sample remain unresolved. Historical nominal regional case, not current statewide or total household income.; Source table/method definition differences and one-paisa subtraction difference retained; no C3 or cross-crop ratio adopted.; No interview, fieldwork, current farm budget, agronomic recommendation, website release or search expansion. |
 
 ## Publication and application history
 
@@ -853,7 +855,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-328 | 2026-10-10T14:41:25.133027+00:00 | Growing Odisha expanded into a sourced reader story. Fish/port endpoints and six construction years checked, two PDF tables visually reviewed; livelihood questions left open. Item37 awaits checked merge. | Pass required checks and merge exact reviewed documentation. |
 | UTP-EVT-329 | 2026-10-10T14:44:24.543401+00:00 | PR180 passed required checks and exact reviewed head merged. Growing Odisha article matches fetched merge; item37 delivered toKB. Public website unchanged. | Continue eligible backlog; independent review and participant reporting remain open. |
 | UTP-EVT-330 | 2026-10-10T15:25:00.272253+00:00 | Habaspuri fragments developed into a source-led reader profile. Three documentary pages visually checked; technique gap clarified and earlier research preserved. Revival, formation and current access remain open. Item38 awaits checked merge. | Pass required checks and merge exact reviewed documentation. |
 | UTP-EVT-331 | 2026-10-10T15:28:56.120571+00:00 | PR181 passed required checks and exact reviewed head merged. Habaspuri profile matches fetched merge; item38 delivered to KB. Public website unchanged. | Continue eligible backlog; practitioner review and local confirmations remain open. |
@@ -863,6 +864,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-335 | 2026-10-10T22:50:59.242914+00:00 | PR183 passed required checks and reviewed head merged. Berhampuri profile matches fetched merge; item40 delivered to KB. | Continue eligible backlog; practitioner review and local confirmations remain open. |
 | UTP-EVT-336 | 2026-10-10T23:19:07.454632+00:00 | Paddy payment reader story separates seasonal quantities, FY/KMS windows and payment categories; original report visually checked and earlier draft preserved. Item41 awaits checked merge. | Pass required checks and merge reviewed documentation. |
 | UTP-EVT-337 | 2026-10-11T02:42:35.496803+00:00 | PR184 passed required checks and reviewed head merged. Paddy payment story matches fetched merge; item41 delivered to KB. Founder reiterated next-week permission without routine questions. | Continue eligible backlog; settlement and farmer-income reporting remain open. |
+| UTP-EVT-338 | 2026-10-11T02:46:17.906072+00:00 | Regional rice-cost story explains gross value and cost boundaries; original methods and paddy tables checked, earlier body and unresolved survey year preserved. Item42 awaits checked merge. | Pass required checks and merge reviewed documentation. |
 
 ## Deferred extensions
 
