@@ -6714,6 +6714,28 @@
         "records/story-paths-merged-2026-10-11.json"
       ],
       "acceptance_criteria": "Replace the incomplete stories landing page with curated food, cloth, regional, learning and livelihoods reading paths. Link all21 current direct Markdown story drafts once in the main guide, explain reading choices and preserve narrative/campaign/reference entry points and earlier index. Distinguish research drafts and proposed journeys from published website articles or confirmed visits. Check full coverage, unique main-guide destinations, real files, canonical bundle/records and required PR checks; save exact-head KB merge receipt. No new research claims, public selection or search eligibility expansion."
+    },
+    {
+      "id": "UTP-WORK-232",
+      "title": "Tell the institution-building story through distinct evidence lenses",
+      "category": "research_and_writing",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Pass required checks and merge reviewed documentation.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-189",
+        "UTP-REV-200"
+      ],
+      "evidence": [
+        "records/institution-story-review-2026-10-11.json",
+        "research/stories/institution-building-evidence.md"
+      ],
+      "acceptance_criteria": "Develop the existing institution-building draft into a source-attributed education reader story separating KISS-DU university expenses, postgraduate tuition support and unmeasured learning impact. Reinspect original accounts, notification and tuition-support row; retain financial vintages, school/university boundaries and earlier draft. No new founder testimony, current enrolment/admissions promise, per-student expense or independently verified social impact. Validate canonical links/classification/records, merge exact reviewed head after required checks and save KB-only receipt. Leave broader RES047 blockers and website/search selection unchanged."
     }
   ],
   "decisions": [
@@ -15852,6 +15874,30 @@
         "Index summaries reuse existing story scope; underlying sources not freshly reverified in this navigation change.",
         "All21 current direct Markdown story drafts linked once in main guide, with separate narrative collection link; future additions need maintenance.",
         "KB collection is not a website release list, confirmed travel itinerary or activation of commercial work. No public selection or search eligibility expansion."
+      ]
+    },
+    {
+      "id": "UTP-REV-200",
+      "title": "Institution identity, accounts and tuition-support story review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-232",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/institution-story-review-2026-10-11.json"
+      ],
+      "limitations": [
+        "Same-assistant source/editorial review; no independent human, accountant or student review.",
+        "Dated university-labelled expenses include depreciation/amortisation; separate audit opinion and held scope/vintage questions unresolved.",
+        "2025 NIRF institutional PG tuition-support row has no explicit census day. Not a current enrolment, all-cost coverage, admissions or employment promise.",
+        "School, Foundation, university and KIIT boundaries retained. No per-student expense, causal impact, participant testimony or fieldwork inferred.",
+        "RES047 original founding records, separate audit opinion and lawful full-text community evidence remain blocked. No queue closure or website/search expansion."
       ]
     }
   ],
