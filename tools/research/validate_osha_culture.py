@@ -45,6 +45,11 @@ for x in comparison['rows']:
  for version in ['verse','prose']:
   check(x[version]['source_id'] in cat and bool(x[version]['locator']),'Missing comparison provenance')
   check(x[version]['text'] in (ROOT/'culture/osha/sudasa-text-comparison.md').read_text(),'Comparison prose/data mismatch')
+for x in comparison.get('supplemental_passages',[]):
+ check(x['source_id'] in cat and bool(x['locator']),'Missing supplementary passage provenance')
+ check(x['evidence_class']=='ritual_narrative' and not x['historical_event_verified'],'Supplementary passage promoted to history')
+ check(x['text'] in (ROOT/'culture/osha/sudasa-text-comparison.md').read_text(),'Supplementary comparison prose/data mismatch')
+ check(x['text'] in (ROOT/'culture/osha'/ (x['profile_slug']+'.md')).read_text(),'Supplementary profile prose/data mismatch')
 check(all(v is None for v in comparison['edition_dates'].values()) and comparison['earliest_observance_date'] is None,'Unestablished chronology')
 check(not comparison['human_review_claimed'] and not comparison['full_diplomatic_transcription'],'Unperformed review or full collation')
 check(not r['human_review_claimed'] and not r['fieldwork_conducted'],'Unestablished human review or fieldwork')

@@ -5,7 +5,7 @@ description: "Sudasa Brata stories and offerings — texts, interpretation and f
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-07T06:51:32.977784+00:00"}
 subjects: ["everyday", "food", "arts"]
-sources: [{"id": "osha-sudasa-scan", "title": "Damayantinkara Sudasha Brata", "resource": "https://www.odiabooks.com/sudasha-brata-katha-pdf-ebook.html"}, {"id": "osha-sudasa-prose", "title": "Shri Sudasha Brata Katha — anonymous typed prose copy", "resource": "https://www.dropbox.com/s/c0u5sg3lcm9y8b5/sudashabrata_txt.pdf?dl=1"}]
+sources: [{"id": "osha-sudasa-scan", "title": "Damayantinkara Sudasha Brata", "resource": "https://www.odiabooks.com/sudasha-brata-katha-pdf-ebook.html"}, {"id": "osha-sudasa-prose", "title": "Shri Sudasha Brata Katha — anonymous typed prose copy", "resource": "https://www.dropbox.com/s/c0u5sg3lcm9y8b5/sudashabrata_txt.pdf?dl=1"}, {"id": "osha-manabasa-wikisource", "title": "ମାଣବସା ଲକ୍ଷ୍ମୀ ପୁରାଣ — Odia Wikisource transcription, revision57790", "resource": "https://or.wikisource.org/w/index.php?title=ମାଣବସା_ଲକ୍ଷ୍ମୀ_ପୁରାଣ&oldid=57790"}]
 human_review_claimed: false
 ---
 
@@ -46,3 +46,21 @@ An editorial reading can follow how a household moves between having food, losin
 The scanned booklet names Damayanti as the queen whose vow is narrated. Treating her name on its cover as an author attribution was incorrect; authorship is unestablished. The typed copy also lacks an established author or edition date. Two plots can be described without calling either the original. Manuscript dates, textual relationships and the history of local performance still require separate evidence.
 
 [Sudasa Brata](sudasa-brata.md) · [Text witness register](../osha-text-witnesses.md). Side-by-side narrative and food evidence from two recovered Sudasa texts.
+
+## 11 October 2026 · Supplementary digital passage
+
+The seven-dimension comparison above remains scoped to its two recovered copies. The following passages come from a separate, edition-unidentified digital transcription already inspected for Manabasa. They do not establish an independent textual lineage or chronology.
+
+
+## Rice and filling in another textual witness
+
+The saved Odia Lakshmi Purana transcription introduces Sudasa separately from Manabasa. It instructs soaking arua rice and pounding it into flour, then making ten manda with banana, coconut, chhena and other filling ingredients. The cooking method remains unspecified. This adds a textual preparation reference alongside the booklet’s chhena-and-coconut passage, without establishing which text is earlier.
+
+Source: [Odia textual witness](https://or.wikisource.org/w/index.php?title=ମାଣବସା_ଲକ୍ଷ୍ମୀ_ପୁରାଣ&oldid=57790). Revision57790, displayed57–68, especially66–67; scanned booklet printed p.2, verse17.
+
+
+## Who receives this offering
+
+The transcription tells the observer to eat the prasada and withhold it from others, explicitly including a married daughter. This restriction belongs to the Sudasa instructions in this witness. It is distinct from Lakshmi’s later demand for food sharing across caste boundaries in the story, and does not establish how households distribute offerings today.
+
+Source: [Odia textual witness](https://or.wikisource.org/w/index.php?title=ମାଣବସା_ଲକ୍ଷ୍ମୀ_ପୁରାଣ&oldid=57790). Revision57790, displayed68–69; compare477–479.

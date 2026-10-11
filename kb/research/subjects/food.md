@@ -127,3 +127,8 @@ Subject membership is editorial classification. It does not establish historical
 ## 11 October 2026 · Manabasa textual witness
 
 Manabasa distinguishes ritual arrangement, a separate Sudasa manda passage and the narrative’s food-sharing condition; current serving remains unknown.
+
+
+## 11 October 2026 · Sudasa food text
+
+[Sudasa Brata](../culture/osha/sudasa-brata.md) distinguishes textual rice/filling instructions from verified recipes and offering distribution.

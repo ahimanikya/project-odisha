@@ -169,3 +169,8 @@ Sabitri adds deliberate literary choice, a story vow and source-specific shared 
 ## 11 October 2026 · Manabasa textual witness
 
 Manabasa’s new digital witness distinguishes grain-arrangement instructions, a separate Sudasa passage and shared-food reconciliation. Its edition date remains unknown.
+
+
+## 11 October 2026 · Sudasa food text
+
+Sudasa gains a supplementary source-specific rice/filling and offering-distribution passage. Cooking method and household practice remain unknown.

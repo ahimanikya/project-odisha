@@ -512,3 +512,7 @@ Sabitri Brata remains a narrative research checkpoint in the53-profile review ca
 ## 2026-10-11 · Manabasa Gurubara review
 
 Manabasa Gurubara remains a narrative research checkpoint in the53-profile review candidate:15 narrative checkpoints and38 early notes. Saved source research reused; no merge or publication.
+
+## 2026-10-11 · Sudasa supplementary review
+
+Sudasa rice/filling and source-specific offering-distribution instructions reconciled into existing draftPR145. No human review or public release.

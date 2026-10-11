@@ -3,9 +3,9 @@ type: "Cultural Observance"
 title: "Sudasa Brata"
 description: "Sudasa Brata — texts, interpretation and food culture."
 status: "draft"
-generated: {"by": "codex/gpt-6", "at": "2026-10-07T06:51:32.977784+00:00"}
+generated: {"by": "codex/gpt-6", "at": "2026-10-11T15:25:26.026622+00:00"}
 subjects: ["everyday", "food", "arts"]
-sources: [{"id": "osha-lakshmi2021", "title": "Laxmi: The Goddess of Prosperity and Salvation", "resource": "https://magazines.odisha.gov.in/Orissareview/2021/June-July/engpdf/page-21-25.pdf"}, {"id": "osha-mahanti", "title": "Fading Festivals of Odisha: A peep into the religious practices in Odisha", "resource": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf"}, {"id": "osha-review2006", "title": "The Perishing Tradition of Osha, Brata and Mela in Orissa: An Overview", "resource": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf"}, {"id": "osha-sudasa-scan", "title": "Damayantinkara Sudasha Brata", "resource": "https://www.odiabooks.com/sudasha-brata-katha-pdf-ebook.html"}, {"id": "osha-sudasa-prose", "title": "Shri Sudasha Brata Katha — anonymous typed prose copy", "resource": "https://www.dropbox.com/s/c0u5sg3lcm9y8b5/sudashabrata_txt.pdf?dl=1"}, {"id": "osha-nmm-catalogue", "title": "Orissa State Museum manuscript catalogue", "resource": "https://www.namami.gov.in/sites/default/files/Orissa_State_Museum_Bhubaneswar_Odisha.pdf"}]
+sources: [{"id": "osha-lakshmi2021", "title": "Laxmi: The Goddess of Prosperity and Salvation", "resource": "https://magazines.odisha.gov.in/Orissareview/2021/June-July/engpdf/page-21-25.pdf"}, {"id": "osha-mahanti", "title": "Fading Festivals of Odisha: A peep into the religious practices in Odisha", "resource": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf"}, {"id": "osha-review2006", "title": "The Perishing Tradition of Osha, Brata and Mela in Orissa: An Overview", "resource": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf"}, {"id": "osha-sudasa-scan", "title": "Damayantinkara Sudasha Brata", "resource": "https://www.odiabooks.com/sudasha-brata-katha-pdf-ebook.html"}, {"id": "osha-sudasa-prose", "title": "Shri Sudasha Brata Katha — anonymous typed prose copy", "resource": "https://www.dropbox.com/s/c0u5sg3lcm9y8b5/sudashabrata_txt.pdf?dl=1"}, {"id": "osha-nmm-catalogue", "title": "Orissa State Museum manuscript catalogue", "resource": "https://www.namami.gov.in/sites/default/files/Orissa_State_Museum_Bhubaneswar_Odisha.pdf"}, {"id": "osha-manabasa-wikisource", "title": "ମାଣବସା ଲକ୍ଷ୍ମୀ ପୁରାଣ — Odia Wikisource transcription, revision57790", "resource": "https://or.wikisource.org/w/index.php?title=ମାଣବସା_ଲକ୍ଷ୍ମୀ_ପୁରାଣ&oldid=57790"}]
 human_review_claimed: false
 ---
 
@@ -55,6 +55,20 @@ The National Mission for Manuscripts lists five Sudasa Brata Katha accessions: O
 
 Sources: [Orissa State Museum manuscript catalogue](https://www.namami.gov.in/sites/default/files/Orissa_State_Museum_Bhubaneswar_Odisha.pdf). PDF pp.20–21.
 
+
+## Rice and filling in another textual witness
+
+The saved Odia Lakshmi Purana transcription introduces Sudasa separately from Manabasa. It instructs soaking arua rice and pounding it into flour, then making ten manda with banana, coconut, chhena and other filling ingredients. The cooking method remains unspecified. This adds a textual preparation reference alongside the booklet’s chhena-and-coconut passage, without establishing which text is earlier.
+
+Source: [Odia textual witness](https://or.wikisource.org/w/index.php?title=ମାଣବସା_ଲକ୍ଷ୍ମୀ_ପୁରାଣ&oldid=57790). Revision57790, displayed57–68, especially66–67; scanned booklet printed p.2, verse17.
+
+
+## Who receives this offering
+
+The transcription tells the observer to eat the prasada and withhold it from others, explicitly including a married daughter. This restriction belongs to the Sudasa instructions in this witness. It is distinct from Lakshmi’s later demand for food sharing across caste boundaries in the story, and does not establish how households distribute offerings today.
+
+Source: [Odia textual witness](https://or.wikisource.org/w/index.php?title=ମାଣବସା_ଲକ୍ଷ୍ମୀ_ପୁରାଣ&oldid=57790). Revision57790, displayed68–69; compare477–479.
+
 ## Questions for the next research pass
 
 - Which dated colophons establish the transmission of each story?
@@ -68,3 +82,5 @@ Preparation reading: [manda pitha](../../food/manda-pitha.md).
 [Text witness register](../osha-text-witnesses.md). Archival references, inspected passages and remaining comparisons.
 
 [Back to the collection](../osha-brata-seasonal-food.md). Cultural association does not establish a serving venue or access to private worship. No local interviews or human editorial review are claimed.
+
+[Manabasa Gurubara](manabasa-gurubara.md). The shared digital witness distinguishes Sudasa instructions from Manabasa worship and the Lakshmi narrative; this link does not establish identical rituals or historical transmission.

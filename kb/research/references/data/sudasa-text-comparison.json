@@ -5,7 +5,8 @@
   "checked_at": "2026-10-07T06:51:32.977784+00:00",
   "source_ids": [
     "osha-sudasa-scan",
-    "osha-sudasa-prose"
+    "osha-sudasa-prose",
+    "osha-manabasa-wikisource"
   ],
   "scope": "Seven selected narrative dimensions from two recovered copies; not a line-by-line critical edition, independent corroboration or historical chronology.",
   "rows": [
@@ -145,7 +146,8 @@
   ],
   "edition_dates": {
     "osha-sudasa-scan": null,
-    "osha-sudasa-prose": null
+    "osha-sudasa-prose": null,
+    "osha-manabasa-wikisource": null
   },
   "earliest_observance_date": null,
   "full_diplomatic_transcription": false,
@@ -163,6 +165,35 @@
       "field": "Damayanti attribution",
       "old": "Cover treated as author attribution",
       "new": "Character named in title; authorship unestablished"
+    }
+  ],
+  "supplemental_passages": [
+    {
+      "id": "SUDASA-S01",
+      "profile_slug": "sudasa-brata",
+      "source_id": "osha-manabasa-wikisource",
+      "locator": "Revision57790, displayed57–68, especially66–67; scanned booklet printed p.2, verse17",
+      "title": "Rice and filling in another textual witness",
+      "text": "The saved Odia Lakshmi Purana transcription introduces Sudasa separately from Manabasa. It instructs soaking arua rice and pounding it into flour, then making ten manda with banana, coconut, chhena and other filling ingredients. The cooking method remains unspecified. This adds a textual preparation reference alongside the booklet’s chhena-and-coconut passage, without establishing which text is earlier.",
+      "evidence_class": "ritual_narrative",
+      "historical_event_verified": false
+    },
+    {
+      "id": "SUDASA-S02",
+      "profile_slug": "sudasa-brata",
+      "source_id": "osha-manabasa-wikisource",
+      "locator": "Revision57790, displayed68–69; compare477–479",
+      "title": "Who receives this offering",
+      "text": "The transcription tells the observer to eat the prasada and withhold it from others, explicitly including a married daughter. This restriction belongs to the Sudasa instructions in this witness. It is distinct from Lakshmi’s later demand for food sharing across caste boundaries in the story, and does not establish how households distribute offerings today.",
+      "evidence_class": "ritual_narrative",
+      "historical_event_verified": false
+    }
+  ],
+  "extension_history": [
+    {
+      "run_id": "2026-10-11-sudasa-food-text",
+      "at": "2026-10-11T15:25:26.026622+00:00",
+      "scope": "Two supplementary passages from previously inspected digital revision; original seven dimensions/two-copy comparison preserved."
     }
   ]
 }

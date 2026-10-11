@@ -281,3 +281,8 @@ Subject membership is editorial classification. It does not establish historical
 ## 11 October 2026 · Manabasa textual witness
 
 [Manabasa Gurubara](../culture/osha/manabasa-gurubara.md) now links a source-specific Odia textual witness with household preparation and the narrative’s shared-food condition.
+
+
+## 11 October 2026 · Sudasa food text
+
+Sudasa and Manabasa share a digital textual witness but have distinct instructions; the relationship is reading context, not proof of identical practices.

@@ -111,3 +111,8 @@ Sabitri’s local derivative preserves Jyestha amabasya and attributed offering/
 ## 11 October 2026 · Manabasa textual witness
 
 Manabasa preserves its existing associated-food list. The subsequent Sudasa instructions in one digital text are not a general Manabasa menu.
+
+
+## 11 October 2026 · Sudasa food text
+
+Sudasa retains manda as its food term; new textual preparation/distribution evidence supplies no annual date or public serving place.

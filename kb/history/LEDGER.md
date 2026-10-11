@@ -1118,3 +1118,7 @@ The translated epic retains Savitri’s choice and story vow. Mahanti’s readin
 ## UTP-HIS-OSHA-MANABASA-20261011 · Manabasa Gurubara food sequence
 
 The digital witness retains Manabasa’s ritual arrangement, a separate Sudasa passage and shared-food reconciliation. Source edition and1868 header remain unverified. Saved evidence reused; no human review or public release. [Checkpoint](../records/osha-manabasa-review-2026-10-11.json).
+
+## UTP-HIS-OSHA-SUDASA-20261011 · Supplementary Sudasa food passages
+
+Saved textual instructions retain rice preparation, filling and offering-distribution restrictions. Household practice and edition chronology remain unknown. No human review or public release. [Checkpoint](../records/osha-sudasa-review-2026-10-11.json).

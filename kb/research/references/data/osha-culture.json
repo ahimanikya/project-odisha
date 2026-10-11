@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "task_id": "RES-077",
-  "run_id": "2026-10-11-manabasa-text",
-  "checked_at": "2026-10-11T13:58:13.038911+00:00",
+  "run_id": "2026-10-11-sudasa-review",
+  "checked_at": "2026-10-11T16:39:59.978800+00:00",
   "title": "Bara Masa, Tera Parba: osha, story and food",
   "scope": "Fifty-three selected profiles: fifteen narrative checkpoints and thirty-eight research notes. No claim of exhaustive coverage or completed history.",
   "pages": [
@@ -273,6 +273,25 @@
           "locator": "Printed pp.2–3, especially verse17 on p.2; PDF p.3"
         },
         {
+          "title": "Rice and filling in another textual witness",
+          "text": "The saved Odia Lakshmi Purana transcription introduces Sudasa separately from Manabasa. It instructs soaking arua rice and pounding it into flour, then making ten manda with banana, coconut, chhena and other filling ingredients. The cooking method remains unspecified. This adds a textual preparation reference alongside the booklet’s chhena-and-coconut passage, without establishing which text is earlier.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-manabasa-wikisource",
+            "osha-sudasa-scan"
+          ],
+          "locator": "Revision57790, displayed57–68, especially66–67; scanned booklet printed p.2, verse17"
+        },
+        {
+          "title": "Who receives this offering",
+          "text": "The transcription tells the observer to eat the prasada and withhold it from others, explicitly including a married daughter. This restriction belongs to the Sudasa instructions in this witness. It is distinct from Lakshmi’s later demand for food sharing across caste boundaries in the story, and does not establish how households distribute offerings today.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-manabasa-wikisource"
+          ],
+          "locator": "Revision57790, displayed68–69; compare477–479"
+        },
+        {
           "title": "Manuscripts to compare",
           "text": "The National Mission for Manuscripts lists five Sudasa Brata Katha accessions: ORPR-64, ORPR-210, ORPR-220, ORPR-221 and ORPR-226. Their texts and copying dates remain unexamined; separate catalogue entries do not yet establish separate narrative variants.",
           "evidence_class": "documented_description",
@@ -291,7 +310,8 @@
       "questions": [
         "Which dated colophons establish the transmission of each story?",
         "How do the two stories circulate in different localities?",
-        "Is manda steamed or fried in each documented household version, and what dough is used?"
+        "Is manda steamed or fried in each documented household version, and what dough is used?",
+        "How does a named household interpret the offering-sharing restriction in its own Sudasa text?"
       ],
       "coverage_status": "narrative_checkpoint",
       "origin_date": null,
@@ -304,11 +324,12 @@
         "osha-review2006",
         "osha-sudasa-scan",
         "osha-sudasa-prose",
-        "osha-nmm-catalogue"
+        "osha-nmm-catalogue",
+        "osha-manabasa-wikisource"
       ],
       "canonical_path": "culture/osha/sudasa-brata.md",
       "route": "/culture/osha/sudasa-brata/",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-11"
     },
     {
       "id": "OSHA-004",
@@ -8371,6 +8392,16 @@
           "scope": "Textual narrative and ritual instructions in this revision, not dated origins or present household practice",
           "published_on": null,
           "capture_method": "Odia digital transcription read through web tool; no scan collation"
+        },
+        {
+          "run_id": "2026-10-11-sudasa-food-text",
+          "source_id": "osha-manabasa-wikisource",
+          "checked_at": "2026-10-11T15:25:26.026622+00:00",
+          "status": "saved_evidence_reused",
+          "capture_run": "2026-10-11-manabasa-text",
+          "original_retrieved_on": "2026-10-11",
+          "locator": "Revision57790, displayed57–69, especially66–69",
+          "scope": "Previously inspected Sudasa instructions reused; no fresh retrieval, collation or local practice verification."
         }
       ]
     }

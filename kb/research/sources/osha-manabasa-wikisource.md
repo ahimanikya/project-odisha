@@ -16,3 +16,8 @@ human_review_claimed: false
 The page supplies an author attribution and a header labelled1868, but no identified imprint or facsimile was established. Neither1868 nor the author attribution dates this textual form, ritual or menu. Revision57790 is a digital witness, not an early manuscript. Source publication, edition and composition dates remain unknown.
 
 The inspected scope is recorded in [Manabasa Gurubara](../culture/osha/manabasa-gurubara.md) and references/data/manabasa-text-sequence.json. No full transcription, manuscript collation, local interview or human review is claimed.
+
+
+## 11 October 2026 · Sudasa food text
+
+Previously inspected Sudasa57–69 now linked as a supplementary passage. The source’s sharing restriction and narrative reconciliation are distinct; no current household distribution verified.
