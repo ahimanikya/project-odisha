@@ -1,0 +1,74 @@
+{
+  "recorded_at": "2026-10-11T05:47:51.217750+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-045",
+  "work_id": "UTP-WORK-230",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "output": "research/stories/odisha-university-evidence.md",
+  "brief": {
+    "reader": "Curious readers of Bhubaneswar’s learning story.",
+    "reason_to_read": "Read rank, score and graduate-cohort outcomes as different measures.",
+    "memorable_detail": "Both published scores rose while rank positions slipped.",
+    "visual_treatment": "Two clocks: paired 2024/2025 score/rank markers and separate 2023–24 cohort table; future campus image requires rights and location.",
+    "next_step": "Read institutional context; seek programme-specific current evidence and actual student accounts."
+  },
+  "reuse": {
+    "research_map_read": true,
+    "queries": [
+      "universities"
+    ],
+    "inputs": [
+      "research/stories/odisha-university-evidence.md",
+      "research/culture/universities-and-learning.md",
+      "research/references/data/culture-learning.json"
+    ],
+    "queue_pointers_inspected": [
+      "RES-046",
+      "RES-022"
+    ],
+    "earlier_draft_sha256": "787ab10906c77b5a9a154e8fd4c6bf8014d34080ceabb0f5d73d39b98a13f1ab",
+    "preserved": "Earlier body retained verbatim. Source IDs, canonical unresolved issues and research queue states unchanged."
+  },
+  "sources": [
+    {
+      "id": "education-nirf-university-2024",
+      "url": "https://www.nirfindia.org/Rankings/2024/UniversityRanking.html",
+      "inspection": "University category, named SOA and KIIT rows, city, score and rank checked in original publisher HTML."
+    },
+    {
+      "id": "education-nirf-university-2025",
+      "url": "https://www.nirfindia.org/Rankings/2025/UniversityRanking.html",
+      "inspection": "University category, named SOA and KIIT rows, city, score and rank checked in original publisher HTML."
+    },
+    {
+      "id": "education-soa-nirf2025",
+      "url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/University/IR-O-U-0363.pdf",
+      "sha256": "9edd91b515f63e34018a12243489879eeecdb49638676d59c0c57958643410c1",
+      "inspection": "Original PDF page2 rendered and visually checked: four-year UG table headings and all three cohort rows, graduation, placement, median annual salary and higher-study counts. Entry/intake mismatch at KIIT retained as scope question, not independently adjudicated."
+    },
+    {
+      "id": "education-kiit-nirf2025",
+      "url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/University/IR-O-U-0356.pdf",
+      "sha256": "5a98475fca719526edf8a10f19b1f3b45a37fdf37b02b31d86935ea6c1f67c00",
+      "inspection": "Original PDF page2 rendered and visually checked: four-year UG table headings and all three cohort rows, graduation, placement, median annual salary and higher-study counts. Entry/intake mismatch at KIIT retained as scope question, not independently adjudicated."
+    }
+  ],
+  "verification": {
+    "claims": "Named rank/score rows and exact cohort headings checked; attribution and graduation years explicit; no salary guarantee or causal comparison.",
+    "local_checks": "Research structure3742links and classification305relationships passed; workbench build and catalogue regeneration passed. Registers, bundle5014links, program and workbench consistency passed before commit.",
+    "visual": "Original publisher PDFs p.2 visually inspected for both institutions; no website/asset edits."
+  },
+  "limitations": [
+    "Same-assistant documentary/editorial review; no independent human or student review.",
+    "Dated 2024/2025 NIRF University category; no claim about current 2026 ranks or causal learning gains.",
+    "2025 institutional submissions contain earlier four-year UG cohorts, not engineering-only or Odisha-resident-only outcomes. Median salary concerns placed graduates; figures not independently audited.",
+    "Intake/admission scope issue retained; no completion-rate, utilisation-rate, statewide jobs or student ROI calculation.",
+    "Current programme recognition, admissions, costs, student testimony and image rights remain open. No fieldwork, public website change or search expansion."
+  ],
+  "delivery": "Pending required checks and reviewed-head KB merge; website deployment not required."
+}
