@@ -448,3 +448,7 @@ Added Tarakasi’s structure, Jobra’s engineering history and Raghurajpur’s 
 ## 11 October 2026 · Grounded Fakir Mohan website profile
 
 Reconciled the expanded creator profile, two short-story introductions, novel reading notes and six scoped sources. Website narration now begins with life, printing and particular Odia passages; English edition details support the reading route. Original novel-date conflict and incomplete text/collation review remain explicit. No independent human literary review claimed.
+
+## 11 October 2026 · Language and Odisha in Fakir Mohan’s profile
+
+Expanded school-language defence, press and public argument, and regional-unification context. Retained individual chronology, collective achievement and explicit source limits.
