@@ -38,6 +38,8 @@ jobs:
           python3 tools/test_config.py
           python3 tools/check_autonomous_program.py
           python3 tools/test_autonomous_program.py
+          python3 tools/check_sound_collection.py
+          python3 tools/test_sound_collection.py
       - name: Validate imported research collection
         run: |
           python3 tools/research/reindex.py

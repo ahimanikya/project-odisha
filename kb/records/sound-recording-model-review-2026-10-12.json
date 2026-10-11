@@ -1,0 +1,60 @@
+{
+  "reviewed_at": "2026-10-11T23:45:01.772609+00:00",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "status": "pass_with_limitations",
+  "work_id": "UTP-WORK-248",
+  "program_item": "UTP-A500-061",
+  "authorization": "UTP-DEC-225",
+  "checks": [
+    "Existing Sankha collection model and eight canonical articles reused; no new web facts.",
+    "Eight planned records validated with null capture/asset/review fields.",
+    "Eight negative/integrity tests passed, covering unlicensed work, synthetic documentary claim, changed asset, false planned capture, unrelated source, escaped path and unsupported publication state.",
+    "CI now runs sound check and tests."
+  ],
+  "verification": {
+    "local_checks": [
+      "Existing Sankha collection model and eight canonical articles reused; no new web facts.",
+      "Eight planned records validated with null capture/asset/review fields.",
+      "Eight negative/integrity tests passed, covering unlicensed work, synthetic documentary claim, changed asset, false planned capture, unrelated source, escaped path and unsupported publication state.",
+      "CI now runs sound check and tests."
+    ]
+  },
+  "limitations": [
+    "No audio, contributor permission or practitioner review acquired.",
+    "Structural validation cannot establish consent, identify sounds or grant human publication authority.",
+    "Eight briefs are one preparation package, not eight delivered recordings.",
+    "Website/search unchanged; archive not activated."
+  ],
+  "outputs": [
+    {
+      "path": "models/sound-recording.md",
+      "sha256": "240067f21e9d356d4a956b2d4bd1d944893377605645b8be05efbab0bfe2a719"
+    },
+    {
+      "path": "records/sound-recording-briefs.json",
+      "sha256": "df29e98d97a9d7226539b34064978f8d0924f680ba530bc451d3a5800a8fee26"
+    },
+    {
+      "path": "research/culture/sounds-of-odisha.md",
+      "sha256": "46b7126a2e7dd1d56b127e3069e38b17721c10e1de6cdd931b66bbd9a52e804d"
+    }
+  ],
+  "repository_outputs": [
+    {
+      "path": "tools/check_sound_collection.py",
+      "sha256": "b17e738893c6fcdba215089d5d5dfab563a9aadf3e76ed0b5f230d59868d4d15"
+    },
+    {
+      "path": "tools/test_sound_collection.py",
+      "sha256": "3ee678c5989249e2b3a93cb1856f76ca813be3b359c9e38aef3808d1f5eeebaf"
+    },
+    {
+      "path": ".github/workflows/validate-site.yml",
+      "sha256": "f799e5a363936643f8bfd4095996338afdbcb9a02c4e770e68becf6e40f9570d"
+    }
+  ]
+}

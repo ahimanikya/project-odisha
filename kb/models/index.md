@@ -13,3 +13,5 @@ These are content models inside the project KB, not repository configuration or 
 - [Dated local-confirmation intake](local-confirmation.md) — claim, scope, evidence, permission and human decision.
 
 - [Tourism experience record template](tourism-experience-record.md) — local delivery, evidence, consent and readiness.
+
+[Sound recording model](sound-recording.md) connects source-linked listening briefs to honest capture, rights and accessibility states.

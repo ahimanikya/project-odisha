@@ -164,3 +164,5 @@ Historical visitor-experience release: [PR 23 publication evidence](records/visi
 [Pala](research/culture/pala.md) now includes an illustrated Sounds of Odisha listening story; earlier research is preserved.
 
 [Dhemsa](research/culture/dhemsa.md) connects group movement, community and place in Sounds of Odisha.
+
+[Sound recording model](models/sound-recording.md) connects source-linked listening briefs to honest capture, rights and accessibility states.
