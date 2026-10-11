@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `13cfb9c000c0f3182ef246be5faea72615501b0979cdb4ec3a9422d1c85d80f2`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `09eb734e0d098ff348315f641013819a4768f1c2a4e4e2f35fae514709758fe3`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -199,7 +199,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
-| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue the next eligible substantive backlog item. 50 of 500 items delivered with linked evidence; no routine approval required within UTP-DEC-225. | — |
+| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue the next eligible substantive backlog item. 51 of 500 items delivered with linked evidence; no routine approval required within UTP-DEC-225. | — |
 | UTP-WORK-190 · Food discovery, portable reading collection and current review-queue repair | completed | published | Ahimanikya Satapathy | Published and live-verified. Continue through the program queue under DEC225. | — |
 | UTP-WORK-191 · Build the tourism opportunities information section | completed | reviewed | Ahimanikya Satapathy | Published information scope complete. Continue WORK166 and WORK171 only when new documentary or operating evidence is available. | — |
 | UTP-WORK-192 · Align saved food cards with canonical story introductions | completed | reviewed | Ahimanikya Satapathy | Repair published and live catalogue verified; preserve canonical food fields when future stories change. | — |
@@ -246,7 +246,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-233 · Follow industrial purchases towards the local supplier evidence | completed | applied | Ahimanikya Satapathy | KB story delivered. Named supplier awards, completion/payment and permitted participant accounts remain separate evidence work. | — |
 | UTP-WORK-234 · Read Odisha industrial trade through separate company measures | completed | applied | Ahimanikya Satapathy | KB story delivered. Named destinations, exact material routes, mine-scope reconciliation and participant evidence remain separate work. | — |
 | UTP-WORK-235 · Read the harvest beyond the headline yield | completed | applied | Ahimanikya Satapathy | KB story delivered. Farmer accounts, causal evidence, procurement settlements and cost-study periods remain separate evidence work. | — |
-| UTP-WORK-236 · Make the trading-culture concept a usable documentary brief | in_progress | reviewed | Ahimanikya Satapathy | Pass required checks and merge reviewed production brief. | — |
+| UTP-WORK-236 · Make the trading-culture concept a usable documentary brief | completed | applied | Ahimanikya Satapathy | Production brief delivered. Verified media rights, participants, language review, voice timing and playable film checks remain future work. | — |
 
 ## Pending human review and decisions
 
@@ -873,7 +873,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-347 | 2026-10-11T07:26:45.689892+00:00 | PR191 passed required checks and reviewed head merged. Story reading guide matches fetched merge; item46 delivered to KB. Founder reiterated next-week permission without routine questions. | Continue eligible backlog; article-level research and public editorial review remain separate. |
 | UTP-EVT-348 | 2026-10-11T07:52:37.331427+00:00 | Institution-building reader story separates university identity, expenses and PG tuition support. Three original PDFpages inspected; prior draft and broader research blockers preserved. Item47 awaits checked merge. | Pass required checks and merge reviewed documentation. |
 | UTP-EVT-349 | 2026-10-11T08:00:37.433342+00:00 | PR192 passed required checks and reviewed head merged. Institution-building story matches fetched merge; item47 delivered to KB. Founder reiterated next-week permission without routine questions. | Continue eligible backlog; broader RES047 blockers and current student evidence remain open. |
 | UTP-EVT-350 | 2026-10-11T08:51:55.256043+00:00 | Supplier reader story distinguishes purchasing value and location share, then follows award/delivery/payment evidence questions. Two original passages visually inspected; prior draft and distinct RSP measure preserved. Item48 awaits checked merge. | Pass required checks and merge reviewed documentation. |
@@ -883,6 +882,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-354 | 2026-10-11T11:01:51.141249+00:00 | Rice harvest reader draft separates area, yield and total rice output, preserves annual setbacks and connects costs, procurement and seed stories. Original historical table visually checked; no farmer or causal outcome claimed. Item50 awaits checked merge. | Pass required checks and merge reviewed KB draft. |
 | UTP-EVT-355 | 2026-10-11T11:23:01.532239+00:00 | PR195 passed required checks and reviewed head merged. Rice harvest story matches fetched merge; item50 delivered to KB with original draft/chart preserved. | Continue eligible backlog; household and causal outcomes remain separate evidence work. |
 | UTP-EVT-356 | 2026-10-11T12:07:37.185347+00:00 | Trading-culture concept now includes six-scene original narration, media/evidence fallbacks, current palette, rights manifest and accessible-film acceptance. Dated Paradip event rechecked; no actual film or commercial activation. Item51 awaits checked merge. | Pass required checks and merge reviewed production brief. |
+| UTP-EVT-357 | 2026-10-11T12:25:44.575971+00:00 | PR196 passed required checks and reviewed head merged. Trade documentary brief matches fetched merge; item51 delivered to KB with original concept preserved. No film rendered. | Continue eligible backlog; actual media production and participant permissions remain separate work. |
 
 ## Deferred extensions
 
