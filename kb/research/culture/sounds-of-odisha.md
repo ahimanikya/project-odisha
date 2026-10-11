@@ -14,6 +14,7 @@ A sound can open a story before a photograph does. Follow voices, instruments an
 
 ## Stories drafted
 
+- [Ghanta and ghanti](ghanta-ghanti.md) — ritual ringing, group playing and the metalworkers behind the sound.
 - [Huluhuli ହୁଳହୁଳି](huluhuli.md) — women's voices, welcome, worship and community memory.
 - [Daskathia](daskathia.md) — two voices, wooden rhythm and a story told aloud.
 - [Dalkhai](dalkhai.md) — song, festive occasion and the people behind a performance.
@@ -26,7 +27,6 @@ These are sourced KB drafts. They are not yet public website pages or an audio a
 
 | Subject | Narrative question |
 | --- | --- |
-| Ghanta and ghanti | How do bells mark ritual time, and who rings them? |
 | Pala | How do performers make a story audible through song, speech and rhythm? |
 | Dhemsa | Which community, place and occasion give the dance its distinctive sound? |
 | Boat and fishing songs | What survives in testimony and recordings, and who can explain the working context? |

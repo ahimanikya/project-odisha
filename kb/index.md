@@ -158,3 +158,5 @@ Historical visitor-experience release: [PR 23 publication evidence](records/visi
 [Dalkhai](research/culture/dalkhai.md) now connects song, occasion and listening in Sounds of Odisha; earlier evidence and viewing limits preserved.
 
 [Daskathia](research/culture/daskathia.md) connects voice, wooden rhythm and literary storytelling in Sounds of Odisha.
+
+[Ghanta and ghanti](research/culture/ghanta-ghanti.md) connects metalworking, ritual sound and local group playing in Sounds of Odisha.

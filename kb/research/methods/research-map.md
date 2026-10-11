@@ -429,3 +429,5 @@ Sounds of Odisha now connects the [collection outline](../culture/sounds-of-odis
 [Dalkhai](../culture/dalkhai.md) now extends its existing record into Sounds of Odisha; [source dossier](../sources/dalkhai-story-research.md) retains prior viewing scope and blocked retrieval leads.
 
 [Daskathia](../culture/daskathia.md) adds a distinct Sounds of Odisha entry, reusing Pala discovery records; [source dossier](../sources/daskathia-research.md) scopes roles, repertoire, origin interpretation and public communication evidence.
+
+[Ghanta and ghanti](../culture/ghanta-ghanti.md) joins Sounds of Odisha; [source dossier](../sources/ghanta-ghanti-research.md) records full-text source scope and failed visual retrieval.
