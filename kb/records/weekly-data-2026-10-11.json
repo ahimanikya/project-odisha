@@ -1,0 +1,497 @@
+{
+  "run_id": "2026-10-11T160110Z",
+  "automation_id": "utkala-weekly-data-editor",
+  "trigger_at": "2026-10-11T16:01:10.156Z",
+  "checked_at": "2026-10-11T16:12:19.349772+00:00",
+  "status": "completed_with_partial_source_availability",
+  "coverage": "All17 watch tracks attempted; bounded release discovery rather than exhaustive revalidation. Unchanged is limited to stated source scope.",
+  "tracks": [
+    {
+      "id": "tourism",
+      "status": "conflicted",
+      "note": "Catalogue still lists Statistical Bulletin2024 and Annual Report2025–26; bulletin download unavailable. Known foreign-visits conflict retained."
+    },
+    {
+      "id": "gsdp",
+      "status": "unavailable",
+      "note": "Economic Survey catalogue latest2025–26; DES tables unavailable. Catalogue check does not revalidate underlying values."
+    },
+    {
+      "id": "sector-growth",
+      "status": "unavailable",
+      "note": "Survey catalogue unchanged; current underlying sector table retrieval incomplete. Saved estimates retained."
+    },
+    {
+      "id": "exports",
+      "status": "unchanged",
+      "note": "July9 fisheries release recovered with same2025–26 seafood scope; broader survey export revision check unavailable."
+    },
+    {
+      "id": "port-cargo",
+      "status": "changed",
+      "note": "Daily report11October gives financial-year cargo through10October2026 versus same date2025, and matched1–10October totals. Four observations and two calculations appended; annual series untouched."
+    },
+    {
+      "id": "investment",
+      "status": "unavailable",
+      "note": "InvestOdisha unavailable; no new realised spending/output established. Announcements and undated counters not promoted."
+    },
+    {
+      "id": "smart-cities",
+      "status": "unchanged",
+      "note": "Saved March parliamentary answer recovered; no newer completion snapshot established. Urban catalogue unavailable; tenders do not establish completion."
+    },
+    {
+      "id": "rare-earths",
+      "status": "unchanged",
+      "note": "IREL annual catalogue latest2024–25 and OSCOM plant page recovered. No newly established operating output; capacity and proposals retained separately."
+    },
+    {
+      "id": "semiconductors",
+      "status": "unchanged",
+      "note": "Saved18September proposal release recovered; no newer operating output established. Potential jobs and proposals remain prospective."
+    },
+    {
+      "id": "banking-and-enterprise-finance",
+      "status": "conflicted",
+      "note": "SLBC latest184th agenda/June2026 listing retained. Known credit/deposit scope conflicts remain quarantined."
+    },
+    {
+      "id": "public-finances",
+      "status": "unavailable",
+      "note": "CAG catalogue latestAugust2026; monthly PDF unavailable. No September values established."
+    },
+    {
+      "id": "people-and-learning",
+      "status": "unavailable",
+      "note": "NFHS release route and UDISE report unavailable; UDISE and MoSPI catalogue pages returned JS/empty content. No unchanged metric claim."
+    },
+    {
+      "id": "land-and-livelihoods",
+      "status": "conflicted",
+      "note": "FSI catalogue latestISFR2023; July fisheries release same scope. Known anomalous Chilika dolphin value remains quarantined; no new agriculture series."
+    },
+    {
+      "id": "services-and-environment",
+      "status": "unavailable",
+      "note": "Urban report catalogue unavailable; historical OSDMA page recovered. No current rural-water, PM10 or urban-service revision established."
+    },
+    {
+      "id": "mobility-and-digital-access",
+      "status": "changed",
+      "note": "TRAI annual2025–26 release5October repeats six March2026 Odisha values already saved; edition captured without duplicate observations. AAI direct listing unavailable; indexedAugust listing is discovery only. Saved rail release unchanged."
+    },
+    {
+      "id": "innovation-and-startups",
+      "status": "unavailable",
+      "note": "IPIndia annual route failed and wall-of-fame timed out. Indexed national figures do not establish a new Odisha observation."
+    },
+    {
+      "id": "visitor-economy-and-crafts",
+      "status": "conflicted",
+      "note": "Tourism and rooms/beds conflicts retained. Guidelines recovered; GoHomestay JS shell cannot establish active availability. No fresh craft or operating count promoted."
+    }
+  ],
+  "source_checks": [
+    {
+      "id": "tourism-catalogue",
+      "url": "https://dot.odisha.gov.in/en/publications/tourism-download",
+      "status": "unchanged",
+      "scope": "Latest listed bulletin2024 and annual2025–26; underlying bulletin download unavailable.",
+      "retrieved_on": "2026-10-11"
+    },
+    {
+      "id": "survey-catalogue",
+      "url": "https://pc.odisha.gov.in/en/publication/economic-survey-report?field_financial_year_target_id=All&page=0",
+      "status": "unchanged",
+      "scope": "Latest listed2025–26; not whole-table verification.",
+      "retrieved_on": "2026-10-11"
+    },
+    {
+      "id": "des-tables",
+      "url": "https://des.odisha.gov.in/en/pages/data-tables",
+      "status": "unavailable",
+      "scope": "Web retrieval error.",
+      "retrieved_on": "2026-10-11"
+    },
+    {
+      "id": "fisheries-release",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2282817&lang=2&reg=48",
+      "status": "unchanged",
+      "scope": "Same9July2026 release, bounded fish/seafood scope.",
+      "retrieved_on": "2026-10-11"
+    },
+    {
+      "id": "paradip-traffic",
+      "url": "https://paradipport.gov.in/traffic/",
+      "status": "changed",
+      "scope": "Latest11October2026 daily report discovered.",
+      "retrieved_on": "2026-10-11"
+    },
+    {
+      "id": "paradip-daily",
+      "url": "https://www.paradipport.gov.in/uploads/2026/10/dtr1110.pdf",
+      "status": "changed",
+      "scope": "PDF downloaded and parsed; page3 cargo footer. Earlier default-network DNS and later web retry errors preserved; escalation retrieval succeeded.",
+      "retrieved_on": "2026-10-11"
+    },
+    {
+      "id": "investodisha",
+      "url": "https://www.investodisha.gov.in/",
+      "status": "unavailable",
+      "scope": "Web retrieval error.",
+      "retrieved_on": "2026-10-11"
+    },
+    {
+      "id": "urban-activity",
+      "url": "https://urban.odisha.gov.in/en/publication/activity-report",
+      "status": "unavailable",
+      "scope": "Web retrieval error.",
+      "retrieved_on": "2026-10-11"
+    },
+    {
+      "id": "smart-cities-answer",
+      "url": "https://sansad.in/getFile/annex/270/AU2600_vR0ZFk.pdf?source=pqars",
+      "status": "unchanged",
+      "scope": "Saved dated March answer recovered; no current completion inference.",
+      "retrieved_on": "2026-10-11"
+    },
+    {
+      "id": "irel-annual",
+      "url": "https://www.irel.co.in/annual-reports",
+      "status": "unchanged",
+      "scope": "Latest2024–25 annual edition listing.",
+      "retrieved_on": "2026-10-11"
+    },
+    {
+      "id": "irel-oscom",
+      "url": "https://www.irel.co.in/en-GB/oscom-rare-earth-extraction-plant",
+      "status": "unchanged",
+      "scope": "Saved plant scope recovered; no fresh output series.",
+      "retrieved_on": "2026-10-11"
+    },
+    {
+      "id": "semiconductor-proposals",
+      "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2312298&lang=1&reg=3",
+      "status": "unchanged",
+      "scope": "Same18September prospective proposal scope.",
+      "retrieved_on": "2026-10-11"
+    },
+    {
+      "id": "slbc",
+      "url": "https://slbcorissa.com/",
+      "status": "conflicted",
+      "scope": "Latest184th agenda listing; existing denominator conflicts retained.",
+      "retrieved_on": "2026-10-11"
+    },
+    {
+      "id": "cag-monthly",
+      "url": "https://cag.gov.in/ae/odisha/en/state-accounts-report?defuat_account_report_type=360",
+      "status": "unavailable",
+      "scope": "Catalogue latestAugust2026; linked monthly PDF failed.",
+      "retrieved_on": "2026-10-11"
+    },
+    {
+      "id": "nfhs-release",
+      "url": "https://www.nfhsiips.in/nfhsuser/release-details.php",
+      "status": "unavailable",
+      "scope": "Web retrieval error.",
+      "retrieved_on": "2026-10-11"
+    },
+    {
+      "id": "udise-release",
+      "url": "https://udiseplus.gov.in/#/Publication",
+      "status": "unavailable",
+      "scope": "No readable catalogue content; report retry failed.",
+      "retrieved_on": "2026-10-11"
+    },
+    {
+      "id": "mospi-reports",
+      "url": "https://www.mospi.gov.in/download-reports?main_=",
+      "status": "unavailable",
+      "scope": "No readable catalogue content.",
+      "retrieved_on": "2026-10-11"
+    },
+    {
+      "id": "fsi-catalogue",
+      "url": "https://fsi.nic.in/reports-publications",
+      "status": "unchanged",
+      "scope": "LatestISFR2023 listing; no new inventory established.",
+      "retrieved_on": "2026-10-11"
+    },
+    {
+      "id": "chilika-biodiversity",
+      "url": "https://www.chilika.com/chilika-ecology-and-biodiversity.php",
+      "status": "conflicted",
+      "scope": "Known2025 dolphin anomaly already quarantined; not promoted.",
+      "retrieved_on": "2026-10-11"
+    },
+    {
+      "id": "osdma",
+      "url": "https://www.osdma.org/national-cyclone-risk-mitigation-project/",
+      "status": "unchanged",
+      "scope": "Historical project page recovered, not a new service series.",
+      "retrieved_on": "2026-10-11"
+    },
+    {
+      "id": "trai-catalogue",
+      "url": "https://www.trai.gov.in/release-publication/reports/performance-indicators-reports",
+      "status": "changed",
+      "scope": "Annual2025–26 report released5October2026.",
+      "retrieved_on": "2026-10-11"
+    },
+    {
+      "id": "trai-annual",
+      "url": "https://www.trai.gov.in/sites/default/files/2026-10/YIR_05102026.pdf",
+      "status": "changed",
+      "scope": "New edition captured; Table1.43 printed67/PDF69 Odisha row matches six existingMarch2026 values. Earlier DNS/web retry errors preserved; escalated download succeeded.",
+      "retrieved_on": "2026-10-11"
+    },
+    {
+      "id": "aai-traffic",
+      "url": "https://aai.aero/en/business-opportunities/aai-traffic-news",
+      "status": "unavailable",
+      "scope": "Direct retrieval failed; indexedAugust2026 listing only, no September table established.",
+      "retrieved_on": "2026-10-11"
+    },
+    {
+      "id": "rail-release",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2287573",
+      "status": "unchanged",
+      "scope": "SavedJuly release recovered; dated scope retained.",
+      "retrieved_on": "2026-10-11"
+    },
+    {
+      "id": "ipindia-annual",
+      "url": "https://www.ipindia.gov.in/pages/home/annual-report",
+      "status": "unavailable",
+      "scope": "Retrieval error; indexed edition discovery not table validation.",
+      "retrieved_on": "2026-10-11"
+    },
+    {
+      "id": "ipindia-wall",
+      "url": "https://www.ipindia.gov.in/wall-of-fame-new",
+      "status": "unavailable",
+      "scope": "Timeout; no unchanged metric claim.",
+      "retrieved_on": "2026-10-11"
+    },
+    {
+      "id": "tourism-guidelines",
+      "url": "https://dot.odisha.gov.in/en/guidelines",
+      "status": "unchanged",
+      "scope": "Same amendment/Cycle1 listing scope; no operating inventory.",
+      "retrieved_on": "2026-10-11"
+    },
+    {
+      "id": "gohomestay",
+      "url": "https://gohomestay.odisha.gov.in/",
+      "status": "unavailable",
+      "scope": "JS shell; active availability unknown.",
+      "retrieved_on": "2026-10-11"
+    }
+  ],
+  "new_observation_ids": [
+    "weekly-paradip-20261011-ytd-2026",
+    "weekly-paradip-20261011-ytd-2025",
+    "weekly-paradip-20261011-oct-2026",
+    "weekly-paradip-20261011-oct-2025"
+  ],
+  "new_calculation_ids": [
+    "weekly-paradip-20261011-ytd-change",
+    "weekly-paradip-20261011-oct-change"
+  ],
+  "new_source_ids": [
+    "weekly-paradip-oct2026",
+    "weekly-trai-annual2026"
+  ],
+  "captures": [
+    {
+      "source_id": "weekly-paradip-oct2026",
+      "sha256": "c83689526192c3f67d1e00e58a8dcd31b3eb0ac7a93fb19b1944dd8d7cac7e94",
+      "locator": "PDF page3, cargo summary footer; report11October, cargo cut-off10October"
+    },
+    {
+      "source_id": "weekly-trai-annual2026",
+      "sha256": "bb1f68bee1b81c7c4059026d4d38357926cb9d7d69328830a8965e1bba6a3bc3",
+      "locator": "Table1.43, printed p.67 / PDF p.69, row19 Odisha; reference31March2026"
+    }
+  ],
+  "revision_policy": "Append new matched partial periods; retain annual history, prior check attempts and frozen imported ledger. Same TRAI period gets verification history, not duplicate observations.",
+  "local_update": true,
+  "git_push": false,
+  "website_publication": false,
+  "human_review_claimed": false,
+  "next_check": "2026-10-18",
+  "retry_scope": "Retry unavailable primary tables; do not infer unchanged values from catalogues or discovery search.",
+  "validation": {
+    "validate": {
+      "checked_at": "2026-10-11T21:42:58+05:30",
+      "result": "PASS",
+      "concepts": 1095,
+      "local_link_checks": 3793,
+      "growth_arithmetic_checks": 38,
+      "preserved_evidence_records": 71,
+      "errors": [],
+      "scope": "Structure, internal links, source-footnote matching, migration values and arithmetic; not independent factual or legal certification."
+    },
+    "validate_visitor_index": {
+      "checked_at": "2026-10-11T21:42:59+05:30",
+      "result": "PASS",
+      "counts": {
+        "areas": 5,
+        "foods": 22,
+        "heritage": 10,
+        "facilities": 14
+      },
+      "relationship_checks": 32,
+      "errors": [],
+      "scope": "Local references, provenance linkage and seed evidence-state controls; not source accuracy or current operation."
+    },
+    "validate_maritime": {
+      "checked_at": "2026-10-11T16:12:59+00:00",
+      "result": "PASS",
+      "graph_nodes": 90,
+      "qualified_relationships": 36,
+      "numeric_observations": 21,
+      "arithmetic_checks": 7,
+      "local_queries_checked": [
+        "China",
+        "Paradip",
+        "archaeological_finding"
+      ],
+      "errors": [],
+      "scope": "Internal references, explicit evidence classes, metric/graph equality and arithmetic; no certification of historical claims."
+    },
+    "validate_growth_journeys": {
+      "checked_at": "2026-10-11T21:42:59+05:30",
+      "result": "PASS",
+      "observations": 29,
+      "derived_calculations": 4,
+      "timeline_events": 15,
+      "errors": [],
+      "scope": "Sources, units, period comparability, arithmetic and evidence-state safeguards; no independent verification of reported outcomes."
+    },
+    "validate_statistics": {
+      "result": "PASS",
+      "observations": 960,
+      "topics": 47,
+      "districts": 30,
+      "calculations": 47,
+      "readiness": {
+        "source_checked_editorial_review_pending": 788,
+        "needs_source_table_review": 94,
+        "hold_conflict": 78
+      },
+      "errors": [],
+      "scope": "Structure, references and arithmetic; not independent source verification or human editorial review."
+    },
+    "validate_homestays": {
+      "result": "PASS",
+      "homestay_observations": 33,
+      "unknown_outcome_metrics": 9,
+      "arithmetic_checks": 2,
+      "errors": [],
+      "scope": "Stage and qualifier fields, register references, conflict holds and policy arithmetic; not legal certification, source authentication or proof of demand."
+    },
+    "validate_classification": {
+      "result": "PASS",
+      "subject_families": 9,
+      "classified_concepts": 496,
+      "atlas_topics": 47,
+      "atlas_observations": 960,
+      "explained_relationships": 305,
+      "errors": [],
+      "scope": "Editorial subject IDs, topic coverage and agreement with related-reading links; not source verification, causation or publication approval."
+    },
+    "validate_collections": {
+      "result": "PASS",
+      "collections_and_profiles": 5,
+      "progress_cards": 6,
+      "errors": [],
+      "scope": "Collection links, observation references, stage compatibility, public-card data agreement and one settlement reconciliation; not independent source verification or publication approval."
+    },
+    "validate_prd": {
+      "result": "PASS",
+      "prd_version": "0.2.1",
+      "preserved_versions": 3,
+      "requirements": 41,
+      "phase_counts": {
+        "launch": 32,
+        "later": 5,
+        "deferred": 4
+      },
+      "errors": [],
+      "scope": "Requirement IDs, phase/basis/ADR references, version pointers and snapshot checksums; not feature acceptance, formal approval or factual certification."
+    },
+    "validate_creations": {
+      "result": "PASS",
+      "people": 59,
+      "works": 54,
+      "garment_forms": 13,
+      "market_observation_refs": 5,
+      "errors": [],
+      "scope": "Referential integrity, explicit credits and missing-value semantics; not independent source verification or public approval."
+    },
+    "validate_sports": {
+      "result": "PASS",
+      "athletes": 8,
+      "sports": 4,
+      "observations": 14,
+      "errors": [],
+      "scope": "Identity, event scope, attribution and historical/current separation; not factual certification."
+    },
+    "validate_research_map": {
+      "result": "PASS",
+      "records": 1305,
+      "tasks": 62,
+      "reviewed_overlaps": 8,
+      "errors": [],
+      "scope": "Inventory references and reuse coverage; not factual equivalence, source freshness or publication approval."
+    }
+  },
+  "changed_files": [],
+  "website_scope": "Research KB reconciliation only; no website route currently selects these port/digital topic pages. No deployment requested or claimed for this research-only change.",
+  "authority": "Existing weekly unattended update authorization; user10October granted permission for next week without repeated questions.",
+  "files_changed": [
+    "kb/catalog.json",
+    "kb/log.md",
+    "kb/research/economy/comparison-05-port-logistics.md",
+    "kb/research/log.md",
+    "kb/research/manifest-sha256.json",
+    "kb/research/references/data/bundle-summary.json",
+    "kb/research/references/data/imported-research-scope.json",
+    "kb/research/references/data/maritime-metrics.json",
+    "kb/research/references/data/research-map.json",
+    "kb/research/references/data/source-catalog.json",
+    "kb/research/references/data/source-reliability.json",
+    "kb/research/references/data/statistics-atlas.json",
+    "kb/research/references/data/weekly-watchlist.json",
+    "kb/research/search-index.json",
+    "kb/research/statistics/digital-connectivity.md",
+    "kb/research/statistics/ports.md",
+    "kb/research/trade/paradip-throughput.md"
+  ],
+  "destination_changed_files": [
+    "kb/catalog.json",
+    "kb/log.md",
+    "kb/records/editorial-workbench.json",
+    "kb/records/weekly-data-2026-10-11.json",
+    "kb/research/economy/comparison-05-port-logistics.md",
+    "kb/research/log.md",
+    "kb/research/manifest-sha256.json",
+    "kb/research/references/data/bundle-summary.json",
+    "kb/research/references/data/imported-research-scope.json",
+    "kb/research/references/data/maritime-metrics.json",
+    "kb/research/references/data/research-map.json",
+    "kb/research/references/data/source-catalog.json",
+    "kb/research/references/data/source-reliability.json",
+    "kb/research/references/data/statistics-atlas.json",
+    "kb/research/references/data/weekly-watchlist.json",
+    "kb/research/search-index.json",
+    "kb/research/sources/weekly-paradip-oct2026.md",
+    "kb/research/sources/weekly-trai-annual2026.md",
+    "kb/research/statistics/digital-connectivity.md",
+    "kb/research/statistics/ports.md",
+    "kb/research/trade/paradip-throughput.md"
+  ]
+}

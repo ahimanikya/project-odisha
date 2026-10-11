@@ -452,3 +452,7 @@ Reconciled the expanded creator profile, two short-story introductions, novel re
 ## 11 October 2026 · Language and Odisha in Fakir Mohan’s profile
 
 Expanded school-language defence, press and public argument, and regional-unification context. Retained individual chronology, collective achievement and explicit source limits.
+
+## 11 October 2026 · Weekly publisher checks
+
+All17 watch tracks attempted with partial availability. Four Paradip partial-period cargo observations and two matched comparisons appended: year-to10October growth0.16%, versus25.01% for1–10October. Historical full-year values preserved. TRAI annual edition repeats six savedMarch2026 internet values; no duplicate observations. Failed fetches and known conflicts retained; no human review claimed. [Ports](statistics/ports.md) · [Digital connectivity](statistics/digital-connectivity.md).
