@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `28b4c5f5b3efa95913117e5a7285b0fcac8ac020630aeb923fd08068d9b730ef`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `194a5c15a527e8d92854111cef70bc507b443fe8a8f8cc2a432c7d67bce7c45e`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -251,7 +251,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-238 · Read Paradip cargo beyond the export headline | completed | applied | Ahimanikya Satapathy | KB cargo story delivered. Cargo classifications, origin/destination and permitted worker accounts remain separate evidence work. | — |
 | UTP-WORK-239 · Follow Odisha goods exports beyond the rupee headline | completed | applied | Ahimanikya Satapathy | KB goods-value story delivered. Country denominator reconciliation, matched transaction evidence and participant outcomes remain separate work. | — |
 | UTP-WORK-240 · Huluhuli and the sounds of Odisha | completed | draft | Ahimanikya Satapathy | KB draft preserved through checked PR201. Practitioner review, original literary editions and audio documentation remain follow-up work. | — |
-| UTP-WORK-241 · Sankha and the Sounds of Odisha collection | completed | draft | Ahimanikya Satapathy | Preserve checked KB draft through PR; practitioner, audio and literary review remain open. Research Mardala next. | — |
+| UTP-WORK-241 · Sankha and the Sounds of Odisha collection | completed | draft | Ahimanikya Satapathy | KB draft preserved through checked PR202. Practitioner and audio review remain open; research Mardala next. | — |
 
 ## Pending human review and decisions
 
@@ -885,7 +885,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-357 | 2026-10-11T12:25:44.575971+00:00 | PR196 passed required checks and reviewed head merged. Trade documentary brief matches fetched merge; item51 delivered to KB with original concept preserved. No film rendered. | Continue eligible backlog; actual media production and participant permissions remain separate work. |
 | UTP-EVT-358 | 2026-10-11T13:18:26.236739+00:00 | Forest support draft distinguishes grant records, work payment and wellbeing. Original welfare table and category arithmetic checked; proposed application-to-receipt reporting protects privacy. Item52 awaits checked merge. | Pass required checks and merge reviewed KB article. |
 | UTP-EVT-359 | 2026-10-11T13:48:51.999254+00:00 | PR197 passed required checks and reviewed head merged. Forest support story matches fetched merge; item52 delivered to KB with original draft preserved. | Continue eligible backlog; individual receipts and welfare outcomes remain separate evidence work. |
 | UTP-EVT-360 | 2026-10-11T14:33:12.575632+00:00 | Paradip cargo draft now asks about handled quantity, geography and work. Two original releases and endpoint/coastal arithmetic checked; earlier metric record preserved. Item53 awaits checked merge. | Pass required checks and merge reviewed KB article. |
@@ -895,6 +894,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-364 | 2026-10-11T16:30:33.734382+00:00 | Founder-requested Huluhuli article and research notes saved as linked KB drafts; historical scan visually inspected, origins and specific community scopes qualified. | Keep literary and practitioner review open; no website publication or500item count. |
 | UTP-EVT-365 | 2026-10-11T16:41:20.084956+00:00 | Huluhuli KB article and evidence dossier merged through PR201 after required checks on reviewed head; fetched merge bytes verified. | Continue eligible backlog; website unchanged and programme count stays54. |
 | UTP-EVT-366 | 2026-10-11T17:08:43.785777+00:00 | Sankha article, Sounds of Odisha collection index and evidence dossier saved as sourced KB drafts; no website deployment or new programme completion. | Preserve through checked PR; practitioner and audio follow-up open. |
+| UTP-EVT-367 | 2026-10-11T17:12:13.658400+00:00 | Sankha article, Sounds of Odisha collection outline and evidence dossier merged through checked PR202; fetched output bytes verified. | Research Mardala; practitioner/audio follow-up remains open, website unchanged. |
 
 ## Deferred extensions
 
