@@ -1122,3 +1122,7 @@ The digital witness retains Manabasa’s ritual arrangement, a separate Sudasa p
 ## UTP-HIS-OSHA-SUDASA-20261011 · Supplementary Sudasa food passages
 
 Saved textual instructions retain rice preparation, filling and offering-distribution restrictions. Household practice and edition chronology remain unknown. No human review or public release. [Checkpoint](../records/osha-sudasa-review-2026-10-11.json).
+
+## UTP-HIS-OSHA-KHUDURUKUNI-20261011 · Khudurukuni and maritime knowledge
+
+Saved article and supporting study imported as research-only; profile adds print/authorship and food-term uncertainty. No local review or public release. [Checkpoint](../records/osha-khudurukuni-review-2026-10-11.json).

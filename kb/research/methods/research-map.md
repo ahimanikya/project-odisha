@@ -482,6 +482,10 @@ Sabitri Brata study reconciled using saved captures. Historical discovery leads 
 
 Manabasa Gurubara study reconciled using saved captures. Historical discovery leads remain distinct from inspected sources.
 
-## 2026-10-11 · Sudasa supplementary review
+## 2026-10-11 · Khudurukuni article review
 
-Sudasa supplementary passages reconciled using saved captures; original seven comparison dimensions preserved.
+Sudasa supplementary passages reconciled using saved captures; source scopes and dates preserved.
+
+## 2026-10-11 · Khudurukuni and maritime review
+
+Saved Khudurukuni article and maritime study reconciled using saved captures; source scopes and dates preserved.

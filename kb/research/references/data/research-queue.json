@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-11T16:39:59.978800+00:00",
+  "updated_at": "2026-10-11T17:40:07.823443+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -3395,10 +3395,10 @@
       "done_when": "Build and progressively complete a source-bounded osha/brata/parba inventory with individual history, ritual-story, significance and food pages; inspect primary textual or institutional evidence for adopted claims, retain source conflicts and regional variants, and prepare tested structured website pages under the destination review/release policy. Track remaining inventory and distinguish unresolved history, local participation and visitor availability; do not claim exhaustive coverage from this initial selection.",
       "target": "culture/osha-brata-seasonal-food.md",
       "status": "in_progress",
-      "attempts": 76,
+      "attempts": 80,
       "dependencies": [],
-      "last_worked_at": "2026-10-11T13:58:13.038911+00:00",
-      "next_step": "Sudasa supplementary food passages reconciled into draftPR145. Continue the earliest eligible saved-source narrative gap; preserve14–18October textual, calendar and local-review holds. No publication inferred.",
+      "last_worked_at": "2026-10-11T17:43:20.930887+00:00",
+      "next_step": "Khudurukuni article and supporting maritime study reconciled as research-only into draftPR145; two profile sections added. Preserve14–18October holds and koeta identity gap. Continue earliest unheld narrative field; no public release inferred.",
       "retry_after": null,
       "blocker": "Bada full katha, Puranic passage, annual schedule and source-wording/chronology gaps retry14October. Existing B02/B03/B04 gaps retained; independent B05 work can proceed. Kanji Anla original edition and calendar locality gaps retry14October; independent Bata work can proceed. Bata/Danda identity, text and calendar gaps retry14October. Pandu textual, food and sweeping gaps retry14October. Shani/Tota original text, history and locality/food gaps retry14October. Sukutuni original story/calendar/food and Bali Trutiya chronology/locality/boat-jhoti conflict retry14October. Sita Navami local katha, calendar/food and programme-occurrence gaps retry14October. Rambha local katha, food and textual-edition gaps retry15October. Nagala original katha, chronology and local food gaps retry15October. Naga Panchami local text, food and earliest observance gaps retry15October. Ananta Brata local text, food and earliest observance gaps retry15October. Rabinarayana Brata local text, food and earliest observance gaps retry15October. Somnath original dating evidence, manuscripts and household preparation retry 15 October. Kukkuti exact local accession, Odia text and household food/calendar retry15October. Santoshi Odia edition, local chronology and household food retry15October. Kedar original imprint, Gazette identity and household food retry15October. Rai Damodara original text, chronology, calendar and local food retry15October. Magha katha, earliest vow evidence and local food retry 15 October. Baisakha catalogue, local text, history and preparation retry 15 October. Guru Panchami local identity, calendar, text and food retry15October. Rushi Panchami full text, chronology and food preparation retry15October. Gouri identity, original edition/catalogue and food retry16October. Bipattarini Odia text, local identity, calendar and foods retry16October. Benatia/Purnima identity and June2013 issue retry16October. Sankata identity, Odia text, preparation and original December2006 page images retry16October. Radhastami original edition, attribution, catalogue rows and local dishes retry16October. Shibaratri original text, history, gaja preparation, poem facsimile and government recovery retry 16 October. Janmastami original text, history, named local dishes and Jeuta/Banabhoji source recovery retry 16 October. Pusa Rabibara imprint/dates, CY-1907 and local pitha/muan preparation retry16October. Binayaka editions/calendar, 1936 copy, manuscript leads and local modaka preparation retry 16 October. Skanda local panji, practice, katha and food evidence retry 16 October. Guru Purnima Pausa identity, original local text/history and dishes/fulfilment retry 16 October. Shiva Pradosha local text, chronology, timing and menu retry17October. Tarini original text, chronology and household food retry17October. Srabani original text/edition and local food retry17October; earlier Gouri16October hold retained. Bajra Mahakali imprint, food identification and local practice retry17October. Mahastami full text, local identity and food roles retry17October. Ashoka Astami original text, continuity and local food retry17October. Raja earlier witnesses, museum article, local recipes and situated accounts retry17October. Prathamastami historical originals, local recipes and calendar scope retry17October. Dutiya local katha/editions, plant/item identities and recipe/calendar comparison retry17October.",
       "evidence_outputs": [
@@ -3626,7 +3626,9 @@
         "references/data/samba-food-sequence.json",
         "references/data/sabitri-sequence.json",
         "references/data/manabasa-text-sequence.json",
-        "references/data/sudasa-food-text.json"
+        "references/data/sudasa-food-text.json",
+        "stories/khudurukuni-maritime-knowledge.md",
+        "references/data/osha-maritime-knowledge.json"
       ],
       "attempt_history": [
         {
@@ -4115,6 +4117,35 @@
           "at": "2026-10-11T15:25:26.026622+00:00",
           "outcome": "sudasa_supplementary_food_instructions_checkpoint",
           "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-11-osha-history-science",
+          "at": "2026-10-11T16:29:39.798418+00:00",
+          "outcome": "user_requested_article_and_new_tapoi_print_lead",
+          "completion_criteria_met": false,
+          "remaining": "Original field/ritual texts and situated practice remain open; existing retry holds retained."
+        },
+        {
+          "run_id": "2026-10-11-manabasa-review",
+          "at": "2026-10-11T14:35:52.585358+00:00",
+          "outcome": "manabasa_sequence_reconciled_tested_pushed",
+          "completion_criteria_met": false,
+          "git_revision": "629d385dee1a711af4797f52888b40df591b4442",
+          "pull_request": "https://github.com/ahimanikya/utkal-project/pull/145"
+        },
+        {
+          "run_id": "2026-10-11-sudasa-review",
+          "at": "2026-10-11T16:44:23.252273+00:00",
+          "outcome": "sudasa_supplementary_passages_reconciled_pushed",
+          "completion_criteria_met": false,
+          "git_revision": "cbc1fbcc8f34c2fce601bc5de21f24d40e926bb0",
+          "pull_request": "https://github.com/ahimanikya/utkal-project/pull/145"
+        },
+        {
+          "run_id": "2026-10-11-khudurukuni-review",
+          "at": "2026-10-11T17:43:20.930887+00:00",
+          "outcome": "saved_article_and_source_register_reconciled_for_review",
+          "completion_criteria_met": false
         }
       ],
       "reuse_before_research": {
@@ -4359,7 +4390,9 @@
           "references/data/samba-food-sequence.json",
           "references/data/sabitri-sequence.json",
           "references/data/manabasa-text-sequence.json",
-          "references/data/sudasa-food-text.json"
+          "references/data/sudasa-food-text.json",
+          "stories/khudurukuni-maritime-knowledge.md",
+          "references/data/osha-maritime-knowledge.json"
         ],
         "project_records": [
           "kb/research/product/destination-and-tour-book.md",

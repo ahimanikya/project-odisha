@@ -16,6 +16,7 @@ for p in r['pages']:
   check(s['evidence_class'] in {'ritual_narrative','documented_description','editorial_interpretation','research_limit','visitor_context'},'Unknown evidence class')
   if s['evidence_class'] in {'ritual_narrative','documented_description'}:check(s['source_ids'] and s['locator'],'Missing claim provenance '+p['slug'])
   check(all(x in cat for x in s['source_ids']),'Missing source '+p['slug'])
+  check(all(x in p['source_ids'] and x in r['sources'] for x in s['source_ids']),'Section source missing from renderable profile register '+p['slug'])
   if path.exists():check(s['text'] in path.read_text(),'Structured/prose mismatch '+p['slug'])
  for f in p['related_food_paths']:check((ROOT/(f+'.md')).is_file(),'Missing related food')
 w=json.loads((D/'osha-text-witnesses.json').read_text())

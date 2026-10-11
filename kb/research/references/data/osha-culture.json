@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "task_id": "RES-077",
-  "run_id": "2026-10-11-sudasa-review",
-  "checked_at": "2026-10-11T16:39:59.978800+00:00",
+  "run_id": "2026-10-11-khudurukuni-review",
+  "checked_at": "2026-10-11T17:40:07.823443+00:00",
   "title": "Bara Masa, Tera Parba: osha, story and food",
   "scope": "Fifty-three selected profiles: fifteen narrative checkpoints and thirty-eight research notes. No claim of exhaustive coverage or completed history.",
   "pages": [
@@ -58,6 +58,26 @@
             "osha-patra2019"
           ],
           "locator": "Publication and attribution boundaries"
+        },
+        {
+          "title": "A printed witness to pursue",
+          "text": "Nayak and Mohanty cite an undated Bruhat Tapoyi ba Khudurukuni Osa from Lokanath Printers, Badambadi, Cuttack. The cited copy remains uninspected.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-tapoi-lokaratna2013"
+          ],
+          "locator": "2013 paper, PDF p.50, references"
+        },
+        {
+          "title": "Keep authorship and food terms open",
+          "text": "The 2013 paper describes the text as anonymous; Patra attributes it to Gopinath Das. These accounts do not settle authorship. IRRI distinguishes hull from bran; neither identifies this locality’s khuda.",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-tapoi-lokaratna2013",
+            "osha-patra2019",
+            "osha-irri-grain-preparation"
+          ],
+          "locator": "2013 PDF p.42; Patra p.48; IRRI dehulling/polishing paragraphs"
         }
       ],
       "food_names": [
@@ -76,11 +96,14 @@
       "local_review": null,
       "source_ids": [
         "osha-ray2020",
-        "osha-patra2019"
+        "osha-patra2019",
+        "osha-tapoi-lokaratna2013",
+        "osha-irri-grain-preparation"
       ],
       "canonical_path": "culture/osha/khudurukuni.md",
       "route": "/culture/osha/khudurukuni/",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "article_path": "stories/khudurukuni-maritime-knowledge.md"
     },
     {
       "id": "OSHA-002",
@@ -8404,6 +8427,29 @@
           "scope": "Previously inspected Sudasa instructions reused; no fresh retrieval, collation or local practice verification."
         }
       ]
+    },
+    "osha-tapoi-lokaratna2013": {
+      "id": "osha-tapoi-lokaratna2013",
+      "title": "Reading Bruhat Tapoyi (Khudurukuni Osa)",
+      "resource": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/8920e957-babc-45d4-9981-6b8bbe821a5b/content",
+      "publisher": "Radharani Nayak and Seemita Mohanty; Folklore Foundation, Lokaratna V & VI2013; Cambridge institutional repository copy",
+      "published_on": "2013",
+      "accessed_on": "2026-10-11",
+      "source_kind": "Original scholarly literary analysis",
+      "locator": "PDF pp.41–50; authors/title p.41, anonymous-text statement p.42, narrative pp.43–46, undated Lokanath Printers reference p.50",
+      "sha256": "f94e2f8203abca35c0df280fc745b9d181841b351a7be6b9809ac3ba90a67bd4",
+      "capture_note": "Selected ten pages parsed from163-page journal. Main cover V & VI2013; some preliminary pages use other volume labels. Undated cited book not itself recovered. Broad societal and maritime claims not adopted; no human review."
+    },
+    "osha-irri-grain-preparation": {
+      "id": "osha-irri-grain-preparation",
+      "title": "Rice grain sample preparation and submission guide",
+      "resource": "https://sites.google.com/irri.org/isl-external/services/rice-plant-grain-and-soil-physico-chemical-analyses/rice-grain-sample-prep-submission-guide",
+      "publisher": "International Rice Research Institute, Service Laboratories",
+      "published_on": null,
+      "accessed_on": "2026-10-11",
+      "source_kind": "Primary institutional technical guide",
+      "locator": "Dehulling and polishing paragraphs; readable web lines24–35",
+      "capture_note": "Guide read for hull/bran distinction only. Does not identify a local offering or recipe. IRRI teaching-manual PDF and Knowledge Bank route timed out; not treated as unchanged."
     }
   },
   "next_observances": [

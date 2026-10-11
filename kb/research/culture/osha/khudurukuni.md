@@ -5,7 +5,7 @@ description: "Khudurukuni Osha — source-bounded cultural research."
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-07T05:30:57.424485+00:00"}
 subjects: ["everyday", "food", "arts"]
-sources: [{"id": "osha-ray2020", "title": "Khudurukuni Osa: Odisha’s Maritime Festival", "resource": "https://www.livehistoryindia.com/story/living-culture/khudurukuni-osa"}, {"id": "osha-patra2019", "title": "Maritime Trade and Overseas Activities of Odisha as Reflected in Folk Literature, Festivals and Traditions", "resource": "https://magazines.odisha.gov.in/orissareview/2019/Nov/engpdf/46-53.pdf"}]
+sources: [{"id": "osha-ray2020", "title": "Khudurukuni Osa: Odisha’s Maritime Festival", "resource": "https://www.livehistoryindia.com/story/living-culture/khudurukuni-osa"}, {"id": "osha-patra2019", "title": "Maritime Trade and Overseas Activities of Odisha as Reflected in Folk Literature, Festivals and Traditions", "resource": "https://magazines.odisha.gov.in/orissareview/2019/Nov/engpdf/46-53.pdf"}, {"id": "osha-tapoi-lokaratna2013", "title": "Reading Bruhat Tapoyi (Khudurukuni Osa)", "resource": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/8920e957-babc-45d4-9981-6b8bbe821a5b/content"}, {"id": "osha-irri-grain-preparation", "title": "Rice grain sample preparation and submission guide", "resource": "https://sites.google.com/irri.org/isl-external/services/rice-plant-grain-and-soil-physico-chemical-analyses/rice-grain-sample-prep-submission-guide"}]
 human_review_claimed: false
 ---
 
@@ -50,3 +50,17 @@ Sources: [Khudurukuni Osa: Odisha’s Maritime Festival](https://www.livehistory
 - How have the worship group and food sharing changed?
 
 [Back to the collection](../osha-brata-seasonal-food.md). Cultural association does not establish a serving venue or access to private worship. No local interviews or human editorial review are claimed.
+
+## 11 October 2026 · Coverage and original-access audit
+
+The2022 journal original remains unavailable: Heidelberg returned bot-protection HTML with HTTP200; the alternate publisher returned403. No new text claim adopted. Retry14October; Ray2020 and2022 remain one author lineage.
+
+## A printed witness to pursue
+
+Nayak and Mohanty cite an undated Bruhat Tapoyi ba Khudurukuni Osa from Lokanath Printers, Badambadi, Cuttack. The cited copy remains uninspected.
+
+## Keep authorship and food terms open
+
+The 2013 paper describes the text as anonymous; Patra attributes it to Gopinath Das. These accounts do not settle authorship. IRRI distinguishes hull from bran; neither identifies this locality’s khuda.
+
+[The connected article](../../stories/khudurukuni-maritime-knowledge.md) reads the observance beside maritime practical knowledge.

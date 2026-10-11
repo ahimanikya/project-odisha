@@ -467,6 +467,10 @@ Sabitri Brata local katha, situated fruit selection and silapua/tulasi-chaura va
 
 Manabasa Gurubara identified imprint/manuscript,1868 header and household edition remain open; retry18October. Existing14–18October holds remain. No current serving offers verified.
 
-## 2026-10-11 · Sudasa supplementary review
+## 2026-10-11 · Khudurukuni article review
 
 Sudasa cooking method, digital edition provenance and situated household distribution remain unknown; retry18October. All14–18October holds preserved.
+
+## 2026-10-11 · Khudurukuni and maritime review
+
+Khudurukuni authorship, cited Lokanath print and situated khuda identity remain unresolved; original14–18October holds preserved. Koeta unidentified.

@@ -18,3 +18,5 @@
 [More rice from each hectare](rice-productivity.md) — a same-publication trend with annual declines visible.
 
 [From milk to market](../stories/sweets-from-milk-to-market.md) connects the Pahala supply-chain study with dairy work, sweet making and the evidence still needed for market claims.
+
+- [Khudurukuni Osha and maritime knowledge](khudurukuni-maritime-knowledge.md) — Tapoi, girls’ cultural work and the practical demands of voyaging.

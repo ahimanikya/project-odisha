@@ -95,3 +95,5 @@ The [contemporary creators collection](../people/contemporary-creators.md) now i
 ## Handloom market pathways
 
 [Six traditions and seller evidence](../handlooms/garments-and-markets.md) · [From loom to market](../stories/handlooms-from-loom-to-market.md). Technique, garment form, fibre and maker credit are distinct fields.
+
+- [Khudurukuni Osha and maritime knowledge](../stories/khudurukuni-maritime-knowledge.md) — Tapoi, girls’ cultural work and the practical demands of voyaging.
