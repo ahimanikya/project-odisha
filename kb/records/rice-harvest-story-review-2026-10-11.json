@@ -1,0 +1,59 @@
+{
+  "recorded_at": "2026-10-11T11:01:51.141249+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-050",
+  "work_id": "UTP-WORK-235",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "output": "research/stories/rice-productivity.md",
+  "brief": {
+    "reader": "Readers curious about the harvest behind Odisha’s everyday rice.",
+    "reason_to_read": "Understand the longer gain and uneven years, then follow the unanswered household question.",
+    "memorable_detail": "A decade gain and a last-year setback can both be true.",
+    "visual_treatment": "Retained annual chart; proposed separate aligned area/yield panels and verified permitted contextual photograph.",
+    "next_step": "Named-season grower account with consent, quantity, realised prices, retained grain, expenses and cost basis."
+  },
+  "reuse": {
+    "research_map_read": true,
+    "queries": [
+      "rice productivity",
+      "rice"
+    ],
+    "inputs": [
+      "research/stories/rice-productivity.md",
+      "research/economy/rice-economy.md",
+      "research/references/data/rice-economy.json",
+      "research/sources/rice-oas2024.md"
+    ],
+    "queue_pointers_inspected": [
+      "RES-061"
+    ],
+    "earlier_draft_sha256": "1f4df2ee4805d890b7e94a51cd622c2d2e0037532d548eb6a7b1b54e8964ee88",
+    "preserved": "Original body/chart retained verbatim within expanded story. No canonical observations, source IDs, holds or queue statuses changed."
+  },
+  "sources": [
+    {
+      "id": "rice-oas2024",
+      "url": "https://agri.odisha.gov.in/sites/default/files/2025-05/OAS%20A4.pdf",
+      "sha256": "d0e8c94ff1700b8b62daf9cab3ad8f716c5ca3a7b078720f64d951bf0041757d",
+      "inspection": "Publisher PDF successfully retrieved; printed p.90/PDF p.96 historical rice table rendered and visually inspected. All 12 canonical 2012–13 to 2023–24 rows match the original total area/yield/rice output columns."
+    }
+  ],
+  "verification": {
+    "claims": "Ten-year 2013–14 to2023–24 area4180to4087 thousandha(-2.2%), yield1821to2823kg/ha(+55.0%), riceproduction7613to11538 thousandMT(+51.6%); 2022–23 production11933to11538(-3.3%). Rounded arithmetic independently recalculated; chart starts2012–13, comparison2013–14.",
+    "local_checks": "Passed research3778links, classification305relationships, KB5050links, registers/program, catalogue and workbench build/check. Required CI remains pending.",
+    "visual": "Original p.90 table rendered and inspected; existing chart retained, no new website layout."
+  },
+  "limitations": [
+    "Same-assistant source/editorial review; no independent human or farmer review.",
+    "Dated statewide crop totals; not current forecasts, individual farm yields, unique landowners, causal evaluation or household profit.",
+    "Rice production, paddy production and procurement quantity remain distinct; rounded historical precision retained.",
+    "Settlement coverage and cost-study survey year remain unresolved in RES-061. No interview, farm inspection or media rights invented.",
+    "Original draft and chart retained; no website or search eligibility change."
+  ],
+  "delivery": "Pending required checks and reviewed-head KB merge; deployment not required."
+}
