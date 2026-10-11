@@ -1,0 +1,60 @@
+{
+  "recorded_at": "2026-10-11T02:46:17.906072+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-042",
+  "work_id": "UTP-WORK-227",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "output": "research/stories/rice-income-after-costs.md",
+  "brief": {
+    "reader": "Reader wondering what a crop-income headline means.",
+    "reason_to_read": "See how cost boundaries change the remainder and why family work needs its own value.",
+    "memorable_detail": "₹9,000 of imputed family labour appears in the historical case; no separate wage slip is needed for a cost to enter an account.",
+    "visual_treatment": "Three-row gross/C2/net table, with original study tables visually inspected.",
+    "next_step": "Read the procurement companion; any actual household reporting needs a separately agreed account."
+  },
+  "reuse": {
+    "research_map_read": true,
+    "queries": [
+      "rice"
+    ],
+    "inputs": [
+      "research/stories/rice-income-after-costs.md",
+      "research/economy/rice-economy.md",
+      "research/references/data/rice-economy.json",
+      "research/sources/rice-sahoo-cost2023.md",
+      "research/about/statistics-storytelling.md"
+    ],
+    "queue_pointers_inspected": [
+      "RES-061",
+      "RES-022"
+    ],
+    "earlier_draft_sha256": "147926197abf4721488d1915b13c0bda247b053f473fc5aa18dcc4a3483895d5",
+    "preserved": "Original body retained verbatim. Canonical case, queue gaps and source identity unchanged."
+  },
+  "sources": [
+    {
+      "id": "rice-sahoo-cost2023",
+      "url": "https://ndpublisher.in/countpdfdownload.php?id=5788&pdf=EAv68n1p.pdf",
+      "sha256": "47ebb9662c9d2ce17190c7917105bc7d35945b38afa1768cba75d32581b3382d",
+      "inspection": "Original10-page publisher PDF retrieved. Methods pp470–471 read; PDF5/6 printed473/474 rendered and visually inspected: family labour9000, C2 64908.43, A2 41013.10, gross79050, farm business38036.90 and net14141.58. Adjacent ragi results excluded."
+    }
+  ],
+  "verification": {
+    "arithmetic": "Decimal assertions:72750+6300=79050;79050-64908.43=14141.57;79050-41013.10=38036.90. Source net14141.58 retained with one-paisa difference.",
+    "claims": "C2 definition includes imputed family labour and land/owned-capital values. A2 not cash-only. Paddy year not inferred from secondary2018–19 context.",
+    "local_checks": "Research/classification and generated indexes passed;1247KB concepts/4998links; registers/program and whitespace passed.",
+    "visual": "Original two paddy table pages visually inspected; no image reproduction or website edit."
+  },
+  "limitations": [
+    "Same-assistant documentary/editorial review; no independent economics or human review.",
+    "Paddy survey/valuation year and crop-specific sample remain unresolved. Historical nominal regional case, not current statewide or total household income.",
+    "Source table/method definition differences and one-paisa subtraction difference retained; no C3 or cross-crop ratio adopted.",
+    "No interview, fieldwork, current farm budget, agronomic recommendation, website release or search expansion."
+  ],
+  "delivery": "Pending required checks and reviewed-head documentation merge; website deployment not required."
+}
