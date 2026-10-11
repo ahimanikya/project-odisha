@@ -417,3 +417,7 @@ The [six-story collection](../stories/narratives/tourism-reading-collection.md) 
 ## Global Connections town candidate on 10 October 2026
 
 The [Konark and Mamallapuram learning proposal](../../specs/konark-mamallapuram-learning-proposal.md) extends the existing Global Connections model to a possible domestic exchange. It reuses the `konark` source identity and adds `global-mamallapuram` for the counterpart property. Both UNESCO profiles share a publisher; this is a comparison, not independent corroboration or evidence of a relationship. [Claim and reuse record](../../records/konark-mamallapuram-evidence-2026-10-10.json). No imported observation, research queue task, counterpart appointment or municipal partnership is changed.
+
+## Sounds of Odisha extension · 11 October 2026
+
+Two project-native records add Huluhuli article and source-inspection notes after searches found no dedicated entry. Boita Bandana and sensory identity reused for context; existing task statuses unchanged. A1906 Ganjam attestation is distinguished from origin, and community-specific practice from a proved global transmission history.

@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `312288c6a93f3a7fc2bbcf6d9b8bcba6f161c5be325ab5457c601a61459f7e39`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b9bd4c381edcb4b91c26cb958e41f495d1c8a52ebff9499c3bcebdf8b26b72ae`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -250,6 +250,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-237 · Follow forest-worker support beyond the grant total | completed | applied | Ahimanikya Satapathy | KB support story delivered. Recipient consent, dated individual receipts and welfare-outcome evidence remain separate work. | — |
 | UTP-WORK-238 · Read Paradip cargo beyond the export headline | completed | applied | Ahimanikya Satapathy | KB cargo story delivered. Cargo classifications, origin/destination and permitted worker accounts remain separate evidence work. | — |
 | UTP-WORK-239 · Follow Odisha goods exports beyond the rupee headline | completed | applied | Ahimanikya Satapathy | KB goods-value story delivered. Country denominator reconciliation, matched transaction evidence and participant outcomes remain separate work. | — |
+| UTP-WORK-240 · Huluhuli and the sounds of Odisha | completed | draft | Ahimanikya Satapathy | KB article draft delivered; original literary passages, practitioner review and audio documentation remain follow-up work. | — |
 
 ## Pending human review and decisions
 
@@ -535,6 +536,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-223 · Prepare three food stories and reconcile published backlog work | approved | Ahimanikya Satapathy | Dalma, Dahibara Aloodum and Machha Besara stories; saved-journey and book connections; bounded backlog reconciliation. Local introductions and provider confirmations stay deferred. Prepare a review candidate; no new publication authorization recorded. |
 | UTP-DEC-224 · Publish the approved three food stories | approved | Ahimanikya Satapathy | Merge PR146 and deploy the reviewed three food stories, journey/book integration and bounded backlog reconciliation. |
 | UTP-DEC-225 · Autonomous continuation through the next 500 Utkal work items | approved | Ahimanikya Satapathy | Founder explicitly authorizes the next 500 routine UTP backlog items without further approval prompts, including existing Git/website publication after meaningful tests and review. Record actual batch scope, PR, review and deployment evidence. This does not appoint AI personas, verify facts, authorize outreach or spending, activate held commercial projects, or change unrelated repositories. |
+| UTP-DEC-226 · Research Huluhuli for Sounds of Odisha | approved | Ahimanikya Satapathy | Direct Founder instruction authorizes Huluhuli desk research, article preparation and preservation in KB. It does not verify facts or imply practitioner review, recording rights or website publication. |
 
 ## Reviews
 
@@ -744,6 +746,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-205 | pass_with_limitations | False | Same-assistant source/editorial review; no independent human or recipient review.; Compassionate-grant administrative records, not verified distinct people, wages, all welfare or household income.; Category totals are not individual receipts; no payment audit, entitlement guidance or wellbeing/causal evaluation.; Welfare year basis and partial2026–27 cutoff remain unresolved; canonical sales/payment conflicts preserved.; No private files, interviews, image permissions, website/search selection or external activity claimed. |
 | UTP-REV-206 | pass_with_limitations | False | Same-assistant source/editorial review; no independent human or port-operator review.; Port throughput includes coastal movements; not Odisha-origin exports, export value or employment/household income.; Endpoint comparison only, not an invented annual series or causal analysis.; No exact cargo routes, capacity utilisation, project commissioning, ranking, participant testimony or photo rights inferred.; Original source/metric identities retained; no website/search selection or operating access change. |
 | UTP-REV-207 | pass_with_limitations | False | Same-assistant source/editorial review; no independent human or exporter review.; Nominal goods-value endpoints, not real quantity growth, a measured annual series or household returns.; Goods-plus-services total chart and merchandise composition are distinct; no replacement of canonical measures.; Destination denominator reconciliation remains open; no country rupee conversion, exact route, exporter testimony or photo rights claimed.; No new forecast, ranking, causation, website/search eligibility or external activation. |
+| UTP-REV-208 | pass_with_limitations | False | Desk research by current AI assistant; not independent human, Odia language or practitioner review.; 1906 attestation does not establish earliest origin or diffusion.; Dhemsa ministry entry and2015competition used through indexed text with live retrieval failures documented.; Literary originals, exact dictionary headword and archival land grants remain uninspected.; No fieldwork, licensed audio, website publication or autonomous500completion claimed. |
 
 ## Publication and application history
 
@@ -879,7 +882,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-354 | 2026-10-11T11:01:51.141249+00:00 | Rice harvest reader draft separates area, yield and total rice output, preserves annual setbacks and connects costs, procurement and seed stories. Original historical table visually checked; no farmer or causal outcome claimed. Item50 awaits checked merge. | Pass required checks and merge reviewed KB draft. |
 | UTP-EVT-355 | 2026-10-11T11:23:01.532239+00:00 | PR195 passed required checks and reviewed head merged. Rice harvest story matches fetched merge; item50 delivered to KB with original draft/chart preserved. | Continue eligible backlog; household and causal outcomes remain separate evidence work. |
 | UTP-EVT-356 | 2026-10-11T12:07:37.185347+00:00 | Trading-culture concept now includes six-scene original narration, media/evidence fallbacks, current palette, rights manifest and accessible-film acceptance. Dated Paradip event rechecked; no actual film or commercial activation. Item51 awaits checked merge. | Pass required checks and merge reviewed production brief. |
 | UTP-EVT-357 | 2026-10-11T12:25:44.575971+00:00 | PR196 passed required checks and reviewed head merged. Trade documentary brief matches fetched merge; item51 delivered to KB with original concept preserved. No film rendered. | Continue eligible backlog; actual media production and participant permissions remain separate work. |
@@ -889,6 +891,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-361 | 2026-10-11T14:36:47.070871+00:00 | PR198 passed required checks and reviewed head merged. Paradip cargo story matches fetched merge; item53 delivered to KB with earlier metric record preserved. | Continue eligible backlog; cargo geography and livelihood effects remain separate evidence work. |
 | UTP-EVT-362 | 2026-10-11T15:27:15.649404+00:00 | Goods-value draft separates merchandise, total exports, nominal change and participant outcomes. Original survey pages visually checked; earlier record and destination hold preserved. Item54 awaits checked merge. | Pass required checks and merge reviewed KB article. |
 | UTP-EVT-363 | 2026-10-11T15:31:44.995099+00:00 | PR199 passed required checks and reviewed head merged. Goods-export story matches fetched merge; item54 delivered to KB with earlier comparison and updated source capture. | Continue eligible backlog; destination denominator and transaction/household evidence remain open. |
+| UTP-EVT-364 | 2026-10-11T16:30:33.734382+00:00 | Founder-requested Huluhuli article and research notes saved as linked KB drafts; historical scan visually inspected, origins and specific community scopes qualified. | Keep literary and practitioner review open; no website publication or500item count. |
 
 ## Deferred extensions
 
