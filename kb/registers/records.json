@@ -7107,6 +7107,33 @@
         "research/sources/huluhuli-research.md",
         "research/places/koraput.md"
       ]
+    },
+    {
+      "id": "UTP-WORK-248",
+      "title": "Sound recording model and eight listening briefs",
+      "category": "knowledge_and_tools",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Reuse collection proposal and source notes; build planned briefs and readiness validation.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-REV-216"
+      ],
+      "evidence": [
+        "records/sound-recording-model-review-2026-10-12.json",
+        "models/sound-recording.md",
+        "records/sound-recording-briefs.json",
+        "research/culture/sounds-of-odisha.md"
+      ],
+      "acceptance_criteria": "Turn the existing Sounds of Odisha collection-record proposal into an actionable audio intake model with eight source-linked recording briefs and an executable readiness check. Preserve every clip as planned with no acquired media, separate capture/context/rights/accessibility/editorial states, reject fabricated or unlicensed readiness, verify article/source pointers and negative cases. Merge exact checked PR head, verify delivered model/brief/check bytes and save KB-only receipt before counting. No outreach, audio generation, activation or website/search change.",
+      "reuse_before_research": [
+        "research/culture/sounds-of-odisha.md",
+        "research/sources/sankha-research.md"
+      ]
     }
   ],
   "decisions": [
@@ -16650,6 +16677,28 @@
         "PDF text inspected; screenshot returned no usable pixels. Festival description remains indexed-only.",
         "No origin date, universal ensemble, participant identity or song language inferred.",
         "KB draft only; website/search unchanged."
+      ]
+    },
+    {
+      "id": "UTP-REV-216",
+      "title": "Sound recording preparation and readiness validation review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-248"
+      ],
+      "evidence": [
+        "records/sound-recording-model-review-2026-10-12.json"
+      ],
+      "limitations": [
+        "No audio, contributor permission or practitioner review acquired.",
+        "Structural validation cannot establish consent, identify sounds or grant human publication authority.",
+        "Eight briefs are one preparation package, not eight delivered recordings.",
+        "Website/search unchanged; archive not activated."
       ]
     }
   ],

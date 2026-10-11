@@ -39,3 +39,5 @@ These are sourced KB drafts. They are not yet public website pages or an audio a
 Begin with a clearly imagined scene or an evidenced encounter. Explain the sound, meet its people and connect it with a specific place and occasion. Keep devotional meaning distinct from historical origin. Add a short real recording and an image when rights, context and permission are established; preserve sources at the end.
 
 [Collection research model and recording questions](../sources/sankha-research.md#proposed-collection-record).
+
+[Recording model](../../models/sound-recording.md) · [Eight proposed listening briefs](../../records/sound-recording-briefs.json). No audio acquired or archive activated.
