@@ -7077,6 +7077,35 @@
         "research/sources/pala-sna-behera2009.md",
         "research/culture/sounds-of-odisha.md"
       ]
+    },
+    {
+      "id": "UTP-WORK-247",
+      "title": "Dhemsa story for Sounds of Odisha",
+      "category": "research_and_writing",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Read primary district/community descriptions, write scoped story and source review.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-REV-215"
+      ],
+      "evidence": [
+        "records/dhemsa-story-review-2026-10-12.json",
+        "research/culture/dhemsa.md",
+        "research/culture/sounds-of-odisha.md",
+        "research/sources/dhemsa-research.md"
+      ],
+      "acceptance_criteria": "Create a distinct Dhemsa Sounds of Odisha story that names community and place, connecting group movement, musical accompaniment and local context. Reuse Huluhuli evidence with its indexed-only limit, read primary community/district passages, avoid a universal format, invented origin or blanket language assignment. Save article, source dossier and discovery links; pass exact-head PR checks, verify merged output and save KB-only receipt before counting. No recordings, relationships, website/search expansion or current event promise.",
+      "reuse_before_research": [
+        "research/culture/sounds-of-odisha.md",
+        "research/culture/huluhuli.md",
+        "research/sources/huluhuli-research.md",
+        "research/places/koraput.md"
+      ]
     }
   ],
   "decisions": [
@@ -16597,6 +16626,28 @@
         "Current assistant desk review; no independent human or practitioner review.",
         "Behera saved full-text evidence reused; fresh Behera and Dash fetches failed.",
         "Local roles and dated gathering do not establish universal format or current event availability.",
+        "KB draft only; website/search unchanged."
+      ]
+    },
+    {
+      "id": "UTP-REV-215",
+      "title": "Dhemsa narrative and source review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-247"
+      ],
+      "evidence": [
+        "records/dhemsa-story-review-2026-10-12.json"
+      ],
+      "limitations": [
+        "Current assistant desk review; no independent community or practitioner review.",
+        "PDF text inspected; screenshot returned no usable pixels. Festival description remains indexed-only.",
+        "No origin date, universal ensemble, participant identity or song language inferred.",
         "KB draft only; website/search unchanged."
       ]
     }

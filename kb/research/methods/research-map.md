@@ -433,3 +433,5 @@ Sounds of Odisha now connects the [collection outline](../culture/sounds-of-odis
 [Ghanta and ghanti](../culture/ghanta-ghanti.md) joins Sounds of Odisha; [source dossier](../sources/ghanta-ghanti-research.md) records full-text source scope and failed visual retrieval.
 
 [Pala](../culture/pala.md) adds an illustrated listening story to Sounds of Odisha; [source dossier](../sources/pala-sounds-story-research.md) records source rechecks, reuse and preserved history.
+
+[Dhemsa](../culture/dhemsa.md) joins Sounds of Odisha; [source dossier](../sources/dhemsa-research.md) records full-text source scope and failed visual retrieval.

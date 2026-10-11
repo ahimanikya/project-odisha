@@ -162,3 +162,5 @@ Historical visitor-experience release: [PR 23 publication evidence](records/visi
 [Ghanta and ghanti](research/culture/ghanta-ghanti.md) connects metalworking, ritual sound and local group playing in Sounds of Odisha.
 
 [Pala](research/culture/pala.md) now includes an illustrated Sounds of Odisha listening story; earlier research is preserved.
+
+[Dhemsa](research/culture/dhemsa.md) connects group movement, community and place in Sounds of Odisha.
