@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `6f6645ee5ccb514de9edfbd12459ffbc59c62f45fb0aea6d25806eae021f1241`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `7ba3cc4cf13ffa23ce73ec83165d55804641c354a750e19172c9a4d519fac081`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -253,7 +253,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-240 · Huluhuli and the sounds of Odisha | completed | draft | Ahimanikya Satapathy | KB draft preserved through checked PR201. Practitioner review, original literary editions and audio documentation remain follow-up work. | — |
 | UTP-WORK-241 · Sankha and the Sounds of Odisha collection | completed | draft | Ahimanikya Satapathy | KB draft preserved through checked PR202. Practitioner and audio review remain open; research Mardala next. | — |
 | UTP-WORK-242 · Hear the people and learning behind Mardala | completed | draft | Ahimanikya Satapathy | KB draft delivered through checked PR203. Practitioner/audio follow-up open; Dalkhai next. | — |
-| UTP-WORK-243 · Dalkhai story for Sounds of Odisha | in_progress | draft | Ahimanikya Satapathy | Extend existing evidence into sourced song and occasion story; preserve dated viewing limits. | — |
+| UTP-WORK-243 · Dalkhai story for Sounds of Odisha | completed | draft | Ahimanikya Satapathy | KB draft delivered through checked PR204. Practitioner/audio follow-up open; Continue Sounds of Odisha research. | — |
 
 ## Pending human review and decisions
 
@@ -889,7 +889,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-361 | 2026-10-11T14:36:47.070871+00:00 | PR198 passed required checks and reviewed head merged. Paradip cargo story matches fetched merge; item53 delivered to KB with earlier metric record preserved. | Continue eligible backlog; cargo geography and livelihood effects remain separate evidence work. |
 | UTP-EVT-362 | 2026-10-11T15:27:15.649404+00:00 | Goods-value draft separates merchandise, total exports, nominal change and participant outcomes. Original survey pages visually checked; earlier record and destination hold preserved. Item54 awaits checked merge. | Pass required checks and merge reviewed KB article. |
 | UTP-EVT-363 | 2026-10-11T15:31:44.995099+00:00 | PR199 passed required checks and reviewed head merged. Goods-export story matches fetched merge; item54 delivered to KB with earlier comparison and updated source capture. | Continue eligible backlog; destination denominator and transaction/household evidence remain open. |
 | UTP-EVT-364 | 2026-10-11T16:30:33.734382+00:00 | Founder-requested Huluhuli article and research notes saved as linked KB drafts; historical scan visually inspected, origins and specific community scopes qualified. | Keep literary and practitioner review open; no website publication or500item count. |
@@ -899,6 +898,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-368 | 2026-10-11T17:40:40.794580+00:00 | Mardala story and source dossier drafted for Sounds of Odisha; primary credits scoped and teaching history separated from current access. Item055 remains in progress until checked delivery. | Validate and preserve through exact-head checked PR. |
 | UTP-EVT-369 | 2026-10-11T17:45:29.731032+00:00 | Mardala story and source dossier merged through checked PR203; fetched output hashes matched. Item055 completed; programme55/500. | Research Dalkhai; practitioner/audio follow-up remains open, website unchanged. |
 | UTP-EVT-370 | 2026-10-11T18:34:50.713735+00:00 | Existing Dalkhai record extended with song, occasion and visitor listening story; dated viewing limits retained. Item056 awaits checked delivery. | Validate and merge reviewed research head. |
+| UTP-EVT-371 | 2026-10-11T18:37:27.599320+00:00 | Dalkhai story and source dossier merged through checked PR204; fetched output hashes matched. Item056 completed; programme56/500. | Continue Sounds of Odisha; practitioner/audio follow-up remains open, website unchanged. |
 
 ## Deferred extensions
 
