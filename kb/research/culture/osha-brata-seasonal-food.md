@@ -159,3 +159,8 @@ Kanji Anla separates kitchen/courtyard accounts, food offered to children and ri
 ## 11 October 2026 · Samba food sequence
 
 Samba Dashami now separates Surya offerings, child sharing and a later Yama offering;53 selected profiles/15 narrative checkpoints/38 early notes unchanged.
+
+
+## 11 October 2026 · Sabitri sequence
+
+Sabitri adds deliberate literary choice, a story vow and source-specific shared fruit offerings. Nine-type wording and ten examples remain unresolved;53 selected profiles unchanged.

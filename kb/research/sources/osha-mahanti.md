@@ -167,17 +167,18 @@ Printed53/PDF69 and107–108/PDF123–124 visually inspected for household descr
 
 Printed116–119 / PDF132–135 visually inspected. [Raja](../culture/osha/raja-parba.md) uses source-specific belief, preparation and sharing descriptions. Decline, storage and physiological claims held; same publication reused, not independent corroboration.
 
-
 ## 2026-10-10 · Prathamastami scope reading
 
 Printed59 / PDF75, Prathamastami paragraph. Saved PDF and newly rendered page inspected; household sequence and enduri/kheeri; no fresh retrieval. [Profile](../culture/osha/prathamastami.md).
-
 
 ## 2026-10-10 · Dutiya scoped reading
 
 Printed58/PDF74, Dwitiya osha. Saved original page visually inspected: attributed Surya-parentage belief, fox/kite, aparamanga leaf,21 vegetables and ghanta exchange. [Profile](../culture/osha/dutiya.md).
 
-
 ## 2026-10-10 · Budhei scoped reading
 
 Saved printed56–57/PDF72–73 visually inspected: deity differences, sila/silapua, retained coconut and chapter reading. Pitha types unspecified; same publication is one evidence family.
+
+## 11 October 2026 · Sabitri sequence inspection
+
+Saved printed45/PDF61 and72/PDF88 visually inspected. Group reading and family sharing retain author scope; footnote33 lists ten fruit examples beside nine-type wording. Original7October retrieval preserved.

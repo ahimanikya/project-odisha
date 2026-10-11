@@ -101,3 +101,8 @@ Kanji Anla food-role revision is local and awaits draftPR145 reconciliation. Cal
 ## 11 October 2026 · Samba food sequence
 
 Samba food-role revision is reconciled into draftPR145. Pausa month retained; no annual date or serving availability.
+
+
+## 11 October 2026 · Sabitri sequence
+
+Sabitri’s local derivative preserves Jyestha amabasya and attributed offering/share roles. No annual date or current serving availability.

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-11T09:55:36.693880+00:00",
+  "updated_at": "2026-10-11T11:58:15.660331+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -3395,10 +3395,10 @@
       "done_when": "Build and progressively complete a source-bounded osha/brata/parba inventory with individual history, ritual-story, significance and food pages; inspect primary textual or institutional evidence for adopted claims, retain source conflicts and regional variants, and prepare tested structured website pages under the destination review/release policy. Track remaining inventory and distinguish unresolved history, local participation and visitor availability; do not claim exhaustive coverage from this initial selection.",
       "target": "culture/osha-brata-seasonal-food.md",
       "status": "in_progress",
-      "attempts": 71,
+      "attempts": 73,
       "dependencies": [],
-      "last_worked_at": "2026-10-11T08:46:55.187738+00:00",
-      "next_step": "Samba Dashami food sequence reconciled into draftPR145. Continue the next eligible saved-source field; preserve all14–18October textual, calendar and local-review holds. No publication inferred.",
+      "last_worked_at": "2026-10-11T11:39:27.334461+00:00",
+      "next_step": "Sabitri Brata food sequence reconciled into draftPR145. Continue the next eligible saved-source field; preserve all14–18October textual, calendar and local-review holds. No publication inferred.",
       "retry_after": null,
       "blocker": "Bada full katha, Puranic passage, annual schedule and source-wording/chronology gaps retry14October. Existing B02/B03/B04 gaps retained; independent B05 work can proceed. Kanji Anla original edition and calendar locality gaps retry14October; independent Bata work can proceed. Bata/Danda identity, text and calendar gaps retry14October. Pandu textual, food and sweeping gaps retry14October. Shani/Tota original text, history and locality/food gaps retry14October. Sukutuni original story/calendar/food and Bali Trutiya chronology/locality/boat-jhoti conflict retry14October. Sita Navami local katha, calendar/food and programme-occurrence gaps retry14October. Rambha local katha, food and textual-edition gaps retry15October. Nagala original katha, chronology and local food gaps retry15October. Naga Panchami local text, food and earliest observance gaps retry15October. Ananta Brata local text, food and earliest observance gaps retry15October. Rabinarayana Brata local text, food and earliest observance gaps retry15October. Somnath original dating evidence, manuscripts and household preparation retry 15 October. Kukkuti exact local accession, Odia text and household food/calendar retry15October. Santoshi Odia edition, local chronology and household food retry15October. Kedar original imprint, Gazette identity and household food retry15October. Rai Damodara original text, chronology, calendar and local food retry15October. Magha katha, earliest vow evidence and local food retry 15 October. Baisakha catalogue, local text, history and preparation retry 15 October. Guru Panchami local identity, calendar, text and food retry15October. Rushi Panchami full text, chronology and food preparation retry15October. Gouri identity, original edition/catalogue and food retry16October. Bipattarini Odia text, local identity, calendar and foods retry16October. Benatia/Purnima identity and June2013 issue retry16October. Sankata identity, Odia text, preparation and original December2006 page images retry16October. Radhastami original edition, attribution, catalogue rows and local dishes retry16October. Shibaratri original text, history, gaja preparation, poem facsimile and government recovery retry 16 October. Janmastami original text, history, named local dishes and Jeuta/Banabhoji source recovery retry 16 October. Pusa Rabibara imprint/dates, CY-1907 and local pitha/muan preparation retry16October. Binayaka editions/calendar, 1936 copy, manuscript leads and local modaka preparation retry 16 October. Skanda local panji, practice, katha and food evidence retry 16 October. Guru Purnima Pausa identity, original local text/history and dishes/fulfilment retry 16 October. Shiva Pradosha local text, chronology, timing and menu retry17October. Tarini original text, chronology and household food retry17October. Srabani original text/edition and local food retry17October; earlier Gouri16October hold retained. Bajra Mahakali imprint, food identification and local practice retry17October. Mahastami full text, local identity and food roles retry17October. Ashoka Astami original text, continuity and local food retry17October. Raja earlier witnesses, museum article, local recipes and situated accounts retry17October. Prathamastami historical originals, local recipes and calendar scope retry17October. Dutiya local katha/editions, plant/item identities and recipe/calendar comparison retry17October.",
       "evidence_outputs": [
@@ -3623,7 +3623,8 @@
         "references/data/alana-research.json",
         "sources/osha-alana-shrutilipi2025.md",
         "references/data/osha-coverage-audit.json",
-        "references/data/samba-food-sequence.json"
+        "references/data/samba-food-sequence.json",
+        "references/data/sabitri-sequence.json"
       ],
       "attempt_history": [
         {
@@ -4078,6 +4079,20 @@
           "at": "2026-10-11T08:46:55.187738+00:00",
           "outcome": "samba_saved_original_food_sequence_checkpoint",
           "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-11-samba-review",
+          "at": "2026-10-11T09:58:23.204420+00:00",
+          "outcome": "samba_food_sequence_reconciled_tested_pushed",
+          "completion_criteria_met": false,
+          "git_revision": "48f210988d4dc7ddee0d70afdb8f44c4a77bd070",
+          "pull_request": "https://github.com/ahimanikya/utkal-project/pull/145"
+        },
+        {
+          "run_id": "2026-10-11-sabitri-sequence",
+          "at": "2026-10-11T11:39:27.334461+00:00",
+          "outcome": "sabitri_literary_choice_and_food_roles_checkpoint",
+          "completion_criteria_met": false
         }
       ],
       "reuse_before_research": {
@@ -4319,7 +4334,8 @@
           "references/data/alana-research.json",
           "sources/osha-alana-shrutilipi2025.md",
           "references/data/osha-coverage-audit.json",
-          "references/data/samba-food-sequence.json"
+          "references/data/samba-food-sequence.json",
+          "references/data/sabitri-sequence.json"
         ],
         "project_records": [
           "kb/research/product/destination-and-tour-book.md",
@@ -4382,19 +4398,19 @@
           "id": "OSHA-B06",
           "scope": "Extend remaining brata inventory in bounded batches and then verify annual dates/consented public food offers",
           "status": "in_progress",
-          "checkpoint": "Kanji Anla food-role revision tested and pushed to existing draftPR145. Historical/local/calendar gaps remain open; no public release.",
-          "next_step": "Audit the remaining53-profile narrative/history gaps against existing source captures and14–17October holds, then deepen the earliest eligible unheld field in one bounded batch. Kanji Anla food roles reconciled into draftPR145; original text lineage, locality-specific day and measured preparation retry14October retained. No public release inferred.",
+          "checkpoint": "Samba Dashami food-sequence revision tested and pushed to existing draftPR145. Historical/local/calendar gaps remain open; no public release.",
+          "next_step": "Audit the remaining53-profile narrative/history gaps against existing source captures and14–18October holds, then deepen the earliest eligible unheld field in one bounded batch. Samba Dashami food sequence reconciled into draftPR145; original katha, situated food roles and printed midday bowl object retry18October retained. No public release inferred.",
           "retry_after": "2026-10-14",
           "retry_scope": "Sukutuni identified original katha/calendar/food evidence; Bali Trutiya parent volume/imprint, author identity, second witness, locality and boat-jhoti conflict. Sita Navami original Odia katha, Baisakha/Jyestha conflict, local foods and advertised-versus-observed event evidence. Rambha Trutiya local katha, food, textual edition and scope comparison:15October. Nagala katha, catalogue images, chronology and local food:15October. Naga Panchami textual/local food and historical evidence:15October. Ananta local text, calendar and preparation evidence:15October. Rabinarayana full text, calendar and food preparation: 15 October. Somnath primary literary dating, manuscripts and household preparation: 15 October. Kukkuti local manuscript, Odia text and preparation: 15 October. Santoshi Odia text, local chronology and household food:15October. Kedar parent edition, Gazette identity and local food:15October. Rai Damodara original katha, calendar conflict, chronology and household food:15October. Magha original katha, Sarala passage, vow chronology and household/fair food:15October. Baisakha catalogue/original text, chronology and household preparation:15October. Guru Panchami identity, chronology, calendar, local katha and food:15October. Rushi Panchami full katha, chronology and food preparation:15October. Gouri local identity, calendar, original text and food:16October. Bipattarini Odia text, local identity, calendar and foods:16October. Benatia/Purnima local identity and June2013 original issue:16October. Sankata identity, Odia text, complete preparation and original December2006 page images:16October. Radhastami original edition, author attribution, manuscript rows and local dishes:16October. Shibaratri original text, history, gaja preparation, poem facsimile and government page recovery: 16 October. Janmastami Odia text, history, local foods and original Jeuta/Banabhoji evidence: 16 October. Pusa Rabibara parent edition, dates, manuscript CY-1907 and local pitha/muan: 16 October. Binayaka edition/calendar comparison,1936 copy, manuscript leads and local modaka: 16 October. Skanda dated local panji, practice, katha and food: 16 October. Guru Purnima Pausa identity, local text/history and dishes/fulfilment: 16 October. Shiva Pradosha local text, timing, chronology and food: 17 October. Tarini original evidence, anna-bhoga date conflict and household food:17October. Srabani original text, edition and local food:17October; prior Gouri16October hold retained. Bajra Mahakali original imprint, aradra and local food/calendar:17October. Mahastami original text, local identity and food roles:17October. Ashoka Astami Odia text, historical continuity and local food:17October. Current operator/Habisha food-service notice, price and access:17October. Raja earlier witnesses, museum article, local recipes and situated participant accounts:17October. Prathamastami cited1915 edition,1991 chapter image, local recipe/leaf variation and date/temple scope:17October. Dutiya original katha/editions, plant/item identities, local recipe and calendar comparison:17October."
         }
       ],
       "website_candidate": {
         "pull_request": "https://github.com/ahimanikya/utkal-project/pull/145",
-        "revision": "b9957c92e3bdbb959d651c414f5d5adb2d0ca6d2",
+        "revision": "48f210988d4dc7ddee0d70afdb8f44c4a77bd070",
         "status": "draft_review",
         "git_push": true,
         "published": false,
-        "scope": "53 profiles,15 narrative checkpoints and38 early notes; Kanji Anla source-specific household settings and offering/child-meal roles reconciled. Older chronology and calendar remain unresolved.",
+        "scope": "53 profiles,15 narrative checkpoints and38 early notes; Samba Dashami source-specific sunrise/midday offerings, children’s sharing and later Yama offering reconciled. Older chronology and calendar remain unresolved.",
         "metadata_update": "Title/body still describe fifteen profiles; automated review rejected update; prepared body saved locally."
       },
       "evidence_holds": [
@@ -4407,6 +4423,11 @@
         {
           "profile_id": "OSHA-009",
           "field": "Original katha edition, situated food roles and printed bowl term",
+          "retry_after": "2026-10-18"
+        },
+        {
+          "profile_id": "OSHA-011",
+          "field": "Local katha edition, fruit selection and silapua/tulasi-chaura practice",
           "retry_after": "2026-10-18"
         }
       ]

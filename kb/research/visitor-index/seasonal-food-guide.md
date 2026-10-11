@@ -253,3 +253,8 @@ Kanji Anla has attributed kanji, curry and chakuli offerings. A child-directed h
 ## 11 October 2026 · Samba food sequence
 
 Samba Dashami’s source-specific preparations and child sharing are cultural reading, not a public menu. Budha Chakuli’s later Yama role remains distinct.
+
+
+## 11 October 2026 · Sabitri sequence
+
+Sabitri’s fruits describe an offering and family sharing, not a public tasting menu. Nine-type wording and ten named examples are retained without prescribing a shopping list.

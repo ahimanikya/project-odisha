@@ -3,7 +3,7 @@ type: "Cultural Observance"
 title: "Sabitri Brata"
 description: "Sabitri Brata — source-bounded cultural research."
 status: "draft"
-generated: {"by": "codex/gpt-6", "at": "2026-10-07T05:30:57.424485+00:00"}
+generated: {"by": "codex/gpt-6", "at": "2026-10-11T11:39:27.334461+00:00"}
 subjects: ["everyday", "food", "arts"]
 sources: [{"id": "osha-savitri-epic", "title": "Mahabharata, Vana Parva: Savitri and Yama", "resource": "https://sacred-texts.com/hin/m03/m03295.htm"}, {"id": "osha-mahanti", "title": "Fading Festivals of Odisha: A peep into the religious practices in Odisha", "resource": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf"}]
 human_review_claimed: false
@@ -36,6 +36,34 @@ Sources: [Fading Festivals of Odisha: A peep into the religious practices in Odi
 ## Significance to explore
 
 The literary conversation permits questions about resolve, love and moral reasoning. Present-day observers may emphasise different aspects. A responsible narrative should let those explanations coexist and avoid turning a description of married women’s practice into a duty imposed on readers.
+
+
+## The choice before the encounter
+
+Before the meeting with Yama, Ganguli’s translated episode shows Savitri returning from her search and naming Satyavan as the husband she has chosen. Narada praises his character but predicts that he will die within a year. Her father asks her to choose again; she remains resolved. This earlier scene gives her later journey a context of deliberate choice in the narrative. It is literary evidence, not a dated Odisha marriage custom.
+
+Source: [Mahabharata, Vana Parva: Savitri and Yama](https://sacred-texts.com/hin/m03/m03292.htm). Section displayed CCLXLII, choice and Narada’s warning; printed573.
+
+
+## The story’s fast and the household offering
+
+In the translated epic’s next scene, Savitri undertakes a three-night vow before the predicted death. When her elders invite her to eat, she says she will wait until sunset, then asks to accompany Satyavan into the forest. This describes her action within the story. It does not prescribe today’s fasting duration or establish that Odisha’s fruit offerings came from this episode.
+
+Source: [Mahabharata, Vana Parva: Savitri and Yama](https://sacred-texts.com/hin/m03/m03294.htm). Section displayed CCLXLIV, opening paragraphs and forest request; printed576.
+
+
+## Reading together, sharing at home
+
+Mahanti’s compilation describes women gathering for worship and listening as one participant reads the Sabitri katha. His brata entry identifies a silapua representing Savitri; his puja account locates the gathering at a tulasi chaura. The account then moves back to the home: after seeking elders’ and husbands’ blessings, observers end the fast with bhoga, shared with family in the brata entry. Food thus connects a collective reading with a family meal in this author’s description; no locality or present-day prevalence is established.
+
+Source: [Fading Festivals of Odisha: A peep into the religious practices in Odisha](https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf). Printed45/PDF61 and72/PDF88; brata and puja accounts.
+
+
+## Nine types, ten examples
+
+Mahanti describes nine types of fruit offerings, but footnote33 names ten seasonal examples: coconut, mango, lichi, banana, jackfruit, palm, date palm, melon, cucumber and kendu. We retain both the stated number and the longer example list. The passage supplies neither a fixed nine-item menu nor botanical identities for the broad palm and melon terms. A household account is needed to establish its actual selection, preparation and sharing.
+
+Source: [Fading Festivals of Odisha: A peep into the religious practices in Odisha](https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf). Printed45/PDF61, footnote33; printed72/PDF88 repeats nine types.
 
 ## Questions for the next research pass
 

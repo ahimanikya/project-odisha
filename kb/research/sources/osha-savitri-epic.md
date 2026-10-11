@@ -18,3 +18,7 @@ Author: Kisari Mohan Ganguli, translator. Publication: publication date not esta
 Primary literary text in historical translation. Direct evidence of a narrative, not an Odisha observance’s origin or modern performance.
 
 The source supports only the passages cited in the [osha collection](../culture/osha-brata-seasonal-food.md). It does not establish current serving arrangements, image rights or human review.
+
+## 11 October 2026 · Sabitri sequence inspection
+
+Adjacent sections CCLXLII–CCLXLIV displayed through the publisher-hosted historical translation. Choice, marriage context and three-night vow inspected; not a new publication family or dated local ritual origin. Earlier7October capture preserved.

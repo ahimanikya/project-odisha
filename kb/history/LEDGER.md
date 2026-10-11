@@ -1110,3 +1110,7 @@ Existing authored descriptions retain distinct kitchen/courtyard settings, offer
 ## UTP-HIS-OSHA-SAMBA-20261011 · Samba Dashami food sequence
 
 The saved government-published essay retains distinct sunrise/midday offerings, children’s sharing and a later Yama offering. Printed bowl term, older textual lineage and local variation remain unresolved. Saved evidence reused; no human review or public release. [Checkpoint](../records/osha-samba-review-2026-10-11.json).
+
+## UTP-HIS-OSHA-SABITRI-20261011 · Sabitri Brata food sequence
+
+The translated epic retains Savitri’s choice and story vow. Mahanti’s reading, offerings and family sharing retain author scope; nine-type wording and ten examples remain unresolved. Saved evidence reused; no human review or public release. [Checkpoint](../records/osha-sabitri-review-2026-10-11.json).

@@ -271,3 +271,8 @@ Subject membership is editorial classification. It does not establish historical
 ## 11 October 2026 · Samba food sequence
 
 [Samba Dashami](../culture/osha/samba-dashami.md) connects named family offerings with subsequent sharing, while local accounts remain a research gap.
+
+
+## 11 October 2026 · Sabitri sequence
+
+[Sabitri Brata](../culture/osha/sabitri.md) connects literary choice, collective reading and family sharing with each evidence scope retained.

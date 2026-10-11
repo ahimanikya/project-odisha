@@ -458,3 +458,7 @@ Kanji Anla full original katha, manuscript dates and situated household recipes 
 ## 2026-10-11 · Samba Dashami review
 
 Samba Dashami original katha, situated household food roles and printed bowl term remain open; retry18October. Existing14–18October holds remain. No current serving offers verified.
+
+## 2026-10-11 · Sabitri Brata review
+
+Sabitri Brata local katha, situated fruit selection and silapua/tulasi-chaura variants remain open; retry18October. Existing14–18October holds remain. No current serving offers verified.

@@ -117,3 +117,8 @@ Subject membership is editorial classification. It does not establish historical
 ## 11 October 2026 · Samba food sequence
 
 [Samba Dashami](../culture/osha/samba-dashami.md) separates sunrise/midday foods from Budha Chakuli’s later offering role.
+
+
+## 11 October 2026 · Sabitri sequence
+
+[Sabitri Brata](../culture/osha/sabitri.md) distinguishes fruit examples, offering roles and subsequent family sharing; local selections remain unknown.
