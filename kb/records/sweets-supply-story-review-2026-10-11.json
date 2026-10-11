@@ -1,0 +1,58 @@
+{
+  "recorded_at": "2026-10-11T04:46:18.943688+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-044",
+  "work_id": "UTP-WORK-229",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "output": "research/stories/sweets-from-milk-to-market.md",
+  "brief": {
+    "reader": "Reader curious about work behind Odisha sweets.",
+    "reason_to_read": "Follow chhena supply, trading, making and retailing, then ask what evidence a market story needs.",
+    "memorable_detail": "A counter can be the end of a supply journey and the place where making and retailing meet.",
+    "visual_treatment": "Original simplified text chain and reporting-question table; no source diagram reproduction.",
+    "next_step": "Read separate Korakhai, Magji and Rasabali profiles; any new maker account needs actual permission and evidence."
+  },
+  "reuse": {
+    "research_map_read": true,
+    "queries": [
+      "sweets"
+    ],
+    "inputs": [
+      "research/stories/sweets-from-milk-to-market.md",
+      "research/economy/rasagola-and-sweets.md",
+      "research/references/data/sweets-economy.json",
+      "research/sources/sweets-pahala-study2023.md"
+    ],
+    "queue_pointers_inspected": [
+      "RES-031",
+      "RES-022"
+    ],
+    "earlier_draft_sha256": "e496e2c1a939fc34dc27e8f176befc76c967ab3dec10f01ee658035062e8c980",
+    "preserved": "Earlier body retained verbatim; source IDs, canonical discrepancies and queue states unchanged."
+  },
+  "sources": [
+    {
+      "id": "sweets-pahala-study2023",
+      "url": "https://ndpublisher.in/admin/issues/EAv68n5z11.pdf",
+      "sha256": "cf069f0098523309088a41baf2258ac9d76cca754e2b5132609754da73bca8e7",
+      "inspection": "Original4-page paper retrieved. December2023 publication/authors read; methods and Figure2 p2306 and constraints/revenue p2307 visually checked. Packaging passage/table2 p2308 read. Figure2 supplies chain; Figure3 retailer constraints. No prices, percentages, recipe or unsafe reuse passage adopted."
+    }
+  ],
+  "verification": {
+    "claims": "Named supply roles attributed to regional study; sample and unstated fieldwork date explicit. Reporter prompts labelled, not testimony. Other sweets not allocated to Pahala chain.",
+    "local_checks": "Research/classification and indexes passed;1257KB concepts/5012links; registers/program, workbench build/check and whitespace passed.",
+    "visual": "PDF2/3 printed2306/2307 rendered and visually inspected. No website or asset changes."
+  },
+  "limitations": [
+    "Same-assistant documentary/editorial review; no independent human, economics or maker review.",
+    "Pahala case study fieldwork date unstated;10retailers/200customers not a statewide census. Current routes, prices, venue operation and market size not inferred.",
+    "Quantity/revenue arithmetic, retailer denominator and GI-date discrepancies retained in canonical dataset. No revenue extrapolation, current GI judgement or food-safety guidance adopted.",
+    "Other sweet leads retained as earlier dated research, not freshly confirmed businesses or interviews. No fieldwork, image rights, visit promises, website release or search expansion."
+  ],
+  "delivery": "Pending required checks and reviewed-head documentation merge; website deployment not required."
+}
