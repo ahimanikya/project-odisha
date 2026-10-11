@@ -266,3 +266,8 @@ Subject membership is editorial classification. It does not establish historical
 ## 11 October 2026 · Kanji Anla food roles
 
 [Kanji Anla](../culture/osha/kanji-anla.md) relates a published maternal-care story to its author-specific household meal sequence.
+
+
+## 11 October 2026 · Samba food sequence
+
+[Samba Dashami](../culture/osha/samba-dashami.md) connects named family offerings with subsequent sharing, while local accounts remain a research gap.

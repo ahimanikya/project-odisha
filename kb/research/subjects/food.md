@@ -112,3 +112,8 @@ Subject membership is editorial classification. It does not establish historical
 ## 11 October 2026 · Kanji Anla food roles
 
 [Kanji Anla](../culture/osha/kanji-anla.md) distinguishes prepared offerings and a child-directed meal from food-shaped ritual figures.
+
+
+## 11 October 2026 · Samba food sequence
+
+[Samba Dashami](../culture/osha/samba-dashami.md) separates sunrise/midday foods from Budha Chakuli’s later offering role.

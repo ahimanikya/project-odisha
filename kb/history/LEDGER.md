@@ -1106,3 +1106,7 @@ Alana gains a modern collected narrative about exclusion, care and remembrance. 
 ## UTP-HIS-OSHA-KANJI-20261011 · Kanji Anla food roles
 
 Existing authored descriptions retain distinct kitchen/courtyard settings, offering/child-meal roles and ritual materials. Older historical lineage and local variation remain unresolved. Saved evidence reused; no human review or public release. [Checkpoint](../records/osha-kanji-review-2026-10-11.json).
+
+## UTP-HIS-OSHA-SAMBA-20261011 · Samba Dashami food sequence
+
+The saved government-published essay retains distinct sunrise/midday offerings, children’s sharing and a later Yama offering. Printed bowl term, older textual lineage and local variation remain unresolved. Saved evidence reused; no human review or public release. [Checkpoint](../records/osha-samba-review-2026-10-11.json).

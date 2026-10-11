@@ -154,3 +154,8 @@ A [public-food evidence study](../visitor-index/seasonal-food-offer-evidence.md)
 ## 11 October 2026 · Kanji Anla food roles
 
 Kanji Anla separates kitchen/courtyard accounts, food offered to children and ritual materials;53 profiles/15 narrative checkpoints/38 early notes remain unchanged.
+
+
+## 11 October 2026 · Samba food sequence
+
+Samba Dashami now separates Surya offerings, child sharing and a later Yama offering;53 selected profiles/15 narrative checkpoints/38 early notes unchanged.

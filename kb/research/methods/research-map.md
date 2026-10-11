@@ -469,3 +469,7 @@ Alana study reconciled using saved captures. Historical discovery leads remain d
 ## 2026-10-11 · Kanji Anla review
 
 Kanji Anla study reconciled using saved captures. Historical discovery leads remain distinct from inspected sources.
+
+## 2026-10-11 · Samba Dashami review
+
+Samba Dashami study reconciled using saved captures. Historical discovery leads remain distinct from inspected sources.

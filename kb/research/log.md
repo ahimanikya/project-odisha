@@ -500,3 +500,7 @@ Alana remains an early research note in the53-profile review candidate:15 narrat
 ## 2026-10-11 · Kanji Anla review
 
 Kanji Anla remains an early research note in the53-profile review candidate:15 narrative checkpoints and38 early notes. Saved source research reused; no merge or publication.
+
+## 2026-10-11 · Samba Dashami review
+
+Samba Dashami remains a narrative research checkpoint in the53-profile review candidate:15 narrative checkpoints and38 early notes. Saved source research reused; no merge or publication.

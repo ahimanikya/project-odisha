@@ -96,3 +96,8 @@ Alana’s ordinary Ashwina facet is removed in the local derivative because a ne
 ## 11 October 2026 · Kanji Anla food roles
 
 Kanji Anla food-role revision is local and awaits draftPR145 reconciliation. Calendar disagreement and all unknown serving fields retained.
+
+
+## 11 October 2026 · Samba food sequence
+
+Samba food-role revision is reconciled into draftPR145. Pausa month retained; no annual date or serving availability.

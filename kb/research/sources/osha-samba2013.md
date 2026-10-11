@@ -18,3 +18,7 @@ Author: Dr. Dina Krishna Joshi. Publication: 2013-01. Publisher/host: Odisha Rev
 Signed cultural essay; healing account is sacred narrative. Food sequence is attributed, not a universal or medically validated practice.
 
 The source supports only the passages cited in the [osha collection](../culture/osha-brata-seasonal-food.md). It does not establish current serving arrangements, image rights or human review.
+
+## 11 October 2026 · Original food-sequence inspection
+
+Saved printed55/PDF68 visually inspected in both columns. Sunrise/midday/later food roles and the printed “beetle” ambiguity recorded. Retrieval date7October preserved; same source, not independent corroboration. No annual date, local recipe or human review established.

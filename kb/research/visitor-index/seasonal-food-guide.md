@@ -248,3 +248,8 @@ The [dated serving-evidence study](seasonal-food-offer-evidence.md) records an o
 ## 11 October 2026 · Kanji Anla food roles
 
 Kanji Anla has attributed kanji, curry and chakuli offerings. A child-directed household meal is not a public food offer; date, venue and host consent remain unknown.
+
+
+## 11 October 2026 · Samba food sequence
+
+Samba Dashami’s source-specific preparations and child sharing are cultural reading, not a public menu. Budha Chakuli’s later Yama role remains distinct.
