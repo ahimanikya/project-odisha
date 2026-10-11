@@ -1,0 +1,69 @@
+{
+  "recorded_at": "2026-10-11T07:52:37.331427+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-047",
+  "work_id": "UTP-WORK-232",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "output": "research/stories/institution-building-evidence.md",
+  "brief": {
+    "reader": "Readers curious about education and institution building.",
+    "reason_to_read": "Follow institutional identity, resources and access without treating one measure as an outcome.",
+    "memorable_detail": "Expense bars and tuition-support count answer different questions; they cannot create a cost-per-student measure.",
+    "visual_treatment": "Separately labelled expense bars and PG tuition-support panel proposed; original documents visually inspected, no website/asset edits.",
+    "next_step": "Follow founder research and seek actual participant accounts and longitudinal evidence without inventing them."
+  },
+  "reuse": {
+    "research_map_read": true,
+    "queries": [
+      "KISS"
+    ],
+    "inputs": [
+      "research/stories/institution-building-evidence.md",
+      "research/people/achyuta-samanta.md",
+      "research/references/data/culture-learning.json"
+    ],
+    "queue_pointers_inspected": [
+      "RES-047"
+    ],
+    "earlier_draft_sha256": "812c6e5837a61871ec3d5ff0c53e51e4029e5c90145f07e1e087bb67f48a8b24",
+    "preserved": "Earlier body retained verbatim; financial vintages, founding disputes and blocked research task unchanged."
+  },
+  "sources": [
+    {
+      "id": "education-kiss-accounts2025",
+      "url": "https://university.kiss.ac.in/docs/Accounts/Balance_Sheets/KISSDU_FY_2024-25.pdf",
+      "sha256": "1ba5bf60c7cb7a36cb5ea1b452389d8e07d8112ed0066fe1897b7b2cefc08ba5",
+      "inspection": "PDFp2 statement heading, exact expense totals, prior-year comparative, depreciation/amortisation and signatures visually inspected. Web open failed; original retrieved through direct HTTP successfully."
+    },
+    {
+      "id": "education-kiss-notification2017",
+      "url": "https://university.kiss.ac.in/docs/IIQA/KISS-DU-NOTIFICATION-DT-25.08.2017.pdf",
+      "sha256": "32784c3925e8c4980766d4363b99e64a5e9002eca4400fb343101588c13e8d40",
+      "inspection": "PDFp2 paragraphs6–8 school de-linking condition, stated compliance and historical grant scope visually inspected."
+    },
+    {
+      "id": "education-kiss-nirf2025",
+      "url": "https://university.kiss.ac.in/docs/NIRF/SDG_Institutions.pdf",
+      "sha256": "830bfe9912ce42f9c1982dbf31a19eed901e348ec1a3613e5be361b989a30de6",
+      "inspection": "PDFp1 two-year PG population and fee-support headings/948row visually inspected; row census-day absence retained."
+    }
+  ],
+  "verification": {
+    "claims": "University expense totals,4.94% calculation, school boundary and PG support row checked. Broader held matters retained, not resolved.",
+    "local_checks": "Research3771links, classification305relationships, workbench build and catalogue passed. Registers, bundle5043links, program and workbench consistency passed before commit.",
+    "visual": "Accounts and notification PDFp2 and support PDFp1 rendered and visually inspected."
+  },
+  "limitations": [
+    "Same-assistant source/editorial review; no independent human, accountant or student review.",
+    "Dated university-labelled expenses include depreciation/amortisation; separate audit opinion and held scope/vintage questions unresolved.",
+    "2025 NIRF institutional PG tuition-support row has no explicit census day. Not a current enrolment, all-cost coverage, admissions or employment promise.",
+    "School, Foundation, university and KIIT boundaries retained. No per-student expense, causal impact, participant testimony or fieldwork inferred.",
+    "RES047 original founding records, separate audit opinion and lawful full-text community evidence remain blocked. No queue closure or website/search expansion."
+  ],
+  "delivery": "Pending required checks and reviewed-head KB merge; website deployment not required."
+}
