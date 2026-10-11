@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `8f8c3735183209e05bc1b624a2a4551f6d022c277abd57a4aa754aa14c57c1c6`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `106984b4853a74c7c3a1e6208ed1c82590cede3d2f664e295b52ab14da7273e7`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -199,7 +199,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
-| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue the next eligible substantive backlog item. 52 of 500 items delivered with linked evidence; no routine approval required within UTP-DEC-225. | — |
+| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue the next eligible substantive backlog item. 53 of 500 items delivered with linked evidence; no routine approval required within UTP-DEC-225. | — |
 | UTP-WORK-190 · Food discovery, portable reading collection and current review-queue repair | completed | published | Ahimanikya Satapathy | Published and live-verified. Continue through the program queue under DEC225. | — |
 | UTP-WORK-191 · Build the tourism opportunities information section | completed | reviewed | Ahimanikya Satapathy | Published information scope complete. Continue WORK166 and WORK171 only when new documentary or operating evidence is available. | — |
 | UTP-WORK-192 · Align saved food cards with canonical story introductions | completed | reviewed | Ahimanikya Satapathy | Repair published and live catalogue verified; preserve canonical food fields when future stories change. | — |
@@ -248,7 +248,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-235 · Read the harvest beyond the headline yield | completed | applied | Ahimanikya Satapathy | KB story delivered. Farmer accounts, causal evidence, procurement settlements and cost-study periods remain separate evidence work. | — |
 | UTP-WORK-236 · Make the trading-culture concept a usable documentary brief | completed | applied | Ahimanikya Satapathy | Production brief delivered. Verified media rights, participants, language review, voice timing and playable film checks remain future work. | — |
 | UTP-WORK-237 · Follow forest-worker support beyond the grant total | completed | applied | Ahimanikya Satapathy | KB support story delivered. Recipient consent, dated individual receipts and welfare-outcome evidence remain separate work. | — |
-| UTP-WORK-238 · Read Paradip cargo beyond the export headline | in_progress | reviewed | Ahimanikya Satapathy | Pass required checks and merge reviewed KB article. | — |
+| UTP-WORK-238 · Read Paradip cargo beyond the export headline | completed | applied | Ahimanikya Satapathy | KB cargo story delivered. Cargo classifications, origin/destination and permitted worker accounts remain separate evidence work. | — |
 
 ## Pending human review and decisions
 
@@ -877,7 +877,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-351 | 2026-10-11T08:55:08.666610+00:00 | PR193 passed required checks and reviewed head merged. Local-supplier story matches fetched merge; item48 delivered to KB. Founder reiterated next-week permission without routine questions. | Continue eligible backlog; named supplier records and household outcomes remain open. |
 | UTP-EVT-352 | 2026-10-11T09:53:07.397857+00:00 | Ferrochrome trade reader story separates market reach, physical sales and export turnover. Two original report spreads checked; prior draft and mine/community scope holds preserved. Item49 awaits checked merge. | Pass required checks and merge reviewed documentation. |
 | UTP-EVT-353 | 2026-10-11T09:56:02.274977+00:00 | PR194 passed required checks and reviewed head merged. Ferrochrome trade story matches fetched merge; item49 delivered to KB. Founder reiterated next-week permission without routine questions. | Continue eligible backlog; material routes and worker/community outcomes remain open. |
 | UTP-EVT-354 | 2026-10-11T11:01:51.141249+00:00 | Rice harvest reader draft separates area, yield and total rice output, preserves annual setbacks and connects costs, procurement and seed stories. Original historical table visually checked; no farmer or causal outcome claimed. Item50 awaits checked merge. | Pass required checks and merge reviewed KB draft. |
@@ -887,6 +886,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-358 | 2026-10-11T13:18:26.236739+00:00 | Forest support draft distinguishes grant records, work payment and wellbeing. Original welfare table and category arithmetic checked; proposed application-to-receipt reporting protects privacy. Item52 awaits checked merge. | Pass required checks and merge reviewed KB article. |
 | UTP-EVT-359 | 2026-10-11T13:48:51.999254+00:00 | PR197 passed required checks and reviewed head merged. Forest support story matches fetched merge; item52 delivered to KB with original draft preserved. | Continue eligible backlog; individual receipts and welfare outcomes remain separate evidence work. |
 | UTP-EVT-360 | 2026-10-11T14:33:12.575632+00:00 | Paradip cargo draft now asks about handled quantity, geography and work. Two original releases and endpoint/coastal arithmetic checked; earlier metric record preserved. Item53 awaits checked merge. | Pass required checks and merge reviewed KB article. |
+| UTP-EVT-361 | 2026-10-11T14:36:47.070871+00:00 | PR198 passed required checks and reviewed head merged. Paradip cargo story matches fetched merge; item53 delivered to KB with earlier metric record preserved. | Continue eligible backlog; cargo geography and livelihood effects remain separate evidence work. |
 
 ## Deferred extensions
 
