@@ -444,3 +444,11 @@ The Founder accepted the [four Odisha Roots investigations](stories/narratives/o
 ## 6 October 2026 · Six tourism reading drafts
 
 Added Tarakasi’s structure, Jobra’s engineering history and Raghurajpur’s painting/performance connection to the [reading collection](stories/narratives/tourism-reading-collection.md). Two source records added; existing PIB, museum and Srjan identities reused. No fabricated local voices, live availability or publication claim. [Follow-up record](../records/tourism-reading-followup-2026-10-06.json).
+
+## 11 October 2026 · Grounded Fakir Mohan website profile
+
+Reconciled the expanded creator profile, two short-story introductions, novel reading notes and six scoped sources. Website narration now begins with life, printing and particular Odia passages; English edition details support the reading route. Original novel-date conflict and incomplete text/collation review remain explicit. No independent human literary review claimed.
+
+## 11 October 2026 · Language and Odisha in Fakir Mohan’s profile
+
+Expanded school-language defence, press and public argument, and regional-unification context. Retained individual chronology, collective achievement and explicit source limits.
