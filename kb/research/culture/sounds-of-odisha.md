@@ -15,6 +15,7 @@ A sound can open a story before a photograph does. Follow voices, instruments an
 ## Stories drafted
 
 - [Huluhuli ହୁଳହୁଳି](huluhuli.md) — women's voices, welcome, worship and community memory.
+- [Mardala](mardala.md) — the player, the learning lineage and the conversation beneath the dance.
 - [Sankha ଶଙ୍ଖ](sankha.md) — the wedding threshold, Ganjam performance, Puri and the remembered voyage.
 
 These are sourced KB drafts. They are not yet public website pages or an audio archive.
@@ -23,7 +24,6 @@ These are sourced KB drafts. They are not yet public website pages or an audio a
 
 | Subject | Narrative question |
 | --- | --- |
-| Mardala | How does a player turn rhythm into a conversation with Odissi music and dance? |
 | Dalkhai songs and percussion | Who sings, who plays and what does the occasion mean in a particular community? |
 | Ghanta and ghanti | How do bells mark ritual time, and who rings them? |
 | Pala and Daskathia | How do performers make a story audible through song, speech and rhythm? |

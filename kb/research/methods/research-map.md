@@ -423,3 +423,5 @@ The [Konark and Mamallapuram learning proposal](../../specs/konark-mamallapuram-
 Two project-native records add Huluhuli article and source-inspection notes after searches found no dedicated entry. Boita Bandana and sensory identity reused for context; existing task statuses unchanged. A1906 Ganjam attestation is distinguished from origin, and community-specific practice from a proved global transmission history.
 
 Sounds of Odisha now connects the [collection outline](../culture/sounds-of-odisha.md), [Sankha article](../culture/sankha.md) and [source notes](../sources/sankha-research.md), reusing Huluhuli evidence. Draft status and practitioner follow-up remain explicit.
+
+[Mardala](../culture/mardala.md) and its [evidence dossier](../sources/mardala-research.md) extend Sounds of Odisha with learning history and production credits; practitioner and recording follow-up open.
