@@ -462,3 +462,7 @@ Samba Dashami original katha, situated household food roles and printed bowl ter
 ## 2026-10-11 · Sabitri Brata review
 
 Sabitri Brata local katha, situated fruit selection and silapua/tulasi-chaura variants remain open; retry18October. Existing14–18October holds remain. No current serving offers verified.
+
+## 2026-10-11 · Manabasa Gurubara review
+
+Manabasa Gurubara identified imprint/manuscript,1868 header and household edition remain open; retry18October. Existing14–18October holds remain. No current serving offers verified.

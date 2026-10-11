@@ -164,3 +164,8 @@ Samba Dashami now separates Surya offerings, child sharing and a later Yama offe
 ## 11 October 2026 · Sabitri sequence
 
 Sabitri adds deliberate literary choice, a story vow and source-specific shared fruit offerings. Nine-type wording and ten examples remain unresolved;53 selected profiles unchanged.
+
+
+## 11 October 2026 · Manabasa textual witness
+
+Manabasa’s new digital witness distinguishes grain-arrangement instructions, a separate Sudasa passage and shared-food reconciliation. Its edition date remains unknown.

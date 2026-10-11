@@ -106,3 +106,8 @@ Samba food-role revision is reconciled into draftPR145. Pausa month retained; no
 ## 11 October 2026 · Sabitri sequence
 
 Sabitri’s local derivative preserves Jyestha amabasya and attributed offering/share roles. No annual date or current serving availability.
+
+
+## 11 October 2026 · Manabasa textual witness
+
+Manabasa preserves its existing associated-food list. The subsequent Sudasa instructions in one digital text are not a general Manabasa menu.

@@ -122,3 +122,8 @@ Subject membership is editorial classification. It does not establish historical
 ## 11 October 2026 · Sabitri sequence
 
 [Sabitri Brata](../culture/osha/sabitri.md) distinguishes fruit examples, offering roles and subsequent family sharing; local selections remain unknown.
+
+
+## 11 October 2026 · Manabasa textual witness
+
+Manabasa distinguishes ritual arrangement, a separate Sudasa manda passage and the narrative’s food-sharing condition; current serving remains unknown.

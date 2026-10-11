@@ -3,9 +3,9 @@ type: "Cultural Observance"
 title: "Manabasa Gurubara"
 description: "Manabasa Gurubara — source-bounded cultural research."
 status: "draft"
-generated: {"by": "codex/gpt-6", "at": "2026-10-07T05:30:57.424485+00:00"}
+generated: {"by": "codex/gpt-6", "at": "2026-10-11T13:58:13.038911+00:00"}
 subjects: ["everyday", "food", "arts"]
-sources: [{"id": "osha-ghadai2018", "title": "Cult of Goddess Mahalakshmi", "resource": "https://magazines.odisha.gov.in/orissareview/2018/Jun-July/engpdf/june-july-or-2018.pdf"}, {"id": "osha-lakshmi2021", "title": "Laxmi: The Goddess of Prosperity and Salvation", "resource": "https://magazines.odisha.gov.in/Orissareview/2021/June-July/engpdf/page-21-25.pdf"}, {"id": "osha-review2006", "title": "The Perishing Tradition of Osha, Brata and Mela in Orissa: An Overview", "resource": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf"}]
+sources: [{"id": "osha-ghadai2018", "title": "Cult of Goddess Mahalakshmi", "resource": "https://magazines.odisha.gov.in/orissareview/2018/Jun-July/engpdf/june-july-or-2018.pdf"}, {"id": "osha-lakshmi2021", "title": "Laxmi: The Goddess of Prosperity and Salvation", "resource": "https://magazines.odisha.gov.in/Orissareview/2021/June-July/engpdf/page-21-25.pdf"}, {"id": "osha-review2006", "title": "The Perishing Tradition of Osha, Brata and Mela in Orissa: An Overview", "resource": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf"}, {"id": "osha-manabasa-wikisource", "title": "ମାଣବସା ଲକ୍ଷ୍ମୀ ପୁରାଣ — Odia Wikisource transcription, revision57790", "resource": "https://or.wikisource.org/w/index.php?title=ମାଣବସା_ଲକ୍ଷ୍ମୀ_ପୁରାଣ&oldid=57790"}]
 human_review_claimed: false
 ---
 
@@ -46,6 +46,34 @@ The next historical step is to identify dated editions and manuscripts of Lakshm
 ## A visitor’s starting point
 
 Learn the meaning of the grain measure and ask a willing cook about one preparation. A shop selling chakuli does not provide access to a household’s Manabasa worship. A future tasting record needs its own date, provider and consent.
+
+
+## The measure, grain and drawn threshold
+
+The Odia transcription describes the first Margasira Thursday through a prepared grain measure, new paddy and rice-paste designs. Areca nuts, sugarcane, radish and banana belong to its ritual arrangement. This passage records objects and preparation, not a verified household menu.
+
+Source: [Odia textual witness](https://or.wikisource.org/w/index.php?title=ମାଣବସା_ଲକ୍ଷ୍ମୀ_ପୁରାଣ&oldid=57790). Revision57790, displayed45–56; opening ମାର୍ଗଶିର ମାସେ.
+
+
+## A separate Sudasa passage
+
+The text then explicitly introduces Sudasa Brata: a Thursday coinciding with the bright tenth. Its ten-knotted thread and ten manda with banana, coconut and chhena follow that transition. They cannot automatically be assigned to every Manabasa Thursday; quantities and practice need edition and household checks.
+
+Source: [Odia textual witness](https://or.wikisource.org/w/index.php?title=ମାଣବସା_ଲକ୍ଷ୍ମୀ_ପୁରାଣ&oldid=57790). Revision57790, displayed57–69; opening ମହାଲକ୍ଷ୍ମୀଙ୍କର ଆଉ ଏକ ବ୍ରତ.
+
+
+## Return on the condition of shared food
+
+At the close, Lakshmi confronts the brothers for accepting food after condemning her as Chandala. Before returning, she demands mutual feeding across the caste hierarchy; Jagannath agrees. The passage makes shared food a condition of reconciliation within the story. It does not prove that historical discrimination ended.
+
+Source: [Odia textual witness](https://or.wikisource.org/w/index.php?title=ମାଣବସା_ଲକ୍ଷ୍ମୀ_ପୁରାଣ&oldid=57790). Revision57790, displayed463–480; especially477–479.
+
+
+## What this witness cannot date
+
+The digital page labels the work1868 without an identified imprint or scan. That label remains quarantined; the composition date and household version are unknown.
+
+Source: [Odia textual witness](https://or.wikisource.org/w/index.php?title=ମାଣବସା_ଲକ୍ଷ୍ମୀ_ପୁରାଣ&oldid=57790). Revision57790, header1868 and author attribution; source edition not established.
 
 ## Questions for the next research pass
 

@@ -276,3 +276,8 @@ Subject membership is editorial classification. It does not establish historical
 ## 11 October 2026 · Sabitri sequence
 
 [Sabitri Brata](../culture/osha/sabitri.md) connects literary choice, collective reading and family sharing with each evidence scope retained.
+
+
+## 11 October 2026 · Manabasa textual witness
+
+[Manabasa Gurubara](../culture/osha/manabasa-gurubara.md) now links a source-specific Odia textual witness with household preparation and the narrative’s shared-food condition.

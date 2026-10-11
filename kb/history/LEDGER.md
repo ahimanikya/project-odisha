@@ -1114,3 +1114,7 @@ The saved government-published essay retains distinct sunrise/midday offerings, 
 ## UTP-HIS-OSHA-SABITRI-20261011 · Sabitri Brata food sequence
 
 The translated epic retains Savitri’s choice and story vow. Mahanti’s reading, offerings and family sharing retain author scope; nine-type wording and ten examples remain unresolved. Saved evidence reused; no human review or public release. [Checkpoint](../records/osha-sabitri-review-2026-10-11.json).
+
+## UTP-HIS-OSHA-MANABASA-20261011 · Manabasa Gurubara food sequence
+
+The digital witness retains Manabasa’s ritual arrangement, a separate Sudasa passage and shared-food reconciliation. Source edition and1868 header remain unverified. Saved evidence reused; no human review or public release. [Checkpoint](../records/osha-manabasa-review-2026-10-11.json).

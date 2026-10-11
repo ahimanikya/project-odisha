@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e9f19753cc1c6f0a67602050ee67565676533e9bb5d0ff43f43350655310543f`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `80f15b0fd523a701d93166d7f2be9524fd137b216dfd2e00627d231f558b4c2b`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -197,7 +197,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-185 · Illustrated Kala Bhoomi, Dhauli and Pipili stories | completed | published | Ahimanikya Satapathy | Current museum displays and visitor arrangements, and independent local or specialist review remain follow-up research. | — |
 | UTP-WORK-186 · Three flexible illustrated visit plans | completed | published | Ahimanikya Satapathy | Use the published plans as starting points for WORK-171 after local confirmation of timings, capacity and costs. | — |
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
-| UTP-WORK-2026100701 · Osha, stories and the food year: fifty-three profiles and dated food evidence | in_progress | draft | Ahimanikya Satapathy | Sabitri Brata food sequence reconciled into draftPR145. Continue the next eligible saved-source field; preserve all14–18October textual, calendar and local-review holds. No publication inferred. | — |
+| UTP-WORK-2026100701 · Osha, stories and the food year: fifty-three profiles and dated food evidence | in_progress | draft | Ahimanikya Satapathy | Manabasa Gurubara food sequence reconciled into draftPR145. Continue the next eligible saved-source field; preserve all14–18October textual, calendar and local-review holds. No publication inferred. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
 
@@ -763,7 +763,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101001 | 2026-10-10T06:33:48.232029+00:00 | Reconciled thirteen additional profiles and revisions;52 observance pages prepared for review. No merge or publication. | Complete review of the52-profile candidate and verify its branch/CI state. Preserve14–17October text and local-practice holds. Prepare one bounded annual-date and publicly documented food-offer evidence batch after saved-source search; no private host outreach, inferred consent or publication approval. |
 | UTP-EVT-2026101002 | 2026-10-10T09:43:50.199797+00:00 | Raja and dated food evidence prepared for existing draft review branch.53 profiles; no merge or publication. | Review the53-profile candidate and new dated-food evidence page; retain prior14–17October text, locality and operator holds. Source workspace remains scheduling authority. Earlier Raja witnesses and museum original retry17October. No current offer, human review or publication inferred. |
 | UTP-EVT-2026101003 | 2026-10-10T12:03:21.358785+00:00 | Source-scoped seasonal navigation prepared for the existing Osha review collection; no merge or publication. | Review month/recurrence filtering and source-scoped food notes in the existing draft collection. Preserve all 14–17 October textual, local and serving-evidence holds; source workspace remains scheduling authority. |
 | UTP-EVT-2026101004 | 2026-10-10T15:24:02.890568+00:00 | Prathamastami narrative and Enduri food evidence prepared for existing draft review branch.53 profiles; no merge or publication. | Prathamastami family and food narrative reconciled into the existing 53-profile draft. Preserve historical original-image, cited1915 text and situated household gaps, with17October retry. Existing14–17October holds remain; source workspace remains scheduling authority. No publication or current food offer inferred. |
@@ -773,6 +772,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101110 | 2026-10-11T07:02:53.778818+00:00 | Kanji Anla household settings and post-offering food roles reconciled for existing draft review; no publication. | Kanji Anla food roles reconciled into draftPR145. Continue the next eligible existing research-note profile using saved sources first; preserve all14–17October textual, calendar and local-review holds. No publication inferred. |
 | UTP-EVT-2026101112 | 2026-10-11T09:55:36.693880+00:00 | Samba Dashami day sequence, children’s sharing and later Yama offering reconciled for existing draft review; printed ambiguity preserved, no publication. | Samba Dashami food sequence reconciled into draftPR145. Continue the next eligible saved-source field; preserve all14–18October textual, calendar and local-review holds. No publication inferred. |
 | UTP-EVT-2026101113 | 2026-10-11T11:58:15.660331+00:00 | Sabitri Brata literary choice, story vow and collective reading/fruit sharing reconciled for existing draft review; nine/ten discrepancy preserved, no publication. | Sabitri Brata food sequence reconciled into draftPR145. Continue the next eligible saved-source field; preserve all14–18October textual, calendar and local-review holds. No publication inferred. |
+| UTP-EVT-2026101114 | 2026-10-11T14:33:52.021116+00:00 | Manabasa Gurubara digital textual witness and ritual/shared-food roles reconciled for existing draft review;1868 header remains quarantined, no publication. | Manabasa Gurubara food sequence reconciled into draftPR145. Continue the next eligible saved-source field; preserve all14–18October textual, calendar and local-review holds. No publication inferred. |
 
 ## Deferred extensions
 

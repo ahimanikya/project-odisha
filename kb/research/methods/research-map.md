@@ -477,3 +477,7 @@ Samba Dashami study reconciled using saved captures. Historical discovery leads 
 ## 2026-10-11 · Sabitri Brata review
 
 Sabitri Brata study reconciled using saved captures. Historical discovery leads remain distinct from inspected sources.
+
+## 2026-10-11 · Manabasa Gurubara review
+
+Manabasa Gurubara study reconciled using saved captures. Historical discovery leads remain distinct from inspected sources.
