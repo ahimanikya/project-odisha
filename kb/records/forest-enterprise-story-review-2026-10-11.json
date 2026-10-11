@@ -1,0 +1,65 @@
+{
+  "recorded_at": "2026-10-11T03:49:10.441356+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-043",
+  "work_id": "UTP-WORK-228",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "output": "research/stories/van-dhan-enterprises.md",
+  "brief": {
+    "reader": "Reader curious about the work between gathering forest products and selling finished goods.",
+    "reason_to_read": "Connect historical names and product processing without substituting sales for income.",
+    "memorable_detail": "The Mayurbhanj list belongs collectively to three clusters; a finished product opens questions about each stage of work.",
+    "visual_treatment": "Named-cluster/product table; parliamentary annexure visually inspected, no source-image reproduction.",
+    "next_step": "Separate future product-specific accounts of completed sales, costs and collector payments."
+  },
+  "reuse": {
+    "research_map_read": true,
+    "queries": [
+      "Van Dhan"
+    ],
+    "inputs": [
+      "research/stories/van-dhan-enterprises.md",
+      "research/economy/forest-products.md",
+      "research/statistics/forest-products.md",
+      "research/sources/forest-pib-vandhan2021.md",
+      "research/sources/forest-loksabha1179-2023.md"
+    ],
+    "queue_pointers_inspected": [
+      "RES-057",
+      "RES-022"
+    ],
+    "earlier_draft_sha256": "213864b065e1d5e4df31c803f36cd753ef32a814273903be703b91019206cc14",
+    "preserved": "Original draft body retained verbatim; source identities, canonical datasets and queue gaps unchanged."
+  },
+  "sources": [
+    {
+      "id": "forest-pib-vandhan2021",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1715921",
+      "inspection": "Original4May2021 ministry release re-read, named paragraphs. Future wording and collective attribution retained. Ban Durga paragraph does not state district; positive impact language not adopted as measured outcome."
+    },
+    {
+      "id": "forest-loksabha1179-2023",
+      "url": "https://sansad.in/getFile/loksabhaquestions/annex/1714/AU1179.pdf?source=pqals",
+      "sha256": "1fa5ea4b80ed3295906d3a530555c06a66c730c3798270488a968b12352ad2f2",
+      "inspection": "Original3-page parliamentary reply downloaded. Answer date/cumulative MFP/non-MFP scope read onp1; p3 table rendered and visually checked. Odisha1072.01 lakh highest of28state/UT rows; reported total4102.95 lakh."
+    }
+  ],
+  "verification": {
+    "arithmetic": "Decimal assertions:1072.01/100=10.7201 crore;1072.01/4102.95*100 rounds26.1%.",
+    "claims": "Plan/operation and sales/income distinctions explicit. Aggregate not allocated to clusters or divided by beneficiaries as earnings. Earlier body preservation asserted.",
+    "local_checks": "Research/classification and indexes passed;1247KB concepts/5001links; registers/program, workbench build/check and whitespace passed.",
+    "visual": "Original parliamentary annexure visually inspected. No website or source-image changes."
+  },
+  "limitations": [
+    "Same-assistant documentary/editorial review; no independent human or economics review.",
+    "2021 cluster plans do not establish subsequent completed sales, current operation, ownership, service or community access. Mayurbhanj product list remains collective; Ban Durga district unresolved.",
+    "2023 cumulative programme total includes MFP and non-MFP; precise common sales cutoff unstated. No current ranking, annual turnover or collector-income inference.",
+    "No interviews, fieldwork, relationships, outreach, purchase promises, website release or search expansion."
+  ],
+  "delivery": "Pending required checks and reviewed-head documentation merge; website deployment not required."
+}
