@@ -499,36 +499,74 @@
       "name": "Alana Osha",
       "profile_path": "culture/osha/alana.md",
       "route": "/culture/osha/alana/",
-      "source_checked_on": "2026-10-07",
-      "calendar_status": "source_month",
-      "month_ids": [
+      "source_checked_on": "2026-10-11",
+      "calendar_status": "month_conflict",
+      "month_ids": [],
+      "unresolved_month_ids": [
         "ashwina"
       ],
-      "unresolved_month_ids": [],
-      "calendar_note": "Month label reused from the saved Odisha account; exact annual date remains unverified.",
-      "traditional_month_verbatim": "Ashwina",
-      "calendar_rule_verbatim": null,
-      "food_terms_verbatim": [],
-      "food_role_note": "Food restraint is the research subject; do not fill the empty food list with a sweet.",
+      "calendar_note": "Ashwina versus solar Dhanu Sunday conflict held. Dhanu is not mapped to a lunar month; no ordinary month facet or annual date.",
+      "traditional_month_verbatim": "Ashwina in Dash and Mahanti; Dhanu solar Sundays in a modern collected retelling (unresolved)",
+      "calendar_rule_verbatim": "Conflict: Ashwina in Dash/Mahanti; sunrise on solar Dhanu Sundays ending at Makar Sankranti in Shrutilipi. No Gregorian date or universal season.",
+      "food_terms_verbatim": [
+        "fruits and sweets without added salt (Mahanti; types unspecified)"
+      ],
+      "food_role_note": "Unsalted fruit/sweet offerings in Mahanti; story pitha is a family meal, not a verified ritual recipe.",
       "current_serving_availability": null,
       "annual_date": null,
       "source_ids": [
+        "osha-review2006",
         "osha-mahanti",
-        "osha-review2006"
+        "osha-alana-shrutilipi2025"
       ],
       "evidence_sections": [
         {
-          "section_title": "Agreement and disagreement",
+          "section_title": "What does without salt mean?",
           "evidence_class": "documented_description",
           "source_ids": [
             "osha-review2006",
             "osha-mahanti"
           ],
-          "locator": "Dash pp.15,17; Mahanti p.58"
+          "locator": "Dash printed17/PDF3; Mahanti printed58/PDF74"
+        },
+        {
+          "section_title": "Keep the deities and calendars attributed",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-mahanti",
+            "osha-alana-shrutilipi2025"
+          ],
+          "locator": "Dash printed15/PDF1; Mahanti printed58/PDF74; Shrutilipi paragraph2"
+        },
+        {
+          "section_title": "Two daughters and a pitha meal",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-alana-shrutilipi2025"
+          ],
+          "locator": "Chapter245 paragraphs2–5"
+        },
+        {
+          "section_title": "Food in a story is not an offering recipe",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-alana-shrutilipi2025"
+          ],
+          "locator": "Mahanti printed58/PDF74; chapter245 paragraphs3,5"
+        },
+        {
+          "section_title": "A modern witness is not an origin date",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-alana-shrutilipi2025"
+          ],
+          "locator": "Listing date/credit; chapter245"
         }
       ],
-      "profile_digest": "05b84dde499715b100acc43c53694da4d5ef8983f397ae6c5a86b9138cd9ce86",
-      "seasonal_entry_digest": "5666d2d8ceb668ba03ee52feff0b20ad81e5e3c78002ac94b6f6b1c1a41f97fd"
+      "profile_digest": "82b4ea410493c1a8256f1ff704a803dd515294c23fd83649907522fb2c766672",
+      "seasonal_entry_digest": "a29e6b361c092187d3e8f0a6f0d4ed91a5153711bd1e2e62e10b10e1203bb9a6"
     },
     {
       "profile_id": "OSHA-007",
@@ -4243,6 +4281,19 @@
       "run_id": "2026-10-10-budhei",
       "at": "2026-10-10T23:15:45.717004+00:00",
       "scope": "Budhei profile/food row revised locally; prior pushed receipt retained."
+    },
+    {
+      "at": "2026-10-11T02:43:12.930418+00:00",
+      "run_id": "2026-10-10-budhei-review",
+      "status": "draft_candidate_reconciled",
+      "prior_revision": "cba3e533fb7fba295bc37769426d065d843b758f",
+      "revision": "c680834dce8a16cbb09e3198a4422ed17b7fe8c0",
+      "published": false
+    },
+    {
+      "run_id": "2026-10-11-alana",
+      "at": "2026-10-11T02:50:03.443858+00:00",
+      "scope": "Alana calendar conflict held locally; prior draft receipt retained."
     }
   ]
 }

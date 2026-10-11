@@ -256,3 +256,8 @@ Subject membership is editorial classification. It does not establish historical
 ## 2026-10-10 · Budhei household sequence
 
 [Budhei](../culture/osha/budhei.md) connects kitchen objects, repeated reading and the retained coconut; interpretation is distinguished from source descriptions.
+
+
+## 2026-10-11 · Alana sharing and restraint
+
+[Alana](../culture/osha/alana.md) distinguishes narrated family exclusion and care from documented salt restraint and unknown local practice.

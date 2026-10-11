@@ -1098,3 +1098,7 @@ Dutiya gains a fuller family and food narrative. Attributed narrative, source-sp
 ## UTP-HIS-OSHA-BUDHEI-20261010 · Budhei family and food evidence
 
 Budhei gains a fuller family and food narrative. Published myth summary, repeated readings, coconut sequence and dated food association remain attributed; full original katha and dated origins remain unresolved. Saved sources reused; no interviews, human review, merge or publication claimed. [Checkpoint](../records/osha-budhei-review-2026-10-10.json).
+
+## UTP-HIS-OSHA-ALANA-20261011 · Alana family and food evidence
+
+Alana gains a modern collected narrative about exclusion, care and remembrance. The story meal, salt-free consumption and salt-free offering preparation retain separate source scopes. Ashwina and solar Dhanu calendars conflict; older textual lineage and locality remain unresolved. Saved sources reused; no interviews, human review, merge or publication claimed. [Checkpoint](../records/osha-alana-review-2026-10-11.json).

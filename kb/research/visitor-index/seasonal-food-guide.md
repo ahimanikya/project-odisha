@@ -238,3 +238,8 @@ The [dated serving-evidence study](seasonal-food-offer-evidence.md) records an o
 ## 2026-10-10 · Budhei: repeated Wednesdays
 
 [Budhei](../culture/osha/budhei.md) has named food offerings and differing calendar boundaries. Cultural association remains distinct from a current public meal, price, host consent or annual date.
+
+
+## 2026-10-11 · Alana season unresolved
+
+[Alana](../culture/osha/alana.md) has a held calendar and unspecified fruit/sweet offerings. Story pitha is not an identified ritual preparation or public meal.

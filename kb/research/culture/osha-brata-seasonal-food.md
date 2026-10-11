@@ -144,3 +144,8 @@ A [public-food evidence study](../visitor-index/seasonal-food-offer-evidence.md)
 ## 2026-10-10 · Budhei: objects, food and story strands
 
 [Budhei](osha/budhei.md) deepened; original katha and historical origins remain missing.53 selected profiles still contain15 narrative checkpoints and38 early notes.
+
+
+## 2026-10-11 · Alana narrative and timing
+
+[Alana](osha/alana.md) now distinguishes a modern collected narrative, salt restraint and conflicting calendars. Older history remains absent;53 profiles/15 narrative checkpoints/38 early notes unchanged.

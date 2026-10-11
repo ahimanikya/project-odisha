@@ -102,3 +102,8 @@ Subject membership is editorial classification. It does not establish historical
 ## 2026-10-10 · Budhei named foods
 
 [Budhei](../culture/osha/budhei.md) and [Kakara](../food/kakara-pitha.md) now separate a dated offering association from general preparation versions.
+
+
+## 2026-10-11 · Alana food roles
+
+[Alana](../culture/osha/alana.md) keeps a narrated family pitha meal separate from the offering categories and any visitor menu.

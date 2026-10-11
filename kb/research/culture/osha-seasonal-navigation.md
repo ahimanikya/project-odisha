@@ -86,3 +86,8 @@ The Dutiya food-role row now records offering, next-day meal/exchange and the un
 ## 2026-10-10 · Budhei row revised locally
 
 Budhei now retains the coconut sequence, named local foods and four/five/lunar/solar qualifications. Local revision awaits draftPR145 reconciliation; prior implementation receipt retained.
+
+
+## 2026-10-11 · Alana held calendar
+
+Alana’s ordinary Ashwina facet is removed in the local derivative because a new collected account gives solar Dhanu Sundays. Unresolved alternatives are visible; no lunar conversion or visit date.

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-11T02:16:32.072202+00:00",
+  "updated_at": "2026-10-11T04:45:31.111551+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -9910,6 +9910,38 @@
         }
       ],
       "note": "Scoped cultural capture, not a weekly release check. Reader and direct access statuses remain distinct; app-only listing is not recovered text."
+    },
+    {
+      "run_id": "2026-10-11-alana",
+      "at": "2026-10-11T02:50:03.443858+00:00",
+      "source_checks": [
+        {
+          "source_id": "osha-alana-shrutilipi2025",
+          "url": "https://shrutilipi.in/read_story.php?chapter_id=245",
+          "checked_at": "2026-10-11T02:50:03.443858+00:00",
+          "status": "retrieved",
+          "locator": "Chapter245 paragraphs1–5; listing publication date and collected credit",
+          "scope": "Primary evidence of this published modern retelling only. Original author, textual lineage, earliest composition and local practice unverified; not independent corroboration of older accounts."
+        },
+        {
+          "source_id": "osha-review2006",
+          "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf",
+          "checked_at": "2026-10-11T02:50:03.443858+00:00",
+          "status": "saved_evidence_reused",
+          "locator": "Printed15/PDF1 and17/PDF3",
+          "scope": "Ashwina/Lakshmi entry and no-salt consumption wording reused; general cake paragraph not an Alana recipe."
+        },
+        {
+          "source_id": "osha-mahanti",
+          "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf",
+          "checked_at": "2026-10-11T02:50:03.443858+00:00",
+          "status": "saved_evidence_reused",
+          "locator": "Printed58/PDF74",
+          "scope": "Ashwina/Surya/married women; fruits and sweets without added salt reused; no named sweet."
+        }
+      ],
+      "failed_fetches": [],
+      "note": "Scoped cultural capture, not weekly release check; collected attribution and unknown original lineage."
     }
   ]
 }
