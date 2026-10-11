@@ -33,3 +33,5 @@
 [Pala and its culture](pala.md) — performed poetry, credited artists, archive routes and dated gatherings.
 
 [Dance, learning and religious traditions](../methods/culture-learning-programme.md) — seven connected research tasks, existing-record reuse and a source-backed first checkpoint.
+
+[Huluhuli (ହୁଳହୁଳି): The sacred sound of Odisha](huluhuli.md) — Sounds of Odisha; history, tradition and cultural meaning.
