@@ -61,3 +61,7 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 [^connect-internet2025]: [Indian Telecom Services Yearly Performance Indicators 2024–25](https://www.trai.gov.in/sites/default/files/2025-07/YIR_08072025_0.pdf)
 
 [^weekly-trai-mar2026]: [TRAI telecom performance indicators, January–March 2026](https://trai.gov.in/sites/default/files/2026-06/QPIR_22062026.pdf)
+
+## Annual edition check · 11 October 2026
+
+TRAI’s annual2025–26 report, released5October, repeats the six March2026 Odisha values already stored:18.74 million rural,11.81 million urban and30.56 million total internet subscriptions; densities49.30,129.15 and64.79 per100 respectively. No new observation or growth calculation is added. These are subscriptions rather than unique people; rounded components are retained as printed. [Original annual report](https://www.trai.gov.in/sites/default/files/2026-10/YIR_05102026.pdf), Table1.43, printed p.67/PDF p.69, Odisha row19. This publication is another edition of the same reporting system, not independent corroboration.

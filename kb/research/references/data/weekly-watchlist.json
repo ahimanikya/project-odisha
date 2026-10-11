@@ -20,9 +20,10 @@
       "refresh_rule": "Annual; retain calendar year and pre-pandemic benchmark. Visits are not unique people. Hold the conflicting 2024 foreign-visits totals until scope and revisions are reconciled.",
       "discovery": "Check the original publisher for successor releases, not only this fixed historical URL.",
       "last_agent_check": {
-        "at": "2026-09-27T09:11:23-07:00",
-        "run_id": "2026-09-27T160140Z",
-        "status": "conflicted"
+        "at": "2026-10-11T16:12:19.349772+00:00",
+        "run_id": "2026-10-11T160110Z",
+        "status": "conflicted",
+        "scope": "Catalogue still lists Statistical Bulletin2024 and Annual Report2025–26; bulletin download unavailable. Known foreign-visits conflict retained."
       },
       "discovery_source_ids": [
         "pipeline-tourism-releases"
@@ -30,7 +31,14 @@
       "discovery_urls": [
         "https://dot.odisha.gov.in/en/publications/tourism-download"
       ],
-      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values.",
+      "agent_check_history": [
+        {
+          "at": "2026-09-27T09:11:23-07:00",
+          "run_id": "2026-09-27T160140Z",
+          "status": "conflicted"
+        }
+      ]
     },
     {
       "id": "gsdp",
@@ -50,9 +58,10 @@
       "refresh_rule": "Annual and revisions; keep current/constant prices, base year and AE/RE/actual status.",
       "discovery": "Check the original publisher for successor releases, not only this fixed historical URL.",
       "last_agent_check": {
-        "at": "2026-09-27T09:11:23-07:00",
-        "run_id": "2026-09-27T160140Z",
-        "status": "unchanged"
+        "at": "2026-10-11T16:12:19.349772+00:00",
+        "run_id": "2026-10-11T160110Z",
+        "status": "unavailable",
+        "scope": "Economic Survey catalogue latest2025–26; DES tables unavailable. Catalogue check does not revalidate underlying values."
       },
       "discovery_source_ids": [
         "pipeline-economic-releases",
@@ -62,7 +71,14 @@
         "https://pc.odisha.gov.in/en/publication/economic-survey-report?field_financial_year_target_id=All&page=0",
         "https://des.odisha.gov.in/en/pages/data-tables"
       ],
-      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values.",
+      "agent_check_history": [
+        {
+          "at": "2026-09-27T09:11:23-07:00",
+          "run_id": "2026-09-27T160140Z",
+          "status": "unchanged"
+        }
+      ]
     },
     {
       "id": "sector-growth",
@@ -79,9 +95,10 @@
       "refresh_rule": "Annual and revisions; recalculate matched five/ten-year endpoints only.",
       "discovery": "Check the original publisher for successor releases, not only this fixed historical URL.",
       "last_agent_check": {
-        "at": "2026-09-27T09:11:23-07:00",
-        "run_id": "2026-09-27T160140Z",
-        "status": "unavailable"
+        "at": "2026-10-11T16:12:19.349772+00:00",
+        "run_id": "2026-10-11T160110Z",
+        "status": "unavailable",
+        "scope": "Survey catalogue unchanged; current underlying sector table retrieval incomplete. Saved estimates retained."
       },
       "discovery_source_ids": [
         "pipeline-economic-releases",
@@ -91,7 +108,14 @@
         "https://pc.odisha.gov.in/en/publication/economic-survey-report?field_financial_year_target_id=All&page=0",
         "https://des.odisha.gov.in/en/pages/data-tables"
       ],
-      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values.",
+      "agent_check_history": [
+        {
+          "at": "2026-09-27T09:11:23-07:00",
+          "run_id": "2026-09-27T160140Z",
+          "status": "unavailable"
+        }
+      ]
     },
     {
       "id": "exports",
@@ -113,9 +137,10 @@
       "refresh_rule": "Published periods; distinguish currency values, physical quantities and coverage.",
       "discovery": "Check the original publisher for successor releases, not only this fixed historical URL.",
       "last_agent_check": {
-        "at": "2026-09-27T09:11:23-07:00",
-        "run_id": "2026-09-27T160140Z",
-        "status": "changed"
+        "at": "2026-10-11T16:12:19.349772+00:00",
+        "run_id": "2026-10-11T160110Z",
+        "status": "unchanged",
+        "scope": "July9 fisheries release recovered with same2025–26 seafood scope; broader survey export revision check unavailable."
       },
       "discovery_source_ids": [
         "pipeline-economic-releases",
@@ -125,14 +150,22 @@
         "https://pc.odisha.gov.in/en/publication/economic-survey-report?field_financial_year_target_id=All&page=0",
         "https://www.pib.gov.in/allRel.aspx?reg=48&lang=2"
       ],
-      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values.",
+      "agent_check_history": [
+        {
+          "at": "2026-09-27T09:11:23-07:00",
+          "run_id": "2026-09-27T160140Z",
+          "status": "changed"
+        }
+      ]
     },
     {
       "id": "port-cargo",
       "metrics": "Paradip cargo throughput",
       "source_ids": [
         "legacy-port",
-        "legacy-ports"
+        "legacy-ports",
+        "weekly-paradip-oct2026"
       ],
       "seed_urls": [
         "https://paradipport.gov.in/all_news/paradip-port-registers-historic-high-cargo-handling-in-fy-25-26-best-ever-in-its-history/",
@@ -144,9 +177,10 @@
       "refresh_rule": "Published monthly, year-to-date or annual totals; compare like periods. Verify any rank against the full comparison set.",
       "discovery": "Check the original publisher for successor releases, not only this fixed historical URL.",
       "last_agent_check": {
-        "at": "2026-09-27T09:11:23-07:00",
-        "run_id": "2026-09-27T160140Z",
-        "status": "unchanged"
+        "at": "2026-10-11T16:12:19.349772+00:00",
+        "run_id": "2026-10-11T160110Z",
+        "status": "changed",
+        "scope": "Daily report11October gives financial-year cargo through10October2026 versus same date2025, and matched1–10October totals. Four observations and two calculations appended; annual series untouched."
       },
       "discovery_source_ids": [
         "pipeline-paradip-traffic"
@@ -154,7 +188,14 @@
       "discovery_urls": [
         "https://paradipport.gov.in/traffic/"
       ],
-      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values.",
+      "agent_check_history": [
+        {
+          "at": "2026-09-27T09:11:23-07:00",
+          "run_id": "2026-09-27T160140Z",
+          "status": "unchanged"
+        }
+      ]
     },
     {
       "id": "investment",
@@ -174,9 +215,10 @@
       "refresh_rule": "Check official project releases, company filings and public capital-outlay accounts. Separate actual/RE/BE, project stages and financing scope; deduplicate projects. Saved FDI remains background, not a standalone weekly track.",
       "discovery": "Check the original publisher for successor releases, not only this fixed historical URL.",
       "last_agent_check": {
-        "at": "2026-09-27T09:11:23-07:00",
-        "run_id": "2026-09-27T160140Z",
-        "status": "unchanged"
+        "at": "2026-10-11T16:12:19.349772+00:00",
+        "run_id": "2026-10-11T160110Z",
+        "status": "unavailable",
+        "scope": "InvestOdisha unavailable; no new realised spending/output established. Announcements and undated counters not promoted."
       },
       "discovery_source_ids": [
         "pipeline-economic-releases",
@@ -188,7 +230,14 @@
         "https://www.investodisha.gov.in/",
         "https://www.pib.gov.in/allRel.aspx?reg=48&lang=2"
       ],
-      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values.",
+      "agent_check_history": [
+        {
+          "at": "2026-09-27T09:11:23-07:00",
+          "run_id": "2026-09-27T160140Z",
+          "status": "unchanged"
+        }
+      ]
     },
     {
       "id": "smart-cities",
@@ -210,9 +259,10 @@
       "refresh_rule": "Event-driven snapshots; distinguish Bhubaneswar, Rourkela and combined counts. Do not infer quality or liveability.",
       "discovery": "Check the original publisher for successor releases, not only this fixed historical URL.",
       "last_agent_check": {
-        "at": "2026-09-27T09:11:23-07:00",
-        "run_id": "2026-09-27T160140Z",
-        "status": "changed"
+        "at": "2026-10-11T16:12:19.349772+00:00",
+        "run_id": "2026-10-11T160110Z",
+        "status": "unchanged",
+        "scope": "Saved March parliamentary answer recovered; no newer completion snapshot established. Urban catalogue unavailable; tenders do not establish completion."
       },
       "discovery_source_ids": [
         "pipeline-urban-releases",
@@ -222,7 +272,14 @@
         "https://urban.odisha.gov.in/en/publication/activity-report",
         "https://www.pib.gov.in/allRel.aspx?reg=48&lang=2"
       ],
-      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values.",
+      "agent_check_history": [
+        {
+          "at": "2026-09-27T09:11:23-07:00",
+          "run_id": "2026-09-27T160140Z",
+          "status": "changed"
+        }
+      ]
     },
     {
       "id": "rare-earths",
@@ -244,9 +301,10 @@
       "refresh_rule": "Event/annual releases; distinguish product basis, installed capacity, actual output and corridor proposal.",
       "discovery": "Check the original publisher for successor releases, not only this fixed historical URL.",
       "last_agent_check": {
-        "at": "2026-09-27T09:11:23-07:00",
-        "run_id": "2026-09-27T160140Z",
-        "status": "changed"
+        "at": "2026-10-11T16:12:19.349772+00:00",
+        "run_id": "2026-10-11T160110Z",
+        "status": "unchanged",
+        "scope": "IREL annual catalogue latest2024–25 and OSCOM plant page recovered. No newly established operating output; capacity and proposals retained separately."
       },
       "discovery_source_ids": [
         "pipeline-irel-releases",
@@ -256,7 +314,14 @@
         "https://www.irel.co.in/annual-reports",
         "https://www.pib.gov.in/allRel.aspx?reg=48&lang=2"
       ],
-      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values.",
+      "agent_check_history": [
+        {
+          "at": "2026-09-27T09:11:23-07:00",
+          "run_id": "2026-09-27T160140Z",
+          "status": "changed"
+        }
+      ]
     },
     {
       "id": "semiconductors",
@@ -280,9 +345,10 @@
       "refresh_rule": "Event releases; retain planned/approved/groundbreaking/commissioned/operating status, projected jobs and overlapping project scope.",
       "discovery": "Check the original publisher for successor releases, not only this fixed historical URL.",
       "last_agent_check": {
-        "at": "2026-09-27T09:11:23-07:00",
-        "run_id": "2026-09-27T160140Z",
-        "status": "unchanged"
+        "at": "2026-10-11T16:12:19.349772+00:00",
+        "run_id": "2026-10-11T160110Z",
+        "status": "unchanged",
+        "scope": "Saved18September proposal release recovered; no newer operating output established. Potential jobs and proposals remain prospective."
       },
       "discovery_source_ids": [
         "pipeline-pib-releases"
@@ -290,7 +356,14 @@
       "discovery_urls": [
         "https://www.pib.gov.in/allRel.aspx?reg=48&lang=2"
       ],
-      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values.",
+      "agent_check_history": [
+        {
+          "at": "2026-09-27T09:11:23-07:00",
+          "run_id": "2026-09-27T160140Z",
+          "status": "unchanged"
+        }
+      ]
     },
     {
       "id": "banking-and-enterprise-finance",
@@ -309,9 +382,10 @@
       "refresh_rule": "Quarterly. Stocks, guarantees, registrations and disbursements are separate; preserve district rounding and CD-ratio conflict.",
       "discovery": "Check original publisher release listings first. Historical URLs are baselines. Rotate unresolved table-retrieval backlog across runs; do not label inaccessible sources unchanged.",
       "last_agent_check": {
-        "at": "2026-09-27T09:11:23-07:00",
-        "run_id": "2026-09-27T160140Z",
-        "status": "unavailable"
+        "at": "2026-10-11T16:12:19.349772+00:00",
+        "run_id": "2026-10-11T160110Z",
+        "status": "conflicted",
+        "scope": "SLBC latest184th agenda/June2026 listing retained. Known credit/deposit scope conflicts remain quarantined."
       },
       "discovery_source_ids": [
         "pipeline-slbc-releases"
@@ -319,7 +393,14 @@
       "discovery_urls": [
         "https://slbcorissa.com/"
       ],
-      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values.",
+      "agent_check_history": [
+        {
+          "at": "2026-09-27T09:11:23-07:00",
+          "run_id": "2026-09-27T160140Z",
+          "status": "unavailable"
+        }
+      ]
     },
     {
       "id": "public-finances",
@@ -340,9 +421,10 @@
       "refresh_rule": "Monthly and annual. Provisional cumulative accounts, budgets and audited spending must remain separate; note excluded accounts and audit adjustments.",
       "discovery": "Check original publisher release listings first. Historical URLs are baselines. Rotate unresolved table-retrieval backlog across runs; do not label inaccessible sources unchanged.",
       "last_agent_check": {
-        "at": "2026-09-27T09:11:23-07:00",
-        "run_id": "2026-09-27T160140Z",
-        "status": "unavailable"
+        "at": "2026-10-11T16:12:19.349772+00:00",
+        "run_id": "2026-10-11T160110Z",
+        "status": "unavailable",
+        "scope": "CAG catalogue latestAugust2026; monthly PDF unavailable. No September values established."
       },
       "discovery_source_ids": [
         "pipeline-cag-releases"
@@ -350,7 +432,14 @@
       "discovery_urls": [
         "https://cag.gov.in/ae/odisha/en/state-accounts-report?defuat_account_report_type=360"
       ],
-      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values.",
+      "agent_check_history": [
+        {
+          "at": "2026-09-27T09:11:23-07:00",
+          "run_id": "2026-09-27T160140Z",
+          "status": "unavailable"
+        }
+      ]
     },
     {
       "id": "people-and-learning",
@@ -377,9 +466,10 @@
       "refresh_rule": "Check publication catalogues weekly; import only new survey/annual releases. Preserve survey design, age, sex, recall period and baseline vintages. Include deteriorating results.",
       "discovery": "Check original publisher release listings first. Historical URLs are baselines. Rotate unresolved table-retrieval backlog across runs; do not label inaccessible sources unchanged.",
       "last_agent_check": {
-        "at": "2026-09-27T09:11:23-07:00",
-        "run_id": "2026-09-27T160140Z",
-        "status": "changed"
+        "at": "2026-10-11T16:12:19.349772+00:00",
+        "run_id": "2026-10-11T160110Z",
+        "status": "unavailable",
+        "scope": "NFHS release route and UDISE report unavailable; UDISE and MoSPI catalogue pages returned JS/empty content. No unchanged metric claim."
       },
       "discovery_source_ids": [
         "weekly-nfhs-district-release",
@@ -393,7 +483,14 @@
         "https://www.mospi.gov.in/download-reports?main_=",
         "https://www.pib.gov.in/allRel.aspx?reg=48&lang=2"
       ],
-      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values.",
+      "agent_check_history": [
+        {
+          "at": "2026-09-27T09:11:23-07:00",
+          "run_id": "2026-09-27T160140Z",
+          "status": "changed"
+        }
+      ]
     },
     {
       "id": "land-and-livelihoods",
@@ -420,9 +517,10 @@
       "refresh_rule": "Annual or assessment-specific. Preserve area versus output, revised forest baselines and seasonal wildlife count methods.",
       "discovery": "Check original publisher release listings first. Historical URLs are baselines. Rotate unresolved table-retrieval backlog across runs; do not label inaccessible sources unchanged.",
       "last_agent_check": {
-        "at": "2026-09-27T09:11:23-07:00",
-        "run_id": "2026-09-27T160140Z",
-        "status": "changed"
+        "at": "2026-10-11T16:12:19.349772+00:00",
+        "run_id": "2026-10-11T160110Z",
+        "status": "conflicted",
+        "scope": "FSI catalogue latestISFR2023; July fisheries release same scope. Known anomalous Chilika dolphin value remains quarantined; no new agriculture series."
       },
       "discovery_source_ids": [
         "pipeline-fsi-releases",
@@ -434,7 +532,14 @@
         "https://pc.odisha.gov.in/en/publication/economic-survey-report?field_financial_year_target_id=All&page=0",
         "https://www.pib.gov.in/allRel.aspx?reg=48&lang=2"
       ],
-      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values.",
+      "agent_check_history": [
+        {
+          "at": "2026-09-27T09:11:23-07:00",
+          "run_id": "2026-09-27T160140Z",
+          "status": "changed"
+        }
+      ]
     },
     {
       "id": "services-and-environment",
@@ -459,9 +564,10 @@
       "refresh_rule": "Follow administrative and annual release cadence. Connections and installed capacity do not establish service quality. PM10 is not AQI; do not conflate city pollution and cleanliness.",
       "discovery": "Check original publisher release listings first. Historical URLs are baselines. Rotate unresolved table-retrieval backlog across runs; do not label inaccessible sources unchanged.",
       "last_agent_check": {
-        "at": "2026-09-27T09:11:23-07:00",
-        "run_id": "2026-09-27T160140Z",
-        "status": "unavailable"
+        "at": "2026-10-11T16:12:19.349772+00:00",
+        "run_id": "2026-10-11T160110Z",
+        "status": "unavailable",
+        "scope": "Urban report catalogue unavailable; historical OSDMA page recovered. No current rural-water, PM10 or urban-service revision established."
       },
       "discovery_source_ids": [
         "pipeline-urban-releases",
@@ -471,7 +577,14 @@
         "https://urban.odisha.gov.in/en/publication/activity-report",
         "https://www.pib.gov.in/allRel.aspx?reg=48&lang=2"
       ],
-      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values.",
+      "agent_check_history": [
+        {
+          "at": "2026-09-27T09:11:23-07:00",
+          "run_id": "2026-09-27T160140Z",
+          "status": "unavailable"
+        }
+      ]
     },
     {
       "id": "mobility-and-digital-access",
@@ -480,7 +593,8 @@
         "connect-airport2026",
         "connect-rail2026",
         "connect-internet2025",
-        "weekly-trai-mar2026"
+        "weekly-trai-mar2026",
+        "weekly-trai-annual2026"
       ],
       "seed_urls": [
         "https://www.aai.aero/sites/default/files/traffic-news/Mar2k26Annex3.pdf",
@@ -496,9 +610,10 @@
       "refresh_rule": "Monthly, quarterly or event-based. Match full periods, passengers versus unique people, track versus route kilometres, and subscriptions versus persons.",
       "discovery": "Check original publisher release listings first. Historical URLs are baselines. Rotate unresolved table-retrieval backlog across runs; do not label inaccessible sources unchanged.",
       "last_agent_check": {
-        "at": "2026-09-27T09:11:23-07:00",
-        "run_id": "2026-09-27T160140Z",
-        "status": "changed"
+        "at": "2026-10-11T16:12:19.349772+00:00",
+        "run_id": "2026-10-11T160110Z",
+        "status": "changed",
+        "scope": "TRAI annual2025–26 release5October repeats six March2026 Odisha values already saved; edition captured without duplicate observations. AAI direct listing unavailable; indexedAugust listing is discovery only. Saved rail release unchanged."
       },
       "discovery_source_ids": [
         "pipeline-aai-traffic",
@@ -510,7 +625,14 @@
         "https://www.trai.gov.in/release-publication/reports/performance-indicators-reports",
         "https://www.pib.gov.in/allRel.aspx?reg=48&lang=2"
       ],
-      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values.",
+      "agent_check_history": [
+        {
+          "at": "2026-09-27T09:11:23-07:00",
+          "run_id": "2026-09-27T160140Z",
+          "status": "changed"
+        }
+      ]
     },
     {
       "id": "innovation-and-startups",
@@ -531,9 +653,10 @@
       "refresh_rule": "Annual and administrative updates. Applications are not grants; registries have different populations; preserve investment versus approval status.",
       "discovery": "Check original publisher release listings first. Historical URLs are baselines. Rotate unresolved table-retrieval backlog across runs; do not label inaccessible sources unchanged.",
       "last_agent_check": {
-        "at": "2026-09-27T09:11:23-07:00",
-        "run_id": "2026-09-27T160140Z",
-        "status": "unavailable"
+        "at": "2026-10-11T16:12:19.349772+00:00",
+        "run_id": "2026-10-11T160110Z",
+        "status": "unavailable",
+        "scope": "IPIndia annual route failed and wall-of-fame timed out. Indexed national figures do not establish a new Odisha observation."
       },
       "discovery_source_ids": [
         "pipeline-ipindia-releases",
@@ -543,7 +666,14 @@
         "https://www.ipindia.gov.in/pages/home/annual-report",
         "https://www.pib.gov.in/allRel.aspx?reg=48&lang=2"
       ],
-      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values.",
+      "agent_check_history": [
+        {
+          "at": "2026-09-27T09:11:23-07:00",
+          "run_id": "2026-09-27T160140Z",
+          "status": "unavailable"
+        }
+      ]
     },
     {
       "id": "visitor-economy-and-crafts",
@@ -579,9 +709,10 @@
       "refresh_rule": "Annual, census or event-based. Historic inventories are not current operating availability; no inferred tourism spending or economic impact. For homestays, preserve targets versus active properties; fetch later amendments and full target tables, retain rooms/beds conflict, and use only comparable room-night series for demand. Failed/empty portals are unavailable, not zero or unchanged.",
       "discovery": "Check original publisher release listings first. Historical URLs are baselines. Rotate unresolved table-retrieval backlog across runs; do not label inaccessible sources unchanged.",
       "last_agent_check": {
-        "at": "2026-09-27T09:11:23-07:00",
-        "run_id": "2026-09-27T160140Z",
-        "status": "conflicted"
+        "at": "2026-10-11T16:12:19.349772+00:00",
+        "run_id": "2026-10-11T160110Z",
+        "status": "conflicted",
+        "scope": "Tourism and rooms/beds conflicts retained. Guidelines recovered; GoHomestay JS shell cannot establish active availability. No fresh craft or operating count promoted."
       },
       "scope_expanded_on": "2026-09-30",
       "discovery_source_ids": [
@@ -592,7 +723,14 @@
         "https://dot.odisha.gov.in/en/publications/tourism-download",
         "https://des.odisha.gov.in/en/pages/data-tables"
       ],
-      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values.",
+      "agent_check_history": [
+        {
+          "at": "2026-09-27T09:11:23-07:00",
+          "run_id": "2026-09-27T160140Z",
+          "status": "conflicted"
+        }
+      ]
     }
   ],
   "expanded_on": "2026-09-30",
