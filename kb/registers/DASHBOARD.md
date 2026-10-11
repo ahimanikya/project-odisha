@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `acf23988be761828c38ee665c2e9f1eca1a53f30f4fb97e74d72e25c2e200bef`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `ca2d2f3c1148f27082fea3dc8b40015639d026b02490a80b7d554d4188df3fdb`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -257,6 +257,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-244 · Daskathia story for Sounds of Odisha | completed | draft | Ahimanikya Satapathy | KB draft delivered through checked PR205. Practitioner/audio follow-up open; Continue Sounds of Odisha research. | — |
 | UTP-WORK-245 · Ghanta and ghanti story for Sounds of Odisha | completed | draft | Ahimanikya Satapathy | KB draft delivered through checked PR206. Practitioner/audio follow-up open; Continue Sounds of Odisha research. | — |
 | UTP-WORK-246 · Illustrated Pala listening story for Sounds of Odisha | completed | draft | Ahimanikya Satapathy | KB draft delivered through checked PR207. Practitioner/audio follow-up open; Continue Sounds of Odisha research. | — |
+| UTP-WORK-247 · Dhemsa story for Sounds of Odisha | in_progress | draft | Ahimanikya Satapathy | Read primary district/community descriptions, write scoped story and source review. | — |
 
 ## Pending human review and decisions
 
@@ -760,6 +761,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-212 | pass_with_limitations | False | Current assistant desk review; no independent human or practitioner review.; PDF text read but not visually inspected; no playback or media rights.; No origin date, fixed statewide ensemble, reviewed song translation or current booking claimed.; KB draft only; website and search unchanged. |
 | UTP-REV-213 | pass_with_limitations | False | Current assistant desk review; no independent human, maker or practitioner review.; PDF text read but screenshot failed; no playback or media rights.; Origin and current local vocabulary/performer roster remain open.; KB draft only; website and search unchanged. |
 | UTP-REV-214 | pass_with_limitations | False | Current assistant desk review; no independent human or practitioner review.; Behera saved full-text evidence reused; fresh Behera and Dash fetches failed.; Local roles and dated gathering do not establish universal format or current event availability.; KB draft only; website/search unchanged. |
+| UTP-REV-215 | pass_with_limitations | False | Current assistant desk review; no independent community or practitioner review.; PDF text inspected; screenshot returned no usable pixels. Festival description remains indexed-only.; No origin date, universal ensemble, participant identity or song language inferred.; KB draft only; website/search unchanged. |
 
 ## Publication and application history
 
@@ -895,7 +897,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-368 | 2026-10-11T17:40:40.794580+00:00 | Mardala story and source dossier drafted for Sounds of Odisha; primary credits scoped and teaching history separated from current access. Item055 remains in progress until checked delivery. | Validate and preserve through exact-head checked PR. |
 | UTP-EVT-369 | 2026-10-11T17:45:29.731032+00:00 | Mardala story and source dossier merged through checked PR203; fetched output hashes matched. Item055 completed; programme55/500. | Research Dalkhai; practitioner/audio follow-up remains open, website unchanged. |
 | UTP-EVT-370 | 2026-10-11T18:34:50.713735+00:00 | Existing Dalkhai record extended with song, occasion and visitor listening story; dated viewing limits retained. Item056 awaits checked delivery. | Validate and merge reviewed research head. |
 | UTP-EVT-371 | 2026-10-11T18:37:27.599320+00:00 | Dalkhai story and source dossier merged through checked PR204; fetched output hashes matched. Item056 completed; programme56/500. | Continue Sounds of Odisha; practitioner/audio follow-up remains open, website unchanged. |
@@ -905,6 +906,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-375 | 2026-10-11T20:46:58.813209+00:00 | Ghanta and ghanti story and source dossier merged through checked PR206; fetched output hashes matched. Item058 completed; programme58/500. | Continue Sounds of Odisha; practitioner/audio follow-up remains open, website unchanged. |
 | UTP-EVT-376 | 2026-10-11T21:39:32.741492+00:00 | Pala story combines a licensed photograph, literary reading and a primary local role description. Item059 awaits checked delivery. | Validate and merge reviewed research head. |
 | UTP-EVT-377 | 2026-10-11T21:42:50.958064+00:00 | Pala story and source dossier merged through checked PR207; fetched output hashes matched. Item059 completed; programme59/500. | Continue Sounds of Odisha; practitioner/audio follow-up remains open, website unchanged. |
+| UTP-EVT-378 | 2026-10-11T22:38:00.076099+00:00 | Dhemsa story connects community-specific evidence, group movement and listening questions. Item060 awaits checked delivery. | Validate and merge reviewed research head. |
 
 ## Deferred extensions
 
