@@ -7158,6 +7158,27 @@
         "records/sounds-website-publication-2026-10-12.json"
       ],
       "acceptance_criteria": "Publish an illustrated Sounds of Odisha introductory collection with eight coherent listening chapters, sourced from existing KB drafts and linked from Explore. Reuse licensed Pala photograph with credits, place source details at end, preserve origin/local scope and no-audio limitations. Verify responsive layout and source/anchor/image links, passing exact-head PR checks, main publish workflow and actual live page/image/discovery output. Save publication receipt before counting; keep eleven-route search selection unchanged. This is one introductory collection page, not eight full article releases."
+    },
+    {
+      "id": "UTP-WORK-250",
+      "title": "Pala individual Sounds of Odisha website story",
+      "category": "website_and_knowledge",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Reuse full KB reader story and publish checked individual page.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-REV-218"
+      ],
+      "evidence": [
+        "records/pala-website-review-2026-10-12.json",
+        "research/culture/pala-website.json"
+      ],
+      "acceptance_criteria": "Publish the full illustrated Pala reader story as the first individual Sounds of Odisha page, reusing the existing KB narrative and licensed photograph. Keep preserved research appendix in KB, source notes at page end, local/dating limits and no-audio/current-event notice. Connect collection to full story and return, check responsive layout, meaningful source/text/link tests, required exact-head PR and main deployment. Verify actual live full story and discovery/asset output, save publication receipt before counting. No expansion of eleven-route search selection or invented human review."
     }
   ],
   "decisions": [
@@ -16745,6 +16766,27 @@
         "Practitioner/community/Odia review and authorised audio remain open.",
         "No origin, current performance booking or independent human review claimed.",
         "Search selection stays at eleven routes."
+      ]
+    },
+    {
+      "id": "UTP-REV-218",
+      "title": "Pala individual website story review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-250"
+      ],
+      "evidence": [
+        "records/pala-website-review-2026-10-12.json"
+      ],
+      "limitations": [
+        "Pala reader story published as preview; practitioner/Odia review and broader history gaps remain open.",
+        "No audio, current booking or independent human review claimed.",
+        "Eleven-route search eligibility unchanged."
       ]
     }
   ],

@@ -1,0 +1,91 @@
+{
+  "reviewed_at": "2026-10-12T01:49:59.361761+00:00",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "status": "pass_with_limitations",
+  "work_id": "UTP-WORK-250",
+  "program_item": "UTP-A500-063",
+  "authorization": "UTP-DEC-225",
+  "checks": [
+    "Existing Pala reader narrative reused; preserved research appendix remains in KB.",
+    "Licensed Pala photograph reused unchanged with end credits.",
+    "Full text, source links, collection-to-story and return tested.",
+    "Responsive browser review and exact test outcomes recorded before merge."
+  ],
+  "verification": {
+    "local_checks": [
+      "Existing Pala reader narrative reused; preserved research appendix remains in KB.",
+      "Licensed Pala photograph reused unchanged with end credits.",
+      "Full text, source links, collection-to-story and return tested.",
+      "Responsive browser review and exact test outcomes recorded before merge."
+    ],
+    "visual_review": {
+      "browser": "Codex in-app browser",
+      "screenshots_inspected": [
+        "1280px hero",
+        "375px hero and caption"
+      ],
+      "mobile": {
+        "width": 375,
+        "scroll_width": 375,
+        "image_natural_width": 1600
+      },
+      "limits": "No physical-device or screen-reader review."
+    },
+    "repairs": [
+      "Coastal text test initially omitted HTML apostrophe escaping; test corrected and rerun.",
+      "Visual/structure inspection found listening checklist after closing paragraphs; restored original checklist-before-closing flow."
+    ],
+    "tests": {
+      "full": {
+        "passed": 520,
+        "failed": 0
+      },
+      "coastal": {
+        "passed": 94,
+        "failed": 0
+      },
+      "publication_build": "limited;11 indexable routes"
+    }
+  },
+  "limitations": [
+    "Pala reader story published as preview; practitioner/Odia review and broader history gaps remain open.",
+    "No audio, current booking or independent human review claimed.",
+    "Eleven-route search eligibility unchanged."
+  ],
+  "outputs": [
+    {
+      "path": "research/culture/pala-website.json",
+      "sha256": "87691d8d3d32ef48e1e7015cdfa4e6974d0d4de1541f577be049e8c02ada5d94"
+    }
+  ],
+  "repository_outputs": [
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha/pala.astro",
+      "sha256": "a7f6b6f1f8e51d9aa033602223c0cd7a7598d4c018cf2964ec1a6cd0c573af62"
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha.astro",
+      "sha256": "7f09a8c2a4ee0d3f47c7ea57a3ec401e5a3a750f6598fc4115113713f20b1dd5"
+    },
+    {
+      "path": "projects/site/editions/coast.json",
+      "sha256": "87157233383f93e7a90f74caaa935904352de62d18eb2e2379ac87bf7082b2b9"
+    },
+    {
+      "path": "projects/site/editions/search-candidate.json",
+      "sha256": "61f7e8d737c5d53e77a7ba34451220e6b34c215955b5110534b4edcdfbeff562"
+    },
+    {
+      "path": "projects/site/tests-coast/pala-story.test.mjs",
+      "sha256": "1940ce4965c225b19e2b0b4c5db195e8146cf3ee7402e04bf363283f18d4ff31"
+    },
+    {
+      "path": "projects/site/tests/build.test.mjs",
+      "sha256": "b5ce76dd6afd0715a91c66e62d65cd65e376b871ea6a02da2e34345196fe8c41"
+    }
+  ]
+}
