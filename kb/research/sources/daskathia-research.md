@@ -42,3 +42,7 @@ A documentary photograph should show both performers and the actual instrument, 
 ## Delivery scope
 
 Article and dossier are shared KB drafts, connected to Sounds of Odisha and the research map. Website routes, search eligibility, visitor availability and commercial activity unchanged. Practitioner, literary-edition and media review remain follow-up work.
+
+## Individual website adaptation ·12 October2026
+
+The existing full reader narrative is adapted for a separate public route. Behera’s two-page text, Kalahandi row18 and IGNCA oral-recitation passages were re-read; administrative use retains the prior report capture and printed-page locator. A typographic panel supplies editorial listening prompts rather than a simulated photograph, invented performance quotation or technical instruction. Existing origin and local-scope limits remain. The earlier KB-only scope records the first delivery; actual website publication is recorded separately.
