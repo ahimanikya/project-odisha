@@ -1,3 +1,4 @@
+import {soundDiscoveryEntries} from './sounds-discovery';
 import textiles from '../../../../kb/research/culture/textile-stories.json';
 import crafts from '../../../../kb/research/culture/craft-stories.json';
 import fire from '../../../../kb/research/food/fire-cooking-stories.json';
@@ -44,6 +45,7 @@ const collectionEntries=[
  {label:'Bhubaneswar Fresco · Painted Streets',category:'Living culture',dek:'A photographic walk through Bhubaneswar in February 2009, by Ahimanikya Satapathy.',href:'/stories/bhubaneswar-fresco/',image:regions.assets['fresco-procession'],regions:['Bhubaneswar']},
  ...notes.filter(n=>n.slug!=='kotpad').map(n=>({...n,image:({chilika:chilikaStory.image,konark:konarkStory.image})[n.slug],regions:locations[n.slug]||['Across Odisha']})),
  ...voices.pages.map(p=>({label:p.title,category:p.path.startsWith('languages')?'Languages':p.path.startsWith('people')?'People':'Literature',dek:p.lead,href:'/'+p.path+'/',image:voices.assets[p.hero_asset],regions:voiceAreas[p.path]||['Across Odisha']})),
+ ...soundDiscoveryEntries,
  ...foods.pages.map(p=>({label:p.title,category:'Food',dek:p.lead,href:'/food/'+p.slug+'/',image:foods.assets[p.hero],regions:p.regions||(p.slug==='mudhi-mansa'?['Mayurbhanj']:p.slug==='balasore'?['Balasore']:['Nayagarh','Across Odisha'])}))
 ];
 export const discoveryEntries=collectionEntries.filter(e=>allowsPage(e.href)).map(e=>({...e,dek:isCoastalEdition&&e.href==='/destinations/bhubaneswar/'?editionCopy.bhubaneswar.orientation:e.dek,aliases:aliases.entries[e.href]||[]}));
