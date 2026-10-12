@@ -1,0 +1,82 @@
+{
+  "recorded_at": "2026-10-12T10:28:15.791084+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-071",
+  "work_id": "UTP-WORK-259",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/220",
+  "reviewed_head": "21be0a2644667cb321a758034bbd8f341a262dbd",
+  "merge_commit": "9da61fc67bb3c123d7b573bd08031f271f36260f",
+  "merged_at": "2026-10-12T10:24:16Z",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "21be0a2644667cb321a758034bbd8f341a262dbd",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38235783763"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "9da61fc67bb3c123d7b573bd08031f271f36260f",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38236113685",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-12T10:27:34.981470+00:00",
+    "page": "https://utkalproject.org/sounds-of-odisha/listening-notebook/",
+    "http_status": 200,
+    "all_guide_text_matches": true,
+    "reading_routes": 8,
+    "blank_fields": 10,
+    "no_notes_collected": true,
+    "collection_discovery": true,
+    "noindex": true,
+    "sitemap_entries": 11,
+    "download": {
+      "http_status": 200,
+      "sha256": "26a8f42fbb77be02f86e12151ef38144a5fe307afb9075f70ec44f4e0a003c9d",
+      "matches_reviewed_bytes": true
+    },
+    "browser": "Published visitor listening notebook page layout inspected; guide and blank download link confirmed."
+  },
+  "review": "records/listening-notebook-review-2026-10-12.json",
+  "outputs": [
+    {
+      "path": "kb/research/culture/listening-notebook.json",
+      "sha256": "4721a46a9d1ffb2d264f78d9a3464e4e319676f831168e437032e9aef30967cf",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha/listening-notebook.astro",
+      "sha256": "3601cb11212fd3f4871f66de7d954d2e1b34843b63931228b06d59594950e301",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha.astro",
+      "sha256": "3921460cfdd3c5ba556c61658f2ce726fc83b65cb3ce812bcf95d634d14f1d65",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/public/assets/odisha-listening-notebook.txt",
+      "sha256": "26a8f42fbb77be02f86e12151ef38144a5fe307afb9075f70ec44f4e0a003c9d",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/editions/coast.json",
+      "sha256": "56677bc3e8d5a7d50b4c3f5b64ea7ebb54a6cd144629af5e817aaa5897a8e752",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/editions/search-candidate.json",
+      "sha256": "a9d153ed9aee1ef3bad7bb6bf0532d370a1807d96c560c09d0ccf62f0a2bf655",
+      "matches_fetched_merge": true
+    }
+  ],
+  "limitations": [
+    "Visitor observation guide and blank text download; no personal notes collected.",
+    "Practitioner/Odia review remains open; no audio or current class/event promise. Guide is editorial observation advice, not field evidence or a rights-clearance form. Native A4/Letter pagination remains unverified.",
+    "Existing eleven-route search eligibility retained; collection is noindex."
+  ],
+  "attachment": "App attachment attempted; failed because thread attachment identity count exceeds100. PR preserved here."
+}

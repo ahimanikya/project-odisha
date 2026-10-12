@@ -59,3 +59,5 @@ The [full Ghanta and ghanti reader story](https://utkalproject.org/sounds-of-odi
 The [full Dalkhai reader story](https://utkalproject.org/sounds-of-odisha/dalkhai/) is published; [delivery evidence](../../records/dalkhai-website-publication-2026-10-12.json). Other individual stories and audio remain follow-up.
 
 The [full Dhemsa reader story](https://utkalproject.org/sounds-of-odisha/dhemsa/) is published; [delivery evidence](../../records/dhemsa-website-publication-2026-10-12.json). Other individual stories and audio remain follow-up.
+
+The [visitor listening notebook](https://utkalproject.org/sounds-of-odisha/listening-notebook/) is published; [delivery evidence](../../records/listening-notebook-publication-2026-10-12.json). Authorised recordings and practitioner review remain follow-up.

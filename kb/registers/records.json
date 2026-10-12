@@ -5603,7 +5603,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Continue next eligible substantive item. 70 of500 delivered with linked evidence under DEC225.",
+      "next_action": "Continue next eligible substantive item. 71 of500 delivered with linked evidence under DEC225.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225"
@@ -7377,12 +7377,12 @@
       "id": "UTP-WORK-259",
       "title": "Sounds of Odisha visitor listening notebook",
       "category": "website_and_knowledge",
-      "status": "in_progress",
+      "status": "completed",
       "readiness": "draft",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Create guide/download from existing evidence, verify and publish.",
+      "next_action": "Visitor listening notebook published and checked live; continue other individual pages and authorised media research.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225",
@@ -7391,7 +7391,8 @@
       "evidence": [
         "records/listening-notebook-review-2026-10-12.json",
         "research/culture/listening-notebook.json",
-        "research/culture/sounds-website.json"
+        "research/culture/sounds-website.json",
+        "records/listening-notebook-publication-2026-10-12.json"
       ],
       "acceptance_criteria": "Publish a distinct visitor listening notebook that turns the eight Sounds of Odisha stories into a before/during/after reading and observation guide. Reuse existing article questions and context, clearly separate observations from participant explanations, preserve source/local limits and no-event/no-audio status. Provide a readable print layout and downloadable blank text notebook without collecting user data, connect collection and all eight full stories. Test actual generated text/download and all routes; inspect desktop/mobile/print CSS; passing exact-head PR, approved main deployment, actual live text/download and unchanged11-route sitemap; save receipt before counting."
     }
@@ -18897,6 +18898,22 @@
         "records/dhemsa-website-publication-2026-10-12.json"
       ],
       "note": "Full story published via PR219; canonical text, local scope, listening panel and reading paths checked live."
+    },
+    {
+      "id": "UTP-REL-103",
+      "title": "Visitor listening notebook published",
+      "status": "published",
+      "authorization": "UTP-DEC-225",
+      "destination": "https://utkalproject.org/sounds-of-odisha/listening-notebook/",
+      "refs": [
+        "UTP-WORK-259",
+        "UTP-REV-227",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/listening-notebook-publication-2026-10-12.json"
+      ],
+      "note": "Guide and download published via PR220; canonical text, before/during/after guidance, blank download and reading paths checked live."
     }
   ],
   "sources": [

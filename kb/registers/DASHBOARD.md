@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `db4f78b476b20d6cbfc0791fc22246b79d02993103a7ba903562707417d5b85f`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `c53530ceaf5eb4ec72c8e3b29e8246fa176a144ea309f4ad8608706cfa2c570c`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -199,7 +199,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
-| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue next eligible substantive item. 70 of500 delivered with linked evidence under DEC225. | — |
+| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue next eligible substantive item. 71 of500 delivered with linked evidence under DEC225. | — |
 | UTP-WORK-190 · Food discovery, portable reading collection and current review-queue repair | completed | published | Ahimanikya Satapathy | Published and live-verified. Continue through the program queue under DEC225. | — |
 | UTP-WORK-191 · Build the tourism opportunities information section | completed | reviewed | Ahimanikya Satapathy | Published information scope complete. Continue WORK166 and WORK171 only when new documentary or operating evidence is available. | — |
 | UTP-WORK-192 · Align saved food cards with canonical story introductions | completed | reviewed | Ahimanikya Satapathy | Repair published and live catalogue verified; preserve canonical food fields when future stories change. | — |
@@ -269,7 +269,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-256 · Full Ghanta and ghanti website reader story | completed | draft | Ahimanikya Satapathy | Full Ghanta and ghanti reader story published and checked live; continue other individual pages and authorised media research. | — |
 | UTP-WORK-257 · Full Dalkhai website reader story | completed | draft | Ahimanikya Satapathy | Full Dalkhai reader story published and checked live; continue other individual pages and authorised media research. | — |
 | UTP-WORK-258 · Full Dhemsa website reader story | completed | draft | Ahimanikya Satapathy | Full Dhemsa reader story published and checked live; continue other individual pages and authorised media research. | — |
-| UTP-WORK-259 · Sounds of Odisha visitor listening notebook | in_progress | draft | Ahimanikya Satapathy | Create guide/download from existing evidence, verify and publish. | — |
+| UTP-WORK-259 · Sounds of Odisha visitor listening notebook | completed | draft | Ahimanikya Satapathy | Visitor listening notebook published and checked live; continue other individual pages and authorised media research. | — |
 
 ## Pending human review and decisions
 
@@ -895,6 +895,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-100 · Full Ghanta and ghanti reader story published | published | https://utkalproject.org/sounds-of-odisha/ghanta-ghanti/ | UTP-DEC-225 |
 | UTP-REL-101 · Full Dalkhai reader story published | published | https://utkalproject.org/sounds-of-odisha/dalkhai/ | UTP-DEC-225 |
 | UTP-REL-102 · Full Dhemsa reader story published | published | https://utkalproject.org/sounds-of-odisha/dhemsa/ | UTP-DEC-225 |
+| UTP-REL-103 · Visitor listening notebook published | published | https://utkalproject.org/sounds-of-odisha/listening-notebook/ | UTP-DEC-225 |
 
 ## Sources and assets
 
@@ -932,7 +933,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-393 | 2026-10-12T05:15:44.791987+00:00 | Full Mardala reader story published via checked PR215 and main workflow; canonical text, artwork provenance, image bytes and collection links checked live. Item066 complete. | Continue individual story development; no audio acquired or new search eligibility. |
 | UTP-EVT-394 | 2026-10-12T05:59:46.085843+00:00 | Full Daskathia reader story prepared using existing narrative and editorial listening panel. Item067 awaits checked publication. | Merge exact passing head, publish and verify live; save receipt. |
 | UTP-EVT-395 | 2026-10-12T06:07:06.089845+00:00 | Full Daskathia reader story published via checked PR216 and main workflow; canonical text, source and collection links checked live. Item067 complete. | Continue individual story development; no audio acquired or new search eligibility. |
 | UTP-EVT-396 | 2026-10-12T07:05:33.616992+00:00 | Full Ghanta and ghanti reader story prepared using existing narrative and editorial listening panel. Item068 awaits checked publication. | Merge exact passing head, publish and verify live; save receipt. |
@@ -942,6 +942,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-400 | 2026-10-12T09:11:40.660749+00:00 | Full Dhemsa reader story prepared using existing narrative and editorial listening panel. Item070 awaits checked publication. | Merge exact passing head, publish and verify live; save receipt. |
 | UTP-EVT-401 | 2026-10-12T09:20:15.050401+00:00 | Full Dhemsa reader story published via checked PR219 and main workflow; canonical text, source and collection links checked live. Item070 complete. | Continue individual story development; no audio acquired or new search eligibility. |
 | UTP-EVT-402 | 2026-10-12T10:16:08.578772+00:00 | Visitor listening notebook and blank download prepared from existing eight stories. Item071 awaits tested publication. | Verify guide/download, merge passing head, publish and check live. |
+| UTP-EVT-403 | 2026-10-12T10:28:15.791084+00:00 | Visitor listening notebook published via checked PR220 and main workflow; guide text, download bytes and eight reading routes checked live. Item071 complete. | Continue individual story development; no audio acquired or new search eligibility. |
 
 ## Deferred extensions
 

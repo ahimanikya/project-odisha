@@ -21,6 +21,41 @@
       "responsive": "Desktop1280 and375px mobile inspected; no horizontal overflow.",
       "print": "Print rules reviewed for page break before blank worksheet, protected cards and writing space. Native A4/Letter pagination not checked.",
       "repair": "Added text download to edition manifest after bounded-build link check rejected undeclared download."
+    },
+    "required_checks": {
+      "conclusion": "success",
+      "headSha": "21be0a2644667cb321a758034bbd8f341a262dbd",
+      "status": "completed",
+      "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38235783763"
+    },
+    "deployment": {
+      "conclusion": "success",
+      "headSha": "9da61fc67bb3c123d7b573bd08031f271f36260f",
+      "status": "completed",
+      "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38236113685"
+    },
+    "live": {
+      "checked_at": "2026-10-12T10:27:34.981470+00:00",
+      "page": "https://utkalproject.org/sounds-of-odisha/listening-notebook/",
+      "http_status": 200,
+      "all_guide_text_matches": true,
+      "reading_routes": 8,
+      "blank_fields": 10,
+      "no_notes_collected": true,
+      "collection_discovery": true,
+      "noindex": true,
+      "sitemap_entries": 11,
+      "download": {
+        "http_status": 200,
+        "sha256": "26a8f42fbb77be02f86e12151ef38144a5fe307afb9075f70ec44f4e0a003c9d",
+        "matches_reviewed_bytes": true
+      }
+    },
+    "ci_repair": {
+      "failed_run": "https://github.com/ahimanikya/utkal-project/actions/runs/38235492162",
+      "reason": "Generated editorial workbench not refreshed after adding declared download.",
+      "repair_commit": "21be0a2644667cb321a758034bbd8f341a262dbd",
+      "result": "Required checks passed on repaired exact head."
     }
   },
   "limitations": [
