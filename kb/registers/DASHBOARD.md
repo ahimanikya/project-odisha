@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `8c0ecf47b394095b52a376079e713020dfb9238585042087513a67530541fef6`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `db4f78b476b20d6cbfc0791fc22246b79d02993103a7ba903562707417d5b85f`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -269,6 +269,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-256 · Full Ghanta and ghanti website reader story | completed | draft | Ahimanikya Satapathy | Full Ghanta and ghanti reader story published and checked live; continue other individual pages and authorised media research. | — |
 | UTP-WORK-257 · Full Dalkhai website reader story | completed | draft | Ahimanikya Satapathy | Full Dalkhai reader story published and checked live; continue other individual pages and authorised media research. | — |
 | UTP-WORK-258 · Full Dhemsa website reader story | completed | draft | Ahimanikya Satapathy | Full Dhemsa reader story published and checked live; continue other individual pages and authorised media research. | — |
+| UTP-WORK-259 · Sounds of Odisha visitor listening notebook | in_progress | draft | Ahimanikya Satapathy | Create guide/download from existing evidence, verify and publish. | — |
 
 ## Pending human review and decisions
 
@@ -785,6 +786,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-224 | pass_with_limitations | False | Practitioner/Odia review remains open; no independent human review.; Typographic panel contains editorial listening prompts, not a performance quotation or technique demonstration.; No audio/current class or booking confirmed; eleven-route search selection unchanged. |
 | UTP-REV-225 | pass_with_limitations | False | Practitioner/Odia review remains open; no independent human review.; Typographic panel contains editorial listening prompts, not a performance quotation or technique demonstration.; No audio/current class or booking confirmed; eleven-route search selection unchanged. |
 | UTP-REV-226 | pass_with_limitations | False | Practitioner/Odia review remains open; no independent human review.; Typographic panel contains editorial listening prompts, not a performance quotation or technique demonstration.; No audio/current class or booking confirmed; eleven-route search selection unchanged. |
+| UTP-REV-227 | pass_with_limitations | False | Editorial guide derived from existing articles; no field encounter or practitioner review.; No audio, confirmed event or permission acquired. Blank text download is a personal note aid, not a rights-clearance form.; Print CSS inspected; native A4/Letter output not yet verified. Eleven-route search selection unchanged. |
 
 ## Publication and application history
 
@@ -930,7 +932,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-392 | 2026-10-12T05:07:57.675161+00:00 | Full Mardala reader story prepared using existing source-linked narrative and contextual imagined rehearsal artwork. Item066 awaits checked publication. | Merge exact passing head, publish and verify live; save receipt. |
 | UTP-EVT-393 | 2026-10-12T05:15:44.791987+00:00 | Full Mardala reader story published via checked PR215 and main workflow; canonical text, artwork provenance, image bytes and collection links checked live. Item066 complete. | Continue individual story development; no audio acquired or new search eligibility. |
 | UTP-EVT-394 | 2026-10-12T05:59:46.085843+00:00 | Full Daskathia reader story prepared using existing narrative and editorial listening panel. Item067 awaits checked publication. | Merge exact passing head, publish and verify live; save receipt. |
 | UTP-EVT-395 | 2026-10-12T06:07:06.089845+00:00 | Full Daskathia reader story published via checked PR216 and main workflow; canonical text, source and collection links checked live. Item067 complete. | Continue individual story development; no audio acquired or new search eligibility. |
@@ -940,6 +941,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-399 | 2026-10-12T08:53:35.595977+00:00 | Full Dalkhai reader story published via checked PR218 and main workflow; canonical text, source and collection links checked live. Item069 complete. | Continue individual story development; no audio acquired or new search eligibility. |
 | UTP-EVT-400 | 2026-10-12T09:11:40.660749+00:00 | Full Dhemsa reader story prepared using existing narrative and editorial listening panel. Item070 awaits checked publication. | Merge exact passing head, publish and verify live; save receipt. |
 | UTP-EVT-401 | 2026-10-12T09:20:15.050401+00:00 | Full Dhemsa reader story published via checked PR219 and main workflow; canonical text, source and collection links checked live. Item070 complete. | Continue individual story development; no audio acquired or new search eligibility. |
+| UTP-EVT-402 | 2026-10-12T10:16:08.578772+00:00 | Visitor listening notebook and blank download prepared from existing eight stories. Item071 awaits tested publication. | Verify guide/download, merge passing head, publish and check live. |
 
 ## Deferred extensions
 

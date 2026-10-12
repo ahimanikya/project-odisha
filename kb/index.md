@@ -192,3 +192,5 @@ Historical visitor-experience release: [PR 23 publication evidence](records/visi
 [Dalkhai website story](research/culture/dalkhai-website.json) connects oral narrative, response and rhythm with the Sounds of Odisha reader collection.
 
 [Dhemsa website story](research/culture/dhemsa-website.json) connects oral narrative, response and rhythm with the Sounds of Odisha reader collection.
+
+[Visitor listening notebook](research/culture/listening-notebook.json) turns Sounds of Odisha reading into careful preparation, observation and reflection.
