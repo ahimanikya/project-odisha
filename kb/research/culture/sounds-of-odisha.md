@@ -47,3 +47,5 @@ The [introductory website collection](https://utkalproject.org/sounds-of-odisha/
 The [full Pala reader story](https://utkalproject.org/sounds-of-odisha/pala/) is published; [delivery evidence](../../records/pala-website-publication-2026-10-12.json). Other individual stories and audio remain follow-up.
 
 The [full Huluhuli reader story](https://utkalproject.org/sounds-of-odisha/huluhuli/) is published; [delivery evidence](../../records/huluhuli-website-publication-2026-10-12.json). Other individual stories and audio remain follow-up.
+
+The [full Sankha reader story](https://utkalproject.org/sounds-of-odisha/sankha/) is published; [delivery evidence](../../records/sankha-website-publication-2026-10-12.json). Other individual stories and audio remain follow-up.

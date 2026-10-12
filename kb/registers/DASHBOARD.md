@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `68400290c4608dd9a5d177bc0d5546015d44d1389d520e231dae2cd05ac0dd1f`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e00400731d567cf14438d01be808bf16e46145ba82db69eb0868f2792b8b9cb4`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -199,7 +199,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
-| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue next eligible substantive item. 64 of500 delivered with linked evidence under DEC225. | — |
+| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue next eligible substantive item. 65 of500 delivered with linked evidence under DEC225. | — |
 | UTP-WORK-190 · Food discovery, portable reading collection and current review-queue repair | completed | published | Ahimanikya Satapathy | Published and live-verified. Continue through the program queue under DEC225. | — |
 | UTP-WORK-191 · Build the tourism opportunities information section | completed | reviewed | Ahimanikya Satapathy | Published information scope complete. Continue WORK166 and WORK171 only when new documentary or operating evidence is available. | — |
 | UTP-WORK-192 · Align saved food cards with canonical story introductions | completed | reviewed | Ahimanikya Satapathy | Repair published and live catalogue verified; preserve canonical food fields when future stories change. | — |
@@ -262,7 +262,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-249 · Sounds of Odisha introductory website collection | completed | draft | Ahimanikya Satapathy | Introductory collection published and checked live; develop full individual pages and authorised media next. | — |
 | UTP-WORK-250 · Pala individual Sounds of Odisha website story | completed | draft | Ahimanikya Satapathy | Full Pala reader story published and checked live; continue other individual pages and authorised media research. | — |
 | UTP-WORK-251 · Full Huluhuli website story and editorial artwork | completed | draft | Ahimanikya Satapathy | Full Huluhuli reader story published and checked live; continue other individual pages and authorised media research. | — |
-| UTP-WORK-252 · Full Sankha website story and editorial artwork | in_progress | draft | Ahimanikya Satapathy | Adapt existing narrative with reviewed conch artwork, test and publish. | — |
+| UTP-WORK-252 · Full Sankha website story and editorial artwork | completed | draft | Ahimanikya Satapathy | Full Sankha reader story published and checked live; continue other individual pages and authorised media research. | — |
 
 ## Pending human review and decisions
 
@@ -873,6 +873,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-093 · Sounds of Odisha introductory collection published | published | https://utkalproject.org/sounds-of-odisha/ | UTP-DEC-225 |
 | UTP-REL-094 · Full illustrated Pala reader story published | published | https://utkalproject.org/sounds-of-odisha/pala/ | UTP-DEC-225 |
 | UTP-REL-095 · Full Huluhuli article and Human Natural artwork published | published | https://utkalproject.org/sounds-of-odisha/huluhuli/ | UTP-DEC-225 |
+| UTP-REL-096 · Full Sankha article and Human Natural artwork published | published | https://utkalproject.org/sounds-of-odisha/sankha/ | UTP-DEC-225 |
 
 ## Sources and assets
 
@@ -910,7 +911,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-379 | 2026-10-11T22:41:12.706244+00:00 | Dhemsa story and source dossier merged through checked PR208; fetched output hashes matched. Item060 completed; programme60/500. | Continue Sounds of Odisha; practitioner/audio follow-up remains open, website unchanged. |
 | UTP-EVT-380 | 2026-10-11T23:45:01.772609+00:00 | Sound recording model, eight planned briefs and readiness check drafted; no clips acquired. Item061 awaits checked delivery. | Merge exact passing head and save delivery receipt. |
 | UTP-EVT-381 | 2026-10-11T23:48:32.811876+00:00 | Sound recording model and eight planned briefs merged through checked PR209; fetched output hashes matched. Item061 completed; programme61/500. | Continue Sounds of Odisha; practitioner/audio follow-up remains open, website unchanged. |
 | UTP-EVT-382 | 2026-10-12T00:48:56.054921+00:00 | Illustrated introductory public collection prepared; no audio acquired. Item062 awaits checked delivery. | Merge exact passing head and save delivery receipt. |
@@ -920,6 +920,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-386 | 2026-10-12T02:49:37.695992+00:00 | Full illustrated Huluhuli reader story prepared from existing narrative; no audio acquired. Item064 awaits checked delivery. | Merge exact passing head and save delivery receipt. |
 | UTP-EVT-387 | 2026-10-12T03:04:54.513251+00:00 | Full Huluhuli reader story published via checked PR212 and main workflow; canonical text, artwork provenance, image bytes and collection links checked live. Item064 complete. | Continue individual story development; no audio acquired or new search eligibility. |
 | UTP-EVT-388 | 2026-10-12T04:05:41.025027+00:00 | Full illustrated Sankha reader story prepared from existing narrative; no audio acquired. Item065 awaits checked delivery. | Merge exact passing head and save delivery receipt. |
+| UTP-EVT-389 | 2026-10-12T04:17:17.870342+00:00 | Full Sankha reader story published via checked PR213 and main workflow; canonical text, artwork provenance, image bytes and collection links checked live. Item065 complete. | Continue individual story development; no audio acquired or new search eligibility. |
 
 ## Deferred extensions
 

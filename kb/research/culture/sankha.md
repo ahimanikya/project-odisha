@@ -83,3 +83,7 @@ The most revealing question may be simple: **Who taught you to make that sound?*
 [^huluhuli-osa-2013]: [Utkarsa2013 Michigan Chapter Report, Swati Mishra](https://archive.odishasociety.org/wp-content/uploads/2013/10/UtkarsaSeptember2013.pdf).
 
 [Research notes and follow-up questions](../sources/sankha-research.md).
+
+## Website publication · 12 October 2026
+
+The full article is now [published](https://utkalproject.org/sounds-of-odisha/sankha/); [receipt](../../records/sankha-website-publication-2026-10-12.json). The conch artwork is imagined, not a field photograph, identified museum object or technical demonstration. Practitioner/language review and audio remain open.

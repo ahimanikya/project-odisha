@@ -180,3 +180,5 @@ Historical visitor-experience release: [PR 23 publication evidence](records/visi
 [Full Huluhuli article](https://utkalproject.org/sounds-of-odisha/huluhuli/) is published with imagined Human Natural artwork; [receipt](records/huluhuli-website-publication-2026-10-12.json).
 
 [Sankha website story](research/culture/sankha-website.json) prepares the a full individual reader story from the Sounds of Odisha KB collection.
+
+[Full Sankha article](https://utkalproject.org/sounds-of-odisha/sankha/) is published with imagined Human Natural artwork; [receipt](records/sankha-website-publication-2026-10-12.json).

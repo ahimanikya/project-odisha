@@ -1,0 +1,84 @@
+{
+  "recorded_at": "2026-10-12T04:17:17.870342+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-065",
+  "work_id": "UTP-WORK-252",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/213",
+  "reviewed_head": "5e95bfa5c05758a1c2913e2b658db3aba392b811",
+  "merge_commit": "8450343154bd5de006cee63274af72081501842f",
+  "merged_at": "2026-10-12T04:13:01Z",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "5e95bfa5c05758a1c2913e2b658db3aba392b811",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38202662517"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "8450343154bd5de006cee63274af72081501842f",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38202884552",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true,
+    "dispatch_note": "Main publication workflow38202884552 confirmed successful for the merged head."
+  },
+  "live": {
+    "checked_at": "2026-10-12T04:16:17.048152+00:00",
+    "page": "https://utkalproject.org/sounds-of-odisha/sankha/",
+    "http_status": 200,
+    "full_canonical_reader_text_matches": true,
+    "source_links_present": true,
+    "imagined_artwork_provenance_present": true,
+    "collection_links_both_directions": true,
+    "noindex": true,
+    "sitemap_entries": 11,
+    "no_audio_or_research_appendix": true,
+    "image": {
+      "http_status": 200,
+      "sha256": "47cbbe53595708b3b4fb9b81a8672daf0944d8b24544511ea6cb76e5b4e9ddfc",
+      "matches_reviewed_editorial_asset": true
+    },
+    "browser": "Published Sankha hero screenshot inspected;1536px image and return link confirmed."
+  },
+  "review": "records/sankha-website-review-2026-10-12.json",
+  "outputs": [
+    {
+      "path": "kb/research/culture/sankha-website.json",
+      "sha256": "41e5bacb0befd4eb8134e86301fee4dc14b8e1f6ca354b93a4d15a9a707da84e",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha/sankha.astro",
+      "sha256": "3fe486aedc24068c89521b7549246d6b0fe93be78b092a7479382aded9af483b",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha.astro",
+      "sha256": "8ca76efa1319ff2a49f2ccda64eac9e3cc3bf835776fe00d9aa9d34820fcd1a0",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/public/images/sounds/sankha-at-rest.webp",
+      "sha256": "47cbbe53595708b3b4fb9b81a8672daf0944d8b24544511ea6cb76e5b4e9ddfc",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/editions/coast.json",
+      "sha256": "0948a20f6e1c6fef47c5c4560c7df778cd3cfa4b36f6316ea9e66586d9463e92",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/editions/search-candidate.json",
+      "sha256": "f02d78d75a5dca310205e8940f9dd397ef572b49eb4eedf302b7918eacec52a7",
+      "matches_fetched_merge": true
+    }
+  ],
+  "limitations": [
+    "One full Sankha reader story; preserved research appendix stays in KB.",
+    "Practitioner/community/Odia review remains open; no audio or current event promise.",
+    "Existing eleven-route search eligibility retained; collection is noindex."
+  ],
+  "attachment": "App attachment attempted; failed because thread attachment identity count exceeds100. PR preserved here.",
+  "art_provenance": "records/sankha-art-provenance-2026-10-12.json"
+}
