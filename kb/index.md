@@ -202,3 +202,5 @@ Historical visitor-experience release: [PR 23 publication evidence](records/visi
 [Gotipua website story](research/culture/gotipua-website.json) prepares a further-reading page from the source-reviewed learning narrative.
 
 [Sounds collection discovery](research/product/sounds-discovery.json) connects published stories and the listening notebook to Explore search.
+
+- [Odia lullabies and childhood song · 12 October 2026](research/culture/odia-lullabies.md) — KB reader draft with digitised-book evidence and family-version questions; website adaptation pending.

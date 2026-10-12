@@ -435,3 +435,7 @@ Sounds of Odisha now connects the [collection outline](../culture/sounds-of-odis
 [Pala](../culture/pala.md) adds an illustrated listening story to Sounds of Odisha; [source dossier](../sources/pala-sounds-story-research.md) records source rechecks, reuse and preserved history.
 
 [Dhemsa](../culture/dhemsa.md) joins Sounds of Odisha; [source dossier](../sources/dhemsa-research.md) records full-text source scope and failed visual retrieval.
+
+## Childhood song extension · 12 October 2026
+
+[Odia lullabies](../culture/odia-lullabies.md) fills the Sounds collection’s childhood-song research gap after scoped KB and queue searches. [Evidence dossier](../sources/odia-lullabies-research.json) separates OVA catalogue, digitised book, literary review and published author interview. Reuse this record before investigating Nanabaya Gita; edition chronology, title-only attribution and family variants remain open. Existing queued tasks and website scope are unchanged.

@@ -7491,6 +7491,28 @@
         "records/sounds-discovery-publication-2026-10-12.json"
       ],
       "acceptance_criteria": "Make the published Sounds of Odisha collection, its eight stories, Gotipua further reading and listening notebook discoverable through Explore search and existing Living culture/area filters. Reuse published text and spellings; no new historical or distribution claims. Verify English and supplied Odia queries, multiword aliases, area/category combinations, unique and delivered targets, query reload and keyboard/mobile use. Keep eleven external-search routes unchanged. Passing PR checks, approved main deployment, actual live search behavior and publication receipt before count."
+    },
+    {
+      "id": "UTP-WORK-264",
+      "title": "Odia lullabies and childhood song research",
+      "category": "research_and_editorial",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Merge the exact checked PR head, verify merged article/dossier bytes and save KB delivery receipt; website adaptation is the next separate deliverable.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-263"
+      ],
+      "evidence": [
+        "research/culture/odia-lullabies.md",
+        "research/sources/odia-lullabies-research.json",
+        "records/odia-lullabies-review-2026-10-12.json"
+      ],
+      "acceptance_criteria": "Develop a source-linked Sounds of Odisha article on Odia lullabies and childhood song, distinguishing oral family variants from authored printed poems. Search existing KB, inspect source passages and bibliographic evidence, avoid invented lyrics, origin dates, family testimony, recordings or health claims. Save a reader narrative and claim/source dossier with specific follow-up questions, connect the collection and reuse map. Pass factual/source desk review, repository checks and exact-head PR checks; verify merged bytes and save KB-only receipt before counting. Website adaptation remains a separately identified next step; no deployment or external-search change in this research delivery."
     }
   ],
   "decisions": [
@@ -17393,6 +17415,28 @@
         "Source review reused from published reader stories; no fresh historical claims or field review.",
         "Existing Odia strings retained; no new translated titles.",
         "Search aliases are retrieval aids and do not establish equivalence or geography."
+      ]
+    },
+    {
+      "id": "UTP-REV-232",
+      "title": "Odia lullabies reader story source and editorial review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-264"
+      ],
+      "evidence": [
+        "records/odia-lullabies-review-2026-10-12.json"
+      ],
+      "limitations": [
+        "Desk research by the current assistant, not independent literary, practitioner or family review.",
+        "No verified first-edition date or title-only song authorship;1955 is catalogue metadata.",
+        "No audio playback, transcription or media-rights clearance; the Commons file is only a candidate.",
+        "KB-only reader draft; website adaptation remains pending."
       ]
     }
   ],
