@@ -41,3 +41,7 @@ Use a contextual photograph showing the group and musicians together, with names
 ## Delivery boundary
 
 A substantive narrative extension of the existing KB record, not a second Dalkhai article. Collection and research discovery links updated; no public website or search eligibility change. Practitioner review, translation and audiovisual rights remain open.
+
+## Individual website adaptation ·12 October2026
+
+Full existing narrative adapted into an individual public reader route. Sambalpur and Odisha Tourism text re-read;2024 panel and2017 muted-viewing observations reuse their saved evidence. No new playback or licence obtained. Earlier viewing paragraphs stay in KB, while the public story explicitly preserves limited muted viewing and panel-only attribution. Editorial occasion/song/people questions replace any simulated documentary visual; no verse or translation invented. Initial KB-only delivery boundary remains historical; actual website release is separately evidenced.

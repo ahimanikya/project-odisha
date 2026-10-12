@@ -1,0 +1,77 @@
+{
+  "reviewed_at": "2026-10-12T08:08:14.879650+00:00",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "status": "pass_with_limitations",
+  "work_id": "UTP-WORK-257",
+  "program_item": "UTP-A500-069",
+  "authorization": "UTP-DEC-225",
+  "checks": [
+    "Research map and KB searched; existing narrative reused.",
+    "Sambalpur and Tourism pages re-read;2024 panel and2017 upload/muted-viewing observations retained from existing evidence. No new playback or identity/rights confirmation.",
+    "No image/audio acquired; editorial panel explicitly labelled as listening prompts.",
+    "Full text, source links, Mardala/Sankha paths and collection return tested."
+  ],
+  "verification": {
+    "source_review": [
+      "Research map and KB searched; existing narrative reused.",
+      "Sambalpur and Tourism pages re-read;2024 panel and2017 upload/muted-viewing observations retained from existing evidence. No new playback or identity/rights confirmation.",
+      "No image/audio acquired; editorial panel explicitly labelled as listening prompts.",
+      "Full text, source links, Mardala/Sankha paths and collection return tested."
+    ],
+    "local": {
+      "coast_tests": 100,
+      "passed": 100,
+      "responsive": "Desktop1280px and settled375px mobile inspected; no horizontal overflow.",
+      "publication": "11 indexable routes unchanged; final noindex requires live verification."
+    }
+  },
+  "limitations": [
+    "Practitioner/Odia review remains open; no independent human review.",
+    "Typographic panel contains editorial listening prompts, not a performance quotation or technique demonstration.",
+    "No audio/current class or booking confirmed; eleven-route search selection unchanged."
+  ],
+  "outputs": [
+    {
+      "path": "research/culture/dalkhai-website.json",
+      "sha256": "0ae175d4a44b2e8a94390f8c04c24a65bef4778f23d6b4dd41afb2c28a67bcb1"
+    },
+    {
+      "path": "research/sources/dalkhai-story-research.md",
+      "sha256": "c003b8d73e40a60ead9de1b4e2887fc4e43d1a492faa0111b30b2ef8d58f2447"
+    },
+    {
+      "path": "research/culture/dalkhai.md",
+      "sha256": "3f7520d9d6e33e6e1dd38264261b9ab2ac6292db225aac245d9616a792cb0367"
+    }
+  ],
+  "repository_outputs": [
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha/dalkhai.astro",
+      "sha256": "d02f7f40c7ee372946bb8eecb12e779eaa25e981fc132ee0cd5855e2920fb321"
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha.astro",
+      "sha256": "bd63020f57fde577e3ac83b6de4cb457ee597d9bf927ae57676c3f4b34bba550"
+    },
+    {
+      "path": "projects/site/editions/coast.json",
+      "sha256": "bd2e1aee36902bac8f3333f0115de2886720ed0ed5c517e58d451131fdebea10"
+    },
+    {
+      "path": "projects/site/editions/search-candidate.json",
+      "sha256": "453d2131dd3b2cfcda58416459a52544419bf40f8329ea86c117f1f5ee9ebf01"
+    },
+    {
+      "path": "projects/site/tests-coast/dalkhai-story.test.mjs",
+      "sha256": "d60a21a12d07dbeca0afd91ec47b7948817c634b36bd63652cdd2c2300f1d117"
+    },
+    {
+      "path": "projects/site/tests/build.test.mjs",
+      "sha256": "606d9b94dbca1e8cefffa6799a671764226cef2343f0d566a8ed0197cd7f9d13"
+    }
+  ]
+}
