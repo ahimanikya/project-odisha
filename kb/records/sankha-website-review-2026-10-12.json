@@ -1,0 +1,100 @@
+{
+  "reviewed_at": "2026-10-12T04:05:41.025027+00:00",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "status": "pass_with_limitations",
+  "work_id": "UTP-WORK-252",
+  "program_item": "UTP-A500-065",
+  "authorization": "UTP-DEC-225",
+  "checks": [
+    "Existing Sankha reader narrative reused; source dossier and access limits retained in KB.",
+    "Human Natural Documentary Natural artwork generated and visually inspected; end provenance distinguishes imagined scene from field evidence.",
+    "Full text, source links, collection-to-story, return and artwork context tested.",
+    "Responsive browser review and exact test outcomes recorded before merge."
+  ],
+  "verification": {
+    "local_checks": [
+      "Existing Sankha reader narrative reused; source dossier and access limits retained in KB.",
+      "Human Natural Documentary Natural artwork generated and visually inspected; end provenance distinguishes imagined scene from field evidence.",
+      "Full text, source links, collection-to-story, return and artwork context tested.",
+      "Responsive browser review and exact test outcomes recorded before merge."
+    ],
+    "tests": {
+      "full": {
+        "passed": 520,
+        "failed": 0
+      },
+      "coastal": {
+        "passed": 96,
+        "failed": 0
+      },
+      "publication_build": "limited;11 indexable routes"
+    },
+    "visual_review": {
+      "browser": "Codex in-app browser",
+      "screenshots_inspected": [
+        "1280px hero",
+        "375px hero after viewport settled"
+      ],
+      "mobile": {
+        "width": 375,
+        "scroll_width": 375,
+        "body_width": 375,
+        "reading_width": 343,
+        "heading_font_size": "46px",
+        "image_width": 343,
+        "natural_image_width": 1536
+      },
+      "art_review": "Plausible shell form and cloth contact, soft available side light and quiet ordinary context; not a species identification or playing demonstration.",
+      "limits": "No physical-device, practitioner or independent human review."
+    }
+  },
+  "limitations": [
+    "Sankha reader story published as preview; practitioner/Odia review and broader history gaps remain open.",
+    "No audio, current booking or independent human review claimed.",
+    "Eleven-route search eligibility unchanged."
+  ],
+  "outputs": [
+    {
+      "path": "research/culture/sankha-website.json",
+      "sha256": "41e5bacb0befd4eb8134e86301fee4dc14b8e1f6ca354b93a4d15a9a707da84e"
+    },
+    {
+      "path": "records/sankha-art-provenance-2026-10-12.json",
+      "sha256": "7080856bea8eb361b36672a15125bcba07afdb30d7aaeb035bbb0051b1a33fb5"
+    }
+  ],
+  "repository_outputs": [
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha/sankha.astro",
+      "sha256": "3fe486aedc24068c89521b7549246d6b0fe93be78b092a7479382aded9af483b"
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha.astro",
+      "sha256": "8ca76efa1319ff2a49f2ccda64eac9e3cc3bf835776fe00d9aa9d34820fcd1a0"
+    },
+    {
+      "path": "projects/site/editions/coast.json",
+      "sha256": "0948a20f6e1c6fef47c5c4560c7df778cd3cfa4b36f6316ea9e66586d9463e92"
+    },
+    {
+      "path": "projects/site/editions/search-candidate.json",
+      "sha256": "f02d78d75a5dca310205e8940f9dd397ef572b49eb4eedf302b7918eacec52a7"
+    },
+    {
+      "path": "projects/site/tests-coast/sankha-story.test.mjs",
+      "sha256": "0ce1c9c084393331d3abdb36005ed834ee7ee81a35fafbbb68fad6eed41a824f"
+    },
+    {
+      "path": "projects/site/tests/build.test.mjs",
+      "sha256": "f94dc2d409830bce65e29e3f55418ff498d87f57a575558fd5be3325dd2f2bfc"
+    },
+    {
+      "path": "projects/site/public/images/sounds/sankha-at-rest.webp",
+      "sha256": "47cbbe53595708b3b4fb9b81a8672daf0944d8b24544511ea6cb76e5b4e9ddfc"
+    }
+  ]
+}
