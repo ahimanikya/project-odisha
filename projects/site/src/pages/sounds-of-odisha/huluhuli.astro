@@ -4,7 +4,7 @@ import story from '../../../../../kb/research/culture/huluhuli-website.json';
 ---
 <Shell title={story.title} description={story.lead} active="explore" wide related={false}>
 <article class="wrap huluhuli-story"><a class="text-link collection-return" href="/sounds-of-odisha/#huluhuli">← Sounds of Odisha</a>
-<header class="huluhuli-hero"><div><p class="eyebrow">Sounds of Odisha · ହୁଳହୁଳି</p><h1>Huluhuli.<br/><em>A voice of welcome.</em></h1><p class="lead">{story.lead}</p></div><figure><img src="/images/sounds/huluhuli-welcome.webp" width="1536" height="1024" alt={story.photo.alt} fetchpriority="high"/><figcaption>{story.photo.caption}</figcaption></figure></header>
+<header class="huluhuli-hero"><div><p class="eyebrow">Sounds of Odisha · ହୁଳହୁଳି</p><h1>Huluhuli.<br/><em>A voice of welcome.</em></h1><p class="lead">{story.lead}</p></div><figure><img src="/images/sounds/huluhuli-welcome-v2.webp" width="1536" height="1024" alt={story.photo.alt} fetchpriority="high"/><figcaption>{story.photo.caption}</figcaption></figure></header>
 <div class="huluhuli-reading">{story.blocks.map(b=><section>{b.title&&<h2>{b.title}</h2>}{b.items.length>0&&<ul>{b.items.map(p=><li>{p}</li>)}</ul>}{b.paragraphs.map(p=><p>{p}</p>)}</section>)}
 <p class="notice">A sourced reader story. Practitioner/language review remains open; no audio recording or current performance booking is provided.</p>
 <p><a href="/literature/">Explore Odia literature →</a> · <a href="/sounds-of-odisha/#dhemsa">Meet Dhemsa →</a></p>

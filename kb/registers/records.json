@@ -7226,6 +7226,31 @@
         "records/sankha-website-publication-2026-10-12.json"
       ],
       "acceptance_criteria": "Publish the full researched Sankha article with reviewed Human Natural conch artwork, separating imagined depiction from source evidence and sound instruction. Reuse existing source dossier, retain comparison/local/date/origin limits, connect collection, keep attribution at end and no current audio/event promise. Verify full rendered text, source/media/return links, responsive visual quality, exact-head PR checks and approved main deployment; verify live output and unchanged eleven-route sitemap, save receipt before counting. No field photograph, human review or rights invented."
+    },
+    {
+      "id": "UTP-WORK-253",
+      "title": "Correct Huluhuli tongue-led depiction",
+      "category": "editorial_correction",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-228",
+      "next_action": "Verify corrected text/image, required PR and deployment; save actual live receipt.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-228",
+        "UTP-DEC-225",
+        "UTP-REV-221"
+      ],
+      "evidence": [
+        "records/huluhuli-tongue-correction-review-2026-10-12.json",
+        "research/culture/huluhuli-website.json",
+        "research/culture/huluhuli.md",
+        "research/sources/huluhuli-research.md",
+        "records/huluhuli-tongue-art-provenance-2026-10-12.json"
+      ],
+      "acceptance_criteria": "Replace misleading laughing posture with a revised tongue-visible imagined image, explicitly clarify rapid tongue movement, preserve original provenance, validate source/text/image links and live publication. No claim of technical demonstration or practitioner approval."
     }
   ],
   "decisions": [
@@ -11778,6 +11803,25 @@
       ],
       "evidence": [
         "records/sankha-research-review-2026-10-11.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-228",
+      "title": "Clarify tongue-led Huluhuli and correct the artwork",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Huluhuli they do with tong, not with open south",
+      "scope": "Founder corrects the depiction: tongue movement creates the trill, not merely opening the mouth. Revise misleading laughing-mouth artwork and clarify text; existing DEC225 covers tested UTP publication. No practitioner review inferred.",
+      "recorded_at": "2026-10-12T04:45:34.096331+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-253"
+      ],
+      "evidence": [
+        "records/huluhuli-tongue-art-provenance-2026-10-12.json"
       ]
     }
   ],
@@ -16876,6 +16920,27 @@
         "Sankha reader story published as preview; practitioner/Odia review and broader history gaps remain open.",
         "No audio, current booking or independent human review claimed.",
         "Eleven-route search eligibility unchanged."
+      ]
+    },
+    {
+      "id": "UTP-REV-221",
+      "title": "Huluhuli tongue-led visual and wording correction review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-253"
+      ],
+      "evidence": [
+        "records/huluhuli-tongue-correction-review-2026-10-12.json"
+      ],
+      "limitations": [
+        "Current assistant review; not independent practitioner review.",
+        "Still generated image suggests tongue posture but cannot show rapid movement or verify technique.",
+        "Original asset/receipts retained; no audio acquired."
       ]
     }
   ],

@@ -13,7 +13,7 @@ human_review_claimed: false
 
 Close your eyes and imagine a wedding threshold. A conch sounds. Above it rises a bright, rippling voice, then another. The room seems to lift.
 
-In Odisha, that sound has a name: **huluhuli**, also written **hulahuli**, ହୁଳହୁଳି. It is a form of ululation—a sustained vocal sound with a rapid trill, made through movements of the tongue. In the Odia settings documented here, women use it to welcome, celebrate and mark an auspicious moment. The voice itself becomes part of the ceremony.[^huluhuli-indiavideo][^huluhuli-thurston-1906]
+In Odisha, that sound has a name: **huluhuli**, also written **hulahuli**, ହୁଳହୁଳି. It is a form of ululation—a sustained vocal sound with a rapid trill, made through movements of the tongue. The trill comes from rapid tongue movement; simply opening the mouth does not create huluhuli. In the Odia settings documented here, women use it to welcome, celebrate and mark an auspicious moment. The voice itself becomes part of the ceremony.[^huluhuli-indiavideo][^huluhuli-thurston-1906]
 
 Listen to Odisha as closely as you look at it.
 

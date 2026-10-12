@@ -61,3 +61,7 @@ A Sounds of Odisha collection could connect huluhuli, conch, mahuri, mardala and
 - [An assertion of Oriya identity, OrissaPOST](https://www.orissapost.com/an-assertion-of-oriya-identity/)
 
 Historical scan SHA256: `96dcadb96e41e180b1f184e1cdc87294032fcb78bb5230e5bad327bfa1763b2d`. The large scan is a retrieved reference in temporary storage; not copied into the public repository.
+
+## Tongue-led depiction correction · 12 October 2026
+
+The Founder corrected the laughing-mouth artwork. India Video’s full page text was re-read; it describes tongue rolling in producing the trill. No new video playback or media licence claimed. Public text now states that opening the mouth alone does not create huluhuli; revised artwork remains imagined, not a verified technique demonstration. Original asset and provenance retained.
