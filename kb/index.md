@@ -200,3 +200,5 @@ Historical visitor-experience release: [PR 23 publication evidence](records/visi
 [Gotipua learning story](research/culture/gotipua.md) extends the existing nucleus with named teaching routes, rhythm and dated programme evidence; website adaptation is separate.
 
 [Gotipua website story](research/culture/gotipua-website.json) prepares a further-reading page from the source-reviewed learning narrative.
+
+[Sounds collection discovery](research/product/sounds-discovery.json) connects published stories and the listening notebook to Explore search.

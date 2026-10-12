@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `5cc90f93d4b937595befff527b23064f6ff5e50224d68d263c151433383f50fd`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `c44953b33165dbe22bcbcc697ef2ac7ea5cd6b23ba18b33fcf37d6b543e607cb`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -273,6 +273,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-260 · Sounds of Odisha continuous reading flow | completed | draft | Ahimanikya Satapathy | Sounds of Odisha reading flow published and checked live; continue other individual pages and authorised media research. | — |
 | UTP-WORK-261 · Gotipua learning and rhythm reader research | completed | draft | Ahimanikya Satapathy | KB draft delivered through checked PR222. Practitioner/child-performer/media context remains open; website adaptation separate. | — |
 | UTP-WORK-262 · Gotipua further-reading website story | completed | draft | Ahimanikya Satapathy | Full Gotipua reader story published and checked live; continue other individual pages and authorised media research. | — |
+| UTP-WORK-263 · Sounds of Odisha internal collection discovery | in_progress | draft | Ahimanikya Satapathy | Implement and verify the published sound stories in Explore search, then publish and save delivery evidence. | — |
 
 ## Pending human review and decisions
 
@@ -793,6 +794,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-228 | pass_with_limitations | False | Editorial collection order, not chronology, ranking or a confirmed visitor itinerary.; Targeted desktop/mobile and keyboard picker checks; not a full accessibility audit.; No new audio, facts, field review or search eligibility. |
 | UTP-REV-229 | pass_with_limitations | False | Current assistant desk review, not independent practitioner or child-performer review.; NCPA is a dated programme announcement, not verified performance occurrence; origin explanation attributed rather than certified.; Existing1924/1926 conflict retained; no new media, current access or interview.; KB-only draft extension; separate website adaptation remains pending. |
 | UTP-REV-230 | pass_with_limitations | False | Current assistant adaptation/source review, not independent practitioner or historical review.; No field encounter, identifiable child-performer image, recording permission or current booking.; Origin framework remains attributed;1924/1926 conflict preserved.; Separate further-reading route; existing eight-chapter flow and11-route search selection unchanged. |
+| UTP-REV-231 | pass_with_limitations | False | Source review reused from published reader stories; no fresh historical claims or field review.; Existing Odia strings retained; no new translated titles.; Search aliases are retrieval aids and do not establish equivalence or geography. |
 
 ## Publication and application history
 
@@ -941,7 +943,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-400 | 2026-10-12T09:11:40.660749+00:00 | Full Dhemsa reader story prepared using existing narrative and editorial listening panel. Item070 awaits checked publication. | Merge exact passing head, publish and verify live; save receipt. |
 | UTP-EVT-401 | 2026-10-12T09:20:15.050401+00:00 | Full Dhemsa reader story published via checked PR219 and main workflow; canonical text, source and collection links checked live. Item070 complete. | Continue individual story development; no audio acquired or new search eligibility. |
 | UTP-EVT-402 | 2026-10-12T10:16:08.578772+00:00 | Visitor listening notebook and blank download prepared from existing eight stories. Item071 awaits tested publication. | Verify guide/download, merge passing head, publish and check live. |
 | UTP-EVT-403 | 2026-10-12T10:28:15.791084+00:00 | Visitor listening notebook published via checked PR220 and main workflow; guide text, download bytes and eight reading routes checked live. Item071 complete. | Continue individual story development; no audio acquired or new search eligibility. |
@@ -951,6 +952,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-407 | 2026-10-12T14:29:57.136395+00:00 | Gotipua story and source dossier merged through checked PR222; fetched output hashes matched. Item073 completed; programme73/500. | Prepare separate website adaptation after editorial/media review; practitioner/audio follow-up remains open, website unchanged. |
 | UTP-EVT-408 | 2026-10-12T14:42:10.332500+00:00 | Full Gotipua website adaptation prepared as further reading, preserving source limits and eight-chapter flow. Item074 awaits tested publication. | Verify responsive story, merge passing head, publish and check live. |
 | UTP-EVT-409 | 2026-10-12T14:53:42.494719+00:00 | Full Gotipua reader story published via checked PR223 and main workflow; canonical text, source and collection links checked live. Item074 complete. | Continue individual story development; no audio acquired or new search eligibility. |
+| UTP-EVT-410 | 2026-10-12T15:38:46.188313+00:00 | Selected missing internal discovery: Explore has a collection notice but none of the sound story routes in its searchable entries. Item075 will add one coherent collection integration. | Implement and test internal search using already published records; external indexing remains separately governed. |
 
 ## Deferred extensions
 

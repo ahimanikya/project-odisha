@@ -1,0 +1,19 @@
+import config from '../../../../kb/research/product/sounds-discovery.json';
+import collection from '../../../../kb/research/culture/sounds-website.json';
+import huluhuli from '../../../../kb/research/culture/huluhuli-website.json';
+import sankha from '../../../../kb/research/culture/sankha-website.json';
+import mardala from '../../../../kb/research/culture/mardala-website.json';
+import dalkhai from '../../../../kb/research/culture/dalkhai-website.json';
+import daskathia from '../../../../kb/research/culture/daskathia-website.json';
+import ghanta_ghanti from '../../../../kb/research/culture/ghanta-ghanti-website.json';
+import pala from '../../../../kb/research/culture/pala-website.json';
+import dhemsa from '../../../../kb/research/culture/dhemsa-website.json';
+import gotipua from '../../../../kb/research/culture/gotipua-website.json';
+import notebook from '../../../../kb/research/culture/listening-notebook.json';
+
+const stories = {'collection': collection, 'huluhuli': huluhuli, 'sankha': sankha, 'mardala': mardala, 'dalkhai': dalkhai, 'daskathia': daskathia, 'ghanta-ghanti': ghanta_ghanti, 'pala': pala, 'dhemsa': dhemsa, 'gotipua': gotipua, 'notebook': notebook};
+// Read titles and introductions from the published story records.
+export const soundDiscoveryEntries = config.entries.map(entry => ({
+ label: stories[entry.id].title, dek: stories[entry.id].lead,
+ category: 'Living culture', href: entry.href, regions: entry.regions
+}));
