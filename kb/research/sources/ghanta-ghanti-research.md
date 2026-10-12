@@ -36,3 +36,7 @@ A useful future pair could show a single object being sounded and a named ensemb
 ## Editorial status
 
 Current-assistant desk review only; no independent human, maker or practitioner review. Origin, present-day performance roster and local vocabulary remain research gaps. Article and dossier are KB drafts; website and search eligibility unchanged.
+
+## Individual website adaptation ·12 October2026
+
+Existing full narrative adapted for an individual public reader route. D’source introduction and Museum main text were re-read. The2004 PDF could not be retrieved through the web tool this time; its prior full-text review and printed-page locator remain the basis, not a newly successful retrieval. Kalahandi row15 reuses the recently read district table. Source overlap, dated ritual scope and variable local terminology remain explicit. A typographic maker/player/occasion panel supplies editorial questions; no documentary image, audio or interview is simulated. Earlier KB-only scope records initial delivery; website release is separately evidenced.

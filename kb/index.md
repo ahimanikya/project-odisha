@@ -186,3 +186,5 @@ Historical visitor-experience release: [PR 23 publication evidence](records/visi
 [Mardala website story](research/culture/mardala-website.json) connects musicians, teaching and production credits with the Sounds of Odisha reader collection.
 
 [Daskathia website story](research/culture/daskathia-website.json) connects oral narrative, response and rhythm with the Sounds of Odisha reader collection.
+
+[Ghanta and ghanti website story](research/culture/ghanta-ghanti-website.json) connects metalworking, ritual and players with the Sounds of Odisha reader collection.

@@ -1,0 +1,77 @@
+{
+  "reviewed_at": "2026-10-12T07:05:33.616992+00:00",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "status": "pass_with_limitations",
+  "work_id": "UTP-WORK-256",
+  "program_item": "UTP-A500-068",
+  "authorization": "UTP-DEC-225",
+  "checks": [
+    "Research map and KB searched; existing narrative reused.",
+    "Dsource and Museum text re-read;2004 PDF retrieval unavailable, prior full-text review retained; Kalahandi row15 reused. Source overlap and local terminology limits preserved.",
+    "No image/audio acquired; editorial panel explicitly labelled as listening prompts.",
+    "Full text, listening order, sources and Sankha/Huluhuli paths tested."
+  ],
+  "verification": {
+    "source_review": [
+      "Research map and KB searched; existing narrative reused.",
+      "Dsource and Museum text re-read;2004 PDF retrieval unavailable, prior full-text review retained; Kalahandi row15 reused. Source overlap and local terminology limits preserved.",
+      "No image/audio acquired; editorial panel explicitly labelled as listening prompts.",
+      "Full text, listening order, sources and Sankha/Huluhuli paths tested."
+    ],
+    "local": {
+      "coast_tests": 99,
+      "passed": 99,
+      "responsive": "Desktop1280px and mobile375px inspected; body375/panel343, no overflow. Full reading flow and listening-list order verified.",
+      "publication": "11 indexable routes unchanged; final noindex requires live verification."
+    }
+  },
+  "limitations": [
+    "Practitioner/Odia review remains open; no independent human review.",
+    "Typographic panel contains editorial listening prompts, not a performance quotation or technique demonstration.",
+    "No audio/current class or booking confirmed; eleven-route search selection unchanged."
+  ],
+  "outputs": [
+    {
+      "path": "research/culture/ghanta-ghanti-website.json",
+      "sha256": "925e66dc816381974db80ead3e38662386ac7bb73d74ca3d45e0069b2c377701"
+    },
+    {
+      "path": "research/sources/ghanta-ghanti-research.md",
+      "sha256": "456c3250510dc18bcbe046dfdc4ff5ef51ac233fe938bfb62272dade1c552418"
+    },
+    {
+      "path": "research/culture/ghanta-ghanti.md",
+      "sha256": "b83e93f2e8d0685ad811eec28cd1b8fe181410b1e48030a5c6345d7d51bc9d77"
+    }
+  ],
+  "repository_outputs": [
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha/ghanta-ghanti.astro",
+      "sha256": "a04a8aac328d685e5aa60be55f41f726c9b14616bda8bd89b5c6fae00f8ae398"
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha.astro",
+      "sha256": "46416ab0ae0123d60e35cde73df8adbee1aa16b04aff302402f31575936444b7"
+    },
+    {
+      "path": "projects/site/editions/coast.json",
+      "sha256": "b04c9eec4e3a5c46fb5e492a5a993483a24c4762efbe0bb0539d1f3350690d47"
+    },
+    {
+      "path": "projects/site/editions/search-candidate.json",
+      "sha256": "45d0eaeaacb478db256f71dcdd739f6abde8c82eef2c3c338b3e139f2ea09a20"
+    },
+    {
+      "path": "projects/site/tests-coast/ghanta-ghanti-story.test.mjs",
+      "sha256": "352aadb4b9562c211e9f4d7983666dfb921893f1652168325ad5bf36e94ed5fe"
+    },
+    {
+      "path": "projects/site/tests/build.test.mjs",
+      "sha256": "697366b21371933a753cbbeb455555c3f6b9c88d1e15d3550f4793b86ecb1d5d"
+    }
+  ]
+}
