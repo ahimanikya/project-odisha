@@ -23,7 +23,7 @@ A sound can open a story before a photograph does. Follow voices, instruments an
 - [Mardala](mardala.md) — the player, the learning lineage and the conversation beneath the dance.
 - [Sankha ଶଙ୍ଖ](sankha.md) — the wedding threshold, Ganjam performance, Puri and the remembered voyage.
 
-All eight full articles are published, alongside the introductory collection, Gotipua further reading and the listening notebook. Publication receipts are linked below. The new lullaby article remains a KB draft. No audio archive is active; practitioner review remains open.
+All eight full articles are published, alongside the introductory collection, Gotipua further reading and the listening notebook. Publication receipts are linked below. Odia lullabies is also published as separate further reading. No audio archive is active; practitioner review remains open.
 
 ## Next research subjects
 
@@ -72,4 +72,4 @@ The [full Gotipua reader story](https://utkalproject.org/stories/gotipua/) is pu
 
 ## Childhood song research
 
-[Odia lullabies and the songs of childhood](odia-lullabies.md) is a new KB reader draft connecting family variants, Bala’s digitised collection and Panda’s account of writing for children. [Source dossier](../sources/odia-lullabies-research.json). Website adaptation, family testimony and audio review remain pending; the existing eight public chapters are unchanged.
+[Odia lullabies and the songs of childhood](odia-lullabies.md) connects family variants, Bala’s digitised collection and Panda’s account of writing for children. [Source dossier](../sources/odia-lullabies-research.json). The [website story](https://utkalproject.org/stories/odia-lullabies/) is published, with [delivery evidence](../../records/odia-lullabies-website-publication-2026-10-12.json). Family testimony and audio review remain pending; the existing eight public chapters are unchanged.

@@ -1,0 +1,89 @@
+{
+  "recorded_at": "2026-10-12T17:51:38.708841+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-077",
+  "work_id": "UTP-WORK-265",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/226",
+  "reviewed_head": "af61c9189f81f4a5af713cc32e7faa7bf4d517d5",
+  "merge_commit": "d1085f45faaf702c28d8f3951306846c4196c7bb",
+  "merged_at": "2026-10-12T17:48:07Z",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "af61c9189f81f4a5af713cc32e7faa7bf4d517d5",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38286359875"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "d1085f45faaf702c28d8f3951306846c4196c7bb",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38286640860",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-12T17:50:52.116824+00:00",
+    "page": "https://utkalproject.org/stories/odia-lullabies/",
+    "http_status": 200,
+    "page_sha256": "5d95f9516d8e9cbf54b89d4c9a931c4688e5df63511bdf6306d0e0c673d4d161",
+    "narrative_paragraphs_verified": 15,
+    "source_links_and_locators_verified": 4,
+    "noindex": true,
+    "collection_link_verified": true,
+    "related_links_verified": true,
+    "total_internal_cards": 101,
+    "lullaby_card_count": 1,
+    "discovery_aliases_verified": [
+      "Nanabaya Gita",
+      "Nida Mausi"
+    ],
+    "sitemap_entries": 11,
+    "external_search_selection_unchanged": true,
+    "browser": {
+      "query": "Nanabaya Gita returned exactly one visible result; clicked through to the published lullaby article.",
+      "article": "Live rendered narrative, heading and reading panel verified.",
+      "desktop": "1280x900 layout visually inspected; document and viewport widths both 1280.",
+      "screenshot": "/tmp/lullabies-live-desktop.png"
+    }
+  },
+  "review": "records/odia-lullabies-website-review-2026-10-12.json",
+  "outputs": [
+    {
+      "path": "kb/research/culture/odia-lullabies-website.json",
+      "sha256": "6b49ac1ccf88cf7154051848484a23ae79aafc0b250409173aa55a50774da6c0",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/stories/odia-lullabies.astro",
+      "sha256": "131e79e3f8fd02603cef9743f6f01d8372f1a7ab608fea3546b4de016223a986",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha.astro",
+      "sha256": "d7f875d6b58061da1ab81115d9feee5c6892030764095220e25415c55b13b71a",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/product/sounds-discovery.json",
+      "sha256": "ef6351a217a3d7bc192cb0ee68053356271d209569dc6bb1fe9e834bc56da084",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/discovery-aliases.json",
+      "sha256": "2255ebc3c9f0f4d95c7badec564bc958e65ba067a40cafa886662ca685eefb09",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/data/sounds-discovery.ts",
+      "sha256": "adbfc2810ee557c510b52687d39b4e5c4281dae57ede2daf758472e07508f65a",
+      "matches_fetched_merge": true
+    }
+  ],
+  "limitations": [
+    "Desk-researched reading story; independent Odia literary and family-context review remains open.",
+    "No family interview, audio, lyrics or media acquisition.",
+    "Further reading outside the eight-chapter trail; eleven external-search routes unchanged."
+  ],
+  "attachment": "App attachment attempted; failed because thread attachment identity count exceeds 100. PR retained here."
+}

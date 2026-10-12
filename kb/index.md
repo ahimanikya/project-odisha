@@ -203,4 +203,4 @@ Historical visitor-experience release: [PR 23 publication evidence](records/visi
 
 [Sounds collection discovery](research/product/sounds-discovery.json) connects published stories and the listening notebook to Explore search.
 
-- [Odia lullabies and childhood song · 12 October 2026](research/culture/odia-lullabies.md) — KB reader draft with digitised-book evidence and family-version questions; website adaptation pending.
+- [Odia lullabies and childhood song · 12 October 2026](research/culture/odia-lullabies.md) — Reader article with digitised-book evidence and family-version questions; [website publication verified](records/odia-lullabies-website-publication-2026-10-12.json).
