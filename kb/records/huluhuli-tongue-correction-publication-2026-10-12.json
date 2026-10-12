@@ -1,0 +1,72 @@
+{
+  "recorded_at": "2026-10-12T04:55:11.352559+00:00",
+  "authorization": "UTP-DEC-228",
+  "publication_authorization": "UTP-DEC-225",
+  "work_id": "UTP-WORK-253",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/214",
+  "reviewed_head": "65786ac12133a0e5af35ce92dea83f04ef5b7a48",
+  "merge_commit": "2df967ca9b7055bcc77c07a904faa9241c398eb3",
+  "merged_at": "2026-10-12T04:52:13Z",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "65786ac12133a0e5af35ce92dea83f04ef5b7a48",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38205370115"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "2df967ca9b7055bcc77c07a904faa9241c398eb3",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38205538356",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-12T04:54:50.139288+00:00",
+    "page": "https://utkalproject.org/sounds-of-odisha/huluhuli/",
+    "http_status": 200,
+    "full_canonical_reader_text_matches": true,
+    "source_links_present": true,
+    "imagined_artwork_provenance_present": true,
+    "collection_links_both_directions": true,
+    "noindex": true,
+    "sitemap_entries": 11,
+    "no_audio_or_research_appendix": true,
+    "image": {
+      "http_status": 200,
+      "sha256": "65db011239b3b0e76688e22d4092d722e1e6ac7d3e8bb3644e029ebfb90b9978",
+      "matches_reviewed_editorial_asset": true
+    },
+    "browser": "Desktop and375px mobile inspected locally; published revised hero image checked in browser."
+  },
+  "review": "records/huluhuli-tongue-correction-review-2026-10-12.json",
+  "outputs": [
+    {
+      "path": "kb/research/culture/huluhuli-website.json",
+      "sha256": "f66c4b764f00b58f9f7823349631c02fec374777075b0bcdb0e6ea55b860050b",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/culture/huluhuli.md",
+      "sha256": "d60b57dff5201ac9b466aefcc1f19a64406c5d4c3b34ae053ef181968cb37e44",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha/huluhuli.astro",
+      "sha256": "e26fd7e49746bac52efe82c39e0a1f18838fe7313e77ec0bc065e01d48ef231d",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/public/images/sounds/huluhuli-welcome-v2.webp",
+      "sha256": "65db011239b3b0e76688e22d4092d722e1e6ac7d3e8bb3644e029ebfb90b9978",
+      "matches_fetched_merge": true
+    }
+  ],
+  "limitations": [
+    "Imagined illustration; no practitioner-reviewed technique demonstration or audio.",
+    "Search eligibility unchanged.",
+    "Direct human correction; not counted as a new autonomous programme item."
+  ],
+  "attachment": "App attachment attempted; identity count exceeds100. PR preserved here."
+}
