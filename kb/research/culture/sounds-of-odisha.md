@@ -53,3 +53,5 @@ The [full Sankha reader story](https://utkalproject.org/sounds-of-odisha/sankha/
 The [full Mardala reader story](https://utkalproject.org/sounds-of-odisha/mardala/) is published; [delivery evidence](../../records/mardala-website-publication-2026-10-12.json). Other individual stories and audio remain follow-up.
 
 The [full Daskathia reader story](https://utkalproject.org/sounds-of-odisha/daskathia/) is published; [delivery evidence](../../records/daskathia-website-publication-2026-10-12.json). Other individual stories and audio remain follow-up.
+
+The [full Ghanta and ghanti reader story](https://utkalproject.org/sounds-of-odisha/ghanta-ghanti/) is published; [delivery evidence](../../records/ghanta-ghanti-website-publication-2026-10-12.json). Other individual stories and audio remain follow-up.

@@ -1,0 +1,73 @@
+{
+  "recorded_at": "2026-10-12T07:13:31.188593+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-068",
+  "work_id": "UTP-WORK-256",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/217",
+  "reviewed_head": "09eaa5c4f331fedf84e22ef7c02ae4fd795bae85",
+  "merge_commit": "c66c94d5116102195be4a147c15e2305ac149919",
+  "merged_at": "2026-10-12T07:10:16Z",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "09eaa5c4f331fedf84e22ef7c02ae4fd795bae85",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38216011324"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "c66c94d5116102195be4a147c15e2305ac149919",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38216272929",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-12T07:12:59.684012+00:00",
+    "page": "https://utkalproject.org/sounds-of-odisha/ghanta-ghanti/",
+    "http_status": 200,
+    "full_canonical_reader_text_matches": true,
+    "source_links_present": true,
+    "editorial_listening_panel_present": true,
+    "sankha_huluhuli_reading_paths": true,
+    "collection_links_both_directions": true,
+    "noindex": true,
+    "sitemap_entries": 11,
+    "no_audio_or_research_appendix": true,
+    "browser": "Published Ghanta and ghanti hero and listening panel inspected; full narrative and return link confirmed."
+  },
+  "review": "records/ghanta-ghanti-website-review-2026-10-12.json",
+  "outputs": [
+    {
+      "path": "kb/research/culture/ghanta-ghanti-website.json",
+      "sha256": "925e66dc816381974db80ead3e38662386ac7bb73d74ca3d45e0069b2c377701",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha/ghanta-ghanti.astro",
+      "sha256": "a04a8aac328d685e5aa60be55f41f726c9b14616bda8bd89b5c6fae00f8ae398",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha.astro",
+      "sha256": "46416ab0ae0123d60e35cde73df8adbee1aa16b04aff302402f31575936444b7",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/editions/coast.json",
+      "sha256": "b04c9eec4e3a5c46fb5e492a5a993483a24c4762efbe0bb0539d1f3350690d47",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/editions/search-candidate.json",
+      "sha256": "45d0eaeaacb478db256f71dcdd739f6abde8c82eef2c3c338b3e139f2ea09a20",
+      "matches_fetched_merge": true
+    }
+  ],
+  "limitations": [
+    "One full Ghanta and ghanti reader story; preserved research appendix stays in KB.",
+    "Practitioner/Odia review remains open; no audio or current class/event promise. Listening panel is editorial guidance, not a performance excerpt or technical sequence.",
+    "Existing eleven-route search eligibility retained; collection is noindex."
+  ],
+  "attachment": "App attachment attempted; failed because thread attachment identity count exceeds100. PR preserved here."
+}
