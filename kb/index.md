@@ -194,3 +194,5 @@ Historical visitor-experience release: [PR 23 publication evidence](records/visi
 [Dhemsa website story](research/culture/dhemsa-website.json) connects oral narrative, response and rhythm with the Sounds of Odisha reader collection.
 
 [Visitor listening notebook](research/culture/listening-notebook.json) turns Sounds of Odisha reading into careful preparation, observation and reflection.
+
+[Sounds reading flow](research/product/sounds-reading-flow.json) describes the continuous eight-story path and visitor-notebook ending.
