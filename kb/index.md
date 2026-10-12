@@ -190,3 +190,5 @@ Historical visitor-experience release: [PR 23 publication evidence](records/visi
 [Ghanta and ghanti website story](research/culture/ghanta-ghanti-website.json) connects metalworking, ritual and players with the Sounds of Odisha reader collection.
 
 [Dalkhai website story](research/culture/dalkhai-website.json) connects oral narrative, response and rhythm with the Sounds of Odisha reader collection.
+
+[Dhemsa website story](research/culture/dhemsa-website.json) connects oral narrative, response and rhythm with the Sounds of Odisha reader collection.

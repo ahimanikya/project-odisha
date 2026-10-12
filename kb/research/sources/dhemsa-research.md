@@ -33,3 +33,7 @@ A collective scene is explicitly imagined. All factual descriptions carry commun
 Ask willing participants to identify the village, community, occasion, local name and musical parts. Credit dancers and musicians separately. Ask whether a recording may be made, stored and published, including whether the occasion restricts circulation. Capture an explanation of a musical phrase with consent rather than adding generic stock audio.
 
 Community review, vocabulary, song texts and translations remain open. No outreach, field encounter, authorised media or current invitation claimed. Article is KB-only; website and search unchanged.
+
+## Individual website adaptation ·12 October2026
+
+Full existing narrative adapted for public reading. SCSTRTI Gadaba profile and Koraput Odyssey’s publication credit and Dhemsa passage re-read. Booklet locator remains printed40, zero-based PDFpage24 (the25th spread). The2022 festival description retains the Huluhuli dossier’s indexed-only limit; no new playback claimed. Editorial place/occasion/music questions replace any simulated documentary scene. No photographs, audio, lyrics or interviews acquired. Initial KB-only delivery remains historical; actual public release is separately evidenced.
