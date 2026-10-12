@@ -196,3 +196,5 @@ Historical visitor-experience release: [PR 23 publication evidence](records/visi
 [Visitor listening notebook](research/culture/listening-notebook.json) turns Sounds of Odisha reading into careful preparation, observation and reflection.
 
 [Sounds reading flow](research/product/sounds-reading-flow.json) describes the continuous eight-story path and visitor-notebook ending.
+
+[Gotipua learning story](research/culture/gotipua.md) extends the existing nucleus with named teaching routes, rhythm and dated programme evidence; website adaptation is separate.
