@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `f010b355fb1a70e655a3d55d0c9d501ef6695fdc6b310d9736574a86e029c3fd`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `eb5839a648326666af84551a84cf5fea51a12a8e8c1f0cecfec087d2c6ad9a0b`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -271,7 +271,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-258 · Full Dhemsa website reader story | completed | draft | Ahimanikya Satapathy | Full Dhemsa reader story published and checked live; continue other individual pages and authorised media research. | — |
 | UTP-WORK-259 · Sounds of Odisha visitor listening notebook | completed | draft | Ahimanikya Satapathy | Visitor listening notebook published and checked live; continue other individual pages and authorised media research. | — |
 | UTP-WORK-260 · Sounds of Odisha continuous reading flow | completed | draft | Ahimanikya Satapathy | Sounds of Odisha reading flow published and checked live; continue other individual pages and authorised media research. | — |
-| UTP-WORK-261 · Gotipua learning and rhythm reader research | in_progress | draft | Ahimanikya Satapathy | Extend existing nucleus, preserve evidence limits, merge reviewed draft. | — |
+| UTP-WORK-261 · Gotipua learning and rhythm reader research | completed | draft | Ahimanikya Satapathy | KB draft delivered through checked PR222. Practitioner/child-performer/media context remains open; website adaptation separate. | — |
 
 ## Pending human review and decisions
 
@@ -938,7 +938,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-397 | 2026-10-12T07:13:31.188593+00:00 | Full Ghanta and ghanti reader story published via checked PR217 and main workflow; canonical text, source and collection links checked live. Item068 complete. | Continue individual story development; no audio acquired or new search eligibility. |
 | UTP-EVT-398 | 2026-10-12T08:08:14.879650+00:00 | Full Dalkhai reader story prepared using existing narrative and editorial listening panel. Item069 awaits checked publication. | Merge exact passing head, publish and verify live; save receipt. |
 | UTP-EVT-399 | 2026-10-12T08:53:35.595977+00:00 | Full Dalkhai reader story published via checked PR218 and main workflow; canonical text, source and collection links checked live. Item069 complete. | Continue individual story development; no audio acquired or new search eligibility. |
 | UTP-EVT-400 | 2026-10-12T09:11:40.660749+00:00 | Full Dhemsa reader story prepared using existing narrative and editorial listening panel. Item070 awaits checked publication. | Merge exact passing head, publish and verify live; save receipt. |
@@ -948,6 +947,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-404 | 2026-10-12T11:18:49.004297+00:00 | Shared eight-story reading trail prepared; visible position, adjacent chapters, current-page picker and notebook ending tested. Item072 awaits checked publication. | Merge passing head, publish and verify all eight live trails. |
 | UTP-EVT-405 | 2026-10-12T11:26:20.393237+00:00 | Sounds of Odisha reading flow published via checked PR221 and main workflow; eight-page adjacency, position and current-page picker checked live. Item072 complete. | Continue individual story development; no audio acquired or new search eligibility. |
 | UTP-EVT-406 | 2026-10-12T12:21:23.003215+00:00 | Gotipua nucleus extended into source-linked learning/rhythm story; original retained. Item073 awaits checked KB merge; website adaptation separate. | Merge exact passing head and save KB-only delivery receipt. |
+| UTP-EVT-407 | 2026-10-12T14:29:57.136395+00:00 | Gotipua story and source dossier merged through checked PR222; fetched output hashes matched. Item073 completed; programme73/500. | Prepare separate website adaptation after editorial/media review; practitioner/audio follow-up remains open, website unchanged. |
 
 ## Deferred extensions
 
