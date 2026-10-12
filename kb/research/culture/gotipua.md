@@ -41,7 +41,7 @@ That account offers a way to listen while watching. A dancer’s gesture may be 
 
 NCPA’s programme for 15 March 2025 in Powai, Mumbai, announced Gotipua by Guru Bijay Kumar Sahoo and Nakshyatra Gurukul Trust. The organiser describes guru-led training and acrobatic bandha postures, while distinguishing Gotipua’s technique, costume and presentation from Odissi.[^gotipua-ncpa2025]
 
-This is a dated programme announcement, not a reviewed recording or confirmation that every advertised item occurred. It nevertheless supplies named credits and a concrete route by which the form was presented beyond Odisha. It is not a current booking offer.
+This is a dated programme announcement, not a reviewed recording or confirmation that every advertised item occurred. It nevertheless supplies named credits and a concrete route by which the form was advertised beyond Odisha. It is not a current booking offer.
 
 The page also gives a sixteenth-century origin explanation and calls Gotipua a precursor to Odissi. Treat that as the organiser’s historical framing, not a founding date certified by this article. Broader history requires comparison with archival and practitioner accounts; a neat timeline should not replace those questions.
 

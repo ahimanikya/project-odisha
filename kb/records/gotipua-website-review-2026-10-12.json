@@ -1,0 +1,76 @@
+{
+  "reviewed_at": "2026-10-12T14:42:10.332500+00:00",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "status": "pass_with_limitations",
+  "work_id": "UTP-WORK-262",
+  "program_item": "UTP-A500-074",
+  "authorization": "UTP-DEC-225",
+  "verification": {
+    "source_review": [
+      "Reuse source-reviewed Gotipua KB narrative and dossier from PR222.",
+      "All training dates, practitioner attribution, programme-versus-occurrence limits and origin uncertainty retained.",
+      "Earlier nucleus and footnote appendix stay in KB; public source list uses four inspected sources.",
+      "Changed presented to advertised in both KB and reader text, matching programme-only evidence."
+    ],
+    "local": {
+      "coast_tests": 104,
+      "passed": 104,
+      "responsive": "Desktop1280px and375px mobile inspected; no overflow.",
+      "search": "11-route selection unchanged."
+    }
+  },
+  "limitations": [
+    "Current assistant adaptation/source review, not independent practitioner or historical review.",
+    "No field encounter, identifiable child-performer image, recording permission or current booking.",
+    "Origin framework remains attributed;1924/1926 conflict preserved.",
+    "Separate further-reading route; existing eight-chapter flow and11-route search selection unchanged."
+  ],
+  "outputs": [
+    {
+      "path": "research/culture/gotipua-website.json",
+      "sha256": "4b1b12de33c5cb6e02609c2264070bab5aad33116c8c09ca7587f79e7e5f2dfa"
+    },
+    {
+      "path": "research/culture/gotipua.md",
+      "sha256": "3cb7445d25bbed172d2d4804d97c1440cc8726537317153867687997c62af556"
+    },
+    {
+      "path": "research/sources/gotipua-learning-research.json",
+      "sha256": "e38f82100afdf812ab74c9b00b8f7ed6a27fdd59316b8c45a867e5a9a38ad661"
+    }
+  ],
+  "repository_outputs": [
+    {
+      "path": "projects/site/src/pages/stories/gotipua.astro",
+      "sha256": "e674158caeaba99360b7abf273be701d2d2d8436bf7a794feaa851d2fd6121c1"
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha.astro",
+      "sha256": "47d9045bf58662ada4fa3c3805c6dc0500a199a7c44e64f0cda088ceec2ac28c"
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha/mardala.astro",
+      "sha256": "7dc76b98cc043630601c16ba9d7181a488fa35d87c1f74f74a8fd3c9bb4a90fa"
+    },
+    {
+      "path": "projects/site/editions/coast.json",
+      "sha256": "260f9ca4a3d794f241284d420d3cb05b0bbc6019de1ebbcf2cbaf2011f45aefc"
+    },
+    {
+      "path": "projects/site/editions/search-candidate.json",
+      "sha256": "4426a1d00f436c7a153b4dac7b7c3b82ed844af02f8bfdea8246745256a89c79"
+    },
+    {
+      "path": "projects/site/tests-coast/gotipua-story.test.mjs",
+      "sha256": "88572a9c07506e6d6558d6b20bb3353d842ea6b8339f29261edf307f030dc7e0"
+    },
+    {
+      "path": "projects/site/tests/build.test.mjs",
+      "sha256": "f6140b684ff2c0b0d5640e28c3e44692c9e63d31123c9c66636a116893ae5f1f"
+    }
+  ]
+}
