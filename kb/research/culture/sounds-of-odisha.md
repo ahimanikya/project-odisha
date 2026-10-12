@@ -23,7 +23,7 @@ A sound can open a story before a photograph does. Follow voices, instruments an
 - [Mardala](mardala.md) — the player, the learning lineage and the conversation beneath the dance.
 - [Sankha ଶଙ୍ଖ](sankha.md) — the wedding threshold, Ganjam performance, Puri and the remembered voyage.
 
-These are sourced KB drafts. They are not yet public website pages or an audio archive.
+These full articles remain sourced KB drafts. A condensed, illustrated introductory website collection is prepared in [website story data](sounds-website.json); its delivery status belongs in the publication receipt. No audio archive is active.
 
 ## Next research subjects
 
