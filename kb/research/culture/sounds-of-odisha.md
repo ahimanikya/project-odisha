@@ -51,3 +51,5 @@ The [full Huluhuli reader story](https://utkalproject.org/sounds-of-odisha/huluh
 The [full Sankha reader story](https://utkalproject.org/sounds-of-odisha/sankha/) is published; [delivery evidence](../../records/sankha-website-publication-2026-10-12.json). Other individual stories and audio remain follow-up.
 
 The [full Mardala reader story](https://utkalproject.org/sounds-of-odisha/mardala/) is published; [delivery evidence](../../records/mardala-website-publication-2026-10-12.json). Other individual stories and audio remain follow-up.
+
+The [full Daskathia reader story](https://utkalproject.org/sounds-of-odisha/daskathia/) is published; [delivery evidence](../../records/daskathia-website-publication-2026-10-12.json). Other individual stories and audio remain follow-up.
