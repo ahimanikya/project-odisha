@@ -166,3 +166,5 @@ Historical visitor-experience release: [PR 23 publication evidence](records/visi
 [Dhemsa](research/culture/dhemsa.md) connects group movement, community and place in Sounds of Odisha.
 
 [Sound recording model](models/sound-recording.md) connects source-linked listening briefs to honest capture, rights and accessibility states.
+
+[Sounds of Odisha website collection](research/culture/sounds-website.json) contains the introductory public-page candidate; full articles remain separate KB drafts.

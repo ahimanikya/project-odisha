@@ -1,0 +1,118 @@
+{
+  "reviewed_at": "2026-10-12T00:48:56.054921+00:00",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "status": "pass_with_limitations",
+  "work_id": "UTP-WORK-249",
+  "program_item": "UTP-A500-062",
+  "authorization": "UTP-DEC-225",
+  "checks": [
+    "Existing eight KB stories and source notes reused; condensed claims source-matched.",
+    "Pala photograph reused with matching hash and end credit/license.",
+    "Browser screenshot reviewed at desktop and375px;1920px width checked. No overflow at375/1920; image loaded1600px.",
+    "Eight chapter hash links and end disclosure verified through browser.",
+    "Full/coastal tests and publication build executed; exact outcomes retained in logs."
+  ],
+  "verification": {
+    "local_checks": [
+      "Existing eight KB stories and source notes reused; condensed claims source-matched.",
+      "Pala photograph reused with matching hash and end credit/license.",
+      "Browser screenshot reviewed at desktop and375px;1920px width checked. No overflow at375/1920; image loaded1600px.",
+      "Eight chapter hash links and end disclosure verified through browser.",
+      "Full/coastal tests and publication build executed; exact outcomes retained in logs."
+    ],
+    "visual_review": {
+      "browser": "Codex in-app browser",
+      "screenshots_inspected": [
+        {
+          "width": 1280,
+          "area": "hero"
+        },
+        {
+          "width": 375,
+          "area": "hero/mobile flow"
+        }
+      ],
+      "geometry": [
+        {
+          "width": 375,
+          "scroll_width": 375
+        },
+        {
+          "width": 1920,
+          "scroll_width": 1920
+        }
+      ],
+      "image_natural_width": 1600,
+      "chapter_count": 8,
+      "chapter_hash_verified": "#huluhuli",
+      "end_disclosure_open": true,
+      "limits": "No physical-device or screen-reader review claimed."
+    },
+    "repair_history": [
+      "Initial local build used obsolete default Node10; rerun with installed Node24.15.0.",
+      "Initial publication failed missing explicit search route decision; added hold, eleven indexable routes unchanged.",
+      "Full tests initially used coastal dist, then general route count needed increment for new collection; corrected fixed base76 to77."
+    ],
+    "tests": {
+      "full": {
+        "passed": 520,
+        "failed": 0
+      },
+      "coastal": {
+        "passed": 93,
+        "failed": 0
+      },
+      "publication_build": "limited mode,11 indexable pages"
+    }
+  },
+  "limitations": [
+    "Full articles remain KB drafts; this release is one introductory collection.",
+    "Practitioner/community/Odia review and authorised audio remain open.",
+    "No origin, current performance booking or independent human review claimed.",
+    "Search selection stays at eleven routes."
+  ],
+  "outputs": [
+    {
+      "path": "research/culture/sounds-website.json",
+      "sha256": "5ce87eb77eb90d56b2720913c75dba6d3557b151065c179b5953e05fed619839"
+    },
+    {
+      "path": "research/culture/sounds-of-odisha.md",
+      "sha256": "539fb073a8d9e44ab539b536a0c7d24cd5f837e8acbeff9499f605d89f7bb699"
+    }
+  ],
+  "repository_outputs": [
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha.astro",
+      "sha256": "2127677a81de7f0d8918d265a8bd2b7b3a858585a23412addfffc34750146ddd"
+    },
+    {
+      "path": "projects/site/src/pages/explore.astro",
+      "sha256": "f1fca2fa121a61dd27845cbace9a806b887e1d30bbdd2e70e813db26c543ea7b"
+    },
+    {
+      "path": "projects/site/editions/coast.json",
+      "sha256": "0c242996a9256347dcf6f4fb2473e048952cd560be4e611e6a17d8fc0b87a9bf"
+    },
+    {
+      "path": "projects/site/editions/search-candidate.json",
+      "sha256": "53b5d84f6a17344f4e91db05eec3e84a35d8e56d8008e9297eb493233275d24a"
+    },
+    {
+      "path": "projects/site/public/images/sounds/pala-nalconagar.webp",
+      "sha256": "8a0fc3f16e7091b1f0169f6a10992315ce8efab2bbc3cc5e953f8e802f21ef35"
+    },
+    {
+      "path": "projects/site/tests-coast/sounds.test.mjs",
+      "sha256": "63db7772ddc88d9084f15ec04a4552d183c77c16c30a6d6586ea9d1a51ed2b09"
+    },
+    {
+      "path": "projects/site/tests/build.test.mjs",
+      "sha256": "096e548961d44ae73d57fba7e0b1ba02f11ce876b5c1e0b9592f9f20626dd2bf"
+    }
+  ]
+}
