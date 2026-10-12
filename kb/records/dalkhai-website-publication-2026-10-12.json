@@ -1,0 +1,73 @@
+{
+  "recorded_at": "2026-10-12T08:53:35.595977+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-069",
+  "work_id": "UTP-WORK-257",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/218",
+  "reviewed_head": "3cab22828afac0c4436a56f505a94a23207b78a4",
+  "merge_commit": "43f5595583583f49c3e67a5659bdef602e49d219",
+  "merged_at": "2026-10-12T08:49:48Z",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "3cab22828afac0c4436a56f505a94a23207b78a4",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38221912897"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "43f5595583583f49c3e67a5659bdef602e49d219",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38226001166",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-12T08:52:57.161756+00:00",
+    "page": "https://utkalproject.org/sounds-of-odisha/dalkhai/",
+    "http_status": 200,
+    "full_canonical_reader_text_matches": true,
+    "source_links_present": true,
+    "editorial_listening_panel_present": true,
+    "sankha_mardala_reading_paths": true,
+    "collection_links_both_directions": true,
+    "noindex": true,
+    "sitemap_entries": 11,
+    "no_audio_or_research_appendix": true,
+    "browser": "Published Dalkhai hero and listening panel inspected; full narrative and return link confirmed."
+  },
+  "review": "records/dalkhai-website-review-2026-10-12.json",
+  "outputs": [
+    {
+      "path": "kb/research/culture/dalkhai-website.json",
+      "sha256": "0ae175d4a44b2e8a94390f8c04c24a65bef4778f23d6b4dd41afb2c28a67bcb1",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha/dalkhai.astro",
+      "sha256": "d02f7f40c7ee372946bb8eecb12e779eaa25e981fc132ee0cd5855e2920fb321",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha.astro",
+      "sha256": "bd63020f57fde577e3ac83b6de4cb457ee597d9bf927ae57676c3f4b34bba550",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/editions/coast.json",
+      "sha256": "bd2e1aee36902bac8f3333f0115de2886720ed0ed5c517e58d451131fdebea10",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/editions/search-candidate.json",
+      "sha256": "453d2131dd3b2cfcda58416459a52544419bf40f8329ea86c117f1f5ee9ebf01",
+      "matches_fetched_merge": true
+    }
+  ],
+  "limitations": [
+    "One full Dalkhai reader story; preserved research appendix stays in KB.",
+    "Practitioner/Odia review remains open; no audio or current class/event promise. Listening panel is editorial guidance, not a performance excerpt or technical sequence.",
+    "Existing eleven-route search eligibility retained; collection is noindex."
+  ],
+  "attachment": "App attachment attempted; failed because thread attachment identity count exceeds100. PR preserved here."
+}
