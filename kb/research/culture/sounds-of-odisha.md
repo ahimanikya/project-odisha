@@ -61,3 +61,5 @@ The [full Dalkhai reader story](https://utkalproject.org/sounds-of-odisha/dalkha
 The [full Dhemsa reader story](https://utkalproject.org/sounds-of-odisha/dhemsa/) is published; [delivery evidence](../../records/dhemsa-website-publication-2026-10-12.json). Other individual stories and audio remain follow-up.
 
 The [visitor listening notebook](https://utkalproject.org/sounds-of-odisha/listening-notebook/) is published; [delivery evidence](../../records/listening-notebook-publication-2026-10-12.json). Authorised recordings and practitioner review remain follow-up.
+
+The [Sounds reading flow](https://utkalproject.org/sounds-of-odisha/sounds-reading-flow/) is published; [delivery evidence](../../records/sounds-reading-flow-publication-2026-10-12.json). Other individual stories and audio remain follow-up.

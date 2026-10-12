@@ -5603,7 +5603,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Continue next eligible substantive item. 71 of500 delivered with linked evidence under DEC225.",
+      "next_action": "Continue next eligible substantive item. 72 of500 delivered with linked evidence under DEC225.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225"
@@ -7400,12 +7400,12 @@
       "id": "UTP-WORK-260",
       "title": "Sounds of Odisha continuous reading flow",
       "category": "website_and_knowledge",
-      "status": "in_progress",
+      "status": "completed",
       "readiness": "draft",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Implement shared trail, validate all eight boundaries and publish.",
+      "next_action": "Sounds of Odisha reading flow published and checked live; continue other individual pages and authorised media research.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225",
@@ -7415,7 +7415,8 @@
       "evidence": [
         "records/sounds-reading-flow-review-2026-10-12.json",
         "research/product/sounds-reading-flow.json",
-        "research/culture/sounds-website.json"
+        "research/culture/sounds-website.json",
+        "records/sounds-reading-flow-publication-2026-10-12.json"
       ],
       "acceptance_criteria": "Give the eight full Sounds of Odisha stories one coherent collection-order reading trail: visible position, previous/next story with descriptive titles, complete chapter picker with current-page state, and a notebook ending after the last story. Reuse collection order, not an invented historical chronology. Replace each page’s competing generic onward link with the shared trail while retaining topic-specific contextual links and source notes. Test actual rendered adjacency, boundaries, current-page accessibility and all route targets on eight pages; inspect desktop/mobile and keyboard access. Exact-head PR checks, approved main deployment, live rendered trail on all eight and unchanged11-route sitemap; receipt before counting."
     }
@@ -18958,6 +18959,22 @@
         "records/listening-notebook-publication-2026-10-12.json"
       ],
       "note": "Guide and download published via PR220; canonical text, before/during/after guidance, blank download and reading paths checked live."
+    },
+    {
+      "id": "UTP-REL-104",
+      "title": "Sounds of Odisha reading flow published",
+      "status": "published",
+      "authorization": "UTP-DEC-225",
+      "destination": "https://utkalproject.org/sounds-of-odisha/",
+      "refs": [
+        "UTP-WORK-260",
+        "UTP-REV-228",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/sounds-reading-flow-publication-2026-10-12.json"
+      ],
+      "note": "Shared trail published via PR221; positions, adjacency, current-page states and all eight routes checked live."
     }
   ],
   "sources": [
