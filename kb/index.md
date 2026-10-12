@@ -168,3 +168,5 @@ Historical visitor-experience release: [PR 23 publication evidence](records/visi
 [Sound recording model](models/sound-recording.md) connects source-linked listening briefs to honest capture, rights and accessibility states.
 
 [Sounds of Odisha website collection](research/culture/sounds-website.json) contains the introductory public-page candidate; full articles remain separate KB drafts.
+
+[Sounds of Odisha introductory collection](https://utkalproject.org/sounds-of-odisha/) is now public; [publication receipt](records/sounds-website-publication-2026-10-12.json). Full article pages and audio remain follow-up.

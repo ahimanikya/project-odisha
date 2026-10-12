@@ -41,3 +41,5 @@ Begin with a clearly imagined scene or an evidenced encounter. Explain the sound
 [Collection research model and recording questions](../sources/sankha-research.md#proposed-collection-record).
 
 [Recording model](../../models/sound-recording.md) · [Eight proposed listening briefs](../../records/sound-recording-briefs.json). No audio acquired or archive activated.
+
+The [introductory website collection](https://utkalproject.org/sounds-of-odisha/) is published; [delivery evidence](../../records/sounds-website-publication-2026-10-12.json). Full individual articles and audio remain separate follow-up.

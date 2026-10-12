@@ -1,0 +1,82 @@
+{
+  "recorded_at": "2026-10-12T00:57:51.103427+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-062",
+  "work_id": "UTP-WORK-249",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/210",
+  "reviewed_head": "a805c37b710189f3fcfc5324d63c543fdad0c166",
+  "merge_commit": "86c2b719582ef3ff0f1875b1437449f42617a8c6",
+  "merged_at": "2026-10-12T00:54:12Z",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "a805c37b710189f3fcfc5324d63c543fdad0c166",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38189625075"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "86c2b719582ef3ff0f1875b1437449f42617a8c6",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38189794436",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-12T00:57:09.007664+00:00",
+    "page": "https://utkalproject.org/sounds-of-odisha/",
+    "http_status": 200,
+    "eight_chapters_match_canonical_paragraphs": true,
+    "source_links_present": true,
+    "noindex": true,
+    "no_audio_element": true,
+    "sitemap_entries": 11,
+    "discovery_link": "/explore/",
+    "image": {
+      "url": "https://utkalproject.org/images/sounds/pala-nalconagar.webp",
+      "http_status": 200,
+      "sha256": "8a0fc3f16e7091b1f0169f6a10992315ce8efab2bbc3cc5e953f8e802f21ef35",
+      "matches_tested_bytes": true
+    },
+    "browser": "Published hero screenshot inspected;8 chapters and1600px loaded image confirmed."
+  },
+  "review": "records/sounds-website-review-2026-10-12.json",
+  "outputs": [
+    {
+      "path": "kb/research/culture/sounds-website.json",
+      "sha256": "5ce87eb77eb90d56b2720913c75dba6d3557b151065c179b5953e05fed619839",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha.astro",
+      "sha256": "2127677a81de7f0d8918d265a8bd2b7b3a858585a23412addfffc34750146ddd",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/explore.astro",
+      "sha256": "f1fca2fa121a61dd27845cbace9a806b887e1d30bbdd2e70e813db26c543ea7b",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/public/images/sounds/pala-nalconagar.webp",
+      "sha256": "8a0fc3f16e7091b1f0169f6a10992315ce8efab2bbc3cc5e953f8e802f21ef35",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/editions/coast.json",
+      "sha256": "0c242996a9256347dcf6f4fb2473e048952cd560be4e611e6a17d8fc0b87a9bf",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/editions/search-candidate.json",
+      "sha256": "53b5d84f6a17344f4e91db05eec3e84a35d8e56d8008e9297eb493233275d24a",
+      "matches_fetched_merge": true
+    }
+  ],
+  "limitations": [
+    "One introductory collection, not eight full article releases.",
+    "Practitioner/community/Odia review remains open; no audio or current event promise.",
+    "Existing eleven-route search eligibility retained; collection is noindex."
+  ],
+  "attachment": "App attachment attempted; failed because thread attachment identity count exceeds100. PR preserved here."
+}
