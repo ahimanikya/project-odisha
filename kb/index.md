@@ -184,3 +184,5 @@ Historical visitor-experience release: [PR 23 publication evidence](records/visi
 [Full Sankha article](https://utkalproject.org/sounds-of-odisha/sankha/) is published with imagined Human Natural artwork; [receipt](records/sankha-website-publication-2026-10-12.json).
 
 [Mardala website story](research/culture/mardala-website.json) connects musicians, teaching and production credits with the Sounds of Odisha reader collection.
+
+[Daskathia website story](research/culture/daskathia-website.json) connects oral narrative, response and rhythm with the Sounds of Odisha reader collection.
