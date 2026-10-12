@@ -45,3 +45,5 @@ Begin with a clearly imagined scene or an evidenced encounter. Explain the sound
 The [introductory website collection](https://utkalproject.org/sounds-of-odisha/) is published; [delivery evidence](../../records/sounds-website-publication-2026-10-12.json). Full individual articles and audio remain separate follow-up.
 
 The [full Pala reader story](https://utkalproject.org/sounds-of-odisha/pala/) is published; [delivery evidence](../../records/pala-website-publication-2026-10-12.json). Other individual stories and audio remain follow-up.
+
+The [full Huluhuli reader story](https://utkalproject.org/sounds-of-odisha/huluhuli/) is published; [delivery evidence](../../records/huluhuli-website-publication-2026-10-12.json). Other individual stories and audio remain follow-up.

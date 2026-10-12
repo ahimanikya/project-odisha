@@ -115,3 +115,7 @@ Source passages, access limitations and unresolved literary leads are recorded i
 
 [^huluhuli-identity-2015]: [An assertion of Oriya identity, OrissaPOST](https://www.orissapost.com/an-assertion-of-oriya-identity/).
 
+
+## Website publication · 12 October 2026
+
+The full reader article is now [published](https://utkalproject.org/sounds-of-odisha/huluhuli/); [receipt](../../records/huluhuli-website-publication-2026-10-12.json). Its Human Natural editorial artwork is explicitly imagined, not field documentation. Source limits and practitioner/language review remain open.

@@ -1,0 +1,84 @@
+{
+  "recorded_at": "2026-10-12T03:04:54.513251+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-064",
+  "work_id": "UTP-WORK-251",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/212",
+  "reviewed_head": "bd85aef780bc9f75fb34a501669c650076493c35",
+  "merge_commit": "23174123c0cb5ebd80ab135cde8f737cf5c44bce",
+  "merged_at": "2026-10-12T02:55:07Z",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "bd85aef780bc9f75fb34a501669c650076493c35",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38197502315"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "23174123c0cb5ebd80ab135cde8f737cf5c44bce",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38197686146",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true,
+    "dispatch_note": "Dispatch client returned connection reset, but run history confirmed the matching head and successful run38197686146. No duplicate dispatch submitted."
+  },
+  "live": {
+    "checked_at": "2026-10-12T03:03:52.574030+00:00",
+    "page": "https://utkalproject.org/sounds-of-odisha/huluhuli/",
+    "http_status": 200,
+    "full_canonical_reader_text_matches": true,
+    "source_links_present": true,
+    "imagined_artwork_provenance_present": true,
+    "collection_links_both_directions": true,
+    "noindex": true,
+    "sitemap_entries": 11,
+    "no_audio_or_research_appendix": true,
+    "image": {
+      "http_status": 200,
+      "sha256": "212b94160bfd1cd52541dade2c734e87218c9b25dda3bd8b97c93e2d819fcef4",
+      "matches_reviewed_editorial_asset": true
+    },
+    "browser": "Published Huluhuli hero screenshot inspected;1536px image and return link confirmed."
+  },
+  "review": "records/huluhuli-website-review-2026-10-12.json",
+  "outputs": [
+    {
+      "path": "kb/research/culture/huluhuli-website.json",
+      "sha256": "0926d8216ce722bfe6fd13b4e19460a570be6401e6ef9f068bcd176785ee0e4d",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha/huluhuli.astro",
+      "sha256": "3f6e5055c3a87a05f4dbe9c86b5f3839cecf5760c1580cb53a8e14c3ce7c8de8",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha.astro",
+      "sha256": "3e7d6e478a963ed3acdb2e2564e4537a4fe421f0139e1fafb5c902e58ba18c93",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/public/images/sounds/huluhuli-welcome.webp",
+      "sha256": "212b94160bfd1cd52541dade2c734e87218c9b25dda3bd8b97c93e2d819fcef4",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/editions/coast.json",
+      "sha256": "96096182aa4160eb155acb8b4c28c5f9670432a2fd42de6cb7e4f1e262a40cda",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/editions/search-candidate.json",
+      "sha256": "cf64c579f27b56838360e0cb514b261d94d4df6fba820fc5afc18eabcfbf3a88",
+      "matches_fetched_merge": true
+    }
+  ],
+  "limitations": [
+    "One full Huluhuli reader story; preserved research appendix stays in KB.",
+    "Practitioner/community/Odia review remains open; no audio or current event promise.",
+    "Existing eleven-route search eligibility retained; collection is noindex."
+  ],
+  "attachment": "App attachment attempted; failed because thread attachment identity count exceeds100. PR preserved here.",
+  "art_provenance": "records/huluhuli-art-provenance-2026-10-12.json"
+}
