@@ -1,0 +1,18 @@
+---
+import collection from '../../../../kb/research/culture/sounds-website.json';
+const {slug}=Astro.props;
+const chapters=collection.chapters;
+const index=chapters.findIndex(c=>c.id===slug);
+if(index<0) throw new Error('Unknown Sounds of Odisha chapter: '+slug);
+const previous=chapters[index-1],next=chapters[index+1];
+const href=c=>'/sounds-of-odisha/'+c.id+'/';
+---
+<nav class="sounds-reading-trail" aria-labelledby="sounds-trail-heading">
+<p class="eyebrow">Sounds of Odisha · Story {index+1} of {chapters.length}</p>
+<h2 id="sounds-trail-heading">{next?'Keep listening.':'Carry the questions with you.'}</h2>
+<div class="trail-adjacent"><a rel="prev" href={previous?href(previous):'/sounds-of-odisha/'}><span>← {previous?'Previous story':'The collection'}</span><strong>{previous?previous.name:'Sounds of Odisha'}</strong></a><a rel={next?'next':undefined} href={next?href(next):'/sounds-of-odisha/listening-notebook/'}><span>{next?'Next story':'After the stories'} →</span><strong>{next?next.name:'Your listening notebook'}</strong><small>{next?next.title:'Prepare for a willing encounter. Keep observation and explanation separate.'}</small></a></div>
+<details class="trail-picker"><summary>Choose another story</summary><ol>{chapters.map(c=><li><a href={href(c)} aria-current={c.id===slug?'page':undefined}>{c.name}{c.id===slug&&<span class="current-note"> · You are here</span>}</a></li>)}</ol><a href="/sounds-of-odisha/listening-notebook/">Take a listening notebook →</a></details>
+</nav>
+<style>
+.sounds-reading-trail{border-top:1px solid var(--line);margin:48px 0 0;padding:28px 0}.sounds-reading-trail h2{font-size:clamp(30px,3vw,44px);line-height:1.2;margin:12px 0 24px}.trail-adjacent{display:grid;grid-template-columns:1fr 1fr;gap:24px}.trail-adjacent>a{display:flex;flex-direction:column;gap:10px;padding:20px;border:1px solid var(--line);text-decoration:none}.trail-adjacent span{font-size:14px;color:var(--muted)}.trail-adjacent strong{font-family:var(--font-editorial,Georgia,serif);font-size:26px;line-height:1.3;font-weight:400}.trail-adjacent small{font-size:16px;line-height:1.6}.trail-adjacent>a:hover{background:var(--paper,#f4ede1)}.trail-adjacent>a:focus-visible,.trail-picker a:focus-visible,.trail-picker summary:focus-visible{outline:3px solid var(--sea);outline-offset:4px}.trail-picker{margin:24px 0;font-size:16px}.trail-picker summary{cursor:pointer;padding:12px 0}.trail-picker ol{display:grid;grid-template-columns:1fr 1fr;gap:8px 28px;padding-left:24px}.trail-picker a[aria-current=page]{font-weight:700}.current-note{font-size:13px;color:var(--muted)}@media(max-width:600px){.trail-adjacent,.trail-picker ol{grid-template-columns:1fr}.trail-adjacent{gap:14px}.sounds-reading-trail{margin-top:32px}.trail-adjacent>a{padding:18px}}@media print{.trail-picker{display:none}.sounds-reading-trail{break-inside:avoid}}
+</style>

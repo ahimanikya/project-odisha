@@ -7395,6 +7395,29 @@
         "records/listening-notebook-publication-2026-10-12.json"
       ],
       "acceptance_criteria": "Publish a distinct visitor listening notebook that turns the eight Sounds of Odisha stories into a before/during/after reading and observation guide. Reuse existing article questions and context, clearly separate observations from participant explanations, preserve source/local limits and no-event/no-audio status. Provide a readable print layout and downloadable blank text notebook without collecting user data, connect collection and all eight full stories. Test actual generated text/download and all routes; inspect desktop/mobile/print CSS; passing exact-head PR, approved main deployment, actual live text/download and unchanged11-route sitemap; save receipt before counting."
+    },
+    {
+      "id": "UTP-WORK-260",
+      "title": "Sounds of Odisha continuous reading flow",
+      "category": "website_and_knowledge",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Implement shared trail, validate all eight boundaries and publish.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-075",
+        "UTP-REV-228"
+      ],
+      "evidence": [
+        "records/sounds-reading-flow-review-2026-10-12.json",
+        "research/product/sounds-reading-flow.json",
+        "research/culture/sounds-website.json"
+      ],
+      "acceptance_criteria": "Give the eight full Sounds of Odisha stories one coherent collection-order reading trail: visible position, previous/next story with descriptive titles, complete chapter picker with current-page state, and a notebook ending after the last story. Reuse collection order, not an invented historical chronology. Replace each page’s competing generic onward link with the shared trail while retaining topic-specific contextual links and source notes. Test actual rendered adjacency, boundaries, current-page accessibility and all route targets on eight pages; inspect desktop/mobile and keyboard access. Exact-head PR checks, approved main deployment, live rendered trail on all eight and unchanged11-route sitemap; receipt before counting."
     }
   ],
   "decisions": [
@@ -17211,6 +17234,27 @@
         "Editorial guide derived from existing articles; no field encounter or practitioner review.",
         "No audio, confirmed event or permission acquired. Blank text download is a personal note aid, not a rights-clearance form.",
         "Print CSS inspected; native A4/Letter output not yet verified. Eleven-route search selection unchanged."
+      ]
+    },
+    {
+      "id": "UTP-REV-228",
+      "title": "Sounds of Odisha reading trail review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-260"
+      ],
+      "evidence": [
+        "records/sounds-reading-flow-review-2026-10-12.json"
+      ],
+      "limitations": [
+        "Editorial collection order, not chronology, ranking or a confirmed visitor itinerary.",
+        "Targeted desktop/mobile and keyboard picker checks; not a full accessibility audit.",
+        "No new audio, facts, field review or search eligibility."
       ]
     }
   ],
