@@ -1,0 +1,83 @@
+{
+  "recorded_at": "2026-10-12T05:15:44.791987+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-066",
+  "work_id": "UTP-WORK-254",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/215",
+  "reviewed_head": "5b60773c375c89f6dcb6d4265b25f12b652c4682",
+  "merge_commit": "535e13f545ea0b208728cfeb64ed100a7b5f6a8f",
+  "merged_at": "2026-10-12T05:12:50Z",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "5b60773c375c89f6dcb6d4265b25f12b652c4682",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38206806494"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "535e13f545ea0b208728cfeb64ed100a7b5f6a8f",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38206971789",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-12T05:15:22.985267+00:00",
+    "page": "https://utkalproject.org/sounds-of-odisha/mardala/",
+    "http_status": 200,
+    "full_canonical_reader_text_matches": true,
+    "source_links_present": true,
+    "imagined_artwork_context_present": true,
+    "listening_prompts_ordered": true,
+    "collection_links_both_directions": true,
+    "noindex": true,
+    "sitemap_entries": 11,
+    "no_audio_or_research_appendix": true,
+    "image": {
+      "http_status": 200,
+      "sha256": "c0cf4cf310ecf1e21c10c52b743d5c140d32811efc1728025e573125d12c6545",
+      "matches_reviewed_existing_asset": true
+    },
+    "browser": "Published Mardala hero screenshot inspected;1536px image and return link confirmed."
+  },
+  "review": "records/mardala-website-review-2026-10-12.json",
+  "outputs": [
+    {
+      "path": "kb/research/culture/mardala-website.json",
+      "sha256": "ec8a81326f55bbb4609250aa6d41f6cd786d9114d3eb224aeb18333f2e6a3d5e",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha/mardala.astro",
+      "sha256": "16413442576c1a821517f83285ea24a7ded960d0fc31e622ddb052fc191be460",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha.astro",
+      "sha256": "832922ee316eab6797b67996ee9d404f323aedf84db51784e34dd457d8351bb5",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/public/assets/home-art/odissi-rehearsal-v1.webp",
+      "sha256": "c0cf4cf310ecf1e21c10c52b743d5c140d32811efc1728025e573125d12c6545",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/editions/coast.json",
+      "sha256": "509cd7e922f17a57bb1a40a5213a8255ede8ebdc385f9e339b5b3cc0047f10b8",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/editions/search-candidate.json",
+      "sha256": "c9a0e60ae5932f6228b27f62bd4ad3240dce17db83066645a3d1ae558c04773e",
+      "matches_fetched_merge": true
+    }
+  ],
+  "limitations": [
+    "One full Mardala reader story; preserved research appendix stays in KB.",
+    "Practitioner/Odia review remains open; no audio or current class/event promise. Existing imagined rehearsal is contextual, not evidence of named musicians or Mardala technique.",
+    "Existing eleven-route search eligibility retained; collection is noindex."
+  ],
+  "attachment": "App attachment attempted; failed because thread attachment identity count exceeds100. PR preserved here."
+}
