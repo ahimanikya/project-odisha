@@ -1,0 +1,31 @@
+{
+  "reviewed_at": "2026-10-12T17:38:25.963377+00:00",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "status": "pass_with_limitations",
+  "work_id": "UTP-WORK-265",
+  "program_item": "UTP-A500-077",
+  "authorization": "UTP-DEC-225",
+  "verification": {
+    "source_review": "Existing article and source dossier re-read; narrative paragraphs preserved with footnote markers removed and source links placed at end. No new historical claims.",
+    "local_checks": "Coast build passed; all 109 coast tests passed, including full narrative/source parity, discovery aliases, collection link and noindex checks. Full draft build and all 520 full-draft tests passed after correcting the page-count expectation. Publication build retained eleven indexable routes.",
+    "visual": {
+      "desktop": "1280x900: two-column hero and reading panel clear; document width 1280, no overflow.",
+      "mobile": "390x844: stacked heading and panel clear; document width 390, no overflow.",
+      "keyboard": "Enter on Sources & reading notes expands disclosure and exposes all four source links and edition limits.",
+      "screenshots": [
+        "/tmp/lullabies-desktop.png",
+        "/tmp/lullabies-mobile.png"
+      ]
+    },
+    "ci_repair": "Initial PR226 check found full-draft expected page count 163 versus actual 164 after the new route. Updated fixed-route base 87 to 88; full link and fragment checks retained. New-head validation required."
+  },
+  "limitations": [
+    "Existing source review reused; current assistant is not an independent Odia literary or family reviewer.",
+    "No family testimony, audio, image or verse translation added.",
+    "Further reading remains outside the eight-chapter trail and eleven-route external search selection."
+  ]
+}
