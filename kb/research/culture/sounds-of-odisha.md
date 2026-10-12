@@ -43,3 +43,5 @@ Begin with a clearly imagined scene or an evidenced encounter. Explain the sound
 [Recording model](../../models/sound-recording.md) · [Eight proposed listening briefs](../../records/sound-recording-briefs.json). No audio acquired or archive activated.
 
 The [introductory website collection](https://utkalproject.org/sounds-of-odisha/) is published; [delivery evidence](../../records/sounds-website-publication-2026-10-12.json). Full individual articles and audio remain separate follow-up.
+
+The [full Pala reader story](https://utkalproject.org/sounds-of-odisha/pala/) is published; [delivery evidence](../../records/pala-website-publication-2026-10-12.json). Other individual stories and audio remain follow-up.

@@ -1,0 +1,82 @@
+{
+  "recorded_at": "2026-10-12T01:59:15.063045+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-063",
+  "work_id": "UTP-WORK-250",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/211",
+  "reviewed_head": "f51cdd5a526adbc2add56953ec4ee4a5482fd34d",
+  "merge_commit": "16ff1e6571e0fd306aa059ef8154e996297e6c82",
+  "merged_at": "2026-10-12T01:55:03Z",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "f51cdd5a526adbc2add56953ec4ee4a5482fd34d",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38193561452"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "16ff1e6571e0fd306aa059ef8154e996297e6c82",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38193745479",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-12T01:58:11.826313+00:00",
+    "page": "https://utkalproject.org/sounds-of-odisha/pala/",
+    "http_status": 200,
+    "full_canonical_reader_text_matches": true,
+    "source_links_present": true,
+    "list_before_closing_paragraphs": true,
+    "collection_links_both_directions": true,
+    "noindex": true,
+    "sitemap_entries": 11,
+    "no_audio_or_research_appendix": true,
+    "image": {
+      "http_status": 200,
+      "sha256": "8a0fc3f16e7091b1f0169f6a10992315ce8efab2bbc3cc5e953f8e802f21ef35",
+      "matches_saved_licensed_asset": true
+    },
+    "browser": "Published Pala hero screenshot inspected;1600px image and return link confirmed."
+  },
+  "review": "records/pala-website-review-2026-10-12.json",
+  "outputs": [
+    {
+      "path": "kb/research/culture/pala-website.json",
+      "sha256": "87691d8d3d32ef48e1e7015cdfa4e6974d0d4de1541f577be049e8c02ada5d94",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha/pala.astro",
+      "sha256": "a7f6b6f1f8e51d9aa033602223c0cd7a7598d4c018cf2964ec1a6cd0c573af62",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha.astro",
+      "sha256": "7f09a8c2a4ee0d3f47c7ea57a3ec401e5a3a750f6598fc4115113713f20b1dd5",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/public/images/sounds/pala-nalconagar.webp",
+      "sha256": "8a0fc3f16e7091b1f0169f6a10992315ce8efab2bbc3cc5e953f8e802f21ef35",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/editions/coast.json",
+      "sha256": "87157233383f93e7a90f74caaa935904352de62d18eb2e2379ac87bf7082b2b9",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/editions/search-candidate.json",
+      "sha256": "61f7e8d737c5d53e77a7ba34451220e6b34c215955b5110534b4edcdfbeff562",
+      "matches_fetched_merge": true
+    }
+  ],
+  "limitations": [
+    "One full Pala reader story; preserved research appendix stays in KB.",
+    "Practitioner/community/Odia review remains open; no audio or current event promise.",
+    "Existing eleven-route search eligibility retained; collection is noindex."
+  ],
+  "attachment": "App attachment attempted; failed because thread attachment identity count exceeds100. PR preserved here."
+}

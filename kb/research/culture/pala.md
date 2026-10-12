@@ -115,3 +115,7 @@ Recover the two government PDFs; verify performer biographies and women’s part
 ## Source recovery follow-up · 1 October 2026
 
 The Behera award citation has now been retrieved and its one-page text checked. The earlier indexed-only limitation is resolved for that citation alone; see its [updated source record](../sources/pala-sna-behera2009.md). Dash’s 2011 paper remains a full-text gap: direct retrieval encountered an expired TLS certificate, and the search service could not fetch the full issue. No certificate check was disabled. A [feature draft](pala-feature-draft.json) is prepared for editorial development; it is not included in the public website edition.
+
+## Reader-story publication · 12 October 2026
+
+The full opening reader story is now [published](https://utkalproject.org/sounds-of-odisha/pala/); [receipt](../../records/pala-website-publication-2026-10-12.json). The preserved research overview remains KB context, and broader history/practitioner review stays open. Earlier draft-only notices record preparation history.
