@@ -63,3 +63,7 @@ The [full Dhemsa reader story](https://utkalproject.org/sounds-of-odisha/dhemsa/
 The [visitor listening notebook](https://utkalproject.org/sounds-of-odisha/listening-notebook/) is published; [delivery evidence](../../records/listening-notebook-publication-2026-10-12.json). Authorised recordings and practitioner review remain follow-up.
 
 The [Sounds reading flow](https://utkalproject.org/sounds-of-odisha/sounds-reading-flow/) is published; [delivery evidence](../../records/sounds-reading-flow-publication-2026-10-12.json). Other individual stories and audio remain follow-up.
+
+## Further learning in the KB
+
+[Gotipua: beyond the acrobatic moment](gotipua.md) follows named learning routes, rhythm and a dated programme. This is a KB draft; it is not a ninth public chapter or a confirmed performance.
