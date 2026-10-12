@@ -1,0 +1,157 @@
+{
+  "recorded_at": "2026-10-12T15:52:27.156728+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-075",
+  "work_id": "UTP-WORK-263",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/224",
+  "reviewed_head": "8385769fa8bad76c7d7a5c763250ee602f507a11",
+  "merge_commit": "108b3a64d2db2c030e8c2765285176cde0abf3b7",
+  "merged_at": "2026-10-12T15:48:02Z",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "8385769fa8bad76c7d7a5c763250ee602f507a11",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38272542084"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "108b3a64d2db2c030e8c2765285176cde0abf3b7",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38272879857",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-12T15:51:08.082707+00:00",
+    "page": "https://utkalproject.org/explore/?q=Sounds%20of%20Odisha",
+    "http_status": 200,
+    "explore_sha256": "5db60cd176951ac3c216e9955a140ce47b3353f96e2ce57a2cd998f27bfa7323",
+    "total_internal_cards": 100,
+    "new_collection_entries": [
+      {
+        "route": "/sounds-of-odisha/",
+        "http_status": 200,
+        "noindex": true,
+        "canonical_intro_matches": true
+      },
+      {
+        "route": "/sounds-of-odisha/huluhuli/",
+        "http_status": 200,
+        "noindex": true,
+        "canonical_intro_matches": true
+      },
+      {
+        "route": "/sounds-of-odisha/sankha/",
+        "http_status": 200,
+        "noindex": true,
+        "canonical_intro_matches": true
+      },
+      {
+        "route": "/sounds-of-odisha/mardala/",
+        "http_status": 200,
+        "noindex": true,
+        "canonical_intro_matches": true
+      },
+      {
+        "route": "/sounds-of-odisha/dalkhai/",
+        "http_status": 200,
+        "noindex": true,
+        "canonical_intro_matches": true
+      },
+      {
+        "route": "/sounds-of-odisha/daskathia/",
+        "http_status": 200,
+        "noindex": true,
+        "canonical_intro_matches": true
+      },
+      {
+        "route": "/sounds-of-odisha/ghanta-ghanti/",
+        "http_status": 200,
+        "noindex": true,
+        "canonical_intro_matches": true
+      },
+      {
+        "route": "/sounds-of-odisha/pala/",
+        "http_status": 200,
+        "noindex": true,
+        "canonical_intro_matches": true
+      },
+      {
+        "route": "/sounds-of-odisha/dhemsa/",
+        "http_status": 200,
+        "noindex": true,
+        "canonical_intro_matches": true
+      },
+      {
+        "route": "/stories/gotipua/",
+        "http_status": 200,
+        "noindex": true,
+        "canonical_intro_matches": true
+      },
+      {
+        "route": "/sounds-of-odisha/listening-notebook/",
+        "http_status": 200,
+        "noindex": true,
+        "canonical_intro_matches": true
+      }
+    ],
+    "sitemap_entries": 11,
+    "external_search_selection_unchanged": true,
+    "browser": {
+      "collection_query": "Sounds of Odisha returned11 visible destinations matching the collection,8 stories,Gotipua and notebook.",
+      "odia_query": "ହୁଳହୁଳି returned exactly the Huluhuli article; Enter focused result-count.",
+      "visual_limit": "Live screenshot capture failed with zero-width browser surface after runtime reconnection. Desktop and375px visual checks passed locally before publication; live behavior verified through rendered DOM and HTTP."
+    }
+  },
+  "review": "records/sounds-discovery-review-2026-10-12.json",
+  "outputs": [
+    {
+      "path": "kb/research/product/sounds-discovery.json",
+      "sha256": "46ccc7ed2111c8fbb532539d1b6d9266fb53b71bdf4abae9efdd6abca75df93d",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/discovery-aliases.json",
+      "sha256": "ff4716b1fc29abd478a10127da0740c2e6b02109dcc809693026d6d866b8a3d6",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/data/discovery.ts",
+      "sha256": "201fc62f6fe74f3fd858a613e71cfc4ed28e2dcba80e66430afe3c02b066fe0d",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/data/sounds-discovery.ts",
+      "sha256": "d9ef0934c119740acabbf255848bb4d2e51c8d940aae6ecd3c72a17cfec10ca2",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/explore.astro",
+      "sha256": "f8b4f469438f4a0d1f2900e87995e6313e2de1c305c5d65653db113c752899fa",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/tests-coast/sounds-discovery.test.mjs",
+      "sha256": "8a227a75fecd94508196ee85172f5016bf4cff540a05c6c3449ad7a4feb385c3",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/tests-coast/discovery-flow.test.mjs",
+      "sha256": "44b7eeb238165ad3c24a823ba661c86f72d2276b827eeb48d749751ad1ced583",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/tests-coast/edition.test.mjs",
+      "sha256": "cffefe19256b0f73f24f0f5aeb5596f518fde44508ab523128e6c2011b150f99",
+      "matches_fetched_merge": true
+    }
+  ],
+  "limitations": [
+    "Internal discovery improvement using published story records; no new cultural research or independent practitioner review.",
+    "Area filters are reading connections, not full geographic distribution or visitor arrangements.",
+    "11 external-search routes remain unchanged; this does not claim Google indexing."
+  ],
+  "attachment": "App attachment attempted; failed because thread attachment identity count exceeds100. PR retained here.",
+  "post_publication_record_repair": "Added the explicit DEC225 authorization field to the linked discovery plan during completion validation; public entries unchanged. Output hashes above retain the actual reviewed and published merge."
+}

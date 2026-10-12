@@ -14,7 +14,8 @@
     "repairs": [
       "Initial register check rejected unsupported in_progress review status; corrected to not_tested before final checks.",
       "Initial new search-boundary test assumed follow in the coastal draft; coastal build correctly uses nofollow. Test now checks noindex under either link-following policy; actual published policy is checked separately.",
-      "Updated original Explore and coastal-edition card-count expectations from89 to100; coastal edition retained the remaining stale89 assertion, caught by the suite and corrected."
+      "Updated original Explore and coastal-edition card-count expectations from89 to100; coastal edition retained the remaining stale89 assertion, caught by the suite and corrected.",
+      "Completion check identified the programme-linked discovery config lacked an explicit authorization field. Added DEC225 metadata only after publication; all entries and rendered content remain identical to the reviewed merge."
     ],
     "local": {
       "coast_tests": 107,
@@ -23,6 +24,107 @@
       "browser": "Desktop search results inspected; Odia Huluhuli query returns one article and persists after reload; Enter focuses result count; Koraput plus Sounds of Odisha returns Dhemsa;375px mobile result inspected, scrollWidth375.",
       "search": "Published11-route selection unchanged; this adds11 internal discovery cards, making100 total.",
       "record_repair": "Corrected the KB reading-flow link to the actual collection page; the flow is a shared component, not a separate route."
+    },
+    "required_checks": {
+      "conclusion": "success",
+      "headSha": "8385769fa8bad76c7d7a5c763250ee602f507a11",
+      "status": "completed",
+      "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38272542084"
+    },
+    "deployment": {
+      "conclusion": "success",
+      "headSha": "108b3a64d2db2c030e8c2765285176cde0abf3b7",
+      "status": "completed",
+      "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38272879857"
+    },
+    "live": {
+      "checked_at": "2026-10-12T15:51:08.082707+00:00",
+      "page": "https://utkalproject.org/explore/?q=Sounds%20of%20Odisha",
+      "http_status": 200,
+      "explore_sha256": "5db60cd176951ac3c216e9955a140ce47b3353f96e2ce57a2cd998f27bfa7323",
+      "total_internal_cards": 100,
+      "new_collection_entries": [
+        {
+          "route": "/sounds-of-odisha/",
+          "http_status": 200,
+          "noindex": true,
+          "canonical_intro_matches": true
+        },
+        {
+          "route": "/sounds-of-odisha/huluhuli/",
+          "http_status": 200,
+          "noindex": true,
+          "canonical_intro_matches": true
+        },
+        {
+          "route": "/sounds-of-odisha/sankha/",
+          "http_status": 200,
+          "noindex": true,
+          "canonical_intro_matches": true
+        },
+        {
+          "route": "/sounds-of-odisha/mardala/",
+          "http_status": 200,
+          "noindex": true,
+          "canonical_intro_matches": true
+        },
+        {
+          "route": "/sounds-of-odisha/dalkhai/",
+          "http_status": 200,
+          "noindex": true,
+          "canonical_intro_matches": true
+        },
+        {
+          "route": "/sounds-of-odisha/daskathia/",
+          "http_status": 200,
+          "noindex": true,
+          "canonical_intro_matches": true
+        },
+        {
+          "route": "/sounds-of-odisha/ghanta-ghanti/",
+          "http_status": 200,
+          "noindex": true,
+          "canonical_intro_matches": true
+        },
+        {
+          "route": "/sounds-of-odisha/pala/",
+          "http_status": 200,
+          "noindex": true,
+          "canonical_intro_matches": true
+        },
+        {
+          "route": "/sounds-of-odisha/dhemsa/",
+          "http_status": 200,
+          "noindex": true,
+          "canonical_intro_matches": true
+        },
+        {
+          "route": "/stories/gotipua/",
+          "http_status": 200,
+          "noindex": true,
+          "canonical_intro_matches": true
+        },
+        {
+          "route": "/sounds-of-odisha/listening-notebook/",
+          "http_status": 200,
+          "noindex": true,
+          "canonical_intro_matches": true
+        }
+      ],
+      "sitemap_entries": 11,
+      "external_search_selection_unchanged": true,
+      "browser": {
+        "collection_query": "Sounds of Odisha returned11 visible destinations matching the collection,8 stories,Gotipua and notebook.",
+        "odia_query": "ହୁଳହୁଳି returned exactly the Huluhuli article; Enter focused result-count.",
+        "visual_limit": "Live screenshot capture failed with zero-width browser surface after runtime reconnection. Desktop and375px visual checks passed locally before publication; live behavior verified through rendered DOM and HTTP."
+      }
+    },
+    "authority_metadata_followup": {
+      "path": "research/product/sounds-discovery.json",
+      "current_sha256": "0af99992db2c5f36bbf760e5509a68ee5dbe43cc4245684dd8cbf8a86ce9f77e",
+      "only_added_field": "authorization",
+      "value": "UTP-DEC-225",
+      "site_entries_unchanged": true
     }
   },
   "limitations": [
