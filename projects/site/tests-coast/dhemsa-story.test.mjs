@@ -1,0 +1,23 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+const story=JSON.parse(readFileSync(new URL('../../../kb/research/culture/dhemsa-website.json',import.meta.url),'utf8'));
+const html=readFileSync(new URL('../dist-coast/sounds-of-odisha/dhemsa/index.html',import.meta.url),'utf8');
+test('full Dhemsa reader text and sources survive with collection return and honest limits',()=>{
+ for(const block of story.blocks) for(const p of [...block.paragraphs,...block.items]) assert.ok(html.includes(p.replaceAll('&','&amp;').replaceAll("'",'&#39;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;')),p);
+ assert.ok(html.includes('href="/sounds-of-odisha/#dhemsa"'));
+ for(const s of story.sources)assert.ok(html.includes(s.resource));
+ assert.ok(html.includes('2016'));
+ assert.ok(html.includes('indexed-only'));
+ assert.ok(html.includes('not fully inspected'));
+ assert.ok(html.includes('not a village-troupe census'));
+ assert.ok(html.includes('not a recorded interview'));
+ assert.ok(!html.includes('<audio'));
+ assert.ok(html.includes('href="/sounds-of-odisha/huluhuli/"'));
+ assert.ok(html.includes('href="/sounds-of-odisha/dalkhai/"'));
+ for(const step of story.listening_panel.steps) assert.ok(html.includes(step.prompt)); 
+ assert.ok(html.includes('Practitioner/language review remains open'));
+ assert.ok(!html.includes('<audio'));
+ assert.ok(!html.includes('Preserved research overview'));
+ assert.ok(readFileSync(new URL('../dist-coast/sounds-of-odisha/index.html',import.meta.url),'utf8').includes('href="/sounds-of-odisha/dhemsa/"'));
+});
