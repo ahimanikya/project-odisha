@@ -174,3 +174,5 @@ Historical visitor-experience release: [PR 23 publication evidence](records/visi
 [Pala website story](research/culture/pala-website.json) prepares the first full individual reader story from the Sounds of Odisha KB collection.
 
 [Full Pala reader story](https://utkalproject.org/sounds-of-odisha/pala/) is published; [receipt](records/pala-website-publication-2026-10-12.json).
+
+[Huluhuli website story](research/culture/huluhuli-website.json) prepares the first full individual reader story from the Sounds of Odisha KB collection.

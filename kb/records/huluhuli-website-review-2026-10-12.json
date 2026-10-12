@@ -1,0 +1,100 @@
+{
+  "reviewed_at": "2026-10-12T02:49:37.695992+00:00",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "status": "pass_with_limitations",
+  "work_id": "UTP-WORK-251",
+  "program_item": "UTP-A500-064",
+  "authorization": "UTP-DEC-225",
+  "checks": [
+    "Existing Huluhuli reader narrative reused; source dossier and access limits retained in KB.",
+    "Human Natural Documentary Natural artwork generated and visually inspected; end provenance distinguishes imagined scene from field evidence.",
+    "Full text, source links, collection-to-story, return and artwork context tested.",
+    "Responsive browser review and exact test outcomes recorded before merge."
+  ],
+  "verification": {
+    "local_checks": [
+      "Existing Huluhuli reader narrative reused; source dossier and access limits retained in KB.",
+      "Human Natural Documentary Natural artwork generated and visually inspected; end provenance distinguishes imagined scene from field evidence.",
+      "Full text, source links, collection-to-story, return and artwork context tested.",
+      "Responsive browser review and exact test outcomes recorded before merge."
+    ],
+    "visual_review": {
+      "browser": "Codex in-app browser",
+      "screenshots_inspected": [
+        "1280px hero/artwork",
+        "375px hero/artwork"
+      ],
+      "mobile": {
+        "width": 375,
+        "scroll_width": 375,
+        "image_natural_width": 1536
+      },
+      "art_review": "Believable faces and anatomy, cotton fabric folds, available-light falloff and ordinary background; not asserted as a documentary encounter or vocal demonstration.",
+      "limits": "No independent community/practitioner or physical-device review."
+    },
+    "repairs": [
+      "Default Python lacked PIL; WebP conversion used installed sharp.",
+      "Visible Markdown italic delimiters removed in public paragraph data; source text retained."
+    ],
+    "tests": {
+      "full": {
+        "passed": 520,
+        "failed": 0
+      },
+      "coastal": {
+        "passed": 95,
+        "failed": 0
+      },
+      "publication_build": "limited;11 indexable routes"
+    }
+  },
+  "limitations": [
+    "Huluhuli reader story published as preview; practitioner/Odia review and broader history gaps remain open.",
+    "No audio, current booking or independent human review claimed.",
+    "Eleven-route search eligibility unchanged."
+  ],
+  "outputs": [
+    {
+      "path": "research/culture/huluhuli-website.json",
+      "sha256": "0926d8216ce722bfe6fd13b4e19460a570be6401e6ef9f068bcd176785ee0e4d"
+    },
+    {
+      "path": "records/huluhuli-art-provenance-2026-10-12.json",
+      "sha256": "5e859b3abdf0b000328edfe54f2717500cf13b6f7e7d9a5827b32b7095bde09d"
+    }
+  ],
+  "repository_outputs": [
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha/huluhuli.astro",
+      "sha256": "3f6e5055c3a87a05f4dbe9c86b5f3839cecf5760c1580cb53a8e14c3ce7c8de8"
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha.astro",
+      "sha256": "3e7d6e478a963ed3acdb2e2564e4537a4fe421f0139e1fafb5c902e58ba18c93"
+    },
+    {
+      "path": "projects/site/editions/coast.json",
+      "sha256": "96096182aa4160eb155acb8b4c28c5f9670432a2fd42de6cb7e4f1e262a40cda"
+    },
+    {
+      "path": "projects/site/editions/search-candidate.json",
+      "sha256": "cf64c579f27b56838360e0cb514b261d94d4df6fba820fc5afc18eabcfbf3a88"
+    },
+    {
+      "path": "projects/site/tests-coast/huluhuli-story.test.mjs",
+      "sha256": "27cab2af4c52bec9ca66622e5a187aecde2b2c2cdf75a6f8b42dfb63a08a2cae"
+    },
+    {
+      "path": "projects/site/tests/build.test.mjs",
+      "sha256": "48ec69e77f700cea47ea24e6a877bc562cf8fe0205d798727df953a290ebab63"
+    },
+    {
+      "path": "projects/site/public/images/sounds/huluhuli-welcome.webp",
+      "sha256": "212b94160bfd1cd52541dade2c734e87218c9b25dda3bd8b97c93e2d819fcef4"
+    }
+  ]
+}
