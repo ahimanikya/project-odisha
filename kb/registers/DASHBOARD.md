@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `f2a36312a5b6f8ecee92f151863eb736049bc049239c0d8dd32f25593788f4d6`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `fbfa3b006bca64cf97deb7343bfb9b85ff4e633ae480a5f94492017cce20dc0b`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -274,7 +274,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-261 · Gotipua learning and rhythm reader research | completed | draft | Ahimanikya Satapathy | KB draft delivered through checked PR222. Practitioner/child-performer/media context remains open; website adaptation separate. | — |
 | UTP-WORK-262 · Gotipua further-reading website story | completed | draft | Ahimanikya Satapathy | Full Gotipua reader story published and checked live; continue other individual pages and authorised media research. | — |
 | UTP-WORK-263 · Sounds of Odisha internal collection discovery | completed | applied | Ahimanikya Satapathy | Sounds collection and full reader stories are now searchable in Explore. Continue the next eligible evidence gap. | — |
-| UTP-WORK-264 · Odia lullabies and childhood song research | in_progress | draft | Ahimanikya Satapathy | Merge the exact checked PR head, verify merged article/dossier bytes and save KB delivery receipt; website adaptation is the next separate deliverable. | — |
+| UTP-WORK-264 · Odia lullabies and childhood song research | completed | applied | Ahimanikya Satapathy | Adapt the delivered reader narrative for the website in a separate substantive item; edition, attribution and family testimony remain research follow-ups. | — |
 
 ## Pending human review and decisions
 
@@ -946,7 +946,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-403 | 2026-10-12T10:28:15.791084+00:00 | Visitor listening notebook published via checked PR220 and main workflow; guide text, download bytes and eight reading routes checked live. Item071 complete. | Continue individual story development; no audio acquired or new search eligibility. |
 | UTP-EVT-404 | 2026-10-12T11:18:49.004297+00:00 | Shared eight-story reading trail prepared; visible position, adjacent chapters, current-page picker and notebook ending tested. Item072 awaits checked publication. | Merge passing head, publish and verify all eight live trails. |
 | UTP-EVT-405 | 2026-10-12T11:26:20.393237+00:00 | Sounds of Odisha reading flow published via checked PR221 and main workflow; eight-page adjacency, position and current-page picker checked live. Item072 complete. | Continue individual story development; no audio acquired or new search eligibility. |
 | UTP-EVT-406 | 2026-10-12T12:21:23.003215+00:00 | Gotipua nucleus extended into source-linked learning/rhythm story; original retained. Item073 awaits checked KB merge; website adaptation separate. | Merge exact passing head and save KB-only delivery receipt. |
@@ -956,6 +955,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-410 | 2026-10-12T15:38:46.188313+00:00 | Selected missing internal discovery: Explore has a collection notice but none of the sound story routes in its searchable entries. Item075 will add one coherent collection integration. | Implement and test internal search using already published records; external indexing remains separately governed. |
 | UTP-EVT-411 | 2026-10-12T15:52:27.156728+00:00 | Sounds of Odisha search integration published through PR224 and main workflow. Collection,8 sound stories,Gotipua and notebook searchable; live output verified. Item075 completed. | Continue the next eligible gap; no change to external indexing or field-review status. |
 | UTP-EVT-412 | 2026-10-12T16:48:29.894163+00:00 | Selected the collection’s unfilled lullaby research subject after KB search found no dedicated record; article and evidence dossier are the bounded delivery. | — |
+| UTP-EVT-413 | 2026-10-12T16:57:33.066014+00:00 | Delivered Odia lullaby reader article and source dossier via checked PR225; verified merged bytes. Website adaptation remains pending; programme76/500. | — |
 
 ## Deferred extensions
 
