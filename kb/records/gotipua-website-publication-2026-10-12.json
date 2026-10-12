@@ -1,0 +1,83 @@
+{
+  "recorded_at": "2026-10-12T14:53:42.494719+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-074",
+  "work_id": "UTP-WORK-262",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/223",
+  "reviewed_head": "8d6746039ab4f33d2a3cd75d6ab607f8609d500f",
+  "merge_commit": "4fab96b95891cf7450b0ecf4fdd987417b44923d",
+  "merged_at": "2026-10-12T14:49:09Z",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "8d6746039ab4f33d2a3cd75d6ab607f8609d500f",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38265353030"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "4fab96b95891cf7450b0ecf4fdd987417b44923d",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38265707270",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-12T14:53:06.922059+00:00",
+    "page": "https://utkalproject.org/stories/gotipua/",
+    "http_status": 200,
+    "full_canonical_reader_text_matches": true,
+    "source_links_present": true,
+    "editorial_listening_panel_present": true,
+    "notebook_mardala_reading_paths": true,
+    "collection_links_both_directions": true,
+    "noindex": true,
+    "sitemap_entries": 11,
+    "no_audio_or_research_appendix": true,
+    "browser": "Published Gotipua title, editorial questions and narrative inspected in browser; return/source links and programme-versus-occurrence wording confirmed. Screenshot saved at /tmp/gotipua-published-live.png."
+  },
+  "review": "records/gotipua-website-review-2026-10-12.json",
+  "outputs": [
+    {
+      "path": "kb/research/culture/gotipua-website.json",
+      "sha256": "4b1b12de33c5cb6e02609c2264070bab5aad33116c8c09ca7587f79e7e5f2dfa",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/culture/gotipua.md",
+      "sha256": "3cb7445d25bbed172d2d4804d97c1440cc8726537317153867687997c62af556",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha/mardala.astro",
+      "sha256": "7dc76b98cc043630601c16ba9d7181a488fa35d87c1f74f74a8fd3c9bb4a90fa",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/stories/gotipua.astro",
+      "sha256": "e674158caeaba99360b7abf273be701d2d2d8436bf7a794feaa851d2fd6121c1",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha.astro",
+      "sha256": "47d9045bf58662ada4fa3c3805c6dc0500a199a7c44e64f0cda088ceec2ac28c",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/editions/coast.json",
+      "sha256": "260f9ca4a3d794f241284d420d3cb05b0bbc6019de1ebbcf2cbaf2011f45aefc",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/editions/search-candidate.json",
+      "sha256": "4426a1d00f436c7a153b4dac7b7c3b82ed844af02f8bfdea8246745256a89c79",
+      "matches_fetched_merge": true
+    }
+  ],
+  "limitations": [
+    "One full Gotipua reader story; preserved research appendix stays in KB.",
+    "Independent practitioner and historical review remain open; no audio, child-performer image or current booking promise. Listening panel is editorial guidance, not a performance excerpt or technical sequence.",
+    "Existing eleven-route search eligibility retained; collection is noindex."
+  ],
+  "attachment": "App attachment attempted; failed because thread attachment identity count exceeds100. PR preserved here."
+}

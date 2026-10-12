@@ -67,3 +67,5 @@ The [Sounds reading flow](https://utkalproject.org/sounds-of-odisha/sounds-readi
 ## Further learning in the KB
 
 [Gotipua: beyond the acrobatic moment](gotipua.md) follows named learning routes, rhythm and a dated programme. This is a KB draft; it is not a ninth public chapter or a confirmed performance.
+
+The [full Gotipua reader story](https://utkalproject.org/stories/gotipua/) is published; [delivery evidence](../../records/gotipua-website-publication-2026-10-12.json). The existing eight-chapter trail remains unchanged; this story is separate further reading.
