@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `8490b7032bdeb58a4a51f75c7df17cec14bd118bfcd9a84ed2e6b6840fbcd8e5`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `97feb02f03374c1e400400b6ff710ba7db769eb55a11e91d30efd87c20b5e6a4`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -264,6 +264,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-251 · Full Huluhuli website story and editorial artwork | completed | draft | Ahimanikya Satapathy | Full Huluhuli reader story published and checked live; continue other individual pages and authorised media research. | — |
 | UTP-WORK-252 · Full Sankha website story and editorial artwork | completed | draft | Ahimanikya Satapathy | Full Sankha reader story published and checked live; continue other individual pages and authorised media research. | — |
 | UTP-WORK-253 · Correct Huluhuli tongue-led depiction | completed | draft | Ahimanikya Satapathy | Tongue-led correction published and checked live; practitioner review remains open. | — |
+| UTP-WORK-254 · Full Mardala website reader story | in_progress | draft | Ahimanikya Satapathy | Adapt existing source-linked narrative and verify article publication. | — |
 
 ## Pending human review and decisions
 
@@ -775,6 +776,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-219 | pass_with_limitations | False | Huluhuli reader story published as preview; practitioner/Odia review and broader history gaps remain open.; No audio, current booking or independent human review claimed.; Eleven-route search eligibility unchanged. |
 | UTP-REV-220 | pass_with_limitations | False | Sankha reader story published as preview; practitioner/Odia review and broader history gaps remain open.; No audio, current booking or independent human review claimed.; Eleven-route search eligibility unchanged. |
 | UTP-REV-221 | pass_with_limitations | False | Current assistant review; not independent practitioner review.; Still generated image suggests tongue posture but cannot show rapid movement or verify technique.; Original asset/receipts retained; no audio acquired. |
+| UTP-REV-222 | pass_with_limitations | False | Practitioner/Odia review remains open; no independent human review.; Reused imagined Odissi scene provides context, not documentary evidence of named artists, Mardala performance or technique.; No audio/current class or booking confirmed; eleven-route search selection unchanged. |
 
 ## Publication and application history
 
@@ -915,7 +917,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-382 | 2026-10-12T00:48:56.054921+00:00 | Illustrated introductory public collection prepared; no audio acquired. Item062 awaits checked delivery. | Merge exact passing head and save delivery receipt. |
 | UTP-EVT-383 | 2026-10-12T00:57:51.103427+00:00 | Sounds of Odisha introductory collection published via checked PR210 and main workflow; eight chapter text, image bytes, Explore link and eleven-route sitemap checked live. Item062 complete. | Continue individual story development; no audio acquired or new search eligibility. |
 | UTP-EVT-384 | 2026-10-12T01:49:59.361761+00:00 | Full illustrated Pala reader story prepared from existing narrative; no audio acquired. Item063 awaits checked delivery. | Merge exact passing head and save delivery receipt. |
 | UTP-EVT-385 | 2026-10-12T01:59:15.063045+00:00 | Full Pala reader story published via checked PR211 and main workflow; canonical text, checklist order, image bytes and collection links checked live. Item063 complete. | Continue individual story development; no audio acquired or new search eligibility. |
@@ -925,6 +926,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-389 | 2026-10-12T04:17:17.870342+00:00 | Full Sankha reader story published via checked PR213 and main workflow; canonical text, artwork provenance, image bytes and collection links checked live. Item065 complete. | Continue individual story development; no audio acquired or new search eligibility. |
 | UTP-EVT-390 | 2026-10-12T04:46:24.616159+00:00 | Founder tongue-led correction applied to text and versioned imagined artwork; original retained. Direct human correction, not a new autonomous programme count. | Check and publish corrected head; verify live. |
 | UTP-EVT-391 | 2026-10-12T04:55:11.352559+00:00 | Founder Huluhuli tongue-led correction published via checked PR214 and main workflow; canonical text and revised artwork bytes verified live. Programme count remains65. | Continue independent authorised work; practitioner review remains open. |
+| UTP-EVT-392 | 2026-10-12T05:07:57.675161+00:00 | Full Mardala reader story prepared using existing source-linked narrative and contextual imagined rehearsal artwork. Item066 awaits checked publication. | Merge exact passing head, publish and verify live; save receipt. |
 
 ## Deferred extensions
 

@@ -39,3 +39,7 @@ No ancient origin, material recipe, drum dimensions, first solo performance, exc
 ## Publication boundary
 
 KB article and source dossier only. No website route, search-index expansion, playable recording, classroom listing or commercial activation. Publication readiness remains draft until the project's editorial requirements are satisfied.
+
+## Individual website adaptation · 12 October 2026
+
+The existing narrative is adapted into `mardala-website.json` and an individual reader route. President of India and Satpathy production credits were re-read; the Akademi URL returned502 through the web tool, so the previously captured/rendered single-page citation was re-inspected for names, dates and course history. No newly acquired media or current booking evidence. Existing Human Natural imagined Odissi rehearsal artwork supplies dance context only; it is not a representation of any named musician or a documented Mardala performance. The earlier KB-only boundary describes the initial delivery; actual website publication is recorded separately.

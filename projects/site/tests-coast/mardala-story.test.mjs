@@ -1,0 +1,22 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+const story=JSON.parse(readFileSync(new URL('../../../kb/research/culture/mardala-website.json',import.meta.url),'utf8'));
+const html=readFileSync(new URL('../dist-coast/sounds-of-odisha/mardala/index.html',import.meta.url),'utf8');
+test('full Mardala reader text and sources survive with collection return and honest limits',()=>{
+ for(const block of story.blocks) for(const p of [...block.paragraphs,...block.items]) assert.ok(html.includes(p.replaceAll('&','&amp;').replaceAll("'",'&#39;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;')),p);
+ assert.ok(html.includes('href="/sounds-of-odisha/#mardala"'));
+ for(const s of story.sources)assert.ok(html.includes(s.resource));
+ assert.ok(html.includes('not a field photograph'));
+ assert.ok(html.includes('2021'));
+ assert.ok(html.includes('11 April 2014'));
+ assert.ok(html.includes('Dhaneswar Swain'));
+ assert.ok(html.indexOf('three listening passes:')<html.indexOf('Follow the drum.'));
+ assert.ok(html.indexOf('Follow the drum.')<html.indexOf('Follow the relationship.'));
+ assert.ok(html.indexOf('Follow the relationship.')<html.indexOf('Read the credits.'));
+ assert.ok(html.includes('not evidence for this article'));
+ assert.ok(html.includes('Practitioner/language review remains open'));
+ assert.ok(!html.includes('<audio'));
+ assert.ok(!html.includes('Preserved research overview'));
+ assert.ok(readFileSync(new URL('../dist-coast/sounds-of-odisha/index.html',import.meta.url),'utf8').includes('href="/sounds-of-odisha/mardala/"'));
+});

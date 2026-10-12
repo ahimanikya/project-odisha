@@ -7252,6 +7252,29 @@
         "records/huluhuli-tongue-correction-publication-2026-10-12.json"
       ],
       "acceptance_criteria": "Replace misleading laughing posture with a revised tongue-visible imagined image, explicitly clarify rapid tongue movement, preserve original provenance, validate source/text/image links and live publication. No claim of technical demonstration or practitioner approval."
+    },
+    {
+      "id": "UTP-WORK-254",
+      "title": "Full Mardala website reader story",
+      "category": "website_and_knowledge",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Adapt existing source-linked narrative and verify article publication.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-REV-222"
+      ],
+      "evidence": [
+        "records/mardala-website-review-2026-10-12.json",
+        "research/culture/mardala-website.json",
+        "research/sources/mardala-research.md",
+        "collections/home-art/twelve-scenes/collection.json"
+      ],
+      "acceptance_criteria": "Publish the complete existing Mardala reader narrative, preserving named teachers, production credits and award versus presentation dates. Reuse existing Human Natural imagined Odissi rehearsal artwork as contextual illustration, never evidence of the named musicians or a Mardala performance. Keep source notes at end, link collection and return, test all text/source links and responsive layout. Pass exact-head PR checks and approved main deployment, verify actual live article/image and unchanged11-route sitemap; save receipt before counting. No new audio, origins, field encounters or practitioner review claimed."
     }
   ],
   "decisions": [
@@ -16942,6 +16965,27 @@
         "Current assistant review; not independent practitioner review.",
         "Still generated image suggests tongue posture but cannot show rapid movement or verify technique.",
         "Original asset/receipts retained; no audio acquired."
+      ]
+    },
+    {
+      "id": "UTP-REV-222",
+      "title": "Mardala individual website story review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-254"
+      ],
+      "evidence": [
+        "records/mardala-website-review-2026-10-12.json"
+      ],
+      "limitations": [
+        "Practitioner/Odia review remains open; no independent human review.",
+        "Reused imagined Odissi scene provides context, not documentary evidence of named artists, Mardala performance or technique.",
+        "No audio/current class or booking confirmed; eleven-route search selection unchanged."
       ]
     }
   ],
