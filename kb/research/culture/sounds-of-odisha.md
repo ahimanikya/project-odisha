@@ -73,3 +73,7 @@ The [full Gotipua reader story](https://utkalproject.org/stories/gotipua/) is pu
 ## Childhood song research
 
 [Odia lullabies and the songs of childhood](odia-lullabies.md) connects family variants, Bala’s digitised collection and Panda’s account of writing for children. [Source dossier](../sources/odia-lullabies-research.json). The [website story](https://utkalproject.org/stories/odia-lullabies/) is published, with [delivery evidence](../../records/odia-lullabies-website-publication-2026-10-12.json). Family testimony and audio review remain pending; the existing eight public chapters are unchanged.
+
+## Listening during craft learning
+
+[Listening to craft through Kotpad](craft-listening.md) connects the textile’s documented preparation and credited makers with questions for a welcomed demonstration. [Claim and reuse dossier](../sources/craft-listening-research.json). This is a distinct KB listening enquiry, with acoustic documentation and website adaptation still open.
