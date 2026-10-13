@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `bc721ddb2ae3ecf24639c66e6c3b692ea704f36bd8fbab95fc92a685b3a62b3f`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `9363555b8df9ca3ee496a7280d530178f7c465fe747a9fc265c77c3bfa9d567e`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -278,6 +278,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-265 · Odia lullabies website publication | completed | applied | Ahimanikya Satapathy | Continue independent research; literary and family-context review remain open. | — |
 | UTP-WORK-266 · Research Odisha boat and fishing songs | blocked | draft | Ahimanikya Satapathy | Await readable primary source passages; do not repeat unavailable searches without a new access path. Independent craft-listening article selected under WORK267. | Full official source passages unavailable in this batch: timeout, expired certificate and DNS/502 failures. Search excerpts remain leads only. |
 | UTP-WORK-267 · Listening to craft through Kotpad | completed | applied | Ahimanikya Satapathy | Adapt the reviewed article for website further reading with appropriate discovery, layout checks and a separate live publication receipt. | — |
+| UTP-WORK-268 · Publish craft-listening reader story | in_progress | draft | Ahimanikya Satapathy | Adapt reviewed text, verify reading/discovery and publish with receipt. | — |
 
 ## Pending human review and decisions
 
@@ -802,6 +803,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-232 | pass_with_limitations | False | Desk research by the current assistant, not independent literary, practitioner or family review.; No verified first-edition date or title-only song authorship;1955 is catalogue metadata.; No audio playback, transcription or media-rights clearance; the Commons file is only a candidate.; KB-only reader draft; website adaptation remains pending. |
 | UTP-REV-233 | pass_with_limitations | False | Existing source review reused; current assistant is not an independent Odia literary or family reviewer.; No family testimony, audio, image or verse translation added.; Further reading remains outside the eight-chapter trail and eleven-route external search selection. |
 | UTP-REV-234 | pass_with_limitations | False | No fresh source fetch, acoustic evidence, maker testimony, media reuse or independent human review.; Catalogue date refers to the film, not a textile origin or current screening.; Website adaptation pending. |
+| UTP-REV-235 | pass_with_limitations | False | Same-assistant review; practitioner and acoustic-context review open.; No audio, media reuse, field visit or workshop availability claim.; Separate further reading; eight chapters and eleven external-search routes retained. |
 
 ## Publication and application history
 
@@ -952,7 +954,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-409 | 2026-10-12T14:53:42.494719+00:00 | Full Gotipua reader story published via checked PR223 and main workflow; canonical text, source and collection links checked live. Item074 complete. | Continue individual story development; no audio acquired or new search eligibility. |
 | UTP-EVT-410 | 2026-10-12T15:38:46.188313+00:00 | Selected missing internal discovery: Explore has a collection notice but none of the sound story routes in its searchable entries. Item075 will add one coherent collection integration. | Implement and test internal search using already published records; external indexing remains separately governed. |
 | UTP-EVT-411 | 2026-10-12T15:52:27.156728+00:00 | Sounds of Odisha search integration published through PR224 and main workflow. Collection,8 sound stories,Gotipua and notebook searchable; live output verified. Item075 completed. | Continue the next eligible gap; no change to external indexing or field-review status. |
 | UTP-EVT-412 | 2026-10-12T16:48:29.894163+00:00 | Selected the collection’s unfilled lullaby research subject after KB search found no dedicated record; article and evidence dossier are the bounded delivery. | — |
@@ -962,6 +963,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-416 | 2026-10-13T01:22:16.412326+00:00 | Selected the collection’s unfilled boat/fishing-song subject after scoped KB and queue searches; article and source dossier are the bounded output. | — |
 | UTP-EVT-417 | 2026-10-13T01:31:38.229373+00:00 | Boat-song primary passages remain unavailable. Selected the independent craft-listening narrative gap, reusing existing Kotpad sources without an acoustic or fieldwork claim. | — |
 | UTP-EVT-418 | 2026-10-13T02:19:48.902328+00:00 | Delivered craft-listening article and source-reuse dossier through checked PR227; verified merged bytes. Website adaptation pending. Programme 78/500; boat-song item remains blocked. | — |
+| UTP-EVT-419 | 2026-10-13T02:38:07.604694+00:00 | Selected public adaptation of reviewed craft-listening article with collection and Explore discovery. | — |
 
 ## Deferred extensions
 
