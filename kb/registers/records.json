@@ -5603,7 +5603,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Continue next eligible substantive item. 75 of500 delivered with linked evidence under DEC225.",
+      "next_action": "Continue next eligible substantive item. 77 of 500 delivered with linked evidence under DEC225.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225"
@@ -7536,6 +7536,51 @@
         "records/odia-lullabies-website-publication-2026-10-12.json"
       ],
       "acceptance_criteria": "Publish the complete researched Odia lullaby narrative as Sounds of Odisha further reading, retaining edition versus origin, oral variants, named-writer scope and family-sharing choices. Reuse existing source dossier; no new lyrics, audio or family testimony. Connect collection, Huluhuli/notebook and internal Explore search without changing eight-chapter order or eleven-route search eligibility. Test complete rendered text, source and discovery links, noindex and query retrieval; inspect desktop/mobile/keyboard layout. Pass exact-head PR checks, publish approved main workflow, verify live output and save receipt before counting."
+    },
+    {
+      "id": "UTP-WORK-266",
+      "title": "Research Odisha boat and fishing songs",
+      "category": "culture_research",
+      "status": "blocked",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Await readable primary source passages; do not repeat unavailable searches without a new access path. Independent craft-listening article selected under WORK267.",
+      "blockers": [
+        "Full official source passages unavailable in this batch: timeout, expired certificate and DNS/502 failures. Search excerpts remain leads only."
+      ],
+      "refs": [
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "research/culture/sounds-of-odisha.md",
+        "records/boat-songs-research-checkpoint-2026-10-13.json"
+      ],
+      "acceptance_criteria": "Research a source-linked Sounds of Odisha article on boat and fishing songs after reusing existing maritime and sound records. Distinguish documented working contexts, literary boat songs and recorded performances; retain named locality, source date, authorship and uncertain origins. Save the reader article and claim/source dossier with specific follow-ups; no invented testimony, lyrics, audio reuse or current performance promise. Complete source review, repository checks and passing PR checks on the reviewed commit. Verify merged outputs and save a KB delivery receipt before counting. Website adaptation is a separate tested publication delivery."
+    },
+    {
+      "id": "UTP-WORK-267",
+      "title": "Listening to craft through Kotpad",
+      "category": "culture_research",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Pass repository and reviewed-commit PR checks; verify merged article and source dossier, then save KB-only receipt.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "research/handlooms/kotpad.md",
+        "records/kotpad-profile-review-2026-10-10.json",
+        "research/culture/craft-listening.md",
+        "research/sources/craft-listening-research.json",
+        "records/craft-listening-review-2026-10-13.json"
+      ],
+      "acceptance_criteria": "Create a distinct Sounds of Odisha reader article about listening during craft learning, using existing source-reviewed Kotpad material and stable source IDs. Separate an imagined listening invitation from evidence of an actual workshop soundscape. Connect material preparation, credited makers and documentary metadata to precise questions; no invented acoustic description, interview, audio, current host or screening availability. Preserve source-to-claim mapping and prior inspection limits. Link the collection and research map, review prose/facts, pass repository and reviewed-commit PR checks, verify merged bytes and save a KB-only receipt before count. Website adaptation remains a separate publication task."
     }
   ],
   "decisions": [
@@ -17482,6 +17527,27 @@
         "Existing source review reused; current assistant is not an independent Odia literary or family reviewer.",
         "No family testimony, audio, image or verse translation added.",
         "Further reading remains outside the eight-chapter trail and eleven-route external search selection."
+      ]
+    },
+    {
+      "id": "UTP-REV-234",
+      "title": "Craft-listening article review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-267"
+      ],
+      "evidence": [
+        "records/craft-listening-review-2026-10-13.json"
+      ],
+      "limitations": [
+        "No fresh source fetch, acoustic evidence, maker testimony, media reuse or independent human review.",
+        "Catalogue date refers to the film, not a textile origin or current screening.",
+        "Website adaptation pending."
       ]
     }
   ],

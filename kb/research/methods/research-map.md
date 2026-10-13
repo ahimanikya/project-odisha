@@ -439,3 +439,7 @@ Sounds of Odisha now connects the [collection outline](../culture/sounds-of-odis
 ## Childhood song extension · 12 October 2026
 
 [Odia lullabies](../culture/odia-lullabies.md) fills the Sounds collection’s childhood-song research gap after scoped KB and queue searches. [Evidence dossier](../sources/odia-lullabies-research.json) separates OVA catalogue, digitised book, literary review and published author interview. Reuse this record before investigating Nanabaya Gita; edition chronology, title-only attribution and family variants remain open. Existing queued tasks and website scope are unchanged.
+
+## Craft listening extension · 13 October 2026
+
+[Listening to craft through Kotpad](../culture/craft-listening.md) reuses the existing Kotpad identity, textile report, Dastkari Haat credits and producer catalogue. [Reuse dossier](../sources/craft-listening-research.json) separates documented preparation from a proposed listening enquiry. No duplicate maker, textile or source identity; no acoustic field evidence or media acquired.
