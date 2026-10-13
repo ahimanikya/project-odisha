@@ -15,7 +15,7 @@ const files=(dir)=>readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirector
 test('only selected pages and their declared client content ship',()=>{
  const actual=files('dist-coast').filter(p=>p.endsWith('.html')).map(p=>'/'+p.slice('dist-coast/'.length).replace(/index\.html$/,'')).sort();assert.deepEqual(actual,[...scope.routes].sort());
  for(const route of scope.routes){const html=read(route),d=payload(html);assert.deepEqual(d.catalog.map(i=>i.id).sort(),[...scope.journey_ids].sort());assert.deepEqual(d.starters.map(s=>s.id),scope.starter_ids);assert.ok(html.includes('noindex'));}
- assert.equal((read('/explore/').match(/data-entry=/g)||[]).length,101);
+ assert.equal((read('/explore/').match(/data-entry=/g)||[]).length,102);
  assert.ok(read('/destinations/bhubaneswar/').includes('fresco-procession'));
  for(const f of files('dist-coast').filter(p=>/\.(html|js)$/.test(p)))for(const held of ['gopinath-mohanty.jpg','href="/store/'])assert.ok(!readFileSync(f,'utf8').includes(held),f+': '+held);
 });
