@@ -76,4 +76,4 @@ The [full Gotipua reader story](https://utkalproject.org/stories/gotipua/) is pu
 
 ## Listening during craft learning
 
-[Listening to craft through Kotpad](craft-listening.md) connects the textile’s documented preparation and credited makers with questions for a welcomed demonstration. [Claim and reuse dossier](../sources/craft-listening-research.json). This is a distinct KB listening enquiry, with acoustic documentation and website adaptation still open.
+[Listening to craft through Kotpad](craft-listening.md) connects the textile’s documented preparation and credited makers with questions for a welcomed demonstration. [Claim and reuse dossier](../sources/craft-listening-research.json). The [full article is published as further reading](https://utkalproject.org/stories/craft-listening/); [delivery evidence](../../records/craft-listening-website-publication-2026-10-13.json). Acoustic documentation remains open.

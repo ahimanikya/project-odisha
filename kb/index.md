@@ -205,4 +205,4 @@ Historical visitor-experience release: [PR 23 publication evidence](records/visi
 
 - [Odia lullabies and childhood song · 12 October 2026](research/culture/odia-lullabies.md) — Reader article with digitised-book evidence and family-version questions; [website publication verified](records/odia-lullabies-website-publication-2026-10-12.json).
 
-- [Listening to craft through Kotpad · 13 October 2026](research/culture/craft-listening.md) — KB reader draft and source reuse; acoustic documentation and website adaptation remain open.
+- [Listening to craft through Kotpad · 13 October 2026](research/culture/craft-listening.md) — Reader article and source reuse; [website publication verified](records/craft-listening-website-publication-2026-10-13.json). Acoustic documentation remains open.

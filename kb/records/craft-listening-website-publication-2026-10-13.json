@@ -1,0 +1,78 @@
+{
+  "recorded_at": "2026-10-13T07:03:39.954902+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-080",
+  "work_id": "UTP-WORK-268",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/228",
+  "reviewed_head": "f4570e7efa48005aea32cb71f01fc982b626e49f",
+  "merge_commit": "14ca874ec9549f14e7cc7c957bb16f548ea5f9fa",
+  "merged_at": "2026-10-13T05:47:09Z",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "f4570e7efa48005aea32cb71f01fc982b626e49f",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38339445848"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "14ca874ec9549f14e7cc7c957bb16f548ea5f9fa",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38353197205",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-13T06:53:42.912565+00:00",
+    "page": "https://utkalproject.org/stories/craft-listening/",
+    "http_status": 200,
+    "page_sha256": "628d40a89d9f9a22bcfc85b35f79e0c44ec50de140c08460ec87d818dbb4df10",
+    "narrative_paragraphs_verified": 13,
+    "source_links_and_locators_verified": 3,
+    "collection_and_related_links_verified": true,
+    "total_internal_cards": 102,
+    "craft_card_count": 1,
+    "noindex": true,
+    "sitemap_entries": 11,
+    "external_search_selection_unchanged": true,
+    "browser": {
+      "query": "Live craft listening query returned one visible entry in Koraput.",
+      "navigation": "Clicked its accessible link and confirmed live article heading, full narrative and related links.",
+      "interaction_note": "Initial Playwright locator click failed without navigation; refreshed state and accessible link click succeeded."
+    }
+  },
+  "outputs": [
+    {
+      "path": "kb/research/culture/craft-listening-website.json",
+      "sha256": "2eb2982b707dc5f2579bce23b912384500f54d4da6f8e1b69b243b664fe26acf",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/stories/craft-listening.astro",
+      "sha256": "04b3e403f5e1fc1281b221d8b7ec634f881409ae9b4db54990f0da7a9bcb1a57",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha.astro",
+      "sha256": "54cc3bd3918c2572d48614b2e4184262457d8a5af7ecb1418adf5b605ac6a98c",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/product/sounds-discovery.json",
+      "sha256": "e2aae8fd268c5239623ee8605e13773064d3067f5dfd75efd6f24ab7088ea0c0",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/discovery-aliases.json",
+      "sha256": "466d5f7e4ca1f927f33ca126cdc09c02d8647f992e5b8edb299ba22d552f08a9",
+      "matches_fetched_merge": true
+    }
+  ],
+  "review": "records/craft-listening-website-review-2026-10-13.json",
+  "limitations": [
+    "Existing source inspection reused; practitioner and acoustic-context review remains open.",
+    "No recording, media reuse, workshop visit or current availability claim.",
+    "Eight-chapter trail and eleven external-search routes unchanged."
+  ],
+  "attachment": "App attachment attempted; thread attachment identity count exceeds 100. PR URL retained here."
+}
