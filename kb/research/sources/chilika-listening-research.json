@@ -1,0 +1,65 @@
+{
+  "recorded_at": "2026-10-13T15:55:28.017037+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-081",
+  "work_id": "UTP-WORK-269",
+  "article": "research/culture/chilika-listening.md",
+  "relationship": "Distinct natural-listening enquiry; existing Chilika and Mangalajodi destination records retain place identity and practical details. Research-map query Mangalajodi returned existing destination records; Sounds collection names natural soundscapes as a gap.",
+  "reuse": [
+    "research/places/chilika.md",
+    "research/destinations/chilika.json",
+    "research/culture/sounds-of-odisha.md",
+    "research/culture/listening-notebook.json"
+  ],
+  "sources": [
+    {
+      "id": "cda",
+      "title": "Visit Chilika — Chilika Development Authority",
+      "resource": "https://www.chilika.com/visit-chilika.php",
+      "locator": "Opening ecological and livelihood description. Historical restoration account is not a current population or service report.",
+      "inspection": "Full web page text inspected 13 October 2026.",
+      "claim_used": "Lagoon ecosystem and fishing livelihood context.",
+      "excluded": "Dated restoration statistics, current fisher/bird totals and current services omitted."
+    },
+    {
+      "id": "mangalajodi-visit",
+      "title": "Mangalajodi — Incredible India",
+      "resource": "https://www.incredibleindia.gov.in/en/odisha/bhubaneswar/mangalajodi",
+      "locator": "Ecological significance, Birdwatching opportunities and Sustainable tourism initiatives sections; local conditions need confirmation.",
+      "inspection": "Full web page text inspected 13 October 2026.",
+      "claim_used": "Reed/shallow-water habitat, general November–February birding season and community-conservation framing.",
+      "excluded": "Page mixes wider-lagoon wildlife with Mangalajodi: crocodile/dolphin claims excluded; counts, lodging, guide availability and exact travel times not adopted."
+    },
+    {
+      "id": "aba-birding-ethics",
+      "title": "Code of Birding Ethics — American Birding Association",
+      "resource": "https://www.aba.org/aba-code-of-birding-ethics/",
+      "locator": "Sections 1(b), 1(c) and 3; general conduct guidance, not Odisha regulation.",
+      "inspection": "Full web page text inspected 13 October 2026.",
+      "claim_used": "General birding restraint and limited playback guidance.",
+      "excluded": "Not Odisha law. The no-playback exercise is UTP’s stricter editorial recommendation, not quoted as a local ban."
+    }
+  ],
+  "claim_mapping": {
+    "A lagoon with many settings": [
+      "cda",
+      "mangalajodi-visit"
+    ],
+    "Listen with the people who know the place": [
+      "mangalajodi-visit"
+    ],
+    "Leave room for the birds": [
+      "aba-birding-ethics"
+    ],
+    "Opening and notebook exercise": "Original imagined invitation and suggested observation method; not field testimony or acoustic measurement."
+  },
+  "follow_up": [
+    "Local naturalist review of listening prompts and setting distinctions.",
+    "Any future audio needs location, date/time, recorder, species-identification confidence, permissions and no disturbance evidence.",
+    "Do not transfer old lake-wide wildlife totals or restoration outcomes to present-day Mangalajodi."
+  ],
+  "limitations": [
+    "Same-assistant source review; no local visit or current service verification.",
+    "No species calls, recorded sequence, measured ecological effect or media rights asserted."
+  ]
+}
