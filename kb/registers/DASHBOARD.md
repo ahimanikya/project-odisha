@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `dc85dd1a7c1c4cb5e665e29ef6ec9e0d747376a9149ed2cff3a99d4d67e03cc1`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `3427189c9e92b62acf5367789b0564cef9339bef426687cc0e754814efa9dec4`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -199,7 +199,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
-| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue next eligible substantive item. 75 of500 delivered with linked evidence under DEC225. | — |
+| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue next eligible substantive item. 77 of 500 delivered with linked evidence under DEC225. | — |
 | UTP-WORK-190 · Food discovery, portable reading collection and current review-queue repair | completed | published | Ahimanikya Satapathy | Published and live-verified. Continue through the program queue under DEC225. | — |
 | UTP-WORK-191 · Build the tourism opportunities information section | completed | reviewed | Ahimanikya Satapathy | Published information scope complete. Continue WORK166 and WORK171 only when new documentary or operating evidence is available. | — |
 | UTP-WORK-192 · Align saved food cards with canonical story introductions | completed | reviewed | Ahimanikya Satapathy | Repair published and live catalogue verified; preserve canonical food fields when future stories change. | — |
@@ -276,6 +276,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-263 · Sounds of Odisha internal collection discovery | completed | applied | Ahimanikya Satapathy | Sounds collection and full reader stories are now searchable in Explore. Continue the next eligible evidence gap. | — |
 | UTP-WORK-264 · Odia lullabies and childhood song research | completed | applied | Ahimanikya Satapathy | Adapt the delivered reader narrative for the website in a separate substantive item; edition, attribution and family testimony remain research follow-ups. | — |
 | UTP-WORK-265 · Odia lullabies website publication | completed | applied | Ahimanikya Satapathy | Continue independent research; literary and family-context review remain open. | — |
+| UTP-WORK-266 · Research Odisha boat and fishing songs | in_progress | draft | Ahimanikya Satapathy | Resume from the boat-song source checkpoint; if retrieval remains unavailable, register and pursue the independent loom/craft sound research gap using existing records. | Full official source passages unavailable in this batch: timeout, expired certificate and DNS/502 failures. Search excerpts remain leads only. |
 
 ## Pending human review and decisions
 
@@ -949,7 +950,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-406 | 2026-10-12T12:21:23.003215+00:00 | Gotipua nucleus extended into source-linked learning/rhythm story; original retained. Item073 awaits checked KB merge; website adaptation separate. | Merge exact passing head and save KB-only delivery receipt. |
 | UTP-EVT-407 | 2026-10-12T14:29:57.136395+00:00 | Gotipua story and source dossier merged through checked PR222; fetched output hashes matched. Item073 completed; programme73/500. | Prepare separate website adaptation after editorial/media review; practitioner/audio follow-up remains open, website unchanged. |
 | UTP-EVT-408 | 2026-10-12T14:42:10.332500+00:00 | Full Gotipua website adaptation prepared as further reading, preserving source limits and eight-chapter flow. Item074 awaits tested publication. | Verify responsive story, merge passing head, publish and check live. |
 | UTP-EVT-409 | 2026-10-12T14:53:42.494719+00:00 | Full Gotipua reader story published via checked PR223 and main workflow; canonical text, source and collection links checked live. Item074 complete. | Continue individual story development; no audio acquired or new search eligibility. |
@@ -959,6 +959,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-413 | 2026-10-12T16:57:33.066014+00:00 | Delivered Odia lullaby reader article and source dossier via checked PR225; verified merged bytes. Website adaptation remains pending; programme76/500. | — |
 | UTP-EVT-414 | 2026-10-12T17:37:14.414749+00:00 | Selected publication of the delivered lullaby article, with collection and Explore discovery; source research reused. | — |
 | UTP-EVT-415 | 2026-10-12T17:51:38.708841+00:00 | Published Odia lullabies further reading via checked PR226 and approved main workflow; live narrative and discovery verified. Programme 77/500. | — |
+| UTP-EVT-416 | 2026-10-13T01:22:16.412326+00:00 | Selected the collection’s unfilled boat/fishing-song subject after scoped KB and queue searches; article and source dossier are the bounded output. | — |
 
 ## Deferred extensions
 
