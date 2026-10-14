@@ -12,7 +12,7 @@ A visitor stops in front of carved stone. What helps them notice a detail, under
 
 The proposed first activity is a remote exchange between willing local interpreters and researchers, producing two short visitor stories and a shared guide to explaining heritage responsibly. It would give Global Connections a practical experiment beyond capital-city comparisons. This is a candidate for consideration: no counterpart, municipal relationship, participant or activity has been agreed.
 
-Initiative direction and creator credit: **Ahimanikya Satapathy**, with AI-assisted research and preparation. Work would remain within Utkal Project's [Global Connections section](global-connections.md); it would not establish a separate body or activate a commercial programme.
+Initiative direction and creator credit: **Ahimanikya Satapathy**, with AI-assisted research and preparation. Work would remain within Project Odisha's [Global Connections section](global-connections.md); it would not establish a separate body or activate a commercial programme.
 
 ## Why consider this pair
 

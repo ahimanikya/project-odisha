@@ -11,6 +11,16 @@ Record status, OKF document type and human approval are distinct. A named person
 
 Configuration is an input to repository tooling and is outside this knowledge bundle. The actual team and governance records remain readable here. See [repository boundaries](repository-layout.md).
 
+## Current identity · 14 October 2026
+
+**Project Odisha** is the current project name. The website is https://projectodisha.org/ and the repository is https://github.com/ahimanikya/project-odisha. GitHub Pages uses GitHub Actions with the custom domain `projectodisha.org` and HTTPS enforced. The approved tagline is **Discover Odisha. Imagine the possibilities.**
+
+Utkal Project was renamed Project Odisha on 14 October 2026. Old asset URLs are compatibility aliases; current wordmarks use `assets/brand-v4/project-odisha-*`. Stable UTP record IDs, storage keys and the Blueprint configuration filename remain unchanged to preserve continuity. The separately named Utkal Blueprint, Collective, Unbound and Store are not renamed by this decision.
+
+The earlier domain and hosting statements below are historical snapshots, superseded by this current identity. GoDaddy forwarding from the old domain has been saved; successful HTTPS forwarding is still awaiting verification.
+
+## Domain and hosting history
+
 ## Website domain
 
 On 28 September 2026, Ahimanikya Satapathy reported: “I have utkalproject.org now”, and identified GoDaddy as the registrar. Record this as Founder-reported acquisition; account ownership, expiry and DNS have not been independently verified. The selected website domain is `utkalproject.org`.

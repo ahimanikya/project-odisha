@@ -6,7 +6,7 @@ status: prepared_for_review
 
 # Textile language and maker review
 
-This sheet helps an Odia reader or textile practitioner review the four published stories in [Woven in Odisha](https://utkalproject.org/textiles/). Founder approval and publication are recorded; specialist review is still open. Review only the subjects you know, and leave the others unanswered. No reviewer has been appointed or contacted through this sheet.
+This sheet helps an Odia reader or textile practitioner review the four published stories in [Woven in Odisha](https://projectodisha.org/textiles/). Founder approval and publication are recorded; specialist review is still open. Review only the subjects you know, and leave the others unanswered. No reviewer has been appointed or contacted through this sheet.
 
 ## Names and meaning
 
@@ -14,10 +14,10 @@ These are the names currently displayed, copied from the story data. Their prese
 
 | Story | Displayed Odia | Questions for the reader |
 | --- | --- | --- |
-| [Sambalpuri Bandha](https://utkalproject.org/textiles/sambalpuri-bandha/) | ସମ୍ବଲପୁରୀ ବାନ୍ଧ | Does this identify the technique naturally? Which local variants of the name should readers know? |
-| [Khandua](https://utkalproject.org/textiles/khandua/) | ଖଣ୍ଡୁଆ | Is the spelling appropriate? Does the story distinguish Khandua generally from the particular calligraphic cloth described by its source? |
-| [Kotpad](https://utkalproject.org/knowledge/kotpad/) | କୋଟପାଡ଼ | Is this the preferred place spelling? How do participating makers describe their community and textile tradition today? |
-| [Tasar](https://utkalproject.org/textiles/tasar/) | ତସର | Is the material name natural in Odia? Should Tasar, Tassar and Tussar be explained as source spellings rather than different products? |
+| [Sambalpuri Bandha](https://projectodisha.org/textiles/sambalpuri-bandha/) | ସମ୍ବଲପୁରୀ ବାନ୍ଧ | Does this identify the technique naturally? Which local variants of the name should readers know? |
+| [Khandua](https://projectodisha.org/textiles/khandua/) | ଖଣ୍ଡୁଆ | Is the spelling appropriate? Does the story distinguish Khandua generally from the particular calligraphic cloth described by its source? |
+| [Kotpad](https://projectodisha.org/knowledge/kotpad/) | କୋଟପାଡ଼ | Is this the preferred place spelling? How do participating makers describe their community and textile tradition today? |
+| [Tasar](https://projectodisha.org/textiles/tasar/) | ତସର | Is the material name natural in Odia? Should Tasar, Tassar and Tussar be explained as source spellings rather than different products? |
 
 For each suggested change, supply the current wording, proposed wording, locality or variety, and a published reference or attributed firsthand explanation. Keep original script, transliteration and translation separate. A pronunciation recording is optional and requires permission to publish the recording and speaker’s credit.
 
@@ -51,6 +51,6 @@ Then use a disposable review trip to add the five-idea textile starter, keeping 
 
 Keep one response per finding: page and section; original and proposed text; reviewer’s consenting public name and relevant experience; date; evidence; permitted public credit; and any disagreement or limit. Mark it **confirmed**, **correction proposed**, **needs evidence**, or **outside my expertise**. Leave the actual reviewer and outcome blank until a person supplies them.
 
-The Founder decides the final wording and publication. Keep personal contact details and private permission documents out of this public repository. Use the existing [contribution flow](https://utkalproject.org/contribute/) for public-safe suggestions; its page-specific correction links already select the article. Preparing a draft sends nothing, and a posted issue is public before editorial acceptance.
+The Founder decides the final wording and publication. Keep personal contact details and private permission documents out of this public repository. Use the existing [contribution flow](https://projectodisha.org/contribute/) for public-safe suggestions; its page-specific correction links already select the article. Preparing a draft sends nothing, and a posted issue is public before editorial acceptance.
 
 [Source and implementation review](../records/textile-followup-review.json) · [Published Tasar record](../records/tasar-story-publication.json) · [Canonical story data](../research/culture/textile-stories.json)

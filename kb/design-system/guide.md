@@ -15,7 +15,7 @@ flowchart TD
   F[Foundations: colours, type, space, interaction] --> C[Core: buttons, fields, cards, messages, navigation]
   C --> P[Patterns: discovery, sources, reading, journey states]
   P --> A[Project adapters and reviewed page families]
-  A --> U[Utkal Project]
+  A --> U[Project Odisha]
   A --> X[Other projects after their own adoption]
 ```
 

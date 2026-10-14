@@ -18,7 +18,7 @@ This update follows the Founder’s “World Is One” reference. Nila Sagara is
 
 These are working brand values, not pixel-sampled claims about the reference. The [original supplied image](../history/evidence/brand-direction-02/founder-colour-reference.png) is preserved unchanged.
 
-English and Odia marks now appear separately: “Utkal Project” and “ଉତ୍କଳ”. Each uses the existing book-and-boat symbol, with live font rendering. The brand review page presents both. No final vector master, manufacturing artwork or registered mark is claimed; reverse colour is a browser treatment only.
+English and Odia marks now appear separately: “Project Odisha” and “ଉତ୍କଳ”. Each uses the existing book-and-boat symbol, with live font rendering. The brand review page presents both. No final vector master, manufacturing artwork or registered mark is claimed; reverse colour is a browser treatment only.
 
 The public website leads with the mission and Founder. AI role names and reporting structures remain in the operating KB; a concise editorial disclosure describes AI assistance where relevant. No new appointments or persona activations occur. A future team page should reflect actual people and agreed public roles.
 

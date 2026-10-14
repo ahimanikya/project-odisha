@@ -42,38 +42,38 @@ Begin with a clearly imagined scene or an evidenced encounter. Explain the sound
 
 [Recording model](../../models/sound-recording.md) · [Eight proposed listening briefs](../../records/sound-recording-briefs.json). No audio acquired or archive activated.
 
-The [introductory website collection](https://utkalproject.org/sounds-of-odisha/) is published; [delivery evidence](../../records/sounds-website-publication-2026-10-12.json). The eight full articles have since been published; audio remains follow-up.
+The [introductory website collection](https://projectodisha.org/sounds-of-odisha/) is published; [delivery evidence](../../records/sounds-website-publication-2026-10-12.json). The eight full articles have since been published; audio remains follow-up.
 
-The [full Pala reader story](https://utkalproject.org/sounds-of-odisha/pala/) is published; [delivery evidence](../../records/pala-website-publication-2026-10-12.json). Audio and practitioner review remain follow-up.
+The [full Pala reader story](https://projectodisha.org/sounds-of-odisha/pala/) is published; [delivery evidence](../../records/pala-website-publication-2026-10-12.json). Audio and practitioner review remain follow-up.
 
-The [full Huluhuli reader story](https://utkalproject.org/sounds-of-odisha/huluhuli/) is published; [delivery evidence](../../records/huluhuli-website-publication-2026-10-12.json). Audio and practitioner review remain follow-up.
+The [full Huluhuli reader story](https://projectodisha.org/sounds-of-odisha/huluhuli/) is published; [delivery evidence](../../records/huluhuli-website-publication-2026-10-12.json). Audio and practitioner review remain follow-up.
 
-The [full Sankha reader story](https://utkalproject.org/sounds-of-odisha/sankha/) is published; [delivery evidence](../../records/sankha-website-publication-2026-10-12.json). Audio and practitioner review remain follow-up.
+The [full Sankha reader story](https://projectodisha.org/sounds-of-odisha/sankha/) is published; [delivery evidence](../../records/sankha-website-publication-2026-10-12.json). Audio and practitioner review remain follow-up.
 
-The [full Mardala reader story](https://utkalproject.org/sounds-of-odisha/mardala/) is published; [delivery evidence](../../records/mardala-website-publication-2026-10-12.json). Audio and practitioner review remain follow-up.
+The [full Mardala reader story](https://projectodisha.org/sounds-of-odisha/mardala/) is published; [delivery evidence](../../records/mardala-website-publication-2026-10-12.json). Audio and practitioner review remain follow-up.
 
-The [full Daskathia reader story](https://utkalproject.org/sounds-of-odisha/daskathia/) is published; [delivery evidence](../../records/daskathia-website-publication-2026-10-12.json). Audio and practitioner review remain follow-up.
+The [full Daskathia reader story](https://projectodisha.org/sounds-of-odisha/daskathia/) is published; [delivery evidence](../../records/daskathia-website-publication-2026-10-12.json). Audio and practitioner review remain follow-up.
 
-The [full Ghanta and ghanti reader story](https://utkalproject.org/sounds-of-odisha/ghanta-ghanti/) is published; [delivery evidence](../../records/ghanta-ghanti-website-publication-2026-10-12.json). Audio and practitioner review remain follow-up.
+The [full Ghanta and ghanti reader story](https://projectodisha.org/sounds-of-odisha/ghanta-ghanti/) is published; [delivery evidence](../../records/ghanta-ghanti-website-publication-2026-10-12.json). Audio and practitioner review remain follow-up.
 
-The [full Dalkhai reader story](https://utkalproject.org/sounds-of-odisha/dalkhai/) is published; [delivery evidence](../../records/dalkhai-website-publication-2026-10-12.json). Audio and practitioner review remain follow-up.
+The [full Dalkhai reader story](https://projectodisha.org/sounds-of-odisha/dalkhai/) is published; [delivery evidence](../../records/dalkhai-website-publication-2026-10-12.json). Audio and practitioner review remain follow-up.
 
-The [full Dhemsa reader story](https://utkalproject.org/sounds-of-odisha/dhemsa/) is published; [delivery evidence](../../records/dhemsa-website-publication-2026-10-12.json). Audio and practitioner review remain follow-up.
+The [full Dhemsa reader story](https://projectodisha.org/sounds-of-odisha/dhemsa/) is published; [delivery evidence](../../records/dhemsa-website-publication-2026-10-12.json). Audio and practitioner review remain follow-up.
 
-The [visitor listening notebook](https://utkalproject.org/sounds-of-odisha/listening-notebook/) is published; [delivery evidence](../../records/listening-notebook-publication-2026-10-12.json). Authorised recordings and practitioner review remain follow-up.
+The [visitor listening notebook](https://projectodisha.org/sounds-of-odisha/listening-notebook/) is published; [delivery evidence](../../records/listening-notebook-publication-2026-10-12.json). Authorised recordings and practitioner review remain follow-up.
 
-The [Sounds reading flow](https://utkalproject.org/sounds-of-odisha/) is published; [delivery evidence](../../records/sounds-reading-flow-publication-2026-10-12.json). Audio and practitioner review remain follow-up.
+The [Sounds reading flow](https://projectodisha.org/sounds-of-odisha/) is published; [delivery evidence](../../records/sounds-reading-flow-publication-2026-10-12.json). Audio and practitioner review remain follow-up.
 
 ## Further learning in the KB
 
 [Gotipua: beyond the acrobatic moment](gotipua.md) follows named learning routes, rhythm and a dated programme. The full article is also published as separate further reading; it is not a ninth chapter or a confirmed performance.
 
-The [full Gotipua reader story](https://utkalproject.org/stories/gotipua/) is published; [delivery evidence](../../records/gotipua-website-publication-2026-10-12.json). The existing eight-chapter trail remains unchanged; this story is separate further reading.
+The [full Gotipua reader story](https://projectodisha.org/stories/gotipua/) is published; [delivery evidence](../../records/gotipua-website-publication-2026-10-12.json). The existing eight-chapter trail remains unchanged; this story is separate further reading.
 
 ## Childhood song research
 
-[Odia lullabies and the songs of childhood](odia-lullabies.md) connects family variants, Bala’s digitised collection and Panda’s account of writing for children. [Source dossier](../sources/odia-lullabies-research.json). The [website story](https://utkalproject.org/stories/odia-lullabies/) is published, with [delivery evidence](../../records/odia-lullabies-website-publication-2026-10-12.json). Family testimony and audio review remain pending; the existing eight public chapters are unchanged.
+[Odia lullabies and the songs of childhood](odia-lullabies.md) connects family variants, Bala’s digitised collection and Panda’s account of writing for children. [Source dossier](../sources/odia-lullabies-research.json). The [website story](https://projectodisha.org/stories/odia-lullabies/) is published, with [delivery evidence](../../records/odia-lullabies-website-publication-2026-10-12.json). Family testimony and audio review remain pending; the existing eight public chapters are unchanged.
 
 ## Listening during craft learning
 
-[Listening to craft through Kotpad](craft-listening.md) connects the textile’s documented preparation and credited makers with questions for a welcomed demonstration. [Claim and reuse dossier](../sources/craft-listening-research.json). The [full article is published as further reading](https://utkalproject.org/stories/craft-listening/); [delivery evidence](../../records/craft-listening-website-publication-2026-10-13.json). Acoustic documentation remains open.
+[Listening to craft through Kotpad](craft-listening.md) connects the textile’s documented preparation and credited makers with questions for a welcomed demonstration. [Claim and reuse dossier](../sources/craft-listening-research.json). The [full article is published as further reading](https://projectodisha.org/stories/craft-listening/); [delivery evidence](../../records/craft-listening-website-publication-2026-10-13.json). Acoustic documentation remains open.

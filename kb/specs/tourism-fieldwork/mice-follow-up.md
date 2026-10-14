@@ -26,7 +26,7 @@ The [earlier evidence brief](../../research/collections/tourism-policy-opportuni
 
 Dear Tourism Department team,
 
-I am [sender name and approved role] from Utkal Project, an independent Odisha knowledge initiative. We are preparing accurate information about the state’s tourism support and would appreciate clarification of the public application process.
+I am [sender name and approved role] from Project Odisha, an independent Odisha knowledge initiative. We are preparing accurate information about the state’s tourism support and would appreciate clarification of the public application process.
 
 We found the MICE and destination-wedding operational guidelines under notification 8434/TSM dated 3 June 2026 and the GO-SWIFT link to OTIIMS. Could you please confirm:
 

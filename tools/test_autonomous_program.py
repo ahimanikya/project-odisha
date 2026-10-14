@@ -5,10 +5,17 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
-from check_autonomous_program import ROOT, check
+from check_autonomous_program import ROOT, check, RUN, PR
 
 
 class ProgramEvidenceTests(unittest.TestCase):
+    def test_repository_rename_preserves_evidence_urls(self):
+        for name in ('utkal-project', 'project-odisha'):
+            self.assertIsNotNone(RUN.fullmatch(f'https://github.com/ahimanikya/{name}/actions/runs/123'))
+            self.assertIsNotNone(PR.fullmatch(f'https://github.com/ahimanikya/{name}/pull/123'))
+        self.assertIsNone(PR.fullmatch('https://github.com/other/project-odisha/pull/123'))
+        self.assertIsNone(RUN.fullmatch('https://github.com/ahimanikya/unrelated/actions/runs/123'))
+
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
@@ -175,7 +182,7 @@ class ProgramEvidenceTests(unittest.TestCase):
         for key in ('validation', 'required_checks', 'deployment'):
             for field in ('url', 'run'):
                 for value in ('https://github.com/example/elsewhere/actions/runs/1',
-                              'https://github.com/ahimanikya/utkal-project/pull/1', None):
+                              'https://github.com/ahimanikya/project-odisha/pull/1', None):
                     with self.subTest(key=key, field=field, value=value):
                         candidate = copy.deepcopy(original)
                         candidate.setdefault(key, {'conclusion': 'success'})[field] = value

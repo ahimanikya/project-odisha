@@ -1,9 +1,11 @@
 ---
 type: "Project record"
-title: "Utkal Project · evolution ledger"
+title: "Project Odisha · evolution ledger"
 ---
 
-# Utkal Project · evolution ledger
+# Project Odisha · evolution ledger
+
+Utkal Project was renamed Project Odisha on 14 October 2026. Earlier entries preserve the original names and evidence. See [current identity](../reference/project-identity.md).
 
 Initial retrospective capture: **27 September 2026, America/Los_Angeles** (28 September 2026 UTC). Event dates are unknown unless explicitly recorded; entry order is not a substitute for a date. This is a selective backfill, not a claim to contain every earlier discussion.
 
@@ -1068,3 +1070,7 @@ Ahimanikya approved a more personal reflection linking his lifelong name with th
 ## UTP-HIS-NIMUHI-READER-FOOTNOTES-20261014 · A clearer reading path
 
 Following Pradip Biswal’s feedback relayed by Ahimanikya, the article’s bracketed references become linked footnotes. Detailed verse and page coordinates move out of the narrative; all sources, excerpts and historical qualifications remain. [Revision and verification](../records/nimuhi-reader-footnotes-20261014.json).
+
+## UTP-HIS-0341 · Utkal Project renamed Project Odisha
+
+On 14 October 2026, the Founder approved updating active references and renaming the repository to `ahimanikya/project-odisha`. Current website: https://projectodisha.org/. Historical evidence and stable identifiers remain intact. See [cleanup record](../records/project-odisha-reference-cleanup-20261014.json).

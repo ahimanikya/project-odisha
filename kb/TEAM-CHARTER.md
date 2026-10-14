@@ -1,9 +1,9 @@
 ---
 type: "Project record"
-title: "Utkal Project charter"
+title: "Project Odisha charter"
 ---
 
-# Utkal Project charter
+# Project Odisha charter
 
 **UTP-CHR-001 · Candidate v0.4 · For final review**
 

@@ -24,7 +24,7 @@ def normalized_url(url):
         return None
 
 def file_link(path):
-    return 'https://github.com/ahimanikya/utkal-project/blob/main/' + quote(path, safe='/')
+    return 'https://github.com/ahimanikya/project-odisha/blob/main/' + quote(path, safe='/')
 
 def excerpt(body, heading):
     match = re.search(r'^## '+re.escape(heading)+r'\s*\n(.*?)(?=\n## |\Z)', body, re.M | re.S)

@@ -14,7 +14,7 @@ export function correctionDraft(value,entries){
  return `PROJECT ODISHA · EDITORIAL DRAFT\nNot submitted — prepared by the reader for later editorial review.\n\nEntry: ${page.title}\nPage: ${page.href}\nType: ${value.kind}\n\nSuggested change\n${text}\n\nEvidence or firsthand context\n${evidence}\n\nRequested public credit: ${credit||'Not supplied'}\n\nThis draft grants no publication permission for attached or referenced third-party material. Editors must verify claims, credit and reuse rights before publication.\n`;
 }
 
-export const PUBLIC_ISSUE_URL='https://github.com/ahimanikya/utkal-project/issues/new';
+export const PUBLIC_ISSUE_URL='https://github.com/ahimanikya/project-odisha/issues/new';
 export function publicIssueLink(value,entries){
  const draft=correctionDraft(value,entries),page=contributionEntry(value,entries);
  const body=draft.replace('Not submitted — prepared by the reader for later editorial review.','Reader-prepared contribution. Posting this issue does not imply editorial acceptance or publication.');

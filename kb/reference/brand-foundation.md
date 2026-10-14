@@ -1,13 +1,13 @@
 ---
 type: Design proposal
-title: Utkal Project brand foundation
+title: Project Odisha brand foundation
 ---
 
 # Earth, sea and a shared story
 
 Version 0.1 · Founder review candidate · 28 September 2026 UTC
 
-**Utkal Project** · **Rediscover Utkal. Reimagine Odisha.**
+**Project Odisha** · **Discover Odisha. Imagine the possibilities.**
 
 The name and tagline are settled. The colour families and Mankada's dominant role follow the Founder's directions. The precise digital colours, refined symbol, typography pairing and newly generated illustration remain working design proposals.
 

@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `ff677fd4ce2e15b996497679244f8d601f4af308a1457a3c78299e7a09b35b08`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `116ddf11262ca7d6f055523797fb5c9e9f1ebe538da02ebe0cd5ebd0c830660d`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -956,7 +956,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-418 | 2026-10-13T02:19:48.902328+00:00 | Delivered craft-listening article and source-reuse dossier through checked PR227; verified merged bytes. Website adaptation pending. Programme 78/500; boat-song item remains blocked. | — |
 | UTP-EVT-419 | 2026-10-13T02:38:07.604694+00:00 | Selected public adaptation of reviewed craft-listening article with collection and Explore discovery. | — |
 | UTP-EVT-420 | 2026-10-13T07:03:39.954902+00:00 | Published craft-listening article through checked PR228 and approved main workflow; live content and discovery verified. Programme 79/500. | — |
 | UTP-EVT-2026101401 | 2026-10-14T06:00:00Z | Prepared 33 source-linked Odisha arts and literature calendar entries within user-requested scope, distinguishing announced, reported, awaiting dates and past editions. | — |
@@ -966,6 +965,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101420 | 2026-10-14T14:57:51.864569+00:00 | Prepared Founder-requested migration to projectodisha.org and permanent redirect of utkalproject.org, preserving routes and search scope. | — |
 | UTP-EVT-2026101421 | 2026-10-14T15:10:36.710983+00:00 | Published new canonical domain, configured new DNS and HTTPS, verified new site. GoDaddy saved apex/www permanent redirects; old-domain propagation and nested-path verification remain pending. | — |
 | UTP-EVT-2026101422 | 2026-10-14T15:15:47.256907+00:00 | Applied approved Project Odisha naming and homepage tagline to live website sources; historical evidence retained. | — |
+| UTP-EVT-2026101423 | 2026-10-14T16:24:16.524442+00:00 | Renamed GitHub repository to project-odisha and prepared active-reference cleanup under Founder approval. Historical evidence preserved. | — |
 
 ## Deferred extensions
 

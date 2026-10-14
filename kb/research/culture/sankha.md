@@ -86,4 +86,4 @@ The most revealing question may be simple: **Who taught you to make that sound?*
 
 ## Website publication · 12 October 2026
 
-The full article is now [published](https://utkalproject.org/sounds-of-odisha/sankha/); [receipt](../../records/sankha-website-publication-2026-10-12.json). The conch artwork is imagined, not a field photograph, identified museum object or technical demonstration. Practitioner/language review and audio remain open.
+The full article is now [published](https://projectodisha.org/sounds-of-odisha/sankha/); [receipt](../../records/sankha-website-publication-2026-10-12.json). The conch artwork is imagined, not a field photograph, identified museum object or technical demonstration. Practitioner/language review and audio remain open.

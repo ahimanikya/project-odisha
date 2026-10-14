@@ -1,9 +1,9 @@
 ---
 type: "Project record"
-title: "Utkal Project — initial team and JD review"
+title: "Project Odisha — initial team and JD review"
 ---
 
-# Utkal Project — initial team and JD review
+# Project Odisha — initial team and JD review
 
 **UTP-REV-001 · Draft v0.1 · 27 September 2026 · For Founder review**
 
@@ -25,7 +25,7 @@ The approved names in that statement are the existing short names and Samanta’
 
 ## UTP-JD-001 — Ahimanikya Satapathy, Founder & Editor-in-Chief
 
-**Purpose:** set the vision and decide what Utkal Project becomes and publishes.
+**Purpose:** set the vision and decide what Project Odisha becomes and publishes.
 
 **Duties:** choose priorities and editorial standards; approve consequential scope, resources, memberships, access and commitments; resolve disputes; retain the final application and publication gate. Any future human delegation is explicit and bounded.
 

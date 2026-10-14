@@ -10,7 +10,7 @@ Give a conference visitor one memorable encounter with Odisha and a dependable r
 
 These are **three desk candidates**, prepared on 10 October 2026 for the Founder and a future appointed coordinator. They are not timed itineraries, offers or bookings. All locations reuse the [existing experience shortlist](../../research/collections/tourism-experience-shortlist.md); that evidence does not confirm current availability. The Founder remains the decision owner. No coordinator, host, participant or transport provider is appointed here.
 
-Created for Ahimanikya Satapathy’s Utkal Project direction, with AI-assisted preparation. This supplies preparation for UTP-WORK-171; its requirement for locally supported itineraries remains open.
+Created for Ahimanikya Satapathy’s Project Odisha direction, with AI-assisted preparation. This supplies preparation for UTP-WORK-171; its requirement for locally supported itineraries remains open.
 
 ## Heritage through an object and a landscape
 

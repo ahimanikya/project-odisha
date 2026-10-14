@@ -9,7 +9,7 @@ title: "Utkal Store charter"
 
 Build everyday branded objects that connect people to Odisha. Start with T-shirts, jhula bags, coffee cups and water bottles, supplied through vendors in Bangalore as directed by the Founder. Residents, diaspora and people drawn to Odisha are the intended audience. Initial outcome: samples people want to keep, an honest catalogue, reliable fulfillment and a manageable small collection.
 
-Utkal Collective is the organizational parent, confirmed by the Founder with “Under Utkal Collective”. Utkal Project is the associated knowledge initiative; its coverage and source judgments remain independent of merchandise sales.
+Utkal Collective is the organizational parent, confirmed by the Founder with “Under Utkal Collective”. Project Odisha is the associated knowledge initiative; its coverage and source judgments remain independent of merchandise sales.
 
 Ahimanikya Satapathy is Founder and accountable human. He chooses products and partners, approves designs, quality, prices, spending, policies and launch. No humans report to AI. No store AI personas or external vendors have been appointed by this starter.
 

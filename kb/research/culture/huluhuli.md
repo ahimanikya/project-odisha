@@ -118,4 +118,4 @@ Source passages, access limitations and unresolved literary leads are recorded i
 
 ## Website publication · 12 October 2026
 
-The full reader article is now [published](https://utkalproject.org/sounds-of-odisha/huluhuli/); [receipt](../../records/huluhuli-website-publication-2026-10-12.json). Its Human Natural editorial artwork is explicitly imagined, not field documentation. Source limits and practitioner/language review remain open.
+The full reader article is now [published](https://projectodisha.org/sounds-of-odisha/huluhuli/); [receipt](../../records/huluhuli-website-publication-2026-10-12.json). Its Human Natural editorial artwork is explicitly imagined, not field documentation. Source limits and practitioner/language review remain open.

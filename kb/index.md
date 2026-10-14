@@ -169,19 +169,19 @@ Historical visitor-experience release: [PR 23 publication evidence](records/visi
 
 [Sounds of Odisha website collection](research/culture/sounds-website.json) contains the introductory public-page candidate; full articles remain separate KB drafts.
 
-[Sounds of Odisha introductory collection](https://utkalproject.org/sounds-of-odisha/) is now public; [publication receipt](records/sounds-website-publication-2026-10-12.json). Full article pages and audio remain follow-up.
+[Sounds of Odisha introductory collection](https://projectodisha.org/sounds-of-odisha/) is now public; [publication receipt](records/sounds-website-publication-2026-10-12.json). Full article pages and audio remain follow-up.
 
 [Pala website story](research/culture/pala-website.json) prepares the first full individual reader story from the Sounds of Odisha KB collection.
 
-[Full Pala reader story](https://utkalproject.org/sounds-of-odisha/pala/) is published; [receipt](records/pala-website-publication-2026-10-12.json).
+[Full Pala reader story](https://projectodisha.org/sounds-of-odisha/pala/) is published; [receipt](records/pala-website-publication-2026-10-12.json).
 
 [Huluhuli website story](research/culture/huluhuli-website.json) preserves the full individual reader story from the Sounds of Odisha KB collection.
 
-[Full Huluhuli article](https://utkalproject.org/sounds-of-odisha/huluhuli/) is published with imagined Human Natural artwork; [receipt](records/huluhuli-website-publication-2026-10-12.json).
+[Full Huluhuli article](https://projectodisha.org/sounds-of-odisha/huluhuli/) is published with imagined Human Natural artwork; [receipt](records/huluhuli-website-publication-2026-10-12.json).
 
 [Sankha website story](research/culture/sankha-website.json) prepares the a full individual reader story from the Sounds of Odisha KB collection.
 
-[Full Sankha article](https://utkalproject.org/sounds-of-odisha/sankha/) is published with imagined Human Natural artwork; [receipt](records/sankha-website-publication-2026-10-12.json).
+[Full Sankha article](https://projectodisha.org/sounds-of-odisha/sankha/) is published with imagined Human Natural artwork; [receipt](records/sankha-website-publication-2026-10-12.json).
 
 [Mardala website story](research/culture/mardala-website.json) connects musicians, teaching and production credits with the Sounds of Odisha reader collection.
 
