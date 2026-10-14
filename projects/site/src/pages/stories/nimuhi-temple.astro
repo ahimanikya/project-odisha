@@ -46,4 +46,16 @@ import {Content} from '../../../../../kb/research/culture/sashisena-and-nimuhi-t
 }
 .nimuhi-story :global(.nimuhi-photographs){margin:2.5rem 0 3rem;padding-top:.3rem;border-top:1px solid #d9c9b3}.nimuhi-story :global(.nimuhi-photo-pair){display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;align-items:start}.nimuhi-story :global(.nimuhi-photo-pair figure){margin:0;min-width:0}.nimuhi-story :global(.nimuhi-photo-pair .photo-frame){display:flex;height:360px;align-items:center;justify-content:center;background:#fff;border:1px solid #d9c9b3}.nimuhi-story :global(.nimuhi-photo-pair img){display:block;width:100%;height:100%;object-fit:contain}.nimuhi-story :global(.nimuhi-photo-pair figcaption){font-size:.9rem;line-height:1.6;margin-top:.8rem;color:#5f5548}.nimuhi-story :global(.nimuhi-photo-pair figcaption strong){display:block;color:#32291f;margin-bottom:.3rem}.nimuhi-story :global(.photo-reading){font-size:1rem;line-height:1.7;margin-top:1.5rem}.nimuhi-story :global(.nimuhi-photo-pair figure>a:focus-visible){outline:3px solid #91462f;outline-offset:4px}@media(max-width:600px){.nimuhi-story :global(.nimuhi-photo-pair){grid-template-columns:1fr;gap:1.8rem}.nimuhi-story :global(.nimuhi-photo-pair .photo-frame){height:auto;max-height:none}.nimuhi-story :global(.nimuhi-photo-pair img){height:auto;max-height:520px}}
 .source-scans{margin-top:3rem;padding:1.6rem;border:1px solid #d9c9b3;background:#f7f1e7;border-radius:8px}.source-scans h2{margin-top:.4rem}.source-scan{border-top:1px solid #d9c9b3;margin-top:1.6rem;padding-top:1.2rem}.source-scan h3{font-size:1.2rem;line-height:1.4;margin:0 0 .6rem}.scan-link{font-weight:600}.scan-size{display:block;font-size:.9rem;color:#5f5548;margin-top:.3rem}.scan-credit{font-size:.95rem;line-height:1.65}.source-scans p:last-child{margin-bottom:0}@media(max-width:480px){.source-scans{padding:1.1rem}}
+
+/* Source details stay at the end; small, linked markers keep the story readable. */
+.nimuhi-story :global(sup:has(a[data-footnote-ref])) { font-size:.7em; line-height:0; vertical-align:super; margin-left:.12em; }
+.nimuhi-story :global(a[data-footnote-ref]) { padding:.2em .15em; text-decoration:none; font-weight:600; color:var(--sea); }
+.nimuhi-story :global(a[data-footnote-ref]:hover) { text-decoration:underline; }
+.nimuhi-story :global(.footnotes) { margin-top:3.5rem; padding-top:1.5rem; border-top:1px solid #d9c9b3; }
+.nimuhi-story :global(.footnotes h2) { position:static; width:auto; height:auto; padding:0; margin:0 0 1.4rem; overflow:visible; clip:auto; clip-path:none; white-space:normal; }
+.nimuhi-story :global(.footnotes ol) { font-size:.95rem; line-height:1.75; }
+.nimuhi-story :global(.footnotes li) { scroll-margin-top:2rem; padding-left:.4rem; }
+.nimuhi-story :global(.footnotes li:target) { background:#f7f1e7; outline:2px solid #d9c9b3; outline-offset:.4rem; }
+.nimuhi-story :global(a[data-footnote-backref]) { display:inline-block; padding:.15rem .3rem; text-decoration:none; }
+.nimuhi-story :global(a[data-footnote-ref]:focus-visible), .nimuhi-story :global(a[data-footnote-backref]:focus-visible) { outline:2px solid #91462f; outline-offset:3px; }
 </style>
