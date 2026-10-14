@@ -7693,12 +7693,12 @@
       "id": "UTP-WORK-271",
       "title": "Publish pending research and Osha collection",
       "category": "website_quality",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-2026101501",
-      "next_action": "Publish reviewed integration after required checks; verify live output and save receipt.",
+      "next_action": "Continue independent research; evidence-blocked boat-song work remains open.",
       "blockers": [],
       "refs": [
         "UTP-DEC-2026101501",
@@ -7707,7 +7707,8 @@
       "evidence": [
         "records/pending-publication-2026-10-15.json",
         "records/pending-reading-room.json",
-        "records/pending-publication-review-2026-10-15.json"
+        "records/pending-publication-review-2026-10-15.json",
+        "records/pending-content-publication-2026-10-15.json"
       ],
       "acceptance_criteria": "All 39 pending heads included; dated sourced research accessible through reading room, Osha pages discoverable, current main preserved, full/public tests and research validators pass. Merge checked PR, publish approved main workflow, verify all new public routes and unchanged eleven-route sitemap, save receipt."
     }
@@ -19654,6 +19655,22 @@
         "records/nimuhi-discovery-publication-2026-10-15.json"
       ],
       "note": "PR243 and approved main publication; live search and article navigation verified."
+    },
+    {
+      "id": "UTP-REL-111",
+      "title": "Pending research reading room and Osha collection",
+      "status": "published",
+      "authorization": "UTP-DEC-2026101501",
+      "destination": "https://projectodisha.org/reading-room/",
+      "refs": [
+        "UTP-WORK-271",
+        "UTP-REV-238",
+        "UTP-DEC-2026101501"
+      ],
+      "evidence": [
+        "records/pending-content-publication-2026-10-15.json"
+      ],
+      "note": "PR244 merged after successful validation. Approved workflow deployed merge fb023f32; all 226 new pages HTTP200 with expected titles and noindex, sitemap remains eleven. All 39 pending heads included, zero remaining open requests."
     }
   ],
   "sources": [

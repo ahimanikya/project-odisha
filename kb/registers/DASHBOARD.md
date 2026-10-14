@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `4134433d6c6825223644ca75bdb35e886ce40f8594e92bbeda7d7d32fedf7ae5`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `fdc076bc43593f22a3cd59c94f99a89c72b35052b9d01bf22397abdb978523a2`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -282,7 +282,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-269 · Research and publish Chilika listening story | completed | applied | Ahimanikya Satapathy | Continue independent research; local naturalist and acoustic documentation remain open. | — |
 | UTP-WORK-270 · Connect Nimuhi literary story to Explore | completed | applied | Ahimanikya Satapathy | Continue the next eligible substantive task. | — |
 | UTP-WORK-2026100701 · Osha, stories and the food year: fifty-three profiles and dated food evidence | in_progress | draft | Ahimanikya Satapathy | Khudurukuni article and supporting maritime study reconciled as research-only into draftPR145; two profile sections added. Preserve14–18October holds and koeta identity gap. Continue earliest unheld narrative field; no public release inferred. | — |
-| UTP-WORK-271 · Publish pending research and Osha collection | in_progress | reviewed | Ahimanikya Satapathy | Publish reviewed integration after required checks; verify live output and save receipt. | — |
+| UTP-WORK-271 · Publish pending research and Osha collection | completed | applied | Ahimanikya Satapathy | Continue independent research; evidence-blocked boat-song work remains open. | — |
 
 ## Pending human review and decisions
 
@@ -931,6 +931,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-108 · Listening to craft through Kotpad | published | https://utkalproject.org/stories/craft-listening/ | UTP-DEC-225 |
 | UTP-REL-109 · Listening to Chilika | published | https://projectodisha.org/stories/chilika-listening/ | UTP-DEC-225 |
 | UTP-REL-110 · Nimuhi literary discovery in Explore | published | https://projectodisha.org/explore/?q=Nimuhi | UTP-DEC-225 |
+| UTP-REL-111 · Pending research reading room and Osha collection | published | https://projectodisha.org/reading-room/ | UTP-DEC-2026101501 |
 
 ## Sources and assets
 
@@ -968,7 +969,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101004 | 2026-10-10T15:24:02.890568+00:00 | Prathamastami narrative and Enduri food evidence prepared for existing draft review branch.53 profiles; no merge or publication. | Prathamastami family and food narrative reconciled into the existing 53-profile draft. Preserve historical original-image, cited1915 text and situated household gaps, with17October retry. Existing14–17October holds remain; source workspace remains scheduling authority. No publication or current food offer inferred. |
 | UTP-EVT-2026101005 | 2026-10-10T22:24:23.846715+00:00 | Dutiya narrative and Ghanta food evidence prepared for existing draft review branch.53 profiles; no merge or publication. | Dutiya offering and Ghanta food account reconciled into the existing 53-profile draft. Full katha and dated historical origins remain unresolved; preserve source-specific regional and food differences and17October retry. Deepen Budhei (OSHA-005) next using saved records first. Source workspace remains scheduling authority; all14–17October holds remain. No current serving offer or publication inferred. |
 | UTP-EVT-2026101006 | 2026-10-11T02:16:32.072202+00:00 | Budhei narrative and Kakara food evidence prepared for existing draft review branch.53 profiles; no merge or publication. | Budhei coconut sequence, attributed story strands and dated Kakara offering association reconciled into the existing53-profile draft. Full original katha, manuscript dates and local recipes remain open for17October. Deepen Alana (OSHA-006) next using saved records first. Source workspace remains scheduling authority; all14–17October holds preserved. No public food offer or publication inferred. |
 | UTP-EVT-2026101109 | 2026-10-11T04:45:31.111551+00:00 | Alana modern narrative, distinct food roles and held calendar prepared for existing draft review branch.53 profiles; no merge or publication. | Deepen Kanji Anla OSHA-007 using saved records first; retain Alana, Kanji Anla and Anla Navami as distinct identities. Alana modern narrative, offering/consumption/story food roles and conflicting Ashwina/Dhanu calendars reconciled into existing draftPR145. Original text lineage, locality and salt/calendar scope retry17October; preserve all14–17October holds. No public release inferred. |
@@ -978,6 +978,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101114 | 2026-10-11T14:33:52.021116+00:00 | Manabasa Gurubara digital textual witness and ritual/shared-food roles reconciled for existing draft review;1868 header remains quarantined, no publication. | Manabasa Gurubara food sequence reconciled into draftPR145. Continue the next eligible saved-source field; preserve all14–18October textual, calendar and local-review holds. No publication inferred. |
 | UTP-EVT-2026101116 | 2026-10-11T16:39:59.978800+00:00 | Sudasa supplementary rice/filling and textual offering-distribution instructions reconciled into existing draft; current household practice unknown. | Sudasa supplementary food passages reconciled into draftPR145. Continue the earliest eligible saved-source narrative gap; preserve14–18October textual, calendar and local-review holds. No publication inferred. |
 | UTP-EVT-2026101117 | 2026-10-11T17:40:07.823443+00:00 | Saved Khudurukuni article and Sadhaba study imported as research-only; two profile sections retain print/authorship and food-term uncertainty. | Khudurukuni article and supporting maritime study reconciled as research-only into draftPR145; two profile sections added. Preserve14–18October holds and koeta identity gap. Continue earliest unheld narrative field; no public release inferred. |
+| UTP-EVT-2026101501 | 2026-10-14T22:18:21.066026+00:00 | Published all 39 pending request integrations through PR244. Reading room has 169 sourced notes; Osha collection has 53 profiles. All 226 new routes verified live. Boat-song evidence blocker retained; autonomous programme count unchanged. | Continue useful research without conflating early notes with completed specialist review. |
 
 ## Deferred extensions
 
