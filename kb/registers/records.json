@@ -7688,6 +7688,28 @@
         "records/osha-sudasa-review-2026-10-11.json",
         "records/osha-khudurukuni-review-2026-10-11.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-271",
+      "title": "Publish pending research and Osha collection",
+      "category": "website_quality",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-2026101501",
+      "next_action": "Publish reviewed integration after required checks; verify live output and save receipt.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-2026101501",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/pending-publication-2026-10-15.json",
+        "records/pending-reading-room.json",
+        "records/pending-publication-review-2026-10-15.json"
+      ],
+      "acceptance_criteria": "All 39 pending heads included; dated sourced research accessible through reading room, Osha pages discoverable, current main preserved, full/public tests and research validators pass. Merge checked PR, publish approved main workflow, verify all new public routes and unchanged eleven-route sitemap, save receipt."
     }
   ],
   "decisions": [
@@ -12293,6 +12315,25 @@
       "refs": [],
       "evidence": [
         "records/osha-culture-research-2026-10-07.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-2026101501",
+      "title": "Publish all pending content",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Publish all pending items",
+      "scope": "Integrate all 39 pending change requests, expose supported research as dated reading notes and publish the Osha collection after meaningful checks. Evidence-blocked research and internal operating records remain distinct. No search eligibility expansion.",
+      "recorded_at": "2026-10-14T22:06:53.584496+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-271"
+      ],
+      "evidence": [
+        "records/pending-publication-2026-10-15.json"
       ]
     }
   ],
@@ -17776,6 +17817,28 @@
       ],
       "evidence": [
         "records/osha-culture-research-2026-10-07.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-238",
+      "title": "Pending research and Osha publication review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-271"
+      ],
+      "evidence": [
+        "records/pending-publication-review-2026-10-15.json"
+      ],
+      "limitations": [
+        "Specialist review and current field confirmations remain open.",
+        "Boat/fishing-song manuscript remains blocked for lack of adequate retrieved evidence.",
+        "Search-index eligibility remains eleven routes.",
+        "This direct Founder publication batch is not counted as 169 autonomous tasks; programme count remains unchanged."
       ]
     }
   ],

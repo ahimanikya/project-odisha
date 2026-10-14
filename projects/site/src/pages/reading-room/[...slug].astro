@@ -1,0 +1,19 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import {entries,renderResearch,researchLink} from '../../lib/reading-room.mjs';
+export function getStaticPaths(){return entries.map(entry=>({params:{slug:entry.slug},props:{entry}}));}
+const {entry}=Astro.props;
+const body=await renderResearch(entry);
+---
+<Shell title={entry.title+' — Research notes'} description={entry.description} active="explore" related={false}>
+<article class="reading-article">
+<nav aria-label="Reading room breadcrumb"><a href="/reading-room/">Reading room</a> / {entry.group}</nav>
+<header><p class="eyebrow">{entry.type} · Research notes</p><h1>{entry.title}</h1><p class="lead">{entry.description}</p><p class="reading-status">Dated evidence and open questions. These notes preserve the sources’ reporting periods and research limits; they do not confirm current services, permissions or investment returns. Specialist review remains open.</p></header>
+<div class="research-body" set:html={body}/>
+{entry.sources.length>0&&<section class="source-list" aria-labelledby="reading-sources"><h2 id="reading-sources">Sources to follow</h2><ul>{entry.sources.map(source=><li><a href={researchLink(source.resource,entry.path)}>{source.title||source.id}</a></li>)}</ul></section>}
+<footer><p>Published in the reading room on 15 October 2026. Research dates are retained in the text and source records.</p><a href="/reading-room/">Explore more research →</a></footer>
+</article>
+</Shell>
+<style>
+.reading-article{max-width:800px;margin:3rem auto 5rem;padding:0 1.4rem;line-height:1.8;overflow-wrap:anywhere}.reading-article nav{font-size:.95rem;margin-bottom:2rem}.reading-article h1{font:clamp(2.2rem,5vw,3.7rem)/1.13 var(--serif);margin:.7rem 0 1.3rem;color:var(--sea)}.lead{font-size:1.15rem}.reading-status{border-left:3px solid var(--earth);padding:.8rem 1.2rem;background:var(--paper);font-size:.9rem;margin:1.5rem 0 2.5rem}.reading-article :global(p){margin-bottom:1.2rem}.reading-article :global(h2){font:1.8rem/1.3 var(--serif);margin:2.5rem 0 1rem}.reading-article :global(h3){font-size:1.2rem;margin:1.8rem 0 .8rem}.reading-article :global(ul),.reading-article :global(ol){padding-left:1.5rem;margin:1rem 0 1.5rem}.reading-article :global(li){margin:.55rem 0}.reading-article :global(a){text-decoration:underline;text-underline-offset:3px}.reading-article :global(a:focus-visible){outline:3px solid var(--earth);outline-offset:4px}.reading-article :global(table){display:block;overflow-x:auto;max-width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:.9rem}.reading-article :global(th),.reading-article :global(td){border:1px solid var(--line);padding:.6rem;text-align:left;min-width:105px}.reading-article :global(blockquote){border-left:3px solid var(--earth);padding:1rem;margin:1.5rem 0;background:var(--paper)}.reading-article :global(pre){overflow-x:auto;white-space:pre-wrap}.source-list,.reading-article footer{border-top:1px solid var(--line);padding-top:1rem;margin-top:2.5rem}.reading-article footer{font-size:.9rem}
+</style>

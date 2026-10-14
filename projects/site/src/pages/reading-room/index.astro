@@ -1,0 +1,22 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import {entries} from '../../lib/reading-room.mjs';
+const groups=[...new Set(entries.map(e=>e.group))].sort();
+---
+<Shell title="The Odisha reading room" description="Follow the evidence behind Odisha’s crafts, livelihoods, trade, places and institutions." active="explore" related={false}>
+<div class="reading-room wrap"><header><p class="eyebrow">Stories, evidence & questions</p><h1>Look a little closer.</h1><p class="lead">A craft has a maker. A port has a hinterland. A number has a date. Follow the connections through our growing research collection.</p><p>These are research notes with sources and unresolved questions. Read their dates and qualifications alongside the findings.</p></header>
+<aside><h2>Osha, stories & the food year</h2><p>Explore observances, seasonal foods and the stories told around them.</p><a href="/culture/osha/">Enter the Osha collection →</a></aside>
+<form id="reading-search" role="search"><label>Find a subject<input id="reading-query" type="search" placeholder="Try textiles, ports or Koraput"/></label><label>Choose a collection<select id="reading-group"><option value="">All collections</option>{groups.map(g=><option value={g}>{g}</option>)}</select></label><button type="reset">Show all</button></form>
+<p id="reading-count" role="status" aria-live="polite">{entries.length} research notes</p>
+<div class="reading-grid">{entries.map(e=><article data-reading-entry data-group={e.group} data-search={(e.title+' '+e.description+' '+e.group).toLowerCase()}><p class="eyebrow">{e.group}</p><h2><a href={e.route}>{e.title}</a></h2><p>{e.description}</p></article>)}</div>
+<p id="reading-empty" hidden>No matching notes. Try a broader subject or another collection.</p><noscript><p>All notes are listed below; use your browser’s Find command to look for a name.</p></noscript>
+</div>
+</Shell>
+<script>
+const form=document.querySelector<HTMLFormElement>('#reading-search'),query=document.querySelector<HTMLInputElement>('#reading-query'),group=document.querySelector<HTMLSelectElement>('#reading-group'),cards=[...document.querySelectorAll<HTMLElement>('[data-reading-entry]')],count=document.querySelector('#reading-count'),empty=document.querySelector<HTMLElement>('#reading-empty');
+function filter(){const q=query?.value.trim().toLocaleLowerCase()||'',g=group?.value||'';let n=0;for(const card of cards){card.hidden=!(card.dataset.search?.includes(q)&&(!g||card.dataset.group===g));if(!card.hidden)n++;}if(count)count.textContent=`${n} research ${n===1?'note':'notes'}`;if(empty)empty.hidden=n!==0;}
+form?.addEventListener('submit',e=>{e.preventDefault();filter()});form?.addEventListener('input',filter);form?.addEventListener('change',filter);form?.addEventListener('reset',()=>{setTimeout(filter,0)});
+</script>
+<style>
+.reading-room{padding-top:3rem;padding-bottom:5rem}.reading-room header{max-width:760px;margin-bottom:2.5rem}.reading-room h1{font:clamp(2.7rem,6vw,4.7rem)/1.05 var(--serif);color:var(--sea);margin:.8rem 0 1.5rem}.reading-room p{line-height:1.75;margin-bottom:1rem}.reading-room aside{background:var(--paper);border-left:4px solid var(--earth);padding:1.5rem;margin:2rem 0}.reading-room h2{font:1.65rem/1.3 var(--serif);margin-bottom:.8rem}.reading-room form{display:flex;flex-wrap:wrap;gap:1rem;align-items:end;margin:2rem 0 1rem}.reading-room label{display:grid;gap:.5rem;flex:1;min-width:220px}.reading-room input,.reading-room select,.reading-room button{padding:.8rem;border:1px solid var(--line);background:white;color:var(--ink);font:inherit;max-width:100%}.reading-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2rem;margin:2rem 0}.reading-grid article{border-top:1px solid var(--line);padding-top:1.3rem;min-width:0;overflow-wrap:anywhere}.reading-grid article[hidden]{display:none}.reading-room a{text-decoration:underline;text-underline-offset:3px}.reading-room :is(a,input,select,button):focus-visible{outline:3px solid var(--earth);outline-offset:4px}@media(max-width:950px){.reading-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:600px){.reading-grid{grid-template-columns:1fr}.reading-room form{display:grid}.reading-room label{min-width:0}}
+</style>

@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `1202a016379995d2ebb603581ecaf6b3bcd9278215f7508788ee801221a49c1a`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `4134433d6c6825223644ca75bdb35e886ce40f8594e92bbeda7d7d32fedf7ae5`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -282,6 +282,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-269 · Research and publish Chilika listening story | completed | applied | Ahimanikya Satapathy | Continue independent research; local naturalist and acoustic documentation remain open. | — |
 | UTP-WORK-270 · Connect Nimuhi literary story to Explore | completed | applied | Ahimanikya Satapathy | Continue the next eligible substantive task. | — |
 | UTP-WORK-2026100701 · Osha, stories and the food year: fifty-three profiles and dated food evidence | in_progress | draft | Ahimanikya Satapathy | Khudurukuni article and supporting maritime study reconciled as research-only into draftPR145; two profile sections added. Preserve14–18October holds and koeta identity gap. Continue earliest unheld narrative field; no public release inferred. | — |
+| UTP-WORK-271 · Publish pending research and Osha collection | in_progress | reviewed | Ahimanikya Satapathy | Publish reviewed integration after required checks; verify live output and save receipt. | — |
 
 ## Pending human review and decisions
 
@@ -572,6 +573,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-228 · Clarify tongue-led Huluhuli and correct the artwork | approved | Ahimanikya Satapathy | Founder corrects the depiction: tongue movement creates the trill, not merely opening the mouth. Revise misleading laughing-mouth artwork and clarify text; existing DEC225 covers tested UTP publication. No practitioner review inferred. |
 | UTP-DEC-2026101419 · Publish Nimuhi article and associated public assets | recorded_direction | Ahimanikya Satapathy | Publish the reviewed Nimuhi article, the 1968 comparison plate, user-supplied later photograph, two credited source-book PDFs, and a culture-trails discovery link. Preserve source/date qualifications. |
 | UTP-DEC-2026100701 · Research Odisha osha histories, significance and seasonal food | recorded_direction | Ahimanikya Satapathy | Deep research, structured cultural pages and an iterative research path. This record does not certify complete coverage, human factual review or approval of this exact website release. |
+| UTP-DEC-2026101501 · Publish all pending content | approved | Ahimanikya Satapathy | Integrate all 39 pending change requests, expose supported research as dated reading notes and publish the Osha collection after meaningful checks. Evidence-blocked research and internal operating records remain distinct. No search eligibility expansion. |
 
 ## Reviews
 
@@ -812,6 +814,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-236 | pass_with_limitations | False | Same-assistant desk review; local naturalist and acoustic-context review remain open.; No actual recording, species-call identification, visit or current operator availability claimed.; Eight chapters and eleven external-search routes retained. |
 | UTP-REV-237 | pass_with_limitations | False | Same-assistant review of navigation and reused copy; no new historical or field validation.; External indexing remains held for the existing article. |
 | UTP-REV-2026100701 | pass_with_limitations | False | Five narrative checkpoints and seven early notes; statewide coverage and histories remain incomplete.; No human factual/Odia review or local interviews claimed.; Current event dates and serving venues unverified.; Website candidate not merged or published. |
+| UTP-REV-238 | pass_with_limitations | False | Specialist review and current field confirmations remain open.; Boat/fishing-song manuscript remains blocked for lack of adequate retrieved evidence.; Search-index eligibility remains eleven routes.; This direct Founder publication batch is not counted as 169 autonomous tasks; programme count remains unchanged. |
 
 ## Publication and application history
 
