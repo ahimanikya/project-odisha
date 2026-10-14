@@ -47,3 +47,7 @@ Sheela Pattanayak’s report of 14 October 2016 identifies **Rama Sahoo** as fou
 The article’s approximate shop count, sales quantities and prices lack a stated method. They remain [historical research leads](../references/data/sweets-economy.json), with no current-market or turnover claim. [Sweets and livelihoods](../economy/rasagola-and-sweets.md) connects this food’s cultural identity with questions about makers and trade.
 
 [Related economic research](../economy/rasagola-and-sweets.md) — Historical town commerce and dated maker reporting connect cultural food knowledge with economic research.
+
+## Goods and reputation dossier · 5 October 2026
+
+[Korakhai evidence dossier](korakhai-gi-evidence.md) connects the historical trade record with a 2022 BDA trail proposal and a 2025 college promotion exercise. It also records the 2016 ingredient account and the still-missing producer-reviewed process. Institutional recognition does not establish a GI, official ODOP designation, current tour or invention date.

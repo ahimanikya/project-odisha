@@ -349,7 +349,7 @@ Original ASI epigraphy now read; four grants scoped with conflicting dates retai
 
 ## KISS records and account vintages · 2 October2026 UTC
 
-RES-047 deferred to9October. FY2023–24 original accounts and alumni certificate recovered, but parent founding certificate and separate audit opinion remain absent. Mixed-vintage/society notes and offsetting income-component differences need reconciliation. No modern absence or misconduct inferred.
+RES-047 deferred to9October. FY 2023–24 original accounts and alumni certificate recovered, but parent founding certificate and separate audit opinion remain absent. Mixed-vintage/society notes and offsetting income-component differences need reconciliation. No modern absence or misconduct inferred.
 
 ## Yogini heritage · 2 October 2026 UTC
 
@@ -406,3 +406,169 @@ The Founder selected this follow-up before the previous retry date. Existing com
 ## Mining and community services · 2026-10-02
 
 RES-053 now has a six-DMF financial sample and four named case bundles with dated audit findings/replies. Remaining: exact state receipt crosswalk, remaining relevant audit chapters, later functioning evidence, positive comparison cases and community outcomes. No present-day failure prevalence inferred.
+
+## Forest community-history checkpoint · 4 October 2026
+
+RES-058:2001 case geography resolved through methodology and Sites1–3; conflicting summary retained.2018 original returned zero bytes, fieldwork dates remain unknown, retry11October. Original rights decisions and community agreements remain eligible research.
+
+## Forest management instruments · 4 October 2026
+
+RES-058: original 2011 resolution captured, including women’s representation and local agreement forms. Original 2015/2019 amendments remain eligible; signed local agreements and current titles unknown. MoTA original booklet timeout, retry 11 October; 2018 survey-date gap unchanged.
+
+## Forest-management amendments · 4 October 2026
+
+RES-058: 2015 and 2019 JFM amendment facsimiles recovered, including separate resolution/gazette/forwarding dates. Later consolidated applicability and local implementation unknown. Community-history source and 2018 fieldwork-date criterion remain; existing 11 October retries preserved.
+
+## Dhani community-history checkpoint · 4 October 2026
+
+RES-058 community-history extension delivered. Required 2018 fieldwork-date and original local-instrument gaps retain 11 October retries. Dhani exact publication/fieldwork dates also remain unstated. Task deferred, not completed; RES-059 is next independent work.
+
+## Odisha in the world · 4 October 2026
+
+RES-059 bounded synthesis completed with two modern cases. Product/country/origin joins, current services and original 2025 Japan suspension scope remain open; latter retry 11 October. Survey destination denominators and maritime chronology conflicts preserved.
+
+## Rice markets · 4 October 2026
+
+Rice market follow-ups: obtain a matched producer-to-retail lot and origin-linked overseas shipment records after 11 October 2026. Retail ceiling, seller catalogue, promotion event and port volume are separate evidence classes. Public sources inspected do not resolve farmer returns.
+
+## Textile segments · 4 October 2026
+
+Textile follow-up11 October 2026: origin-linked HS, destination, physical quantity, dated shipments and current maker availability. District revenue not maintained in parliamentary answer. No residual attributed to handicrafts.
+
+## Sand-art checkpoint · 4 October 2026
+
+Sand-art source/award recovery retry11October2026. Need original first-edition record, fee receipts, current artist-biography evidence and award-body citation. Direct tourism downloads failed; indexed captures retained. Other material arts are eligible now.
+
+## Tarakasi and palm-leaf checkpoint · 4 October 2026
+
+Need original2015 central award list, Pankaj Kumar Sahoo1994 citation, named award-winning objects and full identity of the NID contact Arun; retry 2026-10-11. Stone carving, dhokra and terracotta eligible next. No income/export/workforce estimates or origin chronology added.
+
+## Stone, metal and clay · 4 October 2026
+
+Named sculptures and clay/dhokra objects with primary creator/date evidence are next. Original SIDAC2017 selection/acquisition minutes and award citations retry11October. Barpali/Bargarh biography and Sambalpur source labels preserved; no current workforce, export or income estimate added.
+
+## Attributed craft works ·4October2026
+
+Commission/accession records and precise Paris temple identity remain missing. INA Manbodh Rana match is provisional; IIC Manbodh Ram is unlinked. Sahoo artist-site fetch unavailable. Work-level and existing source-recovery retries 11 October; RES-032 not completed.
+
+## 4 October 2026 · District coverage audit
+
+Comparable district health and learning outcomes remain unmapped in inspected atlas inputs. All 30 banking baselines are reused; local DMF and university cases do not close outcome gaps. RES-014 is next. See [matrix](../statistics/district-coverage.md).
+
+## 4 October 2026 · RES-014 remaining evidence
+
+Historical Census 2011 and NFHS-5 measures are now mapped for three districts; current outcomes remain unknown. DES 2024 handbook fetches unavailable, retry 11 October. Full NFHS district methods remain to recover.
+
+## 4 October 2026 · Regional survey recovery
+
+NFHS-5 district samples and WHO indicator definitions recovered; nine provisional NFHS-6 nutrition estimates added. Exact child measurement denominators, confidence intervals and district dates remain unknown. DES/SDG recovery retained for RES-018, retry11October.
+
+## 4 October 2026 · Economic time-series checkpoint
+
+Seven 15-year series and14 matched5/10-year comparisons saved. Original PDF/workbook retrieval failed; RES-015 image review retries 11 October. No causal explanation of contractions established.
+
+## 4 October 2026 · Investment implementation checkpoint
+
+One IMFA cluster now distinguishes asset transfer, unimplemented expansion and greenfield construction. Payment bridge, plant-specific new construction spending, actual commissioning and jobs remain unknown; public-sector cohort next.
+
+## 4 October 2026 · NALCO expenditure boundary
+
+Project estimates and a CWIP expense component are captured, but full project cash spending and current commissioning remain unknown. RES-016 retries11 October; independent RES-017 next.
+
+
+## Sadhaba maritime-science study · 4 October 2026
+
+[Sadhaba science](../history/sadhaba-maritime-science.md) is now a substantive desk study. Original1993/1995 retrieval failed;1997 patia contents, manuscript accessions, ancient hull specifications, instruments, provisions and success rates remain unresolved. RES-068 retains these gaps without replacing other queue tasks.
+
+
+## Fisheries history · 4 October2026
+
+Fisheries table images, later2024–25 download and one-tonne alternate totals await11October. Historical methods consistency, export origin and producer margins remain unknown.
+
+## Export evidence · 4 October 2026
+
+DEPM2021–22 sector sum differs by34.81 crore; original PDF unavailable. Seafood Figure4.9 has unresolved quantity/value caption. Retry11October; district/product-country origin, benefit and margin evidence remains unknown.
+
+## Manufacturing checkpoint · 4 October 2026
+
+Exact RSP FY2024–25 return, source rounding policy and original CAG p.39 remain open. PDF requests failed; retry11October 2026. Non-metal manufacturing and local supplier orders remain independent next work.
+
+## Non-metal production · 4 October 2026
+
+PPL company narrative/table conflict and absent plant-specific output held; retry 11 October. Longer Rajgangpur line series and food-processing output remain open.
+
+## Food-processing checkpoint · 4 October 2026
+
+OMFED dated annual product output, mill throughput and current annual accounts remain unavailable. Survey procurement needs facsimile review; homepage/directory plant counts need scope reconciliation. Retry these fields 11 October; continue independent food-plant output research.
+
+## GI inventory · 4 October 2026
+
+[GI register](../collections/odisha-gi-products.md) covers the official 31 December 2025 list. Newer consolidated coverage, Kotpad/Ikat renewal evidence and Kapadaganda blank validity need recheck 11 October. Exact boundaries, authorized users and product-level economics remain separate research gaps; pending Chhenapoda/Palua Ladu excluded.
+
+## GI opportunity programme · 4 October 2026
+
+Original Puri cluster/temple-food documents failed TLS validation; retry11October. Nimapada identity, exact Puri gamucha tradition, applicant mandates, boundaries, technical specifications and inspection arrangements remain open. [Programme](../economy/gi-opportunity-programme.md). Independent documentary/comparator research can continue; no filing ready.
+
+## GI specification evidence · 4 October 2026
+
+Silao and Goa original journals recovered. Silao ghee proportions conflict (20%/30%); Goa utensil wording and undated economic claims held. See [comparison](../economy/khaja-gi-comparison.md). Seek corrections on 11 October; Puri’s own specification remains absent. Next independent research: Gamosa original specification and Puri gamucha identity.
+
+## Puri textile identity · 5 October 2026
+
+Assam comparison recovered; Puri local technical specification, cooperative registration and mandate remain unavailable. Alangdia is a reported lead, not a confirmed match. Seek original local records and Anakata dimension clarification on 12 October. Next independent desk task: Tirupathi Laddu governance comparison.
+
+## Temple-food controls · 5 October 2026
+
+Original Laddu specification recovered. Weight vintages,80°C wording and authorized-user status need clarification. Puri full governance PDFs unavailable; record-of-rights and producer mandate missing. Retry12October2026; independent Nimapada chronology next.
+
+## Nimapada documentary gaps · 5 October 2026
+
+Name use is documented; invention year, maker-name equivalence and business succession remain unverified. File metadata is not a release date. Municipal original timed out; retry 12 October. Next independent desk batch: Old Town Korakhai.
+
+## Korakhai goods gaps · 5 October 2026
+
+Institutional reputation evidence saved; grain/process measurements, variant definitions, boundary, service records and producer mandate remain absent. BDA facsimile unavailable despite readable publisher PDF text; retry12October. Next independent batch: Manikapatna Curd application2117.
+
+## Manikapatna gaps · 5 October 2026
+
+Original2013 science, sampling/specification reconciliation, accepted boundary, applicant representation and later notice response remain open. Receipt date is unknown, so no deadline or abandonment inferred. Procedural recheck12October; independent science review next.
+
+## Curd science gaps · 5 October 2026
+
+Original2013 study recovered. Accepted pH specification, product-level safety and2024 C-8/C-10 identity remain open; clarification retry12October. The cited2020 study is an unreviewed lead. Independent palm-leaf application comparison next.
+
+## Palm-leaf GI gaps · 5 October 2026
+
+805 reply Part1 recovered completely, first6of90pages reviewed. Resume at PDF7; later parts await review. Accepted boundary, identity ruling, final goods classes and current producer mandate remain unknown. Registry status recheck12October2026; independent substantive review can continue now.
+
+## Palm-leaf reply continuation · 5 October 2026
+
+PDF7–90 reviewed; earlier first-six-pages checkpoint superseded for Part1 only. Parts2–3 remain unreviewed. Producer roster, map certification and appointments need documents. Prakruti measurement units, KESARADA botanical identity/distribution and product-specific economic records remain gaps; source/clarification retry12October.
+
+## Palm-leaf supporting annexures · 5 October 2026
+
+Palm-leaf Parts2–3 now partially reviewed. Need accepted applicant amendment, actual authorising resolutions, KVK-specific organisational evidence and certified map; retry12October. Historical extracts outside saved page scope remain only inventoried. Independent Puri-food work proceeds.
+
+## Gaja/Kanti evidence · 5 October 2026
+
+Gaja/Kanti: original2006/2019 facsimiles unavailable, producer-accepted name equivalence and measured methods absent. Retry12October. Existing IHM chapter recovered with selected visual checks; no full-book review.
+
+## Poda/arisa scope · 5 October 2026
+
+Poda/arisa: Puri ritual association does not settle exclusive origin or a local specification. Producer-supported variant definition, geographic reputation and process measurements remain absent. Utsav direct fetch timed out; retry12October; indexed scope retained.
+
+## GI readiness matrix · 5 October 2026
+
+GI matrix: current producer mandate, agreed goods, certified boundaries, inspection operation and product-level economics remain unverified. Global comparison is still framework-level rather than an original product-specification audit. Review12October; do not repeatedly fetch known unavailable documents.
+
+## Kalamata comparison · 5 October 2026
+
+Kalamata selected original sections,2015 decision and2021 report are documented. Full annexures, human Greek review, current consolidated edition, control coverage and producer returns remain absent. Failed direct/English routes retry12October; no change to local candidate mandates.
+
+## Sugar-output checkpoint · 2026-10-06
+
+Sugar: original OAS p.109 unavailable; recovery arithmetic and Aska2016–17 output conflict held. Dhenkanal fiscal/crushing-year and post-sale ownership require independent follow-up. Retry original state table11October; continue buyer/period research.
+
+## Dhenkanal transaction checkpoint · 6 October 2026
+
+Historical buyer now documented. Fiscal/crushing-year alignment, successor output and present operator/title remain open. Newsletter original returned HTTP 502; original state table retry remains 11 October. Continue independent rice-mill output research meanwhile.

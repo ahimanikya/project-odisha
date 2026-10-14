@@ -47,14 +47,19 @@
     "publisher": "National Council for Hotel Management",
     "source_kind": "Hospitality education reference",
     "accessed_on": "2026-09-27",
-    "capture_note": "Odisha festive cuisine passage, page 251, reviewed through search extract.",
+    "capture_note": "12-page institute-hosted chapter scan recovered; selected pages visually checked, especially PDF10/printed251. Same proceedings lineage; full NCHM book unavailable.",
     "capture_history": [
       {
         "at": "2026-10-01T09:51:37.390675-07:00",
         "method": "indexed_only_full_fetch_unavailable",
         "scope": "Printed p.251 Enduri passage indexed. Web direct fetch failed; local DNS failed; network retry timed out at 45 seconds. No full-text verification claimed."
       }
-    ]
+    ],
+    "alternative_resources": [
+      "https://www.ihmbbs.org/article/article_1527739886.pdf",
+      "https://nchm.gov.in/sites/default/files/2025-01/Indian_Food_Heritage.pdf"
+    ],
+    "reviewed_on": "2026-10-05"
   },
   "regional-cuisine": {
     "id": "regional-cuisine",
@@ -913,7 +918,13 @@
     "publication_date": "2026-02-19",
     "source_kind": "Primary state statistical publication",
     "accessed_on": "2026-09-27",
-    "capture_note": "Targeted indexed section 1.7.1–1.7.5 and chart text reviewed. Web fetch exceeded size limit and direct public download timed out. Full PDF not archived."
+    "capture_note": "Targeted indexed section 1.7.1–1.7.5 and chart text reviewed. Web fetch exceeded size limit and direct public download timed out. Full PDF not archived.",
+    "capture_history": [
+      {
+        "at": "2026-10-04T20:37:12.900086+00:00",
+        "scope": "New indexed fields only: printed p19 section1.7.5 complete ten-country list and Figure1.16; p114 Figure4.9 unresolved quantity/value caption. Previous full-PDF failure/retry retained. No new independent source lineage."
+      }
+    ]
   },
   "maritime-paradip-2026": {
     "id": "maritime-paradip-2026",
@@ -1227,7 +1238,54 @@
     "publisher": "Government of Odisha, Directorate of Economics and Statistics",
     "source_kind": "Public institutional statistical source",
     "accessed_on": "2026-09-27",
-    "capture_note": "Fresh official indexed table extract with explicit 2018–19 to 2025–26 column headings and INR lakh units. Full PDF browser fetch exceeded size limit. Retain estimate vintage; not independent confirmation from a second source."
+    "capture_note": "Fresh official indexed table extract with explicit 2018–19 to 2025–26 column headings and INR lakh units. Full PDF browser fetch exceeded size limit. Retain estimate vintage; not independent confirmation from a second source.",
+    "capture_history": [
+      {
+        "at": "2026-10-04T14:42:04.663570+00:00",
+        "run_id": "2026-10-04-gsdp-series",
+        "scope": "Tables1.1 and1.4, seven annual series2011-12–2025-26",
+        "access": "Official indexed extracts; full document unavailable; table image review pending",
+        "source_checks": [
+          {
+            "url": "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf",
+            "status": "available",
+            "access_scope": "publisher_indexed_table_extract",
+            "locator": "Tables 1.1 and 1.4, both 2011-12–2017-18 and 2018-19–2025-26 panels",
+            "detail": "Numeric rows, units and estimate headings recovered; no PDF image review."
+          },
+          {
+            "url": "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf",
+            "status": "unavailable",
+            "access_scope": "direct_PDF_download_and_web_open",
+            "detail": "45-second shell timeout; web open timeout."
+          },
+          {
+            "url": "https://finance.odisha.gov.in/sites/default/files/2025-08/OES%202025-26%20Main%20Booklet.pdf",
+            "status": "unavailable",
+            "access_scope": "full_PDF",
+            "detail": "Web size limit 35,142,032 bytes; direct shell timeout55 seconds."
+          },
+          {
+            "url": "https://pc.odisha.gov.in/sites/default/files/2026-02/OES%202026%20WEB%20UPLOAD.pdf",
+            "status": "unavailable",
+            "access_scope": "full_PDF",
+            "detail": "Web size limit; direct connection timeout12 seconds."
+          },
+          {
+            "url": "https://des.odisha.gov.in/data_table/OES_2026.xlsx",
+            "status": "unavailable",
+            "access_scope": "official_tables_download",
+            "detail": "Web timeout and direct connection timeout."
+          },
+          {
+            "url": "https://des.odisha.gov.in/en/pages/data-tables",
+            "status": "available",
+            "access_scope": "official_link_discovery",
+            "detail": "Annual GSDP current, constant and GSVA tables link to OneDrive; links opened but inaccessible to web tool. No workbook values adopted."
+          }
+        ]
+      }
+    ]
   },
   "macro-des-catalog": {
     "id": "macro-des-catalog",
@@ -1423,7 +1481,14 @@
     "publisher": "Paradip Port Authority",
     "source_kind": "Public institutional statistical source",
     "accessed_on": "2026-09-27",
-    "capture_note": "Fresh indexed official release extract for coastal cargo in FY2024–25."
+    "capture_note": "Fresh indexed official release extract for coastal cargo in FY2024–25.",
+    "scope_extensions": [
+      {
+        "run_id": "2026-10-04-world-connections",
+        "at": "2026-10-04T06:32:22.384782+00:00",
+        "scope": "Direct HTML release paragraph on EXIM container traffic: 12,711 TEUs FY2024–25. Reused existing identity; PIB republication not counted independently."
+      }
+    ]
   },
   "connect-airport2026": {
     "id": "connect-airport2026",
@@ -2422,7 +2487,16 @@
     "publication_date": "2024-12-31",
     "accessed_on": "2026-10-01",
     "capture_method": "direct_html",
-    "source_kind": "Primary publisher or institutional record"
+    "source_kind": "Primary publisher or institutional record",
+    "capture_history": [
+      {
+        "run_id": "2026-10-04-textile-segments",
+        "checked_on": "2026-10-04",
+        "status": "rows_recovered_from_original_parliamentary_source",
+        "source_id": "textile-rs130-20241206",
+        "scope": "Same publication family; portal itself not repaired or independently corroborating."
+      }
+    ]
   },
   "sweets-pib-20250427": {
     "id": "sweets-pib-20250427",
@@ -4776,7 +4850,17 @@
     "published_on": null,
     "capture_method": "institutional_hosted_original_study",
     "locator": "October2001; executive summary and selected case-study context",
-    "capture_note": "Historical community-management evidence. Title names Sundergarh; abstract names Sambalpur. Geographic scope discrepancy held for follow-up. No new interviews."
+    "capture_note": "Historical community-management evidence. Title names Sundergarh; abstract names Sambalpur. Geographic scope discrepancy held for follow-up. No new interviews.",
+    "scope_extensions": [
+      {
+        "reviewed_on": "2026-10-04",
+        "run_id": "2026-10-04-forest-history",
+        "published_period": "2001-10",
+        "locator": "English chapter: methodology, Sites1–3, conclusions, acknowledgements and footnotes",
+        "capture_sha256": "764796ad653ce210ba2ec6b1bd03db14cf6bc56ddca83956faacc473ca99cf69",
+        "scope": "Methodology, site headings, place descriptions and acknowledgements agree on Bolangir, Deogarh and Sundergarh. Summary says Sambalpur. Case-level geography resolved using body; publisher text discrepancy retained. No current district statistics or fresh interviews."
+      }
+    ]
   },
   "forest-tdcc-mfp": {
     "id": "forest-tdcc-mfp",
@@ -4798,7 +4882,16 @@
     "published_on": null,
     "capture_method": "author_publisher_supplied_abstract",
     "locator": "Abstract; DOI10.22004/ag.econ.399613",
-    "capture_note": "120 households, six villages, Patana and Bansapal. Fieldwork year absent from abstract. Full-text fetch failed; no current statewide income estimate."
+    "capture_note": "120 households, six villages, Patana and Bansapal. Fieldwork year absent from abstract. Full-text fetch failed; no current statewide income estimate.",
+    "scope_extensions": [
+      {
+        "reviewed_on": "2026-10-04",
+        "run_id": "2026-10-04-forest-history",
+        "scope": "Abstract and download link revisited. Direct PDF returned zero bytes; publication2018 retained separately from unknown survey dates.",
+        "download_status": "unavailable",
+        "retry_after": "2026-10-11"
+      }
+    ]
   },
   "forest-sector2025": {
     "id": "forest-sector2025",
@@ -4950,6 +5043,11 @@
         "at": "2026-10-01T20:19:47.401985+00:00",
         "locator": "Printed p.90 / PDF p.96, total A/Y/P(Rice); printed p.67 / PDF p.73, selected districts",
         "scope": "Historical table uses whole thousands for area/output. Preserve precision separately from p.65; same publication, not corroboration. Web text available; direct download timed out."
+      },
+      {
+        "at": "2026-10-06T00:01:09.592924+00:00",
+        "locator": "Printed p.109, table29 (indexed contents and sugar-factory table); page image unavailable",
+        "scope": "Indexed original publisher table:2013–14 to2023–24 cane crushed, sugar produced, recovery and no-operation symbols. Direct download and web page-image checks failed. Same publication as saved rice records, not independent corroboration."
       }
     ]
   },
@@ -5348,6 +5446,12 @@
         "locator": "Printed pp.49,56,59 / PDF pp.69,76,79 visually rechecked",
         "capture_sha256": "4c9b97844771ca234658df8ea8d58da8576ffb93a8b665020067d61c8c6193c6",
         "note": "Existing workforce observations reused. BRSR labels 16,722 other-than-permanent workers at year end; p.49 describes contractors engaged during March. Preserve both wordings; unit allocation and unique-person method unresolved."
+      },
+      {
+        "checked_on": "2026-10-04",
+        "run_id": "2026-10-04-nalco-investment",
+        "locator": "Printed pp.12–14,190–191 / PDF32–34,210–211; financial tables and project paragraphs visually inspected",
+        "scope": "Project costs, trial/testing, alternate supply, MDO appointment, company capex and CWIP expense component. Original saved PDF reused, no fresh download or current operation verification."
       }
     ]
   },
@@ -5476,7 +5580,15 @@
     "accessed_on": "2026-10-02",
     "locator": "Sections2.2 and3.2; Tables6–7",
     "capture_method": "original_publisher_html",
-    "capture_note": "Original participatory research, farmer-perceived attributes. Publication date is not fieldwork date. Selected sites, not statewide prevalence. Health and nutrient assertions are not adopted."
+    "capture_note": "Original participatory research, farmer-perceived attributes. Publication date is not fieldwork date. Selected sites, not statewide prevalence. Health and nutrient assertions are not adopted.",
+    "capture_history": [
+      {
+        "run_id": "2026-10-04-rice-markets",
+        "checked_on": "2026-10-04",
+        "locator": "Section 3.4, paragraph beginning In Eastern Odisha; PDF p.11",
+        "scope": "Market-chain paragraph re-read; fieldwork/price observation date and matched grower receipts remain unknown."
+      }
+    ]
   },
   "rice-irri-kalahandi2020": {
     "id": "rice-irri-kalahandi2020",
@@ -6234,7 +6346,16 @@
     "locator": "PDF pp.2–4 rows5,7,9–10,12–14; pp.10–11,17,19–20 named product descriptions",
     "capture_note": "Full 31-page original recovered. Selected tables and product descriptions visually checked. Publication/fieldwork date unstated; URL timestamp and search age are not dates. Directory links makers/cooperatives and illustrated examples, not current operating status or seller stock. Panika Padma year2017 conflicts with MHA2018 and is excluded. Personal contacts and photographs not republished.",
     "capture_method": "downloaded_pdf_selected_pages_visually_checked",
-    "capture_sha256": "6d782f16e9a7eef8b8f6bf3f5e7676d8c7050647ca816b79b822ae54174688b0"
+    "capture_sha256": "6d782f16e9a7eef8b8f6bf3f5e7676d8c7050647ca816b79b822ae54174688b0",
+    "capture_history": [
+      {
+        "run_id": "2026-10-04-textile-segments",
+        "checked_on": "2026-10-04",
+        "status": "saved_capture_reused_live_fetch_unavailable",
+        "locator": "PDF pp.19–20 entries12–14",
+        "scope": "Saved original PDF text and images re-read; original URL returned502 on this attempt. Publication date unknown."
+      }
+    ]
   },
   "handloom-gi-list-2026": {
     "id": "handloom-gi-list-2026",
@@ -6308,7 +6429,15 @@
       },
       "scope": "Public read-only listing used by website"
     },
-    "origin_asset_url": "https://elegant-canvas-ad15652696.media.strapiapp.com/IMFA_Annual_Report_FY_2526_10bbee90f9.pdf"
+    "origin_asset_url": "https://elegant-canvas-ad15652696.media.strapiapp.com/IMFA_Annual_Report_FY_2526_10bbee90f9.pdf",
+    "capture_history": [
+      {
+        "run_id": "2026-10-04-investment-implementation",
+        "at": "2026-10-04T14:54:26.289090+00:00",
+        "scope": "Payment footnote p.17, acquisition/greenfield p.51, note45(vi) p.198; original PDF pp.10,27,101 visually inspected.",
+        "fresh_download": false
+      }
+    ]
   },
   "mining-imfa-sukinda-2026": {
     "id": "mining-imfa-sukinda-2026",
@@ -6931,5 +7060,1181 @@
     "source_kind": "Primary administrative report",
     "sha256": "bb1f68bee1b81c7c4059026d4d38357926cb9d7d69328830a8965e1bba6a3bc3",
     "capture_note": "Original PDF downloaded and text/table headings parsed. No rendered screenshot or human review claimed. Local capture recovered after DNS failure; later web retries unavailable."
+  },
+  "forest-jfm-resolution2011": {
+    "id": "forest-jfm-resolution2011",
+    "title": "Joint Forest Management Resolution, 2011: Orissa Gazette Extraordinary No. 2176",
+    "resource": "https://odishaforest.in/admin/data/ckeditor/images/jfm_resolution_2011_gazette.pdf",
+    "publisher": "Government of Orissa, Forest & Environment Department",
+    "published_on": "2011-09-22",
+    "resolution_date": "2011-09-09",
+    "source_kind": "Government resolution",
+    "locator": "PDF pp. 1–4, 6–11, 14, 17–21; clauses 3, 4, 7–14, 16; Annexure B Forms 1–5",
+    "capture_note": "Original 21-page PDF downloaded. Selected clauses and form text read through web extraction. Web screenshots failed; no visual verification claimed. Historical 2011 version only; later amendments not reconciled. Blank forms are not executed local instruments.",
+    "capture_sha256": "abc7c9ba6627b53a09c3fa6ea049059d9ff1671f5cfef60ff88ba263905b1cc5",
+    "accessed_on": "2026-10-04",
+    "capture_method": "official_pdf_download_and_targeted_web_text"
+  },
+  "forest-jfm-publisher": {
+    "id": "forest-jfm-publisher",
+    "title": "Joint Forest Management: Odisha Forest Department publisher overview",
+    "resource": "https://odishaforest.in/forest-management/joint-forest-management",
+    "publisher": "Principal Chief Conservator of Forests & HoFF, Odisha",
+    "published_on": null,
+    "source_kind": "Government programme overview",
+    "locator": "Implementation of Joint Forest Management Programme; links to 2011 and 2008 resolutions",
+    "capture_note": "Read programme history and amendment references to 2011, 2015 and 2019. These identify follow-up documents; no exhaustive current-law review or new programme statistics captured. Footer date does not establish publication date.",
+    "accessed_on": "2026-10-04",
+    "capture_method": "official_web_text",
+    "capture_sha256": "6243ed6aaf138dd614acace1861144a73c8ce39cc0db64db440405d89eb0dd04",
+    "scope_extensions": [
+      {
+        "reviewed_on": "2026-10-04",
+        "run_id": "2026-10-04-forest-amendments",
+        "scope": "Previously recorded 2015/2019 amendment leads resolved through official working-plan facsimiles; overview itself not independently reverified this run.",
+        "evidence_source_id": "forest-jfm-amendments-plan2021"
+      }
+    ]
+  },
+  "forest-jfm-amendments-plan2021": {
+    "id": "forest-jfm-amendments-plan2021",
+    "title": "Jharsuguda Forest Division Working Plan 2021–22 to 2030–31, Volume II: JFM amendment annexures",
+    "resource": "https://odishaforest.in/admin/data/documents/div_working_plan_file_557470292.pdf",
+    "publisher": "Odisha Forest Department, Jharsuguda Forest Division",
+    "published_on": null,
+    "planning_period": "2021-22 to 2030-31",
+    "source_kind": "Government working plan containing original-instrument facsimiles",
+    "locator": "Cover PDF p. 1; contents p. 6; Annexure IX(a), PDF p. 167; forwarding letter p. 168; Annexure IX(b), pp. 169–170",
+    "capture_note": "Full file downloaded; selected amendment pages rendered and visually read. 2015 gazette facsimile and 2019 resolution/forwarding copy are the evidence, not independent corroboration from the enclosing working plan. Whole-volume text extraction does not imply full-volume review. Hosting/publication date unknown; plan period separate from instrument dates.",
+    "capture_sha256": "d19bbfa3f92733623b26eb5d909bf446524c722e575000d3d5386e2ee8bc17bd",
+    "accessed_on": "2026-10-04",
+    "capture_method": "official_pdf_download_selected_page_visual_review"
+  },
+  "forest-dhani-community-history": {
+    "id": "forest-dhani-community-history",
+    "title": "Adaptive Community Forest Management: Some Emerging Trends in India",
+    "resource": "https://www.fao.org/4/XII/0743-C1.htm",
+    "authors": [
+      "Neera M. Singh",
+      "Prateep K. Nayak"
+    ],
+    "publisher": "FAO-hosted authors’ conference paper, 0743-C1",
+    "published_on": null,
+    "publication_date_note": "No explicit publication date displayed in the reviewed paper. XII congress context is 2003; event date is not substituted for the paper publication or fieldwork date.",
+    "study_period": "Historical episodes 1987–1995; fieldwork dates unstated",
+    "geography": "Dhani Reserve Forest, Khurda Forest Division, Orissa as published",
+    "source_kind": "Original authored community-management case study",
+    "locator": "Introduction; Dhani Panch Mouza Committee: A Learning Organisation; Equity and Other Challenges; Role of the State Forest Department",
+    "capture_note": "Full HTML text read; graphical offence series not digitised. Authors’ historical case account, not an original signed committee instrument, causal evaluation or current operating/legal verification.",
+    "accessed_on": "2026-10-04",
+    "capture_method": "publisher_html_text"
+  },
+  "world-japan-suspension-lead2025": {
+    "id": "world-japan-suspension-lead2025",
+    "title": "India moves to conserve rare earths, seeks halt to exports to Japan",
+    "resource": "https://www.ibef.org/news/india-moves-to-conserve-rare-earths-seeks-halt-to-exports-to-japan",
+    "publisher": "India Brand Equity Foundation",
+    "published_on": "2025-06-16",
+    "locator": "News body and secondary-research disclaimer",
+    "source_kind": "Secondary institutional news; unresolved primary-evidence lead",
+    "capture_note": "Records a reported request to suspend exports. Original directive, effective scope and later status not retrieved. No shipment quantities or completed suspension adopted as verified.",
+    "accessed_on": "2026-10-04"
+  },
+  "world-dae-3202-2022": {
+    "id": "world-dae-3202-2022",
+    "title": "Rajya Sabha question 3202: Import of rare earth elements",
+    "resource": "https://cdnbbsr.s3waas.gov.in/s35b8e4fd39d9786228649a8a8bec4e008/uploads/2023/02/2023020889-1.pdf",
+    "publisher": "Department of Atomic Energy",
+    "published_on": "2022-03-31",
+    "date_type": "answer date, distinct from upload directory",
+    "locator": "PDF pp.1–2; answer (c) and table heading in (d)",
+    "source_kind": "Original parliamentary answer",
+    "capture_note": "Both pages visually read. Answer distinguishes its use of pact from a company supply agreement for mixed rare-earth chloride. Table is IREL ore mined, not Odisha rare-earth output or exports; no table values adopted.",
+    "accessed_on": "2026-10-04",
+    "capture_sha256": "f5ed66cbdc35ecfb1607c8c6fc67706b7f79b7791a562ce5c55831f281e629b9"
+  },
+  "world-japan-memorandum2012": {
+    "id": "world-japan-memorandum2012",
+    "title": "India–Japan memorandum on cooperation in the rare earths industry in India",
+    "resource": "https://www.mea.gov.in/Portal/LegalTreatiesDoc/JP12B0296.pdf",
+    "publisher": "Ministry of External Affairs; DAE and METI signatories",
+    "published_on": "2012-11-16",
+    "date_type": "signature date; website upload date unknown",
+    "locator": "PDF p.1, clauses 1–5 and signature block",
+    "source_kind": "Original intergovernmental memorandum",
+    "capture_note": "One-page signed facsimile visually read. Designated partners and intended cooperation, not proof of a completed joint venture, delivered volume or continuing agreement.",
+    "accessed_on": "2026-10-04",
+    "capture_sha256": "c60542ee01e6807d2f20af0cc32b9fa7287da47e28d35d47ca1e6afe4b44bc38"
+  },
+  "rice-cgiar-trade2024": {
+    "id": "rice-cgiar-trade2024",
+    "title": "Drivers of Agrifood System Transformation in Odisha",
+    "resource": "https://cgspace.cgiar.org/server/api/core/bitstreams/5a2723be-0b6d-4b73-af7c-bb61bc42ba97/content",
+    "publisher": "Mishra and colleagues; CGIAR Initiative on National Policies and Strategies",
+    "published_on": "2024",
+    "accessed_on": "2026-10-04",
+    "locator": "Printed p.27 / PDF p.33, Export markets paragraph",
+    "capture_note": "Original institutional analysis visually read; port-origin attribution gap. Cover says October2024, running footer December2024; month unresolved. No Odisha-specific rice shipment total derived.",
+    "capture_method": "original_PDF_text_and_visual",
+    "capture_sha256": "1f6c3664cda1d1cba95afa658086904d07f4e82a987066b1d6c4ff5fb920db6b"
+  },
+  "rice-apeda-promotion2025": {
+    "id": "rice-apeda-promotion2025",
+    "title": "APEDA Annual Administrative Report 2024–25 — Odisha capacity development",
+    "resource": "https://apeda.gov.in/sites/default/files/annual_report/APEDA_Annual_Report_English_2024_25.pdf",
+    "publisher": "APEDA",
+    "published_on": null,
+    "accessed_on": "2026-10-04",
+    "locator": "Printed p.114 / PDF p.116, Odisha capacity-building table row16",
+    "capture_note": "Original table visually read; dated promotion event, not export execution. Nutritional language in table not adopted as evidence.",
+    "capture_method": "original_PDF_text_and_visual",
+    "capture_sha256": "6cc5e1c941af8c0c563951fa84b11acc9cf0bcf0aec553333b4ebf86289c28b9"
+  },
+  "rice-myefarm-listing": {
+    "id": "rice-myefarm-listing",
+    "title": "Kalajeera Rice — myefarm catalogue",
+    "resource": "https://www.mye.farm/shop/kalajeera-rice",
+    "publisher": "myefarm / Abeja Labs Private Limited",
+    "published_on": null,
+    "accessed_on": "2026-10-04",
+    "locator": "District, pack sizes, sourcing and ordering sections",
+    "capture_note": "Seller catalogue snapshot; Kandhamal origin asserted by seller, not verified Koraput GI origin. No displayed price, stock confirmation or completed purchase.",
+    "capture_method": "original_publisher_HTML",
+    "capture_sha256": "ceaf5d36871a797b26e19e41f887914c3b1ddf8dc9ed2b6ed8026962319ef1e8"
+  },
+  "rice-jaivik-products": {
+    "id": "rice-jaivik-products",
+    "title": "Jaivik Sri Farmers Producer Company — products and organisation",
+    "resource": "https://www.jaiviksrifpc.com/",
+    "publisher": "Jaivik Sri Farmers Producer Company",
+    "published_on": null,
+    "accessed_on": "2026-10-04",
+    "locator": "About Us and Our products sections",
+    "capture_note": "Producer self-description; commercial interest; no dated rice transaction, audited rice revenue or farmer payment evidence.",
+    "capture_method": "original_publisher_HTML",
+    "capture_sha256": "250963fe728211fd55d74724e829f758a0aa9bb177da632604d35c8f565652cf"
+  },
+  "textile-rs130-20241206": {
+    "id": "textile-rs130-20241206",
+    "title": "Support to textile hubs in Odisha — Rajya Sabha starred Q130",
+    "resource": "https://sansad.in/getFile/annex/266/AS130_m5ovdk.pdf?source=pqars",
+    "publisher": "Ministry of Textiles; DGCI&S Kolkata",
+    "published_on": "2024-12-06",
+    "accessed_on": "2026-10-04",
+    "locator": "Annexure C, PDF p.4; answer (b), PDF p.2",
+    "capture_note": "Original parliamentary PDF visually checked.",
+    "capture_sha256": "bb6e164bdf44ef41c439d73069e1a5336f10cf2f40bec97fbae258d54b7005c9"
+  },
+  "textile-bargarh-products": {
+    "id": "textile-bargarh-products",
+    "title": "Bargarh district — industry and handicrafts product range",
+    "resource": "https://bargarh.odisha.gov.in/or/departments/sailapa-o-hasatasailapa",
+    "publisher": "Bargarh district administration",
+    "published_on": null,
+    "accessed_on": "2026-10-04",
+    "locator": "ONE DISTRICT ONE PRODUCT and SAMBALPURI BASTRALAYA HLCS LTD.BARGARH production paragraphs",
+    "capture_note": "Original publisher page read through web extractor; footer updated18June2026 is not a production observation date. No undated turnover or workforce number adopted."
+  },
+  "sand-festival-landing2025": {
+    "id": "sand-festival-landing2025",
+    "title": "Odisha Tourism sand festival landing page — chronology conflict",
+    "resource": "https://odishatourism.gov.in/content/tourism/en/experience/event/International-Sand-Art-Festival-2025.html",
+    "publisher": "Odisha Department of Tourism",
+    "published_on": null,
+    "accessed_on": "2026-10-04",
+    "locator": "About the Event",
+    "capture_note": "Indexed promotional page asserts2015 start and generic participation. Held apart from edition-specific evidence; same department lineage is not independent corroboration.",
+    "capture_method": "indexed_primary_text"
+  },
+  "sand-dda-workshop2022": {
+    "id": "sand-dda-workshop2022",
+    "title": "DDA February2022 newsletter — Azaadi Darshan workshop",
+    "resource": "https://dda.gov.in/sites/default/files/tender/E-newsletter_feb.pdf",
+    "publisher": "Delhi Development Authority",
+    "published_on": "2022-02",
+    "accessed_on": "2026-10-04",
+    "locator": "Printed p.3 on PDF p.4, February19: Azaadi Darshan",
+    "capture_note": "Original downloaded through canonical non-www host and visually checked. Report identifies Manas Kumar Sahoo as workshop guide; it does not establish his Odisha biography.",
+    "capture_method": "original_pdf_text_and_visual",
+    "capture_sha256": "181096989f14d4241aeed902826d70b150886f3380e1a1bf89c0fb7f04ce1b99"
+  },
+  "sand-festival-rules2022": {
+    "id": "sand-festival-rules2022",
+    "title": "International Sand Art Festival — national rules 2022",
+    "resource": "https://odishatourism.gov.in/content/tourism/en/sand-art-festival-guideline.html",
+    "publisher": "Odisha Department of Tourism",
+    "published_on": null,
+    "accessed_on": "2026-10-04",
+    "locator": "Obligations of Organizer, remuneration items; event dates identify2022 edition",
+    "capture_note": "Search-indexed original rules; direct web open failed. Terms are historical offers, not payment evidence or current prices.",
+    "capture_method": "indexed_primary_text"
+  },
+  "sand-tourism-newsletter2020": {
+    "id": "sand-tourism-newsletter2020",
+    "title": "Odisha Unravelled — January 2020 festival report",
+    "resource": "https://odishatourism.gov.in/content/dam/tourism/home/newsletter/Jan%202020.pdf",
+    "publisher": "Odisha Department of Tourism",
+    "published_on": "2020-01",
+    "accessed_on": "2026-10-04",
+    "locator": "Printed/PDF p.12, final sand-festival sentences",
+    "capture_note": "Indexed original-publisher text read. Direct URL returned404 and screenshot failed; no fresh PDF visual verification. December2019 inferred from January2020 issue context.",
+    "capture_method": "indexed_primary_text"
+  },
+  "sand-puri-tiranga2025": {
+    "id": "sand-puri-tiranga2025",
+    "title": "Sudarsan Pattnaik — Har Ghar Tiranga sculpture at Puri",
+    "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2154937",
+    "publisher": "Ministry of Culture / PIB Bhubaneswar",
+    "published_on": "2025-08-10",
+    "accessed_on": "2026-10-04",
+    "locator": "Opening paragraphs and location line",
+    "capture_note": "Dated government report identifies artist, work theme and Puri location. Promotional crowd language has no measured attendance denominator.",
+    "capture_method": "original_publisher_HTML"
+  },
+  "sand-festival-rules2025": {
+    "id": "sand-festival-rules2025",
+    "title": "15th International Sand Art Festival — participation invitation",
+    "resource": "https://odishatourism.gov.in/content/dam/tourism/home/experience/konark_festival_2025/Rules-and-Regulations-Final.pdf",
+    "publisher": "Odisha Department of Tourism",
+    "published_on": "2025-09-26",
+    "accessed_on": "2026-10-04",
+    "locator": "Notice11741/TSM, PDF pp.1–2; participant clauses7,8,11,12 and organizer clause6",
+    "capture_note": "Indexed original PDF text available; direct download404 and screenshot failed. Scheduled event and rules, not an event outcome.",
+    "capture_method": "indexed_primary_text"
+  },
+  "sand-weymouth-award-lead2025": {
+    "id": "sand-weymouth-award-lead2025",
+    "title": "Akashvani reports Pattnaik’s Fred Darrington award",
+    "resource": "https://newsonair.gov.in/sudarsan-pattnaik-becomes-first-indian-to-win-fred-darrington-sand-art-award/",
+    "publisher": "Akashvani News",
+    "published_on": "2025-04-06",
+    "accessed_on": "2026-10-04",
+    "locator": "Award report",
+    "capture_note": "Public-broadcaster report, not award-body record. SandWorld homepage inspected but did not verify this award; first-Indian superlative and trophy chronology held for original evidence.",
+    "capture_method": "secondary_institutional_report"
+  },
+  "arts-state-awards": {
+    "id": "arts-state-awards",
+    "title": "Odisha Directorate: national handicraft award register",
+    "resource": "https://crafts.odisha.gov.in/?page_id=287",
+    "publisher": "Odisha Directorate of Handicrafts",
+    "publication_date": null,
+    "accessed_on": "2026-10-04",
+    "locator": "Row101 Pankaj Kumar Sahoo; row20 Laxmidhar Subudhi",
+    "capture_method": "indexed_primary_text",
+    "capture_note": "Indexed publisher table only; direct web retrieval failed502/internal error. Selected maker, craft, district and award-year fields; personal addresses omitted. The table combines National Awards and National Merit Certificates, which must remain distinct.",
+    "capture_history": [
+      {
+        "checked_at": "2026-10-04T11:39:04.102615+00:00",
+        "locator": "Row135 Manabodh Rana, Clay & Terracotta, National Award1986",
+        "capture_method": "indexed_primary_text",
+        "scope": "Additional missing maker field; prior row captures preserved. Sambalpur is retained as printed historical register geography."
+      }
+    ]
+  },
+  "arts-national-awards2015": {
+    "id": "arts-national-awards2015",
+    "title": "List of National Awards for the year 2015",
+    "resource": "https://handicrafts.nic.in/pdf/final_list_national_award_2015.pdf",
+    "publisher": "Development Commissioner (Handicrafts), Ministry of Textiles",
+    "publication_date": null,
+    "accessed_on": "2026-10-04",
+    "locator": "Rows7–8; indexed table headed List of National Awards for the year2015",
+    "capture_method": "indexed_primary_text",
+    "capture_note": "Indexed original-publisher text read. Both www and non-www direct downloads timed out; web screenshot failed. No visual PDF verification. Award year2015, not ceremony date. Exact source spelling Subudhhi retained as alias; state register uses Subudhi."
+  },
+  "arts-nid-palm": {
+    "id": "arts-nid-palm",
+    "title": "Palm Leaf Painting — Bhubaneshwar, Orissa",
+    "resource": "https://dsource.in/sites/default/files/resource/palm-leaf-painting-bhubaneshwar-orissa/downloads/file/palm-leaf-painting-bhubaneshwar-orissa.pdf",
+    "publisher": "D’Source; documentation credited to NID Bengaluru",
+    "publication_date": null,
+    "accessed_on": "2026-10-04",
+    "locator": "PDF pp.2,9,15–17,19",
+    "capture_method": "original_pdf_text_and_selected_visual",
+    "capture_note": "Original PDF retrieved; process p.9 visually checked. Product and contact text extracted. Page15 includes a western-India example, excluded from Odisha object attribution. Arun is an incomplete identity. No publication date or object provenance established.",
+    "capture_sha256": "1bca12260f1d11e301b323f00c8fd76cf989542701c096c6047f387702827484"
+  },
+  "arts-nid-filigree": {
+    "id": "arts-nid-filigree",
+    "title": "Silver Filigree — Cuttack, Orissa",
+    "resource": "https://dsource.in/sites/default/files/resource/silver-filigree-cuttack-orissa/downloads/file/185_silver_filigree_cuttack_orissa_new.pdf",
+    "publisher": "D’Source; documentation credited to NID Bengaluru",
+    "publication_date": null,
+    "accessed_on": "2026-10-04",
+    "locator": "PDF pp.8,13–14,16",
+    "capture_method": "original_pdf_text_and_selected_visual",
+    "capture_note": "Original PDF retrieved; process p.8 visually checked. Product and maker-credit text extracted from pp.13–14,16. Publication date not established. HTML and PDF are the same documentation family. Unrelated spam links in HTML navigation were excluded.",
+    "capture_sha256": "0aa9e61b76327e11a859eb572a50e43ee7742027215ea16c56abda5fa8bc4316"
+  },
+  "arts-state-craft-awards": {
+    "id": "arts-state-craft-awards",
+    "title": "Odisha Directorate: state handicraft award register",
+    "resource": "https://crafts.odisha.gov.in/?page_id=272",
+    "publisher": "Odisha Directorate of Handicrafts",
+    "publication_date": null,
+    "accessed_on": "2026-10-04",
+    "locator": "Row57 Sansari Gadatia, Dhokra,2006",
+    "capture_note": "Indexed publisher table. State recognition must not become National Award. Personal addresses omitted; original ceremony and award object not recovered.",
+    "capture_method": "indexed_primary_text"
+  },
+  "arts-sudarshan-museum": {
+    "id": "arts-sudarshan-museum",
+    "title": "Sudarshan Craft Museum — Incredible India",
+    "resource": "https://www.incredibleindia.gov.in/en/odisha/puri/sudarshan-craft-museum",
+    "publisher": "Ministry of Tourism / Incredible India",
+    "publication_date": null,
+    "accessed_on": "2026-10-04",
+    "locator": "Preserving the artistic heritage of Odisha, opening paragraph",
+    "capture_note": "Attributes foundation in1977 to Sudarshan Sahoo. Tourism account, not original foundation instrument. Promotional superlatives, timings, transport widget and generic workshop promises excluded.",
+    "capture_method": "original_publisher_HTML"
+  },
+  "arts-nid-dhokra": {
+    "id": "arts-nid-dhokra",
+    "title": "Dhokra Metal Casting — Dhenkanal, Orissa",
+    "resource": "https://dsource.in/sites/default/files/resource/dhokra-metal-casting-dhenkanal-orissa/downloads/file/dhokra-metal-casting-dhenkanal-orissa.pdf",
+    "publisher": "D’Source; documentation credited to NID Bengaluru",
+    "publication_date": null,
+    "accessed_on": "2026-10-04",
+    "locator": "PDF pp.3,8,23",
+    "capture_note": "Process p.8 visually checked; maker credit pp.3,23. Alloy formulation and asserted Indus continuity not adopted.",
+    "capture_method": "original_pdf_text_and_selected_visual",
+    "capture_sha256": "05ea8decb91cebfa2bae2b83db000c68d657ae9640f06cf0ff08c23a7415a14f"
+  },
+  "arts-nid-stone": {
+    "id": "arts-nid-stone",
+    "title": "Stone Carving — Bhubaneswar, Orissa",
+    "resource": "https://dsource.in/sites/default/files/resource/stone-carving-bhubaneswar-orissa/downloads/file/stone-carving-bhubaneswar-orissa.pdf",
+    "publisher": "D’Source; documentation credited to NID Bengaluru",
+    "publication_date": null,
+    "accessed_on": "2026-10-04",
+    "locator": "PDF pp.13,31",
+    "capture_note": "Process p.13 visually checked; contact text p.31 names Ramakanta Mahapatra. Broad national prehistory and current trading claims excluded.",
+    "capture_method": "original_pdf_text_and_selected_visual",
+    "capture_sha256": "3de89fde51abc50b9b66cedff215ada98dd5aa3146147add7cb88b1f90ca0354"
+  },
+  "arts-sidac-selection2017-lead": {
+    "id": "arts-sidac-selection2017-lead",
+    "title": "SIDAC second artefact-selection proceedings — recovery lead",
+    "resource": "https://sidacodisha.org.in/proceedings_f_2nd_Artefact_Selection_Committee_meeting.pdf",
+    "publisher": "State Institute for Development of Arts & Crafts",
+    "publication_date": null,
+    "accessed_on": "2026-10-04",
+    "locator": "Indexed Annexure2; headings mention23September2017 and26May2017",
+    "capture_note": "Original download connection refused and web502. Indexed table columns/quantities appear displaced; no prices, quantities or completed acquisitions adopted. Owner is not necessarily maker. Recover facsimile before use.",
+    "capture_method": "indexed_discovery_lead_only"
+  },
+  "arts-nid-terracotta": {
+    "id": "arts-nid-terracotta",
+    "title": "Terracotta Jewelry and Toys — Sambalpur, Orissa",
+    "resource": "https://dsource.in/sites/default/files/resource/terracotta-jewelry-and-toys-sambalpur-orissa/downloads/file/terracotta-jewelry-and-toys-sambalpur-orissa.pdf",
+    "publisher": "D’Source; documentation credited to NID Bengaluru",
+    "publication_date": null,
+    "accessed_on": "2026-10-04",
+    "locator": "PDF pp.2,12,30",
+    "capture_note": "Pages2 and12 visually checked. Title/contact say Sambalpur; maker biographies explicitly say Barpali, Bargarh. Undated experience figures and overseas workshop claims do not establish current tenure, export totals or dated exhibitions.",
+    "capture_method": "original_pdf_text_and_selected_visual",
+    "capture_sha256": "7408dcb80af5179d7cb8ce5ef20a80feccd35ffd677d51284764266bc396757d"
+  },
+  "arts-padma2021": {
+    "id": "arts-padma2021",
+    "title": "Padma Awards 2021 announced",
+    "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1692337",
+    "publisher": "Ministry of Home Affairs / PIB",
+    "publication_date": "2021-01-25",
+    "accessed_on": "2026-10-04",
+    "locator": "Padma Vibhushan table, row7 Sudarshan Sahoo",
+    "capture_note": "Announcement records Art and Odisha. Announcement date and award year are not a person-specific investiture date.",
+    "capture_method": "original_publisher_HTML"
+  },
+  "arts-rs-mohapatra2021": {
+    "id": "arts-rs-mohapatra2021",
+    "title": "Rajya Sabha obituary reference: Raghunath Mohapatra",
+    "resource": "https://cms.rajyasabha.nic.in/UploadedFiles/Debates/OfficialDebatesDatewise/Floor/254/1972021/F19072021.pdf",
+    "publisher": "Rajya Sabha Secretariat",
+    "publication_date": "2021-07-19",
+    "accessed_on": "2026-10-04",
+    "locator": "Printed p.2, PDF p.36",
+    "capture_note": "Original page visually checked: Puri district connection, sculpture career, nominated membership and death9May2021. Padma Shri year differs from secondary reports; original award register still needed.",
+    "capture_method": "original_pdf_text_and_visual",
+    "capture_sha256": "df3932ec2a43cae58db42d61e36a2d0c6695575138691238b3022ea366cc0990"
+  },
+  "arts-president-nominations2018": {
+    "id": "arts-president-nominations2018",
+    "title": "President nominates four members to Rajya Sabha",
+    "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1538641",
+    "publisher": "President’s Secretariat / PIB",
+    "publication_date": "2018-07-14",
+    "accessed_on": "2026-10-04",
+    "locator": "Raghunath Mohapatra biographical paragraph",
+    "capture_note": "Government attribution of two works; historical location as reported in2018. Not a collection accession record or proof of present display.",
+    "capture_method": "original_publisher_HTML"
+  },
+  "arts-iic-clay2016": {
+    "id": "arts-iic-clay2016",
+    "title": "The Diversity of Clay — IIC Diary September–October2016",
+    "resource": "https://aws-static.iicdelhi.in/s3fs-public/2020-12/IIC%20Diary%20%28September-October%202016%29_Final.pdf",
+    "publisher": "India International Centre; account by Purnima Rai",
+    "publication_date": "2016-09/2016-10",
+    "accessed_on": "2026-10-04",
+    "locator": "Printed/PDF p.13, lower section: The Diversity of Clay",
+    "capture_note": "Original visually checked. Exhibition In the Language of Clay,22–26October2016, curator Ritu Sethi, Crafts Museum/CRT collaboration. Odisha roof tiles credited to Manbodh Ram as printed; identity link to Rana withheld. Issue label is not an exact release date.",
+    "capture_method": "original_pdf_text_and_visual",
+    "capture_sha256": "2d3311330077e239a1e830cd8642292c7a878da5eb19223c0da2edc2ae062409"
+  },
+  "arts-crt-ina-tiles": {
+    "id": "arts-crt-ina-tiles",
+    "title": "Terracotta Tiles — INA Metro Craft Gallery",
+    "resource": "https://asiainch.org/collection/terracotta-tiles-2/",
+    "publisher": "Craft Revival Trust / Asia InCH",
+    "publication_date": "2018-10",
+    "accessed_on": "2026-10-04",
+    "locator": "Artist/Maker; Place/Origin; Descriptive Line; Collection of",
+    "capture_note": "Institutional catalogue credits Manbodh Rana, Odisha; tile mural and collection label. October2018 is the page label, not established creation/installation date. Current display and acquisition terms unknown.",
+    "capture_method": "original_institutional_HTML"
+  },
+  "regional-nutrition-ls1060-2022": {
+    "id": "regional-nutrition-ls1060-2022",
+    "title": "Position of India in Global Hunger Index — Lok Sabha unstarred question 1060, district NFHS-5 Annexure",
+    "resource": "https://sansad.in/getFile/loksabhaquestions/annex/179/AU1060.pdf?source=pqals",
+    "publisher": "Ministry of Women and Child Development, Lok Sabha",
+    "published_on": "2022-07-22",
+    "accessed_on": "2026-10-04",
+    "locator": "Annexure, PDF p.3, Bargarh, Koraput and Sambalpur rows",
+    "capture_note": "Original PDF table visually inspected. NFHS-5 survey-round label 2019–21; district fieldwork dates, sample sizes and uncertainty intervals not supplied in this annexure. Not independent corroboration of the NFHS survey.",
+    "capture_sha256": "5f1eb002e43f3f69620baba2b780347b44316f0943224ff26a66816209d03f41"
+  },
+  "regional-koraput-census2011": {
+    "id": "regional-koraput-census2011",
+    "title": "Census of India 2011, Odisha, District Census Handbook Koraput, Part XII-B",
+    "resource": "https://censusindia.gov.in/nada/index.php/catalog/953/download/36680/DH_2011_2129_PART_B_DCHB_KORAPUT.pdf",
+    "publisher": "Directorate of Census Operations, Odisha",
+    "published_on": "2014",
+    "accessed_on": "2026-10-04",
+    "locator": "Important Statistics, printed p.16, PDF p.23; literacy method PDF p.27",
+    "capture_note": "Original PDF table visually inspected; literacy denominator checked in methodological text. Publication year from original catalogue; exact issue day unknown.",
+    "catalogue": "https://censusindia.gov.in/nada/index.php/catalog/953/study-description",
+    "capture_sha256": "2b4800813e44045e88d182736346c53593904ed658665fc74f7e9449595af4bc"
+  },
+  "regional-bargarh-census2011": {
+    "id": "regional-bargarh-census2011",
+    "title": "Census of India 2011, Odisha, District Census Handbook Bargarh, Part XII-B",
+    "resource": "https://censusindia.gov.in/nada/index.php/catalog/921/download/36552/DH_2011_2101_PART_B_DCHB_BARGARH.pdf",
+    "publisher": "Directorate of Census Operations, Odisha",
+    "published_on": "2014",
+    "accessed_on": "2026-10-04",
+    "locator": "Important Statistics, printed p.17, PDF p.26; literacy method PDF p.31",
+    "capture_note": "Original PDF table visually inspected; literacy denominator checked in methodological text. Publication year from original catalogue; exact issue day unknown.",
+    "catalogue": "https://censusindia.gov.in/nada/index.php/catalog/921/study-description",
+    "capture_sha256": "e6cdb116ae394acb9d045d91c6e915e5023b8a02a4b76735ac0baf82db74be40"
+  },
+  "regional-sambalpur-census2011": {
+    "id": "regional-sambalpur-census2011",
+    "title": "Census of India 2011, Odisha, District Census Handbook Sambalpur, Part XII-B",
+    "resource": "https://censusindia.gov.in/nada/index.php/catalog/969/download/36744/DH_2011_2103_PART_B_DCHB_SAMBALPUR.pdf",
+    "publisher": "Directorate of Census Operations, Odisha",
+    "published_on": "2014",
+    "accessed_on": "2026-10-04",
+    "locator": "Important Statistics, printed p.18, PDF p.29; literacy method PDF p.33",
+    "capture_note": "Original PDF table visually inspected; literacy denominator checked in methodological text. Publication year from original catalogue; exact issue day unknown.",
+    "catalogue": "https://censusindia.gov.in/nada/index.php/catalog/969/study-description",
+    "capture_sha256": "db062c8f325bf7b877f70475c09418094b31db3c9c16d59660685460894c97b7"
+  },
+  "regional-nfhs5-odisha-compendium": {
+    "id": "regional-nfhs5-odisha-compendium",
+    "title": "NFHS-5: Odisha state and district fact-sheet compendium",
+    "resource": "https://www.nfhsiips.in/downloadFile.php?link=NFHS-5_StateFact_Odisha__Odisha.pdf&path=assets%2Fpublication%2FNFHS-5%2FStateFact%2FOdisha%2F",
+    "publisher": "International Institute for Population Sciences / Ministry of Health and Family Welfare",
+    "published_on": null,
+    "accessed_on": "2026-10-04",
+    "locator": "District introductions PDF pp.30,126,174; nutrition pp.33,129,177",
+    "capture_sha256": "7e078ed79b2b278f85e617c89f1bbcc8f4f11bfeea25e4f780409bfc23a1da18",
+    "capture_note": "Original publisher download resolved through public publication selector. Exact PDF issue date not printed in inspected material. NFHS-6 results explicitly provisional. District sample totals are not indicator-specific denominators. Selected nutrition and sample fields checked; no all-district extraction or exhaustive review claimed."
+  },
+  "regional-nfhs6-odisha-compendium": {
+    "id": "regional-nfhs6-odisha-compendium",
+    "title": "NFHS-6: Odisha state and district fact-sheet compendium",
+    "resource": "https://www.nfhsiips.in/downloadFile.php?link=NFHS-6_StateFact_Odisha__Odisha+Compendium.pdf&path=assets%2Fpublication%2FNFHS-6%2FStateFact%2FOdisha%2F",
+    "publisher": "International Institute for Population Sciences / Ministry of Health and Family Welfare",
+    "published_on": null,
+    "accessed_on": "2026-10-04",
+    "locator": "Introduction PDF p.9; nutrition pp.28,92,124; sample appendix p.135",
+    "capture_sha256": "10add7229840f10905a2bc0e606671faaa4e511f87c86e04068f7ee471cdaf0f",
+    "capture_note": "Original publisher download resolved through public publication selector. Exact PDF issue date not printed in inspected material. NFHS-6 results explicitly provisional. District sample totals are not indicator-specific denominators. Selected nutrition and sample fields checked; no all-district extraction or exhaustive review claimed."
+  },
+  "investment-tata-imfa-completion": {
+    "id": "investment-tata-imfa-completion",
+    "title": "Tata Steel: completed sale of Jajpur ferro alloy plant to IMFA",
+    "resource": "https://www.tatasteel.com/media/25494/bsense.pdf",
+    "publisher": "Tata Steel Limited",
+    "published_on": "2026-02-27",
+    "accessed_on": "2026-10-04",
+    "locator": "PDF p.1, completed sale and consideration paragraph",
+    "capture_method": "official_PDF_text",
+    "capture_note": "Seller exchange disclosure. Agreement and completion concern the same asset transfer, not two investment flows. No October operating status established."
+  },
+  "investment-tata-imfa-agreement": {
+    "id": "investment-tata-imfa-agreement",
+    "title": "Tata Steel: asset transfer agreement for Jajpur ferro alloy plant",
+    "resource": "https://www.tatasteel.com/media/24981/tata-steel-limited-press-release.pdf",
+    "publisher": "Tata Steel Limited",
+    "published_on": "2025-11-04",
+    "accessed_on": "2026-10-04",
+    "locator": "PDF p.2, agreement and expected closing paragraph",
+    "capture_method": "official_PDF_text",
+    "capture_note": "Seller exchange disclosure. Agreement and completion concern the same asset transfer, not two investment flows. No October operating status established."
+  },
+  "investment-nalco-ar2025": {
+    "id": "investment-nalco-ar2025",
+    "title": "NALCO 44th Annual Report 2024–25",
+    "resource": "https://nalcoindia.com/wp-content/uploads/2025/09/44th-Annual-Report-2024-25-NALCO.pdf",
+    "publisher": "National Aluminium Company Limited",
+    "published_on": null,
+    "publication_date_basis": "Exact release date not checked; FY2024–25 edition, URL upload directory September2025 is not a verified publication date.",
+    "accessed_on": "2026-10-04",
+    "locator": "Printed p.18 / PDF p.20, sections8.1–8.2",
+    "capture_method": "official_PDF_download_extract_visual_check",
+    "sha256": "a2f688e0d2cf46251be937cd553ae7185ce6efe6234b2d48bf24d1557ce79e2e",
+    "capture_note": "Web fetch failed502; direct official download succeeded. Same publisher as2026 report, different historical edition; not independent corroboration."
+  },
+  "connect-airport-aug2026": {
+    "id": "connect-airport-aug2026",
+    "title": "AAI August 2026 Traffic News: Annexure III, Passenger Traffic",
+    "resource": "https://www.aai.aero/sites/default/files/traffic-news/Aug2k26Annex3.pdf",
+    "publisher": "Airports Authority of India",
+    "published_on": null,
+    "locator": "Annexure III C, PDF pp.5–7; Total Passengers, August and April–August comparative columns",
+    "accessed_on": "2026-10-04",
+    "source_kind": "Primary administrative report",
+    "capture_note": "Original publisher downloaded; selected table headers and rows visually checked for PDFs. AAI subject to revision; UDISE existing-structure stages retained. No human review.",
+    "sha256": "112289f37ae583e371a836004c0e8058b1744f8b6e46c311b460d006c3192f6b"
+  },
+  "people-udise2026-release": {
+    "id": "people-udise2026-release",
+    "title": "Ministry of Education releases UDISE+ report for 2025–26",
+    "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2282141&lang=1&reg=48",
+    "publisher": "Ministry of Education via PIB",
+    "published_on": "2026-07-07",
+    "locator": "Release heading and posted date; used for report release date only",
+    "accessed_on": "2026-10-04",
+    "source_kind": "Primary release notice",
+    "capture_note": "Original publisher downloaded; selected table headers and rows visually checked for PDFs. AAI subject to revision; UDISE existing-structure stages retained. No human review.",
+    "sha256": "da6af3e04ed76b558b9dfde60272621e2cf5658b04b278b53022001cdf34a4a2"
+  },
+  "people-udise2026": {
+    "id": "people-udise2026",
+    "title": "UDISE+ 2025–26 Report: Existing Structure",
+    "resource": "https://dashboard.udiseplus.gov.in/report2026/static/media/UDISE+2025_26_Booklet_existing.edd7cd16d934a10377ba.pdf",
+    "publisher": "Department of School Education and Literacy, Ministry of Education",
+    "published_on": "2026-07-07",
+    "locator": "Table 6.13, printed/PDF p.120; Odisha and India total columns",
+    "accessed_on": "2026-10-04",
+    "source_kind": "Primary administrative report",
+    "capture_note": "Original publisher downloaded; selected table headers and rows visually checked for PDFs. AAI subject to revision; UDISE existing-structure stages retained. No human review.",
+    "sha256": "f20bfc4296acdb0f84a36f65587002c7899272ea67b6d91497a172a76982d9c4"
+  },
+  "trade-basic-port-statistics2025": {
+    "id": "trade-basic-port-statistics2025",
+    "title": "Basic Port Statistics of India 2024–25",
+    "resource": "https://shipmin.gov.in/sites/default/files/BPS%202024-25_compressed.pdf",
+    "publisher": "Ministry of Ports, Shipping and Waterways, Transport Research Wing",
+    "source_kind": "Primary statistical publication",
+    "accessed_on": "2026-10-04",
+    "published_on": null,
+    "publication_date_note": "Exact issue date not established; annual reference vintage is 2024–25.",
+    "capture_note": "Original PDF downloaded after web-reader timeout. Table 30 p.41/PDF51, Table31 p.42/PDF52 and Table12 p.23/PDF33 visually checked. Port and commodity totals for2023–24 conflict; no whole-report audit.",
+    "sha256": "c443531e8b7acd3d6912b25b99c97b2b2388fcba9d18d60123e2513fcd76e478"
+  },
+  "sadhaba-watercraft-art2018": {
+    "id": "sadhaba-watercraft-art2018",
+    "title": "Watercraft Depicted in the Art of Odisha, East Coast of India",
+    "publisher": "Sila Tripati, Uma Kanta Mishra, Bijay Kumar Swain, Subrata Kumar Acharya, Rudra Prasad Behera and Sunil Kumar Patnaik; Australasian Journal of Maritime Archaeology 42, 39–52",
+    "resource": "https://www.aima-underwater.org.au/app/download/files/get/ajma42.pdf",
+    "published_on": "2018",
+    "accessed_on": "2026-10-04",
+    "source_kind": "Research or institutional explanation",
+    "capture_note": "Original journal volume downloaded; article text and printed pp.42 and49 visually inspected. Volume date2018; online uploads2020 are not new independent studies.",
+    "publication_date_precision": "year",
+    "human_reviewed": false,
+    "sha256": "e6d5d76cfa31ecdecaa30b91935fbca3f19abf9399115df202911f092f35e416"
+  },
+  "sadhaba-boats-chapter2015": {
+    "id": "sadhaba-boats-chapter2015",
+    "title": "Traditional boats and Navigation in Odisha",
+    "publisher": "Sila Tripati; in O. C. Handa (ed.), Reflections on the History of Indian Science and Technology, listed pp.60–75, Pentagon Press",
+    "resource": "https://www.researchgate.net/publication/301522260_Traditional_boats_and_Navigation_in_Odisha",
+    "published_on": "2015",
+    "accessed_on": "2026-10-04",
+    "source_kind": "Research or institutional explanation",
+    "capture_note": "Author-uploaded full chapter transcription inspected by named sections. Upload20April2016 differs from listed publication2015. Reuses earlier studies; not independent corroboration. Types and scientific timber names require critical comparison.",
+    "publication_date_precision": "year",
+    "human_reviewed": false
+  },
+  "sadhaba-stars-nasa": {
+    "id": "sadhaba-stars-nasa",
+    "title": "What is the North Star and How Do You Find It?",
+    "publisher": "NASA Science",
+    "resource": "https://science.nasa.gov/solar-system/what-is-the-north-star-and-how-do-you-find-it/",
+    "published_on": null,
+    "accessed_on": "2026-10-04",
+    "source_kind": "Research or institutional explanation",
+    "capture_note": "Original explanatory page inspected. Modern astronomical context, not evidence that a named Sadhaba navigator used a particular instrument.",
+    "publication_date_precision": "unknown",
+    "human_reviewed": false
+  },
+  "sadhaba-buoyancy-openstax": {
+    "id": "sadhaba-buoyancy-openstax",
+    "title": "University Physics Volume1, section14.4: Archimedes’ Principle and Buoyancy",
+    "publisher": "William Moebs, Samuel J. Ling and Jeff Sanny; OpenStax",
+    "resource": "https://openstax.org/books/university-physics-volume-1/pages/14-4-archimedes-principle-and-buoyancy",
+    "published_on": "2016-09-19",
+    "accessed_on": "2026-10-04",
+    "source_kind": "Research or institutional explanation",
+    "capture_note": "Original textbook section inspected for physical principles only. No illustration or textbook exercise reproduced; no historical knowledge attribution.",
+    "publication_date_precision": "day",
+    "human_reviewed": false
+  },
+  "sadhaba-patia1997-lead": {
+    "id": "sadhaba-patia1997-lead",
+    "title": "The Patia Fishing Boat of Orissa: A Case Study in Ethnoarchaeology",
+    "publisher": "Lucy Blue, Eric Kentley, Sean McGrail and Umakant Mishra; South Asian Studies13(1),189–207",
+    "resource": "https://www.tandfonline.com/toc/rsas20/13/1",
+    "published_on": "1997",
+    "accessed_on": "2026-10-04",
+    "source_kind": "Bibliographic lead",
+    "capture_note": "Publisher issue listing verified; full article not inspected. Online date11August2010 is separate from issue1997. Bibliographic lead only; no technical measurements imported.",
+    "publication_date_precision": "year",
+    "human_reviewed": false
+  },
+  "sadhaba-chilika-boats1993": {
+    "id": "sadhaba-chilika-boats1993",
+    "title": "Traditional boat-building centres around Chilika Lake of Orissa",
+    "publisher": "L. N. Raut and Sila Tripati; Journal of Marine Archaeology 4, 51–55",
+    "resource": "https://drs.nio.res.in/drs/bitstream/handle/2264/2882/J_Mar_Archaeol_4_51.pdf?sequence=2",
+    "published_on": "1993-07",
+    "accessed_on": "2026-10-04",
+    "source_kind": "Research or institutional explanation",
+    "capture_note": "Indexed institutional text, especially printed p.52. Original download returned a challenge page. Reported contemporary practice and remembered ancestry remain separate; exact fieldwork dates unknown.",
+    "publication_date_precision": "month",
+    "human_reviewed": false
+  },
+  "sadhaba-monsoon2006": {
+    "id": "sadhaba-monsoon2006",
+    "title": "Monsoon wind and maritime trade: a case study of historical evidence from Orissa, India",
+    "publisher": "Sila Tripati and L. N. Raut; Current Science 90(6), 864–871",
+    "resource": "https://www.currentscience.ac.in/Volumes/90/06/0864.pdf",
+    "published_on": "2006-03-25",
+    "accessed_on": "2026-10-04",
+    "source_kind": "Research or institutional explanation",
+    "capture_note": "Full original PDF downloaded; selected pages 865–866 and 869–871 visually inspected. Historical synthesis and modern climatology, not voyage logs.",
+    "publication_date_precision": "day",
+    "human_reviewed": false,
+    "sha256": "60d122ad14c490bc5f3f6f94a16a1cf0ce44941b0afb4100f4344bfad69b069a"
+  },
+  "sadhaba-southern-boats1995": {
+    "id": "sadhaba-southern-boats1995",
+    "title": "Traditional Boat-building and Navigational Techniques of Southern Orissa",
+    "publisher": "Sila Tripati; Journal of Indian Ocean Studies 3(1), November1995",
+    "resource": "https://drs.nio.res.in/drs/bitstream/handle/2264/2389/J_Indian_Ocean_Stud_3_66.pdf?sequence=2",
+    "published_on": "1995-11",
+    "accessed_on": "2026-10-04",
+    "source_kind": "Research or institutional explanation",
+    "capture_note": "Indexed institutional text only: opening p.66 and p.72 sections on depth, time and steering. Direct retrieval returned a challenge page, not a PDF. Fieldwork date not established. A similarly titled1999 publication must not be silently substituted.",
+    "publication_date_precision": "month",
+    "human_reviewed": false
+  },
+  "sadhaba-tides-noaa": {
+    "id": "sadhaba-tides-noaa",
+    "title": "Tidal Variations — The Influence of Position and Distance",
+    "publisher": "NOAA National Ocean Service",
+    "resource": "https://oceanservice.noaa.gov/education/tutorial_tides/tides06_variations.html",
+    "published_on": null,
+    "accessed_on": "2026-10-04",
+    "source_kind": "Research or institutional explanation",
+    "capture_note": "Original explanatory page inspected. Modern physical explanation; no evidence of a historical Odisha departure rule.",
+    "publication_date_precision": "unknown",
+    "human_reviewed": false
+  },
+  "fish-directorate-statistics2024": {
+    "id": "fish-directorate-statistics2024",
+    "title": "Fisheries Statistics: production through 2023–24 (P)",
+    "resource": "https://fisheries.odisha.gov.in/fisheries/wp-content/uploads/2025/05/01_19_33pm54f1418647aa3efbe1776df81feec0c5.pdf",
+    "publisher": "Directorate of Fisheries, Government of Odisha",
+    "accessed_on": "2026-10-04",
+    "published_on": "2024-07-25",
+    "publication_date_note": "Catalogue date for Fisheries Statistics; file path is May2025. Actual PDF issue/revision date not established.",
+    "capture_note": "Official six-page PDF parsed by web reader; selected rows on PDF pages1,3,4 and decimal-total note p6 read. Direct download timed out after35seconds; no local PDF or visual facsimile review claimed. Catalogue HTML available through web reader, direct fetch timed out45seconds. Later2024–25 production listing exists but its download target was not recovered.",
+    "source_kind": "Primary administrative statistical table"
+  },
+  "export-parliament2910-2024": {
+    "id": "export-parliament2910-2024",
+    "title": "Value of exports from Odisha: Rajya Sabha question 2910",
+    "resource": "https://sansad.in/getFile/annex/266/AU2910_uZWU2U.pdf?source=pqars",
+    "publisher": "Department of Commerce, Government of India / Rajya Sabha",
+    "accessed_on": "2026-10-04",
+    "publication_date": "2024-12-20",
+    "source_kind": "Primary government statistical or methodological publication",
+    "capture_note": "Original four-page PDF downloaded; pp1 and3 rendered and visually inspected. Answer20December2024, AnnexureI:20 principal commodities in USD million for FY2023–24. AnnexureII is positive-growth selected, not a balanced full-product time series; not used for trend claims.",
+    "sha256": "3e1c080585704225ffe1c5b5d1dbfec9ce7b51894fabe8135f8292ece1c9bc3e"
+  },
+  "export-dgcis-origin-method": {
+    "id": "export-dgcis-origin-method",
+    "title": "DGCI&S state and district origin attribution limits",
+    "resource": "https://ftddp.dgciskol.gov.in/dgcis/disclaimer.html",
+    "publisher": "Directorate General of Commercial Intelligence and Statistics",
+    "accessed_on": "2026-10-04",
+    "publication_date": null,
+    "source_kind": "Primary government statistical or methodological publication",
+    "capture_note": "Official disclaimer HTML read. State codes are exporter-reported and not validated by DGCI&S. It also describes missing/misreported codes and mixed-origin shipping bills; page issue date unknown. Current portal index search extract likewise says state/district codes are not validated; direct index fetch failed. These statements do not measure Odisha-specific error rates."
+  },
+  "export-depm-fiveyear2024": {
+    "id": "export-depm-fiveyear2024",
+    "title": "Export from Odisha during last five years: 2019–20 to 2023–24",
+    "resource": "https://depmodisha.nic.in/website/Export/Last_5_years_India_and_Odisha_Export_Data.pdf",
+    "publisher": "Directorate of Export Promotion and Marketing, Government of Odisha",
+    "accessed_on": "2026-10-04",
+    "publication_date": null,
+    "source_kind": "Primary government statistical or methodological publication",
+    "capture_note": "Official indexed table captured; web open returned internal error and direct download timed out after35seconds. No PDF image review. Unit INR crore. Table issue date and page number unverified. Source attribution DGCI&S Kolkata and STPI Bhubaneswar. Separate India total table is outside this capture."
+  },
+  "manufacturing-sail-ar2025": {
+    "id": "manufacturing-sail-ar2025",
+    "title": "SAIL Annual Report 2024–25",
+    "resource": "https://www.sail.co.in/sites/default/files/2025-08/Sail%20Annual%20Report_2025_%2825_08_2025%29.pdf",
+    "publisher": "Steel Authority of India Limited",
+    "publication_date": null,
+    "accessed_on": "2026-10-04",
+    "source_kind": "Primary institutional publication",
+    "capture_note": "Original 420-page PDF recovered by resumed download. Rourkela paragraph on printed p.28 / PDF p.30 visually checked on 4 October 2026. Selected production and operating values only; not whole-report verification or a fresh current release."
+  },
+  "manufacturing-rsp-page2026": {
+    "id": "manufacturing-rsp-page2026",
+    "title": "SAIL Rourkela plant page: facility and document directory",
+    "resource": "https://www.sail.co.in/en/plants/about-rourkela-steel-plant",
+    "publisher": "Steel Authority of India Limited",
+    "publication_date": null,
+    "accessed_on": "2026-10-04",
+    "source_kind": "Primary institutional publication",
+    "capture_note": "Direct HTML download succeeded after web-reader timeout. Used as plant/document directory only; undated promotional technology superlatives and present operating claims not adopted."
+  },
+  "manufacturing-cag-bf2025": {
+    "id": "manufacturing-cag-bf2025",
+    "title": "CAG Report 38 of 2025: Performance of Blast Furnaces in SAIL",
+    "resource": "https://cag.gov.in/uploads/download_audit_report/2025/Report-No.-38-of-2025_English-06944ecdf2526e1.52430491.pdf",
+    "publisher": "Comptroller and Auditor General of India",
+    "publication_date": "2025-12-18",
+    "accessed_on": "2026-10-04",
+    "source_kind": "Primary institutional publication",
+    "capture_note": "Official indexed printed p.39: new-furnace Rourkela pressure and volume rows, and section1.9 positive finding. CAG catalogue confirms tabling18December2025. Both original and webroot PDF requests failed; no original table-image review. Source says data furnished by Management. Complete findings and replies not captured."
+  },
+  "nonmetal-ppl2026": {
+    "id": "nonmetal-ppl2026",
+    "title": "Paradeep Phosphates Annual Report 2025–26",
+    "resource": "https://www.paradeepphosphates.com/uploads/content/paradeep-phosphate-ar-24082026-1.pdf",
+    "publisher": "Paradeep Phosphates Limited",
+    "publication_date": null,
+    "accessed_on": "2026-10-04",
+    "source_kind": "Primary company/cooperative publication",
+    "capture_note": "Original PDF p.12 / printed pp.20–21 and PDF p.61 / printed p.108 visually checked. Multi-state footprint and internal narrative/table discrepancy only; no company production adopted as Odisha output. Listing names edition; exact publication date not established from filename."
+  },
+  "nonmetal-dalmia2025": {
+    "id": "nonmetal-dalmia2025",
+    "title": "Rajgangpur Lines 1, 2 and CPP: Form V for FY2024–25",
+    "resource": "https://www.dalmiacement.com/assets/pdf/esg/enviroment/plants/compliances/Form%20V%20Environmental%20Statement%20FY%202025%20Dalmia%20Cement%20Bharat%20Ltd%20%28Line%201%20%26%202%29%2C%20Rajgangpur.pdf",
+    "publisher": "Dalmia Cement (Bharat) Limited",
+    "publication_date": "2025-09-18",
+    "accessed_on": "2026-10-04",
+    "source_kind": "Primary company/cooperative publication",
+    "capture_note": "All six scanned pages visually inspected. Quantitative capture limited to PDF p.6 production table; covering letter p.1 establishes Lines 1, 2 and CPP and Sundargarh scope. Company submission, not an independent regulatory audit."
+  },
+  "nonmetal-iffco2026": {
+    "id": "nonmetal-iffco2026",
+    "title": "IFFCO Annual Report 2025–26",
+    "resource": "https://iffco-public-assets.s3.ap-south-1.amazonaws.com/s3fs-public/2026-06/IFFCO-Annual-Report-2025-26-Final.pdf?VersionId=RpetDmg.sOj0OIJmGTpCbHq2d_re54E6",
+    "publisher": "Indian Farmers Fertiliser Cooperative Limited",
+    "publication_date": null,
+    "accessed_on": "2026-10-04",
+    "source_kind": "Primary company/cooperative publication",
+    "capture_note": "Original PDF p.56 / printed p.48 and PDF p.138 / printed p.130 visually checked. Captures Paradeep rows only; 2026–27 budget column excluded. Selected pages, not whole-report verification."
+  },
+  "food-omfed-milkday2025": {
+    "id": "food-omfed-milkday2025",
+    "title": "OMFED National Milk Day account, 26 November 2025",
+    "resource": "https://omfed.com/media/latest-events/national-milk-day-celebrated-by-omfed/",
+    "publisher": "Odisha State Cooperative Milk Producers’ Federation Limited",
+    "publication_date": "2025-11-26",
+    "accessed_on": "2026-10-04",
+    "source_kind": "Primary cooperative publication",
+    "capture_note": "Turnover paragraph. Dated cooperative account; audited accounts and product mix not recovered."
+  },
+  "food-omfed-ar2014": {
+    "id": "food-omfed-ar2014",
+    "title": "OMFED report linked as Annual Report 2013–2014",
+    "resource": "https://old.omfed.com/annual-report13-14.pdf",
+    "publisher": "Odisha State Cooperative Milk Producers’ Federation Limited",
+    "publication_date": null,
+    "accessed_on": "2026-10-04",
+    "source_kind": "Primary cooperative publication",
+    "capture_note": "Scanned Odia report; selected PDF pp.3–8 and 10–13 viewed. Printed p.8 is a sales table with 2011–12 to 2013–14 columns, not production. Other sections carry later dates. No numerical transcription or whole-report verification claimed."
+  },
+  "food-omfed-home": {
+    "id": "food-omfed-home",
+    "title": "OMFED home page: undated operating claims",
+    "resource": "https://omfed.com/",
+    "publisher": "Odisha State Cooperative Milk Producers’ Federation Limited",
+    "publication_date": null,
+    "accessed_on": "2026-10-04",
+    "source_kind": "Primary cooperative publication",
+    "capture_note": "Counters and introductory paragraph. Undated claims excluded from annual series; homepage plant count does not match directory listing count."
+  },
+  "food-omfed-plants": {
+    "id": "food-omfed-plants",
+    "title": "OMFED dairy plant directory",
+    "resource": "https://omfed.com/dairy-plants/",
+    "publisher": "Odisha State Cooperative Milk Producers’ Federation Limited",
+    "publication_date": null,
+    "accessed_on": "2026-10-04",
+    "source_kind": "Primary cooperative publication",
+    "capture_note": "Named dairy and address rows only. No plant output, capacity utilisation or supplier availability verified."
+  },
+  "food-omfed-conversion2024": {
+    "id": "food-omfed-conversion2024",
+    "title": "OMFED milk-conversion tender, May 2024",
+    "resource": "https://old.omfed.com/tenders2024/tender%20skimmed%20milk%20040524.pdf",
+    "publisher": "Odisha State Cooperative Milk Producers’ Federation Limited",
+    "publication_date": "2024-05",
+    "accessed_on": "2026-10-04",
+    "source_kind": "Primary cooperative publication",
+    "capture_note": "PDF pp.7 and 20 visually checked; May 2024 tender for FY2024–25. Requirements and draft agreement, not award or delivered output."
+  },
+  "gi-ttd-weight2022": {
+    "id": "gi-ttd-weight2022",
+    "title": "TTD statement on Laddu weighing, 10 November 2022",
+    "resource": "https://news.tirumala.org/avoid-doubts-on-weight-and-quality-of-srivar-laddus-ttd/",
+    "publisher": "Tirumala Tirupati Devasthanams",
+    "source_kind": "Institutional release",
+    "accessed_on": "2026-10-05",
+    "capture_note": "Institutional explanation of weighing dispute; statement not independent measurement."
+  },
+  "gi-tirupathi-journal2008": {
+    "id": "gi-tirupathi-journal2008",
+    "title": "Tirupathi Laddu: original GI Journal 28 specification",
+    "resource": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/121",
+    "publisher": "IP India",
+    "source_kind": "Historical advertised specification",
+    "accessed_on": "2026-10-05",
+    "capture_note": "Historical advertised applicant specification; selected English sections and notice, not all journal contents. Pages42,52,66 visually checked."
+  },
+  "gi-jagannath-governance-lead": {
+    "id": "gi-jagannath-governance-lead",
+    "title": "Shri Jagannath Temple Act 1955: official catalogue and indexed governance lead",
+    "resource": "https://law.odisha.gov.in/sites/default/files/2020-12/act_1091881239_1444889141.pdf",
+    "publisher": "Government of Odisha / India Code",
+    "source_kind": "Document-discovery lead",
+    "accessed_on": "2026-10-05",
+    "capture_note": "Document-discovery lead only. Full text, consolidation date, applicable amendments and service-specific record-of-rights not verified."
+  },
+  "gi-ttd-controls2015": {
+    "id": "gi-ttd-controls2015",
+    "title": "TTD directions on Laddu sampling and traceability, 27 August 2015",
+    "resource": "https://news.tirumala.org/prepare-more-qualitative-and-hygienic-laddus-with-transparent-mechanism-ttd-eo/",
+    "publisher": "Tirumala Tirupati Devasthanams",
+    "source_kind": "Institutional release",
+    "accessed_on": "2026-10-05",
+    "capture_note": "Directions for sampling and RFID/barcode reader; instruction is not proof of implementation."
+  },
+  "gi-puri-msme2016": {
+    "id": "gi-puri-msme2016",
+    "title": "Puri industrial profile 2016–17: Nimapara Jhili",
+    "resource": "https://dcmsme.gov.in/dips/2016-17/BIPS%20Puri-2016-17.pdf",
+    "publisher": "MSME Development Institute, Cuttack / Ministry of MSME",
+    "source_kind": "District industrial profile",
+    "accessed_on": "2026-10-05",
+    "capture_note": "Place-linked name use and historical prospect; no operating-cluster or invention-date finding"
+  },
+  "gi-nimapada-sahu2015": {
+    "id": "gi-nimapada-sahu2015",
+    "title": "Diana Sahu: Scripting A Seaside Story (2015; updated 2016)",
+    "resource": "https://dianasahu.wordpress.com/2015/07/04/scripting-a-seaside-story/",
+    "publisher": "Diana Sahu",
+    "source_kind": "Author-owned travel account with attributed belief",
+    "accessed_on": "2026-10-05",
+    "capture_note": "Author-owned travel account; maker credit explicitly presented as belief; current text updated 29 January 2016, original wording not archived."
+  },
+  "gi-puri-msme-undated": {
+    "id": "gi-puri-msme-undated",
+    "title": "Puri industrial profile: undated edition and Nimapara Jhili",
+    "resource": "https://dcmsme.gov.in/dips/BIPS%20Puri-12.pdf",
+    "publisher": "MSME Development Institute, Cuttack / Ministry of MSME",
+    "source_kind": "District industrial profile",
+    "accessed_on": "2026-10-05",
+    "capture_note": "Place-linked name use and historical prospect; no operating-cluster or invention-date finding"
+  },
+  "gi-korakhai-bda2022": {
+    "id": "gi-korakhai-bda2022",
+    "title": "BDA Ekamra Walks RFP 39901: proposed food trail, 2022",
+    "resource": "https://cms.bhubaneswarone.in/uploadDocuments/Tender/TenderFile_020221122_185519.pdf",
+    "publisher": "Bhubaneswar Development Authority",
+    "source_kind": "Historical RFP",
+    "accessed_on": "2026-10-05",
+    "capture_note": "Selected original-publisher PDF text; direct download403 and screenshot timeout. Historical proposal and reference stop only; no award, execution or current operation."
+  },
+  "gi-korakhai-college2025": {
+    "id": "gi-korakhai-college2025",
+    "title": "Kamala Nehru Women’s College: Vocal for Local report, 2025",
+    "resource": "https://knwcbbsr.com/Attachment/Report.pdf",
+    "publisher": "Kamala Nehru Women’s College, Bhubaneswar",
+    "source_kind": "Institutional activity report",
+    "accessed_on": "2026-10-05",
+    "capture_note": "College-authored activity report; p.4 visually checked. Catalogue-linked Report(1).pdf byte-identical to Report.pdf. One publication; no official district ODOP designation or market study established."
+  },
+  "gi-korakhai-ekamra": {
+    "id": "gi-korakhai-ekamra",
+    "title": "Visit Bhubaneswar: Streets of Ekamra and Kora-Khai",
+    "resource": "https://visit.bhubaneswar.me/nature-walks-streets-of-ekamra",
+    "publisher": "Visit Bhubaneswar city portal",
+    "source_kind": "Institutional visitor description",
+    "accessed_on": "2026-10-05",
+    "capture_note": "City-portal description of an Old Town food encounter; schedule, actual operation and commercial outcomes not verified."
+  },
+  "gi-manikapatna-breed-certificate": {
+    "id": "gi-manikapatna-breed-certificate",
+    "title": "ICAR Chilika buffalo breed certificate in application2117",
+    "resource": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/2117",
+    "publisher": "ICAR; submitted as application annexure",
+    "source_kind": "Application document or annexure",
+    "accessed_on": "2026-10-05",
+    "capture_note": "Selected original document review; applicant assertions distinct from Registry findings. Shared application family is not independent corroboration.",
+    "document_path": "2117/2117 - Certificate of Registration - 22-07-2026.pdf"
+  },
+  "gi-manikapatna-annexures2026": {
+    "id": "gi-manikapatna-annexures2026",
+    "title": "Manikapatna Curd: applicant and facilitator annexures",
+    "resource": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/2117",
+    "publisher": "OUAT; documents hosted by GI Registry",
+    "source_kind": "Application document or annexure",
+    "accessed_on": "2026-10-05",
+    "capture_note": "Selected original document review; applicant assertions distinct from Registry findings. Shared application family is not independent corroboration.",
+    "document_path": "2117/2117 - GI - Letter - 22-07-2026.pdf"
+  },
+  "gi-manikapatna-case2026": {
+    "id": "gi-manikapatna-case2026",
+    "title": "Manikapatna Curd: submitted statement of case",
+    "resource": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/2117",
+    "publisher": "Sampark Puri; OUAT facilitator",
+    "source_kind": "Application document or annexure",
+    "accessed_on": "2026-10-05",
+    "capture_note": "Selected original document review; applicant assertions distinct from Registry findings. Shared application family is not independent corroboration.",
+    "document_path": "2117/2117 - Statement of Case - 22-07-2026.pdf"
+  },
+  "gi-manikapatna-fcr2026": {
+    "id": "gi-manikapatna-fcr2026",
+    "title": "GI Registry: Manikapatna Curd formality notice",
+    "resource": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/2117",
+    "publisher": "GI Registry",
+    "source_kind": "Registry notice",
+    "accessed_on": "2026-10-05",
+    "capture_note": "Selected original document review; applicant assertions distinct from Registry findings. Shared application family is not independent corroboration.",
+    "document_path": "2117/2117 - Formality Check Report - 11-08-2026.pdf"
+  },
+  "chilika-curd-kumar2024": {
+    "id": "chilika-curd-kumar2024",
+    "title": "Kumar et al.: Antifungal strain from Chilika curd, IJDS 77(1), 49–56",
+    "resource": "https://epubs.icar.org.in/index.php/IJDS/article/download/133268/66276/529933",
+    "publisher": "Indian Dairy Association; ICAR e-publication host",
+    "source_kind": "Original research article",
+    "accessed_on": "2026-10-05",
+    "capture_note": "Follow-up laboratory work on previously isolated cultures; not independent new field sampling"
+  },
+  "chilika-curd-nanda2013": {
+    "id": "chilika-curd-nanda2013",
+    "title": "Nanda et al.: Indian Chilika curd, IJTK 12(4), 707–713",
+    "resource": "https://nopr.niscpr.res.in/bitstream/123456789/22195/1/IJTK%2012%284%29%20707-713.pdf",
+    "publisher": "CSIR, Indian Journal of Traditional Knowledge; NIScPR repository",
+    "source_kind": "Original research article",
+    "accessed_on": "2026-10-05",
+    "capture_note": "Original study,10 milk and10 curd samples from around Satapada; not current product safety or regional census"
+  },
+  "gi-palm-examinations2026": {
+    "id": "gi-palm-examinations2026",
+    "title": "GI Registry: applications 797 and 805, examination reports, 4 June 2026",
+    "resource": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/797",
+    "publisher": "Geographical Indications Registry, IP India",
+    "source_kind": "Examination notice",
+    "accessed_on": "2026-10-05",
+    "capture_note": "Document locators and reviewed page scopes retained in research receipt."
+  },
+  "gi-palm797-submission2021": {
+    "id": "gi-palm797-submission2021",
+    "title": "Odisha Talpatra Chitra Craft: 2021 specification and map",
+    "resource": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/797",
+    "publisher": "Geographical Indications Registry, IP India",
+    "source_kind": "Applicant submission held by Registry",
+    "accessed_on": "2026-10-05",
+    "capture_note": "Document locators and reviewed page scopes retained in research receipt."
+  },
+  "gi-palm805-submission2021": {
+    "id": "gi-palm805-submission2021",
+    "title": "Talapatra Pothi Chitra of Puri: 2021 statement and geographic annexure",
+    "resource": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/805",
+    "publisher": "Geographical Indications Registry, IP India",
+    "source_kind": "Applicant submission held by Registry",
+    "accessed_on": "2026-10-05",
+    "capture_note": "Document locators and reviewed page scopes retained in research receipt."
+  },
+  "gi-palm805-reply2025": {
+    "id": "gi-palm805-reply2025",
+    "title": "Application 805: compliance reply, Parts 1–3, received 6 January 2025",
+    "resource": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/805",
+    "publisher": "Geographical Indications Registry, IP India",
+    "source_kind": "Applicant submission held by Registry",
+    "accessed_on": "2026-10-05",
+    "capture_note": "Part1 text reviewed; Parts2–3 completely downloaded with focused organisational and roster review, page scope in source note. Applicant amendment, unique active makers and boundary certification unverified.",
+    "reviewed_on": "2026-10-05"
+  },
+  "gi-temple-food2019": {
+    "id": "gi-temple-food2019",
+    "title": "Odisha Review June–July2019: dry Mahaprasad foods",
+    "resource": "https://magazines.odisha.gov.in/Orissareview/2019/Jun-July/engpdf/Biggest-wonder-of-the-World-55-63.pdf",
+    "capture_note": "Publisher-indexed full issue supplies p58 ingredient descriptions and author attribution; full PDF unavailable, same article lineage."
+  },
+  "gi-niti-pasayat2006": {
+    "id": "gi-niti-pasayat2006",
+    "title": "Dainandina Niti in Sri Jagannath Temple — Sarmistha Pasayat, June 2006",
+    "resource": "https://magazines.odisha.gov.in/Orissareview/june2006/engpdf/38-47.pdf",
+    "publisher": "Orissa Review, Government of Odisha",
+    "source_kind": "Attributed cultural account; indexed publisher text only",
+    "accessed_on": "2026-10-05"
+  },
+  "food-air-raja2026": {
+    "id": "food-air-raja2026",
+    "title": "Raja Festival begins across Odisha — Akashvani News, 15 June 2026",
+    "resource": "https://newsonair.gov.in/raja-festival-begins-across-odisha/",
+    "publisher": "Akashvani News, Prasar Bharati",
+    "published_on": "2026-06-15",
+    "accessed_on": "2026-10-05",
+    "capture_method": "web_reader",
+    "locator": "Article date 1:03 PM; third body paragraph, delicacies",
+    "capture_note": "Names poda and arisa in Raja celebrations across Odisha; not a district prevalence survey or measured demand series."
+  },
+  "gi-utsav-ratha2022": {
+    "id": "gi-utsav-ratha2022",
+    "title": "Ratha Yatra — Utsav, 2022 event listing",
+    "resource": "https://www.utsav.gov.in/view-event/ratha-yatra",
+    "publisher": "Ministry of Tourism, Government of India; listing names Odisha Department of Tourism as organiser",
+    "published_on": null,
+    "event_period": "2022-07-01/2022-07-09",
+    "accessed_on": "2026-10-05",
+    "capture_method": "publisher_indexed_text",
+    "locator": "Description, return journey paragraph; Event Details",
+    "capture_note": "Direct web open timed out; indexed text used only for named offering association and historical event period."
+  },
+  "gi-opportunity-registry2026": {
+    "id": "gi-opportunity-registry2026",
+    "title": "IP India application index and nine comparator/pending records",
+    "resource": "https://search.ipindia.gov.in/GIRPublicSearch/"
+  },
+  "gi-fao-approach": {
+    "id": "gi-fao-approach",
+    "title": "FAO approach to sustainable geographical indications",
+    "resource": "https://www.fao.org/geographical-indications/our-approach/en"
+  },
+  "gi-eu-quality": {
+    "id": "gi-eu-quality",
+    "title": "European Commission: PDO, PGI and TSG distinctions",
+    "resource": "https://agriculture.ec.europa.eu/farming/geographical-indications-and-quality-schemes/geographical-indications-and-quality-schemes-explained_en"
+  },
+  "gi-kalamata-decision2015": {
+    "id": "gi-kalamata-decision2015",
+    "title": "Commission Implementing Regulation (EU) 2015/1393: Kalamata amendment",
+    "resource": "https://eur-lex.europa.eu/eli/reg_impl/2015/1393/oj/eng/pdf",
+    "publisher": "European Commission / Official Journal of the European Union",
+    "published_on": "2015-08-14",
+    "accessed_on": "2026-10-05",
+    "capture_method": "web_reader",
+    "locator": "OJ L215 pp.38–41; recitals9–19 and Article1",
+    "capture_note": "Adopted13August2015, published14August2015. English PDF read. Historical amendment decision, not a verification of current2026 legal or operating status."
+  },
+  "gi-kalamata-enforcement2021": {
+    "id": "gi-kalamata-enforcement2021",
+    "title": "Greek ministry: withdrawal of PDO certification for an olive-oil business",
+    "resource": "https://www.minagric.gr/2013-04-05-10-13-09/ministry-example/ypaat-grafeio-typou/deltiatypou/11973-dt191021a",
+    "publisher": "Greek Ministry of Rural Development and Food",
+    "published_on": "2021-10-19",
+    "accessed_on": "2026-10-05",
+    "capture_method": "web_reader",
+    "locator": "Body paragraph beginning Μετά; two decision bullets; following recall paragraph",
+    "capture_note": "Publisher-reported historical enforcement. Working English interpretation; no human Greek review. Separate final paragraph concerns feta fines, not olive oil."
+  },
+  "gi-kalamata-specification": {
+    "id": "gi-kalamata-specification",
+    "title": "Kalamata olive oil: Greek product specification",
+    "resource": "https://www.minagric.gov.gr/images/stories/docs/agrotis/POP-PGE/prod_elaioladou_kalamata_291211.pdf",
+    "publisher": "Greek Ministry of Rural Development and Food; document headed EAS Messinias",
+    "published_on": null,
+    "accessed_on": "2026-10-05",
+    "capture_method": "web_reader",
+    "locator": "PDF pp.2–4 sections2–4; p.14 sections7–8; p.15 annexure list",
+    "capture_note": "Selected sections read through web extraction; Greek font encoding is degraded. Working English interpretation, no human Greek review. Original download returned403; page-image checks not completed. Publication date not inferred from filename. Annexures listed, not supplied or independently audited."
+  },
+  "food-sakthi-ar2023": {
+    "id": "food-sakthi-ar2023",
+    "title": "Sakthi Sugars Annual Report 2022–23: Dhenkanal discontinued operations",
+    "resource": "https://sakthisugars.com/download/agm-61/annualreport-2022-23.pdf",
+    "publisher": "Sakthi Sugars Limited",
+    "published_on": null,
+    "publication_period": "Annual Report2022–23; year ended31March2023",
+    "accessed_on": "2026-10-06",
+    "locator": "Printed pp.15–16 / PDF pp.17–18; Discontinued operations on p.16",
+    "capture_method": "original_PDF_text_and_page_image",
+    "capture_note": "Selected Board report scope; p.16 visually checked. Company reports11November2022 going-concern sale and quantities up to sale. Previous-year figures are a full-fiscal comparator, not matching the partial2022–23 period."
+  },
+  "food-aska-status": {
+    "id": "food-aska-status",
+    "title": "Aska Cooperative Sugar Industries: historical status paragraph",
+    "resource": "https://askasugar.com/default.php",
+    "publisher": "Aska Cooperative Sugar Industries Limited",
+    "published_on": null,
+    "accessed_on": "2026-10-06",
+    "locator": "Status report, background paragraph for crushing season2016–17",
+    "capture_method": "original_operator_HTML",
+    "capture_note": "Undated page includes explicitly historical2016–17 cane/sugar quantities. Current-looking homepage does not make these current output, workforce or membership."
+  },
+  "food-sakthi-sale2022": {
+    "id": "food-sakthi-sale2022",
+    "title": "Sakthi Sugars: completion of Dhenkanal sale, 12 November 2022",
+    "resource": "https://sakthisugars.com/investor/AnnouncementResult_Final.aspx",
+    "publisher": "Sakthi Sugars Limited",
+    "published_on": "2022-11-12",
+    "locator": "Completion of Sale of Dhenkanal Unit to IPL; one-page letter SL/SE/3382/2022",
+    "capture_method": "publisher_form_original_PDF_and_page_image",
+    "capture_note": "Public document postback gridAnnounce$ctl222$lnkNews at retrieval. PDF returned with text/html content type; PDF signature and one-page facsimile verified. Execution/registration date 11 November; agreement letter referenced as 27 June, not a newly reviewed contract.",
+    "local_capture": "work/sugar-ownership/completion.response",
+    "accessed_on": "2026-10-06",
+    "sha256": "425113f86dfd30e03bc0d807c424e5c769bbfcde845526679747814cdb534a69"
+  },
+  "food-sakthi-q2-2022": {
+    "id": "food-sakthi-q2-2022",
+    "title": "Sakthi Sugars: September 2022 results released 14 November 2022",
+    "resource": "https://sakthisugars.com/Upload_CompanyResult/UFR30092022.pdf",
+    "publisher": "Sakthi Sugars Limited",
+    "published_on": "2022-11-14",
+    "locator": "PDF p.3, Notes to Financial Results, note 3; p.4 note 6",
+    "capture_method": "original_PDF_text_and_page_image",
+    "capture_note": "PDF p.3 visually checked. Sale is a subsequent event after 30 September reporting date, naming Indian Potash and Rs 13,410 lakh consideration. Other company-wide financial tables not adopted.",
+    "local_capture": "work/sugar-ownership/seller-result.pdf",
+    "accessed_on": "2026-10-06",
+    "sha256": "6fb3a7d80136291f9ea6215dc94546a0c71b8617b1dff38aaf7374b74760b455"
+  },
+  "food-ipl-bta": {
+    "id": "food-ipl-bta",
+    "title": "Indian Potash: Dhenkanal business-transfer announcement",
+    "resource": "https://indianpotash.org/ipl-sakthi-sugars.html",
+    "publisher": "Indian Potash Limited",
+    "published_on": null,
+    "locator": "YET ANOTHER FEATHER IN IPL’S CAP, opening paragraph",
+    "capture_method": "publisher_HTML_text",
+    "capture_note": "Undated agreement-stage announcement explicitly conditional on secured lenders’ NOC. Search-engine freshness is not a publication date; no actual annual output or current owner claim.",
+    "accessed_on": "2026-10-06"
   }
 }

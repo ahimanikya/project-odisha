@@ -27,3 +27,7 @@ Banking geography is not household wealth, district GDP or project investment. R
 ## Homestay research link · 1 October 2026
 
 The public portal lists five GP records under its Daringbadi cluster. See the [dated homestay snapshot](../homestays.md) for scope. These are portal place associations, not operational-property counts or verified travel proximity.
+
+## Evidence coverage · 4 October 2026
+
+[District evidence matrix](../district-coverage.md) connects this snapshot with health, education, livelihood, environment and visitor research. Unmapped evidence remains unknown; banking is not a measure of household income.

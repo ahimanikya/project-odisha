@@ -318,7 +318,7 @@ Jagannath synthesis reuses existing place/ruler/Mahaprasad pages and native Ragh
 
 ## KISS records and account vintages · 2 October2026 UTC
 
-Two source identities enhance existing Samanta/story pages. Alumni society registration is a distinct entity from school/university founding. Original FY2023–24 and later comparative figures are preserved as separate vintages.
+Two source identities enhance existing Samanta/story pages. Alumni society registration is a distinct entity from school/university founding. Original FY 2023–24 and later comparative figures are preserved as separate vintages.
 
 ## Yogini heritage · 2 October 2026 UTC
 
@@ -447,3 +447,165 @@ Sounds of Odisha now connects the [collection outline](../culture/sounds-of-odis
 ### Chilika listening extension · 13 October 2026
 
 Added a [natural-listening article](../culture/chilika-listening.md) and [source dossier](../sources/chilika-listening-research.json), reusing existing Chilika and Mangalajodi place identities. General birding ethics remains distinct from local rules; no field recording or species-call identification is claimed.
+
+## Forest community-history checkpoint · 4 October 2026
+
+Enhanced existing forest history and two saved source records. One publication remains one evidence lineage; six historical events are not six independent sources. No duplicate place or community profiles.
+
+## Forest management instruments · 4 October 2026
+
+Added original JFM 2011 source and publisher amendment-discovery page. Reused Niyamgiri judgment under source ID mining-niyamgiri-sc2013 and project ID mining-niyamgiri-scr2013; these refer to one original publication. No duplicate court-case concept added.
+
+## Forest-management amendments · 4 October 2026
+
+One Jharsuguda working-plan source added for enclosed amendment facsimiles. Two instruments retain their own dates and locators, with no duplicate 2011 source or fresh Niyamgiri discovery. This is a scoped map extension.
+
+## Dhani community-history checkpoint · 4 October 2026
+
+One new authored Dhani paper mapped after both-workspace searches; four local cases now share the existing historical concept. This bounded extension is not exhaustive duplicate detection.
+
+## Odisha in the world · 4 October 2026
+
+Existing historical, port and material records reused. Three source identities added: two primary instruments and one secondary lead held for original confirmation. PIB/port republication remains one lineage.
+
+## Rice markets · 4 October 2026
+
+RES-062 reuses the existing rice identities and Yadav2026 publication. Four newly mapped sources address absent market fields; the same publication is not independent corroboration. Kandhamal catalogue origin is not merged into Koraput GI identity.
+
+## Textile segments · 4 October 2026
+
+RES-030 reuses existing tradition and cooperative identities. Adds the original parliamentary source and Bargarh production account. OGD/PDF share publication lineage; saved directory reuse is not fresh verification.
+
+## Sand-art checkpoint · 4 October 2026
+
+RES-032 reused sand-art/person/work identities and inspected target-native Cuttack records. Seven source records and one selected work extend missing fields. Government-site location does not convert a broadcaster report into award-body evidence.
+
+## Tarakasi and palm-leaf checkpoint · 4 October 2026
+
+RES-032 reused Cuttack visitor material, Tarakasi and Raghurajpur concepts, plus the saved museum manuscript catalogue. Added missing craft technique/identity fields and four source records. Documentation contacts are not universal object credits; HTML/PDF copies are one lineage.
+
+## Stone, metal and clay · 4 October 2026
+
+RES-032 reused prior material-art register, state national-award source and regional record. Seven source records extend absent process/identity fields; five new people identities. Publication copies do not independently corroborate each other; object owner and creator remain separate.
+
+## Attributed craft works ·4October2026
+
+RES-032 reused six practice records and the existing Rana profile; absent work records added for Parliament, Paris and INA Metro. Raghunath Mohapatra is a distinct new sculptor identity, not Raghunath Panigrahi. Same institutional source repeated in several pages is one evidence lineage.
+
+## 4 October 2026 · District matrix extension
+
+Added statistics/district-coverage and updated RES-013/014 reuse pointers for source and repository-native evidence. Dated bounded audit, not exhaustive semantic deduplication. See [matrix](../statistics/district-coverage.md).
+
+## 4 October 2026 · Regional baseline extension
+
+Added one canonical regional baseline page and RES-014 reuse pointers, enhancing the existing district matrix rather than duplicating profiles.
+
+## 4 October 2026 · Regional survey reuse
+
+Enhanced the existing baseline page and linked RES-014/018 to a reproducible public NFHS lookup. Same NFHS-5 values through three publications are one lineage.
+
+## 4 October 2026 · Economic-series reuse
+
+Existing nominal atlas and manufacturing/construction observations reused; new historic and real aggregates linked under RES-015. All share one DES publication lineage.
+
+## 4 October 2026 · Project-stage deduplication
+
+Reused IMFA annual-report and ministry captures; distinct KNR1, KNR2 and expansion IDs avoid same-place conflation. Seller agreement/closing releases are one transaction lineage.
+
+## 4 October 2026 · NALCO project and edition identity
+
+Added FY 2024–25 source identity; fifth stream, alternate conveyor and Pottangi are linked but distinct projects. Both reports share publisher lineage; estimates and CWIP components are not additive.
+
+
+## Sadhaba maritime-science study · 4 October 2026
+
+RES-068 searched source and repository-native maritime, Boita, Ratnagiri and science records. Added one technical synthesis and nine source/lead records. Shared Tripati scholarship is not independent corroboration;1997 independent-team article is a lead only. An indexed seeutkal.com “Across the Bay” page was discovered but was absent from both inspected local checkouts and direct retrieval failed; it is an editorial reuse lead, never independent evidence.
+
+
+## Fisheries history · 4 October2026
+
+Extended existing fisheries evidence and reused frozen comparison, real GSVA and July2026 capture. One directorate lineage does not become several independent confirmations.
+
+## Export evidence · 4 October 2026
+
+Extended existing trade pages; three country IDs reused. Textile, fisheries and company records retained with distinct definitions; no semantic completeness claimed.
+
+## Manufacturing checkpoint · 4 October 2026
+
+One synthesis and three source identities extend existing plant/company records. Fifteen physical-output observations reused; audit tables derive from management data, not a second measurement. This is a bounded map extension.
+
+## Non-metal production · 4 October 2026
+
+Existing manufacturing and district pages extended with one synthesis and three publisher identities. IFFCO and PPL are distinct operators. This is a bounded map extension.
+
+## Food-processing checkpoint · 4 October 2026
+
+Existing rice, livestock, sweets and district concepts extended through one processing study. Crop observations are reused by identity, not duplicated. The existing Survey source is reused; no independent corroboration implied.
+
+## GI inventory extension · 4 October 2026
+
+RES-069 consolidates the dated official state list and current detail snapshots. Reuse [GI inventory](../collections/odisha-gi-products.md) before product research; grouped and logo IDs are explicit. This addition is not a whole-KB semantic deduplication claim.
+
+## GI opportunity extension · 4 October 2026
+
+RES-070 reuses registered inventory and food/textile profiles. The [programme](../economy/gi-opportunity-programme.md) separates new research leads from applications already filed by others; comparisons do not establish eligibility.
+
+## GI specification extension · 4 October 2026
+
+RES-070 enhances existing Puri candidate and comparator identities with two original advertised specifications. Live registry status and journal text answer different questions; neither is independent corroboration of the applicant’s scientific claims.
+
+## Textile identity extension · 5 October 2026
+
+RES-070 reuses GI-C004 and application594. Both original journal editions retained; Alangdia is a local identity lead rather than a new candidate. No claim of exhaustive semantic deduplication.
+
+## Temple-food evidence extension · 5 October 2026
+
+RES-070 enhances existing candidates005–007 and comparator121. Advertised specification, later institutional accounts and unavailable governance originals remain distinct; no duplicate identities added.
+
+## Nimapada evidence extension · 5 October 2026
+
+RES-070 enhances existing GI-C001 and reuses the saved UOU reference; GI-C002 remains separate. Repeated departmental wording is one source family. New records map name-use evidence, not exhaustive historical coverage.
+
+## Korakhai evidence extension · 5 October 2026
+
+GI-C008 reuses town trade and maker records; adds BDA, college and city-portal evidence. Identical college PDFs are one publication. No duplicate candidate created.
+
+## Manikapatna application extension · 5 October 2026
+
+GI-C009 now reuses application2117 review and four source records. Archaeological port evidence is not curd-origin evidence; several documents within one application are not independent corroboration.
+
+## Curd science extension · 5 October 2026
+
+GI-C009 now maps original2013 study and2024 follow-up. Applicant reproduction is not independent research; earlier cultures reused in later experiments do not constitute a new producer survey.
+
+## Palm-leaf GI extension · 5 October 2026
+
+Existing craft and NID records reused for GI-C010. Added original797/805 submissions, June2026 notices and a partial review of805 January2025 reply. Reproduced sources remain one evidence family.
+
+## Palm-leaf reply reuse · 5 October 2026
+
+Reused the exact saved Part1 PDF and existing source identity. Extended GI-C010 with page-specific findings; no new craft or source family. Parts2–3 remain the next documentary gap.
+
+## Gaja/Kanti evidence · 5 October 2026
+
+GI-C006/007 extended without new candidate identities. food-heritage reused for the institute-hosted copy; another download route is not another independent publication.
+
+## Poda/arisa scope · 5 October 2026
+
+GI-C011/012 extended with existing CRRI and IHM records before new browsing. Added official ritual/festival source identities; duplicate publication routes remain one lineage.
+
+## GI readiness matrix · 5 October 2026
+
+Added one synthesis concept for the existing twelve GI leads. Source records and original review dates reused; no new source identity or independent corroboration claimed.
+
+## Kalamata comparison · 5 October 2026
+
+Added a Kalamata oil comparison and three primary-source identities, distinct from table olives. Same-document routes are not independent corroboration; RES-070 reuse pointers extended.
+
+## Sugar-output checkpoint · 2026-10-06
+
+Extended the existing agriculture source to sugar-factory rows; added operator and company report identities. New study and story reuse one OAS lineage. Search did not locate a prior factory series.
+
+## Dhenkanal transaction checkpoint · 6 October 2026
+
+Reused the existing sugar study and source report. Three primary document identities extend transaction stages; seller publications are one lineage. No duplicate factory concept.

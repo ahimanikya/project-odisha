@@ -97,3 +97,40 @@ The [homestay research](../statistics/homestays.md) connects the programme’s g
 [Paddy procurement payments](../stories/rice-procurement-payments.md) connects farming with public purchasing while keeping farmer profit and payment categories distinct.
 
 [From milk to market](../stories/sweets-from-milk-to-market.md) connects the Pahala supply-chain study with dairy work, sweet making and the evidence still needed for market claims.
+
+
+## Port-series checkpoint · 4 October2026
+
+[Two ports, different cargo years](../stories/ports-diverging-cargo.md) connects logistics activity with export research while keeping throughput, value, capacity and demand separate.
+
+## Export evidence · 4 October 2026
+
+[Exports recovered, with limits](../stories/exports-recovery-and-concentration.md) links recorded sales to [district business questions](../trade/export-business-questions.md), keeping local benefits unmeasured.
+
+## Manufacturing checkpoint · 4 October 2026
+
+[Manufacturing output and supplier questions](../economy/manufacturing-output-and-suppliers.md) separates physical products, value added, operating benchmarks and possible local services.
+
+## Cement and fertiliser checkpoint · 4 October 2026
+
+[Plant output and district business questions](../economy/cement-and-fertiliser-production.md) adds named IFFCO Paradeep and Dalmia Rajgangpur line evidence. Production, sales, power generation and company-wide figures retain distinct scopes; no local jobs or supplier orders are inferred.
+
+## Food-processing evidence · 4 October 2026
+
+[The dairy and processing study](../economy/food-processing-and-dairy.md) connects existing crop and milk records with dated OMFED procurement, turnover and a historical conversion tender. Physical output, supplier contracts and district business profitability remain separate questions.
+
+[Odisha’s GI inventory](../collections/odisha-gi-products.md) — all 26 Odisha entries in the official list as of 31 December 2025, with product/logo distinctions and 4 October 2026 application checks.
+
+[GI opportunity programme](../economy/gi-opportunity-programme.md) — candidate research, existing-application checks and producer-led dossier preparation; no new GI eligibility or origin claim.
+
+## GI readiness matrix · 5 October 2026
+
+[GI evidence readiness](../economy/gi-readiness-matrix.md) — twelve existing leads, their next evidence products and participant dependencies; no forecast returns or filing claims.
+
+## Kalamata comparison · 5 October 2026
+
+[Kalamata GI comparison](../economy/kalamata-gi-comparison.md) — requirements, boundary decision and reported enforcement kept distinct.
+
+## Sugar-output checkpoint · 2026-10-06
+
+[Sugar factories](../economy/sugar-production.md) — physical output, cane input and reporting-boundary questions.

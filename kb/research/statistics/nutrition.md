@@ -52,3 +52,7 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 
 
 [^people-nfhs6]: [National Family Health Survey (NFHS-6), 2023–2024: Fact Sheets](https://www.nfhsiips.in/nfhsuser/assets/National%20Family%20Health%20Survey%20%28NFHS-6%29%202023-2024%20Fact%20Sheets.pdf)
+
+## Regional survey update · 4 October 2026
+
+[Koraput, Sambalpur and Bargarh](../statistics/western-southern-baselines.md) now include provisional NFHS-6 child nutrition, original NFHS-5 methods and separate overall survey samples. Lower stunting does not imply improvement in every nutrition measure; no programme causation is established.

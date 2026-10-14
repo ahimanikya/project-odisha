@@ -72,3 +72,5 @@ The following are farmers' reported preferences in a study published **19 Februa
 IRRI's 2020 account reports around **180 women producing about 350 tons of paddy seed (source wording) in 2019** through Adarsh Dharmagarh Women Farmers Services Producer Company. **Pooja foundation seed** was among the supplied varieties. The report separates kharif and rabi production areas; it does not split output by variety. [IRRI](https://news.irri.org/2020/05/women-farmers-take-significant-step.html).
 
 This documents a seed enterprise, with no assumption about current sales or farmer profit. It complements landrace conservation and the existing [seed-deployment record](../works/odisha-rice-seed-deployment.md).
+
+[Distinctive rice markets](../economy/rice-economy.md) now records market-stage and origin distinctions alongside this variety register; it adds no new cultivar identity.

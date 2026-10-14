@@ -82,3 +82,43 @@ People-and-creations research added five observations for broad textile/apparel/
 [Mining: minerals, industry and people](../economy/mining.md) — twelve angles, existing-data reuse and five bounded follow-ups (RES-051–055).
 
 [Forest foods, products and livelihoods](../economy/forest-products.md) — household uses, market evidence and dated history; RES-056–058 deepen existing records.
+
+## District matrix · 4 October 2026
+
+[The 30-district matrix](district-coverage.md) distinguishes district measures, local cases, destination guides, homestay scheme areas and unmapped evidence across five domains. Its declared inputs include repository-native records. It does not convert local projects into district outcomes or missing evidence into zero.
+
+[Koraput, Sambalpur and Bargarh historical baselines](../statistics/western-southern-baselines.md) — literacy, recorded work and child nutrition, with original years and denominators retained.
+
+## Regional survey update · 4 October 2026
+
+[Koraput, Sambalpur and Bargarh](../statistics/western-southern-baselines.md) now include provisional NFHS-6 child nutrition, original NFHS-5 methods and separate overall survey samples. Lower stunting does not imply improvement in every nutrition measure; no programme causation is established.
+
+
+## Port-series checkpoint · 4 October2026
+
+RES-017 now has ten annual Dhamra/Gopalpur observations per port and five Paradip vessel-time observations. [Port evidence](ports.md) retains an unresolved2023–24 non-major total conflict. Exports, physical manufacturing and longer fisheries series remain incomplete.
+
+
+## Fisheries history · 4 October2026
+
+RES-017 now includes five eleven-observation fisheries series ending provisional2023–24. Export/physical manufacturing work remains. See [fisheries](fisheries.md).
+
+## Export evidence · 4 October 2026
+
+[Export sector history](../trade/merchandise-exports.md) now adds matched annual nominal values and explicit attribution limits. Physical manufacturing remains RES-017 work.
+
+## Manufacturing checkpoint · 4 October 2026
+
+[Selected manufacturing products](../economy/manufacturing-output-and-suppliers.md) reuse existing annual output and connect operating ratios. Metals do not represent all manufacturing; non-metal product series remain open.
+
+## Non-metal production · 4 October 2026
+
+[Cement and fertilisers](../economy/cement-and-fertiliser-production.md) add named plant/line output. Selected plants do not establish statewide manufacturing totals.
+
+## Food-processing checkpoint · 4 October 2026
+
+[Food processing and dairy](../economy/food-processing-and-dairy.md) reuse rice series and add procurement/turnover. Actual food-processing quantities remain a gap; this checkpoint does not complete RES-017.
+
+## Sugar-output checkpoint · 2026-10-06
+
+[Sugar production](../economy/sugar-production.md) now has a provisional state-table series plus selected original company quantities. Source and year-scope reconciliation remain RES-017 work.

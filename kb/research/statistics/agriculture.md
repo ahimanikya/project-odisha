@@ -82,3 +82,7 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 ## Procurement payment scope · 2 October 2026 UTC
 
 The [rice payment story](../stories/rice-procurement-payments.md) adds the later department report with eleven scoped observations. Its 2023–24 MSP amount agrees with the saved volume at common MSP after rounding. The 2024–25 payment includes assistance; do not calculate like-for-like growth against MSP alone. Seasonal seller counts remain separate, and financial-year physical totals are not marketing-year revisions.
+
+## Food-processing evidence · 4 October 2026
+
+[The dairy and processing study](../economy/food-processing-and-dairy.md) connects existing crop and milk records with dated OMFED procurement, turnover and a historical conversion tender. Physical output, supplier contracts and district business profitability remain separate questions.

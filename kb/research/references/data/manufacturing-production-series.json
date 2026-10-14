@@ -1,0 +1,183 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-10-04-manufacturing-series",
+  "checked_at": "2026-10-04T21:06:49.911643+00:00",
+  "observation_dataset": "statistics-atlas.json",
+  "production_series": [
+    {
+      "id": "nalco-hydrate",
+      "label": "NALCO alumina hydrate",
+      "observation_ids": [
+        "nalco-chain-hydrate-2021-22",
+        "nalco-chain-hydrate-2022-23",
+        "nalco-chain-hydrate-2023-24",
+        "nalco-chain-hydrate-2024-25",
+        "nalco-chain-hydrate-2025-26"
+      ],
+      "scope": "Company physical output; Odisha-linked, not a state total",
+      "years_elapsed": 4,
+      "comparable_within_saved_scope": true
+    },
+    {
+      "id": "nalco-aluminium",
+      "label": "NALCO aluminium",
+      "observation_ids": [
+        "nalco-chain-aluminium-2021-22",
+        "nalco-chain-aluminium-2022-23",
+        "nalco-chain-aluminium-2023-24",
+        "nalco-chain-aluminium-2024-25",
+        "nalco-chain-aluminium-2025-26"
+      ],
+      "scope": "Company physical output; Odisha-linked, not a state total",
+      "years_elapsed": 4,
+      "comparable_within_saved_scope": true
+    },
+    {
+      "id": "rsp-crude",
+      "label": "Rourkela crude steel: carbon-budget history",
+      "observation_ids": [
+        "rsp-crude-2023-24",
+        "rsp-crude-2024-25",
+        "rsp-crude-2025-26"
+      ],
+      "scope": "Completed-year columns only; exact production-return reconciliation remains open",
+      "years_elapsed": 2,
+      "comparable_within_saved_scope": true
+    },
+    {
+      "id": "imfa-ferrochrome",
+      "label": "IMFA ferrochrome",
+      "observation_ids": [
+        "imfa-production-2024-25",
+        "imfa-production-2025-26"
+      ],
+      "scope": "Company perimeter changes with acquisition; descriptive comparison only",
+      "years_elapsed": 1,
+      "comparable_within_saved_scope": false
+    }
+  ],
+  "source_report_observation_ids": [
+    "manufacturing-rsp-hot-metal-2024-25",
+    "manufacturing-rsp-crude-2024-25",
+    "manufacturing-rsp-saleable-2024-25",
+    "manufacturing-rsp-energy-2024-25",
+    "manufacturing-rsp-coke-2024-25",
+    "manufacturing-rsp-productivity-2024-25"
+  ],
+  "technical_series": [
+    {
+      "id": "pressure",
+      "observation_ids": [
+        "manufacturing-rsp-pressure-2017-18",
+        "manufacturing-rsp-pressure-2018-19",
+        "manufacturing-rsp-pressure-2019-20",
+        "manufacturing-rsp-pressure-2020-21",
+        "manufacturing-rsp-pressure-2021-22",
+        "manufacturing-rsp-pressure-2022-23",
+        "manufacturing-rsp-pressure-2023-24"
+      ],
+      "benchmark_id": "manufacturing-rsp-pressure-benchmark",
+      "original_table_image_reviewed": false
+    },
+    {
+      "id": "volume",
+      "observation_ids": [
+        "manufacturing-rsp-volume-2017-18",
+        "manufacturing-rsp-volume-2018-19",
+        "manufacturing-rsp-volume-2019-20",
+        "manufacturing-rsp-volume-2020-21",
+        "manufacturing-rsp-volume-2021-22",
+        "manufacturing-rsp-volume-2022-23",
+        "manufacturing-rsp-volume-2023-24"
+      ],
+      "benchmark_id": "manufacturing-rsp-volume-benchmark",
+      "original_table_image_reviewed": false
+    }
+  ],
+  "new_observation_ids": [
+    "manufacturing-rsp-hot-metal-2024-25",
+    "manufacturing-rsp-crude-2024-25",
+    "manufacturing-rsp-saleable-2024-25",
+    "manufacturing-rsp-energy-2024-25",
+    "manufacturing-rsp-coke-2024-25",
+    "manufacturing-rsp-productivity-2024-25",
+    "manufacturing-rsp-pressure-2017-18",
+    "manufacturing-rsp-pressure-2018-19",
+    "manufacturing-rsp-pressure-2019-20",
+    "manufacturing-rsp-pressure-2020-21",
+    "manufacturing-rsp-pressure-2021-22",
+    "manufacturing-rsp-pressure-2022-23",
+    "manufacturing-rsp-pressure-2023-24",
+    "manufacturing-rsp-pressure-benchmark",
+    "manufacturing-rsp-volume-2017-18",
+    "manufacturing-rsp-volume-2018-19",
+    "manufacturing-rsp-volume-2019-20",
+    "manufacturing-rsp-volume-2020-21",
+    "manufacturing-rsp-volume-2021-22",
+    "manufacturing-rsp-volume-2022-23",
+    "manufacturing-rsp-volume-2023-24",
+    "manufacturing-rsp-volume-benchmark"
+  ],
+  "reused_observation_ids": [
+    "nalco-chain-hydrate-2021-22",
+    "nalco-chain-hydrate-2022-23",
+    "nalco-chain-hydrate-2023-24",
+    "nalco-chain-hydrate-2024-25",
+    "nalco-chain-hydrate-2025-26",
+    "nalco-chain-aluminium-2021-22",
+    "nalco-chain-aluminium-2022-23",
+    "nalco-chain-aluminium-2023-24",
+    "nalco-chain-aluminium-2024-25",
+    "nalco-chain-aluminium-2025-26",
+    "rsp-crude-2023-24",
+    "rsp-crude-2024-25",
+    "rsp-crude-2025-26",
+    "imfa-production-2024-25",
+    "imfa-production-2025-26"
+  ],
+  "new_calculation_ids": [
+    "manufacturing-nalco-hydrate-2021-22-to-2022-23",
+    "manufacturing-nalco-hydrate-2022-23-to-2023-24",
+    "manufacturing-nalco-hydrate-2023-24-to-2024-25",
+    "manufacturing-nalco-hydrate-2021-22-to-2025-26",
+    "manufacturing-nalco-aluminium-2021-22-to-2022-23",
+    "manufacturing-nalco-aluminium-2022-23-to-2023-24",
+    "manufacturing-nalco-aluminium-2023-24-to-2024-25",
+    "manufacturing-nalco-aluminium-2021-22-to-2025-26"
+  ],
+  "reused_calculation_ids": [
+    "nalco-chain-hydrate-change-2024-25-2025-26",
+    "nalco-chain-aluminium-change-2024-25-2025-26",
+    "rsp-crude-change-2023-24-2024-25",
+    "rsp-crude-change-2024-25-2025-26",
+    "imfa-change-production-2025-2026"
+  ],
+  "source_reconciliation": [
+    {
+      "id": "rsp-crude-2024-25-precision",
+      "observation_ids": [
+        "manufacturing-rsp-crude-2024-25",
+        "rsp-crude-2024-25"
+      ],
+      "state": "unresolved_precision_or_vintage",
+      "explanation": "Annual report4.04 and later carbon-budget4.045 million tonnes retained separately. Do not infer a revision or choose a rounding rule without exact return.",
+      "retry_after": "2026-10-11"
+    }
+  ],
+  "unknowns": {
+    "statewide_manufacturing_tonnage": null,
+    "plant_local_resident_jobs": null,
+    "incremental_jobs_caused_by_output": null,
+    "supplier_profit": null,
+    "current_open_orders": null,
+    "causal_operating_loss": null
+  },
+  "controls": {
+    "add_material_stages": false,
+    "add_company_scopes_to_state_total": false,
+    "capacity_equals_output": false,
+    "output_equals_sales": false,
+    "imfa_organic_growth_claim": false
+  },
+  "next_step": "Continue non-metal manufacturing coverage using official physical product series; reconcile RSP exact production returns and original CAG table on11October. Keep current plant jobs, supplier orders and profitability unknown."
+}

@@ -91,3 +91,19 @@ Tamarind, harida, bahada, karanja seed, kusum seed, lac and hill brooms are addi
 Do not distribute the collective product list to each Mayurbhanj cluster. Current operation, women ownership, product sales and collector payments are unknown. These five named leads are a research list, not a census. Programme aggregate sales cannot be assigned to them.
 
 The next evidence sought is a dated procurement ledger, completed-sale statement and actual collector-payment record for the same product, grade and period. Recent departmental PDFs and TDCC pages failed retrieval; index snippets and auction notices remain leads. Retry on 8 October, retaining the accessible historical evidence.
+
+## Community-history connection · 4 October 2026
+
+[Three attributed historical cases](../history/forest-livelihoods.md) connect forest products with community organisation, women’s work and resource-sharing conflicts. Their local historical accounts do not establish present incomes, universal practices or current collection rights.
+
+## From village management to enterprise evidence
+
+[The historical 2011 JFM provisions](../history/forest-livelihoods.md) connect women’s committee representation, livelihood planning and forest-product marketing. They identify records to seek before describing an enterprise arrangement. A policy benefit share is not a measured collector income, and a model agreement is not local permission.
+
+## Institutions behind the trade · 4 October 2026
+
+[The 2015 and 2019 changes](../history/forest-livelihoods.md) clarify the historical roles of the committee secretary and range-level forum. Accounts, meeting minutes and local agreements would help establish how an arrangement operated; the policy text alone does not measure income or prove permission.
+
+## Livelihoods and collective work · 4 October 2026
+
+The [Dhani historical case](../history/forest-livelihoods.md) adds a local institutional history to this market research. Its reported arrangements are not a current permit or a business-return estimate. Follow the case’s source and date limits before reuse.

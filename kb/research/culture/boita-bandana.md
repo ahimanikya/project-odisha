@@ -32,3 +32,8 @@ Use the [Paradip event](../trade/paradip-bridge.md) for a documented institution
 [Bali Jatra](bali-yatra.md) · [Campaign](../stories/trading-culture-next-chapter.md)
 
 [^maritime-culture-2025]: [Bali Jatra commemorates rich maritime heritage and culture of Odisha](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2100365)
+
+
+## Sadhaba maritime-science study · 4 October 2026
+
+[The technology behind the voyages](../history/sadhaba-maritime-science.md) distinguishes historical equipment, later boatbuilding practices and modern science. The ritual remains a commemoration, not evidence of universal annual voyage success.

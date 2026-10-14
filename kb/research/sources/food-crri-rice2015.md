@@ -21,3 +21,7 @@ Institutional compilation combining primary and secondary information. Book date
 ## Contributor context
 
 The preface credits Ananya Mahila Bikas Samiti at Sankilo, Cuttack, for information on several Odisha foods. It also describes secondary-source compilation. This does not establish an individual recipe’s village provenance.
+
+## Poda/arisa scope reuse · 5 October 2026
+
+Reused saved text for printed9,23,26,29 (PDF20,34,37,40) for the [place-association comparison](../food/poda-arisa-place-evidence.md). These entries describe arisa and three named poda preparations under Odisha. They do not identify a Puri-only recipe. No fresh download, independent replication or validated storage claim is asserted.

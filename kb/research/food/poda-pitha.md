@@ -61,3 +61,7 @@ Reuse of saved attributed regional accounts; versions are not universal rules.
 **To establish:** Local variants remain open; CRRI book versions already captured separately.
 
 [Odisha’s poda and fire-cooking traditions](poda-and-fire-cooking.md) connects this account to other ingredients and cooking methods.
+
+## Poda/arisa scope · 5 October 2026
+
+[Puri association and wider variants](poda-arisa-place-evidence.md) compares the saved CRRI versions with a dated ritual listing and wider Raja record. A Puri-only specification and exclusive origin remain unestablished.

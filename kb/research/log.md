@@ -456,3 +456,177 @@ Expanded school-language defence, press and public argument, and regional-unific
 ## 11 October 2026 · Weekly publisher checks
 
 All17 watch tracks attempted with partial availability. Four Paradip partial-period cargo observations and two matched comparisons appended: year-to10October growth0.16%, versus25.01% for1–10October. Historical full-year values preserved. TRAI annual edition repeats six savedMarch2026 internet values; no duplicate observations. Failed fetches and known conflicts retained; no human review claimed. [Ports](statistics/ports.md) · [Digital connectivity](statistics/digital-connectivity.md).
+
+## Forest community-history checkpoint · 4 October 2026
+
+RES-058 started: three historical community cases and six dated milestones;2001 case geography resolved, publisher inconsistency preserved.2018 source recovery failed, survey dates unknown. Rights evidence remains open.
+
+## Forest management instruments · 4 October 2026
+
+RES-058 original JFM instrument checkpoint: ten scoped policy provisions and resolution/gazette chronology; linked existing judicial evidence. Later amendments and local instruments remain open. MoTA booklet timed out; no current-law or implementation claim.
+
+## Forest-management amendments · 4 October 2026
+
+RES-058: recovered 2015 gazette and 2019 resolution copies from an official working-plan volume; five amendment provisions and two timeline events added. Earlier policy version preserved; local outcomes and later/current applicability unverified.
+
+## Dhani community-history checkpoint · 4 October 2026
+
+RES-058: added one historical community case with five dated events and retained adverse findings. Deferred unmet evidence criteria to 11 October; next independent task RES-059. Original cases, amendments and frozen evidence retained.
+
+## Odisha in the world · 4 October 2026
+
+Completed bounded RES-059 synthesis with two modern cases, one new TEU observation and historical evidence reuse. Original 2012/2022 instruments captured and visually checked. Current status and country/product shipment gaps retained.
+
+## Rice markets · 4 October 2026
+
+Completed RES-062 bounded distinctive-rice market dossier. Added four sources and a five-case register, reusing the landrace study. Retained unknown fieldwork/price dates, producer receipts, lot identity and attributable exports. Local research; no human review or website release.
+
+## Textile segments · 4 October 2026
+
+Completed RES-030: recovered28 values, mapped eight product forms, retained nominal garment decline and separate release vintages. No destination or quantity inferred.
+
+## Sand-art checkpoint · 4 October 2026
+
+RES-032 sand-art checkpoint: one dated Puri work,2019 festival participation,2022 Delhi workshop and historical fee terms. Origin chronology quarantined; remaining five material arts unfinished.
+
+## Tarakasi and palm-leaf checkpoint · 4 October 2026
+
+RES-032 checkpoint: two material-art practices, four scoped maker profiles and three dated national-award records. Original NID process PDFs checked; award originals unavailable and indexed captures labelled. Other craft forms and named award works remain unfinished.
+
+## Stone, metal and clay · 4 October 2026
+
+RES-032 adds stone, dhokra and terracotta process records, five scoped people profiles and a six-practice collection. Recognition remains distinct from creator attribution. SIDAC2017 original unavailable; numbers and decisions quarantined.
+
+## Attributed craft works ·4October2026
+
+RES-032 adds Raghunath Mohapatra, two government-attributed sculptures, a provisionally matched Rana terracotta mural, and an IIC2016 exhibition with maker identity quarantined. All object dates/current displays remain unknown. Next independent task RES-013.
+
+## 4 October 2026 · District evidence matrix
+
+Completed RES-013: linked all 30 districts across five research domains. Saved evidence only; no fresh source verification or canonical atlas observation added. Next RES-014. See [matrix](statistics/district-coverage.md).
+
+## 4 October 2026 · Regional baseline checkpoint
+
+RES-014: 24 Census/NFHS district observations checked against original tables; four source documents, three unavailable DES downloads. Current district claims remain withheld.
+
+## 4 October 2026 · NFHS district originals recovered
+
+RES-014 completed: nine newer observations, nine older observations supplemented with methods, nine point-estimate differences. Preserve provisional status and mixed trends; next RES-015.
+
+## 4 October 2026 · Economic time-series research
+
+Added 97 annual observations to seven 15-year series with14 matched interval calculations. Preserved contractions and estimate vintage; original visual verification pending. Next independent task RES-016.
+
+## 4 October 2026 · Investment implementation evidence
+
+Added three project identities, six dated stage events and three non-additive financial observations. IMFA reports purchase payment of ₹707.27 crore; asset transfer separated from construction. RES-016 remains in progress; NALCO project case next.
+
+## 4 October 2026 · NALCO implementation checkpoint
+
+Added3 project identities,5 stage events,5 project financial observations and3 company accounting observations. Preserved changing schedules and adverse aggregate CWIP. Project cash expenditure remains unknown; retry11 October, then independent RES-017 next.
+
+## 4 October 2026 · Weekly publisher checks
+
+All17 tracks attempted; partial fetches and existing conflicts retained. Added33 observations: five airports’ August and April–August comparisons, and four scoped UDISE2025–26 dropout rates. Adverse aviation figures retained; education release dates back to7July. Existing annual vintages and frozen evidence ledger unchanged. [Aviation](statistics/aviation.md) · [Education](statistics/education.md). No human review or website release claimed.
+
+## 4 October2026 · RES-017 port-series checkpoint
+
+Added28 scoped observations and five comparisons from original ministry tables. Dhamra/Gopalpur series include adverse years; Paradip vessel time remains a distinct measure. Held conflicting2023–24 non-major totals. RES-017 stays in progress; longer fisheries series next. [Port story](stories/ports-diverging-cargo.md). No website release or human review claimed.
+
+
+## Sadhaba maritime-science study · 4 October 2026
+
+Created a [Sadhaba maritime-science study](history/sadhaba-maritime-science.md),12 scoped claims,nine source/lead records and11 explicit unknowns. Two original PDFs recovered; inaccessible originals preserved as unavailable. Added related reading and evidence-qualified graph relationships. No human review, fieldwork or website release claimed.
+
+
+## Fisheries history · 4 October2026
+
+Added55 historical fisheries cells, two held alternate totals and ten matched comparisons. Provisional2023–24 retained; annual marine declines visible. Source PDF text available, direct downloads timed out. RES-017 remains in progress; export series next. No website release.
+
+## Export evidence · 4 October 2026
+
+Added65 annual export observations,20 principal products plus two totals and seven missing country shares; three existing country IDs reused. DEPM total mismatch and seafood denominator held. [Export study](trade/export-business-questions.md). No website release or human review.
+
+## Manufacturing checkpoint · 4 October 2026
+
+Reused 15 production observations and five calculations; added 22 operating/annual-report observations and eight product comparisons. [Study](economy/manufacturing-output-and-suppliers.md). Retrieval and precision limits retained; no human review or website release.
+
+## Non-metal production · 4 October 2026
+
+Added 30 original-page plant observations and 13 comparisons. IFFCO output/sales, Dalmia line boundary and PPL company conflict retained. [Study](economy/cement-and-fertiliser-production.md). No human review or website release.
+
+## Food-processing checkpoint · 4 October 2026
+
+Added four scoped OMFED observations and two comparisons, retaining procurement facsimile review and missing processing output. Existing rice observations reused by ID. [Study](economy/food-processing-and-dairy.md). No human review or website release.
+
+## GI inventory · 4 October 2026
+
+Added [Odisha GI inventory](collections/odisha-gi-products.md): 26 dated list entries, 25 non-logo entries and one separate logo; 28 application IDs plus two pending examples checked. Existing product pages reused. Renewal anomalies held; no human review or website publication.
+
+## GI opportunity pilot · 4 October 2026
+
+[Programme](economy/gi-opportunity-programme.md):12 research leads, five Indian comparators, global system comparisons and four dossier briefs. Existing filings retained; no applications submitted. RES-070 remains in progress; no producer consent or human review invented.
+
+## Khaja GI specifications · 4 October 2026
+
+[Original specification comparison](economy/khaja-gi-comparison.md) distinguishes layered wheat Silao Khaja from chickpea Goan Khaje. Ingredient conflict and technical/economic claims held. Puri specification and producer mandate remain open; RES-070 continues. No filing or website publication.
+
+## Puri gamucha evidence · 5 October 2026
+
+[Textile study](handlooms/puri-gamucha-gi-study.md) compares 2019/2022 Gamosa specifications, retains an internal dimension conflict and adds an attributed Alangdia lead. GI-C004 enhanced; no duplicate candidate, filing or website publication.
+
+## Temple-food GI research · 5 October 2026
+
+[Comparison](food/temple-food-gi-governance.md) recovers Journal28 and preserves later TTD statements separately. Puri authority records unavailable; technical and registry gaps retained. No filing, human review or website release.
+
+## Nimapada name-use research · 5 October 2026
+
+[Chronology](food/nimapada-jhili-evidence.md) records the 2016–17 official profile, an undated earlier edition and dated travel attribution. Original municipal page unavailable; retry 12 October. No invention year, filing or website release claimed.
+
+## Korakhai GI research · 5 October 2026
+
+[Old Town dossier](food/korakhai-gi-evidence.md) extends existing evidence with BDA’s proposed trail and a college’s local-product activity. Goods specification and producer mandate remain open. No application or website release.
+
+## Manikapatna Curd dossier · 5 October 2026
+
+[Application2117 review](food/manikapatna-curd-application.md) distinguishes its breed certificate, proposed oversight and25-item notice. Saved a pH scope hold; complete PDFs replaced failed partial downloads. No filing or website release.
+
+## Chilika curd science · 5 October 2026
+
+[Original studies reviewed](food/chilika-curd-science.md):2013 sampling/pH confirmed;2024 culture follow-up distinguished from field replication. Existing pH hold preserved and strain discrepancy added. No safety certification, new filing or website release.
+
+## Palm-leaf GI scopes · 5 October 2026
+
+[Two existing applications compared](culture/palm-leaf-gi-applications.md). Historical boundaries overlap;2025 reply records identity/class questions;2026 reports request corrections. Revised-file review remains unfinished. No filing or website release.
+
+## Palm-leaf reply continuation · 5 October 2026
+
+Completed Part1 text review with key facsimile checks. Recorded producer representation claims and proposed watchdog; preserved Puri–Khordha scope. Added dimension, plant and finance holds. Parts2–3 remain open. No filing, outreach or website publication.
+
+## Palm-leaf supporting annexures · 5 October 2026
+
+Palm-leaf supporting annexures reviewed within explicit page scope: submitted joint applicants differ from summary; historical roster sections and corporation certificate recorded. No current maker count or accepted amendment inferred. RES-070 remains open.
+
+## Gaja/Kanti evidence · 5 October 2026
+
+Added Gaja/Kanti identity dossier, recovered the existing IHM/NCHM chapter and held ingredient/name equivalence. Exact failures and page scopes saved; no filing or website release.
+
+## Poda/arisa scope · 5 October 2026
+
+Added GI-C011/012 place-association comparison and dated official festival sources. Reused institutional preparation captures; retained unresolved local specification, producer authority and economics. No filing or website release.
+
+## GI readiness matrix · 5 October 2026
+
+Completed a twelve-lead GI synthesis matrix using saved evidence. Four routes separate documentary work, identity decisions, custodianship and existing-file support. RES-070 remains unfinished; original international specification research continues next while local source retries remain12October. No new source check or website release.
+
+## Kalamata comparison · 5 October 2026
+
+Added Kalamata specification/decision/enforcement comparison; corrected overly broad local-chain wording, preserved the2015 table correction and2021 action limits. Three new primary-source records, with failed routes explicitly unavailable. RES-070 checkpoint saved; follow-up12October, RES-017 next.
+
+## Sugar-output checkpoint · 2026-10-06
+
+Captured eleven-year sugar-factory table under existing rice-oas2024 source identity;66 state-table observations remain provisional or held, while4 company quantities have original-page verification. Saved recovery and Aska discrepancies; no partial-year growth or current ownership inferred.
+
+## Dhenkanal transaction checkpoint · 6 October 2026
+
+Resolved the 2022 Dhenkanal buyer through the original seller completion notice, quarterly note and conditional buyer announcement. Preserved event/publication dates, seller evidence lineage and unresolved production periods. No new physical observation or current operator claim.

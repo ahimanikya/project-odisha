@@ -24,3 +24,7 @@ resource: "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20
 This record is a bibliographic reference, not a saved copy of the external page. Related concept documents retain concise extracted knowledge for offline reuse.
 
 [^sector-survey]: [Odisha Economic Survey 2025–26 — statistical appendix](https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf)
+
+## Dairy scope added · 4 October 2026
+
+Section 3.10.10, printed p.88: publisher-indexed paragraph recovered for OMFED average daily procurement in FY2023–24 and FY2024–25. Direct full-PDF download timed out. Same publication and existing identity reused; no new independent corroboration or whole-report verification. [Scoped study](../economy/food-processing-and-dairy.md).

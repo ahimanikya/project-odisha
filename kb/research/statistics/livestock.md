@@ -43,3 +43,7 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 
 
 [^nature-survey-summary]: [Odisha Economic Survey 2025-26: Highlights and Executive Summary](https://pc.odisha.gov.in/sites/default/files/2026-02/ES-Highlights%20and%20Executive%20Summary%202026%20Web%20Upload.pdf)
+
+## Food-processing evidence · 4 October 2026
+
+[The dairy and processing study](../economy/food-processing-and-dairy.md) connects existing crop and milk records with dated OMFED procurement, turnover and a historical conversion tender. Physical output, supplier contracts and district business profitability remain separate questions.

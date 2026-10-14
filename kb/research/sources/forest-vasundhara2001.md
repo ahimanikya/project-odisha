@@ -15,3 +15,7 @@ Pritam Kumar Nanda and Pravat Chandro Sutar, Vasundhara; hosted by FAO. Historic
 [Source](https://www.fao.org/4/ad352t/AD352T06.htm). Locator: October2001; executive summary and selected case-study context.
 
 [Forest products research](../economy/forest-products.md).
+
+## Scope resolved through the case sections · 4 October 2026
+
+The original English chapter was retrieved and read. Methodology, Sites1–3 and acknowledgements identify Bolangir, Deogarh and Sundergarh. Use those case-specific locations; the summary’s Sambalpur wording remains an uncorrected publisher discrepancy. The earlier broad geographic hold is narrowed, not erased. [Attributed cases](../history/forest-livelihoods.md).

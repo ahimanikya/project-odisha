@@ -32,3 +32,7 @@ Printed/PDF pp.118–121, 131, 233 and 292. The p.292 Assam label is retained; n
 ## Additional capture · 2 October 2026
 
 The original 344-page PDF adds a named maker attribution on printed/PDF p.179, item 15: Aartabandhu Sahoo of Shyam Sundarpur, Nimapara. This is a teaching reference’s attribution, not archival proof of an invention date. The earlier p.119 recipe remains valid; both passages belong to the same publication. Its unspecified overseas-spread sentence establishes no shipments. See [Chhena jhili](../food/chhena-jhili.md).
+
+## Saved-file chronology check · 5 October 2026
+
+Reused the existing 344-page original for the [Nimapada chronology](../food/nimapada-jhili-evidence.md). PDF creation metadata says 18 April 2020; no printed publication date was established. This is not a fresh independent origin source.

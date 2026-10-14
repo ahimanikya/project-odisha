@@ -75,3 +75,20 @@ Subject membership is editorial classification. It does not establish historical
 [Rice kept for taste](../stories/rice-kept-for-taste.md) links documented food preferences to named cultivation and seed-enterprise accounts. Historical evidence is separate from current availability.
 
 [From milk to market](../stories/sweets-from-milk-to-market.md) connects the Pahala supply-chain study with dairy work, sweet making and the evidence still needed for market claims.
+
+
+## Fisheries history · 4 October2026
+
+[Fish growth beyond the coast](../stories/fish-growth-beyond-the-coast.md) connects freshwater, brackishwater and marine food production while retaining income and sustainability questions.
+
+## Food-processing evidence · 4 October 2026
+
+[The dairy and processing study](../economy/food-processing-and-dairy.md) connects existing crop and milk records with dated OMFED procurement, turnover and a historical conversion tender. Physical output, supplier contracts and district business profitability remain separate questions.
+
+## Gaja/Kanti evidence · 5 October 2026
+
+[Gaja and Kanti](../food/gaja-kanti-evidence.md) — how source-specific food names and ingredients shape careful recipe and heritage research.
+
+## Poda/arisa scope · 5 October 2026
+
+[Poda pitha and arisa](../food/poda-arisa-place-evidence.md) — ritual association, named variants and the evidence still needed for a local product dossier.

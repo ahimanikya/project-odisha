@@ -31,3 +31,8 @@ generated: {"by": "codex/gpt-6", "at": "2026-09-27T08:14:32+00:00"}
 For future campaigns, track qualified enquiries, maker referrals, completed purchases, export leads progressing to confirmed orders and visitor bookings with consented attribution. Set a baseline before launch. Historical content is an entry point; business outcomes need contemporary measurement.
 
 This is a research queue, not evidence that ancient trade volumes, trader counts or market shares are known. The initial maritime module is not an exhaustive archive of all Odisha history.
+
+
+## Sadhaba maritime-science study · 4 October 2026
+
+RES-068: [Sadhaba maritime-science study](sadhaba-maritime-science.md). Recover original field papers, manuscript accessions, a vessel-specific engineering account and dated evidence for instruments, provisioning, crew and loss rates. Precise unknowns and next actions are in the [claim register](../references/data/sadhaba-maritime-science.json).

@@ -107,3 +107,5 @@ The [contemporary creators collection](../people/contemporary-creators.md) now i
 [Sanghamitra Mohanty](../people/sanghamitra-mohanty.md) and [Susmita Mohanty](../people/susmita-mohanty.md) extend the science collection into computing and space design/policy. Follow their credited-work pages for original publisher records and research limits.
 
 [Dance, learning and religious traditions](../methods/culture-learning-programme.md) — seven connected research tasks, existing-record reuse and a source-backed first checkpoint.
+
+[Koraput, Sambalpur and Bargarh historical baselines](../statistics/western-southern-baselines.md) — literacy, recorded work and child nutrition, with original years and denominators retained.

@@ -59,3 +59,11 @@ Mine manpower tables are captured but held for clarification. The template defin
 Sukinda’s submitted ROM is 269,075 tonnes against 273,802 in the annual report. Both are retained, and the earlier growth calculation is quarantined. Mahagiri’s general field rounds to the annual-report value but differs from its underground ROM field. [Detailed captures and holds](../references/data/mining-programme.json).
 
 Integration review: the annual report’s combined ore figure is also held for reconciliation because it includes the disputed Sukinda component. The reported value remains preserved; no revised total is inferred by mixing the annual report with the mine templates.
+
+## Project identities and purchase payment · 4 October 2026
+
+The [investment tracker](../journeys/investment.md) now distinguishes acquired KNR2, its proposed fifth furnace and greenfield KNR1. The saved report discloses ₹707.27 crore paid to Tata Steel, while ₹610 crore base consideration and ₹25.03 crore assumed working capital have narrower scopes. This is one existing-asset transfer, not three additive investments or proof of new capacity. Internal-accrual funding is documented; national-origin funding shares remain unknown.
+
+## Comparison boundary · 4 October 2026
+
+The [manufacturing study](manufacturing-output-and-suppliers.md) reuses the two existing output records. Acquisition-affected company growth remains descriptive; it is excluded from the unchanged-perimeter product chart.

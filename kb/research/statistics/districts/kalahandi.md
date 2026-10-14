@@ -35,3 +35,7 @@ The agriculture report records rice crop area of **255.76 thousand hectares**, r
 ## Baphlimali returns · 2 October2026 UTC
 
 [Baphlimali boundary questions](../../economy/bauxite-mine-identities.md) retain the Kalahandi public-hearing section separately; no mine-total allocation or local job share is inferred.
+
+## Evidence coverage · 4 October 2026
+
+[District evidence matrix](../district-coverage.md) connects this snapshot with health, education, livelihood, environment and visitor research. Unmapped evidence remains unknown; banking is not a measure of household income.

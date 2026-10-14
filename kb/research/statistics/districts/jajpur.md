@@ -35,3 +35,7 @@ IBM’s2023–24 provisional chromite table records3,126,623 tonnes for Jajpur. 
 ## Plant-record checkpoint
 
 [IMFA’s reconciled record](../../economy/company-imfa.md) distinguishes Kalinganagar clearance transfer, Choudwar furnace input ratios and held mine workforce/output data. No employment total or expanded capacity is inferred from these records.
+
+## Evidence coverage · 4 October 2026
+
+[District evidence matrix](../district-coverage.md) connects this snapshot with health, education, livelihood, environment and visitor research. Unmapped evidence remains unknown; banking is not a measure of household income.

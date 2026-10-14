@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-04T07:35:13.123765+00:00",
+  "scope": "Bounded distinctive-rice market evidence; snapshots are not a price series or an export census.",
+  "human_review_claimed": false,
+  "cases": [
+    {
+      "id": "kalajeera-domestic-market-account",
+      "variety": "Kalajeera",
+      "geography": "Macchra village, Koraput; reported market New Delhi",
+      "source_id": "rice-yadav-landraces2026",
+      "publication_date": "2026-02-19",
+      "transaction_date": null,
+      "fieldwork_date": null,
+      "locator": "Section 3.4 market-chain paragraph; PDF p.11",
+      "stage": "study_reports_domestic_marketing_and_retail",
+      "actors": [
+        "ORMAS",
+        "Koraput district administration"
+      ],
+      "price": {
+        "value": 300,
+        "unit": "INR/kg",
+        "qualifier": "up to",
+        "level": "reported retail ceiling",
+        "period": null,
+        "price_basis": "nominal; observation date unspecified",
+        "not_current_quote": true
+      },
+      "actual_quantity": null,
+      "farmer_receipts": null,
+      "retail_invoice": null,
+      "scope": "Study account of packaged rice and domestic sales; no audited chain, export or farmer margin inferred."
+    },
+    {
+      "id": "jaivik-product-channel",
+      "source_id": "rice-jaivik-products",
+      "geography": "Koraput",
+      "observed_on": "2026-10-04",
+      "published_on": null,
+      "stage": "producer_self_description_and_product_catalogue",
+      "products": [
+        "Kalajeera rice",
+        "Black Rice",
+        "Basabhoga Rice"
+      ],
+      "named_entity": "Jaivik Sri Farmers Producer Company",
+      "rice_sales_period": null,
+      "rice_sales_quantity": null,
+      "rice_revenue": null,
+      "farmer_receipts": null,
+      "scope": "Product names transcribed; catalogue naming alone does not resolve variety identities. APEDA registration claims do not establish exports."
+    },
+    {
+      "id": "kandhamal-seller-snapshot",
+      "source_id": "rice-myefarm-listing",
+      "geography": "Kandhamal, as asserted by seller",
+      "observed_on": "2026-10-04",
+      "published_on": null,
+      "stage": "enquiry_catalogue_not_completed_sale",
+      "product_label": "Kalajeera Rice",
+      "pack_sizes": {
+        "values": [
+          1,
+          5
+        ],
+        "unit": "kg"
+      },
+      "seller": "myefarm / Abeja Labs Private Limited",
+      "claimed_supplier_type": "SHGs and producer collectives",
+      "named_producer": null,
+      "price": null,
+      "availability": null,
+      "delivered_quantity": null,
+      "certification": null,
+      "scope": "Keep apart from Koraput GI identity and Jaivik supply chain; no matched lot or seller-producer link established."
+    },
+    {
+      "id": "apeda-kalajeera-promotion",
+      "source_id": "rice-apeda-promotion2025",
+      "event_date": "2025-02-20",
+      "geography": "Krushi Bhawan, Bhubaneswar",
+      "period": "FY2024–25 report",
+      "stage": "capacity_development_and_export_promotion",
+      "shipment_quantity": null,
+      "shipment_value": null,
+      "destination_country": null,
+      "scope": "Table lists a consultation covering Kalajeera and indigenous aromatic rice. Event is not a shipment."
+    },
+    {
+      "id": "rice-port-origin-gap",
+      "source_id": "rice-cgiar-trade2024",
+      "publication_year": 2024,
+      "geography": "Odisha origin discussed; Vizag and Kakinada ports",
+      "period": "2022–23 in export paragraph",
+      "stage": "institutional_analysis",
+      "odisha_origin_quantity": null,
+      "odisha_origin_value": null,
+      "destination_countries": null,
+      "scope": "Authors discuss Odisha rice moving through Andhra Pradesh ports. Port aggregate includes unspecified origins; do not assign it to Odisha or Kalajeera."
+    }
+  ],
+  "unresolved_leads": [
+    {
+      "url": "https://www.odishanewstimes.com/post/odisha-exports-dry-ginger-fresh-ginger-and-premium-kalajeera-rice",
+      "published_date_in_body": "2026-02-19",
+      "claim": "60 quintals of Kalajeera marketed in Haryana",
+      "evidence_status": "secondary_lead_only_primary_transaction_not_retrieved",
+      "reason": "Haryana is domestic; headline exports does not establish international trade. Expected 30–40% price gain is not realised farmer income.",
+      "retry_after": "2026-10-11",
+      "next_action": "Find dated FPO/department dispatch and receipt records, buyer identity, invoices, deductions and payment completion."
+    }
+  ],
+  "completion_scope": "Bounded market dossier delivered. Matched dated producer-to-retail transaction and origin-attributed overseas shipment not established; explicit evidence gaps retained.",
+  "follow_up": [
+    {
+      "id": "rice-matched-lot",
+      "retry_after": "2026-10-11",
+      "needed": [
+        "Named grower or FPO and dated lot",
+        "Paddy purchase quantity and payment",
+        "Milling recovery, grade and costs",
+        "Same-lot retail invoice and quantity",
+        "Charges, returns and farmer settlement"
+      ],
+      "next_action": "Seek public FPO annual accounts or transaction records; local participation requires separate evidence, no outreach performed."
+    },
+    {
+      "id": "rice-origin-exports",
+      "retry_after": "2026-10-11",
+      "needed": [
+        "Origin-linked invoice or shipping bill",
+        "Product/variety identity",
+        "Quantity and value",
+        "Date, destination and exporter",
+        "Proof of shipment stage"
+      ],
+      "next_action": "Seek DGCIS/DEPM/APEDA or exporter primary evidence; preserve unknowns if unavailable."
+    }
+  ]
+}

@@ -237,6 +237,18 @@
           "run_id": "2026-09-27T160140Z",
           "status": "unchanged"
         }
+      ],
+      "research_captures": [
+        {
+          "run_id": "2026-10-04-investment-implementation",
+          "path": "references/data/investment-tracker.json",
+          "scope": "Three stable IMFA project/phase identities with dated source events and acquisition payment. Reuse within saved scope; this is not a weekly release check."
+        },
+        {
+          "run_id": "2026-10-04-nalco-investment",
+          "path": "references/data/investment-tracker.json",
+          "scope": "Three NALCO identities and historical report vintages. Current operating outcome unknown; failed fetch is unavailable, not unchanged."
+        }
       ]
     },
     {
@@ -449,14 +461,18 @@
         "people-udise2025",
         "people-plfs2024",
         "people-mpi2023",
-        "weekly-nfhs-district-release"
+        "weekly-nfhs-district-release",
+        "people-udise2026",
+        "people-udise2026-release"
       ],
       "seed_urls": [
         "https://www.nfhsiips.in/nfhsuser/assets/National%20Family%20Health%20Survey%20(NFHS-6)%202023-2024%20Fact%20Sheets.pdf",
         "https://dashboard.udiseplus.gov.in/report2025/static/media/UDISE%2B2024_25_Booklet_existing.118ba29d4773e6372f72.pdf",
         "https://www.mospi.gov.in/sites/default/files/publication_reports/AnnualReport_PLFS2023-24L2.pdf",
         "https://www.niti.gov.in/node/868",
-        "https://www.nfhsiips.in/nfhsuser/release-details.php"
+        "https://www.nfhsiips.in/nfhsuser/release-details.php",
+        "https://dashboard.udiseplus.gov.in/report2026/static/media/UDISE+2025_26_Booklet_existing.edd7cd16d934a10377ba.pdf",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2282141&lang=1&reg=48"
       ],
       "targets": [
         "references/data/statistics-atlas.json",
@@ -489,6 +505,17 @@
           "at": "2026-09-27T09:11:23-07:00",
           "run_id": "2026-09-27T160140Z",
           "status": "changed"
+        }
+      ],
+      "research_captures": [
+        {
+          "run_id": "2026-10-04-regional-survey-methods",
+          "path": "references/data/regional-survey-methods.json",
+          "source_ids": [
+            "regional-nfhs5-odisha-compendium",
+            "regional-nfhs6-odisha-compendium"
+          ],
+          "scope": "NFHS-6 district compendium recovered; only Koraput, Sambalpur and Bargarh nutrition and samples extracted. No other district, indicator or full weekly check claimed."
         }
       ]
     },
@@ -594,13 +621,15 @@
         "connect-rail2026",
         "connect-internet2025",
         "weekly-trai-mar2026",
-        "weekly-trai-annual2026"
+        "weekly-trai-annual2026",
+        "connect-airport-aug2026"
       ],
       "seed_urls": [
         "https://www.aai.aero/sites/default/files/traffic-news/Mar2k26Annex3.pdf",
         "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2287573",
         "https://www.trai.gov.in/sites/default/files/2025-07/YIR_08072025_0.pdf",
-        "https://trai.gov.in/sites/default/files/2026-06/QPIR_22062026.pdf"
+        "https://trai.gov.in/sites/default/files/2026-06/QPIR_22062026.pdf",
+        "https://www.aai.aero/sites/default/files/traffic-news/Aug2k26Annex3.pdf"
       ],
       "targets": [
         "references/data/statistics-atlas.json",
@@ -655,7 +684,7 @@
       "last_agent_check": {
         "at": "2026-10-11T16:12:19.349772+00:00",
         "run_id": "2026-10-11T160110Z",
-        "status": "unavailable",
+        "status": "unchanged",
         "scope": "IPIndia annual route failed and wall-of-fame timed out. Indexed national figures do not establish a new Odisha observation."
       },
       "discovery_source_ids": [

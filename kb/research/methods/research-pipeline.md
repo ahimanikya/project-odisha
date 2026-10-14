@@ -235,3 +235,157 @@ RES-052 checkpoint deferred to9October. Seek original current unit workforce ret
 ## Mining and community services · 2026-10-02
 
 RES-053 selected by the Founder. Receipts/sample/case checkpoint saved; full audit reading, current operation and community outcomes remain in progress. No contact or public website publication in this batch.
+
+## Forest community-history checkpoint · 4 October 2026
+
+Continue RES-058 with original forest-rights decisions and community-management instruments; reuse Niyamgiri/forest-product records before browsing.2001 case geography resolved by methodology and body, publisher summary discrepancy retained.2018 original download unavailable; retry11October for survey dates. Do not infer FRA titles from1994 JFM.
+
+## Forest management instruments · 4 October 2026
+
+Continue RES-058 with original 2015/2019 JFM amendments and one archival/community-history source; reuse the saved 2011 resolution and Niyamgiri judgment. No repeated study or new judgment identity. MoTA booklet and 2018 study originals retry 11 October; local signed agreements and current titles remain unknown.
+
+## Forest-management amendments · 4 October 2026
+
+Continue RES-058 with one archival/community-history source on forest institutions and livelihood change. Reuse the 2001 cases, 2011 resolution and recovered 2015/2019 amendment facsimiles; do not repeat those captures. Original local instruments, MoTA booklet and 2018 fieldwork dates remain on 11 October retries; do not mark the task complete while its required survey-date criterion remains unresolved.
+
+## Dhani community-history checkpoint · 4 October 2026
+
+Resume RES-058 on 11 October for the required 2018 fieldwork dates and original local-instrument gaps. Reuse the four historical cases, original 2011 text and 2015/2019 facsimiles. Community-history extension now saved; do not repeat discovery or mark complete. Meanwhile proceed to independent RES-059 using saved maritime/port/mineral evidence.
+
+## Odisha in the world · 4 October 2026
+
+RES-059 bounded synthesis completed. Continue RES-062 distinctive rice markets using existing Kalajeera and rice-economy evidence; retain country/product/port joins and Japan current-status evidence as dated follow-ups.
+
+## Rice markets · 4 October 2026
+
+Continue RES-030 garments and export disaggregation. Rice matched-lot and origin-attributed export gaps remain dated follow-ups for 2026-10-11.
+
+## Textile segments · 4 October 2026
+
+Continue RES-032 sand art and other material arts. Textile destination, HS, quantity and current-maker evidence remain dated follow-ups for2026-10-11.
+
+## Sand-art checkpoint · 4 October 2026
+
+Continue RES-032 with Tarakasi and palm-leaf engraving, then stone carving, dhokra and terracotta. Reuse this sand-art checkpoint; source recovery and award-body follow-ups are dated2026-10-11.
+
+## Tarakasi and palm-leaf checkpoint · 4 October 2026
+
+Continue RES-032 with stone carving, dhokra and terracotta, reusing current maker/place records. Tarakasi and palm-leaf craft/award checkpoint saved; original award retrieval, named works and partial identities remain dated follow-ups for 2026-10-11.
+
+## Stone, metal and clay · 4 October 2026
+
+Continue RES-032 with individually credited sculptures and clay/dhokra works, using original commissioning or holding-institution records. Six practice nuclei are saved; do not repeat process discovery. Inaccessible SIDAC2017 and original award citations retain 2026-10-11 retries.
+
+## Attributed craft works ·4October2026
+
+RES-032 checkpoint: three attributed work records saved; remaining commissioning/accession, maker-identity and craft-specific work gaps retry 2026-10-11. Continue next eligible independent task RES-013 district evidence coverage, reusing the research map and existing district records.
+
+## 4 October 2026 · RES-013 completed
+
+The bounded five-domain district matrix exists with input fingerprints, exact record pointers and explicit unknowns. No primary sources fetched; continue RES-014. See [matrix](../statistics/district-coverage.md).
+
+## 4 October 2026 · RES-014 in progress
+
+RES-014: recover district NFHS factsheet methods and newer accessible service evidence; DES 2024 PDF retry due 2026-10-11. Preserve historical baselines and current unknowns.
+
+## 4 October 2026 · RES-014 bounded expansion completed
+
+RES-015: GSDP and sector time series. RES-018 reuses this district survey capture; DES/SDG recovery retry 2026-10-11 and unresolved indicator denominators remain explicit.
+
+## 4 October 2026 · RES-015 checkpoint
+
+RES-016 investment implementation next; RES-015 original table-image review retry 2026-10-11. Do not repeat indexed extraction.
+
+## 4 October 2026 · RES-016 in progress
+
+Continue RES-016 with NALCO Damanjodi expansion: reuse saved annual report before browsing for project-level expenditure and stage changes; retain this IMFA case. KNR1/KNR2 commissioning and payment bridge remain follow-up gaps.
+
+## 4 October 2026 · RES-016 checkpoint and retry
+
+Retry RES-016 on2026-10-11 for project-specific construction cash expenditure, observed NALCO/IMFA commissioning and KNR2 payment reconciliation. Reuse captured annual reports first; current releases-page502 and aggregate accounting notes cannot fill those fields. Continue independently with RES-017 trade/logistics/production next run.
+
+
+## Sadhaba maritime-science study · 4 October 2026
+
+The user explicitly prioritised Sadhaba technology and science. RES-068 records the study and its continuation without changing the unfinished RES-017 trade-series criteria. After the source-recovery retry or independent manuscript work, resume the existing queue.
+
+
+## Fisheries history · 4 October2026
+
+Continue RES-017 with full annual merchandise export values and attribution, then physical manufacturing scope, reusing saved company/rice data. Fisheries historical11-observation series saved; original images/later2024–25 table and rounding reconciliation retry11October. Do not repeat July2026 weekly capture.
+
+## Export evidence · 4 October 2026
+
+Continue RES-017 with physical manufacturing comparison using saved mine/company/rice series; keep gross output, GSVA, capacity and exports distinct. Export checkpoint now has five-year sectors, principal products, country shares and origin methodology. DEPM image/2021–22 total, later-vintage bridge and seafood-country denominator retry11October; district/product-country joins remain unknown.
+
+## Manufacturing checkpoint · 4 October 2026
+
+Continue non-metal manufacturing coverage using official physical product series; reconcile RSP exact production returns and original CAG table on 11 October. Keep current plant jobs, supplier orders and profitability unknown.
+
+## Non-metal production · 4 October 2026
+
+Continue RES-017 with food-processing physical output and agricultural-series reuse; keep plant production, processing capacity, approvals and sales distinct. Recover longer Rajgangpur line series and plant-specific PPL output separately; retry PPL discrepancy after 11 October.
+
+## Food-processing checkpoint · 4 October 2026
+
+Continue RES-017 with a bounded search for named sugar or other food-factory physical output. Reuse rice historical series and fisheries register. Dairy annual product output and mill throughput remain unavailable; retry original OMFED accounts and survey facsimile after 11 October. Do not replace output with procurement, sales, turnover or capacity.
+
+## RES-070 checkpoint · 5 October 2026
+
+Textile comparator editions and local lead saved. Candidate remains in progress; local producer/specification gaps retry12October. Next independent task: original Tirupathi Laddu specification and temple governance comparison.
+
+## RES-070 temple-food checkpoint · 5 October 2026
+
+Original Laddu comparison saved; Puri authority/specification gaps remain, retry12October. Next independent batch: Nimapada chhena jhili chronology, without collapsing the unresolved rasabali name.
+
+## RES-070 Nimapada checkpoint · 5 October 2026
+
+Dated name-use chronology saved; origin and producer evidence still missing. Municipal source retry 12 October. Next independent desk batch: GI-C008 Korakhai in Bhubaneswar Old Town.
+
+## RES-070 Korakhai checkpoint · 5 October 2026
+
+Goods/reputation dossier saved; producer fields remain open, facsimile retry12October. Continue with the existing Manikapatna Curd application2117 dossier to avoid duplication.
+
+## RES-070 Manikapatna checkpoint · 5 October 2026
+
+Existing application reviewed; statutory notice and breed certificate distinguished. Recover original2013 Chilika-curd paper next. Producer and procedural gaps preserved; later Registry recheck12October.
+
+## RES-070 science checkpoint · 5 October 2026
+
+Original2013 and2024 studies saved with source limits and holds. Next bounded task: existing palm-leaf applications797/805, preserving GI-C010 identity and avoiding a duplicate.
+
+## RES-070 palm-leaf checkpoint · 5 October 2026
+
+Attempt9 compares historical scope and current examination; revised-file review remains open. Resume805 Part1 PDF7 before characterising its amended scope. Keep task in progress.
+
+## RES-070 Part1 continuation · 5 October 2026
+
+Attempt10 completes Part1 text review and saves three scope holds. Continue with supporting annexures in Parts2–3. Task remains in progress; no filing-ready claim.
+
+## Palm-leaf supporting annexures · 5 October 2026
+
+RES-070 attempt11 records supporting-file findings without closing the parent task. Next independent work: Puri-linked food dossiers; palm-leaf documentary follow-up12October.
+
+## Gaja/Kanti evidence · 5 October 2026
+
+RES-070 attempt12 saves the Gaja/Kanti identity checkpoint. Next: existing poda pitha/arisa leads using saved records. Original magazine recovery and participant-dependent definitions retry12October.
+
+## Poda/arisa scope · 5 October 2026
+
+RES-070 attempt13 saves poda/arisa place and variant evidence. Next independent task is the twelve-lead readiness matrix. Producer/custodian and unavailable-source follow-up remains12October.
+
+## GI readiness matrix · 5 October 2026
+
+RES-070 attempt14 completes a synthesis checkpoint, not the wider programme. Local source follow-up12October and participant evidence remain open; continue RES-070 with independent international original-specification depth. RES-067 still depends on unfinished RES-064.
+
+## Kalamata comparison · 5 October 2026
+
+RES-070 attempt15 saves the bounded Kalamata comparison. Remaining document and participant gaps return12October; continue independent RES-017 named food-factory physical output. No wider task completion or filing claimed.
+
+## Sugar-output checkpoint · 2026-10-06
+
+RES-017 attempt7 saves provisional sugar output and original company sale-period quantities. Next: Dhenkanal buyer and reporting-period reconciliation; OAS page-image and recovery checks retry11October.
+
+## Dhenkanal transaction checkpoint · 6 October 2026
+
+RES-017 attempt 8 resolves historical buyer and separates approval/agreement/completion. Continue independent rice-mill output research; successor-document and period holds return on 11 October.

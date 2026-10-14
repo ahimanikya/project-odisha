@@ -27,3 +27,7 @@ Banking geography is not household wealth, district GDP or project investment. R
 ## Mineral evidence · 1 October2026
 
 IBM’s2023–24 provisional chromite table uses Kendujhar and records21,331 tonnes; source spelling is retained. [Ore research](../ore-production.md) records scope; production is not a measure of local income or current lease status.
+
+## Evidence coverage · 4 October 2026
+
+[District evidence matrix](../district-coverage.md) connects this snapshot with health, education, livelihood, environment and visitor research. Unmapped evidence remains unknown; banking is not a measure of household income.

@@ -4,7 +4,7 @@ title: "From Koraput’s bauxite to Angul’s aluminium"
 description: "From Koraput’s bauxite to Angul’s aluminium — source-linked evidence and limitations."
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-01T23:35:36.358411+00:00"}
-sources: [{"id": "mining-nalco-ar2026", "title": "NALCO 45th Annual Report 2025–26", "resource": "https://nalcoindia.com/wp-content/uploads/2026/08/45th-Annual-Report-2025-26.pdf"}, {"id": "mining-nalco-refinery", "title": "NALCO Alumina Refinery: operations and transport", "resource": "https://nalcoindia.com/business/operation/alumina-refinery/"}, {"id": "mining-dbl-pottangi", "title": "Pottangi Bauxite Mine: developer project record", "resource": "https://dilipbuildcon.com/project/pottangi-bauxite-mine/"}, {"id": "mining-nalco-sd2025", "title": "NALCO 14th Sustainable Development Report 2024–25", "resource": "https://nalcoindia.com/wp-content/uploads/2026/03/NALCO-SD-Report-2025-Final.pdf"}]
+sources: [{"id": "mining-nalco-ar2026", "title": "NALCO 45th Annual Report 2025–26", "resource": "https://nalcoindia.com/wp-content/uploads/2026/08/45th-Annual-Report-2025-26.pdf"}, {"id": "mining-nalco-refinery", "title": "NALCO Alumina Refinery: operations and transport", "resource": "https://nalcoindia.com/business/operation/alumina-refinery/"}, {"id": "mining-dbl-pottangi", "title": "Pottangi Bauxite Mine: developer project record", "resource": "https://dilipbuildcon.com/project/pottangi-bauxite-mine/"}, {"id": "mining-nalco-sd2025", "title": "NALCO 14th Sustainable Development Report 2024–25", "resource": "https://nalcoindia.com/wp-content/uploads/2026/03/NALCO-SD-Report-2025-Final.pdf"}, {"id": "investment-nalco-ar2025", "title": "NALCO 44th Annual Report 2024–25", "resource": "https://nalcoindia.com/wp-content/uploads/2025/09/44th-Annual-Report-2024-25-NALCO.pdf"}]
 human_review_claimed: false
 subjects: ["economy", "places", "everyday", "governance"]
 ---
@@ -75,3 +75,11 @@ NALCO’s FY2024–25 injury-statistics table reports these working-day volumes:
 Employee rows include executives and non-executives. Do not divide by an assumed working year to invent a count of people. [Report, printed p.79](../sources/mining-nalco-sd2025.md).
 
 The existing **16,722** company-wide non-permanent-worker observation is reused. The annual report’s BRSR calls its table year-end details, while printed p.49 describes the same number as contractor workers engaged during March 2026. Neither passage supplies a plant split or unique-person method. Current unit payroll and local-resident shares remain missing.
+
+## Expansion implementation ·4 October 2026
+
+The [investment case](../journeys/investment.md) now follows the fifth refinery stream, South Block alternate conveyor and Pottangi mine separately. The FY 2025–26 report records June 2026 refinery trials; production stabilisation and the two supply projects retain target dates. No current commissioning or new local job count is inferred. The linked accounting evidence separates projected cost, a CWIP expense component and company capex; potential supplier demand still needs procurement-specific evidence.
+
+## Four-year product comparison · 4 October 2026
+
+The [manufacturing study](manufacturing-output-and-suppliers.md) reuses the existing ten hydrate/aluminium observations and adds matched annual and four-year calculations. No new production source or independent corroboration is claimed. Flat and declining years remain visible.

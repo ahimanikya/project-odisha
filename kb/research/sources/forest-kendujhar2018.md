@@ -15,3 +15,7 @@ Mishra, Sarba Narayan and Pradhan, Abhisek; Indian Journal of Agricultural Marke
 [Source](https://ideas.repec.org/a/ags/injagm/399613.html). Locator: Abstract; DOI10.22004/ag.econ.399613.
 
 [Forest products research](../economy/forest-products.md).
+
+## Original-file recovery attempt · 4 October 2026
+
+RePEc abstract and file link were read. The linked AgEcon PDF returned zero bytes and the web fetch failed; no full-text reading or survey dates are claimed. Retry11October via the institutional repository or original journal issue. Publication2018 remains separate from unknown fieldwork timing.

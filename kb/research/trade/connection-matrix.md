@@ -27,3 +27,8 @@ Source-bearing records: [Manikapatna](../history/manikapatna.md), [Khalkatapatna
 “Odisha’s maritime story connects places that matter to commerce today.” It cannot assign a numerical share of another country’s culture to Odisha or calculate growth from ancient trade without ancient quantity data.
 
 The [machine-readable graph](../references/data/maritime-links.jsonld) keeps each relationship attached to its evidence type, period, source and limitation. Missing observations are explicit research gaps.
+
+
+## Port-series checkpoint · 4 October2026
+
+[Modern port series](../stories/ports-diverging-cargo.md) add dated cargo movements; they do not demonstrate continuity of ancient routes or Odisha origin of all cargo.

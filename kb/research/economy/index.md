@@ -40,3 +40,5 @@ Economic growth and industry comparisons.
 [Siali products](siali-products.md) — botanical identity, leaves and community-attributed fibre craft.
 
 [Mining, land and people](mining-land-and-people.md) — four bounded studies and a reusable evidence model.
+
+[GI opportunity programme](gi-opportunity-programme.md) — candidate research, existing-application checks and producer-led dossier preparation; no new GI eligibility or origin claim.

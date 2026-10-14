@@ -26,3 +26,7 @@ resource: "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20
 ## Original PDF inspection · 11 October 2026
 
 The publisher PDF was successfully downloaded for the [goods-value story](../trade/merchandise-exports.md). Printed pp.18–19 / PDF pp.65–66 were visually inspected: section 1.7.2 gives merchandise endpoints in thousandcrore; Figure 1.15 is the broader total-export chart and Figure 1.16 is merchandise composition. The earlier retrieval failures above describe their original checkpoint, not current availability. The review record retains the downloaded file hash. No underlying destination-table reconciliation or independent assurance is claimed.
+
+## Scoped extension · 4 October 2026
+
+Indexed printed p19 section1.7.5 supplies the full ten-country list. Printed p114 Figure4.9 contains an unresolved quantity/value instruction: seafood shares held. Full-PDF access not retried; prior unavailable status retained. Same source identity and publication lineage.

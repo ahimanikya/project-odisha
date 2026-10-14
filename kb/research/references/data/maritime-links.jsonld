@@ -16,7 +16,7 @@
   "@id": "urn:odisha-kb:graph:maritime-v1",
   "@type": "schema:Dataset",
   "schema:name": "Odisha maritime connections — evidence-qualified graph",
-  "schema:dateModified": "2026-09-27T08:14:32+00:00",
+  "schema:dateModified": "2026-10-04T17:52:37.451849+00:00",
   "@graph": [
     {
       "@id": "urn:odisha-kb:entity:odisha",
@@ -1226,6 +1226,137 @@
       ],
       "conceptPath": "trade/paradip-throughput.md",
       "limitation": "Location supplies geographic context; it does not establish cultural origin or a trade route."
+    },
+    {
+      "@id": "https://www.currentscience.ac.in/Volumes/90/06/0864.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:name": "Monsoon wind and maritime trade: a case study of historical evidence from Orissa, India"
+    },
+    {
+      "@id": "https://www.aima-underwater.org.au/app/download/files/get/ajma42.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:name": "Watercraft Depicted in the Art of Odisha, East Coast of India"
+    },
+    {
+      "@id": "https://drs.nio.res.in/drs/bitstream/handle/2264/2389/J_Indian_Ocean_Stud_3_66.pdf?sequence=2",
+      "@type": "schema:CreativeWork",
+      "schema:name": "Traditional Boat-building and Navigational Techniques of Southern Orissa"
+    },
+    {
+      "@id": "https://drs.nio.res.in/drs/bitstream/handle/2264/2882/J_Mar_Archaeol_4_51.pdf?sequence=2",
+      "@type": "schema:CreativeWork",
+      "schema:name": "Traditional boat-building centres around Chilika Lake of Orissa"
+    },
+    {
+      "@id": "https://www.researchgate.net/publication/301522260_Traditional_boats_and_Navigation_in_Odisha",
+      "@type": "schema:CreativeWork",
+      "schema:name": "Traditional boats and Navigation in Odisha"
+    },
+    {
+      "@id": "https://www.tandfonline.com/toc/rsas20/13/1",
+      "@type": "schema:CreativeWork",
+      "schema:name": "The Patia Fishing Boat of Orissa: A Case Study in Ethnoarchaeology"
+    },
+    {
+      "@id": "https://oceanservice.noaa.gov/education/tutorial_tides/tides06_variations.html",
+      "@type": "schema:CreativeWork",
+      "schema:name": "Tidal Variations — The Influence of Position and Distance"
+    },
+    {
+      "@id": "https://science.nasa.gov/solar-system/what-is-the-north-star-and-how-do-you-find-it/",
+      "@type": "schema:CreativeWork",
+      "schema:name": "What is the North Star and How Do You Find It?"
+    },
+    {
+      "@id": "https://openstax.org/books/university-physics-volume-1/pages/14-4-archimedes-principle-and-buoyancy",
+      "@type": "schema:CreativeWork",
+      "schema:name": "University Physics Volume1, section14.4: Archimedes’ Principle and Buoyancy"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:ratnagiri-mast-scene",
+      "@type": "schema:Thing",
+      "schema:name": "Ratnagiri maritime-distress panel"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:mast-stays-steering",
+      "@type": "schema:Thing",
+      "schema:name": "Depicted mast, stays and steering oar"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:seasonal-voyage-model",
+      "@type": "schema:Thing",
+      "schema:name": "Published seasonal voyage reconstruction"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:later-odisha-boat-practice",
+      "@type": "schema:Thing",
+      "schema:name": "Later documented Odisha boatbuilding and navigation"
+    },
+    {
+      "@id": "urn:odisha-kb:claim:SAD-G01",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:ratnagiri-mast-scene"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:hasDocumentedInterpretation"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:mast-stays-steering"
+      },
+      "evidenceKind": "historical_interpretation",
+      "period": "Late eighth century attributed panel date;2018 analysis",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://www.aima-underwater.org.au/app/download/files/get/ajma42.pdf"
+        }
+      ],
+      "conceptPath": "history/sadhaba-maritime-science.md",
+      "limitation": "Iconographic interpretation; not excavated rigging or complete ship specification."
+    },
+    {
+      "@id": "urn:odisha-kb:claim:SAD-G02",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:kalinga"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:hasDocumentedInterpretation"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:seasonal-voyage-model"
+      },
+      "evidenceKind": "historical_interpretation",
+      "period": "Multiple historical periods reconstructed in2006",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://www.currentscience.ac.in/Volumes/90/06/0864.pdf"
+        }
+      ],
+      "conceptPath": "history/sadhaba-maritime-science.md",
+      "limitation": "Seasonal feasibility model, not universal calendar, itinerary or success rate."
+    },
+    {
+      "@id": "urn:odisha-kb:claim:SAD-G03",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:odisha"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:hasDocumentedInterpretation"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:later-odisha-boat-practice"
+      },
+      "evidenceKind": "historical_interpretation",
+      "period": "Reported1995; exact fieldwork date unknown",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://drs.nio.res.in/drs/bitstream/handle/2264/2389/J_Indian_Ocean_Stud_3_66.pdf?sequence=2"
+        }
+      ],
+      "conceptPath": "history/sadhaba-maritime-science.md",
+      "limitation": "Later field observations available as indexed text only; no automatic ancient Sadhaba attribution."
     }
   ]
 }

@@ -30,7 +30,7 @@
     "visitor-index": 11,
     "works": 52
   },
-  "maritime_claims": 36,
+  "maritime_claims": 39,
   "maritime_metrics": 15,
   "visitor_index": {
     "areas": 5,
@@ -77,7 +77,8 @@
       "local_update": true,
       "git_push": false,
       "website_deployed": false
-    }
+    },
+    "connection_scope": "Existing verified ahimanikya/utkal-project and published website; this weekly update is research-only and does not establish a new deployment."
   },
   "investment_tracker": {
     "observations": 4,
@@ -86,14 +87,14 @@
   },
   "statistical_atlas": {
     "observations": 960,
-    "topic_groups": 47,
+    "topic_groups": 48,
     "district_banking_snapshots": 30,
     "calculations": 47,
     "source_capture_records_added": 44,
     "publication_readiness": {
       "source_checked_editorial_review_pending": 788,
-      "needs_source_table_review": 94,
-      "hold_conflict": 78
+      "needs_source_table_review": 397,
+      "hold_conflict": 87
     },
     "human_review_claimed": false,
     "weekly_source_records_added": 5,
@@ -151,8 +152,8 @@
     "icon_system_implemented": false
   },
   "research_pipeline": {
-    "queue_tasks": 62,
-    "completed_tasks": 27,
+    "queue_tasks": 63,
+    "completed_tasks": 33,
     "publisher_discovery_pages_checked": 4,
     "monitoring_tracks_seeded": 17,
     "automation_status": "ACTIVE",
@@ -160,20 +161,20 @@
     "cadence": "Every six hours",
     "discovery_feed_records": 18,
     "monitoring_tracks_mapped": 17,
-    "last_run_id": "2026-10-03-mining-evidence-followup",
-    "last_run_status": "mining_evidence_followup_in_progress",
-    "in_progress_task": "RES-054",
-    "next_task": "RES-053",
+    "last_run_id": "2026-10-06-sugar-ownership",
+    "last_run_status": "in_progress_checkpoint",
+    "in_progress_task": "RES-017",
+    "next_task": "RES-017",
     "task_status_counts": {
-      "completed": 27,
-      "blocked": 9,
-      "in_progress": 7,
-      "pending": 19
+      "completed": 33,
+      "blocked": 10,
+      "in_progress": 13,
+      "pending": 9
     }
   },
   "people_and_creations": {
-    "people": 59,
-    "works": 52,
+    "people": 69,
+    "works": 56,
     "english_translations_documented": 13,
     "complete_biographies": 0,
     "garment_forms": 13,
@@ -495,5 +496,173 @@
     "sources": 11,
     "scope": "Selective examples; no active-partnership census.",
     "summary_count_note": "Source records count source concepts; unique URLs recalculated from concept citations (raw URLs), including earlier records."
+  },
+  "forest_history_checkpoint": {
+    "run_id": "2026-10-04-forest-history",
+    "dataset": "references/data/forest-livelihood-history.json",
+    "cases": 3,
+    "historical_events": 6,
+    "geography_conflict": "resolved_case_scope_publisher_discrepancy_retained",
+    "management_instrument": {
+      "run_id": "2026-10-04-forest-rights",
+      "source_id": "forest-jfm-resolution2011",
+      "provisions": 10,
+      "current_applicability_verified": false
+    },
+    "amendments": {
+      "run_id": "2026-10-04-forest-amendments",
+      "source_id": "forest-jfm-amendments-plan2021",
+      "instruments": 2,
+      "provisions": 5,
+      "current_applicability_verified": false
+    },
+    "dhani": {
+      "run_id": "2026-10-04-forest-dhani",
+      "source_id": "forest-dhani-community-history",
+      "cases": 1,
+      "historical_events": 5,
+      "task_status": "blocked",
+      "retry_after": "2026-10-11",
+      "current_operation_verified": false
+    }
+  },
+  "world_connections_checkpoint": {
+    "run_id": "2026-10-04-world-connections",
+    "cases": 2,
+    "new_atlas_observations": 1,
+    "new_primary_sources": 2,
+    "secondary_leads_quarantined": 1,
+    "task_status": "completed_bounded_deliverable"
+  },
+  "district_coverage": {
+    "districts": 30,
+    "domains": 5,
+    "scope": "KB evidence inventory, not statewide outcome totals or completeness",
+    "statuses": {
+      "health": {
+        "not_mapped_in_audit": 24,
+        "district_measure": 3,
+        "local_evidence": 3
+      },
+      "education": {
+        "not_mapped_in_audit": 20,
+        "district_measure": 3,
+        "local_evidence": 7
+      },
+      "livelihoods": {
+        "district_measure": 30
+      },
+      "environment": {
+        "local_evidence": 10,
+        "not_mapped_in_audit": 18,
+        "district_measure": 2
+      },
+      "visitor": {
+        "not_mapped_in_audit": 14,
+        "guide_context": 5,
+        "scheme_area": 11
+      }
+    },
+    "canonical_page": "statistics/district-coverage.md"
+  },
+  "trade_logistics_checkpoint": {
+    "run_id": "2026-10-04-trade-logistics",
+    "series": 3,
+    "annual_observations": 25,
+    "context_or_conflict_observations": 3,
+    "held_conflicts": 1,
+    "scope": "Two non-major ports and Paradip vessel time; not statewide export output."
+  },
+  "sadhaba_science": {
+    "claims": 12,
+    "unknowns": 11,
+    "source_records_added": 9,
+    "original_PDFs_recovered": 2,
+    "human_review": false,
+    "website_publication": false
+  },
+  "fisheries_series_checkpoint": {
+    "run_id": "2026-10-04-fisheries-series",
+    "series": 5,
+    "annual_observations": 55,
+    "alternate_totals": 2,
+    "comparisons": 10,
+    "scope": "Historical2013–14 through provisional2023–24; table-image review pending."
+  },
+  "export_series_checkpoint": {
+    "run_id": "2026-10-04-export-series",
+    "series": 13,
+    "annual_observations": 65,
+    "principal_product_observations": 20,
+    "destinations": 10,
+    "existing_country_records_reused": 3,
+    "scope": "Historical sector series and reported origin, not independently verified local value capture."
+  },
+  "manufacturing_checkpoint": {
+    "run_id": "2026-10-04-manufacturing-series",
+    "production_observations_reused": 15,
+    "new_observations": 22,
+    "new_calculations": 8,
+    "scope": "Selected companies and plant operating evidence; no statewide total."
+  },
+  "gi_inventory": {
+    "list_entries": 26,
+    "named_non_logo_entries": 25,
+    "separate_logo_entries": 1,
+    "distinct_application_ids": 28,
+    "goods_categories": {
+      "Agricultural": 4,
+      "Food Stuff": 5,
+      "Handicraft": 16,
+      "Manufactured": 1
+    },
+    "list_as_of": "2025-12-31",
+    "detail_checked_on": "2026-10-04",
+    "renewal_fields_unresolved": [
+      10,
+      22,
+      773
+    ]
+  },
+  "gi_opportunities": {
+    "candidate_leads": 12,
+    "dossier_briefs": 4,
+    "indian_comparators": 5,
+    "ready_to_file": 0,
+    "submitted_by_utkal": 0,
+    "scope": "Pilot, not exhaustive coverage",
+    "original_comparator_specifications": 4,
+    "specification_holds": 15,
+    "textile_journal_editions": 2,
+    "temple_food_comparisons": 1,
+    "name_use_chronologies": 1,
+    "korakhai_goods_dossiers": 1,
+    "existing_application_reviews": 1,
+    "curd_science_studies": 2,
+    "palm_leaf_applications_reviewed": 2,
+    "palm_leaf_amended_file_review_complete": false,
+    "palm_leaf_part1_text_review_complete": true,
+    "palm_leaf_supporting_annexures_reviewed": true,
+    "gaja_kanti_identity_dossier": true,
+    "poda_arisa_place_dossier": true,
+    "readiness_matrix": true,
+    "readiness_route_counts": {
+      "documentary_annexure": 3,
+      "identity_first": 6,
+      "custodian_scope": 1,
+      "existing_file_support": 2
+    },
+    "international_original_case_studies": 1,
+    "kalamata_current_operating_audit": false
+  },
+  "sugar_processing": {
+    "state_table_observations": 66,
+    "company_period_observations": 4,
+    "state_table_facsimile_verified": false,
+    "recovery_percentages_held": true,
+    "historical_buyer_verified": true,
+    "buyer_at_2022_transaction": "Indian Potash Limited",
+    "current_ownership_verified": false,
+    "successor_output_reconciled": false
   }
 }

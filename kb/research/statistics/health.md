@@ -58,3 +58,7 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 ## Science connections · 1 October 2026
 
 [Science and documented contributions](../people/science-and-contributions.md) connects rice seed systems and public-health research with named contributors and credited teams. A contribution record, a patient sample and statewide economic or health outcomes have different scopes.
+
+## Regional survey update · 4 October 2026
+
+[Koraput, Sambalpur and Bargarh](../statistics/western-southern-baselines.md) now include provisional NFHS-6 child nutrition, original NFHS-5 methods and separate overall survey samples. Lower stunting does not imply improvement in every nutrition measure; no programme causation is established.

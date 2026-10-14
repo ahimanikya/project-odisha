@@ -50,3 +50,5 @@ Subject membership is editorial classification. It does not establish historical
 [Susmita Mohanty](../people/susmita-mohanty.md) provides a reading route between space enterprise, policy authorship and historical Odisha public service. This relationship is editorial context, not a claim of measured economic impact.
 
 [Mining: minerals, industry and people](../economy/mining.md) — twelve angles, existing-data reuse and five bounded follow-ups (RES-051–055).
+
+[District evidence matrix](../statistics/district-coverage.md) connects statistics and service evidence while preserving gaps and measurement scope.

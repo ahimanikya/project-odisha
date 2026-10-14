@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T01:11:51.135341+00:00",
+  "updated_at": "2026-10-04T02:29:35.227643+00:00",
   "run_id": "2026-10-01-forest-products",
   "scope": "First checkpoint; not comprehensive market census or completed history",
   "product_groups": [
@@ -148,8 +148,18 @@
     {
       "id": "vasundhara2001-districts",
       "source_id": "forest-vasundhara2001",
-      "status": "unresolved",
-      "reason": "TitleSundergarh versus executive-summarySambalpur; no district statistic adopted."
+      "status": "resolved_scope",
+      "reason": "TitleSundergarh versus executive-summarySambalpur; no district statistic adopted.",
+      "review_history": [
+        {
+          "at": "2026-10-04T02:29:35.227643+00:00",
+          "prior_status": "unresolved",
+          "prior_reason": "TitleSundergarh versus executive-summarySambalpur; no district statistic adopted."
+        }
+      ],
+      "resolution": "Use body-attributed case geography: Bolangir/Harishankar–Nandupalla, Deogarh/Badatoila–Baghamunda and Sundergarh/Bindhapahad–Suruguda. Methodology, site headings and acknowledgements agree. Summary Sambalpur wording remains a publisher discrepancy, not a fourth studied district.",
+      "checked_on": "2026-10-04",
+      "publisher_text_corrected": false
     },
     {
       "id": "kendu-welfare-vintages2026",
@@ -511,6 +521,27 @@
       "scope": "Web cache-miss; an auction notice would not establish a completed sale.",
       "retrieved_on": "2026-10-02",
       "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "forest-vasundhara2001",
+      "url": "https://www.fao.org/4/ad352t/AD352T06.htm",
+      "status": "available",
+      "scope": "English chapter: methodology, Sites1–3, conclusions, acknowledgements and footnotes",
+      "capture_sha256": "764796ad653ce210ba2ec6b1bd03db14cf6bc56ddca83956faacc473ca99cf69",
+      "capture_method": "original_FAO_hosted_HTML_download"
+    },
+    {
+      "source_id": "forest-kendujhar2018",
+      "url": "https://ideas.repec.org/a/ags/injagm/399613.html",
+      "status": "available",
+      "scope": "Publisher-supplied abstract and original-file link; no fieldwork dates supplied."
+    },
+    {
+      "source_id": "forest-kendujhar2018",
+      "url": "https://ageconsearch.umn.edu/record/399613/files/IJAM%2032%20%283%29%20_%20Collection%20and%20marketing%20of%20Non-Timber-pages-120-121.pdf",
+      "status": "unavailable",
+      "reason": "Web fetch failed; direct request returned zero bytes despite successful process exit. No PDF content verified.",
+      "retry_after": "2026-10-11"
     }
   ],
   "human_review_claimed": false,
@@ -898,6 +929,11 @@
       "run_id": "2026-10-02-forest-trade-followup",
       "at": "2026-10-02T01:11:51.135341+00:00",
       "scope": "Historical Van Dhan comparison and five named cluster leads; exact OFDC allocation arithmetic. Product-level sales/payments remain unresolved."
+    },
+    {
+      "run_id": "2026-10-04-forest-history",
+      "at": "2026-10-04T02:29:35.227643+00:00",
+      "scope": "Existing2001 source deepened into three attributed cases and six historical milestones; case geography resolved, conflicting summary retained.2018 original remains unavailable; survey dates unknown."
     }
   ],
   "seasonal_accounts": [
@@ -1500,5 +1536,12 @@
       ],
       "caveat": "Source lists products collectively for three clusters; do not assign every product to every cluster."
     }
-  ]
+  ],
+  "history_checkpoint": {
+    "run_id": "2026-10-04-forest-history",
+    "dataset": "references/data/forest-livelihood-history.json",
+    "cases": 3,
+    "historical_events": 6,
+    "geography_conflict": "resolved_case_scope_publisher_discrepancy_retained"
+  }
 }

@@ -69,3 +69,8 @@ Subject membership is editorial classification. It does not establish historical
 ## Mahima Dharma and a credited reading route
 
 [Stuti Chintamani](../works/stuti-chintamani.md) now records named English editions and translators. [Mahima Dharma](../culture/mahima-dharma.md) connects them to Joranda, Khaliapali and attributed historical scholarship while reusing the existing Bhima Bhoi literary profile.
+
+
+## Sadhaba maritime-science study · 4 October 2026
+
+[Inside Sadhaba voyaging](../history/sadhaba-maritime-science.md): vessels, navigation, environmental knowledge and the limits of reconstruction.
