@@ -1,0 +1,87 @@
+{
+  "recorded_at": "2026-10-14T22:39:54.983951+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-078",
+  "work_id": "UTP-WORK-266",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/245",
+  "reviewed_head": "cba9c673c7bd574904ae4a04253d919a325a6930",
+  "merge_commit": "241ab1ee895604a3ae76858601106bee7cc3fb7a",
+  "merged_at": "2026-10-14T22:36:36Z",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "cba9c673c7bd574904ae4a04253d919a325a6930",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38648466973"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "241ab1ee895604a3ae76858601106bee7cc3fb7a",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38648820267",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-14T22:39:37.325612+00:00",
+    "page": "https://projectodisha.org/stories/boat-songs/",
+    "http_status": 200,
+    "page_sha256": "2eff304dcf5f4cb32855cde00e51c264b61fc9cbd5948a70cb7322dced8075f4",
+    "narrative_paragraphs_verified": 17,
+    "source_links_and_locators_verified": 4,
+    "collection_and_explore_verified": true,
+    "noindex": true,
+    "sitemap_entries": 11,
+    "external_search_selection_unchanged": true,
+    "browser": {
+      "discovery": "Live Explore query Nauria geeta returned exactly one Boat songs of Odisha entry.",
+      "navigation": "Activated result using Enter and verified published article title, introduction and listening panel.",
+      "screenshot": "/tmp/boat-songs-live.png"
+    }
+  },
+  "outputs": [
+    {
+      "path": "kb/research/culture/boat-songs.md",
+      "sha256": "3d763c83f27b90c2589ff17c4c03cb74d3060fc748a8f8ab507d382f5e1f9a39",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/culture/boat-songs-website.json",
+      "sha256": "8bf885f0903e14857701d1ac3bfb331123865489ac183ae15ef808a0d4e79057",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/sources/boat-songs-research.json",
+      "sha256": "6225ce6af33e46e0ab1a9ed48db4ad7dad23f5c26c564d984427f95cde339dd9",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/stories/boat-songs.astro",
+      "sha256": "c5643648c5944bbabc0b4db555096004086a6174983db514e1697f1fcc4dfcae",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha.astro",
+      "sha256": "2cd116db591edc94a5c8143d9e4b837e921fee2260826deb90e07ff61676e6db",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/product/sounds-discovery.json",
+      "sha256": "794d3fa3cef183aa4881ec0c9ffb18f3607ddf6bc66dbcd79bc4296db26fc24f",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/discovery-aliases.json",
+      "sha256": "6e9e084b73171110f6df58ac4a0e68ca1bc102f0998431d97f54e341332aa906",
+      "matches_fetched_merge": true
+    }
+  ],
+  "review": "records/boat-songs-review-2026-10-15.json",
+  "limitations": [
+    "Same-assistant desk review only; practitioner and local terminology review remain open.",
+    "PDF text was readable through web extraction; screenshot attempts failed. No visual PDF inspection or local capture claimed.",
+    "No field recording or ancient transmission established. Eight main chapters and eleven external-search routes retained."
+  ],
+  "attachment": "App attachment attempted; thread attachment identity count exceeds100. PR URL retained.",
+  "earlier_failed_validation": "https://github.com/ahimanikya/project-odisha/actions/runs/38648300045"
+}

@@ -7541,12 +7541,12 @@
       "id": "UTP-WORK-266",
       "title": "Research Odisha boat and fishing songs",
       "category": "culture_research",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Complete factual, rendering and publication checks for the resumed KB and website delivery.",
+      "next_action": "Published article and KB delivered. Practitioner review, permission-cleared recordings and local transmission histories remain future research; no outreach initiated.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225"
@@ -7555,7 +7555,9 @@
         "research/culture/sounds-of-odisha.md",
         "records/boat-songs-research-checkpoint-2026-10-13.json",
         "research/culture/boat-songs.md",
-        "research/sources/boat-songs-research.json"
+        "research/sources/boat-songs-research.json",
+        "records/boat-songs-review-2026-10-15.json",
+        "records/boat-songs-publication-2026-10-15.json"
       ],
       "acceptance_criteria": "Research a source-linked Sounds of Odisha article on boat and fishing songs after reusing existing maritime and sound records. Distinguish documented working contexts, literary boat songs and recorded performances; retain named locality, source date, authorship and uncertain origins. Save the reader article and claim/source dossier with specific follow-ups; no invented testimony, lyrics, audio reuse or current performance promise. Complete source review, repository checks and passing PR checks on the reviewed commit. Verify merged outputs and save a KB delivery receipt before counting. Website adaptation is a separate tested publication delivery. Founder requested completion on 15 October: website delivery included in this same item, counted once after live receipt."
     },
@@ -19692,6 +19694,22 @@
         "records/pending-content-publication-2026-10-15.json"
       ],
       "note": "PR244 merged after successful validation. Approved workflow deployed merge fb023f32; all 226 new pages HTTP200 with expected titles and noindex, sitemap remains eleven. All 39 pending heads included, zero remaining open requests."
+    },
+    {
+      "id": "UTP-REL-112",
+      "title": "Boat songs of Odisha article",
+      "status": "published",
+      "authorization": "UTP-DEC-225",
+      "destination": "https://projectodisha.org/stories/boat-songs/",
+      "refs": [
+        "UTP-WORK-266",
+        "UTP-REV-239",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/boat-songs-publication-2026-10-15.json"
+      ],
+      "note": "PR245 reviewed and merged after passing checks. Main-branch publication succeeded; complete article, source links, collection/Explore discovery and noindex verified live."
     }
   ],
   "sources": [
