@@ -15,3 +15,15 @@ test('pending research is readable through an explicit public selection with sou
   if(e.sources.length)assert.match(html,/Sources to follow/);
  }
 });
+
+test('reading-room search exposes accessible controls and safe result sharing without hiding fallback notes',()=>{
+ const hub=read('/reading-room/');
+ assert.match(hub,/id="reading-query"[^>]*name="q"[^>]*maxlength="200"/);
+ assert.match(hub,/id="reading-group"[^>]*name="collection"/);
+ assert.match(hub,/<button type="submit"[^>]*>Search<\/button>/);
+ assert.match(hub,/id="reading-count"[^>]*tabindex="-1"[^>]*role="status"/);
+ assert.match(hub,/Share these results/);assert.match(hub,/Your search words and selected filters are included/);
+ assert.match(hub,/<noscript>[\s\S]*All notes are listed above/);
+ assert.equal((hub.match(/data-reading-entry/g)||[]).length,manifest.entries.length);
+ assert.ok(!/<article[^>]*data-reading-entry[^>]* hidden/.test(hub));
+});

@@ -1,5 +1,6 @@
 ---
-const results=Astro.url.pathname==='/explore/';
+const reading=Astro.url.pathname==='/reading-room/';
+const results=Astro.url.pathname==='/explore/'||reading;
 const atlas=Astro.url.pathname==='/languages/atlas/';
 ---
 <div class="page-share" data-page-share><button class="utk-button utk-button--secondary" type="button" data-share-button hidden>{results?'Share these results':atlas?'Share this selection':'Share this page'}</button>{results&&<p>Your search words and selected filters are included in the link.</p>}{atlas&&<p>Your selected language, area, order and district search are included in the link.</p>}<p data-share-status role="status"></p><label data-share-fallback hidden>Page link<input readonly type="url" aria-label="Page link to copy"/></label></div>
@@ -13,13 +14,15 @@ if(root){const button=root.querySelector<HTMLButtonElement>('[data-share-button]
   const topics=[...document.querySelectorAll<HTMLElement>('[data-topic]')];
   const area=document.querySelector<HTMLSelectElement>('#region');
   const language=document.querySelector<HTMLSelectElement>('#atlas-language');
+  const readingGroup=document.querySelector<HTMLSelectElement>('#reading-group');
   const url=pageShareURL(location,{
-   q:document.querySelector<HTMLInputElement>('#search')?.value||'',
+   q:document.querySelector<HTMLInputElement>(readingGroup?'#reading-query':'#search')?.value||'',
+   collection:readingGroup?.value||'',
    topic:topics.find(link=>link.getAttribute('aria-current')==='true')?.dataset.topic||'All',
    region:area?.value||'All',sort:document.querySelector<HTMLSelectElement>(language?'#atlas-sort':'#sort')?.value||'collection',
    language:language?.value||'',residence:document.querySelector<HTMLSelectElement>('#atlas-residence')?.value||'total',
    district:document.querySelector<HTMLInputElement>('#atlas-query')?.value||''
-  },{topics:topics.map(link=>link.dataset.topic),regions:[...(area?.options||[])].map(option=>option.value),languages:[...(language?.options||[])].map(option=>option.value)});
+  },{collections:[...(readingGroup?.options||[])].map(option=>option.value),topics:topics.map(link=>link.dataset.topic),regions:[...(area?.options||[])].map(option=>option.value),languages:[...(language?.options||[])].map(option=>option.value)});
   await sharePage({url,title:document.title,button,status,fallback,input},navigator);
  });
 }

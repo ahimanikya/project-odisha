@@ -1,0 +1,24 @@
+{
+  "recorded_at": "2026-10-14T23:23:29.702206+00:00",
+  "reviewed_on": "2026-10-15",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "status": "pass_with_limitations",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-083",
+  "work_id": "UTP-WORK-272",
+  "verification": {
+    "scope": "Observed gap: reading-room controls ignored query parameters and lost selections on reload/share. Reused existing word search and safe sharing. Reviewed bounded queries, rendered collection allowlist, text-only rendering, history transitions and existing share paths. No research article or source claim changed.",
+    "tests": "Full build and532 tests; public build and121 tests;1532 page acceptance checks. Discovery audit passed; publication retains11 indexable routes. Initial new markup assertion missed Astro scope attributes; relaxed only that assertion and reran all121 coastal tests successfully.",
+    "visual": "1280px and390x844 previews inspected. Mobile document and viewport both390px. Ports + Statistics restores exactly one result. Search Enter focuses status; Show all restores169 notes and focuses input; Back restores filters and Forward restores all169. Reload restores filters. Share fallback displays URL with q=ports&collection=Statistics.",
+    "fallback": "Built HTML retains all169 cards and no-JavaScript notice; controller tests cover composition, invalid collection,200-character bound, empty results and history."
+  },
+  "limitations": [
+    "Same-assistant review, not independent or human review.",
+    "Native device sharing and physical screen-reader behavior not tested; browser fallback and keyboard behavior checked.",
+    "Existing specialist review and noindex restrictions on research notes remain unchanged."
+  ]
+}
