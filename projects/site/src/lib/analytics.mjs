@@ -2,7 +2,7 @@ export const ANALYTICS_CHOICE_KEY='utkal:analytics-choice:v1';
 export const ANALYTICS_CHOICES=new Set(['accepted','declined']);
 export function validMeasurementId(value){return typeof value==='string'&&/^G-[A-Z0-9]{6,20}$/.test(value);}
 export function analyticsPage({origin,pathname,canonical,title,allowedPaths}){
- if(origin!=='https://utkalproject.org'||!allowedPaths.includes(pathname)||pathname==='/404.html')return null;
+ if(origin!=='https://projectodisha.org'||!allowedPaths.includes(pathname)||pathname==='/404.html')return null;
  let url;try{url=new URL(canonical);}catch{return null;}
  if(url.origin!==origin||url.pathname!==pathname||url.search||url.hash)return null;
  return {page_location:url.href,page_title:title,page_referrer:'',ignore_referrer:true};

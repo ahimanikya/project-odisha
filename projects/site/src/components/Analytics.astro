@@ -36,7 +36,7 @@ if(configNode){
   if(choice==='accepted')control.accept();else control.decline();
   const clearAnalyticsCookies=()=>{
    for(const name of document.cookie.split(';').map(s=>s.trim().split('=')[0]).filter(n=>n==='_ga'||n.startsWith('_ga_'))){
-    for(const domain of ['', '; domain=utkalproject.org','; domain=.utkalproject.org'])document.cookie=name+'=; Max-Age=0; path=/'+domain+'; SameSite=Lax; Secure';
+    for(const domain of ['', '; domain=projectodisha.org','; domain=.projectodisha.org'])document.cookie=name+'=; Max-Age=0; path=/'+domain+'; SameSite=Lax; Secure';
    }
   };
   settings?.addEventListener('click',()=>{openedFromSettings=true;status.hidden=true;panel.hidden=false;panel.querySelector<HTMLButtonElement>('button')?.focus();});

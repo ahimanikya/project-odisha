@@ -3,7 +3,7 @@ from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit,unquote,urljoin
 import json,hashlib,xml.etree.ElementTree as ET
-site=Path(__file__).resolve().parents[1];origin='https://utkalproject.org'
+site=Path(__file__).resolve().parents[1];origin='https://projectodisha.org'
 selection=json.loads((site/'editions/search-candidate.json').read_text());selected=[p['route'] for p in selection['pages'] if p['decision']=='proposed']
 class Page(HTMLParser):
  def __init__(self):super().__init__();self.title='';self.in_head=False;self.intitle=False;self.meta={};self.canonical=[];self.links=[];self.ids=set();self.h1=0
@@ -34,11 +34,11 @@ for route in selected:
  require(d.h1==1,'one main heading');require(d.canonical==[origin+route],'canonical URL');require(d.value('og:url')==origin+route,'social URL');require(d.meta.get('robots')==['index, follow'],'indexable tag')
  require(len(d.meta.get('description',[]))==1 and 50<=len(d.value('description'))<=250,'unique descriptive summary');require(d.value('og:description')==d.value('description'),'matching social description');require(d.value('og:title') in [d.title,d.title.split(' | ')[0]],'matching social title')
  image=urlsplit(d.value('og:image'));image_path=site/'dist-coast'/unquote(image.path).lstrip('/')
- require(image.netloc=='utkalproject.org' and image_path.is_file(),'local sharing image');require(bool(d.value('og:image:alt')),'image description');require(all(d.value(k).isdigit() and int(d.value(k))>0 for k in ['og:image:width','og:image:height']),'image dimensions')
+ require(image.netloc=='projectodisha.org' and image_path.is_file(),'local sharing image');require(bool(d.value('og:image:alt')),'image description');require(all(d.value(k).isdigit() and int(d.value(k))>0 for k in ['og:image:width','og:image:height']),'image dimensions')
  linked=[]
  for href in d.links:
   u=urlsplit(urljoin(origin+route,href))
-  if u.netloc!='utkalproject.org':continue
+  if u.netloc!='projectodisha.org':continue
   target=unquote(u.path);f=site/'dist-coast'/path(target)
   require(f.is_file(),'missing local link '+href)
   if target in selected:linked.append(target)

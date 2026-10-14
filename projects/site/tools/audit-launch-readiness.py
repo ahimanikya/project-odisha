@@ -19,7 +19,7 @@ for page in selection['pages']:
  normal=(site/'dist-coast'/path).read_text()
  if 'content="noindex, nofollow"' not in normal:errors.append(route+' production boundary lost')
  routes.append({'route':route,'candidate':expected,'normal_publication':'noindex, nofollow'})
-ns={'s':'http://www.sitemaps.org/schemas/sitemap/0.9'};urls=[n.text for n in ET.parse(site/'.search-review/sitemap.xml').findall('s:url/s:loc',ns)];expected=['https://utkalproject.org'+p['route'] for p in selection['pages'] if p['decision']=='proposed'];assert urls==expected
+ns={'s':'http://www.sitemaps.org/schemas/sitemap/0.9'};urls=[n.text for n in ET.parse(site/'.search-review/sitemap.xml').findall('s:url/s:loc',ns)];expected=['https://projectodisha.org'+p['route'] for p in selection['pages'] if p['decision']=='proposed'];assert urls==expected
 r={'status':'pass' if not errors else 'fail','scope':'Generated local search candidate, not a deployed or crawler-verified release','pages':routes,'sitemap_count':len(urls),'errors':errors};(ep/'search-checks.json').write_text(json.dumps(r,indent=2)+'\n')
 # Check computed palette values separately from a browser rendering audit.
 tokens=json.loads(Path('projects/design-system/tokens.json').read_text())['colour']

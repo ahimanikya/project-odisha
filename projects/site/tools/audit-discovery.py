@@ -26,11 +26,11 @@ class Page(HTMLParser):
 scope=json.loads((SITE/'editions/coast.json').read_text());rows=[]
 for route in scope['routes']:
  doc=Page();doc.feed((SITE/'dist-coast'/(route.lstrip('/')+'index.html' if route.endswith('/') else route.lstrip('/'))).read_text());m=doc.meta;share=urlsplit(m.get('og:image',''));errors=[]
- if doc.canonical!=['https://utkalproject.org'+route]:errors.append('canonical')
+ if doc.canonical!=['https://projectodisha.org'+route]:errors.append('canonical')
  if not 50<=len(m.get('description',''))<=250:errors.append('description')
  if m.get('og:description')!=m.get('description'):errors.append('social_description')
  if not doc.title or m.get('og:title') not in [doc.title,doc.title.split(' | ')[0]]:errors.append('title')
- if share.netloc!='utkalproject.org' or not (SITE/'dist-coast'/unquote(share.path).lstrip('/')).is_file():errors.append('missing_social_image')
+ if share.netloc!='projectodisha.org' or not (SITE/'dist-coast'/unquote(share.path).lstrip('/')).is_file():errors.append('missing_social_image')
  if not m.get('og:image:alt') or not all(m.get(k,'').isdigit() for k in ['og:image:width','og:image:height']):errors.append('image_description_or_dimensions')
  if 'noindex' not in m.get('robots',''):errors.append('preview_boundary')
  rows.append(dict(route=route,title=doc.title,description=m.get('description'),social_image=m.get('og:image'),social_alt=m.get('og:image:alt'),image_on_page=share.path in doc.images,errors=errors))
@@ -43,7 +43,7 @@ selected={p['route'] for p in selection['pages'] if p['decision']=='proposed'}
 if {p['route'] for p in selection['pages']}!=set(scope['routes']):raise SystemExit('Search selection must cover the edition')
 root=ET.Element('urlset',xmlns='http://www.sitemaps.org/schemas/sitemap/0.9');excluded=[r for r in scope['routes'] if r not in selected]
 for row in rows:
- if row['route'] not in excluded:ET.SubElement(ET.SubElement(root,'url'),'loc').text='https://utkalproject.org'+row['route']
+ if row['route'] not in excluded:ET.SubElement(ET.SubElement(root,'url'),'loc').text='https://projectodisha.org'+row['route']
 ET.ElementTree(root).write(args.output/'sitemap-proposal.xml',encoding='utf-8',xml_declaration=True)
 report=dict(status='pass' if not any(row['errors'] for row in rows) else 'fail',scope='Build checks only; no search-engine or social-network crawler verification.',indexing='disabled',sitemap='proposal_only_not_served',excluded_routes=excluded,proposed_routes=len(root),distinct_social_images=len({r['social_image'] for r in rows}),pages=rows)
 (args.output/'discovery-review.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')

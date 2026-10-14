@@ -54,7 +54,7 @@ test('illustrated page has linked guides, unique accessible controls, photograph
 });
 test('local prompts preserve the chosen guide and do not assert sightings or operator safety',()=>{
  for(const kind of ['boating','birding','access','food']){
-  assert.ok(page.includes('local='+kind));const url=new URL(localContributionURL(kind,'/visit/places/satapada/'),'https://utkalproject.org');
+  assert.ok(page.includes('local='+kind));const url=new URL(localContributionURL(kind,'/visit/places/satapada/'),'https://projectodisha.org');
   assert.equal(url.searchParams.get('page'),'/visit/places/satapada/');assert.equal(url.hash,'#correction-draft');
  }
  assert.ok(localContributionPrompts.birding.questions.join(' ').includes('Leave out nest coordinates'));
