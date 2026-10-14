@@ -1,0 +1,1239 @@
+{
+  "run_id": "2026-10-04T160437Z",
+  "automation_id": "utkala-weekly-data-editor",
+  "trigger_at": "2026-10-04T16:04:37.835Z",
+  "checked_at": "2026-10-04T16:16:56.927432+00:00",
+  "status": "completed_with_partial_source_availability",
+  "coverage": "All17 watch tracks attempted; bounded release discovery, not exhaustive verification. Unchanged refers only to stated source scope.",
+  "tracks": [
+    {
+      "id": "tourism",
+      "status": "conflicted",
+      "note": "Known foreign-visits scope conflict retained. Publisher catalogue still lists bulletin2024 and annual2025–26; bulletin download failed."
+    },
+    {
+      "id": "gsdp",
+      "status": "unavailable",
+      "note": "Catalogue remains FY2025–26; full survey and summary downloads failed. No whole-series revalidation."
+    },
+    {
+      "id": "sector-growth",
+      "status": "unavailable",
+      "note": "Underlying survey/table retrieval failed; existing estimates retained."
+    },
+    {
+      "id": "exports",
+      "status": "unchanged",
+      "note": "Saved July9 fisheries release recovered; same FY2025–26 seafood values. Survey-wide export refresh unavailable."
+    },
+    {
+      "id": "port-cargo",
+      "status": "unavailable",
+      "note": "Direct authority pages timed out. Daily-report discovery is not a comparable annual revision; annual figure not freshly revalidated."
+    },
+    {
+      "id": "investment",
+      "status": "unavailable",
+      "note": "InvestOdisha fetch failed. Recent research captures are project-scoped; undated web counters cannot replace implementation or spending series."
+    },
+    {
+      "id": "smart-cities",
+      "status": "unchanged",
+      "note": "Saved parliamentary answers recovered; March1 dated snapshot retained. No newer outcome established by bounded discovery."
+    },
+    {
+      "id": "rare-earths",
+      "status": "unchanged",
+      "note": "IREL catalogue latest2024–25 and saved roadmap/plant pages recovered. Installed capacity and proposals remain separate from output."
+    },
+    {
+      "id": "semiconductors",
+      "status": "unchanged",
+      "note": "Saved approval, groundbreaking and September proposal releases recovered; no operating output newly established."
+    },
+    {
+      "id": "banking-and-enterprise-finance",
+      "status": "conflicted",
+      "note": "SLBC latest184th agenda recovered; September entry form is not a quarterly release. Existing banking conflicts retained."
+    },
+    {
+      "id": "public-finances",
+      "status": "unavailable",
+      "note": "CAG catalogue latest August2026; monthly PDF timed out. FY2024–25 digital chapter recovered, not a new monthly vintage."
+    },
+    {
+      "id": "people-and-learning",
+      "status": "changed",
+      "note": "UDISE2025–26 Table6.13 newly captured; released July7, not this week. NFHS catalogue has no newer identified release; full NFHS/PLFS PDF fetches incomplete."
+    },
+    {
+      "id": "land-and-livelihoods",
+      "status": "unchanged",
+      "note": "Saved fisheries and ISFR2023 PIB values recovered; FSI direct TLS failure. No fresh agricultural series or forest inventory established."
+    },
+    {
+      "id": "services-and-environment",
+      "status": "unavailable",
+      "note": "JJM answer and historical OSDMA page recovered; PM10 and urban report unavailable. No current service refresh claimed."
+    },
+    {
+      "id": "mobility-and-digital-access",
+      "status": "changed",
+      "note": "AAI August2026 report recovered: five airports, monthly and five-month comparatives. TRAI catalogue Jan–Mar2026 unchanged; PDF downloads incomplete."
+    },
+    {
+      "id": "innovation-and-startups",
+      "status": "unchanged",
+      "note": "IPIndia2024–25 annual report downloaded (edition check only), saved startup reply3589 recovered. Direct annual-list TLS failure; no new Odisha series established."
+    },
+    {
+      "id": "visitor-economy-and-crafts",
+      "status": "conflicted",
+      "note": "Tourism scope and rooms/beds conflicts retained. Homestay portal is a JS shell; active availability unknown. Historic handloom, NIDHI and hockey records recovered, not current outcomes."
+    }
+  ],
+  "source_checks": [
+    {
+      "url": "https://dot.odisha.gov.in/en/publications/tourism-download",
+      "tracks": [
+        "tourism",
+        "visitor-economy-and-crafts"
+      ],
+      "http_status": "000",
+      "content_type": "",
+      "effective_url": "https://dot.odisha.gov.in/en/publications/tourism-download",
+      "transport_exit": 28,
+      "error": "curl: (28) Connection timed out after 25002 milliseconds\n",
+      "path": "work/weekly-2026-10-04/source-00.bin",
+      "checked_at": "2026-10-04T16:06:34.774773+00:00",
+      "status": "unavailable",
+      "scope": "Transport failure, incomplete transfer, HTTP error or JS-only shell; no unchanged metric claim."
+    },
+    {
+      "url": "https://dot.odisha.gov.in/sites/default/files/2026-02/Statistical%20Bulletin%202024_0.pdf",
+      "tracks": [
+        "tourism",
+        "visitor-economy-and-crafts"
+      ],
+      "http_status": "000",
+      "content_type": "",
+      "effective_url": "https://dot.odisha.gov.in/sites/default/files/2026-02/Statistical%20Bulletin%202024_0.pdf",
+      "transport_exit": 28,
+      "error": "curl: (28) Connection timed out after 25003 milliseconds\n",
+      "path": "work/weekly-2026-10-04/source-01.bin",
+      "checked_at": "2026-10-04T16:06:34.772141+00:00",
+      "status": "unavailable",
+      "scope": "Transport failure, incomplete transfer, HTTP error or JS-only shell; no unchanged metric claim.",
+      "known_conflict_retained": true
+    },
+    {
+      "url": "https://pc.odisha.gov.in/en/publication/economic-survey-report?field_financial_year_target_id=All&page=0",
+      "tracks": [
+        "gsdp",
+        "sector-growth",
+        "exports",
+        "investment",
+        "land-and-livelihoods"
+      ],
+      "http_status": "000",
+      "content_type": "",
+      "effective_url": "https://pc.odisha.gov.in/en/publication/economic-survey-report?field_financial_year_target_id=All&page=0",
+      "transport_exit": 28,
+      "error": "curl: (28) Connection timed out after 25004 milliseconds\n",
+      "path": "work/weekly-2026-10-04/source-02.bin",
+      "checked_at": "2026-10-04T16:06:34.774721+00:00",
+      "status": "unavailable",
+      "scope": "Transport failure, incomplete transfer, HTTP error or JS-only shell; no unchanged metric claim."
+    },
+    {
+      "url": "https://des.odisha.gov.in/en/pages/data-tables",
+      "tracks": [
+        "gsdp",
+        "sector-growth",
+        "visitor-economy-and-crafts"
+      ],
+      "http_status": "000",
+      "content_type": "",
+      "effective_url": "https://des.odisha.gov.in/en/pages/data-tables",
+      "transport_exit": 28,
+      "error": "curl: (28) Connection timed out after 25005 milliseconds\n",
+      "path": "work/weekly-2026-10-04/source-03.bin",
+      "checked_at": "2026-10-04T16:06:34.774813+00:00",
+      "status": "unavailable",
+      "scope": "Transport failure, incomplete transfer, HTTP error or JS-only shell; no unchanged metric claim."
+    },
+    {
+      "url": "https://pc.odisha.gov.in/sites/default/files/2026-02/ES-Highlights%20and%20Executive%20Summary%202026%20Web%20Upload.pdf",
+      "tracks": [
+        "gsdp",
+        "exports",
+        "investment",
+        "land-and-livelihoods"
+      ],
+      "http_status": "000",
+      "content_type": "",
+      "effective_url": "https://pc.odisha.gov.in/sites/default/files/2026-02/ES-Highlights%20and%20Executive%20Summary%202026%20Web%20Upload.pdf",
+      "transport_exit": 28,
+      "error": "curl: (28) Connection timed out after 25005 milliseconds\n",
+      "path": "work/weekly-2026-10-04/source-04.bin",
+      "checked_at": "2026-10-04T16:06:34.774350+00:00",
+      "status": "unavailable",
+      "scope": "Transport failure, incomplete transfer, HTTP error or JS-only shell; no unchanged metric claim."
+    },
+    {
+      "url": "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf",
+      "tracks": [
+        "gsdp",
+        "sector-growth",
+        "exports",
+        "investment"
+      ],
+      "http_status": "000",
+      "content_type": "",
+      "effective_url": "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf",
+      "transport_exit": 28,
+      "error": "curl: (28) Connection timed out after 25001 milliseconds\n",
+      "path": "work/weekly-2026-10-04/source-05.bin",
+      "checked_at": "2026-10-04T16:06:34.769929+00:00",
+      "status": "unavailable",
+      "scope": "Transport failure, incomplete transfer, HTTP error or JS-only shell; no unchanged metric claim."
+    },
+    {
+      "url": "https://www.pib.gov.in/allRel.aspx?reg=48&lang=2",
+      "tracks": [
+        "exports",
+        "investment",
+        "smart-cities",
+        "rare-earths",
+        "semiconductors",
+        "people-and-learning",
+        "land-and-livelihoods",
+        "services-and-environment",
+        "mobility-and-digital-access",
+        "innovation-and-startups"
+      ],
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "effective_url": "https://www.pib.gov.in/allRel.aspx?reg=48&lang=2",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-06.bin",
+      "checked_at": "2026-10-04T16:06:36.758333+00:00",
+      "bytes": 203738,
+      "sha256": "d88b876e1d04e778f24df2fea7663db87d250e77cec4e6667620a1c507e854c0",
+      "status": "unchanged",
+      "scope": "Saved baseline or release-catalogue content recovered; no new comparable observation promoted from this URL. This is not whole-publication revalidation."
+    },
+    {
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2282817&lang=2&reg=48",
+      "tracks": [
+        "exports",
+        "land-and-livelihoods"
+      ],
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "effective_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2282817&lang=2&reg=48",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-07.bin",
+      "checked_at": "2026-10-04T16:06:37.332284+00:00",
+      "bytes": 173436,
+      "sha256": "884b47832721813d22e6c9c83387380b4a576b1802bfa933fc80f1564243453f",
+      "status": "unchanged",
+      "scope": "Saved baseline or release-catalogue content recovered; no new comparable observation promoted from this URL. This is not whole-publication revalidation."
+    },
+    {
+      "url": "https://paradipport.gov.in/traffic/",
+      "tracks": [
+        "port-cargo"
+      ],
+      "http_status": "000",
+      "content_type": "",
+      "effective_url": "https://paradipport.gov.in/traffic/",
+      "transport_exit": 28,
+      "error": "curl: (28) Connection timed out after 25005 milliseconds\n",
+      "path": "work/weekly-2026-10-04/source-08.bin",
+      "checked_at": "2026-10-04T16:06:59.796717+00:00",
+      "status": "unavailable",
+      "scope": "Transport failure, incomplete transfer, HTTP error or JS-only shell; no unchanged metric claim."
+    },
+    {
+      "url": "https://paradipport.gov.in/all_news/paradip-port-registers-historic-high-cargo-handling-in-fy-25-26-best-ever-in-its-history/",
+      "tracks": [
+        "port-cargo"
+      ],
+      "http_status": "000",
+      "content_type": "",
+      "effective_url": "https://paradipport.gov.in/all_news/paradip-port-registers-historic-high-cargo-handling-in-fy-25-26-best-ever-in-its-history/",
+      "transport_exit": 28,
+      "error": "curl: (28) Connection timed out after 25003 milliseconds\n",
+      "path": "work/weekly-2026-10-04/source-09.bin",
+      "checked_at": "2026-10-04T16:06:59.797241+00:00",
+      "status": "unavailable",
+      "scope": "Transport failure, incomplete transfer, HTTP error or JS-only shell; no unchanged metric claim."
+    },
+    {
+      "url": "https://paradipport.gov.in/all_news/major-ports-record-915-million-tonnes-cargo-in-fy-2025-26-surpass-target-with-7-06-growth/",
+      "tracks": [
+        "port-cargo"
+      ],
+      "http_status": "000",
+      "content_type": "",
+      "effective_url": "https://paradipport.gov.in/all_news/major-ports-record-915-million-tonnes-cargo-in-fy-2025-26-surpass-target-with-7-06-growth/",
+      "transport_exit": 28,
+      "error": "curl: (28) Connection timed out after 25001 milliseconds\n",
+      "path": "work/weekly-2026-10-04/source-10.bin",
+      "checked_at": "2026-10-04T16:06:59.793108+00:00",
+      "status": "unavailable",
+      "scope": "Transport failure, incomplete transfer, HTTP error or JS-only shell; no unchanged metric claim."
+    },
+    {
+      "url": "https://www.investodisha.gov.in/",
+      "tracks": [
+        "investment"
+      ],
+      "http_status": "000",
+      "content_type": "",
+      "effective_url": "https://www.investodisha.gov.in/",
+      "transport_exit": 35,
+      "error": "curl: (35) Recv failure: Connection reset by peer\n",
+      "path": "work/weekly-2026-10-04/source-11.bin",
+      "checked_at": "2026-10-04T16:06:35.911129+00:00",
+      "status": "unavailable",
+      "scope": "Transport failure, incomplete transfer, HTTP error or JS-only shell; no unchanged metric claim."
+    },
+    {
+      "url": "https://urban.odisha.gov.in/en/publication/activity-report",
+      "tracks": [
+        "smart-cities",
+        "services-and-environment"
+      ],
+      "http_status": "000",
+      "content_type": "",
+      "effective_url": "https://urban.odisha.gov.in/en/publication/activity-report",
+      "transport_exit": 28,
+      "error": "curl: (28) Connection timed out after 25002 milliseconds\n",
+      "path": "work/weekly-2026-10-04/source-12.bin",
+      "checked_at": "2026-10-04T16:07:00.932249+00:00",
+      "status": "unavailable",
+      "scope": "Transport failure, incomplete transfer, HTTP error or JS-only shell; no unchanged metric claim."
+    },
+    {
+      "url": "https://sansad.in/getFile/annex/270/AU1034_ThApTH.pdf?source=pqars",
+      "tracks": [
+        "smart-cities"
+      ],
+      "http_status": "200",
+      "content_type": "application/pdf",
+      "effective_url": "https://sansad.in/getFile/annex/270/AU1034_ThApTH.pdf?source=pqars",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-13.bin",
+      "checked_at": "2026-10-04T16:06:41.048172+00:00",
+      "bytes": 405921,
+      "sha256": "3dc5334361f734a2bee1b7a0689f2a12af04c88bbbab1ac39c66d7e9ca12c63d",
+      "status": "unchanged",
+      "scope": "Dated Smart Cities parliamentary snapshots retained; no newer snapshot established."
+    },
+    {
+      "url": "https://sansad.in/getFile/annex/267/AU700_2lthyS.pdf?source=pqars",
+      "tracks": [
+        "smart-cities"
+      ],
+      "http_status": "200",
+      "content_type": "application/pdf",
+      "effective_url": "https://sansad.in/getFile/annex/267/AU700_2lthyS.pdf?source=pqars",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-14.bin",
+      "checked_at": "2026-10-04T16:06:41.054141+00:00",
+      "bytes": 181492,
+      "sha256": "643982931c0f3135b789b34bb62cec6498f7e5ae699e93ae730e5878c1fb3c4c",
+      "status": "unchanged",
+      "scope": "Dated Smart Cities parliamentary snapshots retained; no newer snapshot established."
+    },
+    {
+      "url": "https://www.sansad.in/getFile/annex/270/AU2600_vR0ZFk.pdf?source=pqars",
+      "tracks": [
+        "smart-cities"
+      ],
+      "http_status": "200",
+      "content_type": "application/pdf",
+      "effective_url": "https://www.sansad.in/getFile/annex/270/AU2600_vR0ZFk.pdf?source=pqars",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-15.bin",
+      "checked_at": "2026-10-04T16:06:43.293586+00:00",
+      "bytes": 281075,
+      "sha256": "fdd058506097039e7b5a3053e4fd171b429b47ad0d34c59115e606a72159c0c9",
+      "status": "unchanged",
+      "scope": "Dated Smart Cities parliamentary snapshots retained; no newer snapshot established."
+    },
+    {
+      "url": "https://www.irel.co.in/annual-reports",
+      "tracks": [
+        "rare-earths"
+      ],
+      "http_status": "200",
+      "content_type": "text/html;charset=UTF-8",
+      "effective_url": "https://www.irel.co.in/annual-reports",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-16.bin",
+      "checked_at": "2026-10-04T16:06:42.934499+00:00",
+      "bytes": 132104,
+      "sha256": "d84b674c28d1e5eef9539e30fe78f18c35fd39b42dfcdcc44fd966e4e068057c",
+      "status": "unchanged",
+      "scope": "Saved baseline or release-catalogue content recovered; no new comparable observation promoted from this URL. This is not whole-publication revalidation."
+    },
+    {
+      "url": "https://www.irel.co.in/en-GB/oscom-rare-earth-extraction-plant",
+      "tracks": [
+        "rare-earths"
+      ],
+      "http_status": "200",
+      "content_type": "text/html;charset=UTF-8",
+      "effective_url": "https://www.irel.co.in/en-GB/oscom-rare-earth-extraction-plant",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-17.bin",
+      "checked_at": "2026-10-04T16:06:44.641973+00:00",
+      "bytes": 127632,
+      "sha256": "a56be330c3e116986f26b18c742a85b94baee8a9d1f9f981634b9337dd25b83c",
+      "status": "unchanged",
+      "scope": "Saved baseline or release-catalogue content recovered; no new comparable observation promoted from this URL. This is not whole-publication revalidation."
+    },
+    {
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2247969&lang=2&reg=3",
+      "tracks": [
+        "rare-earths"
+      ],
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "effective_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2247969&lang=2&reg=3",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-18.bin",
+      "checked_at": "2026-10-04T16:06:43.935482+00:00",
+      "bytes": 80145,
+      "sha256": "4e74c4258bb063c9ce4a27e82a8bae414492136c13aad6f20a3b74032f2dc213",
+      "status": "unchanged",
+      "scope": "Saved baseline or release-catalogue content recovered; no new comparable observation promoted from this URL. This is not whole-publication revalidation."
+    },
+    {
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2297681&lang=2&reg=3",
+      "tracks": [
+        "rare-earths"
+      ],
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "effective_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2297681&lang=2&reg=3",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-19.bin",
+      "checked_at": "2026-10-04T16:06:45.090543+00:00",
+      "bytes": 143111,
+      "sha256": "2dfdc2f283e3ada1fe9f666ef1d9c767295a582bf9c6afffc2956ecd93736201",
+      "status": "unchanged",
+      "scope": "Saved baseline or release-catalogue content recovered; no new comparable observation promoted from this URL. This is not whole-publication revalidation."
+    },
+    {
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2155459&lang=2&reg=3",
+      "tracks": [
+        "semiconductors"
+      ],
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "effective_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2155459&lang=2&reg=3",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-20.bin",
+      "checked_at": "2026-10-04T16:06:46.286269+00:00",
+      "bytes": 103563,
+      "sha256": "7016d8a1dfa18a5074f9c52eaaa4bdbaf48456cc140164ce7d7e438fcae238d0",
+      "status": "unchanged",
+      "scope": "Saved baseline or release-catalogue content recovered; no new comparable observation promoted from this URL. This is not whole-publication revalidation."
+    },
+    {
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253549&lang=2&reg=3",
+      "tracks": [
+        "semiconductors"
+      ],
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "effective_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253549&lang=2&reg=3",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-21.bin",
+      "checked_at": "2026-10-04T16:06:45.932608+00:00",
+      "bytes": 122734,
+      "sha256": "a5ee427aa4da2ef47943fb5f068f87c5a43db5db2e9c72d14ccd6943c8be72f2",
+      "status": "unchanged",
+      "scope": "Saved baseline or release-catalogue content recovered; no new comparable observation promoted from this URL. This is not whole-publication revalidation."
+    },
+    {
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2310397&lang=2&reg=48",
+      "tracks": [
+        "semiconductors"
+      ],
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "effective_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2310397&lang=2&reg=48",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-22.bin",
+      "checked_at": "2026-10-04T16:06:46.813465+00:00",
+      "bytes": 77179,
+      "sha256": "a74cfb7ae84d31b68ac32738d58bc150860161d2bbfcddb6f81feda42ce0d2e0",
+      "status": "unchanged",
+      "scope": "Saved baseline or release-catalogue content recovered; no new comparable observation promoted from this URL. This is not whole-publication revalidation."
+    },
+    {
+      "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2312298&lang=1&reg=3",
+      "tracks": [
+        "semiconductors"
+      ],
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "effective_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2312298&lang=1&reg=3",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-23.bin",
+      "checked_at": "2026-10-04T16:06:48.600959+00:00",
+      "bytes": 217468,
+      "sha256": "8800f30418ec35c87944998033da4d84b571f2b779edc1ab9ad79107f1bc4239",
+      "status": "unchanged",
+      "scope": "Saved baseline or release-catalogue content recovered; no new comparable observation promoted from this URL. This is not whole-publication revalidation."
+    },
+    {
+      "url": "https://slbcorissa.com/",
+      "tracks": [
+        "banking-and-enterprise-finance"
+      ],
+      "http_status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "effective_url": "https://slbcorissa.com/",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-24.bin",
+      "checked_at": "2026-10-04T16:06:48.208910+00:00",
+      "bytes": 44406,
+      "sha256": "edd98389daf95ca62905479763e64ac23dcdc34f63d69a48aec19c83311a7065",
+      "status": "unchanged",
+      "scope": "Saved baseline or release-catalogue content recovered; no new comparable observation promoted from this URL. This is not whole-publication revalidation."
+    },
+    {
+      "url": "https://slbcorissa.com/wp-content/uploads/2026/09/Total-Agenda-184th-SLBC-Meeting.compressed.pdf",
+      "tracks": [
+        "banking-and-enterprise-finance"
+      ],
+      "http_status": "200",
+      "content_type": "application/pdf",
+      "effective_url": "https://slbcorissa.com/wp-content/uploads/2026/09/Total-Agenda-184th-SLBC-Meeting.compressed.pdf",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-25.bin",
+      "checked_at": "2026-10-04T16:06:48.721469+00:00",
+      "bytes": 4097803,
+      "sha256": "4428924e1588f0ef3b1ca0ed3be32ba23cb68a940f8c9761cd921438c266e619",
+      "status": "unchanged",
+      "scope": "Saved baseline or release-catalogue content recovered; no new comparable observation promoted from this URL. This is not whole-publication revalidation.",
+      "known_conflict_retained": true
+    },
+    {
+      "url": "https://cag.gov.in/ae/odisha/en/state-accounts-report?defuat_account_report_type=360",
+      "tracks": [
+        "public-finances"
+      ],
+      "http_status": "000",
+      "content_type": "",
+      "effective_url": "https://cag.gov.in/ae/odisha/en/state-accounts-report?defuat_account_report_type=360",
+      "transport_exit": 28,
+      "error": "curl: (28) Connection timed out after 25006 milliseconds\n",
+      "path": "work/weekly-2026-10-04/source-26.bin",
+      "checked_at": "2026-10-04T16:07:13.622487+00:00",
+      "status": "unavailable",
+      "scope": "Transport failure, incomplete transfer, HTTP error or JS-only shell; no unchanged metric claim."
+    },
+    {
+      "url": "https://cag.gov.in/uploads/state_accounts_report/account-report-MKI-August-06aabdead52f8a8-29844579.pdf",
+      "tracks": [
+        "public-finances"
+      ],
+      "http_status": "000",
+      "content_type": "",
+      "effective_url": "https://cag.gov.in/uploads/state_accounts_report/account-report-MKI-August-06aabdead52f8a8-29844579.pdf",
+      "transport_exit": 28,
+      "error": "curl: (28) Connection timed out after 25002 milliseconds\n",
+      "path": "work/weekly-2026-10-04/source-27.bin",
+      "checked_at": "2026-10-04T16:07:13.735059+00:00",
+      "status": "unavailable",
+      "scope": "Transport failure, incomplete transfer, HTTP error or JS-only shell; no unchanged metric claim."
+    },
+    {
+      "url": "https://www.digitalreports.cag.gov.in/odisha/chapter/1?from=app-1.2",
+      "tracks": [
+        "public-finances"
+      ],
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "effective_url": "https://www.digitalreports.cag.gov.in/odisha/chapter/1?from=app-1.2",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-28.bin",
+      "checked_at": "2026-10-04T16:07:02.416420+00:00",
+      "bytes": 187770,
+      "sha256": "a1c567d4ff4d18e312aa128fb8c046884c34b163d94fc0b2bcc50023fd34a6bb",
+      "status": "unchanged",
+      "scope": "Saved baseline or release-catalogue content recovered; no new comparable observation promoted from this URL. This is not whole-publication revalidation."
+    },
+    {
+      "url": "https://www.nfhsiips.in/nfhsuser/release-details.php",
+      "tracks": [
+        "people-and-learning",
+        "people-and-learning"
+      ],
+      "http_status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "effective_url": "https://www.nfhsiips.in/nfhsuser/release-details.php",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-29.bin",
+      "checked_at": "2026-10-04T16:07:01.526242+00:00",
+      "bytes": 23224,
+      "sha256": "413746575510069ff0a5a10109335c2b50b71132a145515bc7991e099d7eb54a",
+      "status": "unchanged",
+      "scope": "Saved baseline or release-catalogue content recovered; no new comparable observation promoted from this URL. This is not whole-publication revalidation."
+    },
+    {
+      "url": "https://udiseplus.gov.in/#/Publication",
+      "tracks": [
+        "people-and-learning"
+      ],
+      "http_status": "200",
+      "content_type": "text/html",
+      "effective_url": "https://udiseplus.gov.in/#/Publication",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-30.bin",
+      "checked_at": "2026-10-04T16:07:02.268606+00:00",
+      "bytes": 88965,
+      "sha256": "002f6499d0b8df10274e366b94d67f8f505955d591de6af0ad721a7acc873661",
+      "status": "unavailable",
+      "scope": "Transport failure, incomplete transfer, HTTP error or JS-only shell; no unchanged metric claim."
+    },
+    {
+      "url": "https://www.mospi.gov.in/download-reports?main_=",
+      "tracks": [
+        "people-and-learning"
+      ],
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "effective_url": "https://www.mospi.gov.in/download-reports?main_=",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-31.bin",
+      "checked_at": "2026-10-04T16:07:02.119172+00:00",
+      "bytes": 2644,
+      "sha256": "f4c6c87130c01add20bda6961a8a4d907a7fc44f558d435247dbb03ccfa06b4e",
+      "status": "unavailable",
+      "scope": "Transport failure, incomplete transfer, HTTP error or JS-only shell; no unchanged metric claim."
+    },
+    {
+      "url": "https://www.nfhsiips.in/nfhsuser/assets/National%20Family%20Health%20Survey%20(NFHS-6)%202023-2024%20Fact%20Sheets.pdf",
+      "tracks": [
+        "people-and-learning"
+      ],
+      "http_status": "200",
+      "content_type": "application/pdf",
+      "effective_url": "https://www.nfhsiips.in/nfhsuser/assets/National%20Family%20Health%20Survey%20(NFHS-6)%202023-2024%20Fact%20Sheets.pdf",
+      "transport_exit": 28,
+      "error": "curl: (28) Operation timed out after 25001 milliseconds with 3661557 out of 12341321 bytes received\n",
+      "path": "work/weekly-2026-10-04/source-32.bin",
+      "checked_at": "2026-10-04T16:07:26.536698+00:00",
+      "bytes": 3661557,
+      "sha256": "ad8ba82849849904288652a0b9bc4847a9737c345767e100407abf9f4c00a4b8",
+      "status": "unavailable",
+      "scope": "Transport failure, incomplete transfer, HTTP error or JS-only shell; no unchanged metric claim."
+    },
+    {
+      "url": "https://dashboard.udiseplus.gov.in/report2025/static/media/UDISE%2B2024_25_Booklet_existing.118ba29d4773e6372f72.pdf",
+      "tracks": [
+        "people-and-learning"
+      ],
+      "http_status": "200",
+      "content_type": "application/pdf",
+      "effective_url": "https://dashboard.udiseplus.gov.in/report2025/static/media/UDISE%2B2024_25_Booklet_existing.118ba29d4773e6372f72.pdf",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-33.bin",
+      "checked_at": "2026-10-04T16:07:18.201897+00:00",
+      "bytes": 11756128,
+      "sha256": "cc66d03e1413722d2f5ab66f29ece3cdb3c21f7d736ac63f21efc3696ed7f4bf",
+      "status": "unchanged",
+      "scope": "Saved baseline or release-catalogue content recovered; no new comparable observation promoted from this URL. This is not whole-publication revalidation."
+    },
+    {
+      "url": "https://www.mospi.gov.in/sites/default/files/publication_reports/AnnualReport_PLFS2023-24L2.pdf",
+      "tracks": [
+        "people-and-learning"
+      ],
+      "http_status": "200",
+      "content_type": "application/pdf",
+      "effective_url": "https://www.mospi.gov.in/sites/default/files/publication_reports/AnnualReport_PLFS2023-24L2.pdf",
+      "transport_exit": 28,
+      "error": "curl: (28) Operation timed out after 25003 milliseconds with 2996063 out of 26917638 bytes received\n",
+      "path": "work/weekly-2026-10-04/source-34.bin",
+      "checked_at": "2026-10-04T16:07:27.283966+00:00",
+      "bytes": 2996063,
+      "sha256": "5e69812d5b38c4e7972ebdb3367ff475535da54c71bf8d38c06fdef4d9dc5f61",
+      "status": "unavailable",
+      "scope": "Transport failure, incomplete transfer, HTTP error or JS-only shell; no unchanged metric claim."
+    },
+    {
+      "url": "https://www.niti.gov.in/node/868",
+      "tracks": [
+        "people-and-learning"
+      ],
+      "http_status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "effective_url": "https://www.niti.gov.in/node/868",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-35.bin",
+      "checked_at": "2026-10-04T16:07:05.640882+00:00",
+      "bytes": 686387,
+      "sha256": "2421a585ddc0372d37a62d98bb7e8a1af0330f153392fad33fd36efc6904cb95",
+      "status": "unchanged",
+      "scope": "Saved baseline or release-catalogue content recovered; no new comparable observation promoted from this URL. This is not whole-publication revalidation."
+    },
+    {
+      "url": "https://fsi.nic.in/reports-publications",
+      "tracks": [
+        "land-and-livelihoods"
+      ],
+      "http_status": "000",
+      "content_type": "",
+      "effective_url": "https://fsi.nic.in/reports-publications",
+      "transport_exit": 60,
+      "error": "curl: (60) SSL certificate problem: certificate has expired\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the web page mentioned above.\n",
+      "path": "work/weekly-2026-10-04/source-36.bin",
+      "checked_at": "2026-10-04T16:07:11.878231+00:00",
+      "status": "unavailable",
+      "scope": "Transport failure, incomplete transfer, HTTP error or JS-only shell; no unchanged metric claim."
+    },
+    {
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225760&lang=1&reg=5",
+      "tracks": [
+        "land-and-livelihoods"
+      ],
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "effective_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225760&lang=1&reg=5",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-37.bin",
+      "checked_at": "2026-10-04T16:07:13.223104+00:00",
+      "bytes": 331646,
+      "sha256": "84a06faf6f54c363a2acfe822b3dff993cb4d86ce28a9d5f02dabd6784063c83",
+      "status": "unchanged",
+      "scope": "Saved baseline or release-catalogue content recovered; no new comparable observation promoted from this URL. This is not whole-publication revalidation."
+    },
+    {
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2100254&lang=2&reg=48",
+      "tracks": [
+        "land-and-livelihoods"
+      ],
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "effective_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2100254&lang=2&reg=48",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-38.bin",
+      "checked_at": "2026-10-04T16:07:14.230917+00:00",
+      "bytes": 313558,
+      "sha256": "0594325aff5db003c46b109c16bf5bafae968a715ede18015ccea5f6143faae2",
+      "status": "unchanged",
+      "scope": "Saved baseline or release-catalogue content recovered; no new comparable observation promoted from this URL. This is not whole-publication revalidation."
+    },
+    {
+      "url": "https://www.chilika.com/chilika-ecology-and-biodiversity.php",
+      "tracks": [
+        "land-and-livelihoods"
+      ],
+      "http_status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "effective_url": "https://www.chilika.com/chilika-ecology-and-biodiversity.php",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-39.bin",
+      "checked_at": "2026-10-04T16:07:15.950325+00:00",
+      "bytes": 38015,
+      "sha256": "b59125a8ee16d30bb9c8defbf8938e0327d52b860ba673556051a47aadffe33e",
+      "status": "unchanged",
+      "scope": "Saved baseline or release-catalogue content recovered; no new comparable observation promoted from this URL. This is not whole-publication revalidation."
+    },
+    {
+      "url": "https://sansad.in/getFile/annex/270/AU2625_hDEugu.pdf?source=pqars",
+      "tracks": [
+        "services-and-environment"
+      ],
+      "http_status": "200",
+      "content_type": "application/pdf",
+      "effective_url": "https://sansad.in/getFile/annex/270/AU2625_hDEugu.pdf?source=pqars",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-40.bin",
+      "checked_at": "2026-10-04T16:07:15.519748+00:00",
+      "bytes": 125814,
+      "sha256": "a487a3f8aeff16d54fd221228ac129af608c48e2043847e92c37e667de41e18d",
+      "status": "unchanged",
+      "scope": "Saved baseline or release-catalogue content recovered; no new comparable observation promoted from this URL. This is not whole-publication revalidation."
+    },
+    {
+      "url": "https://www.rsdebate.nic.in/bitstream/123456789/755745/1/PQ_267_27032025_U3071_p149_p166.pdf",
+      "tracks": [
+        "services-and-environment"
+      ],
+      "http_status": "000",
+      "content_type": "",
+      "effective_url": "https://www.rsdebate.nic.in/bitstream/123456789/755745/1/PQ_267_27032025_U3071_p149_p166.pdf",
+      "transport_exit": 60,
+      "error": "curl: (60) SSL: no alternative certificate subject name matches target host name 'www.rsdebate.nic.in'\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the web page mentioned above.\n",
+      "path": "work/weekly-2026-10-04/source-41.bin",
+      "checked_at": "2026-10-04T16:07:15.370667+00:00",
+      "status": "unavailable",
+      "scope": "Transport failure, incomplete transfer, HTTP error or JS-only shell; no unchanged metric claim."
+    },
+    {
+      "url": "https://urban.odisha.gov.in/sites/default/files/2025-06/English%20Activity%20Report%202024%20Final_0.pdf",
+      "tracks": [
+        "services-and-environment"
+      ],
+      "http_status": "000",
+      "content_type": "",
+      "effective_url": "https://urban.odisha.gov.in/sites/default/files/2025-06/English%20Activity%20Report%202024%20Final_0.pdf",
+      "transport_exit": 28,
+      "error": "curl: (28) Connection timed out after 25003 milliseconds\n",
+      "path": "work/weekly-2026-10-04/source-42.bin",
+      "checked_at": "2026-10-04T16:07:40.390851+00:00",
+      "status": "unavailable",
+      "scope": "Transport failure, incomplete transfer, HTTP error or JS-only shell; no unchanged metric claim."
+    },
+    {
+      "url": "https://www.osdma.org/national-cyclone-risk-mitigation-project/",
+      "tracks": [
+        "services-and-environment"
+      ],
+      "http_status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "effective_url": "https://www.osdma.org/national-cyclone-risk-mitigation-project/",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-43.bin",
+      "checked_at": "2026-10-04T16:07:24.001781+00:00",
+      "bytes": 123889,
+      "sha256": "149ccffdb2420fc7db65bfa55c6f7709558ae77e2d12e53f0141e39a567847ef",
+      "status": "unchanged",
+      "scope": "Saved baseline or release-catalogue content recovered; no new comparable observation promoted from this URL. This is not whole-publication revalidation."
+    },
+    {
+      "url": "https://aai.aero/en/business-opportunities/aai-traffic-news",
+      "tracks": [
+        "mobility-and-digital-access"
+      ],
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "effective_url": "https://aai.aero/en/business-opportunities/aai-traffic-news",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-44.bin",
+      "checked_at": "2026-10-04T16:07:33.316035+00:00",
+      "bytes": 930122,
+      "sha256": "991e9a2185488108e7c8b8e0bc96be2853d51f894ec22a7b926a709e5b9ca7ae",
+      "status": "changed",
+      "scope": "Latest August2026 traffic release identified; follow-up report checked separately."
+    },
+    {
+      "url": "https://www.trai.gov.in/release-publication/reports/performance-indicators-reports",
+      "tracks": [
+        "mobility-and-digital-access"
+      ],
+      "http_status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "effective_url": "https://www.trai.gov.in/release-publication/reports/performance-indicators-reports",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-45.bin",
+      "checked_at": "2026-10-04T16:07:22.540833+00:00",
+      "bytes": 423494,
+      "sha256": "d2281214769e8d6148dbf5ef8f65886ef411c96351807b0fd6a9e8b5e32b21af",
+      "status": "unchanged",
+      "scope": "Saved baseline or release-catalogue content recovered; no new comparable observation promoted from this URL. This is not whole-publication revalidation."
+    },
+    {
+      "url": "https://www.aai.aero/sites/default/files/traffic-news/Mar2k26Annex3.pdf",
+      "tracks": [
+        "mobility-and-digital-access"
+      ],
+      "http_status": "404",
+      "content_type": "text/html; charset=utf-8",
+      "effective_url": "https://www.aai.aero/sites/default/files/traffic-news/Mar2k26Annex3.pdf",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-46.bin",
+      "checked_at": "2026-10-04T16:07:27.232877+00:00",
+      "bytes": 84113,
+      "sha256": "b316200b30370242603ab8d5004463b1d0a0bf3391b539ada698841798bee257",
+      "status": "unavailable",
+      "scope": "Transport failure, incomplete transfer, HTTP error or JS-only shell; no unchanged metric claim."
+    },
+    {
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2287573",
+      "tracks": [
+        "mobility-and-digital-access"
+      ],
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "effective_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2287573&reg=48&lang=2",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-47.bin",
+      "checked_at": "2026-10-04T16:07:26.227218+00:00",
+      "bytes": 322185,
+      "sha256": "fa40e4bba477c1a74f0399dc752723880091270fdaf8d11d444bf6693faeecd1",
+      "status": "unchanged",
+      "scope": "Saved baseline or release-catalogue content recovered; no new comparable observation promoted from this URL. This is not whole-publication revalidation."
+    },
+    {
+      "url": "https://www.trai.gov.in/sites/default/files/2025-07/YIR_08072025_0.pdf",
+      "tracks": [
+        "mobility-and-digital-access"
+      ],
+      "http_status": "200",
+      "content_type": "application/pdf",
+      "effective_url": "https://www.trai.gov.in/sites/default/files/2025-07/YIR_08072025_0.pdf",
+      "transport_exit": 28,
+      "error": "curl: (28) Operation timed out after 25002 milliseconds with 3390093 out of 4179108 bytes received\n",
+      "path": "work/weekly-2026-10-04/source-48.bin",
+      "checked_at": "2026-10-04T16:07:51.241417+00:00",
+      "bytes": 3390093,
+      "sha256": "fee772743c86fb4c7b7f614cb9fe8aa4ca3df188b647b8d188cfac919f44e6b2",
+      "status": "unavailable",
+      "scope": "Transport failure, incomplete transfer, HTTP error or JS-only shell; no unchanged metric claim."
+    },
+    {
+      "url": "https://trai.gov.in/sites/default/files/2026-06/QPIR_22062026.pdf",
+      "tracks": [
+        "mobility-and-digital-access"
+      ],
+      "http_status": "200",
+      "content_type": "application/pdf",
+      "effective_url": "https://trai.gov.in/sites/default/files/2026-06/QPIR_22062026.pdf",
+      "transport_exit": 28,
+      "error": "curl: (28) Operation timed out after 25005 milliseconds with 2795083 out of 4826655 bytes received\n",
+      "path": "work/weekly-2026-10-04/source-49.bin",
+      "checked_at": "2026-10-04T16:07:51.553360+00:00",
+      "bytes": 2795083,
+      "sha256": "865342c6297a4db59e624f63302a04fbb19066a5cbe47b346e2b4c3f6519cc11",
+      "status": "unavailable",
+      "scope": "Transport failure, incomplete transfer, HTTP error or JS-only shell; no unchanged metric claim."
+    },
+    {
+      "url": "https://www.ipindia.gov.in/pages/home/annual-report",
+      "tracks": [
+        "innovation-and-startups"
+      ],
+      "http_status": "000",
+      "content_type": "",
+      "effective_url": "https://www.ipindia.gov.in/pages/home/annual-report",
+      "transport_exit": 60,
+      "error": "curl: (60) SSL: no alternative certificate subject name matches target host name 'www.ipindia.gov.in'\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the web page mentioned above.\n",
+      "path": "work/weekly-2026-10-04/source-50.bin",
+      "checked_at": "2026-10-04T16:07:28.275744+00:00",
+      "status": "unavailable",
+      "scope": "Transport failure, incomplete transfer, HTTP error or JS-only shell; no unchanged metric claim."
+    },
+    {
+      "url": "https://ipindia.gov.in/storage/uploads/media/English_Annual_Report_2024-25.pdf",
+      "tracks": [
+        "innovation-and-startups"
+      ],
+      "http_status": "200",
+      "content_type": "application/pdf",
+      "effective_url": "https://ipindia.gov.in/storage/uploads/media/English_Annual_Report_2024-25.pdf",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-51.bin",
+      "checked_at": "2026-10-04T16:07:40.217391+00:00",
+      "bytes": 19966253,
+      "sha256": "f4d0d9c72d0fc3f7d1dafea570f956a2f842957fbd81733ddab9c95d7b8d6ffd",
+      "status": "unchanged",
+      "scope": "Saved baseline or release-catalogue content recovered; no new comparable observation promoted from this URL. This is not whole-publication revalidation."
+    },
+    {
+      "url": "https://sansad.in/getFile/loksabhaquestions/annex/187/AU588_lOfCvN.pdf?source=pqals",
+      "tracks": [
+        "innovation-and-startups"
+      ],
+      "http_status": "200",
+      "content_type": "application/pdf",
+      "effective_url": "https://sansad.in/getFile/loksabhaquestions/annex/187/AU588_lOfCvN.pdf?source=pqals",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-52.bin",
+      "checked_at": "2026-10-04T16:07:30.630684+00:00",
+      "bytes": 572736,
+      "sha256": "d35b266915720ed27e5e67ddd50fee7c8b433eb306e4448095ef966ce07798e4",
+      "status": "unchanged",
+      "scope": "Saved baseline or release-catalogue content recovered; no new comparable observation promoted from this URL. This is not whole-publication revalidation."
+    },
+    {
+      "url": "https://dot.odisha.gov.in/sites/default/files/2026-04/Identified%20Tourist%20Centre%20in%20Odisha%20(382).pdf",
+      "tracks": [
+        "visitor-economy-and-crafts"
+      ],
+      "http_status": "000",
+      "content_type": "",
+      "effective_url": "https://dot.odisha.gov.in/sites/default/files/2026-04/Identified%20Tourist%20Centre%20in%20Odisha%20(382).pdf",
+      "transport_exit": 28,
+      "error": "curl: (28) Connection timed out after 25002 milliseconds\n",
+      "path": "work/weekly-2026-10-04/source-53.bin",
+      "checked_at": "2026-10-04T16:07:55.650292+00:00",
+      "status": "unavailable",
+      "scope": "Transport failure, incomplete transfer, HTTP error or JS-only shell; no unchanged metric claim.",
+      "known_conflict_retained": true
+    },
+    {
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1596372",
+      "tracks": [
+        "visitor-economy-and-crafts"
+      ],
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "effective_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1596372&reg=48&lang=2",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-54.bin",
+      "checked_at": "2026-10-04T16:07:37.772910+00:00",
+      "bytes": 875693,
+      "sha256": "53116acc3a3d8f1ee9f8022541fd61fcab5b3296b4311fe63e690ce06d061fa4",
+      "status": "unchanged",
+      "scope": "Saved baseline or release-catalogue content recovered; no new comparable observation promoted from this URL. This is not whole-publication revalidation."
+    },
+    {
+      "url": "https://www.hockeyindia.org/news/year-in-review-hockey-india-revamps-domestic-circuit-hosts-multiple-international-events-across-different-cities-in-2023",
+      "tracks": [
+        "visitor-economy-and-crafts"
+      ],
+      "http_status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "effective_url": "https://www.hockeyindia.org/news/year-in-review-hockey-india-revamps-domestic-circuit-hosts-multiple-international-events-across-different-cities-in-2023",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-55.bin",
+      "checked_at": "2026-10-04T16:07:39.265018+00:00",
+      "bytes": 55724,
+      "sha256": "757a55e96a3a737f6f85af82b9f7e89422da791577072e2785483aa6f178c591",
+      "status": "unchanged",
+      "scope": "Saved baseline or release-catalogue content recovered; no new comparable observation promoted from this URL. This is not whole-publication revalidation."
+    },
+    {
+      "url": "https://dot.odisha.gov.in/en/guidelines",
+      "tracks": [
+        "visitor-economy-and-crafts"
+      ],
+      "http_status": "000",
+      "content_type": "",
+      "effective_url": "https://dot.odisha.gov.in/en/guidelines",
+      "transport_exit": 28,
+      "error": "curl: (28) Connection timed out after 25006 milliseconds\n",
+      "path": "work/weekly-2026-10-04/source-56.bin",
+      "checked_at": "2026-10-04T16:08:04.282071+00:00",
+      "status": "unavailable",
+      "scope": "Transport failure, incomplete transfer, HTTP error or JS-only shell; no unchanged metric claim."
+    },
+    {
+      "url": "https://egazette.odisha.gov.in/extraordinary_archival_dept/70/1",
+      "tracks": [
+        "visitor-economy-and-crafts"
+      ],
+      "http_status": "000",
+      "content_type": "",
+      "effective_url": "https://egazette.odisha.gov.in/extraordinary_archival_dept/70/1",
+      "transport_exit": 28,
+      "error": "curl: (28) Connection timed out after 25002 milliseconds\n",
+      "path": "work/weekly-2026-10-04/source-57.bin",
+      "checked_at": "2026-10-04T16:08:05.244857+00:00",
+      "status": "unavailable",
+      "scope": "Transport failure, incomplete transfer, HTTP error or JS-only shell; no unchanged metric claim."
+    },
+    {
+      "url": "https://gohomestay.odisha.gov.in/",
+      "tracks": [
+        "visitor-economy-and-crafts"
+      ],
+      "http_status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "effective_url": "https://gohomestay.odisha.gov.in/",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-58.bin",
+      "checked_at": "2026-10-04T16:07:41.747084+00:00",
+      "bytes": 649,
+      "sha256": "a1e629fa079356eab7c84049995418309c4206afd233112e9c4e0fde5ff2f022",
+      "status": "unavailable",
+      "scope": "Transport failure, incomplete transfer, HTTP error or JS-only shell; no unchanged metric claim."
+    },
+    {
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2155162&lang=2&reg=48",
+      "tracks": [
+        "visitor-economy-and-crafts"
+      ],
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "effective_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2155162&lang=2&reg=48",
+      "transport_exit": 0,
+      "error": "",
+      "path": "work/weekly-2026-10-04/source-59.bin",
+      "checked_at": "2026-10-04T16:07:42.442448+00:00",
+      "bytes": 168304,
+      "sha256": "cda2c0270444504368283a87790143feb60f5f16454c63762262a26d5ccc6053",
+      "status": "unchanged",
+      "scope": "Saved baseline or release-catalogue content recovered; no new comparable observation promoted from this URL. This is not whole-publication revalidation."
+    },
+    {
+      "id": "udise-2026",
+      "url": "https://dashboard.udiseplus.gov.in/report2026/static/media/UDISE+2025_26_Booklet_existing.edd7cd16d934a10377ba.pdf",
+      "path": "work/weekly-2026-10-04/udise-2026.bin",
+      "exit": 0,
+      "response": "200\napplication/pdf",
+      "error": "",
+      "status": "changed",
+      "scope": "New-to-KB selected report capture or supporting discovery/release notice; not independent corroboration."
+    },
+    {
+      "id": "aai-list",
+      "url": "https://www.aai.aero/en/business-opportunities/aai-traffic-news",
+      "path": "work/weekly-2026-10-04/aai-list.bin",
+      "exit": 0,
+      "response": "200\ntext/html; charset=utf-8",
+      "error": "",
+      "status": "changed",
+      "scope": "New-to-KB selected report capture or supporting discovery/release notice; not independent corroboration."
+    },
+    {
+      "id": "aai-aug2026",
+      "url": "https://www.aai.aero/sites/default/files/traffic-news/Aug2k26Annex3.pdf",
+      "path": "work/weekly-2026-10-04/aai-aug2026.bin",
+      "exit": 0,
+      "response": "200\napplication/pdf",
+      "error": "",
+      "status": "changed",
+      "scope": "New-to-KB selected report capture or supporting discovery/release notice; not independent corroboration."
+    },
+    {
+      "id": "udise-release",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2282141&lang=1&reg=48",
+      "path": "work/weekly-2026-10-04/udise-release.bin",
+      "exit": 0,
+      "response": "200\ntext/html; charset=utf-8",
+      "error": "",
+      "status": "changed",
+      "scope": "New-to-KB selected report capture or supporting discovery/release notice; not independent corroboration."
+    }
+  ],
+  "new_observation_ids": [
+    "weekly-aai-aug2026-bhubaneswar-0",
+    "weekly-aai-aug2026-bhubaneswar-1",
+    "weekly-aai-aug2026-bhubaneswar-2",
+    "weekly-aai-aug2026-bhubaneswar-3",
+    "weekly-aai-aug2026-bhubaneswar-yoy-0",
+    "weekly-aai-aug2026-bhubaneswar-yoy-1",
+    "weekly-aai-aug2026-jharsuguda-0",
+    "weekly-aai-aug2026-jharsuguda-1",
+    "weekly-aai-aug2026-jharsuguda-2",
+    "weekly-aai-aug2026-jharsuguda-3",
+    "weekly-aai-aug2026-jharsuguda-yoy-0",
+    "weekly-aai-aug2026-jharsuguda-yoy-1",
+    "weekly-aai-aug2026-jeypore-0",
+    "weekly-aai-aug2026-jeypore-1",
+    "weekly-aai-aug2026-jeypore-2",
+    "weekly-aai-aug2026-jeypore-3",
+    "weekly-aai-aug2026-jeypore-yoy-0",
+    "weekly-aai-aug2026-jeypore-yoy-1",
+    "weekly-aai-aug2026-rourkela-0",
+    "weekly-aai-aug2026-rourkela-1",
+    "weekly-aai-aug2026-rourkela-2",
+    "weekly-aai-aug2026-rourkela-3",
+    "weekly-aai-aug2026-rourkela-yoy-1",
+    "weekly-aai-aug2026-utkela-0",
+    "weekly-aai-aug2026-utkela-1",
+    "weekly-aai-aug2026-utkela-2",
+    "weekly-aai-aug2026-utkela-3",
+    "weekly-aai-aug2026-utkela-yoy-0",
+    "weekly-aai-aug2026-utkela-yoy-1",
+    "weekly-udise2026-dropout-primary",
+    "weekly-udise2026-dropout-upper-primary",
+    "weekly-udise2026-dropout-secondary",
+    "weekly-udise2026-dropout-india-secondary"
+  ],
+  "new_source_ids": [
+    "connect-airport-aug2026",
+    "people-udise2026",
+    "people-udise2026-release"
+  ],
+  "reuse": [
+    "statistics/aviation.md",
+    "statistics/education.md",
+    "references/data/statistics-atlas.json",
+    "references/data/source-reliability.json",
+    "methods/research-map.md"
+  ],
+  "revision_policy": "Append-only new periods; no older observations or frozen imported ledger changed.",
+  "local_update": true,
+  "git_push": false,
+  "website_publication": false,
+  "human_review_claimed": false,
+  "next_check": "2026-10-11",
+  "retry_scope": "Retry unavailable primary tables; compare only matched definitions and periods.",
+  "validation": {
+    "result": "PASS",
+    "source_validators": 15,
+    "destination_validators": 15,
+    "editorial_tests": 6,
+    "catalogue_bundle_registers": "PASS",
+    "scope": "Structural checks, selected table visual review; no human editorial approval."
+  },
+  "changed_files": [],
+  "discovery_checks": [
+    {
+      "url": "https://dot.odisha.gov.in/en/publications/tourism-download",
+      "status": "unchanged",
+      "scope": "Catalogue lists annual2025–26 dated7August2026 and bulletin2024; known release.",
+      "method": "web publisher-page extract; separate from failed direct download"
+    },
+    {
+      "url": "https://cag.gov.in/ae/odisha/en/state-accounts-report?defuat_account_report_type=360",
+      "status": "unchanged",
+      "scope": "Monthly catalogue latestAugust2026. PDF retrieval remains unavailable.",
+      "method": "web publisher-page extract; separate from failed direct download"
+    },
+    {
+      "url": "https://pc.odisha.gov.in/en/publication/economic-survey-report?field_financial_year_target_id=All&page=0",
+      "status": "unchanged",
+      "scope": "Latest survey2025–26. Underlying series not freshly revalidated.",
+      "method": "web publisher-page extract; separate from failed direct download"
+    }
+  ],
+  "known_backlog": [
+    {
+      "topic": "UDISE2025–26 remaining tables",
+      "next_action": "Extend existing education concept only for absent matched indicators; report already retrieved, avoid repeat download."
+    },
+    {
+      "topic": "MOSPI monthly PLFS",
+      "next_action": "August2026 national monthly release does not substitute for a comparable Odisha annual series; scope-check before importing."
+    }
+  ]
+}

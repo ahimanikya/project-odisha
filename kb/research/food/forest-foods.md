@@ -40,3 +40,7 @@ Document fruits and kernels, flowers, honey, edible leaves and shoots, tubers an
 [Sal](../economy/sal-products.md) and [siali](../economy/siali-products.md) extend the food story to the materials used for wrapping and serving it. Named historical testimony and a local working plan document different practices and seasons; neither establishes present availability.
 
 [Tentuli](tentuli-tamarind.md) and [chara/chironji](chara-chironji.md) now connect local seasons, plant parts, attributed food uses and market questions. Market-lot origin and current income remain unknown.
+
+## Community-history connection · 4 October 2026
+
+[Three attributed historical cases](../history/forest-livelihoods.md) connect forest products with community organisation, women’s work and resource-sharing conflicts. Their local historical accounts do not establish present incomes, universal practices or current collection rights.

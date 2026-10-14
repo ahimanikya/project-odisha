@@ -1,0 +1,85 @@
+{
+  "run_id": "2026-10-11-alana",
+  "task_id": "RES-077",
+  "profile_id": "OSHA-006",
+  "seasonal_id": "SEAS-006",
+  "checked_at": "2026-10-11T02:50:03.443858+00:00",
+  "source_checks": [
+    {
+      "source_id": "osha-alana-shrutilipi2025",
+      "url": "https://shrutilipi.in/read_story.php?chapter_id=245",
+      "checked_at": "2026-10-11T02:50:03.443858+00:00",
+      "status": "retrieved",
+      "locator": "Chapter245 paragraphs1–5; listing publication date and collected credit",
+      "scope": "Primary evidence of this published modern retelling only. Original author, textual lineage, earliest composition and local practice unverified; not independent corroboration of older accounts."
+    },
+    {
+      "source_id": "osha-review2006",
+      "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf",
+      "checked_at": "2026-10-11T02:50:03.443858+00:00",
+      "status": "saved_evidence_reused",
+      "locator": "Printed15/PDF1 and17/PDF3",
+      "scope": "Ashwina/Lakshmi entry and no-salt consumption wording reused; general cake paragraph not an Alana recipe."
+    },
+    {
+      "source_id": "osha-mahanti",
+      "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf",
+      "checked_at": "2026-10-11T02:50:03.443858+00:00",
+      "status": "saved_evidence_reused",
+      "locator": "Printed58/PDF74",
+      "scope": "Ashwina/Surya/married women; fruits and sweets without added salt reused; no named sweet."
+    }
+  ],
+  "failed_fetches": [],
+  "capture_receipts": [
+    {
+      "url": "https://shrutilipi.in/read_story.php?chapter_id=245",
+      "status": "retrieved",
+      "sha256": "8633c166b465415602ec89b66a23cf5176130063d66fa7841c7ab11d193114ac",
+      "bytes": 52976,
+      "local_path": "work/osha-alana/shrutilipi-story.html"
+    },
+    {
+      "url": "https://shrutilipi.in/story-read.php?id=205",
+      "status": "retrieved",
+      "sha256": "644e39a27acbabc0553e7b5efcef9b38a3b61ac49bdcae7dbc5f8a729637ee11",
+      "bytes": 40034,
+      "local_path": "work/osha-alana/shrutilipi-listing.html"
+    }
+  ],
+  "saved_evidence_reused": [
+    "Dash2006 printed15,17",
+    "Mahanti printed58/PDF74",
+    "Native Alana records and research map"
+  ],
+  "modern_short_narrative_inspected": true,
+  "original_katha_inspected": false,
+  "origin_date": null,
+  "annual_date": null,
+  "calendar_conflict": {
+    "saved": "Ashwina",
+    "new_source": "solar Dhanu Sundays",
+    "resolution": null
+  },
+  "food_roles": {
+    "documented": "Mahanti fruit/sweet offerings, types unspecified",
+    "narrative": "Family pitha meal; ritual remnants",
+    "ritual_recipe": null
+  },
+  "discovery_not_adopted": [
+    "2021 haiku calendar/participant wording is literary representation, not ethnographic proof.",
+    "2022 UtkalPrasanga mirror purity context: original article not inspected.",
+    "Samba Dashami dishes and Khudurukuni unsalted pakhala not transferred to Alana."
+  ],
+  "followup": {
+    "retry_after": "2026-10-17",
+    "needs": [
+      "Recover a dated original Alana katha or manuscript and trace the collected2025 retelling’s attribution; compare its two-daughter episode without assuming identity.",
+      "Resolve Ashwina/Lakshmi, Ashwina/Surya and Dhanu Sunday accounts by locality, text and calendar; do not harmonise solar and lunar labels.",
+      "Document whether salt restraint applies to offerings, meals or both, its duration and actual local preparations.",
+      "Confirm any annual visit date and public food availability separately; no interviews or local review yet."
+    ]
+  },
+  "human_review_claimed": false,
+  "fieldwork_conducted": false
+}

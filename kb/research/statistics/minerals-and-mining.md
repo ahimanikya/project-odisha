@@ -38,3 +38,51 @@ The IBM value comparison uses nominal reported production values, not real GSVA 
 ## Mining and community services · 2026-10-02
 
 [Receipts, six DMFs and four case bundles](../economy/dmf-community-outcomes.md) adds actual/BE/RE scope, Tables5.1–5.2 and selected implementation findings. The existing48.18% uses sanctions;76.69% uses releases. Neither is a statewide benefit measure. All30DMF contributions and six-DMF collections including interest have different scopes.
+
+## Mining-area services: follow the project
+
+[DMF funds and functioning services](../economy/dmf-from-funds-to-services.md) connects six district funding records with dated health, education and sports cases. Audit-sample completion, spending and operating observations are different measures; none establishes current statewide service outcomes.
+
+## Annual public receipts · 2 October 2026
+
+[Mining receipts over five elapsed years](../economy/mining-receipts.md) adds an audited actual series, recent decline and separate budget/coal/dividend categories. It provides context for DMF services without claiming that annual state receipts equal cumulative DMF funds or caused specific outcomes.
+
+## From collections to documented use · 2 October 2026
+
+[The DMF evidence](../economy/dmf-from-funds-to-services.md) now distinguishes audit-reported recovery, unreturned completed-project balances and utilisation certificates. Fund eligibility disputes, record differences and foregone interest are different findings, not an additive loss total. Current resolution remains open.
+
+## Implementation controls and service readiness · 3 October 2026
+
+[DMF project research](../economy/dmf-from-funds-to-services.md) adds dated park, school-equipment, museum-procurement and worker-kit evidence. Monetary stages and historical operating status remain separate; no current loss total, site availability or employment growth is inferred.
+
+## Mining funds and human outcomes · 3 October 2026
+
+[Health, education and disability-service cases](../economy/dmf-from-funds-to-services.md) add historical checks of credentials, payments, examinations, equipment and distribution. Unresolved time scopes and portfolio overlaps are held; no statewide impact estimate or present operating claim follows from these sampled cases.
+
+## Completing the implementation chapter · 3 October 2026
+
+[DMF evidence](../economy/dmf-from-funds-to-services.md) now includes the remaining sanitation, housing, lighting, afforestation and community-facility sections of CAG ChapterVI. This completes that chapter across saved batches, not the entire report or RES-053. Appendices, planning coverage and current outcomes still need work.
+
+## Appendix reconciliation and claim controls · 3 October 2026
+
+[DMF research](../economy/dmf-from-funds-to-services.md) now links eight existing collection observations to their supporting appendices without adding duplicate statistics. Two collection figures are held pending reconciliation. Exact rupee totals, rounded body figures, assessed liabilities and actual recoveries remain separate; planning tables await full ChapterIV context.
+
+## Allocation is one stage of the story · 3 October 2026
+
+[DMF planning evidence](../economy/dmf-from-funds-to-services.md) adds six district high-priority allocation shares, including Sundargarh87.58% and Jajpur45.49% forFY2015–16 toFY2023–24. Allocation is not spending or service delivery. Village coverage uses the two-district historical audit sample; precise Table4.1 comparisons and meeting chronology remain held.
+
+## Niyamgiri rights checkpoint · 3 October 2026
+
+Four scoped observations distinguish proposed forest area from reported village decisions. No statewide vote, deforestation or restoration total is inferred. [Read the dated case](../economy/niyamgiri-rights-and-mining.md).
+
+## Kodingamali environmental work · 3 October 2026
+
+Seven dated work-output observations extend the existing mine identity; two rehabilitation observations remain held. Plantation counts, area categories and monitoring outcomes remain distinct. [Read the mine study](../economy/bauxite-mine-identities.md).
+
+## Worker-safety evidence · 3 October 2026
+
+[The Bharatpur case](../economy/bharatpur-mine-safety.md) adds a historical accident account. Its four deaths and immediate-worksite population describe one event; they cannot establish a statewide accident rate, present safety status or implemented corrective action.
+
+## Baphlimali monitoring checkpoint · 3 October 2026
+
+[The existing mine study](../economy/bauxite-mine-identities.md) now distinguishes reported water/waste handling from held pollutant comparisons, audit findings and rehabilitation claims. Site figures are not district air-quality or ecological-recovery measures.

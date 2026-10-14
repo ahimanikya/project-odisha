@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-04T16:55:29.191089+00:00",
+  "run_id": "2026-10-04-trade-logistics",
+  "scope": "RES-017 first bounded port-series checkpoint; remaining commodity export/physical manufacturing/fisheries work incomplete.",
+  "source_id": "trade-basic-port-statistics2025",
+  "series": [
+    {
+      "id": "dhamra-cargo",
+      "metric": "Total cargo throughput",
+      "unit": "million tonnes",
+      "geography": "Dhamra Port",
+      "source_id": "trade-basic-port-statistics2025",
+      "periods": [
+        "2015-16",
+        "2016-17",
+        "2017-18",
+        "2018-19",
+        "2019-20",
+        "2020-21",
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ],
+      "observation_ids": [
+        "trade-dhamra-cargo-2015-16",
+        "trade-dhamra-cargo-2016-17",
+        "trade-dhamra-cargo-2017-18",
+        "trade-dhamra-cargo-2018-19",
+        "trade-dhamra-cargo-2019-20",
+        "trade-dhamra-cargo-2020-21",
+        "trade-dhamra-cargo-2021-22",
+        "trade-dhamra-cargo-2022-23",
+        "trade-dhamra-cargo-2023-24",
+        "trade-dhamra-cargo-2024-25"
+      ]
+    },
+    {
+      "id": "gopalpur-cargo",
+      "metric": "Total cargo throughput",
+      "unit": "million tonnes",
+      "geography": "Gopalpur Port",
+      "source_id": "trade-basic-port-statistics2025",
+      "periods": [
+        "2015-16",
+        "2016-17",
+        "2017-18",
+        "2018-19",
+        "2019-20",
+        "2020-21",
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ],
+      "observation_ids": [
+        "trade-gopalpur-cargo-2015-16",
+        "trade-gopalpur-cargo-2016-17",
+        "trade-gopalpur-cargo-2017-18",
+        "trade-gopalpur-cargo-2018-19",
+        "trade-gopalpur-cargo-2019-20",
+        "trade-gopalpur-cargo-2020-21",
+        "trade-gopalpur-cargo-2021-22",
+        "trade-gopalpur-cargo-2022-23",
+        "trade-gopalpur-cargo-2023-24",
+        "trade-gopalpur-cargo-2024-25"
+      ]
+    },
+    {
+      "id": "paradip-turnround",
+      "metric": "Average vessel turn-round time",
+      "unit": "hours",
+      "geography": "Paradip Port Authority",
+      "source_id": "trade-basic-port-statistics2025",
+      "periods": [
+        "2020-21",
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ],
+      "observation_ids": [
+        "trade-paradip-turnround-2020-21",
+        "trade-paradip-turnround-2021-22",
+        "trade-paradip-turnround-2022-23",
+        "trade-paradip-turnround-2023-24",
+        "trade-paradip-turnround-2024-25"
+      ]
+    }
+  ],
+  "calculation_ids": [
+    "trade-dhamra-cargo-latest-change",
+    "trade-dhamra-cargo-five-year-change",
+    "trade-gopalpur-cargo-latest-change",
+    "trade-gopalpur-cargo-five-year-change",
+    "trade-paradip-turnround-latest-change"
+  ],
+  "conflicts": [
+    {
+      "id": "nonmajor-2023-24-table-total",
+      "observation_ids": [
+        "trade-nonmajor-port-total2024",
+        "trade-nonmajor-commodity-total2024"
+      ],
+      "status": "hold_conflict",
+      "table30_port_component_sum": 54.76,
+      "table31_commodity_component_sum": 54.25,
+      "unit": "million tonnes",
+      "resolution": null,
+      "retry_after": "2026-10-11",
+      "next_action": "Seek publisher correction or original Directorate returns. Do not replace either total with a component sum or compute state growth."
+    }
+  ],
+  "context_observation_ids": [
+    "trade-nonmajor-port-total2025"
+  ],
+  "reuse_map": [
+    {
+      "domain": "exports",
+      "path": "trade/merchandise-exports.md",
+      "gap": "Endpoints only; full annual merchandise value series and denominator reconciliation needed."
+    },
+    {
+      "domain": "manufacturing",
+      "path": "references/data/economic-time-series.json",
+      "gap": "Real GSVA is value added, not physical output. Reuse company-specific processing series without statewide aggregation."
+    },
+    {
+      "domain": "agriculture",
+      "path": "references/data/rice-economy.json",
+      "gap": "Rice crop series already exists; preserve paddy/rice and crop/marketing-year distinctions."
+    },
+    {
+      "domain": "fisheries",
+      "path": "statistics/fisheries.md",
+      "gap": "Recover longer matched production history; seafood export attribution still unresolved."
+    }
+  ],
+  "human_review_claimed": false
+}

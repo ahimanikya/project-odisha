@@ -6,7 +6,7 @@ tags: ["utkal", "product", "requirements", "history"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-30T19:25:24-07:00"}
 instruction_basis: "User direction, 30 September 2026: expand pages with facts, relate and classify content beyond tourism. Prior architecture retained; exact navigation and acceptance details are implementation proposals."
-document_version: "0.2.1"
+document_version: "0.3.0"
 approval_status: "draft_not_formally_approved"
 implementation_status: "not_deployed"
 sources: [{"id": "architecture", "title": "Agreed technical stack", "resource": "../technology/technical-stack.md"}, {"id": "decisions", "title": "Architecture decision register", "resource": "../technology/decisions.md"}, {"id": "editorial", "title": "Community encyclopedia direction", "resource": "../about/community-encyclopedia.md"}]
@@ -18,7 +18,7 @@ sources: [{"id": "architecture", "title": "Agreed technical stack", "resource": 
 
 | Field | Value |
 | --- | --- |
-| PRD version | 0.2.1 |
+| PRD version | 0.3.0 |
 | Recorded | 30 September 2026 |
 | State | Draft scope expansion; not a claim of formal approval or implemented functionality |
 | Product owner | Ahimanikya, as project owner; additional editorial and programme roles unassigned |
@@ -689,3 +689,54 @@ This imported research describes the source workspace at its recorded dates. Pro
 ## Name correction · 1 October 2026
 
 The user confirmed **Utkal**, correcting earlier Utkala wording. Version 0.2.1 updates the name only; requirement IDs, behaviour and approval states remain unchanged. Earlier snapshots retain their original text.
+
+## 17. District entrepreneurship · version 0.3.0
+
+The user requested district/locality business research and downloadable starter plans on 2 October 2026. The [programme](district-business-opportunities.md) adds this direction; acceptance details and pilot selection remain proposed. This is a research and future product scope extension, not a declaration that the existing website lacks already released features. Current implementation records remain authoritative. Reuse repository-native destination and tour-book models; no paid service or private backend is introduced.
+
+#### ENT-001 — District opportunity discovery
+
+**Phase:** later · **Basis:** user direction; acceptance details proposed · **Responsible role:** Research/product
+
+Provide place-linked business opportunities across districts and sectors for local and outside entrepreneurs.
+
+Acceptance:
+
+- Each opportunity references canonical place/sector records and distinguishes assets from validated demand.
+- District coverage shows unknown and unresearched fields; no unsupported best-district ranking.
+
+#### ENT-002 — Actionable business dossiers
+
+**Phase:** later · **Basis:** user direction; acceptance details proposed · **Responsible role:** Research/product
+
+Connect demand, regulations, premises, people, support and economics for a specified business model.
+
+Acceptance:
+
+- Permissions retain applicability, original rules/amendments, authority and check dates; unresolved rules stay visible.
+- Land listings, workforce directories and schemes do not imply availability, consent, title or eligibility.
+- Financial scenarios preserve dated quotes, assumptions, working capital and downside results.
+
+#### ENT-003 — Portable personal project books
+
+**Phase:** later · **Basis:** user direction; acceptance details proposed · **Responsible role:** Research/product
+
+Let readers assemble and export a sourced business research book and a clearly labelled personal plan.
+
+Acceptance:
+
+- Export retains edition, citations, check dates, unknowns and user assumptions in readable print/PDF and portable data.
+- Private budgets, identities, negotiations and personal notes are excluded from public Git and analytics.
+- Long-book pagination and data round-trip are tested before claiming implementation; template is not lender approval.
+
+#### ENT-004 — Opportunity maintenance and outcomes
+
+**Phase:** later · **Basis:** user direction; acceptance details proposed · **Responsible role:** Research/product
+
+Maintain district business research without overstating local economic benefits.
+
+Acceptance:
+
+- Track evidence freshness, research state and public-release state separately.
+- Use actual evidence for business launches, jobs and producer returns; plans and downloads are not economic outcomes.
+- Commercial relationships are disclosed and do not purchase favourable ratings.

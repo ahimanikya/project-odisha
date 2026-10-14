@@ -75,3 +75,77 @@ Subject membership is editorial classification. It does not establish historical
 [Rice kept for taste](../stories/rice-kept-for-taste.md) links documented food preferences to named cultivation and seed-enterprise accounts. Historical evidence is separate from current availability.
 
 [From milk to market](../stories/sweets-from-milk-to-market.md) connects the Pahala supply-chain study with dairy work, sweet making and the evidence still needed for market claims.
+
+
+## Fisheries history · 4 October2026
+
+[Fish growth beyond the coast](../stories/fish-growth-beyond-the-coast.md) connects freshwater, brackishwater and marine food production while retaining income and sustainability questions.
+
+## Food-processing evidence · 4 October 2026
+
+[The dairy and processing study](../economy/food-processing-and-dairy.md) connects existing crop and milk records with dated OMFED procurement, turnover and a historical conversion tender. Physical output, supplier contracts and district business profitability remain separate questions.
+
+## Gaja/Kanti evidence · 5 October 2026
+
+[Gaja and Kanti](../food/gaja-kanti-evidence.md) — how source-specific food names and ingredients shape careful recipe and heritage research.
+
+## Poda/arisa scope · 5 October 2026
+
+[Poda pitha and arisa](../food/poda-arisa-place-evidence.md) — ritual association, named variants and the evidence still needed for a local product dossier.
+
+## 2026-10-07 · Osha and food
+
+[The ritual food year](../culture/osha-brata-seasonal-food.md) connects dishes and observances.
+
+
+## 2026-10-10 · Seasonal public-food evidence
+
+[From festival food to a dated serving record](../visitor-index/seasonal-food-offer-evidence.md) explains how historical service reports and institutional announcements can support food history while current offers remain unverified.
+## 2026-10-10 · Seasonal navigation audit
+
+[Reading the observance year](../culture/osha-seasonal-navigation.md) distinguishes offerings, shared meals, story foods, ritual materials and food comparisons before seasonal visitor use.
+
+
+## 2026-10-10 · Prathamastami: relationships and preparations
+
+[Prathamastami](../culture/osha/prathamastami.md) relates family gifts and blessings to [Enduri](../food/enduri-pitha.md), while retaining the differing scope of an offering list, a recipe and a personal account.
+
+
+## 2026-10-10 · Dutiya: produce and care
+
+[Dutiya](../culture/osha/dutiya.md) follows offered produce into [Ghanta](../food/ghanta-tarkari.md) for sharing; published story and regional identities retain their own scope.
+
+
+## 2026-10-10 · Budhei named foods
+
+[Budhei](../culture/osha/budhei.md) and [Kakara](../food/kakara-pitha.md) now separate a dated offering association from general preparation versions.
+
+
+## 2026-10-11 · Alana food roles
+
+[Alana](../culture/osha/alana.md) keeps a narrated family pitha meal separate from the offering categories and any visitor menu.
+
+
+## 11 October 2026 · Kanji Anla food roles
+
+[Kanji Anla](../culture/osha/kanji-anla.md) distinguishes prepared offerings and a child-directed meal from food-shaped ritual figures.
+
+
+## 11 October 2026 · Samba food sequence
+
+[Samba Dashami](../culture/osha/samba-dashami.md) separates sunrise/midday foods from Budha Chakuli’s later offering role.
+
+
+## 11 October 2026 · Sabitri sequence
+
+[Sabitri Brata](../culture/osha/sabitri.md) distinguishes fruit examples, offering roles and subsequent family sharing; local selections remain unknown.
+
+
+## 11 October 2026 · Manabasa textual witness
+
+Manabasa distinguishes ritual arrangement, a separate Sudasa manda passage and the narrative’s food-sharing condition; current serving remains unknown.
+
+
+## 11 October 2026 · Sudasa food text
+
+[Sudasa Brata](../culture/osha/sudasa-brata.md) distinguishes textual rice/filling instructions from verified recipes and offering distribution.

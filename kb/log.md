@@ -451,3 +451,275 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 11 October 2026 · Weekly port and telecom checks
 
 [Weekly receipt](records/weekly-data-2026-10-11.json): Paradip year-to10October cargo almost flat, with four matched partial-period observations and two calculations. New TRAI annual edition repeats savedMarch figures.17 tracks attempted; partial availability and conflicts retained. Research KB update; no website release claimed.
+
+## 4 October 2026 · Forest community history
+
+[Research receipt](records/forest-history-2026-10-04.json): RES-058 historical checkpoint: three attributed cases and six milestones; case geography clarified, source conflict preserved. Primary rights evidence and2018 survey dates remain open. No website release.
+
+## 4 October 2026 · Forest management instruments
+
+[Research receipt](records/forest-rights-2026-10-04.json): RES-058 historical policy checkpoint: women’s representation, livelihood planning and local-document requirements. Later amendments, local instruments and study dates remain open. No website release.
+
+## 4 October 2026 · Forest-management amendments
+
+[Research receipt](records/forest-amendments-2026-10-04.json): RES-058 amendment checkpoint: secretary/accounting changes and a range-level forum; document requirements remain distinct from observed outcomes. Archival/community history and study dates remain open. No website release.
+
+## 4 October 2026 · Dhani community history
+
+[Research receipt](records/forest-dhani-2026-10-04.json): RES-058 community-history checkpoint. Local historical events are distinct from official policy and current conditions; required study dates remain open. Next independent task RES-059. No website release.
+
+## 4 October 2026 · Odisha in the world
+
+[Research receipt](records/world-connections-2026-10-04.json): RES-059 two-case synthesis delivered; historical interpretations, port traffic, capacity and agreements remain separate. Current agreement status and shipment evidence gaps retained. Next RES-062. No website release.
+
+## 4 October 2026 · Distinctive rice markets
+
+[Research receipt](records/rice-markets-2026-10-04.json): RES-062 market dossier delivered; product origin, listings, promotion and shipments remain separate. Matched farmer receipts and export origins remain unknown. Next RES-030. No website release.
+
+## 4 October 2026 · Textile segments and product forms
+
+[Research receipt](records/textile-segments-2026-10-04.json): RES-030 completed: sector composition, release reconciliation and eight production forms. Destination and quantity remain unknown. Next RES-032. No website release.
+
+## 4 October 2026 · Sand art: works and participation
+
+[Research receipt](records/sand-art-evidence-2026-10-04.json): RES-032 remains in progress. Sand-art work and event evidence saved; historical offered fees are not payments. Continue with Tarakasi and palm-leaf engraving. No website release.
+
+## 4 October 2026 · Tarakasi and palm-leaf engraving
+
+[Research receipt](records/filigree-palm-arts-2026-10-04.json): RES-032 remains in progress. Technique and maker recognition evidence saved; indexed-only award captures labelled. Continue with stone carving, dhokra and terracotta. No website release.
+
+## 4 October 2026 · Stone, metal and clay
+
+[Research receipt](records/clay-metal-stone-2026-10-04.json): RES-032 remains in progress. Technique and maker evidence saved; SIDAC selection-table lead quarantined. Continue with individually attributed works. No website release.
+
+## 4 October 2026 · Attributed craft works
+
+[Research receipt](records/attributed-craft-works-2026-10-04.json): RES-032 remains in progress. Three work records saved; institutional identity/current display limits retained. Remaining originals retry11October; next independent task RES-013. No website release.
+
+## 4 October 2026 · District evidence coverage
+
+[Research receipt](records/district-coverage-2026-10-04.json): RES-013 completed with a 30-district, five-domain saved-evidence matrix. Distinguishes district measures, local cases, guides and scheme areas; unknowns remain unknown. No new primary fetch or website release. Next RES-014.
+
+## 4 October 2026 · Regional people and work baselines
+
+[Research receipt](records/regional-handbooks-2026-10-04.json): RES-014 checkpoint: 24 observations from three Census handbooks and a parliamentary NFHS-5 table, with historical periods and denominators preserved. Three newer DES handbook downloads unavailable. No website release.
+
+## 4 October 2026 · District survey originals recovered
+
+[Research receipt](records/regional-survey-methods-2026-10-04.json): RES-014 bounded expansion completed with nine NFHS-6 estimates and original survey methods. Mixed trends, provisional status and unknown indicator denominators retained. DES/SDG recovery remains a follow-up under RES-018. Next RES-015; no website release.
+
+## 4 October 2026 · Economic time-series research checkpoint
+
+[Research receipt](records/gsdp-series-2026-10-04.json): RES-015 adds seven annual macro/sector series and matched intervals. Source image review remains pending; adverse movements and estimate vintages retained. Next independent task RES-016; no website release.
+
+## 4 October 2026 · Investment implementation checkpoint
+
+[Research receipt](records/investment-implementation-2026-10-04.json): RES-016 adds three project identities, six stage events and acquisition payment evidence while preserving funding and operating unknowns. Continue with NALCO project evidence; no website release.
+
+## 4 October 2026 · NALCO implementation checkpoint
+
+[Research receipt](records/nalco-investment-2026-10-04.json): RES-016 adds three NALCO identities, five stage events and scoped accounting evidence. Construction cash expenditure and current operation remain unknown; retry11October, independent RES-017 next. No website release.
+
+## 4 October2026 · Weekly aviation and schooling data
+
+[Research receipt](records/weekly-data-2026-10-04.json):33 new observations from AAI August2026 and UDISE2025–26. All17 weekly tracks attempted; partial source availability retained. No website release.
+
+## 4 October2026 · Port cargo and logistics
+
+[Research receipt](records/trade-logistics-2026-10-04.json):RES-017 adds28 observations and five comparisons from historical ministry port tables; an internal total conflict remains held. Fisheries series next. No website release.
+
+## 4 October2026 · Sadhaba maritime science
+
+[Research receipt](records/sadhaba-science-2026-10-04.json):Deep study connects historical imagery, navigation reconstruction, later field studies and modern physics. Original field-paper comparison remains open. No website release.
+
+## 4 October2026 · Fisheries production history
+
+[Research receipt](records/fisheries-series-2026-10-04.json):Historical production series and ten comparisons saved. Table images and later-vintage reconciliation remain open. No website release.
+
+## 4 October2026 · Export values and attribution
+
+[Research receipt](records/export-series-2026-10-04.json):Export series, product values, destination shares and district research questions saved. Source arithmetic and denominator conflicts remain held. No website release.
+
+## 4 October2026 · Manufacturing output and supplier questions
+
+[Research receipt](records/manufacturing-series-2026-10-04.json):Product comparisons and operating benchmarks saved with source retrieval and plant boundary limits. Local orders and jobs remain unverified. No website release.
+
+## 4 October 2026 · Cement and fertiliser production
+
+[Research receipt](records/nonmetal-production-2026-10-04.json):Original plant tables saved with product, sales and line boundaries. Local orders and jobs remain unverified. No website release.
+
+## 4 October 2026 · Food processing and dairy evidence
+
+[Research receipt](records/food-processing-output-2026-10-04.json):Dated procurement and turnover are distinct from product output; crop records reused. Processing volume and supplier orders remain unknown. No website release.
+
+## 4 October 2026 · Odisha GI inventory
+
+[Research receipt](records/gi-inventory-2026-10-04.json):All26dated state-list entries mapped to28application IDs; two pending examples excluded. Renewal fields and economics held. No website release.
+
+## 4 October 2026 · GI opportunity programme
+
+[Research receipt](records/gi-opportunities-2026-10-04.json):Twelve research leads, five Indian comparators and four dossier briefs saved. Producer representation and specifications remain unresolved. No website release.
+
+## 4 October 2026 · Khaja GI specifications
+
+[Research receipt](records/gi-specifications-2026-10-04.json):Two original comparator specifications saved; internal recipe conflict and unsupported technical/economic claims held. Puri specification and producer representation remain unresolved. No website release.
+
+## 5 October 2026 · Puri gamucha identity
+
+[Research receipt](records/gi-textiles-2026-10-05.json):Assam journal editions preserved; Alangdia Machhi Gamucha is an attributed lead. Puri specification and producer representation remain unresolved. No website release.
+
+## 5 October 2026 · Temple-food GI comparison
+
+[Research receipt](records/gi-temple-2026-10-05.json):Original Laddu specification compared with dated institutional controls. Puri goods scope and producer mandate remain unresolved; governance originals unavailable. No website release.
+
+## 5 October 2026 · Nimapada name-use chronology
+
+[Research receipt](records/gi-nimapada-2026-10-05.json):Official 2016–17 name use and dated travel account documented; origin date, maker identity records and producer mandate remain unresolved. No website release.
+
+## 5 October 2026 · Korakhai goods and reputation
+
+[Research receipt](records/gi-korakhai-2026-10-05.json):Historical trade evidence connected with a BDA proposal and college promotion; no official ODOP designation, current operation or producer mandate inferred. No website release.
+
+## 5 October 2026 · Manikapatna application evidence
+
+[Research receipt](records/gi-manikapatna-2026-10-05.json):Registry notice, applicant proposal and buffalo breed certificate distinguished; pH remains unreconciled; no GI award or filing claimed. No website release.
+
+## 5 October 2026 · Chilika curd science evidence
+
+[Research receipt](records/gi-curd-science-2026-10-05.json):Original2013 and2024 studies reviewed; laboratory findings distinguished from consumer advice and field replication. No GI filing or safety certification. No website release.
+
+## 5 October 2026 · Palm-leaf GI application comparison
+
+[Research receipt](records/gi-palm-2026-10-05.json):Original797/805 submissions and2026 notices compared;2025 reply remains partially reviewed. No GI filing or accepted boundary claimed. No website release.
+
+## 5 October 2026 · Palm-leaf revised reply continuation
+
+[Research receipt](records/gi-palm-reply-2026-10-05.json):Part1 text reviewed through PDF90; proposed watchdog, representation claims and three scope holds recorded. Parts2–3 remain unreviewed. No GI filing or accepted boundary claimed. No website release.
+
+## 5 October 2026 · Palm-leaf supporting annexures
+
+[Research receipt](records/gi-palm-annexures-2026-10-05.json):Supporting annexures reviewed within saved page scope; documentary claims separated from current authority and accepted boundary. No GI filing. No website release.
+
+## 5 October 2026 · Gaja and Kanti food identities
+
+[Research receipt](records/gi-gaja-kanti-2026-10-05.json):Source-specific names and ingredients compared; hospitality chapter recovered; recipe and origin scope unverified. No GI filing. No website release.
+
+## 5 October 2026 · Poda and arisa place associations
+
+[Research receipt](records/gi-pitha-scope-2026-10-05.json):Puri associations compared with broader Odisha preparation and festival evidence; local specification and origin scope unresolved. No GI filing. No website release.
+
+## 5 October 2026 · Twelve GI leads and evidence readiness
+
+[Research receipt](records/gi-readiness-2026-10-05.json):Existing candidate dossiers grouped by next evidence bottleneck; international original-specification gap remains next. No GI filing. No website release.
+
+## 5 October 2026 · Kalamata specification and enforcement
+
+[Research receipt](records/gi-kalamata-2026-10-05.json):Selected Greek specification,2015 amendment and2021 reported enforcement compared; local-chain shorthand corrected. No GI filing. No website release.
+
+## 6 October 2026 · Sugar production and reporting periods
+
+[Research receipt](records/sugar-output-2026-10-05.json): Sugar table captured provisionally; original company report preserves a partial-year boundary and going-concern sale. No website release.
+
+## 6 October 2026 · Dhenkanal buyer and transaction stages
+
+[Research receipt](records/sugar-ownership-2026-10-06.json): Historical buyer identified through primary transaction records; current operation and production periods remain unverified. No website release.
+
+## 2 October 2026 · DMF funds and functioning services
+
+[Research receipt](records/mining-dmf-2026-10-02.json): Six district fund tables and four project cases distinguish spending, completion, operation and funding eligibility. CAG-reproduced government responses and source conflicts are preserved. RES-053 continues with receipts and remaining audit sections. No website release.
+
+## 2 October 2026 · Mining receipts and public finances
+
+[Research receipt](records/mining-receipts-2026-10-02.json): Six annual actual observations and minor heads distinguish nominal growth, recent decline, budgets, coal and dividends. Source conflict held; RES-053 continues with detailed subheads and remaining DMF audit sections. No website release.
+
+## 2 October 2026 · DMF livelihoods and monitoring
+
+[Research receipt](records/dmf-livelihood-monitoring-2026-10-02.json): Four livelihood cases connect skills, honey and assets with actual-use evidence and government responses. Full monitoring chapter read; current remediation unknown and district fetch failures recorded. RES-053 continues with remaining audit chapters and original service records. No website release.
+
+## 2 October 2026 · DMF collection and financial management
+
+[Research receipt](records/dmf-collection-finance-2026-10-02.json): Complete collection and finance chapters distinguish recovered funds, unreturned balances, accounting differences, promises and modelled interest. Source conflicts held. RES-053 continues with remaining project sections, appendices and original service records. No website release.
+
+## 3 October 2026 · DMF implementation and park readiness
+
+[Research receipt](records/dmf-implementation-2026-10-03.json): Further implementation sections distinguish procurement controls, park completion, funding eligibility and government response. Historical dates preserved. RES-053 continues with remaining project sections, appendices and original service records. No website release.
+
+## 3 October 2026 · DMF health, education and inclusion
+
+[Research receipt](records/dmf-health-education-2026-10-03.json): Health, education and disability-service evidence distinguishes spending, assets, people served and outcomes. Government replies and dated scope conflicts retained. RES-053 continues with remaining project sections, appendices and original service records. No website release.
+
+## 3 October 2026 · DMF infrastructure and forest evidence
+
+[Research receipt](records/dmf-infrastructure-2026-10-03.json): Infrastructure and afforestation evidence distinguishes completed assets from operating services and seedlings from surviving trees. Actual recovery and modelled service loss remain distinct; chronology gaps held. RES-053 continues with remaining project sections, appendices and original service records. No website release.
+
+## 3 October 2026 · DMF appendix reconciliation
+
+[Research receipt](records/dmf-appendices-2026-10-03.json): Supporting appendices enrich existing observations without duplication. Works-collection and quarry-demand aggregates held; original values and review history preserved. Selected checks do not validate every source row. RES-053 continues with remaining project sections, appendices and original service records. No website release.
+
+## 3 October 2026 · DMF planning and desk milestone
+
+[Research receipt](records/dmf-planning-2026-10-03.json): FullChapterIV joins historical allocations, village coverage, approvals and responses to saved funding/service evidence. RES-053 desk deliverable complete; current records and source conflicts remain open with retries. NextRES-054. No website release.
+
+## 3 October 2026 · Niyamgiri community-rights checkpoint
+
+[Research receipt](records/mining-rights-2026-10-03.json): A separate proposed-mine identity links court directions and minister-reported village decisions, preserving disputed positions and original-record gaps. RES-054 continues with monitoring, safety and restoration. No website release.
+
+## 3 October 2026 · Kodingamali environmental-work checkpoint
+
+[Research receipt](records/kodingamali-environment-2026-10-03.json): The existing mine identity gains planting, backfill and topsoil figures from the saved original. Scope and cost ambiguities are retained. RES-054 continues with safety and measured recovery. No website release.
+
+## 3 October 2026 · Bharatpur worker-safety checkpoint
+
+[Research receipt](records/bharatpur-safety-2026-10-03.json): One dated accident identity connects the Ministry agenda and parliamentary row. Same event counted once; recommendations are distinct from implemented corrective action. RES-054 continues with monitoring and closure. No website release.
+
+## 3 October 2026 · Baphlimali monitoring and recovery checkpoint
+
+[Research receipt](records/baphlimali-monitoring-2026-10-03.json): The existing mine study connects reported water/waste handling with audit findings and held measurement/recovery claims. Original tables and denominators remain gaps; RES-054 deferred, independent RES-055 next. No website release.
+
+## 3 October 2026 · Mineral-research checkpoint
+
+[Research receipt](records/mineral-research-2026-10-03.json): IMMT history connects mineral science with dated bench-scale and pilot stages. RES-055 remains in progress; commercial outcomes and mining-town histories remain open. No website release.
+
+## 3 October 2026 · Mining-place history checkpoint
+
+[Research receipt](records/mining-town-history-2026-10-03.json): Talcher and Rourkela histories distinguish lease, production, furnace firing and dedication. Social-history and scientific-credit work remains; RES-055 in progress. No website release.
+
+## 4 October 2026 · Mineral-scientist checkpoint
+
+[Research receipt](records/mineral-scientists-2026-10-04.json): Mamata Mohapatra and M.G. Sujana profiles connect to the IMMT research record; review coauthors and grant/visit periods remain explicit. Original-work and pilot-outcome checks remain; RES-055 in progress. No website release.
+
+## 4 October 2026 · Mineral works and later evidence
+
+[Research receipt](records/mineral-work-outcomes-2026-10-04.json): RES-055 bounded synthesis complete: original Sujana–Anand abstract and later pilot-facility visit evidence added. Commercial outcomes and identity joins remain unresolved with dated follow-ups. No website release.
+
+## 2 October 2026 · District entrepreneurship research
+
+[Research receipt](records/district-business-opportunities-2026-10-02.json): established an opportunity research layer and portable business-book requirements. Thirty district coverage records, five hypotheses, first Koraput brief; no completed feasibility plans or website release.
+
+## 2 October2026 · Koraput coffee retail research
+
+[Research receipt](records/koraput-coffee-retail-2026-10-02.json): scoped offline resale of sealed packs; captured primary regulatory criteria and state production estimates with supplier/institution limits. No local demand, margins, current premises or completed business plan. No website change.
+
+## 3 October 2026 · Coffee supply and municipal research
+
+[Research receipt](records/koraput-coffee-supply-2026-10-03.json): added a seller pack comparator and scoped Koraput municipal evidence; rejected an unrelated domain redirect. No local demand, margins, current premises or completed business plan. No website change.
+
+## 3 October 2026 · Bargarh textile service research
+
+[Research receipt](records/bargarh-catalogue-service-2026-10-03.json): added original buyer specifications, producer routes and scoped Bargarh municipal evidence. Local customers, prices, permissions and returns remain unknown. No website change.
+
+## 3 October 2026 · Puri service research checkpoint
+
+[Research receipt](records/puri-walk-checkpoint-2026-10-03.json): narrowed a Puri outdoor walking-service model with historical institutional specifications and explicit demand/permission/cost gaps; deferred unavailable coffee originals. No website change.
+
+## 3 October 2026 · Puri training and price research
+
+[Research receipt](records/puri-guide-prices-2026-10-03.json): extended the Puri dossier with national training stages and fee scope, quote-only supplier evidence and an empty-directory check. Local authority and paid-demand gaps remain. No website change.
+
+## 3 October 2026 · Puri permissions and desk milestone
+
+[Research receipt](records/puri-permissions-2026-10-03.json): completed the bounded desk dossier with national recognition criteria and a reused Puri tariff, preserving unknown legal applicability, paid demand and costs. No website change.
+
+## 3 October 2026 · Puri downloadable business starter
+
+[Research receipt](records/puri-starter-guide-2026-10-03.json): created a nine-page guide with 26 blank fields, linked evidence and a manual financial worksheet. Saved and reopened test fields; no website change.

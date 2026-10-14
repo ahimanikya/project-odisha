@@ -52,3 +52,7 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 
 
 [^services-air]: [Rajya Sabha Unstarred Question 3071, answered 27 March 2025, Annexure II](https://www.rsdebate.nic.in/bitstream/123456789/755745/1/PQ_267_27032025_U3071_p149_p166.pdf)
+
+## Baphlimali monitoring checkpoint · 3 October 2026
+
+[The existing mine study](../economy/bauxite-mine-identities.md) now distinguishes reported water/waste handling from held pollutant comparisons, audit findings and rehabilitation claims. Site figures are not district air-quality or ecological-recovery measures.

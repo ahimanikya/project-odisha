@@ -18,6 +18,7 @@ const groups=[...new Set(c.entries.map(e=>e.group))].sort((a,b)=>areaOrder.index
 {c.slug==='things-to-do'&&allowsPage('/textiles/')&&<p class="planning-note"><a href="/textiles/">Woven in Odisha →</a> Begin with Bandha, Khandua, Kotpad and Tasar, then plan a conversation with a weaver.</p>}
 <PlanningPaths current={'/'+c.slug+'/'}/>
 {c.slug==='food'&&<FoodDiscovery/>}
+{c.slug==='food'&&allowsPage('/culture/osha/')&&<p class="planning-note"><a href="/culture/osha/">Osha, stories & the food year →</a> Explore occasions, traditional months and the meanings carried by food.</p>}
 <p class="planning-note">{c.note}</p>
 <nav class="area-links" aria-label="Jump to an area">{groups.map(g=><a href={'#'+g.id}>{g.area} <span>({g.entries.length})</span></a>)}</nav>
 {groups.map(g=><section class="planning-area" id={g.id} aria-labelledby={g.id+'-heading'}><header><p class="eyebrow">{g.entries.length} {g.entries.length===1?'idea':'ideas'} to make your own</p><h2 id={g.id+'-heading'}>{g.area}</h2></header><div class="planning-cards">{g.entries.map(i=><article class="utk-card planning-card">

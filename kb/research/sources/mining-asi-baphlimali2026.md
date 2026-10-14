@@ -22,3 +22,7 @@ Original source: [publisher record](https://aluminium-stewardship.org/wp-content
 ## Extended scope · 3 October 2026
 
 The same PDF was reread at criteria 6.1 and 8.7 (pp.10–11,13–14), with selected visual checks. [Environmental and restoration interpretation](../economy/mining-land-and-people.md) retains the vehicle-emission monitoring gap, planting-unit ambiguity and missing recovery evidence. No extra independent source or new atlas observation is claimed.
+
+## Environmental scope extension · 3 October 2026
+
+Saved original PDF reused; pp.10–14 text read, pp.10–13 visually checked. Audit findings and claimed outcomes distinguished; raw monitoring evidence not available. [Structured comparison](../references/data/mining-environment-rights.json).

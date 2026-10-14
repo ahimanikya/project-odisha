@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.0",
+  "task_id": "RES-077",
+  "batch_id": "OSHA-B05",
+  "run_id": "2026-10-07-pandu",
+  "checked_at": "2026-10-07T19:12:35.522619+00:00",
+  "scope": "Pandu profile; source-specific food and narrative, no complete katha or historical origin.",
+  "source_checks": [
+    {
+      "source_id": "osha-pandu-puriwaves",
+      "url": "https://puriwaves.nirmalya.in/festivals/pandu-osha-in-odisha",
+      "checked_at": "2026-10-07T19:12:35.522619+00:00",
+      "status": "available",
+      "locator": "Narratives; food paragraph and Chanda Chakata caption; sweeping paragraph (web lines27–36)",
+      "scope": "Modern heritage-page description and captions, not fieldwork or an inspected katha. Article byline and publication date not displayed in extracted page. Food photograph credited to odiafoods.in; that original account was not inspected. Similar repeated story wording across other blogs is not independent corroboration. Timing and ingredient glosses require local/textual clarification.",
+      "method": "Web extraction; selected passages inspected"
+    },
+    {
+      "source_id": "osha-pandu-odiaportal",
+      "url": "https://www.odiaportal.in/2018/12/Download-Pandu-Osha-Odia-eBook.pdf.html",
+      "checked_at": "2026-10-07T19:12:35.522619+00:00",
+      "status": "available",
+      "locator": "Displayed post date; About Book; app-only access notice (web lines27–57)",
+      "scope": "Landing page attributes the advertised book to Ananta Das; author identity, edition, imprint and contents uninspected. Page publication date is not composition or edition date. Book only offered through Android app in this pass; no scan rights or redistribution claimed.",
+      "method": "Web extraction; selected passages inspected"
+    },
+    {
+      "source_id": "osha-jhoti-biswal-dash2020",
+      "url": "https://utkaluniversity.ac.in/wp-content/uploads/2023/08/Man-in-Society-Anthropology.pdf",
+      "checked_at": "2026-10-07T19:12:35.522619+00:00",
+      "status": "available",
+      "locator": "Printed113 / PDF114: title, authors and introduction; printed117 / PDF118: item9 and materials/techniques",
+      "scope": "Selected original journal text extracted from university-hosted PDF. Names Pandu among observances associated with jhoti; general techniques are not a specific Pandu design or sampled local ritual. No fieldwork sample/date is established by the inspected passages. Page-image retrieval failed; no visual inspection claimed. Broad historical, nutritional and universal-practice assertions are not adopted.",
+      "method": "Web extraction; selected passages inspected"
+    }
+  ],
+  "failed_fetches": [
+    {
+      "url": "https://www.odiaportal.in/2018/12/Download-Pandu-Osha-Odia-eBook.pdf.html",
+      "checked_at": "2026-10-07T19:12:35.522619+00:00",
+      "status": "unavailable",
+      "method": "Book-content recovery",
+      "error": "App-only download notice; no accessible book text or imprint in inspected page",
+      "scope": "Landing page available; book contents unavailable."
+    },
+    {
+      "url": "https://utkaluniversity.ac.in/wp-content/uploads/2023/08/Man-in-Society-Anthropology.pdf",
+      "checked_at": "2026-10-07T19:12:35.522619+00:00",
+      "status": "unavailable",
+      "method": "Web PDF screenshot, zero-based117",
+      "error": "Internal Error",
+      "scope": "Text extraction available; original page image not recovered."
+    }
+  ],
+  "source_reuse": [
+    {
+      "source_id": "osha-review2006",
+      "run_id": "2026-10-07-pandu",
+      "checked_at": "2026-10-07T19:12:35.522619+00:00",
+      "locator": "Printed15 / PDF1, Pandu Osha Brata entry",
+      "scope": "Saved original text and previously inspected page image reused; same publication, not independent corroboration."
+    },
+    {
+      "source_id": "osha-mahanti",
+      "run_id": "2026-10-07-pandu",
+      "checked_at": "2026-10-07T19:12:35.522619+00:00",
+      "locator": "Printed60 / PDF76, Pandu and following Bata paragraphs",
+      "scope": "Saved original text and previously inspected page image reused; same publication, not independent corroboration."
+    },
+    {
+      "source_id": "osha-kanji-sarangi2018",
+      "scope": "Saved Bata sequence compared through existing Bata profile; not silently reassigned to Pandu."
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "PANDU-C01",
+      "field": "dedication",
+      "accounts": [
+        {
+          "source_id": "osha-review2006",
+          "value": "Yudhisthira",
+          "locator": "p.15"
+        },
+        {
+          "source_id": "osha-mahanti",
+          "value": "Yudhisthira or Pandu reported alternatives",
+          "locator": "p.60"
+        }
+      ],
+      "status": "alternatives_retained",
+      "historical_origin": null
+    },
+    {
+      "id": "PANDU-C02",
+      "field": "road-sweeping sequence",
+      "accounts": [
+        {
+          "source_id": "osha-mahanti",
+          "value": "Begins full moon, continues into next month",
+          "locator": "p.60"
+        },
+        {
+          "source_id": "osha-pandu-puriwaves",
+          "value": "Concludes on Pandu Purnima",
+          "locator": "sweeping paragraph"
+        }
+      ],
+      "status": "unresolved"
+    }
+  ],
+  "holds": [
+    {
+      "source_id": "osha-pandu-puriwaves",
+      "field": "worship time",
+      "source_wording": "when sun rises they worship moon",
+      "status": "not_adopted_as_schedule"
+    },
+    {
+      "source_id": "osha-pandu-puriwaves",
+      "field": "food wording and photo provenance",
+      "status": "Original odiafoods.in account and rice-processing terminology need inspection; no image reuse or exact recipe"
+    },
+    {
+      "source_id": "osha-pandu-odiaportal",
+      "field": "author identity",
+      "attributed_name": "Ananta Das",
+      "edition_date": null,
+      "contents_inspected": false,
+      "identity_verified": false
+    },
+    {
+      "source_id": "osha-mahanti",
+      "field": "present-day disappearance",
+      "status": "No statewide survey or dated observation; not adopted as current status"
+    }
+  ],
+  "narratives": {
+    "source_id": "osha-pandu-puriwaves",
+    "canonical_section": "Brief stories, not a recovered katha",
+    "evidence_class": "ritual_narrative",
+    "complete_katha": false,
+    "historical_event_verified": false
+  },
+  "food_records": [
+    {
+      "source_id": "osha-pandu-puriwaves",
+      "canonical_section": "A shaped offering under the full moon",
+      "names": [
+        "chanda / Chanda Chakata in Puriwaves",
+        "fruit offerings",
+        "khechudi in Puriwaves",
+        "white manda / shukla manda in Puriwaves"
+      ],
+      "measured_recipe": false,
+      "independent_corroboration": false
+    }
+  ],
+  "science_scope": "General material techniques in journal account, not experimental outcomes or a Pandu-specific drawing/recipe.",
+  "followup": {
+    "retry_after": "2026-10-14",
+    "needs": [
+      "Can the advertised Pandu Osha text be recovered with title page, imprint and readable passages?",
+      "How do local observers explain Pandu, Yudhisthira and Kandu/Nrusingh associations?",
+      "Does the sweeping cycle begin or conclude at Pandu Purnima in each named locality?",
+      "Which rice preparation is used in chanda, and how do cooks distinguish it from other moon-shaped offerings?"
+    ],
+    "independent_next": "Shani Osha"
+  },
+  "fieldwork_conducted": false,
+  "human_review_claimed": false,
+  "origin_date": null,
+  "annual_date": null,
+  "current_serving_availability": null
+}

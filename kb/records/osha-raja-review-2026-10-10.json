@@ -1,0 +1,63 @@
+{
+  "recorded_at": "2026-10-10T09:43:50.199797+00:00",
+  "task_id": "RES-077",
+  "authorization": "Existing deep-research request and recurring authorisation for routine validated branch updates",
+  "source_runs": [
+    "2026-10-10-seasonal-public-food",
+    "2026-10-10-raja"
+  ],
+  "profiles": 53,
+  "narrative_checkpoints": 14,
+  "early_notes": 39,
+  "imported_paths": [
+    "culture/osha-brata-seasonal-food.md",
+    "culture/osha/guru-purnima-brata.md",
+    "culture/osha/raja-parba.md",
+    "food/arisa-pitha.md",
+    "food/poda-pitha.md",
+    "food/preparation-and-variation.md",
+    "references/data/osha-culture.json",
+    "references/data/raja-research.json",
+    "references/data/seasonal-food-calendar.json",
+    "references/data/seasonal-public-food-evidence.json",
+    "sources/food-otdc-raja-undated.md",
+    "sources/food-raja-otdc2021.md",
+    "sources/osha-mahanti.md",
+    "sources/osha-raja-mohapatra2006.md",
+    "visitor-index/seasonal-food-guide.md",
+    "visitor-index/seasonal-food-offer-evidence.md"
+  ],
+  "validation": {
+    "result": "PASS",
+    "project_checks": 23,
+    "site_checks": 10,
+    "full_site_tests": 472,
+    "built_pages": 204
+  },
+  "human_review": false,
+  "publication": false,
+  "scope": "Existing Raja seasonal identity deepened; public-food descriptions do not verify current availability.",
+  "next_action": "Review the53-profile candidate and new dated-food evidence page; retain prior14–17October text, locality and operator holds. Source workspace remains scheduling authority. Earlier Raja witnesses and museum original retry17October. No current offer, human review or publication inferred.",
+  "browser_checks": {
+    "checked_at": "2026-10-10T09:48:57.241259+00:00",
+    "method": "Codex in-app browser, local-only preview",
+    "result": "PASS",
+    "checks": [
+      "New food-evidence page visibly separates historical, undated and planned services; no current offer message visible.",
+      "Followed Raja link from food-evidence page; article, six source anchors, poda-pitha link and reciprocal guide link visible.",
+      "Collection search Raja Parba returns one matching observance.",
+      "Default desktop viewport screenshot inspected; no clipping in heading, lead or availability note."
+    ],
+    "limits": "No independent human or Odia review; mobile viewport not tested in this run."
+  },
+  "repairs": [
+    "Regenerated derived editorial-workbench after additional source records.",
+    "Updated fixed route count for one new non-profile guide; all local links/assets/fragments pass."
+  ],
+  "base_context": {
+    "branch_tip_before": "229570c30283ab7512d605bf2876e6b91e6f65ef",
+    "main_observed": "6590052",
+    "no_overlapping_main_changes_in_selected_osha_paths": true,
+    "autonomous_500_program": "Not modified; existing editorial-workbench derivative refreshed without altering its frozen selection or approval state."
+  }
+}

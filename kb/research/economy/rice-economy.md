@@ -4,7 +4,7 @@ title: "Odisha’s rice economy: from paddy to value"
 description: "A sourced starting account of rice production, procurement and milling, with price bases and open profitability questions."
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-01T20:10:23.860704+00:00"}
-sources: [{"id": "rice-oas2024", "title": "Odisha Agriculture Statistics 2023–24", "resource": "https://agri.odisha.gov.in/sites/default/files/2025-05/OAS%20A4.pdf"}, {"id": "rice-fscw2025", "title": "Food Supplies and Consumer Welfare Annual Activities Report 2024–25", "resource": "https://www.foododisha.in/Download/annual-activity-glance-24-25.pdf"}, {"id": "rice-sahoo-cost2023", "title": "Study of Cropping Pattern and Profitability Analysis of Major Crops of North Eastern Ghats Agro-Climatic Zone of Odisha", "resource": "https://ndpublisher.in/countpdfdownload.php?id=5788&pdf=EAv68n1p.pdf"}, {"id": "rice-fscw2026", "title": "Food Supplies and Consumer Welfare Annual Activity Report 2025–2026", "resource": "https://foododisha.in/Download/annual-activity-glance-25-26.pdf"}]
+sources: [{"id": "rice-oas2024", "title": "Odisha Agriculture Statistics 2023–24", "resource": "https://agri.odisha.gov.in/sites/default/files/2025-05/OAS%20A4.pdf"}, {"id": "rice-fscw2025", "title": "Food Supplies and Consumer Welfare Annual Activities Report 2024–25", "resource": "https://www.foododisha.in/Download/annual-activity-glance-24-25.pdf"}, {"id": "rice-sahoo-cost2023", "title": "Study of Cropping Pattern and Profitability Analysis of Major Crops of North Eastern Ghats Agro-Climatic Zone of Odisha", "resource": "https://ndpublisher.in/countpdfdownload.php?id=5788&pdf=EAv68n1p.pdf"}, {"id": "rice-fscw2026", "title": "Food Supplies and Consumer Welfare Annual Activity Report 2025–2026", "resource": "https://foododisha.in/Download/annual-activity-glance-25-26.pdf"}, {"id": "rice-jaivik-products", "title": "Jaivik Sri Farmers Producer Company — products and organisation", "resource": "https://www.jaiviksrifpc.com/"}, {"id": "rice-myefarm-listing", "title": "Kalajeera Rice — myefarm catalogue", "resource": "https://www.mye.farm/shop/kalajeera-rice"}, {"id": "rice-apeda-promotion2025", "title": "APEDA Annual Administrative Report 2024–25 — Odisha capacity development", "resource": "https://apeda.gov.in/sites/default/files/annual_report/APEDA_Annual_Report_English_2024_25.pdf"}, {"id": "rice-cgiar-trade2024", "title": "Drivers of Agrifood System Transformation in Odisha", "resource": "https://cgspace.cgiar.org/server/api/core/bitstreams/5a2723be-0b6d-4b73-af7c-bb61bc42ba97/content"}, {"id": "rice-yadav-landraces2026", "title": "Preserving agrobiodiversity: socio-cultural and economic drivers of landrace conservation in Odisha, India", "resource": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2026.1769950/full"}]
 human_review_claimed: false
 subjects: ["economy", "food", "governance"]
 ---
@@ -75,3 +75,31 @@ A regional study published in March 2023 reports **₹79,050/ha gross income** a
 The full study sampled 120 farmers across six clusters; the paddy-specific sample and survey year are unclear. Context tables use 2018–19, which we have not assigned to the paddy case. These nominal historical values cannot be extrapolated to statewide farmer profit or compared with current MSP as a margin.
 
 [The short cost story](../stories/rice-income-after-costs.md) explains the difference between gross value and net income. The [structured case](../references/data/rice-economy.json) retains rounding differences and conflicting definitions. The existing Samant experimental case remains separately identified.
+
+## Kalajeera: a place-linked rice needs a traceable market
+
+**A rice name can carry a place into a market. The next question is what reaches its growers.** The [market evidence register](../references/data/rice-markets.json) separates domestic selling, producer catalogues, export promotion and shipment evidence.
+
+A study published **19 February 2026** describes Kalajeera from Macchra, Koraput reaching New Delhi through support from ORMAS and district administration. It reports retail prices **up to ₹300/kg**, without a dated price observation or matched farmer receipt. This is an attributed domestic-market account, not a current quotation or a measure of farm profit. [Original study, section 3.4](https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2026.1769950/full).
+
+| Evidence | What a prospective business can learn | What remains unknown |
+| --- | --- | --- |
+| [Jaivik Sri producer catalogue](https://www.jaiviksrifpc.com/) | A named Koraput producer organisation lists Kalajeera, black rice and Basabhoga. | Dated rice sales, lot identity, costs and farmer settlements. |
+| [myefarm listing](https://www.mye.farm/shop/kalajeera-rice) checked 4 October 2026 | Seller describes Kandhamal sourcing through SHGs; 1kg and 5kg packs, enquiry-based ordering. | Named supplier, price, stock and completed sale. This is not verified Koraput GI rice or a demonstrated Jaivik connection. |
+| [APEDA annual report](https://apeda.gov.in/sites/default/files/annual_report/APEDA_Annual_Report_English_2024_25.pdf), printed p.114, row16 | A 20 February 2025 Bhubaneswar consultation included Kalajeera in export promotion. | Shipment, buyer country, quantity and receipts. |
+
+### Why a port number is not a rice-origin number
+
+[CGIAR’s 2024 institutional analysis](https://cgspace.cgiar.org/server/api/core/bitstreams/5a2723be-0b6d-4b73-af7c-bb61bc42ba97/content) discusses Odisha rice using Vizag and Kakinada ports (printed p.27). Its port volume includes unspecified origins. Neither an Odisha-grown total nor a Kalajeera export total can be calculated from that paragraph. The document’s cover and footer disagree on publication month; both are preserved in the source record.
+
+### An enterprise question worth testing
+
+*Editorial opportunity, not a feasibility finding:* could a producer-led, traceable aromatic-rice line serve food shops, chefs and gifting buyers? Start with an identified lot, honest origin, milling recovery, packaging costs, dated orders and farmer settlement. A retail price minus a paddy price is not a margin: they refer to different product stages and may concern different dates and suppliers.
+
+The bounded research did not establish a matched producer-to-retail transaction or an origin-attributed overseas shipment. Seek those records after **11 October 2026**. A saved report of dispatch to Haryana is a secondary domestic-trade lead, not export evidence. No contact, order, interview or supplier endorsement has been made.
+
+[Koraput ingredient profile](../food/koraput-kalajeera-rice.md) — Connects the place-linked ingredient to market evidence without treating listings as sales or retail prices as farmer returns.
+
+## Food-processing evidence · 4 October 2026
+
+[The dairy and processing study](food-processing-and-dairy.md) connects existing crop and milk records with dated OMFED procurement, turnover and a historical conversion tender. Physical output, supplier contracts and district business profitability remain separate questions.

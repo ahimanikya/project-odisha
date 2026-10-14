@@ -53,3 +53,7 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 
 
 [^services-urban]: [Housing and Urban Development Activity Report 2023-24](https://urban.odisha.gov.in/sites/default/files/2025-06/English%20Activity%20Report%202024%20Final_0.pdf)
+
+## Mining-area infrastructure and operating services · 3 October 2026
+
+[The DMF service study](../economy/dmf-from-funds-to-services.md) adds Hemgiri garbage-storage and dated lighting/community-facility evidence. Hemgiri is a rural block case, not an urban sanitation indicator. Completed units, operating facilities and services delivered remain separate; no current district ranking follows from the audit sample.

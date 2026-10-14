@@ -1,0 +1,4532 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-10-10-seasonal-navigation",
+  "task_id": "RES-077",
+  "prepared_at": "2026-10-10T10:42:25.456209+00:00",
+  "evidence_basis": "Editorial normalization of saved source-linked profiles and seasonal records. No fresh retrieval or independent corroboration.",
+  "status": "draft_website_candidate",
+  "human_review_claimed": false,
+  "website_implemented": true,
+  "months": [
+    {
+      "id": "chaitra",
+      "label": "Chaitra"
+    },
+    {
+      "id": "baisakha",
+      "label": "Baisakha"
+    },
+    {
+      "id": "jyestha",
+      "label": "Jyestha"
+    },
+    {
+      "id": "ashadha",
+      "label": "Ashadha"
+    },
+    {
+      "id": "sravana",
+      "label": "Sravana"
+    },
+    {
+      "id": "bhadraba",
+      "label": "Bhadraba"
+    },
+    {
+      "id": "ashwina",
+      "label": "Ashwina"
+    },
+    {
+      "id": "kartika",
+      "label": "Kartika"
+    },
+    {
+      "id": "margasira",
+      "label": "Margasira"
+    },
+    {
+      "id": "pausa",
+      "label": "Pausa"
+    },
+    {
+      "id": "magha",
+      "label": "Magha"
+    },
+    {
+      "id": "phalguna",
+      "label": "Phalguna"
+    }
+  ],
+  "alias_groups": {
+    "bhadraba": [
+      "Bhadraba",
+      "Bhadrava",
+      "Bhadrab"
+    ],
+    "ashwina": [
+      "Ashwina",
+      "Aswina"
+    ],
+    "sravana": [
+      "Sravana",
+      "Srabana"
+    ],
+    "pausa": [
+      "Pausa",
+      "Pusha",
+      "Pusa"
+    ]
+  },
+  "policies": [
+    "Month facets are reading categories, not occurrence dates or statewide calendars.",
+    "Only month_ids enter an ordinary month filter; unresolved_month_ids are alternatives in a visible disagreement view.",
+    "Recurring entries require explicit recurrence evidence; null month alone never means recurring.",
+    "Solar transition has its own category; do not convert source labels into a lunar month.",
+    "No Gregorian month or weather-season mapping is inferred from lunar labels. Raja’s saved June association remains separately scoped.",
+    "Search may retain verbatim food terms, but food_role_note must remain visible; comparisons and narrative foods are not local menus.",
+    "Each profile appears once in the unfiltered collection; Somnath can match two month filters without duplicate cards.",
+    "Current serving availability requires separate operator evidence. Historical and planned records remain non-current."
+  ],
+  "rows": [
+    {
+      "profile_id": "OSHA-001",
+      "seasonal_id": "SEAS-007",
+      "name": "Khudurukuni Osha",
+      "profile_path": "culture/osha/khudurukuni.md",
+      "route": "/culture/osha/khudurukuni/",
+      "source_checked_on": "2026-10-07",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "bhadraba"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Month label reused from the saved Odisha account; exact annual date remains unverified.",
+      "traditional_month_verbatim": "Bhadraba",
+      "calendar_rule_verbatim": null,
+      "food_terms_verbatim": [
+        "khuda offerings"
+      ],
+      "food_role_note": "Khuda is an offering; processing terms conflict and no recipe is established.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-ray2020",
+        "osha-patra2019",
+        "osha-tapoi-lokaratna2013",
+        "osha-irri-grain-preparation"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "The story remembered",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-ray2020"
+          ],
+          "locator": "2020 article, Tapoi narrative following the evening ritual"
+        },
+        {
+          "section_title": "Girls as keepers of the observance",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-ray2020"
+          ],
+          "locator": "2020 article, ritual sequence; Balunka caption"
+        },
+        {
+          "section_title": "Food makes the story tangible",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-patra2019",
+            "osha-ray2020"
+          ],
+          "locator": "Patra printed p.48; Ray food-offerings paragraph"
+        },
+        {
+          "section_title": "History still to establish",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-ray2020",
+            "osha-patra2019"
+          ],
+          "locator": "Publication and attribution boundaries"
+        },
+        {
+          "section_title": "A printed witness to pursue",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-tapoi-lokaratna2013"
+          ],
+          "locator": "2013 paper, PDF p.50, references"
+        },
+        {
+          "section_title": "Keep authorship and food terms open",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-tapoi-lokaratna2013",
+            "osha-patra2019",
+            "osha-irri-grain-preparation"
+          ],
+          "locator": "2013 PDF p.42; Patra p.48; IRRI dehulling/polishing paragraphs"
+        }
+      ],
+      "profile_digest": "01776162120c31a4d9cfe3b2dda154f29e3b23859ca1bd76295d16c4ece19de1",
+      "seasonal_entry_digest": "7667b272a4acffaa72f3760a606892cc21140565ae945436861b4cda1af24f0a"
+    },
+    {
+      "profile_id": "OSHA-002",
+      "seasonal_id": "SEAS-004",
+      "name": "Manabasa Gurubara",
+      "profile_path": "culture/osha/manabasa-gurubara.md",
+      "route": "/culture/osha/manabasa-gurubara/",
+      "source_checked_on": "2026-10-11",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "margasira"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Month label reused from the saved Odisha account; exact annual date remains unverified.",
+      "traditional_month_verbatim": "Margasira",
+      "calendar_rule_verbatim": null,
+      "food_terms_verbatim": [
+        "khiri",
+        "khechudi",
+        "kakara",
+        "chakuli"
+      ],
+      "food_role_note": "Existing associated foods retained. Digital text distinguishes ritual arrangement, separate Sudasa manda instructions and story’s shared-food condition; no universal menu or current serving venue.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-ghadai2018",
+        "osha-lakshmi2021",
+        "osha-review2006",
+        "osha-manabasa-wikisource"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "Lakshmi and the rejected devotee",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-ghadai2018"
+          ],
+          "locator": "Cult of Goddess Mahalakshmi, printed p.102"
+        },
+        {
+          "section_title": "Hunger changes the argument",
+          "evidence_class": "editorial_interpretation",
+          "source_ids": [
+            "osha-lakshmi2021"
+          ],
+          "locator": "Printed p.23, Lakshmi Purana discussion"
+        },
+        {
+          "section_title": "The meal and the recognition",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-ghadai2018"
+          ],
+          "locator": "Printed pp.103–104"
+        },
+        {
+          "section_title": "The household observance",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-lakshmi2021",
+            "osha-review2006"
+          ],
+          "locator": "Mohanty p.23; Dash p.17"
+        },
+        {
+          "section_title": "The measure, grain and drawn threshold",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-manabasa-wikisource"
+          ],
+          "locator": "Revision57790, displayed45–56; opening ମାର୍ଗଶିର ମାସେ"
+        },
+        {
+          "section_title": "A separate Sudasa passage",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-manabasa-wikisource"
+          ],
+          "locator": "Revision57790, displayed57–69; opening ମହାଲକ୍ଷ୍ମୀଙ୍କର ଆଉ ଏକ ବ୍ରତ"
+        },
+        {
+          "section_title": "Return on the condition of shared food",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-manabasa-wikisource"
+          ],
+          "locator": "Revision57790, displayed463–480; especially477–479"
+        },
+        {
+          "section_title": "What this witness cannot date",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-manabasa-wikisource"
+          ],
+          "locator": "Revision57790, header1868 and author attribution; source edition not established"
+        }
+      ],
+      "profile_digest": "6714a23c79f9c1a3273f49ff15ee057eab8dcccd1c6cf2147574efb6b750fadc",
+      "seasonal_entry_digest": "7c3581debc9c841857d4e7c4a88860ae4983593601542bb2d1068878b461ad1e"
+    },
+    {
+      "profile_id": "OSHA-003",
+      "seasonal_id": "SEAS-003",
+      "name": "Sudasa Brata",
+      "profile_path": "culture/osha/sudasa-brata.md",
+      "route": "/culture/osha/sudasa-brata/",
+      "source_checked_on": "2026-10-11",
+      "calendar_status": "recurring_with_conflict",
+      "month_ids": [],
+      "unresolved_month_ids": [
+        "kartika"
+      ],
+      "calendar_note": "Thursday coinciding with bright tenth; Kartika-only account retained as a disagreement.",
+      "traditional_month_verbatim": null,
+      "calendar_rule_verbatim": null,
+      "food_terms_verbatim": [
+        "manda"
+      ],
+      "food_role_note": "Manda offering: one digital witness names rice/flour preparation and filling, but no cooking method. Its distribution restriction is textual, not verified household practice.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-lakshmi2021",
+        "osha-mahanti",
+        "osha-review2006",
+        "osha-sudasa-scan",
+        "osha-sudasa-prose",
+        "osha-nmm-catalogue",
+        "osha-manabasa-wikisource"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "The vow and its objects",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-lakshmi2021",
+            "osha-mahanti",
+            "osha-review2006"
+          ],
+          "locator": "Mohanty p.25; Mahanti p.43; Dash p.15"
+        },
+        {
+          "section_title": "Manda in the offering",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006"
+          ],
+          "locator": "Printed pp.17–18"
+        },
+        {
+          "section_title": "Two stories around the vow",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-sudasa-scan",
+            "osha-sudasa-prose"
+          ],
+          "locator": "Verse printed pp.1–12; prose PDF pp.1–4"
+        },
+        {
+          "section_title": "What history can and cannot say",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed p.43"
+        },
+        {
+          "section_title": "A printed offering passage",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-sudasa-scan"
+          ],
+          "locator": "Printed pp.2–3, especially verse17 on p.2; PDF p.3"
+        },
+        {
+          "section_title": "Rice and filling in another textual witness",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-manabasa-wikisource",
+            "osha-sudasa-scan"
+          ],
+          "locator": "Revision57790, displayed57–68, especially66–67; scanned booklet printed p.2, verse17"
+        },
+        {
+          "section_title": "Who receives this offering",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-manabasa-wikisource"
+          ],
+          "locator": "Revision57790, displayed68–69; compare477–479"
+        },
+        {
+          "section_title": "Manuscripts to compare",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-nmm-catalogue"
+          ],
+          "locator": "PDF pp.20–21"
+        }
+      ],
+      "profile_digest": "303cd22480df387eec409ee72260145c3b4592a77c132877f317e7a8f839e29c",
+      "seasonal_entry_digest": "d016b8a77b31223d4e2bd40f706393ba1c83670ff92530546cb14dcce6f7b3db"
+    },
+    {
+      "profile_id": "OSHA-004",
+      "seasonal_id": "SEAS-005",
+      "name": "Dutiya Osha",
+      "profile_path": "culture/osha/dutiya.md",
+      "route": "/culture/osha/dutiya/",
+      "source_checked_on": "2026-10-10",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "ashwina"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Ashwina supported; seventh/eighth-day conflict retained; annual date unknown.",
+      "traditional_month_verbatim": "Ashwina",
+      "calendar_rule_verbatim": "Mahanti dark eighth; Tripathy seventh-day conflict retained. No annual date adopted.",
+      "food_terms_verbatim": [
+        "ghanta tarkari"
+      ],
+      "food_role_note": "Produce offered as bhoga becomes ghanta for meal/exchange; source-specific fruit/leaf terms are not a complete recipe. General food listing is not a ritual serving offer.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-review2006",
+        "osha-mahanti",
+        "osha-dutiya-tripathy2023",
+        "osha-nmm-catalogue",
+        "osha-osm-literature",
+        "food-jajpur-tourism-ghanta"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "Produce changes its role",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-mahanti"
+          ],
+          "locator": "Dash printed15/PDF1 and17/PDF3; Mahanti printed58/PDF74"
+        },
+        {
+          "section_title": "A maternal vow and its figures",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-review2006"
+          ],
+          "locator": "Mahanti printed58/PDF74; Dash printed15/PDF1"
+        },
+        {
+          "section_title": "A published story of choosing to protect another",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-dutiya-tripathy2023"
+          ],
+          "locator": "Published6October2023; narrative paragraphs, web27–28"
+        },
+        {
+          "section_title": "An offering list is not a recipe",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006"
+          ],
+          "locator": "Printed17/PDF3, right column, Dutiya passage followed by Danda Panhara"
+        },
+        {
+          "section_title": "Where history still needs a text",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-nmm-catalogue",
+            "osha-osm-literature",
+            "osha-dutiya-tripathy2023"
+          ],
+          "locator": "NMM PDF21,45; museum OL/2673,2674; Tripathy web26; existing text-witness portal lead"
+        },
+        {
+          "section_title": "A seasonal enquiry, not a promised meal",
+          "evidence_class": "visitor_context",
+          "source_ids": [
+            "osha-mahanti",
+            "food-jajpur-tourism-ghanta"
+          ],
+          "locator": "Mahanti printed58/PDF74; retained text-witness calendar conflict; Tourism gastronomy heading"
+        }
+      ],
+      "profile_digest": "76b5795dc2894d29dbc7f414320c626715c941afbd9ff89764eed2f14a177520",
+      "seasonal_entry_digest": "cf9e3e437a6ca5ee3ea4e6457f4ec251aac6f8a57b19f19878c2e03bf9243670"
+    },
+    {
+      "profile_id": "OSHA-005",
+      "seasonal_id": "SEAS-008",
+      "name": "Budhei Osha",
+      "profile_path": "culture/osha/budhei.md",
+      "route": "/culture/osha/budhei/",
+      "source_checked_on": "2026-10-10",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "bhadraba"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Bhadraba supported; lunar/solar start boundaries and four/five counts source-specific; annual dates unknown.",
+      "traditional_month_verbatim": "Bhadraba",
+      "calendar_rule_verbatim": "Bhadraba Wednesdays in Mahanti; Pradhan reports differing lunar/solar boundaries and four/five observances. No annual date or universal count.",
+      "food_terms_verbatim": [
+        "coconut",
+        "banana",
+        "fruit offerings",
+        "muan",
+        "ukhuda",
+        "khai",
+        "kakara",
+        "pitha (other types unspecified)"
+      ],
+      "food_role_note": "First-to-last coconut sequence; dated local named foods including Kakara. Final five types remain unspecified; no recipe or current offer.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-mahanti",
+        "osha-review2006",
+        "osha-budhei-pradhan2023",
+        "osha-budhei-puriwaves",
+        "osha-nmm-catalogue",
+        "osha-osm-literature",
+        "osha-budhei-portal-lead"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "The kitchen stone becomes a ritual figure",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed56–57/PDF72–73"
+        },
+        {
+          "section_title": "Names do not settle one deity",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-mahanti"
+          ],
+          "locator": "Dash printed15/PDF1; Mahanti printed56–57/PDF72–73"
+        },
+        {
+          "section_title": "The coconut carries the month",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed57/PDF73"
+        },
+        {
+          "section_title": "A Bolagarh report names the foods",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-budhei-pradhan2023"
+          ],
+          "locator": "Report food paragraphs, web29,31"
+        },
+        {
+          "section_title": "A published summary points toward several stories",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-budhei-puriwaves"
+          ],
+          "locator": "Myth-summary paragraph, web19"
+        },
+        {
+          "section_title": "Where a history must begin",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-nmm-catalogue",
+            "osha-osm-literature",
+            "osha-budhei-portal-lead"
+          ],
+          "locator": "NMM PDF13,45; museum OL/2636; portal app link"
+        },
+        {
+          "section_title": "Use the season as an enquiry",
+          "evidence_class": "visitor_context",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-budhei-pradhan2023"
+          ],
+          "locator": "Mahanti printed56–57; report web30–31"
+        }
+      ],
+      "profile_digest": "fa686d224159faf1656e85016dc31724c6d9fdb3b9322ddd3b423463dac49c24",
+      "seasonal_entry_digest": "a62b9db0fca3f8cc07ad606c27ea907a4f23d1f8b234a3319ab008fd90647c01"
+    },
+    {
+      "profile_id": "OSHA-006",
+      "seasonal_id": "SEAS-006",
+      "name": "Alana Osha",
+      "profile_path": "culture/osha/alana.md",
+      "route": "/culture/osha/alana/",
+      "source_checked_on": "2026-10-11",
+      "calendar_status": "month_conflict",
+      "month_ids": [],
+      "unresolved_month_ids": [
+        "ashwina"
+      ],
+      "calendar_note": "Ashwina versus solar Dhanu Sunday conflict held. Dhanu is not mapped to a lunar month; no ordinary month facet or annual date.",
+      "traditional_month_verbatim": "Ashwina in Dash and Mahanti; Dhanu solar Sundays in a modern collected retelling (unresolved)",
+      "calendar_rule_verbatim": "Conflict: Ashwina in Dash/Mahanti; sunrise on solar Dhanu Sundays ending at Makar Sankranti in Shrutilipi. No Gregorian date or universal season.",
+      "food_terms_verbatim": [
+        "fruits and sweets without added salt (Mahanti; types unspecified)"
+      ],
+      "food_role_note": "Unsalted fruit/sweet offerings in Mahanti; story pitha is a family meal, not a verified ritual recipe.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-review2006",
+        "osha-mahanti",
+        "osha-alana-shrutilipi2025"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "What does without salt mean?",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-mahanti"
+          ],
+          "locator": "Dash printed17/PDF3; Mahanti printed58/PDF74"
+        },
+        {
+          "section_title": "Keep the deities and calendars attributed",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-mahanti",
+            "osha-alana-shrutilipi2025"
+          ],
+          "locator": "Dash printed15/PDF1; Mahanti printed58/PDF74; Shrutilipi paragraph2"
+        },
+        {
+          "section_title": "Two daughters and a pitha meal",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-alana-shrutilipi2025"
+          ],
+          "locator": "Chapter245 paragraphs2–5"
+        },
+        {
+          "section_title": "Food in a story is not an offering recipe",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-alana-shrutilipi2025"
+          ],
+          "locator": "Mahanti printed58/PDF74; chapter245 paragraphs3,5"
+        },
+        {
+          "section_title": "A modern witness is not an origin date",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-alana-shrutilipi2025"
+          ],
+          "locator": "Listing date/credit; chapter245"
+        }
+      ],
+      "profile_digest": "82b4ea410493c1a8256f1ff704a803dd515294c23fd83649907522fb2c766672",
+      "seasonal_entry_digest": "a29e6b361c092187d3e8f0a6f0d4ed91a5153711bd1e2e62e10b10e1203bb9a6"
+    },
+    {
+      "profile_id": "OSHA-007",
+      "seasonal_id": "SEAS-009",
+      "name": "Kanji Anla Osha",
+      "profile_path": "culture/osha/kanji-anla.md",
+      "route": "/culture/osha/kanji-anla/",
+      "source_checked_on": "2026-10-11",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "margasira"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Month retained; Prathamastami versus following-day accounts conflict.",
+      "traditional_month_verbatim": "Margasira",
+      "calendar_rule_verbatim": null,
+      "food_terms_verbatim": [
+        "kanji",
+        "aonla in Mahanti’s account",
+        "sukua / dried fish offering",
+        "dried-fish rai in Sarangi’s account",
+        "rice and dal in Mahakud’s account",
+        "taro–radish–dried-fish curry in Mahakud’s account",
+        "two chakuli pithas in Mahakud’s account"
+      ],
+      "food_role_note": "Offerings fed to intended children in Mahakud; poi stalks beside ritual figures are not shared. Kitchen/courtyard arrangements are separate accounts; no universal recipe or serving offer.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-kanji-mahakud2021",
+        "osha-kanji-sarangi2018",
+        "osha-mahanti",
+        "osha-review2006"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "A mother’s appeal to Sasthi",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-kanji-mahakud2021"
+          ],
+          "locator": "Two story paragraphs preceding the ritual-procedure heading"
+        },
+        {
+          "section_title": "The offering and the ritual object",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed p.60 / PDF76"
+        },
+        {
+          "section_title": "A kitchen figure and a courtyard arrangement",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-kanji-sarangi2018",
+            "osha-kanji-mahakud2021"
+          ],
+          "locator": "Sarangi Kanji Anla passage / web172; Mahakud ritual-procedure paragraph / web88"
+        },
+        {
+          "section_title": "After the offering: children and separate ritual materials",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-kanji-mahakud2021"
+          ],
+          "locator": "Ritual-procedure paragraph / web88"
+        },
+        {
+          "section_title": "Kanji in two written descriptions",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-kanji-sarangi2018"
+          ],
+          "locator": "Dash printed p.18 note2 / PDF4; Sarangi Prathamastami–Kanji Anla paragraph"
+        },
+        {
+          "section_title": "Why the day stays unresolved",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-kanji-sarangi2018",
+            "osha-kanji-mahakud2021"
+          ],
+          "locator": "Mahanti printed p.60 / PDF76; Sarangi Kanji Anla passage; Mahakud opening calendar paragraph"
+        },
+        {
+          "section_title": "Names that should stay distinct",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-kanji-sarangi2018"
+          ],
+          "locator": "Kartika Anla Navami passage / web161; Prathamastami–Kanji Anla passage / web172"
+        }
+      ],
+      "profile_digest": "c1514107b32292cd861f19034bfb4eeb7e19c825d84f26a3dd0aaec5fa6baff6",
+      "seasonal_entry_digest": "17c12d6e883f6ac3891f8df53340a0129ffc37a82b65465318d62d5e5bf17580"
+    },
+    {
+      "profile_id": "OSHA-008",
+      "seasonal_id": "SEAS-010",
+      "name": "Bada Osha",
+      "profile_path": "culture/osha/bada.md",
+      "route": "/culture/osha/bada/",
+      "source_checked_on": "2026-10-07",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "kartika"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Month retained; bright thirteenth/fourteenth versus Purnima conflict.",
+      "traditional_month_verbatim": "Kartika",
+      "calendar_rule_verbatim": null,
+      "food_terms_verbatim": [
+        "steamed gaja offering",
+        "gaja bhoga",
+        "atakali"
+      ],
+      "food_role_note": "Gaja bhoga and atakali belong to the offering/fast-ending account; timing is unresolved.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-dhabaleswar-incredibleindia",
+        "osha-dhabaleswar-tourism",
+        "osha-jagatsinghpur",
+        "osha-mahanti"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "A story of refuge at Dhabaleswar",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-dhabaleswar-tourism"
+          ],
+          "locator": "Discover the Heritage, opening paragraph"
+        },
+        {
+          "section_title": "Another explanation of the observance",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed pp.58–59 / PDF74–75"
+        },
+        {
+          "section_title": "Fasting, worship and the offering",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed p.59 / PDF75"
+        },
+        {
+          "section_title": "Two descriptions of steamed gaja",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-jagatsinghpur"
+          ],
+          "locator": "Mahanti printed p.59 / PDF75; Jagatsinghpur printed p.52"
+        },
+        {
+          "section_title": "Atakali has a separate place",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed p.59 / PDF75"
+        },
+        {
+          "section_title": "Why the calendar remains unresolved",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-jagatsinghpur"
+          ],
+          "locator": "Mahanti printed p.58 / PDF74; Jagatsinghpur printed p.52"
+        },
+        {
+          "section_title": "A source disagreement we will not hide",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-dhabaleswar-tourism",
+            "osha-dhabaleswar-incredibleindia"
+          ],
+          "locator": "Odisha Tourism opening paragraph; Incredible India: A tale of divine intervention and The magnificence of Dhabaleswar Temple"
+        }
+      ],
+      "profile_digest": "50253a846633900abd15f73b12697f24123eeb875a32477b6cef46169746d68b",
+      "seasonal_entry_digest": "04968d924eda29a952a5134cc8bc7c33e82416143238640c02fe6a368c596191"
+    },
+    {
+      "profile_id": "OSHA-009",
+      "seasonal_id": "SEAS-011",
+      "name": "Samba Dashami",
+      "profile_path": "culture/osha/samba-dashami.md",
+      "route": "/culture/osha/samba-dashami/",
+      "source_checked_on": "2026-10-11",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "pausa"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Month label reused from the saved Odisha account; exact annual date remains unverified.",
+      "traditional_month_verbatim": "Pausa",
+      "calendar_rule_verbatim": null,
+      "food_terms_verbatim": [
+        "khichdi",
+        "ghadghadia tarkari",
+        "pitha",
+        "khiri",
+        "manda pitha",
+        "kakara pitha",
+        "arisha pitha",
+        "Makar Chaula",
+        "Chhenaguda (source term)",
+        "rasagola",
+        "chhenagaja",
+        "sweet curd",
+        "Budha Chakuli (Yama offering)"
+      ],
+      "food_role_note": "Surya sunrise/midday offerings and subsequent child sharing are distinct from Budha Chakuli offered to Yama in the later Mahakala rite; source-specific, no serving offer.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-konark2015",
+        "osha-samba2013"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "The legend and the observance",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-samba2013"
+          ],
+          "locator": "Printed p.55"
+        },
+        {
+          "section_title": "A family written in food",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-samba2013"
+          ],
+          "locator": "Printed p.55, Tradition"
+        },
+        {
+          "section_title": "Sunrise, midday and the later offering",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-samba2013"
+          ],
+          "locator": "Printed55 / PDF68, Tradition; both columns visually inspected"
+        },
+        {
+          "section_title": "Named foods and the sharing that follows",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-samba2013"
+          ],
+          "locator": "Printed55 / PDF68, Tradition; both columns visually inspected"
+        },
+        {
+          "section_title": "A printed ambiguity to preserve",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-samba2013"
+          ],
+          "locator": "Printed55 / PDF68, start of right column"
+        },
+        {
+          "section_title": "Sun worship in the landscape",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-konark2015"
+          ],
+          "locator": "Printed p.94, Rituals and Festivals associated with the river"
+        }
+      ],
+      "profile_digest": "5566b4e6796d3b58dc83de90142667a45eddfd171b23546a0f32ca31b8aba8da",
+      "seasonal_entry_digest": "65f47e91e959976584fd60c7167fdf3c4e1d7283167f5e408b15774c497ec038"
+    },
+    {
+      "profile_id": "OSHA-010",
+      "seasonal_id": "SEAS-002",
+      "name": "Prathamastami",
+      "profile_path": "culture/osha/prathamastami.md",
+      "route": "/culture/osha/prathamastami/",
+      "source_checked_on": "2026-10-10",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "margasira"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Margasira is supported; dark-eighth descriptions do not silently erase the saved temple-fortnight conflict.",
+      "traditional_month_verbatim": "Margasira",
+      "calendar_rule_verbatim": "Dark eighth in Mahanti and Sarangi; conflicting indexed temple fortnight retained; no annual date adopted.",
+      "food_terms_verbatim": [
+        "enduri pitha",
+        "kheeri",
+        "radish dalma (Sarangi account)",
+        "fish (Sarangi account)"
+      ],
+      "food_role_note": "Enduri and kheeri are offerings; radish dalma and fish belong to Sarangi’s account. The CRRI filling and personal gift account are separately scoped; no universal menu or current offer.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-mahanti",
+        "osha-kanji-sarangi2018",
+        "food-crri-rice2015",
+        "food-tourism",
+        "osha-pratham-svanir",
+        "osha-pratham-bharati",
+        "osha-pratham-text-lead"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "The child, the mother and the maternal uncle",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed59 / PDF75, Prathamastami osha"
+        },
+        {
+          "section_title": "An Odia account names a fuller offering",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-kanji-sarangi2018"
+          ],
+          "locator": "Prathamastami paragraph, web line172; preceding sentences before the Kanji Anla transition"
+        },
+        {
+          "section_title": "What happens inside the leaf",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "food-crri-rice2015",
+            "food-tourism"
+          ],
+          "locator": "Das printed19 / PDF30, Enduri Pitha or Haldi Patra Pitha; Tourism Enduri Pitha heading"
+        },
+        {
+          "section_title": "Food also travels between people",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-pratham-svanir"
+          ],
+          "locator": "Opening first-person paragraphs, web lines14–16; Article metadata"
+        },
+        {
+          "section_title": "Kinship in a temple setting",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-pratham-bharati",
+            "osha-mahanti"
+          ],
+          "locator": "IGNCA PDF2, section7 Association; Mahanti printed59 / PDF75 final paragraph"
+        },
+        {
+          "section_title": "A historical lead, with its missing link visible",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-pratham-text-lead"
+          ],
+          "locator": "Printed65 / digital78, footnote30; OCR title/imprint2–3; original recovery incomplete"
+        },
+        {
+          "section_title": "A season to enquire about, not a fixed itinerary",
+          "evidence_class": "visitor_context",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-kanji-sarangi2018"
+          ],
+          "locator": "Mahanti printed59 / PDF75; Sarangi web172–173; preserved calendar-conflict register"
+        }
+      ],
+      "profile_digest": "67167d01c95934df300cbbda2e0ab15a3a9aaa11f4b0193f0030410ad56bbebf",
+      "seasonal_entry_digest": "8d05d974c5e89198334b0aa7055258fb9e41c2576260740ce71c097de2304aa0"
+    },
+    {
+      "profile_id": "OSHA-011",
+      "seasonal_id": "SEAS-012",
+      "name": "Sabitri Brata",
+      "profile_path": "culture/osha/sabitri.md",
+      "route": "/culture/osha/sabitri/",
+      "source_checked_on": "2026-10-11",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "jyestha"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Month label reused from the saved Odisha account; exact annual date remains unverified.",
+      "traditional_month_verbatim": "Jyestha",
+      "calendar_rule_verbatim": "Jyestha amabasya (new moon), in Mahanti’s account",
+      "food_terms_verbatim": [
+        "seasonal fruit offerings",
+        "coconut",
+        "mango",
+        "lichi (source spelling)",
+        "banana",
+        "jackfruit",
+        "palm (source term)",
+        "date palm (source term)",
+        "melon (source term)",
+        "cucumber",
+        "kendu"
+      ],
+      "food_role_note": "Mahanti describes offerings, katha reading and family sharing after the fast; nine-type wording alongside ten fruit examples is unresolved, not a required menu.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-mahanti",
+        "osha-savitri-epic"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "The choice before the encounter",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-savitri-epic"
+          ],
+          "locator": "Section displayed CCLXLII, choice and Narada’s warning; printed573"
+        },
+        {
+          "section_title": "The story’s fast and the household offering",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-savitri-epic"
+          ],
+          "locator": "Section displayed CCLXLIV, opening paragraphs and forest request; printed576"
+        },
+        {
+          "section_title": "A woman follows and argues",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-savitri-epic"
+          ],
+          "locator": "Vana Parva, section displayed as CCLXLV, printed pp.576–581"
+        },
+        {
+          "section_title": "Textual history is not a local origin date",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-savitri-epic"
+          ],
+          "locator": "Scope of the inspected epic passage"
+        },
+        {
+          "section_title": "Seasonal offerings",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed p.45"
+        },
+        {
+          "section_title": "Reading together, sharing at home",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed45/PDF61 and72/PDF88; brata and puja accounts"
+        },
+        {
+          "section_title": "Nine types, ten examples",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed45/PDF61, footnote33; printed72/PDF88 repeats nine types"
+        }
+      ],
+      "profile_digest": "318f3b0251a539ec9cb563768a8d820ad2af5bfe8790d32da57605d414e84aee",
+      "seasonal_entry_digest": "1b138cec2c99544d2522652673f886dbbd192032f8e18f64eb1230d74a6eb7e4"
+    },
+    {
+      "profile_id": "OSHA-012",
+      "seasonal_id": "SEAS-013",
+      "name": "Janhi Osha",
+      "profile_path": "culture/osha/janhi.md",
+      "route": "/culture/osha/janhi/",
+      "source_checked_on": "2026-10-07",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "ashwina"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Month label reused from the saved Odisha account; exact annual date remains unverified.",
+      "traditional_month_verbatim": "Ashwina",
+      "calendar_rule_verbatim": null,
+      "food_terms_verbatim": [],
+      "food_role_note": "Janhi flowers are ritual material; Kumar Purnima kakara belongs to the separately described culmination, not a daily Janhi menu.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-kumar2015",
+        "osha-mahanti",
+        "osha-review2006"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "The surviving outline",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-mahanti"
+          ],
+          "locator": "Dash p.15; Mahanti p.56"
+        },
+        {
+          "section_title": "Flowers, a song and an evening game",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-kumar2015"
+          ],
+          "locator": "Printed p.45, right column; PDF p.54"
+        },
+        {
+          "section_title": "The offering belongs to a particular scene",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-kumar2015"
+          ],
+          "locator": "Printed p.45 left column and p.46 left column; PDF pp.54–55"
+        }
+      ],
+      "profile_digest": "df40dc31a83944445ce5552903e1e3bc5b264542518510eebcf2cd2d3c44383d",
+      "seasonal_entry_digest": "0c79cc09d2042949384b12b6b5be88360b0b4e66385f4f46d05a6c3a02b3920c"
+    },
+    {
+      "profile_id": "OSHA-013",
+      "seasonal_id": "SEAS-014",
+      "name": "Chaitra Mangala Osha",
+      "profile_path": "culture/osha/chaitra-mangala.md",
+      "route": "/culture/osha/chaitra-mangala/",
+      "source_checked_on": "2026-10-07",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "chaitra"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Month label reused from the saved Odisha account; exact annual date remains unverified.",
+      "traditional_month_verbatim": "Chaitra",
+      "calendar_rule_verbatim": "Tuesdays in Chaitra; no year-specific dates calculated",
+      "food_terms_verbatim": [
+        "Seasonal fruits",
+        "Pana — variant and recipe vary by account"
+      ],
+      "food_role_note": "Pana and fruit offerings are attributed to specific accounts; named ingredients are not a universal recipe.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-chaitra-odiaorg",
+        "osha-mahanti",
+        "osha-pana2023",
+        "osha-review2006",
+        "osha-sarala2009"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "The seasonal gathering",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-mahanti"
+          ],
+          "locator": "Dash printed p.15; Mahanti printed p.62 / PDF p.78"
+        },
+        {
+          "section_title": "Shriya and the king: a partially recovered story",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-chaitra-odiaorg"
+          ],
+          "locator": "PDF p.3 / printed p.1 English synopsis, web extraction only"
+        },
+        {
+          "section_title": "Pana, ingredients and the act of offering",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-pana2023"
+          ],
+          "locator": "14 April 2023, domestic religious practices paragraphs"
+        },
+        {
+          "section_title": "A literary trail, not an established beginning",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-sarala2009"
+          ],
+          "locator": "Printed p.58, first paragraph"
+        }
+      ],
+      "profile_digest": "00782075d252bd6c924debaf73e799b5f6bf3886d30057a225e6590c918abbd8",
+      "seasonal_entry_digest": "5b32a3ea96137fc8e6c8571658d5fb5df3e334e2053d244ccdcf5532fabd70b7"
+    },
+    {
+      "profile_id": "OSHA-014",
+      "seasonal_id": "SEAS-015",
+      "name": "Sathi Osha",
+      "profile_path": "culture/osha/sathi.md",
+      "route": "/culture/osha/sathi/",
+      "source_checked_on": "2026-10-07",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "bhadraba"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Month label reused from the saved Odisha account; exact annual date remains unverified.",
+      "traditional_month_verbatim": "Bhadraba",
+      "calendar_rule_verbatim": "Bright fortnight sixth lunar day in Mahapatra account; no annual date calculated",
+      "food_terms_verbatim": [
+        "Chakuli pitha — Mahapatra household account"
+      ],
+      "food_role_note": "Chakuli is offered and then eaten in a named household recollection; figure-making flour is separate.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-review2006",
+        "osha-sathi-behera",
+        "osha-sathi-mahapatra"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "Which Sathi observance?",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-sathi-behera"
+          ],
+          "locator": "Dash pp.15,17–18; Behera opening birth/annual distinction"
+        },
+        {
+          "section_title": "A daughter remembers her mother’s preparations",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-sathi-mahapatra"
+          ],
+          "locator": "Household preparation paragraph beginning with the morning bath and new clothes; closing explanation of the figures"
+        },
+        {
+          "section_title": "From offering to a shared meal",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-sathi-mahapatra"
+          ],
+          "locator": "Offering sentence and paragraph beginning after completion of worship"
+        },
+        {
+          "section_title": "A wider devotional story",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-sathi-behera"
+          ],
+          "locator": "Concluding narrative beginning with Priyavrata, son of Svayambhuva Manu"
+        },
+        {
+          "section_title": "Seasonal reading for visitors",
+          "evidence_class": "visitor_context",
+          "source_ids": [
+            "osha-sathi-mahapatra"
+          ],
+          "locator": "Opening calendar paragraph"
+        }
+      ],
+      "profile_digest": "6f027693cbd8eb20c3465d6c13a24d32ad0222975f004b41b36b0c4ab936df14",
+      "seasonal_entry_digest": "1fc50cf9b7f4182599b135d9b6978fd20cfd4fb65b0816b315926443b817447e"
+    },
+    {
+      "profile_id": "OSHA-015",
+      "seasonal_id": "SEAS-016",
+      "name": "Nisha Mangalabara Osha",
+      "profile_path": "culture/osha/nisha-mangalabara.md",
+      "route": "/culture/osha/nisha-mangalabara/",
+      "source_checked_on": "2026-10-07",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "ashwina"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Month retained; all Tuesdays versus last Tuesday remains source-specific.",
+      "traditional_month_verbatim": "Ashwina",
+      "calendar_rule_verbatim": "All Tuesdays or last Tuesday in Mahanti; night observance; no annual date calculated",
+      "food_terms_verbatim": [],
+      "food_role_note": "Cooked offering is unnamed; image-making rice powder and a reported sacrifice do not establish a meal.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-mahanti",
+        "osha-nisha-kalingahistory",
+        "osha-nisha-worldcat",
+        "osha-review2006"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "An autumn night of worship",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed p.58 / PDF p.74, Nisa Mangalbara osha paragraph"
+        },
+        {
+          "section_title": "Whom do the sources name?",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-mahanti"
+          ],
+          "locator": "Dash printed p.15; Mahanti printed p.58 / PDF p.74"
+        },
+        {
+          "section_title": "What can we say about the food?",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed p.58 / PDF p.74, image, offering and sacrifice sentences"
+        },
+        {
+          "section_title": "Significance without a claim of ritual effect",
+          "evidence_class": "editorial_interpretation",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed p.58 / PDF p.74, closing invocation"
+        },
+        {
+          "section_title": "A book identity, not yet a recovered story",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-nisha-worldcat"
+          ],
+          "locator": "Title, edition-date, publisher, physical-description and cover-title fields"
+        },
+        {
+          "section_title": "A modern link with maritime remembrance",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-nisha-kalingahistory"
+          ],
+          "locator": "Named Nisha Mangalabara entry, date and event-description paragraphs"
+        }
+      ],
+      "profile_digest": "8b3094ecd42e5ec677ec01bdb2ea5d48b11189a07c23782a95c68225fc9f3130",
+      "seasonal_entry_digest": "f70d713f613e5c81befa020713f165137eb4bd389e7561bd05d64542a08d5589"
+    },
+    {
+      "profile_id": "OSHA-016",
+      "seasonal_id": "SEAS-017",
+      "name": "Pua Jiuntia",
+      "profile_path": "culture/osha/pua-jiuntia.md",
+      "route": "/culture/osha/pua-jiuntia/",
+      "source_checked_on": "2026-10-07",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "ashwina"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Month label reused from the saved Odisha account; exact annual date remains unverified.",
+      "traditional_month_verbatim": "Ashwina",
+      "calendar_rule_verbatim": "Dark fortnight eighth day; annual date not calculated",
+      "food_terms_verbatim": [
+        "jugara",
+        "tikhiri",
+        "mixed-vegetable curry",
+        "suji manda",
+        "kheeri"
+      ],
+      "food_role_note": "Jugara and tikhiri offerings are separate from the following-day curry, suji manda and kheeri meal.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-barpali-pua",
+        "osha-mahanti"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "A different vow from Bhai Jiuntia",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed p.49 / PDF65"
+        },
+        {
+          "section_title": "Offerings and the following meal",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed p.50 / PDF66"
+        },
+        {
+          "section_title": "A dated Barpali account",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-barpali-pua"
+          ],
+          "locator": "Published13August2011; opening caption and ritual-plate paragraph"
+        },
+        {
+          "section_title": "Keep the differences visible",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-barpali-pua",
+            "osha-mahanti"
+          ],
+          "locator": "Mohan following-day paragraph and plate paragraph; Mahanti pp.49–50 / PDF65–66"
+        }
+      ],
+      "profile_digest": "d4dd6dafcee2404d52d963281ff9c6cb2ab95331af32dc0c9110d8359829f957",
+      "seasonal_entry_digest": "f07e575a1f72b3f27ec62079c3d8eb6d929fcc40efc6243f5f6974aa8d70dbb9"
+    },
+    {
+      "profile_id": "OSHA-017",
+      "seasonal_id": "SEAS-018",
+      "name": "Bhai Jiuntia",
+      "profile_path": "culture/osha/bhai-jiuntia.md",
+      "route": "/culture/osha/bhai-jiuntia/",
+      "source_checked_on": "2026-10-10",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "ashwina"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Month label reused from the saved Odisha account; exact annual date remains unverified.",
+      "traditional_month_verbatim": "Ashwina",
+      "calendar_rule_verbatim": "Bright fortnight eighth day; annual date not calculated",
+      "food_terms_verbatim": [
+        "jugara / lia jugar",
+        "tikhiri"
+      ],
+      "food_role_note": "Jugara and tikhiri are offerings shared by sisters and brothers in the described setting.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-kesavan-jiuntia",
+        "osha-mahanti"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "Sisters, brothers and the autumn calendar",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed pp.49–51 / PDF65–67"
+        },
+        {
+          "section_title": "A recent ethnographic window",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-kesavan-jiuntia"
+          ],
+          "locator": "Printed pp.15,31–35 / PDF1,17–21"
+        },
+        {
+          "section_title": "Malathi and Mathana Kumar: a story in recitation",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-kesavan-jiuntia"
+          ],
+          "locator": "Printed22/PDF8, second story paragraph"
+        },
+        {
+          "section_title": "From paddy to lia jugar",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-kesavan-jiuntia"
+          ],
+          "locator": "Printed p.33 / PDF19; preparation and distribution paragraphs"
+        },
+        {
+          "section_title": "Honour alongside unequal treatment",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-kesavan-jiuntia"
+          ],
+          "locator": "Printed pp.19,33,35 / PDF5,19,21; abstract p.15"
+        }
+      ],
+      "profile_digest": "feb40f991e8340e0728f151f51e09ab64cd48fa896c6ef55234d330b4f91d3f3",
+      "seasonal_entry_digest": "52b476db44657e6dc8a3b8cbd55b6a1c0c49d6242119084bc23fc7b303d81c82"
+    },
+    {
+      "profile_id": "OSHA-018",
+      "seasonal_id": "SEAS-019",
+      "name": "Nuakhai",
+      "profile_path": "culture/osha/nuakhai.md",
+      "route": "/culture/osha/nuakhai/",
+      "source_checked_on": "2026-10-07",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "bhadraba"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Month label reused from the saved Odisha account; exact annual date remains unverified.",
+      "traditional_month_verbatim": "Bhadraba",
+      "calendar_rule_verbatim": "Bright-fortnight fifth day in the inspected accounts; no annual date calculated or uniform local timing certified",
+      "food_terms_verbatim": [
+        "new-rice offering",
+        "jau",
+        "kheeri / khiri",
+        "arisa pitha",
+        "manda pitha",
+        "hendua karadi khata",
+        "saga bhaja"
+      ],
+      "food_role_note": "New grain is offered and shared; wider feast dishes retain source and regional scope.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-kesavan-jiuntia",
+        "osha-mahanti",
+        "osha-nuakhai-singh2012"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "The first rice and its season",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed p.121 / PDF137"
+        },
+        {
+          "section_title": "What the historical account can establish",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-nuakhai-singh2012"
+          ],
+          "locator": "Printed pp.23–24 / PDF1–2; origin and calendar paragraphs"
+        },
+        {
+          "section_title": "A family’s first offering",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-kesavan-jiuntia"
+          ],
+          "locator": "Printed pp.28–29 / PDF14–15; saved original visually inspected"
+        },
+        {
+          "section_title": "The meal has several documented forms",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-nuakhai-singh2012"
+          ],
+          "locator": "Mahanti p.122 / PDF138; Singh p.25 / PDF3"
+        },
+        {
+          "section_title": "Skills and preparation",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-nuakhai-singh2012"
+          ],
+          "locator": "Printed p.24 / PDF2, household preparations"
+        },
+        {
+          "section_title": "Greetings, kinship and their limits",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-kesavan-jiuntia"
+          ],
+          "locator": "Printed pp.28–31 / PDF14–17; broader gender discussion pp.27–28"
+        },
+        {
+          "section_title": "An origin comparison is not a chronology",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed p.121 / PDF137, proposed Vedic connection"
+        }
+      ],
+      "profile_digest": "2aaf67cbdd596718265814f9c70fc12c926a57e4d92be2b01c3b04cf34600c90",
+      "seasonal_entry_digest": "b1bd5ace362bbf86eb3554739ff861487e977609dc62af32c1eb95f98b774fb7"
+    },
+    {
+      "profile_id": "OSHA-019",
+      "seasonal_id": "SEAS-020",
+      "name": "Bata Osha",
+      "profile_path": "culture/osha/bata.md",
+      "route": "/culture/osha/bata/",
+      "source_checked_on": "2026-10-07",
+      "calendar_status": "month_conflict",
+      "month_ids": [],
+      "unresolved_month_ids": [
+        "pausa",
+        "margasira"
+      ],
+      "calendar_note": "Pausa account and Margasira culmination remain separately attributed.",
+      "traditional_month_verbatim": "Pausa in Mahanti; Margasira culmination in Sarangi",
+      "calendar_rule_verbatim": null,
+      "food_terms_verbatim": [
+        "manda pitha in Sarangi’s account",
+        "chakuli pitha in Sarangi’s account",
+        "fruit offerings"
+      ],
+      "food_role_note": "Sarangi names fruit, manda and chakuli offerings; preparation and other sources’ unnamed covered bhoga remain distinct.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-bata-odiaportal",
+        "osha-kanji-sarangi2018",
+        "osha-mahanti",
+        "osha-review2006"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "A story of protection",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-kanji-sarangi2018"
+          ],
+          "locator": "Margasira road-sweeping/Bata paragraph before Prathamastami"
+        },
+        {
+          "section_title": "The work of tending a path",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-kanji-sarangi2018"
+          ],
+          "locator": "Margasira opening, song and following paragraph"
+        },
+        {
+          "section_title": "Worship outside the house",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed p.60 / PDF76"
+        },
+        {
+          "section_title": "Manda, chakuli and the covered offering",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-kanji-sarangi2018",
+            "osha-review2006",
+            "osha-mahanti"
+          ],
+          "locator": "Sarangi Bata paragraph; Dash printed15 / PDF1; Mahanti printed60 / PDF76"
+        },
+        {
+          "section_title": "Names that should not yet be merged",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-review2006",
+            "osha-mahanti"
+          ],
+          "locator": "Dash printed15 / PDF1; Mahanti printed60 / PDF76"
+        },
+        {
+          "section_title": "Why there is no single date here",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-kanji-sarangi2018"
+          ],
+          "locator": "Mahanti printed60 / PDF76; Sarangi Margasira/Bata sequence"
+        },
+        {
+          "section_title": "A book lead, not a recovered history",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-bata-odiaportal"
+          ],
+          "locator": "About Book and app-only download notice"
+        }
+      ],
+      "profile_digest": "653ccd527a4d6c05d1ef5fdabc91e0e7b615aec153ddd623f7ad3ed432cee170",
+      "seasonal_entry_digest": "5fa57f1692ad04ec5a551ec0e4e165d01fbb0f3cf5c99f66a25949b105fad74c"
+    },
+    {
+      "profile_id": "OSHA-020",
+      "seasonal_id": "SEAS-021",
+      "name": "Pandu Osha",
+      "profile_path": "culture/osha/pandu.md",
+      "route": "/culture/osha/pandu/",
+      "source_checked_on": "2026-10-07",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "margasira"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Month label reused from the saved Odisha account; exact annual date remains unverified.",
+      "traditional_month_verbatim": "Margasira",
+      "calendar_rule_verbatim": "Margasira Purnima in Mahanti; no annual Gregorian date verified",
+      "food_terms_verbatim": [
+        "chanda / Chanda Chakata in Puriwaves",
+        "fruit offerings",
+        "khechudi in Puriwaves",
+        "white manda / shukla manda in Puriwaves"
+      ],
+      "food_role_note": "Chanda, fruit, khechudi and white manda belong to Puriwaves’ attributed offering description.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-jhoti-biswal-dash2020",
+        "osha-mahanti",
+        "osha-pandu-odiaportal",
+        "osha-pandu-puriwaves",
+        "osha-review2006"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "Pandu or Yudhisthira?",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-mahanti"
+          ],
+          "locator": "Dash printed15 / PDF1; Mahanti printed60 / PDF76"
+        },
+        {
+          "section_title": "Brief stories, not a recovered katha",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-pandu-puriwaves"
+          ],
+          "locator": "Two narrative paragraphs preceding food description"
+        },
+        {
+          "section_title": "A shaped offering under the full moon",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-pandu-puriwaves"
+          ],
+          "locator": "Food paragraph and Chanda Chakata caption"
+        },
+        {
+          "section_title": "The work of girls and the unsettled sequence",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-pandu-puriwaves"
+          ],
+          "locator": "Mahanti printed60 / PDF76; Puriwaves sweeping paragraph"
+        },
+        {
+          "section_title": "Rice also appears as a drawing material",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-jhoti-biswal-dash2020"
+          ],
+          "locator": "Printed117 / PDF118, item9 and Raw materials and Techniques"
+        },
+        {
+          "section_title": "History and calendar boundaries",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-pandu-puriwaves"
+          ],
+          "locator": "Mahanti printed60 / PDF76; Puriwaves food/timing paragraph"
+        },
+        {
+          "section_title": "An author name is a research lead",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-pandu-odiaportal"
+          ],
+          "locator": "About Book, displayed post date and app-only notice"
+        }
+      ],
+      "profile_digest": "f2ed19fb2ca7796a82acb37d0cf8792c9eb09429414b3f07fef1bb969c555010",
+      "seasonal_entry_digest": "882667b7e91f92d27b048b45d8cf470193a7e9d119ec0b5793a4ac7323331a0e"
+    },
+    {
+      "profile_id": "OSHA-021",
+      "seasonal_id": "SEAS-022",
+      "name": "Shani / Tota Osha",
+      "profile_path": "culture/osha/shani-tota.md",
+      "route": "/culture/osha/shani-tota/",
+      "source_checked_on": "2026-10-07",
+      "calendar_status": "recurring",
+      "month_ids": [],
+      "unresolved_month_ids": [],
+      "calendar_note": "Saturdays during a personally vowed period; no fixed month.",
+      "traditional_month_verbatim": "No fixed month in Mahanti’s account",
+      "calendar_rule_verbatim": "Recurring Saturdays during a personally vowed period; no fixed month or duration in Mahanti",
+      "food_terms_verbatim": [
+        "black-gram khichidi (Tota Osha offering in Mahanti)",
+        "black-gram kechidi with sesame seeds (broader Saturday account in Mahanti)"
+      ],
+      "food_role_note": "Tota black-gram khichidi offering and the broader Saturday eating account are distinct passages; worship oil is not inferred as an ingredient.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-mahanti",
+        "osha-review2006"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "Why a mango grove?",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-mahanti"
+          ],
+          "locator": "Dash printed15 / PDF1; Mahanti printed53 / PDF69"
+        },
+        {
+          "section_title": "A promise with a beginning and an end",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed54 / PDF70, opening paragraph and note36"
+        },
+        {
+          "section_title": "Food and ritual materials have different roles",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed54 / PDF70 and printed64 / PDF80"
+        },
+        {
+          "section_title": "A Hanuman story in the Saturday account",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed64 / PDF80, Sanibara paragraph"
+        },
+        {
+          "section_title": "Shani Osha and Sanishchara Mela",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006"
+          ],
+          "locator": "Printed15 / PDF1; printed16 / PDF2, mela list; printed17 / PDF3, general discussion"
+        }
+      ],
+      "profile_digest": "7eb7988ebaa897f97bfd6586e9e17e764821b88c146cd43f399a23324de4c598",
+      "seasonal_entry_digest": "329238d6d5a320dde8b5d0d82342ceb80fe042776c828ff6be32a67c2451e253"
+    },
+    {
+      "profile_id": "OSHA-022",
+      "seasonal_id": "SEAS-023",
+      "name": "Bali Trutiya",
+      "profile_path": "culture/osha/bali-trutiya.md",
+      "route": "/culture/osha/bali-trutiya/",
+      "source_checked_on": "2026-10-07",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "bhadraba"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Month label reused from the saved Odisha account; exact annual date remains unverified.",
+      "traditional_month_verbatim": "Bhadraba",
+      "calendar_rule_verbatim": "Bhadraba shukla Tritiya with Hasta nakshatra in scanned text; no Gregorian conversion verified",
+      "food_terms_verbatim": [
+        "fruit (ritual offering in scanned text)",
+        "forest fruit (Parvati’s fast-breaking in the story; species unnamed)"
+      ],
+      "food_role_note": "Fruit offered in worship and forest fruit eaten by Parvati in the story have separate roles; species unknown.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-bali-trutiya-scan",
+        "osha-jhoti-biswal-dash2020",
+        "osha-mahanti",
+        "osha-review2006"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "Sand gives the observance a tangible form",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-review2006"
+          ],
+          "locator": "Mahanti printed57 / PDF73; Dash printed16 / PDF2"
+        },
+        {
+          "section_title": "The story in the recovered Odia text",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-bali-trutiya-scan"
+          ],
+          "locator": "PDF pp.3–10; narrative decision pp.6–7, river and vow pp.8–9, resolution p.10"
+        },
+        {
+          "section_title": "Fruit offered, fruit eaten",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-bali-trutiya-scan"
+          ],
+          "locator": "PDF p.9, banajata phala and parana; p.10, phala nibedana; p.11, fasting injunction"
+        },
+        {
+          "section_title": "A season, not a confirmed travel date",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-bali-trutiya-scan"
+          ],
+          "locator": "PDF p.4 and pp.8–9"
+        },
+        {
+          "section_title": "A maritime interpretation remains unresolved",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-jhoti-biswal-dash2020"
+          ],
+          "locator": "Printed116 / PDF117 item7"
+        }
+      ],
+      "profile_digest": "ddae198ad50249ff35cd41e30b8b86612815c92494cea3c27a29f9fb85f84bcc",
+      "seasonal_entry_digest": "7b7ce1bca93b9d22426087ee60ef4baaba90f38721c9fee626e21c416507c5ae"
+    },
+    {
+      "profile_id": "OSHA-023",
+      "seasonal_id": "SEAS-024",
+      "name": "Sita Navami",
+      "profile_path": "culture/osha/sita-navami.md",
+      "route": "/culture/osha/sita-navami/",
+      "source_checked_on": "2026-10-07",
+      "calendar_status": "month_conflict",
+      "month_ids": [],
+      "unresolved_month_ids": [
+        "baisakha",
+        "jyestha"
+      ],
+      "calendar_note": "The two Odisha month descriptions are unresolved.",
+      "traditional_month_verbatim": "Baisakha / Jyestha accounts differ",
+      "calendar_rule_verbatim": "Mahanti: Baisakha shukla Navami; Dash: Jyestha; conflict unresolved",
+      "food_terms_verbatim": [],
+      "food_role_note": "No local offering menu or fast-breaking dish established.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-mahanti",
+        "osha-review2006",
+        "osha-sita-panchavati2024",
+        "osha-sita-valmiki-rao"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "An observance centred on Sita",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed54 / PDF70, Sita navami osha"
+        },
+        {
+          "section_title": "Janaka’s account of the child in the field",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-sita-valmiki-rao"
+          ],
+          "locator": "Sarga66 in Prose, Janaka’s account beginning Later, when I was ploughing"
+        },
+        {
+          "section_title": "The month remains a source disagreement",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-review2006"
+          ],
+          "locator": "Mahanti printed54 / PDF70; Dash printed16 / PDF2, left column"
+        },
+        {
+          "section_title": "A specific Odisha programme survives",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-sita-panchavati2024"
+          ],
+          "locator": "Our Events,2024–2025 list items3 and7; footer address"
+        }
+      ],
+      "profile_digest": "511338e3e33833b81e8bd82b0ccb57da487b285f19a3c9cb84b2624928a5811e",
+      "seasonal_entry_digest": "aaeb6dcc2a1ccb4304e1d93aa42ad92c615b43639a4d65265da9614163dd2830"
+    },
+    {
+      "profile_id": "OSHA-024",
+      "seasonal_id": "SEAS-025",
+      "name": "Rambha Trutiya",
+      "profile_path": "culture/osha/rambha-trutiya.md",
+      "route": "/culture/osha/rambha-trutiya/",
+      "source_checked_on": "2026-10-08",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "jyestha"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Jyestha Odisha account only; annual Sanskrit textual cycle starting Margashira excluded.",
+      "traditional_month_verbatim": "Jyestha in Odisha accounts; separate textual cycle begins Margashira",
+      "calendar_rule_verbatim": "Odisha descriptions: Jyestha; Mahanti specifies shukla Tritiya. Separate annual textual vrata starts Margashira; not merged.",
+      "food_terms_verbatim": [],
+      "food_role_note": "Food prescriptions occur in a separate annual textual comparison; local Odisha menu unknown.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-mahanti",
+        "osha-rambha-dutt1908",
+        "osha-rambha-garuda-sanskrit",
+        "osha-review2006"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "The Odisha description",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-review2006"
+          ],
+          "locator": "Mahanti printed54 / PDF70; Dash printed16 / PDF2"
+        },
+        {
+          "section_title": "The story we have, and the story still missing",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed54 / PDF70, Rambha trutiya osha"
+        },
+        {
+          "section_title": "An older printed witness describes a different scope",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-rambha-dutt1908",
+            "osha-rambha-garuda-sanskrit"
+          ],
+          "locator": "Dutt printed359–360 / PDF380–381; Sanskrit1.120.1–11"
+        },
+        {
+          "section_title": "Food has more than one ritual role",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-rambha-dutt1908"
+          ],
+          "locator": "Printed359–360 / PDF380–381, monthly passages and closing paragraph"
+        },
+        {
+          "section_title": "Read food names and translations carefully",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-rambha-dutt1908",
+            "osha-rambha-garuda-sanskrit"
+          ],
+          "locator": "Dutt printed359–360; Sanskrit1.120.3 and1.120.10"
+        }
+      ],
+      "profile_digest": "88121441ff58e271504e8b522a1b1c79459d53cee17bb626210aa5def9d5b0b0",
+      "seasonal_entry_digest": "7891e3ad15ff5ea744ee6ec45245e432b4fb20f50be514a20048767fef9ed8f5"
+    },
+    {
+      "profile_id": "OSHA-025",
+      "seasonal_id": "SEAS-026",
+      "name": "Nagala Chaturthi",
+      "profile_path": "culture/osha/nagala-chaturthi.md",
+      "route": "/culture/osha/nagala-chaturthi/",
+      "source_checked_on": "2026-10-08",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "kartika"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Month label reused from the saved Odisha account; exact annual date remains unverified.",
+      "traditional_month_verbatim": "Kartika",
+      "calendar_rule_verbatim": "Shukla Chaturthi in Mahanti; distinct from Sravana Naga Panchami. No annual date converted.",
+      "food_terms_verbatim": [
+        "milk — offering in attributed accounts",
+        "rice — Mahanti’s joint account",
+        "dry fruits — OdiaPortal description"
+      ],
+      "food_role_note": "Milk, rice and dry fruit are source-specific offerings; preparation and post-fast meal unknown.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-astika-ganguli",
+        "osha-mahanti",
+        "osha-nagala-odiaportal",
+        "osha-nagala-samal2019",
+        "osha-nmm-catalogue",
+        "osha-review2006"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "Two observances, two calendar rules",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-review2006"
+          ],
+          "locator": "Mahanti printed55 / PDF71; Dash printed15–17 / PDF1–3"
+        },
+        {
+          "section_title": "Offerings are not yet a household menu",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-nagala-odiaportal",
+            "osha-review2006"
+          ],
+          "locator": "Mahanti printed55 / PDF71; OdiaPortal The Legend; Dash printed17 / PDF3"
+        },
+        {
+          "section_title": "Astika asks the king to stop",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-astika-ganguli"
+          ],
+          "locator": "Adi Parva, Astika Parva, sections LIV, LVI and LVIII"
+        },
+        {
+          "section_title": "The calendar ending changes between accounts",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-nagala-samal2019",
+            "osha-astika-ganguli"
+          ],
+          "locator": "Mahanti printed55–56 / PDF71–72; Samal Story2; Ganguli LIV–LVIII"
+        },
+        {
+          "section_title": "The local katha has identifiable leads",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-nmm-catalogue",
+            "osha-nagala-odiaportal"
+          ],
+          "locator": "NMM PDF19,21,36,61; OdiaPortal2017 book-list entry and linked availability note"
+        }
+      ],
+      "profile_digest": "44bb61f7f68a6b8465f049c289b2eabf1a08530a292d85397c6c6e5d89040989",
+      "seasonal_entry_digest": "11cd7fee8aec90070c6566456fda2671b217b544d5121442872792f4b478e33e"
+    },
+    {
+      "profile_id": "OSHA-026",
+      "seasonal_id": "SEAS-027",
+      "name": "Naga Panchami",
+      "profile_path": "culture/osha/naga-panchami.md",
+      "route": "/culture/osha/naga-panchami/",
+      "source_checked_on": "2026-10-08",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "sravana"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Month label reused from the saved Odisha account; exact annual date remains unverified.",
+      "traditional_month_verbatim": "Sravana",
+      "calendar_rule_verbatim": "Shukla Panchami in Mahanti; distinct from Kartika Nagala Chaturthi. No annual date converted.",
+      "food_terms_verbatim": [
+        "milk — offering in a joint descriptive account",
+        "rice — offering; preparation unspecified"
+      ],
+      "food_role_note": "Milk and rice offerings; cooking and post-fast meal unknown.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-astika-ganguli",
+        "osha-mahanti",
+        "osha-naga-osm-archaeology",
+        "osha-naga-panda2004"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "A Sravana observance with its own identity",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed55 / PDF71"
+        },
+        {
+          "section_title": "Milk and rice: the role matters",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed55 / PDF71; joint entry, not a separate Naga Panchami household record"
+        },
+        {
+          "section_title": "A story in which a request ends revenge",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-astika-ganguli",
+            "osha-mahanti"
+          ],
+          "locator": "Ganguli Astika Parva LIV–LVIII; Mahanti printed55–56 / PDF71–72"
+        },
+        {
+          "section_title": "The story also appears in Odisha sculpture",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-naga-panda2004"
+          ],
+          "locator": "Printed22 / PDF7; printed34 / PDF19 note46; printed36 / PDF21 Plate11"
+        },
+        {
+          "section_title": "Serpent imagery has a wider setting",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-naga-osm-archaeology"
+          ],
+          "locator": "Archaeology introduction"
+        }
+      ],
+      "profile_digest": "3e213cca05c51f98d4dad82b8a6b7f8b9ef810c39887a9b7f201faa5fd73d928",
+      "seasonal_entry_digest": "f245b53960125e963959b48fd242c2865da51165b33226b3e2e9e71220d6b627"
+    },
+    {
+      "profile_id": "OSHA-027",
+      "seasonal_id": "SEAS-028",
+      "name": "Ananta Brata",
+      "profile_path": "culture/osha/ananta-brata.md",
+      "route": "/culture/osha/ananta-brata/",
+      "source_checked_on": "2026-10-08",
+      "calendar_status": "month_conflict",
+      "month_ids": [],
+      "unresolved_month_ids": [
+        "bhadraba",
+        "ashwina"
+      ],
+      "calendar_note": "Bhadrava bright fourteenth and Ashwina inventory label are unresolved.",
+      "traditional_month_verbatim": "Bhadrava in Mahanti; Ashwina in Dash (unresolved)",
+      "calendar_rule_verbatim": "Mahanti: Bhadrava shukla Chaturdashi; Dash: Ashwina. Conflict unresolved; no annual date conversion.",
+      "food_terms_verbatim": [
+        "puri — fourteen, offering",
+        "manda pitha — fourteen, offering; preparation unspecified",
+        "panchamruta — milk, honey, ghee, curd and jaggery; ritual mixture"
+      ],
+      "food_role_note": "Puri and manda bhoga is shared; panchamruta represents a ritual ocean, and cucumber consumption is unestablished.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-ananta-agni",
+        "osha-ananta-bhavishya",
+        "osha-ananta-kamakoti",
+        "osha-ananta-manual",
+        "osha-mahanti",
+        "osha-review2006"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "An Odisha account, with a calendar question",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-review2006"
+          ],
+          "locator": "Mahanti printed46–47 / PDF62–63; Dash printed16 / PDF2"
+        },
+        {
+          "section_title": "Fourteen puris and fourteen manda pithas",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed46–47 / PDF62–63, footnote34"
+        },
+        {
+          "section_title": "A Sanskrit story witness",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-ananta-bhavishya"
+          ],
+          "locator": "Verses1–2,12–40,41–68"
+        },
+        {
+          "section_title": "Why the retellings cannot be blended",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-ananta-kamakoti",
+            "osha-ananta-manual",
+            "osha-ananta-bhavishya"
+          ],
+          "locator": "Kamakoti chapter34 Ananta section; manual section47; Sanskrit chapter94 verse40"
+        },
+        {
+          "section_title": "Food prescriptions travel with texts",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-ananta-agni",
+            "osha-ananta-manual"
+          ],
+          "locator": "Agni192 verses7–11; manual section47 food prescription"
+        }
+      ],
+      "profile_digest": "919aaf58853c2cb981818791b4fe3d9e4417f1258a33c9dfd56918b51f85ea74",
+      "seasonal_entry_digest": "41ec731a57452b53bbc011f6fb3d62c4c1f879439d3365b12aefffbb710d4014"
+    },
+    {
+      "profile_id": "OSHA-028",
+      "seasonal_id": "SEAS-029",
+      "name": "Rabinarayana Brata",
+      "profile_path": "culture/osha/rabinarayana-brata.md",
+      "route": "/culture/osha/rabinarayana-brata/",
+      "source_checked_on": "2026-10-08",
+      "calendar_status": "recurring_with_conflict",
+      "month_ids": [],
+      "unresolved_month_ids": [
+        "margasira"
+      ],
+      "calendar_note": "Sunday–Ekadashi condition and Margasira inventory label remain unresolved.",
+      "traditional_month_verbatim": "Sunday–Ekadashi rule; Margasira in Dash, unresolved",
+      "calendar_rule_verbatim": "Mahanti: Sunday coinciding with Ekadashi; Adhikari specifies shukla; Dash lists Margasira. Scope unresolved, no annual conversion.",
+      "food_terms_verbatim": [
+        "seven kinds of fruit — offering in Mahanti, species unspecified",
+        "mua — seven, attributed offering in Adhikari",
+        "manda — seven, attributed offering in Adhikari"
+      ],
+      "food_role_note": "Fruit, mua and manda are attributed offerings; rice grains in the thread are ritual material, not a cooked meal.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-mahanti",
+        "osha-nmm-catalogue",
+        "osha-rabinarayana-adhikari2020",
+        "osha-review2006"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "A weekday meets a lunar day",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-review2006"
+          ],
+          "locator": "Mahanti printed 44–45 / PDF 60–61; Dash printed 16 / PDF 2"
+        },
+        {
+          "section_title": "Materials counted in sevens",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed 45 / PDF 61, Rabinarayana entry"
+        },
+        {
+          "section_title": "Mua and manda in an Odia account",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-rabinarayana-adhikari2020"
+          ],
+          "locator": "Calendar paragraph and final offering paragraph"
+        },
+        {
+          "section_title": "The story has identifiable textual leads",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-nmm-catalogue"
+          ],
+          "locator": "Mahanti printed 45 / PDF 61; catalogue PDF 21 and 55"
+        },
+        {
+          "section_title": "Keeping related solar observances distinct",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-review2006"
+          ],
+          "locator": "Mahanti printed 63 / PDF 79, separate Rabibara entry; Dash printed 16 / PDF 2"
+        }
+      ],
+      "profile_digest": "72806ff8557171975bfc16425846f23ec4a68e7d03aebfab27137d3950867e30",
+      "seasonal_entry_digest": "2f2971dda1fdf2a80078ae5eb7913eea8b07cc5a56ab6c902c6165aea84dbbee"
+    },
+    {
+      "profile_id": "OSHA-029",
+      "seasonal_id": "SEAS-030",
+      "name": "Somnath Brata",
+      "profile_path": "culture/osha/somnath-brata.md",
+      "route": "/culture/osha/somnath-brata/",
+      "source_checked_on": "2026-10-08",
+      "calendar_status": "month_span",
+      "month_ids": [
+        "bhadraba",
+        "ashwina"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "One vow spans Bhadraba to Ashwina; match either month without counting two observances.",
+      "traditional_month_verbatim": "Bhadrava to Aswina; culmination on shukla dashami",
+      "calendar_rule_verbatim": "Mahanti: Bhadrava shukla sasthi to Aswina shukla dashami; typed katha specifies Aswina shukla dashami. No annual date conversion.",
+      "food_terms_verbatim": [
+        "ten types of pitha — Mahanti; names unspecified",
+        "ten pithas with ten kinds of filling — Odia story copy; ingredients unspecified"
+      ],
+      "food_role_note": "Ten pitha categories and ten filled pithas are different wordings; bhoga sharing documented, ingredients unspecified.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-mahanti",
+        "osha-nmm-catalogue",
+        "osha-prusty2014-prose",
+        "osha-review2006",
+        "osha-somnath-odia-text"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "A vow across two months",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-review2006"
+          ],
+          "locator": "Mahanti printed 48–49 / PDF 64–65; Dash printed 15 / PDF 1"
+        },
+        {
+          "section_title": "The king, the queen and the neglected vow",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-somnath-odia-text"
+          ],
+          "locator": "PDF pp.1–3; modern typed copy, edition undated"
+        },
+        {
+          "section_title": "What the offerings actually say",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-somnath-odia-text"
+          ],
+          "locator": "Mahanti printed 49 / PDF 65; Odia copy PDF p.1 hospitality and calendar, pp.2–3 ritual directions"
+        },
+        {
+          "section_title": "Thread, gathering and sharing",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed 48–49 / PDF 64–65"
+        },
+        {
+          "section_title": "A literary history with a date still to test",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-prusty2014-prose"
+          ],
+          "locator": "Printed 10 / PDF 7; cited original not inspected"
+        },
+        {
+          "section_title": "Eight catalogue leads, not eight proven versions",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-nmm-catalogue"
+          ],
+          "locator": "PDF 15,21,23,24,53; selected rows detailed in the text-witness register"
+        }
+      ],
+      "profile_digest": "f37bdbe5cd38f007f2e6f4ed222e8b131d98f4c2b535b471b94425877157cd43",
+      "seasonal_entry_digest": "9bdcb80161b8de3a99e0a7ec5cac51ca2e8947525d02bf05aba08b7634bb6107"
+    },
+    {
+      "profile_id": "OSHA-030",
+      "seasonal_id": "SEAS-031",
+      "name": "Kukkuti Brata",
+      "profile_path": "culture/osha/kukkuti-brata.md",
+      "route": "/culture/osha/kukkuti-brata/",
+      "source_checked_on": "2026-10-08",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "bhadraba"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Bhadraba label retained; exact local relative-day rule requires confirmation.",
+      "traditional_month_verbatim": "Bhadrava; exact local rule requires confirmation",
+      "calendar_rule_verbatim": "Dash: Bhadrab; Mahanti: second day of Somnath; Sanskrit comparator: Bhadra shukla saptami. No annual conversion.",
+      "food_terms_verbatim": [
+        "Odisha-specific offerings not yet established",
+        "payasa and pishtaka — Sanskrit comparator only",
+        "eight fruits — Sanskrit comparator only; species unspecified"
+      ],
+      "food_role_note": "Payasa, pishtaka and fruit belong to a Sanskrit comparison; Odisha menu unknown and milk on the thread is not a drink.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-kukkuti-ignca",
+        "osha-kukkuti-osm-smrti",
+        "osha-kukkuti-shabdakalpa",
+        "osha-mahanti",
+        "osha-review2006"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "Its place in Odisha’s calendar",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-mahanti"
+          ],
+          "locator": "Dash printed15 / PDF1; Mahanti printed48–49 / PDF64–65"
+        },
+        {
+          "section_title": "Lalita Saptami: a textual comparison",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-kukkuti-shabdakalpa"
+          ],
+          "locator": "Vol.4, displayed p.209, opening and directions before the narrative"
+        },
+        {
+          "section_title": "Friendship, forgetting and renewal",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-kukkuti-shabdakalpa"
+          ],
+          "locator": "Vol.4 pp.209–210, narrative attributed there to Bhavishya Purana"
+        },
+        {
+          "section_title": "Food terms without an invented recipe",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-kukkuti-shabdakalpa",
+            "osha-mahanti"
+          ],
+          "locator": "Shabdakalpadruma p.209, closing food lines before p.210; Mahanti p.49"
+        },
+        {
+          "section_title": "A local manuscript lead to investigate",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-kukkuti-osm-smrti"
+          ],
+          "locator": "Printed85 / viewer139, item148; preface viewer9 identifies museum collection"
+        },
+        {
+          "section_title": "Comparative witnesses outside Odisha",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-kukkuti-ignca"
+          ],
+          "locator": "Printed108–109 / PDF126–127, records6281,6286–6288"
+        }
+      ],
+      "profile_digest": "f9d3944a3cd1269f706023e5243dfe7b3907734fccedae446f3ab743c01940de",
+      "seasonal_entry_digest": "908b343ff03c5e91d915b8c934814fae7a4c5884dbf6c8466c1eedba8f75876c"
+    },
+    {
+      "profile_id": "OSHA-031",
+      "seasonal_id": "SEAS-032",
+      "name": "Santoshi Mata Brata",
+      "profile_path": "culture/osha/santoshi-mata-brata.md",
+      "route": "/culture/osha/santoshi-mata-brata/",
+      "source_checked_on": "2026-10-08",
+      "calendar_status": "recurring",
+      "month_ids": [],
+      "unresolved_month_ids": [],
+      "calendar_note": "Friday sequence; no fixed annual month.",
+      "traditional_month_verbatim": "No fixed month; a sequence of Fridays",
+      "calendar_rule_verbatim": "Friday sequence; Mahanti specifies sixteen successive Fridays or until vow fulfilled. No fixed annual month.",
+      "food_terms_verbatim": [
+        "gur-chana: raw sugar candy and roasted chickpea in Mahanti’s description",
+        "udyapana meal: dishes unspecified"
+      ],
+      "food_role_note": "Gur-chana offering and an unspecified concluding meal; local preparations remain unverified.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-mahanti",
+        "osha-review2006",
+        "osha-santoshi-lutgendorf",
+        "osha-santoshi-odia-lead"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "A Friday vow in Odisha",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-review2006"
+          ],
+          "locator": "Mahanti printed109–110 / PDF125–126; Dash printed15 / PDF1"
+        },
+        {
+          "section_title": "History: devotion before the film",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-santoshi-lutgendorf"
+          ],
+          "locator": "Printed24 / PDF1; film citation printed37 / PDF14; issue period July–August2002"
+        },
+        {
+          "section_title": "A story of separation and return",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-santoshi-lutgendorf"
+          ],
+          "locator": "Printed25–26 / PDF2–3; note9 on printed36 credits Simha and Agnihotri2000 pp338–339"
+        },
+        {
+          "section_title": "Offering, abstention and completion",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed109–110 / PDF125–126"
+        },
+        {
+          "section_title": "A comparison that preserves differences",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-santoshi-lutgendorf",
+            "osha-mahanti"
+          ],
+          "locator": "Lutgendorf printed25 / PDF2; Mahanti printed110 / PDF126"
+        },
+        {
+          "section_title": "The missing Odia text",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-santoshi-odia-lead"
+          ],
+          "locator": "Description table; landing date4March2023"
+        }
+      ],
+      "profile_digest": "88c5a16e2e550341ff8cbd2c1f69de2f30b2739cf21f27b806964c0dd686b495",
+      "seasonal_entry_digest": "b5c1d60b934da6f057209f95cc73cd40332aaacc539f69ca3d24ce8bff186bdf"
+    },
+    {
+      "profile_id": "OSHA-032",
+      "seasonal_id": "SEAS-033",
+      "name": "Kedar Brata",
+      "profile_path": "culture/osha/kedar-brata.md",
+      "route": "/culture/osha/kedar-brata/",
+      "source_checked_on": "2026-10-08",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "kartika"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Month label reused from the saved Odisha account; exact annual date remains unverified.",
+      "traditional_month_verbatim": "Kartika",
+      "calendar_rule_verbatim": "Kartika purnima in Mahanti and the inspected Odia text. No current-year conversion.",
+      "food_terms_verbatim": [
+        "banana, coconut and sugarcane — textual offerings",
+        "gua / betel nuts — counted ritual offering; consumption not established"
+      ],
+      "food_role_note": "Fruit names are textual offerings; betel nuts counted in worship do not establish consumption.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-kedar-pothi",
+        "osha-mahanti",
+        "osha-review2006"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "Its place in the calendar",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-review2006"
+          ],
+          "locator": "Mahanti printed52 / PDF68; Dash printed15 / PDF1"
+        },
+        {
+          "section_title": "Kunti and the two sisters",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-kedar-pothi"
+          ],
+          "locator": "PDF2 frame; PDF4–9 sisters’ story; PDF9–11 Kunti’s observance and conclusion"
+        },
+        {
+          "section_title": "Food inside the telling",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-kedar-pothi"
+          ],
+          "locator": "PDF3 ritual directions; PDF5 and7 narrative offerings; PDF9–10 concluding preparation"
+        },
+        {
+          "section_title": "A textual witness with an unresolved date",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-kedar-pothi"
+          ],
+          "locator": "PDF1–11; Commons Summary, author/publication fields and file history"
+        }
+      ],
+      "profile_digest": "175a2c2a9048dd6c2e0f7533143158c467a3378caceaa80f1ae37f0e2fcaf028",
+      "seasonal_entry_digest": "c5a899f35df44b93ef045b70332c7f6d234f7d947fac32cced0d9c941f910393"
+    },
+    {
+      "profile_id": "OSHA-033",
+      "seasonal_id": "SEAS-034",
+      "name": "Rai Damodara Brata",
+      "profile_path": "culture/osha/rai-damodara-brata.md",
+      "route": "/culture/osha/rai-damodara-brata/",
+      "source_checked_on": "2026-10-08",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "kartika"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Kartika month retained; precise start rule unresolved.",
+      "traditional_month_verbatim": "Kartika; precise start rule unresolved",
+      "calendar_rule_verbatim": "Kartika month and five-day panchuka described; start statement internally conflicted. No current-year conversion.",
+      "food_terms_verbatim": [
+        "habishanna — vow meal described by Mahanti",
+        "Mahaprasad — temple-offering food described as an alternative",
+        "Habisha Dalma — attributed city-portal preparation"
+      ],
+      "food_role_note": "Habishanna is a vow meal, with Mahaprasad described as an alternative; named Habisha Dalma is a separate attributed preparation.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-habisha-city-cuisine",
+        "osha-kartika-patra-punit2018",
+        "osha-mahanti",
+        "osha-review2006"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "A name within the Kartika cycle",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-review2006"
+          ],
+          "locator": "Mahanti printed51–52 / PDF67–68; Dash printed16 / PDF2"
+        },
+        {
+          "section_title": "Rai and Lakshmi: the remembered story",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed51 / PDF67"
+        },
+        {
+          "section_title": "Food during the vow",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed52 / PDF68"
+        },
+        {
+          "section_title": "A described Habisha Dalma",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-habisha-city-cuisine"
+          ],
+          "locator": "Dalma section, Habisha paragraphs; chef context linked through Dalma page"
+        },
+        {
+          "section_title": "History and the limits of textual prescriptions",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-kartika-patra-punit2018"
+          ],
+          "locator": "Printed34,36,38 / PDF2,4,6; note30 cites Skanda2.4.32.47,50–51"
+        },
+        {
+          "section_title": "Two calendar questions remain open",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-kartika-patra-punit2018"
+          ],
+          "locator": "Mahanti printed25,51–52; Patra and Punit printed36 and38 note28"
+        }
+      ],
+      "profile_digest": "34acf7415bee55961625c5a155c7cb65d6525d319018c8270b29ce317cfd4f8d",
+      "seasonal_entry_digest": "ad441f8cabe02a1f1365e268245344a5ee02d1c54e7274ec377a9269d7d94435"
+    },
+    {
+      "profile_id": "OSHA-034",
+      "seasonal_id": "SEAS-035",
+      "name": "Magha Brata",
+      "profile_path": "culture/osha/magha-brata.md",
+      "route": "/culture/osha/magha-brata/",
+      "source_checked_on": "2026-10-08",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "magha"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Month label reused from the saved Odisha account; exact annual date remains unverified.",
+      "traditional_month_verbatim": "Magha",
+      "calendar_rule_verbatim": "Month-long vow begins after Pausa purnima in Mahanti; related Saptami is Magha bright seventh. No current-year conversion.",
+      "food_terms_verbatim": [
+        "havishanna — preferred once-daily vow meal in Mahanti; ingredients unspecified"
+      ],
+      "food_role_note": "Havishanna is a named once-daily vow meal; no ingredient list or fair menu inferred.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-chandrabhaga-tourism",
+        "osha-konark2015",
+        "osha-magha-swarup1910",
+        "osha-mahanti",
+        "osha-review2006"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "The month and the pilgrimage day",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-review2006"
+          ],
+          "locator": "Mahanti printed 26,52 / PDF42,68; Dash printed16 / PDF2"
+        },
+        {
+          "section_title": "Samba, the Sun and a sacred landscape",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed52 / PDF68"
+        },
+        {
+          "section_title": "A dated historical reference",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-magha-swarup1910"
+          ],
+          "locator": "Title PDF4; printed 42 / PDF49; preface PDF6 dated 23 September 1910"
+        },
+        {
+          "section_title": "What the food evidence actually says",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed52 / PDF68"
+        },
+        {
+          "section_title": "Related observances remain distinct",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-konark2015",
+            "osha-chandrabhaga-tourism"
+          ],
+          "locator": "Rath et al printed 94 / PDF3, Rituals and Festivals; Tourism introductory paragraph"
+        },
+        {
+          "section_title": "What remains unknown about history",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-konark2015",
+            "osha-magha-swarup1910"
+          ],
+          "locator": "Rath et al printed 93 / PDF2; Swarup printed 42 / PDF49"
+        }
+      ],
+      "profile_digest": "934f587fe0fc7afbe725ba4133bc3013403897989fb9fe294ebe834c0790240c",
+      "seasonal_entry_digest": "bde06fc41fde0ad7698dea2fc0beb569b32db48fa1f4f9bd10e6a1fad8981c79"
+    },
+    {
+      "profile_id": "OSHA-035",
+      "seasonal_id": "SEAS-036",
+      "name": "Baisakha Brata",
+      "profile_path": "culture/osha/baisakha-brata.md",
+      "route": "/culture/osha/baisakha-brata/",
+      "source_checked_on": "2026-10-08",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "baisakha"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Month label reused from the saved Odisha account; exact annual date remains unverified.",
+      "traditional_month_verbatim": "Baisakha, described as a lunar month by Mahanti",
+      "calendar_rule_verbatim": "Throughout lunar Baisakha in Mahanti; exact local start/end convention and current-year dates unverified.",
+      "food_terms_verbatim": [
+        "havishanna — named evening vow meal; preparation unspecified",
+        "kechudi — named evening meal alternative; preparation unspecified"
+      ],
+      "food_role_note": "Havishanna or kechudi are evening vow meals; Pana Sankranti dishes are not transferred here.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-baisakha-kamakoti",
+        "osha-mahanti",
+        "osha-review2006"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "A month of Vishnu devotion",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-review2006"
+          ],
+          "locator": "Mahanti printed 45 / PDF61; Dash printed 16 / PDF2"
+        },
+        {
+          "section_title": "The meal: havishanna or kechudi",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed 45 / PDF61"
+        },
+        {
+          "section_title": "A comparative story of hospitality",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-baisakha-kamakoti"
+          ],
+          "locator": "Web chapter 28, King Kirtiman paragraphs"
+        },
+        {
+          "section_title": "Food given and food eaten",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-baisakha-kamakoti",
+            "osha-mahanti"
+          ],
+          "locator": "Rao web chapter 28, water-charity paragraphs; Mahanti printed 45 / PDF61"
+        }
+      ],
+      "profile_digest": "eab68a09bbdffce223baf752500fe57d701cb09757121e96768d08520ea7f3dc",
+      "seasonal_entry_digest": "706656bef7671eb98228cb970b00dea05c1d4252f60a8ba4dd8d4a7083ddde94"
+    },
+    {
+      "profile_id": "OSHA-036",
+      "seasonal_id": "SEAS-037",
+      "name": "Guru Panchami",
+      "profile_path": "culture/osha/guru-panchami.md",
+      "route": "/culture/osha/guru-panchami/",
+      "source_checked_on": "2026-10-08",
+      "calendar_status": "identity_conflict",
+      "month_ids": [],
+      "unresolved_month_ids": [
+        "bhadraba",
+        "ashwina",
+        "phalguna"
+      ],
+      "calendar_note": "Conflicting Guru/Brihaspati identities; do not combine three labels into a season.",
+      "traditional_month_verbatim": "Conflicted: Bhadrava in Mahanti; Ashwina in Dash; Phalguna in Ojha’s Brihaspati account",
+      "calendar_rule_verbatim": "Conflicted source identities; no normalized month or current-year date adopted. See profile and three-source comparison.",
+      "food_terms_verbatim": [],
+      "food_role_note": "Fasting is described; no named food established. Rushi Panchami’s offerings remain separate.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-mahanti",
+        "osha-panchami-ojha2022",
+        "osha-review2006"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "Teachers and disciples in one Odisha account",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed47–48 / PDF63–64"
+        },
+        {
+          "section_title": "Three calendar statements, identities still open",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-mahanti",
+            "osha-panchami-ojha2022"
+          ],
+          "locator": "Dash printed16 / PDF2; Mahanti printed47–48 / PDF63–64; Ojha printed107–109 / viewer109–111"
+        },
+        {
+          "section_title": "Brihaspati: an attributed devotional episode",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-panchami-ojha2022"
+          ],
+          "locator": "Guru Panchami Katha, printed107–108 / viewer109–110"
+        },
+        {
+          "section_title": "Food evidence: fasting, with the menu unknown",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-panchami-ojha2022"
+          ],
+          "locator": "Mahanti printed47–48 / PDF63–64 and footnote34 context; Ojha printed109 / viewer111"
+        }
+      ],
+      "profile_digest": "b577345ba826a29de30fce62da32b7b078ad346aa9b84e907ecfdc7917d5c6a7",
+      "seasonal_entry_digest": "10e1e9694e9b7cf5ebd4720b917fd34426363ec98e5f39723886d328ad104794"
+    },
+    {
+      "profile_id": "OSHA-037",
+      "seasonal_id": "SEAS-038",
+      "name": "Rushi Panchami",
+      "profile_path": "culture/osha/rushi-panchami.md",
+      "route": "/culture/osha/rushi-panchami/",
+      "source_checked_on": "2026-10-08",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "bhadraba"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Month label reused from the saved Odisha account; exact annual date remains unverified.",
+      "traditional_month_verbatim": "Bhadrava / Bhadraba",
+      "calendar_rule_verbatim": "Fifth day of the bright fortnight of Bhadrava/Bhadraba; traditional temple calendar description.",
+      "food_terms_verbatim": [
+        "Milk (temple offering)",
+        "Banana (temple offering)",
+        "Other fruit (unspecified temple offering)"
+      ],
+      "food_role_note": "Milk, banana and other fruit are temple naivedya; household fast-breaking menu unknown.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-jagannath-festivals2003",
+        "osha-lakshmi2021",
+        "osha-markandeswar2013",
+        "osha-panchami-ojha2022",
+        "osha-review2006"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "A place in the ritual calendar",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-jagannath-festivals2003",
+            "osha-lakshmi2021"
+          ],
+          "locator": "Tripathy printed39 / PDF3; Mohanty and Mohanty printed22 / PDF2"
+        },
+        {
+          "section_title": "The seven sages and a short sacred story",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-panchami-ojha2022"
+          ],
+          "locator": "Printed108 / viewer110"
+        },
+        {
+          "section_title": "Mahalakshmi at Markandeswar",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-panchami-ojha2022"
+          ],
+          "locator": "Printed109 / viewer111"
+        },
+        {
+          "section_title": "A story pictured in the temple",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-markandeswar2013"
+          ],
+          "locator": "Printed106–107 / PDF3–4"
+        },
+        {
+          "section_title": "Food as an offering",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-panchami-ojha2022"
+          ],
+          "locator": "Printed108–109 / viewer110–111"
+        }
+      ],
+      "profile_digest": "0271c02951c2ae5f897d9b1b4215e6204b90bf76ebd6a4f68be2d62e66c96469",
+      "seasonal_entry_digest": "3d81a3983ac4e0c30b42b6b8cc2442065a89c99c1ddaf4e0dec4559e1c214661"
+    },
+    {
+      "profile_id": "OSHA-038",
+      "seasonal_id": "SEAS-039",
+      "name": "Gouri Brata",
+      "profile_path": "culture/osha/gouri-brata.md",
+      "route": "/culture/osha/gouri-brata/",
+      "source_checked_on": "2026-10-10",
+      "calendar_status": "identity_conflict",
+      "month_ids": [],
+      "unresolved_month_ids": [
+        "ashwina"
+      ],
+      "calendar_note": "Aswina Gouri label held pending identity; Srabana Mangala Gauri and Chaitra Kashi text are comparisons, excluded from month facets.",
+      "traditional_month_verbatim": "Unresolved identity: Aswina Gouri Brata; Srabana Mangala Gauri is a comparison, not an adopted alias",
+      "calendar_rule_verbatim": "Aswina in the Jhoti article; Srabana Tuesday comparison is separately named Mangala Gauri. No combined calendar adopted.",
+      "food_terms_verbatim": [],
+      "food_role_note": "Srabani fruit/pitha and Kashi textual meals are separate comparisons; Aswina Gouri menu remains unknown.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-gouri-malik2021",
+        "osha-jhoti-biswal-dash2020",
+        "osha-mahanti",
+        "osha-mangala-gauri-kashi",
+        "osha-panchami-ojha2022",
+        "osha-review2006"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "A name in Odisha’s record",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-jhoti-biswal-dash2020"
+          ],
+          "locator": "Dash printed16 / PDF2; Biswal and Dash printed116–117 / PDF117–118, item8"
+        },
+        {
+          "section_title": "A night kept awake by stories",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-gouri-malik2021"
+          ],
+          "locator": "Printed/PDF412"
+        },
+        {
+          "section_title": "History: a literary lead, not a founding date",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-gouri-malik2021"
+          ],
+          "locator": "Printed411–412 / PDF411–412; printed/PDF432, bibliography item20"
+        },
+        {
+          "section_title": "Mangala Gauri: a separate food comparison",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed46 / PDF62"
+        },
+        {
+          "section_title": "A Kashi narrative as a comparison",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-mangala-gauri-kashi"
+          ],
+          "locator": "Chapter49 verses26–44,55–69a"
+        },
+        {
+          "section_title": "Different calendar, different food roles",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mangala-gauri-kashi",
+            "osha-mahanti"
+          ],
+          "locator": "Kashi chapter49 verses80b–93; Mahanti printed46/PDF62"
+        },
+        {
+          "section_title": "A Gouri story from another context",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-panchami-ojha2022",
+            "osha-mahanti"
+          ],
+          "locator": "Ojha printed109 / viewer111; Mahanti printed75 / PDF91"
+        }
+      ],
+      "profile_digest": "8ce80c738c782648c0e601eee7a6e4ca9567a646bc4ce67161821034e6f4f933",
+      "seasonal_entry_digest": "1065d7300eecc82ceb469efde008372200bd6defa0bdc041b23c6d4f922acb1a"
+    },
+    {
+      "profile_id": "OSHA-039",
+      "seasonal_id": "SEAS-040",
+      "name": "Bipattarini Brata",
+      "profile_path": "culture/osha/bipattarini-brata.md",
+      "route": "/culture/osha/bipattarini-brata/",
+      "source_checked_on": "2026-10-09",
+      "calendar_status": "unknown",
+      "month_ids": [],
+      "unresolved_month_ids": [],
+      "calendar_note": "No Odisha month established; Bengali Ashar comparison is excluded.",
+      "traditional_month_verbatim": "Odisha calendar unresolved; Bengali Ashar comparison only",
+      "calendar_rule_verbatim": "Bengali Ashar comparison; Rajpur general rule and dated banner labels retained separately. Odisha rule not established.",
+      "food_terms_verbatim": [],
+      "food_role_note": "West Bengal fruit/sweets and fast-breaking descriptions are comparisons; Odisha menu unknown.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-bipattarini-bhattacharyya2011",
+        "osha-bipattarini-rajpur",
+        "osha-mahanti",
+        "osha-review2006"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "What the Odisha record establishes",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-mahanti"
+          ],
+          "locator": "Dash printed16 / PDF2; Mahanti printed46 / PDF62"
+        },
+        {
+          "section_title": "A riverbank story of protection: Bengali comparison",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-bipattarini-bhattacharyya2011"
+          ],
+          "locator": "PDF16–17, Bipattarini paragraph"
+        },
+        {
+          "section_title": "Historical evidence and its limits",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-bipattarini-bhattacharyya2011"
+          ],
+          "locator": "PDF16 and PDF19 note1"
+        },
+        {
+          "section_title": "Fruit, sweets and the number thirteen: Rajpur comparison",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-bipattarini-rajpur"
+          ],
+          "locator": "About section: previous-day, fast-breaking, thirteen-fruit and thread paragraphs; address footer"
+        },
+        {
+          "section_title": "Keep the calendar attached to its place",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-bipattarini-rajpur"
+          ],
+          "locator": "About section annual festival paragraphs and announcement banner; research limitation appended"
+        }
+      ],
+      "profile_digest": "6c8ec2f6fb41ecbafa255c18e4193694a3498446efa1a2b079e3be547a1280cb",
+      "seasonal_entry_digest": "c40c9069627eecf96477bb22440405819be4bf1384be30d10b720cc8c25d894d"
+    },
+    {
+      "profile_id": "OSHA-040",
+      "seasonal_id": "SEAS-041",
+      "name": "Sankata Chaturthi",
+      "profile_path": "culture/osha/sankata-chaturthi.md",
+      "route": "/culture/osha/sankata-chaturthi/",
+      "source_checked_on": "2026-10-09",
+      "calendar_status": "identity_conflict",
+      "month_ids": [],
+      "unresolved_month_ids": [
+        "magha"
+      ],
+      "calendar_note": "Magha Shiva–Parvati account and recurring Ganesh-vow comparison not reconciled.",
+      "traditional_month_verbatim": "Magha account; relation to monthly Ganesh vow unresolved",
+      "calendar_rule_verbatim": "Magha in Dash; recurring dark-fourth Ganesh-vow comparison unresolved. No annual date adopted.",
+      "food_terms_verbatim": [
+        "Bundi / Bindi (April2006 spellings)",
+        "Bindi / hundi (December2006 account)"
+      ],
+      "food_role_note": "Bundi/Bindi/hundi descriptions differ in processing; recurring Ganesh-vow food remains unspecified.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-dash-festivals2006",
+        "osha-mahanti",
+        "osha-review2006"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "An Odisha account in Magha",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006"
+          ],
+          "locator": "Printed16 / PDF2"
+        },
+        {
+          "section_title": "Bundi in the paragraph, Bindi in the note",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006"
+          ],
+          "locator": "Printed17 / PDF3 food paragraph and printed18 / PDF4 note17; editorial identity boundary appended"
+        },
+        {
+          "section_title": "A second kitchen description from the same author",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-dash-festivals2006"
+          ],
+          "locator": "Printed48 / PDF48 byline; printed49 / PDF49 Sankata paragraph. Web-extracted text; page images unavailable."
+        },
+        {
+          "section_title": "A recurring Ganesh vow in another account",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed43–44 / PDF59–60, Sankati and Binayak heading"
+        }
+      ],
+      "profile_digest": "c78cabfaef76e8d3cefa9fbaaf19b477d870d470ae646be8f56dd8f70f37f064",
+      "seasonal_entry_digest": "6e073ea813ab59f50379d46374e191e62c79501a90539557bfb234c32598b329"
+    },
+    {
+      "profile_id": "OSHA-041",
+      "seasonal_id": "SEAS-042",
+      "name": "Radhastami Brata",
+      "profile_path": "culture/osha/radhastami-brata.md",
+      "route": "/culture/osha/radhastami-brata/",
+      "source_checked_on": "2026-10-09",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "bhadraba"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Month label reused from the saved Odisha account; exact annual date remains unverified.",
+      "traditional_month_verbatim": "Bhadrava, bright fortnight, eighth lunar day",
+      "calendar_rule_verbatim": "Bhadrava bright eighth lunar day; no general annual date adopted. Past Konark announcement scoped separately.",
+      "food_terms_verbatim": [],
+      "food_role_note": "Temple prasada is fast-breaking food without named dishes; a narrative meal is not a festival recipe.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-jagannath-behera2019",
+        "osha-jagannath-festivals2003",
+        "osha-mahanti",
+        "osha-radhastami-padma",
+        "osha-radhastami-rgd2026",
+        "osha-radhastami-shubhapallaba2020",
+        "osha-review2006"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "The observance and its season",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-mahanti",
+            "osha-jagannath-festivals2003"
+          ],
+          "locator": "Dash printed16/PDF2; Mahanti printed48/PDF64; Tripathy printed39/PDF3"
+        },
+        {
+          "section_title": "An Odia story told through questions",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-radhastami-shubhapallaba2020"
+          ],
+          "locator": "Opening dialogue; Krishna’s answer; lotus-child episode; Narada and Chanchala meal episode"
+        },
+        {
+          "section_title": "Another textual account",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-radhastami-padma",
+            "osha-radhastami-shubhapallaba2020"
+          ],
+          "locator": "Padma Brahma-khanda chapter7, verses13–24 and25–42; Odia lotus-child episode"
+        },
+        {
+          "section_title": "Food inside the story is not a festival recipe",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-radhastami-shubhapallaba2020"
+          ],
+          "locator": "Narada/meal episode; Brata Bidhana ending"
+        },
+        {
+          "section_title": "Offerings and the meal after fasting",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-radhastami-padma"
+          ],
+          "locator": "Mahanti printed48/PDF64; Padma Brahma-khanda7, verses13–20"
+        },
+        {
+          "section_title": "Puri and Sakhigopal need their own context",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-jagannath-behera2019",
+            "osha-mahanti"
+          ],
+          "locator": "Behera printed103/PDF4; Mahanti printed48/PDF64"
+        },
+        {
+          "section_title": "A recent Konark announcement, kept in its scope",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-radhastami-rgd2026"
+          ],
+          "locator": "Home-page Upcoming Event banner and address footer, read9October2026"
+        }
+      ],
+      "profile_digest": "cb8aa68eb7e30f3e7bc3b4d6f0c1e87331290066f4b129cd716a4480c35aabf4",
+      "seasonal_entry_digest": "1774144d0814ed8b8df2262b2ce85417513472d4d1371b848dfffb5e098b67c6"
+    },
+    {
+      "profile_id": "OSHA-042",
+      "seasonal_id": "SEAS-043",
+      "name": "Shibaratri Brata",
+      "profile_path": "culture/osha/shibaratri-brata.md",
+      "route": "/culture/osha/shibaratri-brata/",
+      "source_checked_on": "2026-10-09",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "phalguna"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Month label reused from the saved Odisha account; exact annual date remains unverified.",
+      "traditional_month_verbatim": "Phalguna, dark fortnight; night associated with the fourteenth lunar day",
+      "calendar_rule_verbatim": "Phalguna dark-fortnight night associated with chaturdashi; verify annual local date and sequence separately.",
+      "food_terms_verbatim": [
+        "Gaja pitha"
+      ],
+      "food_role_note": "Gaja pitha is a named Shiva offering; linga-bathing ingredients are not a fast-breaking menu.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-mahanti",
+        "osha-review2006",
+        "osha-shibaratri-gopabandhu",
+        "osha-shivaratri-shiva40"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "Names and season",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-mahanti"
+          ],
+          "locator": "Dash printed 16/PDF 2; Mahanti printed 44/PDF 60 and 103–105/PDF 119–121"
+        },
+        {
+          "section_title": "A vigil, then a meal",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed 105–106/PDF 121–122"
+        },
+        {
+          "section_title": "The hunter in Mahanti’s telling",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed 106/PDF 122"
+        },
+        {
+          "section_title": "Gurudruha and the deer",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-shivaratri-shiva40"
+          ],
+          "locator": "Kotirudra-samhita 40, verses 4–20, 27–39, 49–85 and 89–95"
+        },
+        {
+          "section_title": "Gaja pitha: a name with an unfinished recipe",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed 105/PDF 121; comparison boundary explained in the linked Gaja dossier"
+        },
+        {
+          "section_title": "Ingredients used in worship",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed 105/PDF 121"
+        },
+        {
+          "section_title": "An Odia poem looks inward",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-shibaratri-gopabandhu"
+          ],
+          "locator": "Opening couplet, inward questioning and concluding verses; chapter oldid=58885 and collection attribution"
+        },
+        {
+          "section_title": "One divine story can belong to different occasions",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed 105/PDF 121"
+        }
+      ],
+      "profile_digest": "5b9e59e68b12cffbdd74c112b9293fa2f9406cb892755ff37d7921d28462a5c9",
+      "seasonal_entry_digest": "ce9423672cae48b5463a5f8541cdab5030210e7eacf8b26630717c758f42e9dc"
+    },
+    {
+      "profile_id": "OSHA-043",
+      "seasonal_id": "SEAS-044",
+      "name": "Shri Krishna Janmastami Brata",
+      "profile_path": "culture/osha/janmastami-brata.md",
+      "route": "/culture/osha/janmastami-brata/",
+      "source_checked_on": "2026-10-09",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "bhadraba"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Bhadraba retained; after-midnight versus next-day fast breaking unresolved.",
+      "traditional_month_verbatim": "Bhadrava, dark fortnight, eighth lunar day",
+      "calendar_rule_verbatim": "Bhadrava dark eighth; confirm annual local date and fast-breaking sequence separately.",
+      "food_terms_verbatim": [],
+      "food_role_note": "Nandotsava foods become prasada after offering; dishes unspecified and separate Krishna-lila meals not transferred.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-bhagavata-krishna-birth",
+        "osha-iskcon-bhubaneswar-calendar2026",
+        "osha-jagannath-festivals2003",
+        "osha-mahanti",
+        "osha-odisha-festivals-overview",
+        "osha-review2006"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "A brata in the Odisha calendar",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-mahanti"
+          ],
+          "locator": "Dash printed 16/PDF 2; Mahanti printed 47/PDF 63"
+        },
+        {
+          "section_title": "The birth story: fear, protection and an exchange",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-bhagavata-krishna-birth"
+          ],
+          "locator": "10.3 chapter summary and verses 7–10, 28–30, 46–51"
+        },
+        {
+          "section_title": "When does the fast end?",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-odisha-festivals-overview",
+            "osha-mahanti"
+          ],
+          "locator": "Government Janmastami subsection; Mahanti printed 47, 82/PDF 63, 98"
+        },
+        {
+          "section_title": "The cradle and the shared offering",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed 81–82/PDF 97–98; general puja description distinguished from Odisha-specific brata entry"
+        },
+        {
+          "section_title": "Milk foods in the sacred narrative",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-bhagavata-krishna-birth"
+          ],
+          "locator": "10.5.14 translation; English terms retained with translation-specific scope"
+        },
+        {
+          "section_title": "Puri: a sequence of occasions",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-jagannath-festivals2003"
+          ],
+          "locator": "Printed 39/PDF 3, Krishna Janma & Lila"
+        },
+        {
+          "section_title": "A local calendar entry, with a limited claim",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-iskcon-bhubaneswar-calendar2026"
+          ],
+          "locator": "Homepage events calendar, Janmastami entry; read 9 October 2026"
+        }
+      ],
+      "profile_digest": "f74c55afca06cab403f5cfcaedb70e4e0c72fe55ec926e4c7c1f249d7d8102c6",
+      "seasonal_entry_digest": "cda21141773ac9b026a3dcc85d566639b2416b8cf0b8168db2bb571a606a3d87"
+    },
+    {
+      "profile_id": "OSHA-044",
+      "seasonal_id": "SEAS-045",
+      "name": "Pusa Rabibara Brata",
+      "profile_path": "culture/osha/pusa-rabibara-brata.md",
+      "route": "/culture/osha/pusa-rabibara-brata/",
+      "source_checked_on": "2026-10-09",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "pausa"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Month label reused from the saved Odisha account; exact annual date remains unverified.",
+      "traditional_month_verbatim": "Pausa; Sundays in the inspected Odia text",
+      "calendar_rule_verbatim": "Sundays in Pusha/Pausa in this text; annual local dates not verified.",
+      "food_terms_verbatim": [
+        "Sugar",
+        "Pitha",
+        "Ripe fruit",
+        "Bananas",
+        "Coconut",
+        "Pusha Rabibara muan — reported market name"
+      ],
+      "food_role_note": "Textual sugar, pitha and fruit offerings are separate from the attributed Pusha Rabibara muan market name; no current seller.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-mahanti",
+        "osha-muan-nanda2023",
+        "osha-pusa-pothi",
+        "osha-review2006"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "A seasonal Sunday vow",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-pusa-pothi"
+          ],
+          "locator": "Dash printed16/PDF2; scan PDF7, directions beginning after the account of the curse"
+        },
+        {
+          "section_title": "The prince and the merchant’s daughter",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-pusa-pothi"
+          ],
+          "locator": "PDF2–5, opening royal household through marriage and return procession"
+        },
+        {
+          "section_title": "The sun is asked to pause",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-pusa-pothi"
+          ],
+          "locator": "PDF5–7, request to Aditya, delayed return and the mother’s response"
+        },
+        {
+          "section_title": "The story reaches the courtyard",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-pusa-pothi"
+          ],
+          "locator": "PDF7–8, affliction, advice and concluding observance"
+        },
+        {
+          "section_title": "Preparing a place before sunrise",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-pusa-pothi"
+          ],
+          "locator": "PDF7, ritual directions"
+        },
+        {
+          "section_title": "What the text offers",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-pusa-pothi"
+          ],
+          "locator": "PDF7, offering lines after the instruction to invite a Brahmin; selected terms only, not full transcription"
+        },
+        {
+          "section_title": "A food name carried into the market",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-muan-nanda2023"
+          ],
+          "locator": "Opening market-name paragraph, after visible author credit"
+        },
+        {
+          "section_title": "A wider Sunday practice, kept separate",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed63/PDF79, separate weekly Rabibara entry"
+        },
+        {
+          "section_title": "History: a recovered text, an unresolved date",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-pusa-pothi"
+          ],
+          "locator": "Commons Summary and file history; PDF1–8 inspected without a verified original imprint"
+        }
+      ],
+      "profile_digest": "74e2ad1ad0a29fb89a6c1b57cabec8120e7f176fbee275b5f92afd4822ff5108",
+      "seasonal_entry_digest": "6a48056b910f11fa53eb47a0eb8694089440bdd62daa06eb4702274f2e8e3264"
+    },
+    {
+      "profile_id": "OSHA-045",
+      "seasonal_id": "SEAS-046",
+      "name": "Binayaka Brata",
+      "profile_path": "culture/osha/binayaka-brata.md",
+      "route": "/culture/osha/binayaka-brata/",
+      "source_checked_on": "2026-10-10",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "bhadraba"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Annual Bhadraba identity only; other booklet month passages and recurring Chaturthi vows not merged.",
+      "traditional_month_verbatim": "Bhadrab/Bhadrava; annual bright-fortnight fourth, distinguished from recurring Chaturthi vows",
+      "calendar_rule_verbatim": "Annual Bhadrava bright fourth in Dash/Mahanti and opening booklet direction; later booklet month alternatives remain under comparison.",
+      "food_terms_verbatim": [
+        "Modaka —21 prescribed; 10/10/1 allocation",
+        "Fruit — varieties unspecified",
+        "Coconut — school-puja ritual account"
+      ],
+      "food_role_note": "Twenty-one modaka are textually allocated; the school shared meal is a separate setting with no verified local recipe.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-binayaka-dharmagrantha",
+        "osha-gazette1937-binayaka",
+        "osha-mahanti",
+        "osha-review2006"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "The annual vow and its neighbours",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-mahanti"
+          ],
+          "locator": "Dash printed16/PDF2; Mahanti printed43–44/PDF59–60 and79/PDF95"
+        },
+        {
+          "section_title": "A booklet with more than one calendar passage",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-binayaka-dharmagrantha"
+          ],
+          "locator": "PDF3/printed1 opening directions; PDF7–8/printed5–6 Sanskrit verses and Odia explanation"
+        },
+        {
+          "section_title": "Yudhishthira asks how to recover what was lost",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-binayaka-dharmagrantha"
+          ],
+          "locator": "PDF6–8/printed4–6 opening dialogue; PDF11–14/printed9–12 examples and conclusion"
+        },
+        {
+          "section_title": "A birth story is a different narrative layer",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed80–81/PDF96–97; short synopsis of this author’s version"
+        },
+        {
+          "section_title": "Twenty-one modaka and their distribution",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-binayaka-dharmagrantha"
+          ],
+          "locator": "PDF6/printed4 directions; PDF9–10/printed7–8 Odia explanation, continuing over the page"
+        },
+        {
+          "section_title": "From a household vow to a shared school meal",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed79–80/PDF95–96; school and household settings"
+        },
+        {
+          "section_title": "What a 1937 record tells us",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-gazette1937-binayaka"
+          ],
+          "locator": "Printed17/PDF17, entry 172; catalogue covers registrations in the quarter ending 31 March 1937"
+        },
+        {
+          "section_title": "Two book identities, not one dated scan",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-binayaka-dharmagrantha",
+            "osha-gazette1937-binayaka"
+          ],
+          "locator": "Scan PDF1–2 cover, PDF14/printed12 ending and PDF15 advertisement; Gazette printed17/PDF17 entry 172"
+        }
+      ],
+      "profile_digest": "f7f32d72a253ae29b3b7c5e615dfa268e2034f59b592eb63546bb344bac172f3",
+      "seasonal_entry_digest": "02d5ff41badb4fe90aacbb621b7af60fe4597b78e6aa8346ed1e7d488d4c4f3d"
+    },
+    {
+      "profile_id": "OSHA-046",
+      "seasonal_id": "SEAS-047",
+      "name": "Skanda Sasthi Brata",
+      "profile_path": "culture/osha/skanda-sasthi-brata.md",
+      "route": "/culture/osha/skanda-sasthi-brata/",
+      "source_checked_on": "2026-10-10",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "chaitra"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Chaitra Odisha inventory label; local almanac and practice unverified. South Indian comparison excluded.",
+      "traditional_month_verbatim": "Chaitra in Dash; Chaitra dark sixth in Mahanti, awaiting local almanac verification",
+      "calendar_rule_verbatim": "Mahanti: Chaitra dark sixth; local panji rule and actual observance unresolved. South Indian Arpisi comparison not substituted.",
+      "food_terms_verbatim": [],
+      "food_role_note": "Odisha foods unknown; South Indian kavadi milk/sugar excluded from the local association.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-ayyar1921-skanda",
+        "osha-karttikeya-panda2010",
+        "osha-mahanti",
+        "osha-review2006"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "A name in the inventory, a question about practice",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-mahanti"
+          ],
+          "locator": "Dash printed16/PDF2; Mahanti printed53/PDF69"
+        },
+        {
+          "section_title": "The deity has an Odisha history; the vow still needs one",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-karttikeya-panda2010"
+          ],
+          "locator": "Printed37–38/PDF1–2; cited archaeological studies not independently inspected"
+        },
+        {
+          "section_title": "A 1921 comparison from South India",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-ayyar1921-skanda"
+          ],
+          "locator": "Title page PDF6; chapter XXIII printed146/PDF151"
+        },
+        {
+          "section_title": "Six sparks and a divine child: Ayyar’s version",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-ayyar1921-skanda"
+          ],
+          "locator": "Printed147–148/PDF152–153; selected birth narrative within the chapter"
+        },
+        {
+          "section_title": "What the comparison says about offerings",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-ayyar1921-skanda"
+          ],
+          "locator": "Printed148/PDF153 footnote2 and surrounding passage; Idumban account continues printed149/PDF154"
+        }
+      ],
+      "profile_digest": "cfdb18c8d2244ef65563ea1c94f9c9edba661b4719c1135d882261c1ab91cd8e",
+      "seasonal_entry_digest": "74ca553e1f1a7fe67d8cb7fe71a0873f9cf9a7599265033404b0c84117751fdd"
+    },
+    {
+      "profile_id": "OSHA-047",
+      "seasonal_id": "SEAS-048",
+      "name": "Guru Purnima Brata",
+      "profile_path": "culture/osha/guru-purnima-brata.md",
+      "route": "/culture/osha/guru-purnima-brata/",
+      "source_checked_on": "2026-10-10",
+      "calendar_status": "month_conflict",
+      "month_ids": [],
+      "unresolved_month_ids": [
+        "ashadha",
+        "pausa"
+      ],
+      "calendar_note": "Institutional Ashadha observance and Dash Pausa brata entry remain distinct; see separately dated Math record.",
+      "traditional_month_verbatim": "Ashadha full moon in Mahanti and Bhubaneswar Math; Dash separately prints Pausa, unresolved",
+      "calendar_rule_verbatim": "Ashadha full moon for named institutional observance; Dash Pausa entry remains unresolved. No universal annual date inferred.",
+      "food_terms_verbatim": [
+        "Prasad — reported at two 2024 Odisha events; dishes unnamed",
+        "Cooked prasad — announced for Bhubaneswar Math Guru Purnima 2026; fulfilment and menu unverified"
+      ],
+      "food_role_note": "Reported Odisha prasad and planned cooked-prasad distribution are distinct from South Indian ritual grain; dishes and fulfilment unknown.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-ayyar1921-skanda",
+        "osha-guru-rkm-history",
+        "osha-guru-rkm2026",
+        "osha-guru-vk2024",
+        "osha-mahanti",
+        "osha-review2006"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "Ashadha and Pausa: retain the disagreement",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-mahanti",
+            "osha-guru-rkm2026"
+          ],
+          "locator": "Dash printed16/PDF2; Mahanti printed22/PDF38; Math calendar PDF2 row6"
+        },
+        {
+          "section_title": "Why Vyasa is honoured",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed22/PDF38; the religious chronology footnote is not adopted as historical dating"
+        },
+        {
+          "section_title": "A historical comparison: monastic Vyasa Puja in 1921",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-ayyar1921-skanda"
+          ],
+          "locator": "Printed85/PDF94; title page PDF6. Only opening two pages of chapter XIV inspected for this profile"
+        },
+        {
+          "section_title": "Rice and limes in the South Indian comparison",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-ayyar1921-skanda"
+          ],
+          "locator": "Printed85–86/PDF94–95; regional comparison, not an Odisha food association"
+        },
+        {
+          "section_title": "A Bhubaneswar memory with an uncertain festival date",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-guru-rkm-history"
+          ],
+          "locator": "Printed45/PDF25; title and author printed21/PDF1; original memoir not independently inspected"
+        },
+        {
+          "section_title": "Teachers, parents and prasad in Rourkela",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-guru-vk2024"
+          ],
+          "locator": "Dated post; Vedvyas and Rourkela programme paragraphs"
+        },
+        {
+          "section_title": "Cooked prasad: a dated plan, not a confirmed meal",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-guru-rkm2026"
+          ],
+          "locator": "PDF2 row6 and C.P. legend; Odia PDF1 row6 and anna-prasad note"
+        }
+      ],
+      "profile_digest": "72966c31648865f787f2fbcb3c9ed0ffdefef186007b597b9b7cdafc4b61667e",
+      "seasonal_entry_digest": "113418fe7320a119a2b22fd1c7df48dbb50f9261ae6461fd409cf41e0ba08409"
+    },
+    {
+      "profile_id": "OSHA-048",
+      "seasonal_id": "SEAS-049",
+      "name": "Shiva Pradosha Brata",
+      "profile_path": "culture/osha/shiva-pradosha-brata.md",
+      "route": "/culture/osha/shiva-pradosha-brata/",
+      "source_checked_on": "2026-10-10",
+      "calendar_status": "recurring",
+      "month_ids": [],
+      "unresolved_month_ids": [],
+      "calendar_note": "Trayodashi in both lunar fortnights; local timing discrepancy remains unresolved.",
+      "traditional_month_verbatim": "Recurring trayodashi in both lunar fortnights; local timing unresolved",
+      "calendar_rule_verbatim": "Recurring trayodashi in both fortnights; printed timing discrepancy unresolved. No local clock time or Gregorian date established.",
+      "food_terms_verbatim": [],
+      "food_role_note": "Comparative textual offerings and feeding directions do not establish an Odisha dish; local fasting account names no meal.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-mahanti",
+        "osha-pradosha-skanda"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "A recurring observance in the Odisha account",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed44/PDF60"
+        },
+        {
+          "section_title": "Evening, sunset or moonrise?",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-pradosha-skanda"
+          ],
+          "locator": "Mahanti printed44/PDF60, visually checked; Skanda 6.5 and 7.2"
+        },
+        {
+          "section_title": "The widow and the orphaned prince",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-pradosha-skanda"
+          ],
+          "locator": "Chapter6, verses6–8,16–75 and76–79"
+        },
+        {
+          "section_title": "How the story ends",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-pradosha-skanda"
+          ],
+          "locator": "Chapter7, verses78–96 and97–159"
+        },
+        {
+          "section_title": "Textual offerings, without an Odisha recipe",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-pradosha-skanda"
+          ],
+          "locator": "Chapter7, verses52–56 and71"
+        }
+      ],
+      "profile_digest": "f2a89ed823a3bc2657aee2e2811ecf4ffa3aca2172f1b9ebf6754b905928aa02",
+      "seasonal_entry_digest": "a99195559e4ba8be41a52825f7fdc6dacb30e96829f1f26a10f0ad434a1951af"
+    },
+    {
+      "profile_id": "OSHA-049",
+      "seasonal_id": "SEAS-050",
+      "name": "Tarini Brata",
+      "profile_path": "culture/osha/tarini-brata.md",
+      "route": "/culture/osha/tarini-brata/",
+      "source_checked_on": "2026-10-10",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "ashadha"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Month label reused from the saved Odisha account; exact annual date remains unverified.",
+      "traditional_month_verbatim": "Ashadha, shukla chaturthi in Mahanti; local annual date unverified",
+      "calendar_rule_verbatim": "Ashadha shukla chaturthi in Mahanti; no Gregorian date or current local calendar verified.",
+      "food_terms_verbatim": [],
+      "food_role_note": "Ghatagaon coconut, anna bhoga and place-linked sweets do not establish food of the Ashadha household vow.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-mahanti",
+        "osha-tarini-kendujhar",
+        "osha-tarini-mallebrein2004"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "The vow named in an Odisha account",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed46/PDF62"
+        },
+        {
+          "section_title": "Keep three identities distinct",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed46/PDF62 and printed158/PDF174; Bipattarini comparison retained in its existing profile"
+        },
+        {
+          "section_title": "The story of the backward glance",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-tarini-mallebrein2004"
+          ],
+          "locator": "Printed158–159, Kanchi-war narrative; author-copy text"
+        },
+        {
+          "section_title": "Dating the shrine is not dating the vow",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-tarini-mallebrein2004"
+          ],
+          "locator": "Printed162–164, historical discussion and note23; claim limited to author’s reported comparison"
+        },
+        {
+          "section_title": "Coconut as an offering",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-tarini-kendujhar"
+          ],
+          "locator": "Culture & Heritage introduction, coconut sentence"
+        },
+        {
+          "section_title": "A historical food change with two starting years",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-tarini-mallebrein2004"
+          ],
+          "locator": "Printed157–158; fieldwork year in printed164 note1"
+        },
+        {
+          "section_title": "Nadia kora belongs to the place evidence",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-tarini-mallebrein2004"
+          ],
+          "locator": "Printed158, coconut distribution and local sweet paragraph"
+        }
+      ],
+      "profile_digest": "4dcd797d714432b26ec4458b380f8304b6ec98ff82d0d1f4694923a0b6b43b06",
+      "seasonal_entry_digest": "233ab3e5686e2685a1a73ad55790b3de165a8482a6ceaa70cbce9187a8db7cfc"
+    },
+    {
+      "profile_id": "OSHA-050",
+      "seasonal_id": "SEAS-051",
+      "name": "Bajra Mahakali Brata",
+      "profile_path": "culture/osha/bajra-mahakali-brata.md",
+      "route": "/culture/osha/bajra-mahakali-brata/",
+      "source_checked_on": "2026-10-10",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "ashwina"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Month label reused from the saved Odisha account; exact annual date remains unverified.",
+      "traditional_month_verbatim": "Aswina amabasya in Mahanti and the inspected Odia story; local annual date unverified",
+      "calendar_rule_verbatim": "Aswina amabasya; text also uses Phuleri and Polari/Polori names. No current panji or Gregorian date adopted.",
+      "food_terms_verbatim": [
+        "Aradra — textual name; recipe and modern identification unresolved",
+        "Seven kinds of greens — species unspecified",
+        "Banana and coconut — narrative offerings",
+        "Pitha — varieties unspecified in Mahanti"
+      ],
+      "food_role_note": "Textual aradra, fruit and seven greens are offered and shared; plant arrangements do not make every plant an ingredient.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-bajra-pothi",
+        "osha-mahanti"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "The observance in a published Odisha account",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed49/PDF65"
+        },
+        {
+          "section_title": "A promise made beside the rice",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-bajra-pothi"
+          ],
+          "locator": "PDF2–3"
+        },
+        {
+          "section_title": "The loss and the return",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-bajra-pothi"
+          ],
+          "locator": "PDF6–11"
+        },
+        {
+          "section_title": "What the kitchen passages actually say",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-bajra-pothi"
+          ],
+          "locator": "PDF3–4; aradra spelling compared with Wikisource transcription"
+        },
+        {
+          "section_title": "Offerings and food shared with neighbours",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-bajra-pothi"
+          ],
+          "locator": "PDF5"
+        },
+        {
+          "section_title": "Names and dates need their own evidence",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-bajra-pothi",
+            "osha-mahanti"
+          ],
+          "locator": "PDF1–2,7,10–11; Mahanti printed49/PDF65"
+        },
+        {
+          "section_title": "History: a recovered witness with an undated imprint",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-bajra-pothi"
+          ],
+          "locator": "Commons description/date/author and file-history fields; all11 PDF pages inspected for imprint"
+        }
+      ],
+      "profile_digest": "758ad34f2f3faf04ff8a0a2ca05dbf60fe5abc3db7eec291ac8713d039d4af74",
+      "seasonal_entry_digest": "fc882074f03b4ff39f123ecd031fa0a88ab563850a652a773216b59a28977ad5"
+    },
+    {
+      "profile_id": "OSHA-051",
+      "seasonal_id": "SEAS-052",
+      "name": "Mahastami Brata",
+      "profile_path": "culture/osha/mahastami-brata.md",
+      "route": "/culture/osha/mahastami-brata/",
+      "source_checked_on": "2026-10-10",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "ashwina"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Month label reused from the saved Odisha account; exact annual date remains unverified.",
+      "traditional_month_verbatim": "Aswina bright-fortnight eighth day during autumn Durga Puja",
+      "calendar_rule_verbatim": "Aswina bright-fortnight eighth day during autumn Durga Puja; no current panji or Gregorian date adopted.",
+      "food_terms_verbatim": [
+        "Fruit — varieties unspecified in the household account",
+        "Bhoga — dishes unspecified in the separate public-festival account"
+      ],
+      "food_role_note": "Household fruit offerings and wider public-festival bhoga are separate settings; dishes and fast-breaking menu unknown.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-durgastami-book-lead",
+        "osha-mahanti"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "The household account",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed51/PDF67, Mahastami brata paragraph"
+        },
+        {
+          "section_title": "A festival meal is a separate food setting",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed86/PDF102, Mahastami paragraph"
+        },
+        {
+          "section_title": "Why the names need comparison",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-durgastami-book-lead"
+          ],
+          "locator": "Product title and Specifications, item HAR390"
+        }
+      ],
+      "profile_digest": "e98bc79f159b36ac4685bab7395277bd74e61a33fd757e1716a9be316317140e",
+      "seasonal_entry_digest": "bf72b012d9663ae2d9b2734aabe274caf8012b8d12e2deda95b1ff30a1a03559"
+    },
+    {
+      "profile_id": "OSHA-052",
+      "seasonal_id": "SEAS-053",
+      "name": "Ashoka Astami Brata",
+      "profile_path": "culture/osha/ashoka-astami-brata.md",
+      "route": "/culture/osha/ashoka-astami-brata/",
+      "source_checked_on": "2026-10-10",
+      "calendar_status": "source_month",
+      "month_ids": [
+        "chaitra"
+      ],
+      "unresolved_month_ids": [],
+      "calendar_note": "Month label reused from the saved Odisha account; exact annual date remains unverified.",
+      "traditional_month_verbatim": "Chaitra bright-fortnight eighth; textual bud prescription additionally specifies Punarvasu",
+      "calendar_rule_verbatim": "Chaitra bright eighth in Mahanti; Garuda opening additionally specifies Punarvasu. No current panji or Gregorian date adopted.",
+      "food_terms_verbatim": [
+        "Eight ashoka flower buds — comparative textual prescription only; Odisha household menu unverified"
+      ],
+      "food_role_note": "Eight ashoka buds are textual ritual consumption, not an established Odisha household menu or eating recommendation.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "osha-ashoka-garuda",
+        "osha-ashoka-incredible",
+        "osha-mahanti"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "A household vow to Surya",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed53/PDF69, Ashoka ashtami brata"
+        },
+        {
+          "section_title": "Rama and the festival story",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed107–108/PDF123–124, Ashoka astami puja"
+        },
+        {
+          "section_title": "The public procession as a separate setting",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-ashoka-incredible"
+          ],
+          "locator": "Historical Roots and Celebratory Myths; The Spectacle of the Rukuna Rath Yatra; Engaging in the Festivities"
+        },
+        {
+          "section_title": "Eight buds in a textual prescription",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-ashoka-garuda"
+          ],
+          "locator": "Chapter CXXXIII opening paragraph, before Mahanavami"
+        }
+      ],
+      "profile_digest": "7c03f7f4988e106db14dd0e4c56d682d56a06eb6a8ca1051faa2b46a125bbc1b",
+      "seasonal_entry_digest": "f8c688384a9f1f8184119c3c644758ddda4257086b684936dcf211b0cd22367b"
+    },
+    {
+      "profile_id": "OSHA-053",
+      "seasonal_id": "SEAS-001",
+      "name": "Raja Parba",
+      "profile_path": "culture/osha/raja-parba.md",
+      "route": "/culture/osha/raja-parba/",
+      "source_checked_on": "2026-10-10",
+      "calendar_status": "solar_transition",
+      "month_ids": [],
+      "unresolved_month_ids": [],
+      "calendar_note": "Mithuna Sankranti, described as Jyestha-to-Ashadha solar transition; not assigned to a lunar-month facet.",
+      "traditional_month_verbatim": "Mithuna Sankranti; solar transition described as Jyestha to Ashadha in Mohapatra",
+      "calendar_rule_verbatim": "Three festival days around Mithuna Sankranti; fourth-day observance described with regional variation. No reusable Gregorian date adopted.",
+      "food_terms_verbatim": [
+        "poda pitha",
+        "arisa pitha",
+        "muan — Mahanti’s named preparation; recipe unresolved"
+      ],
+      "food_role_note": "Prepared pitha is exchanged between households; the historical OTDC takeaway menu is a separate dated service record.",
+      "current_serving_availability": null,
+      "annual_date": null,
+      "source_ids": [
+        "food-air-raja2026",
+        "food-crri-rice2015",
+        "food-raja-otdc2021",
+        "food-tourism",
+        "osha-mahanti",
+        "osha-raja-mohapatra2006"
+      ],
+      "evidence_sections": [
+        {
+          "section_title": "The Earth at rest",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed116–117 / PDF132–133, Raja parba"
+        },
+        {
+          "section_title": "A calendar organised around Sankranti",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-raja-mohapatra2006",
+            "osha-mahanti"
+          ],
+          "locator": "Mohapatra printed122 / PDF1; Mahanti printed116–117 / PDF132–133"
+        },
+        {
+          "section_title": "Preparing food before the pause",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed117–119 / PDF133–135"
+        },
+        {
+          "section_title": "Poda pitha, arisa and the wider festive meal",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "food-tourism",
+            "osha-raja-mohapatra2006",
+            "food-air-raja2026",
+            "food-crri-rice2015"
+          ],
+          "locator": "Tourism Poda Pitha heading; ICAR-CRRI printed9 / PDF20, Arisa; Mohapatra printed123 / PDF2; Akashvani15June2026 third body paragraph"
+        },
+        {
+          "section_title": "Swings, songs and visiting",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed117–119 / PDF133–135; footnote53"
+        },
+        {
+          "section_title": "A documented change in food distribution",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "food-raja-otdc2021"
+          ],
+          "locator": "Odisha Unravelled July2021 issue8, printed8 / PDF8"
+        }
+      ],
+      "profile_digest": "7cbe5498034dc492b7f76022ef9b2723fd567cd7bce216d053b882511999051c",
+      "seasonal_entry_digest": "59efc0a14d03d937173b4a0bbeef8db40723171fb4d02b0ed0c1cca3750c3004"
+    }
+  ],
+  "source_fetches": [],
+  "next_step": "Reconcile this navigation candidate into the existing draft website collection, using visible status labels and source-scoped food notes, then test recurrence, conflicts, multi-month filtering and empty results.",
+  "implementation_scope": "Existing collection month/recurrence filters and food-role notes in draft PR145; not public release.",
+  "revision_history": [
+    {
+      "run_id": "2026-10-10-prathamastami",
+      "at": "2026-10-10T14:41:06.609060+00:00",
+      "scope": "Prathamastami row refreshed from revised profile and seasonal entry; prior draft implementation receipt retained, new row not yet pushed."
+    },
+    {
+      "at": "2026-10-10T15:32:38.691292+00:00",
+      "run_id": "2026-10-10-prathamastami-review",
+      "status": "draft_candidate_reconciled",
+      "prior_revision": "8491012a52f8994389faca4232553e3dbbd852c8",
+      "revision": "e336ff1d5cddd80139e3b7da5e1f418afa59b114",
+      "published": false
+    },
+    {
+      "run_id": "2026-10-10-dutiya",
+      "at": "2026-10-10T16:41:39.080658+00:00",
+      "scope": "Dutiya profile/food-role row revised locally; prior implementation receipt retained."
+    },
+    {
+      "at": "2026-10-10T22:46:18.599169+00:00",
+      "run_id": "2026-10-10-dutiya-review",
+      "status": "draft_candidate_reconciled",
+      "prior_revision": "e336ff1d5cddd80139e3b7da5e1f418afa59b114",
+      "revision": "cba3e533fb7fba295bc37769426d065d843b758f",
+      "published": false
+    },
+    {
+      "run_id": "2026-10-10-budhei",
+      "at": "2026-10-10T23:15:45.717004+00:00",
+      "scope": "Budhei profile/food row revised locally; prior pushed receipt retained."
+    },
+    {
+      "at": "2026-10-11T02:43:12.930418+00:00",
+      "run_id": "2026-10-10-budhei-review",
+      "status": "draft_candidate_reconciled",
+      "prior_revision": "cba3e533fb7fba295bc37769426d065d843b758f",
+      "revision": "c680834dce8a16cbb09e3198a4422ed17b7fe8c0",
+      "published": false
+    },
+    {
+      "run_id": "2026-10-11-alana",
+      "at": "2026-10-11T02:50:03.443858+00:00",
+      "scope": "Alana calendar conflict held locally; prior draft receipt retained."
+    },
+    {
+      "at": "2026-10-11T04:48:26.488900+00:00",
+      "run_id": "2026-10-11-alana-review",
+      "status": "draft_candidate_reconciled",
+      "prior_revision": "c680834dce8a16cbb09e3198a4422ed17b7fe8c0",
+      "revision": "0f354ea54176a0a0ee3f7af7e8dc65b1afce39b5",
+      "published": false
+    },
+    {
+      "run_id": "2026-10-11-kanji-food-roles",
+      "at": "2026-10-11T05:45:04.590566+00:00",
+      "scope": "Kanji Anla food roles updated locally; existing draft receipt remains historical."
+    },
+    {
+      "run_id": "2026-10-11-kanji-review",
+      "at": "2026-10-11T07:13:23.015108+00:00",
+      "revision": "b9957c92e3bdbb959d651c414f5d5adb2d0ca6d2",
+      "status": "draft_candidate_reconciled",
+      "published": false
+    },
+    {
+      "run_id": "2026-10-11-samba-food-sequence",
+      "at": "2026-10-11T08:46:55.187738+00:00",
+      "scope": "Samba source-scoped food sequence local revision; prior draft receipt retained."
+    },
+    {
+      "run_id": "2026-10-11-samba-review",
+      "at": "2026-10-11T09:58:23.204420+00:00",
+      "revision": "48f210988d4dc7ddee0d70afdb8f44c4a77bd070",
+      "status": "draft_candidate_reconciled",
+      "published": false
+    },
+    {
+      "run_id": "2026-10-11-sabitri-sequence",
+      "at": "2026-10-11T11:39:27.334461+00:00",
+      "scope": "Local Sabitri literary and food-role revision; existing draft receipt remains historical."
+    },
+    {
+      "run_id": "2026-10-11-sabitri-review",
+      "at": "2026-10-11T12:25:07.167667+00:00",
+      "revision": "745edc6e9a42beed8fc44c11d19fbca944c01070",
+      "status": "draft_candidate_reconciled",
+      "published": false
+    },
+    {
+      "run_id": "2026-10-11-manabasa-text",
+      "at": "2026-10-11T13:58:13.038911+00:00",
+      "scope": "Local Manabasa textual role and date-quarantine revision; no publication."
+    },
+    {
+      "run_id": "2026-10-11-sudasa-review",
+      "at": "2026-10-11T16:39:59.978800+00:00",
+      "scope": "Supplementary Sudasa food passages reconciled into draft; no publication."
+    },
+    {
+      "run_id": "2026-10-11-khudurukuni-review",
+      "at": "2026-10-11T17:40:07.823443+00:00",
+      "scope": "Khudurukuni attribution and food terminology uncertainty added to draft."
+    }
+  ]
+}

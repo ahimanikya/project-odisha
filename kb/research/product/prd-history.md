@@ -75,3 +75,7 @@ The user asked to expand pages with facts, relate and classify content, and clar
 ## 0.2.1 · 1 October 2026 · Name correction
 
 The user corrected the name to **Utkal**. [Preserved correction snapshot](versions/prd-0.2.1.md). This is a wording correction; prior versions, requirement IDs and approval states are preserved.
+
+## Version 0.3.0 · 2 October 2026
+
+User requested actionable business research by locality/district, covering facts, regulations, land, people and downloadable starter plans. Added ENT-001–004. The programme spans sectors and serves local and outside entrepreneurs; pilot order and acceptance details are implementation proposals. Prior IDs and snapshots are unchanged. Reuse existing destination and tour-book mechanisms after review. No paid backend, private-data collection, outreach, lender endorsement or website release. Source/market gaps and local review remain open. [Current programme](district-business-opportunities.md).

@@ -22,3 +22,9 @@ Textile traditions, production places and buying research.
 ## Techniques, makers and markets
 
 [Six-tradition evidence comparison](garments-and-markets.md) · [Boyanika’s institutional journey](boyanika.md) · [Story draft: from loom to market](../stories/handlooms-from-loom-to-market.md). Three seller specimens now distinguish fibre and technique; maker attribution and comparable annual sales remain open.
+
+[Odisha’s GI inventory](../collections/odisha-gi-products.md) — all 26 Odisha entries in the official list as of 31 December 2025, with product/logo distinctions and 4 October 2026 application checks.
+
+## Related research
+
+[Puri gamucha identity and the Assam GI comparison](puri-gamucha-gi-study.md) — producer evidence and specification gaps.

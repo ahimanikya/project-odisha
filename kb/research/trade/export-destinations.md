@@ -5,7 +5,7 @@ description: "Asia in Odisha’s present export geography — evidence, scope an
 tags: ["maritime", "trade"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T08:14:32+00:00"}
-sources: [{"id": "maritime-exports-2026", "title": "Odisha Economic Survey 2025–26, section 1.7 and Figure 1.16", "resource": "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf"}]
+sources: [{"id": "maritime-exports-2026", "title": "Odisha Economic Survey 2025–26, section 1.7 and Figure 1.16", "resource": "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf"}, {"id": "export-dgcis-origin-method", "title": "DGCI&S state and district origin attribution limits", "resource": "https://ftddp.dgciskol.gov.in/dgcis/disclaimer.html"}]
 verified: [{"by": "codex/gpt-6", "at": "2026-09-27T08:14:32+00:00"}]
 verification_scope: "Percentages checked against indexed survey paragraph; denominator ambiguity explicitly retained."
 stale_after: "2027-03-01T00:00:00Z"
@@ -28,3 +28,24 @@ These are modern destination observations. They do not show which products each 
 [Connection matrix](connection-matrix.md) · [Linked data](../references/data/maritime-links.jsonld)
 
 [^maritime-exports-2026]: [Odisha Economic Survey 2025–26, section 1.7 and Figure 1.16](https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf)
+
+## Complete survey destination list · 4 October 2026
+
+The same section1.7.5, printed p19, lists the following shares for FY2024–25. Existing China/Malaysia/Vietnam observations are reused; seven missing countries are added.
+
+| Destination | Survey-reported share |
+|---|---:|
+| China | 21.5% |
+| Turkey | 7.4% |
+| South Korea | 6.5% |
+| United Kingdom | 6.4% |
+| United States of America | 5.5% |
+| Malaysia | 3.9% |
+| Mexico | 3.6% |
+| Vietnam | 3.5% |
+| Japan | 3.1% |
+| Bangladesh | 3.0% |
+
+The displayed shares total64.4%, consistent with “over64%”. The underlying goods-versus-all-exports denominator remains unresolved; no country rupee values or product-country-district joins are derived.
+
+**Seafood chart held separately:** the same survey’s Figure4.9 on printed p114 retains an editorial instruction to specify quantity or value and revise the data. Its destination percentages cannot be presented as verified value shares. This does not invalidate the separate section1.7.5 list; the two scopes must not be mixed. [Structured register](../references/data/export-series.json) · [Business questions](export-business-questions.md).

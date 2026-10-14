@@ -1,0 +1,247 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-10-10-seasonal-public-food",
+  "task_id": "RES-077",
+  "checked_at": "2026-10-10T07:41:05.728681+00:00",
+  "scope": "Three source-bounded examples of dated food-service evidence; no current bookable offer.",
+  "records": [
+    {
+      "current_serving_availability": null,
+      "current_year_offer_verified": false,
+      "price": null,
+      "portion": null,
+      "ingredients": null,
+      "host_consent": null,
+      "food_sale_does_not_imply_ritual_access": true,
+      "id": "SFO-001",
+      "name": "OTDC Pitha-on-Wheels, Raja Utsav2021",
+      "seasonal_entry_id": "SEAS-001",
+      "evidence_class": "reported_historical_service",
+      "source_ids": [
+        "food-raja-otdc2021"
+      ],
+      "locator": "Printed8/PDF8; issue date and publisher on PDF1–2",
+      "operator": "OTDC",
+      "geography": "Bhubaneswar, Odisha",
+      "event_year": 2021,
+      "date_start": "2021-06-14",
+      "date_end": "2021-06-16",
+      "hours_as_printed": "7am–11pm",
+      "time_zone": "Not explicitly stated in source; no conversion made",
+      "foods": [
+        "poda pitha",
+        "manda",
+        "kakara",
+        "arisa",
+        "chakuli",
+        "chandrakala"
+      ],
+      "pickup_areas": [
+        "Master Canteen Square",
+        "Khandagiri",
+        "CRP",
+        "Patia",
+        "Chandrasekharpur",
+        "Rupali Square"
+      ],
+      "service_mode": "Takeaway, as reported by publisher",
+      "fulfilled_status": "Publisher retrospective report; no independent transaction verification",
+      "limits": "Programme-level food assortment; no per-stop stock, quantities, exact street address or daily fulfilment verified. Separate city counters lack separately specified hours."
+    },
+    {
+      "current_serving_availability": null,
+      "current_year_offer_verified": false,
+      "price": null,
+      "portion": null,
+      "ingredients": null,
+      "host_consent": null,
+      "food_sale_does_not_imply_ritual_access": true,
+      "id": "SFO-002",
+      "name": "OTDC Raja Mahotsav, year unspecified",
+      "seasonal_entry_id": "SEAS-001",
+      "evidence_class": "undated_operator_description",
+      "source_ids": [
+        "food-otdc-raja-undated"
+      ],
+      "locator": "Homepage Raja Mahotsav card and associated Read More modal staticBackdrop7",
+      "operator": "OTDC",
+      "geography": "Named Bhubaneswar and Cuttack settings",
+      "event_year": null,
+      "date_start": null,
+      "date_end": null,
+      "month_days_as_printed": "14th Jun–16th Jun",
+      "hours_as_printed": null,
+      "foods": [
+        "Raja pitha and sweets — individual dishes not specified"
+      ],
+      "named_settings": [
+        "Nimantran Restaurant, Bhubaneswar",
+        "Silver City Boat Club, Cuttack",
+        "Mobile vans at Sahid Nagar, Khandagiri and Patia"
+      ],
+      "service_mode": "Reported sales and takeaway",
+      "fulfilled_status": "Undated retrospective operator description",
+      "limits": "Do not merge with2021 programme: shared operator and recurring name do not establish same edition or independent corroboration."
+    },
+    {
+      "current_serving_availability": null,
+      "current_year_offer_verified": false,
+      "price": null,
+      "portion": null,
+      "ingredients": null,
+      "host_consent": null,
+      "food_sale_does_not_imply_ritual_access": true,
+      "id": "SFO-003",
+      "name": "Guru Purnima cooked-prasad announcement,2026",
+      "profile_id": "OSHA-047",
+      "evidence_class": "institutional_announcement",
+      "source_ids": [
+        "osha-guru-rkm2026"
+      ],
+      "locator": "PDF1 Odia row6 and anna-prasad note; PDF2 English row6, C.P. legend and almanac heading",
+      "operator": "Ramakrishna Math, Bhubaneswar",
+      "geography": "Ramakrishna Math, Bhubaneswar only",
+      "event_year": 2026,
+      "date_start": "2026-07-29",
+      "date_end": "2026-07-29",
+      "hours_as_printed": null,
+      "foods": [
+        "Cooked prasad; dishes unnamed"
+      ],
+      "service_mode": "Planned distribution in institutional calendar",
+      "fulfilled_status": "Unknown; calendar is not fulfilment evidence",
+      "limits": "Institution-specific date does not resolve the Pausa/Ashadha household inventory conflict or establish a public tasting arrangement."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "food-raja-otdc2021",
+      "url": "https://odishatourism.gov.in/documents/35730/41982/ODISHA%2BUNRAVELLED%2B%2BJULY%2B2021.pdf/f4b34a83-0523-98e2-9019-f5d1faac9bc1?t=1776688897355",
+      "status": "retrieved",
+      "checked_at": "2026-10-10T07:41:05.728681+00:00",
+      "locator": "Printed8/PDF8; issue date and publisher on PDF1–2",
+      "scope": "Retrospective official account of Raja Utsav2021 takeaway: six named foods, six Bhubaneswar pickup areas,14–16June2021 and7am–11pm. Separate counters in Bhubaneswar, Cuttack and Sambalpur; hours not separately established for those counters. No present offer, price, recipe or sales quantity.",
+      "method": "Direct verified-TLS PDF download; text read, PDF8 rendered and visually inspected"
+    },
+    {
+      "source_id": "food-otdc-raja-undated",
+      "url": "https://otdc.odisha.gov.in/",
+      "status": "retrieved",
+      "checked_at": "2026-10-10T07:41:05.728681+00:00",
+      "locator": "Homepage Raja Mahotsav card and associated Read More modal staticBackdrop7",
+      "scope": "Operator retrospective describes June14–16 and named sales settings but gives no event year. Neither a2026 calendar nor current availability established; image filename and current retrieval date do not date the event.",
+      "method": "Direct verified-TLS HTML download and event-card/modal text inspection; web reader timed out"
+    },
+    {
+      "source_id": "osha-guru-rkm2026",
+      "url": "https://rkmbbsr.org/wp-content/uploads/2026/04/Celebration-List-for-2026-27-for-website.pdf",
+      "status": "saved_evidence_reused",
+      "original_checked_at": "2026-10-09T23:29:16.622704+00:00",
+      "checked_at": "2026-10-10T07:41:05.728681+00:00",
+      "locator": "PDF1 Odia row6 and anna-prasad note; PDF2 English row6, C.P. legend and almanac heading",
+      "scope": "Reuse only:29July2026 Guru Purnima and planned cooked prasad; no fresh retrieval or fulfilled service asserted."
+    }
+  ],
+  "failed_fetches": [
+    {
+      "url": "https://puri.odisha.gov.in/en",
+      "status": "unavailable",
+      "checked_at": "2026-10-10T07:41:05.728681+00:00",
+      "method": "web reader",
+      "reason": "Internal fetch error",
+      "recovered_by_direct_fetch": false
+    },
+    {
+      "url": "https://puri.odisha.gov.in/en/what-s-new?page=15",
+      "status": "unavailable",
+      "checked_at": "2026-10-10T07:41:05.728681+00:00",
+      "method": "web reader",
+      "reason": "Timeout",
+      "recovered_by_direct_fetch": false
+    },
+    {
+      "url": "https://puri.odisha.gov.in/en/quick-links",
+      "status": "unavailable",
+      "checked_at": "2026-10-10T07:41:05.728681+00:00",
+      "method": "web reader",
+      "reason": "Timeout",
+      "recovered_by_direct_fetch": true
+    },
+    {
+      "url": "https://otdc.in/",
+      "status": "unavailable",
+      "checked_at": "2026-10-10T07:41:05.728681+00:00",
+      "method": "web reader",
+      "reason": "Inaccessible through reader",
+      "recovered_by_direct_fetch": false
+    },
+    {
+      "url": "https://odishatourism.gov.in/documents/35730/41982/ODISHA%2BUNRAVELLED%2B%2BJULY%2B2021.pdf/f4b34a83-0523-98e2-9019-f5d1faac9bc1?t=1776688897355",
+      "status": "unavailable",
+      "checked_at": "2026-10-10T07:41:05.728681+00:00",
+      "method": "web reader",
+      "reason": "Cache miss",
+      "recovered_by_direct_fetch": true
+    },
+    {
+      "url": "https://odishatourism.gov.in/documents/35730/41982/April_June_2026.pdf/1337e308-cf61-f6da-5645-3b6bb9a1bc0e?t=1788761868821",
+      "status": "unavailable",
+      "checked_at": "2026-10-10T07:41:05.728681+00:00",
+      "method": "web reader",
+      "reason": "Cache miss",
+      "recovered_by_direct_fetch": true
+    },
+    {
+      "url": "https://otdc.odisha.gov.in/",
+      "status": "unavailable",
+      "checked_at": "2026-10-10T07:41:05.728681+00:00",
+      "method": "web reader",
+      "reason": "Timeout",
+      "recovered_by_direct_fetch": true
+    },
+    {
+      "url": "https://otdc.odisha.gov.in/en/light/event",
+      "status": "unavailable",
+      "checked_at": "2026-10-10T07:41:05.728681+00:00",
+      "method": "web reader",
+      "reason": "Timeout",
+      "recovered_by_direct_fetch": false
+    },
+    {
+      "url": "https://otdc.odisha.gov.in/en/light/page/packages",
+      "status": "unavailable",
+      "checked_at": "2026-10-10T07:41:05.728681+00:00",
+      "method": "web reader",
+      "reason": "Cache miss",
+      "recovered_by_direct_fetch": false
+    }
+  ],
+  "discovery": [
+    {
+      "url": "https://odishatourism.gov.in/documents/35730/41982/April_June_2026.pdf/1337e308-cf61-f6da-5645-3b6bb9a1bc0e?t=1788761868821",
+      "status": "retrieved",
+      "inspection": "Full PDF text searched for pitha/raja/habish; no match. No complete culinary review claimed."
+    },
+    {
+      "url": "https://puri.odisha.gov.in/en/quick-links",
+      "status": "retrieved",
+      "inspection": "Kartika Habisyali application link present, without a verified2026 service schedule or public food offer. Do not submit forms or collect applicants data."
+    },
+    {
+      "url": "https://odishatourism.gov.in/en/home",
+      "status": "retrieved",
+      "inspection": "Upcoming cards show month/day only for selected events; not used to date household vows."
+    }
+  ],
+  "gaps": [
+    {
+      "field": "Current Raja or Habisha operator offer, year-specific date, named dishes, price, hours and access",
+      "status": "not_established_in_bounded_search",
+      "retry_after": "2026-10-17",
+      "next_action": "Seek dated original operator or district notice; leave2021 service historical and2026 prasad announcement unfulfilled."
+    }
+  ],
+  "fieldwork_conducted": false,
+  "human_review_claimed": false,
+  "website_published": false
+}

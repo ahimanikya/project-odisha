@@ -65,3 +65,19 @@ Add source-checked district education, health, agricultural production, work and
 - [Made in Odisha](../collections/made-in-odisha.md) — Connect textile traditions with maker attribution and livelihood research.
 - [Bargarh — district banking](../statistics/districts/bargarh.md) — Keep Bargarh’s financial observations attached to its own district.
 - [Sambalpur — district banking](../statistics/districts/sambalpur.md) — Keep Sambalpur’s financial observations attached to its own district.
+
+[Garments and household textiles](../handlooms/garments-and-markets.md) connects Bargarh’s documented production range with separate sector export evidence; present stock and product-specific shipments remain unknown.
+
+[Terracotta makers in Barpali](../culture/terracotta.md) — Connects the explicitly named maker locality with the regional record, without treating the document title as current district geography.
+
+## People and livelihoods context · 4 October 2026
+
+[District people and work baselines](../statistics/western-southern-baselines.md) add Census 2011 literacy and recorded work, plus NFHS-5 child nutrition. Current services, skills and enterprise demand need separate evidence; these historical observations are not a tourism or investment ranking.
+
+## Regional survey update · 4 October 2026
+
+[Koraput, Sambalpur and Bargarh](../statistics/western-southern-baselines.md) now include provisional NFHS-6 child nutrition, original NFHS-5 methods and separate overall survey samples. Lower stunting does not imply improvement in every nutrition measure; no programme causation is established.
+
+## Bargarh business dossier · 3 October 2026
+
+[Photography and catalogue services](../economy/bargarh-textile-catalogue-service.md) connect existing textile records to a scoped enterprise hypothesis. Town tariff research is not districtwide; no available studio or confirmed client.

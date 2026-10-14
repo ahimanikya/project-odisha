@@ -1,0 +1,209 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-04T08:34:31.103772+00:00",
+  "source_id": "textile-rs130-20241206",
+  "scope": "December2024 parliamentary vintage; six segments plus total. Not a handloom export register.",
+  "observation_ids": [
+    "textile-rs130-rmg-2022",
+    "textile-rs130-rmg-2023",
+    "textile-rs130-rmg-2024",
+    "textile-rs130-rmg-2025",
+    "textile-rs130-madeups-2022",
+    "textile-rs130-madeups-2023",
+    "textile-rs130-madeups-2024",
+    "textile-rs130-madeups-2025",
+    "textile-rs130-fabrics-2022",
+    "textile-rs130-fabrics-2023",
+    "textile-rs130-fabrics-2024",
+    "textile-rs130-fabrics-2025",
+    "textile-rs130-yarn-2022",
+    "textile-rs130-yarn-2023",
+    "textile-rs130-yarn-2024",
+    "textile-rs130-yarn-2025",
+    "textile-rs130-fibre-2022",
+    "textile-rs130-fibre-2023",
+    "textile-rs130-fibre-2024",
+    "textile-rs130-fibre-2025",
+    "textile-rs130-other-textile-2022",
+    "textile-rs130-other-textile-2023",
+    "textile-rs130-other-textile-2024",
+    "textile-rs130-other-textile-2025",
+    "textile-rs130-total-2022",
+    "textile-rs130-total-2023",
+    "textile-rs130-total-2024",
+    "textile-rs130-total-2025"
+  ],
+  "row_labels": [
+    "RMG",
+    "Madeups",
+    "Fabrics",
+    "Yarn",
+    "Fibre",
+    "Other Textile",
+    "TOTAL"
+  ],
+  "periods": [
+    "2021–22",
+    "2022–23",
+    "2023–24",
+    "2024–25 (April–September2024 only)"
+  ],
+  "reported_values": [
+    [
+      "234.1357",
+      "294.6676",
+      "280.2437",
+      "124.1093"
+    ],
+    [
+      "0.0605",
+      "0.2365",
+      "1.2035",
+      "0.1338"
+    ],
+    [
+      "2.2097",
+      "2.0664",
+      "1.0669",
+      "0.7834"
+    ],
+    [
+      "1.7174",
+      "0.7594",
+      "4.9786",
+      "1.9189"
+    ],
+    [
+      "393.8285",
+      "229.2306",
+      "419.7695",
+      "151.1326"
+    ],
+    [
+      "1.2325",
+      "0.9114",
+      "0.0344",
+      "0.1419"
+    ],
+    [
+      "633.1843",
+      "527.8720",
+      "707.2966",
+      "278.2199"
+    ]
+  ],
+  "unit": "INR crore",
+  "sum_checks": [
+    {
+      "period": "2021–22",
+      "sum_segments": "633.1843",
+      "reported_total": "633.1843",
+      "residual_total_minus_sum": "0.0000"
+    },
+    {
+      "period": "2022–23",
+      "sum_segments": "527.8719",
+      "reported_total": "527.8720",
+      "residual_total_minus_sum": "0.0001"
+    },
+    {
+      "period": "2023–24",
+      "sum_segments": "707.2966",
+      "reported_total": "707.2966",
+      "residual_total_minus_sum": "0.0000"
+    },
+    {
+      "period": "2024–25 (April–September2024 only)",
+      "sum_segments": "278.2199",
+      "reported_total": "278.2199",
+      "residual_total_minus_sum": "0.0000"
+    }
+  ],
+  "reconciliation": {
+    "other_source_id": "textile-pib-20260324",
+    "other_release_date": "2026-03-24",
+    "rows": [
+      {
+        "period": "2021–22",
+        "segment_total": "633.1843",
+        "broad_including_handicrafts": "641.0501",
+        "difference": "7.8658",
+        "unit": "INR crore",
+        "interpretation": "Different release vintages and stated scopes. Residual cannot be assigned to handicrafts without matched classification/revision evidence."
+      },
+      {
+        "period": "2022–23",
+        "segment_total": "527.8720",
+        "broad_including_handicrafts": "528.3892",
+        "difference": "0.5172",
+        "unit": "INR crore",
+        "interpretation": "Different release vintages and stated scopes. Residual cannot be assigned to handicrafts without matched classification/revision evidence."
+      },
+      {
+        "period": "2023–24",
+        "segment_total": "707.2966",
+        "broad_including_handicrafts": "708.1322",
+        "difference": "0.8356",
+        "unit": "INR crore",
+        "interpretation": "Different release vintages and stated scopes. Residual cannot be assigned to handicrafts without matched classification/revision evidence."
+      }
+    ]
+  },
+  "production_form_ids": [
+    "odisha-form-saree",
+    "odisha-form-dress-material",
+    "odisha-form-lungi",
+    "odisha-form-napkin",
+    "odisha-form-bedlinen",
+    "odisha-form-dhoti",
+    "odisha-form-chaddar",
+    "odisha-form-stole-dupatta"
+  ],
+  "gaps": [
+    {
+      "field": "destination_and_volume",
+      "status": "unknown",
+      "retry_after": "2026-10-11",
+      "next_action": "Seek origin-linked DGCI&S HS-code tables or dated shipping records with product, quantity, value and destination."
+    },
+    {
+      "field": "handloom_vs_factory",
+      "status": "unknown",
+      "retry_after": "2026-10-11",
+      "next_action": "Seek matched production and export records; do not assign sector value to named weaving traditions."
+    },
+    {
+      "field": "district_revenue",
+      "status": "unknown",
+      "retry_after": "2026-10-11",
+      "next_action": "Parliament answer(b) says district-wise revenue not maintained. Seek separately scoped district records."
+    },
+    {
+      "field": "current_maker_stock",
+      "status": "unknown",
+      "retry_after": "2026-10-11",
+      "next_action": "Dated catalogue or direct documented availability evidence needed; no contact performed."
+    }
+  ],
+  "human_review_claimed": false,
+  "composition_calculations": [
+    {
+      "period": "2023–24",
+      "segment": "Fibre",
+      "numerator": 419.7695,
+      "denominator": 707.2966,
+      "operation": "100 * numerator / denominator",
+      "unit": "percent",
+      "value": 59.34844024416348
+    },
+    {
+      "period": "2023–24",
+      "segment": "RMG",
+      "numerator": 280.2437,
+      "denominator": 707.2966,
+      "operation": "100 * numerator / denominator",
+      "unit": "percent",
+      "value": 39.621807880880525
+    }
+  ]
+}

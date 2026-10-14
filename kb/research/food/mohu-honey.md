@@ -4,7 +4,7 @@ title: "Mohu: honey, collectors and processing"
 description: "Mohu: honey, collectors and processing — names, uses, trade and open questions."
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-01T19:28:54.352476+00:00"}
-sources: [{"id": "forest-sector2025", "title": "Highlights of Odisha Forestry Sector 2025", "resource": "https://odishaforest.in/admin/data/documents/publication_file_1151142053.pdf"}, {"id": "forest-vasundhara-livelihoods", "title": "Vasundhara: Livelihoods", "resource": "https://vasundharaodisha.org/Welcome/page/Livelihood"}, {"id": "forest-scstrti-foodknowledge", "title": "Indigenous Knowledge on Selection, Sustainable Utilization of Local Flora and Fauna for Food by Tribes (PTG) of Odisha: A Potential Resource for Food and Environmental Security", "resource": "https://repository.tribal.gov.in/bitstream/123456789/74427/1/SCST_2014_research_0338.pdf"}]
+sources: [{"id": "forest-sector2025", "title": "Highlights of Odisha Forestry Sector 2025", "resource": "https://odishaforest.in/admin/data/documents/publication_file_1151142053.pdf"}, {"id": "forest-vasundhara-livelihoods", "title": "Vasundhara: Livelihoods", "resource": "https://vasundharaodisha.org/Welcome/page/Livelihood"}, {"id": "forest-scstrti-foodknowledge", "title": "Indigenous Knowledge on Selection, Sustainable Utilization of Local Flora and Fauna for Food by Tribes (PTG) of Odisha: A Potential Resource for Food and Environmental Security", "resource": "https://repository.tribal.gov.in/bitstream/123456789/74427/1/SCST_2014_research_0338.pdf"}, {"id": "mining-cag-dmf2026", "title": "PMKKKY and District Mineral Foundations in Odisha: Report 7 of 2026", "resource": "https://cag.gov.in/webroot/uploads/download_audit_report/2026/Report-No.-7-of-the-year-2026_PMKKKY-06aba7c29ed78b2.53467972.pdf"}]
 human_review_claimed: false
 subjects: ["food", "economy", "nature"]
 ---
@@ -32,3 +32,7 @@ The next market fields are dated collector prices, quantities purchased, process
 SCSTRTI's Hill Kharia account in the Similipal context describes honey collection and sale in **March–June** and **October–November** (printed p.28, PDF p.42). It records local distinctions rendered as bada/bhagua mahu and sana mahu; these are not verified bee-species identifications. [SCSTRTI report](https://repository.tribal.gov.in/bitstream/123456789/74427/1/SCST_2014_research_0338.pdf).
 
 The file carries a2014 label, but exact publication and fieldwork dates remain unconfirmed. Preserve this as a historical account, not a current Odisha-wide availability calendar. Utkal has not interviewed collectors or verified present collection conditions.
+
+## Managed-hive livelihood evidence · 2 October 2026
+
+[The Sundargarh DMF case](../economy/dmf-from-funds-to-services.md) adds a specific apiculture programme to this value-chain research. It is distinct from forest collection. CAG records training and a March2025 visit showing unused boxes in three SHGs; audit and government output figures need period reconciliation. The government described a committee for training, collection and marketing. Neither production, sales, collector income nor present operation can be inferred from programme targets. [Audit section6.6.10](https://cag.gov.in/webroot/uploads/download_audit_report/2026/Report-No.-7-of-the-year-2026_PMKKKY-06aba7c29ed78b2.53467972.pdf).

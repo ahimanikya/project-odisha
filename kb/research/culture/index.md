@@ -49,3 +49,15 @@
 [Pala](daskathia.md) now includes an illustrated Sounds of Odisha listening story; earlier research is preserved.
 
 [Dhemsa](daskathia.md) connects group movement, community and place in Sounds of Odisha.
+
+[Sand art: dated works, festival participation and historical fee terms](sand-art.md) connects artistic practice with contract evidence without treating attendance or offered rates as income.
+
+[Palm-leaf engraving](palm-leaf-engraving.md) and the expanded [Cuttack Tarakasi record](cuttack-tarakasi.md) connect technique, credited makers and dated recognition. Product examples are not export statistics.
+
+[Material arts: follow the material and credit the maker](material-arts.md) brings six practices together. New stone, dhokra and terracotta pages add process and maker evidence; work-level attribution remains unfinished.
+
+[Odisha’s GI inventory](../collections/odisha-gi-products.md) — all 26 Odisha entries in the official list as of 31 December 2025, with product/logo distinctions and 4 October 2026 application checks.
+
+## 2026-10-07 · Osha and food
+
+[Osha, stories and seasonal food](osha-brata-seasonal-food.md) — twelve source-bounded profiles and continuing research.

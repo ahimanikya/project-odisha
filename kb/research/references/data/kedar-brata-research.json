@@ -1,0 +1,213 @@
+{
+  "schema_version": "1.0",
+  "task_id": "RES-077",
+  "batch_id": "OSHA-B06",
+  "run_id": "2026-10-08-kedar",
+  "checked_at": "2026-10-08T09:27:49.466924+00:00",
+  "scope": "One primary Odia textual witness and published Odisha description; historical dates and field practice unresolved.",
+  "source_checks": [
+    {
+      "source_id": "osha-mahanti",
+      "run_id": "2026-10-08-kedar",
+      "checked_at": "2026-10-08T09:27:49.466924+00:00",
+      "locator": "Printed52 / PDF68, Kedara brata paragraph",
+      "method": "Saved text reused; Mahanti PDF68 visually inspected this run, Dash PDF1 previously inspected",
+      "scope": "Odisha dedication and counted offering description; Mahanti gives Kartika purnima and an attributed Kunti story.",
+      "status": "saved_evidence_reused",
+      "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf"
+    },
+    {
+      "source_id": "osha-review2006",
+      "run_id": "2026-10-08-kedar",
+      "checked_at": "2026-10-08T09:27:49.466924+00:00",
+      "locator": "Printed15 / PDF1, Kedar Brata inventory entry",
+      "method": "Saved text reused; Mahanti PDF68 visually inspected this run, Dash PDF1 previously inspected",
+      "scope": "Odisha dedication and counted offering description; Mahanti gives Kartika purnima and an attributed Kunti story.",
+      "status": "saved_evidence_reused",
+      "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf"
+    },
+    {
+      "source_id": "osha-kedar-pothi",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Kedara_Brata.pdf",
+      "status": "retrieved",
+      "checked_at": "2026-10-08T09:27:49.466924+00:00",
+      "locator": "PDF1 digital cover; PDF2–11 narrative and ritual directions; printed page numbers not visible",
+      "scope": "All eleven PDF pages visually inspected. Primary Odia textual witness, not fieldwork. The digital cover is not an original imprint. Repository claims a seventeenth-century text and publication2August1917; neither date established from inspected scan, so both remain metadata leads. Prateek Pattanaik credited for supplying/scanning. No independent edition comparison or full diplomatic transcription."
+    },
+    {
+      "source_id": "osha-kedar-pothi",
+      "url": "https://commons.wikimedia.org/wiki/File:Kedara_Brata.pdf",
+      "status": "retrieved",
+      "checked_at": "2026-10-08T09:27:49.466924+00:00",
+      "locator": "Summary, publication fields, file history",
+      "scope": "Digitisation provenance and unverified dating labels; not independent textual corroboration."
+    }
+  ],
+  "failed_fetches": [
+    {
+      "url": "https://law.odisha.gov.in/sites/default/files/2021-01/Appendix%20to%20the%20Odisha%20Gazette%201937%20No.1%20of%20October%2029%2C1937.pdf",
+      "status": "unavailable",
+      "scope": "Original Gazette PDF",
+      "reason": "Web fetch timed out; direct public download also timed out after40seconds. Search-index passage is a lead, not inspected facsimile."
+    }
+  ],
+  "source_reuse": [
+    {
+      "source_id": "osha-mahanti",
+      "run_id": "2026-10-08-kedar",
+      "checked_at": "2026-10-08T09:27:49.466924+00:00",
+      "locator": "Printed52 / PDF68, Kedara brata paragraph",
+      "method": "Saved text reused; Mahanti PDF68 visually inspected this run, Dash PDF1 previously inspected",
+      "scope": "Odisha dedication and counted offering description; Mahanti gives Kartika purnima and an attributed Kunti story."
+    },
+    {
+      "source_id": "osha-review2006",
+      "run_id": "2026-10-08-kedar",
+      "checked_at": "2026-10-08T09:27:49.466924+00:00",
+      "locator": "Printed15 / PDF1, Kedar Brata inventory entry",
+      "method": "Saved text reused; Mahanti PDF68 visually inspected this run, Dash PDF1 previously inspected",
+      "scope": "Odisha dedication and counted offering description; Mahanti gives Kartika purnima and an attributed Kunti story."
+    }
+  ],
+  "digital_text": {
+    "id": "OSHA-T004",
+    "profile_slug": "kedar-brata",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Kedara_Brata.pdf",
+    "local_capture": "work/osha-kedar/kedara.pdf",
+    "sha256": "0c5b6e65fcc176418082934a31388f87c474796d77f88b75718534c1823f7f19",
+    "pdf_pages": 11,
+    "status": "narrative_pages_inspected",
+    "edition_date": null,
+    "composition_date": null,
+    "inspection_scope": "All eleven pages visually inspected: digital cover1, narrative/directions2–11. Short synopsis and selected food roles, not a diplomatic transcription.",
+    "rights_for_republication": null,
+    "credited_digitiser": "Prateek Pattanaik / Project Pothi",
+    "source_id": "osha-kedar-pothi"
+  },
+  "food_records": [
+    {
+      "id": "KED-FOOD-01",
+      "source_id": "osha-kedar-pothi",
+      "locator": "PDF3,5,7,10",
+      "items": [
+        "banana",
+        "coconut",
+        "sugarcane"
+      ],
+      "role": "textual offerings",
+      "cooking_method": null,
+      "quantity_for_each_food": null,
+      "current_household_practice_verified": false
+    },
+    {
+      "id": "KED-FOOD-02",
+      "source_id": "osha-mahanti",
+      "locator": "Printed52 / PDF68",
+      "item": "gua / betel nuts",
+      "count": 21,
+      "unit": "items",
+      "role": "ritual offering",
+      "consumption_established": false
+    },
+    {
+      "id": "KED-FOOD-03",
+      "source_id": "osha-kedar-pothi",
+      "locator": "PDF6,7,9–10",
+      "item": "prasad",
+      "role": "received following worship in narrative",
+      "complete_menu": null
+    }
+  ],
+  "calendar_records": [
+    {
+      "source_id": "osha-mahanti",
+      "locator": "Printed52 / PDF68",
+      "month": "Kartika",
+      "tithi": "purnima"
+    },
+    {
+      "source_id": "osha-kedar-pothi",
+      "locator": "PDF3 and9",
+      "month": "Kartika",
+      "tithi": "purnima"
+    }
+  ],
+  "narrative_page_map": [
+    {
+      "pages": [
+        2
+      ],
+      "scope": "Kunti frame"
+    },
+    {
+      "pages": [
+        3
+      ],
+      "scope": "ritual directions"
+    },
+    {
+      "pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "scope": "sisters learn observance, prosperity, discarded thread and renewal"
+    },
+    {
+      "pages": [
+        9,
+        10,
+        11
+      ],
+      "scope": "Kunti observance and conclusion"
+    }
+  ],
+  "dating_holds": {
+    "repository_composition_label": "17th century",
+    "repository_publication_label": "1917-08-02",
+    "original_imprint_verified": false,
+    "author_verified": null
+  },
+  "unadopted_leads": [
+    {
+      "url": "https://law.odisha.gov.in/sites/default/files/2021-01/Appendix%20to%20the%20Odisha%20Gazette%201937%20No.1%20of%20October%2029%2C1937.pdf",
+      "locator": "Search-index entry149 under Oriya—Religion; Gazette29October1937",
+      "status": "indexed_only_original_unavailable",
+      "indexed_attribution": "Purushottama Das",
+      "indexed_book_date": "1936-11-07",
+      "indexed_extent": "4 pages",
+      "identity_conflict": "Indexed description invokes Lakshmi; relationship to Shiva scan unestablished",
+      "use": "Recover page image before adopting bibliography or historical date"
+    },
+    {
+      "url": "https://www.odiabook.in/2023/01/kedara-brata-katha-syama-sundar_2.html",
+      "status": "discovery_only",
+      "scope": "Listing attributed to Syama Sundar Gantayata; edition not retrieved or compared"
+    }
+  ],
+  "quarantined_claims": [
+    "Repository dates do not establish origin or edition chronology without imprint evidence.",
+    "Same title does not prove same text, author or deity.",
+    "Betel nuts are ritual materials here, not evidence of consumption.",
+    "Named foods do not establish recipe, availability or economic/health effects."
+  ],
+  "followup": {
+    "retry_after": "2026-10-15",
+    "needs": [
+      "Can the parent Bratabali volume and original imprint verify the scan’s edition date and authorship?",
+      "Can the Gazette’s indexed item149 and the attributed booklet be recovered to resolve the Shiva/Lakshmi identity question?",
+      "Which local names, offerings, thread practices and meals are documented in named households?",
+      "What does each counted plant/material term denote in this edition, and are there regional variants?",
+      "Can an independent Odia edition be compared without treating copies of this scan as new witnesses?",
+      "Can a public host, annual date and actual food availability be verified?"
+    ],
+    "independent_next": "Rai Damodara Brata"
+  },
+  "origin_date": null,
+  "annual_date": null,
+  "fieldwork_conducted": false,
+  "human_review_claimed": false
+}

@@ -265,12 +265,20 @@
   ],
   "textile_disaggregation": {
     "source_id": "textile-ogd-20241231",
-    "status": "metadata_only_rows_unavailable",
+    "status": "recovered_from_original_parliamentary_pdf",
     "partial_period": "April–September 2024 for FY2024-25",
-    "next_action": "Retrieve Rajya Sabha starred Q130, 6 December 2024, before category comparisons"
+    "next_action": "Obtain matched origin, HS, destination and volume evidence; retry11October2026.",
+    "history": [
+      {
+        "status": "metadata_only_rows_unavailable",
+        "note": "Original portal rows did not render; retained historical retrieval outcome."
+      }
+    ],
+    "original_source_id": "textile-rs130-20241206",
+    "dataset": "references/data/textile-export-segments.json"
   },
   "human_review_claimed": false,
-  "updated_at": "2026-10-02T13:48:24.585819+00:00",
+  "updated_at": "2026-10-04T08:34:31.103772+00:00",
   "sweets_research": {
     "run_id": "2026-10-02-sweet-history",
     "status": "in_progress",
@@ -283,5 +291,135 @@
     "dataset": "handloom-markets.json",
     "run_id": "2026-10-02-handloom-cooperatives",
     "scope": "Six traditions; five documented cooperative-product routes, six GI organization mappings, six named maker credits and three attributed creation examples. Comparable sales and current operations remain open."
-  }
+  },
+  "production_form_evidence": [
+    {
+      "id": "odisha-form-saree",
+      "form": "Saree",
+      "geography": "Bargarh",
+      "producer": "Sambalpuri Bastralaya HLCS",
+      "source_id": "textile-bargarh-products",
+      "locator": "Production range",
+      "evidence_status": "institutional_production_association",
+      "observation_date": null,
+      "current_availability": null,
+      "export_quantity": null,
+      "export_value": null,
+      "destination": null,
+      "fibre": null,
+      "scope": "Documented production association, not current stock, independently inspected workshop or completed shipment."
+    },
+    {
+      "id": "odisha-form-dress-material",
+      "form": "Dress material (uncut)",
+      "geography": "Bargarh",
+      "producer": "Sambalpuri Bastralaya HLCS",
+      "source_id": "textile-bargarh-products",
+      "locator": "Production range",
+      "evidence_status": "institutional_production_association",
+      "observation_date": null,
+      "current_availability": null,
+      "export_quantity": null,
+      "export_value": null,
+      "destination": null,
+      "fibre": null,
+      "scope": "Documented production association, not current stock, independently inspected workshop or completed shipment."
+    },
+    {
+      "id": "odisha-form-lungi",
+      "form": "Lungi",
+      "geography": "Bargarh",
+      "producer": "Sambalpuri Bastralaya HLCS",
+      "source_id": "textile-bargarh-products",
+      "locator": "Production range",
+      "evidence_status": "institutional_production_association",
+      "observation_date": null,
+      "current_availability": null,
+      "export_quantity": null,
+      "export_value": null,
+      "destination": null,
+      "fibre": null,
+      "scope": "Documented production association, not current stock, independently inspected workshop or completed shipment."
+    },
+    {
+      "id": "odisha-form-napkin",
+      "form": "Napkin",
+      "geography": "Bargarh",
+      "producer": "Sambalpuri Bastralaya HLCS",
+      "source_id": "textile-bargarh-products",
+      "locator": "Production range",
+      "evidence_status": "institutional_production_association",
+      "observation_date": null,
+      "current_availability": null,
+      "export_quantity": null,
+      "export_value": null,
+      "destination": null,
+      "fibre": null,
+      "scope": "Documented production association, not current stock, independently inspected workshop or completed shipment."
+    },
+    {
+      "id": "odisha-form-bedlinen",
+      "form": "Bedlinen: bedsheet/bedcover",
+      "geography": "Bargarh",
+      "producer": "District weaving cluster; Sambalpuri Bastralaya HLCS",
+      "source_id": "textile-bargarh-products",
+      "locator": "ODOP bedsheets; production range bedcovers",
+      "evidence_status": "institutional_production_association",
+      "observation_date": null,
+      "current_availability": null,
+      "export_quantity": null,
+      "export_value": null,
+      "destination": null,
+      "fibre": null,
+      "scope": "Documented production association, not current stock, independently inspected workshop or completed shipment."
+    },
+    {
+      "id": "odisha-form-dhoti",
+      "form": "Dhoti",
+      "geography": "Bargarh",
+      "producer": "Sambalpuri Bastralaya HLCS",
+      "source_id": "textile-bargarh-products",
+      "locator": "Production range",
+      "evidence_status": "institutional_production_association",
+      "observation_date": null,
+      "current_availability": null,
+      "export_quantity": null,
+      "export_value": null,
+      "destination": null,
+      "fibre": null,
+      "scope": "Documented production association, not current stock, independently inspected workshop or completed shipment."
+    },
+    {
+      "id": "odisha-form-chaddar",
+      "form": "Chaddar",
+      "geography": "Berhampur, Ganjam",
+      "producer": "Berhampur Cotton & Silk WCS; Choudeswari Silk WCS",
+      "source_id": "handloom-weaver-directory",
+      "locator": "PDF pp.19–20, entries12–13",
+      "evidence_status": "institutional_production_association",
+      "observation_date": null,
+      "current_availability": null,
+      "export_quantity": null,
+      "export_value": null,
+      "destination": null,
+      "fibre": "pure silk, as directory describes this product range",
+      "scope": "Documented production association, not current stock, independently inspected workshop or completed shipment."
+    },
+    {
+      "id": "odisha-form-stole-dupatta",
+      "form": "Stole / dupatta",
+      "geography": "Chichaiguda, Kalahandi",
+      "producer": "Chichaiguda WCS",
+      "source_id": "handloom-weaver-directory",
+      "locator": "PDF p.20, entry14",
+      "evidence_status": "institutional_production_association",
+      "observation_date": null,
+      "current_availability": null,
+      "export_quantity": null,
+      "export_value": null,
+      "destination": null,
+      "fibre": null,
+      "scope": "Documented production association, not current stock, independently inspected workshop or completed shipment."
+    }
+  ]
 }

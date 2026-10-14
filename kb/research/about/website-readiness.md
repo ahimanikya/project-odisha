@@ -177,3 +177,253 @@ The Founder selected this follow-up before the previous retry date. Existing com
 ## Mining and community services · 2026-10-02
 
 DMF community-service research remains a draft. Source-reading and arithmetic checks do not approve a public allegation or establish current operation. Retain government replies, date limits, selection bias and the distinction between completion and outcomes.
+
+## Forest community-history checkpoint · 4 October 2026
+
+Historical community accounts remain attributed research drafts. No current rights, income, fire-performance certification, interviews or human review claimed.
+
+## Forest management instruments · 4 October 2026
+
+Historical policy provisions are labelled by version. Women’s representation rule is not observed membership, benefit share is not income, and forms do not establish signed agreements or local permissions. No human review or website release.
+
+## Forest-management amendments · 4 October 2026
+
+The JFM comparison is versioned historical evidence. Monthly meetings and women’s representation are document requirements, not measured compliance. No current permit, title, income, human review or website publication claimed.
+
+## Dhani community-history checkpoint · 4 October 2026
+
+The Dhani addition is an attributed historical case. Current operation, income and rights are unverified. It links livelihood history with governance without asserting policy compliance or causal economic returns. No website release or human review claimed.
+
+## Odisha in the world · 4 October 2026
+
+World-connections collection is an editorial candidate. Port traffic, installed capacity, institutional agreements and actual exports remain separate. No current Japan-supply claim, human review or website publication.
+
+## Rice markets · 4 October 2026
+
+Rice-market additions are source-linked editorial candidates. Seller claims are labelled; no live price, certified supplier, current stock, verified farm margin or overseas shipment asserted. Website unchanged.
+
+## Textile segments · 4 October 2026
+
+Textile segment and product-form additions are editorial candidates; no current stock, handmade export total or shipment asserted. No website release.
+
+## Sand-art checkpoint · 4 October 2026
+
+Sand-art records are editorial candidates. No current itinerary, artist booking, image licence, measured impact or website release. Participation rates and offered fees are not livelihoods.
+
+## Tarakasi and palm-leaf checkpoint · 4 October 2026
+
+Filigree/palm-leaf concepts and four maker profiles are research candidates. Original technique PDFs support concise explanations; award records are indexed-only captures. No seller verification, portrait rights, booking promises, human review or website release.
+
+## Stone, metal and clay · 4 October 2026
+
+Three craft pages, five maker profiles and a collection are research candidates. NID process pages visually checked. Museum foundation is an attributed retrospective account; current operation, bookings and object image rights unknown. Website unchanged.
+
+## Attributed craft works ·4October2026
+
+Three new work records are research candidates, not visitor-operating records. Government biography and institutional catalogue attributions retain their scope. Object images/rights, present displays and commissioning dates unknown. Website unchanged.
+
+## 4 October 2026 · District coverage readiness
+
+A 30-district research map now exists locally. Cells are inventory scope, not quality rankings; destination operating status is not inferred. No website release or human review claimed. See [matrix](../statistics/district-coverage.md).
+
+## 4 October 2026 · Regional baseline checkpoint
+
+24 historical observations and source-linked narrative added. Editorial review remains pending; Git review is separate from website publication.
+
+## 4 October 2026 · Regional survey readiness
+
+Original IIPS district tables now support a balanced nutrition story. Values remain provisional; no human review or website release claimed.
+
+## 4 October 2026 · Economic-series readiness
+
+Longer nominal and real growth stories exist as research drafts. Source table images remain unverified; additions retain needs_source_table_review. No website release.
+
+## 4 October 2026 · Investment story readiness
+
+A source-linked asset-acquisition example is ready for editorial review. It does not establish new statewide capital formation, current operation or a domestic/foreign financing split. No website publication.
+
+## 4 October 2026 · NALCO implementation evidence
+
+Refinery trial/testing and dated supply-project stages are source-checked for editorial review. Commercial operation, supplier demand, local jobs and realised project expenditure are not established; no website release.
+
+
+## Sadhaba maritime-science study · 4 October 2026
+
+[Sadhaba maritime science](../history/sadhaba-maritime-science.md) is a source-linked research draft. No original photographs reproduced, specialist review or public deployment claimed; indexed-only fields remain labelled.
+
+
+## Fisheries history · 4 October2026
+
+Historical fisheries draft uses parsed official PDF text; original table images still pending. No public deployment or human review.
+
+## Export evidence · 4 October 2026
+
+Exports study is a research draft. Parliament pp1/3 visually checked; DEPM and survey fields remain indexed-only. Origin codes are declarations; no deployment or human review.
+
+## Manufacturing checkpoint · 4 October 2026
+
+Manufacturing synthesis remains a draft. The selected SAIL page was checked in the original PDF; CAG additions remain indexed-only and labelled. Reused production data preserve original scope; no factory visits, human review, contract availability or publication claimed.
+
+## Non-metal production · 4 October 2026
+
+Cement/fertiliser study remains a draft. Selected original pages were visually checked; no human review, supplier availability or website publication claimed.
+
+## Food-processing checkpoint · 4 October 2026
+
+Dairy-processing synthesis remains a draft: turnover HTML and selected historical tender pages checked; procurement only indexed-original evidence. No national ranking, investment-ready plan or publication claimed.
+
+## GI comparison research · 4 October 2026
+
+Two original comparator specifications are saved with source limitations. This is dossier research, not a tested recipe, filed GI application or website publication. No human review claimed.
+
+## Textile dossier checkpoint · 5 October 2026
+
+[Puri gamucha research](../handlooms/puri-gamucha-gi-study.md) is draft documentary evidence. No producer consent, legal eligibility decision, filing-ready specification, human review or website release claimed.
+
+## Temple-food evidence checkpoint · 5 October 2026
+
+Documentary comparison saved with historical scope and technical holds. It is not a tested recipe, current inspection audit, producer-authorized dossier or website publication.
+
+## Nimapada chronology checkpoint · 5 October 2026
+
+Sourced chronology strengthens the existing food/candidate record. Producer mandate, technical specification and origin date remain absent; no GI filing or website publication is claimed.
+
+## Korakhai dossier checkpoint · 5 October 2026
+
+Research-only goods description and institutional records saved. No tested recipe, official ODOP designation, operating tour, producer consent or website publication claimed.
+
+## Manikapatna review · 5 October 2026
+
+Original application documents support an attributed research dossier. No GI award, validated shelf life, agreed producer specification or operating inspection body established. Website publication not claimed.
+
+## Curd science checkpoint · 5 October 2026
+
+Attributed science draft ready for editorial review; no recipe validation, cold-chain exemption, clinical benefit, commercial starter approval or website publication claimed.
+
+## Palm-leaf GI checkpoint · 5 October 2026
+
+Comparison ready for editorial review with historical boundaries and partial-reply limits explicit. No GI award, active producer census, accepted inspection system or website release claimed.
+
+## Palm-leaf amended-file checkpoint · 5 October 2026
+
+Part1 comparison ready for editorial review with proposed roles and economic exclusions visible. No current maker census, accepted product dimensions, verified GI premium or whole-file completion claimed. Website unchanged.
+
+## Palm-leaf supporting annexures · 5 October 2026
+
+Palm-leaf annexure checkpoint is ready for editorial review with applicant discrepancy and historical roster limits visible. No private roster rows republished. Website unchanged.
+
+## Gaja/Kanti evidence · 5 October 2026
+
+Gaja/Kanti dossier is a research draft. Clearly labels indexed-only passages, recovered chapter pages, unresolved variants and absent producer consensus. No tested recipe, exclusive origin or website publication claimed.
+
+## Poda/arisa scope · 5 October 2026
+
+Poda/arisa comparison is a research draft with dated source scopes and no filing-readiness claim. Preparation descriptions are untested and no consumer shelf-life or economic forecast is adopted.
+
+## GI readiness matrix · 5 October 2026
+
+GI readiness matrix is a research synthesis of twelve pilot leads. Route counts describe this KB, not Odisha totals. No eligibility score, human review, appointment, filing or website publication is implied.
+
+## Kalamata comparison · 5 October 2026
+
+The Kalamata comparison is draft historical research. Specification requirements, approved amendment and reported enforcement remain separate. No current compliance guide, filing, human review or website release.
+
+## Sugar-output checkpoint · 2026-10-06
+
+Sugar chart/card is research-only pending original state-table review. Company partial-year quantities cannot be annualised; disputed recovery rates and current-owner inferences excluded.
+
+## Dhenkanal transaction checkpoint · 6 October 2026
+
+Historical transaction checkpoint ready for editorial review. Buyer identity does not clear the provisional output card, current business access or land availability. No website release.
+
+## DMF project checkpoint · 2 October 2026 UTC
+
+DMF synthesis draft retains district sample scope, dated service observations and government responses. Current operation, human review and publication remain unverified.
+
+## Mining receipts checkpoint · 2 October 2026 UTC
+
+New mining-receipts story is source-checked draft; positive five-year growth and latest decline remain together. Human editorial review and website publication not established.
+
+## DMF livelihoods and monitoring · 2 October 2026 UTC
+
+Four additional historical livelihood cases connect training, a market/cafe and managed apiculture to DMF. All current operation remains unknown; placement and honey disputes are visible. No publication or human review claimed.
+
+## DMF collections and financial management · 2 October 2026 UTC
+
+Collection/finance story distinguishes actual audit-reported recovery from promised refund, unreturned balance, unsupported remittance and modelled interest. Full ChaptersIII/V inspected. No current service, human review or website publication claim.
+
+## DMF implementation and park readiness · 3 October 2026
+
+DMF synthesis now connects park/museum service readiness with procurement evidence. Keep current opening, supplier and human review unverified; no website release.
+
+## DMF health, education and inclusion · 3 October 2026
+
+DMF health/education/inclusion evidence is structured and source-linked. Current operation and human review remain unknown; five new cases are research records, not approved public endorsements. No website release.
+
+## DMF infrastructure and forest evidence · 3 October 2026
+
+Infrastructure cases are historical research drafts. Current facility operation, repair, occupancy, plant survival and editorial review remain unknown. No website release.
+
+## DMF appendix reconciliation · 3 October 2026
+
+Works-collection and quarry-demand observations now held from headline use. Values preserved with reviewhistory; no current recovery, independent bank evidence, humanreview or websitepublication claimed.
+
+## DMF planning and desk milestone · 3 October 2026
+
+Planning evidence supports a qualified historical allocation story; current service delivery not established. Six district shares andadverse villagecoverage retained. Unresolved Table4.1/approval assertions held. No humanreview orwebsitepublication.
+
+## Niyamgiri rights checkpoint · 3 October 2026
+
+Niyamgiri rights narrative is source-checked research, with reported village decisions separated from judicial directions and current permission. Humaneditorialreview and websitepublication not claimed.
+
+## Kodingamali environmental-work checkpoint · 3 October 2026
+
+Kodingamali historical work counts are source-checked candidates. No survival, clean-air or ecological-recovery claim is ready from these rows. Local validation and Git review do not constitute website publication.
+
+## Bharatpur safety checkpoint · 3 October 2026
+
+Bharatpur is a source-checked historical safety case, with current risk, final inquiry and implemented recommendations unverified. No human review or website release.
+
+## Baphlimali monitoring and recovery checkpoint · 3 October 2026
+
+Water/waste figures are attributed company claims. Air concentration comparison, survival denominator, planting unit and priority classification remain held; no current-compliance or recovery headline. No human review or website release.
+
+## Mineral research checkpoint · 3 October 2026
+
+IMMT history and research-stage page is a source-checked draft. No commercial-output, current-availability or regional-identity inference; human review and public release not claimed.
+
+## Talcher and Rourkela history checkpoint · 3 October 2026
+
+Historical town/plant chronology is source-checked draft material. It establishes neither current operations nor visitor access, household benefits or current permission. No human review or website release.
+
+## Mineral-scientist checkpoint · 4 October 2026
+
+Scientist profiles and selected work are source-checked drafts with full coauthor credits. No portrait licence, human biography review, commercial adoption or website release is established.
+
+## Mineral works and later evidence · 4 October 2026
+
+Original abstract supports credited English work and limited experimental scope. Later pilot visit evidence adds no commercial outcome or current operation claim. All new content remains an editorial candidate; no website release.
+
+## Coffee business checkpoint · 2 October2026
+
+[Retail brief](../economy/koraput-coffee-retail.md) is a research draft with primary national food-business criteria and explicit local gaps. No completed financial plan, endorsement, human review or website release.
+
+## Coffee opportunity checkpoint · 3 October 2026
+
+Municipal PDFs and a seller comparator enhance the draft [retail brief](../economy/koraput-coffee-retail.md). No applicant approval, verified wholesale supplier, completed business plan, human review or website release.
+
+## Bargarh desk milestone · 3 October 2026
+
+[Bargarh service dossier](../economy/bargarh-textile-catalogue-service.md) is research-ready for review with explicit missing economics. No active tender invitation, confirmed client, human review, finance-ready plan or website publication.
+
+## Puri research checkpoint · 3 October 2026
+
+[Outdoor walk dossier](../economy/puri-heritage-walk-service.md) remains a hypothesis. Historical OTDC procurement is not guaranteed Puri work; no route approval, booking, financial return or website update.
+
+## Puri training and offer checkpoint · 3 October 2026
+
+The [Puri dossier](../economy/puri-heritage-walk-service.md) adds official training references and attributed supplier leads. Neither published training fees nor an advertised walk establishes a licensed, priced Utkal product. No live booking or website publication.
+
+## Puri desk milestone · 3 October 2026
+
+The [Puri business dossier](../economy/puri-heritage-walk-service.md) is desk-researched with all unknowns retained. Voluntary national recognition, municipal licensing, state registration and individual/site permissions are distinct. No complete current applicant checklist, viable return or website publication.

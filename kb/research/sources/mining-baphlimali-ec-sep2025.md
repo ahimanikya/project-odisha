@@ -18,3 +18,7 @@ Scope: Company compliance report; PDF pp.2,4,11,16,41,44,46. Scanned consent ann
 Web-reader text was available. Direct download returned HTTP406; no locally archived PDF or visual verification is claimed. The Form G-1 screenshot route also failed. Company reports are not independent government validation. Complex table fields and scanned permission annexures retain review gaps.
 
 [Connected mine profiles](../economy/bauxite-mine-identities.md).
+
+## Environmental scope extension · 3 October 2026
+
+Readable publisher text rechecked for monitoring/closure scope. Direct PDFHTTP406 and screenshotcachemiss; underlying monitoring annexures not visually accessible. [Structured comparison](../references/data/mining-environment-rights.json).

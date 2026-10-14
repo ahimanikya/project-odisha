@@ -42,3 +42,20 @@ Foods, ingredients and culinary story opportunities.
 [Bela pana](bela-pana.md) — summer preparation, credited variations and a documented Odia New Year serving.
 
 [Mohu/honey](mohu-honey.md) · [Mahua/mohula](mahua-mohula.md) — named forest-product profiles, with supply origin and local season still requiring verification.
+
+[Odisha’s GI inventory](../collections/odisha-gi-products.md) — all 26 Odisha entries in the official list as of 31 December 2025, with product/logo distinctions and 4 October 2026 application checks.
+
+[Temple-food GI comparison](temple-food-gi-governance.md) — original Laddu specification and Puri evidence gaps.
+
+[Nimapada chhena jhili chronology](nimapada-jhili-evidence.md) — official name use, reported maker credit and the missing invention date.
+
+[Korakhai goods and GI evidence](korakhai-gi-evidence.md) — Old Town reputation, attributed ingredients and missing producer specification.
+
+[Manikapatna Curd application review](manikapatna-curd-application.md) — fermentation claims, existing applicant, Registry requests and breed/GI certificate distinction.
+
+[Chilika curd science](chilika-curd-science.md) — bamboo preparation, measured fermentation evidence and limits on shelf-life claims.
+
+
+## 2026-10-10 · Ghanta and shared food
+
+[Ghanta tarkari](ghanta-tarkari.md): preparation context and offering-to-meal roles.

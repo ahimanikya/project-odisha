@@ -45,3 +45,7 @@ OCPL locates Manoharpur in Hemgir, Sundargarh. Its [rehabilitation page](https:/
 ## Ore reconciliation checkpoint · 1 October2026
 
 The recovered state table confirms121.102 million tonnes for2014–15 and269.363 for2024–25. Several intervening years differ from CCO, including237.131 versus239.402 in2023–24. The CCO timeline above remains unchanged; do not splice the two. [Reconciliation](ore-production.md).
+
+## Worker-safety evidence · 3 October 2026
+
+[The Bharatpur case](../economy/bharatpur-mine-safety.md) adds a historical accident account. Its four deaths and immediate-worksite population describe one event; they cannot establish a statewide accident rate, present safety status or implemented corrective action.

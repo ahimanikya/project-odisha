@@ -27,3 +27,11 @@ Banking geography is not household wealth, district GDP or project investment. R
 ## Rice farming · 2023–24
 
 The agriculture report records rice crop area of **289.21 thousand hectares**, rice yield **2521 kg/ha**, and rice output **729.16 thousand tonnes**. These are crop-year measures, independent of the banking snapshot above. [Official table, printed p.67](https://agri.odisha.gov.in/sites/default/files/2025-05/OAS%20A4.pdf). [Rice economics](../../economy/rice-economy.md) explains product bases and comparisons.
+
+## Evidence coverage · 4 October 2026
+
+[District evidence matrix](../district-coverage.md) connects this snapshot with health, education, livelihood, environment and visitor research. Unmapped evidence remains unknown; banking is not a measure of household income.
+
+## Sugar-output checkpoint · 2026-10-06
+
+[Aska in the sugar study](../../economy/sugar-production.md) supplies factory-level historical output leads. It is not Ganjam crop output, a current workforce census or supplier availability.

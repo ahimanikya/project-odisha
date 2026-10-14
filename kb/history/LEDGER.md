@@ -1082,3 +1082,71 @@ The researched Chilika and Mangalajodi listening article is published on Project
 ## UTP-HIS-0343 · Nimuhi joins Explore
 
 The published Nimuhi story can now be found through its literary and local names, with Literature and Subarnapur filters. The live result and its article link were verified after publication. [Publication and live verification](../records/nimuhi-discovery-publication-2026-10-15.json).
+
+## UTP-HIS-OSHA-B04-20261007 · Western Odisha food and kinship
+
+Three regional profiles join the existing review candidate with source-specific food accounts and unresolved historical claims visible. No human review, merge or publication claimed. [Checkpoint](../records/osha-b04-checkpoint-2026-10-07.json).
+
+## UTP-HIS-OSHA-B05-20261007 · Vows, food and source disagreements
+
+Three new and two expanded profiles join the existing review candidate with source-specific food accounts and unresolved historical claims visible. No human review, merge or publication claimed. [Checkpoint](../records/osha-b05-checkpoint-2026-10-07.json).
+
+## UTP-HIS-OSHA-B06-20261008 · Three vows and the boundaries of food evidence
+
+Bali Trutiya, Sita Navami and Rambha Trutiya join the existing review candidate. Original texts, attributed narratives, calendar differences and local food gaps remain explicit. No human review, merge or publication claimed. [Checkpoint](../records/osha-b06-checkpoint-2026-10-08.json).
+
+## UTP-HIS-OSHA-EXPANSION-20261009 · More observances and distinct food contexts
+
+Fifteen additional profiles and an Osha identity guide join the existing review candidate. Original texts, attributed narratives, calendar differences and local food gaps remain explicit. No human review, merge or publication claimed. [Checkpoint](../records/osha-expansion-checkpoint-2026-10-09.json).
+
+## UTP-HIS-OSHA-EXPANSION-20261010 · More observances and distinct food contexts
+
+Thirteen additional profiles and later revisions join the existing review candidate. Original texts, attributed narratives, calendar differences and local food gaps remain explicit. No human review, merge or publication claimed. [Checkpoint](../records/osha-expansion-checkpoint-2026-10-10.json).
+
+## UTP-HIS-OSHA-RAJA-20261010 · Raja and dated food evidence
+
+Raja joins the existing review collection. A companion page distinguishes historical services, undated operator descriptions and planned distribution from present availability. Saved sources reused; no interviews, human review, merge or publication claimed. [Checkpoint](../records/osha-raja-review-2026-10-10.json).
+
+## UTP-HIS-OSHA-NAVIGATION-20261010 · Reading the observance year
+
+The existing collection gains shared month labels, recurrence and unresolved-identity views, with food roles alongside names. Saved research reused; no annual dates, current food offers, human review or publication claimed. [Checkpoint](../records/osha-navigation-review-2026-10-10.json).
+
+## UTP-HIS-OSHA-PRATHAMASTAMI-20261010 · Prathamastami family and food evidence
+
+Prathamastami gains a fuller family and food narrative. Source-specific offerings, preparation, personal gifting and temple kinship remain distinct; the historical textual lead is unconfirmed. Saved sources reused; no interviews, human review, merge or publication claimed. [Checkpoint](../records/osha-prathamastami-review-2026-10-10.json).
+
+## UTP-HIS-OSHA-DUTIYA-20261010 · Dutiya family and food evidence
+
+Dutiya gains a fuller family and food narrative. Attributed narrative, source-specific offerings, next-day curry and exchange remain distinct; full original katha and dated origins remain unresolved. Saved sources reused; no interviews, human review, merge or publication claimed. [Checkpoint](../records/osha-dutiya-review-2026-10-10.json).
+
+## UTP-HIS-OSHA-BUDHEI-20261010 · Budhei family and food evidence
+
+Budhei gains a fuller family and food narrative. Published myth summary, repeated readings, coconut sequence and dated food association remain attributed; full original katha and dated origins remain unresolved. Saved sources reused; no interviews, human review, merge or publication claimed. [Checkpoint](../records/osha-budhei-review-2026-10-10.json).
+
+## UTP-HIS-OSHA-ALANA-20261011 · Alana family and food evidence
+
+Alana gains a modern collected narrative about exclusion, care and remembrance. The story meal, salt-free consumption and salt-free offering preparation retain separate source scopes. Ashwina and solar Dhanu calendars conflict; older textual lineage and locality remain unresolved. Saved sources reused; no interviews, human review, merge or publication claimed. [Checkpoint](../records/osha-alana-review-2026-10-11.json).
+
+## UTP-HIS-OSHA-KANJI-20261011 · Kanji Anla food roles
+
+Existing authored descriptions retain distinct kitchen/courtyard settings, offering/child-meal roles and ritual materials. Older historical lineage and local variation remain unresolved. Saved evidence reused; no human review or public release. [Checkpoint](../records/osha-kanji-review-2026-10-11.json).
+
+## UTP-HIS-OSHA-SAMBA-20261011 · Samba Dashami food sequence
+
+The saved government-published essay retains distinct sunrise/midday offerings, children’s sharing and a later Yama offering. Printed bowl term, older textual lineage and local variation remain unresolved. Saved evidence reused; no human review or public release. [Checkpoint](../records/osha-samba-review-2026-10-11.json).
+
+## UTP-HIS-OSHA-SABITRI-20261011 · Sabitri Brata food sequence
+
+The translated epic retains Savitri’s choice and story vow. Mahanti’s reading, offerings and family sharing retain author scope; nine-type wording and ten examples remain unresolved. Saved evidence reused; no human review or public release. [Checkpoint](../records/osha-sabitri-review-2026-10-11.json).
+
+## UTP-HIS-OSHA-MANABASA-20261011 · Manabasa Gurubara food sequence
+
+The digital witness retains Manabasa’s ritual arrangement, a separate Sudasa passage and shared-food reconciliation. Source edition and1868 header remain unverified. Saved evidence reused; no human review or public release. [Checkpoint](../records/osha-manabasa-review-2026-10-11.json).
+
+## UTP-HIS-OSHA-SUDASA-20261011 · Supplementary Sudasa food passages
+
+Saved textual instructions retain rice preparation, filling and offering-distribution restrictions. Household practice and edition chronology remain unknown. No human review or public release. [Checkpoint](../records/osha-sudasa-review-2026-10-11.json).
+
+## UTP-HIS-OSHA-KHUDURUKUNI-20261011 · Khudurukuni and maritime knowledge
+
+Saved article and supporting study imported as research-only; profile adds print/authorship and food-term uncertainty. No local review or public release. [Checkpoint](../records/osha-khudurukuni-review-2026-10-11.json).

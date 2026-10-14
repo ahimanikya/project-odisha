@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "task_id": "RES-077",
+  "batch_id": "OSHA-B03",
+  "checked_at": "2026-10-07T09:56:38.506340+00:00",
+  "source_checks": [
+    {
+      "source_id": "osha-sathi-mahapatra",
+      "url": "https://shubhapallaba.in/sasthi-osha/",
+      "checked_at": "2026-10-07T09:56:38.506340+00:00",
+      "status": "available",
+      "scope": "First-person household memory, locality and years of practice unspecified. Publication date not established: relative age and site-header date are not accepted as article dates. Tagged31st-edition; no original issue recovered.",
+      "locator": "Opening calendar paragraph; explicit childhood-household account, preparation paragraph and closing meal paragraph",
+      "method": "Original publisher web text read in Odia; English paraphrase by the project, no human Odia review."
+    },
+    {
+      "source_id": "osha-sathi-behera",
+      "url": "https://storymirror.com/read/oriya/story/sstthiipuujaa/pwrhonj6",
+      "checked_at": "2026-10-07T09:56:38.506340+00:00",
+      "status": "available",
+      "scope": "Named contemporary devotional retelling. Primary evidence of this authored version, not proof of its cited Puranic text, historical events, Odisha adoption date or annual household katha.",
+      "locator": "Birth/annual distinction near opening; concluding Priyavrata–Malini narrative",
+      "method": "Original publisher web text read in Odia; English paraphrase by the project, no human Odia review."
+    }
+  ],
+  "failed_fetches": [
+    {
+      "url": "https://shubhapallaba.in/sasthi-osha/",
+      "status": "unavailable",
+      "method": "web click on article link23, 31st-edition tag",
+      "error": "Internal error; original issue/date not recovered",
+      "checked_at": "2026-10-07T09:56:38.506340+00:00"
+    }
+  ],
+  "source_reuse": [
+    {
+      "source_id": "osha-review2006",
+      "locator": "pp.15,17–18",
+      "capture_scope": "saved_local_capture"
+    }
+  ],
+  "limited_checks": [
+    {
+      "url": "https://odishadarsan.gapu.in/2020/08/sathi-osha-traditional-odia-festival.html",
+      "status": "available",
+      "scope": "Explicitly credits Odia Wikipedia for all information; not firsthand or independent corroboration. Its fish/rice/dal menu is not imported as the annual household menu."
+    },
+    {
+      "url": "https://www.srujanee.in/view/shathi-puja-pachare-thiba-lokagalp-shYuG",
+      "status": "available",
+      "scope": "Heading, date21September2023 and introduction only; promised full story unavailable in reader. No story adopted."
+    }
+  ],
+  "holds": [
+    {
+      "topic": "Original issue and early textual history",
+      "status": "unresolved",
+      "retry_after": "2026-10-14",
+      "next_action": "Recover Shubhapallaba31st issue/date and dated local katha or primary Puranic edition; do not infer age from dynamic header or relative timestamp."
+    },
+    {
+      "topic": "Temple-origin claim",
+      "status": "unsupported_not_adopted",
+      "url": "https://smarteduguide.com/festivals/sathi-osha-2026/",
+      "note": "Search excerpt claims origin at Puri Jagannath temple without established primary evidence; not adopted."
+    }
+  ],
+  "household_locality": null,
+  "years_of_practice": null,
+  "earliest_observance_date": null,
+  "primary_puranic_passage_inspected": false,
+  "ritual_health_effect_established": false,
+  "human_review_claimed": false,
+  "fieldwork_conducted": false
+}

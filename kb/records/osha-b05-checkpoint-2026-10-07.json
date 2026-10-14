@@ -1,0 +1,294 @@
+{
+  "recorded_at": "2026-10-07T21:09:30.553967+00:00",
+  "task_id": "RES-077",
+  "authorization": "Existing research request and recurring authorization for routine validated branch updates",
+  "source_runs": [
+    "2026-10-07-bada",
+    "2026-10-07-kanji-anla",
+    "2026-10-07-bata",
+    "2026-10-07-pandu",
+    "2026-10-07-shani"
+  ],
+  "profiles": 21,
+  "narrative_checkpoints": 7,
+  "early_notes": 14,
+  "imported_paths": [
+    "culture/osha/khudurukuni.md",
+    "culture/osha/manabasa-gurubara.md",
+    "culture/osha/sudasa-brata.md",
+    "culture/osha/dutiya.md",
+    "culture/osha/budhei.md",
+    "culture/osha/alana.md",
+    "culture/osha/kanji-anla.md",
+    "culture/osha/bada.md",
+    "culture/osha/samba-dashami.md",
+    "culture/osha/prathamastami.md",
+    "culture/osha/sabitri.md",
+    "culture/osha/janhi.md",
+    "culture/osha/chaitra-mangala.md",
+    "culture/osha/sathi.md",
+    "culture/osha/nisha-mangalabara.md",
+    "culture/osha/pua-jiuntia.md",
+    "culture/osha/bhai-jiuntia.md",
+    "culture/osha/nuakhai.md",
+    "culture/osha/bata.md",
+    "culture/osha/pandu.md",
+    "culture/osha/shani-tota.md",
+    "culture/osha-brata-seasonal-food.md",
+    "culture/osha-text-witnesses.md",
+    "culture/osha/sudasa-text-comparison.md",
+    "visitor-index/seasonal-food-guide.md",
+    "food/gaja-kanti-evidence.md",
+    "references/data/osha-culture.json",
+    "references/data/seasonal-food-calendar.json",
+    "references/data/osha-text-witnesses.json",
+    "references/data/sudasa-text-comparison.json",
+    "references/data/osha-mangala-research.json",
+    "references/data/chaitra-mangala-research.json",
+    "references/data/sathi-research.json",
+    "references/data/nisha-mangalabara-research.json",
+    "references/data/jiuntia-research.json",
+    "references/data/nuakhai-research.json",
+    "references/data/bada-research.json",
+    "references/data/kanji-anla-research.json",
+    "references/data/bata-research.json",
+    "references/data/pandu-research.json",
+    "references/data/shani-tota-research.json",
+    "sources/osha-review2006.md",
+    "sources/osha-mahanti.md",
+    "sources/osha-lakshmi2021.md",
+    "sources/osha-ray2020.md",
+    "sources/osha-patra2019.md",
+    "sources/osha-ghadai2018.md",
+    "sources/osha-jagatsinghpur.md",
+    "sources/osha-samba2013.md",
+    "sources/osha-konark2015.md",
+    "sources/osha-savitri-epic.md",
+    "sources/osha-nmm-catalogue.md",
+    "sources/osha-osm-literature.md",
+    "sources/osha-sudasa-scan.md",
+    "sources/osha-sudasa-prose.md",
+    "sources/osha-kumar2015.md",
+    "sources/osha-sarala2009.md",
+    "sources/osha-chaitra-odiaorg.md",
+    "sources/osha-pana2023.md",
+    "sources/osha-sathi-mahapatra.md",
+    "sources/osha-sathi-behera.md",
+    "sources/osha-nisha-worldcat.md",
+    "sources/osha-nisha-kalingahistory.md",
+    "sources/osha-kesavan-jiuntia.md",
+    "sources/osha-barpali-pua.md",
+    "sources/osha-nuakhai-singh2012.md",
+    "sources/osha-dhabaleswar-tourism.md",
+    "sources/osha-dhabaleswar-incredibleindia.md",
+    "sources/osha-kanji-sarangi2018.md",
+    "sources/osha-kanji-mahakud2021.md",
+    "sources/osha-bata-odiaportal.md",
+    "sources/osha-pandu-puriwaves.md",
+    "sources/osha-pandu-odiaportal.md",
+    "sources/osha-jhoti-biswal-dash2020.md"
+  ],
+  "validation": {
+    "result": "PASS",
+    "project_and_research_checks": [
+      {
+        "command": "python3 tools/registers.py --check",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/catalog.py --check",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/check_bundle.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/test_registers.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/test_config.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_visitor_index.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_maritime.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_growth_journeys.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_statistics.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_homestays.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_classification.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_collections.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_prd.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_creations.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_sports.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_research_map.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_osha_culture.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_seasonal_food.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/languages/build_atlas.py --check",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/editorial/build_workbench.py --check",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/editorial/test_workbench.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "node --test projects/editorial-workbench/workbench.test.mjs",
+        "exit_code": 0,
+        "result": "PASS"
+      }
+    ],
+    "site_checks": [
+      {
+        "command": "npm run review",
+        "cwd": "projects/design-system",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "npm test",
+        "cwd": "projects/design-system",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "npm run build:coast",
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "npm run test:coast",
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/audit-coast.py",
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/audit-discovery.py",
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "node tools/prepare-search-review.mjs",
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/audit-launch-readiness.py",
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "npm run build:publication",
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/audit-search-shortlist.py",
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "result": "PASS"
+      }
+    ],
+    "full_site_tests": {
+      "passed": 471,
+      "failed": 0
+    },
+    "browser_checks": {
+      "collection_count": 21,
+      "recurring_filter": [
+        "Sudasa Brata",
+        "Shani / Tota Osha"
+      ],
+      "recurring_sesame_search_count": 1,
+      "article": "Shani/Tota desktop rendering and source sections inspected",
+      "mobile": "Not repeated this run; existing responsive layout unchanged"
+    }
+  },
+  "human_review": false,
+  "publication": false,
+  "scope": "B05 checkpoints, not completed origin studies. Source-specific narratives, food roles and conflicting calendar descriptions remain distinct.",
+  "next_action": "Continue OSHA-B06 with Sukutuni Osha, the earliest eligible remaining inventory lead, using saved Dash and Mahanti first. Retry unresolved B02–B05 texts, calendars and local variants on/after2026-10-14. Source workspace remains scheduling authority.",
+  "reconciliation_notes": [
+    "Gaja/Kanti supporting concept retained; two unavailable source-page links replaced with original publisher URLs and three unreconciled GI navigation links converted to named source-workspace references. No GI filing/status refresh."
+  ]
+}

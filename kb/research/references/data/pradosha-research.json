@@ -1,0 +1,97 @@
+{
+  "run_id": "2026-10-10-shiva-pradosha",
+  "checked_at": "2026-10-10T00:42:52.636789+00:00",
+  "local_date": "2026-10-10",
+  "task_id": "RES-077",
+  "profile_id": "OSHA-048",
+  "source_checks": [
+    {
+      "source_id": "osha-pradosha-skanda",
+      "url": "https://www.wisdomlib.org/hinduism/book/the-skanda-purana/d/doc423669.html",
+      "related_urls": [
+        "https://www.wisdomlib.org/hinduism/book/the-skanda-purana/d/doc423670.html"
+      ],
+      "status": "retrieved",
+      "checked_at": "2026-10-10T00:42:52.636789+00:00",
+      "locator": "Section 3, chapters 6 (verses 1–81) and 7 (verses 1–164); timing 6.5 and 7.2; food 7.52–56 and 7.71; narrative 6.16–75 and 7.78–159",
+      "scope": "One translated textual witness across adjacent chapters, not two independent corroborations. Comparative ritual narrative and prescription; no dated Odisha lineage or locally attested menu. Host generic year 1950 not adopted as verified edition date; last-updated 15 August 2020 is website metadata.",
+      "method": "Web text of both complete chapters read with numbered verse locators; no Sanskrit collation or print-edition dating claimed"
+    },
+    {
+      "source_id": "osha-mahanti",
+      "run_id": "2026-10-10-shiva-pradosha",
+      "checked_at": "2026-10-10T00:42:52.636789+00:00",
+      "locator": "Printed44/PDF60, Shiva pradosha brata paragraph",
+      "scope": "Recurring fortnightly vow, fasting and printed moonrise wording visually checked. No named dish in this paragraph. Broad prevalence and efficacy claims not independently verified.",
+      "method": "Saved PDF text reused; page rendered and visually inspected",
+      "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf",
+      "status": "saved_evidence_reused"
+    }
+  ],
+  "failed_fetches": [],
+  "reuse": [
+    "query_research.py Pradosha found no dedicated mapped identity; native destination-and-tour-book and culture-trails searches found no match. Dated map is not exhaustive.",
+    "Reused Mahanti printed44/PDF60 and the separate Shibaratri profile; no annual food association transferred."
+  ],
+  "timing_conflict": {
+    "mahanti": "Period around moonrise; dwadashi/trayodashi transition wording",
+    "skanda": "Dusk on trayodashi; bathing three ghatis before sunset",
+    "mahanti_image_checked": true,
+    "resolution": null
+  },
+  "text_witness": {
+    "source_id": "osha-pradosha-skanda",
+    "chapters": [
+      "Brahma-khanda, Brahmottara-khanda 6.1–81",
+      "Brahma-khanda, Brahmottara-khanda 7.1–164"
+    ],
+    "one_witness": true,
+    "composition_date": null,
+    "edition_date": null,
+    "odia_lineage_established": false
+  },
+  "food_roles": [
+    {
+      "source_id": "osha-mahanti",
+      "role": "fasting described",
+      "geography": "Odisha author account",
+      "named_dishes": [],
+      "recipe": null
+    },
+    {
+      "source_id": "osha-pradosha-skanda",
+      "role": "textual offerings and feeding Brahmins",
+      "geography": "comparative text, not locality-specific Odisha evidence",
+      "odisha_menu_established": false,
+      "recipe": null
+    }
+  ],
+  "discovery_not_adopted": [
+    {
+      "url": "https://www.kamakoti.org/kamakoti/dharmasindhu/bookview.php?chapnum=4",
+      "status": "retrieved",
+      "reason": "Tithi-prakaara summary inspected; other trayodashi/vrata entries not transferred into Pradosha menu."
+    },
+    {
+      "query": "\"ପ୍ରଦୋଷ\" \"ବ୍ରତ\" Odisha manuscript; site:magazines.odisha.gov.in \"Pradosha\"",
+      "status": "searched_no_adoptable_local_text",
+      "reason": "Search results did not establish a dated Odia katha or manuscript identity. Search absence is not evidence of nonexistence."
+    }
+  ],
+  "followup": {
+    "retry_after": "2026-10-17",
+    "needs": [
+      "Which dated Odia Pradosha katha or ritual manual documents a local narrative and its transmission?",
+      "Does a named Odisha panji or temple manual resolve the printed moonrise and tithi-transition wording?",
+      "What is the earliest securely dated Odisha witness, distinct from a general Puranic account?",
+      "Which foods, if any, belong to offering, fasting allowance and fast-breaking in a named household or temple?",
+      "How do local recurring Pradosha practices differ from annual Jagara or Maha Shivaratri?",
+      "Can a willing host verify a future date, visitor access and any public food service?"
+    ],
+    "independent_next": "Tarini Brata"
+  },
+  "origin_date": null,
+  "annual_date": null,
+  "fieldwork_conducted": false,
+  "human_review_claimed": false
+}

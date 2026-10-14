@@ -1,0 +1,171 @@
+{
+  "schema_version": "1.0",
+  "article_path": "stories/khudurukuni-maritime-knowledge.md",
+  "updated_at": "2026-10-11T16:29:39.798418+00:00",
+  "source_ids": [
+    "osha-tapoi-lokaratna2013",
+    "osha-irri-grain-preparation",
+    "osha-ray2020",
+    "osha-patra2019",
+    "sadhaba-monsoon2006",
+    "sadhaba-chilika-boats1993",
+    "sadhaba-watercraft-art2018",
+    "sadhaba-buoyancy-openstax",
+    "sadhaba-tides-noaa"
+  ],
+  "claims": [
+    {
+      "id": "OKM-01",
+      "evidence_class": "ritual_narrative",
+      "source_ids": [
+        "osha-ray2020"
+      ],
+      "locator": "Tapoi narrative paragraphs",
+      "summary": "Merchant household and return narrative; not a verified voyage."
+    },
+    {
+      "id": "OKM-02",
+      "evidence_class": "documented_description",
+      "source_ids": [
+        "osha-ray2020"
+      ],
+      "locator": "Balunka caption and ritual sequence",
+      "summary": "Particular ritual description; no statewide universality."
+    },
+    {
+      "id": "OKM-03",
+      "evidence_class": "bibliographic_record",
+      "source_ids": [
+        "osha-tapoi-lokaratna2013"
+      ],
+      "locator": "PDF p.50 references",
+      "summary": "Undated Cuttack printing is a recovery lead, not an inspected edition."
+    },
+    {
+      "id": "OKM-04",
+      "evidence_class": "conflicted_attribution",
+      "source_ids": [
+        "osha-tapoi-lokaratna2013",
+        "osha-patra2019"
+      ],
+      "locator": "PDF p.42 and Patra p.48",
+      "summary": "Anonymous versus Gopinath Das attribution unresolved.",
+      "quarantined": true
+    },
+    {
+      "id": "OKM-05",
+      "evidence_class": "modern_scientific_explanation",
+      "source_ids": [
+        "osha-irri-grain-preparation"
+      ],
+      "locator": "Dehulling and polishing paragraphs; readable web lines24–35",
+      "summary": "Hull and bran distinction does not identify ritual khuda."
+    },
+    {
+      "id": "OKM-06",
+      "evidence_class": "historical_interpretation",
+      "source_ids": [
+        "sadhaba-monsoon2006"
+      ],
+      "locator": "Saved study pp.865–866,869–871",
+      "summary": "Seasonal route reconstruction, not named ship tracks."
+    },
+    {
+      "id": "OKM-07",
+      "evidence_class": "modern_scientific_explanation",
+      "source_ids": [
+        "sadhaba-buoyancy-openstax",
+        "sadhaba-tides-noaa"
+      ],
+      "locator": "Buoyancy section14.4 and spring/neap paragraph",
+      "summary": "Physical principles do not establish ancient formulas or departure rules."
+    },
+    {
+      "id": "OKM-08",
+      "evidence_class": "iconographic_interpretation",
+      "source_ids": [
+        "sadhaba-watercraft-art2018"
+      ],
+      "locator": "Saved study pp.41–42, figures2/4",
+      "summary": "Religious distress image; not scale drawing or capacity measurement."
+    }
+  ],
+  "source_lineages": [
+    {
+      "source_ids": [
+        "osha-ray2020"
+      ],
+      "note": "Ray2022 unavailable; two Ray publications would not be independent corroboration."
+    },
+    {
+      "source_ids": [
+        "sadhaba-monsoon2006",
+        "sadhaba-chilika-boats1993",
+        "sadhaba-watercraft-art2018"
+      ],
+      "note": "Shared Tripati scholarship; retain its reused references."
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "koeta",
+      "user_term": "koeta",
+      "identified_concept": null,
+      "status": "awaiting_spelling_or_description",
+      "question": "User asked for koeta; no confident identification established. Keuta must not be substituted without confirmation."
+    },
+    {
+      "id": "tapoi-edition",
+      "value": null,
+      "next_action": "Recover cited Lokanath printing and compare imprint, authorship and recited text.",
+      "retry_after": "2026-10-18"
+    },
+    {
+      "id": "local-khuda",
+      "value": null,
+      "next_action": "Situated Odia terminology, ingredient and preparation record from consenting observers.",
+      "retry_after": null
+    },
+    {
+      "id": "fixed-five-sundays",
+      "value": null,
+      "next_action": "2013 says five Sundays; do not generalise count or Gregorian dates without the relevant panji.",
+      "retry_after": null
+    }
+  ],
+  "fetches": [
+    {
+      "id": "tapoi2013",
+      "url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/8920e957-babc-45d4-9981-6b8bbe821a5b/content",
+      "status": "retrieved",
+      "content_type": "application/pdf;charset=UTF-8",
+      "bytes": 1737521,
+      "sha256": "f94e2f8203abca35c0df280fc745b9d181841b351a7be6b9809ac3ba90a67bd4",
+      "path": "work/osha-history-science-2026-10-11/tapoi2013.pdf"
+    },
+    {
+      "id": "ray2022",
+      "url": "https://hasp.ub.uni-heidelberg.de/journals/nidan/article/download/21868/21280",
+      "status": "unavailable",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 4715,
+      "sha256": "c2d2f89e0b9ab4b230f68cd9e171c90ab148125433422a2557b39b706d5ae4d6",
+      "path": "work/osha-history-science-2026-10-11/ray2022.html"
+    },
+    {
+      "id": "sahoo2017",
+      "url": "https://papers.iafor.org/wp-content/uploads/papers/ecah2017/ECAH2017_36829.pdf",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "irri",
+      "url": "https://www.knowledgebank.irri.org/ericeproduction/PDF_%26_Docs/Teaching_Manual_Rice_Milling.pdf",
+      "status": "unavailable",
+      "error": "<urlopen error timed out>"
+    }
+  ],
+  "human_review_claimed": false,
+  "fieldwork_conducted": false,
+  "website_publication": false
+}

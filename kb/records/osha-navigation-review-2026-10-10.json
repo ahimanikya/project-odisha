@@ -1,0 +1,50 @@
+{
+  "recorded_at": "2026-10-10T12:03:21.358785+00:00",
+  "task_id": "RES-077",
+  "source_runs": [
+    "2026-10-10-seasonal-navigation"
+  ],
+  "profiles": 53,
+  "imported_paths": [
+    "culture/osha-seasonal-navigation.md",
+    "references/data/osha-seasonal-navigation.json",
+    "culture/osha-brata-seasonal-food.md",
+    "visitor-index/seasonal-food-guide.md",
+    "subjects/everyday.md",
+    "subjects/food.md"
+  ],
+  "validation": {
+    "result": "PASS",
+    "project_checks": 23,
+    "site_checks": 10,
+    "full_site_tests": 476,
+    "built_pages": 204
+  },
+  "human_review": false,
+  "publication": false,
+  "scope": "Existing month/recurrence navigation improved; source conflicts and food roles retained.",
+  "next_action": "Review month/recurrence filtering and source-scoped food notes in the existing draft collection. Preserve all 14–17 October textual, local and serving-evidence holds; source workspace remains scheduling authority.",
+  "base_context": {
+    "branch_tip_before": "4bb4fdc1b69af27cdeaafe334333fc3b013c8965",
+    "main_observed": "bb6998a",
+    "selected_osha_paths_have_no_overlapping_main_changes": true,
+    "autonomous_500_program": "Not modified."
+  },
+  "browser_checks": {
+    "checked_at": "2026-10-10T13:30:07.113145+00:00",
+    "method": "Codex in-app browser, local-only preview",
+    "result": "PASS",
+    "checks": [
+      "Recurring filter shows five documented recurring observances.",
+      "Margasira plus enduri finds Prathamastami; Pausa plus enduri shows zero and the empty-result message; reset returns 53.",
+      "Unresolved category shows ten entries; Sita Navami search shows one and its expanded explanation retains the month disagreement.",
+      "Solar category shows Raja alone.",
+      "Somnath query returns two related Bhadraba results and one Ashwina result; automated identity checks verify Somnath matches both months without duplicate cards.",
+      "Desktop screenshot inspected: search, category selector, reset and disputed-identity card render without clipping."
+    ],
+    "limits": "Default desktop viewport only; no mobile viewport or human factual/Odia review."
+  },
+  "repairs": [
+    "Regenerated research search index after the new navigation guide; initial validator failure preserved in the run log."
+  ]
+}

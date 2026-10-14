@@ -30,3 +30,7 @@ Printed p.49 / PDF p.69, section9.2 visually checked:925 apprentice trainees eng
 ## Workforce wording cross-check · 2 October 2026
 
 Printed pp.49 and59 visually rechecked from a fresh publisher download. The BRSR table labels year-end details; the training section describes 16,722 contractor workers engaged during March. Existing observation retained with both locators and a scope review; no duplicate or new plant-level count. Printed p.56 procurement figures also visually rechecked.
+
+## Scope extension ·4 October 2026
+
+Reused saved PDF: printed pp. 12–14 and190–191 / PDF 32–34 and210–211. Visually checked project paragraphs, standalone capex and notes 6.1/6.A.2. The221.19 crore figure is an expense component included in CWIP, not full project spending. The4664.84 crore adverse CWIP category covers mines/refinery collectively. Repeated consolidated notes are not independent evidence. Current releases-page retrieval failed502; no fresh operational status established.

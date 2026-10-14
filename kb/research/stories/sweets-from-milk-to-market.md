@@ -80,3 +80,7 @@ Korakhai broadens the collection beyond dairy sweets. Its [1999 town-directory e
 The collection now follows a reported Magji family practice in Sadangi and a dated Rasabali market appearance in Bhubaneswar. These suggest portraits of skill and the journey from local preparation to wider selling places. [Magji account](https://interviewtimes.net/dhenkanal-magji-gets-gi-tag/); [Rasabali event reporting](https://www.newindianexpress.com/cities/bhubaneswar/2026/Jan/16/stalls-selling-gi-tagged-products-major-crowd-puller-at-sisir-saras). Use attributed testimony and dated scenes; no sales-growth headline or current maker availability is established.
 
 </details>
+
+## Food-processing evidence · 4 October 2026
+
+[The dairy and processing study](../economy/food-processing-and-dairy.md) connects existing crop and milk records with dated OMFED procurement, turnover and a historical conversion tender. Physical output, supplier contracts and district business profitability remain separate questions.

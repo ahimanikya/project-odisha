@@ -117,3 +117,19 @@ The [contemporary creators collection](../people/contemporary-creators.md) now i
 ## Textile creators: stronger work-level credits
 
 [Handloom research](../handlooms/garments-and-markets.md) now connects Swarnalata Meher, Debaki Meher and Sarat Kumar Patra with three illustrated directory examples. Existing identities and shared records are reused; these are not newly invented biographies or interviews.
+
+## Craft practitioners · 4 October 2026
+
+[Ramesh Behera](ramesh-behera.md), [Pankaj Kumar Sahoo](pankaj-kumar-sahoo.md), [Laxmidhar Subudhi](laxmidhar-subudhi.md) and [Biswanath Swain](biswanath-swain.md) add scoped craft and recognition records. Full biographies and work-level catalogues remain open.
+
+## Stone, metal and clay · 4 October 2026
+
+[Sudarshan Sahoo](sudarshan-sahoo.md), [Ramakanta Mahapatra](ramakanta-mahapatra.md), [Sansari Gadatia](sansari-gadatia.md), [Jayadev Rana](jayadev-rana.md) and [Manabodh Rana](manabodh-rana.md) add sculpture and craft connections. Documentation contacts, awardees and individual object creators remain separate roles.
+
+## Material-art work attribution ·4October2026
+
+[Raghunath Mohapatra](raghunath-mohapatra.md) adds a sculptor and nominated parliamentarian. The [Manabodh Rana profile](manabodh-rana.md) now links a provisionally matched institutional mural record. Three works enter the catalogue with source attribution, unknown dates and unknown current display preserved.
+
+## Mineral scientists · 4 October 2026
+
+[Mamata Mohapatra](mamata-mohapatra.md) and [M.G. Sujana](m-g-sujana.md) add documented education/work connections to Odisha, linked to research and credited collaborations. Institutional ties do not establish birthplace or mother tongue.

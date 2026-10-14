@@ -1,0 +1,240 @@
+{
+  "recorded_at": "2026-10-08T01:15:40.768038+00:00",
+  "task_id": "RES-077",
+  "authorization": "Existing deep-research request and recurring authorization for routine validated branch updates",
+  "source_runs": [
+    "2026-10-07-bali-trutiya",
+    "2026-10-07-sita-navami",
+    "2026-10-08-rambha-trutiya"
+  ],
+  "profiles": 24,
+  "narrative_checkpoints": 8,
+  "early_notes": 16,
+  "imported_paths": [
+    "culture/osha-brata-seasonal-food.md",
+    "culture/osha/bali-trutiya.md",
+    "culture/osha/rambha-trutiya.md",
+    "culture/osha/sabitri.md",
+    "culture/osha/sita-navami.md",
+    "references/data/bali-trutiya-research.json",
+    "references/data/osha-culture.json",
+    "references/data/rambha-trutiya-research.json",
+    "references/data/seasonal-food-calendar.json",
+    "references/data/sita-navami-research.json",
+    "sources/osha-bali-trutiya-scan.md",
+    "sources/osha-jhoti-biswal-dash2020.md",
+    "sources/osha-mahanti.md",
+    "sources/osha-rambha-dutt1908.md",
+    "sources/osha-rambha-garuda-sanskrit.md",
+    "sources/osha-review2006.md",
+    "sources/osha-sita-panchavati2024.md",
+    "sources/osha-sita-valmiki-rao.md",
+    "visitor-index/seasonal-food-guide.md"
+  ],
+  "validation": {
+    "result": "PASS",
+    "project_and_research_checks": [
+      {
+        "command": "python3 tools/registers.py --check",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/catalog.py --check",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/check_bundle.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/test_registers.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/test_config.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_visitor_index.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_maritime.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_growth_journeys.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_statistics.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_homestays.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_classification.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_collections.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_prd.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_creations.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_sports.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_research_map.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_osha_culture.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_seasonal_food.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/languages/build_atlas.py --check",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/editorial/build_workbench.py --check",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/editorial/test_workbench.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "node --test projects/editorial-workbench/workbench.test.mjs",
+        "exit_code": 0,
+        "result": "PASS"
+      }
+    ],
+    "site_checks": [
+      {
+        "command": "npm run review",
+        "cwd": "projects/design-system",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "npm test",
+        "cwd": "projects/design-system",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "npm run build:coast",
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "npm run test:coast",
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/audit-coast.py",
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/audit-discovery.py",
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "node tools/prepare-search-review.mjs",
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/audit-launch-readiness.py",
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "npm run build:publication",
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/audit-search-shortlist.py",
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "result": "PASS"
+      }
+    ],
+    "full_site_tests": {
+      "passed": 471,
+      "failed": 0
+    },
+    "browser_checks": {
+      "collection_count": 24,
+      "narrative_checkpoints": 8,
+      "early_notes": 16,
+      "search": {
+        "term": "Rambha",
+        "visible_results": 1,
+        "food_unknown_label": true
+      },
+      "articles": [
+        "Bali Trutiya narrative, food roles, sources and desktop rendering inspected",
+        "Sita Navami calendar conflict, unknown food and sources inspected",
+        "Rambha Trutiya textual versus Odisha scope, food gap and sources inspected"
+      ],
+      "mobile": "Not repeated this run; existing responsive layout unchanged"
+    }
+  },
+  "human_review": false,
+  "publication": false,
+  "scope": "B06 three-profile checkpoint, not completed origin studies. Textual food prescriptions do not establish Odisha local food or availability.",
+  "next_action": "Continue OSHA-B06 with Nagala Chaturthi, checking identity against Naga Panchami before adding a profile. Earlier textual/locality gaps retain14October retries; Rambha gaps15October. Source workspace remains scheduling authority."
+}

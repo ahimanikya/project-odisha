@@ -61,3 +61,7 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 
 
 [^macro-oes-appendix2026]: [Odisha Economic Survey 2025–26 — statistical appendix, current-price aggregates](https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf)
+
+## Longer same-vintage series · 4 October 2026
+
+[The GDP story](../economy/gdp-story.md) now connects seven annual nominal/real series for 2011–12 through2025–26, with matched five/ten-year calculations and adverse years. Indexed source extraction is complete; original table-image review remains pending. Earlier eight nominal observations and industry captures are reused, not counted as independent evidence.

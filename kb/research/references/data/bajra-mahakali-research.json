@@ -1,0 +1,188 @@
+{
+  "run_id": "2026-10-10-bajra-mahakali",
+  "checked_at": "2026-10-10T03:37:47.474988+00:00",
+  "local_date": "2026-10-10",
+  "task_id": "RES-077",
+  "profile_id": "OSHA-050",
+  "source_checks": [
+    {
+      "source_id": "osha-bajra-pothi",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Bajra_Mahakali_Brata_O_Phuleri_Osha_Katha.pdf",
+      "related_urls": [
+        "https://commons.wikimedia.org/wiki/File:Bajra_Mahakali_Brata_O_Phuleri_Osha_Katha.pdf",
+        "https://or.wikisource.org/wiki/ବଜ୍ର_ମହାକାଳୀ_ବ୍ରତ_ଓ_ଫୁଲେରୀ_ଓଷା_କଥା"
+      ],
+      "status": "retrieved",
+      "checked_at": "2026-10-10T03:37:47.474988+00:00",
+      "locator": "PDF1 digital cover; PDF2–11 original-text images; food passages PDF3–5; resolution PDF8–11",
+      "scope": "One Odia prose narrative visually inspected. Scan and Wikisource transcription are one textual witness, not independent corroboration. Commons gives1February1934 and16th/16th–17th-century claims, but no visible original imprint supports dating in this scan; dates not adopted. Household geography and current practice unverified.",
+      "capture": {
+        "path": "/Users/ahimanikya/Documents/codex/2026-09-27/odisha-facts-and-growth/work/osha-bajra/bajra.pdf",
+        "sha256": "584827b9424b2dc82c3f8552651c04bd782c62cfc08541c0bdf1fcf9f72fa19f",
+        "retrieved_at": "2026-10-10T03:37:47.474988+00:00",
+        "method": "Verified-TLS download after sandbox DNS and web cache failures; all11 PDF pages rendered and visually inspected",
+        "pdf_pages": 11,
+        "credited_digitiser": "Prateek Pattanaik, Project Pothi (repository credit)",
+        "repository_upload_date": "2017-02-12",
+        "repository_license_claim": "CC0",
+        "rights_for_republication": null
+      }
+    },
+    {
+      "source_id": "osha-mahanti",
+      "run_id": "2026-10-10-bajra-mahakali",
+      "checked_at": "2026-10-10T03:37:47.474988+00:00",
+      "locator": "Printed49/PDF65, Bajra Mahakali paragraph",
+      "scope": "Aswina amabasya, fasting, generic pitha and katha reading. Decline and fertility-effect claims not adopted as measured facts.",
+      "method": "Saved PDF rendered and visually inspected",
+      "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf",
+      "status": "saved_evidence_reused"
+    }
+  ],
+  "failed_fetches": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Bajra_Mahakali_Brata_O_Phuleri_Osha_Katha.pdf",
+      "status": "unavailable",
+      "method": "Web original-file fetch with tracking query",
+      "reason": "Cache miss; direct verified-TLS download subsequently succeeded",
+      "checked_at": "2026-10-10T03:37:47.474988+00:00"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Bajra_Mahakali_Brata_O_Phuleri_Osha_Katha.pdf",
+      "status": "unavailable",
+      "method": "Sandbox curl",
+      "reason": "DNS could not resolve upload.wikimedia.org; approved network download subsequently succeeded",
+      "checked_at": "2026-10-10T03:37:47.474988+00:00"
+    },
+    {
+      "url": "https://www.odiapujabrata.in/",
+      "status": "unavailable",
+      "method": "Web text extraction",
+      "reason": "Library shell retrieved but article body not exposed; no second textual witness counted",
+      "checked_at": "2026-10-10T03:37:47.474988+00:00"
+    }
+  ],
+  "reuse": [
+    "query_research.py Bajra returned no mapped profile; saved Mahanti and coverage audit supplied the lead.",
+    "Native destination-and-tour-book and culture-trails searches found no matching vow; dated map not exhaustive."
+  ],
+  "text_witness": {
+    "id": "OSHA-T007",
+    "source_id": "osha-bajra-pothi",
+    "pdf_pages": 11,
+    "narrative_pages": "PDF2–11",
+    "all_pages_visually_inspected": true,
+    "edition_date": null,
+    "composition_date": null,
+    "sha256": "584827b9424b2dc82c3f8552651c04bd782c62cfc08541c0bdf1fcf9f72fa19f",
+    "local_capture": "work/osha-bajra/bajra.pdf",
+    "same_scan_transcription_not_independent": true
+  },
+  "dating_claims_held": [
+    {
+      "claim": "1934-02-01",
+      "basis": "Commons date field",
+      "adopted": false
+    },
+    {
+      "claim": "16th century /16th–17th century",
+      "basis": "Commons description and anonymous-author field",
+      "adopted": false
+    }
+  ],
+  "identity": {
+    "names_in_witness": [
+      "Bajra Mahakali",
+      "Phuleri",
+      "Polari/Polori"
+    ],
+    "universal_alias_equivalence_established": false,
+    "location_in_story": "unnamed merchant household",
+    "overseas_trade_origin_established": false
+  },
+  "food_roles": [
+    {
+      "items": [
+        "rice",
+        "biri"
+      ],
+      "role": "soaked during preparation",
+      "locator": "PDF3",
+      "source_id": "osha-bajra-pothi"
+    },
+    {
+      "items": [
+        "aradra"
+      ],
+      "role": "cooked in handi; offered on seven pumpkin leaves",
+      "locator": "PDF4–5",
+      "source_id": "osha-bajra-pothi",
+      "modern_equivalent": null,
+      "recipe": null
+    },
+    {
+      "items": [
+        "seven kinds of greens",
+        "banana",
+        "coconut"
+      ],
+      "role": "narrative offerings",
+      "locator": "PDF5",
+      "source_id": "osha-bajra-pothi",
+      "greens_species": null
+    },
+    {
+      "items": [
+        "nishankhudi",
+        "shankhudi"
+      ],
+      "role": "textual food categories, contents unresolved",
+      "locator": "PDF5",
+      "source_id": "osha-bajra-pothi"
+    },
+    {
+      "items": [
+        "prasad"
+      ],
+      "role": "shared among participants and neighbours",
+      "locator": "PDF5",
+      "source_id": "osha-bajra-pothi"
+    },
+    {
+      "items": [
+        "pitha"
+      ],
+      "role": "generic offering in published account",
+      "locator": "Printed49/PDF65",
+      "source_id": "osha-mahanti",
+      "varieties": null
+    }
+  ],
+  "discovery_not_adopted": [
+    {
+      "url": "https://hindunidhi.com/bajra-mahakali-brata-katha-book/",
+      "reason": "Search extract contains an admission of unavailable knowledge; no original evidence adopted."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=1dPWN74TEDo",
+      "reason": "Performance title discovered; recording not inspected, no independent version claimed."
+    }
+  ],
+  "followup": {
+    "retry_after": "2026-10-17",
+    "needs": [
+      "Can an original dated edition, publisher record or manuscript establish the composition and print history?",
+      "How do named local participants distinguish Phuleri, Polari/Polori and other Pithori names and calendars?",
+      "What preparation does aradra denote here, and what are its ingredients, method and local variants?",
+      "Which seven greens and which nishankhudi/shankhudi foods are meant in a named household?",
+      "What food breaks the fast, as distinct from the story’s offered and shared prasad?",
+      "How do participants interpret the daughter-in-law’s vulnerability, the goddess’s test and the family reunion?",
+      "Can a willing host verify an annual date, access and an actual food arrangement?"
+    ],
+    "independent_next": "Mahastami Brata"
+  },
+  "origin_date": null,
+  "annual_date": null,
+  "fieldwork_conducted": false,
+  "human_review_claimed": false
+}

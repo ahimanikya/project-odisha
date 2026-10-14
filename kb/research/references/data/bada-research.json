@@ -1,0 +1,254 @@
+{
+  "schema_version": "1.0",
+  "task_id": "RES-077",
+  "batch_id": "OSHA-B05",
+  "run_id": "2026-10-07-bada",
+  "checked_at": "2026-10-07T15:16:36.875158+00:00",
+  "scope": "One Bada Osha checkpoint; not a complete origin study or recipe.",
+  "source_checks": [
+    {
+      "source_id": "osha-dhabaleswar-tourism",
+      "url": "https://odishatourism.gov.in/w/dhabaleswar-temple",
+      "checked_at": "2026-10-07T15:16:36.875158+00:00",
+      "status": "available",
+      "locator": "Discover the Heritage: opening Dhabaleswar Temple paragraph",
+      "scope": "Official promotional retelling of the black-calf legend. It supports attribution of a story, not a dated miracle, founding chronology, current bridge access or visitor service. Publication date not displayed in inspected passage.",
+      "method": "Web extraction cache miss and initial sandbox DNS failure; network-enabled direct HTTPS retrieval succeeded with normal TLS."
+    },
+    {
+      "source_id": "osha-dhabaleswar-incredibleindia",
+      "url": "https://www.incredibleindia.gov.in/en/odisha/cuttack/dhabaleswar-temple",
+      "checked_at": "2026-10-07T15:16:36.875158+00:00",
+      "status": "available",
+      "locator": "A tale of divine intervention; The magnificence of Dhabaleswar Temple",
+      "scope": "Official promotional page inspected via web extraction. Transformation subject differs from Odisha Tourism and construction chronology lacks an inspected underlying authority. Preserve as an unresolved source-wording conflict, not independent proof or a demonstrated oral variant.",
+      "method": "Web page opened successfully; no local original HTML capture or physical temple inspection."
+    }
+  ],
+  "failed_fetches": [
+    {
+      "url": "https://odishatourism.gov.in/w/dhabaleswar-temple",
+      "status": "unavailable",
+      "http_status": "000",
+      "error": "curl: (6) Could not resolve host: odishatourism.gov.in\n",
+      "exit_code": 6,
+      "path": "work/osha-bada/tourism.html",
+      "checked_at": "2026-10-07T15:10:51.847958+00:00"
+    },
+    {
+      "url": "https://cuttack.odisha.gov.in/en/documents/district--gazetteer",
+      "status": "unavailable",
+      "http_status": "000",
+      "error": "curl: (6) Could not resolve host: cuttack.odisha.gov.in\n",
+      "exit_code": 6,
+      "path": "work/osha-bada/cuttack-gazetteer.html",
+      "checked_at": "2026-10-07T15:10:51.856451+00:00"
+    },
+    {
+      "url": "https://cmccuttack.odisha.gov.in/index.php/tourist-places/",
+      "status": "unavailable",
+      "http_status": "000",
+      "error": "curl: (6) Could not resolve host: cmccuttack.odisha.gov.in\n",
+      "exit_code": 6,
+      "path": "work/osha-bada/cmc.html",
+      "checked_at": "2026-10-07T15:10:51.865341+00:00"
+    },
+    {
+      "url": "https://cuttack.odisha.gov.in/en/documents/district--gazetteer",
+      "status": "unavailable",
+      "http_status": "000",
+      "error": "curl: (6) Could not resolve host: cuttack.odisha.gov.in\n",
+      "exit_code": 6,
+      "path": "work/osha-bada/cuttack-gazetteer.html",
+      "checked_at": "2026-10-07T15:11:31.427912+00:00",
+      "method": "network-enabled retry"
+    },
+    {
+      "url": "https://cmccuttack.odisha.gov.in/index.php/tourist-places/",
+      "status": "unavailable",
+      "http_status": "000",
+      "error": "curl: (28) Connection timed out after 20001 milliseconds\n",
+      "exit_code": 28,
+      "path": "work/osha-bada/cmc.html",
+      "checked_at": "2026-10-07T15:11:50.704222+00:00",
+      "method": "network-enabled retry"
+    },
+    {
+      "url": "https://cuttack.odisha.gov.in/en/documents/district--gazetteer",
+      "status": "unavailable",
+      "method": "web",
+      "error": "502 Bad Gateway",
+      "checked_at": "2026-10-07T15:16:36.875158+00:00"
+    },
+    {
+      "url": "https://cuttack.odisha.gov.in/en/tourist-place/dhabaleswar",
+      "status": "unavailable",
+      "method": "web",
+      "error": "Inaccessible via tool; guessed page route not evidence",
+      "checked_at": "2026-10-07T15:16:36.875158+00:00"
+    },
+    {
+      "url": "https://odishatourism.gov.in/w/dhabaleswar-temple",
+      "status": "unavailable",
+      "method": "web",
+      "error": "Cache miss; separate direct HTTPS retrieval succeeded",
+      "checked_at": "2026-10-07T15:16:36.875158+00:00"
+    },
+    {
+      "url": "https://cmccuttack.odisha.gov.in/index.php/tourist-places/",
+      "status": "unavailable",
+      "method": "web",
+      "error": "Internal fetch error; indexed lead only",
+      "checked_at": "2026-10-07T15:16:36.875158+00:00"
+    }
+  ],
+  "source_reuse": [
+    {
+      "run_id": "2026-10-07-bada",
+      "checked_at": "2026-10-07T15:16:36.875158+00:00",
+      "locator": "Printed pp.58–59 / PDF74–75",
+      "scope": "Saved original visually inspected for Bada Osha food process, ritual sequence and attributed Indra story; Padma Purana edition and verse not supplied or inspected."
+    },
+    {
+      "source_id": "osha-jagatsinghpur",
+      "locator": "Printed p.52",
+      "scope": "Saved district account reused; no new complete PDF inspection"
+    },
+    {
+      "path": "food/gaja-kanti-evidence.md",
+      "scope": "Saved food-name distinctions"
+    },
+    {
+      "path": "kb/research/product/destination-and-tour-book.md",
+      "scope": "Native requirements distinguish association from venues; not operating evidence"
+    }
+  ],
+  "saved_pdf": {
+    "path": "work/osha-deep-study/mahanti.pdf",
+    "sha256": "8dd1d610e7e5df0dcb8f77a5a4a75c267fb3fb43480df2e24d39bbe312070f22",
+    "visually_inspected_pdf_pages": [
+      74,
+      75
+    ]
+  },
+  "conflicts": [
+    {
+      "id": "BADA-C01",
+      "field": "traditional calendar",
+      "accounts": [
+        {
+          "source_id": "osha-mahanti",
+          "locator": "p.58",
+          "value": "Kartika bright thirteenth or fourteenth"
+        },
+        {
+          "source_id": "osha-jagatsinghpur",
+          "locator": "p.52",
+          "value": "Kartika Purnima"
+        }
+      ],
+      "status": "unresolved",
+      "resolution": null
+    },
+    {
+      "id": "BADA-C02",
+      "field": "legend transformation subject",
+      "accounts": [
+        {
+          "source_id": "osha-dhabaleswar-tourism",
+          "locator": "opening paragraph",
+          "value": "black calf becomes white"
+        },
+        {
+          "source_id": "osha-dhabaleswar-incredibleindia",
+          "locator": "A tale of divine intervention",
+          "value": "thief becomes white cow"
+        }
+      ],
+      "status": "unresolved_source_wording",
+      "independent_oral_variant_established": false
+    },
+    {
+      "id": "BADA-C03",
+      "field": "shrine chronology",
+      "accounts": [
+        {
+          "source_id": "osha-dhabaleswar-tourism",
+          "locator": "opening paragraph",
+          "value": "Believed Somavanshi/Jajati Keshari origin; Athgarh renovations"
+        },
+        {
+          "source_id": "osha-dhabaleswar-incredibleindia",
+          "locator": "The magnificence of Dhabaleswar Temple",
+          "value": "Veer Kishore; 1153 Saka rendered as 1232 AD by publisher"
+        }
+      ],
+      "status": "held_without_original_authority",
+      "adopted_founding_date": null
+    }
+  ],
+  "history_claims": [
+    {
+      "claim": "Indra worship and Brahma curse",
+      "source_id": "osha-mahanti",
+      "locator": "pp.58–59",
+      "evidence_class": "ritual_narrative",
+      "primary_puranic_passage_inspected": false,
+      "edition": null,
+      "verse": null
+    }
+  ],
+  "food_records": [
+    {
+      "name": "gaja bhoga",
+      "source_id": "osha-mahanti",
+      "locator": "p.59",
+      "ingredients": [
+        "rice dough",
+        "sweetened coconut filling"
+      ],
+      "process": [
+        "shape",
+        "fill",
+        "steam"
+      ],
+      "shape": "balls",
+      "measured_recipe": false
+    },
+    {
+      "name": "gaja offering",
+      "source_id": "osha-jagatsinghpur",
+      "locator": "p.52",
+      "process": [
+        "steam"
+      ],
+      "shape": "linga and snake",
+      "ingredients": null,
+      "measured_recipe": false
+    },
+    {
+      "name": "atakali",
+      "source_id": "osha-mahanti",
+      "locator": "p.59",
+      "ingredients": [
+        "wheat flour"
+      ],
+      "description": "Compared to kheeri by author",
+      "measured_recipe": false
+    }
+  ],
+  "followup": {
+    "retry_after": "2026-10-14",
+    "needs": [
+      "Original katha and Puranic citation",
+      "Temple annual fast/offer/distribution notice",
+      "Original shrine chronology",
+      "Publisher clarification of legend wording"
+    ]
+  },
+  "fieldwork_conducted": false,
+  "human_review_claimed": false,
+  "origin_date": null,
+  "annual_date": null,
+  "current_serving_availability": null
+}

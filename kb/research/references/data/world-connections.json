@@ -1,0 +1,149 @@
+{
+  "schema_version": "0.1",
+  "run_id": "2026-10-04-world-connections",
+  "updated_at": "2026-10-04T06:32:22.384782+00:00",
+  "task_id": "RES-059",
+  "canonical_page": "collections/odisha-and-world.md",
+  "scope": "Bounded historical synthesis plus two modern trade/policy cases; not a complete geopolitical history.",
+  "historical_reuse": {
+    "paths": [
+      "history/maritime-evidence.md",
+      "history/manikapatna.md",
+      "history/roman-connection-review.md",
+      "trade/connection-matrix.md"
+    ],
+    "source_ids": [
+      "maritime-anchor",
+      "maritime-manikapatna-2026",
+      "maritime-romans-2019"
+    ],
+    "evidence_classes": [
+      "archaeological_find",
+      "scholarly_interpretation",
+      "commemoration"
+    ],
+    "limitations": [
+      "Manikapatna chronological descriptions disagree; retain separate windows.",
+      "Objects do not prove direct routes or ancient trade volumes.",
+      "Direct Roman route not established by the saved reassessment.",
+      "No unbroken historical-to-modern supply chain asserted."
+    ]
+  },
+  "cases": [
+    {
+      "id": "paradip-trade-gateway",
+      "period": "FY2024–25, with saved FY2025–26 context",
+      "geography": "Paradip Port, Odisha; cargo origin/destination not established by total",
+      "source_ids": [
+        "connect-paradip2025",
+        "connect-paradip2026"
+      ],
+      "observation_refs": [
+        {
+          "dataset": "statistics-atlas.json",
+          "id": "world-paradip-exim-teu2025"
+        }
+      ],
+      "institutional_role": "Port authority reports handled cargo; source totals do not allocate origin to Odisha producers.",
+      "strategic_interpretation": "Editorial inference: a physical logistics platform can support commercial connections; access, service reliability and producer use require separate evidence.",
+      "missing_scope": [
+        "country",
+        "product",
+        "Odisha origin",
+        "current carrier availability"
+      ]
+    },
+    {
+      "id": "rare-earth-india-japan",
+      "period": "2012 memorandum; 2022 answer; saved 2026 corridor proposals",
+      "geography": "India–Japan institutional relationship; OSCOM plant in Odisha, other processing locations distinct",
+      "source_ids": [
+        "world-japan-memorandum2012",
+        "world-dae-3202-2022",
+        "world-japan-suspension-lead2025",
+        "journey-irel-reep",
+        "journey-rare-corridor",
+        "weekly-rare-aug2026"
+      ],
+      "institutional_events": [
+        {
+          "date": "2012-11-16",
+          "source_id": "world-japan-memorandum2012",
+          "locator": "PDF p.1, clauses 1–5 and signature block",
+          "stage": "signed_cooperation_framework",
+          "claim": "DAE and METI designate IREL and Toyota Tsusho; commercial and joint-venture arrangements envisaged."
+        },
+        {
+          "date": "2022-03-31",
+          "source_id": "world-dae-3202-2022",
+          "locator": "PDF p.2 answer(c)",
+          "stage": "reported_company_supply_agreement",
+          "claim": "Mixed rare-earth chloride supply agreement identified; shipment performance unstated."
+        }
+      ],
+      "existing_capacity_reference": {
+        "dataset": "growth-journeys.json",
+        "source_id": "journey-irel-reep",
+        "meaning": "Installed mixed chloride capacity; not oxide output or Japan shipments"
+      },
+      "strategic_interpretation": "2012 signatories express stable supply and Indian value-addition aims; these are attributed policy aims. Odisha linkage rests on separately sourced IREL plant evidence.",
+      "current_agreement_status": null,
+      "verified_shipments": null,
+      "current_corridor_stage": "Retain saved proposal/discussion status; no commissioning inferred."
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "world-country-product-origin",
+      "field": "Odisha-origin product-country-year shipments and port routing",
+      "value": null,
+      "next_action": "Seek DEPM/DGCI&S table and matched shipment records; no conversion of destination shares to rupees."
+    },
+    {
+      "id": "world-japan-current-status",
+      "field": "Original 2025 suspension directive and subsequent operating status",
+      "value": null,
+      "source_id": "world-japan-suspension-lead2025",
+      "evidence_status": "secondary_lead_quarantined",
+      "retry_after": "2026-10-11",
+      "next_action": "Seek DAE/IREL original directive or later parliamentary confirmation, agreement scope and actual shipments."
+    },
+    {
+      "id": "world-port-service-current",
+      "field": "Current port services, costs and booking availability",
+      "value": null,
+      "next_action": "Original carrier/terminal schedules and dated quotations required for a business guide."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "connect-paradip2025",
+      "url": "https://paradipport.gov.in/all_news/paradip-port-cements-its-position-as-numero-uno-among-indian-major-ports-second-consecutive-time-in-a-row/",
+      "status": "available",
+      "scope": "EXIM container paragraph, FY2024–25, direct HTML"
+    },
+    {
+      "source_id": "world-japan-memorandum2012",
+      "url": "https://www.mea.gov.in/Portal/LegalTreatiesDoc/JP12B0296.pdf",
+      "status": "available",
+      "scope": "PDF p.1, clauses 1–5 and signature block",
+      "retrieval_history": "Web reader 403; direct verified-TLS download succeeded; facsimile rendered and visually read."
+    },
+    {
+      "source_id": "world-dae-3202-2022",
+      "url": "https://cdnbbsr.s3waas.gov.in/s35b8e4fd39d9786228649a8a8bec4e008/uploads/2023/02/2023020889-1.pdf",
+      "status": "available",
+      "scope": "PDF pp.1–2; answer (c) and table heading in (d)",
+      "retrieval_history": "Web PDF text available; web screenshots cache miss; direct PDF downloaded and rendered locally. Font cache rendering issue resolved; both pages visually read."
+    },
+    {
+      "source_id": "world-japan-suspension-lead2025",
+      "url": "https://www.ibef.org/news/india-moves-to-conserve-rare-earths-seeks-halt-to-exports-to-japan",
+      "status": "available",
+      "evidence_status": "secondary_lead_only",
+      "scope": "News body and secondary-research disclaimer"
+    }
+  ],
+  "human_review_claimed": false,
+  "website_publication": false
+}

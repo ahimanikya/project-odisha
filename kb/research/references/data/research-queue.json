@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-03T08:06:11.256094+00:00",
+  "updated_at": "2026-10-06T01:07:01.079096+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -1139,23 +1139,67 @@
       "title": "Garments and export disaggregation",
       "done_when": "Retrieve segment-wise parliamentary textile table; map at least eight garment/product forms to verified Odisha manufacture where supported, reconcile scope with broad exports and add dated destinations/volumes or precise gaps. Reuse RES-012 tradition depth.",
       "target": "handlooms/garments-and-markets.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "completed",
+      "attempts": 1,
       "dependencies": [],
-      "last_worked_at": null,
-      "next_step": "Retrieve segment-wise parliamentary textile table; map at least eight garment/product forms to verified Odisha manufacture where supported, reconcile scope with broad exports and add dated destinations/volumes or precise gaps. Reuse RES-012 tradition depth.",
-      "evidence_outputs": [],
+      "last_worked_at": "2026-10-04T08:34:31.103772+00:00",
+      "next_step": "Continue RES-032 sand art and other material arts. Textile destination, HS, quantity and current-maker evidence remain dated follow-ups for2026-10-11.",
+      "evidence_outputs": [
+        "sources/textile-rs130-20241206.md",
+        "sources/textile-bargarh-products.md",
+        "references/data/textile-export-segments.json",
+        "handlooms/garments-and-markets.md",
+        "statistics/textile-and-apparel-exports.md",
+        "references/data/creative-economy.json"
+      ],
       "retry_after": null,
       "blocker": null,
       "reuse_before_research": {
         "source_records": [
           "handlooms/garments-and-markets.md",
-          "statistics/textile-and-apparel-exports.md"
+          "statistics/textile-and-apparel-exports.md",
+          "sources/textile-rs130-20241206.md",
+          "sources/textile-bargarh-products.md",
+          "references/data/textile-export-segments.json"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "attempt_history": [
+        {
+          "run_id": "2026-10-04-textile-segments",
+          "at": "2026-10-04T08:34:31.103772+00:00",
+          "outcome": "segment_table_and_eight_forms_with_precise_trade_gaps",
+          "completion_criteria_met": true
+        }
+      ],
+      "follow_up_evidence": [
+        {
+          "field": "destination_and_volume",
+          "status": "unknown",
+          "retry_after": "2026-10-11",
+          "next_action": "Seek origin-linked DGCI&S HS-code tables or dated shipping records with product, quantity, value and destination."
+        },
+        {
+          "field": "handloom_vs_factory",
+          "status": "unknown",
+          "retry_after": "2026-10-11",
+          "next_action": "Seek matched production and export records; do not assign sector value to named weaving traditions."
+        },
+        {
+          "field": "district_revenue",
+          "status": "unknown",
+          "retry_after": "2026-10-11",
+          "next_action": "Parliament answer(b) says district-wise revenue not maintained. Seek separately scoped district records."
+        },
+        {
+          "field": "current_maker_stock",
+          "status": "unknown",
+          "retry_after": "2026-10-11",
+          "next_action": "Dated catalogue or direct documented availability evidence needed; no contact performed."
+        }
+      ]
     },
     {
       "id": "RES-032",
@@ -1163,19 +1207,110 @@
       "title": "Sand art and other material arts",
       "done_when": "Deepen sand art, Tarakasi, palm-leaf engraving, stone carving, dhokra and terracotta; identify named practitioners/works, technique/history and dated award/exhibition evidence; distinguish legend, attribution and measured livelihoods.",
       "target": "culture/index.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 4,
       "dependencies": [],
-      "last_worked_at": null,
-      "next_step": "Deepen sand art, Tarakasi, palm-leaf engraving, stone carving, dhokra and terracotta; identify named practitioners/works, technique/history and dated award/exhibition evidence; distinguish legend, attribution and measured livelihoods.",
-      "evidence_outputs": [],
-      "retry_after": null,
-      "blocker": null,
+      "last_worked_at": "2026-10-04T12:42:08.226031+00:00",
+      "next_step": "RES-032 checkpoint: three attributed work records saved; remaining commissioning/accession, maker-identity and craft-specific work gaps retry2026-10-11. Continue next eligible independent task RES-013 district evidence coverage, reusing the research map and existing district records.",
+      "evidence_outputs": [
+        "sources/sand-tourism-newsletter2020.md",
+        "sources/sand-festival-rules2022.md",
+        "sources/sand-festival-rules2025.md",
+        "sources/sand-dda-workshop2022.md",
+        "sources/sand-puri-tiranga2025.md",
+        "sources/sand-festival-landing2025.md",
+        "sources/sand-weymouth-award-lead2025.md",
+        "references/data/material-arts.json",
+        "works/puri-tiranga-sand-2025.md",
+        "culture/sand-art.md",
+        "people/sudarsan-pattnaik.md",
+        "references/data/people-creations.json",
+        "sources/arts-nid-filigree.md",
+        "sources/arts-nid-palm.md",
+        "sources/arts-state-awards.md",
+        "sources/arts-national-awards2015.md",
+        "people/ramesh-behera.md",
+        "people/pankaj-kumar-sahoo.md",
+        "people/laxmidhar-subudhi.md",
+        "people/biswanath-swain.md",
+        "culture/palm-leaf-engraving.md",
+        "culture/cuttack-tarakasi.md",
+        "sources/arts-nid-stone.md",
+        "sources/arts-nid-dhokra.md",
+        "sources/arts-nid-terracotta.md",
+        "sources/arts-padma2021.md",
+        "sources/arts-sudarshan-museum.md",
+        "sources/arts-state-craft-awards.md",
+        "sources/arts-sidac-selection2017-lead.md",
+        "people/ramakanta-mahapatra.md",
+        "people/sansari-gadatia.md",
+        "people/jayadev-rana.md",
+        "people/manabodh-rana.md",
+        "people/sudarshan-sahoo.md",
+        "culture/stone-carving.md",
+        "culture/dhokra.md",
+        "culture/terracotta.md",
+        "culture/material-arts.md",
+        "sources/arts-president-nominations2018.md",
+        "sources/arts-rs-mohapatra2021.md",
+        "sources/arts-crt-ina-tiles.md",
+        "sources/arts-iic-clay2016.md",
+        "people/raghunath-mohapatra.md",
+        "works/mohapatra-sun-god-parliament.md",
+        "works/mohapatra-wooden-buddha-paris.md",
+        "works/manabodh-rana-ina-terracotta-mural.md"
+      ],
+      "retry_after": "2026-10-11",
+      "blocker": "Original object-level dates/commission records and unresolved maker identity; artist website inaccessible. Six practice nuclei and three attributed works saved, full work-level criterion not met.",
       "reuse_before_research": {
         "source_records": [
           "culture/sand-art.md",
           "culture/cuttack-tarakasi.md",
-          "people/sudarsan-pattnaik.md"
+          "people/sudarsan-pattnaik.md",
+          "sources/sand-tourism-newsletter2020.md",
+          "sources/sand-festival-rules2022.md",
+          "sources/sand-festival-rules2025.md",
+          "sources/sand-dda-workshop2022.md",
+          "sources/sand-puri-tiranga2025.md",
+          "sources/sand-festival-landing2025.md",
+          "sources/sand-weymouth-award-lead2025.md",
+          "references/data/material-arts.json",
+          "works/puri-tiranga-sand-2025.md",
+          "sources/arts-nid-filigree.md",
+          "sources/arts-nid-palm.md",
+          "sources/arts-state-awards.md",
+          "sources/arts-national-awards2015.md",
+          "people/ramesh-behera.md",
+          "people/pankaj-kumar-sahoo.md",
+          "people/laxmidhar-subudhi.md",
+          "people/biswanath-swain.md",
+          "culture/palm-leaf-engraving.md",
+          "history/scientific-manuscripts.md",
+          "sources/arts-nid-stone.md",
+          "sources/arts-nid-dhokra.md",
+          "sources/arts-nid-terracotta.md",
+          "sources/arts-padma2021.md",
+          "sources/arts-sudarshan-museum.md",
+          "sources/arts-state-craft-awards.md",
+          "sources/arts-sidac-selection2017-lead.md",
+          "people/ramakanta-mahapatra.md",
+          "people/sansari-gadatia.md",
+          "people/jayadev-rana.md",
+          "people/manabodh-rana.md",
+          "people/sudarshan-sahoo.md",
+          "culture/stone-carving.md",
+          "culture/dhokra.md",
+          "culture/terracotta.md",
+          "culture/material-arts.md",
+          "places/sambalpur-bargarh.md",
+          "sources/arts-president-nominations2018.md",
+          "sources/arts-rs-mohapatra2021.md",
+          "sources/arts-crt-ina-tiles.md",
+          "sources/arts-iic-clay2016.md",
+          "people/raghunath-mohapatra.md",
+          "works/mohapatra-sun-god-parliament.md",
+          "works/mohapatra-wooden-buddha-paris.md",
+          "works/manabodh-rana-ina-terracotta-mural.md"
         ],
         "project_records": [
           "kb/research/destinations/central-details.json",
@@ -1183,7 +1318,64 @@
         ],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "attempt_history": [
+        {
+          "run_id": "2026-10-04-sand-art-evidence",
+          "at": "2026-10-04T09:36:32.915635+00:00",
+          "outcome": "sand_art_events_work_and_fee_terms_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Five other material arts, named practitioners and dated work/recognition evidence."
+        },
+        {
+          "run_id": "2026-10-04-filigree-palm-arts",
+          "at": "2026-10-04T10:38:52.815078+00:00",
+          "outcome": "filigree_and_palm_leaf_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Stone carving, dhokra, terracotta and unresolved work-level attribution."
+        },
+        {
+          "run_id": "2026-10-04-clay-metal-stone",
+          "at": "2026-10-04T11:39:04.102615+00:00",
+          "outcome": "stone_dhokra_terracotta_practices_and_makers",
+          "completion_criteria_met": false,
+          "remaining": "Individual work attribution and dated exhibition/acquisition evidence; source-specific recovery deferred."
+        },
+        {
+          "run_id": "2026-10-04-attributed-craft-works",
+          "at": "2026-10-04T12:42:08.226031+00:00",
+          "outcome": "named_sculptures_terracotta_mural_exhibition_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Original object-level dates/commission records and unresolved maker identity; artist website inaccessible. Six practice nuclei and three attributed works saved, full work-level criterion not met."
+        }
+      ],
+      "follow_up_evidence": [
+        {
+          "topic": "Festival originals and outcome records",
+          "retry_after": "2026-10-11",
+          "needed": "Accessible original2019 report and2025 rules, dated artist roster, payments and first-edition archive."
+        },
+        {
+          "topic": "Other artist and award identities",
+          "retry_after": "2026-10-11",
+          "needed": "Manas Kumar Sahoo primary Odisha biography and work credits; original SandWorld award/citation, with prize label and date."
+        },
+        {
+          "topic": "Filigree and palm-leaf evidence recovery",
+          "retry_after": "2026-10-11",
+          "needed": "Original national2015 PDF/state register; Pankaj1994 central citation; named award works and Arun full identity. Current maker business/rights evidence requires primary records or participation."
+        },
+        {
+          "topic": "Original craft award and acquisition records",
+          "retry_after": "2026-10-11",
+          "needed": "Recover SIDAC2017 facsimile, original state2006 and central1986 citations. Keep personal addresses excluded and acquisition/payment/ownership/creator roles distinct."
+        },
+        {
+          "topic": "Work attribution and identity follow-up",
+          "retry_after": "2026-10-11",
+          "needed": "Original commissioning/accession records for the Parliament Sun God, precise Paris temple and maker identifiers for INA mural/IIC Manbodh Ram. Artist site unavailable; individual Sahoo relief credits and clay/dhokra object dates remain open. Preserve prior filigree/palm and SIDAC retries; no commercial product claims promoted to holdings."
+        }
+      ]
     },
     {
       "id": "RES-013",
@@ -1191,23 +1383,44 @@
       "title": "District coverage matrix",
       "done_when": "Map 30 districts against existing health, education, livelihoods, environment and visitor evidence; mark missing evidence rather than zero values.",
       "target": "statistics/coverage.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "completed",
+      "attempts": 1,
       "dependencies": [],
-      "last_worked_at": null,
-      "next_step": "Map 30 districts against existing health, education, livelihoods, environment and visitor evidence; mark missing evidence rather than zero values.",
-      "evidence_outputs": [],
+      "last_worked_at": "2026-10-04T13:43:00.385886+00:00",
+      "next_step": "RES-014: deepen Koraput and Sambalpur–Bargarh using district publications; reuse the district matrix and existing records before collecting missing outcomes.",
+      "evidence_outputs": [
+        "statistics/district-coverage.md",
+        "references/data/district-coverage.json",
+        "tools/validate_district_coverage.py",
+        "statistics/coverage.md"
+      ],
       "retry_after": null,
       "blocker": null,
       "reuse_before_research": {
         "source_records": [
           "statistics/district-banking.md",
-          "statistics/coverage.md"
+          "statistics/coverage.md",
+          "statistics/district-coverage.md",
+          "references/data/district-coverage.json"
         ],
-        "project_records": [],
-        "audit_date": "2026-10-01",
+        "project_records": [
+          "kb/research/voices/district-connections.json",
+          "kb/research/voices/population-2011.json",
+          "kb/research/destinations/regions.json",
+          "kb/research/references/data/statistics-atlas.json"
+        ],
+        "audit_date": "2026-10-04",
         "map": "references/data/research-map.json"
-      }
+      },
+      "attempt_history": [
+        {
+          "run_id": "2026-10-04-district-coverage",
+          "at": "2026-10-04T13:43:00.385886+00:00",
+          "outcome": "bounded_30_district_five_domain_matrix",
+          "completion_criteria_met": true,
+          "scope": "Saved evidence audit only; no new source freshness or exhaustive coverage claim."
+        }
+      ]
     },
     {
       "id": "RES-014",
@@ -1215,12 +1428,16 @@
       "title": "Western and southern coverage",
       "done_when": "Deepen Koraput and Sambalpur–Bargarh using district publications; preserve boundaries, survey dates and denominator definitions.",
       "target": "collections/index.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "completed",
+      "attempts": 2,
       "dependencies": [],
-      "last_worked_at": null,
-      "next_step": "Deepen Koraput and Sambalpur–Bargarh using district publications; preserve boundaries, survey dates and denominator definitions.",
-      "evidence_outputs": [],
+      "last_worked_at": "2026-10-04T14:26:40.438109+00:00",
+      "next_step": "RES-015: GSDP and sector time series. RES-018 reuses this district survey capture; DES/SDG recovery retry2026-10-11 and unresolved indicator denominators remain explicit.",
+      "evidence_outputs": [
+        "statistics/western-southern-baselines.md",
+        "references/data/regional-district-baselines.json",
+        "references/data/regional-survey-methods.json"
+      ],
       "retry_after": null,
       "blocker": null,
       "reuse_before_research": {
@@ -1228,14 +1445,52 @@
           "places/koraput.md",
           "statistics/districts/koraput.md",
           "statistics/districts/sambalpur.md",
-          "statistics/districts/bargarh.md"
+          "statistics/districts/bargarh.md",
+          "statistics/district-coverage.md",
+          "references/data/district-coverage.json",
+          "statistics/western-southern-baselines.md",
+          "references/data/regional-district-baselines.json",
+          "references/data/regional-survey-methods.json"
         ],
         "project_records": [
-          "kb/research/destinations/regions.json"
+          "kb/research/destinations/regions.json",
+          "kb/research/voices/district-connections.json",
+          "kb/research/voices/population-2011.json",
+          "kb/research/references/data/statistics-atlas.json"
         ],
-        "audit_date": "2026-10-01",
+        "audit_date": "2026-10-04",
         "map": "references/data/research-map.json"
-      }
+      },
+      "attempt_history": [
+        {
+          "run_id": "2026-10-04-regional-handbooks",
+          "at": "2026-10-04T14:07:41.814042+00:00",
+          "outcome": "historical_district_baseline_checkpoint",
+          "completion_criteria_met": false,
+          "deferred_substep": {
+            "scope": "DES 2024 handbook tables",
+            "reason": "Original PDF downloads unavailable",
+            "retry_after": "2026-10-11"
+          },
+          "next_step": "RES-014: recover district NFHS factsheet methods and newer accessible service evidence; DES 2024 PDF retry due 2026-10-11. Preserve historical baselines and current unknowns."
+        },
+        {
+          "run_id": "2026-10-04-regional-survey-methods",
+          "at": "2026-10-04T14:26:40.438109+00:00",
+          "outcome": "district_survey_methods_and_newer_nutrition",
+          "completion_criteria_met": true,
+          "completion_scope": "Bounded district expansion exists across Census and two NFHS rounds, with methods and boundaries qualified. Not exhaustive district coverage.",
+          "remaining_followups": {
+            "task_id": "RES-018",
+            "retry_after": "2026-10-11",
+            "gaps": [
+              "District-specific fieldwork dates, indicator-specific valid measurement denominators and confidence intervals.",
+              "Exact district boundary crosswalk across Census2011 and NFHS rounds.",
+              "DES2024 handbook recovery and SDG administrative-service table validation."
+            ]
+          }
+        }
+      ]
     },
     {
       "id": "RES-015",
@@ -1243,24 +1498,39 @@
       "title": "GSDP and sector time series",
       "done_when": "Extract consistent annual GSDP/GSVA series for matched five/ten-year intervals with price bases and estimate vintages; retain adverse results.",
       "target": "economy/gdp-story.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "dependencies": [],
-      "last_worked_at": null,
-      "next_step": "Extract consistent annual GSDP/GSVA series for matched five/ten-year intervals with price bases and estimate vintages; retain adverse results.",
-      "evidence_outputs": [],
-      "retry_after": null,
-      "blocker": null,
+      "last_worked_at": "2026-10-04T14:42:04.663570+00:00",
+      "next_step": "RES-016 investment implementation next; RES-015 original table-image review retry2026-10-11. Do not repeat indexed extraction.",
+      "evidence_outputs": [
+        "economy/gdp-story.md",
+        "references/data/economic-time-series.json"
+      ],
+      "retry_after": "2026-10-11",
+      "blocker": "Original PDF/workbook retrieval unavailable; visual table verification remains pending. Indexed 15-year series and interval calculations saved.",
       "reuse_before_research": {
         "source_records": [
           "statistics/economic-size-and-income.md",
           "references/data/industry-growth-data.json",
-          "references/data/statistics-atlas.json"
+          "references/data/statistics-atlas.json",
+          "references/data/economic-time-series.json"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "attempt_history": [
+        {
+          "run_id": "2026-10-04-gsdp-series",
+          "at": "2026-10-04T14:42:04.663570+00:00",
+          "outcome": "seven_annual_series_extracted_original_visual_review_pending",
+          "completion_criteria_met": false,
+          "observations_added": 97,
+          "comparisons": 14,
+          "retry_after": "2026-10-11"
+        }
+      ]
     },
     {
       "id": "RES-016",
@@ -1268,23 +1538,49 @@
       "title": "Investment implementation evidence",
       "done_when": "Track project identities, actual expenditure and stage transitions; deduplicate announcements and retain domestic/foreign coverage uncertainty.",
       "target": "journeys/investment.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 2,
       "dependencies": [],
-      "last_worked_at": null,
-      "next_step": "Track project identities, actual expenditure and stage transitions; deduplicate announcements and retain domestic/foreign coverage uncertainty.",
-      "evidence_outputs": [],
-      "retry_after": null,
-      "blocker": null,
+      "last_worked_at": "2026-10-04T15:56:49.990348+00:00",
+      "next_step": "Retry RES-016 on2026-10-11 for project-specific construction cash expenditure, observed NALCO/IMFA commissioning and KNR2 payment reconciliation. Reuse captured annual reports first; current releases-page502 and aggregate accounting notes cannot fill those fields. Continue independently with RES-017 trade/logistics/production next run.",
+      "evidence_outputs": [
+        "journeys/investment.md",
+        "references/data/investment-tracker.json",
+        "statistics/company-investment.md",
+        "sources/investment-nalco-ar2025.md"
+      ],
+      "retry_after": "2026-10-11",
+      "blocker": "Inspected NALCO notes do not disclose full project cash expenditure; current commissioning release fetch unavailable502. Preserve partial completion; independent RES-017 remains eligible.",
       "reuse_before_research": {
         "source_records": [
           "references/data/investment-tracker.json",
-          "journeys/investment.md"
+          "journeys/investment.md",
+          "economy/company-imfa.md",
+          "references/data/mining-programme.json",
+          "economy/bauxite-to-aluminium.md",
+          "statistics/company-investment.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "attempt_history": [
+        {
+          "run_id": "2026-10-04-investment-implementation",
+          "at": "2026-10-04T14:54:26.289090+00:00",
+          "outcome": "imfa_project_identity_and_payment_checkpoint",
+          "completion_criteria_met": false,
+          "scope": "Three identities, six dated stage events and three overlapping financial observations; public-sector project cohort remains."
+        },
+        {
+          "run_id": "2026-10-04-nalco-investment",
+          "at": "2026-10-04T15:56:49.990348+00:00",
+          "outcome": "nalco_public_sector_project_checkpoint",
+          "completion_criteria_met": false,
+          "scope": "Three related identities, five stage events, project estimates/CWIP components and company capex; actual construction cash and current operation unresolved.",
+          "retry_after": "2026-10-11"
+        }
+      ]
     },
     {
       "id": "RES-017",
@@ -1292,25 +1588,187 @@
       "title": "Trade logistics and production",
       "done_when": "Build comparable exports, port cargo, manufacturing, agriculture and fisheries series; separate value, physical output and capacity.",
       "target": "statistics/coverage.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 8,
       "dependencies": [],
-      "last_worked_at": null,
-      "next_step": "Build comparable exports, port cargo, manufacturing, agriculture and fisheries series; separate value, physical output and capacity.",
-      "evidence_outputs": [],
+      "last_worked_at": "2026-10-06T01:07:01.079096+00:00",
+      "next_step": "Continue RES-017 with rice-mill processed output, using the existing rice-economy and food-processing captures before browsing. Dhenkanal successor production, buyer annual-report route and fiscal/crushing-year boundaries remain unresolved; retry their original-document recovery on 11 October alongside the saved state-table hold. Do not annualise partial company quantities.",
+      "evidence_outputs": [
+        "statistics/ports.md",
+        "sources/trade-basic-port-statistics2025.md",
+        "stories/ports-diverging-cargo.md",
+        "references/data/trade-logistics-series.json",
+        "statistics/fisheries.md",
+        "references/data/fisheries-production-series.json",
+        "sources/fish-directorate-statistics2024.md",
+        "stories/fish-growth-beyond-the-coast.md",
+        "trade/merchandise-exports.md",
+        "trade/export-destinations.md",
+        "trade/export-business-questions.md",
+        "stories/exports-recovery-and-concentration.md",
+        "references/data/export-series.json",
+        "sources/export-depm-fiveyear2024.md",
+        "sources/export-parliament2910-2024.md",
+        "sources/export-dgcis-origin-method.md",
+        "economy/manufacturing-output-and-suppliers.md",
+        "statistics/industrial-production.md",
+        "references/data/manufacturing-production-series.json",
+        "sources/manufacturing-sail-ar2025.md",
+        "sources/manufacturing-cag-bf2025.md",
+        "sources/manufacturing-rsp-page2026.md",
+        "economy/cement-and-fertiliser-production.md",
+        "sources/nonmetal-iffco2026.md",
+        "sources/nonmetal-dalmia2025.md",
+        "sources/nonmetal-ppl2026.md",
+        "references/data/nonmetal-production-series.json",
+        "economy/food-processing-and-dairy.md",
+        "sources/food-omfed-milkday2025.md",
+        "sources/food-omfed-conversion2024.md",
+        "sources/food-omfed-plants.md",
+        "sources/food-omfed-home.md",
+        "sources/food-omfed-ar2014.md",
+        "references/data/food-processing-series.json",
+        "economy/sugar-production.md",
+        "stories/sugar-output-recovery.md",
+        "sources/food-aska-status.md",
+        "sources/food-sakthi-ar2023.md",
+        "sources/food-sakthi-sale2022.md",
+        "sources/food-sakthi-q2-2022.md",
+        "sources/food-ipl-bta.md"
+      ],
       "retry_after": null,
-      "blocker": null,
+      "blocker": "Historical buyer resolved; full-year/season boundaries and successor output still require primary records. Successor-source recovery deferred to 11 October; independent rice-mill output research remains eligible.",
       "reuse_before_research": {
         "source_records": [
           "statistics/ports.md",
           "statistics/industrial-production.md",
           "statistics/fisheries.md",
-          "trade/connection-matrix.md"
+          "trade/connection-matrix.md",
+          "sources/trade-basic-port-statistics2025.md",
+          "stories/ports-diverging-cargo.md",
+          "references/data/trade-logistics-series.json",
+          "references/data/rice-economy.json",
+          "references/data/economic-time-series.json",
+          "references/data/fisheries-production-series.json",
+          "sources/fish-directorate-statistics2024.md",
+          "stories/fish-growth-beyond-the-coast.md",
+          "economy/fishing-and-aquaculture.md",
+          "economy/comparison-01-fisheries.md",
+          "trade/merchandise-exports.md",
+          "trade/export-destinations.md",
+          "trade/export-business-questions.md",
+          "stories/exports-recovery-and-concentration.md",
+          "references/data/export-series.json",
+          "sources/export-depm-fiveyear2024.md",
+          "sources/export-parliament2910-2024.md",
+          "sources/export-dgcis-origin-method.md",
+          "economy/manufacturing-output-and-suppliers.md",
+          "references/data/manufacturing-production-series.json",
+          "sources/manufacturing-sail-ar2025.md",
+          "sources/manufacturing-cag-bf2025.md",
+          "sources/manufacturing-rsp-page2026.md",
+          "economy/bauxite-to-aluminium.md",
+          "economy/rourkela-steel-chain.md",
+          "economy/company-imfa.md",
+          "economy/cement-and-fertiliser-production.md",
+          "sources/nonmetal-iffco2026.md",
+          "sources/nonmetal-dalmia2025.md",
+          "sources/nonmetal-ppl2026.md",
+          "references/data/nonmetal-production-series.json",
+          "economy/food-processing-and-dairy.md",
+          "sources/food-omfed-milkday2025.md",
+          "sources/food-omfed-conversion2024.md",
+          "sources/food-omfed-plants.md",
+          "sources/food-omfed-home.md",
+          "sources/food-omfed-ar2014.md",
+          "references/data/food-processing-series.json",
+          "statistics/agriculture.md",
+          "statistics/livestock.md",
+          "stories/sweets-from-milk-to-market.md",
+          "economy/sugar-production.md",
+          "stories/sugar-output-recovery.md",
+          "sources/food-aska-status.md",
+          "sources/food-sakthi-ar2023.md",
+          "sources/food-sakthi-sale2022.md",
+          "sources/food-sakthi-q2-2022.md",
+          "sources/food-ipl-bta.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "attempt_history": [
+        {
+          "run_id": "2026-10-04-trade-logistics",
+          "at": "2026-10-04T16:55:29.191089+00:00",
+          "outcome": "port_series_and_internal_total_conflict_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Full exports, manufacturing and fisheries comparability; port total conflict retained."
+        },
+        {
+          "run_id": "2026-10-04-fisheries-series",
+          "at": "2026-10-04T20:14:45.768141+00:00",
+          "outcome": "historical_fisheries_series_checkpoint",
+          "completion_criteria_met": false,
+          "observations_added": 57,
+          "comparisons": 10,
+          "remaining": "Export/physical manufacturing series; fisheries table images and later-vintage reconciliation."
+        },
+        {
+          "run_id": "2026-10-04-export-series",
+          "at": "2026-10-04T20:37:12.900086+00:00",
+          "outcome": "exports_sectors_products_destinations_and_origin_checkpoint",
+          "completion_criteria_met": false,
+          "observations_added": 94,
+          "calculations_added": 26,
+          "remaining": "Physical manufacturing comparability; original total/denominator and district shipment evidence."
+        },
+        {
+          "run_id": "2026-10-04-manufacturing-series",
+          "at": "2026-10-04T21:06:49.911643+00:00",
+          "outcome": "manufacturing_product_and_operating_scope_checkpoint",
+          "completion_criteria_met": false,
+          "observations_added": 22,
+          "observations_reused": 15,
+          "calculations_added": 8,
+          "remaining": "Non-metal physical product series; exact RSP returns and original audit table; current local work and orders."
+        },
+        {
+          "run_id": "2026-10-04-nonmetal-production",
+          "at": "2026-10-04T21:26:34.708615+00:00",
+          "outcome": "nonmetal_plant_series_checkpoint",
+          "completion_criteria_met": false,
+          "observations_added": 30,
+          "calculations_added": 13,
+          "remaining": "Food-processing physical output; longer cement series and PPL plant returns; conflicts held."
+        },
+        {
+          "run_id": "2026-10-04-food-processing-output",
+          "at": "2026-10-04T22:28:16.085032+00:00",
+          "outcome": "dairy_input_turnover_and_processing_gap_checkpoint",
+          "completion_criteria_met": false,
+          "observations_added": 4,
+          "observations_reused": 41,
+          "calculations_added": 2,
+          "remaining": "Dated food-processing product output; original dairy annual accounts unavailable in bounded search; retry 11 October while other food-plant work continues."
+        },
+        {
+          "run_id": "2026-10-05-sugar-output",
+          "at": "2026-10-06T00:01:09.592924+00:00",
+          "outcome": "sugar_physical_output_checkpoint_provisional_state_series_and_original_company_sale_period_preserved",
+          "completion_criteria_met": false,
+          "observations_added": 70,
+          "calculations_added": 12,
+          "remaining": "Resume RES-017 with Dhenkanal sugar-factory buyer/ownership and fiscal-versus-crushing-year reconciliation using the saved2022–23 company report. Retain the OAS series as provisional; original p.109 and recovery/Aska2016 conflict retries on11October. Do not splice the company partial-year sale-period quantities into the state table. Dairy and rice-mill gaps remain."
+        },
+        {
+          "run_id": "2026-10-06-sugar-ownership",
+          "at": "2026-10-06T01:07:01.079096+00:00",
+          "outcome": "historical_buyer_and_completed_transaction_verified_period_hold_preserved",
+          "completion_criteria_met": false,
+          "remaining": "Continue RES-017 with rice-mill processed output, using the existing rice-economy and food-processing captures before browsing. Dhenkanal successor production, buyer annual-report route and fiscal/crushing-year boundaries remain unresolved; retry their original-document recovery on 11 October alongside the saved state-table hold. Do not annualise partial company quantities."
+        }
+      ]
     },
     {
       "id": "RES-018",
@@ -1330,7 +1788,9 @@
         "source_records": [
           "statistics/health.md",
           "statistics/education.md",
-          "statistics/employment.md"
+          "statistics/employment.md",
+          "references/data/regional-survey-methods.json",
+          "statistics/western-southern-baselines.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
@@ -2804,7 +3264,7 @@
         "RES-018"
       ],
       "last_worked_at": "2026-10-02T20:54:18.878669+00:00",
-      "next_step": "Obtain named reconciliation and facility records in mining-programme.dmf_record_reconciliation.record_requests. Higher-precision receipt gap is 0.20 crore; six DMF holds remain. Avoid repeating unavailable-source searches without a new record or restored endpoint.",
+      "next_step": "Integrated all dated research checkpoints; retain outstanding original-record and implementation gaps. Obtain named reconciliation and facility records in mining-programme.dmf_record_reconciliation.record_requests. Higher-precision receipt gap is 0.20 crore; six DMF holds remain. Avoid repeating unavailable-source searches without a new record or restored endpoint.",
       "evidence_outputs": [
         "sources/mining-directorate-revenue.md",
         "economy/dmf-community-outcomes.md",
@@ -2812,7 +3272,16 @@
         "references/data/statistics-atlas.json",
         "sources/mining-npcc-rs2970-2023.md",
         "sources/mining-fa2023-24-vol1.md",
-        "sources/mining-dmf-ls2607-2024.md"
+        "sources/mining-dmf-ls2607-2024.md",
+        "economy/dmf-from-funds-to-services.md",
+        "references/data/mining-dmf.json",
+        "sources/mining-cag-dmf2026.md",
+        "sources/mining-cag-fy2024.md",
+        "sources/mining-finance-accounts2025.md",
+        "economy/mining-receipts.md",
+        "references/data/mining-receipts.json",
+        "food/mohu-honey.md",
+        "statistics/entrepreneurship-skills.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -2837,6 +3306,69 @@
           "outcome": "higher_precision_receipts_and_noncomparable_parliament_series",
           "completion_criteria_met": false,
           "remaining": "Obtain named reconciliation and facility records in mining-programme.dmf_record_reconciliation.record_requests. Higher-precision receipt gap is 0.20 crore; six DMF holds remain. Avoid repeating unavailable-source searches without a new record or restored endpoint."
+        },
+        {
+          "run_id": "2026-10-02-mining-dmf",
+          "at": "2026-10-02T18:51:18.740435+00:00",
+          "outcome": "district_fund_stages_and_four_project_cases",
+          "completion_criteria_met": false,
+          "remaining": "Actual state mining receipts and remaining relevant audit chapters/appendices still need reconciliation. Current project operations and original response/handover records unknown."
+        },
+        {
+          "run_id": "2026-10-02-mining-receipts",
+          "at": "2026-10-02T19:42:23.004076+00:00",
+          "outcome": "six_year_actual_receipts_and_latest_minor_heads",
+          "completion_criteria_met": false,
+          "remaining": "Royalty/auction-premium split, remaining relevant DMF chapters, project IDs and current service/handover records remain incomplete."
+        },
+        {
+          "run_id": "2026-10-02-dmf-livelihood-monitoring",
+          "at": "2026-10-02T19:55:38.366580+00:00",
+          "outcome": "full_monitoring_chapter_and_four_livelihood_cases",
+          "completion_criteria_met": false,
+          "remaining": "Full ChaptersIII/V and remaining ChapterVI; separate royalty/auction receipts; original project and current operating evidence still missing."
+        },
+        {
+          "run_id": "2026-10-02-dmf-collection-finance",
+          "at": "2026-10-02T20:22:56.636615+00:00",
+          "outcome": "complete_collection_and_finance_chapters",
+          "completion_criteria_met": false,
+          "remaining": "Remaining ChapterVI sections and relevant appendices, detailed royalty/auction receipt split, original project records and current service status still incomplete."
+        },
+        {
+          "run_id": "2026-10-03-dmf-implementation",
+          "at": "2026-10-03T08:32:04.483334+00:00",
+          "outcome": "implementation_controls_and_park_portfolio_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "ChapterVI 6.5.4–6.5.5,6.6.7,6.6.11–6.6.15 and relevant appendices; original/current project evidence and royalty/auction receipt split."
+        },
+        {
+          "run_id": "2026-10-03-dmf-health-education",
+          "at": "2026-10-03T09:38:20.498540+00:00",
+          "outcome": "health_education_and_inclusion_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "ChapterVI6.6.11–6.6.15 and relevant appendices; original/current project outcomes and royalty/auction receipt split."
+        },
+        {
+          "run_id": "2026-10-03-dmf-infrastructure",
+          "at": "2026-10-03T10:35:29.342463+00:00",
+          "outcome": "chapter_vi_complete_infrastructure_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Relevant appendicesI–XI need a bounded reconciliation pass; check ChapterIV planning coverage before claiming all relevant chapters complete. Original/current project outcomes and royalty/auction receipt split remain unresolved."
+        },
+        {
+          "run_id": "2026-10-03-dmf-appendices",
+          "at": "2026-10-03T11:35:43.176414+00:00",
+          "outcome": "appendix_reconciliation_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Read fullChapterIV planning and institutional arrangements with government responses; contextualise AppendixVIII/IX. Original/current service outcomes and royalty/auction receipt split remain unresolved; source-specific retries9–10October."
+        },
+        {
+          "run_id": "2026-10-03-dmf-planning",
+          "at": "2026-10-03T12:39:25.107567+00:00",
+          "outcome": "planning_review_and_defined_desk_deliverable_complete",
+          "completion_criteria_met": true,
+          "remaining": "Original/current evidence and conflicts remain follow-ups; no feasibility, current compliance or human-review approval."
         }
       ],
       "reuse_before_research": {
@@ -2854,11 +3386,217 @@
           "statistics/public-finance-audit.md",
           "sources/mining-npcc-rs2970-2023.md",
           "sources/mining-fa2023-24-vol1.md",
-          "sources/mining-dmf-ls2607-2024.md"
+          "sources/mining-dmf-ls2607-2024.md",
+          "economy/dmf-from-funds-to-services.md",
+          "references/data/mining-dmf.json",
+          "sources/mining-cag-fy2024.md",
+          "sources/mining-finance-accounts2025.md",
+          "economy/mining-receipts.md",
+          "references/data/mining-receipts.json",
+          "food/mohu-honey.md",
+          "statistics/employment.md",
+          "statistics/entrepreneurship-skills.md",
+          "economy/forest-products.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
+      },
+      "evidence_followups": [
+        {
+          "topic": "CAG source arithmetic and scope discrepancies",
+          "retry_after": "2026-10-09",
+          "gap": "Section5.1 prose79.69 versus table76.69; eight-hostel component amounts do not reconcile to11.78crore. No publisher correction found.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "OMC dividend internal source discrepancy",
+          "retry_after": "2026-10-09",
+          "gap": "SFAR2024–25 printed17 gives4233; printed32–33 gives4223 crore. Company-specific value held.",
+          "source_ids": [
+            "macro-cag-fy2025"
+          ]
+        },
+        {
+          "topic": "jajpur-placement-evidence-vintages",
+          "retry_after": "2026-10-09",
+          "gap": "Preserve148,79,152,160 as different dated claims/verification stages. Later160 does not override79 without records; current placements unknown.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "sundargarh-honey-output-scope",
+          "retry_after": "2026-10-09",
+          "gap": "1681kg OLM-derived and1500kg government-reply figures have unresolved periods. Report described2022–24 yet submitted January2024. Source1.26% not promoted; no canonical production/yield/revenue series.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "keonjhar-training-cohort-scope",
+          "retry_after": "2026-10-09",
+          "gap": "1208 total versus618 across three institutes plus15IHM not reconciled in passage. No full-programme employment rate.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "District DMF portal and original outcome records",
+          "retry_after": "2026-10-09",
+          "gap": "Annual-report portal timed out; PMU tender page502. Present restoration, registers and project operations unverified.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-unreturned-interest-footnote",
+          "retry_after": "2026-10-09",
+          "gap": "Aggregate withheld pending publisher/source reconciliation. No claim that component sum is authoritative correction.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-sundargarh-uc-excess",
+          "retry_after": "2026-10-09",
+          "gap": "Printed gap held; raw expenditure and certificate figures retained with scope; aggregate net gap separately reconciles.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-mankedia-delay-duration",
+          "retry_after": "2026-10-10",
+          "gap": "Audit says six years sinceApril2021stoppage, inconsistent withDecember2024inspection andJanuary2026reply. Dates retained; six-year-duration headline withheld. Government phased-implementation claim remains unverified.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-jajpur-seedling-balance",
+          "retry_after": "2026-10-10",
+          "gap": "1329033publicdistribution +628567departmentplanting =1957600 versus2000000target; residual42400 has unexplained status in passage. No inferred deaths, missing assets or authoritative correction. Distribution and planting remain distinct measures.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-koira-mandap-timeline",
+          "retry_after": "2026-10-10",
+          "gap": "April2017/October2022approval vintages, August2019completion and claimedtwo-to-nine-year inactivity are not reconciled atprojectlevel. Retain rawdates; do not derive a duration headline or assume laterapproval covers allcompletedfacilities.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-appendix-iii-inputs",
+          "retry_after": "2026-10-10",
+          "gap": "Total is an audit-reported interest figure; this does not independently validate underlying date/rate calculation. Principal subtotal and date inputs held; no publisher correction assumed. Interest subtotals sum93254230rupees and round9.33crore. Joda principal groups sum916965415, versus printed16965415; other principal subtotals reconcile grand total only with group sum. The Keonjhar row has payment preceding its printed due date despite27days delay.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-appendix-v-works-total",
+          "retry_after": "2026-10-10",
+          "gap": "Appendix printed due lesscollection=443776581, differing6553rupees fromprintedshort443770028. Dhenkanal due rows sum105928713,6553below printedsubtotal; row sum lesscollection matches101414882. Body4438.08lakh=443808000rupees,37972above appendixshorttotal. Existing body/table total held; original record needed.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-appendix-vi-demand-scope",
+          "retry_after": "2026-10-10",
+          "gap": "First nine short-demand entries sum90648386; the two non-demanded rows printzero shortdemand despite33800179chargeable. Fullcolumn subtraction gives124448566, while displayedshortpluslasttwochargeable=124448565; retainone-rupeeroundingdifference. Do not present9.06crore as fullyreconciled all11case shortfall or replace it with a new12.44crore claim. Two rows extendthroughFY2024–25; avoid uniform2015–24 scope.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-appendix-vii-precision",
+          "retry_after": "2026-10-10",
+          "gap": "9138518minus3764788=5373730=53.7373lakh. Bodyreports53.73lakh, a730rupee precision difference; ordinary rounding to two decimals would be53.74. Retain printed body value and exact appendix separately without silently correcting it. No claim every royalty/quantityrow independently recalculated.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-appendix-ix-money-precision",
+          "retry_after": "2026-10-10",
+          "gap": "Count difference3269minus2512=757. Money row sum9733.36 differsfromprinted9733.37 by0.01crore; printed aggregate subtraction gives2751.78 versusprinted2751.79. Amount difference is not the value of757unauthorised projects. Hold interpretation pendingfull4.3.8andresponse; retain0.01crore sourceprecision disagreement.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-planning-table41-scope",
+          "retry_after": "2026-10-10",
+          "gap": "Dhenkanal4.1release56.48/use55.89 versus5.1release56.39/expenditure44.14; Jajpur4.1use1164.43 versus5.1expenditure1164.42. Dhenkanal notidentified in4.1cell but identified in4.3.1. Preserve raw, hold cross-table replacement/aggregate. Common-category percentages30.67/22.67 match utilisation denominator although prose says sanctioned amount.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-planning-map-chronology",
+          "retry_after": "2026-10-10",
+          "gap": "Keonjhar source61monthdelay afterOctober2017 instructions versus governmentNovember2017 list supply date unresolved. Do not repair dates or derive current coverage.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-planning-approval-chronology",
+          "retry_after": "2026-10-10",
+          "gap": "14ECmeetings throughJanuary2024 in initial passage versus noBoT/ECmeeting afterNovember2022 in rejoinder. Hold unqualified757project headline pending minutes and project IDs; government disputes lackofapproval. AppendixIX0.01crore precision issues retained, moneydifference notvalueof757projects.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-planning-allocation-precision",
+          "retry_after": "2026-10-10",
+          "gap": "Table4.2 Jajpur2848.76/Mayurbhanj109.16 versus sanctions2848.77/109.17 elsewhere; Keonjhar components9733.36 versusprintedtotal9733.37. Preserve table-specific allocation denominator, no revised sanctions or combined precise total.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "Separate royalty and auction-premium receipts",
+          "retry_after": "2026-10-10",
+          "gap": "Saved actual-receipts minor-head categories do not establish a clean royalty/auction-premium split. Seek original detailed departmental receipts; preserve total actual series.",
+          "source_ids": [
+            "mining-finance-accounts2025"
+          ]
+        }
+      ],
+      "completed_at": "2026-10-03T12:39:25.107567+00:00",
+      "completion_evidence": {
+        "scope": "Bounded desk deliverable; no current operating certification or human review",
+        "criteria": [
+          {
+            "criterion": "Actual public receipts reconciled",
+            "evidence": "references/data/mining-receipts.json; economy/mining-receipts.md",
+            "result": "Six-year actual series and Finance Accounts categories retained; royalty/auction split unresolved."
+          },
+          {
+            "criterion": "District DMF sample",
+            "evidence": "references/data/mining-dmf.json district_rows and planning_review",
+            "result": "Six district fund stages and priority allocations; conflicting tables preserved."
+          },
+          {
+            "criterion": "Full relevant CAG chapters and responses",
+            "evidence": "references/data/mining-dmf.json review_coverage",
+            "result": "ChaptersIII–VII full text; appendicesI–XI text, selected arithmetic. Responses attributed to CAG, not independently retrieved letters."
+          },
+          {
+            "criterion": "At least three project completion/function links where available",
+            "evidence": "references/data/mining-dmf.json projects",
+            "result": "23 cases with separate completion and observed-function fields, including keonjhar-dhh-nicu-picu, deogan-hostels and birsa-munda-hockey-dmf. Functioning and nonfunctioning evidence retained; current status unknown."
+          }
+        ]
       }
     },
     {
@@ -2874,7 +3612,7 @@
         "RES-019"
       ],
       "last_worked_at": "2026-10-03T08:06:11.256094+00:00",
-      "next_step": "Clarify CGWB Table4 post-monsoon56 versus printed50 and source-category totals; obtain original Mantu Das order/action records, signed Niyamgiri resolutions/final ministry order, mine-specific Bharatpur remedy evidence, and Baphlimali area crosswalk/recovery/emissions closure. Avoid repeating unchanged unavailable searches.",
+      "next_step": "Integrated all dated research checkpoints; retain outstanding original-record and implementation gaps. Clarify CGWB Table4 post-monsoon56 versus printed50 and source-category totals; obtain original Mantu Das order/action records, signed Niyamgiri resolutions/final ministry order, mine-specific Bharatpur remedy evidence, and Baphlimali area crosswalk/recovery/emissions closure. Avoid repeating unchanged unavailable searches.",
       "evidence_outputs": [
         "sources/mining-sukurangi-eia-summary.md",
         "sources/mining-niyamgiri-scr2013.md",
@@ -2884,10 +3622,19 @@
         "sources/mining-cgwb-sukinda2025-annex.md",
         "sources/mining-ibm-baphlimali2024.md",
         "sources/mining-coal-safety49-agenda.md",
-        "sources/mining-xaxa-niyamgiri2014.md"
+        "sources/mining-xaxa-niyamgiri2014.md",
+        "economy/niyamgiri-rights-and-mining.md",
+        "references/data/mining-environment-rights.json",
+        "sources/mining-niyamgiri-sc2013.md",
+        "sources/mining-niyamgiri-rs2015.md",
+        "sources/mining-coal-safety-agenda2020.md",
+        "sources/mining-rs-accidents835-2023.md",
+        "economy/bharatpur-mine-safety.md",
+        "economy/bauxite-mine-identities.md",
+        "sources/mining-baphlimali-formv2025.md"
       ],
-      "retry_after": null,
-      "blocker": null,
+      "retry_after": "2026-10-10",
+      "blocker": "Recover readable laboratory annexures with sampling dates/stations/averaging, original closure instruments, survival cohort/method, corrected planting unit and TNFD priority basis. FormV/EC binary downloadsHTTP406 and screenshotscachemiss; preserve raw claims as held.",
       "attempt_history": [
         {
           "run_id": "2026-10-03-mining-land-people",
@@ -2902,6 +3649,34 @@
           "outcome": "four_source_followup_with_denominator_hold",
           "completion_criteria_met": false,
           "remaining": "Clarify CGWB Table4 post-monsoon56 versus printed50 and source-category totals; obtain original Mantu Das order/action records, signed Niyamgiri resolutions/final ministry order, mine-specific Bharatpur remedy evidence, and Baphlimali area crosswalk/recovery/emissions closure. Avoid repeating unchanged unavailable searches."
+        },
+        {
+          "run_id": "2026-10-03-niyamgiri-rights",
+          "at": "2026-10-03T13:36:01.706450+00:00",
+          "outcome": "niyamgiri_primary_rights_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Monitoring, mine safety and measured restoration case studies remain; Niyamgiri original resolutions/later order unresolved."
+        },
+        {
+          "run_id": "2026-10-03-kodingamali-environment",
+          "at": "2026-10-03T14:37:24.315461+00:00",
+          "outcome": "kodingamali_environmental_work_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Site monitoring readings, safety and measured ecological recovery remain incomplete; Kodingamali category/cost scope unresolved."
+        },
+        {
+          "run_id": "2026-10-03-bharatpur-safety",
+          "at": "2026-10-03T15:37:46.393833+00:00",
+          "outcome": "bharatpur_safety_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Measured monitoring and closure/recovery study incomplete; original safety inquiry and action verification unresolved."
+        },
+        {
+          "run_id": "2026-10-03-baphlimali-monitoring",
+          "at": "2026-10-03T16:38:34.364560+00:00",
+          "outcome": "baphlimali_monitoring_checkpoint_access_and_scope_gaps",
+          "completion_criteria_met": false,
+          "remaining": "Recover readable laboratory annexures with sampling dates/stations/averaging, original closure instruments, survival cohort/method, corrected planting unit and TNFD priority basis. FormV/EC binary downloadsHTTP406 and screenshotscachemiss; preserve raw claims as held."
         }
       ],
       "reuse_before_research": {
@@ -2918,12 +3693,48 @@
           "sources/mining-cgwb-sukinda2025-annex.md",
           "sources/mining-ibm-baphlimali2024.md",
           "sources/mining-coal-safety49-agenda.md",
-          "sources/mining-xaxa-niyamgiri2014.md"
+          "sources/mining-xaxa-niyamgiri2014.md",
+          "economy/niyamgiri-rights-and-mining.md",
+          "references/data/mining-environment-rights.json",
+          "sources/mining-niyamgiri-sc2013.md",
+          "sources/mining-niyamgiri-rs2015.md",
+          "sources/mining-ibm-kodingamali2024.md",
+          "sources/mining-baphlimali-ec-sep2025.md",
+          "sources/mining-coal-safety-agenda2020.md",
+          "sources/mining-rs-accidents835-2023.md",
+          "economy/bharatpur-mine-safety.md",
+          "sources/mining-baphlimali-formv2025.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "evidence_followups": [
+        {
+          "topic": "Niyamgiri original resolutions and later Ministry order",
+          "retry_after": "2026-10-10",
+          "gap": "Original signed minutes, attendance, village-selection basis and later Ministry forest-clearance order not recovered; subsequent case history unreviewed.",
+          "source_ids": [
+            "mining-niyamgiri-sc2013",
+            "mining-niyamgiri-rs2015"
+          ]
+        },
+        {
+          "topic": "Kodingamali readings, area categories and watch/care ledger",
+          "retry_after": "2026-10-10",
+          "gap": "Obtain monitoring annexures with samples/limits, original PMCP category definitions and cost ledger. Saved IBM report lacks measured pollutant/survival outcomes; hearing/consent search leads remain unverified."
+        },
+        {
+          "topic": "Bharatpur final inquiry and verified corrective actions",
+          "retry_after": "2026-10-10",
+          "gap": "DGMS alert/index and historical table unavailable; recover original alert07/2019, final inquiry, restriction/reopening orders and verified corrective-action records. Comparable exposure data absent."
+        },
+        {
+          "topic": "Baphlimali raw monitoring, closure and rehabilitation denominators",
+          "retry_after": "2026-10-10",
+          "gap": "Recover readable laboratory annexures with sampling dates/stations/averaging, original closure instruments, survival cohort/method, corrected planting unit and TNFD priority basis. FormV/EC binary downloadsHTTP406 and screenshotscachemiss; preserve raw claims as held."
+        }
+      ]
     },
     {
       "id": "RES-055",
@@ -2931,18 +3742,77 @@
       "title": "Mining history and future-materials research",
       "done_when": "Connect documented mining-town histories, people and mineral research with recycling and critical-material project stages; reuse the existing rare-earth journey and require source-backed technology and outcome claims.",
       "target": "economy/mining.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "completed",
+      "attempts": 4,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-020"
       ],
-      "last_worked_at": null,
-      "next_step": "Connect documented mining-town histories, people and mineral research with recycling and critical-material project stages; reuse the existing rare-earth journey and require source-backed technology and outcome claims.",
-      "evidence_outputs": [],
+      "last_worked_at": "2026-10-04T01:27:35.187434+00:00",
+      "next_step": "Next eligible independent research: RES-058 forest rights, knowledge and livelihoods. RES-067 remains dependent on blocked RES-064. Resume RES-055 source-specific follow-ups on10–11October using saved identities and evidence; no duplicate scientist or pilot records.",
+      "evidence_outputs": [
+        "sources/mining-immt-history.md",
+        "sources/mining-immt-pib2020.md",
+        "sources/mining-immt-sujana-technologies.md",
+        "sources/mining-immt-pib2025.md",
+        "economy/minerals-research-immt.md",
+        "references/data/mining-research-innovation.json",
+        "sources/mining-sail-history.md",
+        "sources/mining-parvati-rebuild2018.md",
+        "sources/mining-talcher-mcl2019.md",
+        "sources/mining-dhenkanal-census1961.md",
+        "economy/talcher-coal-history.md",
+        "economy/rourkela-steel-chain.md",
+        "references/data/mining-place-history.json",
+        "sources/mining-mamata-immt.md",
+        "sources/mining-mamata-danida.md",
+        "sources/mining-battery-cathodes-review2022.md",
+        "people/mamata-mohapatra.md",
+        "people/m-g-sujana.md",
+        "works/spent-cathodes-review.md",
+        "references/data/people-creations.json",
+        "sources/mining-sujana-ferric2014.md",
+        "sources/mining-immt-canada2026.md",
+        "works/ferric-hydroxide-fluoride.md"
+      ],
       "retry_after": null,
       "blocker": null,
-      "attempt_history": [],
+      "attempt_history": [
+        {
+          "run_id": "2026-10-03-mineral-research",
+          "at": "2026-10-03T21:39:55.313303+00:00",
+          "outcome": "institutional_history_and_research_stage_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Mining-town histories, wider credited teams and verified later pilot outcomes remain."
+        },
+        {
+          "run_id": "2026-10-03-mining-town-history",
+          "at": "2026-10-03T22:45:02.059182+00:00",
+          "outcome": "talcher_and_rourkela_historical_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": [
+            "Worker settlements, displacement and local enterprise histories",
+            "Additional credited scientists and verified later pilot outcomes"
+          ]
+        },
+        {
+          "run_id": "2026-10-04-mineral-scientists",
+          "at": "2026-10-04T00:30:23.622518+00:00",
+          "outcome": "mineral_scientist_credit_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": [
+            "Original work/patent credit for Sujana",
+            "Later pilot operating evidence or explicit unresolved outcome hold"
+          ]
+        },
+        {
+          "run_id": "2026-10-04-mineral-work-outcomes",
+          "at": "2026-10-04T01:27:35.187434+00:00",
+          "outcome": "bounded_history_people_and_research_synthesis_completed",
+          "completion_criteria_met": true,
+          "remaining": "Source-specific outcomes, full methods and social histories retained as follow-ups; no current operation certified."
+        }
+      ],
       "reuse_before_research": {
         "source_records": [
           "economy/mining.md",
@@ -2950,11 +3820,101 @@
           "references/data/mining-programme.json",
           "journeys/rare-earths.md",
           "people/people-and-creations.md",
-          "history/index.md"
+          "history/index.md",
+          "sources/mining-immt-history.md",
+          "sources/mining-immt-pib2020.md",
+          "sources/mining-immt-sujana-technologies.md",
+          "sources/mining-immt-pib2025.md",
+          "economy/minerals-research-immt.md",
+          "references/data/mining-research-innovation.json",
+          "sources/mining-sail-history.md",
+          "sources/mining-parvati-rebuild2018.md",
+          "sources/mining-talcher-mcl2019.md",
+          "sources/mining-dhenkanal-census1961.md",
+          "economy/talcher-coal-history.md",
+          "economy/rourkela-steel-chain.md",
+          "references/data/mining-place-history.json",
+          "sources/mining-btk-pfr2021.md",
+          "sources/mining-mamata-immt.md",
+          "sources/mining-mamata-danida.md",
+          "sources/mining-battery-cathodes-review2022.md",
+          "people/mamata-mohapatra.md",
+          "people/m-g-sujana.md",
+          "works/spent-cathodes-review.md",
+          "references/data/people-creations.json",
+          "sources/mining-sujana-ferric2014.md",
+          "sources/mining-immt-canada2026.md",
+          "works/ferric-hydroxide-fluoride.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
+      },
+      "completed_at": "2026-10-04T01:27:35.187434+00:00",
+      "follow_up_evidence": [
+        {
+          "topic": "Pilot identity and operating outcomes",
+          "retry_after": "2026-10-11",
+          "gap": "Obtain project-specific commissioning/trial reports, throughput, recovery and operating periods. May2026 visit supports facility-tour reporting only; do not merge generic names into2025 projects without identity evidence.",
+          "source_ids": [
+            "mining-immt-canada2026",
+            "mining-immt-pib2025"
+          ],
+          "discovery_lead": "https://www.csir.res.in/sites/default/files/2026-05/16_to_30_april_2026.pdf",
+          "lead_scope": "Search-indexed institutional press-clipping compilation mentions20April2026 OMC trial; original technical/operator record not retrieved. Not adopted as measured outcome."
+        },
+        {
+          "topic": "Selected work and profile scope",
+          "retry_after": "2026-10-11",
+          "gap": "Read full2014 article and verify online date; retrieve original patent record/team if needed. Preserve existing Mamata profile and technology-date holds.",
+          "source_ids": [
+            "mining-sujana-ferric2014",
+            "mining-mamata-immt",
+            "mining-immt-sujana-technologies"
+          ]
+        },
+        {
+          "topic": "Mining-town social history and historical source ambiguities",
+          "retry_after": "2026-10-10",
+          "gap": "Worker settlement/displacement/local-enterprise evidence, Talcher1837 attribution and historical tons notation remain unresolved.",
+          "source_ids": [
+            "mining-dhenkanal-census1961",
+            "mining-talcher-mcl2019"
+          ]
+        }
+      ],
+      "completion_evidence": {
+        "scope": "Bounded desk synthesis; unresolved outcome fields explicit, no human review or current operation certification",
+        "criteria": [
+          {
+            "criterion": "Documented town histories",
+            "evidence": [
+              "economy/talcher-coal-history.md",
+              "economy/rourkela-steel-chain.md",
+              "references/data/mining-place-history.json"
+            ],
+            "result": "Dated typed milestones preserve historical geography and source ambiguities."
+          },
+          {
+            "criterion": "People and mineral research",
+            "evidence": [
+              "people/m-g-sujana.md",
+              "people/mamata-mohapatra.md",
+              "works/ferric-hydroxide-fluoride.md",
+              "works/spent-cathodes-review.md"
+            ],
+            "result": "Professional connections and credited selected publications; work/review distinctions explicit."
+          },
+          {
+            "criterion": "Recycling and critical-material stages, reuse rare-earth journey",
+            "evidence": [
+              "economy/minerals-research-immt.md",
+              "references/data/mining-research-innovation.json",
+              "journeys/rare-earths.md"
+            ],
+            "result": "Bench, pilot announcement, inauguration and later facility-tour evidence remain distinct; commercial and precise identity unknowns preserved."
+          }
+        ]
       }
     },
     {
@@ -3153,20 +4113,60 @@
       "title": "Forest livelihood history, rights and ecological change",
       "done_when": "Extend dated historical timeline with archives, primary rights decisions and community scholarship; resolve2001 study geography and2018 fieldwork dates; no invented ancient origins or interviews.",
       "target": "economy/forest-products.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "blocked",
+      "attempts": 4,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-039",
         "RES-041",
         "RES-054"
       ],
-      "last_worked_at": null,
-      "next_step": "Extend dated historical timeline with archives, primary rights decisions and community scholarship; resolve2001 study geography and2018 fieldwork dates; no invented ancient origins or interviews.",
-      "evidence_outputs": [],
-      "retry_after": null,
-      "blocker": null,
-      "attempt_history": [],
+      "last_worked_at": "2026-10-04T05:29:15.175559+00:00",
+      "next_step": "Resume RES-058 on 11 October for the required 2018 fieldwork dates and original local-instrument gaps. Reuse the four historical cases, original 2011 text and 2015/2019 facsimiles. Community-history extension now saved; do not repeat discovery or mark complete. Meanwhile proceed to independent RES-059 using saved maritime/port/mineral evidence.",
+      "evidence_outputs": [
+        "history/forest-livelihoods.md",
+        "references/data/forest-livelihood-history.json",
+        "references/data/forest-products.json",
+        "sources/forest-vasundhara2001.md",
+        "sources/forest-kendujhar2018.md",
+        "sources/forest-jfm-resolution2011.md",
+        "sources/forest-jfm-publisher.md",
+        "sources/forest-jfm-amendments-plan2021.md",
+        "sources/forest-dhani-community-history.md"
+      ],
+      "retry_after": "2026-10-11",
+      "blocker": "Required 2018 fieldwork-date criterion remains unresolved at inaccessible original. Local instrument and bibliographic date gaps remain; independent community-history extension delivered.",
+      "attempt_history": [
+        {
+          "run_id": "2026-10-04-forest-history",
+          "at": "2026-10-04T02:29:35.227643+00:00",
+          "outcome": "historical_case_geography_and_community_timeline_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Original rights decisions and community-management documents;2018 fieldwork dates"
+        },
+        {
+          "run_id": "2026-10-04-forest-rights",
+          "at": "2026-10-04T03:30:43.162867+00:00",
+          "outcome": "original_jfm2011_instrument_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Later amendments, archival/community scholarship and 2018 fieldwork dates; local executed instruments unknown."
+        },
+        {
+          "run_id": "2026-10-04-forest-amendments",
+          "at": "2026-10-04T04:28:42.197770+00:00",
+          "outcome": "two_amendment_facsimiles_recovered_and_compared",
+          "completion_criteria_met": false,
+          "remaining": "Archival/community history and required 2018 fieldwork-date resolution; original local instruments unknown."
+        },
+        {
+          "run_id": "2026-10-04-forest-dhani",
+          "at": "2026-10-04T05:29:15.175559+00:00",
+          "outcome": "dhani_community_history_checkpoint_and_required_evidence_deferral",
+          "completion_criteria_met": false,
+          "remaining": "Required 2018 fieldwork-date criterion remains unresolved at inaccessible original. Local instrument and bibliographic date gaps remain; independent community-history extension delivered.",
+          "retry_after": "2026-10-11"
+        }
+      ],
       "reuse_before_research": {
         "source_records": [
           "food/forest-foods.md",
@@ -3180,12 +4180,66 @@
           "references/data/forest-products.json",
           "economy/kendu-patra.md",
           "food/mohu-honey.md",
-          "food/mahua-mohula.md"
+          "food/mahua-mohula.md",
+          "references/data/forest-livelihood-history.json",
+          "sources/forest-vasundhara2001.md",
+          "sources/forest-kendujhar2018.md",
+          "sources/forest-jfm-resolution2011.md",
+          "sources/forest-jfm-publisher.md",
+          "sources/forest-jfm-amendments-plan2021.md",
+          "sources/forest-dhani-community-history.md"
         ],
-        "project_records": [],
+        "project_records": [
+          "kb/research/sources/mining-niyamgiri-scr2013.md"
+        ],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "follow_up_evidence": [
+        {
+          "field": "2018 study fieldwork dates",
+          "source_id": "forest-kendujhar2018",
+          "value": null,
+          "reason": "Abstract omits dates and linked original is unavailable.",
+          "retry_after": "2026-10-11"
+        },
+        {
+          "field": "Original community agreements, registration and rights decisions",
+          "source_id": "forest-vasundhara2001",
+          "value": null,
+          "reason": "Historical study reports arrangements; primary instruments not retrieved.",
+          "retry_after": "2026-10-11"
+        },
+        {
+          "field": "Later JFM amendments and current consolidated applicability",
+          "value": null,
+          "source_id": "forest-jfm-publisher",
+          "reason": "2015 and 2019 facsimiles recovered. Their targeted changes are mapped; exhaustive subsequent amendments, current consolidated applicability and local implementation remain unverified.",
+          "next_action": "Use versioned historical comparison; seek later consolidated instruments only for a future current-procedure guide.",
+          "review_history": [
+            {
+              "at": "2026-10-04T04:28:42.197770+00:00",
+              "prior_reason": "Publisher points to 2015 and 2019 changes; original amendments required before a current procedure guide.",
+              "prior_next_action": "Original amendment discovery in next independent RES-058 batch."
+            }
+          ],
+          "evidence_source_id": "forest-jfm-amendments-plan2021",
+          "status": "partially_resolved"
+        },
+        {
+          "field": "National Act/rules original text",
+          "value": null,
+          "reason": "Original MoTA booklet timeout; do not promote snippets to verified statutory text.",
+          "retry_after": "2026-10-11"
+        },
+        {
+          "field": "Dhani study fieldwork/publication date and original local instruments",
+          "source_id": "forest-dhani-community-history",
+          "value": null,
+          "reason": "HTML provides retrospective episodes without explicit fieldwork/publication dates or attached signed instruments.",
+          "retry_after": "2026-10-11"
+        }
+      ]
     },
     {
       "id": "RES-059",
@@ -3193,8 +4247,8 @@
       "title": "Odisha in the world: geopolitical evidence and synthesis",
       "done_when": "Build a source-linked research synthesis for historical maritime relations and two contemporary trade/policy cases; distinguish measured trade, institutional roles and attributed strategic interpretation. Reuse existing port/mineral/people evidence; retain disagreements and missing scope.",
       "target": "collections/odisha-and-world.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "completed",
+      "attempts": 1,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-017",
@@ -3203,12 +4257,28 @@
         "RES-038",
         "RES-052"
       ],
-      "last_worked_at": null,
-      "next_step": "Search saved maritime/port/mineral evidence; choose two bounded contemporary cases with original sources before making strategic claims.",
-      "evidence_outputs": [],
+      "last_worked_at": "2026-10-04T06:32:22.384782+00:00",
+      "next_step": "RES-059 bounded synthesis completed. Continue RES-062 distinctive rice markets using existing Kalajeera and rice-economy evidence; retain country/product/port joins and Japan current-status evidence as dated follow-ups.",
+      "evidence_outputs": [
+        "collections/odisha-and-world.md",
+        "references/data/world-connections.json",
+        "statistics/ports.md",
+        "journeys/rare-earths.md",
+        "sources/world-japan-memorandum2012.md",
+        "sources/world-dae-3202-2022.md",
+        "sources/world-japan-suspension-lead2025.md"
+      ],
       "retry_after": null,
       "blocker": null,
-      "attempt_history": [],
+      "attempt_history": [
+        {
+          "run_id": "2026-10-04-world-connections",
+          "at": "2026-10-04T06:32:22.384782+00:00",
+          "outcome": "historical_synthesis_and_two_modern_cases_delivered",
+          "completion_criteria_met": true,
+          "scope": "Primary port, memorandum and parliamentary evidence; explicit policy, trade and interpretation classes; disagreements and missing scope retained."
+        }
+      ],
       "reuse_before_research": {
         "source_records": [
           "collections/odisha-and-world.md",
@@ -3217,12 +4287,39 @@
           "statistics/ports.md",
           "economy/mining.md",
           "journeys/rare-earths.md",
-          "people/public-servants-and-lawmakers.md"
+          "people/public-servants-and-lawmakers.md",
+          "references/data/world-connections.json",
+          "sources/world-japan-memorandum2012.md",
+          "sources/world-dae-3202-2022.md",
+          "sources/world-japan-suspension-lead2025.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "follow_up_evidence": [
+        {
+          "id": "world-country-product-origin",
+          "field": "Odisha-origin product-country-year shipments and port routing",
+          "value": null,
+          "next_action": "Seek DEPM/DGCI&S table and matched shipment records; no conversion of destination shares to rupees."
+        },
+        {
+          "id": "world-japan-current-status",
+          "field": "Original 2025 suspension directive and subsequent operating status",
+          "value": null,
+          "source_id": "world-japan-suspension-lead2025",
+          "evidence_status": "secondary_lead_quarantined",
+          "retry_after": "2026-10-11",
+          "next_action": "Seek DAE/IREL original directive or later parliamentary confirmation, agreement scope and actual shipments."
+        },
+        {
+          "id": "world-port-service-current",
+          "field": "Current port services, costs and booking availability",
+          "value": null,
+          "next_action": "Original carrier/terminal schedules and dated quotations required for a business guide."
+        }
+      ]
     },
     {
       "id": "RES-060",
@@ -3361,19 +4458,35 @@
       "title": "Distinctive rice markets and attributable trade",
       "done_when": "Document origin-attributed rice trade evidence and one dated producer-to-retail case where available; retain explicit evidence gaps when export origin or farm returns cannot be established. Separate GI, promotion, listing and actual sales.",
       "target": "economy/rice-economy.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "completed",
+      "attempts": 1,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-015",
         "RES-029"
       ],
-      "last_worked_at": null,
-      "next_step": "Start from Kalajeera records, seek producer sales and shipment records; never infer exports from retail availability.",
-      "evidence_outputs": [],
+      "last_worked_at": "2026-10-04T07:35:13.123765+00:00",
+      "next_step": "Continue RES-030 garments and export disaggregation. Rice matched-lot and origin-attributed export gaps remain dated follow-ups for 2026-10-11.",
+      "evidence_outputs": [
+        "economy/rice-economy.md",
+        "food/koraput-kalajeera-rice.md",
+        "references/data/rice-markets.json",
+        "sources/rice-jaivik-products.md",
+        "sources/rice-myefarm-listing.md",
+        "sources/rice-apeda-promotion2025.md",
+        "sources/rice-cgiar-trade2024.md"
+      ],
       "retry_after": null,
       "blocker": null,
-      "attempt_history": [],
+      "attempt_history": [
+        {
+          "run_id": "2026-10-04-rice-markets",
+          "at": "2026-10-04T07:35:13.123765+00:00",
+          "outcome": "bounded_market_dossier_with_explicit_transaction_gaps",
+          "completion_criteria_met": true,
+          "scope": "Bounded market dossier delivered. Matched dated producer-to-retail transaction and origin-attributed overseas shipment not established; explicit evidence gaps retained."
+        }
+      ],
       "reuse_before_research": {
         "source_records": [
           "food/rice-varieties.md",
@@ -3381,12 +4494,1892 @@
           "food/koraput-kalajeera-rice.md",
           "statistics/agriculture.md",
           "works/odisha-rice-seed-deployment.md",
-          "references/data/rice-economy.json"
+          "references/data/rice-economy.json",
+          "references/data/rice-markets.json",
+          "sources/rice-jaivik-products.md",
+          "sources/rice-myefarm-listing.md",
+          "sources/rice-apeda-promotion2025.md",
+          "sources/rice-cgiar-trade2024.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
+      },
+      "follow_up_evidence": [
+        {
+          "id": "rice-matched-lot",
+          "retry_after": "2026-10-11",
+          "needed": [
+            "Named grower or FPO and dated lot",
+            "Paddy purchase quantity and payment",
+            "Milling recovery, grade and costs",
+            "Same-lot retail invoice and quantity",
+            "Charges, returns and farmer settlement"
+          ],
+          "next_action": "Seek public FPO annual accounts or transaction records; local participation requires separate evidence, no outreach performed."
+        },
+        {
+          "id": "rice-origin-exports",
+          "retry_after": "2026-10-11",
+          "needed": [
+            "Origin-linked invoice or shipping bill",
+            "Product/variety identity",
+            "Quantity and value",
+            "Date, destination and exporter",
+            "Proof of shipment stage"
+          ],
+          "next_action": "Seek DGCIS/DEPM/APEDA or exporter primary evidence; preserve unknowns if unavailable."
+        }
+      ]
+    },
+    {
+      "id": "RES-068",
+      "order": 0.05,
+      "title": "Sadhaba vessels, navigation and practical science",
+      "done_when": "Deliver a source-linked deep desk study of Sadhaba vessels and practical science, a claim register separating historical evidence from later practice and modern physics, and original field-study comparison with dated terminology; preserve unknown instruments, provisions and voyage success rather than infer them.",
+      "target": "history/sadhaba-maritime-science.md",
+      "status": "in_progress",
+      "attempts": 1,
+      "dependencies": [],
+      "last_worked_at": "2026-10-04T17:52:37.451849+00:00",
+      "next_step": "Deep desk study delivered. Next recover1993/1995 originals and independent1997 patia study, then compare dated terminology and proportions. Retry unavailable originals11October; independent manuscript-catalogue discovery may proceed earlier. RES-017 remains independently in progress.",
+      "evidence_outputs": [
+        "history/sadhaba-maritime-science.md",
+        "references/data/sadhaba-maritime-science.json",
+        "sources/sadhaba-monsoon2006.md",
+        "sources/sadhaba-watercraft-art2018.md",
+        "sources/sadhaba-southern-boats1995.md",
+        "sources/sadhaba-chilika-boats1993.md",
+        "sources/sadhaba-boats-chapter2015.md",
+        "sources/sadhaba-patia1997-lead.md",
+        "sources/sadhaba-tides-noaa.md",
+        "sources/sadhaba-stars-nasa.md",
+        "sources/sadhaba-buoyancy-openstax.md"
+      ],
+      "retry_after": "2026-10-11",
+      "blocker": "Some original field papers unavailable; no ancient ship specification or instrument inventory established.",
+      "attempt_history": [
+        {
+          "run_id": "2026-10-04-sadhaba-science",
+          "at": "2026-10-04T17:52:37.451849+00:00",
+          "outcome": "deep_desk_study_with_twelve_scoped_claims",
+          "completion_criteria_met": false,
+          "remaining": "Original field-study comparison and dated terminology; historical gaps retained."
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "history/maritime-evidence.md",
+          "history/research-agenda.md",
+          "history/manikapatna-anchor.md",
+          "history/palur-and-bay-routes.md",
+          "culture/boita-bandana.md",
+          "people/science-and-contributions.md",
+          "history/sadhaba-maritime-science.md",
+          "references/data/sadhaba-maritime-science.json",
+          "sources/sadhaba-monsoon2006.md",
+          "sources/sadhaba-watercraft-art2018.md",
+          "sources/sadhaba-southern-boats1995.md",
+          "sources/sadhaba-chilika-boats1993.md",
+          "sources/sadhaba-boats-chapter2015.md",
+          "sources/sadhaba-patia1997-lead.md",
+          "sources/sadhaba-tides-noaa.md",
+          "sources/sadhaba-stars-nasa.md",
+          "sources/sadhaba-buoyancy-openstax.md"
+        ],
+        "project_records": [
+          "kb/research/culture/boita-bandana.md",
+          "kb/research/places/odisha-state-maritime-museum.md"
+        ],
+        "audit_date": "2026-10-04",
+        "map": "references/data/research-map.json"
+      },
+      "selection_basis": "Explicit user request for deep study overrides routine queue ordering for this batch."
+    },
+    {
+      "id": "RES-069",
+      "order": 0.04,
+      "title": "Consolidated Odisha GI registry inventory",
+      "done_when": "Deliver all Odisha rows from the official dated state list, retaining exact names, application IDs, source locations and dates; check individual records, separate logos/merged IDs/pending applications, link existing research and preserve renewal/economics gaps.",
+      "target": "collections/odisha-gi-products.md",
+      "status": "completed",
+      "attempts": 1,
+      "dependencies": [],
+      "last_worked_at": "2026-10-04T22:50:11.558328+00:00",
+      "next_step": "Recheck newer state list and unresolved renewal fields from11October2026; deepen existing product profiles with specifications, authorized users and sourced economics.",
+      "evidence_outputs": [
+        "collections/odisha-gi-products.md",
+        "sources/gi-state-register2025.md",
+        "sources/gi-live-register2026.md",
+        "references/data/odisha-gi-products.json"
+      ],
+      "blocker": null,
+      "attempt_history": [
+        {
+          "run_id": "2026-10-04-gi-inventory",
+          "at": "2026-10-04T22:50:11.558328+00:00",
+          "outcome": "dated_inventory_delivered",
+          "completion_criteria_met": true,
+          "remaining": "Renewal and post-cutoff coverage follow-up; exact specifications and producer economics."
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "sources/handloom-gi-list-2026.md",
+          "handlooms/garments-and-markets.md",
+          "economy/rasagola-and-sweets.md",
+          "collections/made-in-odisha.md",
+          "collections/odisha-gi-products.md",
+          "sources/gi-state-register2025.md",
+          "sources/gi-live-register2026.md",
+          "references/data/odisha-gi-products.json"
+        ],
+        "project_records": [
+          "kb/research/sources/odisha-gis.md"
+        ],
+        "audit_date": "2026-10-04",
+        "map": "references/data/research-map.json"
+      },
+      "selection_basis": "Explicit user request for all Odisha GI items; other in-progress tasks preserved."
+    },
+    {
+      "id": "RES-070",
+      "order": 0.03,
+      "title": "GI candidate discovery, comparison and producer-led application preparation",
+      "done_when": "Deliver a sourced Odisha candidate programme with pending/registered duplication checks, Indian and international specification/governance comparisons, and evidence dossiers whose filing readiness is assessed against actual producer representation, origin, specification, boundaries and inspection evidence. Do not mark filings submitted without registry receipts.",
+      "target": "economy/gi-opportunity-programme.md",
+      "status": "in_progress",
+      "attempts": 15,
+      "dependencies": [],
+      "last_worked_at": "2026-10-05T23:43:01.885936+00:00",
+      "next_step": "On/after12October recover missing local/Registry documents and Kalamata source/annexure gaps; actual producer mandate, goods/boundary and inspection evidence need participants. Reuse the twelve-lead matrix and Kalamata study. Until then continue independent RES-017 named food-factory physical output; RES-067 retains its unfinished pilot dependency.",
+      "evidence_outputs": [
+        "economy/gi-opportunity-programme.md",
+        "product/gi-application-preparation.md",
+        "references/data/gi-opportunities.json",
+        "sources/gi-opportunity-registry2026.md",
+        "sources/gi-filing-booklet.md",
+        "sources/gi-act-wipolex.md",
+        "sources/gi-puri-msme2019.md",
+        "sources/gi-temple-food2019.md",
+        "sources/gi-eu-quality.md",
+        "sources/gi-wipo-faq.md",
+        "sources/gi-fao-approach.md",
+        "sources/gi-eu-crafts.md",
+        "sources/gi-edii-facilitation.md",
+        "economy/khaja-gi-comparison.md",
+        "sources/gi-silao-journal2018.md",
+        "sources/gi-goan-khaje-journal2020.md",
+        "handlooms/puri-gamucha-gi-study.md",
+        "sources/gi-gamosa-journal2019.md",
+        "sources/gi-gamosa-journal2022.md",
+        "sources/gi-puri-clusters.md",
+        "sources/gi-alangdia-report2026.md",
+        "food/temple-food-gi-governance.md",
+        "sources/gi-tirupathi-journal2008.md",
+        "sources/gi-ttd-controls2015.md",
+        "sources/gi-ttd-weight2022.md",
+        "sources/gi-jagannath-governance-lead.md",
+        "food/nimapada-jhili-evidence.md",
+        "sources/gi-puri-msme-undated.md",
+        "sources/gi-puri-msme2016.md",
+        "sources/gi-nimapada-sahu2015.md",
+        "food/korakhai-gi-evidence.md",
+        "sources/gi-korakhai-bda2022.md",
+        "sources/gi-korakhai-college2025.md",
+        "sources/gi-korakhai-ekamra.md",
+        "food/manikapatna-curd-application.md",
+        "sources/gi-manikapatna-fcr2026.md",
+        "sources/gi-manikapatna-case2026.md",
+        "sources/gi-manikapatna-breed-certificate.md",
+        "sources/gi-manikapatna-annexures2026.md",
+        "food/chilika-curd-science.md",
+        "sources/chilika-curd-nanda2013.md",
+        "sources/chilika-curd-kumar2024.md",
+        "culture/palm-leaf-gi-applications.md",
+        "sources/gi-palm-examinations2026.md",
+        "sources/gi-palm797-submission2021.md",
+        "sources/gi-palm805-submission2021.md",
+        "sources/gi-palm805-reply2025.md",
+        "food/gaja-kanti-evidence.md",
+        "sources/gi-niti-pasayat2006.md",
+        "food/poda-arisa-place-evidence.md",
+        "sources/gi-utsav-ratha2022.md",
+        "sources/food-air-raja2026.md",
+        "economy/gi-readiness-matrix.md",
+        "economy/kalamata-gi-comparison.md",
+        "sources/gi-kalamata-specification.md",
+        "sources/gi-kalamata-decision2015.md",
+        "sources/gi-kalamata-enforcement2021.md"
+      ],
+      "blocker": "Missing original local records, producer/custodian authority and accepted goods/boundary/inspection evidence remain; selected international study does not close those gaps.",
+      "retry_after": "2026-10-12",
+      "attempt_history": [
+        {
+          "run_id": "2026-10-04-gi-opportunities",
+          "at": "2026-10-04T23:24:42.177966+00:00",
+          "outcome": "twelve_lead_pilot_five_indian_comparators_four_dossier_briefs",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-04-gi-specifications",
+          "at": "2026-10-04T23:40:09.509522+00:00",
+          "outcome": "two_original_specifications_compared_internal_conflicts_preserved",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-05-gi-textiles",
+          "at": "2026-10-05T00:37:22.636626+00:00",
+          "outcome": "textile_editions_compared_local_identity_lead_attributed_specification_gap_retained",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-05-gi-temple",
+          "at": "2026-10-05T01:38:42.713749+00:00",
+          "outcome": "temple_product_specification_and_controls_compared_puri_authority_documents_unavailable",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-05-gi-nimapada",
+          "at": "2026-10-05T02:39:56.094724+00:00",
+          "outcome": "nimapada_name_use_chronology_saved_origin_date_and_maker_history_unverified",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-05-gi-korakhai",
+          "at": "2026-10-05T03:38:56.935542+00:00",
+          "outcome": "korakhai_goods_scope_and_institutional_reputation_dossier_saved_producer_fields_open",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-05-gi-manikapatna",
+          "at": "2026-10-05T10:31:51.450449+00:00",
+          "outcome": "existing_application2117_documents_reviewed_notice_and_breed_certificate_distinguished_pH_hold_saved",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-05-gi-curd-science",
+          "at": "2026-10-05T10:42:35.732079+00:00",
+          "outcome": "original_curd_study_and_followup_reviewed_pH_provenance_confirmed_safety_and_strain_holds_preserved",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-05-gi-palm",
+          "at": "2026-10-05T11:46:55.931245+00:00",
+          "outcome": "palm_leaf_original_scopes_and_examination_compared_revised_reply_partially_reviewed",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-05-gi-palm-reply",
+          "at": "2026-10-05T12:43:24.673989+00:00",
+          "outcome": "part1_text_review_completed_proposed_controls_and_repeated_geography_saved_financial_and_technical_scope_holds_added",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-05-gi-palm-annexures",
+          "at": "2026-10-05T13:51:02.068484+00:00",
+          "outcome": "supporting_annexures_reviewed_with_page_scope_historical_rosters_and_corporation_certificate_recorded_joint_applicant_discrepancy_held",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-05-gi-gaja-kanti",
+          "at": "2026-10-05T14:52:38.614943+00:00",
+          "outcome": "gaja_kanti_identity_dossier_added_existing_hospitality_chapter_recovered_name_and_ingredient_variants_held_separately",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-05-gi-pitha-scope",
+          "at": "2026-10-05T15:48:51.078637+00:00",
+          "outcome": "poda_arisa_place_association_and_variant_comparison_saved_local_product_scope_unresolved",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-05-gi-readiness",
+          "at": "2026-10-05T16:47:00.899189+00:00",
+          "outcome": "twelve_lead_readiness_matrix_completed_routes_and_closure_evidence_recorded_international_specification_gap_next",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-05-gi-kalamata",
+          "at": "2026-10-05T23:43:01.885936+00:00",
+          "outcome": "kalamata_selected_specification_2015_decision_and_2021_enforcement_saved_with_stage_limits",
+          "completion_criteria_met": false
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "collections/odisha-gi-products.md",
+          "references/data/odisha-gi-products.json",
+          "food/chhena-jhili.md",
+          "food/mahaprasad.md",
+          "food/korakhai.md",
+          "handlooms/garments-and-markets.md",
+          "economy/rasagola-and-sweets.md",
+          "economy/gi-opportunity-programme.md",
+          "product/gi-application-preparation.md",
+          "references/data/gi-opportunities.json",
+          "sources/gi-opportunity-registry2026.md",
+          "sources/gi-filing-booklet.md",
+          "sources/gi-act-wipolex.md",
+          "sources/gi-puri-msme2019.md",
+          "sources/gi-temple-food2019.md",
+          "sources/gi-eu-quality.md",
+          "sources/gi-wipo-faq.md",
+          "sources/gi-fao-approach.md",
+          "sources/gi-eu-crafts.md",
+          "sources/gi-edii-facilitation.md",
+          "economy/khaja-gi-comparison.md",
+          "sources/gi-silao-journal2018.md",
+          "sources/gi-goan-khaje-journal2020.md",
+          "handlooms/puri-gamucha-gi-study.md",
+          "sources/gi-gamosa-journal2019.md",
+          "sources/gi-gamosa-journal2022.md",
+          "sources/gi-puri-clusters.md",
+          "sources/gi-alangdia-report2026.md",
+          "food/temple-food-gi-governance.md",
+          "sources/gi-tirupathi-journal2008.md",
+          "sources/gi-ttd-controls2015.md",
+          "sources/gi-ttd-weight2022.md",
+          "sources/gi-jagannath-governance-lead.md",
+          "food/nimapada-jhili-evidence.md",
+          "sources/gi-puri-msme-undated.md",
+          "sources/gi-puri-msme2016.md",
+          "sources/gi-nimapada-sahu2015.md",
+          "food/korakhai-gi-evidence.md",
+          "sources/gi-korakhai-bda2022.md",
+          "sources/gi-korakhai-college2025.md",
+          "sources/gi-korakhai-ekamra.md",
+          "food/manikapatna-curd-application.md",
+          "sources/gi-manikapatna-fcr2026.md",
+          "sources/gi-manikapatna-case2026.md",
+          "sources/gi-manikapatna-breed-certificate.md",
+          "sources/gi-manikapatna-annexures2026.md",
+          "food/chilika-curd-science.md",
+          "sources/chilika-curd-nanda2013.md",
+          "sources/chilika-curd-kumar2024.md",
+          "culture/palm-leaf-gi-applications.md",
+          "sources/gi-palm-examinations2026.md",
+          "sources/gi-palm797-submission2021.md",
+          "sources/gi-palm805-submission2021.md",
+          "sources/gi-palm805-reply2025.md",
+          "food/gaja-kanti-evidence.md",
+          "sources/gi-niti-pasayat2006.md",
+          "sources/food-heritage.md",
+          "food/poda-arisa-place-evidence.md",
+          "sources/gi-utsav-ratha2022.md",
+          "sources/food-air-raja2026.md",
+          "food/poda-pitha.md",
+          "food/arisa-pitha.md",
+          "sources/food-crri-rice2015.md",
+          "economy/gi-readiness-matrix.md",
+          "economy/kalamata-gi-comparison.md",
+          "sources/gi-kalamata-specification.md",
+          "sources/gi-kalamata-decision2015.md",
+          "sources/gi-kalamata-enforcement2021.md"
+        ],
+        "project_records": [
+          "kb/research/sources/odisha-gis.md"
+        ],
+        "audit_date": "2026-10-04",
+        "map": "references/data/research-map.json"
+      },
+      "selection_basis": "Explicit user request for prospective GI discovery and filing support."
+    },
+    {
+      "id": "RES-063",
+      "order": 0.1,
+      "title": "District business research framework",
+      "done_when": "Define a reusable opportunity model, all-district coverage register, project-book template and versioned requirements without fabricated readiness.",
+      "target": "product/district-business-opportunities.md",
+      "status": "completed",
+      "attempts": 1,
+      "dependencies": [],
+      "related_existing_tasks": [
+        "RES-008",
+        "RES-009",
+        "RES-013",
+        "RES-014",
+        "RES-032",
+        "RES-052",
+        "RES-062"
+      ],
+      "last_worked_at": "2026-10-02T20:40:37.286473+00:00",
+      "next_step": "Framework delivered; proceed with RES-064.",
+      "evidence_outputs": [
+        "product/district-business-opportunities.md",
+        "methods/business-opportunity-research.md",
+        "references/data/business-opportunities.json"
+      ],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [
+        {
+          "at": "2026-10-02T20:40:37.286473+00:00",
+          "run_id": "2026-10-02-district-business-opportunities",
+          "result": "framework_complete",
+          "next_step": "Framework delivered; proceed with RES-064."
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "product/district-business-opportunities.md",
+          "methods/business-opportunity-research.md",
+          "references/data/business-opportunities.json"
+        ],
+        "project_records": [
+          "kb/specs/knowledge-to-work.md",
+          "kb/research/product/destination-and-tour-book.md",
+          "kb/research/places/koraput.md",
+          "kb/research/places/sambalpur-bargarh.md"
+        ],
+        "audit_date": "2026-10-02",
+        "map": "references/data/research-map.json"
       }
+    },
+    {
+      "id": "RES-064",
+      "order": 0.2,
+      "title": "Koraput business dossier: one coffee model",
+      "done_when": "Document one precisely scoped coffee business model with original producer/supply evidence, buyer/demand evidence or explicit gap, permission research, premises route, people institutions and dated financial inputs or nulls; save a sourced starter dossier.",
+      "target": "economy/koraput-business-opportunities.md",
+      "status": "blocked",
+      "attempts": 4,
+      "dependencies": [],
+      "related_existing_tasks": [
+        "RES-008",
+        "RES-009",
+        "RES-013",
+        "RES-014",
+        "RES-032",
+        "RES-052",
+        "RES-062"
+      ],
+      "last_worked_at": "2026-10-03T07:12:33.313215+00:00",
+      "next_step": "Retry original documents on their saved9/10 October dates; continue independent eligible tasks meanwhile. No values promoted from indexed candidates.",
+      "evidence_outputs": [
+        "product/district-business-opportunities.md",
+        "methods/business-opportunity-research.md",
+        "references/data/business-opportunities.json",
+        "economy/koraput-business-opportunities.md",
+        "economy/koraput-coffee-retail.md",
+        "references/data/statistics-atlas.json",
+        "sources/coffee-board-production2026.md",
+        "sources/coffee-board-extension.md",
+        "sources/enterprise-fssai-order2026.md",
+        "sources/enterprise-foscos-eligibility2026.md",
+        "sources/enterprise-dic-directory.md",
+        "sources/coffee-kdf-value-chain.md",
+        "sources/coffee-dreamhill-catalogue.md",
+        "sources/coffee-tdcc-tender-lead.md",
+        "sources/enterprise-koraput-plan-lead.md",
+        "sources/coffee-cultivation-cost-study-lead.md",
+        "sources/coffee-odh-pack.md",
+        "sources/enterprise-sujog-documents.md",
+        "sources/enterprise-sujog-manual.md",
+        "sources/enterprise-sujog-tariff.md",
+        "sources/enterprise-sujog-ulbs.md",
+        "sources/coffee-legacy-domain-check.md",
+        "sources/coffee-darpg-ric-lead.md",
+        "sources/coffee-tdcc-retail-lead.md",
+        "sources/coffee-stsc-report2019-lead.md",
+        "sources/coffee-stsc-report2024-lead.md",
+        "sources/coffee-tdcc-brand-eoi-lead.md"
+      ],
+      "retry_after": "2026-10-10",
+      "blocker": "New original departmental PDFs unavailable; TDCC EOI certificate failure. Current batch/invoice, quotations and local applicability still require evidence or authorized local participation.",
+      "attempt_history": [
+        {
+          "at": "2026-10-02T20:40:37.286473+00:00",
+          "run_id": "2026-10-02-district-business-opportunities",
+          "result": "initial_hypotheses_saved",
+          "next_step": "Find original coffee producer/supply records; choose retail, packing or tasting as one model; then establish applicability and evidence gaps. No blanket homestay eligibility advice."
+        },
+        {
+          "at": "2026-10-02T21:02:54.578939+00:00",
+          "run_id": "2026-10-02-koraput-coffee-retail",
+          "result": "scoped_retail_checkpoint",
+          "scope": "Primary food-retailer criteria, state production estimates, supplier/institution leads and explicit operating/economic gaps. RES-064 incomplete for supply, local permissions and cost inputs.",
+          "next_step": "Confirm one orderable pack and supply provenance, then locality-specific permissions and quotations; no projected margin without inputs."
+        },
+        {
+          "at": "2026-10-03T06:10:28.669467+00:00",
+          "run_id": "2026-10-03-koraput-coffee-supply",
+          "result": "pack_and_municipal_checkpoint",
+          "scope": "Seller offer and original municipal PDFs; tariff interpretation and supplier traceability incomplete. No financial projection.",
+          "next_step": "Continue original producer/batch traceability and current Koraput tariff applicability; retain retail comparator separately from supplier cost. Reuse recovered 759-page tariff at PDF p501; no repeat full download. Local demand and quotations remain absent."
+        },
+        {
+          "at": "2026-10-03T07:12:33.313215+00:00",
+          "run_id": "2026-10-03-puri-walk-checkpoint",
+          "result": "original_evidence_deferred",
+          "scope": "New original departmental PDFs unavailable; TDCC EOI certificate failure. Current batch/invoice, quotations and local applicability still require evidence or authorized local participation.",
+          "retry_after": "2026-10-10",
+          "next_step": "Retry original documents on their saved9/10 October dates; continue independent eligible tasks meanwhile. No values promoted from indexed candidates."
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "product/district-business-opportunities.md",
+          "methods/business-opportunity-research.md",
+          "references/data/business-opportunities.json",
+          "economy/koraput-business-opportunities.md",
+          "food/koraput-coffee.md",
+          "food/koraput-kalajeera-rice.md",
+          "economy/homestay-support.md",
+          "economy/koraput-coffee-retail.md",
+          "references/data/statistics-atlas.json",
+          "sources/coffee-board-production2026.md",
+          "sources/coffee-board-extension.md",
+          "sources/enterprise-fssai-order2026.md",
+          "sources/enterprise-foscos-eligibility2026.md",
+          "sources/enterprise-dic-directory.md",
+          "sources/coffee-kdf-value-chain.md",
+          "sources/coffee-dreamhill-catalogue.md",
+          "sources/coffee-tdcc-tender-lead.md",
+          "sources/enterprise-koraput-plan-lead.md",
+          "sources/coffee-cultivation-cost-study-lead.md",
+          "sources/coffee-odh-pack.md",
+          "sources/enterprise-sujog-documents.md",
+          "sources/enterprise-sujog-manual.md",
+          "sources/enterprise-sujog-tariff.md",
+          "sources/enterprise-sujog-ulbs.md",
+          "sources/coffee-legacy-domain-check.md",
+          "sources/coffee-darpg-ric-lead.md",
+          "sources/coffee-tdcc-retail-lead.md",
+          "sources/coffee-stsc-report2019-lead.md",
+          "sources/coffee-stsc-report2024-lead.md",
+          "sources/coffee-tdcc-brand-eoi-lead.md"
+        ],
+        "project_records": [
+          "kb/specs/knowledge-to-work.md",
+          "kb/research/product/destination-and-tour-book.md",
+          "kb/research/places/koraput.md",
+          "kb/research/places/sambalpur-bargarh.md"
+        ],
+        "audit_date": "2026-10-02",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-065",
+      "order": 0.3,
+      "title": "Bargarh business dossier: maker-linked services",
+      "done_when": "Document one maker-linked textile service model with buyer/producer evidence, sourcing and consent gaps, compliance/premises routes and attributable unit economics or explicit missing inputs.",
+      "target": "economy/bargarh-textile-catalogue-service.md",
+      "status": "completed",
+      "attempts": 1,
+      "dependencies": [],
+      "related_existing_tasks": [
+        "RES-008",
+        "RES-009",
+        "RES-013",
+        "RES-014",
+        "RES-032",
+        "RES-052",
+        "RES-062"
+      ],
+      "last_worked_at": "2026-10-03T06:28:03.412029+00:00",
+      "next_step": "Confirm one Bargarh cooperative purchasing process and usage permissions; collect dated equipment/travel quotations and resolve local trade-licence applicability. No outreach or paid trial conducted; retry original cooperative website10 October2026.",
+      "evidence_outputs": [
+        "sources/enterprise-boyanika-tenders.md",
+        "sources/enterprise-boyanika-agency2026.md",
+        "sources/enterprise-boyanika-thematic2026.md",
+        "sources/enterprise-bargarh-odop.md",
+        "sources/enterprise-sambalpuri-site-lead.md",
+        "economy/bargarh-textile-catalogue-service.md",
+        "references/data/business-opportunities.json"
+      ],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [
+        {
+          "at": "2026-10-03T06:28:03.412029+00:00",
+          "run_id": "2026-10-03-bargarh-catalogue-service",
+          "result": "bounded_desk_dossier_completed",
+          "scope": "Defined deliverable exists: original institutional buyer/producer evidence, consent and premises routes, explicit missing economics. No local validation or investment-ready plan.",
+          "prior_dependencies": [
+            "RES-064"
+          ],
+          "sequence_reason": "User requested next item; Bargarh research does not depend on coffee supplier verification. RES-064 remains in progress.",
+          "next_step": "Confirm one Bargarh cooperative purchasing process and usage permissions; collect dated equipment/travel quotations and resolve local trade-licence applicability. No outreach or paid trial conducted; retry original cooperative website10 October2026."
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "product/district-business-opportunities.md",
+          "methods/business-opportunity-research.md",
+          "references/data/business-opportunities.json",
+          "places/sambalpur-bargarh.md",
+          "handlooms/sambalpuri-bandha.md",
+          "references/data/handloom-markets.json",
+          "sources/enterprise-boyanika-tenders.md",
+          "sources/enterprise-boyanika-agency2026.md",
+          "sources/enterprise-boyanika-thematic2026.md",
+          "sources/enterprise-bargarh-odop.md",
+          "sources/enterprise-sambalpuri-site-lead.md",
+          "economy/bargarh-textile-catalogue-service.md"
+        ],
+        "project_records": [
+          "kb/specs/knowledge-to-work.md",
+          "kb/research/product/destination-and-tour-book.md",
+          "kb/research/places/koraput.md",
+          "kb/research/places/sambalpur-bargarh.md"
+        ],
+        "audit_date": "2026-10-03",
+        "map": "references/data/research-map.json"
+      },
+      "completed_at": "2026-10-03T06:28:03.412029+00:00"
+    },
+    {
+      "id": "RES-066",
+      "order": 0.4,
+      "title": "Puri business dossier: a visitor or food service",
+      "done_when": "Choose one precise customer problem and document seasonal demand evidence, local suppliers, permission/site applicability, premises options and sourced costs or unresolved gaps.",
+      "target": "economy/puri-heritage-walk-service.md",
+      "status": "completed",
+      "attempts": 3,
+      "dependencies": [
+        "RES-065"
+      ],
+      "related_existing_tasks": [
+        "RES-008",
+        "RES-009",
+        "RES-013",
+        "RES-014",
+        "RES-032",
+        "RES-052",
+        "RES-062"
+      ],
+      "last_worked_at": "2026-10-03T07:47:50.114066+00:00",
+      "next_step": "Desk dossier complete. Retry state recognition instrument, municipal live-page recovery and separate 2023 OTDC source on 10 October. Resolve exact route/category/fees, written price and paid seasonality through original evidence or later explicitly authorized local participation.",
+      "evidence_outputs": [
+        "sources/enterprise-otdc-walk-rfq2022.md",
+        "sources/enterprise-puri-walk-offer.md",
+        "economy/puri-heritage-walk-service.md",
+        "references/data/business-opportunities.json",
+        "sources/enterprise-iitf-booklet.md",
+        "sources/enterprise-iitf-faq.md",
+        "sources/enterprise-puri-sanatan-walk.md",
+        "sources/enterprise-puri-sacred-directory.md",
+        "sources/enterprise-national-recognition2020.md",
+        "sources/enterprise-odisha-agent-registration.md",
+        "sources/enterprise-odisha-recognition-rti-lead.md"
+      ],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [
+        {
+          "at": "2026-10-03T07:12:33.313215+00:00",
+          "run_id": "2026-10-03-puri-walk-checkpoint",
+          "result": "scoped_walk_checkpoint",
+          "scope": "Independent eligible task after RES-064 source deferral. 2022 OTDC source and seller offering with geography/vintage limits; no paid demand or complete current permissions.",
+          "next_step": "Recover separate2023 OTDC instrument; verify current guide/agency route; find priced Puri-specific offer and seasonal demand evidence. Do not contact providers or infer guaranteed Puri walks."
+        },
+        {
+          "at": "2026-10-03T07:31:30.882298+00:00",
+          "run_id": "2026-10-03-puri-guide-prices",
+          "result": "training_and_offer_checkpoint",
+          "scope": "Official national programme references distinguished from local authorisation; seller price on request and empty directory recorded. No paid-demand series or current comprehensive permission path.",
+          "next_step": "Check current Puri municipal classification and guide/agency recognition instruments for the outdoor service. Keep 2023 OTDC retry on 10 October. Price with party basis, route permissions and paid seasonality remain unknown; no provider contact authorized."
+        },
+        {
+          "at": "2026-10-03T07:47:50.114066+00:00",
+          "run_id": "2026-10-03-puri-permissions",
+          "result": "bounded_desk_dossier_completed",
+          "scope": "Defined desk dossier exists and covers all done_when fields, including explicitly unresolved demand, prices and local legal applicability. No locally checked or feasible business claim.",
+          "next_step": "Desk dossier complete. Retry state recognition instrument, municipal live-page recovery and separate 2023 OTDC source on 10 October. Resolve exact route/category/fees, written price and paid seasonality through original evidence or later explicitly authorized local participation."
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "product/district-business-opportunities.md",
+          "methods/business-opportunity-research.md",
+          "references/data/business-opportunities.json",
+          "visitor-index/puri-journey-outline.md",
+          "economy/rasagola-and-sweets.md",
+          "sources/enterprise-otdc-walk-rfq2022.md",
+          "sources/enterprise-puri-walk-offer.md",
+          "economy/puri-heritage-walk-service.md",
+          "visitor-index/puri-providers.md",
+          "places/puri.md",
+          "sources/enterprise-iitf-booklet.md",
+          "sources/enterprise-iitf-faq.md",
+          "sources/enterprise-puri-sanatan-walk.md",
+          "sources/enterprise-puri-sacred-directory.md",
+          "sources/enterprise-national-recognition2020.md",
+          "sources/enterprise-odisha-agent-registration.md",
+          "sources/enterprise-odisha-recognition-rti-lead.md",
+          "sources/enterprise-sujog-tariff.md",
+          "sources/enterprise-sujog-documents.md",
+          "sources/enterprise-sujog-manual.md"
+        ],
+        "project_records": [
+          "kb/specs/knowledge-to-work.md",
+          "kb/research/product/destination-and-tour-book.md",
+          "kb/research/places/koraput.md",
+          "kb/research/places/sambalpur-bargarh.md",
+          "kb/research/product/puri-visitor-essentials-2026-09-30.md"
+        ],
+        "audit_date": "2026-10-02",
+        "map": "references/data/research-map.json"
+      },
+      "completed_at": "2026-10-03T07:47:50.114066+00:00",
+      "completion_scope": "Defined desk dossier exists and covers all done_when fields, including explicitly unresolved demand, prices and local legal applicability. No locally checked or feasible business claim."
+    },
+    {
+      "id": "RES-067",
+      "order": 0.5,
+      "title": "District business coverage: next evidence-led batch",
+      "done_when": "Assess coverage gaps after the three pilots; select three additional districts including interior/service/industrial contexts and deliver non-duplicative sourced opportunity briefs.",
+      "target": "product/district-business-opportunities.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [
+        "RES-064",
+        "RES-065",
+        "RES-066"
+      ],
+      "related_existing_tasks": [
+        "RES-008",
+        "RES-009",
+        "RES-013",
+        "RES-014",
+        "RES-032",
+        "RES-052",
+        "RES-062"
+      ],
+      "last_worked_at": null,
+      "next_step": "Use actual pilot gaps to select the next districts; do not populate attractive claims without evidence.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [],
+      "reuse_before_research": {
+        "source_records": [
+          "product/district-business-opportunities.md",
+          "methods/business-opportunity-research.md",
+          "references/data/business-opportunities.json"
+        ],
+        "project_records": [
+          "kb/specs/knowledge-to-work.md",
+          "kb/research/product/destination-and-tour-book.md",
+          "kb/research/places/koraput.md",
+          "kb/research/places/sambalpur-bargarh.md"
+        ],
+        "audit_date": "2026-10-02",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-077",
+      "order": 0.02,
+      "title": "Osha, brata and seasonal food culture",
+      "done_when": "Build and progressively complete a source-bounded osha/brata/parba inventory with individual history, ritual-story, significance and food pages; inspect primary textual or institutional evidence for adopted claims, retain source conflicts and regional variants, and prepare tested structured website pages under the destination review/release policy. Track remaining inventory and distinguish unresolved history, local participation and visitor availability; do not claim exhaustive coverage from this initial selection.",
+      "target": "culture/osha-brata-seasonal-food.md",
+      "status": "in_progress",
+      "attempts": 80,
+      "dependencies": [],
+      "last_worked_at": "2026-10-11T17:43:20.930887+00:00",
+      "next_step": "Khudurukuni article and supporting maritime study reconciled as research-only into draftPR145; two profile sections added. Preserve14–18October holds and koeta identity gap. Continue earliest unheld narrative field; no public release inferred.",
+      "retry_after": null,
+      "blocker": "Bada full katha, Puranic passage, annual schedule and source-wording/chronology gaps retry14October. Existing B02/B03/B04 gaps retained; independent B05 work can proceed. Kanji Anla original edition and calendar locality gaps retry14October; independent Bata work can proceed. Bata/Danda identity, text and calendar gaps retry14October. Pandu textual, food and sweeping gaps retry14October. Shani/Tota original text, history and locality/food gaps retry14October. Sukutuni original story/calendar/food and Bali Trutiya chronology/locality/boat-jhoti conflict retry14October. Sita Navami local katha, calendar/food and programme-occurrence gaps retry14October. Rambha local katha, food and textual-edition gaps retry15October. Nagala original katha, chronology and local food gaps retry15October. Naga Panchami local text, food and earliest observance gaps retry15October. Ananta Brata local text, food and earliest observance gaps retry15October. Rabinarayana Brata local text, food and earliest observance gaps retry15October. Somnath original dating evidence, manuscripts and household preparation retry 15 October. Kukkuti exact local accession, Odia text and household food/calendar retry15October. Santoshi Odia edition, local chronology and household food retry15October. Kedar original imprint, Gazette identity and household food retry15October. Rai Damodara original text, chronology, calendar and local food retry15October. Magha katha, earliest vow evidence and local food retry 15 October. Baisakha catalogue, local text, history and preparation retry 15 October. Guru Panchami local identity, calendar, text and food retry15October. Rushi Panchami full text, chronology and food preparation retry15October. Gouri identity, original edition/catalogue and food retry16October. Bipattarini Odia text, local identity, calendar and foods retry16October. Benatia/Purnima identity and June2013 issue retry16October. Sankata identity, Odia text, preparation and original December2006 page images retry16October. Radhastami original edition, attribution, catalogue rows and local dishes retry16October. Shibaratri original text, history, gaja preparation, poem facsimile and government recovery retry 16 October. Janmastami original text, history, named local dishes and Jeuta/Banabhoji source recovery retry 16 October. Pusa Rabibara imprint/dates, CY-1907 and local pitha/muan preparation retry16October. Binayaka editions/calendar, 1936 copy, manuscript leads and local modaka preparation retry 16 October. Skanda local panji, practice, katha and food evidence retry 16 October. Guru Purnima Pausa identity, original local text/history and dishes/fulfilment retry 16 October. Shiva Pradosha local text, chronology, timing and menu retry17October. Tarini original text, chronology and household food retry17October. Srabani original text/edition and local food retry17October; earlier Gouri16October hold retained. Bajra Mahakali imprint, food identification and local practice retry17October. Mahastami full text, local identity and food roles retry17October. Ashoka Astami original text, continuity and local food retry17October. Raja earlier witnesses, museum article, local recipes and situated accounts retry17October. Prathamastami historical originals, local recipes and calendar scope retry17October. Dutiya local katha/editions, plant/item identities and recipe/calendar comparison retry17October.",
+      "evidence_outputs": [
+        "culture/osha-brata-seasonal-food.md",
+        "visitor-index/seasonal-food-guide.md",
+        "sources/osha-review2006.md",
+        "references/data/seasonal-food-calendar.json",
+        "sources/osha-mahanti.md",
+        "sources/osha-lakshmi2021.md",
+        "sources/osha-ray2020.md",
+        "sources/osha-patra2019.md",
+        "sources/osha-ghadai2018.md",
+        "sources/osha-jagatsinghpur.md",
+        "sources/osha-samba2013.md",
+        "sources/osha-konark2015.md",
+        "sources/osha-savitri-epic.md",
+        "culture/osha/khudurukuni.md",
+        "culture/osha/manabasa-gurubara.md",
+        "culture/osha/sudasa-brata.md",
+        "culture/osha/dutiya.md",
+        "culture/osha/budhei.md",
+        "culture/osha/alana.md",
+        "culture/osha/kanji-anla.md",
+        "culture/osha/bada.md",
+        "culture/osha/samba-dashami.md",
+        "culture/osha/prathamastami.md",
+        "culture/osha/sabitri.md",
+        "culture/osha/janhi.md",
+        "references/data/osha-culture.json",
+        "sources/osha-nmm-catalogue.md",
+        "sources/osha-osm-literature.md",
+        "sources/osha-sudasa-scan.md",
+        "culture/osha-text-witnesses.md",
+        "references/data/osha-text-witnesses.json",
+        "sources/osha-sudasa-prose.md",
+        "culture/osha/sudasa-text-comparison.md",
+        "references/data/sudasa-text-comparison.json",
+        "sources/osha-kumar2015.md",
+        "references/data/osha-mangala-research.json",
+        "culture/osha/chaitra-mangala.md",
+        "sources/osha-sarala2009.md",
+        "sources/osha-chaitra-odiaorg.md",
+        "sources/osha-pana2023.md",
+        "references/data/chaitra-mangala-research.json",
+        "culture/osha/sathi.md",
+        "sources/osha-sathi-mahapatra.md",
+        "sources/osha-sathi-behera.md",
+        "references/data/sathi-research.json",
+        "culture/osha/nisha-mangalabara.md",
+        "sources/osha-nisha-worldcat.md",
+        "sources/osha-nisha-kalingahistory.md",
+        "references/data/nisha-mangalabara-research.json",
+        "culture/osha/pua-jiuntia.md",
+        "culture/osha/bhai-jiuntia.md",
+        "sources/osha-kesavan-jiuntia.md",
+        "sources/osha-barpali-pua.md",
+        "references/data/jiuntia-research.json",
+        "culture/osha/nuakhai.md",
+        "sources/osha-nuakhai-singh2012.md",
+        "references/data/nuakhai-research.json",
+        "sources/osha-dhabaleswar-tourism.md",
+        "sources/osha-dhabaleswar-incredibleindia.md",
+        "references/data/bada-research.json",
+        "sources/osha-kanji-sarangi2018.md",
+        "sources/osha-kanji-mahakud2021.md",
+        "references/data/kanji-anla-research.json",
+        "culture/osha/bata.md",
+        "sources/osha-bata-odiaportal.md",
+        "references/data/bata-research.json",
+        "culture/osha/pandu.md",
+        "sources/osha-pandu-puriwaves.md",
+        "sources/osha-pandu-odiaportal.md",
+        "sources/osha-jhoti-biswal-dash2020.md",
+        "references/data/pandu-research.json",
+        "culture/osha/shani-tota.md",
+        "references/data/shani-tota-research.json",
+        "culture/osha/bali-trutiya.md",
+        "references/data/bali-trutiya-research.json",
+        "sources/osha-bali-trutiya-scan.md",
+        "culture/osha/sita-navami.md",
+        "references/data/sita-navami-research.json",
+        "sources/osha-sita-valmiki-rao.md",
+        "sources/osha-sita-panchavati2024.md",
+        "culture/osha/rambha-trutiya.md",
+        "references/data/rambha-trutiya-research.json",
+        "sources/osha-rambha-dutt1908.md",
+        "sources/osha-rambha-garuda-sanskrit.md",
+        "culture/osha/nagala-chaturthi.md",
+        "references/data/nagala-chaturthi-research.json",
+        "sources/osha-nagala-samal2019.md",
+        "sources/osha-nagala-odiaportal.md",
+        "sources/osha-astika-ganguli.md",
+        "culture/osha/naga-panchami.md",
+        "references/data/naga-panchami-research.json",
+        "sources/osha-naga-panda2004.md",
+        "sources/osha-naga-osm-archaeology.md",
+        "culture/osha/ananta-brata.md",
+        "references/data/ananta-brata-research.json",
+        "sources/osha-ananta-bhavishya.md",
+        "sources/osha-ananta-agni.md",
+        "sources/osha-ananta-kamakoti.md",
+        "sources/osha-ananta-manual.md",
+        "culture/osha/rabinarayana-brata.md",
+        "references/data/rabinarayana-brata-research.json",
+        "sources/osha-rabinarayana-adhikari2020.md",
+        "culture/osha/somnath-brata.md",
+        "references/data/somnath-brata-research.json",
+        "sources/osha-somnath-odia-text.md",
+        "sources/osha-prusty2014-prose.md",
+        "culture/osha/kukkuti-brata.md",
+        "references/data/kukkuti-brata-research.json",
+        "sources/osha-kukkuti-shabdakalpa.md",
+        "sources/osha-kukkuti-ignca.md",
+        "sources/osha-kukkuti-osm-smrti.md",
+        "culture/osha/santoshi-mata-brata.md",
+        "references/data/santoshi-mata-brata-research.json",
+        "sources/osha-santoshi-lutgendorf.md",
+        "sources/osha-santoshi-odia-lead.md",
+        "culture/osha/kedar-brata.md",
+        "references/data/kedar-brata-research.json",
+        "sources/osha-kedar-pothi.md",
+        "culture/osha/rai-damodara-brata.md",
+        "references/data/rai-damodara-brata-research.json",
+        "sources/osha-kartika-patra-punit2018.md",
+        "sources/osha-habisha-city-cuisine.md",
+        "culture/osha/magha-brata.md",
+        "references/data/magha-brata-research.json",
+        "sources/osha-magha-swarup1910.md",
+        "sources/osha-chandrabhaga-tourism.md",
+        "culture/osha/baisakha-brata.md",
+        "references/data/baisakha-brata-research.json",
+        "sources/osha-baisakha-kamakoti.md",
+        "culture/osha/guru-panchami.md",
+        "references/data/guru-panchami-research.json",
+        "sources/osha-panchami-ojha2022.md",
+        "culture/osha/rushi-panchami.md",
+        "references/data/rushi-panchami-research.json",
+        "sources/osha-jagannath-festivals2003.md",
+        "sources/osha-markandeswar2013.md",
+        "culture/osha/gouri-brata.md",
+        "references/data/gouri-brata-research.json",
+        "sources/osha-gouri-malik2021.md",
+        "culture/osha/bipattarini-brata.md",
+        "references/data/bipattarini-brata-research.json",
+        "sources/osha-bipattarini-bhattacharyya2011.md",
+        "sources/osha-bipattarini-rajpur.md",
+        "culture/osha-identity-guide.md",
+        "references/data/osha-identity-audit.json",
+        "culture/osha-coverage-audit.md",
+        "references/data/osha-coverage-audit.json",
+        "culture/osha/sankata-chaturthi.md",
+        "references/data/sankata-chaturthi-research.json",
+        "sources/osha-dash-festivals2006.md",
+        "culture/osha/radhastami-brata.md",
+        "references/data/radhastami-brata-research.json",
+        "sources/osha-radhastami-shubhapallaba2020.md",
+        "sources/osha-radhastami-padma.md",
+        "sources/osha-radhastami-rgd2026.md",
+        "sources/osha-jagannath-behera2019.md",
+        "culture/osha/shibaratri-brata.md",
+        "references/data/shibaratri-brata-research.json",
+        "sources/osha-shivaratri-shiva40.md",
+        "sources/osha-shibaratri-gopabandhu.md",
+        "culture/osha/janmastami-brata.md",
+        "references/data/janmastami-brata-research.json",
+        "sources/osha-bhagavata-krishna-birth.md",
+        "sources/osha-odisha-festivals-overview.md",
+        "sources/osha-iskcon-bhubaneswar-calendar2026.md",
+        "culture/osha/pusa-rabibara-brata.md",
+        "references/data/pusa-rabibara-research.json",
+        "sources/osha-pusa-pothi.md",
+        "sources/osha-muan-nanda2023.md",
+        "culture/osha/binayaka-brata.md",
+        "references/data/binayaka-research.json",
+        "sources/osha-binayaka-dharmagrantha.md",
+        "sources/osha-gazette1937-binayaka.md",
+        "culture/osha/skanda-sasthi-brata.md",
+        "references/data/skanda-sasthi-research.json",
+        "sources/osha-ayyar1921-skanda.md",
+        "sources/osha-karttikeya-panda2010.md",
+        "culture/osha/guru-purnima-brata.md",
+        "references/data/guru-purnima-research.json",
+        "sources/osha-guru-vk2024.md",
+        "sources/osha-guru-rkm2026.md",
+        "sources/osha-guru-rkm-history.md",
+        "culture/osha/shiva-pradosha-brata.md",
+        "references/data/pradosha-research.json",
+        "sources/osha-pradosha-skanda.md",
+        "culture/osha/tarini-brata.md",
+        "references/data/tarini-research.json",
+        "sources/osha-tarini-mallebrein2004.md",
+        "sources/osha-tarini-kendujhar.md",
+        "references/data/srabani-gouri-comparison.json",
+        "sources/osha-mangala-gauri-kashi.md",
+        "culture/osha/bajra-mahakali-brata.md",
+        "references/data/bajra-mahakali-research.json",
+        "sources/osha-bajra-pothi.md",
+        "culture/osha/mahastami-brata.md",
+        "references/data/mahastami-research.json",
+        "sources/osha-durgastami-book-lead.md",
+        "culture/osha/ashoka-astami-brata.md",
+        "references/data/ashoka-astami-research.json",
+        "sources/osha-ashoka-garuda.md",
+        "sources/osha-ashoka-incredible.md",
+        "culture/osha/raja-parba.md",
+        "references/data/raja-research.json",
+        "sources/osha-raja-mohapatra2006.md",
+        "culture/osha-seasonal-navigation.md",
+        "references/data/osha-seasonal-navigation.json",
+        "references/data/prathamastami-research.json",
+        "sources/osha-pratham-bharati.md",
+        "sources/osha-pratham-svanir.md",
+        "sources/osha-pratham-text-lead.md",
+        "references/data/dutiya-research.json",
+        "food/ghanta-tarkari.md",
+        "sources/osha-dutiya-tripathy2023.md",
+        "sources/food-jajpur-tourism-ghanta.md",
+        "references/data/budhei-research.json",
+        "sources/osha-budhei-pradhan2023.md",
+        "sources/osha-budhei-puriwaves.md",
+        "sources/osha-budhei-portal-lead.md",
+        "references/data/alana-research.json",
+        "sources/osha-alana-shrutilipi2025.md",
+        "references/data/osha-coverage-audit.json",
+        "references/data/samba-food-sequence.json",
+        "references/data/sabitri-sequence.json",
+        "references/data/manabasa-text-sequence.json",
+        "references/data/sudasa-food-text.json",
+        "stories/khudurukuni-maritime-knowledge.md",
+        "references/data/osha-maritime-knowledge.json"
+      ],
+      "attempt_history": [
+        {
+          "run_id": "2026-10-07-osha-food-calendar",
+          "at": "2026-10-07T05:07:14.902375+00:00",
+          "outcome": "six_selected_observances_two_documented_food_associations_four_provisional_leads",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-07-osha-deep-study",
+          "at": "2026-10-07T05:30:57.424485+00:00",
+          "outcome": "twelve_profiles_five_narrative_checkpoints_seven_early_notes_original_sources_recovered",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-07-osha-text-witnesses",
+          "at": "2026-10-07T06:00:28.026333+00:00",
+          "outcome": "twelve_catalogue_accessions_two_sudasa_files_selected_food_passage_inspected",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-07-sudasa-comparison",
+          "at": "2026-10-07T06:51:32.977784+00:00",
+          "outcome": "two_sudasa_narratives_seven_dimensions_compared_attribution_corrected",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-07-osha-mangala-batch",
+          "at": "2026-10-07T08:00:49.602688+00:00",
+          "outcome": "janhi_song_play_offering_boundaries_documented_historical_lead_deferred",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-07-chaitra-mangala",
+          "at": "2026-10-07T08:57:47.715842+00:00",
+          "outcome": "chaitra_profile_partial_story_food_testimony_literary_lead",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-07-sathi",
+          "at": "2026-10-07T09:56:38.506340+00:00",
+          "outcome": "sathi_household_chakuli_account_birth_annual_scope_and_modern_retelling",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-07-nisha",
+          "at": "2026-10-07T11:02:49.370532+00:00",
+          "outcome": "nisha_source_boundaries_catalogue_witness_modern_heritage_and_b03_checkpoint",
+          "completion_criteria_met": false,
+          "git_revision": "d1538a3e94abd8b36f6f93ad6cb30f3249623b4e",
+          "pull_request": "https://github.com/ahimanikya/utkal-project/pull/145"
+        },
+        {
+          "run_id": "2026-10-07-jiuntia",
+          "at": "2026-10-07T12:09:54.325793+00:00",
+          "outcome": "two_jiuntia_practice_food_profiles_primary_ethnography_and_regional_variants",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-07-nuakhai",
+          "at": "2026-10-07T13:10:57.095833+00:00",
+          "outcome": "nuakhai_food_history_boundaries_and_b04_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-07-b04-reconciliation",
+          "at": "2026-10-07T14:22:07.664657+00:00",
+          "outcome": "b04_three_profiles_reconciled_validated_and_pushed_to_existing_draft",
+          "completion_criteria_met": false,
+          "git_revision": "05b1cb9186bf5b0f4c69bad1535b12701e3394ad",
+          "pull_request": "https://github.com/ahimanikya/utkal-project/pull/145"
+        },
+        {
+          "run_id": "2026-10-07-bada",
+          "at": "2026-10-07T15:16:36.875158+00:00",
+          "outcome": "bada_food_process_and_attributed_narratives_with_conflicts_held",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-07-kanji-anla",
+          "at": "2026-10-07T16:19:02.056682+00:00",
+          "outcome": "kanji_anla_attributed_modern_narrative_food_comparison_calendar_conflict",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-07-bata",
+          "at": "2026-10-07T18:14:46.767625+00:00",
+          "outcome": "bata_profile_with_danda_identity_calendar_holds",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-07-pandu",
+          "at": "2026-10-07T19:12:35.522619+00:00",
+          "outcome": "pandu_profile_food_jhoti_and_textual_sequence_holds",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-07-shani",
+          "at": "2026-10-07T20:15:01.398783+00:00",
+          "outcome": "shani_tota_profile_recurring_vow_food_roles_and_history_holds",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-07-b05-reconciliation",
+          "at": "2026-10-07T21:14:23.448274+00:00",
+          "outcome": "b05_three_new_two_expanded_profiles_reconciled_validated_and_pushed",
+          "completion_criteria_met": false,
+          "git_revision": "0f12d0759b89d9c3b59cb4173db37c29742ff50f",
+          "pull_request": "https://github.com/ahimanikya/utkal-project/pull/145"
+        },
+        {
+          "run_id": "2026-10-07-bali-trutiya",
+          "at": "2026-10-07T22:20:25.594830+00:00",
+          "outcome": "sukutuni_gap_bali_trutiya_original_text_narrative_fruit_roles_and_conflicts",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-07-sita-navami",
+          "at": "2026-10-07T23:16:49.947159+00:00",
+          "outcome": "sita_navami_calendar_conflict_literary_context_historical_programme_food_unknown",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-08-rambha-trutiya",
+          "at": "2026-10-08T00:24:08.223617+00:00",
+          "outcome": "rambha_odisha_scope_original1908_text_and_food_roles_compared",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-08-b06-reconciliation",
+          "at": "2026-10-08T01:21:42.366488+00:00",
+          "outcome": "b06_three_profiles_reconciled_validated_and_pushed",
+          "completion_criteria_met": false,
+          "git_revision": "05dd64803dd416c0c2c937a2defcc8e54e148b41",
+          "pull_request": "https://github.com/ahimanikya/utkal-project/pull/145"
+        },
+        {
+          "run_id": "2026-10-08-nagala-chaturthi",
+          "at": "2026-10-08T02:17:25.091956+00:00",
+          "outcome": "nagala_identity_food_roles_astika_comparison_five_catalogue_leads",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-08-naga-panchami",
+          "at": "2026-10-08T03:22:25.078713+00:00",
+          "outcome": "naga_panchami_identity_offering_roles_and_attributed_sculptural_witness",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-08-ananta",
+          "at": "2026-10-08T04:27:24.591664+00:00",
+          "outcome": "ananta_food_roles_and_textual_comparison",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-08-rabinarayana",
+          "at": "2026-10-08T05:25:52.157769+00:00",
+          "outcome": "rabinarayana_calendar_food_roles_and_catalogue_leads",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-08-somnath",
+          "at": "2026-10-08T06:29:19.536213+00:00",
+          "outcome": "somnath_narrative_food_and_literary_history_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-08-kukkuti",
+          "at": "2026-10-08T07:24:46.240962+00:00",
+          "outcome": "kukkuti_identity_comparative_text_food_and_catalogue_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-08-santoshi",
+          "at": "2026-10-08T08:33:31.267161+00:00",
+          "outcome": "santoshi_weekly_practice_food_roles_and_comparative_history_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-08-kedar",
+          "at": "2026-10-08T09:27:49.466924+00:00",
+          "outcome": "kedar_odia_narrative_counted_offerings_and_dating_holds",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-08-rai-damodara",
+          "at": "2026-10-08T10:34:56.057368+00:00",
+          "outcome": "rai_damodara_kartika_identity_food_roles_and_calendar_conflict_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-08-magha",
+          "at": "2026-10-08T11:36:17.713923+00:00",
+          "outcome": "magha_vow_pilgrimage_separation_and_1910_fair_reference_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-08-baisakha",
+          "at": "2026-10-08T22:55:15.459809+00:00",
+          "outcome": "baisakha_evening_meal_and_comparative_hospitality_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-08-guru-panchami",
+          "at": "2026-10-08T23:04:41.606719+00:00",
+          "outcome": "guru_panchami_three_identity_accounts_and_food_boundary_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-08-rushi-panchami",
+          "at": "2026-10-09T00:07:30.415998+00:00",
+          "outcome": "rushi_panchami_temple_calendar_story_and_offering_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-09-gouri-brata",
+          "at": "2026-10-09T03:11:09.655994+00:00",
+          "outcome": "gouri_literary_vigil_drawing_and_separate_food_comparison_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-09-bipattarini-brata",
+          "at": "2026-10-09T03:18:55.461686+00:00",
+          "outcome": "bipattarini_regional_narrative_and_scoped_food_comparison_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-09-osha-identity-audit",
+          "at": "2026-10-09T10:20:30.651528+00:00",
+          "outcome": "benatia_gap_then_purnima_disambiguation_guide",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-09-osha-reconciliation",
+          "at": "2026-10-09T10:32:04.704064+00:00",
+          "outcome": "fifteen_profiles_and_identity_guide_reconciled_validated_and_pushed",
+          "completion_criteria_met": false,
+          "git_revision": "721d7b332a34ce9a2724ae200c15e3e166ee3903",
+          "pull_request": "https://github.com/ahimanikya/utkal-project/pull/145"
+        },
+        {
+          "run_id": "2026-10-09-osha-coverage-audit",
+          "at": "2026-10-09T11:28:52.747480+00:00",
+          "outcome": "saved_inventory_coverage_audit_and_nonduplicate_research_priorities",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-09-sankata-chaturthi",
+          "at": "2026-10-09T12:30:32.609244+00:00",
+          "outcome": "sankata_rice_cake_and_identity_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-09-radhastami-brata",
+          "at": "2026-10-09T13:32:16.376951+00:00",
+          "outcome": "radhastami_odia_narrative_and_food_roles_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-09-shibaratri-brata",
+          "at": "2026-10-09T14:31:03.137244+00:00",
+          "outcome": "shibaratri_jagara_gaja_narratives_and_poem_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-09-janmastami-brata",
+          "at": "2026-10-09T17:04:03.553487+00:00",
+          "outcome": "janmastami_narrative_fast_breaking_and_food_roles_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-09-pusa-rabibara",
+          "at": "2026-10-09T17:13:30.870802+00:00",
+          "outcome": "pusa_rabibara_odia_narrative_offerings_and_muan_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-10-binayaka",
+          "at": "2026-10-09T22:24:09.667720+00:00",
+          "outcome": "binayaka_narrative_modaka_and_1936_bibliographic_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-10-skanda",
+          "at": "2026-10-09T22:33:59.473934+00:00",
+          "outcome": "skanda_calendar_practice_gap_and_scoped_1921_comparison",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-10-guru-purnima",
+          "at": "2026-10-09T23:29:16.622704+00:00",
+          "outcome": "guru_purnima_local_prasad_evidence_and_original_eight_profile_gap_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-10-shiva-pradosha",
+          "at": "2026-10-10T00:42:52.636789+00:00",
+          "outcome": "shiva_pradosha_comparative_text_timing_conflict_and_local_menu_gap_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-10-tarini",
+          "at": "2026-10-10T01:28:46.593134+00:00",
+          "outcome": "tarini_shrine_food_history_conflict_and_household_menu_gap_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-10-srabani-gouri",
+          "at": "2026-10-10T02:35:03.229119+00:00",
+          "outcome": "srabani_existing_gouri_profile_reused_with_separate_kashi_comparison",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-10-bajra-mahakali",
+          "at": "2026-10-10T03:37:47.474988+00:00",
+          "outcome": "bajra_mahakali_odia_scan_narrative_and_food_roles_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-10-mahastami",
+          "at": "2026-10-10T04:37:25.193690+00:00",
+          "outcome": "mahastami_household_food_scope_and_bhai_jiuntia_narrative_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-10-ashoka-astami",
+          "at": "2026-10-10T05:33:53.174138+00:00",
+          "outcome": "ashoka_astami_scoped_comparison_and_selected_inventory_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-10-osha-reconciliation",
+          "at": "2026-10-10T06:39:13.069779+00:00",
+          "outcome": "thirteen_profiles_and_revisions_reconciled_validated_and_pushed",
+          "completion_criteria_met": false,
+          "git_revision": "229570c30283ab7512d605bf2876e6b91e6f65ef",
+          "pull_request": "https://github.com/ahimanikya/utkal-project/pull/145"
+        },
+        {
+          "run_id": "2026-10-10-seasonal-public-food",
+          "at": "2026-10-10T07:41:05.728681+00:00",
+          "outcome": "historical_raja_service_and_undated_operator_evidence_separated_from_current_offers",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-10-raja",
+          "at": "2026-10-10T08:45:12.916881+00:00",
+          "outcome": "raja_narrative_existing_seasonal_identity_deepened",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-10-raja-review",
+          "at": "2026-10-10T09:52:08.378308+00:00",
+          "outcome": "raja_and_dated_food_evidence_reconciled_validated_and_pushed",
+          "completion_criteria_met": false,
+          "git_revision": "4bb4fdc1b69af27cdeaafe334333fc3b013c8965",
+          "pull_request": "https://github.com/ahimanikya/utkal-project/pull/145"
+        },
+        {
+          "run_id": "2026-10-10-seasonal-navigation",
+          "at": "2026-10-10T10:42:25.456209+00:00",
+          "outcome": "source_scoped_navigation_audit_saved",
+          "completion_criteria_met": false,
+          "fresh_fact_research": false
+        },
+        {
+          "run_id": "2026-10-10-navigation-review",
+          "at": "2026-10-10T14:03:23.725746+00:00",
+          "outcome": "seasonal_navigation_reconciled_tested_and_pushed",
+          "completion_criteria_met": false,
+          "git_revision": "8491012a52f8994389faca4232553e3dbbd852c8",
+          "pull_request": "https://github.com/ahimanikya/utkal-project/pull/145"
+        },
+        {
+          "run_id": "2026-10-10-prathamastami",
+          "at": "2026-10-10T14:41:06.609060+00:00",
+          "outcome": "prathamastami_family_food_and_historical_lead_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-10-prathamastami-review",
+          "at": "2026-10-10T15:32:38.691292+00:00",
+          "outcome": "prathamastami_reconciled_tested_and_pushed",
+          "completion_criteria_met": false,
+          "git_revision": "e336ff1d5cddd80139e3b7da5e1f418afa59b114",
+          "pull_request": "https://github.com/ahimanikya/utkal-project/pull/145"
+        },
+        {
+          "run_id": "2026-10-10-dutiya",
+          "at": "2026-10-10T16:41:39.080658+00:00",
+          "outcome": "dutiya_food_roles_retelling_and_history_gap_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-10-dutiya-review",
+          "at": "2026-10-10T22:46:18.599169+00:00",
+          "outcome": "dutiya_reconciled_tested_and_pushed",
+          "completion_criteria_met": false,
+          "git_revision": "cba3e533fb7fba295bc37769426d065d843b758f",
+          "pull_request": "https://github.com/ahimanikya/utkal-project/pull/145"
+        },
+        {
+          "run_id": "2026-10-10-budhei",
+          "at": "2026-10-10T23:15:45.717004+00:00",
+          "outcome": "budhei_objects_food_roles_and_story_leads_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-10-budhei-review",
+          "at": "2026-10-11T02:43:12.930418+00:00",
+          "outcome": "budhei_reconciled_tested_and_pushed",
+          "completion_criteria_met": false,
+          "git_revision": "c680834dce8a16cbb09e3198a4422ed17b7fe8c0",
+          "pull_request": "https://github.com/ahimanikya/utkal-project/pull/145"
+        },
+        {
+          "run_id": "2026-10-11-alana",
+          "at": "2026-10-11T02:50:03.443858+00:00",
+          "outcome": "alana_collected_narrative_salt_scope_calendar_conflict_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-11-alana-review",
+          "at": "2026-10-11T04:48:26.488900+00:00",
+          "outcome": "alana_reconciled_tested_and_pushed",
+          "completion_criteria_met": false,
+          "git_revision": "0f354ea54176a0a0ee3f7af7e8dc65b1afce39b5",
+          "pull_request": "https://github.com/ahimanikya/utkal-project/pull/145"
+        },
+        {
+          "run_id": "2026-10-11-kanji-food-roles",
+          "at": "2026-10-11T05:45:04.590566+00:00",
+          "outcome": "kanji_anla_food_roles_local_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-11-kanji-review",
+          "at": "2026-10-11T07:13:23.015108+00:00",
+          "outcome": "kanji_food_roles_reconciled_tested_pushed",
+          "completion_criteria_met": false,
+          "git_revision": "b9957c92e3bdbb959d651c414f5d5adb2d0ca6d2",
+          "pull_request": "https://github.com/ahimanikya/utkal-project/pull/145"
+        },
+        {
+          "run_id": "2026-10-11-osha-gap-audit",
+          "at": "2026-10-11T07:52:48.745717+00:00",
+          "outcome": "53_profile_gap_audit_and_original_fetch_unavailable",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-11-samba-food-sequence",
+          "at": "2026-10-11T08:46:55.187738+00:00",
+          "outcome": "samba_saved_original_food_sequence_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-11-samba-review",
+          "at": "2026-10-11T09:58:23.204420+00:00",
+          "outcome": "samba_food_sequence_reconciled_tested_pushed",
+          "completion_criteria_met": false,
+          "git_revision": "48f210988d4dc7ddee0d70afdb8f44c4a77bd070",
+          "pull_request": "https://github.com/ahimanikya/utkal-project/pull/145"
+        },
+        {
+          "run_id": "2026-10-11-sabitri-sequence",
+          "at": "2026-10-11T11:39:27.334461+00:00",
+          "outcome": "sabitri_literary_choice_and_food_roles_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-11-sabitri-review",
+          "at": "2026-10-11T12:25:07.167667+00:00",
+          "outcome": "sabitri_sequence_reconciled_tested_pushed",
+          "completion_criteria_met": false,
+          "git_revision": "745edc6e9a42beed8fc44c11d19fbca944c01070",
+          "pull_request": "https://github.com/ahimanikya/utkal-project/pull/145"
+        },
+        {
+          "run_id": "2026-10-11-manabasa-text",
+          "at": "2026-10-11T13:58:13.038911+00:00",
+          "outcome": "manabasa_odia_textual_roles_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-11-sudasa-food-text",
+          "at": "2026-10-11T15:25:26.026622+00:00",
+          "outcome": "sudasa_supplementary_food_instructions_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-11-osha-history-science",
+          "at": "2026-10-11T16:29:39.798418+00:00",
+          "outcome": "user_requested_article_and_new_tapoi_print_lead",
+          "completion_criteria_met": false,
+          "remaining": "Original field/ritual texts and situated practice remain open; existing retry holds retained."
+        },
+        {
+          "run_id": "2026-10-11-manabasa-review",
+          "at": "2026-10-11T14:35:52.585358+00:00",
+          "outcome": "manabasa_sequence_reconciled_tested_pushed",
+          "completion_criteria_met": false,
+          "git_revision": "629d385dee1a711af4797f52888b40df591b4442",
+          "pull_request": "https://github.com/ahimanikya/utkal-project/pull/145"
+        },
+        {
+          "run_id": "2026-10-11-sudasa-review",
+          "at": "2026-10-11T16:44:23.252273+00:00",
+          "outcome": "sudasa_supplementary_passages_reconciled_pushed",
+          "completion_criteria_met": false,
+          "git_revision": "cbc1fbcc8f34c2fce601bc5de21f24d40e926bb0",
+          "pull_request": "https://github.com/ahimanikya/utkal-project/pull/145"
+        },
+        {
+          "run_id": "2026-10-11-khudurukuni-review",
+          "at": "2026-10-11T17:43:20.930887+00:00",
+          "outcome": "saved_article_and_source_register_reconciled_for_review",
+          "completion_criteria_met": false
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "culture/osha-brata-seasonal-food.md",
+          "visitor-index/seasonal-food-guide.md",
+          "references/data/seasonal-food-calendar.json",
+          "food/enduri-pitha.md",
+          "food/poda-pitha.md",
+          "food/manda-pitha.md",
+          "food/arisa-pitha.md",
+          "food/bela-pana.md",
+          "food/preparation-and-variation.md",
+          "sources/food-tourism.md",
+          "sources/food-air-raja2026.md",
+          "sources/osha-review2006.md",
+          "sources/osha-mahanti.md",
+          "sources/osha-lakshmi2021.md",
+          "sources/osha-ray2020.md",
+          "sources/osha-patra2019.md",
+          "sources/osha-ghadai2018.md",
+          "sources/osha-jagatsinghpur.md",
+          "sources/osha-samba2013.md",
+          "sources/osha-konark2015.md",
+          "sources/osha-savitri-epic.md",
+          "culture/osha/khudurukuni.md",
+          "culture/osha/manabasa-gurubara.md",
+          "culture/osha/sudasa-brata.md",
+          "culture/osha/dutiya.md",
+          "culture/osha/budhei.md",
+          "culture/osha/alana.md",
+          "culture/osha/kanji-anla.md",
+          "culture/osha/bada.md",
+          "culture/osha/samba-dashami.md",
+          "culture/osha/prathamastami.md",
+          "culture/osha/sabitri.md",
+          "culture/osha/janhi.md",
+          "references/data/osha-culture.json",
+          "sources/osha-nmm-catalogue.md",
+          "sources/osha-osm-literature.md",
+          "sources/osha-sudasa-scan.md",
+          "culture/osha-text-witnesses.md",
+          "references/data/osha-text-witnesses.json",
+          "sources/osha-sudasa-prose.md",
+          "culture/osha/sudasa-text-comparison.md",
+          "references/data/sudasa-text-comparison.json",
+          "sources/osha-kumar2015.md",
+          "references/data/osha-mangala-research.json",
+          "culture/osha/chaitra-mangala.md",
+          "sources/osha-sarala2009.md",
+          "sources/osha-chaitra-odiaorg.md",
+          "sources/osha-pana2023.md",
+          "references/data/chaitra-mangala-research.json",
+          "culture/osha/sathi.md",
+          "sources/osha-sathi-mahapatra.md",
+          "sources/osha-sathi-behera.md",
+          "references/data/sathi-research.json",
+          "culture/osha/nisha-mangalabara.md",
+          "sources/osha-nisha-worldcat.md",
+          "sources/osha-nisha-kalingahistory.md",
+          "references/data/nisha-mangalabara-research.json",
+          "culture/osha/pua-jiuntia.md",
+          "culture/osha/bhai-jiuntia.md",
+          "sources/osha-kesavan-jiuntia.md",
+          "sources/osha-barpali-pua.md",
+          "references/data/jiuntia-research.json",
+          "culture/dalkhai.md",
+          "culture/osha/nuakhai.md",
+          "sources/osha-nuakhai-singh2012.md",
+          "references/data/nuakhai-research.json",
+          "culture/ghumura.md",
+          "sources/osha-dhabaleswar-tourism.md",
+          "sources/osha-dhabaleswar-incredibleindia.md",
+          "references/data/bada-research.json",
+          "food/gaja-kanti-evidence.md",
+          "sources/osha-kanji-sarangi2018.md",
+          "sources/osha-kanji-mahakud2021.md",
+          "references/data/kanji-anla-research.json",
+          "food/torani-kanji.md",
+          "culture/osha/bata.md",
+          "sources/osha-bata-odiaportal.md",
+          "references/data/bata-research.json",
+          "culture/osha/pandu.md",
+          "sources/osha-pandu-puriwaves.md",
+          "sources/osha-pandu-odiaportal.md",
+          "sources/osha-jhoti-biswal-dash2020.md",
+          "references/data/pandu-research.json",
+          "culture/osha/shani-tota.md",
+          "references/data/shani-tota-research.json",
+          "culture/osha/bali-trutiya.md",
+          "references/data/bali-trutiya-research.json",
+          "sources/osha-bali-trutiya-scan.md",
+          "culture/osha/sita-navami.md",
+          "references/data/sita-navami-research.json",
+          "sources/osha-sita-valmiki-rao.md",
+          "sources/osha-sita-panchavati2024.md",
+          "culture/osha/rambha-trutiya.md",
+          "references/data/rambha-trutiya-research.json",
+          "sources/osha-rambha-dutt1908.md",
+          "sources/osha-rambha-garuda-sanskrit.md",
+          "culture/osha/nagala-chaturthi.md",
+          "references/data/nagala-chaturthi-research.json",
+          "sources/osha-nagala-samal2019.md",
+          "sources/osha-nagala-odiaportal.md",
+          "sources/osha-astika-ganguli.md",
+          "culture/osha/naga-panchami.md",
+          "references/data/naga-panchami-research.json",
+          "sources/osha-naga-panda2004.md",
+          "sources/osha-naga-osm-archaeology.md",
+          "culture/osha/ananta-brata.md",
+          "references/data/ananta-brata-research.json",
+          "sources/osha-ananta-bhavishya.md",
+          "sources/osha-ananta-agni.md",
+          "sources/osha-ananta-kamakoti.md",
+          "sources/osha-ananta-manual.md",
+          "culture/osha/rabinarayana-brata.md",
+          "references/data/rabinarayana-brata-research.json",
+          "sources/osha-rabinarayana-adhikari2020.md",
+          "culture/osha/somnath-brata.md",
+          "references/data/somnath-brata-research.json",
+          "sources/osha-somnath-odia-text.md",
+          "sources/osha-prusty2014-prose.md",
+          "culture/osha/kukkuti-brata.md",
+          "references/data/kukkuti-brata-research.json",
+          "sources/osha-kukkuti-shabdakalpa.md",
+          "sources/osha-kukkuti-ignca.md",
+          "sources/osha-kukkuti-osm-smrti.md",
+          "culture/osha/santoshi-mata-brata.md",
+          "references/data/santoshi-mata-brata-research.json",
+          "sources/osha-santoshi-lutgendorf.md",
+          "sources/osha-santoshi-odia-lead.md",
+          "culture/osha/kedar-brata.md",
+          "references/data/kedar-brata-research.json",
+          "sources/osha-kedar-pothi.md",
+          "culture/osha/rai-damodara-brata.md",
+          "references/data/rai-damodara-brata-research.json",
+          "sources/osha-kartika-patra-punit2018.md",
+          "sources/osha-habisha-city-cuisine.md",
+          "culture/osha/magha-brata.md",
+          "references/data/magha-brata-research.json",
+          "sources/osha-magha-swarup1910.md",
+          "sources/osha-chandrabhaga-tourism.md",
+          "culture/osha/baisakha-brata.md",
+          "references/data/baisakha-brata-research.json",
+          "sources/osha-baisakha-kamakoti.md",
+          "culture/osha/guru-panchami.md",
+          "references/data/guru-panchami-research.json",
+          "sources/osha-panchami-ojha2022.md",
+          "culture/osha/rushi-panchami.md",
+          "references/data/rushi-panchami-research.json",
+          "sources/osha-jagannath-festivals2003.md",
+          "sources/osha-markandeswar2013.md",
+          "culture/osha/gouri-brata.md",
+          "references/data/gouri-brata-research.json",
+          "sources/osha-gouri-malik2021.md",
+          "culture/osha/bipattarini-brata.md",
+          "references/data/bipattarini-brata-research.json",
+          "sources/osha-bipattarini-bhattacharyya2011.md",
+          "sources/osha-bipattarini-rajpur.md",
+          "culture/osha-identity-guide.md",
+          "references/data/osha-identity-audit.json",
+          "culture/osha-coverage-audit.md",
+          "references/data/osha-coverage-audit.json",
+          "culture/osha/sankata-chaturthi.md",
+          "references/data/sankata-chaturthi-research.json",
+          "sources/osha-dash-festivals2006.md",
+          "culture/osha/radhastami-brata.md",
+          "references/data/radhastami-brata-research.json",
+          "sources/osha-radhastami-shubhapallaba2020.md",
+          "sources/osha-radhastami-padma.md",
+          "sources/osha-radhastami-rgd2026.md",
+          "sources/osha-jagannath-behera2019.md",
+          "culture/osha/shibaratri-brata.md",
+          "references/data/shibaratri-brata-research.json",
+          "sources/osha-shivaratri-shiva40.md",
+          "sources/osha-shibaratri-gopabandhu.md",
+          "culture/osha/janmastami-brata.md",
+          "references/data/janmastami-brata-research.json",
+          "sources/osha-bhagavata-krishna-birth.md",
+          "sources/osha-odisha-festivals-overview.md",
+          "sources/osha-iskcon-bhubaneswar-calendar2026.md",
+          "culture/osha/pusa-rabibara-brata.md",
+          "references/data/pusa-rabibara-research.json",
+          "sources/osha-pusa-pothi.md",
+          "sources/osha-muan-nanda2023.md",
+          "culture/osha/binayaka-brata.md",
+          "references/data/binayaka-research.json",
+          "sources/osha-binayaka-dharmagrantha.md",
+          "sources/osha-gazette1937-binayaka.md",
+          "culture/osha/skanda-sasthi-brata.md",
+          "references/data/skanda-sasthi-research.json",
+          "sources/osha-ayyar1921-skanda.md",
+          "sources/osha-karttikeya-panda2010.md",
+          "culture/osha/guru-purnima-brata.md",
+          "references/data/guru-purnima-research.json",
+          "sources/osha-guru-vk2024.md",
+          "sources/osha-guru-rkm2026.md",
+          "sources/osha-guru-rkm-history.md",
+          "culture/osha/shiva-pradosha-brata.md",
+          "references/data/pradosha-research.json",
+          "sources/osha-pradosha-skanda.md",
+          "culture/osha/tarini-brata.md",
+          "references/data/tarini-research.json",
+          "sources/osha-tarini-mallebrein2004.md",
+          "sources/osha-tarini-kendujhar.md",
+          "references/data/srabani-gouri-comparison.json",
+          "sources/osha-mangala-gauri-kashi.md",
+          "culture/osha/bajra-mahakali-brata.md",
+          "references/data/bajra-mahakali-research.json",
+          "sources/osha-bajra-pothi.md",
+          "culture/osha/mahastami-brata.md",
+          "references/data/mahastami-research.json",
+          "sources/osha-durgastami-book-lead.md",
+          "culture/osha/ashoka-astami-brata.md",
+          "references/data/ashoka-astami-research.json",
+          "sources/osha-ashoka-garuda.md",
+          "sources/osha-ashoka-incredible.md",
+          "visitor-index/seasonal-food-offer-evidence.md",
+          "references/data/seasonal-public-food-evidence.json",
+          "sources/food-raja-otdc2021.md",
+          "sources/food-otdc-raja-undated.md",
+          "culture/osha/raja-parba.md",
+          "references/data/raja-research.json",
+          "sources/osha-raja-mohapatra2006.md",
+          "culture/osha-seasonal-navigation.md",
+          "references/data/osha-seasonal-navigation.json",
+          "references/data/prathamastami-research.json",
+          "sources/osha-pratham-bharati.md",
+          "sources/osha-pratham-svanir.md",
+          "sources/osha-pratham-text-lead.md",
+          "references/data/dutiya-research.json",
+          "food/ghanta-tarkari.md",
+          "sources/osha-dutiya-tripathy2023.md",
+          "sources/food-jajpur-tourism-ghanta.md",
+          "references/data/budhei-research.json",
+          "sources/osha-budhei-pradhan2023.md",
+          "sources/osha-budhei-puriwaves.md",
+          "sources/osha-budhei-portal-lead.md",
+          "references/data/alana-research.json",
+          "sources/osha-alana-shrutilipi2025.md",
+          "references/data/osha-coverage-audit.json",
+          "references/data/samba-food-sequence.json",
+          "references/data/sabitri-sequence.json",
+          "references/data/manabasa-text-sequence.json",
+          "references/data/sudasa-food-text.json",
+          "stories/khudurukuni-maritime-knowledge.md",
+          "references/data/osha-maritime-knowledge.json"
+        ],
+        "project_records": [
+          "kb/research/product/destination-and-tour-book.md",
+          "kb/research/voices/culture-trails.json"
+        ],
+        "audit_date": "2026-10-07",
+        "map": "references/data/research-map.json"
+      },
+      "selection_basis": "Explicit new user request; prior task IDs, attempts and retry dates preserved.",
+      "scope_history": [
+        {
+          "at": "2026-10-07T05:30:57.424485+00:00",
+          "previous_done_when": "Deliver a sourced seasonal cultural register spanning selected osha, brata and parba, with food or restriction associations, traditional calendar rules, locality/household variants and explicit unknowns; inspect original sources for adopted claims. Provide a visitor guide distinguishing cultural reading from independently dated serving/access evidence. Do not fabricate annual dates, universal menus, hosts or bookings.",
+          "reason": "User explicitly requested deep histories, narratives, food culture and structured website pages; looping authorised."
+        }
+      ],
+      "research_batches": [
+        {
+          "id": "OSHA-B01",
+          "scope": "Original recovery and twelve profile checkpoints",
+          "status": "checkpoint_saved"
+        },
+        {
+          "id": "OSHA-B02",
+          "scope": "Odia katha editions: Sudasa, Budhei and Dutiya; earliest witnesses, variants and food passages",
+          "status": "checkpoint_saved",
+          "checkpoint": "Seven-dimension Sudasa narrative comparison saved; authorship wording corrected. Budhei/Dutiya manuscripts and earliest chronology remain unresolved.",
+          "next_step": "Retry dated editions and Budhei/Dutiya manuscript images on or after 2026-10-14. Proceed to independent OSHA-B03 meanwhile.",
+          "retry_after": "2026-10-14",
+          "retry_scope": "Unresolved dates and inaccessible original manuscripts; not a completed history."
+        },
+        {
+          "id": "OSHA-B03",
+          "scope": "Chaitra Mangala, Sathi, Janhi and Nisha Mangalabara; local stories and women’s ritual work",
+          "status": "checkpoint_saved",
+          "checkpoint": "All four selected B03 profiles now have bounded checkpoints; full kathas and earliest chronology remain open.",
+          "next_step": "Continue OSHA-B04: western Odisha Puajiuntia/Bhaijiuntia and Nuakhai, searching saved native records first and retaining regional identities. B02/B03 checkpoints are pushed to draft PR145; retry unresolved textual witnesses on/after2026-10-14.",
+          "retry_after": "2026-10-14",
+          "retry_scope": "Unresolved Janhi/Chaitra/Sathi textual witnesses and original issue; Nisha print book and ethnographic chapter. Checkpoint completion is not a completed history."
+        },
+        {
+          "id": "OSHA-B04",
+          "scope": "Western Odisha Puajiuntia/Bhaijiuntia and Nuakhai; do not merge coastal identities",
+          "status": "checkpoint_saved",
+          "checkpoint": "Pua Jiuntia, Bhai Jiuntia and Nuakhai have bounded regional practice/food notes. Earliest chronology, fuller texts and regional variation remain open.",
+          "next_step": "Continue OSHA-B05 using saved Bada/Kanji Anla and Mahanti accounts first. B04 profiles are pushed to draft PR145; retry unresolved B02/B03/B04 evidence on/after 2026-10-14. PR title/body refresh awaits explicit approval after automated review rejection.",
+          "retry_after": "2026-10-14",
+          "retry_scope": "Original Jiuntia index/article, Nuakhai historical witnesses and 1991 order; checkpoint is not completed history."
+        },
+        {
+          "id": "OSHA-B05",
+          "scope": "Bada, Kanji Anla, Bata, Danda Panhara, Pandu and Shani: primary local accounts and calendar conflicts",
+          "status": "checkpoint_saved",
+          "checkpoint": "Bada, Kanji Anla, Bata, Pandu and Shani/Tota checkpoints reconciled to existing draft PR145; Danda identity and deeper textual/local histories remain held.",
+          "next_step": "Continue OSHA-B06 with Sukutuni Osha, the earliest eligible remaining inventory lead, using saved Dash and Mahanti first. B05 checkpoints are pushed to existing draft PR145; retry unresolved B02–B05 evidence on/after2026-10-14. Preserve the existing PR metadata approval boundary.",
+          "retry_after": "2026-10-14",
+          "retry_scope": "Bada Osha original katha/Puranic citation, temple schedule, tourism-wording conflict and Cuttack original records. Kanji Anla dated textual witness, locality-specific calendar and ritual/food role clarification. Bata/Danda names, calendar and original katha; Odisha Review2012 Panthei/Bata indexed lead requires original recovery. Pandu original text/imprint, Ananta Das identity, food terminology and sweeping sequence. Shani/Tota original katha, dated history, local mela distinctions and food preparation."
+        },
+        {
+          "id": "OSHA-B06",
+          "scope": "Extend remaining brata inventory in bounded batches and then verify annual dates/consented public food offers",
+          "status": "in_progress",
+          "checkpoint": "Sabitri Brata food-sequence revision tested and pushed to existing draftPR145. Historical/local/calendar gaps remain open; no public release.",
+          "next_step": "Audit the remaining53-profile narrative/history gaps against existing source captures and14–18October holds, then deepen the earliest eligible unheld field in one bounded batch. Sabitri Brata food sequence reconciled into draftPR145; local katha, situated fruit selection and silapua/tulasi-chaura variants retry18October retained. No public release inferred.",
+          "retry_after": "2026-10-14",
+          "retry_scope": "Sukutuni identified original katha/calendar/food evidence; Bali Trutiya parent volume/imprint, author identity, second witness, locality and boat-jhoti conflict. Sita Navami original Odia katha, Baisakha/Jyestha conflict, local foods and advertised-versus-observed event evidence. Rambha Trutiya local katha, food, textual edition and scope comparison:15October. Nagala katha, catalogue images, chronology and local food:15October. Naga Panchami textual/local food and historical evidence:15October. Ananta local text, calendar and preparation evidence:15October. Rabinarayana full text, calendar and food preparation: 15 October. Somnath primary literary dating, manuscripts and household preparation: 15 October. Kukkuti local manuscript, Odia text and preparation: 15 October. Santoshi Odia text, local chronology and household food:15October. Kedar parent edition, Gazette identity and local food:15October. Rai Damodara original katha, calendar conflict, chronology and household food:15October. Magha original katha, Sarala passage, vow chronology and household/fair food:15October. Baisakha catalogue/original text, chronology and household preparation:15October. Guru Panchami identity, chronology, calendar, local katha and food:15October. Rushi Panchami full katha, chronology and food preparation:15October. Gouri local identity, calendar, original text and food:16October. Bipattarini Odia text, local identity, calendar and foods:16October. Benatia/Purnima local identity and June2013 original issue:16October. Sankata identity, Odia text, complete preparation and original December2006 page images:16October. Radhastami original edition, author attribution, manuscript rows and local dishes:16October. Shibaratri original text, history, gaja preparation, poem facsimile and government page recovery: 16 October. Janmastami Odia text, history, local foods and original Jeuta/Banabhoji evidence: 16 October. Pusa Rabibara parent edition, dates, manuscript CY-1907 and local pitha/muan: 16 October. Binayaka edition/calendar comparison,1936 copy, manuscript leads and local modaka: 16 October. Skanda dated local panji, practice, katha and food: 16 October. Guru Purnima Pausa identity, local text/history and dishes/fulfilment: 16 October. Shiva Pradosha local text, timing, chronology and food: 17 October. Tarini original evidence, anna-bhoga date conflict and household food:17October. Srabani original text, edition and local food:17October; prior Gouri16October hold retained. Bajra Mahakali original imprint, aradra and local food/calendar:17October. Mahastami original text, local identity and food roles:17October. Ashoka Astami Odia text, historical continuity and local food:17October. Current operator/Habisha food-service notice, price and access:17October. Raja earlier witnesses, museum article, local recipes and situated participant accounts:17October. Prathamastami cited1915 edition,1991 chapter image, local recipe/leaf variation and date/temple scope:17October. Dutiya original katha/editions, plant/item identities, local recipe and calendar comparison:17October."
+        }
+      ],
+      "website_candidate": {
+        "pull_request": "https://github.com/ahimanikya/utkal-project/pull/145",
+        "revision": "745edc6e9a42beed8fc44c11d19fbca944c01070",
+        "status": "draft_review",
+        "git_push": true,
+        "published": false,
+        "scope": "53 profiles,15 narrative checkpoints and38 early notes; Sabitri Brata literary choice, story vow and source-specific group reading/fruit sharing reconciled. Older chronology and calendar remain unresolved.",
+        "metadata_update": "Title/body still describe fifteen profiles; automated review rejected update; prepared body saved locally."
+      },
+      "evidence_holds": [
+        {
+          "profile_id": "OSHA-001",
+          "field": "Deeti Ray2022 original journal paper",
+          "retry_after": "2026-10-14",
+          "reason": "Institutional bot protection; publisher403; original not recovered."
+        },
+        {
+          "profile_id": "OSHA-009",
+          "field": "Original katha edition, situated food roles and printed bowl term",
+          "retry_after": "2026-10-18"
+        },
+        {
+          "profile_id": "OSHA-011",
+          "field": "Local katha edition, fruit selection and silapua/tulasi-chaura practice",
+          "retry_after": "2026-10-18"
+        },
+        {
+          "profile_id": "OSHA-002",
+          "field": "Identified Lakshmi Purana imprint/manuscript,1868 header verification and situated household edition",
+          "retry_after": "2026-10-18"
+        },
+        {
+          "profile_id": "OSHA-003",
+          "field": "Digital Sudasa passage edition provenance and situated recipe/distribution practice",
+          "retry_after": "2026-10-18"
+        }
+      ]
     }
   ],
   "queue_revision_history": [
@@ -3507,6 +6500,21 @@
       "at": "2026-10-01T20:10:23.860704+00:00",
       "run_id": "2026-10-01-rice-research",
       "scope": "User-requested rice research added as three bounded tasks; prior task IDs and order retained."
+    },
+    {
+      "at": "2026-10-04T22:50:11.558328+00:00",
+      "run_id": "2026-10-04-gi-inventory",
+      "scope": "Added and completed bounded RES-069 inventory at user request; future validity and economics gaps retained."
+    },
+    {
+      "at": "2026-10-02T20:40:37.286473+00:00",
+      "run_id": "2026-10-02-district-business-opportunities",
+      "scope": "User-directed entrepreneurship programme added as RES-063–067 at priority0.1–0.5; prior task IDs, status and history retained. RES-064 resumes first among eligible in-progress tasks."
+    },
+    {
+      "at": "2026-10-03T06:28:03.412029+00:00",
+      "run_id": "2026-10-03-bargarh-catalogue-service",
+      "scope": "RES-065 sequencing-only dependency on RES-064 removed for independently researchable next dossier at user request; coffee task unchanged. Completed means desk deliverable only."
     }
   ],
   "deduplication_policy": "Read methods/research-map.md and each task’s reuse_before_research before browsing. A publication reused by several IDs is not independent corroboration. Keep source/edition/scope and review states.",

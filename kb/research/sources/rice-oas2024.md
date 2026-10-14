@@ -19,3 +19,7 @@ Department of Agriculture and Farmers’ Empowerment, Odisha. Primary PDF text c
 ## Extended capture · 1 October 2026
 
 Printed p.90 supplies the consecutive historical rice series; printed p.67 supplies selected district measures. The detailed and historical 2023–24 columns have different precision and are preserved separately. Direct download timed out; web text was available.
+
+## Sugar-factory extension · 2026-10-06
+
+Printed p.109 / table29 identified through the publisher-indexed contents. Sugar-output, cane-input and recovery rows are captured in the [sugar study](../economy/sugar-production.md). Direct PDF and page-image retrieval failed; values remain pending facsimile review. This extends the existing source identity; it does not freshly verify the rice tables.

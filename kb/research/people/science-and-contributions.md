@@ -53,3 +53,16 @@ The [structured timeline and research lanes](../references/data/science-heritage
 [Sanghamitra Mohanty](sanghamitra-mohanty.md) links the [Odia speech chapter](../works/odia-speech-wiener-filter-2012.md) and [edited proceedings](../works/speech-sound-music-2012.md). [Susmita Mohanty](susmita-mohanty.md) links design, enterprise and public service through a [space-policy article](../works/newspace-india-inspace-2022.md). These reading routes connect people to credited work; role and publication dates remain visible.
 
 The initial RES-029 deliverable now contains twelve selected identities, including the existing project-native Samanta entry. It spans documented historical astronomy, modern research and science communication while preserving ancient/early-medieval attribution gaps. This completes a bounded timeline, not all scientific history. Full texts, disputed dates and further personalities remain follow-up research; no person is credited with a collective tradition solely from regional association.
+
+
+## Sadhaba maritime-science study · 4 October 2026
+
+[Sadhaba voyages and practical science](../history/sadhaba-maritime-science.md) adds collective technical knowledge without inventing named ancient scientists or formal treatises.
+
+## Mineral-research connections · 3 October 2026
+
+[From RRL to IMMT](../economy/minerals-research-immt.md) adds institutional history, a named researcher’s professional connection, and dated battery, fly-ash and pilot-facility stages. The evidence does not establish commercial output or current availability.
+
+## Mineral scientists · 4 October 2026
+
+[Mamata Mohapatra](mamata-mohapatra.md) and [M.G. Sujana](m-g-sujana.md) add documented education/work connections to Odisha, linked to research and credited collaborations. Institutional ties do not establish birthplace or mother tongue.

@@ -22,3 +22,7 @@ The [BDA town-planning mechanism](../evidence/u07.md) documents land pooling and
 ## Research still needed
 
 Collect neighbourhood-level transport, current public spaces, representative rents, university and workplace locations, resident interviews, venue choices and measured air-quality data. The research has not established comparative nightlife quality, broad affordability, a youth-friendliness rank or consistently low pollution. Use named experiences until those comparisons exist.
+
+## Mineral-research connections · 3 October 2026
+
+[From RRL to IMMT](../economy/minerals-research-immt.md) adds institutional history, a named researcher’s professional connection, and dated battery, fly-ash and pilot-facility stages. The evidence does not establish commercial output or current availability.

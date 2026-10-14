@@ -1,0 +1,123 @@
+{
+  "run_id": "2026-10-10-ashoka-astami",
+  "checked_at": "2026-10-10T05:33:53.174138+00:00",
+  "local_date": "2026-10-10",
+  "task_id": "RES-077",
+  "profile_id": "OSHA-052",
+  "source_checks": [
+    {
+      "source_id": "osha-ashoka-garuda",
+      "url": "https://www.wisdomlib.org/hinduism/book/the-garuda-purana-dutt/d/doc122613.html",
+      "status": "retrieved",
+      "checked_at": "2026-10-10T05:33:53.174138+00:00",
+      "locator": "Chapter CXXXIII opening paragraph, before Mahanavami; web line65",
+      "scope": "Primary religious prescription in English translation: eight ashoka flower buds, Chaitra bright eighth with Punarvasu, prayer addressing ashoka as dear to Hara. Host-attributed1908 translation not original Sanskrit composition date. Print facsimile not inspected. No local Odisha practice, recipe, botanical identification or health effect established.",
+      "method": "Web original page text inspected"
+    },
+    {
+      "source_id": "osha-ashoka-incredible",
+      "url": "https://www.incredibleindia.gov.in/en/odisha/bhubaneswar/asokastami",
+      "status": "retrieved",
+      "checked_at": "2026-10-10T05:33:53.174138+00:00",
+      "locator": "Historical Roots and Celebratory Myths; The Spectacle of the Rukuna Rath Yatra; Engaging in the Festivities; Timings",
+      "scope": "Institutional tourism interpretation of Bhubaneswar festival and Rama legend. No dated foundation record, named household menu, serving venue or current event timetable. Deity roster and crowd generalisations not adopted; generic gastronomy wording not a dish-level association.",
+      "method": "Web original page text inspected"
+    },
+    {
+      "source_id": "osha-mahanti",
+      "run_id": "2026-10-10-ashoka-astami",
+      "checked_at": "2026-10-10T05:33:53.174138+00:00",
+      "locator": "Printed53/PDF69 household entry; printed107–108/PDF123–124 festival legend",
+      "scope": "Surya household entry separated from festival Rama-Durga legend; unsupported extinction claim held.",
+      "method": "Saved original rendered and visually inspected",
+      "local_capture": "work/osha-deep-study/mahanti.pdf",
+      "sha256": "8dd1d610e7e5df0dcb8f77a5a4a75c267fb3fb43480df2e24d39bbe312070f22",
+      "visually_inspected_pdf_pages": [
+        69,
+        123,
+        124
+      ],
+      "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf",
+      "status": "saved_evidence_reused"
+    }
+  ],
+  "failed_fetches": [],
+  "reuse": [
+    "query_research.py Ashoka and saved coverage/Mahanti search before browsing.",
+    "Native destination-and-tour-book and culture-trails searched; no matching passage found in those pointers. Map not an exhaustive semantic audit.",
+    "Existing Samba Dashami reused as an explained comparison, not a source of Ashoka dishes."
+  ],
+  "scopes": [
+    {
+      "setting": "Household Surya vow",
+      "source_id": "osha-mahanti",
+      "locator": "Printed53/PDF69",
+      "food": null,
+      "full_katha": null
+    },
+    {
+      "setting": "Festival legend and Rukuna Ratha",
+      "source_ids": [
+        "osha-mahanti",
+        "osha-ashoka-incredible"
+      ],
+      "household_equivalence_established": false
+    },
+    {
+      "setting": "Garuda Purana prescription",
+      "source_id": "osha-ashoka-garuda",
+      "locator": "Chapter CXXXIII opening",
+      "item": "eight ashoka flower buds",
+      "role": "ritual consumption in translated prescription",
+      "odisha_household_use_established": false,
+      "recipe": null,
+      "botanical_identity_verified": false
+    }
+  ],
+  "claims_held": [
+    {
+      "claim": "Household vow no longer observed",
+      "source_id": "osha-mahanti",
+      "reason": "No survey, locality or current prevalence evidence; not an extinction conclusion."
+    },
+    {
+      "claim": "Rama founded the procession",
+      "source_ids": [
+        "osha-mahanti",
+        "osha-ashoka-incredible"
+      ],
+      "reason": "Attributed legend, not dated historical event."
+    },
+    {
+      "claim": "Ritual consumption removes sorrow",
+      "source_id": "osha-ashoka-garuda",
+      "reason": "Textual religious promise, not a demonstrated effect."
+    }
+  ],
+  "discovery_not_adopted": [
+    {
+      "url": "https://thebrahmi.com/wp-content/uploads/2024/05/The-Brahmi-Volume-1-Issue-1.pdf",
+      "reason": "Search-indexed later article attributes a Sita/eight-buds account to Balarama Dasa; original Ramayana passage and edition not inspected. No literary chronology adopted."
+    },
+    {
+      "url": "https://www.indica.today/quick-reads/rukuna-yatra-lingaraja/",
+      "reason": "Secondary festival/tree account discovered; not used to establish household menu or independent historical corroboration."
+    }
+  ],
+  "followup": {
+    "retry_after": "2026-10-17",
+    "needs": [
+      "Can an original Odia household katha or dated witness identify the Surya vow and its transmission?",
+      "What evidence supports continuity, change or non-observance in named localities?",
+      "Can an identifiable print edition and Sanskrit passage verify the digital Garuda Purana transcription?",
+      "Does an inspected Balarama Dasa Ramayana passage connect Sita and ashoka buds, as a later article suggests?",
+      "What foods are offered, shared and eaten in each household or temple setting, with recipes and local names?",
+      "Can a current authoritative schedule and willing host establish a specific visitor opportunity?"
+    ],
+    "independent_next": "Existing website candidate reconciliation"
+  },
+  "origin_date": null,
+  "annual_date": null,
+  "fieldwork_conducted": false,
+  "human_review_claimed": false
+}

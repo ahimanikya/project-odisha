@@ -39,3 +39,19 @@ Obtain an authoritative account of ritual context, access and appropriate photog
 ## Jagannath evidence checkpoint · 2 October 2026 UTC
 
 A 1225 record edited by D. C. Sircar documents land supporting offerings of milk, ghee, rice and curds to Purusottama. This links food and patronage in the historical record; it does not prove an unchanged modern menu, current meal count or revenue. [Edition, printed p.198; PDF p.275](https://ignca.gov.in/Asi_data/35546.pdf). [Full historical context](../history/jagannath-origins.md).
+
+[GI opportunity programme](../economy/gi-opportunity-programme.md) — candidate research, existing-application checks and producer-led dossier preparation; no new GI eligibility or origin claim.
+
+[Temple-food GI evidence](temple-food-gi-governance.md) — separate the goods, production place, ritual status and producer/custodian mandate before proposing protection.
+
+## Gaja/Kanti evidence · 5 October 2026
+
+[Gaja and Kanti evidence](gaja-kanti-evidence.md) separates source-specific ingredient descriptions, similarly named sweets and the unresolved temple-product scope.
+
+## Poda/arisa scope · 5 October 2026
+
+[Poda and arisa place evidence](poda-arisa-place-evidence.md) keeps Puri ritual association separate from a product specification and broader Odisha practice.
+
+## 2026-10-08 · Rai Damodara and seasonal food
+
+[Rai Damodara Brata](../culture/osha/rai-damodara-brata.md). Mahanti names Mahaprasad as food received during the vow; that ritual role does not establish a special seasonal dish or visitor access.

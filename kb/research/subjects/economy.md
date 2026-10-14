@@ -97,3 +97,60 @@ The [homestay research](../statistics/homestays.md) connects the programme’s g
 [Paddy procurement payments](../stories/rice-procurement-payments.md) connects farming with public purchasing while keeping farmer profit and payment categories distinct.
 
 [From milk to market](../stories/sweets-from-milk-to-market.md) connects the Pahala supply-chain study with dairy work, sweet making and the evidence still needed for market claims.
+
+
+## Port-series checkpoint · 4 October2026
+
+[Two ports, different cargo years](../stories/ports-diverging-cargo.md) connects logistics activity with export research while keeping throughput, value, capacity and demand separate.
+
+## Export evidence · 4 October 2026
+
+[Exports recovered, with limits](../stories/exports-recovery-and-concentration.md) links recorded sales to [district business questions](../trade/export-business-questions.md), keeping local benefits unmeasured.
+
+## Manufacturing checkpoint · 4 October 2026
+
+[Manufacturing output and supplier questions](../economy/manufacturing-output-and-suppliers.md) separates physical products, value added, operating benchmarks and possible local services.
+
+## Cement and fertiliser checkpoint · 4 October 2026
+
+[Plant output and district business questions](../economy/cement-and-fertiliser-production.md) adds named IFFCO Paradeep and Dalmia Rajgangpur line evidence. Production, sales, power generation and company-wide figures retain distinct scopes; no local jobs or supplier orders are inferred.
+
+## Food-processing evidence · 4 October 2026
+
+[The dairy and processing study](../economy/food-processing-and-dairy.md) connects existing crop and milk records with dated OMFED procurement, turnover and a historical conversion tender. Physical output, supplier contracts and district business profitability remain separate questions.
+
+[Odisha’s GI inventory](../collections/odisha-gi-products.md) — all 26 Odisha entries in the official list as of 31 December 2025, with product/logo distinctions and 4 October 2026 application checks.
+
+[GI opportunity programme](../economy/gi-opportunity-programme.md) — candidate research, existing-application checks and producer-led dossier preparation; no new GI eligibility or origin claim.
+
+## GI readiness matrix · 5 October 2026
+
+[GI evidence readiness](../economy/gi-readiness-matrix.md) — twelve existing leads, their next evidence products and participant dependencies; no forecast returns or filing claims.
+
+## Kalamata comparison · 5 October 2026
+
+[Kalamata GI comparison](../economy/kalamata-gi-comparison.md) — requirements, boundary decision and reported enforcement kept distinct.
+
+## Sugar-output checkpoint · 2026-10-06
+
+[Sugar factories](../economy/sugar-production.md) — physical output, cane input and reporting-boundary questions.
+
+[Mining-area funds and services](../economy/dmf-from-funds-to-services.md) — dated project evidence connects finance, places and everyday services without equating spending with outcomes.
+
+[Mining receipts and public finances](../economy/mining-receipts.md) — six annual actual observations, budget distinctions and the separate question of local services.
+
+[Niyamgiri: community rights and mining](../economy/niyamgiri-rights-and-mining.md) — a dated court/Parliament case connecting landscape, community decisions and a proposed mine; current permissions and ecological outcomes remain unknown.
+
+[Bharatpur mine safety](../economy/bharatpur-mine-safety.md) — a dated accident account with separate event counts, recommendations and unresolved inquiry evidence.
+
+## Mineral-research connections · 3 October 2026
+
+[From RRL to IMMT](../economy/minerals-research-immt.md) adds institutional history, a named researcher’s professional connection, and dated battery, fly-ash and pilot-facility stages. The evidence does not establish commercial output or current availability.
+
+## Business opportunities by district
+
+[Entrepreneurship programme](../product/district-business-opportunities.md) connects place knowledge with demand, premises, people and permissions research. [Koraput pilot](../economy/koraput-business-opportunities.md) contains hypotheses, not verified returns.
+
+## Maker-linked services · 3 October 2026
+
+[Bargarh catalogue service](../economy/bargarh-textile-catalogue-service.md) is a business research draft linked to arts and place records; no profitability assertion.

@@ -43,3 +43,15 @@ IBM’s2023–24 bauxite producer table places Utkal Alumina mine location in Ra
 ## Connected ferrochrome research
 
 [IMFA’s chain](../../economy/company-imfa.md) connects Odisha mining and processing places. Entity-wide sales, employment and supplier totals are not assigned to this district. Named mine output retains its site boundary.
+
+## Evidence coverage · 4 October 2026
+
+[District evidence matrix](../district-coverage.md) connects this snapshot with health, education, livelihood, environment and visitor research. Unmapped evidence remains unknown; banking is not a measure of household income.
+
+## Community decisions and mining · 3 October 2026
+
+[The Niyamgiri case](../../economy/niyamgiri-rights-and-mining.md) links the2013court directions to a2015parliamentary report of village decisions. District counts describe that proceeding, not every affected village or today’s permission status.
+
+## Baphlimali monitoring checkpoint · 3 October 2026
+
+[The existing mine study](../../economy/bauxite-mine-identities.md) now distinguishes reported water/waste handling from held pollutant comparisons, audit findings and rehabilitation claims. Site figures are not district air-quality or ecological-recovery measures.

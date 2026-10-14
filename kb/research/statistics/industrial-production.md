@@ -5,7 +5,7 @@ description: "Industrial Production — source-linked research, scope and reuse 
 tags: ["statistics", "industrial-production"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
-sources: [{"id": "enterprise-nalco2026", "title": "NALCO Production and Financial Highlights FY2025–26", "resource": "https://nalcoindia.com/company/our-growth-story/production-financial-highlights/"}, {"id": "mining-sail-ar2026", "title": "SAIL Annual Report 2025–26", "resource": "https://www.sail.co.in/sites/default/files/2026-09/Annual%20Report%20-%202025-26.pdf"}, {"id": "mining-rsp-ec-march2026", "title": "Rourkela Steel Plant EC implementation, October 2025–March 2026", "resource": "https://sail.co.in/sites/default/files/steel-plants/2026-06/5_%20RSPs%20implementation%20status%20of%20conditions%20of%20EC%20received%20for%20HM%204.855%20MTPA%20Proejct%20other%20new%20projects%20Oct.%2C2025%20-%20March%2C%202026.pdf"}, {"id": "mining-imfa-ar2026", "title": "IMFA Annual Report 2025–26", "resource": "https://www.imfa.in/api/pdf/IMFAAnnualReportFY2526.pdf/IMFA_Annual_Report_FY_2526_10bbee90f9.pdf"}]
+sources: [{"id": "enterprise-nalco2026", "title": "NALCO Production and Financial Highlights FY2025–26", "resource": "https://nalcoindia.com/company/our-growth-story/production-financial-highlights/"}, {"id": "mining-sail-ar2026", "title": "SAIL Annual Report 2025–26", "resource": "https://www.sail.co.in/sites/default/files/2026-09/Annual%20Report%20-%202025-26.pdf"}, {"id": "mining-rsp-ec-march2026", "title": "Rourkela Steel Plant EC implementation, October 2025–March 2026", "resource": "https://sail.co.in/sites/default/files/steel-plants/2026-06/5_%20RSPs%20implementation%20status%20of%20conditions%20of%20EC%20received%20for%20HM%204.855%20MTPA%20Proejct%20other%20new%20projects%20Oct.%2C2025%20-%20March%2C%202026.pdf"}, {"id": "mining-imfa-ar2026", "title": "IMFA Annual Report 2025–26", "resource": "https://www.imfa.in/api/pdf/IMFAAnnualReportFY2526.pdf/IMFA_Annual_Report_FY_2526_10bbee90f9.pdf"}, {"id": "manufacturing-sail-ar2025", "title": "SAIL Annual Report 2024–25", "resource": "https://www.sail.co.in/sites/default/files/2025-08/Sail%20Annual%20Report_2025_%2825_08_2025%29.pdf"}, {"id": "manufacturing-cag-bf2025", "title": "CAG Report 38 of 2025: Performance of Blast Furnaces in SAIL", "resource": "https://cag.gov.in/uploads/download_audit_report/2025/Report-No.-38-of-2025_English-06944ecdf2526e1.52430491.pdf"}, {"id": "manufacturing-rsp-page2026", "title": "SAIL Rourkela plant page: facility and document directory", "resource": "https://www.sail.co.in/en/plants/about-rourkela-steel-plant"}, {"id": "mining-nalco-ar2026", "title": "NALCO 45th Annual Report 2025–26", "resource": "https://nalcoindia.com/wp-content/uploads/2026/08/45th-Annual-Report-2025-26.pdf"}]
 subjects: ["economy"]
 updated: {"by": "codex/gpt-6", "at": "2026-09-30T19:27:48-07:00", "scope": "Context and classification; underlying source-check dates retained."}
 ---
@@ -65,3 +65,19 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 ## Industrial work: dates and categories
 
 [Rourkela’s historical employment record](../economy/rourkela-steel-chain.md) now distinguishes manpower, project contract workers and other contract work at 1 April 2015. This strengthens the historical record without supplying a current plant employment total.
+
+## Comparable manufacturing checkpoint · 4 October 2026
+
+[The manufacturing study](../economy/manufacturing-output-and-suppliers.md) reuses 15 existing physical-output observations across NALCO, Rourkela and IMFA, adds operating evidence, and retains different plant/company boundaries. No statewide output, employment or profit total is inferred. [Structured register](../references/data/manufacturing-production-series.json).
+
+## Cement and fertiliser checkpoint · 4 October 2026
+
+[Plant output and district business questions](../economy/cement-and-fertiliser-production.md) adds named IFFCO Paradeep and Dalmia Rajgangpur line evidence. Production, sales, power generation and company-wide figures retain distinct scopes; no local jobs or supplier orders are inferred.
+
+## Food-processing evidence · 4 October 2026
+
+[The dairy and processing study](../economy/food-processing-and-dairy.md) connects existing crop and milk records with dated OMFED procurement, turnover and a historical conversion tender. Physical output, supplier contracts and district business profitability remain separate questions.
+
+## Sugar-output checkpoint · 2026-10-06
+
+[Sugar-factory study](../economy/sugar-production.md) adds dated input/output fields, preserving year labels, ownership changes and recovery-rate conflicts. The original state table remains pending page-image review.

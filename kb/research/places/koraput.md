@@ -63,3 +63,13 @@ Build attributed profiles of willing growers, weavers, food producers and hosts,
 - [Koraput — district banking](../statistics/districts/koraput.md) — Read the full dated banking snapshot without treating credit as district output.
 
 - [Homestay evidence](../statistics/homestays.md) — Read cluster targets separately from operating properties and demand.
+
+[Kalajeera’s route to market](../economy/rice-economy.md) follows domestic-market evidence and the records still needed to establish grower returns and attributable overseas trade.
+
+## People and livelihoods context · 4 October 2026
+
+[District people and work baselines](../statistics/western-southern-baselines.md) add Census 2011 literacy and recorded work, plus NFHS-5 child nutrition. Current services, skills and enterprise demand need separate evidence; these historical observations are not a tourism or investment ranking.
+
+## Regional survey update · 4 October 2026
+
+[Koraput, Sambalpur and Bargarh](../statistics/western-southern-baselines.md) now include provisional NFHS-6 child nutrition, original NFHS-5 methods and separate overall survey samples. Lower stunting does not imply improvement in every nutrition measure; no programme causation is established.

@@ -1,0 +1,200 @@
+{
+  "run_id": "2026-10-09-osha-identity-audit",
+  "checked_at": "2026-10-09T10:20:30.651528+00:00",
+  "task_id": "RES-077",
+  "canonical_path": "culture/osha-identity-guide.md",
+  "lead": "A full-moon name is a starting point, not a complete identification. For a seasonal food guide, the month, locality and particular observance matter: an offering at Kumar Purnima cannot simply become the menu for Pandu Purnima.",
+  "sections": [
+    {
+      "title": "Two inventory names still need an identity",
+      "text": "Pratap Kumar Dash’s 2006 list names Benatia Osha and Purnima Osha without separate descriptions. The original page does not supply their stories, months or foods. A parenthesis mentioning Kartika and Shiva follows Bada Osha; it is not used here to fill the preceding entries. Benatia’s Odia spelling, locality and possible aliases remain unverified.",
+      "evidence_class": "documented_description",
+      "source_ids": [
+        "osha-review2006"
+      ],
+      "locator": "Printed15 / PDF1, right column"
+    },
+    {
+      "title": "Why the full-moon label is not enough",
+      "text": "Mahanti separately names Aswina’s Kumara Purnima and Margasira’s Pandu Purnima. The saved collection also covers the Kartika/Rai Damodara vow. These give readers distinct routes into seasonal practice, but do not identify which observance Dash intended by the unqualified Purnima Osha entry.",
+      "evidence_class": "documented_description",
+      "source_ids": [
+        "osha-mahanti"
+      ],
+      "locator": "Printed24,26 / PDF40,42; existing Rai Damodara profile"
+    },
+    {
+      "title": "Stories and histories stay with their named observance",
+      "text": "Follow the linked profiles for their attributed narratives and dating limits. Shared moon worship, a similar offering shape or a repeated word does not establish a common origin. This guide does not create a combined Purnima story or assign a history to Benatia.",
+      "evidence_class": "editorial_interpretation",
+      "source_ids": [],
+      "locator": ""
+    },
+    {
+      "title": "What to ask before looking for seasonal food",
+      "text": "Record the local name and month first, then distinguish an offering from a fast-breaking meal, a game material or ritual drawing paste. A participant’s account should retain its locality and permission to share. Current annual dates, public access, host consent and serving venues need separate evidence; none is established by this guide.",
+      "evidence_class": "visitor_context",
+      "source_ids": [],
+      "locator": ""
+    }
+  ],
+  "identities": [
+    {
+      "name": "Benatia Osha",
+      "status": "identity_unresolved",
+      "source_id": "osha-review2006",
+      "locator": "Printed15 / PDF1",
+      "odia_spelling": null,
+      "aliases": [],
+      "traditional_month": null,
+      "foods": [],
+      "origin_date": null,
+      "locality": null,
+      "retry_after": "2026-10-16"
+    },
+    {
+      "name": "Purnima Osha",
+      "status": "unqualified_name_unresolved",
+      "source_id": "osha-review2006",
+      "locator": "Printed15 / PDF1",
+      "aliases": [],
+      "traditional_month": null,
+      "foods": [],
+      "origin_date": null,
+      "locality": null,
+      "comparison_ids": [
+        "ID-OSHA-KUMAR",
+        "ID-OSHA-PANDU",
+        "ID-OSHA-KARTIKA"
+      ],
+      "retry_after": "2026-10-16"
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "ID-OSHA-KUMAR",
+      "name": "Kumar Purnima and Janhi’s culmination",
+      "traditional_month": "Aswina",
+      "profile_path": "culture/osha/janhi.md",
+      "food_role": "Kakara pitha offered to the moon and shared in the 2015 account; not a daily Janhi menu.",
+      "identity_boundary": "Janhi is a related observance ending at Kumar Purnima in the cited accounts; neither is established as Dash’s unqualified Purnima Osha.",
+      "source_ids": [
+        "osha-kumar2015",
+        "osha-mahanti"
+      ],
+      "source_locator": "Mohanty printed45–46 / PDF54–55; Mahanti printed24 / PDF40"
+    },
+    {
+      "id": "ID-OSHA-PANDU",
+      "name": "Pandu Purnima / Pandu Osha",
+      "traditional_month": "Margasira",
+      "profile_path": "culture/osha/pandu.md",
+      "food_role": "Puriwaves reports chanda, fruit, khechudi and white manda; rice terminology, preparation and local variation remain open.",
+      "identity_boundary": "A specifically named Margasira observance; not automatically an alias of every Purnima Osha.",
+      "source_ids": [
+        "osha-mahanti",
+        "osha-pandu-puriwaves"
+      ],
+      "source_locator": "Mahanti printed26 / PDF42 and existing Pandu profile printed60 / PDF76; Puriwaves food paragraph"
+    },
+    {
+      "id": "ID-OSHA-KARTIKA",
+      "name": "Kartika / Rai Damodara cycle",
+      "traditional_month": "Kartika; source-specific boundary conflict retained in profile",
+      "profile_path": "culture/osha/rai-damodara-brata.md",
+      "food_role": "The saved account describes habishanna or Mahaprasad as alternatives eaten once daily during the vow; not one generic full-moon dish.",
+      "identity_boundary": "Month-long vow and five-day option are distinguished from a single full-moon day; existing calendar conflict remains unresolved.",
+      "source_ids": [
+        "osha-mahanti"
+      ],
+      "source_locator": "Saved Rai Damodara profile: printed51–52 / PDF67–68; calendar discussion retained there"
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "osha-review2006",
+      "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf",
+      "run_id": "2026-10-09-osha-identity-audit",
+      "checked_at": "2026-10-09T10:20:30.651528+00:00",
+      "locator": "Printed15 / PDF1, right column inventory",
+      "scope": "Benatia and Purnima are named without individual dates, stories or foods. The nearby Kartika/Shiva parenthesis follows Bada Osha.",
+      "method": "Saved original PDF page rendered and visually inspected",
+      "status": "saved_evidence_reused"
+    },
+    {
+      "source_id": "osha-mahanti",
+      "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf",
+      "run_id": "2026-10-09-osha-identity-audit",
+      "checked_at": "2026-10-09T10:20:30.651528+00:00",
+      "locator": "Printed24,26 / PDF40,42; saved Pandu and Rai Damodara profiles retain their additional locators",
+      "scope": "Distinct full-moon names and months; not proof of what Dash meant by unnamed Purnima Osha.",
+      "method": "Saved original PDF40,42 rendered and visually inspected",
+      "status": "saved_evidence_reused"
+    },
+    {
+      "source_id": "osha-kumar2015",
+      "url": "https://magazines.odisha.gov.in/Orissareview/2015/Oct/engpdf/october-or-2015.pdf",
+      "run_id": "2026-10-09-osha-identity-audit",
+      "checked_at": "2026-10-09T10:20:30.651528+00:00",
+      "locator": "Printed45–46 / PDF54–55",
+      "scope": "Kumar Purnima kakara and sharing account reused through existing Janhi profile; not daily Janhi menu.",
+      "method": "Existing source-bounded profile reused",
+      "status": "saved_evidence_reused"
+    },
+    {
+      "source_id": "osha-pandu-puriwaves",
+      "url": "https://puriwaves.nirmalya.in/festivals/pandu-osha-in-odisha",
+      "run_id": "2026-10-09-osha-identity-audit",
+      "checked_at": "2026-10-09T10:20:30.651528+00:00",
+      "locator": "Food paragraph and Chanda Chakata caption",
+      "scope": "Pandu food description reused with existing terminology and recipe uncertainties.",
+      "method": "Existing source-bounded profile reused",
+      "status": "saved_evidence_reused"
+    }
+  ],
+  "failed_fetches": [
+    {
+      "url": "https://magazines.odisha.gov.in/orissareview/2013/jun/engpdf/June%20or%202013.pdf",
+      "status": "unavailable",
+      "checked_at": "2026-10-09T10:20:30.651528+00:00",
+      "attempts": [
+        {
+          "method": "Web open",
+          "reason": "Timeout fetching"
+        },
+        {
+          "method": "Direct verified-TLS public download",
+          "reason": "Certificate verification failed: certificate has expired"
+        }
+      ],
+      "recovery": "No original recovered after two approaches. Search-index list remains discovery only. Retry2026-10-16."
+    }
+  ],
+  "search_scope": [
+    "query_research Benatia: no mapped identity",
+    "query_research Purnima: existing Kumar2015/Pandu sources",
+    "Dash and Mahanti saved text; original selected pages visually inspected",
+    "English exact-name and Odia candidate-spelling web searches; no adopted spelling",
+    "Native destination-and-tour-book record reused"
+  ],
+  "discovery_not_adopted": [
+    {
+      "url": "https://magazines.odisha.gov.in/orissareview/2013/jun/engpdf/June%20or%202013.pdf",
+      "indexed_title": "Sabitri Brata: Important Ritual of Married Women with Husbands Alive",
+      "indexed_author": "Dr. Dina Krishna Joshi",
+      "indexed_publication": "Odisha Review, June2013",
+      "reason": "Search text repeats inventory names; original unavailable and independence unestablished."
+    },
+    {
+      "url": "https://www.odiaportal.in/2017/03/Download-All-Traditional-Odia-Puja-Mela-Vrat-Free-Odia-eBooks.html",
+      "reason": "Indexed Kumar Purnima Osha book lead; no original text recovered in this pass. Does not resolve unqualified Purnima identity."
+    }
+  ],
+  "completion_criteria_met": false,
+  "fieldwork_conducted": false,
+  "human_review_claimed": false,
+  "annual_dates_verified": false,
+  "next_actions": [
+    "Reconcile the fifteen local profile additions since saved PR145 revision05dd64803dd416c0c2c937a2defcc8e54e148b41, plus the Osha identity guide, into the existing destination review branch after reading current destination instructions and checking for overlapping work. Preserve native edits and the existing PR metadata approval boundary; validate the website candidate and distinguish push from publication. Benatia/Purnima identity and original June2013 issue retry16October2026; other dated textual/local holds remain unchanged."
+  ]
+}

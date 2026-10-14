@@ -1,0 +1,1327 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-10-04-food-processing-output",
+  "checked_at": "2026-10-06T00:01:09.592924+00:00",
+  "scope": "Dairy inputs/turnover plus provisional sugar-factory input/output series; company partial-year quantities retained separately.",
+  "observation_dataset": "statistics-atlas.json",
+  "series": [
+    {
+      "id": "omfed-procurement",
+      "kind": "procurement",
+      "observation_ids": [
+        "food-omfed-procurement-2023-24",
+        "food-omfed-procurement-2024-25"
+      ],
+      "scope": "Average daily milk collected by OMFED, not milk processed or sold."
+    },
+    {
+      "id": "omfed-turnover",
+      "kind": "turnover",
+      "observation_ids": [
+        "food-omfed-turnover-2023-24",
+        "food-omfed-turnover-2024-25"
+      ],
+      "scope": "Federation turnover, nominal money; not physical output, farmer receipts or profit."
+    },
+    {
+      "id": "sugar-aska-cane_crushed",
+      "kind": "cane_crushed",
+      "observation_ids": [
+        "food-sugar-aska-cane_crushed-2013-14",
+        "food-sugar-aska-cane_crushed-2014-15",
+        "food-sugar-aska-cane_crushed-2015-16",
+        "food-sugar-aska-cane_crushed-2016-17",
+        "food-sugar-aska-cane_crushed-2017-18",
+        "food-sugar-aska-cane_crushed-2018-19",
+        "food-sugar-aska-cane_crushed-2019-20",
+        "food-sugar-aska-cane_crushed-2020-21",
+        "food-sugar-aska-cane_crushed-2021-22",
+        "food-sugar-aska-cane_crushed-2022-23",
+        "food-sugar-aska-cane_crushed-2023-24"
+      ],
+      "scope": "Single publication year-labelled series; original-page review pending. No cross-source splicing."
+    },
+    {
+      "id": "sugar-dhenkanal-cane_crushed",
+      "kind": "cane_crushed",
+      "observation_ids": [
+        "food-sugar-dhenkanal-cane_crushed-2013-14",
+        "food-sugar-dhenkanal-cane_crushed-2014-15",
+        "food-sugar-dhenkanal-cane_crushed-2015-16",
+        "food-sugar-dhenkanal-cane_crushed-2016-17",
+        "food-sugar-dhenkanal-cane_crushed-2017-18",
+        "food-sugar-dhenkanal-cane_crushed-2018-19",
+        "food-sugar-dhenkanal-cane_crushed-2019-20",
+        "food-sugar-dhenkanal-cane_crushed-2020-21",
+        "food-sugar-dhenkanal-cane_crushed-2021-22",
+        "food-sugar-dhenkanal-cane_crushed-2022-23",
+        "food-sugar-dhenkanal-cane_crushed-2023-24"
+      ],
+      "scope": "Single publication year-labelled series; original-page review pending. No cross-source splicing."
+    },
+    {
+      "id": "sugar-grand_total-cane_crushed",
+      "kind": "cane_crushed",
+      "observation_ids": [
+        "food-sugar-grand_total-cane_crushed-2013-14",
+        "food-sugar-grand_total-cane_crushed-2014-15",
+        "food-sugar-grand_total-cane_crushed-2015-16",
+        "food-sugar-grand_total-cane_crushed-2016-17",
+        "food-sugar-grand_total-cane_crushed-2017-18",
+        "food-sugar-grand_total-cane_crushed-2018-19",
+        "food-sugar-grand_total-cane_crushed-2019-20",
+        "food-sugar-grand_total-cane_crushed-2020-21",
+        "food-sugar-grand_total-cane_crushed-2021-22",
+        "food-sugar-grand_total-cane_crushed-2022-23",
+        "food-sugar-grand_total-cane_crushed-2023-24"
+      ],
+      "scope": "Single publication year-labelled series; original-page review pending. No cross-source splicing."
+    },
+    {
+      "id": "sugar-aska-sugar_produced",
+      "kind": "physical_production",
+      "observation_ids": [
+        "food-sugar-aska-sugar_produced-2013-14",
+        "food-sugar-aska-sugar_produced-2014-15",
+        "food-sugar-aska-sugar_produced-2015-16",
+        "food-sugar-aska-sugar_produced-2016-17",
+        "food-sugar-aska-sugar_produced-2017-18",
+        "food-sugar-aska-sugar_produced-2018-19",
+        "food-sugar-aska-sugar_produced-2019-20",
+        "food-sugar-aska-sugar_produced-2020-21",
+        "food-sugar-aska-sugar_produced-2021-22",
+        "food-sugar-aska-sugar_produced-2022-23",
+        "food-sugar-aska-sugar_produced-2023-24"
+      ],
+      "scope": "Single publication year-labelled series; original-page review pending. No cross-source splicing."
+    },
+    {
+      "id": "sugar-dhenkanal-sugar_produced",
+      "kind": "physical_production",
+      "observation_ids": [
+        "food-sugar-dhenkanal-sugar_produced-2013-14",
+        "food-sugar-dhenkanal-sugar_produced-2014-15",
+        "food-sugar-dhenkanal-sugar_produced-2015-16",
+        "food-sugar-dhenkanal-sugar_produced-2016-17",
+        "food-sugar-dhenkanal-sugar_produced-2017-18",
+        "food-sugar-dhenkanal-sugar_produced-2018-19",
+        "food-sugar-dhenkanal-sugar_produced-2019-20",
+        "food-sugar-dhenkanal-sugar_produced-2020-21",
+        "food-sugar-dhenkanal-sugar_produced-2021-22",
+        "food-sugar-dhenkanal-sugar_produced-2022-23",
+        "food-sugar-dhenkanal-sugar_produced-2023-24"
+      ],
+      "scope": "Single publication year-labelled series; original-page review pending. No cross-source splicing."
+    },
+    {
+      "id": "sugar-grand_total-sugar_produced",
+      "kind": "physical_production",
+      "observation_ids": [
+        "food-sugar-grand_total-sugar_produced-2013-14",
+        "food-sugar-grand_total-sugar_produced-2014-15",
+        "food-sugar-grand_total-sugar_produced-2015-16",
+        "food-sugar-grand_total-sugar_produced-2016-17",
+        "food-sugar-grand_total-sugar_produced-2017-18",
+        "food-sugar-grand_total-sugar_produced-2018-19",
+        "food-sugar-grand_total-sugar_produced-2019-20",
+        "food-sugar-grand_total-sugar_produced-2020-21",
+        "food-sugar-grand_total-sugar_produced-2021-22",
+        "food-sugar-grand_total-sugar_produced-2022-23",
+        "food-sugar-grand_total-sugar_produced-2023-24"
+      ],
+      "scope": "Single publication year-labelled series; original-page review pending. No cross-source splicing."
+    }
+  ],
+  "new_observation_ids": [
+    "food-omfed-procurement-2023-24",
+    "food-omfed-procurement-2024-25",
+    "food-omfed-turnover-2023-24",
+    "food-omfed-turnover-2024-25",
+    "food-sugar-aska-cane_crushed-2013-14",
+    "food-sugar-aska-cane_crushed-2014-15",
+    "food-sugar-aska-cane_crushed-2015-16",
+    "food-sugar-aska-cane_crushed-2016-17",
+    "food-sugar-aska-cane_crushed-2017-18",
+    "food-sugar-aska-cane_crushed-2018-19",
+    "food-sugar-aska-cane_crushed-2019-20",
+    "food-sugar-aska-cane_crushed-2020-21",
+    "food-sugar-aska-cane_crushed-2021-22",
+    "food-sugar-aska-cane_crushed-2022-23",
+    "food-sugar-aska-cane_crushed-2023-24",
+    "food-sugar-dhenkanal-cane_crushed-2013-14",
+    "food-sugar-dhenkanal-cane_crushed-2014-15",
+    "food-sugar-dhenkanal-cane_crushed-2015-16",
+    "food-sugar-dhenkanal-cane_crushed-2016-17",
+    "food-sugar-dhenkanal-cane_crushed-2017-18",
+    "food-sugar-dhenkanal-cane_crushed-2018-19",
+    "food-sugar-dhenkanal-cane_crushed-2019-20",
+    "food-sugar-dhenkanal-cane_crushed-2020-21",
+    "food-sugar-dhenkanal-cane_crushed-2021-22",
+    "food-sugar-dhenkanal-cane_crushed-2022-23",
+    "food-sugar-dhenkanal-cane_crushed-2023-24",
+    "food-sugar-grand_total-cane_crushed-2013-14",
+    "food-sugar-grand_total-cane_crushed-2014-15",
+    "food-sugar-grand_total-cane_crushed-2015-16",
+    "food-sugar-grand_total-cane_crushed-2016-17",
+    "food-sugar-grand_total-cane_crushed-2017-18",
+    "food-sugar-grand_total-cane_crushed-2018-19",
+    "food-sugar-grand_total-cane_crushed-2019-20",
+    "food-sugar-grand_total-cane_crushed-2020-21",
+    "food-sugar-grand_total-cane_crushed-2021-22",
+    "food-sugar-grand_total-cane_crushed-2022-23",
+    "food-sugar-grand_total-cane_crushed-2023-24",
+    "food-sugar-aska-sugar_produced-2013-14",
+    "food-sugar-aska-sugar_produced-2014-15",
+    "food-sugar-aska-sugar_produced-2015-16",
+    "food-sugar-aska-sugar_produced-2016-17",
+    "food-sugar-aska-sugar_produced-2017-18",
+    "food-sugar-aska-sugar_produced-2018-19",
+    "food-sugar-aska-sugar_produced-2019-20",
+    "food-sugar-aska-sugar_produced-2020-21",
+    "food-sugar-aska-sugar_produced-2021-22",
+    "food-sugar-aska-sugar_produced-2022-23",
+    "food-sugar-aska-sugar_produced-2023-24",
+    "food-sugar-dhenkanal-sugar_produced-2013-14",
+    "food-sugar-dhenkanal-sugar_produced-2014-15",
+    "food-sugar-dhenkanal-sugar_produced-2015-16",
+    "food-sugar-dhenkanal-sugar_produced-2016-17",
+    "food-sugar-dhenkanal-sugar_produced-2017-18",
+    "food-sugar-dhenkanal-sugar_produced-2018-19",
+    "food-sugar-dhenkanal-sugar_produced-2019-20",
+    "food-sugar-dhenkanal-sugar_produced-2020-21",
+    "food-sugar-dhenkanal-sugar_produced-2021-22",
+    "food-sugar-dhenkanal-sugar_produced-2022-23",
+    "food-sugar-dhenkanal-sugar_produced-2023-24",
+    "food-sugar-grand_total-sugar_produced-2013-14",
+    "food-sugar-grand_total-sugar_produced-2014-15",
+    "food-sugar-grand_total-sugar_produced-2015-16",
+    "food-sugar-grand_total-sugar_produced-2016-17",
+    "food-sugar-grand_total-sugar_produced-2017-18",
+    "food-sugar-grand_total-sugar_produced-2018-19",
+    "food-sugar-grand_total-sugar_produced-2019-20",
+    "food-sugar-grand_total-sugar_produced-2020-21",
+    "food-sugar-grand_total-sugar_produced-2021-22",
+    "food-sugar-grand_total-sugar_produced-2022-23",
+    "food-sugar-grand_total-sugar_produced-2023-24",
+    "food-sakthi-dhenkanal-cane_crushed-2021-22",
+    "food-sakthi-dhenkanal-sugar_produced-2021-22",
+    "food-sakthi-dhenkanal-cane_crushed-2022-23",
+    "food-sakthi-dhenkanal-sugar_produced-2022-23"
+  ],
+  "reused_observation_ids": [
+    "rice-series-area-2012-13",
+    "rice-series-yield-2012-13",
+    "rice-series-production-2012-13",
+    "rice-series-area-2013-14",
+    "rice-series-yield-2013-14",
+    "rice-series-production-2013-14",
+    "rice-series-area-2014-15",
+    "rice-series-yield-2014-15",
+    "rice-series-production-2014-15",
+    "rice-series-area-2015-16",
+    "rice-series-yield-2015-16",
+    "rice-series-production-2015-16",
+    "rice-series-area-2016-17",
+    "rice-series-yield-2016-17",
+    "rice-series-production-2016-17",
+    "rice-series-area-2017-18",
+    "rice-series-yield-2017-18",
+    "rice-series-production-2017-18",
+    "rice-series-area-2018-19",
+    "rice-series-yield-2018-19",
+    "rice-series-production-2018-19",
+    "rice-series-area-2019-20",
+    "rice-series-yield-2019-20",
+    "rice-series-production-2019-20",
+    "rice-series-area-2020-21",
+    "rice-series-yield-2020-21",
+    "rice-series-production-2020-21",
+    "rice-series-area-2021-22",
+    "rice-series-yield-2021-22",
+    "rice-series-production-2021-22",
+    "rice-series-area-2022-23",
+    "rice-series-yield-2022-23",
+    "rice-series-production-2022-23",
+    "rice-series-area-2023-24",
+    "rice-series-production-2023-24",
+    "nature-milk-2024-25",
+    "rice-production2024",
+    "rice-paddy2024",
+    "rice-procurement2024",
+    "rice-millers2024",
+    "rice-yield2024"
+  ],
+  "calculation_ids": [
+    "food-omfed-procurement-change2025",
+    "food-omfed-turnover-change2025",
+    "food-sugar-aska-cane_crushed-change-2022-23-2023-24",
+    "food-sugar-aska-cane_crushed-change-2013-14-2023-24",
+    "food-sugar-dhenkanal-cane_crushed-change-2022-23-2023-24",
+    "food-sugar-dhenkanal-cane_crushed-change-2013-14-2023-24",
+    "food-sugar-grand_total-cane_crushed-change-2022-23-2023-24",
+    "food-sugar-grand_total-cane_crushed-change-2013-14-2023-24",
+    "food-sugar-aska-sugar_produced-change-2022-23-2023-24",
+    "food-sugar-aska-sugar_produced-change-2013-14-2023-24",
+    "food-sugar-dhenkanal-sugar_produced-change-2022-23-2023-24",
+    "food-sugar-dhenkanal-sugar_produced-change-2013-14-2023-24",
+    "food-sugar-grand_total-sugar_produced-change-2022-23-2023-24",
+    "food-sugar-grand_total-sugar_produced-change-2013-14-2023-24"
+  ],
+  "excluded_sources_or_fields": [
+    {
+      "id": "omfed-current-product-output",
+      "status": "unavailable",
+      "reason": "No comparable dated product-production table recovered. Undated homepage processing claims cannot form annual output series.",
+      "retry_after": "2026-10-11"
+    },
+    {
+      "id": "omfed-directory-count",
+      "status": "hold_scope",
+      "reason": "Homepage says 12 plants; accessible directory has 13 named dairy rows. Scope/date reconciliation absent; neither adopted as current operating-plant total.",
+      "retry_after": "2026-10-11"
+    },
+    {
+      "id": "omfed-historical-sales",
+      "status": "needs_transcription_review",
+      "source_id": "food-omfed-ar2014",
+      "locator": "PDF p.10 / printed p.8",
+      "reason": "Sales table, not production; mixed report dates and original Odia numerals require careful selected-row capture. No values inferred from filename.",
+      "retry_after": "2026-10-11"
+    }
+  ],
+  "documented_mechanism": {
+    "source_id": "food-omfed-conversion2024",
+    "locator": "PDF pp.7,20",
+    "stage": "historical_tender_and_draft_agreement",
+    "period": "2024-25",
+    "mechanism": "Procurement of surplus-milk conversion services into powder, white butter and ghee during flush season; skilled staff, testing, storage and tankers required.",
+    "award_verified": false,
+    "actual_quantity": null,
+    "actual_converter_location": null
+  },
+  "unknowns": {
+    "local_supplier_orders": null,
+    "farmer_margins": null,
+    "odisha_food_processing_rank": null,
+    "omfed_annual_product_output": null,
+    "rice_mill_processed_output": null
+  },
+  "controls": {
+    "procurement_equals_processing": false,
+    "turnover_equals_physical_output": false,
+    "capacity_equals_actual_output": false,
+    "tender_equals_award": false,
+    "crop_equals_factory_output": false
+  },
+  "next_step": "Continue RES-017 with rice-mill processed output, using the existing rice-economy and food-processing captures before browsing. Dhenkanal successor production, buyer annual-report route and fiscal/crushing-year boundaries remain unresolved; retry their original-document recovery on 11 October alongside the saved state-table hold. Do not annualise partial company quantities.",
+  "capture_history": [
+    {
+      "run_id": "2026-10-05-sugar-output",
+      "at": "2026-10-06T00:01:09.592924+00:00",
+      "new_observation_ids": [
+        "food-sugar-aska-cane_crushed-2013-14",
+        "food-sugar-aska-cane_crushed-2014-15",
+        "food-sugar-aska-cane_crushed-2015-16",
+        "food-sugar-aska-cane_crushed-2016-17",
+        "food-sugar-aska-cane_crushed-2017-18",
+        "food-sugar-aska-cane_crushed-2018-19",
+        "food-sugar-aska-cane_crushed-2019-20",
+        "food-sugar-aska-cane_crushed-2020-21",
+        "food-sugar-aska-cane_crushed-2021-22",
+        "food-sugar-aska-cane_crushed-2022-23",
+        "food-sugar-aska-cane_crushed-2023-24",
+        "food-sugar-dhenkanal-cane_crushed-2013-14",
+        "food-sugar-dhenkanal-cane_crushed-2014-15",
+        "food-sugar-dhenkanal-cane_crushed-2015-16",
+        "food-sugar-dhenkanal-cane_crushed-2016-17",
+        "food-sugar-dhenkanal-cane_crushed-2017-18",
+        "food-sugar-dhenkanal-cane_crushed-2018-19",
+        "food-sugar-dhenkanal-cane_crushed-2019-20",
+        "food-sugar-dhenkanal-cane_crushed-2020-21",
+        "food-sugar-dhenkanal-cane_crushed-2021-22",
+        "food-sugar-dhenkanal-cane_crushed-2022-23",
+        "food-sugar-dhenkanal-cane_crushed-2023-24",
+        "food-sugar-grand_total-cane_crushed-2013-14",
+        "food-sugar-grand_total-cane_crushed-2014-15",
+        "food-sugar-grand_total-cane_crushed-2015-16",
+        "food-sugar-grand_total-cane_crushed-2016-17",
+        "food-sugar-grand_total-cane_crushed-2017-18",
+        "food-sugar-grand_total-cane_crushed-2018-19",
+        "food-sugar-grand_total-cane_crushed-2019-20",
+        "food-sugar-grand_total-cane_crushed-2020-21",
+        "food-sugar-grand_total-cane_crushed-2021-22",
+        "food-sugar-grand_total-cane_crushed-2022-23",
+        "food-sugar-grand_total-cane_crushed-2023-24",
+        "food-sugar-aska-sugar_produced-2013-14",
+        "food-sugar-aska-sugar_produced-2014-15",
+        "food-sugar-aska-sugar_produced-2015-16",
+        "food-sugar-aska-sugar_produced-2016-17",
+        "food-sugar-aska-sugar_produced-2017-18",
+        "food-sugar-aska-sugar_produced-2018-19",
+        "food-sugar-aska-sugar_produced-2019-20",
+        "food-sugar-aska-sugar_produced-2020-21",
+        "food-sugar-aska-sugar_produced-2021-22",
+        "food-sugar-aska-sugar_produced-2022-23",
+        "food-sugar-aska-sugar_produced-2023-24",
+        "food-sugar-dhenkanal-sugar_produced-2013-14",
+        "food-sugar-dhenkanal-sugar_produced-2014-15",
+        "food-sugar-dhenkanal-sugar_produced-2015-16",
+        "food-sugar-dhenkanal-sugar_produced-2016-17",
+        "food-sugar-dhenkanal-sugar_produced-2017-18",
+        "food-sugar-dhenkanal-sugar_produced-2018-19",
+        "food-sugar-dhenkanal-sugar_produced-2019-20",
+        "food-sugar-dhenkanal-sugar_produced-2020-21",
+        "food-sugar-dhenkanal-sugar_produced-2021-22",
+        "food-sugar-dhenkanal-sugar_produced-2022-23",
+        "food-sugar-dhenkanal-sugar_produced-2023-24",
+        "food-sugar-grand_total-sugar_produced-2013-14",
+        "food-sugar-grand_total-sugar_produced-2014-15",
+        "food-sugar-grand_total-sugar_produced-2015-16",
+        "food-sugar-grand_total-sugar_produced-2016-17",
+        "food-sugar-grand_total-sugar_produced-2017-18",
+        "food-sugar-grand_total-sugar_produced-2018-19",
+        "food-sugar-grand_total-sugar_produced-2019-20",
+        "food-sugar-grand_total-sugar_produced-2020-21",
+        "food-sugar-grand_total-sugar_produced-2021-22",
+        "food-sugar-grand_total-sugar_produced-2022-23",
+        "food-sugar-grand_total-sugar_produced-2023-24",
+        "food-sakthi-dhenkanal-cane_crushed-2021-22",
+        "food-sakthi-dhenkanal-sugar_produced-2021-22",
+        "food-sakthi-dhenkanal-cane_crushed-2022-23",
+        "food-sakthi-dhenkanal-sugar_produced-2022-23"
+      ],
+      "calculation_ids": [
+        "food-sugar-aska-cane_crushed-change-2022-23-2023-24",
+        "food-sugar-aska-cane_crushed-change-2013-14-2023-24",
+        "food-sugar-dhenkanal-cane_crushed-change-2022-23-2023-24",
+        "food-sugar-dhenkanal-cane_crushed-change-2013-14-2023-24",
+        "food-sugar-grand_total-cane_crushed-change-2022-23-2023-24",
+        "food-sugar-grand_total-cane_crushed-change-2013-14-2023-24",
+        "food-sugar-aska-sugar_produced-change-2022-23-2023-24",
+        "food-sugar-aska-sugar_produced-change-2013-14-2023-24",
+        "food-sugar-dhenkanal-sugar_produced-change-2022-23-2023-24",
+        "food-sugar-dhenkanal-sugar_produced-change-2013-14-2023-24",
+        "food-sugar-grand_total-sugar_produced-change-2022-23-2023-24",
+        "food-sugar-grand_total-sugar_produced-change-2013-14-2023-24"
+      ]
+    },
+    {
+      "run_id": "2026-10-06-sugar-ownership",
+      "at": "2026-10-06T01:07:01.079096+00:00",
+      "new_observation_ids": [],
+      "calculation_ids": [],
+      "resolved_fields": [
+        "sugar_ownership_event.buyer_at_transaction"
+      ],
+      "scope": "Historical transaction identity only; no new annual physical series."
+    }
+  ],
+  "sugar_factory_capture": {
+    "source_id": "rice-oas2024",
+    "locator": "Printed p.109, table29; publisher-indexed extraction",
+    "columns": [
+      "aska",
+      "bargarh",
+      "bijayananda",
+      "cooperative_total",
+      "baramba",
+      "nayagarh",
+      "dhenkanal",
+      "private_total",
+      "grand_total"
+    ],
+    "years": [
+      "2013-14",
+      "2014-15",
+      "2015-16",
+      "2016-17",
+      "2017-18",
+      "2018-19",
+      "2019-20",
+      "2020-21",
+      "2021-22",
+      "2022-23",
+      "2023-24"
+    ],
+    "cane_crushed_thousand_tonnes": [
+      [
+        132.4,
+        44,
+        36.6,
+        213,
+        0,
+        52.5,
+        414,
+        466.5,
+        679.5
+      ],
+      [
+        98.082,
+        34.991,
+        "*",
+        133.073,
+        "*",
+        "*",
+        341.414,
+        341.414,
+        474.487
+      ],
+      [
+        109.295,
+        23,
+        "*",
+        132.295,
+        "*",
+        "*",
+        385.842,
+        385.842,
+        518.137
+      ],
+      [
+        77.238,
+        13.428,
+        "*",
+        90.666,
+        "*",
+        "*",
+        314.404,
+        314.404,
+        405.07
+      ],
+      [
+        73.769,
+        "*",
+        "*",
+        73.769,
+        "*",
+        "*",
+        303.002,
+        303.002,
+        376.771
+      ],
+      [
+        84.771,
+        "*",
+        "*",
+        84.771,
+        "*",
+        "*",
+        316.4,
+        316.4,
+        401.171
+      ],
+      [
+        79.337,
+        "*",
+        "*",
+        79.337,
+        "*",
+        "*",
+        255.2,
+        255.2,
+        334.537
+      ],
+      [
+        45.012,
+        "*",
+        "*",
+        45.012,
+        "*",
+        "*",
+        229.3,
+        229.3,
+        274.312
+      ],
+      [
+        36.47,
+        "*",
+        "*",
+        36.47,
+        "*",
+        "*",
+        285.7,
+        285.7,
+        322.17
+      ],
+      [
+        40,
+        "*",
+        "*",
+        40,
+        "*",
+        "*",
+        219,
+        219,
+        259
+      ],
+      [
+        49.255,
+        "*",
+        "*",
+        49.255,
+        "*",
+        "*",
+        260,
+        260,
+        309.255
+      ]
+    ],
+    "sugar_produced_thousand_tonnes": [
+      [
+        9.3,
+        3.8,
+        3.1,
+        16.2,
+        0,
+        4.6,
+        39.8,
+        44.4,
+        60.6
+      ],
+      [
+        9.237,
+        2.801,
+        "*",
+        12.038,
+        "*",
+        "*",
+        31.587,
+        31.587,
+        43.625
+      ],
+      [
+        8.553,
+        1.8,
+        "*",
+        10.353,
+        "*",
+        "*",
+        37.723,
+        37.723,
+        48.076
+      ],
+      [
+        6.137,
+        0.682,
+        "*",
+        6.819,
+        "*",
+        "*",
+        31.241,
+        31.241,
+        38.06
+      ],
+      [
+        5.825,
+        "*",
+        "*",
+        5.825,
+        "*",
+        "*",
+        29.38,
+        29.38,
+        35.205
+      ],
+      [
+        6.792,
+        "*",
+        "*",
+        6.792,
+        "*",
+        "*",
+        32.2,
+        32.2,
+        38.992
+      ],
+      [
+        6.485,
+        "*",
+        "*",
+        6.485,
+        "*",
+        "*",
+        23.25,
+        23.25,
+        29.735
+      ],
+      [
+        3.598,
+        "*",
+        "*",
+        3.598,
+        "*",
+        "*",
+        21.29,
+        21.29,
+        24.888
+      ],
+      [
+        2.516,
+        "*",
+        "*",
+        2.516,
+        "*",
+        "*",
+        26.98,
+        26.98,
+        29.496
+      ],
+      [
+        3.36,
+        "*",
+        "*",
+        3.36,
+        "*",
+        "*",
+        22.7,
+        22.7,
+        26.06
+      ],
+      [
+        4.012,
+        "*",
+        "*",
+        4.012,
+        "*",
+        "*",
+        24.7,
+        24.7,
+        28.712
+      ]
+    ],
+    "reported_recovery_percent": [
+      [
+        7.02,
+        8.64,
+        8.47,
+        7.61,
+        0,
+        8.76,
+        9.61,
+        9.52,
+        8.92
+      ],
+      [
+        8.4,
+        8.01,
+        "*",
+        9.05,
+        "*",
+        "*",
+        9.83,
+        9.83,
+        9.6
+      ],
+      [
+        7.83,
+        7.83,
+        "*",
+        7.83,
+        "*",
+        "*",
+        9.78,
+        9.78,
+        9.28
+      ],
+      [
+        7.95,
+        5.08,
+        "*",
+        7.52,
+        "*",
+        "*",
+        9.94,
+        9.94,
+        9.4
+      ],
+      [
+        7.9,
+        "*",
+        "*",
+        7.9,
+        "*",
+        "*",
+        9.7,
+        9.7,
+        9.34
+      ],
+      [
+        8.16,
+        "*",
+        "*",
+        8.16,
+        "*",
+        "*",
+        10.18,
+        10.18,
+        18.34
+      ],
+      [
+        8.37,
+        "*",
+        "*",
+        8.37,
+        "*",
+        "*",
+        9.15,
+        9.15,
+        17.52
+      ],
+      [
+        9.43,
+        "*",
+        "*",
+        9.43,
+        "*",
+        "*",
+        9.27,
+        9.27,
+        18.7
+      ],
+      [
+        7.41,
+        "*",
+        "*",
+        7.41,
+        "*",
+        "*",
+        9.23,
+        9.23,
+        16.64
+      ],
+      [
+        7.7,
+        "*",
+        "*",
+        7.7,
+        "*",
+        "*",
+        10.37,
+        10.37,
+        18.07
+      ],
+      [
+        8.15,
+        "*",
+        "*",
+        8.15,
+        "*",
+        "*",
+        9.5,
+        9.5,
+        17.65
+      ]
+    ],
+    "no_operation_symbol": "*",
+    "symbol_meaning": "No operation, as printed; not converted into zero or permanent closure",
+    "original_precision": "Quantity cells show three decimals; JSON numbers omit insignificant trailing zeroes.",
+    "facsimile_checked": false,
+    "publication_readiness": "needs_source_table_review"
+  },
+  "sugar_company_observation_ids": [
+    "food-sakthi-dhenkanal-cane_crushed-2021-22",
+    "food-sakthi-dhenkanal-sugar_produced-2021-22",
+    "food-sakthi-dhenkanal-cane_crushed-2022-23",
+    "food-sakthi-dhenkanal-sugar_produced-2022-23"
+  ],
+  "sugar_holds": [
+    {
+      "id": "sugar-recovery-arithmetic",
+      "status": "hold_conflict",
+      "scope": "All published recovery percentages excluded from atlas and headline comparisons; selected Aska/Dhenkanal/grand-total screen retained.",
+      "checks": [
+        {
+          "period": "2013-14",
+          "column": "aska",
+          "reported": 7.02,
+          "recomputed_from_listed_quantities": 7.02416918429003,
+          "unit": "percent",
+          "difference_pp": -0.0041691842900304366,
+          "status": "within_screen_tolerance",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        },
+        {
+          "period": "2013-14",
+          "column": "dhenkanal",
+          "reported": 9.61,
+          "recomputed_from_listed_quantities": 9.61352657004831,
+          "unit": "percent",
+          "difference_pp": -0.0035265700483098072,
+          "status": "within_screen_tolerance",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        },
+        {
+          "period": "2013-14",
+          "column": "grand_total",
+          "reported": 8.92,
+          "recomputed_from_listed_quantities": 8.91832229580574,
+          "unit": "percent",
+          "difference_pp": 0.0016777041942592774,
+          "status": "within_screen_tolerance",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        },
+        {
+          "period": "2014-15",
+          "column": "aska",
+          "reported": 8.4,
+          "recomputed_from_listed_quantities": 9.417630146204198,
+          "unit": "percent",
+          "difference_pp": -1.0176301462041977,
+          "status": "hold_arithmetic_mismatch",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        },
+        {
+          "period": "2014-15",
+          "column": "dhenkanal",
+          "reported": 9.83,
+          "recomputed_from_listed_quantities": 9.251817441581188,
+          "unit": "percent",
+          "difference_pp": 0.5781825584188116,
+          "status": "hold_arithmetic_mismatch",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        },
+        {
+          "period": "2014-15",
+          "column": "grand_total",
+          "reported": 9.6,
+          "recomputed_from_listed_quantities": 9.194140197729336,
+          "unit": "percent",
+          "difference_pp": 0.40585980227066365,
+          "status": "hold_arithmetic_mismatch",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        },
+        {
+          "period": "2015-16",
+          "column": "aska",
+          "reported": 7.83,
+          "recomputed_from_listed_quantities": 7.8256095887277555,
+          "unit": "percent",
+          "difference_pp": 0.004390411272244599,
+          "status": "within_screen_tolerance",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        },
+        {
+          "period": "2015-16",
+          "column": "dhenkanal",
+          "reported": 9.78,
+          "recomputed_from_listed_quantities": 9.77679982998222,
+          "unit": "percent",
+          "difference_pp": 0.003200170017779058,
+          "status": "within_screen_tolerance",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        },
+        {
+          "period": "2015-16",
+          "column": "grand_total",
+          "reported": 9.28,
+          "recomputed_from_listed_quantities": 9.278627081254573,
+          "unit": "percent",
+          "difference_pp": 0.0013729187454263325,
+          "status": "within_screen_tolerance",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        },
+        {
+          "period": "2016-17",
+          "column": "aska",
+          "reported": 7.95,
+          "recomputed_from_listed_quantities": 7.945570833009658,
+          "unit": "percent",
+          "difference_pp": 0.004429166990342459,
+          "status": "within_screen_tolerance",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        },
+        {
+          "period": "2016-17",
+          "column": "dhenkanal",
+          "reported": 9.94,
+          "recomputed_from_listed_quantities": 9.936578415032887,
+          "unit": "percent",
+          "difference_pp": 0.003421584967112423,
+          "status": "within_screen_tolerance",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        },
+        {
+          "period": "2016-17",
+          "column": "grand_total",
+          "reported": 9.4,
+          "recomputed_from_listed_quantities": 9.395906880292296,
+          "unit": "percent",
+          "difference_pp": 0.004093119707704318,
+          "status": "within_screen_tolerance",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        },
+        {
+          "period": "2017-18",
+          "column": "aska",
+          "reported": 7.9,
+          "recomputed_from_listed_quantities": 7.896270791253778,
+          "unit": "percent",
+          "difference_pp": 0.003729208746221957,
+          "status": "within_screen_tolerance",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        },
+        {
+          "period": "2017-18",
+          "column": "dhenkanal",
+          "reported": 9.7,
+          "recomputed_from_listed_quantities": 9.696305634946304,
+          "unit": "percent",
+          "difference_pp": 0.0036943650536951367,
+          "status": "within_screen_tolerance",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        },
+        {
+          "period": "2017-18",
+          "column": "grand_total",
+          "reported": 9.34,
+          "recomputed_from_listed_quantities": 9.343872007134307,
+          "unit": "percent",
+          "difference_pp": -0.0038720071343067985,
+          "status": "within_screen_tolerance",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        },
+        {
+          "period": "2018-19",
+          "column": "aska",
+          "reported": 8.16,
+          "recomputed_from_listed_quantities": 8.012173974590366,
+          "unit": "percent",
+          "difference_pp": 0.14782602540963374,
+          "status": "hold_arithmetic_mismatch",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        },
+        {
+          "period": "2018-19",
+          "column": "dhenkanal",
+          "reported": 10.18,
+          "recomputed_from_listed_quantities": 10.176991150442479,
+          "unit": "percent",
+          "difference_pp": 0.0030088495575206764,
+          "status": "within_screen_tolerance",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        },
+        {
+          "period": "2018-19",
+          "column": "grand_total",
+          "reported": 18.34,
+          "recomputed_from_listed_quantities": 9.719546029000101,
+          "unit": "percent",
+          "difference_pp": 8.620453970999899,
+          "status": "hold_arithmetic_mismatch",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        },
+        {
+          "period": "2019-20",
+          "column": "aska",
+          "reported": 8.37,
+          "recomputed_from_listed_quantities": 8.173991958354867,
+          "unit": "percent",
+          "difference_pp": 0.19600804164513264,
+          "status": "hold_arithmetic_mismatch",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        },
+        {
+          "period": "2019-20",
+          "column": "dhenkanal",
+          "reported": 9.15,
+          "recomputed_from_listed_quantities": 9.11050156739812,
+          "unit": "percent",
+          "difference_pp": 0.039498432601879685,
+          "status": "within_screen_tolerance",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        },
+        {
+          "period": "2019-20",
+          "column": "grand_total",
+          "reported": 17.52,
+          "recomputed_from_listed_quantities": 8.888403973252586,
+          "unit": "percent",
+          "difference_pp": 8.631596026747413,
+          "status": "hold_arithmetic_mismatch",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        },
+        {
+          "period": "2020-21",
+          "column": "aska",
+          "reported": 9.43,
+          "recomputed_from_listed_quantities": 7.993423975828668,
+          "unit": "percent",
+          "difference_pp": 1.4365760241713321,
+          "status": "hold_arithmetic_mismatch",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        },
+        {
+          "period": "2020-21",
+          "column": "dhenkanal",
+          "reported": 9.27,
+          "recomputed_from_listed_quantities": 9.284779764500653,
+          "unit": "percent",
+          "difference_pp": -0.01477976450065377,
+          "status": "within_screen_tolerance",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        },
+        {
+          "period": "2020-21",
+          "column": "grand_total",
+          "reported": 18.7,
+          "recomputed_from_listed_quantities": 9.072880515617253,
+          "unit": "percent",
+          "difference_pp": 9.627119484382746,
+          "status": "hold_arithmetic_mismatch",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        },
+        {
+          "period": "2021-22",
+          "column": "aska",
+          "reported": 7.41,
+          "recomputed_from_listed_quantities": 6.898820948724979,
+          "unit": "percent",
+          "difference_pp": 0.511179051275021,
+          "status": "hold_arithmetic_mismatch",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        },
+        {
+          "period": "2021-22",
+          "column": "dhenkanal",
+          "reported": 9.23,
+          "recomputed_from_listed_quantities": 9.443472173608681,
+          "unit": "percent",
+          "difference_pp": -0.21347217360868065,
+          "status": "hold_arithmetic_mismatch",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        },
+        {
+          "period": "2021-22",
+          "column": "grand_total",
+          "reported": 16.64,
+          "recomputed_from_listed_quantities": 9.15541484309526,
+          "unit": "percent",
+          "difference_pp": 7.484585156904741,
+          "status": "hold_arithmetic_mismatch",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        },
+        {
+          "period": "2022-23",
+          "column": "aska",
+          "reported": 7.7,
+          "recomputed_from_listed_quantities": 8.399999999999999,
+          "unit": "percent",
+          "difference_pp": -0.6999999999999984,
+          "status": "hold_arithmetic_mismatch",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        },
+        {
+          "period": "2022-23",
+          "column": "dhenkanal",
+          "reported": 10.37,
+          "recomputed_from_listed_quantities": 10.365296803652967,
+          "unit": "percent",
+          "difference_pp": 0.00470319634703209,
+          "status": "within_screen_tolerance",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        },
+        {
+          "period": "2022-23",
+          "column": "grand_total",
+          "reported": 18.07,
+          "recomputed_from_listed_quantities": 10.06177606177606,
+          "unit": "percent",
+          "difference_pp": 8.00822393822394,
+          "status": "hold_arithmetic_mismatch",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        },
+        {
+          "period": "2023-24",
+          "column": "aska",
+          "reported": 8.15,
+          "recomputed_from_listed_quantities": 8.145365952695157,
+          "unit": "percent",
+          "difference_pp": 0.004634047304843847,
+          "status": "within_screen_tolerance",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        },
+        {
+          "period": "2023-24",
+          "column": "dhenkanal",
+          "reported": 9.5,
+          "recomputed_from_listed_quantities": 9.5,
+          "unit": "percent",
+          "difference_pp": 0.0,
+          "status": "within_screen_tolerance",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        },
+        {
+          "period": "2023-24",
+          "column": "grand_total",
+          "reported": 17.65,
+          "recomputed_from_listed_quantities": 9.284247627362532,
+          "unit": "percent",
+          "difference_pp": 8.365752372637466,
+          "status": "hold_arithmetic_mismatch",
+          "tolerance_pp": 0.05,
+          "reason": "Screen tolerance only, not an accepted technical recovery definition or corrected official figure."
+        }
+      ],
+      "retry_after": "2026-10-11"
+    },
+    {
+      "id": "sugar-aska2016-output",
+      "status": "hold_conflict",
+      "oas_thousand_tonnes": 6.137,
+      "operator_quintals": 60846,
+      "operator_normalized_thousand_tonnes": 6.0846,
+      "sources": [
+        "rice-oas2024",
+        "food-aska-status"
+      ],
+      "period": "2016-17",
+      "reason": "Same year label, differing output; detailed season/adjustment basis unavailable. No preferred value selected.",
+      "retry_after": "2026-10-11"
+    },
+    {
+      "id": "sugar-dhenkanal-period-ownership",
+      "status": "partially_resolved_scope_hold",
+      "sources": [
+        "rice-oas2024",
+        "food-sakthi-ar2023",
+        "food-sakthi-sale2022",
+        "food-sakthi-q2-2022"
+      ],
+      "reason": "Historical buyer resolved as Indian Potash. Original OAS year boundaries, seller fiscal quantities versus plant production, and successor quantities remain unreconciled. Current ownership and operation not established.",
+      "retry_after": "2026-10-11",
+      "history": [
+        {
+          "at": "2026-10-06T00:01:09.592924+00:00",
+          "reason": "OAS2021–22 cane285.700/sugar26.980 thousand tonnes differ from fiscal-year company272344/25077 tonnes. Company2022–23 is only through sale. Plant versus company, fiscal versus crushing-year basis and successor owner require reconciliation."
+        }
+      ],
+      "resolved_fields": [
+        "buyer_at_2022_transaction"
+      ]
+    }
+  ],
+  "sugar_ownership_event": {
+    "source_id": "food-sakthi-ar2023",
+    "locator": "printed p.16",
+    "event_date": "2022-11-11",
+    "stage": "company_reported_completed_going_concern_sale",
+    "buyer_verified": true,
+    "current_owner": null,
+    "closure_inferred": false,
+    "buyer_at_transaction": "Indian Potash Limited",
+    "buyer_verified_on": "2026-10-06",
+    "buyer_source_ids": [
+      "food-sakthi-sale2022",
+      "food-sakthi-q2-2022"
+    ],
+    "transaction_evidence_class": "seller_reported_execution_and_registration",
+    "deed_independently_reviewed": false,
+    "completion_notice_date": "2022-11-12",
+    "sale_consideration": {
+      "value": 13410,
+      "unit": "INR lakh",
+      "price_basis": "reported nominal transaction consideration",
+      "period": "2022-11-11",
+      "geography": "Dhenkanal sugar and distillery units, Odisha",
+      "source_id": "food-sakthi-q2-2022",
+      "locator": "PDF p.3 note 3",
+      "project_stage": "reported completed acquisition; not capital formation"
+    },
+    "current_operating_status": null
+  },
+  "sugar_ownership_history": [
+    {
+      "recorded_at": "2026-10-06T00:01:09.592924+00:00",
+      "state": {
+        "source_id": "food-sakthi-ar2023",
+        "locator": "printed p.16",
+        "event_date": "2022-11-11",
+        "stage": "company_reported_completed_going_concern_sale",
+        "buyer_verified": false,
+        "current_owner": null,
+        "closure_inferred": false
+      }
+    }
+  ],
+  "sugar_transaction_stages": [
+    {
+      "date": "2022-05-27",
+      "stage": "shareholder_approval",
+      "source_id": "food-sakthi-ar2023",
+      "locator": "printed p.16"
+    },
+    {
+      "date": "2022-06-27",
+      "stage": "agreement_letter_referenced_not_contract_review",
+      "source_id": "food-sakthi-sale2022",
+      "locator": "reference and body, p.1"
+    },
+    {
+      "date": null,
+      "stage": "buyer_announcement_conditional_on_lender_NOC",
+      "source_id": "food-ipl-bta",
+      "locator": "opening paragraph"
+    },
+    {
+      "date": "2022-11-11",
+      "stage": "seller_reported_execution_and_registration",
+      "source_id": "food-sakthi-sale2022",
+      "locator": "body, p.1"
+    },
+    {
+      "date": "2022-11-12",
+      "stage": "completion_notice",
+      "source_id": "food-sakthi-sale2022",
+      "locator": "letter date, p.1"
+    }
+  ],
+  "successor_evidence_leads": [
+    {
+      "url": "https://icro.npcindia.gov.in/wp-content/uploads/2024/11/FINAL-Newsletter-September-2024.pdf",
+      "publisher": "ICRO / National Productivity Council",
+      "publication_period": "September 2024",
+      "locator": "indexed printed p.14",
+      "status": "indexed_lead_original_fetch_unavailable",
+      "scope": "Indexed account includes cane input and recovery, but first-year boundaries and source methods unresolved. No values adopted into atlas.",
+      "retry_after": "2026-10-11"
+    },
+    {
+      "url": "https://indianpotash.org/performance.html",
+      "status": "no_target_report_identified_in_bounded_primary_search",
+      "scope": "Retrieved HTML lists older annual reports, not an established 2022–23 source route; third-party copies remain discovery leads only.",
+      "retry_after": "2026-10-11"
+    }
+  ]
+}

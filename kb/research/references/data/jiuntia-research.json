@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "task_id": "RES-077",
+  "batch_id": "OSHA-B04",
+  "checked_at": "2026-10-07T12:09:54.325793+00:00",
+  "source_checks": [
+    {
+      "source_id": "osha-kesavan-jiuntia",
+      "url": "https://journals.ub.uni-frankfurt.de/paideuma/index.php/paideuma/article/download/2046/2237/4542",
+      "checked_at": "2026-10-07T12:09:54.325793+00:00",
+      "status": "available",
+      "scope": "Primary ethnographic study: eleven months of fieldwork within May2022–December2023, Bargarh district. Haliapali is a participant-requested village pseudonym, not a visitor destination. Project conducted no interviews; no image permissions claimed.",
+      "locator": "Printed pp.15,19,31–35 / PDF pp.1,5,17–21; food process p.33 / PDF19 visually inspected",
+      "method": "Original text inspected; Kesavan PDF recovered and p.33 visually checked locally after web screenshot cache failure."
+    },
+    {
+      "source_id": "osha-barpali-pua",
+      "url": "https://barpalidays.blogspot.com/2011/08/pua-juintia.html",
+      "checked_at": "2026-10-07T12:09:54.325793+00:00",
+      "status": "available",
+      "scope": "Attributed local authored account, not a representative survey. Opening caption identifies Tehsil Chowk, Barpali,1October2010; publication date is distinct. Universalizing language and efficacy claims not adopted. No contact details or photos republished.",
+      "locator": "Opening photograph caption; ritual plate paragraph; following-day paragraph",
+      "method": "Original text inspected; Kesavan PDF recovered and p.33 visually checked locally after web screenshot cache failure."
+    }
+  ],
+  "failed_fetches": [
+    {
+      "url": "https://journals.ub.uni-frankfurt.de/paideuma/index.php/paideuma/article/view/2046",
+      "status": "unavailable",
+      "checked_at": "2026-10-07T12:09:54.325793+00:00",
+      "error": "Article landing page unavailable; original PDF separately recovered."
+    },
+    {
+      "url": "https://deogarh.odisha.gov.in/sites/default/files/2023-06/2018050132.pdf",
+      "status": "unavailable",
+      "checked_at": "2026-10-07T12:09:54.325793+00:00",
+      "error": "Web internal error; search extract not adopted."
+    },
+    {
+      "url": "https://magazines.odisha.gov.in/orissareview/index_of_Odisha_Review__April-1948_to_January_2021.pdf",
+      "status": "unavailable",
+      "checked_at": "2026-10-07T12:09:54.325793+00:00",
+      "error": "Web internal error; shell SSL certificate expired; indexed entry only, original not inspected."
+    }
+  ],
+  "source_reuse": [
+    {
+      "source_id": "osha-mahanti",
+      "locator": "Printed49–51 / PDF65–67",
+      "capture_scope": "saved_local_capture_visually_rechecked"
+    },
+    {
+      "path": "culture/dalkhai.md",
+      "capture_scope": "saved association only; no new performance claim"
+    }
+  ],
+  "pdf_capture": {
+    "path": "work/osha-jiuntia/kesavan.pdf",
+    "sha256": "74b53a32a1f3e0514225d64b7af8e98ac3c0dc3a2bbeb933f82c55dfc95943cc",
+    "pages": 26,
+    "printed_imprint": "Paideuma70/71:15–40(2024/25)",
+    "issue_display": "Bd.70(2024)",
+    "online_issue_date": "2025-12-17",
+    "pdf_page_offset": 14
+  },
+  "variations": [
+    {
+      "topic": "Pua vegetable count",
+      "source_values": {
+        "osha-mahanti": "21",
+        "osha-barpali-pua": "20"
+      },
+      "status": "unresolved_variation",
+      "numeric_harmonization": false
+    },
+    {
+      "topic": "Pua wrapper and thread",
+      "source_values": {
+        "osha-mahanti": "sal leaf; wrist",
+        "osha-barpali-pua": "Rengal-pattar; neck"
+      },
+      "status": "unresolved_variation",
+      "botanical_equivalence_established": false
+    }
+  ],
+  "leads": [
+    {
+      "title": "Bhai Jiuntia",
+      "author": "Susil Kumar Panigrahi",
+      "index_locator": "Indexed PDF p.166; entry gives article page26",
+      "issue": null,
+      "original_inspected": false,
+      "next_action": "Recover index page and issue heading, then original article; do not infer October2001 from adjacent result.",
+      "retry_after": "2026-10-14"
+    }
+  ],
+  "privacy": "No geolocation or visitor record for the pseudonymous ethnographic village.",
+  "scope_limits": [
+    "No full katha recovered for either profile",
+    "No origin date established",
+    "No measured food-process parameters",
+    "No current visitor access or food venue"
+  ],
+  "fieldwork_conducted": false,
+  "human_review_claimed": false
+}

@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `c0098326dd14e1f66ea4fe9cbabd312b70ea2e896ef9fb2cd56b9af64b8719ab`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `4134433d6c6825223644ca75bdb35e886ce40f8594e92bbeda7d7d32fedf7ae5`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -281,6 +281,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-268 · Publish craft-listening reader story | completed | applied | Ahimanikya Satapathy | Continue independent research; practitioner and acoustic documentation remain open. | — |
 | UTP-WORK-269 · Research and publish Chilika listening story | completed | applied | Ahimanikya Satapathy | Continue independent research; local naturalist and acoustic documentation remain open. | — |
 | UTP-WORK-270 · Connect Nimuhi literary story to Explore | completed | applied | Ahimanikya Satapathy | Continue the next eligible substantive task. | — |
+| UTP-WORK-2026100701 · Osha, stories and the food year: fifty-three profiles and dated food evidence | in_progress | draft | Ahimanikya Satapathy | Khudurukuni article and supporting maritime study reconciled as research-only into draftPR145; two profile sections added. Preserve14–18October holds and koeta identity gap. Continue earliest unheld narrative field; no public release inferred. | — |
+| UTP-WORK-271 · Publish pending research and Osha collection | in_progress | reviewed | Ahimanikya Satapathy | Publish reviewed integration after required checks; verify live output and save receipt. | — |
 
 ## Pending human review and decisions
 
@@ -570,6 +572,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-227 · Extend Sounds of Odisha beginning with Sankha | approved | Ahimanikya Satapathy | Founder accepted the preceding recommendation to research Sankha next, followed by Mardala and Dalkhai, within Sounds of Odisha. This batch delivers Sankha article, collection outline and KB evidence. No field recording, relationship or media rights granted. Existing DEC225 covers routine repository preservation. |
 | UTP-DEC-228 · Clarify tongue-led Huluhuli and correct the artwork | approved | Ahimanikya Satapathy | Founder corrects the depiction: tongue movement creates the trill, not merely opening the mouth. Revise misleading laughing-mouth artwork and clarify text; existing DEC225 covers tested UTP publication. No practitioner review inferred. |
 | UTP-DEC-2026101419 · Publish Nimuhi article and associated public assets | recorded_direction | Ahimanikya Satapathy | Publish the reviewed Nimuhi article, the 1968 comparison plate, user-supplied later photograph, two credited source-book PDFs, and a culture-trails discovery link. Preserve source/date qualifications. |
+| UTP-DEC-2026100701 · Research Odisha osha histories, significance and seasonal food | recorded_direction | Ahimanikya Satapathy | Deep research, structured cultural pages and an iterative research path. This record does not certify complete coverage, human factual review or approval of this exact website release. |
+| UTP-DEC-2026101501 · Publish all pending content | approved | Ahimanikya Satapathy | Integrate all 39 pending change requests, expose supported research as dated reading notes and publish the Osha collection after meaningful checks. Evidence-blocked research and internal operating records remain distinct. No search eligibility expansion. |
 
 ## Reviews
 
@@ -809,6 +813,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-235 | pass_with_limitations | False | Same-assistant review; practitioner and acoustic-context review open.; No audio, media reuse, field visit or workshop availability claim.; Separate further reading; eight chapters and eleven external-search routes retained. |
 | UTP-REV-236 | pass_with_limitations | False | Same-assistant desk review; local naturalist and acoustic-context review remain open.; No actual recording, species-call identification, visit or current operator availability claimed.; Eight chapters and eleven external-search routes retained. |
 | UTP-REV-237 | pass_with_limitations | False | Same-assistant review of navigation and reused copy; no new historical or field validation.; External indexing remains held for the existing article. |
+| UTP-REV-2026100701 | pass_with_limitations | False | Five narrative checkpoints and seven early notes; statewide coverage and histories remain incomplete.; No human factual/Odia review or local interviews claimed.; Current event dates and serving venues unverified.; Website candidate not merged or published. |
+| UTP-REV-238 | pass_with_limitations | False | Specialist review and current field confirmations remain open.; Boat/fishing-song manuscript remains blocked for lack of adequate retrieved evidence.; Search-index eligibility remains eleven routes.; This direct Founder publication batch is not counted as 169 autonomous tasks; programme count remains unchanged. |
 
 ## Publication and application history
 
@@ -962,16 +968,16 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101402 | 2026-10-14T05:53:29.329065+00:00 | Expanded calendar to 37 entries; 520 full and 113 coastal tests pass. Publication build and browser filtering/mobile checks pass. | — |
-| UTP-EVT-2026101403 | 2026-10-14T07:20:30.959091+00:00 | Second calendar pass verified UNURUM dates from university-linked Instagram; updated latest KLF dates with discrepancy retained, recovered OALF and two past Toshali ranges, clarified Utsha application status. | — |
-| UTP-EVT-2026101419 | 2026-10-14T07:58:45.861287+00:00 | Prepared the user-approved article and four public assets for the existing publication pipeline. | — |
-| UTP-EVT-2026101420 | 2026-10-14T14:57:51.864569+00:00 | Prepared Founder-requested migration to projectodisha.org and permanent redirect of utkalproject.org, preserving routes and search scope. | — |
-| UTP-EVT-2026101421 | 2026-10-14T15:10:36.710983+00:00 | Published new canonical domain, configured new DNS and HTTPS, verified new site. GoDaddy saved apex/www permanent redirects; old-domain propagation and nested-path verification remain pending. | — |
-| UTP-EVT-2026101422 | 2026-10-14T15:15:47.256907+00:00 | Applied approved Project Odisha naming and homepage tagline to live website sources; historical evidence retained. | — |
-| UTP-EVT-2026101423 | 2026-10-14T16:24:16.524442+00:00 | Renamed GitHub repository to project-odisha and prepared active-reference cleanup under Founder approval. Historical evidence preserved. | — |
-| UTP-EVT-422 | 2026-10-14T20:52:35.367545+00:00 | Published Chilika listening article on Project Odisha through checked PR229 and approved main workflow. KB/source dossier and public story count once; programme 80/500. | — |
-| UTP-EVT-423 | 2026-10-14T21:16:45.043185+00:00 | Published Nimuhi route is absent from Explore source and103 rendered cards. Selected one bounded internal discovery improvement; reuse article, no new historical research. | — |
-| UTP-EVT-424 | 2026-10-14T21:35:02.300836+00:00 | Published Nimuhi literary/place-name discovery; verified one live result and article navigation. Programme 81/500. | — |
+| UTP-EVT-2026101004 | 2026-10-10T15:24:02.890568+00:00 | Prathamastami narrative and Enduri food evidence prepared for existing draft review branch.53 profiles; no merge or publication. | Prathamastami family and food narrative reconciled into the existing 53-profile draft. Preserve historical original-image, cited1915 text and situated household gaps, with17October retry. Existing14–17October holds remain; source workspace remains scheduling authority. No publication or current food offer inferred. |
+| UTP-EVT-2026101005 | 2026-10-10T22:24:23.846715+00:00 | Dutiya narrative and Ghanta food evidence prepared for existing draft review branch.53 profiles; no merge or publication. | Dutiya offering and Ghanta food account reconciled into the existing 53-profile draft. Full katha and dated historical origins remain unresolved; preserve source-specific regional and food differences and17October retry. Deepen Budhei (OSHA-005) next using saved records first. Source workspace remains scheduling authority; all14–17October holds remain. No current serving offer or publication inferred. |
+| UTP-EVT-2026101006 | 2026-10-11T02:16:32.072202+00:00 | Budhei narrative and Kakara food evidence prepared for existing draft review branch.53 profiles; no merge or publication. | Budhei coconut sequence, attributed story strands and dated Kakara offering association reconciled into the existing53-profile draft. Full original katha, manuscript dates and local recipes remain open for17October. Deepen Alana (OSHA-006) next using saved records first. Source workspace remains scheduling authority; all14–17October holds preserved. No public food offer or publication inferred. |
+| UTP-EVT-2026101109 | 2026-10-11T04:45:31.111551+00:00 | Alana modern narrative, distinct food roles and held calendar prepared for existing draft review branch.53 profiles; no merge or publication. | Deepen Kanji Anla OSHA-007 using saved records first; retain Alana, Kanji Anla and Anla Navami as distinct identities. Alana modern narrative, offering/consumption/story food roles and conflicting Ashwina/Dhanu calendars reconciled into existing draftPR145. Original text lineage, locality and salt/calendar scope retry17October; preserve all14–17October holds. No public release inferred. |
+| UTP-EVT-2026101110 | 2026-10-11T07:02:53.778818+00:00 | Kanji Anla household settings and post-offering food roles reconciled for existing draft review; no publication. | Kanji Anla food roles reconciled into draftPR145. Continue the next eligible existing research-note profile using saved sources first; preserve all14–17October textual, calendar and local-review holds. No publication inferred. |
+| UTP-EVT-2026101112 | 2026-10-11T09:55:36.693880+00:00 | Samba Dashami day sequence, children’s sharing and later Yama offering reconciled for existing draft review; printed ambiguity preserved, no publication. | Samba Dashami food sequence reconciled into draftPR145. Continue the next eligible saved-source field; preserve all14–18October textual, calendar and local-review holds. No publication inferred. |
+| UTP-EVT-2026101113 | 2026-10-11T11:58:15.660331+00:00 | Sabitri Brata literary choice, story vow and collective reading/fruit sharing reconciled for existing draft review; nine/ten discrepancy preserved, no publication. | Sabitri Brata food sequence reconciled into draftPR145. Continue the next eligible saved-source field; preserve all14–18October textual, calendar and local-review holds. No publication inferred. |
+| UTP-EVT-2026101114 | 2026-10-11T14:33:52.021116+00:00 | Manabasa Gurubara digital textual witness and ritual/shared-food roles reconciled for existing draft review;1868 header remains quarantined, no publication. | Manabasa Gurubara food sequence reconciled into draftPR145. Continue the next eligible saved-source field; preserve all14–18October textual, calendar and local-review holds. No publication inferred. |
+| UTP-EVT-2026101116 | 2026-10-11T16:39:59.978800+00:00 | Sudasa supplementary rice/filling and textual offering-distribution instructions reconciled into existing draft; current household practice unknown. | Sudasa supplementary food passages reconciled into draftPR145. Continue the earliest eligible saved-source narrative gap; preserve14–18October textual, calendar and local-review holds. No publication inferred. |
+| UTP-EVT-2026101117 | 2026-10-11T17:40:07.823443+00:00 | Saved Khudurukuni article and Sadhaba study imported as research-only; two profile sections retain print/authorship and food-term uncertainty. | Khudurukuni article and supporting maritime study reconciled as research-only into draftPR145; two profile sections added. Preserve14–18October holds and koeta identity gap. Continue earliest unheld narrative field; no public release inferred. |
 
 ## Deferred extensions
 

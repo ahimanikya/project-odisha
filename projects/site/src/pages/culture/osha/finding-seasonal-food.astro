@@ -1,0 +1,48 @@
+---
+import Shell from '../../../layouts/Shell.astro';
+import evidence from '../../../../../../kb/research/references/data/seasonal-public-food-evidence.json';
+import study from '../../../../../../kb/research/references/data/osha-culture.json';
+const labels = {
+ reported_historical_service: 'A reported service in the past',
+ undated_operator_description: 'An account without a year',
+ institutional_announcement: 'A plan for distribution',
+};
+const descriptions = {
+ 'SFO-001': 'Odisha Tourism’s July 2021 newsletter describes OTDC’s Pitha-on-Wheels during Raja pandemic restrictions. It names a programme menu and pickup areas. This is a historical account of takeaway provision, not an offer for your next visit.',
+ 'SFO-002': 'OTDC’s Raja Mahotsav description names restaurants and takeaway vans, but gives no event year. Its June day numbers cannot establish when those arrangements apply. A recurring festival name does not make this the same event as the 2021 programme.',
+ 'SFO-003': 'Ramakrishna Math’s 2026–27 calendar lists Guru Purnima and cooked prasad. The calendar records a plan; it does not show that distribution took place or establish a visitor meal. Individual dishes are not named.',
+};
+const headings = {'SFO-001':'Raja takeaway in 2021','SFO-002':'Raja sales, year unknown','SFO-003':'Guru Purnima: a calendar announcement'};
+const dates = {'SFO-001':'14–16 June 2021, as reported','SFO-002':'14–16 June printed without a year','SFO-003':'29 July 2026, as announced'};
+const limits = {
+ 'SFO-001': 'The report does not give stock at each stop, quantities sold or a current menu. Other city counters mentioned in it do not have separately stated hours.',
+ 'SFO-002': 'The year and individual dishes remain unknown. The named locations are historical references, not recommendations for a current visit.',
+ 'SFO-003': 'Whether the planned distribution took place is unknown. This institution’s calendar does not establish the timing or menu of every household observance.',
+};
+const locators = {
+ 'SFO-001': 'July 2021 newsletter, page 8',
+ 'SFO-002': 'OTDC homepage, Raja Mahotsav description',
+ 'SFO-003': '2026–27 celebration calendar: row 6 and cooked-prasad notes in the Odia and English pages',
+};
+const sourceIds = [...new Set(evidence.records.flatMap(r=>r.source_ids))];
+---
+<Shell title="Finding seasonal food · Read the date, then ask" description="Raja takeaway and a prasad announcement show why a festival-food tradition needs a separate check before a visit." active="explore" related={false}>
+<div class="wrap"><article class="food-evidence">
+<header><a href="/culture/osha/">← Osha, stories & the food year</a><p class="eyebrow">From cultural reading to a visit</p><h1>Read the date.<br/><em>Then ask about the food.</em></h1><p class="deck">A festival can give you a food to look for. A dated notice can help you find where it was served—or what was planned. Neither alone tells you what will be available when you arrive.</p></header>
+<aside class="availability"><h2>Before you make plans</h2><p>No current serving offer is verified in these examples. Confirm the intended year, date, named operator, menu, price and access. A food sale is also different from an invitation to private worship.</p></aside>
+<section aria-labelledby="examples"><p class="eyebrow">Three ways to read a food notice</p><h2 id="examples">What does the source actually establish?</h2>
+{evidence.records.map(record=><section class="example" data-evidence-id={record.id}>
+<p class="eyebrow">{labels[record.evidence_class]}</p><h3>{headings[record.id]}</h3><p class="date">{dates[record.id]}</p><p>{descriptions[record.id]}</p>
+<dl><dt>Food named</dt><dd>{record.foods.join(' · ')}</dd><dt>Setting in the account</dt><dd>{record.geography}{record.named_settings&&<> — {record.named_settings.join('; ')}</>}</dd><dt>What remains uncertain</dt><dd>{limits[record.id]}</dd></dl>
+<p class="source-line">{record.source_ids.map(id=><a href={'#source-'+id}>{study.sources[id].title}</a>)} · {locators[record.id]}</p>
+<a href={record.id==='SFO-003'?'/culture/osha/guru-purnima-brata/':'/culture/osha/raja-parba/'}>Read the festival’s story and food context →</a>
+</section>)}
+</section>
+<section class="questions"><h2>Questions for a seasonal food enquiry</h2><ul><li>Is the notice for the year and day of your visit?</li><li>Which dishes will this particular place serve, and at what time?</li><li>What are the price, portion and ordering arrangements?</li><li>Is access public, or does it require a separate invitation?</li></ul><p>These are questions to ask, not confirmations obtained by this project. A household’s festival meal is a private setting unless its host has agreed to welcome visitors.</p></section>
+<section class="sources"><h2>Sources and reading scope</h2><p>Saved evidence checked on 10 October 2026. These are selected examples, not a directory of Odisha’s seasonal food services. AI-assisted research; no local interviews or human cultural review claimed.</p><ol>{sourceIds.map(id=><li id={'source-'+id}><a href={study.sources[id].resource}>{study.sources[id].title}</a><p>{study.sources[id].publisher} · {study.sources[id].published_on||'Publication date not established'}</p><p>{locators[evidence.records.find(r=>r.source_ids.includes(id)).id]}</p></li>)}</ol></section>
+<p><a href="/culture/osha/">Explore the observances →</a> · <a href="/food/">Food & flavours →</a></p>
+</article></div>
+</Shell>
+<style>
+.food-evidence{max-width:820px;margin:auto;padding:clamp(24px,5vw,60px) 0}.food-evidence header{border-bottom:1px solid var(--line);padding-bottom:32px}.food-evidence h1{font-size:clamp(42px,6vw,70px);line-height:1.12;margin:24px 0}.food-evidence h1 em{color:var(--earth);font-weight:normal}.food-evidence h2{font-size:clamp(28px,4vw,39px);line-height:1.25}.food-evidence h3{font-size:28px;line-height:1.3}.food-evidence p,.food-evidence li,.food-evidence dd{font-size:19px;line-height:1.8}.food-evidence .deck{font-size:24px}.food-evidence section{margin-top:38px}.availability,.example{padding:24px;background:var(--paper);border-top:2px solid var(--earth);margin:32px 0}.food-evidence .eyebrow,.food-evidence .source-line,.food-evidence .date,.sources p{font-size:14px;line-height:1.7}.food-evidence dt{font-weight:600;margin-top:18px}.food-evidence dd{margin:6px 0}.sources{border-top:1px solid var(--line)}.sources li{margin:20px 0;scroll-margin-top:30px}.food-evidence a{overflow-wrap:anywhere}.food-evidence a:focus-visible{outline:3px solid var(--earth);outline-offset:4px}
+</style>
