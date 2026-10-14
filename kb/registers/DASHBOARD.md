@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `36534dc4eb7fca358816870b1a13a62c5314dd4afa5cd20a1d7068c588d7d7ae`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `90e9bccbc6a5fcb450eacd38ffe4708c8a9f6716a808bc1c7ad79519e72f6ce3`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -199,7 +199,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
-| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue next eligible substantive item. 82 of 500 delivered; reading-room search restoration and sharing underway as item083. | — |
+| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue next eligible substantive item. 83 of 500 delivered; reading-room searches published with live receipt. | — |
 | UTP-WORK-190 · Food discovery, portable reading collection and current review-queue repair | completed | published | Ahimanikya Satapathy | Published and live-verified. Continue through the program queue under DEC225. | — |
 | UTP-WORK-191 · Build the tourism opportunities information section | completed | reviewed | Ahimanikya Satapathy | Published information scope complete. Continue WORK166 and WORK171 only when new documentary or operating evidence is available. | — |
 | UTP-WORK-192 · Align saved food cards with canonical story introductions | completed | reviewed | Ahimanikya Satapathy | Repair published and live catalogue verified; preserve canonical food fields when future stories change. | — |
@@ -283,7 +283,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-270 · Connect Nimuhi literary story to Explore | completed | applied | Ahimanikya Satapathy | Continue the next eligible substantive task. | — |
 | UTP-WORK-2026100701 · Osha, stories and the food year: fifty-three profiles and dated food evidence | in_progress | draft | Ahimanikya Satapathy | Khudurukuni article and supporting maritime study reconciled as research-only into draftPR145; two profile sections added. Preserve14–18October holds and koeta identity gap. Continue earliest unheld narrative field; no public release inferred. | — |
 | UTP-WORK-271 · Publish pending research and Osha collection | completed | applied | Ahimanikya Satapathy | Continue independent research; evidence-blocked boat-song work remains open. | — |
-| UTP-WORK-272 · Share and restore reading-room searches | in_progress | draft | Ahimanikya Satapathy | Publish reviewed search controls after passing PR checks, then verify live and record receipt. | — |
+| UTP-WORK-272 · Share and restore reading-room searches | completed | published | Ahimanikya Satapathy | Published and verified live. Native device sharing and physical screen-reader review remain future checks. | — |
 
 ## Pending human review and decisions
 
@@ -936,6 +936,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-110 · Nimuhi literary discovery in Explore | published | https://projectodisha.org/explore/?q=Nimuhi | UTP-DEC-225 |
 | UTP-REL-111 · Pending research reading room and Osha collection | published | https://projectodisha.org/reading-room/ | UTP-DEC-2026101501 |
 | UTP-REL-112 · Boat songs of Odisha article | published | https://projectodisha.org/stories/boat-songs/ | UTP-DEC-225 |
+| UTP-REL-113 · Shareable reading-room searches | published | https://projectodisha.org/reading-room/ | UTP-DEC-225 |
 
 ## Sources and assets
 
@@ -973,7 +974,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101110 | 2026-10-11T07:02:53.778818+00:00 | Kanji Anla household settings and post-offering food roles reconciled for existing draft review; no publication. | Kanji Anla food roles reconciled into draftPR145. Continue the next eligible existing research-note profile using saved sources first; preserve all14–17October textual, calendar and local-review holds. No publication inferred. |
 | UTP-EVT-2026101112 | 2026-10-11T09:55:36.693880+00:00 | Samba Dashami day sequence, children’s sharing and later Yama offering reconciled for existing draft review; printed ambiguity preserved, no publication. | Samba Dashami food sequence reconciled into draftPR145. Continue the next eligible saved-source field; preserve all14–18October textual, calendar and local-review holds. No publication inferred. |
 | UTP-EVT-2026101113 | 2026-10-11T11:58:15.660331+00:00 | Sabitri Brata literary choice, story vow and collective reading/fruit sharing reconciled for existing draft review; nine/ten discrepancy preserved, no publication. | Sabitri Brata food sequence reconciled into draftPR145. Continue the next eligible saved-source field; preserve all14–18October textual, calendar and local-review holds. No publication inferred. |
 | UTP-EVT-2026101114 | 2026-10-11T14:33:52.021116+00:00 | Manabasa Gurubara digital textual witness and ritual/shared-food roles reconciled for existing draft review;1868 header remains quarantined, no publication. | Manabasa Gurubara food sequence reconciled into draftPR145. Continue the next eligible saved-source field; preserve all14–18October textual, calendar and local-review holds. No publication inferred. |
@@ -983,6 +983,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101502 | 2026-10-14T22:31:44.899834+00:00 | Resumed boat-song item using alternative full-text sources; completed article, source dossier and public adaptation with collection/Explore links. Source, local build, mobile and keyboard checks pass. Publication still pending; count unchanged. | — |
 | UTP-EVT-2026101503 | 2026-10-14T22:39:54.983951+00:00 | Published Boat songs of Odisha and retained its matching KB narrative and source dossier. Verified17 paragraphs, four source links, collection and Explore discovery, noindex and eleven sitemap routes. Resumed item078 counted once after receipt; programme total82. | — |
 | UTP-EVT-2026101504 | 2026-10-14T23:23:29.702206+00:00 | Implemented URL-backed reading-room filters and safe result sharing. Tests and desktop/mobile/keyboard preview pass. Publication pending; completed count remains82. | — |
+| UTP-EVT-2026101505 | 2026-10-14T23:30:13.954132+00:00 | Published and live-verified bookmarkable/shareable reading-room searches. Item083 counted once after publication receipt; total83. All169 notes remain available; external-search selection unchanged. | — |
 
 ## Deferred extensions
 

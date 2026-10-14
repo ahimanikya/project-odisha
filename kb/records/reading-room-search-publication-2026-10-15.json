@@ -1,0 +1,71 @@
+{
+  "recorded_at": "2026-10-14T23:30:13.954132+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-083",
+  "work_id": "UTP-WORK-272",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/246",
+  "reviewed_head": "de935537f9a336a8bbacdd9c805b168be7b371fa",
+  "merge_commit": "62b03a8724a1225eb9277e1516af6834d453be58",
+  "merged_at": "2026-10-14T23:26:31Z",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "de935537f9a336a8bbacdd9c805b168be7b371fa",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38653823942"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "62b03a8724a1225eb9277e1516af6834d453be58",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38654100536",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-14T23:29:56.491827+00:00",
+    "page": "https://projectodisha.org/reading-room/",
+    "http_status": 200,
+    "page_sha256": "a6090c1715aeab2928979d5365fe78301304650ccdff6b5919cfc4d9c944a6cf",
+    "rendered_notes": 169,
+    "noindex": true,
+    "sitemap_entries": 11,
+    "external_search_selection_unchanged": true,
+    "browser": {
+      "deep_link": "ports + Statistics restores exactly one Ports result.",
+      "reset_and_history": "Show all restores169; Back and reload restore original selection.",
+      "share": "Fallback exposes https://projectodisha.org/reading-room/?q=ports&collection=Statistics",
+      "keyboard": "Search Enter focuses count.",
+      "screenshot": "/tmp/reading-room-live.png"
+    }
+  },
+  "outputs": [
+    {
+      "path": "projects/site/src/pages/reading-room/index.astro",
+      "sha256": "e8a2592cb1142dded858b755d09cf4f98676ddea579f1e5985d7c12ddbce7ce5",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/lib/reading-room-search.mjs",
+      "sha256": "10c9b417d489ca83cebad52fc81add2aac178f95830a03d0d67d733c2f77f0c4",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/components/PageShare.astro",
+      "sha256": "ee8a2e2501741ae9313ed4896f82ef509e924b6fe04c42b9fe57195e5d8a68d0",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/lib/page-share.mjs",
+      "sha256": "ef7efe6b954126467192f620754b4c3c82d8f3b1ed61676558983713b7fbe9c7",
+      "matches_fetched_merge": true
+    }
+  ],
+  "review": "records/reading-room-search-review-2026-10-15.json",
+  "limitations": [
+    "Same-assistant review, not independent or human review.",
+    "Native device sharing and physical screen-reader behavior not tested; browser fallback and keyboard behavior checked.",
+    "Existing specialist review and noindex restrictions on research notes remain unchanged."
+  ],
+  "attachment": "App attachment attempted; thread attachment identity count exceeds100. PR URL retained."
+}

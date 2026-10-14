@@ -5603,7 +5603,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Continue next eligible substantive item. 82 of 500 delivered; reading-room search restoration and sharing underway as item083.",
+      "next_action": "Continue next eligible substantive item. 83 of 500 delivered; reading-room searches published with live receipt.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225"
@@ -7718,12 +7718,12 @@
       "id": "UTP-WORK-272",
       "title": "Share and restore reading-room searches",
       "category": "website_usability",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Publish reviewed search controls after passing PR checks, then verify live and record receipt.",
+      "next_action": "Published and verified live. Native device sharing and physical screen-reader review remain future checks.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225",
@@ -7731,7 +7731,8 @@
       ],
       "evidence": [
         "records/pending-reading-room.json",
-        "records/reading-room-search-review-2026-10-15.json"
+        "records/reading-room-search-review-2026-10-15.json",
+        "records/reading-room-search-publication-2026-10-15.json"
       ],
       "acceptance_criteria": "Make the169-note reading room filter state bookmarkable and shareable through bounded q and allowlisted collection parameters. Restore results and controls on reload and Back/Forward, collapse typing into a reversible history step, respect input composition, reset accessibly, preserve all notes without JavaScript, and exclude arbitrary URL data from shared links. Test controller, sharing and rendered controls; inspect desktop/mobile and keyboard behavior; pass reviewed-head CI, publish main with approval, verify live and save receipt before counting once. No new research claims or external-search expansion."
     }
@@ -19752,6 +19753,22 @@
         "records/boat-songs-publication-2026-10-15.json"
       ],
       "note": "PR245 reviewed and merged after passing checks. Main-branch publication succeeded; complete article, source links, collection/Explore discovery and noindex verified live."
+    },
+    {
+      "id": "UTP-REL-113",
+      "title": "Shareable reading-room searches",
+      "status": "published",
+      "authorization": "UTP-DEC-225",
+      "destination": "https://projectodisha.org/reading-room/",
+      "refs": [
+        "UTP-WORK-272",
+        "UTP-REV-240",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/reading-room-search-publication-2026-10-15.json"
+      ],
+      "note": "PR246 passing reviewed head merged; main publication succeeded. Live deep link, reset/history, reload, share fallback,169 notes and eleven sitemap routes verified."
     }
   ],
   "sources": [
