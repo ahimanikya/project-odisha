@@ -19,3 +19,11 @@ test('only an explicitly declared text download is retained; undeclared files an
  put('index.html',html('<a href="/assets/field-pack.txt#missing">Download</a>'));assert.match(execute().stderr,/Download must not contain a fragment/);
  config.downloads=['/assets/../private.txt'];assert.match(execute().stderr,/Invalid edition configuration/);
 }));
+
+test('only declared archive PDFs survive publication, with reader page fragments preserved',()=>fixture(({dir,config,execute,put})=>{
+ put('index.html',html('<a href="/archive/poem.pdf#page=45">Poem</a>'));put('archive/poem.pdf','%PDF-1.4 sample');put('archive/private.pdf','Held');
+ assert.match(execute().stderr,/Link outside scope/);
+ config.documents=['/archive/poem.pdf'];assert.equal(execute().status,0);assert.ok(existsSync(join(dir,'dist-coast/archive/poem.pdf')));assert.ok(!existsSync(join(dir,'dist-coast/archive/private.pdf')));
+ put('index.html',html());config.documents=['/archive/../private.pdf'];assert.match(execute().stderr,/Invalid edition configuration/);
+ config.documents=['/archive/missing.pdf'];put('index.html',html('<a href="/archive/missing.pdf">Missing</a>'));assert.match(execute().stderr,/Missing asset/);
+}));
