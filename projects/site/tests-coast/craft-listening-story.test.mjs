@@ -10,7 +10,7 @@ test('craft-listening story delivers the complete KB narrative and evidence dist
  assert.deepEqual(story.blocks.flatMap(b=>b.paragraphs),paragraphs);
  for(const p of paragraphs)assert.ok(html.includes(escape(p)),p);
  for(const s of story.sources)assert.ok(html.includes(escape(s.resource)));
- for(const x of ['2018','29 minutes','Gobardhan Panika','not an account of a workshop visited by Utkal Project'])assert.ok(html.includes(x));
+ for(const x of ['2018','29 minutes','Gobardhan Panika','not an account of a workshop visited by Project Odisha'])assert.ok(html.includes(x));
  assert.ok(!html.includes('<audio'));assert.ok(!html.includes('sounds-reading-trail'));
 });
 test('craft-listening further reading connects the collection and notebook without expanding the eight-chapter trail',()=>{

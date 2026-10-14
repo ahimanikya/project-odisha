@@ -32,7 +32,7 @@ Start with six and learn before aiming for twenty. The three-day field assumptio
 
 WORK-169 can prepare the six-record confirmation checklist and draft introductions using this pack. Before contacting anyone, the Founder selects the scope, appoints a local coordinator and authorizes the actual recipients/message. Obtain quotes and a cash ceiling before spending. WORK-170 records real host agreements; itineraries and public visitor promises follow that evidence.
 
-Utkal Project keeps editorial independence. Future commercial participation belongs to an explicitly agreed Collective arrangement. Boita can later turn verified obstacles into a policy brief; this desk work does not establish a government engagement or commission.
+Project Odisha keeps editorial independence. Future commercial participation belongs to an explicitly agreed Collective arrangement. Boita can later turn verified obstacles into a policy brief; this desk work does not establish a government engagement or commission.
 
 [Approved pilot brief](../../specs/tourism-experience-pilot.md) · [Evidence and limitations](../../records/tourism-research-2026-10-05.json)
 

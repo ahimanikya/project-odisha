@@ -220,7 +220,7 @@ I have carried the name Ahimanikya all my life. Exploring *Sashisena Kavya*, I a
 
 At Nimuhi, something similar happens at the scale of a place. A building keeps a name visible; a name sends someone back to a poem. The doorway may be absent, but the invitation to read remains.
 
-*Researched and written by Ahimanikya Satapathy for Utkal Project. Last reviewed 14 October 2026.*
+*Researched and written by Ahimanikya Satapathy for Project Odisha. Last reviewed 14 October 2026.*
 
 [^source-1]: Pratap Ray, [*Shashisena*, Prachi Samiti edition](https://or.wikisource.org/wiki/ସୂଚୀ:Sashi_Sena.pdf). The index dates it 1928; file metadata says 1929. Key passages inspected: I.21–44, printed pp.3–5 (PDF pp.41–43), miraculous origin; I.55–56, printed p.7 (PDF p.45), explicit naming; III.2–5, 51–55, printed pp.12, 17 (PDF pp.50, 55), study and secret marriage; IV.3–7, printed p.19 (PDF p.57), teacher’s warning and advice; VIII, pp.48–54 (PDF pp.86–92), captivity and divine help; X, pp.62–69 (PDF pp.100–107), message and rescue; XI.13, 24–30, 35, pp.72, 74–75 (PDF pp.110, 112–113), human and divine parentage, editorial Durga gloss and Chandrabali; XII.23–30, 43–48, pp.84–85, 88–89 (PDF pp.122–123, 126–127), serpent departure and guidance; XIII.13–46, pp.92–97 (PDF pp.130–135), second recovery; XIV.36–43, pp.105–106 (PDF pp.143–144), homecoming. Selected verse readings, not a complete critical collation or certified translation.
 

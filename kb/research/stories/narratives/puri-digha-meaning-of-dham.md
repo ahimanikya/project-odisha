@@ -62,6 +62,6 @@ Before sharing a temple photograph, look at the caption once more. Does it merel
 - **Later development:** Atri Mitra and Sujit Bisoyi, [*The Indian Express*, 10 June 2026](https://indianexpress.com/article/india/why-west-bengal-is-now-dropping-dham-from-digha-jagannath-temple-10732089/). Full report inspected. Announcement, implementation and religious authority remain distinct.
 - **Evidence and follow-up:** [Section-level record](puri-digha-meaning-of-dham.json). No finding of legal infringement, measured tourism loss or collective wrongdoing is made. Unrelated allegations about sacred wood are outside this story.
 
-Original narration by Utkal Project, drafted with AI assistance under Ahimanikya Satapathy’s direction. No field visit or independently conducted interview. Specialist review and documentary image selection remain open. Local editorial draft; not published to the website.
+Original narration by Project Odisha, drafted with AI assistance under Ahimanikya Satapathy’s direction. No field visit or independently conducted interview. Specialist review and documentary image selection remain open. Local editorial draft; not published to the website.
 
 </details>

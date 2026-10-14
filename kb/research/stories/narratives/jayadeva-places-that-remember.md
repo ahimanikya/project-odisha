@@ -61,6 +61,6 @@ The next time a place introduces itself as his birthplace, stay curious. Ask wha
 - **Odisha archaeological position:** [Odisha State Museum, RTI Manual 1](https://rtiodisha.gov.in/Pages/printAllManual/office_id:277/lang:), excavation paragraphs. Administrative account inspected; excavation stratigraphy, dating and person-specific identification remain unverified. This story does not adopt the account’s claim of conclusive proof.
 - **Evidence and follow-up:** [Section-level record](jayadeva-places-that-remember.json). Read alongside the [original research shortlist](../../culture/cultural-attribution-story-leads.md).
 
-Original narration by Utkal Project, drafted with AI assistance under Ahimanikya Satapathy’s direction. No field visit, newly collected testimony or invented dialogue. Specialist review and documentary image selection remain open. Local editorial draft; not published to the website.
+Original narration by Project Odisha, drafted with AI assistance under Ahimanikya Satapathy’s direction. No field visit, newly collected testimony or invented dialogue. Specialist review and documentary image selection remain open. Local editorial draft; not published to the website.
 
 </details>

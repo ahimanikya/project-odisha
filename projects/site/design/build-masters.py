@@ -19,7 +19,7 @@ for name,s,h in [('colour',EARTH,SEA),('sea',SEA,SEA),('earth',EARTH,EARTH),('re
  for lang,key,width in [('en','en',600),('or','odia',280)]:
   textheight=data[key]['bounds'][3]*width/data[key]['bounds'][2]
   body=symbol(s,h)+letters(key,185,(140-textheight)/2,width,h)
-  (brand/f'utkal-project-{lang}-{name}.svg').write_text(svg(body,205+width,140,'Utkal Project' if lang=='en' else 'ଉତ୍କଳ'))
+  (brand/f'utkal-project-{lang}-{name}.svg').write_text(svg(body,205+width,140,'Project Odisha' if lang=='en' else 'ଉତ୍କଳ'))
 # Single-ink small symbol: omit the two secondary page lines at tiny sizes.
 small='<path fill="'+SEA+'" d="M74 88C54 63 35 59 18 67C34 43 39 23 40 8C62 20 74 42 74 65ZM86 88C106 63 125 59 142 67C126 43 121 23 120 8C98 20 86 42 86 65ZM8 96Q80 114 152 96Q128 132 80 132Q32 132 8 96Z"/>'
 (brand/'symbol-small.svg').write_text(svg(small,160,140,'Utkal small book and boat'))

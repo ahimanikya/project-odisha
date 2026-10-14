@@ -50,7 +50,7 @@ test('preview stays unindexed and ships no remote scripts or live submission end
 test('brand assets, original fonts and their licences are included',()=>{
   for(const path of ['assets/book-boat-v1.png','assets/coast-illustration-v1.png','fonts/NotoSerifOriya-Bold.ttf','fonts/NotoSansOriya-Bold.ttf','fonts/OFL.txt','fonts/OFL-NotoSansOriya.txt'])assert.ok(existsSync(join(root,path)),path);
   const html=read('brand-review/index.html');
-  assert.ok(html.includes('ମାଙ୍କଡ଼ା ପଥର')&&html.includes('ଉତ୍କଳ'));
+  assert.ok(html.includes('ମାଙ୍କଡ଼ା ପଥର')&&html.includes('ପ୍ରୋଜେକ୍ଟ ଓଡ଼ିଶା'));
   assert.ok(!html.includes('Kankada'));
 });
 
