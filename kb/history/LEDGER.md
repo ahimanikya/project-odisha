@@ -1058,3 +1058,8 @@ The Founder clarified the front-page rotation reference and invited a new Human 
 ## UTP-HIS-HOME-SHARING-PUBLISHED-20261006 — The Konark link preview is live
 
 The Founder approved publication. PR143 was merged and deployed; the live homepage’s Open Graph and Twitter tags use the approved Konark artwork, whose served hash matches the reviewed file. [Publication and verification](../records/home-sharing-konark-publication-2026-10-06.json). External social-preview caches were not refreshed.
+
+
+## UTP-HIS-NIMUHI-PERSONAL-PASSAGE-20261014 · Growing into a name
+
+Ahimanikya approved a more personal reflection linking his lifelong name with the longing, courage and love in Sashisena Kavya, then explicitly requested publication. [Approved wording and release record](../records/nimuhi-personal-passage-20261014.json).

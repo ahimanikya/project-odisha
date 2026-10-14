@@ -222,7 +222,7 @@ What the reported offerings suggest is modest but meaningful: an older story can
 
 ## Growing into a name
 
-Sharing Ahimanikya’s name gives me a personal reason to explore *Sashisena Kavya* more closely.
+I have carried the name Ahimanikya all my life. Exploring *Sashisena Kavya*, I am discovering the longing, courage and love that lived in that name long before it became mine.
 
 At Nimuhi, something similar happens at the scale of a place. A building keeps a name visible; a name sends someone back to a poem. The doorway may be absent, but the invitation to read remains.
 
