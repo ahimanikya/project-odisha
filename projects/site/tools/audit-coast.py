@@ -59,6 +59,9 @@ for route,page in pages.items():
   if path in config.get('downloads',[]):
    if target.fragment or not (OUT/path.lstrip('/')).is_file():errors.append('Missing or invalid download '+ref)
    continue
+  if path in config.get('documents',[]):
+   if not (OUT/path.lstrip('/')).is_file():errors.append('Missing archive document '+ref)
+   continue
   if path not in pages:errors.append('Excluded or missing local link '+ref)
   elif target.fragment and not any(a.get('id')==unquote(target.fragment) for _,a in pages[path].nodes):errors.append('Missing fragment '+ref)
  for tag,a in page.nodes:
