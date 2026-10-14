@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `6c3145c5cdce1aa2d1e92450dc8ea8c60f6cdcf9ec12461041989a416d45e3e1`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `94e139a84996f90cd2557bd259076f001e7be075b402056b83a60ea0995aac7d`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -955,7 +955,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-413 | 2026-10-12T16:57:33.066014+00:00 | Delivered Odia lullaby reader article and source dossier via checked PR225; verified merged bytes. Website adaptation remains pending; programme76/500. | — |
 | UTP-EVT-414 | 2026-10-12T17:37:14.414749+00:00 | Selected publication of the delivered lullaby article, with collection and Explore discovery; source research reused. | — |
 | UTP-EVT-415 | 2026-10-12T17:51:38.708841+00:00 | Published Odia lullabies further reading via checked PR226 and approved main workflow; live narrative and discovery verified. Programme 77/500. | — |
 | UTP-EVT-416 | 2026-10-13T01:22:16.412326+00:00 | Selected the collection’s unfilled boat/fishing-song subject after scoped KB and queue searches; article and source dossier are the bounded output. | — |
@@ -965,6 +964,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-420 | 2026-10-13T07:03:39.954902+00:00 | Published craft-listening article through checked PR228 and approved main workflow; live content and discovery verified. Programme 79/500. | — |
 | UTP-EVT-2026101401 | 2026-10-14T06:00:00Z | Prepared 33 source-linked Odisha arts and literature calendar entries within user-requested scope, distinguishing announced, reported, awaiting dates and past editions. | — |
 | UTP-EVT-2026101402 | 2026-10-14T05:53:29.329065+00:00 | Expanded calendar to 37 entries; 520 full and 113 coastal tests pass. Publication build and browser filtering/mobile checks pass. | — |
+| UTP-EVT-2026101403 | 2026-10-14T07:20:30.959091+00:00 | Second calendar pass verified UNURUM dates from university-linked Instagram; updated latest KLF dates with discrepancy retained, recovered OALF and two past Toshali ranges, clarified Utsha application status. | — |
 
 ## Deferred extensions
 
