@@ -1063,3 +1063,8 @@ The Founder approved publication. PR143 was merged and deployed; the live homepa
 ## UTP-HIS-NIMUHI-PERSONAL-PASSAGE-20261014 · Growing into a name
 
 Ahimanikya approved a more personal reflection linking his lifelong name with the longing, courage and love in Sashisena Kavya, then explicitly requested publication. [Approved wording and release record](../records/nimuhi-personal-passage-20261014.json).
+
+
+## UTP-HIS-NIMUHI-READER-FOOTNOTES-20261014 · A clearer reading path
+
+Following Pradip Biswal’s feedback relayed by Ahimanikya, the article’s bracketed references become linked footnotes. Detailed verse and page coordinates move out of the narrative; all sources, excerpts and historical qualifications remain. [Revision and verification](../records/nimuhi-reader-footnotes-20261014.json).
