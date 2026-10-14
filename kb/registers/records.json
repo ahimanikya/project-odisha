@@ -5603,7 +5603,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Continue next eligible substantive item. 81 of 500 delivered with linked evidence under DEC225.",
+      "next_action": "Continue next eligible substantive item. 82 of 500 delivered; reading-room search restoration and sharing underway as item083.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225"
@@ -7713,6 +7713,27 @@
         "records/pending-content-publication-2026-10-15.json"
       ],
       "acceptance_criteria": "All 39 pending heads included; dated sourced research accessible through reading room, Osha pages discoverable, current main preserved, full/public tests and research validators pass. Merge checked PR, publish approved main workflow, verify all new public routes and unchanged eleven-route sitemap, save receipt."
+    },
+    {
+      "id": "UTP-WORK-272",
+      "title": "Share and restore reading-room searches",
+      "category": "website_usability",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Publish reviewed search controls after passing PR checks, then verify live and record receipt.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-REV-240"
+      ],
+      "evidence": [
+        "records/pending-reading-room.json",
+        "records/reading-room-search-review-2026-10-15.json"
+      ],
+      "acceptance_criteria": "Make the169-note reading room filter state bookmarkable and shareable through bounded q and allowlisted collection parameters. Restore results and controls on reload and Back/Forward, collapse typing into a reversible history step, respect input composition, reset accessibly, preserve all notes without JavaScript, and exclude arbitrary URL data from shared links. Test controller, sharing and rendered controls; inspect desktop/mobile and keyboard behavior; pass reviewed-head CI, publish main with approval, verify live and save receipt before counting once. No new research claims or external-search expansion."
     }
   ],
   "decisions": [
@@ -17863,6 +17884,27 @@
         "Same-assistant desk review only; practitioner and local terminology review remain open.",
         "PDF text was readable through web extraction; screenshot attempts failed. No visual PDF inspection or local capture claimed.",
         "No field recording or ancient transmission established. Eight main chapters and eleven external-search routes retained."
+      ]
+    },
+    {
+      "id": "UTP-REV-240",
+      "title": "Reading-room search and result sharing review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-272"
+      ],
+      "evidence": [
+        "records/reading-room-search-review-2026-10-15.json"
+      ],
+      "limitations": [
+        "Same-assistant review, not independent or human review.",
+        "Native device sharing and physical screen-reader behavior not tested; browser fallback and keyboard behavior checked.",
+        "Existing specialist review and noindex restrictions on research notes remain unchanged."
       ]
     }
   ],
