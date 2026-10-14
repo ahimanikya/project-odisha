@@ -8,7 +8,7 @@ sources: [{"id": "instagram-duqtfgkkuna", "title": "Sashisena Temple reel", "res
 
 # Ahimanikya and Sashisena at the temple without a door
 
-In Sonepur, Odisha, a doorless memorial is widely known as Sashisena Temple or Nimuhi Mandir. To approach it is to remain outside, facing a monument whose best-known story is about two people refusing to remain apart. The familiar name does not establish that it functioned as a shrine with an installed deity and regular puja. [9, 10]
+In Sonepur, Odisha—also known locally as **Suvarnapura**—a doorless memorial is widely known as Sashisena Temple or Nimuhi Mandir. To approach it is to remain outside, facing a monument whose best-known story is about two people refusing to remain apart. The familiar name does not establish that it functioned as a shrine with an installed deity and regular puja. [9, 10, 20]
 
 Their names are Sashisena and Ahimanikya. She is a princess; he grows up in a minister’s household, with a supernatural origin that short retellings often leave out. Their love becomes a tale of departure, captivity, recognition and repeated rescue. Official accounts describe the building as a memorial to their bond. [1, 9, 10]
 
@@ -62,7 +62,11 @@ The passage is in the eleventh chhanda, verse 13, on printed page 72 (PDF page 1
 
 In Suvendu Meher’s modern poem *Nirbana*, the speaker imagines surrendering like Ahimanikya, whom the poem calls a **“Shabara prince.”** That description has not been corroborated in the older sources examined here; its basis in an oral variant or a poetic reinterpretation remains unresolved. [19]
 
-Even the geographical identifications vary. Pabitra Mohan Nayak places Sashisena’s Amaravati near Chandikhol and identifies the main setting as Kamantapur, or Sonepur; the 1968 *Balangir Gazetteer* instead introduces her as a western Odisha chief’s daughter. These are accounts of the tale’s geography, not a settled map of historical lives. [4, 12]
+## Amaravati and the names of Sonepur
+
+**Amaravati** is the kingdom named at the beginning of the poem, where Sashisena and Ahimanikya grow up. Pabitra Mohan Nayak places it near present-day Chandikhol and identifies the main setting of the later story as **Kamantapur, or Sonepur**. The 1968 *Balangir Gazetteer* instead introduces Sashisena as a western Odisha chief’s daughter. These identifications vary; the poem’s Amaravati should not be treated as an earlier name for Sonepur. [1, I.21–24; 4, 12]
+
+For Sonepur itself, **Suvarnapura** is a historically documented name. The *Subarnapur Gazetteer* discusses it in connection with copperplate inscriptions and identifies Suvarnapur with modern Sonepur. This is firmer ground for the town’s older name than the romance alone. It does not establish the earliest name the settlement ever had, or prove the lovers were historical people. [9, printed pp.46–47, 182]
 
 This difficulty was recognised before today’s online retellings. In his collected historical studies published in 1969, Paramananda Acharya challenged an identification of the romance’s Vikramakesari with the *Ramacharita*’s Vikramaraja, pointing to differences between literary versions. His criticism concerns that identification; it neither proves the lovers existed nor proves that no historical people could have inspired the story. [17, p.115]
 
@@ -218,7 +222,7 @@ What the reported offerings suggest is modest but meaningful: an older story can
 
 ## Growing into a name
 
-For me, this story is personal: I share the hero’s name. It gives me another reason to explore Odisha’s poetry and the stories its places preserve.
+Sharing Ahimanikya’s name gives me a personal reason to explore *Sashisena Kavya* more closely.
 
 At Nimuhi, something similar happens at the scale of a place. A building keeps a name visible; a name sends someone back to a poem. The doorway may be absent, but the invitation to read remains.
 
@@ -233,7 +237,7 @@ At Nimuhi, something similar happens at the scale of a place. A building keeps a
 7. [Nua Odisha’s Sonepur compilation](https://www.nuaodisha.com/Odisha-Tourism/Tourist-Places-In-Sonepur.html). Royal attribution and alternative association with Maluni; a tourism compilation, not a construction record.
 8. Dharitri, [*ଚିରନ୍ତନ ପ୍ରେମର ସନ୍ତକ ନିମୁହିଁ ମନ୍ଦିର*](https://www.dharitri.com/ଚିରନ୍ତନ-ପ୍ରେମର-ସନ୍ତକ-ନିମ/), 15 March 2020. Report of Valentine’s Day flower offerings.
 
-9. Government of Odisha, [*Odisha District Gazetteers: Subarnapur*](https://web.archive.org/web/20220920170541/http://www.gopabandhuacademy.gov.in/sites/default/files/gazetter/Subarnapur_Gazetteer.pdf), consulting editor’s note dated 16 April 2016. Printed pp.59, 69, 222, 228, 292 and 311; recovered through Wayback. Page 311 pairs the 1928 memorial and publication; p.222 distinguishes the subsequent 1929 edition, and p.228 lists the 1928 publication.
+9. Government of Odisha, [*Odisha District Gazetteers: Subarnapur*](https://web.archive.org/web/20220920170541/http://www.gopabandhuacademy.gov.in/sites/default/files/gazetter/Subarnapur_Gazetteer.pdf), consulting editor’s note dated 16 April 2016. Printed pp.46–47, 59, 69, 182, 222, 228, 292 and 311; recovered through Wayback. Pages 46–47 discuss Suvarnapura in inscriptional records; p.182 identifies Suvarnapur with modern Sonepur. Page 311 pairs the 1928 memorial and publication; p.222 distinguishes the subsequent 1929 edition, and p.228 lists the 1928 publication.
 10. Government of Odisha, [archived Sonepur tourism page](https://web.archive.org/web/20120801090335/http://orissa.gov.in:80/tourism/sonepur.htm), snapshot 1 August 2012. Doorless memorial description and account of reused stones; original publication date unknown.
 11. Rajendra Prasad Mohapatra, [*Odisha: Sashisena Temple In Sonepur, An Epitome Of Love*](https://odishatv.in/odisha-news/odisha-sashisena-temple-in-sonepur-an-epitome-of-love-517953), OTV, 14 February 2021. Named local testimony; construction date conflicts with the Gazetteer.
 
@@ -252,5 +256,7 @@ At Nimuhi, something similar happens at the scale of a place. A building keeps a
 18. Monier-Williams, *Sanskrit–English Dictionary*, University of Hyderabad digital transcription based on the Cologne edition: [ahi](https://sanskrit.uohyd.ac.in/SKT/MW/24.html), serpent; [māṇikya](https://sanskrit.uohyd.ac.in/SKT/MW/201.html), ruby; [maṇi](https://sanskrit.uohyd.ac.in/SKT/MW/192.html), jewel or gem. These clarify the word elements; the naming explanation comes directly from the poem.
 
 19. Suvendu Meher / ଶୁଭେନ୍ଦୁ ମେହେର, *ନିର୍ବାଣ (Nirbana)*, [*Shubhapallaba*, issue 54, September 2023, pp.33–34](https://shubhapallaba.in/gapu/media/Shubhapallaba%2054th%20Edition.pdf#page=34); also available on [StoryMirror](https://storymirror.com/read/oriya/poem/nirbaann/gugmzl8h). A modern poetic response to the story; the poem does not identify a source for its Shabara-prince description.
+
+20. Ahimanikya Satapathy, author’s local-usage note, 14 October 2026: Suvarnapura is a name people still use locally.
 
 *Researched and written by Ahimanikya Satapathy for Utkal Project. Last reviewed 14 October 2026.*
