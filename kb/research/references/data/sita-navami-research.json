@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0",
+  "task_id": "RES-077",
+  "batch_id": "OSHA-B06",
+  "run_id": "2026-10-07-sita-navami",
+  "checked_at": "2026-10-07T23:16:49.947159+00:00",
+  "scope": "Sita Navami: source calendar conflict, literary context and organiser programme; local food and katha unknown",
+  "source_checks": [
+    {
+      "source_id": "osha-review2006",
+      "run_id": "2026-10-07-sita-navami",
+      "checked_at": "2026-10-07T23:16:49.947159+00:00",
+      "locator": "Printed16 / PDF2, left column Sita Nabami Brata in Jyestha; right column general offerings",
+      "method": "Saved text and newly rendered original page image inspected",
+      "scope": "Existing source reused, not independent corroboration from a new copy.",
+      "status": "conflicted",
+      "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf"
+    },
+    {
+      "source_id": "osha-mahanti",
+      "run_id": "2026-10-07-sita-navami",
+      "checked_at": "2026-10-07T23:16:49.947159+00:00",
+      "locator": "Printed54 / PDF70, Sita navami osha and note37",
+      "method": "Saved text and existing rendered original page image inspected",
+      "scope": "Existing source reused, not independent corroboration from a new copy.",
+      "status": "conflicted",
+      "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf"
+    },
+    {
+      "source_id": "osha-sita-valmiki-rao",
+      "url": "https://valmikiramayan.net/utf8/baala/sarga66/bala_66_prose.htm",
+      "status": "retrieved",
+      "checked_at": "2026-10-07T23:16:49.947159+00:00",
+      "locator": "Sarga66 in Prose; paragraphs beginning Later, when I was ploughing and Hers is a non-uterine birth",
+      "scope": "Directly read translator-published literary witness for Janaka’s account of Sita’s discovery. This is narrative context, not a Sita Navami ritual manual, historical event or local Odisha menu. Translator commentary and sectarian polemics are not adopted."
+    },
+    {
+      "source_id": "osha-sita-panchavati2024",
+      "url": "https://www.panchabati.org/events.html",
+      "status": "retrieved",
+      "checked_at": "2026-10-07T23:16:49.947159+00:00",
+      "locator": "Our Events:2024–2025 list item3 Sita Navami; item7 Sita Bibah; footer address Haridamada, Mendhashala, Khurdha",
+      "scope": "Publisher’s own historical programme listing, including Sita Navami16May2024 and a separate Sita Bibah6December2024. This is advertised scheduling, not verified occurrence, attendance, food service or current availability."
+    }
+  ],
+  "failed_fetches": [
+    {
+      "url": "https://www.valmiki.iitk.ac.in/sloka?field_kanda_tid=1&field_sarga_value=66&language=dv",
+      "status": "unavailable",
+      "reason": "Original page fetch502 Bad Gateway; search result not treated as inspected original."
+    },
+    {
+      "url": "https://www.valmiki.iitk.ac.in/sloka?field_kanda_tid=1&field_sarga_value=66&language=kn",
+      "status": "unavailable",
+      "reason": "Alternate script route400 timeout; stopped after two meaningful approaches."
+    },
+    {
+      "url": "https://valmikiramayan.net/utf8/baala/sarga66/bala_66_frame.htm",
+      "status": "unavailable_content",
+      "reason": "Frame wrapper only; prose endpoint recovered and inspected."
+    },
+    {
+      "url": "https://valmikiramayan.net/utf8/baala/sarga66/bala_66.htm",
+      "status": "unavailable",
+      "reason": "Tool reported inaccessible; no verse-page inspection claimed."
+    }
+  ],
+  "source_reuse": [
+    {
+      "source_id": "osha-review2006",
+      "run_id": "2026-10-07-sita-navami",
+      "checked_at": "2026-10-07T23:16:49.947159+00:00",
+      "locator": "Printed16 / PDF2, left column Sita Nabami Brata in Jyestha; right column general offerings",
+      "method": "Saved text and newly rendered original page image inspected",
+      "scope": "Existing source reused, not independent corroboration from a new copy."
+    },
+    {
+      "source_id": "osha-mahanti",
+      "run_id": "2026-10-07-sita-navami",
+      "checked_at": "2026-10-07T23:16:49.947159+00:00",
+      "locator": "Printed54 / PDF70, Sita navami osha and note37",
+      "method": "Saved text and existing rendered original page image inspected",
+      "scope": "Existing source reused, not independent corroboration from a new copy."
+    }
+  ],
+  "food_records": [],
+  "food_association_status": "unknown",
+  "food_evidence_limit": "No Sita-specific menu in inspected Odisha passages; general Dash fruit examples, adjacent Shani khichidi and Sabitri offerings not transferred.",
+  "historical_programme": {
+    "source_id": "osha-sita-panchavati2024",
+    "organiser": "Panchavati Seva Public Charitable Trust",
+    "place": "Haridamada, Khurdha, Odisha",
+    "label": "Sita Navami",
+    "advertised_date": "2024-05-16",
+    "period": "2024–2025 programme",
+    "stage": "advertised_historical_programme",
+    "event_occurrence_verified": false,
+    "attendance": null,
+    "food_service": null,
+    "current_availability": null,
+    "distinct_entry": {
+      "label": "Sita Bibah",
+      "advertised_date": "2024-12-06"
+    }
+  },
+  "narrative": {
+    "source_id": "osha-sita-valmiki-rao",
+    "locator": "Bala Kanda Sarga66 prose, Janaka’s ploughing and adoption account",
+    "role": "epic context only",
+    "local_osha_katha": false,
+    "historical_event_verified": false
+  },
+  "quarantined_claims": [
+    {
+      "kind": "calendar",
+      "sources": {
+        "osha-mahanti": "Baisakha shukla Navami, printed54 / PDF70",
+        "osha-review2006": "Jyestha, printed16 / PDF2"
+      },
+      "resolution": "Unresolved; no automatic Gregorian conversion or fixed season window."
+    },
+    {
+      "kind": "participation_trend",
+      "source_id": "osha-mahanti",
+      "claim": "Declining observance attributed to similar purpose of Sabitri",
+      "resolution": "No sample, observation date or measured series; not adopted as current trend."
+    }
+  ],
+  "search_checks": [
+    {
+      "queries": [
+        "site.magazines.odisha.gov.in \"Sita Navami\"",
+        "\"Sita Nabami\" Odisha food",
+        "\"ସୀତା ନବମୀ\" \"ଭୋଗ\"",
+        "site.valmiki.iitk.ac.in Sita furrow Janaka1.66",
+        "site.magazines.odisha.gov.in \"Sita\" \"Navami\" \"Baisakha\"",
+        "\"ସୀତାନବମୀ\" \"ଭୋଗ\""
+      ],
+      "outcome": "Two existing Odisha accounts reused; original organiser programme and translator-published prose inspected. No Sita-specific Odisha food account established."
+    }
+  ],
+  "uninspected_leads": [
+    {
+      "url": "https://subartanews.com/2026/04/27/sita-nabami/",
+      "scope": "Odia press lead; original not inspected or adopted."
+    },
+    {
+      "url": "https://asianethnology.org/article/1600/download",
+      "scope": "Birth-narrative variants lead; not adopted as local ritual evidence."
+    }
+  ],
+  "followup": {
+    "retry_after": "2026-10-14",
+    "needs": [
+      "Which dated Odia text or panji establishes the local Sita Navami rule, and how should the Baisakha/Jyestha difference be understood?",
+      "Can a complete local Sita Navami katha and its imprint be recovered?",
+      "What foods or restrictions, if any, are documented in a named Odisha household or temple, and how are they prepared and shared?",
+      "Are there records of the2024 advertised observance actually taking place, and any current public programme?",
+      "How do practitioners distinguish Sita Navami, Sita Bibah and Sabitri Brata?"
+    ],
+    "independent_next": "Rambha Trutiya"
+  },
+  "fieldwork_conducted": false,
+  "human_review_claimed": false,
+  "origin_date": null,
+  "annual_date": null,
+  "current_serving_availability": null
+}

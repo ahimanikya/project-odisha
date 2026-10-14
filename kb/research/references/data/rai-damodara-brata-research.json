@@ -1,0 +1,101 @@
+{
+  "run_id": "2026-10-08-rai-damodara",
+  "checked_at": "2026-10-08T10:34:56.057368+00:00",
+  "task_id": "RES-077",
+  "profile_id": "OSHA-033",
+  "source_checks": [
+    {
+      "source_id": "osha-mahanti",
+      "run_id": "2026-10-08-rai-damodara",
+      "checked_at": "2026-10-08T10:34:56.057368+00:00",
+      "locator": "Printed25,51–52 / PDF41,67–68",
+      "method": "Saved text reused; Mahanti PDF41,67,68 visually inspected this run; Dash inventory text reused",
+      "scope": "Name, legend, calendar and food roles; Mahanti internal start-date conflict retained.",
+      "status": "saved_evidence_reused",
+      "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf"
+    },
+    {
+      "source_id": "osha-review2006",
+      "run_id": "2026-10-08-rai-damodara",
+      "checked_at": "2026-10-08T10:34:56.057368+00:00",
+      "locator": "Printed16 / PDF2, Rai Damodara inventory",
+      "method": "Saved text reused; Mahanti PDF41,67,68 visually inspected this run; Dash inventory text reused",
+      "scope": "Name, legend, calendar and food roles; Mahanti internal start-date conflict retained.",
+      "status": "saved_evidence_reused",
+      "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf"
+    },
+    {
+      "source_id": "osha-kartika-patra-punit2018",
+      "url": "https://magazines.odisha.gov.in/Orissareview/2018/Nov/engpdf/33-38.pdf",
+      "status": "retrieved_text",
+      "checked_at": "2026-10-08T10:34:56.057368+00:00",
+      "locator": "Printed33–38 / PDF1–6; food and panchaka printed36; references printed38",
+      "scope": "Publisher-hosted scholarly interpretation, read through web PDF text. Underlying Puranic passages were not independently inspected. Download failed certificate validation; screenshots unavailable. No original PDF image inspection claimed. Historical social descriptions are not a current survey or participant testimony."
+    },
+    {
+      "source_id": "osha-habisha-city-cuisine",
+      "url": "https://visit.bhubaneswar.me/taste/eat-exclusive/odia-cuisine",
+      "status": "retrieved_text",
+      "checked_at": "2026-10-08T10:34:56.057368+00:00",
+      "locator": "Dalma section, Habisha paragraphs immediately before Where to eat",
+      "scope": "Institutional visitor description of one preparation. No publication date visible. Generic restaurant wording is not a dated Habisha menu or current serving verification; health and universal claims excluded."
+    }
+  ],
+  "failed_fetches": [
+    {
+      "url": "https://magazines.odisha.gov.in/Orissareview/2018/Nov/engpdf/33-38.pdf",
+      "status": "unavailable",
+      "method": "curl PDF download",
+      "reason": "TLS certificate validation failed: certificate expired",
+      "checked_at": "2026-10-08T10:34:56.057368+00:00",
+      "recovery": "Web PDF text readable; no local PDF or visual verification"
+    },
+    {
+      "url": "https://magazines.odisha.gov.in/Orissareview/2018/Nov/engpdf/33-38.pdf",
+      "status": "unavailable",
+      "method": "Web screenshots PDF4 and6",
+      "reason": "Cache miss",
+      "checked_at": "2026-10-08T10:34:56.057368+00:00",
+      "recovery": "Retain text-only inspection status"
+    }
+  ],
+  "identity_scope": "Mahanti groups Kartika and Rai Damodara; this is source-specific identity evidence, not universal synonymy.",
+  "reuse": [
+    "Saved Mahanti and Dash",
+    "Native destination-and-tour-book guidance",
+    "food/dalma.md including2019 chef-menu version",
+    "food/mahaprasad.md",
+    "methods/research-map.md and query_research.py Damodara search"
+  ],
+  "calendar_conflict": {
+    "status": "unresolved",
+    "source_id": "osha-mahanti",
+    "locations": [
+      "Printed25 / PDF41",
+      "Printed51–52 / PDF67–68"
+    ],
+    "handling": "No current-year conversion or silently corrected start date."
+  },
+  "evidence_boundaries": [
+    "Rai legend is devotional narrative, not historical event.",
+    "Patra/Punit is a scholarly interpretation; cited Purana passages not independently read.",
+    "Portal preparation is attributed; generic where-to-eat copy is not current seasonal availability.",
+    "Publisher article and whole issue are one publication, not corroborating sources."
+  ],
+  "followup": {
+    "retry_after": "2026-10-15",
+    "needs": [
+      "Can an identified Odia Rai Damodara katha and its imprint be recovered and compared with Mahanti’s synopsis?",
+      "What is the earliest dated Odisha witness, rather than a general Puranic precedent?",
+      "How do named local practitioners distinguish month-long Kartika, Rai Damodara and the five-day vow?",
+      "Which calendar rule resolves the conflicting start statement in Mahanti?",
+      "How do households and community kitchens define habishanna and vary dalma ingredients, methods and serving practices?",
+      "Can a consenting public host, current date and actual Habisha menu be verified?"
+    ],
+    "independent_next": "Magha Brata"
+  },
+  "origin_date": null,
+  "annual_date": null,
+  "fieldwork_conducted": false,
+  "human_review_claimed": false
+}

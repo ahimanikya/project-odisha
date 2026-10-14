@@ -1,0 +1,33 @@
+---
+import Shell from '../../../layouts/Shell.astro';
+import study from '../../../../../../kb/research/references/data/osha-culture.json';
+import evidence from '../../../../../../kb/research/references/data/seasonal-public-food-evidence.json';
+import calendar from '../../../../../../kb/research/references/data/seasonal-food-calendar.json';
+import foods from '../../../../../../kb/research/food/collection.json';
+import {allowsPage} from '../../../data/edition';
+export function getStaticPaths(){return study.pages.map(page=>({params:{slug:page.slug},props:{page}}));}
+const {page}=Astro.props;
+const description=page.lead.length<=250?page.lead:`${page.name}: sourced stories, significance and food traditions, with regional differences and unresolved history kept visible.`;
+const labels={ritual_narrative:'The story as told',documented_description:'A source-attributed account',editorial_interpretation:'A reading of its meaning',research_limit:'What remains to be established',visitor_context:'Reading before a visit'};
+const sourceIds=page.source_ids;
+const seasonalId=calendar.entries.find(entry=>entry.profile_id===page.id)?.id;
+const hasServiceEvidence=evidence.records.some(record=>record.profile_id===page.id||(seasonalId&&record.seasonal_entry_id===seasonalId));
+const foodLinks=page.related_food_paths.map(path=>foods.pages.find(p=>p.slug===path.split('/')[1].replace(/\.md$/,''))).filter(p=>p&&allowsPage('/food/'+p.slug+'/'));
+const related=study.pages.filter(p=>p.slug!==page.slug&&p.traditional_month===page.traditional_month).slice(0,3);
+---
+<Shell title={page.name+' · Stories & seasonal food'} description={description} active="explore" related={false}>
+<div class="wrap">
+<article class="osha-article"><header><a href="/culture/osha/">← Osha, stories & the food year</a><p class="eyebrow">{page.traditional_month||'Recurring calendar condition'} · {page.observance_type}</p><h1>{page.name}</h1><p class="deck">{page.lead}</p><p class="stage">{page.coverage_status==='narrative_checkpoint'?'A narrative research checkpoint':'Early research notes · history and local narrative incomplete'}</p></header>
+<div class="article-body">{page.sections.map((s,i)=><section aria-labelledby={'section-'+i}><p class="eyebrow">{labels[s.evidence_class]}</p><h2 id={'section-'+i}>{s.title}</h2><p>{s.text}</p>{s.source_ids.length>0&&<p class="source-line">{s.source_ids.map((id,j)=><><a href={'#source-'+id}>{study.sources[id].author||study.sources[id].title}</a>{j<s.source_ids.length-1?' · ':''}</>)}<span> {s.locator}.</span></p>}</section>)}
+{foodLinks.length>0&&<aside class="food-reading"><p class="eyebrow">Meet the preparation</p><h2>Follow the food</h2><p>A linked preparation is one documented version; it need not be every household’s ritual recipe.</p><ul>{foodLinks.map(p=><li><a href={'/food/'+p.slug+'/'}>{p.title} →</a></li>)}</ul></aside>}
+{hasServiceEvidence&&<aside class="food-reading"><h2>From a tradition to a food notice</h2><p>A dated sale or distribution plan needs its own evidence. The companion study separates historical services, undated accounts and announcements.</p><a href="/culture/osha/finding-seasonal-food/">What a seasonal food notice can tell you →</a></aside>}
+<section class="questions"><h2>Questions worth carrying forward</h2><ul>{page.questions.map(q=><li>{q}</li>)}</ul><p>These are invitations for future, consented conversations. They are not reports of interviews already conducted.</p></section>
+<aside class="visit-note"><h2>If this inspires a visit</h2><p>Confirm the local date and the food’s availability separately. No serving place or invitation to private worship is verified in this article.</p></aside>
+<section class="sources"><h2>Sources & research notes</h2><p>Checked {page.checked_on}. AI-assisted research; human editorial and Odia review pending. A recorded story does not establish the date an observance began.</p><ol>{sourceIds.map(id=><li id={'source-'+id}><a href={study.sources[id].resource}>{study.sources[id].title}</a><p>{study.sources[id].author||study.sources[id].publisher} · {study.sources[id].published_on||'Publication date not established'}</p><p>{study.sources[id].scope||'See the cited section for the scope of the food association.'}</p></li>)}</ol></section>
+{related.length>0&&<nav class="nearby" aria-label="Continue reading"><h2>More in {page.traditional_month}</h2>{related.map(p=><a href={p.route}>{p.name} →</a>)}</nav>}
+<p><a href="/culture/osha/">Explore the whole collection →</a></p></div></article>
+</div>
+</Shell>
+<style>
+.osha-article{max-width:920px;margin:0 auto;padding:clamp(24px,5vw,60px) 0}.osha-article header{padding:0 0 40px;border-bottom:1px solid var(--line)}.osha-article header>.eyebrow{margin-top:32px}.osha-article h1{font-size:clamp(43px,6vw,72px);line-height:1.12;letter-spacing:-.025em;margin:20px 0}.deck{font-size:clamp(22px,2.7vw,29px);line-height:1.55;max-width:55ch}.stage{font-size:15px;color:var(--earth)}.article-body{max-width:740px}.article-body section{padding:38px 0 0;scroll-margin-top:35px}.article-body h2{font-size:clamp(29px,3.1vw,39px);line-height:1.25;margin:12px 0 18px}.article-body p{font-size:19px;line-height:1.85}.article-body .eyebrow{font-size:12px;line-height:1.6}.article-body .source-line{font-size:14px;line-height:1.7;color:var(--earth)}.source-line span{color:var(--ink)}.food-reading,.visit-note{padding:25px;background:var(--paper);margin:32px 0}.food-reading li,.questions li{font-size:19px;line-height:1.8;padding:6px 0}.article-body .questions>p,.sources>p{font-size:16px}.sources{border-top:1px solid var(--line);margin-top:36px}.sources li{padding:16px 0;scroll-margin-top:30px}.sources li p{font-size:15px;line-height:1.7;margin:7px 0}.nearby{border-top:1px solid var(--line);padding:25px 0;margin-top:25px}.nearby a{display:block;margin:16px 0}a:focus-visible{outline:3px solid var(--earth);outline-offset:4px}
+</style>

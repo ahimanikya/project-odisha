@@ -87,3 +87,5 @@ For publication decisions and what is actually live, use the [current project re
 [Rice kept for taste, seed saved for tomorrow](rice-kept-for-taste.md) — food preferences, named seed keepers and a historical women-led enterprise.
 
 </details>
+
+- [Khudurukuni Osha and maritime knowledge](khudurukuni-maritime-knowledge.md) — Tapoi, girls’ cultural work and the practical demands of voyaging.

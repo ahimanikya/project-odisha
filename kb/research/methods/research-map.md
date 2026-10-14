@@ -709,3 +709,79 @@ Three source identities added; SUJOG tariff/docs/manual reused. NIDHI links a re
 ## Puri portable guide · 3 October 2026
 
 [The Puri starter guide](../product/puri-business-starter-guide.md) is a derivative of the existing dossier, not a second market study. Its edition manifest reuses source IDs and preserves unresolved viability.
+
+## 2026-10-07 · Osha and food
+
+RES-077 adds twelve observance profiles and related sources after existing food-record reuse. Source scheduling continues in the standalone research workspace; no duplicate automation.
+
+## 2026-10-07 · B02/B03 research checkpoints
+
+B02/B03 identities reconciled: three new observances, textual witnesses and Sudasa comparison. Fifteen profiles remain incomplete histories.
+
+## 2026-10-07 · B04 research checkpoints
+
+B04 identities reconciled: Pua Jiuntia, Bhai Jiuntia and Nuakhai. Eighteen profiles remain incomplete histories.
+
+## 2026-10-07 · B05 research checkpoints
+
+B05 identities reconciled: Bada, Kanji Anla, Bata, Pandu and Shani/Tota. Twenty-one profiles remain incomplete histories.
+
+## 2026-10-08 · B06 research checkpoint
+
+Bali Trutiya, Sita Navami and Rambha Trutiya reconciled with scoped original-text evidence. Twenty-four profiles remain incomplete histories.
+
+## 2026-10-09 · Osha expansion checkpoint
+
+Fifteen additional profiles and the Osha identity guide reconciled. Related names and cultural comparisons remain distinct.
+
+## 2026-10-09 · Osha expansion checkpoint
+
+Thirteen additional profiles, coverage audit and later revisions reconciled. Related names and cultural comparisons remain distinct.
+
+## 2026-10-10 · Raja and seasonal-food review
+
+Raja and public-food study reconciled using saved sources. Historical sales, undated descriptions and announcements remain separate from current availability.
+
+## 2026-10-10 · Seasonal navigation review
+
+The seasonal-navigation derivative reuses saved profile/seasonal identities, section locators and source dates. It is not independent corroboration or an annual calendar.
+
+## 2026-10-10 · Prathamastami review
+
+Prathamastami and Enduri study reconciled using saved captures. Historical discovery leads remain distinct from inspected sources.
+
+## 2026-10-10 · Dutiya review
+
+Dutiya and Ghanta study reconciled using saved captures. Historical discovery leads remain distinct from inspected sources.
+
+## 2026-10-10 · Budhei review
+
+Budhei and Kakara study reconciled using saved captures. Historical discovery leads remain distinct from inspected sources.
+
+## 2026-10-11 · Alana review
+
+Alana study reconciled using saved captures. Historical discovery leads remain distinct from inspected sources.
+
+## 2026-10-11 · Kanji Anla review
+
+Kanji Anla study reconciled using saved captures. Historical discovery leads remain distinct from inspected sources.
+
+## 2026-10-11 · Samba Dashami review
+
+Samba Dashami study reconciled using saved captures. Historical discovery leads remain distinct from inspected sources.
+
+## 2026-10-11 · Sabitri Brata review
+
+Sabitri Brata study reconciled using saved captures. Historical discovery leads remain distinct from inspected sources.
+
+## 2026-10-11 · Manabasa Gurubara review
+
+Manabasa Gurubara study reconciled using saved captures. Historical discovery leads remain distinct from inspected sources.
+
+## 2026-10-11 · Khudurukuni article review
+
+Sudasa supplementary passages reconciled using saved captures; source scopes and dates preserved.
+
+## 2026-10-11 · Khudurukuni and maritime review
+
+Saved Khudurukuni article and maritime study reconciled using saved captures; source scopes and dates preserved.

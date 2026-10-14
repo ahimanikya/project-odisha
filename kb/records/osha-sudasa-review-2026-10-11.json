@@ -1,0 +1,235 @@
+{
+  "recorded_at": "2026-10-11T16:39:59.978800+00:00",
+  "task_id": "RES-077",
+  "authorization": "Existing deep-research request and recurring routine branch-update authorization",
+  "source_runs": [
+    "2026-10-11-sudasa-food-text"
+  ],
+  "profiles": 53,
+  "narrative_checkpoints": 15,
+  "early_notes": 38,
+  "imported_paths": [
+    "culture/osha/sudasa-brata.md",
+    "culture/osha/sudasa-text-comparison.md",
+    "references/data/sudasa-food-text.json",
+    "references/data/sudasa-text-comparison.json",
+    "references/data/osha-text-witnesses.json",
+    "sources/osha-manabasa-wikisource.md",
+    "culture/osha-seasonal-navigation.md",
+    "culture/osha-brata-seasonal-food.md",
+    "subjects/food.md",
+    "subjects/everyday.md"
+  ],
+  "validation": {
+    "project_checks": [
+      {
+        "command": "python3 tools/registers.py --check",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/catalog.py --check",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/check_bundle.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/test_registers.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/test_config.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_visitor_index.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_maritime.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_growth_journeys.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_statistics.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_homestays.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_classification.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_collections.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_prd.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_creations.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_sports.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_research_map.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_osha_culture.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_seasonal_food.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/languages/build_atlas.py --check",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/editorial/build_workbench.py --check",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/editorial/test_workbench.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "node --test projects/editorial-workbench/workbench.test.mjs",
+        "exit_code": 0,
+        "result": "PASS"
+      }
+    ],
+    "site_checks": [
+      {
+        "command": "npm run review",
+        "cwd": "projects/design-system",
+        "exit_code": 0,
+        "result": "PASS",
+        "log": "site-check-00.log"
+      },
+      {
+        "command": "npm test",
+        "cwd": "projects/design-system",
+        "exit_code": 0,
+        "result": "PASS",
+        "log": "site-check-01.log"
+      },
+      {
+        "command": "npm run build:coast",
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "result": "PASS",
+        "log": "site-check-02.log"
+      },
+      {
+        "command": "npm run test:coast",
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "result": "PASS",
+        "log": "site-check-03.log"
+      },
+      {
+        "command": "python3 tools/audit-coast.py",
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "result": "PASS",
+        "log": "site-check-04.log"
+      },
+      {
+        "command": "python3 tools/audit-discovery.py",
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "result": "PASS",
+        "log": "site-check-05.log"
+      },
+      {
+        "command": "node tools/prepare-search-review.mjs",
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "result": "PASS",
+        "log": "site-check-06.log"
+      },
+      {
+        "command": "python3 tools/audit-launch-readiness.py",
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "result": "PASS",
+        "log": "site-check-07.log"
+      },
+      {
+        "command": "npm run build:publication",
+        "cwd": "projects/site",
+        "exit_code": null,
+        "result": "UNAVAILABLE",
+        "reason": "Local generated-artifact traversal did not finish after several minutes; interrupted. No successful publication-package check inferred."
+      },
+      {
+        "command": "python3 tools/audit-search-shortlist.py",
+        "cwd": "projects/site",
+        "exit_code": null,
+        "result": "NOT_RUN",
+        "reason": "Dependent on unavailable local publication package."
+      }
+    ],
+    "full_site_build": {
+      "pages": 204,
+      "result": "PASS"
+    },
+    "full_site_tests": {
+      "passed": 476,
+      "failed": 0
+    },
+    "rendered_content": {
+      "route": "/culture/osha/sudasa-brata/",
+      "new_sections": 2,
+      "ritual_and_narrative_food_role_boundaries": "PASS",
+      "household_practice_boundary": "PASS",
+      "current_venue_claims": "absent",
+      "human_review": false
+    }
+  },
+  "human_review": false,
+  "publication": false,
+  "scope": "Supplementary digital textual passages; no critical-edition chronology, cooking method or verified household practice.",
+  "next_action": "Sudasa supplementary food passages reconciled into draftPR145. Continue the earliest eligible saved-source narrative gap; preserve14–18October textual, calendar and local-review holds. No publication inferred.",
+  "browser_review": "Not repeated for this content-only revision."
+}

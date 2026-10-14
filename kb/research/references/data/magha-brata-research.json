@@ -1,0 +1,145 @@
+{
+  "run_id": "2026-10-08-magha",
+  "checked_at": "2026-10-08T11:36:17.713923+00:00",
+  "task_id": "RES-077",
+  "profile_id": "OSHA-034",
+  "source_checks": [
+    {
+      "source_id": "osha-mahanti",
+      "run_id": "2026-10-08-magha",
+      "checked_at": "2026-10-08T11:36:17.713923+00:00",
+      "locator": "Printed26,52 / PDF42,68",
+      "method": "Saved source reused; Mahanti and Konark selected PDF pages visually inspected this run; Dash inventory text reused",
+      "scope": "Month-long observance, start rule, meal description and attributed Samba legend",
+      "status": "saved_evidence_reused",
+      "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf"
+    },
+    {
+      "source_id": "osha-review2006",
+      "run_id": "2026-10-08-magha",
+      "checked_at": "2026-10-08T11:36:17.713923+00:00",
+      "locator": "Printed16 / PDF2",
+      "method": "Saved source reused; Mahanti and Konark selected PDF pages visually inspected this run; Dash inventory text reused",
+      "scope": "Inventory name only; no food or chronology supplied",
+      "status": "saved_evidence_reused",
+      "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf"
+    },
+    {
+      "source_id": "osha-konark2015",
+      "run_id": "2026-10-08-magha",
+      "checked_at": "2026-10-08T11:36:17.713923+00:00",
+      "locator": "Printed93–94 / PDF2–3",
+      "method": "Saved source reused; Mahanti and Konark selected PDF pages visually inspected this run; Dash inventory text reused",
+      "scope": "Separate Saptami and Dashami calendars; literary-history lead, not earliest observance proof",
+      "status": "saved_evidence_reused",
+      "url": "https://magazines.odisha.gov.in/Orissareview/2015/August/engpdf/93-97.pdf"
+    },
+    {
+      "source_id": "osha-magha-swarup1910",
+      "url": "https://ignca.gov.in/Asi_data/8428.pdf",
+      "status": "retrieved",
+      "checked_at": "2026-10-08T11:36:17.713923+00:00",
+      "locator": "Title PDF4; preface PDF6; printed41–42 / PDF48–49",
+      "scope": "Selected facsimile pages visually inspected. The 1910 book discusses the fair while summarising sacred texts; a dated published reference, not proof of earliest observance or a witness to every annual gathering. Underlying Prachi Mahatmyam not independently inspected."
+    },
+    {
+      "source_id": "osha-chandrabhaga-tourism",
+      "url": "https://odishatourism.gov.in/w/chandrabhaga-beach",
+      "status": "retrieved",
+      "checked_at": "2026-10-08T11:36:17.713923+00:00",
+      "locator": "Discover the Heritage, introductory paragraph; Key Information location",
+      "scope": "Official destination description confirms Magha Saptami association and Konark/Puri setting only. No source publication date shown. Access hours, prices, health claims, visitor counts and current annual date not adopted."
+    }
+  ],
+  "failed_fetches": [
+    {
+      "url": "https://magazines.odisha.gov.in/Orissareview/2015/August/engpdf/93-97.pdf",
+      "status": "unavailable",
+      "method": "Web PDF refresh",
+      "reason": "Internal error",
+      "checked_at": "2026-10-08T11:36:17.713923+00:00",
+      "recovery": "Saved PDF pages reused and visually inspected; no fresh publisher revision check"
+    },
+    {
+      "url": "https://odishatourism.gov.in/web/guest/events",
+      "status": "unavailable",
+      "method": "Web fetch",
+      "reason": "Timeout",
+      "checked_at": "2026-10-08T11:36:17.713923+00:00",
+      "recovery": "Indexed date range not adopted"
+    },
+    {
+      "url": "https://ignca.gov.in/Asi_data/8428.pdf",
+      "status": "unavailable",
+      "method": "Initial sandbox curl and web screenshots",
+      "reason": "Sandbox DNS failure; web screenshots timed out",
+      "checked_at": "2026-10-08T11:36:17.713923+00:00",
+      "recovery": "Authorised direct download succeeded; selected local pages visually inspected"
+    }
+  ],
+  "primary_capture": {
+    "path": "work/osha-magha/konarak-history.pdf",
+    "sha256": "a0cc880daa4bd88bc58aedf3d719a7003960304a3b3990fa3402b6138d0d61d6",
+    "pdf_pages": 146,
+    "inspected_pdf_pages": [
+      4,
+      6,
+      48,
+      49
+    ]
+  },
+  "identity_scope": "Month-long Magha Brata, Saptami pilgrimage and Pausa Samba Dashami are related but distinct.",
+  "reuse": [
+    "Saved Mahanti and Dash",
+    "Saved2015 Konark PDF and Samba Dashami profile",
+    "Native destination-and-tour-book guidance",
+    "places/chandrabhaga.md",
+    "methods/research-map.md and query_research.py Magha search"
+  ],
+  "historical_witness": {
+    "source_id": "osha-magha-swarup1910",
+    "publication_year": 1910,
+    "locator": "Printed42 / PDF49",
+    "evidence_class": "dated_published_reference_to_fair",
+    "earliest_observance_established": false
+  },
+  "unadopted_leads": [
+    {
+      "url": "https://magazines.odisha.gov.in/Orissareview/2012/nov/engpdf/25-32.pdf",
+      "status": "indexed_only",
+      "scope": "Sarala reference uses Makara while2015 article says Magha; original literary passage needed before reconciling terms"
+    },
+    {
+      "url": "https://odishapostepaper.com/uploads/epaper/2026-01/6976777d58049.pdf",
+      "status": "indexed_only",
+      "scope": "PTI fair report mentions rice and dried-fish dalma. Not adopted as Magha Brata food or established local recipe; needs original report and participant/ritual scope."
+    },
+    {
+      "url": "https://utsav.gov.in/view-event/chandrabhaga-mela-1",
+      "status": "excluded_identity",
+      "scope": "Rajasthan/Jhalrapatan event, not Odisha Chandrabhaga"
+    }
+  ],
+  "evidence_boundaries": [
+    "No narrative healing adopted as medical fact.",
+    "1910 publication year is not origin of the vow or earliest fair.",
+    "No Kartika recipe imported into Magha.",
+    "Old and modern sacred-text summaries are not independently inspected originals."
+  ],
+  "followup": {
+    "retry_after": "2026-10-15",
+    "needs": [
+      "Can an identified Odia Magha Brata katha or ritual manual be recovered with edition and page-level evidence?",
+      "Which Sarala Mahabharata edition and passage support the pilgrimage reference, and what wording and calendar does it use?",
+      "What is the earliest dated evidence for the month-long Odisha vow, separately from the Saptami fair?",
+      "How do named households define and prepare havishanna in Magha, including ingredient exclusions and regional variation?",
+      "Which fair food reports concern offerings, pilgrims’ meals or sale, and which participants follow the month-long vow?",
+      "Can an annual organiser notice, consenting public host and actual seasonal menu be verified?"
+    ],
+    "independent_next": "Baisakha Brata"
+  },
+  "origin_date": null,
+  "annual_date": null,
+  "fieldwork_conducted": false,
+  "human_review_claimed": false
+}

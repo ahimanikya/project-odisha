@@ -1,0 +1,246 @@
+{
+  "recorded_at": "2026-10-11T02:16:32.072202+00:00",
+  "task_id": "RES-077",
+  "authorization": "Existing deep-research request and recurring authorisation for routine validated branch updates",
+  "source_runs": [
+    "2026-10-10-budhei"
+  ],
+  "profiles": 53,
+  "narrative_checkpoints": 15,
+  "early_notes": 38,
+  "imported_paths": [
+    "culture/osha-brata-seasonal-food.md",
+    "culture/osha-seasonal-navigation.md",
+    "culture/osha/budhei.md",
+    "food/kakara-pitha.md",
+    "food/preparation-and-variation.md",
+    "references/data/budhei-research.json",
+    "sources/osha-budhei-portal-lead.md",
+    "sources/osha-budhei-pradhan2023.md",
+    "sources/osha-budhei-puriwaves.md",
+    "sources/osha-mahanti.md",
+    "subjects/everyday.md",
+    "subjects/food.md",
+    "visitor-index/seasonal-food-guide.md"
+  ],
+  "validation": {
+    "result": "PASS",
+    "project_checks": [
+      {
+        "command": "python3 tools/registers.py --check",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/catalog.py --check",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/check_bundle.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/test_registers.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/test_config.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_visitor_index.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_maritime.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_growth_journeys.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_statistics.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_homestays.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_classification.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_collections.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_prd.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_creations.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_sports.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_research_map.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_osha_culture.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_seasonal_food.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/languages/build_atlas.py --check",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/editorial/build_workbench.py --check",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/editorial/test_workbench.py",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "node --test projects/editorial-workbench/workbench.test.mjs",
+        "exit_code": 0,
+        "result": "PASS"
+      }
+    ],
+    "site_checks": [
+      {
+        "command": "npm run review",
+        "cwd": "projects/design-system",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "npm test",
+        "cwd": "projects/design-system",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "npm run build:coast",
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "npm run test:coast",
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/audit-coast.py",
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/audit-discovery.py",
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "node tools/prepare-search-review.mjs",
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/audit-launch-readiness.py",
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "npm run build:publication",
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/audit-search-shortlist.py",
+        "cwd": "projects/site",
+        "exit_code": 0,
+        "result": "PASS"
+      }
+    ],
+    "full_site_build": {
+      "result": "PASS",
+      "pages": 204
+    },
+    "full_site_tests": {
+      "passed": 476,
+      "failed": 0
+    },
+    "rendered_content": {
+      "page": "/culture/osha/budhei/",
+      "result": "PASS",
+      "checks": {
+        "coconut_sequence": true,
+        "local_menu": true,
+        "myth_attribution": true,
+        "early_note": true,
+        "historical_gap": true,
+        "no_venue": true
+      },
+      "browser_or_mobile_review": false,
+      "standalone_kakara_route": false,
+      "related_preparation_page_scope": "KB-only; not in website food collection"
+    }
+  },
+  "human_review": false,
+  "publication": false,
+  "scope": "Budhei identity deepened with a published myth summary, coconut sequence and dated local Kakara offering association. Original katha, historical dates and local recipe remain unresolved; existing Kakara KB preparation record does not become a verified ritual recipe or serving offer.",
+  "next_action": "Budhei coconut sequence, attributed story strands and dated Kakara offering association reconciled into the existing53-profile draft. Full original katha, manuscript dates and local recipes remain open for17October. Deepen Alana (OSHA-006) next using saved records first. Source workspace remains scheduling authority; all14–17October holds preserved. No public food offer or publication inferred.",
+  "authorization_note": {
+    "user_instruction": "You have my permission for for next week, don't ask me for every question",
+    "recorded_on": "2026-10-11",
+    "scope": "Continue routine research, validated knowledge updates and existing website draft updates without routine confirmation; no new publication authority inferred."
+  },
+  "repairs": [
+    "Rendered verification initially expected a Kakara website route; food collection has none. Corrected verification and scope record to KB-only companion; no new website route claimed."
+  ],
+  "current_main_revision": "a6e7a9468772665f7d611d915b0f8808f3633093",
+  "main_overlap_scope": "No selected Budhei profile, Osha register, seasonal register or Kakara page overlap found on current main; native unrelated work preserved without rebase or merge.",
+  "checked_at": "2026-10-11T02:17:44.250845+00:00"
+}

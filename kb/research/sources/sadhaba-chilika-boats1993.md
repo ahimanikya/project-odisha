@@ -14,3 +14,8 @@ sources: [{"id": "sadhaba-chilika-boats1993", "title": "Traditional boat-buildin
 Indexed institutional text, especially printed p.52. Original download returned a challenge page. Reported contemporary practice and remembered ancestry remain separate; exact fieldwork dates unknown.
 
 [Source](https://drs.nio.res.in/drs/bitstream/handle/2264/2882/J_Mar_Archaeol_4_51.pdf?sequence=2).
+
+
+## 11 October 2026 · Original retry
+
+HTTP200 returned text/html, not the original PDF. No new original content inspected; retry18October. Earlier indexed-content scope preserved.

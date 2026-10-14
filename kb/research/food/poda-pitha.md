@@ -65,3 +65,8 @@ Reuse of saved attributed regional accounts; versions are not universal rules.
 ## Poda/arisa scope · 5 October 2026
 
 [Puri association and wider variants](poda-arisa-place-evidence.md) compares the saved CRRI versions with a dated ritual listing and wider Raja record. A Puri-only specification and exclusive origin remain unestablished.
+
+
+## 2026-10-10 · Raja: preparing ahead and sharing
+
+[Raja Parba](../culture/osha/raja-parba.md). The Raja account connects preparation ahead and shared pitha with a pause in everyday work; dish-level pages retain their own preparation evidence.

@@ -668,3 +668,71 @@ National programme documents do not resolve local route permissions. Current ame
 ## Puri applicant-specific gaps · 3 October 2026
 
 National 2020 startup recognition criteria recovered from NIDHI; current amendment chain and selected-business fit remain unresolved. Puri tariff row is not a confirmed walking-service classification. State original resolution and SUJOG live page retry 10 October; prices, paid seasonality and route consent remain absent.
+
+## 2026-10-07 · B02/B03 research checkpoints
+
+Nisha print-book contents, early chronology, Budhei/Dutiya manuscripts, Janhi Gazette, Chaitra full text and Sathi issue/locality remain unresolved; retry14October. Review queue remains active.
+
+## 2026-10-07 · B04 research checkpoints
+
+Jiuntia full kathas and Nuakhai historical witnesses/1991 order remain unresolved; retry14October. Earlier B02/B03 gaps and review queue remain open.
+
+## 2026-10-07 · B05 research checkpoints
+
+Full kathas, dated histories, calendar conflicts, Danda identity and local food variations remain unresolved; retry14October. Earlier B02–B04 gaps remain open.
+
+## 2026-10-08 · B06 research checkpoint
+
+Sukutuni, complete local kathas, calendar conflicts, textual dates and food locality remain open. Prior retries14October; Rambha15October. The1908 Garuda textual food prescriptions are not an Odisha visitor menu.
+
+## 2026-10-09 · Osha expansion checkpoint
+
+Original texts, local food preparation, unresolved names and current visitor evidence retain their14–16October retry dates. Benatia and unqualified Purnima remain unidentified.
+
+## 2026-10-09 · Osha expansion checkpoint
+
+Original texts, local food preparation, unresolved names and current visitor evidence retain their14–17October retry dates. Benatia and unqualified Purnima remain unidentified.
+
+## 2026-10-10 · Raja and seasonal-food review
+
+Raja earlier witnesses, museum article and situated local accounts retry17October. Existing14–17October holds remain. No current serving offers verified.
+
+## 2026-10-10 · Prathamastami review
+
+Prathamastami original chapter image, cited1915 text and situated household accounts retry17October. Existing14–17October holds remain. No current serving offers verified.
+
+## 2026-10-10 · Dutiya review
+
+Dutiya full original katha, manuscript images, named plant identities and situated household accounts remain open; retry17October. Existing14–17October holds remain. No current serving offers verified.
+
+## 2026-10-10 · Budhei review
+
+Budhei full original katha, manuscript dates and situated household recipes remain open; retry17October. Existing14–17October holds remain. No current serving offers verified.
+
+## 2026-10-11 · Alana review
+
+Alana full original katha, manuscript dates and situated household recipes remain open; retry17October. Existing14–17October holds remain. No current serving offers verified.
+
+## 2026-10-11 · Kanji Anla review
+
+Kanji Anla full original katha, manuscript dates and situated household recipes remain open; retry14October. Existing14–17October holds remain. No current serving offers verified.
+
+## 2026-10-11 · Samba Dashami review
+
+Samba Dashami original katha, situated household food roles and printed bowl term remain open; retry18October. Existing14–18October holds remain. No current serving offers verified.
+
+## 2026-10-11 · Sabitri Brata review
+
+Sabitri Brata local katha, situated fruit selection and silapua/tulasi-chaura variants remain open; retry18October. Existing14–18October holds remain. No current serving offers verified.
+
+## 2026-10-11 · Manabasa Gurubara review
+
+Manabasa Gurubara identified imprint/manuscript,1868 header and household edition remain open; retry18October. Existing14–18October holds remain. No current serving offers verified.
+
+## 2026-10-11 · Khudurukuni article review
+
+Sudasa cooking method, digital edition provenance and situated household distribution remain unknown; retry18October. All14–18October holds preserved.
+
+## 2026-10-11 · Khudurukuni and maritime review
+
+Khudurukuni authorship, cited Lokanath print and situated khuda identity remain unresolved; original14–18October holds preserved. Koeta unidentified.

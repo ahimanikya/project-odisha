@@ -1,0 +1,226 @@
+{
+  "run_id": "2026-10-10-raja",
+  "checked_at": "2026-10-10T08:45:12.916881+00:00",
+  "task_id": "RES-077",
+  "profile_id": "OSHA-053",
+  "seasonal_id": "SEAS-001",
+  "source_checks": [
+    {
+      "source_id": "osha-raja-mohapatra2006",
+      "url": "https://magazines.odisha.gov.in/Orissareview/june2006/engpdf/122-123.pdf",
+      "status": "retrieved_text_only",
+      "checked_at": "2026-10-10T08:45:12.916881+00:00",
+      "locator": "Printed122–123 / article PDF1–2; header and byline",
+      "scope": "Dated authorial cultural description, not an origin document or household survey. Calendar and regional food descriptions remain attributed. Publisher authority does not validate every historical or social generalisation.",
+      "method": "Web-reader original PDF text; PDF screenshots unavailable; no local original-byte capture"
+    },
+    {
+      "source_id": "osha-mahanti",
+      "run_id": "2026-10-10-raja",
+      "checked_at": "2026-10-10T08:45:12.916881+00:00",
+      "locator": "Printed116–119 / PDF132–135, Raja parba",
+      "scope": "Festival belief, preparation ahead, pitha sharing, swing songs and author recollection. Universal, decline, storage and physiological claims not adopted.",
+      "method": "Saved original text and four newly rendered page images inspected",
+      "local_capture": "work/osha-deep-study/mahanti.pdf",
+      "sha256": "8dd1d610e7e5df0dcb8f77a5a4a75c267fb3fb43480df2e24d39bbe312070f22",
+      "visually_inspected_pdf_pages": [
+        132,
+        133,
+        134,
+        135
+      ],
+      "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf",
+      "status": "saved_evidence_reused"
+    },
+    {
+      "source_id": "food-tourism",
+      "url": "https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html",
+      "status": "saved_evidence_reused",
+      "checked_at": "2026-10-10T08:45:12.916881+00:00",
+      "locator": "Poda Pitha heading; saved food/poda-pitha.md",
+      "scope": "Reuse previously saved scoped evidence; not fresh retrieval or independent corroboration."
+    },
+    {
+      "source_id": "food-air-raja2026",
+      "url": "https://newsonair.gov.in/raja-festival-begins-across-odisha/",
+      "status": "saved_evidence_reused",
+      "checked_at": "2026-10-10T08:45:12.916881+00:00",
+      "locator": "Article date 1:03 PM; third body paragraph, delicacies",
+      "scope": "Reuse previously saved scoped evidence; not fresh retrieval or independent corroboration."
+    },
+    {
+      "source_id": "food-raja-otdc2021",
+      "url": "https://odishatourism.gov.in/documents/35730/41982/ODISHA%2BUNRAVELLED%2B%2BJULY%2B2021.pdf/f4b34a83-0523-98e2-9019-f5d1faac9bc1?t=1776688897355",
+      "status": "saved_evidence_reused",
+      "checked_at": "2026-10-10T08:45:12.916881+00:00",
+      "locator": "Printed8/PDF8; issue date and publisher on PDF1–2",
+      "scope": "Reuse previously saved scoped evidence; not fresh retrieval or independent corroboration."
+    },
+    {
+      "source_id": "food-crri-rice2015",
+      "url": "https://icar-crri.in/wp-content/uploads/2023/05/final_book_ldas.pdf",
+      "status": "saved_evidence_reused",
+      "checked_at": "2026-10-10T08:45:12.916881+00:00",
+      "locator": "Printed9 / PDF20, Arisa Pitha entry",
+      "scope": "Saved ICAR-CRRI2015 institutional food compilation reused for preparation description; not a fresh fetch, tested recipe or Raja household survey."
+    }
+  ],
+  "failed_fetches": [
+    {
+      "name": "review2006",
+      "url": "https://magazines.odisha.gov.in/orissareview/june2006/engpdf/or-june-06.pdf",
+      "http_status": "000",
+      "error": "curl: (6) Could not resolve host: magazines.odisha.gov.in\n",
+      "exit_code": 6,
+      "retrieved_at": "2026-10-10T08:40:49.027501+00:00",
+      "status": "unavailable"
+    },
+    {
+      "name": "museum",
+      "url": "https://odishamuseum.nic.in/sites/default/files/LVIII%201%262%20NIC.pdf",
+      "http_status": "000",
+      "error": "curl: (6) Could not resolve host: odishamuseum.nic.in\n",
+      "exit_code": 6,
+      "retrieved_at": "2026-10-10T08:40:49.038890+00:00",
+      "status": "unavailable"
+    },
+    {
+      "name": "review2006",
+      "url": "https://magazines.odisha.gov.in/orissareview/june2006/engpdf/or-june-06.pdf",
+      "http_status": "000",
+      "error": "curl: (60) SSL certificate problem: certificate has expired\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the web page mentioned above.\n",
+      "exit_code": 60,
+      "retrieved_at": "2026-10-10T08:41:08.766445+00:00",
+      "status": "unavailable",
+      "method": "Verified-TLS retry with network access"
+    },
+    {
+      "name": "museum",
+      "url": "https://odishamuseum.nic.in/sites/default/files/LVIII%201%262%20NIC.pdf",
+      "http_status": "000",
+      "error": "curl: (28) Connection timed out after 25004 milliseconds\n",
+      "exit_code": 28,
+      "retrieved_at": "2026-10-10T08:41:33.785420+00:00",
+      "status": "unavailable",
+      "method": "Verified-TLS retry with network access"
+    },
+    {
+      "url": "https://magazines.odisha.gov.in/Orissareview/june2006/engpdf/122-123.pdf",
+      "status": "unavailable",
+      "method": "web screenshot",
+      "error": "Cache miss for both article pages",
+      "checked_at": "2026-10-10T08:45:12.916881+00:00"
+    },
+    {
+      "url": "https://magazines.odisha.gov.in/orissareview/june2006/engpdf/122-123.pdf",
+      "status": "unavailable",
+      "method": "web reader lower-case path",
+      "error": "Timeout; upper-case path text recovered separately",
+      "checked_at": "2026-10-10T08:45:12.916881+00:00"
+    },
+    {
+      "url": "https://odishamuseum.nic.in/sites/default/files/LVIII%201%262%20NIC.pdf",
+      "status": "unavailable",
+      "method": "web reader",
+      "error": "Two timeouts; indexed snippet is discovery only",
+      "checked_at": "2026-10-10T08:45:12.916881+00:00"
+    },
+    {
+      "url": "https://utsav.gov.in/view-event/raja-mahotsav",
+      "status": "unavailable",
+      "method": "web reader",
+      "error": "Timeout; search snippet not adopted",
+      "checked_at": "2026-10-10T08:45:12.916881+00:00"
+    },
+    {
+      "url": "https://magazines.odisha.gov.in/orissareview/june2006/engpdf/or-june-06.pdf",
+      "status": "unavailable",
+      "method": "web reader",
+      "error": "Timeout",
+      "checked_at": "2026-10-10T08:45:12.916881+00:00"
+    }
+  ],
+  "reuse": [
+    "query_research.py Raja; saved food pages, seasonal identity and public-food evidence inspected before browsing.",
+    "Mahanti printed116–119 rendered and inspected; Dash2006 inventory searched, no Raja food passage adopted.",
+    "Native destination-and-tour-book and culture-trails searched; travel plans, dish association and venue evidence remain distinct."
+  ],
+  "food_roles": [
+    {
+      "item": "poda pitha / arisa / muan",
+      "role": "prepared ahead and shared food in Mahanti account",
+      "source_id": "osha-mahanti",
+      "locator": "Printed117–119 / PDF133–135",
+      "recipe_verified": false,
+      "current_availability": null
+    },
+    {
+      "item": "poda pitha / arisa",
+      "role": "institutional preparation description and dated Raja association",
+      "source_ids": [
+        "food-tourism",
+        "food-air-raja2026",
+        "food-crri-rice2015"
+      ],
+      "locator": "Tourism Poda Pitha; ICAR-CRRI printed9/PDF20 Arisa; saved15June2026 report third paragraph",
+      "household_prevalence": null
+    },
+    {
+      "item": "poda pitha, manda, kakara, arisa, chakuli, chandrakala",
+      "role": "reported2021 OTDC programme menu",
+      "source_id": "food-raja-otdc2021",
+      "locator": "Printed8 / PDF8",
+      "service_evidence_ids": [
+        "SFO-001"
+      ],
+      "current_availability": null
+    }
+  ],
+  "calendar_notes": "Mithuna Sankranti association; solar/lunar month labels and third-day names remain source-specific, not an adopted Gregorian date.",
+  "earliest_dated_witness_inspected": "June2006 article; not claimed earliest surviving evidence",
+  "source_independence": "Mahanti/Mohapatra textual dependence not established; do not count as independent corroboration.",
+  "claims_held": [
+    {
+      "source_id": "osha-mahanti",
+      "claim": "Decline of Raja participation",
+      "reason": "No measured series or survey."
+    },
+    {
+      "source_id": "osha-mahanti",
+      "claim": "Several-day unspoilt storage and physiological explanation of puchi",
+      "reason": "Not validated; not adopted as food-storage or health claims."
+    },
+    {
+      "source_id": "osha-raja-mohapatra2006",
+      "claim": "Ancient or universal origin and general social effects",
+      "reason": "No dated foundation evidence or population study in inspected article."
+    },
+    {
+      "claim": "Common literal no-rice rule",
+      "reason": "Article also describes rice-based cakes; do not infer a rice-free diet or universal restriction."
+    }
+  ],
+  "discovery_not_adopted": [
+    {
+      "title": "Rajo, The Swing Festival of Kalinga (India)",
+      "url": "https://odishamuseum.nic.in/sites/default/files/LVIII%201%262%20NIC.pdf",
+      "status": "original_unavailable",
+      "next_action": "Recover original, establish issue date/byline and inspect references before using any chronology."
+    }
+  ],
+  "followup": {
+    "retry_after": "2026-10-17",
+    "needs": [
+      "Can dated Odia literature, gazetteers or archival descriptions establish earlier Raja witnesses without mistaking a literary reference for an origin date?",
+      "Can the museum-hosted Rajo, The Swing Festival of Kalinga (India) be recovered with its issue, byline, references and historical claims checked?",
+      "How do names, cooking schedules and foods vary by locality, community and household?",
+      "Who does the work before and during the festival, and how do participants describe rest and restrictions in their own terms?",
+      "Which dated public offers actually name foods, prices and visitor access for the intended year?"
+    ],
+    "independent_next": "Existing website candidate reconciliation"
+  },
+  "origin_date": null,
+  "annual_date": null,
+  "human_review_claimed": false,
+  "fieldwork_conducted": false
+}

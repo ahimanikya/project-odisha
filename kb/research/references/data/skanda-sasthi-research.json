@@ -1,0 +1,160 @@
+{
+  "run_id": "2026-10-10-skanda",
+  "checked_at": "2026-10-09T22:33:59.473934+00:00",
+  "local_date": "2026-10-10",
+  "task_id": "RES-077",
+  "profile_id": "OSHA-046",
+  "source_checks": [
+    {
+      "source_id": "osha-ayyar1921-skanda",
+      "url": "https://rarebooksocietyofindia.org/book_archive/196174216674_10156536880671675.pdf",
+      "status": "retrieved",
+      "checked_at": "2026-10-09T22:33:59.473934+00:00",
+      "locator": "Title page PDF6; contents PDF11; chapter XXIII printed146–150/PDF151–155, all five chapter pages visually inspected",
+      "scope": "Historical South Indian comparison only. Arpisi bright sixth, attributed Subrahmanyam narratives and kavadi milk/sugar note do not establish Odisha calendar, katha or food practice. Publication year is not an observance origin date.",
+      "method": "Verified-TLS PDF retrieval; title, contents and chapter pages rendered and visually read"
+    },
+    {
+      "source_id": "osha-karttikeya-panda2010",
+      "url": "https://magazines.odisha.gov.in/Orissareview/2010/November/engpdf/37-39.pdf",
+      "status": "retrieved",
+      "checked_at": "2026-10-09T22:33:59.473934+00:00",
+      "locator": "Printed37–39/PDF1–3; adopted art context limited to printed37–38",
+      "scope": "Attributed interpretation of the Kosalesvara image and explicit disagreement over sixth-century dating. Deity iconography does not date the Skanda Sasthi vow. Original archaeological works not independently checked.",
+      "method": "Web PDF text inspected; direct HTTPS download failed expired certificate; screenshot unavailable"
+    },
+    {
+      "source_id": "osha-review2006",
+      "run_id": "2026-10-10-skanda",
+      "checked_at": "2026-10-09T22:33:59.473934+00:00",
+      "locator": "Printed16/PDF2",
+      "scope": "Skanda Sasthi Brata listed in Chaitra; no named food or narrative in this entry.",
+      "method": "Saved evidence reused; Mahanti page additionally rendered and visually inspected",
+      "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf",
+      "status": "saved_evidence_reused"
+    },
+    {
+      "source_id": "osha-mahanti",
+      "run_id": "2026-10-10-skanda",
+      "checked_at": "2026-10-09T22:33:59.473934+00:00",
+      "locator": "Printed53/PDF69",
+      "scope": "Chaitra dark sixth, Kartikeya worship; author says panjis list it but it is not observed in the state. Author assertion retained, not a current prevalence finding.",
+      "method": "Saved evidence reused; Mahanti page additionally rendered and visually inspected",
+      "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf",
+      "status": "saved_evidence_reused"
+    }
+  ],
+  "failed_fetches": [
+    {
+      "url": "https://magazines.odisha.gov.in/Orissareview/2010/November/engpdf/37-39.pdf",
+      "checked_at": "2026-10-09T22:27:48.494722+00:00",
+      "status": "unavailable",
+      "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "method": "Direct HTTPS in sandbox"
+    },
+    {
+      "url": "https://rarebooksocietyofindia.org/book_archive/196174216674_10156536880671675.pdf",
+      "checked_at": "2026-10-09T22:27:48.506790+00:00",
+      "status": "unavailable",
+      "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "method": "Direct HTTPS in sandbox"
+    },
+    {
+      "url": "https://magazines.odisha.gov.in/Orissareview/2010/November/engpdf/37-39.pdf",
+      "checked_at": "2026-10-09T22:28:02.521958+00:00",
+      "status": "unavailable",
+      "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1082)>",
+      "method": "Direct HTTPS; TLS verification retained"
+    },
+    {
+      "url": "https://rarebooksocietyofindia.org/book_archive/196174216674_10156536880671675.pdf",
+      "status": "unavailable",
+      "reason": "Web open internal error; direct PDF retrieval subsequently succeeded.",
+      "method": "Web tool",
+      "checked_at": "2026-10-09T22:33:59.473934+00:00"
+    },
+    {
+      "url": "https://magazines.odisha.gov.in/Orissareview/2010/November/engpdf/37-39.pdf",
+      "status": "unavailable",
+      "reason": "Web screenshot cache miss; web PDF text available.",
+      "method": "Web tool",
+      "checked_at": "2026-10-09T22:33:59.473934+00:00"
+    }
+  ],
+  "reuse": [
+    "query_research.py Skanda and saved Dash/Mahanti passages; no dedicated mapped profile.",
+    "Native destination-and-tour-book and culture-trails searched for skanda/sasthi; no match. Dated lexical map is not exhaustive.",
+    "Sathi profile and original coverage audit reused for identity distinction."
+  ],
+  "regional_comparison": {
+    "source_id": "osha-ayyar1921-skanda",
+    "publication_year": 1921,
+    "inspected_chapter_pages": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "printed_pages": "146–150",
+    "geography": "South India",
+    "calendar_as_printed": "Arpisi bright-fortnight sixth, approximately October–November",
+    "offering_context": "Kavadi footnote: pots of milk or sugar according to vow",
+    "odisha_food_association_established": false,
+    "odisha_narrative_witness": false
+  },
+  "conflicts": [
+    {
+      "field": "Odisha observance prevalence",
+      "positions": [
+        {
+          "source_id": "osha-review2006",
+          "claim": "Lists Skanda Sasthi Brata in Chaitra"
+        },
+        {
+          "source_id": "osha-mahanti",
+          "claim": "Panjis list it but it is not observed in the state"
+        }
+      ],
+      "resolution": null
+    },
+    {
+      "field": "Kosalesvara Karttikeya image dating",
+      "source_id": "osha-karttikeya-panda2010",
+      "claim": "Panda supports sixth-century dating and reports Dehejia disagreement with Fabri",
+      "resolution": null,
+      "boundary": "Not evidence for a Skanda Sasthi origin date"
+    }
+  ],
+  "discovery_not_adopted": [
+    {
+      "url": "https://or.wiktionary.org/w/index.php?title=ଷଷ୍ଠୀ&oldid=219497",
+      "status": "secondary_transcription_lead",
+      "claim": "Entry associates Skanda Sasthi with Chaitra bright sixth and alternatively Phalguna dark sixth",
+      "boundary": "Underlying dictionary edition/page/scan not identified; not adopted as a verified Odisha calendar rule"
+    }
+  ],
+  "food_roles": [],
+  "odisha_food_association": null,
+  "evidence_boundaries": [
+    "The 1921 book is a historical South Indian comparison, not a recovered Odia vow text.",
+    "A deity image and disputed stylistic date do not date an observance.",
+    "No named local food, annual date, venue, interview, review or media rights verified."
+  ],
+  "followup": {
+    "retry_after": "2026-10-16",
+    "needs": [
+      "Which dated Odisha panjis list Skanda Sasthi, and with what month and fortnight rule?",
+      "Can a named Odisha household or institution document present or remembered observance, with consent?",
+      "Is an Odia brata-katha or ritual manual recoverable for this precise identity?",
+      "Which offering, fasting and fast-breaking foods are separately documented locally?",
+      "Can the original dictionary page behind the online Sasthi calendar transcription be identified and its differing calendar rules checked?",
+      "Can the original archaeological studies resolve the Kosalesvara image dating disagreement without conflating it with vow chronology?"
+    ],
+    "independent_next": "Guru Purnima Brata"
+  },
+  "origin_date": null,
+  "annual_date": null,
+  "fieldwork_conducted": false,
+  "human_review_claimed": false
+}

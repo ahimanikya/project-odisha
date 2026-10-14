@@ -1,0 +1,192 @@
+{
+  "schema_version": "1.0",
+  "task_id": "RES-077",
+  "batch_id": "OSHA-B05",
+  "run_id": "2026-10-07-bata",
+  "checked_at": "2026-10-07T18:14:46.767625+00:00",
+  "scope": "Bata checkpoint with Danda Panhara comparison; no duplicate identity or complete origin history.",
+  "source_checks": [
+    {
+      "source_id": "osha-kanji-sarangi2018",
+      "url": "https://samadhwani.com/1311",
+      "checked_at": "2026-10-07T18:14:46.767625+00:00",
+      "status": "available",
+      "locator": "Margasira road-sweeping, song and Bata paragraphs before Prathamastami (web lines162–171)",
+      "scope": "New Bata passage within already catalogued essay; not an independent publication."
+    },
+    {
+      "source_id": "osha-bata-odiaportal",
+      "url": "https://www.odiaportal.in/2015/12/Bata-Osha-Danda-Pahanra-Brata-Katha-Odia-PDF.html",
+      "checked_at": "2026-10-07T18:14:46.767625+00:00",
+      "status": "available",
+      "locator": "About Book and app-only download notice",
+      "scope": "Inspected landing-page metadata only. The uploader labels the unknown-owner book as 1970s; no imprint or pages were inspected, so edition and composition dates remain unverified. App-only access prevented this desktop pass from reading the text. No scan redistribution or image rights claimed."
+    }
+  ],
+  "failed_fetches": [
+    {
+      "url": "https://magazines.odisha.gov.in/Orissareview/2012/oct/engpdf/10-13.pdf",
+      "checked_at": "2026-10-07T18:14:46.767625+00:00",
+      "status": "unavailable",
+      "method": "web then direct HTTPS",
+      "errors": [
+        "Web internal fetch error",
+        "Sandbox DNS resolution failure",
+        "Network-enabled curl: expired TLS certificate"
+      ],
+      "scope": "Indexed Panthei/Bata association is a lead only; article not recovered or adopted."
+    },
+    {
+      "url": "https://antarangakalinga.org/ବାଟଓଷା/",
+      "checked_at": "2026-10-07T18:14:46.767625+00:00",
+      "status": "unavailable",
+      "method": "Web open, Unicode and encoded routes",
+      "errors": [
+        "Internal fetch error",
+        "Cache miss"
+      ],
+      "scope": "Indexed modern account not adopted as an inspected source."
+    },
+    {
+      "url": "https://www.odiaportal.in/2015/12/Bata-Osha-Danda-Pahanra-Brata-Katha-Odia-PDF.html",
+      "checked_at": "2026-10-07T18:14:46.767625+00:00",
+      "status": "unavailable",
+      "method": "Book-content recovery",
+      "errors": [
+        "Landing page offers app-only download; no accessible PDF link"
+      ],
+      "scope": "Landing page available; underlying book unavailable in this pass."
+    }
+  ],
+  "source_reuse": [
+    {
+      "source_id": "osha-review2006",
+      "run_id": "2026-10-07-bata",
+      "checked_at": "2026-10-07T18:14:46.767625+00:00",
+      "locator": "Printed p.15 / PDF1",
+      "scope": "Saved original page visually inspected for separate Bata and Danda Panhara entries."
+    },
+    {
+      "source_id": "osha-mahanti",
+      "run_id": "2026-10-07-bata",
+      "checked_at": "2026-10-07T18:14:46.767625+00:00",
+      "locator": "Printed p.60 / PDF76, Bata or Danda pahara osha paragraph",
+      "scope": "Saved original page visually inspected for alias, date, deity and covered offering."
+    },
+    {
+      "source_id": "osha-kanji-sarangi2018",
+      "run_id": "2026-10-07-bata",
+      "checked_at": "2026-10-07T18:14:46.767625+00:00",
+      "locator": "Margasira road-sweeping, song and Bata paragraphs before Prathamastami (web lines162–171)",
+      "scope": "Existing publication identity reused; newly scoped passage inspected through web extraction. Previous Kanji scope preserved."
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "BATA-C01",
+      "field": "Bata / Danda Panhara identity and deity",
+      "accounts": [
+        {
+          "source_id": "osha-review2006",
+          "locator": "p.15",
+          "value": "Bata: Yama; separately Danda Panhara: Shiva, Pausa"
+        },
+        {
+          "source_id": "osha-mahanti",
+          "locator": "p.60",
+          "value": "Bata or Danda pahara: Yama"
+        }
+      ],
+      "status": "unresolved",
+      "universal_alias": false
+    },
+    {
+      "id": "BATA-C02",
+      "field": "calendar",
+      "accounts": [
+        {
+          "source_id": "osha-mahanti",
+          "locator": "p.60",
+          "value": "Pausa Krishna Dwitiya"
+        },
+        {
+          "source_id": "osha-kanji-sarangi2018",
+          "locator": "Bata sequence",
+          "value": "Margasira full-moon culmination"
+        }
+      ],
+      "status": "unresolved",
+      "annual_date": null
+    }
+  ],
+  "food_records": [
+    {
+      "source_id": "osha-kanji-sarangi2018",
+      "locator": "Bata paragraph",
+      "names": [
+        "manda pitha in Sarangi’s account",
+        "chakuli pitha in Sarangi’s account",
+        "fruit offerings"
+      ],
+      "preparation_method": null
+    },
+    {
+      "source_id": "osha-review2006",
+      "locator": "p.15",
+      "name": "covered bhoga",
+      "menu": null
+    }
+  ],
+  "narrative": {
+    "source_id": "osha-kanji-sarangi2018",
+    "evidence_class": "ritual_narrative",
+    "canonical_section": "A story of protection",
+    "exact_epic_passage": null,
+    "historical_event_verified": false
+  },
+  "textual_leads": [
+    {
+      "source_id": "osha-bata-odiaportal",
+      "contents_inspected": false,
+      "edition_date": null,
+      "uploader_date_claim": "1970s, unverified",
+      "rights": "No scan reuse claimed"
+    },
+    {
+      "url": "https://magazines.odisha.gov.in/Orissareview/2012/oct/engpdf/10-13.pdf",
+      "status": "indexed_lead_original_unavailable",
+      "question": "Does Panthei/Bata connected with Batamangala refer to the same or another observance?"
+    }
+  ],
+  "saved_pdf_inspections": [
+    {
+      "path": "work/osha-deep-study/dash2006.pdf",
+      "sha256": "b24996180df6c72ef750b9aa0c7c09b86cf17a3187d2b3d2dd5958950c62fc23",
+      "pdf_pages": [
+        1
+      ]
+    },
+    {
+      "path": "work/osha-deep-study/mahanti.pdf",
+      "sha256": "8dd1d610e7e5df0dcb8f77a5a4a75c267fb3fb43480df2e24d39bbe312070f22",
+      "pdf_pages": [
+        76
+      ]
+    }
+  ],
+  "followup": {
+    "retry_after": "2026-10-14",
+    "needs": [
+      "Which dated Bata or Danda Panhara text can be inspected with its imprint?",
+      "How do local observers distinguish Bata, Danda Panhara and similarly named Panthei practices?",
+      "Do the different calendar statements describe local variants, stages or an error?",
+      "Which manda and chakuli preparations are offered in a named household or locality?"
+    ],
+    "independent_next": "Pandu, then Shani"
+  },
+  "fieldwork_conducted": false,
+  "human_review_claimed": false,
+  "origin_date": null,
+  "annual_date": null,
+  "serving_availability": null
+}

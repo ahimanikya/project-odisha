@@ -124,3 +124,12 @@ The most useful next step is original field-study recovery and a source-linked b
 - [Ratnagiri](../places/ratnagiri.md): The Buddhist site provides context for maritime imagery; site association alone does not identify a merchant fleet.
 
 **Editorial status:** Source-linked research draft. Original PDF pages were inspected where stated; other captures and retrieval failures remain labelled. No human historical review, fieldwork, newly licensed imagery or website publication is claimed.
+
+
+## 11 October 2026 · Coverage and original-access audit
+
+Due11October NIO1993/1995 original retries returned HTML rather than PDF. No new vessel measurements or fieldwork chronology established. Retry18October;1997 patia full article remains uninspected.
+
+## Khudurukuni and the household beside the voyage
+
+[The connected article](../stories/khudurukuni-maritime-knowledge.md) brings girls’ ritual work and household care into the maritime inquiry. Modern physical explanations remain separate from historical attribution.

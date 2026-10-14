@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "task_id": "RES-077",
+  "batch_id": "OSHA-B03",
+  "checked_at": "2026-10-07T08:00:49.602688+00:00",
+  "source_checks": [
+    {
+      "source_id": "osha-kumar2015",
+      "url": "https://magazines.odisha.gov.in/Orissareview/2015/Oct/engpdf/october-or-2015.pdf",
+      "checked_at": "2026-10-07T08:00:49.602688+00:00",
+      "status": "available",
+      "locator": "Printed pp.45–46; PDF pp.54–55, rendered and visually inspected",
+      "sha256": "0c27caf6b0e97f1f5272e31dc6f10a3f92d3fb57b606d76261e03aabad5e4129",
+      "scope": "Authored cultural account with Ganjam framing; not a dated field survey, earliest historical witness or statewide prevalence estimate.",
+      "method": "Original issue downloaded; two article pages extracted and visually inspected. Per-request TLS certificate verification bypassed after expiry error; no persistent configuration change."
+    }
+  ],
+  "failed_fetches": [
+    {
+      "source_id": "janhi-gazette1938",
+      "url": "https://law.odisha.gov.in/sites/default/files/2021-01/No.4%20of%20April%2022%2C1938.pdf",
+      "checked_at": "2026-10-07T07:54:57.974697+00:00",
+      "status": "unavailable",
+      "method": "curl with certificate verification",
+      "error": "curl: (28) Connection timed out after 25008 milliseconds\n"
+    },
+    {
+      "source_id": "osha-kumar2015",
+      "url": "https://magazines.odisha.gov.in/Orissareview/2015/Oct/engpdf/october-or-2015.pdf",
+      "checked_at": "2026-10-07T07:54:34.012400+00:00",
+      "status": "unavailable",
+      "method": "curl with certificate verification",
+      "error": "curl: (60) SSL certificate problem: certificate has expired\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the web page mentioned above.\n"
+    },
+    {
+      "source_id": "janhi-gazette1938",
+      "url": "https://law.odisha.gov.in/sites/default/files/2021-01/No.4%20of%20April%2022%2C1938.pdf",
+      "checked_at": "2026-10-07T08:00:49.602688+00:00",
+      "status": "unavailable",
+      "method": "web open",
+      "error": "Timeout fetching; repeated open also timed out"
+    },
+    {
+      "source_id": "osha-kumar2015",
+      "url": "https://magazines.odisha.gov.in/Orissareview/2015/Oct/engpdf/october-or-2015.pdf",
+      "checked_at": "2026-10-07T08:00:49.602688+00:00",
+      "status": "unavailable",
+      "method": "web open",
+      "error": "502 Bad Gateway"
+    }
+  ],
+  "discovery_holds": [
+    {
+      "id": "OSHA-LEAD-JANHI-1938",
+      "name": "Janhi Osha Katha book-registration lead",
+      "url": "https://law.odisha.gov.in/sites/default/files/2021-01/No.4%20of%20April%2022%2C1938.pdf",
+      "status": "indexed_lead_original_unavailable",
+      "indexed_locator": "Orissa Gazette, 22 April 1938, appendix books registered under Act XXV of 1867, apparent row102; printed page and column alignment unverified",
+      "indexed_hint": "Search extraction associates the title with a 1937 publication and six pages. These fields are discovery hints only until the original table is inspected.",
+      "author": null,
+      "publication_date_verified": null,
+      "contents_inspected": false,
+      "earliest_observance_date": null,
+      "retry_after": "2026-10-14",
+      "next_action": "Inspect original row and headings visually, establish which author/publisher/date cells belong to the title, then locate the booklet. A book-registration date would not establish ritual origin."
+    }
+  ],
+  "saved_source_reuse": [
+    {
+      "source_id": "osha-review2006",
+      "path": "work/osha-deep-study/dash2006.txt",
+      "scope": "Printed pp.15–18; no new network check"
+    },
+    {
+      "source_id": "osha-mahanti",
+      "path": "work/osha-deep-study/mahanti.txt",
+      "scope": "Printed pp.56,58,62; no new network check"
+    }
+  ],
+  "next_leads": [
+    {
+      "observance": "Chaitra Mangala",
+      "url": "https://magazines.odisha.gov.in/orissareview/2009/April-May/engpdf/or-april-2009.pdf",
+      "status": "indexed_lead_not_inspected",
+      "note": "Search mentions Madhya Parva885. Recover article, identify cited edition and inspect context before using as chronology."
+    },
+    {
+      "observance": "Chaitra Mangala",
+      "url": "https://shrijagannathmandirdelhi.in/mangala-osha/",
+      "status": "discovery_not_inspected",
+      "note": "Potential institutional community account; Delhi geography must remain explicit."
+    },
+    {
+      "observance": "Sathi",
+      "url": "https://shubhapallaba.in/sasthi-osha/",
+      "status": "discovery_not_inspected",
+      "note": "Inspect author, date and basis; distinguish annual osha from sixth-day-after-birth custom."
+    },
+    {
+      "observance": "Nisha Mangalabara",
+      "source_ids": [
+        "osha-mahanti",
+        "osha-review2006"
+      ],
+      "status": "saved_source_followup",
+      "note": "Mahanti p.58 gives night worship, cooked food and sacrifice; Dash p.15 labels Mangala. Preserve source-specific deity wording and do not universalise vegetarian observance or convert sacrifice into a serving menu."
+    }
+  ],
+  "adoption_limits": [
+    "No earliest Janhi date established",
+    "2015 article is not measured current prevalence",
+    "Janhi food_names remains empty",
+    "No annual Gregorian dates or visitor serving/access claims",
+    "No independent corroboration inferred from shared publisher"
+  ],
+  "human_review_claimed": false,
+  "fieldwork_conducted": false
+}

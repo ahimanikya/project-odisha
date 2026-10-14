@@ -1,0 +1,143 @@
+{
+  "run_id": "2026-10-08-rushi-panchami",
+  "checked_at": "2026-10-09T00:07:30.415998+00:00",
+  "task_id": "RES-077",
+  "profile_id": "OSHA-037",
+  "source_checks": [
+    {
+      "source_id": "osha-jagannath-festivals2003",
+      "url": "https://magazines.odisha.gov.in/Orissareview/july2003/englishchpter/The%20Festivals%20of%20Lord%20Jagannath.pdf",
+      "status": "retrieved",
+      "checked_at": "2026-10-09T00:07:30.415998+00:00",
+      "locator": "Printed39 / PDF3, Rishi Panchami row; title and author printed37 / PDF1",
+      "scope": "Published temple calendar description. Used only for Bhadraba bright fifth-day rule; no current-year date, origin or food inferred.",
+      "capture": {
+        "path": "/Users/ahimanikya/Documents/codex/2026-09-27/odisha-facts-and-growth/work/osha-rushi/festivals2003.pdf",
+        "sha256": "fe5972126a9be4f27cc63108bc30dbb5c66d6e030d7300b50338c2fde201e62a",
+        "retrieved_at": "2026-10-09T00:07:30.415998+00:00",
+        "method": "Publisher PDF retrieved; cited PDF pages rendered and visually inspected",
+        "transport_note": "Public-document-only request with certificate verification disabled after expiry errors; no persistent TLS change. Publisher URL, issue date and byline checked against document."
+      }
+    },
+    {
+      "source_id": "osha-markandeswar2013",
+      "url": "https://magazines.odisha.gov.in/Orissareview/2013/jul/engpdf/105-109.pdf",
+      "status": "retrieved",
+      "checked_at": "2026-10-09T00:07:30.415998+00:00",
+      "locator": "Printed106–107 / PDF3–4, Jagamohan painting and Festivals & Rituals; title/author printed104 / PDF1",
+      "scope": "Authored temple description, not an institutional ritual register. Records a painting and ritual connection as described in2013; not proof of current condition or earliest observance. URL numbering differs from printed pagination.",
+      "capture": {
+        "path": "/Users/ahimanikya/Documents/codex/2026-09-27/odisha-facts-and-growth/work/osha-rushi/markandeswar2013.pdf",
+        "sha256": "36da9734f0a27bc49a89a4530e64b657410c86a2b0dbb0c308c39d355f3468db",
+        "retrieved_at": "2026-10-09T00:07:30.415998+00:00",
+        "method": "Publisher PDF retrieved; cited PDF pages rendered and visually inspected",
+        "transport_note": "Public-document-only request with certificate verification disabled after expiry errors; no persistent TLS change. Publisher URL, issue date and byline checked against document."
+      }
+    },
+    {
+      "source_id": "osha-panchami-ojha2022",
+      "run_id": "2026-10-08-rushi-panchami",
+      "checked_at": "2026-10-09T00:07:30.415998+00:00",
+      "locator": "Printed108–109 / viewer110–111, Rishi Panchami section",
+      "method": "Full-issue HTML text layer reread; no magazine page-image inspection",
+      "scope": "Attributed seven-sages story, temple offering and katha description; not origin or household menu",
+      "status": "retrieved_text_layer",
+      "url": "https://fliphtml5.com/aukd/fzar/February_2022/"
+    },
+    {
+      "source_id": "osha-review2006",
+      "run_id": "2026-10-08-rushi-panchami",
+      "checked_at": "2026-10-09T00:07:30.415998+00:00",
+      "locator": "Printed16 / PDF2",
+      "method": "Saved publication text reused",
+      "scope": "Roosi Panchami name separately listed from Guru Panchami",
+      "status": "saved_evidence_reused",
+      "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf"
+    },
+    {
+      "source_id": "osha-lakshmi2021",
+      "run_id": "2026-10-08-rushi-panchami",
+      "checked_at": "2026-10-09T00:07:30.415998+00:00",
+      "locator": "Printed22 / PDF2",
+      "method": "Saved publication text reused",
+      "scope": "Rishipanchami appears among Lakshmi temple festivals; no food or date supplied",
+      "status": "saved_evidence_reused",
+      "url": "https://magazines.odisha.gov.in/Orissareview/2021/June-July/engpdf/page-21-25.pdf"
+    }
+  ],
+  "failed_fetches": [
+    {
+      "url": "https://magazines.odisha.gov.in/Orissareview/2013/jul/engpdf/july_or_2013.pdf",
+      "status": "unavailable",
+      "method": "Web or verified-TLS retrieval attempt",
+      "reason": "Web full-issue retrieval timeout",
+      "checked_at": "2026-10-09T00:07:30.415998+00:00",
+      "recovery": "Individual publisher PDFs subsequently recovered through request-scoped certificate exception; original failed attempts retained"
+    },
+    {
+      "url": "https://magazines.odisha.gov.in/Orissareview/july2003/englishchpter/The%20Festivals%20of%20Lord%20Jagannath.pdf",
+      "status": "unavailable",
+      "method": "Web or verified-TLS retrieval attempt",
+      "reason": "Web retrieval inaccessible; initial local DNS restriction; verified-TLS fetch failed due expired certificate",
+      "checked_at": "2026-10-09T00:07:30.415998+00:00",
+      "recovery": "Individual publisher PDFs subsequently recovered through request-scoped certificate exception; original failed attempts retained"
+    },
+    {
+      "url": "https://magazines.odisha.gov.in/Orissareview/2013/jul/engpdf/105-109.pdf",
+      "status": "unavailable",
+      "method": "Web or verified-TLS retrieval attempt",
+      "reason": "Web article retrieval timeout; verified-TLS fetch failed due expired certificate",
+      "checked_at": "2026-10-09T00:07:30.415998+00:00",
+      "recovery": "Individual publisher PDFs subsequently recovered through request-scoped certificate exception; original failed attempts retained"
+    }
+  ],
+  "conflicts": [
+    {
+      "dimension": "identity",
+      "statement": "Mahanti’s Guru passage overlaps sages/women but Ojha treats Rishi separately; do not resolve Guru by automatic alias.",
+      "related_record": "references/data/guru-panchami-research.json"
+    }
+  ],
+  "adopted_calendar": "Bhadrava bright fifth, traditional rule only",
+  "reuse": [
+    "Research-map query Rushi Panchami found no mapped record; dated map is not exhaustive",
+    "Guru checkpoint and Ojha article",
+    "Saved Dash and Lakshmi essay",
+    "Native destination-and-tour-book guidance"
+  ],
+  "discovery_not_adopted": [
+    {
+      "url": "https://localdrive.in/rushi-panchami-at-markandeswar-temple-puri-witnessing-a-unique-ritual/",
+      "reason": "Recent private blog ingredients and distribution claims require institutional/local evidence; no chhena recipe or current access adopted"
+    },
+    {
+      "url": "https://jagannath.in/",
+      "reason": "Official institutional authority not established; not used to verify dates or rituals"
+    }
+  ],
+  "evidence_boundaries": [
+    "Temple painting, ritual performance and devotional narrative distinguished.",
+    "Ancient temple inscriptions do not date this observance without an explicit ritual reference.",
+    "Milk and fruit are temple offering descriptions, not household menus or complete pana recipes.",
+    "Menstrual-purity beliefs attributed, not adopted as factual bodily judgments.",
+    "No origin date, current annual date, fieldwork, human review or serving availability verified.",
+    "Publication dates differ from retrieval dates and do not establish uninterrupted survival."
+  ],
+  "followup": {
+    "retry_after": "2026-10-15",
+    "needs": [
+      "Which dated temple ritual registers or identifiable Odia katha editions describe Rushi Panchami?",
+      "What is the full locally used story, and how do versions differ?",
+      "What are the ingredients, preparation, quantities and distribution rules of temple offerings?",
+      "What fasting and fast-breaking foods do named, willing households describe?",
+      "How do local speakers distinguish Rushi, Rishi, Roosi and Guru Panchami?",
+      "When was the painting described in2013 made, and does it survive in that form?",
+      "Which annual date, access and serving details can be verified before a visitor recommendation?"
+    ],
+    "independent_next": "Gouri Brata"
+  },
+  "origin_date": null,
+  "annual_date": null,
+  "fieldwork_conducted": false,
+  "human_review_claimed": false
+}

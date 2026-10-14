@@ -47,3 +47,7 @@ Place associations and practical listings retain their sources. Named food vendo
 [Puri provider research](puri-providers.md) — dated guide, operator, food and stay evidence; availability unknown.
 
 [Puri journey research outline](puri-journey-outline.md) — sourced road sequence with leg-level unknowns and an explicit review gate.
+
+## 2026-10-07 · Osha and food
+
+[Seasonal food reading](seasonal-food-guide.md) distinguishes cultural discovery from verified serving offers.

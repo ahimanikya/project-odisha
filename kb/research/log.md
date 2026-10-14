@@ -732,3 +732,79 @@ Recovered the NIDHI-linked national recognition original and separated its start
 ## Puri downloadable business starter · 3 October 2026
 
 Created a nine-page source-linked research PDF with 26 blank fillable fields, manual finances and a demand-testing sequence. Reused the existing dossier without new source claims. Rendered pages inspected; populated scratch copy saved/reopened and canonical fields verified. No human review, business approval or website publication.
+
+## 2026-10-07 · Osha and food
+
+Added a twelve-profile osha collection and website candidate, with original sources, conflicts and continuing tasks. No human factual review or publication claimed.
+
+## 2026-10-07 · B02/B03 research checkpoints
+
+Reconciled six sequential research checkpoints into the existing osha review candidate. Seven narrative checkpoints and eight early notes; B04 follows. No merge or publication.
+
+## 2026-10-07 · B04 research checkpoints
+
+Reconciled two western Odisha research checkpoints into the existing review candidate. Seven narrative checkpoints and eleven research notes; B05 follows. No merge or publication.
+
+## 2026-10-07 · B05 research checkpoints
+
+Reconciled five B05 research checkpoints into the existing review candidate. Seven narrative checkpoints and fourteen research notes; B06 follows. No merge or publication.
+
+## 2026-10-08 · B06 research checkpoint
+
+Reconciled three B06 profiles into the existing review candidate. Eight narrative checkpoints and sixteen research notes. Sita and Rambha have no established local menu. No merge or publication.
+
+## 2026-10-09 · Osha expansion checkpoint
+
+Reconciled accumulated Osha research:39 profiles,10 narrative checkpoints and29 research notes, plus an identity guide. No merge or publication.
+
+## 2026-10-09 · Osha expansion checkpoint
+
+Reconciled accumulated Osha research:52 profiles,13 narrative checkpoints and39 research notes, plus existing identity guide. No merge or publication.
+
+## 2026-10-10 · Raja and seasonal-food review
+
+Raja joins the53-profile review candidate with a new page on interpreting dated food notices. No new source research, merge or publication.
+
+## 2026-10-10 · Seasonal navigation review
+
+Saved seasonal-navigation audit reconciled into the existing 53-profile draft collection. Month filters keep recurrence, unresolved identities and the solar transition separate; food-role notes stay visible. No fresh cultural research or publication.
+
+## 2026-10-10 · Prathamastami review
+
+Prathamastami joins fifteen narrative checkpoints in the53-profile review candidate. No new source research, merge or publication.
+
+## 2026-10-10 · Dutiya review
+
+Dutiya remains an early research note in the53-profile review candidate:15 narrative checkpoints and38 early notes. No new source research, merge or publication.
+
+## 2026-10-10 · Budhei review
+
+Budhei remains an early research note in the53-profile review candidate:15 narrative checkpoints and38 early notes. Saved source research reused; no merge or publication.
+
+## 2026-10-11 · Alana review
+
+Alana remains an early research note in the53-profile review candidate:15 narrative checkpoints and38 early notes. Saved source research reused; no merge or publication.
+
+## 2026-10-11 · Kanji Anla review
+
+Kanji Anla remains an early research note in the53-profile review candidate:15 narrative checkpoints and38 early notes. Saved source research reused; no merge or publication.
+
+## 2026-10-11 · Samba Dashami review
+
+Samba Dashami remains a narrative research checkpoint in the53-profile review candidate:15 narrative checkpoints and38 early notes. Saved source research reused; no merge or publication.
+
+## 2026-10-11 · Sabitri Brata review
+
+Sabitri Brata remains a narrative research checkpoint in the53-profile review candidate:15 narrative checkpoints and38 early notes. Saved source research reused; no merge or publication.
+
+## 2026-10-11 · Manabasa Gurubara review
+
+Manabasa Gurubara remains a narrative research checkpoint in the53-profile review candidate:15 narrative checkpoints and38 early notes. Saved source research reused; no merge or publication.
+
+## 2026-10-11 · Khudurukuni article review
+
+Sudasa rice/filling and source-specific offering-distribution instructions reconciled into existing draftPR145. No human review or public release.
+
+## 2026-10-11 · Khudurukuni and maritime review
+
+Khudurukuni print and food-term and source-specific offering-distribution instructions reconciled into existing draftPR145. No human review or public release.

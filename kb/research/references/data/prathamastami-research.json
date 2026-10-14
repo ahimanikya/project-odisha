@@ -1,0 +1,219 @@
+{
+  "run_id": "2026-10-10-prathamastami",
+  "task_id": "RES-077",
+  "profile_id": "OSHA-010",
+  "seasonal_id": "SEAS-002",
+  "checked_at": "2026-10-10T14:41:06.609060+00:00",
+  "source_checks": [
+    {
+      "source_id": "osha-pratham-bharati",
+      "url": "https://ignca.gov.in/asi_reports/orkhurda019.pdf",
+      "checked_at": "2026-10-10T14:41:06.609060+00:00",
+      "status": "retrieved",
+      "locator": "PDF2, section7 Association; PDF1 identity and PDF4 credits",
+      "scope": "Institutional site inventory records Prathamastami and a ritual visit by Lingaraja to his uncle. Its building-age field does not date the festival. No current timetable, food service or Utkal human review established.",
+      "method": "Original PDF downloaded; PDF2 visually inspected"
+    },
+    {
+      "source_id": "osha-pratham-svanir",
+      "url": "https://svanir.com/blog/prathamastami-celebrating-the-first-born",
+      "checked_at": "2026-10-10T14:41:06.609060+00:00",
+      "status": "retrieved",
+      "locator": "Opening paragraphs, especially first-person recollection of Sunanda aunty and mother-in-law; web lines14–16",
+      "scope": "Published first-person account of receiving enduri and learning its meaning. Operator blog is not a dated serving offer. Health, exclusivity, harvest-origin and temple-service claims are not adopted.",
+      "method": "Original HTML and article metadata inspected"
+    },
+    {
+      "source_id": "osha-pratham-text-lead",
+      "url": "https://www.wisdomlib.org/history/book/studies-in-the-cult-of-jagannatha/ocr/1883728/78",
+      "checked_at": "2026-10-10T14:41:06.609060+00:00",
+      "status": "retrieved_ocr_lead_only",
+      "locator": "Printed65 / digital78, Jagannatha in Orissan Dharmasastra, footnote30",
+      "scope": "Discovery lead only: unproofread OCR points to Smrtisarasangraha, edited by Pandit Govinda Rath, Cuttack1915, and attributes a seventeenth-century date to its author. Neither original chapter image nor cited edition recovered; no first-attestation, composition or observance-origin date adopted.",
+      "method": "OCR page retrieved; linked source/PDF/image tool fetches failed; direct full-PDF download timed out"
+    },
+    {
+      "source_id": "osha-mahanti",
+      "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf",
+      "checked_at": "2026-10-10T14:41:06.609060+00:00",
+      "status": "saved_evidence_reused",
+      "locator": "Printed59 / PDF75, Prathamastami paragraph",
+      "scope": "Saved PDF and newly rendered page inspected; household sequence and enduri/kheeri; no fresh retrieval."
+    },
+    {
+      "source_id": "food-crri-rice2015",
+      "url": "https://icar-crri.in/wp-content/uploads/2023/05/final_book_ldas.pdf",
+      "checked_at": "2026-10-10T14:41:06.609060+00:00",
+      "status": "saved_evidence_reused",
+      "locator": "Printed19 / PDF30, Enduri/Haldi Patra entry",
+      "scope": "Saved original page image and text inspected; rice/black-gram batter, dairy filling and two steaming arrangements."
+    },
+    {
+      "source_id": "food-tourism",
+      "url": "https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html",
+      "checked_at": "2026-10-10T14:41:06.609060+00:00",
+      "status": "saved_evidence_reused",
+      "locator": "Enduri Pitha heading",
+      "scope": "Saved institutional association reused, not freshly fetched."
+    },
+    {
+      "source_id": "osha-kanji-sarangi2018",
+      "url": "https://samadhwani.com/1311",
+      "checked_at": "2026-10-10T14:41:06.609060+00:00",
+      "status": "retrieved_existing_source_new_scope",
+      "locator": "Prathamastami paragraph and following Manabasa paragraph; web lines172–173",
+      "scope": "Existing source identity reused; original article re-opened and HTML captured. Named foods and sequence remain author-specific."
+    }
+  ],
+  "failed_fetches": [
+    {
+      "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/15th-century-inscription-found-at-simhachalam-temple-1888500",
+      "status": "unavailable",
+      "method": "web open",
+      "error": "Internal Error",
+      "scope": "Secondary inscription discovery lead; no claim adopted",
+      "attempted_at": "2026-10-10T14:41:06.609060+00:00",
+      "retry_after": "2026-10-17"
+    },
+    {
+      "url": "https://www.wisdomlib.org/history/book/studies-in-the-cult-of-jagannatha/ocr/1883728/78",
+      "status": "unavailable",
+      "method": "sandbox urllib before permitted network retry",
+      "error": "DNS resolution unavailable",
+      "scope": "Local HTML later recovered; earlier failed attempt retained",
+      "attempted_at": "2026-10-10T14:41:06.609060+00:00",
+      "retry_after": "2026-10-17"
+    },
+    {
+      "url": "https://archive.org/details/studies-in-the-cult-of-jagannatha-1991",
+      "status": "unavailable",
+      "method": "web linked original",
+      "error": "Internal Error",
+      "attempted_at": "2026-10-10T14:41:06.609060+00:00",
+      "retry_after": "2026-10-17"
+    },
+    {
+      "url": "https://www.wisdomlib.org/uploads/ocr/essays/jagannatha/studies-in-the-cult-of-jagannatha-1991.pdf",
+      "status": "unavailable",
+      "method": "web linked PDF then direct permitted urllib",
+      "error": "Internal Error; direct download read timeout after30seconds",
+      "attempted_at": "2026-10-10T14:41:06.609060+00:00",
+      "retry_after": "2026-10-17"
+    },
+    {
+      "url": "https://www.wisdomlib.org/uploads/ocr/essays/jagannatha/studies-in-the-cult-of-jagannatha-1991/78.png",
+      "status": "unavailable",
+      "method": "web linked image",
+      "error": "Internal Error",
+      "attempted_at": "2026-10-10T14:41:06.609060+00:00",
+      "retry_after": "2026-10-17"
+    }
+  ],
+  "local_capture_receipts": [
+    {
+      "url": "https://ignca.gov.in/asi_reports/orkhurda019.pdf",
+      "file": "work/osha-prathamastami/bharati.pdf",
+      "attempted_at": "2026-10-10T14:27:39.403483+00:00",
+      "status": "available",
+      "sha256": "2084cbf7c7d8f330d29d926158d057077d52811d9250113925fa6c4efb02f8d6",
+      "bytes": 323434
+    },
+    {
+      "url": "https://www.wisdomlib.org/history/book/studies-in-the-cult-of-jagannatha/ocr/1883728/78",
+      "file": "work/osha-prathamastami/mishra-page78.html",
+      "attempted_at": "2026-10-10T14:27:40.338182+00:00",
+      "status": "available",
+      "sha256": "8640ddab02dfee70a2c8012b6a7c452eabf98ac7668e97b42b3092af7958c490",
+      "bytes": 26998
+    },
+    {
+      "url": "https://svanir.com/blog/prathamastami-celebrating-the-first-born",
+      "file": "work/osha-prathamastami/svanir.html",
+      "attempted_at": "2026-10-10T14:27:41.003180+00:00",
+      "status": "available",
+      "sha256": "c0d087691c269e82e48694bfbb895871f6a7ebb254eb3dd629795331c9b53b42",
+      "bytes": 140119
+    },
+    {
+      "url": "https://samadhwani.com/1311",
+      "file": "work/osha-prathamastami/sarangi.html",
+      "attempted_at": "2026-10-10T14:27:41.924541+00:00",
+      "status": "available",
+      "sha256": "7920f775a067ab8134127319f4374b273df2927ee4b57bbf84bd5bcdb29ecaa2",
+      "bytes": 170097
+    },
+    {
+      "url": "https://www.wisdomlib.org/uploads/ocr/essays/jagannatha/studies-in-the-cult-of-jagannatha-1991.pdf",
+      "file": "work/osha-prathamastami/studies1991.pdf",
+      "attempted_at": "2026-10-10T14:28:18.575630+00:00",
+      "status": "unavailable",
+      "error": "The read operation timed out"
+    }
+  ],
+  "saved_evidence_reused": [
+    "Mahanti PDF75",
+    "CRRI PDF30",
+    "Tourism Enduri heading",
+    "existing Sarangi source identity; new Prathamastami scope",
+    "native food/collection.json Enduri narrative, voices/culture-trails.json and product/destination-and-tour-book.md"
+  ],
+  "food_roles": [
+    {
+      "item": "enduri and kheeri",
+      "role": "bhoga in Mahanti household account",
+      "source_id": "osha-mahanti",
+      "locator": "printed59/PDF75"
+    },
+    {
+      "item": "enduri, radish dalma, kheeri, fish",
+      "role": "Sasthi offering in Sarangi account",
+      "source_id": "osha-kanji-sarangi2018",
+      "locator": "web172 before Kanji Anla transition",
+      "locality": null
+    },
+    {
+      "item": "rice–black-gram batter; coconut/paneer filling; turmeric leaf",
+      "role": "one institutional preparation with two steaming arrangements",
+      "source_id": "food-crri-rice2015",
+      "locator": "printed19/PDF30",
+      "recipe_tested": false
+    },
+    {
+      "item": "enduri",
+      "role": "personal gift recounted by Soumya",
+      "source_id": "osha-pratham-svanir",
+      "locator": "opening paragraphs",
+      "current_public_offer": false
+    }
+  ],
+  "historical_lead": {
+    "source_id": "osha-pratham-text-lead",
+    "cited_edition": "Smrtisarasangraha, ed. Pandit Govinda Rath, Cuttack1915, cited in footnote30",
+    "original_contents_inspected": false,
+    "composition_date_adopted": null,
+    "first_attestation_adopted": null,
+    "chapter_author": null
+  },
+  "claims_held": [
+    "Mahanti/Svanir only-time-of-year claim; Sarangi also lists enduri under Manabasa.",
+    "Turmeric health/immunity benefits not evaluated or adopted.",
+    "Building age does not date the festival; kinship comparison is not proof of common origin.",
+    "Secondary Simhachalam inscription report unavailable; no medieval enduri continuity claim.",
+    "OCR author-date and first-mention assertion not adopted without cited original.",
+    "No alternative leaf, universal recipe, universal menu or current serving provider established."
+  ],
+  "followup": {
+    "retry_after": "2026-10-17",
+    "needs": [
+      "Recover the 1991 chapter image and its named chapter author, then the cited1915 Smrtisarasangraha passage; distinguish temple mention from household origin.",
+      "Which family and locality does each food account describe, and who prepares or sends the enduri?",
+      "Which fillings, leaf substitutions and steaming vessels are used in an attributed household demonstration? No alternative leaf is established here.",
+      "Confirm a dated local panji and the temple-fortnight discrepancy before any annual-date or procession advice."
+    ],
+    "independent_next": "Reconcile the Prathamastami/Enduri narrative, source-scoped food roles and revised navigation row into existing draft PR145 after checking destination policy and overlapping work. Preserve current revision8491012 as the prior receipt, all14–17October holds and the source workspace scheduling authority. Then deepen the next existing early profile rather than add a duplicate observance."
+  },
+  "origin_date": null,
+  "annual_date": null,
+  "human_review_claimed": false,
+  "fieldwork_conducted": false
+}

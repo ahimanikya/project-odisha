@@ -1,0 +1,23 @@
+---
+import Shell from '../../../layouts/Shell.astro';
+import guide from '../../../../../../kb/research/references/data/osha-identity-audit.json';
+import study from '../../../../../../kb/research/references/data/osha-culture.json';
+const sources = [...new Set(guide.source_checks.map(s => s.source_id))];
+const profileRoute = (path) => study.pages.find(p => p.canonical_path === path)?.route;
+---
+<Shell title="Which Osha? Names, full moons & food" description={guide.lead} active="explore" related={false}>
+<div class="wrap"><article class="identity-guide">
+<header><a href="/culture/osha/">← Osha, stories & the food year</a><p class="eyebrow">Names, seasons and local knowledge</p><h1>Which Osha?</h1><p class="deck">{guide.lead}</p></header>
+{guide.sections.slice(0,2).map(s => <section><h2>{s.title}</h2><p>{s.text}</p><p class="source">{s.source_ids.map(id => <a href={'#source-'+id}>{study.sources[id].title}</a>)} · {s.locator}</p></section>)}
+<section><h2>Three reading routes</h2><p>These reuse existing research. They are not additional observations of living practice.</p>
+{guide.comparisons.map(row => <section class="reading"><h3><a href={profileRoute(row.profile_path)}>{row.name} →</a></h3><p class="month">{row.traditional_month}</p><p>{row.food_role}</p><p>{row.identity_boundary}</p><p class="source">{row.source_locator}</p></section>)}
+</section>
+{guide.sections.slice(2).map(s => <section><h2>{s.title}</h2><p>{s.text}</p></section>)}
+<section><h2>Research still open</h2><p>Benatia needs an identifiable Odia textual or local account. The intended identity of the unqualified Purnima entry also remains open. No annual dates, serving venues or invitations to private worship are verified here.</p></section>
+<section><h2>Sources and scope</h2><p class="source">Saved research reused and selected original pages rechecked on 9 October 2026. AI-assisted research; no interviews or human editorial review claimed.</p><ol>{sources.map(id => <li id={'source-'+id}><a href={study.sources[id].resource}>{study.sources[id].title}</a><p class="source">{guide.source_checks.find(s=>s.source_id===id)?.scope}</p></li>)}</ol></section>
+<p><a href="/culture/osha/">Return to the collection →</a></p>
+</article></div>
+</Shell>
+<style>
+.identity-guide{max-width:800px;margin:auto;padding:clamp(24px,5vw,60px) 0}.identity-guide header{border-bottom:1px solid var(--line);padding-bottom:32px}.identity-guide h1{font-size:clamp(44px,7vw,76px);line-height:1.1;margin:24px 0}.identity-guide h2{font-size:clamp(28px,4vw,39px);line-height:1.25}.identity-guide h3{font-size:27px;line-height:1.3}.identity-guide p{font-size:19px;line-height:1.8}.identity-guide .deck{font-size:24px}.identity-guide section{margin-top:36px}.identity-guide .reading{padding:22px;background:var(--paper);border-top:2px solid var(--earth)}.identity-guide .month,.identity-guide .source{font-size:14px;line-height:1.7}.source a{display:inline-block;margin-right:8px}.identity-guide li{margin:20px 0}.identity-guide a:focus-visible{outline:3px solid var(--earth);outline-offset:4px}
+</style>

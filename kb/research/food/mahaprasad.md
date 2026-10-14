@@ -51,3 +51,7 @@ A 1225 record edited by D. C. Sircar documents land supporting offerings of milk
 ## Poda/arisa scope · 5 October 2026
 
 [Poda and arisa place evidence](poda-arisa-place-evidence.md) keeps Puri ritual association separate from a product specification and broader Odisha practice.
+
+## 2026-10-08 · Rai Damodara and seasonal food
+
+[Rai Damodara Brata](../culture/osha/rai-damodara-brata.md). Mahanti names Mahaprasad as food received during the vow; that ritual role does not establish a special seasonal dish or visitor access.

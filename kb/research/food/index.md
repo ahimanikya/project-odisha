@@ -54,3 +54,8 @@ Foods, ingredients and culinary story opportunities.
 [Manikapatna Curd application review](manikapatna-curd-application.md) — fermentation claims, existing applicant, Registry requests and breed/GI certificate distinction.
 
 [Chilika curd science](chilika-curd-science.md) — bamboo preparation, measured fermentation evidence and limits on shelf-life claims.
+
+
+## 2026-10-10 · Ghanta and shared food
+
+[Ghanta tarkari](ghanta-tarkari.md): preparation context and offering-to-meal roles.

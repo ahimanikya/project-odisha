@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "task_id": "RES-077",
+  "batch_id": "OSHA-B03",
+  "checked_at": "2026-10-07T08:57:47.715842+00:00",
+  "source_checks": [
+    {
+      "source_id": "osha-sarala2009",
+      "url": "https://magazines.odisha.gov.in/orissareview/2009/April-May/engpdf/or-april-2009.pdf",
+      "status": "available",
+      "scope": "Secondary literary interpretation; cited epic edition unidentified, primary Madhya Parva passage not inspected.",
+      "locator": "Printed pp.56–58; Chaitra reference p.58, left column",
+      "method": "Original issue recovered with request-only TLS bypass for recorded publisher certificate expiry. Article text extracted; p.58 visually inspected.",
+      "checked_at": "2026-10-07T08:57:47.715842+00:00"
+    },
+    {
+      "source_id": "osha-chaitra-odiaorg",
+      "url": "https://ewb.seedsnet.in/modules/od-odia.org/books/Literary%20Works%201/Chaitramangalabar.pdf",
+      "status": "available",
+      "scope": "Partial digital text witness: English editorial synopsis only. Version string 1.0_051607 is retained, not parsed into a historical composition date.",
+      "locator": "PDF p.3 / printed p.1 English introductory summary; publisher/version on PDF p.2",
+      "method": "Web PDF extraction available; direct download returned HTML rather than PDF and screenshots failed. Odia narrative pages not read.",
+      "checked_at": "2026-10-07T08:57:47.715842+00:00"
+    },
+    {
+      "source_id": "osha-pana2023",
+      "url": "https://www.livemint.com/mint-lounge/food/pana-the-drink-of-gods-in-odisha-111681396901209.html",
+      "status": "available",
+      "scope": "Contemporary attributed testimony from Alka Jena and Swetak Abhisek Mohapatra; not a representative household survey or historical proof.",
+      "locator": "Domestic religious practices: Chaitra Mangalabara paragraphs, raw mango and tiny gram attribution",
+      "method": "Full article retrieved through web reader; narrowly used named interview testimony.",
+      "checked_at": "2026-10-07T08:57:47.715842+00:00"
+    }
+  ],
+  "failed_fetches": [
+    {
+      "url": "https://magazines.odisha.gov.in/orissareview/2009/April-May/engpdf/or-april-2009.pdf",
+      "status": "unavailable",
+      "method": "web open",
+      "error": "502 Bad Gateway; subsequent shell recovery recorded separately",
+      "checked_at": "2026-10-07T08:57:47.715842+00:00"
+    },
+    {
+      "url": "https://ewb.seedsnet.in/modules/od-odia.org/books/Literary%20Works%201/Chaitramangalabar.pdf",
+      "status": "unavailable",
+      "method": "direct curl download",
+      "error": "HTML response, not PDF; no local original recovered",
+      "checked_at": "2026-10-07T08:57:47.715842+00:00"
+    },
+    {
+      "url": "https://ewb.seedsnet.in/modules/od-odia.org/books/Literary%20Works%201/Chaitramangalabar.pdf",
+      "status": "unavailable",
+      "method": "web screenshot pages2,3,4",
+      "error": "Cache miss; English web extraction available separately",
+      "checked_at": "2026-10-07T08:57:47.715842+00:00"
+    }
+  ],
+  "limited_checks": [
+    {
+      "url": "https://shrijagannathmandirdelhi.in/mangala-osha/",
+      "status": "available",
+      "scope": "Title and navigation only; no useful observance narrative recovered, no Delhi practice or menu claim adopted"
+    }
+  ],
+  "text_witness": {
+    "source_id": "osha-chaitra-odiaorg",
+    "version_literal": "1.0_051607",
+    "publisher": "www.odia.org",
+    "author": null,
+    "composition_date": null,
+    "full_odia_text_read": false,
+    "english_synopsis_read": true,
+    "local_pdf_available": false,
+    "historical_event_verified": false,
+    "rights_note": "Booklet labels itself not for business use; no images/full text republished."
+  },
+  "chronology": {
+    "source_id": "osha-sarala2009",
+    "citation": "Madhya Parva,885",
+    "cited_edition": null,
+    "primary_passage_inspected": false,
+    "earliest_observance_date": null
+  },
+  "retry_after": "2026-10-14",
+  "next_action": "Continue Sathi and Nisha independently; recover full katha and identify Sarala edition at retry.",
+  "human_review_claimed": false
+}

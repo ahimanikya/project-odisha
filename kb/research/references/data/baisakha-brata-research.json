@@ -1,0 +1,125 @@
+{
+  "run_id": "2026-10-08-baisakha",
+  "checked_at": "2026-10-08T22:55:15.459809+00:00",
+  "task_id": "RES-077",
+  "profile_id": "OSHA-035",
+  "source_checks": [
+    {
+      "source_id": "osha-mahanti",
+      "run_id": "2026-10-08-baisakha",
+      "checked_at": "2026-10-08T22:55:15.459809+00:00",
+      "locator": "Printed 45 / PDF61, Baisakha brata paragraph",
+      "method": "Saved source reused; Mahanti PDF61 visually inspected this run; Dash inventory text reused",
+      "scope": "Vishnu devotion, whole-month observance, reading and named evening meal",
+      "status": "saved_evidence_reused",
+      "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf"
+    },
+    {
+      "source_id": "osha-review2006",
+      "run_id": "2026-10-08-baisakha",
+      "checked_at": "2026-10-08T22:55:15.459809+00:00",
+      "locator": "Printed16 / PDF2, Baisakha inventory name",
+      "method": "Saved source reused; Mahanti PDF61 visually inspected this run; Dash inventory text reused",
+      "scope": "Name only; no food detail or dated origin",
+      "status": "saved_evidence_reused",
+      "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf"
+    },
+    {
+      "source_id": "osha-baisakha-kamakoti",
+      "url": "https://www.kamakoti.org/kamakoti/details/skandapurana28.html",
+      "status": "retrieved",
+      "checked_at": "2026-10-08T22:55:15.459809+00:00",
+      "locator": "Chapter 28 webpage: water-charity paragraphs and King Kirtiman narrative",
+      "scope": "Institutional devotional condensation, not a critical Sanskrit edition or Odisha ethnography. Used as an attributed comparative telling only; no local transmission date, historical king or promised religious/medical outcome established. Chapter 28 is the website summary chapter, not asserted to be an original Purana chapter number."
+    }
+  ],
+  "failed_fetches": [
+    {
+      "url": "https://www.namami.gov.in/sites/default/files/Orissa_State_Museum_Bhubaneswar_Odisha.pdf",
+      "status": "unavailable",
+      "method": "Web open/find and direct curl download",
+      "reason": "Web timed out/no text returned; direct download timed out after 40 seconds without data",
+      "checked_at": "2026-10-08T22:55:15.459809+00:00",
+      "recovery": "Only indexed catalogue leads retained; no manuscript or original row inspection claimed"
+    },
+    {
+      "url": "https://www.namami.gov.in/sites/default/files/Orissa_State_Museum_Bhubaneswar_Orissa.pdf",
+      "status": "unavailable",
+      "method": "Web open alternate catalogue filename",
+      "reason": "Timeout",
+      "checked_at": "2026-10-08T22:55:15.459809+00:00",
+      "recovery": "Alternate filename is not an independent manuscript witness"
+    }
+  ],
+  "unverified_catalogue_leads": [
+    {
+      "title": "Baisakha Mahatmya",
+      "manuscript_id": "IGO0013319716",
+      "accession": "CY-2398",
+      "pages_as_indexed": 234,
+      "dvd_as_indexed": 36,
+      "url": "https://www.namami.gov.in/sites/default/files/Orissa_State_Museum_Bhubaneswar_Odisha.pdf",
+      "status": "indexed_only_original_unavailable",
+      "contents_inspected": false,
+      "composition_date": null,
+      "date_of_copy": null,
+      "independent_variant_established": false
+    },
+    {
+      "title": "Baisakha Mahatmya",
+      "manuscript_id": "IGO0013320472",
+      "accession": "ORP-2211",
+      "pages_as_indexed": 168,
+      "dvd_as_indexed": 42,
+      "url": "https://www.namami.gov.in/sites/default/files/Orissa_State_Museum_Bhubaneswar_Odisha.pdf",
+      "status": "indexed_only_original_unavailable",
+      "contents_inspected": false,
+      "composition_date": null,
+      "date_of_copy": null,
+      "independent_variant_established": false
+    },
+    {
+      "title": "Baisakha Mahatmya",
+      "manuscript_id": "IGO0013318746",
+      "accession": "B-187",
+      "pages_as_indexed": 398,
+      "url": "https://www.namami.gov.in/sites/default/files/Orissa_State_Museum_Bhubaneswar_Orissa.pdf",
+      "status": "indexed_only_original_unavailable",
+      "contents_inspected": false,
+      "composition_date": null,
+      "date_of_copy": null,
+      "independent_variant_established": false
+    }
+  ],
+  "identity_scope": "Odisha month-long Baisakha vow; comparative Vaishakha story and nearby festival foods are not merged.",
+  "reuse": [
+    "Saved Mahanti and Dash",
+    "Saved Magha and Rai Damodara profiles",
+    "Bela pana food page and source-specific scope",
+    "Native destination-and-tour-book guidance",
+    "methods/research-map.md and query_research.py Baisakha search"
+  ],
+  "evidence_boundaries": [
+    "Institutional retelling is not a critical Purana edition or identified Odia katha.",
+    "Religious rewards in the story are not historical, economic or medical outcomes.",
+    "Vishnu Purana reading in Mahanti does not identify a Skanda Purana story.",
+    "Original catalogue pages unavailable; indexed rows not counted as verified manuscript records.",
+    "No seasonal drink or Kartika recipe inferred as Baisakha meal."
+  ],
+  "followup": {
+    "retry_after": "2026-10-15",
+    "needs": [
+      "Can an identified Odia Baisakha text, cover, imprint and relevant narrative/food pages be recovered?",
+      "What are the museum catalogue’s exact identifiers, script, language, copy dates and contents for Baisakha Mahatmya?",
+      "Which work and passages do named local observers read, and how do these relate to the Vishnu Purana reference?",
+      "What is the earliest dated Odisha evidence for the month-long vow?",
+      "How do local households distinguish havishanna and kechudi, and prepare and share them?",
+      "What local start/end rule and consenting public food offer can support a visitor listing?"
+    ],
+    "independent_next": "Guru Panchami"
+  },
+  "origin_date": null,
+  "annual_date": null,
+  "fieldwork_conducted": false,
+  "human_review_claimed": false
+}

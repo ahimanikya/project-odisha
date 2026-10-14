@@ -14,3 +14,8 @@ sources: [{"id": "sadhaba-southern-boats1995", "title": "Traditional Boat-buildi
 Indexed institutional text only: opening p.66 and p.72 sections on depth, time and steering. Direct retrieval returned a challenge page, not a PDF. Fieldwork date not established. A similarly titled1999 publication must not be silently substituted.
 
 [Source](https://drs.nio.res.in/drs/bitstream/handle/2264/2389/J_Indian_Ocean_Stud_3_66.pdf?sequence=2).
+
+
+## 11 October 2026 · Original retry
+
+HTTP200 returned text/html, not the original PDF. No new original content inspected; retry18October. Earlier indexed-content scope preserved.

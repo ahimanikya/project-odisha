@@ -51,3 +51,32 @@ A broader pitha list describes steamed manda with coconut-sweetener or chhena fi
 This manda version steams filled rice dough; cheese is optional in the coconut filling. [Traditional Rice Foods: The Rich Heritage of India — Lipi Das](https://icar-crri.in/wp-content/uploads/2023/05/final_book_ldas.pdf), Printed p.24 / PDF p.35. Lipi Das, ICAR-CRRI, 2015 compilation; an Odisha-labelled version, not a tested recipe or district prevalence measure.
 
 **Remaining question:** CRRI explicitly documents steaming, but this does not settle the other source’s boiled terminology or district distribution. Local/Odia review remains pending.
+
+## Observance reading
+
+[Osha and food culture](../culture/osha-brata-seasonal-food.md) links the preparation to source-attributed observances; it does not establish one universal ritual recipe.
+
+
+## 2026-10-07 · Observance research
+
+The [individual osha and brata profiles](../culture/osha-brata-seasonal-food.md) now cite inspected originals. Ritual association does not make this preparation the only local version.
+
+
+## 2026-10-07 · Manda in a Sudasa story
+
+The [Sudasa text comparison](../culture/osha/sudasa-text-comparison.md) records chhena and coconut filling in one verse passage. It does not establish steaming, frying, dough or a universal ritual recipe. The existing preparation description remains a separate food account.
+
+
+## 2026-10-07 · Nuakhai association
+
+Singh names manda in the Nuakhai offering and meal account (printed25 / PDF3). The source does not identify it as this specific sijha preparation. [Source](https://magazines.odisha.gov.in/Orissareview/2012/sep/engpdf/24-26.pdf). [Nuakhai](../culture/osha/nuakhai.md). Connects a sourced festival association to separately documented food preparations; no single recipe implied.
+
+
+## 2026-10-07 · Bata offering name
+
+[Bata Osha](../culture/osha/bata.md) records Sarangi’s manda offering name without specifying cooking or filling. Connects a sourced offering name to separately documented preparations; no single ritual recipe implied.
+
+
+## 2026-10-07 · Pandu offering name
+
+[Pandu Osha](../culture/osha/pandu.md) retains Puriwaves’ white-manda name as an attributed account. Compare a reported offering name with separately documented preparations; no single Pandu recipe implied.

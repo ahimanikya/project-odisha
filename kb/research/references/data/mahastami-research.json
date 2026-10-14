@@ -1,0 +1,135 @@
+{
+  "run_id": "2026-10-10-mahastami",
+  "checked_at": "2026-10-10T04:37:25.193690+00:00",
+  "local_date": "2026-10-10",
+  "task_id": "RES-077",
+  "profile_id": "OSHA-051",
+  "source_checks": [
+    {
+      "source_id": "osha-durgastami-book-lead",
+      "url": "https://www.exoticindiaart.com/book/details/vijiuntia-osha-katha-or-durgastami-vrata-and-durgashrimala-oriya-har390/",
+      "status": "retrieved",
+      "checked_at": "2026-10-10T04:37:25.193690+00:00",
+      "locator": "Product title and Specifications, item HAR390; web extraction lines33,73–80",
+      "scope": "Primary evidence of this seller record only: linked title, listed publisher and22 pages. Contents, imprint and edition date not inspected; not proof of universal ritual equivalence, historical origin, current stock or an independently read katha.",
+      "method": "Web text extraction; title/specifications only"
+    },
+    {
+      "source_id": "osha-mahanti",
+      "run_id": "2026-10-10-mahastami",
+      "checked_at": "2026-10-10T04:37:25.193690+00:00",
+      "locator": "Printed51/PDF67, household Mahastami paragraph; printed86/PDF102, public Durga Puja paragraph",
+      "scope": "Household fruit and worn brata; public bhoga and fast-breaking sequence kept separate. Same publication reused, not independent corroboration.",
+      "method": "Saved original rendered and visually inspected",
+      "local_capture": "work/osha-deep-study/mahanti.pdf",
+      "sha256": "8dd1d610e7e5df0dcb8f77a5a4a75c267fb3fb43480df2e24d39bbe312070f22",
+      "visually_inspected_pdf_pages": [
+        67,
+        102
+      ],
+      "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf",
+      "status": "saved_evidence_reused"
+    },
+    {
+      "source_id": "osha-kesavan-jiuntia",
+      "run_id": "2026-10-10-mahastami",
+      "checked_at": "2026-10-10T04:37:25.193690+00:00",
+      "locator": "Printed22/PDF8, second story paragraph",
+      "scope": "Author reports Malathi and Mathana Kumar story from a participant and observes Bhai Jiuntia recitation. Synopsis, not a recovered complete Odia booklet. Participant-requested village pseudonym preserved.",
+      "method": "Saved original rendered and visually inspected",
+      "local_capture": "work/osha-jiuntia/kesavan.pdf",
+      "sha256": "74b53a32a1f3e0514225d64b7af8e98ac3c0dc3a2bbeb933f82c55dfc95943cc",
+      "visually_inspected_pdf_pages": [
+        8
+      ],
+      "url": "https://journals.ub.uni-frankfurt.de/paideuma/index.php/paideuma/article/download/2046/2237/4542",
+      "status": "saved_evidence_reused"
+    }
+  ],
+  "failed_fetches": [
+    {
+      "url": "https://magazines.odisha.gov.in/Orissareview/2015/Oct/engpdf/4-10.pdf",
+      "status": "unavailable",
+      "method": "Web open",
+      "reason": "Internal error; no article contents adopted and not classified unchanged",
+      "checked_at": "2026-10-10T04:37:25.193690+00:00"
+    }
+  ],
+  "reuse": [
+    "query_research.py Mahastami and saved Mahanti/coverage-audit search before browsing.",
+    "Existing Bhai Jiuntia, Gouri, tantric traditions and native destination-and-tour-book/culture-trails records checked; dated map is not exhaustive.",
+    "Kesavan printed22/PDF8 added to an existing publication inspection; no duplicate source or independent corroboration."
+  ],
+  "identity": {
+    "separate_reading_page_basis": "Mahanti separately heads the household Mahastami account; preserve an overlapping research entry rather than assert an exclusive ritual identity.",
+    "linked_title_source": "osha-durgastami-book-lead",
+    "universal_alias_equivalence_established": false
+  },
+  "food_roles": [
+    {
+      "items": [
+        "fruit"
+      ],
+      "role": "household offering",
+      "source_id": "osha-mahanti",
+      "locator": "Printed51/PDF67",
+      "varieties": null,
+      "recipe": null
+    },
+    {
+      "items": [
+        "bhoga"
+      ],
+      "role": "public-festival offering and subsequent fast-breaking food",
+      "source_id": "osha-mahanti",
+      "locator": "Printed86/PDF102",
+      "dishes": null,
+      "household_transfer_allowed": false
+    }
+  ],
+  "narrative_extension": {
+    "profile_id": "OSHA-017",
+    "source_id": "osha-kesavan-jiuntia",
+    "locator": "Printed22/PDF8",
+    "characters": [
+      "Malathi",
+      "Mathana Kumar"
+    ],
+    "evidence": "Author-reported participant narrative and observed group recitation",
+    "full_text_recovered": false,
+    "mahastami_household_use_established": false
+  },
+  "discovery_not_adopted": [
+    {
+      "url": "https://www.exoticindiaart.com/book/details/vijiuntia-osha-katha-or-durgastami-vrata-and-durgashrimala-oriya-har390/",
+      "item": "HAR390",
+      "contents_inspected": false,
+      "edition_date": null,
+      "reason": "Seller metadata only; not added to recovered digital texts or museum manuscript records."
+    },
+    {
+      "url": "https://ir.vidyasagar.ac.in/bitstream/123456789/5855/1/26.%20PRIYADARSINI%20MISHRA.pdf",
+      "reason": "Search snippet suggested potentially conflicting coastal aliases; original not inspected, aliases not adopted."
+    },
+    {
+      "url": "https://www.oralliterature.org/collaborations/lokaratna/Lokaratna_13.pdf",
+      "reason": "Discovery lead for western Odisha brata-katha material; original not inspected this run."
+    }
+  ],
+  "followup": {
+    "retry_after": "2026-10-17",
+    "needs": [
+      "Can the Dharma Grantha Store booklet be recovered with its imprint and complete text?",
+      "Which Durgastami katha is read in a named Mahastami household, and how does it relate to Bhai Jiuntia versions?",
+      "Which fruit varieties and prepared foods are offered, shared and used to break the fast in a named locality?",
+      "How do participants distinguish the household vow, Bhai Jiuntia and public Durga Puja?",
+      "What dated textual or local evidence establishes the history of each form?",
+      "Can a willing host verify an annual date, visitor access and an actual food arrangement?"
+    ],
+    "independent_next": "Ashoka Astami Brata"
+  },
+  "origin_date": null,
+  "annual_date": null,
+  "fieldwork_conducted": false,
+  "human_review_claimed": false
+}

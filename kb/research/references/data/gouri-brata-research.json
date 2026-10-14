@@ -1,0 +1,178 @@
+{
+  "run_id": "2026-10-09-gouri-brata",
+  "checked_at": "2026-10-09T03:11:09.655994+00:00",
+  "task_id": "RES-077",
+  "profile_id": "OSHA-038",
+  "source_checks": [
+    {
+      "source_id": "osha-gouri-malik2021",
+      "url": "https://journalcpriir.com/wp-content/uploads/2022/09/28th-issue-jihc-2021-online.pdf",
+      "status": "retrieved",
+      "checked_at": "2026-10-09T03:11:09.655994+00:00",
+      "locator": "Printed/PDF403 title and author; printed/PDF412 Gouribrata passage; printed/PDF432 bibliography item20",
+      "scope": "Original scholarly article inspected; secondary account of Chaturvinoda, not the original literary edition. The article’s historical interpretation is not direct observation or a date of origin for the vow.",
+      "capture": {
+        "path": "/Users/ahimanikya/Documents/codex/2026-09-27/odisha-facts-and-growth/work/osha-gouri/malik2021.pdf",
+        "sha256": "9e742147f7f7d30c2fdc554c8db3562d3183cf07f3b87a0a1be2b130866f6ed8",
+        "retrieved_at": "2026-10-09T03:11:09.655994+00:00",
+        "method": "Publisher PDF downloaded; cited pages rendered and visually inspected"
+      }
+    },
+    {
+      "source_id": "osha-mahanti",
+      "run_id": "2026-10-09-gouri-brata",
+      "checked_at": "2026-10-09T03:11:09.655994+00:00",
+      "locator": "Printed46 / PDF62; printed75 / PDF91",
+      "scope": "Mangala Gauri/Srabani fasting and offerings; separate Jagulai description",
+      "method": "Saved PDF pages visually inspected",
+      "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf",
+      "status": "saved_evidence_reused"
+    },
+    {
+      "source_id": "osha-review2006",
+      "run_id": "2026-10-09-gouri-brata",
+      "checked_at": "2026-10-09T03:11:09.655994+00:00",
+      "locator": "Printed16 / PDF2",
+      "scope": "Gouri Brata appears in inventory; calendar and food not specified",
+      "method": "Saved text reused",
+      "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf",
+      "status": "saved_evidence_reused"
+    },
+    {
+      "source_id": "osha-panchami-ojha2022",
+      "run_id": "2026-10-09-gouri-brata",
+      "checked_at": "2026-10-09T03:11:09.655994+00:00",
+      "locator": "Printed109 / viewer111, Gouri Panchami section",
+      "scope": "Attributed Parvati transformation story and Jagulei interpretation; not identified household Gouri Brata katha",
+      "method": "Existing issue HTML text layer reread; page images not inspected",
+      "url": "https://fliphtml5.com/aukd/fzar/February_2022/",
+      "status": "retrieved"
+    },
+    {
+      "source_id": "osha-jhoti-biswal-dash2020",
+      "run_id": "2026-10-09-gouri-brata",
+      "checked_at": "2026-10-09T03:11:09.655994+00:00",
+      "locator": "Printed116–117 / PDF117–118, item8",
+      "scope": "Aswina Gouri Brata and Durgastami drawing association; same-name identity remains unresolved",
+      "method": "University PDF downloaded; selected pages rendered and visually inspected",
+      "url": "https://utkaluniversity.ac.in/wp-content/uploads/2023/08/Man-in-Society-Anthropology.pdf",
+      "status": "retrieved"
+    }
+  ],
+  "failed_fetches": [
+    {
+      "url": "https://www.namami.gov.in/sites/default/files/Orissa_State_Museum_Bhubaneswar_Odisha.pdf",
+      "status": "unavailable",
+      "method": "Web original and non-www route; direct verified-TLS download",
+      "reason": "Web timeout/internal error and download timeout",
+      "checked_at": "2026-10-09T03:11:09.655994+00:00",
+      "recovery": "Indexed ORPR-230 title is discovery only; retry16October. No manuscript or catalogue page claimed inspected."
+    },
+    {
+      "url": "https://utkaluniversity.ac.in/wp-content/uploads/2023/08/Man-in-Society-Anthropology.pdf",
+      "status": "unavailable",
+      "method": "Web screenshots PDF117–118",
+      "reason": "Cache miss",
+      "checked_at": "2026-10-09T03:11:09.655994+00:00",
+      "recovery": "Verified-TLS publisher download succeeded; local renders visually inspected"
+    }
+  ],
+  "conflicts": [
+    {
+      "dimension": "identity_and_calendar",
+      "accounts": [
+        {
+          "source_id": "osha-jhoti-biswal-dash2020",
+          "name": "Gouri Brata",
+          "calendar": "Aswina",
+          "locator": "Printed116–117 / PDF117–118"
+        },
+        {
+          "source_id": "osha-mahanti",
+          "name": "Mangala Gauri/Srabani",
+          "calendar": "Srabana Tuesdays",
+          "locator": "Printed46 / PDF62"
+        },
+        {
+          "source_id": "osha-mahanti",
+          "name": "Jagulai/Jagrata Gauri",
+          "calendar": "Srabana dark fifth",
+          "locator": "Printed75 / PDF91"
+        }
+      ],
+      "resolution": "Unresolved related names, not normalized as one festival"
+    }
+  ],
+  "adopted_calendar": null,
+  "reuse": [
+    "Research-map Gouri search: no mapped identity; dated map is not exhaustive",
+    "Saved Dash, Mahanti and Ojha",
+    "Existing Jhoti publication reused under its existing source ID",
+    "Native destination-and-tour-book guidance"
+  ],
+  "discovery_not_adopted": [
+    {
+      "source_id": "osha-nmm-catalogue",
+      "url": "https://www.namami.gov.in/sites/default/files/Orissa_State_Museum_Bhubaneswar_Odisha.pdf",
+      "indexed_title": "Gouri Brata Katha",
+      "indexed_accession": "ORPR-230",
+      "indexed_manuscript_id": "IGO0013320512",
+      "indexed_pages": 252,
+      "indexed_dvd": 78,
+      "reason": "Search snippet only this run; catalogue page and manuscript not retrieved. Not added as verified textual witness."
+    },
+    {
+      "url": "https://www.odiasahitya.com/author/chandrasekharnanda/",
+      "reason": "Indexed Gauribrata authorship lead for Chandrasekhar Nanda; original book not recovered or attributed to the museum accession"
+    },
+    {
+      "url": "https://www.prameya.com/balatrutiya-fast-ganesh-puja-14th-muktimandap-pandit",
+      "reason": "Indexed Gouri/Bali Trutiya name association; article/year and original calendar not inspected; no annual date adopted"
+    },
+    {
+      "url": "https://igmlnet.uohyd.ac.in/docs/hi-res/hcu_images/TH12492.pdf",
+      "reason": "Related thesis discovery, not counted as independent evidence from the journal article"
+    },
+    {
+      "title": "Brajanath Granthabali",
+      "editor": "S. N. Mishra",
+      "publisher": "Orissa State Archives",
+      "year_as_cited": 1984,
+      "source_id": "osha-gouri-malik2021",
+      "locator": "Printed/PDF432 bibliography item20",
+      "reason": "Original edition not recovered; no independent primary-text verification"
+    }
+  ],
+  "evidence_boundaries": [
+    "Literary framing scene is not household katha or historical event.",
+    "No date of origin established by the modern scholarly article.",
+    "Gouri/Mangala Gauri/Jagulai/Bali identities not automatically merged.",
+    "Fruit and pitha food evidence remains scoped to Mahanti’s Srabani paragraph.",
+    "Drawing material is not a meal; no specific pitha assigned.",
+    "No fieldwork, human review, current dates or venues verified."
+  ],
+  "followup": {
+    "retry_after": "2026-10-16",
+    "needs": [
+      "Does a named locality distinguish Aswina Gouri Brata, Srabani/Mangala Gauri, Gouri Panchami and Bali Trutiya?",
+      "Can the Chaturvinoda framing passage be checked in an identifiable original edition?",
+      "Can the indexed museum lead Gouri Brata Katha, ORPR-230, be retrieved and its contents and dating inspected?",
+      "Which story is actually read in each household observance?",
+      "Which offerings, pitha varieties, recipes and fast-breaking foods belong to each named local practice?",
+      "Which materials and motifs belong to Gouri drawings, rather than adjacent Durgastami/Dusshera descriptions?"
+    ],
+    "independent_next": "Bipattarini Brata"
+  },
+  "origin_date": null,
+  "annual_date": null,
+  "fieldwork_conducted": false,
+  "human_review_claimed": false,
+  "followup_checkpoints": [
+    {
+      "run_id": "2026-10-10-srabani-gouri",
+      "checked_at": "2026-10-10T02:35:03.229119+00:00",
+      "evidence_path": "references/data/srabani-gouri-comparison.json",
+      "scope": "Separate Srabani/Kashi comparison; earlier evidence and retry dates preserved."
+    }
+  ]
+}

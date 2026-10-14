@@ -1,0 +1,152 @@
+{
+  "run_id": "2026-10-10-srabani-gouri",
+  "checked_at": "2026-10-10T02:35:03.229119+00:00",
+  "local_date": "2026-10-10",
+  "task_id": "RES-077",
+  "profile_id": "OSHA-038",
+  "profile_path": "culture/osha/gouri-brata.md",
+  "source_checks": [
+    {
+      "source_id": "osha-mangala-gauri-kashi",
+      "url": "https://www.wisdomlib.org/hinduism/book/the-skanda-purana/d/doc423787.html",
+      "status": "retrieved",
+      "checked_at": "2026-10-10T02:35:03.229119+00:00",
+      "locator": "Chapter49 verses26–44,55–69a,80b–93",
+      "scope": "Translated primary textual comparison situated in Kashi; not a recovered Odia Srabani katha or evidence that the observances are equivalent. Original composition date and print edition not verified. Host generic1950 metadata not adopted as edition year.",
+      "method": "Webpage text inspected; Sanskrit and original print edition not inspected"
+    },
+    {
+      "source_id": "osha-mahanti",
+      "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf",
+      "status": "saved_evidence_reused",
+      "checked_at": "2026-10-10T02:35:03.229119+00:00",
+      "locator": "Printed46/PDF62, Mangala Gauri/Srabani paragraph",
+      "scope": "Existing Gouri source-bound account reused, not fresh independent corroboration.",
+      "method": "Saved profile and prior inspected-source record compared"
+    }
+  ],
+  "failed_fetches": [
+    {
+      "url": "https://www.kamakoti.org/kamakoti/dharmasindhu/bookview.php?chapnum=6",
+      "status": "unavailable",
+      "reason": "HTML shell returned mysqli Operation not permitted; chapter body unavailable. Search snippets not adopted.",
+      "method": "Web retrieval",
+      "checked_at": "2026-10-10T02:35:03.229119+00:00"
+    },
+    {
+      "url": "https://www.seiryo-u.ac.jp/u/research/gakkai/ronbunlib/humanities_ronsyu_pdf/No2/04_koiso.pdf",
+      "status": "unavailable",
+      "reason": "PDF page-image requests at zero-based indices6 and7 failed with cache miss; text layer retrieved separately.",
+      "method": "Web PDF screenshots",
+      "checked_at": "2026-10-10T02:35:03.229119+00:00"
+    }
+  ],
+  "reuse": [
+    "query_research.py Gouri located the existing profile, Malik source and queue. Existing profile, research dataset and source pointers read before browsing.",
+    "Native destination-and-tour-book and culture-trails searches returned no Gouri/Gauri/Srabani/Shrabani match; map dated, not exhaustive."
+  ],
+  "contexts": [
+    {
+      "name": "Aswina Gouri Brata",
+      "source_ids": [
+        "osha-jhoti-biswal-dash2020"
+      ],
+      "locator": "Printed116–117/PDF117–118, item8",
+      "calendar": "Aswina",
+      "geography": "Published Odisha drawing account",
+      "food_names": []
+    },
+    {
+      "name": "Mangala Gauri/Srabani",
+      "source_ids": [
+        "osha-mahanti"
+      ],
+      "locator": "Printed46/PDF62",
+      "calendar": "Srabana Tuesdays",
+      "geography": "Odisha account; locality not specified",
+      "food_roles": [
+        {
+          "items": [
+            "fruit",
+            "pitha"
+          ],
+          "role": "bhoga",
+          "specific_varieties": null,
+          "recipe": null
+        }
+      ],
+      "fast_breaking_meal": null
+    },
+    {
+      "name": "Kashi Mangala Gauri",
+      "source_ids": [
+        "osha-mangala-gauri-kashi"
+      ],
+      "locator": "Chapter49 verses80b–93",
+      "calendar": "Chaitra shukla tritiya",
+      "geography": "Kashi textual prescription",
+      "odisha_household_menu_established": false,
+      "food_roles": [
+        {
+          "items": [
+            "sweet cooked food"
+          ],
+          "role": "feeding12 unmarried girls"
+        },
+        {
+          "items": [
+            "cooked food"
+          ],
+          "role": "feeding Brahmin couple"
+        },
+        {
+          "items": [
+            "sesame",
+            "ghee"
+          ],
+          "role": "fire oblation",
+          "count": 108,
+          "unit": "oblations"
+        }
+      ],
+      "devotee_fast_breaking": "following morning",
+      "specific_dishes": null
+    }
+  ],
+  "identity_equivalence_established": false,
+  "origin_date": null,
+  "annual_date": null,
+  "original_sanskrit_inspected": false,
+  "original_print_edition_inspected": false,
+  "host_generic_year_not_adopted": 1950,
+  "discovery_not_adopted": [
+    {
+      "url": "https://www.seiryo-u.ac.jp/u/research/gakkai/ronbunlib/humanities_ronsyu_pdf/No2/04_koiso.pdf",
+      "title": "Fragrance in Hindu Culture",
+      "author": "Chihiro Koiso",
+      "publication_year": 2017,
+      "status": "text_retrieved_images_unavailable",
+      "locator": "Printed54–57, sections5.2–5.3",
+      "reason": "Comparative field account discovered. Exact locality/observation date not established in this pass; Japanese translation and images require verification. Not adopted as Odisha household evidence or an independent witness to Mahanti."
+    },
+    {
+      "url": "https://www.wisdomlib.org/history/compilation/notices-of-sanskrit-manuscripts/d/doc1465216.html",
+      "status": "discovery_only",
+      "reason": "Unproofread catalogue-index lead; no verified manuscript record or contents added."
+    }
+  ],
+  "followup": {
+    "retry_after": "2026-10-17",
+    "prior_gouri_retry_preserved": "2026-10-16",
+    "needs": [
+      "Can an identifiable Odia Srabani text establish its narrative and relationship, if any, to the Kashi Mangala Gauri prescription?",
+      "Recover original print/Sanskrit edition and inspect translation metadata.",
+      "Identify local pitha varieties, offering and fast-breaking roles through documented local evidence.",
+      "Recover Kamakoti chapter body and verify Koiso locality before using either comparison."
+    ],
+    "independent_next": "Bajra Mahakali Brata"
+  },
+  "new_profile_created": false,
+  "fieldwork_conducted": false,
+  "human_review_claimed": false
+}

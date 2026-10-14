@@ -1,0 +1,129 @@
+{
+  "run_id": "2026-10-08-guru-panchami",
+  "checked_at": "2026-10-08T23:04:41.606719+00:00",
+  "task_id": "RES-077",
+  "profile_id": "OSHA-036",
+  "source_checks": [
+    {
+      "source_id": "osha-mahanti",
+      "run_id": "2026-10-08-guru-panchami",
+      "checked_at": "2026-10-08T23:04:41.606719+00:00",
+      "locator": "Printed47–48 / PDF63–64",
+      "method": "Saved evidence reused; Mahanti PDF63–64 visually inspected; Dash saved text searched",
+      "scope": "Teacher/disciples account, women and seven sages, fasting; unsupported extinction claim retained only as author’s statement",
+      "status": "saved_evidence_reused",
+      "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf"
+    },
+    {
+      "source_id": "osha-review2006",
+      "run_id": "2026-10-08-guru-panchami",
+      "checked_at": "2026-10-08T23:04:41.606719+00:00",
+      "locator": "Printed16 / PDF2",
+      "method": "Saved evidence reused; Mahanti PDF63–64 visually inspected; Dash saved text searched",
+      "scope": "Guru Panchami Ashwina placement and separate Roosi Panchami inventory name",
+      "status": "saved_evidence_reused",
+      "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf"
+    },
+    {
+      "source_id": "osha-panchami-ojha2022",
+      "url": "https://fliphtml5.com/aukd/fzar/February_2022/",
+      "status": "retrieved",
+      "checked_at": "2026-10-08T23:04:41.606719+00:00",
+      "locator": "Printed102 / viewer104 author and title; printed107–108 / viewer109–110 Guru section; printed108–109 / viewer110–111 Rishi section; printed1 / viewer3 masthead",
+      "scope": "Original Odia authored cultural essay, read through the issue’s HTML text layer. No page-image inspection or critical textual collation claimed. Used for the author’s distinction and devotional account, not demonstrated local practice, origin chronology or astrological outcomes. Issue date differs from platform upload date."
+    }
+  ],
+  "failed_fetches": [
+    {
+      "url": "https://fliphtml5.com/aukd/fzar/February_2022/109/",
+      "status": "unavailable",
+      "method": "Web open individual page",
+      "reason": "Cache miss",
+      "checked_at": "2026-10-08T23:04:41.606719+00:00",
+      "recovery": "Full-issue HTML text subsequently retrieved; no page-image inspection claimed"
+    },
+    {
+      "url": "https://samanyakathan.com/ତିଥି-ବାର-ବେଳା-ଅକ୍ଟୋବର-୩-୯-୨/",
+      "status": "unavailable",
+      "method": "Web open indexed Odia calendar column",
+      "reason": "Cache miss",
+      "checked_at": "2026-10-08T23:04:41.606719+00:00",
+      "recovery": "Do not adopt indexed calendar dates or infer living practice"
+    },
+    {
+      "url": "https://samanyakathan.com/ତିଥି-ବାର-ବେଳା-ଜୁନ-୬-୧୨-୨୦୧୬/",
+      "status": "unavailable",
+      "method": "Web open indexed Odia calendar column",
+      "reason": "Cache miss",
+      "checked_at": "2026-10-08T23:04:41.606719+00:00",
+      "recovery": "Do not adopt indexed calendar dates or infer living practice"
+    }
+  ],
+  "conflicts": [
+    {
+      "dimension": "calendar_and_identity",
+      "source_id": "osha-mahanti",
+      "statement": "Bhadrava bright fifth; disciples and teachers, then women and seven sages",
+      "locator": "Printed47–48 / PDF63–64"
+    },
+    {
+      "dimension": "calendar_and_identity",
+      "source_id": "osha-review2006",
+      "statement": "Ashwina; Roosi Panchami separately listed",
+      "locator": "Printed16 / PDF2"
+    },
+    {
+      "dimension": "calendar_and_identity",
+      "source_id": "osha-panchami-ojha2022",
+      "statement": "Phalguna bright fifth dedicated to Brihaspati; Rishi Panchami separately in Bhadrava",
+      "locator": "Printed107–109 / viewer109–111"
+    }
+  ],
+  "adopted_calendar": null,
+  "identity_scope": "Possible distinct same-name observances; no automatic Guru/Rushi alias or calendar reconciliation.",
+  "reuse": [
+    "Saved Mahanti and Dash",
+    "Native destination-and-tour-book guidance",
+    "Research map query Guru Panchami: no mapped profile",
+    "Ananta passage and food preparation guidance"
+  ],
+  "discovery_not_adopted": [
+    {
+      "url": "https://www.hindu-blog.com/2014/06/guru-panchami-vrata-in-orissa.html",
+      "reason": "Current date, alias and Thursday-rule blog claims not primary local evidence"
+    },
+    {
+      "url": "https://kamakoti.org/kamakoti/details/naradapurana13.html",
+      "reason": "Institutional condensation retrieved; no Guru Panchami passage establishing the local identity"
+    },
+    {
+      "url": "https://fliphtml5.com/aukd/fzar/February_2022/",
+      "reason": "Ojha Rishi temple passage saved only as a next-task lead; no Guru dish or current temple operation inferred",
+      "locator": "Printed108–109 / viewer110–111"
+    }
+  ],
+  "evidence_boundaries": [
+    "Mahanti extinction wording is not a current statewide finding.",
+    "Menstrual-purity language is an attributed ritual belief, not a factual judgement about women.",
+    "Brihaspati/Kacha episode is devotional narrative, not recovered household katha.",
+    "No Ananta panchamruta or Rishi offerings transferred to Guru Panchami.",
+    "Issue HTML layer inspected; no magazine page pixels inspected.",
+    "No earliest origin, fieldwork, human review or venue established."
+  ],
+  "followup": {
+    "retry_after": "2026-10-15",
+    "needs": [
+      "Can a named local community distinguish Guru Panchami from Rushi/Rishi Panchami and Guru Purnima?",
+      "Which calendar rule and deity belong to each local use of the name?",
+      "Can an identified Odia brata-katha, imprint and food passages be recovered?",
+      "What dated evidence supports the gurukula association or claims of decline?",
+      "What offerings, fasting rules, fast-breaking food and preparation are described by willing local participants?",
+      "Can the 2022 essay’s print images and cited textual sources be collated?"
+    ],
+    "independent_next": "Rushi Panchami"
+  },
+  "origin_date": null,
+  "annual_date": null,
+  "fieldwork_conducted": false,
+  "human_review_claimed": false
+}

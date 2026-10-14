@@ -25,3 +25,8 @@ The preface credits Ananya Mahila Bikas Samiti at Sankilo, Cuttack, for informat
 ## Poda/arisa scope reuse · 5 October 2026
 
 Reused saved text for printed9,23,26,29 (PDF20,34,37,40) for the [place-association comparison](../food/poda-arisa-place-evidence.md). These entries describe arisa and three named poda preparations under Odisha. They do not identify a Puri-only recipe. No fresh download, independent replication or validated storage claim is asserted.
+
+
+## 2026-10-10 · Prathamastami scope reading
+
+Printed19 / PDF30, Enduri/Haldi Patra entry. Saved original page image and text inspected; rice/black-gram batter, dairy filling and two steaming arrangements. [Profile](../culture/osha/prathamastami.md).

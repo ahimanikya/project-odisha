@@ -45,3 +45,11 @@ The menu’s Habisa Dalma uses moong, raw banana, arbi and elephant apple. [Chef
 **Still to verify:** Validate ritual/household distinctions; the restaurant version is not proof of temple practice. Odia and local review remain pending.
 
 [Preparation collection](preparation-and-variation.md) — Compare techniques and attributed versions across the existing food entries.
+
+## 2026-10-08 · Rai Damodara and seasonal food
+
+[Rai Damodara Brata](../culture/osha/rai-damodara-brata.md). Rai Damodara’s Kartika context connects to an attributed Habisha Dalma preparation; the association does not establish a universal recipe or current menu.
+
+## 2026-10-08 · An attributed Habisha preparation
+
+The [Visit Bhubaneswar description](https://visit.bhubaneswar.me/taste/eat-exclusive/odia-cuisine) is linked in the Rai Damodara profile with its ingredient and technique scope. It supplements the saved2019 chef-menu account without turning either account into a universal household rule. Current menus remain unverified.

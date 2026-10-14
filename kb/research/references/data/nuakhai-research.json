@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "task_id": "RES-077",
+  "batch_id": "OSHA-B04",
+  "checked_at": "2026-10-07T13:10:57.095833+00:00",
+  "source_checks": [
+    {
+      "source_id": "osha-nuakhai-singh2012",
+      "url": "https://magazines.odisha.gov.in/Orissareview/2012/sep/engpdf/24-26.pdf",
+      "checked_at": "2026-10-07T13:10:57.095833+00:00",
+      "status": "available",
+      "locator": "Printed pp.23–25 / PDF pp.1–3; URL filename 24-26 does not match printed pagination",
+      "scope": "Authored cultural essay, author credited as Curator-in-Charge, Archaeology Section, Odisha State Museum. Original three-page publisher PDF inspected. Oral origin tradition and uninspected 1991-order assertion remain attributed, not established chronology; meal lists do not establish a universal recipe or current venue.",
+      "method": "Web timed out; shell TLS certificate expired. Recovered with one-request curl certificate exception; no persistent security configuration changed."
+    }
+  ],
+  "failed_fetches": [
+    {
+      "url": "https://magazines.odisha.gov.in/Orissareview/2012/sep/engpdf/24-26.pdf",
+      "status": "unavailable",
+      "checked_at": "2026-10-07T13:10:57.095833+00:00",
+      "error": "Web timeout; normal TLS shell fetch failed due to expired certificate. Separate one-request certificate-exception download succeeded."
+    },
+    {
+      "url": "https://utsav.gov.in/view-event/nuakhai",
+      "status": "unavailable",
+      "checked_at": "2026-10-07T13:10:57.095833+00:00",
+      "error": "Web timeout; indexed summary not adopted."
+    },
+    {
+      "url": "https://efcsindia.in/EasternAnthropologist/EA%2077-3%264/13-Nibedita%20Nath.pdf",
+      "status": "unavailable",
+      "checked_at": "2026-10-07T13:10:57.095833+00:00",
+      "error": "Web502BadGateway; indexed bibliography only; full article not read."
+    }
+  ],
+  "source_reuse": [
+    {
+      "source_id": "osha-kesavan-jiuntia",
+      "locator": "Printed28–31 / PDF14–17",
+      "capture_scope": "saved_local_original"
+    },
+    {
+      "source_id": "osha-mahanti",
+      "locator": "Printed121–122 / PDF137–138",
+      "capture_scope": "saved_local_original"
+    },
+    {
+      "path": "culture/ghumura.md",
+      "capture_scope": "saved institutional association"
+    },
+    {
+      "path": "kb/research/product/destination-and-tour-book.md",
+      "capture_scope": "repository-native product requirements; not operating evidence"
+    }
+  ],
+  "pdf_capture": {
+    "path": "work/osha-nuakhai/review2012.pdf",
+    "sha256": "e3373369af2a1fb9c60950f3ed96ebc67172e4466c97dc2d4a10dc5fbcb3dabd",
+    "pages": 3,
+    "printed_pages": "23–25",
+    "url_filename_pages": "24-26",
+    "page_numbers_visually_checked": true
+  },
+  "history_claims": [
+    {
+      "claim": "Ramai Dev adoption",
+      "status": "attributed_oral_tradition",
+      "source_id": "osha-nuakhai-singh2012",
+      "locator": "pp.23–24",
+      "earliest_origin_established": false,
+      "followup": "F.Deo, Chauhan Myth and Royal Legitimation in Koshala,2003,pp.96–100; cited but not inspected"
+    },
+    {
+      "claim": "1991 common-day order",
+      "status": "secondary_report_original_order_unrecovered",
+      "source_ids": [
+        "osha-nuakhai-singh2012",
+        "osha-mahanti"
+      ],
+      "document_number": null,
+      "retry_after": "2026-10-14"
+    },
+    {
+      "claim": "Vedic crop-offering lineage",
+      "status": "interpretive_comparison_not_dated_origin",
+      "source_id": "osha-mahanti"
+    }
+  ],
+  "food_scope": "Source-specific offerings and meal components; no universal menu or tested recipe.",
+  "privacy": "Do not geolocate the ethnographic pseudonym.",
+  "fieldwork_conducted": false,
+  "human_review_claimed": false,
+  "annual_date": null,
+  "origin_date": null,
+  "leads": [
+    {
+      "url": "https://efcsindia.in/EasternAnthropologist/EA%2077-3%264/13-Nibedita%20Nath.pdf",
+      "status": "unavailable",
+      "retry_after": "2026-10-14",
+      "scope": "Original article may extend modern identity history; no full-text findings adopted."
+    }
+  ]
+}

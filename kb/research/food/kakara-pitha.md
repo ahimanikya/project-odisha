@@ -51,3 +51,14 @@ Wheat flour or semolina and a sweet coconut filling are alternatives in the teac
 This fried kakara combines rice and refined wheat flour around a sweet coconut filling. [Traditional Rice Foods: The Rich Heritage of India — Lipi Das](https://icar-crri.in/wp-content/uploads/2023/05/final_book_ldas.pdf), Printed p.21 / PDF p.32. Lipi Das, ICAR-CRRI, 2015 compilation; an Odisha-labelled version, not a tested recipe or district prevalence measure.
 
 **Remaining question:** Retain the rice/wheat and semolina versions without inventing their district distribution. Local/Odia review remains pending.
+
+## Observance reading
+
+[Osha and food culture](../culture/osha-brata-seasonal-food.md) links the preparation to source-attributed observances; it does not establish one universal ritual recipe.
+
+
+## 2026-10-10 · Budhei offering association
+
+Pradhan’s dated Bolagarh report names Kakara among Budhei offerings; it does not give a recipe. Existing Tourism, university and CRRI versions remain general preparation accounts, not the identified ritual version.
+
+[Related reading](../culture/osha/budhei.md) — A dated local report names Kakara as a Budhei offering; general preparation versions do not establish the ritual recipe or a serving venue.
