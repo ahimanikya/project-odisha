@@ -3,7 +3,7 @@
   "human_authority": "Ahimanikya Satapathy",
   "authorization": "Can we move to projectodisha.org and forward utkalproject.org to it?",
   "scope": "Move canonical website domain, deploy updated links, configure GoDaddy DNS and permanent forwarding. Preserve routes, publication selection, historical evidence and unrelated DNS.",
-  "status": "prepared",
+  "status": "applied_redirect_propagation_pending",
   "from": "https://utkalproject.org",
   "to": "https://projectodisha.org",
   "verification": {
@@ -13,5 +13,96 @@
     "register_and_bundle": "passed",
     "live": "pending"
   },
-  "rollback": "Restore GitHub Pages cname utkalproject.org, its four GitHub A records and www CNAME ahimanikya.github.io; revert website origin commit."
+  "rollback": "Restore GitHub Pages cname utkalproject.org, its four GitHub A records and www CNAME ahimanikya.github.io; revert website origin commit.",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/239",
+  "deployment": "https://github.com/ahimanikya/utkal-project/actions/runs/38585770753",
+  "github_pages": {
+    "url": "https://api.github.com/repos/ahimanikya/utkal-project/pages",
+    "status": null,
+    "cname": "projectodisha.org",
+    "custom_404": false,
+    "html_url": "https://projectodisha.org/",
+    "build_type": "workflow",
+    "source": {
+      "branch": "main",
+      "path": "/"
+    },
+    "public": true,
+    "protected_domain_state": null,
+    "pending_domain_unverified_at": null,
+    "https_certificate": {
+      "state": "approved",
+      "description": "The certificate has been approved.",
+      "domains": [
+        "projectodisha.org",
+        "www.projectodisha.org"
+      ],
+      "expires_at": "2027-01-12"
+    },
+    "https_enforced": true
+  },
+  "dns": {
+    "projectodisha.org": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "www.projectodisha.org": "ahimanikya.github.io",
+    "old_domain_authoritative_A": [
+      "15.197.142.173",
+      "3.33.152.147"
+    ]
+  },
+  "forwarding": {
+    "utkalproject.org": {
+      "destination": "https://projectodisha.org",
+      "type": 301,
+      "saved": true
+    },
+    "www.utkalproject.org": {
+      "destination": "https://projectodisha.org",
+      "type": 301,
+      "saved": true
+    }
+  },
+  "live_checks": [
+    {
+      "url": "https://projectodisha.org/",
+      "status": 200,
+      "final": "https://projectodisha.org/"
+    },
+    {
+      "url": "https://projectodisha.org/events/arts-literature/",
+      "status": 200,
+      "final": "https://projectodisha.org/events/arts-literature/"
+    },
+    {
+      "url": "https://projectodisha.org/opportunities/",
+      "status": 200,
+      "final": "https://projectodisha.org/opportunities/"
+    },
+    {
+      "url": "https://www.projectodisha.org/",
+      "status": 200,
+      "final": "https://projectodisha.org/"
+    },
+    {
+      "url": "http://utkalproject.org/events/arts-literature/?migration=check",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://utkalproject.org/events/arts-literature/?migration=check",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.utkalproject.org/events/arts-literature/",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "outstanding": [
+    "Verify old-domain root and nested-path redirects after GoDaddy DNS and HTTPS provisioning. Initial cached requests still reached GitHub 404; authoritative GoDaddy endpoint had not begun redirecting.",
+    "Visible Utkal branding remains; this release changes domain, not visual identity."
+  ],
+  "checked_at": "2026-10-14T15:10:36.710983+00:00"
 }
