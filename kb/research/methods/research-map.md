@@ -443,3 +443,7 @@ Sounds of Odisha now connects the [collection outline](../culture/sounds-of-odis
 ## Craft listening extension · 13 October 2026
 
 [Listening to craft through Kotpad](../culture/craft-listening.md) reuses the existing Kotpad identity, textile report, Dastkari Haat credits and producer catalogue. [Reuse dossier](../sources/craft-listening-research.json) separates documented preparation from a proposed listening enquiry. No duplicate maker, textile or source identity; no acoustic field evidence or media acquired.
+
+### Chilika listening extension · 13 October 2026
+
+Added a [natural-listening article](../culture/chilika-listening.md) and [source dossier](../sources/chilika-listening-research.json), reusing existing Chilika and Mangalajodi place identities. General birding ethics remains distinct from local rules; no field recording or species-call identification is claimed.

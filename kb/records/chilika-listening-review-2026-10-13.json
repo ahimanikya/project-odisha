@@ -1,0 +1,38 @@
+{
+  "recorded_at": "2026-10-13T23:38:10.108219+00:00",
+  "reviewed_on": "2026-10-13",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "status": "pass_with_limitations",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-081",
+  "work_id": "UTP-WORK-269",
+  "verification": {
+    "source_review": "Full CDA, Incredible India and ABA text inspected; claim mapping in source dossier. Excluded undated wildlife counts, old restoration statistics, Mangalajodi dolphin/crocodile assertions and current service claims. No-playback exercise identified as editorial advice, not a local ban.",
+    "prose": "Imagined opening, dated/site-specific observation prompts, no reported acoustic sequence. Public narrative and KB contain the same14 paragraphs.",
+    "local_checks": "Public edition built; all113 coast tests passed. Bundle, map and programme checks pass; mapped inventory1322.",
+    "visual": {
+      "desktop": "1280px viewport and document widths equal; heading and three-part listening panel inspected.",
+      "mobile": "390x844 viewport; heading/panel/source text fit390px document. Source disclosure expands using Enter; visible focus and readable source links.",
+      "keyboard": "Source disclosure toggles with Enter. Back-to-top Enter navigates to #page-top.",
+      "environment_note": "Previous in-app browser ID3 unavailable after session change; inventory identified same in-app browser asID5."
+    }
+  },
+  "limitations": [
+    "Same-assistant desk review; local naturalist and acoustic-context review remain open.",
+    "No actual recording, species-call identification, visit or current operator availability claimed.",
+    "Eight chapters and eleven external-search routes retained."
+  ],
+  "recovery_note": "Review records saved on14 October after interrupted command. No commit or PR had been created by the interrupted call.",
+  "integration_review": {
+    "recorded_at": "2026-10-14T20:38:46.679594+00:00",
+    "upstream": "8fca2937",
+    "checks": "Full build and 520 tests; rebuilt coastal edition and all116 tests; publication build passes with eleven indexable routes. Bundle, map and programme checks pass.",
+    "visual": "Integrated preview inspected in browser at1280px: Project Odisha branding, title, reading panel and narrative render. Prior mobile/keyboard checks retained; article layout unchanged.",
+    "recovery": "Initial publication attempt used stale coastal output and failed safely. Rebuilt coastal edition, reran116 tests and publication successfully.",
+    "scope": "Merged concurrent calendar, Nimuhi, domain and brand updates without discarding their records."
+  }
+}

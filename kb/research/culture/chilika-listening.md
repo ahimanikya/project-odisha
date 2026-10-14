@@ -1,0 +1,57 @@
+---
+type: "Nature Listening Story"
+title: "Listening to Chilika"
+description: "Mangalajodi wetland context and a careful listening invitation."
+status: "public_editorial_preview"
+generated: {"by": "Current AI assistant", "at": "2026-10-13T15:55:28.017037+00:00"}
+sources: [{"id": "cda", "title": "Visit Chilika — Chilika Development Authority", "resource": "https://www.chilika.com/visit-chilika.php", "locator": "Opening ecological and livelihood description. Historical restoration account is not a current population or service report."}, {"id": "mangalajodi-visit", "title": "Mangalajodi — Incredible India", "resource": "https://www.incredibleindia.gov.in/en/odisha/bhubaneswar/mangalajodi", "locator": "Ecological significance, Birdwatching opportunities and Sustainable tourism initiatives sections; local conditions need confirmation."}, {"id": "aba-birding-ethics", "title": "Code of Birding Ethics — American Birding Association", "resource": "https://www.aba.org/aba-code-of-birding-ethics/", "locator": "Sections 1(b), 1(c) and 3; general conduct guidance, not Odisha regulation."}]
+human_review_claimed: false
+---
+
+# Listening to Chilika
+
+Imagine arriving at Mangalajodi with a camera ready, then leaving it in your bag for a minute. From a place your guide has chosen, give the wetland your attention. If a sound catches your ear, follow it with a question before reaching for a name.
+
+This is one way into the natural sounds of Odisha: begin with a particular place, a date and the people who can help you understand it. A listening visit becomes more interesting when you leave room for something you cannot yet identify.
+
+## A lagoon with many settings
+
+Chilika is a brackish-water lagoon on Odisha’s coast. The Chilika Development Authority describes an environment where fresh, brackish and marine waters meet, supporting birds and fishing livelihoods. Its landscape asks us to be specific: a note from one bank or channel belongs to that setting, rather than standing for the whole lagoon.
+
+Incredible India’s Mangalajodi guide describes reed beds and shallow water used by resident and migratory birds. It identifies November–February as the winter birdwatching period. Treat those months as a planning lead and check conditions locally; they cannot promise a particular bird or call on your visit.
+
+Write the place and time before the sound. Were you at a bank or in a boat? What could you see? A few plain details make a memory easier to revisit than a confident label added afterwards.
+
+## Listen with the people who know the place
+
+Mangalajodi’s tourism account also connects birdwatching with community conservation. That gives a visitor a better starting question than asking only where the birds are: what does caring for this place involve?
+
+If a local guide welcomes questions, ask how they distinguish a call from another sound nearby, and what they use to confirm an identification. Keep the name they give you beside their explanation. If they are uncertain, preserve that uncertainty too.
+
+Remember that the wetland is also a place of work. Agree the route, time and fee before setting out, follow local access directions, and ask before photographing or recording people. A boat passing through your view has its own purpose.
+
+## Leave room for the birds
+
+The American Birding Association’s ethics code advises restraint around feeding, nesting and roosting birds, limits on using recordings to attract them, and care when approaching or recording. This is general birding guidance; local site rules still govern a visit to Chilika.
+
+For this listening exercise, keep bird-call playback off. Let the guide choose a suitable distance and keep your voice low. The aim is to notice what happens without trying to produce a response for a photograph or a recording.
+
+You can listen well without collecting a clip. If a sound remains unfamiliar, a short written description and an unanswered question are enough.
+
+## Bring home a question
+
+Try a small notebook exercise from a safe, permitted stopping point. For a brief interval, note what you hear, where you think it comes from and what remains uncertain. Possible categories include birds, water, vegetation, voices or boats; leave any category blank if you did not hear it.
+
+Then ask your guide about one observation. Keep your description separate from their explanation, and credit them as they prefer. These notes describe your encounter at that time; they are not a survey of the wetland.
+
+When you return, choose one detail to tell someone: the question you asked, an identification you learned, or something you still hope to understand. Chilika can remain a place worth returning to without every sound having a name.
+
+[Continue with the Chilika guide](../destinations/chilika.json) · [Sounds of Odisha](sounds-of-odisha.md) · [Claim and source dossier](../sources/chilika-listening-research.json).
+
+## Sources and reading notes
+
+- [Visit Chilika — Chilika Development Authority](https://www.chilika.com/visit-chilika.php) — Opening ecological and livelihood description. Historical restoration account is not a current population or service report.
+- [Mangalajodi — Incredible India](https://www.incredibleindia.gov.in/en/odisha/bhubaneswar/mangalajodi) — Ecological significance, Birdwatching opportunities and Sustainable tourism initiatives sections; local conditions need confirmation.
+- [Code of Birding Ethics — American Birding Association](https://www.aba.org/aba-code-of-birding-ethics/) — Sections 1(b), 1(c) and 3; general conduct guidance, not Odisha regulation.
+
+Source passages inspected 13 October 2026. No field recording, observed sound sequence or interview is presented. Local naturalist review remains open.

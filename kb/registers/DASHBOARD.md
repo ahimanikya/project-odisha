@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `116ddf11262ca7d6f055523797fb5c9e9f1ebe538da02ebe0cd5ebd0c830660d`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `721287913fb03eaa13753fd59d787ad6fbec509c8676a59a322cd4d50e7b4d37`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -279,6 +279,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-266 · Research Odisha boat and fishing songs | blocked | draft | Ahimanikya Satapathy | Await readable primary source passages; do not repeat unavailable searches without a new access path. Independent craft-listening article selected under WORK267. | Full official source passages unavailable in this batch: timeout, expired certificate and DNS/502 failures. Search excerpts remain leads only. |
 | UTP-WORK-267 · Listening to craft through Kotpad | completed | applied | Ahimanikya Satapathy | Website further-reading adaptation delivered under WORK268; practitioner acoustic evidence remains open. | — |
 | UTP-WORK-268 · Publish craft-listening reader story | completed | applied | Ahimanikya Satapathy | Continue independent research; practitioner and acoustic documentation remain open. | — |
+| UTP-WORK-269 · Research and publish Chilika listening story | in_progress | reviewed | Ahimanikya Satapathy | Pass reviewed-commit PR checks, publish main workflow and save live receipt. | — |
 
 ## Pending human review and decisions
 
@@ -805,6 +806,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-233 | pass_with_limitations | False | Existing source review reused; current assistant is not an independent Odia literary or family reviewer.; No family testimony, audio, image or verse translation added.; Further reading remains outside the eight-chapter trail and eleven-route external search selection. |
 | UTP-REV-234 | pass_with_limitations | False | No fresh source fetch, acoustic evidence, maker testimony, media reuse or independent human review.; Catalogue date refers to the film, not a textile origin or current screening.; Website adaptation pending. |
 | UTP-REV-235 | pass_with_limitations | False | Same-assistant review; practitioner and acoustic-context review open.; No audio, media reuse, field visit or workshop availability claim.; Separate further reading; eight chapters and eleven external-search routes retained. |
+| UTP-REV-236 | pass_with_limitations | False | Same-assistant desk review; local naturalist and acoustic-context review remain open.; No actual recording, species-call identification, visit or current operator availability claimed.; Eight chapters and eleven external-search routes retained. |
 
 ## Publication and application history
 
@@ -956,8 +958,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-419 | 2026-10-13T02:38:07.604694+00:00 | Selected public adaptation of reviewed craft-listening article with collection and Explore discovery. | — |
 | UTP-EVT-420 | 2026-10-13T07:03:39.954902+00:00 | Published craft-listening article through checked PR228 and approved main workflow; live content and discovery verified. Programme 79/500. | — |
+| UTP-EVT-421 | 2026-10-13T15:25:50.008459+00:00 | Selected natural soundscapes gap with Chilika reuse; one combined KB research and website delivery. No acoustic field evidence claimed. | — |
 | UTP-EVT-2026101401 | 2026-10-14T06:00:00Z | Prepared 33 source-linked Odisha arts and literature calendar entries within user-requested scope, distinguishing announced, reported, awaiting dates and past editions. | — |
 | UTP-EVT-2026101402 | 2026-10-14T05:53:29.329065+00:00 | Expanded calendar to 37 entries; 520 full and 113 coastal tests pass. Publication build and browser filtering/mobile checks pass. | — |
 | UTP-EVT-2026101403 | 2026-10-14T07:20:30.959091+00:00 | Second calendar pass verified UNURUM dates from university-linked Instagram; updated latest KLF dates with discrepancy retained, recovered OALF and two past Toshali ranges, clarified Utsha application status. | — |

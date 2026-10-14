@@ -1,3 +1,4 @@
+import chilikaListening from '../../../../kb/research/culture/chilika-listening-website.json';
 import craftListening from '../../../../kb/research/culture/craft-listening-website.json';
 import lullabies from '../../../../kb/research/culture/odia-lullabies-website.json';
 import config from '../../../../kb/research/product/sounds-discovery.json';
@@ -13,7 +14,7 @@ import dhemsa from '../../../../kb/research/culture/dhemsa-website.json';
 import gotipua from '../../../../kb/research/culture/gotipua-website.json';
 import notebook from '../../../../kb/research/culture/listening-notebook.json';
 
-const stories = {'craft-listening': craftListening, 'odia-lullabies': lullabies, 'collection': collection, 'huluhuli': huluhuli, 'sankha': sankha, 'mardala': mardala, 'dalkhai': dalkhai, 'daskathia': daskathia, 'ghanta-ghanti': ghanta_ghanti, 'pala': pala, 'dhemsa': dhemsa, 'gotipua': gotipua, 'notebook': notebook};
+const stories = {'chilika-listening': chilikaListening, 'craft-listening': craftListening, 'odia-lullabies': lullabies, 'collection': collection, 'huluhuli': huluhuli, 'sankha': sankha, 'mardala': mardala, 'dalkhai': dalkhai, 'daskathia': daskathia, 'ghanta-ghanti': ghanta_ghanti, 'pala': pala, 'dhemsa': dhemsa, 'gotipua': gotipua, 'notebook': notebook};
 // Read titles and introductions from the published story records.
 export const soundDiscoveryEntries = config.entries.map(entry => ({
  label: stories[entry.id].title, dek: stories[entry.id].lead,

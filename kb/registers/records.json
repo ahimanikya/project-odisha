@@ -7606,6 +7606,28 @@
         "records/craft-listening-website-publication-2026-10-13.json"
       ],
       "acceptance_criteria": "Publish the complete reviewed craft-listening article as Sounds of Odisha further reading, with Kotpad, collection and listening-notebook links and internal Explore discovery. Preserve imagined opening, documented preparation/credits/catalogue scope and absence of acoustic field evidence. Keep eight chapters and eleven external-search routes. Verify full text and sources, public link targets, distinct search result, noindex and desktop/mobile/keyboard reading. Pass reviewed-commit PR checks, approved main publish workflow and actual live checks; save receipt before counting."
+    },
+    {
+      "id": "UTP-WORK-269",
+      "title": "Research and publish Chilika listening story",
+      "category": "website_and_knowledge",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Pass reviewed-commit PR checks, publish main workflow and save live receipt.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "research/culture/chilika-listening.md",
+        "research/culture/chilika-listening-website.json",
+        "research/sources/chilika-listening-research.json",
+        "records/chilika-listening-review-2026-10-13.json"
+      ],
+      "acceptance_criteria": "Research and publish a distinct Sounds of Odisha further-reading article about listening at Chilika and Mangalajodi. Reuse the existing destination knowledge and inspect authoritative natural-history and low-disturbance visiting guidance for missing context. Separate a suggested listening exercise from observed sound or identified calls; no invented recording, species encounter, testimony, current operator or guaranteed season. Save KB narrative and claim/source dossier, connect collection and Explore without changing eight chapters or eleven search-eligible routes. Review source scope and prose, test full rendered text/links/search/noindex, inspect desktop/mobile and keyboard access, pass reviewed-head PR checks, publish approved main workflow and verify live outputs. Save publication receipt before counting this single combined research-and-publication item."
     }
   ],
   "decisions": [
@@ -17613,6 +17635,27 @@
         "Same-assistant review; practitioner and acoustic-context review open.",
         "No audio, media reuse, field visit or workshop availability claim.",
         "Separate further reading; eight chapters and eleven external-search routes retained."
+      ]
+    },
+    {
+      "id": "UTP-REV-236",
+      "title": "Chilika listening article and website review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-269"
+      ],
+      "evidence": [
+        "records/chilika-listening-review-2026-10-13.json"
+      ],
+      "limitations": [
+        "Same-assistant desk review; local naturalist and acoustic-context review remain open.",
+        "No actual recording, species-call identification, visit or current operator availability claimed.",
+        "Eight chapters and eleven external-search routes retained."
       ]
     }
   ],
