@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `195cf0b02a38f2ceae74bebb2f021796f3c0ba61ca0d4bb179ca7756b2bdff9f`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `4a9b6cdd49987685d1d70c75670e81b25dac9da978a65d73e9ea851ee66d7be9`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -280,6 +280,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-267 · Listening to craft through Kotpad | completed | applied | Ahimanikya Satapathy | Website further-reading adaptation delivered under WORK268; practitioner acoustic evidence remains open. | — |
 | UTP-WORK-268 · Publish craft-listening reader story | completed | applied | Ahimanikya Satapathy | Continue independent research; practitioner and acoustic documentation remain open. | — |
 | UTP-WORK-269 · Research and publish Chilika listening story | completed | applied | Ahimanikya Satapathy | Continue independent research; local naturalist and acoustic documentation remain open. | — |
+| UTP-WORK-270 · Connect Nimuhi literary story to Explore | in_progress | reviewed | Ahimanikya Satapathy | Implement internal discovery, test and publish with live receipt. | — |
 
 ## Pending human review and decisions
 
@@ -807,6 +808,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-234 | pass_with_limitations | False | No fresh source fetch, acoustic evidence, maker testimony, media reuse or independent human review.; Catalogue date refers to the film, not a textile origin or current screening.; Website adaptation pending. |
 | UTP-REV-235 | pass_with_limitations | False | Same-assistant review; practitioner and acoustic-context review open.; No audio, media reuse, field visit or workshop availability claim.; Separate further reading; eight chapters and eleven external-search routes retained. |
 | UTP-REV-236 | pass_with_limitations | False | Same-assistant desk review; local naturalist and acoustic-context review remain open.; No actual recording, species-call identification, visit or current operator availability claimed.; Eight chapters and eleven external-search routes retained. |
+| UTP-REV-237 | pass_with_limitations | False | Same-assistant review of navigation and reused copy; no new historical or field validation.; External indexing remains held for the existing article. |
 
 ## Publication and application history
 
@@ -959,7 +961,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-421 | 2026-10-13T15:25:50.008459+00:00 | Selected natural soundscapes gap with Chilika reuse; one combined KB research and website delivery. No acoustic field evidence claimed. | — |
 | UTP-EVT-2026101401 | 2026-10-14T06:00:00Z | Prepared 33 source-linked Odisha arts and literature calendar entries within user-requested scope, distinguishing announced, reported, awaiting dates and past editions. | — |
 | UTP-EVT-2026101402 | 2026-10-14T05:53:29.329065+00:00 | Expanded calendar to 37 entries; 520 full and 113 coastal tests pass. Publication build and browser filtering/mobile checks pass. | — |
 | UTP-EVT-2026101403 | 2026-10-14T07:20:30.959091+00:00 | Second calendar pass verified UNURUM dates from university-linked Instagram; updated latest KLF dates with discrepancy retained, recovered OALF and two past Toshali ranges, clarified Utsha application status. | — |
@@ -969,6 +970,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101422 | 2026-10-14T15:15:47.256907+00:00 | Applied approved Project Odisha naming and homepage tagline to live website sources; historical evidence retained. | — |
 | UTP-EVT-2026101423 | 2026-10-14T16:24:16.524442+00:00 | Renamed GitHub repository to project-odisha and prepared active-reference cleanup under Founder approval. Historical evidence preserved. | — |
 | UTP-EVT-422 | 2026-10-14T20:52:35.367545+00:00 | Published Chilika listening article on Project Odisha through checked PR229 and approved main workflow. KB/source dossier and public story count once; programme 80/500. | — |
+| UTP-EVT-423 | 2026-10-14T21:16:45.043185+00:00 | Published Nimuhi route is absent from Explore source and103 rendered cards. Selected one bounded internal discovery improvement; reuse article, no new historical research. | — |
 
 ## Deferred extensions
 
