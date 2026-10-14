@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `fdc076bc43593f22a3cd59c94f99a89c72b35052b9d01bf22397abdb978523a2`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `eb828e01bb35620ec31909a9f5a3fe76e02e13911e55a45c8e36903593856d34`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -276,7 +276,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-263 · Sounds of Odisha internal collection discovery | completed | applied | Ahimanikya Satapathy | Sounds collection and full reader stories are now searchable in Explore. Continue the next eligible evidence gap. | — |
 | UTP-WORK-264 · Odia lullabies and childhood song research | completed | applied | Ahimanikya Satapathy | Adapt the delivered reader narrative for the website in a separate substantive item; edition, attribution and family testimony remain research follow-ups. | — |
 | UTP-WORK-265 · Odia lullabies website publication | completed | applied | Ahimanikya Satapathy | Continue independent research; literary and family-context review remain open. | — |
-| UTP-WORK-266 · Research Odisha boat and fishing songs | blocked | draft | Ahimanikya Satapathy | Await readable primary source passages; do not repeat unavailable searches without a new access path. Independent craft-listening article selected under WORK267. | Full official source passages unavailable in this batch: timeout, expired certificate and DNS/502 failures. Search excerpts remain leads only. |
+| UTP-WORK-266 · Research Odisha boat and fishing songs | in_progress | draft | Ahimanikya Satapathy | Complete factual, rendering and publication checks for the resumed KB and website delivery. | — |
 | UTP-WORK-267 · Listening to craft through Kotpad | completed | applied | Ahimanikya Satapathy | Website further-reading adaptation delivered under WORK268; practitioner acoustic evidence remains open. | — |
 | UTP-WORK-268 · Publish craft-listening reader story | completed | applied | Ahimanikya Satapathy | Continue independent research; practitioner and acoustic documentation remain open. | — |
 | UTP-WORK-269 · Research and publish Chilika listening story | completed | applied | Ahimanikya Satapathy | Continue independent research; local naturalist and acoustic documentation remain open. | — |
@@ -815,6 +815,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-237 | pass_with_limitations | False | Same-assistant review of navigation and reused copy; no new historical or field validation.; External indexing remains held for the existing article. |
 | UTP-REV-2026100701 | pass_with_limitations | False | Five narrative checkpoints and seven early notes; statewide coverage and histories remain incomplete.; No human factual/Odia review or local interviews claimed.; Current event dates and serving venues unverified.; Website candidate not merged or published. |
 | UTP-REV-238 | pass_with_limitations | False | Specialist review and current field confirmations remain open.; Boat/fishing-song manuscript remains blocked for lack of adequate retrieved evidence.; Search-index eligibility remains eleven routes.; This direct Founder publication batch is not counted as 169 autonomous tasks; programme count remains unchanged. |
+| UTP-REV-239 | pass_with_limitations | False | Same-assistant desk review only; practitioner and local terminology review remain open.; PDF text was readable through web extraction; screenshot attempts failed. No visual PDF inspection or local capture claimed.; No field recording or ancient transmission established. Eight main chapters and eleven external-search routes retained. |
 
 ## Publication and application history
 
@@ -969,7 +970,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101005 | 2026-10-10T22:24:23.846715+00:00 | Dutiya narrative and Ghanta food evidence prepared for existing draft review branch.53 profiles; no merge or publication. | Dutiya offering and Ghanta food account reconciled into the existing 53-profile draft. Full katha and dated historical origins remain unresolved; preserve source-specific regional and food differences and17October retry. Deepen Budhei (OSHA-005) next using saved records first. Source workspace remains scheduling authority; all14–17October holds remain. No current serving offer or publication inferred. |
 | UTP-EVT-2026101006 | 2026-10-11T02:16:32.072202+00:00 | Budhei narrative and Kakara food evidence prepared for existing draft review branch.53 profiles; no merge or publication. | Budhei coconut sequence, attributed story strands and dated Kakara offering association reconciled into the existing53-profile draft. Full original katha, manuscript dates and local recipes remain open for17October. Deepen Alana (OSHA-006) next using saved records first. Source workspace remains scheduling authority; all14–17October holds preserved. No public food offer or publication inferred. |
 | UTP-EVT-2026101109 | 2026-10-11T04:45:31.111551+00:00 | Alana modern narrative, distinct food roles and held calendar prepared for existing draft review branch.53 profiles; no merge or publication. | Deepen Kanji Anla OSHA-007 using saved records first; retain Alana, Kanji Anla and Anla Navami as distinct identities. Alana modern narrative, offering/consumption/story food roles and conflicting Ashwina/Dhanu calendars reconciled into existing draftPR145. Original text lineage, locality and salt/calendar scope retry17October; preserve all14–17October holds. No public release inferred. |
 | UTP-EVT-2026101110 | 2026-10-11T07:02:53.778818+00:00 | Kanji Anla household settings and post-offering food roles reconciled for existing draft review; no publication. | Kanji Anla food roles reconciled into draftPR145. Continue the next eligible existing research-note profile using saved sources first; preserve all14–17October textual, calendar and local-review holds. No publication inferred. |
@@ -979,6 +979,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101116 | 2026-10-11T16:39:59.978800+00:00 | Sudasa supplementary rice/filling and textual offering-distribution instructions reconciled into existing draft; current household practice unknown. | Sudasa supplementary food passages reconciled into draftPR145. Continue the earliest eligible saved-source narrative gap; preserve14–18October textual, calendar and local-review holds. No publication inferred. |
 | UTP-EVT-2026101117 | 2026-10-11T17:40:07.823443+00:00 | Saved Khudurukuni article and Sadhaba study imported as research-only; two profile sections retain print/authorship and food-term uncertainty. | Khudurukuni article and supporting maritime study reconciled as research-only into draftPR145; two profile sections added. Preserve14–18October holds and koeta identity gap. Continue earliest unheld narrative field; no public release inferred. |
 | UTP-EVT-2026101501 | 2026-10-14T22:18:21.066026+00:00 | Published all 39 pending request integrations through PR244. Reading room has 169 sourced notes; Osha collection has 53 profiles. All 226 new routes verified live. Boat-song evidence blocker retained; autonomous programme count unchanged. | Continue useful research without conflating early notes with completed specialist review. |
+| UTP-EVT-2026101502 | 2026-10-14T22:31:44.899834+00:00 | Resumed boat-song item using alternative full-text sources; completed article, source dossier and public adaptation with collection/Explore links. Source, local build, mobile and keyboard checks pass. Publication still pending; count unchanged. | — |
 
 ## Deferred extensions
 
