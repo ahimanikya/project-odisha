@@ -691,3 +691,35 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 4 October 2026 · Mineral works and later evidence
 
 [Research receipt](records/mineral-work-outcomes-2026-10-04.json): RES-055 bounded synthesis complete: original Sujana–Anand abstract and later pilot-facility visit evidence added. Commercial outcomes and identity joins remain unresolved with dated follow-ups. No website release.
+
+## 2 October 2026 · District entrepreneurship research
+
+[Research receipt](records/district-business-opportunities-2026-10-02.json): established an opportunity research layer and portable business-book requirements. Thirty district coverage records, five hypotheses, first Koraput brief; no completed feasibility plans or website release.
+
+## 2 October2026 · Koraput coffee retail research
+
+[Research receipt](records/koraput-coffee-retail-2026-10-02.json): scoped offline resale of sealed packs; captured primary regulatory criteria and state production estimates with supplier/institution limits. No local demand, margins, current premises or completed business plan. No website change.
+
+## 3 October 2026 · Coffee supply and municipal research
+
+[Research receipt](records/koraput-coffee-supply-2026-10-03.json): added a seller pack comparator and scoped Koraput municipal evidence; rejected an unrelated domain redirect. No local demand, margins, current premises or completed business plan. No website change.
+
+## 3 October 2026 · Bargarh textile service research
+
+[Research receipt](records/bargarh-catalogue-service-2026-10-03.json): added original buyer specifications, producer routes and scoped Bargarh municipal evidence. Local customers, prices, permissions and returns remain unknown. No website change.
+
+## 3 October 2026 · Puri service research checkpoint
+
+[Research receipt](records/puri-walk-checkpoint-2026-10-03.json): narrowed a Puri outdoor walking-service model with historical institutional specifications and explicit demand/permission/cost gaps; deferred unavailable coffee originals. No website change.
+
+## 3 October 2026 · Puri training and price research
+
+[Research receipt](records/puri-guide-prices-2026-10-03.json): extended the Puri dossier with national training stages and fee scope, quote-only supplier evidence and an empty-directory check. Local authority and paid-demand gaps remain. No website change.
+
+## 3 October 2026 · Puri permissions and desk milestone
+
+[Research receipt](records/puri-permissions-2026-10-03.json): completed the bounded desk dossier with national recognition criteria and a reused Puri tariff, preserving unknown legal applicability, paid demand and costs. No website change.
+
+## 3 October 2026 · Puri downloadable business starter
+
+[Research receipt](records/puri-starter-guide-2026-10-03.json): created a nine-page guide with 26 blank fields, linked evidence and a manual financial worksheet. Saved and reopened test fields; no website change.

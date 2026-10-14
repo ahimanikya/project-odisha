@@ -35,3 +35,11 @@ Establish farm, community, processing, ownership and sourcing with permission; n
 [Related knowledge](../places/koraput.md) · [Research standards](../about/research-method.md)
 
 [^koraput]: [About Koraput district](https://koraput.odisha.gov.in/en/about-district/about-us)
+
+## Production context and a business research route · 2 October2026
+
+The [Coffee Board table](../sources/coffee-board-production2026.md) reports Odisha production of470MT for2025–26 (final estimate) and550MT for2026–27 (post-blossom estimate). These are state totals, not Koraput-only supply or realised growth. [Sealed-pack retail pilot](../economy/koraput-coffee-retail.md) adds supply leads and business-specific questions. Current supplier availability and commercial outcomes are not established.
+
+## Coffee identity and business evidence · 3 October 2026
+
+The [existing business brief](../economy/koraput-coffee-retail.md) now separates a seller’s pack listing from producer verification and local demand. No new production series or export claim. An unrelated legacy website redirect is excluded from supplier recommendations.

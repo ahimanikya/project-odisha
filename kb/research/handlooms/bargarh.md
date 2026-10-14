@@ -35,3 +35,7 @@ Find a willing workshop and document product, lead time and maker credit.
 [Related knowledge](sambalpuri-bandha.md) · [Research standards](../about/research-method.md)
 
 [^weaving-centres]: [Important handloom centres](https://handloom.odisha.gov.in/en/handloomtab/important-handloom-centers)
+
+## From textiles to service research · 3 October 2026
+
+The [Bargarh catalogue-service dossier](../economy/bargarh-textile-catalogue-service.md) tests an adjacent business question. Institutional procurement history does not establish local fees, demand or agreed maker participation.

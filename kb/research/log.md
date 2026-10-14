@@ -700,3 +700,35 @@ RES-055: added two scientist profiles and one credited English review, with thre
 ## Mineral works and later evidence · 4 October 2026
 
 RES-055 bounded desk synthesis complete. Added a Sujana–Anand experimental paper from its original abstract and a May2026 government facility-tour report. Prior stages unchanged; outcomes and identity joins remain unknown with dated follow-ups.
+
+## 2 October 2026 · District business opportunities
+
+Added a sourced research framework, all30district coverage register, five hypotheses across three pilots, project-book template and PRD0.3.0 with ENT-001–004. RES-063 completed; RES-064 coffee dossier started. Reused district and native tour-book knowledge. GO PLUS manual read; two official portal fetches unavailable. No site, land, revenue, job or loan outcome invented; no website change.
+
+## 2 October2026 · Koraput coffee retail evidence
+
+Narrowed OPP-KOR-001 to offline sealed-pack resale. Captured two state production estimates, primary April2026 retailer thresholds/fees, institution and attributed supplier leads. One seller says website orders will not be considered; three originals remain unavailable. RES-064 continues; private costs and demand remain null.
+
+## Coffee pack, municipal guidance and source reliability · 3 October 2026
+
+Enhanced OPP-KOR-001 with a dated retail offer, municipal document alternatives, a 2023 interface manual and a scoped tariff row. Recovered the oversized tariff via direct download. Preserved unavailable original producer/support routes and excluded an unrelated domain redirect. RES-064 stays in progress; margins remain unknown.
+
+## Bargarh textile service dossier · 3 October 2026
+
+Completed RES-065 bounded desk deliverable using original Boyanika procurement and district producer evidence. Preserved the two tender scopes, municipal tariff uncertainty, conflicting undated population counts and null financials. No interviews, applications, asset licensing or website change.
+
+## Coffee recovery and Puri service checkpoint · 3 October 2026
+
+Original coffee reports could not be recovered; kept candidates and retry dates without adopting sales figures. Advanced independent RES-066 using 2022 OTDC text and a commercial offer, preserving Bhubaneswar/Puri and tender/actual-demand distinctions. No outreach or website publication.
+
+## Puri guide training and public-price research · 3 October 2026
+
+Added official IITF booklet/FAQ and two Puri price-discovery records. Preserved national certification versus local authorization, programme fees versus business costs, and advertised season versus paid demand. Monetary customer prices remain unknown. No outreach or website publication.
+
+## Puri permissions and desk milestone · 3 October 2026
+
+Recovered the NIDHI-linked national recognition original and separated its startup criteria from local licensing. Reused Puri tariff rows; recorded state-form limits and an inaccessible RTI instrument lead. RES-066 desk deliverable completed, without a feasibility, permission or website claim.
+
+## Puri downloadable business starter · 3 October 2026
+
+Created a nine-page source-linked research PDF with 26 blank fillable fields, manual finances and a demand-testing sequence. Reused the existing dossier without new source claims. Rendered pages inspected; populated scratch copy saved/reopened and canonical fields verified. No human review, business approval or website publication.

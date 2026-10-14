@@ -677,3 +677,35 @@ Added Mamata Mohapatra, M.G. Sujana and one selected review after identity searc
 ## Mineral works and later evidence · 4 October 2026
 
 Existing Sujana and IMMT identities enhanced. Original paper abstract and later government release added; no duplicate publication or inferred project-stage overwrite. Bounded map extension only.
+
+## District entrepreneurship · 2 October 2026
+
+RES-063–067 build an opportunity layer over existing districts, coffee/rice, handlooms, homestays and native destination/tour-book records. Three official portal routes recorded, two unavailable after bounded retries. New business hypotheses do not duplicate product identities or establish demand.
+
+## Coffee business checkpoint · 2 October2026
+
+RES-064 narrows existing OPP-KOR-001 and coffee identity. Ten source/lead records and one brief added; state observations stay in the atlas. Coffee Board pages share institutional provenance; FSSAI order/table are related instruments, not independent corroboration. Supplier claims are attributed and maintenance limitation preserved.
+
+## Coffee source extension · 3 October 2026
+
+Eight source/lead identities extend RES-064; the existing coffee and business pages are reused. One SUJOG publication family supplies document, interface and tariff scopes. Seller attribution does not independently verify the producer; the legacy domain is quarantined.
+
+## Bargarh service extension · 3 October 2026
+
+RES-065 reuses handloom/place and SUJOG records. Five new source identities and one dossier; two Boyanika procurement instruments share one buyer. This extends the dated map, not an exhaustive semantic audit.
+
+## Puri and coffee reuse · 3 October 2026
+
+Five source identities and one Puri dossier added; existing guide/operator and native visitor-essential records reused. Indexed coffee report candidates remain held. 2022 OTDC terms are not2023 or current terms.
+
+## Puri certification and offer extension · 3 October 2026
+
+Four source identities added to the existing dossier. National booklet and FAQ share programme provenance; commercial source claims remain attributed. No new business or duplicate supplier recommendation.
+
+## Puri permission layers · 3 October 2026
+
+Three source identities added; SUJOG tariff/docs/manual reused. NIDHI links a recovered 2020 national instrument; its broken Ministry counterpart is the same publication. RTI resolution remains a lead.
+
+## Puri portable guide · 3 October 2026
+
+[The Puri starter guide](../product/puri-business-starter-guide.md) is a derivative of the existing dossier, not a second market study. Its edition manifest reuses source IDs and preserves unresolved viability.

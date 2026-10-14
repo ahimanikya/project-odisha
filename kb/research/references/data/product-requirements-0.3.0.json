@@ -1,0 +1,964 @@
+{
+  "schema_version": "1.0",
+  "prd_version": "0.3.0",
+  "approval_status": "draft_not_formally_approved",
+  "generated_at": "2026-10-02T20:40:37.286473+00:00",
+  "phase_definitions": {
+    "launch": "Initial-scope acceptance requirements",
+    "later": "Planned expansion, not a launch gate",
+    "deferred": "Explicitly held pending readiness/free alternative/new decision"
+  },
+  "basis_definitions": {
+    "user_direction": "Explicit direction preserved from the conversation",
+    "recorded_product_direction": "Established planning direction; not a separately approved full PRD",
+    "existing_project_policy": "Existing evidence/publication requirement",
+    "implementation_proposal": "Proposed acceptance/design detail requiring review"
+  },
+  "requirements": [
+    {
+      "id": "DISC-001",
+      "category": "Discovery",
+      "title": "Navigation and orientation",
+      "phase": "launch",
+      "basis": "implementation_proposal",
+      "requirement": "Offer a broad subject entrance alongside Places, Odisha in Numbers, Stories and Contribute; retain food, handlooms and tourism as featured collections.",
+      "acceptance_criteria": [
+        "A reader can reach a populated health or education page and an economy page through subjects without entering a tourism journey.",
+        "Search, editorial standards and contribution routes remain accessible.",
+        "Empty future collections are not presented as working destinations."
+      ],
+      "owner_role": "Product/editorial",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [],
+      "retired": false
+    },
+    {
+      "id": "DISC-002",
+      "category": "Discovery",
+      "title": "Useful site search",
+      "phase": "launch",
+      "basis": "recorded_product_direction",
+      "requirement": "Search only approved public entries, with type/place/language context and a helpful no-results state.",
+      "acceptance_criteria": [
+        "A known pilot article and a photo caption can be found.",
+        "A no-result query invites a contribution and does not imply the subject does not exist.",
+        "Pending and private records never appear."
+      ],
+      "owner_role": "Engineering",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [
+        "ADR-002",
+        "ADR-003"
+      ],
+      "retired": false
+    },
+    {
+      "id": "DISC-003",
+      "category": "Discovery",
+      "title": "Names and language status",
+      "phase": "launch",
+      "basis": "recorded_product_direction",
+      "requirement": "Support reviewed Odia names, aliases and historic spellings without silently equating distinct places or regions.",
+      "acceptance_criteria": [
+        "Pilot searches cover reviewed English and Odia names and one recorded alias.",
+        "A missing translation is explicitly unavailable, not silently substituted as a reviewed translation."
+      ],
+      "owner_role": "Language/editorial",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [],
+      "retired": false
+    },
+    {
+      "id": "DISC-004",
+      "category": "Discovery",
+      "title": "Connected reading",
+      "phase": "launch",
+      "basis": "implementation_proposal",
+      "requirement": "Connect entries across subjects using stable concept IDs and explain why each related page is useful.",
+      "acceptance_criteria": [
+        "The Painted Streets story links to its place and individual photos.",
+        "A fisheries page can lead to food, exports and coastal nature with the relationship explained; association is not presented as a proved supply chain or cause.",
+        "A health or education explainer connects to another relevant subject without implying causal evidence.",
+        "The same canonical entry is reused across gateways without conflicting copies."
+      ],
+      "owner_role": "Editorial",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [
+        "ADR-001"
+      ],
+      "retired": false
+    },
+    {
+      "id": "DISC-005",
+      "category": "Discovery",
+      "title": "Subject classification and dimensions",
+      "phase": "launch",
+      "basis": "implementation_proposal",
+      "requirement": "Classify canonical knowledge with one primary subject and optional secondary subjects, keeping format, geography, period and evidence state as separate dimensions.",
+      "acceptance_criteria": [
+        "All public subject IDs resolve to stable subject hubs; a record can appear in more than one collection without duplication.",
+        "All atlas topics map to a subject, and related-reading links resolve with an explanation.",
+        "Classification never grants publication approval or changes a source-check date."
+      ],
+      "owner_role": "Editorial/engineering",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.2.0",
+      "adr": [],
+      "retired": false
+    },
+    {
+      "id": "CONT-001",
+      "category": "Content",
+      "title": "Entry structure",
+      "phase": "launch",
+      "basis": "implementation_proposal",
+      "requirement": "Provide an accessible summary, factual context, subject classification, meaningful dates, sources, explained related knowledge and a correction action.",
+      "acceptance_criteria": [
+        "Each pilot entry has the required public fields and no unresolved placeholder presented as a fact.",
+        "Non-tourism pilot pages explain what their facts measure and what they cannot establish."
+      ],
+      "owner_role": "Editorial",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [],
+      "retired": false
+    },
+    {
+      "id": "CONT-002",
+      "category": "Content",
+      "title": "Evidence and uncertainty",
+      "phase": "launch",
+      "basis": "existing_project_policy",
+      "requirement": "Distinguish documented facts, measured data, testimony, folklore, interpretation and announcements.",
+      "acceptance_criteria": [
+        "Material qualifications sit next to the claim.",
+        "A planned project is not labelled operational and an oral account is not labelled independently verified."
+      ],
+      "owner_role": "Editorial",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [],
+      "retired": false
+    },
+    {
+      "id": "CONT-003",
+      "category": "Content",
+      "title": "Citations and credit",
+      "phase": "launch",
+      "basis": "user_direction",
+      "requirement": "Preserve Utkal collection credit and original source, photographer, translator and contributor attribution.",
+      "acceptance_criteria": [
+        "Readers can locate a source and the chosen public photo credit.",
+        "Citation text includes entry identity and revision/date context.",
+        "No human reviewer or institutional endorsement is claimed without evidence."
+      ],
+      "owner_role": "Editorial",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [
+        "ADR-010"
+      ],
+      "retired": false
+    },
+    {
+      "id": "CONT-004",
+      "category": "Content",
+      "title": "Photographic archive",
+      "phase": "launch",
+      "basis": "user_direction",
+      "requirement": "Publish a credited Painted Streets collection and approved individual display images from the existing archive.",
+      "acceptance_criteria": [
+        "A photo has a stable ID, contextual caption, date/location precision, credit and rights state.",
+        "Unknown artist/location remains unknown; unrelated event photos do not appear as mural evidence.",
+        "Private metadata and email details are excluded from display copies and public Git."
+      ],
+      "owner_role": "Media/editorial",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [
+        "ADR-006"
+      ],
+      "retired": false
+    },
+    {
+      "id": "CONT-005",
+      "category": "Content",
+      "title": "Readable data stories",
+      "phase": "launch",
+      "basis": "implementation_proposal",
+      "requirement": "Explain public numbers across the encyclopedia with the measure, unit, period, geography, comparison basis and source.",
+      "acceptance_criteria": [
+        "A pilot data story makes one main takeaway readable and exposes its evidence.",
+        "Health/education and economy reading cases provide concise interpretation and contextual links, with detailed tables available as evidence.",
+        "Downloadable values preserve estimate/provisional labels and do not mix incomparable periods."
+      ],
+      "owner_role": "Research/editorial",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [],
+      "retired": false
+    },
+    {
+      "id": "CONT-006",
+      "category": "Content",
+      "title": "Content freshness",
+      "phase": "launch",
+      "basis": "existing_project_policy",
+      "requirement": "Track source-check, editorial-review and publication dates separately; specify a review trigger for changing information.",
+      "acceptance_criteria": [
+        "Time-sensitive pilot notes carry a dated check or an explicit not-reconfirmed label.",
+        "A machine check does not populate a human-review badge."
+      ],
+      "owner_role": "Editorial",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [
+        "ADR-010"
+      ],
+      "retired": false
+    },
+    {
+      "id": "CONTR-001",
+      "category": "Contribution",
+      "title": "Guest text proposals",
+      "phase": "launch",
+      "basis": "user_direction",
+      "requirement": "Accept corrections or knowledge proposals without requiring a GitHub account.",
+      "acceptance_criteria": [
+        "A guest can submit permitted text fields through the site and receive success only after the save is confirmed.",
+        "Failed or denied saves are visible; retries do not silently create duplicate records."
+      ],
+      "owner_role": "Engineering",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [
+        "ADR-005"
+      ],
+      "retired": false
+    },
+    {
+      "id": "CONTR-002",
+      "category": "Contribution",
+      "title": "Photo contribution path",
+      "phase": "launch",
+      "basis": "user_direction",
+      "requirement": "Receive photographs in the editorial inbox; offer a free relay only after it is activated and tested.",
+      "acceptance_criteria": [
+        "A permitted sample reaches the inbox with caption and credit; otherwise expose direct email as the launch path.",
+        "The form discloses forwarding and publication review; relay acceptance is not described as publication or guaranteed inbox delivery.",
+        "Oversize/failure states offer an email fallback; opening an email draft never produces a sent confirmation."
+      ],
+      "owner_role": "Engineering/editorial",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [
+        "ADR-006"
+      ],
+      "retired": false
+    },
+    {
+      "id": "CONTR-003",
+      "category": "Contribution",
+      "title": "Git contribution route",
+      "phase": "launch",
+      "basis": "user_direction",
+      "requirement": "Provide contribution guidance and a reviewed Git change route, with maintainer permissions reserved for approved collaborators.",
+      "acceptance_criteria": [
+        "A sample public-safe change passes through checks and review before publication.",
+        "The guide explains that public forks may propose changes without collaborator status.",
+        "Untrusted checks cannot access deployment credentials."
+      ],
+      "owner_role": "Maintainer",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [
+        "ADR-001",
+        "ADR-010"
+      ],
+      "retired": false
+    },
+    {
+      "id": "CONTR-004",
+      "category": "Contribution",
+      "title": "Editorial queue",
+      "phase": "launch",
+      "basis": "recorded_product_direction",
+      "requirement": "Track received, triaged, needs-information, accepted, published, rejected and withdrawn outcomes through an appropriate private record.",
+      "acceptance_criteria": [
+        "A test correction can be traced from its intake record to the published concept/revision.",
+        "The inbox is the photo queue; the UI never claims automatic inbox/Firestore synchronisation.",
+        "Accepted does not mean published; rejected material is not sent to public Git."
+      ],
+      "owner_role": "Editorial",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [],
+      "retired": false
+    },
+    {
+      "id": "CONTR-005",
+      "category": "Contribution",
+      "title": "Publication permission",
+      "phase": "launch",
+      "basis": "existing_project_policy",
+      "requirement": "Record contributor-selected credit and permission before publishing submitted material.",
+      "acceptance_criteria": [
+        "An editor can locate permission and credit for each accepted submission.",
+        "A missing right/permission blocks publication without requiring contact/consent text to be public."
+      ],
+      "owner_role": "Editorial",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [],
+      "retired": false
+    },
+    {
+      "id": "CONTR-006",
+      "category": "Contribution",
+      "title": "Corrections and withdrawal requests",
+      "phase": "launch",
+      "basis": "implementation_proposal",
+      "requirement": "Provide a contact route for corrections, credit changes and withdrawal requests, with documented handling.",
+      "acceptance_criteria": [
+        "A correction is recorded against the stable entry ID and material changes have a public revision note.",
+        "Withdrawal handling explains that previously public Git history and third-party copies may persist; do not promise complete erasure."
+      ],
+      "owner_role": "Editorial",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [],
+      "retired": false
+    },
+    {
+      "id": "PUB-001",
+      "category": "Publication",
+      "title": "Explicit publication approval",
+      "phase": "launch",
+      "basis": "existing_project_policy",
+      "requirement": "Approve the exact public content and media revision; research lifecycle status is insufficient.",
+      "acceptance_criteria": [
+        "A content change invalidates its earlier approval.",
+        "A source or media dependency change identifies affected publication approvals.",
+        "Unapproved or blocked items cannot enter a release."
+      ],
+      "owner_role": "Editorial/engineering",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [
+        "ADR-010"
+      ],
+      "retired": false
+    },
+    {
+      "id": "PUB-002",
+      "category": "Publication",
+      "title": "One canonical knowledge collection",
+      "phase": "launch",
+      "basis": "user_direction",
+      "requirement": "Keep the existing OKF concept paths and source records authoritative; generate pages and public tables from them.",
+      "acceptance_criteria": [
+        "One source update yields consistent public outputs.",
+        "Generated JSON/SQLite is reproducible from the reviewed source and is not separately hand-maintained."
+      ],
+      "owner_role": "Maintainer",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [
+        "ADR-001",
+        "ADR-002"
+      ],
+      "retired": false
+    },
+    {
+      "id": "PUB-003",
+      "category": "Publication",
+      "title": "Private-data exclusion",
+      "phase": "launch",
+      "basis": "existing_project_policy",
+      "requirement": "Exclude private contacts, raw proposals, consent and credentials from public Git history and every public export.",
+      "acceptance_criteria": [
+        "Fixtures representing private/draft data are absent from pages, search, downloads, previews and build logs.",
+        "Publication checks inspect the selected repository scope as well as the final website artifact."
+      ],
+      "owner_role": "Engineering",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [
+        "ADR-010"
+      ],
+      "retired": false
+    },
+    {
+      "id": "PUB-004",
+      "category": "Publication",
+      "title": "Release identity and rollback",
+      "phase": "launch",
+      "basis": "implementation_proposal",
+      "requirement": "Publish a complete build with source revision and schema identity; retain a known-good public release.",
+      "acceptance_criteria": [
+        "A failed build leaves the prior release available.",
+        "Rollback restores a known public release and its matching data/search assets.",
+        "Renamed entry IDs resolve through explicit redirects or retirement records."
+      ],
+      "owner_role": "Maintainer",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [],
+      "retired": false
+    },
+    {
+      "id": "SEC-001",
+      "category": "Privacy and access",
+      "title": "Enforced roles",
+      "phase": "launch",
+      "basis": "existing_project_policy",
+      "requirement": "Use Firebase Authentication and Security Rules to restrict user and reviewer data access.",
+      "acceptance_criteria": [
+        "A guest cannot self-approve, grant roles, read another private record or overwrite an approved public record.",
+        "Rules tests cover unauthenticated, contributor and reviewer cases.",
+        "Public client code holds no privileged write or model credential."
+      ],
+      "owner_role": "Engineering",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [
+        "ADR-005"
+      ],
+      "retired": false
+    },
+    {
+      "id": "SEC-002",
+      "category": "Privacy and access",
+      "title": "Data minimisation",
+      "phase": "launch",
+      "basis": "implementation_proposal",
+      "requirement": "Collect only fields needed for review and explain access, use and retention.",
+      "acceptance_criteria": [
+        "Contact/permission fields have a defined private destination.",
+        "Review interfaces avoid raw submission content in telemetry or URLs.",
+        "No living-family/DNA collection is implied by a generic photo or correction form."
+      ],
+      "owner_role": "Product/editorial",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [],
+      "retired": false
+    },
+    {
+      "id": "SEC-003",
+      "category": "Privacy and access",
+      "title": "Honest failure states",
+      "phase": "launch",
+      "basis": "implementation_proposal",
+      "requirement": "Preserve public reading during private service failure and state clearly when a save or send failed.",
+      "acceptance_criteria": [
+        "With Firebase or the relay unavailable, static pages/search still work.",
+        "The contributor receives a retry or alternate-route instruction rather than a false success."
+      ],
+      "owner_role": "Engineering",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [],
+      "retired": false
+    },
+    {
+      "id": "UX-001",
+      "category": "Usability",
+      "title": "Mobile and keyboard access",
+      "phase": "launch",
+      "basis": "implementation_proposal",
+      "requirement": "Make primary reading, search and contribution journeys usable on small screens and by keyboard.",
+      "acceptance_criteria": [
+        "Representative pages at a 360px viewport and enlarged text keep essential controls usable without clipped content.",
+        "Forms have labels, visible focus and accessible error messages; informative photos have meaningful alternative text.",
+        "A keyboard-only tester completes search and a correction journey."
+      ],
+      "owner_role": "Design/engineering",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [],
+      "retired": false
+    },
+    {
+      "id": "UX-002",
+      "category": "Usability",
+      "title": "Lightweight public reading",
+      "phase": "launch",
+      "basis": "implementation_proposal",
+      "requirement": "Deliver static pages and load optimised images and interactive code only as needed.",
+      "acceptance_criteria": [
+        "Ordinary reading/search does not require a Firestore read for each entry.",
+        "Measure pilot page transfer and mobile performance; document image/code reductions before release.",
+        "Avoid automatic loading of full photo originals across the gallery."
+      ],
+      "owner_role": "Engineering",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [
+        "ADR-003",
+        "ADR-004"
+      ],
+      "retired": false
+    },
+    {
+      "id": "MEAS-001",
+      "category": "Measurement",
+      "title": "Consent-aware GA4",
+      "phase": "launch",
+      "basis": "user_direction",
+      "requirement": "Measure approved public interactions only after affirmative analytics consent.",
+      "acceptance_criteria": [
+        "Declining analytics permits reading and contributions and sends no GA requests.",
+        "Accepted-consent tests show one intended event per action with safe parameters.",
+        "Raw searches, emails, family narratives, submission text and private record IDs do not enter GA4."
+      ],
+      "owner_role": "Engineering/product",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [],
+      "retired": false
+    },
+    {
+      "id": "MEAS-002",
+      "category": "Measurement",
+      "title": "Outcome and editorial measures",
+      "phase": "launch",
+      "basis": "recorded_product_direction",
+      "requirement": "Measure useful discovery, source use, corrections, coverage and contribution outcomes without equating traffic to impact.",
+      "acceptance_criteria": [
+        "The measurement register defines each metric and its evidence source.",
+        "Relay acceptance, inbox receipt, editorial acceptance and publication are separate counts.",
+        "Targets remain proposed until a real baseline is measured."
+      ],
+      "owner_role": "Product/editorial",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [],
+      "retired": false
+    },
+    {
+      "id": "OPS-001",
+      "category": "Operations",
+      "title": "Domain and static hosting",
+      "phase": "launch",
+      "basis": "user_direction",
+      "requirement": "Use GitHub Pages with the user-owned domain and HTTPS.",
+      "acceptance_criteria": [
+        "Both chosen domain variants resolve as intended, canonical redirect and HTTPS work, and key deep links survive reload.",
+        "Domain ownership and renewal responsibility are recorded privately."
+      ],
+      "owner_role": "Maintainer",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [
+        "ADR-004"
+      ],
+      "retired": false
+    },
+    {
+      "id": "OPS-002",
+      "category": "Operations",
+      "title": "Free launch services",
+      "phase": "launch",
+      "basis": "user_direction",
+      "requirement": "Stay on Spark and free public hosting/relay allowances; do not enable Blaze or paid AI/backup services for launch.",
+      "acceptance_criteria": [
+        "A launch checklist records active products and confirms no paid feature is required by the delivered flows.",
+        "Quota exhaustion behaviour is documented and tested where practical.",
+        "The budget explicitly excludes domain renewal and existing tools/labour; $0 is conditional on free allowances."
+      ],
+      "owner_role": "Maintainer",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [
+        "ADR-005",
+        "ADR-007",
+        "ADR-008",
+        "ADR-009"
+      ],
+      "retired": false
+    },
+    {
+      "id": "OPS-003",
+      "category": "Operations",
+      "title": "Knowledge maintenance",
+      "phase": "launch",
+      "basis": "existing_project_policy",
+      "requirement": "Reuse the existing KB validators and weekly data-editor process when its remote integration is ready.",
+      "acceptance_criteria": [
+        "A representative update passes structure/source checks and follows publication approval rules.",
+        "No duplicate scheduled editor is created.",
+        "A source refresh does not overwrite historical observations without a documented revision."
+      ],
+      "owner_role": "Research/maintainer",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [],
+      "retired": false
+    },
+    {
+      "id": "HIST-001",
+      "category": "Product governance",
+      "title": "Versioned PRD history",
+      "phase": "launch",
+      "basis": "user_direction",
+      "requirement": "Maintain a current PRD, stable requirement IDs, frozen baselines and an append-only revision register.",
+      "acceptance_criteria": [
+        "The initial snapshot and its requirements snapshot match stored checksums.",
+        "A later change records IDs, rationale, decision basis, scope and approval status without overwriting older baselines.",
+        "Every release can identify the PRD baseline it implements."
+      ],
+      "owner_role": "Product/maintainer",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [],
+      "retired": false
+    },
+    {
+      "id": "GROW-001",
+      "category": "Future",
+      "title": "Heritage and global connections atlas",
+      "phase": "later",
+      "basis": "user_direction",
+      "requirement": "Publish source-qualified historical migration, language, trade, religion, material-culture and diaspora connections.",
+      "acceptance_criteria": [
+        "Each connection exposes subject, relationship, place/period, source and evidence assessment.",
+        "Similarity is not labelled descent or influence; historical boundaries are dated.",
+        "Maps draw routes only when evidence supports routes."
+      ],
+      "owner_role": "Research/editorial",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [],
+      "retired": false
+    },
+    {
+      "id": "GROW-002",
+      "category": "Future",
+      "title": "Consented family histories",
+      "phase": "deferred",
+      "basis": "user_direction",
+      "requirement": "Offer opt-in family/migration intake only after consent, private handling and review are ready.",
+      "acceptance_criteria": [
+        "Participants control permitted public credit and publication scope.",
+        "No ancestry, caste, ethnicity or religion is inferred from surnames; no DNA intake is introduced.",
+        "Private evidence stays outside public exports and AI retrieval."
+      ],
+      "owner_role": "Research/editorial",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [],
+      "retired": false
+    },
+    {
+      "id": "GROW-003",
+      "category": "Future",
+      "title": "Ask Utkal",
+      "phase": "deferred",
+      "basis": "user_direction",
+      "requirement": "Answer from the approved KB with Utkal and original-source credit, only after a viable free option or agreed budget.",
+      "acceptance_criteria": [
+        "Answerable evaluation cases cite supporting retrieved passages and carry release identity.",
+        "Missing/disputed evidence produces qualification or abstention.",
+        "No private-data leaks or invented citations; evaluate English and Odia with appropriate review."
+      ],
+      "owner_role": "Engineering/editorial",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [
+        "ADR-007"
+      ],
+      "retired": false
+    },
+    {
+      "id": "GROW-004",
+      "category": "Future",
+      "title": "Research internships",
+      "phase": "later",
+      "basis": "user_direction",
+      "requirement": "Develop supervised learning opportunities with defined research assignments and credited outputs.",
+      "acceptance_criteria": [
+        "A named supervisor, learning outcomes, work arrangement, funding and host/programme eligibility are resolved before recruitment.",
+        "No academic credit, placement, compensation or university affiliation is advertised without actual arrangements."
+      ],
+      "owner_role": "Programme lead",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [],
+      "retired": false
+    },
+    {
+      "id": "GROW-005",
+      "category": "Future",
+      "title": "Institutional relationships",
+      "phase": "later",
+      "basis": "user_direction",
+      "requirement": "Track candidate cultural, academic, archive and diaspora relationships and agreed activities.",
+      "acceptance_criteria": [
+        "Candidate, contacted, pilot-agreed and active statuses are distinct.",
+        "Public partnership claims require an agreement; private contacts remain private.",
+        "Outreach is sent only under explicit authorisation."
+      ],
+      "owner_role": "Programme lead",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [],
+      "retired": false
+    },
+    {
+      "id": "GROW-006",
+      "category": "Future",
+      "title": "Managed photo intake and automation",
+      "phase": "deferred",
+      "basis": "user_direction",
+      "requirement": "Consider Blaze uploads/functions when observed manual burden or reliability problems justify it.",
+      "acceptance_criteria": [
+        "An acceptable cost decision precedes enabling billing.",
+        "Save receipts, retry handling, access and reviewed Git export pass tests.",
+        "Email migration preserves consent, attribution and submission identity."
+      ],
+      "owner_role": "Maintainer",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [
+        "ADR-005",
+        "ADR-006"
+      ],
+      "retired": false
+    },
+    {
+      "id": "GROW-007",
+      "category": "Future",
+      "title": "Independent private recovery",
+      "phase": "deferred",
+      "basis": "user_direction",
+      "requirement": "Revisit private backups when a suitable free option or a revised budget is established.",
+      "acceptance_criteria": [
+        "Recovery scope includes records, identity configuration and files as applicable.",
+        "A protected independent copy is actually restored in a test before a recovery promise is made.",
+        "Current launch materials do not imply Git backs up Firebase or inbox contents."
+      ],
+      "owner_role": "Maintainer",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [
+        "ADR-008"
+      ],
+      "retired": false
+    },
+    {
+      "id": "GROW-008",
+      "category": "Future",
+      "title": "Broader language and geographic coverage",
+      "phase": "later",
+      "basis": "recorded_product_direction",
+      "requirement": "Expand districts, communities and reviewed language editions using a transparent coverage matrix.",
+      "acceptance_criteria": [
+        "Coverage records distinguish missing, researching, reviewing, published and overdue.",
+        "A missing record is described as a collection gap rather than cultural absence.",
+        "Translated material retains its own provenance and review state."
+      ],
+      "owner_role": "Editorial/language",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [],
+      "retired": false
+    },
+    {
+      "id": "GROW-009",
+      "category": "Future",
+      "title": "Personal collections",
+      "phase": "later",
+      "basis": "implementation_proposal",
+      "requirement": "Offer optional saved entries and preferences when user need justifies accounts.",
+      "acceptance_criteria": [
+        "A saved item references a stable concept ID, survives authorised sign-in and resolves renamed/retired entries clearly.",
+        "Public reading never requires registration."
+      ],
+      "owner_role": "Engineering",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.1.0",
+      "adr": [
+        "ADR-005"
+      ],
+      "retired": false
+    },
+    {
+      "id": "ENT-001",
+      "category": "Entrepreneurship",
+      "title": "District opportunity discovery",
+      "phase": "later",
+      "basis": "user_direction",
+      "requirement": "Provide place-linked business opportunities across districts and sectors for local and outside entrepreneurs.",
+      "acceptance_criteria": [
+        "Each opportunity references canonical place/sector records and distinguishes assets from validated demand.",
+        "District coverage shows unknown and unresearched fields; no unsupported best-district ranking."
+      ],
+      "owner_role": "Research/product",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.3.0",
+      "adr": [
+        "ADR-001",
+        "ADR-010"
+      ],
+      "retired": false
+    },
+    {
+      "id": "ENT-002",
+      "category": "Entrepreneurship",
+      "title": "Actionable business dossiers",
+      "phase": "later",
+      "basis": "user_direction",
+      "requirement": "Connect demand, regulations, premises, people, support and economics for a specified business model.",
+      "acceptance_criteria": [
+        "Permissions retain applicability, original rules/amendments, authority and check dates; unresolved rules stay visible.",
+        "Land listings, workforce directories and schemes do not imply availability, consent, title or eligibility.",
+        "Financial scenarios preserve dated quotes, assumptions, working capital and downside results."
+      ],
+      "owner_role": "Research/product",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.3.0",
+      "adr": [
+        "ADR-001",
+        "ADR-010"
+      ],
+      "retired": false
+    },
+    {
+      "id": "ENT-003",
+      "category": "Entrepreneurship",
+      "title": "Portable personal project books",
+      "phase": "later",
+      "basis": "user_direction",
+      "requirement": "Let readers assemble and export a sourced business research book and a clearly labelled personal plan.",
+      "acceptance_criteria": [
+        "Export retains edition, citations, check dates, unknowns and user assumptions in readable print/PDF and portable data.",
+        "Private budgets, identities, negotiations and personal notes are excluded from public Git and analytics.",
+        "Long-book pagination and data round-trip are tested before claiming implementation; template is not lender approval."
+      ],
+      "owner_role": "Research/product",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.3.0",
+      "adr": [
+        "ADR-001",
+        "ADR-010"
+      ],
+      "retired": false
+    },
+    {
+      "id": "ENT-004",
+      "category": "Entrepreneurship",
+      "title": "Opportunity maintenance and outcomes",
+      "phase": "later",
+      "basis": "user_direction",
+      "requirement": "Maintain district business research without overstating local economic benefits.",
+      "acceptance_criteria": [
+        "Track evidence freshness, research state and public-release state separately.",
+        "Use actual evidence for business launches, jobs and producer returns; plans and downloads are not economic outcomes.",
+        "Commercial relationships are disclosed and do not purchase favourable ratings."
+      ],
+      "owner_role": "Research/product",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.3.0",
+      "adr": [
+        "ADR-001",
+        "ADR-010"
+      ],
+      "retired": false
+    }
+  ]
+}

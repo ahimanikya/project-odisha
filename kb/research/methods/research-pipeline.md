@@ -457,3 +457,27 @@ Continue RES-055 with a bounded original-paper or patent record for Sujana and a
 ## Mineral works and later evidence · 4 October 2026
 
 Next eligible independent research: RES-058 forest rights, knowledge and livelihoods. RES-067 remains dependent on blocked RES-064. Resume RES-055 source-specific follow-ups on10–11October using saved identities and evidence; no duplicate scientist or pilot records.
+
+## Coffee retail checkpoint · 2 October2026
+
+RES-064 remains earliest in-progress. Reuse the scoped retail brief and FSSAI originals; next resolve one supplier/pack, locality-specific permissions and cost evidence. Unavailable TDCC tender, district plan and cultivation study retry9October. No repeated same-run retrieval or fabricated margin.
+
+## Coffee pack and municipal checkpoint · 3 October 2026
+
+RES-064 remains in progress. Reuse the 250 g retail comparator and downloaded tariff (Koraput PDF p501). Next: original supplier/batch evidence and tariff applicability; separate local quotations and demand. New unavailable DARPG and TDCC routes retry 10 October; earlier 9 October retries unchanged.
+
+## Bargarh desk milestone · 3 October 2026
+
+RES-065 completed its defined desk dossier, selected as an independent next item at user request. Removed its sequencing-only dependency on still-in-progress RES-064, retaining the history. Cooperative website retry10 October2026; local consent, prices and demand remain unknown.
+
+## Coffee deferral and Puri checkpoint · 3 October 2026
+
+RES-064 blocked on original-source recovery and local evidence, retry 10 October; prior source-specific 9 October dates retained. Proceeded to eligible RES-066, now in progress. Next: current guide/agency route, a priced Puri-specific offer and seasonality.
+
+## Puri training and pricing checkpoint · 3 October 2026
+
+RES-066 remains in progress: national certificate stages and fee scope saved; Puri supplier price remains on request, and one directory has no listings. Next bounded batch: Puri municipal and recognition instruments. Paid seasonal demand and costs remain unknown.
+
+## Puri bounded desk dossier completed · 3 October 2026
+
+RES-066 now meets its defined desk deliverable, including explicit unresolved fields. National startup-recognition route, municipal category and state-registration boundary saved. Follow-up source retries are 10 October; no local or feasibility approval. Continue the earliest eligible task without repeating these captures.

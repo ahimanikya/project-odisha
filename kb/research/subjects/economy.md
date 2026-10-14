@@ -146,3 +146,11 @@ The [homestay research](../statistics/homestays.md) connects the programme’s g
 ## Mineral-research connections · 3 October 2026
 
 [From RRL to IMMT](../economy/minerals-research-immt.md) adds institutional history, a named researcher’s professional connection, and dated battery, fly-ash and pilot-facility stages. The evidence does not establish commercial output or current availability.
+
+## Business opportunities by district
+
+[Entrepreneurship programme](../product/district-business-opportunities.md) connects place knowledge with demand, premises, people and permissions research. [Koraput pilot](../economy/koraput-business-opportunities.md) contains hypotheses, not verified returns.
+
+## Maker-linked services · 3 October 2026
+
+[Bargarh catalogue service](../economy/bargarh-textile-catalogue-service.md) is a business research draft linked to arts and place records; no profitability assertion.

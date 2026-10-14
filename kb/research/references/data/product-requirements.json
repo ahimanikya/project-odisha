@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "prd_version": "0.2.1",
+  "prd_version": "0.3.0",
   "approval_status": "draft_not_formally_approved",
-  "generated_at": "2026-10-01T06:19:27.387120-07:00",
+  "generated_at": "2026-10-02T20:40:37.286473+00:00",
   "phase_definitions": {
     "launch": "Initial-scope acceptance requirements",
     "later": "Planned expansion, not a launch gate",
@@ -866,6 +866,97 @@
       "first_version": "0.1.0",
       "adr": [
         "ADR-005"
+      ],
+      "retired": false
+    },
+    {
+      "id": "ENT-001",
+      "category": "Entrepreneurship",
+      "title": "District opportunity discovery",
+      "phase": "later",
+      "basis": "user_direction",
+      "requirement": "Provide place-linked business opportunities across districts and sectors for local and outside entrepreneurs.",
+      "acceptance_criteria": [
+        "Each opportunity references canonical place/sector records and distinguishes assets from validated demand.",
+        "District coverage shows unknown and unresearched fields; no unsupported best-district ranking."
+      ],
+      "owner_role": "Research/product",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.3.0",
+      "adr": [
+        "ADR-001",
+        "ADR-010"
+      ],
+      "retired": false
+    },
+    {
+      "id": "ENT-002",
+      "category": "Entrepreneurship",
+      "title": "Actionable business dossiers",
+      "phase": "later",
+      "basis": "user_direction",
+      "requirement": "Connect demand, regulations, premises, people, support and economics for a specified business model.",
+      "acceptance_criteria": [
+        "Permissions retain applicability, original rules/amendments, authority and check dates; unresolved rules stay visible.",
+        "Land listings, workforce directories and schemes do not imply availability, consent, title or eligibility.",
+        "Financial scenarios preserve dated quotes, assumptions, working capital and downside results."
+      ],
+      "owner_role": "Research/product",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.3.0",
+      "adr": [
+        "ADR-001",
+        "ADR-010"
+      ],
+      "retired": false
+    },
+    {
+      "id": "ENT-003",
+      "category": "Entrepreneurship",
+      "title": "Portable personal project books",
+      "phase": "later",
+      "basis": "user_direction",
+      "requirement": "Let readers assemble and export a sourced business research book and a clearly labelled personal plan.",
+      "acceptance_criteria": [
+        "Export retains edition, citations, check dates, unknowns and user assumptions in readable print/PDF and portable data.",
+        "Private budgets, identities, negotiations and personal notes are excluded from public Git and analytics.",
+        "Long-book pagination and data round-trip are tested before claiming implementation; template is not lender approval."
+      ],
+      "owner_role": "Research/product",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.3.0",
+      "adr": [
+        "ADR-001",
+        "ADR-010"
+      ],
+      "retired": false
+    },
+    {
+      "id": "ENT-004",
+      "category": "Entrepreneurship",
+      "title": "Opportunity maintenance and outcomes",
+      "phase": "later",
+      "basis": "user_direction",
+      "requirement": "Maintain district business research without overstating local economic benefits.",
+      "acceptance_criteria": [
+        "Track evidence freshness, research state and public-release state separately.",
+        "Use actual evidence for business launches, jobs and producer returns; plans and downloads are not economic outcomes.",
+        "Commercial relationships are disclosed and do not purchase favourable ratings."
+      ],
+      "owner_role": "Research/product",
+      "owner_assignment": "unassigned",
+      "implementation_status": "not_implemented",
+      "verification_status": "not_tested",
+      "first_version": "0.3.0",
+      "adr": [
+        "ADR-001",
+        "ADR-010"
       ],
       "retired": false
     }

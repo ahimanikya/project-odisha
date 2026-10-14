@@ -77,3 +77,7 @@ Add source-checked district education, health, agricultural production, work and
 ## Regional survey update · 4 October 2026
 
 [Koraput, Sambalpur and Bargarh](../statistics/western-southern-baselines.md) now include provisional NFHS-6 child nutrition, original NFHS-5 methods and separate overall survey samples. Lower stunting does not imply improvement in every nutrition measure; no programme causation is established.
+
+## Bargarh business dossier · 3 October 2026
+
+[Photography and catalogue services](../economy/bargarh-textile-catalogue-service.md) connect existing textile records to a scoped enterprise hypothesis. Town tariff research is not districtwide; no available studio or confirmed client.

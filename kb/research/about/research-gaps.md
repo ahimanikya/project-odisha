@@ -640,3 +640,31 @@ RES-055 scientist checkpoint adds two profiles and a selected review. Sujana ori
 ## Mineral works and later evidence · 4 October 2026
 
 RES-055 bounded desk synthesis complete; source-specific follow-ups remain10–11October. May2026 visit report does not verify throughput, current operation or precise2025 project identity. Original20April2026 PGM trial/operator report remains a discovery lead. Full2014 paper and online date, patent team, profile conflicts and town social histories remain open.
+
+## District entrepreneurship · 2 October 2026
+
+The [programme](../product/district-business-opportunities.md) needs buyer evidence, current activity/site-specific permissions, quoted costs, viable premises and confirmed people/partner capacity. RES-064 begins Koraput coffee. GO SWIFT and MSME profile direct retrieval failed; retry9October2026. Existing homestay amendment gaps remain unresolved. Thirty district coverage rows are project tracking, not thirty researched business markets.
+
+## Koraput coffee business · 2 October2026
+
+[Sealed-pack retail brief](../economy/koraput-coffee-retail.md): demand, traceable orderable pack, wholesale terms, rent, complete local permissions and margins remain unknown. Seller maintenance notice retained. Coffee product-basis definition and district supply require further evidence. Three inaccessible original documents retained as leads with retry9October.
+
+## Coffee supply and fee interpretation · 3 October 2026
+
+A retail listing now has a defined pack and date, but invoice/producer traceability, wholesale terms, actual delivery and local demand are unknown. Koraput tariff has raw rate1000 without established currency/period/effective date. Do not turn it into annual or total startup cost. Legacy coffee domain redirects to unrelated content and is excluded.
+
+## Bargarh service gaps · 3 October 2026
+
+Historical Boyanika specifications support a service category, not local willingness to pay. Missing: cooperative purchasing route, permissions, current tariff applicability, quotations and paid trial. ODOP population/turnover figures have unresolved scope/vintage. Original cooperative site content unavailable; retry10 October2026.
+
+## Puri walking-service gaps · 3 October 2026
+
+Exact route, guide credentials, access/permissions, Puri-specific price, seasonal paid demand and costs unknown. 2023 OTDC original unavailable, retry 10 October. Coffee indexed sales/marketing leads cannot verify a current pack or supply terms.
+
+## Puri current applicability and tariff gap · 3 October 2026
+
+National programme documents do not resolve local route permissions. Current amendment chain, intake/concessions, supplier credential validity, price per party/person and paid monthly bookings remain unverified. Empty-directory and quote-only findings are retained.
+
+## Puri applicant-specific gaps · 3 October 2026
+
+National 2020 startup recognition criteria recovered from NIDHI; current amendment chain and selected-business fit remain unresolved. Puri tariff row is not a confirmed walking-service classification. State original resolution and SUJOG live page retry 10 October; prices, paid seasonality and route consent remain absent.

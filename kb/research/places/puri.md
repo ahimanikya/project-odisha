@@ -35,3 +35,7 @@ Temple entry rules, photography, water conditions and visitor services need curr
 [Related knowledge](../food/mahaprasad.md) · [Research standards](../about/research-method.md)
 
 [^beaches]: [Beaches of Odisha](https://odishatourism.gov.in/content/dam/tourism/odishatourismbrochures/Beaches.pdf)
+
+## Visitor enterprise research · 3 October 2026
+
+The [walking-service hypothesis](../economy/puri-heritage-walk-service.md) reuses existing place and provider research. No current tour, route or temple access is offered.

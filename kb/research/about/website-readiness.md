@@ -403,3 +403,27 @@ Scientist profiles and selected work are source-checked drafts with full coautho
 ## Mineral works and later evidence · 4 October 2026
 
 Original abstract supports credited English work and limited experimental scope. Later pilot visit evidence adds no commercial outcome or current operation claim. All new content remains an editorial candidate; no website release.
+
+## Coffee business checkpoint · 2 October2026
+
+[Retail brief](../economy/koraput-coffee-retail.md) is a research draft with primary national food-business criteria and explicit local gaps. No completed financial plan, endorsement, human review or website release.
+
+## Coffee opportunity checkpoint · 3 October 2026
+
+Municipal PDFs and a seller comparator enhance the draft [retail brief](../economy/koraput-coffee-retail.md). No applicant approval, verified wholesale supplier, completed business plan, human review or website release.
+
+## Bargarh desk milestone · 3 October 2026
+
+[Bargarh service dossier](../economy/bargarh-textile-catalogue-service.md) is research-ready for review with explicit missing economics. No active tender invitation, confirmed client, human review, finance-ready plan or website publication.
+
+## Puri research checkpoint · 3 October 2026
+
+[Outdoor walk dossier](../economy/puri-heritage-walk-service.md) remains a hypothesis. Historical OTDC procurement is not guaranteed Puri work; no route approval, booking, financial return or website update.
+
+## Puri training and offer checkpoint · 3 October 2026
+
+The [Puri dossier](../economy/puri-heritage-walk-service.md) adds official training references and attributed supplier leads. Neither published training fees nor an advertised walk establishes a licensed, priced Utkal product. No live booking or website publication.
+
+## Puri desk milestone · 3 October 2026
+
+The [Puri business dossier](../economy/puri-heritage-walk-service.md) is desk-researched with all unknowns retained. Voluntary national recognition, municipal licensing, state registration and individual/site permissions are distinct. No complete current applicant checklist, viable return or website publication.
