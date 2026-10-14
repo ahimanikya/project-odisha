@@ -1,7 +1,7 @@
 ---
 type: "Cultural heritage research"
 title: "Sashisena and the doorless temple of Sonepur"
-status: "approved-for-publication"
+status: "published"
 subjects: ["culture", "places", "literature"]
 sources: [{"id": "instagram-duqtfgkkuna", "title": "Sashisena Temple reel", "resource": "https://www.instagram.com/reel/DUQTfgKkunA/"}, {"id": "sonepur-literary-heritage-2006", "title": "The Literary Heritage of Sonepur", "resource": "https://magazines.odisha.gov.in/Orissareview/may2006/engpdf/72-79.pdf"}, {"id": "dandabhukti-mukherjee-2014", "title": "Relocating the Past of Ancient Dandabhukti in Dantan", "resource": "https://www.chitrolekha.com/V4/n1/03_Dandabhukti_Moghalmari_Monastery.pdf"}, {"id": "sashisena-odishabytes-20200214", "title": "Nimuhi Temple, The Symbol Of Love In Odisha", "resource": "https://odishabytes.com/nimuhi-temple-the-symbol-of-love-in-odisha/"}, {"id": "sashisena-orissatours", "title": "Sashisena Nimuhi Temple Sonepur", "resource": "https://orissatours.com/sashisena-nimuhi-temple-sonepur/"}, {"id": "sashisena-otv-20210214", "title": "Odisha: Sashisena Temple In Sonepur, An Epitome Of Love", "resource": "https://odishatv.in/odisha-news/odisha-sashisena-temple-in-sonepur-an-epitome-of-love-517953"}, {"id": "sashisena-sagaria-samadrusti-2024", "title": "ବନୌଷଧି ବିଚାର", "resource": "https://thesamadrusti.com/3980/"}, {"id": "sashisena-sagaria-jariaa-2025", "title": "ପରିବା ଚାଷ", "resource": "https://jariaa.com/ପରିବା-ଚାଷ/"}, {"id": "sashisena-prachi-edition", "title": "Shashisena by Pratap Ray, Prachi Samiti edition", "resource": "https://or.wikisource.org/wiki/ସୂଚୀ:Sashi_Sena.pdf"}, {"id": "subarnapur-gazetteer-2016-wayback", "title": "Odisha District Gazetteers: Subarnapur (editor note dated 16 April 2016)", "resource": "https://web.archive.org/web/20220920170541/http://www.gopabandhuacademy.gov.in/sites/default/files/gazetter/Subarnapur_Gazetteer.pdf"}, {"id": "sonepur-tourism-wayback-20120801", "title": "Sonepur: archived Odisha government tourism page", "resource": "https://web.archive.org/web/20120801090335/http://orissa.gov.in:80/tourism/sonepur.htm"}, {"id": "balangir-district-gazetteer-1968", "title": "Orissa District Gazetteers: Balangir (1968)", "resource": "https://archive.org/details/dli.csl.2989"}, {"id": "sashisena-dharitri-20200315", "title": "ଚିରନ୍ତନ ପ୍ରେମର ସନ୍ତକ ନିମୁହିଁ ମନ୍ଦିର", "resource": "https://www.dharitri.com/ଚିରନ୍ତନ-ପ୍ରେମର-ସନ୍ତକ-ନିମ/"}, {"id": "sashisena-mishra-2022", "title": "Communication, Negotiation and Assertion of the Tribal in the Kingdom of Sambalpur in Early Modern Western Odisha", "resource": "https://utkaluniversity.ac.in/wp-content/uploads/2024/03/UHRJ-Vol.-XXXV-2022.pdf"}, {"id": "sonepur-bali-yatra-barik-2009", "title": "Bali Yatra of Sonepur", "resource": "https://magazines.odisha.gov.in/Orissareview/2009/September/engpdf/160-162.pdf"}, {"id": "sashisena-kathalahari-1927", "title": "Kathalahari ba Utkala Kahani Sangraha / Folk Tales of Orissa, sixth edition (1927)", "resource": "https://or.wikisource.org/wiki/ସୂଚୀ:Kathalahari_(RN_Das,_1927)_opt.pdf"}, {"id": "sashisena-namami-museum-catalogue", "title": "Orissa State Museum, Bhubaneswar: manuscript digitisation inventory", "resource": "https://web.archive.org/web/20221108151107/https://namami.gov.in/sites/default/files/Orissa_State_Museum_Bhubaneswar_Orissa.pdf"}, {"id": "sashisena-acharya-historical-identification-1969", "title": "Studies in Orissan History, Archaeology and Archives, p.115", "resource": "https://archive.org/details/in.ernet.dli.2015.533903"}, {"id": "sanskrit-mw-ahi", "title": "Monier-Williams Sanskrit–English Dictionary: ahi", "resource": "https://sanskrit.uohyd.ac.in/SKT/MW/24.html"}, {"id": "sanskrit-mw-manikya", "title": "Monier-Williams Sanskrit–English Dictionary: manikya", "resource": "https://sanskrit.uohyd.ac.in/SKT/MW/201.html"}, {"id": "sanskrit-mw-mani", "title": "Monier-Williams Sanskrit–English Dictionary: mani", "resource": "https://sanskrit.uohyd.ac.in/SKT/MW/192.html"}, {"id": "meher-nirbana-shubhapallaba-2023", "title": "Nirbana, Shubhapallaba issue54, pp.33–34", "resource": "https://shubhapallaba.in/gapu/media/Shubhapallaba%2054th%20Edition.pdf#page=33"}, {"id": "meher-nirbana-storymirror", "title": "Nirbana / ନିର୍ବାଣ", "resource": "https://storymirror.com/read/oriya/poem/nirbaann/gugmzl8h"}]
 ---
@@ -38,18 +38,25 @@ Later, the narrator calls Ahimanikya **Bisheheri’s son**, born on earth at his
 
 His name carries this origin story. In Sanskrit, *ahi* means serpent, while *māṇikya* means ruby; *maṇi* is the broader word for a jewel or gem. The poem gives its own explanation. When Lilavati asks her husband to name the child, the minister recalls the serpent becoming a jewel necklace and chooses **Ahimanikya**. [1, I.55–56, printed p.7 / PDF p.45; 18]
 
-> ମନ୍ତ୍ରୀ ବୋଲେ ଅହି ହୋଇ ମାଣିକ୍ୟମାଳ ।
-> ଅହିମାଣିକ୍ୟ ନାମେଣ ଅଟେ ସୁଲଳ ।
->
-> In plain language: the serpent became a jewel necklace, so Ahimanikya is a fitting, beautiful name.
+<figure class="kavya-excerpt" id="verse-naming">
+  <blockquote>
+    <p class="kavya-odia" lang="or">ମନ୍ତ୍ରୀ ବୋଲେ ଅହି ହୋଇ ମାଣିକ୍ୟମାଳ ।<br />ଅହିମାଣିକ୍ୟ ନାମେଣ ଅଟେ ସୁଲଳ ।</p>
+    <p class="kavya-meaning"><span class="meaning-label">Meaning</span> The minister says: the serpent became a jewel necklace; Ahimanikya is a fitting, beautiful name.</p>
+  </blockquote>
+  <figcaption>Pratap Ray, <cite>Shashisena</cite> · <a href="/archive/sashi-sena-prachi-samiti.pdf#page=45">I.56 · printed p.7 · PDF p.45</a></figcaption>
+</figure>
 
 This is a naming scene in the poem itself. It describes transformation; it does not say that a jewel was removed from a serpent’s head. The separate *Kathalahari* folktale calls its hero Abhimanyu, so its naming should not be substituted for this passage. [1, 15, printed pp.59–60]
 
 Was Ahimanikya a prince of Sambalpur? The strongest evidence for his identity comes from the Odia poem itself. In the digitised Prachi Samiti edition of Pratap Ray’s *Shashisena*, Sashisena says:
 
-> ମନ୍ତ୍ରୀ ତନୟ ୟେହୁ ମୋର ପତି ।
->
-> “This minister’s son is my husband.”
+<figure class="kavya-excerpt" id="verse-husband">
+  <blockquote>
+    <p class="kavya-odia" lang="or">ମନ୍ତ୍ରୀ ତନୟ ୟେହୁ ମୋର ପତି ।</p>
+    <p class="kavya-meaning"><span class="meaning-label">Meaning</span> This minister’s son is my husband.</p>
+  </blockquote>
+  <figcaption>Pratap Ray, <cite>Shashisena</cite> · <a href="/archive/sashi-sena-prachi-samiti.pdf#page=110">XI.13, excerpt · printed p.72 · PDF p.110</a></figcaption>
+</figure>
 
 The passage is in the eleventh chhanda, verse 13, on printed page 72 (PDF page 110). **“Minister’s son” describes his human household; it is not the whole account of his origin.** “Dewan’s son,” used in later accounts, is compatible with that description. A 2022 history paper calls him a prince, but supplies no genealogy making him a prince of Sambalpur. Neither the human parentage nor the supernatural birth establishes a historical royal lineage. [1, 3]
 
@@ -67,9 +74,19 @@ Their shared life is later interrupted by Jnanadei Maluni, whose name appears in
 
 The transformation is the tale’s most memorable image. Within its supernatural world, Ahimanikya physically becomes a sheep and returns to human form. We can also read that change as an image of captivity and lost autonomy: he is still himself, but his outward appearance prevents others from understanding what has happened to him. This symbolic reading does not establish that the poet intended a coded account of hypnosis, or that a person historically changed species.
 
-Maluni's first encounter with him is more nuanced than the short retellings suggest. In VIII.5–6, her sidelong glance captivates his mind and he sits beside her. He nevertheless explains that his beloved requested the flowers he has come to buy. She says she has not seen him in the town before and asks his name and where he comes from. Their conversation presents a new encounter, without a lost-love backstory. [1, printed pp.49–50]
+Maluni's first encounter with him is more nuanced than the short retellings suggest. The narrator describes the effect of her glance:
 
-Initial fascination is present; a freely chosen continuing relationship is not established. The narrator describes him as her captive in VIII.10. His own message to Sashisena is stronger still: “ଜ୍ଞାନଦେଈ ମାଲୁଣୀ କରିଛି ମୋତେ ବନ୍ଦୀ”—“Jnanadei Maluni has made me captive.” He asks Sashisena to rescue him. Maluni's later affectionate address to him expresses her desire, without proving his reciprocation. [1, printed pp.51, 65–66; X.49, 58–60]
+<figure class="kavya-excerpt" id="verse-glance">
+  <blockquote>
+    <p class="kavya-odia" lang="or">କଟାକ୍ଷେ କୁମର ମନ ମୋହିଲା ବାଳୀ ।</p>
+    <p class="kavya-meaning"><span class="meaning-label">Meaning</span> Her sidelong glance captivated the young man’s mind.</p>
+  </blockquote>
+  <figcaption>Pratap Ray, <cite>Shashisena</cite> · <a href="/archive/sashi-sena-prachi-samiti.pdf#page=87">VIII.5, excerpt · printed p.49 · PDF p.87</a></figcaption>
+</figure>
+
+He sits beside her, but explains that his beloved requested the flowers he has come to buy. She says she has not seen him in the town before and asks his name and where he comes from. Their conversation presents a new encounter, without a lost-love backstory. [1, VIII.5–8, printed pp.49–50]
+
+Initial fascination is present; a freely chosen continuing relationship is not established. The narrator describes him as her captive in VIII.10. His later message to Sashisena explicitly names his captor and asks for rescue. Maluni's later affectionate address to him expresses her desire, without proving his reciprocation. [1, printed pp.51, 65–66; X.49, 58–60]
 
 “Love triangle” can describe the three intersecting desires, provided it does not suggest a sustained romance freely chosen by all three. The poem shows an established couple, a moment of attraction and a captivity from which Ahimanikya wants release. Maluni acts as an antagonist in this episode; sympathy for her longing would be a reader's interpretation, not a documented explanation based on earlier heartbreak.
 
@@ -77,9 +94,13 @@ Initial fascination is present; a freely chosen continuing relationship is not e
 
 Pratap Ray gives Maluni's magic a specific form. In the eighth chhanda, verse 9, she recites a mantra while placing a flower garland around Ahimanikya's neck:
 
-> ମନ୍ତ୍ର ପଢ଼ି ଫୁଲମାଳା ଗଳାରେ ଦେଲା ।
->
-> “Reciting a mantra, she placed the flower garland around his neck.”
+<figure class="kavya-excerpt" id="verse-garland">
+  <blockquote>
+    <p class="kavya-odia" lang="or">ମନ୍ତ୍ର ପଢ଼ି ଫୁଲମାଳା ଗଳାରେ ଦେଲା ।</p>
+    <p class="kavya-meaning"><span class="meaning-label">Meaning</span> Reciting a mantra, she placed the flower garland around his neck.</p>
+  </blockquote>
+  <figcaption>Pratap Ray, <cite>Shashisena</cite> · <a href="/archive/sashi-sena-prachi-samiti.pdf#page=88">VIII.9, excerpt · printed p.50 · PDF p.88</a></figcaption>
+</figure>
 
 She then gives him a scented object; on smelling it, he becomes a sheep. The garland becomes a tether, and she leads him home. The text makes magical captivity explicit, without giving the mantra's words or identifying a historical school of practice. [1, eighth chhanda, verses 9–10, printed pp.50–51]
 
@@ -91,13 +112,31 @@ At first, Sashisena knows that Ahimanikya has disappeared. She wonders whether a
 
 As Shashidhara, she acquires a position at court and becomes the king's apparent son-in-law. A temple gathering gives her a way to search among the visitors. Maluni brings Ahimanikya there at night: he is in human form, dressed by her as a woman. He recognises Sashisena's face despite her changed form and leaves writing at the temple entrance. His message names Maluni, describes being held as a black sheep and restored to human form at night, and asks his beloved to rescue him. [1, X.34–38, 49–60, printed pp.64–66]
 
+<figure class="kavya-excerpt" id="verse-message">
+  <blockquote>
+    <p class="kavya-odia" lang="or">ଜ୍ଞାନଦେଈ ମାଲୁଣୀ କରିଛି ମୋତେ ବନ୍ଦୀ ।</p>
+    <p class="kavya-meaning"><span class="meaning-label">Meaning</span> Jnanadei Maluni has made me captive.</p>
+  </blockquote>
+  <figcaption>Pratap Ray, <cite>Shashisena</cite> · <a href="/archive/sashi-sena-prachi-samiti.pdf#page=104">X.58, excerpt · printed p.66 · PDF p.104</a></figcaption>
+</figure>
+
 This gathering is an event inside the poem. It cannot establish an old festival at Nimuhi, or a former entrance to the present doorless monument.
 
 The next morning, Sashisena finds the message and recognises Ahimanikya's handwriting. This is the explicit disclosure of his fate in the inspected sequence. She erases the writing, completes her morning duties and calls for the animals associated with the completion of her year-long vow. Among them, she specifically demands the black sheep in Jnanadei's house. In context, this demand provides a way to bring the hidden captive before her. [1, X.62–67, printed p.67]
 
 Maluni disputes the claim. Shashidhara then orders attendants into her house, telling them to untie the sheep in the inner room and bring it out. Once it is produced, she orders Maluni to make it human. Maluni angrily challenges her authority as the royal son-in-law. Shashidhara responds with condemnation and a direct threat to cut off her nose and ears. [1, X.68–78, printed pp.67–68]
 
-Maluni yields in fear. She recites a mantra and uses a flower to reverse the transformation; Ahimanikya reappears, and Sashisena rushes to embrace him. The threatened mutilation is not carried out in this scene. Neither is an apology or repentance narrated: the text identifies fear and distress as Maluni's response. A guru subsequently reports the rescue to the king. [1, X.79–81, printed pp.68–69; XI.1–8, printed pp.70–71]
+Maluni yields in fear. She recites a mantra and uses a flower to reverse the transformation. Ahimanikya reappears, and the poem turns from threats to reunion:
+
+<figure class="kavya-excerpt" id="verse-embrace">
+  <blockquote>
+    <p class="kavya-odia" lang="or">ଧାଇଁ ଯାଇଁ ଶଶିସେଣା ବେଗେ କୋଳ କରି ।</p>
+    <p class="kavya-meaning"><span class="meaning-label">Meaning</span> Sashisena rushed forward and took him in her arms.</p>
+  </blockquote>
+  <figcaption>Pratap Ray, <cite>Shashisena</cite> · <a href="/archive/sashi-sena-prachi-samiti.pdf#page=107">X.81, excerpt · printed p.69 · PDF p.107</a></figcaption>
+</figure>
+
+The threatened mutilation is not carried out in this scene. Neither is an apology or repentance narrated: the text identifies fear and distress as Maluni's response. A guru subsequently reports the rescue to the king. [1, X.79–81, printed pp.68–69; XI.1–8, printed pp.70–71]
 
 The recovery depends on several different kinds of power. The goddess enables Sashisena's changed identity; Ahimanikya communicates what has happened; Sashisena uses knowledge, attendants and her apparent royal standing to force a confrontation. Maluni herself performs the magical reversal. This sequence gives Sashisena's persistence a concrete form, while retaining the violence of her threat.
 
