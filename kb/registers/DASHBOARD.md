@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `721287913fb03eaa13753fd59d787ad6fbec509c8676a59a322cd4d50e7b4d37`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `195cf0b02a38f2ceae74bebb2f021796f3c0ba61ca0d4bb179ca7756b2bdff9f`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -199,7 +199,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
-| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue next eligible substantive item. 79 of 500 delivered with linked evidence under DEC225. | — |
+| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue next eligible substantive item. 80 of 500 delivered with linked evidence under DEC225. | — |
 | UTP-WORK-190 · Food discovery, portable reading collection and current review-queue repair | completed | published | Ahimanikya Satapathy | Published and live-verified. Continue through the program queue under DEC225. | — |
 | UTP-WORK-191 · Build the tourism opportunities information section | completed | reviewed | Ahimanikya Satapathy | Published information scope complete. Continue WORK166 and WORK171 only when new documentary or operating evidence is available. | — |
 | UTP-WORK-192 · Align saved food cards with canonical story introductions | completed | reviewed | Ahimanikya Satapathy | Repair published and live catalogue verified; preserve canonical food fields when future stories change. | — |
@@ -279,7 +279,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-266 · Research Odisha boat and fishing songs | blocked | draft | Ahimanikya Satapathy | Await readable primary source passages; do not repeat unavailable searches without a new access path. Independent craft-listening article selected under WORK267. | Full official source passages unavailable in this batch: timeout, expired certificate and DNS/502 failures. Search excerpts remain leads only. |
 | UTP-WORK-267 · Listening to craft through Kotpad | completed | applied | Ahimanikya Satapathy | Website further-reading adaptation delivered under WORK268; practitioner acoustic evidence remains open. | — |
 | UTP-WORK-268 · Publish craft-listening reader story | completed | applied | Ahimanikya Satapathy | Continue independent research; practitioner and acoustic documentation remain open. | — |
-| UTP-WORK-269 · Research and publish Chilika listening story | in_progress | reviewed | Ahimanikya Satapathy | Pass reviewed-commit PR checks, publish main workflow and save live receipt. | — |
+| UTP-WORK-269 · Research and publish Chilika listening story | completed | applied | Ahimanikya Satapathy | Continue independent research; local naturalist and acoustic documentation remain open. | — |
 
 ## Pending human review and decisions
 
@@ -921,6 +921,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-106 · Sounds of Odisha searchable in Explore | published | https://utkalproject.org/explore/?q=Sounds%20of%20Odisha | UTP-DEC-225 |
 | UTP-REL-107 · Odia lullabies and the songs of childhood | published | https://utkalproject.org/stories/odia-lullabies/ | UTP-DEC-225 |
 | UTP-REL-108 · Listening to craft through Kotpad | published | https://utkalproject.org/stories/craft-listening/ | UTP-DEC-225 |
+| UTP-REL-109 · Listening to Chilika | published | https://projectodisha.org/stories/chilika-listening/ | UTP-DEC-225 |
 
 ## Sources and assets
 
@@ -958,7 +959,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-420 | 2026-10-13T07:03:39.954902+00:00 | Published craft-listening article through checked PR228 and approved main workflow; live content and discovery verified. Programme 79/500. | — |
 | UTP-EVT-421 | 2026-10-13T15:25:50.008459+00:00 | Selected natural soundscapes gap with Chilika reuse; one combined KB research and website delivery. No acoustic field evidence claimed. | — |
 | UTP-EVT-2026101401 | 2026-10-14T06:00:00Z | Prepared 33 source-linked Odisha arts and literature calendar entries within user-requested scope, distinguishing announced, reported, awaiting dates and past editions. | — |
 | UTP-EVT-2026101402 | 2026-10-14T05:53:29.329065+00:00 | Expanded calendar to 37 entries; 520 full and 113 coastal tests pass. Publication build and browser filtering/mobile checks pass. | — |
@@ -968,6 +968,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101421 | 2026-10-14T15:10:36.710983+00:00 | Published new canonical domain, configured new DNS and HTTPS, verified new site. GoDaddy saved apex/www permanent redirects; old-domain propagation and nested-path verification remain pending. | — |
 | UTP-EVT-2026101422 | 2026-10-14T15:15:47.256907+00:00 | Applied approved Project Odisha naming and homepage tagline to live website sources; historical evidence retained. | — |
 | UTP-EVT-2026101423 | 2026-10-14T16:24:16.524442+00:00 | Renamed GitHub repository to project-odisha and prepared active-reference cleanup under Founder approval. Historical evidence preserved. | — |
+| UTP-EVT-422 | 2026-10-14T20:52:35.367545+00:00 | Published Chilika listening article on Project Odisha through checked PR229 and approved main workflow. KB/source dossier and public story count once; programme 80/500. | — |
 
 ## Deferred extensions
 

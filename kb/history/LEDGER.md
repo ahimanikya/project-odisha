@@ -1074,3 +1074,7 @@ Following Pradip Biswal’s feedback relayed by Ahimanikya, the article’s brac
 ## UTP-HIS-0341 · Utkal Project renamed Project Odisha
 
 On 14 October 2026, the Founder approved updating active references and renaming the repository to `ahimanikya/project-odisha`. Current website: https://projectodisha.org/. Historical evidence and stable identifiers remain intact. See [cleanup record](../records/project-odisha-reference-cleanup-20261014.json).
+
+## UTP-HIS-0342 · Chilika listening joins Sounds of Odisha
+
+The researched Chilika and Mangalajodi listening article is published on Project Odisha, with its source dossier retained in the KB. The visitor exercise distinguishes observation from explanation and avoids claiming acoustic fieldwork. Concurrent domain, branding, calendar and Nimuhi changes were preserved. [Publication and live verification](../records/chilika-listening-publication-2026-10-15.json).

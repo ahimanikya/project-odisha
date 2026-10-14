@@ -80,4 +80,4 @@ The [full Gotipua reader story](https://projectodisha.org/stories/gotipua/) is p
 
 ## Natural listening at Chilika
 
-[Listening to Chilika](chilika-listening.md) connects Mangalajodi habitat and seasonality with low-disturbance listening and a local guide’s explanation. [Source dossier](../sources/chilika-listening-research.json). Website candidate prepared as separate further reading; publication verification pending.
+[Listening to Chilika](chilika-listening.md) connects Mangalajodi habitat and seasonality with low-disturbance listening and a local guide’s explanation. [Source dossier](../sources/chilika-listening-research.json). The [website article](https://projectodisha.org/stories/chilika-listening/) is published as further reading; [delivery evidence](../../records/chilika-listening-publication-2026-10-15.json). Local naturalist and acoustic-context review remain open.
