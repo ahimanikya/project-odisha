@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {analyticsPage,createAnalytics,validMeasurementId} from '../src/lib/analytics.mjs';
-const input={origin:'https://utkalproject.org',pathname:'/journey/',canonical:'https://utkalproject.org/journey/',title:'My Odisha Journey · Utkal Project',allowedPaths:['/journey/']};
+const input={origin:'https://projectodisha.org',pathname:'/journey/',canonical:'https://projectodisha.org/journey/',title:'My Odisha Journey · Utkal Project',allowedPaths:['/journey/']};
 test('analytics accepts only explicit production routes and clean canonical metadata',()=>{
  assert.equal(validMeasurementId('G-ABC1234567'),true);
  for(const id of ['',undefined,'G-../../secret','G-<script>'])assert.equal(validMeasurementId(id),false);

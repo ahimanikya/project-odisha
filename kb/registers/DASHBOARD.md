@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `f43d54d22d42f51124f46f2feb134e41225ef83cdc948fb14720849ada110fdf`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `4b168f09693940b4fc9b52072c28fb9ea407fef68b105f37a804dfa0e072a143`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -956,7 +956,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-415 | 2026-10-12T17:51:38.708841+00:00 | Published Odia lullabies further reading via checked PR226 and approved main workflow; live narrative and discovery verified. Programme 77/500. | — |
 | UTP-EVT-416 | 2026-10-13T01:22:16.412326+00:00 | Selected the collection’s unfilled boat/fishing-song subject after scoped KB and queue searches; article and source dossier are the bounded output. | — |
 | UTP-EVT-417 | 2026-10-13T01:31:38.229373+00:00 | Boat-song primary passages remain unavailable. Selected the independent craft-listening narrative gap, reusing existing Kotpad sources without an acoustic or fieldwork claim. | — |
 | UTP-EVT-418 | 2026-10-13T02:19:48.902328+00:00 | Delivered craft-listening article and source-reuse dossier through checked PR227; verified merged bytes. Website adaptation pending. Programme 78/500; boat-song item remains blocked. | — |
@@ -966,6 +965,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101402 | 2026-10-14T05:53:29.329065+00:00 | Expanded calendar to 37 entries; 520 full and 113 coastal tests pass. Publication build and browser filtering/mobile checks pass. | — |
 | UTP-EVT-2026101403 | 2026-10-14T07:20:30.959091+00:00 | Second calendar pass verified UNURUM dates from university-linked Instagram; updated latest KLF dates with discrepancy retained, recovered OALF and two past Toshali ranges, clarified Utsha application status. | — |
 | UTP-EVT-2026101419 | 2026-10-14T07:58:45.861287+00:00 | Prepared the user-approved article and four public assets for the existing publication pipeline. | — |
+| UTP-EVT-2026101420 | 2026-10-14T14:57:51.864569+00:00 | Prepared Founder-requested migration to projectodisha.org and permanent redirect of utkalproject.org, preserving routes and search scope. | — |
 
 ## Deferred extensions
 

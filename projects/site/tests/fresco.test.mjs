@@ -20,8 +20,8 @@ test('Fresco catalogue keeps valid photo identities, credited art and story sele
  assert.ok(!/contribution-dialog|reviewer-secret/.test(html));
  // Public museum references may contain /api/; only same-site application endpoints are forbidden.
  for(const match of html.matchAll(/(?:href|src|action)="([^"]+)"/g)){
-  const url=new URL(match[1],'https://utkalproject.org');
-  if(url.origin==='https://utkalproject.org')assert.ok(!url.pathname.startsWith('/api/'));
+  const url=new URL(match[1],'https://projectodisha.org');
+  if(url.origin==='https://projectodisha.org')assert.ok(!url.pathname.startsWith('/api/'));
  }
  assert.match(html,/Mural artists.*not yet/i);
 });

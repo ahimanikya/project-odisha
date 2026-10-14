@@ -34,7 +34,7 @@ test('edition pruning retains a metadata-only sharing asset and still removes un
   for(const p of ['tools','editions','.coast-staging','.coast-staging/images'])mkdirSync(join(dir,p));
   copyFileSync('tools/finalize-edition.py',join(dir,'tools/finalize-edition.py'));
   writeFileSync(join(dir,'editions/coast.json'),JSON.stringify({routes:['/'],journey_ids:[],starter_ids:[]}));
-  writeFileSync(join(dir,'.coast-staging/index.html'),'<meta name="robots" content="noindex"><meta property="og:image" content="https://utkalproject.org/images/share.jpg"><script id="journey-data" type="application/json">{"catalog":[],"starters":[]}</script>');
+  writeFileSync(join(dir,'.coast-staging/index.html'),'<meta name="robots" content="noindex"><meta property="og:image" content="https://projectodisha.org/images/share.jpg"><script id="journey-data" type="application/json">{"catalog":[],"starters":[]}</script>');
   writeFileSync(join(dir,'.coast-staging/images/share.jpg'),'sharing test fixture');writeFileSync(join(dir,'.coast-staging/images/held.jpg'),'held fixture');
   const result=spawnSync('python3',[join(dir,'tools/finalize-edition.py')],{encoding:'utf8'});
   assert.equal(result.status,0,result.stderr);assert.ok(existsSync(join(dir,'dist-coast/images/share.jpg')));assert.ok(!existsSync(join(dir,'dist-coast/images/held.jpg')));

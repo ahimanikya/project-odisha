@@ -11,7 +11,7 @@ function fixture(query=''){
  const status={textContent:''};
  const root={querySelectorAll:q=>q==='[data-trail-interest]'?buttons:cards,querySelector:()=>status};
  const handlers={},stack=[];
- const env={location:{href:'https://utkalproject.org/journey-starters/'+query},history:{pushState(_state,_title,url){stack.push(env.location.href);env.location.href=url;}},addEventListener(k,fn){handlers[k]=fn;}};
+ const env={location:{href:'https://projectodisha.org/journey-starters/'+query},history:{pushState(_state,_title,url){stack.push(env.location.href);env.location.href=url;}},addEventListener(k,fn){handlers[k]=fn;}};
  Object.defineProperty(env,'localStorage',{get(){throw Error('Trail browsing must not access personal journeys');}});
  return {buttons,cards,status,env,root,click:id=>buttons.find(b=>b.dataset.trailInterest===id).click(),back(){env.location.href=stack.pop();handlers.popstate();},visible:()=>cards.filter(c=>!c.hidden).map(c=>c.id)};
 }

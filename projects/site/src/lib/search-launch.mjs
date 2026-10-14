@@ -1,4 +1,4 @@
-const origin='https://utkalproject.org';
+const origin='https://projectodisha.org';
 export function validateSearchSelection(selection,routes){
  if(selection?.status!=='proposed_not_approved'||selection.origin!==origin||!Array.isArray(selection.pages))throw Error('Expected a proposed search review');
  const seen=new Set();

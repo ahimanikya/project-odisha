@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {sharePage} from '../src/lib/page-share-action.mjs';
 
 function ui() {
-  return {url:'https://utkalproject.org/languages/atlas/?language=018000', title:'Language atlas',
+  return {url:'https://projectodisha.org/languages/atlas/?language=018000', title:'Language atlas',
     button:{disabled:false}, status:{textContent:''}, fallback:{hidden:true},
     input:{value:'old',focused:false,selected:false,focus(){this.focused=true;},select(){this.selected=true;}}};
 }
@@ -41,7 +41,7 @@ test('clipboard success uses the current URL and a later action replaces the man
   const view=ui(),copied=[];
   const clipboard={writeText(value){assert.equal(this,clipboard);copied.push(value);}};
   await sharePage(view,{clipboard});
-  view.url='https://utkalproject.org/explore/?q=Chilika';
+  view.url='https://projectodisha.org/explore/?q=Chilika';
   await sharePage(view,{clipboard});
   assert.equal(copied.at(-1),view.url);
   assert.equal(view.input.value,view.url);

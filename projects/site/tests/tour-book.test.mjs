@@ -6,10 +6,10 @@ import {correctionDraft} from '../src/lib/correction.mjs';
 const entries=[{id:'place:a',title:'Shore',kind:'Place',area:'Balasore',summary:'Watch & listen.',href:'/visit/places/chandipur/',checked:'2026-09-30',access:'Check the tide.',sources:[{title:'Reference',url:'https://example.org/source'}]},{id:'place:b',title:'Forest',kind:'Place',area:'Mayurbhanj',summary:'Leave time.',href:'/visit/places/similipal/',checked:'2026-09-30',access:'Confirm entry.',sources:[{title:'Reference',url:'https://example.org/source'}]}];
 const plan={version:1,title:'A coastal <journey>',startDate:'2027-01-31',items:[{id:'place:a',day:2,notes:'Bring water.\nAsk about access.'},{id:'place:b',day:2,notes:''},{id:'place:old',day:0,notes:'Keep this unknown stop.'}]};
 test('offline text book preserves days, personal notes, unavailable IDs and deduplicated evidence',()=>{
- const html=buildTourBook(plan,entries,{baseURL:'https://utkalproject.org',generatedAt:'2026-09-30'});
+ const html=buildTourBook(plan,entries,{baseURL:'https://projectodisha.org',generatedAt:'2026-09-30'});
  for(const text of ['1 Feb 2027','Ideas for later','Bring water.\nAsk about access.','Keep this unknown stop.','Unavailable item: place:old','Check the tide.','A coastal &lt;journey&gt;','Several areas: Balasore · Mayurbhanj'])assert.ok(html.includes(text),text);
  assert.equal((html.match(/href="https:\/\/example.org\/source"/g)||[]).length,1);
- assert.ok(html.includes('href="https://utkalproject.org/visit/places/chandipur/"'));
+ assert.ok(html.includes('href="https://projectodisha.org/visit/places/chandipur/"'));
  assert.ok(!/<script|<img|<link|<iframe|<form/i.test(html));
  assert.ok(html.includes("default-src 'none'"));
 });

@@ -73,7 +73,7 @@ class Document(HTMLParser):
             self.noindex = True
         if tag == 'meta' and (a.get('property') == 'og:image' or a.get('name') == 'twitter:image'):
             image = urlsplit(a.get('content', ''))
-            if image.netloc == 'utkalproject.org':
+            if image.netloc == 'projectodisha.org':
                 self.resources.append(image.path)
         for key in ['src', 'poster']:
             if a.get(key):

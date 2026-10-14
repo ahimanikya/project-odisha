@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-14",
+  "human_authority": "Ahimanikya Satapathy",
+  "authorization": "Can we move to projectodisha.org and forward utkalproject.org to it?",
+  "scope": "Move canonical website domain, deploy updated links, configure GoDaddy DNS and permanent forwarding. Preserve routes, publication selection, historical evidence and unrelated DNS.",
+  "status": "prepared",
+  "from": "https://utkalproject.org",
+  "to": "https://projectodisha.org",
+  "verification": {
+    "full_tests": 520,
+    "coastal_tests": 114,
+    "publication_build": "passed; same 11 indexable routes",
+    "register_and_bundle": "passed",
+    "live": "pending"
+  },
+  "rollback": "Restore GitHub Pages cname utkalproject.org, its four GitHub A records and www CNAME ahimanikya.github.io; revert website origin commit."
+}

@@ -3,12 +3,12 @@ import assert from 'node:assert/strict';
 import {localContributionPrompts,localContributionURL} from '../src/lib/local-contribution.mjs';
 test('local contribution routes preserve page context and open drafts, not issue submissions',()=>{
  for(const kind of Object.keys(localContributionPrompts)){
-  const url=new URL(localContributionURL(kind,'/destinations/puri/'),'https://utkalproject.org');
+  const url=new URL(localContributionURL(kind,'/destinations/puri/'),'https://projectodisha.org');
   assert.equal(url.pathname,'/contribute/');assert.equal(url.searchParams.get('local'),kind);assert.equal(url.searchParams.get('page'),'/destinations/puri/');assert.equal(url.hash,'#correction-draft');
   assert.ok(localContributionPrompts[kind].questions.length>=4);
  }
  assert.throws(()=>localContributionURL('unknown'));
- const url=new URL(localContributionURL('maker','/food/?other=x&local=bad'),'https://utkalproject.org');assert.equal(url.searchParams.get('local'),'maker');assert.equal(url.searchParams.get('page'),'/food/?other=x&local=bad');
+ const url=new URL(localContributionURL('maker','/food/?other=x&local=bad'),'https://projectodisha.org');assert.equal(url.searchParams.get('local'),'maker');assert.equal(url.searchParams.get('page'),'/food/?other=x&local=bad');
 });
 import {readFileSync} from 'node:fs';
 import {renderVerificationPack} from '../src/lib/verification-pack.mjs';
