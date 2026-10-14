@@ -43,7 +43,7 @@ There is a second boundary around the figures: the report gives **86.30 lakh ton
 
 A reported procurement payment can tell us about the scale of a public purchasing system. It does not tell us a farmer’s profit. We would need actual receipts, production costs, labour, land and the relevant season to understand what remained for a particular grower.
 
-For future reporting, begin with a willing farmer’s account of one harvest. What was sold, when was payment received, what expenses had already been paid, and how does the household account for its own labour? These are proposed questions, not testimony collected by Utkal Project.
+For future reporting, begin with a willing farmer’s account of one harvest. What was sold, when was payment received, what expenses had already been paid, and how does the household account for its own labour? These are proposed questions, not testimony collected by Project Odisha.
 
 The existing [cost-and-income story](rice-income-after-costs.md) offers a historical regional example of why gross value and income after defined costs differ. It cannot be used to turn this statewide procurement payment into a current profit estimate.
 

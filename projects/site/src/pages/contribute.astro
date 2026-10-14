@@ -3,7 +3,7 @@ import LocalContributionLinks from '../components/LocalContributionLinks.astro';
 import {languageContributionURL} from '../lib/language-contribution.mjs';
 import CorrectionDraft from '../components/CorrectionDraft.astro';
 import Shell from '../layouts/Shell.astro';
-const issueURL=(title:string,body:string)=>'https://github.com/ahimanikya/utkal-project/issues/new?'+new URLSearchParams({title,body});
+const issueURL=(title:string,body:string)=>'https://github.com/ahimanikya/project-odisha/issues/new?'+new URLSearchParams({title,body});
 const knowledgeURL=issueURL('[Knowledge] Suggest a new subject', 'Subject and place:\n\nWhat could this entry help readers understand?\n\nSources or firsthand context (label uncertainty and recollections):\n\nRequested public credit (optional):\n\nThis proposal is public on GitHub. Do not include private information. Posting does not imply editorial acceptance or publication.');
 const photoURL=issueURL('[Photo] Photograph proposal', 'Subject and place:\n\nCaption and approximate date:\n\nCreator and public source:\n\nLicence or proposed reuse permission:\n\nEditing, including any AI generation:\n\nRequested public credit (optional):\n\nOnly attach material you have permission to share publicly. Do not attach private permission letters. Editors must verify rights before reuse; posting is not encyclopedia publication.');
 ---

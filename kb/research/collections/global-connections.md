@@ -9,7 +9,7 @@ human_review_claimed: false
 
 # Global Connections
 
-The Founder’s San Antonio partner-city photograph prompted a question: how can Odisha turn international relationships into useful opportunities? On 3 October 2026 he approved a website section within Utkal Project, with a dedicated initiative considered later.
+The Founder’s San Antonio partner-city photograph prompted a question: how can Odisha turn international relationships into useful opportunities? On 3 October 2026 he approved a website section within Project Odisha, with a dedicated initiative considered later.
 
 Existing heritage, migration and maritime research remains relevant but does not establish modern municipal agreements or prove ancestry. This collection reuses the project’s Heritage & Global Connections Atlas ambition and adds a bounded contemporary comparison.
 

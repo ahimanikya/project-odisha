@@ -10,7 +10,7 @@ status: "desk_prepared"
 
 The aim is a visit that is worthwhile for the guest and worthwhile for the person receiving them. A maker should be able to explain a craft without an obligation to sell, a museum should be able to protect staff time, and a guest should know what the visit will actually involve.
 
-Created for Ahimanikya Satapathy's Utkal Project direction with AI-assisted preparation. The Founder remains the human decision owner. This is a reusable preparation deliverable beneath [WORK172's pilot assessment](../tourism-experience-pilot.md); local confirmation and confirmed itinerary work remain open.
+Created for Ahimanikya Satapathy's Project Odisha direction with AI-assisted preparation. The Founder remains the human decision owner. This is a reusable preparation deliverable beneath [WORK172's pilot assessment](../tourism-experience-pilot.md); local confirmation and confirmed itinerary work remain open.
 
 ## How to use this pack
 

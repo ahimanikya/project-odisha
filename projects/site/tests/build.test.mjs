@@ -9,7 +9,7 @@ const read=f=>readFileSync(join(root,f),'utf8');
 test('all built local links, assets and fragment targets resolve',()=>{
   const details=JSON.parse(readFileSync('../../kb/research/destinations/details.json','utf8'));
   const voices=JSON.parse(readFileSync('../../kb/research/voices/collection.json','utf8'));
-  assert.equal(pages.length,90+JSON.parse(readFileSync('../../kb/research/destinations/flexible-visit-plans.json','utf8')).plans.length+JSON.parse(readFileSync('../../kb/research/culture/craft-stories.json','utf8')).pages.length+JSON.parse(readFileSync('../../kb/research/destinations/central-details.json','utf8')).records.length+details.records.length+JSON.parse(readFileSync('../../kb/research/destinations/northern-details.json','utf8')).records.length+JSON.parse(readFileSync('../../kb/research/food/collection.json','utf8')).pages.length+voices.pages.length+JSON.parse(readFileSync('../../kb/research/destinations/regions.json','utf8')).regions.length);
+  assert.equal(pages.length,93+JSON.parse(readFileSync('../../kb/research/destinations/flexible-visit-plans.json','utf8')).plans.length+JSON.parse(readFileSync('../../kb/research/culture/craft-stories.json','utf8')).pages.length+JSON.parse(readFileSync('../../kb/research/destinations/central-details.json','utf8')).records.length+details.records.length+JSON.parse(readFileSync('../../kb/research/destinations/northern-details.json','utf8')).records.length+JSON.parse(readFileSync('../../kb/research/food/collection.json','utf8')).pages.length+voices.pages.length+JSON.parse(readFileSync('../../kb/research/destinations/regions.json','utf8')).regions.length);
   for(const file of pages){
     const html=read(file);
     for(const [,raw] of html.matchAll(/(?:href|src)="([^"]+)"/g)){
@@ -50,7 +50,7 @@ test('preview stays unindexed and ships no remote scripts or live submission end
 test('brand assets, original fonts and their licences are included',()=>{
   for(const path of ['assets/book-boat-v1.png','assets/coast-illustration-v1.png','fonts/NotoSerifOriya-Bold.ttf','fonts/NotoSansOriya-Bold.ttf','fonts/OFL.txt','fonts/OFL-NotoSansOriya.txt'])assert.ok(existsSync(join(root,path)),path);
   const html=read('brand-review/index.html');
-  assert.ok(html.includes('ମାଙ୍କଡ଼ା ପଥର')&&html.includes('ଉତ୍କଳ'));
+  assert.ok(html.includes('ମାଙ୍କଡ଼ା ପଥର')&&html.includes('ପ୍ରୋଜେକ୍ଟ ଓଡ଼ିଶା'));
   assert.ok(!html.includes('Kankada'));
 });
 

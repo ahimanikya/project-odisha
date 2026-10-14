@@ -76,7 +76,7 @@ The [reference study](../about/odisha-tourism-study.md) examines ten sampled pag
 
 ## Repository integration · 1 October 2026
 
-This imported research describes the source workspace at its recorded dates. Utkal Project already has a repository and a published preview; current authority, implementation and release status are held in [project records](../../records/index.md) and [the operating dashboard](../../registers/DASHBOARD.md). This sync adds research for review; it does not deploy these additions or replace implemented website addenda. The scheduled research queue continues in its existing workspace pending a separate canonical-workflow handover.
+This imported research describes the source workspace at its recorded dates. Project Odisha already has a repository and a published preview; current authority, implementation and release status are held in [project records](../../records/index.md) and [the operating dashboard](../../registers/DASHBOARD.md). This sync adds research for review; it does not deploy these additions or replace implemented website addenda. The scheduled research queue continues in its existing workspace pending a separate canonical-workflow handover.
 
 ## Baphlimali returns · 2 October2026 UTC
 

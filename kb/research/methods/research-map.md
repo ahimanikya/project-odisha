@@ -10,7 +10,7 @@ evidence_basis: "Audit of saved files and committed project snapshot; no new web
 
 # Research map and reuse rules
 
-**Research should extend the existing record before starting a new one.** This audit maps the source workspace against Utkal Project’s committed revision `ef4cbe1`. It does not compare against another task’s unfinished visitor-experience edits.
+**Research should extend the existing record before starting a new one.** This audit maps the source workspace against Project Odisha’s committed revision `ef4cbe1`. It does not compare against another task’s unfinished visitor-experience edits.
 
 ## What the audit found
 
@@ -32,7 +32,7 @@ Earlier research snapshots and human approval/release records remain historical 
 
 ## Every queued task, with reuse entrances
 
-Source paths below are relative to this research KB. Project paths are relative to the Utkal Project repository. The structured map retains every selected pointer and the original completion criteria, including those omitted from this compact table.
+Source paths below are relative to this research KB. Project paths are relative to the Project Odisha repository. The structured map retains every selected pointer and the original completion criteria, including those omitted from this compact table.
 
 | Task | Source research to reuse | Additional project work to inspect |
 | --- | --- | --- |

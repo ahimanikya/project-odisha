@@ -46,7 +46,7 @@ If someone in your family would like to share a childhood song, begin with the p
 
 Keep recollection and certainty separate. “I remember my grandmother singing this” is valuable testimony. It does not establish who composed it or how old it is. A remembered fragment can remain a fragment; nobody needs to supply missing lines to make it fit a book.
 
-Let the person decide whether the memory stays private. Ask separately before recording or sharing a voice, name or family detail, especially where children are involved. These are suggestions for a willing conversation, not evidence of interviews conducted by Utkal Project.
+Let the person decide whether the memory stays private. Ask separately before recording or sharing a voice, name or family detail, especially where children are involved. These are suggestions for a willing conversation, not evidence of interviews conducted by Project Odisha.
 
 The next sound to notice may be very small: the point where a singer repeats a phrase, pauses, or changes a word for one child. Keep that detail with the person who explains it. It may tell a richer story than an unsupported claim that everyone has always sung the same song.
 
@@ -59,4 +59,4 @@ The next sound to notice may be very small: the point where a singer repeats a p
 [^lullabies-ova-nanabaya1955]: Odia Virtual Academy, [Nanabaya Gita catalogue](https://ova.gov.in/en/Book?bid=BtWICDPU9ic%3D) and [digitised book](https://ova.gov.in/en/ReadEbooks?bid=BtWICDPU9ic%3D), contents and second-part Nida Mausi. Metadata and digital text share one host and are not independent corroboration. No lyrics or performance transcription reproduced.
 [^lullabies-panda2021]: [Madhabananda Panda in Conversation with Pramod Kumar Das](https://www.suniv.ac.in/NAAC/Criteria-3/3.4.5%20Publications/3.4.5_2021/2021_28.pdf), *Lokaratna* XIV(2), 2021, pp. 284, 287–289. University-hosted copy of the complete journal; these are printed page numbers.
 
-[Evidence dossier and precise follow-ups](../sources/odia-lullabies-research.json). The [full reader story is published on the website](https://utkalproject.org/stories/odia-lullabies/); see the [publication receipt](../../records/odia-lullabies-website-publication-2026-10-12.json). No family interview, audio playback, media reuse or independent human review is claimed. Odia-language literary review remains open.
+[Evidence dossier and precise follow-ups](../sources/odia-lullabies-research.json). The [full reader story is published on the website](https://projectodisha.org/stories/odia-lullabies/); see the [publication receipt](../../records/odia-lullabies-website-publication-2026-10-12.json). No family interview, audio playback, media reuse or independent human review is claimed. Odia-language literary review remains open.

@@ -66,6 +66,6 @@ Behind the changing map lies that very ordinary wish: to have words recognised w
 - **Archive for continued investigation:** [Odia Bibhaba, Sambalpur Hiteishini collection](https://odiabibhaba.in/en/newspapers/sambalpur-hiteishini-e/). Indexed collection description located; no issue-level claim is drawn from it. Newspaper transliterations vary across catalogues.
 - **Evidence and follow-up:** [Section-level record](sambalpur-language-public-life.json). Original orders, petitions, newspaper issues and Fraser’s contemporary administrative report remain archival follow-ups. A contributed tourism-site blog was excluded as the historical authority; its government-hosted URL does not make its author’s claims official findings.
 
-Original narration by Utkal Project, drafted with AI assistance under Ahimanikya Satapathy’s direction. No invented historical dialogue or first-person testimony. Independent historian and language review, and documentary image selection, remain open. Local editorial draft; not published to the website.
+Original narration by Project Odisha, drafted with AI assistance under Ahimanikya Satapathy’s direction. No invented historical dialogue or first-person testimony. Independent historian and language review, and documentary image selection, remain open. Local editorial draft; not published to the website.
 
 </details>

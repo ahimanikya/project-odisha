@@ -64,7 +64,7 @@ test('six coastal guides retain practical decisions, reading links and qualifica
    for(const link of choice.links){
     if(link.href.startsWith('/'))assert.ok(scope.routes.includes(link.href),link.href+' must remain available');
     assert.ok(html.includes('href="'+escapeHTML(link.href)+'"'));
-    const url=new URL(link.href,'https://utkalproject.org').href;
+    const url=new URL(link.href,'https://projectodisha.org').href;
     assert.ok(book.includes('href="'+escapeHTML(url)+'"'));
     assert.ok(text.includes(url));
    }
@@ -79,5 +79,5 @@ test('portable practical links escape labels and reject executable URLs',()=>{
  const plan={version:1,title:'Links',items:[{id:entry.id,day:1,notes:''}]};
  const html=buildTourBook(plan,[entry]),text=buildTextItinerary(plan,[entry]);
  assert.ok(!html.includes('javascript:'));assert.ok(!text.includes('javascript:'));assert.ok(!html.includes('<img src=x'));
- assert.ok(html.includes('>A &amp; B</a>'));assert.ok(text.includes('A & B — https://utkalproject.org/knowledge/chilika/'));
+ assert.ok(html.includes('>A &amp; B</a>'));assert.ok(text.includes('A & B — https://projectodisha.org/knowledge/chilika/'));
 });

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Render the approved free-footage Chilika review direction.
 Requires ffmpeg (supply --ffmpeg) and original licensed sources in --sources.
-Original editorial assembly and synthetic score for Utkal Project, with AI assistance.
+Original editorial assembly and synthetic score for Project Odisha, with AI assistance.
 """
 import argparse, array, hashlib, json, math, random, subprocess, wave
 from pathlib import Path
@@ -43,8 +43,8 @@ run(['-i',str(work/'wetland.mp4'),'-i',str(work/'ferry.mp4'),'-i',str(work/'suns
  '-map','[v]','-an','-c:v','libx264','-crf','21','-preset','fast','-pix_fmt','yuv420p','-r','30','-y',str(work/'scenes.mp4')])
 
 credits=[
- ('UTKAL PROJECT',112,62,'0x203e43',serif),
- ('Rediscover Utkal. Reimagine Odisha.',208,35,'0x9f4731',sans),
+ ('Project Odisha',112,62,'0x203e43',serif),
+ ('Discover Odisha. Imagine the possibilities.',208,35,'0x9f4731',sans),
  ('REAL CHILIKA FOOTAGE',318,24,'0x203e43',sans),
  ('Pratap Padhi · Mangalajodi, Chilika Lake, Odisha (2016)',375,31,'0x203e43',sans),
  ('youtube.com/watch?v=QCIHglqlJMc',421,25,'0x203e43',sans),
@@ -54,7 +54,7 @@ credits=[
  ('youtube.com/watch?v=EMHBwT5_8hc',657,25,'0x203e43',sans),
  ('Footage: CC BY 3.0 · creativecommons.org/licenses/by/3.0/',750,27,'0x203e43',sans),
  ('Edited excerpts, transitions and titles; original audio replaced.',800,26,'0x203e43',sans),
- ('Original synthetic ambient score · Utkal Project, with AI assistance',851,26,'0x203e43',sans),
+ ('Original synthetic ambient score · Project Odisha, with AI assistance',851,26,'0x203e43',sans),
  ('Review draft · No AI-generated scenery · Not a continuous itinerary',925,25,'0x9f4731',sans),
 ]
 cf=','.join(text_filter(t,'credit-'+str(y),y,size,c,face) for t,y,size,c,face in credits)

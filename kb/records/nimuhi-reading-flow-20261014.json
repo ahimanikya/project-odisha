@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-14",
+  "status": "reviewed_for_publication",
+  "human_owner": "Ahimanikya Satapathy",
+  "scope": "Add three short scanned-text excerpts and improve article reading layout. Existing article publication authorization continues.",
+  "source": {
+    "path": "research/references/documents/sashi-sena-prachi-samiti.pdf",
+    "sha256": "8bf378a37cb7e80abc9082441894d09a4f71baecfbfcbfb87b28359fd1be3ca7"
+  },
+  "passages": [
+    {
+      "section": "VIII.5",
+      "printed_page": 49,
+      "pdf_page": 87,
+      "meaning": "Maluni’s glance captivates the young man; not proof of a sustained consensual romance."
+    },
+    {
+      "section": "X.58",
+      "printed_page": 66,
+      "pdf_page": 104,
+      "meaning": "Ahimanikya explicitly identifies his captor in his message to Sashisena."
+    },
+    {
+      "section": "X.81",
+      "printed_page": 69,
+      "pdf_page": 107,
+      "meaning": "Sashisena embraces the restored Ahimanikya; a short line extracted from the reunion verse."
+    }
+  ],
+  "review": "Current assistant self-review against complete scanned pages and surrounding scenes. Direct English sense renderings, not metrical translations or an independent fluent-reader review. Existing I.56, VIII.9 and XI.13 excerpts also checked. Odia typographic spacing and Unicode regularized; no new historical claims.",
+  "layout": [
+    "Explicit paragraph and heading margins",
+    "Six semantic verse figures with Odia language tags, English meaning and exact archive-page links",
+    "Preserved line break in naming couplet",
+    "Smaller, spaced bibliography",
+    "Responsive verse padding and script size"
+  ],
+  "validation": {
+    "full_site_tests": 520,
+    "coastal_tests": 114,
+    "page_acceptance_checks": 620,
+    "search_shortlist_pages": 11,
+    "builds": [
+      "full",
+      "coast",
+      "publication"
+    ],
+    "visual_review": {
+      "desktop_width": 1114,
+      "phone_widths": [
+        390,
+        320
+      ],
+      "horizontal_overflow": false,
+      "paragraph_gap_desktop_px": 22.4,
+      "verse_figures": 6,
+      "source_references_preserved": 19,
+      "naming_couplet_line_break": "verified"
+    },
+    "source_links": "All six verse links target the archived Prachi PDF at the visually checked page numbers.",
+    "reviewer": "Current assistant; no independent reviewer claimed."
+  }
+}

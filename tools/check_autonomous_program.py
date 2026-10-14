@@ -12,8 +12,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 STATES = {'proposed', 'in_progress', 'blocked', 'deferred', 'failed', 'completed'}
 SHA = re.compile(r'[0-9a-f]{40}')
-RUN = re.compile(r'https://github\.com/ahimanikya/utkal-project/actions/runs/[1-9][0-9]*')
-PR = re.compile(r'https://github\.com/ahimanikya/utkal-project/pull/[1-9][0-9]*')
+RUN = re.compile(r'https://github\.com/ahimanikya/(?:utkal-project|project-odisha)/actions/runs/[1-9][0-9]*')
+PR = re.compile(r'https://github\.com/ahimanikya/(?:utkal-project|project-odisha)/pull/[1-9][0-9]*')
 
 
 def timestamp(value):

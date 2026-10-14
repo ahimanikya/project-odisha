@@ -1,12 +1,12 @@
 ---
 type: "Design system adoption record"
-title: "Utkal Project design system adoption and lessons"
+title: "Project Odisha design system adoption and lessons"
 status: "local_applied_candidate_for_review"
 ---
 
-# Utkal Project design system adoption and lessons
+# Project Odisha design system adoption and lessons
 
-The Founder asked to apply the design system and improve it from what we learn. Utkal Project now consumes **0.1.0-rc.2** across its 50 local website pages. The selected sea, stone and hearth colours, original logos and source photographs remain intact. Display and reading typography, Odia support, actions, fields, navigation and cards now share a common foundation.
+The Founder asked to apply the design system and improve it from what we learn. Project Odisha now consumes **0.1.0-rc.2** across its 50 local website pages. The selected sea, stone and hearth colours, original logos and source photographs remain intact. Display and reading typography, Odia support, actions, fields, navigation and cards now share a common foundation.
 
 ## What changed
 

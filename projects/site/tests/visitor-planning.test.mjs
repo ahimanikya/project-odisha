@@ -24,7 +24,7 @@ test('malformed checklist backups are blocked rather than silently discarding ma
 });
 test('both offline editions include marked and unmarked prompts plus retained unknown items',()=>{
  const plan=togglePreparation({...emptyJourney(),checklist:['future-reminder']},'transport',true);
- for(const illustrated of [false,true]){const html=buildTourBook(plan,[],{illustrated});assert.match(html,/Done — Plan the outward and return journeys/);assert.match(html,/To check — Check opening, entry and access arrangements/);assert.match(html,/Done — Saved checklist item: future-reminder/);assert.match(html,/not verified by Utkal Project/);}
+ for(const illustrated of [false,true]){const html=buildTourBook(plan,[],{illustrated});assert.match(html,/Done — Plan the outward and return journeys/);assert.match(html,/To check — Check opening, entry and access arrangements/);assert.match(html,/Done — Saved checklist item: future-reminder/);assert.match(html,/not verified by Project Odisha/);}
 });
 test('the three planning collections expose valid, unique save targets and property limitations',()=>{
  const journey=readFileSync('dist/journey/index.html','utf8'),ids=new Set([...journey.matchAll(/data-save-journey="([^"]+)"/g)].map(m=>m[1]));

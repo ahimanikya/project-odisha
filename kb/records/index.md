@@ -1,5 +1,7 @@
 # Evidence and delivery records
 
+Utkal Project was renamed Project Odisha on 14 October 2026. Historical names, URLs, approval quotes and evidence remain as originally recorded. Current website: https://projectodisha.org/. Current repository: https://github.com/ahimanikya/project-odisha.
+
 Start with the [current register dashboard](../registers/DASHBOARD.md) and the [active 500-item programme](autonomous-500-program.json). This directory contains dated evidence, including old candidates and failed checks. Its historical list below is a reading aid, not a complete or current release queue.
 
 ## Find the right evidence

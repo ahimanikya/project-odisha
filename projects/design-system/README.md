@@ -1,6 +1,6 @@
 # Utkal Design System · 0.1.0-rc.5
 
-Shared colour tokens, scoped CSS components, local fonts and original utility icons for Utkal projects. Implementation candidate; each project adopts a pinned version under its human owner. No automatic deployment or organization-wide adoption.
+Shared colour tokens, scoped CSS components, local fonts and original utility icons for Project Odishas. Implementation candidate; each project adopts a pinned version under its human owner. No automatic deployment or organization-wide adoption.
 
 ## Media and meaning
 

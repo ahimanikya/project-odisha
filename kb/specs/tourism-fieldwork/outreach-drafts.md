@@ -10,11 +10,11 @@ These messages are **unsent drafts** for the Founder or a specifically authorize
 
 ## Kala Bhoomi
 
-**Proposed recipient:** Museum visitor services or the responsible museum officer. **Subject:** A research conversation about Kala Bhoomi for Utkal Project
+**Proposed recipient:** Museum visitor services or the responsible museum officer. **Subject:** A research conversation about Kala Bhoomi for Project Odisha
 
 Dear [recipient name],
 
-I am [sender name and role], writing for Utkal Project, an independent initiative documenting Odisha’s places, culture and people. We are exploring a small research visit to understand Kala Bhoomi and the practical conditions a future visitor should know.
+I am [sender name and role], writing for Project Odisha, an independent initiative documenting Odisha’s places, culture and people. We are exploring a small research visit to understand Kala Bhoomi and the practical conditions a future visitor should know.
 
 Choose one displayed textile or craft object and ask how its material, technique and maker can be described accurately.
 
@@ -28,11 +28,11 @@ Thank you,
 
 ## Dhauli
 
-**Proposed recipient:** Responsible site authority and an appropriately authorized local guide. **Subject:** A research conversation about Dhauli for Utkal Project
+**Proposed recipient:** Responsible site authority and an appropriately authorized local guide. **Subject:** A research conversation about Dhauli for Project Odisha
 
 Dear [recipient name],
 
-I am [sender name and role], writing for Utkal Project, an independent initiative documenting Odisha’s places, culture and people. We are exploring a small research visit to understand Dhauli and the practical conditions a future visitor should know.
+I am [sender name and role], writing for Project Odisha, an independent initiative documenting Odisha’s places, culture and people. We are exploring a small research visit to understand Dhauli and the practical conditions a future visitor should know.
 
 Keep the ancient edict site and modern peace pagoda distinct; ask how a visitor can encounter both without compressing their history into one event.
 
@@ -46,11 +46,11 @@ Thank you,
 
 ## Cuttack Tarakasi
 
-**Proposed recipient:** A willing maker or workshop proprietor with authority over the visit. **Subject:** A research conversation about Cuttack Tarakasi for Utkal Project
+**Proposed recipient:** A willing maker or workshop proprietor with authority over the visit. **Subject:** A research conversation about Cuttack Tarakasi for Project Odisha
 
 Dear [recipient name],
 
-I am [sender name and role], writing for Utkal Project, an independent initiative documenting Odisha’s places, culture and people. We are exploring a small research visit to understand Cuttack Tarakasi and the practical conditions a future visitor should know.
+I am [sender name and role], writing for Project Odisha, an independent initiative documenting Odisha’s places, culture and people. We are exploring a small research visit to understand Cuttack Tarakasi and the practical conditions a future visitor should know.
 
 Ask the maker to choose a piece and explain one decision that took skill or time. Their voice should guide the account.
 
@@ -64,11 +64,11 @@ Thank you,
 
 ## Odisha State Maritime Museum
 
-**Proposed recipient:** Museum management or responsible visitor-services officer. **Subject:** A research conversation about Odisha State Maritime Museum for Utkal Project
+**Proposed recipient:** Museum management or responsible visitor-services officer. **Subject:** A research conversation about Odisha State Maritime Museum for Project Odisha
 
 Dear [recipient name],
 
-I am [sender name and role], writing for Utkal Project, an independent initiative documenting Odisha’s places, culture and people. We are exploring a small research visit to understand Odisha State Maritime Museum and the practical conditions a future visitor should know.
+I am [sender name and role], writing for Project Odisha, an independent initiative documenting Odisha’s places, culture and people. We are exploring a small research visit to understand Odisha State Maritime Museum and the practical conditions a future visitor should know.
 
 Ask staff to identify a currently displayed object that helps explain maritime knowledge or exchange. Let its label determine what can be claimed.
 
@@ -82,11 +82,11 @@ Thank you,
 
 ## Raghurajpur
 
-**Proposed recipient:** An individual willing artist or household workshop. **Subject:** A research conversation about Raghurajpur for Utkal Project
+**Proposed recipient:** An individual willing artist or household workshop. **Subject:** A research conversation about Raghurajpur for Project Odisha
 
 Dear [recipient name],
 
-I am [sender name and role], writing for Utkal Project, an independent initiative documenting Odisha’s places, culture and people. We are exploring a small research visit to understand Raghurajpur and the practical conditions a future visitor should know.
+I am [sender name and role], writing for Project Odisha, an independent initiative documenting Odisha’s places, culture and people. We are exploring a small research visit to understand Raghurajpur and the practical conditions a future visitor should know.
 
 Invite the artist to select a work and explain its subject, materials and meaning in their own terms. Separate their account from independently sourced history.
 
@@ -100,11 +100,11 @@ Thank you,
 
 ## Pipili appliqué
 
-**Proposed recipient:** A willing maker or workshop owner, with any represented makers included. **Subject:** A research conversation about Pipili appliqué for Utkal Project
+**Proposed recipient:** A willing maker or workshop owner, with any represented makers included. **Subject:** A research conversation about Pipili appliqué for Project Odisha
 
 Dear [recipient name],
 
-I am [sender name and role], writing for Utkal Project, an independent initiative documenting Odisha’s places, culture and people. We are exploring a small research visit to understand Pipili appliqué and the practical conditions a future visitor should know.
+I am [sender name and role], writing for Project Odisha, an independent initiative documenting Odisha’s places, culture and people. We are exploring a small research visit to understand Pipili appliqué and the practical conditions a future visitor should know.
 
 Ask a maker to show how one shape or colour choice changes an object. Distinguish making from retail and identify whose work is being shown.
 

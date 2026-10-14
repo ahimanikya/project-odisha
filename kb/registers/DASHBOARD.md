@@ -1,11 +1,11 @@
 ---
 type: Generated register
-title: "Utkal Project dashboard"
+title: "Project Odisha dashboard"
 ---
 
-# Utkal Project · dashboard
+# Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `6e62c717f4c2c563d6ad7f250dd85b3125f3cc8cbd3caaf14a8cf78b3e5c07ce`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `721287913fb03eaa13753fd59d787ad6fbec509c8676a59a322cd4d50e7b4d37`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -568,6 +568,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-226 · Research Huluhuli for Sounds of Odisha | approved | Ahimanikya Satapathy | Direct Founder instruction authorizes Huluhuli desk research, article preparation and preservation in KB. It does not verify facts or imply practitioner review, recording rights or website publication. |
 | UTP-DEC-227 · Extend Sounds of Odisha beginning with Sankha | approved | Ahimanikya Satapathy | Founder accepted the preceding recommendation to research Sankha next, followed by Mardala and Dalkhai, within Sounds of Odisha. This batch delivers Sankha article, collection outline and KB evidence. No field recording, relationship or media rights granted. Existing DEC225 covers routine repository preservation. |
 | UTP-DEC-228 · Clarify tongue-led Huluhuli and correct the artwork | approved | Ahimanikya Satapathy | Founder corrects the depiction: tongue movement creates the trill, not merely opening the mouth. Revise misleading laughing-mouth artwork and clarify text; existing DEC225 covers tested UTP publication. No practitioner review inferred. |
+| UTP-DEC-2026101419 · Publish Nimuhi article and associated public assets | recorded_direction | Ahimanikya Satapathy | Publish the reviewed Nimuhi article, the 1968 comparison plate, user-supplied later photograph, two credited source-book PDFs, and a culture-trails discovery link. Preserve source/date qualifications. |
 
 ## Reviews
 
@@ -939,7 +940,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | ID / title | State | References |
 |---|---|---|
-| UTP-REG-002 · Utkal Project | active | UTP-DEC-002 |
+| UTP-REG-002 · Project Odisha | active | UTP-DEC-002 |
 | UTP-REQ-001 · First encyclopedia entry and local preview brief | approved | UTB-DEC-005 |
 | UTP-REQ-002 · Website and brand foundation brief | draft_from_founder_direction | UTP-DEC-009 |
 
@@ -957,16 +958,16 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-412 | 2026-10-12T16:48:29.894163+00:00 | Selected the collection’s unfilled lullaby research subject after KB search found no dedicated record; article and evidence dossier are the bounded delivery. | — |
-| UTP-EVT-413 | 2026-10-12T16:57:33.066014+00:00 | Delivered Odia lullaby reader article and source dossier via checked PR225; verified merged bytes. Website adaptation remains pending; programme76/500. | — |
-| UTP-EVT-414 | 2026-10-12T17:37:14.414749+00:00 | Selected publication of the delivered lullaby article, with collection and Explore discovery; source research reused. | — |
-| UTP-EVT-415 | 2026-10-12T17:51:38.708841+00:00 | Published Odia lullabies further reading via checked PR226 and approved main workflow; live narrative and discovery verified. Programme 77/500. | — |
-| UTP-EVT-416 | 2026-10-13T01:22:16.412326+00:00 | Selected the collection’s unfilled boat/fishing-song subject after scoped KB and queue searches; article and source dossier are the bounded output. | — |
-| UTP-EVT-417 | 2026-10-13T01:31:38.229373+00:00 | Boat-song primary passages remain unavailable. Selected the independent craft-listening narrative gap, reusing existing Kotpad sources without an acoustic or fieldwork claim. | — |
-| UTP-EVT-418 | 2026-10-13T02:19:48.902328+00:00 | Delivered craft-listening article and source-reuse dossier through checked PR227; verified merged bytes. Website adaptation pending. Programme 78/500; boat-song item remains blocked. | — |
-| UTP-EVT-419 | 2026-10-13T02:38:07.604694+00:00 | Selected public adaptation of reviewed craft-listening article with collection and Explore discovery. | — |
 | UTP-EVT-420 | 2026-10-13T07:03:39.954902+00:00 | Published craft-listening article through checked PR228 and approved main workflow; live content and discovery verified. Programme 79/500. | — |
 | UTP-EVT-421 | 2026-10-13T15:25:50.008459+00:00 | Selected natural soundscapes gap with Chilika reuse; one combined KB research and website delivery. No acoustic field evidence claimed. | — |
+| UTP-EVT-2026101401 | 2026-10-14T06:00:00Z | Prepared 33 source-linked Odisha arts and literature calendar entries within user-requested scope, distinguishing announced, reported, awaiting dates and past editions. | — |
+| UTP-EVT-2026101402 | 2026-10-14T05:53:29.329065+00:00 | Expanded calendar to 37 entries; 520 full and 113 coastal tests pass. Publication build and browser filtering/mobile checks pass. | — |
+| UTP-EVT-2026101403 | 2026-10-14T07:20:30.959091+00:00 | Second calendar pass verified UNURUM dates from university-linked Instagram; updated latest KLF dates with discrepancy retained, recovered OALF and two past Toshali ranges, clarified Utsha application status. | — |
+| UTP-EVT-2026101419 | 2026-10-14T07:58:45.861287+00:00 | Prepared the user-approved article and four public assets for the existing publication pipeline. | — |
+| UTP-EVT-2026101420 | 2026-10-14T14:57:51.864569+00:00 | Prepared Founder-requested migration to projectodisha.org and permanent redirect of utkalproject.org, preserving routes and search scope. | — |
+| UTP-EVT-2026101421 | 2026-10-14T15:10:36.710983+00:00 | Published new canonical domain, configured new DNS and HTTPS, verified new site. GoDaddy saved apex/www permanent redirects; old-domain propagation and nested-path verification remain pending. | — |
+| UTP-EVT-2026101422 | 2026-10-14T15:15:47.256907+00:00 | Applied approved Project Odisha naming and homepage tagline to live website sources; historical evidence retained. | — |
+| UTP-EVT-2026101423 | 2026-10-14T16:24:16.524442+00:00 | Renamed GitHub repository to project-odisha and prepared active-reference cleanup under Founder approval. Historical evidence preserved. | — |
 
 ## Deferred extensions
 

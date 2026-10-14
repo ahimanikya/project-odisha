@@ -4,7 +4,9 @@ title: "Utkal Analytics: consent and deployment"
 status: "published_and_verified"
 ---
 
-# Utkal Analytics
+# Project Odisha analytics
+
+Current website: https://projectodisha.org/. The account and stream labels below preserve the verified 1 October setup; their external admin labels have not yet been reverified or renamed. The brand changed to Project Odisha on 14 October 2026.
 
 The Founder requested creation if no property existed and authorised terms acceptance for India. A dedicated Utkal Project account and website stream now exist. [Setup evidence](../../records/evidence/visitor-readiness-2026-10-01/analytics-setup.json) records the actual IDs and the limits of the terms observation.
 

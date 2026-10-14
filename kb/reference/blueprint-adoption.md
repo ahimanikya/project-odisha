@@ -5,7 +5,7 @@ title: "UTP Blueprint adoption"
 
 # UTP Blueprint adoption
 
-- Project: **UTP · Utkal Project**.
+- Project: **UTP · Project Odisha**.
 - Blueprint baseline: **0.1.0-rc.1**.
 - Immutable Blueprint commit: [`ab5cd05315feecbc5d5c71b372d198c67ee29910`](https://github.com/ahimanikya/utkal-blueprint/commit/ab5cd05315feecbc5d5c71b372d198c67ee29910).
 - Accountable human: **Ahimanikya Satapathy**.

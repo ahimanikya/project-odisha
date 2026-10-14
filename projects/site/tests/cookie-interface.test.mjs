@@ -6,13 +6,13 @@ import {runInNewContext} from 'node:vm';
 import * as analytics from '../src/lib/analytics.mjs';
 const component=readFileSync(new URL('../src/components/Analytics.astro',import.meta.url),'utf8');
 const script=stripTypeScriptTypes(component.match(/<script>\s*([\s\S]*?)<\/script>/)[1].replace(/^import .*;$/m,''));
-function fixture({saved=null,settings=false,storageFails=false,origin='https://utkalproject.org'}={}){
+function fixture({saved=null,settings=false,storageFails=false,origin='https://projectodisha.org'}={}){
  const events={},loads=[],writes=[],cleared=[];let reloads=0;
  const node=()=>({hidden:true,textContent:'',handlers:{},addEventListener(k,fn){this.handlers[k]=fn;},focus(){this.focused=true;},blur(){this.focused=false;}});
  const accept=node(),decline=node(),panel=node(),status=node(),preferences=settings?node():null;
  accept.dataset={analytics:'accepted'};decline.dataset={analytics:'declined'};
  panel.querySelectorAll=()=>[accept,decline];panel.querySelector=()=>accept;
- const config={id:'G-ABC1234567',canonical:'https://utkalproject.org/how-to-use/',title:'Privacy',allowedPaths:['/how-to-use/']};
+ const config={id:'G-ABC1234567',canonical:'https://projectodisha.org/how-to-use/',title:'Privacy',allowedPaths:['/how-to-use/']};
  const nodes={'analytics-config':{textContent:JSON.stringify(config)},'analytics-choice':panel,'analytics-status':status,'analytics-settings':preferences};
  const document={getElementById:id=>nodes[id],createElement:()=>({}),head:{append:s=>loads.push(s)},get cookie(){return '_ga=test; _ga_EXAMPLE=test; unrelated=keep';},set cookie(v){cleared.push(v);}};
  const window={addEventListener:(k,fn)=>{events[k]=fn;}};

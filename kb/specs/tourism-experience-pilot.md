@@ -28,7 +28,7 @@ Deliverables are a source register, a candidate inventory, verified experience r
 
 | Initiative | Proposed responsibility | Boundary |
 | --- | --- | --- |
-| Utkal Project | Public cultural research, stories, experience information, itineraries and corrections | Editorial inclusion and rankings remain independent of payment or commercial membership. |
+| Project Odisha | Public cultural research, stories, experience information, itineraries and corrections | Editorial inclusion and rankings remain independent of payment or commercial membership. |
 | Utkal Collective | Future commercial delivery network, host readiness, quotes and visitor service | Separate commercial arrangements, costs and interests must be disclosed; membership is not a quality certification. |
 | Boita | Proposed volunteer think tank: synthesize field barriers, recommend government improvements and support local entrepreneurship | Working direction from the Founder; this brief does not establish a legal body, appoint volunteers or imply government partnership. |
 | Global Connections | Explore suitable learning partners and reciprocal cultural exchanges | Reuse its existing proposal process; a city mentioned in research is not an agreed partner. |

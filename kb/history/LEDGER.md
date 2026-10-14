@@ -1,9 +1,11 @@
 ---
 type: "Project record"
-title: "Utkal Project · evolution ledger"
+title: "Project Odisha · evolution ledger"
 ---
 
-# Utkal Project · evolution ledger
+# Project Odisha · evolution ledger
+
+Utkal Project was renamed Project Odisha on 14 October 2026. Earlier entries preserve the original names and evidence. See [current identity](../reference/project-identity.md).
 
 Initial retrospective capture: **27 September 2026, America/Los_Angeles** (28 September 2026 UTC). Event dates are unknown unless explicitly recorded; entry order is not a substitute for a date. This is a selective backfill, not a claim to contain every earlier discussion.
 
@@ -1058,3 +1060,17 @@ The Founder clarified the front-page rotation reference and invited a new Human 
 ## UTP-HIS-HOME-SHARING-PUBLISHED-20261006 — The Konark link preview is live
 
 The Founder approved publication. PR143 was merged and deployed; the live homepage’s Open Graph and Twitter tags use the approved Konark artwork, whose served hash matches the reviewed file. [Publication and verification](../records/home-sharing-konark-publication-2026-10-06.json). External social-preview caches were not refreshed.
+
+
+## UTP-HIS-NIMUHI-PERSONAL-PASSAGE-20261014 · Growing into a name
+
+Ahimanikya approved a more personal reflection linking his lifelong name with the longing, courage and love in Sashisena Kavya, then explicitly requested publication. [Approved wording and release record](../records/nimuhi-personal-passage-20261014.json).
+
+
+## UTP-HIS-NIMUHI-READER-FOOTNOTES-20261014 · A clearer reading path
+
+Following Pradip Biswal’s feedback relayed by Ahimanikya, the article’s bracketed references become linked footnotes. Detailed verse and page coordinates move out of the narrative; all sources, excerpts and historical qualifications remain. [Revision and verification](../records/nimuhi-reader-footnotes-20261014.json).
+
+## UTP-HIS-0341 · Utkal Project renamed Project Odisha
+
+On 14 October 2026, the Founder approved updating active references and renaming the repository to `ahimanikya/project-odisha`. Current website: https://projectodisha.org/. Historical evidence and stable identifiers remain intact. See [cleanup record](../records/project-odisha-reference-cleanup-20261014.json).

@@ -38,7 +38,7 @@ const evidenceUses=[
   {reference?<MagazinePlace entry={entry} story={story} destination={destination} sources={sources} evidenceUses={evidenceUses}/>:<div class:list={['wrap',{'destination-wide':!!destination,'reference-place':reference}]}>
     <div class:list={['story-cover',{'reference-cover':reference}]}><div class="page-head">
       <p class="breadcrumb"><a href="/explore/">The collection</a> / {entry.category}</p>
-      <p class="eyebrow">{story?'A Utkal story':'Research note'} · {entry.category}</p>
+      <p class="eyebrow">{story?'A Project Odisha story':'Research note'} · {entry.category}</p>
       <h1>{entry.label}</h1>
       <p class="lead">{story?story.headline:entry.dek}</p>
       {reference&&<SaveJourney id={destination.id} quiet />}

@@ -32,6 +32,8 @@ journey_ids = unique_strings('journey_ids', r'[a-z0-9][a-z0-9:/_-]{0,159}')
 starter_ids = unique_strings('starter_ids', r'[a-z0-9][a-z0-9_-]{0,159}')
 config.setdefault('downloads', [])
 downloads = set(unique_strings('downloads', r'/assets/[a-z0-9-]+\.txt'))
+config.setdefault('documents', [])
+documents = set(unique_strings('documents', r'/archive/[a-z0-9-]+\.pdf'))
 allowed = set(routes)
 # Do not follow symlinks even when a target would otherwise appear reachable.
 if any(p.is_symlink() for p in OUT.rglob('*')):
@@ -71,7 +73,7 @@ class Document(HTMLParser):
             self.noindex = True
         if tag == 'meta' and (a.get('property') == 'og:image' or a.get('name') == 'twitter:image'):
             image = urlsplit(a.get('content', ''))
-            if image.netloc == 'utkalproject.org':
+            if image.netloc == 'projectodisha.org':
                 self.resources.append(image.path)
         for key in ['src', 'poster']:
             if a.get(key):
@@ -163,6 +165,10 @@ for route, doc in pages.items():
         if target in downloads:
             if resolved.fragment:
                 errors.append('Download must not contain a fragment: ' + ref)
+            retain(target, route_file(route))
+            continue
+        if target in documents:
+            # PDF page fragments belong to the reader, not HTML element IDs.
             retain(target, route_file(route))
             continue
         if target not in allowed:

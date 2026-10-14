@@ -1,6 +1,6 @@
 ---
 type: "Release candidate"
-title: "Utkal Project — expanded public preview"
+title: "Project Odisha — expanded public preview"
 status: "awaiting_founder_review"
 ---
 
@@ -44,7 +44,7 @@ The end-to-end walkthrough found a real omission: saving Chilika gave a photo-bo
 
 1. Record the Founder's decision, exact approved scope and any accepted limits. If content changes materially, rebuild and compare with the manifest before using approval.
 2. Review the complete pending repository changes against the existing PR; include the canonical KB, new assets, source code and issue templates. Preserve earlier local work. Commit and update the reviewed PR, then merge the approved candidate to main.
-3. Use the existing manual **Publish Utkal Project** workflow on main, under ahimanikya, with the Founder approval input. Only `projects/site/dist` is the website artifact; private/operating material is not automatically exported as website content. Public repository contents remain publicly readable separately.
+3. Use the existing manual **Publish Project Odisha** workflow on main, under ahimanikya, with the Founder approval input. Only `projects/site/dist` is the website artifact; private/operating material is not automatically exported as website content. Public repository contents remain publicly readable separately.
 4. Check the actual deployment result and live homepage, collection search, place page, journey saving/export, images and contribution handoffs. Verify the actual issue templates on the default branch. Record real commit and run IDs.
 5. If deployment fails, leave the last successful website in place while fixing it. For a bad live release, prepare a revert to the last verified website version and follow the same human release gate; do not delete reader browser data. A static rollback does not automatically migrate saved journeys.
 

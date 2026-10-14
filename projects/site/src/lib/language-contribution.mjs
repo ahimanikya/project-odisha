@@ -16,5 +16,5 @@ export function languageContributionURL(language = '') {
   '',
   'This issue becomes public only when you submit it on GitHub. Do not include private contact details, consent documents, restricted knowledge or unapproved recordings. Public availability is not permission to reuse. Editorial review and Founder approval are required before encyclopedia publication.'
  ].join('\n');
- return 'https://github.com/ahimanikya/utkal-project/issues/new?' + new URLSearchParams({title: '[Language] ' + (language || 'Contribution proposal'), body});
+ return 'https://github.com/ahimanikya/project-odisha/issues/new?' + new URLSearchParams({title: '[Language] ' + (language || 'Contribution proposal'), body});
 }

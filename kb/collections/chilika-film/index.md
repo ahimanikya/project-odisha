@@ -12,7 +12,7 @@ Footage credits, including the creator’s original video titles, source links, 
 - [ferry ride @ Chilika lake](https://www.youtube.com/watch?v=RCnSeJtCOqw) — Ajit Satam, published 16 January 2019; 1080p source.
 - [sunset at chilika lake.](https://www.youtube.com/watch?v=EMHBwT5_8hc) — Ajit Satam, published 16 January 2019; 1080p source.
 
-[CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) applies to the source footage. Changes: selected excerpts, resizing where needed, opening and place titles, dissolves/fades, end credits and replacement of original audio with the new score. No AI-generated scenery, purchase or deployment. Founder direction: Ahimanikya Satapathy; editorial assembly and score preparation: AI assistant for Utkal Project.
+[CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) applies to the source footage. Changes: selected excerpts, resizing where needed, opening and place titles, dissolves/fades, end credits and replacement of original audio with the new score. No AI-generated scenery, purchase or deployment. Founder direction: Ahimanikya Satapathy; editorial assembly and score preparation: AI assistant for Project Odisha.
 
 An initially selected bird compilation was excluded because its description stated that some material was used under fair use; its underlying rights and filming locations could not be established. It does not appear in this film.
 
@@ -22,7 +22,7 @@ An initially selected bird compilation was excluded because its description stat
 
 [Play the 27-second review cut](chilika-evening-review-v1.mp4).
 
-A 20-second excerpt of real Chilika footage, followed by seven seconds of Utkal Project identity and credits. Silent, 1920 × 1080, 30 fps. This is a single-source editorial test, not the complete multi-location destination film. It has not been added to the public website or deployed.
+A 20-second excerpt of real Chilika footage, followed by seven seconds of Project Odisha identity and credits. Silent, 1920 × 1080, 30 fps. This is a single-source editorial test, not the complete multi-location destination film. It has not been added to the public website or deployed.
 
 Original: [sunset at chilika lake.](https://www.youtube.com/watch?v=EMHBwT5_8hc), Ajit Satam, published 16 January 2019. The video page and downloaded metadata both declare Creative Commons Attribution, reuse allowed. [CC BY 3.0 licence](https://creativecommons.org/licenses/by/3.0/). YouTube’s licence-help page links to that version. The creator describes returning boats after a ferry trip and tags Gangadharpur; precise filming date is not independently established.
 

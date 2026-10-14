@@ -30,7 +30,7 @@ for route in config['routes']:
 checks=[]
 def add(route,kind,errors,details):checks.append(dict(route=route,check=kind,status='pass' if not errors else 'fail',errors=errors,details=details))
 for route,page in pages.items():
- errors=[];canonical=[a.get('href') for a in page.nodes_of('link') if a.get('rel')=='canonical'];expected='https://utkalproject.org'+route
+ errors=[];canonical=[a.get('href') for a in page.nodes_of('link') if a.get('rel')=='canonical'];expected='https://projectodisha.org'+route
  if canonical!=[expected]:errors.append('Canonical mismatch '+str(canonical))
  if not 50<=len(page.meta('description'))<=250:errors.append('Description missing or poorly bounded')
  if len(page.document_titles)!=1 or not page.meta('og:title'):errors.append('Page/social title missing')
@@ -58,6 +58,9 @@ for route,page in pages.items():
   target=urlsplit(urljoin('https://edition.invalid'+route,ref));path=unquote(target.path);local_links+=1
   if path in config.get('downloads',[]):
    if target.fragment or not (OUT/path.lstrip('/')).is_file():errors.append('Missing or invalid download '+ref)
+   continue
+  if path in config.get('documents',[]):
+   if not (OUT/path.lstrip('/')).is_file():errors.append('Missing archive document '+ref)
    continue
   if path not in pages:errors.append('Excluded or missing local link '+ref)
   elif target.fragment and not any(a.get('id')==unquote(target.fragment) for _,a in pages[path].nodes):errors.append('Missing fragment '+ref)

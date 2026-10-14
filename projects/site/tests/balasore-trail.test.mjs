@@ -43,7 +43,7 @@ test('Balasore page and contributions preserve access uncertainty, literary prov
  assert.equal((page.match(/data-journey-starter="northern-stories"/g)||[]).length,1);assert.ok(page.includes('Save these 5 ideas together'));
  for(const chapter of trail.chapters){assert.ok(existsSync('dist'+chapter.photo.src));assert.ok(page.includes(chapter.photo.creator));for(const id of chapter.ideas){const entry=data.catalog.find(i=>i.id===id);assert.ok(page.includes('href="'+entry.href+'"'));assert.ok(readFileSync('dist'+entry.href.split('#')[0]+'index.html','utf8').includes('href="/journey-starters/balasore/"'));}}
  for(const link of trail.preparation_links){assert.ok(page.includes('href="'+link.href+'"'));assert.ok(existsSync('dist'+link.href+'index.html'));}
- for(const kind of ['shore','literary','food']){assert.ok(page.includes('local='+kind+'&amp;page=%2Fjourney-starters%2Fbalasore%2F'));assert.equal(new URL(localContributionURL(kind,'/journey-starters/balasore/'),'https://utkalproject.org').searchParams.get('page'),'/journey-starters/balasore/');}
+ for(const kind of ['shore','literary','food']){assert.ok(page.includes('local='+kind+'&amp;page=%2Fjourney-starters%2Fbalasore%2F'));assert.equal(new URL(localContributionURL(kind,'/journey-starters/balasore/'),'https://projectodisha.org').searchParams.get('page'),'/journey-starters/balasore/');}
  assert.ok(readFileSync('dist/contribute/index.html','utf8').includes('value="/journey-starters/balasore/"'));
  assert.ok(localContributionPrompts.shore.questions.join(' ').includes('tide prediction'));
  assert.ok(localContributionPrompts.literary.evidence.includes('fictional setting'));

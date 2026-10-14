@@ -1,9 +1,9 @@
 ---
 type: "Project record"
-title: "Utkal Project · Utkala · Odisha"
+title: "Project Odisha · Utkala · Odisha"
 ---
 
-# Utkal Project · Utkala · Odisha
+# Project Odisha · Utkala · Odisha
 
 A community encyclopedia connecting knowledge, heritage, people and opportunity around Odisha.
 
@@ -37,7 +37,7 @@ The first encyclopedia draft and Astro preview are local review artifacts; neith
 
 Anyone may propose a contribution once channels are established. Accepted contributions do not automatically grant editorial authority or Git access. No public reuse licence has yet been selected. Source and contributor credit remain part of every publication decision.
 
-Utkal Blueprint — created by Ahimanikya Satapathy, Founder & Editor-in-Chief of Utkal Project.
+Utkal Blueprint — created by Ahimanikya Satapathy, Founder & Editor-in-Chief of Project Odisha.
 
 ## Registers and project memory
 

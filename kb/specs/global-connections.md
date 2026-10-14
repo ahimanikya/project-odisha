@@ -1,6 +1,6 @@
 ---
 type: "Product and operating brief"
-title: "Global Connections within Utkal Project"
+title: "Global Connections within Project Odisha"
 ---
 
 # Global Connections
@@ -13,7 +13,7 @@ Help residents, diaspora communities, students, cultural organisations and willi
 
 ## Operating boundaries
 
-This remains UTP work, not a separately formed organisation. The Founder retains final authority. No external institution has joined this section through being mentioned, and no city relationship belongs to Utkal Project. No AI persona appointments, external outreach, membership purchases, funding commitments or internship offers are created by this release.
+This remains UTP work, not a separately formed organisation. The Founder retains final authority. No external institution has joined this section through being mentioned, and no city relationship belongs to Project Odisha. No AI persona appointments, external outreach, membership purchases, funding commitments or internship offers are created by this release.
 
 A private body can research, convene and organise agreed activities. Formal municipal partnerships need the relevant city authorities and applicable state/central processes. Confirm the process with BMC and the Odisha government before proposing an official agreement. Public-benefit editorial work remains independent of any future commercial referrals through Utkal Collective. Do not imply government endorsement.
 

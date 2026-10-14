@@ -1,9 +1,9 @@
 ---
 type: "Project record"
-title: "Utkal Project · from knowledge to delivery"
+title: "Project Odisha · from knowledge to delivery"
 ---
 
-# Utkal Project · from knowledge to delivery
+# Project Odisha · from knowledge to delivery
 
 The Founder directed that the OKF include the organizational model, working model and the work we will do, with research converted into actionable work. This programme organizes those intentions; it does not schedule or approve every future deliverable.
 
@@ -40,4 +40,4 @@ Utkal Collective and Utkal Unbound retain independent charters and lifecycles. H
 
 Use the [Blueprint research-to-work brief](https://github.com/ahimanikya/utkal-blueprint/blob/main/templates/research-to-work.md). Link its sources, specify the audience, deliverable, dependencies, acceptance evidence and next action, then record the Founder's decision in the work register. Assign contributors within existing human supervision. Close the work with review, the applicable human gate and preserved lessons.
 
-The research import preserves the historical title and wording inside original documents. Current identity is **Utkal Project — Rediscover Utkal. Reimagine Odisha.** Historical text is evidence of evolution, not an instruction to revert current branding.
+The research import preserves the historical title and wording inside original documents. Current identity is **Project Odisha — Discover Odisha. Imagine the possibilities.** Historical text is evidence of evolution, not an instruction to revert current branding.

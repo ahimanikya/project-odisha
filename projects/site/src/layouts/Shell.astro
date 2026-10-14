@@ -21,13 +21,13 @@ import '../styles/design-system.css';
 import designSystem from '../../../design-system/package.json';
 const planningReturn=Astro.url.pathname.startsWith('/visit/stays/')?['/stay-areas/','Compare other stay areas']:Astro.url.pathname.startsWith('/visit/experiences/')?['/things-to-do/','Explore more things to do']:Astro.url.pathname.startsWith('/food/')&&Astro.url.pathname!=='/food/'?['/food/','Explore food & flavours']:Astro.url.pathname.startsWith('/destinations/')&&Astro.url.pathname!=='/destinations/'?['/destinations/','Browse destination guides']:null;
 const navLinks=[['/explore/','Explore','explore'],['/journey/','My journey','journey'],['/about/','Our purpose','about'],['/contribute/','Be part of it','contribute']];
-const {title='Rediscover Utkal. Reimagine Odisha.', description='A growing, shared encyclopedia of Odisha’s people, places and living heritage.',active='',wide=false,related=true}=Astro.props;
+const {title='Discover Odisha. Imagine the possibilities.', description='A growing, shared encyclopedia of Odisha’s people, places and living heritage.',active='',wide=false,related=true,shareImage}=Astro.props;
 const pagePath=Astro.url.pathname==='/404/'?'/404.html':Astro.url.pathname;
 const pageDescription=isCoastalEdition?(pageDescriptions.descriptions[pagePath]||description):description;
 const canonical=new URL(pagePath,Astro.site).href;
-const pageTitle=(isCoastalEdition&&pageDescriptions.titles?.[pagePath])||(title.endsWith(' · Utkal Project')?title:title+' · Utkal Project');
+const pageTitle=(isCoastalEdition&&pageDescriptions.titles?.[pagePath])||(title.endsWith(' · Project Odisha')?title:title+' · Project Odisha');
 const discoveryEntry=discoveryEntries.find(entry=>entry.href===pagePath);
-const sharePhoto=sharingImage(pagePath==='/' ? homeSharingImage : discoveryEntry?.image);
+const sharePhoto=sharingImage(shareImage ?? (pagePath==='/' ? homeSharingImage : discoveryEntry?.image));
 const socialImage=new URL(sharePhoto.src,Astro.site).href;
 ---
 <!doctype html><html lang="en"><head>
@@ -36,16 +36,16 @@ const socialImage=new URL(sharePhoto.src,Astro.site).href;
 <meta name="utkal-design-system" content={designSystem.version}/>
 <meta name="theme-color" content="#91462F"/><title>{pageTitle}</title>
 <link rel="canonical" href={canonical}/><meta name="referrer" content="no-referrer"/><meta name="color-scheme" content="light"/>
-<meta property="og:type" content="website"/><meta property="og:site_name" content="Utkal Project"/><meta property="og:title" content={pageTitle}/><meta property="og:description" content={pageDescription}/><meta property="og:url" content={canonical}/><meta property="og:locale" content="en_IN"/>
+<meta property="og:type" content="website"/><meta property="og:site_name" content="Project Odisha"/><meta property="og:title" content={pageTitle}/><meta property="og:description" content={pageDescription}/><meta property="og:url" content={canonical}/><meta property="og:locale" content="en_IN"/>
 <meta property="og:image" content={socialImage}/><meta property="og:image:alt" content={sharePhoto.alt}/><meta property="og:image:width" content={sharePhoto.width}/><meta property="og:image:height" content={sharePhoto.height}/>
 <meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content={pageTitle}/><meta name="twitter:description" content={pageDescription}/><meta name="twitter:image" content={socialImage}/><meta name="twitter:image:alt" content={sharePhoto.alt}/>
 <link rel="icon" type="image/png" href="/assets/utkal-favicon-64.png"/>
 
 </head><body id="page-top" class:list={['utk',{'destination-layout':wide}]}>
 <a href="#main" class="skip">Skip to content</a>
-<div class="topline"><span>ROOTED IN ODISHA. OPEN TO THE WORLD.</span><span lang="or">ଉତ୍କଳ · ଓଡ଼ିଶା</span></div>
+<div class="topline"><span>ROOTED IN ODISHA. OPEN TO THE WORLD.</span><span lang="or">ପ୍ରୋଜେକ୍ଟ ଓଡ଼ିଶା</span></div>
 <header class="header wrap utk-header">
- <a class="home-link" href="/" aria-label="Utkal Project home"><Brand/></a>
+ <a class="home-link" href="/" aria-label="Project Odisha home"><Brand/></a>
  <nav class="utk-nav desktop-navigation" aria-label="Main navigation">
   <a href="/explore/" aria-current={active==='explore'?'page':undefined}>Explore</a>
   <a href="/journey/" aria-current={active==='journey'?'page':undefined}>My journey</a>
@@ -55,7 +55,7 @@ const socialImage=new URL(sharePhoto.src,Astro.site).href;
  <details class="mobile-navigation"><summary>Menu</summary><nav aria-label="Main navigation">{navLinks.map(([href,label,key])=><a href={href} aria-current={active===key?'page':undefined}>{label}</a>)}</nav></details>
 </header>
 <main id="main" tabindex="-1"><ContextTrail path={pagePath} title={discoveryEntry?.label||title}/><slot/><VisitorTrailReturn path={pagePath}/>{related&&<RelatedDiscoveries path={Astro.url.pathname}/>}</main>
-<footer class="footer"><div class="wrap footer-grid"><div><a href="/" class="home-link" aria-label="Utkal Project home"><Brand/></a><p>Rediscover Utkal. Reimagine Odisha.</p><PageShare/>{notebook&&<details class="notebook-credit"><summary>Visit notebook notes</summary><p>Original Utkal Project editorial prompts, prepared with AI assistance under Ahimanikya Satapathy’s direction. They invite observation and questions; they are not quotations, field reports or confirmed travel arrangements. Factual planning context is supported by the sources below. Guide sources and photograph credits appear above.</p>{notebook.planning_sources?.map(s=><p><a href={s.url}>{s.title}</a> · Planning reference checked {s.checked_on}.</p>)}</details>}</div><div><p class="eyebrow">A shared beginning</p><p>People, places and knowledge.<br/>A story we build together.</p></div><div class="footer-links"><a href="#page-top">Back to top ↑</a>{planningReturn&&allowsPage(planningReturn[0])&&<a href={planningReturn[0]}>{planningReturn[1]}</a>}<a href="/how-to-use/">How to use Utkal</a><a href="/how-to-use/#privacy">Privacy</a><a href="/about/">About the project</a><a href="/founder/">The founder</a>{allowsPage('/global-connections/')&&<a href="/global-connections/">Global Connections</a>}<a href="/contribute/">Contribute</a><a href={"/contribute/?page="+encodeURIComponent(Astro.url.pathname)}>Suggest a correction</a>{allowsPage('/brand-review/')&&<a href="/brand-review/">Brand studio</a>}</div></div><div class="wrap footer-bottom"><span>Founded by Ahimanikya Satapathy.</span><span>Preview edition · articles await editorial review</span></div></footer>
+<footer class="footer"><div class="wrap footer-grid"><div><a href="/" class="home-link" aria-label="Project Odisha home"><Brand/></a><p>Discover Odisha. Imagine the possibilities.</p><PageShare/>{notebook&&<details class="notebook-credit"><summary>Visit notebook notes</summary><p>Original Project Odisha editorial prompts, prepared with AI assistance under Ahimanikya Satapathy’s direction. They invite observation and questions; they are not quotations, field reports or confirmed travel arrangements. Factual planning context is supported by the sources below. Guide sources and photograph credits appear above.</p>{notebook.planning_sources?.map(s=><p><a href={s.url}>{s.title}</a> · Planning reference checked {s.checked_on}.</p>)}</details>}</div><div><p class="eyebrow">A shared beginning</p><p>People, places and knowledge.<br/>A story we build together.</p></div><div class="footer-links"><a href="#page-top">Back to top ↑</a>{planningReturn&&allowsPage(planningReturn[0])&&<a href={planningReturn[0]}>{planningReturn[1]}</a>}<a href="/how-to-use/">How to use Project Odisha</a><a href="/how-to-use/#privacy">Privacy</a><a href="/about/">About the project</a><a href="/founder/">The founder</a>{allowsPage('/global-connections/')&&<a href="/global-connections/">Global Connections</a>}<a href="/contribute/">Contribute</a><a href={"/contribute/?page="+encodeURIComponent(Astro.url.pathname)}>Suggest a correction</a>{allowsPage('/brand-review/')&&<a href="/brand-review/">Brand studio</a>}</div></div><div class="wrap footer-bottom"><span>Founded by Ahimanikya Satapathy.</span><span>Preview edition · articles await editorial review</span></div></footer>
 <Analytics canonical={canonical} title={pageTitle}/>
 <script is:inline type="application/json" id="journey-data" set:html={safeJSON}/><script>import "../scripts/journey";</script>
 <script>
