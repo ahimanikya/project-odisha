@@ -43,7 +43,6 @@ His name carries this origin story. In Sanskrit, *ahi* means serpent, while *mā
     <p class="kavya-odia" lang="or">ମନ୍ତ୍ରୀ ବୋଲେ ଅହି ହୋଇ ମାଣିକ୍ୟମାଳ ।<br />ଅହିମାଣିକ୍ୟ ନାମେଣ ଅଟେ ସୁଲଳ ।</p>
     <p class="kavya-meaning"><span class="meaning-label">Meaning</span> The minister says: the serpent became a jewel necklace; Ahimanikya is a fitting, beautiful name.</p>
   </blockquote>
-  <figcaption>— Pratap Ray, <a href="/archive/sashi-sena-prachi-samiti.pdf#page=45" aria-label="Read this verse in the archived Shashisena"><cite>Shashisena</cite></a></figcaption>
 </figure>
 
 This is a naming scene in the poem itself. It describes transformation; it does not say that a jewel was removed from a serpent’s head. The separate *Kathalahari* folktale calls its hero Abhimanyu, so its naming should not be substituted for this passage. [^source-1][^source-15]
@@ -55,7 +54,6 @@ Was Ahimanikya a prince of Sambalpur? The strongest evidence for his identity co
     <p class="kavya-odia" lang="or">ମନ୍ତ୍ରୀ ତନୟ ୟେହୁ ମୋର ପତି ।</p>
     <p class="kavya-meaning"><span class="meaning-label">Meaning</span> This minister’s son is my husband.</p>
   </blockquote>
-  <figcaption>— Pratap Ray, <a href="/archive/sashi-sena-prachi-samiti.pdf#page=110" aria-label="Read this verse in the archived Shashisena"><cite>Shashisena</cite></a></figcaption>
 </figure>
 
 **“Minister’s son” describes his human household; it is not the whole account of his origin.** “Dewan’s son,” used in later accounts, is compatible with that description. A 2022 history paper calls him a prince, but supplies no genealogy making him a prince of Sambalpur. Neither the human parentage nor the supernatural birth establishes a historical royal lineage. [^source-1][^source-3]
@@ -85,7 +83,6 @@ Maluni's first encounter with him is more nuanced than the short retellings sugg
     <p class="kavya-odia" lang="or">କଟାକ୍ଷେ କୁମର ମନ ମୋହିଲା ବାଳୀ ।</p>
     <p class="kavya-meaning"><span class="meaning-label">Meaning</span> Her sidelong glance captivated the young man’s mind.</p>
   </blockquote>
-  <figcaption>— Pratap Ray, <a href="/archive/sashi-sena-prachi-samiti.pdf#page=87" aria-label="Read this verse in the archived Shashisena"><cite>Shashisena</cite></a></figcaption>
 </figure>
 
 He sits beside her, but explains that his beloved requested the flowers he has come to buy. She says she has not seen him in the town before and asks his name and where he comes from. Their conversation presents a new encounter, without a lost-love backstory. [^source-1]
@@ -103,7 +100,6 @@ Pratap Ray gives Maluni's magic a specific form. She recites a mantra while plac
     <p class="kavya-odia" lang="or">ମନ୍ତ୍ର ପଢ଼ି ଫୁଲମାଳା ଗଳାରେ ଦେଲା ।</p>
     <p class="kavya-meaning"><span class="meaning-label">Meaning</span> Reciting a mantra, she placed the flower garland around his neck.</p>
   </blockquote>
-  <figcaption>— Pratap Ray, <a href="/archive/sashi-sena-prachi-samiti.pdf#page=88" aria-label="Read this verse in the archived Shashisena"><cite>Shashisena</cite></a></figcaption>
 </figure>
 
 She then gives him a scented object; on smelling it, he becomes a sheep. The garland becomes a tether, and she leads him home. The text makes magical captivity explicit, without giving the mantra's words or identifying a historical school of practice. [^source-1]
@@ -121,7 +117,6 @@ As Shashidhara, she acquires a position at court and becomes the king's apparent
     <p class="kavya-odia" lang="or">ଜ୍ଞାନଦେଈ ମାଲୁଣୀ କରିଛି ମୋତେ ବନ୍ଦୀ ।</p>
     <p class="kavya-meaning"><span class="meaning-label">Meaning</span> Jnanadei Maluni has made me captive.</p>
   </blockquote>
-  <figcaption>— Pratap Ray, <a href="/archive/sashi-sena-prachi-samiti.pdf#page=104" aria-label="Read this verse in the archived Shashisena"><cite>Shashisena</cite></a></figcaption>
 </figure>
 
 This gathering is an event inside the poem. It cannot establish an old festival at Nimuhi, or a former entrance to the present doorless monument.
@@ -137,7 +132,6 @@ Maluni yields in fear. She recites a mantra and uses a flower to reverse the tra
     <p class="kavya-odia" lang="or">ଧାଇଁ ଯାଇଁ ଶଶିସେଣା ବେଗେ କୋଳ କରି ।</p>
     <p class="kavya-meaning"><span class="meaning-label">Meaning</span> Sashisena rushed forward and took him in her arms.</p>
   </blockquote>
-  <figcaption>— Pratap Ray, <a href="/archive/sashi-sena-prachi-samiti.pdf#page=107" aria-label="Read this verse in the archived Shashisena"><cite>Shashisena</cite></a></figcaption>
 </figure>
 
 The threatened mutilation is not carried out in this scene. Neither is an apology or repentance narrated: the text identifies fear and distress as Maluni's response. A guru subsequently reports the rescue to the king. [^source-1]
