@@ -2,9 +2,9 @@
 okf_version: "0.2"
 ---
 
-# Utkal Project · project knowledge bundle
+# Project Odisha · project knowledge bundle
 
-**Rediscover Utkal. Reimagine Odisha.** UTP is an instance of Utkal Blueprint. This KB holds its actual project information and the knowledge behind its work.
+**Discover Odisha. Imagine the possibilities.** UTP is an instance of Utkal Blueprint. This KB holds its actual project information and the knowledge behind its work.
 
 This directory contains the organizational and working model, roles, work records, evidence and knowledge. Raw historical snapshots under `references/pre-repair/`, captured evidence under `history/evidence/initial-capture/`, and preserved earlier research snapshots under `records/evidence/research-import/` are archival resources, not live concepts. Executable tools and website code are outside this bundle; their operating context is documented here. External citations and explicitly linked independent repositories remain external resources.
 

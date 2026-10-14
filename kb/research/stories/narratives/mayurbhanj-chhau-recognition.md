@@ -65,6 +65,6 @@ Keep the three regional names in mind. Then choose one performance and learn the
 - **Local initiative:** [Project Chhauni](https://www.mayurbhanjchhau.org/), institutional description and objectives inspected. Goals distinguished from measured outcomes.
 - **Evidence and follow-up:** [Section-level record](mayurbhanj-chhau-recognition.json); [existing Mayurbhanj Chhau research](../../culture/mayurbhanj-chhau.md). The 2012 record adds an institutional dispute to the earlier shared-heritage account; it does not establish cultural theft.
 
-Original narration by Utkal Project, drafted with AI assistance under Ahimanikya Satapathy’s direction. No field visit or newly collected practitioner testimony. Specialist review and documentary image selection remain open. Local editorial draft; not published to the website.
+Original narration by Project Odisha, drafted with AI assistance under Ahimanikya Satapathy’s direction. No field visit or newly collected practitioner testimony. Specialist review and documentary image selection remain open. Local editorial draft; not published to the website.
 
 </details>

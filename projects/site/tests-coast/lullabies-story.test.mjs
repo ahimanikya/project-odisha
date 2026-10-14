@@ -10,7 +10,7 @@ test('lullaby story delivers the complete KB narrative and evidence distinctions
  assert.deepEqual(story.blocks.flatMap(b=>b.paragraphs),paragraphs);
  for(const p of paragraphs)assert.ok(html.includes(escape(p)),p);
  for(const s of story.sources)assert.ok(html.includes(escape(s.resource)));
- for(const x of ['1955','1934','not the beginning of Odia lullabies','not an interview conducted by Utkal Project'])assert.ok(html.includes(x));
+ for(const x of ['1955','1934','not the beginning of Odia lullabies','not an interview conducted by Project Odisha'])assert.ok(html.includes(x));
  assert.ok(!html.includes('<audio'));assert.ok(!html.includes('sounds-reading-trail'));
 });
 test('lullaby further reading connects the collection and notebook without expanding the eight-chapter trail',()=>{

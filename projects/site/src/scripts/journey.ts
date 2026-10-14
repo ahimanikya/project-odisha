@@ -91,7 +91,7 @@ function updateTripControls(){
  const addDay=document.querySelector<HTMLButtonElement>('#add-planning-day');addDay.disabled=blocked||groupItems(plan).filter(g=>g.day>0).length>=30;
 }
 function renderPrint(){
- if(!print)return;const book=exportPlan();print.replaceChildren(node('p','Utkal Project · Rediscover Utkal. Reimagine Odisha.'),node('h1',book.title||'My Odisha Journey'),node('p','Prepared '+new Date().toLocaleDateString()+'. Personal research plan; no reservations or verified route times. Recheck access, transport and availability.'));
+ if(!print)return;const book=exportPlan();print.replaceChildren(node('p','Project Odisha · Discover Odisha. Imagine the possibilities.'),node('h1',book.title||'My Odisha Journey'),node('p','Prepared '+new Date().toLocaleDateString()+'. Personal research plan; no reservations or verified route times. Recheck access, transport and availability.'));
  const days=journeyDayCards(book,journeyCatalog,{includePersonalNotes:includeNotes()});
  if(days.length){print.append(node('h2','Your days at a glance'));for(const day of days)print.append(node('p',day.label+(day.title?' · '+day.title:'')+' — '+(day.ideas.join(' · ')||'Room for a pause')+(day.more?` · +${day.more} more`:'')));}
  const references=new Map();
@@ -123,11 +123,11 @@ function renderPrint(){
    if(includeNotes()&&saved.notes)section.append(node('p',saved.notes,'print-notes'));print.append(section);
   }
  }
- const prep=node('section');prep.append(node('h2','Preparation checklist'),node('p','Marked by you, not verified by Utkal Project.'));
+ const prep=node('section');prep.append(node('h2','Preparation checklist'),node('p','Marked by you, not verified by Project Odisha.'));
  const checks=node('ul');for(const row of preparationRows(book))checks.append(node('li',`${row.done?'Done':'To check'} — ${row.label}`));prep.append(checks);print.append(prep);
  if(includeNotes()&&(book.reminders||[]).length){const section=node('section');section.append(node('h2','Your personal reminders'),node('p','These are your own reminders for the whole trip, not verified arrangements.'));const list=node('ul');for(const r of book.reminders)list.append(node('li',`${r.done?'Done':'To check'} — ${r.text}`));section.append(list);print.append(section);}
  const questions=questionGroups(book,journeyCatalog);if(questions.length){const section=node('section',undefined,'print-questions');section.append(node('h2','Questions to take with you'),node('p','Prompts to ask locally, not verified arrangements.'));for(const g of questions){const group=node('div',undefined,'print-question-group');group.append(node('h3',g.title));const list=node('ul');for(const q of g.questions)list.append(node('li',q.heading+' — '+q.text));group.append(list);section.append(group);}print.append(section);}
- const appendix=node('section',undefined,'print-sources');appendix.append(node('h2','Sources & reading notes'),node('p','Summaries use the Utkal Project collection loaded in this page, not a snapshot from the day you saved. Founder & Editor-in-Chief: Ahimanikya Satapathy. Research prepared with AI assistance; human editorial review pending. Your notes are your own. Stay areas are research suggestions, not reviewed properties. No photographs, poems or recordings are reproduced in this book.'));
+ const appendix=node('section',undefined,'print-sources');appendix.append(node('h2','Sources & reading notes'),node('p','Summaries use the Project Odisha collection loaded in this page, not a snapshot from the day you saved. Founder & Editor-in-Chief: Ahimanikya Satapathy. Research prepared with AI assistance; human editorial review pending. Your notes are your own. Stay areas are research suggestions, not reviewed properties. No photographs, poems or recordings are reproduced in this book.'));
  const list=node('ul');for(const [url,label] of references){const li=node('li',label+' — '+url);list.append(li);}appendix.append(list);print.append(appendix);
 }
 function render(focusId?:string,focusAction?:string){

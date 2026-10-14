@@ -3,7 +3,7 @@ export const STORAGE_KEY='utkal.journey.v1';
 export const MAX_BYTES=1000000;
 export const emptyJourney=()=>({version:1,title:'My Odisha Journey',items:[]});
 export function validateJourney(value){
- if(!value||value.version!==1||typeof value.title!=='string'||value.title.length>120||!Array.isArray(value.items)||value.items.length>100)throw Error('This file is not a supported Utkal journey (version 1, up to 100 ideas).');
+ if(!value||value.version!==1||typeof value.title!=='string'||value.title.length>120||!Array.isArray(value.items)||value.items.length>100)throw Error('This file is not a supported Project Odisha journey (version 1, up to 100 ideas).');
  if(value.storyTrail!==undefined&&(typeof value.storyTrail!=='string'||!/^[a-z0-9][a-z0-9_-]{0,79}$/.test(value.storyTrail)))throw Error('The story trail identifier is invalid. Existing data has not been replaced.');
  const seen=new Set();
  const items=value.items.map(item=>{

@@ -1,11 +1,11 @@
 ---
 type: Generated register
-title: "Utkal Project dashboard"
+title: "Project Odisha dashboard"
 ---
 
-# Utkal Project · dashboard
+# Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `52456f48d7291fff0274db14d9aa2845dd63ceec99baf320fbe7e47f510c2834`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `ff677fd4ce2e15b996497679244f8d601f4af308a1457a3c78299e7a09b35b08`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -938,7 +938,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | ID / title | State | References |
 |---|---|---|
-| UTP-REG-002 · Utkal Project | active | UTP-DEC-002 |
+| UTP-REG-002 · Project Odisha | active | UTP-DEC-002 |
 | UTP-REQ-001 · First encyclopedia entry and local preview brief | approved | UTB-DEC-005 |
 | UTP-REQ-002 · Website and brand foundation brief | draft_from_founder_direction | UTP-DEC-009 |
 
@@ -956,7 +956,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-417 | 2026-10-13T01:31:38.229373+00:00 | Boat-song primary passages remain unavailable. Selected the independent craft-listening narrative gap, reusing existing Kotpad sources without an acoustic or fieldwork claim. | — |
 | UTP-EVT-418 | 2026-10-13T02:19:48.902328+00:00 | Delivered craft-listening article and source-reuse dossier through checked PR227; verified merged bytes. Website adaptation pending. Programme 78/500; boat-song item remains blocked. | — |
 | UTP-EVT-419 | 2026-10-13T02:38:07.604694+00:00 | Selected public adaptation of reviewed craft-listening article with collection and Explore discovery. | — |
 | UTP-EVT-420 | 2026-10-13T07:03:39.954902+00:00 | Published craft-listening article through checked PR228 and approved main workflow; live content and discovery verified. Programme 79/500. | — |
@@ -966,6 +965,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101419 | 2026-10-14T07:58:45.861287+00:00 | Prepared the user-approved article and four public assets for the existing publication pipeline. | — |
 | UTP-EVT-2026101420 | 2026-10-14T14:57:51.864569+00:00 | Prepared Founder-requested migration to projectodisha.org and permanent redirect of utkalproject.org, preserving routes and search scope. | — |
 | UTP-EVT-2026101421 | 2026-10-14T15:10:36.710983+00:00 | Published new canonical domain, configured new DNS and HTTPS, verified new site. GoDaddy saved apex/www permanent redirects; old-domain propagation and nested-path verification remain pending. | — |
+| UTP-EVT-2026101422 | 2026-10-14T15:15:47.256907+00:00 | Applied approved Project Odisha naming and homepage tagline to live website sources; historical evidence retained. | — |
 
 ## Deferred extensions
 

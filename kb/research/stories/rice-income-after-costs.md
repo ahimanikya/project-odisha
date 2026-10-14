@@ -39,7 +39,7 @@ The two remainders are not competing answers to one question. Read the cost defi
 
 ## Carry a better question into the next story
 
-For future reporting, begin with one crop and an agreed period. Ask what was received, which costs were paid, how family work and land were valued, and what records support the account. These are proposed questions, not interviews Utkal Project has conducted. A household’s total income would need a wider account than this crop calculation.
+For future reporting, begin with one crop and an agreed period. Ask what was received, which costs were paid, how family work and land were valued, and what records support the account. These are proposed questions, not interviews Project Odisha has conducted. A household’s total income would need a wider account than this crop calculation.
 
 The [procurement-payment story](rice-procurement-payments.md) asks a related question at a different scale. Departmental payments and a regional per-hectare cost study cannot be combined into a present-day farm-profit estimate.
 
