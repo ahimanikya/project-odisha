@@ -21,13 +21,13 @@ import '../styles/design-system.css';
 import designSystem from '../../../design-system/package.json';
 const planningReturn=Astro.url.pathname.startsWith('/visit/stays/')?['/stay-areas/','Compare other stay areas']:Astro.url.pathname.startsWith('/visit/experiences/')?['/things-to-do/','Explore more things to do']:Astro.url.pathname.startsWith('/food/')&&Astro.url.pathname!=='/food/'?['/food/','Explore food & flavours']:Astro.url.pathname.startsWith('/destinations/')&&Astro.url.pathname!=='/destinations/'?['/destinations/','Browse destination guides']:null;
 const navLinks=[['/explore/','Explore','explore'],['/journey/','My journey','journey'],['/about/','Our purpose','about'],['/contribute/','Be part of it','contribute']];
-const {title='Rediscover Utkal. Reimagine Odisha.', description='A growing, shared encyclopedia of Odisha’s people, places and living heritage.',active='',wide=false,related=true}=Astro.props;
+const {title='Rediscover Utkal. Reimagine Odisha.', description='A growing, shared encyclopedia of Odisha’s people, places and living heritage.',active='',wide=false,related=true,shareImage}=Astro.props;
 const pagePath=Astro.url.pathname==='/404/'?'/404.html':Astro.url.pathname;
 const pageDescription=isCoastalEdition?(pageDescriptions.descriptions[pagePath]||description):description;
 const canonical=new URL(pagePath,Astro.site).href;
 const pageTitle=(isCoastalEdition&&pageDescriptions.titles?.[pagePath])||(title.endsWith(' · Utkal Project')?title:title+' · Utkal Project');
 const discoveryEntry=discoveryEntries.find(entry=>entry.href===pagePath);
-const sharePhoto=sharingImage(pagePath==='/' ? homeSharingImage : discoveryEntry?.image);
+const sharePhoto=sharingImage(shareImage ?? (pagePath==='/' ? homeSharingImage : discoveryEntry?.image));
 const socialImage=new URL(sharePhoto.src,Astro.site).href;
 ---
 <!doctype html><html lang="en"><head>
