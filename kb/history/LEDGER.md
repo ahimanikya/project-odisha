@@ -1078,3 +1078,7 @@ On 14 October 2026, the Founder approved updating active references and renaming
 ## UTP-HIS-0342 · Chilika listening joins Sounds of Odisha
 
 The researched Chilika and Mangalajodi listening article is published on Project Odisha, with its source dossier retained in the KB. The visitor exercise distinguishes observation from explanation and avoids claiming acoustic fieldwork. Concurrent domain, branding, calendar and Nimuhi changes were preserved. [Publication and live verification](../records/chilika-listening-publication-2026-10-15.json).
+
+## UTP-HIS-0343 · Nimuhi joins Explore
+
+The published Nimuhi story can now be found through its literary and local names, with Literature and Subarnapur filters. The live result and its article link were verified after publication. [Publication and live verification](../records/nimuhi-discovery-publication-2026-10-15.json).

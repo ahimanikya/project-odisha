@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `4a9b6cdd49987685d1d70c75670e81b25dac9da978a65d73e9ea851ee66d7be9`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `c0098326dd14e1f66ea4fe9cbabd312b70ea2e896ef9fb2cd56b9af64b8719ab`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -199,7 +199,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
-| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue next eligible substantive item. 80 of 500 delivered with linked evidence under DEC225. | — |
+| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue next eligible substantive item. 81 of 500 delivered with linked evidence under DEC225. | — |
 | UTP-WORK-190 · Food discovery, portable reading collection and current review-queue repair | completed | published | Ahimanikya Satapathy | Published and live-verified. Continue through the program queue under DEC225. | — |
 | UTP-WORK-191 · Build the tourism opportunities information section | completed | reviewed | Ahimanikya Satapathy | Published information scope complete. Continue WORK166 and WORK171 only when new documentary or operating evidence is available. | — |
 | UTP-WORK-192 · Align saved food cards with canonical story introductions | completed | reviewed | Ahimanikya Satapathy | Repair published and live catalogue verified; preserve canonical food fields when future stories change. | — |
@@ -280,7 +280,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-267 · Listening to craft through Kotpad | completed | applied | Ahimanikya Satapathy | Website further-reading adaptation delivered under WORK268; practitioner acoustic evidence remains open. | — |
 | UTP-WORK-268 · Publish craft-listening reader story | completed | applied | Ahimanikya Satapathy | Continue independent research; practitioner and acoustic documentation remain open. | — |
 | UTP-WORK-269 · Research and publish Chilika listening story | completed | applied | Ahimanikya Satapathy | Continue independent research; local naturalist and acoustic documentation remain open. | — |
-| UTP-WORK-270 · Connect Nimuhi literary story to Explore | in_progress | reviewed | Ahimanikya Satapathy | Implement internal discovery, test and publish with live receipt. | — |
+| UTP-WORK-270 · Connect Nimuhi literary story to Explore | completed | applied | Ahimanikya Satapathy | Continue the next eligible substantive task. | — |
 
 ## Pending human review and decisions
 
@@ -924,6 +924,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-107 · Odia lullabies and the songs of childhood | published | https://utkalproject.org/stories/odia-lullabies/ | UTP-DEC-225 |
 | UTP-REL-108 · Listening to craft through Kotpad | published | https://utkalproject.org/stories/craft-listening/ | UTP-DEC-225 |
 | UTP-REL-109 · Listening to Chilika | published | https://projectodisha.org/stories/chilika-listening/ | UTP-DEC-225 |
+| UTP-REL-110 · Nimuhi literary discovery in Explore | published | https://projectodisha.org/explore/?q=Nimuhi | UTP-DEC-225 |
 
 ## Sources and assets
 
@@ -961,7 +962,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101401 | 2026-10-14T06:00:00Z | Prepared 33 source-linked Odisha arts and literature calendar entries within user-requested scope, distinguishing announced, reported, awaiting dates and past editions. | — |
 | UTP-EVT-2026101402 | 2026-10-14T05:53:29.329065+00:00 | Expanded calendar to 37 entries; 520 full and 113 coastal tests pass. Publication build and browser filtering/mobile checks pass. | — |
 | UTP-EVT-2026101403 | 2026-10-14T07:20:30.959091+00:00 | Second calendar pass verified UNURUM dates from university-linked Instagram; updated latest KLF dates with discrepancy retained, recovered OALF and two past Toshali ranges, clarified Utsha application status. | — |
 | UTP-EVT-2026101419 | 2026-10-14T07:58:45.861287+00:00 | Prepared the user-approved article and four public assets for the existing publication pipeline. | — |
@@ -971,6 +971,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101423 | 2026-10-14T16:24:16.524442+00:00 | Renamed GitHub repository to project-odisha and prepared active-reference cleanup under Founder approval. Historical evidence preserved. | — |
 | UTP-EVT-422 | 2026-10-14T20:52:35.367545+00:00 | Published Chilika listening article on Project Odisha through checked PR229 and approved main workflow. KB/source dossier and public story count once; programme 80/500. | — |
 | UTP-EVT-423 | 2026-10-14T21:16:45.043185+00:00 | Published Nimuhi route is absent from Explore source and103 rendered cards. Selected one bounded internal discovery improvement; reuse article, no new historical research. | — |
+| UTP-EVT-424 | 2026-10-14T21:35:02.300836+00:00 | Published Nimuhi literary/place-name discovery; verified one live result and article navigation. Programme 81/500. | — |
 
 ## Deferred extensions
 

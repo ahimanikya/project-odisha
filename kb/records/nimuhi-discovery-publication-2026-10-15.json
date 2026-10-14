@@ -1,0 +1,62 @@
+{
+  "recorded_at": "2026-10-14T21:35:02.300836+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-082",
+  "work_id": "UTP-WORK-270",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/243",
+  "reviewed_head": "b74f2933bdcb55b2502394727e4e072309c20c4f",
+  "merge_commit": "cdabf8e78dfec161579101f427338b65b5ccc54d",
+  "merged_at": "2026-10-14T21:30:07Z",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "b74f2933bdcb55b2502394727e4e072309c20c4f",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38639278873"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "cdabf8e78dfec161579101f427338b65b5ccc54d",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38640758072",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-14T21:34:28.852725+00:00",
+    "page": "https://projectodisha.org/explore/?q=Nimuhi",
+    "http_status": 200,
+    "explore_sha256": "cb478fd946841c32d457cb1414d09743bdeedef832dd3e5c634a4d3540d1b130",
+    "total_internal_cards": 104,
+    "nimuhi_card_count": 1,
+    "aliases_verified": true,
+    "target_http_status": 200,
+    "noindex_retained": true,
+    "sitemap_entries": 11,
+    "external_search_selection_unchanged": true,
+    "browser": {
+      "search_url": "https://projectodisha.org/explore/?q=Nimuhi&topic=Literature&region=Subarnapur",
+      "result": "One matching entry; Literature and Subarnapur selected.",
+      "navigation": "Clicked result through accessibility target; reached /stories/nimuhi-temple/ and verified heading Ahimanikya and Sashisena at the temple without a door.",
+      "limitation": "Initial semantic locator click failed with a browser node error; refreshed state and accessibility click succeeded."
+    }
+  },
+  "review": "records/nimuhi-discovery-review-2026-10-15.json",
+  "outputs": [
+    {
+      "path": "projects/site/src/data/discovery.ts",
+      "sha256": "2c01e8c595632a182240b255035c1cd587f9057eb43d7594efb21ed3caab9c56",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/discovery-aliases.json",
+      "sha256": "8b79e057f2985fe4a197cfbc6f48a652dda0e4afc36c85a6f6145b59bd5b2b1d",
+      "matches_fetched_merge": true
+    }
+  ],
+  "limitations": [
+    "Navigation and reused-copy review only; no new historical or field validation.",
+    "Existing eleven-route search selection retained."
+  ],
+  "attachment": "Attempted; thread attachment identity count exceeds 100. URL retained."
+}
