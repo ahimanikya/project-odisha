@@ -8,7 +8,7 @@ sources: [{"id": "instagram-duqtfgkkuna", "title": "Sashisena Temple reel", "res
 
 # Ahimanikya and Sashisena at the temple without a door
 
-In Sonepur, Odisha, a doorless memorial is widely known as Sashisena Temple or Nimuhi Mandir. To approach it is to remain outside, facing a monument whose best-known story is about two people refusing to remain apart. The familiar name does not establish that it functioned as a shrine with an installed deity and regular puja. [9, 10]
+In Sonepur, Odisha—also known locally as **Suvarnapura**—a doorless memorial is widely known as Sashisena Temple or Nimuhi Mandir. To approach it is to remain outside, facing a monument whose best-known story is about two people refusing to remain apart. The familiar name does not establish that it functioned as a shrine with an installed deity and regular puja. [9, 10, 20]
 
 Their names are Sashisena and Ahimanikya. She is a princess; he grows up in a minister’s household, with a supernatural origin that short retellings often leave out. Their love becomes a tale of departure, captivity, recognition and repeated rescue. Official accounts describe the building as a memorial to their bond. [1, 9, 10]
 
@@ -256,5 +256,7 @@ At Nimuhi, something similar happens at the scale of a place. A building keeps a
 18. Monier-Williams, *Sanskrit–English Dictionary*, University of Hyderabad digital transcription based on the Cologne edition: [ahi](https://sanskrit.uohyd.ac.in/SKT/MW/24.html), serpent; [māṇikya](https://sanskrit.uohyd.ac.in/SKT/MW/201.html), ruby; [maṇi](https://sanskrit.uohyd.ac.in/SKT/MW/192.html), jewel or gem. These clarify the word elements; the naming explanation comes directly from the poem.
 
 19. Suvendu Meher / ଶୁଭେନ୍ଦୁ ମେହେର, *ନିର୍ବାଣ (Nirbana)*, [*Shubhapallaba*, issue 54, September 2023, pp.33–34](https://shubhapallaba.in/gapu/media/Shubhapallaba%2054th%20Edition.pdf#page=34); also available on [StoryMirror](https://storymirror.com/read/oriya/poem/nirbaann/gugmzl8h). A modern poetic response to the story; the poem does not identify a source for its Shabara-prince description.
+
+20. Ahimanikya Satapathy, author’s local-usage note, 14 October 2026: Suvarnapura is a name people still use locally.
 
 *Researched and written by Ahimanikya Satapathy for Utkal Project. Last reviewed 14 October 2026.*
