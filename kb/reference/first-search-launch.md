@@ -14,17 +14,17 @@ The shortlist preserves the existing proposal. This is an editorial scope assess
 
 | Page | Why include it | Limits carried forward |
 | --- | --- | --- |
-| [Home](https://utkalproject.org/) | Introduces the project and connects the collection. | The sharing image is a labelled brand illustration. The visible tagline stays unchanged. |
-| [Our purpose](https://utkalproject.org/about/) | Explains audience, contribution and editorial independence. | Describes ambitions without promising services that do not exist. |
-| [Founder](https://utkalproject.org/founder/) | Identifies the human responsible for the project. | Founder-provided framing; the sharing image is not a portrait. |
-| [How to use Utkal](https://utkalproject.org/how-to-use/) | Explains saving, backup, portable books and privacy. | Plans remain in the reader’s browser; this is not a booking service. |
-| [Bhubaneswar](https://utkalproject.org/destinations/bhubaneswar/) | Opens the connected city and coast collection. | Current individual visits and facilities still need local confirmation. |
-| [Dhauli](https://utkalproject.org/visit/places/dhauli/) | Distinguishes inscriptions, the elephant and the modern stupa. | Belief and history remain distinct; evening programmes are a separate arrangement. |
-| [Konark](https://utkalproject.org/knowledge/konark/) | Provides sourced temple context and related reading. | Legends and archived festival context stay labelled. |
-| [Puri](https://utkalproject.org/destinations/puri/) | Connects the shore, sacred traditions and craft villages. | Temple access and individual arrangements are not guaranteed. |
-| [Raghurajpur](https://utkalproject.org/visit/places/raghurajpur/) | Helps readers approach a working craft village respectfully. | No named workshop appointment or performance has been confirmed. |
-| [Chilika](https://utkalproject.org/knowledge/chilika/) | Introduces the lagoon and several ways to explore it. | Wildlife, crossings and weather are variable; stay leads are not inspected properties. |
-| [Bhubaneswar Fresco archive](https://utkalproject.org/stories/bhubaneswar-fresco/) | Preserves the Founder’s dated February 2009 photographs. | Current mural survival, artist identities and exact locations remain unverified. The separate essay route is outside this edition. |
+| [Home](https://projectodisha.org/) | Introduces the project and connects the collection. | The sharing image is a labelled brand illustration. The visible tagline stays unchanged. |
+| [Our purpose](https://projectodisha.org/about/) | Explains audience, contribution and editorial independence. | Describes ambitions without promising services that do not exist. |
+| [Founder](https://projectodisha.org/founder/) | Identifies the human responsible for the project. | Founder-provided framing; the sharing image is not a portrait. |
+| [How to use Utkal](https://projectodisha.org/how-to-use/) | Explains saving, backup, portable books and privacy. | Plans remain in the reader’s browser; this is not a booking service. |
+| [Bhubaneswar](https://projectodisha.org/destinations/bhubaneswar/) | Opens the connected city and coast collection. | Current individual visits and facilities still need local confirmation. |
+| [Dhauli](https://projectodisha.org/visit/places/dhauli/) | Distinguishes inscriptions, the elephant and the modern stupa. | Belief and history remain distinct; evening programmes are a separate arrangement. |
+| [Konark](https://projectodisha.org/knowledge/konark/) | Provides sourced temple context and related reading. | Legends and archived festival context stay labelled. |
+| [Puri](https://projectodisha.org/destinations/puri/) | Connects the shore, sacred traditions and craft villages. | Temple access and individual arrangements are not guaranteed. |
+| [Raghurajpur](https://projectodisha.org/visit/places/raghurajpur/) | Helps readers approach a working craft village respectfully. | No named workshop appointment or performance has been confirmed. |
+| [Chilika](https://projectodisha.org/knowledge/chilika/) | Introduces the lagoon and several ways to explore it. | Wildlife, crossings and weather are variable; stay leads are not inspected properties. |
+| [Bhubaneswar Fresco archive](https://projectodisha.org/stories/bhubaneswar-fresco/) | Preserves the Founder’s dated February 2009 photographs. | Current mural survival, artist identities and exact locations remain unverified. The separate essay route is outside this edition. |
 
 The [Bhubaneswar publication record](../records/bhubaneswar-publication.json) already includes the archive. Its presence on this list does not release the separate photographic essay or certify current street conditions.
 

@@ -65,11 +65,11 @@ Separate English/Odia, colour/one-ink/reverse SVG signatures and a simplified ic
 
 ## GitHub Pages connection
 
-The Founder authorized making `ahimanikya/utkal-project` public to enable Pages. GitHub Pages now uses GitHub Actions and the custom domain `utkalproject.org`. GoDaddy retains DNS management: four GitHub Pages A records and `www` pointing to `ahimanikya.github.io`. Other DNS records were preserved.
+The Founder authorized making `ahimanikya/project-odisha` public to enable Pages. GitHub Pages now uses GitHub Actions and the custom domain `utkalproject.org`. GoDaddy retains DNS management: four GitHub Pages A records and `www` pointing to `ahimanikya.github.io`. Other DNS records were preserved.
 
 The locally updated repository-root `.github/workflows/publish-site.yml` builds and tests both website editions, then uploads only `projects/site/dist-coast`. These workflow changes are prepared locally and have not been pushed or run. The Store is not deployed by this workflow. No push-triggered publication is enabled. After the reviewed website and workflow reach `main`, the Founder can run **Publish Project Odisha** with the explicit release confirmation. The workflow checks the initiating account and main branch; the `github-pages` environment can provide additional repository-managed approval controls.
 
-The first run succeeded on 28 September 2026: [live preview](https://utkalproject.org/) · [release evidence](../../kb/records/website-first-release.json). Editorial draft labels and `noindex` remain in this review edition; they are not access controls. DNS/certificate readiness is distinct from an actual website deployment.
+The first run succeeded on 28 September 2026: [live preview](https://projectodisha.org/) · [release evidence](../../kb/records/website-first-release.json). Editorial draft labels and `noindex` remain in this review edition; they are not access controls. DNS/certificate readiness is distinct from an actual website deployment.
 
 ## Saved journeys, sharing and final edition checks
 

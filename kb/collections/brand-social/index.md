@@ -1,4 +1,4 @@
-# Utkal Project · social artwork
+# Project Odisha · social artwork
 
 Current candidate: [Colours of home — corrected ghasi card v2](colours-of-home-bilingual-v2.png), with [final edit prompt](colours-of-home-v2-prompt.txt). Replaces loose straw with generated round, hand-patted cow-dung-and-paddy-straw fuel cakes, following the Founder’s clarification and accepted visual direction. Subtitle: “Stone. Sea. Hearth.” The reference photograph was not reproduced; material imagery is AI-generated. Selected colours and bilingual names retained. V1 below is preserved as design history, not the current material reference.
 

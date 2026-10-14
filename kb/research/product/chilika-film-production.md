@@ -38,7 +38,7 @@ Durations are editorial targets, adjustable to the selected service’s supporte
 | 14–21 s | Kalijai | Preserve the reference architecture; slight palm movement is enough. No orbit exposing invented sides of the building and no simulated ritual presented as observed practice. |
 | 21–27 s | A taste of the lagoon | Food close-up with a slow editorial move; use a permitted higher-resolution image if needed. Do not invent a cook, restaurant endorsement or cooking sequence. |
 | 27–34 s | Evening water | Sunset candidate only after inspection; otherwise return to the approved lagoon shot with different framing. No false promise that every visit has spectacular weather. |
-| 34–40 s | Closing invitation and credits | Utkal Project · Rediscover Utkal. Reimagine Odisha. Source credits and “AI-imagined from real references”; retain readable full credits below the player. |
+| 34–40 s | Closing invitation and credits | Project Odisha · Discover Odisha. Imagine the possibilities. Source credits and “AI-imagined from real references”; retain readable full credits below the player. |
 
 ## First render: one 5–8 second test
 

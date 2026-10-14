@@ -1,10 +1,12 @@
-# Utkal Project
+# Project Odisha
 
-**Rediscover Utkal. Reimagine Odisha.**
+**Discover Odisha. Imagine the possibilities.**
 
-Utkal Project is an instance of Utkal Blueprint.
+Renamed from Utkal Project on 14 October 2026. Historical records retain their original names; [current identity and continuity](kb/reference/project-identity.md).
 
-**[Visit the website preview](https://utkalproject.org/).** Research entries await editorial review. Utkal Store is not published or linked from the website.
+Project Odisha is an instance of Utkal Blueprint.
+
+**[Visit the website preview](https://projectodisha.org/).** Research entries await editorial review. Utkal Store is not published or linked from the website.
 
 **[Read the complete project KB](kb/index.md).**
 

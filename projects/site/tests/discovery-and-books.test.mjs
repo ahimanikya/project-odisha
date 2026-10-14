@@ -39,7 +39,7 @@ test('photo count and total byte budget are bounded without dropping plan entrie
 });
 test('public issue links encode drafts, require a known page, and keep long Unicode drafts intact',()=>{
  const entries=[{title:'Chhena Poda',href:'/food/chhena-poda/'}],value={page:entries[0].href,kind:'Correction',correction:'Test & <markup> #here',evidence:'Synthetic QA source',credit:'Test reader'};
- const result=publicIssueLink(value,entries),url=new URL(result.url);assert.equal(url.origin,'https://github.com');assert.equal(url.pathname,'/ahimanikya/utkal-project/issues/new');assert.ok(url.searchParams.get('body').includes(value.correction));assert.ok(url.searchParams.get('body').includes('Posting this issue does not imply'));assert.ok(!url.searchParams.get('body').includes('Not submitted'));assert.ok(correctionDraft(value,entries).includes('Not submitted'));assert.ok(result.prefilled);assert.equal(url.searchParams.has('labels'),false);
+ const result=publicIssueLink(value,entries),url=new URL(result.url);assert.equal(url.origin,'https://github.com');assert.equal(url.pathname,'/ahimanikya/project-odisha/issues/new');assert.ok(url.searchParams.get('body').includes(value.correction));assert.ok(url.searchParams.get('body').includes('Posting this issue does not imply'));assert.ok(!url.searchParams.get('body').includes('Not submitted'));assert.ok(correctionDraft(value,entries).includes('Not submitted'));assert.ok(result.prefilled);assert.equal(url.searchParams.has('labels'),false);
  const large={...value,correction:'ଓ'.repeat(3000)};assert.deepEqual(publicIssueLink(large,entries),{url:PUBLIC_ISSUE_URL,prefilled:false});assert.ok(correctionDraft(large,entries).includes(large.correction));
  assert.throws(()=>publicIssueLink({...value,page:'https://evil.invalid'},entries));assert.throws(()=>correctionDraft({...value,evidence:''},entries),e=>e.field==='evidence');
 });
@@ -61,7 +61,7 @@ test('public contribution copy distinguishes GitHub visibility from encyclopedia
 // The proposal links must work before issue templates reach the default branch.
 test('new-subject and photo handoffs retain public context without a pre-existing entry',()=>{
  const out=html('/contribute/').replaceAll('&amp;','&');
- const urls=[...out.matchAll(/href="(https:\/\/github\.com\/ahimanikya\/utkal-project\/issues\/new\?[^" ]+)"/g)].map(m=>new URL(m[1]));
+ const urls=[...out.matchAll(/href="(https:\/\/github\.com\/ahimanikya\/project-odisha\/issues\/new\?[^" ]+)"/g)].map(m=>new URL(m[1]));
  assert.equal(urls.length,3);
  assert.ok(urls.some(u=>u.searchParams.get('title').startsWith('[Language]')));
  assert.ok(urls.some(u=>u.searchParams.get('title').startsWith('[Knowledge]')));

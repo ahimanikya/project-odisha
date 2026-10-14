@@ -1,6 +1,6 @@
 # Utkal Design System
 
-A shared design foundation for the Utkal family, built under the Founder's direction. **0.1.0-rc.5 is applied throughout the local Utkal Project website**, with refinements from real pages. Publication and adoption by other projects remain separate decisions.
+A shared design foundation for the Utkal family, built under the Founder's direction. **0.1.0-rc.5 is applied throughout the local Project Odisha website**, with refinements from real pages. Publication and adoption by other projects remain separate decisions.
 
 - [Story patterns and three reference pages](story-patterns.md)
 - [Media and meaning — the Founder’s visual storytelling foundation](media-and-meaning.md)
