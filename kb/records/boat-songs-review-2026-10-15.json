@@ -1,0 +1,31 @@
+{
+  "recorded_at": "2026-10-14T22:31:44.899834+00:00",
+  "reviewed_on": "2026-10-15",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "status": "pass_with_limitations",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-078",
+  "work_id": "UTP-WORK-266",
+  "verification": {
+    "source_review": "Full relevant passages in four readable sources checked. Nauria survey is narrowly attributed secondary evidence; its Halia verse excluded. Chaiti Ghoda legend labelled as legend. Modern adaptation based on maker interview, not auditioned or treated as inherited work-song. Original failed leads excluded.",
+    "prose": "757-word narrative; all 17 paragraphs matched between KB and website. No invented lyrics, interview, acoustic observation or single-origin claim.",
+    "local_checks": "396-page full build and 527 tests; 383-page public build and 120 tests; 1532 page acceptance checks. Discovery, launch, shortlist, bundle, register, programme, collection and research-map checks pass. Publication retains eleven indexable pages.",
+    "visual": {
+      "desktop": "1280px preview: clear heading, lead, three-question panel and complete narrative with source links.",
+      "mobile": "390x844 preview: viewport and document both390px, no horizontal overflow; heading, panel and expanded source text visually inspected.",
+      "keyboard": "Source notes expand using Enter with visible focus.",
+      "discovery": "Explore query Nauria geeta displays exactly one Boat songs of Odisha result."
+    },
+    "test_adjustment": "Added omitted Sounds of Odisha alias; updated fixed expected counts for one new article/card. All coastal tests then passed."
+  },
+  "limitations": [
+    "Same-assistant desk review only; practitioner and local terminology review remain open.",
+    "PDF text was readable through web extraction; screenshot attempts failed. No visual PDF inspection or local capture claimed.",
+    "No field recording or ancient transmission established. Eight main chapters and eleven external-search routes retained."
+  ],
+  "ci_recovery": "Initial PR validation failed because the generated internal editorial workbench index was stale. Regenerated it and passed its Python and browser-controller tests; article content unchanged. Passing replacement CI run will be recorded in the publication receipt."
+}

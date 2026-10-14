@@ -7541,23 +7541,23 @@
       "id": "UTP-WORK-266",
       "title": "Research Odisha boat and fishing songs",
       "category": "culture_research",
-      "status": "blocked",
+      "status": "in_progress",
       "readiness": "draft",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Await readable primary source passages; do not repeat unavailable searches without a new access path. Independent craft-listening article selected under WORK267.",
-      "blockers": [
-        "Full official source passages unavailable in this batch: timeout, expired certificate and DNS/502 failures. Search excerpts remain leads only."
-      ],
+      "next_action": "Complete factual, rendering and publication checks for the resumed KB and website delivery.",
+      "blockers": [],
       "refs": [
         "UTP-DEC-225"
       ],
       "evidence": [
         "research/culture/sounds-of-odisha.md",
-        "records/boat-songs-research-checkpoint-2026-10-13.json"
+        "records/boat-songs-research-checkpoint-2026-10-13.json",
+        "research/culture/boat-songs.md",
+        "research/sources/boat-songs-research.json"
       ],
-      "acceptance_criteria": "Research a source-linked Sounds of Odisha article on boat and fishing songs after reusing existing maritime and sound records. Distinguish documented working contexts, literary boat songs and recorded performances; retain named locality, source date, authorship and uncertain origins. Save the reader article and claim/source dossier with specific follow-ups; no invented testimony, lyrics, audio reuse or current performance promise. Complete source review, repository checks and passing PR checks on the reviewed commit. Verify merged outputs and save a KB delivery receipt before counting. Website adaptation is a separate tested publication delivery."
+      "acceptance_criteria": "Research a source-linked Sounds of Odisha article on boat and fishing songs after reusing existing maritime and sound records. Distinguish documented working contexts, literary boat songs and recorded performances; retain named locality, source date, authorship and uncertain origins. Save the reader article and claim/source dossier with specific follow-ups; no invented testimony, lyrics, audio reuse or current performance promise. Complete source review, repository checks and passing PR checks on the reviewed commit. Verify merged outputs and save a KB delivery receipt before counting. Website adaptation is a separate tested publication delivery. Founder requested completion on 15 October: website delivery included in this same item, counted once after live receipt."
     },
     {
       "id": "UTP-WORK-267",
@@ -17840,6 +17840,27 @@
         "Boat/fishing-song manuscript remains blocked for lack of adequate retrieved evidence.",
         "Search-index eligibility remains eleven routes.",
         "This direct Founder publication batch is not counted as 169 autonomous tasks; programme count remains unchanged."
+      ]
+    },
+    {
+      "id": "UTP-REV-239",
+      "title": "Boat songs article and website review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-266"
+      ],
+      "evidence": [
+        "records/boat-songs-review-2026-10-15.json"
+      ],
+      "limitations": [
+        "Same-assistant desk review only; practitioner and local terminology review remain open.",
+        "PDF text was readable through web extraction; screenshot attempts failed. No visual PDF inspection or local capture claimed.",
+        "No field recording or ancient transmission established. Eight main chapters and eleven external-search routes retained."
       ]
     }
   ],
