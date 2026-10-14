@@ -609,3 +609,71 @@ Extended the existing agriculture source to sugar-factory rows; added operator a
 ## Dhenkanal transaction checkpoint · 6 October 2026
 
 Reused the existing sugar study and source report. Three primary document identities extend transaction stages; seller publications are one lineage. No duplicate factory concept.
+
+## DMF project checkpoint · 2 October 2026 UTC
+
+Existing CAG source expanded through selected subsections. One new synthesis page, no duplicate primary-source identity or claim of independent corroboration.
+
+## Mining receipts checkpoint · 2 October 2026 UTC
+
+Two original-document identities and one synthesis added. Audit summaries and Finance Accounts overlap; they do not provide independent measurements.
+
+## DMF livelihoods and monitoring · 2 October 2026 UTC
+
+Existing CAG identity reused; existing honey and skills pages enhanced. Full ChapterVII and sections6.6.8–6.6.10 captured without duplicate topics.
+
+## DMF collections and financial management · 2 October 2026 UTC
+
+Existing CAG identity, DMF collection and three district pages enhanced; prior fund-stage observations reused. No independent corroboration claimed.
+
+## DMF implementation and park readiness · 3 October 2026
+
+Existing DMF and district records enhanced. One saved CAG publication supplies all new observations; no new or independently corroborating source claimed.
+
+## DMF health, education and inclusion · 3 October 2026
+
+Extended existing CAG source and subject/district identities. Existing OSIC furniture record enhanced to avoid duplicate project identity; relationship between7and10project scopes remains unresolved.
+
+## DMF infrastructure and forest evidence · 3 October 2026
+
+Six cases extend the existing DMF collection; existing sanitation and forest pages receive explained related-reading links. Kusumundia/Kusumdia remain one source-local settlement identity pending name verification.
+
+## DMF appendix reconciliation · 3 October 2026
+
+Existing CAG source reused across body/appendices; eight observations enriched rather than duplicated. All13appendix components catalogued; selected arithmetic verification does not validate every source row.
+
+## DMF planning and desk milestone · 3 October 2026
+
+FullChapterIV joined to existingCAGsource andAppendicesVIII/IX. Sukrangi housing distinct fromKusumundia Mankedia colony. Existing fund totals reused; newallocation/coverage measures scoped. No new independent corroboration.
+
+## Niyamgiri rights checkpoint · 3 October 2026
+
+Niyamgiri proposed mine now has a separate canonical identity; court directions and parliamentary report serve different evidence roles. Baphlimali and the two refineries remain distinct. Existing source records reused for futuremonitoring work.
+
+## Kodingamali environmental-work checkpoint · 3 October 2026
+
+Existing mine identity and original IBM source extended; no new duplicate source or production observations. Seven absent work-output fields captured; two rehabilitation holds preserved.
+
+## Bharatpur safety checkpoint · 3 October 2026
+
+New Bharatpur event identity links two government accounts. Same fatal event counted once; mine code and Angul/Talcher geography retained. Saved production and mining pages reused.
+
+## Baphlimali monitoring and recovery checkpoint · 3 October 2026
+
+Baphlimali canonical mine page enhanced. New FormV linked with existing ASI/EC; repeated company production/rehabilitation values not treated as independent evidence.
+
+## Mineral research checkpoint · 3 October 2026
+
+Searched source and repository research for IMMT/RRL before addition. One canonical institutional page, four sources and a stage dataset added; related rare-earth, mining and science records reused. This is a scoped map extension, not exhaustive deduplication.
+
+## Talcher and Rourkela history checkpoint · 3 October 2026
+
+Reused Rourkela chain, IMMT and BTK source. Added Talcher identity and four original publisher records; chronology event meanings preserved. This is a scoped extension, not exhaustive deduplication.
+
+## Mineral-scientist checkpoint · 4 October 2026
+
+Added Mamata Mohapatra, M.G. Sujana and one selected review after identity search. Reused IMMT/Sujana evidence; three new publisher/funder records. Repeated institutional evidence is not independent corroboration.
+
+## Mineral works and later evidence · 4 October 2026
+
+Existing Sujana and IMMT identities enhanced. Original paper abstract and later government release added; no duplicate publication or inferred project-stage overwrite. Bounded map extension only.

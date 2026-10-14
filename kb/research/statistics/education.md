@@ -76,3 +76,11 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 The report was released on 7 July 2026; these observations are newly captured here, not newly released this week. The older 2024–25 system counts remain dated above. No trend or causal explanation is inferred, and these stages must not be mixed with NEP classes 9–12.
 
 [^people-udise2026]: [UDISE+ 2025–26, Existing Structure](https://dashboard.udiseplus.gov.in/report2026/static/media/UDISE+2025_26_Booklet_existing.edd7cd16d934a10377ba.pdf), Table 6.13, p.120. [Ministry release notice](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2282141&lang=1&reg=48).
+
+## Mining-area services: follow the project
+
+[DMF funds and functioning services](../economy/dmf-from-funds-to-services.md) connects six district funding records with dated health, education and sports cases. Audit-sample completion, spending and operating observations are different measures; none establishes current statewide service outcomes.
+
+## Mining-funded education: selection, equipment and outcomes · 3 October 2026
+
+[The DMF service study](../economy/dmf-from-funds-to-services.md) links selected students for Curtin mining study, Jajpur medical-coaching results, uniforms and school furniture. Five selections do not establish five degrees; six examination qualifiers do not establish admissions or medical careers. Furniture portfolio overlap remains unverified. Funding eligibility is a separate historical audit question from educational value.

@@ -335,3 +335,71 @@ Sugar chart/card is research-only pending original state-table review. Company p
 ## Dhenkanal transaction checkpoint · 6 October 2026
 
 Historical transaction checkpoint ready for editorial review. Buyer identity does not clear the provisional output card, current business access or land availability. No website release.
+
+## DMF project checkpoint · 2 October 2026 UTC
+
+DMF synthesis draft retains district sample scope, dated service observations and government responses. Current operation, human review and publication remain unverified.
+
+## Mining receipts checkpoint · 2 October 2026 UTC
+
+New mining-receipts story is source-checked draft; positive five-year growth and latest decline remain together. Human editorial review and website publication not established.
+
+## DMF livelihoods and monitoring · 2 October 2026 UTC
+
+Four additional historical livelihood cases connect training, a market/cafe and managed apiculture to DMF. All current operation remains unknown; placement and honey disputes are visible. No publication or human review claimed.
+
+## DMF collections and financial management · 2 October 2026 UTC
+
+Collection/finance story distinguishes actual audit-reported recovery from promised refund, unreturned balance, unsupported remittance and modelled interest. Full ChaptersIII/V inspected. No current service, human review or website publication claim.
+
+## DMF implementation and park readiness · 3 October 2026
+
+DMF synthesis now connects park/museum service readiness with procurement evidence. Keep current opening, supplier and human review unverified; no website release.
+
+## DMF health, education and inclusion · 3 October 2026
+
+DMF health/education/inclusion evidence is structured and source-linked. Current operation and human review remain unknown; five new cases are research records, not approved public endorsements. No website release.
+
+## DMF infrastructure and forest evidence · 3 October 2026
+
+Infrastructure cases are historical research drafts. Current facility operation, repair, occupancy, plant survival and editorial review remain unknown. No website release.
+
+## DMF appendix reconciliation · 3 October 2026
+
+Works-collection and quarry-demand observations now held from headline use. Values preserved with reviewhistory; no current recovery, independent bank evidence, humanreview or websitepublication claimed.
+
+## DMF planning and desk milestone · 3 October 2026
+
+Planning evidence supports a qualified historical allocation story; current service delivery not established. Six district shares andadverse villagecoverage retained. Unresolved Table4.1/approval assertions held. No humanreview orwebsitepublication.
+
+## Niyamgiri rights checkpoint · 3 October 2026
+
+Niyamgiri rights narrative is source-checked research, with reported village decisions separated from judicial directions and current permission. Humaneditorialreview and websitepublication not claimed.
+
+## Kodingamali environmental-work checkpoint · 3 October 2026
+
+Kodingamali historical work counts are source-checked candidates. No survival, clean-air or ecological-recovery claim is ready from these rows. Local validation and Git review do not constitute website publication.
+
+## Bharatpur safety checkpoint · 3 October 2026
+
+Bharatpur is a source-checked historical safety case, with current risk, final inquiry and implemented recommendations unverified. No human review or website release.
+
+## Baphlimali monitoring and recovery checkpoint · 3 October 2026
+
+Water/waste figures are attributed company claims. Air concentration comparison, survival denominator, planting unit and priority classification remain held; no current-compliance or recovery headline. No human review or website release.
+
+## Mineral research checkpoint · 3 October 2026
+
+IMMT history and research-stage page is a source-checked draft. No commercial-output, current-availability or regional-identity inference; human review and public release not claimed.
+
+## Talcher and Rourkela history checkpoint · 3 October 2026
+
+Historical town/plant chronology is source-checked draft material. It establishes neither current operations nor visitor access, household benefits or current permission. No human review or website release.
+
+## Mineral-scientist checkpoint · 4 October 2026
+
+Scientist profiles and selected work are source-checked drafts with full coauthor credits. No portrait licence, human biography review, commercial adoption or website release is established.
+
+## Mineral works and later evidence · 4 October 2026
+
+Original abstract supports credited English work and limited experimental scope. Later pilot visit evidence adds no commercial outcome or current operation claim. All new content remains an editorial candidate; no website release.

@@ -79,3 +79,7 @@ Subject membership is editorial classification. It does not establish historical
 [Forest foods, products and livelihoods](../economy/forest-products.md) — household uses, market evidence and dated history; RES-056–058 deepen existing records.
 
 [Universities and learning](../culture/universities-and-learning.md) connects institutional roles, dated ranking measures and graduate cohorts; [the short story](../stories/odisha-university-evidence.md) keeps category and year visible.
+
+[Mining-area funds and services](../economy/dmf-from-funds-to-services.md) — dated project evidence connects finance, places and everyday services without equating spending with outcomes.
+
+[Bharatpur mine safety](../economy/bharatpur-mine-safety.md) — a dated accident account with separate event counts, recommendations and unresolved inquiry evidence.

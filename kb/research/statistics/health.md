@@ -62,3 +62,15 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 ## Regional survey update · 4 October 2026
 
 [Koraput, Sambalpur and Bargarh](../statistics/western-southern-baselines.md) now include provisional NFHS-6 child nutrition, original NFHS-5 methods and separate overall survey samples. Lower stunting does not imply improvement in every nutrition measure; no programme causation is established.
+
+## Mining-area services: follow the project
+
+[DMF funds and functioning services](../economy/dmf-from-funds-to-services.md) connects six district funding records with dated health, education and sports cases. Audit-sample completion, spending and operating observations are different measures; none establishes current statewide service outcomes.
+
+## Mining-funded health and mobility · 3 October 2026
+
+[The DMF service study](../economy/dmf-from-funds-to-services.md) now distinguishes mobile-clinic credential checks, patient-attendant meals, COVID bed reservations and wheelchair distribution. Historical payment or supply is not proof of patients served or current operation. Government responses are retained; the COVID total has an unresolved payment-period mismatch.
+
+## Doctor remuneration and healthcare delivery · 3 October 2026
+
+[The DMF appendix review](../economy/dmf-from-funds-to-services.md) retains a historical remuneration-policy comparison alongside government explanations of remote-area recruitment difficulty. It is not evidence of fictitious employment, current doctor availability or patient outcomes. Appendix2015–24 and bodyJanuary2018–March2024 scopes remain visible.

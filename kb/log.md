@@ -623,3 +623,71 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 6 October 2026 · Dhenkanal buyer and transaction stages
 
 [Research receipt](records/sugar-ownership-2026-10-06.json): Historical buyer identified through primary transaction records; current operation and production periods remain unverified. No website release.
+
+## 2 October 2026 · DMF funds and functioning services
+
+[Research receipt](records/mining-dmf-2026-10-02.json): Six district fund tables and four project cases distinguish spending, completion, operation and funding eligibility. CAG-reproduced government responses and source conflicts are preserved. RES-053 continues with receipts and remaining audit sections. No website release.
+
+## 2 October 2026 · Mining receipts and public finances
+
+[Research receipt](records/mining-receipts-2026-10-02.json): Six annual actual observations and minor heads distinguish nominal growth, recent decline, budgets, coal and dividends. Source conflict held; RES-053 continues with detailed subheads and remaining DMF audit sections. No website release.
+
+## 2 October 2026 · DMF livelihoods and monitoring
+
+[Research receipt](records/dmf-livelihood-monitoring-2026-10-02.json): Four livelihood cases connect skills, honey and assets with actual-use evidence and government responses. Full monitoring chapter read; current remediation unknown and district fetch failures recorded. RES-053 continues with remaining audit chapters and original service records. No website release.
+
+## 2 October 2026 · DMF collection and financial management
+
+[Research receipt](records/dmf-collection-finance-2026-10-02.json): Complete collection and finance chapters distinguish recovered funds, unreturned balances, accounting differences, promises and modelled interest. Source conflicts held. RES-053 continues with remaining project sections, appendices and original service records. No website release.
+
+## 3 October 2026 · DMF implementation and park readiness
+
+[Research receipt](records/dmf-implementation-2026-10-03.json): Further implementation sections distinguish procurement controls, park completion, funding eligibility and government response. Historical dates preserved. RES-053 continues with remaining project sections, appendices and original service records. No website release.
+
+## 3 October 2026 · DMF health, education and inclusion
+
+[Research receipt](records/dmf-health-education-2026-10-03.json): Health, education and disability-service evidence distinguishes spending, assets, people served and outcomes. Government replies and dated scope conflicts retained. RES-053 continues with remaining project sections, appendices and original service records. No website release.
+
+## 3 October 2026 · DMF infrastructure and forest evidence
+
+[Research receipt](records/dmf-infrastructure-2026-10-03.json): Infrastructure and afforestation evidence distinguishes completed assets from operating services and seedlings from surviving trees. Actual recovery and modelled service loss remain distinct; chronology gaps held. RES-053 continues with remaining project sections, appendices and original service records. No website release.
+
+## 3 October 2026 · DMF appendix reconciliation
+
+[Research receipt](records/dmf-appendices-2026-10-03.json): Supporting appendices enrich existing observations without duplication. Works-collection and quarry-demand aggregates held; original values and review history preserved. Selected checks do not validate every source row. RES-053 continues with remaining project sections, appendices and original service records. No website release.
+
+## 3 October 2026 · DMF planning and desk milestone
+
+[Research receipt](records/dmf-planning-2026-10-03.json): FullChapterIV joins historical allocations, village coverage, approvals and responses to saved funding/service evidence. RES-053 desk deliverable complete; current records and source conflicts remain open with retries. NextRES-054. No website release.
+
+## 3 October 2026 · Niyamgiri community-rights checkpoint
+
+[Research receipt](records/mining-rights-2026-10-03.json): A separate proposed-mine identity links court directions and minister-reported village decisions, preserving disputed positions and original-record gaps. RES-054 continues with monitoring, safety and restoration. No website release.
+
+## 3 October 2026 · Kodingamali environmental-work checkpoint
+
+[Research receipt](records/kodingamali-environment-2026-10-03.json): The existing mine identity gains planting, backfill and topsoil figures from the saved original. Scope and cost ambiguities are retained. RES-054 continues with safety and measured recovery. No website release.
+
+## 3 October 2026 · Bharatpur worker-safety checkpoint
+
+[Research receipt](records/bharatpur-safety-2026-10-03.json): One dated accident identity connects the Ministry agenda and parliamentary row. Same event counted once; recommendations are distinct from implemented corrective action. RES-054 continues with monitoring and closure. No website release.
+
+## 3 October 2026 · Baphlimali monitoring and recovery checkpoint
+
+[Research receipt](records/baphlimali-monitoring-2026-10-03.json): The existing mine study connects reported water/waste handling with audit findings and held measurement/recovery claims. Original tables and denominators remain gaps; RES-054 deferred, independent RES-055 next. No website release.
+
+## 3 October 2026 · Mineral-research checkpoint
+
+[Research receipt](records/mineral-research-2026-10-03.json): IMMT history connects mineral science with dated bench-scale and pilot stages. RES-055 remains in progress; commercial outcomes and mining-town histories remain open. No website release.
+
+## 3 October 2026 · Mining-place history checkpoint
+
+[Research receipt](records/mining-town-history-2026-10-03.json): Talcher and Rourkela histories distinguish lease, production, furnace firing and dedication. Social-history and scientific-credit work remains; RES-055 in progress. No website release.
+
+## 4 October 2026 · Mineral-scientist checkpoint
+
+[Research receipt](records/mineral-scientists-2026-10-04.json): Mamata Mohapatra and M.G. Sujana profiles connect to the IMMT research record; review coauthors and grant/visit periods remain explicit. Original-work and pilot-outcome checks remain; RES-055 in progress. No website release.
+
+## 4 October 2026 · Mineral works and later evidence
+
+[Research receipt](records/mineral-work-outcomes-2026-10-04.json): RES-055 bounded synthesis complete: original Sujana–Anand abstract and later pilot-facility visit evidence added. Commercial outcomes and identity joins remain unresolved with dated follow-ups. No website release.

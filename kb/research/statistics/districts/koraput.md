@@ -64,3 +64,7 @@ Census 2011 recorded literacy of **49.21% among residents aged seven and above**
 ## Newer provisional survey evidence · 4 October 2026
 
 NFHS-6 reports under-five stunting **38.7%**, wasting **24.6%**, and underweight **42.7%**. Odisha fieldwork was July–November2024; exact district dates remain unknown. [Comparison, samples and limits](../western-southern-baselines.md) preserve adverse changes and the earlier observations.
+
+## Kodingamali environmental work · 3 October 2026
+
+Kodingamali records 3,750 saplings planted in FY2023–24 alongside backfilling and topsoil reuse. Counts measure reported work; no survival or district-wide recovery is inferred. [Read the mine study](../../economy/bauxite-mine-identities.md).

@@ -102,9 +102,9 @@
   },
   "subject_classification": {
     "subject_families": 9,
-    "classified_concepts": 486,
+    "classified_concepts": 488,
     "expanded_statistical_pages": 42,
-    "explained_reading_links": 303,
+    "explained_reading_links": 309,
     "evidence_basis": "Editorial classification; individual source checks remain in the underlying records.",
     "reading_lenses": 10
   },
@@ -201,7 +201,7 @@
     "shared_publication_groups": 10,
     "exact_within_atlas_duplicates": 0,
     "semantic_deduplication_complete": false,
-    "current_map_records": 1234
+    "current_map_records": 1238
   },
   "entrepreneurs_and_businesses": {
     "selected_people": 5,
@@ -327,7 +327,7 @@
       "RES-054",
       "RES-055"
     ],
-    "completed_deep_studies": 1,
+    "completed_deep_studies": 2,
     "coal_checkpoint": {
       "observations_added": 49,
       "annual_rows": 10,
@@ -361,7 +361,7 @@
       "visual_review": "pending",
       "original_permits": "not_independently_verified"
     },
-    "completion_scope": "RES-051 attributed baseline and selected identity deliverable; unresolved harmonisation and permit checks retained.",
+    "completion_scope": "RES-051 attributed baseline/identity study and RES-053 receipts/DMF desk deliverable; original/current records and conflicts remain follow-ups.",
     "processing_work_checkpoint": {
       "new_observations": 7,
       "new_sources": 3,
@@ -387,6 +387,189 @@
       "reused_sources": 3,
       "task_completed": false,
       "retry_after": "2026-10-09"
+    },
+    "dmf_checkpoint": {
+      "run_id": "2026-10-02-mining-dmf",
+      "dataset": "references/data/mining-dmf.json",
+      "source_ids": [
+        "mining-cag-dmf2026"
+      ],
+      "observations_added": 56,
+      "projects": 4,
+      "districts": 6,
+      "completion_criteria_met": false
+    },
+    "receipts_checkpoint": {
+      "run_id": "2026-10-02-mining-receipts",
+      "dataset": "references/data/mining-receipts.json",
+      "observations_added": 23,
+      "completion_criteria_met": false
+    },
+    "dmf_monitoring_checkpoint": {
+      "run_id": "2026-10-02-dmf-livelihood-monitoring",
+      "dataset": "references/data/mining-dmf.json",
+      "additional_cases": 4,
+      "complete_chapters": [
+        "VII"
+      ],
+      "observations_added": 16,
+      "completion_criteria_met": false
+    },
+    "dmf_finance_checkpoint": {
+      "run_id": "2026-10-02-dmf-collection-finance",
+      "dataset": "references/data/mining-dmf.json",
+      "complete_chapters": [
+        "III",
+        "V",
+        "VII"
+      ],
+      "observations_added": 24,
+      "completion_criteria_met": false
+    },
+    "dmf_implementation_checkpoint": {
+      "run_id": "2026-10-03-dmf-implementation",
+      "dataset": "references/data/mining-dmf.json",
+      "sections": [
+        "6.1",
+        "6.2",
+        "6.3",
+        "6.4",
+        "6.5.2",
+        "6.5.3"
+      ],
+      "observations_added": 24,
+      "project_cases_added": 3,
+      "completion_criteria_met": false
+    },
+    "dmf_health_education_checkpoint": {
+      "run_id": "2026-10-03-dmf-health-education",
+      "dataset": "references/data/mining-dmf.json",
+      "sections": [
+        "6.5.4",
+        "6.5.5",
+        "6.6.7"
+      ],
+      "observations_added": 36,
+      "project_cases_added": 5,
+      "existing_project_cases_enhanced": 1,
+      "completion_criteria_met": false
+    },
+    "dmf_infrastructure_checkpoint": {
+      "run_id": "2026-10-03-dmf-infrastructure",
+      "dataset": "references/data/mining-dmf.json",
+      "sections": [
+        "6.6.11",
+        "6.6.12",
+        "6.6.13",
+        "6.6.14",
+        "6.6.15"
+      ],
+      "complete_chapters": [
+        "III",
+        "V",
+        "VI",
+        "VII"
+      ],
+      "observations_added": 32,
+      "project_cases_added": 6,
+      "completion_criteria_met": false
+    },
+    "dmf_appendix_checkpoint": {
+      "run_id": "2026-10-03-dmf-appendices",
+      "dataset": "references/data/mining-dmf.json",
+      "appendix_components_reviewed": 13,
+      "observations_added": 0,
+      "observations_enhanced": 8,
+      "existing_observations_held": 2,
+      "completion_criteria_met": false
+    },
+    "dmf_planning_checkpoint": {
+      "run_id": "2026-10-03-dmf-planning",
+      "dataset": "references/data/mining-dmf.json",
+      "project_cases": 23,
+      "observations_added": 19,
+      "chapters_text_reviewed": [
+        "III",
+        "IV",
+        "V",
+        "VI",
+        "VII"
+      ],
+      "completion_criteria_met": true,
+      "scope": "Defined RES-053 desk study; current services and conflicts unresolved."
+    },
+    "environment_rights_checkpoint": {
+      "run_id": "2026-10-03-niyamgiri-rights",
+      "task_id": "RES-054",
+      "dataset": "references/data/mining-environment-rights.json",
+      "site_cases": 1,
+      "observations_added": 4,
+      "new_sources": 2,
+      "completion_criteria_met": false
+    },
+    "kodingamali_environment_checkpoint": {
+      "run_id": "2026-10-03-kodingamali-environment",
+      "task_id": "RES-054",
+      "dataset": "references/data/mining-environment-rights.json",
+      "observations_added": 7,
+      "observations_enhanced": 2,
+      "reused_sources": 1,
+      "completion_criteria_met": false
+    },
+    "bharatpur_safety_checkpoint": {
+      "run_id": "2026-10-03-bharatpur-safety",
+      "task_id": "RES-054",
+      "dataset": "references/data/mining-environment-rights.json",
+      "observations_added": 3,
+      "new_sources": 2,
+      "completion_criteria_met": false
+    },
+    "baphlimali_monitoring_checkpoint": {
+      "run_id": "2026-10-03-baphlimali-monitoring",
+      "task_id": "RES-054",
+      "dataset": "references/data/mining-environment-rights.json",
+      "observations_added": 7,
+      "observations_enhanced": 3,
+      "new_sources": 1,
+      "reused_sources": 2,
+      "completion_criteria_met": false
+    },
+    "research_innovation_checkpoint": {
+      "run_id": "2026-10-03-mineral-research",
+      "task_id": "RES-055",
+      "dataset": "references/data/mining-research-innovation.json",
+      "stage_records": 9,
+      "new_sources": 4,
+      "completion_criteria_met": false
+    },
+    "town_history_checkpoint": {
+      "run_id": "2026-10-03-mining-town-history",
+      "task_id": "RES-055",
+      "dataset": "references/data/mining-place-history.json",
+      "historical_events": 17,
+      "new_sources": 4,
+      "reused_sources": 1,
+      "completion_criteria_met": false
+    },
+    "scientific_credit_checkpoint": {
+      "run_id": "2026-10-04-mineral-scientists",
+      "task_ids": [
+        "RES-055"
+      ],
+      "status": "mineral_scientists_checkpoint",
+      "new_people": 2,
+      "new_works": 1,
+      "scope": "Documented professional connections, full review-article author credits and separate fellowship/grant periods; no industrial outcomes inferred."
+    },
+    "work_outcome_checkpoint": {
+      "run_id": "2026-10-04-mineral-work-outcomes",
+      "task_ids": [
+        "RES-055"
+      ],
+      "status": "bounded_mining_history_research_deliverable_completed",
+      "new_people": 0,
+      "new_works": 1,
+      "scope": "Original abstract establishes full author credits; dated pilot-facility tour extends evidence without asserting output or exact cross-release project identity."
     }
   },
   "forest_products": {

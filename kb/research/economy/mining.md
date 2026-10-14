@@ -97,3 +97,47 @@ Keep useful positive achievements alongside setbacks and unresolved questions. M
 ## Land, rights, safety and restoration · 3 October 2026
 
 [Four scoped cases](mining-land-and-people.md) connect Sukurangi monitoring, Niyamgiri rights, Bharatpur haul-road safety and Baphlimali rehabilitation. Reported findings, decisions and actual outcomes remain separate; original monitoring and implementation/recovery records still need follow-up.
+
+## Mining-area services: follow the project
+
+[DMF funds and functioning services](dmf-from-funds-to-services.md) connects six district funding records with dated health, education and sports cases. Audit-sample completion, spending and operating observations are different measures; none establishes current statewide service outcomes.
+
+## Annual public receipts · 2 October 2026
+
+[Mining receipts over five elapsed years](mining-receipts.md) adds an audited actual series, recent decline and separate budget/coal/dividend categories. It provides context for DMF services without claiming that annual state receipts equal cumulative DMF funds or caused specific outcomes.
+
+## From collections to documented use · 2 October 2026
+
+[The DMF evidence](dmf-from-funds-to-services.md) now distinguishes audit-reported recovery, unreturned completed-project balances and utilisation certificates. Fund eligibility disputes, record differences and foregone interest are different findings, not an additive loss total. Current resolution remains open.
+
+## DMF desk evidence milestone · 3 October 2026
+
+The [funds-to-services study](dmf-from-funds-to-services.md) completes its defined desk scope with six-district finance/planning evidence and23dated project/programme cases, linked to the [actual mining-receipts series](mining-receipts.md). Current operations, source conflicts and revenue-subhead disaggregation remain explicit follow-ups. The next research batch concerns mine environments, rights, safety and restoration.
+
+## Niyamgiri rights checkpoint · 3 October 2026
+
+Community and religious rights are part of the mining evidence alongside finance and production. [Read the dated case](niyamgiri-rights-and-mining.md).
+
+## Kodingamali environmental work · 3 October 2026
+
+Kodingamali now links reported environmental work to the mine-output story. The historical inspection provides planting/backfilling figures, while measured ecological recovery remains unknown. [Read the mine study](bauxite-mine-identities.md).
+
+## Worker-safety evidence · 3 October 2026
+
+[The Bharatpur case](bharatpur-mine-safety.md) adds a historical accident account. Its four deaths and immediate-worksite population describe one event; they cannot establish a statewide accident rate, present safety status or implemented corrective action.
+
+## Baphlimali monitoring checkpoint · 3 October 2026
+
+[The existing mine study](bauxite-mine-identities.md) now distinguishes reported water/waste handling from held pollutant comparisons, audit findings and rehabilitation claims. Site figures are not district air-quality or ecological-recovery measures.
+
+## Mineral-research connections · 3 October 2026
+
+[From RRL to IMMT](minerals-research-immt.md) adds institutional history, a named researcher’s professional connection, and dated battery, fly-ash and pilot-facility stages. The evidence does not establish commercial output or current availability.
+
+## Mining-place history · 3 October 2026
+
+[Talcher’s historical chronology](talcher-coal-history.md) distinguishes town, coalfield, lease and production dates. The existing Rourkela record now separates furnace firing, dedication and capacity-phase completion. Historical boundaries and unresolved social-history gaps remain explicit.
+
+## History and research synthesis · 4 October 2026
+
+[IMMT’s connected research story](minerals-research-immt.md) now joins the Talcher and Rourkela histories with credited scientists, selected English works and dated critical-material facilities. The May2026 facility-tour report extends the historical evidence; output and precise project-identity questions remain open. The bounded RES-055 desk deliverable is complete, with dated follow-ups.

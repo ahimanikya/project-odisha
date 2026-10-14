@@ -134,3 +134,15 @@ The [homestay research](../statistics/homestays.md) connects the programme’s g
 ## Sugar-output checkpoint · 2026-10-06
 
 [Sugar factories](../economy/sugar-production.md) — physical output, cane input and reporting-boundary questions.
+
+[Mining-area funds and services](../economy/dmf-from-funds-to-services.md) — dated project evidence connects finance, places and everyday services without equating spending with outcomes.
+
+[Mining receipts and public finances](../economy/mining-receipts.md) — six annual actual observations, budget distinctions and the separate question of local services.
+
+[Niyamgiri: community rights and mining](../economy/niyamgiri-rights-and-mining.md) — a dated court/Parliament case connecting landscape, community decisions and a proposed mine; current permissions and ecological outcomes remain unknown.
+
+[Bharatpur mine safety](../economy/bharatpur-mine-safety.md) — a dated accident account with separate event counts, recommendations and unresolved inquiry evidence.
+
+## Mineral-research connections · 3 October 2026
+
+[From RRL to IMMT](../economy/minerals-research-immt.md) adds institutional history, a named researcher’s professional connection, and dated battery, fly-ash and pilot-facility stages. The evidence does not establish commercial output or current availability.

@@ -37,3 +37,7 @@ Existing RES-045 and RES-048–050 retain their IDs and completion criteria. Fur
 ## Mahima Dharma and a credited reading route
 
 [Stuti Chintamani](../works/stuti-chintamani.md) now records named English editions and translators. [Mahima Dharma](../culture/mahima-dharma.md) connects them to Joranda, Khaliapali and attributed historical scholarship while reusing the existing Bhima Bhoi literary profile.
+
+## Niyamgiri rights checkpoint · 3 October 2026
+
+The Niyam-Raja worship-rights issue connects a sacred landscape with a documented judicial process. [Read the dated case](../economy/niyamgiri-rights-and-mining.md).

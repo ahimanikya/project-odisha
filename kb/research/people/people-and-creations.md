@@ -129,3 +129,7 @@ The [contemporary creators collection](../people/contemporary-creators.md) now i
 ## Material-art work attribution ·4October2026
 
 [Raghunath Mohapatra](raghunath-mohapatra.md) adds a sculptor and nominated parliamentarian. The [Manabodh Rana profile](manabodh-rana.md) now links a provisionally matched institutional mural record. Three works enter the catalogue with source attribution, unknown dates and unknown current display preserved.
+
+## Mineral scientists · 4 October 2026
+
+[Mamata Mohapatra](mamata-mohapatra.md) and [M.G. Sujana](m-g-sujana.md) add documented education/work connections to Odisha, linked to research and credited collaborations. Institutional ties do not establish birthplace or mother tongue.

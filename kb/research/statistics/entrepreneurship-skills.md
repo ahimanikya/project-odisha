@@ -45,3 +45,7 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 
 
 [^enterprise-skills]: [Support for Women Entrepreneurs, 17 December 2025](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2205172)
+
+## Mining-area training and placement evidence · 2 October 2026
+
+[DMF livelihood cases](../economy/dmf-from-funds-to-services.md) distinguish training completion, provider placement claims, DMF verification and government responses. The historical15-person IHM result is a small cohort; the Jajpur placement sequence remains unresolved. Neither measures current statewide jobs.

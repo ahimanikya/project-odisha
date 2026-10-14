@@ -35,3 +35,19 @@ The agriculture report records rice crop area of **301.11 thousand hectares**, r
 ## Evidence coverage · 4 October 2026
 
 [District evidence matrix](../district-coverage.md) connects this snapshot with health, education, livelihood, environment and visitor research. Unmapped evidence remains unknown; banking is not a measure of household income.
+
+## Mining-area services: follow the project
+
+[DMF funds and functioning services](../../economy/dmf-from-funds-to-services.md) connects six district funding records with dated health, education and sports cases. Audit-sample completion, spending and operating observations are different measures; none establishes current statewide service outcomes.
+
+## Health and education delivery evidence · 3 October 2026
+
+The DMF study records school-furniture supply during July–September2021 at a reported cost of ₹12.35crore. This funding-eligibility audit case does not measure present furniture use or learning outcomes. See [DMF funds to services](../../economy/dmf-from-funds-to-services.md).
+
+## Infrastructure and sustained service · 3 October 2026
+
+Three-block lighting evidence now retains July2024 reports of1713defunct lights out of2320installed. The audit monetary assessment is modelled service value, not cash loss; later restoration is unverified. See [DMF funds to services](../../economy/dmf-from-funds-to-services.md).
+
+## Mining funds and public priorities · 3 October 2026
+
+CAG Table4.2 reports **76.77%** of this district DMF’s allocations directed to high-priority sectors duringFY2015–16 toFY2023–24. This is a historical allocation share, not a completion or service-delivery rate. [The six-district study](../../economy/dmf-from-funds-to-services.md) preserves government responses, source qualifications and dated project evidence.

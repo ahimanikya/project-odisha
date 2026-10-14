@@ -61,3 +61,11 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 [^nature-forest-pib]: [Parliament Question: Steps To Bring More Area Under Green Cover, 6 February 2025](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2100254&lang=2&reg=48)
 
 [^nature-isfr-2023]: [India State of Forest Report 2023, Volume II, Odisha](https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf)
+
+## Seedlings, planting and surviving trees · 3 October 2026
+
+[The Jajpur DMF project record](../economy/dmf-from-funds-to-services.md) distinguishes raising, public distribution and departmental planting from survival and forest-cover change. Missing distribution records and an unreconciled target balance remain open. No carbon benefit, mortality rate or increase in Odisha forest cover is inferred.
+
+## Kodingamali environmental work · 3 October 2026
+
+Mine planting belongs beside the forest story, with separate units and boundaries: reported saplings do not establish survival, statewide forest cover or carbon gains. [Read the mine study](../economy/bauxite-mine-identities.md).

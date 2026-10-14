@@ -67,3 +67,7 @@ The [investment tracker](../journeys/investment.md) now distinguishes acquired K
 ## Comparison boundary · 4 October 2026
 
 The [manufacturing study](manufacturing-output-and-suppliers.md) reuses the two existing output records. Acquisition-affected company growth remains descriptive; it is excluded from the unchanged-perimeter product chart.
+
+## Integration review carried forward · 2 October 2026
+
+The reported combined ore total of810,612tonnes for FY2025–26 inherits the hold on its Sukinda component. The source value is retained, but it is not a reconciled production total. The main-repository integration review and original revision history are preserved in the atlas; no replacement total is inferred.

@@ -50,3 +50,7 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 
 
 [^people-plfs2024]: [Annual Report, Periodic Labour Force Survey, July 2023–June 2024](https://www.mospi.gov.in/sites/default/files/publication_reports/AnnualReport_PLFS2023-24L2.pdf)
+
+## Mining-area training and placement evidence · 2 October 2026
+
+[DMF livelihood cases](../economy/dmf-from-funds-to-services.md) distinguish training completion, provider placement claims, DMF verification and government responses. The historical15-person IHM result is a small cohort; the Jajpur placement sequence remains unresolved. Neither measures current statewide jobs.

@@ -35,3 +35,11 @@ Banking geography is not household wealth, district GDP or project investment. R
 ## Evidence coverage · 4 October 2026
 
 [District evidence matrix](../district-coverage.md) connects this snapshot with health, education, livelihood, environment and visitor research. Unmapped evidence remains unknown; banking is not a measure of household income.
+
+## Worker-safety evidence · 3 October 2026
+
+[The Bharatpur case](../../economy/bharatpur-mine-safety.md) adds a historical accident account. Its four deaths and immediate-worksite population describe one event; they cannot establish a statewide accident rate, present safety status or implemented corrective action.
+
+## Mining-place history · 3 October 2026
+
+[Talcher’s historical chronology](../../economy/talcher-coal-history.md) distinguishes town, coalfield, lease and production dates. The existing Rourkela record now separates furnace firing, dedication and capacity-phase completion. Historical boundaries and unresolved social-history gaps remain explicit.

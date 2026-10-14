@@ -389,3 +389,71 @@ RES-017 attempt7 saves provisional sugar output and original company sale-period
 ## Dhenkanal transaction checkpoint · 6 October 2026
 
 RES-017 attempt 8 resolves historical buyer and separates approval/agreement/completion. Continue independent rice-mill output research; successor-document and period holds return on 11 October.
+
+## DMF project checkpoint · 2 October 2026 UTC
+
+Continue RES-053 with original actual mining-receipt accounts and remaining CAG Chapters III/V/VI/VII, reusing the downloaded163-page PDF. Four audit project cases and six district tables are already saved; do not repeat them. Seek district project IDs and dated restoration/handover evidence. Source percentage and eight-hostel cost discrepancies retry9October; they do not block independent receipt research.
+
+## Mining receipts checkpoint · 2 October 2026 UTC
+
+Reuse mining-receipts.json and the saved Finance Accounts. Reconcile detailed receipt subheads if available; otherwise continue remaining CAG DMF Chapters III/V/VI/VII and original district handover/current-service records. Do not repeat the six-year aggregate series or four existing project cases.
+
+## DMF livelihoods and monitoring · 2 October 2026 UTC
+
+Reuse complete ChapterVII and livelihood sections6.6.8–6.6.10 now saved. Next read full CAG ChapterIII on contribution collection and ChapterV financial management, then remaining ChapterVI sections. Obtain original project IDs and service/handover evidence where accessible. Subhead receipt split and source conflicts remain open; district portal failures and specific conflicts retry9October.
+
+## DMF collections and financial management · 2 October 2026 UTC
+
+Reuse completed ChaptersIII/V/VII and existing district finance tables. Next inspect remaining ChapterVI sections6.1–6.4,6.5.2–6.5.5,6.6.7 and6.6.11–6.6.15, plus relevant appendices. Preserve suspected/unreconciled/modeled/recovered distinctions; seek original dated handover and operation evidence where available. Source conflicts and portal retries remain9October.
+
+## DMF implementation and park readiness · 3 October 2026
+
+Reuse completed ChaptersIII/V/VII and ChapterVI sections already captured. Next read6.5.4–6.5.5,6.6.7,6.6.11–6.6.15 and relevant appendices; then seek original/current project evidence and royalty/auction split. Known portal/conflict retries remain9October. Do not repeat this implementation-control/park batch.
+
+## DMF health, education and inclusion · 3 October 2026
+
+Reuse completed ChaptersIII/V/VII and captured ChapterVI sections. Next read6.6.11–6.6.15 and relevant appendices, then original/current project outcomes and royalty/auction receipt split. Existing portal/conflict retries9October; new period/date/portfolio holds10October. Do not repeat health/education/wheelchair capture.
+
+## DMF infrastructure and forest evidence · 3 October 2026
+
+ChapterVI now complete across saved batches; do not repeat project sections. Next inspect relevant appendicesI–XI and reconcile with saved ChapterIII/V/VI observations; verify ChapterIV planning review coverage. Then original/current service outcomes and royalty/auction split. Existing source retries9–10October retained.
+
+## DMF appendix reconciliation · 3 October 2026
+
+AppendicesI–XI text reviewed and selected arithmetic reconciled; do not repeat captured totals. Next readfullChapterIV and governmentresponses, joining AppendixVIII/IX before publishing planning claims. Then original/current service outcomes and royalty/auction receipt split. Retain source-specific retries9–10October.
+
+## DMF planning and desk milestone · 3 October 2026
+
+RES-053 defined desk deliverable complete. Next eligible task RES-054: mine environments, rights, safety and restoration. Retry original/current service records and unresolved source conflicts9–10October; royalty/auction split remains a separate follow-up. Reuse saved CAG chapters and do not re-count their figures.
+
+## Niyamgiri rights checkpoint · 3 October 2026
+
+Niyamgiri rights checkpoint saved; do not repeat court/Parliament captures. Next: one site-specific monitoring/restoration study using saved IBM Kodingamali and Baphlimali records, followed by regulator safety/closure evidence. Original Niyamgiri resolutions/later Ministry order retry 10 October.
+
+## Kodingamali environmental-work checkpoint · 3 October 2026
+
+Kodingamali saved IBM environmental work captured without duplicating mine identity or production. Next: one regulator mine-safety/accident or closure case with explicit period and denominator; then Baphlimali measured monitoring. Kodingamali original monitoring/PMCP/cost records and Niyamgiri originals retry 10 October.
+
+## Bharatpur safety checkpoint · 3 October 2026
+
+Bharatpur event checkpoint saved; do not duplicate the two government accounts or infer current safety. Next: Baphlimali measured monitoring and closure/restoration evidence using saved sources. DGMS original alert/final inquiry, Kodingamali monitoring/PMCP and Niyamgiri original records retry10October.
+
+## Baphlimali monitoring and recovery checkpoint · 3 October 2026
+
+RES-054 checkpoint deferred to10October for original monitoring tables, closure instruments and recovery denominators. Reuse new FormV and extended ASI/EC scope. Next independent eligible task RES-055: mining-town histories, mineral research and future materials; keep current technology/project stages separate.
+
+## Mineral research checkpoint · 3 October 2026
+
+Continue RES-055 with source-backed mining-town history and named mineral-research contributions; reuse the new IMMT record and existing rare-earth journey. Seek later pilot outcomes only within dated scope; do not infer commercialisation from inauguration.
+
+## Talcher and Rourkela history checkpoint · 3 October 2026
+
+Continue RES-055 with credited mineral scientists and technology contributions using existing IMMT and science identities; seek later pilot outcomes only where original evidence exists. Town social histories and unresolved historical attribution/unit questions remain follow-ups; retry source-specific gaps10October.
+
+## Mineral-scientist checkpoint · 4 October 2026
+
+Continue RES-055 with a bounded original-paper or patent record for Sujana and a check for later operational evidence on the saved2025 IMMT pilots. Reuse existing scientist, work and project identities. If outcome evidence is absent, retain unknowns and close the bounded synthesis with separate dated follow-ups. Town social-history sources and original historical attribution remain follow-ups; retry existing inaccessible originals10October and new publisher/profile conflicts11October.
+
+## Mineral works and later evidence · 4 October 2026
+
+Next eligible independent research: RES-058 forest rights, knowledge and livelihoods. RES-067 remains dependent on blocked RES-064. Resume RES-055 source-specific follow-ups on10–11October using saved identities and evidence; no duplicate scientist or pilot records.

@@ -630,3 +630,73 @@ Captured eleven-year sugar-factory table under existing rice-oas2024 source iden
 ## Dhenkanal transaction checkpoint · 6 October 2026
 
 Resolved the 2022 Dhenkanal buyer through the original seller completion notice, quarterly note and conditional buyer announcement. Preserved event/publication dates, seller evidence lineage and unresolved production periods. No new physical observation or current operator claim.
+
+## DMF project checkpoint · 2 October 2026 UTC
+
+RES-053: six district tables, four project cases and 56 new observations from the existing CAG source. Source arithmetic/scope inconsistencies retained; source dashes remain unknown. Task incomplete; next receipts and remaining audit sections. No website release.
+
+The destination integration review’s hold on IMFA’s combined ore total was carried back into the source KB with its existing provenance and unchanged value.
+
+## Mining receipts checkpoint · 2 October 2026 UTC
+
+RES-053 receipt checkpoint: 23 observations, two comparisons, six-year actual series and latest minor heads. Conflicting OMC dividend held. Coal, forecasts and DMF remain distinct. No website release.
+
+## DMF livelihoods and monitoring · 2 October 2026 UTC
+
+RES-053: full ChapterVII and three livelihood subsections read; four cases and 16 observations added to existing DMF collection. Government responses preserved, three evidence-scope issues held. Failed portal retrievals remain unavailable. No website release.
+
+## DMF collections and financial management · 2 October 2026 UTC
+
+RES-053: full ChaptersIII/V and government responses read; 24 new observations, completed-project balance and certificate tables saved. Two new source discrepancies held; no aggregate loss headline. Local draft; no website release.
+
+## DMF implementation and park readiness · 3 October 2026
+
+RES-053: six implementation subsections read; 24 observations and three project cases saved. Government responses and historical dates retained; current services unknown. No website release.
+
+## DMF health, education and inclusion · 3 October 2026
+
+RES-053: health6.5.4,education6.5.5 andwheelchairs6.6.7 read. Added36 observations,five cases and one existing case extension. Historical government responses retained, conflicts held,current outcomes unknown. No website release.
+
+## DMF infrastructure and forest evidence · 3 October 2026
+
+RES-053: completed remaining ChapterVI sections6.6.11–6.6.15; added32 observations and six cases. Actual recovered penalty, asset cost and modelled service loss stay distinct. Appendices and current outcomes remain. No website release.
+
+## DMF appendix reconciliation · 3 October 2026
+
+RES-053: AppendixI–XI text reviewed, selected totals reconciled; eight existing observations enhanced, two held. No new duplicate statistics. ChapterIV/current evidence still pending; no website release.
+
+## DMF planning and desk milestone · 3 October 2026
+
+RES-053 defined desk deliverable completed: fullChapterIV and governmentresponses;19new scoped observations,23total project/programme cases. Six district allocation shares andadversecoverage evidence retained; conflicts quarantined. NextRES-054. No websitepublication.
+
+## Niyamgiri rights checkpoint · 3 October 2026
+
+RES-054 started: Niyamgiri court and Parliament originals, four scoped observations, one rights case. Judicial directions, minister-reported decisions and unresolved original minutes separated. Monitoring/safety/restoration remain incomplete. No websitepublication.
+
+## Kodingamali environmental-work checkpoint · 3 October 2026
+
+RES-054 checkpoint: reused saved IBM original, visually checked pp.5–7, added seven work/plantation observations and enhanced two held rehabilitation records. Retained cost/category ambiguities and unknown monitoring outcomes. Task remains in progress; no website release.
+
+## Bharatpur safety checkpoint · 3 October 2026
+
+RES-054 checkpoint: two primary PDFs, three event-count observations and one Bharatpur safety case. Recommendations remain separate from implementation; DGMS fetch failures and original-inquiry retry preserved. Monitoring and closure evidence still pending.
+
+## Baphlimali monitoring and recovery checkpoint · 3 October 2026
+
+RES-054 checkpoint: one new FormV source, two extended originals, seven observations and three enhanced area holds. Access failures, audit findings and measurement ambiguities retained; task incomplete and deferred to10October. Independent RES-055 is next.
+
+## Mineral research checkpoint · 3 October 2026
+
+RES-055 in progress: institutional history, four primary sources and nine dated stage records saved. Technology descriptions override broad commercialization heading. Town histories and later outcomes remain; no website release.
+
+## Talcher and Rourkela history checkpoint · 3 October 2026
+
+RES-055 checkpoint: Talcher and Rourkela histories connected, four new sources and one saved source reused; seventeen typed historical events. Census vintage1961 and publication1966 separated. Full task remains in progress.
+
+## Mineral-scientist checkpoint · 4 October 2026
+
+RES-055: added two scientist profiles and one credited English review, with three new sources and one reused original. Grant PI, fellowship visit and corresponding-author roles distinguished. Task remains in progress for bounded original-work/pilot-outcome checks.
+
+## Mineral works and later evidence · 4 October 2026
+
+RES-055 bounded desk synthesis complete. Added a Sujana–Anand experimental paper from its original abstract and a May2026 government facility-tour report. Prior stages unchanged; outcomes and identity joins remain unknown with dated follow-ups.

@@ -74,3 +74,9 @@ Subject membership is editorial classification. It does not establish historical
 ## Sadhaba maritime-science study · 4 October 2026
 
 [Inside Sadhaba voyaging](../history/sadhaba-maritime-science.md): vessels, navigation, environmental knowledge and the limits of reconstruction.
+
+[Niyamgiri: community rights and mining](../economy/niyamgiri-rights-and-mining.md) — a dated court/Parliament case connecting landscape, community decisions and a proposed mine; current permissions and ecological outcomes remain unknown.
+
+## Mining-place history · 3 October 2026
+
+[Talcher’s historical chronology](../economy/talcher-coal-history.md) distinguishes town, coalfield, lease and production dates. The existing Rourkela record now separates furnace firing, dedication and capacity-phase completion. Historical boundaries and unresolved social-history gaps remain explicit.

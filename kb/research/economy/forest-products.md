@@ -107,3 +107,11 @@ The next evidence sought is a dated procurement ledger, completed-sale statement
 ## Livelihoods and collective work · 4 October 2026
 
 The [Dhani historical case](../history/forest-livelihoods.md) adds a local institutional history to this market research. Its reported arrangements are not a current permit or a business-return estimate. Follow the case’s source and date limits before reuse.
+
+## Keep managed apiculture distinct from forest collection
+
+[DMF livelihood cases](dmf-from-funds-to-services.md) now include a Sundargarh managed-hive programme. It offers evidence about training, equipment and oversight, not a statewide forest-honey market total. Output figures and current operation remain unresolved.
+
+## Niyamgiri rights checkpoint · 3 October 2026
+
+Community-resource rights connect to forest livelihoods; the judgment supplies no forest-product sales series. [Read the dated case](niyamgiri-rights-and-mining.md).

@@ -572,3 +572,71 @@ Sugar: original OAS p.109 unavailable; recovery arithmetic and Aska2016–17 out
 ## Dhenkanal transaction checkpoint · 6 October 2026
 
 Historical buyer now documented. Fiscal/crushing-year alignment, successor output and present operator/title remain open. Newsletter original returned HTTP 502; original state table retry remains 11 October. Continue independent rice-mill output research meanwhile.
+
+## DMF project checkpoint · 2 October 2026 UTC
+
+Actual state mining receipts and remaining relevant audit chapters/appendices still need reconciliation. Current project operations and original response/handover records unknown. Continue independent actual-receipt research; two source discrepancies retry9October.
+
+## Mining receipts checkpoint · 2 October 2026 UTC
+
+Royalty/auction-premium split, remaining relevant DMF chapters, project IDs and current service/handover records remain incomplete. OMC dividend source discrepancy retained for9October retry.
+
+## DMF livelihoods and monitoring · 2 October 2026 UTC
+
+Full ChaptersIII/V and remaining ChapterVI; separate royalty/auction receipts; original project and current operating evidence still missing. Placement versions, honey periods and cohort scope kept unresolved; current portal retrieval failures retry9October.
+
+## DMF collections and financial management · 2 October 2026 UTC
+
+Remaining ChapterVI sections and relevant appendices, detailed royalty/auction receipt split, original project records and current service status still incomplete. New interest and certificate-gap discrepancies retry9October.
+
+## DMF implementation and park readiness · 3 October 2026
+
+ChapterVI 6.5.4–6.5.5,6.6.7,6.6.11–6.6.15 and relevant appendices; original/current project evidence and royalty/auction receipt split.
+
+## DMF health, education and inclusion · 3 October 2026
+
+ChapterVI6.6.11–6.6.15 and relevant appendices; original/current project outcomes and royalty/auction receipt split. New gaps: COVID cash-period mismatch, literal government reply-date typo, furniture portfolio overlap and actual student/device-user outcomes.
+
+## DMF infrastructure and forest evidence · 3 October 2026
+
+Relevant appendicesI–XI need a bounded reconciliation pass; check ChapterIV planning coverage before claiming all relevant chapters complete. Original/current project outcomes and royalty/auction receipt split remain unresolved. New holds: settlement/mandap duration claims and unexplained seedling target balance. Retry10October.
+
+## DMF appendix reconciliation · 3 October 2026
+
+Read fullChapterIV planning and institutional arrangements with government responses; contextualise AppendixVIII/IX. Original/current service outcomes and royalty/auction receipt split remain unresolved; source-specific retries9–10October. AppendixIIIinputs,Vtotals,VIcasecoverage,VIIprecision andIXmoneyprecision remain held or qualified; retry 10 October.
+
+## DMF planning and desk milestone · 3 October 2026
+
+DefinedRES-053 desk scope complete, not all evidence gaps closed. NewTable4.1 scope/denominator, mapping/meeting chronology andallocation precision questions retained with10Octoberretry. Current project records retain9Octoberretry; royalty/auction split separatefollow-up.
+
+## Niyamgiri rights checkpoint · 3 October 2026
+
+Monitoring, mine safety and measured restoration case studies remain; Niyamgiri original resolutions/later order unresolved. Original minutes, attendance and later order retry 10 October; no currentlegal-status inference.
+
+## Kodingamali environmental-work checkpoint · 3 October 2026
+
+Site monitoring readings, safety and measured ecological recovery remain incomplete; Kodingamali category/cost scope unresolved. Readings, survival/species, original PMCP/cost ledger follow-up 10 October; safety/closure work remains eligible now.
+
+## Bharatpur safety checkpoint · 3 October 2026
+
+Measured monitoring and closure/recovery study incomplete; original safety inquiry and action verification unresolved. DGMS routes timed out; original records retry10October. No missing record treated as unchanged or zero.
+
+## Baphlimali monitoring and recovery checkpoint · 3 October 2026
+
+Recover readable laboratory annexures with sampling dates/stations/averaging, original closure instruments, survival cohort/method, corrected planting unit and TNFD priority basis. FormV/EC binary downloadsHTTP406 and screenshotscachemiss; preserve raw claims as held. Retry10October; continue independent RES-055 meanwhile.
+
+## Mineral research checkpoint · 3 October 2026
+
+RES-055: mining-town histories, research-team credit and later pilot outcomes remain. Technology-page invalid date excluded; retry 10 October. A failed CRTDH history fetch was replaced with a readable PIB history source, not called unchanged.
+
+## Talcher and Rourkela history checkpoint · 3 October 2026
+
+RES-055: community, settlement and displacement history plus wider scientific credit remain. Talcher1837 personal attribution and old production-unit notation held; inaccessible district2019 original and PIB2018 route retry10October. Successful resumed originals recorded separately from failed routes.
+
+## Mineral-scientist checkpoint · 4 October 2026
+
+RES-055 scientist checkpoint adds two profiles and a selected review. Sujana original publication/patent credit and later pilot outcomes remain. Mamata rank/chronology conflicts held; publisher403 and profile discrepancies retry11October. Town social histories remain separate follow-ups.
+
+## Mineral works and later evidence · 4 October 2026
+
+RES-055 bounded desk synthesis complete; source-specific follow-ups remain10–11October. May2026 visit report does not verify throughput, current operation or precise2025 project identity. Original20April2026 PGM trial/operator report remains a discovery lead. Full2014 paper and online date, patent team, profile conflicts and town social histories remain open.

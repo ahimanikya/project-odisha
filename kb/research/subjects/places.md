@@ -52,3 +52,9 @@ Subject membership is editorial classification. It does not establish historical
 ## Yogini architecture and religious contexts
 
 [Hirapur](../places/hirapur-yogini.md) and [Ranipur-Jharial](../places/ranipur-jharial-yogini.md) now have distinct archaeological evidence records. [Read the comparative account](../culture/tantric-traditions.md), including attributed dates, sculpture-count limits and the distinction between Shaiva/Shakta and Buddhist contexts.
+
+[Mining-area funds and services](../economy/dmf-from-funds-to-services.md) — dated project evidence connects finance, places and everyday services without equating spending with outcomes.
+
+[Niyamgiri: community rights and mining](../economy/niyamgiri-rights-and-mining.md) — a dated court/Parliament case connecting landscape, community decisions and a proposed mine; current permissions and ecological outcomes remain unknown.
+
+[Bharatpur mine safety](../economy/bharatpur-mine-safety.md) — a dated accident account with separate event counts, recommendations and unresolved inquiry evidence.

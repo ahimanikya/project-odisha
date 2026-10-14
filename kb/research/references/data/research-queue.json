@@ -3272,7 +3272,16 @@
         "references/data/statistics-atlas.json",
         "sources/mining-npcc-rs2970-2023.md",
         "sources/mining-fa2023-24-vol1.md",
-        "sources/mining-dmf-ls2607-2024.md"
+        "sources/mining-dmf-ls2607-2024.md",
+        "economy/dmf-from-funds-to-services.md",
+        "references/data/mining-dmf.json",
+        "sources/mining-cag-dmf2026.md",
+        "sources/mining-cag-fy2024.md",
+        "sources/mining-finance-accounts2025.md",
+        "economy/mining-receipts.md",
+        "references/data/mining-receipts.json",
+        "food/mohu-honey.md",
+        "statistics/entrepreneurship-skills.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -3297,6 +3306,69 @@
           "outcome": "higher_precision_receipts_and_noncomparable_parliament_series",
           "completion_criteria_met": false,
           "remaining": "Obtain named reconciliation and facility records in mining-programme.dmf_record_reconciliation.record_requests. Higher-precision receipt gap is 0.20 crore; six DMF holds remain. Avoid repeating unavailable-source searches without a new record or restored endpoint."
+        },
+        {
+          "run_id": "2026-10-02-mining-dmf",
+          "at": "2026-10-02T18:51:18.740435+00:00",
+          "outcome": "district_fund_stages_and_four_project_cases",
+          "completion_criteria_met": false,
+          "remaining": "Actual state mining receipts and remaining relevant audit chapters/appendices still need reconciliation. Current project operations and original response/handover records unknown."
+        },
+        {
+          "run_id": "2026-10-02-mining-receipts",
+          "at": "2026-10-02T19:42:23.004076+00:00",
+          "outcome": "six_year_actual_receipts_and_latest_minor_heads",
+          "completion_criteria_met": false,
+          "remaining": "Royalty/auction-premium split, remaining relevant DMF chapters, project IDs and current service/handover records remain incomplete."
+        },
+        {
+          "run_id": "2026-10-02-dmf-livelihood-monitoring",
+          "at": "2026-10-02T19:55:38.366580+00:00",
+          "outcome": "full_monitoring_chapter_and_four_livelihood_cases",
+          "completion_criteria_met": false,
+          "remaining": "Full ChaptersIII/V and remaining ChapterVI; separate royalty/auction receipts; original project and current operating evidence still missing."
+        },
+        {
+          "run_id": "2026-10-02-dmf-collection-finance",
+          "at": "2026-10-02T20:22:56.636615+00:00",
+          "outcome": "complete_collection_and_finance_chapters",
+          "completion_criteria_met": false,
+          "remaining": "Remaining ChapterVI sections and relevant appendices, detailed royalty/auction receipt split, original project records and current service status still incomplete."
+        },
+        {
+          "run_id": "2026-10-03-dmf-implementation",
+          "at": "2026-10-03T08:32:04.483334+00:00",
+          "outcome": "implementation_controls_and_park_portfolio_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "ChapterVI 6.5.4–6.5.5,6.6.7,6.6.11–6.6.15 and relevant appendices; original/current project evidence and royalty/auction receipt split."
+        },
+        {
+          "run_id": "2026-10-03-dmf-health-education",
+          "at": "2026-10-03T09:38:20.498540+00:00",
+          "outcome": "health_education_and_inclusion_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "ChapterVI6.6.11–6.6.15 and relevant appendices; original/current project outcomes and royalty/auction receipt split."
+        },
+        {
+          "run_id": "2026-10-03-dmf-infrastructure",
+          "at": "2026-10-03T10:35:29.342463+00:00",
+          "outcome": "chapter_vi_complete_infrastructure_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Relevant appendicesI–XI need a bounded reconciliation pass; check ChapterIV planning coverage before claiming all relevant chapters complete. Original/current project outcomes and royalty/auction receipt split remain unresolved."
+        },
+        {
+          "run_id": "2026-10-03-dmf-appendices",
+          "at": "2026-10-03T11:35:43.176414+00:00",
+          "outcome": "appendix_reconciliation_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Read fullChapterIV planning and institutional arrangements with government responses; contextualise AppendixVIII/IX. Original/current service outcomes and royalty/auction receipt split remain unresolved; source-specific retries9–10October."
+        },
+        {
+          "run_id": "2026-10-03-dmf-planning",
+          "at": "2026-10-03T12:39:25.107567+00:00",
+          "outcome": "planning_review_and_defined_desk_deliverable_complete",
+          "completion_criteria_met": true,
+          "remaining": "Original/current evidence and conflicts remain follow-ups; no feasibility, current compliance or human-review approval."
         }
       ],
       "reuse_before_research": {
@@ -3314,11 +3386,217 @@
           "statistics/public-finance-audit.md",
           "sources/mining-npcc-rs2970-2023.md",
           "sources/mining-fa2023-24-vol1.md",
-          "sources/mining-dmf-ls2607-2024.md"
+          "sources/mining-dmf-ls2607-2024.md",
+          "economy/dmf-from-funds-to-services.md",
+          "references/data/mining-dmf.json",
+          "sources/mining-cag-fy2024.md",
+          "sources/mining-finance-accounts2025.md",
+          "economy/mining-receipts.md",
+          "references/data/mining-receipts.json",
+          "food/mohu-honey.md",
+          "statistics/employment.md",
+          "statistics/entrepreneurship-skills.md",
+          "economy/forest-products.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
+      },
+      "evidence_followups": [
+        {
+          "topic": "CAG source arithmetic and scope discrepancies",
+          "retry_after": "2026-10-09",
+          "gap": "Section5.1 prose79.69 versus table76.69; eight-hostel component amounts do not reconcile to11.78crore. No publisher correction found.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "OMC dividend internal source discrepancy",
+          "retry_after": "2026-10-09",
+          "gap": "SFAR2024–25 printed17 gives4233; printed32–33 gives4223 crore. Company-specific value held.",
+          "source_ids": [
+            "macro-cag-fy2025"
+          ]
+        },
+        {
+          "topic": "jajpur-placement-evidence-vintages",
+          "retry_after": "2026-10-09",
+          "gap": "Preserve148,79,152,160 as different dated claims/verification stages. Later160 does not override79 without records; current placements unknown.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "sundargarh-honey-output-scope",
+          "retry_after": "2026-10-09",
+          "gap": "1681kg OLM-derived and1500kg government-reply figures have unresolved periods. Report described2022–24 yet submitted January2024. Source1.26% not promoted; no canonical production/yield/revenue series.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "keonjhar-training-cohort-scope",
+          "retry_after": "2026-10-09",
+          "gap": "1208 total versus618 across three institutes plus15IHM not reconciled in passage. No full-programme employment rate.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "District DMF portal and original outcome records",
+          "retry_after": "2026-10-09",
+          "gap": "Annual-report portal timed out; PMU tender page502. Present restoration, registers and project operations unverified.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-unreturned-interest-footnote",
+          "retry_after": "2026-10-09",
+          "gap": "Aggregate withheld pending publisher/source reconciliation. No claim that component sum is authoritative correction.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-sundargarh-uc-excess",
+          "retry_after": "2026-10-09",
+          "gap": "Printed gap held; raw expenditure and certificate figures retained with scope; aggregate net gap separately reconciles.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-mankedia-delay-duration",
+          "retry_after": "2026-10-10",
+          "gap": "Audit says six years sinceApril2021stoppage, inconsistent withDecember2024inspection andJanuary2026reply. Dates retained; six-year-duration headline withheld. Government phased-implementation claim remains unverified.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-jajpur-seedling-balance",
+          "retry_after": "2026-10-10",
+          "gap": "1329033publicdistribution +628567departmentplanting =1957600 versus2000000target; residual42400 has unexplained status in passage. No inferred deaths, missing assets or authoritative correction. Distribution and planting remain distinct measures.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-koira-mandap-timeline",
+          "retry_after": "2026-10-10",
+          "gap": "April2017/October2022approval vintages, August2019completion and claimedtwo-to-nine-year inactivity are not reconciled atprojectlevel. Retain rawdates; do not derive a duration headline or assume laterapproval covers allcompletedfacilities.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-appendix-iii-inputs",
+          "retry_after": "2026-10-10",
+          "gap": "Total is an audit-reported interest figure; this does not independently validate underlying date/rate calculation. Principal subtotal and date inputs held; no publisher correction assumed. Interest subtotals sum93254230rupees and round9.33crore. Joda principal groups sum916965415, versus printed16965415; other principal subtotals reconcile grand total only with group sum. The Keonjhar row has payment preceding its printed due date despite27days delay.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-appendix-v-works-total",
+          "retry_after": "2026-10-10",
+          "gap": "Appendix printed due lesscollection=443776581, differing6553rupees fromprintedshort443770028. Dhenkanal due rows sum105928713,6553below printedsubtotal; row sum lesscollection matches101414882. Body4438.08lakh=443808000rupees,37972above appendixshorttotal. Existing body/table total held; original record needed.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-appendix-vi-demand-scope",
+          "retry_after": "2026-10-10",
+          "gap": "First nine short-demand entries sum90648386; the two non-demanded rows printzero shortdemand despite33800179chargeable. Fullcolumn subtraction gives124448566, while displayedshortpluslasttwochargeable=124448565; retainone-rupeeroundingdifference. Do not present9.06crore as fullyreconciled all11case shortfall or replace it with a new12.44crore claim. Two rows extendthroughFY2024–25; avoid uniform2015–24 scope.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-appendix-vii-precision",
+          "retry_after": "2026-10-10",
+          "gap": "9138518minus3764788=5373730=53.7373lakh. Bodyreports53.73lakh, a730rupee precision difference; ordinary rounding to two decimals would be53.74. Retain printed body value and exact appendix separately without silently correcting it. No claim every royalty/quantityrow independently recalculated.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-appendix-ix-money-precision",
+          "retry_after": "2026-10-10",
+          "gap": "Count difference3269minus2512=757. Money row sum9733.36 differsfromprinted9733.37 by0.01crore; printed aggregate subtraction gives2751.78 versusprinted2751.79. Amount difference is not the value of757unauthorised projects. Hold interpretation pendingfull4.3.8andresponse; retain0.01crore sourceprecision disagreement.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-planning-table41-scope",
+          "retry_after": "2026-10-10",
+          "gap": "Dhenkanal4.1release56.48/use55.89 versus5.1release56.39/expenditure44.14; Jajpur4.1use1164.43 versus5.1expenditure1164.42. Dhenkanal notidentified in4.1cell but identified in4.3.1. Preserve raw, hold cross-table replacement/aggregate. Common-category percentages30.67/22.67 match utilisation denominator although prose says sanctioned amount.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-planning-map-chronology",
+          "retry_after": "2026-10-10",
+          "gap": "Keonjhar source61monthdelay afterOctober2017 instructions versus governmentNovember2017 list supply date unresolved. Do not repair dates or derive current coverage.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-planning-approval-chronology",
+          "retry_after": "2026-10-10",
+          "gap": "14ECmeetings throughJanuary2024 in initial passage versus noBoT/ECmeeting afterNovember2022 in rejoinder. Hold unqualified757project headline pending minutes and project IDs; government disputes lackofapproval. AppendixIX0.01crore precision issues retained, moneydifference notvalueof757projects.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-planning-allocation-precision",
+          "retry_after": "2026-10-10",
+          "gap": "Table4.2 Jajpur2848.76/Mayurbhanj109.16 versus sanctions2848.77/109.17 elsewhere; Keonjhar components9733.36 versusprintedtotal9733.37. Preserve table-specific allocation denominator, no revised sanctions or combined precise total.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "Separate royalty and auction-premium receipts",
+          "retry_after": "2026-10-10",
+          "gap": "Saved actual-receipts minor-head categories do not establish a clean royalty/auction-premium split. Seek original detailed departmental receipts; preserve total actual series.",
+          "source_ids": [
+            "mining-finance-accounts2025"
+          ]
+        }
+      ],
+      "completed_at": "2026-10-03T12:39:25.107567+00:00",
+      "completion_evidence": {
+        "scope": "Bounded desk deliverable; no current operating certification or human review",
+        "criteria": [
+          {
+            "criterion": "Actual public receipts reconciled",
+            "evidence": "references/data/mining-receipts.json; economy/mining-receipts.md",
+            "result": "Six-year actual series and Finance Accounts categories retained; royalty/auction split unresolved."
+          },
+          {
+            "criterion": "District DMF sample",
+            "evidence": "references/data/mining-dmf.json district_rows and planning_review",
+            "result": "Six district fund stages and priority allocations; conflicting tables preserved."
+          },
+          {
+            "criterion": "Full relevant CAG chapters and responses",
+            "evidence": "references/data/mining-dmf.json review_coverage",
+            "result": "ChaptersIII–VII full text; appendicesI–XI text, selected arithmetic. Responses attributed to CAG, not independently retrieved letters."
+          },
+          {
+            "criterion": "At least three project completion/function links where available",
+            "evidence": "references/data/mining-dmf.json projects",
+            "result": "23 cases with separate completion and observed-function fields, including keonjhar-dhh-nicu-picu, deogan-hostels and birsa-munda-hockey-dmf. Functioning and nonfunctioning evidence retained; current status unknown."
+          }
+        ]
       }
     },
     {
@@ -3344,10 +3622,19 @@
         "sources/mining-cgwb-sukinda2025-annex.md",
         "sources/mining-ibm-baphlimali2024.md",
         "sources/mining-coal-safety49-agenda.md",
-        "sources/mining-xaxa-niyamgiri2014.md"
+        "sources/mining-xaxa-niyamgiri2014.md",
+        "economy/niyamgiri-rights-and-mining.md",
+        "references/data/mining-environment-rights.json",
+        "sources/mining-niyamgiri-sc2013.md",
+        "sources/mining-niyamgiri-rs2015.md",
+        "sources/mining-coal-safety-agenda2020.md",
+        "sources/mining-rs-accidents835-2023.md",
+        "economy/bharatpur-mine-safety.md",
+        "economy/bauxite-mine-identities.md",
+        "sources/mining-baphlimali-formv2025.md"
       ],
-      "retry_after": null,
-      "blocker": null,
+      "retry_after": "2026-10-10",
+      "blocker": "Recover readable laboratory annexures with sampling dates/stations/averaging, original closure instruments, survival cohort/method, corrected planting unit and TNFD priority basis. FormV/EC binary downloadsHTTP406 and screenshotscachemiss; preserve raw claims as held.",
       "attempt_history": [
         {
           "run_id": "2026-10-03-mining-land-people",
@@ -3362,6 +3649,34 @@
           "outcome": "four_source_followup_with_denominator_hold",
           "completion_criteria_met": false,
           "remaining": "Clarify CGWB Table4 post-monsoon56 versus printed50 and source-category totals; obtain original Mantu Das order/action records, signed Niyamgiri resolutions/final ministry order, mine-specific Bharatpur remedy evidence, and Baphlimali area crosswalk/recovery/emissions closure. Avoid repeating unchanged unavailable searches."
+        },
+        {
+          "run_id": "2026-10-03-niyamgiri-rights",
+          "at": "2026-10-03T13:36:01.706450+00:00",
+          "outcome": "niyamgiri_primary_rights_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Monitoring, mine safety and measured restoration case studies remain; Niyamgiri original resolutions/later order unresolved."
+        },
+        {
+          "run_id": "2026-10-03-kodingamali-environment",
+          "at": "2026-10-03T14:37:24.315461+00:00",
+          "outcome": "kodingamali_environmental_work_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Site monitoring readings, safety and measured ecological recovery remain incomplete; Kodingamali category/cost scope unresolved."
+        },
+        {
+          "run_id": "2026-10-03-bharatpur-safety",
+          "at": "2026-10-03T15:37:46.393833+00:00",
+          "outcome": "bharatpur_safety_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Measured monitoring and closure/recovery study incomplete; original safety inquiry and action verification unresolved."
+        },
+        {
+          "run_id": "2026-10-03-baphlimali-monitoring",
+          "at": "2026-10-03T16:38:34.364560+00:00",
+          "outcome": "baphlimali_monitoring_checkpoint_access_and_scope_gaps",
+          "completion_criteria_met": false,
+          "remaining": "Recover readable laboratory annexures with sampling dates/stations/averaging, original closure instruments, survival cohort/method, corrected planting unit and TNFD priority basis. FormV/EC binary downloadsHTTP406 and screenshotscachemiss; preserve raw claims as held."
         }
       ],
       "reuse_before_research": {
@@ -3378,12 +3693,48 @@
           "sources/mining-cgwb-sukinda2025-annex.md",
           "sources/mining-ibm-baphlimali2024.md",
           "sources/mining-coal-safety49-agenda.md",
-          "sources/mining-xaxa-niyamgiri2014.md"
+          "sources/mining-xaxa-niyamgiri2014.md",
+          "economy/niyamgiri-rights-and-mining.md",
+          "references/data/mining-environment-rights.json",
+          "sources/mining-niyamgiri-sc2013.md",
+          "sources/mining-niyamgiri-rs2015.md",
+          "sources/mining-ibm-kodingamali2024.md",
+          "sources/mining-baphlimali-ec-sep2025.md",
+          "sources/mining-coal-safety-agenda2020.md",
+          "sources/mining-rs-accidents835-2023.md",
+          "economy/bharatpur-mine-safety.md",
+          "sources/mining-baphlimali-formv2025.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "evidence_followups": [
+        {
+          "topic": "Niyamgiri original resolutions and later Ministry order",
+          "retry_after": "2026-10-10",
+          "gap": "Original signed minutes, attendance, village-selection basis and later Ministry forest-clearance order not recovered; subsequent case history unreviewed.",
+          "source_ids": [
+            "mining-niyamgiri-sc2013",
+            "mining-niyamgiri-rs2015"
+          ]
+        },
+        {
+          "topic": "Kodingamali readings, area categories and watch/care ledger",
+          "retry_after": "2026-10-10",
+          "gap": "Obtain monitoring annexures with samples/limits, original PMCP category definitions and cost ledger. Saved IBM report lacks measured pollutant/survival outcomes; hearing/consent search leads remain unverified."
+        },
+        {
+          "topic": "Bharatpur final inquiry and verified corrective actions",
+          "retry_after": "2026-10-10",
+          "gap": "DGMS alert/index and historical table unavailable; recover original alert07/2019, final inquiry, restriction/reopening orders and verified corrective-action records. Comparable exposure data absent."
+        },
+        {
+          "topic": "Baphlimali raw monitoring, closure and rehabilitation denominators",
+          "retry_after": "2026-10-10",
+          "gap": "Recover readable laboratory annexures with sampling dates/stations/averaging, original closure instruments, survival cohort/method, corrected planting unit and TNFD priority basis. FormV/EC binary downloadsHTTP406 and screenshotscachemiss; preserve raw claims as held."
+        }
+      ]
     },
     {
       "id": "RES-055",
@@ -3391,18 +3742,77 @@
       "title": "Mining history and future-materials research",
       "done_when": "Connect documented mining-town histories, people and mineral research with recycling and critical-material project stages; reuse the existing rare-earth journey and require source-backed technology and outcome claims.",
       "target": "economy/mining.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "completed",
+      "attempts": 4,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-020"
       ],
-      "last_worked_at": null,
-      "next_step": "Connect documented mining-town histories, people and mineral research with recycling and critical-material project stages; reuse the existing rare-earth journey and require source-backed technology and outcome claims.",
-      "evidence_outputs": [],
+      "last_worked_at": "2026-10-04T01:27:35.187434+00:00",
+      "next_step": "Next eligible independent research: RES-058 forest rights, knowledge and livelihoods. RES-067 remains dependent on blocked RES-064. Resume RES-055 source-specific follow-ups on10–11October using saved identities and evidence; no duplicate scientist or pilot records.",
+      "evidence_outputs": [
+        "sources/mining-immt-history.md",
+        "sources/mining-immt-pib2020.md",
+        "sources/mining-immt-sujana-technologies.md",
+        "sources/mining-immt-pib2025.md",
+        "economy/minerals-research-immt.md",
+        "references/data/mining-research-innovation.json",
+        "sources/mining-sail-history.md",
+        "sources/mining-parvati-rebuild2018.md",
+        "sources/mining-talcher-mcl2019.md",
+        "sources/mining-dhenkanal-census1961.md",
+        "economy/talcher-coal-history.md",
+        "economy/rourkela-steel-chain.md",
+        "references/data/mining-place-history.json",
+        "sources/mining-mamata-immt.md",
+        "sources/mining-mamata-danida.md",
+        "sources/mining-battery-cathodes-review2022.md",
+        "people/mamata-mohapatra.md",
+        "people/m-g-sujana.md",
+        "works/spent-cathodes-review.md",
+        "references/data/people-creations.json",
+        "sources/mining-sujana-ferric2014.md",
+        "sources/mining-immt-canada2026.md",
+        "works/ferric-hydroxide-fluoride.md"
+      ],
       "retry_after": null,
       "blocker": null,
-      "attempt_history": [],
+      "attempt_history": [
+        {
+          "run_id": "2026-10-03-mineral-research",
+          "at": "2026-10-03T21:39:55.313303+00:00",
+          "outcome": "institutional_history_and_research_stage_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Mining-town histories, wider credited teams and verified later pilot outcomes remain."
+        },
+        {
+          "run_id": "2026-10-03-mining-town-history",
+          "at": "2026-10-03T22:45:02.059182+00:00",
+          "outcome": "talcher_and_rourkela_historical_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": [
+            "Worker settlements, displacement and local enterprise histories",
+            "Additional credited scientists and verified later pilot outcomes"
+          ]
+        },
+        {
+          "run_id": "2026-10-04-mineral-scientists",
+          "at": "2026-10-04T00:30:23.622518+00:00",
+          "outcome": "mineral_scientist_credit_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": [
+            "Original work/patent credit for Sujana",
+            "Later pilot operating evidence or explicit unresolved outcome hold"
+          ]
+        },
+        {
+          "run_id": "2026-10-04-mineral-work-outcomes",
+          "at": "2026-10-04T01:27:35.187434+00:00",
+          "outcome": "bounded_history_people_and_research_synthesis_completed",
+          "completion_criteria_met": true,
+          "remaining": "Source-specific outcomes, full methods and social histories retained as follow-ups; no current operation certified."
+        }
+      ],
       "reuse_before_research": {
         "source_records": [
           "economy/mining.md",
@@ -3410,11 +3820,101 @@
           "references/data/mining-programme.json",
           "journeys/rare-earths.md",
           "people/people-and-creations.md",
-          "history/index.md"
+          "history/index.md",
+          "sources/mining-immt-history.md",
+          "sources/mining-immt-pib2020.md",
+          "sources/mining-immt-sujana-technologies.md",
+          "sources/mining-immt-pib2025.md",
+          "economy/minerals-research-immt.md",
+          "references/data/mining-research-innovation.json",
+          "sources/mining-sail-history.md",
+          "sources/mining-parvati-rebuild2018.md",
+          "sources/mining-talcher-mcl2019.md",
+          "sources/mining-dhenkanal-census1961.md",
+          "economy/talcher-coal-history.md",
+          "economy/rourkela-steel-chain.md",
+          "references/data/mining-place-history.json",
+          "sources/mining-btk-pfr2021.md",
+          "sources/mining-mamata-immt.md",
+          "sources/mining-mamata-danida.md",
+          "sources/mining-battery-cathodes-review2022.md",
+          "people/mamata-mohapatra.md",
+          "people/m-g-sujana.md",
+          "works/spent-cathodes-review.md",
+          "references/data/people-creations.json",
+          "sources/mining-sujana-ferric2014.md",
+          "sources/mining-immt-canada2026.md",
+          "works/ferric-hydroxide-fluoride.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
+      },
+      "completed_at": "2026-10-04T01:27:35.187434+00:00",
+      "follow_up_evidence": [
+        {
+          "topic": "Pilot identity and operating outcomes",
+          "retry_after": "2026-10-11",
+          "gap": "Obtain project-specific commissioning/trial reports, throughput, recovery and operating periods. May2026 visit supports facility-tour reporting only; do not merge generic names into2025 projects without identity evidence.",
+          "source_ids": [
+            "mining-immt-canada2026",
+            "mining-immt-pib2025"
+          ],
+          "discovery_lead": "https://www.csir.res.in/sites/default/files/2026-05/16_to_30_april_2026.pdf",
+          "lead_scope": "Search-indexed institutional press-clipping compilation mentions20April2026 OMC trial; original technical/operator record not retrieved. Not adopted as measured outcome."
+        },
+        {
+          "topic": "Selected work and profile scope",
+          "retry_after": "2026-10-11",
+          "gap": "Read full2014 article and verify online date; retrieve original patent record/team if needed. Preserve existing Mamata profile and technology-date holds.",
+          "source_ids": [
+            "mining-sujana-ferric2014",
+            "mining-mamata-immt",
+            "mining-immt-sujana-technologies"
+          ]
+        },
+        {
+          "topic": "Mining-town social history and historical source ambiguities",
+          "retry_after": "2026-10-10",
+          "gap": "Worker settlement/displacement/local-enterprise evidence, Talcher1837 attribution and historical tons notation remain unresolved.",
+          "source_ids": [
+            "mining-dhenkanal-census1961",
+            "mining-talcher-mcl2019"
+          ]
+        }
+      ],
+      "completion_evidence": {
+        "scope": "Bounded desk synthesis; unresolved outcome fields explicit, no human review or current operation certification",
+        "criteria": [
+          {
+            "criterion": "Documented town histories",
+            "evidence": [
+              "economy/talcher-coal-history.md",
+              "economy/rourkela-steel-chain.md",
+              "references/data/mining-place-history.json"
+            ],
+            "result": "Dated typed milestones preserve historical geography and source ambiguities."
+          },
+          {
+            "criterion": "People and mineral research",
+            "evidence": [
+              "people/m-g-sujana.md",
+              "people/mamata-mohapatra.md",
+              "works/ferric-hydroxide-fluoride.md",
+              "works/spent-cathodes-review.md"
+            ],
+            "result": "Professional connections and credited selected publications; work/review distinctions explicit."
+          },
+          {
+            "criterion": "Recycling and critical-material stages, reuse rare-earth journey",
+            "evidence": [
+              "economy/minerals-research-immt.md",
+              "references/data/mining-research-innovation.json",
+              "journeys/rare-earths.md"
+            ],
+            "result": "Bench, pilot announcement, inauguration and later facility-tour evidence remain distinct; commercial and precise identity unknowns preserved."
+          }
+        ]
       }
     },
     {

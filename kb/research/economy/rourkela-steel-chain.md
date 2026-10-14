@@ -76,3 +76,17 @@ Both are account-attributed statements awaiting underlying records and independe
 ## Production narrative and operating benchmarks · 4 October 2026
 
 The [manufacturing study](manufacturing-output-and-suppliers.md) retains the annual-report 4.04 and carbon-budget 4.045 million-tonne FY2024–25 crude-steel values separately. Original production returns remain necessary before choosing a precision or revision explanation. It also captures historical CAG operating benchmarks; those are neither legal limits nor current supplier orders.
+
+## Historical milestones: plant, furnace and mine · 3 October 2026
+
+**Rourkela’s first furnace was fired before its ceremonial dedication.** SAIL dates Parvati’s first blowing-in to 24 January 1959 and its dedication by President Rajendra Prasad to 3 February 1959. Its 2018 account records the rebuilt furnace’s blowing-in on 8 May 2018. These are distinct milestones, not three versions of one date. [SAIL release](https://www.sail.co.in/en/sail-news/rebuilt-blast-furnace-1-parvati-sail-rourkela-steel-plant-blown).
+
+SAIL’s history places Hindustan Steel’s formation on 19 January 1954, completion of Rourkela’s first 1 MT phase by December 1961, and commissioning of the Tandem Mill—the last unit of the 1.8 MT phase—in February 1968. These describe corporate formation and capacity-phase completion, not annual output. [SAIL history](https://www.sail.co.in/en/company/background-history).
+
+The saved 2021 mine report adds ML130’s original grant on 6 January 1960 and ML162’s on 29 April 1960. These are applicant-reported grant dates; neither establishes mining start, present permission or lease fulfilment. The existing Barsua rail-route evidence above supplies the documented mine-to-plant connection. [Printed p.1](https://environmentclearance.nic.in/writereaddata/Online/TOR/28_Jun_2021_17124567022642313PFRjune2021.pdf).
+
+[Talcher history](talcher-coal-history.md) connects two industrial histories while preserving coalfield, town, lease and plant-event distinctions.
+
+[IMMT research](minerals-research-immt.md) connects industrial history with later laboratory and pilot stages without assigning research results to steel-plant production.
+
+Current household benefits, worker-settlement histories and displacement outcomes require their own sources. Institutional retrospectives do not replace community testimony or archival land records. [Dated evidence](../references/data/mining-place-history.json).

@@ -58,3 +58,11 @@ The initial RES-029 deliverable now contains twelve selected identities, includi
 ## Sadhaba maritime-science study · 4 October 2026
 
 [Sadhaba voyages and practical science](../history/sadhaba-maritime-science.md) adds collective technical knowledge without inventing named ancient scientists or formal treatises.
+
+## Mineral-research connections · 3 October 2026
+
+[From RRL to IMMT](../economy/minerals-research-immt.md) adds institutional history, a named researcher’s professional connection, and dated battery, fly-ash and pilot-facility stages. The evidence does not establish commercial output or current availability.
+
+## Mineral scientists · 4 October 2026
+
+[Mamata Mohapatra](mamata-mohapatra.md) and [M.G. Sujana](m-g-sujana.md) add documented education/work connections to Odisha, linked to research and credited collaborations. Institutional ties do not establish birthplace or mother tongue.
