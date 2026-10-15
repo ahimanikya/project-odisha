@@ -1,0 +1,43 @@
+{
+  "tool": "Built-in image_gen",
+  "skills": [
+    "imagegen",
+    "human-natural-image"
+  ],
+  "prompts": [
+    {
+      "key": "kits13",
+      "files": [
+        "A01-khadi-odisha-weave.png",
+        "A02-library-jhula.png",
+        "A03-indigo-poet.png"
+      ],
+      "prompt": "Use case: product-mockup. Create one landscape 1536x1024 triptych, THREE equal-width vertical columns, each a full coordinated Odia Poetry Kit, clear separated ivory backgrounds. Input images are design references respectively for LEFT Khadi Odisha Weave bag (ivory body FULL red patterned flap, one button), CENTRE Library Jhula (wide ivory flap satchel, red bottom flap border, TWO wooden buttons), RIGHT Indigo Poet (indigo KHADI cloth flap bag, red patterned edge, one button). Preserve each distinct bag silhouette, textile placement and broad cloth sling faithfully. Each column must contain exactly six companions fully within that column: its bag at top, matching A5 cloth notebook, ONE refillable pen, slim cloth bookmark, narrow cloth pen sleeve, and one plain poetry paperback placeholder. Notebook/sleeve/bookmark use corresponding bag textile colours and border. All six items visible per column, arranged naturally in a carefully composed product study. No invented book titles or authors, no text, labels, numbers or logos anywhere. Warm cotton paper background, gentle daylight, plausible cloth folds and woven texture, no glossy synthetic surfaces. No denim bags. No objects crossing column boundaries. Keep margins so each column can be shown individually on website. Editorial Natural material realism."
+    },
+    {
+      "key": "kits16",
+      "files": [
+        "A04-everyday-khadi.png",
+        "A05-bordered-flap-notebook.png",
+        "A06-minimal-line-notebook.png"
+      ],
+      "prompt": "Use case: product-mockup. Create one landscape 1536x1024 triptych, THREE equal-width vertical columns with separate ivory backgrounds, each showing a full coordinated Odia Poetry Kit. Reference 1 LEFT: Everyday Khadi upright ivory bag WITHOUT flap, red woven border near base, patterned broad sling and single wooden button top closure. Reference 2 CENTRE: ivory bordered-FLAP bag, red patterned flap edge and sling, one wooden button. Reference 3 RIGHT: minimalist ivory open-top bag, plain broad ivory sling, fine vertical black lines and black dots with ONE rust-red dot; do not add woven red borders to this minimalist design. Preserve distinct bag shapes and motifs exactly. Each column must contain SIX companions entirely inside its bounds: bag top, coordinated A5 cloth notebook, ONE refillable pen, slim cloth bookmark, narrow cloth pen sleeve, plain poetry paperback placeholder. Match the notebook, bookmark and sleeve to each respective bag's design language. No titles, text, captions, measurements, logos, or Kabira wording anywhere. No denim. Warm natural cotton paper surface, soft daylight, believable tactile woven fabric, mild natural folds. Balanced but not sterile product editorial. No objects crossing column boundaries. Keep each kit fully visible for separate vertical crop."
+    },
+    {
+      "key": "mens",
+      "files": [
+        "A04-everyday-khadi.png",
+        "A05-bordered-flap-notebook.png"
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset: wide male styling concept for Odia Poetry Jhula website. Editorial Natural diptych of two everyday Indian adult men carrying cloth literary shoulder bags inspired faithfully by reference designs. LEFT scene: man in his early 30s wearing ordinary blue jeans and a simple charcoal crew-neck T-shirt, carrying reference 1 ivory khadi bag with red woven border at base and broad patterned shoulder sling; casually looking at a book outside a modest bookshop. RIGHT scene: man in his 40s with blue jeans and an off-white cotton panjabi/kurta, sleeves casually rolled, carrying reference 2 ivory flap bag with red patterned edge and one wooden button, standing near a shaded veranda reading a paperback. Both outfits fully visible from head to shoes, bag and broad continuous strap visible, bags naturally rest at hip with realistic gravity and folds. Warm restrained daylight, believable Indian street/veranda context, ordinary unbranded footwear, natural skin and posture, no fashion-model glamour. Two separate scene panels, not identical faces or poses. Jeans are clothing only; bags are woven khadi, never denim. No text, logos, measurements or branding. Calm literary mood, eye-level perspective, physical and social plausibility."
+    }
+  ],
+  "final_male_edit": "Use case: precise-object-edit. Image 1 is the EDIT TARGET two-men diptych. Image 2 is a bag design reference sheet: use ONLY top-left 01 Poet’s Classic. Change ONLY the bag carried by the man on the LEFT wearing charcoal T-shirt and blue jeans: replace his ivory bag with Poet’s Classic, warm GOLDEN natural tussar cloth, simple soft rectangular open-top shape, one wooden button and loop, red geometric patterned border near base, matching red patterned broad sling, exactly as top-left reference. Make golden colour clearly distinguishable from right man's ivory. Preserve people, faces, hands, books, clothes, jeans, setting, lighting, framing and entire RIGHT panel including ivory flap bag unchanged. Plausible cloth folds and strap attachment, worn at hip. No writing or labels. Editorial Natural.",
+  "assets": [
+    "sets-13-15-v1.png",
+    "sets-16-18-v1.png",
+    "men-styling-v2.png"
+  ],
+  "male_selection": "Poet’s Classic with T-shirt and jeans; ivory flap Jhula with panjabi and jeans. User corrected initial indigo suggestion to Poet’s Classic.",
+  "limits": "AI concept images, physical samples required; plain books are placeholders, no author or title selected."
+}

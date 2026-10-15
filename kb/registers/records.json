@@ -8119,20 +8119,40 @@
       "id": "UTP-WORK-2026101504",
       "title": "Additional Jhula concept gallery without voting",
       "category": "website",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current merchandise assistant",
       "authorization": "UTP-DEC-2026101505",
-      "next_action": "Publish and verify six gallery images without voting controls.",
+      "next_action": "Six additional choices live, outside voting.",
       "blockers": [],
       "refs": [
         "UTP-DEC-2026101505"
       ],
       "evidence": [
-        "records/jhula-additional-gallery-2026-10-15.json"
+        "records/jhula-additional-gallery-2026-10-15.json",
+        "records/jhula-additional-gallery-publication-2026-10-15.json"
       ],
       "acceptance_criteria": "Six supplied boards visible on same page, original twelve vote options retained."
+    },
+    {
+      "id": "UTP-WORK-2026101505",
+      "title": "Eighteen complete Jhula choices with inclusive styling",
+      "category": "website",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current merchandise assistant",
+      "authorization": "UTP-DEC-2026101506",
+      "next_action": "Publish and verify expanded Firebase survey and three new image boards.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-2026101506"
+      ],
+      "evidence": [
+        "records/jhula-eighteen-review-2026-10-15.json"
+      ],
+      "acceptance_criteria": "18 voting cards; six complete additional kits; required name; optional email/phone; existing responses retained; male Poet’s Classic T-shirt and ivory panjabi styling."
     }
   ],
   "decisions": [
@@ -12833,6 +12853,25 @@
       ],
       "evidence": [
         "records/jhula-additional-gallery-2026-10-15.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-2026101506",
+      "title": "Eighteen Jhula votes, contact fields and male styling",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Add voting to additional choices too. And expand those with other missing items. Add name as required, email and phone as optional. Like we have female, also add male visualization with jeans and a tee, and jeans and a panjabi. Latest styling choice: use Poet’s Classic.",
+      "scope": "Publish six additional matching kits and voting; required name and optional private contact details; male styling visual.",
+      "recorded_at": "2026-10-15T13:32:54.071360+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-2026101505"
+      ],
+      "evidence": [
+        "records/jhula-eighteen-review-2026-10-15.json"
       ]
     }
   ],
@@ -18711,6 +18750,25 @@
         "Anonymous browser session, not verified one-person-one-vote.",
         "Earlier survey responses preserved separately."
       ]
+    },
+    {
+      "id": "UTP-REV-2026101504",
+      "title": "Additional gallery review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current merchandise assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-2026101504"
+      ],
+      "evidence": [
+        "records/jhula-additional-gallery-publication-2026-10-15.json"
+      ],
+      "limitations": [
+        "Original supplied artwork retains earlier collection lettering."
+      ]
     }
   ],
   "releases": [
@@ -20828,6 +20886,20 @@
       "authorization": "UTP-DEC-2026101504",
       "review": "UTP-REV-2026101503",
       "destination": "https://projectodisha.org/odia-poetry-jhula/"
+    },
+    {
+      "id": "UTP-REL-2026101504",
+      "title": "Six additional Jhula choices published without voting",
+      "status": "published",
+      "authorization": "UTP-DEC-2026101505",
+      "destination": "https://projectodisha.org/odia-poetry-jhula/#additional-choices",
+      "refs": [
+        "UTP-WORK-2026101504",
+        "UTP-REV-2026101504"
+      ],
+      "evidence": [
+        "records/jhula-additional-gallery-publication-2026-10-15.json"
+      ]
     }
   ],
   "sources": [
