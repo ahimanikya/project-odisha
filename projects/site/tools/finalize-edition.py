@@ -78,6 +78,8 @@ class Document(HTMLParser):
         for key in ['src', 'poster']:
             if a.get(key):
                 self.resources.append(a[key])
+        if tag == 'image' and (a.get('href') or a.get('xlink:href')):
+            self.resources.append(a.get('href') or a['xlink:href'])
         if tag == 'link' and a.get('href'):
             self.resources.append(a['href'])
         if a.get('srcset'):

@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `831c86ef5d8f27ac26e695d852c7796feeb519f365bcd763d7cd52cc3d6afefd`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `9665179e6565765cf52d38edc4222307494195a0979f480b4869a1b77cde79c7`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -296,6 +296,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-282 · Chaiti Ghoda: a horse carried by song | completed | published | Ahimanikya Satapathy | Published and live-verified. Practitioner-led names, teaching histories and text/recording permissions remain follow-up; no outreach initiated. | — |
 | UTP-WORK-283 · Choose a reading path through Sounds of Odisha | completed | published | Ahimanikya Satapathy | Published and live-verified. Maintain path coverage when adding a sound story; independent user accessibility review remains wider follow-up. | — |
 | UTP-WORK-284 · Danda Nata: listening beyond the stage | completed | published | Ahimanikya Satapathy | Published and live-verified. Practitioner-led names, teaching histories and text/recording permissions remain follow-up; no outreach initiated. | — |
+| UTP-WORK-2026101501 · Odia Poetry Jhula native story and survey handoff | in_progress | reviewed | Ahimanikya Satapathy | Validate, review and publish the native page; preserve the existing survey database. | — |
 
 ## Pending human review and decisions
 
@@ -587,6 +588,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-2026101419 · Publish Nimuhi article and associated public assets | recorded_direction | Ahimanikya Satapathy | Publish the reviewed Nimuhi article, the 1968 comparison plate, user-supplied later photograph, two credited source-book PDFs, and a culture-trails discovery link. Preserve source/date qualifications. |
 | UTP-DEC-2026100701 · Research Odisha osha histories, significance and seasonal food | recorded_direction | Ahimanikya Satapathy | Deep research, structured cultural pages and an iterative research path. This record does not certify complete coverage, human factual review or approval of this exact website release. |
 | UTP-DEC-2026101501 · Publish all pending content | approved | Ahimanikya Satapathy | Integrate all 39 pending change requests, expose supported research as dated reading notes and publish the Osha collection after meaningful checks. Evidence-blocked research and internal operating records remain distinct. No search eligibility expansion. |
+| UTP-DEC-2026101502 · Rename and host Odia Poetry Jhula on Project Odisha | approved | Ahimanikya Satapathy | Host renamed concept story and twelve sets with access to existing survey; no commercial orders, outreach or search expansion. |
 
 ## Reviews
 
@@ -842,6 +844,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-250 | pass_with_limitations | False | Same-assistant source and implementation review; no independent human or practitioner review.; 2009 PDF web text read; direct download failed certificate validation and screenshot failed. No fresh visual inspection claimed.; 2013 organizer report is dated evidence, not a transcript, field observation or current performance offer. No audio or lyrics reproduced. |
 | UTP-REV-251 | pass_with_limitations | False | Same-assistant implementation and editorial review; no independent human or physical screen-reader review.; Paths are editorial ways into existing articles, not an exclusive classification or performance itinerary. Existing article source and field-review limitations remain. |
 | UTP-REV-252 | pass_with_limitations | False | Same-assistant implementation and editorial review; no independent human, practitioner or physical screen-reader review.; Origin chronology and local variation remain open. Historical descriptions do not establish current event dates or availability.; 2022 essay inspected as extracted PDF text, without page-image verification; failed certificate retrievals were not bypassed. No lyrics, audio or source photographs republished. |
+| UTP-REV-2026101501 | pass_with_limitations | False | Same-assistant implementation and review. Physical products, creator agreements and book selection remain unconfirmed. Voting remains on the original survey origin. |
 
 ## Publication and application history
 
@@ -1010,7 +1013,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101520 | 2026-10-15T07:42:03.212807+00:00 | Reviewed21 passage-to-source links across three sound stories. Corrected observed fragment scrolling failure; keyboard, direct arrival, repeated activation and phone/desktop checks pass. Await live receipt; total90. | — |
 | UTP-EVT-2026101521 | 2026-10-15T07:55:46.110263+00:00 | Published source navigation in three sound stories. 21 passage links and 15 notes verified live; source caveats and full prose retained. Item 091 counted after receipt; total 91. | — |
 | UTP-EVT-2026101522 | 2026-10-15T08:54:49.752964+00:00 | Reviewed section and source navigation across eight core Sounds stories. Keyboard, phone and desktop checks pass; publication pending. Count remains 91. | — |
 | UTP-EVT-2026101523 | 2026-10-15T09:04:25.770371+00:00 | Published section navigation in eight core sound stories. 50 links verified live; source caveats, credits and full prose retained. Item 092 counted after receipt; total 92. | — |
@@ -1020,6 +1022,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101527 | 2026-10-15T10:44:49.494416+00:00 | Published four Sounds reading paths connecting eighteen existing articles. Native keyboard and responsive checks passed; live output verified. Item 094 counted after receipt; total 94. | — |
 | UTP-EVT-2026101528 | 2026-10-15T11:44:19.527421+00:00 | Prepared Danda Nata further-reading article with attributed ritual, theatre, ensemble and uncertain origin account. Tests and responsive/source-link review pass; publication pending. No independent human review claimed. | — |
 | UTP-EVT-2026101529 | 2026-10-15T11:53:26.455055+00:00 | Published Danda Nata dedicated story and KB source dossier. Full narrative and two sources verified live; attributed ritual, theatre and origin limits retained. Item 095 counted after receipt; total 95. | — |
+| UTP-ACT-2026101501 | 2026-10-15T12:12:19.943923+00:00 | Prepared Founder-requested Odia Poetry Jhula page and preserved existing survey origin. | — |
 
 ## Deferred extensions
 
