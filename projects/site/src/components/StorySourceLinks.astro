@@ -1,0 +1,24 @@
+---
+interface Source {id:string; title:string}
+interface Props {ids:string[]; sources:Source[]}
+const {ids,sources}=Astro.props;
+const references=ids.map(id=>{
+ const index=sources.findIndex(source=>source.id===id);
+ if(index<0)throw new Error(`Unknown story source: ${id}`);
+ return {...sources[index],number:index+1};
+});
+---
+{references.length>0&&<p class="story-source-links">
+ <span>Sources for this section:</span>
+ {references.map(source=><a href={'#story-source-'+source.id} aria-label={'Source '+source.number+': '+source.title}>Source {source.number}</a>)}
+</p>}
+<style>
+.story-source-links{display:flex;flex-wrap:wrap;align-items:center;gap:0 .9rem;font-size:15px;line-height:1.5;margin-top:1rem}
+.story-source-links span{color:var(--muted)}
+.story-source-links a{display:inline-flex;align-items:center;min-height:44px;text-underline-offset:.2em}
+.story-source-links a:focus-visible{outline:3px solid var(--earth);outline-offset:3px}
+</style>
+<script>
+import {bindStorySourceLinks} from '../lib/story-source-links.mjs';
+for(const links of document.querySelectorAll('.story-source-links'))bindStorySourceLinks(links,document);
+</script>

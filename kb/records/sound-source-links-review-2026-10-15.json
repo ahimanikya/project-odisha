@@ -1,0 +1,25 @@
+{
+  "recorded_at": "2026-10-15T07:42:03.212807+00:00",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "status": "pass_with_limitations",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-091",
+  "work_id": "UTP-WORK-280",
+  "verification": {
+    "coverage": "21 existing passage-source mappings across14 sections in Ghumura, Mahuri and Ranapa now lead to15 uniquely identified numbered source notes. Empty mappings render no citation; unknown source ID fails build.",
+    "factual_scope": "Reused exact canonical source IDs, titles, URLs, locators and limitations. No narrative or research claim changed. Source linkage does not imply all editorial guidance in a block is asserted by its sources.",
+    "tests": "534 full-site tests and135 coastal tests pass;1548 page acceptance checks pass. Four hundred draft pages,387 public pages and11 indexable routes unchanged.",
+    "visual": "390px phone: keyboard link opens notes, focuses correct item and aligns it24px from top; no horizontal overflow.1280px desktop passage links inspected. Ghumura repeat source activation after closing notes reopens and aligns. Mahuri direct source-fragment arrival opens notes and aligns without forcing focus.",
+    "recovery": "Initial browser test found native fragment navigation opened/focused a note but failed to scroll to it. Scoped requestAnimationFrame alignment added; local retest confirms visible target. Initial HTML test expected bare ol tag; corrected to allow Astro scope attributes.",
+    "ci_recovery": "Initial CI38700569305 found the new test counted an extra outside-article section in the deployment configuration. Scoped passage extraction to the story article so optional consent UI cannot be counted as narrative. Live checker uses the same article boundary."
+  },
+  "limitations": [
+    "Same-assistant implementation review; no independent human or assistive-technology user review.",
+    "Existing factual, indexed-source retrieval and practitioner-review limits remain unchanged.",
+    "Coverage is the three recent source-mapped stories; other article formats remain outside this bounded item."
+  ]
+}
