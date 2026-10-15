@@ -8311,6 +8311,29 @@
         "records/odissi-music-publication-2026-10-15.json"
       ],
       "acceptance_criteria": "Research and publish an Odissi music reader story with canonical KB narrative and source dossier, reusing existing Panigrahi and Mardala evidence and inspecting primary institutional or practitioner material for singing and repertoire. Distinguish music from dance, poet/composer/singer credits and dated evidence from origin claims; avoid unsupported technical lessons, official-status claims or audio rights. Add collection, Explore, reading-path and notebook connections without changing search eligibility. Review sources, test content/navigation, inspect responsive layout, pass reviewed-head PR, deploy approved main workflow and save actual live receipt before counting."
+    },
+    {
+      "id": "UTP-WORK-290",
+      "title": "Trace the eight core sound stories to their evidence",
+      "category": "website",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Create PR, pass required checks, merge reviewed head, publish approved main workflow and verify all eight live stories before counting.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-REV-258"
+      ],
+      "evidence": [
+        "research/sources/huluhuli-research.md",
+        "research/sources/sankha-research.md",
+        "records/core-sound-source-mapping-2026-10-15.json",
+        "records/core-sound-sources-review-2026-10-15.json"
+      ],
+      "acceptance_criteria": "Add section-to-source navigation to all eight core Sounds stories, reusing existing dossiers and stable source IDs. Publish precise source locators and retrieval limits in numbered notes, preserve every narrative paragraph, image provenance, tongue-motion correction and search eligibility. Leave editorial prompts unlinked where no factual source is asserted. Test matching section references, unique focus targets and unchanged prose; inspect mobile/desktop and keyboard source navigation. Merge passing reviewed-head PR, deploy approved main workflow and save actual live receipt before counting."
     }
   ],
   "decisions": [
@@ -19125,6 +19148,28 @@
         "Same-assistant review, not independent human, practitioner or specialist review.",
         "SNA register inspected as indexed text; direct citation PDF timed out.",
         "This is a bounded introduction, not a complete historical chronology or technical lesson. No audio audition, lyrics or fieldwork claimed."
+      ]
+    },
+    {
+      "id": "UTP-REV-258",
+      "title": "Core sound story source navigation and evidence review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-290",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/core-sound-sources-review-2026-10-15.json"
+      ],
+      "limitations": [
+        "Same-assistant review; not an independent human, language or practitioner review.",
+        "Source access varies: indexed-only records, unavailable page images and unplayed media remain explicitly qualified in their notes.",
+        "This maps previously recorded evidence; it does not refresh source availability or establish disputed origins."
       ]
     }
   ],

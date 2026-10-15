@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `68ff2bb06758e53d6617569362aef8392b479ecb9d12f12a034e87f0f34135e4`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `bf2fbea109a61bd1692b5b8b9f878a009cd48dd24080218149946793db3f0503`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -309,6 +309,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-287 · A listening notebook for all 21 sound stories | completed | published | Ahimanikya Satapathy | Published and live-verified. Keep questions aligned with future story additions; regenerate the downloadable notebook when canonical questions or reading paths change. | — |
 | UTP-WORK-288 · Continue Sounds reading paths from every story | completed | published | Ahimanikya Satapathy | Published and live-verified on all 21 stories. Future stories should reuse the chooser and remain covered by canonical reading paths. | — |
 | UTP-WORK-289 · Odissi music: follow the singer | completed | published | Ahimanikya Satapathy | Published and live-verified. Specialist historical and practitioner review remain open; no audio or current course availability claimed. | — |
+| UTP-WORK-290 · Trace the eight core sound stories to their evidence | in_progress | reviewed | Ahimanikya Satapathy | Create PR, pass required checks, merge reviewed head, publish approved main workflow and verify all eight live stories before counting. | — |
 
 ## Pending human review and decisions
 
@@ -875,6 +876,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-255 | pass_with_limitations | False | Same-assistant review; no independent human, practitioner or screen-reader review.; Listening suggestions do not establish a current performance, access permission, technical lesson or field encounter.; Print styles retained; no physical print or print-preview validation claimed. |
 | UTP-REV-256 | pass_with_limitations | False | Same-assistant review; no independent human, practitioner or screen-reader review.; Existing historical/source limitations remain attached to each story. No fieldwork, audio or current event offer added. |
 | UTP-REV-257 | pass_with_limitations | False | Same-assistant review, not independent human, practitioner or specialist review.; SNA register inspected as indexed text; direct citation PDF timed out.; This is a bounded introduction, not a complete historical chronology or technical lesson. No audio audition, lyrics or fieldwork claimed. |
+| UTP-REV-258 | pass_with_limitations | False | Same-assistant review; not an independent human, language or practitioner review.; Source access varies: indexed-only records, unavailable page images and unplayed media remain explicitly qualified in their notes.; This maps previously recorded evidence; it does not refresh source availability or establish disputed origins. |
 
 ## Publication and application history
 
@@ -1055,7 +1057,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-20261015100 | 2026-10-15T14:19:14.087581+00:00 | Verified live poetic story, Odia quote, automatic ratings and explicitly submitted comments with reply contact. | — |
 | UTP-EVT-20261015101 | 2026-10-15T14:21:46.515497+00:00 | Prepared compact purchase-interest labels, keeping existing saving behavior and touch targets. | — |
 | UTP-EVT-20261015102 | 2026-10-15T14:34:24.454708+00:00 | Live verified small buying-interest prompt, preferred star endpoints and collapsed comments. | — |
 | UTP-EVT-20261015103 | 2026-10-15T14:42:02.292498+00:00 | Verified aligned desktop card controls and no wrapping or overflow down to 320px. | — |
@@ -1065,6 +1066,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101537 | 2026-10-15T15:57:48.333834+00:00 | Published contextual reading-path chooser on all 21 sound stories. Actual live content verified; item 099 counted after receipt. Total 99. | — |
 | UTP-EVT-2026101538 | 2026-10-15T17:00:54.238551+00:00 | Prepared Odissi vocal music article, sourced repertoire and distinct creative credits. Collection, reading path and notebook connected; tests and responsive/keyboard checks pass. Publication pending; total99. | — |
 | UTP-EVT-2026101539 | 2026-10-15T17:13:40.036689+00:00 | Published Odissi vocal music story and canonical source dossier, connected to collection, Explore, reading path and22-story notebook. Live output verified; item100 counted after receipt. Total100. | — |
+| UTP-EVT-2026101540 | 2026-10-15T17:58:33.014146+00:00 | Reviewed section-source navigation and qualified locators for eight core sound stories. Narrative and indexing preserved; tests and responsive/keyboard checks pass. Publication pending; total 100. | — |
 
 ## Deferred extensions
 
