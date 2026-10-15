@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `378fe129f08fbe759de25aa6bee3a5bb4f3e28b5bed6d54add4835c8eda66f18`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `7066939c248bbb3b59c7af47ea1079ade1bd555be28c25edf30906a241a5903c`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -199,7 +199,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
-| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue eligible substantive work sequentially under UTP-DEC-225; 96 of 500 evidenced items completed. Resume any in-progress item first. | — |
+| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue eligible substantive work sequentially under UTP-DEC-225; 97 of 500 evidenced items completed. Resume any in-progress item first. | — |
 | UTP-WORK-190 · Food discovery, portable reading collection and current review-queue repair | completed | published | Ahimanikya Satapathy | Published and live-verified. Continue through the program queue under DEC225. | — |
 | UTP-WORK-191 · Build the tourism opportunities information section | completed | reviewed | Ahimanikya Satapathy | Published information scope complete. Continue WORK166 and WORK171 only when new documentary or operating evidence is available. | — |
 | UTP-WORK-192 · Align saved food cards with canonical story introductions | completed | reviewed | Ahimanikya Satapathy | Repair published and live catalogue verified; preserve canonical food fields when future stories change. | — |
@@ -303,6 +303,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026101504 · Additional Jhula concept gallery without voting | completed | published | Ahimanikya Satapathy | Six additional choices live, outside voting. | — |
 | UTP-WORK-2026101505 · Eighteen complete Jhula choices with inclusive styling | completed | published | Ahimanikya Satapathy | User may share saved invitation when ready; no messages sent. | — |
 | UTP-WORK-2026101506 · Nostalgic Jhula story and automatic ratings | in_progress | reviewed | Ahimanikya Satapathy | Complete browser review and publish the revised story and autosave behavior. | — |
+| UTP-WORK-286 · Dhuduki: a string beneath the story | completed | published | Ahimanikya Satapathy | Published and live-verified. Practitioner-led names, teaching histories and text/recording permissions remain follow-up; no outreach initiated. | — |
 
 ## Pending human review and decisions
 
@@ -861,6 +862,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-2026101503 | pass_with_limitations | False | Anonymous browser session, not verified one-person-one-vote.; Earlier survey responses preserved separately. |
 | UTP-REV-2026101504 | pass_with_limitations | False | Original supplied artwork retains earlier collection lettering. |
 | UTP-REV-2026101505 | pass_with_limitations | False | AI concept images require physical sampling; anonymous browser identity does not establish one person one vote. |
+| UTP-REV-254 | pass_with_limitations | False | Same-assistant review; no independent human, practitioner or screen-reader review.; Construction evidence is an attributed cultural essay, not instrument examination. CCRT access limited to indexed page text.; No founding chronology, present performance offer, audio or lyrics claimed. |
 
 ## Publication and application history
 
@@ -998,6 +1000,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-2026101503 · Firebase-backed Jhula voting published | published | https://projectodisha.org/odia-poetry-jhula/ | UTP-DEC-2026101504 |
 | UTP-REL-2026101504 · Six additional Jhula choices published without voting | published | https://projectodisha.org/odia-poetry-jhula/#additional-choices | UTP-DEC-2026101505 |
 | UTP-REL-2026101505 · Eighteen Jhula choices and male styling published | published | https://projectodisha.org/odia-poetry-jhula/ | UTP-DEC-2026101506 |
+| UTP-REL-127 · Dhuduki: a string beneath the story | published | https://projectodisha.org/stories/dhuduki/ | UTP-DEC-225 |
 
 ## Sources and assets
 
@@ -1035,8 +1038,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101530 | 2026-10-15T12:50:31.490862+00:00 | Prepared Prahlada Nataka article and source dossier with explicit date discrepancy. Tests and responsive/navigation checks pass; no independent human review claimed. Publication pending. | — |
-| UTP-EVT-2026101592 | 2026-10-15T12:42:17.326144+00:00 | Published and live-verified inline ratings and private comments for all twelve designs. Earlier ballots preserved. | — |
 | UTP-EVT-2026101593 | 2026-10-15T12:52:49.427511+00:00 | Prepared Firebase survey integration and clarified bag-only design references; live publication remains pending. | — |
 | UTP-EVT-2026101531 | 2026-10-15T13:06:11.608884+00:00 | Published Prahlada Nataka dedicated story and KB source dossier. Full narrative and two sources verified live; attributed theatre history and unresolved date differences retained. Item 096 counted after receipt; total 96. | — |
 | UTP-EVT-2026101594 | 2026-10-15T13:01:49.342583+00:00 | Firebase-backed same-page voting published and verified. Firebase display name now Project Odisha; existing services preserved. | — |
@@ -1045,6 +1046,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101597 | 2026-10-15T13:32:54.071360+00:00 | Prepared eighteen-choice voting, private contact fields, six additional kits and male styling; Firebase emulator checks passed. | — |
 | UTP-EVT-2026101598 | 2026-10-15T13:46:49.496908+00:00 | Published and verified eighteen-choice survey, complete additional kits and male styling. | — |
 | UTP-EVT-2026101599 | 2026-10-15T14:00:48.973005+00:00 | Prepared sourced nostalgic narrative and automatic preference saves, separating explicit comment/contact submission. | — |
+| UTP-EVT-2026101532 | 2026-10-15T13:55:55.753939+00:00 | Prepared Dhuduki article and four-source trail. Tests and responsive/keyboard checks pass; source-access and origin limitations retained. Publication pending, total remains96. | — |
+| UTP-EVT-2026101533 | 2026-10-15T14:06:07.868877+00:00 | Published Dhuduki dedicated story and KB source dossier. Full narrative and four sources verified live; attributed construction, audition date and locality distinctions retained. Item 097 counted after receipt; total 97. | — |
 
 ## Deferred extensions
 
