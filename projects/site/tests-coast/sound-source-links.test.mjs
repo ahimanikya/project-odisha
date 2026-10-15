@@ -5,7 +5,8 @@ const escape=s=>s.replaceAll('&','&amp;').replaceAll("'",'&#39;').replaceAll('"'
 for(const slug of ['ghumura','mahuri','ranapa'])test(`${slug} passage citations reach the matching numbered source note and retain its limits`,()=>{
  const story=JSON.parse(readFileSync('../../kb/research/culture/'+slug+'-website.json','utf8'));
  const html=readFileSync('dist-coast/stories/'+slug+'/index.html','utf8');
- const sections=[...html.matchAll(/<section\b[^>]*>([\s\S]*?)<\/section>/g)].map(m=>m[1]);
+ const article=html.split('<article ',2)[1].split('</article>',1)[0];
+ const sections=[...article.matchAll(/<section\b[^>]*>([\s\S]*?)<\/section>/g)].map(m=>m[1]);
  assert.equal(sections.length,story.blocks.length);
  const notes=html.match(/<details id="story-sources"[^>]*>([\s\S]*?)<\/details>/)[1];
  assert.match(notes,/<ol\b[^>]*>/);
