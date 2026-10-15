@@ -8153,6 +8153,29 @@
         "records/jhula-eighteen-review-2026-10-15.json"
       ],
       "acceptance_criteria": "18 voting cards; six complete additional kits; required name; optional email/phone; existing responses retained; male Poet’s Classic T-shirt and ivory panjabi styling."
+    },
+    {
+      "id": "UTP-WORK-286",
+      "title": "Dhuduki: a string beneath the story",
+      "category": "research_and_website",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Create PR, pass required checks, merge reviewed head, publish approved main workflow and verify live before counting.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-REV-254"
+      ],
+      "evidence": [
+        "research/product/sounds-discovery.json",
+        "research/culture/dhuduki-website.json",
+        "research/sources/dhuduki-research.json",
+        "records/dhuduki-review-2026-10-15.json"
+      ],
+      "acceptance_criteria": "Research and publish a dedicated Dhuduki Sounds article and canonical source dossier. Identify the instrument and its relation to sung storytelling from inspected institutional evidence; distinguish spelling variants, instrument construction and performance context without inventing antiquity, a uniform regional practice or fieldwork. Link collection, Explore and an appropriate reading path. Preserve external-search eligibility, test canonical content and navigation, inspect responsive layout, merge passing reviewed-head PR, publish approved main workflow and save live receipt before counting."
     }
   ],
   "decisions": [
@@ -18768,6 +18791,28 @@
       ],
       "limitations": [
         "Original supplied artwork retains earlier collection lettering."
+      ]
+    },
+    {
+      "id": "UTP-REV-254",
+      "title": "Dhuduki article and source review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-286",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/dhuduki-review-2026-10-15.json"
+      ],
+      "limitations": [
+        "Same-assistant review; no independent human, practitioner or screen-reader review.",
+        "Construction evidence is an attributed cultural essay, not instrument examination. CCRT access limited to indexed page text.",
+        "No founding chronology, present performance offer, audio or lyrics claimed."
       ]
     }
   ],
