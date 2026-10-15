@@ -210,3 +210,5 @@ Historical visitor-experience release: [PR 23 publication evidence](records/visi
 - [Listening to Chilika](research/culture/chilika-listening.md) — Mangalajodi setting, birding conduct and a visitor listening exercise; [website article](https://projectodisha.org/stories/chilika-listening/) published; [delivery evidence](records/chilika-listening-publication-2026-10-15.json).
 
 [Kendara and the travelling song](research/culture/kendara.md) — Bowed-string singing, named performers and dated sources.
+
+[Kendara website article](https://projectodisha.org/stories/kendara/) is published as further reading; [publication receipt](records/kendara-publication-2026-10-15.json). Practitioner review and audio remain follow-up.

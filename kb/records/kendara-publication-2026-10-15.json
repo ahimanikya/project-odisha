@@ -1,0 +1,70 @@
+{
+  "recorded_at": "2026-10-15T01:39:10.197262+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-085",
+  "work_id": "UTP-WORK-274",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/248",
+  "reviewed_head": "5281d825bca4e9686a0c50ef24826e25c1f646ce",
+  "merge_commit": "f2ab3e705d11855c1aa8759cf7a4788d21511336",
+  "merged_at": "2026-10-15T01:35:00Z",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "5281d825bca4e9686a0c50ef24826e25c1f646ce",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38666114355"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "f2ab3e705d11855c1aa8759cf7a4788d21511336",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38666461574",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-15T01:38:28.511693+00:00",
+    "page": "https://projectodisha.org/stories/kendara/",
+    "http_status": 200,
+    "page_sha256": "f1ed8682d1014282b64711bb6c6c96c235485d4a168aad3585e0a73872460c7c",
+    "paragraphs_verified": 13,
+    "sources_verified": 4,
+    "collection_and_explore": {
+      "/sounds-of-odisha/": 200,
+      "/explore/": 200
+    },
+    "noindex": true,
+    "sitemap_entries": 11,
+    "browser": "Published story inspected at desktop size; live Explore q=Kendara returns one result linked to the story.",
+    "screenshot": "/tmp/kendara-live.png"
+  },
+  "outputs": [
+    {
+      "path": "kb/research/culture/kendara.md",
+      "sha256": "1a39753fdaced1775aa95cb3dec72a882624d909df9a58a5c11da9e0144a2b2f",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/culture/kendara-website.json",
+      "sha256": "7c0901d9afd5bc8d8fb75358d681343460e5d064eae031654fec97ec33b37bcd",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/sources/kendara-research.json",
+      "sha256": "1eb6dd093e101f872ad0970922534d3d2cb8ce5d8c613a78fceaef997686abb6",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/stories/kendara.astro",
+      "sha256": "c0df3f21ceb3a95ca1fd26c44be3fc6bc394b4b684cb98c01dc4dae5a1c69b3c",
+      "matches_fetched_merge": true
+    }
+  ],
+  "review": "records/kendara-review-2026-10-15.json",
+  "limitations": [
+    "Same-assistant source and implementation review; no independent or human practitioner review.",
+    "No audio audition, field interview, image reuse or confirmed contemporary performance offer.",
+    "Origin chronology remains open. Unretrievable Odisha Review lead excluded; accepted claims use four inspected sources."
+  ],
+  "attachment": "App attachment attempted; thread attachment identity count exceeds100. PR URL retained."
+}
