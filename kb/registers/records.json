@@ -7735,6 +7735,28 @@
         "records/reading-room-search-publication-2026-10-15.json"
       ],
       "acceptance_criteria": "Make the169-note reading room filter state bookmarkable and shareable through bounded q and allowlisted collection parameters. Restore results and controls on reload and Back/Forward, collapse typing into a reversible history step, respect input composition, reset accessibly, preserve all notes without JavaScript, and exclude arbitrary URL data from shared links. Test controller, sharing and rendered controls; inspect desktop/mobile and keyboard behavior; pass reviewed-head CI, publish main with approval, verify live and save receipt before counting once. No new research claims or external-search expansion."
+    },
+    {
+      "id": "UTP-WORK-273",
+      "title": "Navigate sections within long research notes",
+      "category": "website_accessibility",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Publish after passing reviewed-head CI, then verify actual live section navigation and save receipt.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-075",
+        "UTP-REV-241"
+      ],
+      "evidence": [
+        "records/pending-reading-room.json",
+        "records/research-contents-review-2026-10-15.json"
+      ],
+      "acceptance_criteria": "Add a compact, keyboard-usable section navigator to long reading-room notes using the renderer’s actual level-two heading IDs and labels, plus source links where present. Preserve note text and no-JavaScript anchor navigation; collapse menu after selection, focus destination, support Escape and repeat selections. Verify links against all rendered notes, desktop/mobile behavior on the58-section seasonal-food guide, passing CI, approved main publication and live receipt before counting once. No factual edits or search-index expansion."
     }
   ],
   "decisions": [
@@ -17906,6 +17928,27 @@
         "Same-assistant review, not independent or human review.",
         "Native device sharing and physical screen-reader behavior not tested; browser fallback and keyboard behavior checked.",
         "Existing specialist review and noindex restrictions on research notes remain unchanged."
+      ]
+    },
+    {
+      "id": "UTP-REV-241",
+      "title": "Long research-note section navigation review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-273"
+      ],
+      "evidence": [
+        "records/research-contents-review-2026-10-15.json"
+      ],
+      "limitations": [
+        "Same-assistant implementation review, not independent accessibility certification.",
+        "No physical screen-reader or device testing. Native no-JavaScript details/anchors verified in generated markup, not a disabled-JavaScript browser session.",
+        "No new factual research or specialist review; existing article caveats and source dates retained."
       ]
     }
   ],

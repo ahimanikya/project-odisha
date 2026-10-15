@@ -1,0 +1,30 @@
+{
+  "recorded_at": "2026-10-15T00:22:01.825418+00:00",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "status": "pass_with_limitations",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-084",
+  "work_id": "UTP-WORK-273",
+  "verification": {
+    "observed_gap": "121 reading-room notes have at least three level-two sections; longest has58. Previously there was no section navigator.",
+    "implementation": "Renderer heading IDs and plain-text labels populate native details/anchor navigation. Existing tested story-contents keyboard controller is reused; generated hidden footnote heading excluded. Short notes omit menu.",
+    "local_tests": "396-page full build,532 tests;383-page public build,122 tests;1532 acceptance checks. All1082 menu links across121 notes resolve to rendered headings/source sections, with no duplicate target. Eleven indexable routes retained.",
+    "visual": "1280px desktop menu and390x844 mobile menu inspected. Mobile document width equals390px. Keyboard Planning status and Sources to follow selections close menu, focus matching heading and align its top. Escape closes menu and returns focus to summary.",
+    "content_parity": {
+      "url": "https://projectodisha.org/reading-room/visitor-index/seasonal-food-guide/",
+      "prepublication_body_sha256": "eca0672be86689266855628ebaf85aaff1f65312e622b624acf16caeca6d9665",
+      "candidate_body_matches_live": true,
+      "headings": 58
+    },
+    "recovery": "First coastal test exposed generated visually hidden footnote label included in menu. Excluded that metadata entry; all122 tests then passed."
+  },
+  "limitations": [
+    "Same-assistant implementation review, not independent accessibility certification.",
+    "No physical screen-reader or device testing. Native no-JavaScript details/anchors verified in generated markup, not a disabled-JavaScript browser session.",
+    "No new factual research or specialist review; existing article caveats and source dates retained."
+  ]
+}
