@@ -15,7 +15,8 @@
     "local_tests": "398-page full build and532 tests;385-page public build and127 tests;1540/1540 acceptance checks. Publication build preserves11 indexable pages.",
     "visual": "1280px desktop and390x844 phone layout inspected. Keyboard Enter opens contents; selecting source destination opens6-source disclosure; phone scrollWidth equals390px. Explore q=Ghumura returns one article; Kalahandi area filter also returns it.",
     "integration": "Full KB/website narrative parity checked; collection, Explore, related Dalkhai and listening-notebook links. Eight main chapters unchanged. Explicit search hold.",
-    "review_scope": "Same-assistant source, copy and implementation review; no separate human or independent reviewer."
+    "review_scope": "Same-assistant source, copy and implementation review; no separate human or independent reviewer.",
+    "recovery": "Initial CI38678570581 found the imported research search index stale after the existing entity/source edits. Regenerated search-index.json and validated the research collection/map; no external search eligibility changed."
   },
   "limitations": [
     "CCRT full PDF retrieval timed out; only indexed Ghumura section text was inspected and its narrow instrument description used. Report date not established; no ancient-history claims adopted.",
