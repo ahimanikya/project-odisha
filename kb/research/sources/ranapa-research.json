@@ -1,0 +1,92 @@
+{
+  "title": "Ranapa: rhythm above the ground",
+  "reviewed_at": "2026-10-15T06:41:02.594451+00:00",
+  "kind": "desk_research",
+  "human_review_claimed": false,
+  "canonical_narrative": "research/culture/ranapa-website.json",
+  "reuse": [
+    "research/culture/ranapa.md",
+    "research/sources/dance-sna-report2016.md",
+    "research/culture/sankha-website.json"
+  ],
+  "coverage_gap": "Existing short Ranapa seed had no dedicated Sounds reader. Extend it with attributed sound context and distinctions between adjacent festival forms; this is a public narrative edition of the existing entity, not another tradition.",
+  "sources": [
+    {
+      "id": "folk",
+      "title": "Odisha Tourism — Folk Dance",
+      "resource": "https://apps.odishatourism.gov.in/folk-dance",
+      "locator": "Ranappa paragraph, rechecked 15 October 2026. Undated cultural description; general visitor suggestions are not a current performance schedule."
+    },
+    {
+      "id": "ranapa-reference2014",
+      "title": "Odisha Reference Annual 2014 — Jodi Sankha and Ranapa Dance",
+      "resource": "https://magazines.odisha.gov.in/orissaannualreference/2014/pdf/79-97.pdf",
+      "locator": "Printed p.92, Ranapa paragraph. Search-indexed passage inspected; full PDF retrieval failed with a certificate error and web-reader timeout. The historical description is attributed, not independently verified."
+    },
+    {
+      "id": "sankha-ezcc-2012",
+      "title": "Eastern Zonal Cultural Centre — Thakurani Jatra, Republic Day programme 2012",
+      "resource": "https://rashtraparv.mod.gov.in/files/field-event-program-schedule/mod_army_repbulc_day_parade_26_jan_2012.pdf",
+      "locator": "Printed p.35 (PDF p.36), separate Ranapa and Jodi Sankha paragraphs. Existing official PDF re-extracted and visually inspected 15 October 2026."
+    },
+    {
+      "id": "dance-sna-report2016",
+      "title": "Sangeet Natak Akademi — Annual Report 2016–2017",
+      "resource": "https://sangeetnatak.gov.in/public/uploads/reports/16427518058387.pdf",
+      "locator": "Printed/PDF p.32, Desaj at Itarsi, 15 December 2016. Official PDF downloaded and page visually inspected 15 October 2026; text extraction has encoding defects."
+    }
+  ],
+  "section_mapping": [
+    {
+      "section": "Opening",
+      "source_ids": [
+        "ranapa-reference2014"
+      ]
+    },
+    {
+      "section": "A name, a place, a story",
+      "source_ids": [
+        "folk"
+      ]
+    },
+    {
+      "section": "Listen for the dancer’s rhythm",
+      "source_ids": [
+        "ranapa-reference2014"
+      ]
+    },
+    {
+      "section": "Shared occasions, distinct forms",
+      "source_ids": [
+        "sankha-ezcc-2012",
+        "ranapa-reference2014"
+      ]
+    },
+    {
+      "section": "A name in the programme",
+      "source_ids": [
+        "dance-sna-report2016"
+      ]
+    }
+  ],
+  "retrieval": {
+    "sna_pdf_sha256": "8a576d00284466f9adbc26d6ceb7026da328f77f49e0de20b0118ba57eb672d3",
+    "ezcc_pdf_sha256": "6cebf7fdbd85f3e592553bc73e03f48a496a048f68e29d08c94465edeb69c0b7",
+    "tourism": "Official page Ranappa paragraph fully read.",
+    "reference2014": "Search-indexed full Ranapa paragraph and page92 marker inspected. Web open timed out; direct HTTPS failed expired-certificate validation. Validation was not disabled. Description remains attributed; no full-PDF inspection claimed.",
+    "sna": "Official PDF direct download succeeded after web-reader failure. Page32 visually confirms D. Balaram Reddy and Group under15December2016; defective text extraction not used alone.",
+    "ezcc": "Existing source PDF, printed35/PDF36 text and image reviewed. Instruments in Jodi Sankha paragraph not transferred to Ranapa."
+  },
+  "claim_boundaries": [
+    "No founding date, ancient continuity, uniform present ensemble or universal festival calendar inferred.",
+    "2014 sound account is historical and attributed; publication note discloses indexed-only retrieval. No quote or lyric reproduced.",
+    "2012 and2014 festival emphases retained separately; common government hosting does not establish independent historical corroboration.",
+    "2016 retrospective festival credit is not a current service offer or measured audience result.",
+    "Listening questions are editorial guidance, not claimed observation. No audio or performance image supplied."
+  ],
+  "future_research": [
+    "Practitioner-led account of local names, Bajeni and contemporary accompaniment.",
+    "Full2014PDF recovery and its cited foundations.",
+    "Named teachers and makers, locality-specific repertoires and recordings with appropriate permissions."
+  ]
+}
