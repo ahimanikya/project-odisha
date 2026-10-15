@@ -7929,6 +7929,28 @@
         "records/sound-source-links-publication-2026-10-15.json"
       ],
       "acceptance_criteria": "Expose the existing section-to-source mappings in Ghumura, Mahuri and Ranapa as readable links beside their passages. Each link must reveal and land on the matching source note, including its locator and caveat, with working keyboard and direct-fragment access. Reuse canonical source_ids without creating new factual mappings; preserve narrative, citations, discovery, eight core chapters and eleven search-eligible routes. Validate built coverage, mobile/desktop layout, reviewed-head PR and approved main deployment; save live receipt before counting once."
+    },
+    {
+      "id": "UTP-WORK-281",
+      "title": "Section navigation for the eight core Sounds of Odisha stories",
+      "category": "website_reader_experience",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Publish reviewed head after required CI passes, then verify live and save delivery receipt.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-075",
+        "UTP-REV-249"
+      ],
+      "evidence": [
+        "research/product/core-sound-navigation.json",
+        "records/core-sound-navigation-review-2026-10-15.json"
+      ],
+      "acceptance_criteria": "Give all eight core sound articles an In this story contents disclosure with each canonical heading and a sources destination. Preserve every narrative paragraph, list, source note, illustration credit, reading-trail link and existing search eligibility. Verify unique fragment targets, keyboard selection and Escape, opening source notes, direct fragment arrival and phone/desktop layout. Publish the passing reviewed head through the approved main workflow and save live evidence before counting once."
     }
   ],
   "decisions": [
@@ -18267,6 +18289,27 @@
         "Same-assistant implementation review; no independent human or assistive-technology user review.",
         "Existing factual, indexed-source retrieval and practitioner-review limits remain unchanged.",
         "Coverage is the three recent source-mapped stories; other article formats remain outside this bounded item."
+      ]
+    },
+    {
+      "id": "UTP-REV-249",
+      "title": "Core Sounds story navigation review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-281"
+      ],
+      "evidence": [
+        "records/core-sound-navigation-review-2026-10-15.json"
+      ],
+      "limitations": [
+        "Same-assistant implementation review; no independent human or screen-reader user review.",
+        "Existing practitioner, language, source-retrieval and origin uncertainties remain unchanged.",
+        "No audio, new research claims or expanded search eligibility."
       ]
     }
   ],

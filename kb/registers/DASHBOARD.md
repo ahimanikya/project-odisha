@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `5668778df72098319c88a1c0d01a4e27d56e4f9252fed5cc89b3475da0c117f5`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `8a966d556fa90e7b9384dcbe05fa110c227795e40da5cc079e9261ebaeaac8ab`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -292,6 +292,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-278 · Research and publish a Mahuri Sounds article | completed | published | Ahimanikya Satapathy | Published and live-verified. Maker histories, practitioner interviews and audio remain separate research gaps. | — |
 | UTP-WORK-279 · Research and publish a Ranapa Sounds article | completed | published | Ahimanikya Satapathy | Published and live-verified. Full2014PDF recovery, practitioner interviews and audio remain separate research gaps. | — |
 | UTP-WORK-280 · Connect sound-story passages to their source notes | completed | published | Ahimanikya Satapathy | Published and live-verified. Other article formats require their own checked section-source mappings before extending this navigation. | — |
+| UTP-WORK-281 · Section navigation for the eight core Sounds of Odisha stories | in_progress | reviewed | Ahimanikya Satapathy | Publish reviewed head after required CI passes, then verify live and save delivery receipt. | — |
 
 ## Pending human review and decisions
 
@@ -834,6 +835,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-246 | pass_with_limitations | False | Same-assistant source and implementation review; no independent human, practitioner or screen-reader review.; ICCR programme calendar date not stated. Museum English text is machine-translated; original provider link failed in web reader.; No founding date, maker lineage, audio, current booking or field observation established. |
 | UTP-REV-247 | pass_with_limitations | False | Same-assistant factual and implementation review; no independent human, practitioner or screen-reader review.; 2014 sound context comes from inspected search-indexed passage; complete PDF retrieval failed. Full text and historical foundations remain a research gap.; No founding date, universal accompaniment, current performance booking, audio or fieldwork established. |
 | UTP-REV-248 | pass_with_limitations | False | Same-assistant implementation review; no independent human or assistive-technology user review.; Existing factual, indexed-source retrieval and practitioner-review limits remain unchanged.; Coverage is the three recent source-mapped stories; other article formats remain outside this bounded item. |
+| UTP-REV-249 | pass_with_limitations | False | Same-assistant implementation review; no independent human or screen-reader user review.; Existing practitioner, language, source-retrieval and origin uncertainties remain unchanged.; No audio, new research claims or expanded search eligibility. |
 
 ## Publication and application history
 
@@ -998,7 +1000,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101512 | 2026-10-15T03:52:38.281147+00:00 | Prepared Ghumura further-reading article from existing seed with6 institutional sources. Tests, desktop/mobile source navigation and Kalahandi discovery checked. Publication pending; completed count86. | — |
 | UTP-EVT-2026101513 | 2026-10-15T04:26:01.937031+00:00 | Published Ghumura further reading with expanded KB record and six-source dossier.13 narrative paragraphs,6 citations and Kalahandi discovery verified live. Item087 counted once after receipt; total87. | — |
 | UTP-EVT-2026101514 | 2026-10-15T04:32:57.158709+00:00 | Prepared a distinct Sounds further-reading section with seven canonical story introductions and early jump. Desktop/phone layout, keyboard navigation, canonical coverage and unchanged core chapters checked. Publication pending; total87. | — |
 | UTP-EVT-2026101515 | 2026-10-15T04:40:44.906406+00:00 | Published Sounds further-reading section with seven canonical article introductions and early jump. Live cards, destinations, eight core chapters and eleven sitemap entries verified. Item088 counted once after receipt; total88. | — |
@@ -1008,6 +1009,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101519 | 2026-10-15T06:50:33.712829+00:00 | Published Ranapa article with canonical KB narrative and four-source dossier. Twelve paragraphs, four citations and Sounds discovery verified live. Eight core chapters and eleven sitemap entries retained. Item090 counted once after receipt; total90. | — |
 | UTP-EVT-2026101520 | 2026-10-15T07:42:03.212807+00:00 | Reviewed21 passage-to-source links across three sound stories. Corrected observed fragment scrolling failure; keyboard, direct arrival, repeated activation and phone/desktop checks pass. Await live receipt; total90. | — |
 | UTP-EVT-2026101521 | 2026-10-15T07:55:46.110263+00:00 | Published source navigation in three sound stories. 21 passage links and 15 notes verified live; source caveats and full prose retained. Item 091 counted after receipt; total 91. | — |
+| UTP-EVT-2026101522 | 2026-10-15T08:54:49.752964+00:00 | Reviewed section and source navigation across eight core Sounds stories. Keyboard, phone and desktop checks pass; publication pending. Count remains 91. | — |
 
 ## Deferred extensions
 

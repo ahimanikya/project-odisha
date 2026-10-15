@@ -1,0 +1,24 @@
+{
+  "recorded_at": "2026-10-15T08:54:49.752964+00:00",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "status": "pass_with_limitations",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-092",
+  "work_id": "UTP-WORK-281",
+  "verification": {
+    "scope": "Eight core sound articles now expose 42 canonical section headings and eight source-note destinations through the existing ResearchContents component.",
+    "tests": "534 full-site tests and 143 coastal tests pass; 1548 page acceptance checks pass. Full build 400 pages, coastal build 387 pages and publication 11 indexable routes unchanged.",
+    "visual": "Huluhuli at 390×844: keyboard selection closes contents and focuses the chosen history heading at viewport top; source selection opens notes and focuses its summary. Escape closes contents and returns focus. No horizontal overflow. Pala direct source fragment opens notes on arrival; 1280×900 contents layout visually checked.",
+    "factual_scope": "Canonical narratives, source titles/resources/limitations, artwork provenance and reading trail are unchanged. Headings are read from canonical story.blocks, with IDs derived from existing block positions. Source links are section navigation, not new claim-source assertions.",
+    "diff_review": "Only imports, derived section/contents arrays, existing heading IDs and source disclosure IDs changed in the eight templates. Shared navigation implementation unchanged."
+  },
+  "limitations": [
+    "Same-assistant implementation review; no independent human or screen-reader user review.",
+    "Existing practitioner, language, source-retrieval and origin uncertainties remain unchanged.",
+    "No audio, new research claims or expanded search eligibility."
+  ]
+}
