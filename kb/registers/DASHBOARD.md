@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e8382d23f22ae751a09198874308ee473f532b4fcc0832cee1db1e676c4910f0`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `0f9a9a326ddebcaf21de0fb29815912a162ec9dd47d22aa2cf02724a10ac256c`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -285,6 +285,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-271 · Publish pending research and Osha collection | completed | applied | Ahimanikya Satapathy | Continue independent research; evidence-blocked boat-song work remains open. | — |
 | UTP-WORK-272 · Share and restore reading-room searches | completed | published | Ahimanikya Satapathy | Published and verified live. Native device sharing and physical screen-reader review remain future checks. | — |
 | UTP-WORK-273 · Navigate sections within long research notes | completed | published | Ahimanikya Satapathy | Published and verified. Broader physical-device and screen-reader review remains open under WORK075. | — |
+| UTP-WORK-274 · Research and publish Kendara further reading | in_progress | draft | Ahimanikya Satapathy | Merge passing reviewed head and publish approved main; verify live article, discovery and noindex before counting. | — |
 
 ## Pending human review and decisions
 
@@ -820,6 +821,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-239 | pass_with_limitations | False | Same-assistant desk review only; practitioner and local terminology review remain open.; PDF text was readable through web extraction; screenshot attempts failed. No visual PDF inspection or local capture claimed.; No field recording or ancient transmission established. Eight main chapters and eleven external-search routes retained. |
 | UTP-REV-240 | pass_with_limitations | False | Same-assistant review, not independent or human review.; Native device sharing and physical screen-reader behavior not tested; browser fallback and keyboard behavior checked.; Existing specialist review and noindex restrictions on research notes remain unchanged. |
 | UTP-REV-241 | pass_with_limitations | False | Same-assistant implementation review, not independent accessibility certification.; No physical screen-reader or device testing. Native no-JavaScript details/anchors verified in generated markup, not a disabled-JavaScript browser session.; No new factual research or specialist review; existing article caveats and source dates retained. |
+| UTP-REV-242 | pass_with_limitations | False | Same-assistant source and implementation review; no independent or human practitioner review.; No audio audition, field interview, image reuse or confirmed contemporary performance offer.; Origin chronology remains open. Unretrievable Odisha Review lead excluded; accepted claims use four inspected sources. |
 
 ## Publication and application history
 
@@ -977,7 +979,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101114 | 2026-10-11T14:33:52.021116+00:00 | Manabasa Gurubara digital textual witness and ritual/shared-food roles reconciled for existing draft review;1868 header remains quarantined, no publication. | Manabasa Gurubara food sequence reconciled into draftPR145. Continue the next eligible saved-source field; preserve all14–18October textual, calendar and local-review holds. No publication inferred. |
 | UTP-EVT-2026101116 | 2026-10-11T16:39:59.978800+00:00 | Sudasa supplementary rice/filling and textual offering-distribution instructions reconciled into existing draft; current household practice unknown. | Sudasa supplementary food passages reconciled into draftPR145. Continue the earliest eligible saved-source narrative gap; preserve14–18October textual, calendar and local-review holds. No publication inferred. |
 | UTP-EVT-2026101117 | 2026-10-11T17:40:07.823443+00:00 | Saved Khudurukuni article and Sadhaba study imported as research-only; two profile sections retain print/authorship and food-term uncertainty. | Khudurukuni article and supporting maritime study reconciled as research-only into draftPR145; two profile sections added. Preserve14–18October holds and koeta identity gap. Continue earliest unheld narrative field; no public release inferred. |
 | UTP-EVT-2026101501 | 2026-10-14T22:18:21.066026+00:00 | Published all 39 pending request integrations through PR244. Reading room has 169 sourced notes; Osha collection has 53 profiles. All 226 new routes verified live. Boat-song evidence blocker retained; autonomous programme count unchanged. | Continue useful research without conflating early notes with completed specialist review. |
@@ -987,6 +988,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101505 | 2026-10-14T23:30:13.954132+00:00 | Published and live-verified bookmarkable/shareable reading-room searches. Item083 counted once after publication receipt; total83. All169 notes remain available; external-search selection unchanged. | — |
 | UTP-EVT-2026101506 | 2026-10-15T00:22:01.825418+00:00 | Prepared compact section navigation for121 long reading-room notes, with1082 validated anchors and keyboard/mobile review. Publication pending; completed count83. | — |
 | UTP-EVT-2026101507 | 2026-10-15T00:29:56.295144+00:00 | Published section navigation for121 long research notes. Verified live keyboard source jump and unchanged seasonal-food narrative. Item084 counted once after receipt; total84. | — |
+| UTP-EVT-2026101508 | 2026-10-15T01:30:58.290575+00:00 | Prepared Kendara further-reading article, canonical KB narrative and four-source dossier. Website, mobile and discovery checks passed; publication pending, count84. | — |
 
 ## Deferred extensions
 

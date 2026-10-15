@@ -7758,6 +7758,30 @@
         "records/research-contents-publication-2026-10-15.json"
       ],
       "acceptance_criteria": "Add a compact, keyboard-usable section navigator to long reading-room notes using the renderer’s actual level-two heading IDs and labels, plus source links where present. Preserve note text and no-JavaScript anchor navigation; collapse menu after selection, focus destination, support Escape and repeat selections. Verify links against all rendered notes, desktop/mobile behavior on the58-section seasonal-food guide, passing CI, approved main publication and live receipt before counting once. No factual edits or search-index expansion."
+    },
+    {
+      "id": "UTP-WORK-274",
+      "title": "Research and publish Kendara further reading",
+      "category": "culture_research",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Merge passing reviewed head and publish approved main; verify live article, discovery and noindex before counting.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-REV-242"
+      ],
+      "evidence": [
+        "research/culture/sounds-of-odisha.md",
+        "research/culture/kendara.md",
+        "research/culture/kendara-website.json",
+        "research/sources/kendara-research.json",
+        "records/kendara-review-2026-10-15.json"
+      ],
+      "acceptance_criteria": "Research and publish a source-linked Sounds of Odisha further-reading article about Kendara, its instrument and named performers or documented repertoire. Search existing KB first, retain dated source scopes, distinguish legend from historical origin, and do not invent listening, testimony, lyrics or recording rights. Save canonical narrative and claim dossier, integrate website and collection discovery, pass source review and site checks, merge passing reviewed PR, publish approved main and verify live before counting once. Preserve eight main chapters and existing search eligibility."
     }
   ],
   "decisions": [
@@ -17950,6 +17974,27 @@
         "Same-assistant implementation review, not independent accessibility certification.",
         "No physical screen-reader or device testing. Native no-JavaScript details/anchors verified in generated markup, not a disabled-JavaScript browser session.",
         "No new factual research or specialist review; existing article caveats and source dates retained."
+      ]
+    },
+    {
+      "id": "UTP-REV-242",
+      "title": "Kendara source and website review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-274"
+      ],
+      "evidence": [
+        "records/kendara-review-2026-10-15.json"
+      ],
+      "limitations": [
+        "Same-assistant source and implementation review; no independent or human practitioner review.",
+        "No audio audition, field interview, image reuse or confirmed contemporary performance offer.",
+        "Origin chronology remains open. Unretrievable Odisha Review lead excluded; accepted claims use four inspected sources."
       ]
     }
   ],

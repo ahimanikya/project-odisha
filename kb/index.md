@@ -208,3 +208,5 @@ Historical visitor-experience release: [PR 23 publication evidence](records/visi
 - [Listening to craft through Kotpad · 13 October 2026](research/culture/craft-listening.md) — Reader article and source reuse; [website publication verified](records/craft-listening-website-publication-2026-10-13.json). Acoustic documentation remains open.
 
 - [Listening to Chilika](research/culture/chilika-listening.md) — Mangalajodi setting, birding conduct and a visitor listening exercise; [website article](https://projectodisha.org/stories/chilika-listening/) published; [delivery evidence](records/chilika-listening-publication-2026-10-15.json).
+
+[Kendara and the travelling song](research/culture/kendara.md) — Bowed-string singing, named performers and dated sources.
