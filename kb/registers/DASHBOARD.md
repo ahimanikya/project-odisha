@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `8bbc3bab445c04af5e7db84b5d739458e813d690b8f90d45522ee1242f567172`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `5568dc370c26c593a22559a71dd1c8e3b878c1eeea168b8a9e8bd0a95282eb01`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -306,6 +306,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-286 · Dhuduki: a string beneath the story | completed | published | Ahimanikya Satapathy | Published and live-verified. Practitioner-led names, teaching histories and text/recording permissions remain follow-up; no outreach initiated. | — |
 | UTP-WORK-2026101507 · Small purchase-interest labels for Jhula choices | completed | published | Ahimanikya Satapathy | User can review the published controls. | — |
 | UTP-WORK-2026101508 · Consistent Jhula spacing and aligned design controls | in_progress | reviewed | Ahimanikya Satapathy | Publish and verify responsive layout corrections. | — |
+| UTP-WORK-287 · A listening notebook for all 21 sound stories | in_progress | reviewed | Ahimanikya Satapathy | Create PR, pass required checks, merge reviewed head, publish approved main workflow and verify live before counting. | — |
 
 ## Pending human review and decisions
 
@@ -869,6 +870,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-254 | pass_with_limitations | False | Same-assistant review; no independent human, practitioner or screen-reader review.; Construction evidence is an attributed cultural essay, not instrument examination. CCRT access limited to indexed page text.; No founding chronology, present performance offer, audio or lyrics claimed. |
 | UTP-REV-2026101506 | pass_with_limitations | False | Browser-based survey identity is not verified one-person-one-vote.; Comment drafts remain unsent until explicitly submitted. |
 | UTP-REV-2026101507 | pass | False | — |
+| UTP-REV-255 | pass_with_limitations | False | Same-assistant review; no independent human, practitioner or screen-reader review.; Listening suggestions do not establish a current performance, access permission, technical lesson or field encounter.; Print styles retained; no physical print or print-preview validation claimed. |
 
 ## Publication and application history
 
@@ -1046,7 +1048,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101596 | 2026-10-15T13:18:27.925782+00:00 | Verified six additional images on live page without voting controls. | — |
 | UTP-EVT-2026101597 | 2026-10-15T13:32:54.071360+00:00 | Prepared eighteen-choice voting, private contact fields, six additional kits and male styling; Firebase emulator checks passed. | — |
 | UTP-EVT-2026101598 | 2026-10-15T13:46:49.496908+00:00 | Published and verified eighteen-choice survey, complete additional kits and male styling. | — |
 | UTP-EVT-2026101599 | 2026-10-15T14:00:48.973005+00:00 | Prepared sourced nostalgic narrative and automatic preference saves, separating explicit comment/contact submission. | — |
@@ -1056,6 +1057,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-20261015101 | 2026-10-15T14:21:46.515497+00:00 | Prepared compact purchase-interest labels, keeping existing saving behavior and touch targets. | — |
 | UTP-EVT-20261015102 | 2026-10-15T14:34:24.454708+00:00 | Live verified small buying-interest prompt, preferred star endpoints and collapsed comments. | — |
 | UTP-EVT-20261015103 | 2026-10-15T14:42:02.292498+00:00 | Verified aligned desktop card controls and no wrapping or overflow down to 320px. | — |
+| UTP-EVT-2026101534 | 2026-10-15T14:53:36.573741+00:00 | Extended notebook from8 to21 sound stories with four reading paths and synchronized download. Tests and responsive/keyboard checks pass. Publication pending; total97. | — |
 
 ## Deferred extensions
 

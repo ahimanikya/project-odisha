@@ -8237,6 +8237,28 @@
         "records/jhula-layout-review-2026-10-15.json"
       ],
       "acceptance_criteria": "Cards align descriptions and control sections; five stars stay in one row; consistent section, heading and form spacing; phone layouts do not overflow; behavior preserved."
+    },
+    {
+      "id": "UTP-WORK-287",
+      "title": "A listening notebook for all 21 sound stories",
+      "category": "website",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Create PR, pass required checks, merge reviewed head, publish approved main workflow and verify live before counting.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-REV-255"
+      ],
+      "evidence": [
+        "research/culture/listening-notebook.json",
+        "research/product/sounds-reading-paths.json",
+        "records/listening-notebook-expansion-review-2026-10-15.json"
+      ],
+      "acceptance_criteria": "Extend the listening notebook from eight core stories to all 21 published sound stories, with specific editorial questions derived from existing canonical narratives. Reuse the four reading paths for navigation; keep the downloadable notebook synchronized, including every question and canonical URL. Preserve observation/permission boundaries and search eligibility. Test complete unique coverage, working links and text parity; inspect phone, desktop and keyboard navigation. Merge a passing reviewed-head PR, deploy approved main workflow and save actual live receipt before counting."
     }
   ],
   "decisions": [
@@ -18986,6 +19008,28 @@
       ],
       "evidence": [
         "records/jhula-buy-interest-2026-10-15.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-255",
+      "title": "Listening notebook coverage and navigation review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-287",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/listening-notebook-expansion-review-2026-10-15.json"
+      ],
+      "limitations": [
+        "Same-assistant review; no independent human, practitioner or screen-reader review.",
+        "Listening suggestions do not establish a current performance, access permission, technical lesson or field encounter.",
+        "Print styles retained; no physical print or print-preview validation claimed."
       ]
     }
   ],
