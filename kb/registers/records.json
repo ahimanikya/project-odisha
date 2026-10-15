@@ -5603,7 +5603,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Continue eligible substantive work sequentially under UTP-DEC-225; 101 of 500 evidenced items completed. Resume any in-progress item first.",
+      "next_action": "Continue eligible substantive work sequentially under UTP-DEC-225; 102 of 500 evidenced items completed. Resume any in-progress item first.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225"
@@ -8341,23 +8341,25 @@
       "id": "UTP-WORK-291",
       "title": "Reconcile Sounds of Odisha knowledge entrances with published articles",
       "category": "knowledge_maintenance",
-      "status": "in_progress",
+      "status": "completed",
       "readiness": "reviewed",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Merge passing reviewed-head PR and verify merged KB outputs before counting; no website deployment required.",
+      "next_action": "KB guide merged and verified. Use current receipts before future status changes; audio and practitioner/local evidence remain separate unfinished work.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225",
-        "UTP-REV-259"
+        "UTP-REV-259",
+        "UTP-REL-132"
       ],
       "evidence": [
         "index.md",
         "research/culture/index.md",
         "research/culture/sounds-of-odisha.md",
         "research/product/sounds-discovery.json",
-        "records/sounds-kb-guide-review-2026-10-15.json"
+        "records/sounds-kb-guide-review-2026-10-15.json",
+        "records/sounds-kb-guide-merged-2026-10-15.json"
       ],
       "acceptance_criteria": "Repair the three incorrect sound-subject links in the culture index; replace stale root/collection publication statements with a dated 22-story directory linking each KB narrative, actual website and saved release receipt. Keep eight core stories separate from fourteen further readings and retain unfinished audio, practitioner and local-review scope. Remove the already delivered lullaby publication candidate. Verify exact coverage against discovery and receipts, valid KB links, unchanged story/site files, passing PR and merged record evidence. This is a canonical navigation repair, not a new website or research delivery; record the deployment exemption explicitly."
     }
@@ -21472,6 +21474,22 @@
         "records/core-sound-sources-publication-2026-10-15.json"
       ],
       "note": "Passing reviewed head merged and approved main workflow published. Eight live stories, 55 section-source links, numbered notes and original narrative verified; eleven-route search eligibility unchanged."
+    },
+    {
+      "id": "UTP-REL-132",
+      "title": "Sounds of Odisha KB publication guide and corrected subject links",
+      "status": "applied",
+      "authorization": "UTP-DEC-225",
+      "destination": "https://github.com/ahimanikya/project-odisha/pull/273",
+      "refs": [
+        "UTP-WORK-291",
+        "UTP-REV-259",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/sounds-kb-guide-merged-2026-10-15.json"
+      ],
+      "note": "Reviewed and passing KB change merged; all three entrances match 22 article release receipts. Public website unchanged; deployment exemption recorded."
     }
   ],
   "sources": [
