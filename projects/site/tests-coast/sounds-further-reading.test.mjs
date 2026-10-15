@@ -7,7 +7,7 @@ const decode=s=>s.replaceAll('&quot;','"').replaceAll('&#39;',"'").replaceAll('&
 const entries=JSON.parse(read('../../kb/research/product/sounds-discovery.json')).entries.filter(e=>e.href.startsWith('/stories/'));
 test('Sounds collection exposes every further-reading story with its canonical introduction',()=>{
  const section=html.match(/<section[^>]*id="further-reading"[^>]*>([\s\S]*?)<\/section>/)?.[1];assert.ok(section);
- const cards=[...section.matchAll(/<article\b[^>]*>([\s\S]*?)<\/article>/g)].map(m=>m[1]);assert.equal(cards.length,entries.length);assert.equal(cards.length,10);
+ const cards=[...section.matchAll(/<article\b[^>]*>([\s\S]*?)<\/article>/g)].map(m=>m[1]);assert.equal(cards.length,entries.length);assert.equal(cards.length,11);
  const links=cards.map(c=>c.match(/href="([^"]+)"/)[1]);assert.deepEqual(links,entries.map(e=>e.href));assert.equal(new Set(links).size,links.length);
  for(const entry of entries){const source=JSON.parse(read('../../kb/'+entry.source));const card=cards.find(c=>c.includes('href="'+entry.href+'"'));assert.ok(decode(card).includes(source.title));assert.ok(decode(card).includes(source.lead));assert.ok(existsSync('dist-coast'+entry.href+'index.html'));}
  assert.ok(html.indexOf('href="#further-reading"')<html.indexOf('id="huluhuli"'));assert.equal((html.match(/id="further-reading"/g)||[]).length,1);
