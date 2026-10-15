@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `8695118a4ad08dd9628913e307df179d4b89947630221f39b738df4e8ad2a5fe`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `378fe129f08fbe759de25aa6bee3a5bb4f3e28b5bed6d54add4835c8eda66f18`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -301,7 +301,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-285 · Prahlada Nataka: a story carried in song | completed | published | Ahimanikya Satapathy | Published and live-verified. Practitioner-led names, teaching histories and text/recording permissions remain follow-up; no outreach initiated. | — |
 | UTP-WORK-2026101503 · Firebase-backed inline Jhula ratings | completed | published | Ahimanikya Satapathy | Firebase voting live and verified; invitation remains held for user. | — |
 | UTP-WORK-2026101504 · Additional Jhula concept gallery without voting | completed | published | Ahimanikya Satapathy | Six additional choices live, outside voting. | — |
-| UTP-WORK-2026101505 · Eighteen complete Jhula choices with inclusive styling | in_progress | reviewed | Ahimanikya Satapathy | Publish and verify expanded Firebase survey and three new image boards. | — |
+| UTP-WORK-2026101505 · Eighteen complete Jhula choices with inclusive styling | completed | published | Ahimanikya Satapathy | User may share saved invitation when ready; no messages sent. | — |
+| UTP-WORK-2026101506 · Nostalgic Jhula story and automatic ratings | in_progress | reviewed | Ahimanikya Satapathy | Complete browser review and publish the revised story and autosave behavior. | — |
 
 ## Pending human review and decisions
 
@@ -598,6 +599,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-2026101504 · Use Project Odisha Firebase for embedded Jhula feedback | approved | Ahimanikya Satapathy | Rename Firebase display name to Project Odisha; preserve utkal-project ID and existing services; publish private Jhula ratings on the same page. Clarify original bag terminology. |
 | UTP-DEC-2026101505 · Show six additional Jhula choices without voting | approved | Ahimanikya Satapathy | Publish six supplied additional concept boards on the Jhula page, with no voting controls for these boards. |
 | UTP-DEC-2026101506 · Eighteen Jhula votes, contact fields and male styling | approved | Ahimanikya Satapathy | Publish six additional matching kits and voting; required name and optional private contact details; male styling visual. |
+| UTP-DEC-2026101507 · Poetic Jhula story and automatic ratings | approved | Ahimanikya Satapathy | Revise and publish the existing Jhula page and its feedback behavior; preserve image provenance in project records. |
 
 ## Reviews
 
@@ -858,6 +860,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-253 | pass_with_limitations | False | Same-assistant editorial and implementation review; no independent human, practitioner or screen-reader review.; Approximate composition dates differ; no original manuscript or early edition inspected. A scheduled lecture abstract is not evidence of its delivery.; No audio, lyrics or source imagery republished; present-day practice and musical transmission remain research follow-up. |
 | UTP-REV-2026101503 | pass_with_limitations | False | Anonymous browser session, not verified one-person-one-vote.; Earlier survey responses preserved separately. |
 | UTP-REV-2026101504 | pass_with_limitations | False | Original supplied artwork retains earlier collection lettering. |
+| UTP-REV-2026101505 | pass_with_limitations | False | AI concept images require physical sampling; anonymous browser identity does not establish one person one vote. |
 
 ## Publication and application history
 
@@ -994,6 +997,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-126 · Prahlada Nataka: a story carried in song | published | https://projectodisha.org/stories/prahlada-nataka/ | UTP-DEC-225 |
 | UTP-REL-2026101503 · Firebase-backed Jhula voting published | published | https://projectodisha.org/odia-poetry-jhula/ | UTP-DEC-2026101504 |
 | UTP-REL-2026101504 · Six additional Jhula choices published without voting | published | https://projectodisha.org/odia-poetry-jhula/#additional-choices | UTP-DEC-2026101505 |
+| UTP-REL-2026101505 · Eighteen Jhula choices and male styling published | published | https://projectodisha.org/odia-poetry-jhula/ | UTP-DEC-2026101506 |
 
 ## Sources and assets
 
@@ -1031,8 +1035,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101590 | 2026-10-15T12:26:31.099437+00:00 | Published and browser-verified Odia Poetry Jhula with twelve sets and existing survey handoff. | — |
-| UTP-EVT-2026101591 | 2026-10-15T12:34:37.077208+00:00 | Prepared and locally tested inline ratings and comments for all twelve designs, preserving earlier ballots. | — |
 | UTP-EVT-2026101530 | 2026-10-15T12:50:31.490862+00:00 | Prepared Prahlada Nataka article and source dossier with explicit date discrepancy. Tests and responsive/navigation checks pass; no independent human review claimed. Publication pending. | — |
 | UTP-EVT-2026101592 | 2026-10-15T12:42:17.326144+00:00 | Published and live-verified inline ratings and private comments for all twelve designs. Earlier ballots preserved. | — |
 | UTP-EVT-2026101593 | 2026-10-15T12:52:49.427511+00:00 | Prepared Firebase survey integration and clarified bag-only design references; live publication remains pending. | — |
@@ -1041,6 +1043,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101595 | 2026-10-15T13:08:15.182677+00:00 | Added six supplied concept boards to a separate non-voting gallery. | — |
 | UTP-EVT-2026101596 | 2026-10-15T13:18:27.925782+00:00 | Verified six additional images on live page without voting controls. | — |
 | UTP-EVT-2026101597 | 2026-10-15T13:32:54.071360+00:00 | Prepared eighteen-choice voting, private contact fields, six additional kits and male styling; Firebase emulator checks passed. | — |
+| UTP-EVT-2026101598 | 2026-10-15T13:46:49.496908+00:00 | Published and verified eighteen-choice survey, complete additional kits and male styling. | — |
+| UTP-EVT-2026101599 | 2026-10-15T14:00:48.973005+00:00 | Prepared sourced nostalgic narrative and automatic preference saves, separating explicit comment/contact submission. | — |
 
 ## Deferred extensions
 

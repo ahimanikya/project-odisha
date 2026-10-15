@@ -21,6 +21,12 @@ test('Jhula ships eighteen sets and all original bag image resources with inline
  assert.match(html,/<input type="email" name="email"/);
  assert.match(html,/<input type="tel" name="phone"/);
  assert.match(html,/men-styling-v2.png/);
+ assert.match(html,/ବିଶ୍ୱ ଦେଖ ମଧୁମୟରେ ଜୀବନ/);
+ assert.match(html,/or.wikisource.org/);
+ assert.match(html,/ratings save automatically/);
+ assert.match(html,/either your email or your phone/);
+ assert.match(html,/Send my comments/);
+ assert.doesNotMatch(html,/AI-created|AI-generated|AI styling|How your feedback is saved|Ready\. Rate|NOW, A LITTLE SPACE/);
  assert.doesNotMatch(html,/View the original Jhula|The originals|aquera-1216/);
  assert.equal([...html.matchAll(/See the bag on its own/g)].length,18);
 });
