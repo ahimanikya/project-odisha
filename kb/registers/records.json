@@ -8099,20 +8099,40 @@
       "id": "UTP-WORK-2026101503",
       "title": "Firebase-backed inline Jhula ratings",
       "category": "website",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current merchandise assistant",
       "authorization": "UTP-DEC-2026101504",
-      "next_action": "Verify isolated Firebase rules, publish website and verify live save/update/withdraw.",
+      "next_action": "Firebase voting live and verified; invitation remains held for user.",
       "blockers": [],
       "refs": [
         "UTP-DEC-2026101504"
       ],
       "evidence": [
-        "records/jhula-firebase-review-2026-10-15.json"
+        "records/jhula-firebase-review-2026-10-15.json",
+        "records/jhula-firebase-publication-2026-10-15.json"
       ],
       "acceptance_criteria": "Twelve inline design ratings with private Firebase persistence; preserve existing Firebase services and earlier survey data; clear bag-only concept label."
+    },
+    {
+      "id": "UTP-WORK-2026101504",
+      "title": "Additional Jhula concept gallery without voting",
+      "category": "website",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current merchandise assistant",
+      "authorization": "UTP-DEC-2026101505",
+      "next_action": "Publish and verify six gallery images without voting controls.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-2026101505"
+      ],
+      "evidence": [
+        "records/jhula-additional-gallery-2026-10-15.json"
+      ],
+      "acceptance_criteria": "Six supplied boards visible on same page, original twelve vote options retained."
     }
   ],
   "decisions": [
@@ -12794,6 +12814,25 @@
       ],
       "evidence": [
         "records/jhula-firebase-review-2026-10-15.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-2026101505",
+      "title": "Show six additional Jhula choices without voting",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Add to the same page, but no voting on these",
+      "scope": "Publish six supplied additional concept boards on the Jhula page, with no voting controls for these boards.",
+      "recorded_at": "2026-10-15T13:08:15.182677+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-2026101504"
+      ],
+      "evidence": [
+        "records/jhula-additional-gallery-2026-10-15.json"
       ]
     }
   ],
@@ -18652,6 +18691,26 @@
         "Approximate composition dates differ; no original manuscript or early edition inspected. A scheduled lecture abstract is not evidence of its delivery.",
         "No audio, lyrics or source imagery republished; present-day practice and musical transmission remain research follow-up."
       ]
+    },
+    {
+      "id": "UTP-REV-2026101503",
+      "title": "Firebase Jhula voting review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current merchandise assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-2026101503"
+      ],
+      "evidence": [
+        "records/jhula-firebase-publication-2026-10-15.json"
+      ],
+      "limitations": [
+        "Anonymous browser session, not verified one-person-one-vote.",
+        "Earlier survey responses preserved separately."
+      ]
     }
   ],
   "releases": [
@@ -20753,6 +20812,22 @@
         "records/prahlada-nataka-publication-2026-10-15.json"
       ],
       "note": "Passing reviewed head merged and approved main workflow published. Dedicated narrative and two-source trail verified live; collection, voice reading path and Explore links included; search eligibility unchanged."
+    },
+    {
+      "id": "UTP-REL-2026101503",
+      "title": "Firebase-backed Jhula voting published",
+      "status": "published",
+      "refs": [
+        "UTP-WORK-2026101503",
+        "UTP-DEC-2026101504",
+        "UTP-REV-2026101503"
+      ],
+      "evidence": [
+        "records/jhula-firebase-publication-2026-10-15.json"
+      ],
+      "authorization": "UTP-DEC-2026101504",
+      "review": "UTP-REV-2026101503",
+      "destination": "https://projectodisha.org/odia-poetry-jhula/"
     }
   ],
   "sources": [
