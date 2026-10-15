@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `7438c2191c83e665a99f3cbfd423219ff39fa2994c2adfbacdd74cb3858744b1`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `68ff2bb06758e53d6617569362aef8392b479ecb9d12f12a034e87f0f34135e4`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -199,7 +199,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
-| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue eligible substantive work sequentially under UTP-DEC-225; 99 of 500 evidenced items completed. Resume any in-progress item first. | — |
+| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue eligible substantive work sequentially under UTP-DEC-225; 100 of500 evidenced items completed. Resume any in-progress item first. | — |
 | UTP-WORK-190 · Food discovery, portable reading collection and current review-queue repair | completed | published | Ahimanikya Satapathy | Published and live-verified. Continue through the program queue under DEC225. | — |
 | UTP-WORK-191 · Build the tourism opportunities information section | completed | reviewed | Ahimanikya Satapathy | Published information scope complete. Continue WORK166 and WORK171 only when new documentary or operating evidence is available. | — |
 | UTP-WORK-192 · Align saved food cards with canonical story introductions | completed | reviewed | Ahimanikya Satapathy | Repair published and live catalogue verified; preserve canonical food fields when future stories change. | — |
@@ -308,7 +308,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026101508 · Consistent Jhula spacing and aligned design controls | in_progress | reviewed | Ahimanikya Satapathy | Publish and verify responsive layout corrections. | — |
 | UTP-WORK-287 · A listening notebook for all 21 sound stories | completed | published | Ahimanikya Satapathy | Published and live-verified. Keep questions aligned with future story additions; regenerate the downloadable notebook when canonical questions or reading paths change. | — |
 | UTP-WORK-288 · Continue Sounds reading paths from every story | completed | published | Ahimanikya Satapathy | Published and live-verified on all 21 stories. Future stories should reuse the chooser and remain covered by canonical reading paths. | — |
-| UTP-WORK-289 · Odissi music: follow the singer | in_progress | reviewed | Ahimanikya Satapathy | Create PR, pass required checks, merge reviewed head, publish approved main workflow and verify live before counting. | — |
+| UTP-WORK-289 · Odissi music: follow the singer | completed | published | Ahimanikya Satapathy | Published and live-verified. Specialist historical and practitioner review remain open; no audio or current course availability claimed. | — |
 
 ## Pending human review and decisions
 
@@ -1017,6 +1017,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-2026101507 · Compact Jhula controls published | published | https://projectodisha.org/odia-poetry-jhula/ | UTP-DEC-2026101508 |
 | UTP-REL-128 · A listening notebook for all 21 sound stories | published | https://projectodisha.org/sounds-of-odisha/listening-notebook/ | UTP-DEC-225 |
 | UTP-REL-129 · Continue Sounds reading paths from every story | published | https://projectodisha.org/stories/boat-songs/#reading-paths | UTP-DEC-225 |
+| UTP-REL-130 · Odissi music: follow the singer | published | https://projectodisha.org/stories/odissi-music/ | UTP-DEC-225 |
 
 ## Sources and assets
 
@@ -1054,7 +1055,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101533 | 2026-10-15T14:06:07.868877+00:00 | Published Dhuduki dedicated story and KB source dossier. Full narrative and four sources verified live; attributed construction, audition date and locality distinctions retained. Item 097 counted after receipt; total 97. | — |
 | UTP-EVT-20261015100 | 2026-10-15T14:19:14.087581+00:00 | Verified live poetic story, Odia quote, automatic ratings and explicitly submitted comments with reply contact. | — |
 | UTP-EVT-20261015101 | 2026-10-15T14:21:46.515497+00:00 | Prepared compact purchase-interest labels, keeping existing saving behavior and touch targets. | — |
 | UTP-EVT-20261015102 | 2026-10-15T14:34:24.454708+00:00 | Live verified small buying-interest prompt, preferred star endpoints and collapsed comments. | — |
@@ -1064,6 +1064,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101536 | 2026-10-15T15:49:18.895611+00:00 | Added current-story reading paths across21 sound stories. Tests and responsive/keyboard checks pass; initial overly broad source-test scope corrected. Publication pending, total98. | — |
 | UTP-EVT-2026101537 | 2026-10-15T15:57:48.333834+00:00 | Published contextual reading-path chooser on all 21 sound stories. Actual live content verified; item 099 counted after receipt. Total 99. | — |
 | UTP-EVT-2026101538 | 2026-10-15T17:00:54.238551+00:00 | Prepared Odissi vocal music article, sourced repertoire and distinct creative credits. Collection, reading path and notebook connected; tests and responsive/keyboard checks pass. Publication pending; total99. | — |
+| UTP-EVT-2026101539 | 2026-10-15T17:13:40.036689+00:00 | Published Odissi vocal music story and canonical source dossier, connected to collection, Explore, reading path and22-story notebook. Live output verified; item100 counted after receipt. Total100. | — |
 
 ## Deferred extensions
 
