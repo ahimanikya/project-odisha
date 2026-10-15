@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `c94bb571cb4b59840c8920c7fea37f8676f77280765d6625556553b881c5ea24`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `7d3bea93a7a5e38a5b61261f795de8c27c9acc993d8cc5f75eb67b6d978e88b7`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -307,6 +307,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026101507 · Small purchase-interest labels for Jhula choices | completed | published | Ahimanikya Satapathy | User can review the published controls. | — |
 | UTP-WORK-2026101508 · Consistent Jhula spacing and aligned design controls | in_progress | reviewed | Ahimanikya Satapathy | Publish and verify responsive layout corrections. | — |
 | UTP-WORK-287 · A listening notebook for all 21 sound stories | completed | published | Ahimanikya Satapathy | Published and live-verified. Keep questions aligned with future story additions; regenerate the downloadable notebook when canonical questions or reading paths change. | — |
+| UTP-WORK-288 · Continue Sounds reading paths from every story | in_progress | reviewed | Ahimanikya Satapathy | Create PR, pass required checks, merge reviewed head, publish approved main workflow and verify live before counting. | — |
 
 ## Pending human review and decisions
 
@@ -871,6 +872,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-2026101506 | pass_with_limitations | False | Browser-based survey identity is not verified one-person-one-vote.; Comment drafts remain unsent until explicitly submitted. |
 | UTP-REV-2026101507 | pass | False | — |
 | UTP-REV-255 | pass_with_limitations | False | Same-assistant review; no independent human, practitioner or screen-reader review.; Listening suggestions do not establish a current performance, access permission, technical lesson or field encounter.; Print styles retained; no physical print or print-preview validation claimed. |
+| UTP-REV-256 | pass_with_limitations | False | Same-assistant review; no independent human, practitioner or screen-reader review.; Existing historical/source limitations remain attached to each story. No fieldwork, audio or current event offer added. |
 
 ## Publication and application history
 
@@ -1049,7 +1051,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101598 | 2026-10-15T13:46:49.496908+00:00 | Published and verified eighteen-choice survey, complete additional kits and male styling. | — |
 | UTP-EVT-2026101599 | 2026-10-15T14:00:48.973005+00:00 | Prepared sourced nostalgic narrative and automatic preference saves, separating explicit comment/contact submission. | — |
 | UTP-EVT-2026101532 | 2026-10-15T13:55:55.753939+00:00 | Prepared Dhuduki article and four-source trail. Tests and responsive/keyboard checks pass; source-access and origin limitations retained. Publication pending, total remains96. | — |
 | UTP-EVT-2026101533 | 2026-10-15T14:06:07.868877+00:00 | Published Dhuduki dedicated story and KB source dossier. Full narrative and four sources verified live; attributed construction, audition date and locality distinctions retained. Item 097 counted after receipt; total 97. | — |
@@ -1059,6 +1060,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-20261015103 | 2026-10-15T14:42:02.292498+00:00 | Verified aligned desktop card controls and no wrapping or overflow down to 320px. | — |
 | UTP-EVT-2026101534 | 2026-10-15T14:53:36.573741+00:00 | Extended notebook from8 to21 sound stories with four reading paths and synchronized download. Tests and responsive/keyboard checks pass. Publication pending; total97. | — |
 | UTP-EVT-2026101535 | 2026-10-15T15:04:36.653327+00:00 | Published expanded listening notebook covering all 21 sound stories in four reading paths, with synchronized download. Actual live content verified; item 098 counted after receipt. Total 98. | — |
+| UTP-EVT-2026101536 | 2026-10-15T15:49:18.895611+00:00 | Added current-story reading paths across21 sound stories. Tests and responsive/keyboard checks pass; initial overly broad source-test scope corrected. Publication pending, total98. | — |
 
 ## Deferred extensions
 
