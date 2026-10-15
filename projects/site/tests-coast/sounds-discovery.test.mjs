@@ -9,7 +9,7 @@ const sounds=JSON.parse(readFileSync('../../kb/research/product/sounds-discovery
 const find=query=>cards.filter(c=>matchesDiscovery(c,query)).map(c=>c.href);
 
 test('Explore delivers every sound reader once with matching title, lead and a real public route',()=>{
- assert.equal(sounds.length,17);
+ assert.equal(sounds.length,18);
  for(const item of sounds){
   const rows=cards.filter(c=>c.href===item.href);assert.equal(rows.length,1,item.href);
   const original=JSON.parse(readFileSync('../../kb/'+item.source,'utf8'));
@@ -25,12 +25,12 @@ test('names, existing Odia strings and sound terms reach the intended story thro
   ['Mardala','/sounds-of-odisha/mardala/'],['Bhaijuntia','/sounds-of-odisha/dalkhai/'],
   ['wooden rhythm','/sounds-of-odisha/daskathia/'],['ghanti','/sounds-of-odisha/ghanta-ghanti/'],
   ['poetry performance','/sounds-of-odisha/pala/'],['Dhemsa','/sounds-of-odisha/dhemsa/'],
-  ['Kendara Badya','/stories/kendara/'],['Nauria geeta','/stories/boat-songs/'],['Chaiti Ghoda','/stories/boat-songs/'],['wetland listening','/stories/chilika-listening/'],['craft listening','/stories/craft-listening/'],['Nanabaya Gita','/stories/odia-lullabies/'],['Nida Mausi','/stories/odia-lullabies/'],['Gotipua','/stories/gotipua/'],['visitor listening notebook','/sounds-of-odisha/listening-notebook/']
+  ['Muhuri','/stories/mahuri/'],['Kendara Badya','/stories/kendara/'],['Nauria geeta','/stories/boat-songs/'],['Chaiti Ghoda','/stories/boat-songs/'],['wetland listening','/stories/chilika-listening/'],['craft listening','/stories/craft-listening/'],['Nanabaya Gita','/stories/odia-lullabies/'],['Nida Mausi','/stories/odia-lullabies/'],['Gotipua','/stories/gotipua/'],['visitor listening notebook','/sounds-of-odisha/listening-notebook/']
  ])assert.ok(find({q}).includes(href),q);
  assert.deepEqual(find({q:'Sounds of Odisha',topic:'Living culture'}).sort(),sounds.map(x=>x.href).sort());
  assert.deepEqual(find({q:'Sounds of Odisha',topic:'Food'}),[]);
  assert.deepEqual(find({q:'Sounds of Odisha',region:'Koraput'}),['/sounds-of-odisha/dhemsa/','/stories/craft-listening/']);
- assert.deepEqual(find({q:'conch',region:'Ganjam'}),['/sounds-of-odisha/sankha/']);
+ assert.deepEqual(find({q:'conch',region:'Ganjam'}),['/sounds-of-odisha/sankha/','/stories/mahuri/']);
  assert.deepEqual(find({q:'Gotipua',region:'Koraput'}),[]);
 });
 test('internal discovery does not make the sound routes externally indexable',()=>{

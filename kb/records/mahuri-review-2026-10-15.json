@@ -1,0 +1,26 @@
+{
+  "recorded_at": "2026-10-15T05:38:52.099000+00:00",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "status": "pass_with_limitations",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-089",
+  "work_id": "UTP-WORK-278",
+  "verification": {
+    "source_review": "Five institutional sources: ICCR programme PDF extracted and p2 rendered; museum-supplied catalogue with machine-translation flag; existing2012 EZCC PDF re-extracted and printed35 visually inspected; Kalahandi row04 and Sambalpur instrument-list text rechecked. Stable existing source IDs preserved.",
+    "editorial": "Canonical 643-word KB JSON narrative; five blocks with source mapping. Instrument-specific construction, acquisition versus origin date, occasion context and spelling distinctions retained. No copied quotes, audio, images or invented fieldwork.",
+    "tests": "399-page full build and532 tests;386-page coastal build and130 tests;1544/1544 page acceptance checks. Publication build retains11 indexable routes. Canonical map and count checks passed.",
+    "visual": "1280px desktop and390x844 phone inspected; no horizontal overflow at390px. Keyboard Enter opens contents; source-link activation opens five-source disclosure. Explore Muhuri query returns one story.",
+    "integration": "New eighth further-reading card is generated from canonical discovery records; eight core chapters unchanged. Related Sankha, notebook, collection-return and correction links checked by build tests.",
+    "recovery": "Existing hard-coded full-page, Explore-card and Sounds-card counts were updated for the added route. Conch+Ganjam search expectation now also includes Mahuri because its canonical introduction names conch players. Initial pre-update tests failed as expected; final full/public suites pass.",
+    "ci_recovery": "Initial CI38687975002 found the internal editorial-workbench export stale after adding the article. Regenerated its canonical outputs and ran workbench consistency, Python and Node checks; public search eligibility unchanged."
+  },
+  "limitations": [
+    "Same-assistant source and implementation review; no independent human, practitioner or screen-reader review.",
+    "ICCR programme calendar date not stated. Museum English text is machine-translated; original provider link failed in web reader.",
+    "No founding date, maker lineage, audio, current booking or field observation established."
+  ]
+}
