@@ -27,3 +27,19 @@ test('reading-room search exposes accessible controls and safe result sharing wi
  assert.equal((hub.match(/data-reading-entry/g)||[]).length,manifest.entries.length);
  assert.ok(!/<article[^>]*data-reading-entry[^>]* hidden/.test(hub));
 });
+
+test('long research notes expose section links to actual rendered headings and sources',()=>{
+ let longNotes=0;
+ for(const e of manifest.entries){
+  const html=read(e.route), body=html.match(/<div class="research-body"[^>]*>([\s\S]*?)<\/div>/)?.[1]||'';
+  const headings=[...body.matchAll(/<h2 id="([^"]+)"[^>]*>/g)].map(m=>m[1]);
+  const menu=html.match(/<details class="research-contents"[^>]*>([\s\S]*?)<\/details>/)?.[1];
+  if(headings.length<3){assert.equal(menu,undefined,e.route);continue;}
+  longNotes++;assert.ok(menu,e.route);assert.match(menu,/Sections in these notes/);
+  const links=[...menu.matchAll(/href="#([^"]+)"/g)].map(m=>m[1]);
+  assert.deepEqual(links,[...headings,...(e.sources.length?['reading-sources']:[])],e.route);
+  for(const id of links)assert.ok(html.includes(`id="${id}"`),e.route+'#'+id);
+  assert.equal(new Set(links).size,links.length,e.route+' duplicate target');
+ }
+ assert.ok(longNotes>100,'meaningful coverage across long notes');
+});

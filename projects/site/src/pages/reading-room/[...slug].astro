@@ -1,14 +1,18 @@
 ---
 import Shell from '../../layouts/Shell.astro';
-import {entries,renderResearch,researchLink} from '../../lib/reading-room.mjs';
+import ResearchContents from '../../components/ResearchContents.astro';
+import {entries,renderResearchDocument,researchLink} from '../../lib/reading-room.mjs';
 export function getStaticPaths(){return entries.map(entry=>({params:{slug:entry.slug},props:{entry}}));}
 const {entry}=Astro.props;
-const body=await renderResearch(entry);
+const {html:body,headings}=await renderResearchDocument(entry);
+const sections=headings.filter(h=>h.depth===2).map(h=>({href:'#'+h.slug,title:h.text}));
+if(entry.sources.length)sections.push({href:'#reading-sources',title:'Sources to follow'});
 ---
 <Shell title={entry.title+' — Research notes'} description={entry.description} active="explore" related={false}>
 <article class="reading-article">
 <nav aria-label="Reading room breadcrumb"><a href="/reading-room/">Reading room</a> / {entry.group}</nav>
 <header><p class="eyebrow">{entry.type} · Research notes</p><h1>{entry.title}</h1><p class="lead">{entry.description}</p><p class="reading-status">Dated evidence and open questions. These notes preserve the sources’ reporting periods and research limits; they do not confirm current services, permissions or investment returns. Specialist review remains open.</p></header>
+{headings.filter(h=>h.depth===2).length>=3&&<ResearchContents items={sections}/>}
 <div class="research-body" set:html={body}/>
 {entry.sources.length>0&&<section class="source-list" aria-labelledby="reading-sources"><h2 id="reading-sources">Sources to follow</h2><ul>{entry.sources.map(source=><li><a href={researchLink(source.resource,entry.path)}>{source.title||source.id}</a></li>)}</ul></section>}
 <footer><p>Published in the reading room on 15 October 2026. Research dates are retained in the text and source records.</p><a href="/reading-room/">Explore more research →</a></footer>

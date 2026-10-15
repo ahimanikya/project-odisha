@@ -16,7 +16,7 @@ export function researchLink(url,path){
  return route||repository+resolved.split('/').map(encodeURIComponent).join('/')+(hash?'#'+hash:'');
 }
 let renderer;
-export async function renderResearch(entry){
+export async function renderResearchDocument(entry){
  const raw=readFileSync(new URL(entry.path,root),'utf8');
  const end=raw.indexOf('\n---\n',4);if(!raw.startsWith('---\n')||end<0)throw Error('Missing frontmatter: '+entry.path);
  let body=raw.slice(end+5).replace(/^\s*# [^\n]+\n/,'');
@@ -26,5 +26,8 @@ export async function renderResearch(entry){
  body=body.replace(/\]\(([^)]+)\)/g,(_,url)=>']('+researchLink(url,entry.path)+')');
  renderer??=createSatteriMarkdownProcessor({syntaxHighlight:false});
  const result=await (await renderer).render(body);
- return result.code.replace(/<table>/g,'<table tabindex="0" aria-label="Scrollable research table">').replace(/(href|src)="([^"#][^"]*)"/g,(_,attr,url)=>`${attr}="${researchLink(url,entry.path)}"`);
+ const html=result.code.replace(/<table>/g,'<table tabindex="0" aria-label="Scrollable research table">').replace(/(href|src)="([^"#][^"]*)"/g,(_,attr,url)=>`${attr}="${researchLink(url,entry.path)}"`);
+ // The generated footnote label is visually hidden, not a reader section.
+ return {html,headings:result.metadata.headings.filter(h=>h.slug!=='footnote-label')};
 }
+export async function renderResearch(entry){return (await renderResearchDocument(entry)).html;}

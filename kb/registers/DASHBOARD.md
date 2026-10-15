@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `90e9bccbc6a5fcb450eacd38ffe4708c8a9f6716a808bc1c7ad79519e72f6ce3`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `69b9440a87cb55853e2d34f768addafdeae37af99c7d4dc0dfd058efd7b02fb1`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -284,6 +284,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026100701 · Osha, stories and the food year: fifty-three profiles and dated food evidence | in_progress | draft | Ahimanikya Satapathy | Khudurukuni article and supporting maritime study reconciled as research-only into draftPR145; two profile sections added. Preserve14–18October holds and koeta identity gap. Continue earliest unheld narrative field; no public release inferred. | — |
 | UTP-WORK-271 · Publish pending research and Osha collection | completed | applied | Ahimanikya Satapathy | Continue independent research; evidence-blocked boat-song work remains open. | — |
 | UTP-WORK-272 · Share and restore reading-room searches | completed | published | Ahimanikya Satapathy | Published and verified live. Native device sharing and physical screen-reader review remain future checks. | — |
+| UTP-WORK-273 · Navigate sections within long research notes | in_progress | draft | Ahimanikya Satapathy | Publish after passing reviewed-head CI, then verify actual live section navigation and save receipt. | — |
 
 ## Pending human review and decisions
 
@@ -818,6 +819,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-238 | pass_with_limitations | False | Specialist review and current field confirmations remain open.; Boat/fishing-song manuscript remains blocked for lack of adequate retrieved evidence.; Search-index eligibility remains eleven routes.; This direct Founder publication batch is not counted as 169 autonomous tasks; programme count remains unchanged. |
 | UTP-REV-239 | pass_with_limitations | False | Same-assistant desk review only; practitioner and local terminology review remain open.; PDF text was readable through web extraction; screenshot attempts failed. No visual PDF inspection or local capture claimed.; No field recording or ancient transmission established. Eight main chapters and eleven external-search routes retained. |
 | UTP-REV-240 | pass_with_limitations | False | Same-assistant review, not independent or human review.; Native device sharing and physical screen-reader behavior not tested; browser fallback and keyboard behavior checked.; Existing specialist review and noindex restrictions on research notes remain unchanged. |
+| UTP-REV-241 | pass_with_limitations | False | Same-assistant implementation review, not independent accessibility certification.; No physical screen-reader or device testing. Native no-JavaScript details/anchors verified in generated markup, not a disabled-JavaScript browser session.; No new factual research or specialist review; existing article caveats and source dates retained. |
 
 ## Publication and application history
 
@@ -974,7 +976,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101112 | 2026-10-11T09:55:36.693880+00:00 | Samba Dashami day sequence, children’s sharing and later Yama offering reconciled for existing draft review; printed ambiguity preserved, no publication. | Samba Dashami food sequence reconciled into draftPR145. Continue the next eligible saved-source field; preserve all14–18October textual, calendar and local-review holds. No publication inferred. |
 | UTP-EVT-2026101113 | 2026-10-11T11:58:15.660331+00:00 | Sabitri Brata literary choice, story vow and collective reading/fruit sharing reconciled for existing draft review; nine/ten discrepancy preserved, no publication. | Sabitri Brata food sequence reconciled into draftPR145. Continue the next eligible saved-source field; preserve all14–18October textual, calendar and local-review holds. No publication inferred. |
 | UTP-EVT-2026101114 | 2026-10-11T14:33:52.021116+00:00 | Manabasa Gurubara digital textual witness and ritual/shared-food roles reconciled for existing draft review;1868 header remains quarantined, no publication. | Manabasa Gurubara food sequence reconciled into draftPR145. Continue the next eligible saved-source field; preserve all14–18October textual, calendar and local-review holds. No publication inferred. |
 | UTP-EVT-2026101116 | 2026-10-11T16:39:59.978800+00:00 | Sudasa supplementary rice/filling and textual offering-distribution instructions reconciled into existing draft; current household practice unknown. | Sudasa supplementary food passages reconciled into draftPR145. Continue the earliest eligible saved-source narrative gap; preserve14–18October textual, calendar and local-review holds. No publication inferred. |
@@ -984,6 +985,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101503 | 2026-10-14T22:39:54.983951+00:00 | Published Boat songs of Odisha and retained its matching KB narrative and source dossier. Verified17 paragraphs, four source links, collection and Explore discovery, noindex and eleven sitemap routes. Resumed item078 counted once after receipt; programme total82. | — |
 | UTP-EVT-2026101504 | 2026-10-14T23:23:29.702206+00:00 | Implemented URL-backed reading-room filters and safe result sharing. Tests and desktop/mobile/keyboard preview pass. Publication pending; completed count remains82. | — |
 | UTP-EVT-2026101505 | 2026-10-14T23:30:13.954132+00:00 | Published and live-verified bookmarkable/shareable reading-room searches. Item083 counted once after publication receipt; total83. All169 notes remain available; external-search selection unchanged. | — |
+| UTP-EVT-2026101506 | 2026-10-15T00:22:01.825418+00:00 | Prepared compact section navigation for121 long reading-room notes, with1082 validated anchors and keyboard/mobile review. Publication pending; completed count83. | — |
 
 ## Deferred extensions
 

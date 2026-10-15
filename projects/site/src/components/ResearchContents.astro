@@ -1,0 +1,19 @@
+---
+const {items}=Astro.props;
+---
+<details class="research-contents">
+ <summary>Sections in these notes</summary>
+ <nav aria-label="Sections in these notes">{items.map(item=><a href={item.href}>{item.title}</a>)}</nav>
+</details>
+<style>
+.research-contents{border-block:1px solid var(--line);margin:1.5rem 0 2rem}
+.research-contents summary{cursor:pointer;min-height:48px;padding:.7rem 0;color:var(--sea);font-weight:600}
+.research-contents nav{display:grid;padding:0 0 1rem;gap:.25rem}
+.research-contents a{display:block;min-height:44px;padding:.5rem 0;line-height:1.5;overflow-wrap:anywhere}
+.research-contents :is(summary,a):focus-visible{outline:3px solid var(--earth);outline-offset:3px}
+@media print{.research-contents{display:none}}
+</style>
+<script>
+import {bindStoryContents} from '../lib/story-contents.mjs';
+for(const details of document.querySelectorAll<HTMLDetailsElement>('.research-contents'))bindStoryContents(details,document);
+</script>
