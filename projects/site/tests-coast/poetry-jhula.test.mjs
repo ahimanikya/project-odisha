@@ -8,7 +8,7 @@ test('Jhula ships twelve sets and all original bag image resources with inline r
  assert.equal(images.length,24);
  for(const path of images)assert.ok(existsSync('dist-coast'+path),path);
  assert.match(html,/id="jhula-feedback"/);
- assert.match(html,/data-endpoint="https:\/\/odia-kabira-jhula\.aquera-1216\.chatgpt\.site\/api\/ratings"/);
+ assert.match(html,/data-storage="firebase"/);
  assert.equal([...html.matchAll(/name="rating-\d{2}"/g)].length,60);
  assert.equal([...html.matchAll(/name="comment-\d{2}"/g)].length,12);
  assert.equal([...html.matchAll(/name="favourite"/g)].length,12);
@@ -17,4 +17,6 @@ test('Jhula ships twelve sets and all original bag image resources with inline r
  assert.match(html,/90 cm along the exposed strap/);
  assert.doesNotMatch(html,/>[^<]*(?:Kabira|Kabi’s Kit)[^<]*</);
  assert.match(html,/noindex/);
+ assert.doesNotMatch(html,/View the original Jhula|The originals|aquera-1216/);
+ assert.equal([...html.matchAll(/See the bag on its own/g)].length,12);
 });
