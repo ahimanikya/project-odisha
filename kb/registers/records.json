@@ -5603,7 +5603,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Continue eligible substantive work sequentially under UTP-DEC-225; 98 of 500 evidenced items completed. Resume any in-progress item first.",
+      "next_action": "Continue eligible substantive work sequentially under UTP-DEC-225; 99 of 500 evidenced items completed. Resume any in-progress item first.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225"
@@ -8266,21 +8266,23 @@
       "id": "UTP-WORK-288",
       "title": "Continue Sounds reading paths from every story",
       "category": "website",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Create PR, pass required checks, merge reviewed head, publish approved main workflow and verify live before counting.",
+      "next_action": "Published and live-verified on all 21 stories. Future stories should reuse the chooser and remain covered by canonical reading paths.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225",
-        "UTP-REV-256"
+        "UTP-REV-256",
+        "UTP-REL-129"
       ],
       "evidence": [
         "research/product/sounds-reading-paths.json",
         "research/product/sounds-discovery.json",
-        "records/sound-story-paths-review-2026-10-15.json"
+        "records/sound-story-paths-review-2026-10-15.json",
+        "records/sound-story-paths-publication-2026-10-15.json"
       ],
       "acceptance_criteria": "Make the existing four Sounds reading paths available on every one of the 21 individual story pages. Show the current story and its path with accessible current-page state and canonical titles/URLs; allow cross-path continuation without returning to the long collection. Keep the chooser compact and keyboard-operable, retain existing core sequence and contextual links, preserve prose/source notes and search eligibility. Test all21 pages for complete coverage, single current state, valid destinations and unchanged narrative; inspect phone/desktop and keyboard journeys across core/further stories. Merge passing reviewed-head PR, deploy approved main workflow and save live receipt before counting."
     }
@@ -21281,6 +21283,22 @@
         "records/listening-notebook-expansion-publication-2026-10-15.json"
       ],
       "note": "Passing reviewed head merged and approved main workflow published. All 21 question texts and article URLs, four groups and downloadable text verified live; search eligibility unchanged."
+    },
+    {
+      "id": "UTP-REL-129",
+      "title": "Continue Sounds reading paths from every story",
+      "status": "published",
+      "authorization": "UTP-DEC-225",
+      "destination": "https://projectodisha.org/stories/boat-songs/#reading-paths",
+      "refs": [
+        "UTP-WORK-288",
+        "UTP-REV-256",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/sound-story-paths-publication-2026-10-15.json"
+      ],
+      "note": "Passing reviewed head merged and approved main workflow published. All 21 live stories verified for canonical chooser links, accurate current context and preserved narrative; search eligibility unchanged."
     }
   ],
   "sources": [
