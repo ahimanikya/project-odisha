@@ -8068,6 +8068,29 @@
         "records/jhula-inline-ratings-review-2026-10-15.json"
       ],
       "acceptance_criteria": "All twelve designs visible with optional 1–5 ratings, favourite and comments. Same-page save, restore, update and withdrawal; name optional; earlier shortlist ballots preserved; private feedback and clear errors."
+    },
+    {
+      "id": "UTP-WORK-285",
+      "title": "Prahlada Nataka: a story carried in song",
+      "category": "research_and_website",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Create PR, pass checks, merge reviewed head and publish through approved main workflow; verify live and save receipt before counting.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-REV-253"
+      ],
+      "evidence": [
+        "research/sources/danda-nata-research.json",
+        "research/culture/prahlada-nataka-website.json",
+        "research/sources/prahlada-nataka-research.json",
+        "records/prahlada-nataka-review-2026-10-15.json"
+      ],
+      "acceptance_criteria": "Research and publish a dedicated Prahlada Nataka Sounds further-reading article, with canonical KB narrative and source dossier. Reuse the saved Ganjam Gazetteer and inspect institutional evidence for musical storytelling, performance roles and attributed history. Distinguish the Prahlada narrative from documented theatre history and Danda Nata; no invented fieldwork, audio or present-day event offer. Connect collection, Explore and a reading path; preserve eight core chapters and existing external-search eligibility. Complete factual review, tests, responsive/navigation checks, passing reviewed-head PR, approved main deployment and actual live receipt before counting."
     }
   ],
   "decisions": [
@@ -18566,6 +18589,27 @@
       "limitations": [
         "Same-assistant review; no identity verification. Browser storage needed for later revision.",
         "Earlier shortlist votes preserved separately; not automatically combined with ratings."
+      ]
+    },
+    {
+      "id": "UTP-REV-253",
+      "title": "Prahlada Nataka research and website review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-285"
+      ],
+      "evidence": [
+        "records/prahlada-nataka-review-2026-10-15.json"
+      ],
+      "limitations": [
+        "Same-assistant editorial and implementation review; no independent human, practitioner or screen-reader review.",
+        "Approximate composition dates differ; no original manuscript or early edition inspected. A scheduled lecture abstract is not evidence of its delivery.",
+        "No audio, lyrics or source imagery republished; present-day practice and musical transmission remain research follow-up."
       ]
     }
   ],
