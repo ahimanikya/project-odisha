@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `ff5a96f675282e3a1ede70d78d1d6bba69f8c0206d7d37df82ca5ea8fdaac94d`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `182b568d7945c21ce1c139b09c305ba6069f2bbce0bf0181b9a641446bb92265`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -199,7 +199,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
-| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue eligible substantive work sequentially under UTP-DEC-225; 92 of 500 evidenced items completed. Resume any in-progress item first. | — |
+| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue eligible substantive work sequentially under UTP-DEC-225; 93 of 500 evidenced items completed. Resume any in-progress item first. | — |
 | UTP-WORK-190 · Food discovery, portable reading collection and current review-queue repair | completed | published | Ahimanikya Satapathy | Published and live-verified. Continue through the program queue under DEC225. | — |
 | UTP-WORK-191 · Build the tourism opportunities information section | completed | reviewed | Ahimanikya Satapathy | Published information scope complete. Continue WORK166 and WORK171 only when new documentary or operating evidence is available. | — |
 | UTP-WORK-192 · Align saved food cards with canonical story introductions | completed | reviewed | Ahimanikya Satapathy | Repair published and live catalogue verified; preserve canonical food fields when future stories change. | — |
@@ -293,7 +293,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-279 · Research and publish a Ranapa Sounds article | completed | published | Ahimanikya Satapathy | Published and live-verified. Full2014PDF recovery, practitioner interviews and audio remain separate research gaps. | — |
 | UTP-WORK-280 · Connect sound-story passages to their source notes | completed | published | Ahimanikya Satapathy | Published and live-verified. Other article formats require their own checked section-source mappings before extending this navigation. | — |
 | UTP-WORK-281 · Section navigation for the eight core Sounds of Odisha stories | completed | published | Ahimanikya Satapathy | Published and live-verified. Preserve the section fragment targets when editing these stories; independent accessibility review remains follow-up. | — |
-| UTP-WORK-282 · Chaiti Ghoda: a horse carried by song | in_progress | draft | Ahimanikya Satapathy | Publish passing reviewed head through approved main workflow and verify live output before counting. | — |
+| UTP-WORK-282 · Chaiti Ghoda: a horse carried by song | completed | published | Ahimanikya Satapathy | Published and live-verified. Practitioner-led names, teaching histories and text/recording permissions remain follow-up; no outreach initiated. | — |
 
 ## Pending human review and decisions
 
@@ -966,6 +966,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-120 · Ranapa Sounds of Odisha article and KB narrative | published | https://projectodisha.org/stories/ranapa/ | UTP-DEC-225 |
 | UTP-REL-121 · Passage-to-source navigation in three sound stories | published | https://projectodisha.org/stories/mahuri/ | UTP-DEC-225 |
 | UTP-REL-122 · Section navigation in eight core sound stories | published | https://projectodisha.org/sounds-of-odisha/huluhuli/ | UTP-DEC-225 |
+| UTP-REL-123 · Chaiti Ghoda: a horse carried by song | published | https://projectodisha.org/stories/chaiti-ghoda/ | UTP-DEC-225 |
 
 ## Sources and assets
 
@@ -1003,7 +1004,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101515 | 2026-10-15T04:40:44.906406+00:00 | Published Sounds further-reading section with seven canonical article introductions and early jump. Live cards, destinations, eight core chapters and eleven sitemap entries verified. Item088 counted once after receipt; total88. | — |
 | UTP-EVT-2026101516 | 2026-10-15T05:38:52.099000+00:00 | Prepared Mahuri narrative, five-source dossier and Sounds further-reading page. Construction variants, acquisition/origin distinction and three regional contexts reviewed; keyboard/phone layout and Muhuri discovery verified. Publication pending; total88. | — |
 | UTP-EVT-2026101517 | 2026-10-15T05:49:08.616649+00:00 | Published Mahuri article with canonical KB narrative and five-source dossier. Thirteen paragraphs, five citations and Sounds discovery verified live. Eight core chapters and eleven sitemap entries retained. Item089 counted once after receipt; total89. | — |
 | UTP-EVT-2026101518 | 2026-10-15T06:43:18.948114+00:00 | Reviewed Ranapa public narrative and source dossier; four source notes, canonical discovery and phone/desktop reading verified. Indexed-only2014 retrieval explicitly disclosed. Await publication receipt; total remains89. | — |
@@ -1013,6 +1013,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101522 | 2026-10-15T08:54:49.752964+00:00 | Reviewed section and source navigation across eight core Sounds stories. Keyboard, phone and desktop checks pass; publication pending. Count remains 91. | — |
 | UTP-EVT-2026101523 | 2026-10-15T09:04:25.770371+00:00 | Published section navigation in eight core sound stories. 50 links verified live; source caveats, credits and full prose retained. Item 092 counted after receipt; total 92. | — |
 | UTP-EVT-2026101524 | 2026-10-15T09:47:15.779530+00:00 | Reviewed Chaiti Ghoda narrative, dated source evidence and website integration; publication pending, count remains 92. | — |
+| UTP-EVT-2026101525 | 2026-10-15T09:58:14.818481+00:00 | Published Chaiti Ghoda dedicated story and KB source dossier. Full narrative and three sources verified live; dated evidence and legend limits retained. Item 093 counted after receipt; total 93. | — |
 
 ## Deferred extensions
 
