@@ -19,3 +19,19 @@ test('existing traveller and investor snapshot permissions preserved',async()=>{
 test('name required while email and phone remain optional',async()=>{const r=doc(db('details'),'jhulaRatings','details');for(const name of ['', '   ', '\t\r\n'])await assertFails(setDoc(r,{...data(),name}));await assertSucceeds(setDoc(r,{...data(),name:'ରବି'}));await assertSucceeds(setDoc(r,{...data(),email:'test@example.com',phone:'+91 00000 00000'}));await assertFails(setDoc(r,{...data(),email:'not-an-email'}));await assertFails(setDoc(r,{...data(),phone:'1'.repeat(41)}));});
 test('additional choices alone can be rated and selected as favourite',async()=>{const d=data();d.ratings[0]=0;d.ratings[17]=4;d.favourite='18';await assertSucceeds(setDoc(doc(db('additional'),'jhulaRatings','additional'),d));});
 test('old twelve-choice response remains readable and can be upgraded',async()=>{await env.withSecurityRulesDisabled(async c=>{const old=data();delete old.schemaVersion;delete old.email;delete old.phone;old.name='';old.entries=Object.fromEntries(ids.slice(0,12).map((id,i)=>[id,{rating:old.ratings[i],comment:old.comments[i]}]));delete old.ratings;delete old.comments;await setDoc(doc(c.firestore(),'jhulaRatings','legacy'),old);});const r=doc(db('legacy'),'jhulaRatings','legacy');await assertSucceeds(getDoc(r));await assertSucceeds(setDoc(r,data()));});
+
+test('autosave accepts preferences without identity or comments, including clearing every rating',async()=>{
+ const ref=doc(db('auto'),'jhulaPreferences','auto');
+ const p={schemaVersion:1,ratings:ids.map(()=>0),favourite:'',kit:'unsure',updatedAt:serverTimestamp()};
+ await assertSucceeds(setDoc(ref,p));p.ratings[17]=5;await assertSucceeds(setDoc(ref,p));await assertSucceeds(getDoc(ref));
+ await assertFails(setDoc(ref,{...p,name:'Unsubmitted name'}));await assertFails(setDoc(ref,{...p,comment:'Unsubmitted draft'}));
+ p.ratings[0]=6;await assertFails(setDoc(ref,p));p.ratings[0]=0;p.ratings.pop();await assertFails(setDoc(ref,p));
+ await assertFails(getDoc(doc(db('someone'),'jhulaPreferences','auto')));await assertFails(setDoc(doc(db('someone'),'jhulaPreferences','auto'),p));await assertFails(deleteDoc(doc(db('someone'),'jhulaPreferences','auto')));
+ await assertFails(getDocs(collection(db('auto'),'jhulaPreferences')));await assertSucceeds(deleteDoc(ref));
+});
+test('new comment submission requires name and either valid email or phone, but no rating',async()=>{
+ const ref=doc(db('contact'),'jhulaRatings','contact'),d={...data(),schemaVersion:3,ratings:ids.map(()=>0)};
+ await assertFails(setDoc(ref,d));await assertFails(setDoc(ref,{...d,email:'invalid'}));await assertFails(setDoc(ref,{...d,phone:'       '}));
+ await assertSucceeds(setDoc(ref,{...d,email:'visitor@example.com'}));await assertSucceeds(setDoc(ref,{...d,phone:'+91 98765 43210'}));
+ await assertFails(setDoc(ref,{...d,name:'',email:'visitor@example.com'}));
+});

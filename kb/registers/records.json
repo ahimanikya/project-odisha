@@ -8139,20 +8139,40 @@
       "id": "UTP-WORK-2026101505",
       "title": "Eighteen complete Jhula choices with inclusive styling",
       "category": "website",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current merchandise assistant",
       "authorization": "UTP-DEC-2026101506",
-      "next_action": "Publish and verify expanded Firebase survey and three new image boards.",
+      "next_action": "User may share saved invitation when ready; no messages sent.",
       "blockers": [],
       "refs": [
         "UTP-DEC-2026101506"
       ],
       "evidence": [
-        "records/jhula-eighteen-review-2026-10-15.json"
+        "records/jhula-eighteen-review-2026-10-15.json",
+        "records/jhula-eighteen-publication-2026-10-15.json"
       ],
       "acceptance_criteria": "18 voting cards; six complete additional kits; required name; optional email/phone; existing responses retained; male Poet’s Classic T-shirt and ivory panjabi styling."
+    },
+    {
+      "id": "UTP-WORK-2026101506",
+      "title": "Nostalgic Jhula story and automatic ratings",
+      "category": "website",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current merchandise assistant",
+      "authorization": "UTP-DEC-2026101507",
+      "next_action": "Complete browser review and publish the revised story and autosave behavior.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-2026101507"
+      ],
+      "evidence": [
+        "records/jhula-story-autosave-review-2026-10-15.json"
+      ],
+      "acceptance_criteria": "Attributed Odia quote; poetic nostalgic narrative; automatic ratings with no contact gate; explicitly submitted comments with name and email or phone; old responses preserved; no AI labels or storage explanation in page."
     },
     {
       "id": "UTP-WORK-286",
@@ -12897,6 +12917,25 @@
       ],
       "evidence": [
         "records/jhula-eighteen-review-2026-10-15.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-2026101507",
+      "title": "Poetic Jhula story and automatic ratings",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Find an Odia poetry quote; fine-tune the story and fix formatting. Make the narrative poetic and nostalgic. Remove storage explanation and Ready message. Auto-save ratings; submit only comments with name details. Phone or Email, one way to reach back. Fix the voice section. Do not mention AI-created anywhere in the page.",
+      "scope": "Revise and publish the existing Jhula page and its feedback behavior; preserve image provenance in project records.",
+      "recorded_at": "2026-10-15T14:00:48.973005+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-2026101506"
+      ],
+      "evidence": [
+        "records/jhula-story-autosave-review-2026-10-15.json"
       ]
     }
   ],
@@ -18796,6 +18835,25 @@
       ]
     },
     {
+      "id": "UTP-REV-2026101505",
+      "title": "Eighteen-choice survey and styling review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current merchandise assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-2026101505"
+      ],
+      "evidence": [
+        "records/jhula-eighteen-publication-2026-10-15.json"
+      ],
+      "limitations": [
+        "AI concept images require physical sampling; anonymous browser identity does not establish one person one vote."
+      ]
+    },
+    {
       "id": "UTP-REV-254",
       "title": "Dhuduki article and source review",
       "status": "pass_with_limitations",
@@ -20946,6 +21004,20 @@
       ],
       "evidence": [
         "records/jhula-additional-gallery-publication-2026-10-15.json"
+      ]
+    },
+    {
+      "id": "UTP-REL-2026101505",
+      "title": "Eighteen Jhula choices and male styling published",
+      "status": "published",
+      "authorization": "UTP-DEC-2026101506",
+      "destination": "https://projectodisha.org/odia-poetry-jhula/",
+      "refs": [
+        "UTP-WORK-2026101505",
+        "UTP-REV-2026101505"
+      ],
+      "evidence": [
+        "records/jhula-eighteen-publication-2026-10-15.json"
       ]
     },
     {
