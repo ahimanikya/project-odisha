@@ -1,0 +1,105 @@
+{
+  "recorded_at": "2026-10-15T04:40:44.906406+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-088",
+  "work_id": "UTP-WORK-277",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/251",
+  "reviewed_head": "05be83506bbabc68a3a19849b83261e082899b51",
+  "merge_commit": "27ca7681175af40abb01aa10180bc485e161a5e9",
+  "merged_at": "2026-10-15T04:36:49Z",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "05be83506bbabc68a3a19849b83261e082899b51",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38682093387"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "27ca7681175af40abb01aa10180bc485e161a5e9",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38682405449",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-15T04:40:30.012182+00:00",
+    "page": "https://projectodisha.org/sounds-of-odisha/",
+    "http_status": 200,
+    "sha256": "d645a842a211167bdfca0e812919e3e2bb8b6d580dd10cabaa000ec82dec5493",
+    "reading_cards": [
+      {
+        "url": "https://projectodisha.org/stories/gotipua/",
+        "status": 200,
+        "title": "Gotipua: beyond the acrobatic moment",
+        "canonical_title_and_lead": true
+      },
+      {
+        "url": "https://projectodisha.org/stories/odia-lullabies/",
+        "status": 200,
+        "title": "Odia lullabies and the songs of childhood",
+        "canonical_title_and_lead": true
+      },
+      {
+        "url": "https://projectodisha.org/stories/craft-listening/",
+        "status": 200,
+        "title": "Listening to craft through Kotpad",
+        "canonical_title_and_lead": true
+      },
+      {
+        "url": "https://projectodisha.org/stories/chilika-listening/",
+        "status": 200,
+        "title": "Listening to Chilika",
+        "canonical_title_and_lead": true
+      },
+      {
+        "url": "https://projectodisha.org/stories/boat-songs/",
+        "status": 200,
+        "title": "Boat songs of Odisha",
+        "canonical_title_and_lead": true
+      },
+      {
+        "url": "https://projectodisha.org/stories/kendara/",
+        "status": 200,
+        "title": "Kendara and the travelling song",
+        "canonical_title_and_lead": true
+      },
+      {
+        "url": "https://projectodisha.org/stories/ghumura/",
+        "status": 200,
+        "title": "Ghumura: the drum carried into the dance",
+        "canonical_title_and_lead": true
+      }
+    ],
+    "early_jump": true,
+    "core_chapters_and_sources_unchanged": 8,
+    "listening_care_retained": true,
+    "noindex": true,
+    "sitemap_entries": 11,
+    "browser": "Published desktop collection jump and seven-card section inspected. Local320/390px responsive layout, keyboard card/return navigation and Sounds search returning17entries also verified.",
+    "screenshot": "/tmp/sounds-browse-live.png"
+  },
+  "outputs": [
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha.astro",
+      "sha256": "7149e3677b0aef50dd7733b710230d6d5c5ea807cf0e358646bc09cfcc507e21",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/tests-coast/sounds-further-reading.test.mjs",
+      "sha256": "bbe19d4d1137009e3e952047d038c219e0e9510d18853366f470679e50bf2c8c",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/product/sounds-browse.json",
+      "sha256": "e701f0b4994d09e7f5e276b9884f53b4db216916eb2075f3567e8be9a682d1cc",
+      "matches_fetched_merge": true
+    }
+  ],
+  "review": "records/sounds-browse-review-2026-10-15.json",
+  "limitations": [
+    "No independent human review, physical-device or screen-reader certification.",
+    "No new factual research, audio, practitioner confirmation or expanded search eligibility."
+  ],
+  "attachment": "App attachment attempted; thread attachment identity count exceeds100. PR URL retained."
+}

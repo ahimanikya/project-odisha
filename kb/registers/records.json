@@ -5603,7 +5603,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Continue eligible substantive work sequentially under UTP-DEC-225;87 of500 evidenced items completed. Resume any in-progress item first.",
+      "next_action": "Continue eligible substantive work sequentially under UTP-DEC-225;88 of500 evidenced items completed. Resume any in-progress item first.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225"
@@ -7835,22 +7835,24 @@
       "id": "UTP-WORK-277",
       "title": "Improve Sounds collection further-reading discovery",
       "category": "website_experience",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Publish passing reviewed-head PR, then verify seven live reading cards and save receipt.",
+      "next_action": "Published and live-verified. Existing article research and recording gaps remain separate follow-up work.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225",
         "UTP-WORK-075",
-        "UTP-REV-245"
+        "UTP-REV-245",
+        "UTP-REL-118"
       ],
       "evidence": [
         "research/product/sounds-discovery.json",
         "research/product/sounds-browse.json",
-        "records/sounds-browse-review-2026-10-15.json"
+        "records/sounds-browse-review-2026-10-15.json",
+        "records/sounds-browse-publication-2026-10-15.json"
       ],
       "acceptance_criteria": "Make all seven published Sounds further-reading stories browsable from a distinct collection section with canonical titles and introductions, plus an early jump link. Replace the growing title-only list embedded in listening guidance. Reuse existing discovery records; preserve eight core chapters, article text/citations, listening-care guidance and eleven search-eligible pages. Verify complete nonduplicated story coverage, working anchors/links, keyboard use and phone/desktop layout; publish through a passing reviewed-head PR and approved main workflow, then save live receipt before counting once."
     }
@@ -20055,6 +20057,22 @@
         "records/ghumura-publication-2026-10-15.json"
       ],
       "note": "PR250 passing reviewed head merged and approved main workflow published.13 paragraphs,6 sources,section navigation and Kalahandi Explore discovery verified live."
+    },
+    {
+      "id": "UTP-REL-118",
+      "title": "Sounds collection further-reading discovery",
+      "status": "published",
+      "authorization": "UTP-DEC-225",
+      "destination": "https://projectodisha.org/sounds-of-odisha/#further-reading",
+      "refs": [
+        "UTP-WORK-277",
+        "UTP-REV-245",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/sounds-browse-publication-2026-10-15.json"
+      ],
+      "note": "PR251 passing reviewed head merged and approved main workflow published. Seven canonical reading cards, destination pages, core chapters and retained11-route sitemap verified live."
     }
   ],
   "sources": [
