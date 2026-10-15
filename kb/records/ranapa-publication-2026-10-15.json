@@ -1,0 +1,74 @@
+{
+  "recorded_at": "2026-10-15T06:50:33.712829+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-090",
+  "work_id": "UTP-WORK-279",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/253",
+  "reviewed_head": "7dfa1333ff67f9053656f63281337162f63c4dcd",
+  "merge_commit": "167d063b8c6960afbfda08a480e31aa40552eef7",
+  "merged_at": "2026-10-15T06:47:19Z",
+  "validation": {
+    "conclusion": "success",
+    "databaseId": 38694162026,
+    "headSha": "7dfa1333ff67f9053656f63281337162f63c4dcd",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38694162026"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "databaseId": 38694534646,
+    "headSha": "167d063b8c6960afbfda08a480e31aa40552eef7",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38694534646",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-15T06:50:12.207106+00:00",
+    "page": "https://projectodisha.org/stories/ranapa/",
+    "http_status": 200,
+    "page_sha256": "f280211bf1e3debeb36823757b237f587d343ac099371334903e502f04121634",
+    "paragraphs_verified": 12,
+    "sources_verified": 4,
+    "section_links": 5,
+    "collection_and_explore": {
+      "/sounds-of-odisha/": 200,
+      "/explore/": 200
+    },
+    "core_chapters": 8,
+    "noindex": true,
+    "sitemap_entries": 11,
+    "browser": "Published desktop article inspected and source navigation verified. Local390px layout, keyboard contents/source disclosure and Ranappa search returning one story verified.",
+    "screenshot": "/tmp/ranapa-live.png"
+  },
+  "outputs": [
+    {
+      "path": "projects/site/src/pages/stories/ranapa.astro",
+      "sha256": "0bf79e96218a42814a6f2373475f5889ef9f8bde06645392e5dcbb81033c1171",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/culture/ranapa-website.json",
+      "sha256": "7aa7534b124bc29d7890de6b216e59901a6782bd3edc76db192694b9640df045",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/sources/ranapa-research.json",
+      "sha256": "1582694fad5fe2ef12e1472b684cda6d66e1cb7c957a2bf33be5e88a364765b8",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/product/sounds-discovery.json",
+      "sha256": "c9f98d4daa8c0898a7e9ca79542cb2f3c441439859a916b319ec56d6fa76657c",
+      "matches_fetched_merge": true
+    }
+  ],
+  "review": "records/ranapa-review-2026-10-15.json",
+  "limitations": [
+    "Same-assistant factual and implementation review; no independent human, practitioner or screen-reader review.",
+    "2014 sound context comes from inspected search-indexed passage; complete PDF retrieval failed. Full text and historical foundations remain a research gap.",
+    "No founding date, universal accompaniment, current performance booking, audio or fieldwork established."
+  ],
+  "attachment": "App attachment attempted; thread attachment identity count exceeds100. PR URL retained."
+}
