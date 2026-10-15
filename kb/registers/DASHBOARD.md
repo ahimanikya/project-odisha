@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `9665179e6565765cf52d38edc4222307494195a0979f480b4869a1b77cde79c7`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `4e6f0d6c54c7d7441acddb46e59827ad739850a4a2e9e32d6fa3aceb425b9a44`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -296,7 +296,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-282 · Chaiti Ghoda: a horse carried by song | completed | published | Ahimanikya Satapathy | Published and live-verified. Practitioner-led names, teaching histories and text/recording permissions remain follow-up; no outreach initiated. | — |
 | UTP-WORK-283 · Choose a reading path through Sounds of Odisha | completed | published | Ahimanikya Satapathy | Published and live-verified. Maintain path coverage when adding a sound story; independent user accessibility review remains wider follow-up. | — |
 | UTP-WORK-284 · Danda Nata: listening beyond the stage | completed | published | Ahimanikya Satapathy | Published and live-verified. Practitioner-led names, teaching histories and text/recording permissions remain follow-up; no outreach initiated. | — |
-| UTP-WORK-2026101501 · Odia Poetry Jhula native story and survey handoff | in_progress | reviewed | Ahimanikya Satapathy | Validate, review and publish the native page; preserve the existing survey database. | — |
+| UTP-WORK-2026101501 · Odia Poetry Jhula native story and survey handoff | completed | published | Ahimanikya Satapathy | Published and live-verified. Sharing remains deferred by user. | — |
 
 ## Pending human review and decisions
 
@@ -976,6 +976,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-123 · Chaiti Ghoda: a horse carried by song | published | https://projectodisha.org/stories/chaiti-ghoda/ | UTP-DEC-225 |
 | UTP-REL-124 · Four reading paths through Sounds of Odisha | published | https://projectodisha.org/sounds-of-odisha/#reading-paths | UTP-DEC-225 |
 | UTP-REL-125 · Danda Nata: listening beyond the stage | published | https://projectodisha.org/stories/danda-nata/ | UTP-DEC-225 |
+| UTP-REL-2026101501 · Odia Poetry Jhula native page | published | https://projectodisha.org/odia-poetry-jhula/ | UTP-DEC-2026101502 |
 
 ## Sources and assets
 
@@ -1013,7 +1014,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101521 | 2026-10-15T07:55:46.110263+00:00 | Published source navigation in three sound stories. 21 passage links and 15 notes verified live; source caveats and full prose retained. Item 091 counted after receipt; total 91. | — |
 | UTP-EVT-2026101522 | 2026-10-15T08:54:49.752964+00:00 | Reviewed section and source navigation across eight core Sounds stories. Keyboard, phone and desktop checks pass; publication pending. Count remains 91. | — |
 | UTP-EVT-2026101523 | 2026-10-15T09:04:25.770371+00:00 | Published section navigation in eight core sound stories. 50 links verified live; source caveats, credits and full prose retained. Item 092 counted after receipt; total 92. | — |
 | UTP-EVT-2026101524 | 2026-10-15T09:47:15.779530+00:00 | Reviewed Chaiti Ghoda narrative, dated source evidence and website integration; publication pending, count remains 92. | — |
@@ -1023,6 +1023,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101528 | 2026-10-15T11:44:19.527421+00:00 | Prepared Danda Nata further-reading article with attributed ritual, theatre, ensemble and uncertain origin account. Tests and responsive/source-link review pass; publication pending. No independent human review claimed. | — |
 | UTP-EVT-2026101529 | 2026-10-15T11:53:26.455055+00:00 | Published Danda Nata dedicated story and KB source dossier. Full narrative and two sources verified live; attributed ritual, theatre and origin limits retained. Item 095 counted after receipt; total 95. | — |
 | UTP-ACT-2026101501 | 2026-10-15T12:12:19.943923+00:00 | Prepared Founder-requested Odia Poetry Jhula page and preserved existing survey origin. | — |
+| UTP-EVT-2026101590 | 2026-10-15T12:26:31.099437+00:00 | Published and browser-verified Odia Poetry Jhula with twelve sets and existing survey handoff. | — |
 
 ## Deferred extensions
 
