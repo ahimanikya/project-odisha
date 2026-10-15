@@ -1,0 +1,94 @@
+{
+  "recorded_at": "2026-10-15T14:06:07.868877+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-097",
+  "work_id": "UTP-WORK-286",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/265",
+  "reviewed_head": "3fcf8762057693fca1013d352ce0f0bcc0337272",
+  "merge_commit": "bfb3eb82771e959821a57d8d52b0dd810a40f1da",
+  "merged_at": "2026-10-15T13:59:47Z",
+  "validation": {
+    "conclusion": "success",
+    "createdAt": "2026-10-15T13:56:26Z",
+    "databaseId": 38746997574,
+    "headSha": "3fcf8762057693fca1013d352ce0f0bcc0337272",
+    "status": "completed",
+    "updatedAt": "2026-10-15T13:59:19Z",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38746997574"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "createdAt": "2026-10-15T14:00:06Z",
+    "databaseId": 38747517189,
+    "headSha": "bfb3eb82771e959821a57d8d52b0dd810a40f1da",
+    "status": "completed",
+    "updatedAt": "2026-10-15T14:04:52Z",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38747517189",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-15T14:05:26.988507+00:00",
+    "pages": [
+      {
+        "url": "https://projectodisha.org/stories/dhuduki/",
+        "status": 200,
+        "sha256": "9958358da80a289e00f1992f9b99f05b35fafc905489d37eb2d784ab51b0e117"
+      },
+      {
+        "url": "https://projectodisha.org/sounds-of-odisha/",
+        "status": 200,
+        "sha256": "381189c22c3e8602a04690933cd2faea521ac9c1bfb095b35b96f52536f9dc5d"
+      },
+      {
+        "url": "https://projectodisha.org/explore/",
+        "status": 200,
+        "sha256": "85843a2e2e23d8164a31e086f3bb943e61b9d22da10a23fbcf3fe36923259e46"
+      },
+      {
+        "url": "https://projectodisha.org/sounds-of-odisha/",
+        "status": 200,
+        "sha256": "381189c22c3e8602a04690933cd2faea521ac9c1bfb095b35b96f52536f9dc5d"
+      },
+      {
+        "url": "https://projectodisha.org/sitemap.xml",
+        "status": 200,
+        "sha256": "65430f0063cd4750794ff628e88549f0e252c485acfef118edce08b13fbf49bd"
+      }
+    ],
+    "canonical_paragraphs": 11,
+    "sources": 4,
+    "discovery": "Sounds collection, instrument reading path and Explore include dedicated route",
+    "indexable_routes": 11,
+    "robots": "noindex, follow",
+    "limitations": "HTTP response and canonical text checks do not constitute practitioner or independent human review.",
+    "browser": "Local phone and desktop checked; keyboard source navigation and Explore query passed. Live article visually verified.",
+    "screenshot": "/tmp/dhuduki-live.png",
+    "initial_attempt": "An early HTTP check while deployment was still in progress returned404. After workflow success, all recorded live checks passed."
+  },
+  "outputs": [
+    {
+      "path": "kb/research/culture/dhuduki-website.json",
+      "sha256": "42b886751efe4cf5eb6d4345940b63bc15acd149516ce9186b6c0b8c5fd12ccf",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/sources/dhuduki-research.json",
+      "sha256": "302a97b049099100f1c3dca97703e7ec1199d34f92e58316b55aaf61dc0c0bfe",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/stories/dhuduki.astro",
+      "sha256": "f177f8694ff8ca6cdc3239dceeaa2e0549a6ce5fd4ffcbc84657291da82b036c",
+      "matches_fetched_merge": true
+    }
+  ],
+  "review": "records/dhuduki-review-2026-10-15.json",
+  "limitations": [
+    "Same-assistant review; no independent human, practitioner or screen-reader review.",
+    "Construction evidence is an attributed cultural essay, not instrument examination. CCRT access limited to indexed page text.",
+    "No founding chronology, present performance offer, audio or lyrics claimed."
+  ],
+  "attachment": "App attachment attempted; thread attachment identity count exceeds 100. PR URL retained."
+}
