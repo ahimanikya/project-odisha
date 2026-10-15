@@ -11,7 +11,7 @@ test('reading paths connect every published sound story once with canonical titl
  assert.ok(section);assert.equal(config.paths.length,4);
  const ids=config.paths.flatMap(p=>p.stories);assert.equal(new Set(ids).size,ids.length);
  assert.deepEqual([...ids].sort(),entries.filter(e=>!['collection','notebook'].includes(e.id)).map(e=>e.id).sort());
- const links=[...section.matchAll(/href="([^"]+)"/g)].map(m=>m[1]);assert.equal(links.length,18);
+ const links=[...section.matchAll(/href="([^"]+)"/g)].map(m=>m[1]);assert.equal(links.length,19);
  for(const id of ids){const entry=entries.find(e=>e.id===id),story=JSON.parse(read('../../kb/'+entry.source));assert.ok(links.includes(entry.href));assert.ok(decode(section).includes(story.title));assert.ok(existsSync('dist-coast'+entry.href+'index.html'));}
  for(const group of config.paths){assert.ok(section.includes('id="reading-path-'+group.id+'"'));assert.ok(section.includes(group.question));}
 });
