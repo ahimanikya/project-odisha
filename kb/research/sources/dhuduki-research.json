@@ -1,0 +1,90 @@
+{
+  "title": "Dhuduki: a string beneath the story",
+  "reviewed_at": "2026-10-15T13:52:50.574198+00:00",
+  "kind": "desk_research",
+  "human_review_claimed": false,
+  "canonical_narrative": "research/culture/dhuduki-website.json",
+  "reuse": [
+    "research/sources/sankha-research.md",
+    "research/sources/ghumura-research.json",
+    "research/product/sounds-discovery.json"
+  ],
+  "coverage_gap": "Research-map query and KB search for Dhuduki, Ghuduki and Dhudki found no dedicated narrative. Existing AIR and CCRT publication identities reused for new passages.",
+  "sources": [
+    {
+      "id": "dhuduki-heritage-theatre",
+      "title": "Heritage Odisha — Traditional People",
+      "resource": "https://heritageodisha.com/traditional-people/",
+      "locator": "Ghudiki (or Dhuduki) Nabaranga Nata section, three paragraphs. Descriptive cultural essay on the J K Dash website; publication date and original essay authorship not established. Construction and theatre roles attributed to this account, not independently observed."
+    },
+    {
+      "id": "sankha-air-cuttack",
+      "title": "Prasar Bharati — AIR Cuttack music artist roster",
+      "resource": "https://prasarbharati.gov.in/wp-content/uploads/music_artists/aircuttack.pdf",
+      "locator": "Printed/PDF pp.39–40, Dhuduki Geeta table; Alok Bishoyi and party on p.39 with audition date 2 March 2015. PDF text and images inspected. Reuses the roster identity cited in Sankha research; publication date not established."
+    },
+    {
+      "id": "dhuduki-nayagarh-culture",
+      "title": "Nayagarh district administration — Art & Culture",
+      "resource": "https://nayagarh.odisha.gov.in/en/tourism-art-and-culture",
+      "locator": "Folk-dance list: Ghuduki (Ranapur). Page text read 15 October 2026; footer says last updated 10 June 2026. A locality association, not a performance schedule or origin claim."
+    },
+    {
+      "id": "ghumura-ccrt-report",
+      "title": "Tribal and Traditional Folk Dance of Odisha — CCRT-hosted fellowship report",
+      "resource": "https://ccrtindia.gov.in/wp-content/fellowship_research_project/TribalandTraditionalFolkDanceofOdisha.pdf",
+      "locator": "Printed p.32, Patara Saura dance in the Gunpur region of Rayagada: Ghuduki named as an accompanying instrument. Indexed page passage inspected; complete PDF download timed out. Report date not established. Same publication identity as the Ghumura research, different passage."
+    }
+  ],
+  "section_mapping": [
+    {
+      "section": "Opening",
+      "source_ids": [
+        "dhuduki-heritage-theatre"
+      ]
+    },
+    {
+      "section": "An instrument inside the theatre",
+      "source_ids": [
+        "dhuduki-heritage-theatre"
+      ]
+    },
+    {
+      "section": "A name in a broadcaster’s record",
+      "source_ids": [
+        "sankha-air-cuttack"
+      ]
+    },
+    {
+      "section": "Keep the place with the name",
+      "source_ids": [
+        "dhuduki-nayagarh-culture",
+        "ghumura-ccrt-report"
+      ]
+    },
+    {
+      "section": "A history to investigate through people",
+      "source_ids": []
+    }
+  ],
+  "retrieval": {
+    "air": "Downloaded official PDF with certificate validation; SHA256 a33a42fd9a72bd8ead2c65b35ff7be07ba1633be43f0a75d7e34eb8a8c945889. Text and page images 39–40 inspected.",
+    "heritage": "Full HTML section read via web retrieval; non-institutional cultural essay attributed explicitly.",
+    "nayagarh": "Official Art & Culture HTML read through web retrieval. Gazetteer download failed DNS; glossary search snippet not used as a source.",
+    "ccrt": "Indexed p.32 passage read; web open failed and full download timed out. Not presented as full PDF inspection.",
+    "unused": "NSD annual-report indexed lead found, but direct URL returned404 and web open challenge. Not used. Performer register contact details not copied."
+  },
+  "claim_boundaries": [
+    "Construction account is attributed to Heritage Odisha; not an organological measurement or independent examination.",
+    "Spelling variants are preserved from named sources; no claim that all similarly named regional practices are identical.",
+    "AIR audition date is neither broadcast date nor origin date.",
+    "Locality associations do not establish birthplace or universal distribution.",
+    "No caste-origin, ancient continuity, animal-material specification or current troupe count asserted.",
+    "No audio, lyrics, translations or source imagery republished."
+  ],
+  "future_research": [
+    "Inspect an instrument with its maker and document construction and playing technique.",
+    "Identify a credited recording and repertoire with practitioner interpretation and permissions.",
+    "Compare Ghuduki Nabaranga Nata with the separately described Patara Saura context without conflating them."
+  ]
+}

@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `8695118a4ad08dd9628913e307df179d4b89947630221f39b738df4e8ad2a5fe`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `d6c867fbfbdd6f9c22a2ae8325afc682c9fe551863b07292903d3243a4470afa`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -302,6 +302,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026101503 · Firebase-backed inline Jhula ratings | completed | published | Ahimanikya Satapathy | Firebase voting live and verified; invitation remains held for user. | — |
 | UTP-WORK-2026101504 · Additional Jhula concept gallery without voting | completed | published | Ahimanikya Satapathy | Six additional choices live, outside voting. | — |
 | UTP-WORK-2026101505 · Eighteen complete Jhula choices with inclusive styling | in_progress | reviewed | Ahimanikya Satapathy | Publish and verify expanded Firebase survey and three new image boards. | — |
+| UTP-WORK-286 · Dhuduki: a string beneath the story | in_progress | reviewed | Ahimanikya Satapathy | Create PR, pass required checks, merge reviewed head, publish approved main workflow and verify live before counting. | — |
 
 ## Pending human review and decisions
 
@@ -858,6 +859,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-253 | pass_with_limitations | False | Same-assistant editorial and implementation review; no independent human, practitioner or screen-reader review.; Approximate composition dates differ; no original manuscript or early edition inspected. A scheduled lecture abstract is not evidence of its delivery.; No audio, lyrics or source imagery republished; present-day practice and musical transmission remain research follow-up. |
 | UTP-REV-2026101503 | pass_with_limitations | False | Anonymous browser session, not verified one-person-one-vote.; Earlier survey responses preserved separately. |
 | UTP-REV-2026101504 | pass_with_limitations | False | Original supplied artwork retains earlier collection lettering. |
+| UTP-REV-254 | pass_with_limitations | False | Same-assistant review; no independent human, practitioner or screen-reader review.; Construction evidence is an attributed cultural essay, not instrument examination. CCRT access limited to indexed page text.; No founding chronology, present performance offer, audio or lyrics claimed. |
 
 ## Publication and application history
 
@@ -1031,7 +1033,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101590 | 2026-10-15T12:26:31.099437+00:00 | Published and browser-verified Odia Poetry Jhula with twelve sets and existing survey handoff. | — |
 | UTP-EVT-2026101591 | 2026-10-15T12:34:37.077208+00:00 | Prepared and locally tested inline ratings and comments for all twelve designs, preserving earlier ballots. | — |
 | UTP-EVT-2026101530 | 2026-10-15T12:50:31.490862+00:00 | Prepared Prahlada Nataka article and source dossier with explicit date discrepancy. Tests and responsive/navigation checks pass; no independent human review claimed. Publication pending. | — |
 | UTP-EVT-2026101592 | 2026-10-15T12:42:17.326144+00:00 | Published and live-verified inline ratings and private comments for all twelve designs. Earlier ballots preserved. | — |
@@ -1041,6 +1042,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101595 | 2026-10-15T13:08:15.182677+00:00 | Added six supplied concept boards to a separate non-voting gallery. | — |
 | UTP-EVT-2026101596 | 2026-10-15T13:18:27.925782+00:00 | Verified six additional images on live page without voting controls. | — |
 | UTP-EVT-2026101597 | 2026-10-15T13:32:54.071360+00:00 | Prepared eighteen-choice voting, private contact fields, six additional kits and male styling; Firebase emulator checks passed. | — |
+| UTP-EVT-2026101532 | 2026-10-15T13:55:55.753939+00:00 | Prepared Dhuduki article and four-source trail. Tests and responsive/keyboard checks pass; source-access and origin limitations retained. Publication pending, total remains96. | — |
 
 ## Deferred extensions
 
