@@ -1,0 +1,93 @@
+{
+  "recorded_at": "2026-10-15T13:06:11.608884+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-096",
+  "work_id": "UTP-WORK-285",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/261",
+  "reviewed_head": "fed56fa8142258d048e470827b2a9e19699628a9",
+  "merge_commit": "c30154c7808da2d0128e7c3c68f318358261727d",
+  "merged_at": "2026-10-15T13:01:31Z",
+  "validation": {
+    "conclusion": "success",
+    "createdAt": "2026-10-15T12:57:33Z",
+    "databaseId": 38738691932,
+    "headSha": "fed56fa8142258d048e470827b2a9e19699628a9",
+    "status": "completed",
+    "updatedAt": "2026-10-15T12:59:47Z",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38738691932"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "createdAt": "2026-10-15T13:01:53Z",
+    "databaseId": 38739287961,
+    "headSha": "c30154c7808da2d0128e7c3c68f318358261727d",
+    "status": "completed",
+    "updatedAt": "2026-10-15T13:04:48Z",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38739287961",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-15T13:05:44.388375+00:00",
+    "pages": [
+      {
+        "url": "https://projectodisha.org/stories/prahlada-nataka/",
+        "status": 200,
+        "sha256": "615a645335027ca7a258a94dac449da4bcc54ec33912f3a44928e34153a122a6"
+      },
+      {
+        "url": "https://projectodisha.org/sounds-of-odisha/",
+        "status": 200,
+        "sha256": "ba62668e463e6b29ca169f718da7ac7f07ee0d469bbc2c65b45f78b2e94c9037"
+      },
+      {
+        "url": "https://projectodisha.org/explore/",
+        "status": 200,
+        "sha256": "caf944a19a244d439409609b60b2d9729eb2e7749f7a80fb34a192e9d19b1b9c"
+      },
+      {
+        "url": "https://projectodisha.org/sounds-of-odisha/",
+        "status": 200,
+        "sha256": "ba62668e463e6b29ca169f718da7ac7f07ee0d469bbc2c65b45f78b2e94c9037"
+      },
+      {
+        "url": "https://projectodisha.org/sitemap.xml",
+        "status": 200,
+        "sha256": "65430f0063cd4750794ff628e88549f0e252c485acfef118edce08b13fbf49bd"
+      }
+    ],
+    "canonical_paragraphs": 15,
+    "sources": 2,
+    "discovery": "Sounds collection, voice reading path and Explore include dedicated route",
+    "indexable_routes": 11,
+    "robots": "noindex, follow",
+    "limitations": "HTTP response and canonical text checks do not constitute practitioner or independent human review.",
+    "browser": "Local phone and desktop checked; keyboard source navigation and Explore query passed. Live article visually verified.",
+    "screenshot": "/tmp/prahlada-nataka-live.png"
+  },
+  "outputs": [
+    {
+      "path": "kb/research/culture/prahlada-nataka-website.json",
+      "sha256": "7ef99a4fce5f424b4f22e9fde9f9cda7fe987b8046566c982ed4f2414db70808",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/sources/prahlada-nataka-research.json",
+      "sha256": "26f53731fb7b47c132d502a2599942f882549d0954f92b4839cbcebd67021d00",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/stories/prahlada-nataka.astro",
+      "sha256": "5b18d2d04f22965effcf4e922501fc04b5234b315b9279e253f9da8d35a7d1a5",
+      "matches_fetched_merge": true
+    }
+  ],
+  "review": "records/prahlada-nataka-review-2026-10-15.json",
+  "limitations": [
+    "Same-assistant editorial and implementation review; no independent human, practitioner or screen-reader review.",
+    "Approximate composition dates differ; no original manuscript or early edition inspected. A scheduled lecture abstract is not evidence of its delivery.",
+    "No audio, lyrics or source imagery republished; present-day practice and musical transmission remain research follow-up."
+  ],
+  "attachment": "App attachment attempted; thread attachment identity count exceeds 100. PR URL retained."
+}

@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `2c5cb1184994f3a8cdd713ae4f2a0bbf309c0e5688bb745899e45c84b2236d18`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `f5c1398fbf2dd02b3697a1b786842d0ceb539ccfa3997b58a105ac3726e5e7f2`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -199,7 +199,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
-| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue eligible substantive work sequentially under UTP-DEC-225; 95 of 500 evidenced items completed. Resume any in-progress item first. | — |
+| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue eligible substantive work sequentially under UTP-DEC-225; 96 of 500 evidenced items completed. Resume any in-progress item first. | — |
 | UTP-WORK-190 · Food discovery, portable reading collection and current review-queue repair | completed | published | Ahimanikya Satapathy | Published and live-verified. Continue through the program queue under DEC225. | — |
 | UTP-WORK-191 · Build the tourism opportunities information section | completed | reviewed | Ahimanikya Satapathy | Published information scope complete. Continue WORK166 and WORK171 only when new documentary or operating evidence is available. | — |
 | UTP-WORK-192 · Align saved food cards with canonical story introductions | completed | reviewed | Ahimanikya Satapathy | Repair published and live catalogue verified; preserve canonical food fields when future stories change. | — |
@@ -298,7 +298,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-284 · Danda Nata: listening beyond the stage | completed | published | Ahimanikya Satapathy | Published and live-verified. Practitioner-led names, teaching histories and text/recording permissions remain follow-up; no outreach initiated. | — |
 | UTP-WORK-2026101501 · Odia Poetry Jhula native story and survey handoff | completed | published | Ahimanikya Satapathy | Published and live-verified. Sharing remains deferred by user. | — |
 | UTP-WORK-2026101502 · Inline feedback for all twelve Jhula designs | completed | published | Ahimanikya Satapathy | Live same-page feedback verified. User will share invitation later. | — |
-| UTP-WORK-285 · Prahlada Nataka: a story carried in song | in_progress | reviewed | Ahimanikya Satapathy | Create PR, pass checks, merge reviewed head and publish through approved main workflow; verify live and save receipt before counting. | — |
+| UTP-WORK-285 · Prahlada Nataka: a story carried in song | completed | published | Ahimanikya Satapathy | Published and live-verified. Practitioner-led names, teaching histories and text/recording permissions remain follow-up; no outreach initiated. | — |
 | UTP-WORK-2026101503 · Firebase-backed inline Jhula ratings | in_progress | draft | Ahimanikya Satapathy | Verify isolated Firebase rules, publish website and verify live save/update/withdraw. | — |
 
 ## Pending human review and decisions
@@ -985,6 +985,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-125 · Danda Nata: listening beyond the stage | published | https://projectodisha.org/stories/danda-nata/ | UTP-DEC-225 |
 | UTP-REL-2026101501 · Odia Poetry Jhula native page | published | https://projectodisha.org/odia-poetry-jhula/ | UTP-DEC-2026101502 |
 | UTP-REL-2026101502 · Same-page Jhula ratings and comments | published | https://projectodisha.org/odia-poetry-jhula/ | UTP-DEC-2026101503 |
+| UTP-REL-126 · Prahlada Nataka: a story carried in song | published | https://projectodisha.org/stories/prahlada-nataka/ | UTP-DEC-225 |
 
 ## Sources and assets
 
@@ -1022,7 +1023,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101526 | 2026-10-15T10:37:27.388438+00:00 | Reviewed four editorial reading paths connecting eighteen published Sounds stories. Keyboard and responsive checks pass; publication pending and count remains 93. | — |
 | UTP-EVT-2026101527 | 2026-10-15T10:44:49.494416+00:00 | Published four Sounds reading paths connecting eighteen existing articles. Native keyboard and responsive checks passed; live output verified. Item 094 counted after receipt; total 94. | — |
 | UTP-EVT-2026101528 | 2026-10-15T11:44:19.527421+00:00 | Prepared Danda Nata further-reading article with attributed ritual, theatre, ensemble and uncertain origin account. Tests and responsive/source-link review pass; publication pending. No independent human review claimed. | — |
 | UTP-EVT-2026101529 | 2026-10-15T11:53:26.455055+00:00 | Published Danda Nata dedicated story and KB source dossier. Full narrative and two sources verified live; attributed ritual, theatre and origin limits retained. Item 095 counted after receipt; total 95. | — |
@@ -1032,6 +1032,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101530 | 2026-10-15T12:50:31.490862+00:00 | Prepared Prahlada Nataka article and source dossier with explicit date discrepancy. Tests and responsive/navigation checks pass; no independent human review claimed. Publication pending. | — |
 | UTP-EVT-2026101592 | 2026-10-15T12:42:17.326144+00:00 | Published and live-verified inline ratings and private comments for all twelve designs. Earlier ballots preserved. | — |
 | UTP-EVT-2026101593 | 2026-10-15T12:52:49.427511+00:00 | Prepared Firebase survey integration and clarified bag-only design references; live publication remains pending. | — |
+| UTP-EVT-2026101531 | 2026-10-15T13:06:11.608884+00:00 | Published Prahlada Nataka dedicated story and KB source dossier. Full narrative and two sources verified live; attributed theatre history and unresolved date differences retained. Item 096 counted after receipt; total 96. | — |
 
 ## Deferred extensions
 
