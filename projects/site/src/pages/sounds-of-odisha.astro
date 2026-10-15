@@ -1,5 +1,6 @@
 ---
 import Shell from '../layouts/Shell.astro';
+import SoundReadingPaths from '../components/SoundReadingPaths.astro';
 import story from '../../../../kb/research/culture/sounds-website.json';
 import {soundDiscoveryEntries} from '../data/sounds-discovery';
 const furtherReading=soundDiscoveryEntries.filter(entry=>entry.href.startsWith('/stories/'));
@@ -9,6 +10,7 @@ const furtherReading=soundDiscoveryEntries.filter(entry=>entry.href.startsWith('
 <header class="sounds-hero"><div><p class="eyebrow">Living culture · A listening journey</p><h1>Sounds<br/>of <em>Odisha.</em></h1><p class="lead">{story.lead}</p><a class="text-link" href="#huluhuli">Begin with a voice ↓</a></div><figure><img src="/images/sounds/pala-nalconagar.webp" width="1600" height="1200" alt={story.photo.alt} fetchpriority="high"/><figcaption>{story.photo.caption}</figcaption></figure></header>
 <p class="sounds-invitation">A sound belongs to an occasion, a place and the people making it. These eight introductions offer a way to begin listening. The opening invitations are imagined scenes; the named accounts are documented sources.</p>
 <div class="collection-paths"><a class="text-link" href="/sounds-of-odisha/listening-notebook/">Take a listening notebook with you →</a><a class="text-link" href="#further-reading">Browse more sound stories ↓</a></div>
+<SoundReadingPaths/>
 <nav class="sound-chapters" aria-label="Sounds in this collection">{story.chapters.map(c=><a href={'#'+c.id}>{c.name}</a>)}</nav>
 {story.chapters.map((c,i)=><section class="sound-chapter" id={c.id}><div class="chapter-heading"><span class="chapter-number" aria-hidden="true">{String(i+1).padStart(2,'0')}</span><p class="eyebrow">{c.name}</p><h2>{c.title}</h2></div><div class="chapter-copy">{c.paragraphs.map(p=><p>{p}</p>)}{c.id==='huluhuli'&&<p><a class="text-link" href="/sounds-of-odisha/huluhuli/">Read the full Huluhuli story →</a></p>}{c.id==='sankha'&&<p><a class="text-link" href="/sounds-of-odisha/sankha/">Read the full Sankha story →</a></p>}{c.id==='mardala'&&<p><a class="text-link" href="/sounds-of-odisha/mardala/">Read the full Mardala story →</a></p>}{c.id==='daskathia'&&<p><a class="text-link" href="/sounds-of-odisha/daskathia/">Read the full Daskathia story →</a></p>}{c.id==='ghanta-ghanti'&&<p><a class="text-link" href="/sounds-of-odisha/ghanta-ghanti/">Read the full Ghanta and ghanti story →</a></p>}{c.id==='dalkhai'&&<p><a class="text-link" href="/sounds-of-odisha/dalkhai/">Read the full Dalkhai story →</a></p>}{c.id==='dhemsa'&&<p><a class="text-link" href="/sounds-of-odisha/dhemsa/">Read the full Dhemsa story →</a></p>}{c.id==='pala'&&<p><a class="text-link" href="/sounds-of-odisha/pala/">Read the full Pala story →</a></p>}<aside class="sound-question"><h3>A question to carry</h3><p>{c.question}</p></aside></div></section>)}
 <section class="sounds-further" id="further-reading" aria-labelledby="further-reading-heading">
