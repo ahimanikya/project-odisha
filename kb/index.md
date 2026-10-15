@@ -212,3 +212,5 @@ Historical visitor-experience release: [PR 23 publication evidence](records/visi
 [Kendara and the travelling song](research/culture/kendara.md) — Bowed-string singing, named performers and dated sources.
 
 [Kendara website article](https://projectodisha.org/stories/kendara/) is published as further reading; [publication receipt](records/kendara-publication-2026-10-15.json). Practitioner review and audio remain follow-up.
+
+[Ghumura: the drum carried into the dance](research/culture/ghumura.md) — Kalahandi’s ensemble and festival life, with dated source notes and a website article candidate.

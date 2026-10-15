@@ -9,7 +9,7 @@ const sounds=JSON.parse(readFileSync('../../kb/research/product/sounds-discovery
 const find=query=>cards.filter(c=>matchesDiscovery(c,query)).map(c=>c.href);
 
 test('Explore delivers every sound reader once with matching title, lead and a real public route',()=>{
- assert.equal(sounds.length,16);
+ assert.equal(sounds.length,17);
  for(const item of sounds){
   const rows=cards.filter(c=>c.href===item.href);assert.equal(rows.length,1,item.href);
   const original=JSON.parse(readFileSync('../../kb/'+item.source,'utf8'));

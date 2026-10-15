@@ -7805,6 +7805,29 @@
         "records/sounds-section-navigation-publication-2026-10-15.json"
       ],
       "acceptance_criteria": "Add compact section navigation to the six published Sounds of Odisha further-reading stories (Gotipua, Odia lullabies, craft listening, Chilika listening, boat songs and Kendara). Derive links from actual section headings and add a source-disclosure destination. Reuse tested native details/anchor behaviour; verify keyboard selection, Escape, repeated selection, source reveal and mobile layout. Preserve all article paragraphs and sources, eight main chapters and eleven search-eligible routes. Complete passing reviewed PR, approved main publication and live receipt before counting once."
+    },
+    {
+      "id": "UTP-WORK-276",
+      "title": "Expand and publish Ghumura as Sounds further reading",
+      "category": "culture_research",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Merge passing reviewed-head PR, publish through approved main workflow and verify live article before counting.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-REV-244"
+      ],
+      "evidence": [
+        "research/culture/ghumura.md",
+        "research/culture/ghumura-website.json",
+        "research/sources/ghumura-research.json",
+        "records/ghumura-review-2026-10-15.json"
+      ],
+      "acceptance_criteria": "Expand the existing Ghumura KB seed into a source-linked Sounds of Odisha further-reading story and website page. Reuse named district and Ministry sources before new research; verify missing instrument/performance context, retain dated scope and separate origin traditions from historical proof. Save claim dossier, source mappings and reader narrative; include collection/Explore discovery, section/source navigation and noindex hold. Pass review, tests, reviewed-head PR checks, approved main deployment and actual live verification before counting once. No audio, performer contact, current booking or human review invented."
     }
   ],
   "decisions": [
@@ -18039,6 +18062,27 @@
         "Same-assistant implementation review; no independent accessibility certification or physical screen-reader/device testing.",
         "Native no-JavaScript details and anchor structure checked in markup; disabled-JavaScript browser session not performed.",
         "No new factual research or practitioner review; all six article narratives, external citations and caveats remain unchanged."
+      ]
+    },
+    {
+      "id": "UTP-REV-244",
+      "title": "Ghumura article source and website review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-276"
+      ],
+      "evidence": [
+        "records/ghumura-review-2026-10-15.json"
+      ],
+      "limitations": [
+        "CCRT full PDF retrieval timed out; only indexed Ghumura section text was inspected and its narrow instrument description used. Report date not established; no ancient-history claims adopted.",
+        "No practitioner interview, audio audition, current booking or training outcome verification.",
+        "Sources do not establish a founding date; no claims of continuous organisational membership or lineage."
       ]
     }
   ],
