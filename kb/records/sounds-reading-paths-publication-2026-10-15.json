@@ -1,0 +1,71 @@
+{
+  "recorded_at": "2026-10-15T10:44:49.494416+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-094",
+  "work_id": "UTP-WORK-283",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/257",
+  "reviewed_head": "3a6a6f3eba58f199cb57770baca59f066ba2a03b",
+  "merge_commit": "728108650116ee7b9742f6131e51c7505195e63b",
+  "merged_at": "2026-10-15T10:40:58Z",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "3a6a6f3eba58f199cb57770baca59f066ba2a03b",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38721636820"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "728108650116ee7b9742f6131e51c7505195e63b",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38722017451",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-15T10:44:19.476095+00:00",
+    "pages": [
+      {
+        "url": "https://projectodisha.org/sounds-of-odisha/",
+        "status": 200,
+        "sha256": "c9bced3a2d78010c8aac0353402f6f6a662de43adb505699f1c4b38b0b40597f"
+      },
+      {
+        "url": "https://projectodisha.org/sitemap.xml",
+        "status": 200,
+        "sha256": "65430f0063cd4750794ff628e88549f0e252c485acfef118edce08b13fbf49bd"
+      }
+    ],
+    "reading_paths": 4,
+    "canonical_story_links": 18,
+    "core_chapters_preserved": 8,
+    "indexable_routes": 11,
+    "robots": "noindex, follow",
+    "limitations": "HTTP and text checks are not independent accessibility or practitioner review.",
+    "browser": "Native disclosure keyboard behavior and phone/desktop layout checked locally. Published chooser opened and four paths verified visually.",
+    "screenshot": "/tmp/sounds-reading-paths-live.png"
+  },
+  "outputs": [
+    {
+      "path": "kb/research/product/sounds-reading-paths.json",
+      "sha256": "69fadd1eb285f58353f44d9cc26c40b4675618cb4d686d227829675e1ef34a31",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/components/SoundReadingPaths.astro",
+      "sha256": "98e24753e9fabaf5e22e1f91eb91342c003b9655897fe734679083f8670b176f",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha.astro",
+      "sha256": "928cc5d650233fdb540e2bead08ee2087443cc49e838f4017f78e3d7a832488b",
+      "matches_fetched_merge": true
+    }
+  ],
+  "review": "records/sounds-reading-paths-review-2026-10-15.json",
+  "limitations": [
+    "Same-assistant implementation and editorial review; no independent human or physical screen-reader review.",
+    "Paths are editorial ways into existing articles, not an exclusive classification or performance itinerary. Existing article source and field-review limitations remain."
+  ],
+  "attachment": "App attachment attempted; thread attachment identity count exceeds 100. PR URL retained."
+}
