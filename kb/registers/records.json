@@ -8336,6 +8336,30 @@
         "records/core-sound-sources-publication-2026-10-15.json"
       ],
       "acceptance_criteria": "Add section-to-source navigation to all eight core Sounds stories, reusing existing dossiers and stable source IDs. Publish precise source locators and retrieval limits in numbered notes, preserve every narrative paragraph, image provenance, tongue-motion correction and search eligibility. Leave editorial prompts unlinked where no factual source is asserted. Test matching section references, unique focus targets and unchanged prose; inspect mobile/desktop and keyboard source navigation. Merge passing reviewed-head PR, deploy approved main workflow and save actual live receipt before counting."
+    },
+    {
+      "id": "UTP-WORK-291",
+      "title": "Reconcile Sounds of Odisha knowledge entrances with published articles",
+      "category": "knowledge_maintenance",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Merge passing reviewed-head PR and verify merged KB outputs before counting; no website deployment required.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-REV-259"
+      ],
+      "evidence": [
+        "index.md",
+        "research/culture/index.md",
+        "research/culture/sounds-of-odisha.md",
+        "research/product/sounds-discovery.json",
+        "records/sounds-kb-guide-review-2026-10-15.json"
+      ],
+      "acceptance_criteria": "Repair the three incorrect sound-subject links in the culture index; replace stale root/collection publication statements with a dated 22-story directory linking each KB narrative, actual website and saved release receipt. Keep eight core stories separate from fourteen further readings and retain unfinished audio, practitioner and local-review scope. Remove the already delivered lullaby publication candidate. Verify exact coverage against discovery and receipts, valid KB links, unchanged story/site files, passing PR and merged record evidence. This is a canonical navigation repair, not a new website or research delivery; record the deployment exemption explicitly."
     }
   ],
   "decisions": [
@@ -19172,6 +19196,28 @@
         "Same-assistant review; not an independent human, language or practitioner review.",
         "Source access varies: indexed-only records, unavailable page images and unplayed media remain explicitly qualified in their notes.",
         "This maps previously recorded evidence; it does not refresh source availability or establish disputed origins."
+      ]
+    },
+    {
+      "id": "UTP-REV-259",
+      "title": "Sounds KB publication guide and navigation review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-291",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/sounds-kb-guide-review-2026-10-15.json"
+      ],
+      "limitations": [
+        "Same-assistant documentary review, not independent human or factual review.",
+        "Publication statements are dated to saved successful release evidence; this pass does not claim new live checks or source retrieval.",
+        "Audio, practitioner/language review, source-access and local-confirmation gaps remain open."
       ]
     }
   ],
