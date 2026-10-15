@@ -8159,18 +8159,19 @@
       "id": "UTP-WORK-2026101506",
       "title": "Nostalgic Jhula story and automatic ratings",
       "category": "website",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current merchandise assistant",
       "authorization": "UTP-DEC-2026101507",
-      "next_action": "Complete browser review and publish the revised story and autosave behavior.",
+      "next_action": "User may share the held invitation when ready; no messages sent.",
       "blockers": [],
       "refs": [
         "UTP-DEC-2026101507"
       ],
       "evidence": [
-        "records/jhula-story-autosave-review-2026-10-15.json"
+        "records/jhula-story-autosave-review-2026-10-15.json",
+        "records/jhula-story-autosave-publication-2026-10-15.json"
       ],
       "acceptance_criteria": "Attributed Odia quote; poetic nostalgic narrative; automatic ratings with no contact gate; explicitly submitted comments with name and email or phone; old responses preserved; no AI labels or storage explanation in page."
     },
@@ -8198,6 +8199,25 @@
         "records/dhuduki-publication-2026-10-15.json"
       ],
       "acceptance_criteria": "Research and publish a dedicated Dhuduki Sounds article and canonical source dossier. Identify the instrument and its relation to sung storytelling from inspected institutional evidence; distinguish spelling variants, instrument construction and performance context without inventing antiquity, a uniform regional practice or fieldwork. Link collection, Explore and an appropriate reading path. Preserve external-search eligibility, test canonical content and navigation, inspect responsive layout, merge passing reviewed-head PR, publish approved main workflow and save live receipt before counting."
+    },
+    {
+      "id": "UTP-WORK-2026101507",
+      "title": "Small purchase-interest labels for Jhula choices",
+      "category": "website",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current merchandise assistant",
+      "authorization": "UTP-DEC-2026101508",
+      "next_action": "Publish and verify compact labels.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-2026101508"
+      ],
+      "evidence": [
+        "records/jhula-buy-interest-2026-10-15.json"
+      ],
+      "acceptance_criteria": "Would you buy this? in 13px type, numbered 1–5 choices and 12px Unlikely/Very likely endpoints; existing automatic saving preserved."
     }
   ],
   "decisions": [
@@ -12936,6 +12956,25 @@
       ],
       "evidence": [
         "records/jhula-story-autosave-review-2026-10-15.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-2026101508",
+      "title": "Compact purchase-interest question",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Instead of Rating - say I will buy it 1 - 5 or something like that. Keep the text small.",
+      "scope": "Update all eighteen design controls to compact purchase-interest language on the live page.",
+      "recorded_at": "2026-10-15T14:21:46.515497+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-2026101507"
+      ],
+      "evidence": [
+        "records/jhula-buy-interest-2026-10-15.json"
       ]
     }
   ],
@@ -18874,6 +18913,26 @@
         "Construction evidence is an attributed cultural essay, not instrument examination. CCRT access limited to indexed page text.",
         "No founding chronology, present performance offer, audio or lyrics claimed."
       ]
+    },
+    {
+      "id": "UTP-REV-2026101506",
+      "title": "Jhula story and autosave review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current merchandise assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-2026101506"
+      ],
+      "evidence": [
+        "records/jhula-story-autosave-publication-2026-10-15.json"
+      ],
+      "limitations": [
+        "Browser-based survey identity is not verified one-person-one-vote.",
+        "Comment drafts remain unsent until explicitly submitted."
+      ]
     }
   ],
   "releases": [
@@ -21035,6 +21094,20 @@
         "records/dhuduki-publication-2026-10-15.json"
       ],
       "note": "Passing reviewed head merged and approved main workflow published. Dedicated narrative and four-source trail verified live; collection, instrument reading path and Explore links included; search eligibility unchanged."
+    },
+    {
+      "id": "UTP-REL-2026101506",
+      "title": "Poetic Jhula story and automatic ratings published",
+      "status": "published",
+      "authorization": "UTP-DEC-2026101507",
+      "destination": "https://projectodisha.org/odia-poetry-jhula/",
+      "refs": [
+        "UTP-WORK-2026101506",
+        "UTP-REV-2026101506"
+      ],
+      "evidence": [
+        "records/jhula-story-autosave-publication-2026-10-15.json"
+      ]
     }
   ],
   "sources": [

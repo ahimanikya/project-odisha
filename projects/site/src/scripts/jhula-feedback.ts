@@ -10,7 +10,7 @@ if(form){
  function input(name:string){return form!.elements.namedItem(name) as HTMLInputElement|HTMLTextAreaElement;}
  function radio(name:string){return document.querySelector<HTMLInputElement>(`input[name="${name}"]:checked`)?.value||'';}
  function preferences(){return {entries:ids.map(id=>({id,rating:Number(radio('rating-'+id))||null})),favourite:radio('favourite'),kit:radio('kit')};}
- function count(){const n=preferences().entries.filter(e=>e.rating).length;summary.textContent=n?`${n} of 18 designs rated.`:'';}
+ function count(){const n=preferences().entries.filter(e=>e.rating).length;summary.textContent=n?`${n} of 18 designs considered.`:'';}
  function showError(message:string){error.textContent=message;error.hidden=false;}
  function clearError(){error.textContent='';error.hidden=true;}
  function lock(value:boolean){fields.forEach(f=>f.disabled=value);save.disabled=value;document.querySelectorAll<HTMLButtonElement>('#withdraw-area button,#clear-favourite').forEach(b=>b.disabled=value);}
@@ -21,7 +21,7 @@ if(form){
  // a later choice, and inputs remain usable while preferences are saving.
  function flush(){
   if(active)return active;
-  active=(async()=>{while(pending&&!withdrawing){pending=false;const snapshot=preferences(),sentVersion=version;status.textContent='Saving ratings…';retry.hidden=true;try{await requestRatings('PREFERENCES',snapshot);withdraw.hidden=false;if(sentVersion===version){status.textContent='Ratings saved';badges('Saved');clearError();}}catch{pending=true;status.textContent='Ratings not saved';badges('Not saved · try again below');showError('Your choices are still here. Check your connection, then try again to save them.');retry.hidden=false;break;}}})().finally(()=>{active=undefined;});
+  active=(async()=>{while(pending&&!withdrawing){pending=false;const snapshot=preferences(),sentVersion=version;status.textContent='Saving your choices…';retry.hidden=true;try{await requestRatings('PREFERENCES',snapshot);withdraw.hidden=false;if(sentVersion===version){status.textContent='Choices saved';badges('Saved');clearError();}}catch{pending=true;status.textContent='Choices not saved';badges('Not saved · try again below');showError('Your choices are still here. Check your connection, then try again to save them.');retry.hidden=false;break;}}})().finally(()=>{active=undefined;});
   return active;
  }
  function changed(id?:string){if(!ready||withdrawing)return;confirmation.hidden=true;version++;pending=true;count();if(id){const badge=document.querySelector<HTMLElement>(`[data-save-status="${id}"]`);if(badge)badge.textContent='Saving…';}void flush();}
