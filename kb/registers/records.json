@@ -8048,6 +8048,26 @@
         "records/odia-poetry-jhula-publication-2026-10-15.json"
       ],
       "acceptance_criteria": "Preserve all twelve designs, matching sets, story, 90 cm specification and privacy; publish native Project Odisha page with external voting handoff after build, responsive review and required CI."
+    },
+    {
+      "id": "UTP-WORK-2026101502",
+      "title": "Inline feedback for all twelve Jhula designs",
+      "category": "website",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current merchandise assistant",
+      "authorization": "UTP-DEC-2026101503",
+      "next_action": "Publish tested backend and page, then verify the live same-page flow.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-2026101503",
+        "UTP-REV-2026101502"
+      ],
+      "evidence": [
+        "records/jhula-inline-ratings-review-2026-10-15.json"
+      ],
+      "acceptance_criteria": "All twelve designs visible with optional 1–5 ratings, favourite and comments. Same-page save, restore, update and withdrawal; name optional; earlier shortlist ballots preserved; private feedback and clear errors."
     }
   ],
   "decisions": [
@@ -12691,6 +12711,25 @@
       ],
       "evidence": [
         "records/odia-poetry-jhula-hosting-2026-10-15.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-2026101503",
+      "title": "Same-page Jhula voting, ratings and comments",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "I want to have the voting option on the same page too. Show all 12 of them, and a rating option and comment section",
+      "scope": "Publish ratings, favourite selection and private per-design/overall comments directly on Project Odisha for all twelve existing designs. Preserve prior votes.",
+      "recorded_at": "2026-10-15T12:34:37.077208+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-2026101502"
+      ],
+      "evidence": [
+        "records/jhula-inline-ratings-review-2026-10-15.json"
       ]
     }
   ],
@@ -18507,6 +18546,26 @@
       ],
       "limitations": [
         "Same-assistant implementation and review. Physical products, creator agreements and book selection remain unconfirmed. Voting remains on the original survey origin."
+      ]
+    },
+    {
+      "id": "UTP-REV-2026101502",
+      "title": "Inline ratings implementation review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current merchandise assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-2026101502"
+      ],
+      "evidence": [
+        "records/jhula-inline-ratings-review-2026-10-15.json"
+      ],
+      "limitations": [
+        "Same-assistant review; no identity verification. Browser storage needed for later revision.",
+        "Earlier shortlist votes preserved separately; not automatically combined with ratings."
       ]
     }
   ],

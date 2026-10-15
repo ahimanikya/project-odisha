@@ -1,0 +1,18 @@
+{
+  "status": "reviewed_pending_publication",
+  "date": "2026-10-15",
+  "authority": "UTP-DEC-2026101503",
+  "scope": "Same-page ratings, favourite choice, optional name, per-design comments and overall comment. Existing imagery unchanged.",
+  "backend": "Existing Sites D1 database; additive rating_responses table. No change to ballots table or its API.",
+  "privacy": "First-party browser localStorage random 256-bit response token, hashed server-side; no credentials in source. Exact-origin CORS; no public response listing.",
+  "checks": {
+    "backend_integration": "Passed local persistence, update, withdrawal, isolation between response keys, disallowed origins, missing token, invalid/duplicate/out-of-range ratings and overlong comments.",
+    "browser": "Local same-page save, restore after reload, update and withdrawal passed; all test responses removed. Twelve cards at 390px; no horizontal overflow.",
+    "coastal_tests": "152 passed"
+  },
+  "limits": [
+    "No public comment feed; comments remain private.",
+    "No automatic import of earlier cookie-based shortlist votes.",
+    "No invitation sent or timed survey launched."
+  ]
+}

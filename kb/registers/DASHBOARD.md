@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `4e6f0d6c54c7d7441acddb46e59827ad739850a4a2e9e32d6fa3aceb425b9a44`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `db2c68b1924edfa60059337990999f3b1429b135e38f994300c66ccb556bb453`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -297,6 +297,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-283 · Choose a reading path through Sounds of Odisha | completed | published | Ahimanikya Satapathy | Published and live-verified. Maintain path coverage when adding a sound story; independent user accessibility review remains wider follow-up. | — |
 | UTP-WORK-284 · Danda Nata: listening beyond the stage | completed | published | Ahimanikya Satapathy | Published and live-verified. Practitioner-led names, teaching histories and text/recording permissions remain follow-up; no outreach initiated. | — |
 | UTP-WORK-2026101501 · Odia Poetry Jhula native story and survey handoff | completed | published | Ahimanikya Satapathy | Published and live-verified. Sharing remains deferred by user. | — |
+| UTP-WORK-2026101502 · Inline feedback for all twelve Jhula designs | in_progress | reviewed | Ahimanikya Satapathy | Publish tested backend and page, then verify the live same-page flow. | — |
 
 ## Pending human review and decisions
 
@@ -589,6 +590,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-2026100701 · Research Odisha osha histories, significance and seasonal food | recorded_direction | Ahimanikya Satapathy | Deep research, structured cultural pages and an iterative research path. This record does not certify complete coverage, human factual review or approval of this exact website release. |
 | UTP-DEC-2026101501 · Publish all pending content | approved | Ahimanikya Satapathy | Integrate all 39 pending change requests, expose supported research as dated reading notes and publish the Osha collection after meaningful checks. Evidence-blocked research and internal operating records remain distinct. No search eligibility expansion. |
 | UTP-DEC-2026101502 · Rename and host Odia Poetry Jhula on Project Odisha | approved | Ahimanikya Satapathy | Host renamed concept story and twelve sets with access to existing survey; no commercial orders, outreach or search expansion. |
+| UTP-DEC-2026101503 · Same-page Jhula voting, ratings and comments | approved | Ahimanikya Satapathy | Publish ratings, favourite selection and private per-design/overall comments directly on Project Odisha for all twelve existing designs. Preserve prior votes. |
 
 ## Reviews
 
@@ -845,6 +847,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-251 | pass_with_limitations | False | Same-assistant implementation and editorial review; no independent human or physical screen-reader review.; Paths are editorial ways into existing articles, not an exclusive classification or performance itinerary. Existing article source and field-review limitations remain. |
 | UTP-REV-252 | pass_with_limitations | False | Same-assistant implementation and editorial review; no independent human, practitioner or physical screen-reader review.; Origin chronology and local variation remain open. Historical descriptions do not establish current event dates or availability.; 2022 essay inspected as extracted PDF text, without page-image verification; failed certificate retrievals were not bypassed. No lyrics, audio or source photographs republished. |
 | UTP-REV-2026101501 | pass_with_limitations | False | Same-assistant implementation and review. Physical products, creator agreements and book selection remain unconfirmed. Voting remains on the original survey origin. |
+| UTP-REV-2026101502 | pass_with_limitations | False | Same-assistant review; no identity verification. Browser storage needed for later revision.; Earlier shortlist votes preserved separately; not automatically combined with ratings. |
 
 ## Publication and application history
 
@@ -1014,7 +1017,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101522 | 2026-10-15T08:54:49.752964+00:00 | Reviewed section and source navigation across eight core Sounds stories. Keyboard, phone and desktop checks pass; publication pending. Count remains 91. | — |
 | UTP-EVT-2026101523 | 2026-10-15T09:04:25.770371+00:00 | Published section navigation in eight core sound stories. 50 links verified live; source caveats, credits and full prose retained. Item 092 counted after receipt; total 92. | — |
 | UTP-EVT-2026101524 | 2026-10-15T09:47:15.779530+00:00 | Reviewed Chaiti Ghoda narrative, dated source evidence and website integration; publication pending, count remains 92. | — |
 | UTP-EVT-2026101525 | 2026-10-15T09:58:14.818481+00:00 | Published Chaiti Ghoda dedicated story and KB source dossier. Full narrative and three sources verified live; dated evidence and legend limits retained. Item 093 counted after receipt; total 93. | — |
@@ -1024,6 +1026,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101529 | 2026-10-15T11:53:26.455055+00:00 | Published Danda Nata dedicated story and KB source dossier. Full narrative and two sources verified live; attributed ritual, theatre and origin limits retained. Item 095 counted after receipt; total 95. | — |
 | UTP-ACT-2026101501 | 2026-10-15T12:12:19.943923+00:00 | Prepared Founder-requested Odia Poetry Jhula page and preserved existing survey origin. | — |
 | UTP-EVT-2026101590 | 2026-10-15T12:26:31.099437+00:00 | Published and browser-verified Odia Poetry Jhula with twelve sets and existing survey handoff. | — |
+| UTP-EVT-2026101591 | 2026-10-15T12:34:37.077208+00:00 | Prepared and locally tested inline ratings and comments for all twelve designs, preserving earlier ballots. | — |
 
 ## Deferred extensions
 
