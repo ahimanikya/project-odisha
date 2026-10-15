@@ -8204,12 +8204,12 @@
       "id": "UTP-WORK-2026101507",
       "title": "Small purchase-interest labels for Jhula choices",
       "category": "website",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current merchandise assistant",
       "authorization": "UTP-DEC-2026101508",
-      "next_action": "Publish and verify compact labels.",
+      "next_action": "User can review the published controls.",
       "blockers": [],
       "refs": [
         "UTP-DEC-2026101508"
@@ -8218,6 +8218,25 @@
         "records/jhula-buy-interest-2026-10-15.json"
       ],
       "acceptance_criteria": "Would you buy this? in 13px type, 1–5 stars and 12px Not for me/Love it endpoints; automatic saving preserved. All per-design comment fields collapsed by default."
+    },
+    {
+      "id": "UTP-WORK-2026101508",
+      "title": "Consistent Jhula spacing and aligned design controls",
+      "category": "website",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current merchandise assistant",
+      "authorization": "UTP-DEC-2026101509",
+      "next_action": "Publish and verify responsive layout corrections.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-2026101509"
+      ],
+      "evidence": [
+        "records/jhula-layout-review-2026-10-15.json"
+      ],
+      "acceptance_criteria": "Cards align descriptions and control sections; five stars stay in one row; consistent section, heading and form spacing; phone layouts do not overflow; behavior preserved."
     }
   ],
   "decisions": [
@@ -12975,6 +12994,25 @@
       ],
       "evidence": [
         "records/jhula-buy-interest-2026-10-15.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-2026101509",
+      "title": "Correct Jhula spacing and alignment",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "The page still has formatting issues in terms of spacing and alignment",
+      "scope": "Fix and publish consistent spacing, card alignment, responsive star controls and form layout on the existing page.",
+      "recorded_at": "2026-10-15T14:42:02.292498+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-2026101508"
+      ],
+      "evidence": [
+        "records/jhula-layout-review-2026-10-15.json"
       ]
     }
   ],
@@ -18933,6 +18971,22 @@
         "Browser-based survey identity is not verified one-person-one-vote.",
         "Comment drafts remain unsent until explicitly submitted."
       ]
+    },
+    {
+      "id": "UTP-REV-2026101507",
+      "title": "Compact Jhula controls review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current merchandise assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-2026101507"
+      ],
+      "evidence": [
+        "records/jhula-buy-interest-2026-10-15.json"
+      ]
     }
   ],
   "releases": [
@@ -21107,6 +21161,20 @@
       ],
       "evidence": [
         "records/jhula-story-autosave-publication-2026-10-15.json"
+      ]
+    },
+    {
+      "id": "UTP-REL-2026101507",
+      "title": "Compact Jhula controls published",
+      "status": "published",
+      "authorization": "UTP-DEC-2026101508",
+      "destination": "https://projectodisha.org/odia-poetry-jhula/",
+      "refs": [
+        "UTP-WORK-2026101507",
+        "UTP-REV-2026101507"
+      ],
+      "evidence": [
+        "records/jhula-buy-interest-2026-10-15.json"
       ]
     }
   ],
