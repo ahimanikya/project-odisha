@@ -8053,21 +8053,41 @@
       "id": "UTP-WORK-2026101502",
       "title": "Inline feedback for all twelve Jhula designs",
       "category": "website",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current merchandise assistant",
       "authorization": "UTP-DEC-2026101503",
-      "next_action": "Publish tested backend and page, then verify the live same-page flow.",
+      "next_action": "Live same-page feedback verified. User will share invitation later.",
       "blockers": [],
       "refs": [
         "UTP-DEC-2026101503",
         "UTP-REV-2026101502"
       ],
       "evidence": [
-        "records/jhula-inline-ratings-review-2026-10-15.json"
+        "records/jhula-inline-ratings-review-2026-10-15.json",
+        "records/jhula-inline-ratings-publication-2026-10-15.json"
       ],
       "acceptance_criteria": "All twelve designs visible with optional 1–5 ratings, favourite and comments. Same-page save, restore, update and withdrawal; name optional; earlier shortlist ballots preserved; private feedback and clear errors."
+    },
+    {
+      "id": "UTP-WORK-2026101503",
+      "title": "Firebase-backed inline Jhula ratings",
+      "category": "website",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current merchandise assistant",
+      "authorization": "UTP-DEC-2026101504",
+      "next_action": "Verify isolated Firebase rules, publish website and verify live save/update/withdraw.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-2026101504"
+      ],
+      "evidence": [
+        "records/jhula-firebase-review-2026-10-15.json"
+      ],
+      "acceptance_criteria": "Twelve inline design ratings with private Firebase persistence; preserve existing Firebase services and earlier survey data; clear bag-only concept label."
     }
   ],
   "decisions": [
@@ -12730,6 +12750,25 @@
       ],
       "evidence": [
         "records/jhula-inline-ratings-review-2026-10-15.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-2026101504",
+      "title": "Use Project Odisha Firebase for embedded Jhula feedback",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Embed the voting in the same page, use our backend using firebase. We have a firebase for Utkal Project, we can rename that and use it",
+      "scope": "Rename Firebase display name to Project Odisha; preserve utkal-project ID and existing services; publish private Jhula ratings on the same page. Clarify original bag terminology.",
+      "recorded_at": "2026-10-15T12:52:49.427511+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-2026101503"
+      ],
+      "evidence": [
+        "records/jhula-firebase-review-2026-10-15.json"
       ]
     }
   ],
@@ -20637,6 +20676,21 @@
         "records/odia-poetry-jhula-publication-2026-10-15.json"
       ],
       "note": "PR259 merged, publication succeeded and live gallery verified. Receipt recorded locally after deployment."
+    },
+    {
+      "id": "UTP-REL-2026101502",
+      "title": "Same-page Jhula ratings and comments",
+      "status": "published",
+      "authorization": "UTP-DEC-2026101503",
+      "destination": "https://projectodisha.org/odia-poetry-jhula/",
+      "refs": [
+        "UTP-WORK-2026101502",
+        "UTP-REV-2026101502",
+        "UTP-DEC-2026101503"
+      ],
+      "evidence": [
+        "records/jhula-inline-ratings-publication-2026-10-15.json"
+      ]
     }
   ],
   "sources": [

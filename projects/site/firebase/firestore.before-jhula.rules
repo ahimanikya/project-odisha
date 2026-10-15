@@ -1,0 +1,32 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function owns(uid) { return request.auth != null && request.auth.uid == uid; }
+    function validKind(kind) { return kind in ['traveller', 'investor']; }
+    // Retained closure marker blocks writes from other devices and stale tokens.
+    match /users/{uid} {
+      allow get: if owns(uid);
+      allow create: if owns(uid)
+        && request.resource.data.keys().hasOnly(['closureRequested','requestedAt'])
+        && request.resource.data.closureRequested == true
+        && request.resource.data.requestedAt == request.time;
+      allow update, delete, list: if false;
+    }
+    match /users/{uid}/{kind}/{copyId} {
+      allow get: if owns(uid) && validKind(kind);
+      allow list: if owns(uid) && validKind(kind) && request.query.limit <= 20;
+      allow create: if owns(uid) && validKind(kind)
+        && !exists(/databases/$(database)/documents/users/$(uid))
+        && request.resource.data.keys().hasOnly(['owner','kind','version','title','payload','createdAt'])
+        && request.resource.data.owner == uid
+        && request.resource.data.kind == kind
+        && request.resource.data.version == 1
+        && request.resource.data.title is string && request.resource.data.title.size() <= 120
+        && request.resource.data.payload is string && request.resource.data.payload.size() <= 500000
+        && request.resource.data.createdAt == request.time;
+      // Immutable snapshots avoid overwriting another device's changes.
+      allow update: if false;
+      allow delete: if owns(uid) && validKind(kind);
+    }
+  }
+}

@@ -1,0 +1,17 @@
+import {createRequire} from 'node:module';
+import {readFileSync} from 'node:fs';
+import {test,before,after} from 'node:test';
+const require=createRequire(process.env.FIREBASE_TEST_PACKAGE || import.meta.url);
+const {initializeTestEnvironment,assertSucceeds,assertFails}=require('@firebase/rules-unit-testing');
+const {doc,setDoc,getDoc,deleteDoc,collection,getDocs,serverTimestamp}=require('firebase/firestore');
+let env;const ids=Array.from({length:12},(_,i)=>String(i+1).padStart(2,'0'));
+const data=()=>({entries:Object.fromEntries(ids.map(id=>[id,{rating:id==='01'?5:0,comment:''}])),favourite:'01',name:'',comment:'Synthetic test',kit:'unsure',updatedAt:serverTimestamp()});
+before(async()=>{env=await initializeTestEnvironment({projectId:'demo-jhula-ratings',firestore:{rules:readFileSync(new URL('firestore.rules',import.meta.url),'utf8')}})});
+after(async()=>{await env.cleanup()});
+const db=uid=>env.authenticatedContext(uid).firestore();
+test('owner can save, restore, update and withdraw',async()=>{const r=doc(db('alice'),'jhulaRatings','alice');await assertSucceeds(setDoc(r,data()));await assertSucceeds(getDoc(r));await assertSucceeds(setDoc(r,{...data(),comment:'Updated'}));await assertSucceeds(deleteDoc(r));});
+test('other visitors and unauthenticated callers cannot read or write',async()=>{await setDoc(doc(db('alice'),'jhulaRatings','alice'),data());for(const d of [db('bob'),env.unauthenticatedContext().firestore()]){const r=doc(d,'jhulaRatings','alice');await assertFails(getDoc(r));await assertFails(setDoc(r,data()));await assertFails(deleteDoc(r));}});
+test('no visitor can list private responses',async()=>assertFails(getDocs(collection(db('alice'),'jhulaRatings'))));
+test('invalid numbers, missing entries, no ratings and excess fields rejected',async()=>{const r=doc(db('alice'),'jhulaRatings','alice');for(const n of [-1,6,1.5,'5']){const d=data();d.entries['01'].rating=n;await assertFails(setDoc(r,d));}let d=data();delete d.entries['12'];await assertFails(setDoc(r,d));d=data();d.entries['01'].rating=0;await assertFails(setDoc(r,d));await assertFails(setDoc(r,{...data(),unexpected:true}));});
+test('overlong comments and invalid favourite rejected',async()=>{const r=doc(db('alice'),'jhulaRatings','alice');let d=data();d.entries['02'].comment='x'.repeat(301);await assertFails(setDoc(r,d));await assertFails(setDoc(r,{...data(),comment:'x'.repeat(1001)}));await assertFails(setDoc(r,{...data(),favourite:'13'}));});
+test('existing traveller and investor snapshot permissions preserved',async()=>{for(const kind of ['traveller','investor']){const r=doc(db('existing-user'),'users','existing-user',kind,'test');await assertSucceeds(setDoc(r,{owner:'existing-user',kind,version:1,title:'Test',payload:'{}',createdAt:serverTimestamp()}));await assertSucceeds(getDoc(r));await assertFails(setDoc(r,{owner:'existing-user',kind,version:1,title:'Change',payload:'{}',createdAt:serverTimestamp()}));await assertFails(getDoc(doc(db('other'),'users','existing-user',kind,'test')));}});

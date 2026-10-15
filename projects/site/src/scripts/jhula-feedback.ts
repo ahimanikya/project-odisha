@@ -1,21 +1,19 @@
+import {requestRatings} from './jhula-firebase';
 const form=document.querySelector<HTMLFormElement>('#jhula-feedback');
 if(form){
- const endpoint=(location.hostname==='127.0.0.1'||location.hostname==='localhost')?'http://127.0.0.1:4390/api/ratings':form.dataset.endpoint!;
  const status=document.querySelector<HTMLElement>('#ratings-status')!,error=document.querySelector<HTMLElement>('#ratings-error')!,summary=document.querySelector<HTMLElement>('#rating-summary')!;
  const retry=document.querySelector<HTMLButtonElement>('#retry-ratings')!,save=document.querySelector<HTMLButtonElement>('#save-ratings')!,withdraw=document.querySelector<HTMLElement>('#withdraw-area')!,confirmation=document.querySelector<HTMLElement>('#withdraw-confirm')!;
  const fields=[...document.querySelectorAll<HTMLFieldSetElement>('[data-feedback-fields]')];
  const ids=Array.from({length:12},(_,i)=>String(i+1).padStart(2,'0'));
- let key='',persistent=true,ready=false,busy=false,hasSaved=false;
- try{key=localStorage.getItem('odia-poetry-rating-key-v1')||'';}catch{persistent=false;}
- if(!/^[a-f0-9]{64}$/.test(key)){key=Array.from(crypto.getRandomValues(new Uint8Array(32)),n=>n.toString(16).padStart(2,'0')).join('');try{localStorage.setItem('odia-poetry-rating-key-v1',key);}catch{persistent=false;}}
- const storageNote=()=>persistent?'':' Browser storage is unavailable; keep this page open to revise or withdraw your saved response.';
+ let ready=false,busy=false,hasSaved=false;
+ const storageNote=()=>'';
  function lock(value:boolean){busy=value;fields.forEach(f=>f.disabled=value||!ready);save.disabled=value||!ready;document.querySelectorAll<HTMLButtonElement>('#withdraw-area button').forEach(b=>b.disabled=value);retry.disabled=value;}
  function showError(message:string){error.textContent=message;error.hidden=false;}
  function clearError(){error.textContent='';error.hidden=true;}
  function count(){const n=ids.filter(id=>document.querySelector<HTMLInputElement>(`input[name="rating-${id}"]:checked`)).length;summary.textContent=n?`${n} of 12 designs rated. You can leave the others unrated.`:'No designs rated yet.';}
  function input(name:string){return form!.elements.namedItem(name) as HTMLInputElement|HTMLTextAreaElement;}
  function radio(name:string){return document.querySelector<HTMLInputElement>(`input[name="${name}"]:checked`)?.value||'';}
- async function request(method:string,body?:unknown){const controller=new AbortController();const timer=setTimeout(()=>controller.abort(),15000);try{const res=await fetch(endpoint,{method,mode:'cors',credentials:'omit',cache:'no-store',headers:{Authorization:'Bearer '+key,...(body?{'Content-Type':'application/json'}:{})},body:body?JSON.stringify(body):undefined,signal:controller.signal});const data=await res.json();if(!res.ok)throw new Error(data.error||'Please try again.');return data;}finally{clearTimeout(timer);}}
+ const request=requestRatings;
  function restore(data:any){form!.reset();if(!data)return;for(const e of data.entries||[]){if(!ids.includes(e.id))continue;const rating=document.querySelector<HTMLInputElement>(`input[name="rating-${e.id}"][value="${e.rating}"]`);if(rating)rating.checked=true;input('comment-'+e.id).value=e.comment||'';}for(const name of ['name','comment'])input(name).value=data[name]||'';for(const [name,value] of [['kit',data.kit],['favourite',data.favourite]]){const el=[...document.querySelectorAll<HTMLInputElement>(`input[name="${name}"]`)].find(x=>x.value===value);if(el)el.checked=true;}}
  async function load(){ready=false;lock(true);clearError();retry.hidden=true;status.textContent='Loading your saved response…';try{const data=await request('GET');restore(data.response);hasSaved=!!data.response;withdraw.hidden=!hasSaved;ready=true;count();status.textContent=(hasSaved?'Your saved response is loaded. You can update it below.':'Ready. Rate any of the twelve designs, then save at the end.')+storageNote();}catch(e){showError('Could not load saved feedback. Check your connection and retry before editing.');status.textContent='Not connected.';retry.hidden=false;}finally{lock(false);}}
  document.addEventListener('input',event=>{const target=event.target as HTMLInputElement;if(target.form!==form||!ready||busy)return;clearError();count();confirmation.hidden=true;status.textContent='Changes are not saved yet.'+storageNote();save.textContent=hasSaved?'Update ratings & comments':'Save ratings & comments';});
