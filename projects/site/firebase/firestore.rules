@@ -29,36 +29,40 @@ service cloud.firestore {
       allow delete: if owns(uid) && validKind(kind);
     }
     // Jhula survey: isolated from existing traveller and investor records.
-    function jhulaEntry(e) {
-      return e is map && e.keys().hasAll(['rating','comment'])
-        && e.keys().hasOnly(['rating','comment'])
-        && e.rating is int && e.rating >= 0 && e.rating <= 5
-        && e.comment is string && e.comment.size() <= 300;
-    }
+    function shortComment(c) { return c is string && c.size() <= 300; }
     function jhulaValid(d) {
-      return d.keys().hasAll(['entries','favourite','name','comment','kit','updatedAt'])
-        && d.keys().hasOnly(['entries','favourite','name','comment','kit','updatedAt'])
-        && d.name is string && d.name.size() <= 80
+      let ratings = d.ratings;
+      let comments = d.comments;
+      return d.keys().hasOnly(['schemaVersion','ratings','comments','favourite','name','email','phone','comment','kit','updatedAt'])
+        && d.schemaVersion == 2
+        && d.name is string && d.name.size() > 0 && d.name.size() <= 80 && d.name.matches('.*[^ \\t\\r\\n].*')
+        && d.email is string && d.email.size() <= 254 && (d.email == '' || d.email.matches('[^ @]+@[^ @]+[.][^ @]+'))
+        && d.phone is string && d.phone.size() <= 40
         && d.comment is string && d.comment.size() <= 1000
         && d.kit in ['bag','kit','unsure']
-        && d.favourite in ['','01','02','03','04','05','06','07','08','09','10','11','12']
+        && d.favourite in ['','01','02','03','04','05','06','07','08','09','10','11','12','13','14','15','16','17','18']
         && d.updatedAt == request.time
-        && d.entries is map
-        && d.entries.keys().hasAll(['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'])
-        && d.entries.keys().hasOnly(['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'])
-        && jhulaEntry(d.entries['01'])
-        && jhulaEntry(d.entries['02'])
-        && jhulaEntry(d.entries['03'])
-        && jhulaEntry(d.entries['04'])
-        && jhulaEntry(d.entries['05'])
-        && jhulaEntry(d.entries['06'])
-        && jhulaEntry(d.entries['07'])
-        && jhulaEntry(d.entries['08'])
-        && jhulaEntry(d.entries['09'])
-        && jhulaEntry(d.entries['10'])
-        && jhulaEntry(d.entries['11'])
-        && jhulaEntry(d.entries['12'])
-        && (d.entries['01'].rating > 0 || d.entries['02'].rating > 0 || d.entries['03'].rating > 0 || d.entries['04'].rating > 0 || d.entries['05'].rating > 0 || d.entries['06'].rating > 0 || d.entries['07'].rating > 0 || d.entries['08'].rating > 0 || d.entries['09'].rating > 0 || d.entries['10'].rating > 0 || d.entries['11'].rating > 0 || d.entries['12'].rating > 0);
+        && ratings is list && ratings.size() == 18
+        && ratings.hasOnly([0,1,2,3,4,5]) && !ratings.hasOnly([0])
+        && comments is list && comments.size() == 18
+        && shortComment(comments[0])
+        && shortComment(comments[1])
+        && shortComment(comments[2])
+        && shortComment(comments[3])
+        && shortComment(comments[4])
+        && shortComment(comments[5])
+        && shortComment(comments[6])
+        && shortComment(comments[7])
+        && shortComment(comments[8])
+        && shortComment(comments[9])
+        && shortComment(comments[10])
+        && shortComment(comments[11])
+        && shortComment(comments[12])
+        && shortComment(comments[13])
+        && shortComment(comments[14])
+        && shortComment(comments[15])
+        && shortComment(comments[16])
+        && shortComment(comments[17]);
     }
     match /jhulaRatings/{uid} {
       allow get, delete: if owns(uid);

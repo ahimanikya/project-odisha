@@ -1,0 +1,4 @@
+---
+const {id,name}=Astro.props;
+---
+<fieldset class="design-feedback" data-feedback-fields disabled><legend>Your view of {name}</legend><fieldset class="rating-scale"><legend>Rating <span>(optional)</span></legend><div class="rating-options">{[1,2,3,4,5].map(n=><label><input type="radio" form="jhula-feedback" name={'rating-'+id} value={n} aria-label={n+' out of 5 for '+name}/><span>{n} ★</span></label>)}</div><p class="rating-hint">1 · Not for me &nbsp; 5 · Love it</p><button type="button" class="clear-rating" data-clear-rating={id}>Clear rating</button></fieldset><label class="favourite-option"><input type="radio" form="jhula-feedback" name="favourite" value={id}/> My favourite design</label><label class="design-comment">Comment on this design <span>(optional)</span><textarea form="jhula-feedback" name={'comment-'+id} maxlength="300" rows="3" placeholder="Colour, cloth, shape, or something you would change…"></textarea></label></fieldset>

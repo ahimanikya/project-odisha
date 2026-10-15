@@ -4,7 +4,7 @@ import {getFirestore, doc, getDoc, setDoc, deleteDoc, serverTimestamp} from 'fir
 
 const app=initializeApp({apiKey:'AIzaSyCcNSm5Mhb3L27XT0XGBZqyQpR88zA6dK4',authDomain:'utkal-project.firebaseapp.com',projectId:'utkal-project',appId:'1:1091060731108:web:6c36e74785b825303df0f1'},'jhula-survey');
 const auth=getAuth(app),db=getFirestore(app);
-const ids=Array.from({length:12},(_,i)=>String(i+1).padStart(2,'0'));
+const ids=Array.from({length:18},(_,i)=>String(i+1).padStart(2,'0'));
 let identity:Promise<string>|undefined;
 function owner(){
  if(!identity)identity=(async()=>{
@@ -20,11 +20,12 @@ async function performRequest(method:string,body?:any){
   const saved=await getDoc(ref);
   if(!saved.exists())return {response:null};
   const data=saved.data();
-  return {response:{...data,entries:ids.map(id=>({id,rating:data.entries[id].rating||null,comment:data.entries[id].comment}))}};
+  return {response:{...data,entries:ids.map((id,index)=>({id,rating:(data.schemaVersion===2?data.ratings[index]:data.entries[id]?.rating)||null,comment:(data.schemaVersion===2?data.comments[index]:data.entries[id]?.comment)||''}))}};
  }
  if(method==='POST'){
-  const entries=Object.fromEntries(ids.map(id=>{const e=body.entries.find((e:any)=>e.id===id);return [id,{rating:e?.rating||0,comment:e?.comment||''}];}));
-  await setDoc(ref,{entries,favourite:body.favourite,name:body.name,comment:body.comment,kit:body.kit,updatedAt:serverTimestamp()});
+  const entries=ids.map(id=>body.entries.find((e:any)=>e.id===id));
+  const ratings=entries.map(e=>e?.rating||0),comments=entries.map(e=>e?.comment||'');
+  await setDoc(ref,{schemaVersion:2,ratings,comments,favourite:body.favourite,name:body.name,email:body.email,phone:body.phone,comment:body.comment,kit:body.kit,updatedAt:serverTimestamp()});
   return {saved:true};
  }
  if(method==='DELETE'){await deleteDoc(ref);return {deleted:true};}
