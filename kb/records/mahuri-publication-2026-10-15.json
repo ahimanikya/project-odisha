@@ -1,0 +1,72 @@
+{
+  "recorded_at": "2026-10-15T05:49:08.616649+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-089",
+  "work_id": "UTP-WORK-278",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/252",
+  "reviewed_head": "f13ba3a2a512ce568008a6376552e3dfcc8c10b6",
+  "merge_commit": "3d378fa5704eedd3a0062bc20eae42da2d871642",
+  "merged_at": "2026-10-15T05:45:02Z",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "f13ba3a2a512ce568008a6376552e3dfcc8c10b6",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38688204006"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "3d378fa5704eedd3a0062bc20eae42da2d871642",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38688499168",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-15T05:48:44.107960+00:00",
+    "page": "https://projectodisha.org/stories/mahuri/",
+    "http_status": 200,
+    "page_sha256": "afb7afd4e7e1af5121505d4bae89e5fbbceb65410269efc96a34602aed497c08",
+    "paragraphs_verified": 13,
+    "sources_verified": 5,
+    "section_links": 5,
+    "collection_and_explore": {
+      "/sounds-of-odisha/": 200,
+      "/explore/": 200
+    },
+    "core_chapters": 8,
+    "noindex": true,
+    "sitemap_entries": 11,
+    "browser": "Published desktop article inspected and source navigation verified. Local390px layout, keyboard contents/source disclosure and Muhuri search returning one story verified.",
+    "screenshot": "/tmp/mahuri-live.png"
+  },
+  "outputs": [
+    {
+      "path": "projects/site/src/pages/stories/mahuri.astro",
+      "sha256": "30fd7bc9367d363355510d0314a5e85f246f8f086ada20cc0872c6f82080db4b",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/culture/mahuri-website.json",
+      "sha256": "29e42e064764d34dff9fc21b5f6eca48b92dbcfa7ef649ee22ca63efbd82a4a2",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/sources/mahuri-research.json",
+      "sha256": "6ebc09e90ceaf9fc3434c022e94f9f327c80a4c70ad2e240e0a29234ce327573",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/product/sounds-discovery.json",
+      "sha256": "c5776e8e0520647727e1097a20809709bb09e6eb4ab54b79cbbeec9d5ad4eccc",
+      "matches_fetched_merge": true
+    }
+  ],
+  "review": "records/mahuri-review-2026-10-15.json",
+  "limitations": [
+    "Same-assistant source and implementation review; no independent human, practitioner or screen-reader review.",
+    "ICCR programme calendar date not stated. Museum English text is machine-translated; original provider link failed in web reader.",
+    "No founding date, maker lineage, audio, current booking or field observation established."
+  ],
+  "attachment": "App attachment attempted; thread attachment identity count exceeds100. PR URL retained."
+}
