@@ -2,23 +2,26 @@
 import paths from '../../../../kb/research/product/sounds-reading-paths.json';
 import config from '../../../../kb/research/product/sounds-discovery.json';
 import {soundDiscoveryEntries} from '../data/sounds-discovery';
+interface Props { current?: string }
+const {current}=Astro.props;
+if(current && !paths.paths.some(path=>path.stories.includes(current))) throw new Error(`Unknown current Sounds story: ${current}`);
 const groups=paths.paths.map(group=>({...group,entries:group.stories.map(id=>{
  const source=config.entries.find(entry=>entry.id===id);
  const entry=soundDiscoveryEntries.find(entry=>entry.href===source?.href);
  if(!entry)throw new Error(`Unknown Sounds reading path story: ${id}`);
- return entry;
-})}));
+ return {...entry,id};
+})})).sort((a,b)=>Number(Boolean(current&&b.stories.includes(current)))-Number(Boolean(current&&a.stories.includes(current))));
 ---
 <details class="sound-reading-paths" id="reading-paths">
- <summary>Choose a reading path <span class="path-count">{groups.length} ways into the collection</span></summary>
+ <summary>{current?'Continue your reading path':'Choose a reading path'} <span class="path-count">{current?'Find your place and choose another story':`${groups.length} ways into the collection`}</span></summary>
  <div class="paths-body"><p class="paths-intro">{paths.intro}</p>
  <div class="paths-grid">{groups.map(group=><section aria-labelledby={'reading-path-'+group.id}>
- <h2 id={'reading-path-'+group.id}>{group.title}</h2><p>{group.question}</p>
- <ul>{group.entries.map(entry=><li><a href={entry.href}>{entry.label}</a></li>)}</ul>
+ <h2 id={'reading-path-'+group.id}>{group.title}</h2>{current&&group.stories.includes(current)&&<p class="current-path">Your current path</p>}<p>{group.question}</p>
+ <ul>{group.entries.map(entry=><li><a href={entry.href} aria-current={entry.id===current?'page':undefined}>{entry.label}{entry.id===current&&<span class="current-story"> · You are here</span>}</a></li>)}</ul>
  </section>)}</div><p class="paths-note">{paths.note}</p></div>
 </details>
 <style>
 .sound-reading-paths{border:1px solid var(--line);margin:24px 0;background:var(--paper);scroll-margin-top:110px}
 summary{padding:20px 24px;cursor:pointer;font-size:23px;color:var(--sea);line-height:1.5}summary:focus-visible,a:focus-visible{outline:3px solid var(--earth);outline-offset:4px}.path-count{display:block;font-family:var(--font-body, sans-serif);font-size:14px;color:var(--muted);margin-left:24px}
-.paths-body{padding:0 24px 24px}.paths-intro{max-width:800px;font-size:18px;line-height:1.7}.paths-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 40px}.paths-grid section{border-top:1px solid var(--line);padding-top:20px}.paths-grid h2{font-size:30px;line-height:1.25;margin:0 0 12px}.paths-grid p{font-size:17px;line-height:1.65;margin:0 0 14px}.paths-grid ul{list-style:none;padding:0;margin:0}.paths-grid li{margin:0}.paths-grid a{display:block;padding:10px 0;min-height:44px;line-height:1.6;color:var(--sea);text-decoration:underline;text-underline-offset:4px;overflow-wrap:anywhere}.paths-note{font-size:15px;line-height:1.7;margin:28px 0 0;max-width:850px}@media(max-width:640px){.paths-grid{grid-template-columns:1fr;gap:20px}summary{padding:18px;font-size:22px}.paths-body{padding:0 18px 20px}.paths-grid h2{font-size:28px}}
+.paths-body{padding:0 24px 24px}.paths-intro{max-width:800px;font-size:18px;line-height:1.7}.paths-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 40px}.paths-grid section{border-top:1px solid var(--line);padding-top:20px}.paths-grid h2{font-size:30px;line-height:1.25;margin:0 0 12px}.paths-grid p{font-size:17px;line-height:1.65;margin:0 0 14px}.paths-grid ul{list-style:none;padding:0;margin:0}.paths-grid li{margin:0}.paths-grid a{display:block;padding:10px 0;min-height:44px;line-height:1.6;color:var(--sea);text-decoration:underline;text-underline-offset:4px;overflow-wrap:anywhere}.paths-grid .current-path{color:var(--clay);font-size:14px;font-weight:600}.paths-grid a[aria-current=page]{font-weight:700}.current-story{font-size:14px;color:var(--clay)}.paths-note{font-size:15px;line-height:1.7;margin:28px 0 0;max-width:850px}@media(max-width:640px){.paths-grid{grid-template-columns:1fr;gap:20px}summary{padding:18px;font-size:22px}.paths-body{padding:0 18px 20px}.paths-grid h2{font-size:28px}}
 </style>
