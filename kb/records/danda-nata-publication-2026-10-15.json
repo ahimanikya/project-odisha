@@ -1,0 +1,93 @@
+{
+  "recorded_at": "2026-10-15T11:53:26.455055+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-095",
+  "work_id": "UTP-WORK-284",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/258",
+  "reviewed_head": "41b0475aacc5176c055fc76831775d39d7e9ffde",
+  "merge_commit": "2e227378e43085bb22e36c3269b11b5ca00e040f",
+  "merged_at": "2026-10-15T11:49:17Z",
+  "validation": {
+    "conclusion": "success",
+    "createdAt": "2026-10-15T11:45:03Z",
+    "databaseId": 38729552665,
+    "headSha": "41b0475aacc5176c055fc76831775d39d7e9ffde",
+    "status": "completed",
+    "updatedAt": "2026-10-15T11:47:40Z",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38729552665"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "createdAt": "2026-10-15T11:49:35Z",
+    "databaseId": 38730093992,
+    "headSha": "2e227378e43085bb22e36c3269b11b5ca00e040f",
+    "status": "completed",
+    "updatedAt": "2026-10-15T11:52:08Z",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38730093992",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-15T11:53:09.037063+00:00",
+    "pages": [
+      {
+        "url": "https://projectodisha.org/stories/danda-nata/",
+        "status": 200,
+        "sha256": "fd67a323acf4fac5e12dea4261f153a8b833b8320c00efbb3021bb541b0b9b62"
+      },
+      {
+        "url": "https://projectodisha.org/sounds-of-odisha/",
+        "status": 200,
+        "sha256": "468d939c6d4e7c00adfd7d830499f0fa09c95a86036f5e215a99bf87c5668fb8"
+      },
+      {
+        "url": "https://projectodisha.org/explore/",
+        "status": 200,
+        "sha256": "8a527d0df7c36f17f56704959eee6317e7b11b9e0dcf8840602c5b58a5eb4925"
+      },
+      {
+        "url": "https://projectodisha.org/sounds-of-odisha/",
+        "status": 200,
+        "sha256": "468d939c6d4e7c00adfd7d830499f0fa09c95a86036f5e215a99bf87c5668fb8"
+      },
+      {
+        "url": "https://projectodisha.org/sitemap.xml",
+        "status": 200,
+        "sha256": "65430f0063cd4750794ff628e88549f0e252c485acfef118edce08b13fbf49bd"
+      }
+    ],
+    "canonical_paragraphs": 13,
+    "sources": 2,
+    "discovery": "Sounds collection, movement reading path and Explore include dedicated route",
+    "indexable_routes": 11,
+    "robots": "noindex, follow",
+    "limitations": "HTTP response and canonical text checks do not constitute practitioner or independent human review.",
+    "browser": "Local phone and desktop checked; keyboard source navigation and Explore query passed. Live article visually verified.",
+    "screenshot": "/tmp/danda-nata-live.png"
+  },
+  "outputs": [
+    {
+      "path": "kb/research/culture/danda-nata-website.json",
+      "sha256": "d89bbe8677f9329a1a2f411c869ee21082b122f412f8947e3a0e51667a32c058",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/sources/danda-nata-research.json",
+      "sha256": "7f3ac488962eff7c93ae4813a8590ae228e54bb32a46acce86bd6268b02d6758",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/stories/danda-nata.astro",
+      "sha256": "cfba174aeace80f5eef34f63b7e553e0f512f2d2430270b35c3ea64d49f81d2b",
+      "matches_fetched_merge": true
+    }
+  ],
+  "review": "records/danda-nata-review-2026-10-15.json",
+  "limitations": [
+    "Same-assistant implementation and editorial review; no independent human, practitioner or physical screen-reader review.",
+    "Origin chronology and local variation remain open. Historical descriptions do not establish current event dates or availability.",
+    "2022 essay inspected as extracted PDF text, without page-image verification; failed certificate retrievals were not bypassed. No lyrics, audio or source photographs republished."
+  ],
+  "attachment": "App attachment attempted; thread attachment identity count exceeds 100. PR URL retained."
+}
