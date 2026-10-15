@@ -149,70 +149,14 @@ Historical visitor-experience release: [PR 23 publication evidence](records/visi
 
 - [Konark and Mamallapuram heritage learning proposal](specs/konark-mamallapuram-learning-proposal.md) — a sourced candidate for reciprocal visitor storytelling, with local interest and activity decisions still open.
 
-- [Huluhuli and the sounds of Odisha](research/culture/huluhuli.md) — a sourced article on origin, tradition and culture, with [research notes](research/sources/huluhuli-research.md).
+## Sounds of Odisha: research and published reading
 
-[Sounds of Odisha](research/culture/sounds-of-odisha.md) — voices, instruments and everyday sound; [Sankha](research/culture/sankha.md) joins Huluhuli.
+The [maintained collection directory](research/culture/sounds-of-odisha.md#what-is-published) links **22 published full stories**, their KB narratives, website text and release receipts, checked against saved delivery evidence on 15 October 2026 (UTC). Eight core chapters and fourteen further readings are distinct; the collection and listening notebook are additional pages.
 
-[Mardala: the conversation beneath the dance](research/culture/mardala.md) joins Sounds of Odisha, with named teachers, creative credits and listening prompts.
+- [Read Sounds of Odisha](https://projectodisha.org/sounds-of-odisha/) or use the [listening notebook](https://projectodisha.org/sounds-of-odisha/listening-notebook/).
+- [Huluhuli research](research/culture/huluhuli.md) and [source dossier](research/sources/huluhuli-research.md) retain origin limits; the [tongue-motion correction receipt](records/huluhuli-tongue-correction-publication-2026-10-12.json) records the Founder's correction.
+- [Boat songs](research/culture/boat-songs.md) is published as further reading, with [delivery evidence](records/boat-songs-publication-2026-10-15.json).
+- [Source notes across the eight core stories](records/core-sound-sources-publication-2026-10-15.json) provide passage-to-evidence navigation. [Discovery](research/product/sounds-discovery.json) and [thematic reading paths](research/product/sounds-reading-paths.json) connect all published sound stories.
+- [Recording model](models/sound-recording.md) and [listening briefs](records/sound-recording-briefs.json) describe preparation; no audio archive or confirmed performance booking is implied.
 
-[Dalkhai](research/culture/dalkhai.md) now connects song, occasion and listening in Sounds of Odisha; earlier evidence and viewing limits preserved.
-
-[Daskathia](research/culture/daskathia.md) connects voice, wooden rhythm and literary storytelling in Sounds of Odisha.
-
-[Ghanta and ghanti](research/culture/ghanta-ghanti.md) connects metalworking, ritual sound and local group playing in Sounds of Odisha.
-
-[Pala](research/culture/pala.md) now includes an illustrated Sounds of Odisha listening story; earlier research is preserved.
-
-[Dhemsa](research/culture/dhemsa.md) connects group movement, community and place in Sounds of Odisha.
-
-[Sound recording model](models/sound-recording.md) connects source-linked listening briefs to honest capture, rights and accessibility states.
-
-[Sounds of Odisha website collection](research/culture/sounds-website.json) contains the introductory public-page candidate; full articles remain separate KB drafts.
-
-[Sounds of Odisha introductory collection](https://projectodisha.org/sounds-of-odisha/) is now public; [publication receipt](records/sounds-website-publication-2026-10-12.json). Full article pages and audio remain follow-up.
-
-[Pala website story](research/culture/pala-website.json) prepares the first full individual reader story from the Sounds of Odisha KB collection.
-
-[Full Pala reader story](https://projectodisha.org/sounds-of-odisha/pala/) is published; [receipt](records/pala-website-publication-2026-10-12.json).
-
-[Huluhuli website story](research/culture/huluhuli-website.json) preserves the full individual reader story from the Sounds of Odisha KB collection.
-
-[Full Huluhuli article](https://projectodisha.org/sounds-of-odisha/huluhuli/) is published with imagined Human Natural artwork; [receipt](records/huluhuli-website-publication-2026-10-12.json).
-
-[Sankha website story](research/culture/sankha-website.json) prepares the a full individual reader story from the Sounds of Odisha KB collection.
-
-[Full Sankha article](https://projectodisha.org/sounds-of-odisha/sankha/) is published with imagined Human Natural artwork; [receipt](records/sankha-website-publication-2026-10-12.json).
-
-[Mardala website story](research/culture/mardala-website.json) connects musicians, teaching and production credits with the Sounds of Odisha reader collection.
-
-[Daskathia website story](research/culture/daskathia-website.json) connects oral narrative, response and rhythm with the Sounds of Odisha reader collection.
-
-[Ghanta and ghanti website story](research/culture/ghanta-ghanti-website.json) connects metalworking, ritual and players with the Sounds of Odisha reader collection.
-
-[Dalkhai website story](research/culture/dalkhai-website.json) connects oral narrative, response and rhythm with the Sounds of Odisha reader collection.
-
-[Dhemsa website story](research/culture/dhemsa-website.json) connects oral narrative, response and rhythm with the Sounds of Odisha reader collection.
-
-[Visitor listening notebook](research/culture/listening-notebook.json) turns Sounds of Odisha reading into careful preparation, observation and reflection.
-
-[Sounds reading flow](research/product/sounds-reading-flow.json) describes the continuous eight-story path and visitor-notebook ending.
-
-[Gotipua learning story](research/culture/gotipua.md) extends the existing nucleus with named teaching routes, rhythm and dated programme evidence; website adaptation is separate.
-
-[Gotipua website story](research/culture/gotipua-website.json) prepares a further-reading page from the source-reviewed learning narrative.
-
-[Sounds collection discovery](research/product/sounds-discovery.json) connects published stories and the listening notebook to Explore search.
-
-- [Odia lullabies and childhood song · 12 October 2026](research/culture/odia-lullabies.md) — Reader article with digitised-book evidence and family-version questions; [website publication verified](records/odia-lullabies-website-publication-2026-10-12.json).
-
-- [Listening to craft through Kotpad · 13 October 2026](research/culture/craft-listening.md) — Reader article and source reuse; [website publication verified](records/craft-listening-website-publication-2026-10-13.json). Acoustic documentation remains open.
-
-- [Listening to Chilika](research/culture/chilika-listening.md) — Mangalajodi setting, birding conduct and a visitor listening exercise; [website article](https://projectodisha.org/stories/chilika-listening/) published; [delivery evidence](records/chilika-listening-publication-2026-10-15.json).
-
-[Kendara and the travelling song](research/culture/kendara.md) — Bowed-string singing, named performers and dated sources.
-
-[Kendara website article](https://projectodisha.org/stories/kendara/) is published as further reading; [publication receipt](records/kendara-publication-2026-10-15.json). Practitioner review and audio remain follow-up.
-
-[Ghumura: the drum carried into the dance](research/culture/ghumura.md) — Kalahandi’s ensemble and festival life, with dated source notes and a website article candidate.
-
-[Ghumura website article](https://projectodisha.org/stories/ghumura/) is published as further reading; [publication receipt](records/ghumura-publication-2026-10-15.json). Historical origins, audio and practitioner review remain open.
+Use the directory's [unfinished evidence questions](research/culture/sounds-of-odisha.md#what-remains-unfinished) for follow-up. Publication does not close practitioner/language review, source-access limits or local confirmation. Historical receipts and original research remain intact; later delivery state belongs to the current registers.
