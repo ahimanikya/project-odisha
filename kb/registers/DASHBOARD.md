@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `1b6bae6f037ca28c3d5978b2af4e90c0a8c3a15405fa513a43cf991a3c09dddd`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `5568dc370c26c593a22559a71dd1c8e3b878c1eeea168b8a9e8bd0a95282eb01`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -304,7 +304,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026101505 · Eighteen complete Jhula choices with inclusive styling | completed | published | Ahimanikya Satapathy | User may share saved invitation when ready; no messages sent. | — |
 | UTP-WORK-2026101506 · Nostalgic Jhula story and automatic ratings | completed | published | Ahimanikya Satapathy | User may share the held invitation when ready; no messages sent. | — |
 | UTP-WORK-286 · Dhuduki: a string beneath the story | completed | published | Ahimanikya Satapathy | Published and live-verified. Practitioner-led names, teaching histories and text/recording permissions remain follow-up; no outreach initiated. | — |
-| UTP-WORK-2026101507 · Small purchase-interest labels for Jhula choices | in_progress | reviewed | Ahimanikya Satapathy | Publish and verify compact labels. | — |
+| UTP-WORK-2026101507 · Small purchase-interest labels for Jhula choices | completed | published | Ahimanikya Satapathy | User can review the published controls. | — |
+| UTP-WORK-2026101508 · Consistent Jhula spacing and aligned design controls | in_progress | reviewed | Ahimanikya Satapathy | Publish and verify responsive layout corrections. | — |
 | UTP-WORK-287 · A listening notebook for all 21 sound stories | in_progress | reviewed | Ahimanikya Satapathy | Create PR, pass required checks, merge reviewed head, publish approved main workflow and verify live before counting. | — |
 
 ## Pending human review and decisions
@@ -604,6 +605,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-2026101506 · Eighteen Jhula votes, contact fields and male styling | approved | Ahimanikya Satapathy | Publish six additional matching kits and voting; required name and optional private contact details; male styling visual. |
 | UTP-DEC-2026101507 · Poetic Jhula story and automatic ratings | approved | Ahimanikya Satapathy | Revise and publish the existing Jhula page and its feedback behavior; preserve image provenance in project records. |
 | UTP-DEC-2026101508 · Compact purchase-interest question | approved | Ahimanikya Satapathy | Update all eighteen design controls to compact purchase-interest language on the live page. |
+| UTP-DEC-2026101509 · Correct Jhula spacing and alignment | approved | Ahimanikya Satapathy | Fix and publish consistent spacing, card alignment, responsive star controls and form layout on the existing page. |
 
 ## Reviews
 
@@ -867,6 +869,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-2026101505 | pass_with_limitations | False | AI concept images require physical sampling; anonymous browser identity does not establish one person one vote. |
 | UTP-REV-254 | pass_with_limitations | False | Same-assistant review; no independent human, practitioner or screen-reader review.; Construction evidence is an attributed cultural essay, not instrument examination. CCRT access limited to indexed page text.; No founding chronology, present performance offer, audio or lyrics claimed. |
 | UTP-REV-2026101506 | pass_with_limitations | False | Browser-based survey identity is not verified one-person-one-vote.; Comment drafts remain unsent until explicitly submitted. |
+| UTP-REV-2026101507 | pass | False | — |
 | UTP-REV-255 | pass_with_limitations | False | Same-assistant review; no independent human, practitioner or screen-reader review.; Listening suggestions do not establish a current performance, access permission, technical lesson or field encounter.; Print styles retained; no physical print or print-preview validation claimed. |
 
 ## Publication and application history
@@ -1007,6 +1010,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-2026101505 · Eighteen Jhula choices and male styling published | published | https://projectodisha.org/odia-poetry-jhula/ | UTP-DEC-2026101506 |
 | UTP-REL-127 · Dhuduki: a string beneath the story | published | https://projectodisha.org/stories/dhuduki/ | UTP-DEC-225 |
 | UTP-REL-2026101506 · Poetic Jhula story and automatic ratings published | published | https://projectodisha.org/odia-poetry-jhula/ | UTP-DEC-2026101507 |
+| UTP-REL-2026101507 · Compact Jhula controls published | published | https://projectodisha.org/odia-poetry-jhula/ | UTP-DEC-2026101508 |
 
 ## Sources and assets
 
@@ -1044,8 +1048,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101595 | 2026-10-15T13:08:15.182677+00:00 | Added six supplied concept boards to a separate non-voting gallery. | — |
-| UTP-EVT-2026101596 | 2026-10-15T13:18:27.925782+00:00 | Verified six additional images on live page without voting controls. | — |
 | UTP-EVT-2026101597 | 2026-10-15T13:32:54.071360+00:00 | Prepared eighteen-choice voting, private contact fields, six additional kits and male styling; Firebase emulator checks passed. | — |
 | UTP-EVT-2026101598 | 2026-10-15T13:46:49.496908+00:00 | Published and verified eighteen-choice survey, complete additional kits and male styling. | — |
 | UTP-EVT-2026101599 | 2026-10-15T14:00:48.973005+00:00 | Prepared sourced nostalgic narrative and automatic preference saves, separating explicit comment/contact submission. | — |
@@ -1053,6 +1055,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101533 | 2026-10-15T14:06:07.868877+00:00 | Published Dhuduki dedicated story and KB source dossier. Full narrative and four sources verified live; attributed construction, audition date and locality distinctions retained. Item 097 counted after receipt; total 97. | — |
 | UTP-EVT-20261015100 | 2026-10-15T14:19:14.087581+00:00 | Verified live poetic story, Odia quote, automatic ratings and explicitly submitted comments with reply contact. | — |
 | UTP-EVT-20261015101 | 2026-10-15T14:21:46.515497+00:00 | Prepared compact purchase-interest labels, keeping existing saving behavior and touch targets. | — |
+| UTP-EVT-20261015102 | 2026-10-15T14:34:24.454708+00:00 | Live verified small buying-interest prompt, preferred star endpoints and collapsed comments. | — |
+| UTP-EVT-20261015103 | 2026-10-15T14:42:02.292498+00:00 | Verified aligned desktop card controls and no wrapping or overflow down to 320px. | — |
 | UTP-EVT-2026101534 | 2026-10-15T14:53:36.573741+00:00 | Extended notebook from8 to21 sound stories with four reading paths and synchronized download. Tests and responsive/keyboard checks pass. Publication pending; total97. | — |
 
 ## Deferred extensions
