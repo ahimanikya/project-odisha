@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b814c1d0959644f02f14936c2268a0934fb69097495612d78ba26227c8229bd5`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `2c5cb1184994f3a8cdd713ae4f2a0bbf309c0e5688bb745899e45c84b2236d18`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -298,6 +298,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-284 · Danda Nata: listening beyond the stage | completed | published | Ahimanikya Satapathy | Published and live-verified. Practitioner-led names, teaching histories and text/recording permissions remain follow-up; no outreach initiated. | — |
 | UTP-WORK-2026101501 · Odia Poetry Jhula native story and survey handoff | completed | published | Ahimanikya Satapathy | Published and live-verified. Sharing remains deferred by user. | — |
 | UTP-WORK-2026101502 · Inline feedback for all twelve Jhula designs | completed | published | Ahimanikya Satapathy | Live same-page feedback verified. User will share invitation later. | — |
+| UTP-WORK-285 · Prahlada Nataka: a story carried in song | in_progress | reviewed | Ahimanikya Satapathy | Create PR, pass checks, merge reviewed head and publish through approved main workflow; verify live and save receipt before counting. | — |
 | UTP-WORK-2026101503 · Firebase-backed inline Jhula ratings | in_progress | draft | Ahimanikya Satapathy | Verify isolated Firebase rules, publish website and verify live save/update/withdraw. | — |
 
 ## Pending human review and decisions
@@ -850,6 +851,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-252 | pass_with_limitations | False | Same-assistant implementation and editorial review; no independent human, practitioner or physical screen-reader review.; Origin chronology and local variation remain open. Historical descriptions do not establish current event dates or availability.; 2022 essay inspected as extracted PDF text, without page-image verification; failed certificate retrievals were not bypassed. No lyrics, audio or source photographs republished. |
 | UTP-REV-2026101501 | pass_with_limitations | False | Same-assistant implementation and review. Physical products, creator agreements and book selection remain unconfirmed. Voting remains on the original survey origin. |
 | UTP-REV-2026101502 | pass_with_limitations | False | Same-assistant review; no identity verification. Browser storage needed for later revision.; Earlier shortlist votes preserved separately; not automatically combined with ratings. |
+| UTP-REV-253 | pass_with_limitations | False | Same-assistant editorial and implementation review; no independent human, practitioner or screen-reader review.; Approximate composition dates differ; no original manuscript or early edition inspected. A scheduled lecture abstract is not evidence of its delivery.; No audio, lyrics or source imagery republished; present-day practice and musical transmission remain research follow-up. |
 
 ## Publication and application history
 
@@ -1020,7 +1022,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101525 | 2026-10-15T09:58:14.818481+00:00 | Published Chaiti Ghoda dedicated story and KB source dossier. Full narrative and three sources verified live; dated evidence and legend limits retained. Item 093 counted after receipt; total 93. | — |
 | UTP-EVT-2026101526 | 2026-10-15T10:37:27.388438+00:00 | Reviewed four editorial reading paths connecting eighteen published Sounds stories. Keyboard and responsive checks pass; publication pending and count remains 93. | — |
 | UTP-EVT-2026101527 | 2026-10-15T10:44:49.494416+00:00 | Published four Sounds reading paths connecting eighteen existing articles. Native keyboard and responsive checks passed; live output verified. Item 094 counted after receipt; total 94. | — |
 | UTP-EVT-2026101528 | 2026-10-15T11:44:19.527421+00:00 | Prepared Danda Nata further-reading article with attributed ritual, theatre, ensemble and uncertain origin account. Tests and responsive/source-link review pass; publication pending. No independent human review claimed. | — |
@@ -1028,6 +1029,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-ACT-2026101501 | 2026-10-15T12:12:19.943923+00:00 | Prepared Founder-requested Odia Poetry Jhula page and preserved existing survey origin. | — |
 | UTP-EVT-2026101590 | 2026-10-15T12:26:31.099437+00:00 | Published and browser-verified Odia Poetry Jhula with twelve sets and existing survey handoff. | — |
 | UTP-EVT-2026101591 | 2026-10-15T12:34:37.077208+00:00 | Prepared and locally tested inline ratings and comments for all twelve designs, preserving earlier ballots. | — |
+| UTP-EVT-2026101530 | 2026-10-15T12:50:31.490862+00:00 | Prepared Prahlada Nataka article and source dossier with explicit date discrepancy. Tests and responsive/navigation checks pass; no independent human review claimed. Publication pending. | — |
 | UTP-EVT-2026101592 | 2026-10-15T12:42:17.326144+00:00 | Published and live-verified inline ratings and private comments for all twelve designs. Earlier ballots preserved. | — |
 | UTP-EVT-2026101593 | 2026-10-15T12:52:49.427511+00:00 | Prepared Firebase survey integration and clarified bag-only design references; live publication remains pending. | — |
 
