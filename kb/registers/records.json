@@ -7905,6 +7905,28 @@
         "records/ranapa-publication-2026-10-15.json"
       ],
       "acceptance_criteria": "Expand the existing Ranapa seed into a source-linked Sounds further-reading article about Ganjam stilt dance, rhythmic accompaniment and documented performance credits. Reuse tourism, EZCC and Sangeet Natak Akademi sources; verify missing context and retain origin uncertainty. Save canonical KB narrative and source dossier, publish with collection/Explore links and section/source navigation. Preserve eight core chapters and eleven search-eligible routes. Complete factual, meaningful test and visual review, passing reviewed-head PR, approved main publication and live receipt before counting. No audio, fieldwork, current booking or human review invented."
+    },
+    {
+      "id": "UTP-WORK-280",
+      "title": "Connect sound-story passages to their source notes",
+      "category": "website_reader_experience",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Publish reviewed head after PR checks, verify live links and save receipt before counting.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-075",
+        "UTP-REV-248"
+      ],
+      "evidence": [
+        "research/product/sound-source-links.json",
+        "records/sound-source-links-review-2026-10-15.json"
+      ],
+      "acceptance_criteria": "Expose the existing section-to-source mappings in Ghumura, Mahuri and Ranapa as readable links beside their passages. Each link must reveal and land on the matching source note, including its locator and caveat, with working keyboard and direct-fragment access. Reuse canonical source_ids without creating new factual mappings; preserve narrative, citations, discovery, eight core chapters and eleven search-eligible routes. Validate built coverage, mobile/desktop layout, reviewed-head PR and approved main deployment; save live receipt before counting once."
     }
   ],
   "decisions": [
@@ -18222,6 +18244,27 @@
         "Same-assistant factual and implementation review; no independent human, practitioner or screen-reader review.",
         "2014 sound context comes from inspected search-indexed passage; complete PDF retrieval failed. Full text and historical foundations remain a research gap.",
         "No founding date, universal accompaniment, current performance booking, audio or fieldwork established."
+      ]
+    },
+    {
+      "id": "UTP-REV-248",
+      "title": "Sound-story source navigation review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-280"
+      ],
+      "evidence": [
+        "records/sound-source-links-review-2026-10-15.json"
+      ],
+      "limitations": [
+        "Same-assistant implementation review; no independent human or assistive-technology user review.",
+        "Existing factual, indexed-source retrieval and practitioner-review limits remain unchanged.",
+        "Coverage is the three recent source-mapped stories; other article formats remain outside this bounded item."
       ]
     }
   ],

@@ -1,0 +1,33 @@
+{
+  "title": "Passage-to-source navigation for sound stories",
+  "recorded_at": "2026-10-15T07:36:38.875361+00:00",
+  "authorization": "UTP-DEC-225",
+  "work_id": "UTP-WORK-280",
+  "observed_gap": "Ghumura, Mahuri and Ranapa have canonical block source_ids but their templates render only a combined source list at the end. Readers cannot follow a passage to its corresponding note and retrieval limits.",
+  "routes": [
+    "/stories/ghumura/",
+    "/stories/mahuri/",
+    "/stories/ranapa/"
+  ],
+  "reuse": [
+    "research/culture/ghumura-website.json",
+    "research/culture/mahuri-website.json",
+    "research/culture/ranapa-website.json"
+  ],
+  "acceptance": "Expose the existing section-to-source mappings in Ghumura, Mahuri and Ranapa as readable links beside their passages. Each link must reveal and land on the matching source note, including its locator and caveat, with working keyboard and direct-fragment access. Reuse canonical source_ids without creating new factual mappings; preserve narrative, citations, discovery, eight core chapters and eleven search-eligible routes. Validate built coverage, mobile/desktop layout, reviewed-head PR and approved main deployment; save live receipt before counting once.",
+  "scope_limits": [
+    "No new factual research or source mappings.",
+    "Other sound-story formats and existing external inline citations remain unchanged.",
+    "No search eligibility expansion or independent human review."
+  ],
+  "implementation": {
+    "component": "projects/site/src/components/StorySourceLinks.astro",
+    "navigation": "projects/site/src/lib/story-source-links.mjs",
+    "source_count": 15,
+    "mapped_sections": 14,
+    "passage_links": 21,
+    "numbering": "Existing article source-list order; links retain full source title as accessible name.",
+    "destinations": "Stable source IDs inside existing disclosure; direct URL fragments reveal notes.",
+    "browser_finding": "Initial native fragment handling opened and focused the source note but left it below the viewport. Scoped post-navigation alignment added, including repeated source visits."
+  }
+}
