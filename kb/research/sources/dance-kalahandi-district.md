@@ -15,3 +15,5 @@ Kalahandi district administration. Art Forms of Kalahandi District, row 01 Ghumu
 Undated district description; troupe range describes a format, not statewide employment or universal requirements.
 
 [Original source](https://kalahandi.odisha.gov.in/en/tourism/culture-Heritage). Retrieved 1 October 2026. Publication date not established; report/event period is retained separately.
+
+Rechecked 15 October 2026: full district HTML table retrieved after the web text reader returned only the page shell. Row 01 still lists Ghumura with 18–20 artists and Nuakhai/Dushara festival settings. The footer update date does not date the underlying cultural description. See [expanded Ghumura dossier](ghumura-research.json).

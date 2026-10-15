@@ -87,3 +87,5 @@ Further reading: [Boat songs of Odisha](boat-songs.md) distinguishes an occupati
 Further reading: [Kendara and the travelling song](kendara.md) follows the instrument, named singers and a dated festival account.
 
 [Kendara website article](https://projectodisha.org/stories/kendara/) is published as further reading; [publication receipt](../../records/kendara-publication-2026-10-15.json). Practitioner review and audio remain follow-up.
+
+Further reading: [Ghumura: the drum carried into the dance](ghumura.md) connects the instrument, festival settings and named institutional records.

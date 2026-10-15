@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `d8ea5acaa309d05e820d01929f3afa16bf7a5b4a40100c2e5526e01c0e8196fe`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `2b8c62d8e7f6c0788a71217d0d089a4bbd16e8779bcda514f98a06c40b791a9d`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -287,6 +287,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-273 · Navigate sections within long research notes | completed | published | Ahimanikya Satapathy | Published and verified. Broader physical-device and screen-reader review remains open under WORK075. | — |
 | UTP-WORK-274 · Research and publish Kendara further reading | completed | published | Ahimanikya Satapathy | Optional future practitioner review and permission-cleared audio; no outreach or recording undertaken. | — |
 | UTP-WORK-275 · Navigate sections and sources in Sounds further reading | completed | published | Ahimanikya Satapathy | No remaining implementation work in this scope. Independent accessibility and practitioner review remain wider follow-up. | — |
+| UTP-WORK-276 · Expand and publish Ghumura as Sounds further reading | in_progress | reviewed | Ahimanikya Satapathy | Merge passing reviewed-head PR, publish through approved main workflow and verify live article before counting. | — |
 
 ## Pending human review and decisions
 
@@ -824,6 +825,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-241 | pass_with_limitations | False | Same-assistant implementation review, not independent accessibility certification.; No physical screen-reader or device testing. Native no-JavaScript details/anchors verified in generated markup, not a disabled-JavaScript browser session.; No new factual research or specialist review; existing article caveats and source dates retained. |
 | UTP-REV-242 | pass_with_limitations | False | Same-assistant source and implementation review; no independent or human practitioner review.; No audio audition, field interview, image reuse or confirmed contemporary performance offer.; Origin chronology remains open. Unretrievable Odisha Review lead excluded; accepted claims use four inspected sources. |
 | UTP-REV-243 | pass_with_limitations | False | Same-assistant implementation review; no independent accessibility certification or physical screen-reader/device testing.; Native no-JavaScript details and anchor structure checked in markup; disabled-JavaScript browser session not performed.; No new factual research or practitioner review; all six article narratives, external citations and caveats remain unchanged. |
+| UTP-REV-244 | pass_with_limitations | False | CCRT full PDF retrieval timed out; only indexed Ghumura section text was inspected and its narrow instrument description used. Report date not established; no ancient-history claims adopted.; No practitioner interview, audio audition, current booking or training outcome verification.; Sources do not establish a founding date; no claims of continuous organisational membership or lineage. |
 
 ## Publication and application history
 
@@ -983,7 +985,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101502 | 2026-10-14T22:31:44.899834+00:00 | Resumed boat-song item using alternative full-text sources; completed article, source dossier and public adaptation with collection/Explore links. Source, local build, mobile and keyboard checks pass. Publication still pending; count unchanged. | — |
 | UTP-EVT-2026101503 | 2026-10-14T22:39:54.983951+00:00 | Published Boat songs of Odisha and retained its matching KB narrative and source dossier. Verified17 paragraphs, four source links, collection and Explore discovery, noindex and eleven sitemap routes. Resumed item078 counted once after receipt; programme total82. | — |
 | UTP-EVT-2026101504 | 2026-10-14T23:23:29.702206+00:00 | Implemented URL-backed reading-room filters and safe result sharing. Tests and desktop/mobile/keyboard preview pass. Publication pending; completed count remains82. | — |
 | UTP-EVT-2026101505 | 2026-10-14T23:30:13.954132+00:00 | Published and live-verified bookmarkable/shareable reading-room searches. Item083 counted once after publication receipt; total83. All169 notes remain available; external-search selection unchanged. | — |
@@ -993,6 +994,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101509 | 2026-10-15T01:39:10.197262+00:00 | Published Kendara further reading and retained canonical KB/source dossier.13 narrative paragraphs and4 sources verified live; Explore returns one result. Item085 counted once after receipt; total85. | — |
 | UTP-EVT-2026101510 | 2026-10-15T02:30:52.724318+00:00 | Prepared section/source navigation across six Sounds further-reading articles. Keyboard/mobile checks passed and narrative/citation parity confirmed against live baseline. Publication pending; count85. | — |
 | UTP-EVT-2026101511 | 2026-10-15T02:41:37.100168+00:00 | Published compact navigation for six Sounds further-reading stories.34 section/source links verified live with unchanged narrative and external citations. Item086 counted once after receipt; total86. | — |
+| UTP-EVT-2026101512 | 2026-10-15T03:52:38.281147+00:00 | Prepared Ghumura further-reading article from existing seed with6 institutional sources. Tests, desktop/mobile source navigation and Kalahandi discovery checked. Publication pending; completed count86. | — |
 
 ## Deferred extensions
 
