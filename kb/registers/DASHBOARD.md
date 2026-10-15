@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `3d7898fc5b17eb8f68197f3d22e48e121be4385eb2ae0762aec0d3f908222095`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `d8ea5acaa309d05e820d01929f3afa16bf7a5b4a40100c2e5526e01c0e8196fe`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -199,7 +199,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
-| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue next eligible substantive item.84 of500 delivered; long research-note navigation published with live receipt. | — |
+| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue next eligible substantive item.86 of500 delivered; six Sounds further-reading navigation menus published with live receipt. | — |
 | UTP-WORK-190 · Food discovery, portable reading collection and current review-queue repair | completed | published | Ahimanikya Satapathy | Published and live-verified. Continue through the program queue under DEC225. | — |
 | UTP-WORK-191 · Build the tourism opportunities information section | completed | reviewed | Ahimanikya Satapathy | Published information scope complete. Continue WORK166 and WORK171 only when new documentary or operating evidence is available. | — |
 | UTP-WORK-192 · Align saved food cards with canonical story introductions | completed | reviewed | Ahimanikya Satapathy | Repair published and live catalogue verified; preserve canonical food fields when future stories change. | — |
@@ -286,7 +286,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-272 · Share and restore reading-room searches | completed | published | Ahimanikya Satapathy | Published and verified live. Native device sharing and physical screen-reader review remain future checks. | — |
 | UTP-WORK-273 · Navigate sections within long research notes | completed | published | Ahimanikya Satapathy | Published and verified. Broader physical-device and screen-reader review remains open under WORK075. | — |
 | UTP-WORK-274 · Research and publish Kendara further reading | completed | published | Ahimanikya Satapathy | Optional future practitioner review and permission-cleared audio; no outreach or recording undertaken. | — |
-| UTP-WORK-275 · Navigate sections and sources in Sounds further reading | in_progress | draft | Ahimanikya Satapathy | Merge passing reviewed head; publish approved main; verify six live pages and save receipt before counting. | — |
+| UTP-WORK-275 · Navigate sections and sources in Sounds further reading | completed | published | Ahimanikya Satapathy | No remaining implementation work in this scope. Independent accessibility and practitioner review remain wider follow-up. | — |
 
 ## Pending human review and decisions
 
@@ -945,6 +945,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-113 · Shareable reading-room searches | published | https://projectodisha.org/reading-room/ | UTP-DEC-225 |
 | UTP-REL-114 · Section navigation for long research notes | published | https://projectodisha.org/reading-room/ | UTP-DEC-225 |
 | UTP-REL-115 · Kendara and the travelling song | published | https://projectodisha.org/stories/kendara/ | UTP-DEC-225 |
+| UTP-REL-116 · Sounds further-reading section and source navigation | published | https://projectodisha.org/stories/boat-songs/ | UTP-DEC-225 |
 
 ## Sources and assets
 
@@ -982,7 +983,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101501 | 2026-10-14T22:18:21.066026+00:00 | Published all 39 pending request integrations through PR244. Reading room has 169 sourced notes; Osha collection has 53 profiles. All 226 new routes verified live. Boat-song evidence blocker retained; autonomous programme count unchanged. | Continue useful research without conflating early notes with completed specialist review. |
 | UTP-EVT-2026101502 | 2026-10-14T22:31:44.899834+00:00 | Resumed boat-song item using alternative full-text sources; completed article, source dossier and public adaptation with collection/Explore links. Source, local build, mobile and keyboard checks pass. Publication still pending; count unchanged. | — |
 | UTP-EVT-2026101503 | 2026-10-14T22:39:54.983951+00:00 | Published Boat songs of Odisha and retained its matching KB narrative and source dossier. Verified17 paragraphs, four source links, collection and Explore discovery, noindex and eleven sitemap routes. Resumed item078 counted once after receipt; programme total82. | — |
 | UTP-EVT-2026101504 | 2026-10-14T23:23:29.702206+00:00 | Implemented URL-backed reading-room filters and safe result sharing. Tests and desktop/mobile/keyboard preview pass. Publication pending; completed count remains82. | — |
@@ -992,6 +992,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101508 | 2026-10-15T01:30:58.290575+00:00 | Prepared Kendara further-reading article, canonical KB narrative and four-source dossier. Website, mobile and discovery checks passed; publication pending, count84. | — |
 | UTP-EVT-2026101509 | 2026-10-15T01:39:10.197262+00:00 | Published Kendara further reading and retained canonical KB/source dossier.13 narrative paragraphs and4 sources verified live; Explore returns one result. Item085 counted once after receipt; total85. | — |
 | UTP-EVT-2026101510 | 2026-10-15T02:30:52.724318+00:00 | Prepared section/source navigation across six Sounds further-reading articles. Keyboard/mobile checks passed and narrative/citation parity confirmed against live baseline. Publication pending; count85. | — |
+| UTP-EVT-2026101511 | 2026-10-15T02:41:37.100168+00:00 | Published compact navigation for six Sounds further-reading stories.34 section/source links verified live with unchanged narrative and external citations. Item086 counted once after receipt; total86. | — |
 
 ## Deferred extensions
 
