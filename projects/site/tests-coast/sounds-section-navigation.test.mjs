@@ -10,7 +10,8 @@ test('six further-reading stories expose real section destinations and revealabl
   const menu=html.match(/<details class="research-contents"[^>]*>([\s\S]*?)<\/details>/)?.[1];
   assert.ok(menu,slug);assert.match(menu,/<summary[^>]*>In this story<\/summary>/);
   const links=[...menu.matchAll(/href="#([^"]+)"[^>]*>(.*?)<\/a>/g)];
-  const headings=[...html.matchAll(/<h2 id="([^"]+)"[^>]*>(.*?)<\/h2>/g)];
+  const article=html.split('<article ',2)[1].split('</article>',1)[0];
+  const headings=[...article.matchAll(/<h2 id="([^"]+)"[^>]*>(.*?)<\/h2>/g)];
   assert.deepEqual(links.slice(0,-1).map(m=>m.slice(1)),headings.map(m=>m.slice(1)),slug);
   assert.deepEqual(headings.map(m=>m[2]),story.blocks.filter(b=>b.title).map(b=>escape(b.title)),slug);
   assert.equal(links.at(-1)[1],'story-sources');assert.equal(links.at(-1)[2],'Sources &amp; reading notes');
