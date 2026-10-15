@@ -1,0 +1,103 @@
+{
+  "recorded_at": "2026-10-15T07:55:46.110263+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-091",
+  "work_id": "UTP-WORK-280",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/254",
+  "reviewed_head": "9c01fec8853e4f487ff37ac047a122357cb5c995",
+  "merge_commit": "0523ac434aad5a49458bd2e19f80821c65e57f10",
+  "merged_at": "2026-10-15T07:49:53Z",
+  "validation": {
+    "conclusion": "success",
+    "databaseId": 38700964558,
+    "headSha": "9c01fec8853e4f487ff37ac047a122357cb5c995",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38700964558"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "databaseId": 38701408308,
+    "headSha": "0523ac434aad5a49458bd2e19f80821c65e57f10",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38701408308",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-15T07:53:01.675891+00:00",
+    "pages": [
+      {
+        "url": "https://projectodisha.org/stories/ghumura/",
+        "http_status": 200,
+        "sha256": "52007ff7de6c0b1752e1841dfea0bd1f0f1139003f64b3d948226334cb0ebe50",
+        "source_links": 8,
+        "source_notes": 6,
+        "paragraphs_verified": 13,
+        "noindex": true
+      },
+      {
+        "url": "https://projectodisha.org/stories/mahuri/",
+        "http_status": 200,
+        "sha256": "d9de9e7d23855443f9c71a4a7b7d5349446d408c8b2b5de8c75e791f940cbd3e",
+        "source_links": 7,
+        "source_notes": 5,
+        "paragraphs_verified": 13,
+        "noindex": true
+      },
+      {
+        "url": "https://projectodisha.org/stories/ranapa/",
+        "http_status": 200,
+        "sha256": "c57536b42ea51abc3e5f97afb317aeb45327c1942355c929579e9ffe1635788f",
+        "source_links": 6,
+        "source_notes": 4,
+        "paragraphs_verified": 12,
+        "noindex": true
+      }
+    ],
+    "total_source_links": 21,
+    "total_source_notes": 15,
+    "sitemap_entries": 11,
+    "browser": "Live source activation opens, focuses and aligns the corresponding note; passage links inspected. Local 390px and 1280px layout, direct-fragment arrival and repeated activation after closing notes passed.",
+    "screenshot": "/tmp/sound-source-links-live.png"
+  },
+  "outputs": [
+    {
+      "path": "projects/site/src/components/StorySourceLinks.astro",
+      "sha256": "a3e5e0e89a6a923438e5d261ada66013ad08f9dea6466d7ee373a02ad6f91609",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/lib/story-source-links.mjs",
+      "sha256": "fd43a69cde2180afb00f5565c921de08843f504b835c91acdb1eb24217dcc7fa",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/product/sound-source-links.json",
+      "sha256": "e189cc0f73c360eb0482c0bd66a85c52844557fc09e22a18567857c9e81b4d1d",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/stories/ghumura.astro",
+      "sha256": "d2b13279efaf26c40a7c4f82e63a169dd4f2f2dbdaa77bc9a22165b3bb9d320c",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/stories/mahuri.astro",
+      "sha256": "26ddd244f85a6c4ee1194bd737c8e4afbae6b6f5ae5c5927725ab2463c2fca7a",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/stories/ranapa.astro",
+      "sha256": "cdd876083ff3fc5a64f2825352314d30b7787c06555147f8ce382fb7951542d6",
+      "matches_fetched_merge": true
+    }
+  ],
+  "review": "records/sound-source-links-review-2026-10-15.json",
+  "limitations": [
+    "Same-assistant implementation review; no independent human or assistive-technology user review.",
+    "Existing factual, indexed-source retrieval and practitioner-review limits remain unchanged.",
+    "Coverage is the three recent source-mapped stories; other article formats remain outside this bounded item."
+  ],
+  "attachment": "App attachment attempted; thread attachment identity count exceeds 100. PR URL retained."
+}

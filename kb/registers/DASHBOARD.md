@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `9313f8e021555051842e26beda7f447688269a2d55839ab4f953806d9528f2a6`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `5668778df72098319c88a1c0d01a4e27d56e4f9252fed5cc89b3475da0c117f5`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -199,7 +199,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
-| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue eligible substantive work sequentially under UTP-DEC-225; 90 of 500 evidenced items completed. Resume any in-progress item first. | — |
+| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue eligible substantive work sequentially under UTP-DEC-225; 91 of 500 evidenced items completed. Resume any in-progress item first. | — |
 | UTP-WORK-190 · Food discovery, portable reading collection and current review-queue repair | completed | published | Ahimanikya Satapathy | Published and live-verified. Continue through the program queue under DEC225. | — |
 | UTP-WORK-191 · Build the tourism opportunities information section | completed | reviewed | Ahimanikya Satapathy | Published information scope complete. Continue WORK166 and WORK171 only when new documentary or operating evidence is available. | — |
 | UTP-WORK-192 · Align saved food cards with canonical story introductions | completed | reviewed | Ahimanikya Satapathy | Repair published and live catalogue verified; preserve canonical food fields when future stories change. | — |
@@ -291,7 +291,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-277 · Improve Sounds collection further-reading discovery | completed | published | Ahimanikya Satapathy | Published and live-verified. Existing article research and recording gaps remain separate follow-up work. | — |
 | UTP-WORK-278 · Research and publish a Mahuri Sounds article | completed | published | Ahimanikya Satapathy | Published and live-verified. Maker histories, practitioner interviews and audio remain separate research gaps. | — |
 | UTP-WORK-279 · Research and publish a Ranapa Sounds article | completed | published | Ahimanikya Satapathy | Published and live-verified. Full2014PDF recovery, practitioner interviews and audio remain separate research gaps. | — |
-| UTP-WORK-280 · Connect sound-story passages to their source notes | in_progress | reviewed | Ahimanikya Satapathy | Publish reviewed head after PR checks, verify live links and save receipt before counting. | — |
+| UTP-WORK-280 · Connect sound-story passages to their source notes | completed | published | Ahimanikya Satapathy | Published and live-verified. Other article formats require their own checked section-source mappings before extending this navigation. | — |
 
 ## Pending human review and decisions
 
@@ -960,6 +960,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-118 · Sounds collection further-reading discovery | published | https://projectodisha.org/sounds-of-odisha/#further-reading | UTP-DEC-225 |
 | UTP-REL-119 · Mahuri Sounds of Odisha article and KB narrative | published | https://projectodisha.org/stories/mahuri/ | UTP-DEC-225 |
 | UTP-REL-120 · Ranapa Sounds of Odisha article and KB narrative | published | https://projectodisha.org/stories/ranapa/ | UTP-DEC-225 |
+| UTP-REL-121 · Passage-to-source navigation in three sound stories | published | https://projectodisha.org/stories/mahuri/ | UTP-DEC-225 |
 
 ## Sources and assets
 
@@ -997,7 +998,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101511 | 2026-10-15T02:41:37.100168+00:00 | Published compact navigation for six Sounds further-reading stories.34 section/source links verified live with unchanged narrative and external citations. Item086 counted once after receipt; total86. | — |
 | UTP-EVT-2026101512 | 2026-10-15T03:52:38.281147+00:00 | Prepared Ghumura further-reading article from existing seed with6 institutional sources. Tests, desktop/mobile source navigation and Kalahandi discovery checked. Publication pending; completed count86. | — |
 | UTP-EVT-2026101513 | 2026-10-15T04:26:01.937031+00:00 | Published Ghumura further reading with expanded KB record and six-source dossier.13 narrative paragraphs,6 citations and Kalahandi discovery verified live. Item087 counted once after receipt; total87. | — |
 | UTP-EVT-2026101514 | 2026-10-15T04:32:57.158709+00:00 | Prepared a distinct Sounds further-reading section with seven canonical story introductions and early jump. Desktop/phone layout, keyboard navigation, canonical coverage and unchanged core chapters checked. Publication pending; total87. | — |
@@ -1007,6 +1007,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101518 | 2026-10-15T06:43:18.948114+00:00 | Reviewed Ranapa public narrative and source dossier; four source notes, canonical discovery and phone/desktop reading verified. Indexed-only2014 retrieval explicitly disclosed. Await publication receipt; total remains89. | — |
 | UTP-EVT-2026101519 | 2026-10-15T06:50:33.712829+00:00 | Published Ranapa article with canonical KB narrative and four-source dossier. Twelve paragraphs, four citations and Sounds discovery verified live. Eight core chapters and eleven sitemap entries retained. Item090 counted once after receipt; total90. | — |
 | UTP-EVT-2026101520 | 2026-10-15T07:42:03.212807+00:00 | Reviewed21 passage-to-source links across three sound stories. Corrected observed fragment scrolling failure; keyboard, direct arrival, repeated activation and phone/desktop checks pass. Await live receipt; total90. | — |
+| UTP-EVT-2026101521 | 2026-10-15T07:55:46.110263+00:00 | Published source navigation in three sound stories. 21 passage links and 15 notes verified live; source caveats and full prose retained. Item 091 counted after receipt; total 91. | — |
 
 ## Deferred extensions
 

@@ -5603,7 +5603,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Continue eligible substantive work sequentially under UTP-DEC-225; 90 of 500 evidenced items completed. Resume any in-progress item first.",
+      "next_action": "Continue eligible substantive work sequentially under UTP-DEC-225; 91 of 500 evidenced items completed. Resume any in-progress item first.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225"
@@ -7910,21 +7910,23 @@
       "id": "UTP-WORK-280",
       "title": "Connect sound-story passages to their source notes",
       "category": "website_reader_experience",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Publish reviewed head after PR checks, verify live links and save receipt before counting.",
+      "next_action": "Published and live-verified. Other article formats require their own checked section-source mappings before extending this navigation.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225",
         "UTP-WORK-075",
-        "UTP-REV-248"
+        "UTP-REV-248",
+        "UTP-REL-121"
       ],
       "evidence": [
         "research/product/sound-source-links.json",
-        "records/sound-source-links-review-2026-10-15.json"
+        "records/sound-source-links-review-2026-10-15.json",
+        "records/sound-source-links-publication-2026-10-15.json"
       ],
       "acceptance_criteria": "Expose the existing section-to-source mappings in Ghumura, Mahuri and Ranapa as readable links beside their passages. Each link must reveal and land on the matching source note, including its locator and caveat, with working keyboard and direct-fragment access. Reuse canonical source_ids without creating new factual mappings; preserve narrative, citations, discovery, eight core chapters and eleven search-eligible routes. Validate built coverage, mobile/desktop layout, reviewed-head PR and approved main deployment; save live receipt before counting once."
     }
@@ -20240,6 +20242,22 @@
         "records/ranapa-publication-2026-10-15.json"
       ],
       "note": "PR253 passing reviewed head merged and approved main workflow published. Twelve narrative paragraphs, four sources, section navigation and collection/Explore discovery verified live."
+    },
+    {
+      "id": "UTP-REL-121",
+      "title": "Passage-to-source navigation in three sound stories",
+      "status": "published",
+      "authorization": "UTP-DEC-225",
+      "destination": "https://projectodisha.org/stories/mahuri/",
+      "refs": [
+        "UTP-WORK-280",
+        "UTP-REV-248",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/sound-source-links-publication-2026-10-15.json"
+      ],
+      "note": "PR 254 passing reviewed head merged and approved main workflow published. 21 passage-source links and 15 source notes verified live in Ghumura, Mahuri and Ranapa; narrative and search eligibility preserved."
     }
   ],
   "sources": [
