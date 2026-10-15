@@ -214,3 +214,5 @@ Historical visitor-experience release: [PR 23 publication evidence](records/visi
 [Kendara website article](https://projectodisha.org/stories/kendara/) is published as further reading; [publication receipt](records/kendara-publication-2026-10-15.json). Practitioner review and audio remain follow-up.
 
 [Ghumura: the drum carried into the dance](research/culture/ghumura.md) — Kalahandi’s ensemble and festival life, with dated source notes and a website article candidate.
+
+[Ghumura website article](https://projectodisha.org/stories/ghumura/) is published as further reading; [publication receipt](records/ghumura-publication-2026-10-15.json). Historical origins, audio and practitioner review remain open.

@@ -1,0 +1,75 @@
+{
+  "recorded_at": "2026-10-15T04:26:01.937031+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-087",
+  "work_id": "UTP-WORK-276",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/250",
+  "reviewed_head": "e2863dde2971617985fe04e5cb1d7195095db96e",
+  "merge_commit": "250520d05ac23ef8d46592b57592dc655a0081d0",
+  "merged_at": "2026-10-15T03:58:53Z",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "e2863dde2971617985fe04e5cb1d7195095db96e",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38678724403"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "250520d05ac23ef8d46592b57592dc655a0081d0",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38681056893",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-15T04:25:03.066878+00:00",
+    "page": "https://projectodisha.org/stories/ghumura/",
+    "http_status": 200,
+    "page_sha256": "92ee1fcb7bf0ac47640f6570188742bac358fa7b2780d01eb4a66cf04b9336e2",
+    "paragraphs_verified": 13,
+    "sources_verified": 6,
+    "section_links": 5,
+    "collection_and_explore": {
+      "/sounds-of-odisha/": 200,
+      "/explore/": 200
+    },
+    "noindex": true,
+    "sitemap_entries": 11,
+    "browser": "Published desktop article inspected; Enter activates contents and source anchor opens6-source disclosure. Live Explore Ghumura + Kalahandi returns the article.",
+    "screenshot": "/tmp/ghumura-live.png"
+  },
+  "outputs": [
+    {
+      "path": "kb/research/culture/ghumura.md",
+      "sha256": "a51a2514a311a294b6069bcb7e872b3d324c23a16cf6c83dad7d64bc9b6d3bd0",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/culture/ghumura-website.json",
+      "sha256": "be6f93a2fa826e0ef0c173c476bb88766d6bd8d6cc843112b3bfdc7bf23aaf67",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/sources/ghumura-research.json",
+      "sha256": "3ba782f145d25dadf8878d49c64e87a57bd20eb60aa4e8fe9a07d56f20f8418a",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/stories/ghumura.astro",
+      "sha256": "12f4c9991c85f4e220d93a29ae883a842506eccc265f49b5c3e80a30aacc5fc8",
+      "matches_fetched_merge": true
+    }
+  ],
+  "review": "records/ghumura-review-2026-10-15.json",
+  "limitations": [
+    "CCRT full PDF retrieval timed out; only indexed Ghumura section text was inspected and its narrow instrument description used. Report date not established; no ancient-history claims adopted.",
+    "No practitioner interview, audio audition, current booking or training outcome verification.",
+    "Sources do not establish a founding date; no claims of continuous organisational membership or lineage."
+  ],
+  "recovery": [
+    "Initial CI38678570581 failed for stale generated research index; corrected head passed38678724403.",
+    "Merge request response suffered network reset; subsequent GitHub read confirmed MERGED with exact reviewed head before deployment."
+  ],
+  "attachment": "App attachment attempted; thread attachment identity count exceeds100. PR URL retained."
+}
