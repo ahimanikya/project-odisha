@@ -1,9 +1,9 @@
 ---
-const {items}=Astro.props;
+const {items,label="Sections in these notes"}=Astro.props;
 ---
 <details class="research-contents">
- <summary>Sections in these notes</summary>
- <nav aria-label="Sections in these notes">{items.map(item=><a href={item.href}>{item.title}</a>)}</nav>
+ <summary>{label}</summary>
+ <nav aria-label={label}>{items.map(item=><a href={item.href}>{item.title}</a>)}</nav>
 </details>
 <style>
 .research-contents{border-block:1px solid var(--line);margin:1.5rem 0 2rem}

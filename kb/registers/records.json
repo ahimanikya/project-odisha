@@ -7783,6 +7783,27 @@
         "records/kendara-publication-2026-10-15.json"
       ],
       "acceptance_criteria": "Research and publish a source-linked Sounds of Odisha further-reading article about Kendara, its instrument and named performers or documented repertoire. Search existing KB first, retain dated source scopes, distinguish legend from historical origin, and do not invent listening, testimony, lyrics or recording rights. Save canonical narrative and claim dossier, integrate website and collection discovery, pass source review and site checks, merge passing reviewed PR, publish approved main and verify live before counting once. Preserve eight main chapters and existing search eligibility."
+    },
+    {
+      "id": "UTP-WORK-275",
+      "title": "Navigate sections and sources in Sounds further reading",
+      "category": "website_implementation",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Merge passing reviewed head; publish approved main; verify six live pages and save receipt before counting.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-REV-243"
+      ],
+      "evidence": [
+        "research/product/sounds-discovery.json",
+        "records/sounds-section-navigation-review-2026-10-15.json"
+      ],
+      "acceptance_criteria": "Add compact section navigation to the six published Sounds of Odisha further-reading stories (Gotipua, Odia lullabies, craft listening, Chilika listening, boat songs and Kendara). Derive links from actual section headings and add a source-disclosure destination. Reuse tested native details/anchor behaviour; verify keyboard selection, Escape, repeated selection, source reveal and mobile layout. Preserve all article paragraphs and sources, eight main chapters and eleven search-eligible routes. Complete passing reviewed PR, approved main publication and live receipt before counting once."
     }
   ],
   "decisions": [
@@ -17996,6 +18017,27 @@
         "Same-assistant source and implementation review; no independent or human practitioner review.",
         "No audio audition, field interview, image reuse or confirmed contemporary performance offer.",
         "Origin chronology remains open. Unretrievable Odisha Review lead excluded; accepted claims use four inspected sources."
+      ]
+    },
+    {
+      "id": "UTP-REV-243",
+      "title": "Sounds further-reading section navigation review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-275"
+      ],
+      "evidence": [
+        "records/sounds-section-navigation-review-2026-10-15.json"
+      ],
+      "limitations": [
+        "Same-assistant implementation review; no independent accessibility certification or physical screen-reader/device testing.",
+        "Native no-JavaScript details and anchor structure checked in markup; disabled-JavaScript browser session not performed.",
+        "No new factual research or practitioner review; all six article narratives, external citations and caveats remain unchanged."
       ]
     }
   ],

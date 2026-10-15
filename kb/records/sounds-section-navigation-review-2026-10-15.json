@@ -1,0 +1,68 @@
+{
+  "recorded_at": "2026-10-15T02:30:52.724318+00:00",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "status": "pass_with_limitations",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-086",
+  "work_id": "UTP-WORK-275",
+  "verification": {
+    "observed_gap": "Six Sounds further-reading stories had long narrative sections but no section navigator or direct source-disclosure fragment.",
+    "implementation": "Existing compact ResearchContents component accepts an optional label while retaining its default. Six stories derive section links from their narrative block titles and add a story-sources disclosure destination. Existing keyboard and fragment controllers reused.",
+    "local_tests": "397-page full build and532 tests;384-page public build and125 tests;1536/1536 acceptance checks. Eleven eligible sitemap routes unchanged. Existing research-note navigation tests pass.",
+    "visual": "1280px desktop and390x844 mobile menu inspected on boat songs. Enter selects Chaiti Ghoda, closes menu, focuses heading and aligns to top; repeated selection works. Source link opens notes and focuses summary. Escape closes menu and restores summary focus. Reload at source fragment reopens notes. Phone document width390px.",
+    "content_parity": [
+      {
+        "route": "/stories/gotipua/",
+        "paragraphs": 27,
+        "paragraphs_sha256": "44f2eac1935d98e843e91814a72e77b736de38320e7bcf9f564838253d05da28",
+        "external_links": 4,
+        "matches_previous_live": true
+      },
+      {
+        "route": "/stories/odia-lullabies/",
+        "paragraphs": 28,
+        "paragraphs_sha256": "6bfcd7662d297516c8a170be35638540d3db50f5d16a2194f6ae0f43bd9591e3",
+        "external_links": 5,
+        "matches_previous_live": true
+      },
+      {
+        "route": "/stories/craft-listening/",
+        "paragraphs": 25,
+        "paragraphs_sha256": "a73079d12d94b6b76eaf4eba0bcd86e6e015b1c0c14d0c84647868f262739353",
+        "external_links": 3,
+        "matches_previous_live": true
+      },
+      {
+        "route": "/stories/chilika-listening/",
+        "paragraphs": 26,
+        "paragraphs_sha256": "fc8df35eea1793f769175381d6e25c94209df41350314c4cf6e1a5d06ab80515",
+        "external_links": 3,
+        "matches_previous_live": true
+      },
+      {
+        "route": "/stories/boat-songs/",
+        "paragraphs": 33,
+        "paragraphs_sha256": "185fafbfa026186c1d10b3c97e297472b13939d743445b99df12975d15c66d66",
+        "external_links": 9,
+        "matches_previous_live": true
+      },
+      {
+        "route": "/stories/kendara/",
+        "paragraphs": 29,
+        "paragraphs_sha256": "72f9dc8f21059afd4d0fdec46aee2d425858a23d10f99bb173a7d363ec3d5d51",
+        "external_links": 10,
+        "matches_previous_live": true
+      }
+    ],
+    "recovery": "First CI run38671430728 failed because the new integration test included an unrelated cookie-dialog heading enabled in CI. Scoped heading comparison to the article, preserving checks for every narrative heading. No production behaviour changed."
+  },
+  "limitations": [
+    "Same-assistant implementation review; no independent accessibility certification or physical screen-reader/device testing.",
+    "Native no-JavaScript details and anchor structure checked in markup; disabled-JavaScript browser session not performed.",
+    "No new factual research or practitioner review; all six article narratives, external citations and caveats remain unchanged."
+  ]
+}
