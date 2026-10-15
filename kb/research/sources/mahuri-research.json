@@ -1,0 +1,99 @@
+{
+  "title": "Mahuri: breath within the ensemble",
+  "reviewed_at": "2026-10-15T05:34:51.042378+00:00",
+  "kind": "desk_research",
+  "human_review_claimed": false,
+  "canonical_narrative": "research/culture/mahuri-website.json",
+  "reuse": [
+    "research/culture/sankha-website.json",
+    "research/sources/dance-kalahandi-district.md",
+    "research/sources/dance-sambalpur-district.md"
+  ],
+  "coverage_gap": "Existing Sankha story names Mahuri as accompaniment; no dedicated instrument narrative existed. This article connects that existing reference with a specimen record and institutional ensemble descriptions.",
+  "sources": [
+    {
+      "id": "mahuri-iccr-programme",
+      "title": "ICCR — Kala Vishwa programme: Tribal Folk Dance by Shri Rajesh Maharana",
+      "resource": "https://iccr.gov.in/sites/default/files/PROGRAMME%20DETAILS%20-%20TRIBAL%20FOLK%20DANCE%20%281%29-converted.pdf",
+      "locator": "PDF p.2, Bajasal and Muhuri entries. Two-page programme retrieved and rendered 15 October 2026. Publication/event date not stated; COVID-19 campaign context on p.1."
+    },
+    {
+      "id": "mahuri-berlin-object",
+      "title": "Ethnologisches Museum, Berlin — Mahuri, inventory VII c 1005",
+      "resource": "https://ccc.deutsche-digitale-bibliothek.de/en/item/DCUSHEC7B7NPBVDAX6RRC3XG62P55KUX",
+      "locator": "Museum-supplied catalogue record in Deutsche Digitale Bibliothek. English description is marked machine-translated. Object materials, seven holes and missing reed support/mouthpiece; donation recorded in 2019, manufacture date not established."
+    },
+    {
+      "id": "dance-kalahandi-district",
+      "title": "Kalahandi district administration — Culture & Heritage",
+      "resource": "https://kalahandi.odisha.gov.in/en/tourism/culture-Heritage",
+      "locator": "Art Forms of Kalahandi District, row 04 Singh Baja. Rechecked 15 October 2026. Undated cultural description; no current performance schedule."
+    },
+    {
+      "id": "sankha-ezcc-2012",
+      "title": "Eastern Zonal Cultural Centre — Thakurani Jatra, Republic Day programme 2012",
+      "resource": "https://rashtraparv.mod.gov.in/files/field-event-program-schedule/mod_army_repbulc_day_parade_26_jan_2012.pdf",
+      "locator": "Printed p.35 (PDF p.36), Jodi Sankha paragraph. Existing project PDF re-extracted and visually inspected; Dhol, Changu and Mahuri accompany conch playing."
+    },
+    {
+      "id": "dance-sambalpur-district",
+      "title": "Sambalpur district administration — Culture & Heritage",
+      "resource": "https://sambalpur.odisha.gov.in/en/tourism/culture-Heritage",
+      "locator": "Use of Musical Instruments in Sambalpur, list including Muhuri. Rechecked 15 October 2026; underlying description undated."
+    }
+  ],
+  "section_mapping": [
+    {
+      "section": "Opening",
+      "source_ids": [
+        "mahuri-iccr-programme"
+      ]
+    },
+    {
+      "section": "A reed, a tube, a bell",
+      "source_ids": [
+        "mahuri-iccr-programme",
+        "mahuri-berlin-object"
+      ]
+    },
+    {
+      "section": "The company it keeps",
+      "source_ids": [
+        "dance-kalahandi-district",
+        "mahuri-iccr-programme",
+        "dance-sambalpur-district"
+      ]
+    },
+    {
+      "section": "Beside the conch in Ganjam",
+      "source_ids": [
+        "sankha-ezcc-2012"
+      ]
+    },
+    {
+      "section": "A history to build with musicians",
+      "source_ids": []
+    }
+  ],
+  "retrieval": {
+    "iccr_pdf_sha256": "2c6eac4d41e407fe16a6c197b904581d72eccfd790043123b763f5251d37884c",
+    "ezcc_pdf_sha256": "6cebf7fdbd85f3e592553bc73e03f48a496a048f68e29d08c94465edeb69c0b7",
+    "iccr": "Web reader cache miss; direct official download succeeded. Both pages extracted; p.2 visually inspected. No calendar date claimed.",
+    "ezcc": "Web reader size limit; reused project source PDF, PDF p.36 / printed p.35 text and page image inspected.",
+    "museum": "Museum-supplied portal description read. Original-provider link failed in web reader; English machine-translation flag preserved. No photo reused.",
+    "districts": "Official district page text inspected via web; underlying cultural descriptions undated."
+  },
+  "claim_boundaries": [
+    "Double-reed description is supported by ICCR and the museum catalogue. A conflicting single-reed label in a secondary search result was not adopted.",
+    "Wooden and metal bells refer to separate described examples; no universal construction specification asserted.",
+    "2019 is the museum acquisition year only. No invention, ancient lineage or extraction-history inference.",
+    "Kalahandi row 04 Singh Baja supports its ensemble. Row 02 spells Manuri; that spelling was not silently normalized or used as separate corroboration.",
+    "No quotations, lyrics, museum photograph, practitioner contact details or audio reused.",
+    "Listening questions are editorial prompts, not recorded observations."
+  ],
+  "future_research": [
+    "Named makers and musicians, with appropriate consent and preferred credit.",
+    "Dated manufacture and provenance of specific instruments.",
+    "Occasion-specific repertoire and practitioner accounts of regional naming."
+  ]
+}

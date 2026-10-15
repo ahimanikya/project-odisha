@@ -1,9 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-const slugs=['gotipua','odia-lullabies','craft-listening','chilika-listening','boat-songs','kendara','ghumura'];
+const slugs=['gotipua','odia-lullabies','craft-listening','chilika-listening','boat-songs','kendara','ghumura','mahuri'];
 const escape=s=>s.replaceAll('&','&amp;').replaceAll("'",'&#39;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;');
-test('seven further-reading stories expose real section destinations and revealable sources without losing prose',()=>{
+test('eight further-reading stories expose real section destinations and revealable sources without losing prose',()=>{
  for(const slug of slugs){
   const story=JSON.parse(readFileSync('../../kb/research/culture/'+slug+'-website.json','utf8'));
   const html=readFileSync('dist-coast/stories/'+slug+'/index.html','utf8');

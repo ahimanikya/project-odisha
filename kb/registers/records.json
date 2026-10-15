@@ -7855,6 +7855,29 @@
         "records/sounds-browse-publication-2026-10-15.json"
       ],
       "acceptance_criteria": "Make all seven published Sounds further-reading stories browsable from a distinct collection section with canonical titles and introductions, plus an early jump link. Replace the growing title-only list embedded in listening guidance. Reuse existing discovery records; preserve eight core chapters, article text/citations, listening-care guidance and eleven search-eligible pages. Verify complete nonduplicated story coverage, working anchors/links, keyboard use and phone/desktop layout; publish through a passing reviewed-head PR and approved main workflow, then save live receipt before counting once."
+    },
+    {
+      "id": "UTP-WORK-278",
+      "title": "Research and publish a Mahuri Sounds article",
+      "category": "culture_research",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Publish passing reviewed-head PR, verify live article/discovery and save receipt.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-REV-246"
+      ],
+      "evidence": [
+        "research/culture/sankha-website.json",
+        "research/culture/mahuri-website.json",
+        "research/sources/mahuri-research.json",
+        "records/mahuri-review-2026-10-15.json"
+      ],
+      "acceptance_criteria": "Research and publish a Mahuri Sounds further-reading article from the existing Sankha ensemble reference. Verify instrument description and Odisha performance contexts from primary institutional sources; separate historical evidence from uncertain origins and regional variation. Save a canonical KB narrative, claim/source dossier, website article with section/source navigation and collection/Explore links. Preserve eight core chapters and eleven search-eligible routes. Complete factual review, meaningful tests and visual checks, passing reviewed-head PR, approved main deployment and live receipt before counting once. No audio, current bookings, fieldwork or human review invented."
     }
   ],
   "decisions": [
@@ -18130,6 +18153,27 @@
       "limitations": [
         "No independent human review, physical-device or screen-reader certification.",
         "No new factual research, audio, practitioner confirmation or expanded search eligibility."
+      ]
+    },
+    {
+      "id": "UTP-REV-246",
+      "title": "Mahuri instrument article source and website review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-278"
+      ],
+      "evidence": [
+        "records/mahuri-review-2026-10-15.json"
+      ],
+      "limitations": [
+        "Same-assistant source and implementation review; no independent human, practitioner or screen-reader review.",
+        "ICCR programme calendar date not stated. Museum English text is machine-translated; original provider link failed in web reader.",
+        "No founding date, maker lineage, audio, current booking or field observation established."
       ]
     }
   ],
