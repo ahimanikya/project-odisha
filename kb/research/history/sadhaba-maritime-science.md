@@ -133,3 +133,11 @@ Due11October NIO1993/1995 original retries returned HTML rather than PDF. No new
 ## Khudurukuni and the household beside the voyage
 
 [The connected article](../stories/khudurukuni-maritime-knowledge.md) brings girls’ ritual work and household care into the maritime inquiry. Modern physical explanations remain separate from historical attribution.
+
+## 17 October 2026 · Boita, exchange and population history
+
+The Founder’s questions now have a substantive companion in the [canonical public narrative](../stories/narratives/maritime-memory.json), **Boita: trade, craft and the crossing of a sea**. It develops the existing science study through imported ceramics, the distinction between product reputation and a cargo manifest, named patia craft testimony, and the difference between ancestry, language spread and an identifiable voyage.
+
+The [claim register’s Boita extension](../references/data/sadhaba-maritime-science.json) maps each section to source inspection and limits. It preserves the 2019 maritime linguistic hypothesis and competing interpretations without treating them as a demonstrated origin of all Odisha tribal communities or of the Boita ritual. Author-deposited presentation text was inspected; the related journal paper remains only partly accessible. Later craft accounts remain later craft accounts. No new fieldwork or independent human review is claimed.
+
+The 11 October recovery schedule for the 1993/1995 NIO originals is unchanged; another automation owns that work. This expansion uses the accessible later chapter and new primary material instead of duplicating those retries. Publication is tracked by UTP-WORK-295 and UTP-A500-106; a saved draft alone is not a live-publication receipt.

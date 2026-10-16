@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `6a4adeb732c5e4b0e2da16f5d3f84cc6ce2ececb8b232ce652477709ffb9c9dd`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `5e20ca7e45abda0bb33dd2e413ff89a13c6a6b72d34a1870399091433f3b3568`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -314,6 +314,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-292 · Keep source notes and artwork provenance with printed sound stories | completed | published | Ahimanikya Satapathy | Published and live-verified; print notes and source URLs retained. Other browser engines and physical printers remain untested. | — |
 | UTP-WORK-293 · Language and literary passage-to-source navigation | completed | published | Ahimanikya Satapathy | Published and live-verified; 76 existing source mappings are navigable. Original source-access and specialist-review limits remain open. | — |
 | UTP-WORK-294 · Boat Songs substantive research and rewrite | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Primary repertoire, melody, regional variants and practitioner review remain open for future research. | — |
+| UTP-WORK-295 · Explain Boita trade, boatbuilding and migration evidence | in_progress | reviewed | Ahimanikya Satapathy | Pass required PR checks, merge reviewed head, publish approved main and verify live prose before counting. | — |
 
 ## Pending human review and decisions
 
@@ -885,6 +886,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-260 | pass_with_limitations | False | Same-assistant review; not independent human or practitioner review.; Actual browser PDF checks cover Huluhuli and Boat Songs, not every story or physical printer. Other browser engines are untested.; Automatic expansion requires JavaScript and browser print events; without them the reader can open notes manually before printing.; Existing article factual, source-access and practitioner-review limitations remain unchanged. |
 | UTP-REV-261 | pass_with_limitations | False | Same-assistant review; not independent human, language or literary review.; Saved source access and edition limitations remain unchanged. A visible citation is not renewed factual validation.; Browser keyboard and visual checks sampled two representative layouts; physical devices and screen readers remain untested. |
 | UTP-REV-262 | pass_with_limitations | False | Same-assistant editorial review, not independent human or practitioner review.; Primary boat-song repertoire, lyrics, melody, variants and transmission remain unresolved; this revision does not claim the subject is exhaustively researched.; Patra chapter inspected as web text; cited underlying literary editions were not inspected. Recording was not auditioned.; Mobile and desktop browser checks are not physical-device or screen-reader tests. |
+| UTP-REV-263 | pass_with_limitations | False | Same-assistant editorial review, not independent human or practitioner review.; No complete excavated Sadhaba hull or cargo manifest inspected. Later boat traditions cannot establish an exact ancient design.; Munda sea-route proposal remains debated and does not establish a connection to Boita commemoration or the history of every Odisha tribal community.; Full Munda journal paper was inaccessible; author conference slides inspected. Ceramic PDF web excerpts inspected, screenshots failed. Underlying literary editions and physical artefacts were not inspected.; Responsive browser checks are not physical-device or screen-reader tests. |
 
 ## Publication and application history
 
@@ -1070,7 +1072,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101540 | 2026-10-15T17:58:33.014146+00:00 | Reviewed section-source navigation and qualified locators for eight core sound stories. Narrative and indexing preserved; tests and responsive/keyboard checks pass. Publication pending; total 100. | — |
 | UTP-EVT-2026101541 | 2026-10-15T18:06:35.596636+00:00 | Published passage-to-source navigation and qualified locators across eight core sound stories. All 55 live links verified against canonical mapping; item 101 counted after receipt. Total 101. | — |
 | UTP-EVT-2026101542 | 2026-10-15T18:58:55.976034+00:00 | Reconciled three Sounds KB entrances with 22 published article receipts; repaired three wrong subject links and removed delivered lullaby candidate. No website or source-research change; item remains in progress pending merge. | — |
 | UTP-EVT-2026101543 | 2026-10-15T19:03:58.429835+00:00 | Merged the corrected Sounds KB guide: 22 article receipt links, three corrected subject destinations and removal of obsolete publication work. Public site unchanged. Item 102 counted after verified merge receipt. | — |
@@ -1080,6 +1081,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101604 | 2026-10-16T19:55:41.412338+00:00 | Published 76 passage-to-source links across 19 language and literary pages. Canonical narrative unchanged. Item 104 counted after live verification and publication receipt; total 104. | — |
 | UTP-EVT-2026101605 | 2026-10-16T20:49:49.447845+00:00 | Reviewed substantive Boat Songs revision: named maritime imagery, attributed dating hypothesis and makers/production of a 2019 adaptation. Source limits retained; publication pending, completed total 104. | — |
 | UTP-EVT-2026101606 | 2026-10-16T20:58:24.300936+00:00 | Published Boat Songs substantive revision with named imagery, attributed historical interpretation and the 2019 adaptation’s makers and process. Item105 counted after live receipt; total105. Subject remains open to deeper primary-repertoire research. | — |
+| UTP-EVT-2026101607 | 2026-10-16T21:42:11.817109+00:00 | Reviewed Boita expansion covering trade, boatbuilding, buoyancy, navigation and competing migration evidence. Source limits retained; publication pending, completed total 105. | — |
 
 ## Deferred extensions
 
