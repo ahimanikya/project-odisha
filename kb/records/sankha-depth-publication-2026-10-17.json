@@ -1,0 +1,76 @@
+{
+  "recorded_at": "2026-10-16T23:08:22.707827+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-108",
+  "work_id": "UTP-WORK-297",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/280",
+  "reviewed_head": "ff4f0db2c5a98aa68ef7654d96587c01f094191a",
+  "merge_commit": "6b8961f55b9ce521aa7cc95677ed2f89f62dabef",
+  "merged_at": "2026-10-16T23:03:54Z",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "ff4f0db2c5a98aa68ef7654d96587c01f094191a",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38979051907"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "6b8961f55b9ce521aa7cc95677ed2f89f62dabef",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38979375605",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-16T23:08:05.711369+00:00",
+    "url": "https://projectodisha.org/sounds-of-odisha/sankha/",
+    "status": 200,
+    "paragraphs_verified": 26,
+    "sources_verified": 11,
+    "html_sha256": "52b066e7f5a9383d1437b07134042db586ad75a6b7259e3cb2bb72104ef71b6a",
+    "all_canonical_paragraphs_present": true,
+    "end_notes_mapping_present": true,
+    "no_audio": true,
+    "noindex": true,
+    "sitemap_entries": 11,
+    "browser": "Actual live revision visually checked; new prose and expandable end notes present.",
+    "screenshot": "/tmp/sankha-depth-live.png"
+  },
+  "outputs": [
+    {
+      "path": "kb/research/culture/sankha.md",
+      "sha256": "4f14f60ef725abcbf846fd9c30d57311b4bece28df79384115de8e62c7bc3e71",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/culture/sankha-website.json",
+      "sha256": "d04886cf0826b7f6447a637f14b47bad93dc2346ef70c0a7552612d5ce3d313a",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/sources/sankha-research.md",
+      "sha256": "2cf0bf51eae0baa4e0aa1e0c5008356878add34470462b8424921f09feb4b0d8",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/records/sankha-source-mapping-2026-10-17.json",
+      "sha256": "bf1b56660da0af901f7a915797fbd6d03a925730310cec1e958b860629f36f4e",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha/sankha.astro",
+      "sha256": "d440a774ce02e4e2d783ce987ca126455805030502ee7df39675783ea66f1a99",
+      "matches_fetched_merge": true
+    }
+  ],
+  "review": "records/sankha-depth-review-2026-10-17.json",
+  "limitations": [
+    "Same-assistant review; no independent human, practitioner or language review.",
+    "Comparative physics does not establish local shell species, construction dimensions, breath techniques, frequency or historical origin.",
+    "Institutional records retain their dates and do not establish present troupe membership or availability.",
+    "Transcript read but no audio audition, recording rights or field observation.",
+    "Browser viewport checks are not physical-device or screen-reader tests."
+  ],
+  "attachment": "App attachment attempted; thread attachment identity count exceeds 100. PR URL retained."
+}
