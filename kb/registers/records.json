@@ -8220,25 +8220,6 @@
       "acceptance_criteria": "Would you buy this? in 13px type, 1–5 stars and 12px Not for me/Love it endpoints; automatic saving preserved. All per-design comment fields collapsed by default."
     },
     {
-      "id": "UTP-WORK-2026101508",
-      "title": "Consistent Jhula spacing and aligned design controls",
-      "category": "website",
-      "status": "in_progress",
-      "readiness": "reviewed",
-      "human_owner": "Ahimanikya Satapathy",
-      "execution_owner": "Current merchandise assistant",
-      "authorization": "UTP-DEC-2026101509",
-      "next_action": "Publish and verify responsive layout corrections.",
-      "blockers": [],
-      "refs": [
-        "UTP-DEC-2026101509"
-      ],
-      "evidence": [
-        "records/jhula-layout-review-2026-10-15.json"
-      ],
-      "acceptance_criteria": "Cards align descriptions and control sections; five stars stay in one row; consistent section, heading and form spacing; phone layouts do not overflow; behavior preserved."
-    },
-    {
       "id": "UTP-WORK-287",
       "title": "A listening notebook for all 21 sound stories",
       "category": "website",
@@ -8467,6 +8448,44 @@
         "records/boita-depth-review-2026-10-17.json",
         "records/boita-depth-publication-2026-10-17.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-2026101508",
+      "title": "Consistent Jhula spacing and aligned design controls",
+      "category": "website",
+      "status": "completed",
+      "readiness": "published",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current merchandise assistant",
+      "authorization": "UTP-DEC-2026101509",
+      "next_action": "Review the corrected live page.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-2026101509"
+      ],
+      "evidence": [
+        "records/jhula-layout-review-2026-10-15.json"
+      ],
+      "acceptance_criteria": "Cards align descriptions and control sections; five stars stay in one row; consistent section, heading and form spacing; phone layouts do not overflow; behavior preserved."
+    },
+    {
+      "id": "UTP-WORK-2026101701",
+      "title": "Publish two Pattachitra Jhula choices",
+      "category": "website",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current merchandise assistant",
+      "authorization": "UTP-DEC-2026101701",
+      "next_action": "Verify responsive cards, publish backward-compatible Firebase rules and website, then check live.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-2026101701"
+      ],
+      "evidence": [
+        "records/jhula-pattachitra-review-2026-10-17.json"
+      ],
+      "acceptance_criteria": "Both approved images as options19/20 with autosave stars, favourite selection and collapsed comments; prior18 options and stored responses retained; private owner-only Firebase access unchanged."
     }
   ],
   "decisions": [
@@ -13243,6 +13262,25 @@
       ],
       "evidence": [
         "records/jhula-layout-review-2026-10-15.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-2026101701",
+      "title": "Add both Pattachitra Jhula options",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "add them",
+      "scope": "Publish both reviewed Pattachitra-inspired designs as additional voting options, retaining previous choices and response behavior.",
+      "recorded_at": "2026-10-16T22:02:09.225244+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-2026101701"
+      ],
+      "evidence": [
+        "records/jhula-pattachitra-review-2026-10-17.json"
       ]
     }
   ],
@@ -19418,6 +19456,22 @@
         "Full Munda journal paper was inaccessible; author conference slides inspected. Ceramic PDF web excerpts inspected, screenshots failed. Underlying literary editions and physical artefacts were not inspected.",
         "Responsive browser checks are not physical-device or screen-reader tests."
       ]
+    },
+    {
+      "id": "UTP-REV-2026101508",
+      "title": "Jhula spacing and alignment review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current merchandise assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-2026101508"
+      ],
+      "evidence": [
+        "records/jhula-layout-review-2026-10-15.json"
+      ]
     }
   ],
   "releases": [
@@ -21751,6 +21805,20 @@
         "records/boita-depth-publication-2026-10-17.json"
       ],
       "note": "Passing reviewed head merged and approved main workflow published. Canonical revised paragraphs and 16 end-note sources verified live; ancient hull and migration/ritual gaps remain open."
+    },
+    {
+      "id": "UTP-REL-2026101508",
+      "title": "Aligned Jhula layout published",
+      "status": "published",
+      "authorization": "UTP-DEC-2026101509",
+      "destination": "https://projectodisha.org/odia-poetry-jhula/",
+      "refs": [
+        "UTP-WORK-2026101508",
+        "UTP-REV-2026101508"
+      ],
+      "evidence": [
+        "records/jhula-layout-review-2026-10-15.json"
+      ]
     }
   ],
   "sources": [

@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `9fff66bf82ee4146e0fba13dcc3bd0e0141f5bb5dde18fbfbab065777dbe3504`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e9bf2fd3876ee8223fca8f9bb39c1b4387a7b43c3e8f7391415e513934793e38`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -305,7 +305,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026101506 · Nostalgic Jhula story and automatic ratings | completed | published | Ahimanikya Satapathy | User may share the held invitation when ready; no messages sent. | — |
 | UTP-WORK-286 · Dhuduki: a string beneath the story | completed | published | Ahimanikya Satapathy | Published and live-verified. Practitioner-led names, teaching histories and text/recording permissions remain follow-up; no outreach initiated. | — |
 | UTP-WORK-2026101507 · Small purchase-interest labels for Jhula choices | completed | published | Ahimanikya Satapathy | User can review the published controls. | — |
-| UTP-WORK-2026101508 · Consistent Jhula spacing and aligned design controls | in_progress | reviewed | Ahimanikya Satapathy | Publish and verify responsive layout corrections. | — |
 | UTP-WORK-287 · A listening notebook for all 21 sound stories | completed | published | Ahimanikya Satapathy | Published and live-verified. Keep questions aligned with future story additions; regenerate the downloadable notebook when canonical questions or reading paths change. | — |
 | UTP-WORK-288 · Continue Sounds reading paths from every story | completed | published | Ahimanikya Satapathy | Published and live-verified on all 21 stories. Future stories should reuse the chooser and remain covered by canonical reading paths. | — |
 | UTP-WORK-289 · Odissi music: follow the singer | completed | published | Ahimanikya Satapathy | Published and live-verified. Specialist historical and practitioner review remain open; no audio or current course availability claimed. | — |
@@ -315,6 +314,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-293 · Language and literary passage-to-source navigation | completed | published | Ahimanikya Satapathy | Published and live-verified; 76 existing source mappings are navigable. Original source-access and specialist-review limits remain open. | — |
 | UTP-WORK-294 · Boat Songs substantive research and rewrite | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Primary repertoire, melody, regional variants and practitioner review remain open for future research. | — |
 | UTP-WORK-295 · Explain Boita trade, boatbuilding and migration evidence | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Ancient hull evidence, specific cargo transactions and the prehistoric migration/ritual relationship remain open for future research. | — |
+| UTP-WORK-2026101508 · Consistent Jhula spacing and aligned design controls | completed | published | Ahimanikya Satapathy | Review the corrected live page. | — |
+| UTP-WORK-2026101701 · Publish two Pattachitra Jhula choices | in_progress | reviewed | Ahimanikya Satapathy | Verify responsive cards, publish backward-compatible Firebase rules and website, then check live. | — |
 
 ## Pending human review and decisions
 
@@ -614,6 +615,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-2026101507 · Poetic Jhula story and automatic ratings | approved | Ahimanikya Satapathy | Revise and publish the existing Jhula page and its feedback behavior; preserve image provenance in project records. |
 | UTP-DEC-2026101508 · Compact purchase-interest question | approved | Ahimanikya Satapathy | Update all eighteen design controls to compact purchase-interest language on the live page. |
 | UTP-DEC-2026101509 · Correct Jhula spacing and alignment | approved | Ahimanikya Satapathy | Fix and publish consistent spacing, card alignment, responsive star controls and form layout on the existing page. |
+| UTP-DEC-2026101701 · Add both Pattachitra Jhula options | approved | Ahimanikya Satapathy | Publish both reviewed Pattachitra-inspired designs as additional voting options, retaining previous choices and response behavior. |
 
 ## Reviews
 
@@ -887,6 +889,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-261 | pass_with_limitations | False | Same-assistant review; not independent human, language or literary review.; Saved source access and edition limitations remain unchanged. A visible citation is not renewed factual validation.; Browser keyboard and visual checks sampled two representative layouts; physical devices and screen readers remain untested. |
 | UTP-REV-262 | pass_with_limitations | False | Same-assistant editorial review, not independent human or practitioner review.; Primary boat-song repertoire, lyrics, melody, variants and transmission remain unresolved; this revision does not claim the subject is exhaustively researched.; Patra chapter inspected as web text; cited underlying literary editions were not inspected. Recording was not auditioned.; Mobile and desktop browser checks are not physical-device or screen-reader tests. |
 | UTP-REV-263 | pass_with_limitations | False | Same-assistant editorial review, not independent human or practitioner review.; No complete excavated Sadhaba hull or cargo manifest inspected. Later boat traditions cannot establish an exact ancient design.; Munda sea-route proposal remains debated and does not establish a connection to Boita commemoration or the history of every Odisha tribal community.; Full Munda journal paper was inaccessible; author conference slides inspected. Ceramic PDF web excerpts inspected, screenshots failed. Underlying literary editions and physical artefacts were not inspected.; Responsive browser checks are not physical-device or screen-reader tests. |
+| UTP-REV-2026101508 | pass | False | — |
 
 ## Publication and application history
 
@@ -1036,6 +1039,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-134 · Language and literary passage source navigation | published | https://projectodisha.org/literature/ | UTP-DEC-225 |
 | UTP-REL-135 · Boat Songs deeper research and narrative | published | https://projectodisha.org/stories/boat-songs/ | UTP-DEC-225 |
 | UTP-REL-136 · Boita trade, craft and migration research | published | https://projectodisha.org/stories/maritime-memory/ | UTP-DEC-225 |
+| UTP-REL-2026101508 · Aligned Jhula layout published | published | https://projectodisha.org/odia-poetry-jhula/ | UTP-DEC-2026101509 |
 
 ## Sources and assets
 
@@ -1073,8 +1077,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101542 | 2026-10-15T18:58:55.976034+00:00 | Reconciled three Sounds KB entrances with 22 published article receipts; repaired three wrong subject links and removed delivered lullaby candidate. No website or source-research change; item remains in progress pending merge. | — |
-| UTP-EVT-2026101543 | 2026-10-15T19:03:58.429835+00:00 | Merged the corrected Sounds KB guide: 22 article receipt links, three corrected subject destinations and removal of obsolete publication work. Public site unchanged. Item 102 counted after verified merge receipt. | — |
 | UTP-EVT-2026101601 | 2026-10-16T19:33:16.616861+00:00 | Reviewed print disclosure restoration and paper source URLs for 22 sound stories. Actual local browser PDFs retain source notes, limits and Huluhuli artwork provenance. Publication pending; total 102. | — |
 | UTP-EVT-2026101602 | 2026-10-16T19:41:55.098008+00:00 | Published print evidence preservation for sound stories. Live Huluhuli and Boat Songs PDFs and all 22 route handlers checked. Item 103 counted after publication receipt; total 103. | — |
 | UTP-EVT-2026101603 | 2026-10-16T19:47:49.295100+00:00 | Reviewed 76 passage-to-source links across 19 Voices pages using existing factual mappings and limitations. Canonical narrative unchanged; publication pending, total 103. | — |
@@ -1083,6 +1085,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101606 | 2026-10-16T20:58:24.300936+00:00 | Published Boat Songs substantive revision with named imagery, attributed historical interpretation and the 2019 adaptation’s makers and process. Item105 counted after live receipt; total105. Subject remains open to deeper primary-repertoire research. | — |
 | UTP-EVT-2026101607 | 2026-10-16T21:42:11.817109+00:00 | Reviewed Boita expansion covering trade, boatbuilding, buoyancy, navigation and competing migration evidence. Source limits retained; publication pending, completed total 105. | — |
 | UTP-EVT-2026101608 | 2026-10-16T21:51:42.499525+00:00 | Published Boita substantive revision explaining trade, documented construction, buoyancy, winds and disputed migration evidence. Item106 counted after live receipt; total106. Ancient hulls, individual transactions and links between migration and ritual remain unresolved. | — |
+| UTP-EVT-20261015104 | 2026-10-15T14:55:15.291497+00:00 | Verified aligned desktop controls, single-row stars and consistent responsive spacing live. | — |
+| UTP-EVT-20261017101 | 2026-10-16T22:02:09.225244+00:00 | Prepared two approved Pattachitra border options with voting and backward-compatible response storage. | — |
 
 ## Deferred extensions
 

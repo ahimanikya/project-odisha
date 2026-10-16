@@ -4,13 +4,13 @@ if(form){
  const status=document.querySelector<HTMLElement>('#ratings-status')!,error=document.querySelector<HTMLElement>('#ratings-error')!,summary=document.querySelector<HTMLElement>('#rating-summary')!,commentStatus=document.querySelector<HTMLElement>('#comments-status')!;
  const retry=document.querySelector<HTMLButtonElement>('#retry-ratings')!,save=document.querySelector<HTMLButtonElement>('#save-ratings')!,withdraw=document.querySelector<HTMLElement>('#withdraw-area')!,confirmation=document.querySelector<HTMLElement>('#withdraw-confirm')!;
  const fields=[...document.querySelectorAll<HTMLFieldSetElement>('[data-feedback-fields]')];
- const ids=Array.from({length:18},(_,i)=>String(i+1).padStart(2,'0'));
+ const ids=Array.from({length:20},(_,i)=>String(i+1).padStart(2,'0'));
  let ready=false,submitting=false,withdrawing=false,dirtyComments=false,pending=false,version=0;
  let active:Promise<void>|undefined;
  function input(name:string){return form!.elements.namedItem(name) as HTMLInputElement|HTMLTextAreaElement;}
  function radio(name:string){return document.querySelector<HTMLInputElement>(`input[name="${name}"]:checked`)?.value||'';}
  function preferences(){return {entries:ids.map(id=>({id,rating:Number(radio('rating-'+id))||null})),favourite:radio('favourite'),kit:radio('kit')};}
- function count(){const n=preferences().entries.filter(e=>e.rating).length;summary.textContent=n?`${n} of 18 designs considered.`:'';}
+ function count(){const n=preferences().entries.filter(e=>e.rating).length;summary.textContent=n?`${n} of 20 designs considered.`:'';}
  function showError(message:string){error.textContent=message;error.hidden=false;}
  function clearError(){error.textContent='';error.hidden=true;}
  function lock(value:boolean){fields.forEach(f=>f.disabled=value);save.disabled=value;document.querySelectorAll<HTMLButtonElement>('#withdraw-area button,#clear-favourite').forEach(b=>b.disabled=value);}
