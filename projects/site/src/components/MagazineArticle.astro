@@ -1,8 +1,9 @@
 ---
 import ResponsiveImage from './ResponsiveImage.astro';
+import VoicesParagraph from './VoicesParagraph.astro';
 import MagazineContents from './MagazineContents.astro';
 import MagazineCover from './MagazineCover.astro';
-const {kind,title,subtitle,odia,eyebrow,deck,photo,caption,saveId,sections,links=[],footline,startLabel,chapterLabel,sectionPhotos={}}=Astro.props;
+const {kind,title,subtitle,odia,eyebrow,deck,photo,caption,saveId,sections,links=[],footline,startLabel,chapterLabel,sectionPhotos={},voiceSources}=Astro.props;
 const warmId=kind==='food'?'origin':'paraja';
 const sectionLinks=id=>kind==='person'?links.filter(link=>id==='paraja'?link.href.includes('oup.com'):id==='listen'?!link.href.includes('oup.com'):false):[];
 ---
@@ -12,7 +13,7 @@ const sectionLinks=id=>kind==='person'?links.filter(link=>id==='paraja'?link.hre
  <article class="mag-content">
   <div class="mag-article-chapters">{sections.map((section,index)=><section id={section.id} class:list={['mag-reading-section',{'mag-reading-section--warm':section.id===warmId}]}>
    <div><p class="eyebrow">{String(index+1).padStart(2,'0')} · {chapterLabel||(kind==='food'?'A taste of Odisha':'A literary life')}</p><h2>{section.title}</h2></div>
-   <div>{sectionPhotos[section.id]&&<figure class="chapter-photo" style={section.photo_max_width?`max-width: ${section.photo_max_width}px`:undefined}><ResponsiveImage src={sectionPhotos[section.id].src} alt={sectionPhotos[section.id].alt} width={sectionPhotos[section.id].width} height={sectionPhotos[section.id].height} loading="lazy"/><figcaption>{sectionPhotos[section.id].caption}</figcaption></figure>}{section.paragraphs.map(p=><p data-source-ids={p.source_ids.join(' ')}>{p.text}</p>)}
+   <div>{sectionPhotos[section.id]&&<figure class="chapter-photo" style={section.photo_max_width?`max-width: ${section.photo_max_width}px`:undefined}><ResponsiveImage src={sectionPhotos[section.id].src} alt={sectionPhotos[section.id].alt} width={sectionPhotos[section.id].width} height={sectionPhotos[section.id].height} loading="lazy"/><figcaption>{sectionPhotos[section.id].caption}</figcaption></figure>}{section.paragraphs.map(p=>voiceSources?<VoicesParagraph paragraph={p} sources={voiceSources}/>:<p data-source-ids={p.source_ids.join(' ')}>{p.text}</p>)}
     {sectionLinks(section.id).length>0&&<div class="mag-section-links">{sectionLinks(section.id).map(link=><a href={link.href}>{link.title} ↗</a>)}</div>}
     {kind==='food'&&section.id==='try'&&<div class="mag-section-links">{links.map(link=><div><a href={link.href}>{link.title} →</a>{link.reason&&<p class="connection-reason">{link.reason}</p>}</div>)}</div>}
    </div>

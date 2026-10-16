@@ -1,0 +1,6 @@
+---
+import StorySourceLinks from './StorySourceLinks.astro';
+const {paragraph,sources}=Astro.props;
+---
+<p data-source-ids={paragraph.source_ids.join(' ')}>{paragraph.text}</p>
+<StorySourceLinks ids={paragraph.source_ids} sources={sources} prefix="voice-source-" label="Sources for this passage:"/>

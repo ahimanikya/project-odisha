@@ -8386,6 +8386,31 @@
         "records/sound-story-print-publication-2026-10-16.json"
       ],
       "acceptance_criteria": "Fix the observed print loss: the live Huluhuli browser PDF omits closed source notes and artwork provenance. Reveal only story-sources during printing for all 22 sound stories, restore the original disclosure state afterwards, and retain usable source URLs on paper. Cover repeated print events, pre-opened notes and pages without sources. Verify actual browser PDF text/layout for representative core and further-reading stories, unchanged canonical content and indexing, meaningful unit/build tests, passing reviewed-head PR, approved main deployment and a live print receipt before counting."
+    },
+    {
+      "id": "UTP-WORK-293",
+      "title": "Language and literary passage-to-source navigation",
+      "category": "website_product",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "authorization": "UTP-DEC-225",
+      "next_action": "Pass PR validation, merge reviewed head, publish approved main and verify live source navigation before counting.",
+      "blockers": [],
+      "refs": [
+        "UTP-WORK-189",
+        "UTP-DEC-225",
+        "UTP-REV-261"
+      ],
+      "evidence": [
+        "research/voices/collection.json",
+        "records/voices-passage-sources-review-2026-10-16.json"
+      ],
+      "gap": "19 public Voices pages hold 64 sourced paragraphs with hidden data-source-ids, but VoicesCredits has no stable source-note targets or passage links. Existing sound stories already offer that reader capability; reuse the tested navigation without new factual claims."
     }
   ],
   "decisions": [
@@ -19267,6 +19292,28 @@
         "Actual browser PDF checks cover Huluhuli and Boat Songs, not every story or physical printer. Other browser engines are untested.",
         "Automatic expansion requires JavaScript and browser print events; without them the reader can open notes manually before printing.",
         "Existing article factual, source-access and practitioner-review limitations remain unchanged."
+      ]
+    },
+    {
+      "id": "UTP-REV-261",
+      "title": "Voices passage-to-source navigation review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-293",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/voices-passage-sources-review-2026-10-16.json"
+      ],
+      "limitations": [
+        "Same-assistant review; not independent human, language or literary review.",
+        "Saved source access and edition limitations remain unchanged. A visible citation is not renewed factual validation.",
+        "Browser keyboard and visual checks sampled two representative layouts; physical devices and screen readers remain untested."
       ]
     }
   ],
