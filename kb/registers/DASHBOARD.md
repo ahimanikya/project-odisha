@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `9fff66bf82ee4146e0fba13dcc3bd0e0141f5bb5dde18fbfbab065777dbe3504`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `214242ba96cc915479bd20f10ceaac7e1074b6095689c7e81c8453ec598e6141`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -315,6 +315,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-293 · Language and literary passage-to-source navigation | completed | published | Ahimanikya Satapathy | Published and live-verified; 76 existing source mappings are navigable. Original source-access and specialist-review limits remain open. | — |
 | UTP-WORK-294 · Boat Songs substantive research and rewrite | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Primary repertoire, melody, regional variants and practitioner review remain open for future research. | — |
 | UTP-WORK-295 · Explain Boita trade, boatbuilding and migration evidence | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Ancient hull evidence, specific cargo transactions and the prehistoric migration/ritual relationship remain open for future research. | — |
+| UTP-WORK-296 · Deepen Huluhuli language, technique and historical evidence | in_progress | reviewed | Ahimanikya Satapathy | Pass required checks, merge reviewed head and publish approved main; count only after live verification. | — |
 
 ## Pending human review and decisions
 
@@ -887,6 +888,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-261 | pass_with_limitations | False | Same-assistant review; not independent human, language or literary review.; Saved source access and edition limitations remain unchanged. A visible citation is not renewed factual validation.; Browser keyboard and visual checks sampled two representative layouts; physical devices and screen readers remain untested. |
 | UTP-REV-262 | pass_with_limitations | False | Same-assistant editorial review, not independent human or practitioner review.; Primary boat-song repertoire, lyrics, melody, variants and transmission remain unresolved; this revision does not claim the subject is exhaustively researched.; Patra chapter inspected as web text; cited underlying literary editions were not inspected. Recording was not auditioned.; Mobile and desktop browser checks are not physical-device or screen-reader tests. |
 | UTP-REV-263 | pass_with_limitations | False | Same-assistant editorial review, not independent human or practitioner review.; No complete excavated Sadhaba hull or cargo manifest inspected. Later boat traditions cannot establish an exact ancient design.; Munda sea-route proposal remains debated and does not establish a connection to Boita commemoration or the history of every Odisha tribal community.; Full Munda journal paper was inaccessible; author conference slides inspected. Ceramic PDF web excerpts inspected, screenshots failed. Underlying literary editions and physical artefacts were not inspected.; Responsive browser checks are not physical-device or screen-reader tests. |
+| UTP-REV-264 | pass_with_limitations | False | Same-assistant editorial review, not independent human or practitioner review.; Dictionary is lexicographic evidence, not measured phonetics. Exact origin and Bhagabata edition/canto/verse remain unresolved.; Jacobs reports Arabic zaghareet; it does not establish how Odia practitioners learn or an historical transmission route.; Existing indexed-only festival and competition sources retain their access limitations. No new audio or field demonstration.; Responsive browser checks are not physical-device or screen-reader tests. |
 
 ## Publication and application history
 
@@ -1073,7 +1075,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101542 | 2026-10-15T18:58:55.976034+00:00 | Reconciled three Sounds KB entrances with 22 published article receipts; repaired three wrong subject links and removed delivered lullaby candidate. No website or source-research change; item remains in progress pending merge. | — |
 | UTP-EVT-2026101543 | 2026-10-15T19:03:58.429835+00:00 | Merged the corrected Sounds KB guide: 22 article receipt links, three corrected subject destinations and removal of obsolete publication work. Public site unchanged. Item 102 counted after verified merge receipt. | — |
 | UTP-EVT-2026101601 | 2026-10-16T19:33:16.616861+00:00 | Reviewed print disclosure restoration and paper source URLs for 22 sound stories. Actual local browser PDFs retain source notes, limits and Huluhuli artwork provenance. Publication pending; total 102. | — |
 | UTP-EVT-2026101602 | 2026-10-16T19:41:55.098008+00:00 | Published print evidence preservation for sound stories. Live Huluhuli and Boat Songs PDFs and all 22 route handlers checked. Item 103 counted after publication receipt; total 103. | — |
@@ -1083,6 +1084,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101606 | 2026-10-16T20:58:24.300936+00:00 | Published Boat Songs substantive revision with named imagery, attributed historical interpretation and the 2019 adaptation’s makers and process. Item105 counted after live receipt; total105. Subject remains open to deeper primary-repertoire research. | — |
 | UTP-EVT-2026101607 | 2026-10-16T21:42:11.817109+00:00 | Reviewed Boita expansion covering trade, boatbuilding, buoyancy, navigation and competing migration evidence. Source limits retained; publication pending, completed total 105. | — |
 | UTP-EVT-2026101608 | 2026-10-16T21:51:42.499525+00:00 | Published Boita substantive revision explaining trade, documented construction, buoyancy, winds and disputed migration evidence. Item106 counted after live receipt; total106. Ancient hulls, individual transactions and links between migration and ritual remain unresolved. | — |
+| UTP-EVT-2026101609 | 2026-10-16T22:02:03.410830+00:00 | Reviewed Huluhuli revision using original dictionary page and comparative field report; technique, regional word meanings, historical limits and learning explained. Publication pending; count remains106. | — |
 
 ## Deferred extensions
 

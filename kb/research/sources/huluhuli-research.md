@@ -65,3 +65,27 @@ Historical scan SHA256: `96dcadb96e41e180b1f184e1cdc87294032fcb78bb5230e5bad327b
 ## Tongue-led depiction correction · 12 October 2026
 
 The Founder corrected the laughing-mouth artwork. India Video’s full page text was re-read; it describes tongue rolling in producing the trill. No new video playback or media licence claimed. Public text now states that opening the mouth alone does not create huluhuli; revised artwork remains imagined, not a verified technique demonstration. Original asset and provenance retained.
+
+
+## Language and learning revision · 17 October 2026
+
+**Central question:** how does tongue movement become a recognisable Odia act of welcome, and what can its vocabulary tell us about its history? This extends the existing subject rather than creating a new sound identity. UTP-A500-107 / UTP-WORK-296; same-assistant desk research, no fieldwork or independent review.
+
+The earlier dictionary-access gap is now partly resolved. The short-final spelling returned no exact match; a public DSAL prefix query for ହୁଳ recovered the long-final headword. Search text was cross-checked against the original printed page 9190. The search result labelled that page but linked image 9214, which actually depicts a different printed page. The correct [printed page 9190](https://dsal.uchicago.edu/dictionaries/praharaj/page_images/9190.jpg) was retrieved and visually read. The [catalogue](https://dsal.uchicago.edu/dictionaries/praharaj/) dates the work 1931–1940. No single volume/year or first-use date is inferred.
+
+| Claim or reader gain | Inspected evidence | Boundary |
+| --- | --- | --- |
+| Voice plus tongue movement produces the described sound; verb makes the action explicit. | Praharaj p.9190, ହୁଳହୁଳୀ and ହୁଳହୁଳୀ ଦେବା, search transcription and scan. | Lexicographic description, not measured acoustics or a verified performance demonstration. No claim about a universal tongue trajectory. |
+| Word marked as sound-imitation; long-final spelling and ହୁଳାହୁଳୀ variant help historical retrieval. | Same page, main and variant entries. | No inventor, ancestral migration or Sanskrit-to-Odisha transmission inferred. |
+| The word can also name festive occasions such as marriage in Garhjat usage. | Same page, explicitly regional meaning. | Historical dictionary usage, not a current regional survey or derivation of one meaning from the other. |
+| Haribol/huluhuli pairing records gendered participation. | Note under main entry. | Describes the lexicographer’s account; not a biological distinction or obligation for every woman. |
+| Literary lead involving women, lamps and a path. | Variant entry cites Jagannath’s Bhagabata. | Canto/verse and underlying edition not supplied or inspected; no earlier date or full literary quotation adopted. |
+| Learning and performance setting can differ from self-description. | [Jacobs, ASOR Newsletter 54/4 (2004), p.19](https://www.asor.org/wp-content/uploads/2017/03/54_4.pdf), full report text. | Arabic zaghareet comparison only; no Odisha observations. A later thesis is the same research lineage and remains unread. |
+
+The dictionary also lists a goddess-name sense with a separate literary example. That juxtaposition does not prove that the sound originated in goddess worship. It is not used to create an origin story. The page image is linked for consultation, not republished as website artwork.
+
+Other leads inspected but not promoted: a 2020 Egyptian case report offers a single performer’s account, not an Odisha technique study; the unsourced metadata of a Kathalahari web transcription requires verification against its scan. Speech-trill studies do not automatically describe this vocal practice. The older Meintjes publisher-only bibliography remains in this research history; the reader article now uses an inspected field report for a specific comparison instead.
+
+**New understanding:** the tongue correction now has an original Odia dictionary witness; the vocabulary connects sound, action and occasion; a literary citation is separated from an origin date; comparative field observation distinguishes learning a movement from knowing when it is socially recognised. No new audio or human review claimed.
+
+Verified page-image SHA256: `1da31ef3e5c327f2aac98fa41458364556e707c016d8fd74fe33891de176ac64`. Temporary retrieval retained outside the public bundle.
