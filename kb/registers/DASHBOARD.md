@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `33050df8f6f2efe4eb9b5ca24f04ea669cff40c3f601de6726b5b229c4b2e35d`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `63c5cf0656c3a5b72738b476fe0354c7b04a4609e33699c9e0bd8efc07628964`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -311,6 +311,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-289 · Odissi music: follow the singer | completed | published | Ahimanikya Satapathy | Published and live-verified. Specialist historical and practitioner review remain open; no audio or current course availability claimed. | — |
 | UTP-WORK-290 · Trace the eight core sound stories to their evidence | completed | published | Ahimanikya Satapathy | Published and live-verified. Existing source access and practitioner-review limitations remain open; no fresh research or listening claimed. | — |
 | UTP-WORK-291 · Reconcile Sounds of Odisha knowledge entrances with published articles | completed | reviewed | Ahimanikya Satapathy | KB guide merged and verified. Use current receipts before future status changes; audio and practitioner/local evidence remain separate unfinished work. | — |
+| UTP-WORK-292 · Keep source notes and artwork provenance with printed sound stories | in_progress | reviewed | Ahimanikya Satapathy | Create PR, pass required checks, merge reviewed head, publish approved main and verify live PDF output before counting. | — |
 
 ## Pending human review and decisions
 
@@ -879,6 +880,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-257 | pass_with_limitations | False | Same-assistant review, not independent human, practitioner or specialist review.; SNA register inspected as indexed text; direct citation PDF timed out.; This is a bounded introduction, not a complete historical chronology or technical lesson. No audio audition, lyrics or fieldwork claimed. |
 | UTP-REV-258 | pass_with_limitations | False | Same-assistant review; not an independent human, language or practitioner review.; Source access varies: indexed-only records, unavailable page images and unplayed media remain explicitly qualified in their notes.; This maps previously recorded evidence; it does not refresh source availability or establish disputed origins. |
 | UTP-REV-259 | pass_with_limitations | False | Same-assistant documentary review, not independent human or factual review.; Publication statements are dated to saved successful release evidence; this pass does not claim new live checks or source retrieval.; Audio, practitioner/language review, source-access and local-confirmation gaps remain open. |
+| UTP-REV-260 | pass_with_limitations | False | Same-assistant review; not independent human or practitioner review.; Actual browser PDF checks cover Huluhuli and Boat Songs, not every story or physical printer. Other browser engines are untested.; Automatic expansion requires JavaScript and browser print events; without them the reader can open notes manually before printing.; Existing article factual, source-access and practitioner-review limitations remain unchanged. |
 
 ## Publication and application history
 
@@ -1061,7 +1063,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101534 | 2026-10-15T14:53:36.573741+00:00 | Extended notebook from8 to21 sound stories with four reading paths and synchronized download. Tests and responsive/keyboard checks pass. Publication pending; total97. | — |
 | UTP-EVT-2026101535 | 2026-10-15T15:04:36.653327+00:00 | Published expanded listening notebook covering all 21 sound stories in four reading paths, with synchronized download. Actual live content verified; item 098 counted after receipt. Total 98. | — |
 | UTP-EVT-2026101536 | 2026-10-15T15:49:18.895611+00:00 | Added current-story reading paths across21 sound stories. Tests and responsive/keyboard checks pass; initial overly broad source-test scope corrected. Publication pending, total98. | — |
 | UTP-EVT-2026101537 | 2026-10-15T15:57:48.333834+00:00 | Published contextual reading-path chooser on all 21 sound stories. Actual live content verified; item 099 counted after receipt. Total 99. | — |
@@ -1071,6 +1072,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101541 | 2026-10-15T18:06:35.596636+00:00 | Published passage-to-source navigation and qualified locators across eight core sound stories. All 55 live links verified against canonical mapping; item 101 counted after receipt. Total 101. | — |
 | UTP-EVT-2026101542 | 2026-10-15T18:58:55.976034+00:00 | Reconciled three Sounds KB entrances with 22 published article receipts; repaired three wrong subject links and removed delivered lullaby candidate. No website or source-research change; item remains in progress pending merge. | — |
 | UTP-EVT-2026101543 | 2026-10-15T19:03:58.429835+00:00 | Merged the corrected Sounds KB guide: 22 article receipt links, three corrected subject destinations and removal of obsolete publication work. Public site unchanged. Item 102 counted after verified merge receipt. | — |
+| UTP-EVT-2026101601 | 2026-10-16T19:33:16.616861+00:00 | Reviewed print disclosure restoration and paper source URLs for 22 sound stories. Actual local browser PDFs retain source notes, limits and Huluhuli artwork provenance. Publication pending; total 102. | — |
 
 ## Deferred extensions
 

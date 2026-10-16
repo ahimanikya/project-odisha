@@ -1415,6 +1415,18 @@
       ],
       "started_at": "2026-10-15T18:56:09.594332+00:00",
       "completed_at": "2026-10-15T19:03:58.429835+00:00"
+    },
+    {
+      "id": "UTP-A500-103",
+      "title": "Keep source notes and artwork provenance with printed sound stories",
+      "status": "in_progress",
+      "work_id": "UTP-WORK-292",
+      "acceptance": "Fix the observed print loss: the live Huluhuli browser PDF omits closed source notes and artwork provenance. Reveal only story-sources during printing for all 22 sound stories, restore the original disclosure state afterwards, and retain usable source URLs on paper. Cover repeated print events, pre-opened notes and pages without sources. Verify actual browser PDF text/layout for representative core and further-reading stories, unchanged canonical content and indexing, meaningful unit/build tests, passing reviewed-head PR, approved main deployment and a live print receipt before counting.",
+      "evidence": [
+        "records/core-sound-sources-publication-2026-10-15.json",
+        "records/sound-story-print-review-2026-10-16.json"
+      ],
+      "started_at": "2026-10-16T19:29:42.619989+00:00"
     }
   ],
   "followup_candidates": [
@@ -1434,5 +1446,5 @@
     "status": "ACTIVE",
     "destination": "current chat"
   },
-  "updated_at": "2026-10-15T19:03:58.429835+00:00"
+  "updated_at": "2026-10-16T19:29:42.619989+00:00"
 }
