@@ -8223,12 +8223,12 @@
       "id": "UTP-WORK-2026101508",
       "title": "Consistent Jhula spacing and aligned design controls",
       "category": "website",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current merchandise assistant",
       "authorization": "UTP-DEC-2026101509",
-      "next_action": "Publish and verify responsive layout corrections.",
+      "next_action": "Review the corrected live page.",
       "blockers": [],
       "refs": [
         "UTP-DEC-2026101509"
@@ -18987,6 +18987,22 @@
       "evidence": [
         "records/jhula-buy-interest-2026-10-15.json"
       ]
+    },
+    {
+      "id": "UTP-REV-2026101508",
+      "title": "Jhula spacing and alignment review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current merchandise assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-2026101508"
+      ],
+      "evidence": [
+        "records/jhula-layout-review-2026-10-15.json"
+      ]
     }
   ],
   "releases": [
@@ -21175,6 +21191,20 @@
       ],
       "evidence": [
         "records/jhula-buy-interest-2026-10-15.json"
+      ]
+    },
+    {
+      "id": "UTP-REL-2026101508",
+      "title": "Aligned Jhula layout published",
+      "status": "published",
+      "authorization": "UTP-DEC-2026101509",
+      "destination": "https://projectodisha.org/odia-poetry-jhula/",
+      "refs": [
+        "UTP-WORK-2026101508",
+        "UTP-REV-2026101508"
+      ],
+      "evidence": [
+        "records/jhula-layout-review-2026-10-15.json"
       ]
     }
   ],
