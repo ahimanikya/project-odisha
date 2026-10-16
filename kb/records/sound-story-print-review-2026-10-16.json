@@ -1,0 +1,39 @@
+{
+  "recorded_at": "2026-10-16T19:33:16.616861+00:00",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "status": "pass_with_limitations",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-103",
+  "work_id": "UTP-WORK-292",
+  "verification": {
+    "problem": "Actual live Huluhuli browser PDF, with source disclosure closed, omitted source notes and artwork provenance (8 pages).",
+    "tests": "537 full-site tests, 192 coastal tests, 1572 page acceptance checks pass. Includes three print lifecycle tests: closed/pre-opened notes, repeated events, repeated cycles, absent/non-details source regions. Search and launch audits retain 11 indexable routes.",
+    "browser": "Local Chromium Page.printToPDF: closed Huluhuli notes included in nine-page PDF and restored closed afterwards; pre-opened notes remained open. Boat Songs six-page PDF includes all four source records, locators, URLs and limitations, restoring closed state. Rendered Huluhuli source pages 7–8 and Boat Songs source page 5 inspected: readable wrapped URLs, qualifications and artwork credit. Built output checks all 22 source-disclosure routes load the print handler.",
+    "factual_scope": "No new factual research or claims. Existing canonical narratives, source records, tongue-motion correction, artwork provenance, research map and search eligibility unchanged.",
+    "diff_review": "Handler scoped to story-sources DETAILS. Original state retained across repeated beforeprint and restored once afterprint. Only source-note URLs appended in print CSS. Other disclosures remain unchanged."
+  },
+  "limitations": [
+    "Same-assistant review; not independent human or practitioner review.",
+    "Actual browser PDF checks cover Huluhuli and Boat Songs, not every story or physical printer. Other browser engines are untested.",
+    "Automatic expansion requires JavaScript and browser print events; without them the reader can open notes manually before printing.",
+    "Existing article factual, source-access and practitioner-review limitations remain unchanged."
+  ],
+  "pdf_evidence": [
+    {
+      "path": "/tmp/huluhuli-print-before.pdf",
+      "sha256": "8577ea26cefcb7a12cf74dd38f0efdb99d25db172bb8495ee114e0ca41827e39"
+    },
+    {
+      "path": "/tmp/huluhuli-print-after.pdf",
+      "sha256": "bbf34b5b926475a603b1fb8f8fb218169890f83236bf76983cd047b37d6675ef"
+    },
+    {
+      "path": "/tmp/boat-print-after.pdf",
+      "sha256": "c77c9b3721d31cda0092cce3739aed2342bdb629815baf68ba7187080fa58142"
+    }
+  ]
+}

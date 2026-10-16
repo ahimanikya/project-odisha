@@ -8362,6 +8362,28 @@
         "records/sounds-kb-guide-merged-2026-10-15.json"
       ],
       "acceptance_criteria": "Repair the three incorrect sound-subject links in the culture index; replace stale root/collection publication statements with a dated 22-story directory linking each KB narrative, actual website and saved release receipt. Keep eight core stories separate from fourteen further readings and retain unfinished audio, practitioner and local-review scope. Remove the already delivered lullaby publication candidate. Verify exact coverage against discovery and receipts, valid KB links, unchanged story/site files, passing PR and merged record evidence. This is a canonical navigation repair, not a new website or research delivery; record the deployment exemption explicitly."
+    },
+    {
+      "id": "UTP-WORK-292",
+      "title": "Keep source notes and artwork provenance with printed sound stories",
+      "category": "website_accessibility",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Create PR, pass required checks, merge reviewed head, publish approved main and verify live PDF output before counting.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-075",
+        "UTP-REV-260"
+      ],
+      "evidence": [
+        "records/core-sound-sources-publication-2026-10-15.json",
+        "records/sound-story-print-review-2026-10-16.json"
+      ],
+      "acceptance_criteria": "Fix the observed print loss: the live Huluhuli browser PDF omits closed source notes and artwork provenance. Reveal only story-sources during printing for all 22 sound stories, restore the original disclosure state afterwards, and retain usable source URLs on paper. Cover repeated print events, pre-opened notes and pages without sources. Verify actual browser PDF text/layout for representative core and further-reading stories, unchanged canonical content and indexing, meaningful unit/build tests, passing reviewed-head PR, approved main deployment and a live print receipt before counting."
     }
   ],
   "decisions": [
@@ -19220,6 +19242,29 @@
         "Same-assistant documentary review, not independent human or factual review.",
         "Publication statements are dated to saved successful release evidence; this pass does not claim new live checks or source retrieval.",
         "Audio, practitioner/language review, source-access and local-confirmation gaps remain open."
+      ]
+    },
+    {
+      "id": "UTP-REV-260",
+      "title": "Sound story print evidence review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-292",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/sound-story-print-review-2026-10-16.json"
+      ],
+      "limitations": [
+        "Same-assistant review; not independent human or practitioner review.",
+        "Actual browser PDF checks cover Huluhuli and Boat Songs, not every story or physical printer. Other browser engines are untested.",
+        "Automatic expansion requires JavaScript and browser print events; without them the reader can open notes manually before printing.",
+        "Existing article factual, source-access and practitioner-review limitations remain unchanged."
       ]
     }
   ],
