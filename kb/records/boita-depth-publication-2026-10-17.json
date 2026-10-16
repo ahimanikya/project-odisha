@@ -1,0 +1,71 @@
+{
+  "recorded_at": "2026-10-16T21:51:42.499525+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-106",
+  "work_id": "UTP-WORK-295",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/277",
+  "reviewed_head": "c9589892130ab0b93148ace80af640aa11633b60",
+  "merge_commit": "08ab44882edc0ffc5284c253f2c09de54e9471d7",
+  "merged_at": "2026-10-16T21:48:46Z",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "c9589892130ab0b93148ace80af640aa11633b60",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38971545646"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "08ab44882edc0ffc5284c253f2c09de54e9471d7",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38971861979",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-16T21:51:26.951746+00:00",
+    "url": "https://projectodisha.org/stories/maritime-memory/",
+    "status": 200,
+    "paragraphs_verified": 27,
+    "sources_verified": 16,
+    "html_sha256": "82d71cb66af72d973df720464777908f6e022b33389e7dc46688267be6929db0",
+    "all_canonical_paragraphs_present": true,
+    "end_notes_mapping_present": true,
+    "no_audio": true,
+    "noindex": true,
+    "sitemap_entries": 11,
+    "browser": "Actual live revision visually checked; new prose and expandable end notes present.",
+    "screenshot": "/tmp/boita-depth-live.png"
+  },
+  "outputs": [
+    {
+      "path": "kb/research/history/sadhaba-maritime-science.md",
+      "sha256": "31a2baa7e45899bf1d9992d1e7baf1c95914a989e1a2c60d8d44a680ae8a0d67",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/stories/narratives/maritime-memory.json",
+      "sha256": "8325a9ac46467105e476e2948f713a05501972cf0e37d78f5205ad57376e86d6",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/references/data/sadhaba-maritime-science.json",
+      "sha256": "680b38bd2ec2716ce839e204262aaa80e9fd1d425344b7b1eadd91ccba89cc28",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/stories/maritime-memory.astro",
+      "sha256": "abfd457a2010978fba2c972aef7f111e433535988ab4eaf21e35df843ee1b653",
+      "matches_fetched_merge": true
+    }
+  ],
+  "review": "records/boita-depth-review-2026-10-17.json",
+  "limitations": [
+    "Same-assistant editorial review, not independent human or practitioner review.",
+    "No complete excavated Sadhaba hull or cargo manifest inspected. Later boat traditions cannot establish an exact ancient design.",
+    "Munda sea-route proposal remains debated and does not establish a connection to Boita commemoration or the history of every Odisha tribal community.",
+    "Full Munda journal paper was inaccessible; author conference slides inspected. Ceramic PDF web excerpts inspected, screenshots failed. Underlying literary editions and physical artefacts were not inspected.",
+    "Responsive browser checks are not physical-device or screen-reader tests."
+  ],
+  "attachment": "App attachment attempted; thread attachment identity count exceeds 100. PR URL retained."
+}
