@@ -1,0 +1,220 @@
+{
+  "recorded_at": "2026-10-15T18:06:35.596636+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-101",
+  "work_id": "UTP-WORK-290",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/272",
+  "reviewed_head": "80d718c0487ccdf60411b258b8b37f8c35ff9cae",
+  "merge_commit": "42c6a7cd576f5c0ab9d1e599657b78b78dc5841e",
+  "merged_at": "2026-10-15T18:02:55Z",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "80d718c0487ccdf60411b258b8b37f8c35ff9cae",
+    "startedAt": "2026-10-15T17:59:26Z",
+    "updatedAt": "2026-10-15T18:02:17Z",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38781883430"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "42c6a7cd576f5c0ab9d1e599657b78b78dc5841e",
+    "startedAt": "2026-10-15T18:03:09Z",
+    "updatedAt": "2026-10-15T18:05:16Z",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38782402461",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-15T18:06:04.678653+00:00",
+    "status": "pass",
+    "story_pages": 8,
+    "section_source_links": 55,
+    "checks": [
+      {
+        "url": "https://projectodisha.org/sounds-of-odisha/huluhuli/",
+        "status": 200,
+        "section_source_links": 15,
+        "numbered_sources": 9,
+        "narrative_preserved": true,
+        "source_limits_preserved": true,
+        "noindex": true,
+        "sha256": "7730f180683581b631bfd70fdd4990dc9d50c74f43983f742168d3b4debf9da5"
+      },
+      {
+        "url": "https://projectodisha.org/sounds-of-odisha/sankha/",
+        "status": 200,
+        "section_source_links": 13,
+        "numbered_sources": 9,
+        "narrative_preserved": true,
+        "source_limits_preserved": true,
+        "noindex": true,
+        "sha256": "74ea8e728655d05fcce2721eff36f19fa470c81b78c96a9ba430df106889f74a"
+      },
+      {
+        "url": "https://projectodisha.org/sounds-of-odisha/mardala/",
+        "status": 200,
+        "section_source_links": 3,
+        "numbered_sources": 3,
+        "narrative_preserved": true,
+        "source_limits_preserved": true,
+        "noindex": true,
+        "sha256": "9676485c4d51061226385f57ab3989b9526eb80adaa3574e8d832c92af9e7370"
+      },
+      {
+        "url": "https://projectodisha.org/sounds-of-odisha/daskathia/",
+        "status": 200,
+        "section_source_links": 7,
+        "numbered_sources": 4,
+        "narrative_preserved": true,
+        "source_limits_preserved": true,
+        "noindex": true,
+        "sha256": "8e4a81861b022273ac2210d68b2a4ec9748e6325ae9e25d67b1a0bea5667a643"
+      },
+      {
+        "url": "https://projectodisha.org/sounds-of-odisha/ghanta-ghanti/",
+        "status": 200,
+        "section_source_links": 5,
+        "numbered_sources": 4,
+        "narrative_preserved": true,
+        "source_limits_preserved": true,
+        "noindex": true,
+        "sha256": "475373c997297f66edb3d9735c3e728bb5cb9d9f71ac52c601edd38d485cdc87"
+      },
+      {
+        "url": "https://projectodisha.org/sounds-of-odisha/dalkhai/",
+        "status": 200,
+        "section_source_links": 6,
+        "numbered_sources": 4,
+        "narrative_preserved": true,
+        "source_limits_preserved": true,
+        "noindex": true,
+        "sha256": "fcff2799455c00ec6c9639414c1d3532a325267f55747db8eb8427476d76ba4d"
+      },
+      {
+        "url": "https://projectodisha.org/sounds-of-odisha/pala/",
+        "status": 200,
+        "section_source_links": 3,
+        "numbered_sources": 3,
+        "narrative_preserved": true,
+        "source_limits_preserved": true,
+        "noindex": true,
+        "sha256": "e2dfe90af37764d55fab8c3d4374f89043a22bed126449869f205c6258067e30"
+      },
+      {
+        "url": "https://projectodisha.org/sounds-of-odisha/dhemsa/",
+        "status": 200,
+        "section_source_links": 3,
+        "numbered_sources": 3,
+        "narrative_preserved": true,
+        "source_limits_preserved": true,
+        "noindex": true,
+        "sha256": "21ae072648a12530d1e1eb6482ed02abdffc62b379c4ac4b9fbe292174cec15f"
+      }
+    ],
+    "indexable_routes": 11,
+    "scope": "All eight core live stories retain original narrative and limits, 55 section links match numbered source notes; Huluhuli tongue and artwork provenance retained.",
+    "browser": "390px Huluhuli and 1280px Daskathia checked locally; keyboard source-note disclosure/focus and target layout passed. Live Huluhuli source navigation visually inspected.",
+    "screenshot": "/tmp/core-sources-live.png"
+  },
+  "outputs": [
+    {
+      "path": "kb/records/core-sound-source-mapping-2026-10-15.json",
+      "sha256": "b93d0ca5ccc1fe2ad3f252385b2f5aecd51b3466816962509351536a68feff10",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/tests-coast/core-sound-source-links.test.mjs",
+      "sha256": "4422b37ca77b9268f3167f112bec13cdddab0fa3f19ba4a48f62c1b30ddbea59",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/culture/huluhuli-website.json",
+      "sha256": "37bdf1540d573adf34d928673e5b60f4fb56a055d496684068c953bd477d5c53",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha/huluhuli.astro",
+      "sha256": "dcb2f952c41812bf010c3ee0f39313ec03f8cd8072085c04a92373fb6c2adf50",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/culture/sankha-website.json",
+      "sha256": "27fdd01c1666862bb2e7927fe0cad1a68dd805686809a7a892d2dd28c4b71ba7",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha/sankha.astro",
+      "sha256": "d440a774ce02e4e2d783ce987ca126455805030502ee7df39675783ea66f1a99",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/culture/mardala-website.json",
+      "sha256": "de0fc0df0da32a9990ee6d9d9ca2e824c7c434adb48eed661a645490cd3aa613",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha/mardala.astro",
+      "sha256": "67fd5a00dab003d1a2fd411662273d03d4aa4ebae04cdb3b3ffd09d697202d69",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/culture/daskathia-website.json",
+      "sha256": "c3ef14416d76aeb3324d26b2771623ef493fc02ce7344ca09a53da7f9462bc04",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha/daskathia.astro",
+      "sha256": "82bbcdbbde8c77ae56ad7231682a302a6f451e35ac189897ae04e4211e0797f5",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/culture/ghanta-ghanti-website.json",
+      "sha256": "d8611c28c2a26d441148dc92483d64e236230f40140788abfa22e7cf9ed3bdb9",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha/ghanta-ghanti.astro",
+      "sha256": "35bdf1bf42d98e59a576076fb63dc56f4ce79ed0fb8fb124010a2b9f84b3bb27",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/culture/dalkhai-website.json",
+      "sha256": "1683d42971909d05a36515a911297a6ca2927bfc11d88ce991da8770c64163ad",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha/dalkhai.astro",
+      "sha256": "94df17d986d0b37809ef171f20f68206747e20e205f961ad28c986007e9b5bf8",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/culture/pala-website.json",
+      "sha256": "720c0a21758d3c3e2cdf3a4021aa43c7f4bae5a7d46ee5e7291bd19f4e45f94a",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha/pala.astro",
+      "sha256": "f20032e6b072c127c16c63f2f9c8132e27530f58f440db96085a43ff8344603d",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/culture/dhemsa-website.json",
+      "sha256": "8060ad49911b8cb10865fa1aa6c557304a4fbb1ae7c67596f64477fb8cccbd97",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha/dhemsa.astro",
+      "sha256": "9703302520188eb136ff7194ae0178280358c8adb52220843b8828c60d87b78c",
+      "matches_fetched_merge": true
+    }
+  ],
+  "review": "records/core-sound-sources-review-2026-10-15.json",
+  "limitations": [
+    "Same-assistant review; not an independent human, language or practitioner review.",
+    "Source access varies: indexed-only records, unavailable page images and unplayed media remain explicitly qualified in their notes.",
+    "This maps previously recorded evidence; it does not refresh source availability or establish disputed origins."
+  ],
+  "attachment": "App attachment attempted; thread attachment identity count exceeds 100. PR URL retained.",
+  "record_completion_note": "Completion validation found the supporting mapping record omitted its authority reference. Added UTP-DEC-225 and UTP-WORK-290 metadata after live verification; section mapping, narrative hashes and deployed content remain unchanged. Output hashes above describe the verified merge; the mapping metadata amendment is included with this receipt.",
+  "mapping_record_after_completion_metadata_sha256": "798eb7c541a8af88fb06ee43ce3356df82e3f4ad8ce17d086b8f061a17779a12"
+}

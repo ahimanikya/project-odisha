@@ -132,3 +132,12 @@ summary{min-height:44px;cursor:pointer}main:focus{outline:none}.header nav a{min
 /* Reading measure and tablet stacking for the inner-page templates. */
 .detail-intro h1{font-size:clamp(40px,4.5vw,76px);overflow-wrap:anywhere}.detail-columns{grid-template-columns:minmax(0,1fr) minmax(250px,340px);gap:clamp(30px,5vw,80px);max-width:1320px;margin-inline:auto}.detail-columns>*{min-width:0}.detail-prose{max-width:75ch}.detail-intro figure{min-width:0}.detail-page .journey-save{margin-bottom:36px}
 @media(max-width:980px){.detail-intro,.detail-columns{grid-template-columns:1fr}.detail-intro{margin-block:28px 36px}.detail-next{position:static}.detail-prose{max-width:none}}
+
+/* Keep cited evidence and credit readable in printed story copies. */
+@media print {
+ #story-sources{font-size:10pt;line-height:1.5;overflow-wrap:anywhere}
+ #story-sources summary{font-weight:700;break-after:avoid}
+ #story-sources li{break-inside:avoid}
+ #story-sources a[href^="https://"]::after,#story-sources a[href^="http://"]::after{content:" (" attr(href) ")";font-size:9pt;font-weight:400;overflow-wrap:anywhere}
+ #story-sources [id^="story-source-"]:target{background:transparent;outline:none}
+}

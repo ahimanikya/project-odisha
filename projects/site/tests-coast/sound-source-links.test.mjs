@@ -2,10 +2,10 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 const escape=s=>s.replaceAll('&','&amp;').replaceAll("'",'&#39;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;');
-for(const slug of ['ghumura','mahuri','ranapa','chaiti-ghoda','danda-nata','prahlada-nataka','dhuduki'])test(`${slug} passage citations reach the matching numbered source note and retain its limits`,()=>{
+for(const slug of ['ghumura','mahuri','ranapa','chaiti-ghoda','danda-nata','prahlada-nataka','dhuduki','odissi-music'])test(`${slug} passage citations reach the matching numbered source note and retain its limits`,()=>{
  const story=JSON.parse(readFileSync('../../kb/research/culture/'+slug+'-website.json','utf8'));
  const html=readFileSync('dist-coast/stories/'+slug+'/index.html','utf8');
- const article=html.split('<article ',2)[1].split('</article>',1)[0];
+ const article=html.split('<article ',2)[1].split('</article>',1)[0].replace(/<details class="sound-reading-paths"[^>]*>[\s\S]*?<\/details>/g,'');
  const sections=[...article.matchAll(/<section\b[^>]*>([\s\S]*?)<\/section>/g)].map(m=>m[1]);
  assert.equal(sections.length,story.blocks.length);
  const notes=html.match(/<details id="story-sources"[^>]*>([\s\S]*?)<\/details>/)[1];

@@ -36,7 +36,7 @@
 
 [Huluhuli (ହୁଳହୁଳି): The sacred sound of Odisha](huluhuli.md) — Sounds of Odisha; history, tradition and cultural meaning.
 
-[Sounds of Odisha](sounds-of-odisha.md) — collection outline, with [Sankha ଶଙ୍ଖ](sankha.md) and Huluhuli.
+[Sounds of Odisha](sounds-of-odisha.md#what-is-published) — maintained directory of 22 published stories, their KB narratives and release evidence; eight core chapters, fourteen further readings and explicit unfinished review/audio questions.
 
 [Mardala: the conversation beneath the dance](mardala.md) joins Sounds of Odisha, with named teachers, creative credits and listening prompts.
 
@@ -44,11 +44,11 @@
 
 [Daskathia](daskathia.md) connects voice, wooden rhythm and literary storytelling in Sounds of Odisha.
 
-[Ghanta and ghanti](daskathia.md) connects metalworking, ritual sound and local group playing in Sounds of Odisha.
+[Ghanta and ghanti](ghanta-ghanti.md) connects metalworking, ritual sound and local group playing in Sounds of Odisha.
 
-[Pala](daskathia.md) now includes an illustrated Sounds of Odisha listening story; earlier research is preserved.
+[Pala](pala.md) now includes an illustrated Sounds of Odisha listening story; earlier research is preserved.
 
-[Dhemsa](daskathia.md) connects group movement, community and place in Sounds of Odisha.
+[Dhemsa](dhemsa.md) connects group movement, community and place in Sounds of Odisha.
 
 [Sand art: dated works, festival participation and historical fee terms](sand-art.md) connects artistic practice with contract evidence without treating attendance or offered rates as income.
 

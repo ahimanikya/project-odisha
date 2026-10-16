@@ -1,0 +1,85 @@
+{
+  "recorded_at": "2026-10-15T15:04:36.653327+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-098",
+  "work_id": "UTP-WORK-287",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/269",
+  "reviewed_head": "c199ab619afdc37079c8eacee13fd55df5f31c99",
+  "merge_commit": "2433f5fc3336c64693d16d168fe31707cc03af46",
+  "merged_at": "2026-10-15T14:59:20Z",
+  "validation": {
+    "conclusion": "success",
+    "createdAt": "2026-10-15T14:55:29Z",
+    "databaseId": 38755744112,
+    "headSha": "c199ab619afdc37079c8eacee13fd55df5f31c99",
+    "status": "completed",
+    "updatedAt": "2026-10-15T14:58:20Z",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38755744112"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "createdAt": "2026-10-15T14:59:39Z",
+    "databaseId": 38756355550,
+    "headSha": "2433f5fc3336c64693d16d168fe31707cc03af46",
+    "status": "completed",
+    "updatedAt": "2026-10-15T15:02:36Z",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38756355550",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-15T15:04:23.148472+00:00",
+    "url": "https://projectodisha.org/sounds-of-odisha/listening-notebook/",
+    "status": "pass",
+    "questions": 21,
+    "groups": 4,
+    "download": "HTTP200; byte-equivalent UTF-8 text to committed download,21 questions and canonical article URLs",
+    "indexing": "Notebook remains noindex;11 sitemap routes unchanged",
+    "http": [
+      {
+        "url": "https://projectodisha.org/sounds-of-odisha/listening-notebook/",
+        "status": 200,
+        "sha256": "7fddb8f70aac577bb1416b634f48baca94056a058d972baa1d78d6e9a14072fe"
+      },
+      {
+        "url": "https://projectodisha.org/assets/odisha-listening-notebook.txt",
+        "status": 200,
+        "sha256": "9234cd5f25510ce5d8a716dd16892ee072a1f85b546d88011907dfa75a5e862b"
+      },
+      {
+        "url": "https://projectodisha.org/sitemap.xml",
+        "status": 200,
+        "sha256": "65430f0063cd4750794ff628e88549f0e252c485acfef118edce08b13fbf49bd"
+      }
+    ],
+    "verification_correction": "Initial script requested nonexistent /sitemap-0.xml and received404; corrected to /sitemap.xml from published robots.txt/build output, then complete check passed. No site defect inferred.",
+    "browser": "Phone 390px and desktop 1280px checked locally; keyboard section focus passed. Published notebook visually verified.",
+    "screenshot": "/tmp/notebook-live.png"
+  },
+  "outputs": [
+    {
+      "path": "kb/research/culture/listening-notebook.json",
+      "sha256": "d2aa725dc9b7520c8ccd002e1be31cf31672a0d205a1eccabc6f8ed8ad5af12c",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha/listening-notebook.astro",
+      "sha256": "6bf3068a63bb65080077162de416a823c329903a8a8172b3fa3de0be81e2c8c4",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/public/assets/odisha-listening-notebook.txt",
+      "sha256": "9234cd5f25510ce5d8a716dd16892ee072a1f85b546d88011907dfa75a5e862b",
+      "matches_fetched_merge": true
+    }
+  ],
+  "review": "records/listening-notebook-expansion-review-2026-10-15.json",
+  "limitations": [
+    "Same-assistant review; no independent human, practitioner or screen-reader review.",
+    "Listening suggestions do not establish a current performance, access permission, technical lesson or field encounter.",
+    "Print styles retained; no physical print or print-preview validation claimed."
+  ],
+  "concurrency": "Merged main after concurrent Jhula PR 268; preserved all records/events and regenerated dashboard. Required checks passed on integrated head.",
+  "attachment": "App attachment attempted; thread attachment identity count exceeds 100. PR URL retained."
+}

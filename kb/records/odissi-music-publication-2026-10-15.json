@@ -1,0 +1,115 @@
+{
+  "recorded_at": "2026-10-15T17:13:40.036689+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-100",
+  "work_id": "UTP-WORK-289",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/271",
+  "reviewed_head": "4819101a6c1458fc111a9fa0f9532671a71e15e5",
+  "merge_commit": "73b06910ff5ddd11d5f64be85b389d343ba9b5c3",
+  "merged_at": "2026-10-15T17:08:51Z",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "4819101a6c1458fc111a9fa0f9532671a71e15e5",
+    "startedAt": "2026-10-15T17:04:29Z",
+    "updatedAt": "2026-10-15T17:07:29Z",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38774277417"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "73b06910ff5ddd11d5f64be85b389d343ba9b5c3",
+    "startedAt": "2026-10-15T17:09:16Z",
+    "updatedAt": "2026-10-15T17:12:12Z",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38774939919",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-15T17:13:04.260139+00:00",
+    "pages": [
+      {
+        "url": "https://projectodisha.org/stories/odissi-music/",
+        "status": 200,
+        "sha256": "6d49235dad0383d092fd17be9ba368adcd2bac4333bba314e858ff2f862a4945"
+      },
+      {
+        "url": "https://projectodisha.org/sounds-of-odisha/",
+        "status": 200,
+        "sha256": "3aec9ff7506093f380ba0b08b766f31b92bc0d4a4b3092e4974e3678e0737fda"
+      },
+      {
+        "url": "https://projectodisha.org/explore/",
+        "status": 200,
+        "sha256": "714496dde29278fc151567a64e976f0ac32a6328855bb1d447de5fe669bd54e3"
+      },
+      {
+        "url": "https://projectodisha.org/sounds-of-odisha/listening-notebook/",
+        "status": 200,
+        "sha256": "791b34808c3e0488ac551d8e9344facc2579a18eb4aa0699222d172d4717fc6a"
+      },
+      {
+        "url": "https://projectodisha.org/assets/odisha-listening-notebook.txt",
+        "status": 200,
+        "sha256": "81f4382f41c8e0004f1a1c9826fe7794497c231667a4a970c0cfd233fe9609a2"
+      },
+      {
+        "url": "https://projectodisha.org/sitemap.xml",
+        "status": 200,
+        "sha256": "65430f0063cd4750794ff628e88549f0e252c485acfef118edce08b13fbf49bd"
+      }
+    ],
+    "canonical_paragraphs": 13,
+    "sources": 4,
+    "discovery": "Sounds collection, voice reading path, current-story chooser and Explore include dedicated route. Notebook page and exact downloadable text include new question.",
+    "stories": 22,
+    "indexable_routes": 11,
+    "robots": "noindex, follow",
+    "limitations": "HTTP response and canonical text checks do not constitute practitioner or independent human review.",
+    "browser": "Phone390px and desktop1280px checked locally; keyboard source-note focus and current-story reading-path state passed. Live article visually inspected.",
+    "screenshot": "/tmp/odissi-live.png"
+  },
+  "outputs": [
+    {
+      "path": "kb/research/culture/odissi-music-website.json",
+      "sha256": "8b1e408168288ccc6edf7bb4ce03e4b2d6268267c077b640e9e923d769aa32c1",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/sources/odissi-music-research.json",
+      "sha256": "7f3b3a7b0697e5e03084afcee8d88eeb8ba3f21230a615a0504655594d49cd0d",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/product/sounds-discovery.json",
+      "sha256": "0d44578033a05821a5fb40d1cccef753215b28b1edaca69f1743a33761decca3",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/product/sounds-reading-paths.json",
+      "sha256": "1d71c2cb8bad5be93b23a17992d2742627e552e2404398704dc8d62eb97cbf53",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/culture/listening-notebook.json",
+      "sha256": "9c72fe0b94a7caa0c572f9ba201ee8ddc64b548f5d0640bf12076a5350ba61bd",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/stories/odissi-music.astro",
+      "sha256": "285d8950cd65eee6f6a6cce9cf76e8cf1163c34136351e2d9bdbcb2a96bfac4a",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/public/assets/odisha-listening-notebook.txt",
+      "sha256": "81f4382f41c8e0004f1a1c9826fe7794497c231667a4a970c0cfd233fe9609a2",
+      "matches_fetched_merge": true
+    }
+  ],
+  "review": "records/odissi-music-review-2026-10-15.json",
+  "limitations": [
+    "Same-assistant review, not independent human, practitioner or specialist review.",
+    "SNA register inspected as indexed text; direct citation PDF timed out.",
+    "This is a bounded introduction, not a complete historical chronology or technical lesson. No audio audition, lyrics or fieldwork claimed."
+  ],
+  "attachment": "App attachment attempted; thread attachment identity count exceeds100. PR URL retained."
+}

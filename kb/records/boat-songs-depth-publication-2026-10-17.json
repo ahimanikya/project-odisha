@@ -1,0 +1,72 @@
+{
+  "recorded_at": "2026-10-16T20:58:24.300936+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-105",
+  "work_id": "UTP-WORK-294",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/276",
+  "reviewed_head": "053f48bd18232b972708ba58b4679413af24de2b",
+  "merge_commit": "a0e754dd461ec6b97cb711e01f7a7f5d1e82df96",
+  "merged_at": "2026-10-16T20:53:43Z",
+  "validation": {
+    "conclusion": "success",
+    "databaseId": 38965100129,
+    "headSha": "053f48bd18232b972708ba58b4679413af24de2b",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38965100129"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "databaseId": 38965545507,
+    "headSha": "a0e754dd461ec6b97cb711e01f7a7f5d1e82df96",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38965545507",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-16T20:58:19.356087+00:00",
+    "url": "https://projectodisha.org/stories/boat-songs/",
+    "status": 200,
+    "paragraphs_verified": 20,
+    "sources_verified": 5,
+    "html_sha256": "939fd63981b22f7b3e0f1567132922cc113a0425fd7cbdec8f115c6ba06accf7",
+    "all_canonical_paragraphs_present": true,
+    "end_notes_mapping_present": true,
+    "no_audio": true,
+    "noindex": true,
+    "sitemap_entries": 11,
+    "browser": "Actual live revision visually checked; new prose and expandable end notes present.",
+    "screenshot": "/tmp/boat-songs-depth-live.png"
+  },
+  "outputs": [
+    {
+      "path": "kb/research/culture/boat-songs.md",
+      "sha256": "59e3743b75cd7c2bc26ec1e3c53dba51a8b8aea18393b9417ba246eca306cb6a",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/culture/boat-songs-website.json",
+      "sha256": "024bfe0e5f6781a244f1d28416d535146358a72d2f40f25362836ac6a067643a",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/sources/boat-songs-research.json",
+      "sha256": "260d17d6ca3ff66c2714edd61b618b5cc051185c20b220a797e4f1f9c605e513",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/stories/boat-songs.astro",
+      "sha256": "95d9eb4bd123801da4c5b1bb0b7655cf111390e2a47b9aa748c1969d7f5cc111",
+      "matches_fetched_merge": true
+    }
+  ],
+  "review": "records/boat-songs-depth-review-2026-10-17.json",
+  "limitations": [
+    "Same-assistant editorial review, not independent human or practitioner review.",
+    "Primary boat-song repertoire, lyrics, melody, variants and transmission remain unresolved; this revision does not claim the subject is exhaustively researched.",
+    "Patra chapter inspected as web text; cited underlying literary editions were not inspected. Recording was not auditioned.",
+    "Mobile and desktop browser checks are not physical-device or screen-reader tests."
+  ],
+  "attachment": "App attachment attempted; thread attachment identity count exceeds 100. PR URL retained."
+}

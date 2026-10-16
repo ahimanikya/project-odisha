@@ -1,0 +1,26 @@
+{
+  "recorded_at": "2026-10-16T19:47:49.295100+00:00",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "status": "pass_with_limitations",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-104",
+  "work_id": "UTP-WORK-293",
+  "verification": {
+    "scope": "Expose 76 existing source mappings across 64 sourced paragraphs on all 19 public Voices pages. Editorial paragraphs remain without citations.",
+    "tests": "537 full-site tests, 211 coastal tests including 19 per-page passage/source checks, and 1572 page acceptance checks pass; 11 indexable routes retained.",
+    "failures_resolved": "Initial built-page assertions did not accept Astro empty data-source-ids attributes. Corrected the test parser to include unsourced editorial paragraphs, then all 19 tests passed. Visual review found magazine typography overriding citation size; added a scoped 15px rule and rebuilt.",
+    "visual": "390x844 Fakir Mohan: keyboard Enter opens and focuses the exact numbered note without overflow. 1280x900 Gopinath: alternate article template opens and focuses Paraja publisher note. Source qualifications and image credits remain visible. Passage citation size rechecked after typography correction.",
+    "factual_scope": "Reused canonical source_ids and existing source review/inspection notes after searching the research map. No new research, textual interpretation, source refresh, specialist review or translation claimed.",
+    "diff_review": "Shared source ordering uses the rendered entry after edition filtering. Unknown IDs fail the build. Stable voice-source targets, numbered notes and accessible labels agree with paragraph mappings; sound-story defaults unchanged. Voices collection byte-identical to base."
+  },
+  "canonical_collection_sha256": "58b860aaa264085afb794418e32522278001f61270743360b2405602b92c38f0",
+  "limitations": [
+    "Same-assistant review; not independent human, language or literary review.",
+    "Saved source access and edition limitations remain unchanged. A visible citation is not renewed factual validation.",
+    "Browser keyboard and visual checks sampled two representative layouts; physical devices and screen readers remain untested."
+  ]
+}

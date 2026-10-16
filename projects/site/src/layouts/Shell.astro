@@ -60,6 +60,8 @@ const socialImage=new URL(sharePhoto.src,Astro.site).href;
 <script is:inline type="application/json" id="journey-data" set:html={safeJSON}/><script>import "../scripts/journey";</script>
 <script>
 import {bindFragmentNavigation} from '../lib/fragment-navigation.mjs';
+import {bindStoryPrint} from '../lib/story-print.mjs';
+bindStoryPrint(document,window);
 bindFragmentNavigation(document,window);
 const mobileMenu=document.querySelector<HTMLDetailsElement>('.mobile-navigation');
 mobileMenu?.addEventListener('keydown',event=>{if(event.key==='Escape'&&mobileMenu.open){mobileMenu.open=false;mobileMenu.querySelector('summary')?.focus();event.preventDefault();}});
