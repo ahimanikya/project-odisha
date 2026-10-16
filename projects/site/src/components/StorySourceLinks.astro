@@ -1,7 +1,7 @@
 ---
 interface Source {id:string; title:string}
-interface Props {ids:string[]; sources:Source[]}
-const {ids,sources}=Astro.props;
+interface Props {ids:string[]; sources:Source[]; prefix?:string; label?:string}
+const {ids,sources,prefix="story-source-",label="Sources for this section:"}=Astro.props;
 const references=ids.map(id=>{
  const index=sources.findIndex(source=>source.id===id);
  if(index<0)throw new Error(`Unknown story source: ${id}`);
@@ -9,11 +9,12 @@ const references=ids.map(id=>{
 });
 ---
 {references.length>0&&<p class="story-source-links">
- <span>Sources for this section:</span>
- {references.map(source=><a href={'#story-source-'+source.id} aria-label={'Source '+source.number+': '+source.title}>Source {source.number}</a>)}
+ <span>{label}</span>
+ {references.map(source=><a href={'#'+prefix+source.id} aria-label={'Source '+source.number+': '+source.title}>Source {source.number}</a>)}
 </p>}
 <style>
 .story-source-links{display:flex;flex-wrap:wrap;align-items:center;gap:0 .9rem;font-size:15px;line-height:1.5;margin-top:1rem}
+:global(.utk-magazine .mag-reading-section) .story-source-links{font:15px/1.5 system-ui,sans-serif}
 .story-source-links span{color:var(--muted)}
 .story-source-links a{display:inline-flex;align-items:center;min-height:44px;text-underline-offset:.2em}
 .story-source-links a:focus-visible{outline:3px solid var(--earth);outline-offset:3px}

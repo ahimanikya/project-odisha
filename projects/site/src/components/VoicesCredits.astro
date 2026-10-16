@@ -1,12 +1,15 @@
 ---
 import collection from '../../../../kb/research/voices/collection.json';
+import {voiceSources} from '../lib/voices-sources.mjs';
 const {entry}=Astro.props,assets=collection.assets;
-const sourceIds=[...new Set([...entry.sections.flatMap(s=>s.paragraphs.flatMap(p=>p.source_ids)),...entry.cards.flatMap(c=>c.source_ids),...(entry.roster_sources||[]),...(entry.learning_resource?[entry.learning_resource.source_id]:[])])];
+const sourceIds=voiceSources(entry,collection.sources).map(source=>source.id);
 const assetIds=[...new Set([entry.hero_asset,...entry.cards.map(c=>c.asset)].filter(Boolean))];
 ---
 <details class="mag-article-credits utk-disclosure" id="sources"><summary>Sources, image credits & editorial notes</summary>
  <p>Prepared for Project Odisha, founded and edited by Ahimanikya Satapathy. Research checked {entry.checked_on||collection.checked_on}. {entry.review}. Opening lines and reading prompts are original editorial invitations.</p>
- <h3>Reading and evidence</h3><ul>{sourceIds.map(id=><li><a href={collection.sources[id].url}>{collection.sources[id].title}</a><p>{collection.sources[id].review||collection.sources[id].inspection}</p><small>Used in: {entry.sections.filter(s=>s.paragraphs.some(p=>p.source_ids.includes(id))).map(s=>s.title).concat(entry.cards.filter(c=>c.source_ids.includes(id)).map(c=>c.title),entry.roster_sources?.includes(id)?[entry.roster_heading]:[],entry.learning_resource?.source_id===id?['Reading shelf']:[]).join('; ')}.</small></li>)}</ul>
+ <h3>Reading and evidence</h3><ol>{sourceIds.map(id=><li id={'voice-source-'+id} tabindex="-1"><a href={collection.sources[id].url}>{collection.sources[id].title}</a><p>{collection.sources[id].review||collection.sources[id].inspection}</p><small>Used in: {entry.sections.filter(s=>s.paragraphs.some(p=>p.source_ids.includes(id))).map(s=>s.title).concat(entry.cards.filter(c=>c.source_ids.includes(id)).map(c=>c.title),entry.roster_sources?.includes(id)?[entry.roster_heading]:[],entry.learning_resource?.source_id===id?['Reading shelf']:[]).join('; ')}.</small></li>)}</ol>
  <h3>Images and reuse</h3><ul>{assetIds.map(id=><li><a href={assets[id].source}>{assets[id].caption}</a><p>{assets[id].creator} · <a href={assets[id].license_url}>{assets[id].license}</a>. {assets[id].changes}</p>{assets[id].rights_note&&<p>{assets[id].rights_note}</p>}</li>)}</ul>
  <p>Research and presentation prepared with AI assistance. No speaker recording or complete literary text is reproduced. <a href="/contribute/">Help improve the collection.</a></p>
 </details>
+
+<style>li[id^="voice-source-"]{scroll-margin-top:5rem;overflow-wrap:anywhere}li[id^="voice-source-"]:target{outline:2px solid var(--earth);outline-offset:6px;background:var(--paper)}li[id^="voice-source-"]:focus-visible{outline:3px solid var(--earth);outline-offset:6px}</style>
