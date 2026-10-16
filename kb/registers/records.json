@@ -8467,6 +8467,25 @@
         "records/jhula-layout-review-2026-10-15.json"
       ],
       "acceptance_criteria": "Cards align descriptions and control sections; five stars stay in one row; consistent section, heading and form spacing; phone layouts do not overflow; behavior preserved."
+    },
+    {
+      "id": "UTP-WORK-2026101701",
+      "title": "Publish two Pattachitra Jhula choices",
+      "category": "website",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current merchandise assistant",
+      "authorization": "UTP-DEC-2026101701",
+      "next_action": "Verify responsive cards, publish backward-compatible Firebase rules and website, then check live.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-2026101701"
+      ],
+      "evidence": [
+        "records/jhula-pattachitra-review-2026-10-17.json"
+      ],
+      "acceptance_criteria": "Both approved images as options19/20 with autosave stars, favourite selection and collapsed comments; prior18 options and stored responses retained; private owner-only Firebase access unchanged."
     }
   ],
   "decisions": [
@@ -13243,6 +13262,25 @@
       ],
       "evidence": [
         "records/jhula-layout-review-2026-10-15.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-2026101701",
+      "title": "Add both Pattachitra Jhula options",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "add them",
+      "scope": "Publish both reviewed Pattachitra-inspired designs as additional voting options, retaining previous choices and response behavior.",
+      "recorded_at": "2026-10-16T22:02:09.225244+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-2026101701"
+      ],
+      "evidence": [
+        "records/jhula-pattachitra-review-2026-10-17.json"
       ]
     }
   ],

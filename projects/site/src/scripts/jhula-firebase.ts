@@ -4,7 +4,7 @@ import {getFirestore, doc, getDoc, setDoc, writeBatch, serverTimestamp} from 'fi
 
 const app=initializeApp({apiKey:'AIzaSyCcNSm5Mhb3L27XT0XGBZqyQpR88zA6dK4',authDomain:'utkal-project.firebaseapp.com',projectId:'utkal-project',appId:'1:1091060731108:web:6c36e74785b825303df0f1'},'jhula-survey');
 const auth=getAuth(app),db=getFirestore(app);
-const ids=Array.from({length:18},(_,i)=>String(i+1).padStart(2,'0'));
+const ids=Array.from({length:20},(_,i)=>String(i+1).padStart(2,'0'));
 let identity:Promise<string>|undefined;
 function owner(){
  if(!identity)identity=(async()=>{

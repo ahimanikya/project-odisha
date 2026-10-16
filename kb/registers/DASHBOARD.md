@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `3935ef44e70d35f3bf16024a2f58fa3aaef52694dbadb4448b2fc1f4842410db`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e9bf2fd3876ee8223fca8f9bb39c1b4387a7b43c3e8f7391415e513934793e38`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -315,6 +315,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-294 · Boat Songs substantive research and rewrite | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Primary repertoire, melody, regional variants and practitioner review remain open for future research. | — |
 | UTP-WORK-295 · Explain Boita trade, boatbuilding and migration evidence | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Ancient hull evidence, specific cargo transactions and the prehistoric migration/ritual relationship remain open for future research. | — |
 | UTP-WORK-2026101508 · Consistent Jhula spacing and aligned design controls | completed | published | Ahimanikya Satapathy | Review the corrected live page. | — |
+| UTP-WORK-2026101701 · Publish two Pattachitra Jhula choices | in_progress | reviewed | Ahimanikya Satapathy | Verify responsive cards, publish backward-compatible Firebase rules and website, then check live. | — |
 
 ## Pending human review and decisions
 
@@ -614,6 +615,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-2026101507 · Poetic Jhula story and automatic ratings | approved | Ahimanikya Satapathy | Revise and publish the existing Jhula page and its feedback behavior; preserve image provenance in project records. |
 | UTP-DEC-2026101508 · Compact purchase-interest question | approved | Ahimanikya Satapathy | Update all eighteen design controls to compact purchase-interest language on the live page. |
 | UTP-DEC-2026101509 · Correct Jhula spacing and alignment | approved | Ahimanikya Satapathy | Fix and publish consistent spacing, card alignment, responsive star controls and form layout on the existing page. |
+| UTP-DEC-2026101701 · Add both Pattachitra Jhula options | approved | Ahimanikya Satapathy | Publish both reviewed Pattachitra-inspired designs as additional voting options, retaining previous choices and response behavior. |
 
 ## Reviews
 
@@ -1075,7 +1077,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101543 | 2026-10-15T19:03:58.429835+00:00 | Merged the corrected Sounds KB guide: 22 article receipt links, three corrected subject destinations and removal of obsolete publication work. Public site unchanged. Item 102 counted after verified merge receipt. | — |
 | UTP-EVT-2026101601 | 2026-10-16T19:33:16.616861+00:00 | Reviewed print disclosure restoration and paper source URLs for 22 sound stories. Actual local browser PDFs retain source notes, limits and Huluhuli artwork provenance. Publication pending; total 102. | — |
 | UTP-EVT-2026101602 | 2026-10-16T19:41:55.098008+00:00 | Published print evidence preservation for sound stories. Live Huluhuli and Boat Songs PDFs and all 22 route handlers checked. Item 103 counted after publication receipt; total 103. | — |
 | UTP-EVT-2026101603 | 2026-10-16T19:47:49.295100+00:00 | Reviewed 76 passage-to-source links across 19 Voices pages using existing factual mappings and limitations. Canonical narrative unchanged; publication pending, total 103. | — |
@@ -1085,6 +1086,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101607 | 2026-10-16T21:42:11.817109+00:00 | Reviewed Boita expansion covering trade, boatbuilding, buoyancy, navigation and competing migration evidence. Source limits retained; publication pending, completed total 105. | — |
 | UTP-EVT-2026101608 | 2026-10-16T21:51:42.499525+00:00 | Published Boita substantive revision explaining trade, documented construction, buoyancy, winds and disputed migration evidence. Item106 counted after live receipt; total106. Ancient hulls, individual transactions and links between migration and ritual remain unresolved. | — |
 | UTP-EVT-20261015104 | 2026-10-15T14:55:15.291497+00:00 | Verified aligned desktop controls, single-row stars and consistent responsive spacing live. | — |
+| UTP-EVT-20261017101 | 2026-10-16T22:02:09.225244+00:00 | Prepared two approved Pattachitra border options with voting and backward-compatible response storage. | — |
 
 ## Deferred extensions
 
