@@ -12,6 +12,8 @@ test('Boat songs publishes the KB narrative and preserves evidence boundaries',(
  for(const p of paragraphs)assert.ok(html.includes(escape(p)),p);
  for(const s of story.sources){assert.ok(html.includes(escape(s.resource)));assert.ok(html.includes(escape(s.locator)));}
  for(const phrase of ['The verse printed immediately afterwards is a ploughman’s song','not a dated account of how the performance began','contemporary adaptation with identifiable makers','do not establish one birthplace'])assert.ok(html.includes(phrase));
+ assert.ok(!html.includes('Read the source:'));
+ assert.ok(html.includes('Read alongside:'));
  assert.ok(!html.includes('<audio'));assert.ok(!html.includes('sounds-reading-trail'));
 });
 test('Boat songs is discoverable and retains the public preview boundary',()=>{

@@ -8413,6 +8413,31 @@
         "records/voices-passage-sources-publication-2026-10-16.json"
       ],
       "gap": "19 public Voices pages hold 64 sourced paragraphs with hidden data-source-ids, but VoicesCredits has no stable source-note targets or passage links. Existing sound stories already offer that reader capability; reuse the tested navigation without new factual claims."
+    },
+    {
+      "id": "UTP-WORK-294",
+      "title": "Boat Songs substantive research and rewrite",
+      "category": "editorial_and_website",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "authorization": "UTP-DEC-225",
+      "next_action": "Pass required PR checks, merge reviewed head, publish approved main and verify live prose before counting.",
+      "blockers": [],
+      "refs": [
+        "UTP-WORK-189",
+        "UTP-DEC-225",
+        "UTP-REV-262"
+      ],
+      "evidence": [
+        "research/culture/boat-songs.md",
+        "research/sources/boat-songs-research.json",
+        "records/boat-songs-depth-review-2026-10-17.json"
+      ]
     }
   ],
   "decisions": [
@@ -19316,6 +19341,29 @@
         "Same-assistant review; not independent human, language or literary review.",
         "Saved source access and edition limitations remain unchanged. A visible citation is not renewed factual validation.",
         "Browser keyboard and visual checks sampled two representative layouts; physical devices and screen readers remain untested."
+      ]
+    },
+    {
+      "id": "UTP-REV-262",
+      "title": "Boat Songs substantive revision review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-294",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/boat-songs-depth-review-2026-10-17.json"
+      ],
+      "limitations": [
+        "Same-assistant editorial review, not independent human or practitioner review.",
+        "Primary boat-song repertoire, lyrics, melody, variants and transmission remain unresolved; this revision does not claim the subject is exhaustively researched.",
+        "Patra chapter inspected as web text; cited underlying literary editions were not inspected. Recording was not auditioned.",
+        "Mobile and desktop browser checks are not physical-device or screen-reader tests."
       ]
     }
   ],
