@@ -8486,6 +8486,33 @@
         "records/jhula-pattachitra-review-2026-10-17.json"
       ],
       "acceptance_criteria": "Both approved images as options19/20 with autosave stars, favourite selection and collapsed comments; prior18 options and stored responses retained; private owner-only Firebase access unchanged."
+    },
+    {
+      "id": "UTP-WORK-296",
+      "title": "Deepen Huluhuli language, technique and historical evidence",
+      "category": "editorial_and_website",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "authorization": "UTP-DEC-225",
+      "next_action": "Pass required checks, merge reviewed head and publish approved main; count only after live verification.",
+      "blockers": [],
+      "refs": [
+        "UTP-WORK-189",
+        "UTP-DEC-225",
+        "UTP-REV-264"
+      ],
+      "evidence": [
+        "records/autonomous-500-program.json",
+        "research/culture/huluhuli-website.json",
+        "research/sources/huluhuli-research.md",
+        "records/huluhuli-depth-review-2026-10-17.json",
+        "records/huluhuli-source-mapping-2026-10-17.json"
+      ]
     }
   ],
   "decisions": [
@@ -19471,6 +19498,30 @@
       ],
       "evidence": [
         "records/jhula-layout-review-2026-10-15.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-264",
+      "title": "Huluhuli language and learning revision review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-296",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/huluhuli-depth-review-2026-10-17.json"
+      ],
+      "limitations": [
+        "Same-assistant editorial review, not independent human or practitioner review.",
+        "Dictionary is lexicographic evidence, not measured phonetics. Exact origin and Bhagabata edition/canto/verse remain unresolved.",
+        "Jacobs reports Arabic zaghareet; it does not establish how Odia practitioners learn or an historical transmission route.",
+        "Existing indexed-only festival and competition sources retain their access limitations. No new audio or field demonstration.",
+        "Responsive browser checks are not physical-device or screen-reader tests."
       ]
     }
   ],
