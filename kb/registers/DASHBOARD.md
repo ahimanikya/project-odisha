@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `c570924ea330d41f32c2e205c0df1a6be4acdfc408ffeb333a936a5d3bfef184`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `6f8bc7a1a9459d2ea3351a8bdd30b8c8fa77af8b2788ec47c9ddb184ca2c21e7`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -317,6 +317,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026101508 · Consistent Jhula spacing and aligned design controls | completed | published | Ahimanikya Satapathy | Review the corrected live page. | — |
 | UTP-WORK-2026101701 · Publish two Pattachitra Jhula choices | in_progress | reviewed | Ahimanikya Satapathy | Verify responsive cards, publish backward-compatible Firebase rules and website, then check live. | — |
 | UTP-WORK-296 · Deepen Huluhuli language, technique and historical evidence | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Practitioner accounts, measured phonetics, the Bhagabata edition and exact historical origins remain open for future research. | — |
+| UTP-WORK-297 · Explain Sankha construction, acoustics and named performance practice | in_progress | reviewed | Ahimanikya Satapathy | Pass required checks, merge reviewed head and publish approved main; count only after live verification. | — |
 
 ## Pending human review and decisions
 
@@ -892,6 +893,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-263 | pass_with_limitations | False | Same-assistant editorial review, not independent human or practitioner review.; No complete excavated Sadhaba hull or cargo manifest inspected. Later boat traditions cannot establish an exact ancient design.; Munda sea-route proposal remains debated and does not establish a connection to Boita commemoration or the history of every Odisha tribal community.; Full Munda journal paper was inaccessible; author conference slides inspected. Ceramic PDF web excerpts inspected, screenshots failed. Underlying literary editions and physical artefacts were not inspected.; Responsive browser checks are not physical-device or screen-reader tests. |
 | UTP-REV-2026101508 | pass | False | — |
 | UTP-REV-264 | pass_with_limitations | False | Same-assistant editorial review, not independent human or practitioner review.; Dictionary is lexicographic evidence, not measured phonetics. Exact origin and Bhagabata edition/canto/verse remain unresolved.; Jacobs reports Arabic zaghareet; it does not establish how Odia practitioners learn or an historical transmission route.; Existing indexed-only festival and competition sources retain their access limitations. No new audio or field demonstration.; Responsive browser checks are not physical-device or screen-reader tests. |
+| UTP-REV-265 | pass_with_limitations | False | Same-assistant review; no independent human, practitioner or language review.; Comparative physics does not establish local shell species, construction dimensions, breath techniques, frequency or historical origin.; Institutional records retain their dates and do not establish present troupe membership or availability.; Transcript read but no audio audition, recording rights or field observation.; Browser viewport checks are not physical-device or screen-reader tests. |
 
 ## Publication and application history
 
@@ -1080,7 +1082,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101603 | 2026-10-16T19:47:49.295100+00:00 | Reviewed 76 passage-to-source links across 19 Voices pages using existing factual mappings and limitations. Canonical narrative unchanged; publication pending, total 103. | — |
 | UTP-EVT-2026101604 | 2026-10-16T19:55:41.412338+00:00 | Published 76 passage-to-source links across 19 language and literary pages. Canonical narrative unchanged. Item 104 counted after live verification and publication receipt; total 104. | — |
 | UTP-EVT-2026101605 | 2026-10-16T20:49:49.447845+00:00 | Reviewed substantive Boat Songs revision: named maritime imagery, attributed dating hypothesis and makers/production of a 2019 adaptation. Source limits retained; publication pending, completed total 104. | — |
 | UTP-EVT-2026101606 | 2026-10-16T20:58:24.300936+00:00 | Published Boat Songs substantive revision with named imagery, attributed historical interpretation and the 2019 adaptation’s makers and process. Item105 counted after live receipt; total105. Subject remains open to deeper primary-repertoire research. | — |
@@ -1090,6 +1091,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-20261017101 | 2026-10-16T22:02:09.225244+00:00 | Prepared two approved Pattachitra border options with voting and backward-compatible response storage. | — |
 | UTP-EVT-2026101609 | 2026-10-16T22:02:03.410830+00:00 | Reviewed Huluhuli revision using original dictionary page and comparative field report; technique, regional word meanings, historical limits and learning explained. Publication pending; count remains106. | — |
 | UTP-EVT-2026101610 | 2026-10-16T22:16:03.442860+00:00 | Published Huluhuli substantive revision explaining tongue technique, dictionary vocabulary and learning context. Item107 counted after live receipt; total107. Exact origins, literary edition and local practitioner accounts remain unresolved. | — |
+| UTP-EVT-2026101611 | 2026-10-16T23:00:10.701423+00:00 | Reviewed substantive Sankha revision explaining construction/acoustics and named Ganjam institution and artists. Local technique and origins remain open; publication pending and count107. | — |
 
 ## Deferred extensions
 
