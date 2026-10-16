@@ -8515,6 +8515,33 @@
         "records/huluhuli-source-mapping-2026-10-17.json",
         "records/huluhuli-depth-publication-2026-10-17.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-297",
+      "title": "Explain Sankha construction, acoustics and named performance practice",
+      "category": "editorial_and_website",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "authorization": "UTP-DEC-225",
+      "next_action": "Pass required checks, merge reviewed head and publish approved main; count only after live verification.",
+      "blockers": [],
+      "refs": [
+        "UTP-WORK-189",
+        "UTP-DEC-225",
+        "UTP-REV-265"
+      ],
+      "evidence": [
+        "records/autonomous-500-program.json",
+        "research/culture/sankha-website.json",
+        "research/sources/sankha-research.md",
+        "records/sankha-depth-review-2026-10-17.json",
+        "records/sankha-source-mapping-2026-10-17.json"
+      ]
     }
   ],
   "decisions": [
@@ -19524,6 +19551,30 @@
         "Jacobs reports Arabic zaghareet; it does not establish how Odia practitioners learn or an historical transmission route.",
         "Existing indexed-only festival and competition sources retain their access limitations. No new audio or field demonstration.",
         "Responsive browser checks are not physical-device or screen-reader tests."
+      ]
+    },
+    {
+      "id": "UTP-REV-265",
+      "title": "Sankha construction, acoustics and named practice review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-297",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/sankha-depth-review-2026-10-17.json"
+      ],
+      "limitations": [
+        "Same-assistant review; no independent human, practitioner or language review.",
+        "Comparative physics does not establish local shell species, construction dimensions, breath techniques, frequency or historical origin.",
+        "Institutional records retain their dates and do not establish present troupe membership or availability.",
+        "Transcript read but no audio audition, recording rights or field observation.",
+        "Browser viewport checks are not physical-device or screen-reader tests."
       ]
     }
   ],
