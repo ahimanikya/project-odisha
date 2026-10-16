@@ -45,7 +45,9 @@ The bud passage records ritual consumption rather than a complete cooked meal. I
 
 ## History: distinguish witnesses from origins
 
-The digital host labels Dutt’s translation1908; that bibliographic attribution does not date the Sanskrit passage, its arrival in Odisha or the beginning of the household vow. A dated local text, a securely identified edition and situated accounts are needed to connect the three settings historically. Mahanti’s compilation and a tourism retelling cannot establish uninterrupted continuity.
+The saved printed volume now verifies the edition behind the digital passage. Its title page names Manmatha Nath Dutt, the Society for the Resuscitation of Indian Literature in Calcutta, and 1908. Printed pages 385–386 contain the eight-bud prescription and its closing prayer before the separate Mahanavami passage begins. This is the same translation already used for Rambha Tritiya, not a second independent witness. The edition date does not date the Sanskrit composition, its arrival in Odisha or the household Surya vow. Original Sanskrit collation and a dated local text remain open.
+
+Print witness: [Dutt’s Garuda Puranam, 1908](https://archive.org/details/garudapuranam00duttgoog). 1908 title PDF6; printed385–386/PDF406–407, Chapter CXXXIII opening and continuation before Mahanavami.
 
 ## Significance: care and the wish to lose sorrow
 
