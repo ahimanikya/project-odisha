@@ -1150,3 +1150,8 @@ Saved textual instructions retain rice preparation, filling and offering-distrib
 ## UTP-HIS-OSHA-KHUDURUKUNI-20261011 · Khudurukuni and maritime knowledge
 
 Saved article and supporting study imported as research-only; profile adds print/authorship and food-term uncertainty. No local review or public release. [Checkpoint](../records/osha-khudurukuni-review-2026-10-11.json).
+
+
+## 17 October 2026 — Ashoka print-witness review
+
+Reconciled saved-volume verification into the existing Ashoka profile. The1908edition confirms printed385–386/PDF406–407, not an Odisha origin date or independent corroboration. Fresh branch after PR145 merged; later main work preserved. No release or programme completion claimed. See [review receipt](../records/osha-ashoka-print-review-2026-10-17.json).
