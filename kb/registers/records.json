@@ -5603,7 +5603,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Continue eligible substantive work sequentially under UTP-DEC-225; 103 of 500 evidenced items completed. Resume any in-progress item first.",
+      "next_action": "Continue eligible substantive work sequentially under UTP-DEC-225; 104 of 500 evidenced items completed. Resume any in-progress item first.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225"
@@ -8391,24 +8391,26 @@
       "id": "UTP-WORK-293",
       "title": "Language and literary passage-to-source navigation",
       "category": "website_product",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "kind": "ai_assistant",
         "name": "Current AI assistant"
       },
       "authorization": "UTP-DEC-225",
-      "next_action": "Pass PR validation, merge reviewed head, publish approved main and verify live source navigation before counting.",
+      "next_action": "Published and live-verified; 76 existing source mappings are navigable. Original source-access and specialist-review limits remain open.",
       "blockers": [],
       "refs": [
         "UTP-WORK-189",
         "UTP-DEC-225",
-        "UTP-REV-261"
+        "UTP-REV-261",
+        "UTP-REL-134"
       ],
       "evidence": [
         "research/voices/collection.json",
-        "records/voices-passage-sources-review-2026-10-16.json"
+        "records/voices-passage-sources-review-2026-10-16.json",
+        "records/voices-passage-sources-publication-2026-10-16.json"
       ],
       "gap": "19 public Voices pages hold 64 sourced paragraphs with hidden data-source-ids, but VoicesCredits has no stable source-note targets or passage links. Existing sound stories already offer that reader capability; reuse the tested navigation without new factual claims."
     }
@@ -21600,6 +21602,22 @@
         "records/sound-story-print-publication-2026-10-16.json"
       ],
       "note": "Passing reviewed head merged and approved main workflow published. All 22 live stories load print behavior; actual live Huluhuli and Boat Songs PDFs retain source notes, URLs and qualifications, with disclosure state restored."
+    },
+    {
+      "id": "UTP-REL-134",
+      "title": "Language and literary passage source navigation",
+      "status": "published",
+      "authorization": "UTP-DEC-225",
+      "destination": "https://projectodisha.org/literature/",
+      "refs": [
+        "UTP-WORK-293",
+        "UTP-REV-261",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/voices-passage-sources-publication-2026-10-16.json"
+      ],
+      "note": "Passing reviewed head merged and approved main workflow published. All 19 live Voices pages and 76 passage source links verified against canonical mappings and qualified source notes; representative live keyboard checks passed."
     }
   ],
   "sources": [
