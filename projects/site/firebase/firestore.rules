@@ -41,11 +41,11 @@ service cloud.firestore {
         && (d.schemaVersion == 2 || ((d.email != '' || d.phone != '') && (d.phone == '' || d.phone.matches('[+]?([ ().-]*[0-9]){7,15}[ ().-]*'))))
         && d.comment is string && d.comment.size() <= 1000
         && d.kit in ['bag','kit','unsure']
-        && d.favourite in ['','01','02','03','04','05','06','07','08','09','10','11','12','13','14','15','16','17','18']
+        && d.favourite in ['','01','02','03','04','05','06','07','08','09','10','11','12','13','14','15','16','17','18','19','20']
         && d.updatedAt == request.time
-        && ratings is list && ratings.size() == 18
+        && ratings is list && ratings.size() in [18,20]
         && ratings.hasOnly([0,1,2,3,4,5]) && (d.schemaVersion == 3 || !ratings.hasOnly([0]))
-        && comments is list && comments.size() == 18
+        && comments is list && comments.size() == ratings.size()
         && shortComment(comments[0])
         && shortComment(comments[1])
         && shortComment(comments[2])
@@ -63,7 +63,9 @@ service cloud.firestore {
         && shortComment(comments[14])
         && shortComment(comments[15])
         && shortComment(comments[16])
-        && shortComment(comments[17]);
+        && shortComment(comments[17])
+        && (comments.size() == 18 || (shortComment(comments[18]) && shortComment(comments[19])))
+        && (ratings.size() == 20 || !(d.favourite in ['19','20']));
     }
     match /jhulaPreferences/{uid} {
       allow get, delete: if owns(uid);
@@ -71,9 +73,10 @@ service cloud.firestore {
       allow create, update: if owns(uid)
         && request.resource.data.keys().hasOnly(['schemaVersion','ratings','favourite','kit','updatedAt'])
         && request.resource.data.schemaVersion == 1
-        && request.resource.data.ratings is list && request.resource.data.ratings.size() == 18
+        && request.resource.data.ratings is list && request.resource.data.ratings.size() in [18,20]
         && request.resource.data.ratings.hasOnly([0,1,2,3,4,5])
-        && request.resource.data.favourite in ['','01','02','03','04','05','06','07','08','09','10','11','12','13','14','15','16','17','18']
+        && request.resource.data.favourite in ['','01','02','03','04','05','06','07','08','09','10','11','12','13','14','15','16','17','18','19','20']
+        && (request.resource.data.ratings.size() == 20 || !(request.resource.data.favourite in ['19','20']))
         && request.resource.data.kit in ['bag','kit','unsure']
         && request.resource.data.updatedAt == request.time;
     }

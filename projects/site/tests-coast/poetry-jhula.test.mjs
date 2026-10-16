@@ -1,17 +1,18 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
-test('Jhula ships eighteen sets and all original bag image resources with inline ratings and comments',()=>{
+test('Jhula ships eighteen sets plus two Pattachitra options and all original bag image resources with inline ratings and comments',()=>{
  const html=readFileSync('dist-coast/odia-poetry-jhula/index.html','utf8');
- assert.equal([...html.matchAll(/id="design-\d{2}"/g)].length,18);
+ assert.equal([...html.matchAll(/id="design-\d{2}"/g)].length,20);
  const images=[...html.matchAll(/<image\b[^>]*href="([^"]+)"/g)].map(m=>m[1]);
  assert.equal(images.length,30);
  for(const path of images)assert.ok(existsSync('dist-coast'+path),path);
+ for(const name of ['ivory-flap-pattachitra.png','poets-classic-pattachitra.png']){assert.ok(html.includes(name));assert.ok(existsSync('dist-coast/images/poetry-jhula/additional/'+name));}
  assert.match(html,/id="jhula-feedback"/);
  assert.match(html,/data-storage="firebase"/);
- assert.equal([...html.matchAll(/name="rating-\d{2}"/g)].length,90);
- assert.equal([...html.matchAll(/name="comment-\d{2}"/g)].length,18);
- assert.equal([...html.matchAll(/name="favourite"/g)].length,18);
+ assert.equal([...html.matchAll(/name="rating-\d{2}"/g)].length,100);
+ assert.equal([...html.matchAll(/name="comment-\d{2}"/g)].length,20);
+ assert.equal([...html.matchAll(/name="favourite"/g)].length,20);
  assert.match(html,/name="comment" maxlength="1000"/);
  assert.doesNotMatch(html,/class="vote-button" href=/);
  assert.match(html,/90 cm along the exposed strap/);

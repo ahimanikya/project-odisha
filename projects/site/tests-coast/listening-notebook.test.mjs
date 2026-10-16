@@ -1,3 +1,4 @@
+import {fileURLToPath} from 'node:url';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
@@ -28,5 +29,5 @@ test('four question groups are complete, addressable and synchronized with the d
   assert.ok(text.includes(path.title.toUpperCase()));
  }
  const {execFileSync}=await import('node:child_process');
- execFileSync(process.execPath,[new URL('../tools/build-listening-notebook.mjs',import.meta.url).pathname,'--check']);
+ execFileSync(process.execPath,[fileURLToPath(new URL('../tools/build-listening-notebook.mjs',import.meta.url)),'--check']);
 });
