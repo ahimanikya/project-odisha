@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `a6f91c28073c30a3fa88ae4a2404ba47949956fdc4baab6ebb64338fab6334ac`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `224aa2eda118d42a0e4afb18d0ba57fe43a8e43cd33a867c0b726a3761f5cb9a`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -906,6 +906,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-269 | pass_with_limitations | False | Same-assistant review, not independent human, practitioner or language review.; 2024 study inspected as indexed author-uploaded text, not downloaded PDF or page-image review;2022 festival remains indexed-only.; Origin accounts and present changes are not a dated historical sequence or representative statewide survey.; No fieldwork, interviews, playback, new media, permissions or current booking.; Responsive browser checks are not physical-device or screen-reader testing. |
 | UTP-REV-270 | pass_with_limitations | False | Same-assistant review, not independent human or specialist review.; This is an editorial presentation revision using the existing reviewed research, not a new historical research investigation. Existing substantive uncertainties remain in the narrative.; Responsive browser checks are not physical-device or screen-reader testing.; Remaining routes require individual classification and article review; no bulk claim of completion.; No substantive 500-item count increment for formatting or policy work. |
 | UTP-REV-271 | pass_with_limitations | False | Same-assistant editorial review, not independent human or practitioner review.; Responsive browser checks are not physical-device or screen-reader tests.; No new research, recording, performance observation or source-rights acquisition is claimed.; Formatting and editorial condensation do not increase the 500 substantive-item total. |
+| UTP-REV-272 | pass_with_limitations | False | Same-assistant editorial review, not an independent human or practitioner review.; Responsive checks are browser emulation, not physical-device or screen-reader testing.; No new research, field recording or media-rights acquisition claimed.; Editorial revisions do not increase the 500 substantive-item count. |
 
 ## Publication and application history
 
@@ -1101,7 +1102,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101701 | 2026-10-17T01:04:14.618124+00:00 | Reviewed Dalkhai revision with named song, learning and livelihood accounts. Historical origin, source recovery and practitioner review remain open; publication pending and count109. | — |
 | UTP-EVT-2026101702 | 2026-10-17T01:13:17.252145+00:00 | Published Dalkhai substantive revision with named song reconstruction, school-learning and livelihood accounts. Item110 counted after live receipt; total110. Historical origins, local variation and practitioner/language review remain open. | — |
 | UTP-EVT-2026101703 | 2026-10-17T02:02:36.629720+00:00 | Reviewed Pala literary-performance revision with original research, concrete parody and prop examples, named repertoire and source limits. Publication pending; count110. | — |
 | UTP-EVT-2026101704 | 2026-10-17T02:12:46.104958+00:00 | Published Pala substantive revision with literary parody, prop meanings, performance forms and named repertoire. Item111 counted after live receipt; total111. Historical origins, local variation and practitioner/language review remain open. | — |
@@ -1111,6 +1111,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101708 | 2026-10-17T03:58:06.552210+00:00 | Published the first article revision and process-page foundation. Work list records Boita complete after live receipt; next is Huluhuli. Lightweight downloads and incremental publication follow Founder clarifications. Substantive programme remains112. | — |
 | UTP-EVT-2026101709 | 2026-10-17T04:08:14.754227+00:00 | Reviewed Huluhuli editorial revision: natural prose, Founder byline, visible numbered footnotes, responsive layout and preserved imagined-art provenance. Publication pending; substantive programme unchanged. | — |
 | UTP-EVT-2026101710 | 2026-10-17T04:17:58.371894+00:00 | Published Huluhuli editorial revision with Founder byline, visible footnotes and natural reading layout. Canonical KB, twenty returnable references and unchanged labelled illustration verified live. Next queued article: Boat Songs. Substantive programme remains 112. | — |
+| UTP-EVT-2026101711 | 2026-10-17T04:25:37.841777+00:00 | Reviewed Boat Songs editorial revision with Founder byline, visible footnotes, natural prose and responsive layout. Named maker credits and evidence limits retained. Publication pending; substantive programme unchanged. | — |
 
 ## Deferred extensions
 
