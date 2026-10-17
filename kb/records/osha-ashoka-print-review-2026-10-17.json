@@ -54,5 +54,17 @@
     ],
     "affected_tests_after_source_link_change": 7
   },
-  "rendered_validation": "PASS:1908 history paragraph, same-publication qualification and Internet Archive primary-print link present"
+  "rendered_validation": "PASS:1908 history paragraph, same-publication qualification and Internet Archive primary-print link present",
+  "ci_repair": {
+    "failed_run": 38983322557,
+    "failure": "Generated editorial-workbench record stale after source metadata revision",
+    "repair": "Regenerated workbench with repository tool; source-hash changes only, frozen selection unchanged",
+    "checks": {
+      "workbench_generation_check": "PASS",
+      "workbench_python_tests": 6,
+      "workbench_node_tests": 3,
+      "autonomous_program_consistency": "PASS"
+    },
+    "new_ci_status": "pending_push"
+  }
 }
