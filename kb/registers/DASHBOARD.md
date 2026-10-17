@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `7286c584f84a7c1c25ff8f62835d23a8db598bfb4fef741acef7aca1f17e6af1`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `62d474699d3b7ccda45b634573bc2499ce0ea0cdf680352f7a556546052ec27f`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -913,6 +913,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-276 | pass_with_limitations | False | Same-assistant review, not independent human or specialist approval.; Responsive emulation, not physical-device or screen-reader testing.; No field visit, local contact, accessible route or current booking confirmation.; Editorial revision does not increase substantive 500-item count. |
 | UTP-REV-277 | pass_with_limitations | False | Same-assistant review, not independent human or specialist approval.; Responsive emulation, not physical-device or screen-reader testing.; No field visit, local contact, current temple eligibility, accommodation or service confirmation.; Editorial revision does not increase the substantive 500-item count. |
 | UTP-REV-278 | pass_with_limitations | False | Same-assistant review, not independent human or specialist approval.; Responsive emulation, not physical-device or screen-reader testing.; No field visit, artist interview, workshop or performance booking, current facility or access confirmation.; Editorial revision does not increase the substantive 500-item count. |
+| UTP-REV-279 | pass_with_limitations | False | Same-assistant review, not independent human or specialist approval.; Responsive emulation, not physical-device or screen-reader testing.; No field visit, cook interview, tasting, kitchen inspection or access confirmation.; Editorial revision does not increase substantive500. |
 
 ## Publication and application history
 
@@ -1115,7 +1116,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101715 | 2026-10-17T07:56:05.438748+00:00 | Reviewed Bhubaneswar guide individually: Founder byline, clearer city reading, ten visible source notes including planning references, current official links, and preserved documentary images. Responsive checks and both test suites passed. Publication pending; substantive programme unchanged. | — |
 | UTP-EVT-2026101716 | 2026-10-17T08:03:53.258879+00:00 | Published the individually reviewed Bhubaneswar guide: Founder credit, clearer city reading, ten visible numbered notes including planning references, preserved photography and working current tourism links. Next queued article: Dhauli. Substantive programme remains 112. | — |
 | UTP-EVT-2026101717 | 2026-10-17T13:47:57.352220+00:00 | Reviewed Dhauli individually: Founder byline, readable narrative, visible numbered notes, current tourism links and preserved photographs. Publication pending; substantive programme unchanged. | — |
 | UTP-EVT-2026101718 | 2026-10-17T16:18:40.458957+00:00 | Published the individually reviewed Dhauli guide: Founder credit, clearer historical reading, five visible numbered notes including planning references, preserved photography and working current tourism links. Next queued article: Konark. Substantive programme remains 112. | — |
@@ -1125,6 +1125,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101722 | 2026-10-17T17:57:58.516023+00:00 | Published the individually reviewed Puri guide: Founder credit, clearer offering and craft narrative, seven visible numbered notes including planning references, preserved photography and current tourism links. Next queued article: Raghurajpur. Substantive programme remains 112. | — |
 | UTP-EVT-2026101723 | 2026-10-17T18:45:03.580306+00:00 | Reviewed Raghurajpur individually: Founder byline, natural narrative, visible process and notebook notes, retained outside testimony and three documentary photographs. Publication pending; substantive programme unchanged. | — |
 | UTP-EVT-2026101724 | 2026-10-17T18:52:24.656269+00:00 | Published the individually reviewed Raghurajpur guide: Founder credit, natural craft and dance narrative, eight visible numbered notes including process and planning references, preserved photography and current tourism links. Next queued article: Puri coastal food. Substantive programme remains 112. | — |
+| UTP-EVT-2026101725 | 2026-10-17T19:42:29.111021+00:00 | Reviewed Puri coastal food individually: Founder credit, source-linked offering and ritual history, GI date, visible notes and retained documentary photograph. Publication pending; substantive programme unchanged. | — |
 
 ## Deferred extensions
 

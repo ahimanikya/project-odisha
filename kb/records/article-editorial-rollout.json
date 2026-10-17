@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-17T18:52:24.656269+00:00",
+  "updated_at": "2026-10-17T19:42:29.111021+00:00",
   "authorization": "UTP-DEC-2026101702",
   "work_id": "UTP-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -673,12 +673,21 @@
       "id": "UTP-EDIT-010",
       "route": "/food/puri-coast/",
       "title": "A table by the coast",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "in_progress",
+      "scope": "Puri coastal food article and notebook; Founder byline, natural prose, individually mapped visible footnotes, existing photograph and concise portable references.",
       "source_template": "projects/site/src/pages/food/puri-coast.astro",
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/puri-food-editorial-review-2026-10-18.json",
+        "records/puri-food-editorial-source-mapping-2026-10-18.json"
+      ],
+      "blocker": null,
+      "acceptance": [
+        "Read actual evidence for offering, ritual/literary claims, GI registration and food descriptions; no new origin or service claims.",
+        "Apply reference reading rhythm and exact footnote returns including folded notebook; preserve documentary photograph and other meal pages.",
+        "Passing tests, responsive review, reviewed PR, approved deployment and live receipt."
+      ],
+      "started_at": "2026-10-17T19:35:22.359823+00:00"
     },
     {
       "id": "UTP-EDIT-011",
