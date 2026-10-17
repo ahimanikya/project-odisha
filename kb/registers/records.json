@@ -8629,6 +8629,31 @@
         "records/pala-source-mapping-2026-10-17.json",
         "records/pala-depth-publication-2026-10-17.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-301",
+      "title": "Deepen Dhemsa community, movement and occasion",
+      "category": "research_and_website",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Pass required checks, merge reviewed head and publish approved main; count after actual live verification.",
+      "acceptance_criteria": [
+        "Explain how Dhemsa changes with community and occasion through inspected original ethnographic or institutional material: linked movement, musical roles, named local practice and festival/ritual context, with origins and language limits explicit. Update existing KB and website together, retain claim mapping, pass meaningful tests and responsive checks, merge the reviewed passing PR head, publish approved main workflow and save live receipt before counting."
+      ],
+      "blockers": [],
+      "refs": [
+        "UTP-WORK-189",
+        "UTP-DEC-225",
+        "UTP-REV-269"
+      ],
+      "evidence": [
+        "records/autonomous-500-program.json",
+        "records/dhemsa-depth-review-2026-10-17.json",
+        "records/dhemsa-source-mapping-2026-10-17.json"
+      ]
     }
   ],
   "decisions": [
@@ -19736,6 +19761,30 @@
         "Dash2011 PDF secure retrieval still fails; no certificate validation bypass.",
         "No new audio, fieldwork, interviews, booking or recording rights.",
         "Browser viewport checks are not physical-device or screen-reader testing."
+      ]
+    },
+    {
+      "id": "UTP-REV-269",
+      "title": "Dhemsa community, movement and occasion review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-301",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/dhemsa-depth-review-2026-10-17.json"
+      ],
+      "limitations": [
+        "Same-assistant review, not independent human, practitioner or language review.",
+        "2024 study inspected as indexed author-uploaded text, not downloaded PDF or page-image review;2022 festival remains indexed-only.",
+        "Origin accounts and present changes are not a dated historical sequence or representative statewide survey.",
+        "No fieldwork, interviews, playback, new media, permissions or current booking.",
+        "Responsive browser checks are not physical-device or screen-reader testing."
       ]
     }
   ],
