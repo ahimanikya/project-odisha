@@ -13,7 +13,7 @@ test('planning references survive page rendering and both portable formats for a
   assert.ok(note.planning_review.remaining.length>0);
   for(const source of note.planning_sources){
    assert.ok(html.includes(escapeHTML(source.url)),note.route+' page source');
-   assert.ok(html.includes('Planning reference checked '+source.checked_on));
+   if(note.editorial_notes_in_article){assert.match(source.checked_on,/^\d{4}-\d{2}-\d{2}$/);assert.ok(html.includes('Footnotes &amp; Sources'));}else assert.ok(html.includes('Planning reference checked '+source.checked_on));
    assert.ok(book.includes(escapeHTML(source.url)),note.route+' HTML source');
    assert.ok(text.includes(source.url),note.route+' text source');
   }

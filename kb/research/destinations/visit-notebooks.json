@@ -9,7 +9,7 @@
       "title": "A city, one detail at a time",
       "notice": "Choose one carved detail to look at before reaching for the camera. Let a small discovery become your way into the city.",
       "connect": "Ask a guide which detail they would show someone visiting for the first time. Keep their interpretation distinct from what you can verify.",
-      "prepare": "Odisha Tourism places the city’s temple heritage in the old town, Ekamra Kshetra. Begin with one chosen site rather than treating the city as a single attraction. Confirm that site’s entry rules and the return pickup point; ask about steps, shade and toilets before adding another stop.",
+      "prepare": "Begin with one chosen site rather than treating the city as a single attraction. Confirm that site’s entry rules and the return pickup point; ask about steps, shade and toilets before adding another stop.",
       "pair": {
         "text": "Leave room for Dhauli as a separate choice, after checking the journey between them. A reading connection is not a tested route.",
         "href": "/visit/places/dhauli/",
@@ -22,20 +22,20 @@
       "planning_sources": [
         {
           "title": "Odisha Tourism · Bhubaneswar",
-          "url": "https://odishatourism.gov.in/content/tourism/en/discover/major-cities/bhubaneswar.html",
-          "checked_on": "2026-09-30",
-          "inspection": "Identifies the old town as Ekamra Kshetra and describes Hindu, Buddhist and Jain heritage. No single opening schedule for the whole city."
+          "url": "https://odishatourism.gov.in/en/destinations/bhubaneswar",
+          "checked_on": "2026-10-17",
+          "inspection": "Current official destination overview read: named heritage sites and airport/railway arrival points. No single opening schedule for the whole city."
         },
         {
           "title": "Odisha Tourism · tourist offices",
-          "url": "https://odishatourism.gov.in/content/tourism/en/dot/visitors-information/tourist-offices.html",
-          "checked_on": "2026-09-30",
-          "inspection": "Official directory lists Bhubaneswar, Konark and Puri offices. Contact details inspected online, not called or independently confirmed; no response, referral or service guaranteed."
+          "url": "https://odishatourism.gov.in/en/tourist-offices",
+          "checked_on": "2026-10-17",
+          "inspection": "Current official directory read: Bhubaneswar office listed. No call, response or service availability confirmed."
         },
         {
           "title": "Visit Bhubaneswar · Mukteswar and Odissi",
           "url": "https://visit.bhubaneswar.me/content/temples/mukteswar",
-          "checked_on": "2026-10-01",
+          "checked_on": "2026-10-17",
           "inspection": "Municipal visitor page links the temple with the Mukteswar Odissi festival. Its recurring dates and hours are not a confirmed programme for a future edition."
         },
         {
@@ -47,7 +47,7 @@
         {
           "title": "Visit Bhubaneswar · OTDC Panthanivas",
           "url": "https://visit.bhubaneswar.me/stay/government-accommodations/panthanivas-otdc",
-          "checked_on": "2026-10-01",
+          "checked_on": "2026-10-17",
           "inspection": "Municipal visitor listing identifies Lewis Road property and restaurant offering Odia food. No room, meal, quality, price or access inspection. Promotional value claims not adopted."
         }
       ],
@@ -58,23 +58,33 @@
       "planning_help": {
         "text": "For help planning a city visit, look for the Bhubaneswar office in Odisha Tourism’s tourist-office directory. Ask who can confirm access at your chosen site.",
         "label": "Odisha Tourism · tourist offices",
-        "url": "https://odishatourism.gov.in/content/tourism/en/dot/visitors-information/tourist-offices.html"
+        "url": "https://odishatourism.gov.in/en/tourist-offices",
+        "source_ids": [
+          "bhub-offices"
+        ]
       },
       "planning_stops": [
         {
           "heading": "Begin with one stone detail",
           "text": "Make Mukteswar a close-looking stop: choose a carved figure or the entrance arch, then ask a guide what is observed and what is interpretation. The city visitor page connects this setting with Odissi performances. A daytime temple visit and a festival evening need separate plans.",
-          "source_url": "https://visit.bhubaneswar.me/content/temples/mukteswar"
+          "source_url": "https://visit.bhubaneswar.me/content/temples/mukteswar",
+          "source_ids": [
+            "bhub-mukteswar-festival"
+          ]
         },
         {
           "heading": "Let the city keep its different rhythms",
           "text": "Choose the old town as one part of your day. Leave room for a meal, a seated break and the journey back before adding Dhauli. Confirm each site’s entry eligibility, approach, footwear or belongings rules and actual opening arrangements separately.",
-          "source_url": "https://odishatourism.gov.in/content/tourism/en/discover/major-cities/bhubaneswar.html"
+          "source_url": "https://odishatourism.gov.in/en/destinations/bhubaneswar",
+          "source_ids": []
         },
         {
           "heading": "A performance needs a dated programme",
           "text": "Mukteswar’s association with Odissi makes a promising cultural connection. Check the organiser’s programme for the year you travel, including venue, timing and entry; a recurring festival description is not a reservation or a promise that an event will run.",
-          "source_url": "https://visit.bhubaneswar.me/content/temples/mukteswar"
+          "source_url": "https://visit.bhubaneswar.me/content/temples/mukteswar",
+          "source_ids": [
+            "bhub-mukteswar-festival"
+          ]
         }
       ],
       "practical_choices": {
@@ -94,9 +104,12 @@
             ],
             "source_urls": [
               "https://aai.aero/en/airports/bhubaneswar",
-              "https://odishatourism.gov.in/content/tourism/en/discover/major-cities/bhubaneswar.html"
+              "https://odishatourism.gov.in/en/destinations/bhubaneswar"
             ],
-            "basis": "source_context_with_editorial_advice"
+            "basis": "source_context_with_editorial_advice",
+            "source_ids": [
+              "bhubaneswar"
+            ]
           },
           {
             "key": "access",
@@ -109,9 +122,10 @@
               }
             ],
             "source_urls": [
-              "https://odishatourism.gov.in/content/tourism/en/discover/major-cities/bhubaneswar.html"
+              "https://odishatourism.gov.in/en/destinations/bhubaneswar"
             ],
-            "basis": "source_context_with_editorial_advice"
+            "basis": "source_context_with_editorial_advice",
+            "source_ids": []
           },
           {
             "key": "food",
@@ -126,7 +140,10 @@
             "source_urls": [
               "https://visit.bhubaneswar.me/stay/government-accommodations/panthanivas-otdc"
             ],
-            "basis": "source_context_with_editorial_advice"
+            "basis": "source_context_with_editorial_advice",
+            "source_ids": [
+              "bhub-panthanivas"
+            ]
           },
           {
             "key": "stay",
@@ -145,10 +162,14 @@
             "source_urls": [
               "https://visit.bhubaneswar.me/stay/government-accommodations/panthanivas-otdc"
             ],
-            "basis": "source_context_with_editorial_advice"
+            "basis": "source_context_with_editorial_advice",
+            "source_ids": [
+              "bhub-panthanivas"
+            ]
           }
         ]
-      }
+      },
+      "editorial_notes_in_article": true
     },
     {
       "route": "/visit/places/dhauli/",

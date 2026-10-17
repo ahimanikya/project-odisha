@@ -18,7 +18,7 @@ for(const note of data.notebooks){
   prepare_copy:()=>{assert.ok(note.prepare.length>=50&&note.prepare.length<=400);assert.ok(visible.includes(escapeHTML(note.prepare)));assert.ok(!/guaranteed|always safe|verified route/i.test(note.prepare));},
   pair_target:()=>{assert.ok(scope.routes.includes(note.pair.href));assert.ok(note.pair.text.length>=50);assert.ok(read(note.pair.href).includes('<main'));},
   remember_copy:()=>{assert.ok(note.remember.length>=40&&note.remember.length<=400);assert.ok(visible.includes(escapeHTML(note.remember)));},
-  rendered_notebook:()=>{assert.equal((visible.match(/id="visit-notebook"/g)||[]).length,1);assert.ok(visible.includes('aria-labelledby="visit-notebook-heading"'));assert.ok(visible.includes('Visit notebook notes'));assert.ok(visible.includes('data-save-journey="'+note.save_id+'"'));},
+  rendered_notebook:()=>{assert.equal((visible.match(/id="visit-notebook"/g)||[]).length,1);assert.ok(visible.includes('aria-labelledby="visit-notebook-heading"'));assert.ok(visible.includes(note.editorial_notes_in_article?'Footnotes &amp; Sources':'Visit notebook notes'));assert.ok(visible.includes('data-save-journey="'+note.save_id+'"'));},
   exported_notebook:()=>{const book=buildTourBook({version:1,title:'Notebook',items:[{id:note.save_id,day:1,notes:''}]},catalog);for(const field of ['notice','connect','prepare','remember'])assert.ok(book.includes(escapeHTML(note[field])),field);assert.ok(book.includes(escapeHTML(note.pair.text)));}
  };
  for(const [name,fn]of Object.entries(checks))test(`N210-${n++} ${note.route} ${name}`,fn);
