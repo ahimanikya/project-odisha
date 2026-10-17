@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `955cbe68c5d3fe3ac2e7c49335eaba959c481993129a936025285987852a1ee5`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `a2a38f595030e5d1889dfa41e881ae94d56bcfc6f2884524e304020645aba2c5`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -319,6 +319,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-296 · Deepen Huluhuli language, technique and historical evidence | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Practitioner accounts, measured phonetics, the Bhagabata edition and exact historical origins remain open for future research. | — |
 | UTP-WORK-297 · Explain Sankha construction, acoustics and named performance practice | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Local shell preparation, breath technique, troupe history and exact origins remain open for future research. | — |
 | UTP-WORK-298 · Explain Mardala rhythm, learning and creative practice | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, practitioner review, detailed stroke technique and local learning accounts remain open for future research. | — |
+| UTP-WORK-299 · Deepen Dalkhai song, occasion and stage context | in_progress | reviewed | Ahimanikya Satapathy | Pass required checks, merge reviewed head and publish approved main; count only after live verification. | — |
 
 ## Pending human review and decisions
 
@@ -896,6 +897,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-264 | pass_with_limitations | False | Same-assistant editorial review, not independent human or practitioner review.; Dictionary is lexicographic evidence, not measured phonetics. Exact origin and Bhagabata edition/canto/verse remain unresolved.; Jacobs reports Arabic zaghareet; it does not establish how Odia practitioners learn or an historical transmission route.; Existing indexed-only festival and competition sources retain their access limitations. No new audio or field demonstration.; Responsive browser checks are not physical-device or screen-reader tests. |
 | UTP-REV-265 | pass_with_limitations | False | Same-assistant review; no independent human, practitioner or language review.; Comparative physics does not establish local shell species, construction dimensions, breath techniques, frequency or historical origin.; Institutional records retain their dates and do not establish present troupe membership or availability.; Transcript read but no audio audition, recording rights or field observation.; Browser viewport checks are not physical-device or screen-reader tests. |
 | UTP-REV-266 | pass_with_limitations | False | Same-assistant review; no independent human, practitioner or language review.; Published curricula do not establish historical origins, universal pedagogy or complete technique.; Named teaching and production records do not establish present course availability or current personnel.; No audio audition, recording rights, lesson observation or field interview.; Browser viewport checks are not physical-device or screen-reader tests. |
+| UTP-REV-267 | pass_with_limitations | False | Same-assistant review; no independent human, practitioner or language review.; Journal text accessible, but direct PDF downloads and screenshot retrieval failed; no PDF visual inspection claimed.; 2019 government essay certificate failure,2014 annual and CCRT timeouts retained as unread leads; security verification unchanged.; No origin date, universal movement pattern, current decline trend or UNESCO listing established.; No new playback, recording rights, field observation or interviews.; Browser viewport review is not physical-device or screen-reader testing. |
 
 ## Publication and application history
 
@@ -1086,7 +1088,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101607 | 2026-10-16T21:42:11.817109+00:00 | Reviewed Boita expansion covering trade, boatbuilding, buoyancy, navigation and competing migration evidence. Source limits retained; publication pending, completed total 105. | — |
 | UTP-EVT-2026101608 | 2026-10-16T21:51:42.499525+00:00 | Published Boita substantive revision explaining trade, documented construction, buoyancy, winds and disputed migration evidence. Item106 counted after live receipt; total106. Ancient hulls, individual transactions and links between migration and ritual remain unresolved. | — |
 | UTP-EVT-20261015104 | 2026-10-15T14:55:15.291497+00:00 | Verified aligned desktop controls, single-row stars and consistent responsive spacing live. | — |
 | UTP-EVT-20261017101 | 2026-10-16T22:02:09.225244+00:00 | Prepared two approved Pattachitra border options with voting and backward-compatible response storage. | — |
@@ -1096,6 +1097,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101612 | 2026-10-16T23:08:22.707827+00:00 | Published Sankha substantive revision explaining shell construction, acoustic interaction and named Ganjam practice. Item108 counted after live receipt; total108. Historical origins, local shell preparation and current troupe history remain unresolved. | — |
 | UTP-EVT-2026101613 | 2026-10-16T23:59:56.178173+00:00 | Reviewed substantive Mardala revision explaining spoken rhythm, cycles, learning and creative roles. Practitioner and historical review remain open; publication pending and count108. | — |
 | UTP-EVT-2026101614 | 2026-10-17T00:07:56.156635+00:00 | Published Mardala substantive revision explaining spoken rhythm, cycle and tempo, teaching and named creative roles. Item109 counted after live receipt; total109. Historical origins, practitioner review and detailed stroke technique remain open. | — |
+| UTP-EVT-2026101701 | 2026-10-17T01:04:14.618124+00:00 | Reviewed Dalkhai revision with named song, learning and livelihood accounts. Historical origin, source recovery and practitioner review remain open; publication pending and count109. | — |
 
 ## Deferred extensions
 
