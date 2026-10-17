@@ -1,0 +1,118 @@
+{
+  "recorded_at": "2026-10-17T16:18:40.458957+00:00",
+  "authorization": [
+    "UTP-DEC-2026101702",
+    "UTP-DEC-225"
+  ],
+  "work_id": "UTP-WORK-302",
+  "queue_item": "UTP-EDIT-006",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/291",
+  "reviewed_head": "18dfa0b466774f2c6af52f7fad612e2966b49c33",
+  "merge_commit": "2f63af57fa937bb6620c173620773255d206be20",
+  "validation": {
+    "conclusion": "success",
+    "databaseId": 39038111877,
+    "headSha": "18dfa0b466774f2c6af52f7fad612e2966b49c33",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39038111877"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "databaseId": 39046924293,
+    "headSha": "2f63af57fa937bb6620c173620773255d206be20",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39046924293",
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "verified_routes": [
+    "/visit/places/dhauli/"
+  ],
+  "live": {
+    "checked_at": "2026-10-17T16:14:00.882504+00:00",
+    "pages": [
+      {
+        "route": "/visit/places/dhauli/",
+        "url": "https://projectodisha.org/visit/places/dhauli/",
+        "status": 200,
+        "sha256": "e5c1fdd62ad227b73916cded8fb71818d2854864087e87c8b68e97b3a8b14639",
+        "article_text_matches_tested_build": true,
+        "sources_verified": 5,
+        "reference_links": 16,
+        "return_links": 16,
+        "legacy_visible_tourism_links": 0,
+        "indexing": "Existing indexable route; eligibility unchanged"
+      }
+    ],
+    "assets": [
+      {
+        "route": "/images/regions/dhauli.jpg",
+        "status": 200,
+        "sha256": "f9721a5a64cf25f9fcc1a01ef9dfca841b668f0f744cf69c6b17d56f87f61792"
+      },
+      {
+        "route": "/images/regions/dhauli-elephant.jpg",
+        "status": 200,
+        "sha256": "d41aa30f330a73ea7a4d86b95c024cc64fb548c67f3e4d677214743dc9b5d058"
+      }
+    ],
+    "sitemap_entries": 11
+  },
+  "review": "records/dhauli-editorial-review-2026-10-17.json",
+  "outputs": [
+    {
+      "path": "kb/research/destinations/central-details.json",
+      "sha256": "4418dbe27f4bccd887a8d980c7ab37ae724e04f57de51805b801f5c155a3f3ee",
+      "matches_merge": true
+    },
+    {
+      "path": "kb/research/destinations/dhauli-editorial.json",
+      "sha256": "86588f2941240da75b7c50c9b13d71ffc3d22bf4a3856005ebd9895431d77391",
+      "matches_merge": true
+    },
+    {
+      "path": "kb/research/destinations/visit-notebooks.json",
+      "sha256": "864f800186ef15893b41feec440a2bdd032dea4a38bdd12f699c1b48022e514f",
+      "matches_merge": true
+    },
+    {
+      "path": "kb/records/dhauli-editorial-source-mapping-2026-10-17.json",
+      "sha256": "a76723cf07ab359c017bdd7f98000fc556e65036764bff17f5357bae05e9456d",
+      "matches_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/visit/[kind]/[slug].astro",
+      "sha256": "f799e4b91a81b6ec8e9876b8799112470b5551ed1c5725d5b07ca4f95581b078",
+      "matches_merge": true
+    },
+    {
+      "path": "projects/site/src/components/VisitNotebook.astro",
+      "sha256": "b4e014a256be8eb523501d3c80d6e34f84c94de9d02a864842bc46283e985f57",
+      "matches_merge": true
+    },
+    {
+      "path": "projects/site/src/components/VisitReadiness.astro",
+      "sha256": "e561198f02acbf4d670993c425214c4a58c767c22d1eaae3292a0ee7990f01bb",
+      "matches_merge": true
+    },
+    {
+      "path": "projects/site/src/data/destination-details.ts",
+      "sha256": "870cd5affdb2257b2ae1365d73f0121f63d76587c0b350bf9bce7ec97f9604ed",
+      "matches_merge": true
+    },
+    {
+      "path": "projects/site/src/data/journey-catalog.ts",
+      "sha256": "7b0d42fb3b181bf4a8e904cccd6c4a2ca26376c37bc46ada5158af4214fc36ec",
+      "matches_merge": true
+    }
+  ],
+  "screenshot": "/tmp/dhauli-editorial-live-mobile.png",
+  "counting": "Sixth editorial article completed; substantive500 remains 112.",
+  "limitations": [
+    "Same-assistant review, not independent human or specialist approval.",
+    "Responsive emulation, not physical-device or screen-reader testing.",
+    "No field visit, guide contact, current accessibility, show programme or service confirmation.",
+    "Editorial revision does not increase the substantive 500-item count."
+  ],
+  "attachment": "App attachment attempted; thread attachment identity count exceeds 100. PR URL retained."
+}

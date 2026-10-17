@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-17T13:47:57.352220+00:00",
+  "updated_at": "2026-10-17T16:18:40.458957+00:00",
   "authorization": "UTP-DEC-2026101702",
   "work_id": "UTP-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -560,13 +560,22 @@
       "id": "UTP-EDIT-006",
       "route": "/visit/places/dhauli/",
       "title": "Dhauli · Shanti Stupa &amp; rock edicts",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "Individually revise Dhauli narrative, byline, reading layout, visible footnotes and practical notebook; preserve documentary photographs and historical source provenance. Other visitor detail routes retain current presentation.",
       "source_template": "projects/site/src/pages/visit/[kind]/[slug].astro",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
         "records/dhauli-editorial-review-2026-10-17.json",
-        "records/dhauli-editorial-source-mapping-2026-10-17.json"
+        "records/dhauli-editorial-source-mapping-2026-10-17.json",
+        "records/dhauli-editorial-publication-2026-10-17.json"
       ],
       "blocker": null,
       "started_at": "2026-10-17T08:07:39.161469+00:00",
@@ -575,7 +584,9 @@
         "Visible numbered notes with accurate passage mappings and working return links, including the practical notebook; current official source links inspected.",
         "Two existing documentary photographs reviewed with rights retained; no invented access or service confirmations.",
         "Both editions tested, desktop/mobile review, reviewed PR, passing CI, approved deployment and actual live receipt before completion."
-      ]
+      ],
+      "completed_at": "2026-10-17T16:18:40.458957+00:00",
+      "publication_receipt": "records/dhauli-editorial-publication-2026-10-17.json"
     },
     {
       "id": "UTP-EDIT-007",
