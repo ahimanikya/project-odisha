@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `06df8371505ed7973e7584cd42b6cc348e474f000bb699685deb9162176e89b4`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `db0bff8edb134a8296b26bb183b8325146379068d0d39ffc37cb88571b848e8d`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -322,7 +322,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-299 · Deepen Dalkhai song, occasion and stage context | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, song-language review and recovered source PDFs remain open for future research. | — |
 | UTP-WORK-300 · Deepen Pala literary performance, forms and repertoire | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/Odia review and manuscript evidence remain open for future research. | — |
 | UTP-WORK-301 · Deepen Dhemsa community, movement and occasion | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/language review and field evidence remain open for future research. | — |
-| UTP-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Continue UTP-EDIT-017 About: inspect its actual content and purpose, classify or revise individually under the editorial standard. Twelve articles completed; substantive programme remains 112. | — |
+| UTP-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Resume UTP-EDIT-021 Chilika: inspect MagazinePlace and its narrative/destination evidence, sources, media and portable reading, then publish an accepted article revision. Purpose, Founder role introduction, contribution workflow and product help are individually excluded; twelve articles completed and substantive500 remains 112. | — |
 
 ## Pending human review and decisions
 
@@ -1123,7 +1123,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101724 | 2026-10-17T18:52:24.656269+00:00 | Published the individually reviewed Raghurajpur guide: Founder credit, natural craft and dance narrative, eight visible numbered notes including process and planning references, preserved photography and current tourism links. Next queued article: Puri coastal food. Substantive programme remains 112. | — |
 | UTP-EVT-2026101725 | 2026-10-17T19:42:29.111021+00:00 | Reviewed Puri coastal food individually: Founder credit, source-linked offering and ritual history, GI date, visible notes and retained documentary photograph. Publication pending; substantive programme unchanged. | — |
 | UTP-EVT-2026101726 | 2026-10-17T19:52:21.174996+00:00 | Published the individually reviewed Puri coastal food guide: Founder credit, natural reading layout, five visible numbered notes including folded notebook references, preserved photography and current tourism links. Next queued article: Puri coastal stays. Substantive programme remains 112. | — |
 | UTP-EVT-2026101727 | 2026-10-17T20:42:46.573719+00:00 | Reviewed Puri coastal stays: Founder credit, clear area comparison, visible geographic notes, preserved photo and complete concise portable reading. Publication pending; substantive programme unchanged. | — |
@@ -1133,6 +1132,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101731 | 2026-10-17T22:45:38.376773+00:00 | Reviewed the authored Stone, sea and makers trail individually, with source mapping, documentary images, visible notes, responsive layouts and concise portable reading. Delivery remains in progress pending reviewed PR and live publication. | — |
 | UTP-EVT-2026101732 | 2026-10-17T22:54:08.477588+00:00 | Published the reviewed Stone, sea and makers trail through PR 298 and the approved main workflow. Actual live narrative, notes, image bytes, mobile reading and unchanged index eligibility checked. Twelfth editorial article complete; substantive programme remains 112. | — |
 | UTP-EVT-2026101733 | 2026-10-17T23:35:41.646933+00:00 | Individually classified institutional purpose, Founder role introduction, contribution workflow and product help. Preserved process, rights and privacy disclosures; kept Chilika queued as an actual subject article. No article or substantive count added. | — |
+| UTP-EVT-2026101734 | 2026-10-17T23:39:36.765232+00:00 | Merged individually evidenced institutional/help classifications through PR 299 after passing validation. Website unchanged; no article or substantive completions added. Next is the Chilika article. | — |
 
 ## Deferred extensions
 
