@@ -99,7 +99,7 @@ function renderPrint(){
  if(trail){print.append(node('h2',trail.title+' · a reading companion'),node('p','Chapters related to your selected ideas, not extra stops or a timed itinerary.'));
   for(const chapter of trail.chapters)print.append(node('h3',chapter.title),node('p',chapter.text),node('h4',trail.prompt_label||'Before you go'),node('p',chapter.prompt));
   for(const item of trail.preparation)print.append(node('h4',item.title),node('p',item.text));
-  print.append(node('p','Context reviewed '+trail.reviewed_on+'. '+trail.review_scope));
+  if(trail.editorial_reading){print.append(node('p','By '+trail.author));references.set(trail.href,'Stone, sea and makers · article and full source notes');}else print.append(node('p','Context reviewed '+trail.reviewed_on+'. '+trail.review_scope));
   for(const source of trail.sources)references.set(source.url,source.title);
  }
 

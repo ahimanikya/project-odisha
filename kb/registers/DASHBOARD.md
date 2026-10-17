@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `f7d321fdacae1062bc3efe50605857a95c890d3a1dd5315443c200e1f2ffaa66`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `9d7644a80dc5df222c808152832b0427219d74987b0fee882dea380cff73a449`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -916,6 +916,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-279 | pass_with_limitations | False | Same-assistant review, not independent human or specialist approval.; Responsive emulation, not physical-device or screen-reader testing.; No field visit, cook interview, tasting, kitchen inspection or access confirmation.; Editorial revision does not increase substantive500. |
 | UTP-REV-280 | pass_with_limitations | False | Same-assistant review, not independent human or specialist approval.; Responsive emulation, not physical-device or screen-reader testing.; No property visit, provider confirmation or current quote.; Editorial revision does not increase substantive500. |
 | UTP-REV-281 | pass_with_limitations | False | Live HTML and source inspection only; no new browser interaction, responsive or accessibility certification.; Exclusion from article formatting does not exempt utility pages from accuracy, rights or product maintenance.; Historical product notes describe earlier versions; current route source controls the classification. |
+| UTP-REV-282 | pass_with_limitations | False | Same-assistant review, not independent human or specialist approval.; Responsive emulation, not physical-device or screen-reader testing.; No field visit, maker contact or provider confirmation.; Editorial work does not increment substantive500. |
 
 ## Publication and application history
 
@@ -1120,7 +1121,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101721 | 2026-10-17T17:49:35.264725+00:00 | Reviewed Puri individually: Founder byline, clearer offering/craft narrative, visible source notes, current planning references and preserved photographs. Publication pending; substantive programme unchanged. | — |
 | UTP-EVT-2026101722 | 2026-10-17T17:57:58.516023+00:00 | Published the individually reviewed Puri guide: Founder credit, clearer offering and craft narrative, seven visible numbered notes including planning references, preserved photography and current tourism links. Next queued article: Raghurajpur. Substantive programme remains 112. | — |
 | UTP-EVT-2026101723 | 2026-10-17T18:45:03.580306+00:00 | Reviewed Raghurajpur individually: Founder byline, natural narrative, visible process and notebook notes, retained outside testimony and three documentary photographs. Publication pending; substantive programme unchanged. | — |
 | UTP-EVT-2026101724 | 2026-10-17T18:52:24.656269+00:00 | Published the individually reviewed Raghurajpur guide: Founder credit, natural craft and dance narrative, eight visible numbered notes including process and planning references, preserved photography and current tourism links. Next queued article: Puri coastal food. Substantive programme remains 112. | — |
@@ -1130,6 +1130,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101728 | 2026-10-17T20:50:09.976695+00:00 | Published the individually reviewed Puri coastal stay comparison: Founder credit, natural reading layout, three visible geographic notes including folded notebook references, preserved photography and complete concise portable reading. Next queue entry: homepage classification. Substantive programme remains 112. | — |
 | UTP-EVT-2026101729 | 2026-10-17T21:39:57.991766+00:00 | Individually classified homepage, 404, Explore and My journey as utilities using actual templates and live HTML. Preserved credits and left Journey starters queued because it contains an authored trail. Article completions remain 11; substantive programme remains 112. | — |
 | UTP-EVT-2026101730 | 2026-10-17T21:43:48.060915+00:00 | Merged individually evidenced utility classifications through PR 297 after passing validation. No website changes or new article completions; next entry is Journey starters and its embedded authored trail. | — |
+| UTP-EVT-2026101731 | 2026-10-17T22:45:38.376773+00:00 | Reviewed the authored Stone, sea and makers trail individually, with source mapping, documentary images, visible notes, responsive layouts and concise portable reading. Delivery remains in progress pending reviewed PR and live publication. | — |
 
 ## Deferred extensions
 
