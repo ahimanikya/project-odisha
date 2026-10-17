@@ -2,6 +2,7 @@
 import ArticleByline from './ArticleByline.astro';
 import ArticleFootnote from './ArticleFootnote.astro';
 import ArticleFootnotes from './ArticleFootnotes.astro';
+import puriEditorial from '../../../../kb/research/destinations/puri-editorial.json';
 import bhubEditorial from '../../../../kb/research/destinations/bhubaneswar-editorial.json';
 import notebooks from '../../../../kb/research/destinations/visit-notebooks.json';
 import DestinationLanguages from './DestinationLanguages.astro';
@@ -30,7 +31,7 @@ if(isCoastalEdition){
   r.sections.find(s=>s.id==='stories').paragraphs[1].text=editionCopy.bhubaneswar.story[1];
  }
 }
-const editorial=r.slug==='bhubaneswar'?bhubEditorial:null;
+const editorial=r.slug==='bhubaneswar'?bhubEditorial:r.slug==='puri'?puriEditorial:null;
 const passages=editorial?[
  ...r.sections.flatMap(section=>section.paragraphs.map((p,n)=>({id:`${section.id}-${n}`,source_ids:p.source_ids}))),
  ...r.items.map(i=>({id:i.id.replaceAll(':','-'),source_ids:i.source_ids})),
@@ -48,7 +49,7 @@ const further=connections.links.filter(link=>allowsPage(link.to)&&link.from===`/
 ---
 <div class:list={["utk-magazine utk-magazine--region",{"region-editorial":!!editorial}]}>
  <MagazineCover title={r.title} odia={r.odia} eyebrow={r.kicker} deck={[r.headline]} photo={hero} saveId={r.id} startHref="#stories" startLabel="Meet the place" footline={r.lead}>{editorial&&<ArticleByline slot="byline" author={editorial.author}/>}</MagazineCover>
- <MagazineContents label="In this guide" links={[{href:"#stories",label:"The story"},{href:"#choose-your-stops",label:"Places & experiences"},...(other.length>0?[{href:"#make-it-yours",label:"Food & your own pace"}]:[]),{href:"#before-you-go",label:"Before you go"},...(hasNotebook?[{href:"#visit-notebook",label:"Visit notebook"}]:[]),{href:"#local-languages",label:"Local languages"}]}/>
+ <MagazineContents label="In this guide" links={[{href:"#stories",label:"The story"},{href:"#choose-your-stops",label:"Places & experiences"},...(other.length>0?[{href:"#make-it-yours",label:"Food & your own pace"}]:[]),{href:"#before-you-go",label:"Before you go"},...(hasNotebook?[{href:"#visit-notebook",label:"Visit notebook"}]:[]),{href:"#local-languages",label:"Local languages"},...(r.slug==='puri'?[{href:"#story-sources",label:"Footnotes & Sources"}]:[])]}/>
  <article class="mag-content">
   <section id="stories" class="mag-reading-section region-story-opening"><div><p class="eyebrow">01 · Find the thread</p><h2>{story.title}</h2></div><div>{story.paragraphs.map((p,n)=><p data-source-ids={p.source_ids.join(' ')}>{p.text}{editorial&&<ArticleFootnote ids={p.source_ids} sources={editorial.sources} passage={`stories-${n}`}/>}</p>)}</div></section>
   <section id="choose-your-stops" class="mag-chapter"><div class="mag-section-heading"><div><p class="eyebrow">02 · A few places to begin</p><h2>Choose a few.<br/><em>Leave room to linger.</em></h2></div><p>{r.orientation}</p></div>

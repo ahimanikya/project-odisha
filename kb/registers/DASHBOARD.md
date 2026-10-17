@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `8b6e5a6c322bb328f6a168cbeecca20d6f17d77b5e9c80ed6f52dad437bc592b`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `2948764cf7e43fc34ea08e97aa7847ece1ec38b36f32c0c19cce15b3a99f1dd1`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -911,6 +911,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-274 | pass_with_limitations | False | Same-assistant review, not independent human or specialist approval.; Responsive browser emulation, not physical-device or screen-reader testing.; No current transport, access, admissions, accommodation or mural survival confirmed.; Historical photographs and 2019 collection examples remain dated; source-refresh is not a new field visit.; Editorial revision does not increase the substantive 500-item count. |
 | UTP-REV-275 | pass_with_limitations | False | Same-assistant review, not independent human or specialist approval.; Responsive emulation, not physical-device or screen-reader testing.; No field visit, guide contact, current accessibility, show programme or service confirmation.; Editorial revision does not increase the substantive 500-item count. |
 | UTP-REV-276 | pass_with_limitations | False | Same-assistant review, not independent human or specialist approval.; Responsive emulation, not physical-device or screen-reader testing.; No field visit, local contact, accessible route or current booking confirmation.; Editorial revision does not increase substantive 500-item count. |
+| UTP-REV-277 | pass_with_limitations | False | Same-assistant review, not independent human or specialist approval.; Responsive emulation, not physical-device or screen-reader testing.; No field visit, local contact, current temple eligibility, accommodation or service confirmation.; Editorial revision does not increase the substantive 500-item count. |
 
 ## Publication and application history
 
@@ -1111,7 +1112,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101711 | 2026-10-17T04:25:37.841777+00:00 | Reviewed Boat Songs editorial revision with Founder byline, visible footnotes, natural prose and responsive layout. Named maker credits and evidence limits retained. Publication pending; substantive programme unchanged. | — |
 | UTP-EVT-2026101712 | 2026-10-17T04:33:41.030526+00:00 | Published Boat Songs editorial revision with Founder byline, visible footnotes and natural reading layout. Canonical KB, five returnable references and named recording credits verified live. Next queued article: Ahimanikya and Sashisena. Substantive programme remains 112. | — |
 | UTP-EVT-2026101713 | 2026-10-17T05:08:44.463662+00:00 | Reviewed the Ahimanikya and Sashisena reference article: opening Founder byline, visible native source notes and consolidated locators. Approved narrative, six Odia excerpts, images and archive credits preserved. Publication pending; substantive programme unchanged. | — |
 | UTP-EVT-2026101714 | 2026-10-17T05:16:45.561386+00:00 | Published the Ahimanikya and Sashisena reference update with opening Founder byline and consolidated visible footnotes. Approved narrative, six Odia excerpts, photographs and archive credits preserved and verified live. Next queued article: Bhubaneswar. Substantive programme remains 112. | — |
@@ -1121,6 +1121,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101718 | 2026-10-17T16:18:40.458957+00:00 | Published the individually reviewed Dhauli guide: Founder credit, clearer historical reading, five visible numbered notes including planning references, preserved photography and working current tourism links. Next queued article: Konark. Substantive programme remains 112. | — |
 | UTP-EVT-2026101719 | 2026-10-17T17:28:03.705618+00:00 | Reviewed Konark individually: Founder byline, clearer surviving architecture and legend distinction, visible notes, current planning links and preserved photographs. Publication pending; substantive programme unchanged. | — |
 | UTP-EVT-2026101720 | 2026-10-17T17:37:50.331967+00:00 | Published the individually reviewed Konark guide: Founder credit, clearer historical reading and legend attribution, eight visible numbered notes including planning references, preserved photography and current tourism links. Next queued article: Puri. Substantive programme remains 112. | — |
+| UTP-EVT-2026101721 | 2026-10-17T17:49:35.264725+00:00 | Reviewed Puri individually: Founder byline, clearer offering/craft narrative, visible source notes, current planning references and preserved photographs. Publication pending; substantive programme unchanged. | — |
 
 ## Deferred extensions
 
