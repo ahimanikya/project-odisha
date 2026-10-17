@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-17T22:54:08.477588+00:00",
+  "updated_at": "2026-10-17T23:35:41.646933+00:00",
   "authorization": "UTP-DEC-2026101702",
   "work_id": "UTP-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -827,45 +827,57 @@
       "id": "UTP-EDIT-017",
       "route": "/about/",
       "title": "Our purpose",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "excluded",
+      "scope": "institutional_purpose",
       "source_template": "projects/site/src/pages/about.astro",
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/editorial-institutional-classification-2026-10-18.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "This page states the project mission, audience, independence and links to the Founder and shared editorial process. It is the institutional explanation explicitly requested as the home for process information, rather than a researched Odisha subject article. Preserve that role and its process link; an article byline and numbered historical footnotes would misclassify its purpose."
     },
     {
       "id": "UTP-EDIT-018",
       "route": "/founder/",
       "title": "Ahimanikya Satapathy · Founder",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "excluded",
+      "scope": "institutional_founder_identity",
       "source_template": "projects/site/src/pages/founder.astro",
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/editorial-institutional-classification-2026-10-18.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "This is a short project-role introduction: it names Ahimanikya Satapathy as Founder and Editor-in-Chief and states his project ambition. It contains no external life chronology, literary analysis, quotations or documentary portrait. Preserve his existing name and role without adding a self-byline or treating this as an independently researched biography. Revisit classification if substantial biographical material is added."
     },
     {
       "id": "UTP-EDIT-019",
       "route": "/contribute/",
       "title": "Be part of the story",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "excluded",
+      "scope": "contribution_workflow_utility",
       "source_template": "projects/site/src/pages/contribute.astro",
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/editorial-institutional-classification-2026-10-18.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "The page explains public GitHub contribution steps and prepares a visitor-owned correction draft. Its source, credit, privacy and consent instructions are functional guidance, including the requirement to identify image editing. They must remain; the article rule does not authorize removing those disclosures or attributing visitor drafts to the Founder. No contribution was submitted or saved visitor content inspected."
     },
     {
       "id": "UTP-EDIT-020",
       "route": "/how-to-use/",
       "title": "How to use Project Odisha",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "excluded",
+      "scope": "product_help_and_privacy",
       "source_template": "projects/site/src/pages/how-to-use.astro",
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/editorial-institutional-classification-2026-10-18.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "This is product help for discovery, browser-local journeys, exports, contributions and cookie preferences. It is an instructional interface rather than an authored cultural essay. Preserve disclosure links and workflow caveats; article bylines and subject footnotes do not apply to these controls. This classification is not a privacy compliance audit or a new verification of all described functionality."
     },
     {
       "id": "UTP-EDIT-021",

@@ -1,0 +1,145 @@
+{
+  "recorded_at": "2026-10-17T23:35:41.646933+00:00",
+  "authorization": [
+    "UTP-DEC-2026101702",
+    "UTP-DEC-225"
+  ],
+  "work_id": "UTP-WORK-302",
+  "review_id": "UTP-REV-283",
+  "reviewer": "Current AI assistant; same-assistant classification, not independent human review",
+  "scope": "Four sequential institutional/help route classifications. No website code or content changed.",
+  "acceptance": [
+    "Inspect each route template and actual live HTML individually.",
+    "Record exact route-specific exclusion, evidence and current source hash.",
+    "Preserve Founder identity, process links, contribution credit/permission fields and privacy disclosures.",
+    "Do not count classifications as delivered articles or substantive500 items."
+  ],
+  "baseline_commit": "1be0c554519cff4c7f2320bcb8cf0325c5da0953",
+  "routes": [
+    {
+      "queue_item": "UTP-EDIT-017",
+      "route": "/about/",
+      "classification": "institutional_purpose",
+      "rationale": "This page states the project mission, audience, independence and links to the Founder and shared editorial process. It is the institutional explanation explicitly requested as the home for process information, rather than a researched Odisha subject article. Preserve that role and its process link; an article byline and numbered historical footnotes would misclassify its purpose.",
+      "sources": [
+        {
+          "path": "projects/site/src/pages/about.astro",
+          "sha256": "49d1ce85363a9d8202381c1a3ed0a2b4606dd3507b2085c9b9852f0543b651dc"
+        }
+      ],
+      "live_html": {
+        "route": "/about/",
+        "url": "https://projectodisha.org/about/",
+        "status": 200,
+        "sha256": "99c4b6e55cb31361ffbd2c2b2adeb08705dc7589d83dd5436d568eb3d856c448",
+        "observed_markers": [
+          "Why Project Odisha exists",
+          "Read our editorial process →",
+          "Meet the founder."
+        ]
+      },
+      "media": "No article-specific illustration or documentary photograph in this route template; shared site branding remains unchanged."
+    },
+    {
+      "queue_item": "UTP-EDIT-018",
+      "route": "/founder/",
+      "classification": "institutional_founder_identity",
+      "rationale": "This is a short project-role introduction: it names Ahimanikya Satapathy as Founder and Editor-in-Chief and states his project ambition. It contains no external life chronology, literary analysis, quotations or documentary portrait. Preserve his existing name and role without adding a self-byline or treating this as an independently researched biography. Revisit classification if substantial biographical material is added.",
+      "sources": [
+        {
+          "path": "projects/site/src/pages/founder.astro",
+          "sha256": "a118d50efbffbc893648b7c839270b70031d2a2911a493f3370f3f8541abe66f"
+        }
+      ],
+      "live_html": {
+        "route": "/founder/",
+        "url": "https://projectodisha.org/founder/",
+        "status": 200,
+        "sha256": "42ad5f841f33de7538dddcc042b99de2dbae1159c22d31bb23ba5d50dcd99737",
+        "observed_markers": [
+          "Founder & Editor-in-Chief",
+          "A living project.",
+          "Be part of the story →"
+        ]
+      },
+      "media": "No article-specific illustration or documentary photograph in this route template; shared site branding remains unchanged."
+    },
+    {
+      "queue_item": "UTP-EDIT-019",
+      "route": "/contribute/",
+      "classification": "contribution_workflow_utility",
+      "rationale": "The page explains public GitHub contribution steps and prepares a visitor-owned correction draft. Its source, credit, privacy and consent instructions are functional guidance, including the requirement to identify image editing. They must remain; the article rule does not authorize removing those disclosures or attributing visitor drafts to the Founder. No contribution was submitted or saved visitor content inspected.",
+      "sources": [
+        {
+          "path": "projects/site/src/pages/contribute.astro",
+          "sha256": "1a94f3fcaa683b5e3684856bcd7cd870582450ed93153dc348934e25de74463b"
+        }
+      ],
+      "live_html": {
+        "route": "/contribute/",
+        "url": "https://projectodisha.org/contribute/",
+        "status": 200,
+        "sha256": "2933d1aedaacb3f7521b94ef15664869eb1de6c6f34bcce19a8f644a9924327e",
+        "observed_markers": [
+          "Your editorial draft",
+          "GitHub submissions are public.",
+          "Prepare public GitHub issue"
+        ]
+      },
+      "media": "No article-specific illustration or documentary photograph in this route template; shared site branding remains unchanged."
+    },
+    {
+      "queue_item": "UTP-EDIT-020",
+      "route": "/how-to-use/",
+      "classification": "product_help_and_privacy",
+      "rationale": "This is product help for discovery, browser-local journeys, exports, contributions and cookie preferences. It is an instructional interface rather than an authored cultural essay. Preserve disclosure links and workflow caveats; article bylines and subject footnotes do not apply to these controls. This classification is not a privacy compliance audit or a new verification of all described functionality.",
+      "sources": [
+        {
+          "path": "projects/site/src/pages/how-to-use.astro",
+          "sha256": "b17a33d8ecac89436db8107d47b563064a58840624ac824e5d52b626a43c35cc"
+        }
+      ],
+      "live_html": {
+        "route": "/how-to-use/",
+        "url": "https://projectodisha.org/how-to-use/",
+        "status": 200,
+        "sha256": "8179eed6a9a2ca5836923bfef09746ac091cf2b6628aacf0dfbe62244c37efda",
+        "observed_markers": [
+          "Arrange days, notes and different versions",
+          "Your visits. Your choice.",
+          "Cookie preferences"
+        ]
+      },
+      "media": "No article-specific illustration or documentary photograph in this route template; shared site branding remains unchanged."
+    }
+  ],
+  "context_inspected": [
+    "TEAM-CHARTER.md",
+    "team/assignments.json",
+    "reference/project-identity.md",
+    "reference/article-editorial-standard.md",
+    "research/product/public-contributions.md",
+    "research/product/visitor-polish.md",
+    "research/product/coastal-publication-2026-09-30.md"
+  ],
+  "retained_next": {
+    "id": "UTP-EDIT-021",
+    "route": "/knowledge/chilika/",
+    "reason": "Substantive lagoon article rendered through MagazinePlace with narrative, destination and source records. Retain for individual article review; this is not a utility page.",
+    "template": "projects/site/src/pages/knowledge/[slug].astro"
+  },
+  "limitations": [
+    "HTML and template inspection only, not responsive or screen-reader certification.",
+    "Exclusions apply to article byline/footnote rollout, not to future accuracy, readability, rights or product maintenance.",
+    "Historical implementation notes are context; current templates and fetched pages establish present classification."
+  ],
+  "publication": {
+    "required": false,
+    "reason": "Only canonical KB classifications and generated register views change. No website code, assets, content or eligibility changed; save reviewed merge in application receipt."
+  },
+  "counting": {
+    "completed_articles": 12,
+    "substantive500": 112,
+    "increment": 0
+  }
+}

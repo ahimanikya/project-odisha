@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `a2f21e9c92ab8c04966f2b22c66dbf1d530f8e5f4d3022331f5b75c619386a1d`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `06df8371505ed7973e7584cd42b6cc348e474f000bb699685deb9162176e89b4`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -917,6 +917,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-280 | pass_with_limitations | False | Same-assistant review, not independent human or specialist approval.; Responsive emulation, not physical-device or screen-reader testing.; No property visit, provider confirmation or current quote.; Editorial revision does not increase substantive500. |
 | UTP-REV-281 | pass_with_limitations | False | Live HTML and source inspection only; no new browser interaction, responsive or accessibility certification.; Exclusion from article formatting does not exempt utility pages from accuracy, rights or product maintenance.; Historical product notes describe earlier versions; current route source controls the classification. |
 | UTP-REV-282 | pass_with_limitations | False | Same-assistant review, not independent human or specialist approval.; Responsive emulation, not physical-device or screen-reader testing.; No field visit, maker contact or provider confirmation.; Editorial work does not increment substantive500. |
+| UTP-REV-283 | pass_with_limitations | False | HTML and template inspection only, not responsive or screen-reader certification.; Exclusions apply to article byline/footnote rollout, not to future accuracy, readability, rights or product maintenance.; Historical implementation notes are context; current templates and fetched pages establish present classification. |
 
 ## Publication and application history
 
@@ -1122,7 +1123,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101723 | 2026-10-17T18:45:03.580306+00:00 | Reviewed Raghurajpur individually: Founder byline, natural narrative, visible process and notebook notes, retained outside testimony and three documentary photographs. Publication pending; substantive programme unchanged. | — |
 | UTP-EVT-2026101724 | 2026-10-17T18:52:24.656269+00:00 | Published the individually reviewed Raghurajpur guide: Founder credit, natural craft and dance narrative, eight visible numbered notes including process and planning references, preserved photography and current tourism links. Next queued article: Puri coastal food. Substantive programme remains 112. | — |
 | UTP-EVT-2026101725 | 2026-10-17T19:42:29.111021+00:00 | Reviewed Puri coastal food individually: Founder credit, source-linked offering and ritual history, GI date, visible notes and retained documentary photograph. Publication pending; substantive programme unchanged. | — |
 | UTP-EVT-2026101726 | 2026-10-17T19:52:21.174996+00:00 | Published the individually reviewed Puri coastal food guide: Founder credit, natural reading layout, five visible numbered notes including folded notebook references, preserved photography and current tourism links. Next queued article: Puri coastal stays. Substantive programme remains 112. | — |
@@ -1132,6 +1132,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101730 | 2026-10-17T21:43:48.060915+00:00 | Merged individually evidenced utility classifications through PR 297 after passing validation. No website changes or new article completions; next entry is Journey starters and its embedded authored trail. | — |
 | UTP-EVT-2026101731 | 2026-10-17T22:45:38.376773+00:00 | Reviewed the authored Stone, sea and makers trail individually, with source mapping, documentary images, visible notes, responsive layouts and concise portable reading. Delivery remains in progress pending reviewed PR and live publication. | — |
 | UTP-EVT-2026101732 | 2026-10-17T22:54:08.477588+00:00 | Published the reviewed Stone, sea and makers trail through PR 298 and the approved main workflow. Actual live narrative, notes, image bytes, mobile reading and unchanged index eligibility checked. Twelfth editorial article complete; substantive programme remains 112. | — |
+| UTP-EVT-2026101733 | 2026-10-17T23:35:41.646933+00:00 | Individually classified institutional purpose, Founder role introduction, contribution workflow and product help. Preserved process, rights and privacy disclosures; kept Chilika queued as an actual subject article. No article or substantive count added. | — |
 
 ## Deferred extensions
 
