@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `36d83b38baff6eaebacb144c0efd28b0bf855c5d1ef42426c2b1de55c76ec317`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `85c00eb528041e5bb377fac6d610109a049059c2b26c822f531d72378b059055`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -909,6 +909,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-272 | pass_with_limitations | False | Same-assistant editorial review, not an independent human or practitioner review.; Responsive checks are browser emulation, not physical-device or screen-reader testing.; No new research, field recording or media-rights acquisition claimed.; Editorial revisions do not increase the 500 substantive-item count. |
 | UTP-REV-273 | pass_with_limitations | False | Same-assistant editorial review, not independent human or specialist review.; Responsive browser emulation, not physical-device or screen-reader testing.; No new source translation, archival discovery or field verification claimed.; Historical interpretations and unresolved provenance remain as in the approved reference.; Editorial work does not increase the substantive 500-item count. |
 | UTP-REV-274 | pass_with_limitations | False | Same-assistant review, not independent human or specialist approval.; Responsive browser emulation, not physical-device or screen-reader testing.; No current transport, access, admissions, accommodation or mural survival confirmed.; Historical photographs and 2019 collection examples remain dated; source-refresh is not a new field visit.; Editorial revision does not increase the substantive 500-item count. |
+| UTP-REV-275 | pass_with_limitations | False | Same-assistant review, not independent human or specialist approval.; Responsive emulation, not physical-device or screen-reader testing.; No field visit, guide contact, current accessibility, show programme or service confirmation.; Editorial revision does not increase the substantive 500-item count. |
 
 ## Publication and application history
 
@@ -1107,7 +1108,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101707 | 2026-10-17T03:45:32.450587+00:00 | Created sequential editorial work list and recurring continuation; reviewed first maritime article, visible footnotes, byline, responsive layout and shared process page. Publication pending; no item counted complete. | — |
 | UTP-EVT-2026101708 | 2026-10-17T03:58:06.552210+00:00 | Published the first article revision and process-page foundation. Work list records Boita complete after live receipt; next is Huluhuli. Lightweight downloads and incremental publication follow Founder clarifications. Substantive programme remains112. | — |
 | UTP-EVT-2026101709 | 2026-10-17T04:08:14.754227+00:00 | Reviewed Huluhuli editorial revision: natural prose, Founder byline, visible numbered footnotes, responsive layout and preserved imagined-art provenance. Publication pending; substantive programme unchanged. | — |
 | UTP-EVT-2026101710 | 2026-10-17T04:17:58.371894+00:00 | Published Huluhuli editorial revision with Founder byline, visible footnotes and natural reading layout. Canonical KB, twenty returnable references and unchanged labelled illustration verified live. Next queued article: Boat Songs. Substantive programme remains 112. | — |
@@ -1117,6 +1117,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101714 | 2026-10-17T05:16:45.561386+00:00 | Published the Ahimanikya and Sashisena reference update with opening Founder byline and consolidated visible footnotes. Approved narrative, six Odia excerpts, photographs and archive credits preserved and verified live. Next queued article: Bhubaneswar. Substantive programme remains 112. | — |
 | UTP-EVT-2026101715 | 2026-10-17T07:56:05.438748+00:00 | Reviewed Bhubaneswar guide individually: Founder byline, clearer city reading, ten visible source notes including planning references, current official links, and preserved documentary images. Responsive checks and both test suites passed. Publication pending; substantive programme unchanged. | — |
 | UTP-EVT-2026101716 | 2026-10-17T08:03:53.258879+00:00 | Published the individually reviewed Bhubaneswar guide: Founder credit, clearer city reading, ten visible numbered notes including planning references, preserved photography and working current tourism links. Next queued article: Dhauli. Substantive programme remains 112. | — |
+| UTP-EVT-2026101717 | 2026-10-17T13:47:57.352220+00:00 | Reviewed Dhauli individually: Founder byline, readable narrative, visible numbered notes, current tourism links and preserved photographs. Publication pending; substantive programme unchanged. | — |
 
 ## Deferred extensions
 

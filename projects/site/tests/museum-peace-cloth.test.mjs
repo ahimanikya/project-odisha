@@ -23,6 +23,11 @@ test('three visitor stories preserve their identities and source context in port
  const book=buildTourBook(plan,catalog),text=buildTextItinerary(plan,catalog);
  for(const slug of ['kala-bhoomi','dhauli']){const r=details.find(x=>x.slug===slug);for(const s of r.sections)for(const p of [s.text,...(s.paragraphs||[])]){assert.ok(book.includes(escapeHTML(p)),p);assert.ok(text.includes(p));}}
  assert.ok(book.includes('accesstoinsight.org/lib/authors/dhammika/wheel386.html'));
+ const dhauli=catalog.find(x=>x.id==='place:dhauli');
+ assert.ok(dhauli.sources.some(s=>s.url==='https://odishatourism.gov.in/en/places/dhauli-shanti-stupa-dhauli-hills'));
+ assert.ok(dhauli.sources.every(s=>!s.url.includes('/content/tourism/')));
+ assert.ok(dhauli.sources.every(s=>Object.keys(s).sort().join(',')==='title,url'));
+ assert.ok(dhauli.summary.includes('what that promise can prove'));
  assert.ok(book.includes('not a promise that every stitch is hand-sewn'));
  for(const r of ['/destinations/bhubaneswar/','/things-to-do/'])assert.ok(read(r).includes('href="'+route+'"'));
  assert.ok(read('/crafts/pipili-applique/').includes('href="'+route+'"'));
