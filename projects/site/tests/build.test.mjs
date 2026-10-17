@@ -30,7 +30,7 @@ test('the preview exports only selected research and preserves citations and dra
   assert.deepEqual(notes.map(x=>x.slug),['chilika','konark','kotpad','pakhala','boita-bandana']);
   for(const note of notes){
     const html=read('knowledge/'+note.slug+'/index.html');
-    assert.match(html,note.slug==='kotpad'?/Specialist language and maker review remain open/:/Editorial draft/);
+    assert.match(html,note.slug==='konark'?/By Ahimanikya Satapathy/:note.slug==='kotpad'?/Specialist language and maker review remain open/:/Editorial draft/);
     assert.ok(note.text.length>40);
     for(const source of note.sources){assert.match(source.resource,/^https:\/\//);assert.ok(html.includes(source.resource.replaceAll('&','&amp;'))||html.includes(source.resource));}
   }

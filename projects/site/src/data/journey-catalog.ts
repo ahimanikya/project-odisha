@@ -1,3 +1,4 @@
+import konarkEditorial from '../../../../kb/research/destinations/konark-editorial.json';
 import maritime from '../../../../kb/research/stories/narratives/maritime-memory.json';
 import textiles from '../../../../kb/research/culture/textile-stories.json';
 import crafts from '../../../../kb/research/culture/craft-stories.json';
@@ -37,7 +38,7 @@ for(const r of regions.regions){
 }
 for(const [slug,pilot] of Object.entries(pilots)){
  const d=pilot.destination, note=notes.find(n=>n.slug===slug);
- const sourcePool=[...note.sources,...d.sources,...pilot.story.sources];
+ const sourcePool=slug==='konark'?konarkEditorial.sources.map(s=>({...s,resource:s.url})):[...note.sources,...d.sources,...pilot.story.sources];
  const sources=(ids)=>sourcePool.filter(s=>ids.includes(s.id)).map(s=>({title:s.title,url:s.resource}));
  entries.push({id:d.id,title:note.label,kind:'Place',area:note.label,summary:d.orientation,href:`/knowledge/${slug}/`,checked:d.checked_on,sources:sources(d.orientation_sources)});
  for(const [key,kind] of [['experiences','Experience'],['foods','Food'],['bases','Stay area']])for(const item of d[key])entries.push({id:item.id,title:item.title,kind,area:item.area||note.label,summary:item.text,href:item.detail_href||`/knowledge/${slug}/#${item.id.replaceAll(':','-')}`,checked:d.checked_on,sources:sources(item.sources)});
