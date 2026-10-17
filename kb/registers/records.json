@@ -8573,6 +8573,33 @@
         "records/mardala-source-mapping-2026-10-17.json",
         "records/mardala-depth-publication-2026-10-17.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-299",
+      "title": "Deepen Dalkhai song, occasion and stage context",
+      "category": "research_and_website",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Pass required checks, merge reviewed head and publish approved main; count only after live verification.",
+      "acceptance_criteria": [
+        "Explain how song, movement, instruments and ritual occasion relate in Dalkhai, and what changes when the form appears on stage. Recover the previously unread government cultural essay where possible; distinguish documented descriptions and origin stories, identify named contributors and concrete examples, retain local variation and source limits. Update KB and website together, with meaningful tests, responsive review, required PR checks, approved deployment and live receipt before counting."
+      ],
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-189",
+        "UTP-REV-267"
+      ],
+      "evidence": [
+        "records/autonomous-500-program.json",
+        "research/culture/dalkhai.md",
+        "research/sources/dalkhai-story-research.md",
+        "records/dalkhai-depth-review-2026-10-17.json",
+        "records/dalkhai-source-mapping-2026-10-17.json"
+      ]
     }
   ],
   "decisions": [
@@ -19630,6 +19657,31 @@
         "Named teaching and production records do not establish present course availability or current personnel.",
         "No audio audition, recording rights, lesson observation or field interview.",
         "Browser viewport checks are not physical-device or screen-reader tests."
+      ]
+    },
+    {
+      "id": "UTP-REV-267",
+      "title": "Dalkhai song, occasion and stage context review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-299",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/dalkhai-depth-review-2026-10-17.json"
+      ],
+      "limitations": [
+        "Same-assistant review; no independent human, practitioner or language review.",
+        "Journal text accessible, but direct PDF downloads and screenshot retrieval failed; no PDF visual inspection claimed.",
+        "2019 government essay certificate failure,2014 annual and CCRT timeouts retained as unread leads; security verification unchanged.",
+        "No origin date, universal movement pattern, current decline trend or UNESCO listing established.",
+        "No new playback, recording rights, field observation or interviews.",
+        "Browser viewport review is not physical-device or screen-reader testing."
       ]
     }
   ],
