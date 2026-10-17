@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `62d474699d3b7ccda45b634573bc2499ce0ea0cdf680352f7a556546052ec27f`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e8b6327d0df2ea232c2127f8708188eea434e7f53be7a434da430afac4f98923`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -322,7 +322,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-299 · Deepen Dalkhai song, occasion and stage context | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, song-language review and recovered source PDFs remain open for future research. | — |
 | UTP-WORK-300 · Deepen Pala literary performance, forms and repertoire | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/Odia review and manuscript evidence remain open for future research. | — |
 | UTP-WORK-301 · Deepen Dhemsa community, movement and occasion | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/language review and field evidence remain open for future research. | — |
-| UTP-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Continue UTP-EDIT-010 Puri coastal food, one article at a time. Publish each accepted revision promptly; preserve source detail in KB/website and keep downloads light. | — |
+| UTP-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Continue UTP-EDIT-011 Puri coastal stays, one article at a time. Publish each accepted revision promptly; preserve source detail in KB/website and keep downloads light. | — |
 
 ## Pending human review and decisions
 
@@ -1079,6 +1079,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-149 · Konark: credited reading and visible source notes | published | https://projectodisha.org/knowledge/konark/ | UTP-DEC-225 |
 | UTP-REL-150 · Puri: credited reading and visible source notes | published | https://projectodisha.org/destinations/puri/ | UTP-DEC-225 |
 | UTP-REL-151 · Raghurajpur: credited reading and visible source notes | published | https://projectodisha.org/visit/places/raghurajpur/ | UTP-DEC-225 |
+| UTP-REL-152 · Puri coastal food: credited reading and visible source notes | published | https://projectodisha.org/food/puri-coast/ | UTP-DEC-225 |
 
 ## Sources and assets
 
@@ -1116,7 +1117,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101716 | 2026-10-17T08:03:53.258879+00:00 | Published the individually reviewed Bhubaneswar guide: Founder credit, clearer city reading, ten visible numbered notes including planning references, preserved photography and working current tourism links. Next queued article: Dhauli. Substantive programme remains 112. | — |
 | UTP-EVT-2026101717 | 2026-10-17T13:47:57.352220+00:00 | Reviewed Dhauli individually: Founder byline, readable narrative, visible numbered notes, current tourism links and preserved photographs. Publication pending; substantive programme unchanged. | — |
 | UTP-EVT-2026101718 | 2026-10-17T16:18:40.458957+00:00 | Published the individually reviewed Dhauli guide: Founder credit, clearer historical reading, five visible numbered notes including planning references, preserved photography and working current tourism links. Next queued article: Konark. Substantive programme remains 112. | — |
 | UTP-EVT-2026101719 | 2026-10-17T17:28:03.705618+00:00 | Reviewed Konark individually: Founder byline, clearer surviving architecture and legend distinction, visible notes, current planning links and preserved photographs. Publication pending; substantive programme unchanged. | — |
@@ -1126,6 +1126,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101723 | 2026-10-17T18:45:03.580306+00:00 | Reviewed Raghurajpur individually: Founder byline, natural narrative, visible process and notebook notes, retained outside testimony and three documentary photographs. Publication pending; substantive programme unchanged. | — |
 | UTP-EVT-2026101724 | 2026-10-17T18:52:24.656269+00:00 | Published the individually reviewed Raghurajpur guide: Founder credit, natural craft and dance narrative, eight visible numbered notes including process and planning references, preserved photography and current tourism links. Next queued article: Puri coastal food. Substantive programme remains 112. | — |
 | UTP-EVT-2026101725 | 2026-10-17T19:42:29.111021+00:00 | Reviewed Puri coastal food individually: Founder credit, source-linked offering and ritual history, GI date, visible notes and retained documentary photograph. Publication pending; substantive programme unchanged. | — |
+| UTP-EVT-2026101726 | 2026-10-17T19:52:21.174996+00:00 | Published the individually reviewed Puri coastal food guide: Founder credit, natural reading layout, five visible numbered notes including folded notebook references, preserved photography and current tourism links. Next queued article: Puri coastal stays. Substantive programme remains 112. | — |
 
 ## Deferred extensions
 
