@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `962aeea8f5f68b47b8ace0d2bf4e6956eb6f98922b630c8d4fafcc31f9858c07`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `5d8064f25e76cfd71f6f6c98c69b5446373d70ecc23a77433924db2f43991c81`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 

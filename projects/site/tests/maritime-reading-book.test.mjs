@@ -14,13 +14,14 @@ test('saving maritime reading remains separate from museum visit and preserves e
  const reading=addItem(emptyJourney(),story.save_id);assert.equal(reading.items[0].day,0);assert.equal(item.kind,'Reading');assert.ok(isReadingCollection(reading,data.catalog));
  assert.ok(html.includes('data-save-journey="'+story.save_id+'"'));assert.ok(html.includes('data-save-journey="'+story.visit.save_id+'"'));
 });
-test('portable maritime book retains narrative, questions, source limits and photo credit',()=>{
+test('portable maritime book retains narrative, questions, concise source links and photo credit',()=>{
  const plan=addItem(emptyJourney(),story.save_id);plan.items[0].notes='PRIVATE_MARITIME_NOTE';
  const options={includePersonalNotes:false,illustrated:true,images:{[item.photo.src]:'data:image/png;base64,AAAA'}};
  const book=buildTourBook(plan,data.catalog,options),text=buildTextItinerary(plan,data.catalog,options);
  for(const chapter of story.chapters){for(const p of chapter.paragraphs){assert.ok(book.includes(p));assert.ok(text.includes(p));}assert.ok(book.includes(chapter.question));assert.ok(text.includes(chapter.question));}
- for(const source of story.sources){assert.ok(book.includes(escapeHTML(source.reader_note)));assert.ok(text.includes(source.reader_note));assert.ok(book.includes(source.url.replaceAll('&','&amp;')));assert.ok(text.includes(source.url));}
+ for(const source of story.sources){assert.ok(!book.includes(escapeHTML(source.reader_note)));assert.ok(!text.includes(source.reader_note));assert.ok(!book.includes(escapeHTML(source.note)));assert.ok(book.includes(escapeHTML(source.title)));assert.ok(book.includes(source.url.replaceAll('&','&amp;')));assert.ok(text.includes(source.url));}
  assert.ok(book.includes(item.photo.creator));assert.ok(book.includes(story.hero_caption));assert.ok(book.includes(item.photo.license_url));assert.ok(book.includes(story.editorial_note));
+ assert.ok(!book.includes('prepared with AI assistance'));assert.ok(book.includes('https://projectodisha.org/about/editorial-process/'));
  assert.ok(!book.includes('PRIVATE_MARITIME_NOTE'));assert.ok(!text.includes('PRIVATE_MARITIME_NOTE'));
  assert.ok(buildTourBook(plan,data.catalog,{includePersonalNotes:true}).includes('PRIVATE_MARITIME_NOTE'));
 });

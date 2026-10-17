@@ -26,6 +26,10 @@ Use small linked numbered markers after the relevant factual passage and a visib
 
 Name an author in the prose when identity is part of the meaning: quotations, distinctive arguments, disputed interpretations, reported testimony or a particular person's work. Put routine bibliographic detail and access limitations in footnotes. Preserve necessary uncertainty beside the claim; remove repetitive narration about researching, writing or not doing fieldwork. Keep exact source IDs and fuller inspection notes in the KB.
 
+## Downloadable reading
+
+Keep downloads focused on the narrative. A short source list with titles and links is enough; do not copy full website footnotes, inspection logs or research apparatus into the reading. Keep material uncertainty in the prose, photograph credits and reuse terms where needed, and a link to the website article for fuller notes. This follows the Founder’s explicit 17 October clarification.
+
 ## Human Natural language
 
 Write about the subject. Use concrete details, familiar words and active verbs, varying sentence and paragraph length to fit the thought. Prefer explanation over adjectives and specific examples over general praise. Retain the Founder's questions, cultural corrections and perspective. Read the whole page for flow, transitions and repetition.
@@ -42,7 +46,7 @@ Use the Human Natural Image skill when making or refining illustrations. Preserv
 
 The canonical work list is [article editorial rollout](../records/article-editorial-rollout.json). The [readable work list](../records/article-editorial-work-list.md) is generated from it. Resume one in-progress entry; otherwise select the next queued route. Inspect its actual source, KB, current rendering and any active worker before editing. Classify utility pages and duplicates explicitly; do not add bylines to navigation cards automatically. Shared component changes must identify and test every affected route; they do not make unreviewed routes complete.
 
-For each article: record scope and acceptance, review writing and evidence, apply layout/byline/footnotes, inspect images, update KB and site together, test meaningful behavior, inspect mobile and desktop, create a PR, wait for required checks, merge the reviewed head, publish through approved main workflow and verify the actual live page. Save a receipt before marking complete. If external evidence or another worker blocks an item, record the reason and continue an independent entry. Never overwrite their work.
+For each article: record scope and acceptance, review writing and evidence, apply layout/byline/footnotes, inspect images, update KB and site together, test meaningful behavior, inspect mobile and desktop, create a PR, wait for required checks, merge the reviewed head, publish through approved main workflow and verify the actual live page. Publish each finished article promptly after its checks pass; do not wait for the whole work list to finish. Save a receipt before marking complete. If external evidence or another worker blocks an item, record the reason and continue an independent entry. Never overwrite their work.
 
 Completion means every baseline route is individually revised or has a justified exclusion, additional discovered article routes are reconciled, and every completed article has publication evidence. No audit, formatting correction or attribution update counts toward the separate 500 substantive-item programme. Substantive new research requires its own programme acceptance and evidence.
 
