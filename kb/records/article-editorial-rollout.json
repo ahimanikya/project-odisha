@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-17T05:08:44.463662+00:00",
+  "updated_at": "2026-10-17T05:16:45.561386+00:00",
   "authorization": "UTP-DEC-2026101702",
   "work_id": "UTP-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -494,13 +494,22 @@
       "id": "UTP-EDIT-004",
       "route": "/stories/nimuhi-temple/",
       "title": "Ahimanikya and Sashisena at Nimuhi Temple",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "Preserve the approved reference narrative, six Odia excerpts, photographic comparisons and archive credits; place the Founder byline at the opening, remove duplicate source locators while retaining exact quote coordinates, and keep native numbered notes visible.",
       "source_template": "projects/site/src/pages/stories/nimuhi-temple.astro",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
         "records/nimuhi-editorial-review-2026-10-17.json",
-        "records/nimuhi-editorial-source-mapping-2026-10-17.json"
+        "records/nimuhi-editorial-source-mapping-2026-10-17.json",
+        "records/nimuhi-editorial-publication-2026-10-17.json"
       ],
       "blocker": null,
       "started_at": "2026-10-17T05:02:53.497104+00:00",
@@ -510,7 +519,9 @@
         "Twenty source notes and every citation/return target remain accessible; full original source apparatus retained in KB evidence.",
         "Both documentary photographs and two source scans retain bytes, credits and limits.",
         "Full/coastal tests, desktop and mobile visual review, exact-head PR merge, approved publication and live receipt."
-      ]
+      ],
+      "completed_at": "2026-10-17T05:16:45.561386+00:00",
+      "publication_receipt": "records/nimuhi-editorial-publication-2026-10-17.json"
     },
     {
       "id": "UTP-EDIT-005",
