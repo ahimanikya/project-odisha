@@ -1,21 +1,25 @@
 ---
-import StorySourceLinks from '../../components/StorySourceLinks.astro';
+import ArticleByline from '../../components/ArticleByline.astro';
+import ArticleFootnote from '../../components/ArticleFootnote.astro';
+import ArticleFootnotes from '../../components/ArticleFootnotes.astro';
+import '../../styles/article-reading.css';
 import Shell from '../../layouts/Shell.astro';
 import SoundReadingPaths from '../../components/SoundReadingPaths.astro';
 import ResearchContents from '../../components/ResearchContents.astro';
 import SoundsReadingTrail from '../../components/SoundsReadingTrail.astro';
 import story from '../../../../../kb/research/culture/huluhuli-website.json';
-const sections=story.blocks.map((block,index)=>({...block,id:block.title?`story-section-${index+1}`:undefined}));
-const contents=[...sections.filter(block=>block.title).map(block=>({title:block.title,href:'#'+block.id})),{title:'Sources & reading notes',href:'#story-sources'}];
+const sections=story.blocks.map((block,index)=>({...block,id:block.title?`story-section-${index+1}`:undefined,passage:`huluhuli-${index}`}));
+const passages=sections.flatMap(b=>b.paragraphs.map((_,i)=>({id:b.passage+'-'+i,source_ids:b.paragraph_source_ids[i]})));
+const contents=[...sections.filter(block=>block.title).map(block=>({title:block.title,href:'#'+block.id})),{title:'Footnotes & Sources',href:'#story-sources'}];
 ---
 <Shell title={story.title} description={story.lead} active="explore" wide related={false}>
-<article class="wrap huluhuli-story"><a class="text-link collection-return" href="/sounds-of-odisha/#huluhuli">← Sounds of Odisha</a>
-<header class="huluhuli-hero"><div><p class="eyebrow">Sounds of Odisha · ହୁଳହୁଳି</p><h1>Huluhuli.<br/><em>A voice of welcome.</em></h1><p class="lead">{story.lead}</p></div><figure><img src="/images/sounds/huluhuli-welcome-v2.webp" width="1536" height="1024" alt={story.photo.alt} fetchpriority="high"/><figcaption>{story.photo.caption}</figcaption></figure></header>
-<div class="huluhuli-reading"><ResearchContents items={contents} label="In this story"/>{sections.map(b=><section>{b.title&&<h2 id={b.id}>{b.title}</h2>}{b.items.length>0&&<ul>{b.items.map(p=><li>{p}</li>)}</ul>}{b.paragraphs.map(p=><p>{p}</p>)}<StorySourceLinks ids={b.source_ids} sources={story.sources}/></section>)}
-<p class="notice">A sourced reader story. Practitioner/language review remains open; no audio recording or current performance booking is provided.</p>
+<article class="article-reading huluhuli-story"><a class="text-link collection-return" href="/sounds-of-odisha/#huluhuli">← Sounds of Odisha</a>
+<header class="huluhuli-hero"><p class="eyebrow">Sounds of Odisha · ହୁଳହୁଳି</p><h1>Huluhuli.<br/><em>A voice of welcome.</em></h1><ArticleByline author={story.author} reviewedOn={story.reviewed_on}/><p class="lead">{story.lead}</p><figure><img src={story.photo.src} width={story.photo.width} height={story.photo.height} alt={story.photo.alt} fetchpriority="high"/><figcaption>{story.photo.caption}</figcaption></figure></header>
+<ResearchContents items={contents} label="In this story"/>
+{sections.map(b=><section class="narrative-section">{b.title&&<h2 id={b.id}>{b.title}</h2>}{b.paragraphs.map((p,i)=><p>{p}<ArticleFootnote ids={b.paragraph_source_ids[i]} sources={story.sources} passage={b.passage+'-'+i}/></p>)}</section>)}
 <p><a href="/literature/">Explore Odia literature →</a> · <a href="/sounds-of-odisha/#dhemsa">Meet Dhemsa →</a></p>
-<details id="story-sources" class="utk-disclosure huluhuli-credits"><summary>Sources, artwork &amp; reading notes</summary><p>{story.limits} Desk review: {story.reviewed_on}.</p><ol>{story.sources.map(s=><li id={"story-source-"+s.id} tabindex="-1"><a href={s.resource}>{s.title}</a> — {s.locator}</li>)}</ol><p>The 2022 festival description and 2015 competition account retain indexed-source limits. The personal cultural essay is attributed context; the comparative field report concerns Arabic zaghareet, not Odisha. Origin and literary-edition research remain open.</p><h3>Artwork</h3><p>{story.photo.provenance} {story.photo.changes}</p></details>
+<ArticleFootnotes sources={story.sources.map(s=>({id:s.id,title:s.title,url:s.resource,note:s.reader_note}))} passages={passages}><h3>Illustration</h3><p>{story.photo.reader_credit}</p></ArticleFootnotes>
 <SoundReadingPaths current="huluhuli"/>
-<p><a href="/contribute/?page=%2Fsounds-of-odisha%2Fhuluhuli%2F">Suggest a correction or a public source</a>. GitHub submissions are public; omit private contact details and consent documents.</p><SoundsReadingTrail slug="huluhuli"/></div>
+<p><a href="/contribute/?page=%2Fsounds-of-odisha%2Fhuluhuli%2F">Suggest a correction or a public source</a>. GitHub submissions are public; omit private contact details and consent documents.</p><SoundsReadingTrail slug="huluhuli"/>
 </article></Shell>
-<style>[id^="story-source-"]{scroll-margin-top:24px}[id^="story-source-"]:target{background:var(--paper,#f4ede1);outline:2px solid var(--earth);outline-offset:6px}.huluhuli-story{padding-bottom:70px}.collection-return{display:inline-block;margin:28px 0}.huluhuli-hero{display:grid;grid-template-columns:1fr 1.1fr;gap:clamp(28px,5vw,100px);align-items:center;margin:12px 0 52px}.huluhuli-hero h1{font-size:clamp(48px,5vw,84px);line-height:1.08}.huluhuli-hero h1 em{color:var(--sea)}.huluhuli-hero figure{margin:0}.huluhuli-hero img{width:100%;height:auto}.huluhuli-hero figcaption{font-size:13px;color:var(--muted);margin-top:10px}.huluhuli-reading{max-width:900px;margin:auto;font-size:19px;line-height:1.85}.huluhuli-reading section{margin-bottom:40px}.huluhuli-reading h2{font-size:clamp(30px,3vw,44px);line-height:1.2;margin:36px 0 18px}.huluhuli-reading li{margin:12px 0}.huluhuli-credits{font-size:16px;overflow-wrap:anywhere;margin:30px 0}.huluhuli-credits li{margin:10px 0}@media(max-width:760px){.huluhuli-hero{grid-template-columns:1fr;gap:24px;margin-bottom:30px}.huluhuli-hero h1{font-size:46px}.huluhuli-reading{font-size:17px}.huluhuli-reading section{margin-bottom:28px}}</style>
+<style>.collection-return{display:inline-block;margin:1rem 0 2rem}.huluhuli-hero em{color:var(--sea)}.huluhuli-hero .lead{font-size:1.25rem;line-height:1.7}.huluhuli-hero img{width:100%;height:auto}.narrative-section{margin-block:2.5rem}.narrative-section h2{scroll-margin-top:2rem}</style>
