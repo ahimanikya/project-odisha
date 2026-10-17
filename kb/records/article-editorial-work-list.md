@@ -10,12 +10,12 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 394. completed: 1, excluded: 1, in_progress: 1, queued: 391.
+Route inventory: 394. completed: 2, excluded: 1, queued: 391.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
 | UTP-EDIT-001 | [Boita: trade, craft and the crossing of a sea](https://projectodisha.org/stories/maritime-memory/) | completed | article |
-| UTP-EDIT-002 | [Huluhuli (ହୁଳହୁଳି): the sacred sound of Odisha](https://projectodisha.org/sounds-of-odisha/huluhuli/) | in_progress | Huluhuli: natural narrative, Founder byline, paragraph-level visible footnotes, reference reading layout; retain the corrected tongue illustration and all historical source limitations. |
+| UTP-EDIT-002 | [Huluhuli (ହୁଳହୁଳି): the sacred sound of Odisha](https://projectodisha.org/sounds-of-odisha/huluhuli/) | completed | Huluhuli: natural narrative, Founder byline, paragraph-level visible footnotes, reference reading layout; retain the corrected tongue illustration and all historical source limitations. |
 | UTP-EDIT-003 | [Boat songs of Odisha](https://projectodisha.org/stories/boat-songs/) | queued | classification_pending |
 | UTP-EDIT-004 | [Ahimanikya and Sashisena at Nimuhi Temple](https://projectodisha.org/stories/nimuhi-temple/) | queued | classification_pending |
 | UTP-EDIT-005 | [Bhubaneswar: places, food &amp; living culture](https://projectodisha.org/destinations/bhubaneswar/) | queued | classification_pending |

@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `bc0a653b056e5fa0fc981ccccbef0c042b48e08cd7d47c0d9af44905b793d315`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `a6f91c28073c30a3fa88ae4a2404ba47949956fdc4baab6ebb64338fab6334ac`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -322,7 +322,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-299 · Deepen Dalkhai song, occasion and stage context | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, song-language review and recovered source PDFs remain open for future research. | — |
 | UTP-WORK-300 · Deepen Pala literary performance, forms and repertoire | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/Odia review and manuscript evidence remain open for future research. | — |
 | UTP-WORK-301 · Deepen Dhemsa community, movement and occasion | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/language review and field evidence remain open for future research. | — |
-| UTP-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Continue UTP-EDIT-002 Huluhuli, then Boat Songs, one article at a time. Publish each accepted revision promptly; preserve source detail in KB/website and keep downloads light. | — |
+| UTP-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Continue UTP-EDIT-003 Boat Songs, one article at a time. Publish each accepted revision promptly; preserve source detail in KB/website and keep downloads light. | — |
 
 ## Pending human review and decisions
 
@@ -1063,6 +1063,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-141 · Pala literary performance, forms and repertoire | published | https://projectodisha.org/sounds-of-odisha/pala/ | UTP-DEC-225 |
 | UTP-REL-142 · Dhemsa community, movement and occasion | published | https://projectodisha.org/sounds-of-odisha/dhemsa/ | UTP-DEC-225 |
 | UTP-REL-143 · First article editorial revision: Boita and shared process page | published | https://projectodisha.org/stories/maritime-memory/ | UTP-DEC-225 |
+| UTP-REL-144 · Huluhuli editorial revision: byline, natural reading and visible footnotes | published | https://projectodisha.org/sounds-of-odisha/huluhuli/ | UTP-DEC-225 |
 
 ## Sources and assets
 
@@ -1100,7 +1101,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101614 | 2026-10-17T00:07:56.156635+00:00 | Published Mardala substantive revision explaining spoken rhythm, cycle and tempo, teaching and named creative roles. Item109 counted after live receipt; total109. Historical origins, practitioner review and detailed stroke technique remain open. | — |
 | UTP-EVT-2026101701 | 2026-10-17T01:04:14.618124+00:00 | Reviewed Dalkhai revision with named song, learning and livelihood accounts. Historical origin, source recovery and practitioner review remain open; publication pending and count109. | — |
 | UTP-EVT-2026101702 | 2026-10-17T01:13:17.252145+00:00 | Published Dalkhai substantive revision with named song reconstruction, school-learning and livelihood accounts. Item110 counted after live receipt; total110. Historical origins, local variation and practitioner/language review remain open. | — |
 | UTP-EVT-2026101703 | 2026-10-17T02:02:36.629720+00:00 | Reviewed Pala literary-performance revision with original research, concrete parody and prop examples, named repertoire and source limits. Publication pending; count110. | — |
@@ -1110,6 +1110,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101707 | 2026-10-17T03:45:32.450587+00:00 | Created sequential editorial work list and recurring continuation; reviewed first maritime article, visible footnotes, byline, responsive layout and shared process page. Publication pending; no item counted complete. | — |
 | UTP-EVT-2026101708 | 2026-10-17T03:58:06.552210+00:00 | Published the first article revision and process-page foundation. Work list records Boita complete after live receipt; next is Huluhuli. Lightweight downloads and incremental publication follow Founder clarifications. Substantive programme remains112. | — |
 | UTP-EVT-2026101709 | 2026-10-17T04:08:14.754227+00:00 | Reviewed Huluhuli editorial revision: natural prose, Founder byline, visible numbered footnotes, responsive layout and preserved imagined-art provenance. Publication pending; substantive programme unchanged. | — |
+| UTP-EVT-2026101710 | 2026-10-17T04:17:58.371894+00:00 | Published Huluhuli editorial revision with Founder byline, visible footnotes and natural reading layout. Canonical KB, twenty returnable references and unchanged labelled illustration verified live. Next queued article: Boat Songs. Substantive programme remains 112. | — |
 
 ## Deferred extensions
 
