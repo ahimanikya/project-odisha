@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 394. completed: 10, excluded: 1, in_progress: 1, queued: 382.
+Route inventory: 394. completed: 11, excluded: 1, queued: 382.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -24,7 +24,7 @@ Route inventory: 394. completed: 10, excluded: 1, in_progress: 1, queued: 382.
 | UTP-EDIT-008 | [Puri: places, food &amp; living culture](https://projectodisha.org/destinations/puri/) | completed | Puri destination article and notebook: individually reviewed Founder byline, natural prose, visible claim-linked notes and reference reading layout; retain photographs and rights. Acceptance: source review, full/coastal tests, responsive and note-return checks, merged PR, approved deployment and live receipt. No substantive programme count. |
 | UTP-EDIT-009 | [Raghurajpur · Painting, craft &amp; a village visit](https://projectodisha.org/visit/places/raghurajpur/) | completed | Individual Raghurajpur visitor article, notebook, three documentary images and source notes; preserve other detail routes and contributor provenance. |
 | UTP-EDIT-010 | [A table by the coast](https://projectodisha.org/food/puri-coast/) | completed | Puri coastal food article and notebook; Founder byline, natural prose, individually mapped visible footnotes, existing photograph and concise portable references. |
-| UTP-EDIT-011 | [Puri, Konark or the coast?](https://projectodisha.org/visit/stays/puri-coast/) | in_progress | Puri coastal stay-area comparison and notebook: individually reviewed Founder byline, natural decision guidance, visible geographic source notes and existing documentary photograph. |
+| UTP-EDIT-011 | [Puri, Konark or the coast?](https://projectodisha.org/visit/stays/puri-coast/) | completed | Puri coastal stay-area comparison and notebook: individually reviewed Founder byline, natural decision guidance, visible geographic source notes and existing documentary photograph. |
 | UTP-EDIT-012 | [Project Odisha · Discover Odisha. Imagine the possibilities.](https://projectodisha.org/) | queued | classification_pending |
 | UTP-EDIT-013 | [/404.html](https://projectodisha.org/404.html) | queued | classification_pending |
 | UTP-EDIT-014 | [Explore the collection](https://projectodisha.org/explore/) | queued | classification_pending |
