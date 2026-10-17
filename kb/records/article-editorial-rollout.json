@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-17T17:57:58.516023+00:00",
+  "updated_at": "2026-10-17T18:45:03.580306+00:00",
   "authorization": "UTP-DEC-2026101702",
   "work_id": "UTP-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -642,12 +642,21 @@
       "id": "UTP-EDIT-009",
       "route": "/visit/places/raghurajpur/",
       "title": "Raghurajpur · Painting, craft &amp; a village visit",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
+      "status": "in_progress",
+      "scope": "Individual Raghurajpur visitor article, notebook, three documentary images and source notes; preserve other detail routes and contributor provenance.",
+      "source_template": "projects/site/src/pages/visit/[kind]/[slug].astro",
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/raghurajpur-editorial-review-2026-10-18.json",
+        "records/raghurajpur-editorial-source-mapping-2026-10-18.json"
+      ],
+      "blocker": null,
+      "acceptance": [
+        "Natural narrative with Founder byline, visible numbered sources and exact returns, including process steps and notebook.",
+        "Actual source and image review; preserve outside testimony and image rights.",
+        "Full/coastal tests, desktop/mobile review, reviewed PR, approved deployment and live receipt."
+      ],
+      "started_at": "2026-10-17T18:38:48.624496+00:00"
     },
     {
       "id": "UTP-EDIT-010",
