@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `14a59a0cdc02c280a1958a2df321dd088a320a9fdbd28584ae78ef9a5ba61c83`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `36d83b38baff6eaebacb144c0efd28b0bf855c5d1ef42426c2b1de55c76ec317`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -322,7 +322,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-299 · Deepen Dalkhai song, occasion and stage context | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, song-language review and recovered source PDFs remain open for future research. | — |
 | UTP-WORK-300 · Deepen Pala literary performance, forms and repertoire | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/Odia review and manuscript evidence remain open for future research. | — |
 | UTP-WORK-301 · Deepen Dhemsa community, movement and occasion | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/language review and field evidence remain open for future research. | — |
-| UTP-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Continue UTP-EDIT-005 Bhubaneswar, one article at a time. Publish each accepted revision promptly; preserve source detail in KB/website and keep downloads light. | — |
+| UTP-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Continue UTP-EDIT-006 Dhauli, one article at a time. Publish each accepted revision promptly; preserve source detail in KB/website and keep downloads light. | — |
 
 ## Pending human review and decisions
 
@@ -1069,6 +1069,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-144 · Huluhuli editorial revision: byline, natural reading and visible footnotes | published | https://projectodisha.org/sounds-of-odisha/huluhuli/ | UTP-DEC-225 |
 | UTP-REL-145 · Boat Songs editorial revision: byline, natural reading and visible footnotes | published | https://projectodisha.org/stories/boat-songs/ | UTP-DEC-225 |
 | UTP-REL-146 · Ahimanikya and Sashisena reference: opening byline and source notes | published | https://projectodisha.org/stories/nimuhi-temple/ | UTP-DEC-225 |
+| UTP-REL-147 · Bhubaneswar: credited reading and visible source notes | published | https://projectodisha.org/destinations/bhubaneswar/ | UTP-DEC-225 |
 
 ## Sources and assets
 
@@ -1106,7 +1107,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101706 | 2026-10-17T03:11:28.335927+00:00 | Published Dhemsa substantive revision with named encounter, movement, musical roles and occasion distinctions. Item112 counted after live receipt; total112. Historical origins, local variation and practitioner/language review remain open. | — |
 | UTP-EVT-2026101707 | 2026-10-17T03:45:32.450587+00:00 | Created sequential editorial work list and recurring continuation; reviewed first maritime article, visible footnotes, byline, responsive layout and shared process page. Publication pending; no item counted complete. | — |
 | UTP-EVT-2026101708 | 2026-10-17T03:58:06.552210+00:00 | Published the first article revision and process-page foundation. Work list records Boita complete after live receipt; next is Huluhuli. Lightweight downloads and incremental publication follow Founder clarifications. Substantive programme remains112. | — |
 | UTP-EVT-2026101709 | 2026-10-17T04:08:14.754227+00:00 | Reviewed Huluhuli editorial revision: natural prose, Founder byline, visible numbered footnotes, responsive layout and preserved imagined-art provenance. Publication pending; substantive programme unchanged. | — |
@@ -1116,6 +1116,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101713 | 2026-10-17T05:08:44.463662+00:00 | Reviewed the Ahimanikya and Sashisena reference article: opening Founder byline, visible native source notes and consolidated locators. Approved narrative, six Odia excerpts, images and archive credits preserved. Publication pending; substantive programme unchanged. | — |
 | UTP-EVT-2026101714 | 2026-10-17T05:16:45.561386+00:00 | Published the Ahimanikya and Sashisena reference update with opening Founder byline and consolidated visible footnotes. Approved narrative, six Odia excerpts, photographs and archive credits preserved and verified live. Next queued article: Bhubaneswar. Substantive programme remains 112. | — |
 | UTP-EVT-2026101715 | 2026-10-17T07:56:05.438748+00:00 | Reviewed Bhubaneswar guide individually: Founder byline, clearer city reading, ten visible source notes including planning references, current official links, and preserved documentary images. Responsive checks and both test suites passed. Publication pending; substantive programme unchanged. | — |
+| UTP-EVT-2026101716 | 2026-10-17T08:03:53.258879+00:00 | Published the individually reviewed Bhubaneswar guide: Founder credit, clearer city reading, ten visible numbered notes including planning references, preserved photography and working current tourism links. Next queued article: Dhauli. Substantive programme remains 112. | — |
 
 ## Deferred extensions
 

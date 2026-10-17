@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-17T07:56:05.438748+00:00",
+  "updated_at": "2026-10-17T08:03:53.258879+00:00",
   "authorization": "UTP-DEC-2026101702",
   "work_id": "UTP-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -527,13 +527,22 @@
       "id": "UTP-EDIT-005",
       "route": "/destinations/bhubaneswar/",
       "title": "Bhubaneswar: places, food &amp; living culture",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "Destination guide with authored opening and practical reading, not a utility-only index. Add Founder credit, individually mapped visible source notes, natural prose and readable text sections while retaining useful picture cards, journey controls, archival dates and media credits. Includes the route’s practical notebook and its source disclosure; other notebook routes retain their existing presentation.",
       "source_template": "projects/site/src/components/RegionMagazine.astro",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
         "records/bhubaneswar-editorial-review-2026-10-17.json",
-        "records/bhubaneswar-editorial-source-mapping-2026-10-17.json"
+        "records/bhubaneswar-editorial-source-mapping-2026-10-17.json",
+        "records/bhubaneswar-editorial-publication-2026-10-17.json"
       ],
       "blocker": null,
       "started_at": "2026-10-17T06:05:06.357070+00:00",
@@ -543,7 +552,9 @@
         "Canonical KB copy and sources match both editions; broken legacy tourism URLs are replaced in this guide with inspected official successors where available.",
         "Five existing photographs reviewed and retained with creator, licence and date information.",
         "Tests, desktop/mobile review, passing PR, approved deployment and live receipt precede completion."
-      ]
+      ],
+      "completed_at": "2026-10-17T08:03:53.258879+00:00",
+      "publication_receipt": "records/bhubaneswar-editorial-publication-2026-10-17.json"
     },
     {
       "id": "UTP-EDIT-006",

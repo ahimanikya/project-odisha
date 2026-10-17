@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 394. completed: 4, excluded: 1, in_progress: 1, queued: 388.
+Route inventory: 394. completed: 5, excluded: 1, queued: 388.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -18,7 +18,7 @@ Route inventory: 394. completed: 4, excluded: 1, in_progress: 1, queued: 388.
 | UTP-EDIT-002 | [Huluhuli (ହୁଳହୁଳି): the sacred sound of Odisha](https://projectodisha.org/sounds-of-odisha/huluhuli/) | completed | Huluhuli: natural narrative, Founder byline, paragraph-level visible footnotes, reference reading layout; retain the corrected tongue illustration and all historical source limitations. |
 | UTP-EDIT-003 | [Boat songs of Odisha](https://projectodisha.org/stories/boat-songs/) | completed | Boat Songs: natural reading rhythm, Founder byline and visible passage footnotes; preserve named maker credits and distinctions between occupational song, ceremony, imagery and modern adaptation. |
 | UTP-EDIT-004 | [Ahimanikya and Sashisena at Nimuhi Temple](https://projectodisha.org/stories/nimuhi-temple/) | completed | Preserve the approved reference narrative, six Odia excerpts, photographic comparisons and archive credits; place the Founder byline at the opening, remove duplicate source locators while retaining exact quote coordinates, and keep native numbered notes visible. |
-| UTP-EDIT-005 | [Bhubaneswar: places, food &amp; living culture](https://projectodisha.org/destinations/bhubaneswar/) | in_progress | Destination guide with authored opening and practical reading, not a utility-only index. Add Founder credit, individually mapped visible source notes, natural prose and readable text sections while retaining useful picture cards, journey controls, archival dates and media credits. Includes the route’s practical notebook and its source disclosure; other notebook routes retain their existing presentation. |
+| UTP-EDIT-005 | [Bhubaneswar: places, food &amp; living culture](https://projectodisha.org/destinations/bhubaneswar/) | completed | Destination guide with authored opening and practical reading, not a utility-only index. Add Founder credit, individually mapped visible source notes, natural prose and readable text sections while retaining useful picture cards, journey controls, archival dates and media credits. Includes the route’s practical notebook and its source disclosure; other notebook routes retain their existing presentation. |
 | UTP-EDIT-006 | [Dhauli · Shanti Stupa &amp; rock edicts](https://projectodisha.org/visit/places/dhauli/) | queued | classification_pending |
 | UTP-EDIT-007 | [Konark Sun Temple](https://projectodisha.org/knowledge/konark/) | queued | classification_pending |
 | UTP-EDIT-008 | [Puri: places, food &amp; living culture](https://projectodisha.org/destinations/puri/) | queued | classification_pending |
