@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `d4dae733243a9ee96af6ea92797dbdb00668f06f2d61f16e392d17bf78bd5f41`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `f5563ed51dbc22bb5a15a774430c4191c9f864c7e860c07328bb908f639ef58e`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -199,7 +199,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
-| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue substantive research and revision under Founder editorial priority; 111 of 500 evidenced items completed. Resume in-progress work first; deepen Sounds of Odisha before routine polish. | — |
+| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue substantive research and revision under Founder editorial priority; 112 of 500 evidenced items completed. Resume in-progress work first; deepen Sounds of Odisha before routine polish. | — |
 | UTP-WORK-190 · Food discovery, portable reading collection and current review-queue repair | completed | published | Ahimanikya Satapathy | Published and live-verified. Continue through the program queue under DEC225. | — |
 | UTP-WORK-191 · Build the tourism opportunities information section | completed | reviewed | Ahimanikya Satapathy | Published information scope complete. Continue WORK166 and WORK171 only when new documentary or operating evidence is available. | — |
 | UTP-WORK-192 · Align saved food cards with canonical story introductions | completed | reviewed | Ahimanikya Satapathy | Repair published and live catalogue verified; preserve canonical food fields when future stories change. | — |
@@ -321,7 +321,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-298 · Explain Mardala rhythm, learning and creative practice | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, practitioner review, detailed stroke technique and local learning accounts remain open for future research. | — |
 | UTP-WORK-299 · Deepen Dalkhai song, occasion and stage context | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, song-language review and recovered source PDFs remain open for future research. | — |
 | UTP-WORK-300 · Deepen Pala literary performance, forms and repertoire | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/Odia review and manuscript evidence remain open for future research. | — |
-| UTP-WORK-301 · Deepen Dhemsa community, movement and occasion | in_progress | reviewed | Ahimanikya Satapathy | Pass required checks, merge reviewed head and publish approved main; count after actual live verification. | — |
+| UTP-WORK-301 · Deepen Dhemsa community, movement and occasion | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/language review and field evidence remain open for future research. | — |
 
 ## Pending human review and decisions
 
@@ -1057,6 +1057,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-139 · Mardala rhythm, learning and creative practice | published | https://projectodisha.org/sounds-of-odisha/mardala/ | UTP-DEC-225 |
 | UTP-REL-140 · Dalkhai song, occasion and stage context | published | https://projectodisha.org/sounds-of-odisha/dalkhai/ | UTP-DEC-225 |
 | UTP-REL-141 · Pala literary performance, forms and repertoire | published | https://projectodisha.org/sounds-of-odisha/pala/ | UTP-DEC-225 |
+| UTP-REL-142 · Dhemsa community, movement and occasion | published | https://projectodisha.org/sounds-of-odisha/dhemsa/ | UTP-DEC-225 |
 
 ## Sources and assets
 
@@ -1094,7 +1095,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101610 | 2026-10-16T22:16:03.442860+00:00 | Published Huluhuli substantive revision explaining tongue technique, dictionary vocabulary and learning context. Item107 counted after live receipt; total107. Exact origins, literary edition and local practitioner accounts remain unresolved. | — |
 | UTP-EVT-2026101611 | 2026-10-16T23:00:10.701423+00:00 | Reviewed substantive Sankha revision explaining construction/acoustics and named Ganjam institution and artists. Local technique and origins remain open; publication pending and count107. | — |
 | UTP-EVT-2026101612 | 2026-10-16T23:08:22.707827+00:00 | Published Sankha substantive revision explaining shell construction, acoustic interaction and named Ganjam practice. Item108 counted after live receipt; total108. Historical origins, local shell preparation and current troupe history remain unresolved. | — |
 | UTP-EVT-2026101613 | 2026-10-16T23:59:56.178173+00:00 | Reviewed substantive Mardala revision explaining spoken rhythm, cycles, learning and creative roles. Practitioner and historical review remain open; publication pending and count108. | — |
@@ -1104,6 +1104,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101703 | 2026-10-17T02:02:36.629720+00:00 | Reviewed Pala literary-performance revision with original research, concrete parody and prop examples, named repertoire and source limits. Publication pending; count110. | — |
 | UTP-EVT-2026101704 | 2026-10-17T02:12:46.104958+00:00 | Published Pala substantive revision with literary parody, prop meanings, performance forms and named repertoire. Item111 counted after live receipt; total111. Historical origins, local variation and practitioner/language review remain open. | — |
 | UTP-EVT-2026101705 | 2026-10-17T03:03:56.620232+00:00 | Reviewed Dhemsa revision with named encounter, movement, music and occasion distinctions; source access limits explicit. Publication pending; count111. | — |
+| UTP-EVT-2026101706 | 2026-10-17T03:11:28.335927+00:00 | Published Dhemsa substantive revision with named encounter, movement, musical roles and occasion distinctions. Item112 counted after live receipt; total112. Historical origins, local variation and practitioner/language review remain open. | — |
 
 ## Deferred extensions
 
