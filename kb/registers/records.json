@@ -8602,6 +8602,31 @@
         "records/dalkhai-source-mapping-2026-10-17.json",
         "records/dalkhai-depth-publication-2026-10-17.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-300",
+      "title": "Deepen Pala literary performance, forms and repertoire",
+      "category": "research_and_website",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Pass required checks, merge reviewed head and publish approved main; count only after live verification.",
+      "acceptance_criteria": [
+        "Explain how Pala turns literature into a shared performance, with named repertoire and documented performer roles/forms. Inspect original source material; distinguish origin narratives from dated evidence and festival reports from universal practice. Update KB and public article with claim mapping, meaningful tests, responsive review, passing PR checks, approved deployment and live receipt before counting."
+      ],
+      "blockers": [],
+      "refs": [
+        "UTP-WORK-189",
+        "UTP-DEC-225",
+        "UTP-REV-268"
+      ],
+      "evidence": [
+        "records/autonomous-500-program.json",
+        "records/pala-depth-review-2026-10-17.json",
+        "records/pala-source-mapping-2026-10-17.json"
+      ]
     }
   ],
   "decisions": [
@@ -19684,6 +19709,31 @@
         "No origin date, universal movement pattern, current decline trend or UNESCO listing established.",
         "No new playback, recording rights, field observation or interviews.",
         "Browser viewport review is not physical-device or screen-reader testing."
+      ]
+    },
+    {
+      "id": "UTP-REV-268",
+      "title": "Pala literary performance and repertoire review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-300",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/pala-depth-review-2026-10-17.json"
+      ],
+      "limitations": [
+        "Same-assistant review, not independent human or practitioner review.",
+        "No founding date established; underlying manuscripts and named literary editions not independently inspected.",
+        "Patra2017 troupe-count and award-body inconsistencies excluded; broader historical chronology is not adopted.",
+        "Dash2011 PDF secure retrieval still fails; no certificate validation bypass.",
+        "No new audio, fieldwork, interviews, booking or recording rights.",
+        "Browser viewport checks are not physical-device or screen-reader testing."
       ]
     }
   ],

@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `bf2ba935ef3461699f47b245c1078831ea360f521b8b35ebe69e196faa59585c`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `7966386d0afeed3516c946735efa3a3ce2a5f3b3c4ca9c3c6c14ef389391885a`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -320,6 +320,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-297 · Explain Sankha construction, acoustics and named performance practice | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Local shell preparation, breath technique, troupe history and exact origins remain open for future research. | — |
 | UTP-WORK-298 · Explain Mardala rhythm, learning and creative practice | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, practitioner review, detailed stroke technique and local learning accounts remain open for future research. | — |
 | UTP-WORK-299 · Deepen Dalkhai song, occasion and stage context | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, song-language review and recovered source PDFs remain open for future research. | — |
+| UTP-WORK-300 · Deepen Pala literary performance, forms and repertoire | in_progress | reviewed | Ahimanikya Satapathy | Pass required checks, merge reviewed head and publish approved main; count only after live verification. | — |
 
 ## Pending human review and decisions
 
@@ -898,6 +899,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-265 | pass_with_limitations | False | Same-assistant review; no independent human, practitioner or language review.; Comparative physics does not establish local shell species, construction dimensions, breath techniques, frequency or historical origin.; Institutional records retain their dates and do not establish present troupe membership or availability.; Transcript read but no audio audition, recording rights or field observation.; Browser viewport checks are not physical-device or screen-reader tests. |
 | UTP-REV-266 | pass_with_limitations | False | Same-assistant review; no independent human, practitioner or language review.; Published curricula do not establish historical origins, universal pedagogy or complete technique.; Named teaching and production records do not establish present course availability or current personnel.; No audio audition, recording rights, lesson observation or field interview.; Browser viewport checks are not physical-device or screen-reader tests. |
 | UTP-REV-267 | pass_with_limitations | False | Same-assistant review; no independent human, practitioner or language review.; Journal text accessible, but direct PDF downloads and screenshot retrieval failed; no PDF visual inspection claimed.; 2019 government essay certificate failure,2014 annual and CCRT timeouts retained as unread leads; security verification unchanged.; No origin date, universal movement pattern, current decline trend or UNESCO listing established.; No new playback, recording rights, field observation or interviews.; Browser viewport review is not physical-device or screen-reader testing. |
+| UTP-REV-268 | pass_with_limitations | False | Same-assistant review, not independent human or practitioner review.; No founding date established; underlying manuscripts and named literary editions not independently inspected.; Patra2017 troupe-count and award-body inconsistencies excluded; broader historical chronology is not adopted.; Dash2011 PDF secure retrieval still fails; no certificate validation bypass.; No new audio, fieldwork, interviews, booking or recording rights.; Browser viewport checks are not physical-device or screen-reader testing. |
 
 ## Publication and application history
 
@@ -1089,7 +1091,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-20261015104 | 2026-10-15T14:55:15.291497+00:00 | Verified aligned desktop controls, single-row stars and consistent responsive spacing live. | — |
 | UTP-EVT-20261017101 | 2026-10-16T22:02:09.225244+00:00 | Prepared two approved Pattachitra border options with voting and backward-compatible response storage. | — |
 | UTP-EVT-2026101609 | 2026-10-16T22:02:03.410830+00:00 | Reviewed Huluhuli revision using original dictionary page and comparative field report; technique, regional word meanings, historical limits and learning explained. Publication pending; count remains106. | — |
 | UTP-EVT-2026101610 | 2026-10-16T22:16:03.442860+00:00 | Published Huluhuli substantive revision explaining tongue technique, dictionary vocabulary and learning context. Item107 counted after live receipt; total107. Exact origins, literary edition and local practitioner accounts remain unresolved. | — |
@@ -1099,6 +1100,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101614 | 2026-10-17T00:07:56.156635+00:00 | Published Mardala substantive revision explaining spoken rhythm, cycle and tempo, teaching and named creative roles. Item109 counted after live receipt; total109. Historical origins, practitioner review and detailed stroke technique remain open. | — |
 | UTP-EVT-2026101701 | 2026-10-17T01:04:14.618124+00:00 | Reviewed Dalkhai revision with named song, learning and livelihood accounts. Historical origin, source recovery and practitioner review remain open; publication pending and count109. | — |
 | UTP-EVT-2026101702 | 2026-10-17T01:13:17.252145+00:00 | Published Dalkhai substantive revision with named song reconstruction, school-learning and livelihood accounts. Item110 counted after live receipt; total110. Historical origins, local variation and practitioner/language review remain open. | — |
+| UTP-EVT-2026101703 | 2026-10-17T02:02:36.629720+00:00 | Reviewed Pala literary-performance revision with original research, concrete parody and prop examples, named repertoire and source limits. Publication pending; count110. | — |
 
 ## Deferred extensions
 
