@@ -1,0 +1,6 @@
+---
+interface Props {author:string; reviewedOn?:string}
+const {author,reviewedOn}=Astro.props;
+---
+<p class="article-byline">By {author}{reviewedOn&&<> <span>· Last reviewed <time datetime={reviewedOn}>{new Date(reviewedOn+'T00:00:00Z').toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'})}</time></span></>}</p>
+<style>.article-byline{font:normal .95rem/1.65 system-ui,sans-serif;color:var(--muted);margin:1.25rem 0 2rem}.article-byline span{display:inline}</style>

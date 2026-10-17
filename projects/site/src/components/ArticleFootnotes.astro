@@ -1,0 +1,5 @@
+---
+interface Props {sources:{id:string;title:string;url:string;note:string}[]; passages:{id:string;source_ids:string[]}[]}
+const {sources,passages}=Astro.props;
+---
+<section id="story-sources" class="article-footnotes" aria-labelledby="footnote-title"><h2 id="footnote-title">Footnotes &amp; Sources</h2><ol>{sources.map((s,index)=><li id={'note-'+s.id} tabindex="-1"><a href={s.url}>{s.title}</a>. {s.note} <span class="footnote-returns">{passages.filter(p=>p.source_ids.includes(s.id)).map((p,i)=><a href={`#ref-${p.id}-${s.id}`} data-footnote-backref aria-label={`Return to passage ${i+1} for footnote ${index+1}`}>↩{i>0?i+1:''}</a>)}</span></li>)}</ol><slot/></section>

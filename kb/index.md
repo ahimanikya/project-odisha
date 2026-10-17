@@ -25,6 +25,8 @@ This directory contains the organizational and working model, roles, work record
 - [Technical architecture](research/technology/index.md)
 - [Project evolution](history/LEDGER.md)
 
+- [Current article editorial standard](reference/article-editorial-standard.md) and [sequential work list](records/article-editorial-work-list.md).
+
 ## Current delivery and open work
 
 Use these maintained records to resume work. The dated links further down this page preserve the project's evolution; an old “pending” or “disabled” note describes that snapshot, not necessarily the current state.

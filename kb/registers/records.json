@@ -8656,6 +8656,29 @@
         "records/dhemsa-source-mapping-2026-10-17.json",
         "records/dhemsa-depth-publication-2026-10-17.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-302",
+      "title": "Align all articles with Founder authorship and Human Natural editorial standard",
+      "category": "website_and_knowledge",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-2026101702",
+      "next_action": "Publish editorial-process foundation and first maritime article revision; then continue one queued route at a time. Formatting changes do not count toward500.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-2026101702",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "reference/article-editorial-standard.md",
+        "records/article-editorial-rollout.json"
+      ],
+      "acceptance_criteria": [
+        "Every published baseline route classified; each article independently reviewed against approved standard with PR/test/deploy/live receipt; exclusions justified; future articles follow same rule."
+      ]
     }
   ],
   "decisions": [
@@ -13452,6 +13475,34 @@
       "evidence": [
         "records/jhula-pattachitra-review-2026-10-17.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-2026101702",
+      "title": "Apply Founder authorship and Human Natural article standard sequentially",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Let's create a work list and do one at a time and keep doing till we are done. Do this in a loop.",
+      "scope": "Applies the preceding agreed article authorship, visible footnotes, Ahimanikya and Sashisena reference formatting, Human Natural language and illustration direction to existing and future articles; updates existing heartbeat, preserves contributor credit and historical evidence. Publishing remains under UTP-DEC-225.",
+      "recorded_at": "2026-10-17T03:38:12.459503+00:00",
+      "refs": [
+        "UTP-WORK-302",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "reference/article-editorial-standard.md",
+        "records/article-editorial-rollout.json"
+      ],
+      "clarification": {
+        "quote": "Downloadable reading does not have to have all source details. In my opinion.",
+        "application": "Keep titles and source links in downloads; fuller footnotes on website and inspection details in KB."
+      },
+      "publication_cadence": {
+        "quote": "Keep updating the website from time to time. Instead of waiting till everything is done and then updating.",
+        "application": "Publish each accepted article revision as it finishes, with checks and receipt; no whole-queue release gate."
+      }
     }
   ],
   "requirements": [
@@ -19787,6 +19838,31 @@
         "Origin accounts and present changes are not a dated historical sequence or representative statewide survey.",
         "No fieldwork, interviews, playback, new media, permissions or current booking.",
         "Responsive browser checks are not physical-device or screen-reader testing."
+      ]
+    },
+    {
+      "id": "UTP-REV-270",
+      "title": "Founder authorship, reference formatting and maritime first-article review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-302",
+        "UTP-DEC-2026101702",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/article-editorial-first-review-2026-10-17.json"
+      ],
+      "limitations": [
+        "Same-assistant review, not independent human or specialist review.",
+        "This is an editorial presentation revision using the existing reviewed research, not a new historical research investigation. Existing substantive uncertainties remain in the narrative.",
+        "Responsive browser checks are not physical-device or screen-reader testing.",
+        "Remaining routes require individual classification and article review; no bulk claim of completion.",
+        "No substantive 500-item count increment for formatting or policy work."
       ]
     }
   ],
