@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 394. completed: 11, excluded: 5, in_progress: 1, queued: 377.
+Route inventory: 394. completed: 12, excluded: 5, queued: 377.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -29,7 +29,7 @@ Route inventory: 394. completed: 11, excluded: 5, in_progress: 1, queued: 377.
 | UTP-EDIT-013 | [/404.html](https://projectodisha.org/404.html) | excluded | error_recovery_utility |
 | UTP-EDIT-014 | [Explore the collection](https://projectodisha.org/explore/) | excluded | search_collection_utility |
 | UTP-EDIT-015 | [My Odisha Journey](https://projectodisha.org/journey/) | excluded | personal_planning_utility |
-| UTP-EDIT-016 | [Journey starters](https://projectodisha.org/journey-starters/) | in_progress | Journey starters collection and embedded Stone, sea and makers narrative: credit Founder-directed trail, map geographic/craft passages to visible numbered notes, improve natural reading, retain image rights and planner behavior, and keep downloadable references concise. Acceptance: individual source/image review, isolated shared-component opt-in, full/coastal tests, mobile/desktop review, merged PR, approved deployment and live receipt. No substantive500 count. |
+| UTP-EDIT-016 | [Journey starters](https://projectodisha.org/journey-starters/) | completed | Journey starters collection and embedded Stone, sea and makers narrative: credit Founder-directed trail, map geographic/craft passages to visible numbered notes, improve natural reading, retain image rights and planner behavior, and keep downloadable references concise. Acceptance: individual source/image review, isolated shared-component opt-in, full/coastal tests, mobile/desktop review, merged PR, approved deployment and live receipt. No substantive500 count. |
 | UTP-EDIT-017 | [Our purpose](https://projectodisha.org/about/) | queued | classification_pending |
 | UTP-EDIT-018 | [Ahimanikya Satapathy · Founder](https://projectodisha.org/founder/) | queued | classification_pending |
 | UTP-EDIT-019 | [Be part of the story](https://projectodisha.org/contribute/) | queued | classification_pending |

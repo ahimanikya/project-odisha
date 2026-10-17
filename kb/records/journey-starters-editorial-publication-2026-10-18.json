@@ -1,0 +1,270 @@
+{
+  "recorded_at": "2026-10-17T22:54:08.477588+00:00",
+  "authorization": [
+    "UTP-DEC-2026101702",
+    "UTP-DEC-225"
+  ],
+  "work_id": "UTP-WORK-302",
+  "queue_item": "UTP-EDIT-016",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/298",
+  "reviewed_head": "b0cb368c2338fe0560c2fe88b3271f4d71edd9ad",
+  "merge_commit": "cdec294972579eaf66d7a9b07f8f9133ff7aac8d",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "b0cb368c2338fe0560c2fe88b3271f4d71edd9ad",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39076414776"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "cdec294972579eaf66d7a9b07f8f9133ff7aac8d",
+    "jobs": [
+      {
+        "completedAt": "2026-10-17T22:51:40Z",
+        "conclusion": "success",
+        "databaseId": 117525021890,
+        "name": "build",
+        "startedAt": "2026-10-17T22:49:48Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-10-17T22:49:50Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-10-17T22:49:49Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-17T22:50:00Z",
+            "conclusion": "success",
+            "name": "Run actions/checkout@v6",
+            "number": 2,
+            "startedAt": "2026-10-17T22:49:50Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-17T22:50:02Z",
+            "conclusion": "success",
+            "name": "Run actions/setup-node@v7",
+            "number": 3,
+            "startedAt": "2026-10-17T22:50:00Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-17T22:50:03Z",
+            "conclusion": "success",
+            "name": "Run actions/configure-pages@v6",
+            "number": 4,
+            "startedAt": "2026-10-17T22:50:02Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-17T22:50:08Z",
+            "conclusion": "success",
+            "name": "Run npm ci",
+            "number": 5,
+            "startedAt": "2026-10-17T22:50:03Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-17T22:50:36Z",
+            "conclusion": "success",
+            "name": "Run npm run build",
+            "number": 6,
+            "startedAt": "2026-10-17T22:50:08Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-17T22:50:46Z",
+            "conclusion": "success",
+            "name": "Run npm test",
+            "number": 7,
+            "startedAt": "2026-10-17T22:50:36Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-17T22:51:20Z",
+            "conclusion": "success",
+            "name": "Run npm run build:coast",
+            "number": 8,
+            "startedAt": "2026-10-17T22:50:46Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-17T22:51:25Z",
+            "conclusion": "success",
+            "name": "Run npm run test:coast",
+            "number": 9,
+            "startedAt": "2026-10-17T22:51:20Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-17T22:51:28Z",
+            "conclusion": "success",
+            "name": "Run npm run build:publication",
+            "number": 10,
+            "startedAt": "2026-10-17T22:51:25Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-17T22:51:38Z",
+            "conclusion": "success",
+            "name": "Run actions/upload-pages-artifact@v5",
+            "number": 11,
+            "startedAt": "2026-10-17T22:51:28Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-17T22:51:38Z",
+            "conclusion": "success",
+            "name": "Post Run actions/setup-node@v7",
+            "number": 21,
+            "startedAt": "2026-10-17T22:51:38Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-17T22:51:38Z",
+            "conclusion": "success",
+            "name": "Post Run actions/checkout@v6",
+            "number": 22,
+            "startedAt": "2026-10-17T22:51:38Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-17T22:51:38Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 23,
+            "startedAt": "2026-10-17T22:51:38Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39076630570/job/117525021890"
+      },
+      {
+        "completedAt": "2026-10-17T22:52:02Z",
+        "conclusion": "success",
+        "databaseId": 117525394208,
+        "name": "deploy",
+        "startedAt": "2026-10-17T22:51:44Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-10-17T22:51:45Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-10-17T22:51:44Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-17T22:52:01Z",
+            "conclusion": "success",
+            "name": "Publish approved website",
+            "number": 2,
+            "startedAt": "2026-10-17T22:51:45Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-17T22:52:01Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 3,
+            "startedAt": "2026-10-17T22:52:01Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39076630570/job/117525394208"
+      }
+    ],
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39076630570",
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "verified_routes": [
+    "/journey-starters/"
+  ],
+  "live": {
+    "checked_at": "2026-10-17T22:53:48.933103+00:00",
+    "pages": [
+      {
+        "route": "/journey-starters/",
+        "url": "https://projectodisha.org/journey-starters/",
+        "status": 200,
+        "sha256": "931dc424f59d4559afbc2cc53e46545f2a6e6effb3478cb0687249ceb96bee22",
+        "article_text_matches_tested_build": true,
+        "sources_verified": 3,
+        "reference_links": 4,
+        "return_links": 4,
+        "indexing": "Existing noindex, follow retained"
+      }
+    ],
+    "assets": [
+      {
+        "route": "/images/regions/mukteswar-torana.jpg",
+        "status": 200,
+        "sha256": "5e99da2e97be858ad291816baa401fa8a57cb6ff8f4d3deb69b00bd3da0be556"
+      },
+      {
+        "route": "/images/regions/raghurajpur-artisan.jpg",
+        "status": 200,
+        "sha256": "a6f459469b4f825a3eaad7c7f040f670930dfb2f8e03a4a434c2ca18b259b05c"
+      },
+      {
+        "route": "/images/regions/puri-beach.jpg",
+        "status": 200,
+        "sha256": "b4914223a7f7e8acf7c9e051a086b34dba7daab24bf79205576e7fda0459a918"
+      }
+    ],
+    "sitemap_entries": 11
+  },
+  "review": "records/journey-starters-editorial-review-2026-10-18.json",
+  "outputs": [
+    {
+      "path": "kb/research/destinations/stone-sea-trail.json",
+      "sha256": "4e8875a59687578edac65016a8192a9aa35a1534dbd567986b039c2c653df2e9",
+      "matches_merge": true
+    },
+    {
+      "path": "projects/site/src/components/VisitorTrail.astro",
+      "sha256": "9d5bdfdd0a72a6bab62f09b298047babce40fdb04ea1bd9e6f12c75d950ed605",
+      "matches_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/journey-starters.astro",
+      "sha256": "f3f9b57289a04d5d16043b1774a7a50374e3d570c7ef54db4952c5081703682d",
+      "matches_merge": true
+    },
+    {
+      "path": "projects/site/src/lib/tour-book.mjs",
+      "sha256": "23f9fff31c8f9c1e037720449c13b954064c2e084b6fc0a5cafd03c798ffb14b",
+      "matches_merge": true
+    },
+    {
+      "path": "projects/site/src/scripts/journey.ts",
+      "sha256": "5ed6e01a09b6b3aa16354558dee94fce09f521553bf217b5f071743fb93e6e40",
+      "matches_merge": true
+    },
+    {
+      "path": "projects/site/tests-coast/journey-starters-editorial.test.mjs",
+      "sha256": "c5dcb723c646c13bd075e863fb1d03a79a7f5381d434e13189dbc958563d78ec",
+      "matches_merge": true
+    },
+    {
+      "path": "kb/records/journey-starters-editorial-source-mapping-2026-10-18.json",
+      "sha256": "539cc55f18ab5d6073c933374c0619f26873d22488ff058a176e26061b535886",
+      "matches_merge": true
+    }
+  ],
+  "screenshot": "/tmp/journey-editorial-live-mobile.png",
+  "counting": "Twelfth completed editorial article; substantive500 remains 112.",
+  "limitations": [
+    "Same-assistant review, not independent human or specialist approval.",
+    "Responsive emulation, not physical-device or screen-reader testing.",
+    "No field visit, maker contact or provider confirmation.",
+    "Editorial work does not increment substantive500."
+  ],
+  "attachment": "App attachment attempted; thread attachment identity count exceeds 100. PR URL retained."
+}
