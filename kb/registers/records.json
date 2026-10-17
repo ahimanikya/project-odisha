@@ -8666,7 +8666,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-2026101702",
-      "next_action": "Classify UTP-EDIT-012 homepage next, then continue the editorial queue, one article at a time. Publish each accepted revision promptly; preserve source detail in KB/website and keep downloads light.",
+      "next_action": "Resume UTP-EDIT-016 Journey starters: individually review its embedded authored trail and canonical evidence, then publish accepted changes. Homepage, 404, Explore and My journey are explicitly excluded as utilities; no article or substantive count added.",
       "blockers": [],
       "refs": [
         "UTP-DEC-2026101702",
@@ -8692,7 +8692,8 @@
         "UTP-REV-279",
         "UTP-REL-152",
         "UTP-REV-280",
-        "UTP-REL-153"
+        "UTP-REL-153",
+        "UTP-REV-281"
       ],
       "evidence": [
         "reference/article-editorial-standard.md",
@@ -8707,7 +8708,8 @@
         "records/puri-editorial-publication-2026-10-17.json",
         "records/raghurajpur-editorial-publication-2026-10-18.json",
         "records/puri-food-editorial-publication-2026-10-18.json",
-        "records/puri-stays-editorial-publication-2026-10-18.json"
+        "records/puri-stays-editorial-publication-2026-10-18.json",
+        "records/editorial-utility-classification-2026-10-18.json"
       ],
       "acceptance_criteria": [
         "Every published baseline route classified; each article independently reviewed against approved standard with PR/test/deploy/live receipt; exclusions justified; future articles follow same rule."
@@ -20148,6 +20150,29 @@
         "Responsive emulation, not physical-device or screen-reader testing.",
         "No property visit, provider confirmation or current quote.",
         "Editorial revision does not increase substantive500."
+      ]
+    },
+    {
+      "id": "UTP-REV-281",
+      "title": "Individual classification of homepage, error recovery, search and journey utilities",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-302",
+        "UTP-DEC-2026101702",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/editorial-utility-classification-2026-10-18.json"
+      ],
+      "limitations": [
+        "Live HTML and source inspection only; no new browser interaction, responsive or accessibility certification.",
+        "Exclusion from article formatting does not exempt utility pages from accuracy, rights or product maintenance.",
+        "Historical product notes describe earlier versions; current route source controls the classification."
       ]
     }
   ],
