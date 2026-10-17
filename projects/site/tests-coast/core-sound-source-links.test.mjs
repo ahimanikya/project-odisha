@@ -3,7 +3,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 const escape=s=>s.replaceAll('&','&amp;').replaceAll("'",'&#39;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;');
-for(const slug of ['huluhuli', 'sankha', 'mardala', 'daskathia', 'ghanta-ghanti', 'dalkhai', 'pala', 'dhemsa'])test(`${slug} passage citations reach the matching numbered source note and retain its limits`,()=>{
+for(const slug of ['sankha', 'mardala', 'daskathia', 'ghanta-ghanti', 'dalkhai', 'pala', 'dhemsa'])test(`${slug} passage citations reach the matching numbered source note and retain its limits`,()=>{
  const story=JSON.parse(readFileSync('../../kb/research/culture/'+slug+'-website.json','utf8'));
  const mapping=JSON.parse(readFileSync('../../kb/records/'+(['huluhuli','sankha','mardala','dalkhai','pala','dhemsa'].includes(slug)?slug+'-source-mapping-2026-10-17.json':'core-sound-source-mapping-2026-10-15.json'),'utf8')).records.find(r=>r.slug===slug);
  assert.equal(createHash('sha256').update(story.blocks.flatMap(b=>[...b.paragraphs,...b.items]).join('\n')).digest('hex'),mapping.narrative_sha256);

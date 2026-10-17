@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-17T03:58:06.552210+00:00",
+  "updated_at": "2026-10-17T04:08:14.754227+00:00",
   "authorization": "UTP-DEC-2026101702",
   "work_id": "UTP-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -440,12 +440,17 @@
       "id": "UTP-EDIT-002",
       "route": "/sounds-of-odisha/huluhuli/",
       "title": "Huluhuli (ହୁଳହୁଳି): the sacred sound of Odisha",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "in_progress",
+      "scope": "Huluhuli: natural narrative, Founder byline, paragraph-level visible footnotes, reference reading layout; retain the corrected tongue illustration and all historical source limitations.",
       "source_template": "projects/site/src/pages/sounds-of-odisha/huluhuli.astro",
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/huluhuli-editorial-review-2026-10-17.json",
+        "records/huluhuli-editorial-source-mapping-2026-10-17.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-10-17T04:04:35.334272+00:00",
+      "acceptance": "Canonical KB and public narrative agree; every source marker and return target works; cultural/image provenance remains honest; responsive review, passing PR checks, approved publication and live receipt precede completion. No substantive-item count increment."
     },
     {
       "id": "UTP-EDIT-003",
