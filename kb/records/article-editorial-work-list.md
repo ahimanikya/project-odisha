@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 394. completed: 11, excluded: 1, queued: 382.
+Route inventory: 394. completed: 11, excluded: 5, queued: 378.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -25,11 +25,11 @@ Route inventory: 394. completed: 11, excluded: 1, queued: 382.
 | UTP-EDIT-009 | [Raghurajpur · Painting, craft &amp; a village visit](https://projectodisha.org/visit/places/raghurajpur/) | completed | Individual Raghurajpur visitor article, notebook, three documentary images and source notes; preserve other detail routes and contributor provenance. |
 | UTP-EDIT-010 | [A table by the coast](https://projectodisha.org/food/puri-coast/) | completed | Puri coastal food article and notebook; Founder byline, natural prose, individually mapped visible footnotes, existing photograph and concise portable references. |
 | UTP-EDIT-011 | [Puri, Konark or the coast?](https://projectodisha.org/visit/stays/puri-coast/) | completed | Puri coastal stay-area comparison and notebook: individually reviewed Founder byline, natural decision guidance, visible geographic source notes and existing documentary photograph. |
-| UTP-EDIT-012 | [Project Odisha · Discover Odisha. Imagine the possibilities.](https://projectodisha.org/) | queued | classification_pending |
-| UTP-EDIT-013 | [/404.html](https://projectodisha.org/404.html) | queued | classification_pending |
-| UTP-EDIT-014 | [Explore the collection](https://projectodisha.org/explore/) | queued | classification_pending |
-| UTP-EDIT-015 | [My Odisha Journey](https://projectodisha.org/journey/) | queued | classification_pending |
-| UTP-EDIT-016 | [Journey starters](https://projectodisha.org/journey-starters/) | queued | classification_pending |
+| UTP-EDIT-012 | [Project Odisha · Discover Odisha. Imagine the possibilities.](https://projectodisha.org/) | excluded | navigation_home |
+| UTP-EDIT-013 | [/404.html](https://projectodisha.org/404.html) | excluded | error_recovery_utility |
+| UTP-EDIT-014 | [Explore the collection](https://projectodisha.org/explore/) | excluded | search_collection_utility |
+| UTP-EDIT-015 | [My Odisha Journey](https://projectodisha.org/journey/) | excluded | personal_planning_utility |
+| UTP-EDIT-016 | [Journey starters](https://projectodisha.org/journey-starters/) | queued | Mixed collection with an embedded authored Stone, sea and makers trail. Retain for individual article/section review; navigation controls alone do not justify exclusion. Inspect VisitorTrail, its canonical trail evidence, sources, photographs and portable chapter output before editing. |
 | UTP-EDIT-017 | [Our purpose](https://projectodisha.org/about/) | queued | classification_pending |
 | UTP-EDIT-018 | [Ahimanikya Satapathy · Founder](https://projectodisha.org/founder/) | queued | classification_pending |
 | UTP-EDIT-019 | [Be part of the story](https://projectodisha.org/contribute/) | queued | classification_pending |

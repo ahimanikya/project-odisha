@@ -1,0 +1,144 @@
+{
+  "recorded_at": "2026-10-17T21:39:57.991766+00:00",
+  "authorization": [
+    "UTP-DEC-2026101702",
+    "UTP-DEC-225"
+  ],
+  "work_id": "UTP-WORK-302",
+  "review_id": "UTP-REV-281",
+  "reviewer": "Current AI assistant; same-assistant classification review, not independent human review",
+  "scope": "Four sequential utility-route classifications, followed by scope identification for the next queued route. No website or research content changed.",
+  "acceptance": [
+    "Inspect each actual route template and live HTML separately.",
+    "Retain media disclosures and attribution; do not assign blanket article bylines.",
+    "Record a route-specific exclusion reason and source hash.",
+    "Do not count classifications as completed articles or substantive500 items."
+  ],
+  "baseline_commit": "9d7616988fa7b81caeec4511851c78287950e070",
+  "live_checked_at": "2026-10-17T21:39:19.018832+00:00",
+  "routes": [
+    {
+      "queue_item": "UTP-EDIT-012",
+      "route": "/",
+      "classification": "navigation_home",
+      "rationale": "Homepage is an orientation and discovery surface: it introduces the collection, links to independent stories, offers planning paths and displays credited artwork. It has no sustained subject article to reformat or assign a byline to. Its linked stories remain separate queue entries. Illustration disclosure and media rights remain intact.",
+      "sources": [
+        {
+          "path": "projects/site/src/pages/index.astro",
+          "sha256": "d161f3c299ae511bf37e17591de38b0192e68caab2f80d438bfb369426b31a2f"
+        },
+        {
+          "path": "projects/site/src/components/CoastalHome.astro",
+          "sha256": "c59edc2989ddb1acc939553dd9bf3aac26ce134eea7bb6fc878f92d82a621618"
+        },
+        {
+          "path": "projects/site/src/components/HomeArt.astro",
+          "sha256": "b3b37ee53ee835c90c542fe19159327b0a7a4474c183a1d9a4353c207929fbe9"
+        }
+      ],
+      "live_html": {
+        "url": "https://projectodisha.org/",
+        "status": 200,
+        "sha256": "533a83ec51fc676adaa1358d4674e87405bbf0091bcea50dc8e9abdc0169ba0f",
+        "observed_markers": [
+          "Begin the five stories",
+          "Find your own beginning",
+          "Image credits"
+        ]
+      }
+    },
+    {
+      "queue_item": "UTP-EDIT-013",
+      "route": "/404.html",
+      "classification": "error_recovery_utility",
+      "rationale": "The 404 page explains a missing link and offers recovery links to Explore, Home, My journey and subject suggestions. It is interface copy, not an authored subject article. Direct /404.html returned 200; this observation does not establish the response for an arbitrary missing route.",
+      "sources": [
+        {
+          "path": "projects/site/src/pages/404.astro",
+          "sha256": "5236836ec8b97db7e0860439313b305e7208f2c2cb24a795386918caeb757164"
+        }
+      ],
+      "live_html": {
+        "url": "https://projectodisha.org/404.html",
+        "status": 200,
+        "sha256": "790d1b7d2cfa2567915b65830e9657ed3fd3b67bafbbd550213297c55736b4a6",
+        "observed_markers": [
+          "404 · This page could not be found",
+          "Return home",
+          "Open My journey"
+        ]
+      }
+    },
+    {
+      "queue_item": "UTP-EDIT-014",
+      "route": "/explore/",
+      "classification": "search_collection_utility",
+      "rationale": "Explore is a searchable collection with subject, area and ordering controls and linked entry cards. Card summaries and image credits belong to their underlying entries; applying an article byline to the collection would blur those scopes. Individual articles remain in the rollout.",
+      "sources": [
+        {
+          "path": "projects/site/src/pages/explore.astro",
+          "sha256": "af434a743813120ab53ed932802cb7f34b9ceaf30692ea7e23cf3c11128f87ec"
+        }
+      ],
+      "live_html": {
+        "url": "https://projectodisha.org/explore/",
+        "status": 200,
+        "sha256": "d08abe760d826ee8df9c4586438b13f514e6365dafe0180eb9f0cbc65703a221",
+        "observed_markers": [
+          "Search the collection",
+          "Collection order",
+          "Collection image credits"
+        ]
+      }
+    },
+    {
+      "queue_item": "UTP-EDIT-015",
+      "route": "/journey/",
+      "classification": "personal_planning_utility",
+      "rationale": "My Odisha Journey is the browser-local planning and export interface: visitors name journeys, arrange saved ideas, write notes and choose downloads. These visitor-created plans are not a Founder-authored article. Source articles and generated reading excerpts retain their own review scopes. No saved visitor data was read or changed.",
+      "sources": [
+        {
+          "path": "projects/site/src/pages/journey.astro",
+          "sha256": "7114aca09a857103846017b2e1a430009b5eec52799b3c964fe33735460f423a"
+        }
+      ],
+      "live_html": {
+        "url": "https://projectodisha.org/journey/",
+        "status": 200,
+        "sha256": "5fd28dd2d49a8399052585aff43e1d9dfc8302e27463f3fe9a1d22ad10fb9c00",
+        "observed_markers": [
+          "Saved only in this browser",
+          "Manage journeys & backups",
+          "Download offline book"
+        ]
+      }
+    }
+  ],
+  "retained_next": {
+    "id": "UTP-EDIT-016",
+    "route": "/journey-starters/",
+    "reason": "Mixed collection with an embedded authored Stone, sea and makers trail. Retain for individual article/section review; navigation controls alone do not justify exclusion. Inspect VisitorTrail, its canonical trail evidence, sources, photographs and portable chapter output before editing.",
+    "inspected": [
+      "projects/site/src/pages/journey-starters.astro",
+      "projects/site/src/components/VisitorTrail.astro"
+    ]
+  },
+  "context_inspected": [
+    "research/product/culture-journey-prototype.md",
+    "research/product/destination-and-tour-book.md"
+  ],
+  "limitations": [
+    "Live HTML and source inspection only; no new browser interaction, responsive or accessibility certification.",
+    "Exclusion from article formatting does not exempt utility pages from accuracy, rights or product maintenance.",
+    "Historical product notes describe earlier versions; current route source controls the classification."
+  ],
+  "publication": {
+    "required": false,
+    "reason": "KB inventory classification only. No website source, rendered content, assets or search policy changed. Record the reviewed PR and merge in a separate application receipt."
+  },
+  "counting": {
+    "completed_articles": 11,
+    "substantive500": 112,
+    "increment": 0
+  }
+}

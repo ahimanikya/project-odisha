@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `f2eb70f7aead0fd9ac158ca7fee6b5317bc4e93a4324d4ca85820460e745b2c2`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `2b6d813c2012673cb7b005295c67524fa493daf111b0010d0d45294e06501b9d`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -322,7 +322,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-299 · Deepen Dalkhai song, occasion and stage context | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, song-language review and recovered source PDFs remain open for future research. | — |
 | UTP-WORK-300 · Deepen Pala literary performance, forms and repertoire | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/Odia review and manuscript evidence remain open for future research. | — |
 | UTP-WORK-301 · Deepen Dhemsa community, movement and occasion | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/language review and field evidence remain open for future research. | — |
-| UTP-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Classify UTP-EDIT-012 homepage next, then continue the editorial queue, one article at a time. Publish each accepted revision promptly; preserve source detail in KB/website and keep downloads light. | — |
+| UTP-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Resume UTP-EDIT-016 Journey starters: individually review its embedded authored trail and canonical evidence, then publish accepted changes. Homepage, 404, Explore and My journey are explicitly excluded as utilities; no article or substantive count added. | — |
 
 ## Pending human review and decisions
 
@@ -915,6 +915,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-278 | pass_with_limitations | False | Same-assistant review, not independent human or specialist approval.; Responsive emulation, not physical-device or screen-reader testing.; No field visit, artist interview, workshop or performance booking, current facility or access confirmation.; Editorial revision does not increase the substantive 500-item count. |
 | UTP-REV-279 | pass_with_limitations | False | Same-assistant review, not independent human or specialist approval.; Responsive emulation, not physical-device or screen-reader testing.; No field visit, cook interview, tasting, kitchen inspection or access confirmation.; Editorial revision does not increase substantive500. |
 | UTP-REV-280 | pass_with_limitations | False | Same-assistant review, not independent human or specialist approval.; Responsive emulation, not physical-device or screen-reader testing.; No property visit, provider confirmation or current quote.; Editorial revision does not increase substantive500. |
+| UTP-REV-281 | pass_with_limitations | False | Live HTML and source inspection only; no new browser interaction, responsive or accessibility certification.; Exclusion from article formatting does not exempt utility pages from accuracy, rights or product maintenance.; Historical product notes describe earlier versions; current route source controls the classification. |
 
 ## Publication and application history
 
@@ -1119,7 +1120,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101719 | 2026-10-17T17:28:03.705618+00:00 | Reviewed Konark individually: Founder byline, clearer surviving architecture and legend distinction, visible notes, current planning links and preserved photographs. Publication pending; substantive programme unchanged. | — |
 | UTP-EVT-2026101720 | 2026-10-17T17:37:50.331967+00:00 | Published the individually reviewed Konark guide: Founder credit, clearer historical reading and legend attribution, eight visible numbered notes including planning references, preserved photography and current tourism links. Next queued article: Puri. Substantive programme remains 112. | — |
 | UTP-EVT-2026101721 | 2026-10-17T17:49:35.264725+00:00 | Reviewed Puri individually: Founder byline, clearer offering/craft narrative, visible source notes, current planning references and preserved photographs. Publication pending; substantive programme unchanged. | — |
 | UTP-EVT-2026101722 | 2026-10-17T17:57:58.516023+00:00 | Published the individually reviewed Puri guide: Founder credit, clearer offering and craft narrative, seven visible numbered notes including planning references, preserved photography and current tourism links. Next queued article: Raghurajpur. Substantive programme remains 112. | — |
@@ -1129,6 +1129,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101726 | 2026-10-17T19:52:21.174996+00:00 | Published the individually reviewed Puri coastal food guide: Founder credit, natural reading layout, five visible numbered notes including folded notebook references, preserved photography and current tourism links. Next queued article: Puri coastal stays. Substantive programme remains 112. | — |
 | UTP-EVT-2026101727 | 2026-10-17T20:42:46.573719+00:00 | Reviewed Puri coastal stays: Founder credit, clear area comparison, visible geographic notes, preserved photo and complete concise portable reading. Publication pending; substantive programme unchanged. | — |
 | UTP-EVT-2026101728 | 2026-10-17T20:50:09.976695+00:00 | Published the individually reviewed Puri coastal stay comparison: Founder credit, natural reading layout, three visible geographic notes including folded notebook references, preserved photography and complete concise portable reading. Next queue entry: homepage classification. Substantive programme remains 112. | — |
+| UTP-EVT-2026101729 | 2026-10-17T21:39:57.991766+00:00 | Individually classified homepage, 404, Explore and My journey as utilities using actual templates and live HTML. Preserved credits and left Journey starters queued because it contains an authored trail. Article completions remain 11; substantive programme remains 112. | — |
 
 ## Deferred extensions
 

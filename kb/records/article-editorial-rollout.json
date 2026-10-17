@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-17T20:50:09.976695+00:00",
+  "updated_at": "2026-10-17T21:39:57.991766+00:00",
   "authorization": "UTP-DEC-2026101702",
   "work_id": "UTP-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -735,52 +735,72 @@
       "id": "UTP-EDIT-012",
       "route": "/",
       "title": "Project Odisha · Discover Odisha. Imagine the possibilities.",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "excluded",
+      "scope": "navigation_home",
       "source_template": "projects/site/src/pages/index.astro",
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/editorial-utility-classification-2026-10-18.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Homepage is an orientation and discovery surface: it introduces the collection, links to independent stories, offers planning paths and displays credited artwork. It has no sustained subject article to reformat or assign a byline to. Its linked stories remain separate queue entries. Illustration disclosure and media rights remain intact."
     },
     {
       "id": "UTP-EDIT-013",
       "route": "/404.html",
       "title": "/404.html",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "status": "excluded",
+      "scope": "error_recovery_utility",
+      "source_template": "projects/site/src/pages/404.astro",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/editorial-utility-classification-2026-10-18.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "The 404 page explains a missing link and offers recovery links to Explore, Home, My journey and subject suggestions. It is interface copy, not an authored subject article. Direct /404.html returned 200; this observation does not establish the response for an arbitrary missing route."
     },
     {
       "id": "UTP-EDIT-014",
       "route": "/explore/",
       "title": "Explore the collection",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "excluded",
+      "scope": "search_collection_utility",
       "source_template": "projects/site/src/pages/explore.astro",
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/editorial-utility-classification-2026-10-18.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Explore is a searchable collection with subject, area and ordering controls and linked entry cards. Card summaries and image credits belong to their underlying entries; applying an article byline to the collection would blur those scopes. Individual articles remain in the rollout."
     },
     {
       "id": "UTP-EDIT-015",
       "route": "/journey/",
       "title": "My Odisha Journey",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "excluded",
+      "scope": "personal_planning_utility",
       "source_template": "projects/site/src/pages/journey.astro",
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/editorial-utility-classification-2026-10-18.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "My Odisha Journey is the browser-local planning and export interface: visitors name journeys, arrange saved ideas, write notes and choose downloads. These visitor-created plans are not a Founder-authored article. Source articles and generated reading excerpts retain their own review scopes. No saved visitor data was read or changed."
     },
     {
       "id": "UTP-EDIT-016",
       "route": "/journey-starters/",
       "title": "Journey starters",
       "status": "queued",
-      "scope": "classification_pending",
+      "scope": "Mixed collection with an embedded authored Stone, sea and makers trail. Retain for individual article/section review; navigation controls alone do not justify exclusion. Inspect VisitorTrail, its canonical trail evidence, sources, photographs and portable chapter output before editing.",
       "source_template": "projects/site/src/pages/journey-starters.astro",
       "checks": {},
       "evidence": [],
