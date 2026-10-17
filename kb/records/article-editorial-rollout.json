@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-17T03:45:32.450587+00:00",
+  "updated_at": "2026-10-17T03:58:06.552210+00:00",
   "authorization": "UTP-DEC-2026101702",
   "work_id": "UTP-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -416,14 +416,25 @@
       "id": "UTP-EDIT-001",
       "route": "/stories/maritime-memory/",
       "title": "Boita: trade, craft and the crossing of a sea",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "article",
       "source_template": "projects/site/src/pages/stories/maritime-memory.astro",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
-        "records/article-editorial-first-review-2026-10-17.json"
+        "records/article-editorial-first-review-2026-10-17.json",
+        "records/article-editorial-first-publication-2026-10-17.json"
       ],
-      "blocker": null
+      "blocker": null,
+      "completed_at": "2026-10-17T03:58:06.552210+00:00",
+      "publication_receipt": "records/article-editorial-first-publication-2026-10-17.json"
     },
     {
       "id": "UTP-EDIT-002",
@@ -4741,12 +4752,17 @@
       "id": "UTP-EDIT-394",
       "route": "/about/editorial-process/",
       "title": "Our editorial process",
-      "status": "queued",
+      "status": "excluded",
       "scope": "process_page",
       "source_template": "projects/site/src/pages/about/editorial-process.astro",
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/article-editorial-first-review-2026-10-17.json",
+        "records/article-editorial-first-publication-2026-10-17.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Shared project-process page, not a subject article. Published and verified as the rollout foundation.",
+      "publication_receipt": "records/article-editorial-first-publication-2026-10-17.json"
     }
   ]
 }

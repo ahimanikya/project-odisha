@@ -10,11 +10,11 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 394. in_progress: 1, queued: 393.
+Route inventory: 394. completed: 1, excluded: 1, queued: 392.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
-| UTP-EDIT-001 | [Boita: trade, craft and the crossing of a sea](https://projectodisha.org/stories/maritime-memory/) | in_progress | article |
+| UTP-EDIT-001 | [Boita: trade, craft and the crossing of a sea](https://projectodisha.org/stories/maritime-memory/) | completed | article |
 | UTP-EDIT-002 | [Huluhuli (ହୁଳହୁଳି): the sacred sound of Odisha](https://projectodisha.org/sounds-of-odisha/huluhuli/) | queued | classification_pending |
 | UTP-EDIT-003 | [Boat songs of Odisha](https://projectodisha.org/stories/boat-songs/) | queued | classification_pending |
 | UTP-EDIT-004 | [Ahimanikya and Sashisena at Nimuhi Temple](https://projectodisha.org/stories/nimuhi-temple/) | queued | classification_pending |
@@ -407,4 +407,4 @@ Route inventory: 394. in_progress: 1, queued: 393.
 | UTP-EDIT-391 | [Prahlada Nataka: a story carried in song](https://projectodisha.org/stories/prahlada-nataka/) | queued | classification_pending |
 | UTP-EDIT-392 | [Dhuduki: a string beneath the story](https://projectodisha.org/stories/dhuduki/) | queued | classification_pending |
 | UTP-EDIT-393 | [Odissi music: follow the singer](https://projectodisha.org/stories/odissi-music/) | queued | classification_pending |
-| UTP-EDIT-394 | [Our editorial process](https://projectodisha.org/about/editorial-process/) | queued | process_page |
+| UTP-EDIT-394 | [Our editorial process](https://projectodisha.org/about/editorial-process/) | excluded | process_page |

@@ -1,0 +1,122 @@
+{
+  "recorded_at": "2026-10-17T03:58:06.552210+00:00",
+  "authorization": [
+    "UTP-DEC-2026101702",
+    "UTP-DEC-225"
+  ],
+  "work_id": "UTP-WORK-302",
+  "queue_item": "UTP-EDIT-001",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/286",
+  "reviewed_head": "ef59f90d8191676069e3f4b72ad1d7b2b25099b1",
+  "merge_commit": "1261bf8800406731d5eb05dade3ac4bb8fd0ac16",
+  "validation": {
+    "conclusion": "success",
+    "createdAt": "2026-10-17T03:49:08Z",
+    "databaseId": 39000227804,
+    "headSha": "ef59f90d8191676069e3f4b72ad1d7b2b25099b1",
+    "status": "completed",
+    "updatedAt": "2026-10-17T03:52:34Z",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39000227804"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "createdAt": "2026-10-17T03:53:27Z",
+    "databaseId": 39000501551,
+    "headSha": "1261bf8800406731d5eb05dade3ac4bb8fd0ac16",
+    "status": "completed",
+    "updatedAt": "2026-10-17T03:55:59Z",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39000501551",
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "verified_routes": [
+    "/stories/maritime-memory/",
+    "/about/editorial-process/",
+    "/about/"
+  ],
+  "live": {
+    "checked_at": "2026-10-17T03:57:21.170979+00:00",
+    "pages": [
+      {
+        "route": "/stories/maritime-memory/",
+        "url": "https://projectodisha.org/stories/maritime-memory/",
+        "status": 200,
+        "sha256": "79ab00da6dec03b002c7bfaa0c8ece5ed90ab0840f0fb43814b5af907d300171",
+        "paragraphs_verified": 27,
+        "sources_verified": 16,
+        "reference_links": 18,
+        "return_links": 18,
+        "noindex": true,
+        "light_download_catalog": true
+      },
+      {
+        "route": "/about/editorial-process/",
+        "url": "https://projectodisha.org/about/editorial-process/",
+        "status": 200,
+        "sha256": "8bff0cd5f6e0e623a7c229bb7000b749475cd3b29696f91738e57e5db08a7f4b"
+      },
+      {
+        "route": "/about/",
+        "url": "https://projectodisha.org/about/",
+        "status": 200,
+        "sha256": "e9b531b3c2cc4ba544e64e339f22d1cf4f287885a63a4bb0f6fb2104bb2009f4"
+      }
+    ],
+    "sitemap_entries": 11,
+    "download_verification": {
+      "source": "catalog retrieved from actual live article",
+      "sources": 16,
+      "full_source_notes_omitted": true,
+      "narrative_retained": true,
+      "process_page_link": true
+    }
+  },
+  "review": "records/article-editorial-first-review-2026-10-17.json",
+  "outputs": [
+    {
+      "path": "kb/reference/article-editorial-standard.md",
+      "sha256": "31c7d094bd8ba5470ba9b9492c9bfeb0201362a17b68e38335a0c9d4542bf0e1",
+      "matches_merge": true
+    },
+    {
+      "path": "kb/reference/editorial-process-website.json",
+      "sha256": "459e3718786b03ceeb857d0a6a3b9ca30cd50c72172791123c024a20aebcedcc",
+      "matches_merge": true
+    },
+    {
+      "path": "kb/research/stories/narratives/maritime-memory.json",
+      "sha256": "8f17cb00c013cab3a8bd92cc5bb1f3b562f46365eacd9ee0c38b06c74a9e8c46",
+      "matches_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/stories/maritime-memory.astro",
+      "sha256": "7733d676ba1fe4094c922dd1b9dc3df79b185ad601b9ba53c0ba5d8256f9b2f3",
+      "matches_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/about/editorial-process.astro",
+      "sha256": "553284728083bf76111dca88cef28a8da5f1180aee41474b7495c62a408bed6e",
+      "matches_merge": true
+    },
+    {
+      "path": "projects/site/src/data/journey-catalog.ts",
+      "sha256": "e4e1dbb10906576aae4b5d10a210df495baf6fd884e946e750d872ff718e03d3",
+      "matches_merge": true
+    },
+    {
+      "path": "projects/site/src/lib/tour-book.mjs",
+      "sha256": "1154f26b0858e982890c58485b091775541ceb639b79d41d4f7e0de8db558833",
+      "matches_merge": true
+    }
+  ],
+  "screenshot": "/tmp/editorial-maritime-live-mobile.png",
+  "counting": "One editorial article completed; no increase to substantive500 count.",
+  "limitations": [
+    "Same-assistant review, not independent human or specialist review.",
+    "This is an editorial presentation revision using the existing reviewed research, not a new historical research investigation. Existing substantive uncertainties remain in the narrative.",
+    "Responsive browser checks are not physical-device or screen-reader testing.",
+    "Remaining routes require individual classification and article review; no bulk claim of completion.",
+    "No substantive 500-item count increment for formatting or policy work."
+  ],
+  "attachment": "App attachment attempted; thread attachment identity count exceeds100. PR URL retained."
+}
