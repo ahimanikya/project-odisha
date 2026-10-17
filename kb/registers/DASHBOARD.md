@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `f5563ed51dbc22bb5a15a774430c4191c9f864c7e860c07328bb908f639ef58e`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `962aeea8f5f68b47b8ace0d2bf4e6956eb6f98922b630c8d4fafcc31f9858c07`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -322,6 +322,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-299 · Deepen Dalkhai song, occasion and stage context | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, song-language review and recovered source PDFs remain open for future research. | — |
 | UTP-WORK-300 · Deepen Pala literary performance, forms and repertoire | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/Odia review and manuscript evidence remain open for future research. | — |
 | UTP-WORK-301 · Deepen Dhemsa community, movement and occasion | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/language review and field evidence remain open for future research. | — |
+| UTP-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Publish editorial-process foundation and first maritime article revision; then continue one queued route at a time. Formatting changes do not count toward500. | — |
 
 ## Pending human review and decisions
 
@@ -622,6 +623,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-2026101508 · Compact purchase-interest question | approved | Ahimanikya Satapathy | Update all eighteen design controls to compact purchase-interest language on the live page. |
 | UTP-DEC-2026101509 · Correct Jhula spacing and alignment | approved | Ahimanikya Satapathy | Fix and publish consistent spacing, card alignment, responsive star controls and form layout on the existing page. |
 | UTP-DEC-2026101701 · Add both Pattachitra Jhula options | approved | Ahimanikya Satapathy | Publish both reviewed Pattachitra-inspired designs as additional voting options, retaining previous choices and response behavior. |
+| UTP-DEC-2026101702 · Apply Founder authorship and Human Natural article standard sequentially | approved | Ahimanikya Satapathy | Applies the preceding agreed article authorship, visible footnotes, Ahimanikya and Sashisena reference formatting, Human Natural language and illustration direction to existing and future articles; updates existing heartbeat, preserves contributor credit and historical evidence. Publishing remains under UTP-DEC-225. |
 
 ## Reviews
 
@@ -902,6 +904,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-267 | pass_with_limitations | False | Same-assistant review; no independent human, practitioner or language review.; Journal text accessible, but direct PDF downloads and screenshot retrieval failed; no PDF visual inspection claimed.; 2019 government essay certificate failure,2014 annual and CCRT timeouts retained as unread leads; security verification unchanged.; No origin date, universal movement pattern, current decline trend or UNESCO listing established.; No new playback, recording rights, field observation or interviews.; Browser viewport review is not physical-device or screen-reader testing. |
 | UTP-REV-268 | pass_with_limitations | False | Same-assistant review, not independent human or practitioner review.; No founding date established; underlying manuscripts and named literary editions not independently inspected.; Patra2017 troupe-count and award-body inconsistencies excluded; broader historical chronology is not adopted.; Dash2011 PDF secure retrieval still fails; no certificate validation bypass.; No new audio, fieldwork, interviews, booking or recording rights.; Browser viewport checks are not physical-device or screen-reader testing. |
 | UTP-REV-269 | pass_with_limitations | False | Same-assistant review, not independent human, practitioner or language review.; 2024 study inspected as indexed author-uploaded text, not downloaded PDF or page-image review;2022 festival remains indexed-only.; Origin accounts and present changes are not a dated historical sequence or representative statewide survey.; No fieldwork, interviews, playback, new media, permissions or current booking.; Responsive browser checks are not physical-device or screen-reader testing. |
+| UTP-REV-270 | pass_with_limitations | False | Same-assistant review, not independent human or specialist review.; This is an editorial presentation revision using the existing reviewed research, not a new historical research investigation. Existing substantive uncertainties remain in the narrative.; Responsive browser checks are not physical-device or screen-reader testing.; Remaining routes require individual classification and article review; no bulk claim of completion.; No substantive 500-item count increment for formatting or policy work. |
 
 ## Publication and application history
 
@@ -1095,7 +1098,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101611 | 2026-10-16T23:00:10.701423+00:00 | Reviewed substantive Sankha revision explaining construction/acoustics and named Ganjam institution and artists. Local technique and origins remain open; publication pending and count107. | — |
 | UTP-EVT-2026101612 | 2026-10-16T23:08:22.707827+00:00 | Published Sankha substantive revision explaining shell construction, acoustic interaction and named Ganjam practice. Item108 counted after live receipt; total108. Historical origins, local shell preparation and current troupe history remain unresolved. | — |
 | UTP-EVT-2026101613 | 2026-10-16T23:59:56.178173+00:00 | Reviewed substantive Mardala revision explaining spoken rhythm, cycles, learning and creative roles. Practitioner and historical review remain open; publication pending and count108. | — |
 | UTP-EVT-2026101614 | 2026-10-17T00:07:56.156635+00:00 | Published Mardala substantive revision explaining spoken rhythm, cycle and tempo, teaching and named creative roles. Item109 counted after live receipt; total109. Historical origins, practitioner review and detailed stroke technique remain open. | — |
@@ -1105,6 +1107,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101704 | 2026-10-17T02:12:46.104958+00:00 | Published Pala substantive revision with literary parody, prop meanings, performance forms and named repertoire. Item111 counted after live receipt; total111. Historical origins, local variation and practitioner/language review remain open. | — |
 | UTP-EVT-2026101705 | 2026-10-17T03:03:56.620232+00:00 | Reviewed Dhemsa revision with named encounter, movement, music and occasion distinctions; source access limits explicit. Publication pending; count111. | — |
 | UTP-EVT-2026101706 | 2026-10-17T03:11:28.335927+00:00 | Published Dhemsa substantive revision with named encounter, movement, musical roles and occasion distinctions. Item112 counted after live receipt; total112. Historical origins, local variation and practitioner/language review remain open. | — |
+| UTP-EVT-2026101707 | 2026-10-17T03:45:32.450587+00:00 | Created sequential editorial work list and recurring continuation; reviewed first maritime article, visible footnotes, byline, responsive layout and shared process page. Publication pending; no item counted complete. | — |
 
 ## Deferred extensions
 

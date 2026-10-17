@@ -19,7 +19,7 @@ test('portable maritime book retains narrative, questions, source limits and pho
  const options={includePersonalNotes:false,illustrated:true,images:{[item.photo.src]:'data:image/png;base64,AAAA'}};
  const book=buildTourBook(plan,data.catalog,options),text=buildTextItinerary(plan,data.catalog,options);
  for(const chapter of story.chapters){for(const p of chapter.paragraphs){assert.ok(book.includes(p));assert.ok(text.includes(p));}assert.ok(book.includes(chapter.question));assert.ok(text.includes(chapter.question));}
- for(const source of story.sources){assert.ok(book.includes(escapeHTML(source.note)));assert.ok(text.includes(source.note));assert.ok(book.includes(source.url.replaceAll('&','&amp;')));assert.ok(text.includes(source.url));}
+ for(const source of story.sources){assert.ok(book.includes(escapeHTML(source.reader_note)));assert.ok(text.includes(source.reader_note));assert.ok(book.includes(source.url.replaceAll('&','&amp;')));assert.ok(text.includes(source.url));}
  assert.ok(book.includes(item.photo.creator));assert.ok(book.includes(story.hero_caption));assert.ok(book.includes(item.photo.license_url));assert.ok(book.includes(story.editorial_note));
  assert.ok(!book.includes('PRIVATE_MARITIME_NOTE'));assert.ok(!text.includes('PRIVATE_MARITIME_NOTE'));
  assert.ok(buildTourBook(plan,data.catalog,{includePersonalNotes:true}).includes('PRIVATE_MARITIME_NOTE'));

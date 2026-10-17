@@ -1,0 +1,47 @@
+{
+  "recorded_at": "2026-10-17T03:45:32.450587+00:00",
+  "work_id": "UTP-WORK-302",
+  "queue_item": "UTP-EDIT-001",
+  "authorization": [
+    "UTP-DEC-2026101702",
+    "UTP-DEC-225"
+  ],
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "status": "pass_with_limitations",
+  "scope": [
+    "Maritime article layout, authorship, visible passage footnotes and concise reader notes",
+    "Shared editorial process page, About and footer link",
+    "Sequential route inventory, reusable components and CI delivery-evidence guard"
+  ],
+  "checks": {
+    "full_site_tests": 537,
+    "coastal_tests": 212,
+    "paragraphs_preserved": true,
+    "sources": 16,
+    "reference_links": 18,
+    "return_links": 18,
+    "canonical_claim_source_mapping": true,
+    "external_indexable_routes": 11,
+    "desktop": "1280px visual check: reference reading column, natural line length, uncropped photography",
+    "mobile": "390px visual check: readable source notes, byline and heading, no horizontal overflow",
+    "keyboard": "Enter on source return link returns focus to the exact in-text reference",
+    "media": "Existing museum photographs retain 2013 dates, interpretation context, creators and licences; no new generated images",
+    "provenance": "Internal source inspection notes remain in canonical JSON. Concise reader_note fields used on page and in downloaded books. Historical receipts unchanged."
+  },
+  "screenshots": [
+    "/tmp/editorial-maritime-desktop.png",
+    "/tmp/editorial-maritime-mobile-notes.png",
+    "/tmp/editorial-process-desktop.png"
+  ],
+  "limitations": [
+    "Same-assistant review, not independent human or specialist review.",
+    "This is an editorial presentation revision using the existing reviewed research, not a new historical research investigation. Existing substantive uncertainties remain in the narrative.",
+    "Responsive browser checks are not physical-device or screen-reader testing.",
+    "Remaining routes require individual classification and article review; no bulk claim of completion.",
+    "No substantive 500-item count increment for formatting or policy work."
+  ]
+}

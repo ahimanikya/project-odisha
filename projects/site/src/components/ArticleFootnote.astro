@@ -1,0 +1,6 @@
+---
+interface Props {ids:string[]; sources:{id:string;title:string}[]; passage:string}
+const {ids,sources,passage}=Astro.props;
+const refs=ids.map(id=>{const i=sources.findIndex(s=>s.id===id);if(i<0)throw new Error('Unmapped article footnote '+id);return {...sources[i],number:i+1}});
+---
+{refs.map(s=><sup><a id={`ref-${passage}-${s.id}`} href={'#note-'+s.id} data-footnote-ref aria-label={`Footnote ${s.number}: ${s.title}`}>{s.number}</a></sup>)}
