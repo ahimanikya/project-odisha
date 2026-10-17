@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 394. completed: 7, excluded: 1, in_progress: 1, queued: 385.
+Route inventory: 394. completed: 8, excluded: 1, queued: 385.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -21,7 +21,7 @@ Route inventory: 394. completed: 7, excluded: 1, in_progress: 1, queued: 385.
 | UTP-EDIT-005 | [Bhubaneswar: places, food &amp; living culture](https://projectodisha.org/destinations/bhubaneswar/) | completed | Destination guide with authored opening and practical reading, not a utility-only index. Add Founder credit, individually mapped visible source notes, natural prose and readable text sections while retaining useful picture cards, journey controls, archival dates and media credits. Includes the route’s practical notebook and its source disclosure; other notebook routes retain their existing presentation. |
 | UTP-EDIT-006 | [Dhauli · Shanti Stupa &amp; rock edicts](https://projectodisha.org/visit/places/dhauli/) | completed | Individually revise Dhauli narrative, byline, reading layout, visible footnotes and practical notebook; preserve documentary photographs and historical source provenance. Other visitor detail routes retain current presentation. |
 | UTP-EDIT-007 | [Konark Sun Temple](https://projectodisha.org/knowledge/konark/) | completed | Konark destination article: Founder byline, individually mapped visible notes, readable narrative and preserved photo credits; existing planning links reviewed. |
-| UTP-EDIT-008 | [Puri: places, food &amp; living culture](https://projectodisha.org/destinations/puri/) | in_progress | Puri destination article and notebook: individually reviewed Founder byline, natural prose, visible claim-linked notes and reference reading layout; retain photographs and rights. Acceptance: source review, full/coastal tests, responsive and note-return checks, merged PR, approved deployment and live receipt. No substantive programme count. |
+| UTP-EDIT-008 | [Puri: places, food &amp; living culture](https://projectodisha.org/destinations/puri/) | completed | Puri destination article and notebook: individually reviewed Founder byline, natural prose, visible claim-linked notes and reference reading layout; retain photographs and rights. Acceptance: source review, full/coastal tests, responsive and note-return checks, merged PR, approved deployment and live receipt. No substantive programme count. |
 | UTP-EDIT-009 | [Raghurajpur · Painting, craft &amp; a village visit](https://projectodisha.org/visit/places/raghurajpur/) | queued | classification_pending |
 | UTP-EDIT-010 | [A table by the coast](https://projectodisha.org/food/puri-coast/) | queued | classification_pending |
 | UTP-EDIT-011 | [Puri, Konark or the coast?](https://projectodisha.org/visit/stays/puri-coast/) | queued | classification_pending |

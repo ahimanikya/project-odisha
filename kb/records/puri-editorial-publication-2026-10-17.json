@@ -1,0 +1,121 @@
+{
+  "recorded_at": "2026-10-17T17:57:58.516023+00:00",
+  "authorization": [
+    "UTP-DEC-2026101702",
+    "UTP-DEC-225"
+  ],
+  "work_id": "UTP-WORK-302",
+  "queue_item": "UTP-EDIT-008",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/293",
+  "reviewed_head": "990eebf2030d75562ad6cf039b9bf470099c30fe",
+  "merge_commit": "35be662328466668d1643b0e56e81c05b9dee07e",
+  "validation": {
+    "conclusion": "success",
+    "databaseId": 39055494486,
+    "headSha": "990eebf2030d75562ad6cf039b9bf470099c30fe",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39055494486"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "databaseId": 39055712937,
+    "headSha": "35be662328466668d1643b0e56e81c05b9dee07e",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39055712937",
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "verified_routes": [
+    "/destinations/puri/"
+  ],
+  "live": {
+    "checked_at": "2026-10-17T17:57:25.850121+00:00",
+    "pages": [
+      {
+        "route": "/destinations/puri/",
+        "url": "https://projectodisha.org/destinations/puri/",
+        "status": 200,
+        "sha256": "80693d253794fccd1ad1203589bec5f03a9f86ba5a12b79828839e9db7f0d351",
+        "article_text_matches_tested_build": true,
+        "sources_verified": 7,
+        "reference_links": 21,
+        "return_links": 21,
+        "legacy_visible_tourism_links": 0,
+        "indexing": "Existing indexable route; eligibility unchanged"
+      }
+    ],
+    "assets": [
+      {
+        "route": "/images/regions/puri-beach.jpg",
+        "status": 200,
+        "sha256": "b4914223a7f7e8acf7c9e051a086b34dba7daab24bf79205576e7fda0459a918"
+      },
+      {
+        "route": "/images/regions/raghurajpur-artisan.jpg",
+        "status": 200,
+        "sha256": "a6f459469b4f825a3eaad7c7f040f670930dfb2f8e03a4a434c2ca18b259b05c"
+      }
+    ],
+    "sitemap_entries": 11,
+    "responsive_browser": {
+      "viewport": "390x844",
+      "screenshot": "/tmp/puri-editorial-live-mobile.png",
+      "keyboard_source_focus": "note-odisha-meals",
+      "return_focus": "ref-notebook-stop-0-puri-temple",
+      "folded_notebook_opened": true,
+      "horizontal_overflow": false
+    }
+  },
+  "review": "records/puri-editorial-review-2026-10-17.json",
+  "outputs": [
+    {
+      "path": "kb/research/destinations/regions.json",
+      "sha256": "8d7186c6a6f807fcc1d40295c642a65fe8fa49c15f46bc97f6b3e76b8a641193",
+      "matches_merge": true
+    },
+    {
+      "path": "kb/research/destinations/puri-editorial.json",
+      "sha256": "39135305b98bff4c1ee9416cab6c427ceb67cc4b3f268d46a1ddafddefa13aa6",
+      "matches_merge": true
+    },
+    {
+      "path": "kb/research/destinations/visit-notebooks.json",
+      "sha256": "2a4f0b4fbb0956223c64b81f43005ee6e20d1b0028ae6ca0ab5cff335ff8bace",
+      "matches_merge": true
+    },
+    {
+      "path": "kb/records/puri-editorial-source-mapping-2026-10-17.json",
+      "sha256": "0b08321f8aae1ef8fed5b2a03dccab2e9a143b2259cb36a358f470995675f5d5",
+      "matches_merge": true
+    },
+    {
+      "path": "projects/site/src/components/RegionMagazine.astro",
+      "sha256": "e929a8bb97780c2c1ef3f68c8adc09d9a91bd833dd7fb757e099f849763a852c",
+      "matches_merge": true
+    },
+    {
+      "path": "projects/site/src/components/VisitReadiness.astro",
+      "sha256": "93ad5e0158e8975f37054efcb434c36351a84b6341b0fc9f2ff7d0a2effbbe4a",
+      "matches_merge": true
+    },
+    {
+      "path": "projects/site/src/data/journey-catalog.ts",
+      "sha256": "31e26b7316d3782cc090df1ec47014506d901f5e8c2172587b1fde065b3efaf6",
+      "matches_merge": true
+    },
+    {
+      "path": "projects/site/tests-coast/puri-editorial.test.mjs",
+      "sha256": "48b0a01589c7a3d4a343c9ad5bef33cb3d710b366b4f1657c63cab65c4afd08d",
+      "matches_merge": true
+    }
+  ],
+  "screenshot": "/tmp/puri-editorial-live-mobile.png",
+  "counting": "Eighth editorial article completed; substantive500 remains 112.",
+  "limitations": [
+    "Same-assistant review, not independent human or specialist approval.",
+    "Responsive emulation, not physical-device or screen-reader testing.",
+    "No field visit, local contact, current temple eligibility, accommodation or service confirmation.",
+    "Editorial revision does not increase the substantive 500-item count."
+  ],
+  "attachment": "App attachment attempted; thread attachment identity count exceeds 100. PR URL retained."
+}
