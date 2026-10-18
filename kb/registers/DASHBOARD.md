@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b9d49e9a25b8d8a08df66b4129eed5a0e1401dd7fc52091aaeb1b761bc85c8d3`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `c97b1d185ccff1e116cc734675fef750ee582041db387e3d0509c880c01e5a16`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -321,7 +321,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-299 · Deepen Dalkhai song, occasion and stage context | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, song-language review and recovered source PDFs remain open for future research. | — |
 | UTP-WORK-300 · Deepen Pala literary performance, forms and repertoire | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/Odia review and manuscript evidence remain open for future research. | — |
 | UTP-WORK-301 · Deepen Dhemsa community, movement and occasion | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/language review and field evidence remain open for future research. | — |
-| UTP-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Publish reviewed UTP-EDIT-032 Bhubaneswar meal through passing PR checks and approved main workflow; verify live and record receipt before completion. Substantive500 remains112. | — |
+| UTP-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Continue UTP-EDIT-033 Find your city base (/visit/stays/bhubaneswar/): inspect individual sources, writing, images and template before revision. Twenty-four editorial articles completed, nine exclusions; substantive500 remains112. | — |
 | UTP-WORK-2026101701 · Publish two Pattachitra Jhula choices | completed | published | Ahimanikya Satapathy | Review the live Pattachitra choices. | — |
 | UTP-WORK-2026101801 · Coherent Jhula story and collection overview | in_progress | reviewed | Ahimanikya Satapathy | Finish responsive review, publish and verify live. | — |
 
@@ -1113,6 +1113,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-163 · Barkul and Rambha: distinct stay bases, Founder byline and visible sources | published | https://projectodisha.org/visit/stays/barkul-rambha/ | UTP-DEC-225 |
 | UTP-REL-164 · Rajhans and Satapada: overnight stay and crossing plans with visible sources | published | https://projectodisha.org/visit/stays/rajhans-satapada/ | UTP-DEC-225 |
 | UTP-REL-165 · Mukteswar: gateway, shrine and hall with modern festival context | published | https://projectodisha.org/visit/places/mukteswar/ | UTP-DEC-225 |
+| UTP-REL-166 · Bhubaneswar meal: cooking methods and Old Town food context | published | https://projectodisha.org/food/bhubaneswar/ | UTP-DEC-225 |
 
 ## Sources and assets
 
@@ -1150,7 +1151,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101814 | 2026-10-18T18:08:48.003713+00:00 | Published and verified Satapada boating experience through PR308 and approved main workflow, preserving other article scopes. Two visible sources, three exact returns, Founder byline, full reading and unchanged photo verified. UTP-EDIT-027 complete; no substantive500 increment. | — |
 | UTP-EVT-2026101815 | 2026-10-18T19:06:07.836754+00:00 | Reviewed Mangalajodi stay guide with overnight/day-visit comparison, room-to-wetland planning and a qualified official camp lead. Founder byline, visible source and exact returns, full551/coast236 tests and desktop/mobile review passed. Publication pending; zero substantive500 increment. | — |
 | UTP-EVT-2026101816 | 2026-10-18T19:15:14.372615+00:00 | Published and verified Mangalajodi stay experience through PR309 and approved main workflow, preserving other article scopes. One visible source, two exact returns, Founder byline, full reading and unchanged photo verified. UTP-EDIT-028 complete; no substantive500 increment. | — |
 | UTP-EVT-2026101817 | 2026-10-18T20:00:58.888532+00:00 | Reviewed Barkul/Rambha stay comparison with individual official property sources, clear itinerary limits, Founder byline and visible footnotes. Full553/coast236 tests and responsive keyboard checks passed; publication pending. No substantive500 increment. | — |
@@ -1160,6 +1160,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101821 | 2026-10-18T22:07:15.959465+00:00 | Reviewed Mukteswar architectural explanation and modern festival context against three individually inspected sources and two credited photographs. Full557/coast236 tests and responsive keyboard checks passed; publication pending. No substantive500 increment. | — |
 | UTP-EVT-2026101822 | 2026-10-18T22:16:49.593368+00:00 | Published Mukteswar architectural guide through reviewed PR312 and approved main workflow. Verified live article, byline, three visible notes with six exact returns, complete narrative and both documentary images. UTP-EDIT-031 complete; zero substantive500 increment. | — |
 | UTP-EVT-2026101823 | 2026-10-18T23:02:41.270467+00:00 | Reviewed Bhubaneswar meal methods and Old Town food context against five inspected sources and the credited Puri photograph. Full559/coast236 tests and responsive keyboard checks passed; publication pending. No substantive500 increment. | — |
+| UTP-EVT-2026101824 | 2026-10-18T23:11:17.686661+00:00 | Published Bhubaneswar meal guide through reviewed PR313 and approved main workflow. Verified live narrative, Founder byline, five visible notes with six exact returns and unchanged credited Puri photograph. UTP-EDIT-032 complete; zero substantive500 increment. | — |
 
 ## Deferred extensions
 

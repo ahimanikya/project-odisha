@@ -1,0 +1,227 @@
+{
+  "recorded_at": "2026-10-18T23:11:17.686661+00:00",
+  "authorization": [
+    "UTP-DEC-2026101702",
+    "UTP-DEC-225"
+  ],
+  "work_id": "UTP-WORK-302",
+  "queue_item": "UTP-EDIT-032",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/313",
+  "reviewed_head": "893cb44451110e4d8f6aeb2654fad78f5a4f421e",
+  "merge_commit": "9f78dc605f34c203440a6ed1d054c8fcef57de59",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "893cb44451110e4d8f6aeb2654fad78f5a4f421e",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39174860007"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "9f78dc605f34c203440a6ed1d054c8fcef57de59",
+    "jobs": [
+      {
+        "completedAt": "2026-10-18T23:09:17Z",
+        "conclusion": "success",
+        "databaseId": 117816126960,
+        "name": "build",
+        "startedAt": "2026-10-18T23:07:00Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-10-18T23:07:03Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-10-18T23:07:01Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T23:07:15Z",
+            "conclusion": "success",
+            "name": "Run actions/checkout@v6",
+            "number": 2,
+            "startedAt": "2026-10-18T23:07:03Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T23:07:21Z",
+            "conclusion": "success",
+            "name": "Run actions/setup-node@v7",
+            "number": 3,
+            "startedAt": "2026-10-18T23:07:15Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T23:07:22Z",
+            "conclusion": "success",
+            "name": "Run actions/configure-pages@v6",
+            "number": 4,
+            "startedAt": "2026-10-18T23:07:21Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T23:07:31Z",
+            "conclusion": "success",
+            "name": "Run npm ci",
+            "number": 5,
+            "startedAt": "2026-10-18T23:07:22Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T23:08:02Z",
+            "conclusion": "success",
+            "name": "Run npm run build",
+            "number": 6,
+            "startedAt": "2026-10-18T23:07:31Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T23:08:13Z",
+            "conclusion": "success",
+            "name": "Run npm test",
+            "number": 7,
+            "startedAt": "2026-10-18T23:08:02Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T23:08:54Z",
+            "conclusion": "success",
+            "name": "Run npm run build:coast",
+            "number": 8,
+            "startedAt": "2026-10-18T23:08:13Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T23:09:00Z",
+            "conclusion": "success",
+            "name": "Run npm run test:coast",
+            "number": 9,
+            "startedAt": "2026-10-18T23:08:54Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T23:09:03Z",
+            "conclusion": "success",
+            "name": "Run npm run build:publication",
+            "number": 10,
+            "startedAt": "2026-10-18T23:09:00Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T23:09:14Z",
+            "conclusion": "success",
+            "name": "Run actions/upload-pages-artifact@v5",
+            "number": 11,
+            "startedAt": "2026-10-18T23:09:03Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T23:09:15Z",
+            "conclusion": "success",
+            "name": "Post Run actions/setup-node@v7",
+            "number": 21,
+            "startedAt": "2026-10-18T23:09:14Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T23:09:15Z",
+            "conclusion": "success",
+            "name": "Post Run actions/checkout@v6",
+            "number": 22,
+            "startedAt": "2026-10-18T23:09:15Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T23:09:15Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 23,
+            "startedAt": "2026-10-18T23:09:15Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39175135437/job/117816126960"
+      },
+      {
+        "completedAt": "2026-10-18T23:09:40Z",
+        "conclusion": "success",
+        "databaseId": 117816611389,
+        "name": "deploy",
+        "startedAt": "2026-10-18T23:09:21Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-10-18T23:09:23Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-10-18T23:09:22Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T23:09:38Z",
+            "conclusion": "success",
+            "name": "Publish approved website",
+            "number": 2,
+            "startedAt": "2026-10-18T23:09:23Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T23:09:38Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 3,
+            "startedAt": "2026-10-18T23:09:38Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39175135437/job/117816611389"
+      }
+    ],
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39175135437"
+  },
+  "verified_routes": [
+    "/food/bhubaneswar/"
+  ],
+  "live_checks": {
+    "checked_at": "2026-10-18T23:10:45.713828+00:00",
+    "url": "https://projectodisha.org/food/bhubaneswar/",
+    "http_status": 200,
+    "html_sha256": "178a00efca5431f873ba48b884ad6f0d67499694a76dbb114b8aeb6b4fe11f3e",
+    "byline": true,
+    "canonical_paragraphs_present": true,
+    "visible_notes": 5,
+    "references": 6,
+    "exact_returns": 6,
+    "image": {
+      "http_status": 200,
+      "sha256": "94cd55915889d9787c9611197a2ec59a5670f491619ca8ca916ee4a87fdbf8aa"
+    },
+    "robots": "noindex, follow",
+    "sitemap_count": 11,
+    "regression_http": {
+      "/food/cuttack/": 200,
+      "/food/puri-coast/": 200,
+      "/visit/places/mukteswar/": 200
+    },
+    "browser": {
+      "viewport": "1280x900",
+      "cover_screenshot": "/tmp/bmeal-live-cover.png",
+      "exact_keyboard_return": true,
+      "return_hash": "#ref-chhena-poda-p-0-chhena-chef",
+      "focus": "ref-chhena-poda-p-0-chhena-chef",
+      "horizontal_overflow": false
+    }
+  },
+  "test_review": "records/bhubaneswar-meal-editorial-review-2026-10-18.json",
+  "source_mapping": "records/bhubaneswar-meal-editorial-source-mapping-2026-10-18.json",
+  "concurrent_work": "No competing Bhubaneswar meal scope found; current main and open PRs checked, preserving other workers and article content.",
+  "attachment_note": "PR attachment attempted; app returned thread attachment identity count exceeds 100. PR URL retained here.",
+  "counting": "One editorial article; zero substantive500 increment.",
+  "limitations": [
+    "Same-assistant review, not independent human or specialist review.",
+    "No restaurant visit, tasting, interview, current menu, prices or walk availability verified.",
+    "Recipes are examples, not universal formulas or food-safety advice; origin narrative and2016 reporting remain attributed and dated."
+  ]
+}

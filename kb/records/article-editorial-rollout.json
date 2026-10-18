@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-18T23:02:41.270467+00:00",
+  "updated_at": "2026-10-18T23:11:17.686661+00:00",
   "authorization": "UTP-DEC-2026101702",
   "work_id": "UTP-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -1218,13 +1218,22 @@
       "id": "UTP-EDIT-032",
       "route": "/food/bhubaneswar/",
       "title": "A meal in Bhubaneswar",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "Review the Bhubaneswar meal guide individually: explain dalma preparation, pakhala variation, chhena poda adaptation and Old Town korakhai; apply Founder byline, visible sources, natural reading and credited uncropped photograph. Preserve neighbouring authorship and search scope.",
       "source_template": "projects/site/src/pages/food/bhubaneswar.astro",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
         "records/bhubaneswar-meal-editorial-source-mapping-2026-10-18.json",
-        "records/bhubaneswar-meal-editorial-review-2026-10-18.json"
+        "records/bhubaneswar-meal-editorial-review-2026-10-18.json",
+        "records/bhubaneswar-meal-editorial-publication-2026-10-18.json"
       ],
       "blocker": null,
       "acceptance": [
@@ -1232,7 +1241,9 @@
         "Actual source pages and existing KB inspected, retired source replaced, claims mapped without invented tasting or current restaurant verification.",
         "Desktop/mobile review, exact footnote returns, complete city context in portable reading, passing PR checks, approved publication and live receipt before completion."
       ],
-      "started_at": "2026-10-18T22:58:13.619588+00:00"
+      "started_at": "2026-10-18T22:58:13.619588+00:00",
+      "completed_at": "2026-10-18T23:11:17.686661+00:00",
+      "publication_receipt": "records/bhubaneswar-meal-editorial-publication-2026-10-18.json"
     },
     {
       "id": "UTP-EDIT-033",
