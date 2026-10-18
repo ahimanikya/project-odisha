@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-18T19:06:07.836754+00:00",
+  "updated_at": "2026-10-18T19:15:14.372615+00:00",
   "authorization": "UTP-DEC-2026101702",
   "work_id": "UTP-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -1094,13 +1094,22 @@
       "id": "UTP-EDIT-028",
       "route": "/visit/stays/mangalajodi/",
       "title": "Staying in Mangalajodi",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "Mangalajodi stay-area guide: choosing an overnight base around birdwatching, verifying the nature-camp lead and planning room-to-wetland arrangements; individual authorship, sources, photograph and portable reading.",
       "source_template": "projects/site/src/pages/visit/[kind]/[slug].astro",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
         "records/mangalajodi-stay-editorial-source-mapping-2026-10-18.json",
-        "records/mangalajodi-stay-editorial-review-2026-10-18.json"
+        "records/mangalajodi-stay-editorial-review-2026-10-18.json",
+        "records/mangalajodi-stay-editorial-publication-2026-10-18.json"
       ],
       "blocker": null,
       "started_at": "2026-10-18T19:01:55.324959+00:00",
@@ -1108,7 +1117,9 @@
         "Check actual official material for season and the accommodation lead; do not imply inspected rooms or confirmed current service.",
         "Explain when staying nearby is useful and which room, transfer and outing arrangements need separate confirmation; inspect full-frame documentary photograph and preserve rights.",
         "Test visible notes, exact returns, portable narrative and adjacent routes; inspect desktop/mobile, then passing PR, reviewed merge, approved deployment and live receipt before completion. Zero substantive500 increment."
-      ]
+      ],
+      "completed_at": "2026-10-18T19:15:14.372615+00:00",
+      "publication_receipt": "records/mangalajodi-stay-editorial-publication-2026-10-18.json"
     },
     {
       "id": "UTP-EDIT-029",
