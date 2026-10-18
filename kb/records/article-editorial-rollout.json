@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-18T02:55:56.214380+00:00",
+  "updated_at": "2026-10-18T07:06:14.787695+00:00",
   "authorization": "UTP-DEC-2026101702",
   "work_id": "UTP-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -970,12 +970,21 @@
       "id": "UTP-EDIT-024",
       "route": "/visit/places/satapada/",
       "title": "Satapada",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
+      "status": "in_progress",
+      "scope": "Satapada place article: reader question, source-based dolphin context, natural reading, Founder byline, visible footnotes, retained regional image and portable reading.",
+      "source_template": "projects/site/src/pages/visit/[kind]/[slug].astro",
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/satapada-editorial-review-2026-10-18.json",
+        "records/satapada-editorial-source-mapping-2026-10-18.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-10-18T07:02:37.107188+00:00",
+      "acceptance": [
+        "Inspect existing evidence and source material; distinguish visitor suggestions from documented ecology.",
+        "Preserve image provenance and regional caption; review desktop/mobile and exact footnote returns.",
+        "Pass full/coastal tests, merge reviewed PR head, approved deployment and live receipt; zero substantive500 increment."
+      ]
     },
     {
       "id": "UTP-EDIT-025",
