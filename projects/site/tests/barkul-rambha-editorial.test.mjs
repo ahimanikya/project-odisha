@@ -18,7 +18,7 @@ test('Barkul and Rambha stay distinguishes published property leads from verifie
  assert.equal((page.match(/data-footnote-ref/g)||[]).length,2);
  for(const phrase of ['Neither property','Ghantasila hills','Breakfast Island','not a confirmed itinerary','does not identify a Barkul or Rambha property'])assert.ok(page.includes(phrase));
  assert.ok(!page.split('<section id="story-sources"')[1].split('</section>')[0].includes('chilika-nature-camps.html'));
- assert.match(read('dist/visit/stays/rajhans-satapada/index.html'),/Drafted with AI assistance/);
+ assert.match(read('dist/visit/stays/konark/index.html'),/Drafted with AI assistance/);
  assert.match(page,/data-save-journey="base:chilika-barkul-rambha"/);
 });
 test('Barkul and Rambha stay portable reading keeps all planning paragraphs and concise sources with photograph provenance',()=>{
