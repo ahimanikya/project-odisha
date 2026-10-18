@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 394. completed: 19, excluded: 9, queued: 366.
+Route inventory: 394. completed: 19, excluded: 9, in_progress: 1, queued: 365.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -41,7 +41,7 @@ Route inventory: 394. completed: 19, excluded: 9, queued: 366.
 | UTP-EDIT-025 | [Watch the wetlands at Mangalajodi](https://projectodisha.org/visit/experiences/mangalajodi-birdwatching/) | completed | Mangalajodi birdwatching experience: practical observation exercise, season and restraint, Founder byline, visible footnotes, dated boat photo and portable reading. |
 | UTP-EDIT-026 | [Take the boat to Kalijai](https://projectodisha.org/visit/experiences/kalijai-crossing/) | completed | Kalijai crossing: plan the return, understand the shrine story and listen respectfully; individual byline, footnotes, image and portable-reading review. |
 | UTP-EDIT-027 | [Look for dolphins from Satapada](https://projectodisha.org/visit/experiences/satapada-boating/) | completed | Satapada boating: realistic dolphin observation, operator questions and why approach matters; individual byline, footnotes, image and portable reading. |
-| UTP-EDIT-028 | [Staying in Mangalajodi](https://projectodisha.org/visit/stays/mangalajodi/) | queued | classification_pending |
+| UTP-EDIT-028 | [Staying in Mangalajodi](https://projectodisha.org/visit/stays/mangalajodi/) | in_progress | Mangalajodi stay-area guide: choosing an overnight base around birdwatching, verifying the nature-camp lead and planning room-to-wetland arrangements; individual authorship, sources, photograph and portable reading. |
 | UTP-EDIT-029 | [Staying in Barkul or Rambha](https://projectodisha.org/visit/stays/barkul-rambha/) | queued | classification_pending |
 | UTP-EDIT-030 | [Staying around Rajhans and Satapada](https://projectodisha.org/visit/stays/rajhans-satapada/) | queued | classification_pending |
 | UTP-EDIT-031 | [Mukteswar](https://projectodisha.org/visit/places/mukteswar/) | queued | classification_pending |
