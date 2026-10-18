@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-18T00:41:11.709360+00:00",
+  "updated_at": "2026-10-18T00:57:50.963226+00:00",
   "authorization": "UTP-DEC-2026101702",
   "work_id": "UTP-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -883,12 +883,26 @@
       "id": "UTP-EDIT-021",
       "route": "/knowledge/chilika/",
       "title": "Chilika Lake · Birds, boats &amp; local stories",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "Chilika lagoon article, poetry and listening, dated ecological evidence, cultural legend, practical notebook and portable reading. Inspect sources and existing photographs individually; add Founder byline and visible mapped notes, natural reading and restrained source attribution. Acceptance: source/image review, exact footnote returns, shared Konark regression checks, responsive review, tested PR, approved deployment and actual live receipt. No substantive500 count.",
       "source_template": "projects/site/src/components/MagazinePlace.astro",
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/chilika-editorial-review-2026-10-18.json",
+        "records/chilika-editorial-source-mapping-2026-10-18.json",
+        "records/chilika-editorial-publication-2026-10-18.json"
+      ],
+      "blocker": null,
+      "publication_receipt": "records/chilika-editorial-publication-2026-10-18.json",
+      "completed_at": "2026-10-18T00:57:50.963226+00:00"
     },
     {
       "id": "UTP-EDIT-022",
