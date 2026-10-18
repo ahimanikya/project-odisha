@@ -18,7 +18,7 @@ test('Mangalajodi has visible sources and exact returns without assigning the un
  }
  assert.equal((page.match(/data-footnote-ref/g)||[]).length,6);
  assert.equal((page.match(/data-footnote-backref/g)||[]).length,6);
- for(const route of ['stays/mangalajodi']){
+ for(const route of ['stays/barkul-rambha']){
   const other=read(`dist/visit/${route}/index.html`);
   assert.doesNotMatch(other,/By Ahimanikya Satapathy/);
   assert.match(other,/Drafted with AI assistance/);
