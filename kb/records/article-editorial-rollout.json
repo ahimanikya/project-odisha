@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-18T19:15:14.372615+00:00",
+  "updated_at": "2026-10-18T20:00:58.888532+00:00",
   "authorization": "UTP-DEC-2026101702",
   "work_id": "UTP-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -1125,12 +1125,21 @@
       "id": "UTP-EDIT-029",
       "route": "/visit/stays/barkul-rambha/",
       "title": "Staying in Barkul or Rambha",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
+      "status": "in_progress",
+      "scope": "Barkul and Rambha stay-area comparison: distinguish the two bases and boat routes, qualify published accommodation leads, and connect property choice to the intended outing. Individual prose, sources, byline, image and portable reading.",
+      "source_template": "projects/site/src/pages/visit/[kind]/[slug].astro",
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/barkul-rambha-editorial-source-mapping-2026-10-18.json",
+        "records/barkul-rambha-editorial-review-2026-10-18.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-10-18T19:56:47.015812+00:00",
+      "acceptance": [
+        "Read actual official evidence for both bases and routes; replace the broken source without inventing current services, prices or inspected accommodation.",
+        "Give a useful comparison and concrete booking questions with restrained visible footnotes; inspect the regional documentary photograph and preserve rights.",
+        "Full/coastal tests, desktop/mobile reading and source returns, passing PR, reviewed merge, approved deployment and actual live receipt before completion. Zero substantive500 increment."
+      ]
     },
     {
       "id": "UTP-EDIT-030",

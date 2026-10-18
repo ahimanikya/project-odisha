@@ -8,14 +8,14 @@ test('detail pages link place, experience and stay research with pictures and ev
  assert.equal(new Set(routes).size,routes.length);
  for(const r of records){
   const html=read(`visit/${r.kind}/${r.slug}`);
-  if((r.kind==='stays'&&r.slug==='mangalajodi')||(r.kind==='experiences'&&['mangalajodi-birdwatching','kalijai-crossing','satapada-boating'].includes(r.slug))||(r.kind==='places'&&['mangalajodi','kalijai','satapada'].includes(r.slug))){assert.match(html,/By Ahimanikya Satapathy/);assert.match(html,/<section id="story-sources"/);}else assert.ok(html.includes('Editorial draft'));
+  if((r.kind==='stays'&&['mangalajodi','barkul-rambha'].includes(r.slug))||(r.kind==='experiences'&&['mangalajodi-birdwatching','kalijai-crossing','satapada-boating'].includes(r.slug))||(r.kind==='places'&&['mangalajodi','kalijai','satapada'].includes(r.slug))){assert.match(html,/By Ahimanikya Satapathy/);assert.match(html,/<section id="story-sources"/);}else assert.ok(html.includes('Editorial draft'));
   assert.match(html, /<figure[^>]*id="story-image"[^>]*><img[^>]+src="[^"]+"[^>]+alt="[^"]+"/);
   assert.ok(html.includes('id="sources-credits"'));
   assert.ok(html.includes(`/knowledge/${r.parent}/`));
   assert.ok(html.includes('creativecommons.org/licenses/'));
   assert.ok(r.sources.length>0);
   for(const link of r.related){const rootLink=link.startsWith('knowledge/')||link.startsWith('food/'); const route=(rootLink?'':'visit/')+link; assert.ok(rootLink||routes.includes(link)); assert.ok(read(route).includes('<main')); assert.ok(html.includes(`href="/${route}/"`));}
-  if(r.kind==='stays'){assert.equal(r.entity_type,'base_area');if(r.slug==='mangalajodi'){assert.ok(html.includes('has not inspected its rooms'));assert.ok(html.includes('not a room or a view promised'));}else{assert.ok(html.includes('not a reviewed property'));assert.ok(html.includes('does not show a room'));}}
+  if(r.kind==='stays'){assert.equal(r.entity_type,'base_area');if(r.slug==='mangalajodi'){assert.ok(html.includes('has not inspected its rooms'));assert.ok(html.includes('not a room or a view promised'));}else if(r.slug==='barkul-rambha'){assert.ok(html.includes('have been inspected or confirmed'));assert.ok(html.includes('does not identify a Barkul or Rambha property'));}else{assert.ok(html.includes('not a reviewed property'));assert.ok(html.includes('does not show a room'));}}
  }
 });
 test('both destination journeys have manual controls, honest depiction and labelled optional audio',()=>{
