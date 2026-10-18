@@ -20,10 +20,10 @@
       "refresh_rule": "Annual; retain calendar year and pre-pandemic benchmark. Visits are not unique people. Hold the conflicting 2024 foreign-visits totals until scope and revisions are reconciled.",
       "discovery": "Check the original publisher for successor releases, not only this fixed historical URL.",
       "last_agent_check": {
-        "at": "2026-10-11T16:12:19.349772+00:00",
-        "run_id": "2026-10-11T160110Z",
+        "at": "2026-10-18T03:37:13.440713+00:00",
+        "run_id": "2026-10-18T033247Z",
         "status": "conflicted",
-        "scope": "Catalogue still lists Statistical Bulletin2024 and Annual Report2025–26; bulletin download unavailable. Known foreign-visits conflict retained."
+        "scope": "Catalogue still lists bulletin2024 and annual2025–26. Reuse12October original-table captures only within their saved scope; foreign-visits disagreement not resolved by a new publisher note."
       },
       "discovery_source_ids": [
         "pipeline-tourism-releases"
@@ -37,6 +37,12 @@
           "at": "2026-09-27T09:11:23-07:00",
           "run_id": "2026-09-27T160140Z",
           "status": "conflicted"
+        },
+        {
+          "at": "2026-10-11T16:12:19.349772+00:00",
+          "run_id": "2026-10-11T160110Z",
+          "status": "conflicted",
+          "scope": "Catalogue still lists Statistical Bulletin2024 and Annual Report2025–26; bulletin download unavailable. Known foreign-visits conflict retained."
         }
       ]
     },
@@ -58,10 +64,10 @@
       "refresh_rule": "Annual and revisions; keep current/constant prices, base year and AE/RE/actual status.",
       "discovery": "Check the original publisher for successor releases, not only this fixed historical URL.",
       "last_agent_check": {
-        "at": "2026-10-11T16:12:19.349772+00:00",
-        "run_id": "2026-10-11T160110Z",
+        "at": "2026-10-18T03:37:13.440713+00:00",
+        "run_id": "2026-10-18T033247Z",
         "status": "unavailable",
-        "scope": "Economic Survey catalogue latest2025–26; DES tables unavailable. Catalogue check does not revalidate underlying values."
+        "scope": "Survey catalogue latest2025–26; DES now exposes tables through2025–26 but linked current-price file failed. No newly verified revised values."
       },
       "discovery_source_ids": [
         "pipeline-economic-releases",
@@ -77,6 +83,12 @@
           "at": "2026-09-27T09:11:23-07:00",
           "run_id": "2026-09-27T160140Z",
           "status": "unchanged"
+        },
+        {
+          "at": "2026-10-11T16:12:19.349772+00:00",
+          "run_id": "2026-10-11T160110Z",
+          "status": "unavailable",
+          "scope": "Economic Survey catalogue latest2025–26; DES tables unavailable. Catalogue check does not revalidate underlying values."
         }
       ]
     },
@@ -95,10 +107,10 @@
       "refresh_rule": "Annual and revisions; recalculate matched five/ten-year endpoints only.",
       "discovery": "Check the original publisher for successor releases, not only this fixed historical URL.",
       "last_agent_check": {
-        "at": "2026-10-11T16:12:19.349772+00:00",
-        "run_id": "2026-10-11T160110Z",
+        "at": "2026-10-18T03:37:13.440713+00:00",
+        "run_id": "2026-10-18T033247Z",
         "status": "unavailable",
-        "scope": "Survey catalogue unchanged; current underlying sector table retrieval incomplete. Saved estimates retained."
+        "scope": "DES GSVA listing through2025–26 recovered; linked table unavailable. Existing estimates/calculations retained."
       },
       "discovery_source_ids": [
         "pipeline-economic-releases",
@@ -114,6 +126,12 @@
           "at": "2026-09-27T09:11:23-07:00",
           "run_id": "2026-09-27T160140Z",
           "status": "unavailable"
+        },
+        {
+          "at": "2026-10-11T16:12:19.349772+00:00",
+          "run_id": "2026-10-11T160110Z",
+          "status": "unavailable",
+          "scope": "Survey catalogue unchanged; current underlying sector table retrieval incomplete. Saved estimates retained."
         }
       ]
     },
@@ -137,10 +155,10 @@
       "refresh_rule": "Published periods; distinguish currency values, physical quantities and coverage.",
       "discovery": "Check the original publisher for successor releases, not only this fixed historical URL.",
       "last_agent_check": {
-        "at": "2026-10-11T16:12:19.349772+00:00",
-        "run_id": "2026-10-11T160110Z",
+        "at": "2026-10-18T03:37:13.440713+00:00",
+        "run_id": "2026-10-18T033247Z",
         "status": "unchanged",
-        "scope": "July9 fisheries release recovered with same2025–26 seafood scope; broader survey export revision check unavailable."
+        "scope": "Saved9July fisheries release recovered with same FY2025–26 seafood scope; targeted publisher discovery did not establish a successor Odisha series. Survey-wide revision not revalidated."
       },
       "discovery_source_ids": [
         "pipeline-economic-releases",
@@ -156,6 +174,12 @@
           "at": "2026-09-27T09:11:23-07:00",
           "run_id": "2026-09-27T160140Z",
           "status": "changed"
+        },
+        {
+          "at": "2026-10-11T16:12:19.349772+00:00",
+          "run_id": "2026-10-11T160110Z",
+          "status": "unchanged",
+          "scope": "July9 fisheries release recovered with same2025–26 seafood scope; broader survey export revision check unavailable."
         }
       ]
     },
@@ -165,7 +189,8 @@
       "source_ids": [
         "legacy-port",
         "legacy-ports",
-        "weekly-paradip-oct2026"
+        "weekly-paradip-oct2026",
+        "weekly-paradip-20261017"
       ],
       "seed_urls": [
         "https://paradipport.gov.in/all_news/paradip-port-registers-historic-high-cargo-handling-in-fy-25-26-best-ever-in-its-history/",
@@ -177,10 +202,10 @@
       "refresh_rule": "Published monthly, year-to-date or annual totals; compare like periods. Verify any rank against the full comparison set.",
       "discovery": "Check the original publisher for successor releases, not only this fixed historical URL.",
       "last_agent_check": {
-        "at": "2026-10-11T16:12:19.349772+00:00",
-        "run_id": "2026-10-11T160110Z",
+        "at": "2026-10-18T03:37:13.440713+00:00",
+        "run_id": "2026-10-18T033247Z",
         "status": "changed",
-        "scope": "Daily report11October gives financial-year cargo through10October2026 versus same date2025, and matched1–10October totals. Four observations and two calculations appended; annual series untouched."
+        "scope": "17October report closes16October: FY2026–27 cargo83,028,371tonnes versus83,067,471same-date prior year; matched1–16October7,064,399versus6,287,421. Four new observations and two calculations; annual history retained."
       },
       "discovery_source_ids": [
         "pipeline-paradip-traffic"
@@ -194,6 +219,12 @@
           "at": "2026-09-27T09:11:23-07:00",
           "run_id": "2026-09-27T160140Z",
           "status": "unchanged"
+        },
+        {
+          "at": "2026-10-11T16:12:19.349772+00:00",
+          "run_id": "2026-10-11T160110Z",
+          "status": "changed",
+          "scope": "Daily report11October gives financial-year cargo through10October2026 versus same date2025, and matched1–10October totals. Four observations and two calculations appended; annual series untouched."
         }
       ]
     },
@@ -215,10 +246,10 @@
       "refresh_rule": "Check official project releases, company filings and public capital-outlay accounts. Separate actual/RE/BE, project stages and financing scope; deduplicate projects. Saved FDI remains background, not a standalone weekly track.",
       "discovery": "Check the original publisher for successor releases, not only this fixed historical URL.",
       "last_agent_check": {
-        "at": "2026-10-11T16:12:19.349772+00:00",
-        "run_id": "2026-10-11T160110Z",
+        "at": "2026-10-18T03:37:13.440713+00:00",
+        "run_id": "2026-10-18T033247Z",
         "status": "unavailable",
-        "scope": "InvestOdisha unavailable; no new realised spending/output established. Announcements and undated counters not promoted."
+        "scope": "InvestOdisha failed; targeted PIB discovery returned existing prospective semiconductor releases. No newly verified realised spending/output."
       },
       "discovery_source_ids": [
         "pipeline-economic-releases",
@@ -236,6 +267,12 @@
           "at": "2026-09-27T09:11:23-07:00",
           "run_id": "2026-09-27T160140Z",
           "status": "unchanged"
+        },
+        {
+          "at": "2026-10-11T16:12:19.349772+00:00",
+          "run_id": "2026-10-11T160110Z",
+          "status": "unavailable",
+          "scope": "InvestOdisha unavailable; no new realised spending/output established. Announcements and undated counters not promoted."
         }
       ],
       "research_captures": [
@@ -271,10 +308,10 @@
       "refresh_rule": "Event-driven snapshots; distinguish Bhubaneswar, Rourkela and combined counts. Do not infer quality or liveability.",
       "discovery": "Check the original publisher for successor releases, not only this fixed historical URL.",
       "last_agent_check": {
-        "at": "2026-10-11T16:12:19.349772+00:00",
-        "run_id": "2026-10-11T160110Z",
+        "at": "2026-10-18T03:37:13.440713+00:00",
+        "run_id": "2026-10-18T033247Z",
         "status": "unchanged",
-        "scope": "Saved March parliamentary answer recovered; no newer completion snapshot established. Urban catalogue unavailable; tenders do not establish completion."
+        "scope": "Saved16March parliamentary answer recovered. Urban catalogue lists2025–26 report but linked document failed; no newer verified city completion snapshot. Unchanged only within saved-answer scope."
       },
       "discovery_source_ids": [
         "pipeline-urban-releases",
@@ -290,6 +327,12 @@
           "at": "2026-09-27T09:11:23-07:00",
           "run_id": "2026-09-27T160140Z",
           "status": "changed"
+        },
+        {
+          "at": "2026-10-11T16:12:19.349772+00:00",
+          "run_id": "2026-10-11T160110Z",
+          "status": "unchanged",
+          "scope": "Saved March parliamentary answer recovered; no newer completion snapshot established. Urban catalogue unavailable; tenders do not establish completion."
         }
       ]
     },
@@ -313,10 +356,10 @@
       "refresh_rule": "Event/annual releases; distinguish product basis, installed capacity, actual output and corridor proposal.",
       "discovery": "Check the original publisher for successor releases, not only this fixed historical URL.",
       "last_agent_check": {
-        "at": "2026-10-11T16:12:19.349772+00:00",
-        "run_id": "2026-10-11T160110Z",
+        "at": "2026-10-18T03:37:13.440713+00:00",
+        "run_id": "2026-10-18T033247Z",
         "status": "unchanged",
-        "scope": "IREL annual catalogue latest2024–25 and OSCOM plant page recovered. No newly established operating output; capacity and proposals retained separately."
+        "scope": "IREL catalogue latest2024–25; plant page still reports11,200tpa installed MRCL capacity. No successor output series identified; corridor remains proposal."
       },
       "discovery_source_ids": [
         "pipeline-irel-releases",
@@ -332,6 +375,12 @@
           "at": "2026-09-27T09:11:23-07:00",
           "run_id": "2026-09-27T160140Z",
           "status": "changed"
+        },
+        {
+          "at": "2026-10-11T16:12:19.349772+00:00",
+          "run_id": "2026-10-11T160110Z",
+          "status": "unchanged",
+          "scope": "IREL annual catalogue latest2024–25 and OSCOM plant page recovered. No newly established operating output; capacity and proposals retained separately."
         }
       ]
     },
@@ -357,10 +406,10 @@
       "refresh_rule": "Event releases; retain planned/approved/groundbreaking/commissioned/operating status, projected jobs and overlapping project scope.",
       "discovery": "Check the original publisher for successor releases, not only this fixed historical URL.",
       "last_agent_check": {
-        "at": "2026-10-11T16:12:19.349772+00:00",
-        "run_id": "2026-10-11T160110Z",
+        "at": "2026-10-18T03:37:13.440713+00:00",
+        "run_id": "2026-10-18T033247Z",
         "status": "unchanged",
-        "scope": "Saved18September proposal release recovered; no newer operating output established. Potential jobs and proposals remain prospective."
+        "scope": "Targeted primary-publisher discovery returns saved15/18September approvals/proposals. No newer commissioning/output established; investment and potential jobs remain prospective."
       },
       "discovery_source_ids": [
         "pipeline-pib-releases"
@@ -374,6 +423,12 @@
           "at": "2026-09-27T09:11:23-07:00",
           "run_id": "2026-09-27T160140Z",
           "status": "unchanged"
+        },
+        {
+          "at": "2026-10-11T16:12:19.349772+00:00",
+          "run_id": "2026-10-11T160110Z",
+          "status": "unchanged",
+          "scope": "Saved18September proposal release recovered; no newer operating output established. Potential jobs and proposals remain prospective."
         }
       ]
     },
@@ -394,10 +449,10 @@
       "refresh_rule": "Quarterly. Stocks, guarantees, registrations and disbursements are separate; preserve district rounding and CD-ratio conflict.",
       "discovery": "Check original publisher release listings first. Historical URLs are baselines. Rotate unresolved table-retrieval backlog across runs; do not label inaccessible sources unchanged.",
       "last_agent_check": {
-        "at": "2026-10-11T16:12:19.349772+00:00",
-        "run_id": "2026-10-11T160110Z",
+        "at": "2026-10-18T03:37:13.440713+00:00",
+        "run_id": "2026-10-18T033247Z",
         "status": "conflicted",
-        "scope": "SLBC latest184th agenda/June2026 listing retained. Known credit/deposit scope conflicts remain quarantined."
+        "scope": "SLBC latest184thagenda and30June2026cluster listing retained; September entry-form link is not a published result. Existing denominator conflicts retained."
       },
       "discovery_source_ids": [
         "pipeline-slbc-releases"
@@ -411,6 +466,12 @@
           "at": "2026-09-27T09:11:23-07:00",
           "run_id": "2026-09-27T160140Z",
           "status": "unavailable"
+        },
+        {
+          "at": "2026-10-11T16:12:19.349772+00:00",
+          "run_id": "2026-10-11T160110Z",
+          "status": "conflicted",
+          "scope": "SLBC latest184th agenda/June2026 listing retained. Known credit/deposit scope conflicts remain quarantined."
         }
       ]
     },
@@ -433,10 +494,10 @@
       "refresh_rule": "Monthly and annual. Provisional cumulative accounts, budgets and audited spending must remain separate; note excluded accounts and audit adjustments.",
       "discovery": "Check original publisher release listings first. Historical URLs are baselines. Rotate unresolved table-retrieval backlog across runs; do not label inaccessible sources unchanged.",
       "last_agent_check": {
-        "at": "2026-10-11T16:12:19.349772+00:00",
-        "run_id": "2026-10-11T160110Z",
+        "at": "2026-10-18T03:37:13.440713+00:00",
+        "run_id": "2026-10-18T033247Z",
         "status": "unavailable",
-        "scope": "CAG catalogue latestAugust2026; monthly PDF unavailable. No September values established."
+        "scope": "Current CAG route shows2026–27monthly entries only throughJune, unlike savedAugust catalogue history. No deletion or revision inferred; no September values or comparable new monthly table verified."
       },
       "discovery_source_ids": [
         "pipeline-cag-releases"
@@ -450,6 +511,12 @@
           "at": "2026-09-27T09:11:23-07:00",
           "run_id": "2026-09-27T160140Z",
           "status": "unavailable"
+        },
+        {
+          "at": "2026-10-11T16:12:19.349772+00:00",
+          "run_id": "2026-10-11T160110Z",
+          "status": "unavailable",
+          "scope": "CAG catalogue latestAugust2026; monthly PDF unavailable. No September values established."
         }
       ]
     },
@@ -482,10 +549,10 @@
       "refresh_rule": "Check publication catalogues weekly; import only new survey/annual releases. Preserve survey design, age, sex, recall period and baseline vintages. Include deteriorating results.",
       "discovery": "Check original publisher release listings first. Historical URLs are baselines. Rotate unresolved table-retrieval backlog across runs; do not label inaccessible sources unchanged.",
       "last_agent_check": {
-        "at": "2026-10-11T16:12:19.349772+00:00",
-        "run_id": "2026-10-11T160110Z",
+        "at": "2026-10-18T03:37:13.440713+00:00",
+        "run_id": "2026-10-18T033247Z",
         "status": "unavailable",
-        "scope": "NFHS release route and UDISE report unavailable; UDISE and MoSPI catalogue pages returned JS/empty content. No unchanged metric claim."
+        "scope": "NFHS/UDISE routes timed out; MoSPI page unreadable. No release absence or unchanged metric inferred."
       },
       "discovery_source_ids": [
         "weekly-nfhs-district-release",
@@ -505,6 +572,12 @@
           "at": "2026-09-27T09:11:23-07:00",
           "run_id": "2026-09-27T160140Z",
           "status": "changed"
+        },
+        {
+          "at": "2026-10-11T16:12:19.349772+00:00",
+          "run_id": "2026-10-11T160110Z",
+          "status": "unavailable",
+          "scope": "NFHS release route and UDISE report unavailable; UDISE and MoSPI catalogue pages returned JS/empty content. No unchanged metric claim."
         }
       ],
       "research_captures": [
@@ -544,10 +617,10 @@
       "refresh_rule": "Annual or assessment-specific. Preserve area versus output, revised forest baselines and seasonal wildlife count methods.",
       "discovery": "Check original publisher release listings first. Historical URLs are baselines. Rotate unresolved table-retrieval backlog across runs; do not label inaccessible sources unchanged.",
       "last_agent_check": {
-        "at": "2026-10-11T16:12:19.349772+00:00",
-        "run_id": "2026-10-11T160110Z",
+        "at": "2026-10-18T03:37:13.440713+00:00",
+        "run_id": "2026-10-18T033247Z",
         "status": "conflicted",
-        "scope": "FSI catalogue latestISFR2023; July fisheries release same scope. Known anomalous Chilika dolphin value remains quarantined; no new agriculture series."
+        "scope": "FSI latestISFR2023 listing and savedJuly fisheries release recovered. Known Chilika anomaly held; no new crop/forest observation promoted."
       },
       "discovery_source_ids": [
         "pipeline-fsi-releases",
@@ -565,6 +638,12 @@
           "at": "2026-09-27T09:11:23-07:00",
           "run_id": "2026-09-27T160140Z",
           "status": "changed"
+        },
+        {
+          "at": "2026-10-11T16:12:19.349772+00:00",
+          "run_id": "2026-10-11T160110Z",
+          "status": "conflicted",
+          "scope": "FSI catalogue latestISFR2023; July fisheries release same scope. Known anomalous Chilika dolphin value remains quarantined; no new agriculture series."
         }
       ]
     },
@@ -591,10 +670,10 @@
       "refresh_rule": "Follow administrative and annual release cadence. Connections and installed capacity do not establish service quality. PM10 is not AQI; do not conflate city pollution and cleanliness.",
       "discovery": "Check original publisher release listings first. Historical URLs are baselines. Rotate unresolved table-retrieval backlog across runs; do not label inaccessible sources unchanged.",
       "last_agent_check": {
-        "at": "2026-10-11T16:12:19.349772+00:00",
-        "run_id": "2026-10-11T160110Z",
+        "at": "2026-10-18T03:37:13.440713+00:00",
+        "run_id": "2026-10-18T033247Z",
         "status": "unavailable",
-        "scope": "Urban report catalogue unavailable; historical OSDMA page recovered. No current rural-water, PM10 or urban-service revision established."
+        "scope": "Urban catalogue lists2025–26report, linked original failed. No new rural-water, PM10 or service-quality table verified."
       },
       "discovery_source_ids": [
         "pipeline-urban-releases",
@@ -610,6 +689,12 @@
           "at": "2026-09-27T09:11:23-07:00",
           "run_id": "2026-09-27T160140Z",
           "status": "unavailable"
+        },
+        {
+          "at": "2026-10-11T16:12:19.349772+00:00",
+          "run_id": "2026-10-11T160110Z",
+          "status": "unavailable",
+          "scope": "Urban report catalogue unavailable; historical OSDMA page recovered. No current rural-water, PM10 or urban-service revision established."
         }
       ]
     },
@@ -622,7 +707,8 @@
         "connect-internet2025",
         "weekly-trai-mar2026",
         "weekly-trai-annual2026",
-        "connect-airport-aug2026"
+        "connect-airport-aug2026",
+        "weekly-trai-jun2026"
       ],
       "seed_urls": [
         "https://www.aai.aero/sites/default/files/traffic-news/Mar2k26Annex3.pdf",
@@ -639,10 +725,10 @@
       "refresh_rule": "Monthly, quarterly or event-based. Match full periods, passengers versus unique people, track versus route kilometres, and subscriptions versus persons.",
       "discovery": "Check original publisher release listings first. Historical URLs are baselines. Rotate unresolved table-retrieval backlog across runs; do not label inaccessible sources unchanged.",
       "last_agent_check": {
-        "at": "2026-10-11T16:12:19.349772+00:00",
-        "run_id": "2026-10-11T160110Z",
+        "at": "2026-10-18T03:37:13.440713+00:00",
+        "run_id": "2026-10-18T033247Z",
         "status": "changed",
-        "scope": "TRAI annual2025–26 release5October repeats six March2026 Odisha values already saved; edition captured without duplicate observations. AAI direct listing unavailable; indexedAugust listing is discovery only. Saved rail release unchanged."
+        "scope": "TRAI April–June2026 report released12October; Odisha state table gives31.15million internet subscriptions at30June. Six observations and three rounded quarter-change calculations appended. AAI direct listing timed out; no September airport totals verified."
       },
       "discovery_source_ids": [
         "pipeline-aai-traffic",
@@ -660,6 +746,12 @@
           "at": "2026-09-27T09:11:23-07:00",
           "run_id": "2026-09-27T160140Z",
           "status": "changed"
+        },
+        {
+          "at": "2026-10-11T16:12:19.349772+00:00",
+          "run_id": "2026-10-11T160110Z",
+          "status": "changed",
+          "scope": "TRAI annual2025–26 release5October repeats six March2026 Odisha values already saved; edition captured without duplicate observations. AAI direct listing unavailable; indexedAugust listing is discovery only. Saved rail release unchanged."
         }
       ]
     },
@@ -682,10 +774,10 @@
       "refresh_rule": "Annual and administrative updates. Applications are not grants; registries have different populations; preserve investment versus approval status.",
       "discovery": "Check original publisher release listings first. Historical URLs are baselines. Rotate unresolved table-retrieval backlog across runs; do not label inaccessible sources unchanged.",
       "last_agent_check": {
-        "at": "2026-10-11T16:12:19.349772+00:00",
-        "run_id": "2026-10-11T160110Z",
-        "status": "unchanged",
-        "scope": "IPIndia annual route failed and wall-of-fame timed out. Indexed national figures do not establish a new Odisha observation."
+        "at": "2026-10-18T03:37:13.440713+00:00",
+        "run_id": "2026-10-18T033247Z",
+        "status": "unavailable",
+        "scope": "IPIndia annual-report route failed; targeted official discovery did not establish a new Odisha table. Not unchanged."
       },
       "discovery_source_ids": [
         "pipeline-ipindia-releases",
@@ -701,6 +793,12 @@
           "at": "2026-09-27T09:11:23-07:00",
           "run_id": "2026-09-27T160140Z",
           "status": "unavailable"
+        },
+        {
+          "at": "2026-10-11T16:12:19.349772+00:00",
+          "run_id": "2026-10-11T160110Z",
+          "status": "unchanged",
+          "scope": "IPIndia annual route failed and wall-of-fame timed out. Indexed national figures do not establish a new Odisha observation."
         }
       ]
     },
@@ -738,10 +836,10 @@
       "refresh_rule": "Annual, census or event-based. Historic inventories are not current operating availability; no inferred tourism spending or economic impact. For homestays, preserve targets versus active properties; fetch later amendments and full target tables, retain rooms/beds conflict, and use only comparable room-night series for demand. Failed/empty portals are unavailable, not zero or unchanged.",
       "discovery": "Check original publisher release listings first. Historical URLs are baselines. Rotate unresolved table-retrieval backlog across runs; do not label inaccessible sources unchanged.",
       "last_agent_check": {
-        "at": "2026-10-11T16:12:19.349772+00:00",
-        "run_id": "2026-10-11T160110Z",
+        "at": "2026-10-18T03:37:13.440713+00:00",
+        "run_id": "2026-10-18T033247Z",
         "status": "conflicted",
-        "scope": "Tourism and rooms/beds conflicts retained. Guidelines recovered; GoHomestay JS shell cannot establish active availability. No fresh craft or operating count promoted."
+        "scope": "Tourism catalogue/guidelines recovered; GoHomestay empty/JS response cannot establish active properties. Rooms/beds and tourism counts unresolved; no current craft/operating totals promoted."
       },
       "scope_expanded_on": "2026-09-30",
       "discovery_source_ids": [
@@ -758,6 +856,12 @@
           "at": "2026-09-27T09:11:23-07:00",
           "run_id": "2026-09-27T160140Z",
           "status": "conflicted"
+        },
+        {
+          "at": "2026-10-11T16:12:19.349772+00:00",
+          "run_id": "2026-10-11T160110Z",
+          "status": "conflicted",
+          "scope": "Tourism and rooms/beds conflicts retained. Guidelines recovered; GoHomestay JS shell cannot establish active availability. No fresh craft or operating count promoted."
         }
       ]
     }

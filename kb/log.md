@@ -723,3 +723,7 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 3 October 2026 · Puri downloadable business starter
 
 [Research receipt](records/puri-starter-guide-2026-10-03.json): created a nine-page guide with 26 blank fields, linked evidence and a manual financial worksheet. Saved and reopened test fields; no website change.
+
+## 18 October 2026 · Weekly port and telecom data candidate
+
+[Weekly data receipt](records/weekly-data-2026-10-18.json): sixJune internet observations and fourParadip matched partial-period cargo observations, with five calculations. Seventeen primary-publisher tracks checked with partial availability; conflicts and unavailable tables retained. Routine research-only update under existing user authorisation; no public website change or new article rollout claimed.

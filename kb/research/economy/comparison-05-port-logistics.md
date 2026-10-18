@@ -5,7 +5,7 @@ description: "Port logistics — Paradip cargo throughput (2015-16–2025-26) �
 tags: ["economy", "growth", "port-logistics"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T08:14:32+00:00"}
-sources: [{"id": "comparison-5-1", "title": "Port logistics comparison source 1", "resource": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=160016"}, {"id": "comparison-5-2", "title": "Port logistics comparison source 2", "resource": "https://paradipport.gov.in/all_news/paradip-port-registers-historic-high-cargo-handling-in-fy-25-26-best-ever-in-its-history/"}, {"id": "weekly-paradip-oct2026", "title": "Paradip Port Authority daily traffic report, 11 October 2026", "resource": "https://www.paradipport.gov.in/uploads/2026/10/dtr1110.pdf"}]
+sources: [{"id": "comparison-5-1", "title": "Port logistics comparison source 1", "resource": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=160016"}, {"id": "comparison-5-2", "title": "Port logistics comparison source 2", "resource": "https://paradipport.gov.in/all_news/paradip-port-registers-historic-high-cargo-handling-in-fy-25-26-best-ever-in-its-history/"}, {"id": "weekly-paradip-oct2026", "title": "Paradip Port Authority daily traffic report, 11 October 2026", "resource": "https://www.paradipport.gov.in/uploads/2026/10/dtr1110.pdf"}, {"id": "weekly-paradip-20261017", "title": "Paradip Port Authority daily traffic report, 17 October 2026", "resource": "https://www.paradipport.gov.in/uploads/2026/10/dtr1710.pdf"}]
 evidence_status: "Imported source data; arithmetic rechecked"
 stale_after: "2027-03-01T00:00:00Z"
 ---
@@ -41,3 +41,16 @@ The endpoints were freshly checked for the [maritime comparison](../trade/paradi
 The stronger first ten days of October have not translated into comparable growth across the financial year so far. Neither window is a forecast. These are cargo movements at Paradip, including inward and outward flows serving a wider hinterland; they do not measure Odisha-origin exports, economic impact or capacity. The report is dated 11 October and its cargo summary closes on 10 October. Exact integers and the two calculations are retained in the structured records.
 
 [^weekly-paradip-oct2026]: [Paradip Port Authority daily report,11 October 2026](https://www.paradipport.gov.in/uploads/2026/10/dtr1110.pdf), PDF p.3, cargo footer.
+
+## Financial-year cargo is flat through 16 October · checked 18 October 2026
+
+**Paradip handled 83.028 million tonnes through 16 October, down 0.05% from the same point a year earlier.** The prior-year total was 83.067 million tonnes; the difference is −39,100 tonnes. The 17 October report closes cargo on 16 October. This is a partial-year comparison, separate from full-year history.[^weekly-paradip-20261017]
+
+| Matched window | 2025, metric tonnes | 2026, metric tonnes | Calculated change |
+|---|---:|---:|---:|
+| 1 April–16 October | 83,067,471 | 83,028,371 | −0.05% |
+| 1–16 October | 6,287,421 | 7,064,399 | +12.36% |
+
+October’s stronger start coexists with nearly flat financial-year cargo. Neither window is a forecast or an annualized rate. Port movements include inward and outward cargo serving a wider hinterland; they do not measure Odisha-origin exports or economic impact. Earlier dated snapshots remain above, with their own cut-offs.
+
+[^weekly-paradip-20261017]: [Paradip Port Authority, daily report 17 October 2026](https://www.paradipport.gov.in/uploads/2026/10/dtr1710.pdf), PDF/printed p.2 cargo footer.

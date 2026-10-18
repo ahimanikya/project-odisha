@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-11T16:12:19.349772+00:00",
+  "updated_at": "2026-10-18T03:37:13.440713+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -2253,6 +2253,280 @@
       "discovery_url": "https://sujog.odisha.gov.in/Deshboard/images/Trade%20Tariff.pdf",
       "status": "saved_original_reused",
       "scope": "Puri PDF p623 visually inspected; raw category not a verified walk-business fee."
+    },
+    {
+      "run_id": "2026-10-18T033247Z",
+      "checked_at": "2026-10-18T03:37:13.440713+00:00",
+      "report": "../../../community-project/weekly-runs/2026-10-18T033247Z.json",
+      "scope": "17 tracks; primary release/revision checks only. Failed original fetches retained; two selected PDF tables visually checked.",
+      "tracks": [
+        {
+          "id": "tourism",
+          "status": "conflicted",
+          "note": "Catalogue still lists bulletin2024 and annual2025–26. Reuse12October original-table captures only within their saved scope; foreign-visits disagreement not resolved by a new publisher note."
+        },
+        {
+          "id": "gsdp",
+          "status": "unavailable",
+          "note": "Survey catalogue latest2025–26; DES now exposes tables through2025–26 but linked current-price file failed. No newly verified revised values."
+        },
+        {
+          "id": "sector-growth",
+          "status": "unavailable",
+          "note": "DES GSVA listing through2025–26 recovered; linked table unavailable. Existing estimates/calculations retained."
+        },
+        {
+          "id": "exports",
+          "status": "unchanged",
+          "note": "Saved9July fisheries release recovered with same FY2025–26 seafood scope; targeted publisher discovery did not establish a successor Odisha series. Survey-wide revision not revalidated."
+        },
+        {
+          "id": "port-cargo",
+          "status": "changed",
+          "note": "17October report closes16October: FY2026–27 cargo83,028,371tonnes versus83,067,471same-date prior year; matched1–16October7,064,399versus6,287,421. Four new observations and two calculations; annual history retained."
+        },
+        {
+          "id": "investment",
+          "status": "unavailable",
+          "note": "InvestOdisha failed; targeted PIB discovery returned existing prospective semiconductor releases. No newly verified realised spending/output."
+        },
+        {
+          "id": "smart-cities",
+          "status": "unchanged",
+          "note": "Saved16March parliamentary answer recovered. Urban catalogue lists2025–26 report but linked document failed; no newer verified city completion snapshot. Unchanged only within saved-answer scope."
+        },
+        {
+          "id": "rare-earths",
+          "status": "unchanged",
+          "note": "IREL catalogue latest2024–25; plant page still reports11,200tpa installed MRCL capacity. No successor output series identified; corridor remains proposal."
+        },
+        {
+          "id": "semiconductors",
+          "status": "unchanged",
+          "note": "Targeted primary-publisher discovery returns saved15/18September approvals/proposals. No newer commissioning/output established; investment and potential jobs remain prospective."
+        },
+        {
+          "id": "banking-and-enterprise-finance",
+          "status": "conflicted",
+          "note": "SLBC latest184thagenda and30June2026cluster listing retained; September entry-form link is not a published result. Existing denominator conflicts retained."
+        },
+        {
+          "id": "public-finances",
+          "status": "unavailable",
+          "note": "Current CAG route shows2026–27monthly entries only throughJune, unlike savedAugust catalogue history. No deletion or revision inferred; no September values or comparable new monthly table verified."
+        },
+        {
+          "id": "people-and-learning",
+          "status": "unavailable",
+          "note": "NFHS/UDISE routes timed out; MoSPI page unreadable. No release absence or unchanged metric inferred."
+        },
+        {
+          "id": "land-and-livelihoods",
+          "status": "conflicted",
+          "note": "FSI latestISFR2023 listing and savedJuly fisheries release recovered. Known Chilika anomaly held; no new crop/forest observation promoted."
+        },
+        {
+          "id": "services-and-environment",
+          "status": "unavailable",
+          "note": "Urban catalogue lists2025–26report, linked original failed. No new rural-water, PM10 or service-quality table verified."
+        },
+        {
+          "id": "mobility-and-digital-access",
+          "status": "changed",
+          "note": "TRAI April–June2026 report released12October; Odisha state table gives31.15million internet subscriptions at30June. Six observations and three rounded quarter-change calculations appended. AAI direct listing timed out; no September airport totals verified."
+        },
+        {
+          "id": "innovation-and-startups",
+          "status": "unavailable",
+          "note": "IPIndia annual-report route failed; targeted official discovery did not establish a new Odisha table. Not unchanged."
+        },
+        {
+          "id": "visitor-economy-and-crafts",
+          "status": "conflicted",
+          "note": "Tourism catalogue/guidelines recovered; GoHomestay empty/JS response cannot establish active properties. Rooms/beds and tourism counts unresolved; no current craft/operating totals promoted."
+        }
+      ],
+      "checks": [
+        {
+          "id": "tourism-catalogue",
+          "url": "https://dot.odisha.gov.in/en/publications/tourism-download",
+          "status": "unchanged",
+          "scope": "Latest listed statistical2024and annual2025–26; edition scope only.",
+          "retrieved_on": "2026-10-18"
+        },
+        {
+          "id": "survey-catalogue",
+          "url": "https://pc.odisha.gov.in/en/publication/economic-survey-report?field_financial_year_target_id=All&page=0",
+          "status": "unchanged",
+          "scope": "Latest listed2025–26; no full-table revalidation.",
+          "retrieved_on": "2026-10-18"
+        },
+        {
+          "id": "des-tables",
+          "url": "https://des.odisha.gov.in/en/pages/data-tables",
+          "status": "unchanged",
+          "scope": "Current GSDP/GSVA listings through2025–26; underlying linked current-price and GSVA files failed web fetch.",
+          "retrieved_on": "2026-10-18"
+        },
+        {
+          "id": "fisheries-release",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2282817&lang=2&reg=48",
+          "status": "unchanged",
+          "scope": "9July release recovered; bounded FY2025–26fish/seafood scope. Targeted original-publisher discovery returned saved vintages.",
+          "retrieved_on": "2026-10-18"
+        },
+        {
+          "id": "paradip-traffic",
+          "url": "https://paradipport.gov.in/traffic/",
+          "status": "changed",
+          "scope": "17October daily report listed; original7-pagePDF recovered.",
+          "retrieved_on": "2026-10-18"
+        },
+        {
+          "id": "investodisha",
+          "url": "https://www.investodisha.gov.in/",
+          "status": "unavailable",
+          "scope": "Web retrieval error.",
+          "retrieved_on": "2026-10-18"
+        },
+        {
+          "id": "urban-activity",
+          "url": "https://urban.odisha.gov.in/en/publication/activity-report",
+          "status": "unavailable",
+          "scope": "Catalogue recovered with2025–26edition; linked46.09MBdownload web error. No contents verified.",
+          "retrieved_on": "2026-10-18"
+        },
+        {
+          "id": "smart-cities-answer",
+          "url": "https://sansad.in/getFile/annex/270/AU2600_vR0ZFk.pdf?source=pqars",
+          "status": "unchanged",
+          "scope": "Dated16March2026answer recovered; observation1March2026, not current outcomes.",
+          "retrieved_on": "2026-10-18"
+        },
+        {
+          "id": "irel-annual",
+          "url": "https://www.irel.co.in/annual-reports",
+          "status": "unchanged",
+          "scope": "Latest listed2024–25annual edition.",
+          "retrieved_on": "2026-10-18"
+        },
+        {
+          "id": "irel-oscom",
+          "url": "https://www.irel.co.in/en-GB/oscom-rare-earth-extraction-plant",
+          "status": "unchanged",
+          "scope": "Installed11,200tpaMRCL capacity and2015–16commissioning retained; not annual actual output.",
+          "retrieved_on": "2026-10-18"
+        },
+        {
+          "id": "semiconductor-proposals",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2312298&lang=2&reg=48",
+          "status": "unchanged",
+          "scope": "Primary indexed release18September same proposal scope; targeted discovery no newer operating output established.",
+          "retrieved_on": "2026-10-18"
+        },
+        {
+          "id": "slbc",
+          "url": "https://slbcorissa.com/",
+          "status": "conflicted",
+          "scope": "184thagenda/June2026 latest listing; September entry form not results. Existing conflicts held.",
+          "retrieved_on": "2026-10-18"
+        },
+        {
+          "id": "cag-monthly",
+          "url": "https://cag.gov.in/ae/odisha/en/state-accounts-report?defuat_account_report_type=360",
+          "status": "unavailable",
+          "scope": "Current route lists2026–27throughJune, not prior savedAugust view; incomplete/inconsistent catalogue scope cannot establish new revision or unchanged monthly values.",
+          "retrieved_on": "2026-10-18"
+        },
+        {
+          "id": "nfhs-release",
+          "url": "https://www.nfhsiips.in/nfhsuser/release-details.php",
+          "status": "unavailable",
+          "scope": "Timeout.",
+          "retrieved_on": "2026-10-18"
+        },
+        {
+          "id": "udise-release",
+          "url": "https://udiseplus.gov.in/#/Publication",
+          "status": "unavailable",
+          "scope": "Timeout.",
+          "retrieved_on": "2026-10-18"
+        },
+        {
+          "id": "mospi-reports",
+          "url": "https://www.mospi.gov.in/download-reports?main_=",
+          "status": "unavailable",
+          "scope": "Only tracking iframe; no readable publication catalogue.",
+          "retrieved_on": "2026-10-18"
+        },
+        {
+          "id": "fsi-catalogue",
+          "url": "https://fsi.nic.in/reports-publications",
+          "status": "unchanged",
+          "scope": "Latest ISFR2023listed; no new inventory in inspected listing.",
+          "retrieved_on": "2026-10-18"
+        },
+        {
+          "id": "trai-catalogue",
+          "url": "https://www.trai.gov.in/release-publication/reports/performance-indicators-reports",
+          "status": "changed",
+          "scope": "April–June2026report released12October2026.",
+          "retrieved_on": "2026-10-18"
+        },
+        {
+          "id": "aai-traffic",
+          "url": "https://aai.aero/en/business-opportunities/aai-traffic-news",
+          "status": "unavailable",
+          "scope": "Timeout. Targeted September report discovery not enough to establish values.",
+          "retrieved_on": "2026-10-18"
+        },
+        {
+          "id": "ipindia-annual",
+          "url": "https://www.ipindia.gov.in/pages/home/annual-report",
+          "status": "unavailable",
+          "scope": "Web retrieval error; targeted primary discovery did not establish a new Odisha table.",
+          "retrieved_on": "2026-10-18"
+        },
+        {
+          "id": "tourism-guidelines",
+          "url": "https://dot.odisha.gov.in/en/guidelines",
+          "status": "unchanged",
+          "scope": "Guideline catalogue recovered; no operating-stock inference.",
+          "retrieved_on": "2026-10-18"
+        },
+        {
+          "id": "gohomestay",
+          "url": "https://gohomestay.odisha.gov.in/",
+          "status": "unavailable",
+          "scope": "Empty/JS response, not zero properties.",
+          "retrieved_on": "2026-10-18"
+        },
+        {
+          "id": "pib-release-list",
+          "url": "https://www.pib.gov.in/allRel.aspx?reg=48&lang=2",
+          "status": "unavailable",
+          "scope": "JS form not usable as complete release feed; targeted indexed publisher searches used with bounded scope.",
+          "retrieved_on": "2026-10-18"
+        },
+        {
+          "id": "weekly-paradip-20261017",
+          "url": "https://www.paradipport.gov.in/uploads/2026/10/dtr1710.pdf",
+          "status": "changed",
+          "scope": "Original PDF downloaded; relevant full table/footer rendered and visually checked against extracted text. Selected pages only; no human review.",
+          "locator": "PDF/printed page2 cargo footer; report17October, cargo cut-off16October2026",
+          "sha256": "5c617cdc6481a8901e43e25a333147a76f55904e1c52082035f9258819db4c66",
+          "retrieved_on": "2026-10-18"
+        },
+        {
+          "id": "weekly-trai-jun2026",
+          "url": "https://www.trai.gov.in/sites/default/files/2026-10/QPIR_12102026.pdf",
+          "status": "changed",
+          "scope": "Original PDF downloaded; relevant full table/footer rendered and visually checked against extracted text. Selected pages only; no human review.",
+          "locator": "Table1.43, printed56/PDF76, Odisha row19;30June2026",
+          "sha256": "fefa37efa1565848cea8609f05f06b2e78cd2157ae09f5993d3ae2bc2e19762a",
+          "retrieved_on": "2026-10-18"
+        }
+      ]
     }
   ],
   "supplemental_discovery_routes": [
