@@ -1,0 +1,224 @@
+{
+  "recorded_at": "2026-10-18T20:08:52.386424+00:00",
+  "authorization": [
+    "UTP-DEC-2026101702",
+    "UTP-DEC-225"
+  ],
+  "work_id": "UTP-WORK-302",
+  "queue_item": "UTP-EDIT-029",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/310",
+  "reviewed_head": "7ed58d60a2f15394c33f8c45034cb35dac43ccc2",
+  "merge_commit": "c15ac647e2861567ca21c047f5a89da07f7141e5",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "7ed58d60a2f15394c33f8c45034cb35dac43ccc2",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39161416004"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "c15ac647e2861567ca21c047f5a89da07f7141e5",
+    "jobs": [
+      {
+        "completedAt": "2026-10-18T20:07:16Z",
+        "conclusion": "success",
+        "databaseId": 117776177970,
+        "name": "build",
+        "startedAt": "2026-10-18T20:05:23Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-10-18T20:05:26Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-10-18T20:05:24Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T20:05:37Z",
+            "conclusion": "success",
+            "name": "Run actions/checkout@v6",
+            "number": 2,
+            "startedAt": "2026-10-18T20:05:26Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T20:05:40Z",
+            "conclusion": "success",
+            "name": "Run actions/setup-node@v7",
+            "number": 3,
+            "startedAt": "2026-10-18T20:05:37Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T20:05:40Z",
+            "conclusion": "success",
+            "name": "Run actions/configure-pages@v6",
+            "number": 4,
+            "startedAt": "2026-10-18T20:05:40Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T20:05:46Z",
+            "conclusion": "success",
+            "name": "Run npm ci",
+            "number": 5,
+            "startedAt": "2026-10-18T20:05:40Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T20:06:13Z",
+            "conclusion": "success",
+            "name": "Run npm run build",
+            "number": 6,
+            "startedAt": "2026-10-18T20:05:46Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T20:06:21Z",
+            "conclusion": "success",
+            "name": "Run npm test",
+            "number": 7,
+            "startedAt": "2026-10-18T20:06:13Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T20:06:55Z",
+            "conclusion": "success",
+            "name": "Run npm run build:coast",
+            "number": 8,
+            "startedAt": "2026-10-18T20:06:21Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T20:07:00Z",
+            "conclusion": "success",
+            "name": "Run npm run test:coast",
+            "number": 9,
+            "startedAt": "2026-10-18T20:06:55Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T20:07:03Z",
+            "conclusion": "success",
+            "name": "Run npm run build:publication",
+            "number": 10,
+            "startedAt": "2026-10-18T20:07:00Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T20:07:13Z",
+            "conclusion": "success",
+            "name": "Run actions/upload-pages-artifact@v5",
+            "number": 11,
+            "startedAt": "2026-10-18T20:07:03Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T20:07:13Z",
+            "conclusion": "success",
+            "name": "Post Run actions/setup-node@v7",
+            "number": 21,
+            "startedAt": "2026-10-18T20:07:13Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T20:07:13Z",
+            "conclusion": "success",
+            "name": "Post Run actions/checkout@v6",
+            "number": 22,
+            "startedAt": "2026-10-18T20:07:13Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T20:07:14Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 23,
+            "startedAt": "2026-10-18T20:07:14Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39161704686/job/117776177970"
+      },
+      {
+        "completedAt": "2026-10-18T20:07:36Z",
+        "conclusion": "success",
+        "databaseId": 117776626942,
+        "name": "deploy",
+        "startedAt": "2026-10-18T20:07:19Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-10-18T20:07:20Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-10-18T20:07:20Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T20:07:36Z",
+            "conclusion": "success",
+            "name": "Publish approved website",
+            "number": 2,
+            "startedAt": "2026-10-18T20:07:20Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T20:07:36Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 3,
+            "startedAt": "2026-10-18T20:07:36Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39161704686/job/117776626942"
+      }
+    ],
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39161704686"
+  },
+  "verified_routes": [
+    "/visit/stays/barkul-rambha/"
+  ],
+  "live_checks": {
+    "checked_at": "2026-10-18T20:08:12.152487+00:00",
+    "url": "https://projectodisha.org/visit/stays/barkul-rambha/",
+    "http_status": 200,
+    "html_sha256": "ef7561ee48c502ebdb0158a7a88a759633e3ddf47cd7f4201247c9ab1c7c45c5",
+    "byline": true,
+    "canonical_paragraphs_present": true,
+    "visible_notes": 2,
+    "references": 2,
+    "exact_returns": 2,
+    "image": {
+      "http_status": 200,
+      "sha256": "0c07d18090ac7a1d7fc4e9a61f16e8eed3633ac1db1c11d84ab2586b9d06543c"
+    },
+    "robots": "noindex, follow",
+    "sitemap_count": 11,
+    "regression_http": {
+      "/visit/places/mangalajodi/": 200,
+      "/visit/stays/rajhans-satapada/": 200,
+      "/visit/stays/mangalajodi/": 200
+    },
+    "browser_check": {
+      "source_and_return": "Live Rambha marker and Return to passage 1 for footnote 2 activated with Enter; focus/hash returned to ref-detail-1-otdc-panthanivas-rambha.",
+      "horizontal_overflow": false,
+      "screenshot": "/tmp/barkul-live-return.png"
+    }
+  },
+  "test_review": "records/barkul-rambha-editorial-review-2026-10-18.json",
+  "source_mapping": "records/barkul-rambha-editorial-source-mapping-2026-10-18.json",
+  "concurrent_work": "No competing Barkul/Rambha scope found; checked current main and open PRs, preserving other workers and other article content.",
+  "attachment_note": "PR attachment attempted; app returned thread attachment identity count exceeds 100. PR URL retained here.",
+  "counting": "One editorial article; zero substantive500 increment.",
+  "limitations": [
+    "Same-assistant review, not independent human or specialist review.",
+    "No property visit, provider contact, route or landing confirmation, or current room/service verification.",
+    "Published accommodation and island descriptions are leads, not guarantees. Planning questions are advice, not field testimony."
+  ]
+}
