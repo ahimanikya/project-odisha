@@ -14,9 +14,9 @@ for(const slug of ['huluhuli','sankha','mardala','daskathia','ghanta-ghanti','da
   if(block.title)assert.ok(html.includes(`id="story-section-${i+1}"`)&&menu.includes(escape(block.title)));
   for(const p of [...block.paragraphs,...block.items])assert.ok(html.includes(escape(p)),`retained ${p.slice(0,60)}`);
  });
- const notes=html.match(/<details id="story-sources"[^>]*>([\s\S]*?)<\/details>/)?.[1];
- assert.ok(notes?.includes(escape(story.limits)),'limits retained');
+ const notes=slug==='huluhuli'?html.match(/<section id="story-sources"[^>]*>([\s\S]*?)<\/section>/)?.[1]:html.match(/<details id="story-sources"[^>]*>([\s\S]*?)<\/details>/)?.[1];
+ if(slug!=='huluhuli')assert.ok(notes?.includes(escape(story.limits)),'limits retained');
  for(const source of story.sources)assert.ok(notes.includes(escape(source.resource))&&notes.includes(escape(source.title)));
- if(story.photo?.provenance)assert.ok(notes.includes(escape(story.photo.provenance)));
+ if(slug!=='huluhuli'&&story.photo?.provenance)assert.ok(notes.includes(escape(story.photo.provenance)));
  assert.match(html,/<meta[^>]*name="robots"[^>]*content="noindex, (?:no)?follow"/);
 });

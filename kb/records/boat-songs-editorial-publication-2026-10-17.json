@@ -1,0 +1,80 @@
+{
+  "recorded_at": "2026-10-17T04:33:41.030526+00:00",
+  "authorization": [
+    "UTP-DEC-2026101702",
+    "UTP-DEC-225"
+  ],
+  "work_id": "UTP-WORK-302",
+  "queue_item": "UTP-EDIT-003",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/288",
+  "reviewed_head": "72355b45d5884d685c84d683a716be52877d64d0",
+  "merge_commit": "6fb8fa50c5dd2aac02f378a00be3742dd023c7df",
+  "validation": {
+    "conclusion": "success",
+    "databaseId": 39002544540,
+    "headSha": "72355b45d5884d685c84d683a716be52877d64d0",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39002544540"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "databaseId": 39002775163,
+    "headSha": "6fb8fa50c5dd2aac02f378a00be3742dd023c7df",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39002775163",
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "verified_routes": [
+    "/stories/boat-songs/"
+  ],
+  "live": {
+    "checked_at": "2026-10-17T04:33:14.371867+00:00",
+    "pages": [
+      {
+        "route": "/stories/boat-songs/",
+        "url": "https://projectodisha.org/stories/boat-songs/",
+        "status": 200,
+        "sha256": "71d4aaa73326f9f82b362ff0b525d6149c3b5cdd5daa2773e06363f9d51edb44",
+        "paragraphs_verified": 20,
+        "sources_verified": 5,
+        "reference_links": 5,
+        "return_links": 5,
+        "noindex": true
+      }
+    ],
+    "sitemap_entries": 11
+  },
+  "review": "records/boat-songs-editorial-review-2026-10-17.json",
+  "outputs": [
+    {
+      "path": "kb/research/culture/boat-songs-website.json",
+      "sha256": "3aac7020fbb50a00e23c8c340d650761cebf2b6d68caa2e2a487728695e1cbe2",
+      "matches_merge": true
+    },
+    {
+      "path": "kb/research/culture/boat-songs.md",
+      "sha256": "9a3ab902bebe91fc0495a184ea133b54ad21fe424d83c7617c8484b1c9272cb1",
+      "matches_merge": true
+    },
+    {
+      "path": "kb/records/boat-songs-editorial-source-mapping-2026-10-17.json",
+      "sha256": "bddb23a2152acc9c1ffcd39d491f96907a890c783a39d9f7519b977444f682af",
+      "matches_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/stories/boat-songs.astro",
+      "sha256": "ed75f8dab4ea3d1c4b923580abdd502fcb65812e731487e225aabefb1d991174",
+      "matches_merge": true
+    }
+  ],
+  "screenshot": "/tmp/boat-editorial-live-mobile.png",
+  "counting": "Third editorial article completed; no increase to substantive500 count.",
+  "limitations": [
+    "Same-assistant editorial review, not an independent human or practitioner review.",
+    "Responsive checks are browser emulation, not physical-device or screen-reader testing.",
+    "No new research, field recording or media-rights acquisition claimed.",
+    "Editorial revisions do not increase the 500 substantive-item count."
+  ],
+  "attachment": "App attachment attempted; thread attachment identity count exceeds 100. PR URL retained."
+}

@@ -2,11 +2,14 @@
 type: "Cultural heritage research"
 title: "Sashisena and the doorless temple of Sonepur"
 status: "published"
+author: "Ahimanikya Satapathy"
 subjects: ["culture", "places", "literature"]
 sources: [{"id": "instagram-duqtfgkkuna", "title": "Sashisena Temple reel", "resource": "https://www.instagram.com/reel/DUQTfgKkunA/"}, {"id": "sonepur-literary-heritage-2006", "title": "The Literary Heritage of Sonepur", "resource": "https://magazines.odisha.gov.in/Orissareview/may2006/engpdf/72-79.pdf"}, {"id": "dandabhukti-mukherjee-2014", "title": "Relocating the Past of Ancient Dandabhukti in Dantan", "resource": "https://www.chitrolekha.com/V4/n1/03_Dandabhukti_Moghalmari_Monastery.pdf"}, {"id": "sashisena-odishabytes-20200214", "title": "Nimuhi Temple, The Symbol Of Love In Odisha", "resource": "https://odishabytes.com/nimuhi-temple-the-symbol-of-love-in-odisha/"}, {"id": "sashisena-orissatours", "title": "Sashisena Nimuhi Temple Sonepur", "resource": "https://orissatours.com/sashisena-nimuhi-temple-sonepur/"}, {"id": "sashisena-otv-20210214", "title": "Odisha: Sashisena Temple In Sonepur, An Epitome Of Love", "resource": "https://odishatv.in/odisha-news/odisha-sashisena-temple-in-sonepur-an-epitome-of-love-517953"}, {"id": "sashisena-sagaria-samadrusti-2024", "title": "ବନୌଷଧି ବିଚାର", "resource": "https://thesamadrusti.com/3980/"}, {"id": "sashisena-sagaria-jariaa-2025", "title": "ପରିବା ଚାଷ", "resource": "https://jariaa.com/ପରିବା-ଚାଷ/"}, {"id": "sashisena-prachi-edition", "title": "Shashisena by Pratap Ray, Prachi Samiti edition", "resource": "https://or.wikisource.org/wiki/ସୂଚୀ:Sashi_Sena.pdf"}, {"id": "subarnapur-gazetteer-2016-wayback", "title": "Odisha District Gazetteers: Subarnapur (editor note dated 16 April 2016)", "resource": "https://web.archive.org/web/20220920170541/http://www.gopabandhuacademy.gov.in/sites/default/files/gazetter/Subarnapur_Gazetteer.pdf"}, {"id": "sonepur-tourism-wayback-20120801", "title": "Sonepur: archived Odisha government tourism page", "resource": "https://web.archive.org/web/20120801090335/http://orissa.gov.in:80/tourism/sonepur.htm"}, {"id": "balangir-district-gazetteer-1968", "title": "Orissa District Gazetteers: Balangir (1968)", "resource": "https://archive.org/details/dli.csl.2989"}, {"id": "sashisena-dharitri-20200315", "title": "ଚିରନ୍ତନ ପ୍ରେମର ସନ୍ତକ ନିମୁହିଁ ମନ୍ଦିର", "resource": "https://www.dharitri.com/ଚିରନ୍ତନ-ପ୍ରେମର-ସନ୍ତକ-ନିମ/"}, {"id": "sashisena-mishra-2022", "title": "Communication, Negotiation and Assertion of the Tribal in the Kingdom of Sambalpur in Early Modern Western Odisha", "resource": "https://utkaluniversity.ac.in/wp-content/uploads/2024/03/UHRJ-Vol.-XXXV-2022.pdf"}, {"id": "sonepur-bali-yatra-barik-2009", "title": "Bali Yatra of Sonepur", "resource": "https://magazines.odisha.gov.in/Orissareview/2009/September/engpdf/160-162.pdf"}, {"id": "sashisena-kathalahari-1927", "title": "Kathalahari ba Utkala Kahani Sangraha / Folk Tales of Orissa, sixth edition (1927)", "resource": "https://or.wikisource.org/wiki/ସୂଚୀ:Kathalahari_(RN_Das,_1927)_opt.pdf"}, {"id": "sashisena-namami-museum-catalogue", "title": "Orissa State Museum, Bhubaneswar: manuscript digitisation inventory", "resource": "https://web.archive.org/web/20221108151107/https://namami.gov.in/sites/default/files/Orissa_State_Museum_Bhubaneswar_Orissa.pdf"}, {"id": "sashisena-acharya-historical-identification-1969", "title": "Studies in Orissan History, Archaeology and Archives, p.115", "resource": "https://archive.org/details/in.ernet.dli.2015.533903"}, {"id": "sanskrit-mw-ahi", "title": "Monier-Williams Sanskrit–English Dictionary: ahi", "resource": "https://sanskrit.uohyd.ac.in/SKT/MW/24.html"}, {"id": "sanskrit-mw-manikya", "title": "Monier-Williams Sanskrit–English Dictionary: manikya", "resource": "https://sanskrit.uohyd.ac.in/SKT/MW/201.html"}, {"id": "sanskrit-mw-mani", "title": "Monier-Williams Sanskrit–English Dictionary: mani", "resource": "https://sanskrit.uohyd.ac.in/SKT/MW/192.html"}, {"id": "meher-nirbana-shubhapallaba-2023", "title": "Nirbana, Shubhapallaba issue54, pp.33–34", "resource": "https://shubhapallaba.in/gapu/media/Shubhapallaba%2054th%20Edition.pdf#page=33"}, {"id": "meher-nirbana-storymirror", "title": "Nirbana / ନିର୍ବାଣ", "resource": "https://storymirror.com/read/oriya/poem/nirbaann/gugmzl8h"}]
 ---
 
 # Ahimanikya and Sashisena at the temple without a door
+
+<p class="article-byline">By Ahimanikya Satapathy <span>· Last reviewed <time datetime="2026-10-14">14 October 2026</time></span></p>
 
 In Sonepur, Odisha—also known locally as **Suvarnapura**—a doorless memorial is widely known as Sashisena Temple or Nimuhi Mandir. To approach it is to remain outside, facing a monument whose best-known story is about two people refusing to remain apart. The familiar name does not establish that it functioned as a shrine with an installed deity and regular puja. [^source-9][^source-10][^source-20]
 
@@ -220,11 +223,9 @@ I have carried the name Ahimanikya all my life. Exploring *Sashisena Kavya*, I a
 
 At Nimuhi, something similar happens at the scale of a place. A building keeps a name visible; a name sends someone back to a poem. The doorway may be absent, but the invitation to read remains.
 
-*Researched and written by Ahimanikya Satapathy for Project Odisha. Last reviewed 14 October 2026.*
-
 [^source-1]: Pratap Ray, [*Shashisena*, Prachi Samiti edition](https://or.wikisource.org/wiki/ସୂଚୀ:Sashi_Sena.pdf). The index dates it 1928; file metadata says 1929. Key passages inspected: I.21–44, printed pp.3–5 (PDF pp.41–43), miraculous origin; I.55–56, printed p.7 (PDF p.45), explicit naming; III.2–5, 51–55, printed pp.12, 17 (PDF pp.50, 55), study and secret marriage; IV.3–7, printed p.19 (PDF p.57), teacher’s warning and advice; VIII, pp.48–54 (PDF pp.86–92), captivity and divine help; X, pp.62–69 (PDF pp.100–107), message and rescue; XI.13, 24–30, 35, pp.72, 74–75 (PDF pp.110, 112–113), human and divine parentage, editorial Durga gloss and Chandrabali; XII.23–30, 43–48, pp.84–85, 88–89 (PDF pp.122–123, 126–127), serpent departure and guidance; XIII.13–46, pp.92–97 (PDF pp.130–135), second recovery; XIV.36–43, pp.105–106 (PDF pp.143–144), homecoming. Selected verse readings, not a complete critical collation or certified translation.
 
-    Passage locators: I.21–44, printed pp.3–5; XI.35, printed p.75 / PDF p.113; I.55–56, printed p.7 / PDF p.45; I.21–24; III.2–5, 51–55, printed pp.12, 17; IV.3–7, printed p.19; VIII.5–10; X.58–60; VIII.5–8, printed pp.49–50; printed pp.51, 65–66; X.49, 58–60; eighth chhanda, verses 9–10, printed pp.50–51; VIII.13–19, printed pp.52–53; X.34–38, 49–60, printed pp.64–66; X.62–67, printed p.67; X.68–78, printed pp.67–68; X.79–81, printed pp.68–69; XI.1–8, printed pp.70–71; XI.24–30, printed pp.74–75; XIV.36–43, printed pp.105–106; XII.23–30, printed pp.84–85; XII.43–48, printed pp.88–89; XIII.13–35, 43–46, printed pp.92–97; I.56 · printed p.7 · PDF p.45; XI.13, excerpt · printed p.72 · PDF p.110; VIII.5, excerpt · printed p.49 · PDF p.87; VIII.9, excerpt · printed p.50 · PDF p.88; X.58, excerpt · printed p.66 · PDF p.104; X.81, excerpt · printed p.69 · PDF p.107.
+    The six excerpts: naming, I.56 (printed p.7 / PDF p.45); minister’s son, XI.13 (p.72 / PDF p.110); Maluni’s glance, VIII.5 (p.49 / PDF p.87); garland, VIII.9 (p.50 / PDF p.88); message, X.58 (p.66 / PDF p.104); embrace, X.81 (p.69 / PDF p.107).
 
 [^source-2]: Odisha Bytes, [*Nimuhi Temple, The Symbol of Love in Odisha*](https://odishabytes.com/nimuhi-temple-the-symbol-of-love-in-odisha/), 14 February 2020. A popular devotional retelling.
 
@@ -242,8 +243,6 @@ At Nimuhi, something similar happens at the scale of a place. A building keeps a
 
 [^source-9]: Government of Odisha, [*Odisha District Gazetteers: Subarnapur*](https://web.archive.org/web/20220920170541/http://www.gopabandhuacademy.gov.in/sites/default/files/gazetter/Subarnapur_Gazetteer.pdf), consulting editor’s note dated 16 April 2016. Printed pp.46–47, 59, 69, 182, 222, 228, 292 and 311; recovered through Wayback. Pages 46–47 discuss Suvarnapura in inscriptional records; p.182 identifies Suvarnapur with modern Sonepur. Page 311 pairs the 1928 memorial and publication; p.222 distinguishes the subsequent 1929 edition, and p.228 lists the 1928 publication.
 
-    Passage locators: printed pp.46–47, 182.
-
 [^source-10]: Government of Odisha, [archived Sonepur tourism page](https://web.archive.org/web/20120801090335/http://orissa.gov.in:80/tourism/sonepur.htm), snapshot 1 August 2012. Doorless memorial description and account of reused stones; original publication date unknown.
 
 [^source-11]: Rajendra Prasad Mohapatra, [*Odisha: Sashisena Temple In Sonepur, An Epitome Of Love*](https://odishatv.in/odisha-news/odisha-sashisena-temple-in-sonepur-an-epitome-of-love-517953), OTV, 14 February 2021. Named local testimony; construction date conflicts with the Gazetteer.
@@ -254,17 +253,13 @@ At Nimuhi, something similar happens at the scale of a place. A building keeps a
 
 [^source-14]: Sarmistha Barik, [*Bali Yatra of Sonepur*](https://magazines.odisha.gov.in/Orissareview/2009/September/engpdf/160-162.pdf), *Orissa Review*, September 2009, pp.160–162. Page 162 names Sashi-Sena Tikra in the protective offering circuit; exact offering spot and date of origin are not established.
 
-    Passage locators: p.162.
-
 [^source-15]: [*Kathalahari*, sixth edition, 1927](https://or.wikisource.org/wiki/ସୂଚୀ:Kathalahari_(RN_Das,_1927)_opt.pdf), *Halahal Kumar or Sashisena Abhimanyu*, printed pp.65–66 (PDF pp.74–75) for the different gathering and punishment sequence. A separate collected folktale, not an edition of Pratap Rai’s poem.
 
-    Passage locators: printed pp.59–60; printed pp.65–66.
+    The hero’s name appears on printed pp.59–60.
 
 [^source-16]: National Mission for Manuscripts, [Orissa State Museum digitisation inventory](https://web.archive.org/web/20221108151107/https://namami.gov.in/sites/default/files/Orissa_State_Museum_Bhubaneswar_Orissa.pdf), PDF p.6, row 290; headings verified on p.1. Recovered through Wayback. Lists title, accession and image count, without an author or copying date.
 
 [^source-17]: Paramananda Acharya, [*Studies in Orissan History, Archaeology and Archives*](https://archive.org/details/in.ernet.dli.2015.533903), 1969 collected volume, printed p.115 and footnote 12. Page image inspected; critique of a proposed historical identification, not a Nimuhi construction record.
-
-    Passage locators: p.115.
 
 [^source-18]: Monier-Williams, *Sanskrit–English Dictionary*, University of Hyderabad digital transcription based on the Cologne edition: [ahi](https://sanskrit.uohyd.ac.in/SKT/MW/24.html), serpent; [māṇikya](https://sanskrit.uohyd.ac.in/SKT/MW/201.html), ruby; [maṇi](https://sanskrit.uohyd.ac.in/SKT/MW/192.html), jewel or gem. These clarify the word elements; the naming explanation comes directly from the poem.
 

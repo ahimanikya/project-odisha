@@ -8,7 +8,10 @@ test('full Huluhuli reader text and sources survive with collection return and h
  assert.ok(html.includes('href="/sounds-of-odisha/#huluhuli"'));
  for(const s of story.sources)assert.ok(html.includes(s.resource));
  assert.ok(html.includes('not a field photograph')); 
- assert.ok(html.includes('Practitioner/language review remains open'));
+ assert.ok(html.includes('By Ahimanikya Satapathy'));
+ assert.ok(html.includes('the underlying land-grant records have not been examined'));
+ assert.ok(html.includes('the original page and video were not fully inspected'));
+ assert.ok(!/prepared with AI|created and revised with AI assistance/i.test(html));
  assert.ok(!html.includes('<audio'));
  assert.ok(!html.includes('Preserved research overview'));
  assert.ok(readFileSync(new URL('../dist-coast/sounds-of-odisha/index.html',import.meta.url),'utf8').includes('href="/sounds-of-odisha/huluhuli/"'));

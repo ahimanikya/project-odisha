@@ -9,7 +9,7 @@ const read=f=>readFileSync(join(root,f),'utf8');
 test('all built local links, assets and fragment targets resolve',()=>{
   const details=JSON.parse(readFileSync('../../kb/research/destinations/details.json','utf8'));
   const voices=JSON.parse(readFileSync('../../kb/research/voices/collection.json','utf8'));
-  assert.equal(pages.length,108+JSON.parse(readFileSync('../../kb/records/pending-reading-room.json','utf8')).entries.length+JSON.parse(readFileSync('../../kb/research/references/data/osha-culture.json','utf8')).pages.length+JSON.parse(readFileSync('../../kb/research/destinations/flexible-visit-plans.json','utf8')).plans.length+JSON.parse(readFileSync('../../kb/research/culture/craft-stories.json','utf8')).pages.length+JSON.parse(readFileSync('../../kb/research/destinations/central-details.json','utf8')).records.length+details.records.length+JSON.parse(readFileSync('../../kb/research/destinations/northern-details.json','utf8')).records.length+JSON.parse(readFileSync('../../kb/research/food/collection.json','utf8')).pages.length+voices.pages.length+JSON.parse(readFileSync('../../kb/research/destinations/regions.json','utf8')).regions.length);
+  assert.equal(pages.length,109+JSON.parse(readFileSync('../../kb/records/pending-reading-room.json','utf8')).entries.length+JSON.parse(readFileSync('../../kb/research/references/data/osha-culture.json','utf8')).pages.length+JSON.parse(readFileSync('../../kb/research/destinations/flexible-visit-plans.json','utf8')).plans.length+JSON.parse(readFileSync('../../kb/research/culture/craft-stories.json','utf8')).pages.length+JSON.parse(readFileSync('../../kb/research/destinations/central-details.json','utf8')).records.length+details.records.length+JSON.parse(readFileSync('../../kb/research/destinations/northern-details.json','utf8')).records.length+JSON.parse(readFileSync('../../kb/research/food/collection.json','utf8')).pages.length+voices.pages.length+JSON.parse(readFileSync('../../kb/research/destinations/regions.json','utf8')).regions.length);
   for(const file of pages){
     const html=read(file);
     for(const [,raw] of html.matchAll(/(?:href|src)="([^"]+)"/g)){
@@ -30,9 +30,9 @@ test('the preview exports only selected research and preserves citations and dra
   assert.deepEqual(notes.map(x=>x.slug),['chilika','konark','kotpad','pakhala','boita-bandana']);
   for(const note of notes){
     const html=read('knowledge/'+note.slug+'/index.html');
-    assert.match(html,note.slug==='kotpad'?/Specialist language and maker review remain open/:/Editorial draft/);
+    assert.match(html,['konark','chilika'].includes(note.slug)?/By Ahimanikya Satapathy/:note.slug==='kotpad'?/Specialist language and maker review remain open/:/Editorial draft/);
     assert.ok(note.text.length>40);
-    for(const source of note.sources){assert.match(source.resource,/^https:\/\//);assert.ok(html.includes(source.resource.replaceAll('&','&amp;'))||html.includes(source.resource));}
+    for(const source of note.sources){assert.match(source.resource,/^https:\/\//);const url=note.slug==='chilika'?JSON.parse(readFileSync('../../kb/research/destinations/chilika-editorial.json')).sources.find(s=>s.id===source.id).url:source.resource;assert.ok(html.includes(url.replaceAll('&','&amp;'))||html.includes(url));}
   }
   assert.ok(!files.some(f=>/^(kb|registers|history|research)\//.test(f)));
   assert.ok(!files.includes('utkal.config.json'));

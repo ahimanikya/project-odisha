@@ -4,7 +4,7 @@ import SaveJourney from './SaveJourney.astro';
 const {title,subtitle,odia,eyebrow,deck,photo,caption,saveId,startHref,startLabel,footline,identity,identityLabel,identityNote}=Astro.props;
 ---
 <header style={photo?.fit==='contain'&&photo.width&&photo.height?`--cover-image-ratio: ${photo.width} / ${photo.height}`:undefined} class:list={["mag-cover",{"mag-cover--contain":photo?.fit==='contain'}]}>
- <div class="mag-cover-copy"><p class="eyebrow">{eyebrow}</p><h1>{title}{odia&&<span lang="or">{odia}</span>}</h1>{subtitle&&<p class="mag-cover-subtitle">{subtitle}</p>}<p class="mag-deck">{deck[0]}{deck[1]&&<><br/><em>{deck[1]}</em></>}</p></div>
+ <div class="mag-cover-copy"><p class="eyebrow">{eyebrow}</p><h1>{title}{odia&&<span lang="or">{odia}</span>}</h1>{subtitle&&<p class="mag-cover-subtitle">{subtitle}</p>}<p class="mag-deck">{deck[0]}{deck[1]&&<><br/><em>{deck[1]}</em></>}</p><slot name="byline"/></div>
  {photo?<figure id="story-image"><ResponsiveImage src={photo.src} alt={photo.alt} width={photo.width} height={photo.height} fetchpriority="high"/><figcaption>{caption||photo.caption}</figcaption></figure>:<figure><div class="culture-identity"><p class="eyebrow">{identityLabel}</p><strong>{identity?.[0]||title}</strong><ul>{identity?.slice(1).map(line=><li>{line}</li>)}</ul><p>{identityNote}</p></div></figure>}
  <div class="mag-cover-actions"><a class="utk-button" href={startHref}>{startLabel} <span aria-hidden="true">↗</span></a>{saveId&&<SaveJourney id={saveId} quiet />}</div>
  <div class="mag-cover-foot"><p>{footline}</p><a href={startHref}>Begin the story ↓</a></div>

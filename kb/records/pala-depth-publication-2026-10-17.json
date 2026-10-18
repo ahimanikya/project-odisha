@@ -1,0 +1,90 @@
+{
+  "recorded_at": "2026-10-17T02:12:46.104958+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-111",
+  "work_id": "UTP-WORK-300",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/284",
+  "reviewed_head": "9e641049d2b795751f9d44a61707e77fac913185",
+  "merge_commit": "c9f05f44ce091326c4ff0fa309a025fec8b3d5a4",
+  "merged_at": "2026-10-17T02:09:36Z",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "9e641049d2b795751f9d44a61707e77fac913185",
+    "status": "completed",
+    "updatedAt": "2026-10-17T02:08:30Z",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38993560361"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "c9f05f44ce091326c4ff0fa309a025fec8b3d5a4",
+    "status": "completed",
+    "updatedAt": "2026-10-17T02:11:45Z",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38993827757",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-17T02:12:20.158348+00:00",
+    "url": "https://projectodisha.org/sounds-of-odisha/pala/",
+    "status": 200,
+    "paragraphs_verified": 21,
+    "items_verified": 3,
+    "sources_verified": 7,
+    "html_sha256": "c951526985083d4cce1885b61d64388a7195bd189a7477229bb3d7ae56dfc253",
+    "all_canonical_paragraphs_present": true,
+    "end_notes_mapping_present": true,
+    "no_audio": true,
+    "noindex": true,
+    "sitemap_entries": 11,
+    "browser": "Actual live revision visually checked; new prose and expandable end notes present.",
+    "screenshot": "/tmp/pala-depth-live.png"
+  },
+  "outputs": [
+    {
+      "path": "kb/research/culture/pala.md",
+      "sha256": "752b2e08e76e0f4483edc01fcdddf6311493d2114701005dde3951fd7a04ac35",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/culture/pala-website.json",
+      "sha256": "65b9d1febafa9f03201c6db57051a2c8f7d90ca81d7e9fb5581442468a6a27ab",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/sources/pala-sounds-story-research.md",
+      "sha256": "4fae4dc9e93d3da5e469fc3ede169d5fd0990a3c8ff7350fa0bcc3b4a9a1337c",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/records/pala-source-mapping-2026-10-17.json",
+      "sha256": "848f5ddfb2e541691963e198a34b22df1c158d9f837c4818b4fef982761e6835",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha/pala.astro",
+      "sha256": "f20032e6b072c127c16c63f2f9c8132e27530f58f440db96085a43ff8344603d",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/records/sound-recording-briefs.json",
+      "sha256": "8e16c7c12f2622414eea7e41abc37ff1ec4c87a8c8572ddc784ea5fdf5367779",
+      "matches_fetched_merge": true
+    }
+  ],
+  "review": "records/pala-depth-review-2026-10-17.json",
+  "limitations": [
+    "Same-assistant review, not independent human or practitioner review.",
+    "No founding date established; underlying manuscripts and named literary editions not independently inspected.",
+    "Patra2017 troupe-count and award-body inconsistencies excluded; broader historical chronology is not adopted.",
+    "Dash2011 PDF secure retrieval still fails; no certificate validation bypass.",
+    "No new audio, fieldwork, interviews, booking or recording rights.",
+    "Browser viewport checks are not physical-device or screen-reader testing."
+  ],
+  "attachment": "App attachment attempted; thread attachment identity count exceeds 100. PR URL retained.",
+  "initial_validation_failure": {
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38993386922",
+    "reason": "Stale planned Pala recording-brief source IDs after article revision",
+    "resolution": "Updated planned brief source pointers only; sound consistency check and eight negative-case tests passed before revised PR validation."
+  }
+}

@@ -1,14 +1,14 @@
 {
   "starter_id": "stone-sea-makers",
   "title": "Stone, sea and makers",
-  "intro": "A gateway asks you to look closer. A painted panel invites a conversation. The shore leaves room to pause. Follow this thread from Bhubaneswar through Raghurajpur to Puri, and make space for the meals and people between.",
+  "intro": "Look closely at a stone carving in Bhubaneswar, ask a painter how a picture tells its story, then give Puri’s town and shore their own time. These three chapters offer a way to choose what interests you before deciding how much to fit into a trip.",
   "chapters": [
     {
       "id": "city",
       "title": "Begin with a gateway. Stay for a meal.",
       "photo": "place:mukteswar",
       "place": "Bhubaneswar · Mukteswar",
-      "text": "At Mukteswar, give one carved detail your attention before trying to see everything. Carry that slower pace to the table: explore dalma, ask how it is made here, and leave room for the city beyond its monuments.",
+      "text": "Mukteswar’s arched gateway gives you a small place to begin in a city of temples. Look from the curve of the arch to the figures and patterned bands on its pillars. Choose one detail to follow before moving on. Afterwards, use the linked dalma guide to think about a meal and the questions you might ask the cook.",
       "ideas": [
         "place:bhubaneswar",
         "place:mukteswar",
@@ -22,7 +22,7 @@
       "title": "Let the maker lead the conversation.",
       "photo": "place:raghurajpur",
       "place": "Raghurajpur",
-      "text": "Arrive with a question, not just a camera. A Pattachitra panel can open a conversation about materials, a story or a particular hand at work. Give the person making it time to decide what they want to share.",
+      "text": "In Raghurajpur, Pattachitra painters tell religious and mythological stories on prepared cloth. Pictures can be read in sequence: ask a willing maker where the story begins, and which figure or gesture helps you follow it. The photograph here shows an artisan displaying her work in 2018; it does not identify a workshop available to visit today.",
       "ideas": [
         "place:raghurajpur"
       ],
@@ -33,7 +33,7 @@
       "title": "Give the town and the shore their own time.",
       "photo": "place:puri-beach",
       "place": "Puri",
-      "text": "Puri holds several kinds of attention: a sacred meal, the life of the town, and a horizon that needs no itinerary. Read about Mahaprasad before planning that experience, then leave an unhurried space beside the sea.",
+      "text": "Jagannath Temple and the beach are two different starting points for reading Puri. Choose time for the town as well as the shore, rather than treating either as a stop to tick off. If Mahaprasad interests you, read the linked food guide before planning a meal; temple access and current arrangements need separate confirmation.",
       "ideas": [
         "place:puri",
         "food:puri-mahaprasad",
@@ -45,7 +45,7 @@
   "preparation": [
     {
       "title": "Choose your season",
-      "text": "Incredible India recommends October–February for Puri. Use that as a seasonal starting point, then check the forecast and any local advisories for your dates."
+      "text": "October–February is a seasonal starting point for planning a Puri visit. Check the forecast and local advisories for your actual dates; a broad travel season cannot tell you the conditions on a particular beach or day."
     },
     {
       "title": "Make space between chapters",
@@ -58,23 +58,26 @@
   ],
   "sources": [
     {
+      "id": "mukteswar-context",
       "title": "Mukteswar · Visit Bhubaneswar",
       "url": "https://visit.bhubaneswar.me/content/temples/mukteswar",
-      "note": "Official architectural and festival context; a current festival programme or entry schedule was not confirmed."
+      "note": "Temple and entrance-arch context. The suggested way of looking is original guidance; festival schedules on this page are not treated as a current programme."
     },
     {
-      "title": "Raghurajpur · Odisha Tourism, 2019 article",
-      "url": "https://apps.odishatourism.gov.in/blog-detail/raghurajpur-the-heritage-crafts-village-of-odisha-odishabloggerstrail",
-      "note": "Historical craft context, not current workshop availability."
+      "id": "raghurajpur-pib",
+      "title": "Sucharita Sahoo · The land of artisans: Raghurajpur (PIB, 2014)",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=104817",
+      "note": "Prepared-cloth painting and narrative subjects. This dated account does not establish present workshop availability."
     },
     {
+      "id": "puri-context",
       "title": "Puri · Incredible India",
       "url": "https://www.incredibleindia.gov.in/en/odisha/puri",
-      "note": "Seasonal guidance; October–February is not a forecast or an assurance of conditions."
+      "note": "Temple-town and coastal context; October–February seasonal guidance. Current entry arrangements, forecasts and sea conditions require separate checks."
     }
   ],
-  "reviewed_on": "2026-10-04",
-  "review_scope": "Online context only. No maker, property or temple administration contacted; current arrangements remain to be confirmed.",
+  "reviewed_on": "2026-10-18",
+  "review_scope": "Online source and editorial review by the current AI assistant under Founder direction. No field visit, maker contact or independent human review.",
   "title_start": "Stone, sea",
   "title_highlight": "and makers.",
   "eyebrow": "One thread · three chapters · your own pace",
@@ -84,5 +87,33 @@
   "alternative": {
     "href": "/visit/places/dhauli/",
     "label": "read about Dhauli →"
-  }
+  },
+  "author": "Ahimanikya Satapathy",
+  "editorial_reading": true,
+  "passages": [
+    {
+      "id": "trail-city",
+      "source_ids": [
+        "mukteswar-context"
+      ]
+    },
+    {
+      "id": "trail-makers",
+      "source_ids": [
+        "raghurajpur-pib"
+      ]
+    },
+    {
+      "id": "trail-shore",
+      "source_ids": [
+        "puri-context"
+      ]
+    },
+    {
+      "id": "trail-preparation-0",
+      "source_ids": [
+        "puri-context"
+      ]
+    }
+  ]
 }

@@ -1,0 +1,99 @@
+{
+  "recorded_at": "2026-10-17T05:16:45.561386+00:00",
+  "authorization": [
+    "UTP-DEC-2026101702",
+    "UTP-DEC-225"
+  ],
+  "work_id": "UTP-WORK-302",
+  "queue_item": "UTP-EDIT-004",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/289",
+  "reviewed_head": "78f1d996a78ce55e743e55d53c56fb9f55d4529b",
+  "merge_commit": "6a3fddfb45ee2f9ac89a8aaf939b1c67d6a1f547",
+  "validation": {
+    "conclusion": "success",
+    "databaseId": 39005219322,
+    "headSha": "78f1d996a78ce55e743e55d53c56fb9f55d4529b",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39005219322"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "databaseId": 39005434428,
+    "headSha": "6a3fddfb45ee2f9ac89a8aaf939b1c67d6a1f547",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39005434428",
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "verified_routes": [
+    "/stories/nimuhi-temple/"
+  ],
+  "live": {
+    "checked_at": "2026-10-17T05:16:31.092421+00:00",
+    "pages": [
+      {
+        "route": "/stories/nimuhi-temple/",
+        "url": "https://projectodisha.org/stories/nimuhi-temple/",
+        "status": 200,
+        "sha256": "fb3fa1e8c638e19daab79c260d45ccd4bc9d47e129d46dce7882759f1b5fa05d",
+        "article_text_matches_tested_build": true,
+        "sources_verified": 20,
+        "reference_links": 68,
+        "return_links": 68,
+        "odia_excerpts": 6,
+        "noindex": true
+      }
+    ],
+    "assets": [
+      {
+        "route": "/assets/nimuhi/gazetteer-1968.png",
+        "status": 200,
+        "sha256": "af0ae4dac453a3ead3660c26a960f744192c4d7f7198801a22b6167d8e5053d6"
+      },
+      {
+        "route": "/assets/nimuhi/user-supplied-memorial.png",
+        "status": 200,
+        "sha256": "aee7c57247e6613f32406a82cc332dea3516f1e2c26ca0b018413beb16ba2cc8"
+      }
+    ],
+    "sitemap_entries": 11
+  },
+  "review": "records/nimuhi-editorial-review-2026-10-17.json",
+  "outputs": [
+    {
+      "path": "kb/research/culture/sashisena-and-nimuhi-temple.md",
+      "sha256": "ca4be985dbe87518b4301eaee51cb6b79a9dd4a125914f489adb8f75dbedb387",
+      "matches_merge": true
+    },
+    {
+      "path": "kb/records/nimuhi-editorial-source-mapping-2026-10-17.json",
+      "sha256": "71d9a45ad1230219fc234e9a919b8875f4c07d2d74406f4e13975abd7c4bb535",
+      "matches_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/stories/nimuhi-temple.astro",
+      "sha256": "9016e4113dd7b470d5da8c0997210c2b3e0ae9e05f093a65c46a6e9dd3f32905",
+      "matches_merge": true
+    },
+    {
+      "path": "projects/site/tools/nimuhi-footnote-heading.mjs",
+      "sha256": "0a4b5a04afad9c69f6075a76895e9d7c0160c950be1d23d98974e6c76b91db4b",
+      "matches_merge": true
+    },
+    {
+      "path": "projects/site/astro.config.mjs",
+      "sha256": "3e564ae759e118d6d5608fd3efbef5c8e08c04712a7e91689e3d727f606f4104",
+      "matches_merge": true
+    }
+  ],
+  "screenshot": "/tmp/nimuhi-editorial-live-mobile.png",
+  "counting": "Fourth editorial article completed; no increase to substantive500 count.",
+  "limitations": [
+    "Same-assistant editorial review, not independent human or specialist review.",
+    "Responsive browser emulation, not physical-device or screen-reader testing.",
+    "No new source translation, archival discovery or field verification claimed.",
+    "Historical interpretations and unresolved provenance remain as in the approved reference.",
+    "Editorial work does not increase the substantive 500-item count."
+  ],
+  "attachment": "App attachment attempted; thread attachment identity count exceeds 100. PR URL retained."
+}

@@ -1,0 +1,82 @@
+{
+  "recorded_at": "2026-10-17T04:17:37.344101+00:00",
+  "authorization": [
+    "UTP-DEC-2026101702",
+    "UTP-DEC-225"
+  ],
+  "work_id": "UTP-WORK-302",
+  "queue_item": "UTP-EDIT-002",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/287",
+  "reviewed_head": "27442aa7465722bad89894da1d2b0655ae92bf1b",
+  "merge_commit": "df38c46ded769641e21babd80d64261133c03769",
+  "validation": {
+    "conclusion": "success",
+    "databaseId": 39001452609,
+    "headSha": "27442aa7465722bad89894da1d2b0655ae92bf1b",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39001452609"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "databaseId": 39001669604,
+    "headSha": "df38c46ded769641e21babd80d64261133c03769",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39001669604",
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "verified_routes": [
+    "/sounds-of-odisha/huluhuli/"
+  ],
+  "live": {
+    "checked_at": "2026-10-17T04:17:14.557035+00:00",
+    "pages": [
+      {
+        "route": "/sounds-of-odisha/huluhuli/",
+        "url": "https://projectodisha.org/sounds-of-odisha/huluhuli/",
+        "status": 200,
+        "sha256": "f841e8213dcd8000bf22aac6fc762872d7a805254f066f82fd00a56a809c0a5b",
+        "paragraphs_verified": 35,
+        "sources_verified": 10,
+        "reference_links": 20,
+        "return_links": 20,
+        "noindex": true,
+        "imagined_art_label": true,
+        "image_sha256": "65db011239b3b0e76688e22d4092d722e1e6ac7d3e8bb3644e029ebfb90b9978"
+      }
+    ],
+    "sitemap_entries": 11
+  },
+  "review": "records/huluhuli-editorial-review-2026-10-17.json",
+  "outputs": [
+    {
+      "path": "kb/research/culture/huluhuli-website.json",
+      "sha256": "303e8b21867517f7b9731489e68e97ee7b373d7658dfd16428c13aad5cca0e45",
+      "matches_merge": true
+    },
+    {
+      "path": "kb/research/culture/huluhuli.md",
+      "sha256": "62fb91b998b8c898ff6323a1f023eb7915f43ac0b869987989ce4ab7bd41273b",
+      "matches_merge": true
+    },
+    {
+      "path": "kb/records/huluhuli-editorial-source-mapping-2026-10-17.json",
+      "sha256": "90948f8d7a64e6a63b6293de26ca7db73cfee4b176212e1cd423246e95598ede",
+      "matches_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha/huluhuli.astro",
+      "sha256": "4b33e40f209fca1b1f8c8fa61b48b16ecf7f97d32a080d5dd37a6e1850824e03",
+      "matches_merge": true
+    }
+  ],
+  "screenshot": "/tmp/huluhuli-editorial-live-mobile.png",
+  "counting": "Second editorial article completed; no increase to substantive500 count.",
+  "limitations": [
+    "Same-assistant editorial review, not independent human or practitioner review.",
+    "Responsive browser checks are not physical-device or screen-reader tests.",
+    "No new research, recording, performance observation or source-rights acquisition is claimed.",
+    "Formatting and editorial condensation do not increase the 500 substantive-item total."
+  ],
+  "attachment": "App attachment attempted; thread attachment identity count exceeds 100. PR URL retained."
+}

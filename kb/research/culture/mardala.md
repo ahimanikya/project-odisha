@@ -4,45 +4,72 @@ title: "Mardala: the conversation beneath the dance"
 description: "Follow musicians, learning and creative credits into an Odisha rhythm story."
 status: "draft"
 generated: {"by": "Current AI assistant", "at": "2026-10-11T17:40:09.723523+00:00"}
-sources: [{"id": "mardala-sna-banamali", "title": "Banamali Maharana, Sangeet Natak Akademi Awards 2003, one-page citation", "resource": "https://sangeetnatak.gov.in/public/uploads/awardees/docs/Banamali_Maharana.pdf"}, {"id": "mardala-president-2013", "title": "President of India confers Sangeet Natak Akademi awards for 2013, 11 April 2014", "resource": "https://www.presidentofindia.gov.in/pranab-mukherjee/press_releases/president-india-confers-sangeet-natak-akademi-fellowships-and"}, {"id": "mardala-abhipsaa", "title": "Bijayini Satpathy, ABHIPSAA choreography and production credits", "resource": "https://www.bijayinisatpathy.com/choreography/abhipsaa"}]
+sources: [{"id": "mardala-sna-banamali", "title": "Banamali Maharana, Sangeet Natak Akademi Awards 2003, one-page citation", "resource": "https://sangeetnatak.gov.in/public/uploads/awardees/docs/Banamali_Maharana.pdf"}, {"id": "mardala-president-2013", "title": "President of India confers Sangeet Natak Akademi awards for 2013, 11 April 2014", "resource": "https://www.presidentofindia.gov.in/pranab-mukherjee/press_releases/president-india-confers-sangeet-natak-akademi-fellowships-and"}, {"id": "mardala-abhipsaa", "title": "Bijayini Satpathy, ABHIPSAA choreography and production credits", "resource": "https://www.bijayinisatpathy.com/choreography/abhipsaa"}, {"id": "mardala-gurukula-course", "title": "Ramhari Das Odissi Gurukula Trust, Odissi Mardal course outline", "resource": "https://odissigurukul.org/academics/odissi-mardal/"}, {"id": "mardala-uuc-2025", "title": "Utkal University of Culture, BPA Mardala syllabus, 2025–26", "resource": "https://uuc.ac.in/wp-content/uploads/2025/07/Mardala-Final.pdf"}, {"id": "mardala-swain-interview-2020", "title": "Paul Nicodemus, Dhaneswar Swain: A Maestro of Odissi Mardal (2020)", "resource": "https://thedanceindia.com/dhaneswar-swain-a-maestro-of-odissi-mardal/"}]
 human_review_claimed: false
 ---
-
 # Mardala: the conversation beneath the dance
 
 *Sounds of Odisha*
 
-Imagine watching a dancer's hands while listening with your eyes closed for a moment. The gesture disappears. Rhythm remains. When you look again, ask a different question: who is making the movement's musical world possible?
+At an Odissi performance, try shifting your attention from the dancer to the musician. Listen for a phrase that returns, a pause that seems deliberate, or a change in how much happens between beats. These are invitations to listen, not descriptions of a recording reviewed for this article.
 
-This is an invitation to listen, not a report of a performance we attended. **Mardala brings the musician into the foreground of our Odisha story.** A drum can be seen as an object; a rhythm asks us to notice a player, a teacher and a creative decision.
+The Mardala player has more to do than supply a steady pulse. Teaching documents, a musician’s account and a production’s credits reveal different parts of the work: learning sounds, holding a rhythmic structure, coordinating with another artist and shaping a composition.
+
+## A rhythm can be spoken before it is played
+
+The Ramhari Das Odissi Gurukula Trust’s course outline begins with the instrument’s parts, tuning, posture and hand placement. It then introduces bols or baanis: spoken syllables used to remember and communicate drum sounds. Its examples include Ta, Ka and Dhi. The mouth becomes part of learning the instrument.
+
+The outline places oral recitation before playing and describes demonstration, imitation and call-and-response. This makes a lesson more than a written pattern. A teacher offers a sound and a way of making it; the pupil listens, responds and adjusts. The published method does not tell us how every teacher conducts a class, but it shows why a list of syllables cannot replace that exchange.
+
+A concrete example appears in Utkal University of Culture’s Mardala syllabus introduced for 2025–26. The first practical paper includes “Dha Dhina Kita dhini” among hand-practice phrases. It also requires recitation using numbers and syllables. Those four printed groups are not a four-beat notation: the excerpt does not assign a duration or finger action to each. Their value here is to show that rhythm is something students articulate as well as strike.[^mardala-gurukula-course][^mardala-uuc-2025]
+
+## A cycle is more than a count
+
+Tala and laya answer different questions. The Gurukula outline describes recurring cycles, including sixteen-beat Aaditaala and four-beat Eka Tali, while teaching laya through slow, medium and fast tempi. A count tells us where we are in a cycle; tempo tells us how quickly the pulse moves.
+
+Try a small thought experiment: count one, two, three, four, then return to one. Repeat at a slower pace. The group still contains four counts. Now keep that slow pulse but say two evenly spaced syllables during each count. More events fit inside the same span. This is an illustrative counting exercise, not an Eka Tali drum pattern or its prescribed clapping sequence.
+
+Counting alone cannot identify a tala. The university syllabus asks students to compare talas with equal beat totals through their divisions, claps, empty gestures and characteristic patterns. Two cycles can therefore have the same length while organising musical expectations differently. Hearing sixteen beats is a beginning, not enough to name what the player is doing.
+
+For a listener, the useful question becomes: what returns, and what changes within that return? A passage can become busier without the underlying pulse necessarily accelerating. A teacher or performer can identify the actual cycle and explain how a phrase sits inside it; our counting example cannot supply that musical context.[^mardala-gurukula-course][^mardala-uuc-2025]
 
 ## A person behind the pulse
 
-A useful doorway is Banamali Maharana. His Sangeet Natak Akademi award citation, headed *Awards 2003*, records his birth in Raghurajpur in 1941. It traces learning from khol and dholak to training in tabla and Mardala with Singhari Shyamsundar Kar and Kshetramohan Kar. Work with Kelucharan Mohapatra encouraged his systematization of Mardala playing in Odissi music and dance.[^mardala-sna-banamali]
+A useful doorway is Banamali Maharana. His Sangeet Natak Akademi award citation, headed Awards 2003, records his birth in Raghurajpur in 1941. It traces learning from khol and dholak to training in tabla and Mardala with Singhari Shyamsundar Kar and Kshetramohan Kar. Work with Kelucharan Mohapatra encouraged his systematization of Mardala playing in Odissi music and dance.
 
 That is a story of learning across instruments and people. It does not supply a date when the instrument was invented. Nor does one celebrated musician stand in for every lineage. But it gives us something better than an unsupported claim of timelessness: a named route by which knowledge was taught, developed and passed on.
 
-The citation also records teaching at Kala Vikash Kendra in Cuttack and Utkal Sangeet Mahavidyalaya in Bhubaneswar, retirement in 1999 and preparation of a seven-year course. These are historical details, not a current course advertisement.[^mardala-sna-banamali]
+The citation also records teaching at Kala Vikash Kendra in Cuttack and Utkal Sangeet Mahavidyalaya in Bhubaneswar, retirement in 1999 and preparation of a seven-year course. These are historical details, not a current course advertisement.
 
-Raghurajpur, Cuttack and Bhubaneswar therefore enter this story as documented points in a musician's life. A visitor can use them as starting points for questions about learning; this article does not promise a class, a visit to a teacher or an encounter with a family.
+Raghurajpur, Cuttack and Bhubaneswar therefore enter this story as documented points in a musician's life. A visitor can use them as starting points for questions about learning; this article does not promise a class, a visit to a teacher or an encounter with a family.[^mardala-sna-banamali]
+
+## From accompanying to taking the foreground
+
+In Paul Nicodemus’s 2020 profile for The Dance India, Dhaneswar Swain recalls learning in the setting of village Bhagabata Tungi gatherings, where the drum belonged to group devotional music. The account follows that early participation into study at Utkal Sangeet Mahavidyalaya and later teaching. It is one musician’s remembered path, not a complete history of the instrument.
+
+Swain describes different demands in accompanying dance and presenting a solo. Coordination with the dancer shapes the former; for a solo, he describes an ordered progression of material. The article also names his recordings Vadya Vani and Moods of Rhythm. These provide leads for further listening, rather than recordings auditioned or offered for playback here.
+
+His account associates the 1970s with increasing formalisation and college teaching. That recollection is useful evidence of how a practitioner understood change. It should not turn into a claim that earlier musicians lacked musical knowledge, or that Mardala was invented in that decade. The distinction is between a tradition’s long practice and particular efforts to organise, teach and present it.[^mardala-swain-interview-2020]
 
 ## Give rhythm its own credit
 
-Recognition has a precise calendar. The President of India's release names Dhaneswar Swain for Mardal drumming among the dance awardees for **2013**, at a ceremony on **11 April 2014**. Award year and presentation year are different.[^mardala-president-2013]
+Recognition has a precise calendar. The President of India's release names Dhaneswar Swain for Mardal drumming among the dance awardees for 2013, at a ceremony on 11 April 2014. Award year and presentation year are different.
 
-For a newer creative example, Bijayini Satpathy's own *ABHIPSAA — A Seeking* page identifies the work as 2021. In *Vibhanga*, based on Lalgudi Jayaraman's Desh Thillana, it credits rhythm composition to Dhaneswar Swain and Satpathy, and Mardala to Shivshankar Satapathy and Budhanath Swain. For *Virahi*, drawing on Raghunath Panigrahi's composition of an Ashtapadi from Jayadeva's *Gita Govinda*, it credits Shivshankar Satapathy with rhythm composition, Mardala and manjira.[^mardala-abhipsaa]
+For a newer creative example, Bijayini Satpathy's own ABHIPSAA — A Seeking page identifies the work as 2021. In Vibhanga, based on Lalgudi Jayaraman's Desh Thillana, it credits rhythm composition to Dhaneswar Swain and Satpathy, and Mardala to Shivshankar Satapathy and Budhanath Swain. For Virahi, drawing on Raghunath Panigrahi's composition of an Ashtapadi from Jayadeva's Gita Govinda, it credits Shivshankar Satapathy with rhythm composition, Mardala and manjira.
 
-Here literature, composition, choreography and instrumental work meet through specific credits. We should preserve those names when we tell the story. The production includes another piece with a different percussion ensemble; these credits do not establish Mardala throughout the whole work.
+Vibhanga also credits Satpathy with rhythm recitation. Composition, recitation and instrumental performance are named separately: the rhythmic idea, its spoken presence and its sounding on the drum need not all be credited to one person. That distinction makes the familiar word “accompaniment” feel less anonymous.
+
+Here literature, composition, choreography and instrumental work meet through specific credits. We should preserve those names when we tell the story. The production includes another piece with a different percussion ensemble; these credits do not establish Mardala throughout the whole work.[^mardala-president-2013][^mardala-abhipsaa]
 
 ## Try a different way of listening
 
 At an authorised performance or recording, give yourself three listening passes:
 
-1. **Follow the drum.** Notice where you hear space, repetition or change. Describe what you actually hear before naming a pattern.
-2. **Follow the relationship.** Attend to the movement or voice alongside the rhythm. Does your attention shift between them?
-3. **Read the credits.** Find the player and rhythm composer, then ask what part of the performance each helped shape.
+1. Follow the drum. Notice where you hear space, repetition or change. Describe what you actually hear before naming a pattern.
+2. Follow the relationship. Attend to the movement or voice alongside the rhythm. Does your attention shift between them?
+3. Read the credits. Find the player and rhythm composer, then ask what part of the performance each helped shape.
 
-These are observation prompts, not a technical explanation of tala or a claim that a particular recording was reviewed. A teacher can explain what a listener misses. Ask respectfully after the performance, when questions are welcome; obtain permission before recording an explanation or lesson.
+These prompts help connect listening with the roles and learning processes described above; they do not identify a tala from a recording we have reviewed. A teacher can explain what a listener misses. Ask when questions are welcome, and obtain permission before recording an explanation or lesson.
 
 ## Why this belongs in a journey
 
@@ -50,12 +77,22 @@ An itinerary can list a performance as one more stop. A story can make us want t
 
 Before offering a bookable experience, we need a current programme, a willing host and confirmed access. Before placing audio here, we need recording rights and a player's context. For now, this is a reading path into living musical work, with those next steps open.
 
-Explore [Sounds of Odisha](sounds-of-odisha.md), [Huluhuli](huluhuli.md) and [Sankha](sankha.md).
-
 ## Sources and further reading
 
-[^mardala-sna-banamali]: [Sangeet Natak Akademi, Banamali Maharana citation](https://sangeetnatak.gov.in/public/uploads/awardees/docs/Banamali_Maharana.pdf), one page, footer *Awards 2003*; inspected 11 October 2026.
-[^mardala-president-2013]: [President of India, 2013 awards presented on 11 April 2014](https://www.presidentofindia.gov.in/pranab-mukherjee/press_releases/president-india-confers-sangeet-natak-akademi-fellowships-and), artist list under dance.
-[^mardala-abhipsaa]: [Bijayini Satpathy, ABHIPSAA](https://www.bijayinisatpathy.com/choreography/abhipsaa), Vibhanga and Virahi production credits.
+The [source dossier](../sources/mardala-research.md) maps claims and preserves limits. Practitioner and language review remain open.
 
-[Research notes, uncertainties and recording plan](../sources/mardala-research.md). This is a KB draft; practitioner review and reusable audio remain open.
+[^mardala-sna-banamali]: [Banamali Maharana, Sangeet Natak Akademi Awards 2003, one-page citation](https://sangeetnatak.gov.in/public/uploads/awardees/docs/Banamali_Maharana.pdf). One-page citation headed Awards 2003: training, teachers, institutions and course history. Saved PDF text and rendered page inspected; historical biography, not an invention date or current admission offer.
+
+[^mardala-president-2013]: [President of India confers Sangeet Natak Akademi awards for 2013, 11 April 2014](https://www.presidentofindia.gov.in/pranab-mukherjee/press_releases/president-india-confers-sangeet-natak-akademi-fellowships-and). Release dated 11 April 2014; dance award list names Dhaneswar Swain for Mardal drumming. Award year 2013 is distinct from presentation year 2014; previously read primary release.
+
+[^mardala-abhipsaa]: [Bijayini Satpathy, ABHIPSAA choreography and production credits](https://www.bijayinisatpathy.com/choreography/abhipsaa). ABHIPSAA—A Seeking (2021), Vibhanga and Virahi music credits. Primary production page previously read, including in the Odissi music research. Credits apply to named pieces; no recording audition or rights implied.
+
+[^mardala-gurukula-course]: [Ramhari Das Odissi Gurukula Trust, Odissi Mardal course outline](https://odissigurukul.org/academics/odissi-mardal/). Course Content and Teaching Methods: parts, tuning, vocal mnemonics, cycles, tempo and oral/call-and-response learning. Full primary institutional page read 17 October 2026. A published teaching outline, not a class observed, present vacancy or universal technique.
+
+[^mardala-uuc-2025]: [Utkal University of Culture, BPA Mardala syllabus, 2025–26](https://uuc.ac.in/wp-content/uploads/2025/07/Mardala-Final.pdf). PDF pp.10–11: terminology and comparison of equal-beat talas; pp.13–14: first practical paper, hand-practice phrase and recitation. Full PDF text inspected; practical pages rendered and checked. The cover dates introduction to 2025–26. Curriculum topics do not establish an ancient origin or provide the missing durations/fingerings.
+
+[^mardala-swain-interview-2020]: [Paul Nicodemus, Dhaneswar Swain: A Maestro of Odissi Mardal (2020)](https://thedanceindia.com/dhaneswar-swain-a-maestro-of-odissi-mardal/). The Dance India, 10 October 2020, full profile with Swain’s attributed accounts of learning, solo/dance work and formalisation. Personal recollection is not an exhaustive chronology. Recordings named but not auditioned; no first-ever solo, universal tuning or present teaching schedule adopted.
+
+## Publication history
+
+The initial [reader article](https://projectodisha.org/sounds-of-odisha/mardala/) is public. This 17 October revision is tracked as UTP-A500-109 / UTP-WORK-298; count delivery only after its separate approved deployment and live receipt. No reusable recording or current class access is implied.

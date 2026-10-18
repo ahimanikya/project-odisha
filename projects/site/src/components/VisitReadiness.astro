@@ -1,10 +1,10 @@
 ---
 import notebooks from '../../../../kb/research/destinations/visit-notebooks.json';
 import review from '../../../../kb/research/destinations/visit-readiness.json';
-const {withinNotebook=false}=Astro.props;
+const {withinNotebook=false,editorial=null}=Astro.props;
 const hasNotebook=notebooks.notebooks.some(n=>n.route===Astro.url.pathname);
 const Heading=withinNotebook?'h3':'h2';
 const note=review.notes.find(n=>n.routes.includes(Astro.url.pathname));
 ---
-{note&&(!hasNotebook||withinNotebook)&&<div class="visit-readiness" id="current-arrangements"><details class="utk-disclosure"><summary>Check current arrangements</summary><Heading>{note.heading}</Heading>{note.facts.map(f=><p>{f.text}</p>)}<ul>{note.questions.map(q=><li>{q}</li>)}</ul><p class="verification-note">Official references checked {review.checked_on}. These are planning leads; individual arrangements have not been confirmed locally.</p><p class="reference-links">{note.sources.map((id,i)=><>{i>0?' · ':''}<a href={review.sources[id].url}>{review.sources[id].title}</a></>)}</p></details></div>}
+{note&&(!hasNotebook||withinNotebook)&&<div class="visit-readiness" id="current-arrangements"><details class="utk-disclosure"><summary>Check current arrangements</summary><Heading>{note.heading}</Heading>{note.facts.map(f=><p>{f.text}</p>)}<ul>{note.questions.map(q=><li>{q}</li>)}</ul><p class="verification-note">Official references checked {review.checked_on}. These are planning leads; individual arrangements have not been confirmed locally.</p><p class="reference-links">{note.sources.map((id,i)=><>{i>0?' · ':''}<a href={editorial?.sources.find(s=>s.id===(editorial?.source_aliases?.[id]||id))?.url||review.sources[id].url}>{review.sources[id].title}</a></>)}</p></details></div>}
 <style>.visit-readiness{margin-block:24px 48px}.visit-readiness details{border-block:1px solid var(--line);padding:8px 0}.visit-readiness summary{min-height:48px;padding:12px 0;cursor:pointer;color:var(--sea);font-weight:600}.visit-readiness h2{font-size:clamp(26px,3vw,36px);margin:18px 0}.visit-readiness p,.visit-readiness li{max-width:75ch;margin-block:14px}.visit-readiness ul{padding-left:24px}.visit-readiness .verification-note,.visit-readiness .reference-links{font-size:14px;color:var(--muted)}.reference-links a{display:inline-block;padding-block:8px}</style>

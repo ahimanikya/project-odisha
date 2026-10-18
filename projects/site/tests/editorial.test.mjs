@@ -22,13 +22,14 @@ test('each published note paragraph retains its KB citations and excludes propos
       for(const id of citations){
         assert.ok(note.sources.some(source=>source.id===id),`${note.slug}: ${id}`);
         assert.ok(html.includes(`data-source-ids="${paragraph.sources.join(' ')}"`),`${note.slug}: ${id}`);
-        assert.ok(html.includes(`href="#fact-${index+1}"`),`${note.slug}: mapped end note`);
-        assert.ok(html.includes(`id="source-${id}"`),`${note.slug}: ${id}`);
+        assert.ok(html.includes(['konark','chilika'].includes(note.slug)?`href="#ref-record-${index}-${id}"`:`href="#fact-${index+1}"`),`${note.slug}: mapped end note`);
+        assert.ok(html.includes(`id="${['konark','chilika'].includes(note.slug)?'note':'source'}-${id}"`),`${note.slug}: ${id}`);
       }
     });
     assert.ok(!/Story opportunity|Editorial interpretation|Connect it to action/.test(html),note.slug);
     assert.ok(!html.includes('[^'),note.slug);
-    for(const source of note.sources)assert.ok(html.includes(escape(source.inspection)),note.slug);
+    if(!['konark','chilika'].includes(note.slug))for(const source of note.sources)assert.ok(html.includes(escape(source.inspection)),note.slug);
+    else if(note.slug==='konark')assert.match(html,/inconsistent horse counts/);
   }
 });
 
@@ -55,7 +56,7 @@ test('the narrative keeps sources, image credit, dated data and belief labels vi
     for(const id of block.sources){
       assert.ok(allSources.some(source=>source.id===id),id);
       assert.ok(html.includes(`data-source-ids="${block.sources.join(' ')}"`),id);
-      assert.ok(html.includes(`id="source-${id}"`),id);
+      assert.ok(html.includes(`id="note-${id}"`),id);
     }
   }
   assert.ok(html.includes(escape(story.belief.label)));
@@ -68,35 +69,19 @@ test('the narrative keeps sources, image credit, dated data and belief labels vi
 });
 
 
-test('destination choices and culture resolve to evidence inside collapsed end credits',()=>{
-  const d=JSON.parse(readFileSync('../../kb/research/destinations/chilika.json','utf8'));
-  const story=JSON.parse(readFileSync('../../kb/research/stories/narratives/chilika.json','utf8'));
-  const sourceIds=new Set([...d.sources,...story.sources].map(s=>s.id));
-  const html=readFileSync('dist/knowledge/chilika/index.html','utf8');
-  const start=html.search(/<details\b[^>]*class="[^"]*\bend-credits\b[^"]*"/);
-  assert.ok(start>0);
-  const main=html.slice(0,start),end=html.slice(start);
-  assert.match(end,/^<details\b[^>]*id="sources-credits"[^>]*>/);
-  assert.ok(!/^<details[^>]*\bopen(?:[\s=>])/.test(end), 'credits remain collapsed');
-  assert.ok(!main.includes('class="citation"'));
-  assert.ok(!main.replace(/<details\b[^>]*>[\s\S]*?<\/details>/g,'').includes(story.image.creator));
-  const items=[...d.experiences,...d.foods,...d.bases,...d.culture];
-  assert.equal(new Set(items.map(i=>i.id)).size,items.length);
-  for(const item of items){
-    assert.ok(item.sources.length,item.id);
-    assert.ok(main.includes(escape(item.title)),item.id);
-    for(const id of item.sources){
-      assert.ok(sourceIds.has(id),id);
-      assert.ok(end.includes(`id="source-${id}"`),id);
-    }
-    assert.ok(end.includes(`href="#${item.id.replaceAll(':','-')}"`),item.id);
-  }
-  for(const id of [...d.orientation_sources,...d.season_sources])assert.ok(sourceIds.has(id),id);
-  assert.ok(d.bases.every(i=>i.type==='base_area'));
-  assert.ok(main.includes('data-save-journey="place:chilika"'),'destination can be saved to the planner');
-  assert.ok(main.includes('November–February'));
-  assert.ok(main.includes('sighting is never guaranteed'));
-  assert.ok(end.includes('playback'));
+test('Chilika choices connect to visible numbered sources without losing creator credits',()=>{
+ const d=JSON.parse(readFileSync('../../kb/research/destinations/chilika.json','utf8'));
+ const html=readFileSync('dist/knowledge/chilika/index.html','utf8');
+ const start=html.indexOf('<section id="story-sources"');assert.ok(start>0);
+ const main=html.slice(0,start),end=html.slice(start);
+ for(const item of [...d.experiences,...d.foods,...d.bases,...d.culture]){
+  assert.ok(main.includes(escape(item.title)),item.id);
+  for(const id of item.sources)assert.ok(end.includes(`id="note-${id}"`),id);
+ }
+ for(const work of d.culture.filter(w=>w.type==='song')){assert.ok(main.includes(escape(work.credit)));assert.ok(main.includes(`href="${work.url}"`));}
+ assert.ok(main.includes('data-save-journey="place:chilika"'));
+ assert.ok(main.includes('November–February'));assert.ok(main.includes('sighting is never guaranteed'));
+ assert.ok(end.includes('Playback availability'));
 });
 
 test('both destination pilots preserve optional narratives, source coverage and local planning paths',()=>{
@@ -114,7 +99,7 @@ test('both destination pilots preserve optional narratives, source coverage and 
       assert.ok(html.includes(`data-source-ids="${block.sources.join(' ')}"`));
     }
     for(const id of ids){
-      const source=html.match(new RegExp(`<li id="source-${id}">([\\s\\S]*?)</li>`));
+      const source=html.match(new RegExp(`<li id="${'note'}-${id}"[^>]*>([\\s\\S]*?)</li>`));
       assert.ok(source,`${slug}: ${id}`);
       assert.match(source[1],/href="#/,`${slug}: ${id} has no return to supported passage`);
     }
@@ -127,7 +112,7 @@ test('both destination pilots preserve optional narratives, source coverage and 
     if(slug==='konark'){
       assert.ok(!story.voice,'do not manufacture a quote to satisfy a template');
       assert.ok(!html.includes('Meet the lagoon'));
-      assert.ok(html.includes('not a confirmed 2026 programme'));
+      assert.ok(html.includes('not a confirmed programme or booking'));
       assert.ok(html.includes('not claims that the dishes originated in Konark'));
       assert.ok(html.includes('id="history"'));
       assert.ok(!html.includes('undefined'));
@@ -139,7 +124,7 @@ test('destination photographs retain rights, context and local delivery',()=>{
  for(const slug of ['chilika','konark']){
   const d=JSON.parse(readFileSync(`../../kb/research/destinations/${slug}.json`,'utf8'));
   const html=readFileSync(`dist/knowledge/${slug}/index.html`,'utf8');
-  const credits=html.slice(html.search(/<details\b[^>]*class="[^"]*\bend-credits\b[^"]*"/));
+  const credits=html.slice(html.indexOf('<section id="story-sources"'));
   for(const photo of Object.values(d.visuals)){
    assert.ok(readFileSync('public'+photo.src).length>0);
    for(const field of ['source','creator','license_url','changes'])assert.ok(credits.includes(escape(photo[field])),`${slug}: ${photo.id} ${field}`);

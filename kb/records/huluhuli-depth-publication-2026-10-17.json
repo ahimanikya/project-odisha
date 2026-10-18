@@ -1,0 +1,82 @@
+{
+  "prior_validation_attempts": [
+    "https://github.com/ahimanikya/project-odisha/actions/runs/38973321676",
+    "https://github.com/ahimanikya/project-odisha/actions/runs/38973667658"
+  ],
+  "recorded_at": "2026-10-16T22:16:03.442860+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-107",
+  "work_id": "UTP-WORK-296",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/278",
+  "reviewed_head": "90d75549aff65572212c2e299aa903e92700cd0a",
+  "merge_commit": "a2fc6f60009c8ee340f91f74913f0ada056f48c4",
+  "merged_at": "2026-10-16T22:12:27Z",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "90d75549aff65572212c2e299aa903e92700cd0a",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38973905056",
+    "workflowName": "Review coastal candidate"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "a2fc6f60009c8ee340f91f74913f0ada056f48c4",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/38974361724",
+    "workflowName": "Publish Project Odisha",
+    "required": true,
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-16T22:15:44.310533+00:00",
+    "url": "https://projectodisha.org/sounds-of-odisha/huluhuli/",
+    "status": 200,
+    "paragraphs_verified": 39,
+    "sources_verified": 10,
+    "html_sha256": "469d1787d864297abf4bc7f91ca1daad7b63a1f4102c7df1a9af8b167e1dc03e",
+    "all_canonical_paragraphs_present": true,
+    "end_notes_mapping_present": true,
+    "no_audio": true,
+    "noindex": true,
+    "sitemap_entries": 11,
+    "browser": "Actual live revision visually checked; new prose and expandable end notes present.",
+    "screenshot": "/tmp/huluhuli-depth-live.png"
+  },
+  "outputs": [
+    {
+      "path": "kb/research/culture/huluhuli.md",
+      "sha256": "2313bc576601f805baf6928da074f3bc8d13508564324bfd5feb1946b279cdc9",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/culture/huluhuli-website.json",
+      "sha256": "dc682aa4fcf5414489723d0cb75dcbbf69288e8d658998c11316a8799671b6bd",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/research/sources/huluhuli-research.md",
+      "sha256": "fc63d4e207a829b1d514d5deebf39ac41ee1aebb9a24bfb572e187455664f3b3",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "kb/records/huluhuli-source-mapping-2026-10-17.json",
+      "sha256": "5b825c044d268045f9d871cd238047c45bd31bfa7c5bd9c86e1d8fa1a0577f62",
+      "matches_fetched_merge": true
+    },
+    {
+      "path": "projects/site/src/pages/sounds-of-odisha/huluhuli.astro",
+      "sha256": "ca24a3d950c00687c410134c06c72b1d12e9ef72e80866b8d87418bb083249bb",
+      "matches_fetched_merge": true
+    }
+  ],
+  "review": "records/huluhuli-depth-review-2026-10-17.json",
+  "limitations": [
+    "Same-assistant editorial review, not independent human or practitioner review.",
+    "Dictionary is lexicographic evidence, not measured phonetics. Exact origin and Bhagabata edition/canto/verse remain unresolved.",
+    "Jacobs reports Arabic zaghareet; it does not establish how Odia practitioners learn or an historical transmission route.",
+    "Existing indexed-only festival and competition sources retain their access limitations. No new audio or field demonstration.",
+    "Responsive browser checks are not physical-device or screen-reader tests."
+  ],
+  "attachment": "App attachment attempted; thread attachment identity count exceeds 100. PR URL retained."
+}

@@ -9,7 +9,7 @@
       "title": "A city, one detail at a time",
       "notice": "Choose one carved detail to look at before reaching for the camera. Let a small discovery become your way into the city.",
       "connect": "Ask a guide which detail they would show someone visiting for the first time. Keep their interpretation distinct from what you can verify.",
-      "prepare": "Odisha Tourism places the city’s temple heritage in the old town, Ekamra Kshetra. Begin with one chosen site rather than treating the city as a single attraction. Confirm that site’s entry rules and the return pickup point; ask about steps, shade and toilets before adding another stop.",
+      "prepare": "Begin with one chosen site rather than treating the city as a single attraction. Confirm that site’s entry rules and the return pickup point; ask about steps, shade and toilets before adding another stop.",
       "pair": {
         "text": "Leave room for Dhauli as a separate choice, after checking the journey between them. A reading connection is not a tested route.",
         "href": "/visit/places/dhauli/",
@@ -22,20 +22,20 @@
       "planning_sources": [
         {
           "title": "Odisha Tourism · Bhubaneswar",
-          "url": "https://odishatourism.gov.in/content/tourism/en/discover/major-cities/bhubaneswar.html",
-          "checked_on": "2026-09-30",
-          "inspection": "Identifies the old town as Ekamra Kshetra and describes Hindu, Buddhist and Jain heritage. No single opening schedule for the whole city."
+          "url": "https://odishatourism.gov.in/en/destinations/bhubaneswar",
+          "checked_on": "2026-10-17",
+          "inspection": "Current official destination overview read: named heritage sites and airport/railway arrival points. No single opening schedule for the whole city."
         },
         {
           "title": "Odisha Tourism · tourist offices",
-          "url": "https://odishatourism.gov.in/content/tourism/en/dot/visitors-information/tourist-offices.html",
-          "checked_on": "2026-09-30",
-          "inspection": "Official directory lists Bhubaneswar, Konark and Puri offices. Contact details inspected online, not called or independently confirmed; no response, referral or service guaranteed."
+          "url": "https://odishatourism.gov.in/en/tourist-offices",
+          "checked_on": "2026-10-17",
+          "inspection": "Current official directory read: Bhubaneswar office listed. No call, response or service availability confirmed."
         },
         {
           "title": "Visit Bhubaneswar · Mukteswar and Odissi",
           "url": "https://visit.bhubaneswar.me/content/temples/mukteswar",
-          "checked_on": "2026-10-01",
+          "checked_on": "2026-10-17",
           "inspection": "Municipal visitor page links the temple with the Mukteswar Odissi festival. Its recurring dates and hours are not a confirmed programme for a future edition."
         },
         {
@@ -47,7 +47,7 @@
         {
           "title": "Visit Bhubaneswar · OTDC Panthanivas",
           "url": "https://visit.bhubaneswar.me/stay/government-accommodations/panthanivas-otdc",
-          "checked_on": "2026-10-01",
+          "checked_on": "2026-10-17",
           "inspection": "Municipal visitor listing identifies Lewis Road property and restaurant offering Odia food. No room, meal, quality, price or access inspection. Promotional value claims not adopted."
         }
       ],
@@ -58,23 +58,33 @@
       "planning_help": {
         "text": "For help planning a city visit, look for the Bhubaneswar office in Odisha Tourism’s tourist-office directory. Ask who can confirm access at your chosen site.",
         "label": "Odisha Tourism · tourist offices",
-        "url": "https://odishatourism.gov.in/content/tourism/en/dot/visitors-information/tourist-offices.html"
+        "url": "https://odishatourism.gov.in/en/tourist-offices",
+        "source_ids": [
+          "bhub-offices"
+        ]
       },
       "planning_stops": [
         {
           "heading": "Begin with one stone detail",
           "text": "Make Mukteswar a close-looking stop: choose a carved figure or the entrance arch, then ask a guide what is observed and what is interpretation. The city visitor page connects this setting with Odissi performances. A daytime temple visit and a festival evening need separate plans.",
-          "source_url": "https://visit.bhubaneswar.me/content/temples/mukteswar"
+          "source_url": "https://visit.bhubaneswar.me/content/temples/mukteswar",
+          "source_ids": [
+            "bhub-mukteswar-festival"
+          ]
         },
         {
           "heading": "Let the city keep its different rhythms",
           "text": "Choose the old town as one part of your day. Leave room for a meal, a seated break and the journey back before adding Dhauli. Confirm each site’s entry eligibility, approach, footwear or belongings rules and actual opening arrangements separately.",
-          "source_url": "https://odishatourism.gov.in/content/tourism/en/discover/major-cities/bhubaneswar.html"
+          "source_url": "https://odishatourism.gov.in/en/destinations/bhubaneswar",
+          "source_ids": []
         },
         {
           "heading": "A performance needs a dated programme",
           "text": "Mukteswar’s association with Odissi makes a promising cultural connection. Check the organiser’s programme for the year you travel, including venue, timing and entry; a recurring festival description is not a reservation or a promise that an event will run.",
-          "source_url": "https://visit.bhubaneswar.me/content/temples/mukteswar"
+          "source_url": "https://visit.bhubaneswar.me/content/temples/mukteswar",
+          "source_ids": [
+            "bhub-mukteswar-festival"
+          ]
         }
       ],
       "practical_choices": {
@@ -94,9 +104,12 @@
             ],
             "source_urls": [
               "https://aai.aero/en/airports/bhubaneswar",
-              "https://odishatourism.gov.in/content/tourism/en/discover/major-cities/bhubaneswar.html"
+              "https://odishatourism.gov.in/en/destinations/bhubaneswar"
             ],
-            "basis": "source_context_with_editorial_advice"
+            "basis": "source_context_with_editorial_advice",
+            "source_ids": [
+              "bhubaneswar"
+            ]
           },
           {
             "key": "access",
@@ -109,9 +122,10 @@
               }
             ],
             "source_urls": [
-              "https://odishatourism.gov.in/content/tourism/en/discover/major-cities/bhubaneswar.html"
+              "https://odishatourism.gov.in/en/destinations/bhubaneswar"
             ],
-            "basis": "source_context_with_editorial_advice"
+            "basis": "source_context_with_editorial_advice",
+            "source_ids": []
           },
           {
             "key": "food",
@@ -126,7 +140,10 @@
             "source_urls": [
               "https://visit.bhubaneswar.me/stay/government-accommodations/panthanivas-otdc"
             ],
-            "basis": "source_context_with_editorial_advice"
+            "basis": "source_context_with_editorial_advice",
+            "source_ids": [
+              "bhub-panthanivas"
+            ]
           },
           {
             "key": "stay",
@@ -145,10 +162,14 @@
             "source_urls": [
               "https://visit.bhubaneswar.me/stay/government-accommodations/panthanivas-otdc"
             ],
-            "basis": "source_context_with_editorial_advice"
+            "basis": "source_context_with_editorial_advice",
+            "source_ids": [
+              "bhub-panthanivas"
+            ]
           }
         ]
-      }
+      },
+      "editorial_notes_in_article": true
     },
     {
       "route": "/visit/places/dhauli/",
@@ -156,7 +177,7 @@
       "title": "Make room for a quieter question",
       "notice": "Look for the difference between a monument you can see and an older story you have come to understand. Resist fitting every layer into one photograph.",
       "connect": "Ask how a local guide distinguishes the older evidence from the modern memorial. Listen without presenting a remembered story as established fact.",
-      "prepare": "Give the rock inscriptions and the 1972 Peace Pagoda separate attention. Agree both stops and their approaches with your driver or guide. Confirm return transport and any show for your actual date; a general tourism listing is not a booking.",
+      "prepare": "Give the rock inscriptions and the modern Peace Pagoda separate attention. Agree both stops and their approaches with your driver or guide. Confirm return transport and any show for your actual date; a general tourism listing is not a booking.",
       "pair": {
         "text": "Continue reading about Konark if stone and interpretation interest you. Check distance and transport separately before combining the visits.",
         "href": "/knowledge/konark/",
@@ -168,16 +189,16 @@
       "authorship": "Project Odisha; Founder direction: Ahimanikya Satapathy; drafted with AI assistance.",
       "planning_sources": [
         {
-          "title": "Odisha Tourism · Dhauligiri",
-          "url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/buddhist-sites/dhauligiri.html",
-          "checked_on": "2026-10-01",
-          "inspection": "1972 construction and general show/festival context rechecked. Listed times and prices are not confirmed for a chosen date."
+          "title": "Odisha Tourism · Dhauli Shanti Stupa",
+          "url": "https://odishatourism.gov.in/en/places/dhauli-shanti-stupa-dhauli-hills",
+          "checked_on": "2026-10-17",
+          "inspection": "Current successor page inspected: 1970s pagoda, attributed river story and light-and-sound show context. No dated programme, fees or access confirmed."
         },
         {
           "title": "Odisha Tourism · tourist offices",
-          "url": "https://odishatourism.gov.in/content/tourism/en/dot/visitors-information/tourist-offices.html",
-          "checked_on": "2026-09-30",
-          "inspection": "Official directory lists Bhubaneswar, Konark and Puri offices. Contact details inspected online, not called or independently confirmed; no response, referral or service guaranteed."
+          "url": "https://odishatourism.gov.in/en/tourist-offices",
+          "checked_on": "2026-10-17",
+          "inspection": "Current official directory inspected; Bhubaneswar office listed. Not contacted; no service confirmed."
         },
         {
           "title": "National Monuments Authority · Dhauli site history, pp. 8–9",
@@ -193,28 +214,41 @@
       "planning_help": {
         "text": "Look for the Bhubaneswar office in Odisha Tourism’s tourist-office directory. Ask where to confirm Dhauli’s current show programme and visitor access.",
         "label": "Odisha Tourism · tourist offices",
-        "url": "https://odishatourism.gov.in/content/tourism/en/dot/visitors-information/tourist-offices.html"
+        "url": "https://odishatourism.gov.in/en/tourist-offices",
+        "source_ids": [
+          "tourist-offices-current"
+        ]
       },
       "planning_stops": [
         {
           "heading": "Read the older layer",
           "text": "Dhauli’s inscription site dates to the third century BCE; the text is Prakrit in Brahmi script. Ask for a clearly identified translation and notice the elephant carved above the inscriptions. Stay in permitted viewing areas and leave the stone untouched.",
-          "source_url": "https://nma.gov.in/showfile.php?lang=1&level=2&lid=1286&ls_id=1022&nma_type=0"
+          "source_url": "https://nma.gov.in/showfile.php?lang=1&level=2&lid=1286&ls_id=1022&nma_type=0",
+          "source_ids": [
+            "dhauli-nma"
+          ]
         },
         {
           "heading": "Give the Peace Pagoda its own moment",
-          "text": "The white Shanti Stupa was built in 1972. Treat it as a modern peace monument, distinct from the Ashokan inscriptions. Ask your guide to distinguish historical evidence, later remembrance and the local Daya river legend.",
-          "source_url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/buddhist-sites/dhauligiri.html"
+          "text": "The white Shanti Stupa was built in the 1970s. Treat it as a modern peace monument, distinct from the Ashokan inscriptions. Ask your guide to distinguish historical evidence from later remembrance and the Daya river story.",
+          "source_url": "https://odishatourism.gov.in/en/places/dhauli-shanti-stupa-dhauli-hills",
+          "source_ids": [
+            "dhauli"
+          ]
         },
         {
           "heading": "Confirm the evening before keeping it free",
-          "text": "Odisha Tourism mentions a light-and-sound show and a music-and-dance festival. Check a dated programme, language, ticket arrangements, finish time and cancellations with the organiser. No performance, price or current schedule is confirmed here.",
-          "source_url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/buddhist-sites/dhauligiri.html"
+          "text": "Odisha Tourism describes a light-and-sound show. Check a dated programme, language, ticket arrangements, finish time and cancellations with the organiser. No performance, price or current schedule is confirmed here.",
+          "source_url": "https://odishatourism.gov.in/en/places/dhauli-shanti-stupa-dhauli-hills",
+          "source_ids": [
+            "dhauli"
+          ]
         },
         {
           "heading": "Plan both approaches and your return",
           "text": "Ask separately about the inscription site and pagoda: exact drop-off, walking surfaces, steps, seating, shade and toilets. Agree driver waiting and return pickup before travelling, including after an evening event. Build in water and a meal break; current facilities and accessible routes remain unverified.",
-          "source_url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/buddhist-sites/dhauligiri.html"
+          "source_url": "https://odishatourism.gov.in/en/places/dhauli-shanti-stupa-dhauli-hills",
+          "source_ids": []
         }
       ],
       "practical_choices": {
@@ -233,9 +267,12 @@
               }
             ],
             "source_urls": [
-              "https://odishatourism.gov.in/content/tourism/en/discover/attractions/buddhist-sites/dhauligiri.html"
+              "https://odishatourism.gov.in/en/places/dhauli-shanti-stupa-dhauli-hills"
             ],
-            "basis": "source_context_with_editorial_advice"
+            "basis": "source_context_with_editorial_advice",
+            "source_ids": [
+              "dhauli"
+            ]
           },
           {
             "key": "access",
@@ -243,9 +280,10 @@
             "text": "Ask about the final walk, steps, shade and seating at both stops. If a show is part of the plan, confirm that it runs on your date and arrange the return journey around its actual finish.",
             "links": [],
             "source_urls": [
-              "https://odishatourism.gov.in/content/tourism/en/discover/attractions/buddhist-sites/dhauligiri.html"
+              "https://odishatourism.gov.in/en/places/dhauli-shanti-stupa-dhauli-hills"
             ],
-            "basis": "source_context_with_editorial_advice"
+            "basis": "source_context_with_editorial_advice",
+            "source_ids": []
           },
           {
             "key": "food",
@@ -258,7 +296,8 @@
               }
             ],
             "source_urls": [],
-            "basis": "editorial_planning_suggestion"
+            "basis": "editorial_planning_suggestion",
+            "source_ids": []
           },
           {
             "key": "stay",
@@ -271,10 +310,12 @@
               }
             ],
             "source_urls": [],
-            "basis": "editorial_planning_suggestion"
+            "basis": "editorial_planning_suggestion",
+            "source_ids": []
           }
         ]
-      }
+      },
+      "editorial_notes_in_article": true
     },
     {
       "route": "/knowledge/konark/",
@@ -294,46 +335,28 @@
       "authorship": "Project Odisha; Founder direction: Ahimanikya Satapathy; drafted with AI assistance.",
       "planning_sources": [
         {
-          "title": "Archaeological Survey of India · Sun Temple, Konarak",
+          "title": "ASI · Sun Temple, Konarak",
           "url": "https://asi.nic.in/pages/WorldHeritageKonarak",
-          "checked_on": "2026-09-30",
-          "inspection": "Monument sunrise-to-sunset hours and museum collection link inspected. Incredible India lists 06:00–20:00 instead; conflict retained and visitors directed to confirm with ASI. Fee category labels on the ASI page are incomplete, so no amount copied."
+          "checked_on": "2026-10-17",
+          "inspection": "Rechecked official page for the linked guide statements; no local confirmation."
+        },
+        {
+          "title": "Odisha Tourism · Konark visitor information",
+          "url": "https://odishatourism.gov.in/en/places/konark-sun-temple",
+          "checked_on": "2026-10-17",
+          "inspection": "Rechecked official page for the linked guide statements; no local confirmation."
         },
         {
           "title": "Odisha Tourism · tourist offices",
-          "url": "https://odishatourism.gov.in/content/tourism/en/dot/visitors-information/tourist-offices.html",
-          "checked_on": "2026-09-30",
-          "inspection": "Official directory lists Bhubaneswar, Konark and Puri offices. Contact details inspected online, not called or independently confirmed; no response, referral or service guaranteed."
-        },
-        {
-          "title": "ASI · official website and ticket link",
-          "url": "https://asi.nic.in/",
-          "checked_on": "2026-09-30",
-          "inspection": "Homepage links directly to asi.paygov.org.in/asi-webapp/#/ticketbooking; establishes official referral rather than relying on a search ad."
+          "url": "https://odishatourism.gov.in/en/tourist-offices",
+          "checked_on": "2026-10-17",
+          "inspection": "Rechecked official page for the linked guide statements; no local confirmation."
         },
         {
           "title": "ASI · ticket portal",
           "url": "https://asi.paygov.org.in/asi-webapp/#/ticketbooking",
           "checked_on": "2026-09-30",
-          "inspection": "Browser inspection of Bhubaneshwar circle showed distinct Sun Temple, Konark and Archaeological Site Museum, Konark entries. No checkout, visitor information, payment, ticket purchase or availability confirmation."
-        },
-        {
-          "title": "Incredible India · Konark Temple",
-          "url": "https://www.incredibleindia.gov.in/en/odisha/puri/konark-temple",
-          "checked_on": "2026-09-30",
-          "inspection": "Lists 06:00–20:00, conflicting with ASI sunrise-to-sunset hours. Recorded as conflicting evidence, not adopted as a verified closing time."
-        },
-        {
-          "title": "Odisha Tourism · getting to Konark",
-          "url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/temples-monuments/konark.html",
-          "checked_on": "2026-10-01",
-          "inspection": "Getting There section inspected: Puri Junction rail arrival, Bhubaneswar airport and road connections. No bus timetable, fare or journey duration adopted."
-        },
-        {
-          "title": "OTDC · accommodation directory",
-          "url": "https://otdc.odisha.gov.in/en/light/page/hotel-and-accommodation",
-          "checked_on": "2026-10-01",
-          "inspection": "Indexed official listing identifies Yatrinivas / Yatriniwas Konark. Direct directory and property retrieval failed; listing only. No operating or availability claim."
+          "inspection": "Separate temple and museum entries inspected on 30 September; not rechecked or booked in this editorial pass."
         }
       ],
       "planning_review": {
@@ -341,25 +364,38 @@
         "remaining": "Date-specific monument hours need confirmation because official sources conflict. Museum hours/closure, facilities and accessible approach remain unverified. Official ticket choices inspected; no booking or payment tested. Festival programme and transport remain separate."
       },
       "planning_help": {
-        "text": "Use ASI’s ticket portal to check the two Konark listings. For museum opening or local access questions, the Konark office in the tourist-office directory is another starting point; that directory remains in the page’s sources.",
-        "label": "ASI · official ticket portal",
-        "url": "https://asi.paygov.org.in/asi-webapp/#/ticketbooking"
+        "text": "For local access questions, the Konark office in Odisha Tourism’s directory is a starting point. Ask about the approach, steps and surfaces that matter to your party.",
+        "label": "Odisha Tourism · tourist offices",
+        "url": "https://odishatourism.gov.in/en/tourist-offices",
+        "source_ids": [
+          "tourist-offices-current"
+        ]
       },
       "planning_stops": [
         {
           "heading": "Sun Temple · plan for daylight",
-          "text": "ASI lists monument access from sunrise to sunset. Incredible India lists a later closing time, so confirm the hours for your date with ASI rather than relying on evening entry. Look for one carved detail before trying to see everything.",
-          "source_url": "https://asi.nic.in/pages/WorldHeritageKonarak"
+          "text": "Plan the temple visit in daylight. ASI publishes sunrise-to-sunset access, while Odisha Tourism lists a later closing time. Confirm the hours for your date with ASI before relying on evening entry.",
+          "source_url": "https://asi.nic.in/pages/WorldHeritageKonarak",
+          "source_ids": [
+            "konark-asi",
+            "konark-visitor"
+          ]
         },
         {
           "heading": "Archaeological museum · a separate visit",
           "text": "The museum gives some of the site’s recovered sculptures another setting: ASI identifies Balarama, Varaha and Trivikrama figures from the smaller brick temple in its collection. Treat the museum as a separate stop. Its current hours, closure day and visitor facilities have not yet been verified by us.",
-          "source_url": "https://asi.nic.in/pages/WorldHeritageKonarak"
+          "source_url": "https://asi.nic.in/pages/WorldHeritageKonarak",
+          "source_ids": [
+            "konark-asi"
+          ]
         },
         {
           "heading": "Choose the right ticket listing",
-          "text": "On the ticket portal linked by ASI, choose the Bhubaneshwar circle. Sun Temple, Konark and Archaeological Site Museum, Konark appear as separate choices. Check the venue, date, visitor category and current amount before paying; do not assume one selection covers both visits.",
-          "source_url": "https://asi.paygov.org.in/asi-webapp/#/ticketbooking"
+          "text": "Follow the ticket link from ASI’s official website and check whether you are selecting the Sun Temple or the Archaeological Site Museum at Konark. Check the venue, date, visitor category and current amount; do not assume one ticket covers both visits.",
+          "source_url": "https://asi.paygov.org.in/asi-webapp/#/ticketbooking",
+          "source_ids": [
+            "konark-asi"
+          ]
         }
       ],
       "practical_choices": {
@@ -370,17 +406,20 @@
           {
             "key": "arrival",
             "heading": "A road transfer after the train or flight",
-            "text": "Odisha Tourism identifies Puri Junction as the rail gateway and Bhubaneswar as the airport gateway, with road access to Konark. Arrange that last leg and the return; do not treat “Konark” in a train name as your arrival station.",
+            "text": "Arrive by rail at Puri or Bhubaneswar, or by air at Bhubaneswar, then continue by road. Arrange the return leg as well as the outward transfer.",
             "links": [
               {
                 "label": "Official arrival guidance",
-                "href": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/temples-monuments/konark.html"
+                "href": "https://odishatourism.gov.in/en/places/konark-sun-temple"
               }
             ],
             "source_urls": [
-              "https://odishatourism.gov.in/content/tourism/en/discover/attractions/temples-monuments/konark.html"
+              "https://odishatourism.gov.in/en/places/konark-sun-temple"
             ],
-            "basis": "source_context_with_editorial_advice"
+            "basis": "source_context_with_editorial_advice",
+            "source_ids": [
+              "konark-visitor"
+            ]
           },
           {
             "key": "access",
@@ -395,9 +434,13 @@
             "source_urls": [
               "https://asi.nic.in/pages/WorldHeritageKonarak",
               "https://asi.paygov.org.in/asi-webapp/#/ticketbooking",
-              "https://www.incredibleindia.gov.in/en/odisha/puri/konark-temple"
+              "https://odishatourism.gov.in/en/places/konark-sun-temple"
             ],
-            "basis": "source_context_with_editorial_advice"
+            "basis": "source_context_with_editorial_advice",
+            "source_ids": [
+              "konark-asi",
+              "konark-visitor"
+            ]
           },
           {
             "key": "food",
@@ -415,32 +458,27 @@
           {
             "key": "stay",
             "heading": "Konark overnight or a Puri return?",
-            "text": "An overnight base can leave more room for a slow visit. OTDC’s directory lists Yatrinivas Konark as a lead; confirm current operation, room access and booking terms. Compare that with returning to your Puri base.",
+            "text": "An overnight stay in Konark can leave more room for the monument and an evening performance. Compare that with returning to a Puri base. Check the room, access, transport and cancellation terms before booking.",
             "links": [
               {
                 "label": "Compare Puri and Konark bases",
                 "href": "/visit/stays/puri-coast/"
-              },
-              {
-                "label": "OTDC accommodation directory",
-                "href": "https://otdc.odisha.gov.in/en/light/page/hotel-and-accommodation"
               }
             ],
-            "source_urls": [
-              "https://otdc.odisha.gov.in/en/light/page/hotel-and-accommodation"
-            ],
-            "basis": "source_context_with_editorial_advice"
+            "source_urls": [],
+            "basis": "editorial_planning_suggestion"
           }
         ]
-      }
+      },
+      "editorial_notes_in_article": true
     },
     {
       "route": "/destinations/puri/",
       "save_id": "place:puri",
       "title": "Leave space between shore and town",
-      "notice": "Choose a moment to look, listen and stop moving. Notice the difference between the place in your photograph and the place around you.",
+      "notice": "Choose one thing to understand: an offering, a painting, or the part of town you have come to see.",
       "connect": "Ask before photographing people or devotional activity. Let the person you speak with decide whether their story may be shared.",
-      "prepare": "Let the temple, a meal and the shore have their own time. Incredible India suggests October–February for Puri; choose your dates around the weather and the kind of visit you want. Leave room for a queue, a conversation and the journey back.",
+      "prepare": "Allow time for the temple, a meal and the shore. Check the forecast and any festival arrangements for your dates; leave room for a queue and the journey back.",
       "pair": {
         "text": "Read about Raghurajpur before visiting a workshop. Plan the transfer and approach the encounter as time with a maker.",
         "href": "/visit/places/raghurajpur/",
@@ -452,40 +490,46 @@
       "authorship": "Project Odisha; Founder direction: Ahimanikya Satapathy; drafted with AI assistance.",
       "planning_sources": [
         {
-          "title": "Incredible India · Puri",
+          "title": "Odisha Tourism: Mahaprasad",
+          "url": "https://odishatourism.gov.in/en/mahaprasad",
+          "checked_on": "2026-10-17",
+          "inspection": "Offering identity, ingredients and temple-kitchen context. The page’s claims about unchanged methods and the uppermost pot cooking first are not treated here as established history or science."
+        },
+        {
+          "title": "Odisha Tourism: Raghurajpur Craft Village",
+          "url": "https://odishatourism.gov.in/en/places/raghurajpur-craft-village",
+          "checked_on": "2026-10-17",
+          "inspection": "Pattachitra, palm-leaf engraving, toys, masks and Gotipua. A village profile does not confirm a workshop appointment or a performance."
+        },
+        {
+          "title": "Odisha Tourism: Puri Beach & Golden Beach",
+          "url": "https://odishatourism.gov.in/en/places/puri-beach-golden-beach",
+          "checked_on": "2026-10-17",
+          "inspection": "Coastal setting and designated beach zones. Broad promotional safety claims are not a report of conditions on any particular day."
+        },
+        {
+          "title": "Odisha Tourism: Shree Jagannath Temple",
+          "url": "https://odishatourism.gov.in/en/places/shree-jagannath-temple",
+          "checked_on": "2026-10-17",
+          "inspection": "The three deities and visitor context. Current entry eligibility, belongings rules, storage and assistance still require confirmation with the administration; its website could not be retrieved for this review."
+        },
+        {
+          "title": "Incredible India: Puri",
           "url": "https://www.incredibleindia.gov.in/en/odisha/puri",
-          "checked_on": "2026-09-30",
-          "inspection": "October–February seasonal suggestion and the named coastal dishes inspected. The page’s transport widget is not used as route evidence."
+          "checked_on": "2026-10-17",
+          "inspection": "Machha besara, chingudi tarkari, chhena poda and October–February guidance. The inconsistent railway widget is not used for arrival advice."
         },
         {
-          "title": "Odisha Tourism · tourist offices",
-          "url": "https://odishatourism.gov.in/content/tourism/en/dot/visitors-information/tourist-offices.html",
-          "checked_on": "2026-09-30",
-          "inspection": "Official directory lists Bhubaneswar, Konark and Puri offices. Contact details inspected online, not called or independently confirmed; no response, referral or service guaranteed."
+          "title": "Odisha Tourism: Puri",
+          "url": "https://odishatourism.gov.in/en/destinations/puri",
+          "checked_on": "2026-10-17",
+          "inspection": "City and nearby attractions, October–March guidance, Puri railway station and Bhubaneswar airport. Transport schedules and services require separate checks."
         },
         {
-          "title": "Puri district · Shree Jagannath Temple and arrival",
-          "url": "https://puri.odisha.gov.in/en/tourism/tourist-places/shree-jagannath-temple",
-          "checked_on": "2026-09-30",
-          "inspection": "District page identifies Puri railway station for the temple. Supports station identity, not a checked train timetable, fare or available transfer. Used instead of the contradictory Incredible India transport widget."
-        },
-        {
-          "title": "Odisha Tourism · The taste of Odisha",
-          "url": "https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html",
-          "checked_on": "2026-09-30",
-          "inspection": "Mahaprasad offering identity inspected. The page’s miraculous cooking account is not adopted as fact. Does not establish current distribution, access, availability or prices."
-        },
-        {
-          "title": "Odisha Tourism · Puri Beach",
-          "url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/beaches/puri-beach.html",
-          "checked_on": "2026-09-30",
-          "inspection": "Morning walk, sunrise, evening market and instruction to consult Nulia lifeguards inspected. General promotional safety language is not adopted as a guarantee; conditions and facilities are unverified."
-        },
-        {
-          "title": "OTDC · Panthanivas Puri",
-          "url": "https://otdc.odisha.gov.in/en/light/accommodations/panthanivas-puri",
-          "checked_on": "2026-10-01",
-          "inspection": "Reused RES-006 / puri-panthanivas-property source capture of 1 October 2026. Official indexed property listing; direct retrieval failed in that run. No new inspection or availability confirmation."
+          "title": "Odisha Tourism: Tourist Offices",
+          "url": "https://odishatourism.gov.in/en/tourist-offices",
+          "checked_on": "2026-10-17",
+          "inspection": "Lists a Puri office near Subash Bose Square on VIP Road. A directory entry is an enquiry lead; no contact or referral has been confirmed."
         }
       ],
       "planning_review": {
@@ -493,51 +537,72 @@
         "remaining": "Current temple eligibility, dress, belongings/storage rules, gate and ritual interruptions could not be confirmed: the administration website failed to load. Mahaprasad arrangements, named kitchens, accessibility, toilets, transfers and shore conditions still need direct confirmation."
       },
       "planning_help": {
-        "text": "For local orientation, use the Puri office in Odisha Tourism’s tourist-office directory. Ask how to reach the temple administration for current visitor rules. Confirm meals with the host or kitchen, and shore conditions with lifeguards on the day.",
+        "text": "For local orientation, use the Puri office in the tourist-office directory. Ask how to reach the temple administration for current visitor rules.",
         "label": "Odisha Tourism · tourist offices",
-        "url": "https://odishatourism.gov.in/content/tourism/en/dot/visitors-information/tourist-offices.html"
+        "url": "https://odishatourism.gov.in/en/tourist-offices",
+        "source_ids": [
+          "puri-offices"
+        ]
       },
       "planning_stops": [
         {
           "heading": "Temple visit · check before joining the queue",
-          "text": "Confirm entry eligibility, dress and belongings rules with the temple administration before leaving your accommodation. Ask specifically about phones, cameras, leather items and bags, and where permitted storage is available. We could not confirm the current rules from the administration website. Check the entrance, access assistance and ritual interruptions for your date; no entry or waiting time is promised here.",
-          "source_url": "https://puri.odisha.gov.in/en/tourism/tourist-places/shree-jagannath-temple"
+          "text": "Confirm entry eligibility, dress and belongings rules with the temple administration before leaving your accommodation. Ask about phones, cameras, leather items, bags and permitted storage. Check which entrance to use and whether assistance is available. Current rules and waiting times are not confirmed here.",
+          "source_url": "https://odishatourism.gov.in/en/places/shree-jagannath-temple",
+          "source_ids": [
+            "puri-temple"
+          ]
         },
         {
           "heading": "Mahaprasad · begin with its meaning",
-          "text": "Odisha Tourism describes Mahaprasad as the offering to Lord Jagannath at Puri. Approach it as part of a devotional tradition. Ask how it is shared, what participation is appropriate and where to collect it under the current arrangements. Confirm availability and any payment directly; a restaurant meal is not automatically temple Mahaprasad.",
-          "source_url": "https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html"
+          "text": "Mahaprasad belongs to temple worship. Ask how the offering is shared and where to collect it under the current arrangements; confirm availability and any payment with the person arranging it.",
+          "source_url": "https://odishatourism.gov.in/en/mahaprasad",
+          "source_ids": [
+            "odisha-meals"
+          ]
         },
         {
           "heading": "At the table · mustard, prawns or something sweet",
-          "text": "The official Puri guide names machha besara, fish in mustard gravy; chingudi tarkari, a prawn curry; and chhena poda, a cheese sweet. Choose what suits your table. Ask the kitchen about today’s menu, ingredients, dietary needs and price. These are regional food leads, not reviewed restaurants or claims of Puri origin.",
-          "source_url": "https://www.incredibleindia.gov.in/en/odisha/puri"
+          "text": "Machha besara is fish in mustard gravy; chingudi tarkari is a prawn curry; chhena poda is a cheese sweet. Ask the kitchen about today’s menu, ingredients and price. These are regional dishes, not claims of Puri origin.",
+          "source_url": "https://www.incredibleindia.gov.in/en/odisha/puri",
+          "source_ids": [
+            "puri-food-coast"
+          ]
         },
         {
           "heading": "Choose your shore moment",
-          "text": "For a morning pause, consider a shore walk and sunrise; Odisha Tourism describes an evening beach market too. Pick an exact meeting point and ask about the approach, toilets and return pickup. Consult the local Nulia lifeguards before entering the sea and follow the day’s restrictions. A beach name, photograph or seasonal recommendation cannot establish safe conditions.",
-          "source_url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/beaches/puri-beach.html"
+          "text": "Choose an exact stretch of shore, then ask about the approach, toilets and return pickup. Consult the local lifeguards before entering the sea and follow the day’s restrictions. A walk along the sand can be the whole visit.",
+          "source_url": "https://odishatourism.gov.in/en/places/puri-beach-golden-beach",
+          "source_ids": [
+            "puri-beach"
+          ]
         },
         {
           "heading": "Arrive with a return plan",
-          "text": "Puri district identifies Puri railway station for the temple and Biju Patnaik International Airport in Bhubaneswar for air arrival. Check your actual train or flight, then arrange the onward transfer separately. Agree the destination, fare and pickup point with the transport provider; keep the return details somewhere you can use without your phone. Current transfers, fares and journey times are not verified here.",
-          "source_url": "https://puri.odisha.gov.in/en/tourism/tourist-places/shree-jagannath-temple"
+          "text": "Puri has its own railway station; the nearest airport is Biju Patnaik International Airport in Bhubaneswar. Check your train or flight and arrange the onward transfer separately. Agree the destination, fare and meeting point with the transport provider.",
+          "source_url": "https://odishatourism.gov.in/en/destinations/puri",
+          "source_ids": [
+            "puri-city"
+          ]
         }
       ],
       "practical_choices": {
-        "reviewed_on": "2026-10-01",
+        "reviewed_on": "2026-10-17",
         "status": "source_based_planning_leads_not_local_confirmation",
         "note": "Planning leads, not bookings or inspected recommendations. Confirm arrangements for your dates.",
         "items": [
           {
             "key": "arrival",
             "heading": "Rail to Puri, air via Bhubaneswar",
-            "text": "Puri district identifies Puri railway station and Bhubaneswar’s airport as arrival points. Arrange the onward transfer to your exact accommodation separately; agree a meeting point that will still work if traffic changes.",
+            "text": "Arrive by rail at Puri, or fly to Bhubaneswar and arrange the onward journey. Agree a meeting point with your driver that will still work if traffic changes.",
             "links": [],
             "source_urls": [
-              "https://puri.odisha.gov.in/en/tourism/tourist-places/shree-jagannath-temple"
+              "https://odishatourism.gov.in/en/destinations/puri"
             ],
-            "basis": "source_context_with_editorial_advice"
+            "basis": "source_context_with_editorial_advice",
+            "source_ids": [
+              "puri-city"
+            ]
           },
           {
             "key": "access",
@@ -545,10 +610,14 @@
             "text": "Confirm temple entry rules with the administration; for a beach visit, choose an exact access point and follow local lifeguard advice. Ask your host about the walking route and toilets for the part of Puri you want to explore.",
             "links": [],
             "source_urls": [
-              "https://puri.odisha.gov.in/en/tourism/tourist-places/shree-jagannath-temple",
-              "https://odishatourism.gov.in/content/tourism/en/discover/attractions/beaches/puri-beach.html"
+              "https://odishatourism.gov.in/en/places/puri-beach-golden-beach",
+              "https://odishatourism.gov.in/en/places/shree-jagannath-temple"
             ],
-            "basis": "source_context_with_editorial_advice"
+            "basis": "source_context_with_editorial_advice",
+            "source_ids": [
+              "puri-temple",
+              "puri-beach"
+            ]
           },
           {
             "key": "food",
@@ -561,32 +630,32 @@
               }
             ],
             "source_urls": [
-              "https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html",
+              "https://odishatourism.gov.in/en/mahaprasad",
               "https://www.incredibleindia.gov.in/en/odisha/puri"
             ],
-            "basis": "source_context_with_editorial_advice"
+            "basis": "source_context_with_editorial_advice",
+            "source_ids": [
+              "odisha-meals",
+              "puri-food-coast"
+            ]
           },
           {
             "key": "stay",
             "heading": "Choose which Puri you want to wake up in",
-            "text": "Compare access to the town, shore and your onward journey before choosing a room. OTDC lists Panthanivas Puri as one stay lead; confirm the property’s current details directly.",
+            "text": "Compare access to the town, shore and your onward journey before choosing a room. Check the actual walking route, bathroom access, noise and cancellation terms with the property.",
             "links": [
               {
                 "label": "Compare coastal bases",
                 "href": "/visit/stays/puri-coast/"
-              },
-              {
-                "label": "OTDC property listing",
-                "href": "https://otdc.odisha.gov.in/en/light/accommodations/panthanivas-puri"
               }
             ],
-            "source_urls": [
-              "https://otdc.odisha.gov.in/en/light/accommodations/panthanivas-puri"
-            ],
-            "basis": "source_context_with_editorial_advice"
+            "source_urls": [],
+            "basis": "editorial_planning_suggestion",
+            "source_ids": []
           }
         ]
-      }
+      },
+      "editorial_notes_in_article": true
     },
     {
       "route": "/visit/places/raghurajpur/",
@@ -594,7 +663,7 @@
       "title": "Give the making its own time",
       "notice": "Follow one small part of the work: a line, a colour or a change between stages. Ask before taking a close photograph.",
       "connect": "Ask the artist how they would like the work and their name credited. Agree time, payment and photography before expecting a demonstration.",
-      "prepare": "Use Puri as a possible base, then agree a meeting point, the final transfer and your return. Incredible India suggests October to February; check the forecast for your dates. A village visit does not promise an open workshop or a dance performance.",
+      "prepare": "Use Puri as a possible base, then agree a meeting point, the final transfer and your return. Choose an appointment that suits the maker and check the forecast. Arrange workshop visits and performances separately.",
       "pair": {
         "text": "Return to Puri’s wider story when you want to place this encounter in your own coastal journey. Check transport rather than assuming a fixed circuit.",
         "href": "/destinations/puri/",
@@ -606,34 +675,52 @@
       "authorship": "Project Odisha; Founder direction: Ahimanikya Satapathy; drafted with AI assistance.",
       "planning_sources": [
         {
-          "title": "Odisha Tourism · Raghurajpur",
-          "url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/arts-crafts/raghurajpur.html",
-          "checked_on": "2026-09-30",
-          "inspection": "Describes the craft village approximately 12 km from Puri. Its general free-entry listing is not treated as a free workshop or demonstration promise."
-        },
-        {
-          "title": "Odisha Tourism · tourist offices",
-          "url": "https://odishatourism.gov.in/content/tourism/en/dot/visitors-information/tourist-offices.html",
-          "checked_on": "2026-09-30",
-          "inspection": "Official directory lists Bhubaneswar, Konark and Puri offices. Contact details inspected online, not called or independently confirmed; no response, referral or service guaranteed."
+          "title": "PIB · The land of artisans: Raghurajpur (11 April 2014)",
+          "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=104817",
+          "checked_on": "2026-10-18",
+          "inspection": "Sucharita Sahoo, 11 April 2014. Prepared cloth, narrative subjects and Gotipua. The dated feature is not evidence of present household numbers or performance availability."
         },
         {
           "title": "Government of Odisha · Patta Chitra",
           "url": "https://www.odisha.gov.in/en/odisha-tourism/patta-chitra",
-          "checked_on": "2026-10-01",
-          "inspection": "Traditional preparation and painting sequence inspected; individual materials and practice require the maker’s account."
+          "checked_on": "2026-10-18",
+          "inspection": "Traditional cloth preparation and painting sequence. Individual makers may use different materials; this is not a pigment recipe or a care guarantee."
         },
         {
-          "title": "PIB · The land of artisans: Raghurajpur (11 April 2014)",
-          "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=104817",
-          "checked_on": "2026-10-01",
-          "inspection": "Dated feature inspected for craft and dance connections; no current performance or visitor availability implied."
+          "title": "Orissa Review · Raghurajpur, Crafts Village Extraordinary (December 2005)",
+          "url": "https://magazines.odisha.gov.in/Orissareview/dec2005/engpdf/raghurajpur_crafts_village_extraordinary.pdf",
+          "checked_on": "2026-10-18",
+          "inspection": "December 2005, pp. 68–70, especially p. 70. The revival passage cites Ileana Citaristi’s The Making of a Guru (2001); that book has not been independently checked for this revision."
+        },
+        {
+          "title": "Srjan · Guru Kelucharan Mohapatra milestones",
+          "url": "https://www.srjan.com/achievements_Guru_Kelucharan_Mohapatra.php",
+          "checked_on": "2026-10-18",
+          "inspection": "Institutional chronology: father’s craft, early Gotipua training and later theatre collaborations. The chronology itself notes differing birth years; none is asserted here."
+        },
+        {
+          "title": "Biswa Prakash · Raghurajpur visit, Odisha Tourism (29 April 2019)",
+          "url": "https://apps.odishatourism.gov.in/blog-detail/raghurajpur-the-heritage-crafts-village-of-odisha-odishabloggerstrail",
+          "checked_on": "2026-10-18",
+          "inspection": "Biswa Prakash, 29 April 2019. First-person travel account published by Odisha Tourism. His experience does not establish access to every home or workshop."
         },
         {
           "title": "Incredible India · Raghurajpur visitor guide",
           "url": "https://www.incredibleindia.gov.in/en/rural-tourism/raghurajpur",
-          "checked_on": "2026-10-06",
-          "inspection": "Seasonal suggestion and rail/airport arrival gateways. No transport timetable, verified road distance or workshop availability adopted."
+          "checked_on": "2026-10-18",
+          "inspection": "Sections “Best time to visit” and “How to get there”: October–February and arrival gateways. Distances, road-condition claims and unbooked workshop activities are not adopted."
+        },
+        {
+          "title": "Odisha Tourism: Raghurajpur Craft Village",
+          "url": "https://odishatourism.gov.in/en/places/raghurajpur-craft-village",
+          "checked_on": "2026-10-18",
+          "inspection": "Craft and Gotipua overview. General village visiting information is not permission to enter a home, arrange a demonstration or photograph a performance."
+        },
+        {
+          "title": "Odisha Tourism: tourist offices",
+          "url": "https://odishatourism.gov.in/en/tourist-offices",
+          "checked_on": "2026-10-18",
+          "inspection": "Puri office directory entry. An enquiry lead, not a confirmed appointment or referral."
         }
       ],
       "planning_review": {
@@ -643,28 +730,39 @@
       "planning_help": {
         "text": "Look for the Puri office in Odisha Tourism’s tourist-office directory if you need a starting point for a village visit. Agree an appointment with the maker separately.",
         "label": "Odisha Tourism · tourist offices",
-        "url": "https://odishatourism.gov.in/content/tourism/en/dot/visitors-information/tourist-offices.html"
+        "url": "https://odishatourism.gov.in/en/tourist-offices",
+        "source_ids": [
+          "tourist-offices-current"
+        ]
       },
       "planning_stops": [
         {
           "heading": "From cloth to a story",
           "text": "The traditional process described by the Government of Odisha starts with a prepared cloth ground, then a border, brush drawing, flat colours and fine outlines. Ask which stage you are seeing and which materials this maker uses. A published tradition does not describe every contemporary piece.",
-          "source_url": "https://www.odisha.gov.in/en/odisha-tourism/patta-chitra"
+          "source_url": "https://www.odisha.gov.in/en/odisha-tourism/patta-chitra",
+          "source_ids": [
+            "pattachitra-process"
+          ]
         },
         {
           "heading": "A workshop is a working place",
           "text": "Agree the appointment, group size, demonstration time and fee with the maker. Ask before photographing people, art or a home. For a purchase, keep the maker’s preferred credit, materials, care advice and receipt; agree commission and delivery terms separately. Buying work does not itself grant reproduction permission.",
-          "source_url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/arts-crafts/raghurajpur.html"
+          "source_url": "https://odishatourism.gov.in/en/places/raghurajpur-craft-village",
+          "source_ids": []
         },
         {
           "heading": "Make room for dance, by arrangement",
           "text": "Raghurajpur is associated with Gotipua and is Kelucharan Mohapatra’s birthplace. Ask a school or organiser whether an invited visit or announced performance is available. Confirm timing, fee and photography separately; do not interrupt training or assume a show is included.",
-          "source_url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=104817"
+          "source_url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=104817",
+          "source_ids": [
+            "raghurajpur-pib"
+          ]
         },
         {
           "heading": "Check the path and the way back",
           "text": "Ask your host about the exact entrance, walking surface, steps, seating, shade and toilets. Agree pickup, waiting and return arrangements with your transport provider. Named makers, appointments, fees, accessible routes and current facilities have not been verified by Utkal.",
-          "source_url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/arts-crafts/raghurajpur.html"
+          "source_url": "https://odishatourism.gov.in/en/places/raghurajpur-craft-village",
+          "source_ids": []
         }
       ],
       "practical_choices": {
@@ -675,12 +773,15 @@
           {
             "key": "arrival",
             "heading": "A village visit from Puri",
-            "text": "Puri railway station and Bhubaneswar’s airport are starting points listed by Incredible India. Agree the onward vehicle, exact meeting point and return in advance. Confirm the route for your actual starting point; this guide does not give a verified journey time.",
+            "text": "Puri railway station and Bhubaneswar’s airport are possible starting points. Agree the onward vehicle, exact meeting point and return in advance; this guide does not give a verified journey time.",
             "links": [],
             "source_urls": [
               "https://www.incredibleindia.gov.in/en/rural-tourism/raghurajpur"
             ],
-            "basis": "source_context_with_editorial_advice"
+            "basis": "source_context_with_editorial_advice",
+            "source_ids": [
+              "raghurajpur-incredible-visitor"
+            ]
           },
           {
             "key": "access",
@@ -688,9 +789,12 @@
             "text": "Arrange the visit with the maker. Ask about the entrance, seating, toilets, demonstration fee and photography. A village visit does not include automatic access to homes, workshops or performances.",
             "links": [],
             "source_urls": [
-              "https://odishatourism.gov.in/content/tourism/en/discover/attractions/arts-crafts/raghurajpur.html"
+              "https://odishatourism.gov.in/en/places/raghurajpur-craft-village"
             ],
-            "basis": "source_context_with_editorial_advice"
+            "basis": "source_context_with_editorial_advice",
+            "source_ids": [
+              "raghurajpur"
+            ]
           },
           {
             "key": "food",
@@ -703,7 +807,8 @@
               }
             ],
             "source_urls": [],
-            "basis": "editorial_planning_suggestion"
+            "basis": "editorial_planning_suggestion",
+            "source_ids": []
           },
           {
             "key": "stay",
@@ -716,10 +821,12 @@
               }
             ],
             "source_urls": [],
-            "basis": "editorial_planning_suggestion"
+            "basis": "editorial_planning_suggestion",
+            "source_ids": []
           }
         ]
-      }
+      },
+      "editorial_notes_in_article": true
     },
     {
       "route": "/food/puri-coast/",
@@ -727,7 +834,7 @@
       "title": "Let the meal have a story",
       "notice": "Choose a dish to ask about before tasting it. Notice its preparation and context without expecting every kitchen to make it the same way.",
       "connect": "Ask a cook or host what they want you to understand about the meal. Treat devotional food in its own context, rather than as a restaurant recommendation.",
-      "prepare": "Incredible India names machha besara, chingudi tarkari and chhena poda among Puri’s food leads. Ask a kitchen what it is serving that day, how it is prepared and what ingredients it uses. Agree the portion and price before ordering. Keep a Mahaprasad encounter separate from an ordinary restaurant plan.",
+      "prepare": "Ask a kitchen what it is serving that day, how it is prepared and what ingredients it uses. Agree the portion and price before ordering. Keep a Mahaprasad encounter separate from an ordinary restaurant plan.",
       "pair": {
         "text": "Read Puri’s guide to connect the meal with the place. The saved idea here is Understand Mahaprasad; save individual dishes elsewhere on this page.",
         "href": "/destinations/puri/",
@@ -741,14 +848,12 @@
         {
           "title": "Incredible India · Puri",
           "url": "https://www.incredibleindia.gov.in/en/odisha/puri",
-          "checked_on": "2026-10-01",
-          "inspection": "October–February seasonal suggestion and the named coastal dishes inspected. The page’s transport widget is not used as route evidence."
+          "checked_on": "2026-10-18"
         },
         {
           "title": "Odisha Tourism · tourist offices",
-          "url": "https://odishatourism.gov.in/content/tourism/en/dot/visitors-information/tourist-offices.html",
-          "checked_on": "2026-09-30",
-          "inspection": "Official directory lists Bhubaneswar, Konark and Puri offices. Contact details inspected online, not called or independently confirmed; no response, referral or service guaranteed."
+          "url": "https://odishatourism.gov.in/en/tourist-offices",
+          "checked_on": "2026-10-18"
         }
       ],
       "planning_review": {
@@ -758,25 +863,36 @@
       "planning_help": {
         "text": "For local orientation, look for the Puri office in Odisha Tourism’s tourist-office directory. Confirm meals, ingredients and devotional arrangements with the kitchen or host.",
         "label": "Odisha Tourism · tourist offices",
-        "url": "https://odishatourism.gov.in/content/tourism/en/dot/visitors-information/tourist-offices.html"
+        "url": "https://odishatourism.gov.in/en/tourist-offices",
+        "source_ids": [
+          "tourist-offices-current"
+        ]
       },
       "planning_stops": [
         {
           "heading": "Choose a flavour, then ask the kitchen",
-          "text": "Machha besara brings fish and mustard together; chingudi tarkari is a prawn curry. These are two leads in Incredible India’s Puri guide. Ask what is being cooked today, what goes into it, the portion and the total price. A regional dish name does not establish a particular kitchen’s recipe or suitability for you.",
-          "source_url": "https://www.incredibleindia.gov.in/en/odisha/puri"
+          "text": "Machha besara brings fish and mustard together; chingudi tarkari is a prawn curry. Ask what is being cooked today, what goes into it, the portion and the total price.",
+          "source_url": "https://www.incredibleindia.gov.in/en/odisha/puri",
+          "source_ids": [
+            "puri-food-coast"
+          ]
         },
         {
           "heading": "Leave a little room for something sweet",
-          "text": "Chhena poda, a cheese-based sweet named in the same guide, offers another way into the region’s food. Ask who made it and when, and confirm ingredients with the seller. This is a food lead, not a claim that the sweet originated in Puri or that a named shop has been reviewed.",
-          "source_url": "https://www.incredibleindia.gov.in/en/odisha/puri"
+          "text": "Chhena poda is a cheese-based sweet. Ask who made it and when, and confirm ingredients with the seller.",
+          "source_url": "https://www.incredibleindia.gov.in/en/odisha/puri",
+          "source_ids": [
+            "puri-food-coast"
+          ]
         },
         {
           "heading": "Let the conversation travel home",
           "text": "Ask the cook which detail makes their version their own. Record an explanation only with permission, and distinguish their account from a historical claim. Keep your meal choice and return plan in your journey notes; current menus and dietary suitability still need direct confirmation.",
-          "source_url": "https://www.incredibleindia.gov.in/en/odisha/puri"
+          "source_url": "https://www.incredibleindia.gov.in/en/odisha/puri",
+          "source_ids": []
         }
-      ]
+      ],
+      "editorial_notes_in_article": true
     },
     {
       "route": "/visit/stays/puri-coast/",
@@ -784,7 +900,7 @@
       "title": "Choose a base for your kind of day",
       "notice": "Picture the first morning and the return at night. Which part of that day matters most: the shore, town visits or a quieter base?",
       "connect": "Ask the property to describe the specific room and approach you would use. A friendly response is useful, but it is not an independent inspection.",
-      "prepare": "Ramachandi’s river-and-sea setting is described by Incredible India. Choose your base around the places you want nearby, then ask the property for its exact location, access, meal arrangements and return-transport options. Confirm the total price and cancellation terms directly before booking.",
+      "prepare": "Choose your base around the places you want nearby, then ask the property for its exact location, access, meal arrangements and return-transport options. Confirm the total price and cancellation terms directly before booking.",
       "pair": {
         "text": "Read Konark before choosing how often you want to travel there. Check transfers and current conditions before deciding where to sleep.",
         "href": "/knowledge/konark/",
@@ -796,16 +912,14 @@
       "authorship": "Project Odisha; Founder direction: Ahimanikya Satapathy; drafted with AI assistance.",
       "planning_sources": [
         {
-          "title": "Incredible India · Ramachandi setting",
+          "title": "Incredible India · Ramachandi Beach",
           "url": "https://www.incredibleindia.gov.in/en/odisha/bhubaneswar/experience-the-natural-beauty-of-bhubaneswar",
-          "checked_on": "2026-10-01",
-          "inspection": "Ramachandi passage places the shore at the Kushabhadra river and Bay of Bengal. No property inspection or swimming-safety claim inferred."
+          "checked_on": "2026-10-18"
         },
         {
           "title": "Odisha Tourism · tourist offices",
-          "url": "https://odishatourism.gov.in/content/tourism/en/dot/visitors-information/tourist-offices.html",
-          "checked_on": "2026-09-30",
-          "inspection": "Official directory lists Bhubaneswar, Konark and Puri offices. Contact details inspected online, not called or independently confirmed; no response, referral or service guaranteed."
+          "url": "https://odishatourism.gov.in/en/tourist-offices",
+          "checked_on": "2026-10-18"
         }
       ],
       "planning_review": {
@@ -815,25 +929,34 @@
       "planning_help": {
         "text": "Look for the Puri or Konark office in Odisha Tourism’s tourist-office directory for area information. Confirm room details and booking terms with the property.",
         "label": "Odisha Tourism · tourist offices",
-        "url": "https://odishatourism.gov.in/content/tourism/en/dot/visitors-information/tourist-offices.html"
+        "url": "https://odishatourism.gov.in/en/tourist-offices",
+        "source_ids": [
+          "tourist-offices-current"
+        ]
       },
       "planning_stops": [
         {
           "heading": "Picture the first morning",
-          "text": "Compare a town-and-shore stay with a base shaped around your Konark visit. Ramachandi’s river-and-sea setting is another possibility. Use the setting to decide what matters to your day, then check the property’s exact map location; a coastal address alone does not promise a sea view, quiet or walkable access.",
-          "source_url": "https://www.incredibleindia.gov.in/en/odisha/bhubaneswar/experience-the-natural-beauty-of-bhubaneswar"
+          "text": "Ramachandi lies where the Kushabhadra river meets the Bay of Bengal. If that setting appeals to you, check the property’s exact location and the way to the shore; a coastal address does not promise a sea view, quiet or a walkable route.",
+          "source_url": "https://www.incredibleindia.gov.in/en/odisha/bhubaneswar/experience-the-natural-beauty-of-bhubaneswar",
+          "source_ids": [
+            "ramachandi-context"
+          ]
         },
         {
           "heading": "Ask about the room you will actually use",
-          "text": "Request the room category, floor, steps or lift, bathroom arrangement, meal options and recent photographs. Describe your group’s access needs. Compare the total price and cancellation terms in writing before booking. None of these properties or facilities has been inspected by Project Odisha.",
-          "source_url": "https://www.incredibleindia.gov.in/en/odisha/bhubaneswar/experience-the-natural-beauty-of-bhubaneswar"
+          "text": "Request the room category, floor, steps or lift, bathroom arrangement, meal options and recent photographs. Describe your group’s access needs. Compare the total price and cancellation terms in writing before booking.",
+          "source_url": "https://www.incredibleindia.gov.in/en/odisha/bhubaneswar/experience-the-natural-beauty-of-bhubaneswar",
+          "source_ids": []
         },
         {
           "heading": "Plan the way back before setting out",
           "text": "Confirm the pickup point, return arrangement and payment with the transport provider. Keep the property address and contact details in your private journey notes. A map connection is not a verified transfer time, and a beach photograph does not establish swimming conditions.",
-          "source_url": "https://www.incredibleindia.gov.in/en/odisha/bhubaneswar/experience-the-natural-beauty-of-bhubaneswar"
+          "source_url": "https://www.incredibleindia.gov.in/en/odisha/bhubaneswar/experience-the-natural-beauty-of-bhubaneswar",
+          "source_ids": []
         }
-      ]
+      ],
+      "editorial_notes_in_article": true
     },
     {
       "route": "/knowledge/chilika/",
@@ -872,15 +995,21 @@
         },
         {
           "title": "Chilika (Satpada) — Puri district",
-          "url": "https://puri.odisha.gov.in/en/tourism/tourist-places/chilika-satpada",
-          "checked_on": "2026-10-01",
-          "inspection": "Puri district indexed text rechecked 1 October 2026 for Satapada boating and Irrawaddy dolphins. Direct retrieval failed; wildlife encounters and current boat arrangements are not guaranteed."
+          "url": "https://puri.odisha.gov.in/en/tourism/places-of-interest",
+          "checked_on": "2026-10-18",
+          "inspection": "Puri district Places of Interest, entry 13 inspected on 18 October 2026; no booking or operator verification."
         },
         {
           "title": "South Odisha brochure — Odisha Tourism, Chilka Lake section",
           "url": "https://odishatourism.gov.in/content/dam/tourism/odishatourismbrochures/SouthOdisha.pdf",
           "checked_on": "2026-10-01",
           "inspection": "Indexed Chilka Lake passage inspected for Chilika chingudi, crab curry and buffalo-milk curd traditionally prepared in a cup-shaped bamboo basket. Direct PDF retrieval failed. Availability, named outlets and preparation were not checked locally."
+        },
+        {
+          "title": "Odisha Tourism · Chilika Lake",
+          "url": "https://odishatourism.gov.in/en/places/chilika-lake",
+          "checked_on": "2026-10-18",
+          "inspection": "Current official page inspected for road access via Barkul/Balugaon and Balugaon railhead. No listed prices, times or wildlife status imported."
         }
       ],
       "planning_review": {
@@ -888,9 +1017,12 @@
         "remaining": "No field visit, boat inspection, accommodation inspection, access audit or local-host arrangement has been completed."
       },
       "planning_help": {
-        "text": "Use Odisha Tourism’s Chilika guide to identify a stay-area lead, then contact the actual provider to confirm the arrangements for your chosen shore.",
-        "label": "Odisha Tourism · Chilika nature camps",
-        "url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/lakes-waterfalls/chilika-nature-camps.html"
+        "text": "Use the current Odisha Tourism lagoon guide to choose an approach, then confirm the meeting point and arrangements with your provider.",
+        "label": "Odisha Tourism · Chilika Lake",
+        "url": "https://odishatourism.gov.in/en/places/chilika-lake",
+        "source_ids": [
+          "chilika-current-guide"
+        ]
       },
       "practical_choices": {
         "reviewed_on": "2026-10-01",
@@ -918,9 +1050,14 @@
             "source_urls": [
               "https://www.incredibleindia.gov.in/en/odisha/bhubaneswar/mangalajodi",
               "https://apps.odishatourism.gov.in/tour/chilika-barkul-kalijai-narayani-and-back",
-              "https://puri.odisha.gov.in/en/tourism/tourist-places/chilika-satpada"
+              "https://puri.odisha.gov.in/en/tourism/places-of-interest"
             ],
-            "basis": "source_context_with_editorial_advice"
+            "basis": "source_context_with_editorial_advice",
+            "source_ids": [
+              "mangalajodi-visit",
+              "barkul-kalijai",
+              "satapada-visit"
+            ]
           },
           {
             "key": "access",
@@ -938,7 +1075,10 @@
             "source_urls": [
               "https://odishatourism.gov.in/content/dam/tourism/odishatourismbrochures/SouthOdisha.pdf"
             ],
-            "basis": "source_context_with_editorial_advice"
+            "basis": "source_context_with_editorial_advice",
+            "source_ids": [
+              "south-odisha-food"
+            ]
           },
           {
             "key": "stay",
@@ -961,10 +1101,14 @@
             "source_urls": [
               "https://odishatourism.gov.in/content/tourism/en/discover/attractions/lakes-waterfalls/chilika-nature-camps.html"
             ],
-            "basis": "source_context_with_editorial_advice"
+            "basis": "source_context_with_editorial_advice",
+            "source_ids": [
+              "chilika-bases"
+            ]
           }
         ]
-      }
+      },
+      "editorial_notes_in_article": true
     }
   ]
 }
