@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-18T17:48:07.818196+00:00",
+  "updated_at": "2026-10-18T17:56:54.494975+00:00",
   "authorization": "UTP-DEC-2026101702",
   "work_id": "UTP-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -1032,13 +1032,22 @@
       "id": "UTP-EDIT-026",
       "route": "/visit/experiences/kalijai-crossing/",
       "title": "Take the boat to Kalijai",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "Kalijai crossing: plan the return, understand the shrine story and listen respectfully; individual byline, footnotes, image and portable-reading review.",
       "source_template": "projects/site/src/pages/visit/[kind]/[slug].astro",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
         "records/kalijai-crossing-editorial-source-mapping-2026-10-18.json",
-        "records/kalijai-crossing-editorial-review-2026-10-18.json"
+        "records/kalijai-crossing-editorial-review-2026-10-18.json",
+        "records/kalijai-crossing-editorial-publication-2026-10-18.json"
       ],
       "blocker": null,
       "started_at": "2026-10-18T17:18:25.631103+00:00",
@@ -1046,7 +1055,9 @@
         "Read the tourism itinerary and authored 2012 account; distinguish folklore, original observation prompts and present arrangements.",
         "Review existing photo, desktop/mobile reading, exact footnote returns and complete portable narrative.",
         "Publish passing reviewed PR through approved main workflow and record verified live receipt; zero substantive500 increment."
-      ]
+      ],
+      "completed_at": "2026-10-18T17:56:54.494975+00:00",
+      "publication_receipt": "records/kalijai-crossing-editorial-publication-2026-10-18.json"
     },
     {
       "id": "UTP-EDIT-027",
