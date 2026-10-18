@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 394. completed: 14, excluded: 9, in_progress: 1, queued: 370.
+Route inventory: 394. completed: 15, excluded: 9, queued: 370.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -36,7 +36,7 @@ Route inventory: 394. completed: 14, excluded: 9, in_progress: 1, queued: 370.
 | UTP-EDIT-020 | [How to use Project Odisha](https://projectodisha.org/how-to-use/) | excluded | product_help_and_privacy |
 | UTP-EDIT-021 | [Chilika Lake · Birds, boats &amp; local stories](https://projectodisha.org/knowledge/chilika/) | completed | Chilika lagoon article, poetry and listening, dated ecological evidence, cultural legend, practical notebook and portable reading. Inspect sources and existing photographs individually; add Founder byline and visible mapped notes, natural reading and restrained source attribution. Acceptance: source/image review, exact footnote returns, shared Konark regression checks, responsive review, tested PR, approved deployment and actual live receipt. No substantive500 count. |
 | UTP-EDIT-022 | [Mangalajodi](https://projectodisha.org/visit/places/mangalajodi/) | completed | Individual Mangalajodi place article: natural reading flow, Founder byline, visible notes, full-frame documentary bird photograph and portable reading. Adjacent experience and stay articles remain separate queued scopes. |
-| UTP-EDIT-023 | [Kalijai](https://projectodisha.org/visit/places/kalijai/) | in_progress | Kalijai place article only: distinguish shrine, attributed story and practical crossing; Founder byline, visible sources, readable layout, retained full-frame documentary photo and portable reading. Separate crossing and stay guides remain queued. |
+| UTP-EDIT-023 | [Kalijai](https://projectodisha.org/visit/places/kalijai/) | completed | Kalijai place article only: distinguish shrine, attributed story and practical crossing; Founder byline, visible sources, readable layout, retained full-frame documentary photo and portable reading. Separate crossing and stay guides remain queued. |
 | UTP-EDIT-024 | [Satapada](https://projectodisha.org/visit/places/satapada/) | queued | classification_pending |
 | UTP-EDIT-025 | [Watch the wetlands at Mangalajodi](https://projectodisha.org/visit/experiences/mangalajodi-birdwatching/) | queued | classification_pending |
 | UTP-EDIT-026 | [Take the boat to Kalijai](https://projectodisha.org/visit/experiences/kalijai-crossing/) | queued | classification_pending |

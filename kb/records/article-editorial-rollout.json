@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-18T02:45:31.151868+00:00",
+  "updated_at": "2026-10-18T02:55:56.214380+00:00",
   "authorization": "UTP-DEC-2026101702",
   "work_id": "UTP-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -939,13 +939,22 @@
       "id": "UTP-EDIT-023",
       "route": "/visit/places/kalijai/",
       "title": "Kalijai",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "Kalijai place article only: distinguish shrine, attributed story and practical crossing; Founder byline, visible sources, readable layout, retained full-frame documentary photo and portable reading. Separate crossing and stay guides remain queued.",
       "source_template": "projects/site/src/pages/visit/[kind]/[slug].astro",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
         "records/kalijai-editorial-review-2026-10-18.json",
-        "records/kalijai-editorial-source-mapping-2026-10-18.json"
+        "records/kalijai-editorial-source-mapping-2026-10-18.json",
+        "records/kalijai-editorial-publication-2026-10-18.json"
       ],
       "blocker": null,
       "started_at": "2026-10-18T02:41:15.603553+00:00",
@@ -953,7 +962,9 @@
         "Inspect existing Kalijai evidence and actual cited material; no invented shrine chronology, oral testimony or confirmed services.",
         "Natural prose with precise attribution, visible numbered notes and exact returns; preserve image rights and concise downloadable sources.",
         "Full and coastal checks, desktop/mobile review, reviewed PR head, approved main deployment, actual live checks and receipt before completion."
-      ]
+      ],
+      "completed_at": "2026-10-18T02:55:56.214380+00:00",
+      "publication_receipt": "records/kalijai-editorial-publication-2026-10-18.json"
     },
     {
       "id": "UTP-EDIT-024",
