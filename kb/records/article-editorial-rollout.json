@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-18T21:07:45.751862+00:00",
+  "updated_at": "2026-10-18T21:18:08.566481+00:00",
   "authorization": "UTP-DEC-2026101702",
   "work_id": "UTP-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -1156,13 +1156,22 @@
       "id": "UTP-EDIT-030",
       "route": "/visit/stays/rajhans-satapada/",
       "title": "Staying around Rajhans and Satapada",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "Rajhans and Satapada stay-area guide: distinguish an overnight stay from a boat excursion, verify published camp lead and explain arrival, return and room planning. Individual prose, sources, byline, regional image and portable reading.",
       "source_template": "projects/site/src/pages/visit/[kind]/[slug].astro",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
         "records/rajhans-satapada-editorial-source-mapping-2026-10-18.json",
-        "records/rajhans-satapada-editorial-review-2026-10-18.json"
+        "records/rajhans-satapada-editorial-review-2026-10-18.json",
+        "records/rajhans-satapada-editorial-publication-2026-10-18.json"
       ],
       "blocker": null,
       "started_at": "2026-10-18T21:03:30.171576+00:00",
@@ -1170,7 +1179,9 @@
         "Read actual official camp and access sources; distinguish advertised accommodation from verified current services and exclude unconfirmed transfer, price or facility claims.",
         "Use natural specific prose, visible numbered notes and exact returns; retain truthful regional photo and full narrative in downloads with concise sources.",
         "Pass full/coast tests and responsive keyboard review; merge reviewed passing PR and approved deployment, verify live and save receipt before completion. Zero substantive500 increment."
-      ]
+      ],
+      "completed_at": "2026-10-18T21:18:08.566481+00:00",
+      "publication_receipt": "records/rajhans-satapada-editorial-publication-2026-10-18.json"
     },
     {
       "id": "UTP-EDIT-031",
