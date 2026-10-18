@@ -18,7 +18,7 @@ test('Kalijai distinguishes the authored account from chronology and links exact
  }
  assert.equal((page.match(/data-footnote-ref/g)||[]).length,3);
  for(const phrase of ['Janmejay Choudhury','Godabarish Mishra','does not establish that a particular wreck happened','does not establish a dated sequence','original edition has not been independently checked'])assert.ok(page.includes(phrase));
- assert.match(read('dist/visit/experiences/kalijai-crossing/index.html'),/Drafted with AI assistance/);
+ assert.match(read('dist/visit/experiences/satapada-boating/index.html'),/Drafted with AI assistance/);
  assert.match(page,/data-save-journey="place:kalijai"/);
 });
 test('Kalijai portable reading retains every paragraph and concise sources with original photograph credit',()=>{
