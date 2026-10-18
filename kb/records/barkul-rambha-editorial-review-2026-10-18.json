@@ -1,0 +1,52 @@
+{
+  "recorded_at": "2026-10-18T20:00:58.888532+00:00",
+  "work_id": "UTP-WORK-302",
+  "queue_item": "UTP-EDIT-029",
+  "authorization": [
+    "UTP-DEC-2026101702",
+    "UTP-DEC-225"
+  ],
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "status": "pass_with_limitations",
+  "scope": [
+    "Barkul/Rambha stay-area comparison, image and portable reading",
+    "Founder byline, visible sources and exact returns"
+  ],
+  "reader_gain": "Distinguishes Barkul’s Kalijai planning from Rambha’s named island excursion leads, then shows how to choose a room and check boarding, transfers, non-boating companions and cancellation terms.",
+  "checks": {
+    "full_site_tests": 553,
+    "coastal_tests": 236,
+    "sources": 2,
+    "reference_links": 2,
+    "return_links": 2,
+    "desktop": "1280x900 cover, reading and notes inspected; full-frame regional image and no horizontal overflow.",
+    "mobile": "390x844 verified viewport; cover, reading and notes inspected with no horizontal overflow.",
+    "keyboard": "Desktop Rambha marker and exact return; mobile Barkul marker and exact return activated using Enter, focus/hash verified.",
+    "portable": "All four sections and every paragraph retained in HTML/text reading; concise source links and private note preserved.",
+    "media": "Existing Hellohappy regional photograph visually reinspected and unchanged hash tested; full frame and CC BY-SA 4.0 retained, no property-view claim.",
+    "source_review": "Read actual OTDC property descriptions and address fields; excluded promotional quality, price, rating and current facility assertions. Water-transport page and existing Kalijai itinerary inspected without assuming schedules or landing permissions.",
+    "regression": "Full/coast suites pass; neighbouring Rajhans/Satapada stays retains its pending editorial treatment."
+  },
+  "evidence": [
+    "records/barkul-rambha-editorial-source-mapping-2026-10-18.json"
+  ],
+  "screenshots": [
+    "/tmp/barkul-desktop-cover.png",
+    "/tmp/barkul-desktop-reading.png",
+    "/tmp/barkul-desktop-notes.png",
+    "/tmp/barkul-mobile-cover.png",
+    "/tmp/barkul-mobile-reading.png",
+    "/tmp/barkul-mobile-notes.png"
+  ],
+  "limitations": [
+    "Same-assistant review, not independent human or specialist review.",
+    "No property visit, provider contact, route or landing confirmation, or current room/service verification.",
+    "Planning advice is not field testimony.",
+    "Browser emulation, not physical-device or screen-reader testing.",
+    "Zero substantive500 increment."
+  ]
+}

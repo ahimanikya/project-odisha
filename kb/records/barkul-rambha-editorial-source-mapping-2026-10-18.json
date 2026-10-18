@@ -1,0 +1,59 @@
+{
+  "recorded_at": "2026-10-18T19:58:31.442864+00:00",
+  "route": "/visit/stays/barkul-rambha/",
+  "reader_question": "Should I stay at Barkul or Rambha, and how does that choice connect to a real room and the boat outing I want?",
+  "canonical_copy": "research/destinations/details.json#stays/barkul-rambha",
+  "reader_sources": "research/destinations/barkul-rambha-editorial.json",
+  "passages": [
+    {
+      "id": "detail-0",
+      "source_ids": [
+        "otdc-panthanivas-barkul"
+      ]
+    },
+    {
+      "id": "detail-1",
+      "source_ids": [
+        "otdc-panthanivas-rambha"
+      ]
+    }
+  ],
+  "source_inspections": [
+    {
+      "source_id": "otdc-panthanivas-barkul",
+      "locator": "About section and address",
+      "finding": "About Panthanivas Barkul and the address: published accommodation at Balugaon and the Kalijai connection. No listed price, rating, facilities or current availability treated as verified.",
+      "method": "Actual official HTML retrieved and text inspected; no booking or contact."
+    },
+    {
+      "source_id": "otdc-panthanivas-rambha",
+      "locator": "About section and address",
+      "finding": "About Panthanivas Rambha and the address: Rambha in Ganjam, Ghantasila hills and named island excursion ideas. No landing permission, complete route, room view, price or current service guaranteed.",
+      "method": "Actual official HTML retrieved and text inspected; no booking or contact."
+    }
+  ],
+  "additional_inspections": [
+    "OTDC Water Transport page retrieved directly after web-tool timeout: lists separate Barkul and Rambha tables. Not a route schedule; no tariffs, vessel capacity or current availability adopted.",
+    "Odisha Tourism Barkul–Kalijai–Narayani itinerary actually read; boat/temple relationship supports existing research, but inconsistent package inclusions and fixed hours are not used.",
+    "Previously cited chilika-bases URL returned a 404 in preceding Mangalajodi review. Replaced here with individual official property descriptions; historical and other article references preserved."
+  ],
+  "original_material": [
+    "Base-selection reasoning, room/boarding distinctions, room-to-meeting-point checks, companion planning and cancellation questions are original advice, not service confirmations or field testimony."
+  ],
+  "image_review": {
+    "src": "/images/chilika/chilika-lake-hellohappy.webp",
+    "sha256": "0c07d18090ac7a1d7fc4e9a61f16e8eed3633ac1db1c11d84ab2586b9d06543c",
+    "result": "Regional documentary image visually reinspected: boat, birds and shoreline are physically coherent. Retain unchanged bytes, full frame, Hellohappy credit and CC BY-SA 4.0. Caption explicitly separates regional image from a property, room or view."
+  },
+  "reuse": [
+    "research/methods/research-map.md",
+    "research/destinations/chilika.json",
+    "research/destinations/kalijai-crossing-editorial.json",
+    "records/mangalajodi-stay-editorial-source-mapping-2026-10-18.json"
+  ],
+  "limitations": [
+    "Same-assistant review, not independent human review.",
+    "No property visit, provider contact, route/landing confirmation or current service verification.",
+    "Editorial rollout only; zero substantive500 increment."
+  ]
+}
