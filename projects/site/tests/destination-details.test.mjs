@@ -8,7 +8,7 @@ test('detail pages link place, experience and stay research with pictures and ev
  assert.equal(new Set(routes).size,routes.length);
  for(const r of records){
   const html=read(`visit/${r.kind}/${r.slug}`);
-  if(r.kind==='places'&&['mangalajodi','kalijai','satapada'].includes(r.slug)){assert.match(html,/By Ahimanikya Satapathy/);assert.match(html,/<section id="story-sources"/);}else assert.ok(html.includes('Editorial draft'));
+  if((r.kind==='experiences'&&r.slug==='mangalajodi-birdwatching')||(r.kind==='places'&&['mangalajodi','kalijai','satapada'].includes(r.slug))){assert.match(html,/By Ahimanikya Satapathy/);assert.match(html,/<section id="story-sources"/);}else assert.ok(html.includes('Editorial draft'));
   assert.match(html, /<figure[^>]*id="story-image"[^>]*><img[^>]+src="[^"]+"[^>]+alt="[^"]+"/);
   assert.ok(html.includes('id="sources-credits"'));
   assert.ok(html.includes(`/knowledge/${r.parent}/`));

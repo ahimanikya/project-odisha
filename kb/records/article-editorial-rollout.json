@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-18T15:53:23.513260+00:00",
+  "updated_at": "2026-10-18T16:00:10.756682+00:00",
   "authorization": "UTP-DEC-2026101702",
   "work_id": "UTP-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -1001,12 +1001,21 @@
       "id": "UTP-EDIT-025",
       "route": "/visit/experiences/mangalajodi-birdwatching/",
       "title": "Watch the wetlands at Mangalajodi",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
+      "status": "in_progress",
+      "scope": "Mangalajodi birdwatching experience: practical observation exercise, season and restraint, Founder byline, visible footnotes, dated boat photo and portable reading.",
+      "source_template": "projects/site/src/pages/visit/[kind]/[slug].astro",
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/mangalajodi-birdwatching-editorial-source-mapping-2026-10-18.json",
+        "records/mangalajodi-birdwatching-editorial-review-2026-10-18.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-10-18T15:54:58.591523+00:00",
+      "acceptance": [
+        "Inspect source evidence and distinguish suggested observation from field testimony.",
+        "Preserve photo credit and date; verify desktop/mobile, footnote targets and all portable paragraphs.",
+        "Required passing PR checks, reviewed merge, approved main publication and live receipt before completion; zero substantive500 increment."
+      ]
     },
     {
       "id": "UTP-EDIT-026",
