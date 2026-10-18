@@ -18,7 +18,7 @@ test('Mangalajodi birdwatching separates observation prompts from sourced habita
  }
  assert.equal((page.match(/data-footnote-ref/g)||[]).length,2);
  for(const phrase of ['November to February','Describe before you identify','not observations recorded on a visit','photographed by Neerakiran in June 2017'])assert.ok(page.includes(phrase));
- assert.match(read('dist/visit/stays/rajhans-satapada/index.html'),/Drafted with AI assistance/);
+ assert.match(read('dist/visit/stays/konark/index.html'),/Drafted with AI assistance/);
  assert.match(page,/data-save-journey="experience:chilika-mangalajodi-birding"/);
 });
 test('Mangalajodi birdwatching portable reading retains every paragraph and concise sources with original photograph credit',()=>{
