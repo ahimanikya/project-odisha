@@ -995,15 +995,21 @@
         },
         {
           "title": "Chilika (Satpada) — Puri district",
-          "url": "https://puri.odisha.gov.in/en/tourism/tourist-places/chilika-satpada",
-          "checked_on": "2026-10-01",
-          "inspection": "Puri district indexed text rechecked 1 October 2026 for Satapada boating and Irrawaddy dolphins. Direct retrieval failed; wildlife encounters and current boat arrangements are not guaranteed."
+          "url": "https://puri.odisha.gov.in/en/tourism/places-of-interest",
+          "checked_on": "2026-10-18",
+          "inspection": "Puri district Places of Interest, entry 13 inspected on 18 October 2026; no booking or operator verification."
         },
         {
           "title": "South Odisha brochure — Odisha Tourism, Chilka Lake section",
           "url": "https://odishatourism.gov.in/content/dam/tourism/odishatourismbrochures/SouthOdisha.pdf",
           "checked_on": "2026-10-01",
           "inspection": "Indexed Chilka Lake passage inspected for Chilika chingudi, crab curry and buffalo-milk curd traditionally prepared in a cup-shaped bamboo basket. Direct PDF retrieval failed. Availability, named outlets and preparation were not checked locally."
+        },
+        {
+          "title": "Odisha Tourism · Chilika Lake",
+          "url": "https://odishatourism.gov.in/en/places/chilika-lake",
+          "checked_on": "2026-10-18",
+          "inspection": "Current official page inspected for road access via Barkul/Balugaon and Balugaon railhead. No listed prices, times or wildlife status imported."
         }
       ],
       "planning_review": {
@@ -1011,9 +1017,12 @@
         "remaining": "No field visit, boat inspection, accommodation inspection, access audit or local-host arrangement has been completed."
       },
       "planning_help": {
-        "text": "Use Odisha Tourism’s Chilika guide to identify a stay-area lead, then contact the actual provider to confirm the arrangements for your chosen shore.",
-        "label": "Odisha Tourism · Chilika nature camps",
-        "url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/lakes-waterfalls/chilika-nature-camps.html"
+        "text": "Use the current Odisha Tourism lagoon guide to choose an approach, then confirm the meeting point and arrangements with your provider.",
+        "label": "Odisha Tourism · Chilika Lake",
+        "url": "https://odishatourism.gov.in/en/places/chilika-lake",
+        "source_ids": [
+          "chilika-current-guide"
+        ]
       },
       "practical_choices": {
         "reviewed_on": "2026-10-01",
@@ -1041,9 +1050,14 @@
             "source_urls": [
               "https://www.incredibleindia.gov.in/en/odisha/bhubaneswar/mangalajodi",
               "https://apps.odishatourism.gov.in/tour/chilika-barkul-kalijai-narayani-and-back",
-              "https://puri.odisha.gov.in/en/tourism/tourist-places/chilika-satpada"
+              "https://puri.odisha.gov.in/en/tourism/places-of-interest"
             ],
-            "basis": "source_context_with_editorial_advice"
+            "basis": "source_context_with_editorial_advice",
+            "source_ids": [
+              "mangalajodi-visit",
+              "barkul-kalijai",
+              "satapada-visit"
+            ]
           },
           {
             "key": "access",
@@ -1061,7 +1075,10 @@
             "source_urls": [
               "https://odishatourism.gov.in/content/dam/tourism/odishatourismbrochures/SouthOdisha.pdf"
             ],
-            "basis": "source_context_with_editorial_advice"
+            "basis": "source_context_with_editorial_advice",
+            "source_ids": [
+              "south-odisha-food"
+            ]
           },
           {
             "key": "stay",
@@ -1084,10 +1101,14 @@
             "source_urls": [
               "https://odishatourism.gov.in/content/tourism/en/discover/attractions/lakes-waterfalls/chilika-nature-camps.html"
             ],
-            "basis": "source_context_with_editorial_advice"
+            "basis": "source_context_with_editorial_advice",
+            "source_ids": [
+              "chilika-bases"
+            ]
           }
         ]
-      }
+      },
+      "editorial_notes_in_article": true
     }
   ]
 }

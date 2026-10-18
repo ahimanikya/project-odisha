@@ -24,6 +24,6 @@ test('Konark keeps documentary photographs, date context, journey controls and i
  assert.ok(html.includes('photographed in New Delhi, 2025'));
  for(const id of ['visit-notebook','visit-details','practical-choices','collection-onward'])assert.ok(html.includes(`id="${id}"`));
  assert.ok(html.includes('data-save-journey="place:konark"'));
- const other=read('/knowledge/chilika/');assert.doesNotMatch(other,/class="article-byline"|id="story-sources"/);assert.match(other,/Drafted with AI assistance; human editorial review pending/);
+ const other=read('/knowledge/chilika/');assert.match(other,/By Ahimanikya Satapathy/);assert.match(other,/id="note-gopabandhu-poem"/);assert.doesNotMatch(other,/id="note-konark"/);
  const main=html.match(/<main[\s\S]*?<\/main>/)[0];assert.doesNotMatch(main,/odishatourism.gov.in\/content\/tourism/);
 });
