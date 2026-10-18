@@ -13,7 +13,7 @@ test('city starter creates six choices without replacing a dated existing journe
  const before=structuredClone(old),next=createStarterTrip(old,'city-review',city,data.catalog.map(i=>i.id));
  assert.deepEqual(old,before);assert.deepEqual(next.trips[0],before.trips[0]);assert.equal(next.trips[1].plan.items.length,6);
  const book=buildTourBook(next.trips[1].plan,data.catalog);
- for(const text of ['Old Town / Ekamra','Janpath and the central city','An arrival-focused base','tenth century','February 2009','not a verified current mural route','what the meal costs'])assert.ok(book.includes(text),text);
+ for(const text of ['Old Town / Ekamra','Janpath and the central city','An arrival-focused base','tenth century','February 2009','not a verified current mural route','portions and price'])assert.ok(book.includes(text),text);
 });
 test('new guides expose stable choices, scoped links and truthful photo context',()=>{
  const food=read('/food/bhubaneswar/');
