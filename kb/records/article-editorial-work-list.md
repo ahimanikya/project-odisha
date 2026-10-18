@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 394. completed: 18, excluded: 9, queued: 367.
+Route inventory: 394. completed: 18, excluded: 9, in_progress: 1, queued: 366.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -40,7 +40,7 @@ Route inventory: 394. completed: 18, excluded: 9, queued: 367.
 | UTP-EDIT-024 | [Satapada](https://projectodisha.org/visit/places/satapada/) | completed | Satapada place article: reader question, source-based dolphin context, natural reading, Founder byline, visible footnotes, retained regional image and portable reading. |
 | UTP-EDIT-025 | [Watch the wetlands at Mangalajodi](https://projectodisha.org/visit/experiences/mangalajodi-birdwatching/) | completed | Mangalajodi birdwatching experience: practical observation exercise, season and restraint, Founder byline, visible footnotes, dated boat photo and portable reading. |
 | UTP-EDIT-026 | [Take the boat to Kalijai](https://projectodisha.org/visit/experiences/kalijai-crossing/) | completed | Kalijai crossing: plan the return, understand the shrine story and listen respectfully; individual byline, footnotes, image and portable-reading review. |
-| UTP-EDIT-027 | [Look for dolphins from Satapada](https://projectodisha.org/visit/experiences/satapada-boating/) | queued | classification_pending |
+| UTP-EDIT-027 | [Look for dolphins from Satapada](https://projectodisha.org/visit/experiences/satapada-boating/) | in_progress | Satapada boating: realistic dolphin observation, operator questions and why approach matters; individual byline, footnotes, image and portable reading. |
 | UTP-EDIT-028 | [Staying in Mangalajodi](https://projectodisha.org/visit/stays/mangalajodi/) | queued | classification_pending |
 | UTP-EDIT-029 | [Staying in Barkul or Rambha](https://projectodisha.org/visit/stays/barkul-rambha/) | queued | classification_pending |
 | UTP-EDIT-030 | [Staying around Rajhans and Satapada](https://projectodisha.org/visit/stays/rajhans-satapada/) | queued | classification_pending |

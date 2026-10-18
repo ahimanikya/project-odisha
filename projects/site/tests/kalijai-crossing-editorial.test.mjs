@@ -18,7 +18,7 @@ test('Kalijai crossing distinguishes the authored account from chronology and li
  }
  assert.equal((page.match(/data-footnote-ref/g)||[]).length,2);
  for(const phrase of ['Janmejay Choudhury','Godabarish Mishra','not a dated record of a wreck','Begin with the return','Give the shrine its own time'])assert.ok(page.includes(phrase));
- assert.match(read('dist/visit/experiences/satapada-boating/index.html'),/Drafted with AI assistance/);
+ assert.match(read('dist/visit/stays/rajhans-satapada/index.html'),/Drafted with AI assistance/);
  assert.match(page,/data-save-journey="experience:chilika-kalijai"/);
 });
 test('Kalijai crossing portable reading retains every paragraph and concise sources with original photograph credit',()=>{

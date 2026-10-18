@@ -1,0 +1,52 @@
+{
+  "recorded_at": "2026-10-18T18:00:49.724260+00:00",
+  "work_id": "UTP-WORK-302",
+  "queue_item": "UTP-EDIT-027",
+  "authorization": [
+    "UTP-DEC-2026101702",
+    "UTP-DEC-225"
+  ],
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "status": "pass_with_limitations",
+  "scope": [
+    "Satapada boating experience, photograph and portable reading",
+    "Founder byline, visible footnotes and exact returns"
+  ],
+  "reader_gain": "Explains limited sightings and why a boat’s approach matters, gives a dated training example without claiming current compliance, and helps readers ask useful operator questions.",
+  "checks": {
+    "full_site_tests": 549,
+    "coastal_tests": 236,
+    "sources": 2,
+    "reference_links": 3,
+    "return_links": 3,
+    "desktop": "1280x900 cover, readable narrative and visible notes inspected; full-frame photo and no horizontal overflow.",
+    "mobile": "390x844 cover, narrative and notes inspected; readable line lengths, full-frame photo and no horizontal overflow.",
+    "keyboard": "Desktop and mobile source-marker Enter and exact return focus checked, including the second IWC passage.",
+    "portable": "Tests retain all four sections, every paragraph, concise source titles/URLs and user notes; full bibliographic notes stay on website.",
+    "media": "Existing Hellohappy regional photograph inspected; CC BY-SA 4.0 credit retained. Full frame and unchanged SHA256 verified by test.",
+    "regression": "Full and coast suites pass. Existing adjacent-route assertions now protect the unreviewed Rajhans/Satapada stay guide; the boating article has its own tests."
+  },
+  "evidence": [
+    "records/satapada-boating-editorial-source-mapping-2026-10-18.json"
+  ],
+  "screenshots": [
+    "/tmp/boating-desktop-cover.png",
+    "/tmp/boating-desktop-reading.png",
+    "/tmp/boating-desktop-notes.png",
+    "/tmp/boating-mobile-cover.png",
+    "/tmp/boating-mobile-reading.png",
+    "/tmp/boating-mobile-notes.png"
+  ],
+  "limitations": [
+    "Same-assistant review, not independent human or specialist review.",
+    "No field visit, wildlife survey or current operator confirmation.",
+    "Operator and observation prompts are suggestions, not reported testimony or enforced rules.",
+    "IWC case study inspected; underlying studies not separately read.",
+    "Browser emulation, not physical-device or screen-reader testing.",
+    "Zero substantive500 increment."
+  ]
+}
