@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-18T22:16:49.593368+00:00",
+  "updated_at": "2026-10-18T23:02:41.270467+00:00",
   "authorization": "UTP-DEC-2026101702",
   "work_id": "UTP-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -1218,12 +1218,21 @@
       "id": "UTP-EDIT-032",
       "route": "/food/bhubaneswar/",
       "title": "A meal in Bhubaneswar",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "in_progress",
+      "scope": "Review the Bhubaneswar meal guide individually: explain dalma preparation, pakhala variation, chhena poda adaptation and Old Town korakhai; apply Founder byline, visible sources, natural reading and credited uncropped photograph. Preserve neighbouring authorship and search scope.",
       "source_template": "projects/site/src/pages/food/bhubaneswar.astro",
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/bhubaneswar-meal-editorial-source-mapping-2026-10-18.json",
+        "records/bhubaneswar-meal-editorial-review-2026-10-18.json"
+      ],
+      "blocker": null,
+      "acceptance": [
+        "Three existing dish sections explain specific methods or variations; a sourced Old Town connection distinguishes city food culture from statewide dish identity.",
+        "Actual source pages and existing KB inspected, retired source replaced, claims mapped without invented tasting or current restaurant verification.",
+        "Desktop/mobile review, exact footnote returns, complete city context in portable reading, passing PR checks, approved publication and live receipt before completion."
+      ],
+      "started_at": "2026-10-18T22:58:13.619588+00:00"
     },
     {
       "id": "UTP-EDIT-033",
