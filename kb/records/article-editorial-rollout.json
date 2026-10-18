@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-18T21:18:08.566481+00:00",
+  "updated_at": "2026-10-18T22:07:15.959465+00:00",
   "authorization": "UTP-DEC-2026101702",
   "work_id": "UTP-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -1187,12 +1187,21 @@
       "id": "UTP-EDIT-031",
       "route": "/visit/places/mukteswar/",
       "title": "Mukteswar",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
+      "status": "in_progress",
+      "scope": "Mukteswar visitor article: explain gateway, hall and shrine as distinct forms, retain evidence limits for date and sculptural interpretation, connect present-day Odissi festival without assumed continuity. Individual language, byline, notes, two documentary images and portable reading.",
+      "source_template": "projects/site/src/pages/visit/[kind]/[slug].astro",
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/mukteswar-editorial-source-mapping-2026-10-18.json",
+        "records/mukteswar-editorial-review-2026-10-18.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-10-18T21:59:54.328257+00:00",
+      "acceptance": [
+        "Read actual architectural and festival sources; distinguish visible forms, scholarly or official descriptions, and unverified history or current arrangements.",
+        "Explain what a visitor can understand from the arch, roof forms and carvings with restrained footnotes; preserve both documentary images and rights.",
+        "Full/coast tests, desktop/mobile visual and keyboard review, passing PR, reviewed merge, approved publish and live receipt before completion. Zero substantive500 increment."
+      ]
     },
     {
       "id": "UTP-EDIT-032",
