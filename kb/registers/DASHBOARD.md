@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `8cd46280241089bce1097ffff98de2476cee79e987788014cbe67031fd81abec`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b259fe33f87095c7ee3766535e7fd995d5c048601e4c152b17a8993253e5ee04`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -321,7 +321,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-299 · Deepen Dalkhai song, occasion and stage context | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, song-language review and recovered source PDFs remain open for future research. | — |
 | UTP-WORK-300 · Deepen Pala literary performance, forms and repertoire | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/Odia review and manuscript evidence remain open for future research. | — |
 | UTP-WORK-301 · Deepen Dhemsa community, movement and occasion | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/language review and field evidence remain open for future research. | — |
-| UTP-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Publish reviewed UTP-EDIT-025 Mangalajodi birdwatching through passing PR checks and approved main workflow, verify live and record receipt before completion. Substantive500 remains112. | — |
+| UTP-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Continue UTP-EDIT-026 Kalijai crossing: inspect its individual evidence, writing, images and template before revision. Seventeen articles completed, nine justified exclusions; substantive500 remains112. | — |
 | UTP-WORK-2026101701 · Publish two Pattachitra Jhula choices | completed | published | Ahimanikya Satapathy | Review the live Pattachitra choices. | — |
 | UTP-WORK-2026101801 · Coherent Jhula story and collection overview | in_progress | reviewed | Ahimanikya Satapathy | Finish responsive review, publish and verify live. | — |
 
@@ -1099,6 +1099,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-156 · Mangalajodi: natural reading, Founder byline and visible footnotes | published | https://projectodisha.org/visit/places/mangalajodi/ | UTP-DEC-225 |
 | UTP-REL-157 · Kalijai: natural reading, Founder byline and visible footnotes | published | https://projectodisha.org/visit/places/kalijai/ | UTP-DEC-225 |
 | UTP-REL-158 · Satapada: natural reading, Founder byline and visible footnotes | published | https://projectodisha.org/visit/places/satapada/ | UTP-DEC-225 |
+| UTP-REL-159 · Mangalajodi birdwatching: observation, Founder byline and visible footnotes | published | https://projectodisha.org/visit/experiences/mangalajodi-birdwatching/ | UTP-DEC-225 |
 
 ## Sources and assets
 
@@ -1136,7 +1137,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101802 | 2026-10-18T00:57:50.963226+00:00 | Published and live-verified Chilika editorial revision through PR300 and approved main workflow. Fourteen visible sources, exact footnote returns, Founder byline, preserved artist credits and five unchanged image hashes verified. UTP-EDIT-021 complete; no substantive500 increment. | — |
 | UTP-EVT-20261017102 | 2026-10-16T22:10:55.598622+00:00 | Published and live-verified both Pattachitra options with autosaving votes and collapsed comments. | — |
 | UTP-EVT-20261018101 | 2026-10-18T01:15:09.029021+00:00 | Refined accumulated Jhula copy into a coherent story and20-choice collection with group navigation. | — |
 | UTP-EVT-2026101803 | 2026-10-18T01:46:25.494984+00:00 | Reviewed Mangalajodi place article individually: source-linked reading, Founder byline, three visible notes and retained documentary photograph. Tests and responsive review passed; publication remains pending. No substantive500 increment. | — |
@@ -1146,6 +1146,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101807 | 2026-10-18T07:06:14.787695+00:00 | Reviewed Satapada with attributed dolphin context, historical training example, Founder byline and visible footnotes. Full543/coast236 tests and desktop/mobile checks passed; publication pending. No substantive500 increment. | — |
 | UTP-EVT-2026101808 | 2026-10-18T15:53:23.513260+00:00 | Published and verified Satapada place guide through PR305 and approved main workflow, preserving other article scopes. Three visible sources, five exact returns, Founder byline, full reading and unchanged photo verified. UTP-EDIT-024 complete; no substantive500 increment. | — |
 | UTP-EVT-2026101809 | 2026-10-18T16:00:10.756682+00:00 | Reviewed Mangalajodi birdwatching with practical observation prompts, honest field limits, Founder byline and two visible source notes. Full545/coast236 tests and desktop/mobile checks passed; publication pending. No substantive500 increment. | — |
+| UTP-EVT-2026101810 | 2026-10-18T16:08:11.620823+00:00 | Published and verified Mangalajodi birdwatching experience through PR306 and approved main workflow, preserving other article scopes. Two visible sources, two exact returns, Founder byline, full reading and unchanged photo verified. UTP-EDIT-025 complete; no substantive500 increment. | — |
 
 ## Deferred extensions
 
