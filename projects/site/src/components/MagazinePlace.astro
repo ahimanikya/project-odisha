@@ -2,6 +2,7 @@
 import ArticleByline from './ArticleByline.astro';
 import ArticleFootnote from './ArticleFootnote.astro';
 import ArticleFootnotes from './ArticleFootnotes.astro';
+import chilikaEditorial from '../../../../kb/research/destinations/chilika-editorial.json';
 import konarkEditorial from '../../../../kb/research/destinations/konark-editorial.json';
 import VisitReadiness from './VisitReadiness.astro';
 import ResponsiveImage from './ResponsiveImage.astro';
@@ -17,7 +18,7 @@ import MagazineCover from './MagazineCover.astro';
 import layouts from '../../../../kb/research/stories/magazine-layouts.json';
 const {entry,story,destination:d,sources,evidenceUses}=Astro.props;
 const layout=layouts[entry.slug];
-const editorial=entry.slug==='konark'?konarkEditorial:null;
+const editorial=entry.slug==='konark'?konarkEditorial:entry.slug==='chilika'?chilikaEditorial:null;
 const foodLead=d.foods.find(item=>item.id===layout.foodLead);
 const foodOthers=d.foods.filter(item=>item.id!==layout.foodLead);
 const chapterId=story.voice?'poems-songs':'history';
@@ -26,14 +27,14 @@ const chapterId=story.voice?'poems-songs':'history';
   <MagazineCover title={layout.title} odia={layout.odia} eyebrow={layout.eyebrow} deck={layout.deck} photo={story.image} caption={story.image.short_caption||story.image.caption} saveId={d.id} startHref={'#'+chapterId} startLabel="Read the story" footline={layout.footline}>{editorial&&<ArticleByline slot="byline" author={editorial.author}/>}</MagazineCover>
   <MagazineContents links={[{href:"#"+chapterId,label:"The story"},{href:"#things-to-do",label:layout.choicesLabel},...(story.history?[{href:"#poems-songs",label:"Culture & stories"}]:[]),{href:"#food",label:"At the table"},{href:"#plan-visit",label:"Plan a visit"},{href:"#visit-notebook",label:"Visit notebook"},...(editorial?[{href:"#story-sources",label:"Footnotes & Sources"}]:[])]}/>
   <article class="mag-content">
-    <section class:list={['mag-chapter mag-story',{'mag-story--history':!!story.history}]} id={chapterId} aria-labelledby="mag-story-title" data-source-ids={(story.voice?.sources||story.history.sources).join(' ')}>
+    <section class:list={['mag-chapter mag-story',{'mag-story--history':!!story.history,'mag-story--voice':!!story.voice&&!!editorial}]} id={chapterId} aria-labelledby="mag-story-title" data-source-ids={(story.voice?.sources||story.history.sources).join(' ')}>
       <div class="mag-chapter-label" aria-hidden="true"><span>01</span><p class="eyebrow">{layout.storyKicker}</p></div>
       <div class="mag-story-copy">
         <h2 id="mag-story-title">{layout.storyTitle[0]}<br/><em>{layout.storyTitle[1]}</em></h2>
         <p class="mag-reading">{story.opening}</p>
-        {story.voice&&<><blockquote><p lang={story.voice.language}>{story.voice.original}</p><p class="mag-translation">{story.voice.translation}</p><footer>{story.voice.author} · <cite>{story.voice.work}</cite></footer></blockquote><p class="mag-context">{story.voice.context}</p></>}
+        {story.voice&&<><blockquote><p lang={story.voice.language}>{story.voice.original}</p><p class="mag-translation">{story.voice.translation}</p><footer>{story.voice.author} · <cite>{story.voice.work}</cite></footer></blockquote><p class="mag-context">{story.voice.context}{editorial&&<ArticleFootnote ids={story.voice.sources} sources={editorial.sources} passage="voice"/>}</p></>}
         {story.history&&<p class="mag-reading">{story.history.text}{editorial&&<ArticleFootnote ids={story.history.sources} sources={editorial.sources} passage="history"/>}</p>}
-        <details class="mag-disclosure" id={story.voice?undefined:'poems-songs'}><summary>{story.culture_heading||'Poems and songs to explore'}</summary>{d.culture.map((work,i)=><article id={work.id.replaceAll(':','-')} data-source-ids={work.sources.join(' ')}><h3>{work.title}</h3><p>{work.text}{editorial&&<ArticleFootnote ids={work.sources} sources={editorial.sources} passage={`culture-${i}`}/>}</p><a href={editorial?.sources.find(s=>s.id===work.sources[0])?.url||work.url}>{work.link_label} ↗</a></article>)}</details>
+        <details class="mag-disclosure" id={story.voice?undefined:'poems-songs'}><summary>{story.culture_heading||'Poems and songs to explore'}</summary>{d.culture.map((work,i)=><article id={work.id.replaceAll(':','-')} data-source-ids={work.sources.join(' ')}><h3>{work.title}</h3><p>{work.text}{editorial&&<ArticleFootnote ids={work.sources} sources={editorial.sources} passage={`culture-${i}`}/>}</p>{entry.slug==='chilika'&&work.type==='song'&&<p class="mag-note">{work.credit}</p>}<a href={entry.slug==='chilika'?work.url:editorial?.sources.find(s=>s.id===work.sources[0])?.url||work.url}>{work.link_label} ↗</a></article>)}</details>
       </div>
       {story.voice?<figure><ResponsiveImage src={d.visuals.mangalajodi.src} alt={d.visuals.mangalajodi.alt} width={d.visuals.mangalajodi.width} height={d.visuals.mangalajodi.height} loading="lazy"/><figcaption>{d.visuals.mangalajodi.caption}</figcaption></figure>:<aside class="mag-history-note" id={story.surprise.id} data-source-ids={story.surprise.sources.join(' ')}><p class="eyebrow">Look a little closer</p><h3>{story.surprise.heading}</h3><dl class="mag-metrics">{story.surprise.metrics.map(m=><div><dt>{m.label}</dt><dd>{m.value}</dd></div>)}</dl><p>{story.surprise.text}{editorial&&<ArticleFootnote ids={story.surprise.sources} sources={editorial.sources} passage="detail"/>}</p><details class="mag-disclosure"><summary>{story.surprise.reveal_label}</summary><p>{story.surprise.reveal}</p></details></aside>}
     </section>
@@ -54,11 +55,11 @@ const chapterId=story.voice?'poems-songs':'history';
       </div>
     </section>
     <section class="mag-chapter mag-visit" id="plan-visit" aria-labelledby="mag-visit-title">
-      <div><p class="eyebrow">{layout.planKicker}</p><h2 id="mag-visit-title">{layout.planTitle[0]}<br/><em>{layout.planTitle[1]}</em></h2><p class="mag-reading" data-source-ids={d.orientation_sources.join(' ')}>{d.orientation}</p><a class="utk-button" href="/journey/">Open my journey →</a>{d.journey_starter&&allowsPage(d.journey_starter.href)&&<p><a href={d.journey_starter.href}>{d.journey_starter.title} →</a></p>}</div>
+      <div><p class="eyebrow">{layout.planKicker}</p><h2 id="mag-visit-title">{layout.planTitle[0]}<br/><em>{layout.planTitle[1]}</em></h2><p class="mag-reading" data-source-ids={d.orientation_sources.join(' ')}>{d.orientation}{entry.slug==='chilika'&&<ArticleFootnote ids={d.orientation_sources} sources={editorial.sources} passage="orientation"/>}</p><a class="utk-button" href="/journey/">Open my journey →</a>{d.journey_starter&&allowsPage(d.journey_starter.href)&&<p><a href={d.journey_starter.href}>{d.journey_starter.title} →</a></p>}</div>
       <div class="mag-visit-notes">
         <section data-source-ids={d.season_sources.join(' ')}><h3>When</h3><p>{d.season}{editorial&&<ArticleFootnote ids={d.season_sources} sources={editorial.sources} passage="season"/>}</p></section>
-        <section id="locals" data-source-ids={d.community.sources.join(' ')}><h3>With whom</h3><p>{d.community.text}</p></section>
-        <section id="stay"><h3>Stay</h3><div><p>{d.stay_note}</p><details class="mag-disclosure"><summary>Explore the stay areas</summary>{d.bases.map(item=><article id={item.id.replaceAll(':','-')} data-source-ids={item.sources.join(' ')}><h4>{item.title}</h4><p>{item.text}</p><a href={allowsPage(item.detail_href)?item.detail_href:'/visit/stays/puri-coast/'}>Explore this stay area ↗</a><SaveJourney id={item.id} quiet /></article>)}</details></div></section>
+        <section id="locals" data-source-ids={d.community.sources.join(' ')}><h3>With whom</h3><p>{d.community.text}{entry.slug==='chilika'&&<ArticleFootnote ids={d.community.sources} sources={editorial.sources} passage="community"/>}</p></section>
+        <section id="stay"><h3>Stay</h3><div><p>{d.stay_note}</p><details class="mag-disclosure"><summary>Explore the stay areas</summary>{d.bases.map((item,i)=><article id={item.id.replaceAll(':','-')} data-source-ids={item.sources.join(' ')}><h4>{item.title}</h4><p>{item.text}{entry.slug==='chilika'&&<ArticleFootnote ids={item.sources} sources={editorial.sources} passage={`base-${i}`}/>}</p><a href={allowsPage(item.detail_href)?item.detail_href:'/visit/stays/puri-coast/'}>Explore this stay area ↗</a><SaveJourney id={item.id} quiet /></article>)}</details></div></section>
       </div>
     </section>
    <VisitNotebook editorial={editorial}/>
@@ -79,10 +80,16 @@ import {bindStorySourceLinks} from '../lib/story-source-links.mjs';
 document.querySelectorAll('.place-editorial sup, .place-editorial .article-footnotes').forEach(group=>bindStorySourceLinks(group,document));
 </script>
 <style is:global>
+.utk .utk-magazine.place-editorial .mag-shore .mag-detail-link{display:block;width:fit-content;margin-block:1rem}
+
+.utk .utk-magazine.place-editorial .mag-story--voice h2{margin-bottom:1em}
+.utk .utk-magazine.place-editorial .mag-story--voice h3{margin-bottom:.65em}
+.utk .utk-magazine.place-editorial .mag-story--voice blockquote{margin-block:1.5em}
+
 .utk .utk-magazine.place-editorial .mag-chapter-label{display:flex;align-items:center;gap:1rem;margin-bottom:1.5rem;padding-top:1rem}
 .utk .utk-magazine.place-editorial .mag-chapter-label p{writing-mode:horizontal-tb;margin:0}
 
-.utk .utk-magazine.place-editorial .mag-story--history{display:block;max-width:740px;margin-inline:auto}
+.utk .utk-magazine.place-editorial .mag-story--voice,.utk .utk-magazine.place-editorial .mag-story--history{display:block;max-width:740px;margin-inline:auto}
 .utk .utk-magazine.place-editorial .mag-story-copy,.utk .utk-magazine.place-editorial .mag-history-note{max-width:740px}
 .utk .utk-magazine.place-editorial .mag-history-note{margin-top:2.5rem;padding:1.5rem 0;border-top:1px solid var(--line)}
 .utk .utk-magazine.place-editorial .mag-story p:not(.eyebrow),.utk .utk-magazine.place-editorial .mag-belief p:not(.eyebrow){font-size:18px;line-height:1.85;margin:0 0 1.25em}

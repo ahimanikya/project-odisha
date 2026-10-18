@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `db0bff8edb134a8296b26bb183b8325146379068d0d39ffc37cb88571b848e8d`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `63d7c0fd3d66181bd0042661384374c2e0e7ff6b4ac9e82c7a3cfdc49db8a63d`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -322,7 +322,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-299 · Deepen Dalkhai song, occasion and stage context | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, song-language review and recovered source PDFs remain open for future research. | — |
 | UTP-WORK-300 · Deepen Pala literary performance, forms and repertoire | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/Odia review and manuscript evidence remain open for future research. | — |
 | UTP-WORK-301 · Deepen Dhemsa community, movement and occasion | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/language review and field evidence remain open for future research. | — |
-| UTP-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Resume UTP-EDIT-021 Chilika: inspect MagazinePlace and its narrative/destination evidence, sources, media and portable reading, then publish an accepted article revision. Purpose, Founder role introduction, contribution workflow and product help are individually excluded; twelve articles completed and substantive500 remains 112. | — |
+| UTP-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Publish reviewed Chilika editorial revision, verify actual live page and save receipt before completing UTP-EDIT-021. Then continue next queued article. Substantive500 remains112. | — |
 
 ## Pending human review and decisions
 
@@ -918,6 +918,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-281 | pass_with_limitations | False | Live HTML and source inspection only; no new browser interaction, responsive or accessibility certification.; Exclusion from article formatting does not exempt utility pages from accuracy, rights or product maintenance.; Historical product notes describe earlier versions; current route source controls the classification. |
 | UTP-REV-282 | pass_with_limitations | False | Same-assistant review, not independent human or specialist approval.; Responsive emulation, not physical-device or screen-reader testing.; No field visit, maker contact or provider confirmation.; Editorial work does not increment substantive500. |
 | UTP-REV-283 | pass_with_limitations | False | HTML and template inspection only, not responsive or screen-reader certification.; Exclusions apply to article byline/footnote rollout, not to future accuracy, readability, rights or product maintenance.; Historical implementation notes are context; current templates and fetched pages establish present classification. |
+| UTP-REV-284 | pass_with_limitations | False | Same-assistant review; no independent human or specialist approval.; Responsive emulation, not physical-device or screen-reader testing.; No field visit, native-language approval, boat/property inspection or booking confirmation.; Legacy tourism food/accommodation evidence and Ramsar report retrieval limits are stated in source notes.; Formatting and attribution revision adds zero substantive500 items. |
 
 ## Publication and application history
 
@@ -1123,7 +1124,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101725 | 2026-10-17T19:42:29.111021+00:00 | Reviewed Puri coastal food individually: Founder credit, source-linked offering and ritual history, GI date, visible notes and retained documentary photograph. Publication pending; substantive programme unchanged. | — |
 | UTP-EVT-2026101726 | 2026-10-17T19:52:21.174996+00:00 | Published the individually reviewed Puri coastal food guide: Founder credit, natural reading layout, five visible numbered notes including folded notebook references, preserved photography and current tourism links. Next queued article: Puri coastal stays. Substantive programme remains 112. | — |
 | UTP-EVT-2026101727 | 2026-10-17T20:42:46.573719+00:00 | Reviewed Puri coastal stays: Founder credit, clear area comparison, visible geographic notes, preserved photo and complete concise portable reading. Publication pending; substantive programme unchanged. | — |
 | UTP-EVT-2026101728 | 2026-10-17T20:50:09.976695+00:00 | Published the individually reviewed Puri coastal stay comparison: Founder credit, natural reading layout, three visible geographic notes including folded notebook references, preserved photography and complete concise portable reading. Next queue entry: homepage classification. Substantive programme remains 112. | — |
@@ -1133,6 +1133,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101732 | 2026-10-17T22:54:08.477588+00:00 | Published the reviewed Stone, sea and makers trail through PR 298 and the approved main workflow. Actual live narrative, notes, image bytes, mobile reading and unchanged index eligibility checked. Twelfth editorial article complete; substantive programme remains 112. | — |
 | UTP-EVT-2026101733 | 2026-10-17T23:35:41.646933+00:00 | Individually classified institutional purpose, Founder role introduction, contribution workflow and product help. Preserved process, rights and privacy disclosures; kept Chilika queued as an actual subject article. No article or substantive count added. | — |
 | UTP-EVT-2026101734 | 2026-10-17T23:39:36.765232+00:00 | Merged individually evidenced institutional/help classifications through PR 299 after passing validation. Website unchanged; no article or substantive completions added. Next is the Chilika article. | — |
+| UTP-EVT-2026101801 | 2026-10-18T00:50:27.087307+00:00 | Individually reviewed Chilika article and notebook with visible sources, distinct creative credits and preserved photographs. Full537 and coast236 tests passed; desktop/mobile and keyboard reviewed. Pending PR, approved publication and live receipt; no completion counted. | — |
 
 ## Deferred extensions
 
