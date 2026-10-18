@@ -8469,25 +8469,6 @@
       "acceptance_criteria": "Cards align descriptions and control sections; five stars stay in one row; consistent section, heading and form spacing; phone layouts do not overflow; behavior preserved."
     },
     {
-      "id": "UTP-WORK-2026101701",
-      "title": "Publish two Pattachitra Jhula choices",
-      "category": "website",
-      "status": "in_progress",
-      "readiness": "reviewed",
-      "human_owner": "Ahimanikya Satapathy",
-      "execution_owner": "Current merchandise assistant",
-      "authorization": "UTP-DEC-2026101701",
-      "next_action": "Verify responsive cards, publish backward-compatible Firebase rules and website, then check live.",
-      "blockers": [],
-      "refs": [
-        "UTP-DEC-2026101701"
-      ],
-      "evidence": [
-        "records/jhula-pattachitra-review-2026-10-17.json"
-      ],
-      "acceptance_criteria": "Both approved images as options19/20 with autosave stars, favourite selection and collapsed comments; prior18 options and stored responses retained; private owner-only Firebase access unchanged."
-    },
-    {
       "id": "UTP-WORK-296",
       "title": "Deepen Huluhuli language, technique and historical evidence",
       "category": "editorial_and_website",
@@ -8724,6 +8705,44 @@
       "acceptance_criteria": [
         "Every published baseline route classified; each article independently reviewed against approved standard with PR/test/deploy/live receipt; exclusions justified; future articles follow same rule."
       ]
+    },
+    {
+      "id": "UTP-WORK-2026101701",
+      "title": "Publish two Pattachitra Jhula choices",
+      "category": "website",
+      "status": "completed",
+      "readiness": "published",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current merchandise assistant",
+      "authorization": "UTP-DEC-2026101701",
+      "next_action": "Review the live Pattachitra choices.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-2026101701"
+      ],
+      "evidence": [
+        "records/jhula-pattachitra-review-2026-10-17.json"
+      ],
+      "acceptance_criteria": "Both approved images as options19/20 with autosave stars, favourite selection and collapsed comments; prior18 options and stored responses retained; private owner-only Firebase access unchanged."
+    },
+    {
+      "id": "UTP-WORK-2026101801",
+      "title": "Coherent Jhula story and collection overview",
+      "category": "website",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current merchandise assistant",
+      "authorization": "UTP-DEC-2026101801",
+      "next_action": "Finish responsive review, publish and verify live.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-2026101801"
+      ],
+      "evidence": [
+        "records/jhula-clarity-review-2026-10-18.json"
+      ],
+      "acceptance_criteria": "Clear product introduction;18 kits versus2 bag studies accurately stated;three collection jump links;no accumulated rollout wording;existing20 IDs, artwork and feedback behavior preserved."
     }
   ],
   "decisions": [
@@ -13548,6 +13567,25 @@
         "quote": "Keep updating the website from time to time. Instead of waiting till everything is done and then updating.",
         "application": "Publish each accepted article revision as it finishes, with checks and receipt; no whole-queue release gate."
       }
+    },
+    {
+      "id": "UTP-DEC-2026101801",
+      "title": "Refine the accumulated Jhula webpage",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Refind this with clarity - since we built it over time; Jhula webpage",
+      "scope": "Refine and publish coherent webpage wording and navigation while preserving all20 designs and voting.",
+      "recorded_at": "2026-10-18T01:15:09.029021+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-2026101801"
+      ],
+      "evidence": [
+        "records/jhula-clarity-review-2026-10-18.json"
+      ]
     }
   ],
   "requirements": [
@@ -20258,6 +20296,22 @@
         "Legacy tourism food/accommodation evidence and Ramsar report retrieval limits are stated in source notes.",
         "Formatting and attribution revision adds zero substantive500 items."
       ]
+    },
+    {
+      "id": "UTP-REV-2026101701",
+      "title": "Pattachitra options review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current merchandise assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-2026101701"
+      ],
+      "evidence": [
+        "records/jhula-pattachitra-review-2026-10-17.json"
+      ]
     }
   ],
   "releases": [
@@ -22922,6 +22976,20 @@
         "records/chilika-editorial-publication-2026-10-18.json"
       ],
       "note": "Exact reviewed PR300 head passed checks and merged; approved main workflow succeeded. Actual live article, source returns, retained image bytes and Konark regression verified. Thirteen editorial articles completed; substantive500 remains112."
+    },
+    {
+      "id": "UTP-REL-2026101701",
+      "title": "Two Pattachitra options published",
+      "status": "published",
+      "authorization": "UTP-DEC-2026101701",
+      "destination": "https://projectodisha.org/odia-poetry-jhula/#pattachitra-choices",
+      "refs": [
+        "UTP-WORK-2026101701",
+        "UTP-REV-2026101701"
+      ],
+      "evidence": [
+        "records/jhula-pattachitra-review-2026-10-17.json"
+      ]
     }
   ],
   "sources": [
