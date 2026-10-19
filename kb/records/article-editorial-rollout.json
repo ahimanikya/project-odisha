@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-18T23:11:17.686661+00:00",
+  "updated_at": "2026-10-19T00:08:16.267509+00:00",
   "authorization": "UTP-DEC-2026101702",
   "work_id": "UTP-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -1249,12 +1249,22 @@
       "id": "UTP-EDIT-033",
       "route": "/visit/stays/bhubaneswar/",
       "title": "Find your city base",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
+      "status": "in_progress",
+      "scope": "Individually revise Bhubaneswar stay-area guide: explain choosing a base from the shape of a visit, address/transfer tradeoffs, room access and arrival timing; Founder byline, visible sourced geography note, preserved documentary photograph and portable reading.",
+      "source_template": "projects/site/src/pages/visit/[kind]/[slug].astro",
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/bhubaneswar-stay-editorial-source-mapping-2026-10-19.json",
+        "records/bhubaneswar-stay-editorial-review-2026-10-19.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-10-19T00:05:05.018886+00:00",
+      "acceptance": [
+        "Three distinct search approaches remain advice, not property recommendations or verified transport times.",
+        "Actual tourism source supports only Janpath shopping/old-city contrast; original planning guidance distinguished in KB.",
+        "Retain all narrative and option details in downloadable reading with concise sources and photograph rights.",
+        "Verify desktop/mobile layout, exact footnote return, tests, reviewed PR, approved main deployment and actual live receipt before completion."
+      ]
     },
     {
       "id": "UTP-EDIT-034",

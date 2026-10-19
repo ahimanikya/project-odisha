@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 394. completed: 24, excluded: 9, queued: 361.
+Route inventory: 394. completed: 24, excluded: 9, in_progress: 1, queued: 360.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -46,7 +46,7 @@ Route inventory: 394. completed: 24, excluded: 9, queued: 361.
 | UTP-EDIT-030 | [Staying around Rajhans and Satapada](https://projectodisha.org/visit/stays/rajhans-satapada/) | completed | Rajhans and Satapada stay-area guide: distinguish an overnight stay from a boat excursion, verify published camp lead and explain arrival, return and room planning. Individual prose, sources, byline, regional image and portable reading. |
 | UTP-EDIT-031 | [Mukteswar](https://projectodisha.org/visit/places/mukteswar/) | completed | Mukteswar visitor article: explain gateway, hall and shrine as distinct forms, retain evidence limits for date and sculptural interpretation, connect present-day Odissi festival without assumed continuity. Individual language, byline, notes, two documentary images and portable reading. |
 | UTP-EDIT-032 | [A meal in Bhubaneswar](https://projectodisha.org/food/bhubaneswar/) | completed | Review the Bhubaneswar meal guide individually: explain dalma preparation, pakhala variation, chhena poda adaptation and Old Town korakhai; apply Founder byline, visible sources, natural reading and credited uncropped photograph. Preserve neighbouring authorship and search scope. |
-| UTP-EDIT-033 | [Find your city base](https://projectodisha.org/visit/stays/bhubaneswar/) | queued | classification_pending |
+| UTP-EDIT-033 | [Find your city base](https://projectodisha.org/visit/stays/bhubaneswar/) | in_progress | Individually revise Bhubaneswar stay-area guide: explain choosing a base from the shape of a visit, address/transfer tradeoffs, room access and arrival timing; Founder byline, visible sourced geography note, preserved documentary photograph and portable reading. |
 | UTP-EDIT-034 | [Bhubaneswar’s Painted Streets — Project Odisha](https://projectodisha.org/stories/bhubaneswar-fresco/) | queued | classification_pending |
 | UTP-EDIT-035 | [Cuttack: places, food &amp; living culture](https://projectodisha.org/destinations/cuttack/) | queued | classification_pending |
 | UTP-EDIT-036 | [Barabati Fort](https://projectodisha.org/visit/places/barabati/) | queued | classification_pending |
