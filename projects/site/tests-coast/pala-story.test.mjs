@@ -7,7 +7,8 @@ test('full Pala reader text and sources survive with collection return and hones
  for(const block of story.blocks) for(const p of [...block.paragraphs,...block.items]) assert.ok(html.includes(p.replaceAll('&','&amp;').replaceAll("'",'&#39;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;')),p);
  assert.ok(html.includes('href="/sounds-of-odisha/#pala"'));
  for(const s of story.sources)assert.ok(html.includes(s.resource));
- assert.ok(html.indexOf('A question: which poem')<html.indexOf('Confirm the occasion'));
+ assert.ok(html.indexOf('Before you go')<html.indexOf('What to listen for'));
+ assert.ok(html.includes('https://github.com/ahimanikya/project-odisha/blob/main/kb/research/people/pala-artists.md'));
  assert.ok(html.includes('CC BY-SA 3.0'));
  assert.ok(html.includes('By Ahimanikya Satapathy'));
  assert.ok(html.includes('Suggest an update'));
