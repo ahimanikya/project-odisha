@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `0405ea51a803651fc1e2bc2439f92c4ed577e56790efbda84d198295bf4b8cf2`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b6fe8e371c16fd86dcc92a26248d1b8f237aad559efb28983aa195c2165af32c`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -325,7 +325,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026101701 · Publish two Pattachitra Jhula choices | completed | published | Ahimanikya Satapathy | Review the live Pattachitra choices. | — |
 | POD-WORK-2026101901 · Activate separate editorial agents and durable handoffs | completed | applied | Ahimanikya Satapathy | Use saved team loop for subsequent article work; recreate task-scoped workers when needed. | — |
 | POD-WORK-2026101801 · Coherent Jhula story and collection overview | completed | published | Ahimanikya Satapathy | Review the refined live page. | — |
-| POD-WORK-2026101902 · Migrate Project Odisha identifiers to POD with traceable UTP aliases | in_progress | draft | Ahimanikya Satapathy | Review and test declared-prefix compatibility, current identity and future-ID guidance; merge after required checks. | — |
+| POD-WORK-2026101902 · Migrate Project Odisha identifiers to POD with traceable UTP aliases | completed | applied | Ahimanikya Satapathy | Use canonical POD IDs and exact historical aliases; migration integrated. | — |
 
 ## Pending human review and decisions
 
@@ -1166,7 +1166,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026101902 | 2026-10-19T00:16:54.031916+00:00 | Published Bhubaneswar stay guide through reviewed PR314 and approved main workflow. Verified live article, byline, one visible note with exact return, complete narrative/options and unchanged documentary photograph. POD-EDIT-033 complete; zero substantive500 increment. | — |
 | POD-EVT-2026101903 | 2026-10-19T01:10:28.961836+00:00 | Reviewed Bhubaneswar photographic archive: visible eight-image reading, Founder byline, preserved photographer and unknown-artist credits, updated cultural sources and12 visible notes. Full562/coast237 and responsive/keyboard gallery checks passed; publication pending. Zero substantive500 increment. | — |
 | POD-EVT-2026101904 | 2026-10-19T01:19:51.473774+00:00 | Published Bhubaneswar photographic archive through reviewed PR316 and approved main workflow. Verified live byline, visible eight-image reading,12 notes with13 exact returns and unchanged original photographs. POD-EDIT-034 complete; zero substantive500 increment. | — |
 | POD-EVT-2026101905 | 2026-10-19T02:08:33.602958+00:00 | Reviewed Cuttack destination: explains fort remains, wire structure and two museum evidence types; Founder byline, five visible sources, twelve exact returns, full-frame photographs and portable narrative. Full562/coast238 and responsive checks passed; publication pending. Zero substantive500 increment. | — |
@@ -1176,6 +1175,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261018102 | 2026-10-18T01:22:37.475240+00:00 | Published and verified coherent Jhula story, accurate kit scope and three collection groups;all20 design choices preserved. | — |
 | POD-EVT-20261019101 | 2026-10-19T04:23:34.609332+00:00 | Added the founder-requested Odia Poetry Jhula link to the shared site footer; publication pending. | — |
 | POD-EVT-2026101909 | 2026-10-19T04:10:43.416372+00:00 | Apply Founder-requested migration: canonical Project Odisha IDs and live references move from UTP to POD with suffixes preserved. Original changed files and ledgers archived byte-for-byte; exact aliases retain old-reference lookup. Tests and separate review pending. | — |
+| POD-EVT-2026101910 | 2026-10-19T04:37:28.234946+00:00 | Integrated full UTP-to-POD migration after separateAI review and passing requiredchecks.3705 exactaliases preserve historicalreferences; originalfiles archived. Continuing-work automation updated. No programmecredit. | — |
 
 ## Deferred extensions
 
