@@ -1154,3 +1154,7 @@ Saved article and supporting study imported as research-only; profile adds print
 ## POD-HIS-2026101901 · Project code follows the name
 
 The Founder requested a three-letter code matching Project Odisha. POD is adopted for current identity; the Founder subsequently requested migration of existing IDs too. Canonical identifiers and live references move to POD with suffixes preserved. Exact aliases and a checksummed archive retain the original references and evidence. This is the same operating project, not a new organization or authority grant. [Implementation and review record](../records/project-code-pod-2026-10-19.json).
+
+## POD-HIS-WALKS-DESIGN-20261019 · Heritage guide joins the site design
+
+The Founder requested removal of the site-within-site appearance. The guide now uses the shared page width, typography, colours, buttons and cards, with a simple Things to do breadcrumb. The finder follows a shorter introduction; downloads sit below planning. Catalogue and interaction script remain unchanged. Separate AI source review and browser checks are recorded; publication remains pending in the [delivery record](../records/heritage-walks-design-integration-20261019.json). No substantive programme credit.
