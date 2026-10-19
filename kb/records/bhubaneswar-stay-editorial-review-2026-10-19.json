@@ -1,0 +1,51 @@
+{
+  "recorded_at": "2026-10-19T00:08:16.267509+00:00",
+  "work_id": "UTP-WORK-302",
+  "queue_item": "UTP-EDIT-033",
+  "authorization": [
+    "UTP-DEC-2026101702",
+    "UTP-DEC-225"
+  ],
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "status": "pass_with_limitations",
+  "scope": [
+    "Bhubaneswar stay-area comparison and room/arrival planning",
+    "Founder byline, visible source note, exact return and portable reading"
+  ],
+  "reader_gain": "Explains why a base depends on the actual visit, including return trips, after-midnight dates and the route to the specific room, rather than neighbourhood names or ratings alone.",
+  "checks": {
+    "full_site_tests": 561,
+    "coastal_tests": 236,
+    "sources": 1,
+    "reference_links": 1,
+    "return_links": 1,
+    "desktop": "1280x900 cover, reading and notes inspected;740px reading column and no horizontal overflow.",
+    "mobile": "390x844 verified viewport; full-frame photograph, reading and notes inspected without horizontal overflow.",
+    "keyboard": "Source marker and exact return activated with Enter on desktop/mobile; hash and focus verified.",
+    "portable": "Every section, paragraph and option fit/transport/check preserved in HTML and text reading; concise source link and personal note retained.",
+    "media": "Unchanged Bikashrd image and rights; honest non-accommodation caption.",
+    "source_review": "Actual Odisha Tourism City life page inspected; narrow claim group mapped, editorial guidance distinguished.",
+    "regression": "Full561/coast236 pass; pending assertions now retain unreviewed Barabati, not the newly reviewed stay guide."
+  },
+  "evidence": [
+    "records/bhubaneswar-stay-editorial-source-mapping-2026-10-19.json"
+  ],
+  "screenshots": [
+    "/tmp/bstay-desktop-cover.png",
+    "/tmp/bstay-desktop-reading.png",
+    "/tmp/bstay-desktop-notes.png",
+    "/tmp/bstay-mobile-cover.png",
+    "/tmp/bstay-mobile-reading.png",
+    "/tmp/bstay-mobile-notes.png"
+  ],
+  "limitations": [
+    "Same-assistant review, not independent human or specialist review.",
+    "No accommodation inspection, verified transfer time, room availability or provider confirmation.",
+    "Browser emulation, not physical-device or screen-reader testing.",
+    "Zero substantive500 increment."
+  ]
+}
