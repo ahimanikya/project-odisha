@@ -6,7 +6,7 @@
     "UTP-DEC-2026101901",
     "Direct Founder: Let us fix and publish; authorship by Ahimanikya Satapathy confirmed"
   ],
-  "status": "in_progress",
+  "status": "ready_for_required_CI_and_publication",
   "input_head": "3e78e2efec7c1a3ef01858be208c378b20636d81",
   "scope": [
     "Six documented artist introductions with women prominent",
@@ -82,12 +82,59 @@
     },
     {
       "role": "Drishti",
-      "runtime": "pending_spawn",
-      "status": "waiting_integration",
+      "runtime": "/root/drishti_pala_reader_review",
+      "status": "handoff_received",
       "reserved_write_paths": [],
-      "task": "Separate integrated candidate review"
+      "task": "Separate integrated candidate review",
+      "input_head": "f4a8af4a4138509c3b6058bfd9312a558ff4a6a0",
+      "result": "PASS with limits; no blocking findings",
+      "reviewed_content_head": "f4a8af4a4138509c3b6058bfd9312a558ff4a6a0",
+      "checks": [
+        "Six artists and dated women repertoire supported",
+        "Source/MD/archive/photo consistency",
+        "Authorship and creator credits intact",
+        "Visitor advice and non-claim limits intact",
+        "Existing three coastal files independently tested11/11PASS"
+      ],
+      "limitations": [
+        "Separate read-only AI review, not human or practitioner review",
+        "Saved evidence; no fresh sources, browser or live deployment checked by reviewer"
+      ]
     }
   ],
   "substantive_items_added": 0,
-  "human_review_claimed": false
+  "human_review_claimed": false,
+  "coordinator_verification": {
+    "core": "PASS",
+    "research_map": "PASS",
+    "classification": "PASS",
+    "bundle": "PASS",
+    "programme": "PASS; zero increment",
+    "team": "PASS",
+    "workbench": "PASS",
+    "coast_build": "PASS407full/394coast",
+    "targeted_site_checks": "11/11PASS",
+    "responsive": {
+      "desktop": {
+        "viewport": 1280,
+        "article_width": 740,
+        "line_height_px": 33.152,
+        "overflow": false
+      },
+      "mobile": {
+        "viewport": 390,
+        "document_width": 390,
+        "overflow": false
+      }
+    },
+    "controls": {
+      "footnote": "Raghunath note and return round trip passed",
+      "reading": "Collapsed default; Enter opens/closes",
+      "sources": "Expanded",
+      "suggest_update": "Visible outside disclosure"
+    },
+    "authorship": "By Ahimanikya Satapathy",
+    "image": "Existing documentary photo/credit/licence unchanged"
+  },
+  "updated_at": "2026-10-19T04:11:40.313873+00:00"
 }
