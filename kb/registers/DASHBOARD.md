@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b75dc10d9edf03a3f9e4567cbc4898d32a38ade88da7f6a30488ccfdb68d039d`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `9eb8d95e681aac13f0aa89c4b726f3ad48c378e529e47aae7e066710ce220ee2`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -321,7 +321,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-299 · Deepen Dalkhai song, occasion and stage context | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, song-language review and recovered source PDFs remain open for future research. | — |
 | UTP-WORK-300 · Deepen Pala literary performance, forms and repertoire | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/Odia review and manuscript evidence remain open for future research. | — |
 | UTP-WORK-301 · Deepen Dhemsa community, movement and occasion | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/language review and field evidence remain open for future research. | — |
-| UTP-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Continue next eligible queued article using team operations and actual ownership reconciliation;28 editorial entries complete. | — |
+| UTP-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Revise Barabati UTP-EDIT-036 using separate team research and implementation; preserve one article claim through receipt. | — |
 | UTP-WORK-2026101701 · Publish two Pattachitra Jhula choices | completed | published | Ahimanikya Satapathy | Review the live Pattachitra choices. | — |
 | UTP-WORK-2026101801 · Coherent Jhula story and collection overview | in_progress | reviewed | Ahimanikya Satapathy | Finish responsive review, publish and verify live. | — |
 | UTP-WORK-2026101901 · Activate separate editorial agents and durable handoffs | completed | applied | Ahimanikya Satapathy | Use saved team loop for subsequent article work; recreate task-scoped workers when needed. | — |
@@ -939,6 +939,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-297 | pass_with_limitations | False | Same-assistant review, not independent human or specialist review.; No artist, workshop, ritual purpose, exact street or present condition confirmed.; Original recollections and 2009 dates preserved; later cultural sources are context, not commission evidence.; Zero substantive500 increment.; Browser emulation, not physical-device or screen-reader testing.; Visual reinspection covers eight featured photographs; remaining original archive views retained, not newly identified. |
 | UTP-REV-298 | pass_with_limitations | False | Same-assistant editorial review; no independent human or specialist review.; No maker, venue, vendor or step-free route contacted or inspected.; No ancient ship construction inferred from Jobra industrial exhibits.; District and museum current direct retrieval failed; reused dated evidence and indexed institution text explicitly recorded.; No search eligibility change; no substantive500 increment.; Responsive browser emulation, not physical-device or screen-reader testing. |
 | UTP-REV-299 | pass_with_limitations | True | No human review, field confirmation or physical print test.; Inspected saved screenshots; deployment/live check pending coordinator. |
+| UTP-REV-300 | pass_with_limitations | True | Separate AI review, no human/archaeologist review.; Saved screenshots inspected, no new interactive, physical-device, print or live checks.; Full565/coast240 tests are Samanta execution evidence.; District source relies on recorded indexed evidence. |
 
 ## Publication and application history
 
