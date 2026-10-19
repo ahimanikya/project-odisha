@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `1a0274ae4b8bbacfe76b969a1f6e56fca0169f51affba7843444efe774ab84f4`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `89f9c58ddc44716a9748bbec5ba6880e35637bff1a63224be93ec3900f8ecafc`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -1164,7 +1164,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101901 | 2026-10-19T00:08:16.267509+00:00 | Reviewed Bhubaneswar stay guide with sourced city context, clearer address/arrival/room comparisons and retained documentary photograph. Full561/coast236 and desktop/mobile keyboard checks passed; publication pending. Zero substantive500 increment. | — |
 | UTP-EVT-2026101902 | 2026-10-19T00:16:54.031916+00:00 | Published Bhubaneswar stay guide through reviewed PR314 and approved main workflow. Verified live article, byline, one visible note with exact return, complete narrative/options and unchanged documentary photograph. UTP-EDIT-033 complete; zero substantive500 increment. | — |
 | UTP-EVT-2026101903 | 2026-10-19T01:10:28.961836+00:00 | Reviewed Bhubaneswar photographic archive: visible eight-image reading, Founder byline, preserved photographer and unknown-artist credits, updated cultural sources and12 visible notes. Full562/coast237 and responsive/keyboard gallery checks passed; publication pending. Zero substantive500 increment. | — |
 | UTP-EVT-2026101904 | 2026-10-19T01:19:51.473774+00:00 | Published Bhubaneswar photographic archive through reviewed PR316 and approved main workflow. Verified live byline, visible eight-image reading,12 notes with13 exact returns and unchanged original photographs. UTP-EDIT-034 complete; zero substantive500 increment. | — |
@@ -1174,6 +1173,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101908 | 2026-10-19T03:54:24.271244+00:00 | Collaborating team delivered Barabati through separately reviewed PR324 and approved main workflow. Live4 exact reference returns,2 source notes, original credited photograph and responsive reading verified;29 editorial entries complete, zero substantive500 increment. | — |
 | UTP-EVT-20261018102 | 2026-10-18T01:22:37.475240+00:00 | Published and verified coherent Jhula story, accurate kit scope and three collection groups;all20 design choices preserved. | — |
 | UTP-EVT-20261019101 | 2026-10-19T04:23:34.609332+00:00 | Added the founder-requested Odia Poetry Jhula link to the shared site footer; publication pending. | — |
+| UTP-EVT-20261019102 | 2026-10-19T04:31:07.232980+00:00 | Published and browser-verified the shared footer link to Odia Poetry Jhula via PR 332. | — |
 
 ## Deferred extensions
 
