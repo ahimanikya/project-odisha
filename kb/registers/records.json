@@ -8770,25 +8770,6 @@
       "acceptance_criteria": "Both approved images as options19/20 with autosave stars, favourite selection and collapsed comments; prior18 options and stored responses retained; private owner-only Firebase access unchanged."
     },
     {
-      "id": "POD-WORK-2026101801",
-      "title": "Coherent Jhula story and collection overview",
-      "category": "website",
-      "status": "in_progress",
-      "readiness": "reviewed",
-      "human_owner": "Ahimanikya Satapathy",
-      "execution_owner": "Current merchandise assistant",
-      "authorization": "POD-DEC-2026101801",
-      "next_action": "Finish responsive review, publish and verify live.",
-      "blockers": [],
-      "refs": [
-        "POD-DEC-2026101801"
-      ],
-      "evidence": [
-        "records/jhula-clarity-review-2026-10-18.json"
-      ],
-      "acceptance_criteria": "Clear product introduction;18 kits versus2 bag studies accurately stated;three collection jump links;no accumulated rollout wording;existing20 IDs, artwork and feedback behavior preserved."
-    },
-    {
       "id": "POD-WORK-2026101901",
       "title": "Activate separate editorial agents and durable handoffs",
       "category": "governance",
@@ -8811,6 +8792,25 @@
         "records/cuttack-editorial-publication-2026-10-19.json"
       ],
       "acceptance_criteria": "Four explicitly assigned roles; actual separate specialist executions; honest runtime history; one writer and article claim; no changed privileges; durable handoffs and existing automation updated; checked and merged records. Not a substantive500 delivery."
+    },
+    {
+      "id": "POD-WORK-2026101801",
+      "title": "Coherent Jhula story and collection overview",
+      "category": "website",
+      "status": "completed",
+      "readiness": "published",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current merchandise assistant",
+      "authorization": "POD-DEC-2026101801",
+      "next_action": "Review the refined live page.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026101801"
+      ],
+      "evidence": [
+        "records/jhula-clarity-review-2026-10-18.json"
+      ],
+      "acceptance_criteria": "Clear product introduction;18 kits versus2 bag studies accurately stated;three collection jump links;no accumulated rollout wording;existing20 IDs, artwork and feedback behavior preserved."
     },
     {
       "id": "POD-WORK-2026101902",
@@ -13654,25 +13654,6 @@
       }
     },
     {
-      "id": "POD-DEC-2026101801",
-      "title": "Refine the accumulated Jhula webpage",
-      "status": "approved",
-      "actor": {
-        "kind": "human",
-        "name": "Ahimanikya Satapathy"
-      },
-      "quote": "Refind this with clarity - since we built it over time; Jhula webpage",
-      "scope": "Refine and publish coherent webpage wording and navigation while preserving all20 designs and voting.",
-      "recorded_at": "2026-10-18T01:15:09.029021+00:00",
-      "occurred_at": null,
-      "refs": [
-        "POD-WORK-2026101801"
-      ],
-      "evidence": [
-        "records/jhula-clarity-review-2026-10-18.json"
-      ]
-    },
-    {
       "id": "POD-DEC-2026101901",
       "title": "Activate the UTP editorial team as separate collaborating agents",
       "status": "approved",
@@ -13692,6 +13673,25 @@
       "evidence": [
         "team/operations.json",
         "records/team-activation-2026-10-19.json"
+      ]
+    },
+    {
+      "id": "POD-DEC-2026101801",
+      "title": "Refine the accumulated Jhula webpage",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Refind this with clarity - since we built it over time; Jhula webpage",
+      "scope": "Refine and publish coherent webpage wording and navigation while preserving all20 designs and voting.",
+      "recorded_at": "2026-10-18T01:15:09.029021+00:00",
+      "occurred_at": null,
+      "refs": [
+        "POD-WORK-2026101801"
+      ],
+      "evidence": [
+        "records/jhula-clarity-review-2026-10-18.json"
       ]
     },
     {
@@ -20857,6 +20857,22 @@
         "Full565/coast240 tests are Samanta execution evidence.",
         "District source relies on recorded indexed evidence."
       ]
+    },
+    {
+      "id": "POD-REV-2026101801",
+      "title": "Jhula clarity review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current merchandise assistant"
+      },
+      "independent": false,
+      "refs": [
+        "POD-WORK-2026101801"
+      ],
+      "evidence": [
+        "records/jhula-clarity-review-2026-10-18.json"
+      ]
     }
   ],
   "releases": [
@@ -23793,6 +23809,20 @@
         "records/barabati-editorial-team-2026-10-19.json"
       ],
       "note": "Reviewed PR324 head passed required checks, merged and published through approved main workflow. Live sources, credited photograph, responsive reading and unchanged search policy verified;29 editorial entries complete; zero substantive500 increment."
+    },
+    {
+      "id": "POD-REL-2026101801",
+      "title": "Refined Jhula page published",
+      "status": "published",
+      "authorization": "POD-DEC-2026101801",
+      "destination": "https://projectodisha.org/odia-poetry-jhula/",
+      "refs": [
+        "POD-WORK-2026101801",
+        "POD-REV-2026101801"
+      ],
+      "evidence": [
+        "records/jhula-clarity-review-2026-10-18.json"
+      ]
     }
   ],
   "sources": [

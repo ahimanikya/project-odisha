@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `6207fb088fc80f6a551b72f5fb437d0e7f7e8ab1ec70500e6baf0cbfca42d4c7`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `0405ea51a803651fc1e2bc2439f92c4ed577e56790efbda84d198295bf4b8cf2`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -323,8 +323,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-301 · Deepen Dhemsa community, movement and occasion | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/language review and field evidence remain open for future research. | — |
 | POD-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Continue next eligible queued article using team operations and actual ownership reconciliation;29 editorial entries complete. | — |
 | POD-WORK-2026101701 · Publish two Pattachitra Jhula choices | completed | published | Ahimanikya Satapathy | Review the live Pattachitra choices. | — |
-| POD-WORK-2026101801 · Coherent Jhula story and collection overview | in_progress | reviewed | Ahimanikya Satapathy | Finish responsive review, publish and verify live. | — |
 | POD-WORK-2026101901 · Activate separate editorial agents and durable handoffs | completed | applied | Ahimanikya Satapathy | Use saved team loop for subsequent article work; recreate task-scoped workers when needed. | — |
+| POD-WORK-2026101801 · Coherent Jhula story and collection overview | completed | published | Ahimanikya Satapathy | Review the refined live page. | — |
 | POD-WORK-2026101902 · Migrate Project Odisha identifiers to POD with traceable UTP aliases | in_progress | draft | Ahimanikya Satapathy | Review and test declared-prefix compatibility, current identity and future-ID guidance; merge after required checks. | — |
 
 ## Pending human review and decisions
@@ -627,8 +627,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-2026101509 · Correct Jhula spacing and alignment | approved | Ahimanikya Satapathy | Fix and publish consistent spacing, card alignment, responsive star controls and form layout on the existing page. |
 | POD-DEC-2026101701 · Add both Pattachitra Jhula options | approved | Ahimanikya Satapathy | Publish both reviewed Pattachitra-inspired designs as additional voting options, retaining previous choices and response behavior. |
 | POD-DEC-2026101702 · Apply Founder authorship and Human Natural article standard sequentially | approved | Ahimanikya Satapathy | Applies the preceding agreed article authorship, visible footnotes, Ahimanikya and Sashisena reference formatting, Human Natural language and illustration direction to existing and future articles; updates existing heartbeat, preserves contributor credit and historical evidence. Publishing remains under POD-DEC-225. |
-| POD-DEC-2026101801 · Refine the accumulated Jhula webpage | approved | Ahimanikya Satapathy | Refine and publish coherent webpage wording and navigation while preserving all20 designs and voting. |
 | POD-DEC-2026101901 · Activate the UTP editorial team as separate collaborating agents | approved | Ahimanikya Satapathy | Activate these four existing UTP personas for the already authorized article rollout and substantive programme; one article at a time, separate specialist executions, one coordinator writes shared records and publishes under existing authorization. No new account access, outreach, spending, human appointments or held-project activation. |
+| POD-DEC-2026101801 · Refine the accumulated Jhula webpage | approved | Ahimanikya Satapathy | Refine and publish coherent webpage wording and navigation while preserving all20 designs and voting. |
 | POD-DEC-2026101902 · Align current project code with Project Odisha | recorded_direction | Ahimanikya Satapathy | Change the current project code and migrate existing IDs, as requested by the Founder. POD is the coordinator-selected abbreviation; preserve suffixes, original evidence and exact old-to-new lookup aliases. No other project, permission or website domain changes. |
 
 ## Reviews
@@ -942,6 +942,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-298 | pass_with_limitations | False | Same-assistant editorial review; no independent human or specialist review.; No maker, venue, vendor or step-free route contacted or inspected.; No ancient ship construction inferred from Jobra industrial exhibits.; District and museum current direct retrieval failed; reused dated evidence and indexed institution text explicitly recorded.; No search eligibility change; no substantive500 increment.; Responsive browser emulation, not physical-device or screen-reader testing. |
 | POD-REV-299 | pass_with_limitations | True | No human review, field confirmation or physical print test.; Inspected saved screenshots; deployment/live check pending coordinator. |
 | POD-REV-300 | pass_with_limitations | True | Separate AI review, no human/archaeologist review.; Saved screenshots inspected, no new interactive, physical-device, print or live checks.; Full565/coast240 tests are Samanta execution evidence.; District source relies on recorded indexed evidence. |
+| POD-REV-2026101801 | pass | False | — |
 
 ## Publication and application history
 
@@ -1127,6 +1128,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-168 · Bhubaneswar painted streets: photographic reading and visible sources | published | https://projectodisha.org/stories/bhubaneswar-fresco/ | POD-DEC-225 |
 | POD-REL-169 · Cuttack reading and first collaborating-team delivery | published | https://projectodisha.org/destinations/cuttack/ | POD-DEC-225 |
 | POD-REL-170 · Barabati remains, excavation evidence and visible sources | published | https://projectodisha.org/visit/places/barabati/ | POD-DEC-225 |
+| POD-REL-2026101801 · Refined Jhula page published | published | https://projectodisha.org/odia-poetry-jhula/ | POD-DEC-2026101801 |
 
 ## Sources and assets
 
@@ -1164,8 +1166,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026101824 | 2026-10-18T23:11:17.686661+00:00 | Published Bhubaneswar meal guide through reviewed PR313 and approved main workflow. Verified live narrative, Founder byline, five visible notes with six exact returns and unchanged credited Puri photograph. POD-EDIT-032 complete; zero substantive500 increment. | — |
-| POD-EVT-2026101901 | 2026-10-19T00:08:16.267509+00:00 | Reviewed Bhubaneswar stay guide with sourced city context, clearer address/arrival/room comparisons and retained documentary photograph. Full561/coast236 and desktop/mobile keyboard checks passed; publication pending. Zero substantive500 increment. | — |
 | POD-EVT-2026101902 | 2026-10-19T00:16:54.031916+00:00 | Published Bhubaneswar stay guide through reviewed PR314 and approved main workflow. Verified live article, byline, one visible note with exact return, complete narrative/options and unchanged documentary photograph. POD-EDIT-033 complete; zero substantive500 increment. | — |
 | POD-EVT-2026101903 | 2026-10-19T01:10:28.961836+00:00 | Reviewed Bhubaneswar photographic archive: visible eight-image reading, Founder byline, preserved photographer and unknown-artist credits, updated cultural sources and12 visible notes. Full562/coast237 and responsive/keyboard gallery checks passed; publication pending. Zero substantive500 increment. | — |
 | POD-EVT-2026101904 | 2026-10-19T01:19:51.473774+00:00 | Published Bhubaneswar photographic archive through reviewed PR316 and approved main workflow. Verified live byline, visible eight-image reading,12 notes with13 exact returns and unchanged original photographs. POD-EDIT-034 complete; zero substantive500 increment. | — |
@@ -1173,6 +1173,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026101906 | 2026-10-19T03:04:14.909027+00:00 | Founder authorized separate UTP agents; first Anvesha and Samanta handoffs found source-ID and downloadable-attribution corrections. Scoped team operations recorded; quality review and release pending. Zero substantive500 increment. | — |
 | POD-EVT-2026101907 | 2026-10-19T03:19:05.925344+00:00 | Activated actual separate UTP team and delivered Cuttack through reviewed PR319 and approved main workflow. Live12 reference returns,5 source notes, credited original images and responsive behavior verified;28 editorial entries complete, zero substantive500 increment. | — |
 | POD-EVT-2026101908 | 2026-10-19T03:54:24.271244+00:00 | Collaborating team delivered Barabati through separately reviewed PR324 and approved main workflow. Live4 exact reference returns,2 source notes, original credited photograph and responsive reading verified;29 editorial entries complete, zero substantive500 increment. | — |
+| POD-EVT-20261018102 | 2026-10-18T01:22:37.475240+00:00 | Published and verified coherent Jhula story, accurate kit scope and three collection groups;all20 design choices preserved. | — |
+| POD-EVT-20261019101 | 2026-10-19T04:23:34.609332+00:00 | Added the founder-requested Odia Poetry Jhula link to the shared site footer; publication pending. | — |
 | POD-EVT-2026101909 | 2026-10-19T04:10:43.416372+00:00 | Apply Founder-requested migration: canonical Project Odisha IDs and live references move from UTP to POD with suffixes preserved. Original changed files and ledgers archived byte-for-byte; exact aliases retain old-reference lookup. Tests and separate review pending. | — |
 
 ## Deferred extensions
