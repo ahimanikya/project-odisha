@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-19",
+  "route": "/sounds-of-odisha/pala/",
+  "request": "Enhance Pala and apply the new article format; retain collapsed reading and visible update suggestion.",
+  "scope": "UTP-EDIT-144, user-selected article. No other article revised; shared editorial guidance extended.",
+  "review_kind": "Same-assistant editorial and source-mapping check; no human specialist review claimed.",
+  "evidence_basis": [
+    "research/sources/pala-sounds-story-research.md",
+    "records/pala-editorial-source-mapping-2026-10-19.json",
+    "records/article-reading-and-updates-2026-10-19.json"
+  ],
+  "checks": {
+    "authorship": true,
+    "language": true,
+    "formatting": true,
+    "footnotes": true,
+    "images": true,
+    "kb_alignment": true,
+    "responsive": true
+  },
+  "validation": {
+    "full_build": "PASS, 407 pages",
+    "site_tests": "562 passed",
+    "coast_build": "PASS, 394 pages",
+    "coast_tests": "237 passed",
+    "publication_build": "PASS, limited mode; Pala remains noindex",
+    "research_validation": "PASS",
+    "bundle_validation": "PASS",
+    "autonomous_program_consistency": "PASS; no progress increment",
+    "rollout_validation": "PASS"
+  },
+  "responsive_observations": {
+    "desktop": {
+      "viewport": 1280,
+      "article_width": 740,
+      "line_height_px": 33.152,
+      "paragraph_margin_px": 22.4
+    },
+    "mobile": {
+      "viewport": 390,
+      "horizontal_overflow": false,
+      "reading_default": "collapsed",
+      "keyboard_toggle": "tested open and closed",
+      "suggest_update": "outside disclosure",
+      "footnote_round_trip": "CM report marker to note and back verified"
+    }
+  },
+  "photo": {
+    "decision": "Existing documentary photograph retained without modification",
+    "sha256": "8a0fc3f16e7091b1f0169f6a10992315ce8efab2bbc3cc5e953f8e802f21ef35",
+    "credit": "Subhashish Panigrahi, Nalconagar 2013, CC BY-SA 3.0"
+  },
+  "changed_files": [
+    "kb/log.md",
+    "kb/records/article-editorial-rollout.json",
+    "kb/records/article-editorial-work-list.md",
+    "kb/records/article-reading-and-updates-2026-10-19.json",
+    "kb/records/pala-editorial-review-2026-10-19.json",
+    "kb/records/pala-editorial-source-mapping-2026-10-19.json",
+    "kb/reference/article-editorial-standard.md",
+    "kb/research/culture/pala-website.json",
+    "kb/research/culture/pala.md",
+    "kb/research/search-index.json",
+    "projects/site/src/pages/sounds-of-odisha/pala.astro",
+    "projects/site/tests-coast/core-sound-navigation.test.mjs",
+    "projects/site/tests-coast/core-sound-source-links.test.mjs",
+    "projects/site/tests-coast/pala-editorial.test.mjs",
+    "projects/site/tests-coast/pala-story.test.mjs"
+  ],
+  "publication_status": "pending_PR_CI_and_verified_main_deployment"
+}

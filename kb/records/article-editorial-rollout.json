@@ -2512,11 +2512,23 @@
       "id": "UTP-EDIT-144",
       "route": "/sounds-of-odisha/pala/",
       "title": "Pala: poetry with people around it",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "in_progress",
+      "scope": "User-selected Pala narrative enhancement and 17 October article standard; 19 October collapsed reading paths and visible update action.",
       "source_template": "projects/site/src/pages/sounds-of-odisha/pala.astro",
-      "checks": {},
-      "evidence": [],
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/pala-editorial-source-mapping-2026-10-19.json",
+        "records/pala-editorial-review-2026-10-19.json",
+        "records/article-reading-and-updates-2026-10-19.json"
+      ],
       "blocker": null
     },
     {
