@@ -52,15 +52,15 @@ Keep prior entries intact. If an entry itself needs correction, append a dated c
 
 ## 30 September 2026 UTC · Twenty-item implementation batch
 
-Founder accepted the local visual baseline and requested sequential delivery of twenty next items (UTP-DEC-049). [The bounded batch](next-twenty.md) extends existing destination, language, literature, discovery and tour-book requirements. No retroactive change to the preserved PRD baseline or claim of scholarly/publication approval. All twenty are implemented locally; source, behaviour and review evidence are linked from the batch.
+Founder accepted the local visual baseline and requested sequential delivery of twenty next items (POD-DEC-049). [The bounded batch](next-twenty.md) extends existing destination, language, literature, discovery and tour-book requirements. No retroactive change to the preserved PRD baseline or claim of scholarly/publication approval. All twenty are implemented locally; source, behaviour and review evidence are linked from the batch.
 
 ## 30 September 2026 UTC · Connect discovery to personal planning
 
-UTP-DEC-050 records continuation authority. [Five locally implemented improvements](discovery-connections.md) extend existing discovery and journey requirements without changing the preserved PRD baseline. Real-photo entry points, Odia city aliases and separate editable starters turn the growing collection into connected visitor paths. No new service cost or publication.
+POD-DEC-050 records continuation authority. [Five locally implemented improvements](discovery-connections.md) extend existing discovery and journey requirements without changing the preserved PRD baseline. Real-photo entry points, Odia city aliases and separate editable starters turn the growing collection into connected visitor paths. No new service cost or publication.
 
 ## 30 September 2026 UTC · Visitor planning and inner-page foundations
 
-UTP-DEC-051 records continuation and the Founder’s unresolved layout concern. [This batch](visitor-planning-batch.md) adds collection entry points and per-journey checklists within existing discovery/tour-book scope. It corrects specific layout issues and keeps broader refinement open. No change to the frozen PRD baseline, publication state or service cost.
+POD-DEC-051 records continuation and the Founder’s unresolved layout concern. [This batch](visitor-planning-batch.md) adds collection entry points and per-journey checklists within existing discovery/tour-book scope. It corrects specific layout issues and keeps broader refinement open. No change to the frozen PRD baseline, publication state or service cost.
 
 ## 30 September 2026 — v0.2.0: broader subject coverage
 

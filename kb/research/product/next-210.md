@@ -31,7 +31,7 @@ Day titles and notes are private writing. Turning off personal notes omits them,
 
 Current code accepts older v1 journeys and v2 collections unchanged and preserves optional `dayNotes` in current backups, duplication and library validation. The optional metadata extension does not create accounts, automatic sync or a new storage service. Earlier client versions can discard fields they do not understand: use the current site when importing a new backup. This limitation is stated in the usage guide and [day-note model](../../models/day-notes.md).
 
-This increment develops UTP-TB-003 through 008 locally. HTML/text export and note privacy have automated and browser evidence; **native PDF pagination is still UTP-WORK-080**. No map, live route optimization, reservation or inspected property is implied. Store, wider content clearance, AI chat, Firebase and analytics remain separately scoped.
+This increment develops POD-TB-003 through 008 locally. HTML/text export and note privacy have automated and browser evidence; **native PDF pagination is still POD-WORK-080**. No map, live route optimization, reservation or inspected property is implied. Store, wider content clearance, AI chat, Firebase and analytics remain separately scoped.
 
 ## What was checked
 

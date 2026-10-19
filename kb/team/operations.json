@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "project": "UTP",
+  "project": "POD",
   "status": "active",
-  "authorization": "UTP-DEC-2026101901",
+  "authorization": "POD-DEC-2026101901",
   "human_authority": "Ahimanikya Satapathy",
   "coordinator": "Disha",
   "shared_writer": "Disha",
@@ -45,7 +45,8 @@
     "Spawn/reuse Drishti to review the integrated head separately from authors/implementers. Resolve blocking findings and recheck affected work. A separate AI review is never recorded as a human or specialist review.",
     "Coordinator checks required PR checks, exact reviewed head, current remote ownership and existing publication jobs; merge and publish only under existing Founder authorization. Save actual live checks and receipt before completing the article.",
     "Retain the article claim through receipt integration. Release the claim and choose the next eligible article only after this. Zero substantive500 credit for setup, formatting, tests or process work.",
-    "On wake/restart reconcile handoff with actual Git, queue, PR and deployment state. Recreate missing subagents under this assignment; do not claim old runtime IDs are still active. If unavailable, record that limitation and do not label one-assistant role passes independent review."
+    "On wake/restart reconcile handoff with actual Git, queue, PR and deployment state. Recreate missing subagents under this assignment; do not claim old runtime IDs are still active. If unavailable, record that limitation and do not label one-assistant role passes independent review.",
+    "Read AGENTS.md, current team assignments/operations, editorial standard, rollout, current registers and latest handoff. Inspect working tree, remote queue and open PRs before claiming work. Use canonical POD identifiers for existing and new records; resolve old UTP references through the exact identifier map. Preserve original evidence."
   ],
   "boundaries": [
     "No human reports to AI; Founder remains sole human final authority.",
@@ -54,7 +55,7 @@
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
   "current_article": {
-    "id": "UTP-EDIT-144",
+    "id": "POD-EDIT-144",
     "route": "/sounds-of-odisha/pala/",
     "owner": "Disha",
     "coordinator_runtime": "/root",
@@ -67,5 +68,6 @@
     "pull_request": "https://github.com/ahimanikya/project-odisha/pull/329",
     "publication_receipt": "records/pala-reader-revision-publication-2026-10-19.json",
     "release_note": "Pala reader revision published and verified. Receipt integrated locally for records-only review; retain article claim until that receipt merges."
-  }
+  },
+  "project_identity": "reference/project-identity.md"
 }

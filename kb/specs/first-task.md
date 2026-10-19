@@ -5,7 +5,7 @@ title: "First practice task — an encyclopedia entry and local preview"
 
 # First practice task — an encyclopedia entry and local preview
 
-**UTP-WORK-001 · Proposed bounded task · For final approval**
+**POD-WORK-001 · Proposed bounded task · For final approval**
 
 ## Proposed subject and outcome
 

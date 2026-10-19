@@ -6,7 +6,7 @@ status: "draft"
 
 # What a tourism trial taught us
 
-**Version 0.1 · Prepared 10 October 2026 · UTP-WORK-215.** A useful trial should tell us what worked for the visitor, what it asked of the host, and what must change before another visit. Attendance, spending and attractive photographs cannot answer those questions on their own.
+**Version 0.1 · Prepared 10 October 2026 · POD-WORK-215.** A useful trial should tell us what worked for the visitor, what it asked of the host, and what must change before another visit. Attendance, spending and attractive photographs cannot answer those questions on their own.
 
 This is a blank preparation pack. No trial, respondent, baseline, payment or government response is recorded here. It makes the measures already proposed in the [tourism pilot](../tourism-experience-pilot.md) and [Boita discussion framework](../boita-tourism-discussion-framework.md) usable at a later, authorized trial. WORK172 and WORK175 remain open. The [operator readiness pack](operator-readiness.md) governs preparation for the actual trial decision; this document does not authorize one.
 

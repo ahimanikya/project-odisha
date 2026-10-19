@@ -47,7 +47,7 @@ The existing narrative is adapted into `mardala-website.json` and an individual 
 
 ## Rhythm, learning and creative practice · 17 October 2026
 
-**Central question:** what does a Mardala player learn and contribute beyond keeping a beat? UTP-A500-109 / UTP-WORK-298; same-assistant desk research, no observed lesson, audio audition, outreach or independent human review. Existing research map, Mardala dossier, Odissi music credits and saved vocal syllabus searched first. The vocal syllabus was not mislabelled as a Mardala curriculum.
+**Central question:** what does a Mardala player learn and contribute beyond keeping a beat? POD-A500-109 / POD-WORK-298; same-assistant desk research, no observed lesson, audio audition, outreach or independent human review. Existing research map, Mardala dossier, Odissi music credits and saved vocal syllabus searched first. The vocal syllabus was not mislabelled as a Mardala curriculum.
 
 | Claim / reader gain | Inspected evidence | Boundary |
 | --- | --- | --- |

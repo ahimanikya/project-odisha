@@ -19,6 +19,99 @@ def require(condition, message):
     if not condition:
         raise ValueError(message)
 
+def project_prefixes(data, key='project'):
+    """Current code and explicitly declared historical alias prefixes."""
+    require(isinstance(data, dict), 'Project prefix declaration must be an object')
+    prefix = data.get(key)
+    require(isinstance(prefix, str) and re.fullmatch(r'[A-Z]{3}', prefix),
+            'Invalid project prefix')
+    legacy = data.get('legacy_prefixes', [])
+    require(isinstance(legacy, list), 'legacy_prefixes must be a list')
+    require(all(isinstance(value, str) and re.fullmatch(r'[A-Z]{3}', value)
+                for value in legacy), 'Invalid legacy prefix')
+    require(len(legacy) == len(set(legacy)), 'Duplicate legacy prefix')
+    require(prefix not in legacy, 'Current prefix must not appear in legacy_prefixes')
+    return (prefix, *legacy)
+
+
+def matching_project_prefixes(config, data):
+    configured = project_prefixes(config, 'prefix')
+    declared = project_prefixes(data)
+    require(configured[0] == declared[0], 'Configuration identity conflicts with registers')
+    require(set(configured[1:]) == set(declared[1:]),
+            'Configuration legacy prefixes conflict with registers')
+    require(config.get("id_aliases") == data.get("id_aliases"),
+            "Configuration ID aliases conflict with registers")
+    return declared
+
+
+PROJECT_ID = re.compile(r'[A-Z]{3}-[A-Z0-9]+(?:-[A-Z0-9]+)*')
+
+
+def unique_json_object(pairs):
+    result = {}
+    for key, value in pairs:
+        require(key not in result, 'Duplicate JSON key in ID aliases: '+key)
+        result[key] = value
+    return result
+
+
+def load_id_aliases(root, data, events=None):
+    """Load exact historical aliases; never infer a legacy-prefix substitution."""
+    prefixes = project_prefixes(data)
+    name = data.get('id_aliases')
+    if name is None:
+        return {}
+    require(isinstance(name, str) and bool(name) and not Path(name).is_absolute()
+            and '..' not in Path(name).parts, 'ID aliases must be a KB-relative path without traversal')
+    path = (root / name).resolve()
+    require(path.is_relative_to(root.resolve()) and path.is_file(), 'Missing or unsafe ID alias file')
+    document = json.loads(path.read_text(), object_pairs_hook=unique_json_object)
+    require(isinstance(document, dict), 'ID alias document must be an object')
+    require(document.get('canonical_prefix') == prefixes[0], 'ID alias canonical prefix mismatch')
+    require(document.get('legacy_prefix') in prefixes[1:], 'ID alias legacy prefix is undeclared')
+    aliases = document.get('aliases')
+    require(isinstance(aliases, dict), 'ID aliases must be an object')
+    targets = set()
+    for old, new in aliases.items():
+        require(isinstance(old, str) and PROJECT_ID.fullmatch(old)
+                and old.split('-')[0] == document['legacy_prefix'], 'Invalid legacy ID alias: '+str(old))
+        require(isinstance(new, str) and PROJECT_ID.fullmatch(new)
+                and new == prefixes[0]+old[3:], 'ID alias must preserve suffix: '+old)
+        require(new not in targets, 'Duplicate ID alias target: '+new)
+        targets.add(new)
+    available = {row['id'] for collection in COLLECTIONS for row in data.get(collection, [])}
+    event_ids = {event['id'] for event in events} if events is not None else set()
+    available.update(event_ids)
+    register_aliases = document.get('register_aliases', {})
+    require(isinstance(register_aliases, dict), 'register_aliases must be an object')
+    event_aliases = document.get('event_aliases', {})
+    require(isinstance(event_aliases, dict), 'event_aliases must be an object')
+    for old, new in event_aliases.items():
+        require(old in register_aliases and register_aliases[old] == new,
+                'Event alias differs from register alias subset: '+old)
+        if events is not None:
+            require(new in event_ids, 'Missing event ID alias target: '+str(new))
+    for old, new in register_aliases.items():
+        require(old in aliases and aliases[old] == new, 'Register alias differs from ID alias map: '+old)
+        # Standalone programme fixtures can omit the ledger. The explicit event
+        # subset tells us which targets require it, without guessing by ID kind.
+        if not (old in event_aliases and events is None):
+            require(new in available, 'Missing register ID alias target: '+str(new))
+    return aliases
+
+
+def resolve_project_id(ident, data, aliases):
+    """Resolve syntax/alias identity only; callers must check target existence."""
+    prefixes = project_prefixes(data)
+    require(isinstance(ident, str) and PROJECT_ID.fullmatch(ident), 'Invalid project ID: '+str(ident))
+    if ident.startswith(prefixes[0]+'-'):
+        return ident
+    require(ident in aliases and ident.split('-')[0] in prefixes[1:],
+            'Unknown legacy project ID: '+ident)
+    return aliases[ident]
+
+
 def local_path(root, name):
     aliases_file = root / 'references/migration-paths.json'
     aliases = json.loads(aliases_file.read_text()) if aliases_file.exists() else {}
@@ -30,15 +123,18 @@ def local_path(root, name):
 
 def validate(root, data, events):
     require(data['schema_version'] == '1.0.0', 'Unsupported schema version')
-    prefix = data['project']
-    require(re.fullmatch(r'[A-Z]{3}', prefix), 'Invalid project prefix')
+    prefixes = project_prefixes(data)
+    id_pattern = prefixes[0]+r'-[A-Z]+-\d{3,}'
     require(bool(data.get('human_authority')), 'Missing human authority')
     rows = [r for c in COLLECTIONS for r in data[c]]
     by_id = {}
     for r in rows + events:
-        require(re.fullmatch(prefix+r'-[A-Z]+-\d{3,}', r['id']), 'Invalid ID: '+r['id'])
+        require(isinstance(r['id'], str) and re.fullmatch(id_pattern, r['id']), 'Invalid ID: '+str(r['id']))
         require(r['id'] not in by_id, 'Duplicate ID: '+r['id'])
         by_id[r['id']] = r
+    aliases = load_id_aliases(root, data, events)
+    def resolved(ref):
+        return aliases.get(ref, ref) if isinstance(ref, str) else None
     external = data.get('external_refs', {})
     require(not set(by_id).intersection(external), 'External/local ID collision')
     for key, ref in external.items():
@@ -47,7 +143,7 @@ def validate(root, data, events):
             local_path(root, ref['location'])
     for r in rows + events:
         for ref in r.get('refs', []):
-            require(ref in by_id or ref in external, r['id']+' has dangling reference '+ref)
+            require(resolved(ref) in by_id or resolved(ref) in external, r['id']+' has dangling reference '+str(ref))
         for path in r.get('evidence', []):
             if not path.startswith('https://'):
                 local_path(root, path)
@@ -63,6 +159,7 @@ def validate(root, data, events):
             require(bool(d.get('quote') or d.get('evidence')), 'Approval lacks source')
             require(bool(d.get('scope')), 'Approval lacks scope')
     def authorized(ref):
+        ref = resolved(ref)
         if ref in external:
             d = external[ref]
             return d.get('kind') == 'decision' and d.get('actor_kind') == 'human' and d.get('status') in {'approved','recorded_direction'}  # Source authenticity still requires review.
@@ -74,7 +171,7 @@ def validate(root, data, events):
         require(authorized(w['authorization']), 'Work lacks valid authorization: '+w['id'])
         if w['status']=='blocked': require(bool(w.get('blockers')), 'Blocked work needs a reason')
         if w['readiness']=='published':
-            require(any(w['id'] in r.get('refs',[]) and r['status']=='published' for r in data['releases']), 'Published work needs release evidence')
+            require(any(w['id'] in [resolved(ref) for ref in r.get('refs',[])] and r['status']=='published' for r in data['releases']), 'Published work needs release evidence')
     for r in data['reviews']:
         require(r['status'] in REVIEWS and isinstance(r['independent'],bool), 'Invalid review/independence')
         if r['status'] in {'fail','pass_with_limitations','not_tested'}:
@@ -133,7 +230,7 @@ def run(root, check=False):
     source=root/home/'records.json'; ledger=root/home/'activity.jsonl'
     raw=source.read_bytes(); activity=ledger.read_bytes()
     data=json.loads(raw); events=[json.loads(line) for line in activity.splitlines() if line.strip()]
-    require(config['prefix']==data['project'], 'Configuration identity conflicts with registers')
+    matching_project_prefixes(config, data)
     validate(root,data,events)
     output=render(data,events,hashlib.sha256(raw+b'\n'+activity).hexdigest())
     target=root/home/'DASHBOARD.md'

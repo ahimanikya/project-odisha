@@ -19,8 +19,8 @@ A previously visited root URL initially retained the older homepage in the brows
 
 ## Remaining work
 
-- **UTP-WORK-080:** native PDF pagination remains unverified. Downloadable HTML books are verified; this does not establish native print results.
-- **UTP-WORK-095:** HTTPS loads successfully, but GitHub reports a replacement certificate still issuing (`dns_changed`). An attempt to enable automatic HTTPS enforcement returned “The certificate has not finished being issued”. Keep this open until the certificate is ready and enforcement can be verified. No DNS changes were made.
+- **POD-WORK-080:** native PDF pagination remains unverified. Downloadable HTML books are verified; this does not establish native print results.
+- **POD-WORK-095:** HTTPS loads successfully, but GitHub reports a replacement certificate still issuing (`dns_changed`). An attempt to enable automatic HTTPS enforcement returned “The certificate has not finished being issued”. Keep this open until the certificate is ready and enforcement can be verified. No DNS changes were made.
 - Editorial drafts retain their review notices. This bounded preview approval does not claim exhaustive fact checking or native Odia review.
 
 The [structured review](../../records/coastal-publication-review.json) links approval, deployment and browser evidence. The prior successful release was `52a6cc5ee31f1542bf203fee23b0328496bd6715`, [run 36510884225](https://github.com/ahimanikya/utkal-project/actions/runs/36510884225), retained as rollback reference; no rollback was performed.

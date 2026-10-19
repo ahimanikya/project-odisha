@@ -94,7 +94,7 @@ Do not add a quota of pictures, compulsory video, or unnecessary spectacle. A bl
 
 ## Application status
 
-The Founder's principle is recorded as design direction. The detailed patterns here are the assistant's application guidance for review. They inform the open inner-page refinement (UTP-WORK-075) and future media briefs. The local design-system gallery demonstrates the distinction between a real view and an imagined interpretation using existing assets. No new image or video was generated, no pages were bulk-reillustrated, and no change was made to Kabita Live or other projects.
+The Founder's principle is recorded as design direction. The detailed patterns here are the assistant's application guidance for review. They inform the open inner-page refinement (POD-WORK-075) and future media briefs. The local design-system gallery demonstrates the distinction between a real view and an imagined interpretation using existing assets. No new image or video was generated, no pages were bulk-reillustrated, and no change was made to Kabita Live or other projects.
 
 [System guide](guide.md) · [Editorial storytelling standard](../reference/storytelling-standard.md)
 

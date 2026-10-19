@@ -10,7 +10,7 @@ title: "UTP Blueprint adoption"
 - Immutable Blueprint commit: [`ab5cd05315feecbc5d5c71b372d198c67ee29910`](https://github.com/ahimanikya/utkal-blueprint/commit/ab5cd05315feecbc5d5c71b372d198c67ee29910).
 - Accountable human: **Ahimanikya Satapathy**.
 - Actual human approval: **“The next batch is approved”**, recorded as UTB-DEC-005 in [the batch decision](../records/batch-approval.json).
-- Scope: reviewed UTP charter, working arrangements, team/JDs, scoped assignments and UTP-WORK-001.
+- Scope: reviewed UTP charter, working arrangements, team/JDs, scoped assignments and POD-WORK-001.
 - Variations: local editorial mission, public/private data boundary and one-assistant role-pass execution. No waiver of human authority.
 - Visibility: both repositories private for now.
 - State: **authorized and being applied**; final verification is recorded in `records/application-result.json` when available.

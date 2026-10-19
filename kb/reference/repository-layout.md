@@ -45,7 +45,7 @@ A new project needs its own filled root configuration and adapted implementation
 
 ## Layout agreement
 
-Ahimanikya Satapathy responded “That make sense” to the repository layout on this conversation. Recorded as UTP-DEC-007. This agrees the separation and directory layout; boilerplate contents and the creation flow still need definition. It does not mark either PR merged, the site moved, or the starter implemented.
+Ahimanikya Satapathy responded “That make sense” to the repository layout on this conversation. Recorded as POD-DEC-007. This agrees the separation and directory layout; boilerplate contents and the creation flow still need definition. It does not mark either PR merged, the site moved, or the starter implemented.
 
 ## Start basic
 

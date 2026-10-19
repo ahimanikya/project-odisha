@@ -1,9 +1,9 @@
 ---
 type: "Project record"
-title: "UTP working arrangements and reporting"
+title: "Project Odisha working arrangements and reporting"
 ---
 
-# UTP working arrangements and reporting
+# Project Odisha working arrangements and reporting
 
 **Candidate v0.1 · For final review**
 
@@ -25,4 +25,4 @@ Status update: the Founder approved this document as part of batch UTB-DEC-005. 
 
 ## Current execution — 19 October 2026
 
-The Founder authorized an actual collaborating AI team in UTP-DEC-2026101901. This supersedes the first-task execution and scope restrictions above for the already authorized UTP programmes; it does not change human authority or account access. [Assignments](assignments.json), [operating loop and current ownership](operations.json), and [activation and handoffs](../records/team-activation-2026-10-19.json) are the current records. Disha is the coordinator; Anvesha, Samanta and Drishti execute as separate task-scoped agents. Only the coordinator integrates shared records and publishes under existing Founder authorization. No persona grants itself approval. Future runs reconcile actual state and recreate workers as needed; the roster is not a claim of continuous execution.
+The Founder authorized an actual collaborating AI team in POD-DEC-2026101901. This supersedes the first-task execution and scope restrictions above for the already authorized Project Odisha programmes; it does not change human authority or account access. [Assignments](assignments.json), [operating loop and current ownership](operations.json), and [activation and handoffs](../records/team-activation-2026-10-19.json) are the current records. Disha is the coordinator; Anvesha, Samanta and Drishti execute as separate task-scoped agents. Only the coordinator integrates shared records and publishes under existing Founder authorization. No persona grants itself approval. Future runs reconcile actual state and recreate workers as needed; the roster is not a claim of continuous execution.

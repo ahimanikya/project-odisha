@@ -3,7 +3,7 @@ type: "Product specification"
 title: "Tourism opportunities website section"
 status: "specified"
 version: "0.1"
-work_id: "UTP-WORK-174"
+work_id: "POD-WORK-174"
 ---
 
 # Tourism opportunities website section

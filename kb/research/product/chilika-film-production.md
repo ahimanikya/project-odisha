@@ -6,7 +6,7 @@ status: "Free real-footage review cut prepared; AI generation parked"
 
 # Chilika — a film grounded in real references
 
-Creative direction: Ahimanikya Satapathy, Founder & Editor-in-Chief. Research and production preparation: AI assistant. The Founder asked whether publicly available references could support a realistic simulated movie. This is the practical continuation of the [immersive destination brief](immersive-destination-brief.md), under UTP-WORK-015. The initial AI plan was not rendered; the later free real-footage trial below produced a local review cut. Nothing has been published.
+Creative direction: Ahimanikya Satapathy, Founder & Editor-in-Chief. Research and production preparation: AI assistant. The Founder asked whether publicly available references could support a realistic simulated movie. This is the practical continuation of the [immersive destination brief](immersive-destination-brief.md), under POD-WORK-015. The initial AI plan was not rendered; the later free real-footage trial below produced a local review cut. Nothing has been published.
 
 ## Approach
 

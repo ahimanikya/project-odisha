@@ -6,7 +6,7 @@ status: "draft"
 
 # Dhauli visit brief
 
-**UTP-EXP-B01 · Bhubaneswar · Desk lead.** Proposed research visit; the host, date, duration, capacity and price remain unconfirmed.
+**POD-EXP-B01 · Bhubaneswar · Desk lead.** Proposed research visit; the host, date, duration, capacity and price remain unconfirmed.
 
 ## Story to explore
 

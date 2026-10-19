@@ -5,7 +5,7 @@ title: Konark visitor essentials — 30 September 2026
 
 # Let the museum have its own place in the day
 
-The Founder requested continuing other work. This bounded follow-up advances the Konark portion of UTP-WORK-097: help readers distinguish the monument, museum and ticket choice without implying that local arrangements have been inspected. Accountable human: Ahimanikya Satapathy. Research, implementation and self-review: current AI assistant.
+The Founder requested continuing other work. This bounded follow-up advances the Konark portion of POD-WORK-097: help readers distinguish the monument, museum and ticket choice without implying that local arrangements have been inspected. Accountable human: Ahimanikya Satapathy. Research, implementation and self-review: current AI assistant.
 
 The existing notebook now has three short planning notes. They describe daylight planning at the monument, the museum’s connection to recovered sculpture, and the two separate listings in ASI’s ticket portal. The portal is linked directly from ASI’s homepage and its Bhubaneshwar circle was inspected in the browser. No booking or payment was made.
 
@@ -29,6 +29,6 @@ Candidate for Founder review; not deployed. The seven-guide local confirmation q
 
 ## Approved publication
 
-The Founder subsequently approved PR #9. The exact reviewed head `1314c3f` was merged and deployed at `05cd9f6`. Hosted build and test checks passed. The live page and actual HTML/text downloads carry all three planning notes and the official ticket reference. HTTPS enforcement and apex/www redirects remain verified, including an inner-page query. The earlier candidate status above records the original handoff; UTP-WORK-102 is now complete. Local confirmation and native printing remain open.
+The Founder subsequently approved PR #9. The exact reviewed head `1314c3f` was merged and deployed at `05cd9f6`. Hosted build and test checks passed. The live page and actual HTML/text downloads carry all three planning notes and the official ticket reference. HTTPS enforcement and apex/www redirects remain verified, including an inner-page query. The earlier candidate status above records the original handoff; POD-WORK-102 is now complete. Local confirmation and native printing remain open.
 
 [Publication evidence](../../records/konark-publication.json) · [Live Konark guide](https://utkalproject.org/knowledge/konark/)

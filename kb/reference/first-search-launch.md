@@ -6,7 +6,7 @@ status: published
 
 # First search launch
 
-Eleven existing pages are now eligible for search. The website has 122 public pages; publishing a page and approving it for search are separate decisions. The Founder approved this exact scope in UTP-DEC-150. Publication mode is **limited**; deployment and live verification passed under [UTP-REL-044](../records/first-search-launch-publication.json). No search service has been contacted or configured.
+Eleven existing pages are now eligible for search. The website has 122 public pages; publishing a page and approving it for search are separate decisions. The Founder approved this exact scope in POD-DEC-150. Publication mode is **limited**; deployment and live verification passed under [POD-REL-044](../records/first-search-launch-publication.json). No search service has been contacted or configured.
 
 ## Approved pages
 
@@ -58,6 +58,6 @@ For a later approved withdrawal, use `withdrawn` with the original approval refe
 
 ## Review still open
 
-Founder approval of this search scope is recorded in UTP-DEC-150. Browser review remains blocked by the previously recorded admin-policy verification failure. No new rendered, keyboard, physical-device, screen-reader or social-platform preview check is claimed. Existing language, historical and local-condition limitations remain visible with their stories. Store, Pala and unpublished routes stay absent; personal journey and contribution pages stay excluded from search.
+Founder approval of this search scope is recorded in POD-DEC-150. Browser review remains blocked by the previously recorded admin-policy verification failure. No new rendered, keyboard, physical-device, screen-reader or social-platform preview check is claimed. Existing language, historical and local-condition limitations remain visible with their stories. Store, Pala and unpublished routes stay absent; personal journey and contribution pages stay excluded from search.
 
 [Candidate evidence](../records/first-search-launch-review.json) · [Current visitor review queue](../records/visitor-review-queue.json)

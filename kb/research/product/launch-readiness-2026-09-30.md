@@ -49,7 +49,7 @@ Both builds succeed: 72 full-draft pages and 16 coastal pages. The current outpu
 
 The same AI assistant implemented and reviewed this work. Human acceptance is pending. No commit, push, merge, deployment, public issue, outreach or paid service occurred. No new persona assignment or authority is implied.
 
-**UTP-WORK-080 stays open:** save the populated journey print view and both HTML book editions to native PDF in a supported browser. Inspect A4 and Letter output, every page, long-note end markers, Odia rendering, uncut photographs, headings and the source appendix. Record browser, paper size, margins, scaling and any clipping. The HTML checks do not substitute for this.
+**POD-WORK-080 stays open:** save the populated journey print view and both HTML book editions to native PDF in a supported browser. Inspect A4 and Letter output, every page, long-note end markers, Odia rendering, uncut photographs, headings and the source appendix. Record browser, paper size, margins, scaling and any clipping. The HTML checks do not substitute for this.
 
 ## Release sequence
 

@@ -41,7 +41,7 @@ Before applying a smaller launch scope, reconcile all its content surfaces: on-p
 
 The first test run found the dropped legacy `connect-visit` anchor. It was restored. Final result: **72 pages build; 79 site tests pass**, including a collection traversal/current-chapter/starter test. Static review found no broken local paths, missing linked fragments or duplicate IDs. All pages remain noindex. The output manifest covers the exact full draft.
 
-Visual checks cover an actual desktop transition and 360 px/900 px frames for the beginning, middle and final chapter, plus the phone chapter links. These are targeted screenshots, not a complete accessibility or physical-device audit. The earlier design-system test result remains historical; the unchanged package was not retested in this pass. Native PDF remains **UTP-WORK-080**.
+Visual checks cover an actual desktop transition and 360 px/900 px frames for the beginning, middle and final chapter, plus the phone chapter links. These are targeted screenshots, not a complete accessibility or physical-device audit. The earlier design-system test result remains historical; the unchanged package was not retested in this pass. Native PDF remains **POD-WORK-080**.
 
 The [editorial shortlist](editorial-readiness-2026-09-30.md) remains the source of the claim, language and image-provenance limitations. None was closed by this layout work. Next implementation work can prepare the proposed subset and its dependency handling; publication still needs the Founder’s explicit decision on that exact candidate.
 

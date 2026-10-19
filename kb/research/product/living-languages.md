@@ -6,7 +6,7 @@ status: "candidate_for_founder_review"
 
 # Languages and Living Voices
 
-Direction and concept: **Ahimanikya Satapathy**, Founder & Editor-in-Chief. Prepared with AI assistance under UTP-DEC-107 / UTP-WORK-114. This batch is a review candidate, not publication authorization.
+Direction and concept: **Ahimanikya Satapathy**, Founder & Editor-in-Chief. Prepared with AI assistance under POD-DEC-107 / POD-WORK-114. This batch is a review candidate, not publication authorization.
 
 ## What a reader can do
 

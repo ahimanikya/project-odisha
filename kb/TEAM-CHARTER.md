@@ -5,7 +5,7 @@ title: "Project Odisha charter"
 
 # Project Odisha charter
 
-**UTP-CHR-001 · Candidate v0.4 · For final review**
+**POD-CHR-001 · Candidate v0.4 · For final review**
 
 ## Purpose and audience
 
@@ -23,7 +23,7 @@ Ahimanikya Satapathy is the Founder & Editor-in-Chief, the only initial human an
 
 ## Relationships and independence
 
-UTP is the master coordination project and has its own knowledge mission. Utkal Collective and Utkal Unbound have independent lifecycles; precise legal structures are not established here. BAC and BAL remain deferred. Blueprint stewardship and encyclopedia delivery are distinct workstreams.
+Project Odisha (POD) is the master coordination project and has its own knowledge mission. Utkal Collective and Utkal Unbound have independent lifecycles; precise legal structures are not established here. BAC and BAL remain deferred. Blueprint stewardship and encyclopedia delivery are distinct workstreams.
 
 Editorial judgment is independent of commercial membership, payment or property ownership. Disclose relevant interests. Association with another organization does not confer authority over its people or resources.
 

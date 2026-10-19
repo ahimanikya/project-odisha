@@ -10,11 +10,11 @@ Give a conference visitor one memorable encounter with Odisha and a dependable r
 
 These are **three desk candidates**, prepared on 10 October 2026 for the Founder and a future appointed coordinator. They are not timed itineraries, offers or bookings. All locations reuse the [existing experience shortlist](../../research/collections/tourism-experience-shortlist.md); that evidence does not confirm current availability. The Founder remains the decision owner. No coordinator, host, participant or transport provider is appointed here.
 
-Created for Ahimanikya Satapathy’s Project Odisha direction, with AI-assisted preparation. This supplies preparation for UTP-WORK-171; its requirement for locally supported itineraries remains open.
+Created for Ahimanikya Satapathy’s Project Odisha direction, with AI-assisted preparation. This supplies preparation for POD-WORK-171; its requirement for locally supported itineraries remains open.
 
 ## Heritage through an object and a landscape
 
-**Candidate H — Bhubaneswar. Anchor: Kala Bhoomi, UTP-EXP-B03. Optional extension: Dhauli, UTP-EXP-B01.**
+**Candidate H — Bhubaneswar. Anchor: Kala Bhoomi, POD-EXP-B03. Optional extension: Dhauli, POD-EXP-B01.**
 
 Let the visitor begin by looking closely at one object rather than trying to absorb every gallery. The proposed question is simple: what do its material, technique and maker help us notice about Odisha? If a guide or demonstration is separately agreed, pay for that time on the agreed terms. A museum ticket alone does not establish a hosted encounter.
 
@@ -28,7 +28,7 @@ Before retaining either stop, complete the [Kala Bhoomi brief](kala-bhoomi.md) a
 
 ## Craft through a conversation with a maker
 
-**Candidate C — Puri district. Anchor: Raghurajpur, UTP-EXP-P01. Optional extension: Pipili, UTP-EXP-P02.**
+**Candidate C — Puri district. Anchor: Raghurajpur, POD-EXP-P01. Optional extension: Pipili, POD-EXP-P02.**
 
 Build the encounter around a willing artist’s explanation of a picture: what should a newcomer look at first, and what is easy to miss? Agree whether the activity is conversation, demonstration or hands-on work. These involve different time, materials and permissions. A purchase is optional and separate from the fee for a person’s time.
 
@@ -42,7 +42,7 @@ Use the [Raghurajpur](raghurajpur.md) and [Pipili](pipili.md) briefs. Confirm th
 
 ## Food through a meal and an everyday story
 
-**Candidate F — Bhubaneswar. Anchor enquiry: Nimantran meal, UTP-EXP-B07. Optional extension: Old Town korakhai conversation, UTP-EXP-B05.**
+**Candidate F — Bhubaneswar. Anchor enquiry: Nimantran meal, POD-EXP-B07. Optional extension: Old Town korakhai conversation, POD-EXP-B05.**
 
 A meal can open a conversation about names, ingredients and household variations. Start with a seated meal enquiry and a menu the provider can actually offer. Choose a small number of dishes to discuss with a willing person; do not promise a fixed “authentic Odisha” menu or a cooking demonstration from an institutional listing.
 

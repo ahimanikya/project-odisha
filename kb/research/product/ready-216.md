@@ -50,7 +50,7 @@ Review found a trip-switching edge case: when the name field retained focus, it 
 
 The same AI assistant implemented and reviewed this work. Founder acceptance remains pending. Original questions need editorial judgment; existing source, language and image limitations from earlier batches remain. Current clients preserve optional reminders; older clients may discard them. Existing browser quotas and import limits remain.
 
-Native PDF pagination remains UTP-WORK-080. HTML/text output has automated coverage and browser-visible print content was checked; actual downloaded file bytes were not independently inspected in this increment. The illustrated download reported success through the application. Responsive geometry and selected screenshots do not constitute a full accessibility or physical-device audit.
+Native PDF pagination remains POD-WORK-080. HTML/text output has automated coverage and browser-visible print content was checked; actual downloaded file bytes were not independently inspected in this increment. The illustrated download reported success through the application. Responsive geometry and selected screenshots do not constitute a full accessibility or physical-device audit.
 
 No commit, push, merge, deployment, outreach, public submission or paid service occurred. The shared design package remains rc.5. Earlier acceptance and release records are unchanged. Previous evidence is preserved; the earlier batch’s [audit correction](../../records/evidence/next-210-2026-09-30/evidence-correction.json) remains part of its history.
 

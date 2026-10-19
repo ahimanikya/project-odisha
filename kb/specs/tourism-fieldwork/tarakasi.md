@@ -6,7 +6,7 @@ status: "draft"
 
 # Cuttack Tarakasi visit brief
 
-**UTP-EXP-C02 · Cuttack · Desk lead.** Proposed research visit; the host, date, duration, capacity and price remain unconfirmed.
+**POD-EXP-C02 · Cuttack · Desk lead.** Proposed research visit; the host, date, duration, capacity and price remain unconfirmed.
 
 ## Story to explore
 

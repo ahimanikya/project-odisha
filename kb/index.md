@@ -4,7 +4,7 @@ okf_version: "0.2"
 
 # Project Odisha · project knowledge bundle
 
-**Discover Odisha. Imagine the possibilities.** UTP is an instance of Utkal Blueprint. This KB holds its actual project information and the knowledge behind its work.
+**Discover Odisha. Imagine the possibilities.** Project Odisha (POD) is an instance of Utkal Blueprint. Existing record IDs now use POD; old UTP IDs resolve through the [identifier map](reference/project-id-aliases.json). This KB holds its actual project information and the knowledge behind its work.
 
 This directory contains the organizational and working model, roles, work records, evidence and knowledge. Raw historical snapshots under `references/pre-repair/`, captured evidence under `history/evidence/initial-capture/`, and preserved earlier research snapshots under `records/evidence/research-import/` are archival resources, not live concepts. Executable tools and website code are outside this bundle; their operating context is documented here. External citations and explicitly linked independent repositories remain external resources.
 
@@ -40,7 +40,7 @@ Use these maintained records to resume work. The dated links further down this p
 | Fieldwork waiting on human decisions or local confirmation | [Founder TODO](specs/founder-todo.md) and [fieldwork pack](specs/tourism-fieldwork/index.md); no introductions, host consent or service inspection should be inferred |
 | Research to reuse before starting a new topic | [Research map](research/methods/research-map.md) and [research index](research/index.md) |
 
-**Search status, checked against saved evidence on 9 October 2026:** limited search eligibility was activated for eleven routes under UTP-DEC-150; see the [activation receipt](records/first-search-launch-publication.json). The [9 October maritime publication receipt](records/maritime-memory-publication-2026-10-09.json) confirms the same eleven-entry sitemap and keeps that new story outside the search selection. This is not proof that Google has indexed those pages. [Search Console processing remains unresolved in the saved diagnosis](records/search-console-fetch-diagnosis.json), tracked as UTP-WORK-139. Consult later release receipts and the current register before relying on this dated snapshot.
+**Search status, checked against saved evidence on 9 October 2026:** limited search eligibility was activated for eleven routes under POD-DEC-150; see the [activation receipt](records/first-search-launch-publication.json). The [9 October maritime publication receipt](records/maritime-memory-publication-2026-10-09.json) confirms the same eleven-entry sitemap and keeps that new story outside the search selection. This is not proof that Google has indexed those pages. [Search Console processing remains unresolved in the saved diagnosis](records/search-console-fetch-diagnosis.json), tracked as POD-WORK-139. Consult later release receipts and the current register before relying on this dated snapshot.
 
 The public preview, the full research KB and the approved search selection have different scopes. Utkal Store remains held; its separate workspace is not a published shop. Human authority remains with Ahimanikya Satapathy; an automated check or a delivery receipt is not independent factual or field review.
 
@@ -129,7 +129,7 @@ Historical visitor-experience release: [PR 23 publication evidence](records/visi
 
 - [Editorial workbench](reference/editorial-workbench.md) — 500 traceable metadata assessments and the next illustrated food stories.
 
-- [Cultural reading-flow review](records/culture-flow-review.json) — six-page responsive review and maker-cover refinements; [published as UTP-REL-048](records/culture-flow-publication.json).
+- [Cultural reading-flow review](records/culture-flow-review.json) — six-page responsive review and maker-cover refinements; [published as POD-REL-048](records/culture-flow-publication.json).
 
 - [Global Connections: section and future initiative](specs/global-connections.md)
 
