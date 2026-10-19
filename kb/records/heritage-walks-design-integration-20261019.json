@@ -1,0 +1,29 @@
+{
+  "id": "POD-WALKS-DESIGN-20261019",
+  "status": "reviewed_pending_publication",
+  "authorization": "Founder: fix that; published guide looks like site inside site",
+  "scope": "Visual integration only; preserve catalogue and functionality",
+  "executions": [
+    {
+      "role": "Samanta",
+      "runtime": "/root/samanta_release",
+      "status": "completed",
+      "reserved_write_paths": []
+    },
+    {
+      "role": "Drishti",
+      "runtime": "/root/drishti_release",
+      "status": "reviewed",
+      "reserved_write_paths": [],
+      "result": "No source blockers; separate AI review. Script, data bindings and control IDs unchanged."
+    }
+  ],
+  "substantive_items_added": 0,
+  "verification": {
+    "build": "PASS 408 pages",
+    "full_tests": "PASS 566",
+    "browser": "1280px preview: one main, no extra guide navigation/footer, no horizontal overflow; Puri filter 6, saved-only 1, reset 42.",
+    "limits": "No new organiser or source verification. Not physical mobile testing.",
+    "coastal_tests": "PASS 245"
+  }
+}
