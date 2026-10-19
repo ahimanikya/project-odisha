@@ -24,7 +24,7 @@ export async function buildPublication(site){
  if((await lstat(input)).isSymbolicLink())throw Error('Publication input must not be a symlink');
  await walk(input);
  const paths=scope.routes.map(route=>route==='/'?'index.html':route.slice(1)+(route.endsWith('/')?'index.html':''));
- if(JSON.stringify(files.filter(f=>f.endsWith('.html')).sort())!==JSON.stringify([...paths].sort()))throw Error('Unexpected HTML outside the public edition');
+ if(JSON.stringify(files.filter(f=>f.endsWith('.html')&&!(scope.downloads||[]).includes('/'+f)).sort())!==JSON.stringify([...paths].sort()))throw Error('Unexpected HTML outside the public edition');
  const pages=await Promise.all(paths.map(async(path,i)=>({path,html:publicationPage(await readFile(new URL(path,input),'utf8'),scope.routes[i],plan)})));
  try{if((await lstat(output)).isSymbolicLink())throw Error('Publication output must not be a symlink');}catch(e){if(e.code!=='ENOENT')throw e;}
  await rm(output,{recursive:true,force:true});await cp(input,output,{recursive:true});

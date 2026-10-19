@@ -31,7 +31,7 @@ if '/' not in routes:
 journey_ids = unique_strings('journey_ids', r'[a-z0-9][a-z0-9:/_-]{0,159}')
 starter_ids = unique_strings('starter_ids', r'[a-z0-9][a-z0-9_-]{0,159}')
 config.setdefault('downloads', [])
-downloads = set(unique_strings('downloads', r'/assets/[a-z0-9-]+\.txt'))
+downloads = set(unique_strings('downloads', r'(?:/assets/[a-z0-9-]+\.txt|/downloads/heritage-walks/odisha-heritage-walks\.(?:html|md|json|csv|zip))'))
 config.setdefault('documents', [])
 documents = set(unique_strings('documents', r'/archive/[a-z0-9-]+\.pdf'))
 allowed = set(routes)

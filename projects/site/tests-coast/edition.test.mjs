@@ -13,7 +13,7 @@ const payload=html=>JSON.parse(html.match(/<script[^>]*id="journey-data"[^>]*>([
 const data=payload(read('/'));
 const files=(dir)=>readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?files(join(dir,e.name)):[join(dir,e.name)]);
 test('only selected pages and their declared client content ship',()=>{
- const actual=files('dist-coast').filter(p=>p.endsWith('.html')).map(p=>'/'+p.slice('dist-coast/'.length).replace(/index\.html$/,'')).sort();assert.deepEqual(actual,[...scope.routes].sort());
+ const actual=files('dist-coast').filter(p=>p.endsWith('.html')&&!(scope.downloads||[]).includes('/'+p.slice('dist-coast/'.length))).map(p=>'/'+p.slice('dist-coast/'.length).replace(/index\.html$/,'')).sort();assert.deepEqual(actual,[...scope.routes].sort());
  for(const route of scope.routes){const html=read(route),d=payload(html);assert.deepEqual(d.catalog.map(i=>i.id).sort(),[...scope.journey_ids].sort());assert.deepEqual(d.starters.map(s=>s.id),scope.starter_ids);assert.ok(html.includes('noindex'));}
  assert.equal((read('/explore/').match(/data-entry=/g)||[]).length,115);
  assert.ok(read('/destinations/bhubaneswar/').includes('fresco-procession'));
@@ -42,4 +42,14 @@ test('failed staged validation preserves the last good output and does not expos
   writeFileSync(join(dir,'.coast-staging/index.html'),'<meta name="robots" content="noindex"><a href="/held/">Held</a><script id="journey-data" type="application/json">{"catalog":[],"starters":[]}</script>');
   const failed=spawnSync('python3',[join(dir,'tools/finalize-edition.py')],{encoding:'utf8'});assert.notEqual(failed.status,0);assert.match(failed.stderr,/Link outside scope/);assert.equal(readFileSync(join(dir,'dist-coast/index.html'),'utf8'),'Last good candidate');
  }finally{rmSync(dir,{recursive:true,force:true});}
+});
+
+test('heritage guide and downloads stay within their release boundary',()=>{
+ const guide=read('/heritage-walks/');assert.equal((guide.match(/data-place=/g)||[]).length,60);
+ assert.ok(read('/things-to-do/').includes('href="/heritage-walks/"'));
+ assert.ok(!guide.includes('href="/stories/heritage-walks/"'));
+ for(const ext of ['html','md','json','csv','zip'])assert.ok(readFileSync('dist-coast/downloads/heritage-walks/odisha-heritage-walks.'+ext).length>0);
+ assert.ok(readFileSync('dist-coast/downloads/heritage-walks/odisha-heritage-walks.html','utf8').includes('noindex'));
+ const d=JSON.parse(readFileSync('dist-coast/downloads/heritage-walks/odisha-heritage-walks.json'));assert.equal(d.walks.length,60);assert.equal(new Set(d.walks.map(w=>w.id)).size,60);
+ assert.ok(guide.includes('Sold out on checked date'));assert.ok(guide.includes('excluding GST'));
 });
