@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 395. completed: 32, excluded: 10, in_progress: 1, queued: 352.
+Route inventory: 395. completed: 33, excluded: 10, queued: 352.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -53,7 +53,7 @@ Route inventory: 395. completed: 32, excluded: 10, in_progress: 1, queued: 352.
 | POD-EDIT-037 | [Tarakasi · follow a silver thread](https://projectodisha.org/visit/experiences/cuttack-filigree/) | completed | Individual Tarakasi editorial revision: preserve process explanation and photographs; source-mapped visible footnotes, Founder byline, reading rhythm and accessible further-reading/update controls. |
 | POD-EDIT-038 | [Dahibara Aloodum in Cuttack](https://projectodisha.org/food/cuttack/) | completed | Individually revise the Cuttack food reading: explain the bowl, preserve useful tasting guidance and documentary evidence, apply authored reading with visible notes and restrained attribution. |
 | POD-EDIT-039 | [Netaji Birthplace Museum](https://projectodisha.org/visit/experiences/cuttack-netaji/) | completed | Individually revise the museum reading with autobiography context, clear evidence boundaries, authored reading and visible notes. |
-| POD-EDIT-040 | [Choose a Cuttack base](https://projectodisha.org/visit/stays/cuttack/) | in_progress | Individually revise the Cuttack stay-area guide: practical choices, access questions, restrained sourcing and authored reading; no property recommendations. |
+| POD-EDIT-040 | [Choose a Cuttack base](https://projectodisha.org/visit/stays/cuttack/) | completed | Individually revise the Cuttack stay-area guide: practical choices, access questions, restrained sourcing and authored reading; no property recommendations. |
 | POD-EDIT-041 | [Languages of Odisha](https://projectodisha.org/languages/) | queued | classification_pending |
 | POD-EDIT-042 | [Odia](https://projectodisha.org/languages/odia/) | queued | classification_pending |
 | POD-EDIT-043 | [Odia Literature](https://projectodisha.org/literature/) | queued | classification_pending |

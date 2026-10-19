@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `ae90793c496ebb83291adee59c32309c8d32ae1db39efa6c8d9bf67ce3ed0a8a`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `7f289a2c92f7e39ac22ddd4c2733f023066d150e537cdc6686120adbe41d6a94`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -321,7 +321,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-299 · Deepen Dalkhai song, occasion and stage context | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, song-language review and recovered source PDFs remain open for future research. | — |
 | POD-WORK-300 · Deepen Pala literary performance, forms and repertoire | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/Odia review and manuscript evidence remain open for future research. | — |
 | POD-WORK-301 · Deepen Dhemsa community, movement and occasion | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/language review and field evidence remain open for future research. | — |
-| POD-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Continue next eligible queued article using team operations and actual ownership reconciliation;29 editorial entries complete. | — |
+| POD-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Continue next eligible queued article after verifying receipt integration and reconciling team ownership;33 editorial entries complete. | — |
 | POD-WORK-2026101701 · Publish two Pattachitra Jhula choices | completed | published | Ahimanikya Satapathy | Review the live Pattachitra choices. | — |
 | POD-WORK-2026101901 · Activate separate editorial agents and durable handoffs | completed | applied | Ahimanikya Satapathy | Use saved team loop for subsequent article work; recreate task-scoped workers when needed. | — |
 | POD-WORK-2026101801 · Coherent Jhula story and collection overview | completed | published | Ahimanikya Satapathy | Review the refined live page. | — |
@@ -946,6 +946,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-300 | pass_with_limitations | True | Separate AI review, no human/archaeologist review.; Saved screenshots inspected, no new interactive, physical-device, print or live checks.; Full565/coast240 tests are Samanta execution evidence.; District source relies on recorded indexed evidence. |
 | POD-REV-2026101801 | pass | False | — |
 | POD-REV-2026101901 | pass_with_limitations | True | Not human, curator or field review. Coordinator performed full builds and browser interactions; no reviewer livepublication verification. |
+| POD-REV-2026101902 | pass_with_limitations | True | Separate AI review, not human or field verification. Responsive browser interactions and full builds performed by coordinator; no reviewer live-publication verification. |
 
 ## Publication and application history
 
@@ -1133,6 +1134,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-170 · Barabati remains, excavation evidence and visible sources | published | https://projectodisha.org/visit/places/barabati/ | POD-DEC-225 |
 | POD-REL-2026101801 · Refined Jhula page published | published | https://projectodisha.org/odia-poetry-jhula/ | POD-DEC-2026101801 |
 | POD-REL-2026101901 · Netaji museum authored reading and visible sources | published | https://projectodisha.org/visit/experiences/cuttack-netaji/ | POD-DEC-225 |
+| POD-REL-2026101902 · Cuttack stay authored comparison and visible sources | published | https://projectodisha.org/visit/stays/cuttack/ | POD-DEC-225 |
 
 ## Sources and assets
 
@@ -1170,7 +1172,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026101910 | 2026-10-19T04:37:28.234946+00:00 | Integrated full UTP-to-POD migration after separateAI review and passing requiredchecks.3705 exactaliases preserve historicalreferences; originalfiles archived. Continuing-work automation updated. No programmecredit. | — |
 | POD-EVT-20261019102 | 2026-10-19T04:31:07.232980+00:00 | Published and browser-verified the shared footer link to Odia Poetry Jhula via PR 332. | — |
 | POD-EVT-20261019103 | 2026-10-19T04:39:48.073290+00:00 | Organized shared footer into balanced navigation groups and removed the detached decorative strip at the founder’s request. | — |
 | POD-EVT-20261019104 | 2026-10-19T05:11:09.625326+00:00 | Published and live-verified the Tarakasi editorial revision with Founder byline, visible source notes, clearer soldering explanation and retained documentary media. Separate AI review; zero substantive-programme credit. | — |
@@ -1180,6 +1181,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261019108 | 2026-10-19T07:07:15.803455+00:00 | Claimed POD-EDIT-039 Netaji museum article after prior receipts integrated. Inspected autobiography, current museum source and retained photograph; preparing authored reading and visible notes. Separate review and publication pending; zero substantive programme credit. | — |
 | POD-EVT-20261019109 | 2026-10-19T07:22:09.760133+00:00 | Published and live-verified POD-EDIT-039 Netaji museum article via PR344 and approved deployment39215016274. Separate AI source review, visible notes, portable reading and responsive checks retained;32 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261019110 | 2026-10-19T08:12:23.730497+00:00 | Prepared POD-EDIT-040 Cuttack stay guide with bounded Anvesha research and Samanta implementation. Full566 and coastal258 tests pass; desktop/mobile review complete. Separate review and publication pending; no programme credit. | — |
+| POD-EVT-20261019111 | 2026-10-19T08:22:32.787863+00:00 | Published and live-verified POD-EDIT-040 Cuttack stay guide via PR346 and approved deployment39221663721. Three evidence-bounded comparisons, Founder byline, visible source and portable illustration checked;33 editorial entries complete, substantive programme112 unchanged. | — |
 
 ## Deferred extensions
 

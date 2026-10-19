@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-19T08:03:22.567571+00:00",
   "article_id": "POD-EDIT-040",
   "route": "/visit/stays/cuttack/",
-  "status": "in_progress",
+  "status": "published_receipt_integration",
   "input_head": "83db2ca615228958cf6b2acaaa830c354d067adf",
   "authorization": "POD-DEC-225",
   "central_question": "How should a visitor compare staying in Cuttack with retaining a Bhubaneswar base, using actual access needs and return arrangements rather than unverified hotel rankings or travel times?",
@@ -59,13 +59,23 @@
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Separate read-only integrated review",
-      "status": "pending"
+      "status": "handoff_received",
+      "input_head": "491b7957e84e3b85fef922e9da293fbcaa2d1d4a",
+      "result": "pass_with_limitations",
+      "tests": [
+        "20coastal tests",
+        "11affected fullsuite tests",
+        "queue/team/programme/whitespace validators"
+      ],
+      "limits": [
+        "Separate AI review, not human or field verification. Responsive browser interactions and full builds performed by coordinator; no reviewer live-publication verification."
+      ]
     },
     {
       "name": "Disha",
       "runtime": "/root",
       "scope": "Cuttack stays entry only in central-details.json, shared records, integration, browser checks and publication",
-      "status": "in_progress"
+      "status": "receipt_integration"
     }
   ],
   "concurrency": "PR345 Netaji receipt integrated; no active team worker. External PR304 statistics and PR281 Ashoka retained.",
@@ -82,6 +92,24 @@
     "Initial coastalsuite256/258: obsolete neighborhood expectations and missing illustrated-book photo mapping corrected; final rebuild pending.",
     "Caught option key label/area mismatch before build consumed article; corrected to existing schema. One preliminary local edit used incorrect working directory and made no change; rerun in repository root succeeded.",
     "Desktop1440/mobile390 rendered review: reading widths740/343.195px, no horizontal overflow, imageobject-fitcontain. Keyboard source return restored exact reference focus; Further reading keyboard toggle works. Mobile contents must be expanded before selecting section.",
-    "Final coastal build395routes and258/258tests passed; final publication build retains11indexablepages."
-  ]
+    "Final coastal build395routes and258/258tests passed; final publication build retains11indexablepages.",
+    "PR346 requiredCI39221204800 passed; independently reviewed head491b7957 merged as1b3400b4. Approved main publication39221663721 dispatched; actual live verification pending.",
+    "Approved main publication39221663721 succeeded at1b3400b4. Actual live HTML, photograph hash,desktop/mobile,exact source return and11-entry sitemap verified.",
+    "Initial live checker requested nonexistent sitemap-0.xml and stopped at404; corrected to configured sitemap.xml and all live assertions passed.",
+    "Receipt validation initially rejected a non-schema phase name; used established receipt_integrated phase with release explicitly conditional on receipt merge. No next article claimed."
+  ],
+  "final_review": {
+    "role": "Drishti",
+    "runtime": "/root/drishti",
+    "head": "491b7957e84e3b85fef922e9da293fbcaa2d1d4a",
+    "result": "pass_with_limitations",
+    "scope": "Separate AI review: indexed official transport text, source map, scoped authorship, photo and illustrated-book rights, all paragraphs and three options;20coastal and11affected fullsuite tests; queue/team/programme/whitespace validators.",
+    "limitations": [
+      "Separate AI review, not human or field verification. Responsive browser interactions and full builds performed by coordinator; no reviewer live-publication verification."
+    ]
+  },
+  "reviewed_head": "491b7957e84e3b85fef922e9da293fbcaa2d1d4a",
+  "article_complete": true,
+  "publication_receipt": "records/cuttack-stay-editorial-publication-2026-10-19.json",
+  "ownership_release": "Effective only when this receipt PR merges; no next article started."
 }
