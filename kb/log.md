@@ -743,3 +743,5 @@ Deep audit and article revision connect literary/devotional evidence, pedagogy a
 ## Pala reader revision · 19 October 2026
 
 Founder-approved revision retains By Ahimanikya Satapathy, the credited documentary photograph, visible sources, collapsed reading paths and visible update action. Six artist introductions now give women individual repertoire credits; saved sources support teaching and literary examples. Repeated cautions are shortened and visitor guidance consolidated into Before you go, What to listen for and Supporting the artists. Earlier origin, livelihood and visitor-availability gaps remain. Separate AI evidence review completed; quality and publication evidence follow in the team handoff. No substantive500 count increment.
+
+- 19 October 2026: Published and verified the approved Pala reader revision via PR329 at 73a155fb. Live article retains By Ahimanikya Satapathy, with six artist introductions, 31 paragraphs, 15 sources and 25 linked note markers; external credits and reading/update controls preserved. [Receipt](records/pala-reader-revision-publication-2026-10-19.json). Records-only completion; zero substantive 500 increment.

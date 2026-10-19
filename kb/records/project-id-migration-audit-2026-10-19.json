@@ -9,12 +9,13 @@
   "alias_destinations_present_in_live_documents": 3701,
   "autonomous_completed_unchanged": 112,
   "editorial_completed_before_concurrent_work": 29,
-  "editorial_completed_after_concurrent_work": 28,
+  "editorial_completed_after_concurrent_work": 29,
+  "concurrent_receipt_commit": "9780ddf7e154788a656af110b6c771bff95fc240",
   "concurrent_source_commit": "73a155fb0f5f775aaa93d09289224e6814c75285",
-  "concurrent_original_files_verified": 16,
+  "concurrent_original_files_verified": 17,
   "checks": [
     "All original register rows and ledger events equal their pre-migration values after exact ID substitution; protected quote fields and URLs unchanged.",
-    "Programme equals initial baseline after ID substitution; editorial queue and active claim equal incoming Pala baseline after ID substitution. Incoming main reopened Pala (29 to28 completed); migration makes no progress-count change. Incoming site source and tests are byte-identical.",
+    "Programme equals initial baseline after ID substitution; editorial queue and active claim equal incoming Pala baseline after ID substitution. Incoming main reopened and then completed Pala (29 to28 to29 completed); migration makes no progress-count change. Incoming site source and tests are byte-identical.",
     "All aliases preserve suffixes and have unique targets occurring in live documents.",
     "Checksummed archive matches every original-file hash; protected historical evidence is unchanged."
   ],
