@@ -98,5 +98,24 @@
   ],
   "verified_routes": [
     "/visit/experiences/cuttack-filigree/"
-  ]
+  ],
+  "receipt_pull_request": "https://github.com/ahimanikya/project-odisha/pull/337",
+  "receipt_review": {
+    "reviewer": "Drishti",
+    "kind": "separate AI review",
+    "input_head": "cc378a81a0ccfeb13488bfd1a0bbfa9bdf79079d",
+    "result": "pass_with_limitations",
+    "findings": [],
+    "tests": [
+      "9-file record-only scope",
+      "Saved live values and both screenshot artifacts match",
+      "Review and merge trees equal",
+      "30 completed,10 excluded,355 queued; programme112 unchanged",
+      "8 team tests and rollout/team/programme/whitespace checks pass"
+    ],
+    "limitations": [
+      "GitHub API connection prevented independent CI/deployment-status retrieval; coordinator tool evidence retained.",
+      "Live interactions were not independently repeated."
+    ]
+  }
 }
