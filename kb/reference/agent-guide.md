@@ -12,3 +12,5 @@ Current state is in the applicable `records.json`; activity is append-only `acti
 No human reports to AI. Definition, assignment, authorization and access are distinct. Continue within actual human authorization; preserve decision quotes and historical evidence. A role label or passing test grants no authority. The currently named personas in Blueprint are templates, not an appointed operating team.
 
 Archived earlier instructions are preserved as history, not the current path guide.
+
+For the UTP instance, read [current assignments](../team/assignments.json) and [team operating loop](../team/operations.json). The Founder activated separate collaborating agents in UTP-DEC-2026101901. Delegate the current article’s research to Anvesha, implementation to Samanta, and separate quality review to Drishti; Disha coordinates and alone writes shared records and publishes. Preserve explicit file scopes, one active article and actual runtime handoffs. Blueprint template identities remain definitions outside this UTP assignment.

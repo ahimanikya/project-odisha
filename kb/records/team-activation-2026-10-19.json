@@ -1,0 +1,213 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-19T03:04:14.909027+00:00",
+  "project": "UTP",
+  "event": "move_from_single_assistant_role_passes_to_separate_agents",
+  "status": "in_progress",
+  "authorization": "UTP-DEC-2026101901",
+  "work": "UTP-WORK-2026101901",
+  "human_supervisor": "Ahimanikya Satapathy",
+  "previous_assignments": {
+    "status": "active_for_bounded_first_task",
+    "human_owner": {
+      "full_name": "Ahimanikya Satapathy",
+      "kind": "human",
+      "role": "Founder & Editor-in-Chief",
+      "status": "existing_authority"
+    },
+    "assignments": [
+      {
+        "full_name": "Disha Dash",
+        "short_name": "Disha",
+        "kind": "persona",
+        "name_status": "approved",
+        "project": "UTP",
+        "jd_ids": [
+          "UTP-JD-002",
+          "UTP-JD-003"
+        ],
+        "jd_candidate_version": "0.3",
+        "human_supervisor": "Ahimanikya Satapathy",
+        "human_reports": [],
+        "state": "active_bounded_role_pass",
+        "decision_reference": "UTB-DEC-005",
+        "execution_mode": "labelled_role_pass_in_current_conversation",
+        "first_task": "UTP-WORK-001",
+        "new_access_requested": [],
+        "activation_evidence": "records/jml-first-assignments.json",
+        "active_scope": "UTP-WORK-001 only; supervised role pass by current assistant; no independent process"
+      },
+      {
+        "full_name": "Anvesha Acharya",
+        "short_name": "Anvesha",
+        "kind": "persona",
+        "name_status": "approved",
+        "project": "UTP",
+        "jd_ids": [
+          "UTP-JD-007",
+          "UTP-JD-008"
+        ],
+        "jd_candidate_version": "0.3",
+        "human_supervisor": "Ahimanikya Satapathy",
+        "human_reports": [],
+        "state": "active_bounded_role_pass",
+        "decision_reference": "UTB-DEC-005",
+        "execution_mode": "labelled_role_pass_in_current_conversation",
+        "first_task": "UTP-WORK-001",
+        "new_access_requested": [],
+        "activation_evidence": "records/jml-first-assignments.json",
+        "active_scope": "UTP-WORK-001 only; supervised role pass by current assistant; no independent process"
+      },
+      {
+        "full_name": "Samanta Chandrasekhar",
+        "short_name": "Samanta",
+        "kind": "persona",
+        "name_status": "approved",
+        "project": "UTP",
+        "jd_ids": [
+          "UTP-JD-004",
+          "UTP-JD-005"
+        ],
+        "jd_candidate_version": "0.3",
+        "human_supervisor": "Ahimanikya Satapathy",
+        "human_reports": [],
+        "state": "active_bounded_role_pass",
+        "decision_reference": "UTB-DEC-005",
+        "execution_mode": "labelled_role_pass_in_current_conversation",
+        "first_task": "UTP-WORK-001",
+        "new_access_requested": [],
+        "activation_evidence": "records/jml-first-assignments.json",
+        "active_scope": "UTP-WORK-001 only; supervised role pass by current assistant; no independent process"
+      },
+      {
+        "full_name": "Drishti Senapati",
+        "short_name": "Drishti",
+        "kind": "persona",
+        "name_status": "approved",
+        "project": "UTP",
+        "jd_ids": [
+          "UTP-JD-006"
+        ],
+        "jd_candidate_version": "0.3",
+        "human_supervisor": "Ahimanikya Satapathy",
+        "human_reports": [],
+        "state": "active_bounded_role_pass",
+        "decision_reference": "UTB-DEC-005",
+        "execution_mode": "labelled_role_pass_in_current_conversation",
+        "first_task": "UTP-WORK-001",
+        "new_access_requested": [],
+        "activation_evidence": "records/jml-first-assignments.json",
+        "active_scope": "UTP-WORK-001 only; supervised role pass by current assistant; no independent process"
+      }
+    ]
+  },
+  "access_delta": {
+    "added": [],
+    "removed": [],
+    "retained": "Existing task-authorized repository and tools; no security configuration changes. File ownership instructions do not create sandbox isolation."
+  },
+  "configuration_verification": "Root inspected adopted JML, charter, working agreement and role records. Anvesha and Samanta completed separate initial reviews; Samanta implementing bounded fixes; Drishti has separately inspected setup and requested durable file reservations.",
+  "human_review": false,
+  "substantive_items_added": 0,
+  "article_complete": false,
+  "executions": [
+    {
+      "role": "Disha",
+      "runtime": "/root",
+      "task": "Coordinator: restore one article queue, integrate main, reserve scopes and write durable team records",
+      "status": "active",
+      "reserved_write_paths": [
+        "kb/team/",
+        "kb/registers/",
+        "kb/records/",
+        "kb/research/destinations/regions.json",
+        "kb/research/destinations/cuttack-editorial.json",
+        "kb/reference/agent-guide.md",
+        "AGENTS.md",
+        "tools/check_team_assignments.py",
+        "tools/test_team_assignments.py",
+        ".github/workflows/validate-site.yml"
+      ],
+      "coordination_note": "Coordinator integrates only after worker releases its file reservation."
+    },
+    {
+      "role": "Anvesha",
+      "runtime": "/root/anvesha",
+      "input_head": "bc85ed819578f42c3027a921a6f491f116962051",
+      "task": "Cuttack claim and provenance review",
+      "status": "handoff_received",
+      "findings": [
+        "Correct ambiguous cuttack-craft ID: canonical ID is National Portal but scoped article used NID. Use established tarakasi-dsource-process.",
+        "Retained Barabati, Tarakasi, Netaji and Jobra claim groups supported with documented limits."
+      ],
+      "limits": [
+        "Separate AI review, not human/specialist or field review.",
+        "District/Jobra direct retrieval unavailable; inspected indexed institutional text and dated KB records. District bibliographic record is not a full-page archived capture."
+      ],
+      "reserved_write_paths": []
+    },
+    {
+      "role": "Samanta",
+      "runtime": "/root/samanta",
+      "input_head": "bc85ed819578f42c3027a921a6f491f116962051",
+      "task": "Cuttack implementation and queue review; then bounded download fix",
+      "status": "handoff_received",
+      "findings": [
+        "Six focused Cuttack/Puri/Bhubaneswar tests passed against existing build.",
+        "Final download still used shared AI production credit and omitted per-entry author; fix optional explicit author metadata.",
+        "Single article validator must remain unchanged; one coordinator writes shared records."
+      ],
+      "limits": [
+        "Did not rerun full suites or fresh interactive browser review; inspected saved screenshots.",
+        "First review predates c3ff9bb8 main integration."
+      ],
+      "changed_paths": [
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/src/lib/tour-book.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/tests/tour-book.test.mjs",
+        "projects/site/tests/cuttack-reading-book.test.mjs"
+      ],
+      "reserved_write_paths": [],
+      "handoff": {
+        "result": "Cuttack explicit author and paragraph breaks preserved in HTML, text and print; no default author on unrelated entries; shared production credit replaced by editorial process link.",
+        "verification": [
+          "Full Astro build passed",
+          "11 focused export tests passed",
+          "Actual Chrome exported reading at1114px and390x844: no overflow, five opening paragraphs, byline, five concise sources, editorial-process link"
+        ],
+        "screenshots": [
+          "/tmp/samanta-cuttack-export-desktop.png",
+          "/tmp/samanta-cuttack-export-mobile.png"
+        ],
+        "limits": [
+          "No physical print test",
+          "Full/coast regression pending coordinator run"
+        ]
+      }
+    },
+    {
+      "role": "Drishti",
+      "runtime": "/root/drishti",
+      "task": "Separate quality review of integrated setup and Cuttack candidate",
+      "status": "review_active",
+      "reserved_write_paths": [],
+      "findings": [
+        "Persist exact worker write reservations for restart; coordinator added them after this review."
+      ],
+      "input_head": "c3ff9bb84f (working tree team setup)",
+      "limits": [
+        "Separate AI review; not human review. Final integrated candidate not yet reviewed."
+      ]
+    }
+  ],
+  "next_action": "Resolve research/download findings, separate Drishti review, update existing heartbeat, publish reviewed Cuttack and save receipt.",
+  "automation": {
+    "id": "utkal-next-500",
+    "status": "ACTIVE",
+    "update_verified": true,
+    "schedule_changed": false,
+    "notification_policy_changed": false,
+    "instruction": "Read current team operations and handoff, delegate three separate roles, keep one article and coordinator."
+  }
+}
