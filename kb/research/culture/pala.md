@@ -114,6 +114,14 @@ Afterwards, try to remember one moment when the meaning changed: a fly-whisk bec
 
 [Claim evidence and follow-up](../sources/pala-sounds-story-research.md).
 
+## Organisation and recording follow-up · 19 October 2026
+
+[Pala networks: Sachidananda Dash, UKS TV and organisations](pala-networks.md). A separate research follow-up distinguishes a cultural publisher, a registered troupe, association leads and a research foundation; contact overlap does not prove ownership or office.
+
+## Artist research · 19 October 2026
+
+[Twenty Pala artists](../people/pala-artists.md) — The artist collection connects named works, teaching, writing, festival participation and recordings; dated contributions are distinct from current availability.
+
 ## Preserved research overview · 1 October 2026
 
 The earlier overview follows unchanged. Its retrieval notices describe that research history; later follow-ups are retained with it.

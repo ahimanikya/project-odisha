@@ -1,0 +1,282 @@
+{
+  "schema_version": "1.0",
+  "reviewed_on": "2026-10-19",
+  "request_scope": "User-directed second Pala audit and public research beginning with sachidash.ukstv.",
+  "human_review_claimed": false,
+  "sources": [
+    {
+      "id": "pala-sachidash-uks20261019",
+      "title": "Sachidananda Dash public profile and UKS TV catalogue",
+      "url": "https://www.facebook.com/sachidash.ukstv",
+      "kind": "first_party_public_profile_and_publisher_catalogue",
+      "locator": "Profile bio and Communities; UKS TV channel About; Guru Dakhina description and date",
+      "related_urls": [
+        "https://www.youtube.com/@odiapala",
+        "https://www.youtube.com/watch?v=ES4fdzpvjgA",
+        "https://www.facebook.com/utkaliyakalasanskruti/",
+        "https://www.facebook.com/UtkaliyaKalaSanskrutii"
+      ],
+      "scope": "Profile self-description and publisher credits; not legal ownership or association office. Multiple UKS pages are one publisher family.",
+      "retrieval": "Direct Chrome UI inspection; general web fetch unavailable.",
+      "retrieved_on": "2026-10-19"
+    },
+    {
+      "id": "pala-ctms20261019",
+      "title": "Culture Department cultural-troupe register, selected Pala entries",
+      "url": "https://ctms-ollc.odisha.gov.in/cts_registered?page=4",
+      "kind": "government_administrative_register",
+      "locator": "List of Cultural Troupes Registered; serial 322, CT13T004; surrounding rows for comparison",
+      "scope": "Portal registration and profile-update dates; not incorporation, founding, availability or quality certification.",
+      "retrieval": "Web reader and direct HTTPS HTML; exact row parsed.",
+      "retrieved_on": "2026-10-19"
+    },
+    {
+      "id": "pala-institutions20261019",
+      "title": "Culture Department artist database, Keonjhar–Jhumpura",
+      "url": "https://culture.odisha.gov.in/en/artist-database/odisha-folk-artist/kendujarh/Keonjhar-Jhumpura?page=9",
+      "kind": "government_hosted_artist_database",
+      "locator": "Serial 298, art-institution field",
+      "scope": "Institution name appears in an artist entry; not an independently examined society certificate or present statewide roster.",
+      "retrieval": "Direct HTTPS HTML succeeded; web reader failed.",
+      "retrieved_on": "2026-10-19"
+    },
+    {
+      "id": "pala-tarini2026",
+      "title": "Ma Tarini Chaiti Parba closing-day report",
+      "url": "https://eodishasamachar.com/?p=76799",
+      "kind": "dated_local_news_report",
+      "published_on": "2026-04-16",
+      "locator": "Closing cultural-programme paragraphs: Badi Pala and named singers",
+      "scope": "Report credits Sachidananda Dash and Dhiren Mohanty with Pala at the closing programme. Similar name and role support a lead; no formal UKS ownership, personal biography or recording-rights inference. Dailyhunt republication is not independent corroboration.",
+      "retrieval": "Direct HTTPS HTML succeeded; web reader direct fetch failed; indexed body available.",
+      "retrieved_on": "2026-10-19"
+    },
+    {
+      "id": "pala-sjprf-home",
+      "title": "Shree Jagannath Pala Research Foundation",
+      "url": "https://www.sjprf.in/",
+      "kind": "institutional_self_description",
+      "locator": "Welcome; Our Team; Pala Kabita; documentary notices",
+      "scope": "Self-reported research mission and registration on 27 August 2015; registry certificate not inspected. Undated team list is not a current office-holder register. No Sachidananda Dash affiliation established.",
+      "retrieval": "Web-reader HTML inspected; direct Python fetch returned HTTP 406. Linked notices not independently resolved this run.",
+      "retrieved_on": "2026-10-19"
+    },
+    {
+      "id": "pala-nie-pandemic2021",
+      "title": "Pandemic-hit Pala artistes seek Odisha government aid",
+      "url": "https://www.newindianexpress.com/states/odisha/2021/Jul/17/pandemic-hit-pala-artistes-seek-odisha-government-aid-2331463.html",
+      "kind": "dated_report_with_association_testimony",
+      "published_on": "2021-07-17",
+      "locator": "Association representative and request for aid",
+      "scope": "A 2021 livelihood appeal naming Sri Nilachala Nikhila Utkal Association of Pala Artistes. Historical report only; unattributed statewide count and pension figure not adopted as current statistics. No Dash membership established.",
+      "retrieval": "Web reader article inspected.",
+      "retrieved_on": "2026-10-19"
+    }
+  ],
+  "identities": [
+    {
+      "id": "sachidananda-dash-pala",
+      "name": "Sachidananda Dash",
+      "odia_name": "ସଚ୍ଚିଦାନନ୍ଦ ଦାଶ",
+      "profile": "https://www.facebook.com/sachidash.ukstv",
+      "self_described_roles": [
+        "Pala performer",
+        "Speaker on Bhagavad Gita, Bhagavata, Malika and Jagannath culture"
+      ],
+      "publisher_credited_role": "Sachidananda Dash and team, Guru Dakhina, UKS TV",
+      "formal_organisation_position": null,
+      "legal_ownership": null,
+      "identity_boundary": "Textual name, performance role and UKS handle establish a relevant research identity; not a full independently checked biography. Do not merge with Sachi Pati, Odissi Mardala exponent Sachidananda Das or other namesakes.",
+      "source_ids": [
+        "pala-sachidash-uks20261019"
+      ]
+    }
+  ],
+  "organisations": [
+    {
+      "id": "uks-tv",
+      "name": "UKS TV / Utkaliya Kala Sanskruti",
+      "odia_name": "ଉତ୍କଳୀୟ କଳା ସଂସ୍କୃତି TV",
+      "type": "cultural media publisher",
+      "channel": "https://www.youtube.com/@odiapala",
+      "youtube_channel_id": "UCSYg-mApiqnKOVtpvzrTu9g",
+      "youtube_joined_on": "2017-06-05",
+      "founding_date": null,
+      "registration": null,
+      "management": null,
+      "scope": "Channel describes Pala, devotional discourse and cultural programming. Catalogue includes named artists, full-length programmes, training clips and playlists. Channel join date is not organisation founding.",
+      "source_ids": [
+        "pala-sachidash-uks20261019"
+      ]
+    },
+    {
+      "id": "sri-satyanarayana-pala-parisada-ct13t004",
+      "name": "Sri Satyanarayana Pala Parisada",
+      "portal_id": "CT13T004",
+      "location": "Kantapara, Cuttack district",
+      "portal_category": "Music/ Pala",
+      "portal_registration_date": "2022-07-21",
+      "portal_profile_updated_on": "2026-06-21",
+      "legal_registration": null,
+      "founding_date": null,
+      "booking_availability": null,
+      "source_ids": [
+        "pala-ctms20261019"
+      ]
+    },
+    {
+      "id": "nilachala-pala-network",
+      "name": "Sri Nilachala Nikhilotkala Pala Gayaka Parisad Odisha",
+      "type": "Pala association/network research identity",
+      "scope": "Institution label in government artist database; English variants appear in dated reporting. Exact legal-name equivalence, current officers and branches require primary governing records.",
+      "dash_affiliation": null,
+      "source_ids": [
+        "pala-institutions20261019",
+        "pala-nie-pandemic2021"
+      ]
+    },
+    {
+      "id": "sjprf",
+      "name": "Shree Jagannath Pala Research Foundation",
+      "self_reported_registration_date": "2015-08-27",
+      "registry_verified": false,
+      "dash_affiliation": null,
+      "scope": "Research and dissemination institution; website lists Pala Kabita and artist documentary notices. Listings are not a verified playable archive or reuse licence.",
+      "source_ids": [
+        "pala-sjprf-home"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "from": "sachidananda-dash-pala",
+      "to": "uks-tv",
+      "relationship": "credited_performer",
+      "confidence": "publisher_credit_verified",
+      "evidence": "Guru Dakhina title and description credit Sachidananda Dash and team. Profile also uses UKS handle and names a related cultural channel.",
+      "source_ids": [
+        "pala-sachidash-uks20261019"
+      ]
+    },
+    {
+      "from": "uks-tv",
+      "to": "sri-satyanarayana-pala-parisada-ct13t004",
+      "relationship": "shared_public_booking_contact",
+      "confidence": "provisional_connection",
+      "evidence": "One current UKS channel About booking contact exactly matches CTMS serial 322. Checked against retrieved HTML. Contact value omitted from this research narrative.",
+      "establishes": "A useful contact-level organisational lead.",
+      "does_not_establish": [
+        "same legal entity",
+        "ownership",
+        "founder role",
+        "Dash office or membership",
+        "confirmed present booking service"
+      ],
+      "source_ids": [
+        "pala-sachidash-uks20261019",
+        "pala-ctms20261019"
+      ]
+    }
+  ],
+  "recording_catalogue": [
+    {
+      "title": "Guru Dakhina",
+      "credited_performer": "Sachidananda Dash and team",
+      "publisher": "UKS TV",
+      "url": "https://www.youtube.com/watch?v=ES4fdzpvjgA",
+      "published_on": "2023-03-19",
+      "displayed_duration": "01:55:19",
+      "inspection": "Title, description, upload date and player availability; not a full content or performance analysis.",
+      "rights": "No reuse permission established."
+    },
+    {
+      "title": "Juga Purusha",
+      "credited_performer": "Gayak Sachidananda Dash",
+      "publisher": "UKS TV",
+      "url": "https://www.youtube.com/playlist?list=PLc6bdgTN2EJtnMAWyXBCkiBPtEKAKNgZX",
+      "inspection": "Playlist title and link on channel home; individual episodes not examined.",
+      "rights": "Unknown."
+    },
+    {
+      "title": "Pala prashikshana (akhada), Laxmidhar Rout",
+      "credited_performer": "Laxmidhar Rout as named by uploader",
+      "publisher": "UKS TV",
+      "url": "https://www.youtube.com/watch?v=MSyEL71FUhs",
+      "inspection": "Catalogue title only; teaching method, original occasion and full content not examined.",
+      "rights": "Unknown."
+    },
+    {
+      "title": "Rochak Ramayan, Ditiya Thaka",
+      "credited_performer": "Nrusingha Hota and team",
+      "publisher": "UKS TV",
+      "url": "https://www.youtube.com/watch?v=6vCaAth_Jgo",
+      "displayed_duration": "02:25:41",
+      "inspection": "Featured player and description, credited Dreamer Studios as video producer; no full playback analysis.",
+      "rights": "Publisher credit and generic disclaimer do not establish a permission grant."
+    }
+  ],
+  "audit": {
+    "article_baseline": "792ba296023f4d7e6471a43e53b5b2d4dcb95382",
+    "scope": "Second editorial/source-boundary audit of saved Pala narrative, 19 October mapping and new organisational leads. Stable original papers reused; not freshly reread or independently corroborated.",
+    "findings": [
+      {
+        "status": "retained",
+        "finding": "Regional ensemble and dated award/event/repertoire claims remain source-specific; no universal cast count, founding year or current booking claim found in the maintained narrative."
+      },
+      {
+        "status": "gap_identified",
+        "finding": "Public article does not yet explain digital circulation or differentiate media publishers, troupes, councils and research foundations. New dossier supports a later bounded section with carefully labelled links."
+      },
+      {
+        "status": "provisional",
+        "finding": "Shared booking contact supports the CT13T004 lead, but no primary document names Dash as founder, president, secretary or trustee."
+      },
+      {
+        "status": "not_adopted",
+        "finding": "Recent Facebook photographs inspected include AI-content labels and unrelated devotional-event banners. They do not establish institutional office or serve as independent documentary evidence."
+      },
+      {
+        "status": "not_adopted",
+        "finding": "Social followers, views and video counts are mutable platform counters, not unique audience, statewide participation, revenue or impact."
+      },
+      {
+        "status": "historical_capture_difference",
+        "finding": "The source workspace records a 12 October Dash2011 PDF recovery after disabling TLS verification; the project dossier records secure-fetch failures. Preserve both histories. The source-workspace recovery is not fresh secure verification or independent corroboration; current public form explanation already uses Patra2017."
+      },
+      {
+        "status": "publication_unchanged",
+        "finding": "New research retained in KB; no website narrative or media rights changed by this follow-up."
+      }
+    ]
+  },
+  "open_questions": [
+    {
+      "id": "PALA-NET-01",
+      "question": "Who formally operates UKS TV, and what is Dash’s stated role?",
+      "needed": "Publisher-authored team page, documented interview or governing record explicitly naming the role."
+    },
+    {
+      "id": "PALA-NET-02",
+      "question": "What is the exact relationship between UKS TV and CT13T004?",
+      "needed": "Troupe profile or office-bearer record naming personnel and explaining the shared booking contact."
+    },
+    {
+      "id": "PALA-NET-03",
+      "question": "What are the current elected officers and legal identities of the Nilachala Pala councils?",
+      "needed": "Dated constitution, registration certificate or election/annual-meeting record; do not substitute old news reports."
+    },
+    {
+      "id": "PALA-NET-04",
+      "question": "Which recordings can be quoted, embedded, transcribed or republished with consent?",
+      "needed": "Separate performer and recording-owner permissions, episode metadata and language review."
+    },
+    {
+      "id": "PALA-NET-05",
+      "question": "How do training and host payments work now?",
+      "needed": "Named, consented practitioner testimony and dated programme/payment evidence; no outreach performed."
+    }
+  ],
+  "no_outreach": true,
+  "no_media_download_or_republication": true,
+  "publication_status": "research_followup_not_public_website_copy"
+}

@@ -133,3 +133,6 @@ The [contemporary creators collection](../people/contemporary-creators.md) now i
 ## Mineral scientists · 4 October 2026
 
 [Mamata Mohapatra](mamata-mohapatra.md) and [M.G. Sujana](m-g-sujana.md) add documented education/work connections to Odisha, linked to research and credited collaborations. Institutional ties do not establish birthplace or mother tongue.
+
+
+[Pala artists](pala-artists.md) connects twenty selected practitioners with works and cultural transmission; national awards, community titles and dated programme credits remain distinct.

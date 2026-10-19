@@ -785,3 +785,11 @@ Sudasa supplementary passages reconciled using saved captures; source scopes and
 ## 2026-10-11 · Khudurukuni and maritime review
 
 Saved Khudurukuni article and maritime study reconciled using saved captures; source scopes and dates preserved.
+
+## 2026-10-19 · Pala social and organisational audit
+
+Reuse `culture/pala-networks.md`, `references/data/pala-networks.json` and their scoped sources for Sachidananda Dash / UKS TV / CT13T004 research. This is a new dated identity map, not exhaustive semantic deduplication or a change to completed RES-040 criteria. Shared contacts remain provisional links, and publisher self-descriptions are not independent corroboration.
+
+### Pala artist extension · 19 October 2026
+
+The [artist collection](../people/pala-artists.md) and scoped register add 20 selected practitioners and source-specific contribution records, reusing the Pala overview and network audit. Explicit source pointers extend the map; the historical queue and imported scope remain unchanged.
