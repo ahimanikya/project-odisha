@@ -5,11 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-<<<<<<< HEAD
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `89f9c58ddc44716a9748bbec5ba6880e35637bff1a63224be93ec3900f8ecafc`.
-=======
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `0405ea51a803651fc1e2bc2439f92c4ed577e56790efbda84d198295bf4b8cf2`.
->>>>>>> origin/main
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `79a9c54c40d858a0872250d3a0924eba80e72fc3889e9e4c06f51fdd21f9cb57`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -1170,20 +1166,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-<<<<<<< HEAD
-| UTP-EVT-2026101902 | 2026-10-19T00:16:54.031916+00:00 | Published Bhubaneswar stay guide through reviewed PR314 and approved main workflow. Verified live article, byline, one visible note with exact return, complete narrative/options and unchanged documentary photograph. UTP-EDIT-033 complete; zero substantive500 increment. | — |
-| UTP-EVT-2026101903 | 2026-10-19T01:10:28.961836+00:00 | Reviewed Bhubaneswar photographic archive: visible eight-image reading, Founder byline, preserved photographer and unknown-artist credits, updated cultural sources and12 visible notes. Full562/coast237 and responsive/keyboard gallery checks passed; publication pending. Zero substantive500 increment. | — |
-| UTP-EVT-2026101904 | 2026-10-19T01:19:51.473774+00:00 | Published Bhubaneswar photographic archive through reviewed PR316 and approved main workflow. Verified live byline, visible eight-image reading,12 notes with13 exact returns and unchanged original photographs. UTP-EDIT-034 complete; zero substantive500 increment. | — |
-| UTP-EVT-2026101905 | 2026-10-19T02:08:33.602958+00:00 | Reviewed Cuttack destination: explains fort remains, wire structure and two museum evidence types; Founder byline, five visible sources, twelve exact returns, full-frame photographs and portable narrative. Full562/coast238 and responsive checks passed; publication pending. Zero substantive500 increment. | — |
-| UTP-EVT-2026101906 | 2026-10-19T03:04:14.909027+00:00 | Founder authorized separate UTP agents; first Anvesha and Samanta handoffs found source-ID and downloadable-attribution corrections. Scoped team operations recorded; quality review and release pending. Zero substantive500 increment. | — |
-| UTP-EVT-2026101907 | 2026-10-19T03:19:05.925344+00:00 | Activated actual separate UTP team and delivered Cuttack through reviewed PR319 and approved main workflow. Live12 reference returns,5 source notes, credited original images and responsive behavior verified;28 editorial entries complete, zero substantive500 increment. | — |
-| UTP-EVT-2026101908 | 2026-10-19T03:54:24.271244+00:00 | Collaborating team delivered Barabati through separately reviewed PR324 and approved main workflow. Live4 exact reference returns,2 source notes, original credited photograph and responsive reading verified;29 editorial entries complete, zero substantive500 increment. | — |
-| UTP-EVT-20261018102 | 2026-10-18T01:22:37.475240+00:00 | Published and verified coherent Jhula story, accurate kit scope and three collection groups;all20 design choices preserved. | — |
-| UTP-EVT-20261019101 | 2026-10-19T04:23:34.609332+00:00 | Added the founder-requested Odia Poetry Jhula link to the shared site footer; publication pending. | — |
-| UTP-EVT-20261019102 | 2026-10-19T04:31:07.232980+00:00 | Published and browser-verified the shared footer link to Odia Poetry Jhula via PR 332. | — |
-=======
-| POD-EVT-2026101902 | 2026-10-19T00:16:54.031916+00:00 | Published Bhubaneswar stay guide through reviewed PR314 and approved main workflow. Verified live article, byline, one visible note with exact return, complete narrative/options and unchanged documentary photograph. POD-EDIT-033 complete; zero substantive500 increment. | — |
-| POD-EVT-2026101903 | 2026-10-19T01:10:28.961836+00:00 | Reviewed Bhubaneswar photographic archive: visible eight-image reading, Founder byline, preserved photographer and unknown-artist credits, updated cultural sources and12 visible notes. Full562/coast237 and responsive/keyboard gallery checks passed; publication pending. Zero substantive500 increment. | — |
 | POD-EVT-2026101904 | 2026-10-19T01:19:51.473774+00:00 | Published Bhubaneswar photographic archive through reviewed PR316 and approved main workflow. Verified live byline, visible eight-image reading,12 notes with13 exact returns and unchanged original photographs. POD-EDIT-034 complete; zero substantive500 increment. | — |
 | POD-EVT-2026101905 | 2026-10-19T02:08:33.602958+00:00 | Reviewed Cuttack destination: explains fort remains, wire structure and two museum evidence types; Founder byline, five visible sources, twelve exact returns, full-frame photographs and portable narrative. Full562/coast238 and responsive checks passed; publication pending. Zero substantive500 increment. | — |
 | POD-EVT-2026101906 | 2026-10-19T03:04:14.909027+00:00 | Founder authorized separate UTP agents; first Anvesha and Samanta handoffs found source-ID and downloadable-attribution corrections. Scoped team operations recorded; quality review and release pending. Zero substantive500 increment. | — |
@@ -1192,7 +1174,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261018102 | 2026-10-18T01:22:37.475240+00:00 | Published and verified coherent Jhula story, accurate kit scope and three collection groups;all20 design choices preserved. | — |
 | POD-EVT-20261019101 | 2026-10-19T04:23:34.609332+00:00 | Added the founder-requested Odia Poetry Jhula link to the shared site footer; publication pending. | — |
 | POD-EVT-2026101909 | 2026-10-19T04:10:43.416372+00:00 | Apply Founder-requested migration: canonical Project Odisha IDs and live references move from UTP to POD with suffixes preserved. Original changed files and ledgers archived byte-for-byte; exact aliases retain old-reference lookup. Tests and separate review pending. | — |
->>>>>>> origin/main
+| POD-EVT-20261019102 | 2026-10-19T04:31:07.232980+00:00 | Published and browser-verified the shared footer link to Odia Poetry Jhula via PR 332. | — |
+| POD-EVT-20261019103 | 2026-10-19T04:39:48.073290+00:00 | Organized shared footer into balanced navigation groups and removed the detached decorative strip at the founder’s request. | — |
 
 ## Deferred extensions
 
