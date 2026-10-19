@@ -740,3 +740,7 @@ Khudurukuni authorship, cited Lokanath print and situated khuda identity remain 
 ## Pala artists · 19 October 2026
 
 [Twenty selected artist entries](../people/pala-artists.md) now distinguish awards, repertoire, apprenticeship and organisation. Prioritise women’s own dated biographies, named bayak/palia credits, work editions, current teaching and original recording occasions. Jagannath Behera’s birth-year conflict and Agadhu Beura’s youth chronology remain quarantined in the structured register. No interviews or income outcomes established.
+
+## Pala preservation and visitor follow-up ·19October2026
+
+The [Pala reader](../culture/pala.md) now connects literary/devotional history, pedagogy and a preservation argument with visitor planning. Still needed: a dated confirmed public opportunity with visitor admission, fee, language/access details; practitioner-led views, women’s teaching histories and whole-ensemble credits; situated livelihoods, full episode attribution and original manuscript collation. Official troupe registration is not operating availability.

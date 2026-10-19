@@ -816,3 +816,7 @@ User-directed second audit records Sachidananda Dash’s public professional pro
 ## 2026-10-19 — Pala artists and cultural transmission
 
 User-requested [twenty-artist collection](people/pala-artists.md) and structured register add verified national citation evidence, dated regional profiles, women’s programme credits, teaching/writing/association links and recording routes. National award year 2016 stays separate from January 2018 events. Birth-year and early chronology conflicts quarantined; current activity and media rights unknown. Research-only delivery; no new public website revision or programme completion.
+
+## Pala history, preservation and visitors ·19October2026
+
+Expanded the existing Pala narrative using saved artist/network and literary evidence; added UNESCO’s general safeguarding principles and rechecked CTMS discovery scope. History, interpretation, editorial advice and unknown current visitor arrangements remain distinct. Reconciled stale machine-readable form/award fields without changing the initial nucleus or queue criteria. New [structured supplement](references/data/pala-preservation-visit.json) records gaps and visitor unknowns.
