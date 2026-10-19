@@ -8647,7 +8647,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-2026101702",
-      "next_action": "Continue UTP-EDIT-035 Cuttack destination: inspect its individual source, KB and active workers before revision. Twenty-six editorial articles completed, nine exclusions; substantive500 remains112.",
+      "next_action": "Resume Cuttack UTP-EDIT-035 with the activated team after Pala receipt PR320; correct review findings, verify and publish PR319.",
       "blockers": [],
       "refs": [
         "UTP-DEC-2026101702",
@@ -8705,7 +8705,8 @@
         "UTP-REV-296",
         "UTP-REL-167",
         "UTP-REV-297",
-        "UTP-REL-168"
+        "UTP-REL-168",
+        "UTP-REV-298"
       ],
       "evidence": [
         "reference/article-editorial-standard.md",
@@ -8782,6 +8783,27 @@
         "records/jhula-clarity-review-2026-10-18.json"
       ],
       "acceptance_criteria": "Clear product introduction;18 kits versus2 bag studies accurately stated;three collection jump links;no accumulated rollout wording;existing20 IDs, artwork and feedback behavior preserved."
+    },
+    {
+      "id": "UTP-WORK-2026101901",
+      "title": "Activate separate editorial agents and durable handoffs",
+      "category": "governance",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha Dash, coordinator in the current chat",
+      "authorization": "UTP-DEC-2026101901",
+      "next_action": "Verify actual specialist handoffs, separate quality review and saved continuation instructions; merge reviewed records.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-2026101901",
+        "UTP-WORK-302"
+      ],
+      "evidence": [
+        "team/operations.json",
+        "records/team-activation-2026-10-19.json"
+      ],
+      "acceptance_criteria": "Four explicitly assigned roles; actual separate specialist executions; honest runtime history; one writer and article claim; no changed privileges; durable handoffs and existing automation updated; checked and merged records. Not a substantive500 delivery."
     }
   ],
   "decisions": [
@@ -13624,6 +13646,28 @@
       ],
       "evidence": [
         "records/jhula-clarity-review-2026-10-18.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-2026101901",
+      "title": "Activate the UTP editorial team as separate collaborating agents",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Can we do that now?",
+      "context": "Founder accepted the proposed Disha coordinator, Anvesha research, Samanta design/engineering and Drishti quality team after asking why an actual team was not set up.",
+      "scope": "Activate these four existing UTP personas for the already authorized article rollout and substantive programme; one article at a time, separate specialist executions, one coordinator writes shared records and publishes under existing authorization. No new account access, outreach, spending, human appointments or held-project activation.",
+      "recorded_at": "2026-10-19T03:04:14.909027+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-2026101901",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "team/operations.json",
+        "records/team-activation-2026-10-19.json"
       ]
     }
   ],
@@ -20694,6 +20738,57 @@
         "Zero substantive500 increment.",
         "Browser emulation, not physical-device or screen-reader testing.",
         "Visual reinspection covers eight featured photographs; remaining original archive views retained, not newly identified."
+      ]
+    },
+    {
+      "id": "UTP-REV-298",
+      "title": "Cuttack: visible sources and close reading of city evidence",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-302",
+        "UTP-DEC-2026101702",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/cuttack-editorial-source-mapping-2026-10-19.json",
+        "records/cuttack-editorial-review-2026-10-19.json"
+      ],
+      "limitations": [
+        "Same-assistant editorial review; no independent human or specialist review.",
+        "No maker, venue, vendor or step-free route contacted or inspected.",
+        "No ancient ship construction inferred from Jobra industrial exhibits.",
+        "District and museum current direct retrieval failed; reused dated evidence and indexed institution text explicitly recorded.",
+        "No search eligibility change; no substantive500 increment.",
+        "Responsive browser emulation, not physical-device or screen-reader testing."
+      ]
+    },
+    {
+      "id": "UTP-REV-299",
+      "title": "Separate team activation and Cuttack handoff review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti Senapati, separate subagent /root/drishti"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution from coordinator and implementer; not human or specialist review.",
+      "reviewed_head": "23146165a33e1c74ebf2cb641c21a8bf011aeb4c",
+      "refs": [
+        "UTP-WORK-2026101901",
+        "UTP-WORK-302",
+        "UTP-DEC-2026101901"
+      ],
+      "evidence": [
+        "records/team-activation-2026-10-19.json"
+      ],
+      "limitations": [
+        "No human review, field confirmation or physical print test.",
+        "Inspected saved screenshots; deployment/live check pending coordinator."
       ]
     }
   ],

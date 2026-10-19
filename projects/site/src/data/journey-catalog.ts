@@ -1,3 +1,4 @@
+import cuttackEditorial from '../../../../kb/research/destinations/cuttack-editorial.json';
 import puriEditorial from '../../../../kb/research/destinations/puri-editorial.json';
 import chilikaEditorial from '../../../../kb/research/destinations/chilika-editorial.json';
 import konarkEditorial from '../../../../kb/research/destinations/konark-editorial.json';
@@ -33,10 +34,11 @@ for(const p of crafts.pages)entries.push({id:p.save_id,title:p.title,kind:'Readi
 entries.push({id:everyday.save_id,title:everyday.title,kind:'Reading',area:'Across Odisha',summary:everyday.lead,href:'/food/everyday/',checked:everyday.checked_on,practical:everyday.questions.map(text=>({heading:'Ask the maker',text})),sources:[...new Set(everyday.chapters.flatMap(c=>foodCollection.pages.find(p=>p.slug===c.slug).sections.flatMap(s=>s.paragraphs.flatMap(p=>p.source_ids))))].map(id=>foodCollection.sources[id])});
 entries.push({id:fire.save_id,title:fire.title,kind:'Reading',area:'Across Odisha',summary:fire.lead,href:'/food/fire-cooking/',checked:fire.checked_on,practical:fire.questions.map(text=>({heading:'Ask the maker',text})),sources:[...new Set(fire.chapters.flatMap(c=>foodCollection.pages.find(p=>p.slug===c.slug).sections.flatMap(s=>s.paragraphs.flatMap(p=>p.source_ids))))].map(id=>foodCollection.sources[id])});
 for(const r of regions.regions){
- const sourcePool=r.slug==='puri'?Object.fromEntries(puriEditorial.sources.map(s=>[s.id,s])):regions.sources;
+ const regionEditorial=r.slug==='puri'?puriEditorial:r.slug==='cuttack'?cuttackEditorial:null;
+ const sourcePool=regionEditorial?Object.fromEntries(regionEditorial.sources.map(s=>[s.id,s])):regions.sources;
  const sources=ids=>ids.map(id=>({title:sourcePool[id].title,url:sourcePool[id].url}));
  const href=`/destinations/${r.slug}/`;
- entries.push({id:r.id,title:r.title,kind:'Place',area:r.title,summary:r.orientation,href,checked:r.checked_on||regions.checked_on,practical:r.visitor_notes||[],sources:sources([...new Set([...r.source_ids,...(r.visitor_notes||[]).flatMap(n=>n.source_ids)])])});
+ entries.push({id:r.id,...(r.slug==='cuttack'?{author:cuttackEditorial.author}:{}),title:r.title,kind:'Place',area:r.title,summary:r.orientation,href,checked:r.checked_on||regions.checked_on,practical:r.slug==='cuttack'?[...r.sections.map(s=>({heading:s.title,text:s.paragraphs.map(p=>p.text).join(' '),paragraphs:s.paragraphs.map(p=>p.text)})),...(r.visitor_notes||[])]:r.visitor_notes||[],sources:sources([...new Set([...r.source_ids,...(r.visitor_notes||[]).flatMap(n=>n.source_ids)])])});
  for(const i of r.items)entries.push({id:i.id,title:i.title,kind:i.kind,area:r.title,summary:i.summary,href:i.detail_href||href+'#'+i.id.replaceAll(':','-'),checked:r.checked_on||regions.checked_on,access:i.tip,sources:sources(i.source_ids)});
 }
 for(const [slug,pilot] of Object.entries(pilots)){

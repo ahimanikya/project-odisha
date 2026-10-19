@@ -107,10 +107,10 @@ function renderPrint(){
   print.append(node('h2',dayLabel(book,group.day)));const dayNote=(book.dayNotes||[]).find(n=>n.day===group.day);if(includeNotes()&&dayNote){if(dayNote.title)print.append(node('h3',dayNote.title));if(dayNote.notes)print.append(node('p',dayNote.notes,'print-notes'));}if(group.day>0)print.append(node('p',planningContext(group.items,catalog).message));
   for(const saved of group.items){
    const item=catalog.get(saved.id),section=node('section');section.append(node('h3',item?.title||'Unavailable item: '+saved.id));
-   if(item){section.append(node('p',`${item.kind} · ${item.area}`),node('p',item.summary),node('p',item.access||''),node('p',`Research checked ${item.checked}. Editorial preview.`));const a=node('a',new URL(item.href,location.origin).href) as HTMLAnchorElement;a.href=item.href;section.append(a);for(const s of item.sources)references.set(s.url,s.title);}
+   if(item){if(item.author)section.append(node('p','By '+item.author));section.append(node('p',`${item.kind} · ${item.area}`),node('p',item.summary),node('p',item.access||''),node('p',`Research checked ${item.checked}. Editorial preview.`));const a=node('a',new URL(item.href,location.origin).href) as HTMLAnchorElement;a.href=item.href;section.append(a);for(const s of item.sources)references.set(s.url,s.title);}
    else section.append(node('p','This saved ID is no longer in the current collection. Its notes have been preserved.'));
    for(const note of [...(item?.practical||[]),...visitPrompts(item)]){
-    const practical=node('div');practical.append(node('h4',note.heading),node('p',note.text));
+    const practical=node('div');practical.append(node('h4',note.heading),...(note.paragraphs?.length?note.paragraphs:[note.text]).map(text=>node('p',text)));
     if(note.links?.length){
      const links=node('ul');
      for(const link of note.links){
@@ -127,7 +127,8 @@ function renderPrint(){
  const checks=node('ul');for(const row of preparationRows(book))checks.append(node('li',`${row.done?'Done':'To check'} — ${row.label}`));prep.append(checks);print.append(prep);
  if(includeNotes()&&(book.reminders||[]).length){const section=node('section');section.append(node('h2','Your personal reminders'),node('p','These are your own reminders for the whole trip, not verified arrangements.'));const list=node('ul');for(const r of book.reminders)list.append(node('li',`${r.done?'Done':'To check'} — ${r.text}`));section.append(list);print.append(section);}
  const questions=questionGroups(book,journeyCatalog);if(questions.length){const section=node('section',undefined,'print-questions');section.append(node('h2','Questions to take with you'),node('p','Prompts to ask locally, not verified arrangements.'));for(const g of questions){const group=node('div',undefined,'print-question-group');group.append(node('h3',g.title));const list=node('ul');for(const q of g.questions)list.append(node('li',q.heading+' — '+q.text));group.append(list);section.append(group);}print.append(section);}
- const appendix=node('section',undefined,'print-sources');appendix.append(node('h2','Sources & reading notes'),node('p','Summaries use the Project Odisha collection loaded in this page, not a snapshot from the day you saved. Founder & Editor-in-Chief: Ahimanikya Satapathy. Research prepared with AI assistance; human editorial review pending. Your notes are your own. Stay areas are research suggestions, not reviewed properties. No photographs, poems or recordings are reproduced in this book.'));
+ const appendix=node('section',undefined,'print-sources');appendix.append(node('h2','Sources & reading notes'),node('p','Summaries use the Project Odisha collection loaded in this page, not a snapshot from the day you saved. Founder & Editor-in-Chief: Ahimanikya Satapathy. Your notes are your own. Stay areas are research suggestions, not reviewed properties. No photographs, poems or recordings are reproduced in this book.'));
+ const process=node('a','Our editorial process') as HTMLAnchorElement;process.href='https://projectodisha.org/about/editorial-process/';const processNote=node('p');processNote.append(process);appendix.append(processNote);
  const list=node('ul');for(const [url,label] of references){const li=node('li',label+' — '+url);list.append(li);}appendix.append(list);print.append(appendix);
 }
 function render(focusId?:string,focusAction?:string){

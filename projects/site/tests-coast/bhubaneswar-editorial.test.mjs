@@ -23,7 +23,7 @@ test('Bhubaneswar has a credited opening and visible, reversible passage notes',
 test('destination editorial opt-in keeps planning tools and does not assign other city bylines',()=>{
  for(const id of ['choose-your-stops','make-it-yours','before-you-go','visit-notebook','local-languages','at-a-glance'])assert.ok(html.includes(`id="${id}"`));
  for(const i of region.items)assert.ok(html.includes(`data-save-journey="${i.id}"`));
- for(const slug of ['cuttack','balasore','mayurbhanj']){const other=readFileSync(`dist-coast/destinations/${slug}/index.html`,'utf8');assert.doesNotMatch(other,/class="article-byline"|id="story-sources"/);assert.match(other,/<details id="sources"/);}
+ for(const slug of ['balasore','mayurbhanj']){const other=readFileSync(`dist-coast/destinations/${slug}/index.html`,'utf8');assert.doesNotMatch(other,/class="article-byline"|id="story-sources"/);assert.match(other,/<details id="sources"/);}
 });
 test('Bhubaneswar keeps all five documentary photos and their individual credits',()=>{
  const hashes={mukteswar:'6e2a7594a24b50485a3302443420d9efbabcd81b03aefe836457c3308c28a6f5','mukteswar-torana':'5e99da2e97be858ad291816baa401fa8a57cb6ff8f4d3deb69b00bd3da0be556',dhauli:'f9721a5a64cf25f9fcc1a01ef9dfca841b668f0f744cf69c6b17d56f87f61792','fresco-procession':'ce9e025d492adf02d471fae4c3656a00cacd0a71b25566dffbd6425a9cc2c671','kala-bhoomi-grounds':'04818eccbf38f0b7d4b782dcd1ccd5518a175ebbe43f6d9ae5f8f6d197fe84be'};

@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "project": "UTP",
+  "status": "active",
+  "authorization": "UTP-DEC-2026101901",
+  "human_authority": "Ahimanikya Satapathy",
+  "coordinator": "Disha",
+  "shared_writer": "Disha",
+  "publisher": "Disha",
+  "maximum_active_articles": 1,
+  "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
+  "assignment_home": "team/assignments.json",
+  "handoff_home": "records/team-activation-2026-10-19.json",
+  "roles": [
+    {
+      "name": "Disha",
+      "responsibility": "Select/resume the authorized article, coordinate assignments, integrate results, maintain shared records, run release gates and publish.",
+      "execution": "root coordinator",
+      "write_scope": "Assigned article integration, shared KB/registers, Git and release receipts within existing Founder authorization"
+    },
+    {
+      "name": "Anvesha",
+      "responsibility": "Research and knowledge: inspect existing evidence, verify claims and stable source mappings, identify limits.",
+      "execution": "separate subagent",
+      "write_scope": "Read-only by default; coordinator may assign explicit non-overlapping article evidence files"
+    },
+    {
+      "name": "Samanta",
+      "responsibility": "Design and engineering: implement article presentation, accessible reading and downloadable outputs, test changes.",
+      "execution": "separate subagent",
+      "write_scope": "Only files explicitly reserved by coordinator; no shared registers, Git mutations or publishing"
+    },
+    {
+      "name": "Drishti",
+      "responsibility": "Quality: separate review of integrated candidate, test evidence, sources, visual/readability checks and limitations.",
+      "execution": "separate subagent distinct from implementer",
+      "write_scope": "Read-only review; report findings to coordinator, no self-approval or publishing"
+    }
+  ],
+  "loop": [
+    "Read AGENTS.md, current team assignments/operations, editorial standard, rollout, current registers and latest handoff. Inspect working tree, remote queue and open PRs before claiming work.",
+    "Resume the existing active article or explicit handoff first. Keep one article in progress. An external worker retains its scope until observed completion or explicit handoff; age of a timestamp alone is not abandonment.",
+    "Coordinator reserves the article and file scopes. Spawn/reuse Anvesha and Samanta for independent subtasks of the same article; sequence dependent steps. Load their role and governance context. No separate article claims by workers. Save exact reserved file paths, runtime and handoff status in the handoff record before edits; release them explicitly on completion.",
+    "Workers return input head, actual changed files or findings, tests performed, evidence limits and next action. Coordinator integrates, resolves findings and records the resulting head.",
+    "Spawn/reuse Drishti to review the integrated head separately from authors/implementers. Resolve blocking findings and recheck affected work. A separate AI review is never recorded as a human or specialist review.",
+    "Coordinator checks required PR checks, exact reviewed head, current remote ownership and existing publication jobs; merge and publish only under existing Founder authorization. Save actual live checks and receipt before completing the article.",
+    "Retain the article claim through receipt integration. Release the claim and choose the next eligible article only after this. Zero substantive500 credit for setup, formatting, tests or process work.",
+    "On wake/restart reconcile handoff with actual Git, queue, PR and deployment state. Recreate missing subagents under this assignment; do not claim old runtime IDs are still active. If unavailable, record that limitation and do not label one-assistant role passes independent review."
+  ],
+  "boundaries": [
+    "No human reports to AI; Founder remains sole human final authority.",
+    "No account, permission, credential, spending or commercial-project activation changes. Worker file scopes are operating instructions, not OS access controls.",
+    "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
+    "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
+  ],
+  "current_article": {
+    "id": "UTP-EDIT-035",
+    "route": "/destinations/cuttack/",
+    "owner": "Disha",
+    "coordinator_runtime": "/root",
+    "phase": "awaiting_checks_and_publication",
+    "branch": "codex/cuttack-editorial-20261019",
+    "input_head": "c3ff9bb8",
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/319",
+    "prior_external_scope_resolution": "Pala completed in main by PR320 with records/pala-editorial-publication-2026-10-19.json; Pala subsequent research preserved.",
+    "file_reservations": "records/team-activation-2026-10-19.json#executions",
+    "reviewed_head": "23146165a33e1c74ebf2cb641c21a8bf011aeb4c"
+  }
+}
