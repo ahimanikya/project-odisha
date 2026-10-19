@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/cuttack-food-editorial-team-2026-10-19.json",
+  "handoff_home": "records/netaji-museum-editorial-team-2026-10-19.json",
   "roles": [
     {
       "name": "Disha",
@@ -55,17 +55,16 @@
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
   "current_article": {
-    "id": "POD-EDIT-038",
-    "route": "/food/cuttack/",
+    "id": "POD-EDIT-039",
+    "route": "/visit/experiences/cuttack-netaji/",
     "owner": "Disha",
     "coordinator_runtime": "/root",
-    "phase": "receipt_integrated",
-    "branch": "codex/cuttack-food-editorial-20261019",
-    "input_head": "234bc59f729e4fab6f57d39a00772544a540c685",
-    "file_reservations": "records/cuttack-food-editorial-team-2026-10-19.json#executions",
-    "prior_external_scope_resolution": "Heritage-walks PR338 merged and preserved in the reviewed candidate.",
-    "publication_receipt": "records/cuttack-food-editorial-publication-2026-10-19.json",
-    "integration_gate": "This release takes effect when the receipt PR is merged. Disha retains ownership until that merge; no next article started."
+    "phase": "research_and_implementation",
+    "branch": "codex/netaji-museum-editorial-20261019",
+    "input_head": "49197855d8dfaa6ecb08df81dfbae705c60b71ab",
+    "file_reservations": "records/netaji-museum-editorial-team-2026-10-19.json#executions",
+    "prior_external_scope_resolution": "PR340 receipt integrated; PR304/281 remain excluded.",
+    "integration_gate": "Retain ownership through live publication receipt integration."
   },
   "project_identity": "reference/project-identity.md"
 }

@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `14c2051fbe28a8fecc5c58d0025bfac13bdb6bcd156f7e2af8de5805e7c17ccc`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `5fa9d60b79d0061e15e145a3743a8f30910c3e95710f97585148e9e9f233d1e6`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -1168,7 +1168,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261018102 | 2026-10-18T01:22:37.475240+00:00 | Published and verified coherent Jhula story, accurate kit scope and three collection groups;all20 design choices preserved. | — |
 | POD-EVT-20261019101 | 2026-10-19T04:23:34.609332+00:00 | Added the founder-requested Odia Poetry Jhula link to the shared site footer; publication pending. | — |
 | POD-EVT-2026101909 | 2026-10-19T04:10:43.416372+00:00 | Apply Founder-requested migration: canonical Project Odisha IDs and live references move from UTP to POD with suffixes preserved. Original changed files and ledgers archived byte-for-byte; exact aliases retain old-reference lookup. Tests and separate review pending. | — |
 | POD-EVT-2026101910 | 2026-10-19T04:37:28.234946+00:00 | Integrated full UTP-to-POD migration after separateAI review and passing requiredchecks.3705 exactaliases preserve historicalreferences; originalfiles archived. Continuing-work automation updated. No programmecredit. | — |
@@ -1178,6 +1177,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261019105 | 2026-10-19T06:02:52.485366+00:00 | Published and live-verified the Cuttack food editorial revision with Founder byline, visible factual footnote, restrained photo attribution and mobile-readable layout. Full Dahibara story and portable reading retained. Separate AI review; zero substantive-programme credit. | — |
 | POD-EVT-20261019106 | 2026-10-19T06:19:14.278319+00:00 | Applied current Odisha family name/code with exact old-ID aliases and preserved original evidence. Pending separate review and integration; no new release or activation. | — |
 | POD-EVT-20261019107 | 2026-10-19T06:40:16.689949+00:00 | Family migration integrated through Project Odisha PR341 and Blueprint PR3 after separate AI review and passing available checks. No commercial activation or substantive programme credit. | — |
+| POD-EVT-20261019108 | 2026-10-19T07:07:15.803455+00:00 | Claimed POD-EDIT-039 Netaji museum article after prior receipts integrated. Inspected autobiography, current museum source and retained photograph; preparing authored reading and visible notes. Separate review and publication pending; zero substantive programme credit. | — |
 
 ## Deferred extensions
 
