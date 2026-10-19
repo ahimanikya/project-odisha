@@ -20907,6 +20907,29 @@
       "evidence": [
         "records/jhula-clarity-review-2026-10-18.json"
       ]
+    },
+    {
+      "id": "POD-REV-2026101901",
+      "title": "Separate Netaji museum editorial and source review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent /root/drishti"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human or curator review.",
+      "reviewed_head": "93e2990943099b86206c27fa1de99d2afcb9e7ae",
+      "refs": [
+        "POD-WORK-302",
+        "POD-DEC-2026101901",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/netaji-museum-editorial-team-2026-10-19.json"
+      ],
+      "limitations": [
+        "Not human, curator or field review. Coordinator performed full builds and browser interactions; no reviewer livepublication verification."
+      ]
     }
   ],
   "releases": [
@@ -23857,6 +23880,23 @@
       "evidence": [
         "records/jhula-clarity-review-2026-10-18.json"
       ]
+    },
+    {
+      "id": "POD-REL-2026101901",
+      "title": "Netaji museum authored reading and visible sources",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/visit/experiences/cuttack-netaji/",
+      "refs": [
+        "POD-WORK-302",
+        "POD-REV-2026101901",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/netaji-museum-editorial-publication-2026-10-19.json",
+        "records/netaji-museum-editorial-team-2026-10-19.json"
+      ],
+      "note": "Reviewed PR344 passed required checks, merged and published through approved main workflow. Live sources, documentary photo and responsive layout verified. Zero substantive programme credit."
     }
   ],
   "sources": [

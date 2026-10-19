@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `5fa9d60b79d0061e15e145a3743a8f30910c3e95710f97585148e9e9f233d1e6`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e835bab65a17ffc5374f7f2e82332998e7cd2e7bef8500357cbeb0cf9963b6f4`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -945,6 +945,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-299 | pass_with_limitations | True | No human review, field confirmation or physical print test.; Inspected saved screenshots; deployment/live check pending coordinator. |
 | POD-REV-300 | pass_with_limitations | True | Separate AI review, no human/archaeologist review.; Saved screenshots inspected, no new interactive, physical-device, print or live checks.; Full565/coast240 tests are Samanta execution evidence.; District source relies on recorded indexed evidence. |
 | POD-REV-2026101801 | pass | False | — |
+| POD-REV-2026101901 | pass_with_limitations | True | Not human, curator or field review. Coordinator performed full builds and browser interactions; no reviewer livepublication verification. |
 
 ## Publication and application history
 
@@ -1131,6 +1132,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-169 · Cuttack reading and first collaborating-team delivery | published | https://projectodisha.org/destinations/cuttack/ | POD-DEC-225 |
 | POD-REL-170 · Barabati remains, excavation evidence and visible sources | published | https://projectodisha.org/visit/places/barabati/ | POD-DEC-225 |
 | POD-REL-2026101801 · Refined Jhula page published | published | https://projectodisha.org/odia-poetry-jhula/ | POD-DEC-2026101801 |
+| POD-REL-2026101901 · Netaji museum authored reading and visible sources | published | https://projectodisha.org/visit/experiences/cuttack-netaji/ | POD-DEC-225 |
 
 ## Sources and assets
 
@@ -1168,7 +1170,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261019101 | 2026-10-19T04:23:34.609332+00:00 | Added the founder-requested Odia Poetry Jhula link to the shared site footer; publication pending. | — |
 | POD-EVT-2026101909 | 2026-10-19T04:10:43.416372+00:00 | Apply Founder-requested migration: canonical Project Odisha IDs and live references move from UTP to POD with suffixes preserved. Original changed files and ledgers archived byte-for-byte; exact aliases retain old-reference lookup. Tests and separate review pending. | — |
 | POD-EVT-2026101910 | 2026-10-19T04:37:28.234946+00:00 | Integrated full UTP-to-POD migration after separateAI review and passing requiredchecks.3705 exactaliases preserve historicalreferences; originalfiles archived. Continuing-work automation updated. No programmecredit. | — |
 | POD-EVT-20261019102 | 2026-10-19T04:31:07.232980+00:00 | Published and browser-verified the shared footer link to Odia Poetry Jhula via PR 332. | — |
@@ -1178,6 +1179,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261019106 | 2026-10-19T06:19:14.278319+00:00 | Applied current Odisha family name/code with exact old-ID aliases and preserved original evidence. Pending separate review and integration; no new release or activation. | — |
 | POD-EVT-20261019107 | 2026-10-19T06:40:16.689949+00:00 | Family migration integrated through Project Odisha PR341 and Blueprint PR3 after separate AI review and passing available checks. No commercial activation or substantive programme credit. | — |
 | POD-EVT-20261019108 | 2026-10-19T07:07:15.803455+00:00 | Claimed POD-EDIT-039 Netaji museum article after prior receipts integrated. Inspected autobiography, current museum source and retained photograph; preparing authored reading and visible notes. Separate review and publication pending; zero substantive programme credit. | — |
+| POD-EVT-20261019109 | 2026-10-19T07:22:09.760133+00:00 | Published and live-verified POD-EDIT-039 Netaji museum article via PR344 and approved deployment39215016274. Separate AI source review, visible notes, portable reading and responsive checks retained;32 editorial entries complete, substantive programme112 unchanged. | — |
 
 ## Deferred extensions
 
