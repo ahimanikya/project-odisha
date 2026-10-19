@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `70a473731151a9485283fe2d9f7111db6fe3af896be4f1c07912f805d2efd201`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `4e3782321d7d1aa2d166b0230d1171dccaf01724c76d2ab6a57fe216a47c4965`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -321,7 +321,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-299 · Deepen Dalkhai song, occasion and stage context | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, song-language review and recovered source PDFs remain open for future research. | — |
 | UTP-WORK-300 · Deepen Pala literary performance, forms and repertoire | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/Odia review and manuscript evidence remain open for future research. | — |
 | UTP-WORK-301 · Deepen Dhemsa community, movement and occasion | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/language review and field evidence remain open for future research. | — |
-| UTP-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Publish reviewed UTP-EDIT-034 through passing PR checks and approved main workflow; verify live receipt before completion. Substantive500 remains112. | — |
+| UTP-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Continue UTP-EDIT-035 Cuttack destination: inspect its individual source, KB and active workers before revision. Twenty-six editorial articles completed, nine exclusions; substantive500 remains112. | — |
 | UTP-WORK-2026101701 · Publish two Pattachitra Jhula choices | completed | published | Ahimanikya Satapathy | Review the live Pattachitra choices. | — |
 | UTP-WORK-2026101801 · Coherent Jhula story and collection overview | in_progress | reviewed | Ahimanikya Satapathy | Finish responsive review, publish and verify live. | — |
 
@@ -1117,6 +1117,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-165 · Mukteswar: gateway, shrine and hall with modern festival context | published | https://projectodisha.org/visit/places/mukteswar/ | UTP-DEC-225 |
 | UTP-REL-166 · Bhubaneswar meal: cooking methods and Old Town food context | published | https://projectodisha.org/food/bhubaneswar/ | UTP-DEC-225 |
 | UTP-REL-167 · Bhubaneswar stay guide: address, journey and room needs | published | https://projectodisha.org/visit/stays/bhubaneswar/ | UTP-DEC-225 |
+| UTP-REL-168 · Bhubaneswar painted streets: photographic reading and visible sources | published | https://projectodisha.org/stories/bhubaneswar-fresco/ | UTP-DEC-225 |
 
 ## Sources and assets
 
@@ -1154,7 +1155,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101818 | 2026-10-18T20:08:52.386424+00:00 | Published Barkul/Rambha stay guide through reviewed PR310 and approved main workflow. Verified live article, byline, two visible notes with exact returns, complete reading and unchanged regional image. UTP-EDIT-029 complete; zero substantive500 increment. | — |
 | UTP-EVT-2026101819 | 2026-10-18T21:07:45.751862+00:00 | Reviewed Rajhans/Satapada stay comparison with individual official camp/access sources, clear itinerary limits, Founder byline and visible footnotes. Full555/coast236 tests and responsive keyboard checks passed; publication pending. No substantive500 increment. | — |
 | UTP-EVT-2026101820 | 2026-10-18T21:18:08.566481+00:00 | Published Rajhans/Satapada stay guide through reviewed PR311 and approved main workflow. Verified live article, byline, two visible notes with three exact returns, complete reading and unchanged regional image. UTP-EDIT-030 complete; zero substantive500 increment. | — |
 | UTP-EVT-2026101821 | 2026-10-18T22:07:15.959465+00:00 | Reviewed Mukteswar architectural explanation and modern festival context against three individually inspected sources and two credited photographs. Full557/coast236 tests and responsive keyboard checks passed; publication pending. No substantive500 increment. | — |
@@ -1164,6 +1164,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101901 | 2026-10-19T00:08:16.267509+00:00 | Reviewed Bhubaneswar stay guide with sourced city context, clearer address/arrival/room comparisons and retained documentary photograph. Full561/coast236 and desktop/mobile keyboard checks passed; publication pending. Zero substantive500 increment. | — |
 | UTP-EVT-2026101902 | 2026-10-19T00:16:54.031916+00:00 | Published Bhubaneswar stay guide through reviewed PR314 and approved main workflow. Verified live article, byline, one visible note with exact return, complete narrative/options and unchanged documentary photograph. UTP-EDIT-033 complete; zero substantive500 increment. | — |
 | UTP-EVT-2026101903 | 2026-10-19T01:10:28.961836+00:00 | Reviewed Bhubaneswar photographic archive: visible eight-image reading, Founder byline, preserved photographer and unknown-artist credits, updated cultural sources and12 visible notes. Full562/coast237 and responsive/keyboard gallery checks passed; publication pending. Zero substantive500 increment. | — |
+| UTP-EVT-2026101904 | 2026-10-19T01:19:51.473774+00:00 | Published Bhubaneswar photographic archive through reviewed PR316 and approved main workflow. Verified live byline, visible eight-image reading,12 notes with13 exact returns and unchanged original photographs. UTP-EDIT-034 complete; zero substantive500 increment. | — |
 
 ## Deferred extensions
 
