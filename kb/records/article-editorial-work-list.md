@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 394. completed: 28, excluded: 9, in_progress: 1, queued: 356.
+Route inventory: 394. completed: 29, excluded: 9, queued: 356.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -157,7 +157,7 @@ Route inventory: 394. completed: 28, excluded: 9, in_progress: 1, queued: 356.
 | UTP-EDIT-141 | [Tourism opportunities in Odisha](https://projectodisha.org/opportunities/) | queued | classification_pending |
 | UTP-EDIT-142 | [An Odia reading journey](https://projectodisha.org/literature/reading-journey/) | queued | classification_pending |
 | UTP-EDIT-143 | [Sounds of Odisha](https://projectodisha.org/sounds-of-odisha/) | queued | classification_pending |
-| UTP-EDIT-144 | [Pala: poetry with people around it](https://projectodisha.org/sounds-of-odisha/pala/) | in_progress | User-selected Pala narrative enhancement and 17 October article standard; 19 October collapsed reading paths and visible update action. |
+| UTP-EDIT-144 | [Pala: poetry with people around it](https://projectodisha.org/sounds-of-odisha/pala/) | completed | Founder-approved Pala artist, preservation and visitor reader revision; By Ahimanikya Satapathy, visible sources, collapsed reading paths and visible update action. |
 | UTP-EDIT-145 | [Sankha ଶଙ୍ଖ and the sound of arrival](https://projectodisha.org/sounds-of-odisha/sankha/) | queued | classification_pending |
 | UTP-EDIT-146 | [Mardala: the conversation beneath the dance](https://projectodisha.org/sounds-of-odisha/mardala/) | queued | classification_pending |
 | UTP-EDIT-147 | [Daskathia and the art of telling aloud](https://projectodisha.org/sounds-of-odisha/daskathia/) | queued | classification_pending |
