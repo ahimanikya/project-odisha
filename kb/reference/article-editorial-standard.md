@@ -26,6 +26,12 @@ Use small linked numbered markers after the relevant factual passage and a visib
 
 Name an author in the prose when identity is part of the meaning: quotations, distinctive arguments, disputed interpretations, reported testimony or a particular person's work. Put routine bibliographic detail and access limitations in footnotes. Preserve necessary uncertainty beside the claim; remove repetitive narration about researching, writing or not doing fieldwork. Keep exact source IDs and fuller inspection notes in the KB.
 
+## Further reading and reader updates
+
+Additional direction from Ahimanikya Satapathy on 19 October 2026: preserve the existing reading paths and the suggestion to update the article. Keep **Further reading** or **Continue your reading path** in a collapsed, keyboard-accessible disclosure by default. Readers can open it when they want another article; do not remove it during a formatting refresh. This is separate from **Footnotes & Sources**, which stays expanded.
+
+Keep **Suggest an update** visible outside disclosures, with the article-specific contribution link. Preserve the notice that GitHub submissions are public and must omit private contact details and consent documents. These rules apply to future articles and to existing articles as each receives its individual editorial review; they do not mark untouched articles complete.
+
 ## Downloadable reading
 
 Keep downloads focused on the narrative. A short source list with titles and links is enough; do not copy full website footnotes, inspection logs or research apparatus into the reading. Keep material uncertainty in the prose, photograph credits and reuse terms where needed, and a link to the website article for fuller notes. This follows the Founder’s explicit 17 October clarification.

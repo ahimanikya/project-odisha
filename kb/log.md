@@ -723,3 +723,7 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 3 October 2026 · Puri downloadable business starter
 
 [Research receipt](records/puri-starter-guide-2026-10-03.json): created a nine-page guide with 26 blank fields, linked evidence and a manual financial worksheet. Saved and reopened test fields; no website change.
+
+## 2026-10-19 — Pala and reader-navigation rules
+
+Enhanced [Pala](research/culture/pala.md) from its retained source dossier: literary training, answering performers, performance objects and named repertoire. Applied the article reading standard with Founder byline and visible footnotes, preserving the credited photograph. Recorded the Founder’s additional direction to keep reading paths collapsed and Suggest an update visible in the [editorial standard](reference/article-editorial-standard.md). No fresh fieldwork, independent specialist review or new programme completion claimed. Publication remains pending a verified delivery receipt.
