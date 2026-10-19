@@ -1,7 +1,10 @@
 ---
+import ArticleFootnote from './ArticleFootnote.astro';
 import atlas from '../../../../kb/research/voices/population-2011.json';
 import {selection,districtRows,count,percent} from '../lib/language-atlas.mjs';
-const {path}=Astro.props;
+const {path,editorial=null}=Astro.props;
+const reading=path==='languages/odia'?editorial:null;
+const populationSources=reading?.passages.find(p=>p.id==='population')?.source_ids||[];
 const profile=atlas.profiles[path.split('/')[1]];
 const value=profile?selection(atlas,profile.code):null;
 const districts=profile?districtRows(atlas,profile.code).filter(r=>r.persons>0).slice(0,3):[];
@@ -14,6 +17,6 @@ const districts=profile?districtRows(atlas,profile.code).filter(r=>r.persons>0).
  {profile.note&&<p>{profile.note}</p>}
  <p>Largest recorded counts: {districts.map(d=>`${d.name} (${count(d.persons)})`).join('; ')}.</p>
  <a class="text-link" href={'/languages/atlas/?language='+profile.code}>Explore all 30 districts →</a>
- <p class="population-source">Census C-16 · Sheet1, row {value.sourceRow}. <a href={atlas.sources.c16.url}>Original table</a></p>
+ <p class="population-source">Census C-16 · Sheet1, row {value.sourceRow}. <a href={atlas.sources.c16.url}>Original table</a>{reading&&<ArticleFootnote ids={populationSources} sources={reading.sources} passage="population"/>}</p>
 </section>}
 <style>.language-population{margin:3rem 0;padding:clamp(1.5rem,4vw,3rem);background:var(--uds-colour-surface,#F2E6D0);border-top:3px solid #91462F}.language-population h2{font:clamp(1.8rem,3vw,2.8rem)/1.2 Georgia,serif;color:#1D4658}.population-numbers{display:flex;flex-wrap:wrap;gap:1rem 4rem}.population-numbers p{display:flex;flex-direction:column;margin:.5rem 0 1rem}.population-numbers strong{font:clamp(2rem,4vw,3.5rem)/1.2 Georgia,serif;color:#1D4658}.population-numbers span,.population-source{font-size:.9rem}.language-population>p{max-width:75ch;line-height:1.75}</style>
