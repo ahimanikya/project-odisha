@@ -5,7 +5,7 @@ title: "Odisha Store dashboard"
 
 # Odisha Store · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `d5b0ca536fb9eb9b7d024d2f82f37df8c22e76b7a1f7c36ca291bb4f8f1650e2`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `2735445b7124ca510e8d0b57e95c62ed79e9f967ef661b49e15c1b94cbb37a27`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -15,7 +15,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 |---|---|---|---|---|---|
 | ODS-WORK-001 · First collection and local storefront | awaiting_review | reviewed | Ahimanikya Satapathy | Review shared-story bag and T-shirt back concepts, then prepare common flat artwork and sample quotes. | — |
 | ODS-WORK-002 · Prepare low-budget direct and marketplace commerce | awaiting_review | reviewed | Ahimanikya Satapathy | Confirm budget, seller/GST/dispatch setup and pilot range; then prepare vendor and account setup tasks. | Budget and seller/dispatch inputs unconfirmed; Samples, economics and channel accounts not approved |
-| ODS-WORK-2026101901 · No-payment interest cart, private dashboard and complete merchandise catalogue | in_progress | draft | Ahimanikya Satapathy | Complete independent review, browser checks and repository integration; private production hosting and operational policy remain separate launch dependencies. | — |
+| ODS-WORK-2026101901 · No-payment interest cart, private dashboard and complete merchandise catalogue | in_progress | reviewed | Ahimanikya Satapathy | Integrate reviewed implementation PR; then separately configure production hosting, actual credentials, contact/retention/backups and assess image performance before public launch. | — |
 
 ## Pending human review and decisions
 

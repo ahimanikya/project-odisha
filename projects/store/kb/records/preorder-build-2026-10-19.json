@@ -1,6 +1,6 @@
 {
   "recorded_at": "2026-10-19T06:27:10.379974+00:00",
-  "status": "in_progress",
+  "status": "reviewed_candidate_pending_integration",
   "scope": "No-payment preorder interest, private authenticated dashboard and catalogue: four Sea & Stone product families plus20Odia Poetry Jhula designs;51size/format preferences in total, not confirmed manufactured SKUs.",
   "user_instructions": [
     "We will start building the store as an interest-only cart. Where people who want to buy can buy without paying anything- it's a pre-order, and when we have the product, we will contact them",
@@ -43,9 +43,19 @@
   ],
   "review": {
     "reviewer": "Drishti, separate AI agent",
-    "status": "awaiting_final_frozen_review",
+    "status": "pass",
     "finding": "Same-tab reload could create duplicate interest after a lost response. Fixed with persisted random retry token and token-salted digest; raw contact details never stored in browser storage.",
-    "limits": "New tab/browser session cannot recover old sessionStorage; blocked storage only retains token for current page."
+    "limits": "Separate AI review, not human approval or penetration testing. Browser interactions performed by coordinator; reviewer inspected saved evidence.",
+    "head": "984f8867938a7253e9e1730d53ac31445affd9de",
+    "independent_checks": [
+      "29backend tests",
+      "10frontend/static tests",
+      "main and Store register/bundle checks",
+      "programme consistency",
+      "17originalimage hash checks",
+      "24products/51options with20Jhulas/18kits",
+      "Saved desktop/mobile screenshots inspected"
+    ]
   },
   "launch_limits": [
     "Private hosting/TLS and actual administrator credential not configured",
@@ -89,9 +99,10 @@
       "Responsive catalogue and bag image display inspected; mobile overflow check width390scroll390",
       "Poet’s Classic dashboard shows independent price/supply controls for bag and kit",
       "Mobile dashboard width390scroll390; desktop product width1440scroll1440",
-      "Synthetic price/supply values restored to unknown after verification"
+      "Synthetic price/supply values restored to unknown after verification",
+      "Sign out returned to login and cleared private request/catalogue content."
     ],
-    "remaining": "Separate final frozen-head review pending",
+    "remaining": "None for bounded local preview; production readiness remains separate.",
     "screenshots": [
       "records/evidence/preorder-preview-2026-10-19/poets-classic-desktop.png",
       "records/evidence/preorder-preview-2026-10-19/kabi-mobile.png",
