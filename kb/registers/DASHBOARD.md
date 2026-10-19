@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `f4f9f0e090dfef5d22aa01ece8659150fa0c5a77bbb60e36a7a63e11f854522c`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `1f94018e11a82bed61c6996a553fc391c6e0571bb59db27b20d0e719259a252c`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -323,7 +323,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-301 · Deepen Dhemsa community, movement and occasion | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/language review and field evidence remain open for future research. | — |
 | UTP-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Continue UTP-EDIT-022 Mangalajodi: inspect its individual evidence, writing, images and template before revision. Thirteen articles completed, nine justified exclusions; substantive500 remains112. | — |
 | UTP-WORK-2026101701 · Publish two Pattachitra Jhula choices | completed | published | Ahimanikya Satapathy | Review the live Pattachitra choices. | — |
-| UTP-WORK-2026101801 · Coherent Jhula story and collection overview | in_progress | reviewed | Ahimanikya Satapathy | Finish responsive review, publish and verify live. | — |
+| UTP-WORK-2026101801 · Coherent Jhula story and collection overview | completed | published | Ahimanikya Satapathy | Review the refined live page. | — |
 
 ## Pending human review and decisions
 
@@ -922,6 +922,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-283 | pass_with_limitations | False | HTML and template inspection only, not responsive or screen-reader certification.; Exclusions apply to article byline/footnote rollout, not to future accuracy, readability, rights or product maintenance.; Historical implementation notes are context; current templates and fetched pages establish present classification. |
 | UTP-REV-284 | pass_with_limitations | False | Same-assistant review; no independent human or specialist approval.; Responsive emulation, not physical-device or screen-reader testing.; No field visit, native-language approval, boat/property inspection or booking confirmation.; Legacy tourism food/accommodation evidence and Ramsar report retrieval limits are stated in source notes.; Formatting and attribution revision adds zero substantive500 items. |
 | UTP-REV-2026101701 | pass | False | — |
+| UTP-REV-2026101801 | pass | False | — |
 
 ## Publication and application history
 
@@ -1092,6 +1093,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-154 · Stone, sea and makers: credited narrative and visible sources | published | https://projectodisha.org/journey-starters/#stone-sea-makers | UTP-DEC-225 |
 | UTP-REL-155 · Chilika: Founder byline, readable narrative and visible source notes | published | https://projectodisha.org/knowledge/chilika/ | UTP-DEC-225 |
 | UTP-REL-2026101701 · Two Pattachitra options published | published | https://projectodisha.org/odia-poetry-jhula/#pattachitra-choices | UTP-DEC-2026101701 |
+| UTP-REL-2026101801 · Refined Jhula page published | published | https://projectodisha.org/odia-poetry-jhula/ | UTP-DEC-2026101801 |
 
 ## Sources and assets
 
@@ -1129,7 +1131,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101729 | 2026-10-17T21:39:57.991766+00:00 | Individually classified homepage, 404, Explore and My journey as utilities using actual templates and live HTML. Preserved credits and left Journey starters queued because it contains an authored trail. Article completions remain 11; substantive programme remains 112. | — |
 | UTP-EVT-2026101730 | 2026-10-17T21:43:48.060915+00:00 | Merged individually evidenced utility classifications through PR 297 after passing validation. No website changes or new article completions; next entry is Journey starters and its embedded authored trail. | — |
 | UTP-EVT-2026101731 | 2026-10-17T22:45:38.376773+00:00 | Reviewed the authored Stone, sea and makers trail individually, with source mapping, documentary images, visible notes, responsive layouts and concise portable reading. Delivery remains in progress pending reviewed PR and live publication. | — |
 | UTP-EVT-2026101732 | 2026-10-17T22:54:08.477588+00:00 | Published the reviewed Stone, sea and makers trail through PR 298 and the approved main workflow. Actual live narrative, notes, image bytes, mobile reading and unchanged index eligibility checked. Twelfth editorial article complete; substantive programme remains 112. | — |
@@ -1139,6 +1140,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101802 | 2026-10-18T00:57:50.963226+00:00 | Published and live-verified Chilika editorial revision through PR300 and approved main workflow. Fourteen visible sources, exact footnote returns, Founder byline, preserved artist credits and five unchanged image hashes verified. UTP-EDIT-021 complete; no substantive500 increment. | — |
 | UTP-EVT-20261017102 | 2026-10-16T22:10:55.598622+00:00 | Published and live-verified both Pattachitra options with autosaving votes and collapsed comments. | — |
 | UTP-EVT-20261018101 | 2026-10-18T01:15:09.029021+00:00 | Refined accumulated Jhula copy into a coherent story and20-choice collection with group navigation. | — |
+| UTP-EVT-20261018102 | 2026-10-18T01:22:37.475240+00:00 | Published and verified coherent Jhula story, accurate kit scope and three collection groups;all20 design choices preserved. | — |
 
 ## Deferred extensions
 

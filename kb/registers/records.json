@@ -8729,12 +8729,12 @@
       "id": "UTP-WORK-2026101801",
       "title": "Coherent Jhula story and collection overview",
       "category": "website",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current merchandise assistant",
       "authorization": "UTP-DEC-2026101801",
-      "next_action": "Finish responsive review, publish and verify live.",
+      "next_action": "Review the refined live page.",
       "blockers": [],
       "refs": [
         "UTP-DEC-2026101801"
@@ -20312,6 +20312,22 @@
       "evidence": [
         "records/jhula-pattachitra-review-2026-10-17.json"
       ]
+    },
+    {
+      "id": "UTP-REV-2026101801",
+      "title": "Jhula clarity review",
+      "status": "pass",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current merchandise assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-2026101801"
+      ],
+      "evidence": [
+        "records/jhula-clarity-review-2026-10-18.json"
+      ]
     }
   ],
   "releases": [
@@ -22989,6 +23005,20 @@
       ],
       "evidence": [
         "records/jhula-pattachitra-review-2026-10-17.json"
+      ]
+    },
+    {
+      "id": "UTP-REL-2026101801",
+      "title": "Refined Jhula page published",
+      "status": "published",
+      "authorization": "UTP-DEC-2026101801",
+      "destination": "https://projectodisha.org/odia-poetry-jhula/",
+      "refs": [
+        "UTP-WORK-2026101801",
+        "UTP-REV-2026101801"
+      ],
+      "evidence": [
+        "records/jhula-clarity-review-2026-10-18.json"
       ]
     }
   ],
