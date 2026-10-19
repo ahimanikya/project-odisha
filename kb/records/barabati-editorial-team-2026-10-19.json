@@ -7,7 +7,7 @@
     "UTP-DEC-2026101901",
     "UTP-DEC-225"
   ],
-  "status": "in_progress",
+  "status": "verified_complete",
   "reader_question": "What can Barabati’s surviving gateway, moat and mound tell us about the fort, and what requires evidence beyond what a visitor can see?",
   "reuse_before_research": [
     "research/destinations/central-details.json",
@@ -20,14 +20,8 @@
     {
       "role": "Disha",
       "runtime": "/root",
-      "status": "active",
-      "reserved_write_paths": [
-        "kb/records/",
-        "kb/registers/",
-        "kb/team/operations.json",
-        "kb/research/destinations/central-details.json",
-        "kb/research/destinations/barabati-editorial.json"
-      ],
+      "status": "handoff_recorded",
+      "reserved_write_paths": [],
       "task": "Single article claim, integration, records and publication"
     },
     {
@@ -135,7 +129,7 @@
       "invocation_note": "Initial focused test invocation from repository root failed missing dist; rerun from site cwd passed3 tests. No implementation failure."
     }
   ],
-  "next_action": "Final records delta review and required checks, then merge reviewed head and approved publication.",
+  "next_action": "After receipt integration, release claim and select next eligible queued article; reconcile actual workers and remote state first.",
   "pull_request": "https://github.com/ahimanikya/project-odisha/pull/324",
   "image_review": {
     "reviewer": "Disha, AI coordinator",
@@ -200,5 +194,15 @@
   "coordinator_checks": [
     "Only Barabati central record changed; all other central records/top-level fields preserved.",
     "Bundle, autonomous programme, team checker and8 team tests pass; research map and whitespace checks pass."
-  ]
+  ],
+  "article_complete": true,
+  "publication_receipt": "records/barabati-editorial-publication-2026-10-19.json",
+  "final_reviewed_head": "65f38a1aa9335254ff5c664ef767098d14035f26",
+  "final_merge_review": {
+    "role": "Drishti",
+    "runtime": "/root/drishti",
+    "head": "65f38a1aa9335254ff5c664ef767098d14035f26",
+    "result": "pass_with_limitations",
+    "scope": "Separate AI integrated64b9d5eb, review-record697304ba and merge-preservation7be2db87/65f38a1a review; not human or specialist review."
+  }
 }
