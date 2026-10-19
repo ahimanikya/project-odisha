@@ -13,7 +13,7 @@ test('Mukteswar distinguishes architectural forms and modern festival history, w
  for(const p of e.passages)for(const id of p.source_ids){for(const value of [`id="ref-${p.id}-${id}"`,`href="#ref-${p.id}-${id}"`,`id="note-${id}"`])assert.equal(page.split(value).length-1,1);}
  assert.equal((page.match(/data-footnote-ref/g)||[]).length,6);
  for(const phrase of ['jagamohana','rekha and pidha','1984','cannot establish an unbroken history','not a World Heritage inscription'])assert.ok(page.includes(phrase));
- assert.match(read('dist/visit/places/barabati/index.html'),/Drafted with AI assistance/);
+ assert.match(read('dist/visit/experiences/cuttack-netaji/index.html'),/Drafted with AI assistance/);
  assert.match(page,/data-save-journey="place:mukteswar"/);
 });
 test('Mukteswar portable reading keeps all explanation, concise sources and both documentary image rights',()=>{
