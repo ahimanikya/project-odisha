@@ -20,3 +20,7 @@ Institutional self-description; self-reported registration is not independently 
 [Source](https://www.sjprf.in/). Locator: Welcome; named artists; documentary notices. Capture: direct_html.
 
 [Pala and its culture](../culture/pala.md).
+
+## Organisation audit · 19 October 2026
+
+The web-reader home page still supplies a research mission, team list, Pala Kabita link and documentary notices. Its registration statement is self-reported; undated officers are not confirmed current. Direct Python retrieval returned HTTP 406. No Dash affiliation or recording permission established. [Network audit](../culture/pala-networks.md).
