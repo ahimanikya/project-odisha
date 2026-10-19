@@ -141,3 +141,14 @@ summary{min-height:44px;cursor:pointer}main:focus{outline:none}.header nav a{min
  #story-sources a[href^="https://"]::after,#story-sources a[href^="http://"]::after{content:" (" attr(href) ")";font-size:9pt;font-weight:400;overflow-wrap:anywhere}
  #story-sources [id^="story-source-"]:target{background:transparent;outline:none}
 }
+
+/* A balanced shared footer with a full-width patterned top edge. */
+.footer{position:relative;border-top:0;margin-top:48px}
+.footer::before{content:"";position:absolute;inset:0 0 auto;height:14px;background:repeating-linear-gradient(135deg,var(--earth) 0 3px,transparent 3px 8px);border-block:3px solid var(--earth);opacity:.7;pointer-events:none}
+.footer-grid{grid-template-columns:minmax(240px,1.4fr) repeat(3,minmax(0,1fr));gap:32px;align-items:start}
+.footer-intro .footer-mission{color:var(--muted);margin-block:16px}
+.footer-links .eyebrow{font-family:inherit;font-size:11px;font-weight:650;line-height:1.5;letter-spacing:.12em;margin:4px 0 12px}
+.footer-links a{line-height:1.45;padding-block:8px;overflow-wrap:anywhere}
+@media(max-width:1000px){.footer-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.footer-grid>.footer-intro{grid-column:1/-1}}
+@media(max-width:650px){.footer{margin-top:32px;padding-top:32px}.footer-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 20px}.footer-grid>.footer-intro{grid-column:1/-1}.footer-bottom{margin-top:24px;padding-top:24px}}
+@media(max-width:360px){.footer-grid{grid-template-columns:1fr}}
