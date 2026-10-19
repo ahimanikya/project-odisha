@@ -27,7 +27,8 @@
     "research_validation": "PASS",
     "bundle_validation": "PASS",
     "autonomous_program_consistency": "PASS; no progress increment",
-    "rollout_validation": "PASS"
+    "rollout_validation": "PASS",
+    "editorial_workbench": "PASS: regenerated catalogue; 6 Python checks and 7 Node tests"
   },
   "responsive_observations": {
     "desktop": {
@@ -65,7 +66,15 @@
     "projects/site/tests-coast/core-sound-navigation.test.mjs",
     "projects/site/tests-coast/core-sound-source-links.test.mjs",
     "projects/site/tests-coast/pala-editorial.test.mjs",
-    "projects/site/tests-coast/pala-story.test.mjs"
+    "projects/site/tests-coast/pala-story.test.mjs",
+    "kb/records/editorial-workbench.json"
   ],
-  "publication_status": "pending_PR_CI_and_verified_main_deployment"
+  "publication_status": "pending_PR_CI_and_verified_main_deployment",
+  "ci_attempts": [
+    {
+      "run": 39188019277,
+      "result": "failure",
+      "reason": "Generated editorial-workbench.json stale after Pala metadata changed; regenerated and checked locally."
+    }
+  ]
 }
