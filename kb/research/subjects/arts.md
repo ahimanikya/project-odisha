@@ -101,3 +101,6 @@ The [contemporary creators collection](../people/contemporary-creators.md) now i
 ## Pala networks follow-up · 19 October 2026
 
 [Pala organisations and recording paths](../culture/pala-networks.md) separates publishers, troupes and association leads, preserving uncertain offices and reuse rights.
+
+
+[Pala artists](../people/pala-artists.md) — teaching lineages, written works, women’s festival repertoire and recordings, with evidence dates.

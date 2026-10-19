@@ -80,3 +80,6 @@ There is also a capture-history difference to preserve. The separate research wo
 5. Seek named, consented testimony about apprenticeship, hosting and present payment arrangements if outreach is later authorised.
 
 These gaps do not make the existing public article false. They identify the next research needed to explain how Pala is sustained by people and institutions. No website revision is claimed by this research dossier.
+
+
+[Pala artist research](../people/pala-artists.md) adds twenty scoped entries. Rout’s 2016 national citation explicitly records historical teaching services through several institutions; it does not resolve Dash’s formal roles.

@@ -812,3 +812,7 @@ Khudurukuni print and food-term and source-specific offering-distribution instru
 ## 2026-10-19 — Pala public-network audit
 
 User-directed second audit records Sachidananda Dash’s public professional profile, UKS TV performance credits, a provisional shared-contact lead to CT13T004, separate council/foundation identities and bounded recording links. [Dossier](culture/pala-networks.md). Preserves legal/office/rights unknowns, source fetch failures, dated events and historical capture differences. No outreach, full recording review, human specialist review, new programme completion or website publication claimed.
+
+## 2026-10-19 — Pala artists and cultural transmission
+
+User-requested [twenty-artist collection](people/pala-artists.md) and structured register add verified national citation evidence, dated regional profiles, women’s programme credits, teaching/writing/association links and recording routes. National award year 2016 stays separate from January 2018 events. Birth-year and early chronology conflicts quarantined; current activity and media rights unknown. Research-only delivery; no new public website revision or programme completion.
