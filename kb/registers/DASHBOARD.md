@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `327742d0fdb0920455a2b105bd2f2472ec0ed32f13f073c0929105a4accc8c5a`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b75dc10d9edf03a3f9e4567cbc4898d32a38ade88da7f6a30488ccfdb68d039d`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -321,10 +321,10 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-299 · Deepen Dalkhai song, occasion and stage context | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, song-language review and recovered source PDFs remain open for future research. | — |
 | UTP-WORK-300 · Deepen Pala literary performance, forms and repertoire | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/Odia review and manuscript evidence remain open for future research. | — |
 | UTP-WORK-301 · Deepen Dhemsa community, movement and occasion | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/language review and field evidence remain open for future research. | — |
-| UTP-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Resume Cuttack UTP-EDIT-035 with the activated team after Pala receipt PR320; correct review findings, verify and publish PR319. | — |
+| UTP-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Continue next eligible queued article using team operations and actual ownership reconciliation;28 editorial entries complete. | — |
 | UTP-WORK-2026101701 · Publish two Pattachitra Jhula choices | completed | published | Ahimanikya Satapathy | Review the live Pattachitra choices. | — |
 | UTP-WORK-2026101801 · Coherent Jhula story and collection overview | in_progress | reviewed | Ahimanikya Satapathy | Finish responsive review, publish and verify live. | — |
-| UTP-WORK-2026101901 · Activate separate editorial agents and durable handoffs | in_progress | draft | Ahimanikya Satapathy | Verify actual specialist handoffs, separate quality review and saved continuation instructions; merge reviewed records. | — |
+| UTP-WORK-2026101901 · Activate separate editorial agents and durable handoffs | completed | applied | Ahimanikya Satapathy | Use saved team loop for subsequent article work; recreate task-scoped workers when needed. | — |
 
 ## Pending human review and decisions
 
@@ -1122,6 +1122,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-166 · Bhubaneswar meal: cooking methods and Old Town food context | published | https://projectodisha.org/food/bhubaneswar/ | UTP-DEC-225 |
 | UTP-REL-167 · Bhubaneswar stay guide: address, journey and room needs | published | https://projectodisha.org/visit/stays/bhubaneswar/ | UTP-DEC-225 |
 | UTP-REL-168 · Bhubaneswar painted streets: photographic reading and visible sources | published | https://projectodisha.org/stories/bhubaneswar-fresco/ | UTP-DEC-225 |
+| UTP-REL-169 · Cuttack reading and first collaborating-team delivery | published | https://projectodisha.org/destinations/cuttack/ | UTP-DEC-225 |
 
 ## Sources and assets
 
@@ -1159,7 +1160,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101821 | 2026-10-18T22:07:15.959465+00:00 | Reviewed Mukteswar architectural explanation and modern festival context against three individually inspected sources and two credited photographs. Full557/coast236 tests and responsive keyboard checks passed; publication pending. No substantive500 increment. | — |
 | UTP-EVT-2026101822 | 2026-10-18T22:16:49.593368+00:00 | Published Mukteswar architectural guide through reviewed PR312 and approved main workflow. Verified live article, byline, three visible notes with six exact returns, complete narrative and both documentary images. UTP-EDIT-031 complete; zero substantive500 increment. | — |
 | UTP-EVT-2026101823 | 2026-10-18T23:02:41.270467+00:00 | Reviewed Bhubaneswar meal methods and Old Town food context against five inspected sources and the credited Puri photograph. Full559/coast236 tests and responsive keyboard checks passed; publication pending. No substantive500 increment. | — |
 | UTP-EVT-2026101824 | 2026-10-18T23:11:17.686661+00:00 | Published Bhubaneswar meal guide through reviewed PR313 and approved main workflow. Verified live narrative, Founder byline, five visible notes with six exact returns and unchanged credited Puri photograph. UTP-EDIT-032 complete; zero substantive500 increment. | — |
@@ -1169,6 +1169,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101904 | 2026-10-19T01:19:51.473774+00:00 | Published Bhubaneswar photographic archive through reviewed PR316 and approved main workflow. Verified live byline, visible eight-image reading,12 notes with13 exact returns and unchanged original photographs. UTP-EDIT-034 complete; zero substantive500 increment. | — |
 | UTP-EVT-2026101905 | 2026-10-19T02:08:33.602958+00:00 | Reviewed Cuttack destination: explains fort remains, wire structure and two museum evidence types; Founder byline, five visible sources, twelve exact returns, full-frame photographs and portable narrative. Full562/coast238 and responsive checks passed; publication pending. Zero substantive500 increment. | — |
 | UTP-EVT-2026101906 | 2026-10-19T03:04:14.909027+00:00 | Founder authorized separate UTP agents; first Anvesha and Samanta handoffs found source-ID and downloadable-attribution corrections. Scoped team operations recorded; quality review and release pending. Zero substantive500 increment. | — |
+| UTP-EVT-2026101907 | 2026-10-19T03:19:05.925344+00:00 | Activated actual separate UTP team and delivered Cuttack through reviewed PR319 and approved main workflow. Live12 reference returns,5 source notes, credited original images and responsive behavior verified;28 editorial entries complete, zero substantive500 increment. | — |
 
 ## Deferred extensions
 

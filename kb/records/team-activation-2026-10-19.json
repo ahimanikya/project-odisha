@@ -3,7 +3,7 @@
   "recorded_at": "2026-10-19T03:04:14.909027+00:00",
   "project": "UTP",
   "event": "move_from_single_assistant_role_passes_to_separate_agents",
-  "status": "in_progress",
+  "status": "verified_complete",
   "authorization": "UTP-DEC-2026101901",
   "work": "UTP-WORK-2026101901",
   "human_supervisor": "Ahimanikya Satapathy",
@@ -109,25 +109,14 @@
   "configuration_verification": "Three separate subagents executed under the approved role briefs. Anvesha returned evidence findings; Samanta implemented and released bounded files; Drishti separately reviewed integrated23146165. Root inspected governance, integrated results and verified existing automation update. No privilege changes.",
   "human_review": false,
   "substantive_items_added": 0,
-  "article_complete": false,
+  "article_complete": true,
   "executions": [
     {
       "role": "Disha",
       "runtime": "/root",
       "task": "Coordinator: restore one article queue, integrate main, reserve scopes and write durable team records",
-      "status": "active",
-      "reserved_write_paths": [
-        "kb/team/",
-        "kb/registers/",
-        "kb/records/",
-        "kb/research/destinations/regions.json",
-        "kb/research/destinations/cuttack-editorial.json",
-        "kb/reference/agent-guide.md",
-        "AGENTS.md",
-        "tools/check_team_assignments.py",
-        "tools/test_team_assignments.py",
-        ".github/workflows/validate-site.yml"
-      ],
+      "status": "handoff_recorded",
+      "reserved_write_paths": [],
       "coordination_note": "Coordinator integrates only after worker releases its file reservation."
     },
     {
@@ -212,7 +201,7 @@
       ]
     }
   ],
-  "next_action": "Wait required checks on final recorded head, merge reviewed PR319, deploy approved main, verify live Cuttack and integrate receipt. Team active; article and delivery record not yet complete.",
+  "next_action": "Team setup complete. After receipt integration, select the next eligible article from current rollout; reconcile current Git/worker ownership first.",
   "automation": {
     "id": "utkal-next-500",
     "status": "ACTIVE",
@@ -237,5 +226,8 @@
     },
     "team_tests": 8,
     "automation_saved_prompt_verified": true
-  }
+  },
+  "publication_receipt": "records/cuttack-editorial-publication-2026-10-19.json",
+  "activation_merge_commit": "fc8acd339ffb578a73821262192189e1bb87e255",
+  "final_reviewed_head": "4dcb9a9690909f324c2547ca4630a0486576b8e4"
 }
