@@ -26,11 +26,11 @@ All collection links, images and save IDs must resolve. Checklist choices belong
 
 | Item | Preview |
 | --- | --- |
-| UTP-WORK-070 · Inner-page layout foundation fixes | [Open](http://127.0.0.1:4324/destinations/balasore/) |
-| UTP-WORK-071 · Food and flavour planning collection | [Open](http://127.0.0.1:4324/food/) |
-| UTP-WORK-072 · Things-to-do planning collection | [Open](http://127.0.0.1:4324/things-to-do/) |
-| UTP-WORK-073 · Stay-area planning collection | [Open](http://127.0.0.1:4324/stay-areas/) |
-| UTP-WORK-074 · Personal preparation checklist and exports | [Open](http://127.0.0.1:4324/journey/#preparation) |
+| POD-WORK-070 · Inner-page layout foundation fixes | [Open](http://127.0.0.1:4324/destinations/balasore/) |
+| POD-WORK-071 · Food and flavour planning collection | [Open](http://127.0.0.1:4324/food/) |
+| POD-WORK-072 · Things-to-do planning collection | [Open](http://127.0.0.1:4324/things-to-do/) |
+| POD-WORK-073 · Stay-area planning collection | [Open](http://127.0.0.1:4324/stay-areas/) |
+| POD-WORK-074 · Personal preparation checklist and exports | [Open](http://127.0.0.1:4324/journey/#preparation) |
 
 67 pages build; 63 website and six design-system tests pass. Nine pages were checked at 360, 769 and 1440 CSS pixels without horizontal overflow. Checklist keyboard, reload, separate-journey and print-content checks used a separate test origin. Existing main-preview journeys were not edited.
 
@@ -38,7 +38,7 @@ All collection links, images and save IDs must resolve. Checklist choices belong
 
 ## Open layout work
 
-UTP-WORK-075 retains the broader inner-page design review. The Founder’s concern remains valid; the fixes here address specific grid, reading-column and portrait-framing problems. A fuller review should agree the hero hierarchy, navigation, prose rhythm, media mix and related-content arrangement across the place, food, language and literary templates. No claim of a finished visual system for every inner page is made.
+POD-WORK-075 retains the broader inner-page design review. The Founder’s concern remains valid; the fixes here address specific grid, reading-column and portrait-framing problems. A fuller review should agree the hero hierarchy, navigation, prose rhythm, media mix and related-content arrangement across the place, food, language and literary templates. No claim of a finished visual system for every inner page is made.
 
 ## Data compatibility
 
@@ -48,4 +48,4 @@ The three collection pages are derived from existing saveable catalogue entries 
 
 ## Foundation for the open visual work
 
-The subsequent [media and meaning direction](../../design-system/media-and-meaning.md), UTP-DEC-052, informs UTP-WORK-075. Review where images explain the narrative and how real views, diagrams, AI interpretation and audiovisual treatments serve different purposes.
+The subsequent [media and meaning direction](../../design-system/media-and-meaning.md), POD-DEC-052, informs POD-WORK-075. Review where images explain the narrative and how real views, diagrams, AI interpretation and audiovisual treatments serve different purposes.

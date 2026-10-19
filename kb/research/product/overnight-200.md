@@ -35,7 +35,7 @@ The full draft builds to 72 pages; the focused delivery retains 16. There are **
 
 The delivery validator now checks configuration, relative links, fragments, srcset assets, catalogue duplicates and symlinks before promoting a build. Failed validation leaves the last good output in place. Full research and source assets remain available; Store remains excluded.
 
-The actual browser download bytes were not inspected. Automated tests verify generated book content and omission of notes. Native PDF pagination remains the separate open UTP-WORK-080 item. The shared design-system package stays at rc.5; lessons and website adapters changed, and no new reusable package release is claimed.
+The actual browser download bytes were not inspected. Automated tests verify generated book content and omission of notes. Native PDF pagination remains the separate open POD-WORK-080 item. The shared design-system package stays at rc.5; lessons and website adapters changed, and no new reusable package release is claimed.
 
 This is a local candidate, not a deployed release. No commit, push, merge, external issue, paid service or outreach was performed. Earlier publication and editorial holds are recorded rather than silently converted into approvals by the batch count. The same AI assistant implemented and reviewed this work; Ahimanikya Satapathy remains the human editor and final authority.
 

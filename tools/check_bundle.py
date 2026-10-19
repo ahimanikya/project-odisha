@@ -5,6 +5,10 @@ Created for Ahimanikya Satapathy with AI assistance. Standard library only.
 import argparse,json,re
 from pathlib import Path
 from urllib.parse import unquote,urlsplit
+try:
+    from .registers import project_prefixes, matching_project_prefixes, load_id_aliases
+except ImportError:  # Direct script execution, including --kb exports.
+    from registers import project_prefixes, matching_project_prefixes, load_id_aliases
 ARCHIVES=('references/pre-repair/','history/evidence/initial-capture/','records/evidence/research-import/')
 def check(kb, config=None):
     kb=kb.resolve(); errors=[]; links=concepts=0
@@ -15,12 +19,18 @@ def check(kb, config=None):
     instance=(kb/'team/assignments.json').is_file()
     need(template != instance, 'Bundle must contain exactly one actual team record type')
     kind='template' if template else 'instance'
+    records=json.loads((kb/('maintenance' if template else 'registers')/'records.json').read_text())
+    try:
+        project_prefixes(records) if config is None else matching_project_prefixes(config, records)
+        ledger = kb/("maintenance" if template else "registers")/"activity.jsonl"
+        events = [json.loads(line) for line in ledger.read_text().splitlines() if line.strip()] if ledger.exists() else None
+        load_id_aliases(kb, records, events)
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        errors.append(str(exc))
     if config is not None:
         need(config['artifact_kind']==kind, 'Configuration artifact kind conflicts with team records')
         need(config['creator']['kind']=='human', 'Creator authority must be human')
         need(config['record_directory']==('maintenance' if template else 'registers'), 'Configuration points to wrong record directory')
-        records=json.loads((kb/('maintenance' if template else 'registers')/'records.json').read_text())
-        need(config['prefix']==records['project'], 'Configuration prefix conflicts with registers')
     need((kb/'index.md').read_text().startswith('---\nokf_version: "0.2"\n---'),'Bundle root version missing')
     for p in kb.rglob('*.md'):
         rel=p.relative_to(kb).as_posix()

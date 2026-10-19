@@ -31,7 +31,7 @@ The Founder approved batch **UTB-DEC-005**: “The next batch is approved.” Ea
 
 UTP adopts Utkal Blueprint **0.1.0-rc.1**, commit `ab5cd05315feecbc5d5c71b372d198c67ee29910`. It retains its own purpose, team and lifecycle. Blueprint changes do not automatically change this adoption.
 
-Disha Dash, Anvesha Acharya, Samanta Chandrasekhar and Drishti Senapati are AI personas, exercised as labelled role passes by one assistant in the current conversation for UTP-WORK-001. They are not independent agents. No human reports to an AI. The Founder remains the final internal authority.
+Disha Dash, Anvesha Acharya, Samanta Chandrasekhar and Drishti Senapati are AI personas, exercised as labelled role passes by one assistant in the current conversation for POD-WORK-001. They are not independent agents. No human reports to an AI. The Founder remains the final internal authority.
 
 The first encyclopedia draft and Astro preview are local review artifacts; neither is a live website. Contribution channels, visitor accounts, AI chat and photo uploads are not operational features of this setup.
 

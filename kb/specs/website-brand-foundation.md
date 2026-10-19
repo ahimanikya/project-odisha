@@ -3,7 +3,7 @@ type: Product brief
 title: Website and brand foundation
 ---
 
-# UTP-WORK-005 · Website and brand foundation
+# POD-WORK-005 · Website and brand foundation
 
 Version 0.1 · Review candidate · 28 September 2026 UTC
 

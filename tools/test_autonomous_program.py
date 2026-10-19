@@ -27,6 +27,11 @@ class ProgramEvidenceTests(unittest.TestCase):
                 path = self.root / 'kb' / name
                 path.parent.mkdir(parents=True, exist_ok=True)
                 path.write_bytes((ROOT / 'kb' / name).read_bytes())
+        if self.registers.get('id_aliases'):
+            alias = self.registers['id_aliases']
+            path = self.root / 'kb' / alias
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_bytes((ROOT / 'kb' / alias).read_bytes())
         self.receipt_path = next(p for p in self.program['items'][12]['evidence'] if 'publication-' in p)
 
     def write(self, name, data):
@@ -56,11 +61,11 @@ class ProgramEvidenceTests(unittest.TestCase):
         self.rejects('duplicate item ID')
 
     def test_unknown_work(self):
-        self.program['items'][0]['work_id'] = 'UTP-WORK-9999'
+        self.program['items'][0]['work_id'] = 'POD-WORK-9999'
         self.rejects('unknown work_id')
 
     def test_unfinished_work(self):
-        next(w for w in self.registers['work'] if w['id'] == 'UTP-WORK-190')['status'] = 'in_progress'
+        next(w for w in self.registers['work'] if w['id'] == 'POD-WORK-190')['status'] = 'in_progress'
         self.rejects('must reference completed work')
 
     def test_failed_item_not_counted(self):
@@ -136,9 +141,9 @@ class ProgramEvidenceTests(unittest.TestCase):
     def test_receipt_faults(self):
         original = json.loads((self.root / 'kb' / self.receipt_path).read_text())
         faults = [
-            ('program_item', 'UTP-A500-999', 'missing linked delivery receipt'),
-            ('work_id', 'UTP-WORK-190', 'work_id differs'),
-            ('authorization', 'UTP-DEC-001', 'authorization differs'),
+            ('program_item', 'POD-A500-999', 'missing linked delivery receipt'),
+            ('work_id', 'POD-WORK-190', 'work_id differs'),
+            ('authorization', 'POD-DEC-001', 'authorization differs'),
             ('review', 'records/missing.json', 'receipt review must be listed'),
             ('deployment', {'conclusion': 'failure'}, 'successful deployment'),
             ('deployment', {'required': False}, 'exemption reason'),

@@ -5,7 +5,7 @@ title: "Research collection import"
 
 # Research collection import
 
-The Founder approved including the complete research KB and connecting it with the organizational model, working model and delivery programme. See UTP-DEC-006.
+The Founder approved including the complete research KB and connecting it with the organizational model, working model and delivery programme. See POD-DEC-006.
 
 Research edition 1.0.1 is preserved with its historical title and wording. Current identity is Utkal Project — Rediscover Utkal. Reimagine Odisha. Ahimanikya Satapathy is the Founder & Editor-in-Chief; research and organization were AI-assisted. Individual sources retain their original credits. This import is not independent factual verification or public editorial acceptance.
 

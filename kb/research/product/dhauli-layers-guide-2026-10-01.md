@@ -19,7 +19,7 @@ The web reader could not open the NMA file. Direct retrieval returned an HTML wr
 
 ## What remains to confirm
 
-Current event operation, programme language, tickets and cancellations need a dated organiser confirmation. The inscription site and pagoda require separate questions about approach, steps, seating, shade and toilets. No route has been certified accessible. No provider was contacted, booking made or local inspection performed. UTP-WORK-097 remains open; native PDF work remains UTP-WORK-080.
+Current event operation, programme language, tickets and cancellations need a dated organiser confirmation. The inscription site and pagoda require separate questions about approach, steps, seating, shade and toilets. No route has been certified accessible. No provider was contacted, booking made or local inspection performed. POD-WORK-097 remains open; native PDF work remains POD-WORK-080.
 
 ## Verification
 
@@ -33,6 +33,6 @@ Candidate for review, not deployed. The public coastal edition remains 16 pages.
 
 ## Approved publication
 
-The Founder subsequently approved PR #12. Reviewed head `cc61c88` was merged and deployed at `5ed02c5`. Hosted build and test checks passed. All six live story sections were verified, and actual HTML/text downloads contain all four complete planning notes and their source URLs. HTTPS enforcement and redirects remain verified. Earlier candidate wording records the initial handoff; UTP-WORK-105 is now complete. Direct show/access/facility confirmations and native printing remain separate.
+The Founder subsequently approved PR #12. Reviewed head `cc61c88` was merged and deployed at `5ed02c5`. Hosted build and test checks passed. All six live story sections were verified, and actual HTML/text downloads contain all four complete planning notes and their source URLs. HTTPS enforcement and redirects remain verified. Earlier candidate wording records the initial handoff; POD-WORK-105 is now complete. Direct show/access/facility confirmations and native printing remain separate.
 
 [Publication evidence](../../records/dhauli-publication.json) · [Live guide](https://utkalproject.org/visit/places/dhauli/)

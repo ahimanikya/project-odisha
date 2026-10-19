@@ -394,7 +394,7 @@ Prepared [district language profiles and story connections](reference/district-l
 
 ## 2 October 2026 · Integration and quality programme published
 
-[UTP-REL-049](records/autonomous-site-quality-publication.json) records the approved merge, successful deployment, 125 live-file checks and all referenced responsive-image checks. The 500-item register is complete as 488 review cases and twelve integration/delivery items. Research is integrated, not automatically promoted into new public stories. Source, language, device and Google processing limitations remain explicit.
+[POD-REL-049](records/autonomous-site-quality-publication.json) records the approved merge, successful deployment, 125 live-file checks and all referenced responsive-image checks. The 500-item register is complete as 488 review cases and twelve integration/delivery items. Research is integrated, not automatically promoted into new public stories. Source, language, device and Google processing limitations remain explicit.
 
 ## 2 October 2026 · Mineral processing and local suppliers
 
@@ -730,7 +730,7 @@ Enhanced [Pala](research/culture/pala.md) from its retained source dossier: lite
 
 ## 2026-10-19 — Pala publication verified
 
-[PR 318](https://github.com/ahimanikya/project-odisha/pull/318) passed repository checks and merged. The existing main-branch workflow published revision `792ba296023f4d7e6471a43e53b5b2d4dcb95382`; the live Pala page matched all 26 paragraphs, three listening prompts and seven sources. Verified visible footnotes with return targets, collapsed reading paths and the visible update action. [Delivery receipt](records/pala-editorial-publication-2026-10-19.json). UTP-EDIT-144 is complete; no substantive programme increment.
+[PR 318](https://github.com/ahimanikya/project-odisha/pull/318) passed repository checks and merged. The existing main-branch workflow published revision `792ba296023f4d7e6471a43e53b5b2d4dcb95382`; the live Pala page matched all 26 paragraphs, three listening prompts and seven sources. Verified visible footnotes with return targets, collapsed reading paths and the visible update action. [Delivery receipt](records/pala-editorial-publication-2026-10-19.json). POD-EDIT-144 is complete; no substantive programme increment.
 
 ## 19 October 2026 — Pala history, preservation and visitor revision
 

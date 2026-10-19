@@ -19,16 +19,16 @@ A traveller can enjoy a story yet still not know which part of a destination to 
 
 | ID | Requirement | Phase | Acceptance evidence |
 | --- | --- | --- | --- |
-| UTP-TB-001 | Destination content contains areas, key experiences, food, stay bases, season and relevant cultural works, linked to evidence. | Now: pilot | Chilika renders from KB data with stable IDs and all source references resolved. Other places need separate research. |
-| UTP-TB-002 | Main reading flow stays uncluttered; detailed source and rights credit appears in an accessible end section. | Now: pilot | Keyboard expansion works, sources map to sections, media and translation credits remain retrievable. |
-| UTP-TB-003 | Save/remove a place, experience, dish or verified stay in a personal collection without creating an account. | Next candidate | Choices survive reload on the same browser; duplicates are prevented; storage failure has a clear fallback; deleting browser data is explained. |
-| UTP-TB-004 | Create multiple named trips and arrange selected items by day, with notes and optional dates. | Next candidate | Add/remove/reorder works by keyboard and pointer; changes persist; unscheduled ideas remain separate from planned days. |
-| UTP-TB-005 | Show area and known access information while assembling a day; distinguish unknown times from verified estimates. | Next candidate | No fabricated route duration. Day can remain explicitly unvalidated; regional separation is visible without claiming route optimization. |
-| UTP-TB-006 | Export a tour book suitable for carrying or printing. | Next candidate | Browser print/PDF produces readable A4 pages with trip title, daily choices, addresses/coordinates when verified, user's notes, checking date and a compact credits appendix. Long plans paginate without truncation. |
-| UTP-TB-007 | Export/import the underlying plan as a portable file. | Next candidate | Round-trip preserves IDs, ordering and notes; validate format/version/size; render imported text safely; show unknown/deleted items instead of silently losing them. |
-| UTP-TB-008 | Take usable selected content offline. | Later | Exported book retains necessary text without network access. Offline HTML/images only after rights, file size and cache behavior are tested; external maps/music remain links. |
-| UTP-TB-009 | Maintain verified food venues and individual stays with editorial independence. | Later, research dependent | Property/venue has source, checked date, access information and honest status; paid association is disclosed and cannot buy a recommendation. |
-| UTP-TB-010 | Offer optional cross-device sync or controlled sharing. | Later | Explicit user choice; define privacy, deletion, access and cost before selecting a backend. Public links do not expose private notes by default. |
+| POD-TB-001 | Destination content contains areas, key experiences, food, stay bases, season and relevant cultural works, linked to evidence. | Now: pilot | Chilika renders from KB data with stable IDs and all source references resolved. Other places need separate research. |
+| POD-TB-002 | Main reading flow stays uncluttered; detailed source and rights credit appears in an accessible end section. | Now: pilot | Keyboard expansion works, sources map to sections, media and translation credits remain retrievable. |
+| POD-TB-003 | Save/remove a place, experience, dish or verified stay in a personal collection without creating an account. | Next candidate | Choices survive reload on the same browser; duplicates are prevented; storage failure has a clear fallback; deleting browser data is explained. |
+| POD-TB-004 | Create multiple named trips and arrange selected items by day, with notes and optional dates. | Next candidate | Add/remove/reorder works by keyboard and pointer; changes persist; unscheduled ideas remain separate from planned days. |
+| POD-TB-005 | Show area and known access information while assembling a day; distinguish unknown times from verified estimates. | Next candidate | No fabricated route duration. Day can remain explicitly unvalidated; regional separation is visible without claiming route optimization. |
+| POD-TB-006 | Export a tour book suitable for carrying or printing. | Next candidate | Browser print/PDF produces readable A4 pages with trip title, daily choices, addresses/coordinates when verified, user's notes, checking date and a compact credits appendix. Long plans paginate without truncation. |
+| POD-TB-007 | Export/import the underlying plan as a portable file. | Next candidate | Round-trip preserves IDs, ordering and notes; validate format/version/size; render imported text safely; show unknown/deleted items instead of silently losing them. |
+| POD-TB-008 | Take usable selected content offline. | Later | Exported book retains necessary text without network access. Offline HTML/images only after rights, file size and cache behavior are tested; external maps/music remain links. |
+| POD-TB-009 | Maintain verified food venues and individual stays with editorial independence. | Later, research dependent | Property/venue has source, checked date, access information and honest status; paid association is disclosed and cannot buy a recommendation. |
+| POD-TB-010 | Offer optional cross-device sync or controlled sharing. | Later | Explicit user choice; define privacy, deletion, access and cost before selecting a backend. Public links do not expose private notes by default. |
 
 ## Model before database
 
@@ -61,7 +61,7 @@ Acceptance testing for the future planner must cover reload, empty collections, 
 
 ## Current delivery and next review
 
-Delivered in this candidate: UTP-TB-001 and UTP-TB-002 as a Chilika prototype plus the reusable [destination model](../../reference/destination-model.md). Not implemented: saving, arranging, export, offline caching, accounts or booking. Validate the model with a heritage site and a city/food destination before scaling. Founder review decides the next implementation batch; publication remains a separate human gate.
+Delivered in this candidate: POD-TB-001 and POD-TB-002 as a Chilika prototype plus the reusable [destination model](../../reference/destination-model.md). Not implemented: saving, arranging, export, offline caching, accounts or booking. Validate the model with a heritage site and a city/food destination before scaling. Founder review decides the next implementation batch; publication remains a separate human gate.
 
 ## Direction endorsement
 
@@ -73,11 +73,11 @@ The Founder authorised the connected-stories and tour-book next step with “Go 
 
 ## Multiple-journey increment
 
-UTP-TB-004 now has multiple named journeys, optional start dates and dated day headings in the local candidate. [Implementation and compatibility](multiple-journeys.md) records the exact scope and remaining limits.
+POD-TB-004 now has multiple named journeys, optional start dates and dated day headings in the local candidate. [Implementation and compatibility](multiple-journeys.md) records the exact scope and remaining limits.
 
 ## Day planning and visit notebooks · 30 September 2026
 
-[Next 210 delivery](next-210.md) extends local UTP-TB-003–008 with private day titles/notes, note-only days, bounded group moves/shifts, guarded undo, copy between trips, and seven editorial visit notebooks carried into books. Current backups preserve day metadata; earlier clients may discard it. HTML and text output are verified separately from native PDF pagination, which remains UTP-WORK-080. Earlier scope and phase tables above are historical baseline statements.
+[Next 210 delivery](next-210.md) extends local POD-TB-003–008 with private day titles/notes, note-only days, bounded group moves/shifts, guarded undo, copy between trips, and seven editorial visit notebooks carried into books. Current backups preserve day metadata; earlier clients may discard it. HTML and text output are verified separately from native PDF pagination, which remains POD-WORK-080. Earlier scope and phase tables above are historical baseline statements.
 
 ## Personal preparation and portable days
 

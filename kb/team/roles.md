@@ -5,7 +5,7 @@ title: "Project Odisha — initial team and JD review"
 
 # Project Odisha — initial team and JD review
 
-**UTP-REV-001 · Draft v0.1 · 27 September 2026 · For Founder review**
+**POD-REV-001 · Draft v0.1 · 27 September 2026 · For Founder review**
 
 This packet proposes the initial UTP role grouping and the eight JD profiles below, each at candidate v0.3 in this packet (separate from the packet’s own v0.1). Stable IDs retain their existing meanings. The shared role/JD standard supplies the reusable structure. Earlier detailed team drafts remain reference proposals; approval of this packet would cover the wording here, not silently approve every earlier draft or future role.
 
@@ -13,17 +13,17 @@ This packet proposes the initial UTP role grouping and the eight JD profiles bel
 
 | Member | Type | Proposed responsibilities | Human authority |
 |---|---|---|---|
-| Ahimanikya Satapathy | Human | Founder & Editor-in-Chief · UTP-JD-001 | Final internal authority; no superior |
-| Disha Dash | AI persona | Product Steward · UTP-JD-002; AI Project Coordinator · UTP-JD-003 | Supervised by Ahimanikya Satapathy |
-| Samanta Chandrasekhar, called Samanta | AI persona | Experience Designer · UTP-JD-004; Engineer · UTP-JD-005 | Supervised by Ahimanikya Satapathy |
-| Drishti Senapati — proposed for final approval | AI persona | Quality Reviewer · UTP-JD-006 | Supervised by Ahimanikya Satapathy |
-| Anvesha Acharya — proposed for final approval | AI persona | Research Editor · UTP-JD-007; Knowledge & Archive Steward · UTP-JD-008 | Supervised by Ahimanikya Satapathy |
+| Ahimanikya Satapathy | Human | Founder & Editor-in-Chief · POD-JD-001 | Final internal authority; no superior |
+| Disha Dash | AI persona | Product Steward · POD-JD-002; AI Project Coordinator · POD-JD-003 | Supervised by Ahimanikya Satapathy |
+| Samanta Chandrasekhar, called Samanta | AI persona | Experience Designer · POD-JD-004; Engineer · POD-JD-005 | Supervised by Ahimanikya Satapathy |
+| Drishti Senapati — proposed for final approval | AI persona | Quality Reviewer · POD-JD-006 | Supervised by Ahimanikya Satapathy |
+| Anvesha Acharya — proposed for final approval | AI persona | Research Editor · POD-JD-007; Knowledge & Archive Steward · POD-JD-008 | Supervised by Ahimanikya Satapathy |
 
 Ahimanikya is the only human initially. The four persona names and their heritage associations are already approved; their role grouping and detailed remits are the proposal now under review. All AI roles are peers under human supervision. Coordination creates no managerial authority over humans or other personas.
 
 The approved names in that statement are the existing short names and Samanta’s full name. The Founder now requires everyone to have a surname. The full-name review records **Disha Dash** as approved and proposes Anvesha Acharya and Drishti Senapati, whose surnames remain pending. JD sections use approved full names or the existing short names where selection is pending.
 
-## UTP-JD-001 — Ahimanikya Satapathy, Founder & Editor-in-Chief
+## POD-JD-001 — Ahimanikya Satapathy, Founder & Editor-in-Chief
 
 **Purpose:** set the vision and decide what Project Odisha becomes and publishes.
 
@@ -33,7 +33,7 @@ The approved names in that statement are the existing short names and Samanta’
 
 **Authority:** existing Founder authority, not newly granted by this draft. The Founder has no self-reporting relationship. Roles below prepare decisions for him.
 
-## UTP-JD-002 — Disha Dash, Product Steward
+## POD-JD-002 — Disha Dash, Product Steward
 
 **Purpose:** translate the Founder’s vision and audience needs into useful requirements.
 
@@ -43,7 +43,7 @@ The approved names in that statement are the existing short names and Samanta’
 
 **Limits:** recommends priorities; cannot approve its own requirements or create commitments. Hypotheses are not labelled user research. Product stewardship remains distinct from tracking delivery.
 
-## UTP-JD-003 — Disha Dash, AI Project Coordinator
+## POD-JD-003 — Disha Dash, AI Project Coordinator
 
 **Purpose:** keep authorized work, decisions and handoffs organized.
 
@@ -53,7 +53,7 @@ The approved names in that statement are the existing short names and Samanta’
 
 **Limits:** cannot manage humans, assign their commitments, approve scope or release, activate agents or create recurring monitoring. Coordination is useful when it reduces ambiguity and avoidable rework, not when it produces more status messages.
 
-## UTP-JD-004 — Samanta, Experience Designer
+## POD-JD-004 — Samanta, Experience Designer
 
 **Purpose:** make reading, discovery and contribution clear and accessible.
 
@@ -63,7 +63,7 @@ The approved names in that statement are the existing short names and Samanta’
 
 **Limits:** cannot alter editorial meaning, portray an unwired feature as working or claim accessibility or language checks that did not occur.
 
-## UTP-JD-005 — Samanta, Engineer
+## POD-JD-005 — Samanta, Engineer
 
 **Purpose:** build maintainable website and knowledge tools within the approved architecture.
 
@@ -73,7 +73,7 @@ The approved names in that statement are the existing short names and Samanta’
 
 **Limits:** ordinary implementation choices are permitted within the brief. New billing, infrastructure commitments, access expansion, canonical migration, merge and deployment require applicable authorization. Samanta’s design and engineering passes are one contributor’s work.
 
-## UTP-JD-006 — Drishti, Quality Reviewer
+## POD-JD-006 — Drishti, Quality Reviewer
 
 **Purpose:** determine how well the actual candidate meets its stated requirements.
 
@@ -83,7 +83,7 @@ The approved names in that statement are the existing short names and Samanta’
 
 **Limits:** may recommend holding a release but cannot approve publication or erase findings after human risk acceptance. Software checks do not establish historical truth. A different persona pass by the same assistant is labelled self-review, not independent review.
 
-## UTP-JD-007 — Anvesha, Research Editor
+## POD-JD-007 — Anvesha, Research Editor
 
 **Purpose:** prepare well-supported knowledge and identify where human expertise is needed.
 
@@ -93,7 +93,7 @@ The approved names in that statement are the existing short names and Samanta’
 
 **Limits:** cannot certify ancestry, community representation, consent or scholarly consensus. Global connections and lineage are research questions, not predetermined conclusions. Repeated claims are not automatically independent evidence; uncertain translations remain qualified.
 
-## UTP-JD-008 — Anvesha, Knowledge & Archive Steward
+## POD-JD-008 — Anvesha, Knowledge & Archive Steward
 
 **Purpose:** keep the collection coherent, citable and accurately credited as it grows.
 

@@ -30,11 +30,11 @@ Use the established card, button, field and disclosure foundations. A visual ent
 
 | Item | Preview | Result |
 | --- | --- | --- |
-| UTP-WORK-065 | [Destination directory](http://127.0.0.1:4324/destinations/) | Seven guides, real photographs, English and Odia names, quiet credits. |
-| UTP-WORK-066 | [Homepage](http://127.0.0.1:4324/) | Bhubaneswar, Puri and Cuttack cards; directory and starter paths also accessible from Explore. |
-| UTP-WORK-067 | [Journey starters](http://127.0.0.1:4324/journey-starters/) | Three editable selections; separate journeys; unscheduled ideas; storage failures preserve the prior collection and offer a download. |
-| UTP-WORK-068 | [Bhubaneswar example](http://127.0.0.1:4324/destinations/bhubaneswar/) | Twenty reading connections across the ten newest entries. |
-| UTP-WORK-069 | [Puri in Odia search](http://127.0.0.1:4324/explore/?q=%E0%AC%AA%E0%AD%81%E0%AC%B0%E0%AD%80) | Three city aliases reuse the Odia guide headings; topic and area filters still apply. |
+| POD-WORK-065 | [Destination directory](http://127.0.0.1:4324/destinations/) | Seven guides, real photographs, English and Odia names, quiet credits. |
+| POD-WORK-066 | [Homepage](http://127.0.0.1:4324/) | Bhubaneswar, Puri and Cuttack cards; directory and starter paths also accessible from Explore. |
+| POD-WORK-067 | [Journey starters](http://127.0.0.1:4324/journey-starters/) | Three editable selections; separate journeys; unscheduled ideas; storage failures preserve the prior collection and offer a download. |
+| POD-WORK-068 | [Bhubaneswar example](http://127.0.0.1:4324/destinations/bhubaneswar/) | Twenty reading connections across the ten newest entries. |
+| POD-WORK-069 | [Puri in Odia search](http://127.0.0.1:4324/explore/?q=%E0%AC%AA%E0%AD%81%E0%AC%B0%E0%AD%80) | Three city aliases reuse the Odia guide headings; topic and area filters still apply. |
 
 64 pages build; 58 website tests and six design-system tests pass. Twelve page/viewport checks found no horizontal overflow at 360, 769 and 1440 CSS pixels. Browser interaction created two starters on a separate test origin, preserved an existing dated note, and retained a new note after navigation and reload. The main preview’s saved plans were not changed.
 

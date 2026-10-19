@@ -67,7 +67,7 @@ Store local name and variants; instrument or vocal technique; community and plac
 
 ## Construction, acoustics and named practice · 17 October 2026
 
-**Reader question:** how does the shell become an instrument, and what changes when conch playing becomes a Ganjam performance? UTP-A500-108 / UTP-WORK-297 extends the existing subject. Research map and KB were searched before new retrieval. No new sound identity, outreach, recording or human review.
+**Reader question:** how does the shell become an instrument, and what changes when conch playing becomes a Ganjam performance? POD-A500-108 / POD-WORK-297 extends the existing subject. Research map and KB were searched before new retrieval. No new sound identity, outreach, recording or human review.
 
 | Reader gain / claim | Inspected source | Scope and limit |
 | --- | --- | --- |

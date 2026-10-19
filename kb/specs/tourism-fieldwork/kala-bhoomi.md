@@ -6,7 +6,7 @@ status: "draft"
 
 # Kala Bhoomi visit brief
 
-**UTP-EXP-B03 · Bhubaneswar · Desk lead.** Proposed research visit; the host, date, duration, capacity and price remain unconfirmed.
+**POD-EXP-B03 · Bhubaneswar · Desk lead.** Proposed research visit; the host, date, duration, capacity and price remain unconfirmed.
 
 ## Story to explore
 

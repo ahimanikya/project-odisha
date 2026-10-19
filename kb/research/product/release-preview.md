@@ -65,4 +65,4 @@ The subsequent [connection pass](discovery-connections.md) now builds 64 pages. 
 
 ## Current local output after visitor planning
 
-The [visitor-planning batch](visitor-planning-batch.md) now builds 67 pages, with 63 passing website tests and six design-system tests. Its [manifest](../../records/visitor-planning-manifest.json) identifies the current local output. Broader inner-page refinement remains open as UTP-WORK-075; publication still requires the separate Founder gate.
+The [visitor-planning batch](visitor-planning-batch.md) now builds 67 pages, with 63 passing website tests and six design-system tests. Its [manifest](../../records/visitor-planning-manifest.json) identifies the current local output. Broader inner-page refinement remains open as POD-WORK-075; publication still requires the separate Founder gate.

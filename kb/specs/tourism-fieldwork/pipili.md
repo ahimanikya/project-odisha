@@ -6,7 +6,7 @@ status: "draft"
 
 # Pipili appliqué visit brief
 
-**UTP-EXP-P02 · Puri district · Desk lead.** Proposed research visit; the host, date, duration, capacity and price remain unconfirmed.
+**POD-EXP-P02 · Puri district · Desk lead.** Proposed research visit; the host, date, duration, capacity and price remain unconfirmed.
 
 ## Story to explore
 

@@ -69,7 +69,7 @@ The Founder corrected the laughing-mouth artwork. India Video’s full page text
 
 ## Language and learning revision · 17 October 2026
 
-**Central question:** how does tongue movement become a recognisable Odia act of welcome, and what can its vocabulary tell us about its history? This extends the existing subject rather than creating a new sound identity. UTP-A500-107 / UTP-WORK-296; same-assistant desk research, no fieldwork or independent review.
+**Central question:** how does tongue movement become a recognisable Odia act of welcome, and what can its vocabulary tell us about its history? This extends the existing subject rather than creating a new sound identity. POD-A500-107 / POD-WORK-296; same-assistant desk research, no fieldwork or independent review.
 
 The earlier dictionary-access gap is now partly resolved. The short-final spelling returned no exact match; a public DSAL prefix query for ହୁଳ recovered the long-final headword. Search text was cross-checked against the original printed page 9190. The search result labelled that page but linked image 9214, which actually depicts a different printed page. The correct [printed page 9190](https://dsal.uchicago.edu/dictionaries/praharaj/page_images/9190.jpg) was retrieved and visually read. The [catalogue](https://dsal.uchicago.edu/dictionaries/praharaj/) dates the work 1931–1940. No single volume/year or first-use date is inferred.
 

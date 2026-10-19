@@ -8,6 +8,10 @@ import json
 import re
 from datetime import datetime
 from pathlib import Path
+try:
+    from .registers import project_prefixes, matching_project_prefixes, load_id_aliases
+except ImportError:  # Direct script execution.
+    from registers import project_prefixes, matching_project_prefixes, load_id_aliases
 
 ROOT = Path(__file__).resolve().parents[1]
 STATES = {'proposed', 'in_progress', 'blocked', 'deferred', 'failed', 'completed'}
@@ -23,9 +27,9 @@ def timestamp(value):
         return False
 
 
-def linked(record, item):
-    return (record.get('program_item') == item or any(
-        isinstance(record.get(key), list) and item in record[key]
+def linked(record, item, resolve=lambda value: value):
+    return (resolve(record.get('program_item')) == item or any(
+        isinstance(record.get(key), list) and item in [resolve(value) for value in record[key]]
         for key in ('completed_program_items', 'items')))
 
 
@@ -114,11 +118,27 @@ def check(root=ROOT):
         registers = json.loads((kb / 'registers/records.json').read_text())
         if not isinstance(program, dict) or not isinstance(registers, dict):
             raise ValueError('program and registers must be objects')
+        config_path = root / 'utkal.config.json'
+        prefixes = (matching_project_prefixes(json.loads(config_path.read_text()), registers)
+                    if config_path.exists() else project_prefixes(registers))
+        item_pattern = prefixes[0]+r'-A500-[0-9]{3}'
+        work = record_index(registers, 'work')
+        decisions = record_index(registers, 'decisions')
+        ledger = kb/'registers/activity.jsonl'
+        events = [json.loads(line) for line in ledger.read_text().splitlines() if line.strip()] if ledger.exists() else None
+        aliases = load_id_aliases(kb, registers, events)
+        def resolve(value):
+            return aliases.get(value, value) if isinstance(value, str) else None
         items = program.get('items')
         if not isinstance(items, list) or not all(isinstance(i, dict) for i in items):
             raise ValueError('items must be a list of objects')
-        work = record_index(registers, 'work')
-        decisions = record_index(registers, 'decisions')
+        for ident in (*work, *decisions):
+            if not re.fullmatch(prefixes[0]+r'-[A-Z]+-[0-9]{3,}', ident):
+                raise ValueError('Non-canonical register ID: '+ident)
+        item_ids = {item.get('id') for item in items if isinstance(item.get('id'), str)}
+        for target in aliases.values():
+            if re.fullmatch(item_pattern, target) and target not in item_ids:
+                raise ValueError('Missing program ID alias target: '+target)
     except (OSError, ValueError, KeyError, TypeError) as exc:
         return [f'Cannot read program/registers: {exc}']
 
@@ -128,7 +148,7 @@ def check(root=ROOT):
             errors.append(f'Program {field} must be a non-empty string')
     if errors:
         return errors
-    decision = decisions.get(authority, {})
+    decision = decisions.get(resolve(authority), {})
     actor = decision.get('actor')
     if (decision.get('status') != 'approved' or not isinstance(actor, dict)
             or actor.get('kind') != 'human' or actor.get('name') != program['human_owner']):
@@ -145,7 +165,7 @@ def check(root=ROOT):
         label = ident if isinstance(ident, str) else '<invalid ID>'
         def fail(message):
             errors.append(f'{label}: {message}')
-        if not isinstance(ident, str) or not re.fullmatch(r'UTP-A500-[0-9]{3}', ident):
+        if not isinstance(ident, str) or not re.fullmatch(item_pattern, ident):
             fail('invalid item ID')
         elif ident in seen:
             fail('duplicate item ID')
@@ -158,7 +178,7 @@ def check(root=ROOT):
         if not isinstance(status, str) or status not in STATES:
             fail('unknown status')
         work_id = item.get('work_id')
-        w = work.get(work_id, {}) if isinstance(work_id, str) else {}
+        w = work.get(resolve(work_id), {}) if isinstance(work_id, str) else {}
         if not w:
             fail('unknown work_id')
         references = item.get('evidence')
@@ -183,7 +203,7 @@ def check(root=ROOT):
             fail('completion requires a timezone-aware completed_at')
         if w.get('status') != 'completed':
             fail('completed item must reference completed work')
-        related = [d for d in documents.values() if linked(d, ident)]
+        related = [d for d in documents.values() if linked(d, ident, resolve)]
         reviews = [d for d in related if d.get('status') in ('pass', 'pass_with_limitations')
                    and isinstance(d.get('verification'), dict) and d['verification']]
         if not reviews:
@@ -192,9 +212,9 @@ def check(root=ROOT):
         if not receipts:
             fail('missing linked delivery receipt')
         for record in related:
-            if record.get('authorization') != authority:
+            if resolve(record.get('authorization')) != resolve(authority):
                 fail('linked evidence authorization differs from program')
-            if 'work_id' in record and record['work_id'] != work_id:
+            if 'work_id' in record and resolve(record['work_id']) != resolve(work_id):
                 fail('linked evidence work_id differs from item')
         for receipt in receipts:
             for finding in delivery_consistency(receipt):

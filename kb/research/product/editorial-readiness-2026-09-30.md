@@ -74,6 +74,6 @@ The principle is to preserve source assets and cultural detail while serving sma
 
 The browser font-status interface returned no usable enumeration, so this review relies on font-file comparisons, CSS references, build tests and visible rendering rather than claiming that API proved loading. Visual inspection is not fluent Odia proofreading, a physical-device test or a complete accessibility audit.
 
-Native PDF pagination remains **UTP-WORK-080**. The earlier actual HTML book download checks remain historical evidence; no new native print or full download test was claimed in this pass. Current test coverage includes the image formats. Store stays excluded; preview/noindex remains. The draft contains no live booking/payment system or newly enabled analytics/AI chat.
+Native PDF pagination remains **POD-WORK-080**. The earlier actual HTML book download checks remain historical evidence; no new native print or full download test was claimed in this pass. Current test coverage includes the image formats. Store stays excluded; preview/noindex remains. The draft contains no live booking/payment system or newly enabled analytics/AI chat.
 
 Next: Founder reviews the five-page coastal collection and the listed human-review items. Then prepare the chosen scope and its dependencies as a separate publication candidate, refresh evidence against that exact output, and seek publication approval. This batch itself does not release the website.

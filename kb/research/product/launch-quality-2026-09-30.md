@@ -5,7 +5,7 @@ title: Coastal launch-quality follow-up — 30 September 2026
 
 # Make the published preview easier to maintain and use
 
-Ahimanikya Satapathy’s **“go”** authorised the recommended first three follow-ups: reconcile the backlog, verify printed tour books where the browser permits it, and strengthen the seven live guides. This candidate is separate from the already published UTP-REL-006. It does not expand the release to Chilika, Store or other held pages.
+Ahimanikya Satapathy’s **“go”** authorised the recommended first three follow-ups: reconcile the backlog, verify printed tour books where the browser permits it, and strengthen the seven live guides. This candidate is separate from the already published POD-REL-006. It does not expand the release to Chilika, Store or other held pages.
 
 [Draft PR #5](https://github.com/ahimanikya/utkal-project/pull/5) · [Open the local candidate](http://127.0.0.1:4354/knowledge/konark/#visit-notebook) · [Structured review](../../records/launch-quality-review.json)
 
@@ -13,7 +13,7 @@ Ahimanikya Satapathy’s **“go”** authorised the recommended first three fol
 
 The [comparison record](../../records/evidence/launch-quality-2026-09-30/backlog-reconciliation.json) preserves each changed task’s previous state. Nineteen functional tasks now correctly say completed/published under the existing approval and release, including multiple journeys, portable books, filtering, contributions, duplication, undo and day planning. This records existing delivery; it creates no new release.
 
-Four guide records—Bhubaneswar, Puri, Dhauli and Raghurajpur—now show **published** readiness while remaining **awaiting review** for fuller editorial acceptance. Fifteen broader tasks explicitly identify their published coastal subset while retaining the remaining scope. Other held content is unchanged. Native printing remains UTP-WORK-080. The seven-guide editorial and local-arrangement queue is consolidated in UTP-WORK-097.
+Four guide records—Bhubaneswar, Puri, Dhauli and Raghurajpur—now show **published** readiness while remaining **awaiting review** for fuller editorial acceptance. Fifteen broader tasks explicitly identify their published coastal subset while retaining the remaining scope. Other held content is unchanged. Native printing remains POD-WORK-080. The seven-guide editorial and local-arrangement queue is consolidated in POD-WORK-097.
 
 ## Seven more useful planning passages
 
@@ -35,7 +35,7 @@ Primary pages inspected on 30 September 2026: [Bhubaneswar](https://odishatouris
 
 Both journey printing and standalone books forced A4 in their styles. They now use the paper selected in the print dialog, retaining 18 mm margins, heading-break controls and image constraints. This is a style correction, **not proof of native A4 or Letter pagination**.
 
-The in-app print request again exposed no print interface. Chrome use was requested because the browser skill requires an explicit choice before switching; no switch or bypass occurred. UTP-WORK-080 stays open pending a supported browser. The [six-case print matrix](../../records/evidence/launch-quality-2026-09-30/print-matrix.json) records every case as not tested. Use the current [text sample](../../records/evidence/launch-quality-2026-09-30/text-book.html), [photo sample](../../records/evidence/launch-quality-2026-09-30/photo-book.html) and [synthetic journey](../../records/evidence/launch-quality-2026-09-30/synthetic-journey.json). These are generated test fixtures, not actual browser downloads or PDFs.
+The in-app print request again exposed no print interface. Chrome use was requested because the browser skill requires an explicit choice before switching; no switch or bypass occurred. POD-WORK-080 stays open pending a supported browser. The [six-case print matrix](../../records/evidence/launch-quality-2026-09-30/print-matrix.json) records every case as not tested. Use the current [text sample](../../records/evidence/launch-quality-2026-09-30/text-book.html), [photo sample](../../records/evidence/launch-quality-2026-09-30/photo-book.html) and [synthetic journey](../../records/evidence/launch-quality-2026-09-30/synthetic-journey.json). These are generated test fixtures, not actual browser downloads or PDFs.
 
 For each A4 and Letter case, save all pages at 100% scale, record actual margins and header/footer settings, then inspect long-note end markers, Odia glyphs, heading separation, uncut photographs and the source appendix. The native journey view must also be checked using only the synthetic plan in a separate journey. Do not replace existing personal journeys.
 
