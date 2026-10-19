@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 394. completed: 28, excluded: 9, in_progress: 1, queued: 356.
+Route inventory: 394. completed: 29, excluded: 9, queued: 356.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -49,7 +49,7 @@ Route inventory: 394. completed: 28, excluded: 9, in_progress: 1, queued: 356.
 | UTP-EDIT-033 | [Find your city base](https://projectodisha.org/visit/stays/bhubaneswar/) | completed | Individually revise Bhubaneswar stay-area guide: explain choosing a base from the shape of a visit, address/transfer tradeoffs, room access and arrival timing; Founder byline, visible sourced geography note, preserved documentary photograph and portable reading. |
 | UTP-EDIT-034 | [Bhubaneswar’s Painted Streets — Project Odisha](https://projectodisha.org/stories/bhubaneswar-fresco/) | completed | Individually review photographic archive introduction, eight-photo selection and cultural connections. Preserve 166 original photographs, viewer/filter behaviour and photographer credit; distinguish camera dates, curatorial readings and unknown mural makers. Apply visible numbered sources and natural reading without flattening the gallery into a conventional article. |
 | UTP-EDIT-035 | [Cuttack: places, food &amp; living culture](https://projectodisha.org/destinations/cuttack/) | completed | Review the Cuttack destination as an authored city introduction: explain how fort remains, fine-wire craft and two different museums offer different kinds of evidence. Preserve five credited documentary images and connected planning functions. Update only this region and opt it into the established editorial template. |
-| UTP-EDIT-036 | [Barabati Fort](https://projectodisha.org/visit/places/barabati/) | in_progress | Revise Barabati Fort individually: explain what gateway, moat and palace mound establish, distinguish surviving evidence from lost architecture and uncertain chronology; provide readable authored article and visible source notes with the original photograph and useful planning links. |
+| UTP-EDIT-036 | [Barabati Fort](https://projectodisha.org/visit/places/barabati/) | completed | Revise Barabati Fort individually: explain what gateway, moat and palace mound establish, distinguish surviving evidence from lost architecture and uncertain chronology; provide readable authored article and visible source notes with the original photograph and useful planning links. |
 | UTP-EDIT-037 | [Tarakasi · follow a silver thread](https://projectodisha.org/visit/experiences/cuttack-filigree/) | queued | classification_pending |
 | UTP-EDIT-038 | [Dahibara Aloodum in Cuttack](https://projectodisha.org/food/cuttack/) | queued | classification_pending |
 | UTP-EDIT-039 | [Netaji Birthplace Museum](https://projectodisha.org/visit/experiences/cuttack-netaji/) | queued | classification_pending |
