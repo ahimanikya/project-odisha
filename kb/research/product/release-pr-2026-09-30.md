@@ -23,7 +23,7 @@ Review in this order:
 
 ## Verification and release boundary
 
-The preceding frozen candidate passed 313 site tests, 10 coastal tests and 64 page checks. Four actual downloads were inspected, including embedded photographs and private-note exclusion. Native PDF pagination remains UTP-WORK-080. Fixed-width browser checks do not establish physical-device or screen-reader coverage.
+The preceding frozen candidate passed 313 site tests, 10 coastal tests and 64 page checks. Four actual downloads were inspected, including embedded photographs and private-note exclusion. Native PDF pagination remains POD-WORK-080. Fixed-width browser checks do not establish physical-device or screen-reader coverage.
 
 The new PR workflow independently repeats the builds, site/coastal tests, shared design-system tests, KB checks and authority-model regressions in a clean hosted checkout. It stores a 14-day coastal review artifact after those checks pass. The artifact is a review download, not a deployed site. Its availability and CI result must be observed before being reported as passing.
 

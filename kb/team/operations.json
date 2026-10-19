@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "project": "UTP",
+  "project": "POD",
   "status": "active",
-  "authorization": "UTP-DEC-2026101901",
+  "authorization": "POD-DEC-2026101901",
   "human_authority": "Ahimanikya Satapathy",
   "coordinator": "Disha",
   "shared_writer": "Disha",
@@ -38,7 +38,7 @@
     }
   ],
   "loop": [
-    "Read AGENTS.md, current team assignments/operations, editorial standard, rollout, current registers and latest handoff. Inspect working tree, remote queue and open PRs before claiming work.",
+    "Read AGENTS.md, current team assignments/operations, editorial standard, rollout, current registers and latest handoff. Inspect working tree, remote queue and open PRs before claiming work. Use canonical POD identifiers for existing and new records; resolve old UTP references through the exact identifier map. Preserve original evidence.",
     "Resume the existing active article or explicit handoff first. Keep one article in progress. An external worker retains its scope until observed completion or explicit handoff; age of a timestamp alone is not abandonment.",
     "Coordinator reserves the article and file scopes. Spawn/reuse Anvesha and Samanta for independent subtasks of the same article; sequence dependent steps. Load their role and governance context. No separate article claims by workers. Save exact reserved file paths, runtime and handoff status in the handoff record before edits; release them explicitly on completion.",
     "Workers return input head, actual changed files or findings, tests performed, evidence limits and next action. Coordinator integrates, resolves findings and records the resulting head.",
@@ -54,7 +54,7 @@
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
   "current_article": {
-    "id": "UTP-EDIT-036",
+    "id": "POD-EDIT-036",
     "route": "/visit/places/barabati/",
     "owner": "Disha",
     "coordinator_runtime": "/root",
@@ -66,5 +66,6 @@
     "pull_request": "https://github.com/ahimanikya/project-odisha/pull/324",
     "publication_receipt": "records/barabati-editorial-publication-2026-10-19.json",
     "release_note": "Article published and checked; receipt prepared for records-only review. Verify integration before claiming another article."
-  }
+  },
+  "project_identity": "reference/project-identity.md"
 }

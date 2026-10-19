@@ -6,7 +6,7 @@ status: "desk_prepared"
 
 # From field notes to a bounded tourism trial
 
-**Version 0.1 · Prepared 8 October 2026 · UTP-WORK-196.** This pack turns the existing six visit briefs into a consistent way to assess an experience and prepare a small trial. It does not assess any operator today. All six remain desk leads; no host, appointment, participant group, quote or trial is confirmed by this document.
+**Version 0.1 · Prepared 8 October 2026 · POD-WORK-196.** This pack turns the existing six visit briefs into a consistent way to assess an experience and prepare a small trial. It does not assess any operator today. All six remain desk leads; no host, appointment, participant group, quote or trial is confirmed by this document.
 
 The aim is a visit that is worthwhile for the guest and worthwhile for the person receiving them. A maker should be able to explain a craft without an obligation to sell, a museum should be able to protect staff time, and a guest should know what the visit will actually involve.
 
@@ -70,12 +70,12 @@ These questions are drawn from the existing briefs. **Every row is unassessed fo
 
 | Existing lead | Distinct question to resolve | Possible narrower scope, still subject to agreement |
 | --- | --- | --- |
-| [UTP-EXP-B03 · Kala Bhoomi](kala-bhoomi.md) | Can staff support the proposed interpretation? Is a demonstration currently offered, and is maker compensation separate from admission? | Museum visit within current visitor rules; omit the demonstration and hosted-service claim. |
-| [UTP-EXP-B01 · Dhauli](dhauli.md) | Who manages each part of the route, and what do actual slopes, steps, shade and drop-off mean for this group? | One suitable stop; do not describe it as access to the whole site. |
-| [UTP-EXP-C02 · Cuttack Tarakasi](tarakasi.md) | Can the workspace accommodate the group around tools, heat and normal production? What is the demonstration fee independent of purchase? | Observation or conversation without tool use, only if the host agrees it is suitable. |
-| [UTP-EXP-C04 · Odisha State Maritime Museum](maritime-museum.md) | Which galleries and interpretation are available on the proposed date, with what group and image restrictions? | Ordinary museum visit without a staff conversation; any reserve venue needs its own assessment. |
-| [UTP-EXP-P01 · Raghurajpur](raghurajpur.md) | Which willing household/workshop agrees to the visit, compensation and separate artwork/person image uses? | A conversation without recording or photography; refusal does not authorize entry elsewhere. |
-| [UTP-EXP-P02 · Pipili appliqué](pipili.md) | Is the proposed setting a making workspace or retail shop, and who can authorize the activity and design reproduction? | Describe a retail conversation honestly; do not substitute it for a making demonstration. |
+| [POD-EXP-B03 · Kala Bhoomi](kala-bhoomi.md) | Can staff support the proposed interpretation? Is a demonstration currently offered, and is maker compensation separate from admission? | Museum visit within current visitor rules; omit the demonstration and hosted-service claim. |
+| [POD-EXP-B01 · Dhauli](dhauli.md) | Who manages each part of the route, and what do actual slopes, steps, shade and drop-off mean for this group? | One suitable stop; do not describe it as access to the whole site. |
+| [POD-EXP-C02 · Cuttack Tarakasi](tarakasi.md) | Can the workspace accommodate the group around tools, heat and normal production? What is the demonstration fee independent of purchase? | Observation or conversation without tool use, only if the host agrees it is suitable. |
+| [POD-EXP-C04 · Odisha State Maritime Museum](maritime-museum.md) | Which galleries and interpretation are available on the proposed date, with what group and image restrictions? | Ordinary museum visit without a staff conversation; any reserve venue needs its own assessment. |
+| [POD-EXP-P01 · Raghurajpur](raghurajpur.md) | Which willing household/workshop agrees to the visit, compensation and separate artwork/person image uses? | A conversation without recording or photography; refusal does not authorize entry elsewhere. |
+| [POD-EXP-P02 · Pipili appliqué](pipili.md) | Is the proposed setting a making workspace or retail shop, and who can authorize the activity and design reproduction? | Describe a retail conversation honestly; do not substitute it for a making demonstration. |
 
 Do not infer a district-wide permission from one household, a village-wide capacity from one workshop or a three-day route from the order above. The two-person team and 60–90 minute slots in the briefs are planning allowances, not confirmed group limits or durations.
 

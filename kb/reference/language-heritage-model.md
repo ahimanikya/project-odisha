@@ -76,7 +76,7 @@ Inspected 29 September 2026 UTC. These resources support the research route, not
 - [Census of India: C-16, Population by mother tongue, Odisha, 2011](https://censusindia.gov.in/nada/index.php/catalog/10217). Indexed catalogue description located; data rows not extracted or used for counts.
 - [Census of India: C-17, Bilingualism and trilingualism, Odisha, 2011](https://censusindia.gov.in/nada/index.php/catalog/10283). Indexed catalogue description located; no statistics or present-day language boundaries inferred.
 
-Tracked as **UTP-WORK-016**. Current delivery is the KB model and research queue; public pages, recordings and complete histories remain to be produced.
+Tracked as **POD-WORK-016**. Current delivery is the KB model and research queue; public pages, recordings and complete histories remain to be produced.
 
 ## Founder clarification: languages and literary lives
 
@@ -84,7 +84,7 @@ The public hub is proposed as **Languages of Odisha**, with each language receiv
 
 ## Delivery update · 1 October 2026
 
-The original model and research queue above are preserved as the design history. Odia and the first literature collection are now in the public preview. Seven additional **English introductions** are prepared under [UTP-WORK-114](../research/product/living-languages.md), with original publication checks and a public contribution-proposal path. Their evidence does not confer native-speaker or specialist endorsement. Newly authored language phrases, pronunciation, translations and recordings remain held for the appropriate language and rights review. No complete history or community representation is claimed. Founder review controls whether this bounded candidate is published.
+The original model and research queue above are preserved as the design history. Odia and the first literature collection are now in the public preview. Seven additional **English introductions** are prepared under [POD-WORK-114](../research/product/living-languages.md), with original publication checks and a public contribution-proposal path. Their evidence does not confer native-speaker or specialist endorsement. Newly authored language phrases, pronunciation, translations and recordings remain held for the appropriate language and rights review. No complete history or community representation is claimed. Founder review controls whether this bounded candidate is published.
 
 ## Population atlas implementation · 1 October 2026
 

@@ -128,4 +128,4 @@ Original Project Odisha editorial artwork created and revised with AI assistance
 
 ## Publication history
 
-Initial [website publication](../../records/huluhuli-website-publication-2026-10-12.json); [17 October depth revision](../../records/huluhuli-depth-publication-2026-10-17.json). The editorial rollout UTP-EDIT-002 revises presentation and prose using that research; it is not another substantive programme item.
+Initial [website publication](../../records/huluhuli-website-publication-2026-10-12.json); [17 October depth revision](../../records/huluhuli-depth-publication-2026-10-17.json). The editorial rollout POD-EDIT-002 revises presentation and prose using that research; it is not another substantive programme item.

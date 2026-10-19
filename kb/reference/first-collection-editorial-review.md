@@ -6,7 +6,7 @@ status: "draft"
 
 # First collection — source check and Founder review
 
-**UTP-WORK-009 · UTP-REV-008 · 29 September 2026 (UTC)**
+**POD-WORK-009 · POD-REV-008 · 29 September 2026 (UTC)**
 
 Six entries have been checked within the scope below. The recommendation is to present the five short notes and the Samanta profile for Founder review with their stated limitations. This is one assistant's source check and editorial self-review, not independent scholarship or human approval. The public website remains the earlier preview; this candidate does not change indexing or publication settings.
 

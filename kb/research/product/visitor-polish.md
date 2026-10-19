@@ -11,16 +11,16 @@ The Founder approved the proposed next batch with “go ahead” and selected pu
 
 | Work | Item | Preview path | Result |
 |---|---|---|---|
-| UTP-WORK-031 | Mobile layouts | `/explore/` | Responsive navigation, grids and controls; measured 320px and 390px layouts checked. |
-| UTP-WORK-032 | Keyboard and accessibility polish | `/contribute/` | Visible focus, touch sizing, form error focus and import focus transitions. |
-| UTP-WORK-033 | Print layout and long-note review | `/journey/` | Print CSS and long-note retention checked; native PDF/A4 pagination remains unverified. |
-| UTP-WORK-034 | Illustrated offline tour book | `/journey/` | Optional self-contained HTML with selected real photographs, notes and end credits; bounded image sizes and graceful omissions. |
-| UTP-WORK-035 | Combined Explore filters | `/explore/` | Area, subject and search work together with shareable filter URLs and empty-state recovery. |
-| UTP-WORK-036 | Related discoveries | `/knowledge/chilika/` | Curated illustrated reading connections between places, language, literature and food. |
-| UTP-WORK-037 | Bhima Bhoi introduction | `/people/bhima-bhoi/` | Compassion, Mahima and literary works, with a real memorial photograph and explicit biographical uncertainty. |
-| UTP-WORK-038 | Gopinath Mohanty introduction | `/people/gopinath-mohanty/` | Place, language and fiction, with a credited photograph, Paraja reading trail and external listening references. |
-| UTP-WORK-039 | Chhena Poda and Mudhi Mansa pages | `/food/chhena-poda/` | Two illustrated, source-backed food introductions and stable existing journey identities. |
-| UTP-WORK-040 | Public GitHub contribution workflow | `/contribute/` | Local draft preparation, explicit public handoff, long-link fallback and knowledge/photo issue templates. No automatic submission. |
+| POD-WORK-031 | Mobile layouts | `/explore/` | Responsive navigation, grids and controls; measured 320px and 390px layouts checked. |
+| POD-WORK-032 | Keyboard and accessibility polish | `/contribute/` | Visible focus, touch sizing, form error focus and import focus transitions. |
+| POD-WORK-033 | Print layout and long-note review | `/journey/` | Print CSS and long-note retention checked; native PDF/A4 pagination remains unverified. |
+| POD-WORK-034 | Illustrated offline tour book | `/journey/` | Optional self-contained HTML with selected real photographs, notes and end credits; bounded image sizes and graceful omissions. |
+| POD-WORK-035 | Combined Explore filters | `/explore/` | Area, subject and search work together with shareable filter URLs and empty-state recovery. |
+| POD-WORK-036 | Related discoveries | `/knowledge/chilika/` | Curated illustrated reading connections between places, language, literature and food. |
+| POD-WORK-037 | Bhima Bhoi introduction | `/people/bhima-bhoi/` | Compassion, Mahima and literary works, with a real memorial photograph and explicit biographical uncertainty. |
+| POD-WORK-038 | Gopinath Mohanty introduction | `/people/gopinath-mohanty/` | Place, language and fiction, with a credited photograph, Paraja reading trail and external listening references. |
+| POD-WORK-039 | Chhena Poda and Mudhi Mansa pages | `/food/chhena-poda/` | Two illustrated, source-backed food introductions and stable existing journey identities. |
+| POD-WORK-040 | Public GitHub contribution workflow | `/contribute/` | Local draft preparation, explicit public handoff, long-link fallback and knowledge/photo issue templates. No automatic submission. |
 
 ## Information and image model
 

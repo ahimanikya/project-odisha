@@ -10,7 +10,7 @@ Use this alongside the [seven-guide queue](../research/destinations/coastal-veri
 
 | Field | What to record |
 | --- | --- |
-| Guide and work | Exact page route; UTP-WORK-097 or a linked specific work record. |
+| Guide and work | Exact page route; POD-WORK-097 or a linked specific work record. |
 | Claim | Exact proposed visitor-facing wording and the site, room, dish, service or dated programme it describes. |
 | Date and validity | Observation/contact date, date of the visit or event, and when the information must be checked again. |
 | Source and role | Public source URL, or the consenting person's public name and relevant role. Do not place private contact details in Git. |

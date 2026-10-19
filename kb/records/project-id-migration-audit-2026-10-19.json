@@ -1,0 +1,23 @@
+{
+  "result": "PASS",
+  "source_commit": "3e78e2efec7c1a3ef01858be208c378b20636d81",
+  "aliases": 3701,
+  "existing_register_rows_preserved_except_namespace": 1049,
+  "existing_ledger_events_preserved_except_namespace": 595,
+  "original_files_archived_and_hash_verified": 585,
+  "protected_files_byte_unchanged": 1269,
+  "alias_destinations_present_in_live_documents": 3701,
+  "autonomous_completed_unchanged": 112,
+  "editorial_completed_unchanged": 29,
+  "checks": [
+    "All original register rows and ledger events equal their pre-migration values after exact ID substitution; protected quote fields and URLs unchanged.",
+    "Both entire programme and editorial queues equal the original after ID substitution, including statuses, authority links and counts.",
+    "All aliases preserve suffixes and have unique targets occurring in live documents.",
+    "Checksummed archive matches every original-file hash; protected historical evidence is unchanged."
+  ],
+  "archive_sha256": "0f2adf0333861bdd7f3a74567cc94155952f99a3a88e46f8f7f9ef5c06f475c6",
+  "limits": [
+    "General document IDs are not all canonical register rows; lookup aliases do not establish authority.",
+    "Manual current-identity documentation changes are separately reviewed."
+  ]
+}

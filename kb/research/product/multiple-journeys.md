@@ -7,7 +7,7 @@ version: "0.2"
 
 # Multiple journeys and optional travel dates
 
-Founder direction: Ahimanikya Satapathy, “Whats next in the list, keep going”. Assistant selected the remaining multiple-trip and date portion of UTP-TB-004. This is a local implementation candidate, not a release decision.
+Founder direction: Ahimanikya Satapathy, “Whats next in the list, keep going”. Assistant selected the remaining multiple-trip and date portion of POD-TB-004. This is a local implementation candidate, not a release decision.
 
 ## Delivered
 

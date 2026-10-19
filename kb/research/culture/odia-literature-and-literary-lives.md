@@ -74,4 +74,4 @@ Checked 29 September 2026 UTC:
 - [Sahitya Akademi: award register](https://www.sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp). Indexed Odia entries inspected; direct retrieval failed. It supports listed author/work pairs, not a literary evaluation or complete biography.
 - [Bharatiya Jnanpith: laureates](https://jnanpith.net/laureates.html?id=3). Retrieved register inspected; award-year information is distinct from announcement dates and does not supply complete bibliographies.
 
-Tracked under **UTP-WORK-016** as an expansion of the language and heritage programme. No new pages have been deployed by this documentation change.
+Tracked under **POD-WORK-016** as an expansion of the language and heritage programme. No new pages have been deployed by this documentation change.

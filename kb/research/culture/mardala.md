@@ -95,4 +95,4 @@ The [source dossier](../sources/mardala-research.md) maps claims and preserves l
 
 ## Publication history
 
-The initial [reader article](https://projectodisha.org/sounds-of-odisha/mardala/) is public. This 17 October revision is tracked as UTP-A500-109 / UTP-WORK-298; count delivery only after its separate approved deployment and live receipt. No reusable recording or current class access is implied.
+The initial [reader article](https://projectodisha.org/sounds-of-odisha/mardala/) is public. This 17 October revision is tracked as POD-A500-109 / POD-WORK-298; count delivery only after its separate approved deployment and live receipt. No reusable recording or current class access is implied.

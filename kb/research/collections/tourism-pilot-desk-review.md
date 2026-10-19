@@ -24,9 +24,9 @@ Start with six and learn before aiming for twenty. The three-day field assumptio
 
 | Work | Output | Remaining step |
 | --- | --- | --- |
-| UTP-WORK-166 | Official rules reviewed; government source of OTIIMS link established | Specific MICE application workflow and current acceptance remain unverified; task remains in progress. |
-| UTP-WORK-167 | 22 desk leads and source provenance | Founder review, then local selection under WORK-169. |
-| UTP-WORK-168 | Costed capacity options, vacant roles and proposed funding route | Founder review; funding and appointments remain separate decisions. |
+| POD-WORK-166 | Official rules reviewed; government source of OTIIMS link established | Specific MICE application workflow and current acceptance remain unverified; task remains in progress. |
+| POD-WORK-167 | 22 desk leads and source provenance | Founder review, then local selection under WORK-169. |
+| POD-WORK-168 | Costed capacity options, vacant roles and proposed funding route | Founder review; funding and appointments remain separate decisions. |
 
 ## Next operational handoff
 

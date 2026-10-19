@@ -6,7 +6,7 @@ status: "draft"
 
 # Raghurajpur visit brief
 
-**UTP-EXP-P01 · Puri district · Desk lead.** Proposed research visit; the host, date, duration, capacity and price remain unconfirmed.
+**POD-EXP-P01 · Puri district · Desk lead.** Proposed research visit; the host, date, duration, capacity and price remain unconfirmed.
 
 ## Story to explore
 

@@ -29,12 +29,12 @@ This first version resolves saved IDs against the current catalogue at print tim
 
 | Requirement | Current result |
 | --- | --- |
-| UTP-TB-003 | Save/remove and reload confirmed; storage adapter failure tests and recovery UI included. Stay areas remain distinct from properties. |
-| UTP-TB-004 | Partial: one named journey, days, notes and keyboard reorder; multiple trips and dates deferred. |
-| UTP-TB-005 | Areas shown, no invented journey times; route feasibility explicitly unvalidated. |
-| UTP-TB-006 | Print layout implemented and print-media state checked. Actual PDF pagination remains unverified. |
-| UTP-TB-007 | Versioned backup, validated import with replacement confirmation, unknown IDs retained; parser round-trip and browser file import checked. |
-| UTP-TB-008–010 | Offline website, verified venues and optional sync remain deferred. |
+| POD-TB-003 | Save/remove and reload confirmed; storage adapter failure tests and recovery UI included. Stay areas remain distinct from properties. |
+| POD-TB-004 | Partial: one named journey, days, notes and keyboard reorder; multiple trips and dates deferred. |
+| POD-TB-005 | Areas shown, no invented journey times; route feasibility explicitly unvalidated. |
+| POD-TB-006 | Print layout implemented and print-media state checked. Actual PDF pagination remains unverified. |
+| POD-TB-007 | Versioned backup, validated import with replacement confirmation, unknown IDs retained; parser round-trip and browser file import checked. |
+| POD-TB-008–010 | Offline website, verified venues and optional sync remain deferred. |
 
 [Verification and limitations](../../records/culture-journey-review.json) · [Original tour-book requirements](destination-and-tour-book.md) · [Languages and literary lives](../voices/index.md)
 

@@ -13,16 +13,16 @@ Founder direction: Ahimanikya Satapathy, “Keep going - do 10 things from our p
 
 | Work | Local preview path | Result | Queue |
 |---|---|---|---|
-| UTP-WORK-021 · Chandipur detail guide | `/visit/places/chandipur/` | Tides, season, arrival, local questions and two credited real shore photographs. | [research/product/northern-guides.md](../../research/product/northern-guides.md) |
-| UTP-WORK-022 · Similipal detail guide | `/visit/places/similipal/` | Official gate, permit and seasonal guidance; existing credited Barehipani image. | [research/product/northern-guides.md](../../research/product/northern-guides.md) |
-| UTP-WORK-023 · Kui language introduction | `/languages/kui/` | Separate language profile, classroom resources and a catalogued short-story lead. | [reference/language-heritage-model.md](../../reference/language-heritage-model.md) |
-| UTP-WORK-024 · Kuvi language introduction | `/languages/kuvi/` | Separate profile and teaching-resource trail; not conflated with Kui. | [reference/language-heritage-model.md](../../reference/language-heritage-model.md) |
-| UTP-WORK-025 · Saora / Sora language introduction | `/languages/saora/` | Attributed names, language-family and writing traditions; future community voices identified. | [reference/language-heritage-model.md](../../reference/language-heritage-model.md) |
-| UTP-WORK-026 · Sarala Das literary introduction | `/people/sarala-das/` | Odia epic retelling and an official Sarala Mahabharata reading catalogue. | [research/culture/odia-literature-and-literary-lives.md](../../research/culture/odia-literature-and-literary-lives.md) |
-| UTP-WORK-027 · Pratibha Ray literary introduction | `/people/pratibha-ray/` | Real credited portrait, teaching, Jajnaseni, place connections and adaptations. | [research/culture/odia-literature-and-literary-lives.md](../../research/culture/odia-literature-and-literary-lives.md) |
-| UTP-WORK-028 · Area and access guidance in personal journeys | `/journey/` | Per-item access notes and day-level area comparison; no calculated travel times. | [research/product/destination-and-tour-book.md](../../research/product/destination-and-tour-book.md) |
-| UTP-WORK-029 · Downloadable offline text tour book | `/journey/` | Standalone HTML containing dates, summaries, notes, access and deduplicated source links. | [research/product/multiple-journeys.md](../../research/product/multiple-journeys.md) |
-| UTP-WORK-030 · Reader correction draft tool | `/contribute/` | Page-linked correction, additional-knowledge or recollection drafts; local preview, text download and copy controls. No submission endpoint. | [research/product/prd.md](../../research/product/prd.md) |
+| POD-WORK-021 · Chandipur detail guide | `/visit/places/chandipur/` | Tides, season, arrival, local questions and two credited real shore photographs. | [research/product/northern-guides.md](../../research/product/northern-guides.md) |
+| POD-WORK-022 · Similipal detail guide | `/visit/places/similipal/` | Official gate, permit and seasonal guidance; existing credited Barehipani image. | [research/product/northern-guides.md](../../research/product/northern-guides.md) |
+| POD-WORK-023 · Kui language introduction | `/languages/kui/` | Separate language profile, classroom resources and a catalogued short-story lead. | [reference/language-heritage-model.md](../../reference/language-heritage-model.md) |
+| POD-WORK-024 · Kuvi language introduction | `/languages/kuvi/` | Separate profile and teaching-resource trail; not conflated with Kui. | [reference/language-heritage-model.md](../../reference/language-heritage-model.md) |
+| POD-WORK-025 · Saora / Sora language introduction | `/languages/saora/` | Attributed names, language-family and writing traditions; future community voices identified. | [reference/language-heritage-model.md](../../reference/language-heritage-model.md) |
+| POD-WORK-026 · Sarala Das literary introduction | `/people/sarala-das/` | Odia epic retelling and an official Sarala Mahabharata reading catalogue. | [research/culture/odia-literature-and-literary-lives.md](../../research/culture/odia-literature-and-literary-lives.md) |
+| POD-WORK-027 · Pratibha Ray literary introduction | `/people/pratibha-ray/` | Real credited portrait, teaching, Jajnaseni, place connections and adaptations. | [research/culture/odia-literature-and-literary-lives.md](../../research/culture/odia-literature-and-literary-lives.md) |
+| POD-WORK-028 · Area and access guidance in personal journeys | `/journey/` | Per-item access notes and day-level area comparison; no calculated travel times. | [research/product/destination-and-tour-book.md](../../research/product/destination-and-tour-book.md) |
+| POD-WORK-029 · Downloadable offline text tour book | `/journey/` | Standalone HTML containing dates, summaries, notes, access and deduplicated source links. | [research/product/multiple-journeys.md](../../research/product/multiple-journeys.md) |
+| POD-WORK-030 · Reader correction draft tool | `/contribute/` | Page-linked correction, additional-knowledge or recollection drafts; local preview, text download and copy controls. No submission endpoint. | [research/product/prd.md](../../research/product/prd.md) |
 
 ## Content model and editorial boundaries
 
@@ -34,9 +34,9 @@ Two new real images preserve source, creator, date, licence and SHA-256 hashes i
 
 ## Visitor tools
 
-UTP-TB-005 now has a local area/access implementation: each saved choice carries guidance, and each planned day names its areas. Reading suggestions do not become geographical stops. Multiple areas trigger a transfer reminder without inventing travel times or route feasibility.
+POD-TB-005 now has a local area/access implementation: each saved choice carries guidance, and each planned day names its areas. Reading suggestions do not become geographical stops. Multiple areas trigger a transfer reminder without inventing travel times or route feasibility.
 
-UTP-TB-008 now has a text-only offline candidate. The HTML book retains selected summaries, dates, access notes, checking dates, personal notes, unknown IDs and a deduplicated source appendix. It contains no scripts, external style sheets, images or remote fonts. Text is escaped and outbound URLs are limited to HTTP(S); a restrictive content policy accompanies the file. Reading requires no network; following external links does. This does not complete UTP-TB-006's unverified native A4/PDF pagination requirement. Editable JSON backups remain separate, and exports resolve the current catalogue at export time.
+POD-TB-008 now has a text-only offline candidate. The HTML book retains selected summaries, dates, access notes, checking dates, personal notes, unknown IDs and a deduplicated source appendix. It contains no scripts, external style sheets, images or remote fonts. Text is escaped and outbound URLs are limited to HTTP(S); a restrictive content policy accompanies the file. Reading requires no network; following external links does. This does not complete POD-TB-006's unverified native A4/PDF pagination requirement. Editable JSON backups remain separate, and exports resolve the current catalogue at export time.
 
 The correction tool is a local drafting step toward the existing contribution workflow. The footer selects the originating entry where supported. Readers can preview, copy or download a text draft with a claim and evidence. Nothing is sent or autosaved; no contribution register is activated and no rights permission is presumed. Actual receipt, consent and editorial triage remain future work.
 

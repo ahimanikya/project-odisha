@@ -13,9 +13,9 @@ Read [current work and decisions](../registers/DASHBOARD.md), [the project chart
 
 | Work | Intended result | Authoritative record |
 |---|---|---|
-| UTP-WORK-001 | A sourced Samanta Chandrasekhar entry and local website preview | [Brief](first-task.md) and [dashboard](../registers/DASHBOARD.md) |
-| UTP-WORK-002 | Refined identity, Odia lettering, material references and the recorded colour story | [Dashboard](../registers/DASHBOARD.md) and [history](../history/LEDGER.md) |
-| UTP-WORK-004 | A Git-readable organizational OKF and full research collection | [Dashboard](../registers/DASHBOARD.md) |
+| POD-WORK-001 | A sourced Samanta Chandrasekhar entry and local website preview | [Brief](first-task.md) and [dashboard](../registers/DASHBOARD.md) |
+| POD-WORK-002 | Refined identity, Odia lettering, material references and the recorded colour story | [Dashboard](../registers/DASHBOARD.md) and [history](../history/LEDGER.md) |
+| POD-WORK-004 | A Git-readable organizational OKF and full research collection | [Dashboard](../registers/DASHBOARD.md) |
 
 ## Research-to-work programme
 

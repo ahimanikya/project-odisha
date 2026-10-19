@@ -6,7 +6,7 @@ status: "draft"
 
 # Odisha State Maritime Museum visit brief
 
-**UTP-EXP-C04 · Cuttack · Desk lead.** Proposed research visit; the host, date, duration, capacity and price remain unconfirmed.
+**POD-EXP-C04 · Cuttack · Desk lead.** Proposed research visit; the host, date, duration, capacity and price remain unconfirmed.
 
 ## Story to explore
 

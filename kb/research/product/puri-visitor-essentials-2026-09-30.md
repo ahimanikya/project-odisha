@@ -5,7 +5,7 @@ title: Puri visitor essentials — 30 September 2026
 
 # A temple, a meal, a shore moment
 
-The Founder approved preparing the proposed Puri visitor-essentials batch with “OK, go”. Accountable human: Ahimanikya Satapathy. Research, implementation and self-review: current AI assistant. This candidate advances UTP-WORK-097 without claiming local inspection or final editorial acceptance.
+The Founder approved preparing the proposed Puri visitor-essentials batch with “OK, go”. Accountable human: Ahimanikya Satapathy. Research, implementation and self-review: current AI assistant. This candidate advances POD-WORK-097 without claiming local inspection or final editorial acceptance.
 
 Five notes now separate temple preparation, the meaning of Mahaprasad, regional dishes, shore choices and arrival/return arrangements. They use the existing notebook model and carry into HTML and text journey books. The Puri page’s Mahaprasad invitation is aligned. Existing photographs, composition and page-end credits are retained; no new template or visual assets were needed.
 
@@ -27,12 +27,12 @@ Full and coastal builds passed, along with 318 site tests, 10 coastal tests and 
 
 [Structured review](../../records/puri-visitor-essentials-review.json) · [Source inspection](../../records/evidence/puri-visitor-essentials-2026-09-30/source-inspection.json) · [Actual books](../../records/evidence/puri-visitor-essentials-2026-09-30/actual-books.json) · [Local preview](http://127.0.0.1:4354/destinations/puri/#visit-notebook)
 
-Candidate for Founder review, not deployed. The public coastal scope remains 16 pages; the Store and broader collection remain held. UTP-WORK-097 remains open for direct confirmations; native printing remains UTP-WORK-080.
+Candidate for Founder review, not deployed. The public coastal scope remains 16 pages; the Store and broader collection remain held. POD-WORK-097 remains open for direct confirmations; native printing remains POD-WORK-080.
 
 [Draft PR #10](https://github.com/ahimanikya/utkal-project/pull/10).
 
 ## Approved publication
 
-The Founder subsequently approved PR #10. Reviewed head `c7638b8` was merged and deployed at `084b6cc`. Hosted build and test checks passed. All five notes were verified on the live page and in real HTML/text downloads with their sources. HTTPS enforcement and redirects remain verified. Earlier candidate wording records the initial handoff; UTP-WORK-103 is now complete. Direct temple/local confirmation and native printing remain separate.
+The Founder subsequently approved PR #10. Reviewed head `c7638b8` was merged and deployed at `084b6cc`. Hosted build and test checks passed. All five notes were verified on the live page and in real HTML/text downloads with their sources. HTTPS enforcement and redirects remain verified. Earlier candidate wording records the initial handoff; POD-WORK-103 is now complete. Direct temple/local confirmation and native printing remain separate.
 
 [Publication evidence](../../records/puri-publication.json) · [Live Puri guide](https://utkalproject.org/destinations/puri/)

@@ -33,4 +33,4 @@ Browser checks exercised search, starter creation, journey naming, note persiste
 
 The local manual publishing workflow now builds/tests both editions and uploads only `dist-coast`. Its Founder account, main-branch and explicit manual confirmation checks remain. The workflow changes have not been pushed or run. The previously published preview is unaffected. All generated pages remain noindex; noindex is not access control.
 
-Remaining: Founder content acceptance of the exact candidate, earlier language/provenance holds, local-service verification and native PDF review (**UTP-WORK-080**). The shared design package stays at rc.5. No commit, push, merge, deployment, external issue or outreach occurred in this increment.
+Remaining: Founder content acceptance of the exact candidate, earlier language/provenance holds, local-service verification and native PDF review (**POD-WORK-080**). The shared design package stays at rc.5. No commit, push, merge, deployment, external issue or outreach occurred in this increment.

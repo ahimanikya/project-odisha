@@ -105,4 +105,4 @@ The [source dossier](../sources/sankha-research.md) preserves claim mapping and 
 
 ## Publication history
 
-The initial [website article](https://projectodisha.org/sounds-of-odisha/sankha/) is public; [12 October publication receipt](../../records/sankha-website-publication-2026-10-12.json). This substantive 17 October revision is UTP-A500-108 / UTP-WORK-297 and requires a separate live receipt before delivery is counted. Earlier research and publication history remain in the source dossier and registers.
+The initial [website article](https://projectodisha.org/sounds-of-odisha/sankha/) is public; [12 October publication receipt](../../records/sankha-website-publication-2026-10-12.json). This substantive 17 October revision is POD-A500-108 / POD-WORK-297 and requires a separate live receipt before delivery is counted. Earlier research and publication history remain in the source dossier and registers.
