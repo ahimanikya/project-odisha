@@ -8,10 +8,23 @@ import {publicationPlan,publicationPage,publicationCrawlerFiles} from '../src/li
 import {buildPublication} from '../tools/build-publication.mjs';
 const selection=JSON.parse(await readFile('editions/search-candidate.json'));
 const scope=JSON.parse(await readFile('editions/coast.json'));
-const policy={...JSON.parse(await readFile('editions/search-publication.json')),mode:'preview',approval:null};
+const checkedInPolicy=JSON.parse(await readFile('editions/search-publication.json'));
+const policy={...checkedInPolicy,mode:'preview',approval:null};
 // Synthetic authority record, used only in memory and temporary test fixtures.
 const decision={id:'UTP-DEC-999',status:'approved',actor:{kind:'human',name:'Ahimanikya Satapathy'},search_routes:policy.routes};
 const html='<head><meta name="robots" content="noindex, nofollow"></head><body>Retain the story</body>';
+test('checked-in publication policy resolves its migrated Founder approval for the existing eleven routes',async()=>{
+ const {decisions}=JSON.parse(await readFile(new URL('../../../kb/registers/records.json',import.meta.url)));
+ const approval=decisions.find(d=>d.id===checkedInPolicy.approval);
+ assert.equal(checkedInPolicy.approval,'POD-DEC-150');
+ assert.ok(approval,'The checked-in approval must exist in the canonical register');
+ const plan=publicationPlan(checkedInPolicy,selection,scope.routes,decisions);
+ assert.equal(plan.mode,'limited');
+ assert.equal(plan.indexable.length,11);
+ assert.deepEqual(plan.indexable,checkedInPolicy.routes);
+ assert.deepEqual(plan.indexable,approval.search_routes);
+ assert.throws(()=>publicationPlan(checkedInPolicy,selection,scope.routes,decisions.filter(d=>d.id!==checkedInPolicy.approval)),/explicit Founder decision/);
+});
 test('search activation requires the exact route set and a matching human decision',()=>{
  assert.equal(publicationPlan(policy,selection,scope.routes).mode,'preview');
  assert.equal(publicationPlan({...policy,mode:'limited',approval:decision.id},selection,scope.routes,[decision]).indexable.length,11);
