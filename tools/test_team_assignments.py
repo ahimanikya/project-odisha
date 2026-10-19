@@ -16,6 +16,8 @@ class OwnershipTests(unittest.TestCase):
         self.a['assignments'][1]['execution_mode']='labelled_role_pass_in_current_conversation';self.assertTrue(self.check())
     def test_human_reports_rejected(self):
         self.a['assignments'][1]['human_reports']=['Example human'];self.assertTrue(self.check())
+    def test_missing_claim_rejected(self):
+        self.o['current_article']=None;self.assertTrue(self.check())
     def test_claim_mismatch_rejected(self):
         self.o['current_article']['route']='/wrong/';self.assertTrue(self.check())
     def test_missing_activation_rejected(self):

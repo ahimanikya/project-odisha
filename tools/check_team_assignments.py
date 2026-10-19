@@ -23,6 +23,8 @@ def validate(assignments, operations, rollout, decisions):
     if len(active) > 1 or operations['maximum_active_articles'] != 1:
         errors.append('Only one article may be active')
     claim = operations.get('current_article')
+    if active and not claim:
+        errors.append('Active article requires a coordinator claim')
     if claim:
         article = next((x for x in rollout['items'] if x['id'] == claim['id']), None)
         if not article or article['route'] != claim['route'] or claim['owner'] != 'Disha':
