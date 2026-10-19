@@ -736,3 +736,7 @@ Sudasa cooking method, digital edition provenance and situated household distrib
 ## 2026-10-11 · Khudurukuni and maritime review
 
 Khudurukuni authorship, cited Lokanath print and situated khuda identity remain unresolved; original14–18October holds preserved. Koeta unidentified.
+
+## Pala artists · 19 October 2026
+
+[Twenty selected artist entries](../people/pala-artists.md) now distinguish awards, repertoire, apprenticeship and organisation. Prioritise women’s own dated biographies, named bayak/palia credits, work editions, current teaching and original recording occasions. Jagannath Behera’s birth-year conflict and Agadhu Beura’s youth chronology remain quarantined in the structured register. No interviews or income outcomes established.
