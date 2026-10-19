@@ -8647,7 +8647,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-2026101702",
-      "next_action": "Resume Cuttack UTP-EDIT-035 with the activated team after Pala receipt PR320; correct review findings, verify and publish PR319.",
+      "next_action": "Continue next eligible queued article using team operations and actual ownership reconciliation;28 editorial entries complete.",
       "blockers": [],
       "refs": [
         "UTP-DEC-2026101702",
@@ -8706,7 +8706,8 @@
         "UTP-REL-167",
         "UTP-REV-297",
         "UTP-REL-168",
-        "UTP-REV-298"
+        "UTP-REV-298",
+        "UTP-REL-169"
       ],
       "evidence": [
         "reference/article-editorial-standard.md",
@@ -8740,7 +8741,8 @@
         "records/mukteswar-editorial-publication-2026-10-18.json",
         "records/bhubaneswar-meal-editorial-publication-2026-10-18.json",
         "records/bhubaneswar-stay-editorial-publication-2026-10-19.json",
-        "records/fresco-editorial-publication-2026-10-19.json"
+        "records/fresco-editorial-publication-2026-10-19.json",
+        "records/cuttack-editorial-publication-2026-10-19.json"
       ],
       "acceptance_criteria": [
         "Every published baseline route classified; each article independently reviewed against approved standard with PR/test/deploy/live receipt; exclusions justified; future articles follow same rule."
@@ -8788,20 +8790,23 @@
       "id": "UTP-WORK-2026101901",
       "title": "Activate separate editorial agents and durable handoffs",
       "category": "governance",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha Dash, coordinator in the current chat",
       "authorization": "UTP-DEC-2026101901",
-      "next_action": "Verify actual specialist handoffs, separate quality review and saved continuation instructions; merge reviewed records.",
+      "next_action": "Use saved team loop for subsequent article work; recreate task-scoped workers when needed.",
       "blockers": [],
       "refs": [
         "UTP-DEC-2026101901",
-        "UTP-WORK-302"
+        "UTP-WORK-302",
+        "UTP-REV-299",
+        "UTP-REL-169"
       ],
       "evidence": [
         "team/operations.json",
-        "records/team-activation-2026-10-19.json"
+        "records/team-activation-2026-10-19.json",
+        "records/cuttack-editorial-publication-2026-10-19.json"
       ],
       "acceptance_criteria": "Four explicitly assigned roles; actual separate specialist executions; honest runtime history; one writer and article claim; no changed privileges; durable handoffs and existing automation updated; checked and merged records. Not a substantive500 delivery."
     }
@@ -23689,6 +23694,25 @@
         "records/fresco-editorial-publication-2026-10-19.json"
       ],
       "note": "Reviewed PR316 passed required validation and merged; approved main publication succeeded. Actual live eight-image selection,12 source notes and13 exact returns, unchanged original photographs and gallery navigation checked. Twenty-six editorial articles completed; substantive500 remains112."
+    },
+    {
+      "id": "UTP-REL-169",
+      "title": "Cuttack reading and first collaborating-team delivery",
+      "status": "published",
+      "authorization": "UTP-DEC-225",
+      "destination": "https://projectodisha.org/destinations/cuttack/",
+      "refs": [
+        "UTP-WORK-302",
+        "UTP-REV-298",
+        "UTP-REV-299",
+        "UTP-DEC-2026101901",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/cuttack-editorial-publication-2026-10-19.json",
+        "records/team-activation-2026-10-19.json"
+      ],
+      "note": "Reviewed final PR319 head passed required checks, merged and published through approved main workflow; live sources, photos, responsive reading and unchanged search policy verified. Twenty-eight editorial entries complete; zero substantive500 increment."
     }
   ],
   "sources": [

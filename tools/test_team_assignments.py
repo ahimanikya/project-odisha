@@ -8,6 +8,8 @@ class OwnershipTests(unittest.TestCase):
     def check(self):return validate(self.a,self.o,self.q,self.d)
     def test_current_records(self):self.assertEqual(self.check(),[])
     def test_second_article_rejected(self):
+        next(x for x in self.q['items'] if x['id']==self.o['current_article']['id'])['status']='in_progress'
+        self.o['current_article']['phase']='reviewing'
         next(x for x in self.q['items'] if x['status']=='queued')['status']='in_progress'
         self.assertTrue(self.check())
     def test_worker_cannot_claim_publication(self):
@@ -17,7 +19,9 @@ class OwnershipTests(unittest.TestCase):
     def test_human_reports_rejected(self):
         self.a['assignments'][1]['human_reports']=['Example human'];self.assertTrue(self.check())
     def test_missing_claim_rejected(self):
-        self.o['current_article']=None;self.assertTrue(self.check())
+        next(x for x in self.q['items'] if x['id']==self.o['current_article']['id'])['status']='in_progress'
+        self.o['current_article']=None
+        self.assertIn('Active article requires a coordinator claim',self.check())
     def test_claim_mismatch_rejected(self):
         self.o['current_article']['route']='/wrong/';self.assertTrue(self.check())
     def test_missing_activation_rejected(self):
