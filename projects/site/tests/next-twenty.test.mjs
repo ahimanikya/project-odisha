@@ -45,7 +45,7 @@ test('new detail pages retain claim evidence, image credits and stable save IDs'
  const ids=[...journey.matchAll(/data-save-journey="([^"]+)"/g)].map(m=>m[1]);assert.equal(new Set(ids).size,ids.length,'A duplicate save ID could silently select the wrong catalogue entry');
  for(const r of details.records){
   const html=readFileSync(`dist/visit/${r.kind}/${r.slug}/index.html`,'utf8');assert.ok(html.includes(`data-save-journey="${r.save_id||((r.kind==='stays'?'stay':'place')+':'+r.slug)}"`));assert.ok(html.includes(`/destinations/${r.parent}/`));
-  for(const section of r.sections)if(section.kind==='sourced_summary'){assert.ok(section.sources.length);for(const id of section.sources){const sources=r.kind==='places'&&r.slug==='barabati'?Object.fromEntries(JSON.parse(readFileSync('../../kb/research/destinations/barabati-editorial.json','utf8')).sources.map(s=>[s.id,s])):data.sources;assert.ok(sources[id]&&r.sources.includes(id));}}
+  for(const section of r.sections)if(section.kind==='sourced_summary'){assert.ok(section.sources.length);for(const id of section.sources){const editorialPath=r.kind==='places'&&r.slug==='barabati'?'barabati-editorial.json':r.kind==='experiences'&&r.slug==='cuttack-netaji'?'netaji-museum-editorial.json':null;const sources=editorialPath?Object.fromEntries(JSON.parse(readFileSync('../../kb/research/destinations/'+editorialPath,'utf8')).sources.map(s=>[s.id,s])):data.sources;assert.ok(sources[id]&&r.sources.includes(id));}}
   const p=data.assets[r.photo_ref];assert.ok(html.includes(p.license_url)&&html.includes(p.creator));
  }
 });

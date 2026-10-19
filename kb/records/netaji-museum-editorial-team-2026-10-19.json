@@ -1,0 +1,108 @@
+{
+  "recorded_at": "2026-10-19T07:03:08.316972+00:00",
+  "article_id": "POD-EDIT-039",
+  "route": "/visit/experiences/cuttack-netaji/",
+  "status": "candidate_ready_for_separate_review",
+  "input_head": "49197855d8dfaa6ecb08df81dfbae705c60b71ab",
+  "authorization": "POD-DEC-225",
+  "central_question": "How can the birthplace house and Bose’s own memories help a visitor understand his Cuttack childhood without treating later recollection or a museum display as unqualified evidence?",
+  "acceptance": [
+    "Inspect existing Bose narrative, autobiography and museum evidence; preserve chronology and original-versus-reproduction limits.",
+    "Founder byline, visible numbered source notes, readable paragraphs, collapsed further reading and visible update link.",
+    "Retain documentary image rights and visitor save/download behavior; inspect desktop and mobile.",
+    "Separate AI review, required checks, approved deployment and actual live receipt before completion."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only source, overlap and image evidence audit",
+      "status": "handoff_received",
+      "input_head": "49197855d8dfaa6ecb08df81dfbae705c60b71ab",
+      "result": "pass_with_limits",
+      "sources": [
+        {
+          "id": "bose-indian-pilgrim",
+          "url": "https://www.rarebooksocietyofindia.org/book_archive/196174216674_10152181627431675.pdf",
+          "locators": "Printed pp6–7,39,43–46; PDF indices5–6,38,42–45",
+          "supports": "Birth/father, childhood characterization, Ravenshaw1909, Beni Madhav Das and correspondence about nature. Actual PDF text inspected."
+        },
+        {
+          "id": "cuttack-netaji-current",
+          "url": "https://www.incredibleindia.gov.in/en/odisha/cuttack/netaji-birth-place-museum",
+          "locators": "A tribute to the visionary; The ancestral home of a hero; A glimpse into the past",
+          "supports": "Birthplace house, letters, school certificates and photos; not original/reproduction identity or current exhibit availability."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Netaji_Birth_Place_Museum,_Cuttack,_Odisha,_India.jpg",
+          "supports": "Subhashish Panigrahi, own work,26February2014,CC BY-SA4.0; localimage visually inspected."
+        }
+      ],
+      "limits": [
+        "Older OdishaTourism/CMC retrieval failed; retain historic inspection records without implying new confirmation.",
+        "Separate AI source inspection, not human, museum, curator or field review. No manuscript/criticaledition comparison."
+      ]
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/pages/visit/[kind]/[slug].astro",
+        "kb/research/destinations/netaji-museum-editorial.json",
+        "projects/site/tests-coast/netaji-museum-editorial.test.mjs",
+        "projects/site/src/data/destination-details.ts",
+        "projects/site/tests-coast/tarakasi-editorial.test.mjs",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/tests-coast/barabati-editorial.test.mjs",
+        "projects/site/tests/barabati-reading-book.test.mjs",
+        "projects/site/tests/bhubaneswar-stay-editorial.test.mjs",
+        "projects/site/tests/mukteswar-editorial.test.mjs",
+        "projects/site/tests/next-twenty.test.mjs"
+      ],
+      "status": "handoff_received",
+      "input_head": "49197855d8dfaa6ecb08df81dfbae705c60b71ab",
+      "result": "Scoped opt-in, source adapter, portable reading and five focused tests implemented",
+      "tests": [
+        "Source-map/imagehash test and syntax/whitespace pass",
+        "11 affected fullsuite tests pass after stale unreviewed-control updates"
+      ],
+      "limits": [
+        "No build, installation, Git mutation or publication by implementer."
+      ]
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Separate read-only integrated review after candidate ready",
+      "status": "pending"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": "Only cuttack-netaji entry in central-details.json, shared records, integration, browser tests and publication; scoped photo-credit de-duplication and stale Dhauli test control correction",
+      "status": "in_progress"
+    }
+  ],
+  "concurrency": "Cuttack receipt PR340 integrated; Store implementation and receipt PR342/343 integrated. Existing PR304 statistics and PR281 Ashoka scopes retained. No other live team agents working.",
+  "substantive_items_added": 0,
+  "human_review_claimed": false,
+  "media_review": {
+    "reviewer": "Disha",
+    "kind": "Direct visual inspection of retained documentary WebP",
+    "path": "/images/regions/cuttack-netaji.webp",
+    "sha256": "b63ae286dfbd7b92d5595337cf14d0a2202c8c6b2b3e9edcd6fbbbb0bbd3c4cd",
+    "finding": "Courtyard and two-storey white arcade. Retain the photograph and rights; no inference about present gallery interiors or step-free access."
+  },
+  "editorial_decisions": [
+    "Use accessible current museum source already present in KB; no need duplicate full Bose biography.",
+    "Merge repeated object-observation invitations; distinguish letters from later recollections.",
+    "Preserve quoted city characterization and name Bose as author; other routine bibliographic detail in visible numbered notes."
+  ],
+  "coordinator_checks": [
+    "Full build408routes passed. Initial fullsuite562/566: four stale control/source-registry tests required adaptation for newly reviewed Netaji route; fixing narrowly.",
+    "Corrected fullsuite566/566 pass. Coastal first run253/254: one remaining stale Dhauli test control updated to untouched Cuttack stays.",
+    "Desktop1440/mobile390: reading740/343.195px, no horizontal overflow, retained hero object-fitcontain. Keyboard footnote follows and returns focus to exact source passage. Further reading keyboard toggle works and defaultsclosed; sources expanded.",
+    "Visual review caught repeated photographer name in endnote; scoped concise title correction applied. Final coastal rebuild follows.",
+    "Final coastal build395routes and all254tests passed. Prior fullbuild408routes and all566tests passed; final photo-credit-only correction included in coastal recheck."
+  ]
+}

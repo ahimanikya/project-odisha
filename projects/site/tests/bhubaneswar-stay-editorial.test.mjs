@@ -13,7 +13,7 @@ test('Bhubaneswar stay guide separates sourced city context from practical compa
  for(const p of e.passages)for(const id of p.source_ids)for(const v of [`id="ref-${p.id}-${id}"`,`href="#ref-${p.id}-${id}"`,`id="note-${id}"`])assert.equal(page.split(v).length-1,1);
  assert.equal((page.match(/ data-footnote-ref /g)||[]).length,1);
  for(const phrase of ['after midnight','not a verified travel time','No named property has been inspected','not an accommodation'])assert.ok(page.includes(phrase));
- assert.match(read('dist/visit/experiences/cuttack-netaji/index.html'),/Drafted with AI assistance/);
+ assert.match(read('dist/visit/stays/cuttack/index.html'),/Drafted with AI assistance/);
 });
 test('Bhubaneswar stay reading exports every comparison and room question with concise sources and preserved image rights',()=>{
  const catalog=JSON.parse(read('dist/index.html').match(/<script[^>]*id="journey-data"[^>]*>([\s\S]*?)<\/script>/)[1]).catalog;
