@@ -7,7 +7,7 @@ for(const slug of ['huluhuli','sankha','mardala','daskathia','ghanta-ghanti','da
  const html=readFileSync('dist-coast/sounds-of-odisha/'+slug+'/index.html','utf8');
  const menu=html.match(/<details class="research-contents"[^>]*>([\s\S]*?)<\/details>/)?.[1];
  assert.ok(menu,'article contents present');assert.match(menu,/In this story/);
- const expected=story.blocks.flatMap((block,i)=>block.title?['story-section-'+(i+1)]:[]).concat('story-sources');
+ const expected=story.blocks.flatMap((block,i)=>block.title?['story-section-'+(i+1)]:[]).concat(slug==='pala'&&story.visitor_links?.length?['planning-links','story-sources']:['story-sources']);
  assert.deepEqual([...menu.matchAll(/href="#([^"]+)"/g)].map(m=>m[1]),expected);
  for(const id of expected)assert.equal(html.split(`id="${id}"`).length-1,1,`unique destination ${id}`);
  story.blocks.forEach((block,i)=>{

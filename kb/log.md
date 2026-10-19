@@ -731,3 +731,7 @@ Enhanced [Pala](research/culture/pala.md) from its retained source dossier: lite
 ## 2026-10-19 — Pala publication verified
 
 [PR 318](https://github.com/ahimanikya/project-odisha/pull/318) passed repository checks and merged. The existing main-branch workflow published revision `792ba296023f4d7e6471a43e53b5b2d4dcb95382`; the live Pala page matched all 26 paragraphs, three listening prompts and seven sources. Verified visible footnotes with return targets, collapsed reading paths and the visible update action. [Delivery receipt](records/pala-editorial-publication-2026-10-19.json). UTP-EDIT-144 is complete; no substantive programme increment.
+
+## 19 October 2026 — Pala history, preservation and visitor revision
+
+Deep audit and article revision connect literary/devotional evidence, pedagogy and ensemble practice with a practitioner-led preservation argument and practical visitor guidance. Current events, fees, access and English interpretation stay unconfirmed. Four existing source IDs reconciled into the bibliographic catalogue; historic overview and source mapping retained. Local checks pass; required CI and live publication verification remain separate. No programme count change.

@@ -57,3 +57,7 @@ Dash2011 remains unread in full: direct secure retrieval failed on an expired ce
 ### What the reader can now understand
 
 The revision explains a changing stage prop, a precise mechanism of parody, differentiated performance forms, named festival choices and a dated concern about compression. Faith, literary interpretation and historical chronology remain separate. Practitioner/Odia review, manuscript dating, regional variation, women’s biographies and present livelihoods remain open.
+
+## History, preservation and visitor audit ·19October2026
+
+Saved twenty-artist/network evidence now informs the public narrative. A named Gangadhar Puhan repertoire links literary forms to performance; Rout’s original citation supports teaching and writing. UNESCO’s official Legal Affairs text, Articles2,13–15, supplies general safeguarding principles rather than Pala designation. CTMS was rechecked as an enquiry register, not a current events or booking source. Alternate UNESCO pages returned human verification; no bypass or recovered tourism PDF claimed. Current visitor date/fee/access, women’s fuller biographies, named ensemble credits, manuscript chronology and livelihood outcomes remain open. The [structured supplement](../references/data/pala-preservation-visit.json) separates sourced claims, editorial argument and visitor recommendations.
