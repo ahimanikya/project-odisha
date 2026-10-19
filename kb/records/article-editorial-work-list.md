@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 394. completed: 29, excluded: 9, queued: 356.
+Route inventory: 395. completed: 29, excluded: 10, queued: 356.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -408,3 +408,4 @@ Route inventory: 394. completed: 29, excluded: 9, queued: 356.
 | POD-EDIT-392 | [Dhuduki: a string beneath the story](https://projectodisha.org/stories/dhuduki/) | queued | classification_pending |
 | POD-EDIT-393 | [Odissi music: follow the singer](https://projectodisha.org/stories/odissi-music/) | queued | classification_pending |
 | POD-EDIT-394 | [Our editorial process](https://projectodisha.org/about/editorial-process/) | excluded | process_page |
+| POD-EDIT-395 | [Heritage walks visitor directory](https://projectodisha.org/heritage-walks/) | excluded | visitor_directory_utility |
