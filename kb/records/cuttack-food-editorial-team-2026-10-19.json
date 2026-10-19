@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-19T05:43:42.189973+00:00",
   "article_id": "POD-EDIT-038",
   "route": "/food/cuttack/",
-  "status": "in_progress",
+  "status": "completed",
   "input_head": "234bc59f729e4fab6f57d39a00772544a540c685",
   "authorization": "POD-DEC-225",
   "central_question": "What are the parts of a Cuttack dahibara-aloodum bowl, and how can a visitor notice their contrasts and ask useful questions without treating a dated photograph as a vendor recommendation?",
@@ -52,23 +52,33 @@
       "status": "handoff_received",
       "input_head": "234bc59f729e4fab6f57d39a00772544a540c685",
       "tests": [
-        "JavaScript syntax, JSON mapping and scoped whitespace checks"
+        "JavaScript syntax, JSON mapping and scoped whitespace checks",
+        "Final scoped attribute-tolerant credit test: four Cuttack tests pass on integrated build."
       ],
       "limits": [
         "No build, Git mutations or publication performed by implementer."
-      ]
+      ],
+      "final_test_fix_input_head": "b09977fc76ff18ff59fbfacf476f1179810903b9"
     },
     {
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Read-only integrated candidate review",
-      "status": "reserved"
+      "status": "handoff_received",
+      "input_head": "7009c81717aa30405a95835ca9b07937f235dd10",
+      "result": "pass_with_limitations",
+      "tests": [
+        "Six focused tests pass; source, image, export and merge preservation review pass."
+      ],
+      "limits": [
+        "Reviewer did not independently repeat browser interactions, full suites or live publication."
+      ]
     },
     {
       "name": "Disha",
       "runtime": "/root",
       "scope": "Canonical guide copy, shared records, integration, testing and publishing",
-      "status": "active"
+      "status": "receipt_integration"
     }
   ],
   "concurrency": "Tarakasi receipt PR337 integrated. No active article. External PR338 heritage-walks integration,304 statistics,281 Ashoka scopes retained.",
@@ -88,6 +98,24 @@
     "Initial full build408routes/566tests and coastal395routes/249tests pass.",
     "Desktop1440 andmobile390 browser review:740/343.195px reading widths, nooverflow, imageobject-fitcontain. Exact keyboard footnote return and Further reading toggles pass.",
     "Visual review found repeated photograph attribution. Scoped concise credit applied; rebuilt verification follows.",
-    "Portable reading remains the existing full Dahibara story; short city guide is not substituted."
-  ]
+    "Portable reading remains the existing full Dahibara story; short city guide is not substituted.",
+    "Final coastal build395routes and all249tests pass; publication build retains11indexablepages.",
+    "First CI failed on overstrict photo-credit selector; fixed and final requiredCI39206893847passed.",
+    "Main approved publication39207241656success; actual live checks and desktop/mobile screenshots in receipt.",
+    "Final credit repeats creator only once; visible factual notes and rights retained."
+  ],
+  "article_complete": true,
+  "publication_receipt": "records/cuttack-food-editorial-publication-2026-10-19.json",
+  "reviewed_head": "7009c81717aa30405a95835ca9b07937f235dd10",
+  "final_review": {
+    "role": "Drishti",
+    "runtime": "/root/drishti",
+    "head": "7009c81717aa30405a95835ca9b07937f235dd10",
+    "result": "pass_with_limitations",
+    "scope": "Separate AI review of integrated candidate, sources, merge preservation, six focused tests and mobile screenshot. Not human or practitioner review.",
+    "limitations": [
+      "Reviewer did not independently repeat browser interactions, full suites or live publication."
+    ]
+  },
+  "ownership_release": "Only after this publication receipt is merged; no next article started."
 }

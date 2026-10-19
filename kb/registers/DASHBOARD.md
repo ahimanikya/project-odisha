@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `9e1077d7c5295d28ffc9e76796d028c89e7a2515d3db48f7157f42d9ecfa9809`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `86eda8717ff68bcc7d2034386cb269f3720cc56083ec2360c5e3d9d3a2a8b2a0`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -1166,7 +1166,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026101906 | 2026-10-19T03:04:14.909027+00:00 | Founder authorized separate UTP agents; first Anvesha and Samanta handoffs found source-ID and downloadable-attribution corrections. Scoped team operations recorded; quality review and release pending. Zero substantive500 increment. | — |
 | POD-EVT-2026101907 | 2026-10-19T03:19:05.925344+00:00 | Activated actual separate UTP team and delivered Cuttack through reviewed PR319 and approved main workflow. Live12 reference returns,5 source notes, credited original images and responsive behavior verified;28 editorial entries complete, zero substantive500 increment. | — |
 | POD-EVT-2026101908 | 2026-10-19T03:54:24.271244+00:00 | Collaborating team delivered Barabati through separately reviewed PR324 and approved main workflow. Live4 exact reference returns,2 source notes, original credited photograph and responsive reading verified;29 editorial entries complete, zero substantive500 increment. | — |
 | POD-EVT-20261018102 | 2026-10-18T01:22:37.475240+00:00 | Published and verified coherent Jhula story, accurate kit scope and three collection groups;all20 design choices preserved. | — |
@@ -1176,6 +1175,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261019102 | 2026-10-19T04:31:07.232980+00:00 | Published and browser-verified the shared footer link to Odia Poetry Jhula via PR 332. | — |
 | POD-EVT-20261019103 | 2026-10-19T04:39:48.073290+00:00 | Organized shared footer into balanced navigation groups and removed the detached decorative strip at the founder’s request. | — |
 | POD-EVT-20261019104 | 2026-10-19T05:11:09.625326+00:00 | Published and live-verified the Tarakasi editorial revision with Founder byline, visible source notes, clearer soldering explanation and retained documentary media. Separate AI review; zero substantive-programme credit. | — |
+| POD-EVT-20261019105 | 2026-10-19T06:02:52.485366+00:00 | Published and live-verified the Cuttack food editorial revision with Founder byline, visible factual footnote, restrained photo attribution and mobile-readable layout. Full Dahibara story and portable reading retained. Separate AI review; zero substantive-programme credit. | — |
 
 ## Deferred extensions
 
