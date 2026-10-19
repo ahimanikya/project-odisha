@@ -1,12 +1,12 @@
 ---
 type: Project record
-title: "Utkal Store project profile"
+title: "Odisha Store project profile"
 ---
 
-# Utkal Store project profile
+# Odisha Store project profile
 
-- Name: Utkal Store; provisional three-letter prefix: UTS.
-- Type: operating sub-project in preparation; parent: Utkal Collective (UTC).
+- Name: Odisha Store; provisional three-letter prefix: ODS.
+- Type: operating sub-project in preparation; parent: Odisha Collective (ODC).
 - Purpose/audience/outcome: everyday branded T-shirts, jhula bags, coffee cups and water bottles for residents, diaspora and Odisha enthusiasts; build a recognizable Odisha feeling with good products.
 - Accountable human: Ahimanikya Satapathy, Founder; final design, vendor, price, spend and launch decisions.
 - Team: one actual human; no appointed store personas or contracted vendors.

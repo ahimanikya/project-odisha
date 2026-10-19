@@ -5,7 +5,7 @@ title: "The Jhula Bag sample sheet v2"
 
 # The Jhula Bag sample sheet v2
 
-**UTS-BG-001 · v2 · Founder review candidate**
+**ODS-BG-001 · v2 · Founder review candidate**
 
 Base: Natural ecru - proposed.
 

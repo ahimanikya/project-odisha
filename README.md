@@ -4,9 +4,9 @@
 
 Renamed from Utkal Project on 14 October 2026. Historical records retain their original names; [current identity and continuity](kb/reference/project-identity.md).
 
-Project Odisha is an instance of Utkal Blueprint.
+Project Odisha is an instance of Odisha Blueprint.
 
-**[Visit the website preview](https://projectodisha.org/).** Research entries await editorial review. Utkal Store is not published or linked from the website.
+**[Visit the website preview](https://projectodisha.org/).** Research entries await editorial review. Odisha Store is not published or linked from the website.
 
 **[Read the complete project KB](kb/index.md).**
 
@@ -22,7 +22,7 @@ Repository configuration: [utkal.config.json](utkal.config.json). [Knowledge and
 
 [Website workspace and local preview](projects/site/README.md): Astro website, selected research and separate English and Odia brand treatments. [Website brief](kb/specs/website-brand-foundation.md) · [Brand proposal](kb/reference/brand-foundation.md).
 
-[Utkal Store workspace](projects/store/README.md) · [Store project KB](projects/store/kb/index.md). Utkal Store belongs to Utkal Collective; sharing this repository does not change its organizational parent.
+[Odisha Store workspace](projects/store/README.md) · [Store project KB](projects/store/kb/index.md). Odisha Store belongs to Odisha Collective; sharing this repository does not change its organizational parent.
 
 [Bhubaneswar Fresco collection](kb/collections/bhubaneswar-fresco/index.md) · [Current brand direction](kb/reference/brand-direction-02.md) · [Sensory identity research](kb/reference/odisha-sensory-identity.md).
 

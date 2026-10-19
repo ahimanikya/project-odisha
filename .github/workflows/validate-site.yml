@@ -37,6 +37,8 @@ jobs:
           python3 tools/test_registers.py
           python3 tools/test_config.py
           python3 tools/test_project_prefix.py
+          python3 tools/test_family_id_aliases.py
+          (cd projects/store && python3 tools/test_project_prefix.py && python3 tools/registers.py --check && python3 tools/check_bundle.py)
           python3 tools/check_autonomous_program.py
           python3 tools/editorial/article_rollout.py --check
           python3 tools/check_team_assignments.py

@@ -5,7 +5,7 @@ title: "The Utkal T-shirt sample sheet v2"
 
 # The Utkal T-shirt sample sheet v2
 
-**UTS-TS-001 · v2 · Founder review candidate**
+**ODS-TS-001 · v2 · Founder review candidate**
 
 Base: Black - confirmed by Founder.
 

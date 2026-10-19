@@ -1,11 +1,11 @@
 ---
 type: Project record
-title: "Utkal Store PRD v0.1"
+title: "Odisha Store PRD v0.1"
 ---
 
-# Utkal Store PRD v0.1
+# Odisha Store PRD v0.1
 
-**Historical baseline · 28 September 2026 UTC · Proposed implementation plan**
+**Historical baseline · 28 September 2026 ODC · Proposed implementation plan**
 
 ## Problem and intended outcome
 
@@ -29,7 +29,7 @@ Measure interest by design, conversion, gross margin after all fulfillment costs
 
 ## Editorial and organizational boundaries
 
-Parent: Utkal Collective. The store can reference credited encyclopedia material, but sales do not buy coverage or determine historical conclusions. A Bangalore supplier is not automatically an Odisha artisan; describe actual manufacture accurately. Store product approvals and releases are independent of UTP editorial approvals.
+Parent: Odisha Collective. The store can reference credited encyclopedia material, but sales do not buy coverage or determine historical conclusions. A Bangalore supplier is not automatically an Odisha artisan; describe actual manufacture accurately. Store product approvals and releases are independent of UTP editorial approvals.
 
 ## Persistence and architecture
 

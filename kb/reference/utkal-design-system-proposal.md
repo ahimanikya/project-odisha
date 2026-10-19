@@ -55,4 +55,4 @@ Check at 360/390px phones, tablet and wide desktop widths, plus 200% text enlarg
 
 No website code or source assets changed during this study. No Kabita Live masthead, signature, artwork, editorial content, private service configuration, persona assignment or browser-local approval was imported. The previous release candidate remains available but is not published; this proposal is a separate design decision. If adopted and applied, it creates a changed candidate that needs a fresh release review and manifest.
 
-Utkal Blueprint may later carry the generic design-review procedure as a reusable template. Utkal's colours, content and components belong to its project implementation; no Blueprint-wide change is proposed for automatic application here.
+Odisha Blueprint may later carry the generic design-review procedure as a reusable template. Utkal's colours, content and components belong to its project implementation; no Blueprint-wide change is proposed for automatic application here.

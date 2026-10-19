@@ -4,7 +4,7 @@ okf_version: "0.2"
 
 # Project Odisha · project knowledge bundle
 
-**Discover Odisha. Imagine the possibilities.** Project Odisha (POD) is an instance of Utkal Blueprint. Existing record IDs now use POD; old UTP IDs resolve through the [identifier map](reference/project-id-aliases.json). This KB holds its actual project information and the knowledge behind its work.
+**Discover Odisha. Imagine the possibilities.** Project Odisha (POD) is an instance of Odisha Blueprint. Existing record IDs now use POD; old UTP IDs resolve through the [identifier map](reference/project-id-aliases.json). This KB holds its actual project information and the knowledge behind its work.
 
 This directory contains the organizational and working model, roles, work records, evidence and knowledge. Raw historical snapshots under `references/pre-repair/`, captured evidence under `history/evidence/initial-capture/`, and preserved earlier research snapshots under `records/evidence/research-import/` are archival resources, not live concepts. Executable tools and website code are outside this bundle; their operating context is documented here. External citations and explicitly linked independent repositories remain external resources.
 
@@ -42,7 +42,7 @@ Use these maintained records to resume work. The dated links further down this p
 
 **Search status, checked against saved evidence on 9 October 2026:** limited search eligibility was activated for eleven routes under POD-DEC-150; see the [activation receipt](records/first-search-launch-publication.json). The [9 October maritime publication receipt](records/maritime-memory-publication-2026-10-09.json) confirms the same eleven-entry sitemap and keeps that new story outside the search selection. This is not proof that Google has indexed those pages. [Search Console processing remains unresolved in the saved diagnosis](records/search-console-fetch-diagnosis.json), tracked as POD-WORK-139. Consult later release receipts and the current register before relying on this dated snapshot.
 
-The public preview, the full research KB and the approved search selection have different scopes. Utkal Store remains held; its separate workspace is not a published shop. Human authority remains with Ahimanikya Satapathy; an automated check or a delivery receipt is not independent factual or field review.
+The public preview, the full research KB and the approved search selection have different scopes. Odisha Store remains held; its separate workspace is not a published shop. Human authority remains with Ahimanikya Satapathy; an automated check or a delivery receipt is not independent factual or field review.
 
 ## Groups
 
@@ -61,7 +61,7 @@ The public preview, the full research KB and the approved search selection have 
 
 - [Current brand direction](reference/brand-direction-02.md)
 - [Odisha sensory identity research](reference/odisha-sensory-identity.md)
-- [Utkal Store placement and scope](specs/utkal-store.md)
+- [Odisha Store placement and scope](specs/utkal-store.md)
 - [Photo and cultural collections](collections/index.md)
 
 - [Vector identity and merchandise design](reference/brand-vector-03.md)
@@ -153,7 +153,7 @@ Historical visitor-experience release: [PR 23 publication evidence](records/visi
 
 ## Sounds of Odisha: research and published reading
 
-The [maintained collection directory](research/culture/sounds-of-odisha.md#what-is-published) links **22 published full stories**, their KB narratives, website text and release receipts, checked against saved delivery evidence on 15 October 2026 (UTC). Eight core chapters and fourteen further readings are distinct; the collection and listening notebook are additional pages.
+The [maintained collection directory](research/culture/sounds-of-odisha.md#what-is-published) links **22 published full stories**, their KB narratives, website text and release receipts, checked against saved delivery evidence on 15 October 2026 (ODC). Eight core chapters and fourteen further readings are distinct; the collection and listening notebook are additional pages.
 
 - [Read Sounds of Odisha](https://projectodisha.org/sounds-of-odisha/) or use the [listening notebook](https://projectodisha.org/sounds-of-odisha/listening-notebook/).
 - [Huluhuli research](research/culture/huluhuli.md) and [source dossier](research/sources/huluhuli-research.md) retain origin limits; the [tongue-motion correction receipt](records/huluhuli-tongue-correction-publication-2026-10-12.json) records the Founder's correction.

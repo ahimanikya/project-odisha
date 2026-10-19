@@ -5,7 +5,7 @@ title: "The Utkal Water Bottle sample sheet v3"
 
 # The Utkal Water Bottle sample sheet v3
 
-UTS-WB-001 · Proposed for review, not an order.
+ODS-WB-001 · Proposed for review, not an order.
 
 Base: Matte black and Nila Sagara blue - both retained by Founder
 

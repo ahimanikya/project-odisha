@@ -1,8 +1,8 @@
-# Utkal Store
+# Odisha Store
 
 **Carry a little Odisha.** — proposed store line.
 
-A commercial sub-project of **Utkal Collective**, currently hosted in this shared repository with its own configuration, KB, app and lifecycle. UTS is a provisional working prefix. [Read its complete project KB](kb/index.md).
+A commercial sub-project of **Odisha Collective**, currently hosted in this shared repository with its own configuration, KB, app and lifecycle. ODS is a provisional working prefix. [Read its complete project KB](kb/index.md).
 
 ## Local preview
 

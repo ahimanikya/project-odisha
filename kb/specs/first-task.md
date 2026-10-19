@@ -44,4 +44,4 @@ This task is complete when the bounded draft and preview have the stated evidenc
 **Authorization: pending final package approval.** Start only after the concrete assignments, access checks and adoption state are recorded. No additional approval is needed for ordinary research and implementation steps already covered by that final authorization.
 
 
-Status update: the Founder approved this document as part of batch UTB-DEC-005. Earlier candidate/review notices describe its review history; actual application, adoption and activation are recorded separately.
+Status update: the Founder approved this document as part of batch ODB-DEC-005. Earlier candidate/review notices describe its review history; actual application, adoption and activation are recorded separately.

@@ -5,7 +5,7 @@ title: "The Tasar Jhula sample sheet v3"
 
 # The Tasar Jhula sample sheet v3
 
-UTS-BG-001 · Proposed for review, not an order.
+ODS-BG-001 · Proposed for review, not an order.
 
 Base: Natural golden Tasar silk outer - Founder-selected material; shade/sample pending
 

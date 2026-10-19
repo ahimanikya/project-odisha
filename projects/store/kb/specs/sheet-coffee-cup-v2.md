@@ -5,7 +5,7 @@ title: "The Story Cup sample sheet v2"
 
 # The Story Cup sample sheet v2
 
-**UTS-CP-001 · v2 · Founder review candidate**
+**ODS-CP-001 · v2 · Founder review candidate**
 
 Base: Ivory body; sea-blue handle/interior - proposed.
 
