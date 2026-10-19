@@ -33,7 +33,7 @@ test('Cuttack food retains its dated photograph, original bytes and reuse credit
  assert.ok(hero.includes(guide.photo_context));
  assert.match(hero,/2011/);
  assert.match(hero,/not a current vendor or menu/);
- const credit=html.match(/<p><strong>Photograph\.<\/strong>[\s\S]*?<\/p>/)?.[0];assert.ok(credit);
+ const credit=html.match(/<p\b[^>]*><strong\b[^>]*>Photograph\.<\/strong>[\s\S]*?<\/p>/)?.[0];assert.ok(credit);
  assert.ok(credit.includes(editorial.photo_credit_title));
  assert.equal(credit.split(photo.creator).length-1,1);
  for(const value of [photo.source,photo.license_url,photo.license,photo.changes])assert.ok(credit.includes(value));
