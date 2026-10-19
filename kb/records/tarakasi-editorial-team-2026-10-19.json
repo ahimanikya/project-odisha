@@ -1,0 +1,161 @@
+{
+  "recorded_at": "2026-10-19T04:48:39.749110+00:00",
+  "article_id": "POD-EDIT-037",
+  "route": "/visit/experiences/cuttack-filigree/",
+  "status": "in_progress",
+  "input_head": "f4838c819eb0070226ab8f3d77ddcda406d1d946",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization": "POD-DEC-225",
+  "central_question": "How can a reader recognize the supporting frame, fine wire patterns and joins in Cuttack Tarakasi, and approach a piece or maker thoughtfully?",
+  "acceptance": [
+    "Keep existing sourced technique distinctions and documentary media rights; no invented makers or workshop access.",
+    "Founder byline, visible numbered sources and precise passage returns; natural prose and740px reading rhythm.",
+    "Collapsed further reading, visible update/privacy notice, preserved journey save and portable reading.",
+    "Separate AI review, tests, responsive inspection, reviewed PR, approved deployment and live receipt before completion."
+  ],
+  "scope": "Editorial rollout only; no substantive500 credit.",
+  "concurrency": "Pala receipt integrated onmain. No in-progress article. PR334 owns sharedfooter,304statistics,281Ashoka; preserve these scopes.",
+  "executions": [
+    {
+      "name": "Anvesha",
+      "scope": "Read-only Tarakasi existing evidence/source mapping and image provenance",
+      "runtime": "/root/anvesha",
+      "status": "handoff_received",
+      "input_head": "f4838c819eb0070226ab8f3d77ddcda406d1d946",
+      "result": "Bounded source and image review PASS",
+      "inspection_date": "2026-10-19",
+      "source_checks": [
+        {
+          "id": "cuttack-craft",
+          "url": "https://www.india.gov.in/explore-india/odop/details/silver-filigree-tarakashi-art",
+          "scope": "Article body supports fine silver wire, jewellery and decorative objects; promotional chronology, GI and seller claims not adopted."
+        },
+        {
+          "id": "tarakasi-dsource-process",
+          "url": "https://www.dsource.in/resource/silver-filigree-cuttack-orissa/making-process",
+          "scope": "Credited process paragraphs1–6 reread: sketches, drawn wire, thicker frame/fine infill, soldering, assembly and finishing. Prof.Bibhudutta Baral and Hariharasudan T., NIDBengaluru. Unrelated spam ignored."
+        },
+        {
+          "id": "tarakasi-chandi-medha-photo",
+          "url": "https://commons.wikimedia.org/wiki/File:Chaudhury_Bazar_Chandi_Medha.jpg",
+          "scope": "Creatordescription,2009date andCCBYSA3.0 inspected; not current access or every depicted technique."
+        },
+        {
+          "id": "cuttack-filigree-photo",
+          "url": "https://commons.wikimedia.org/wiki/File:Cuttack_Tarkasi_(silver_filigree)_pendant_%26_ear_rings.jpg",
+          "scope": "Creator,date2011,CCBYSA3.0 and conflicting silver/gold descriptions inspected; limitation retained."
+        },
+        {
+          "id": "tarakasi-wirework-photo",
+          "url": "https://commons.wikimedia.org/wiki/File:Silver_Filigree_Work.jpg",
+          "scope": "GovernmentofOdisha viaBhubaneswar.me,catalogue2018,CCBY4.0 inspected."
+        }
+      ],
+      "limits": [
+        "Separate AI source review, not human/practitioner review.",
+        "No new origin history, named maker, GI status, seller guarantee or workshop access established."
+      ]
+    },
+    {
+      "name": "Samanta",
+      "scope": [
+        "projects/site/src/pages/visit/[kind]/[slug].astro",
+        "projects/site/tests-coast/tarakasi-editorial.test.mjs",
+        "kb/research/destinations/tarakasi-editorial.json"
+      ],
+      "runtime": "/root/samanta",
+      "status": "handoff_received",
+      "input_head": "f4838c819eb0070226ab8f3d77ddcda406d1d946",
+      "tests": [
+        "JSON parse and exact source mapping",
+        "git diff --check"
+      ],
+      "limits": [
+        "No Git mutations or publication by implementer. Rendered tests run by coordinator after rebuild."
+      ]
+    },
+    {
+      "name": "Drishti",
+      "scope": "Read-only integrated candidate review afterimplementation",
+      "runtime": "/root/drishti",
+      "status": "review_complete",
+      "input_head": "a4a5e88840b76add59937f939ab6ac8f9f41e92d",
+      "result": "pass_with_limitations",
+      "findings": [],
+      "tests": [
+        "3 focused Tarakasi tests",
+        "2 Cuttack/Barabati portable regression tests",
+        "Team, rollout, programme and whitespace checks",
+        "10 Tarakasi-side and6 footer-side files byte-equal to their respective merge parents, zero overlap"
+      ],
+      "source_review": "Dsource credited process body, National Portal craft description and Commons pendant/Chandi Medha records reread independently.",
+      "visual_review": "Three local documentary images and saved mobile-notes screenshot inspected.",
+      "limits": [
+        "Separate AI review, not human or practitioner approval.",
+        "Browser/keyboard and full suites not independently rerun by reviewer.",
+        "External footer implementation not re-reviewed."
+      ]
+    },
+    {
+      "name": "Disha",
+      "scope": "Shared records, source review/mapping, integration, tests, visual checks and publishing",
+      "runtime": "/root",
+      "status": "active"
+    }
+  ],
+  "substantive_items_added": 0,
+  "human_review_claimed": false,
+  "media_review": {
+    "reviewers": [
+      "Anvesha",
+      "Disha"
+    ],
+    "kind": "visual inspection of existing local documentary images and explanatory SVG",
+    "result": "Retain all existing media with original rights and material ambiguity",
+    "hashes": {
+      "/images/regions/cuttack-filigree.webp": "8eadefba2b5f0f9a338a898bce3f72c16c30f74bac9e431b500be0304ef793d7",
+      "/images/crafts/tarakasi-wirework.webp": "5f21c20e4183b411134166d740795b4a3de5665730074c836ae3e61790f596a6",
+      "/images/crafts/tarakasi-chandi-medha.webp": "7d88928c60dade9777270447fde32859034dba8e5c8c98349c3119d5985d0791"
+    }
+  },
+  "local_review": {
+    "kind": "Coordinator browser review, not human or physical-device review",
+    "viewports": [
+      [
+        1440,
+        1000
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "reading_widths": [
+      740,
+      343.1953125
+    ],
+    "horizontal_overflow": false,
+    "reviewed": [
+      "Desktop prose and explanatory drawing",
+      "Mobile prose, diagram and visible notes",
+      "Exact keyboard note and second-passage return focus",
+      "Collapsed Further reading toggles with Enter"
+    ],
+    "screenshot": "/tmp/tarakasi-mobile-notes.png",
+    "limitations": [
+      "Browser emulation; no physical-device or screen-reader review.",
+      "Role-based summary locator did not match; DOM-grounded summary locator verified toggling."
+    ]
+  },
+  "test_notes": [
+    "Coastal build:394 routes. Full build:407 routes.",
+    "Focused coastal tests pass. Initial full-draft portable test read stale dist restored by coastal builder; fresh full build resolves it, all7 focused full tests pass.",
+    "Publication build keeps11 indexable routes. No search eligibility change.",
+    "Bundle, programme, team, rollout and research-map checks pass.",
+    "Full draft566 tests and coastal244 tests pass. After clean footer integration, rebuilt coastal244 tests pass again.",
+    "Incoming footer PR334 six paths preserved byte-for-byte.",
+    "App PR attachment attempted; existing100-attachment limit reached."
+  ],
+  "integrated_head": "a4a5e88840b76add59937f939ab6ac8f9f41e92d",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/336"
+}
