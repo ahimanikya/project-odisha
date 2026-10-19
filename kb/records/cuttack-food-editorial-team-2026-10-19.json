@@ -1,0 +1,93 @@
+{
+  "recorded_at": "2026-10-19T05:43:42.189973+00:00",
+  "article_id": "POD-EDIT-038",
+  "route": "/food/cuttack/",
+  "status": "in_progress",
+  "input_head": "234bc59f729e4fab6f57d39a00772544a540c685",
+  "authorization": "POD-DEC-225",
+  "central_question": "What are the parts of a Cuttack dahibara-aloodum bowl, and how can a visitor notice their contrasts and ask useful questions without treating a dated photograph as a vendor recommendation?",
+  "acceptance": [
+    "Inspect existing food research, full-story overlap and actual cited source before revising.",
+    "Founder byline, restrained attribution, visible numbered footnotes and exact returns; readable desktop/mobile layout.",
+    "Retain documentary image, source rights, save/export behavior and all onward links; collapse further reading and keep update visible.",
+    "Separate AI review, required checks, approved deployment and live receipt before completion."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only Cuttack food source, existing narrative overlap and image audit",
+      "status": "handoff_received",
+      "input_head": "234bc59f729e4fab6f57d39a00772544a540c685",
+      "result": "Bounded evidence and image review pass",
+      "sources": [
+        {
+          "url": "https://www.incredibleindia.gov.in/en/odisha/cuttack/savour-the-flavours-of-authentic-odia-cuisine-in-cuttack",
+          "locator": "Dahibara Aloodum paragraph, web-reader lines695–697",
+          "inspection_date": "2026-10-19",
+          "supports": "Soft lentil fritters soaked in yogurt and spicy potato curry; no recipe, compulsory toppings, origin or current vendors established."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Dahibara-aludam.jpg",
+          "locator": "Summary and Licensing",
+          "inspection_date": "2026-10-19",
+          "supports": "Subhashish Panigrahi, own work, Cuttack,13 October2011,CC BY-SA3.0."
+        }
+      ],
+      "limits": [
+        "Separate AI source review, not human, food practitioner or field inspection.",
+        "Full food story already contains the longer tasting exercise and2020personal-favourites discussion; retained unchanged."
+      ]
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/pages/food/cuttack.astro",
+        "projects/site/src/components/RegionalMeal.astro",
+        "kb/research/food/cuttack-editorial.json",
+        "projects/site/tests-coast/cuttack-food-editorial.test.mjs",
+        "projects/site/tests/bhubaneswar-meal-editorial.test.mjs"
+      ],
+      "status": "handoff_received",
+      "input_head": "234bc59f729e4fab6f57d39a00772544a540c685",
+      "tests": [
+        "JavaScript syntax, JSON mapping and scoped whitespace checks"
+      ],
+      "limits": [
+        "No build, Git mutations or publication performed by implementer."
+      ]
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Read-only integrated candidate review",
+      "status": "reserved"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": "Canonical guide copy, shared records, integration, testing and publishing",
+      "status": "active"
+    }
+  ],
+  "concurrency": "Tarakasi receipt PR337 integrated. No active article. External PR338 heritage-walks integration,304 statistics,281 Ashoka scopes retained.",
+  "substantive_items_added": 0,
+  "human_review_claimed": false,
+  "media_review": {
+    "reviewers": [
+      "Anvesha",
+      "Disha"
+    ],
+    "kind": "Direct visual inspection of retained documentary WebP",
+    "path": "/images/regions/cuttack-dahibara.webp",
+    "sha256": "1a9c32d5fadbd424eba8cc07eb56efc2c6dcaf7dd03d4aab6457e94a667742ac",
+    "finding": "Leaf bowl, fritters, potato pieces, gravy and thin yellow strands. Do not infer ingredients or crispness of toppings from pixels; rights retained."
+  },
+  "coordinator_checks": [
+    "Initial full build408routes/566tests and coastal395routes/249tests pass.",
+    "Desktop1440 andmobile390 browser review:740/343.195px reading widths, nooverflow, imageobject-fitcontain. Exact keyboard footnote return and Further reading toggles pass.",
+    "Visual review found repeated photograph attribution. Scoped concise credit applied; rebuilt verification follows.",
+    "Portable reading remains the existing full Dahibara story; short city guide is not substituted."
+  ]
+}
