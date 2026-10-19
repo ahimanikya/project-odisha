@@ -4,7 +4,7 @@ import ProductArt from '../components/ProductArt.astro';
 import products from '../data/products.json';
 import spec from '../../kb/specs/sample-specifications-v4.json';
 ---
-<Store title="Sea & Stone · shared story review">
+<Store title="Sea & Stone · shared story review"><aside class="wrap notice">Earlier design archive: these studies retain their original UTKAL artwork. The current merchandise name is Project Odisha. See the <a href="/catalog/">current catalogue</a> for the options accepting interest; no artwork here is a manufactured sample.</aside>
 <div class="wrap">
 <section class="collection">
 <p class="eyebrow">COLLECTION 01 · SHARED STORY v4</p>
@@ -13,7 +13,7 @@ import spec from '../../kb/specs/sample-specifications-v4.json';
 <p>The riverbank and sailing scenes connect the collection. UTKAL stays prominent; the T-shirt front and bottle retain the familiar emblem.</p>
 <p class="design-note">These are illustrated design concepts. Fabrics, printing and final artwork will be checked against physical samples.</p>
 </section>
-{products.map((product,i)=>{const row=spec.products[i];return <section class="artwork-review" id={'review-'+product.id}>
+{products.filter(p=>p.kind!=='poetry-jhula').map((product,i)=>{const row=spec.products[i];return <section class="artwork-review" id={'review-'+product.id}>
 <div><ProductArt product={product}/><p class="design-note">{product.id==='utkal-tee'?'Front and back concept.':product.id==='jhula-bag'?'Matching riverbank and sailing concepts.':'Material and design concept.'} Not a manufactured sample.</p></div>
 <div><p class="eyebrow">{row.code} · {product.name}</p><h2>{product.id==='jhula-bag'?'The story you carry.':product.id==='utkal-tee'?'A story on the back.':product.id==='coffee-cup'?'A story in pictures.':'Sea & Stone.'}</h2><p>{product.description}</p>
 {product.id==='jhula-bag'&&<p class="design-note">The new illustrations replace the earlier emblem-only bag design. Shared flat artwork will be prepared after this direction is reviewed.</p>}

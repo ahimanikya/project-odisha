@@ -63,6 +63,22 @@
       "evidence": [
         "specs/commerce-launch-v0.1.md"
       ]
+    },
+    {
+      "id": "ODS-WORK-2026101901",
+      "title": "No-payment interest cart, private dashboard and complete merchandise catalogue",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "ODS-DEC-2026101902",
+      "next_action": "Complete independent review, browser checks and repository integration; private production hosting and operational policy remain separate launch dependencies.",
+      "blockers": [],
+      "refs": [
+        "ODS-DEC-2026101902"
+      ],
+      "evidence": [
+        "records/preorder-build-2026-10-19.json"
+      ]
     }
   ],
   "decisions": [
@@ -282,6 +298,26 @@
         "records/identity-migration-2026-10-19.json"
       ],
       "refs": []
+    },
+    {
+      "id": "ODS-DEC-2026101902",
+      "title": "Build no-payment preorder interest and private catalogue management",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "We will start building the store as an interest-only cart. Where people who want to buy can buy without paying anything- it's a pre-order, and when we have the product, we will contact them",
+      "follow_up_quotes": [
+        "A private order dashboard",
+        "All merchandise we have created so far can be added there. We also need to build a product catalog.",
+        "Where we define available supply and unit price, etc."
+      ],
+      "scope": "Build and test customer interest, private request management and catalogue controls. No payment collection, outbound contact, supplier commitment or production launch is claimed.",
+      "refs": [],
+      "evidence": [
+        "records/preorder-build-2026-10-19.json"
+      ]
     }
   ],
   "requirements": [],

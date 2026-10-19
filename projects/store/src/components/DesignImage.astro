@@ -1,0 +1,6 @@
+---
+const {src,alt,view,width,height,eager=false,maxHeight=620}=Astro.props;
+const viewport=view?.split(' ').map(Number);
+const [x,y,w,h]=viewport||[0,0,width,height];
+---
+{viewport?<div class="board-window" style={`aspect-ratio:${w}/${h};max-width:${maxHeight*w/h}px`}><img src={src} alt={alt} width={width} height={height} loading={eager?'eager':'lazy'} decoding="async" style={`width:${width/w*100}%;height:${height/h*100}%;left:${-x/w*100}%;top:${-y/h*100}%`}/></div>:<img src={src} alt={alt} width={width} height={height} loading={eager?'eager':'lazy'} decoding="async"/>}

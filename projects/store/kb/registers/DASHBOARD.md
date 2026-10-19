@@ -5,7 +5,7 @@ title: "Odisha Store dashboard"
 
 # Odisha Store · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `65589e52bc3ebc6974282348c9ae0734270f60db89dd2f159f267bd0675d8287`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `d5b0ca536fb9eb9b7d024d2f82f37df8c22e76b7a1f7c36ca291bb4f8f1650e2`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -15,6 +15,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 |---|---|---|---|---|---|
 | ODS-WORK-001 · First collection and local storefront | awaiting_review | reviewed | Ahimanikya Satapathy | Review shared-story bag and T-shirt back concepts, then prepare common flat artwork and sample quotes. | — |
 | ODS-WORK-002 · Prepare low-budget direct and marketplace commerce | awaiting_review | reviewed | Ahimanikya Satapathy | Confirm budget, seller/GST/dispatch setup and pilot range; then prepare vendor and account setup tasks. | Budget and seller/dispatch inputs unconfirmed; Samples, economics and channel accounts not approved |
+| ODS-WORK-2026101901 · No-payment interest cart, private dashboard and complete merchandise catalogue | in_progress | draft | Ahimanikya Satapathy | Complete independent review, browser checks and repository integration; private production hosting and operational policy remain separate launch dependencies. | — |
 
 ## Pending human review and decisions
 
@@ -39,6 +40,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | ODS-DEC-010 · Share cup stories with bags and T-shirt back | recorded_direction | Ahimanikya Satapathy | Apply shared graphical story to Tasar bag concepts and black T-shirt back; no final colour, print-master or production approval. |
 | ODS-DEC-011 · Explore a long traditional-form Tasar Jhula | recorded_direction | Ahimanikya Satapathy | Prepare an additional long-strap soft-pouch concept while retaining existing bag studies; not final material/fit or production approval. |
 | ODS-DEC-2026101901 · Apply current Odisha identity with historical aliases | recorded_direction | Ahimanikya Satapathy | Current project identity and exact historical ID aliases; no new adoption, active roles, launch or access. |
+| ODS-DEC-2026101902 · Build no-payment preorder interest and private catalogue management | recorded_direction | Ahimanikya Satapathy | Build and test customer interest, private request management and catalogue controls. No payment collection, outbound contact, supplier commitment or production launch is claimed. |
 
 ## Reviews
 
@@ -82,7 +84,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| ODS-EVT-004 | 2026-09-28T09:33:53.384991+00:00 | Prepared shared-geometry artwork, four product/sample sheets and a sourced story for the reverse of the cup; proposed blank specifications are not approvals. | Founder review, then actual vendor templates and samples. |
 | ODS-EVT-005 | 2026-09-28T09:40:51.255921+00:00 | Replaced the rejected prose-on-cup candidate with a graphical maritime wrap; archived v2 privately; current product sheets use v3. | Founder reviews the visual story and sample specifications. |
 | ODS-EVT-006 | 2026-09-28T09:48:36.239349+00:00 | Enlarged cup UTKAL lettering and developed a matte-black bottle candidate. Sea-blue bottle retained for comparison. | Founder reviews the refined cup and bottle. |
 | ODS-EVT-007 | 2026-09-28T09:53:08.067145+00:00 | Retained black and blue variants and replaced the single-wall bottle target with a premium insulated concept. | Review the premium bottle form, then identify suitable supplier blanks. |
@@ -92,6 +93,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | ODS-EVT-011 | 2026-09-28T10:25:13.897780+00:00 | Applied cup story concepts to two Tasar bags and black T-shirt back; preserved earlier artwork as superseded references. | Review compositions and prepare common flat print masters after selection. |
 | ODS-EVT-012 | 2026-09-28T10:31:38.044381+00:00 | Added a natural Tasar long-strap pouch concept using the cup sailing story; retained two-handle alternatives. | Compare shape and sample strap fit, fabric and construction before selection. |
 | ODS-EVT-20261019106 | 2026-10-19T06:19:14.278319+00:00 | Applied current Odisha family name/code with exact old-ID aliases and preserved original evidence. Pending separate review and integration; no new release or activation. | — |
+| ODS-EVT-20261019107 | 2026-10-19T06:40:16.689949+00:00 | Prepared four-family/13-option no-payment interest catalogue and private dashboard with authenticated SQLite persistence; only synthetic local data used. Existing held commercial launch remains separate. | — |
 
 ## Deferred extensions
 

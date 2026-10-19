@@ -1,0 +1,7 @@
+---
+import Store from '../layouts/Store.astro';
+import ProductArt from '../components/ProductArt.astro';
+import products from '../data/products.json';
+---
+<Store title="Product catalogue"><section class="wrap collection"><p class="eyebrow">SEA & STONE · ODIA POETRY JHULA</p><h1>Every <em>option.</em></h1><p class="lead">Compare the designs, choose a size or colour, and tell us what you’d like.</p><p class="notice">No payment is taken. Prices shown are indicative unit prices; the final price and product details will be confirmed before you decide to buy. Available and planned quantities are separate from interest requests.</p><p><a href="/kabi-jhulas/">Browse the twenty Kabi Jhula designs →</a></p><p id="catalog-status" role="status">Loading current prices and supply…</p><div class="catalog-grid" id="all-products">{products.map(p=><article class="catalog-card" data-product-card={p.id}><ProductArt product={p}/><h2><a href={'/product/'+p.id+'/'}>{p.name}</a></h2><p>{p.description}</p><p class="design-note">{p.image_label} {p.concept_label}</p><ul class="option-list" data-options={p.id}>{p.variant_options.map(v=><li><strong>{v.label==='Standard'?'Ivory & blue':v.label}</strong><span>Price and supply to be confirmed</span></li>)}</ul><a class="button" href={'/product/'+p.id+'/'}>Choose an option →</a></article>)}</div></section></Store>
+<script>import '../scripts/catalog.js';</script>

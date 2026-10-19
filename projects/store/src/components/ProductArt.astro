@@ -1,7 +1,9 @@
 ---
+import DesignImage from './DesignImage.astro';
 const {product, large=false}=Astro.props;
+const alt=product.name+'. '+(product.image_label||'Design concept; not a manufactured sample.');
 ---
 <figure class:list={['merch-render',{'large':large}]}>
- <img src={product.image} alt={product.description+' AI-generated design concept; not a manufactured sample.'} width="1448" height="1086" loading={large?'eager':'lazy'}/>
- <figcaption>SEA & STONE · DESIGN CONCEPT</figcaption>
+ <DesignImage src={product.image} alt={alt} view={product.image_view} width={product.image_width||1448} height={product.image_height||1086} eager={large} maxHeight={large?620:340}/>
+ <figcaption>{product.image_label}</figcaption>
 </figure>

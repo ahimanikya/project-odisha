@@ -20,8 +20,8 @@ test('saved selections survive a reload; corrupted and unavailable storage are h
  storage.setItem(CART_KEY,'bad-json');assert.deepEqual(loadCart(storage,products),[]);
  assert.throws(()=>saveCart({setItem(){throw Error('blocked')}},[item]),/could not save/);
 });
-test('seven static pages resolve local links and do not enable checkout',()=>{
- const root=resolve('dist');const pages=readdirSync(root,{recursive:true}).filter(f=>f.endsWith('.html')&&statSync(join(root,f)).isFile());assert.equal(pages.length,7);
+test('thirty-one static pages resolve local links and do not include a payment checkout',()=>{
+ const root=resolve('dist');const pages=readdirSync(root,{recursive:true}).filter(f=>f.endsWith('.html')&&statSync(join(root,f)).isFile());assert.equal(pages.length,31);
  for(const file of pages){const html=readFileSync(join(root,file),'utf8');assert.match(html,/noindex, nofollow/);assert.ok(!/https?:[^" ]*(stripe|razorpay|checkout)/.test(html));for(const [,raw] of html.matchAll(/(?:href|src)="([^"]+)"/g)){if(/^(https?:|data:)/.test(raw))continue;const u=new URL(raw.replaceAll('&amp;','&'),'https://preview.invalid/'+file);let path=decodeURIComponent(u.pathname).slice(1);if(!path||path.endsWith('/'))path+='index.html';assert.ok(existsSync(join(root,path)),path);if(u.hash&&path.endsWith('.html'))assert.ok(readFileSync(join(root,path),'utf8').includes('id="'+u.hash.slice(1)+'"'));}}
  const bag=readFileSync(join(root,'bag/index.html'),'utf8');assert.match(bag,/disabled/);
  assert.ok(products.every(p=>p.price===null&&p.status==='concept'&&!p.supplier_approved));

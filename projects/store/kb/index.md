@@ -23,3 +23,7 @@ Blueprint structure is reused; formal version adoption and release approval are 
 - [Low-budget commerce and marketplace launch](specs/commerce-launch-v0.1.md)
 
 - [Current shared story direction v4](specs/shared-story-v4.md)
+
+## Current build
+
+The Founder authorized a no-payment interest cart, private dashboard and catalogue controls on19October2026. See [build and limits](records/preorder-build-2026-10-19.json). Local implementation is under review; no public launch, real prices, confirmed supply or payment collection is implied. Earlier held-commerce records retain their historical scope.

@@ -1,0 +1,102 @@
+{
+  "recorded_at": "2026-10-19T06:27:10.379974+00:00",
+  "status": "in_progress",
+  "scope": "No-payment preorder interest, private authenticated dashboard and catalogue: four Sea & Stone product families plus20Odia Poetry Jhula designs;51size/format preferences in total, not confirmed manufactured SKUs.",
+  "user_instructions": [
+    "We will start building the store as an interest-only cart. Where people who want to buy can buy without paying anything- it's a pre-order, and when we have the product, we will contact them",
+    "A private order dashboard",
+    "All merchandise we have created so far can be added there. We also need to build a product catalog.",
+    "Where we define available supply and unit price, etc.",
+    "what about Kabi Jhulas?"
+  ],
+  "input_head": "076a009ba798df04b6ed2ced4de0a6a6317ad2d2",
+  "roles": {
+    "Disha": "Canonical product data, frontend, shared records, integration and publication",
+    "Anvesha": "Read-only merchandise/source/hosting inventory",
+    "Samanta": "Private backend and API tests in isolated scratch, integrated by Disha",
+    "Drishti": "Separate read-only integrated review"
+  },
+  "boundaries": [
+    "No payment information or address required",
+    "No automatic messages or supplier contact",
+    "No unverified price/stock/specification claims",
+    "Interest is not an allocation or purchase",
+    "Private data outside public assets and Git",
+    "Production hosting/access not configured; local review first"
+  ],
+  "merchandise_provenance": {
+    "source_checkout_head": "3e3a385077f25be9ee97dd1b505c91d5669dbd30",
+    "source_was_uncommitted": true,
+    "original_brand_decision": "records/evidence/merchandise-v5/original-brand-decision.json",
+    "original_pack": "records/evidence/merchandise-v5/manifest.json",
+    "board_sha256": "2d75e1ae05e0e2586596168a7dfcad02341ae6348195e9fb173ea7917090333e",
+    "limits": "Founder-selected name Project Odisha; visual lockup is a candidate, not outlined production art; older rejected concepts retained as references."
+  },
+  "programme_credit": 0,
+  "authorization": "ODS-DEC-2026101902",
+  "work": "ODS-WORK-2026101901",
+  "integrated_base": "84ff0cad42b31f601e35b44bfc4f2f23b86df375",
+  "tests": [
+    "31-page static build passed",
+    "10frontend/cart/catalogue regressions passed",
+    "29backend/API/privacy/viewport tests passed using temporary local servers and synthetic data"
+  ],
+  "review": {
+    "reviewer": "Drishti, separate AI agent",
+    "status": "awaiting_final_frozen_review",
+    "finding": "Same-tab reload could create duplicate interest after a lost response. Fixed with persisted random retry token and token-salted digest; raw contact details never stored in browser storage.",
+    "limits": "New tab/browser session cannot recover old sessionStorage; blocked storage only retains token for current page."
+  },
+  "launch_limits": [
+    "Private hosting/TLS and actual administrator credential not configured",
+    "No retention duration, public contact channel or backup operation selected",
+    "No real price, supply, physical sample or supplier confirmed",
+    "No payment, stock allocation, dispatch or automatic email",
+    "Descriptions, images and variant definitions maintained in reviewed source; dashboard edits price/supply/open state/timing notes",
+    "Local browser QA uses synthetic data outside Git only"
+  ],
+  "catalogue": {
+    "sea_and_stone": {
+      "products": 4,
+      "options": 13
+    },
+    "odia_poetry_jhula": {
+      "designs": 20,
+      "bag_options": 20,
+      "kit_options": 18,
+      "source_design_ids": "01–20",
+      "source_files": [
+        "projects/site/src/data/jhula/designs.ts",
+        "projects/site/src/data/jhula/additional.json",
+        "projects/site/src/pages/odia-poetry-jhula.astro"
+      ],
+      "source_head": "84ff0cad42b31f601e35b44bfc4f2f23b86df375",
+      "review": "Anvesha independently verified20designs/18kits; original initial inventory missed this separate range and was corrected after Founder reminder.",
+      "privacy": "No Firebase survey responses, contacts, comments or ratings transferred. New explicit Store interest only. Historical design ratings remain design ratings.",
+      "limits": "Proposed fabrics/craft methods,90cm exposed strap target and book selection not confirmed;19/20Pattachitra studies bag-only."
+    }
+  },
+  "browser_review": {
+    "environment": "Loopback synthetic preview, not production",
+    "desktop": 1440,
+    "mobile": 390,
+    "checks": [
+      "T-shirtMquantity2 submitted and receipt displayed without payment",
+      "Unauthenticated dashboard showed only login; synthetic login revealed request",
+      "Mark reviewed succeeded with no email",
+      "Admin unit price699.50,available0,planned25 and note saved to private test DB and displayed in customer catalogue; original source values remainnull",
+      "KabiJhula Poet’s Classic bag/kit selector and kit cart entry verified",
+      "Responsive catalogue and bag image display inspected; mobile overflow check width390scroll390",
+      "Poet’s Classic dashboard shows independent price/supply controls for bag and kit",
+      "Mobile dashboard width390scroll390; desktop product width1440scroll1440",
+      "Synthetic price/supply values restored to unknown after verification"
+    ],
+    "remaining": "Separate final frozen-head review pending",
+    "screenshots": [
+      "records/evidence/preorder-preview-2026-10-19/poets-classic-desktop.png",
+      "records/evidence/preorder-preview-2026-10-19/kabi-mobile.png",
+      "records/evidence/preorder-preview-2026-10-19/dashboard-mobile.png"
+    ]
+  },
+  "image_delivery": "Original source PNGs preserved; native lazy-loading images with CSS viewports display board details without raster editing. Entire poetry image set is44MiB; production performance review remains open."
+}
