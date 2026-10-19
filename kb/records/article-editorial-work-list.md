@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 395. completed: 29, excluded: 10, in_progress: 1, queued: 355.
+Route inventory: 395. completed: 30, excluded: 10, queued: 355.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -50,7 +50,7 @@ Route inventory: 395. completed: 29, excluded: 10, in_progress: 1, queued: 355.
 | POD-EDIT-034 | [Bhubaneswar’s Painted Streets — Project Odisha](https://projectodisha.org/stories/bhubaneswar-fresco/) | completed | Individually review photographic archive introduction, eight-photo selection and cultural connections. Preserve 166 original photographs, viewer/filter behaviour and photographer credit; distinguish camera dates, curatorial readings and unknown mural makers. Apply visible numbered sources and natural reading without flattening the gallery into a conventional article. |
 | POD-EDIT-035 | [Cuttack: places, food &amp; living culture](https://projectodisha.org/destinations/cuttack/) | completed | Review the Cuttack destination as an authored city introduction: explain how fort remains, fine-wire craft and two different museums offer different kinds of evidence. Preserve five credited documentary images and connected planning functions. Update only this region and opt it into the established editorial template. |
 | POD-EDIT-036 | [Barabati Fort](https://projectodisha.org/visit/places/barabati/) | completed | Revise Barabati Fort individually: explain what gateway, moat and palace mound establish, distinguish surviving evidence from lost architecture and uncertain chronology; provide readable authored article and visible source notes with the original photograph and useful planning links. |
-| POD-EDIT-037 | [Tarakasi · follow a silver thread](https://projectodisha.org/visit/experiences/cuttack-filigree/) | in_progress | Individual Tarakasi editorial revision: preserve process explanation and photographs; source-mapped visible footnotes, Founder byline, reading rhythm and accessible further-reading/update controls. |
+| POD-EDIT-037 | [Tarakasi · follow a silver thread](https://projectodisha.org/visit/experiences/cuttack-filigree/) | completed | Individual Tarakasi editorial revision: preserve process explanation and photographs; source-mapped visible footnotes, Founder byline, reading rhythm and accessible further-reading/update controls. |
 | POD-EDIT-038 | [Dahibara Aloodum in Cuttack](https://projectodisha.org/food/cuttack/) | queued | classification_pending |
 | POD-EDIT-039 | [Netaji Birthplace Museum](https://projectodisha.org/visit/experiences/cuttack-netaji/) | queued | classification_pending |
 | POD-EDIT-040 | [Choose a Cuttack base](https://projectodisha.org/visit/stays/cuttack/) | queued | classification_pending |

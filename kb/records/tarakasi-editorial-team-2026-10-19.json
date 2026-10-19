@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-19T04:48:39.749110+00:00",
   "article_id": "POD-EDIT-037",
   "route": "/visit/experiences/cuttack-filigree/",
-  "status": "in_progress",
+  "status": "completed",
   "input_head": "f4838c819eb0070226ab8f3d77ddcda406d1d946",
   "human_owner": "Ahimanikya Satapathy",
   "authorization": "POD-DEC-225",
@@ -154,8 +154,28 @@
     "Bundle, programme, team, rollout and research-map checks pass.",
     "Full draft566 tests and coastal244 tests pass. After clean footer integration, rebuilt coastal244 tests pass again.",
     "Incoming footer PR334 six paths preserved byte-for-byte.",
-    "App PR attachment attempted; existing100-attachment limit reached."
+    "App PR attachment attempted; existing100-attachment limit reached.",
+    "Final concurrent heritage-walks integration:408 full routes,395 coastal routes,245 coastal tests pass; publication still11 indexable routes.",
+    "CI39202428911 passes on exact final reviewed head; final merge tree equals reviewed head.",
+    "Separate merge review confirms incoming directory exclusion and all non-overlapping files preserved; only queue timestamp and our active Tarakasi entry differ."
   ],
   "integrated_head": "a4a5e88840b76add59937f939ab6ac8f9f41e92d",
-  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/336"
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/336",
+  "final_reviewed_head": "d821f5e240555ed56b9cae9bc69579fdbbac25bb",
+  "final_review": {
+    "role": "Drishti",
+    "runtime": "/root/drishti",
+    "result": "pass_with_limitations",
+    "review_heads": [
+      "a4a5e88840b76add59937f939ab6ac8f9f41e92d",
+      "de376cea931d33956bd38c13d2d04ef7f457ceb5",
+      "d821f5e240555ed56b9cae9bc69579fdbbac25bb"
+    ],
+    "scope": "Separate AI article/source review, review-record-only check, and final merge preservation. Not human review."
+  },
+  "merge_commit": "2b97fa32d4ec3bd98c56566771d0af7e02b232b0",
+  "validation": "https://github.com/ahimanikya/project-odisha/actions/runs/39202428911",
+  "article_complete": true,
+  "publication_receipt": "records/tarakasi-editorial-publication-2026-10-19.json",
+  "receipt_integration_gate": "Retain coordinator ownership until this receipt change is merged to main; no next article claim before that."
 }
