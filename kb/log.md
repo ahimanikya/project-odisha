@@ -727,3 +727,7 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 2026-10-19 — Pala and reader-navigation rules
 
 Enhanced [Pala](research/culture/pala.md) from its retained source dossier: literary training, answering performers, performance objects and named repertoire. Applied the article reading standard with Founder byline and visible footnotes, preserving the credited photograph. Recorded the Founder’s additional direction to keep reading paths collapsed and Suggest an update visible in the [editorial standard](reference/article-editorial-standard.md). No fresh fieldwork, independent specialist review or new programme completion claimed. Publication remains pending a verified delivery receipt.
+
+## 2026-10-19 — Pala publication verified
+
+[PR 318](https://github.com/ahimanikya/project-odisha/pull/318) passed repository checks and merged. The existing main-branch workflow published revision `792ba296023f4d7e6471a43e53b5b2d4dcb95382`; the live Pala page matched all 26 paragraphs, three listening prompts and seven sources. Verified visible footnotes with return targets, collapsed reading paths and the visible update action. [Delivery receipt](records/pala-editorial-publication-2026-10-19.json). UTP-EDIT-144 is complete; no substantive programme increment.
