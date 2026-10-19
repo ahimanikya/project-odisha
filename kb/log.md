@@ -735,3 +735,5 @@ Enhanced [Pala](research/culture/pala.md) from its retained source dossier: lite
 ## 19 October 2026 — Pala history, preservation and visitor revision
 
 Deep audit and article revision connect literary/devotional evidence, pedagogy and ensemble practice with a practitioner-led preservation argument and practical visitor guidance. Current events, fees, access and English interpretation stay unconfirmed. Four existing source IDs reconciled into the bibliographic catalogue; historic overview and source mapping retained. Local checks pass; required CI and live publication verification remain separate. No programme count change.
+
+- 19 October 2026: Corrected the Pala visitor guide: CTMS exposes district/keyword search and lists art categories; an art-category filter is not currently exposed. No change to registration/availability limits.

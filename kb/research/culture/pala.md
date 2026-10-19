@@ -107,7 +107,7 @@ Preservation should leave room for artists to change their practice. UNESCO’s 
 
 Start with a dated programme that explicitly names Pala or Palla. The 2012 Rabindra Mandap festival in Bhubaneswar and the 2025 Kendujhar Sammilan are historical examples of public presentation. They do not establish the next edition, a weekly show or admission on your travel dates. No forthcoming public performance is confirmed in the sources checked for this guide on 19 October 2026.[^pala-culture-report2012][^pala-cm-sammilan2025]
 
-For enquiries, the Odisha Culture Department’s CTMS register offers district and art-category filters. Its Music/Pala entries include troupes in Cuttack, Bhadrak and Kendujhar. Treat a listing as an introduction to ask about an actual programme, not as a recommendation, an open rehearsal or a confirmed booking. Check the category: a Pala-sounding troupe name alone is insufficient.[^pala-ctms20261019]
+For enquiries, the Odisha Culture Department’s CTMS register lets you search for troupes by district and lists their art categories. Its Music/Pala entries include troupes in Cuttack, Bhadrak and Kendujhar. Treat a listing as an introduction to ask about an actual programme, not as a recommendation, an open rehearsal or a confirmed booking. Check the category: a Pala-sounding troupe name alone is insufficient.[^pala-ctms20261019]
 
 If staying in Bhubaneswar or Cuttack, ask your host or guide to find an organiser’s current notice and confirm it directly before you travel. Ask whether visitors are welcome and whether the occasion is a public festival, a commissioned presentation or a private observance. A household or devotional gathering needs an invitation; its cultural interest does not make it a tourist attraction.
 
