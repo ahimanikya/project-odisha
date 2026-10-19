@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `0dfc204bbd126e2c979d848941626e65bc3ce91bbd8da6091351ec99a80b7631`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `9eb8d95e681aac13f0aa89c4b726f3ad48c378e529e47aae7e066710ce220ee2`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -939,6 +939,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-297 | pass_with_limitations | False | Same-assistant review, not independent human or specialist review.; No artist, workshop, ritual purpose, exact street or present condition confirmed.; Original recollections and 2009 dates preserved; later cultural sources are context, not commission evidence.; Zero substantive500 increment.; Browser emulation, not physical-device or screen-reader testing.; Visual reinspection covers eight featured photographs; remaining original archive views retained, not newly identified. |
 | UTP-REV-298 | pass_with_limitations | False | Same-assistant editorial review; no independent human or specialist review.; No maker, venue, vendor or step-free route contacted or inspected.; No ancient ship construction inferred from Jobra industrial exhibits.; District and museum current direct retrieval failed; reused dated evidence and indexed institution text explicitly recorded.; No search eligibility change; no substantive500 increment.; Responsive browser emulation, not physical-device or screen-reader testing. |
 | UTP-REV-299 | pass_with_limitations | True | No human review, field confirmation or physical print test.; Inspected saved screenshots; deployment/live check pending coordinator. |
+| UTP-REV-300 | pass_with_limitations | True | Separate AI review, no human/archaeologist review.; Saved screenshots inspected, no new interactive, physical-device, print or live checks.; Full565/coast240 tests are Samanta execution evidence.; District source relies on recorded indexed evidence. |
 
 ## Publication and application history
 

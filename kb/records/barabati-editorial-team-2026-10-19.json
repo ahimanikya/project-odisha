@@ -111,17 +111,31 @@
     {
       "role": "Drishti",
       "runtime": "/root/drishti",
-      "status": "preliminary_source_review_received",
+      "status": "handoff_received",
       "reserved_write_paths": [],
       "task": "Separate review of integrated candidate after evidence and implementation",
       "preliminary_review": {
         "input_head": "1fd755e88d55e91ecc1c5a4dfc73f297732e1d61",
         "scope": "Uncommitted source/copy only; not final implementation review.",
         "finding": "No blocking factual/narrative issue. Visually inspected report p27 para4.22 and original gateway photograph; all six categories match and height/chronology limits retained."
-      }
+      },
+      "input_head": "64b9d5eb9eedbc6703f5e7814cb4375141860660",
+      "reviewed_head": "64b9d5eb9eedbc6703f5e7814cb4375141860660",
+      "result": "pass_with_limitations",
+      "findings": [
+        "No blockers in exact diff, sole-Barabati record changes, claim/source mapping, article/export behavior or six desktop/mobile screenshots.",
+        "Independently ran3 focused article/export tests, team/rollout checkers and whitespace check; all pass."
+      ],
+      "limitations": [
+        "Separate AI review, no human/archaeologist review.",
+        "Saved screenshots inspected, no new interactive, physical-device, print or live checks.",
+        "Full565/coast240 tests are Samanta execution evidence.",
+        "District source relies on recorded indexed evidence."
+      ],
+      "invocation_note": "Initial focused test invocation from repository root failed missing dist; rerun from site cwd passed3 tests. No implementation failure."
     }
   ],
-  "next_action": "Commit integrated candidate for separate exact-head Drishti review, then required CI and approved publication.",
+  "next_action": "Final records delta review and required checks, then merge reviewed head and approved publication.",
   "pull_request": "https://github.com/ahimanikya/project-odisha/pull/324",
   "image_review": {
     "reviewer": "Disha, AI coordinator",
