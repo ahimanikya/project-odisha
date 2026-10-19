@@ -7,7 +7,7 @@ title: "Low-budget commerce and marketplace launch v0.1"
 
 28 September 2026 · Recommendation for Founder review. Research and planning only; no account creation, payments, supplier contact, listings or deployment performed.
 
-Founder request: “We need to see how we enable e-commerce with very low budget and start selling these in amazon and other places too”. India-first is the planning assumption because fulfilment is intended through Bangalore vendors. Initial cash budget, legal seller/GST status, pickup address and dispatch operator are unanswered inputs. Do not infer a legal entity from the Utkal Collective project name.
+Founder request: “We need to see how we enable e-commerce with very low budget and start selling these in amazon and other places too”. India-first is the planning assumption because fulfilment is intended through Bangalore vendors. Initial cash budget, legal seller/GST status, pickup address and dispatch operator are unanswered inputs. Do not infer a legal entity from the Odisha Collective project name.
 
 ## Recommendation
 

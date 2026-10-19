@@ -46,7 +46,7 @@ These are proposed output targets, not work already supplied by either community
 
 The Odisha contribution should leave useful material for Konark readers and give any participating interpreter a credited, reusable explanation. The Mamallapuram contribution should offer the same benefit to its participants. Both sides should review how their knowledge and names appear, receive usable copies and be free to decline promotion or quotation.
 
-A future local-enterprise discussion could ask how better interpretation supports meaningful visits. It should follow actual participant interest and evidence. The first learning activity should carry no referral commission, preferred vendor placement or promised bookings. Utkal Collective's commercial interests remain separate from UTP's editorial decisions.
+A future local-enterprise discussion could ask how better interpretation supports meaningful visits. It should follow actual participant interest and evidence. The first learning activity should carry no referral commission, preferred vendor placement or promised bookings. Odisha Collective's commercial interests remain separate from UTP's editorial decisions.
 
 Odia and Tamil versions would need willing, competent language reviewers. An English working text can help coordinate the exchange, but it must not be presented as a substitute for local-language review. Translation time belongs in the resource estimate.
 

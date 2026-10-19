@@ -111,7 +111,7 @@ Report material progress, blockers and required decisions here during active wor
 
 The approved heritage notes remain: Disha—shared purpose; Anvesha—evidence and preservation; Samanta—resourceful invention and measurement; Drishti—critical observation. These are creative influences, not historical impersonation or credentials.
 
-Future human Editors, invited reviewers and interns remain deferred roles. They will receive their own JDs, human reporting relationships and JML decisions when needed. The roster is UTP-specific; it does not automatically staff UTB, UTC or UTU.
+Future human Editors, invited reviewers and interns remain deferred roles. They will receive their own JDs, human reporting relationships and JML decisions when needed. The roster is UTP-specific; it does not automatically staff ODB, ODC or ODU.
 
 **Review decision: pending.** The requested review covers the shared standard, this initial UTP role grouping and these eight JD descriptions. Actual AI assignment activation and access will be addressed in the following JML review.
 
@@ -119,4 +119,4 @@ Future human Editors, invited reviewers and interns remain deferred roles. They 
 This publication candidate proposes **Anvesha Acharya** and **Drishti Senapati** for final selection alongside the eight JD profiles above. Disha Dash and Samanta Chandrasekhar are already approved names. No role is active merely because this file exists.
 
 
-Status update: the Founder approved this document as part of batch UTB-DEC-005. Earlier candidate/review notices describe its review history; actual application, adoption and activation are recorded separately.
+Status update: the Founder approved this document as part of batch ODB-DEC-005. Earlier candidate/review notices describe its review history; actual application, adoption and activation are recorded separately.

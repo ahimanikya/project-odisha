@@ -5,7 +5,7 @@ title: "The Utkal T-shirt sample sheet v3"
 
 # The Utkal T-shirt sample sheet v3
 
-UTS-TS-001 · Proposed for review, not an order.
+ODS-TS-001 · Proposed for review, not an order.
 
 Base: Black - confirmed by Founder
 

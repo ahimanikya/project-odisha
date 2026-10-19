@@ -50,7 +50,7 @@ Three hypotheses merit investigation: unclear permission paths may make small-gr
 
 **Build capability around a real delivery gap.** If evidence identifies a need, prepare a small support module such as explaining a craft to visitors, writing a clear offer or responding to an enquiry. The host should help choose the goal and assess whether the support helped. An attendance count is not proof of increased income or business capability.
 
-**Keep commercial and editorial decisions separate.** Project Odisha owns its cultural research and corrections. A future Utkal Collective service would need its own authorization and disclosed commercial terms; it remains held. Boita's volunteer recommendations should disclose relevant interests. Paying for membership, a trial or training must not buy favourable encyclopedia coverage, certification or government access.
+**Keep commercial and editorial decisions separate.** Project Odisha owns its cultural research and corrections. A future Odisha Collective service would need its own authorization and disclosed commercial terms; it remains held. Boita's volunteer recommendations should disclose relevant interests. Paying for membership, a trial or training must not buy favourable encyclopedia coverage, certification or government access.
 
 ## 4 A barrier record and a learning plan
 

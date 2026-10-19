@@ -5,7 +5,7 @@ title: "The Story Cup sample sheet v3"
 
 # The Story Cup sample sheet v3
 
-UTS-CP-001 · Proposed for review, not an order.
+ODS-CP-001 · Proposed for review, not an order.
 
 Base: Ivory body; sea-blue handle/interior - proposed
 

@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `86eda8717ff68bcc7d2034386cb269f3720cc56083ec2360c5e3d9d3a2a8b2a0`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `1b3eb78e06ade72f7dc6ddc939e8332636ea26f77d7b9775b6250067a5c5015b`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -18,7 +18,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-003 · Apply registers, activity ledger and generated dashboard | completed | applied | Ahimanikya Satapathy | Maintain current records and regenerate views. Historical binary assets are now included on main. | — |
 | POD-WORK-004 · Link the OKF reading index from the Git README | completed | applied | Ahimanikya Satapathy | Maintain the bundled KB and navigation. Site implementation continues under POD-WORK-005. | — |
 | POD-WORK-005 · Website foundation and reviewable brand studio | awaiting_review | reviewed | Ahimanikya Satapathy | Founder review of the website and brand choices; then finalize selected assets and prepare the next editorial/launch increment. | — |
-| POD-WORK-006 · Prepare Utkal Store under Utkal Collective | awaiting_review | reviewed | Ahimanikya Satapathy | Review the graphical Story Cup and four v3 sample sheets before supplier template and physical sample requests. | — |
+| POD-WORK-006 · Prepare Odisha Store under Odisha Collective | awaiting_review | reviewed | Ahimanikya Satapathy | Review the graphical Story Cup and four v3 sample sheets before supplier template and physical sample requests. | — |
 | POD-WORK-007 · Integrate Bhubaneswar Fresco archive | awaiting_review | reviewed | Ahimanikya Satapathy | Review current access, permissions, transport, kitchen or stay arrangements using dated local evidence. Published delivery is already recorded; this is an evidence follow-up, not a request to republish the same pages. The Fresco photographic essay remains a separate held scope. | — |
 | POD-WORK-008 · Mobile and keyboard accessibility refinements | completed | reviewed | Ahimanikya Satapathy | Published after Founder approval. Physical-device, Safari, screen-reader and native Odia proofreading remain follow-up, as recorded in the review limitations. | — |
 | POD-WORK-009 · First collection source check and editorial candidate | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews the six bounded drafts and source-access limits. Release and indexing require a subsequent explicit decision. | — |
@@ -326,6 +326,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026101901 · Activate separate editorial agents and durable handoffs | completed | applied | Ahimanikya Satapathy | Use saved team loop for subsequent article work; recreate task-scoped workers when needed. | — |
 | POD-WORK-2026101801 · Coherent Jhula story and collection overview | completed | published | Ahimanikya Satapathy | Review the refined live page. | — |
 | POD-WORK-2026101902 · Migrate Project Odisha identifiers to POD with traceable UTP aliases | completed | applied | Ahimanikya Satapathy | Use canonical POD IDs and exact historical aliases; migration integrated. | — |
+| POD-WORK-2026101903 · Reconcile and migrate the Odisha project family | in_progress | draft | Ahimanikya Satapathy | Review, validate and integrate the family migration across current project bundles and planning records. | — |
 
 ## Pending human review and decisions
 
@@ -395,7 +396,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-008 · Apply reviewed repository repair and basic starter | approved | Ahimanikya Satapathy | Merge reviewed repository repair and basic source/assets/tests skeleton. Excludes website deployment, new appointments and implementation of future features. |
 | POD-DEC-009 · Build the website foundation and prepare brand choices | recorded_direction | Ahimanikya Satapathy | Prepare website implementation and brand review candidate. Preserve approved identity and existing knowledge; no final logo acceptance, public deployment or new persona activation inferred. |
 | POD-DEC-010 · Sea headings, stone highlights and separate scripts | recorded_direction | Ahimanikya Satapathy | Apply website colour roles and separate English/Odia marks; final production assets remain reviewable. |
-| POD-DEC-011 · Utkal Store belongs to Utkal Collective | recorded_direction | Ahimanikya Satapathy | Create a separately governed store starter in shared code repository, with independent KB; no commercial launch. |
+| POD-DEC-011 · Odisha Store belongs to Odisha Collective | recorded_direction | Ahimanikya Satapathy | Create a separately governed store starter in shared code repository, with independent KB; no commercial launch. |
 | POD-DEC-012 · Public website leads with mission and Founder | recorded_direction | Ahimanikya Satapathy | Simplify public About and add Founder page; preserve internal operating records and concise editorial assistance disclosure. |
 | POD-DEC-013 · Integrate the existing Bhubaneswar photo page | recorded_direction | Ahimanikya Satapathy | Integrate Browse_Photos.html collection, story and credited art images; source archive remains unchanged. |
 | POD-DEC-014 · Four Utkal-branded products; only the T-shirt black | recorded_direction | Ahimanikya Satapathy | Range: T-shirt, jhula bag, coffee cup and water bottle; other colours are proposals. |
@@ -630,6 +631,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-2026101901 · Activate the UTP editorial team as separate collaborating agents | approved | Ahimanikya Satapathy | Activate these four existing UTP personas for the already authorized article rollout and substantive programme; one article at a time, separate specialist executions, one coordinator writes shared records and publishes under existing authorization. No new account access, outreach, spending, human appointments or held-project activation. |
 | POD-DEC-2026101801 · Refine the accumulated Jhula webpage | approved | Ahimanikya Satapathy | Refine and publish coherent webpage wording and navigation while preserving all20 designs and voting. |
 | POD-DEC-2026101902 · Align current project code with Project Odisha | recorded_direction | Ahimanikya Satapathy | Change the current project code and migrate existing IDs, as requested by the Founder. POD is the coordinator-selected abbreviation; preserve suffixes, original evidence and exact old-to-new lookup aliases. No other project, permission or website domain changes. |
+| POD-DEC-2026101903 · Apply Odisha project-family names and codes | recorded_direction | Ahimanikya Satapathy | Apply Odisha Blueprint/ODB, Odisha Collective/ODC, Odisha Unbound/ODU and Odisha Store/ODS consistently, migrating IDs with exact aliases and preserved original evidence. No launch, access, membership, spending or adoption changes. |
 
 ## Reviews
 
@@ -948,7 +950,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | ID / event | Status | Destination | Authorization |
 |---|---|---|---|
-| POD-REL-001 · Initial approved documentation applied to private repository | applied | https://github.com/ahimanikya/utkal-project/commit/23dbf7ae52ba6aee7f2be909170ef9a9eaec1f3d | UTB-DEC-005 |
+| POD-REL-001 · Initial approved documentation applied to private repository | applied | https://github.com/ahimanikya/utkal-project/commit/23dbf7ae52ba6aee7f2be909170ef9a9eaec1f3d | ODB-DEC-005 |
 | POD-REL-002 · Register extension 1.0.0 applied to private repository | applied | https://github.com/ahimanikya/utkal-project/tree/main/registers | POD-DEC-002 |
 | POD-REL-003 · Repository repair and basic starter applied | applied | https://github.com/ahimanikya/utkal-project/tree/main | POD-DEC-008 |
 | POD-REL-004 · First public Utkal Project website preview | published | https://utkalproject.org/ | POD-DEC-023 |
@@ -1149,7 +1151,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | ID / title | State | References |
 |---|---|---|
 | POD-REG-002 · Project Odisha | active | POD-DEC-002 |
-| POD-REQ-001 · First encyclopedia entry and local preview brief | approved | UTB-DEC-005 |
+| POD-REQ-001 · First encyclopedia entry and local preview brief | approved | ODB-DEC-005 |
 | POD-REQ-002 · Website and brand foundation brief | draft_from_founder_direction | POD-DEC-009 |
 
 ## Canonical record homes
@@ -1166,7 +1168,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026101907 | 2026-10-19T03:19:05.925344+00:00 | Activated actual separate UTP team and delivered Cuttack through reviewed PR319 and approved main workflow. Live12 reference returns,5 source notes, credited original images and responsive behavior verified;28 editorial entries complete, zero substantive500 increment. | — |
 | POD-EVT-2026101908 | 2026-10-19T03:54:24.271244+00:00 | Collaborating team delivered Barabati through separately reviewed PR324 and approved main workflow. Live4 exact reference returns,2 source notes, original credited photograph and responsive reading verified;29 editorial entries complete, zero substantive500 increment. | — |
 | POD-EVT-20261018102 | 2026-10-18T01:22:37.475240+00:00 | Published and verified coherent Jhula story, accurate kit scope and three collection groups;all20 design choices preserved. | — |
 | POD-EVT-20261019101 | 2026-10-19T04:23:34.609332+00:00 | Added the founder-requested Odia Poetry Jhula link to the shared site footer; publication pending. | — |
@@ -1176,6 +1177,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261019103 | 2026-10-19T04:39:48.073290+00:00 | Organized shared footer into balanced navigation groups and removed the detached decorative strip at the founder’s request. | — |
 | POD-EVT-20261019104 | 2026-10-19T05:11:09.625326+00:00 | Published and live-verified the Tarakasi editorial revision with Founder byline, visible source notes, clearer soldering explanation and retained documentary media. Separate AI review; zero substantive-programme credit. | — |
 | POD-EVT-20261019105 | 2026-10-19T06:02:52.485366+00:00 | Published and live-verified the Cuttack food editorial revision with Founder byline, visible factual footnote, restrained photo attribution and mobile-readable layout. Full Dahibara story and portable reading retained. Separate AI review; zero substantive-programme credit. | — |
+| POD-EVT-20261019106 | 2026-10-19T06:19:14.278319+00:00 | Applied current Odisha family name/code with exact old-ID aliases and preserved original evidence. Pending separate review and integration; no new release or activation. | — |
 
 ## Deferred extensions
 

@@ -1158,3 +1158,7 @@ The Founder requested a three-letter code matching Project Odisha. POD is adopte
 ## POD-HIS-WALKS-DESIGN-20261019 · Heritage guide joins the site design
 
 The Founder requested removal of the site-within-site appearance. The guide now uses the shared page width, typography, colours, buttons and cards, with a simple Things to do breadcrumb. The finder follows a shorter introduction; downloads sit below planning. Catalogue and interaction script remain unchanged. Separate AI source review and browser checks are recorded; publication remains pending in the [delivery record](../records/heritage-walks-design-integration-20261019.json). No substantive programme credit.
+
+## POD-HIS-FAMILY-20261019 · Odisha project family
+
+Founder authorized the family migration and selected Odisha Store (ODS). Current names/codes become Odisha Blueprint (ODB), Odisha Collective (ODC), Odisha Unbound (ODU) and Odisha Store (ODS). Original quotes, captured/adopted evidence, inactive roles and held status are preserved. [Migration record](../records/project-family-migration-2026-10-19.json). Subsequent no-payment Store pre-order and catalogue development is a distinct instruction, not an effect of renaming.

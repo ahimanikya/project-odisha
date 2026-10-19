@@ -23,7 +23,7 @@ Ahimanikya Satapathy is the Founder & Editor-in-Chief, the only initial human an
 
 ## Relationships and independence
 
-Project Odisha (POD) is the master coordination project and has its own knowledge mission. Utkal Collective and Utkal Unbound have independent lifecycles; precise legal structures are not established here. BAC and BAL remain deferred. Blueprint stewardship and encyclopedia delivery are distinct workstreams.
+Project Odisha (POD) is the master coordination project and has its own knowledge mission. Odisha Collective and Odisha Unbound have independent lifecycles; precise legal structures are not established here. BAC and BAL remain deferred. Blueprint stewardship and encyclopedia delivery are distinct workstreams.
 
 Editorial judgment is independent of commercial membership, payment or property ownership. Disclose relevant interests. Association with another organization does not confer authority over its people or resources.
 
@@ -34,4 +34,4 @@ Adopt the shared operating model through the version-specific adoption record. K
 Charter candidate only: final adoption and applied repository evidence remain pending.
 
 
-Status update: the Founder approved this document as part of batch UTB-DEC-005. Earlier candidate/review notices describe its review history; actual application, adoption and activation are recorded separately.
+Status update: the Founder approved this document as part of batch ODB-DEC-005. Earlier candidate/review notices describe its review history; actual application, adoption and activation are recorded separately.

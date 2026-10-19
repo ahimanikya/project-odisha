@@ -5,7 +5,7 @@ title: "The Utkal Water Bottle sample sheet v2"
 
 # The Utkal Water Bottle sample sheet v2
 
-**UTS-WB-001 · v2 · Founder review candidate**
+**ODS-WB-001 · v2 · Founder review candidate**
 
 Base: Matte sea blue - proposed.
 

@@ -7,14 +7,14 @@
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
-    "UTB-DEC-005": {
+    "ODB-DEC-005": {
       "location": "records/batch-approval.json",
       "description": "Approved initial baseline; earlier status retained in historical record",
       "kind": "decision",
       "actor_kind": "human",
       "status": "approved"
     },
-    "UTB-DEC-006": {
+    "ODB-DEC-006": {
       "location": "https://github.com/ahimanikya/utkal-blueprint/blob/main/registers/records.json",
       "description": "Shared model approval, same human instruction; UTP adoption is explicit and separately recorded",
       "kind": "decision",
@@ -50,7 +50,7 @@
         "name": "One assistant, four approved role passes",
         "kind": "ai_assistant"
       },
-      "authorization": "UTB-DEC-005",
+      "authorization": "ODB-DEC-005",
       "next_action": "Founder review of the entry and design; resolve source limitations before publication.",
       "blockers": [
         "No public reuse licence selected",
@@ -175,7 +175,7 @@
     },
     {
       "id": "POD-WORK-006",
-      "title": "Prepare Utkal Store under Utkal Collective",
+      "title": "Prepare Odisha Store under Odisha Collective",
       "category": "website",
       "status": "awaiting_review",
       "readiness": "reviewed",
@@ -8829,6 +8829,23 @@
         "records/project-code-pod-2026-10-19.json",
         "records/project-id-migration-integrated-2026-10-19.json"
       ]
+    },
+    {
+      "id": "POD-WORK-2026101903",
+      "title": "Reconcile and migrate the Odisha project family",
+      "category": "governance_and_tooling",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "POD-DEC-2026101903",
+      "next_action": "Review, validate and integrate the family migration across current project bundles and planning records.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-2026101903"
+      ],
+      "evidence": [
+        "records/project-family-migration-2026-10-19.json"
+      ]
     }
   ],
   "decisions": [
@@ -8989,7 +9006,7 @@
     },
     {
       "id": "POD-DEC-011",
-      "title": "Utkal Store belongs to Utkal Collective",
+      "title": "Odisha Store belongs to Odisha Collective",
       "status": "recorded_direction",
       "actor": {
         "name": "Ahimanikya Satapathy",
@@ -13710,6 +13727,22 @@
       ],
       "refs": [],
       "follow_up_quote": "Can we migrate old ID to new?"
+    },
+    {
+      "id": "POD-DEC-2026101903",
+      "title": "Apply Odisha project-family names and codes",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "OK, then let's apply that too",
+      "follow_up_quote": "Odisha Store (ODS)",
+      "scope": "Apply Odisha Blueprint/ODB, Odisha Collective/ODC, Odisha Unbound/ODU and Odisha Store/ODS consistently, migrating IDs with exact aliases and preserved original evidence. No launch, access, membership, spending or adoption changes.",
+      "evidence": [
+        "records/project-family-migration-2026-10-19.json"
+      ],
+      "refs": []
     }
   ],
   "requirements": [
@@ -13718,7 +13751,7 @@
       "title": "First encyclopedia entry and local preview brief",
       "status": "approved",
       "refs": [
-        "UTB-DEC-005"
+        "ODB-DEC-005"
       ],
       "evidence": [
         "specs/first-task.md"
@@ -20881,10 +20914,10 @@
       "id": "POD-REL-001",
       "title": "Initial approved documentation applied to private repository",
       "status": "applied",
-      "authorization": "UTB-DEC-005",
+      "authorization": "ODB-DEC-005",
       "destination": "https://github.com/ahimanikya/utkal-project/commit/23dbf7ae52ba6aee7f2be909170ef9a9eaec1f3d",
       "refs": [
-        "UTB-DEC-005"
+        "ODB-DEC-005"
       ],
       "evidence": [
         "records/application-result.json"

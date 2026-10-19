@@ -21,7 +21,7 @@ title: "Project Odisha working arrangements and reporting"
 These local arrangements implement the shared Blueprint; they do not waive its human-authority rules. The initial practice task has no external messages, purchases, billing setup, deployment or public content publication within scope.
 
 
-Status update: the Founder approved this document as part of batch UTB-DEC-005. Earlier candidate/review notices describe its review history; actual application, adoption and activation are recorded separately.
+Status update: the Founder approved this document as part of batch ODB-DEC-005. Earlier candidate/review notices describe its review history; actual application, adoption and activation are recorded separately.
 
 ## Current execution — 19 October 2026
 

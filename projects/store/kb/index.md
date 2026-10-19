@@ -2,9 +2,9 @@
 okf_version: "0.2"
 ---
 
-# Utkal Store · project knowledge
+# Odisha Store · project knowledge
 
-A commercial sub-project of **Utkal Collective**. UTS is a proposed working prefix. This project has its own definition, runtime configuration, source, records and lifecycle inside the shared repository. Repository location is not reporting hierarchy.
+A commercial sub-project of **Odisha Collective**. ODS is the current Founder-confirmed project code. This project has its own definition, runtime configuration, source, records and lifecycle inside the shared repository. Repository location is not reporting hierarchy.
 
 - [Project profile](reference/project-profile.md)
 - [Charter](TEAM-CHARTER.md)

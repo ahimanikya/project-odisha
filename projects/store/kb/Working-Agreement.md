@@ -1,11 +1,11 @@
 ---
 type: Project record
-title: "Utkal Store working agreement"
+title: "Odisha Store working agreement"
 ---
 
-# Utkal Store working agreement
+# Odisha Store working agreement
 
-**Draft local agreement · follows Utkal Blueprint structure**
+**Draft local agreement · follows Odisha Blueprint structure**
 
 The Founder's Utkal conversation is the decision home. Human authority stays with Ahimanikya Satapathy. AI assists within the assigned task; humans never report to AI. Current assistance is the implementing assistant, not four automatically appointed personas.
 

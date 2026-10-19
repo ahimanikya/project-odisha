@@ -7,7 +7,7 @@ status: "founder_endorsed_direction"
 
 # Culture-first Odisha travel planning
 
-**Direction endorsed by Ahimanikya Satapathy. Recorded 29 September 2026 UTC.**
+**Direction endorsed by Ahimanikya Satapathy. Recorded 29 September 2026 ODC.**
 
 The Founder responded **“I liked your recommendation”** to the proposed combined travel model and pilot sequence. This records endorsement of the direction below. It does not mark the detailed information dictionary, every PRD acceptance criterion or the current draft website as approved for publication.
 
@@ -30,7 +30,7 @@ Help people **understand a place, choose meaningful experiences and turn those c
 - **Visitor information:** access, opening times, costs, facilities, hosts and availability; checked dates and explicit scope matter because details change.
 - **Personal plans:** the visitor's saved choices, ordering and notes. These do not belong in the public Git knowledge base.
 
-Editorial recommendations remain independent of Utkal Collective's commercial relationships. A saved plan is not a booking. Proposed contributions do not become facts automatically.
+Editorial recommendations remain independent of Odisha Collective's commercial relationships. A saved plan is not a booking. Proposed contributions do not become facts automatically.
 
 ## Delivery sequence
 

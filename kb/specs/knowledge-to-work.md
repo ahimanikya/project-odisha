@@ -34,7 +34,7 @@ The following are proposed delivery streams, not additional active assignments. 
 
 Preserved requirements include contribution through the site and approved Git contributors, analytics, a conversational knowledge assistant, and relationships with cultural and educational bodies. Their existence in the KB does not mean these facilities are implemented. Earlier deferrals and cost decisions remain in the PRD and decision records; AI chat and private backups must not be activated merely because they appear in this programme.
 
-Utkal Collective and Utkal Unbound retain independent charters and lifecycles. Hospitality, farm properties and associated commercial offerings belong to their own scoped work. BAL and BAC remain for later. This programme does not create work or commitments on their behalf.
+Odisha Collective and Odisha Unbound retain independent charters and lifecycles. Hospitality, farm properties and associated commercial offerings belong to their own scoped work. BAL and BAC remain for later. This programme does not create work or commitments on their behalf.
 
 ## How a stream becomes a commitment
 

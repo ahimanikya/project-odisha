@@ -1,0 +1,45 @@
+{
+  "recorded_at": "2026-10-19T06:19:14.278319+00:00",
+  "result": "pass_with_limitations",
+  "aliases": 116,
+  "preservation_checks": [
+    {
+      "manifest": "kb/history/evidence/family-identity-2026-10-19/planning/manifest.json",
+      "verified_files": 40
+    },
+    {
+      "manifest": "kb/history/evidence/family-identity-2026-10-19/main/manifest.json",
+      "verified_files": 45
+    },
+    {
+      "manifest": "../utkal-blueprint/kb/history/evidence/family-identity-2026-10-19/blueprint/manifest.json",
+      "verified_files": 28
+    },
+    {
+      "manifest": "projects/store/kb/history/evidence/family-identity-2026-10-19/manifest.json",
+      "verified_files": 27
+    }
+  ],
+  "unchanged": [
+    "utkal-fieldwork-pack: all pre-existing statuses, readiness, quote and authority fields retained",
+    "utkal-blueprint: all pre-existing statuses, readiness, quote and authority fields retained",
+    "store: all pre-existing statuses, readiness, quote and authority fields retained",
+    "Blueprint empty instance seed unchanged",
+    "POD legacy map and substantive programme bytes unchanged",
+    "Existing Store product artwork/data unchanged"
+  ],
+  "limits": [
+    "51 Blueprint aliases include document/template references from current family planning; not51canonicalrecords.",
+    "Original captured approvals retain oldIDs and remain resolvable aliases.",
+    "Planning changes are local files outside Git; current copies are captured with the migration for portability.",
+    "Names and IDs only; later Store preorder instruction is separate implementation work."
+  ],
+  "review_correction": {
+    "finding": "Separate review found additional_quote transformed in Store founder evidence.",
+    "resolution": "Restored every changed JSON field whose key contains quote across both candidates.",
+    "restored_fields": [
+      "projects/store/kb/registers/records.json/decisions/0/additional_quote"
+    ],
+    "note": "Initial audit covered only explicit quote/quotes keys; expanded comparison catches additional_quote and all quote-suffixed fields."
+  }
+}

@@ -7,7 +7,7 @@ title: "Sea and Stone — vendor sample brief v1"
 
 **Prepared for Founder review. Not sent to a vendor; not an order or production approval.**
 
-Project: Utkal Store, under Utkal Collective. Creative direction and final decision: Ahimanikya Satapathy. Design development: AI-assisted, including built-in image generation. Initial sourcing is planned through Bangalore vendors; no supplier is appointed.
+Project: Odisha Store, under Odisha Collective. Creative direction and final decision: Ahimanikya Satapathy. Design development: AI-assisted, including built-in image generation. Initial sourcing is planned through Bangalore vendors; no supplier is appointed.
 
 ## Design intent and fixed choices
 
