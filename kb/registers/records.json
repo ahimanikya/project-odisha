@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "POD",
   "name": "Project Odisha",
-  "recorded_at": "2026-10-19T08:22:32.787863+00:00",
+  "recorded_at": "2026-10-19T17:35:39.880293+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -8647,7 +8647,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "POD-DEC-2026101702",
-      "next_action": "Continue next eligible queued article after verifying receipt integration and reconciling team ownership;33 editorial entries complete.",
+      "next_action": "Continue next eligible queued article after verifying receipt integration and reconciling team ownership;34 editorial entries complete.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026101702",
@@ -8710,7 +8710,9 @@
         "POD-REL-169",
         "POD-REL-170",
         "POD-REV-2026101902",
-        "POD-REL-2026101902"
+        "POD-REL-2026101902",
+        "POD-REV-2026101903",
+        "POD-REL-2026101903"
       ],
       "evidence": [
         "reference/article-editorial-standard.md",
@@ -8747,7 +8749,8 @@
         "records/fresco-editorial-publication-2026-10-19.json",
         "records/cuttack-editorial-publication-2026-10-19.json",
         "records/barabati-editorial-publication-2026-10-19.json",
-        "records/cuttack-stay-editorial-publication-2026-10-19.json"
+        "records/cuttack-stay-editorial-publication-2026-10-19.json",
+        "records/languages-editorial-publication-2026-10-19.json"
       ],
       "acceptance_criteria": [
         "Every published baseline route classified; each article independently reviewed against approved standard with PR/test/deploy/live receipt; exclusions justified; future articles follow same rule."
@@ -20956,6 +20959,31 @@
       "limitations": [
         "Separate AI review, not human or field verification. Responsive browser interactions and full builds performed by coordinator; no reviewer live-publication verification."
       ]
+    },
+    {
+      "id": "POD-REV-2026101903",
+      "title": "Separate Languages hub editorial and source review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent /root/drishti"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human or language-specialist review.",
+      "reviewed_head": "0cb8ff2c54fc4bc70534545690a570ec5d5fe803",
+      "refs": [
+        "POD-WORK-302",
+        "POD-DEC-2026101901",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/languages-editorial-team-2026-10-19.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human or language-specialist approval.",
+        "Responsive browser and keyboard checks performed by coordinator.",
+        "Current Census catalogue timed out; retained original workbook used."
+      ]
     }
   ],
   "releases": [
@@ -23940,6 +23968,23 @@
         "records/cuttack-stay-editorial-team-2026-10-19.json"
       ],
       "note": "Reviewed PR346 passed required checks, merged and published through approved main workflow. Live source, photo hash and responsive reading verified. Zero substantive programme credit."
+    },
+    {
+      "id": "POD-REL-2026101903",
+      "title": "Languages introduction with visible sources and authored reading",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/languages/",
+      "refs": [
+        "POD-WORK-302",
+        "POD-REV-2026101903",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/languages-editorial-publication-2026-10-19.json",
+        "records/languages-editorial-team-2026-10-19.json"
+      ],
+      "note": "Reviewed PR348 passed checks, merged and published via approved main workflow. Live notes, retained image hashes and responsive reading verified. Zero substantive programme credit."
     }
   ],
   "sources": [

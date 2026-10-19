@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-19T16:18:00.692149+00:00",
   "article_id": "POD-EDIT-041",
   "route": "/languages/",
-  "status": "in_progress",
+  "status": "published_receipt_integration_pending",
   "input_head": "7a2657a1d35f73117f8eb7715fd29b6ae3631e20",
   "authorization": "POD-DEC-225",
   "classification": "Authored introductory reading with a language directory; review its prose and source mapping, not all linked profiles.",
@@ -62,13 +62,15 @@
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Read-only integrated candidate review",
-      "status": "pending"
+      "status": "handoff_received",
+      "input_head": "0cb8ff2c54fc4bc70534545690a570ec5d5fe803",
+      "result": "pass_with_limitations"
     },
     {
       "name": "Disha",
       "runtime": "/root",
       "scope": "Only languages entry in collection.json, shared records, integration, browser checks and publication",
-      "status": "in_progress"
+      "status": "receipt_integration_pending"
     }
   ],
   "concurrency": "Prior receiptPR347 merged at7a2657a1; prior workers completed. ExternalPR304 statistics andPR281 Ashoka retained.",
@@ -123,7 +125,32 @@
     },
     "repairs": [
       "Normalized encoded ampersand in new regression fixture.",
-      "Removed inherited negative warm-section margin and heading width only for Languages hub."
+      "Removed inherited negative warm-section margin and heading width only for Languages hub.",
+      "Centered classification block after inherited margin override.",
+      "CI39294051092 failed stale generated workbench fingerprint; regenerated, independently checked and all6Python/3JS workbench tests passed. CI39294439260 passed corrected head."
     ]
-  }
+  },
+  "integrated_review": {
+    "role": "Drishti",
+    "runtime": "/root/drishti",
+    "head": "0cb8ff2c54fc4bc70534545690a570ec5d5fe803",
+    "result": "pass_with_limitations",
+    "scope": "Separate AI review of the integrated article: independently inspected SCSTRTI, President release and retained C-16 workbook; source map, image hashes, unaffected profiles and exact note returns. 29 focused tests plus final 4 article tests passed. Final generated collection fingerprint independently verified.",
+    "limitations": [
+      "Separate AI review, not human or language-specialist approval.",
+      "Responsive browser and keyboard checks performed by coordinator.",
+      "Current Census catalogue timed out; retained original workbook used."
+    ]
+  },
+  "release": {
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/348",
+    "reviewed_head": "0cb8ff2c54fc4bc70534545690a570ec5d5fe803",
+    "merge_commit": "2b800f5d2b57b608e82d3e3395684e8c76044108",
+    "validation_run": 39294439260,
+    "deployment_run": 39294900998,
+    "status": "published_live_verified",
+    "attachment_note": "Attachment attempted; app identity limit100 reached.",
+    "receipt": "records/languages-editorial-publication-2026-10-19.json"
+  },
+  "ownership": "Disha retains claim until this receipt PR merges; do not start the next article."
 }
