@@ -45,3 +45,10 @@ You might leave with jewellery, a small decorative object, or simply a better qu
 Creative direction: Ahimanikya Satapathy. Research and original draft: current AI assistant. Source authors retain their credit. [Claim and media record](tourism-reading-followup-evidence.json) · [Entity record](../../culture/cuttack-tarakasi.md).
 
 </details>
+
+
+## Website editorial revision · 19 October 2026
+
+The visitor article at `/visit/experiences/cuttack-filigree/` retains the documented frame, infill, joining and finishing sequence, the original explanatory diagram, and the three credited photographs. The current website copy is in `destinations/central-details.json`; its paragraph-level notes and returns are mapped in `destinations/tarakasi-editorial.json`. This dated draft remains a record of the earlier narrative, not a claim that all its wording is now published.
+
+The revision uses the Founder byline, visible numbered footnotes and comfortable reading spacing. Further reading stays available in a collapsed disclosure; the article-specific update link and public-submission notice remain visible. The 2011 jewellery image’s conflicting material descriptions stay explicit. No origin date, named living maker, workshop inspection, current festival access or metal assay is established by this revision. The Dsource process account and photograph descriptions remain separate kinds of evidence. No substantive programme item is counted for this editorial revision.
