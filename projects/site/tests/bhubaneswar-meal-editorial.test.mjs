@@ -13,7 +13,10 @@ test('Bhubaneswar meal connects kitchen methods and dated local testimony with e
  for(const p of e.passages)for(const id of p.source_ids)for(const value of [`id="ref-${p.id}-${id}"`,`href="#ref-${p.id}-${id}"`,`id="note-${id}"`])assert.equal(page.split(value).length-1,1);
  assert.equal((page.match(/ data-footnote-ref /g)||[]).length,6);assert.equal((page.match(/ data-footnote-backref /g)||[]).length,6);
  for(const phrase of ['separate tempering','Trinath Badu','Subash Sahu','2016 report','not an independently established invention date'])assert.ok(page.includes(phrase));
- assert.match(read('dist/food/cuttack/index.html'),/Prepared with AI assistance/);
+ const cuttack=read('dist/food/cuttack/index.html');
+ assert.match(cuttack,/By Ahimanikya Satapathy/);
+ assert.match(cuttack,/<section id="story-sources"/);
+ assert.doesNotMatch(cuttack,/Prepared with AI assistance/);
  assert.match(page,/story-contents-mobile/);
 });
 test('Saved dalma retains the complete city meal context, concise source links and original photo rights',()=>{
