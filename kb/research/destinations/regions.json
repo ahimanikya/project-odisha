@@ -1489,12 +1489,15 @@
       "odia": "କଟକ",
       "kicker": "Craft and city life · a closer look",
       "headline": "A city worth getting to know slowly.",
-      "lead": "Start with an old gateway. Follow a silver thread. Leave enough appetite for the next conversation.",
+      "lead": "A gateway, a piece of filigree and a workshop floor: look closely at what Cuttack has kept.",
       "hero": "barabati",
-      "orientation": "Connect Barabati’s remains, silver filigree and a characteristic street-food stop.",
+      "orientation": "Choose among Barabati’s remains, silver filigree, two museums and a dahibara-aloodum stop.",
       "source_ids": [
         "cuttack-district",
-        "cuttack-craft"
+        "cuttack-craft",
+        "cuttack-netaji-current",
+        "maritime-jobra-workshop",
+        "cuttack-food"
       ],
       "facts": [
         {
@@ -1506,16 +1509,16 @@
         },
         {
           "label": "Look closely",
-          "text": "The district highlights Cuttack’s intricate silver filigree.",
+          "text": "In Tarakasi, fine wire fills a stronger outer frame.",
           "source_ids": [
-            "cuttack-district"
+            "cuttack-craft"
           ]
         },
         {
           "label": "A taste to seek",
           "text": "A bowl of dahibara-aloodum gives the food story a starting point.",
           "source_ids": [
-            "cuttack-dish-photo"
+            "cuttack-food"
           ]
         }
       ],
@@ -1524,7 +1527,7 @@
           "id": "place:barabati",
           "title": "Barabati: read the remains",
           "kind": "Place",
-          "summary": "The district’s account describes the surviving moat, gateway and palace mound beside the Mahanadi.",
+          "summary": "The gateway, moat and palace mound are the starting points for reading this former fortified site beside the Mahanadi.",
           "source_ids": [
             "cuttack-district"
           ],
@@ -1540,9 +1543,9 @@
           "id": "experience:cuttack-filigree",
           "title": "Follow a silver thread",
           "kind": "Experience",
-          "summary": "Silver filigree is a defining craft in the district’s description of Cuttack.",
+          "summary": "Look for the thicker outline and the fine curls within it. Tarakasi builds a pattern from wire, with spaces left open between its parts.",
           "source_ids": [
-            "cuttack-district"
+            "cuttack-craft"
           ],
           "tip": "Ask a maker about the process and how a piece was made. Arrange any workshop visit in advance; no open studio is promised here.",
           "asset": "cuttack-filigree",
@@ -1572,11 +1575,9 @@
           "id": "experience:cuttack-netaji",
           "title": "A biographical thread through the city",
           "kind": "Experience",
-          "summary": "Born in Cuttack, shaped by its classrooms: follow Subhas Chandra Bose’s childhood through his birthplace museum and his own recollections.",
+          "summary": "Bose’s birthplace is now a museum of his life. Start with a photograph or letter and its date before following the wider biography.",
           "source_ids": [
-            "cuttack-museum",
-            "cuttack-netaji-tourism",
-            "bose-indian-pilgrim"
+            "cuttack-netaji-current"
           ],
           "tip": "Check current museum opening and visitor arrangements before making it a stop.",
           "asset": "cuttack-netaji",
@@ -1588,11 +1589,10 @@
         },
         {
           "id": "experience:jobra-maritime-museum",
-          "title": "Jobra · before the voyage",
+          "title": "Jobra: the work behind water transport",
           "kind": "Experience",
-          "summary": "Explore the workshop behind Cuttack’s Maritime Museum through boats, machines and the skills that kept waterways working.",
+          "summary": "Boats, sluice gates and canal equipment were made at the workshop that now houses the Maritime Museum. Look for the tools and machines behind that work.",
           "source_ids": [
-            "visitor-maritime-museum",
             "maritime-jobra-workshop"
           ],
           "tip": "Confirm the day’s opening, gallery access, tickets and photography rules with the museum.",
@@ -1621,17 +1621,38 @@
       "sections": [
         {
           "id": "stories",
-          "title": "History at two different scales",
+          "title": "What the city keeps",
           "paragraphs": [
             {
-              "text": "A fort gateway and a filigree ornament ask for different kinds of attention. The district’s account places both in Cuttack’s cultural picture.",
+              "text": "At Barabati, begin with what remains: a gateway, a moat and the mound associated with the palace, beside the Mahanadi. The district’s description recalls a nine-storeyed palace, but the building itself is gone. That difference matters when looking at the site. The gateway gives you stonework to examine; a picture of the lost palace needs evidence beyond the surviving entrance.",
               "source_ids": [
                 "cuttack-district"
               ],
               "kind": "sourced_summary"
             },
             {
-              "text": "Our suggestion: choose one historical stop and one craft conversation. Ask what is still made locally, who made the object in your hand and what name the maker wants remembered.",
+              "text": "A piece of Tarakasi asks you to look on a much smaller scale. In the process documented by NID Bengaluru, thicker silver wire forms the outline and finer wire is curled, folded or twisted into the spaces within it. Joining and polishing turn these separate parts into a finished piece. Follow one curve from the outer frame into the pattern: the open spaces are as much a part of the design as the metal.",
+              "source_ids": [
+                "cuttack-craft"
+              ],
+              "kind": "sourced_summary"
+            },
+            {
+              "text": "Two of Cuttack’s museums offer another useful comparison. The Netaji Birth Place Museum occupies Subhas Chandra Bose’s ancestral home and follows his life through photographs, letters and other material. A letter can tell you who was addressing whom, and when. Give one document that attention before moving on to the larger account of his political life.",
+              "source_ids": [
+                "cuttack-netaji-current"
+              ],
+              "kind": "sourced_summary"
+            },
+            {
+              "text": "At Jobra, the workshop is part of the story. The Maritime Museum describes a place that made boats, sluice gates and equipment for canals and river works. Its workshop display includes machines and a crane that moved heavy material along rails. These objects direct attention to the work behind water transport: cutting, shaping, lifting and repair. They belong to a later industrial history, not a surviving ancient boita shipyard.",
+              "source_ids": [
+                "maritime-jobra-workshop"
+              ],
+              "kind": "sourced_summary"
+            },
+            {
+              "text": "Choose one of these threads for the day. If you arrange a craft visit, ask who designed a particular piece and who made it; those may be different people. If you choose a museum, leave time to read a few labels carefully. A food stop and an unhurried return are enough to complete the plan.",
               "source_ids": [],
               "kind": "editorial_guidance"
             }
