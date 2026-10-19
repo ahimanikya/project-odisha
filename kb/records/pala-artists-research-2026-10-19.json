@@ -1,0 +1,102 @@
+{
+  "recorded_at": "2026-10-19T02:44:45.716515+00:00",
+  "request": "Dig deep and create a list of famous and celebrated Pala artists, along with details about their work. And how they are retaining the culture.",
+  "baseline": "aa05bfacee8746106d6af57a23ba6b94837d818b",
+  "method": "Saved-knowledge search, original award PDF visual inspection, government roster and source-specific Odia biographies; same-assistant research, no human specialist review.",
+  "outputs": [
+    "research/people/pala-artists.md",
+    "research/references/data/pala-artists.json"
+  ],
+  "artist_count": 20,
+  "selection": "Selected recognition, work and transmission evidence; not a ranking, census or current directory.",
+  "new_source_records": 15,
+  "reused": [
+    "pala-sna-behera2009",
+    "pala-narthaki-utsav2012",
+    "pala-sachidash-uks20261019",
+    "pala-tarini2026"
+  ],
+  "source_fetches": [
+    {
+      "file": "sna-laxmidhar.pdf",
+      "url": "https://sangeetnatak.gov.in/public/uploads/awardees/docs/Laxmidhar_Rout.pdf",
+      "status": "retrieved",
+      "bytes": 243372
+    },
+    {
+      "file": "sna-behera.pdf",
+      "url": "https://sangeetnatak.gov.in/public/uploads/awardees/docs/Jagannath_Behera.pdf",
+      "status": "retrieved",
+      "bytes": 81400
+    },
+    {
+      "file": "culture2012.pdf",
+      "url": "https://culture.odisha.gov.in/sites/default/files/2021-06/activities_report_culture_2012_13.pdf",
+      "status": "retrieved",
+      "bytes": 184855
+    },
+    {
+      "file": "awards2017.pdf",
+      "url": "https://magazines.odisha.gov.in/orissaannualreference/ora-2017/pdf/page-123-125.pdf",
+      "status": "unavailable",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1129)>"
+    },
+    {
+      "file": "sna2017-18.pdf",
+      "url": "https://www.sangeetnatak.gov.in/public/uploads/reports/164275835898857.pdf",
+      "status": "retrieved",
+      "bytes": 1308373
+    }
+  ],
+  "fetch_note": "Web-reader failures preceded successful verified-TLS original retrievals for SNA citations/annual report and culture roster. Annual Reference PDF secure TLS failed; web indexed text was inspected but its extra award rows were not adopted.",
+  "conflicts": [
+    "Behera birth year1926 official citation versus1925 secondary profile: unresolved, not in summary.",
+    "Beura early chronology/37-play claim: not adopted."
+  ],
+  "validation_status": "PASS: research core, research map, classification, whole-project catalogue/bundle, editorial workbench, programme consistency, artist source/time-scope checks and git whitespace checks. Historical Pala suffix and frozen imported evidence preserved.",
+  "changed_files": [
+    "kb/catalog.json",
+    "kb/history/ledger.jsonl",
+    "kb/records/editorial-workbench.json",
+    "kb/records/pala-artists-research-2026-10-19.json",
+    "kb/research/about/research-gaps.md",
+    "kb/research/culture/pala-networks.md",
+    "kb/research/culture/pala.md",
+    "kb/research/log.md",
+    "kb/research/methods/research-map.md",
+    "kb/research/people/pala-artists.md",
+    "kb/research/people/people-and-creations.md",
+    "kb/research/references/data/content-classification.json",
+    "kb/research/references/data/pala-artists.json",
+    "kb/research/references/data/research-map.json",
+    "kb/research/references/data/source-catalog.json",
+    "kb/research/search-index.json",
+    "kb/research/sources/pala-culture-report2012.md",
+    "kb/research/sources/pala-os-abhaya.md",
+    "kb/research/sources/pala-os-agadhu.md",
+    "kb/research/sources/pala-os-amar.md",
+    "kb/research/sources/pala-os-arjun.md",
+    "kb/research/sources/pala-os-chandra.md",
+    "kb/research/sources/pala-os-gangadhar.md",
+    "kb/research/sources/pala-os-ghana.md",
+    "kb/research/sources/pala-os-nitya.md",
+    "kb/research/sources/pala-os-prah.md",
+    "kb/research/sources/pala-os-raghu.md",
+    "kb/research/sources/pala-pib2016-awards.md",
+    "kb/research/sources/pala-rout-ramayana2024.md",
+    "kb/research/sources/pala-sna-behera2009.md",
+    "kb/research/sources/pala-sna-report2017.md",
+    "kb/research/sources/pala-sna-rout2016.md",
+    "kb/research/subjects/arts.md"
+  ],
+  "outreach": "none",
+  "media_republished": false,
+  "website_content_changed": false,
+  "publication": {
+    "local": "research collection created",
+    "git_push": "pending",
+    "website": "not required; no site content changed"
+  },
+  "programme_increment": 0,
+  "frozen_ledger_sha256": "f98237ed5b2a37087c0b397352ff3c0216251b4cb5124fd7d21dc51ac87c92f5"
+}

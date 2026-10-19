@@ -723,3 +723,25 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 3 October 2026 · Puri downloadable business starter
 
 [Research receipt](records/puri-starter-guide-2026-10-03.json): created a nine-page guide with 26 blank fields, linked evidence and a manual financial worksheet. Saved and reopened test fields; no website change.
+
+## 2026-10-19 — Pala and reader-navigation rules
+
+Enhanced [Pala](research/culture/pala.md) from its retained source dossier: literary training, answering performers, performance objects and named repertoire. Applied the article reading standard with Founder byline and visible footnotes, preserving the credited photograph. Recorded the Founder’s additional direction to keep reading paths collapsed and Suggest an update visible in the [editorial standard](reference/article-editorial-standard.md). No fresh fieldwork, independent specialist review or new programme completion claimed. Publication remains pending a verified delivery receipt.
+
+## 2026-10-19 — Pala publication verified
+
+[PR 318](https://github.com/ahimanikya/project-odisha/pull/318) passed repository checks and merged. The existing main-branch workflow published revision `792ba296023f4d7e6471a43e53b5b2d4dcb95382`; the live Pala page matched all 26 paragraphs, three listening prompts and seven sources. Verified visible footnotes with return targets, collapsed reading paths and the visible update action. [Delivery receipt](records/pala-editorial-publication-2026-10-19.json). UTP-EDIT-144 is complete; no substantive programme increment.
+
+## 19 October 2026 — Pala history, preservation and visitor revision
+
+Deep audit and article revision connect literary/devotional evidence, pedagogy and ensemble practice with a practitioner-led preservation argument and practical visitor guidance. Current events, fees, access and English interpretation stay unconfirmed. Four existing source IDs reconciled into the bibliographic catalogue; historic overview and source mapping retained. Local checks pass; required CI and live publication verification remain separate. No programme count change.
+
+- 19 October 2026: Corrected the Pala visitor guide: CTMS exposes district/keyword search and lists art categories; an art-category filter is not currently exposed. No change to registration/availability limits.
+
+- 19 October 2026: Published and verified the Pala history, preservation and visitor guide at revision 0a6c5982 after PR325 and the focused CTMS correction PR326. All 44 paragraphs, 14 sources, linked notes, keyboard reading paths and visible update action checked on the actual site. [Publication receipt](records/pala-history-preservation-visit-publication-2026-10-19.json). No new current-event or booking claim; no substantive500 count increment.
+
+## Pala reader revision · 19 October 2026
+
+Founder-approved revision retains By Ahimanikya Satapathy, the credited documentary photograph, visible sources, collapsed reading paths and visible update action. Six artist introductions now give women individual repertoire credits; saved sources support teaching and literary examples. Repeated cautions are shortened and visitor guidance consolidated into Before you go, What to listen for and Supporting the artists. Earlier origin, livelihood and visitor-availability gaps remain. Separate AI evidence review completed; quality and publication evidence follow in the team handoff. No substantive500 count increment.
+
+- 19 October 2026: Published and verified the approved Pala reader revision via PR329 at 73a155fb. Live article retains By Ahimanikya Satapathy, with six artist introductions, 31 paragraphs, 15 sources and 25 linked note markers; external credits and reading/update controls preserved. [Receipt](records/pala-reader-revision-publication-2026-10-19.json). Records-only completion; zero substantive 500 increment.

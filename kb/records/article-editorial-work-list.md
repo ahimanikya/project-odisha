@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 394. completed: 13, excluded: 9, queued: 372.
+Route inventory: 394. completed: 29, excluded: 9, queued: 356.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -35,21 +35,21 @@ Route inventory: 394. completed: 13, excluded: 9, queued: 372.
 | UTP-EDIT-019 | [Be part of the story](https://projectodisha.org/contribute/) | excluded | contribution_workflow_utility |
 | UTP-EDIT-020 | [How to use Project Odisha](https://projectodisha.org/how-to-use/) | excluded | product_help_and_privacy |
 | UTP-EDIT-021 | [Chilika Lake · Birds, boats &amp; local stories](https://projectodisha.org/knowledge/chilika/) | completed | Chilika lagoon article, poetry and listening, dated ecological evidence, cultural legend, practical notebook and portable reading. Inspect sources and existing photographs individually; add Founder byline and visible mapped notes, natural reading and restrained source attribution. Acceptance: source/image review, exact footnote returns, shared Konark regression checks, responsive review, tested PR, approved deployment and actual live receipt. No substantive500 count. |
-| UTP-EDIT-022 | [Mangalajodi](https://projectodisha.org/visit/places/mangalajodi/) | queued | classification_pending |
-| UTP-EDIT-023 | [Kalijai](https://projectodisha.org/visit/places/kalijai/) | queued | classification_pending |
-| UTP-EDIT-024 | [Satapada](https://projectodisha.org/visit/places/satapada/) | queued | classification_pending |
-| UTP-EDIT-025 | [Watch the wetlands at Mangalajodi](https://projectodisha.org/visit/experiences/mangalajodi-birdwatching/) | queued | classification_pending |
-| UTP-EDIT-026 | [Take the boat to Kalijai](https://projectodisha.org/visit/experiences/kalijai-crossing/) | queued | classification_pending |
-| UTP-EDIT-027 | [Look for dolphins from Satapada](https://projectodisha.org/visit/experiences/satapada-boating/) | queued | classification_pending |
-| UTP-EDIT-028 | [Staying in Mangalajodi](https://projectodisha.org/visit/stays/mangalajodi/) | queued | classification_pending |
-| UTP-EDIT-029 | [Staying in Barkul or Rambha](https://projectodisha.org/visit/stays/barkul-rambha/) | queued | classification_pending |
-| UTP-EDIT-030 | [Staying around Rajhans and Satapada](https://projectodisha.org/visit/stays/rajhans-satapada/) | queued | classification_pending |
-| UTP-EDIT-031 | [Mukteswar](https://projectodisha.org/visit/places/mukteswar/) | queued | classification_pending |
-| UTP-EDIT-032 | [A meal in Bhubaneswar](https://projectodisha.org/food/bhubaneswar/) | queued | classification_pending |
-| UTP-EDIT-033 | [Find your city base](https://projectodisha.org/visit/stays/bhubaneswar/) | queued | classification_pending |
-| UTP-EDIT-034 | [Bhubaneswar’s Painted Streets — Project Odisha](https://projectodisha.org/stories/bhubaneswar-fresco/) | queued | classification_pending |
-| UTP-EDIT-035 | [Cuttack: places, food &amp; living culture](https://projectodisha.org/destinations/cuttack/) | queued | classification_pending |
-| UTP-EDIT-036 | [Barabati Fort](https://projectodisha.org/visit/places/barabati/) | queued | classification_pending |
+| UTP-EDIT-022 | [Mangalajodi](https://projectodisha.org/visit/places/mangalajodi/) | completed | Individual Mangalajodi place article: natural reading flow, Founder byline, visible notes, full-frame documentary bird photograph and portable reading. Adjacent experience and stay articles remain separate queued scopes. |
+| UTP-EDIT-023 | [Kalijai](https://projectodisha.org/visit/places/kalijai/) | completed | Kalijai place article only: distinguish shrine, attributed story and practical crossing; Founder byline, visible sources, readable layout, retained full-frame documentary photo and portable reading. Separate crossing and stay guides remain queued. |
+| UTP-EDIT-024 | [Satapada](https://projectodisha.org/visit/places/satapada/) | completed | Satapada place article: reader question, source-based dolphin context, natural reading, Founder byline, visible footnotes, retained regional image and portable reading. |
+| UTP-EDIT-025 | [Watch the wetlands at Mangalajodi](https://projectodisha.org/visit/experiences/mangalajodi-birdwatching/) | completed | Mangalajodi birdwatching experience: practical observation exercise, season and restraint, Founder byline, visible footnotes, dated boat photo and portable reading. |
+| UTP-EDIT-026 | [Take the boat to Kalijai](https://projectodisha.org/visit/experiences/kalijai-crossing/) | completed | Kalijai crossing: plan the return, understand the shrine story and listen respectfully; individual byline, footnotes, image and portable-reading review. |
+| UTP-EDIT-027 | [Look for dolphins from Satapada](https://projectodisha.org/visit/experiences/satapada-boating/) | completed | Satapada boating: realistic dolphin observation, operator questions and why approach matters; individual byline, footnotes, image and portable reading. |
+| UTP-EDIT-028 | [Staying in Mangalajodi](https://projectodisha.org/visit/stays/mangalajodi/) | completed | Mangalajodi stay-area guide: choosing an overnight base around birdwatching, verifying the nature-camp lead and planning room-to-wetland arrangements; individual authorship, sources, photograph and portable reading. |
+| UTP-EDIT-029 | [Staying in Barkul or Rambha](https://projectodisha.org/visit/stays/barkul-rambha/) | completed | Barkul and Rambha stay-area comparison: distinguish the two bases and boat routes, qualify published accommodation leads, and connect property choice to the intended outing. Individual prose, sources, byline, image and portable reading. |
+| UTP-EDIT-030 | [Staying around Rajhans and Satapada](https://projectodisha.org/visit/stays/rajhans-satapada/) | completed | Rajhans and Satapada stay-area guide: distinguish an overnight stay from a boat excursion, verify published camp lead and explain arrival, return and room planning. Individual prose, sources, byline, regional image and portable reading. |
+| UTP-EDIT-031 | [Mukteswar](https://projectodisha.org/visit/places/mukteswar/) | completed | Mukteswar visitor article: explain gateway, hall and shrine as distinct forms, retain evidence limits for date and sculptural interpretation, connect present-day Odissi festival without assumed continuity. Individual language, byline, notes, two documentary images and portable reading. |
+| UTP-EDIT-032 | [A meal in Bhubaneswar](https://projectodisha.org/food/bhubaneswar/) | completed | Review the Bhubaneswar meal guide individually: explain dalma preparation, pakhala variation, chhena poda adaptation and Old Town korakhai; apply Founder byline, visible sources, natural reading and credited uncropped photograph. Preserve neighbouring authorship and search scope. |
+| UTP-EDIT-033 | [Find your city base](https://projectodisha.org/visit/stays/bhubaneswar/) | completed | Individually revise Bhubaneswar stay-area guide: explain choosing a base from the shape of a visit, address/transfer tradeoffs, room access and arrival timing; Founder byline, visible sourced geography note, preserved documentary photograph and portable reading. |
+| UTP-EDIT-034 | [Bhubaneswar’s Painted Streets — Project Odisha](https://projectodisha.org/stories/bhubaneswar-fresco/) | completed | Individually review photographic archive introduction, eight-photo selection and cultural connections. Preserve 166 original photographs, viewer/filter behaviour and photographer credit; distinguish camera dates, curatorial readings and unknown mural makers. Apply visible numbered sources and natural reading without flattening the gallery into a conventional article. |
+| UTP-EDIT-035 | [Cuttack: places, food &amp; living culture](https://projectodisha.org/destinations/cuttack/) | completed | Review the Cuttack destination as an authored city introduction: explain how fort remains, fine-wire craft and two different museums offer different kinds of evidence. Preserve five credited documentary images and connected planning functions. Update only this region and opt it into the established editorial template. |
+| UTP-EDIT-036 | [Barabati Fort](https://projectodisha.org/visit/places/barabati/) | completed | Revise Barabati Fort individually: explain what gateway, moat and palace mound establish, distinguish surviving evidence from lost architecture and uncertain chronology; provide readable authored article and visible source notes with the original photograph and useful planning links. |
 | UTP-EDIT-037 | [Tarakasi · follow a silver thread](https://projectodisha.org/visit/experiences/cuttack-filigree/) | queued | classification_pending |
 | UTP-EDIT-038 | [Dahibara Aloodum in Cuttack](https://projectodisha.org/food/cuttack/) | queued | classification_pending |
 | UTP-EDIT-039 | [Netaji Birthplace Museum](https://projectodisha.org/visit/experiences/cuttack-netaji/) | queued | classification_pending |
@@ -157,7 +157,7 @@ Route inventory: 394. completed: 13, excluded: 9, queued: 372.
 | UTP-EDIT-141 | [Tourism opportunities in Odisha](https://projectodisha.org/opportunities/) | queued | classification_pending |
 | UTP-EDIT-142 | [An Odia reading journey](https://projectodisha.org/literature/reading-journey/) | queued | classification_pending |
 | UTP-EDIT-143 | [Sounds of Odisha](https://projectodisha.org/sounds-of-odisha/) | queued | classification_pending |
-| UTP-EDIT-144 | [Pala: poetry with people around it](https://projectodisha.org/sounds-of-odisha/pala/) | queued | classification_pending |
+| UTP-EDIT-144 | [Pala: poetry with people around it](https://projectodisha.org/sounds-of-odisha/pala/) | completed | Founder-approved Pala artist, preservation and visitor reader revision; By Ahimanikya Satapathy, visible sources, collapsed reading paths and visible update action. |
 | UTP-EDIT-145 | [Sankha ଶଙ୍ଖ and the sound of arrival](https://projectodisha.org/sounds-of-odisha/sankha/) | queued | classification_pending |
 | UTP-EDIT-146 | [Mardala: the conversation beneath the dance](https://projectodisha.org/sounds-of-odisha/mardala/) | queued | classification_pending |
 | UTP-EDIT-147 | [Daskathia and the art of telling aloud](https://projectodisha.org/sounds-of-odisha/daskathia/) | queued | classification_pending |

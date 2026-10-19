@@ -1,0 +1,230 @@
+{
+  "recorded_at": "2026-10-19T00:16:54.031916+00:00",
+  "authorization": [
+    "UTP-DEC-2026101702",
+    "UTP-DEC-225"
+  ],
+  "work_id": "UTP-WORK-302",
+  "queue_item": "UTP-EDIT-033",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/314",
+  "reviewed_head": "f4c088f05162b93953c30f88a42f3b1cf5b33e52",
+  "merge_commit": "99efb789d311417de9a0809c79d6fe0446cd8ec7",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "f4c088f05162b93953c30f88a42f3b1cf5b33e52",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39179466965"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "99efb789d311417de9a0809c79d6fe0446cd8ec7",
+    "jobs": [
+      {
+        "completedAt": "2026-10-19T00:15:05Z",
+        "conclusion": "success",
+        "databaseId": 117829817056,
+        "name": "build",
+        "startedAt": "2026-10-19T00:12:57Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-10-19T00:13:00Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-10-19T00:12:58Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T00:13:09Z",
+            "conclusion": "success",
+            "name": "Run actions/checkout@v6",
+            "number": 2,
+            "startedAt": "2026-10-19T00:13:00Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T00:13:11Z",
+            "conclusion": "success",
+            "name": "Run actions/setup-node@v7",
+            "number": 3,
+            "startedAt": "2026-10-19T00:13:09Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T00:13:11Z",
+            "conclusion": "success",
+            "name": "Run actions/configure-pages@v6",
+            "number": 4,
+            "startedAt": "2026-10-19T00:13:11Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T00:13:19Z",
+            "conclusion": "success",
+            "name": "Run npm ci",
+            "number": 5,
+            "startedAt": "2026-10-19T00:13:11Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T00:13:51Z",
+            "conclusion": "success",
+            "name": "Run npm run build",
+            "number": 6,
+            "startedAt": "2026-10-19T00:13:19Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T00:14:01Z",
+            "conclusion": "success",
+            "name": "Run npm test",
+            "number": 7,
+            "startedAt": "2026-10-19T00:13:51Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T00:14:43Z",
+            "conclusion": "success",
+            "name": "Run npm run build:coast",
+            "number": 8,
+            "startedAt": "2026-10-19T00:14:01Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T00:14:49Z",
+            "conclusion": "success",
+            "name": "Run npm run test:coast",
+            "number": 9,
+            "startedAt": "2026-10-19T00:14:43Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T00:14:51Z",
+            "conclusion": "success",
+            "name": "Run npm run build:publication",
+            "number": 10,
+            "startedAt": "2026-10-19T00:14:49Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T00:15:03Z",
+            "conclusion": "success",
+            "name": "Run actions/upload-pages-artifact@v5",
+            "number": 11,
+            "startedAt": "2026-10-19T00:14:51Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T00:15:03Z",
+            "conclusion": "success",
+            "name": "Post Run actions/setup-node@v7",
+            "number": 21,
+            "startedAt": "2026-10-19T00:15:03Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T00:15:03Z",
+            "conclusion": "success",
+            "name": "Post Run actions/checkout@v6",
+            "number": 22,
+            "startedAt": "2026-10-19T00:15:03Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T00:15:03Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 23,
+            "startedAt": "2026-10-19T00:15:03Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39179761006/job/117829817056"
+      },
+      {
+        "completedAt": "2026-10-19T00:15:25Z",
+        "conclusion": "success",
+        "databaseId": 117830305337,
+        "name": "deploy",
+        "startedAt": "2026-10-19T00:15:09Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-10-19T00:15:11Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-10-19T00:15:10Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T00:15:24Z",
+            "conclusion": "success",
+            "name": "Publish approved website",
+            "number": 2,
+            "startedAt": "2026-10-19T00:15:11Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T00:15:24Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 3,
+            "startedAt": "2026-10-19T00:15:24Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39179761006/job/117830305337"
+      }
+    ],
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39179761006"
+  },
+  "verified_routes": [
+    "/visit/stays/bhubaneswar/"
+  ],
+  "live_checks": {
+    "checked_at": "2026-10-19T00:16:46.833332+00:00",
+    "url": "https://projectodisha.org/visit/stays/bhubaneswar/",
+    "http_status": 200,
+    "html_sha256": "abf4d9a9a587baa37960031acf7b6b5950d0dd196efc1408ed390dc472885ddb",
+    "byline": true,
+    "canonical_paragraphs_present": true,
+    "visible_notes": 1,
+    "references": 1,
+    "exact_returns": 1,
+    "images": {
+      "mukteswar": {
+        "http_status": 200,
+        "sha256": "6e2a7594a24b50485a3302443420d9efbabcd81b03aefe836457c3308c28a6f5"
+      }
+    },
+    "robots": "noindex, follow",
+    "sitemap_count": 11,
+    "regression_http": {
+      "/visit/places/barabati/": 200,
+      "/visit/stays/rajhans-satapada/": 200,
+      "/visit/places/dhauli/": 200
+    },
+    "browser": {
+      "url": "https://projectodisha.org/visit/stays/bhubaneswar/",
+      "viewport": "1280x900",
+      "cover_screenshot": "/tmp/bstay-live-cover.png",
+      "exact_keyboard_return": true,
+      "returned_hash": "#ref-detail-0-bhub-city-life",
+      "returned_focus": "ref-detail-0-bhub-city-life",
+      "horizontal_overflow": false
+    }
+  },
+  "test_review": "records/bhubaneswar-stay-editorial-review-2026-10-19.json",
+  "source_mapping": "records/bhubaneswar-stay-editorial-source-mapping-2026-10-19.json",
+  "concurrent_work": "No competing Bhubaneswar stay scope found; current main and open PRs checked, preserving other workers and article content.",
+  "attachment_note": "PR attachment attempted; app returned thread attachment identity count exceeds 100. PR URL retained here.",
+  "counting": "One editorial article; zero substantive500 increment.",
+  "limitations": [
+    "Same-assistant review, not independent human or specialist review.",
+    "No accommodation inspection, room availability or transport confirmation.",
+    "Search areas and booking questions are original planning guidance, not property recommendations or verified travel times."
+  ]
+}

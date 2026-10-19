@@ -1,0 +1,71 @@
+{
+  "recorded_at": "2026-10-19T02:08:33.602958+00:00",
+  "work_id": "UTP-WORK-302",
+  "queue_item": "UTP-EDIT-035",
+  "authorization": [
+    "UTP-DEC-2026101702",
+    "UTP-DEC-225"
+  ],
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "status": "pass_with_limitations",
+  "reader_gain": "Explains surviving remains versus a lost palace, the wire structure of Tarakasi, and the distinction between personal documents and industrial workshop evidence.",
+  "checks": {
+    "full_site_tests": 562,
+    "coastal_tests": 238,
+    "sources": 5,
+    "reference_links": 12,
+    "return_links": 12,
+    "desktop": "1280x900 cover, 740px reading column, card images and visible source list inspected without horizontal overflow.",
+    "mobile": "390x844 cover, single-column craft card and source list inspected without horizontal overflow.",
+    "keyboard": "Craft marker and second return restore exact hash/focus on desktop; district marker and first return verified on mobile.",
+    "media": "All five original hashes and credits preserved, all inspected visually; full image framing enabled only for Cuttack.",
+    "portable_reading": "Cuttack opening and practical narrative present in generated journey catalogue, with concise titles/URLs.",
+    "regressions": "All other region objects, shared historical source pool and assets unchanged. Full/coast tests preserve unreviewed Balasore/Mayurbhanj layouts.",
+    "search": "Existing noindex, nofollow retained; no eligibility change.",
+    "reading_and_updates": "19 October rule integrated from concurrent PR318: four distinct preserved further-reading paths collapsed by default; keyboard toggle checked; article-specific Suggest an update visible outside disclosures with public-GitHub notice."
+  },
+  "evidence": [
+    "records/cuttack-editorial-source-mapping-2026-10-19.json"
+  ],
+  "screenshots": [
+    "/tmp/cuttack-desktop-cover.png",
+    "/tmp/cuttack-desktop-story.png",
+    "/tmp/cuttack-desktop-cards.png",
+    "/tmp/cuttack-desktop-notes.png",
+    "/tmp/cuttack-mobile-cover.png",
+    "/tmp/cuttack-mobile-story.png",
+    "/tmp/cuttack-mobile-cards.png",
+    "/tmp/cuttack-mobile-notes.png"
+  ],
+  "limitations": [
+    "Same-assistant editorial review; no independent human or specialist review.",
+    "No maker, venue, vendor or step-free route contacted or inspected.",
+    "No ancient ship construction inferred from Jobra industrial exhibits.",
+    "District and museum current direct retrieval failed; reused dated evidence and indexed institution text explicitly recorded.",
+    "No search eligibility change; no substantive500 increment.",
+    "Responsive browser emulation, not physical-device or screen-reader testing."
+  ],
+  "concurrency": {
+    "main_commit": "792ba296023f4d7e6471a43e53b5b2d4dcb95382",
+    "retained_article": "UTP-EDIT-144",
+    "initial_ci_failure": "https://github.com/ahimanikya/project-odisha/actions/runs/39188626254",
+    "resolution": "Merged concurrent main without overwriting its Pala work. Cuttack explicitly blocked pending the other worker’s receipt; one-active-item validator unchanged."
+  },
+  "team_followup": {
+    "head": "23146165a33e1c74ebf2cb641c21a8bf011aeb4c",
+    "evidence": "records/team-activation-2026-10-19.json",
+    "corrections": [
+      "Stable Tarakasi process source ID",
+      "Explicit evidenced Cuttack author in reading exports; no default author",
+      "Five opening paragraph breaks preserved",
+      "Shared print production credit replaced by editorial-process link"
+    ],
+    "full_tests_passed": 564,
+    "coast_tests_passed": 238,
+    "separate_ai_review": "Drishti pass with limits; not human review"
+  }
+}

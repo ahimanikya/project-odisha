@@ -1,0 +1,108 @@
+{
+  "recorded_at": "2026-10-18T22:59:05.776415+00:00",
+  "queue_item": "UTP-EDIT-032",
+  "reader_question": "What can a meal explain about how Odisha cooks and how food belongs to Bhubaneswar?",
+  "reuse": [
+    "research/food/bhubaneswar.json",
+    "research/food/korakhai.md",
+    "research/food/korakhai-gi-evidence.md",
+    "research/sources/gi-korakhai-ekamra.md",
+    "research/sources/sweets-korakhai-makers2016.md"
+  ],
+  "source_inspections": [
+    {
+      "id": "bhub-dalma-recipe",
+      "title": "Visit Bhubaneswar · Dalma Lentil Stew",
+      "url": "https://visit.bhubaneswar.me/taste/dalma-lentil-stew",
+      "note": "Published recipe, especially its cooking and finishing sequence. One version, not a compulsory household or temple formula.",
+      "inspected": "Actual source page read on 18 October 2026 UTC"
+    },
+    {
+      "id": "bhub-pakhala-recipe",
+      "title": "Visit Bhubaneswar · Pakhala",
+      "url": "https://visit.bhubaneswar.me/taste/pakhala",
+      "note": "Ingredients and optional tempering. Holding times and health claims are not adopted as guidance.",
+      "inspected": "Actual source page read on 18 October 2026 UTC"
+    },
+    {
+      "id": "chhena-chef",
+      "title": "Chef Michael · Chhenapoda, Odisha Tourism, 29 July 2021",
+      "url": "https://apps.odishatourism.gov.in/blog-detail/chhenapoda",
+      "note": "First-person chocolate adaptation and retrospective Nayagarh origin story. The story does not independently establish an invention date or a current restaurant menu.",
+      "inspected": "Actual source page read on 18 October 2026 UTC"
+    },
+    {
+      "id": "gi-korakhai-ekamra",
+      "title": "Visit Bhubaneswar · Streets of Ekamra",
+      "url": "https://visit.bhubaneswar.me/nature-walks-streets-of-ekamra",
+      "note": "Old Town food and temple-cook context. The advertised walk schedule is not verified as current.",
+      "inspected": "Actual source page read on 18 October 2026 UTC"
+    },
+    {
+      "id": "sweets-korakhai-makers2016",
+      "title": "Sheela Pattanayak · Korakhai in Old Town, MyCityLinks, 14 October 2016",
+      "url": "https://www.mycitylinks.in/odishas-sweet-crunchy-delight-named-kora-khai-best-places-to-avail-it-in-old-town-area",
+      "note": "Ingredient description and attributed accounts of Trinath Badu and Subash Sahu. Historical reporting, not current shop verification; prices, sales estimates and invention superlatives are not adopted.",
+      "inspected": "Actual source page read on 18 October 2026 UTC"
+    }
+  ],
+  "claim_mapping": [
+    {
+      "id": "dalma",
+      "source_ids": [
+        "bhub-dalma-recipe"
+      ]
+    },
+    {
+      "id": "pakhala",
+      "source_ids": [
+        "bhub-pakhala-recipe"
+      ]
+    },
+    {
+      "id": "chhena-poda",
+      "source_ids": [
+        "chhena-chef"
+      ]
+    },
+    {
+      "id": "chhena-poda-p-0",
+      "source_ids": [
+        "chhena-chef"
+      ]
+    },
+    {
+      "id": "old-town",
+      "source_ids": [
+        "gi-korakhai-ekamra"
+      ]
+    },
+    {
+      "id": "old-town-p-0",
+      "source_ids": [
+        "sweets-korakhai-makers2016"
+      ]
+    }
+  ],
+  "removed_source": {
+    "url": "https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html",
+    "finding": "404 on this check; historical captures preserved elsewhere. Replaced only in this current guide."
+  },
+  "limits": [
+    "Recipe method is an example, not a universal or temple-specific formula.",
+    "No nutritional or food-safety claims; published rice holding times are not promoted as instructions.",
+    "Chef origin narrative is attributed, not proven chronology.",
+    "Korakhai maker testimony is attributed 2016 reporting, not a project interview; no current shop, price, production-volume, GI status or schedule claim.",
+    "No restaurant inspection or tasting claimed."
+  ],
+  "image_review": {
+    "asset": "chhena-poda",
+    "creator": "Subhransuphotography",
+    "source_date": "2022-11-19",
+    "place": "Puri",
+    "finding": "Existing photograph visually reinspected: credible baked pieces, cut surface and browned edges, staged garnish and plate. Retain unchanged; caption identifies Puri and does not imply a Bhubaneswar serving.",
+    "sha256": "94cd55915889d9787c9611197a2ec59a5670f491619ca8ca916ee4a87fdbf8aa",
+    "license": "CC BY-SA 4.0"
+  },
+  "counting": "Editorial rollout only; no substantive500 increment."
+}

@@ -1,0 +1,220 @@
+{
+  "recorded_at": "2026-10-18T15:53:23.513260+00:00",
+  "authorization": [
+    "UTP-DEC-2026101702",
+    "UTP-DEC-225"
+  ],
+  "work_id": "UTP-WORK-302",
+  "queue_item": "UTP-EDIT-024",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/305",
+  "reviewed_head": "1f28450d5960f5d47361e687773d33a57a2c0c58",
+  "merge_commit": "f05c01d8b3ff31e98b78f56fabdf51123dc7b8b7",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "1f28450d5960f5d47361e687773d33a57a2c0c58",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39106475748"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "f05c01d8b3ff31e98b78f56fabdf51123dc7b8b7",
+    "jobs": [
+      {
+        "completedAt": "2026-10-18T12:37:55Z",
+        "conclusion": "success",
+        "databaseId": 117676907105,
+        "name": "build",
+        "startedAt": "2026-10-18T12:35:49Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-10-18T12:35:51Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-10-18T12:35:50Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T12:35:59Z",
+            "conclusion": "success",
+            "name": "Run actions/checkout@v6",
+            "number": 2,
+            "startedAt": "2026-10-18T12:35:51Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T12:36:03Z",
+            "conclusion": "success",
+            "name": "Run actions/setup-node@v7",
+            "number": 3,
+            "startedAt": "2026-10-18T12:35:59Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T12:36:04Z",
+            "conclusion": "success",
+            "name": "Run actions/configure-pages@v6",
+            "number": 4,
+            "startedAt": "2026-10-18T12:36:03Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T12:36:13Z",
+            "conclusion": "success",
+            "name": "Run npm ci",
+            "number": 5,
+            "startedAt": "2026-10-18T12:36:04Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T12:36:44Z",
+            "conclusion": "success",
+            "name": "Run npm run build",
+            "number": 6,
+            "startedAt": "2026-10-18T12:36:13Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T12:36:53Z",
+            "conclusion": "success",
+            "name": "Run npm test",
+            "number": 7,
+            "startedAt": "2026-10-18T12:36:44Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T12:37:34Z",
+            "conclusion": "success",
+            "name": "Run npm run build:coast",
+            "number": 8,
+            "startedAt": "2026-10-18T12:36:53Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T12:37:40Z",
+            "conclusion": "success",
+            "name": "Run npm run test:coast",
+            "number": 9,
+            "startedAt": "2026-10-18T12:37:34Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T12:37:42Z",
+            "conclusion": "success",
+            "name": "Run npm run build:publication",
+            "number": 10,
+            "startedAt": "2026-10-18T12:37:40Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T12:37:53Z",
+            "conclusion": "success",
+            "name": "Run actions/upload-pages-artifact@v5",
+            "number": 11,
+            "startedAt": "2026-10-18T12:37:42Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T12:37:53Z",
+            "conclusion": "success",
+            "name": "Post Run actions/setup-node@v7",
+            "number": 21,
+            "startedAt": "2026-10-18T12:37:53Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T12:37:53Z",
+            "conclusion": "success",
+            "name": "Post Run actions/checkout@v6",
+            "number": 22,
+            "startedAt": "2026-10-18T12:37:53Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T12:37:53Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 23,
+            "startedAt": "2026-10-18T12:37:53Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39127939671/job/117676907105"
+      },
+      {
+        "completedAt": "2026-10-18T12:38:18Z",
+        "conclusion": "success",
+        "databaseId": 117677346859,
+        "name": "deploy",
+        "startedAt": "2026-10-18T12:37:59Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-10-18T12:38:01Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-10-18T12:38:00Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T12:38:16Z",
+            "conclusion": "success",
+            "name": "Publish approved website",
+            "number": 2,
+            "startedAt": "2026-10-18T12:38:01Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T12:38:16Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 3,
+            "startedAt": "2026-10-18T12:38:16Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39127939671/job/117677346859"
+      }
+    ],
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39127939671"
+  },
+  "verified_routes": [
+    "/visit/places/satapada/"
+  ],
+  "live_checks": {
+    "checked_at": "2026-10-18T12:39:44.318661+00:00",
+    "url": "https://projectodisha.org/visit/places/satapada/",
+    "http_status": 200,
+    "html_sha256": "b9edcf9f99744b7cebe6b5ddc4048272093ea45646f585f0ef021b8dcf3a32e5",
+    "byline": true,
+    "canonical_paragraphs_present": true,
+    "visible_notes": 3,
+    "references": 5,
+    "exact_returns": 5,
+    "image": {
+      "http_status": 200,
+      "sha256": "0c07d18090ac7a1d7fc4e9a61f16e8eed3633ac1db1c11d84ab2586b9d06543c"
+    },
+    "robots": "noindex, follow",
+    "sitemap_count": 11,
+    "regression_http": {
+      "/visit/places/mangalajodi/": 200,
+      "/visit/experiences/satapada-boating/": 200,
+      "/visit/stays/rajhans-satapada/": 200
+    },
+    "browser": "Live rendered byline, source notes and regional image verified. Enter focused the IWC note; the second return focused the exact historical-training paragraph marker."
+  },
+  "test_review": "records/satapada-editorial-review-2026-10-18.json",
+  "source_mapping": "records/satapada-editorial-source-mapping-2026-10-18.json",
+  "concurrent_work": "No competing Satapada scope found; started from latest main and kept other article routes unchanged.",
+  "attachment_note": "PR attachment attempted; app returned thread attachment identity count exceeds 100. PR URL retained here.",
+  "counting": "One editorial article completed; zero substantive500 items.",
+  "limitations": [
+    "No independent human or specialist review claimed.",
+    "No field visit, current boat service or accommodation confirmation.",
+    "IWC case study read; its underlying studies not independently inspected. Historical training does not establish current operator compliance."
+  ]
+}

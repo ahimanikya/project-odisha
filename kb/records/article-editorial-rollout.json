@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-18T00:57:50.963226+00:00",
+  "updated_at": "2026-10-19T04:17:48.130727+00:00",
   "authorization": "UTP-DEC-2026101702",
   "work_id": "UTP-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -908,166 +908,467 @@
       "id": "UTP-EDIT-022",
       "route": "/visit/places/mangalajodi/",
       "title": "Mangalajodi",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "status": "completed",
+      "scope": "Individual Mangalajodi place article: natural reading flow, Founder byline, visible notes, full-frame documentary bird photograph and portable reading. Adjacent experience and stay articles remain separate queued scopes.",
+      "source_template": "projects/site/src/pages/visit/[kind]/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/mangalajodi-editorial-review-2026-10-18.json",
+        "records/mangalajodi-editorial-source-mapping-2026-10-18.json",
+        "records/mangalajodi-editorial-publication-2026-10-18.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-10-18T01:41:28.411812+00:00",
+      "acceptance": [
+        "Individually review factual passages against reused sources; distinguish observation prompts from reported facts and preserve photograph rights.",
+        "Readable desktop/mobile page with visible numbered notes and exact return links; working saved reading.",
+        "Passing site checks, responsive review, reviewed PR head, approved deployment and verified live receipt before completion."
+      ],
+      "completed_at": "2026-10-18T01:55:48.195481+00:00",
+      "publication_receipt": "records/mangalajodi-editorial-publication-2026-10-18.json"
     },
     {
       "id": "UTP-EDIT-023",
       "route": "/visit/places/kalijai/",
       "title": "Kalijai",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "status": "completed",
+      "scope": "Kalijai place article only: distinguish shrine, attributed story and practical crossing; Founder byline, visible sources, readable layout, retained full-frame documentary photo and portable reading. Separate crossing and stay guides remain queued.",
+      "source_template": "projects/site/src/pages/visit/[kind]/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/kalijai-editorial-review-2026-10-18.json",
+        "records/kalijai-editorial-source-mapping-2026-10-18.json",
+        "records/kalijai-editorial-publication-2026-10-18.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-10-18T02:41:15.603553+00:00",
+      "acceptance": [
+        "Inspect existing Kalijai evidence and actual cited material; no invented shrine chronology, oral testimony or confirmed services.",
+        "Natural prose with precise attribution, visible numbered notes and exact returns; preserve image rights and concise downloadable sources.",
+        "Full and coastal checks, desktop/mobile review, reviewed PR head, approved main deployment, actual live checks and receipt before completion."
+      ],
+      "completed_at": "2026-10-18T02:55:56.214380+00:00",
+      "publication_receipt": "records/kalijai-editorial-publication-2026-10-18.json"
     },
     {
       "id": "UTP-EDIT-024",
       "route": "/visit/places/satapada/",
       "title": "Satapada",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "status": "completed",
+      "scope": "Satapada place article: reader question, source-based dolphin context, natural reading, Founder byline, visible footnotes, retained regional image and portable reading.",
+      "source_template": "projects/site/src/pages/visit/[kind]/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/satapada-editorial-review-2026-10-18.json",
+        "records/satapada-editorial-source-mapping-2026-10-18.json",
+        "records/satapada-editorial-publication-2026-10-18.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-10-18T07:02:37.107188+00:00",
+      "acceptance": [
+        "Inspect existing evidence and source material; distinguish visitor suggestions from documented ecology.",
+        "Preserve image provenance and regional caption; review desktop/mobile and exact footnote returns.",
+        "Pass full/coastal tests, merge reviewed PR head, approved deployment and live receipt; zero substantive500 increment."
+      ],
+      "completed_at": "2026-10-18T15:53:23.513260+00:00",
+      "publication_receipt": "records/satapada-editorial-publication-2026-10-18.json"
     },
     {
       "id": "UTP-EDIT-025",
       "route": "/visit/experiences/mangalajodi-birdwatching/",
       "title": "Watch the wetlands at Mangalajodi",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "status": "completed",
+      "scope": "Mangalajodi birdwatching experience: practical observation exercise, season and restraint, Founder byline, visible footnotes, dated boat photo and portable reading.",
+      "source_template": "projects/site/src/pages/visit/[kind]/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/mangalajodi-birdwatching-editorial-source-mapping-2026-10-18.json",
+        "records/mangalajodi-birdwatching-editorial-review-2026-10-18.json",
+        "records/mangalajodi-birdwatching-editorial-publication-2026-10-18.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-10-18T15:54:58.591523+00:00",
+      "acceptance": [
+        "Inspect source evidence and distinguish suggested observation from field testimony.",
+        "Preserve photo credit and date; verify desktop/mobile, footnote targets and all portable paragraphs.",
+        "Required passing PR checks, reviewed merge, approved main publication and live receipt before completion; zero substantive500 increment."
+      ],
+      "completed_at": "2026-10-18T16:08:11.620823+00:00",
+      "publication_receipt": "records/mangalajodi-birdwatching-editorial-publication-2026-10-18.json"
     },
     {
       "id": "UTP-EDIT-026",
       "route": "/visit/experiences/kalijai-crossing/",
       "title": "Take the boat to Kalijai",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "status": "completed",
+      "scope": "Kalijai crossing: plan the return, understand the shrine story and listen respectfully; individual byline, footnotes, image and portable-reading review.",
+      "source_template": "projects/site/src/pages/visit/[kind]/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/kalijai-crossing-editorial-source-mapping-2026-10-18.json",
+        "records/kalijai-crossing-editorial-review-2026-10-18.json",
+        "records/kalijai-crossing-editorial-publication-2026-10-18.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-10-18T17:18:25.631103+00:00",
+      "acceptance": [
+        "Read the tourism itinerary and authored 2012 account; distinguish folklore, original observation prompts and present arrangements.",
+        "Review existing photo, desktop/mobile reading, exact footnote returns and complete portable narrative.",
+        "Publish passing reviewed PR through approved main workflow and record verified live receipt; zero substantive500 increment."
+      ],
+      "completed_at": "2026-10-18T17:56:54.494975+00:00",
+      "publication_receipt": "records/kalijai-crossing-editorial-publication-2026-10-18.json"
     },
     {
       "id": "UTP-EDIT-027",
       "route": "/visit/experiences/satapada-boating/",
       "title": "Look for dolphins from Satapada",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "status": "completed",
+      "scope": "Satapada boating: realistic dolphin observation, operator questions and why approach matters; individual byline, footnotes, image and portable reading.",
+      "source_template": "projects/site/src/pages/visit/[kind]/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/satapada-boating-editorial-source-mapping-2026-10-18.json",
+        "records/satapada-boating-editorial-review-2026-10-18.json",
+        "records/satapada-boating-editorial-publication-2026-10-18.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-10-18T17:58:13.357625+00:00",
+      "acceptance": [
+        "Read official Satapada and IWC case-study evidence; avoid current population, enforced-distance or provider guarantees.",
+        "Review writing, existing regional photograph, desktop/mobile layout, footnote returns and complete portable narrative.",
+        "Required passing PR, reviewed merge, approved main deployment and verified live receipt before completion; zero substantive500 increment."
+      ],
+      "completed_at": "2026-10-18T18:08:48.003713+00:00",
+      "publication_receipt": "records/satapada-boating-editorial-publication-2026-10-18.json"
     },
     {
       "id": "UTP-EDIT-028",
       "route": "/visit/stays/mangalajodi/",
       "title": "Staying in Mangalajodi",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "status": "completed",
+      "scope": "Mangalajodi stay-area guide: choosing an overnight base around birdwatching, verifying the nature-camp lead and planning room-to-wetland arrangements; individual authorship, sources, photograph and portable reading.",
+      "source_template": "projects/site/src/pages/visit/[kind]/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/mangalajodi-stay-editorial-source-mapping-2026-10-18.json",
+        "records/mangalajodi-stay-editorial-review-2026-10-18.json",
+        "records/mangalajodi-stay-editorial-publication-2026-10-18.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-10-18T19:01:55.324959+00:00",
+      "acceptance": [
+        "Check actual official material for season and the accommodation lead; do not imply inspected rooms or confirmed current service.",
+        "Explain when staying nearby is useful and which room, transfer and outing arrangements need separate confirmation; inspect full-frame documentary photograph and preserve rights.",
+        "Test visible notes, exact returns, portable narrative and adjacent routes; inspect desktop/mobile, then passing PR, reviewed merge, approved deployment and live receipt before completion. Zero substantive500 increment."
+      ],
+      "completed_at": "2026-10-18T19:15:14.372615+00:00",
+      "publication_receipt": "records/mangalajodi-stay-editorial-publication-2026-10-18.json"
     },
     {
       "id": "UTP-EDIT-029",
       "route": "/visit/stays/barkul-rambha/",
       "title": "Staying in Barkul or Rambha",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "status": "completed",
+      "scope": "Barkul and Rambha stay-area comparison: distinguish the two bases and boat routes, qualify published accommodation leads, and connect property choice to the intended outing. Individual prose, sources, byline, image and portable reading.",
+      "source_template": "projects/site/src/pages/visit/[kind]/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/barkul-rambha-editorial-source-mapping-2026-10-18.json",
+        "records/barkul-rambha-editorial-review-2026-10-18.json",
+        "records/barkul-rambha-editorial-publication-2026-10-18.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-10-18T19:56:47.015812+00:00",
+      "acceptance": [
+        "Read actual official evidence for both bases and routes; replace the broken source without inventing current services, prices or inspected accommodation.",
+        "Give a useful comparison and concrete booking questions with restrained visible footnotes; inspect the regional documentary photograph and preserve rights.",
+        "Full/coastal tests, desktop/mobile reading and source returns, passing PR, reviewed merge, approved deployment and actual live receipt before completion. Zero substantive500 increment."
+      ],
+      "completed_at": "2026-10-18T20:08:52.386424+00:00",
+      "publication_receipt": "records/barkul-rambha-editorial-publication-2026-10-18.json"
     },
     {
       "id": "UTP-EDIT-030",
       "route": "/visit/stays/rajhans-satapada/",
       "title": "Staying around Rajhans and Satapada",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "status": "completed",
+      "scope": "Rajhans and Satapada stay-area guide: distinguish an overnight stay from a boat excursion, verify published camp lead and explain arrival, return and room planning. Individual prose, sources, byline, regional image and portable reading.",
+      "source_template": "projects/site/src/pages/visit/[kind]/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/rajhans-satapada-editorial-source-mapping-2026-10-18.json",
+        "records/rajhans-satapada-editorial-review-2026-10-18.json",
+        "records/rajhans-satapada-editorial-publication-2026-10-18.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-10-18T21:03:30.171576+00:00",
+      "acceptance": [
+        "Read actual official camp and access sources; distinguish advertised accommodation from verified current services and exclude unconfirmed transfer, price or facility claims.",
+        "Use natural specific prose, visible numbered notes and exact returns; retain truthful regional photo and full narrative in downloads with concise sources.",
+        "Pass full/coast tests and responsive keyboard review; merge reviewed passing PR and approved deployment, verify live and save receipt before completion. Zero substantive500 increment."
+      ],
+      "completed_at": "2026-10-18T21:18:08.566481+00:00",
+      "publication_receipt": "records/rajhans-satapada-editorial-publication-2026-10-18.json"
     },
     {
       "id": "UTP-EDIT-031",
       "route": "/visit/places/mukteswar/",
       "title": "Mukteswar",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "status": "completed",
+      "scope": "Mukteswar visitor article: explain gateway, hall and shrine as distinct forms, retain evidence limits for date and sculptural interpretation, connect present-day Odissi festival without assumed continuity. Individual language, byline, notes, two documentary images and portable reading.",
+      "source_template": "projects/site/src/pages/visit/[kind]/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/mukteswar-editorial-source-mapping-2026-10-18.json",
+        "records/mukteswar-editorial-review-2026-10-18.json",
+        "records/mukteswar-editorial-publication-2026-10-18.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-10-18T21:59:54.328257+00:00",
+      "acceptance": [
+        "Read actual architectural and festival sources; distinguish visible forms, scholarly or official descriptions, and unverified history or current arrangements.",
+        "Explain what a visitor can understand from the arch, roof forms and carvings with restrained footnotes; preserve both documentary images and rights.",
+        "Full/coast tests, desktop/mobile visual and keyboard review, passing PR, reviewed merge, approved publish and live receipt before completion. Zero substantive500 increment."
+      ],
+      "completed_at": "2026-10-18T22:16:49.593368+00:00",
+      "publication_receipt": "records/mukteswar-editorial-publication-2026-10-18.json"
     },
     {
       "id": "UTP-EDIT-032",
       "route": "/food/bhubaneswar/",
       "title": "A meal in Bhubaneswar",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "completed",
+      "scope": "Review the Bhubaneswar meal guide individually: explain dalma preparation, pakhala variation, chhena poda adaptation and Old Town korakhai; apply Founder byline, visible sources, natural reading and credited uncropped photograph. Preserve neighbouring authorship and search scope.",
       "source_template": "projects/site/src/pages/food/bhubaneswar.astro",
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/bhubaneswar-meal-editorial-source-mapping-2026-10-18.json",
+        "records/bhubaneswar-meal-editorial-review-2026-10-18.json",
+        "records/bhubaneswar-meal-editorial-publication-2026-10-18.json"
+      ],
+      "blocker": null,
+      "acceptance": [
+        "Three existing dish sections explain specific methods or variations; a sourced Old Town connection distinguishes city food culture from statewide dish identity.",
+        "Actual source pages and existing KB inspected, retired source replaced, claims mapped without invented tasting or current restaurant verification.",
+        "Desktop/mobile review, exact footnote returns, complete city context in portable reading, passing PR checks, approved publication and live receipt before completion."
+      ],
+      "started_at": "2026-10-18T22:58:13.619588+00:00",
+      "completed_at": "2026-10-18T23:11:17.686661+00:00",
+      "publication_receipt": "records/bhubaneswar-meal-editorial-publication-2026-10-18.json"
     },
     {
       "id": "UTP-EDIT-033",
       "route": "/visit/stays/bhubaneswar/",
       "title": "Find your city base",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "status": "completed",
+      "scope": "Individually revise Bhubaneswar stay-area guide: explain choosing a base from the shape of a visit, address/transfer tradeoffs, room access and arrival timing; Founder byline, visible sourced geography note, preserved documentary photograph and portable reading.",
+      "source_template": "projects/site/src/pages/visit/[kind]/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/bhubaneswar-stay-editorial-source-mapping-2026-10-19.json",
+        "records/bhubaneswar-stay-editorial-review-2026-10-19.json",
+        "records/bhubaneswar-stay-editorial-publication-2026-10-19.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-10-19T00:05:05.018886+00:00",
+      "acceptance": [
+        "Three distinct search approaches remain advice, not property recommendations or verified transport times.",
+        "Actual tourism source supports only Janpath shopping/old-city contrast; original planning guidance distinguished in KB.",
+        "Retain all narrative and option details in downloadable reading with concise sources and photograph rights.",
+        "Verify desktop/mobile layout, exact footnote return, tests, reviewed PR, approved main deployment and actual live receipt before completion."
+      ],
+      "completed_at": "2026-10-19T00:16:54.031916+00:00",
+      "publication_receipt": "records/bhubaneswar-stay-editorial-publication-2026-10-19.json"
     },
     {
       "id": "UTP-EDIT-034",
       "route": "/stories/bhubaneswar-fresco/",
       "title": "Bhubaneswar’s Painted Streets | Project Odisha",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "completed",
+      "scope": "Individually review photographic archive introduction, eight-photo selection and cultural connections. Preserve 166 original photographs, viewer/filter behaviour and photographer credit; distinguish camera dates, curatorial readings and unknown mural makers. Apply visible numbered sources and natural reading without flattening the gallery into a conventional article.",
       "source_template": "projects/site/src/pages/stories/bhubaneswar-fresco/index.astro",
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/fresco-editorial-source-mapping-2026-10-19.json",
+        "records/fresco-editorial-review-2026-10-19.json",
+        "records/fresco-editorial-publication-2026-10-19.json"
+      ],
+      "blocker": null,
+      "started_at": "2026-10-19T01:00:52.777338+00:00",
+      "acceptance": [
+        "Inspect existing images and actual source material for each retained cultural connection; preserve archive hashes and original recollections.",
+        "Founder editorial byline alongside photography credit; no attribution of unidentified mural authorship.",
+        "Visible numbered source notes and exact return behaviour work with gallery dialogs and static selection.",
+        "Verify filter/viewer/alternate links, keyboard navigation, mobile/desktop, full/coast tests, reviewed PR, approved deployment and live receipt."
+      ],
+      "completed_at": "2026-10-19T01:19:51.473774+00:00",
+      "publication_receipt": "records/fresco-editorial-publication-2026-10-19.json"
     },
     {
       "id": "UTP-EDIT-035",
       "route": "/destinations/cuttack/",
       "title": "Cuttack: places, food &amp; living culture",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "status": "completed",
+      "scope": "Review the Cuttack destination as an authored city introduction: explain how fort remains, fine-wire craft and two different museums offer different kinds of evidence. Preserve five credited documentary images and connected planning functions. Update only this region and opt it into the established editorial template.",
+      "source_template": "projects/site/src/components/RegionMagazine.astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/cuttack-editorial-source-mapping-2026-10-19.json",
+        "records/cuttack-editorial-review-2026-10-19.json",
+        "records/cuttack-editorial-publication-2026-10-19.json"
+      ],
+      "acceptance": [
+        "Inspect existing KB and actual source material for every retained factual claim group; preserve historical and present-access distinctions.",
+        "Founder byline, visible numbered sources, restrained attribution, comfortable reading and uncropped documentary images with rights intact.",
+        "Verify portable reading, source returns, other region regressions, responsive layout, full/coast tests, reviewed PR and approved live publication receipt."
+      ],
+      "pull_request": "https://github.com/ahimanikya/project-odisha/pull/319",
+      "execution_owner": "Disha with Anvesha, Samanta and Drishti",
+      "completed_at": "2026-10-19T03:19:05.925344+00:00",
+      "publication_receipt": "records/cuttack-editorial-publication-2026-10-19.json"
     },
     {
       "id": "UTP-EDIT-036",
       "route": "/visit/places/barabati/",
       "title": "Barabati Fort",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "status": "completed",
+      "scope": "Revise Barabati Fort individually: explain what gateway, moat and palace mound establish, distinguish surviving evidence from lost architecture and uncertain chronology; provide readable authored article and visible source notes with the original photograph and useful planning links.",
+      "source_template": "projects/site/src/pages/visit/[kind]/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/barabati-editorial-team-2026-10-19.json",
+        "records/barabati-editorial-publication-2026-10-19.json"
+      ],
+      "blocker": null,
+      "execution_owner": "Disha with Anvesha, Samanta and Drishti",
+      "acceptance": [
+        "Inspect existing KB and actual source material before writing; distinguish remains, archaeological interpretation and later narrative.",
+        "Founder byline, visible numbered footnotes and exact returns; preserve historical photo rights, uncropped object and natural reading rhythm.",
+        "Concise portable reading, collapsed related reading and visible update link; test affected routes and mobile/desktop; separate reviewed head, approved deployment and live receipt before completion."
+      ],
+      "completed_at": "2026-10-19T03:54:24.271244+00:00",
+      "publication_receipt": "records/barabati-editorial-publication-2026-10-19.json"
     },
     {
       "id": "UTP-EDIT-037",
@@ -2250,12 +2551,41 @@
       "id": "UTP-EDIT-144",
       "route": "/sounds-of-odisha/pala/",
       "title": "Pala: poetry with people around it",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "completed",
+      "scope": "Founder-approved Pala artist, preservation and visitor reader revision; By Ahimanikya Satapathy, visible sources, collapsed reading paths and visible update action.",
       "source_template": "projects/site/src/pages/sounds-of-odisha/pala.astro",
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/pala-editorial-source-mapping-2026-10-19.json",
+        "records/pala-editorial-review-2026-10-19.json",
+        "records/article-reading-and-updates-2026-10-19.json",
+        "records/pala-editorial-publication-2026-10-19.json",
+        "records/pala-reader-revision-team-2026-10-19.json",
+        "records/pala-reader-revision-publication-2026-10-19.json"
+      ],
+      "blocker": null,
+      "publication_receipt": "records/pala-reader-revision-publication-2026-10-19.json",
+      "revision_history": [
+        {
+          "at": "2026-10-19T04:05:32.698107+00:00",
+          "prior_status": "completed",
+          "reason": "Founder approved concrete Pala additions/cuts and publication; byline retained."
+        },
+        {
+          "at": "2026-10-19T04:17:48.130727+00:00",
+          "status": "completed",
+          "receipt": "records/pala-reader-revision-publication-2026-10-19.json",
+          "published_revision": "73a155fb0f5f775aaa93d09289224e6814c75285"
+        }
+      ]
     },
     {
       "id": "UTP-EDIT-145",

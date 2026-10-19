@@ -97,3 +97,10 @@ The [contemporary creators collection](../people/contemporary-creators.md) now i
 [Six traditions and seller evidence](../handlooms/garments-and-markets.md) · [From loom to market](../stories/handlooms-from-loom-to-market.md). Technique, garment form, fibre and maker credit are distinct fields.
 
 - [Khudurukuni Osha and maritime knowledge](../stories/khudurukuni-maritime-knowledge.md) — Tapoi, girls’ cultural work and the practical demands of voyaging.
+
+## Pala networks follow-up · 19 October 2026
+
+[Pala organisations and recording paths](../culture/pala-networks.md) separates publishers, troupes and association leads, preserving uncertain offices and reuse rights.
+
+
+[Pala artists](../people/pala-artists.md) — teaching lineages, written works, women’s festival repertoire and recordings, with evidence dates.

@@ -50,6 +50,15 @@ test('practical notes stay in one planning section before onward links and credi
  const expected=notes.flatMap(n=>n.routes);
  for(const route of routes){
   const html=read(route),matches=[...html.matchAll(/id="current-arrangements"/g)];
+  if(route==='/visit/places/mangalajodi/'){
+   assert.equal(matches.length,0);
+   const start=html.indexOf('id="detail-section-5"'),end=html.indexOf('id="connect-visit"');
+   assert.ok(start>0&&end>start);
+   const practical=html.slice(start,end);
+   for(const phrase of ['Before setting out','lifejackets','boarding','return transport','toilets','have not been confirmed'])assert.ok(practical.includes(phrase),phrase);
+   assert.match(html,/<section id="story-sources"/);
+   continue;
+  }
   assert.equal(matches.length,expected.includes(route)?1:0,route);
   if(!expected.includes(route))continue;
   const position=matches[0].index;

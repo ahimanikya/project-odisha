@@ -1,0 +1,92 @@
+{
+  "recorded_at": "2026-10-18T22:01:51.679135+00:00",
+  "route": "/visit/places/mukteswar/",
+  "reader_question": "What am I looking at beyond the famous arch, and how do the temple’s forms, carvings and modern performances relate?",
+  "canonical_copy": "research/destinations/central-details.json#places/mukteswar",
+  "reader_sources": "research/destinations/mukteswar-editorial.json",
+  "passages": [
+    {
+      "id": "detail-0",
+      "source_ids": [
+        "mukteswar-tourism-current"
+      ]
+    },
+    {
+      "id": "detail-1",
+      "source_ids": [
+        "mukteswar-tourism-current",
+        "ekamra-architecture"
+      ]
+    },
+    {
+      "id": "detail-1-p-0",
+      "source_ids": [
+        "ekamra-architecture"
+      ]
+    },
+    {
+      "id": "detail-2",
+      "source_ids": [
+        "mukteswar-tourism-current"
+      ]
+    },
+    {
+      "id": "detail-3",
+      "source_ids": [
+        "bhub-mukteswar-festival"
+      ]
+    }
+  ],
+  "source_inspections": [
+    {
+      "source_id": "mukteswar-tourism-current",
+      "locator": "Discover the Heritage, temple description",
+      "finding": "Read actual current page: broad tenth-century date, deula/jagamohana, lattice windows, ascetics worshipping Shiva linga, gateway motifs. Excluded king attribution, promotional judgments and fixed visit timings."
+    },
+    {
+      "source_id": "ekamra-architecture",
+      "locator": "Description paragraphs on three architectural orders, shrine/porch form and function; submission identity/disclaimer",
+      "finding": "Read actual India submission dated15April2014. Used only architectural terminology and spatial function. Not evidence of UNESCO inscription. Unrelated chronology and city-size claims not adopted."
+    },
+    {
+      "source_id": "bhub-mukteswar-festival",
+      "locator": "Festival account paragraphs1 and4–5",
+      "finding": "Read actual city page:1984 beginning; solo/duet/group; four named artists. Recurring calendar not adopted. Current Tourism events page gives different dates, reinforcing need for edition-specific programme."
+    }
+  ],
+  "excluded_material": [
+    "Legacy Tourism temple URL returned404; historical source record preserved, current article replaces link.",
+    "Previous woman-writing-a-letter and carved-ceiling details not repeated because the retrieved replacement description does not substantiate them.",
+    "IGNCA Muktesvara search results on Caudadanapura concern Karnataka and were rejected as the wrong temple.",
+    "No named patron/sculptor, exact build year or ancient-to-modern dance continuity asserted."
+  ],
+  "original_material": [
+    "Photo-based observation of gateway framing and roof contrast, reader questions and visit etiquette are original explanatory guidance, not an eyewitness visit."
+  ],
+  "images": [
+    {
+      "key": "mukteswar-torana",
+      "src": "/images/regions/mukteswar-torana.jpg",
+      "sha256": "5e99da2e97be858ad291816baa401fa8a57cb6ff8f4d3deb69b00bd3da0be556",
+      "review": "Existing photograph visually reinspected; physically coherent architecture and human scale. Retained unchanged with creator, date and licence. Both fit their explanatory role; no synthetic additions."
+    },
+    {
+      "key": "mukteswar",
+      "src": "/images/regions/mukteswar.jpg",
+      "sha256": "6e2a7594a24b50485a3302443420d9efbabcd81b03aefe836457c3308c28a6f5",
+      "review": "Existing photograph visually reinspected; physically coherent architecture and human scale. Retained unchanged with creator, date and licence. Both fit their explanatory role; no synthetic additions."
+    }
+  ],
+  "reuse": [
+    "research/methods/research-map.md",
+    "research/destinations/central-details.json",
+    "research/destinations/regions.json",
+    "research/destinations/bhubaneswar-editorial.json",
+    "research/destinations/stone-sea-trail.json"
+  ],
+  "limitations": [
+    "Same-assistant review, not independent human or architectural-specialist review.",
+    "No site visit or current access/festival confirmation.",
+    "Editorial rollout only; zero substantive500 increment."
+  ]
+}

@@ -22,3 +22,7 @@ These local arrangements implement the shared Blueprint; they do not waive its h
 
 
 Status update: the Founder approved this document as part of batch UTB-DEC-005. Earlier candidate/review notices describe its review history; actual application, adoption and activation are recorded separately.
+
+## Current execution — 19 October 2026
+
+The Founder authorized an actual collaborating AI team in UTP-DEC-2026101901. This supersedes the first-task execution and scope restrictions above for the already authorized UTP programmes; it does not change human authority or account access. [Assignments](assignments.json), [operating loop and current ownership](operations.json), and [activation and handoffs](../records/team-activation-2026-10-19.json) are the current records. Disha is the coordinator; Anvesha, Samanta and Drishti execute as separate task-scoped agents. Only the coordinator integrates shared records and publishes under existing Founder authorization. No persona grants itself approval. Future runs reconcile actual state and recreate workers as needed; the roster is not a claim of continuous execution.

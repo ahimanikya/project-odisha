@@ -26,3 +26,7 @@ Award-year citation, not proof of present age or activity. Full PDF timed out; l
 The original one-page PDF was retrieved successfully in this follow-up. Its printed page 38 confirms the three teachers named above and the Sangeet Natak Akademi Awards 2009 citation. It also describes Behera’s reading across Odia, Bengali, Hindi, Sanskrit and English, and his use of literary quotations in performance. These are statements at the time of the citation, not present-day biographical facts. The earlier timeout remains part of the retrieval history.
 
 Retrieval evidence: [food and Pala source follow-up](../../records/everyday-source-followup.json).
+
+## Artist-list check · 19 October 2026
+
+Original PDF securely retrieved again and visually read, printed p.38. It records writing and institutional work at the citation date. Birth year1926 conflicts with a2018 secondary profile’s1925; the list leaves the year unresolved. See [artist research](../people/pala-artists.md).

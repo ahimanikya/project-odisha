@@ -808,3 +808,19 @@ Sudasa rice/filling and source-specific offering-distribution instructions recon
 ## 2026-10-11 · Khudurukuni and maritime review
 
 Khudurukuni print and food-term and source-specific offering-distribution instructions reconciled into existing draftPR145. No human review or public release.
+
+## 2026-10-19 — Pala public-network audit
+
+User-directed second audit records Sachidananda Dash’s public professional profile, UKS TV performance credits, a provisional shared-contact lead to CT13T004, separate council/foundation identities and bounded recording links. [Dossier](culture/pala-networks.md). Preserves legal/office/rights unknowns, source fetch failures, dated events and historical capture differences. No outreach, full recording review, human specialist review, new programme completion or website publication claimed.
+
+## 2026-10-19 — Pala artists and cultural transmission
+
+User-requested [twenty-artist collection](people/pala-artists.md) and structured register add verified national citation evidence, dated regional profiles, women’s programme credits, teaching/writing/association links and recording routes. National award year 2016 stays separate from January 2018 events. Birth-year and early chronology conflicts quarantined; current activity and media rights unknown. Research-only delivery; no new public website revision or programme completion.
+
+## Pala history, preservation and visitors ·19October2026
+
+Expanded the existing Pala narrative using saved artist/network and literary evidence; added UNESCO’s general safeguarding principles and rechecked CTMS discovery scope. History, interpretation, editorial advice and unknown current visitor arrangements remain distinct. Reconciled stale machine-readable form/award fields without changing the initial nucleus or queue criteria. New [structured supplement](references/data/pala-preservation-visit.json) records gaps and visitor unknowns.
+
+## Pala reader revision · 19 October 2026
+
+Founder-approved revision retains By Ahimanikya Satapathy, the credited documentary photograph, visible sources, collapsed reading paths and visible update action. Six artist introductions now give women individual repertoire credits; saved sources support teaching and literary examples. Repeated cautions are shortened and visitor guidance consolidated into Before you go, What to listen for and Supporting the artists. Earlier origin, livelihood and visitor-availability gaps remain. Separate AI evidence review completed; quality and publication evidence follow in the team handoff. No substantive500 count increment.

@@ -1,0 +1,257 @@
+{
+  "recorded_at": "2026-10-19T01:19:51.473774+00:00",
+  "authorization": [
+    "UTP-DEC-2026101702",
+    "UTP-DEC-225"
+  ],
+  "work_id": "UTP-WORK-302",
+  "queue_item": "UTP-EDIT-034",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/316",
+  "reviewed_head": "a3250e574a2b8f417dec7cb5b4b77849b7d3d29b",
+  "merge_commit": "b20a58ad0ba2538dfafb745ce1adfee9ed5b1e4a",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "a3250e574a2b8f417dec7cb5b4b77849b7d3d29b",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39184174922"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "b20a58ad0ba2538dfafb745ce1adfee9ed5b1e4a",
+    "jobs": [
+      {
+        "completedAt": "2026-10-19T01:17:11Z",
+        "conclusion": "success",
+        "databaseId": 117843901748,
+        "name": "build",
+        "startedAt": "2026-10-19T01:15:01Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-10-19T01:15:04Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-10-19T01:15:02Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T01:15:16Z",
+            "conclusion": "success",
+            "name": "Run actions/checkout@v6",
+            "number": 2,
+            "startedAt": "2026-10-19T01:15:04Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T01:15:21Z",
+            "conclusion": "success",
+            "name": "Run actions/setup-node@v7",
+            "number": 3,
+            "startedAt": "2026-10-19T01:15:16Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T01:15:21Z",
+            "conclusion": "success",
+            "name": "Run actions/configure-pages@v6",
+            "number": 4,
+            "startedAt": "2026-10-19T01:15:21Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T01:15:28Z",
+            "conclusion": "success",
+            "name": "Run npm ci",
+            "number": 5,
+            "startedAt": "2026-10-19T01:15:21Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T01:15:58Z",
+            "conclusion": "success",
+            "name": "Run npm run build",
+            "number": 6,
+            "startedAt": "2026-10-19T01:15:28Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T01:16:11Z",
+            "conclusion": "success",
+            "name": "Run npm test",
+            "number": 7,
+            "startedAt": "2026-10-19T01:15:58Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T01:16:48Z",
+            "conclusion": "success",
+            "name": "Run npm run build:coast",
+            "number": 8,
+            "startedAt": "2026-10-19T01:16:11Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T01:16:54Z",
+            "conclusion": "success",
+            "name": "Run npm run test:coast",
+            "number": 9,
+            "startedAt": "2026-10-19T01:16:48Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T01:16:57Z",
+            "conclusion": "success",
+            "name": "Run npm run build:publication",
+            "number": 10,
+            "startedAt": "2026-10-19T01:16:54Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T01:17:09Z",
+            "conclusion": "success",
+            "name": "Run actions/upload-pages-artifact@v5",
+            "number": 11,
+            "startedAt": "2026-10-19T01:16:57Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T01:17:09Z",
+            "conclusion": "success",
+            "name": "Post Run actions/setup-node@v7",
+            "number": 21,
+            "startedAt": "2026-10-19T01:17:09Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T01:17:09Z",
+            "conclusion": "success",
+            "name": "Post Run actions/checkout@v6",
+            "number": 22,
+            "startedAt": "2026-10-19T01:17:09Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T01:17:09Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 23,
+            "startedAt": "2026-10-19T01:17:09Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39184482448/job/117843901748"
+      },
+      {
+        "completedAt": "2026-10-19T01:17:35Z",
+        "conclusion": "success",
+        "databaseId": 117844428467,
+        "name": "deploy",
+        "startedAt": "2026-10-19T01:17:15Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-10-19T01:17:17Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-10-19T01:17:16Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T01:17:33Z",
+            "conclusion": "success",
+            "name": "Publish approved website",
+            "number": 2,
+            "startedAt": "2026-10-19T01:17:17Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T01:17:33Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 3,
+            "startedAt": "2026-10-19T01:17:33Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39184482448/job/117844428467"
+      }
+    ],
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39184482448"
+  },
+  "verified_routes": [
+    "/stories/bhubaneswar-fresco/"
+  ],
+  "live_checks": {
+    "checked_at": "2026-10-19T01:19:26.093524+00:00",
+    "url": "https://projectodisha.org/stories/bhubaneswar-fresco/",
+    "http_status": 200,
+    "html_sha256": "e960164e7ddf3a0fd20f607db7d51917f644ea81346525560bd9c8a739dbaf49",
+    "byline": true,
+    "visible_selection": true,
+    "canonical_captions_present": true,
+    "visible_notes": 12,
+    "references": 13,
+    "exact_returns": 13,
+    "images": {
+      "IMG_1262.JPG": {
+        "http_status": 200,
+        "sha256": "ce9e025d492adf02d471fae4c3656a00cacd0a71b25566dffbd6425a9cc2c671"
+      },
+      "IMG_1237.JPG": {
+        "http_status": 200,
+        "sha256": "86cf22c7addcd37dd7b29961b44ad57953677c81d902aa2fabc97e48ef24b36a"
+      },
+      "IMG_1267.JPG": {
+        "http_status": 200,
+        "sha256": "61da9aa0ae0926ca513735adcaaed1be0f41b155c2eb0e5318eb27160e5cbe36"
+      },
+      "IMG_1207.JPG": {
+        "http_status": 200,
+        "sha256": "5dc563f5092a8ff08fa88674c39f9c406800b6e1f8c4236271dd5f45425fa76e"
+      },
+      "IMG_1307.JPG": {
+        "http_status": 200,
+        "sha256": "3c5c098b07e4ea35d506861a5299c95f4fcc96355ded7abf568cf4fbac3610d5"
+      },
+      "IMG_1247.JPG": {
+        "http_status": 200,
+        "sha256": "b90032103cf183bfc758da624ad25260411bb62904d33fd55300680fc91137bd"
+      },
+      "IMG_1285.JPG": {
+        "http_status": 200,
+        "sha256": "1a0f9ab60eeb01f561684d679f06737b84cb30d93308e7a75e8479d92a06602d"
+      },
+      "IMG_1299.JPG": {
+        "http_status": 200,
+        "sha256": "cdc834f5e343500dfbc32992a813cf2347fbb1260d1e0e24e0932b4557b177d1"
+      }
+    },
+    "robots": "index, follow",
+    "sitemap_count": 11,
+    "eligibility_note": "Pre-existing index, follow and the same11 eligible routes verified against first-search-launch/live.json; initial copied noindex expectation corrected after checking historical evidence.",
+    "browser": {
+      "url": "https://projectodisha.org/stories/bhubaneswar-fresco/",
+      "viewport": "1280x900",
+      "cover_screenshot": "/tmp/fresco-live-cover.png",
+      "exact_keyboard_return": true,
+      "returned_hash": "#ref-palm-narrative",
+      "returned_focus": "ref-palm-narrative",
+      "closed_passage_opened": true,
+      "gallery_navigation": "Featured filter, first photo, next photo A World Within the Wall, close verified",
+      "horizontal_overflow": false
+    }
+  },
+  "test_review": "records/fresco-editorial-review-2026-10-19.json",
+  "source_mapping": "records/fresco-editorial-source-mapping-2026-10-19.json",
+  "concurrent_work": "No competing Bhubaneswar photographic archive scope found; current main and open PRs checked, preserving other workers and article content.",
+  "attachment_note": "PR attachment attempted; app returned thread attachment identity count exceeds 100. PR URL retained here.",
+  "counting": "One editorial article; zero substantive500 increment.",
+  "limitations": [
+    "Same-assistant review, not independent human or specialist review.",
+    "No artist, workshop, exact street or present condition confirmed.",
+    "Eight featured photographs visually reinspected; remaining original archive images preserved without new specialist identification."
+  ]
+}

@@ -22,3 +22,20 @@ body.utk #large{height:48dvh}
 .fresco-selection,.analytics-choice,.analytics-settings{max-width:var(--uds-layout-wide);margin-inline:auto;padding:24px var(--uds-layout-gutter)}
 .fresco-selection summary{cursor:pointer;color:var(--uds-colour-sea);font-size:1.25rem}.fresco-selection details>div{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}.fresco-selection figure{margin:20px 0}.fresco-selection img{width:100%;height:auto}.fresco-selection p{max-width:65ch}
 @media(max-width:600px){.fresco-selection details>div{grid-template-columns:1fr}body.utk dialog .bar{flex-wrap:wrap}body.utk dialog .slideshow-controls{flex-wrap:wrap}}
+
+/* A reading rhythm around the archive, without narrowing its image browser. */
+body.utk .intro p:not(.small):not(.credit):not(.article-byline){font-family:var(--uds-type-reading);line-height:1.85;margin-block:0 1.25em}
+body.utk .article-byline{font-size:.95rem;margin-block:0 1.5rem}
+body.utk .fresco-selection{padding-inline:0;margin-block:4rem}
+.fresco-selection>div{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}
+.fresco-selection figcaption p{font-family:var(--uds-type-reading);font-size:1.1rem;line-height:1.85;margin:0 0 1.25em}
+.fresco-selection figcaption small{display:block;margin-top:.75rem}
+.references,.article-footnotes{max-width:740px;margin:4rem auto;line-height:1.85}
+.references .culture-panel{padding:0;border:0;background:transparent;margin:1.5rem 0}
+.references p{margin:0 0 1.25em}
+.article-footnotes{border-top:1px solid var(--line);padding-top:2rem;font-size:.95rem}
+.article-footnotes li{margin:0 0 1.25em;overflow-wrap:anywhere;scroll-margin-top:2rem}
+[data-footnote-ref]{text-decoration:none;padding:.2em .15em;scroll-margin-top:2rem}
+[data-footnote-backref]{display:inline-block;padding:.2em .3em}
+sup{font-size:.7em;line-height:0;vertical-align:super}
+@media(max-width:600px){.fresco-selection>div{grid-template-columns:1fr}.fresco-selection figcaption p{font-size:1.05rem}}

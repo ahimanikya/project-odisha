@@ -34,10 +34,10 @@ export function buildTourBook(value,entries,{baseURL='https://projectodisha.org'
      photoCredits.set(photo.src,photo);
      body+=`<figure><img src="${data}" alt="${e(photo.alt)}" width="${e(photo.width)}" height="${e(photo.height)}"><figcaption>${e(photo.caption)}</figcaption></figure>`;
     }
-    body+=`<p class="kind">${e(item.kind)} · ${e(item.area)}</p><p>${e(item.summary)}</p><p class="access">${e(item.access||'Check access and arrangements before travel.')}</p><p class="date">Research checked ${e(item.checked)} · Editorial preview</p>`;
+    body+=`${item.author?`<p class="byline">By ${e(item.author)}</p>`:''}<p class="kind">${e(item.kind)} · ${e(item.area)}</p><p>${e(item.summary)}</p><p class="access">${e(item.access||'Check access and arrangements before travel.')}</p><p class="date">Research checked ${e(item.checked)} · Editorial preview</p>`;
     for(const note of [...(item.practical||[]),...visitPrompts(item)]){
      const links=(note.links||[]).map(link=>{const url=safeURL(link.href,baseURL);return url?`<li><a href="${e(url)}">${e(link.label)}</a></li>`:'';}).join('');
-     body+=`<div class="practical"><h4>${e(note.heading)}</h4><p>${e(note.text)}</p>${links?`<ul>${links}</ul>`:''}</div>`;
+     body+=`<div class="practical"><h4>${e(note.heading)}</h4>${(note.paragraphs?.length?note.paragraphs:[note.text]).map(p=>`<p>${e(p)}</p>`).join('')}${links?`<ul>${links}</ul>`:''}</div>`;
     }
     const href=safeURL(item.href,baseURL);if(href)body+=`<p><a href="${e(href)}">Read the entry online</a></p>`;
     for(const source of item.sources||[]){const url=safeURL(source.url,baseURL);if(url)references.set(url,source.title);}
@@ -73,12 +73,13 @@ export function buildTextItinerary(value,entries,{includePersonalNotes=true,base
   lines.push(dayLabel(plan,group.day),planningContext(group.items,catalog).message,'');
   const dayNote=(plan.dayNotes||[]).find(n=>n.day===group.day);if(includePersonalNotes&&dayNote)lines.push(dayNote.title,dayNote.notes,'');
   for(const saved of group.items){const item=catalog.get(saved.id);lines.push(item?.title||'Unavailable item: '+saved.id);
-   if(item){lines.push(item.summary,item.access||'Confirm local access.');for(const note of [...(item.practical||[]),...visitPrompts(item)]){lines.push(note.heading+': '+note.text);for(const link of note.links||[]){const url=safeURL(link.href,baseURL);if(url)lines.push(link.label+' — '+url);}}const url=safeURL(item.href,baseURL);if(url)lines.push(url);for(const source of item.sources||[]){const url=safeURL(source.url,baseURL);if(url)lines.push('Source: '+source.title+' — '+url);}}
+   if(item){if(item.author)lines.push('By '+item.author);lines.push(item.summary,item.access||'Confirm local access.');for(const note of [...(item.practical||[]),...visitPrompts(item)]){lines.push(note.heading+': '+(note.paragraphs?.length?note.paragraphs.join('\n\n'):note.text));for(const link of note.links||[]){const url=safeURL(link.href,baseURL);if(url)lines.push(link.label+' — '+url);}}const url=safeURL(item.href,baseURL);if(url)lines.push(url);for(const source of item.sources||[]){const url=safeURL(source.url,baseURL);if(url)lines.push('Source: '+source.title+' — '+url);}}
    if(includePersonalNotes&&saved.notes)lines.push('Your notes: '+saved.notes);lines.push('');
   }
  }
  lines.push('Preparation checklist (marked by you):',...preparationRows(plan).map(row=>(row.done?'Done':'To check')+' — '+row.label),'','Keep a JSON backup to edit this plan later.');
  if(includePersonalNotes&&(plan.reminders||[]).length){lines.push('','Your personal reminders — whole trip');for(const r of plan.reminders)lines.push(`${r.done?'Done':'To check'} — ${r.text}`);}
  const questions=questionGroups(plan,entries);if(questions.length){lines.push('','Questions to take with you — ask locally; arrangements are not verified.');for(const g of questions){lines.push(g.title);for(const q of g.questions)lines.push(q.heading+': '+q.text);}}
+ lines.push('','Our editorial process: https://projectodisha.org/about/editorial-process/');
  return lines.join('\n');
 }

@@ -4,118 +4,149 @@ title: "Pala and its culture"
 description: "Pala and its culture — evidence, connections and open research."
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-01T18:19:13.030991+00:00"}
-sources: [{"id": "pala-sna-behera2009", "title": "Jagannath Behera — Akademi Award: Pala (Orissa)", "resource": "https://sangeetnatak.gov.in/public/uploads/awardees/docs/Jagannath_Behera.pdf"}, {"id": "pala-cm-sammilan2025", "title": "48th annual state-level Pala Sammilan at Parklane, Kendujhar", "resource": "https://cm.odisha.gov.in/en/latest-news/participated-48th-annual-state-level-pala-sammilan-organized-parklane-kendujhar"}, {"id": "daskathia-kalahandi", "title": "Kalahandi district · Culture and Heritage", "resource": "https://kalahandi.odisha.gov.in/en/tourism/culture-Heritage"}, {"id": "pala-mahapatra1982", "title": "Sitakant Mahapatra, Poetry as Performance: The Origin and Development of Pala in Orissa", "resource": "https://www.sahapedia.org/sites/default/files/2019-03/Poetry%20as%20Performance.pdf"}, {"id": "pala-patra2017", "title": "Umesh Patra, Tracing the History and Evolution of Pala (2017)", "resource": "https://www.oralliterature.org/collaborations/lokaratna/Lokaratna_10.pdf"}, {"id": "pala-patra2021", "title": "Umesh Patra, The Evolution of a Hybrid Deity (2021)", "resource": "https://www.researchgate.net/publication/396970015_The_Evolution_of_a_Hybrid_Deity_Religious_Syncretism_in_the_Pala_Theatre_of_Odisha"}, {"id": "pala-narthaki-utsav2012", "title": "Pala and Daskathia Utsav, Narthaki (27 July 2012)", "resource": "https://www.narthaki.com/info/rev12/rev1245.html"}]
+sources: [{"id": "pala-sna-behera2009", "title": "Jagannath Behera — Akademi Award: Pala (Orissa)", "resource": "https://sangeetnatak.gov.in/public/uploads/awardees/docs/Jagannath_Behera.pdf"}, {"id": "pala-cm-sammilan2025", "title": "48th annual state-level Pala Sammilan at Parklane, Kendujhar", "resource": "https://cm.odisha.gov.in/en/latest-news/participated-48th-annual-state-level-pala-sammilan-organized-parklane-kendujhar"}, {"id": "daskathia-kalahandi", "title": "Kalahandi district · Culture and Heritage", "resource": "https://kalahandi.odisha.gov.in/en/tourism/culture-Heritage"}, {"id": "pala-mahapatra1982", "title": "Sitakant Mahapatra, Poetry as Performance: The Origin and Development of Pala in Orissa", "resource": "https://www.sahapedia.org/sites/default/files/2019-03/Poetry%20as%20Performance.pdf"}, {"id": "pala-patra2017", "title": "Umesh Patra, Tracing the History and Evolution of Pala (2017)", "resource": "https://www.oralliterature.org/collaborations/lokaratna/Lokaratna_10.pdf"}, {"id": "pala-patra2021", "title": "Umesh Patra, The Evolution of a Hybrid Deity (2021)", "resource": "https://www.researchgate.net/publication/396970015_The_Evolution_of_a_Hybrid_Deity_Religious_Syncretism_in_the_Pala_Theatre_of_Odisha"}, {"id": "pala-narthaki-utsav2012", "title": "Pala and Daskathia Utsav, Narthaki (27 July 2012)", "resource": "https://www.narthaki.com/info/rev12/rev1245.html"}, {"id": "pala-sna-rout2016", "title": "Laxmidhar Rout — Sangeet Natak Akademi Award 2016", "resource": "https://sangeetnatak.gov.in/public/uploads/awardees/docs/Laxmidhar_Rout.pdf"}, {"id": "pala-os-gangadhar", "title": "Gangadhar Puhan — Odisha Sambad profile", "resource": "https://odishasambad.in/pala-profile-gayak-sourav-gangadhar-puhan/"}, {"id": "pala-culture-report2012", "title": "Culture Department activities 2012–13: Pala festival roster", "resource": "https://culture.odisha.gov.in/sites/default/files/2021-06/activities_report_culture_2012_13.pdf"}, {"id": "pala-sachidash-uks20261019", "title": "UKS TV catalogue: named Pala recordings", "resource": "https://www.youtube.com/@odiapala"}, {"id": "pala-ctms20261019", "title": "Culture Department cultural-troupe register, selected Pala entries", "resource": "https://ctms-ollc.odisha.gov.in/cts_registered?page=4"}, {"id": "pala-nie-pandemic2021", "title": "Pandemic-hit Pala artistes seek Odisha government aid", "resource": "https://www.newindianexpress.com/states/odisha/2021/Jul/17/pandemic-hit-pala-artistes-seek-odisha-government-aid-2331463.html"}, {"id": "pala-unesco-safeguarding2003", "title": "Convention for the Safeguarding of the Intangible Cultural Heritage", "resource": "https://www.unesco.org/en/legal-affairs/convention-safeguarding-intangible-cultural-heritage"}, {"id": "pala-os-raghu", "title": "Raghunath Nathsharma — Odisha Sambad profile", "resource": "https://odishasambad.in/pala-singer-raghunath-nathsharma/"}]
 human_review_claimed: false
 verification_scope: "Source-specific research; indexed-only passages distinguished from direct retrieval. Local/Odia review and media permissions pending."
 ---
 
 # Pala: poetry with people around it
 
-![A standing performer faces a seated gathering.](media/pala-nalconagar.webp)
+By Ahimanikya Satapathy
 
-*Nalconagar, 2013. Photograph by Subhashish Panigrahi, CC BY-SA 3.0; performer not identified here.*
+A Pala singer brings a verse to a gathering. The story grows through explanation, music, gesture and the voice that answers back.
 
-Look at the photograph: the gathering sits close to the performer. A hand is raised, a microphone waits, and faces turn towards the same point. The image cannot tell us which verse was being performed or what anyone was thinking. But it can suggest a question worth taking into an evening of Pala: what happens to a poem when it has people around it?
+In the Nalconagar photograph, people sit on mats around a standing performer. His raised hand and the drum beside the listeners draw attention to a small performance space beneath a bright canopy. Poetry here has people around it: a voice to carry the story, other performers to answer, and listeners to follow its turns.
 
-## The reader behind the voice
+Pala brings literary and devotional storytelling into performance. To follow it, listen beyond the main narrative. A comparison can explain a difficult verse; a gesture can change the meaning of an object; an answering voice can turn an elevated thought into a sharp joke.[^pala-patra2017][^pala-mahapatra1982]
 
-Jagannath Behera's 2009 Sangeet Natak Akademi citation describes reading across Odia, Bengali, Hindi, Sanskrit and English and bringing literary quotations into performance. That is one artist's documented practice at the time of an award—not a requirement for every performer.
+## Odisha’s literary culture, heard aloud
 
-The same citation names Harekrushna Nath, Bhagaban Singh and Harekrushna Swain as Behera’s teachers. Reading and learning from other performers belong together in this account. A quotation must be remembered, but it must also be placed where an audience can follow it.
+Pala connects Odisha’s literary culture with the work of listening together. A poem becomes a voice, a musical phrase, an explanation and an answer. A 2021 profile of Gangadhar Puhan describes his chhanda, champu, chaupadi and Odissi singing, and his interest in Bhanja literature and Udayanath Rathsharma’s poems and plays. These are one artist’s choices, showing how older literary forms can enter a present gathering.[^pala-os-gangadhar]
 
-That gives a visitor a useful question: which work is being brought into this story, and what does the comparison help explain? Asking for a title after the performance can turn an evening’s listening into a route back to a book.
+A performance can also send a listener back to a book. When a singer introduces a quotation, listen for where it comes from and why it belongs at that moment. Recognising the work is one pleasure; hearing an unfamiliar text explained is another. Pala’s devotional histories and its public humour open other paths into Odisha’s cultural life.
 
-Sources: [^pala-sna-behera2009].
+## The voice, the drum and the answer
 
-## An evening has more than one part
+Kalahandi district’s description of Palla names the Gayak, Bayak and Palias, alongside Mrudanga, Gini and Chamar. The Gayak leads the telling; the surrounding voices and percussion make it an ensemble performance. The district account places Palla around Bhawanipatna, Dharamgarh and M. Rampur and describes lyrical narration of Puranic and historical events. This is a local description, not a fixed cast list for all Odisha.[^daskathia-kalahandi][^pala-mahapatra1982]
 
-The Kalahandi district table describes Palla around Bhawanipatna, Dharamgarh and M. Rampur, naming Gayak, Bayak and Palias with Mrudanga, Gini and Chamar. It lists six participants and lyrical narration of Puranic and historical events. This is a local description, not a universal cast list.
+The lead singer does not carry every meaning alone. In Sitakant Mahapatra’s account, the Palia can answer an explanation with a pun or a contrary interpretation. The response may help an audience follow the story, but it can also interrupt its dignity. A serious claim has to survive the question or joke that follows it.[^pala-mahapatra1982]
 
-Umesh Patra’s 2017 study distinguishes seated Baithaki Pala, standing Thia Pala and competitive Badi Pala. The last brings two teams into a contest of wit. These terms help identify what sort of occasion one is watching; a seated devotional recitation and a dramatic contest ask different things of their listeners.
-
-Sources: [^daskathia-kalahandi], [^pala-patra2017].
+Umesh Patra’s 2017 study distinguishes seated Baithaki Pala, standing Thia Pala and competitive Badi Pala. Badi brings two teams into a contest of wit. Knowing the form changes how one listens: a household recitation and an exchange between competing singers have different expectations.[^pala-patra2017]
 
 ## How a story acquires a body
 
-Patra describes an invocation before the main narrative, followed by changes of role, verse explanation, song and movement. His Harischandra example shows the chamara, or fly-whisk, standing for a surrendered crown; elsewhere it can become a bow or trident. The object’s meaning changes through the performer’s action.
+Umesh Patra describes an invocation before the main narrative, followed by verse explanation, song, movement and changes of role. In his Harischandra example, a chamara, or fly-whisk, stands for the king’s surrendered crown; in other passages the same object can become a bow or trident. Its material has not changed. The performer’s action asks the audience to understand it differently.[^pala-patra2017]
 
-Sources: [^pala-patra2017].
+Watch for that change rather than looking only for elaborate scenery. What is the object at this moment? Which gesture made its meaning clear? Such questions help an unfamiliar listener follow the drama even before every literary reference is understood.
 
 ## When a familiar poem turns against power
 
-Sitakant Mahapatra’s essay, catalogued by Sahapedia as a 1982 publication, gives a precise example of literary humour. After lines by Gopabandhu Das imagine the speaker sacrificing his own body for the country, a Palia alters the thought: a selfish leader now expects the people to sacrifice themselves for him.
+Sitakant Mahapatra’s essay, published in 1982, describes a pointed use of Gopabandhu Das’s poetry. The original thought imagines the speaker sacrificing his own body for the country. In the Palia’s parody, a selfish leader expects the people to sacrifice themselves for him.[^pala-mahapatra1982]
 
-The force lies in the reversal. A listener who recognises the earlier poem hears what has been changed and can judge the leader against its ideal. Mahapatra describes the Palia offering contrary interpretations and puns; the accompanying voice can expose pretension as well as support the lead singer.
-
-This is why a joke may deserve as much attention as a solemn verse. The exchange can make an inherited poem speak to public behaviour. Here the example is paraphrased from Mahapatra’s printed explanation, not transcribed from a recording.
-
-Sources: [^pala-mahapatra1982].
+The reversal is small enough to recognise and large enough to change the argument. The earlier ideal remains in the listener’s mind, making the leader’s demand look worse. Mahapatra’s example shows how literary knowledge can become public criticism through an answering voice. Listen for what the joke changes: the words, the speaker or the person expected to bear the cost.
 
 ## Devotional history has more than one thread
 
-In his 2021 chapter, Patra places competing origin accounts beside the Satyapir narratives associated with Kabi Karna’s Shola Pala. He reads Satyapir through connections between Satyanarayana and the Muslim pir. The chapter’s cited verse brings Ram and Rahim, the Quran and Purana into a shared devotional language. This tells us about an aspiration to religious unity; it does not prove that every historical community shared the same practice.
+Pala’s devotional history has several accounts. In his 2021 chapter, Patra examines the Satyapir narratives associated with Kabi Karna’s Shola Pala and the relationship between Satyanarayana and the Muslim pir. He reads the chapter’s cited references to Ram and Rahim, the Quran and Purana as a shared devotional language.[^pala-patra2021]
 
-Mahapatra also distinguishes household ritual recitation from performances that develop a story through literary comparisons. His account gives Pala both a devotional setting and a literary life. A history must explain their relationship without assuming a single unchanging form.
+That is a literary interpretation of religious connection, not an established founding year or evidence that every community followed the same practice. Mahapatra distinguishes household ritual recitation from performances that develop a story through literary comparisons. Devotion, narrative and literary display can meet without being identical; the transmission of a text and the development of stage practice leave different historical questions.[^pala-mahapatra1982]
 
-A founding year cannot be established from these accounts alone. Stories about the name, manuscript transmission, worship and the later performance tradition answer different questions. The cited editions and scholarly interpretations are starting points for that history, not a continuous record of every stage.
+## Six artists and their work
 
-Sources: [^pala-patra2021], [^pala-mahapatra1982].
+Jagannath Behera drew on literary classics in Odia, Bengali, Hindi, Sanskrit and English. His 2009 Sangeet Natak Akademi citation names Harekrushna Nath, Bhagaban Singh and Harekrushna Swain as his teachers. His career brings the work behind a quotation into view: reading widely, learning from other performers and finding a place for another writer’s words in a telling.[^pala-sna-behera2009]
 
-## Named evenings, named choices
+Laxmidhar Rout’s 2016 Sangeet Natak Akademi citation records training under Damodar Sarangi and Baishnaba Charan Pradhan, teaching younger students, and work through Pala Pratishthan, Shree Jagannath Pala Research Foundation and a Nilachala Pala parishad in Kendrapara. It also names his book Udaharana Sataka. Performance, teaching and writing each gave him a way to pass the art on.[^pala-sna-rout2016]
 
-A report of the 19–21 July 2012 Pala and Daskathia Utsav at Rabindra Mandap, Bhubaneswar, makes the repertoire concrete. It credits Santilata Sahu with an episode about Hanuman’s meditation in Dwapara Yuga, Manorama Panda with Naga Jyoti, and Kumudini Patel with Sasirekha Parinaya. These women appear as named presenters, not an anonymous chorus.
+Raghunath Nathsharma’s singing joined Odissi, chhanda and champu with Sanskrit learning. A September 2020 profile reports that, after he retired from the stage, other singers still came to his home to learn. A performing career could continue through what he passed on.[^pala-os-raghu]
 
-The same report connects Laxman Charan Rout’s Mahadani Ajigarta with Pandit Bhimsen Vedapathi’s Ajigarttopakhyana. That is a useful trail from a performance title to a named literary work. We have verified the report, not a complete edition of that work or a recording of the evening.
+Santilata Sahu presented an episode about Hanuman’s meditation in Dwapara Yuga at the 19–21 July 2012 Pala and Daskathia Utsav at Rabindra Mandap, Bhubaneswar. The Culture Department roster identifies her as a Pala performer; the festival report gives her choice of story. Her name belongs beside that repertoire.[^pala-culture-report2012][^pala-narthaki-utsav2012]
 
-A festival listing tells us who was credited and what was announced. It cannot tell us exactly how a verse was explained, which passages were improvised or how each listener understood them. The programme also included Daskathia; sharing a stage does not make the two forms interchangeable.
+Manorama Panda presented Naga Jyoti at the same festival. The report names Jagannath Barik as her guru. Keeping her name, teacher and work together makes women’s contribution visible through a specific performance credit, while leaving room for a fuller account of her career.[^pala-narthaki-utsav2012]
 
-Sources: [^pala-narthaki-utsav2012].
-
-## What changes when time is shortened
-
-Patra records Prasant Nath Sharma’s 2014 concern that shorter programmes were squeezing out music, comedy and other material. Treat this as a performer’s dated account, not a measured decline everywhere. It raises a practical question: when a programme becomes shorter, which parts of the exchange disappear?
-
-Sources: [^pala-patra2017].
+Kumudini Patel presented Sasirekha Parinaya. Alongside Sahu and Panda, she appears in the government’s Pala roster and the festival account with her own repertoire. Remembering these women as individual artists gives future research a starting point for fuller biographies, teaching histories and recordings.[^pala-culture-report2012][^pala-narthaki-utsav2012]
 
 ## Literature in public life
 
-A Chief Minister's office report dated 28 December 2025 credits Pala singers and Bayaks with bringing Odia poetry to the public at the 48th state-level Pala Sammilan in Kendujhar. This records a dated gathering and its stated cultural purpose. It does not tell us attendance, earnings or today's event schedule.
+The Chief Minister’s office report of 28 December 2025 credits singers and Bayaks with bringing Odia poetry to the public at the 48th state-level Pala Sammilan in Kendujhar. The gathering places Pala in a continuing public conversation about literature. It is evidence of that event and its stated purpose, rather than a measure of artist earnings.[^pala-cm-sammilan2025]
 
-An award, a festival and a community evening each make an art visible in a different way. None gives a complete picture of the work of learning, rehearsal or earning a living. Paying attention to the supporting performers and the texts they help explain is one way a listener can see beyond the principal voice.
+## Why Pala deserves a future
 
-Sources: [^pala-cm-sammilan2025].
+The case for preserving Pala begins with the skills it joins together: explaining a poem, shaping its music, answering a fellow performer and holding a gathering’s attention. Books and recordings matter, but keeping those abilities in practice needs people learning from one another, with time and opportunities to perform.
 
-## Three things to carry into a listening evening
+Losing that practice would narrow the ways Odisha can encounter its own literature. It would weaken a form in which devotion can share space with wit, an unfamiliar text can be explained aloud, and a Palia can question the dignity of the main speaker. Those possibilities deserve a place in the lives of future performers and listeners.
 
-Confirm the actual occasion, duration and access with the host. Ask before recording, and respect a refusal. No current booking or performance invitation has been verified for this article.
+The conditions of the work matter. In an interview dated 14 June 2014, Prasant Nath Sharma told Patra that shorter programmes were squeezing out music, comedy and other material. A 2021 report records artists seeking help during pandemic disruption. Neither measures today’s statewide condition, but both make performance time and paid work part of the preservation question.[^pala-patra2017][^pala-nie-pandemic2021]
 
-A rewarding evening might leave you with one unfamiliar title and one artist's name. That is enough to start another journey.
+Support can take practical forms: paid apprenticeships, recurring performance opportunities, and recordings that name the ensemble and its repertoire. Teachers and performers should help decide what is documented and how it is shared. UNESCO’s 2003 safeguarding framework offers a useful principle here: transmission, community participation and room for a tradition to change. Applying that principle does not imply a UNESCO listing for Pala.[^pala-unesco-safeguarding2003]
 
-- A question: which poem, episode or text will we hear?
-- An introduction: who performs each part, and how would they like to be credited?
-- A little patience: let a phrase unfold before reaching for a translation or your phone.
+## Before you go
 
-## Sources and photograph
+Look for a dated programme that explicitly names Pala or Palla, and confirm it with the organiser before travelling. No forthcoming public performance was confirmed in the sources checked for this guide on 19 October 2026. The historical festivals described above and a troupe’s registration are enquiry leads, not bookings.
 
-[^pala-sna-behera2009]: [Jagannath Behera — Akademi Award: Pala (Orissa)](https://sangeetnatak.gov.in/public/uploads/awardees/docs/Jagannath_Behera.pdf) — Akademi Award 2009 citation: Jagannath Behera’s multilingual reading and literary quotations. Saved full-text evidence reused; later re-fetch timed out. One artist’s practice, not a requirement for all performers.
+The Odisha Culture Department’s CTMS register lets you search for troupes by district and lists their art categories. Its Music/Pala entries include troupes in Cuttack, Bhadrak and Kendujhar. Check the category as well as the name, then ask your host or guide to help establish whether there is a public programme or an invited visit. A household or devotional gathering requires the host’s invitation.[^pala-ctms20261019]
 
-[^pala-cm-sammilan2025]: [48th annual state-level Pala Sammilan at Parklane, Kendujhar](https://cm.odisha.gov.in/en/latest-news/participated-48th-annual-state-level-pala-sammilan-organized-parklane-kendujhar) — Full report dated 28 December 2025: 48th state-level Pala Sammilan, Kendujhar, and stated literary purpose. Saved inspection; no attendance, earnings or current schedule inferred.
+Ask about the form, starting time, duration and language. Will it be seated recitation, standing Pala or a Badi contest between teams? Request the episode’s title and a brief introduction; if you need help with Odia, arrange a companion who can explain the premise and discuss it afterwards. Confirm admission or fees, seating, step-free access, toilets and the return journey. English interpretation and particular facilities should not be assumed.
 
-[^daskathia-kalahandi]: [Kalahandi district · Culture and Heritage](https://kalahandi.odisha.gov.in/en/tourism/culture-Heritage) — Art-form table, row 17 (Palla). Saved full-table inspection; local description, not a statewide format, current roster or booking.
+## What to listen for
 
-[^pala-mahapatra1982]: [Sitakant Mahapatra, Poetry as Performance: The Origin and Development of Pala in Orissa](https://www.sahapedia.org/sites/default/files/2019-03/Poetry%20as%20Performance.pdf) — NCPA contribution hosted by Sahapedia; catalogue dates volume 11, issue 1 to 1 January 1982. Printed pp.28–32 distinguish ritual and literary presentation; p.33 supplies the Gopabandhu parody and Palia explanation. PDF text read and p.33 visually checked. No verse reproduced or new translation claimed; chronology and manuscript claims need separate verification.
+Follow a complete exchange. Notice the main singer’s explanation, the drum and the answering voices, then watch for a change of character or a prop taking on a new meaning. The Gopabandhu parody offers one question to carry with you: what has the reply changed? Ask about unfamiliar quotations during a suitable pause or afterwards.
 
-[^pala-patra2017]: [Umesh Patra, Tracing the History and Evolution of Pala (2017)](https://www.oralliterature.org/collaborations/lokaratna/Lokaratna_10.pdf) — Lokaratna X, article at PDF pages 39–54 (one-based; contents lists start 37). Forms at PDF 47–48, performance/prop examples at 48–49, Sharma account at 51 and interview date at 54. Full relevant text read; PDF 48 visually checked. Author observation and interviews, not our fieldwork or a statewide survey. Troupe counts and award-body wording are inconsistent and not adopted.
+To listen before travelling, UKS TV’s catalogue credits Sachidananda Dash and team with Guru Dakhina, and Nrusingha Hota and team with Rochak Ramayan. The links below offer a way to become familiar with the pace of a recorded performance. The publisher’s upload does not grant permission to reuse its footage.[^pala-sachidash-uks20261019]
 
-[^pala-patra2021]: [Umesh Patra, The Evolution of a Hybrid Deity (2021)](https://www.researchgate.net/publication/396970015_The_Evolution_of_a_Hybrid_Deity_Religious_Syncretism_in_the_Pala_Theatre_of_Odisha) — De Natura Fidei, volume II, pp.389–409, Authorspress. Author-uploaded full text: pp.400–405 origin narratives, Satyapir and cited verse. Publication 2021, upload 2025; dates are different. Literary interpretation only; neither a proven founding date nor independent corroboration of the author’s 2017 study. Underlying manuscripts were not inspected.
+## Supporting the artists
 
-[^pala-narthaki-utsav2012]: [Pala and Daskathia Utsav, Narthaki (27 July 2012)](https://www.narthaki.com/info/rev12/rev1245.html) — Full festival report reread 17 October 2026; event 19–21 July 2012. Named Pala presentations and credited literary work only. Byline absent; praise is the report’s assessment. No event recording, original literary edition, image reuse or current booking verified.
+Ask before photographing or recording, and ask separately about posting an extract. Respect a refusal, keep your phone silent and follow the host’s arrangements for seating, dress and devotional observances. Credit the whole ensemble and the work when the names are available.
 
-Photograph: [Subhashish Panigrahi](https://commons.wikimedia.org/wiki/File:Pala_performance_at_Nalconagar,_Odisha.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Resized and converted to WebP; derivative remains CC BY-SA 3.0.
+If commissioning a presentation or learning session, agree with the troupe on payment, preparation or teaching time, travel, duration and recording permissions. Let any shorter visitor introduction be a format agreed with the artists. Attend another programme, follow an artist-authorised recording or support an agreed teaching session: practical interest gives the work another occasion to continue.
 
-Source-based reader story prepared with AI assistance; practitioner and Odia review remain open. No founding date established. Scholarly examples and festival credits retain their dates and scope; no verses independently translated, audio acquired or current booking verified.
+## Planning and listening links
+
+- [Find registered troupes: Odisha Culture Department CTMS](https://ctms-ollc.odisha.gov.in/cts_registered?page=4) — Enquiry leads only; verify category, current programme and invitation.
+- [Culture Department announcements](https://culture.odisha.gov.in/en) — Check for a dated notice explicitly naming Pala; not every cultural festival includes it.
+- [Listen first: Guru Dakhina, Sachidananda Dash and team](https://www.youtube.com/watch?v=ES4fdzpvjgA) — UKS TV publisher recording; not a booking or permission to reuse.
+- [Listen first: Rochak Ramayan, Nrusingha Hota and team](https://www.youtube.com/watch?v=6vCaAth_Jgo) — UKS TV publisher recording; original performance date not verified.
+
+## Footnotes & Sources
+
+[^pala-sna-behera2009]: [Jagannath Behera — Akademi Award: Pala (Orissa)](https://sangeetnatak.gov.in/public/uploads/awardees/docs/Jagannath_Behera.pdf). Sangeet Natak Akademi, 2009 award citation, printed p. 38. Behera’s reading and named teachers are historical biographical statements about this artist.
+
+[^pala-cm-sammilan2025]: [48th annual state-level Pala Sammilan at Parklane, Kendujhar](https://cm.odisha.gov.in/en/latest-news/participated-48th-annual-state-level-pala-sammilan-organized-parklane-kendujhar). Chief Minister’s office report dated 28 December 2025, Kendujhar. Event edition and stated literary purpose; no attendance, earnings or current schedule supplied.
+
+[^daskathia-kalahandi]: [Kalahandi district · Culture and Heritage](https://kalahandi.odisha.gov.in/en/tourism/culture-Heritage). Kalahandi district Culture and Heritage table, row 17 (Palla). Local ensemble, objects and narrative description; undated, not a statewide cast list.
+
+[^pala-mahapatra1982]: [Sitakant Mahapatra, Poetry as Performance: The Origin and Development of Pala in Orissa](https://www.sahapedia.org/sites/default/files/2019-03/Poetry%20as%20Performance.pdf). NCPA contribution, volume 11, issue 1 (1982), hosted by Sahapedia. Printed pp. 28–33 discuss ritual/literary presentation and the Palia; p. 33 provides the Gopabandhu parody. Paraphrased here; no verse or new translation reproduced. The Gopabandhu example is a prose account, not a performance transcript.
+
+[^pala-patra2017]: [Umesh Patra, Tracing the History and Evolution of Pala (2017)](https://www.oralliterature.org/collaborations/lokaratna/Lokaratna_10.pdf). Lokaratna X (2017), one-based PDF pp. 47–49 for forms and performance examples; pp. 51, 54 for Sharma’s concern and 14 June 2014 interview date. The author’s observations and interviews are not this article’s fieldwork. Conflicting troupe counts and award-body wording are not adopted.
+
+[^pala-patra2021]: [Umesh Patra, The Evolution of a Hybrid Deity (2021)](https://www.researchgate.net/publication/396970015_The_Evolution_of_a_Hybrid_Deity_Religious_Syncretism_in_the_Pala_Theatre_of_Odisha). The Evolution of a Hybrid Deity, De Natura Fidei II, pp. 400–405, Authorspress 2021; author-uploaded text 2025. Origin accounts and Satyapir interpretation; underlying manuscript dates unverified. Related to the author’s 2017 study, not independent corroboration.
+
+[^pala-narthaki-utsav2012]: [Pala and Daskathia Utsav, Narthaki (27 July 2012)](https://www.narthaki.com/info/rev12/rev1245.html). Unsigned Narthaki festival report, 27 July 2012, covering 19–21 July at Rabindra Mandap. Named women performers, repertoire and Manorama Panda’s teacher; historical credits, not current activity. No performance recording inspected.
+
+[^pala-sna-rout2016]: [Laxmidhar Rout — Sangeet Natak Akademi Award 2016](https://sangeetnatak.gov.in/public/uploads/awardees/docs/Laxmidhar_Rout.pdf). Sangeet Natak Akademi Awards 2016, printed p. 43. Original citation visually inspected 19 October 2026: teachers, younger students, institutional teaching and Udaharana Sataka. Historical statements, not current offices or bookings. Laxmidhar Rout is distinct from Laxman Charan Rout, the Bhadrak performer named in the 2012 festival report.
+
+[^pala-os-gangadhar]: [Gangadhar Puhan — Odisha Sambad profile](https://odishasambad.in/pala-profile-gayak-sourav-gangadhar-puhan/). Odisha Sambad Bureau, 30 May 2021 profile of Gangadhar Puhan. Chhanda, champu, chaupadi, Odissi and Bhanja/Udayanath Rathsharma repertoire; attributed biography, not a current programme.
+
+[^pala-culture-report2012]: [Culture Department activities 2012–13: Pala festival roster](https://culture.odisha.gov.in/sites/default/files/2021-06/activities_report_culture_2012_13.pdf). Government of Odisha Culture Department activities 2012–13, PDF p. 6. Named Pala programme, 19–21 July 2012; distinguishes Pala from Daskathia. Historical roster, not an annual schedule.
+
+[^pala-sachidash-uks20261019]: [UKS TV catalogue: named Pala recordings](https://www.youtube.com/@odiapala). UKS TV catalogue and named credits inspected 19 October 2026. Guru Dakhina credits Sachidananda Dash and team; Rochak Ramayan credits Nrusingha Hota and team. Titles/player metadata, not full content analysis, audience measurement or reuse permission.
+
+[^pala-ctms20261019]: [Culture Department cultural-troupe register, selected Pala entries](https://ctms-ollc.odisha.gov.in/cts_registered?page=4). Government CTMS troupe register, page 4, rechecked 19 October 2026. Music/Pala listings provide enquiry leads; registration/update dates do not establish present activity, public admission, fees or booking availability.
+
+[^pala-nie-pandemic2021]: [Pandemic-hit Pala artistes seek Odisha government aid](https://www.newindianexpress.com/states/odisha/2021/Jul/17/pandemic-hit-pala-artistes-seek-odisha-government-aid-2331463.html). The New Indian Express, 17 July 2021: reported appeal for assistance during pandemic disruption. Dated hardship testimony; its statewide population and benefit figures are not adopted as current measurements.
+
+[^pala-unesco-safeguarding2003]: [Convention for the Safeguarding of the Intangible Cultural Heritage](https://www.unesco.org/en/legal-affairs/convention-safeguarding-intangible-cultural-heritage). UNESCO 2003 Convention, Articles 2, 13–15: transmission, changing practice, customary access and community participation. General safeguarding principles; no UNESCO inscription for Pala is asserted.
+
+[^pala-os-raghu]: [Raghunath Nathsharma — Odisha Sambad profile](https://odishasambad.in/pala-singer-raghunath-nathsharma/). Odisha Sambad Bureau, 27 September 2020. Retrospective account of Odissi, chhanda and champu singing and other singers visiting to learn after his stage retirement; a dated report, not current teaching availability.
 
 [Claim evidence and follow-up](../sources/pala-sounds-story-research.md).
+
+## Organisation and recording follow-up · 19 October 2026
+
+[Pala networks: Sachidananda Dash, UKS TV and organisations](pala-networks.md). A separate research follow-up distinguishes a cultural publisher, a registered troupe, association leads and a research foundation; contact overlap does not prove ownership or office.
+
+## Artist research · 19 October 2026
+
+[Twenty Pala artists](../people/pala-artists.md) — The artist collection connects named works, teaching, writing, festival participation and recordings; dated contributions are distinct from current availability.
 
 ## Preserved research overview · 1 October 2026
 

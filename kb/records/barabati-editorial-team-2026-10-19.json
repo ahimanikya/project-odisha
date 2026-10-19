@@ -1,0 +1,208 @@
+{
+  "recorded_at": "2026-10-19T03:25:11.677873+00:00",
+  "article": "UTP-EDIT-036",
+  "route": "/visit/places/barabati/",
+  "authorization": [
+    "UTP-DEC-2026101702",
+    "UTP-DEC-2026101901",
+    "UTP-DEC-225"
+  ],
+  "status": "verified_complete",
+  "reader_question": "What can Barabati’s surviving gateway, moat and mound tell us about the fort, and what requires evidence beyond what a visitor can see?",
+  "reuse_before_research": [
+    "research/destinations/central-details.json",
+    "research/destinations/regions.json",
+    "records/cuttack-editorial-source-mapping-2026-10-19.json",
+    "research/methods/research-map.md"
+  ],
+  "substantive_items_added": 0,
+  "executions": [
+    {
+      "role": "Disha",
+      "runtime": "/root",
+      "status": "handoff_recorded",
+      "reserved_write_paths": [],
+      "task": "Single article claim, integration, records and publication"
+    },
+    {
+      "role": "Anvesha",
+      "runtime": "/root/anvesha",
+      "status": "handoff_received",
+      "reserved_write_paths": [],
+      "task": "Read-only claim and source review; report evidence and specific proposed narrative",
+      "input_head": "be78f1f0753658b30aba2aa81a34e1768928cd71",
+      "findings": [
+        "Primary annual report provides excavation summary beyond tourism copy.",
+        "Distinguish physical gateway, reported excavation finds and lost-palace account.",
+        "Official chronology/royal attributions disagree; no unqualified foundation date or single phase adopted."
+      ],
+      "limitations": [
+        "Separate AI research, no archaeologist/human/field review.",
+        "No original charter, Ain-i-Akbari edition or detailed excavation plan inspected.",
+        "District direct retrieval failed; existing bibliographic knowledge plus indexed official text reused."
+      ]
+    },
+    {
+      "role": "Samanta",
+      "runtime": "/root/samanta",
+      "status": "handoff_received",
+      "reserved_write_paths": [],
+      "task": "Article-scoped presentation, portable reading and regression tests",
+      "input_head": "be78f1f0753658b30aba2aa81a34e1768928cd71",
+      "audit": "Reuse existing editorial opt-in and styling. Photo credible and hash unchanged. Existing tests use Barabati as unreviewed control; replace control with untouched Netaji.",
+      "changed_files": [
+        "projects/site/src/pages/visit/[kind]/[slug].astro",
+        "projects/site/src/data/destination-details.ts",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/tests-coast/barabati-editorial.test.mjs",
+        "projects/site/tests/barabati-reading-book.test.mjs",
+        "projects/site/tests-coast/dhauli-editorial.test.mjs",
+        "projects/site/tests/bhubaneswar-stay-editorial.test.mjs",
+        "projects/site/tests/mukteswar-editorial.test.mjs",
+        "projects/site/tests/next-twenty.test.mjs"
+      ],
+      "tests": {
+        "full_build": "pass",
+        "full_tests": 565,
+        "coast_build": "pass",
+        "coast_tests": 240,
+        "logs": [
+          "/tmp/samanta-barabati-tests-final.log",
+          "/tmp/samanta-barabati-coast-tests-final.log"
+        ],
+        "initial_runs": "An early test invocation ran before full build completion and failed missing artifacts; rerun sequentially. Initial new coastal selectors needed to accept Astro generated attributes; corrected tests, final full coastal suite passed."
+      },
+      "responsive": {
+        "desktop": [
+          1280,
+          900
+        ],
+        "mobile": [
+          390,
+          844
+        ],
+        "reading_width": 740,
+        "no_overflow": true,
+        "image_object_fit": "contain",
+        "visible_notes": 2,
+        "references": 4,
+        "exact_returns": 4,
+        "keyboard": "Enter follows reference and restores exact hash/focus: desktop report note2 return2; mobile district note1 return1. Further reading toggles open/closed; update remains outside.",
+        "screenshots": [
+          "/tmp/samanta-barabati-desktop-cover.png",
+          "/tmp/samanta-barabati-desktop-reading.png",
+          "/tmp/samanta-barabati-desktop-notes.png",
+          "/tmp/samanta-barabati-mobile-cover.png",
+          "/tmp/samanta-barabati-mobile-reading.png",
+          "/tmp/samanta-barabati-mobile-notes.png"
+        ]
+      },
+      "limitations": [
+        "Browser emulation, not physical devices or screen reader.",
+        "No field or human review."
+      ]
+    },
+    {
+      "role": "Drishti",
+      "runtime": "/root/drishti",
+      "status": "handoff_received",
+      "reserved_write_paths": [],
+      "task": "Separate review of integrated candidate after evidence and implementation",
+      "preliminary_review": {
+        "input_head": "1fd755e88d55e91ecc1c5a4dfc73f297732e1d61",
+        "scope": "Uncommitted source/copy only; not final implementation review.",
+        "finding": "No blocking factual/narrative issue. Visually inspected report p27 para4.22 and original gateway photograph; all six categories match and height/chronology limits retained."
+      },
+      "input_head": "64b9d5eb9eedbc6703f5e7814cb4375141860660",
+      "reviewed_head": "64b9d5eb9eedbc6703f5e7814cb4375141860660",
+      "result": "pass_with_limitations",
+      "findings": [
+        "No blockers in exact diff, sole-Barabati record changes, claim/source mapping, article/export behavior or six desktop/mobile screenshots.",
+        "Independently ran3 focused article/export tests, team/rollout checkers and whitespace check; all pass."
+      ],
+      "limitations": [
+        "Separate AI review, no human/archaeologist review.",
+        "Saved screenshots inspected, no new interactive, physical-device, print or live checks.",
+        "Full565/coast240 tests are Samanta execution evidence.",
+        "District source relies on recorded indexed evidence."
+      ],
+      "invocation_note": "Initial focused test invocation from repository root failed missing dist; rerun from site cwd passed3 tests. No implementation failure."
+    }
+  ],
+  "next_action": "After receipt integration, release claim and select next eligible queued article; reconcile actual workers and remote state first.",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/324",
+  "image_review": {
+    "reviewer": "Disha, AI coordinator",
+    "path": "/images/regions/barabati.jpg",
+    "sha256": "2962f3afd48583940ef59734331cd17ad891e6c2546600daaa3c8ebd044825a8",
+    "viewed": true,
+    "finding": "Retain original dated documentary view: masonry gateway, arch opening, approach road, fences, vegetation and overhead wires are visible. No reconstruction or guessed palace added. Full frame preserves the entrance and its modern setting. Photo does not establish original date, lost building height or current access.",
+    "creator": "Rahul66wiki",
+    "date": "2016",
+    "license": "CC BY-SA4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Entrance_to_the_Barabati_fort.jpg",
+    "changes": "No image-byte change; keep existing resize/compression history and credit."
+  },
+  "reader_gain": "Explains how a surviving entrance, a primary excavation summary and a lost-palace description support different claims; gives concrete finds and questions for evaluating a reconstruction.",
+  "source_inspection": [
+    {
+      "id": "cuttack-district",
+      "url": "https://cuttack.odisha.gov.in/en/about-district/district-profile",
+      "method": "Existing KB bibliographic/extracted-knowledge record plus current indexed official text; direct web retrieval failed.",
+      "limits": "Not a complete page capture or present access inspection."
+    },
+    {
+      "id": "barabati-culture-report-1993-94",
+      "url": "https://culture.gov.in/files/annual_reports_document/MoC_Annual_Report_1993-1994.pdf#page=30",
+      "publication_identity": "Ministry of Human Resource Development, Department of Culture, Annual Report (Part II), 1993–94",
+      "locator": "Printed p27 para4.22; PDF page30 of114. Publication identity inspected by Anvesha on PDFpage3/printedp1.",
+      "method": "Direct public PDF downloaded after web-reader502. Scanned page image extracted and visually read by Anvesha; root also viewed the page image. No useful extractable text.",
+      "sha256": "2aad9213100db10164045e992e3b887b9e6bdbc999326e6ca063facb8e012b02",
+      "page_image_sha256": "1201cf5c9c11fec65172fc4aa09b389346247c3876eb5c152783f600e1464035",
+      "limits": "Primary administrative summary, not full excavation publication. No floor count, dimensions, phase dates or present access established."
+    }
+  ],
+  "chronology_unresolved": {
+    "district_history": "https://cuttack.odisha.gov.in/en/about-district/history",
+    "tourism": "https://odishatourism.gov.in/en/places/barabati-fort",
+    "state_account": "https://odisha.gov.in/en/odisha-tourism/important-tourist-pointscuttack",
+    "finding": "Indexed official summaries differ: district history credits Anangabhima III/1229; tourism describes earlier Somavanshi foundation and later expansion; state account separates fort from Mukunda Deva palace attribution. No reconciliation proven; dates excluded, qualification in footnote. These summaries are not independent archaeological demonstrations."
+  },
+  "passages": [
+    {
+      "id": "detail-0",
+      "source_ids": [
+        "cuttack-district"
+      ]
+    },
+    {
+      "id": "detail-2",
+      "source_ids": [
+        "barabati-culture-report-1993-94"
+      ]
+    },
+    {
+      "id": "detail-3",
+      "source_ids": [
+        "cuttack-district",
+        "barabati-culture-report-1993-94"
+      ]
+    }
+  ],
+  "canonical_copy": "research/destinations/central-details.json#places/barabati",
+  "sources": "research/destinations/barabati-editorial.json",
+  "coordinator_checks": [
+    "Only Barabati central record changed; all other central records/top-level fields preserved.",
+    "Bundle, autonomous programme, team checker and8 team tests pass; research map and whitespace checks pass."
+  ],
+  "article_complete": true,
+  "publication_receipt": "records/barabati-editorial-publication-2026-10-19.json",
+  "final_reviewed_head": "65f38a1aa9335254ff5c664ef767098d14035f26",
+  "final_merge_review": {
+    "role": "Drishti",
+    "runtime": "/root/drishti",
+    "head": "65f38a1aa9335254ff5c664ef767098d14035f26",
+    "result": "pass_with_limitations",
+    "scope": "Separate AI integrated64b9d5eb, review-record697304ba and merge-preservation7be2db87/65f38a1a review; not human or specialist review."
+  }
+}

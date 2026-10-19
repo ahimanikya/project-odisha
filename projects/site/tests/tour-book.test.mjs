@@ -59,3 +59,12 @@ test('both portable editions retain practical guidance, source trail and escaped
   assert.equal((html.match(/href="https:\/\/example.org\/source"/g)||[]).length,1);
  }
 });
+
+test('portable entries credit only their explicit author and escape the HTML byline',()=>{
+ const credited=[{...entries[0],author:'Guest Writer <example>'},entries[1]];
+ const html=buildTourBook(plan,credited);
+ assert.match(html,/<p class="byline">By Guest Writer &lt;example&gt;<\/p>/);
+ assert.equal((html.match(/class="byline"/g)||[]).length,1);
+ assert.doesNotMatch(html,/<p class="byline">By Ahimanikya Satapathy/);
+ assert.match(html,/Editorial preview/);
+});

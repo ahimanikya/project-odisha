@@ -1,0 +1,58 @@
+{
+  "recorded_at": "2026-10-18T21:04:56.689065+00:00",
+  "route": "/visit/stays/rajhans-satapada/",
+  "reader_question": "How does an overnight stay at Rajhans differ from staying near the road arrival at Satapada, and what must fit together before booking?",
+  "canonical_copy": "research/destinations/details.json#stays/rajhans-satapada",
+  "reader_sources": "research/destinations/rajhans-satapada-editorial.json",
+  "passages": [
+    {
+      "id": "detail-0",
+      "source_ids": [
+        "tourism-satapada-access",
+        "ecotour-rajhans-camp"
+      ]
+    },
+    {
+      "id": "detail-1",
+      "source_ids": [
+        "ecotour-rajhans-camp"
+      ]
+    }
+  ],
+  "source_inspections": [
+    {
+      "source_id": "tourism-satapada-access",
+      "finding": "How to Reach: road access through Puri and Brahmagiri. Fixed hours, nearby-distance labels and wildlife promises are not adopted here."
+    },
+    {
+      "source_id": "ecotour-rajhans-camp",
+      "finding": "Camp overview, How to reach and published guidelines: accommodation on Rajhans sandbar, boat access from Satapada and limited supply runs. Read 18 October 2026; room quality, availability, prices and actual transfer arrangements have not been independently confirmed."
+    }
+  ],
+  "inspection_method": "Odisha Tourism actual text read through web tool. EcoTour JavaScript camp page rendered in browser and actual overview, access and guidelines inspected; captures /tmp/raj-source-camp.txt and /tmp/raj-source-overview.txt. No contact or booking.",
+  "excluded_material": [
+    "EcoTour overview mixes gateways and gives conflicting directional/road-distance descriptions: no distances, journey times or sector labels used.",
+    "Displayed date-specific availability, prices, promotional quality and AC/facility assertions excluded.",
+    "Legacy chilika-bases URL previously returned 404; replaced for this article only. Historical references preserved.",
+    "Tourism Rajhans day-package read but not used as evidence of overnight arrangements or current departure schedules."
+  ],
+  "original_material": [
+    "Practical questions about return connections, luggage, companion needs, room inspection and itemised terms are original advice, not local service confirmations."
+  ],
+  "image_review": {
+    "src": "/images/chilika/chilika-lake-hellohappy.webp",
+    "sha256": "0c07d18090ac7a1d7fc4e9a61f16e8eed3633ac1db1c11d84ab2586b9d06543c",
+    "result": "Retain documentary regional photograph, full frame, Hellohappy credit and CC BY-SA 4.0. Explicitly not the camp, rooms or transfer boat; visual check recorded in review."
+  },
+  "reuse": [
+    "research/methods/research-map.md",
+    "research/destinations/chilika.json",
+    "research/destinations/satapada-editorial.json",
+    "research/destinations/satapada-boating-editorial.json"
+  ],
+  "limitations": [
+    "Same-assistant review, not independent human review.",
+    "No property visit, provider contact or current transfer/service confirmation.",
+    "Editorial rollout only; zero substantive500 increment."
+  ]
+}

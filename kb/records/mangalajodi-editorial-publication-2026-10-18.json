@@ -1,0 +1,221 @@
+{
+  "recorded_at": "2026-10-18T01:55:48.195481+00:00",
+  "authorization": [
+    "UTP-DEC-2026101702",
+    "UTP-DEC-225"
+  ],
+  "work_id": "UTP-WORK-302",
+  "queue_item": "UTP-EDIT-022",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/302",
+  "reviewed_head": "192018bc84f57b9ac6c106a1928204c788023a8a",
+  "merge_commit": "8f7211804abe2f9a2244f07d7f175cca2d1143a0",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "192018bc84f57b9ac6c106a1928204c788023a8a",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39087812571"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "8f7211804abe2f9a2244f07d7f175cca2d1143a0",
+    "jobs": [
+      {
+        "completedAt": "2026-10-18T01:54:25Z",
+        "conclusion": "success",
+        "databaseId": 117558614228,
+        "name": "build",
+        "startedAt": "2026-10-18T01:52:17Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-10-18T01:52:20Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-10-18T01:52:18Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T01:52:29Z",
+            "conclusion": "success",
+            "name": "Run actions/checkout@v6",
+            "number": 2,
+            "startedAt": "2026-10-18T01:52:20Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T01:52:32Z",
+            "conclusion": "success",
+            "name": "Run actions/setup-node@v7",
+            "number": 3,
+            "startedAt": "2026-10-18T01:52:29Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T01:52:32Z",
+            "conclusion": "success",
+            "name": "Run actions/configure-pages@v6",
+            "number": 4,
+            "startedAt": "2026-10-18T01:52:32Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T01:52:41Z",
+            "conclusion": "success",
+            "name": "Run npm ci",
+            "number": 5,
+            "startedAt": "2026-10-18T01:52:32Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T01:53:12Z",
+            "conclusion": "success",
+            "name": "Run npm run build",
+            "number": 6,
+            "startedAt": "2026-10-18T01:52:41Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T01:53:21Z",
+            "conclusion": "success",
+            "name": "Run npm test",
+            "number": 7,
+            "startedAt": "2026-10-18T01:53:12Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T01:54:03Z",
+            "conclusion": "success",
+            "name": "Run npm run build:coast",
+            "number": 8,
+            "startedAt": "2026-10-18T01:53:21Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T01:54:09Z",
+            "conclusion": "success",
+            "name": "Run npm run test:coast",
+            "number": 9,
+            "startedAt": "2026-10-18T01:54:03Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T01:54:11Z",
+            "conclusion": "success",
+            "name": "Run npm run build:publication",
+            "number": 10,
+            "startedAt": "2026-10-18T01:54:09Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T01:54:22Z",
+            "conclusion": "success",
+            "name": "Run actions/upload-pages-artifact@v5",
+            "number": 11,
+            "startedAt": "2026-10-18T01:54:11Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T01:54:22Z",
+            "conclusion": "success",
+            "name": "Post Run actions/setup-node@v7",
+            "number": 21,
+            "startedAt": "2026-10-18T01:54:22Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T01:54:23Z",
+            "conclusion": "success",
+            "name": "Post Run actions/checkout@v6",
+            "number": 22,
+            "startedAt": "2026-10-18T01:54:22Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T01:54:23Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 23,
+            "startedAt": "2026-10-18T01:54:23Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39088030284/job/117558614228"
+      },
+      {
+        "completedAt": "2026-10-18T01:54:45Z",
+        "conclusion": "success",
+        "databaseId": 117559000189,
+        "name": "deploy",
+        "startedAt": "2026-10-18T01:54:29Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-10-18T01:54:30Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-10-18T01:54:29Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T01:54:44Z",
+            "conclusion": "success",
+            "name": "Publish approved website",
+            "number": 2,
+            "startedAt": "2026-10-18T01:54:30Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-18T01:54:44Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 3,
+            "startedAt": "2026-10-18T01:54:44Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39088030284/job/117559000189"
+      }
+    ],
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39088030284"
+  },
+  "verified_routes": [
+    "/visit/places/mangalajodi/"
+  ],
+  "live_checks": {
+    "checked_at": "2026-10-18T01:55:22.226507+00:00",
+    "url": "https://projectodisha.org/visit/places/mangalajodi/",
+    "http_status": 200,
+    "byline": true,
+    "canonical_paragraphs_present": true,
+    "visible_notes": 3,
+    "references": 6,
+    "exact_returns": 6,
+    "image": {
+      "http_status": 200,
+      "sha256": "a07dc76946d677bbdef4982bc1e4270c54e570b0685498acaab40d235eb17bfd"
+    },
+    "robots": "noindex, follow",
+    "sitemap_count": 11,
+    "regression_http": {
+      "/visit/experiences/mangalajodi-birdwatching/": 200,
+      "/visit/stays/mangalajodi/": 200,
+      "/visit/places/raghurajpur/": 200,
+      "/odia-poetry-jhula/": 200
+    },
+    "limitations": "HTTP/content/media checks; local responsive browser review is recorded separately."
+  },
+  "test_review": "records/mangalajodi-editorial-review-2026-10-18.json",
+  "source_mapping": "records/mangalajodi-editorial-source-mapping-2026-10-18.json",
+  "concurrent_work": "Integrated PR301 Jhula changes without changing their content or evidence; reconciled both append-only activity entries and register additions. Combined reviewed head passed full CI.",
+  "attachment_note": "PR attachment attempted; app returned thread attachment identity count exceeds 100. PR URL retained here.",
+  "counting": "One editorial article completed; zero substantive500 items.",
+  "limitations": [
+    "No independent human or naturalist review claimed.",
+    "No field visit, current guide, boat or facilities confirmation.",
+    "Community conservation history is attributed at the broad source level; no individual history invented."
+  ],
+  "browser_review": "Actual live page opened: Founder byline, complete narrative and visible notes present; bird image loaded. Enter on ethics marker focused its source note and return focused exact ref-detail-3-aba-birding-ethics. Responsive local checks recorded in review."
+}

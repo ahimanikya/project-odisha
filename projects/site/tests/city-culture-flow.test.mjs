@@ -26,5 +26,5 @@ test('Mangalajodi activity uses a distinct credited real boat image',()=>{
  const place=read('visit/places/mangalajodi'),activity=read('visit/experiences/mangalajodi-birdwatching');
  assert.ok(activity.includes('/images/destinations/mangalajodi-boat.jpg'));
  assert.ok(!place.includes('/images/destinations/mangalajodi-boat.jpg'));
- for(const value of ['Neerakiran','https://creativecommons.org/licenses/by-sa/4.0/','not a verified operator'])assert.ok(activity.includes(value));
+ for(const value of ['Neerakiran','https://creativecommons.org/licenses/by-sa/4.0/','does not identify a currently available service'])assert.ok(activity.includes(value));
 });
