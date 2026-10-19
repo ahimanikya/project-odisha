@@ -808,3 +808,8 @@ Sudasa rice/filling and source-specific offering-distribution instructions recon
 ## 2026-10-11 · Khudurukuni and maritime review
 
 Khudurukuni print and food-term and source-specific offering-distribution instructions reconciled into existing draftPR145. No human review or public release.
+
+
+## 18 October 2026 · Weekly primary-publisher checks
+
+All17 watch tracks attempted with partial availability. Six30June2026Odisha internet observations (31.15million subscriptions) and three rounded quarterly comparisons added from new12OctoberTRAIreport. FourParadip cargo observations through16October and two matched calculations added: FY-to-date−0.05%,1–16October+12.36%. Retained earlier vintages, adverse/flat outcomes, known conflicts and unavailable source statuses. No human review claimed. [Ports](statistics/ports.md) · [Digital connectivity](statistics/digital-connectivity.md).

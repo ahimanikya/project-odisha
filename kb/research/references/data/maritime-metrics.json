@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-11",
+  "as_of": "2026-10-18",
   "source_catalog": "source-catalog.json",
   "observations": [
     {
@@ -290,6 +290,96 @@
       "inputs": [
         "weekly-paradip-20261011-oct-2025",
         "weekly-paradip-20261011-oct-2026"
+      ],
+      "formula": "(end/start-1)*100",
+      "calculation": "percentage_change"
+    },
+    {
+      "id": "weekly-paradip-20261017-ytd-2026",
+      "label": "Total cargo throughput, matched partial period",
+      "value": 83028371,
+      "unit": "metric tonnes",
+      "period": "1April–16October2026 (FY2026–27, partial year)",
+      "scope": "Partial-period port movements; not full-year output, capacity, Odisha-origin exports or unique consignments. Wider hinterland; daily administrative totals may be revised.",
+      "source_ids": [
+        "weekly-paradip-20261017"
+      ],
+      "locator": "PDF/printed page2 cargo footer; report17October, cargo cut-off16October2026",
+      "checked_on": "2026-10-18",
+      "period_coverage": "financial_year_to_date"
+    },
+    {
+      "id": "weekly-paradip-20261017-ytd-2025",
+      "label": "Total cargo throughput, matched partial period",
+      "value": 83067471,
+      "unit": "metric tonnes",
+      "period": "1April–16October2025 (FY2025–26, partial year)",
+      "scope": "Partial-period port movements; not full-year output, capacity, Odisha-origin exports or unique consignments. Wider hinterland; daily administrative totals may be revised.",
+      "source_ids": [
+        "weekly-paradip-20261017"
+      ],
+      "locator": "PDF/printed page2 cargo footer; report17October, cargo cut-off16October2026",
+      "checked_on": "2026-10-18",
+      "period_coverage": "financial_year_to_date"
+    },
+    {
+      "id": "weekly-paradip-20261017-oct-2026",
+      "label": "Total cargo throughput, matched partial period",
+      "value": 7064399,
+      "unit": "metric tonnes",
+      "period": "1–16October2026 (sixteen days)",
+      "scope": "Partial-period port movements; not full-year output, capacity, Odisha-origin exports or unique consignments. Wider hinterland; daily administrative totals may be revised.",
+      "source_ids": [
+        "weekly-paradip-20261017"
+      ],
+      "locator": "PDF/printed page2 cargo footer; report17October, cargo cut-off16October2026",
+      "checked_on": "2026-10-18",
+      "period_coverage": "sixteen_days"
+    },
+    {
+      "id": "weekly-paradip-20261017-oct-2025",
+      "label": "Total cargo throughput, matched partial period",
+      "value": 6287421,
+      "unit": "metric tonnes",
+      "period": "1–16October2025 (sixteen days)",
+      "scope": "Partial-period port movements; not full-year output, capacity, Odisha-origin exports or unique consignments. Wider hinterland; daily administrative totals may be revised.",
+      "source_ids": [
+        "weekly-paradip-20261017"
+      ],
+      "locator": "PDF/printed page2 cargo footer; report17October, cargo cut-off16October2026",
+      "checked_on": "2026-10-18",
+      "period_coverage": "sixteen_days"
+    },
+    {
+      "id": "weekly-paradip-20261017-ytd-change",
+      "label": "Matched partial-period Paradip cargo change",
+      "value": -0.04707017022342885,
+      "unit": "percent",
+      "period": "Matched financial-year-to16October comparison, not annualized.",
+      "scope": "Daily administrative partial-period comparison, not annualized.",
+      "source_ids": [
+        "weekly-paradip-20261017"
+      ],
+      "inputs": [
+        "weekly-paradip-20261017-ytd-2025",
+        "weekly-paradip-20261017-ytd-2026"
+      ],
+      "formula": "(end/start-1)*100",
+      "calculation": "percentage_change"
+    },
+    {
+      "id": "weekly-paradip-20261017-oct-change",
+      "label": "Matched partial-period Paradip cargo change",
+      "value": 12.357658251292536,
+      "unit": "percent",
+      "period": "Matched 1–16October comparison, not annualized.",
+      "scope": "Daily administrative partial-period comparison, not annualized.",
+      "source_ids": [
+        "weekly-paradip-20261017"
+      ],
+      "inputs": [
+        "weekly-paradip-20261017-oct-2025",
+        "weekly-paradip-20261017-oct-2026"
       ],
       "formula": "(end/start-1)*100",
       "calculation": "percentage_change"

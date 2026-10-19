@@ -5,7 +5,7 @@ description: "Digital Connectivity — source-linked research, scope and reuse n
 tags: ["statistics", "digital-connectivity"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
-sources: [{"id": "connect-internet2024", "title": "Indian Telecom Services Yearly Performance Indicators 2023–24", "resource": "https://www.trai.gov.in/sites/default/files/2024-09/Report_14082024.pdf"}, {"id": "connect-internet2025", "title": "Indian Telecom Services Yearly Performance Indicators 2024–25", "resource": "https://www.trai.gov.in/sites/default/files/2025-07/YIR_08072025_0.pdf"}, {"id": "weekly-trai-mar2026", "title": "TRAI telecom performance indicators, January–March 2026", "resource": "https://trai.gov.in/sites/default/files/2026-06/QPIR_22062026.pdf"}]
+sources: [{"id": "connect-internet2024", "title": "Indian Telecom Services Yearly Performance Indicators 2023–24", "resource": "https://www.trai.gov.in/sites/default/files/2024-09/Report_14082024.pdf"}, {"id": "connect-internet2025", "title": "Indian Telecom Services Yearly Performance Indicators 2024–25", "resource": "https://www.trai.gov.in/sites/default/files/2025-07/YIR_08072025_0.pdf"}, {"id": "weekly-trai-mar2026", "title": "TRAI telecom performance indicators, January–March 2026", "resource": "https://trai.gov.in/sites/default/files/2026-06/QPIR_22062026.pdf"}, {"id": "weekly-trai-jun2026", "title": "TRAI Indian Telecom Services Performance Indicators, April–June 2026", "resource": "https://www.trai.gov.in/sites/default/files/2026-10/QPIR_12102026.pdf"}]
 subjects: ["economy", "everyday", "people"]
 updated: {"by": "codex/gpt-6", "at": "2026-09-30T19:27:48-07:00", "scope": "Context and classification; underlying source-check dates retained."}
 ---
@@ -65,3 +65,20 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 ## Annual edition check · 11 October 2026
 
 TRAI’s annual2025–26 report, released5October, repeats the six March2026 Odisha values already stored:18.74 million rural,11.81 million urban and30.56 million total internet subscriptions; densities49.30,129.15 and64.79 per100 respectively. No new observation or growth calculation is added. These are subscriptions rather than unique people; rounded components are retained as printed. [Original annual report](https://www.trai.gov.in/sites/default/files/2026-10/YIR_05102026.pdf), Table1.43, printed p.67/PDF p.69, Odisha row19. This publication is another edition of the same reporting system, not independent corroboration.
+
+## Internet subscriptions reach 31.15 million · 30 June 2026
+
+**Odisha had 31.15 million internet subscriptions at the end of June, up about 1.93% from 30.56 million in March.** TRAI released the April–June report on 12 October. This is a quarterly stock comparison, not a weekly series or a count of unique people.[^weekly-trai-jun2026]
+
+| State-based measure | 31 March 2026 | 30 June 2026 |
+|---|---:|---:|
+| Rural subscriptions, million | 18.74 | 18.82 |
+| Urban subscriptions, million | 11.81 | 12.33 |
+| Total subscriptions, million | 30.56 | 31.15 |
+| Rural subscriptions per 100 people | 49.30 | 49.48 |
+| Urban subscriptions per 100 people | 129.15 | 134.32 |
+| Total subscriptions per 100 people | 64.79 | 65.97 |
+
+Counts and densities are retained as printed. People can hold multiple subscriptions; density above 100 does not establish universal access. March’s rounded rural and urban components sum to 30.55 million while its reported total is 30.56 million. Changes use the published series rather than replacing totals with component sums. These administrative figures do not measure connection quality or daily use.
+
+[^weekly-trai-jun2026]: [TRAI, April–June 2026 report](https://www.trai.gov.in/sites/default/files/2026-10/QPIR_12102026.pdf), Table1.43, printed p.56/PDF p.76, Odisha row19. Prior March values retain their original source records.

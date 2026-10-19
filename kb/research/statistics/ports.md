@@ -5,7 +5,7 @@ description: "Ports — source-linked research, scope and reuse notes."
 tags: ["statistics", "ports"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
-sources: [{"id": "connect-paradip2025", "title": "Paradip Port Cements Its Position As Numero Uno among Indian Major Ports, 2 April 2025", "resource": "https://paradipport.gov.in/all_news/paradip-port-cements-its-position-as-numero-uno-among-indian-major-ports-second-consecutive-time-in-a-row/"}, {"id": "connect-paradip2026", "title": "Paradip Port Authority: Major Achievements", "resource": "https://paradipport.gov.in/major-achievements/"}, {"id": "weekly-paradip-oct2026", "title": "Paradip Port Authority daily traffic report, 11 October 2026", "resource": "https://www.paradipport.gov.in/uploads/2026/10/dtr1110.pdf"}, {"id": "trade-basic-port-statistics2025", "title": "Basic Port Statistics of India 2024–25", "resource": "https://shipmin.gov.in/sites/default/files/BPS%202024-25_compressed.pdf"}]
+sources: [{"id": "connect-paradip2025", "title": "Paradip Port Cements Its Position As Numero Uno among Indian Major Ports, 2 April 2025", "resource": "https://paradipport.gov.in/all_news/paradip-port-cements-its-position-as-numero-uno-among-indian-major-ports-second-consecutive-time-in-a-row/"}, {"id": "connect-paradip2026", "title": "Paradip Port Authority: Major Achievements", "resource": "https://paradipport.gov.in/major-achievements/"}, {"id": "weekly-paradip-oct2026", "title": "Paradip Port Authority daily traffic report, 11 October 2026", "resource": "https://www.paradipport.gov.in/uploads/2026/10/dtr1110.pdf"}, {"id": "trade-basic-port-statistics2025", "title": "Basic Port Statistics of India 2024–25", "resource": "https://shipmin.gov.in/sites/default/files/BPS%202024-25_compressed.pdf"}, {"id": "weekly-paradip-20261017", "title": "Paradip Port Authority daily traffic report, 17 October 2026", "resource": "https://www.paradipport.gov.in/uploads/2026/10/dtr1710.pdf"}]
 subjects: ["economy", "places"]
 updated: {"by": "codex/gpt-6", "at": "2026-09-30T19:27:48-07:00", "scope": "Context and classification; underlying source-check dates retained."}
 ---
@@ -90,3 +90,16 @@ Paradip’s average vessel turn-round time was 58.08, 53.16, 46.27, 41.24 and 44
 **Hold the 2023–24 non-major total:** Table30 reports54.75 million tonnes; Table31 reports54.24. The respective displayed components sum to54.76 and54.25. Preserve both reported totals and locations pending clarification; no state growth or commodity-share calculation uses this disputed denominator. The 2024–25 total is52.08 in both tables.
 
 [Original ministry report](https://shipmin.gov.in/sites/default/files/BPS%202024-25_compressed.pdf), printed pp.23,41–42 / PDF pp.33,51–52; checked4October2026.
+
+## Financial-year cargo is flat through 16 October · checked 18 October 2026
+
+**Paradip handled 83.028 million tonnes through 16 October, down 0.05% from the same point a year earlier.** The prior-year total was 83.067 million tonnes; the difference is −39,100 tonnes. The 17 October report closes cargo on 16 October. This is a partial-year comparison, separate from full-year history.[^weekly-paradip-20261017]
+
+| Matched window | 2025, metric tonnes | 2026, metric tonnes | Calculated change |
+|---|---:|---:|---:|
+| 1 April–16 October | 83,067,471 | 83,028,371 | −0.05% |
+| 1–16 October | 6,287,421 | 7,064,399 | +12.36% |
+
+October’s stronger start coexists with nearly flat financial-year cargo. Neither window is a forecast or an annualized rate. Port movements include inward and outward cargo serving a wider hinterland; they do not measure Odisha-origin exports or economic impact. Earlier dated snapshots remain above, with their own cut-offs.
+
+[^weekly-paradip-20261017]: [Paradip Port Authority, daily report 17 October 2026](https://www.paradipport.gov.in/uploads/2026/10/dtr1710.pdf), PDF/printed p.2 cargo footer.
