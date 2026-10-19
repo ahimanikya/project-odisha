@@ -1,6 +1,6 @@
 {
   "recorded_at": "2026-10-19T04:09:39.908903+00:00",
-  "status": "reviewed_candidate",
+  "status": "integrated",
   "input_head": "3e78e2efec7c1a3ef01858be208c378b20636d81",
   "old_code": "UTP",
   "new_code": "POD",
@@ -19,7 +19,7 @@
       "role": "Disha",
       "runtime": "/root",
       "scope": "Config, canonical current identity docs, shared registers, migration record and integration",
-      "status": "active"
+      "status": "complete"
     },
     {
       "role": "Anvesha",
@@ -56,9 +56,9 @@
       "role": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Read-only integrated review",
-      "status": "exact_head_review_received",
-      "finding": "PASS with documented limitations; combined concurrent candidate requires a separate follow-up review.",
-      "reviewed_head": "dfece7c1d6484f597e52fa3b12844c5fba6b12aa"
+      "status": "complete",
+      "finding": "PASS on final integrated candidate; requiredCI passed beforemerge. Separate AI review, not human review.",
+      "reviewed_head": "70f5922aca8632b716483aa7ce9beeb41a89e221"
     }
   ],
   "updated_user_request": "Can we migrate old ID to new?",
@@ -659,7 +659,7 @@
   "originals_manifest": "history/evidence/project-id-migration-2026-10-19/manifest.json",
   "collision_resolution": "Moved new unpublished migration decision/work to suffix2026101902 and event to2026101909 before mapping; existing team activation retains suffix2026101901. No identities merged.",
   "audit": "records/project-id-migration-audit-2026-10-19.json",
-  "next_action": "Review combined candidate, pass required checks and merge.",
+  "next_action": "Use POD IDs for all canonical updates and new records; resolve historical UTP IDs through the explicit aliases.",
   "deployment": "Only site policy approval identifier changes to the migrated ID of the same human decision. No changed public page, asset, search routes or runtime output; no deployment required for the identifier migration. Full publication build and regression test required.",
   "concurrent_integration": {
     "head": "73a155fb0f5f775aaa93d09289224e6814c75285",
@@ -715,5 +715,6 @@
       "UTP-REV-2026101801"
     ],
     "scope": "Incoming register records and footer source preserved; only migration records appended and namespace migrated."
-  }
+  },
+  "integration_receipt": "records/project-id-migration-integrated-2026-10-19.json"
 }
