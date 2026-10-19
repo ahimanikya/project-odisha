@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `6e54d53deb3163efa9d5bf46d04691212c2fdda216cab9077cab2e448f493fa7`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `70a473731151a9485283fe2d9f7111db6fe3af896be4f1c07912f805d2efd201`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -321,7 +321,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-299 · Deepen Dalkhai song, occasion and stage context | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, song-language review and recovered source PDFs remain open for future research. | — |
 | UTP-WORK-300 · Deepen Pala literary performance, forms and repertoire | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/Odia review and manuscript evidence remain open for future research. | — |
 | UTP-WORK-301 · Deepen Dhemsa community, movement and occasion | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/language review and field evidence remain open for future research. | — |
-| UTP-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Continue UTP-EDIT-034 Bhubaneswar Painted Streets: inspect individual sources, archive dates, images and template before revision. Twenty-five editorial articles completed, nine exclusions; substantive500 remains112. | — |
+| UTP-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Publish reviewed UTP-EDIT-034 through passing PR checks and approved main workflow; verify live receipt before completion. Substantive500 remains112. | — |
 | UTP-WORK-2026101701 · Publish two Pattachitra Jhula choices | completed | published | Ahimanikya Satapathy | Review the live Pattachitra choices. | — |
 | UTP-WORK-2026101801 · Coherent Jhula story and collection overview | in_progress | reviewed | Ahimanikya Satapathy | Finish responsive review, publish and verify live. | — |
 
@@ -934,6 +934,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-294 | pass_with_limitations | False | Same-assistant review, not independent human or specialist review.; No temple visit, access confirmation, practitioner interview or current festival programme verification.; Broad tenth-century dating only; no named sculptor, exact construction year or unsupported patron attribution.; Browser emulation, not physical-device or screen-reader testing.; Zero substantive500 increment. |
 | UTP-REV-295 | pass_with_limitations | False | Same-assistant review, not independent human or specialist review.; No restaurant visit, tasting, maker interview or current menu, price or walk confirmation.; Published recipes are examples; no food-safety or nutritional advice adopted.; Retrospective origin story distinguished from the chef’s modern adaptation; 2016 testimony remains dated reporting.; Browser emulation, not physical-device or screen-reader testing.; Zero substantive500 increment. |
 | UTP-REV-296 | pass_with_limitations | False | Same-assistant review, not independent human or specialist review.; No accommodation inspection, verified transfer time, room availability or provider confirmation.; Browser emulation, not physical-device or screen-reader testing.; Zero substantive500 increment. |
+| UTP-REV-297 | pass_with_limitations | False | Same-assistant review, not independent human or specialist review.; No artist, workshop, ritual purpose, exact street or present condition confirmed.; Original recollections and 2009 dates preserved; later cultural sources are context, not commission evidence.; Zero substantive500 increment.; Browser emulation, not physical-device or screen-reader testing.; Visual reinspection covers eight featured photographs; remaining original archive views retained, not newly identified. |
 
 ## Publication and application history
 
@@ -1153,7 +1154,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026101817 | 2026-10-18T20:00:58.888532+00:00 | Reviewed Barkul/Rambha stay comparison with individual official property sources, clear itinerary limits, Founder byline and visible footnotes. Full553/coast236 tests and responsive keyboard checks passed; publication pending. No substantive500 increment. | — |
 | UTP-EVT-2026101818 | 2026-10-18T20:08:52.386424+00:00 | Published Barkul/Rambha stay guide through reviewed PR310 and approved main workflow. Verified live article, byline, two visible notes with exact returns, complete reading and unchanged regional image. UTP-EDIT-029 complete; zero substantive500 increment. | — |
 | UTP-EVT-2026101819 | 2026-10-18T21:07:45.751862+00:00 | Reviewed Rajhans/Satapada stay comparison with individual official camp/access sources, clear itinerary limits, Founder byline and visible footnotes. Full555/coast236 tests and responsive keyboard checks passed; publication pending. No substantive500 increment. | — |
 | UTP-EVT-2026101820 | 2026-10-18T21:18:08.566481+00:00 | Published Rajhans/Satapada stay guide through reviewed PR311 and approved main workflow. Verified live article, byline, two visible notes with three exact returns, complete reading and unchanged regional image. UTP-EDIT-030 complete; zero substantive500 increment. | — |
@@ -1163,6 +1163,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026101824 | 2026-10-18T23:11:17.686661+00:00 | Published Bhubaneswar meal guide through reviewed PR313 and approved main workflow. Verified live narrative, Founder byline, five visible notes with six exact returns and unchanged credited Puri photograph. UTP-EDIT-032 complete; zero substantive500 increment. | — |
 | UTP-EVT-2026101901 | 2026-10-19T00:08:16.267509+00:00 | Reviewed Bhubaneswar stay guide with sourced city context, clearer address/arrival/room comparisons and retained documentary photograph. Full561/coast236 and desktop/mobile keyboard checks passed; publication pending. Zero substantive500 increment. | — |
 | UTP-EVT-2026101902 | 2026-10-19T00:16:54.031916+00:00 | Published Bhubaneswar stay guide through reviewed PR314 and approved main workflow. Verified live article, byline, one visible note with exact return, complete narrative/options and unchanged documentary photograph. UTP-EDIT-033 complete; zero substantive500 increment. | — |
+| UTP-EVT-2026101903 | 2026-10-19T01:10:28.961836+00:00 | Reviewed Bhubaneswar photographic archive: visible eight-image reading, Founder byline, preserved photographer and unknown-artist credits, updated cultural sources and12 visible notes. Full562/coast237 and responsive/keyboard gallery checks passed; publication pending. Zero substantive500 increment. | — |
 
 ## Deferred extensions
 
