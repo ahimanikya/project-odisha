@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e835bab65a17ffc5374f7f2e82332998e7cd2e7bef8500357cbeb0cf9963b6f4`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `ae90793c496ebb83291adee59c32309c8d32ae1db39efa6c8d9bf67ce3ed0a8a`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -1170,7 +1170,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026101909 | 2026-10-19T04:10:43.416372+00:00 | Apply Founder-requested migration: canonical Project Odisha IDs and live references move from UTP to POD with suffixes preserved. Original changed files and ledgers archived byte-for-byte; exact aliases retain old-reference lookup. Tests and separate review pending. | — |
 | POD-EVT-2026101910 | 2026-10-19T04:37:28.234946+00:00 | Integrated full UTP-to-POD migration after separateAI review and passing requiredchecks.3705 exactaliases preserve historicalreferences; originalfiles archived. Continuing-work automation updated. No programmecredit. | — |
 | POD-EVT-20261019102 | 2026-10-19T04:31:07.232980+00:00 | Published and browser-verified the shared footer link to Odia Poetry Jhula via PR 332. | — |
 | POD-EVT-20261019103 | 2026-10-19T04:39:48.073290+00:00 | Organized shared footer into balanced navigation groups and removed the detached decorative strip at the founder’s request. | — |
@@ -1180,6 +1179,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261019107 | 2026-10-19T06:40:16.689949+00:00 | Family migration integrated through Project Odisha PR341 and Blueprint PR3 after separate AI review and passing available checks. No commercial activation or substantive programme credit. | — |
 | POD-EVT-20261019108 | 2026-10-19T07:07:15.803455+00:00 | Claimed POD-EDIT-039 Netaji museum article after prior receipts integrated. Inspected autobiography, current museum source and retained photograph; preparing authored reading and visible notes. Separate review and publication pending; zero substantive programme credit. | — |
 | POD-EVT-20261019109 | 2026-10-19T07:22:09.760133+00:00 | Published and live-verified POD-EDIT-039 Netaji museum article via PR344 and approved deployment39215016274. Separate AI source review, visible notes, portable reading and responsive checks retained;32 editorial entries complete, substantive programme112 unchanged. | — |
+| POD-EVT-20261019110 | 2026-10-19T08:12:23.730497+00:00 | Prepared POD-EDIT-040 Cuttack stay guide with bounded Anvesha research and Samanta implementation. Full566 and coastal258 tests pass; desktop/mobile review complete. Separate review and publication pending; no programme credit. | — |
 
 ## Deferred extensions
 

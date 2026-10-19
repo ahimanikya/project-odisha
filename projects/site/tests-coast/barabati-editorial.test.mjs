@@ -15,7 +15,7 @@ test('Barabati has a credited reading and visible exact source returns without c
  assert.equal(refs.length,editorial.passages.reduce((n,p)=>n+p.source_ids.length,0));
  assert.equal(new Set(refs.map(r=>r[1])).size,refs.length);
  for(const [,ref,note] of refs){assert.equal(html.split(`id="${note}"`).length-1,1);assert.equal(html.split(`href="#${ref}"`).length-1,1);}
- const other=read('/visit/stays/cuttack/');
+ const other=read('/visit/stays/balasore-coast/');
  assert.doesNotMatch(other,/class="article-byline"|id="story-sources"/);
  assert.match(other,/Drafted with AI assistance/);
 });

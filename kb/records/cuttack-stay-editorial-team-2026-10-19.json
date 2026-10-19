@@ -1,0 +1,87 @@
+{
+  "recorded_at": "2026-10-19T08:03:22.567571+00:00",
+  "article_id": "POD-EDIT-040",
+  "route": "/visit/stays/cuttack/",
+  "status": "in_progress",
+  "input_head": "83db2ca615228958cf6b2acaaa830c354d067adf",
+  "authorization": "POD-DEC-225",
+  "central_question": "How should a visitor compare staying in Cuttack with retaining a Bhubaneswar base, using actual access needs and return arrangements rather than unverified hotel rankings or travel times?",
+  "acceptance": [
+    "Inspect existing regional and stay research, current cited transport source and documentary image.",
+    "Explain three stay choices and useful access/booking questions without claiming inspected accommodation or current services.",
+    "Founder byline, visible numbered source notes, restrained attribution, readable paragraphs, collapsed further reading, visible update link and concise portable reading.",
+    "Separate AI review, tests, desktop/mobile inspection, approved deployment and live receipt before completion."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only existing research, current source and image audit",
+      "status": "complete",
+      "findings": "Inspected existing KB, indexed official How to Reach text and local Barabati photograph. Unsupported neighborhood lodging groupings removed. Direct source retrieval failed; no inspected accommodation or transport timings claimed.",
+      "source_urls": [
+        "https://cuttack.odisha.gov.in/en/tourism/how-to-reach",
+        "https://commons.wikimedia.org/wiki/File:Entrance_to_the_Barabati_fort.jpg"
+      ],
+      "input_head": "83db2ca615228958cf6b2acaaa830c354d067adf"
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/pages/visit/[kind]/[slug].astro",
+        "projects/site/src/data/destination-details.ts",
+        "projects/site/src/data/journey-catalog.ts",
+        "kb/research/destinations/cuttack-stay-editorial.json",
+        "projects/site/tests-coast/cuttack-stay-editorial.test.mjs",
+        "projects/site/tests-coast/barabati-editorial.test.mjs",
+        "projects/site/tests-coast/netaji-museum-editorial.test.mjs",
+        "projects/site/tests-coast/tarakasi-editorial.test.mjs",
+        "projects/site/tests-coast/dhauli-editorial.test.mjs",
+        "projects/site/tests/barabati-reading-book.test.mjs",
+        "projects/site/tests/bhubaneswar-stay-editorial.test.mjs",
+        "projects/site/tests/mukteswar-editorial.test.mjs",
+        "projects/site/tests/next-twenty.test.mjs",
+        "projects/site/src/data/book-photos.ts",
+        "projects/site/tests-coast/cuttack-literature.test.mjs"
+      ],
+      "status": "handoff_received",
+      "input_head": "83db2ca615228958cf6b2acaaa830c354d067adf",
+      "tests": [
+        "Source map, image hash and option-schema test passed; syntax and whitespace passed.",
+        "Four Cuttack literature tests passed after updating only obsolete neighborhood expectations."
+      ],
+      "limits": [
+        "Implementer did not build, publish or perform rendered browser review."
+      ]
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Separate read-only integrated review",
+      "status": "pending"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": "Cuttack stays entry only in central-details.json, shared records, integration, browser checks and publication",
+      "status": "in_progress"
+    }
+  ],
+  "concurrency": "PR345 Netaji receipt integrated; no active team worker. External PR304 statistics and PR281 Ashoka retained.",
+  "substantive_items_added": 0,
+  "human_review_claimed": false,
+  "media_review": {
+    "reviewer": "Disha",
+    "kind": "Direct visual inspection of retained documentary JPEG",
+    "path": "/images/regions/barabati.jpg",
+    "finding": "Stone gateway, road, trees and fencing; useful Cuttack city context, not an image of accommodation or proof of access. Retain source, creator and CC BY-SA rights."
+  },
+  "coordinator_checks": [
+    "Full build408 routes and fullsuite566/566 passed.",
+    "Initial coastalsuite256/258: obsolete neighborhood expectations and missing illustrated-book photo mapping corrected; final rebuild pending.",
+    "Caught option key label/area mismatch before build consumed article; corrected to existing schema. One preliminary local edit used incorrect working directory and made no change; rerun in repository root succeeded.",
+    "Desktop1440/mobile390 rendered review: reading widths740/343.195px, no horizontal overflow, imageobject-fitcontain. Keyboard source return restored exact reference focus; Further reading keyboard toggle works. Mobile contents must be expanded before selecting section.",
+    "Final coastal build395routes and258/258tests passed; final publication build retains11indexablepages."
+  ]
+}
