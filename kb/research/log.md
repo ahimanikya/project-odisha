@@ -820,3 +820,7 @@ User-requested [twenty-artist collection](people/pala-artists.md) and structured
 ## Pala history, preservation and visitors ·19October2026
 
 Expanded the existing Pala narrative using saved artist/network and literary evidence; added UNESCO’s general safeguarding principles and rechecked CTMS discovery scope. History, interpretation, editorial advice and unknown current visitor arrangements remain distinct. Reconciled stale machine-readable form/award fields without changing the initial nucleus or queue criteria. New [structured supplement](references/data/pala-preservation-visit.json) records gaps and visitor unknowns.
+
+## Pala reader revision · 19 October 2026
+
+Founder-approved revision retains By Ahimanikya Satapathy, the credited documentary photograph, visible sources, collapsed reading paths and visible update action. Six artist introductions now give women individual repertoire credits; saved sources support teaching and literary examples. Repeated cautions are shortened and visitor guidance consolidated into Before you go, What to listen for and Supporting the artists. Earlier origin, livelihood and visitor-availability gaps remain. Separate AI evidence review completed; quality and publication evidence follow in the team handoff. No substantive500 count increment.

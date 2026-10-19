@@ -56,8 +56,9 @@
       "role": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Read-only integrated review",
-      "status": "preliminary_review_received",
-      "finding": "No blockers. Independently checked585 original files against Git and manifest,1269 protected-file hashes,20 prefix tests, exact legacy lookup and retained authority/quotes/statuses. Final exact-head review pending."
+      "status": "exact_head_review_received",
+      "finding": "PASS with documented limitations; combined concurrent candidate requires a separate follow-up review.",
+      "reviewed_head": "9ec2fffcb00e83257e48a335d7344c935c728b1f"
     }
   ],
   "updated_user_request": "Can we migrate old ID to new?",
@@ -658,6 +659,30 @@
   "originals_manifest": "history/evidence/project-id-migration-2026-10-19/manifest.json",
   "collision_resolution": "Moved new unpublished migration decision/work to suffix2026101902 and event to2026101909 before mapping; existing team activation retains suffix2026101901. No identities merged.",
   "audit": "records/project-id-migration-audit-2026-10-19.json",
-  "next_action": "Commit for separate exact-head review; required checks and merge before recording completed integration.",
-  "deployment": "No public page, asset, hosting or website runtime changed; repository metadata and identifier validation migration. Required CI still builds and tests the site."
+  "next_action": "Review combined candidate, pass required checks and merge.",
+  "deployment": "No public page, asset, hosting or website runtime changed; repository metadata and identifier validation migration. Required CI still builds and tests the site.",
+  "concurrent_integration": {
+    "head": "73a155fb0f5f775aaa93d09289224e6814c75285",
+    "preservation": "history/evidence/project-id-migration-2026-10-19/concurrent-pala-manifest.json",
+    "files": [
+      "kb/log.md",
+      "kb/records/article-editorial-rollout.json",
+      "kb/records/article-editorial-work-list.md",
+      "kb/records/editorial-workbench.json",
+      "kb/records/pala-editorial-source-mapping-2026-10-19-before-reader-revision.json",
+      "kb/records/pala-editorial-source-mapping-2026-10-19.json",
+      "kb/records/pala-reader-revision-team-2026-10-19.json",
+      "kb/research/culture/pala-website.json",
+      "kb/research/culture/pala.md",
+      "kb/research/log.md",
+      "kb/research/references/data/pala-preservation-visit.json",
+      "kb/research/search-index.json",
+      "kb/team/operations.json",
+      "projects/site/src/pages/sounds-of-odisha/pala.astro",
+      "projects/site/tests-coast/pala-editorial.test.mjs",
+      "projects/site/tests-coast/pala-story.test.mjs"
+    ],
+    "new_aliases": [],
+    "ownership": "Preserved incoming Pala article claim, handoff and queue status. Migration does not take the article scope."
+  }
 }

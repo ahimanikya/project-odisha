@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/barabati-editorial-team-2026-10-19.json",
+  "handoff_home": "records/pala-reader-revision-team-2026-10-19.json",
   "roles": [
     {
       "name": "Disha",
@@ -38,14 +38,15 @@
     }
   ],
   "loop": [
-    "Read AGENTS.md, current team assignments/operations, editorial standard, rollout, current registers and latest handoff. Inspect working tree, remote queue and open PRs before claiming work. Use canonical POD identifiers for existing and new records; resolve old UTP references through the exact identifier map. Preserve original evidence.",
+    "Read AGENTS.md, current team assignments/operations, editorial standard, rollout, current registers and latest handoff. Inspect working tree, remote queue and open PRs before claiming work.",
     "Resume the existing active article or explicit handoff first. Keep one article in progress. An external worker retains its scope until observed completion or explicit handoff; age of a timestamp alone is not abandonment.",
     "Coordinator reserves the article and file scopes. Spawn/reuse Anvesha and Samanta for independent subtasks of the same article; sequence dependent steps. Load their role and governance context. No separate article claims by workers. Save exact reserved file paths, runtime and handoff status in the handoff record before edits; release them explicitly on completion.",
     "Workers return input head, actual changed files or findings, tests performed, evidence limits and next action. Coordinator integrates, resolves findings and records the resulting head.",
     "Spawn/reuse Drishti to review the integrated head separately from authors/implementers. Resolve blocking findings and recheck affected work. A separate AI review is never recorded as a human or specialist review.",
     "Coordinator checks required PR checks, exact reviewed head, current remote ownership and existing publication jobs; merge and publish only under existing Founder authorization. Save actual live checks and receipt before completing the article.",
     "Retain the article claim through receipt integration. Release the claim and choose the next eligible article only after this. Zero substantive500 credit for setup, formatting, tests or process work.",
-    "On wake/restart reconcile handoff with actual Git, queue, PR and deployment state. Recreate missing subagents under this assignment; do not claim old runtime IDs are still active. If unavailable, record that limitation and do not label one-assistant role passes independent review."
+    "On wake/restart reconcile handoff with actual Git, queue, PR and deployment state. Recreate missing subagents under this assignment; do not claim old runtime IDs are still active. If unavailable, record that limitation and do not label one-assistant role passes independent review.",
+    "Read AGENTS.md, current team assignments/operations, editorial standard, rollout, current registers and latest handoff. Inspect working tree, remote queue and open PRs before claiming work. Use canonical POD identifiers for existing and new records; resolve old UTP references through the exact identifier map. Preserve original evidence."
   ],
   "boundaries": [
     "No human reports to AI; Founder remains sole human final authority.",
@@ -54,18 +55,16 @@
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
   "current_article": {
-    "id": "POD-EDIT-036",
-    "route": "/visit/places/barabati/",
+    "id": "POD-EDIT-144",
+    "route": "/sounds-of-odisha/pala/",
     "owner": "Disha",
     "coordinator_runtime": "/root",
-    "phase": "receipt_integrated",
-    "branch": "codex/barabati-editorial-20261019",
-    "input_head": "be78f1f0753658b30aba2aa81a34e1768928cd71",
-    "file_reservations": "records/barabati-editorial-team-2026-10-19.json#executions",
-    "prior_external_scope_resolution": "Cuttack receipt PR323 merged; remote main matches local; open PR304 statistics and281 Ashoka are unrelated; no in-progress article remains.",
-    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/324",
-    "publication_receipt": "records/barabati-editorial-publication-2026-10-19.json",
-    "release_note": "Article published and checked; receipt prepared for records-only review. Verify integration before claiming another article."
+    "phase": "awaiting_checks_and_publication",
+    "branch": "codex/pala-reader-revision-20261019",
+    "input_head": "3e78e2efec7c1a3ef01858be208c378b20636d81",
+    "file_reservations": "records/pala-reader-revision-team-2026-10-19.json#executions",
+    "prior_external_scope_resolution": "Barabati receipt integrated on main; open PR304 and281 unrelated; no other live article claim. Explicit Founder Pala revision takes priority.",
+    "reviewed_content_head": "f4a8af4a4138509c3b6058bfd9312a558ff4a6a0"
   },
   "project_identity": "reference/project-identity.md"
 }

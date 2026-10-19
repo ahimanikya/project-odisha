@@ -34,14 +34,13 @@ test('Pala has individually mapped visible notes and exact passage return links'
 
 test('Pala visitor guidance distinguishes enquiry links from current performance offers',()=>{
  assert.ok(story.blocks.some(b=>b.title==='Why Pala deserves a future'));
- assert.ok(story.blocks.some(b=>b.title==='Finding a performance during your visit'));
- assert.ok(story.blocks.some(b=>b.title==='Enjoy the evening, even if Odia is new to you'));
+ for(const title of ['Before you go','What to listen for','Supporting the artists']) assert.ok(story.blocks.some(b=>b.title===title));
  assert.ok(html.includes('id="planning-links"'));
  for(const link of story.visitor_links){assert.ok(html.includes(escape(link.url)));assert.ok(html.includes(escape(link.purpose)));}
  const evidence=JSON.parse(readFileSync('../../kb/research/references/data/pala-preservation-visit.json','utf8'));
  assert.equal(evidence.visitor_status.forthcoming_public_event_confirmed,false);
  assert.equal(evidence.visitor_status.price,null);
  assert.equal(evidence.visitor_status.booking_availability,null);
- assert.ok(html.includes('No forthcoming public performance is confirmed'));
- assert.ok(html.includes('It is not a claim that Pala has a UNESCO listing.'));
+ assert.ok(html.includes('No forthcoming public performance was confirmed'));
+ assert.ok(story.sources.find(s=>s.id==='pala-unesco-safeguarding2003').reader_note.includes('no UNESCO inscription'));
 });
