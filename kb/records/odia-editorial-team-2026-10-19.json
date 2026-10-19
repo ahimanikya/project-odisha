@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-19T17:43:26.702337+00:00",
   "article_id": "POD-EDIT-042",
   "route": "/languages/odia/",
-  "status": "in_progress",
+  "status": "published_receipt_integration_pending",
   "input_head": "740e2e5dc2110f1bcd00ee32259efd9ab16b4b45",
   "authorization": "POD-DEC-225",
   "classification": "Authored language introduction with linked literature and dated population inset.",
@@ -61,13 +61,26 @@
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Read-only integrated exact-head review",
-      "status": "awaiting_candidate_review"
+      "status": "completed",
+      "input_head": "1058f1848ea789ffa957ef0da607a21f559090c5",
+      "result": {
+        "role": "Drishti",
+        "runtime": "/root/drishti",
+        "head": "1058f1848ea789ffa957ef0da607a21f559090c5",
+        "result": "pass_with_limitations",
+        "scope": "Independent inspection of captured government essay and its hash, selected Rebati text, CIIL metadata, original Census rows, source/media preservation and complete exports. Thirty focused tests and record checks passed.",
+        "limitations": [
+          "Separate AI review, not human or language-specialist approval.",
+          "Responsive browser and keyboard checks performed by coordinator using emulation.",
+          "Wikisource transcription not collated against a facsimile or critical edition; CIIL catalogue inspected, not the full book."
+        ]
+      }
     },
     {
       "name": "Disha",
       "runtime": "/root",
       "scope": "Only languages/odia entry in collection.json and necessary source metadata, shared records, integration and publishing",
-      "status": "in_progress"
+      "status": "receipt_integration_pending"
     }
   ],
   "concurrency": "Prior receipt PR349 observed merged; prior team workers completed. External PR304 statistics and PR281 Ashoka excluded.",
@@ -150,5 +163,24 @@
     "limits": [
       "Browser emulation, not physical-device or screen-reader testing."
     ]
+  },
+  "release": {
+    "article_pr": 350,
+    "reviewed_head": "1058f1848ea789ffa957ef0da607a21f559090c5",
+    "merge_commit": "b4ee11801d1c684e5ece5c799a3039007a58fc46",
+    "validation": {
+      "conclusion": "success",
+      "databaseId": 39298166671,
+      "headSha": "1058f1848ea789ffa957ef0da607a21f559090c5",
+      "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39298166671"
+    },
+    "deployment": {
+      "conclusion": "success",
+      "databaseId": 39298740324,
+      "headSha": "b4ee11801d1c684e5ece5c799a3039007a58fc46",
+      "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39298740324"
+    },
+    "receipt": "records/odia-editorial-publication-2026-10-19.json",
+    "integration_gate": "Retain ownership until this publication receipt PR merges. No next article claim before observed merge."
   }
 }

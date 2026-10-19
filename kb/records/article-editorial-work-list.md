@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 395. completed: 34, excluded: 10, in_progress: 1, queued: 350.
+Route inventory: 395. completed: 35, excluded: 10, queued: 350.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -55,7 +55,7 @@ Route inventory: 395. completed: 34, excluded: 10, in_progress: 1, queued: 350.
 | POD-EDIT-039 | [Netaji Birthplace Museum](https://projectodisha.org/visit/experiences/cuttack-netaji/) | completed | Individually revise the museum reading with autobiography context, clear evidence boundaries, authored reading and visible notes. |
 | POD-EDIT-040 | [Choose a Cuttack base](https://projectodisha.org/visit/stays/cuttack/) | completed | Individually revise the Cuttack stay-area guide: practical choices, access questions, restrained sourcing and authored reading; no property recommendations. |
 | POD-EDIT-041 | [Languages of Odisha](https://projectodisha.org/languages/) | completed | Authored introductory reading with a language directory; review its prose and source mapping, not all linked profiles. |
-| POD-EDIT-042 | [Odia](https://projectodisha.org/languages/odia/) | in_progress | Individually revise Odia introduction, its source mapping, credited images, population inset and portable reading; linked literary profiles remain separate. |
+| POD-EDIT-042 | [Odia](https://projectodisha.org/languages/odia/) | completed | Individually revise Odia introduction, its source mapping, credited images, population inset and portable reading; linked literary profiles remain separate. |
 | POD-EDIT-043 | [Odia Literature](https://projectodisha.org/literature/) | queued | classification_pending |
 | POD-EDIT-044 | [Fakir Mohan Senapati](https://projectodisha.org/people/fakir-mohan-senapati/) | queued | classification_pending |
 | POD-EDIT-045 | [Six Acres and a Third](https://projectodisha.org/literature/six-acres-and-a-third/) | queued | classification_pending |
