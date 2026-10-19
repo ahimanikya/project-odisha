@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-19T16:18:00.692149+00:00",
   "article_id": "POD-EDIT-041",
   "route": "/languages/",
-  "status": "published_receipt_integration_pending",
+  "status": "receipt_integrated",
   "input_head": "7a2657a1d35f73117f8eb7715fd29b6ae3631e20",
   "authorization": "POD-DEC-225",
   "classification": "Authored introductory reading with a language directory; review its prose and source mapping, not all linked profiles.",
@@ -70,7 +70,7 @@
       "name": "Disha",
       "runtime": "/root",
       "scope": "Only languages entry in collection.json, shared records, integration, browser checks and publication",
-      "status": "receipt_integration_pending"
+      "status": "completed"
     }
   ],
   "concurrency": "Prior receiptPR347 merged at7a2657a1; prior workers completed. ExternalPR304 statistics andPR281 Ashoka retained.",
@@ -150,7 +150,14 @@
     "deployment_run": 39294900998,
     "status": "published_live_verified",
     "attachment_note": "Attachment attempted; app identity limit100 reached.",
-    "receipt": "records/languages-editorial-publication-2026-10-19.json"
+    "receipt": "records/languages-editorial-publication-2026-10-19.json",
+    "receipt_integration": {
+      "pr": 349,
+      "head": "e9b58eb18a7306293dcd2def4c0260215fb3a4d5",
+      "merge": "740e2e5dc2110f1bcd00ee32259efd9ab16b4b45",
+      "validation_run": 39295552101,
+      "review": "Separate Drishti AI receipt review PASS."
+    }
   },
-  "ownership": "Disha retains claim until this receipt PR merges; do not start the next article."
+  "ownership": "Released after receipt PR349 merged at740e2e5dc2110f1bcd00ee32259efd9ab16b4b45; workers completed."
 }

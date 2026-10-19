@@ -1,0 +1,154 @@
+{
+  "recorded_at": "2026-10-19T17:43:26.702337+00:00",
+  "article_id": "POD-EDIT-042",
+  "route": "/languages/odia/",
+  "status": "in_progress",
+  "input_head": "740e2e5dc2110f1bcd00ee32259efd9ab16b4b45",
+  "authorization": "POD-DEC-225",
+  "classification": "Authored language introduction with linked literature and dated population inset.",
+  "central_question": "What can an Odia manuscript, a named literary work and a learning resource tell a reader about the language—and what does a census entry actually count?",
+  "acceptance": [
+    "Inspect existing KB and actual source material before rewriting; explain through specific supported examples.",
+    "Founder byline, comfortable reading, visible numbered sources and exact returns, collapsed onward links and visible update notice.",
+    "Retain manuscript and writer image rights, save/download identity and all population data and paths. Portable reading carries narrative and short source list.",
+    "Separate AI review, meaningful tests, responsive review, approved publish and live receipt before completion."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only existing article, source and image audit; concrete supported narrative recommendations",
+      "status": "handoff_received",
+      "input_head": "740e2e5dc2110f1bcd00ee32259efd9ab16b4b45",
+      "findings": [
+        "Direct Rebati community transcription inspected: opening household and Basudev teaching/primer paragraphs. Fictional listening, letters and household disagreement; no publication-priority claim.",
+        "Original C16 workbook ZIP/XML checked: row101 individual Odia31507158, denominator41974218=>75.1%; topdistrict rows14129/9812/12880 match existingJSON; sourcehashbc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db.",
+        "Fakir bust photo visually inspected; Commons creatorSubhashishPanigrahi/date14Jan2014/licenceCCBY-SA4.0 confirmed; manuscriptunchangedprioraudit.",
+        "Independently inspected Disha’s recovered government HTML and final prose: selected Poetry paragraph and Ganeswar Mishra credit support the attributed account. The footer date is not an essay publication date."
+      ],
+      "limits": [
+        "Worker overview/UCPress attempts timed out. Root later recovered overview directly; see coordinator_source_review.",
+        "No facsimile collation, full CIIL book reading or language-specialist review."
+      ]
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/components/CultureMagazine.astro",
+        "projects/site/src/components/CultureOnward.astro",
+        "projects/site/src/components/LanguagePopulation.astro",
+        "projects/site/src/data/journey-catalog.ts",
+        "kb/research/voices/odia-editorial.json",
+        "projects/site/tests-coast/odia-editorial.test.mjs",
+        "projects/site/tests-coast/languages-editorial.test.mjs",
+        "projects/site/tests-coast/voices-passage-sources.test.mjs",
+        "projects/site/tests/voices.test.mjs",
+        "projects/site/src/data/book-photos.ts"
+      ],
+      "status": "handoff_received",
+      "input_head": "740e2e5dc2110f1bcd00ee32259efd9ab16b4b45",
+      "findings": [
+        "Nine reserved files changed; four source notes and four references; shared presentation opt-in only for Odia; complete portable narrative with short sources and existing manuscript rights.",
+        "Existing book-photo mapping retained without change. Static source-map/image hashes, syntax and diff checks passed.",
+        "Corrected export test to compare URL-normalized Unicode link; actual HTML and text exports were already correct. Five focused rendered tests pass."
+      ],
+      "limits": [
+        "Rendered tests, responsive and publication checks delegated to coordinator."
+      ]
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Read-only integrated exact-head review",
+      "status": "awaiting_candidate_review"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": "Only languages/odia entry in collection.json and necessary source metadata, shared records, integration and publishing",
+      "status": "in_progress"
+    }
+  ],
+  "concurrency": "Prior receipt PR349 observed merged; prior team workers completed. External PR304 statistics and PR281 Ashoka excluded.",
+  "substantive_items_added": 0,
+  "human_review_claimed": false,
+  "media_review": {
+    "reviewer": "Disha",
+    "kind": "Direct visual inspection",
+    "manuscript": "Retained full-frame photograph inspected during immediately preceding Languages delivery; no bytes changed.",
+    "fakir": "Directly viewed existing full-frame garlanded commemorative bust; distinguish from a portrait photograph of the living author. Retain both source licences."
+  },
+  "coordinator_source_review": {
+    "overview": {
+      "url": "https://www.odisha.gov.in/en/about-odisha/literature",
+      "method": "Direct curl HTTPS with certificate validation; actual response inspected after webtool timeout.",
+      "html_sha256": "9a10f47fafd0f666eee36ee3e9f47e7957dd1c430456fbc6b092a2be624fb493",
+      "locator": "Literature:Poetry opening paragraph and contributed-by credit",
+      "supports": "Attributed Sarala Mahabharata fifteenth century; medieval narrative/devotional poetry forms and performers helping circulate work.",
+      "omits": "Charyapadas origin claim, malformed biographical dates, older current-status claims and superlatives."
+    },
+    "ciil": {
+      "method": "Direct full catalogue metadata inspected",
+      "supports": "2019, editorSanjayaKumarBag, recordedlanguageOdia, non-nativelearneraudience",
+      "limit": "Fullbooknotread."
+    },
+    "rebati": {
+      "method": "Actual Odia text inspected via web",
+      "locator": "Opening household; teachingdiscussion; picturedprimer and letters paragraphs",
+      "limit": "Communitytranscription; nofacsimilecollation."
+    },
+    "sarala_catalogue": "Numbered chapter listing inspected; not used as literary interpretation evidence."
+  },
+  "editorial_decisions": [
+    "Replace vague writer list with bounded Sarala/performance context and a concrete Rebati learning scene; retain fiction/source limits.",
+    "Retain all dated population data without newclassification orcurrentcountclaims.",
+    "Portable narrative keeps concise sources and manuscript rights; website retains bothphoto credits."
+  ],
+  "tests": {
+    "full_build_routes": 408,
+    "full_tests": 566,
+    "coastal_build_routes": 395,
+    "coastal_tests": 267,
+    "publication_indexable_pages": 11,
+    "workbench_python_tests": 6,
+    "workbench_node_tests": 3,
+    "validators": [
+      "article rollout",
+      "registers",
+      "team assignments",
+      "autonomous programme",
+      "bundle",
+      "generated workbench",
+      "git diff --check"
+    ],
+    "result": "pass"
+  },
+  "responsive_review": {
+    "reviewer": "Disha",
+    "viewports": [
+      [
+        1440,
+        1000
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "reading_widths": [
+      740,
+      343.1953125
+    ],
+    "horizontal_overflow": false,
+    "checks": [
+      "Hero, prose, census inset, full-frame manuscript and bust, visible sources and image credits visually inspected.",
+      "Keyboard Rebati and Census note links restore focus to exact reference.",
+      "Further reading keyboard toggle; mobile contents toggle and section link work.",
+      "Local Save to my journey control adds the existing reading identity. Portable HTML and text verified by rendered tests."
+    ],
+    "limits": [
+      "Browser emulation, not physical-device or screen-reader testing."
+    ]
+  }
+}

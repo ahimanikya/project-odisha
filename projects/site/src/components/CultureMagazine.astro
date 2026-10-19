@@ -1,4 +1,5 @@
 ---
+import odiaEditorial from '../../../../kb/research/voices/odia-editorial.json';
 import languagesEditorial from '../../../../kb/research/voices/languages-editorial.json';
 import ArticleByline from './ArticleByline.astro';
 import ArticleFootnote from './ArticleFootnote.astro';
@@ -20,7 +21,7 @@ import CultureOnward from './CultureOnward.astro';
 import collection from '../../../../kb/research/voices/collection.json';
 import '../styles/culture-magazine.css';
 const {entry}=Astro.props,hero=collection.assets[entry.hero_asset],hub=!entry.path.includes('/');
-const editorial=entry.path==='languages'?languagesEditorial:null;
+const editorial=entry.path==='languages'?languagesEditorial:entry.path==='languages/odia'?odiaEditorial:null;
 const passageSources=id=>editorial?.passages.find(p=>p.id===id)?.source_ids||[];
 const editorialAssets=[...new Set([entry.hero_asset,...entry.cards.map(c=>c.asset)].filter(Boolean))];
 const sources=voiceSources(entry,collection.sources);
@@ -37,13 +38,14 @@ const start=hub&&entry.cards.length?'#reading-doors':'#'+entry.sections[0].id;
  ...(entry.learning_resource?[{href:'#learning-shelf',label:'Reading shelf'}]:[]),
  ...(entry.roster?[{href:'#more-voices',label:'More voices'}]:[]),
  ...(entry.language_contribution?[{href:'#share-a-voice',label:'Share a voice'}]:[]),
- ...(editorial?[{href:'#language-counts',label:'Where languages were counted'},{href:'#story-sources',label:'Footnotes & Sources'}]:[])
+ ...(entry.path==='languages'?[{href:'#language-counts',label:'Where languages were counted'}]:[]),
+ ...(editorial?[{href:'#story-sources',label:'Footnotes & Sources'}]:[])
  ]}/>
  <article class="mag-content">
   {hub&&(entry.path==='languages'?<LanguageDirectory entry={entry} editorial={editorial}/>:<CultureCards entry={entry}/>)}
   <div class="mag-article-chapters">{entry.sections.map((s,index)=><section id={s.id} class:list={['mag-reading-section',{'mag-reading-section--warm':index===1}]}><div><p class="eyebrow">{String(index+1).padStart(2,'0')} · {kind}</p><h2>{s.title}</h2></div><div>{s.paragraphs.map((p,i)=>editorial?<p data-source-ids={p.source_ids.join(' ')}>{p.text}<ArticleFootnote ids={passageSources(`${s.id}-${i}`)} sources={editorial.sources} passage={`${s.id}-${i}`}/></p>:<VoicesParagraph paragraph={p} sources={sources}/>)}</div></section>)}</div>
   {entry.path==='languages'&&<section id="language-counts" class="mag-reading-section language-counts"><div><p class="eyebrow">The numbers behind the voices</p><h2>Where languages were counted</h2></div><div>{entry.atlas_paragraphs.map((p,i)=><p data-source-ids={p.source_ids.join(' ')}>{p.text}<ArticleFootnote ids={passageSources(`atlas-${i}`)} sources={editorial.sources} passage={`atlas-${i}`}/></p>)}<a class="text-link" href="/languages/atlas/">Open the language population atlas →</a><p><a href="/languages/districts/">Start with a district →</a> · <a href="/languages/multilingual-odisha/">Multilingual Odisha →</a></p></div></section>}
-  {hasPopulation&&<LanguagePopulation path={entry.path}/>}
+  {hasPopulation&&<LanguagePopulation path={entry.path} editorial={editorial}/>}
   {!hub&&<CultureCards entry={entry}/>}
   {entry.learning_resource&&<LanguageLearning resource={entry.learning_resource}/>}
   {entry.roster&&<section id="more-voices" class="culture-roster"><p class="eyebrow">The collection will grow</p><h2>{entry.roster_heading}</h2><ul>{entry.roster.map(name=><li>{name}</li>)}</ul><p>{entry.roster_note}{editorial&&<ArticleFootnote ids={passageSources('roster')} sources={editorial.sources} passage="roster"/>}</p>{entry.roster_sources?.includes('scstrti')&&<a class="text-link" href={collection.sources.scstrti.url}>Browse SCSTRTI’s learning resources ↗</a>}</section>}
@@ -51,7 +53,7 @@ const start=hub&&entry.cards.length?'#reading-doors':'#'+entry.sections[0].id;
   {cultureTrailsFor('/'+entry.path+'/').length>0&&<details class="mag-disclosure"><summary>Places, languages and connected stories</summary><CultureConnections path={'/'+entry.path+'/'}/></details>}
   {entry.language_contribution&&<LanguageInvitation language={hub?'':entry.title}/>}
   <CultureOnward entry={entry} collapsed={!!editorial}/>
-  {editorial?<><ArticleFootnotes sources={editorial.sources} passages={editorial.passages}><div id="language-image-credits"><h3>Images and reuse</h3><ul>{editorialAssets.map(id=><li><a href={collection.assets[id].source}>{collection.assets[id].caption}</a><p>{collection.assets[id].creator} · <a href={collection.assets[id].license_url}>{collection.assets[id].license}</a>. {collection.assets[id].changes}</p>{collection.assets[id].rights_note&&<p>{collection.assets[id].rights_note}</p>}</li>)}</ul></div></ArticleFootnotes><p class="languages-update"><a href="/contribute/?page=%2Flanguages%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p></>:<><VoicesCredits entry={entry}/><p class="mag-status">Editorial preview · awaiting Founder and language or literary review.</p></>}
+  {editorial?<><ArticleFootnotes sources={editorial.sources} passages={editorial.passages}><div id="language-image-credits"><h3>Images and reuse</h3><ul>{editorialAssets.map(id=><li><a href={collection.assets[id].source}>{collection.assets[id].caption}</a><p>{collection.assets[id].creator} · <a href={collection.assets[id].license_url}>{collection.assets[id].license}</a>. {collection.assets[id].changes}</p>{collection.assets[id].rights_note&&<p>{collection.assets[id].rights_note}</p>}</li>)}</ul></div></ArticleFootnotes><p class="languages-update"><a href={`/contribute/?page=${encodeURIComponent('/'+entry.path+'/')}`}>Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p></>:<><VoicesCredits entry={entry}/><p class="mag-status">Editorial preview · awaiting Founder and language or literary review.</p></>}
  </article>
 </div>
 
