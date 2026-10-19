@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-19T07:03:08.316972+00:00",
   "article_id": "POD-EDIT-039",
   "route": "/visit/experiences/cuttack-netaji/",
-  "status": "candidate_ready_for_separate_review",
+  "status": "completed",
   "input_head": "49197855d8dfaa6ecb08df81dfbae705c60b71ab",
   "authorization": "POD-DEC-225",
   "central_question": "How can the birthplace house and Bose’s own memories help a visitor understand his Cuttack childhood without treating later recollection or a museum display as unqualified evidence?",
@@ -74,13 +74,23 @@
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Separate read-only integrated review after candidate ready",
-      "status": "pending"
+      "status": "handoff_received",
+      "input_head": "93e2990943099b86206c27fa1de99d2afcb9e7ae",
+      "result": "pass_with_limitations",
+      "tests": [
+        "12focused coastal tests",
+        "11affected fullsuite tests",
+        "queue/team/programme/whitespace checks"
+      ],
+      "limits": [
+        "Not human, curator or field review. Coordinator performed full builds and browser interactions; no reviewer livepublication verification."
+      ]
     },
     {
       "name": "Disha",
       "runtime": "/root",
       "scope": "Only cuttack-netaji entry in central-details.json, shared records, integration, browser tests and publication; scoped photo-credit de-duplication and stale Dhauli test control correction",
-      "status": "in_progress"
+      "status": "receipt_integration"
     }
   ],
   "concurrency": "Cuttack receipt PR340 integrated; Store implementation and receipt PR342/343 integrated. Existing PR304 statistics and PR281 Ashoka scopes retained. No other live team agents working.",
@@ -103,6 +113,23 @@
     "Corrected fullsuite566/566 pass. Coastal first run253/254: one remaining stale Dhauli test control updated to untouched Cuttack stays.",
     "Desktop1440/mobile390: reading740/343.195px, no horizontal overflow, retained hero object-fitcontain. Keyboard footnote follows and returns focus to exact source passage. Further reading keyboard toggle works and defaultsclosed; sources expanded.",
     "Visual review caught repeated photographer name in endnote; scoped concise title correction applied. Final coastal rebuild follows.",
-    "Final coastal build395routes and all254tests passed. Prior fullbuild408routes and all566tests passed; final photo-credit-only correction included in coastal recheck."
-  ]
+    "Final coastal build395routes and all254tests passed. Prior fullbuild408routes and all566tests passed; final photo-credit-only correction included in coastal recheck.",
+    "Finalpublicationbuild retains11indexablepages, noeligibility expansion.",
+    "PR344 requiredCI39214592634passed; reviewedhead93e29909 merged as2c5732f7. Approvedpublication39215016274 dispatched; livechecks pending.",
+    "Approved main publication39215016274 succeeded at2c5732f7. Actual live HTML/image,desktop/mobile,keyboard return,expanded sources,collapsed further reading and11-entry sitemap verified."
+  ],
+  "reviewed_head": "93e2990943099b86206c27fa1de99d2afcb9e7ae",
+  "final_review": {
+    "role": "Drishti",
+    "runtime": "/root/drishti",
+    "head": "93e2990943099b86206c27fa1de99d2afcb9e7ae",
+    "result": "pass_with_limitations",
+    "scope": "Separate AI review: actual autobiography and museum sources; image, source map, scoped controls, portable reading;12coastal and11affected fullsuite tests; queue/team/programme validators.",
+    "limitations": [
+      "Not human, curator or field review. Coordinator performed full builds and browser interactions; no reviewer livepublication verification."
+    ]
+  },
+  "article_complete": true,
+  "publication_receipt": "records/netaji-museum-editorial-publication-2026-10-19.json",
+  "ownership_release": "Effective only when this receipt PR merges; no next article started."
 }
