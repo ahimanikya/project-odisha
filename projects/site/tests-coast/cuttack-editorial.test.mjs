@@ -12,5 +12,8 @@ test('Cuttack gives every visible claim marker an exact return and retains five 
  const data=JSON.parse(readFileSync('../../kb/research/destinations/regions.json','utf8'));
  for(const id of ['barabati','cuttack-filigree','cuttack-dahibara','cuttack-netaji','jobra-courtyard'])for(const value of ['src','creator','license_url'])assert.ok(html.includes(data.assets[id][value]));
  assert.match(html,/Material descriptions differ in the source/);
+ assert.match(html,/<details class="mag-disclosure"><summary>Further reading<\/summary>/);
+ assert.match(html,/href="\/contribute\/\?page=%2Fdestinations%2Fcuttack%2F">Suggest an update/);
+ assert.match(html,/GitHub submissions are public/);
  assert.match(html,/name="robots" content="noindex, nofollow"/);
 });

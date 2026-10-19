@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `c2b5eb8c01687da1951161815232807117ab442e0ecc6cd390fd21e7ed6fc01b`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `d03da06b1ce5b1731a9b7e828264a23331df26b9465ff0d991022e4d2c786931`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -321,7 +321,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-299 · Deepen Dalkhai song, occasion and stage context | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, song-language review and recovered source PDFs remain open for future research. | — |
 | UTP-WORK-300 · Deepen Pala literary performance, forms and repertoire | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/Odia review and manuscript evidence remain open for future research. | — |
 | UTP-WORK-301 · Deepen Dhemsa community, movement and occasion | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/language review and field evidence remain open for future research. | — |
-| UTP-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Publish reviewed UTP-EDIT-035 through passing PR checks and approved main workflow, then verify live receipt. Substantive500 remains112. | — |
+| UTP-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Recheck concurrent Pala UTP-EDIT-144 completion receipt. Then resume blocked Cuttack UTP-EDIT-035 / PR319, restore in_progress, regenerate queue, obtain passing checks for final head, publish and save live receipt. Do not overwrite Pala worker. Substantive500 remains112. | — |
 | UTP-WORK-2026101701 · Publish two Pattachitra Jhula choices | completed | published | Ahimanikya Satapathy | Review the live Pattachitra choices. | — |
 | UTP-WORK-2026101801 · Coherent Jhula story and collection overview | in_progress | reviewed | Ahimanikya Satapathy | Finish responsive review, publish and verify live. | — |
 
