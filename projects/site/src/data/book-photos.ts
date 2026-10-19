@@ -37,6 +37,7 @@ export const bookPhotos={
  'place:puri-beach':regions.assets['puri-beach'],
  'place:cuttack':regions.assets.barabati,
  'place:barabati':regions.assets.barabati,
+ 'stay:cuttack':{...regions.assets.barabati,caption:'Barabati gateway, Cuttack · Rahul66wiki, 2016. City context, not a photograph of accommodation.'},
  'experience:cuttack-filigree':regions.assets['cuttack-filigree'],
  'experience:kala-bhoomi':regions.assets['kala-bhoomi-grounds'],
  'experience:jobra-maritime-museum':regions.assets['jobra-courtyard'],

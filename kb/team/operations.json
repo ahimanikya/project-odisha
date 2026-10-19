@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/netaji-museum-editorial-team-2026-10-19.json",
+  "handoff_home": "records/cuttack-stay-editorial-team-2026-10-19.json",
   "roles": [
     {
       "name": "Disha",
@@ -55,17 +55,15 @@
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
   "current_article": {
-    "id": "POD-EDIT-039",
-    "route": "/visit/experiences/cuttack-netaji/",
+    "id": "POD-EDIT-040",
+    "route": "/visit/stays/cuttack/",
     "owner": "Disha",
     "coordinator_runtime": "/root",
-    "phase": "receipt_integrated",
-    "branch": "codex/netaji-museum-receipt-20261019",
-    "input_head": "49197855d8dfaa6ecb08df81dfbae705c60b71ab",
-    "file_reservations": "records/netaji-museum-editorial-team-2026-10-19.json#executions",
-    "prior_external_scope_resolution": "PR340 receipt integrated; PR304/281 remain excluded.",
-    "integration_gate": "This release takes effect when the receipt PR merges; retain ownership until that merge. No next article started.",
-    "publication_receipt": "records/netaji-museum-editorial-publication-2026-10-19.json"
+    "phase": "integrated_candidate_review",
+    "branch": "codex/cuttack-stay-editorial-20261019",
+    "input_head": "83db2ca615228958cf6b2acaaa830c354d067adf",
+    "file_reservations": "records/cuttack-stay-editorial-team-2026-10-19.json#executions",
+    "integration_gate": "Retain ownership until publication receipt is integrated."
   },
   "project_identity": "reference/project-identity.md"
 }

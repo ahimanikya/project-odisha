@@ -13,7 +13,7 @@ test('Cuttack starter preserves the previous plan and exports useful visit detai
  const next=createStarterTrip(old,'cuttack-review',starter,data.catalog.map(i=>i.id));
  assert.deepEqual(old,before);assert.deepEqual(next.trips[0],before.trips[0]);assert.equal(next.trips[1].plan.items.length,6);
  const book=buildTourBook(next.trips[1].plan,data.catalog);
- for(const text of ['Odia Bazaar','CDA / Badambadi','Bhubaneswar base','material and weight','opening day']){
+ for(const text of ['Near your planned Cuttack visits','Widen the Cuttack search','Keep a Bhubaneswar base','material and weight','opening day']){
   assert.ok(book.includes(text),text);
  }
  for(const id of starter.items){const item=data.catalog.find(i=>i.id===id);assert.ok(item);assert.ok(read(item.href.split('#')[0]).includes(`data-save-journey="${id}"`));}

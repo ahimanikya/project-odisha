@@ -60,7 +60,7 @@ test('Netaji keeps further reading collapsed, update guidance visible and adjace
  assert.match(outside,/GitHub submissions are public; omit private contact details and consent documents/);
  assert.match(html,/data-save-journey="experience:cuttack-netaji"/);
  assert.match(html,/name="robots" content="noindex, nofollow"/);
- const other=page('/visit/stays/cuttack/');
+ const other=page('/visit/stays/balasore-coast/');
  assert.doesNotMatch(other,/class="article-byline"|id="story-sources"/);
  assert.match(other,/Drafted with AI assistance/);
  for(const href of ['/visit/places/barabati/','/visit/experiences/cuttack-filigree/'])assert.match(page(href),/By Ahimanikya Satapathy/);
