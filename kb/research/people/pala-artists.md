@@ -327,3 +327,5 @@ Follow the source links in each entry, the [Sangeet Natak Akademi award citation
 </details>
 
 **Suggest an update:** corrections are most useful with the artist’s Odia name, a dated programme/award citation, a work title or a performer-authored teaching record. Share the source through the project’s established contribution route; do not infer a current role from an undated photograph or shared contact.
+
+[Pala history and visitor reading](../culture/pala.md) — Connects the listening introduction to named works, teachers and dated recognition; it does not turn historical performers into current bookings.

@@ -10,12 +10,13 @@ import SoundsReadingTrail from '../../components/SoundsReadingTrail.astro';
 import story from '../../../../../kb/research/culture/pala-website.json';
 const sections=story.blocks.map((block,index)=>({...block,id:block.title?`story-section-${index+1}`:undefined,passage:`pala-${index}`}));
 const passages=sections.flatMap(b=>b.paragraphs.map((_,i)=>({id:b.passage+'-'+i,source_ids:b.paragraph_source_ids[i]})));
-const contents=[...sections.filter(block=>block.title).map(block=>({title:block.title,href:'#'+block.id})),{title:'Footnotes & Sources',href:'#story-sources'}];
+const contents=[...sections.filter(block=>block.title).map(block=>({title:block.title,href:'#'+block.id})),{title:'Planning and listening links',href:'#planning-links'},{title:'Footnotes & Sources',href:'#story-sources'}];
 ---
 <Shell title={story.title} description={story.lead} active="explore" wide related={false}>
 <article class="article-reading pala-story"><a class="text-link collection-return" href="/sounds-of-odisha/#pala">← Sounds of Odisha</a>
 <header class="pala-hero"><p class="eyebrow">Sounds of Odisha · Pala</p><h1>Poetry with<br/><em>people around it.</em></h1><ArticleByline author={story.author} reviewedOn={story.reviewed_on}/><p class="lead">{story.lead}</p><figure><img src="/images/sounds/pala-nalconagar.webp" width="1600" height="1200" alt={story.photo.alt} fetchpriority="high"/><figcaption>{story.photo.caption}</figcaption></figure></header>
 <div class="pala-reading"><ResearchContents items={contents} label="In this story"/>{sections.map(b=><section class="narrative-section">{b.title&&<h2 id={b.id}>{b.title}</h2>}{b.items.length>0&&<ul>{b.items.map(p=><li>{p}</li>)}</ul>}{b.paragraphs.map((p,i)=><p>{p}<ArticleFootnote ids={b.paragraph_source_ids[i]} sources={story.sources} passage={b.passage+'-'+i}/></p>)}</section>)}
+<section class="narrative-section" aria-labelledby="planning-links"><h2 id="planning-links">Planning and listening links</h2><ul>{story.visitor_links.map(link=><li><a href={link.url}>{link.title}</a><p>{link.purpose}</p></li>)}</ul></section>
 <p><a href="/literature/">Explore Odia literature →</a> · <a href="/sounds-of-odisha/#daskathia">Meet Daskathia →</a></p>
 <ArticleFootnotes sources={story.sources.map(s=>({id:s.id,title:s.title,url:s.resource,note:s.reader_note}))} passages={passages}><h3>Photograph</h3><p><a href={story.photo.url}>{story.photo.creator} · Nalconagar, 2013</a> · <a href={story.photo.license_url}>{story.photo.license}</a>. {story.photo.changes} The performer is not identified here.</p></ArticleFootnotes>
 <SoundReadingPaths current="pala"/>

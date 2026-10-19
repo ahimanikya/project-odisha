@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T18:19:13.030991+00:00",
+  "updated_at": "2026-10-19T03:23:54.866348+00:00",
   "run_id": "2026-10-01-pala",
   "concept_id": "culture/pala",
   "scope": "First Pala research nucleus; performance examples are not a statewide artist directory.",
@@ -13,15 +13,16 @@
     "pala-narthaki-utsav2012"
   ],
   "format_notes": {
-    "source_id": "pala-dash2011",
-    "capture": "indexed_pdf_excerpt",
-    "locator": "printed p.73",
+    "source_id": "pala-patra2017",
+    "capture": "saved_original_full_text_and_selected_page_visual_check",
+    "locator": "One-based PDF47–49",
     "terms": {
-      "Pothi Pala": "seated",
+      "Baithaki Pala": "seated",
       "Thia Pala": "standing",
-      "Badi Pala": "singers alternate on stage"
+      "Badi Pala": "competitive teams"
     },
-    "full_text_checked": false
+    "full_text_checked": true,
+    "scope": "Patra2017description; no universal troupe count or founding date adopted."
   },
   "performance_credits": [
     {
@@ -97,11 +98,11 @@
       "award_year": 2009,
       "field": "Pala theatre",
       "source_id": "pala-sna-behera2009",
-      "capture": "full_pdf_text",
+      "capture": "original_pdf_text_and_visual_check",
       "current_status": null,
-      "full_text_followup": false,
+      "full_text_followup": true,
       "locator": "Sangeet Natak Akademi Awards 2009, printed p.38",
-      "checked_on": "2026-10-01"
+      "checked_on": "2026-10-19"
     }
   ],
   "events": [
@@ -140,5 +141,27 @@
     "income": null,
     "public_funding": null
   },
-  "human_review_claimed": false
+  "human_review_claimed": false,
+  "preserved_initial_format_notes": {
+    "source_id": "pala-dash2011",
+    "capture": "indexed_pdf_excerpt",
+    "locator": "printed p.73",
+    "terms": {
+      "Pothi Pala": "seated",
+      "Thia Pala": "standing",
+      "Badi Pala": "singers alternate on stage"
+    },
+    "full_text_checked": false
+  },
+  "related_research": [
+    "people/pala-artists.md",
+    "culture/pala-networks.md",
+    "references/data/pala-preservation-visit.json"
+  ],
+  "revision_history": [
+    {
+      "at": "2026-10-19T03:23:54.866348+00:00",
+      "change": "Reconciled stale format/award-verification fields with existing original inspections; visitor/preservation supplement linked. No historic event rewritten as current booking."
+    }
+  ]
 }

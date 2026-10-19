@@ -793,3 +793,7 @@ Reuse `culture/pala-networks.md`, `references/data/pala-networks.json` and their
 ### Pala artist extension · 19 October 2026
 
 The [artist collection](../people/pala-artists.md) and scoped register add 20 selected practitioners and source-specific contribution records, reusing the Pala overview and network audit. Explicit source pointers extend the map; the historical queue and imported scope remain unchanged.
+
+## Pala history, preservation and visitors ·19October2026
+
+Expanded the existing Pala narrative using saved artist/network and literary evidence; added UNESCO’s general safeguarding principles and rechecked CTMS discovery scope. History, interpretation, editorial advice and unknown current visitor arrangements remain distinct. Reconciled stale machine-readable form/award fields without changing the initial nucleus or queue criteria. New [structured supplement](../references/data/pala-preservation-visit.json) records gaps and visitor unknowns.
