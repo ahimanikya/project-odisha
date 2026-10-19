@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 395. completed: 33, excluded: 10, queued: 352.
+Route inventory: 395. completed: 33, excluded: 10, in_progress: 1, queued: 351.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -54,7 +54,7 @@ Route inventory: 395. completed: 33, excluded: 10, queued: 352.
 | POD-EDIT-038 | [Dahibara Aloodum in Cuttack](https://projectodisha.org/food/cuttack/) | completed | Individually revise the Cuttack food reading: explain the bowl, preserve useful tasting guidance and documentary evidence, apply authored reading with visible notes and restrained attribution. |
 | POD-EDIT-039 | [Netaji Birthplace Museum](https://projectodisha.org/visit/experiences/cuttack-netaji/) | completed | Individually revise the museum reading with autobiography context, clear evidence boundaries, authored reading and visible notes. |
 | POD-EDIT-040 | [Choose a Cuttack base](https://projectodisha.org/visit/stays/cuttack/) | completed | Individually revise the Cuttack stay-area guide: practical choices, access questions, restrained sourcing and authored reading; no property recommendations. |
-| POD-EDIT-041 | [Languages of Odisha](https://projectodisha.org/languages/) | queued | classification_pending |
+| POD-EDIT-041 | [Languages of Odisha](https://projectodisha.org/languages/) | in_progress | Authored introductory reading with a language directory; review its prose and source mapping, not all linked profiles. |
 | POD-EDIT-042 | [Odia](https://projectodisha.org/languages/odia/) | queued | classification_pending |
 | POD-EDIT-043 | [Odia Literature](https://projectodisha.org/literature/) | queued | classification_pending |
 | POD-EDIT-044 | [Fakir Mohan Senapati](https://projectodisha.org/people/fakir-mohan-senapati/) | queued | classification_pending |

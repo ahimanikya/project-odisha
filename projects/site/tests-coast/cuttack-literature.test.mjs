@@ -25,7 +25,7 @@ test('reading starter and every literary idea retain reading prompts and source 
  for(const idea of reading){assert.ok(idea.practical.length>=2,idea.id);assert.ok(idea.sources.length);}
 });
 test('language hub preserves diversity without linking to unreleased profiles',()=>{
- const hub=read('/languages/');for(const name of ['Santali','Kui','Kuvi','Saora','Ho','Juang','Koya','Sambalpuri/Kosali','Desia'])assert.ok(hub.includes(name),name);
+ const hub=read('/languages/');for(const name of ['Santali','Kui','Kuvi','Saora','Ho','Juang','Koya','Sambalpuri','Kosali','Desia'])assert.ok(hub.includes(name),name);
  assert.ok(hub.includes('href="/languages/odia/"'));assert.ok(hub.includes('href="/languages/juang/"'));
  assert.ok(existsSync('dist-coast/languages/juang/index.html'));
  assert.ok(!hub.includes('href="/languages/gondi/"'));
