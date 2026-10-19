@@ -20766,6 +20766,30 @@
         "No search eligibility change; no substantive500 increment.",
         "Responsive browser emulation, not physical-device or screen-reader testing."
       ]
+    },
+    {
+      "id": "UTP-REV-299",
+      "title": "Separate team activation and Cuttack handoff review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti Senapati, separate subagent /root/drishti"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution from coordinator and implementer; not human or specialist review.",
+      "reviewed_head": "23146165a33e1c74ebf2cb641c21a8bf011aeb4c",
+      "refs": [
+        "UTP-WORK-2026101901",
+        "UTP-WORK-302",
+        "UTP-DEC-2026101901"
+      ],
+      "evidence": [
+        "records/team-activation-2026-10-19.json"
+      ],
+      "limitations": [
+        "No human review, field confirmation or physical print test.",
+        "Inspected saved screenshots; deployment/live check pending coordinator."
+      ]
     }
   ],
   "releases": [

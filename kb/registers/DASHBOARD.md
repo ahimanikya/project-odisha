@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `8ee3c24f7efa1e22467f4c144b1a8a1bf595bf593fd65402f12faec8eb3e6722`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `327742d0fdb0920455a2b105bd2f2472ec0ed32f13f073c0929105a4accc8c5a`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -938,6 +938,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-296 | pass_with_limitations | False | Same-assistant review, not independent human or specialist review.; No accommodation inspection, verified transfer time, room availability or provider confirmation.; Browser emulation, not physical-device or screen-reader testing.; Zero substantive500 increment. |
 | UTP-REV-297 | pass_with_limitations | False | Same-assistant review, not independent human or specialist review.; No artist, workshop, ritual purpose, exact street or present condition confirmed.; Original recollections and 2009 dates preserved; later cultural sources are context, not commission evidence.; Zero substantive500 increment.; Browser emulation, not physical-device or screen-reader testing.; Visual reinspection covers eight featured photographs; remaining original archive views retained, not newly identified. |
 | UTP-REV-298 | pass_with_limitations | False | Same-assistant editorial review; no independent human or specialist review.; No maker, venue, vendor or step-free route contacted or inspected.; No ancient ship construction inferred from Jobra industrial exhibits.; District and museum current direct retrieval failed; reused dated evidence and indexed institution text explicitly recorded.; No search eligibility change; no substantive500 increment.; Responsive browser emulation, not physical-device or screen-reader testing. |
+| UTP-REV-299 | pass_with_limitations | True | No human review, field confirmation or physical print test.; Inspected saved screenshots; deployment/live check pending coordinator. |
 
 ## Publication and application history
 
