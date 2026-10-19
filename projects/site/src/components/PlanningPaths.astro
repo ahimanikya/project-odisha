@@ -1,7 +1,7 @@
 ---
 import {allowsPage} from '../data/edition';
 const {current=''}=Astro.props;
-const paths=[['/events/arts-literature/','Arts & literature calendar'],['/destinations/','Destinations'],['/food/','Food & flavours'],['/things-to-do/','Things to do'],['/stay-areas/','Stay areas'],['/journey-starters/','Journey starters']].filter(([href])=>allowsPage(href));
+const paths=[['/events/arts-literature/','Arts & literature calendar'],['/destinations/','Destinations'],['/food/','Food & flavours'],['/things-to-do/','Things to do'],['/heritage-walks/','Heritage walks'],['/stay-areas/','Stay areas'],['/journey-starters/','Journey starters']].filter(([href])=>allowsPage(href));
 ---
 <nav class="planning-paths" aria-label="Plan your visit">{paths.map(([href,label])=><a href={href} aria-current={current===href?'page':undefined}>{label}</a>)}</nav>
 <style>
