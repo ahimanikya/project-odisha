@@ -1,6 +1,8 @@
 ---
+import ArticleFootnote from './ArticleFootnote.astro';
 import collection from '../../../../kb/research/voices/collection.json';
-const {entry}=Astro.props;
+const {entry,editorial=null}=Astro.props;
+const passageSources=id=>editorial?.passages.find(p=>p.id===id)?.source_ids||[];
 ---
 <section class="language-directory" id="reading-doors" aria-labelledby="language-directory-title">
  <div class="language-directory-intro"><div><p class="eyebrow">Choose a voice</p><h2 id="language-directory-title">One landscape.<br/><em>Many ways to tell it.</em></h2></div><p>{entry.directory_intro}</p></div>
@@ -8,10 +10,10 @@ const {entry}=Astro.props;
  const asset=collection.assets[card.asset];
  return <article class:list={['language-directory-card',{'has-specimen':!!asset}]}>
   <div class="language-card-art" aria-hidden="true">{asset?<img src={asset.src} width={asset.width} height={asset.height} loading="lazy" alt=""/>:<><span>{String(index+1).padStart(2,'0')}</span><strong>{card.title}</strong><i>Words carry worlds.</i></>}</div>
-  <div class="language-card-copy"><p class="eyebrow">{card.context}</p><h3><a href={card.href}>{card.title} →</a></h3><p>{card.text}</p>{card.asset==='script'&&<p class="language-specimen-note">The image spells the script’s name, Ol Chiki.</p>}</div>
+  <div class="language-card-copy"><p class="eyebrow">{card.context}</p><h3><a href={card.href}>{card.title} →</a></h3><p>{card.text}{editorial&&<ArticleFootnote ids={passageSources(`card-${index}`)} sources={editorial.sources} passage={`card-${index}`}/>}</p>{card.asset==='script'&&<p class="language-specimen-note">The image spells the script’s name, Ol Chiki.</p>}</div>
  </article>;
  })}</div>
- <p class="language-directory-note">These are first introductions. A language’s reach extends beyond any one district; the places here are reading connections, not boundaries.</p>
+ <p class="language-directory-note">These introductions begin with particular books, projects and questions. They leave room for other places, speakers and ways of using a language.</p>
 </section>
 <style>
 .language-directory{margin-block:clamp(36px,5vw,72px)}.language-directory-intro{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:end;margin-bottom:36px}.language-directory-intro>p{max-width:52ch;line-height:1.8}.language-directory-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}.language-directory-card{display:grid;grid-template-columns:minmax(100px,.72fr) minmax(0,1.5fr);border:1px solid var(--line);background:var(--paper);min-width:0}.language-card-art{background:var(--sea);color:var(--light);padding:22px;display:flex;flex-direction:column;justify-content:space-between;gap:20px;min-width:0;border-bottom:5px solid var(--earth)}.language-card-art span,.language-card-art i{font:12px/1.6 var(--sans);color:var(--straw)}.language-card-art strong{font:clamp(26px,2.4vw,40px)/1.2 var(--serif);overflow-wrap:anywhere}.has-specimen .language-card-art{padding:16px;background:var(--paper);justify-content:center}.language-card-art img{width:100%;height:auto;object-fit:contain;max-height:210px}.language-card-copy{padding:26px;align-self:center}.language-card-copy h3{font-size:28px;margin-block:14px}.language-card-copy h3 a{text-decoration:none;display:inline-block;padding-block:6px}.language-card-copy h3 a:hover{text-decoration:underline}.language-card-copy>p:last-child{font-size:16px;line-height:1.8}.language-card-copy .language-specimen-note{font-size:13px;line-height:1.6}.language-card-copy .eyebrow{font-size:10px;line-height:1.8}.language-directory-note{max-width:80ch;font-size:14px;line-height:1.8;margin-top:24px}@media(max-width:1000px){.language-directory-grid{grid-template-columns:1fr}.language-directory-card{grid-template-columns:minmax(110px,.6fr) minmax(0,2fr)}}@media(max-width:600px){.language-directory-intro{grid-template-columns:1fr;gap:14px}.language-directory-card{grid-template-columns:1fr}.language-card-art{min-height:135px;padding:22px;flex-direction:row;align-items:center;flex-wrap:wrap}.language-card-art strong{font-size:32px}.language-card-art i{display:none}.has-specimen .language-card-art{min-height:120px}.language-card-art img{max-height:150px;width:auto;max-width:100%}.language-card-copy{padding:22px}}

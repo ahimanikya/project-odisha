@@ -12,6 +12,20 @@ for(const original of collection.pages.filter(p=>edition.routes.includes('/'+p.p
  if(entry.path==='languages')entry.roster=[...held.map(c=>c.title),...(entry.roster||[])];
  const sources=voiceSources(entry,collection.sources);
  const html=readFileSync('dist-coast/'+entry.path+'/index.html','utf8').replaceAll('&#39;',"'");
+ if(entry.path==='languages'){
+  const editorial=JSON.parse(readFileSync('../../kb/research/voices/languages-editorial.json','utf8'));
+  assert.match(html,/<section id="story-sources"/);
+  for(const passage of editorial.passages)for(const id of passage.source_ids){
+   const ref=`ref-${passage.id}-${id}`;
+   assert.equal(html.split(`id="${ref}"`).length-1,1);
+   assert.equal(html.split(`href="#${ref}"`).length-1,1);
+   assert.ok(html.includes(`href="#note-${id}"`));
+  }
+  for(const source of editorial.sources){assert.equal(html.split(`id="note-${source.id}"`).length-1,1);assert.ok(html.includes(escape(source.url)));assert.ok(html.includes(escape(source.note)));}
+  assert.doesNotMatch(html,/<details[^>]*id="sources"|Research and presentation prepared with AI assistance/);
+  assert.ok(html.includes('Images and reuse'));
+  return;
+ }
  for(const section of entry.sections){
   const body=html.match(new RegExp('<section id="'+section.id+'"[^>]*>([\\s\\S]*?)</section>'))?.[1];assert.ok(body,section.id);
   const passages=[...body.matchAll(/<p data-source-ids(?:="([^"]*)")?[^>]*>([\s\S]*?)<\/p>([\s\S]*?)(?=<p data-source-ids|$)/g)];

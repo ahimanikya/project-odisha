@@ -1,0 +1,129 @@
+{
+  "recorded_at": "2026-10-19T16:18:00.692149+00:00",
+  "article_id": "POD-EDIT-041",
+  "route": "/languages/",
+  "status": "in_progress",
+  "input_head": "7a2657a1d35f73117f8eb7715fd29b6ae3631e20",
+  "authorization": "POD-DEC-225",
+  "classification": "Authored introductory reading with a language directory; review its prose and source mapping, not all linked profiles.",
+  "central_question": "How can a reader begin exploring Odisha’s languages without treating a script, a language name, a community or a census category as the same thing?",
+  "acceptance": [
+    "Inspect existing language KB, actual supporting material and both retained images; preserve evidence limits.",
+    "Keep all published language/profile and atlas paths; explain distinctions through concrete sourced examples without a comprehensive language census claim.",
+    "Founder byline, natural prose, comfortable reading, visible numbered notes, collapsed further reading and visible update link; no bylines assigned to linked external works.",
+    "Separate AI review, meaningful tests, desktop/mobile checks, approved deployment and actual live receipt before completion."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only hub classification, existing evidence, actual sources and image audit",
+      "status": "handoff_received",
+      "input_head": "7a2657a1d35f73117f8eb7715fd29b6ae3631e20",
+      "findings": [
+        "Direct SCSTRTI catalogue inspected: Kui/Kuvi separate titles; held Gondi/Kisan/Sadri titles. Source labels Desia/Bhatri-Desia not merged.",
+        "Direct President release16Feb2026 paras2–3 inspected: attributed1925scriptcreation and earlierSantaliwriting.",
+        "Retained original C16 XLSX inspected byZIP/XML: Sheet1 F/G96ODIAgroup,100Desia,101Odia,104Sambalpuri; hash matchesbc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db.",
+        "Manuscript visually inspected and Commonsrightsconfirmed; OlChikiCommonsdescription/XMLconfirmed."
+      ],
+      "limits": [
+        "Current Census catalogue timed out; retained original workbook used.",
+        "KuiPDFselectedcredits/tabletextread; legacyfonttextgarbled andpageimagesfailed; no pronunciation/translation validated.",
+        "No speaker/specialist review; no fullprofile research expansion."
+      ]
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/components/CultureMagazine.astro",
+        "projects/site/src/components/LanguageDirectory.astro",
+        "projects/site/src/components/CultureOnward.astro",
+        "kb/research/voices/languages-editorial.json",
+        "projects/site/tests-coast/languages-editorial.test.mjs",
+        "projects/site/tests-coast/voices-passage-sources.test.mjs",
+        "projects/site/tests-coast/cuttack-literature.test.mjs",
+        "projects/site/tests/voices.test.mjs"
+      ],
+      "status": "handoff_received",
+      "input_head": "7a2657a1d35f73117f8eb7715fd29b6ae3631e20",
+      "tests": [
+        "Static source-map and image hashes PASS",
+        "Changed tests syntax and git diff --check PASS"
+      ],
+      "limits": [
+        "No build or rendered checks by implementer. Parser-only Astro check unavailable; no dependencies installed."
+      ],
+      "findings": [
+        "Scoped Founder byline, three visible numbered notes/four exact returns, ten directory cards, collapsed onward links and public contribution privacy retained."
+      ]
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Read-only integrated candidate review",
+      "status": "pending"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": "Only languages entry in collection.json, shared records, integration, browser checks and publication",
+      "status": "in_progress"
+    }
+  ],
+  "concurrency": "Prior receiptPR347 merged at7a2657a1; prior workers completed. ExternalPR304 statistics andPR281 Ashoka retained.",
+  "substantive_items_added": 0,
+  "human_review_claimed": false,
+  "media_review": {
+    "reviewer": "Disha",
+    "kind": "Direct visual inspection of retained manuscript photograph",
+    "path": "/assets/language-literature/odia-manuscript.webp",
+    "finding": "Retained manuscript visually inspected; full-frame contain, rights retained. Ol Chiki specimen rendered and inspected in browser; no new image generation."
+  },
+  "editorial_decisions": [
+    "Treat hub as authored introduction with directory, not a completed review of all linked profiles.",
+    "Replace each directory location claim with a reading topic and original invitation; retain allten links and profileevidence.",
+    "Explain concrete Kui/Kuvi, Santali/OlChiki and Desia/SambalpuriC16 distinctions with3sources; no citationquota or newcounts."
+  ],
+  "coordinator_validation": {
+    "full_build_routes": 408,
+    "full_tests_passed": 566,
+    "coastal_routes": 395,
+    "coastal_tests_passed": 262,
+    "publication_indexable_routes": 11,
+    "checks": [
+      "queue",
+      "team",
+      "autonomous programme",
+      "bundle",
+      "git diff --check"
+    ],
+    "browser": {
+      "viewports": [
+        [
+          1440,
+          1000
+        ],
+        [
+          390,
+          844
+        ]
+      ],
+      "reading_widths": [
+        740,
+        343.1953125
+      ],
+      "horizontal_overflow": false,
+      "images": "Retained manuscript and Ol Chiki specimen visually inspected; contain fit.",
+      "keyboard_footnote_return": "Exact reference focus restored for notes 1 and 2.",
+      "further_reading": "Keyboard toggle verified.",
+      "limits": [
+        "Emulated browser, no physical-device or screen-reader test."
+      ]
+    },
+    "repairs": [
+      "Normalized encoded ampersand in new regression fixture.",
+      "Removed inherited negative warm-section margin and heading width only for Languages hub."
+    ]
+  }
+}

@@ -2,11 +2,14 @@
 import connections from '../../../../kb/research/related-discoveries.json';
 import {discoveryEntries} from '../data/discovery';
 import {allowsPage} from '../data/edition';
-const {entry}=Astro.props;
+const {entry,collapsed=false}=Astro.props;
+const useDisclosure=entry.path==='languages'&&collapsed;
 const linked=connections.links.filter(link=>link.from==='/'+entry.path+'/').map(link=>({href:link.to,title:discoveryEntries.find(item=>item.href===link.to)?.label||link.to,reason:link.reason}));
 const readingPaths=['literature','languages/odia','people/gangadhar-meher','people/bhima-bhoi','people/sarala-das','people/fakir-mohan-senapati'];
 const links=[...new Map([...(readingPaths.includes(entry.path)?[{href:'/literature/reading-journey/',title:'Follow an illustrated Odia reading journey'}]:[]),...entry.related,...linked,...[{href:'/languages/',title:'Languages of Odisha'}, {href:'/literature/',title:'Odia literature'}, {href:'/destinations/',title:'Explore destination guides'}].filter(link=>link.href!=='/'+entry.path+'/')].filter(link=>allowsPage(link.href)).map(link=>[link.href,link])).values()];
 ---
-<section class="culture-onward"><div><p class="eyebrow">Follow your curiosity</p><h2>One voice.<br/><em>Another doorway.</em></h2></div><nav aria-label="Continue reading">{links.map(link=><div><a href={link.href}>{link.title} ↗</a>{link.reason&&<p class="connection-reason">{link.reason}</p>}</div>)}{entry.path.includes('/')&&<a href="/journey/">Open my reading journey →</a>}</nav></section>
+{useDisclosure?<section class="culture-onward-disclosure"><details class="utk-disclosure"><summary>Further reading</summary><nav aria-label="Continue reading">{links.map(link=><div><a href={link.href}>{link.title} ↗</a>{link.reason&&<p class="connection-reason">{link.reason}</p>}</div>)}{entry.path.includes('/')&&<a href="/journey/">Open my reading journey →</a>}</nav></details></section>:<section class="culture-onward"><div><p class="eyebrow">Follow your curiosity</p><h2>One voice.<br/><em>Another doorway.</em></h2></div><nav aria-label="Continue reading">{links.map(link=><div><a href={link.href}>{link.title} ↗</a>{link.reason&&<p class="connection-reason">{link.reason}</p>}</div>)}{entry.path.includes('/')&&<a href="/journey/">Open my reading journey →</a>}</nav></section>}
 
 <style>.connection-reason{font-size:14px!important;line-height:1.65;margin:0 0 8px;max-width:48ch;color:var(--muted)}</style>
+
+<style>.culture-onward-disclosure{max-width:740px;margin:48px auto;border-top:1px solid var(--line)}.culture-onward-disclosure summary{min-height:44px;padding:16px 0;cursor:pointer}.culture-onward-disclosure nav{display:flex;flex-direction:column;gap:14px;padding-bottom:20px}.culture-onward-disclosure a{display:inline-block;min-height:44px;padding-block:10px}</style>
