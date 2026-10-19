@@ -28,3 +28,9 @@ projects/site/dist-publish/
 firestore-debug.log
 firebase-debug.log
 projects/site/firebase/*debug.log
+
+# Store runtime data and credentials must never enter source control.
+projects/store/.env*
+projects/store/**/*.sqlite*
+projects/store/**/*.db*
+projects/store/.data/

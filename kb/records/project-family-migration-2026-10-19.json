@@ -1,6 +1,6 @@
 {
   "recorded_at": "2026-10-19T06:09:22.024966+00:00",
-  "status": "implemented_pending_review",
+  "status": "integrated",
   "input_head": "79185c82991e3cc40e4246babeb710753f71d94e",
   "blueprint_input_head": "cc72044e151099792ccccb2435ea00f93084092e",
   "user_instruction": "OK, then let's apply that too",
@@ -22,13 +22,13 @@
       "role": "Disha",
       "runtime": "/root",
       "scope": "All canonical records/configuration, preservation archives, family/main/planning migration, Git and publication",
-      "status": "active"
+      "status": "completed"
     },
     {
       "role": "Anvesha",
       "runtime": "/root/anvesha",
       "scope": "Read-only scope, provenance, identity and concurrency audit",
-      "status": "active"
+      "status": "completed"
     },
     {
       "role": "Samanta",
@@ -47,13 +47,13 @@
         "tools/resolve_project_id.py",
         "tools/test_family_id_aliases.py"
       ],
-      "status": "active"
+      "status": "completed"
     },
     {
       "role": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Separate read-only integrated migration review",
-      "status": "reserved"
+      "status": "completed"
     }
   ],
   "substantive_items_added": 0,
@@ -191,5 +191,23 @@
     "Main12familyalias and20existingPODprefixregressions pass",
     "Original bytes/statuses/quotes/seed/productdata audit pass; no500increment"
   ],
-  "later_instruction": "After migration, build no-payment preorder requests, private order dashboard and complete merchandise catalogue with editable price/supply/variants. Record and review separately before publication."
+  "later_instruction": "After migration, build no-payment preorder requests, private order dashboard and complete merchandise catalogue with editable price/supply/variants. Record and review separately before publication.",
+  "delivery": {
+    "main_pr": "https://github.com/ahimanikya/project-odisha/pull/341",
+    "main_reviewed_head": "8fa4c859578cf032e2fefb1295ea8df3400c4d7a",
+    "main_merge": "84ff0cad42b31f601e35b44bfc4f2f23b86df375",
+    "required_ci": "https://github.com/ahimanikya/project-odisha/actions/runs/39209782031",
+    "required_ci_result": "success",
+    "blueprint_pr": "https://github.com/ahimanikya/utkal-blueprint/pull/3",
+    "blueprint_reviewed_head": "0485ab04f544cf31e6d4ad783bed64769f3339b6",
+    "blueprint_merge": "3bb7069b537be578566624435e0e746157467d0b",
+    "blueprint_ci": "No workflow configured; local tests and separate AI review passed.",
+    "reviewer": "Drishti, separate AI reviewer; not human review",
+    "deployment": "Not required: public Project Odisha rendered site unchanged; Store local preview remains unpublished.",
+    "preservation": "Original evidence, alias maps and planning archives retained."
+  },
+  "review_corrections": [
+    "Restored original Store decision additional_quote after first review.",
+    "Updated stale main authority regression fixture to canonical ODB-DEC-005; rejection assertion preserved."
+  ]
 }

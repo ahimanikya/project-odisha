@@ -40,3 +40,7 @@ Rebuild the artwork and PDF with `python3 design/build-sample-pack.py` using Rep
 ## Shared story v4
 
 [Current design direction](kb/specs/shared-story-v4.md) carries the cup scenes onto Tasar bags and the black T-shirt back. Current catalogue visuals show these concepts. The v3 PDF and ZIP above are historical for the bag and back print; new shared flat masters and a production pack remain to prepare. [Exact image prompts](kb/records/shared-story-prompts-v4.json) preserve this iteration.
+
+## No-payment preorder candidate
+
+The19October build adds a catalogue with Sea & Stone merchandise and twenty Odia Poetry Jhula designs, interest submission and password-protected request/price/supply dashboard. Build with `npm run build`; run `npm test` and `npm run test:server` on Node24.15+. See [server setup and boundaries](server/README.md) and [delivery record](kb/records/preorder-build-2026-10-19.json). The existing public article publish workflow does not deploy this Store. Runtime customer data belongs outside Git and the static output. No production service or actual admin credential has been configured.

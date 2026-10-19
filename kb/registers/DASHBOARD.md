@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `1b3eb78e06ade72f7dc6ddc939e8332636ea26f77d7b9775b6250067a5c5015b`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `14c2051fbe28a8fecc5c58d0025bfac13bdb6bcd156f7e2af8de5805e7c17ccc`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -326,7 +326,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026101901 · Activate separate editorial agents and durable handoffs | completed | applied | Ahimanikya Satapathy | Use saved team loop for subsequent article work; recreate task-scoped workers when needed. | — |
 | POD-WORK-2026101801 · Coherent Jhula story and collection overview | completed | published | Ahimanikya Satapathy | Review the refined live page. | — |
 | POD-WORK-2026101902 · Migrate Project Odisha identifiers to POD with traceable UTP aliases | completed | applied | Ahimanikya Satapathy | Use canonical POD IDs and exact historical aliases; migration integrated. | — |
-| POD-WORK-2026101903 · Reconcile and migrate the Odisha project family | in_progress | draft | Ahimanikya Satapathy | Review, validate and integrate the family migration across current project bundles and planning records. | — |
+| POD-WORK-2026101903 · Reconcile and migrate the Odisha project family | completed | reviewed | Ahimanikya Satapathy | Use canonical Odisha family IDs and exact historical aliases; no duplicate records. | — |
 
 ## Pending human review and decisions
 
@@ -1168,7 +1168,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026101908 | 2026-10-19T03:54:24.271244+00:00 | Collaborating team delivered Barabati through separately reviewed PR324 and approved main workflow. Live4 exact reference returns,2 source notes, original credited photograph and responsive reading verified;29 editorial entries complete, zero substantive500 increment. | — |
 | POD-EVT-20261018102 | 2026-10-18T01:22:37.475240+00:00 | Published and verified coherent Jhula story, accurate kit scope and three collection groups;all20 design choices preserved. | — |
 | POD-EVT-20261019101 | 2026-10-19T04:23:34.609332+00:00 | Added the founder-requested Odia Poetry Jhula link to the shared site footer; publication pending. | — |
 | POD-EVT-2026101909 | 2026-10-19T04:10:43.416372+00:00 | Apply Founder-requested migration: canonical Project Odisha IDs and live references move from UTP to POD with suffixes preserved. Original changed files and ledgers archived byte-for-byte; exact aliases retain old-reference lookup. Tests and separate review pending. | — |
@@ -1178,6 +1177,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261019104 | 2026-10-19T05:11:09.625326+00:00 | Published and live-verified the Tarakasi editorial revision with Founder byline, visible source notes, clearer soldering explanation and retained documentary media. Separate AI review; zero substantive-programme credit. | — |
 | POD-EVT-20261019105 | 2026-10-19T06:02:52.485366+00:00 | Published and live-verified the Cuttack food editorial revision with Founder byline, visible factual footnote, restrained photo attribution and mobile-readable layout. Full Dahibara story and portable reading retained. Separate AI review; zero substantive-programme credit. | — |
 | POD-EVT-20261019106 | 2026-10-19T06:19:14.278319+00:00 | Applied current Odisha family name/code with exact old-ID aliases and preserved original evidence. Pending separate review and integration; no new release or activation. | — |
+| POD-EVT-20261019107 | 2026-10-19T06:40:16.689949+00:00 | Family migration integrated through Project Odisha PR341 and Blueprint PR3 after separate AI review and passing available checks. No commercial activation or substantive programme credit. | — |
 
 ## Deferred extensions
 

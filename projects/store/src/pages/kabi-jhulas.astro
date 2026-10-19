@@ -1,0 +1,8 @@
+---
+import Store from '../layouts/Store.astro';
+import ProductArt from '../components/ProductArt.astro';
+import products from '../data/products.json';
+const designs=products.filter(p=>p.kind==='poetry-jhula');
+---
+<Store title="Kabi Jhulas · Odia Poetry Jhula"><section class="wrap collection"><p class="eyebrow">ODIA POETRY JHULA · KABI JHULAS</p><h1>For the book.<br/><em>For the journey.</em></h1><p class="lead">Twenty cloth-bag designs, each with a different border, colour or way of carrying a story.</p><p>Choose a Jhula on its own, or one of the eighteen proposed Poetry Kits. Each kit brings together the bag, a cloth notebook, refillable pen, bookmark, pen sleeve and an Odia poetry book. The two Pattachitra border studies are available as bag-only interests.</p><p class="notice">These are design studies awaiting physical samples. Materials, making techniques, poetry-book selection, prices and supply are still to be confirmed. No payment or stock reservation is made.</p><p><a href="https://projectodisha.org/odia-poetry-jhula/">Read the collection’s story and craft inspiration →</a></p><p id="catalog-status" role="status">Loading current prices and supply…</p><div class="catalog-grid">{designs.map(p=><article class="catalog-card"><a class="product-link" href={'/product/'+p.id+'/'}><ProductArt product={p}/><h2>{p.name}</h2></a><p>{p.description}</p><ul class="option-list" data-options={p.id}>{p.variant_options.map(v=><li><strong>{v.label}</strong><span>Price and supply to be confirmed</span></li>)}</ul><a class="button" href={'/product/'+p.id+'/'}>Choose this design →</a></article>)}</div></section></Store>
+<script>import '../scripts/catalog.js';</script>
