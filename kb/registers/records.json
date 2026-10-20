@@ -8647,7 +8647,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "POD-DEC-2026101702",
-      "next_action": "Continue next eligible queued article after verifying receipt integration and reconciling team ownership;36 editorial entries complete.",
+      "next_action": "Continue next eligible queued article after verifying receipt integration and reconciling team ownership;41 editorial entries complete.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026101702",
@@ -8716,7 +8716,9 @@
         "POD-REV-2026101904",
         "POD-REL-2026101904",
         "POD-REV-2026102001",
-        "POD-REL-2026102001"
+        "POD-REL-2026102001",
+        "POD-REV-2026102006",
+        "POD-REL-2026102006"
       ],
       "evidence": [
         "reference/article-editorial-standard.md",
@@ -8756,7 +8758,8 @@
         "records/cuttack-stay-editorial-publication-2026-10-19.json",
         "records/languages-editorial-publication-2026-10-19.json",
         "records/odia-editorial-publication-2026-10-19.json",
-        "records/literature-editorial-publication-2026-10-20.json"
+        "records/literature-editorial-publication-2026-10-20.json",
+        "records/bhima-editorial-publication-2026-10-20.json"
       ],
       "acceptance_criteria": [
         "Every published baseline route classified; each article independently reviewed against approved standard with PR/test/deploy/live receipt; exclusions justified; future articles follow same rule."
@@ -21149,6 +21152,33 @@
         "Library of Congress audio entries catalogued, not auditioned. Adaptations not viewed; production dates unavailable in author account.",
         "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
       ]
+    },
+    {
+      "id": "POD-REV-2026102006",
+      "title": "Separate Bhima Bhoi article and source review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent /root/drishti"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human or language-specialist review.",
+      "reviewed_head": "cb8b4cca79f5f1e09fb90dbee62ba128ae401d0e",
+      "refs": [
+        "POD-WORK-302",
+        "POD-DEC-2026101901",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/bhima-editorial-team-2026-10-20.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human, Odia-language-specialist or community approval.",
+        "Selected English-mediated text inspection only; no complete-work, manuscript or original-Odia collation.",
+        "PDF screenshot retrieval failed; fresh source review relied on successful text extraction.",
+        "Beltz’s fieldwork and reception comparison are historical; no current practice, legal status or access assertion.",
+        "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
+      ]
     }
   ],
   "releases": [
@@ -24252,6 +24282,23 @@
         "records/pratibha-editorial-team-2026-10-20.json"
       ],
       "note": "Reviewed PR361 passed checks and merged; approved deployment and live notes, retained portrait hash and responsive reading verified. Zero substantive programme credit."
+    },
+    {
+      "id": "POD-REL-2026102006",
+      "title": "Bhima Bhoi prayer, memory and community reading",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/people/bhima-bhoi/",
+      "refs": [
+        "POD-WORK-302",
+        "POD-REV-2026102006",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/bhima-editorial-publication-2026-10-20.json",
+        "records/bhima-editorial-team-2026-10-20.json"
+      ],
+      "note": "Reviewed PR363 passed checks and merged; approved deployment and live notes, retained memorial image hash and responsive reading verified. Zero substantive programme credit."
     }
   ],
   "sources": [

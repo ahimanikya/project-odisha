@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T07:08:12.408285+00:00",
   "article_id": "POD-EDIT-048",
   "route": "/people/bhima-bhoi/",
-  "status": "in_progress",
+  "status": "published_receipt_pending_integration",
   "input_head": "8961069ae7ad0bbededed6ecde21021141422f0e",
   "authorization": "POD-DEC-225",
   "classification": "Founder-directed literary introduction; Bhima Bhoi, translators, scholars and photographer retain their own credits.",
@@ -49,13 +49,23 @@
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Separate integrated candidate review",
-      "status": "pending"
+      "status": "complete",
+      "input_head": "cb8b4cca79f5f1e09fb90dbee62ba128ae401d0e",
+      "findings": "45 focused rendered/export/regression tests; independently checked selected Mahapatra and Beltz PDF text, NBT catalogue and Commons rights; canonical checks pass. Four notes/eight refs and full portable reading; only Bhima page data changes, media and programme unchanged.",
+      "limits": [
+        "Separate AI review, not human, Odia-language-specialist or community approval.",
+        "Selected English-mediated text inspection only; no complete-work, manuscript or original-Odia collation.",
+        "PDF screenshot retrieval failed; fresh source review relied on successful text extraction.",
+        "Beltz’s fieldwork and reception comparison are historical; no current practice, legal status or access assertion.",
+        "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
+      ]
     },
     {
       "name": "Disha",
       "runtime": "/root",
       "scope": "Bhima collection prose, existing culture/work/source KB, shared records, Git and publishing",
-      "status": "in_progress"
+      "status": "receipt_pending_integration",
+      "findings": "Prose, KB, tests, responsive checks, reviewed PR363 merge and approved live publication completed; retain claim through receipt merge."
     }
   ],
   "concurrency": "Prior workers complete and receipt362 merged. Unrelated PR304/281 untouched.",
@@ -88,5 +98,21 @@
       "keyboard": "Second reference for note1 moves focus to note-bhima-akademi; exact Return to passage2 restores ref-prayer-2-bhima-akademi at both widths. Further reading opens with Enter.",
       "limits": "Browser emulation, not physical-device or screen-reader testing."
     }
-  }
+  },
+  "review": {
+    "role": "Drishti",
+    "runtime": "/root/drishti",
+    "head": "cb8b4cca79f5f1e09fb90dbee62ba128ae401d0e",
+    "result": "pass_with_limitations",
+    "scope": "45 focused rendered/export/regression tests; independently checked selected Mahapatra and Beltz PDF text, NBT catalogue and Commons rights; canonical checks pass. Four notes/eight refs and full portable reading; only Bhima page data changes, media and programme unchanged.",
+    "limitations": [
+      "Separate AI review, not human, Odia-language-specialist or community approval.",
+      "Selected English-mediated text inspection only; no complete-work, manuscript or original-Odia collation.",
+      "PDF screenshot retrieval failed; fresh source review relied on successful text extraction.",
+      "Beltz’s fieldwork and reception comparison are historical; no current practice, legal status or access assertion.",
+      "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
+    ]
+  },
+  "publication_receipt": "records/bhima-editorial-publication-2026-10-20.json",
+  "ownership": "Disha retains claim until receipt PR is actually merged; release only after observed integration."
 }
