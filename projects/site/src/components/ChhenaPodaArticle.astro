@@ -12,6 +12,7 @@ const passages=entry.sections.flatMap(s=>s.paragraphs.map((p,i)=>({id:`${s.id}-$
  <MagazineContents links={[...entry.sections.map(s=>({href:'#'+s.id,label:s.title})),{href:'#food-further-reading',label:'Further reading'},{href:'#story-sources',label:'Footnotes & Sources'}]}/>
  <article class="mag-content">
   <div class="chhena-chapters">{entry.sections.map((section,index)=><section id={section.id} class="chhena-section"><p class="eyebrow">{String(index+1).padStart(2,'0')} · A taste of Odisha</p><h2>{section.title}</h2>{section.paragraphs.map((p,i)=><p data-source-ids={p.source_ids.join(' ')}>{p.text}<ArticleFootnote ids={p.source_ids} sources={editorial.sources} passage={`${section.id}-${i}`}/></p>)}</section>)}</div>
+  <slot/>
   <section id="food-further-reading" class="chhena-further-reading"><details class="utk-disclosure"><summary>Further reading</summary><nav aria-label="Related food and places"><ul>{links.map(link=><li><a href={link.href}>{link.title} →</a>{link.reason&&<p>{link.reason}</p>}</li>)}</ul></nav></details></section>
   <ArticleFootnotes sources={editorial.sources} passages={passages}><div id="food-image-credits"><h3>Photograph and reuse</h3><p><a href={photo.source}>Chhena poda ({photo.date?.slice(0,4)})</a> by {photo.creator} · <a href={photo.license_url}>{photo.license}</a>. {photo.changes}</p></div></ArticleFootnotes>
   <p class="chhena-update"><a href="/contribute/?page=%2Ffood%2Fchhena-poda%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>

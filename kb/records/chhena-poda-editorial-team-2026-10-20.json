@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T18:23:42.529706+00:00",
   "article_id": "POD-EDIT-058",
   "route": "/food/chhena-poda/",
-  "status": "candidate_ready_concurrent_integration_hold",
+  "status": "integrating_completed_directory",
   "input_head": "349197491797e77ed9b9b4841d49a85b956cc0c8",
   "authorization": [
     "POD-DEC-2026101901",
@@ -28,15 +28,13 @@
     {
       "name": "Samanta",
       "runtime": "/root/samanta",
-      "status": "complete",
+      "status": "integrating",
       "input_head": "349197491797e77ed9b9b4841d49a85b956cc0c8",
       "scope": "Inspect current food layout and prepare scoped implementation; exact allowed files assigned separately. No shared records or Git mutations.",
       "write_files": [
-        "projects/site/src/components/ChhenaPodaArticle.astro",
         "projects/site/src/pages/food/[slug].astro",
-        "projects/site/src/data/journey-catalog.ts",
-        "projects/site/tests-coast/chhena-poda-editorial.test.mjs",
-        "projects/site/tests/discovery-and-books.test.mjs"
+        "projects/site/src/components/ChhenaPodaArticle.astro",
+        "projects/site/tests-coast/chhena-poda-editorial.test.mjs"
       ],
       "findings": "Five scoped files; static test passed, rendered checks in coordinator build."
     },
@@ -558,7 +556,25 @@
     ],
     "observed_check": "CI39476738139 failed; active work not abandoned or taken over.",
     "next_action": "Reconcile actual PR390 completion or explicit handoff before resolving shared food template; preserve article source, review and tests. Rebuild/review integrated candidate and reconcile newly published routes before merge/publication. Resume POD-EDIT-058; do not start another article.",
-    "programme_count": 112
+    "programme_count": 112,
+    "resolved_by": "PR390 merged57bcb54ad8172ba7a14752e1e9182c6ebd070f37 at2026-10-20T18:58:39Z; publication39479940943 success observed this heartbeat."
   },
-  "ownership": "Disha retains POD-EDIT-058 through actual publication and receipt integration. External directory scope remains with its worker."
+  "ownership": "Disha retains POD-EDIT-058 through actual publication and receipt integration. External directory scope remains with its worker.",
+  "incoming_integration": {
+    "base": "57bcb54ad8172ba7a14752e1e9182c6ebd070f37",
+    "source_pr": 390,
+    "publication_run": 39479940943,
+    "research_review": {
+      "worker": "Anvesha",
+      "input_head": "73388e83109f005410d2646e316579cdeb32e02c",
+      "result": "62 new routes exactly match classification, rollout and edition:61 listings plus directory, no duplicate IDs/routes; existing058 claim preserved. Structured listings excluded with reasons; no article completion claimed.",
+      "limits": "Read-only route/template inspection; no new source research or independent deployment check."
+    },
+    "expected_rollout_counts": {
+      "completed": 51,
+      "excluded": 72,
+      "in_progress": 1,
+      "queued": 334
+    }
+  }
 }

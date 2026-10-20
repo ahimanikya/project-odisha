@@ -1,0 +1,42 @@
+{
+  "id": "POD-FOOD-TOURIST-EXPANSION-20261020",
+  "status": "local_preview_verified",
+  "request": "Expand restaurant list with choices useful to tourists.",
+  "result": {
+    "new_venues": 14,
+    "total_venues": 61,
+    "populated_places": 23,
+    "place_sections": 24,
+    "new_areas": [
+      "Konark & Ramachandi",
+      "Chilika",
+      "Gopalpur"
+    ],
+    "pending": [
+      "Kendujhar"
+    ],
+    "publication": "Local preview only; no commit, push or deployment."
+  },
+  "evidence": [
+    "kb/research/references/data/restaurants-tourist-expansion-coast-20261020.json",
+    "kb/research/references/data/restaurants-tourist-expansion-regions-20261020.json"
+  ],
+  "implementation": [
+    "Optional visitor_note on directory cards and restaurant profiles;14 sourced notes.",
+    "Direct operator links and exact localities; explicit vegetarian descriptions only where supported.",
+    "Existing Coco Palms personal recommendation preserved.",
+    "Stale local Astro preview restarted on same port4397;browser confirms14newnotes andGopalpur."
+  ],
+  "checks": [
+    "Coast build passed.",
+    "All61profiles and24placeanchors verified;no duplicate IDs or Tripadvisorlinks.",
+    "No empty visitor-note sections on old records.",
+    "Independent Drishti review found no material issues against saved evidence and rendered output.",
+    "Mobile390px page has no horizontal overflow."
+  ],
+  "limits": [
+    "Operator claims are not independently audited quality assessments.",
+    "Current menus, prices and non-resident resort access require direct confirmation.",
+    "Dalma official domain failedliveDNS; indexed branch leads retained inKB,notlisted."
+  ]
+}

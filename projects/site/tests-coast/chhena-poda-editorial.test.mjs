@@ -61,3 +61,15 @@ test('Chhena Poda opt-in leaves another food article and its portable authorship
  const other=page('/food/enduri-pitha/');assert.match(other,/Prepared with AI assistance; human editorial review pending/);assert.doesNotMatch(other,/class="article-byline"|id="story-sources"|<[^>]+class="[^"]*\bchhena-editorial\b[^"]*"/);
  const catalog=JSON.parse(read('dist-coast/index.html').match(/id="journey-data"[^>]*>([\s\S]*?)<\/script>/)[1]).catalog,item=catalog.find(i=>i.id==='food:enduri-pitha');assert.ok(item);assert.equal(item.author,undefined);assert.ok(item.practical.every(p=>!p.paragraphs));
 });
+
+test('Chhena Poda preserves its permitted dining listing before onward reading and source notes',()=>{
+ const html=page(route),heading='id="try-chhena-poda"';assert.equal(html.split(heading).length-1,1);
+ const diningStart=html.indexOf(heading),onwardStart=html.indexOf('id="food-further-reading"'),sourcesStart=html.indexOf('id="story-sources"');
+ assert.ok(diningStart>html.indexOf('id="try"')&&onwardStart>diningStart&&sourcesStart>onwardStart);
+ const dining=html.slice(diningStart,onwardStart);
+ assert.match(dining,/Where to try it/);assert.ok(dining.includes('These restaurants list this dish on their website. Ask about availability when planning your visit.'));
+ const directory=JSON.parse(read('../../kb/research/food/restaurants.json')),scope=JSON.parse(read('editions/coast.json')).routes;
+ const venues=directory.venues.filter(v=>v.dishes.some(d=>d.slug===entry.slug)&&scope.includes(`/food/restaurants/${v.slug}/`));assert.ok(venues.length>0);
+ for(const venue of venues){assert.ok(dining.includes(`href="/food/restaurants/${venue.slug}/"`));assert.ok(dining.includes(escape(venue.name)));}
+ assert.ok(dining.includes('href="/food/where-to-eat/"'));
+});
