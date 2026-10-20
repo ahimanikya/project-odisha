@@ -1,0 +1,90 @@
+{
+  "recorded_at": "2026-10-20T06:11:19.448769+00:00",
+  "article_id": "POD-EDIT-047",
+  "route": "/people/pratibha-ray/",
+  "status": "in_progress",
+  "input_head": "798dff94367a14ff906ec3a80e7516102572e37d",
+  "authorization": "POD-DEC-225",
+  "classification": "Founder-directed writer introduction; Pratibha Ray’s authorship and translator/photographer credits preserved.",
+  "central_question": "What changes when Pratibha Ray gives an epic woman a voice of her own, and how can a reader approach that voice across editions and translations?",
+  "acceptance": [
+    "Inspect existing KB and actual selected primary material; concrete literary examples and precise attribution.",
+    "Preserve edition and chronology uncertainty, external authorship and documentary portrait rights.",
+    "Visible numbered notes, complete portable narrative, collapsed further reading and visible update link.",
+    "Separate AI review, tests, responsive review, merged PR, approved deployment, live checks and receipt before completion."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only evidence research using existing KB and actual author-hosted text; selected literary examples and edition limits",
+      "status": "complete",
+      "input_head": "798dff94367a14ff906ec3a80e7516102572e37d",
+      "findings": "Actual author excerpt, career and adaptation HTML read; translator and LoC page inspected. Final ten paragraphs match KB and source scope; PASS, no corrections.",
+      "limits": "No full-novel, original-Odia/Sanskrit collation, audio listening or adaptation viewing. Akademi PDF extraction/render failed; no fresh claim based on it."
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/components/CultureMagazine.astro",
+        "projects/site/src/components/CultureOnward.astro",
+        "projects/site/src/data/journey-catalog.ts",
+        "kb/research/voices/pratibha-editorial.json",
+        "projects/site/tests-coast/pratibha-editorial.test.mjs",
+        "projects/site/tests-coast/voices-passage-sources.test.mjs",
+        "projects/site/tests/voices.test.mjs",
+        "projects/site/tests-coast/fakir-editorial.test.mjs",
+        "projects/site/tests-coast/literature-editorial.test.mjs",
+        "projects/site/tests-coast/six-acres-editorial.test.mjs",
+        "projects/site/tests-coast/sarala-editorial.test.mjs"
+      ],
+      "status": "complete",
+      "input_head": "798dff94367a14ff906ec3a80e7516102572e37d",
+      "findings": "Eleven reserved files changed: exact-route reading opt-in, full portable narrative, five notes/eight references/seven sourced passages. Four previous negative controls moved to untouched Bhima Bhoi. Existing portrait and portable image mapping preserved.",
+      "tests": "Static source-map/portrait/edition/translator check1/1; syntax and whitespace pass. Root rendered builds pending."
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Separate integrated candidate review",
+      "status": "pending"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": "Pratibha collection prose, existing person/work KB, shared records, Git and publishing",
+      "status": "in_progress"
+    }
+  ],
+  "concurrency": "Previous workers completed; receipt360 merge observed; PR304 statistics and PR281 Ashoka untouched.",
+  "substantive_items_added": 0,
+  "human_review_claimed": false,
+  "source_inspection": {
+    "research_reuse": "Existing person, Yajnaseni, The Ring, LoC source and voices narrative reused before retrieval. Stable source IDs retained.",
+    "media": "Disha inspected original portrait and Commons metadata; credible event photo, Kannan Shanmugam, Kollam15May2010, CC BY-SA3.0. Image unchanged.",
+    "image_sha256": "1441b03cfcafe5a963e0c7b211bf1399aa36fde27038029758d2fc4584bdd5f0",
+    "captures": {
+      "work": "3a41abef569b08cb8af552b323b86f43d3bdac83a8e79aae7fc691622871948c",
+      "career": "464723adfdf9729c4636e4ed3aef360c1b00be1cf384929a12c192928b61385b",
+      "adaptations": "465815c01de7eec152a0d897b4e26fef1cabcf16e6061a4a96a8d6e3f4795b06"
+    },
+    "retrieval_limit": "Web reader timed out for author pages; fresh urllib retrieval succeeded and actual text was inspected by Disha and Anvesha. LoC linked catalogue failed; original imprint unresolved."
+  },
+  "validation": {
+    "full_tests": 566,
+    "coast_tests": 287,
+    "publication_indexable_routes": 11,
+    "other_checks": [
+      "Research, map, bundle, catalogue, workbench build and six workbench tests passed",
+      "Rollout, team, programme, registers and whitespace passed"
+    ],
+    "responsive_review": {
+      "reviewer": "Disha (AI)",
+      "desktop": "1440 ×1000, 740px prose, no horizontal overflow; portrait and reading layout inspected",
+      "mobile": "390 ×844,343.195px prose, no horizontal overflow; readable paragraphs and numbered notes",
+      "keyboard": "ref-work-1-ray-work Enter focuses note-ray-work; exact Return to passage2 for footnote2 restores ref-work-1-ray-work at both widths. Further reading opens from keyboard.",
+      "limits": "Browser emulation, not physical-device or screen-reader testing."
+    }
+  }
+}
