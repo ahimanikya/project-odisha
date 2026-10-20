@@ -59,11 +59,12 @@
     "route": "/visit/places/similipal/",
     "owner": "Disha",
     "coordinator_runtime": "/root",
-    "phase": "integrated_review",
+    "phase": "receipt_integrated",
     "branch": "codex/similipal-editorial-20261020",
     "input_head": "04dace3e8abae34aff0b58c2ee3b683f10f696f0",
     "file_reservations": "records/similipal-editorial-team-2026-10-20.json#executions",
-    "integration_gate": "Retain ownership until publication receipt PR is actually merged."
+    "integration_gate": "Retain ownership until this receipt PR is actually merged; phase becomes effective only with that integration. No next article claim before observed merge.",
+    "publication_receipt": "records/similipal-editorial-publication-2026-10-20.json"
   },
   "project_identity": "reference/project-identity.md"
 }
