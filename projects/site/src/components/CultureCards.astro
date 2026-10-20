@@ -1,7 +1,10 @@
 ---
 import collection from '../../../../kb/research/voices/collection.json';
-const {entry}=Astro.props,assets=collection.assets;
+import ArticleFootnote from './ArticleFootnote.astro';
+const {entry,editorial=null}=Astro.props,assets=collection.assets;
+const reviewed=entry.path==='literature'?editorial:null;
+const passageSources=id=>reviewed?.passages.find(p=>p.id===id)?.source_ids||[];
 ---
-{entry.cards.length>0&&<section id="reading-doors" class="culture-doors"><p class="eyebrow">A place to begin</p><h2>{entry.card_heading}</h2><div class="culture-card-grid">{entry.cards.map(c=><article>{c.asset?<figure><a href={c.href} tabindex="-1" aria-hidden="true"><img src={assets[c.asset].src} width={assets[c.asset].width} height={assets[c.asset].height} alt="" loading="lazy"/></a></figure>:<div class="culture-reading-card" aria-hidden="true"><span>A reading doorway</span><strong>{c.title}</strong><span>{c.label||'Odia literature'}</span></div>}<div><h3><a href={c.href}>{c.title} ↗</a></h3><p>{c.text}</p>{c.image_note&&<p class="culture-image-note">{c.image_note}</p>}</div></article>)}</div></section>}
+{entry.cards.length>0&&<section id="reading-doors" class="culture-doors"><p class="eyebrow">A place to begin</p><h2>{entry.card_heading}</h2><div class="culture-card-grid">{entry.cards.map((c,index)=><article>{c.asset?<figure><a href={c.href} tabindex="-1" aria-hidden="true"><img src={assets[c.asset].src} width={assets[c.asset].width} height={assets[c.asset].height} alt="" loading="lazy"/></a></figure>:<div class="culture-reading-card" aria-hidden="true"><span>A reading doorway</span><strong>{c.title}</strong><span>{c.label||'Odia literature'}</span></div>}<div><h3><a href={c.href}>{c.title} ↗</a></h3><p>{c.text}{reviewed&&<ArticleFootnote ids={passageSources(`card-${index}`)} sources={reviewed.sources} passage={`card-${index}`}/>}</p>{c.image_note&&<p class="culture-image-note">{c.image_note}</p>}</div></article>)}</div></section>}
 
 <style>.culture-image-note{font-size:13px;line-height:1.6;color:var(--muted)}</style>

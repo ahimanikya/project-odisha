@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-19T17:43:26.702337+00:00",
   "article_id": "POD-EDIT-042",
   "route": "/languages/odia/",
-  "status": "published_receipt_integration_pending",
+  "status": "receipt_integrated",
   "input_head": "740e2e5dc2110f1bcd00ee32259efd9ab16b4b45",
   "authorization": "POD-DEC-225",
   "classification": "Authored language introduction with linked literature and dated population inset.",
@@ -80,7 +80,7 @@
       "name": "Disha",
       "runtime": "/root",
       "scope": "Only languages/odia entry in collection.json and necessary source metadata, shared records, integration and publishing",
-      "status": "receipt_integration_pending"
+      "status": "completed"
     }
   ],
   "concurrency": "Prior receipt PR349 observed merged; prior team workers completed. External PR304 statistics and PR281 Ashoka excluded.",
@@ -181,6 +181,13 @@
       "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39298740324"
     },
     "receipt": "records/odia-editorial-publication-2026-10-19.json",
-    "integration_gate": "Retain ownership until this publication receipt PR merges. No next article claim before observed merge."
+    "integration_gate": "Ownership released after observed receipt PR351 merge.",
+    "receipt_integration": {
+      "pull_request": 351,
+      "reviewed_head": "6fb4ce377ae8911baec07e215158e57e90cb77ff",
+      "merge_commit": "06927e55878f8f263cebd4a1832dd752b3c1f1ac",
+      "validation_run": 39299497063,
+      "separate_review": "Drishti PASS of receipt head; recorded in PR351."
+    }
   }
 }
