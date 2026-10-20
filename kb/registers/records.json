@@ -8647,7 +8647,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "POD-DEC-2026101702",
-      "next_action": "Continue next eligible queued article after verifying receipt integration and reconciling team ownership;46 editorial entries complete.",
+      "next_action": "Continue next eligible queued article after verifying receipt integration and reconciling team ownership;47 editorial entries complete.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026101702",
@@ -8728,7 +8728,9 @@
         "POD-REV-2026102010",
         "POD-REL-2026102010",
         "POD-REV-2026102011",
-        "POD-REL-2026102011"
+        "POD-REL-2026102011",
+        "POD-REV-2026102012",
+        "POD-REL-2026102012"
       ],
       "evidence": [
         "reference/article-editorial-standard.md",
@@ -8774,7 +8776,8 @@
         "records/gangadhar-editorial-publication-2026-10-20.json",
         "records/balasore-editorial-publication-2026-10-20.json",
         "records/mayurbhanj-editorial-publication-2026-10-20.json",
-        "records/chandipur-editorial-publication-2026-10-20.json"
+        "records/chandipur-editorial-publication-2026-10-20.json",
+        "records/similipal-editorial-publication-2026-10-20.json"
       ],
       "acceptance_criteria": [
         "Every published baseline route classified; each article independently reviewed against approved standard with PR/test/deploy/live receipt; exclusions justified; future articles follow same rule."
@@ -21332,6 +21335,34 @@
         "No fieldwork, current tide prediction, species identification, access inspection or human review. Selected scientific text is not a visitor safety assessment.",
         "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
       ]
+    },
+    {
+      "id": "POD-REV-2026102012",
+      "title": "Separate Similipal article and source review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent /root/drishti"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human or language-specialist review.",
+      "reviewed_head": "e902cc922583eb72cf5bab2fb593850f72f572f1",
+      "refs": [
+        "POD-WORK-302",
+        "POD-DEC-2026101901",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/similipal-editorial-team-2026-10-20.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human, specialist or field review.",
+        "Selected scientific text inspected; no rendered scientific figures, community interviews, recipe testing, current opening confirmation or access inspection.",
+        "Full566/coast315 suites, responsive1440/390 measurements and interactive keyboard/disclosure checks were coordinator-performed, not independently repeated. Reviewer ran21 focused tests and canonical checks against provided built output.",
+        "No deployment or live publication review at this candidate stage.",
+        "No fieldwork, current opening confirmation, community interviews, species identification or human review. Historical local research is not a current visitor activity.",
+        "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
+      ]
     }
   ],
   "releases": [
@@ -24537,6 +24568,23 @@
         "records/chandipur-editorial-team-2026-10-20.json"
       ],
       "note": "Reviewed PR373 passed checks and merged; approved deployment and live notes, retained documentary photographs and responsive reading verified. Zero substantive programme credit."
+    },
+    {
+      "id": "POD-REL-2026102012",
+      "title": "Similipal waterways, trees and documented local knowledge",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/visit/places/similipal/",
+      "refs": [
+        "POD-WORK-302",
+        "POD-REV-2026102012",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/similipal-editorial-publication-2026-10-20.json",
+        "records/similipal-editorial-team-2026-10-20.json"
+      ],
+      "note": "Reviewed PR375 passed checks and merged; approved deployment and live notes, retained documentary photographs and responsive reading verified. Zero substantive programme credit."
     }
   ],
   "sources": [

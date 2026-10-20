@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T13:15:15.005838+00:00",
   "article_id": "POD-EDIT-054",
   "route": "/visit/places/similipal/",
-  "status": "integrated_review",
+  "status": "published_receipt_pending_integration",
   "input_head": "04dace3e8abae34aff0b58c2ee3b683f10f696f0",
   "authorization": [
     "POD-DEC-2026101702",
@@ -50,17 +50,28 @@
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Separate integrated candidate review",
-      "status": "assigned"
+      "status": "complete",
+      "input_head": "e902cc922583eb72cf5bab2fb593850f72f572f1",
+      "findings": "Exact places/similipal opt-in in shared template, source adapter and journey catalogue. Complete eleven-paragraph portable prose with concise sources and image rights tested. Three visible notes and five unique exact return links including supplementary paragraph. Adjacent similipal-gateways stays retains previous treatment. Launch-readiness exception verifies integrated practical passages and citation rather than deleting coverage. Previous article/regional controls pass. One active Disha-owned article; no premature completion or substantive credit.",
+      "limits": [
+        "Separate AI review, not human, specialist or field review.",
+        "Selected scientific text inspected; no rendered scientific figures, community interviews, recipe testing, current opening confirmation or access inspection.",
+        "Full566/coast315 suites, responsive1440/390 measurements and interactive keyboard/disclosure checks were coordinator-performed, not independently repeated. Reviewer ran21 focused tests and canonical checks against provided built output.",
+        "No deployment or live publication review at this candidate stage.",
+        "No fieldwork, current opening confirmation, community interviews, species identification or human review. Historical local research is not a current visitor activity.",
+        "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
+      ]
     },
     {
       "name": "Disha",
       "runtime": "/root",
       "scope": "Canonical narrative, KB/shared records, media audit and publication",
-      "status": "in_progress",
+      "status": "receipt_pending_integration",
       "additional_files": [
         "kb/research/destinations/regions.json",
         "projects/site/tests-coast/launch-readiness.test.mjs"
-      ]
+      ],
+      "findings": "Prose, KB, tests, responsive checks, reviewed PR375 merge and approved live publication completed; retain claim through receipt merge."
     }
   ],
   "concurrency": "Existing team completed Chandipur; receipt PR374 observed merged at04dace3e. Only local delta is its actual integration handoff. Other PR304 statistics and PR281 Ashoka scopes untouched.",
@@ -140,5 +151,63 @@
       "workbench",
       "diff"
     ]
-  }
+  },
+  "review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_review",
+    "head": "e902cc922583eb72cf5bab2fb593850f72f572f1",
+    "base": "04dace3e8abae34aff0b58c2ee3b683f10f696f0",
+    "result": "pass_with_limitations",
+    "blocking_findings": [],
+    "checks": {
+      "focused_tests": 21,
+      "test_files": [
+        "similipal-editorial.test.mjs",
+        "chandipur-editorial.test.mjs",
+        "launch-readiness.test.mjs",
+        "mayurbhanj-editorial.test.mjs"
+      ],
+      "validators": [
+        "article_rollout",
+        "team_assignments",
+        "autonomous_program",
+        "registers",
+        "workbench",
+        "catalogue",
+        "research_map",
+        "git_diff_check"
+      ],
+      "sections": 6,
+      "paragraphs": 11,
+      "visible_notes": 3,
+      "references_and_exact_returns": 5,
+      "only_detail_record_changed": "similipal",
+      "region_assets_unchanged": true,
+      "programme_byte_unchanged": true,
+      "substantive_completed": 112,
+      "queue": {
+        "completed": 46,
+        "in_progress": 1,
+        "queued": 338,
+        "excluded": 10
+      },
+      "public_assets_and_eligibility_files_changed": []
+    },
+    "source_review": "Independently read actual UNESCO general/ecological paragraphs; actual Behera et al. PDF selected text pp94–98 including 2009 Chandbill field seasons, collection from private/forest land, transport/storage and mahua-rice preparation between sal leaves; actual current reserve guidelines on designated stops, specified roads, wildlife, drones/noise, food and waste. Narrative appropriately distinguishes dated local research, current rules and original observation/booking questions. No opening-date, species-sighting, universal community or current access promise. Existing stable source identities reused.",
+    "source_urls": [
+      "https://www.unesco.org/en/mab/similipal",
+      "https://atr.vsu.edu.ph/article/download/212/202/390",
+      "https://similipal.org/guidelines/"
+    ],
+    "media_review": "Actual local Barehipani photograph visually inspected; coherent landscape context retained. Hash regression passes and asset metadata unchanged. Actual Commons page independently confirms Wiki GSD, 29 December 2013, own work, CC BY-SA4.0 and 960x720 original; https://commons.wikimedia.org/wiki/File:Similipal_(2).jpg. No current flow, access or species inference.",
+    "implementation_review": "Exact places/similipal opt-in in shared template, source adapter and journey catalogue. Complete eleven-paragraph portable prose with concise sources and image rights tested. Three visible notes and five unique exact return links including supplementary paragraph. Adjacent similipal-gateways stays retains previous treatment. Launch-readiness exception verifies integrated practical passages and citation rather than deleting coverage. Previous article/regional controls pass. One active Disha-owned article; no premature completion or substantive credit.",
+    "limits": [
+      "Separate AI review, not human, specialist or field review.",
+      "Selected scientific text inspected; no rendered scientific figures, community interviews, recipe testing, current opening confirmation or access inspection.",
+      "Full566/coast315 suites, responsive1440/390 measurements and interactive keyboard/disclosure checks were coordinator-performed, not independently repeated. Reviewer ran21 focused tests and canonical checks against provided built output.",
+      "No deployment or live publication review at this candidate stage."
+    ]
+  },
+  "publication_receipt": "records/similipal-editorial-publication-2026-10-20.json",
+  "ownership": "Disha retains claim until receipt PR is actually merged; release only after observed integration."
 }
