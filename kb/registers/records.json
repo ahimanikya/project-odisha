@@ -8647,7 +8647,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "POD-DEC-2026101702",
-      "next_action": "Continue next eligible queued article after verifying receipt integration and reconciling team ownership;43 editorial entries complete.",
+      "next_action": "Continue next eligible queued article after verifying receipt integration and reconciling team ownership;44 editorial entries complete.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026101702",
@@ -8722,7 +8722,9 @@
         "POD-REV-2026102007",
         "POD-REL-2026102007",
         "POD-REV-2026102008",
-        "POD-REL-2026102008"
+        "POD-REL-2026102008",
+        "POD-REV-2026102009",
+        "POD-REL-2026102009"
       ],
       "evidence": [
         "reference/article-editorial-standard.md",
@@ -8765,7 +8767,8 @@
         "records/literature-editorial-publication-2026-10-20.json",
         "records/bhima-editorial-publication-2026-10-20.json",
         "records/gopinath-editorial-publication-2026-10-20.json",
-        "records/gangadhar-editorial-publication-2026-10-20.json"
+        "records/gangadhar-editorial-publication-2026-10-20.json",
+        "records/balasore-editorial-publication-2026-10-20.json"
       ],
       "acceptance_criteria": [
         "Every published baseline route classified; each article independently reviewed against approved standard with PR/test/deploy/live receipt; exclusions justified; future articles follow same rule."
@@ -21240,6 +21243,34 @@
         "Selected English passages and translator criticism; no full-poem, original-Odia or human review.",
         "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
       ]
+    },
+    {
+      "id": "POD-REV-2026102009",
+      "title": "Separate Balasore article and source review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent /root/drishti"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human or language-specialist review.",
+      "reviewed_head": "cbd41461649a327ea27d2d71d7883f5fd784eab4",
+      "refs": [
+        "POD-WORK-302",
+        "POD-DEC-2026101901",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/balasore-editorial-team-2026-10-20.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human review.",
+        "Selected sources only; no archival or field verification.",
+        "Rout evidence is indexed text; literary evidence is a community transcription, not original-print collation.",
+        "Responsive and keyboard checks were coordinator-performed, not independently repeated.",
+        "Geological interpretation and dated historical accounts; no fieldwork, current tide prediction, archival corroboration or human review.",
+        "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
+      ]
     }
   ],
   "releases": [
@@ -24394,6 +24425,23 @@
         "records/gangadhar-editorial-team-2026-10-20.json"
       ],
       "note": "Reviewed PR367 passed checks and merged; approved deployment and live notes, honest typographic panel and responsive reading verified. Zero substantive programme credit."
+    },
+    {
+      "id": "POD-REL-2026102009",
+      "title": "Balasore tidal landscape, river and literary reading",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/destinations/balasore/",
+      "refs": [
+        "POD-WORK-302",
+        "POD-REV-2026102009",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/balasore-editorial-publication-2026-10-20.json",
+        "records/balasore-editorial-team-2026-10-20.json"
+      ],
+      "note": "Reviewed PR369 passed checks and merged; approved deployment and live notes, retained documentary photographs and responsive reading verified. Zero substantive programme credit."
     }
   ],
   "sources": [

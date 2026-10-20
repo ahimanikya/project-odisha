@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T10:07:49.604548+00:00",
   "article_id": "POD-EDIT-051",
   "route": "/destinations/balasore/",
-  "status": "in_progress",
+  "status": "published_receipt_pending_integration",
   "input_head": "c88a96988f0ef98430a2d455478b0a247e33b567",
   "authorization": "POD-DEC-225",
   "central_question": "How do Chandipur’s changing shore and Balasore’s literary history help a reader understand the region beyond a list of stops?",
@@ -54,13 +54,24 @@
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Separate integrated candidate review",
-      "status": "pending"
+      "status": "complete",
+      "input_head": "cbd41461649a327ea27d2d71d7883f5fd784eab4",
+      "findings": "13 independently run focused tests passed: Balasore, destination regressions, Mayurbhanj exclusion and portable reading. Canonical validators passed. Rechecked selected sedimentology text, dated harbour account, current tourism guidance and indexed Rout press passage. Nine paragraphs, five notes, thirteen unique references/returns and complete portable reading confirmed. Both retained photographs visually inspected; hashes and rights unchanged. Programme112 byte-identical.",
+      "limits": [
+        "Separate AI review, not human review.",
+        "Selected sources only; no archival or field verification.",
+        "Rout evidence is indexed text; literary evidence is a community transcription, not original-print collation.",
+        "Responsive and keyboard checks were coordinator-performed, not independently repeated.",
+        "Geological interpretation and dated historical accounts; no fieldwork, current tide prediction, archival corroboration or human review.",
+        "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
+      ]
     },
     {
       "name": "Disha",
       "runtime": "/root",
       "scope": "Narrative/KB integration, shared records, Git/publishing",
-      "status": "in_progress"
+      "status": "receipt_pending_integration",
+      "findings": "Prose, KB, tests, responsive checks, reviewed PR369 merge and approved live publication completed; retain claim through receipt merge."
     }
   ],
   "concurrency": "All named workers completed previous scopes; receipt368 merged. Open PR304/281 unrelated and untouched.",
@@ -109,5 +120,20 @@
     "limits": [
       "Browser emulation, not physical-device or screen-reader testing."
     ]
-  }
+  },
+  "review": {
+    "role": "Drishti",
+    "runtime": "/root/drishti",
+    "head": "cbd41461649a327ea27d2d71d7883f5fd784eab4",
+    "result": "pass_with_limitations",
+    "scope": "13 independently run focused tests passed: Balasore, destination regressions, Mayurbhanj exclusion and portable reading. Canonical validators passed. Rechecked selected sedimentology text, dated harbour account, current tourism guidance and indexed Rout press passage. Nine paragraphs, five notes, thirteen unique references/returns and complete portable reading confirmed. Both retained photographs visually inspected; hashes and rights unchanged. Programme112 byte-identical.",
+    "limitations": [
+      "Separate AI review, not human review.",
+      "Selected sources only; no archival or field verification.",
+      "Rout evidence is indexed text; literary evidence is a community transcription, not original-print collation.",
+      "Responsive and keyboard checks were coordinator-performed, not independently repeated."
+    ]
+  },
+  "publication_receipt": "records/balasore-editorial-publication-2026-10-20.json",
+  "ownership": "Disha retains claim until receipt PR is actually merged; release only after observed integration."
 }
