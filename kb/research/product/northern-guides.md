@@ -38,3 +38,7 @@ Visible numbered notes, Founder-directed byline and complete portable prose foll
 ## Mayurbhanj editorial extension · 20 October 2026
 
 One regional article now connects forest streams and vegetation, Chhau movement through a named2024 programme, Murmu’s plays and the2023 Baripada literary gathering. The food image remains a home-cooked chicken variation, distinct from tourism’s mutton example. Old seasonal/gateway/closure claims were individually replaced with current-notice planning guidance after source access changed; no current opening or booking confirmation is inferred. Existing detailed routes remain queued independently.
+
+## Chandipur detail revision · 20 October 2026
+
+The individual shore article adds a compact explanation of slope, sediment paths and surface traces, then invites careful observation from permitted places. It replaces stale bathing and seasonal assertions individually, retains practical questions and connected reading, and exports all paragraphs with a short source list. This does not complete other northern-detail routes or expand search eligibility.

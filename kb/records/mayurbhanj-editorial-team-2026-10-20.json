@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T11:14:32.697842+00:00",
   "article_id": "POD-EDIT-052",
   "route": "/destinations/mayurbhanj/",
-  "status": "published_receipt_pending_integration",
+  "status": "complete",
   "input_head": "7ca9cae45b84f04c74e7faadf0ceb3a27edeca17",
   "authorization": "POD-DEC-225",
   "central_question": "How can a reader understand Mayurbhanj through the forest, the trained body and the written language without reducing its communities to attractions?",
@@ -70,8 +70,8 @@
       "name": "Disha",
       "runtime": "/root",
       "scope": "Narrative/KB integration, shared records and publishing",
-      "status": "receipt_pending_integration",
-      "findings": "Prose, KB, tests, responsive checks, reviewed PR371 merge and approved live publication completed; retain claim through receipt merge."
+      "status": "complete",
+      "findings": "Integrated prose and KB, passed tests and responsive checks, merged independently reviewed PR371, verified approved live publication and observed receipt PR372 merge."
     }
   ],
   "concurrency": "Named workers completed prior scopes; receipt370 independently confirmed merged. PR304 and281 unrelated and untouched.",
@@ -180,5 +180,52 @@
     ]
   },
   "publication_receipt": "records/mayurbhanj-editorial-publication-2026-10-20.json",
-  "ownership": "Disha retains claim until receipt PR is actually merged; release only after observed integration."
+  "ownership": "Released after observed receipt integration; next eligible article may be claimed after reconciling workers.",
+  "receipt_integration": {
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/372",
+    "reviewed_head": "135e1065452a5c59404b5ddadb717c1529590767",
+    "merge_commit": "496294b0fba394a6ad5928ee6902325bf2ab8c56",
+    "merged_at": "2026-10-20T11:43:13Z",
+    "validation": {
+      "conclusion": "success",
+      "databaseId": 39416375271,
+      "headSha": "135e1065452a5c59404b5ddadb717c1529590767",
+      "status": "completed",
+      "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39416375271"
+    },
+    "review": {
+      "head": "135e1065452a5c59404b5ddadb717c1529590767",
+      "base": "2598feb4696ded48f690a65e05a61caa1978bae7",
+      "reviewer": "Drishti",
+      "kind": "separate_ai_receipt_review",
+      "result": "pass_with_limitations",
+      "checks": [
+        "Remote PR371 merged reviewed373adbc49decf73b9e7a05eb0ccea935409e36bb at2598feb4696ded48f690a65e05a61caa1978bae7",
+        "CI39415201116 and deployment39415654479 success on recorded heads",
+        "Reviewed and merged trees identical",
+        "10 files records/screenshots only",
+        "Both screenshots visually inspected and hashes match",
+        "45 completed/340 queued/10 excluded; programme112 byte-unchanged",
+        "Rollout/team/programme/registers/workbench/catalogue/diff checks pass",
+        "Disha ownership conditional on actual receipt merge",
+        "Saved candidate review transcription identical"
+      ],
+      "limits": [
+        "Separate AI review, not human review.",
+        "Live HTTP, keyboard, measurements and SVG rendering are coordinator-performed; reviewer checked remote metadata and saved evidence, not live interactions."
+      ],
+      "previous_review_head": "cf7488351d418dd6a35c5185ae0a114bb7734dbe",
+      "resolved_findings": [
+        {
+          "severity": "minor_record_inconsistency",
+          "path": "kb/records/article-editorial-rollout.json",
+          "entry": "POD-EDIT-052",
+          "detail": "Completed entry retains scope classification_pending and null source_template; replace with actual regional narrative scope and RegionMagazine.astro template."
+        }
+      ],
+      "blocking_findings": [],
+      "correction_review": "Only POD-EDIT-052 actual scope/template and generated work-list changed since cf748835; corrected consistently. Rollout, team, programme and diff checks rerun and passed."
+    },
+    "checked_at": "2026-10-20T11:43:26.858331+00:00"
+  }
 }
