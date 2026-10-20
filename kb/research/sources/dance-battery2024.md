@@ -19,3 +19,11 @@ Presenter programme for Rockefeller Park, New York; establishes billed work and 
 ## Mayurbhanj regional reuse · 20 October 2026
 
 Actual programme introduction, Natraj entry and credits inspected. Used for a specific movement contrast and named collaboration; no attendance, witnessed delivery, ancient origin or presenter geography error adopted. Keep combined public paraphrase and footnote below200 words.
+
+## Individual performance guide inspection · 20 October 2026
+
+Actual full programme inspected on 20 October 2026. Existing source identity reused for Geeta Upadesh, Durga & Kali and production credits, separately from the regional article’s Natraj passage.
+
+Passage mapping: [Chhau editorial evidence](../destinations/chhau-editorial.json).
+
+Limits: Programme billing does not independently establish delivery, audience or current bookings. No individual character roles assigned. Source spells Pritha Ghosh in the Durga & Kali cast and assistant credit, and Pritha Gosh in Kshetriya elsewhere. Article follows the relevant Ghosh credit. Music credit Saroj Mohanti is preserved without conflating the separately credited Odissi Saroj Mohanty.

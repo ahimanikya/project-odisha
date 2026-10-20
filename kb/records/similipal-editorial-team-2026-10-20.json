@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T13:15:15.005838+00:00",
   "article_id": "POD-EDIT-054",
   "route": "/visit/places/similipal/",
-  "status": "published_receipt_pending_integration",
+  "status": "complete",
   "input_head": "04dace3e8abae34aff0b58c2ee3b683f10f696f0",
   "authorization": [
     "POD-DEC-2026101702",
@@ -66,12 +66,12 @@
       "name": "Disha",
       "runtime": "/root",
       "scope": "Canonical narrative, KB/shared records, media audit and publication",
-      "status": "receipt_pending_integration",
+      "status": "complete",
       "additional_files": [
         "kb/research/destinations/regions.json",
         "projects/site/tests-coast/launch-readiness.test.mjs"
       ],
-      "findings": "Prose, KB, tests, responsive checks, reviewed PR375 merge and approved live publication completed; retain claim through receipt merge."
+      "findings": "Published Similipal, verified actual live reading and preserved photograph, and integrated separately reviewed receipt PR376 after passing required checks."
     }
   ],
   "concurrency": "Existing team completed Chandipur; receipt PR374 observed merged at04dace3e. Only local delta is its actual integration handoff. Other PR304 statistics and PR281 Ashoka scopes untouched.",
@@ -209,5 +209,80 @@
     ]
   },
   "publication_receipt": "records/similipal-editorial-publication-2026-10-20.json",
-  "ownership": "Disha retains claim until receipt PR is actually merged; release only after observed integration."
+  "ownership": "Released after observed receipt integration; next eligible article may be claimed after reconciling workers.",
+  "receipt_integration": {
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/376",
+    "reviewed_head": "45cd7f1721413b761e6a84558503d7954dc4e66e",
+    "merge_commit": "03f54d4a9b7e0393949e72f01aa282c15da7d293",
+    "merged_at": "2026-10-20T14:08:56Z",
+    "validation": {
+      "conclusion": "success",
+      "databaseId": 39431650423,
+      "headSha": "45cd7f1721413b761e6a84558503d7954dc4e66e",
+      "status": "completed",
+      "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39431650423"
+    },
+    "review": {
+      "reviewer": "Drishti",
+      "kind": "separate_ai_receipt_review",
+      "head": "45cd7f1721413b761e6a84558503d7954dc4e66e",
+      "base": "efcd872d8d6eae2d3785d8308c6dcf9bbf272492",
+      "result": "pass_with_limitations",
+      "blocking_findings": [],
+      "checks": {
+        "changed_files": 10,
+        "scope": "Records and two screenshots only; no website/source/policy changes.",
+        "validators": [
+          "article_rollout",
+          "team_assignments",
+          "autonomous_program",
+          "registers",
+          "workbench",
+          "git_diff_check"
+        ],
+        "counts": {
+          "completed": 47,
+          "queued": 338,
+          "excluded": 10
+        },
+        "only_queue_entry_changed": "POD-EDIT-054",
+        "programme_byte_unchanged": true,
+        "substantive_completed": 112,
+        "review_transcription": "Receipt final_review and team review exactly match saved separate candidate review. Candidate-stage limitations remain scoped to that historical review.",
+        "tree_correspondence": "Reviewed e902cc922583eb72cf5bab2fb593850f72f572f1 and merged efcd872d8d6eae2d3785d8308c6dcf9bbf272492 trees identical.",
+        "ownership": "Disha retains POD-EDIT-054; receipt_integrated phase explicitly conditional on actual receipt merge, with no next claim before observed integration."
+      },
+      "remote_verification": {
+        "method": "Independent read-only gh pr view and gh run view queries",
+        "pull_request": 375,
+        "state": "MERGED",
+        "merged_at": "2026-10-20T13:29:21Z",
+        "reviewed_head": "e902cc922583eb72cf5bab2fb593850f72f572f1",
+        "merge_head": "efcd872d8d6eae2d3785d8308c6dcf9bbf272492",
+        "ci": {
+          "run": 39430164917,
+          "conclusion": "success",
+          "head": "e902cc922583eb72cf5bab2fb593850f72f572f1"
+        },
+        "deployment": {
+          "run": 39430851737,
+          "conclusion": "success",
+          "head": "efcd872d8d6eae2d3785d8308c6dcf9bbf272492"
+        }
+      },
+      "screenshot_review": {
+        "desktop_sha256": "094764ee217416175b966895de87590e013b08e1c1a8cde38d9fd2e47ea7b77c",
+        "mobile_sha256": "1242596b5daa83c8f7105ff47b7a51a6497be3a61db91d838b56f94982a4c5a8",
+        "result": "Both saved cover views visually inspected and hashes match receipt; legible heading, lead, byline and dated photo caption, full waterfall landscape frame retained with no visible clipping in captured views."
+      },
+      "limits": [
+        "Separate AI review, not human, specialist or field approval.",
+        "Live HTTP/image requests, sitemap, responsive measurements, interactive keyboard and disclosure checks were coordinator-performed and not independently repeated.",
+        "Saved screenshots show cover views, not proof of full-page accessibility or interactive behavior.",
+        "No build or site-suite repetition for records-only delta; prior candidate review and successful remote CI preserved.",
+        "No current opening confirmation, access inspection, interviews or fieldwork."
+      ]
+    },
+    "checked_at": "2026-10-20T14:17:46.129045+00:00"
+  }
 }
