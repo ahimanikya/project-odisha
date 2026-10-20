@@ -1,0 +1,122 @@
+{
+  "recorded_at": "2026-10-20T14:23:43.144293+00:00",
+  "article_id": "POD-EDIT-055",
+  "route": "/visit/experiences/mayurbhanj-chhau/",
+  "status": "candidate_ready",
+  "input_head": "03f54d4a9b7e0393949e72f01aa282c15da7d293",
+  "authorization": [
+    "POD-DEC-2026101702",
+    "POD-DEC-225",
+    "POD-DEC-2026101901"
+  ],
+  "central_question": "What does a viewer need to notice to understand Mayurbhanj Chhau as a distinct learned performance practice, beyond the simple fact that its dancers do not wear masks?",
+  "acceptance": [
+    "Explain practice and named works through individually inspected source material, preserving regional distinctions, credit and origin/evidence limits.",
+    "Retain credible image and rights; visible numbered footnotes, natural reading and full portable narrative.",
+    "Tests, responsive review, separate AI review, merged PR, approved deployment and live receipt before completion."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only bounded research and prose proposal",
+      "status": "complete",
+      "input_head": "03f54d4a9b7e0393949e72f01aa282c15da7d293",
+      "findings": "Adds actuallearner testimony,training/repertorydistinction,Dandi restraint,GeetaUpadesh relationalstorytelling,named women/productioncredits anddatedteachinginitiative. DoesnotrepeatregionalNatrajaccount or expandrecognitiondispute.",
+      "checks": "KBquery/source/recognitionrecords inspected first;actualSNA,Narthaki,Battery,Chhauni pages read;JSON serialized.",
+      "limits": "No performanceviewing,personalinterview,fieldvisit,universaltrainingclaim orcurrenteventconfirmation. Narrative dates distinguish1976–79 trainingmemory,2023publication,2024billing and2016institutionlaunch."
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/pages/visit/[kind]/[slug].astro",
+        "projects/site/src/data/destination-details.ts",
+        "projects/site/src/data/journey-catalog.ts",
+        "kb/research/destinations/chhau-editorial.json",
+        "projects/site/tests-coast/chhau-editorial.test.mjs"
+      ],
+      "status": "complete",
+      "input_head": "03f54d4a9b7e0393949e72f01aa282c15da7d293",
+      "findings": "Five reserved files: exact route opt-in, 6 sections, 12 paragraphs, 4 sources, 8 references, full portable narrative and original photo rights.",
+      "tests": "Static mapping/source budget/photo hash 1/1; syntax and diff checks passed."
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Separate integrated candidate review",
+      "status": "waiting_for_candidate"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": "Canonical narrative, KB, shared records, image audit and publication",
+      "status": "in_progress"
+    }
+  ],
+  "concurrency": "Existing team completed Similipal; PR376 receipt observed merged at03f54d4a. Only local delta is actual integration handoff. Other PR304 statistics and PR281 Ashoka untouched.",
+  "substantive_items_added": 0,
+  "human_review_claimed": false,
+  "image_audit": {
+    "asset": "mayurbhanj-chhau",
+    "result": "retain",
+    "inspection": "Actual full-frame image inspected: two unmasked performers, coherent airborne postures, costume, scale, lighting and stage setting. No synthetic elements observed. Does not identify individual artists, characters, named steps or the 2024 billed programme.",
+    "source": "https://commons.wikimedia.org/wiki/File:Mayurbhanj_Chhau.jpg",
+    "source_checked": "2026-10-20",
+    "creator": "Ramesh Lalwani",
+    "photographed_on": "2016-01-17",
+    "license": "CC BY 2.0",
+    "source_page": "Actual Commons source page and Flickr licence verification inspected; attribution and image rights retained.",
+    "sha256": "74d69ba8018fd8b389a8872afcabc568ddfcc47dc288338a2b2ed6c39922673a"
+  },
+  "source_review": {
+    "actual_pages": [
+      "https://indiaich-sna.in/chhau-dance",
+      "https://narthaki.com/info/articles/art532.html",
+      "https://batterydance.org/aug-15-2024/",
+      "https://www.mayurbhanjchhau.org/"
+    ],
+    "verification": "Coordinator independently opened all four pages and inspected the selected passages after Anvesha research. Primary testimony and institutional/presenter scope distinguished.",
+    "word_budgets": {
+      "chhau-sna": 71,
+      "chhau-sharma2023": 159,
+      "dance-battery2024": 121,
+      "chhau-chhauni": 125
+    },
+    "source_map": "research/destinations/chhau-editorial.json",
+    "limitations": "No performanceviewing,personalinterview,fieldvisit,universaltrainingclaim orcurrenteventconfirmation. Narrative dates distinguish1976–79 trainingmemory,2023publication,2024billing and2016institutionlaunch."
+  },
+  "validation": {
+    "full_build": true,
+    "full_tests": 566,
+    "coast_build": true,
+    "coast_tests": 319,
+    "publication_build": true,
+    "kb_and_register_checks": "PASS: research map, catalogue, article rollout, workbench, team, programme, bundle and registers.",
+    "log": "/tmp/pod-chhau-build.log",
+    "responsive": {
+      "viewports": [
+        [
+          1440,
+          1000
+        ],
+        [
+          390,
+          844
+        ]
+      ],
+      "reading_widths": [
+        740,
+        343.1953125
+      ],
+      "horizontal_overflow": false,
+      "visual_review": "Actual desktop and mobile cover and prose inspected; full image, readable spacing, visible byline and footnotes.",
+      "keyboard_returns": [
+        "ref-detail-1-p-0-chhau-sharma2023",
+        "ref-detail-4-p-0-chhau-chhauni"
+      ],
+      "further_reading_keyboard_toggle": true,
+      "limits": "Browser emulation, not physical-device or screen-reader testing."
+    }
+  }
+}

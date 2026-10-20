@@ -45,3 +45,7 @@ This is a documented international presentation route, not a measured popularity
 ## Looking at movement · 20 October 2026
 
 The actual Battery Dance2024 programme was re-read for the Mayurbhanj regional article: jumps, spins and high kicks contrast with torso/shoulder movement; the Natraj notes name preservation, destruction and renewed creation. Those are the presenter’s descriptions, not witnessed analysis or an exclusive origin history. Choreographer Rajesh Sai Babu, assistant Pritha Ghosh and music credit Saroj Mohanti remain distinct. UNESCO’s shared three-style inscription is reused from official indexed text; a direct verification barrier was not bypassed.
+
+## Individual performance guide · 20 October 2026
+
+The [six-section guide](../destinations/northern-details.json) now uses a first-person training memoir, named repertoire and an institutional teaching account. [Passage mapping and inspection limits](../destinations/chhau-editorial.json) distinguish retrospective testimony, programme billing and institutional self-description. SNA reproduces the UNESCO description and is not independent corroboration. The regional Natraj example and recognition narrative remain distinct. No performance viewing, interview, current event confirmation or human review is claimed.
