@@ -26,4 +26,4 @@ Actual full programme inspected on 20 October 2026. Existing source identity reu
 
 Passage mapping: [Chhau editorial evidence](../destinations/chhau-editorial.json).
 
-Limits: Programme billing does not independently establish delivery, audience or current bookings. No individual character roles assigned. Source spells Pritha Gosh in the cast and Pritha Ghosh in the assistant credit; article uses the latter. Music credit Saroj Mohanti is preserved without conflating the separately credited Odissi Saroj Mohanty.
+Limits: Programme billing does not independently establish delivery, audience or current bookings. No individual character roles assigned. Source spells Pritha Ghosh in the Durga & Kali cast and assistant credit, and Pritha Gosh in Kshetriya elsewhere. Article follows the relevant Ghosh credit. Music credit Saroj Mohanti is preserved without conflating the separately credited Odissi Saroj Mohanty.

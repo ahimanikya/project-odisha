@@ -117,6 +117,11 @@
       ],
       "further_reading_keyboard_toggle": true,
       "limits": "Browser emulation, not physical-device or screen-reader testing."
+    },
+    "initial_ci_failure": {
+      "run": 39440307693,
+      "reason": "Search index was regenerated before final source inspection wording; CI detected stale derived Battery source entry.",
+      "resolution": "Regenerated search index after source metadata normalization; no public prose or behavior changed."
     }
   }
 }
