@@ -797,3 +797,7 @@ The [artist collection](../people/pala-artists.md) and scoped register add 20 se
 ## Pala history, preservation and visitors ·19October2026
 
 Expanded the existing Pala narrative using saved artist/network and literary evidence; added UNESCO’s general safeguarding principles and rechecked CTMS discovery scope. History, interpretation, editorial advice and unknown current visitor arrangements remain distinct. Reconciled stale machine-readable form/award fields without changing the initial nucleus or queue criteria. New [structured supplement](../references/data/pala-preservation-visit.json) records gaps and visitor unknowns.
+
+## Sarala literary profile ·20October2026
+
+The [Sarala Das person record](../people/sarala-das.md) extends the existing voices profile and literary-lives study, with no duplicate author identity. Reused the official overview/catalogue, contextual manuscript photograph and Osha source lead before adding Ghosh’s2025 study and Patnaik’s2019 author essay. Two selected scholarly readings are not a direct collation of the epic, and the catalogue PDF’s retrieval does not identify its edition. Biography and manuscript questions remain open.
