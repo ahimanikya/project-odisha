@@ -21068,6 +21068,33 @@
         "1902/1905 original-novel chronology remains unresolved.",
         "Responsive and keyboard checks are browser emulation by coordinator, not physical-device or screen-reader testing."
       ]
+    },
+    {
+      "id": "POD-REV-2026102003",
+      "title": "Separate Six Acres literary article and source review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent /root/drishti"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human or language-specialist review.",
+      "reviewed_head": "ee965d4cc79d6689bfdce94f8196cde37532db3d",
+      "refs": [
+        "POD-WORK-302",
+        "POD-DEC-2026101901",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/six-acres-editorial-team-2026-10-20.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human or language-specialist approval.",
+        "Selected community transcriptions only; no full-novel review or printed facsimile collation.",
+        "1902/1905 original-novel chronology remains unresolved; original serial/book imprints not inspected.",
+        "Publisher edition capture reused; direct Rout PDF retrieval failed and retained/indexed text was used.",
+        "Responsive and keyboard checks are browser emulation by coordinator, not physical-device or screen-reader testing."
+      ]
     }
   ],
   "releases": [
@@ -24120,6 +24147,23 @@
         "records/fakir-editorial-team-2026-10-20.json"
       ],
       "note": "Reviewed PR354 passed checks and merged; integrated PR355 separately reviewed before approved deployment. Live notes, retained bust hash and responsive reading verified. Zero substantive programme credit."
+    },
+    {
+      "id": "POD-REL-2026102003",
+      "title": "Six Acres household, narrator and courtroom reading",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/literature/six-acres-and-a-third/",
+      "refs": [
+        "POD-WORK-302",
+        "POD-REV-2026102003",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/six-acres-editorial-publication-2026-10-20.json",
+        "records/six-acres-editorial-team-2026-10-20.json"
+      ],
+      "note": "Reviewed PR357 passed checks and merged; approved deployment and live notes, retained bust hash and responsive reading verified. Zero substantive programme credit."
     }
   ],
   "sources": [

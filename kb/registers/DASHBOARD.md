@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `cbaab31f70eece76c6bb786f03283df2793e9e82f9d60da5bc327bbf5e53a03b`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `2e858de2467ef824e272d00be76473685fd6f06481ec21dbe46adaf4a957f620`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -951,6 +951,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026101904 | pass_with_limitations | True | Separate AI review, not human or language-specialist approval.; Responsive browser and keyboard checks performed by coordinator using emulation.; Wikisource transcription not collated against a facsimile or critical edition; CIIL catalogue inspected, not the full book. |
 | POD-REV-2026102001 | pass_with_limitations | True | Separate AI review, not human or language-specialist approval.; Responsive browser and keyboard checks performed by coordinator using emulation.; Selected excerpts only; no full-novel review or printed facsimile collation.; Author-hosted Jajnaseni excerpt does not identify its translator; none inferred. |
 | POD-REV-2026102002 | pass_with_limitations | True | Separate AI review, not human or language-specialist approval.; Historical essays rechecked through indexed excerpts; direct PDFs unavailable. No original school/press records inspected.; Selected literary passages only; no full-novel review or printed facsimile collation.; 1902/1905 original-novel chronology remains unresolved.; Responsive and keyboard checks are browser emulation by coordinator, not physical-device or screen-reader testing. |
+| POD-REV-2026102003 | pass_with_limitations | True | Separate AI review, not human or language-specialist approval.; Selected community transcriptions only; no full-novel review or printed facsimile collation.; 1902/1905 original-novel chronology remains unresolved; original serial/book imprints not inspected.; Publisher edition capture reused; direct Rout PDF retrieval failed and retained/indexed text was used.; Responsive and keyboard checks are browser emulation by coordinator, not physical-device or screen-reader testing. |
 
 ## Publication and application history
 
@@ -1143,6 +1144,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026101904 · Odia reading with literary examples and visible sources | published | https://projectodisha.org/languages/odia/ | POD-DEC-225 |
 | POD-REL-2026102001 · Odia Literature reading through narrator and character voice | published | https://projectodisha.org/literature/ | POD-DEC-225 |
 | POD-REL-2026102002 · Fakir Mohan public-language work and close readings | published | https://projectodisha.org/people/fakir-mohan-senapati/ | POD-DEC-225 |
+| POD-REL-2026102003 · Six Acres household, narrator and courtroom reading | published | https://projectodisha.org/literature/six-acres-and-a-third/ | POD-DEC-225 |
 
 ## Sources and assets
 
@@ -1180,7 +1182,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261019106 | 2026-10-19T06:19:14.278319+00:00 | Applied current Odisha family name/code with exact old-ID aliases and preserved original evidence. Pending separate review and integration; no new release or activation. | — |
 | POD-EVT-20261019107 | 2026-10-19T06:40:16.689949+00:00 | Family migration integrated through Project Odisha PR341 and Blueprint PR3 after separate AI review and passing available checks. No commercial activation or substantive programme credit. | — |
 | POD-EVT-20261019108 | 2026-10-19T07:07:15.803455+00:00 | Claimed POD-EDIT-039 Netaji museum article after prior receipts integrated. Inspected autobiography, current museum source and retained photograph; preparing authored reading and visible notes. Separate review and publication pending; zero substantive programme credit. | — |
 | POD-EVT-20261019109 | 2026-10-19T07:22:09.760133+00:00 | Published and live-verified POD-EDIT-039 Netaji museum article via PR344 and approved deployment39215016274. Separate AI source review, visible notes, portable reading and responsive checks retained;32 editorial entries complete, substantive programme112 unchanged. | — |
@@ -1190,6 +1191,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261019113 | 2026-10-19T18:03:43.965883+00:00 | Published and live-verified POD-EDIT-042 Odia via PR350 and approved deployment39298740324. Manuscript, Rebati and learner-resource examples, Founder byline and four visible sources;35 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261020001 | 2026-10-20T02:14:40.287780+00:00 | Published and live-verified POD-EDIT-043 Literature via PR352 and approved deployment39357400580. Selected literary passages, edition-specific translation credits and three visible sources;36 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261020002 | 2026-10-20T03:30:25.717262+00:00 | Published and live-verified POD-EDIT-044 Fakir Mohan via PR354 and approved deployment39364210556. Concrete literary readings, ten visible source notes and complete portable reading;37 editorial entries complete, substantive programme112 unchanged. | — |
+| POD-EVT-20261020003 | 2026-10-20T05:05:08.039215+00:00 | Published and live-verified POD-EDIT-045 Six Acres via PR357 and approved deployment39372533375. Household stakes, narrator satire and courtroom language with six visible notes and full portable reading;38 editorial entries complete, substantive programme112 unchanged. | — |
 
 ## Deferred extensions
 

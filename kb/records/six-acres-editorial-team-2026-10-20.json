@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T04:11:22.816419+00:00",
   "article_id": "POD-EDIT-045",
   "route": "/literature/six-acres-and-a-third/",
-  "status": "in_progress",
+  "status": "published_receipt_pending_integration",
   "input_head": "a100c6e81ac22ab38e61d577227186d39577e8f0",
   "authorization": "POD-DEC-225",
   "classification": "Founder-directed literary introduction to an external novel; original author and translation credits preserved.",
@@ -44,13 +44,23 @@
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Separate integrated candidate review",
-      "status": "pending"
+      "status": "complete",
+      "input_head": "ee965d4cc79d6689bfdce94f8196cde37532db3d",
+      "findings": "34 focused tests; independently inspected chapter10 household/cow/holding and hereditary-authority passages plus court opening. Complete portable reading, six notes, twelve references/returns, attribution, image rights and neighbouring-page controls. Canonical validators pass.",
+      "limits": [
+        "Separate AI review, not human or language-specialist approval.",
+        "Selected community transcriptions only; no full-novel review or printed facsimile collation.",
+        "1902/1905 original-novel chronology remains unresolved; original serial/book imprints not inspected.",
+        "Publisher edition capture reused; direct Rout PDF retrieval failed and retained/indexed text was used.",
+        "Responsive and keyboard checks are browser emulation by coordinator, not physical-device or screen-reader testing."
+      ]
     },
     {
       "name": "Disha",
       "runtime": "/root",
       "scope": "Only six-acres entry in voices collection, works/six-acres-and-a-third.md and shared records/publishing",
-      "status": "in_progress"
+      "status": "receipt_pending_integration",
+      "findings": "Prose, KB, tests, responsive checks, reviewed PR357 merge and approved live publication completed; retain claim through receipt merge."
     }
   ],
   "concurrency": "Prior workers completed; receipt356 merged. PR304 and281 untouched.",
@@ -63,5 +73,21 @@
     "canonical": "research, workbench, rollout, team, programme, registers, bundle and whitespace passed",
     "responsive": "Disha inspected1440x1000 and390x844; no horizontal overflow; body740px/343.195px. Keyboard court note and exact return focus passed; Further reading keyboard disclosure passed.",
     "limits": "Browser review by coordinator; separate candidate review pending."
-  }
+  },
+  "review": {
+    "role": "Drishti",
+    "runtime": "/root/drishti",
+    "head": "ee965d4cc79d6689bfdce94f8196cde37532db3d",
+    "result": "pass_with_limitations",
+    "scope": "34 focused tests; independently inspected chapter10 household/cow/holding and hereditary-authority passages plus court opening. Complete portable reading, six notes, twelve references/returns, attribution, image rights and neighbouring-page controls. Canonical validators pass.",
+    "limitations": [
+      "Separate AI review, not human or language-specialist approval.",
+      "Selected community transcriptions only; no full-novel review or printed facsimile collation.",
+      "1902/1905 original-novel chronology remains unresolved; original serial/book imprints not inspected.",
+      "Publisher edition capture reused; direct Rout PDF retrieval failed and retained/indexed text was used.",
+      "Responsive and keyboard checks are browser emulation by coordinator, not physical-device or screen-reader testing."
+    ]
+  },
+  "publication_receipt": "records/six-acres-editorial-publication-2026-10-20.json",
+  "ownership": "Disha retains claim until receipt PR is actually merged; release only after observed integration."
 }
