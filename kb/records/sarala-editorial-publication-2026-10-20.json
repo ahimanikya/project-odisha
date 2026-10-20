@@ -1,0 +1,120 @@
+{
+  "recorded_at": "2026-10-20T05:35:06.006219+00:00",
+  "authorization": [
+    "POD-DEC-2026101702",
+    "POD-DEC-225",
+    "POD-DEC-2026101901"
+  ],
+  "work_id": "POD-WORK-302",
+  "queue_item": "POD-EDIT-046",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/359",
+  "reviewed_head": "f334ba4ad6c450d4465565b0e59afa210e8b359c",
+  "merge_commit": "c2b21053e9d3c01e69c964645a18d3318a60d5d3",
+  "validation": {
+    "conclusion": "success",
+    "databaseId": 39374771030,
+    "headSha": "f334ba4ad6c450d4465565b0e59afa210e8b359c",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39374771030"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "databaseId": 39375219244,
+    "headSha": "c2b21053e9d3c01e69c964645a18d3318a60d5d3",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39375219244"
+  },
+  "live_checks": {
+    "checked_at": "2026-10-20T05:34:23.167263+00:00",
+    "url": "https://projectodisha.org/people/sarala-das/",
+    "http_status": 200,
+    "html_sha256": "5e30f6a81cd63b5c6dafc41902cb087aea13654984ad6cd3032d7fe3608e3e63",
+    "visible_notes": 4,
+    "references": 8,
+    "exact_returns": 8,
+    "checks": {
+      "byline": true,
+      "draupadi": true,
+      "sakuni": true,
+      "biography": true,
+      "editions": true,
+      "contextual_image": true,
+      "noindex": true,
+      "returns": true
+    },
+    "images": {
+      "/assets/language-literature/odia-manuscript.webp": {
+        "http_status": 200,
+        "sha256": "6561796f9ff2dad7377570df6353d06ed617ca36ef0a5f2d3e5f91f0a9fa0812"
+      }
+    },
+    "unchanged_sitemap_count": 11,
+    "browser": {
+      "viewports": [
+        [
+          1440,
+          1000
+        ],
+        [
+          390,
+          844
+        ]
+      ],
+      "reading_widths": [
+        740,
+        343.1953125
+      ],
+      "horizontal_overflow": false,
+      "visible_notes": true,
+      "exact_keyboard_returns": [
+        "ref-sakuni-0-sarala-patnaik2019"
+      ],
+      "further_reading_keyboard_toggle": true,
+      "screenshots": [
+        "records/evidence/sarala-editorial-2026-10-20/live-desktop.png",
+        "records/evidence/sarala-editorial-2026-10-20/live-mobile.png"
+      ],
+      "limits": [
+        "Browser emulation, not physical-device or screen-reader testing."
+      ]
+    }
+  },
+  "test_review_and_source_mapping": "records/sarala-editorial-team-2026-10-20.json",
+  "final_review": {
+    "role": "Drishti",
+    "runtime": "/root/drishti",
+    "head": "f334ba4ad6c450d4465565b0e59afa210e8b359c",
+    "result": "pass_with_limitations",
+    "scope": "37 focused tests; independently inspected Ghosh biography, Draupadi and edition note, and Patnaik Sakuni/self-presentation. Complete portable narrative, four notes/eight references, contextual manuscript rights, neighbouring-page controls. Canonical validators pass. Catalogue-only followup separately reviewed at final head.",
+    "limitations": [
+      "Separate AI review, not human or Odia-language-specialist approval.",
+      "Selected scholarly accounts inspected; no underlying Odia epic/manuscript collation or full Sanskrit comparison.",
+      "Sparse biography and differing editions remain explicit; devotional self-presentation is not treated as verified biography.",
+      "First official catalogue PDF retrieved but its text and relationship to Mohanty edition not verified.",
+      "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
+    ]
+  },
+  "integration_review": {
+    "head": "c2b21053e9d3c01e69c964645a18d3318a60d5d3",
+    "result": "pass",
+    "scope": "Merge tree identical to separately reviewed candidate; no incoming changes."
+  },
+  "concurrent_work": "Open PR304 statistics and PR281 Ashoka untouched. No overlapping article claim.",
+  "attachment_note": "PR attachment attempted; app limit100 reached. URL retained here.",
+  "counting": "One editorial article; zero substantive500 increment. Programme remains112.",
+  "limitations": [
+    "Separate AI review, not human or Odia-language-specialist approval.",
+    "Selected scholarly accounts inspected; no underlying Odia epic/manuscript collation or full Sanskrit comparison.",
+    "Sparse biography and differing editions remain explicit; devotional self-presentation is not treated as verified biography.",
+    "First official catalogue PDF retrieved but its text and relationship to Mohanty edition not verified.",
+    "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
+  ],
+  "verified_routes": [
+    "/people/sarala-das/"
+  ],
+  "resolved_validation_failure": {
+    "run": 39374651720,
+    "reason": "Generated discovery catalogue stale after new Sarala KB record",
+    "resolution": "Regenerated catalogue; separate exact-head delta review and CI39374771030 passed."
+  }
+}
