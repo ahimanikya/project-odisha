@@ -1,0 +1,136 @@
+{
+  "recorded_at": "2026-10-20T08:11:52.552814+00:00",
+  "article_id": "POD-EDIT-049",
+  "route": "/people/gopinath-mohanty/",
+  "status": "candidate_ready_for_separate_review",
+  "input_head": "a4207c5fd85599601ab05c5dde9da059d9b8d4fb",
+  "authorization": "POD-DEC-225",
+  "classification": "Founder-directed literary introduction; author, translators and contextual-image credits preserved.",
+  "central_question": "How does Gopinath Mohanty turn a landscape into a story about choices and unequal power, and what can a reader learn through specific passages without treating fiction as community testimony?",
+  "acceptance": [
+    "Reuse existing person, Paraja and source records before bounded actual-source research.",
+    "Develop concrete supported literary examples; distinguish editions, author position and contemporary community voices.",
+    "Audit contextual manuscript image, retain honest label and rights; visible notes, full portable reading and onward paths.",
+    "Separate AI review, tests, responsive review, merged PR, approved deployment and live receipt before completion."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only actual-source literary research and limits",
+      "status": "complete",
+      "findings": "Inspected two official IGNOU PDFs and independently checked final article working diff; no concrete factual corrections. Returned exact locators, hashes, translator typo and source limits.",
+      "tests": "Read-only final factual comparison against actual selected text; PASS.",
+      "limits": "Mediated teaching excerpts, no complete-novel/Odia collation or human review."
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/components/CultureMagazine.astro",
+        "projects/site/src/components/CultureOnward.astro",
+        "projects/site/src/data/journey-catalog.ts",
+        "kb/research/voices/gopinath-editorial.json",
+        "projects/site/tests-coast/gopinath-editorial.test.mjs",
+        "projects/site/tests-coast/voices-passage-sources.test.mjs",
+        "projects/site/tests/voices.test.mjs",
+        "projects/site/tests-coast/fakir-editorial.test.mjs",
+        "projects/site/tests-coast/literature-editorial.test.mjs",
+        "projects/site/tests-coast/six-acres-editorial.test.mjs",
+        "projects/site/tests-coast/sarala-editorial.test.mjs",
+        "projects/site/tests-coast/pratibha-editorial.test.mjs",
+        "projects/site/tests-coast/bhima-editorial.test.mjs",
+        "projects/site/src/components/VoicesPage.astro",
+        "projects/site/tests/discovery-and-books.test.mjs"
+      ],
+      "status": "complete",
+      "findings": "15 reserved files. Removed Gopinath-only MagazineArticle wrapper after full-build failure; shared CultureMagazine now applies. Corrected old translator assertion to Bikram K. Das; edition filtering retained.",
+      "tests": "Source-map/hash/specificity/edition test1/1; syntax and diff whitespace PASS.",
+      "limits": "Full builds and browser checks remain coordinator gates."
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Separate integrated candidate review",
+      "status": "ready_for_candidate"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": "Collection narrative, person/work/source KB, shared records, Git and publication",
+      "status": "in_progress"
+    }
+  ],
+  "concurrency": "Bhima receipt364 merged; prior workers complete. Unrelated PR304/281 untouched.",
+  "substantive_items_added": 0,
+  "human_review_claimed": false,
+  "source_review": {
+    "researcher": "Anvesha; coordinator also inspected selected text and edition sources",
+    "sources": [
+      {
+        "url": "https://egyankosh.ac.in/bitstream/123456789/69561/1/Unit-4.pdf",
+        "sha256": "a9d68e152a7240b85bc50dc69de396974e5c0b76979383326798e2e889e5db14",
+        "locators": "Unit4 §4.2.1 pp47–48; §4.2.3 pp52–53",
+        "method": "TLS-valid download and PDF text extraction; selected pages, no full-novel or Odia collation"
+      },
+      {
+        "url": "https://egyankosh.ac.in/bitstream/123456789/48599/1/MEG-16B6E.pdf",
+        "sha256": "b60b89ffce2244e1153ea915d9c556a99f8756c29a9a3b4de6c9fe5c672bb486",
+        "locators": "MEG-16 Block6 June2018 Unit22 §22.7 pp26–27",
+        "limits": "Source generalizations and unsupported poverty statistic not adopted; selected novel excerpts mediated by teaching source; printed bibliography translator typo not inherited."
+      }
+    ],
+    "reuse": "Existing person/work and memorial/Oxford source IDs retained. Fresh1945,1987,1997 records inspected separately. No duplicated work/author.",
+    "source_access_limit": "Web PDF retrieval failed; system curl retrieval valid TLS, selected text inspected. No original-language edition review."
+  },
+  "media_review": {
+    "decision": "retain",
+    "asset": "reading-context",
+    "sha256": "6561796f9ff2dad7377570df6353d06ed617ca36ef0a5f2d3e5f91f0a9fa0812",
+    "creator": "Prateek Pattanaik",
+    "license": "CC BY-SA 4.0",
+    "context": "Gyana Mandira Koraput manuscript and stylus; not a manuscript by Mohanty. Full-frame WebP and original JPG preserved.",
+    "inspection": "Local image visually inspected: credible tied palm-leaf bundle, stylus, fabric, lighting. Fresh Commons metadata confirms location, creator,2016photo date and licence."
+  },
+  "updated_at": "2026-10-20T08:20:21.179477+00:00",
+  "initial_validation": {
+    "full_tests": "564/566 pass; Gopinath route still uses prior MagazineArticle branch, and older translator assertion expected Bikram Das rather than credited Bikram K. Das. Fixing scoped wrapper/test before full rerun."
+  },
+  "validation": {
+    "full_tests": 566,
+    "coastal_tests": 295,
+    "result": "PASS",
+    "builds": [
+      "full",
+      "coast",
+      "publication"
+    ],
+    "canonical": "Research1504, map1764, bundle1723, team,programme,register tests,workbench6,rollout and whitespace PASS.",
+    "local_browser": {
+      "viewports": [
+        [
+          1440,
+          1000
+        ],
+        [
+          390,
+          844
+        ]
+      ],
+      "reading_widths": [
+        740,
+        343.1953125
+      ],
+      "horizontal_overflow": false,
+      "notes": 6,
+      "references": 8,
+      "keyboard_returns": [
+        "ref-rope-1-literature-paraja-ignou-folk2018",
+        "ref-landscape-0-literature-paraja-ignou-translation"
+      ],
+      "further_reading_keyboard_toggle": true,
+      "visual": "Desktop prose and mobile source/prose spacing visually checked.",
+      "limits": "Browser emulation, not physical-device or screen-reader review."
+    }
+  }
+}

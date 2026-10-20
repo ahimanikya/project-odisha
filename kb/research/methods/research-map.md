@@ -809,3 +809,7 @@ POD-EDIT-047 extends the existing person, Yajnaseni, The Ring and Library of Con
 ### Bhima Bhoi editorial reuse · 20 October 2026
 
 POD-EDIT-048 reuses existing Mahima Dharma, Stuti Chintamani, Akademi, Beltz and NBT records and the voices introduction. Selected literary passage inspection deepens the reading without a duplicate person/work record. Current community practice, complete translation/original-language review and field access remain open. Source mapping: `research/voices/bhima-editorial.json`.
+
+### Gopinath Mohanty editorial reuse · 20 October 2026
+
+POD-EDIT-049 reuses the existing person, Paraja work, memorial and Oxford records before adding two bounded IGNOU teaching sources for selected literary passages. Rope accounting, a translated encounter and a landscape image deepen the existing introduction. Source-mediated excerpts are not a full-novel or independent Odia reading, and fiction is not current community testimony. No duplicate person/work. Mapping: `research/voices/gopinath-editorial.json`.

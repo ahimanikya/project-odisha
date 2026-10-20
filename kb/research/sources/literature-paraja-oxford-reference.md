@@ -19,3 +19,7 @@ Locator: References, Mohanty, Gopinath (1987) entry; rendered lines 1964–1972.
 Direct reference entry credits Bikram K. Das, translated from Oriya, New Delhi: OUP, 1987. Bibliographic evidence, not the 1987 title page; no ISBN or 1997 translator attribution inferred.
 
 [Source](https://academic.oup.com/book/35106/chapter/299186110).
+
+## Fresh editorial inspection · 20 October 2026
+
+Existing source reused. Fresh bibliography entry: Mohanty,Gopinath1987,Paraja:A Novel,translated from Oriya byBikramKDas,NewDelhiOxfordUniversityPress. Bibliographic reference, not fulltext or title-page inspection.

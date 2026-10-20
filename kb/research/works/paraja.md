@@ -24,3 +24,7 @@ updated_at: "2026-10-01T03:56:46.827401-07:00"
 [Memorial bibliography](https://gopinathmohanty.in/books/) · [Oxford reference entry](https://academic.oup.com/book/35106/chapter/299186110).
 
 The novel provides a reading connection to [Gopinath Mohanty](../people/gopinath-mohanty.md) and [Koraput](../places/koraput.md). Its characters are not a survey of present-day communities. Current stock, reading rights and a complete literary review remain unestablished.
+
+## Selected passages · 20 October 2026
+
+Two institutional teaching units deepen the [Gopinath introduction](../voices/gopinath-editorial.json): IGNOU MEG-16 Block6,Unit22 §22.7 pp.26–27 reproduces the rope-knot description (citing novelp.123) alongside a plot account of debt and labour. Unit4, Paraja: A Novel in Translation, §4.2.1 pp.47–48 compares Jili’s encounter with the Forest Guard; §4.2.3 pp.52–53 reproduces the field-mouse image. These are selected English passages and supplied transliteration, not a whole-novel reading or independent Odia collation. Literary interpretation remains distinct from contemporary ethnography. Existing1945,1987 and1997 records were freshly verified without merging their edition metadata.

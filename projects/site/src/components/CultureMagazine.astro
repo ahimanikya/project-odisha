@@ -1,4 +1,5 @@
 ---
+import gopinathEditorial from '../../../../kb/research/voices/gopinath-editorial.json';
 import bhimaEditorial from '../../../../kb/research/voices/bhima-editorial.json';
 import pratibhaEditorial from '../../../../kb/research/voices/pratibha-editorial.json';
 import saralaEditorial from '../../../../kb/research/voices/sarala-editorial.json';
@@ -27,7 +28,7 @@ import CultureOnward from './CultureOnward.astro';
 import collection from '../../../../kb/research/voices/collection.json';
 import '../styles/culture-magazine.css';
 const {entry}=Astro.props,hero=collection.assets[entry.hero_asset],hub=!entry.path.includes('/');
-const editorial=entry.path==='languages'?languagesEditorial:entry.path==='languages/odia'?odiaEditorial:entry.path==='literature'?literatureEditorial:entry.path==='people/fakir-mohan-senapati'?fakirEditorial:entry.path==='literature/six-acres-and-a-third'?sixAcresEditorial:entry.path==='people/sarala-das'?saralaEditorial:entry.path==='people/pratibha-ray'?pratibhaEditorial:entry.path==='people/bhima-bhoi'?bhimaEditorial:null;
+const editorial=entry.path==='languages'?languagesEditorial:entry.path==='languages/odia'?odiaEditorial:entry.path==='literature'?literatureEditorial:entry.path==='people/fakir-mohan-senapati'?fakirEditorial:entry.path==='literature/six-acres-and-a-third'?sixAcresEditorial:entry.path==='people/sarala-das'?saralaEditorial:entry.path==='people/pratibha-ray'?pratibhaEditorial:entry.path==='people/bhima-bhoi'?bhimaEditorial:entry.path==='people/gopinath-mohanty'?gopinathEditorial:null;
 const passageSources=id=>editorial?.passages.find(p=>p.id===id)?.source_ids||[];
 const proseFirst=entry.path==='literature';
 const assetIds=[...new Set([entry.hero_asset,...entry.cards.map(c=>c.asset)].filter(Boolean))];

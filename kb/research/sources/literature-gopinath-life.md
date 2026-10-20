@@ -19,3 +19,7 @@ Locator: Life sketch; reused project voices/collection.json sections life and mo
 Reused the project capture checked 2026-09-30, committed in ef4cbe1. Not a new fetch or independent corroboration. Supports Nagabali/Cuttack, 1914 birth, administrative service from 1938 and early Koraput work. Award-year conflicts not imported.
 
 [Source](https://gopinathmohanty.in/life-sketch/).
+
+## Fresh editorial inspection · 20 October 2026
+
+Fresh memorial life sketch inspected: Nagabali/Cuttack1914, administrative service1938 and earlyKoraput; Tolstoy/Gorky translations listed. Award-year conflict omitted, recordings not auditioned. Biography does not establish a representative community viewpoint.

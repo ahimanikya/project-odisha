@@ -51,7 +51,7 @@ test('new food claims, image provenance and stable save identities appear in bui
 test('related-discovery links resolve and the new profiles retain uncertainty and translation credit',()=>{
  const links=json('../../kb/research/related-discoveries.json').links;
  for(const l of links){assert.ok(html(l.from).includes(l.to),l.from+' -> '+l.to);assert.equal(l.kind,'editorial_reading_suggestion');}
- assert.ok(html('/people/bhima-bhoi/').includes('uncertainty'));assert.ok(html('/people/gopinath-mohanty/').includes('Bikram Das'));
+ assert.ok(html('/people/bhima-bhoi/').includes('uncertainty'));assert.ok(html('/people/gopinath-mohanty/').includes('Bikram K. Das'));
 });
 test('public contribution copy distinguishes GitHub visibility from encyclopedia publication',()=>{
  const out=html('/contribute/').replaceAll('&amp;','&');for(const text of ['public immediately on GitHub','Founder & Editor-in-Chief','Prepare public GitHub issue','does not publish an encyclopedia entry'])assert.ok(out.includes(text),text);
