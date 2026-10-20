@@ -119,4 +119,3 @@ Photo assets remain in `collection.json`: the Chhena Poda photograph was made in
 [Chhena Poda](chhena-poda.md) — The Chhena Poda profile preserves preparation variants and attributed accounts.
 
 [Odisha Rasagola](odisha-rasagola.md) — The Rasagola profile separates regional identity, ritual context and local making hubs.
-
