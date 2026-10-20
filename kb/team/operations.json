@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/chandipur-editorial-team-2026-10-20.json",
+  "handoff_home": "records/similipal-editorial-team-2026-10-20.json",
   "roles": [
     {
       "name": "Disha",
@@ -55,16 +55,15 @@
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
   "current_article": {
-    "id": "POD-EDIT-053",
-    "route": "/visit/places/chandipur/",
+    "id": "POD-EDIT-054",
+    "route": "/visit/places/similipal/",
     "owner": "Disha",
     "coordinator_runtime": "/root",
-    "phase": "receipt_integrated",
-    "branch": "codex/chandipur-editorial-20261020",
-    "input_head": "496294b0fba394a6ad5928ee6902325bf2ab8c56",
-    "file_reservations": "records/chandipur-editorial-team-2026-10-20.json#executions",
-    "integration_gate": "Retain ownership until this receipt PR is actually merged; phase becomes effective only with that integration. No next article claim before observed merge.",
-    "publication_receipt": "records/chandipur-editorial-publication-2026-10-20.json"
+    "phase": "integrated_review",
+    "branch": "codex/similipal-editorial-20261020",
+    "input_head": "04dace3e8abae34aff0b58c2ee3b683f10f696f0",
+    "file_reservations": "records/similipal-editorial-team-2026-10-20.json#executions",
+    "integration_gate": "Retain ownership until publication receipt PR is actually merged."
   },
   "project_identity": "reference/project-identity.md"
 }

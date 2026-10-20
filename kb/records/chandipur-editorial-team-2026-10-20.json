@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T12:16:20.084770+00:00",
   "article_id": "POD-EDIT-053",
   "route": "/visit/places/chandipur/",
-  "status": "published_receipt_pending_integration",
+  "status": "complete",
   "input_head": "496294b0fba394a6ad5928ee6902325bf2ab8c56",
   "authorization": "POD-DEC-225",
   "central_question": "Why does Chandipur expose so much ground at low tide, and what can that changing surface teach a visitor without turning exposure into a safe-walking promise?",
@@ -61,8 +61,8 @@
       "name": "Disha",
       "runtime": "/root",
       "scope": "Canonical narrative, KB, shared records and publication",
-      "status": "receipt_pending_integration",
-      "findings": "Prose, KB, tests, responsive checks, reviewed PR373 merge and approved live publication completed; retain claim through receipt merge."
+      "status": "complete",
+      "findings": "Published Chandipur, verified actual live reading and preserved photographs, and integrated separately reviewed receipt PR374 after passing required checks."
     }
   ],
   "concurrency": "All named workers completed Mayurbhanj; actual receipt372 merge reconciled. Open PR304 statistics and281 Ashoka untouched.",
@@ -160,5 +160,80 @@
     ]
   },
   "publication_receipt": "records/chandipur-editorial-publication-2026-10-20.json",
-  "ownership": "Disha retains claim until receipt PR is actually merged; release only after observed integration."
+  "ownership": "Released after observed receipt integration; next eligible article may be claimed after reconciling workers.",
+  "receipt_integration": {
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/374",
+    "reviewed_head": "f4c0132434c19ea0fc8175cae235a763752cf7df",
+    "merge_commit": "04dace3e8abae34aff0b58c2ee3b683f10f696f0",
+    "merged_at": "2026-10-20T12:37:07Z",
+    "validation": {
+      "conclusion": "success",
+      "databaseId": 39423203769,
+      "headSha": "f4c0132434c19ea0fc8175cae235a763752cf7df",
+      "status": "completed",
+      "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39423203769"
+    },
+    "review": {
+      "reviewer": "Drishti",
+      "kind": "separate_ai_receipt_review",
+      "head": "f4c0132434c19ea0fc8175cae235a763752cf7df",
+      "base": "09dedc6b6879c5c98493bbc4d45e8e5f9e8050b9",
+      "result": "pass_with_limitations",
+      "blocking_findings": [],
+      "checks": {
+        "changed_files": 10,
+        "scope": "Records and two screenshots only; no article, source, asset, code or eligibility changes.",
+        "validators": [
+          "article_rollout",
+          "team_assignments",
+          "autonomous_program",
+          "registers",
+          "workbench",
+          "git_diff_check"
+        ],
+        "counts": {
+          "completed": 46,
+          "queued": 339,
+          "excluded": 10
+        },
+        "only_queue_entry_changed": "POD-EDIT-053",
+        "programme_byte_unchanged": true,
+        "substantive_completed": 112,
+        "review_transcription": "Receipt final_review and team review equal saved separate candidate review JSON exactly.",
+        "tree_correspondence": "Reviewed candidate1434cb5830ba43e8eba40faf37b097da64d96ecb and published merge09dedc6b6879c5c98493bbc4d45e8e5f9e8050b9 have identical Git trees.",
+        "ownership": "Disha retains POD-EDIT-053; integration gate explicitly prevents release or next article claim until actual receipt PR merge."
+      },
+      "remote_verification": {
+        "pull_request": 373,
+        "state": "MERGED",
+        "merged_at": "2026-10-20T12:27:33Z",
+        "reviewed_head": "1434cb5830ba43e8eba40faf37b097da64d96ecb",
+        "merge_head": "09dedc6b6879c5c98493bbc4d45e8e5f9e8050b9",
+        "ci": {
+          "run": 39421942478,
+          "conclusion": "success",
+          "head": "1434cb5830ba43e8eba40faf37b097da64d96ecb"
+        },
+        "deployment": {
+          "run": 39422437567,
+          "conclusion": "success",
+          "head": "09dedc6b6879c5c98493bbc4d45e8e5f9e8050b9"
+        },
+        "method": "Independent read-only gh pr view and gh run view queries."
+      },
+      "screenshot_review": {
+        "desktop_sha256": "cffdf96159e970b54a8123a48bcdb57c0df53f1b353972d15de748ae5c8145f7",
+        "mobile_sha256": "11ca76edf69efc1109982eed30dff8ce4f9bdf9ab657339b18c1adb2fb77e7fe",
+        "result": "Both saved cover screenshots visually inspected and bytes match receipt hashes. Title, prose, byline, retained sunset and date caption are legible; no visible clipping in captured views."
+      },
+      "limits": [
+        "Separate AI review, not human, specialist or field approval.",
+        "Coordinator performed live HTTP, image requests, sitemap, responsive measurements, keyboard interactions and panorama checks; reviewer did not independently repeat those live checks.",
+        "Saved screenshots show cover view only; they do not independently establish full-page accessibility or keyboard behavior.",
+        "No site tests or builds repeated for this records-only delta; candidate review and passing remote CI retained.",
+        "Scientific-source and current tide/access limitations remain as recorded; no new factual or visitor-safety verification."
+      ]
+    },
+    "checked_at": "2026-10-20T12:37:24.373597+00:00"
+  }
 }
