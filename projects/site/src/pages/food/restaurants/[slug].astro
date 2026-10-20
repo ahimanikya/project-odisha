@@ -14,8 +14,11 @@ const city=directory.cities?.find(item=>item.slug===citySlug);
 const directoryHref='/food/where-to-eat/#'+citySlug;
 const checkedDate=new Date(venue.checked_on+'T00:00:00Z').toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'});
 const dishes=venue.dishes.filter(dish=>allowsPage(`/food/${dish.slug}/`));
+const pageDescription=venue.description.length<50
+  ?`${venue.name} in ${venue.city}: ${venue.description} Find location details and the operator’s website to plan your visit.`
+  :venue.description;
 ---
-<Shell title={`${venue.name} · ${venue.city}`} description={venue.description} active="explore" related={false}>
+<Shell title={`${venue.name} · ${venue.city}`} description={pageDescription} active="explore" related={false}>
   <article class="wrap restaurant-profile">
     {allowsPage('/food/where-to-eat/')&&<a class="text-link" href={directoryHref}>← Where to eat in {venue.city}</a>}
     <header class="restaurant-opening">
