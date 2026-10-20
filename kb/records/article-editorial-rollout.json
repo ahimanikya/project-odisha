@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-20T09:12:21.665416+00:00",
+  "updated_at": "2026-10-20T09:36:40.309427+00:00",
   "authorization": "POD-DEC-2026101702",
   "work_id": "POD-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -1689,15 +1689,26 @@
       "id": "POD-EDIT-050",
       "route": "/people/gangadhar-meher/",
       "title": "Gangadhar Meher",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "Founder-directed literary introduction; selected actual-text examples, visible notes, portable reading and honest typographic identity panel.",
       "source_template": "projects/site/src/pages/people/gangadhar-meher.astro",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
-        "records/gangadhar-editorial-team-2026-10-20.json"
+        "records/gangadhar-editorial-team-2026-10-20.json",
+        "records/gangadhar-editorial-publication-2026-10-20.json"
       ],
       "blocker": null,
-      "started_at": "2026-10-20T09:12:21.665416+00:00"
+      "started_at": "2026-10-20T09:12:21.665416+00:00",
+      "completed_at": "2026-10-20T09:36:40.309427+00:00",
+      "publication_receipt": "records/gangadhar-editorial-publication-2026-10-20.json"
     },
     {
       "id": "POD-EDIT-051",

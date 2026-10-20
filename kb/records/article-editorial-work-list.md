@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 395. completed: 42, excluded: 10, in_progress: 1, queued: 342.
+Route inventory: 395. completed: 43, excluded: 10, queued: 342.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -63,7 +63,7 @@ Route inventory: 395. completed: 42, excluded: 10, in_progress: 1, queued: 342.
 | POD-EDIT-047 | [Pratibha Ray](https://projectodisha.org/people/pratibha-ray/) | completed | Individual Pratibha Ray literary introduction, evidence, reading layout and preserved portrait |
 | POD-EDIT-048 | [Bhima Bhoi](https://projectodisha.org/people/bhima-bhoi/) | completed | Individual Bhima Bhoi literary introduction, evidence and preserved memorial image |
 | POD-EDIT-049 | [Gopinath Mohanty](https://projectodisha.org/people/gopinath-mohanty/) | completed | Individual literary and evidence revision with contextual image audit |
-| POD-EDIT-050 | [Gangadhar Meher](https://projectodisha.org/people/gangadhar-meher/) | in_progress | Founder-directed literary introduction; selected actual-text examples, visible notes, portable reading and honest typographic identity panel. |
+| POD-EDIT-050 | [Gangadhar Meher](https://projectodisha.org/people/gangadhar-meher/) | completed | Founder-directed literary introduction; selected actual-text examples, visible notes, portable reading and honest typographic identity panel. |
 | POD-EDIT-051 | [Balasore: places, food &amp; living culture](https://projectodisha.org/destinations/balasore/) | queued | classification_pending |
 | POD-EDIT-052 | [Mayurbhanj: places, food &amp; living culture](https://projectodisha.org/destinations/mayurbhanj/) | queued | classification_pending |
 | POD-EDIT-053 | [Chandipur](https://projectodisha.org/visit/places/chandipur/) | queued | classification_pending |
