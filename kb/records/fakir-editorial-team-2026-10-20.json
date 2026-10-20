@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T03:01:20.727658+00:00",
   "article_id": "POD-EDIT-044",
   "route": "/people/fakir-mohan-senapati/",
-  "status": "published_receipt_pending_integration",
+  "status": "receipt_integrated",
   "input_head": "45357d43dfa11081d104012eb999d2462e018ead",
   "authorization": "POD-DEC-225",
   "classification": "Founder-directed literary biography with existing portable reading.",
@@ -84,7 +84,7 @@
       "name": "Disha",
       "runtime": "/root",
       "scope": "Only Fakir entry in voices collection, people/fakir-mohan-senapati.md and shared records/publishing",
-      "status": "receipt_integration"
+      "status": "complete"
     }
   ],
   "concurrency": "All previous workers completed and receipt353 merged. PR304 statistics and PR281 Ashoka excluded.",
@@ -107,7 +107,7 @@
   },
   "reviewed_head": "03a3af4a6fb5b38c439f65f1067ac8ae54bb8e87",
   "publication_receipt": "records/fakir-editorial-publication-2026-10-20.json",
-  "ownership": "Retained until receipt PR merge is observed.",
+  "ownership": "Released after observed receipt PR356 merge.",
   "integration_review": {
     "role": "Drishti",
     "head": "8a2f9d45304389ab0f582209c9d41e0dc9fe685a",
@@ -118,5 +118,12 @@
   "validation_corrections": [
     "Initial CI39363312683 failed stale research index; regenerated without changing eligibility.",
     "Separate review corrected Foundation note authorship and regenerated workbench fingerprint; final CI passed."
-  ]
+  ],
+  "receipt_integration": {
+    "pr": 356,
+    "merge": "a100c6e81ac22ab38e61d577227186d39577e8f0",
+    "reviewed_head": "28580d8ad23f88d702242b8c81d443aba2241a6e",
+    "ci": 39364746152,
+    "separate_ai_review": "Drishti PASS recorded in PR356"
+  }
 }

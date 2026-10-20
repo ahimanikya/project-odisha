@@ -1,0 +1,67 @@
+{
+  "recorded_at": "2026-10-20T04:11:22.816419+00:00",
+  "article_id": "POD-EDIT-045",
+  "route": "/literature/six-acres-and-a-third/",
+  "status": "in_progress",
+  "input_head": "a100c6e81ac22ab38e61d577227186d39577e8f0",
+  "authorization": "POD-DEC-225",
+  "classification": "Founder-directed literary introduction to an external novel; original author and translation credits preserved.",
+  "central_question": "How does the novel make readers question the authority behind property, reputation and explanations?",
+  "acceptance": [
+    "Replace publisher-only orientation with concrete readings of inspected original passages, distinguishing narrator claims from social history.",
+    "Preserve edition chronology conflicts, author/translator rights and commemorative-bust label.",
+    "Visible numbered notes, restrained attribution, accessible reading and complete portable narrative.",
+    "Separate AI review, tests, responsive review, merged PR, approved deployment and live receipt before completion."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only original passage, edition and media research",
+      "status": "complete",
+      "input_head": "a100c6e81ac22ab38e61d577227186d39577e8f0",
+      "findings": "Inspected expanded chapter10 household and holding passages, court opening, reused edition capture and bust audit. Final prose audit caught narrator/character land-appraisal conflation and unsupported watching; Disha corrected both in collection and KB.",
+      "limits": "Selected community transcriptions, no facsimile collation or complete-novel review; original1902/1905 unresolved."
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/components/CultureMagazine.astro",
+        "projects/site/src/components/CultureOnward.astro",
+        "projects/site/src/data/journey-catalog.ts",
+        "kb/research/voices/six-acres-editorial.json",
+        "projects/site/tests-coast/six-acres-editorial.test.mjs",
+        "projects/site/tests-coast/voices-passage-sources.test.mjs",
+        "projects/site/tests/voices.test.mjs"
+      ],
+      "status": "complete",
+      "input_head": "a100c6e81ac22ab38e61d577227186d39577e8f0",
+      "findings": "Seven scoped files: exact-route editorial opt-in, 12 complete narrative paragraphs,6 notes,12 references, full portable narrative and existing bust rights.",
+      "tests": "Static map/hash test1/1, syntax and whitespace pass; rendered testing by coordinator follows."
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Separate integrated candidate review",
+      "status": "pending"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": "Only six-acres entry in voices collection, works/six-acres-and-a-third.md and shared records/publishing",
+      "status": "in_progress"
+    }
+  ],
+  "concurrency": "Prior workers completed; receipt356 merged. PR304 and281 untouched.",
+  "substantive_items_added": 0,
+  "human_review_claimed": false,
+  "validation": {
+    "site_full": "566/566 passed",
+    "site_coast": "279/279 passed",
+    "builds": "full, coast and publication passed;11 indexable routes unchanged",
+    "canonical": "research, workbench, rollout, team, programme, registers, bundle and whitespace passed",
+    "responsive": "Disha inspected1440x1000 and390x844; no horizontal overflow; body740px/343.195px. Keyboard court note and exact return focus passed; Further reading keyboard disclosure passed.",
+    "limits": "Browser review by coordinator; separate candidate review pending."
+  }
+}
