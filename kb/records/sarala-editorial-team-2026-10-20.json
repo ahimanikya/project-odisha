@@ -1,0 +1,84 @@
+{
+  "recorded_at": "2026-10-20T05:12:52.404686+00:00",
+  "article_id": "POD-EDIT-046",
+  "route": "/people/sarala-das/",
+  "status": "in_progress",
+  "input_head": "4c8513bf88f2bcf187b42e3314b284a913de452b",
+  "authorization": "POD-DEC-225",
+  "classification": "Founder-directed writer introduction; external epic authorship and documentary image provenance preserved.",
+  "central_question": "What makes Sarala Das’s Mahabharata an Odia literary creation rather than a change of language alone, and what can be said reliably about its poet?",
+  "acceptance": [
+    "Inspect existing literary evidence and selected actual material before rewriting; concrete sourced examples rather than generic praise.",
+    "Distinguish literary interpretation, traditional biography, textual witnesses and uncertain dates.",
+    "Visible numbered notes, complete portable narrative, preserved contextual manuscript label and rights.",
+    "Separate review, tests, responsive review, merged PR, approved deployment and live receipt before completion."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only subject and source research; bounded selected passages and biography/edition limits",
+      "status": "complete",
+      "input_head": "4c8513bf88f2bcf187b42e3314b284a913de452b",
+      "findings": "Inspected Ghosh2025 and Patnaik2019 actual scholarly texts, selectedepisodes, biography/editionlimits. Finalprose PASS; optional outlives→beyond revenge precision adopted in bothcopies.",
+      "limits": "No directfull-epic/manuscript/Sanskritcollation. Official2004PDFretrievalfailed; notusedasnewsource."
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/components/CultureMagazine.astro",
+        "projects/site/src/components/CultureOnward.astro",
+        "projects/site/src/data/journey-catalog.ts",
+        "kb/research/voices/sarala-editorial.json",
+        "projects/site/tests-coast/sarala-editorial.test.mjs",
+        "projects/site/tests-coast/voices-passage-sources.test.mjs",
+        "projects/site/tests/voices.test.mjs",
+        "projects/site/tests-coast/fakir-editorial.test.mjs",
+        "projects/site/tests-coast/literature-editorial.test.mjs",
+        "projects/site/tests-coast/six-acres-editorial.test.mjs"
+      ],
+      "status": "complete",
+      "input_head": "4c8513bf88f2bcf187b42e3314b284a913de452b",
+      "findings": "Tenreservedfiles: exactroute optin,4notes8refs11paras; fullportable narrative, preserved contextual manuscript and3negativecontrolassertions moved to untouchedPratibha.",
+      "tests": "Static source-map/image check1/1, syntax andwhitespacepass; coordinatorrenderedchecksfollow."
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Separate integrated candidate review",
+      "status": "pending"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": "Only Sarala entry in collection, associated KB narrative, shared records/Git/publishing",
+      "status": "in_progress"
+    }
+  ],
+  "concurrency": "All previous workers completed; receipt358 merge observed; unrelated PR304/281 remain untouched.",
+  "substantive_items_added": 0,
+  "human_review_claimed": false,
+  "source_inspection": {
+    "research_reuse": "Existing voices/literary-lives, officialoverview/catalogue and osha-sarala2009 consulted before newscholarship. Newpersonrecord extends sameidentity.",
+    "actual_material": "Disha and Anvesha read Ghosh2025 scholarlyHTML and Patnaik2019author essay; selectedpassages, nofull-epiccollation. Root retrieved officialoverviewHTML and firstcataloguePDF; PDFtext/editionnotverified.",
+    "media": "Disha visually inspected existingcontextualmanuscript photo; Commonscreator/date/licence rechecked, notidentifiedSarala manuscript.",
+    "image_sha256": "6561796f9ff2dad7377570df6353d06ed617ca36ef0a5f2d3e5f91f0a9fa0812"
+  },
+  "validation": {
+    "full_tests": 566,
+    "coast_tests": 283,
+    "publication_indexable_routes": 11,
+    "other_checks": [
+      "Research validation, research-map validation, bundle, search reindex, workbench build/check and six workbench tests",
+      "Rollout, team, programme, registers and whitespace passed"
+    ],
+    "responsive_review": {
+      "reviewer": "Disha (AI)",
+      "desktop": "1440 × 1000; 740px prose; no horizontal overflow",
+      "mobile": "390 × 844; 343.195px prose; no horizontal overflow",
+      "keyboard": "Sakuni footnote 2 reaches and focuses note-sarala-patnaik2019; exact return focuses ref-sakuni-0-sarala-patnaik2019 at both widths. Further reading disclosure opens.",
+      "visual": "Desktop and mobile prose inspected; clear hierarchy, visible numbered notes, readable spacing."
+    }
+  }
+}
