@@ -59,11 +59,13 @@
     "route": "/literature/",
     "owner": "Disha",
     "coordinator_runtime": "/root",
-    "phase": "research_and_implementation",
+    "phase": "receipt_integrated",
     "branch": "codex/literature-editorial-20261020",
     "input_head": "06927e55878f8f263cebd4a1832dd752b3c1f1ac",
     "file_reservations": "records/literature-editorial-team-2026-10-20.json#executions",
-    "integration_gate": "Retain ownership until publication receipt is integrated."
+    "integration_gate": "This release takes effect when the receipt PR merges. Retain ownership until observed merge; do not start the next article beforehand.",
+    "reviewed_head": "b31037cc9fff3837aa52fba72f3595ca48b78a9a",
+    "publication_receipt": "records/literature-editorial-publication-2026-10-20.json"
   },
   "project_identity": "reference/project-identity.md"
 }

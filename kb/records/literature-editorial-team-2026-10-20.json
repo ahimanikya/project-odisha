@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T01:55:28.690168+00:00",
   "article_id": "POD-EDIT-043",
   "route": "/literature/",
-  "status": "in_progress",
+  "status": "published_receipt_pending_integration",
   "input_head": "06927e55878f8f263cebd4a1832dd752b3c1f1ac",
   "authorization": "POD-DEC-225",
   "classification": "Authored literary introduction with seven existing reading doors and unlinked future writers.",
@@ -59,13 +59,22 @@
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Read-only integrated candidate review",
-      "status": "pending"
+      "status": "completed",
+      "input_head": "b31037cc9fff3837aa52fba72f3595ca48b78a9a",
+      "result": "pass_with_limitations",
+      "tests": "34 focused tests and record checks passed",
+      "limits": [
+        "Separate AI review, not human or language-specialist approval.",
+        "Responsive browser and keyboard checks performed by coordinator using emulation.",
+        "Selected excerpts only; no full-novel review or printed facsimile collation.",
+        "Author-hosted Jajnaseni excerpt does not identify its translator; none inferred."
+      ]
     },
     {
       "name": "Disha",
       "runtime": "/root",
       "scope": "Only literature entry in collection.json; shared records, integration and publishing",
-      "status": "in_progress"
+      "status": "receipt_integration_pending"
     }
   ],
   "concurrency": "Prior receipt351 observed merged; all prior workers completed. PR304 statistics and PR281 Ashoka excluded.",
@@ -111,5 +120,20 @@
       "images": "All five card image instances load, object-fit contain; contextual manuscript captions and four distinct credits retained."
     },
     "limits": "AI coordinator review, not human or specialist review; no form submitted."
-  }
+  },
+  "publication_receipt": "records/literature-editorial-publication-2026-10-20.json",
+  "final_review": {
+    "role": "Drishti",
+    "runtime": "/root/drishti",
+    "head": "b31037cc9fff3837aa52fba72f3595ca48b78a9a",
+    "result": "pass_with_limitations",
+    "scope": "Independent actual Mangaraj opening, captured Ray excerpt and UC Press metadata/hash inspection; media and source mapping; 34 focused tests and canonical checks passed.",
+    "limitations": [
+      "Separate AI review, not human or language-specialist approval.",
+      "Responsive browser and keyboard checks performed by coordinator using emulation.",
+      "Selected excerpts only; no full-novel review or printed facsimile collation.",
+      "Author-hosted Jajnaseni excerpt does not identify its translator; none inferred."
+    ]
+  },
+  "ownership_release": "Only after this receipt is merged; no next article claimed."
 }
