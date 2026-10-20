@@ -1,0 +1,102 @@
+{
+  "recorded_at": "2026-10-20T09:12:21.665416+00:00",
+  "article_id": "POD-EDIT-050",
+  "route": "/people/gangadhar-meher/",
+  "status": "in_progress",
+  "input_head": "985178fdf2969aedf729024a5958ab5c1a8561c8",
+  "authorization": "POD-DEC-225",
+  "central_question": "What changes when Gangadhar Meher retells a familiar epic through a particular character’s experience, and how do his images and narrative choices make that change felt?",
+  "acceptance": [
+    "Inspect existing literary collection and sources before bounded research.",
+    "Explain specific sourced literary examples, retaining edition/translator and historical limits.",
+    "Audit existing typographic panel; no invented portrait or quote; visible notes and full portable reading.",
+    "Separate review, tests, responsive review, merged PR, approved deployment and live receipt before completion."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only bounded actual-source research and proposed prose",
+      "status": "complete",
+      "input_head": "985178fdf2969aedf729024a5958ab5c1a8561c8",
+      "findings": "Inspected selected English Canto IV text, translator criticism and publication account, publisher anthology metadata. Proposed dawn, river, Sita devotion tension and edition distinctions; Disha integrated with IV9/11 narrowing.",
+      "tests": "Source and proposal mapping inspected; no code tests applicable.",
+      "limits": [
+        "No complete poem or original Odia collation. Translator and critic are same person, not independent corroboration. No human review."
+      ]
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/components/CultureMagazine.astro",
+        "projects/site/src/components/CultureOnward.astro",
+        "projects/site/src/data/journey-catalog.ts",
+        "kb/research/voices/gangadhar-editorial.json",
+        "projects/site/tests-coast/gangadhar-editorial.test.mjs",
+        "projects/site/tests-coast/voices-passage-sources.test.mjs",
+        "projects/site/tests/voices.test.mjs",
+        "projects/site/tests-coast/fakir-editorial.test.mjs",
+        "projects/site/tests-coast/literature-editorial.test.mjs",
+        "projects/site/tests-coast/six-acres-editorial.test.mjs",
+        "projects/site/tests-coast/sarala-editorial.test.mjs",
+        "projects/site/tests-coast/pratibha-editorial.test.mjs",
+        "projects/site/tests-coast/bhima-editorial.test.mjs",
+        "projects/site/tests-coast/gopinath-editorial.test.mjs",
+        "projects/site/tests-coast/cuttack-literature.test.mjs"
+      ],
+      "status": "complete",
+      "input_head": "985178fdf2969aedf729024a5958ab5c1a8561c8",
+      "findings": "Fourteen reserved files: exact route opt-in, visible five-note/eight-reference mapping across seven sourced paragraphs, complete nine-paragraph portable reading; honest typographic cover and no empty image-credit section; seven negative controls use Santali. Extended scope one Cuttack reading test: obsolete prompt replaced with full paragraph and personal-note retention.",
+      "tests": "Source mapping/panel/specificity test 1/1, syntax and git diff --check passed. Full build delegated to Disha.",
+      "limits": [
+        "No Git, publication or shared-record edits. No human or source-language review."
+      ]
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Separate integrated candidate review",
+      "status": "pending"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": "Narrative and KB integration, shared records, Git and publication",
+      "status": "in_progress"
+    }
+  ],
+  "concurrency": "Gopinath receipt366 observed merged; existing workers complete. PR304/281 unrelated and untouched.",
+  "substantive_items_added": 0,
+  "human_review_claimed": false,
+  "validation_note": "Initial full suite566 passed; coast298/299 exposed obsolete generic offline heading assertion after all literary entries now retain full prose. Scoped repair assigned to Samanta.",
+  "responsive_review": {
+    "viewports": [
+      [
+        1440,
+        1000
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "reading_widths": [
+      740,
+      343.1953125
+    ],
+    "horizontal_overflow": false,
+    "exact_keyboard_return": "ref-dawn-1-gangadhar-tapasvini-canto4",
+    "further_reading_keyboard_toggle": true,
+    "visual": "Desktop typographic panel, mobile literary paragraphs and visible numbered references inspected. Coherent spacing and readable body; honest panel retained, no images.",
+    "limits": "Browser emulation only; no physical device or screen reader test."
+  },
+  "validation": {
+    "full_tests": 566,
+    "coastal_tests": 299,
+    "publication_build": "pass;11indexable pages",
+    "canonical": "research, research map, bundle, team, autonomous, workbench6, rollout, registers and whitespace pass",
+    "route_inventory": "394directory indexes plus404;395 registered; no unregistered routes",
+    "resolved_failure": "Old offline generic heading assertion replaced with all current nine paragraphs, named translators/editors and retained personal note/source checks. Full coast rerun299/299."
+  }
+}

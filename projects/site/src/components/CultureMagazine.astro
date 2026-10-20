@@ -1,4 +1,5 @@
 ---
+import gangadharEditorial from '../../../../kb/research/voices/gangadhar-editorial.json';
 import gopinathEditorial from '../../../../kb/research/voices/gopinath-editorial.json';
 import bhimaEditorial from '../../../../kb/research/voices/bhima-editorial.json';
 import pratibhaEditorial from '../../../../kb/research/voices/pratibha-editorial.json';
@@ -28,7 +29,7 @@ import CultureOnward from './CultureOnward.astro';
 import collection from '../../../../kb/research/voices/collection.json';
 import '../styles/culture-magazine.css';
 const {entry}=Astro.props,hero=collection.assets[entry.hero_asset],hub=!entry.path.includes('/');
-const editorial=entry.path==='languages'?languagesEditorial:entry.path==='languages/odia'?odiaEditorial:entry.path==='literature'?literatureEditorial:entry.path==='people/fakir-mohan-senapati'?fakirEditorial:entry.path==='literature/six-acres-and-a-third'?sixAcresEditorial:entry.path==='people/sarala-das'?saralaEditorial:entry.path==='people/pratibha-ray'?pratibhaEditorial:entry.path==='people/bhima-bhoi'?bhimaEditorial:entry.path==='people/gopinath-mohanty'?gopinathEditorial:null;
+const editorial=entry.path==='languages'?languagesEditorial:entry.path==='languages/odia'?odiaEditorial:entry.path==='literature'?literatureEditorial:entry.path==='people/fakir-mohan-senapati'?fakirEditorial:entry.path==='literature/six-acres-and-a-third'?sixAcresEditorial:entry.path==='people/sarala-das'?saralaEditorial:entry.path==='people/pratibha-ray'?pratibhaEditorial:entry.path==='people/bhima-bhoi'?bhimaEditorial:entry.path==='people/gopinath-mohanty'?gopinathEditorial:entry.path==='people/gangadhar-meher'?gangadharEditorial:null;
 const passageSources=id=>editorial?.passages.find(p=>p.id===id)?.source_ids||[];
 const proseFirst=entry.path==='literature';
 const assetIds=[...new Set([entry.hero_asset,...entry.cards.map(c=>c.asset)].filter(Boolean))];
@@ -63,7 +64,7 @@ const start=hub&&!proseFirst&&entry.cards.length?'#reading-doors':'#'+entry.sect
   {cultureTrailsFor('/'+entry.path+'/').length>0&&<details class="mag-disclosure"><summary>Places, languages and connected stories</summary><CultureConnections path={'/'+entry.path+'/'}/></details>}
   {entry.language_contribution&&<LanguageInvitation language={hub?'':entry.title}/>}
   <CultureOnward entry={entry} collapsed={!!editorial}/>
-  {editorial?<><ArticleFootnotes sources={editorial.sources} passages={editorial.passages}><div id="language-image-credits"><h3>Images and reuse</h3><ul>{editorialAssets.map(id=><li><a href={collection.assets[id].source}>{collection.assets[id].caption}</a><p>{collection.assets[id].creator} · <a href={collection.assets[id].license_url}>{collection.assets[id].license}</a>. {collection.assets[id].changes}</p>{collection.assets[id].rights_note&&<p>{collection.assets[id].rights_note}</p>}</li>)}</ul></div></ArticleFootnotes><p class="languages-update"><a href={`/contribute/?page=${encodeURIComponent('/'+entry.path+'/')}`}>Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p></>:<><VoicesCredits entry={entry}/><p class="mag-status">Editorial preview · awaiting Founder and language or literary review.</p></>}
+  {editorial?<><ArticleFootnotes sources={editorial.sources} passages={editorial.passages}>{editorialAssets.length>0&&<div id="language-image-credits"><h3>Images and reuse</h3><ul>{editorialAssets.map(id=><li><a href={collection.assets[id].source}>{collection.assets[id].caption}</a><p>{collection.assets[id].creator} · <a href={collection.assets[id].license_url}>{collection.assets[id].license}</a>. {collection.assets[id].changes}</p>{collection.assets[id].rights_note&&<p>{collection.assets[id].rights_note}</p>}</li>)}</ul></div>}</ArticleFootnotes><p class="languages-update"><a href={`/contribute/?page=${encodeURIComponent('/'+entry.path+'/')}`}>Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p></>:<><VoicesCredits entry={entry}/><p class="mag-status">Editorial preview · awaiting Founder and language or literary review.</p></>}
  </article>
 </div>
 
