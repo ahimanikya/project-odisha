@@ -65,7 +65,7 @@ Route inventory: 395. completed: 45, excluded: 10, queued: 340.
 | POD-EDIT-049 | [Gopinath Mohanty](https://projectodisha.org/people/gopinath-mohanty/) | completed | Individual literary and evidence revision with contextual image audit |
 | POD-EDIT-050 | [Gangadhar Meher](https://projectodisha.org/people/gangadhar-meher/) | completed | Founder-directed literary introduction; selected actual-text examples, visible notes, portable reading and honest typographic identity panel. |
 | POD-EDIT-051 | [Balasore: places, food &amp; living culture](https://projectodisha.org/destinations/balasore/) | completed | Individual regional narrative research and editorial revision |
-| POD-EDIT-052 | [Mayurbhanj: places, food &amp; living culture](https://projectodisha.org/destinations/mayurbhanj/) | completed | classification_pending |
+| POD-EDIT-052 | [Mayurbhanj: places, food &amp; living culture](https://projectodisha.org/destinations/mayurbhanj/) | completed | Individual regional narrative research and editorial revision |
 | POD-EDIT-053 | [Chandipur](https://projectodisha.org/visit/places/chandipur/) | queued | classification_pending |
 | POD-EDIT-054 | [Similipal](https://projectodisha.org/visit/places/similipal/) | queued | classification_pending |
 | POD-EDIT-055 | [Mayurbhanj Chhau](https://projectodisha.org/visit/experiences/mayurbhanj-chhau/) | queued | classification_pending |
