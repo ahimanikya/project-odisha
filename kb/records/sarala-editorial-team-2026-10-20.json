@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T05:12:52.404686+00:00",
   "article_id": "POD-EDIT-046",
   "route": "/people/sarala-das/",
-  "status": "in_progress",
+  "status": "published_receipt_pending_integration",
   "input_head": "4c8513bf88f2bcf187b42e3314b284a913de452b",
   "authorization": "POD-DEC-225",
   "classification": "Founder-directed writer introduction; external epic authorship and documentary image provenance preserved.",
@@ -47,13 +47,23 @@
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Separate integrated candidate review",
-      "status": "pending"
+      "status": "complete",
+      "input_head": "f334ba4ad6c450d4465565b0e59afa210e8b359c",
+      "findings": "37 focused tests; independently inspected Ghosh biography, Draupadi and edition note, and Patnaik Sakuni/self-presentation. Complete portable narrative, four notes/eight references, contextual manuscript rights, neighbouring-page controls. Canonical validators pass. Catalogue-only followup separately reviewed at final head.",
+      "limits": [
+        "Separate AI review, not human or Odia-language-specialist approval.",
+        "Selected scholarly accounts inspected; no underlying Odia epic/manuscript collation or full Sanskrit comparison.",
+        "Sparse biography and differing editions remain explicit; devotional self-presentation is not treated as verified biography.",
+        "First official catalogue PDF retrieved but its text and relationship to Mohanty edition not verified.",
+        "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
+      ]
     },
     {
       "name": "Disha",
       "runtime": "/root",
       "scope": "Only Sarala entry in collection, associated KB narrative, shared records/Git/publishing",
-      "status": "in_progress"
+      "status": "receipt_pending_integration",
+      "findings": "Prose, KB, tests, responsive checks, reviewed PR359 merge and approved live publication completed; retain claim through receipt merge."
     }
   ],
   "concurrency": "All previous workers completed; receipt358 merge observed; unrelated PR304/281 remain untouched.",
@@ -80,5 +90,21 @@
       "keyboard": "Sakuni footnote 2 reaches and focuses note-sarala-patnaik2019; exact return focuses ref-sakuni-0-sarala-patnaik2019 at both widths. Further reading disclosure opens.",
       "visual": "Desktop and mobile prose inspected; clear hierarchy, visible numbered notes, readable spacing."
     }
-  }
+  },
+  "review": {
+    "role": "Drishti",
+    "runtime": "/root/drishti",
+    "head": "f334ba4ad6c450d4465565b0e59afa210e8b359c",
+    "result": "pass_with_limitations",
+    "scope": "37 focused tests; independently inspected Ghosh biography, Draupadi and edition note, and Patnaik Sakuni/self-presentation. Complete portable narrative, four notes/eight references, contextual manuscript rights, neighbouring-page controls. Canonical validators pass. Catalogue-only followup separately reviewed at final head.",
+    "limitations": [
+      "Separate AI review, not human or Odia-language-specialist approval.",
+      "Selected scholarly accounts inspected; no underlying Odia epic/manuscript collation or full Sanskrit comparison.",
+      "Sparse biography and differing editions remain explicit; devotional self-presentation is not treated as verified biography.",
+      "First official catalogue PDF retrieved but its text and relationship to Mohanty edition not verified.",
+      "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
+    ]
+  },
+  "publication_receipt": "records/sarala-editorial-publication-2026-10-20.json",
+  "ownership": "Disha retains claim until receipt PR is actually merged; release only after observed integration."
 }

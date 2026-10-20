@@ -21095,6 +21095,33 @@
         "Publisher edition capture reused; direct Rout PDF retrieval failed and retained/indexed text was used.",
         "Responsive and keyboard checks are browser emulation by coordinator, not physical-device or screen-reader testing."
       ]
+    },
+    {
+      "id": "POD-REV-2026102004",
+      "title": "Separate Sarala Das article and source review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent /root/drishti"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human or language-specialist review.",
+      "reviewed_head": "f334ba4ad6c450d4465565b0e59afa210e8b359c",
+      "refs": [
+        "POD-WORK-302",
+        "POD-DEC-2026101901",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/sarala-editorial-team-2026-10-20.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human or Odia-language-specialist approval.",
+        "Selected scholarly accounts inspected; no underlying Odia epic/manuscript collation or full Sanskrit comparison.",
+        "Sparse biography and differing editions remain explicit; devotional self-presentation is not treated as verified biography.",
+        "First official catalogue PDF retrieved but its text and relationship to Mohanty edition not verified.",
+        "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
+      ]
     }
   ],
   "releases": [
@@ -24164,6 +24191,23 @@
         "records/six-acres-editorial-team-2026-10-20.json"
       ],
       "note": "Reviewed PR357 passed checks and merged; approved deployment and live notes, retained bust hash and responsive reading verified. Zero substantive programme credit."
+    },
+    {
+      "id": "POD-REL-2026102004",
+      "title": "Sarala Das epic choices and edition limits",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/people/sarala-das/",
+      "refs": [
+        "POD-WORK-302",
+        "POD-REV-2026102004",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/sarala-editorial-publication-2026-10-20.json",
+        "records/sarala-editorial-team-2026-10-20.json"
+      ],
+      "note": "Reviewed PR359 passed checks and merged; approved deployment and live notes, retained contextual manuscript hash and responsive reading verified. Zero substantive programme credit."
     }
   ],
   "sources": [
