@@ -59,11 +59,12 @@
     "route": "/food/chhena-poda/",
     "owner": "Disha",
     "coordinator_runtime": "/root",
-    "phase": "integrating_completed_directory",
+    "phase": "receipt_integrated",
     "branch": "codex/chhena-poda-editorial-20261020",
     "input_head": "349197491797e77ed9b9b4841d49a85b956cc0c8",
     "file_reservations": "records/chhena-poda-editorial-team-2026-10-20.json#executions",
-    "integration_gate": "External PR390 merged and deployed. Preserve directory links and62 new inventory exclusions; re-review integrated candidate before release."
+    "integration_gate": "Retain ownership until this receipt PR is actually merged; phase becomes effective only with that integration. No next article claim before observed merge.",
+    "publication_receipt": "records/chhena-poda-editorial-publication-2026-10-20.json"
   },
   "project_identity": "reference/project-identity.md"
 }
