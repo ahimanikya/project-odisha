@@ -833,3 +833,7 @@ POD-EDIT-053 reuses the Chandipur place, current tourism successor, sedimentolog
 ## Similipal individual article reuse · 20 October 2026
 
 POD-EDIT-054 reuses the place, UNESCO biosphere, reserve guidelines, mahua profile and2016 Santhal fieldwork source before fresh bounded checks. Adds local historical collection/preparation detail to connect trees with work; keeps2009 fieldwork distinct from2016 publication and current tourism. No duplicate subject/source, field confirmation or programme credit. Mapping: `research/destinations/similipal-editorial.json`.
+
+## Balasore overnight-base editorial reuse · 20 October 2026
+
+POD-EDIT-056 reuses the northern stay, Balasore regional and Chandipur place records, current tourism arrival source and sedimentology study. Two hypothetical planning scenarios and the existing area comparison explain choices without adding a hotel or provider endorsement. No new source or place entity. Mapping: `research/destinations/balasore-stay-editorial.json`. No substantive programme credit.

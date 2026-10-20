@@ -1,0 +1,121 @@
+{
+  "recorded_at": "2026-10-20T15:17:50.577506+00:00",
+  "article_id": "POD-EDIT-056",
+  "route": "/visit/stays/balasore-coast/",
+  "status": "candidate_ready",
+  "input_head": "354e50a11bde9680ac601e77cc88a764a9d2110b",
+  "authorization": [
+    "POD-DEC-2026101702",
+    "POD-DEC-225",
+    "POD-DEC-2026101901"
+  ],
+  "central_question": "How should a visitor choose between Balasore town and the Chandipur shore for an overnight base, given what the place and actual journey require?",
+  "acceptance": [
+    "Explain the tradeoffs using inspected place/access evidence and concrete scenarios, without implying accommodation inspection, current availability or assured transport.",
+    "Preserve comparison options, full portable reading, original photograph and rights, visible footnotes, reading paths and update privacy notice.",
+    "Separate AI review, tests, responsive checks, merged PR, approved deployment and live receipt before completion."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only bounded research and proposal",
+      "status": "complete",
+      "input_head": "354e50a11bde9680ac601e77cc88a764a9d2110b",
+      "findings": "Two concrete planning scenarios and retained area comparisons explain transfer, property access and whole-cost tradeoffs. Unsupported quietness and assured-return implications removed.",
+      "tests": "Read existing KB and actual tourism page and Study Area PDF passages; serialized proposal.",
+      "limits": "No accommodation inspection, vendorresearch, timetable, currentprice, safetycomparison, quietnessclaim, transferavailability, hostvalidation orfieldconfirmation."
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/pages/visit/[kind]/[slug].astro",
+        "projects/site/src/data/destination-details.ts",
+        "projects/site/src/data/journey-catalog.ts",
+        "kb/research/destinations/balasore-stay-editorial.json",
+        "projects/site/tests-coast/balasore-stay-editorial.test.mjs",
+        "projects/site/tests/bhubaneswar-stay-editorial.test.mjs",
+        "projects/site/tests/barabati-reading-book.test.mjs",
+        "projects/site/tests/mukteswar-editorial.test.mjs",
+        "projects/site/tests-coast/barabati-editorial.test.mjs",
+        "projects/site/tests-coast/cuttack-stay-editorial.test.mjs",
+        "projects/site/tests-coast/chandipur-editorial.test.mjs",
+        "projects/site/tests-coast/dhauli-editorial.test.mjs",
+        "projects/site/tests-coast/netaji-museum-editorial.test.mjs",
+        "projects/site/tests-coast/tarakasi-editorial.test.mjs",
+        "projects/site/src/data/book-photos.ts"
+      ],
+      "status": "complete",
+      "input_head": "354e50a11bde9680ac601e77cc88a764a9d2110b",
+      "scope_note": "Existing negative controls move only their assertions to untouched Similipal stay; all onward links retained. Add one portable image mapping using existing Chandipur landscape, explicitly not accommodation.",
+      "findings": "Exact stay-route opt-in, full9paragraphs and both area comparisons,2visible notes and returns, existing landscape portable image. Nine stale negative controls moved to untouched Similipal stay; related links retained.",
+      "tests": "Static source-map1/1, syntax and diff checks passed; full rendered tests coordinator-owned."
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Separate integrated candidate review",
+      "status": "waiting_for_candidate"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": "Canonical narrative, shared records, image audit and publishing",
+      "status": "in_progress"
+    }
+  ],
+  "concurrency": "All existing team workers completed Chhau; receipt PR378 observed merged at354e50a1. Prior integration-only handoff retained. Open PR304 statistics and PR281 Ashoka untouched.",
+  "substantive_items_added": 0,
+  "human_review_claimed": false,
+  "image_audit": {
+    "result": "retain",
+    "asset": "chandipur",
+    "source": "https://commons.wikimedia.org/wiki/File:Sunset_at_Chandipur_Sea_Beach,_Odisha.jpg",
+    "creator": "Nihar.race",
+    "photographed_on": "2012-02-26",
+    "license": "CC BY-SA 4.0",
+    "sha256": "cd0d20634950b20af1301665a667e5baff2a670344b1c8d399f99f9302eea2e1",
+    "inspection": "Actual local image and Commons source page inspected on20October2026: coherent sun/reflection, wet sand, distant shore and vegetation, no implausible physical elements observed. Retain as dated landscape context, not accommodation or present-day access evidence. Source date/licence/creator confirmed; responsive rendition and share-alike terms retained."
+  },
+  "source_review": {
+    "actual_pages": [
+      "https://odishatourism.gov.in/en/places/chandipur-beach",
+      "https://journal.indiansedimentologists.com/ojs/index.php/1/article/view/276/144"
+    ],
+    "inspection": "Coordinator independently opened actual tourism arrival section and PDF Study Area printed pp6–7, confirming the selected geography and terrain. No current provider/availability evidence inferred.",
+    "word_budgets": {
+      "chandipur-current": 57,
+      "chandipur-sedimentation2023": 75
+    },
+    "mapping": "research/destinations/balasore-stay-editorial.json",
+    "limits": "No accommodation inspection, vendorresearch, timetable, currentprice, safetycomparison, quietnessclaim, transferavailability, hostvalidation orfieldconfirmation."
+  },
+  "validation": {
+    "full_build": "pass",
+    "full_tests": 566,
+    "coast_build": "pass",
+    "coast_tests": 323,
+    "publication_build": "pass;11indexablepages",
+    "local_browser": {
+      "viewports": [
+        [
+          1440,
+          1000
+        ],
+        [
+          390,
+          844
+        ]
+      ],
+      "reading_widths": [
+        740,
+        343.1953125
+      ],
+      "horizontal_overflow": false,
+      "comparison": "Mobile stacked comparison and prose visually inspected. Desktop cover inspected.",
+      "keyboard": "Footnote1 and exact return; further-reading disclosure opened with Enter.",
+      "limitations": "Browser emulation; no physical-device or screen-reader test."
+    }
+  }
+}

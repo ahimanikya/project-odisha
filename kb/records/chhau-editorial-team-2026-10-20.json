@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T14:23:43.144293+00:00",
   "article_id": "POD-EDIT-055",
   "route": "/visit/experiences/mayurbhanj-chhau/",
-  "status": "published_receipt_pending_integration",
+  "status": "complete",
   "input_head": "03f54d4a9b7e0393949e72f01aa282c15da7d293",
   "authorization": [
     "POD-DEC-2026101702",
@@ -61,7 +61,7 @@
       "name": "Disha",
       "runtime": "/root",
       "scope": "Canonical narrative, KB, shared records, image audit and publication",
-      "status": "receipt_pending_integration",
+      "status": "complete",
       "findings": "Prose, KB, tests, responsive checks, reviewed PR377 merge and approved live publication completed; retain claim through receipt merge."
     }
   ],
@@ -219,6 +219,82 @@
   "pull_request": "https://github.com/ahimanikya/project-odisha/pull/377",
   "merge_commit": "63a7f185bd3982cb1782aaa14be1c47ad8c1118d",
   "deployment_run": 39441642691,
-  "ownership": "Disha retains claim until receipt PR is actually merged; release only after observed integration.",
-  "publication_receipt": "records/chhau-editorial-publication-2026-10-20.json"
+  "ownership": "Released after actual receipt PR378 merge was observed; select next eligible article only after fresh worker and repository reconciliation.",
+  "publication_receipt": "records/chhau-editorial-publication-2026-10-20.json",
+  "receipt_integration": {
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/378",
+    "head": "d334b9eca426d95974e5732f38b8ee39fa1eeae0",
+    "merge_commit": "354e50a11bde9680ac601e77cc88a764a9d2110b",
+    "merged_at": "2026-10-20T14:52:33Z",
+    "validation": {
+      "conclusion": "success",
+      "databaseId": 39442576047,
+      "headSha": "d334b9eca426d95974e5732f38b8ee39fa1eeae0",
+      "status": "completed",
+      "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39442576047"
+    },
+    "review": {
+      "reviewer": "Drishti",
+      "kind": "separate_ai_receipt_review",
+      "head": "d334b9eca426d95974e5732f38b8ee39fa1eeae0",
+      "base": "63a7f185bd3982cb1782aaa14be1c47ad8c1118d",
+      "result": "pass_with_limitations",
+      "blocking_findings": [],
+      "checks": {
+        "changed_files": 10,
+        "scope": "Records and two screenshots only; no website/source/policy changes.",
+        "validators": [
+          "article_rollout",
+          "team_assignments",
+          "autonomous_program",
+          "registers",
+          "workbench",
+          "git_diff_check"
+        ],
+        "counts": {
+          "completed": 48,
+          "queued": 337,
+          "excluded": 10
+        },
+        "only_queue_entry_changed": "POD-EDIT-055",
+        "programme_byte_unchanged": true,
+        "substantive_completed": 112,
+        "review_transcription": "Receipt final_review and team review exactly match saved candidate review, including final metadata delta and initial CI failure resolution.",
+        "tree_correspondence": "Reviewed577512ae4678e2c69beee2feb03df4e8c752ae73 and merged63a7f185bd3982cb1782aaa14be1c47ad8c1118d trees identical.",
+        "ownership": "Disha retains POD-EDIT-055; receipt_integrated effective only after actual receipt merge; no next claim before observed integration.",
+        "local_photo_hash_matches_receipt": true
+      },
+      "remote_verification": {
+        "method": "Independent read-only gh pr view and gh run view queries",
+        "pull_request": 377,
+        "state": "MERGED",
+        "merged_at": "2026-10-20T14:41:35Z",
+        "reviewed_head": "577512ae4678e2c69beee2feb03df4e8c752ae73",
+        "merge_head": "63a7f185bd3982cb1782aaa14be1c47ad8c1118d",
+        "ci": {
+          "run": 39440812981,
+          "conclusion": "success",
+          "head": "577512ae4678e2c69beee2feb03df4e8c752ae73"
+        },
+        "deployment": {
+          "run": 39441642691,
+          "conclusion": "success",
+          "head": "63a7f185bd3982cb1782aaa14be1c47ad8c1118d"
+        }
+      },
+      "screenshot_review": {
+        "desktop_sha256": "db6e526fd3890f5396f9ef5456668f5a9e1bd11b96153ab8f86627274e5fa4cb",
+        "mobile_sha256": "58fa0f7e19d9012a49f2d7b586e4a663c8073dc329eceb70d2b1016b681a824b",
+        "result": "Both saved cover views visually inspected and hashes match receipt. Title, lead, Founder byline, full photograph and dated photographer caption are legible, with no visible clipping in captured views."
+      },
+      "limits": [
+        "Separate AI review, not human, practitioner, specialist or field approval.",
+        "Live HTTP/image requests, sitemap, responsive measurements and interactive keyboard/disclosure checks were coordinator-performed, not independently repeated.",
+        "Saved screenshots show cover views; they do not independently establish full-page accessibility or interaction behavior.",
+        "No site builds or suites repeated for records-only delta; prior candidate tests and successful final-head CI retained.",
+        "No performance viewing, personal interview or current event confirmation; prior source limitations remain."
+      ]
+    },
+    "actual_merge_observed_at": "2026-10-20T14:52:53.100790+00:00"
+  }
 }

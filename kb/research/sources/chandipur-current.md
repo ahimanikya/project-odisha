@@ -18,3 +18,7 @@ Actual current page opened20October2026; KeyInformation and HowtoReach sections 
 ## Detail-article refresh · 20 October 2026
 
 Reopened the actual successor page: Key Information recommends October–March; How to Reach names Baleshwar station and road connection. Earlier northern-detail assertions about bathing and fast-return warnings are not substantiated by this current text and are retired from that article individually. Promotional deep-walking, 24-hour access and fixed distance wording is not adopted as a safety assessment.
+
+## Balasore overnight-base guide · 20 October 2026
+
+Reused for the bounded stay comparison after inspecting the actual source. [Passage mapping](../destinations/balasore-stay-editorial.json) preserves source scope and separates geographic evidence from hypothetical planning scenarios. No accommodation, current price, timetable, transport availability or property access verified.
