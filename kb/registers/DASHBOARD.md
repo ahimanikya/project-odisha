@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `7ecd399cf185d842616c8691787e133c8f52f9424032d0610c0c4fb8d5e65e0a`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e21f574e2ac73f8d8ee0704f3048839190f6dc740ffbd6ae3546c071fe065711`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -953,6 +953,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026102002 | pass_with_limitations | True | Separate AI review, not human or language-specialist approval.; Historical essays rechecked through indexed excerpts; direct PDFs unavailable. No original school/press records inspected.; Selected literary passages only; no full-novel review or printed facsimile collation.; 1902/1905 original-novel chronology remains unresolved.; Responsive and keyboard checks are browser emulation by coordinator, not physical-device or screen-reader testing. |
 | POD-REV-2026102003 | pass_with_limitations | True | Separate AI review, not human or language-specialist approval.; Selected community transcriptions only; no full-novel review or printed facsimile collation.; 1902/1905 original-novel chronology remains unresolved; original serial/book imprints not inspected.; Publisher edition capture reused; direct Rout PDF retrieval failed and retained/indexed text was used.; Responsive and keyboard checks are browser emulation by coordinator, not physical-device or screen-reader testing. |
 | POD-REV-2026102004 | pass_with_limitations | True | Separate AI review, not human or Odia-language-specialist approval.; Selected scholarly accounts inspected; no underlying Odia epic/manuscript collation or full Sanskrit comparison.; Sparse biography and differing editions remain explicit; devotional self-presentation is not treated as verified biography.; First official catalogue PDF retrieved but its text and relationship to Mohanty edition not verified.; Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing. |
+| POD-REV-2026102005 | pass_with_limitations | True | Separate AI review, not human or Odia-language-specialist approval.; Selected author-hosted English excerpt and author accounts inspected; no full-novel or original-Odia/Sanskrit collation.; Translator of the website excerpt is not identified; credited Rupa1995 edition remains separate. Original1984/1985 chronology unresolved.; Library of Congress audio entries catalogued, not auditioned. Adaptations not viewed; production dates unavailable in author account.; Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing. |
 
 ## Publication and application history
 
@@ -1147,6 +1148,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026102002 · Fakir Mohan public-language work and close readings | published | https://projectodisha.org/people/fakir-mohan-senapati/ | POD-DEC-225 |
 | POD-REL-2026102003 · Six Acres household, narrator and courtroom reading | published | https://projectodisha.org/literature/six-acres-and-a-third/ | POD-DEC-225 |
 | POD-REL-2026102004 · Sarala Das epic choices and edition limits | published | https://projectodisha.org/people/sarala-das/ | POD-DEC-225 |
+| POD-REL-2026102005 · Pratibha Ray narrative voice and edition limits | published | https://projectodisha.org/people/pratibha-ray/ | POD-DEC-225 |
 
 ## Sources and assets
 
@@ -1184,7 +1186,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261019108 | 2026-10-19T07:07:15.803455+00:00 | Claimed POD-EDIT-039 Netaji museum article after prior receipts integrated. Inspected autobiography, current museum source and retained photograph; preparing authored reading and visible notes. Separate review and publication pending; zero substantive programme credit. | — |
 | POD-EVT-20261019109 | 2026-10-19T07:22:09.760133+00:00 | Published and live-verified POD-EDIT-039 Netaji museum article via PR344 and approved deployment39215016274. Separate AI source review, visible notes, portable reading and responsive checks retained;32 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261019110 | 2026-10-19T08:12:23.730497+00:00 | Prepared POD-EDIT-040 Cuttack stay guide with bounded Anvesha research and Samanta implementation. Full566 and coastal258 tests pass; desktop/mobile review complete. Separate review and publication pending; no programme credit. | — |
 | POD-EVT-20261019111 | 2026-10-19T08:22:32.787863+00:00 | Published and live-verified POD-EDIT-040 Cuttack stay guide via PR346 and approved deployment39221663721. Three evidence-bounded comparisons, Founder byline, visible source and portable illustration checked;33 editorial entries complete, substantive programme112 unchanged. | — |
@@ -1194,6 +1195,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261020002 | 2026-10-20T03:30:25.717262+00:00 | Published and live-verified POD-EDIT-044 Fakir Mohan via PR354 and approved deployment39364210556. Concrete literary readings, ten visible source notes and complete portable reading;37 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261020003 | 2026-10-20T05:05:08.039215+00:00 | Published and live-verified POD-EDIT-045 Six Acres via PR357 and approved deployment39372533375. Household stakes, narrator satire and courtroom language with six visible notes and full portable reading;38 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261020004 | 2026-10-20T05:35:06.006219+00:00 | Published and live-verified POD-EDIT-046 Sarala Das via PR359 and approved deployment39375219244. Draupadi, Sakuni, devotional authority and edition limits with four visible notes and complete portable reading;39 editorial entries complete, substantive programme112 unchanged. | — |
+| POD-EVT-20261020005 | 2026-10-20T06:29:20.562550+00:00 | Published and live-verified POD-EDIT-047 Pratibha Ray via PR361 and approved deployment39380219316. Draupadi’s questions, adaptation and edition limits with five visible notes and complete portable reading;40 editorial entries complete, substantive programme112 unchanged. | — |
 
 ## Deferred extensions
 

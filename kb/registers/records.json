@@ -21122,6 +21122,33 @@
         "First official catalogue PDF retrieved but its text and relationship to Mohanty edition not verified.",
         "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
       ]
+    },
+    {
+      "id": "POD-REV-2026102005",
+      "title": "Separate Pratibha Ray article and source review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent /root/drishti"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human or language-specialist review.",
+      "reviewed_head": "1e5cad0d28f9a87448e898e5b55b3546b9c88896",
+      "refs": [
+        "POD-WORK-302",
+        "POD-DEC-2026101901",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/pratibha-editorial-team-2026-10-20.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human or Odia-language-specialist approval.",
+        "Selected author-hosted English excerpt and author accounts inspected; no full-novel or original-Odia/Sanskrit collation.",
+        "Translator of the website excerpt is not identified; credited Rupa1995 edition remains separate. Original1984/1985 chronology unresolved.",
+        "Library of Congress audio entries catalogued, not auditioned. Adaptations not viewed; production dates unavailable in author account.",
+        "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
+      ]
     }
   ],
   "releases": [
@@ -24208,6 +24235,23 @@
         "records/sarala-editorial-team-2026-10-20.json"
       ],
       "note": "Reviewed PR359 passed checks and merged; approved deployment and live notes, retained contextual manuscript hash and responsive reading verified. Zero substantive programme credit."
+    },
+    {
+      "id": "POD-REL-2026102005",
+      "title": "Pratibha Ray narrative voice and edition limits",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/people/pratibha-ray/",
+      "refs": [
+        "POD-WORK-302",
+        "POD-REV-2026102005",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/pratibha-editorial-publication-2026-10-20.json",
+        "records/pratibha-editorial-team-2026-10-20.json"
+      ],
+      "note": "Reviewed PR361 passed checks and merged; approved deployment and live notes, retained portrait hash and responsive reading verified. Zero substantive programme credit."
     }
   ],
   "sources": [
