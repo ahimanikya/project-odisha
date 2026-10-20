@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 395. completed: 39, excluded: 10, in_progress: 1, queued: 345.
+Route inventory: 395. completed: 40, excluded: 10, queued: 345.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -60,7 +60,7 @@ Route inventory: 395. completed: 39, excluded: 10, in_progress: 1, queued: 345.
 | POD-EDIT-044 | [Fakir Mohan Senapati](https://projectodisha.org/people/fakir-mohan-senapati/) | completed | Individually revise writer biography, public-language work, selected literary readings and portable notes; linked works remain separate. |
 | POD-EDIT-045 | [Six Acres and a Third](https://projectodisha.org/literature/six-acres-and-a-third/) | completed | Individually revise novel introduction using selected original passages and edition evidence; related creator profile remains separate. |
 | POD-EDIT-046 | [Sarala Das](https://projectodisha.org/people/sarala-das/) | completed | Individually revise Sarala’s literary contribution, selected epic examples and biography limits; retain contextual manuscript provenance. |
-| POD-EDIT-047 | [Pratibha Ray](https://projectodisha.org/people/pratibha-ray/) | in_progress | Individual Pratibha Ray literary introduction, evidence, reading layout and preserved portrait |
+| POD-EDIT-047 | [Pratibha Ray](https://projectodisha.org/people/pratibha-ray/) | completed | Individual Pratibha Ray literary introduction, evidence, reading layout and preserved portrait |
 | POD-EDIT-048 | [Bhima Bhoi](https://projectodisha.org/people/bhima-bhoi/) | queued | classification_pending |
 | POD-EDIT-049 | [Gopinath Mohanty](https://projectodisha.org/people/gopinath-mohanty/) | queued | classification_pending |
 | POD-EDIT-050 | [Gangadhar Meher](https://projectodisha.org/people/gangadhar-meher/) | queued | classification_pending |

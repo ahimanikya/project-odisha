@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T06:11:19.448769+00:00",
   "article_id": "POD-EDIT-047",
   "route": "/people/pratibha-ray/",
-  "status": "in_progress",
+  "status": "published_receipt_pending_integration",
   "input_head": "798dff94367a14ff906ec3a80e7516102572e37d",
   "authorization": "POD-DEC-225",
   "classification": "Founder-directed writer introduction; Pratibha Ray’s authorship and translator/photographer credits preserved.",
@@ -48,13 +48,23 @@
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Separate integrated candidate review",
-      "status": "pending"
+      "status": "complete",
+      "input_head": "1e5cad0d28f9a87448e898e5b55b3546b9c88896",
+      "findings": "41 focused tests; independently inspected actual author excerpt, career and adaptation captures, verified capture hashes and live translator/LoC pages. Five notes/eight references, full portable narrative, portrait rights and neighbouring controls. Canonical checks passed",
+      "limits": [
+        "Separate AI review, not human or Odia-language-specialist approval.",
+        "Selected author-hosted English excerpt and author accounts inspected; no full-novel or original-Odia/Sanskrit collation.",
+        "Translator of the website excerpt is not identified; credited Rupa1995 edition remains separate. Original1984/1985 chronology unresolved.",
+        "Library of Congress audio entries catalogued, not auditioned. Adaptations not viewed; production dates unavailable in author account.",
+        "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
+      ]
     },
     {
       "name": "Disha",
       "runtime": "/root",
       "scope": "Pratibha collection prose, existing person/work KB, shared records, Git and publishing",
-      "status": "in_progress"
+      "status": "receipt_pending_integration",
+      "findings": "Prose, KB, tests, responsive checks, reviewed PR361 merge and approved live publication completed; retain claim through receipt merge."
     }
   ],
   "concurrency": "Previous workers completed; receipt360 merge observed; PR304 statistics and PR281 Ashoka untouched.",
@@ -86,5 +96,21 @@
       "keyboard": "ref-work-1-ray-work Enter focuses note-ray-work; exact Return to passage2 for footnote2 restores ref-work-1-ray-work at both widths. Further reading opens from keyboard.",
       "limits": "Browser emulation, not physical-device or screen-reader testing."
     }
-  }
+  },
+  "review": {
+    "role": "Drishti",
+    "runtime": "/root/drishti",
+    "head": "1e5cad0d28f9a87448e898e5b55b3546b9c88896",
+    "result": "pass_with_limitations",
+    "scope": "41 focused tests; independently inspected actual author excerpt, career and adaptation captures, verified capture hashes and live translator/LoC pages. Five notes/eight references, full portable narrative, portrait rights and neighbouring controls. Canonical checks passed",
+    "limitations": [
+      "Separate AI review, not human or Odia-language-specialist approval.",
+      "Selected author-hosted English excerpt and author accounts inspected; no full-novel or original-Odia/Sanskrit collation.",
+      "Translator of the website excerpt is not identified; credited Rupa1995 edition remains separate. Original1984/1985 chronology unresolved.",
+      "Library of Congress audio entries catalogued, not auditioned. Adaptations not viewed; production dates unavailable in author account.",
+      "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
+    ]
+  },
+  "publication_receipt": "records/pratibha-editorial-publication-2026-10-20.json",
+  "ownership": "Disha retains claim until receipt PR is actually merged; release only after observed integration."
 }
