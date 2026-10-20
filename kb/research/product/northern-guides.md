@@ -28,3 +28,9 @@ The two new real photographs total about 195 KB. The Chandipur sunset is a Wikim
 [Verification evidence](../../records/northern-guides-review.json). Dedicated Chandipur/Similipal subpages should add access detail, more real photographs and focused visit guidance. Inspected accommodation, contactable local partners, accessible transport, songs, screen references and oral histories remain research work. The guides are not verified itineraries; the planner does not calculate routes or make bookings.
 
 Creator direction and final editorial authority remain with Ahimanikya Satapathy. The current AI assistant prepared this local implementation and self-review. No new persona assignment, external communication, purchase or deployment was made.
+
+## Balasore editorial revision · 20 October 2026
+
+The existing Balasore route now explains gently sloping tidal-flat geometry and sediment movement, attributes Jitu Mishra’s2019 river/harbour account, and links Fakir Mohan’s printing work with a selected fictional household. Existing literary source IDs and original source-access limits are reused; no new literary entity. The current tourism page supersedes the earlier season recommendation for this article only. Food and stay choices remain original planning suggestions.
+
+Visible numbered notes, Founder-directed byline and complete portable prose follow the current editorial standard. Retained Chandipur2012 photograph and commemorative bust keep credits, licences and image hashes; no depicted bust is claimed as a visit stop. [Evidence mapping](../destinations/balasore-editorial.json).
