@@ -1,0 +1,92 @@
+{
+  "recorded_at": "2026-10-20T07:08:12.408285+00:00",
+  "article_id": "POD-EDIT-048",
+  "route": "/people/bhima-bhoi/",
+  "status": "in_progress",
+  "input_head": "8961069ae7ad0bbededed6ecde21021141422f0e",
+  "authorization": "POD-DEC-225",
+  "classification": "Founder-directed literary introduction; Bhima Bhoi, translators, scholars and photographer retain their own credits.",
+  "central_question": "How does Bhima Bhoi’s prayer turn personal suffering into concern for others, and how can we read it without confusing remembered life stories with established biography?",
+  "acceptance": [
+    "Reuse existing Mahima Dharma, Stuti Chintamani and source records; inspect actual selected passages for concrete literary explanation.",
+    "Distinguish devotional beliefs, scholarly interpretation, uncertain biography and present-day practice.",
+    "Preserve memorial photograph provenance, visible numbered notes, complete portable reading and reading paths.",
+    "Separate AI review, tests, responsive review, merge, approved deployment and live receipt before completion."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only selected evidence research and interpretation limits",
+      "status": "complete",
+      "input_head": "8961069ae7ad0bbededed6ecde21021141422f0e",
+      "findings": "Direct selected PDF text: Mahapatra printed74–75 twenty-seventh boli,1–2 biography uncertainty; Beltz230–234 and244–245. Final12paragraph factualPASS; conservative paraphrase budget issue resolved by shortening lead and reading prompt.",
+      "limits": "PDF screenshot attempts failed. Selected English-mediated passages only, no full-work/manuscript/Odia collation, current community or field review. Separate AI research, not human review."
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/components/CultureMagazine.astro",
+        "projects/site/src/components/CultureOnward.astro",
+        "projects/site/src/data/journey-catalog.ts",
+        "kb/research/voices/bhima-editorial.json",
+        "projects/site/tests-coast/bhima-editorial.test.mjs",
+        "projects/site/tests-coast/voices-passage-sources.test.mjs",
+        "projects/site/tests/voices.test.mjs",
+        "projects/site/tests-coast/fakir-editorial.test.mjs",
+        "projects/site/tests-coast/literature-editorial.test.mjs",
+        "projects/site/tests-coast/six-acres-editorial.test.mjs",
+        "projects/site/tests-coast/sarala-editorial.test.mjs",
+        "projects/site/tests-coast/pratibha-editorial.test.mjs"
+      ],
+      "status": "complete",
+      "input_head": "8961069ae7ad0bbededed6ecde21021141422f0e",
+      "findings": "Twelve reserved files: exact Bhima route opt-in, four visible notes/eight references, full portable narrative and memorial rights retained. Five neighbouring negative controls moved to queued Gopinath.",
+      "tests": "Static1/1; coordinator final full566/coast291 tests passed with all three builds."
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Separate integrated candidate review",
+      "status": "pending"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": "Bhima collection prose, existing culture/work/source KB, shared records, Git and publishing",
+      "status": "in_progress"
+    }
+  ],
+  "concurrency": "Prior workers complete and receipt362 merged. Unrelated PR304/281 untouched.",
+  "substantive_items_added": 0,
+  "human_review_claimed": false,
+  "source_inspection": {
+    "research_reuse": "Existing Mahima Dharma, Stuti Chintamani and source records queried and read before selected fresh retrieval. No duplicate person or work record.",
+    "actual_sources": [
+      "Mahapatra: printed1–2,12–13,17–20,74–75; historical English study and selected verse",
+      "Beltz:230–234,244–245; dated2000–2001fieldwork and historical reception",
+      "NBT2026cataloguep22 and product metadata; translator/edition only",
+      "Commons photograph metadata5February2012,Pdhmishra,CC0"
+    ],
+    "media": "Disha visually inspected retained960×720memorial photograph; coherent architecture, vegetation, figures and lighting. Original retained; not a portrait or lifetime reconstruction.",
+    "image_sha256": "e540b6300e5d414d2d6e507b6c37024e4bcc8ea8f2061bde538b8ecc51ea9dcf",
+    "retrieval_limits": "Successful PDF text retrieval; screenshot requests failed, no fresh facsimile review claimed."
+  },
+  "validation": {
+    "full_tests": 566,
+    "coast_tests": 291,
+    "publication_indexable_routes": 11,
+    "other_checks": [
+      "Research, map, bundle, catalogue, workbench and six workbench tests passed",
+      "Rollout, team, programme, registers and whitespace passed"
+    ],
+    "responsive_review": {
+      "reviewer": "Disha (AI)",
+      "desktop": "1440×1000;740px prose,no overflow; memorial image and reading layout inspected",
+      "mobile": "390×844;343.195px prose,no overflow; readable paragraphs and numbered references",
+      "keyboard": "Second reference for note1 moves focus to note-bhima-akademi; exact Return to passage2 restores ref-prayer-2-bhima-akademi at both widths. Further reading opens with Enter.",
+      "limits": "Browser emulation, not physical-device or screen-reader testing."
+    }
+  }
+}

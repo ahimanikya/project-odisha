@@ -1,3 +1,4 @@
+import bhimaEditorial from '../../../../kb/research/voices/bhima-editorial.json';
 import pratibhaEditorial from '../../../../kb/research/voices/pratibha-editorial.json';
 import saralaEditorial from '../../../../kb/research/voices/sarala-editorial.json';
 import sixAcresEditorial from '../../../../kb/research/voices/six-acres-editorial.json';
@@ -58,7 +59,7 @@ for(const [slug,pilot] of Object.entries(pilots)){
 }
 for(const r of detailRecords.filter(r=>r.kind==='places'&&pilots[r.parent]))entries.push({id:'place:'+r.slug,title:r.title,kind:'Place',area:r.parent==='chilika'?'Chilika':'Konark',summary:r.lead,href:detailUrl(r.kind,r.slug),checked:r.checked_on,sources:detailSources(r).map(s=>({title:s.title,url:s.resource}))});
 for(const p of voices.pages.filter(p=>p.path.split('/').length>1)){
- const editorial=p.path==='languages/odia'?odiaEditorial:p.path==='people/fakir-mohan-senapati'?fakirEditorial:p.path==='literature/six-acres-and-a-third'?sixAcresEditorial:p.path==='people/sarala-das'?saralaEditorial:p.path==='people/pratibha-ray'?pratibhaEditorial:null;
+ const editorial=p.path==='languages/odia'?odiaEditorial:p.path==='people/fakir-mohan-senapati'?fakirEditorial:p.path==='literature/six-acres-and-a-third'?sixAcresEditorial:p.path==='people/sarala-das'?saralaEditorial:p.path==='people/pratibha-ray'?pratibhaEditorial:p.path==='people/bhima-bhoi'?bhimaEditorial:null;
  entries.push({id:'reading:'+p.path,title:p.title,kind:'Reading',area:'Culture & language',summary:p.lead,href:'/'+p.path+'/',checked:p.checked_on||voices.checked_on,...(editorial?{author:editorial.author}:{}),practical:editorial?p.sections.map(s=>({heading:s.title,text:s.paragraphs.map(p=>p.text).join(' '),paragraphs:s.paragraphs.map(p=>p.text)})):p.reading_notes,sources:editorial?editorial.sources.map(({title,url})=>({title,url})):[...new Set([...p.sections.flatMap(s=>s.paragraphs.flatMap(v=>v.source_ids)),...(p.learning_resource?[p.learning_resource.source_id]:[])])].map(id=>({title:voices.sources[id].title,url:voices.sources[id].url}))});
 }
 for(const p of foodCollection.pages.filter(p=>!entries.some(item=>item.id===p.save_id)))entries.push({id:p.save_id,title:p.title,kind:'Food',area:p.planning_area||p.area,summary:p.lead,href:'/food/'+p.slug+'/',checked:p.checked_on||foodCollection.checked_on,sources:[]});

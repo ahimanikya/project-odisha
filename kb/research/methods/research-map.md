@@ -805,3 +805,7 @@ The [Sarala Das person record](../people/sarala-das.md) extends the existing voi
 ### Pratibha Ray editorial reuse · 20 October 2026
 
 POD-EDIT-047 extends the existing person, Yajnaseni, The Ring and Library of Congress source records and voices introduction. Read the existing career, author-hosted excerpt and adaptation sources before refreshing retrieval. Reused stable `creators-yajnaseni` and `literature-ray-loc` IDs for edition/translation and catalogue chronology; no duplicate person or work. Selected English excerpt examined for concrete narrative choices; full-novel/original-language and audio review remain open. Source mapping: `research/voices/pratibha-editorial.json`.
+
+### Bhima Bhoi editorial reuse · 20 October 2026
+
+POD-EDIT-048 reuses existing Mahima Dharma, Stuti Chintamani, Akademi, Beltz and NBT records and the voices introduction. Selected literary passage inspection deepens the reading without a duplicate person/work record. Current community practice, complete translation/original-language review and field access remain open. Source mapping: `research/voices/bhima-editorial.json`.
