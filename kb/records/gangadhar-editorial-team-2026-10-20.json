@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T09:12:21.665416+00:00",
   "article_id": "POD-EDIT-050",
   "route": "/people/gangadhar-meher/",
-  "status": "in_progress",
+  "status": "published_receipt_pending_integration",
   "input_head": "985178fdf2969aedf729024a5958ab5c1a8561c8",
   "authorization": "POD-DEC-225",
   "central_question": "What changes when Gangadhar Meher retells a familiar epic through a particular character’s experience, and how do his images and narrative choices make that change felt?",
@@ -57,13 +57,24 @@
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Separate integrated candidate review",
-      "status": "pending"
+      "status": "complete",
+      "input_head": "b8e17f802dd5b9e98c1046822c113d5557b5aac1",
+      "findings": "57 focused rendered/export/regression tests pass. Independently inspected saved Canto IV text/hash and district capture, fresh critical essay,2009 translator publication account and2001 publisher anthology metadata. Canonical validators pass; assets and programme112 unchanged; honest typographic panel and retained rights.",
+      "limits": [
+        "Separate AI review, not human or language specialist review.",
+        "No full poem or original Odia collation.",
+        "District checked from saved capture after web retrieval failed.",
+        "Responsive/browser interactions are coordinator-performed, not independently repeated.",
+        "Selected English passages and translator criticism; no full-poem, original-Odia or human review.",
+        "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
+      ]
     },
     {
       "name": "Disha",
       "runtime": "/root",
       "scope": "Narrative and KB integration, shared records, Git and publication",
-      "status": "in_progress"
+      "status": "receipt_pending_integration",
+      "findings": "Prose, KB, tests, responsive checks, reviewed PR367 merge and approved live publication completed; retain claim through receipt merge."
     }
   ],
   "concurrency": "Gopinath receipt366 observed merged; existing workers complete. PR304/281 unrelated and untouched.",
@@ -98,5 +109,20 @@
     "canonical": "research, research map, bundle, team, autonomous, workbench6, rollout, registers and whitespace pass",
     "route_inventory": "394directory indexes plus404;395 registered; no unregistered routes",
     "resolved_failure": "Old offline generic heading assertion replaced with all current nine paragraphs, named translators/editors and retained personal note/source checks. Full coast rerun299/299."
-  }
+  },
+  "review": {
+    "role": "Drishti",
+    "runtime": "/root/drishti",
+    "head": "b8e17f802dd5b9e98c1046822c113d5557b5aac1",
+    "result": "pass_with_limitations",
+    "scope": "57 focused rendered/export/regression tests pass. Independently inspected saved Canto IV text/hash and district capture, fresh critical essay,2009 translator publication account and2001 publisher anthology metadata. Canonical validators pass; assets and programme112 unchanged; honest typographic panel and retained rights.",
+    "limitations": [
+      "Separate AI review, not human or language specialist review.",
+      "No full poem or original Odia collation.",
+      "District checked from saved capture after web retrieval failed.",
+      "Responsive/browser interactions are coordinator-performed, not independently repeated."
+    ]
+  },
+  "publication_receipt": "records/gangadhar-editorial-publication-2026-10-20.json",
+  "ownership": "Disha retains claim until receipt PR is actually merged; release only after observed integration."
 }

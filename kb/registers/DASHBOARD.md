@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `c528c3330b33cce4e68e112bbe21113f5c07a1d0ddd027c9793509595c07a35a`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `4ddb8b9f8a18f4993858beb677ffcf2e0b29e53c54c0d491f24e8e1c93555ed0`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -321,7 +321,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-299 · Deepen Dalkhai song, occasion and stage context | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, song-language review and recovered source PDFs remain open for future research. | — |
 | POD-WORK-300 · Deepen Pala literary performance, forms and repertoire | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/Odia review and manuscript evidence remain open for future research. | — |
 | POD-WORK-301 · Deepen Dhemsa community, movement and occasion | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/language review and field evidence remain open for future research. | — |
-| POD-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Continue next eligible queued article after verifying receipt integration and reconciling team ownership;42 editorial entries complete. | — |
+| POD-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Continue next eligible queued article after verifying receipt integration and reconciling team ownership;43 editorial entries complete. | — |
 | POD-WORK-2026101701 · Publish two Pattachitra Jhula choices | completed | published | Ahimanikya Satapathy | Review the live Pattachitra choices. | — |
 | POD-WORK-2026101901 · Activate separate editorial agents and durable handoffs | completed | applied | Ahimanikya Satapathy | Use saved team loop for subsequent article work; recreate task-scoped workers when needed. | — |
 | POD-WORK-2026101801 · Coherent Jhula story and collection overview | completed | published | Ahimanikya Satapathy | Review the refined live page. | — |
@@ -956,6 +956,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026102005 | pass_with_limitations | True | Separate AI review, not human or Odia-language-specialist approval.; Selected author-hosted English excerpt and author accounts inspected; no full-novel or original-Odia/Sanskrit collation.; Translator of the website excerpt is not identified; credited Rupa1995 edition remains separate. Original1984/1985 chronology unresolved.; Library of Congress audio entries catalogued, not auditioned. Adaptations not viewed; production dates unavailable in author account.; Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing. |
 | POD-REV-2026102006 | pass_with_limitations | True | Separate AI review, not human, Odia-language-specialist or community approval.; Selected English-mediated text inspection only; no complete-work, manuscript or original-Odia collation.; PDF screenshot retrieval failed; fresh source review relied on successful text extraction.; Beltz’s fieldwork and reception comparison are historical; no current practice, legal status or access assertion.; Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing. |
 | POD-REV-2026102007 | pass_with_limitations | True | Separate AI review, not human, Odia-language-specialist or community approval.; Selected English-mediated text inspection only; no complete-work, manuscript or original-Odia collation.; Official teaching PDFs retrieved with valid TLS; selected text inspected, not a complete novel.; Literary characters and teaching-source generalizations are not treated as contemporary community testimony; edition records remain distinct.; Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing. |
+| POD-REV-2026102008 | pass_with_limitations | True | Separate AI review, not human or language specialist review.; No full poem or original Odia collation.; District checked from saved capture after web retrieval failed.; Responsive/browser interactions are coordinator-performed, not independently repeated.; Selected English passages and translator criticism; no full-poem, original-Odia or human review.; Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing. |
 
 ## Publication and application history
 
@@ -1153,6 +1154,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026102005 · Pratibha Ray narrative voice and edition limits | published | https://projectodisha.org/people/pratibha-ray/ | POD-DEC-225 |
 | POD-REL-2026102006 · Bhima Bhoi prayer, memory and community reading | published | https://projectodisha.org/people/bhima-bhoi/ | POD-DEC-225 |
 | POD-REL-2026102007 · Gopinath Mohanty labour, language and landscape reading | published | https://projectodisha.org/people/gopinath-mohanty/ | POD-DEC-225 |
+| POD-REL-2026102008 · Gangadhar Meher Sita, landscape and translation reading | published | https://projectodisha.org/people/gangadhar-meher/ | POD-DEC-225 |
 
 ## Sources and assets
 
@@ -1190,7 +1192,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261019111 | 2026-10-19T08:22:32.787863+00:00 | Published and live-verified POD-EDIT-040 Cuttack stay guide via PR346 and approved deployment39221663721. Three evidence-bounded comparisons, Founder byline, visible source and portable illustration checked;33 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261019112 | 2026-10-19T17:35:39.880293+00:00 | Published and live-verified POD-EDIT-041 Languages hub via PR348 and approved deployment39294900998. Three sourced distinctions, Founder byline, visible notes and all ten profiles retained;34 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261019113 | 2026-10-19T18:03:43.965883+00:00 | Published and live-verified POD-EDIT-042 Odia via PR350 and approved deployment39298740324. Manuscript, Rebati and learner-resource examples, Founder byline and four visible sources;35 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261020001 | 2026-10-20T02:14:40.287780+00:00 | Published and live-verified POD-EDIT-043 Literature via PR352 and approved deployment39357400580. Selected literary passages, edition-specific translation credits and three visible sources;36 editorial entries complete, substantive programme112 unchanged. | — |
@@ -1200,6 +1201,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261020005 | 2026-10-20T06:29:20.562550+00:00 | Published and live-verified POD-EDIT-047 Pratibha Ray via PR361 and approved deployment39380219316. Draupadi’s questions, adaptation and edition limits with five visible notes and complete portable reading;40 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261020006 | 2026-10-20T07:30:36.661279+00:00 | Published and live-verified POD-EDIT-048 Bhima Bhoi via PR363 and approved deployment39386258483. Selected prayer, remembered life and historical reception with four visible notes and complete portable reading;41 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261020007 | 2026-10-20T08:34:59.004314+00:00 | Published and live-verified POD-EDIT-049 Gopinath Mohanty via PR365 and approved deployment39393804096. Selected Paraja passages, translation and edition distinctions with six visible notes and complete portable reading;42 editorial entries complete, substantive programme112 unchanged. | — |
+| POD-EVT-20261020008 | 2026-10-20T09:36:40.309427+00:00 | Published and live-verified POD-EDIT-050 Gangadhar Meher via PR367 and approved deployment39401244003. Selected Tapaswini passages, devotion tension and edition distinctions with five visible notes and complete portable reading;43 editorial entries complete, substantive programme112 unchanged. | — |
 
 ## Deferred extensions
 

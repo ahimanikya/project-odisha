@@ -8647,7 +8647,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "POD-DEC-2026101702",
-      "next_action": "Continue next eligible queued article after verifying receipt integration and reconciling team ownership;42 editorial entries complete.",
+      "next_action": "Continue next eligible queued article after verifying receipt integration and reconciling team ownership;43 editorial entries complete.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026101702",
@@ -8720,7 +8720,9 @@
         "POD-REV-2026102006",
         "POD-REL-2026102006",
         "POD-REV-2026102007",
-        "POD-REL-2026102007"
+        "POD-REL-2026102007",
+        "POD-REV-2026102008",
+        "POD-REL-2026102008"
       ],
       "evidence": [
         "reference/article-editorial-standard.md",
@@ -8762,7 +8764,8 @@
         "records/odia-editorial-publication-2026-10-19.json",
         "records/literature-editorial-publication-2026-10-20.json",
         "records/bhima-editorial-publication-2026-10-20.json",
-        "records/gopinath-editorial-publication-2026-10-20.json"
+        "records/gopinath-editorial-publication-2026-10-20.json",
+        "records/gangadhar-editorial-publication-2026-10-20.json"
       ],
       "acceptance_criteria": [
         "Every published baseline route classified; each article independently reviewed against approved standard with PR/test/deploy/live receipt; exclusions justified; future articles follow same rule."
@@ -21209,6 +21212,34 @@
         "Literary characters and teaching-source generalizations are not treated as contemporary community testimony; edition records remain distinct.",
         "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
       ]
+    },
+    {
+      "id": "POD-REV-2026102008",
+      "title": "Separate Gangadhar Meher article and source review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent /root/drishti"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human or language-specialist review.",
+      "reviewed_head": "b8e17f802dd5b9e98c1046822c113d5557b5aac1",
+      "refs": [
+        "POD-WORK-302",
+        "POD-DEC-2026101901",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/gangadhar-editorial-team-2026-10-20.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human or language specialist review.",
+        "No full poem or original Odia collation.",
+        "District checked from saved capture after web retrieval failed.",
+        "Responsive/browser interactions are coordinator-performed, not independently repeated.",
+        "Selected English passages and translator criticism; no full-poem, original-Odia or human review.",
+        "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
+      ]
     }
   ],
   "releases": [
@@ -24346,6 +24377,23 @@
         "records/gopinath-editorial-team-2026-10-20.json"
       ],
       "note": "Reviewed PR365 passed checks and merged; approved deployment and live notes, retained contextual manuscript image hash and responsive reading verified. Zero substantive programme credit."
+    },
+    {
+      "id": "POD-REL-2026102008",
+      "title": "Gangadhar Meher Sita, landscape and translation reading",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/people/gangadhar-meher/",
+      "refs": [
+        "POD-WORK-302",
+        "POD-REV-2026102008",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/gangadhar-editorial-publication-2026-10-20.json",
+        "records/gangadhar-editorial-team-2026-10-20.json"
+      ],
+      "note": "Reviewed PR367 passed checks and merged; approved deployment and live notes, honest typographic panel and responsive reading verified. Zero substantive programme credit."
     }
   ],
   "sources": [
