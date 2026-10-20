@@ -1,5 +1,5 @@
 {
-  "status": "validated_candidate",
+  "status": "published_verified",
   "authorization": "Direct Founder requests: alternate Dalma/Tomato Poda and better Poda Pitha pictures",
   "scope": "Three-photo media refresh with necessary caption/prose alignment; not an article-rollout completion",
   "base": "09ee64ec91f5e3959d2e9e225d48fa62edc463a2",
@@ -25,7 +25,7 @@
       "name": "Disha",
       "runtime": "/root",
       "scope": "Assets,canonicaldata,prosealignment,release",
-      "status": "in_progress"
+      "status": "complete"
     },
     {
       "name": "Drishti",
@@ -275,5 +275,78 @@
       "framing": "Tomato and Poda covers show complete photographs using contain. Dalma inspected; images loaded.",
       "limits": "Browser emulation;no physical-device or screen-reader review."
     }
-  }
+  },
+  "publication": {
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/386",
+    "reviewed_head": "0199d5aa7c4740dc9365da1db5c5d7e44475c209",
+    "required_ci": {
+      "run": 39461586004,
+      "conclusion": "success"
+    },
+    "deployment": {
+      "conclusion": "success",
+      "headSha": "79de8a6284f029ea76f6193a934a4aa863a271be",
+      "status": "completed",
+      "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39462216990",
+      "run": 39462216990
+    },
+    "verified_routes": [
+      "/food/",
+      "/food/dalma/",
+      "/food/tomato-poda/",
+      "/food/poda-pitha/"
+    ],
+    "live_checks": {
+      "checked_at": "2026-10-20T17:02:36.842018+00:00",
+      "pages": {
+        "dalma": {
+          "http": 200,
+          "new_photo": true,
+          "creator": true,
+          "licence": true,
+          "caption": true,
+          "image_http": 200,
+          "image_sha256_matches": true
+        },
+        "tomato-poda": {
+          "http": 200,
+          "new_photo": true,
+          "creator": true,
+          "licence": true,
+          "caption": true,
+          "image_http": 200,
+          "image_sha256_matches": true
+        },
+        "poda-pitha": {
+          "http": 200,
+          "new_photo": true,
+          "creator": true,
+          "licence": true,
+          "caption": true,
+          "image_http": 200,
+          "image_sha256_matches": true
+        }
+      },
+      "hub_new_photos": true,
+      "published_revision": "79de8a6284f029ea76f6193a934a4aa863a271be",
+      "revision_evidence": "Successful workflow39462216990 plus live new photo bytes; no separate HTML revision stamp claimed."
+    },
+    "browser": "Published Poda Pitha cover loaded with contain framing; screenshot saved locally.",
+    "receipt_only": "No public content change or additional deployment required for receipt metadata.",
+    "recorded_at": "2026-10-20T17:03:21.793184+00:00"
+  },
+  "changed_files": [
+    "kb/records/editorial-workbench.json",
+    "kb/records/food-alternate-images-2026-10-20.json",
+    "kb/research/food/collection.json",
+    "kb/research/log.md",
+    "kb/research/manifest-sha256.json",
+    "projects/site/editions/responsive-images.json",
+    "projects/site/public/images/food/dalma-habisha-alternate.webp",
+    "projects/site/public/images/food/poda-pitha-alternate.webp",
+    "projects/site/public/images/food/tomato-poda-meal-alternate.webp",
+    "projects/site/src/data/book-photos.ts",
+    "projects/site/src/data/discovery.ts",
+    "projects/site/tests-coast/food-alternate-images.test.mjs"
+  ]
 }
