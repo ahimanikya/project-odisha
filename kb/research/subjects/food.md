@@ -149,3 +149,8 @@ Manabasa distinguishes ritual arrangement, a separate Sudasa manda passage and t
 ## 11 October 2026 · Sudasa food text
 
 [Sudasa Brata](../culture/osha/sudasa-brata.md) distinguishes textual rice/filling instructions from verified recipes and offering distribution.
+
+
+## 20 October 2026 · Place-linked sweets
+
+[Sweets and the places they carry](../food/sweets-and-places.md) connects eight sweet identities with named local reputations, production areas and ritual contexts. These relationships do not establish invention, current serving venues, statewide sales or exports.

@@ -837,3 +837,8 @@ POD-EDIT-054 reuses the place, UNESCO biosphere, reserve guidelines, mahua profi
 ## Balasore overnight-base editorial reuse · 20 October 2026
 
 POD-EDIT-056 reuses the northern stay, Balasore regional and Chandipur place records, current tourism arrival source and sedimentology study. Two hypothetical planning scenarios and the existing area comparison explain choices without adding a hotel or provider endorsement. No new source or place entity. Mapping: `research/destinations/balasore-stay-editorial.json`. No substantive programme credit.
+
+
+## 20 October 2026 · Place-linked sweets collection
+
+Reuse [sweets and places](../food/sweets-and-places.md) and its structured companion before researching local sweet identities. This eight-entry selection combines existing profiles with freshly inspected institutional Khaja/Puri and Palua Ladu/Bhadrak associations. It is not a complete district inventory or a current venue list.
