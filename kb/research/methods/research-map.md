@@ -813,3 +813,7 @@ POD-EDIT-048 reuses existing Mahima Dharma, Stuti Chintamani, Akademi, Beltz and
 ### Gopinath Mohanty editorial reuse · 20 October 2026
 
 POD-EDIT-049 reuses the existing person, Paraja work, memorial and Oxford records before adding two bounded IGNOU teaching sources for selected literary passages. Rope accounting, a translated encounter and a landscape image deepen the existing introduction. Source-mediated excerpts are not a full-novel or independent Odia reading, and fiction is not current community testimony. No duplicate person/work. Mapping: `research/voices/gopinath-editorial.json`.
+
+### Gangadhar Meher editorial reuse · 20 October 2026
+
+POD-EDIT-050 deepens the existing voices introduction after searching the KB. New bounded sources cover selected English Canto IV images, the translator’s criticism and publication account, and a separate publisher’s anthology metadata. The existing district source is reused. No full-poem reading, original Odia collation or human review is claimed. Claim mapping: `research/voices/gangadhar-editorial.json`; person record: `research/people/gangadhar-meher.md`.

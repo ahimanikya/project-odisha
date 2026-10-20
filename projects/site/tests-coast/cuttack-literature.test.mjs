@@ -4,7 +4,7 @@ import {readFileSync,existsSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {createStarterTrip} from '../src/lib/journey-starters.mjs';
 import {emptyLibrary,addItem} from '../src/lib/journey.mjs';
-import {buildTourBook} from '../src/lib/tour-book.mjs';
+import {buildTourBook,escapeHTML} from '../src/lib/tour-book.mjs';
 const read=route=>readFileSync(`dist-coast${route}index.html`,'utf8');
 const data=JSON.parse(read('/').match(/id="journey-data"[^>]*>([\s\S]*?)<\/script>/)[1]);
 test('Cuttack starter preserves the previous plan and exports useful visit details',()=>{
@@ -20,7 +20,12 @@ test('Cuttack starter preserves the previous plan and exports useful visit detai
 });
 test('reading starter and every literary idea retain reading prompts and source links offline',()=>{
  const starter=data.starters.find(s=>s.id==='odia-reading'),next=createStarterTrip(emptyLibrary(),'reading-review',starter,data.catalog.map(i=>i.id));
- const book=buildTourBook(next.trips[1].plan,data.catalog);assert.ok(book.includes('Keep an edition note'));assert.ok(book.includes('Gangadhar Meher'));assert.ok(book.includes('sahitya-akademi.gov.in'));
+ const gangadhar=JSON.parse(readFileSync('../../kb/research/voices/collection.json','utf8')).pages.find(p=>p.path==='people/gangadhar-meher');
+ const saved=next.trips[1].plan.items.find(i=>i.id==='reading:people/gangadhar-meher');assert.ok(saved);saved.notes='Compare my canto and edition.';
+ const book=buildTourBook(next.trips[1].plan,data.catalog);
+ for(const section of gangadhar.sections)for(const paragraph of section.paragraphs)assert.ok(book.includes(`<p>${escapeHTML(paragraph.text)}</p>`),section.id);
+ assert.ok(book.includes('Keep the translation in view'));assert.ok(book.includes('Harekrishna Meher'));assert.ok(book.includes('Madhusudan Pati'));
+ assert.ok(book.includes('Compare my canto and edition.'));assert.ok(book.includes('Gangadhar Meher'));assert.ok(book.includes('sahitya-akademi.gov.in'));
  const reading=data.catalog.filter(i=>i.kind==='Reading');assert.equal(reading.length,29);assert.ok(reading.some(i=>i.id==='reading:stories/maritime-memory'));
  for(const idea of reading){assert.ok(idea.practical.length>=2,idea.id);assert.ok(idea.sources.length);}
 });

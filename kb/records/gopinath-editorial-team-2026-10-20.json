@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T08:11:52.552814+00:00",
   "article_id": "POD-EDIT-049",
   "route": "/people/gopinath-mohanty/",
-  "status": "published_receipt_pending_integration",
+  "status": "receipt_integrated",
   "input_head": "a4207c5fd85599601ab05c5dde9da059d9b8d4fb",
   "authorization": "POD-DEC-225",
   "classification": "Founder-directed literary introduction; author, translators and contextual-image credits preserved.",
@@ -67,7 +67,7 @@
       "name": "Disha",
       "runtime": "/root",
       "scope": "Collection narrative, person/work/source KB, shared records, Git and publication",
-      "status": "receipt_pending_integration",
+      "status": "complete",
       "findings": "Prose, KB, tests, responsive checks, reviewed PR365 merge and approved live publication completed; retain claim through receipt merge."
     }
   ],
@@ -158,5 +158,13 @@
     ]
   },
   "publication_receipt": "records/gopinath-editorial-publication-2026-10-20.json",
-  "ownership": "Disha retains claim until receipt PR is actually merged; release only after observed integration."
+  "ownership": "Released after observed receipt PR366 merge.",
+  "receipt_integration": {
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/366",
+    "merge_commit": "985178fdf2969aedf729024a5958ab5c1a8561c8",
+    "merged_at": "2026-10-20T08:40:52Z",
+    "reviewed_head": "fa7f31e3729561f81c160872b6cbae9acf65d7bc",
+    "ci": "https://github.com/ahimanikya/project-odisha/actions/runs/39394554809",
+    "review": "Drishti separately reviewed receipt; PASS, no blockers."
+  }
 }
