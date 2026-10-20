@@ -30,3 +30,7 @@ This record is a bibliographic reference, not a saved copy of the external page.
 The actual UNESCO profile was inspected again: “General information” describes waterfalls and perennial streams feeding the Budhabalang, Baitarani and Subarnarekha; “Ecological Characteristics” identifies sal, orchids, cotton tree and mahua. The article uses these qualitative details, not the profile’s uncertain area units, superlatives, species totals or broad community generalisations. This is a programme profile, not field observation or a current visitor notice.
 
 The destination source map uses `similipal-biosphere` for this same UNESCO reference because its older `similipal` key denotes the separate reserve visitor guide. The existing source record and historical IDs remain intact; this is a scoped disambiguation, not a second source or independent corroboration.
+
+## Individual article inspection · 20 October 2026
+
+Fresh actual UNESCO page read: General information paragraph2 supports named river connections; Ecological Characteristics paragraphs1–2 support selected plants and broad animal groups. Public article uses no numerical population/area/species totals, superlatives or generalised community claims. Selected factual prose remains under200words including public note/title; source remains the same programme profile.

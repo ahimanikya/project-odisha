@@ -829,3 +829,7 @@ Reused regions/northern-details/mayurbhanj-trail, Similipal, Chhau, Santali and 
 ## Chandipur visitor article reuse · 20 October 2026
 
 POD-EDIT-053 reuses the Chandipur place, current tourism successor, sedimentology2023 and northern-detail records. Adds bounded reading of the existing paper’s printed p9 for surface observations; no duplicate source or place. Historical photographs remain intact and are not species or access evidence. The regional Balasore article remains unchanged. No fieldwork or substantive-programme credit.
+
+## Similipal individual article reuse · 20 October 2026
+
+POD-EDIT-054 reuses the place, UNESCO biosphere, reserve guidelines, mahua profile and2016 Santhal fieldwork source before fresh bounded checks. Adds local historical collection/preparation detail to connect trees with work; keeps2009 fieldwork distinct from2016 publication and current tourism. No duplicate subject/source, field confirmation or programme credit. Mapping: `research/destinations/similipal-editorial.json`.

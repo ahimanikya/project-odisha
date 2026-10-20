@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 395. completed: 46, excluded: 10, queued: 339.
+Route inventory: 395. completed: 46, excluded: 10, in_progress: 1, queued: 338.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -67,7 +67,7 @@ Route inventory: 395. completed: 46, excluded: 10, queued: 339.
 | POD-EDIT-051 | [Balasore: places, food &amp; living culture](https://projectodisha.org/destinations/balasore/) | completed | Individual regional narrative research and editorial revision |
 | POD-EDIT-052 | [Mayurbhanj: places, food &amp; living culture](https://projectodisha.org/destinations/mayurbhanj/) | completed | Individual regional narrative research and editorial revision |
 | POD-EDIT-053 | [Chandipur](https://projectodisha.org/visit/places/chandipur/) | completed | Individual tidal-flat explanation and visitor article revision |
-| POD-EDIT-054 | [Similipal](https://projectodisha.org/visit/places/similipal/) | queued | classification_pending |
+| POD-EDIT-054 | [Similipal](https://projectodisha.org/visit/places/similipal/) | in_progress | Individual forest ecology, observation and visitor planning article revision |
 | POD-EDIT-055 | [Mayurbhanj Chhau](https://projectodisha.org/visit/experiences/mayurbhanj-chhau/) | queued | classification_pending |
 | POD-EDIT-056 | [Stay around Balasore &amp; Chandipur](https://projectodisha.org/visit/stays/balasore-coast/) | queued | classification_pending |
 | POD-EDIT-057 | [Stay around Similipal](https://projectodisha.org/visit/stays/similipal-gateways/) | queued | classification_pending |

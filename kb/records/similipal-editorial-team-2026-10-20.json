@@ -1,0 +1,144 @@
+{
+  "recorded_at": "2026-10-20T13:15:15.005838+00:00",
+  "article_id": "POD-EDIT-054",
+  "route": "/visit/places/similipal/",
+  "status": "integrated_review",
+  "input_head": "04dace3e8abae34aff0b58c2ee3b683f10f696f0",
+  "authorization": [
+    "POD-DEC-2026101702",
+    "POD-DEC-225",
+    "POD-DEC-2026101901"
+  ],
+  "central_question": "How can a visitor read Similipal as a connected forest and watershed, and plan a permitted visit without reducing it to a tiger sighting?",
+  "acceptance": [
+    "Explain concrete ecological relationships using actual source material and original observation prompts.",
+    "Preserve contributor/image rights; inspect existing media; visible numbered footnotes and full portable reading.",
+    "Meaningful tests, desktop/mobile checks, separate AI review, passing PR checks, approved publication and live receipt before completion."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only bounded evidence/prose proposal",
+      "status": "complete",
+      "input_head": "04dace3e8abae34aff0b58c2ee3b683f10f696f0",
+      "findings": "Replaces a stale closure-led checklist with forest/watershed observation, named plant groups and a dated Chandbill mahua example connecting collection, storage and food preparation. Current rules distinguished from original guidance.",
+      "tests": "ExistingKBsearched; actual UNESCO, guidelines and selected PDFpp94–98 inspected; three stable sources, five mapped passages, sourcewordbudgetsbelow200.",
+      "limits": [
+        "No field trip, current opening confirmation, community interviews, rendered scientific figures or human review."
+      ]
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/pages/visit/[kind]/[slug].astro",
+        "projects/site/src/data/destination-details.ts",
+        "projects/site/src/data/journey-catalog.ts",
+        "kb/research/destinations/similipal-editorial.json",
+        "projects/site/tests-coast/similipal-editorial.test.mjs"
+      ],
+      "status": "complete",
+      "input_head": "04dace3e8abae34aff0b58c2ee3b683f10f696f0",
+      "findings": "Exact Similipal opt-in, full11paragraph portable reading,3visible notes5references including additionalparagraph. Barehipani retained fullframe, updates/privacy and collapsed onwardlinks; adjacentstay remainsuntouched.",
+      "tests": "Staticmapping/sourcebudgets/photo hash1/1,syntax/diff passed; no builds performed by worker.",
+      "limits": [
+        "No field or human review, current opening confirmation or device testing."
+      ]
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Separate integrated candidate review",
+      "status": "assigned"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": "Canonical narrative, KB/shared records, media audit and publication",
+      "status": "in_progress",
+      "additional_files": [
+        "kb/research/destinations/regions.json",
+        "projects/site/tests-coast/launch-readiness.test.mjs"
+      ]
+    }
+  ],
+  "concurrency": "Existing team completed Chandipur; receipt PR374 observed merged at04dace3e. Only local delta is its actual integration handoff. Other PR304 statistics and PR281 Ashoka scopes untouched.",
+  "substantive_items_added": 0,
+  "human_review_claimed": false,
+  "image_audit": {
+    "decision": "Retain existing documentary photograph and all creator/licence/date metadata; no generated replacement.",
+    "images": {
+      "/images/regions/barehipani.jpg": {
+        "sha256": "48936cd341129e6dc21082f88a938d566b133cfc12e7f4bf427d2ecf0823d026",
+        "creator": "Wiki GSD",
+        "source": "https://commons.wikimedia.org/wiki/File:Similipal_(2).jpg",
+        "photographed_on": "2013-12-29",
+        "license": "CC BY-SA 4.0",
+        "visual_review": "Actual local960x720 photograph inspected: coherent watercourse, stepped rock face and wooded slopes. Full frame preserves landscape context. No species identification, present flow or access inference.",
+        "rights_review": "Commons actual file page checked20October2026: ownwork WikiGSD,29December2013,CCBY-SA4.0,960x720 original."
+      }
+    }
+  },
+  "research_gain": "Replaces a stale closure-led checklist with forest/watershed observation, named plant groups and a dated Chandbill mahua example connecting collection, storage and food preparation. Current rules distinguished from original guidance.",
+  "local_validation": {
+    "initial_failures": [
+      {
+        "test": "Full tour-book evidence registry",
+        "resolution": "Added existing forest-mahua-santhal2016 identity to destination source map, with same source URL; no duplicate research source."
+      },
+      {
+        "test": "Coastal launch-readiness separate planning block assertion",
+        "resolution": "Revised exact Similipal expectation to verify integrated practical passages, visible footnotes and additional-paragraph reference; other route expectations unchanged."
+      }
+    ],
+    "responsive": {
+      "viewports": [
+        [
+          1440,
+          1000
+        ],
+        [
+          390,
+          844
+        ]
+      ],
+      "reading_widths": [
+        740,
+        343.1953125
+      ],
+      "horizontal_overflow": false,
+      "visible_notes": 3,
+      "exact_refs": 5,
+      "keyboard_return": "ref-detail-4-p-0-similipal-guidelines",
+      "further_reading_keyboard_toggle": true,
+      "visuals": "Desktop/mobilecover and mobilehistoricalmahua paragraphs visually inspected; completewaterfallframe and readable paragraph spacing.",
+      "limits": "Browseremulation, not physicaldevice or screenreader test."
+    },
+    "full_tests": {
+      "passed": 566,
+      "failed": 0
+    },
+    "coast_tests": {
+      "passed": 315,
+      "failed": 0
+    },
+    "publication_build": "PASS;11 approvedindexable routes unchanged",
+    "route_inventory": {
+      "directory_indexes": 394,
+      "with_404": 395,
+      "unregistered": []
+    },
+    "canonical_checks": [
+      "programme112",
+      "team",
+      "bundle1734concepts7289links",
+      "catalogue1734",
+      "researchmap1764records71tasks",
+      "registers1085records622events",
+      "rollout46completed1inprogress338queued10excluded",
+      "workbench",
+      "diff"
+    ]
+  }
+}

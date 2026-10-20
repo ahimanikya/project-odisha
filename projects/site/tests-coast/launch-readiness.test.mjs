@@ -59,6 +59,16 @@ test('practical notes stay in one planning section before onward links and credi
    assert.match(html,/<section id="story-sources"/);
    continue;
   }
+  if(route==='/visit/places/similipal/'){
+   assert.equal(matches.length,0);
+   const start=html.indexOf('id="detail-section-4"'),end=html.indexOf('id="connect-visit"');
+   assert.ok(start>0&&end>start);
+   const practical=html.slice(start,end);
+   for(const phrase of ['latest opening notice','entry gate','vehicle step','rough roads','drinking water','carry waste out'])assert.ok(practical.includes(phrase),phrase);
+   assert.match(html,/<section id="story-sources"/);
+   assert.ok(practical.includes('ref-detail-4-p-0-similipal-guidelines'));
+   continue;
+  }
   assert.equal(matches.length,expected.includes(route)?1:0,route);
   if(!expected.includes(route))continue;
   const position=matches[0].index;
