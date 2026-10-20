@@ -59,3 +59,8 @@ Foods, ingredients and culinary story opportunities.
 ## 2026-10-10 · Ghanta and shared food
 
 [Ghanta tarkari](ghanta-tarkari.md): preparation context and offering-to-meal roles.
+
+
+## 20 October 2026 · Place-linked sweets
+
+[Sweets and the places they carry](sweets-and-places.md) connects eight sweet identities with named local reputations, production areas and ritual contexts. These relationships do not establish invention, current serving venues, statewide sales or exports.

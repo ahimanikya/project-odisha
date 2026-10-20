@@ -1,0 +1,74 @@
+{
+  "recorded_at": "2026-10-20T16:17:19.119150+00:00",
+  "article_id": "POD-EDIT-396",
+  "route": "/food/sweets-and-places/",
+  "status": "candidate_review",
+  "input_head": "8c0665003f8ca3f847998df6981222c2ef4bbc56",
+  "authorization": [
+    "Direct Founder request: document sweets associated with places",
+    "POD-DEC-2026101901"
+  ],
+  "acceptance": [
+    "Eight evidenced sweet identities and nine named place associations, without invented origin/current venue/GI validity claims.",
+    "Founder byline, visible sources and image credits, collapsed Further reading, visible update link.",
+    "Separate AI quality review, responsive checks, normal CI and verified publication before completion."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha_pala_revision",
+      "status": "complete",
+      "scope": [
+        "kb/research/food/sweets-and-places.json",
+        "kb/research/food/sweets-and-places.md"
+      ]
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta_pala_revision",
+      "status": "complete",
+      "scope": [
+        "projects/site/src/pages/food/sweets-and-places.astro",
+        "projects/site/tests-coast/sweets-and-places.test.mjs"
+      ]
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "status": "in_progress",
+      "scope": "Shared integration, registers, edition/discovery, catalog/map/classification, tests and release; exclusive Git/publisher"
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti_pala_reader_review",
+      "status": "pending",
+      "scope": "Read-only separate integrated candidate review"
+    }
+  ],
+  "programme_credit": 0,
+  "prior_claim_release": "Balasore receipt integrated in observed main before8c066500; no active article/open overlapping PR observed.",
+  "validation": {
+    "full_build": "409 pages; pass",
+    "full_tests": 566,
+    "responsive": {
+      "desktop": [
+        1280,
+        900
+      ],
+      "mobile": [
+        390,
+        844
+      ],
+      "horizontal_overflow": false,
+      "images": "Both real photographs loaded after scrolling; lazy loading retained.",
+      "further_reading": "Closed by default; opened using Enter.",
+      "limits": "Browser emulation, not physical device or screen-reader review."
+    },
+    "coast_tests": "running after correcting discovery count and update selector integration"
+  },
+  "evidence_limits": [
+    "Separate task-scoped AI research/implementation, no human/local review claimed.",
+    "Historical maker sources are dated and attributed; no current GI status, serving venues or storage duration asserted.",
+    "Sarsatia source preparation conflict remains a next-research lead; no invented recipe."
+  ]
+}
