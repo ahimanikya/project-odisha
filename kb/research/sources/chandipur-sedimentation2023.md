@@ -18,3 +18,7 @@ Actual PDF text inspected pp5–9, with central claims pp6–7; no rendering/fie
 ## Chandipur visitor article inspection · 20 October 2026
 
 Reopened actual PDF text, including printed p9, “Tidal Flat Facies”: surface ripples, intersecting biological trails, burrows and residual water film. This extends the prior p6–7 terrain explanation. The visitor article uses selected observations to frame looking questions, not to identify marks in the retained panorama, promise animal sightings or infer a safe walking route. Keep total derived prose plus public source note below200words.
+
+## Balasore overnight-base guide · 20 October 2026
+
+Reused for the bounded stay comparison after inspecting the actual source. [Passage mapping](../destinations/balasore-stay-editorial.json) preserves source scope and separates geographic evidence from hypothetical planning scenarios. No accommodation, current price, timetable, transport availability or property access verified.

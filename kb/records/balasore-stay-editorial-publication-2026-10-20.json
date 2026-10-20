@@ -1,0 +1,175 @@
+{
+  "recorded_at": "2026-10-20T15:39:16.509626+00:00",
+  "authorization": [
+    "POD-DEC-2026101702",
+    "POD-DEC-225",
+    "POD-DEC-2026101901"
+  ],
+  "work_id": "POD-WORK-302",
+  "queue_item": "POD-EDIT-056",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/379",
+  "reviewed_head": "2d45af4400081f38d67aa409be1ece7ef1167877",
+  "merge_commit": "64d0bd75ca227126418da31c02f4f5005adb1bc7",
+  "validation": {
+    "conclusion": "success",
+    "databaseId": 39448861402,
+    "headSha": "2d45af4400081f38d67aa409be1ece7ef1167877",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39448861402"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "databaseId": 39449584921,
+    "headSha": "64d0bd75ca227126418da31c02f4f5005adb1bc7",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39449584921"
+  },
+  "live_checks": {
+    "checked_at": "2026-10-20T15:38:24.115198+00:00",
+    "url": "https://projectodisha.org/visit/stays/balasore-coast/",
+    "http_status": 200,
+    "html_sha256": "61430c5df4e8380e150651e50e3b4c9904ef55eb64a8b9dd05457c72a4199145",
+    "visible_notes": 2,
+    "references": 2,
+    "exact_returns": 2,
+    "checks": {
+      "byline": true,
+      "specific_reading": true,
+      "evidence_limits": true,
+      "noindex": true,
+      "returns": true,
+      "image_credits": true,
+      "save_identity": true,
+      "no_production_boilerplate": true
+    },
+    "images": {
+      "/images/regions/chandipur-sunset.jpg": {
+        "http_status": 200,
+        "sha256": "cd0d20634950b20af1301665a667e5baff2a670344b1c8d399f99f9302eea2e1"
+      }
+    },
+    "unchanged_sitemap_count": 11,
+    "route_inventory": {
+      "directory_indexes": 394,
+      "separate_error_page": "/404.html",
+      "unregistered_routes": [],
+      "total_registered_routes": 395
+    },
+    "browser": {
+      "viewports": [
+        [
+          1440,
+          1000
+        ],
+        [
+          390,
+          844
+        ]
+      ],
+      "reading_widths": [
+        740,
+        343.1953125
+      ],
+      "horizontal_overflow": false,
+      "visible_notes": true,
+      "exact_keyboard_returns": [
+        "ref-detail-0-chandipur-current"
+      ],
+      "further_reading_keyboard_toggle": true,
+      "screenshots": [
+        "records/evidence/balasore-stay-editorial-2026-10-20/live-desktop.png",
+        "records/evidence/balasore-stay-editorial-2026-10-20/live-mobile.png"
+      ],
+      "limits": [
+        "Browser emulation, not physical-device or screen-reader testing."
+      ]
+    }
+  },
+  "test_review_and_source_mapping": "records/balasore-stay-editorial-team-2026-10-20.json",
+  "final_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_candidate_review",
+    "head": "2d45af4400081f38d67aa409be1ece7ef1167877",
+    "base": "354e50a11bde9680ac601e77cc88a764a9d2110b",
+    "article": "POD-EDIT-056",
+    "route": "/visit/stays/balasore-coast/",
+    "result": "pass_with_limitations",
+    "blocking_findings": [],
+    "checks": {
+      "focused_tests": {
+        "passed": 29,
+        "failed": 0,
+        "runtime": "Node 24.15.0",
+        "files": [
+          "tests-coast/balasore-stay-editorial.test.mjs",
+          "tests-coast/barabati-editorial.test.mjs",
+          "tests-coast/chandipur-editorial.test.mjs",
+          "tests-coast/cuttack-stay-editorial.test.mjs",
+          "tests-coast/dhauli-editorial.test.mjs",
+          "tests-coast/netaji-museum-editorial.test.mjs",
+          "tests-coast/tarakasi-editorial.test.mjs",
+          "tests/barabati-reading-book.test.mjs",
+          "tests/bhubaneswar-stay-editorial.test.mjs",
+          "tests/mukteswar-editorial.test.mjs"
+        ]
+      },
+      "validators_passed": [
+        "article_rollout --check",
+        "check_team_assignments",
+        "check_autonomous_program",
+        "registers --check",
+        "editorial/build_workbench --check",
+        "catalog --check",
+        "research/validate_research_map",
+        "git diff --check"
+      ],
+      "scope": "26 changed files. Northern detail data changes only stays/balasore-coast. Template, source adapter, saved author and paragraph handling use exact kind/slug opt-in. Nine negative-control updates switch the comparison route to unchanged Similipal stays without removing assertions.",
+      "narrative": "Five sections, nine paragraphs and two comparison options preserved in portable HTML and text. Two visible fact notes and exact return links; planning scenarios and booking questions remain original guidance, not inspected-property claims.",
+      "sources": [
+        "Independently inspected Odisha Tourism Chandipur How to Reach: Baleshwar rail arrival and road access. No marketing access, season, transfer reliability or hotel endorsement imported.",
+        "Independently inspected Saha and colleagues PDF printed pp. 6–7 Study Area: broad gently dipping tidal flat with narrower landward beach. Waterline explanation is identified as geometric inference; no forecast, current access or safety assurance.",
+        "Independently inspected Commons source page: Nihar.race, 26 February 2012, own work, CC BY-SA 4.0. Local image visually inspected; landscape context accurately distinguished from accommodation."
+      ],
+      "image_sha256": "cd0d20634950b20af1301665a667e5baff2a670344b1c8d399f99f9302eea2e1",
+      "image_byte_unchanged": true,
+      "programme_byte_unchanged": true,
+      "substantive_completed": 112,
+      "rollout_counts": {
+        "completed": 48,
+        "in_progress": 1,
+        "queued": 336,
+        "excluded": 10
+      },
+      "ownership": "Disha holds POD-EDIT-056 in candidate_review through actual publication receipt integration; no premature completion.",
+      "prior_chhau": "Only handoff integration record updated. Saved separate receipt review exactly transcribed. Independent gh query confirms PR378 MERGED at 2026-10-20T14:52:33Z, reviewed d334b9eca426d95974e5732f38b8ee39fa1eeae0, merge 354e50a11bde9680ac601e77cc88a764a9d2110b.",
+      "search": "No eligibility-policy changes; focused rendered noindex control passes."
+    },
+    "limits": [
+      "Separate AI review, not human, hospitality specialist or field approval.",
+      "No properties, rooms, vendors, transfers, timetable, fare, current tide or local access independently confirmed.",
+      "Full 566-test and coast 323-test suites, publication build and responsive/keyboard/disclosure measurements were coordinator-performed; not independently repeated.",
+      "Independent checks used current built output and code/data inspection; no new build or interactive browser session performed.",
+      "Candidate approval does not certify merge, required CI, live publication or completion; those gates remain pending."
+    ]
+  },
+  "integration_review": {
+    "head": "64d0bd75ca227126418da31c02f4f5005adb1bc7",
+    "result": "pass",
+    "scope": "Merge tree identical to separately reviewed candidate; no incoming changes."
+  },
+  "concurrent_work": "Open PR304 statistics and PR281 Ashoka untouched. No overlapping article claim.",
+  "attachment_note": "PR attachment attempted; app limit100 reached. URL retained here.",
+  "counting": "One editorial article; zero substantive500 increment. Programme remains112.",
+  "limitations": [
+    "Separate AI review, not human, hospitality specialist or field approval.",
+    "No properties, rooms, vendors, transfers, timetable, fare, current tide or local access independently confirmed.",
+    "Full 566-test and coast 323-test suites, publication build and responsive/keyboard/disclosure measurements were coordinator-performed; not independently repeated.",
+    "Independent checks used current built output and code/data inspection; no new build or interactive browser session performed.",
+    "Candidate review preceded release; merge, required CI and live publication were subsequently evidenced in this receipt. Receipt integration remains pending until observed merge.",
+    "No property inspection, provider confirmation, current rates, availability, timetable, fieldwork or human review. Scenarios are hypothetical planning comparisons.",
+    "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
+  ],
+  "verified_routes": [
+    "/visit/stays/balasore-coast/"
+  ]
+}
