@@ -23,5 +23,6 @@ test('Puri has visible passage notes with unique forward and return destinations
 test('Puri preserves its documentary photographs and leaves unreviewed cities outside the opt-in',()=>{
  for(const id of ['puri-beach','raghurajpur-artisan']){const p=data.assets[id];assert.equal(createHash('sha256').update(readFileSync('public'+p.src)).digest('hex'),p.sha256);for(const v of [p.src,p.creator,p.license_url])assert.ok(html.includes(v));}
  assert.match(html,/Her name is not supplied in the source/);
- for(const slug of ['balasore','mayurbhanj']){const other=readFileSync(`dist-coast/destinations/${slug}/index.html`,'utf8');assert.doesNotMatch(other,/class="article-byline"|id="story-sources"/);assert.match(other,/<details id="sources"/);}
+ const balasore=readFileSync('dist-coast/destinations/balasore/index.html','utf8');assert.match(balasore,/By Ahimanikya Satapathy/);assert.match(balasore,/<section id="story-sources"/);
+ for(const slug of ['mayurbhanj']){const other=readFileSync(`dist-coast/destinations/${slug}/index.html`,'utf8');assert.doesNotMatch(other,/class="article-byline"|id="story-sources"/);assert.match(other,/<details id="sources"/);}
 });

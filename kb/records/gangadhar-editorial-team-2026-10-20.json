@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T09:12:21.665416+00:00",
   "article_id": "POD-EDIT-050",
   "route": "/people/gangadhar-meher/",
-  "status": "published_receipt_pending_integration",
+  "status": "completed",
   "input_head": "985178fdf2969aedf729024a5958ab5c1a8561c8",
   "authorization": "POD-DEC-225",
   "central_question": "What changes when Gangadhar Meher retells a familiar epic through a particular character’s experience, and how do his images and narrative choices make that change felt?",
@@ -73,7 +73,7 @@
       "name": "Disha",
       "runtime": "/root",
       "scope": "Narrative and KB integration, shared records, Git and publication",
-      "status": "receipt_pending_integration",
+      "status": "complete",
       "findings": "Prose, KB, tests, responsive checks, reviewed PR367 merge and approved live publication completed; retain claim through receipt merge."
     }
   ],
@@ -124,5 +124,13 @@
     ]
   },
   "publication_receipt": "records/gangadhar-editorial-publication-2026-10-20.json",
-  "ownership": "Disha retains claim until receipt PR is actually merged; release only after observed integration."
+  "ownership": "Released after observed receipt merge.",
+  "receipt_integration": {
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/368",
+    "head": "1ca533d155730003d6da3aa85278f9182a361b49",
+    "merge_commit": "c88a96988f0ef98430a2d455478b0a247e33b567",
+    "merged_at": "2026-10-20T09:41:48Z",
+    "validation": "https://github.com/ahimanikya/project-odisha/actions/runs/39402103842",
+    "separate_review": "Drishti passed actual receipt candidate; canonical evidence and screenshots checked."
+  }
 }

@@ -1,0 +1,113 @@
+{
+  "recorded_at": "2026-10-20T10:07:49.604548+00:00",
+  "article_id": "POD-EDIT-051",
+  "route": "/destinations/balasore/",
+  "status": "in_progress",
+  "input_head": "c88a96988f0ef98430a2d455478b0a247e33b567",
+  "authorization": "POD-DEC-225",
+  "central_question": "How do Chandipur’s changing shore and Balasore’s literary history help a reader understand the region beyond a list of stops?",
+  "acceptance": [
+    "Reuse existing region, trail, literary and source records before research.",
+    "Add concrete documented connections and clear physical explanation without invented visits, tide times or service claims.",
+    "Audit retained documentary images, preserve credits and exact claims; readable byline, visible notes and full portable narrative.",
+    "Separate AI review, tests, responsive checks, merged PR, approved publication and live receipt before completion."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only bounded source research and prose proposal",
+      "status": "complete",
+      "input_head": "c88a96988f0ef98430a2d455478b0a247e33b567",
+      "findings": "Actual selected2023 sedimentology PDF text pp5–9 with claims pp6–7, current tourism successor page, dated2019harbour account and Commons provenance inspected. Existing literary passages/press evidence reused with prior access limits. Proposed eight paragraphs; Disha integrated nine with practical guidance.",
+      "tests": "Source/proposal mapping and documentary image inspection; no code tests applicable.",
+      "limits": [
+        "No fieldwork,current tide forecast,operator inspection,original press records or human review.",
+        "Historical harbour account is attributed, not independent archival confirmation.",
+        "Current October–March guidance differs older November–March; older restaurant claims not adopted."
+      ],
+      "integrated_accuracy_review": "PASS on c88a9698 plus working tree: geology, attributed harbour history, literary examples and current official guidance match inspected sources; no factual blockers. Science163 and harbour154 words including cards and notes."
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/components/RegionMagazine.astro",
+        "projects/site/src/data/journey-catalog.ts",
+        "kb/research/destinations/balasore-editorial.json",
+        "projects/site/tests-coast/balasore-editorial.test.mjs",
+        "projects/site/tests-coast/puri-editorial.test.mjs",
+        "projects/site/tests/regions.test.mjs",
+        "projects/site/tests/cuttack-reading-book.test.mjs",
+        "projects/site/tests-coast/bhubaneswar-editorial.test.mjs"
+      ],
+      "status": "complete",
+      "scope_extension_reason": "Fresh full tests identified obsolete promotion assumptions; update Balasore expectations while keeping Mayurbhanj negative control.",
+      "input_head": "c88a96988f0ef98430a2d455478b0a247e33b567",
+      "findings": "Exact Balasore route opt-in; nine narrative paragraphs before planning and full portable reading, five visible notes/thirteen references, full-frame retained photographs, concise credits, collapsed further reading and public correction privacy notice. Updated obsolete promotion assertions only.",
+      "tests": "Static source and image mapping1/1; focused existing tests7/7; diff check passed.",
+      "limits": [
+        "Rendered responsive checks and full suites coordinated by Disha; no Git or publishing by worker."
+      ]
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Separate integrated candidate review",
+      "status": "pending"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": "Narrative/KB integration, shared records, Git/publishing",
+      "status": "in_progress"
+    }
+  ],
+  "concurrency": "All named workers completed previous scopes; receipt368 merged. Open PR304/281 unrelated and untouched.",
+  "substantive_items_added": 0,
+  "human_review_claimed": false,
+  "image_audit": {
+    "inspector": "Disha",
+    "finding": "Retained photographs visually inspected: coherent wet sand, sun reflection and treeline; commemorative bust, garlands and plinth. No invented people, tools or site claim. Sunset photograph is dated2012; bust image is contextual and not a mapped stop.",
+    "images": {
+      "/images/regions/chandipur-sunset.jpg": "cd0d20634950b20af1301665a667e5baff2a670344b1c8d399f99f9302eea2e1",
+      "/assets/language-literature/fakir-mohan.webp": "de64db9a31244c1bd557f61ccfab1dc63e289bf9b7b388acf155385fc5761f0b"
+    },
+    "rights": "Existing Nihar.race and Subhashish Panigrahi attribution,CCBY-SA4.0 and adaptation provenance retained."
+  },
+  "research_gain": "Replaces generic tidal spectacle with physical explanation of slope/sediment; distinguishes dated working-harbour observation from history; ties printing circulation and fictional household security to reading the region. Current tourism guidance checked.",
+  "local_validation": {
+    "full_tests": 566,
+    "coast_tests": 303,
+    "workbench_tests": 6,
+    "builds": [
+      "full",
+      "coast",
+      "publication"
+    ],
+    "browser": {
+      "viewports": [
+        [
+          1440,
+          1000
+        ],
+        [
+          390,
+          844
+        ]
+      ],
+      "reading_widths": [
+        740,
+        343.1953125
+      ],
+      "horizontal_overflow": false,
+      "notes": 5,
+      "references": 13,
+      "keyboard_return": "ref-stories-1-chandipur-sedimentation2023",
+      "further_reading_keyboard_toggle": true
+    },
+    "limits": [
+      "Browser emulation, not physical-device or screen-reader testing."
+    ]
+  }
+}

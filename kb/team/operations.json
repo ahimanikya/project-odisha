@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/gangadhar-editorial-team-2026-10-20.json",
+  "handoff_home": "records/balasore-editorial-team-2026-10-20.json",
   "roles": [
     {
       "name": "Disha",
@@ -55,16 +55,15 @@
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
   "current_article": {
-    "id": "POD-EDIT-050",
-    "route": "/people/gangadhar-meher/",
+    "id": "POD-EDIT-051",
+    "route": "/destinations/balasore/",
     "owner": "Disha",
     "coordinator_runtime": "/root",
-    "phase": "receipt_integrated",
-    "branch": "codex/gangadhar-editorial-receipt-20261020",
-    "input_head": "985178fdf2969aedf729024a5958ab5c1a8561c8",
-    "file_reservations": "records/gangadhar-editorial-team-2026-10-20.json#executions",
-    "integration_gate": "Retain ownership until this receipt PR is actually merged; phase becomes effective only with that integration. No next article claim before observed merge.",
-    "publication_receipt": "records/gangadhar-editorial-publication-2026-10-20.json"
+    "phase": "integrated_review",
+    "branch": "codex/balasore-editorial-20261020",
+    "input_head": "c88a96988f0ef98430a2d455478b0a247e33b567",
+    "file_reservations": "records/balasore-editorial-team-2026-10-20.json#executions",
+    "integration_gate": "Retain ownership through actual publication receipt merge."
   },
   "project_identity": "reference/project-identity.md"
 }

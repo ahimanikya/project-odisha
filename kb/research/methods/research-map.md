@@ -817,3 +817,7 @@ POD-EDIT-049 reuses the existing person, Paraja work, memorial and Oxford record
 ### Gangadhar Meher editorial reuse · 20 October 2026
 
 POD-EDIT-050 deepens the existing voices introduction after searching the KB. New bounded sources cover selected English Canto IV images, the translator’s criticism and publication account, and a separate publisher’s anthology metadata. The existing district source is reused. No full-poem reading, original Odia collation or human review is claimed. Claim mapping: `research/voices/gangadhar-editorial.json`; person record: `research/people/gangadhar-meher.md`.
+
+### Balasore editorial reuse · 20 October 2026
+
+POD-EDIT-051 reuses regions, northern detail/trail, Chandipur place and Fakir/Six Acres records. Added bounded sedimentology source and current tourism successor page; existing harbour source ID receives its own source record. Current access, operators and tide predictions remain unconfirmed. Mapping: `research/destinations/balasore-editorial.json`. No duplicate literary or place entity.
