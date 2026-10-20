@@ -187,5 +187,49 @@
   ],
   "verified_routes": [
     "/food/mudhi-mansa/"
-  ]
+  ],
+  "receipt_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_receipt_review",
+    "head": "8c7f1c57fae8702f137e56efe2e0a3e6152cd40e",
+    "base": "59ca88e03adc0300ccef2f0b9b683be755c6d45c",
+    "article": "POD-EDIT-059",
+    "result": "pass_with_limitations",
+    "blocking_findings": [],
+    "checks": {
+      "scope": "Ten files: receipt, handoff, rollout/worklist, registers/dashboard/event, operations and two screenshots. No website, source or image-asset edits.",
+      "remote_verification": "Independent read-only gh confirms PR392 MERGED2026-10-20T20:37:00Z, head a729ae8f62e836b22331c4969e46beddbab31bf7, merge59ca88e03adc0300ccef2f0b9b683be755c6d45c. CI39492899101success on reviewed head; deployment39493529777success on published merge.",
+      "tree_equality": "Reviewed candidate tree equals published merge tree.",
+      "review_transcription": "Receipt final_review equals /tmp/pod-mudhi-review.json exactly; team review equals receipt. Current handoff now qualifies source-derived allocation and explains overinclusive all-lead/all-synthesis count. Historical review limits remain historical.",
+      "live_artifact": "Every key in coordinator /tmp/pod-mudhi-live.json exactly matches canonical live_checks; canonical additionally records browser and route inventory. HTTP200,HTMLdab6c362f860c0e784935c5d97c138bb28cb9c7495246400b98715bee0c081a9,4notes8returns,retained photo7d96b934...,11sitemap are recorded coordinator observations, not independently repeated here.",
+      "validators_passed": [
+        "article_rollout --check",
+        "check_team_assignments",
+        "check_autonomous_program",
+        "registers --check",
+        "editorial/build_workbench --check",
+        "git diff --check59ca88e0..HEAD"
+      ],
+      "accounting": "Only059 rollout entry changes;53completed72excluded333queued458total. Programme byte-identical112. No substantive credit.",
+      "ownership": "Disha retained. Handoff published_receipt_pending_integration; operations receipt_integrated explicitly effective only after actual receipt PR merge. No new article claim.",
+      "screenshots": {
+        "desktop": {
+          "sha256": "192994a397bafeda6af5b5044bef61c266709f4bca8d6b4100b461116655f488",
+          "inspection": "1440x1000 cover independently viewed: title/Odia/byline/lead and complete food photograph with precise home-chicken caption legible and coherent."
+        },
+        "mobile": {
+          "sha256": "20d46afae5064f176debbfd6605f811f1e8bfa73ac932fc5429c67a863dc1f47",
+          "inspection": "390x844 body screenshot independently viewed: comfortably wrapped paragraphs, sectional heading and notes; corrected Jogeswar Behera name visible without son claim. Focus outline around reference visible; image alone does not prove keyboard roundtrip."
+        }
+      }
+    },
+    "limits": [
+      "Separate AI receipt review, not human, culinary-specialist or field approval.",
+      "Independently checked remote metadata, local tree identity, records, source-budget qualification, saved artifact values, screenshot hashes and visible screenshot contents.",
+      "Live HTTP, interactive browser return/disclosure, viewport widths and full suites remain coordinator evidence; not repeated by reviewer.",
+      "No build or website test rerun for records-only changes. Prior candidate review remains applicable; ownership release awaits actual receipt merge."
+    ]
+  },
+  "receipt_pull_request": "https://github.com/ahimanikya/project-odisha/pull/393",
+  "receipt_integration": "Effective only after PR393 passes required checks and merges; observed merge must be reconciled before releasing the article claim."
 }
