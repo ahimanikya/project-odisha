@@ -654,5 +654,47 @@
     },
     "implementation": "Samanta resolved exactfoodtemplate and inserted a slot for the preserved directory module before further reading; scoped rendered integration test passed after fresh build."
   },
-  "publication_receipt": "records/chhena-poda-editorial-publication-2026-10-20.json"
+  "publication_receipt": "records/chhena-poda-editorial-publication-2026-10-20.json",
+  "receipt_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_receipt_review",
+    "head": "97cb8e4888b276e4c8c8cc106b33a7942ff81374",
+    "base": "19c4f40bcb9e10d6afc2429788fa2a783ad28015",
+    "article": "POD-EDIT-058",
+    "result": "pass_with_limitations",
+    "blocking_findings": [],
+    "checks": {
+      "scope": "Ten files, records/generated views and two screenshots only. No article implementation, assets, sources or search eligibility edits.",
+      "remote": "Independent gh: PR389 MERGED2026-10-20T19:26:42Z, reviewededdd577256b527b6f59e872a7277afb36ab7fce8 merged19c4f40bcb9e10d6afc2429788fa2a783ad28015. CI39482934414 completed success on reviewed head; publication39483525378 completed success on merge head.",
+      "tree_equality": "Reviewed candidate and published merge trees identical.",
+      "transcription": "Receipt final_review exactly equals saved independent candidate review; team review matches receipt. Historical pending-gate language remains nested as historical review; current receipt states observed publication.",
+      "validators_passed": [
+        "article_rollout --check",
+        "check_team_assignments",
+        "check_autonomous_program",
+        "registers --check",
+        "editorial/build_workbench --check",
+        "git diff --check19c4f40b..HEAD"
+      ],
+      "accounting": "Only058 rollout entry changes;52completed72excluded334queued458total. Programme byte-identical112. Zero substantive credit.",
+      "ownership": "Team published_receipt_pending_integration and operations explicit integration gate retain Disha ownership until observed receipt PR merge; phase receipt_integrated is conditional, no new article claimed.",
+      "screenshots": {
+        "desktop": {
+          "sha256": "94d44d5f1a056b0457355ad7a7b2be83396d8e5597ef750e96cb2a29a87f49dd",
+          "inspection": "1440x1000 cover visually inspected: legible title, byline, lead and retained photo/caption; no visible clipping."
+        },
+        "mobile": {
+          "sha256": "dfbb940a216a6f0a0bb743bf74f70718406835856a0bf633e5ec3d720ae0aaf2",
+          "inspection": "390x844 section screenshot visually inspected: dining listing and availability caveat, collapsed Further reading and visible numbered source note legible and wrapped within viewport."
+        }
+      }
+    },
+    "limits": [
+      "Separate AI records review, not human, culinary-specialist or field approval.",
+      "Reviewer independently checked remote run/merge metadata, local tree equality, review transcription, records, screenshot hashes and saved screenshot appearance.",
+      "Coordinator live HTTP/content/image/sitemap checks and interactive browser/keyboard/width measurements were not independently repeated. Saved screenshots establish only visible captured portions.",
+      "No code rebuild or website test repetition for this records-only diff. Prior candidate review remains applicable; receipt integration still requires actual merge."
+    ]
+  },
+  "receipt_pull_request": "https://github.com/ahimanikya/project-odisha/pull/391"
 }
