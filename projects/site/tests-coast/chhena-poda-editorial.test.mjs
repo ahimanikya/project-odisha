@@ -1,0 +1,75 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {buildTourBook,buildTextItinerary,escapeHTML} from '../src/lib/tour-book.mjs';
+const read=p=>readFileSync(p,'utf8');
+const foods=JSON.parse(read('../../kb/research/food/collection.json'));
+const entry=foods.pages.find(p=>p.slug==='chhena-poda'),photo=foods.assets[entry.hero];
+const editorial=JSON.parse(read('../../kb/research/food/chhena-poda-editorial.json'));
+const route='/food/chhena-poda/';
+const page=p=>read(`dist-coast${p}index.html`).replace(/<script\b[^>]*>[\s\S]*?<\/script>/g,'').replaceAll('&#39;',"'");
+const escape=s=>s.replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;');
+const paragraphs=()=>entry.sections.flatMap(s=>s.paragraphs);
+const passages=()=>entry.sections.flatMap(s=>s.paragraphs.map((p,i)=>({id:`${s.id}-${i}`,source_ids:p.source_ids}))).filter(p=>p.source_ids.length);
+test('Chhena Poda source map preserves claim coverage, culinary credits and original photograph',()=>{
+ assert.equal(editorial.author,'Ahimanikya Satapathy');assert.equal(entry.save_id,'food:konark-chhena-poda');
+ for(const id of ['taste','origin','variations','try'])assert.ok(entry.sections.some(s=>s.id===id),id);
+ assert.deepEqual(entry.sections.map(s=>s.id),['taste','leaves','origin','variations','try']);assert.equal(paragraphs().length,10);assert.equal(editorial.sources.length,3);assert.equal(passages().reduce((n,p)=>n+p.source_ids.length,0),6);
+ assert.deepEqual(passages(),editorial.passages.filter(p=>p.source_ids.length));
+ const prose=paragraphs().map(p=>p.text).join(' ');for(const phrase of ['Mansita Mishra','sal leaves','Sudarshana Sahoo','later telling, not a contemporary record','semolina','compound chocolate','Thomas Zacharias','strawberry compote and granola','Alka Jena','not evidence of an unchanged ancient recipe'])assert.ok(prose.includes(phrase),phrase);
+ const ids=editorial.sources.map(s=>s.id);assert.equal(new Set(ids).size,ids.length);
+ assert.deepEqual(new Set(ids),new Set(passages().flatMap(p=>p.source_ids)));
+ for(const source of editorial.sources){assert.ok(foods.sources[source.id]);assert.equal(source.url,foods.sources[source.id].url);assert.ok(source.note.trim());}
+ for(const p of paragraphs()){assert.ok(p.text.trim());assert.ok(Array.isArray(p.source_ids));}
+ assert.equal(createHash('sha256').update(readFileSync('public'+photo.src)).digest('hex'),photo.sha256);
+ assert.equal(photo.sha256,'94cd55915889d9787c9611197a2ec59a5670f491619ca8ca916ee4a87fdbf8aa');
+ assert.equal(photo.creator,'Subhransuphotography');assert.equal(photo.license,'CC BY-SA 4.0');
+});
+test('Chhena Poda renders complete prose and visible numbered notes with exact returns',()=>{
+ const html=page(route);assert.ok(html.indexOf('By Ahimanikya Satapathy')<html.indexOf('id="taste"'));
+ for(const section of entry.sections){assert.equal(html.split(`id="${section.id}"`).length-1,1);for(const p of section.paragraphs){assert.ok(html.includes(escape(p.text)));if(p.source_ids.length)assert.ok(html.includes(`data-source-ids="${p.source_ids.join(' ')}"`));}}
+ const refs=[...html.matchAll(/id="(ref-[^"]+)" href="#(note-[^"]+)"/g)];assert.equal(refs.length,passages().reduce((n,p)=>n+p.source_ids.length,0));assert.equal(new Set(refs.map(r=>r[1])).size,refs.length);
+ for(const p of passages())for(const id of p.source_ids){assert.equal(html.split(`id="ref-${p.id}-${id}"`).length-1,1);assert.equal(html.split(`href="#ref-${p.id}-${id}"`).length-1,1);}
+ for(const s of editorial.sources){assert.equal(html.split(`id="note-${s.id}"`).length-1,1);assert.ok(html.includes(escape(s.note)));assert.ok(html.includes(escape(s.url)));}
+ const outside=html.replace(/<details\b[^>]*>[\s\S]*?<\/details>/g,'');assert.match(outside,/<section id="story-sources"/);
+ assert.doesNotMatch(html,/Prepared with AI assistance|human editorial review pending|Editorial preview/);
+});
+test('Chhena Poda retains uncropped image rights, all reading links and a visible correction action',()=>{
+ const html=page(route);assert.match(html,/mag-cover--contain/);assert.equal([...html.matchAll(/<img\b[^>]*\bsrc="([^"]+)"/g)].filter(m=>m[1]===photo.src).length,1);
+ for(const key of ['caption','creator','source','license_url','changes'])assert.ok(html.includes(escape(photo[key])),key);
+ assert.ok(html.includes(`width="${photo.width}" height="${photo.height}"`));
+ const onward=html.match(/<section id="food-further-reading"[\s\S]*?<\/section>/)?.[0];assert.ok(onward);assert.match(onward,/<summary[^>]*>Further reading<\/summary>/);assert.doesNotMatch(onward,/<details[^>]*\bopen\b/);
+ const connections=JSON.parse(read('../../kb/research/related-discoveries.json')).links.filter(l=>l.from===route),scope=JSON.parse(read('editions/coast.json')).routes;
+ for(const href of [...entry.related.map(l=>l.href),...connections.map(l=>l.to),'/journey/'].filter(h=>scope.includes(h.split('#')[0])))assert.ok(onward.includes(`href="${href}"`),href);
+ const outside=html.replace(/<details\b[^>]*>[\s\S]*?<\/details>/g,'');assert.match(outside,/href="\/contribute\/\?page=%2Ffood%2Fchhena-poda%2F"[^>]*>Suggest an update/);assert.match(outside,/GitHub submissions are public; omit private contact details and consent documents/);
+ assert.match(html,/data-save-journey="food:konark-chhena-poda"/);assert.match(html,/name="robots" content="noindex, nofollow"/);
+});
+test('Chhena Poda portable reading keeps each paragraph, concise sources and original image rights',()=>{
+ const catalog=JSON.parse(read('dist-coast/index.html').match(/id="journey-data"[^>]*>([\s\S]*?)<\/script>/)[1]).catalog,item=catalog.find(i=>i.id===entry.save_id);
+ assert.equal(item.href,route);assert.equal(item.author,editorial.author);assert.equal(item.summary,entry.lead);assert.equal(item.checked,editorial.checked_on);
+ assert.deepEqual(item.sources,editorial.sources.map(({title,url})=>({title,url})));assert.deepEqual(item.practical.map(p=>p.paragraphs),entry.sections.map(s=>s.paragraphs.map(p=>p.text)));
+ assert.equal(item.photo.src,photo.src);
+ const plan={version:1,title:'Chhena Poda reading',items:[{id:item.id,day:1,notes:'Ask the maker about the sweetener.'}]},image='data:image/jpeg;base64,'+readFileSync('public'+photo.src).toString('base64');
+ const book=buildTourBook(plan,catalog,{illustrated:true,images:{[photo.src]:image}}),text=buildTextItinerary(plan,catalog);
+ for(const p of paragraphs()){assert.equal(book.split(`<p>${escapeHTML(p.text)}</p>`).length-1,1);assert.ok(text.includes(p.text));}
+ for(const output of [book,text]){assert.ok(output.includes('By '+editorial.author));assert.ok(output.includes('https://projectodisha.org'+route));assert.ok(output.includes('Ask the maker about the sweetener.'));for(const s of editorial.sources)assert.ok(!output.includes(s.note));}
+ for(const s of editorial.sources){assert.ok(book.includes(`href="${escapeHTML(new URL(s.url).href)}"`));assert.ok(text.includes(new URL(s.url).href));}
+ for(const key of ['creator','license_url'])assert.ok(book.includes(escapeHTML(photo[key])));
+});
+test('Chhena Poda opt-in leaves another food article and its portable authorship unchanged',()=>{
+ const other=page('/food/enduri-pitha/');assert.match(other,/Prepared with AI assistance; human editorial review pending/);assert.doesNotMatch(other,/class="article-byline"|id="story-sources"|<[^>]+class="[^"]*\bchhena-editorial\b[^"]*"/);
+ const catalog=JSON.parse(read('dist-coast/index.html').match(/id="journey-data"[^>]*>([\s\S]*?)<\/script>/)[1]).catalog,item=catalog.find(i=>i.id==='food:enduri-pitha');assert.ok(item);assert.equal(item.author,undefined);assert.ok(item.practical.every(p=>!p.paragraphs));
+});
+
+test('Chhena Poda preserves its permitted dining listing before onward reading and source notes',()=>{
+ const html=page(route),heading='id="try-chhena-poda"';assert.equal(html.split(heading).length-1,1);
+ const diningStart=html.indexOf(heading),onwardStart=html.indexOf('id="food-further-reading"'),sourcesStart=html.indexOf('id="story-sources"');
+ assert.ok(diningStart>html.indexOf('id="try"')&&onwardStart>diningStart&&sourcesStart>onwardStart);
+ const dining=html.slice(diningStart,onwardStart);
+ assert.match(dining,/Where to try it/);assert.ok(dining.includes('These restaurants list this dish on their website. Ask about availability when planning your visit.'));
+ const directory=JSON.parse(read('../../kb/research/food/restaurants.json')),scope=JSON.parse(read('editions/coast.json')).routes;
+ const venues=directory.venues.filter(v=>v.dishes.some(d=>d.slug===entry.slug)&&scope.includes(`/food/restaurants/${v.slug}/`));assert.ok(venues.length>0);
+ for(const venue of venues){assert.ok(dining.includes(`href="/food/restaurants/${venue.slug}/"`));assert.ok(dining.includes(escape(venue.name)));}
+ assert.ok(dining.includes('href="/food/where-to-eat/"'));
+});

@@ -846,3 +846,7 @@ POD-EDIT-057 reuses the northern stay row, Similipal place article, reserve guid
 ## 20 October 2026 · Place-linked sweets collection
 
 Reuse [sweets and places](../food/sweets-and-places.md) and its structured companion before researching local sweet identities. This eight-entry selection combines existing profiles with freshly inspected institutional Khaja/Puri and Palua Ladu/Bhadrak associations. It is not a complete district inventory or a current venue list.
+
+### Chhena Poda individual editorial reuse · 20 October 2026
+
+POD-EDIT-058 reuses `food/chhena-poda.md`, `food/collection.json`, `sources/food-chhenapoda-chef2021.md` and `sources/sweets-tourism-trails20261020.md`. Actual Michael 2021, Mishra 2019 and current Sweet Trail pages were inspected. The [article map](../food/chhena-poda-editorial.json) separates recipe testimony, descriptive feature text and place association; it does not establish invention chronology. No new food entity, independent corroborator, enterprise metric or substantive-programme credit is created. The existing documentary food photograph and rights are retained.

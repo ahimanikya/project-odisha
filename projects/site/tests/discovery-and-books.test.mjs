@@ -46,7 +46,7 @@ test('public issue links encode drafts, require a known page, and keep long Unic
 test('new food claims, image provenance and stable save identities appear in built pages',()=>{
  const f=json('../../kb/research/food/collection.json');
  for(const page of f.pages){const out=html('/food/'+page.slug+'/');assert.ok(out.includes(`data-save-journey="${page.save_id}"`));const asset=f.assets[page.hero];assert.equal(createHash('sha256').update(readFileSync('public'+asset.src)).digest('hex'),asset.sha256);for(const s of page.sections)for(const p of s.paragraphs)if(p.kind==='sourced_summary')for(const id of p.source_ids){assert.ok(f.sources[id]);assert.ok(out.includes(f.sources[id].url));}assert.ok(out.includes(asset.creator)&&out.includes(asset.license_url));}
- assert.ok(html('/food/mudhi-mansa/').includes('chicken'));assert.ok(html('/food/chhena-poda/').includes('article’s account'));
+ assert.ok(html('/food/mudhi-mansa/').includes('chicken'));for(const phrase of ['Chef Michael’s 2021 account','later telling, not a contemporary record','Nayagarh is a documented association'])assert.ok(html('/food/chhena-poda/').includes(phrase),phrase);
 });
 test('related-discovery links resolve and the new profiles retain uncertainty and translation credit',()=>{
  const links=json('../../kb/research/related-discoveries.json').links;
