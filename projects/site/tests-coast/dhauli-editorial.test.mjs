@@ -22,5 +22,5 @@ test('Dhauli keeps both photographs and planning tools without changing other de
  for(const key of ['dhauli','dhauli-elephant']){const p=data.assets[key];assert.equal(createHash('sha256').update(readFileSync('public'+p.src)).digest('hex'),p.sha256);for(const value of [p.creator,p.license_url,p.src])assert.ok(html.includes(value));}
  for(const id of ['visit-notebook','visit-details','practical-choices','collection-onward','sources-credits'])assert.ok(html.includes(`id="${id}"`));
  assert.ok(html.includes('data-save-journey="place:dhauli"'));
- for(const route of ['/visit/stays/balasore-coast/']){const other=read(route);assert.doesNotMatch(other,/class="article-byline"|id="story-sources"/);assert.match(other,/Drafted with AI assistance; human editorial review pending/);}
+ for(const route of ['/visit/stays/similipal-gateways/']){const other=read(route);assert.doesNotMatch(other,/class="article-byline"|id="story-sources"/);assert.match(other,/Drafted with AI assistance; human editorial review pending/);}
 });

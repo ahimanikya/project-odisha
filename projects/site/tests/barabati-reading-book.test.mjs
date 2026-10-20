@@ -10,7 +10,7 @@ const record=JSON.parse(readFileSync('../../kb/research/destinations/central-det
 test('Barabati portable reading preserves its author, complete paragraphs, sources and photograph credit',()=>{
  const item=data.catalog.find(x=>x.id==='place:barabati');assert.ok(item);
  assert.equal(item.author,editorial.author);assert.equal(item.summary,record.lead);
- assert.equal(data.catalog.find(x=>x.href==='/visit/stays/balasore-coast/').author,undefined);
+ assert.equal(data.catalog.find(x=>x.href==='/visit/stays/similipal-gateways/').author,undefined);
  const plan=addItem(emptyJourney(),item.id);
  const book=buildTourBook(plan,data.catalog,{illustrated:true,images:{[item.photo.src]:'data:image/png;base64,AAAA'}}),text=buildTextItinerary(plan,data.catalog);
  assert.ok(book.includes('By '+editorial.author));assert.ok(text.includes('By '+editorial.author));
