@@ -1,0 +1,158 @@
+{
+  "recorded_at": "2026-10-20T12:32:52.726686+00:00",
+  "authorization": [
+    "POD-DEC-2026101702",
+    "POD-DEC-225",
+    "POD-DEC-2026101901"
+  ],
+  "work_id": "POD-WORK-302",
+  "queue_item": "POD-EDIT-053",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/373",
+  "reviewed_head": "1434cb5830ba43e8eba40faf37b097da64d96ecb",
+  "merge_commit": "09dedc6b6879c5c98493bbc4d45e8e5f9e8050b9",
+  "validation": {
+    "conclusion": "success",
+    "databaseId": 39421942478,
+    "headSha": "1434cb5830ba43e8eba40faf37b097da64d96ecb",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39421942478"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "databaseId": 39422437567,
+    "headSha": "09dedc6b6879c5c98493bbc4d45e8e5f9e8050b9",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39422437567"
+  },
+  "live_checks": {
+    "checked_at": "2026-10-20T12:31:58.304302+00:00",
+    "url": "https://projectodisha.org/visit/places/chandipur/",
+    "http_status": 200,
+    "html_sha256": "6168bc09bb2982a0530b20b0359fb7908fa180069f9983853f88da24a5db0e90",
+    "visible_notes": 2,
+    "references": 4,
+    "exact_returns": 4,
+    "checks": {
+      "byline": true,
+      "specific_reading": true,
+      "access_limits": true,
+      "noindex": true,
+      "returns": true,
+      "image_credits": true,
+      "save_identity": true,
+      "no_production_boilerplate": true
+    },
+    "images": {
+      "/images/regions/chandipur-sunset.jpg": {
+        "http_status": 200,
+        "sha256": "cd0d20634950b20af1301665a667e5baff2a670344b1c8d399f99f9302eea2e1"
+      },
+      "/images/regions/chandipur-panorama.jpg": {
+        "http_status": 200,
+        "sha256": "06e8b1a4852f7cb6726380a4ee934d3a3e5f80ea834d395012f76bfc8548dc4b"
+      }
+    },
+    "unchanged_sitemap_count": 11,
+    "route_inventory": {
+      "directory_indexes": 394,
+      "separate_error_page": "/404.html",
+      "unregistered_routes": [],
+      "total_registered_routes": 395
+    },
+    "browser": {
+      "viewports": [
+        [
+          1440,
+          1000
+        ],
+        [
+          390,
+          844
+        ]
+      ],
+      "reading_widths": [
+        740,
+        343.1953125
+      ],
+      "horizontal_overflow": false,
+      "visible_notes": true,
+      "exact_keyboard_returns": [
+        "ref-detail-1-chandipur-sedimentation2023"
+      ],
+      "further_reading_keyboard_toggle": true,
+      "screenshots": [
+        "records/evidence/chandipur-editorial-2026-10-20/live-desktop.png",
+        "records/evidence/chandipur-editorial-2026-10-20/live-mobile.png"
+      ],
+      "limits": [
+        "Browser emulation, not physical-device or screen-reader testing."
+      ],
+      "screenshot_sha256": {
+        "records/evidence/chandipur-editorial-2026-10-20/live-desktop.png": "cffdf96159e970b54a8123a48bcdb57c0df53f1b353972d15de748ae5c8145f7",
+        "records/evidence/chandipur-editorial-2026-10-20/live-mobile.png": "11ca76edf69efc1109982eed30dff8ce4f9bdf9ab657339b18c1adb2fb77e7fe"
+      },
+      "panorama": {
+        "width": 343.1953125,
+        "height": 74.53125,
+        "object_fit": "contain",
+        "visual_review": "Full frame and surrounding paragraphs inspected on live mobile page."
+      }
+    }
+  },
+  "test_review_and_source_mapping": "records/chandipur-editorial-team-2026-10-20.json",
+  "final_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_review",
+    "head": "1434cb5830ba43e8eba40faf37b097da64d96ecb",
+    "base": "496294b0fba394a6ad5928ee6902325bf2ab8c56",
+    "result": "pass_with_limitations",
+    "blocking_findings": [],
+    "checks": {
+      "focused_tests": 23,
+      "validators": [
+        "article_rollout",
+        "team_assignments",
+        "autonomous_program",
+        "registers",
+        "workbench",
+        "research_map",
+        "catalogue",
+        "git_diff_check"
+      ],
+      "paragraphs": 9,
+      "sections": 6,
+      "visible_notes": 2,
+      "references_and_exact_returns": 4,
+      "only_detail_record_changed": "chandipur",
+      "programme_byte_unchanged": true,
+      "substantive_completed": 112,
+      "publication_eligibility_files_unchanged": true
+    },
+    "source_review": "Independently inspected actual sedimentology text pp6–7 and9, including water film, ripples and animal trails/burrows; checked current official October–March and Baleshwar rail/road statements. Geometry inference identified in KB; original observation and practical guidance not assigned false citations. No current tide, bathing or walking-distance assurance. Existing source IDs reused.",
+    "media_review": "Both local photographs visually inspected and preserved hashes confirmed by tests; panorama creator/date/CC BY-SA4 provenance independently rechecked. Sunset provenance already checked during Balasore review. No claimed animal-trace identification in photographs.",
+    "implementation_review": "Exact kind+slug opt-in, full portable paragraph boundaries, concise sources and panorama credit retained. Adjacent Balasore stay remains outside byline/notes opt-in; existing Barabati, Netaji, Cuttack stay and region controls pass. Article stays in progress under Disha; no 500-item increment.",
+    "limits": [
+      "Separate AI review, not human or field review.",
+      "Selected scientific text reviewed; no rendered scientific figure review, site visit or current access/tide assessment.",
+      "Responsive and keyboard checks and full builds/suites are coordinator-performed, not independently repeated. Reviewer ran 23 focused tests and canonical checks."
+    ]
+  },
+  "integration_review": {
+    "head": "09dedc6b6879c5c98493bbc4d45e8e5f9e8050b9",
+    "result": "pass",
+    "scope": "Merge tree identical to separately reviewed candidate; no incoming changes."
+  },
+  "concurrent_work": "Open PR304 statistics and PR281 Ashoka untouched. No overlapping article claim.",
+  "attachment_note": "PR attachment attempted; app limit100 reached. URL retained here.",
+  "counting": "One editorial article; zero substantive500 increment. Programme remains112.",
+  "limitations": [
+    "Separate AI review, not human or field review.",
+    "Selected scientific text reviewed; no rendered scientific figure review, site visit or current access/tide assessment.",
+    "Responsive and keyboard checks and full builds/suites are coordinator-performed, not independently repeated. Reviewer ran 23 focused tests and canonical checks.",
+    "No fieldwork, current tide prediction, species identification, access inspection or human review. Selected scientific text is not a visitor safety assessment.",
+    "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
+  ],
+  "verified_routes": [
+    "/visit/places/chandipur/"
+  ]
+}

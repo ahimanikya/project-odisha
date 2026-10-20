@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `2b6757e402d6a1b9f7f43c67d9ff88dd11c8ea12cc35af6b86e79a603f911c96`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b05798cbe7b4f2a07b175de866ad629bd51e59e2bb7dd1a41b0131258233f35d`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -321,7 +321,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-299 · Deepen Dalkhai song, occasion and stage context | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, song-language review and recovered source PDFs remain open for future research. | — |
 | POD-WORK-300 · Deepen Pala literary performance, forms and repertoire | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/Odia review and manuscript evidence remain open for future research. | — |
 | POD-WORK-301 · Deepen Dhemsa community, movement and occasion | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/language review and field evidence remain open for future research. | — |
-| POD-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Continue next eligible queued article after verifying receipt integration and reconciling team ownership;45 editorial entries complete. | — |
+| POD-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Continue next eligible queued article after verifying receipt integration and reconciling team ownership;46 editorial entries complete. | — |
 | POD-WORK-2026101701 · Publish two Pattachitra Jhula choices | completed | published | Ahimanikya Satapathy | Review the live Pattachitra choices. | — |
 | POD-WORK-2026101901 · Activate separate editorial agents and durable handoffs | completed | applied | Ahimanikya Satapathy | Use saved team loop for subsequent article work; recreate task-scoped workers when needed. | — |
 | POD-WORK-2026101801 · Coherent Jhula story and collection overview | completed | published | Ahimanikya Satapathy | Review the refined live page. | — |
@@ -959,6 +959,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026102008 | pass_with_limitations | True | Separate AI review, not human or language specialist review.; No full poem or original Odia collation.; District checked from saved capture after web retrieval failed.; Responsive/browser interactions are coordinator-performed, not independently repeated.; Selected English passages and translator criticism; no full-poem, original-Odia or human review.; Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing. |
 | POD-REV-2026102009 | pass_with_limitations | True | Separate AI review, not human review.; Selected sources only; no archival or field verification.; Rout evidence is indexed text; literary evidence is a community transcription, not original-print collation.; Responsive and keyboard checks were coordinator-performed, not independently repeated.; Geological interpretation and dated historical accounts; no fieldwork, current tide prediction, archival corroboration or human review.; Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing. |
 | POD-REV-2026102010 | pass_with_limitations | True | Separate AI review, not human, specialist or field review.; Selected documentary text and indexed descriptions; no full play reading or performance attendance.; Responsive, keyboard and rendered SVG checks are coordinator-performed, not independently repeated.; Full build/suite results are coordinator-performed; reviewer ran the 17 focused tests and listed validators.; No fieldwork, witnessed performance, full play reading, current availability confirmation or human review. Selected indexed-source access limits retained.; Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing. |
+| POD-REV-2026102011 | pass_with_limitations | True | Separate AI review, not human or field review.; Selected scientific text reviewed; no rendered scientific figure review, site visit or current access/tide assessment.; Responsive and keyboard checks and full builds/suites are coordinator-performed, not independently repeated. Reviewer ran 23 focused tests and canonical checks.; No fieldwork, current tide prediction, species identification, access inspection or human review. Selected scientific text is not a visitor safety assessment.; Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing. |
 
 ## Publication and application history
 
@@ -1159,6 +1160,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026102008 · Gangadhar Meher Sita, landscape and translation reading | published | https://projectodisha.org/people/gangadhar-meher/ | POD-DEC-225 |
 | POD-REL-2026102009 · Balasore tidal landscape, river and literary reading | published | https://projectodisha.org/destinations/balasore/ | POD-DEC-225 |
 | POD-REL-2026102010 · Mayurbhanj forest, movement and written language | published | https://projectodisha.org/destinations/mayurbhanj/ | POD-DEC-225 |
+| POD-REL-2026102011 · Chandipur tidal-flat observation and visitor reading | published | https://projectodisha.org/visit/places/chandipur/ | POD-DEC-225 |
 
 ## Sources and assets
 
@@ -1196,7 +1198,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261020001 | 2026-10-20T02:14:40.287780+00:00 | Published and live-verified POD-EDIT-043 Literature via PR352 and approved deployment39357400580. Selected literary passages, edition-specific translation credits and three visible sources;36 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261020002 | 2026-10-20T03:30:25.717262+00:00 | Published and live-verified POD-EDIT-044 Fakir Mohan via PR354 and approved deployment39364210556. Concrete literary readings, ten visible source notes and complete portable reading;37 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261020003 | 2026-10-20T05:05:08.039215+00:00 | Published and live-verified POD-EDIT-045 Six Acres via PR357 and approved deployment39372533375. Household stakes, narrator satire and courtroom language with six visible notes and full portable reading;38 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261020004 | 2026-10-20T05:35:06.006219+00:00 | Published and live-verified POD-EDIT-046 Sarala Das via PR359 and approved deployment39375219244. Draupadi, Sakuni, devotional authority and edition limits with four visible notes and complete portable reading;39 editorial entries complete, substantive programme112 unchanged. | — |
@@ -1206,6 +1207,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261020008 | 2026-10-20T09:36:40.309427+00:00 | Published and live-verified POD-EDIT-050 Gangadhar Meher via PR367 and approved deployment39401244003. Selected Tapaswini passages, devotion tension and edition distinctions with five visible notes and complete portable reading;43 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261020009 | 2026-10-20T10:31:46.883243+00:00 | Published and live-verified POD-EDIT-051 Balasore via PR369 and approved deployment39407919329. Tidal-flat geometry, attributed river history, printing circulation and selected fictional household reading with five visible notes and complete portable reading;44 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261020010 | 2026-10-20T11:36:19.178657+00:00 | Published and live-verified POD-EDIT-052 Mayurbhanj via PR371 and approved deployment39415654479. Forest river connections, named Chhau movement and collaborators, Ol Chiki plays and Baripada literary gathering with eight visible notes and complete portable reading;45 editorial entries complete, substantive programme112 unchanged. | — |
+| POD-EVT-20261020011 | 2026-10-20T12:32:52.726686+00:00 | Published and live-verified POD-EDIT-053 Chandipur via PR373 and approved deployment39422437567. Tidal-flat slope, sediment pathways and surface traces with two visible notes and complete portable reading;46 editorial entries complete, substantive programme112 unchanged. | — |
 
 ## Deferred extensions
 

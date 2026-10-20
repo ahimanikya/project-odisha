@@ -8647,7 +8647,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "POD-DEC-2026101702",
-      "next_action": "Continue next eligible queued article after verifying receipt integration and reconciling team ownership;45 editorial entries complete.",
+      "next_action": "Continue next eligible queued article after verifying receipt integration and reconciling team ownership;46 editorial entries complete.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026101702",
@@ -8726,7 +8726,9 @@
         "POD-REV-2026102009",
         "POD-REL-2026102009",
         "POD-REV-2026102010",
-        "POD-REL-2026102010"
+        "POD-REL-2026102010",
+        "POD-REV-2026102011",
+        "POD-REL-2026102011"
       ],
       "evidence": [
         "reference/article-editorial-standard.md",
@@ -8771,7 +8773,8 @@
         "records/gopinath-editorial-publication-2026-10-20.json",
         "records/gangadhar-editorial-publication-2026-10-20.json",
         "records/balasore-editorial-publication-2026-10-20.json",
-        "records/mayurbhanj-editorial-publication-2026-10-20.json"
+        "records/mayurbhanj-editorial-publication-2026-10-20.json",
+        "records/chandipur-editorial-publication-2026-10-20.json"
       ],
       "acceptance_criteria": [
         "Every published baseline route classified; each article independently reviewed against approved standard with PR/test/deploy/live receipt; exclusions justified; future articles follow same rule."
@@ -21302,6 +21305,33 @@
         "No fieldwork, witnessed performance, full play reading, current availability confirmation or human review. Selected indexed-source access limits retained.",
         "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
       ]
+    },
+    {
+      "id": "POD-REV-2026102011",
+      "title": "Separate Chandipur article and source review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent /root/drishti"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human or language-specialist review.",
+      "reviewed_head": "1434cb5830ba43e8eba40faf37b097da64d96ecb",
+      "refs": [
+        "POD-WORK-302",
+        "POD-DEC-2026101901",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/chandipur-editorial-team-2026-10-20.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human or field review.",
+        "Selected scientific text reviewed; no rendered scientific figure review, site visit or current access/tide assessment.",
+        "Responsive and keyboard checks and full builds/suites are coordinator-performed, not independently repeated. Reviewer ran 23 focused tests and canonical checks.",
+        "No fieldwork, current tide prediction, species identification, access inspection or human review. Selected scientific text is not a visitor safety assessment.",
+        "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
+      ]
     }
   ],
   "releases": [
@@ -24490,6 +24520,23 @@
         "records/mayurbhanj-editorial-team-2026-10-20.json"
       ],
       "note": "Reviewed PR371 passed checks and merged; approved deployment and live notes, retained documentary photographs and responsive reading verified. Zero substantive programme credit."
+    },
+    {
+      "id": "POD-REL-2026102011",
+      "title": "Chandipur tidal-flat observation and visitor reading",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/visit/places/chandipur/",
+      "refs": [
+        "POD-WORK-302",
+        "POD-REV-2026102011",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/chandipur-editorial-publication-2026-10-20.json",
+        "records/chandipur-editorial-team-2026-10-20.json"
+      ],
+      "note": "Reviewed PR373 passed checks and merged; approved deployment and live notes, retained documentary photographs and responsive reading verified. Zero substantive programme credit."
     }
   ],
   "sources": [
