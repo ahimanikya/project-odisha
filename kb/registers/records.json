@@ -21041,6 +21041,33 @@
         "Selected excerpts only; no full-novel review or printed facsimile collation.",
         "Author-hosted Jajnaseni excerpt does not identify its translator; none inferred."
       ]
+    },
+    {
+      "id": "POD-REV-2026102002",
+      "title": "Separate Fakir Mohan article editorial and source review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent /root/drishti"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human or language-specialist review.",
+      "reviewed_head": "03a3af4a6fb5b38c439f65f1067ac8ae54bb8e87",
+      "refs": [
+        "POD-WORK-302",
+        "POD-DEC-2026101901",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/fakir-editorial-team-2026-10-20.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human or language-specialist approval.",
+        "Historical essays rechecked through indexed excerpts; direct PDFs unavailable. No original school/press records inspected.",
+        "Selected literary passages only; no full-novel review or printed facsimile collation.",
+        "1902/1905 original-novel chronology remains unresolved.",
+        "Responsive and keyboard checks are browser emulation by coordinator, not physical-device or screen-reader testing."
+      ]
     }
   ],
   "releases": [
@@ -24076,6 +24103,23 @@
         "records/literature-editorial-team-2026-10-20.json"
       ],
       "note": "Reviewed PR352 passed checks, merged and published via approved main workflow. Live notes, retained image hashes and responsive reading verified. Zero substantive programme credit."
+    },
+    {
+      "id": "POD-REL-2026102002",
+      "title": "Fakir Mohan public-language work and close readings",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/people/fakir-mohan-senapati/",
+      "refs": [
+        "POD-WORK-302",
+        "POD-REV-2026102002",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/fakir-editorial-publication-2026-10-20.json",
+        "records/fakir-editorial-team-2026-10-20.json"
+      ],
+      "note": "Reviewed PR354 passed checks and merged; integrated PR355 separately reviewed before approved deployment. Live notes, retained bust hash and responsive reading verified. Zero substantive programme credit."
     }
   ],
   "sources": [
