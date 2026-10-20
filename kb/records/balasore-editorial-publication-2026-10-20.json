@@ -1,0 +1,129 @@
+{
+  "recorded_at": "2026-10-20T10:31:46.883243+00:00",
+  "authorization": [
+    "POD-DEC-2026101702",
+    "POD-DEC-225",
+    "POD-DEC-2026101901"
+  ],
+  "work_id": "POD-WORK-302",
+  "queue_item": "POD-EDIT-051",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/369",
+  "reviewed_head": "cbd41461649a327ea27d2d71d7883f5fd784eab4",
+  "merge_commit": "3148d56bac5c2dd8ffd3de989c255930bbe69c23",
+  "validation": {
+    "conclusion": "success",
+    "databaseId": 39407355023,
+    "headSha": "cbd41461649a327ea27d2d71d7883f5fd784eab4",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39407355023"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "databaseId": 39407919329,
+    "headSha": "3148d56bac5c2dd8ffd3de989c255930bbe69c23",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39407919329"
+  },
+  "live_checks": {
+    "checked_at": "2026-10-20T10:31:01.262288+00:00",
+    "url": "https://projectodisha.org/destinations/balasore/",
+    "http_status": 200,
+    "html_sha256": "894027bb38267650b677733114b93d60afb44b6e828dd608e428d853ddfa74c3",
+    "visible_notes": 5,
+    "references": 13,
+    "exact_returns": 13,
+    "checks": {
+      "byline": true,
+      "headline": true,
+      "specific_reading": true,
+      "historical_scope": true,
+      "current_guidance": true,
+      "noindex": true,
+      "returns": true,
+      "photograph_credits": true
+    },
+    "images": {
+      "/images/regions/chandipur-sunset.jpg": {
+        "http_status": 200,
+        "sha256": "cd0d20634950b20af1301665a667e5baff2a670344b1c8d399f99f9302eea2e1"
+      },
+      "/assets/language-literature/fakir-mohan.webp": {
+        "http_status": 200,
+        "sha256": "de64db9a31244c1bd557f61ccfab1dc63e289bf9b7b388acf155385fc5761f0b"
+      }
+    },
+    "unchanged_sitemap_count": 11,
+    "route_inventory": {
+      "directory_indexes": 394,
+      "separate_error_page": "/404.html",
+      "unregistered_routes": [],
+      "total_registered_routes": 395
+    },
+    "browser": {
+      "viewports": [
+        [
+          1440,
+          1000
+        ],
+        [
+          390,
+          844
+        ]
+      ],
+      "reading_widths": [
+        740,
+        343.1953125
+      ],
+      "horizontal_overflow": false,
+      "visible_notes": true,
+      "exact_keyboard_returns": [
+        "ref-stories-1-chandipur-sedimentation2023"
+      ],
+      "further_reading_keyboard_toggle": true,
+      "screenshots": [
+        "records/evidence/balasore-editorial-2026-10-20/live-desktop.png",
+        "records/evidence/balasore-editorial-2026-10-20/live-mobile.png"
+      ],
+      "limits": [
+        "Browser emulation, not physical-device or screen-reader testing."
+      ],
+      "screenshot_sha256": {
+        "records/evidence/balasore-editorial-2026-10-20/live-desktop.png": "1749750d14d0faf1801373dbb31e794ae42f40ba3f7cd9d56971b4415f707cfc",
+        "records/evidence/balasore-editorial-2026-10-20/live-mobile.png": "61bce2dda6f4a6de22eb2245f96237d2d04a7ba03496fff4efc1f772a9a035d8"
+      }
+    }
+  },
+  "test_review_and_source_mapping": "records/balasore-editorial-team-2026-10-20.json",
+  "final_review": {
+    "role": "Drishti",
+    "runtime": "/root/drishti",
+    "head": "cbd41461649a327ea27d2d71d7883f5fd784eab4",
+    "result": "pass_with_limitations",
+    "scope": "13 independently run focused tests passed: Balasore, destination regressions, Mayurbhanj exclusion and portable reading. Canonical validators passed. Rechecked selected sedimentology text, dated harbour account, current tourism guidance and indexed Rout press passage. Nine paragraphs, five notes, thirteen unique references/returns and complete portable reading confirmed. Both retained photographs visually inspected; hashes and rights unchanged. Programme112 byte-identical.",
+    "limitations": [
+      "Separate AI review, not human review.",
+      "Selected sources only; no archival or field verification.",
+      "Rout evidence is indexed text; literary evidence is a community transcription, not original-print collation.",
+      "Responsive and keyboard checks were coordinator-performed, not independently repeated."
+    ]
+  },
+  "integration_review": {
+    "head": "3148d56bac5c2dd8ffd3de989c255930bbe69c23",
+    "result": "pass",
+    "scope": "Merge tree identical to separately reviewed candidate; no incoming changes."
+  },
+  "concurrent_work": "Open PR304 statistics and PR281 Ashoka untouched. No overlapping article claim.",
+  "attachment_note": "PR attachment attempted; app limit100 reached. URL retained here.",
+  "counting": "One editorial article; zero substantive500 increment. Programme remains112.",
+  "limitations": [
+    "Separate AI review, not human review.",
+    "Selected sources only; no archival or field verification.",
+    "Rout evidence is indexed text; literary evidence is a community transcription, not original-print collation.",
+    "Responsive and keyboard checks were coordinator-performed, not independently repeated.",
+    "Geological interpretation and dated historical accounts; no fieldwork, current tide prediction, archival corroboration or human review.",
+    "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
+  ],
+  "verified_routes": [
+    "/destinations/balasore/"
+  ]
+}

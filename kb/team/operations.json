@@ -59,11 +59,12 @@
     "route": "/destinations/balasore/",
     "owner": "Disha",
     "coordinator_runtime": "/root",
-    "phase": "integrated_review",
+    "phase": "receipt_integrated",
     "branch": "codex/balasore-editorial-20261020",
     "input_head": "c88a96988f0ef98430a2d455478b0a247e33b567",
     "file_reservations": "records/balasore-editorial-team-2026-10-20.json#executions",
-    "integration_gate": "Retain ownership through actual publication receipt merge."
+    "integration_gate": "Retain ownership until this receipt PR is actually merged; phase becomes effective only with that integration. No next article claim before observed merge.",
+    "publication_receipt": "records/balasore-editorial-publication-2026-10-20.json"
   },
   "project_identity": "reference/project-identity.md"
 }
