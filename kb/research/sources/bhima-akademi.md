@@ -19,3 +19,7 @@ Sahitya Akademi. Reused scoped capture checked 30 September 2026 in kb/research/
 ## Expanded source inspection · 2 October2026 UTC
 
 Original PDF retrieved for additional fields. Imprint at PDFp.6 establishes first publication1983, reprint2017 and ISBN9788126053261. Printedpp.11–20 add attributed founder chronology, Joranda/Khaliapali context and Alekha terminology; imprint andpp.12–13 visually checked. Original30September scoped capture remains the provenance of the reused literary introduction. Reprint date does not make its present-tense descriptions current. No independent corroboration or complete critical reading claimed.
+
+## Selected literary inspection · 20 October 2026
+
+Fresh PDF text inspection extended to printed pp.74–75 (twenty-seventh boli); pp.1–2,12–13 and17–20 support the existing uncertainty, place and terminology scope. The selection is paraphrased, not reproduced. No complete-work or original-Odia collation; different English editions are not interchangeable. Web screenshot retrieval failed; this refresh used PDF text inspection and makes no fresh facsimile-review claim.

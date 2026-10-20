@@ -26,3 +26,7 @@ The anthology separately credits **Satya Siladitya Kar** with a transcreation of
 The existing Bhima Bhoi literary introduction is retained in the project’s `kb/research/voices/collection.json`, identity `people/bhima-bhoi`; this work entry does not duplicate his biography.
 
 [Faith and historical context](../culture/mahima-dharma.md) — Connects a named work and its credited English editions to Mahima Dharma without treating a publisher listing as a full textual review.
+
+## Selected reading · 20 October 2026
+
+The revised [Bhima Bhoi introduction](../voices/bhima-editorial.json) follows the twenty-seventh boli selection printed on pp.74–75 of Mahapatra’s study, attending to the widening appeal. This is an English-mediated reading of a selected passage, not a complete reading of Swain’s translation or an Odia text. The NBT2026 catalogue p.22 and first-edition product metadata were freshly inspected; translation credits and existing edition scope remain unchanged.

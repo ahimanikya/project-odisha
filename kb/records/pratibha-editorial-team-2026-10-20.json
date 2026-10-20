@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T06:11:19.448769+00:00",
   "article_id": "POD-EDIT-047",
   "route": "/people/pratibha-ray/",
-  "status": "published_receipt_pending_integration",
+  "status": "receipt_integrated",
   "input_head": "798dff94367a14ff906ec3a80e7516102572e37d",
   "authorization": "POD-DEC-225",
   "classification": "Founder-directed writer introduction; Pratibha Ray’s authorship and translator/photographer credits preserved.",
@@ -63,7 +63,7 @@
       "name": "Disha",
       "runtime": "/root",
       "scope": "Pratibha collection prose, existing person/work KB, shared records, Git and publishing",
-      "status": "receipt_pending_integration",
+      "status": "complete",
       "findings": "Prose, KB, tests, responsive checks, reviewed PR361 merge and approved live publication completed; retain claim through receipt merge."
     }
   ],
@@ -112,5 +112,12 @@
     ]
   },
   "publication_receipt": "records/pratibha-editorial-publication-2026-10-20.json",
-  "ownership": "Disha retains claim until receipt PR is actually merged; release only after observed integration."
+  "ownership": "Released after observed receipt362 merge.",
+  "receipt_integration": {
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/362",
+    "merge_commit": "8961069ae7ad0bbededed6ecde21021141422f0e",
+    "reviewed_head": "a70a935174dc49f6b558bb93c2e2e426e616820d",
+    "ci_run": 39380722078,
+    "review": "Drishti separate AI PASS; actual merge observed20October2026"
+  }
 }

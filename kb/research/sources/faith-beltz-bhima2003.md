@@ -18,3 +18,7 @@ Johannes Beltz; chapter in Antony Copley (ed.), Hinduism in Public and Private, 
 Selected chapter sections inspected. Fieldwork belongs to Beltz in2000–2001, not Utkal. Hagiographic narratives are evidence of remembrance and interpretation, not verified miracles or birth records. Original volume year confirmed in RelBib record357743598.
 
 [Mahima Dharma and reading routes](../culture/mahima-dharma.md).
+
+## Editorial reuse · 20 October 2026
+
+Freshly read printed230–234 on the status of biographical stories and the author’s2000–2001 fieldwork, and244–245 on differing reception of Bhima Bhoi’s texts. The article attributes the historical comparison to Beltz and does not extend it to every current practitioner or assert current property/legal status.
