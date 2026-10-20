@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T05:12:52.404686+00:00",
   "article_id": "POD-EDIT-046",
   "route": "/people/sarala-das/",
-  "status": "published_receipt_pending_integration",
+  "status": "receipt_integrated",
   "input_head": "4c8513bf88f2bcf187b42e3314b284a913de452b",
   "authorization": "POD-DEC-225",
   "classification": "Founder-directed writer introduction; external epic authorship and documentary image provenance preserved.",
@@ -62,7 +62,7 @@
       "name": "Disha",
       "runtime": "/root",
       "scope": "Only Sarala entry in collection, associated KB narrative, shared records/Git/publishing",
-      "status": "receipt_pending_integration",
+      "status": "complete",
       "findings": "Prose, KB, tests, responsive checks, reviewed PR359 merge and approved live publication completed; retain claim through receipt merge."
     }
   ],
@@ -106,5 +106,12 @@
     ]
   },
   "publication_receipt": "records/sarala-editorial-publication-2026-10-20.json",
-  "ownership": "Disha retains claim until receipt PR is actually merged; release only after observed integration."
+  "ownership": "Released after observed receipt merge.",
+  "receipt_integration": {
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/360",
+    "merge_commit": "798dff94367a14ff906ec3a80e7516102572e37d",
+    "reviewed_head": "968042b1761b26cde694841aa7b9f9d2e9bb9582",
+    "ci_run": 39375735589,
+    "review": "Separate AI Drishti PASS; actual merge observed 20 October 2026"
+  }
 }

@@ -801,3 +801,7 @@ Expanded the existing Pala narrative using saved artist/network and literary evi
 ## Sarala literary profile ·20October2026
 
 The [Sarala Das person record](../people/sarala-das.md) extends the existing voices profile and literary-lives study, with no duplicate author identity. Reused the official overview/catalogue, contextual manuscript photograph and Osha source lead before adding Ghosh’s2025 study and Patnaik’s2019 author essay. Two selected scholarly readings are not a direct collation of the epic, and the catalogue PDF’s retrieval does not identify its edition. Biography and manuscript questions remain open.
+
+### Pratibha Ray editorial reuse · 20 October 2026
+
+POD-EDIT-047 extends the existing person, Yajnaseni, The Ring and Library of Congress source records and voices introduction. Read the existing career, author-hosted excerpt and adaptation sources before refreshing retrieval. Reused stable `creators-yajnaseni` and `literature-ray-loc` IDs for edition/translation and catalogue chronology; no duplicate person or work. Selected English excerpt examined for concrete narrative choices; full-novel/original-language and audio review remain open. Source mapping: `research/voices/pratibha-editorial.json`.
