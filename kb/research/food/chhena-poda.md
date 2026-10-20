@@ -59,3 +59,11 @@ Reuse of institutional overview; modern oven versions need no direct flame.
 ## Women’s enterprise research lead
 
 An indexed government case study names Kamadhenu Utpadaka Gosthi at Tendabadi, Daspalla, as a chhenapoda enterprise. The full document was unavailable, so its figures are held for verification in the [sweets-economy register](../references/data/sweets-economy.json). This adds a named research lead to the Nayagarh association; it does not establish the dish’s inventor, current business operation or a tested recipe. [SDG volume 2, January 2026, indexed p.26](https://sdg.odisha.gov.in/uploads/6052f16a-22b0-4ee3-9d98-0e6672b77ba3_1e128a94-3ef5-4bc8-80dc-fce54e1db29e.pdf).
+
+## Individual editorial review · 20 October 2026
+
+The [canonical public narrative](collection.json) and [passage-to-source map](chhena-poda-editorial.json) now distinguish three kinds of evidence: the current tourism trail’s Nayagarh association, Michael’s retrospective invention story, and named contemporary cooking adaptations. No exact invention date is established. Michael’s chocolate is mixed into the chhena before baking; Zacharias describes a restaurant presentation with strawberry compote and granola, while crediting Alka Jena’s work on the wider Odia menu.
+
+Correction to the previous public treatment: the sal-leaf aroma description is in Mansita Mishra’s surrounding feature, not a direct quotation from chef Thomas Zacharias. [Mishra, 27 November 2019](https://apps.odishatourism.gov.in/blog-detail/chef-tzac-odia-cuisine-is-an-evolved-cuisine). The original source IDs remain stable. Both chef accounts are hosted by Odisha Tourism and are not independent institutional corroboration.
+
+The current [Sweet Trail](https://odishatourism.gov.in/en/cuisine-culinary-trails) was read at the Chhena Poda bullet, reusing `sweets-tourism-trails20261020`; the old tourism overview failed on this retrieval and is not represented as freshly verified. The Kamadhenu enterprise lead and earlier conflicting “steamed” wording remain research questions, not public evidence of technique or current operation. No cooking trial, tasting, maker interview or human language review took place.

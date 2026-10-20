@@ -1,0 +1,457 @@
+{
+  "recorded_at": "2026-10-20T18:23:42.529706+00:00",
+  "article_id": "POD-EDIT-058",
+  "route": "/food/chhena-poda/",
+  "status": "in_progress",
+  "input_head": "349197491797e77ed9b9b4841d49a85b956cc0c8",
+  "authorization": [
+    "POD-DEC-2026101901",
+    "POD-DEC-2026101702",
+    "POD-DEC-225"
+  ],
+  "central_question": "What makes chhena poda distinct, and how do documented techniques and modern adaptations differ from its origin story?",
+  "acceptance": [
+    "Individually source and rewrite the existing article; preserve named culinary contributors and honest origin limits.",
+    "Visible numbered notes, Founder byline, natural reading rhythm, preserved further reading and update link.",
+    "Audit existing food image and rights, coherent portable reading, meaningful tests and responsive review.",
+    "Separate AI review of integrated candidate, passing required checks, approved deployment and actual live receipt before completion."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "status": "complete",
+      "input_head": "349197491797e77ed9b9b4841d49a85b956cc0c8",
+      "scope": "Read-only KB/source investigation; report to /tmp/pod-chhena-poda-research.json; no repository writes.",
+      "findings": "Three original pages read; final source attribution and compact wording passed. Source limits retained."
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "status": "complete",
+      "input_head": "349197491797e77ed9b9b4841d49a85b956cc0c8",
+      "scope": "Inspect current food layout and prepare scoped implementation; exact allowed files assigned separately. No shared records or Git mutations.",
+      "write_files": [
+        "projects/site/src/components/ChhenaPodaArticle.astro",
+        "projects/site/src/pages/food/[slug].astro",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/tests-coast/chhena-poda-editorial.test.mjs",
+        "projects/site/tests/discovery-and-books.test.mjs"
+      ],
+      "findings": "Five scoped files; static test passed, rendered checks in coordinator build."
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "status": "pending_integrated_candidate",
+      "scope": "Separate read-only candidate review after integration."
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "status": "in_progress",
+      "scope": "Canonical narrative, source mapping, image audit, shared records and publishing."
+    }
+  ],
+  "concurrency": "Previous article receipt PR388 merged at34919749; actual handoff complete. Only open unrelated PR304 and PR281 observed; no overlapping worker.",
+  "substantive_items_added": 0,
+  "human_review_claimed": false,
+  "research": {
+    "article_id": "POD-EDIT-058",
+    "route": "/food/chhena-poda/",
+    "role": "Anvesha: separate AI research worker, not human or field reviewer",
+    "input_head": "349197491797e77ed9b9b4841d49a85b956cc0c8",
+    "checked_on": "2026-10-20",
+    "scope": "Read-only reuse and actual-source inspection; no recipe testing, tasting, maker interview, current menu or shop verification.",
+    "existing_material": [
+      "kb/records/chhena-poda-editorial-team-2026-10-20.json",
+      "kb/research/methods/research-map.md",
+      "kb/research/food/chhena-poda.md",
+      "kb/research/food/collection.json",
+      "kb/research/sources/food-chhenapoda-chef2021.md",
+      "kb/research/sources/sweets-tourism-trails20261020.md"
+    ],
+    "sources": [
+      {
+        "id": "chhena-chef",
+        "kb_identity": "food-chhenapoda-chef2021",
+        "title": "CHHENAPODA",
+        "author": "Chef Michael",
+        "publisher": "Odisha Tourism contributor blog",
+        "published_on": "2021-07-29",
+        "url": "https://apps.odishatourism.gov.in/blog-detail/chhenapoda",
+        "inspection": "Actual original full-page HTML text via web open; selected paragraphs and complete ingredient/method sections read. No source screenshot or preserved raw-file hash claimed.",
+        "locators": [
+          "Opening origin account (web extraction line255)",
+          "Sugar/gud versions (256)",
+          "Chocolate adaptation introduction (257)",
+          "Chocolate Chhenapoda Recipe: ingredients (264–280), method (284–296)"
+        ],
+        "claims": [
+          {
+            "claim": "The contributor recounts Sudarshana Sahoo leaving sweetened leftover chhena in a still-warm oven overnight.",
+            "classification": "Retrospective origin story, not archival proof",
+            "limits": "No named contemporary record, corroborating interview, precise demonstrable date or invention priority supplied."
+          },
+          {
+            "claim": "His own chocolate recipe mixes chocolate powder and compound chocolate into mashed chhena/paneer, with semolina, ghee, milk and cashews, then bakes in a greased mould and cools before unmoulding.",
+            "classification": "Primary account of a named contemporary recipe",
+            "reader_value": "A substantive adaptation changes the mixture and uses a modern baking vessel; chocolate is not merely a garnish.",
+            "limits": "Not a universal formula; no recipe test, food-science mechanism or health judgement. Do not reproduce the full ingredient quantities or procedural recipe."
+          },
+          {
+            "claim": "He describes sugar and jaggery versions.",
+            "classification": "Contributor description of variation",
+            "limits": "Does not establish a universal binary or every producer’s ingredients."
+          }
+        ],
+        "public_note": "Chef Michael, “CHHENAPODA,” 29 July 2021: origin anecdote and his chocolate recipe. The account documents his adaptation; it does not independently establish the invention story.",
+        "recommended_public_derived_word_ceiling": 170
+      },
+      {
+        "id": "chhena-leaves",
+        "same_source_alias": "chef",
+        "title": "Chef TZac: Odia cuisine is an evolved cuisine",
+        "author": "Mansita Mishra",
+        "interviewee": "Thomas Zacharias",
+        "publisher": "Odisha Tourism contributor blog",
+        "published_on": "2019-11-27",
+        "url": "https://apps.odishatourism.gov.in/blog-detail/chef-tzac-odia-cuisine-is-an-evolved-cuisine",
+        "inspection": "Actual original HTML interview and following descriptive menu text read via web, not a search snippet.",
+        "locators": [
+          "Question about Odisha-inspired Bombay Canteen menu, answer mentioning Alka Jena (271–272)",
+          "Question about dish preparation, Zacharias answer on cheesecake, strawberry compote and granola (277–279)",
+          "Post-interview descriptive menu text, sal leaves and aroma (289)",
+          "Post-interview dessert description, sal-leaf baking and strawberry jam (297)",
+          "Byline and date (302–306)"
+        ],
+        "claims": [
+          {
+            "claim": "Zacharias says Alka Jena showed the visiting chefs home cooking and subsequently worked with them on recipe trials for the restaurant menu.",
+            "classification": "Interviewee’s firsthand account of collaboration",
+            "limits": "Dated 2019, not proof of current menu or an invitation to her home. Retain her contribution if describing how this restaurant adaptation developed."
+          },
+          {
+            "claim": "Zacharias describes a chhena-poda cheesecake with strawberry compote and granola.",
+            "classification": "Named chef’s contemporary adaptation",
+            "limits": "Use his own answer, not merge the later strawberry-jam wording into an invented precise recipe."
+          },
+          {
+            "claim": "The feature’s descriptive text connects wrapping/roasting with sal leaves to the dessert’s aroma; a later line describes baking in sal leaves.",
+            "classification": "Mishra feature’s description, outside direct interview answer",
+            "limits": "Attribute to the feature or leave citation in note; do not present these words as direct chef testimony. Does not establish every preparation uses sal leaves."
+          }
+        ],
+        "public_note": "Mansita Mishra’s 27 November 2019 interview with Thomas Zacharias records his restaurant adaptation and collaboration with Alka Jena. The accompanying menu description discusses sal leaves and aroma.",
+        "recommended_public_derived_word_ceiling": 170
+      },
+      {
+        "id": "sweets-tourism-trails20261020",
+        "title": "Cuisine and Culinary Trails: Sweet Trail",
+        "publisher": "Odisha Tourism, Government of Odisha",
+        "published_on": null,
+        "url": "https://odishatourism.gov.in/en/cuisine-culinary-trails",
+        "inspection": "Actual current HTML Sweet Trail section read, reusing the recently created source identity.",
+        "locators": [
+          "Sweet Trail, first bullet: Chhena Poda (web extraction352)"
+        ],
+        "claims": [
+          {
+            "claim": "The current official trail associates chhena poda with Nayagada and describes slow baking and a caramelised flavour.",
+            "classification": "Institutional culinary association and description",
+            "limits": "Its short origin assertion supplies neither an inventor nor historical evidence/date. Treat as association, not independent confirmation of Michael’s anecdote. Flavour wording does not establish a chemical mechanism."
+          }
+        ],
+        "public_note": "Odisha Tourism, “Cuisine and Culinary Trails,” Sweet Trail, accessed 20 October 2026: Nayagada association and slow-baked preparation; no supporting origin chronology is supplied.",
+        "recommended_public_derived_word_ceiling": 100
+      }
+    ],
+    "proposed_structure": [
+      {
+        "heading": "What heat changes",
+        "paragraphs": [
+          {
+            "text": "Chhena poda begins with fresh curd cheese, but baking is central to its identity. A slice gives you an edge and a centre to compare: try each separately before deciding what you like about it.",
+            "source_ids": [
+              "chhena-chef"
+            ],
+            "kind": "Sourced preparation fact plus original reader prompt"
+          },
+          {
+            "text": "Sal leaves can be part of that preparation. Mansita Mishra’s 2019 feature describes wrapping and roasting chhena poda in them and connects the leaves with its aroma. That is one documented approach, rather than a rule for every version.",
+            "source_ids": [
+              "chhena-leaves"
+            ],
+            "kind": "Attributed documented technique"
+          }
+        ]
+      },
+      {
+        "heading": "Changing the mixture",
+        "paragraphs": [
+          {
+            "text": "Chef Michael’s 2021 chocolate version mixes chocolate into the chhena with semolina, ghee, milk and cashews. He bakes it in a greased mould and cools it before unmoulding: an adaptation of the mixture, not simply a new topping.",
+            "source_ids": [
+              "chhena-chef"
+            ],
+            "kind": "Named adaptation and interpretation"
+          },
+          {
+            "text": "When comparing two slices, ask the maker about the sweetener and method. Begin with those choices rather than trying to reconstruct the whole recipe from the colour of the surface.",
+            "source_ids": [],
+            "kind": "Original question, no claim identifying ingredients from appearance"
+          }
+        ]
+      },
+      {
+        "heading": "A different way to serve it",
+        "paragraphs": [
+          {
+            "text": "Thomas Zacharias described another direction in 2019: a chhena-poda cheesecake with strawberry compote and granola at The Bombay Canteen. In the same interview he credited Alka Jena with sharing home cooking and helping the restaurant develop its Odisha menu.",
+            "source_ids": [
+              "chhena-leaves"
+            ],
+            "kind": "Dated named adaptation and contributor credit"
+          },
+          {
+            "text": "One example changes the cheese mixture; the other describes presentation and accompaniments. Together they offer a way to ask what a cook has kept, changed or brought forward.",
+            "source_ids": [],
+            "kind": "Original comparison grounded in immediately preceding examples; allocate derived words to both sources conservatively"
+          }
+        ]
+      },
+      {
+        "heading": "Nayagarh and the remembered beginning",
+        "paragraphs": [
+          {
+            "text": "Chhena poda has a strong association with Nayagarh, named as Nayagada in Odisha Tourism’s current Sweet Trail. That geographical link is easier to document than an exact moment of invention.",
+            "source_ids": [
+              "sweets-tourism-trails20261020"
+            ],
+            "kind": "Institutional association and evidence distinction"
+          },
+          {
+            "text": "Michael retells a story of sweet-maker Sudarshana Sahoo leaving sweetened leftover chhena in a still-warm oven overnight. His article supplies no contemporary evidence to date that discovery.",
+            "source_ids": [
+              "chhena-chef"
+            ],
+            "kind": "Explicitly attributed origin account, not established history"
+          }
+        ]
+      },
+      {
+        "heading": "Choose a slice, ask about the batch",
+        "paragraphs": [
+          {
+            "text": "Ask what went into the batch in front of you and how it was cooked. If ingredients matter to your choice, get the answer from the person preparing it. An older account of a restaurant dish should also be a starting point for questions, rather than a promise that it remains on the menu.",
+            "source_ids": [],
+            "kind": "Original reader guidance, no current menu or safety guarantee"
+          }
+        ]
+      }
+    ],
+    "editorial_decisions": [
+      "Keep direct culinary contributors named; ordinary institutional references can remain in numbered footnotes.",
+      "Retire the present broad origin phrase from unqualified narrative: distinguish a known place association from retrospective inventor testimony.",
+      "Do not repeat popularity, sales, restaurant scale, best-in-state claims or early-twentieth-century date as established history.",
+      "Do not label every browned edge caramelisation chemistry or explain semolina/protein behaviour without additional evidence.",
+      "The old food-tourism overview was not freshly retrieved in this run; its preserved KB evidence is historical context. Current source support is sufficient without claiming a new inspection.",
+      "The contradictory steamed label in a tourism RFP and indexed enterprise lead remain held in KB; neither belongs in this focused narrative.",
+      "The public source aliases chef and chhena-leaves identify the same Mishra interview; do not count them as independent corroboration.",
+      "Preserve existing related article links and honest documentary media credits; image/rights inspection is coordinator-owned for this task."
+    ],
+    "actual_checks": [
+      "Confirmed input Git HEAD and observed coordinator changes without modifying them.",
+      "Reused research-map/query and existing chhena-poda, variation and recent sweets-source records before source retrieval.",
+      "Read original Michael recipe and origin paragraphs, Mishra interview plus separate descriptive text, and current institutional Sweet Trail.",
+      "Checked same-source aliases and specific distinction between quoted speaker and surrounding editorial description."
+    ],
+    "limitations": [
+      "No archived invention record located or claimed.",
+      "No recipes cooked, food tasted, maker contacted, current retail availability checked, or human review performed.",
+      "No full website tests: research-only scope; canonical copy and final rendered footnotes still require coordinator word-budget and mapping checks.",
+      "Raw source captures/hashes were not created in this research pass. Web extraction locators complement stable section headings and URLs."
+    ],
+    "repository_mutations": false,
+    "word_budget_warning": "All proposed body paragraphs plus notes are below the 200-word/source limit when conservatively allocating the 29-word comparative paragraph to both chef sources. Final integration must still count lead, notes and any repeated factual summaries.",
+    "proposed_body_plus_note_word_counts": {
+      "chhena-chef": 153,
+      "chhena-leaves": 133,
+      "sweets-tourism-trails20261020": 53
+    },
+    "final_copy_review": {
+      "input_head": "349197491797e77ed9b9b4841d49a85b956cc0c8 plus coordinator working copy",
+      "files_sha256": {
+        "kb/research/food/collection.json": "7c78d13f1c05129ba21d66f210e18355b5e262e59fd61cbab7e383d9f8a52b6c",
+        "kb/research/food/chhena-poda-editorial.json": "05c18a4d1949344032072f89300f42ab5b11ff40f7e62ca5adab86fc886eabc5"
+      },
+      "finding": "Factual support and attribution PASS. Recommend a small Michael-source trim for comfortable aggregate word-limit clearance.",
+      "verified": [
+        "Baked sweetened fresh-curd cheese; current institutional Nayagarh association and slow-baking description.",
+        "Mishra narrative prose, rather than Zacharias direct answer, correctly credited for sal-leaf wrapping and aroma.",
+        "Origin story explicitly attributed and limited; no archival invention date asserted.",
+        "Michael mixture ingredients, mould baking, cooling and chocolate sauce match actual recipe.",
+        "Zacharias compote/granola and Alka Jena collaboration match interview, correctly dated 2019.",
+        "No current menu, enterprise or maker-inspection claim."
+      ],
+      "word_counts": {
+        "method": "Whitespace counts; complete mapped paragraphs assigned to every cited source. Lead and repeated uncited summaries considered separately; actual source dependence can be narrower than this deliberately conservative accounting.",
+        "chhena-chef": {
+          "mapped_body": 152,
+          "note": 24,
+          "mapped_body_plus_note": 176,
+          "whole_lead": 23,
+          "title": 7,
+          "body_note_lead_title": 206,
+          "additional_uncited_echoes": "Original comparison, repeated origin/place distinction and ingredient questions partly recap sourced material; trim rather than operate at199."
+        },
+        "chhena-leaves": {
+          "mapped_body": 108,
+          "note": 27,
+          "mapped_body_plus_note": 135,
+          "title": 14,
+          "additional_uncited_echoes": "Leaf cooking question and comparative presentation prompt still leave reasonable margin."
+        },
+        "sweets-tourism-trails20261020": {
+          "mapped_body": 44,
+          "note": 20,
+          "mapped_body_plus_note": 64
+        }
+      },
+      "recommended_optional_cuts": {
+        "origin-0": "Chef Michael’s 2021 account credits Nayagarh sweet-maker Sudarshana Sahoo with leaving sweetened leftover chhena in a still-warm oven overnight. This is a retrospective origin story, not contemporary evidence establishing an inventor or date.",
+        "variations-0": "Michael’s chocolate adaptation mixes chhena with semolina, ghee, milk, cashews, chocolate powder and compound chocolate, then bakes it in a mould. The chocolate changes the mixture itself; this is his recipe, not every maker’s formula."
+      },
+      "limits_preserved": [
+        "No new web retrieval in final-copy review.",
+        "Old institutional food overview was not freshly inspected; coordinator access failure remains a limitation.",
+        "Enterprise lead remains held and unused; no full-case-study access claimed.",
+        "Photographic appearance paragraph relies on coordinator image inspection; this final pass did not independently re-open the image.",
+        "No recipe testing, human tasting, field verification or human review."
+      ],
+      "repository_edits": false
+    },
+    "final_copy_recheck": {
+      "result": "PASS: factual support, correct attribution and reasonable source-word safety after shorter origin/adaptation paragraphs. No further cut required.",
+      "input_head": "349197491797e77ed9b9b4841d49a85b956cc0c8 plus current coordinator working copy",
+      "files_sha256": {
+        "kb/research/food/collection.json": "d066595ceb7fb835d13ca234fd4ba8a0d0fd1b7ed51cbd562a5d5e3ec876228e",
+        "kb/research/food/chhena-poda-editorial.json": "05c18a4d1949344032072f89300f42ab5b11ff40f7e62ca5adab86fc886eabc5"
+      },
+      "counts": {
+        "sweets-tourism-trails20261020": {
+          "mapped_body": 44,
+          "note": 20,
+          "body_plus_note": 64,
+          "title": 9,
+          "whole_lead": 23,
+          "body_note_title_whole_lead": 96
+        },
+        "chhena-leaves": {
+          "mapped_body": 108,
+          "note": 27,
+          "body_plus_note": 135,
+          "title": 14,
+          "whole_lead": 23,
+          "body_note_title_whole_lead": 172
+        },
+        "chhena-chef": {
+          "mapped_body": 122,
+          "note": 24,
+          "body_plus_note": 146,
+          "title": 7,
+          "whole_lead": 23,
+          "body_note_title_whole_lead": 176
+        }
+      },
+      "word_accounting_note": "Michael mapped paragraphs plus note are146 words; adding full title and entire lead gives176. That deliberately assigns to Michael all44 words of the opening, although its institutional Sweet Trail claims and original visual prompt derive elsewhere. This over-allocation provides room for the brief uncited comparison and ingredient-question echoes; these do not add a new substantive description. Mishra mapped body+note135; headline/lead and reader questions remain comfortably within200. No verbatim source quotation was introduced.",
+      "factual_check": "Shortened origin still frames a later telling rather than an inventor/date established by contemporary evidence. Adaptation ingredients, cooling and mixture distinction match inspected Michael recipe. No source or new factual assertion added.",
+      "unchanged_limits": [
+        "Old overview fresh access was unsuccessful/unclaimed.",
+        "Enterprise case study remains unavailable and unused.",
+        "No recipe testing, tasting, field contact or human review.",
+        "No new web retrieval in this recheck."
+      ],
+      "repository_edits": false
+    }
+  },
+  "implementation": {
+    "article_id": "POD-EDIT-058",
+    "input_head": "349197491797e77ed9b9b4841d49a85b956cc0c8",
+    "state": "fresh_rendered_tests_passed_frozen",
+    "files": [
+      "projects/site/src/components/ChhenaPodaArticle.astro",
+      "projects/site/src/pages/food/[slug].astro",
+      "projects/site/src/data/journey-catalog.ts",
+      "projects/site/tests-coast/chhena-poda-editorial.test.mjs",
+      "projects/site/tests/discovery-and-books.test.mjs"
+    ],
+    "scope": "Exact chhena-poda opt-in; shared MagazineArticle unchanged; canonical collection and source-map owned by Disha.",
+    "content": {
+      "sections": 5,
+      "paragraphs": 10,
+      "notes": 3,
+      "reference_occurrences": 6,
+      "passages": "Derived from canonical section IDs and paragraph indices; tested equal to mapped sourced passages.",
+      "save_id": "food:konark-chhena-poda"
+    },
+    "checks": [
+      {
+        "command": "node --test --test-name-pattern=\"Chhena Poda source map\" tests-coast/chhena-poda-editorial.test.mjs",
+        "cwd": "projects/site",
+        "result": "1 passed, 0 failed; source coverage, named culinary contributors, historical limitation and retained photo hash verified."
+      },
+      {
+        "command": "node --check projects/site/tests-coast/chhena-poda-editorial.test.mjs",
+        "result": "passed"
+      },
+      {
+        "command": "git diff --check",
+        "result": "passed"
+      },
+      {
+        "command": "node --test tests-coast/chhena-poda-editorial.test.mjs",
+        "cwd": "projects/site",
+        "result": "5 passed, 0 failed against coordinator fresh dist-coast. Corrected empty-attribute serialization assertion and confined negative class check to actual tags. Initial invocation from repository root could not find test; rerun at documented site cwd passed."
+      }
+    ],
+    "limits": [
+      "No build, visual or keyboard review performed by Samanta; coordinator owns these checks.",
+      "No source research, canonical prose/source-map/shared-record/asset edits or Git mutations."
+    ],
+    "preservation": [
+      "Exact existing anchors taste/origin/variations/try plus leaves; all related/discovery links and journey retained.",
+      "Cover byline and uncropped original photograph with documentary rights.",
+      "All narrative paragraphs preserved individually in HTML/text reading; source list restricted to title/URL.",
+      "Enduri Pitha negative control retains legacy article and portable authorship behavior.",
+      "Incoming food photo aliases untouched."
+    ]
+  },
+  "image_audit": {
+    "asset": "projects/site/public/images/destinations/chhena-poda.jpg",
+    "sha256": "94cd55915889d9787c9611197a2ec59a5670f491619ca8ca916ee4a87fdbf8aa",
+    "source": "https://commons.wikimedia.org/wiki/File:Chhena_Poda-Puri-Odisha-IMG_1323.jpg",
+    "creator": "Subhransuphotography",
+    "date": "2022-11-19",
+    "license": "CC BY-SA 4.0",
+    "review": "Actual local image visually inspected and Commons source/license read. Coherent plated food, brown edges and pale crumb, garnish and fruit visible. Retained unchanged with uncropped treatment; not a demonstration of leaf wrapping or a verified maker location."
+  },
+  "resolved_findings": [
+    "Corrected previous implied direct chef attribution for sal leaves to Mishra feature text.",
+    "Shortened Michael-derived paragraphs after research review; final conservative source allocation176 words.",
+    "Initial full-build preservation test saw copy changed during build; freeze final copy then regenerate all outputs.",
+    "Coast focused tests corrected two test-only false positives: empty HTML attributes and bundled CSS matching negative-control prose. Focused5/5 passed.",
+    "Source notes ordered by first appearance; final publication build repeated after this change."
+  ],
+  "validation": {
+    "full_tests": 566,
+    "full_build": "pass",
+    "coast_build": "pass",
+    "responsive": "Desktop1440x1000 and mobile390x844:740px/343.1953125px reading columns; no horizontal overflow; cover, prose and photograph inspected. Final keyboard reference to note2 and third return reached exact ref-variations-0-chhena-chef; Further reading toggled with Enter.",
+    "limits": [
+      "Browser emulation, not physical-device or screen-reader testing."
+    ],
+    "coast_tests": 342,
+    "publication_build": "pass;11 indexable routes unchanged"
+  }
+}

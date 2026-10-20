@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 396. completed: 51, excluded: 10, queued: 335.
+Route inventory: 396. completed: 51, excluded: 10, in_progress: 1, queued: 334.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -71,7 +71,7 @@ Route inventory: 396. completed: 51, excluded: 10, queued: 335.
 | POD-EDIT-055 | [Mayurbhanj Chhau](https://projectodisha.org/visit/experiences/mayurbhanj-chhau/) | completed | Individual Mayurbhanj Chhau practice, named works and visitor reading revision |
 | POD-EDIT-056 | [Stay around Balasore &amp; Chandipur](https://projectodisha.org/visit/stays/balasore-coast/) | completed | Individual Balasore and Chandipur overnight-base comparison and reading revision |
 | POD-EDIT-057 | [Stay around Similipal](https://projectodisha.org/visit/stays/similipal-gateways/) | completed | Individual stay-area article: named gateway pairings, day versus overnight arrangements and vehicle/guide requirements with concrete comparisons. |
-| POD-EDIT-058 | [Chhena Poda](https://projectodisha.org/food/chhena-poda/) | queued | classification_pending |
+| POD-EDIT-058 | [Chhena Poda](https://projectodisha.org/food/chhena-poda/) | in_progress | Existing food article: technique, interpretation and origin evidence individually reviewed |
 | POD-EDIT-059 | [Mudhi Mansa](https://projectodisha.org/food/mudhi-mansa/) | queued | classification_pending |
 | POD-EDIT-060 | [A meal by Chandipur](https://projectodisha.org/food/balasore/) | queued | classification_pending |
 | POD-EDIT-061 | [Destinations in Odisha](https://projectodisha.org/destinations/) | queued | classification_pending |

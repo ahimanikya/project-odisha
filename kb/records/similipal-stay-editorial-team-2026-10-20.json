@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T16:15:54.681680+00:00",
   "article_id": "POD-EDIT-057",
   "route": "/visit/stays/similipal-gateways/",
-  "status": "published_receipt_pending_integration",
+  "status": "complete",
   "input_head": "8c0665003f8ca3f847998df6981222c2ef4bbc56",
   "authorization": [
     "POD-DEC-2026101702",
@@ -92,8 +92,8 @@
       "name": "Disha",
       "runtime": "/root",
       "scope": "Canonical narrative, shared records, source/photo audit and publishing",
-      "status": "receipt_pending_integration",
-      "findings": "Prose, KB, tests, responsive checks, reviewed PR384 merge and approved live publication completed; retain claim through receipt merge."
+      "status": "complete",
+      "findings": "Published guide, KB, review, approved deployment, actual live checks and receipt PR388 all integrated; ownership released."
     }
   ],
   "concurrency": "All prior team workers completed; receipt PR380 observed merged. Incoming food-card image PR381/382 integrated; open PR304 statistics and PR281 Ashoka untouched.",
@@ -415,5 +415,81 @@
     }
   },
   "publication_receipt": "records/similipal-stay-editorial-publication-2026-10-20.json",
-  "ownership": "Disha retains claim until receipt PR is actually merged; release only after observed integration."
+  "ownership": "Disha released article ownership after observed receipt PR388 merge at 349197491797e77ed9b9b4841d49a85b956cc0c8. Next article requires a new reconciled claim.",
+  "receipt_integration": {
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/388",
+    "head": "bf04889831f90ae19d9f46bdb116c620314cb903",
+    "merge_commit": "349197491797e77ed9b9b4841d49a85b956cc0c8",
+    "merged_at": "2026-10-20T17:34:15Z",
+    "validation": {
+      "conclusion": "success",
+      "databaseId": 39466530874,
+      "headSha": "bf04889831f90ae19d9f46bdb116c620314cb903",
+      "status": "completed",
+      "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39466530874"
+    },
+    "review": {
+      "reviewer": "Drishti",
+      "kind": "separate_ai_receipt_review",
+      "head": "bf04889831f90ae19d9f46bdb116c620314cb903",
+      "base": "b7c30e6fd42c396079f6c6c679163b5f68ac5a97",
+      "result": "pass_with_limitations",
+      "blocking_findings": [],
+      "checks": {
+        "scope": "Ten files, records and two saved screenshots only; no website/source/policy changes.",
+        "validators": [
+          "article_rollout --check",
+          "check_team_assignments",
+          "check_autonomous_program",
+          "registers --check",
+          "editorial/build_workbench --check",
+          "git diff --check"
+        ],
+        "counts": {
+          "completed": 51,
+          "queued": 335,
+          "excluded": 10
+        },
+        "only_queue_entry_changed": "POD-EDIT-057",
+        "programme_byte_unchanged": true,
+        "substantive_completed": 112,
+        "review_transcription": "Receipt final_review and team review exactly equal saved combined-head review, including concurrency hold and resolution. Current limitations correctly distinguish initial and combined suites and completed release gates.",
+        "tree_correspondence": "Reviewed199c8b90c4cd2a0d238c20b45edaa7c0a3090a03 and mergedb7c30e6fd42c396079f6c6c679163b5f68ac5a97 trees identical.",
+        "ownership": "Disha retains POD-EDIT-057; receipt_integrated is conditional on observed receipt PR merge.",
+        "local_photo_hash_matches_receipt": true,
+        "registers": "Only rollout work progress, new AI review/release and one publication event appended; no substantive count increment."
+      },
+      "remote_verification": {
+        "method": "Independent gh pr view and gh run view",
+        "pull_request": 384,
+        "state": "MERGED",
+        "merged_at": "2026-10-20T17:21:31Z",
+        "reviewed_head": "199c8b90c4cd2a0d238c20b45edaa7c0a3090a03",
+        "merge_head": "b7c30e6fd42c396079f6c6c679163b5f68ac5a97",
+        "ci": {
+          "run": 39464635356,
+          "conclusion": "success",
+          "head": "199c8b90c4cd2a0d238c20b45edaa7c0a3090a03"
+        },
+        "deployment": {
+          "run": 39465385552,
+          "conclusion": "success",
+          "head": "b7c30e6fd42c396079f6c6c679163b5f68ac5a97"
+        }
+      },
+      "screenshot_review": {
+        "desktop_sha256": "606fc53be492eba9242ad707f8436d89bb84d824961505e0d46f599947ee073c",
+        "mobile_sha256": "bd958bbe900bf14dce6f397d38858002299ae6254e85cb9a13fbd54451ce8e29",
+        "result": "Both saved cover views visually inspected and hashes computed. Title, lead, Founder byline and documentary image legible without visible horizontal clipping. Full dated landscape-not-room caption visible on desktop; mobile screenshot ends within caption."
+      },
+      "limits": [
+        "Separate AI review, not human, hospitality specialist, legal or field approval.",
+        "Live HTTP/image requests, sitemap, responsive measurements and interactive keyboard/disclosure checks were coordinator-performed, not independently repeated.",
+        "Saved screenshots establish captured cover appearance, not full-page accessibility or interaction behavior.",
+        "No builds or website suites repeated for records-only scope; prior54 original and29 combined focused tests plus successful exact-head CI retained.",
+        "No field visit, current opening, live inventory, booking transaction, provider/guide/vehicle or room confirmation.",
+        "Receipt merge remains required before ownership release or another article claim."
+      ]
+    }
+  }
 }
