@@ -850,3 +850,7 @@ Reuse [sweets and places](../food/sweets-and-places.md) and its structured compa
 ### Chhena Poda individual editorial reuse · 20 October 2026
 
 POD-EDIT-058 reuses `food/chhena-poda.md`, `food/collection.json`, `sources/food-chhenapoda-chef2021.md` and `sources/sweets-tourism-trails20261020.md`. Actual Michael 2021, Mishra 2019 and current Sweet Trail pages were inspected. The [article map](../food/chhena-poda-editorial.json) separates recipe testimony, descriptive feature text and place association; it does not establish invention chronology. No new food entity, independent corroborator, enterprise metric or substantive-programme credit is created. The existing documentary food photograph and rights are retained.
+
+### Mudhi Mansa article · 21 October 2026
+
+Reused `food/collection.json`, its existing photograph and current culinary-trails source. Scoped search found no separate narrative; [source dossier](../food/mudhi-mansa-research-2026-10-21.json) records actual Oriyarasoi archive and reported Behera-family evidence, access limits and rejected ancient-origin claims. [Article map](../food/mudhi-mansa-editorial.json) maps the revised passage groups. No maker contact, tasting or archival invention witness claimed.

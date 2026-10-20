@@ -1,0 +1,385 @@
+{
+  "recorded_at": "2026-10-20T20:24:30.196421+00:00",
+  "article_id": "POD-EDIT-059",
+  "route": "/food/mudhi-mansa/",
+  "status": "research_and_implementation",
+  "input_head": "a136b2496f309061d4cd10bb7a7a977aa2c2dbd0",
+  "authorization": [
+    "POD-DEC-2026101901",
+    "POD-DEC-2026101702",
+    "POD-DEC-225"
+  ],
+  "central_question": "How does puffed rice work as a meal with meat curry in Baripada, and what can the evidence actually establish about its history and variations?",
+  "acceptance": [
+    "Investigate actual sources and distinguish documented practice from unproven origin stories.",
+    "Preserve named contributors/photo rights, add meaningful sourced examples and visible numbered footnotes.",
+    "Retain directory links and full portable narrative; test, responsive review, separate review, approved publication and live receipt."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "status": "complete",
+      "scope": "Read-only research; report /tmp/pod-mudhi-mansa-research.json. No repository writes.",
+      "findings": "Original sources inspected; concrete family/restaurant comparisons and historical limits reported."
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "status": "assigned",
+      "scope": "Read-only implementation assessment until exact files reserved.",
+      "write_files": [
+        "projects/site/src/components/MudhiMansaArticle.astro",
+        "projects/site/src/pages/food/[slug].astro",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/tests-coast/mudhi-mansa-editorial.test.mjs"
+      ]
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "status": "pending",
+      "scope": "Separate read-only integrated candidate review."
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "status": "active",
+      "scope": "Canonical content, image audit, shared records and publisher."
+    }
+  ],
+  "concurrency": "PR391 receipt observed merged; only unrelated304statistics and281Ashoka open. No overlapping article worker observed.",
+  "substantive_items_added": 0,
+  "human_review_claimed": false,
+  "research": {
+    "article_id": "POD-EDIT-059",
+    "input_head": "a136b2496f309061d4cd10bb7a7a977aa2c2dbd0",
+    "inspected_on": "2026-10-21",
+    "role": "Anvesha, separate AI research worker; no human or field review",
+    "sources": [
+      {
+        "id": "mudhi-oriyarasoi2015",
+        "new_identity": true,
+        "title": "Oriyarasoi · Mudhi Mansa (Puffed Rice with Mutton Gravy — A Baripada Special), 1 June 2015",
+        "url": "https://www.oriyarasoi.com/2015/06/mudhi-mansa-puffed-rice-with-mutton.html",
+        "access_url": "https://www.oriyarasoi.com/2015/06/",
+        "byline": "Oriyarasoi profile identity; full-name post byline not exposed",
+        "published_on": "2015-06-01",
+        "source_kind": "First-person food memory and writer’s own recipe",
+        "locators": [
+          "Archive heading Monday, June1,2015; opening memory (web lines547–551)",
+          "Ingredients and Preparation (557–571)",
+          "Profile label Oriyarasoi (695–696); sidebar handle sweta-biswal (598–600), not a full-name post byline"
+        ],
+        "actual_inspection": "Actual original monthly archive HTML read through web open/find. Original post web extraction returned zero lines; mobile variant failed. Direct normal TLS Python fetch failed DNS. Archive contains full post text and links to canonical permalink. Blogger profile fetch cache miss.",
+        "claims": [
+          "Writer recalls mother gathering cooker gravy with puffed rice, then adding onion and green chilli.",
+          "Accompanying serving recipe uses warm gravy, mutton pieces/fat and puffed rice with chopped vegetables/mustard oil, tossed and served immediately.",
+          "Recipe assembles already cooked curry and puffed rice; no new independent cooking procedure for the meat is reproduced."
+        ],
+        "not_adopted": [
+          "Universal claim about all Odia households revering meat.",
+          "Claim no Baripada wedding menu is complete without it.",
+          "No inferred inventor, date of childhood event or all-family custom."
+        ],
+        "note": "Oriyarasoi, 1 June 2015: first-person family memory and mixed-serving recipe, read in the site’s June archive. This is one writer’s account, not a household survey."
+      },
+      {
+        "id": "mudhi-tnie2019",
+        "new_identity": true,
+        "title": "The New Indian Express · Mudhi Mansa: The classic breakfast of warriors, 24 August 2019",
+        "url": "https://www.newindianexpress.com/lifestyle/food/2019/aug/24/mudhi-mansa-the-classic-breakfast-of-warriors-2023711.html",
+        "published_on": "2019-08-24",
+        "author": "No named byline exposed in inspected page; do not infer from writer-description footer",
+        "source_kind": "Reported food feature with named family/patron interview quotes",
+        "locators": [
+          "Opening Behera account and serving changes (web53–55)",
+          "Jogeswar Behera’s direct quote (56)",
+          "Speculative ancient-origin paragraphs (60–67) read only to assess limitations"
+        ],
+        "actual_inspection": "Original complete article HTML read with web open. Stronger parts concern named restaurant practices; ancient claims lack archival locators and mix Mauryan, Gupta and Mughal chronology.",
+        "claims": [
+          "Feature places Behera’s enterprise in1969; do not reframe this as proved invention date.",
+          "It describes thicker gravy and curd-based relish, including cucumber/onion/sweet chilli pickle.",
+          "Jogeswar Behera speaks of recipe/presentation continuity as family testimony."
+        ],
+        "not_adopted": [
+          "Ashoka, Kautilya, Gupta, Ganga, Mughal or RajaManSingh origin chronology.",
+          "Claims sal-leaf diet causes tender meat, rice variety is finest, khasi/lamb equivalence, origin of rice strains.",
+          "Old prices, current restaurant availability, ratings or present-day endorsement."
+        ],
+        "note": "The New Indian Express, 24 August 2019: opening account of the Behera family’s restaurant preparation. Its ancient-origin assertions lack inspectable archival citations; current service was not checked."
+      },
+      {
+        "id": "sweets-tourism-trails20261020",
+        "new_identity": false,
+        "title": "Odisha Tourism · Cuisine and Culinary Trails",
+        "url": "https://odishatourism.gov.in/en/cuisine-culinary-trails",
+        "published_on": null,
+        "source_kind": "Official tourism description",
+        "locators": [
+          "Rural & Traditional Cuisine, parched/puffed-rice bullet (web334)"
+        ],
+        "actual_inspection": "Current original HTML read; reuse existing stable source identity rather than create a duplicate for another section.",
+        "claims": [
+          "Mayurbhanj associated with Mudhi (puffed rice) Mansa (mutton)."
+        ],
+        "not_adopted": [
+          "Nutrition, universality, exact invention or recipe technique not established by brief institutional description."
+        ],
+        "note": "Odisha Tourism, Cuisine and Culinary Trails, Rural & Traditional Cuisine: regional association and puffed-rice/mutton pairing; no invention chronology."
+      },
+      {
+        "id": "mudhi-photo",
+        "new_identity": false,
+        "title": "Sangram Keshari Senapati · Mudhi Mansa photograph",
+        "url": "https://commons.wikimedia.org/wiki/File:Mudhi_Mansa.jpg",
+        "source_kind": "Creator’s own photo and description",
+        "actual_inspection": "Original Commons caption/metadata text read. Coordinator independently inspected local pixels and confirmed9September2020 own-work and CC BY-SA4.0; this research worker did not claim a new visual inspection.",
+        "locators": [
+          "English/Odia captions (web115–119)",
+          "Summary/Licensing; coordinator-confirmed date and attribution"
+        ],
+        "claims": [
+          "Creator identifies pictured meal as his Baripada-style chicken-curry preparation."
+        ],
+        "not_adopted": [
+          "Restaurant dish identification, universal standard recipe or mutton identity."
+        ],
+        "note": "Creator’s description of his own Baripada-style chicken preparation. The photograph documents this serving, not a restaurant menu or universal recipe."
+      }
+    ],
+    "sections": [
+      {
+        "id": "place",
+        "title": "Rice and curry, brought together",
+        "paragraphs": [
+          {
+            "text": "Mudhi mansa brings puffed rice together with meat curry. Odisha Tourism’s current culinary guide associates the mutton version with Mayurbhanj. The rice and curry deserve equal attention: the interest lies in how the two are brought together.",
+            "source_ids": [
+              "sweets-tourism-trails20261020"
+            ],
+            "kind": "sourced_summary"
+          },
+          {
+            "text": "Start with the rice before mixing it. Then add a little gravy and notice what changes: the coating, the texture and how much curry you want with each handful. This is a way to explore your serving, not a rule that everyone must eat it in the same sequence.",
+            "source_ids": [],
+            "kind": "editorial_invitation"
+          }
+        ]
+      },
+      {
+        "id": "home",
+        "title": "The gravy left in the cooker",
+        "paragraphs": [
+          {
+            "text": "A June 2015 Oriyarasoi post begins with the writer’s childhood memory. After the mutton curry had been transferred out, her mother put puffed rice into the pressure cooker to gather the gravy clinging to its sides. Chopped onion and green chillies finished the bowl for the waiting children.",
+            "source_ids": [
+              "mudhi-oriyarasoi2015"
+            ],
+            "kind": "sourced_summary"
+          },
+          {
+            "text": "The accompanying recipe turns that memory into an assembled serving: warm gravy, some meat and puffed rice are tossed with chopped vegetables and mustard oil, then served immediately. The rice is mixed with an already cooked curry. The account explains one household practice; it does not establish how every family in Baripada eats.",
+            "source_ids": [
+              "mudhi-oriyarasoi2015"
+            ],
+            "kind": "sourced_summary"
+          }
+        ]
+      },
+      {
+        "id": "restaurant",
+        "title": "A restaurant makes its own choices",
+        "paragraphs": [
+          {
+            "text": "A 2019 New Indian Express feature describes Kartik Chandra Behera’s Garma Garam version as a deliberate change from thinner home-style gravy. It reports a thicker curry and a separate curd-based relish with onion, cucumber and sweet chilli pickle. In the same account, his son Jogeswar describes continuity in the family’s preparation.",
+            "source_ids": [
+              "mudhi-tnie2019"
+            ],
+            "kind": "sourced_summary"
+          },
+          {
+            "text": "Compare that arrangement with the home account’s mixed bowl. Here, rice, curry and relish remain distinct choices to bring together. Ask about the accompaniments: they can reveal how the kitchen intends the meal to work.",
+            "source_ids": [
+              "mudhi-tnie2019",
+              "mudhi-oriyarasoi2015"
+            ],
+            "kind": "editorial_interpretation"
+          }
+        ]
+      },
+      {
+        "id": "variations",
+        "title": "A photograph of a particular meal",
+        "paragraphs": [
+          {
+            "text": "Sangram Keshari Senapati identifies this photograph as his own Baripada-style preparation with chicken curry, made at home. It is a concrete example of variation under the same dish name. The image should not be relabelled mutton simply because the familiar description of mudhi mansa often uses that meat.",
+            "source_ids": [
+              "mudhi-photo"
+            ],
+            "kind": "sourced_summary"
+          },
+          {
+            "text": "The photograph offers another useful comparison with a mixed serving: the puffed rice and curry remain visibly distinct. Ask which meat is being served and what comes alongside it. The answer belongs to the kitchen and the meal in front of you.",
+            "source_ids": [],
+            "kind": "editorial_invitation; coordinator must confirm image description"
+          }
+        ]
+      },
+      {
+        "id": "history",
+        "title": "A place association is not an invention date",
+        "paragraphs": [
+          {
+            "text": "The 2019 feature places Behera’s restaurant story in 1969, while also reaching back to royal and military origins. Those are different kinds of claim. A later account of a named business cannot date the first household pairing of puffed rice and curry, and the article supplies no inspectable archival reference establishing that distant chronology.",
+            "source_ids": [
+              "mudhi-tnie2019"
+            ],
+            "kind": "sourced_summary"
+          },
+          {
+            "text": "The useful story is already close at hand: cooks choosing how to use gravy, what to mix into the rice and what to serve beside it. When planning a meal in Baripada, use the dining directory as a starting point and confirm the current dish, price and opening time directly. A historical account is not a present-day restaurant review.",
+            "source_ids": [],
+            "kind": "editorial_invitation"
+          }
+        ]
+      }
+    ],
+    "word_counts_body_plus_notes_conservative": {
+      "mudhi-oriyarasoi2015": 161,
+      "mudhi-tnie2019": 167,
+      "sweets-tourism-trails20261020": 55,
+      "mudhi-photo": 68
+    },
+    "word_budget": "<=200 per original source. Counts allocate all jointly sourced comparison words to both original sources, but the opening definition uses institutional source only. Leave margins for final titles/lead. Original permalink and monthly archive are one source, not independent corroboration.",
+    "other_actual_source_inspected": {
+      "url": "https://www.cntraveller.in/story/a-locals-guide-to-mayurbhanj-odisha/",
+      "title": "A local’s guide to Mayurbhanj, Odisha",
+      "author": "Shradha Shahani",
+      "date": "2021-09-13",
+      "locator": "Eat at… answer in interview with Akshita and Mrinalika Bhanj Deo",
+      "finding": "Names Garam Masala, not TNIE Garma Garam; also repeats warrior story without archival evidence. Do not silently equate businesses or use as corroboration of ancient chronology. Not needed in public prose."
+    },
+    "checks": [
+      "Confirmed inputHEAD.",
+      "Read current handoff and editorialstandard/researchmap.",
+      "query_research.py mudhi mansa returned no hits; rg found collection source/page/photo records; reused current culinary-trails source.",
+      "Inspected original monthly archive, full reported feature, current tourism page and Commons caption; identified unsupported scope in origin narratives."
+    ],
+    "limits": [
+      "No food tasted, recipe tested, shop visited/contacted, present menu/prices/hygiene checked, rice variety verified or historical archive consulted.",
+      "Old Baripada tourism URL remains previous shell/404/indexed evidence; use current culinary-trails source for regional pairing.",
+      "Report’s presentational photo observation awaits coordinator visualconfirmation already reported.",
+      "No final website tests or publication checks performed by this research worker."
+    ],
+    "repository_edits": false,
+    "final_copy_review": {
+      "input_head": "a136b2496f309061d4cd10bb7a7a977aa2c2dbd0 plus coordinator working copy",
+      "result": "Factual support and attribution PASS; recommend small further cuts to provide source-word margin for final synthesis.",
+      "files_sha256": {
+        "kb/research/food/collection.json": "aa449522dd2c2e6256f3bd19b45f14fccaf9abbbd5092b2b293980712238ad6e",
+        "kb/research/food/mudhi-mansa-editorial.json": "6aa612f1d36fa875ea5a5673d4ee3a5ff750011974bd6df29564bca1a5d3daa9"
+      },
+      "passage_mapping_exact": true,
+      "passage_count": 10,
+      "word_counts": {
+        "sweets-tourism-trails20261020": {
+          "mapped_body": 37,
+          "note": 18,
+          "title": 7,
+          "entire_lead": 22,
+          "conservative_total_before_closing_synthesis": 84
+        },
+        "mudhi-oriyarasoi2015": {
+          "mapped_body": 115,
+          "note": 25,
+          "title": 16,
+          "entire_lead": 22,
+          "conservative_total_before_closing_synthesis": 178
+        },
+        "mudhi-tnie2019": {
+          "mapped_body": 109,
+          "note": 27,
+          "title": 15,
+          "entire_lead": 22,
+          "conservative_total_before_closing_synthesis": 173
+        },
+        "mudhi-photo": {
+          "mapped_body": 48,
+          "note": 20,
+          "title": 7,
+          "entire_lead": 22,
+          "conservative_total_before_closing_synthesis": 97
+        }
+      },
+      "word_count_interpretation": "Full-lead allocation to each source is deliberately conservative. The final original synthesis recaps both source practices and can also count as derived; Oriyarasoi194 and TNIE186 before that recap are close to200. Trim repeated generalisation/history wording instead of relying on the tightest allocation.",
+      "suggested_cuts": {
+        "home-1": "Remove final sentence beginning The account explains one household practice; source note already states the scope.",
+        "history-0": "The 2019 feature places Behera’s venture in 1969. That dates its restaurant story, not the first household pairing; its distant royal and military claims lack inspectable archival references."
+      },
+      "provenance_note": "Internal evidence_limits currently says photograph observation awaits coordinator visualconfirmation already reported. Replace with explicit reliance on coordinator’s completed local-image audit; research role only checked creator metadata.",
+      "actual_checks": [
+        "Read exact saved6-section10-paragraph canonical entry and editorial source map.",
+        "Compared names, cooking steps, chronology qualification and citation grouping against previously inspected original sources.",
+        "Counted all mapped body text, source notes/titles and entire lead, separately considering final source-based synthesis."
+      ],
+      "limitations": [
+        "No new web fetch.",
+        "Original individual Oriyarasoi permalink remained empty; actual June archive successfully inspected and is correctly used publicly.",
+        "No full-name post byline inferred.",
+        "No tasting, recipe trial, current service verification, historical archival research or human review."
+      ],
+      "repository_edits": false
+    }
+  },
+  "image_audit": {
+    "asset": "projects/site/public/assets/language-literature/mudhi-mansa.jpg",
+    "sha256": "7d96b934d4d64e38cd20f379e4aa342abe28a8bab2d3fa28305015a5e717edfa",
+    "review": "Actual photograph viewed: coherent leaf bowl with puffed rice, onion and curry; preserve unchanged and uncropped. Original Commons description/licence read; creator’s chicken identification retained; date9September2020 andCCBYSA4.0 verified.",
+    "human_review": false
+  },
+  "implementation": {
+    "article_id": "POD-EDIT-059",
+    "input_head": "a136b2496f309061d4cd10bb7a7a977aa2c2dbd0",
+    "status": "stable_for_coordinator_build",
+    "files": [
+      "projects/site/src/components/MudhiMansaArticle.astro",
+      "projects/site/src/pages/food/[slug].astro",
+      "projects/site/src/data/journey-catalog.ts",
+      "projects/site/tests-coast/mudhi-mansa-editorial.test.mjs"
+    ],
+    "checks": [
+      {
+        "command": "node --test --test-name-pattern=\"Mudhi Mansa source map\" tests-coast/mudhi-mansa-editorial.test.mjs",
+        "cwd": "projects/site",
+        "result": "1 passed, 0 failed; map/source/attribution/photo checks."
+      },
+      "Focused test syntax passed",
+      "git diff --check passed"
+    ],
+    "limits": [
+      "No build or fresh rendered tests; coordinator orchestrates full/coast builds.",
+      "No canonical KB/records/assets, shared MagazineArticle, book-photos or Git mutations."
+    ],
+    "preservation": [
+      "Exact food:baripada-mudhi-mansa identity",
+      "Complete narrative paragraph arrays in portable output",
+      "Original photo source/creator/license with home-cooked chicken context",
+      "WhereToEat slot retained even though no matching directory venue/city exists currently",
+      "Other food authors unchanged, with Enduri negative control and Chhena positive dining regression"
+    ],
+    "content": {
+      "sections": 6,
+      "paragraphs": 10,
+      "notes": 4,
+      "reference_occurrences": 8
+    }
+  },
+  "resolved_findings": [
+    "Shortened household and history passages after source allocation review; all final source budgets below200 words including notes and conservative overhead.",
+    "Added explicit Baripada dining-directory reading link without claiming a matching dish venue.",
+    "Initial coastal suite caught stale expected phrase after final prose trim; test wording aligned, frozen candidate rebuilt."
+  ],
+  "review_correction": "Separate source review: TNIE identifies Jogeswar as family scion, not explicitly son; final article uses Jogeswar Behera without a parental relationship claim."
+}
