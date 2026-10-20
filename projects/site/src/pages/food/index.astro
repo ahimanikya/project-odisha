@@ -1,6 +1,16 @@
 ---
 import PlanningCollection from '../../components/PlanningCollection.astro';
 import {planningCollections} from '../../data/planning-collections';
-const collection=planningCollections.find(c=>c.slug==='food');
+import hub from '../../../../../kb/research/food/discovery-hub.json';
+import foods from '../../../../../kb/research/food/collection.json';
+const foodCollection=planningCollections.find(c=>c.slug==='food')!;
+const cardImages:Record<string,{asset:string;caption?:string}>=hub.card_images;
+const collection={...foodCollection,entries:foodCollection.entries.map(entry=>{
+ const image=cardImages[entry.id];
+ if(!image)return entry;
+ const photo=foods.assets[image.asset as keyof typeof foods.assets];
+ if(!photo)throw new Error(`Missing food card image: ${image.asset}`);
+ return {...entry,photo,photoFit:photo.fit==='contain'?'contain':'cover',photoNote:image.caption||photo.caption};
+})};
 ---
 <PlanningCollection collection={collection}/>
