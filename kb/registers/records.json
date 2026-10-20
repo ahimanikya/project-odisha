@@ -8647,7 +8647,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "POD-DEC-2026101702",
-      "next_action": "Continue next eligible queued article after verifying receipt integration and reconciling team ownership;44 editorial entries complete.",
+      "next_action": "Continue next eligible queued article after verifying receipt integration and reconciling team ownership;45 editorial entries complete.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026101702",
@@ -8724,7 +8724,9 @@
         "POD-REV-2026102008",
         "POD-REL-2026102008",
         "POD-REV-2026102009",
-        "POD-REL-2026102009"
+        "POD-REL-2026102009",
+        "POD-REV-2026102010",
+        "POD-REL-2026102010"
       ],
       "evidence": [
         "reference/article-editorial-standard.md",
@@ -8768,7 +8770,8 @@
         "records/bhima-editorial-publication-2026-10-20.json",
         "records/gopinath-editorial-publication-2026-10-20.json",
         "records/gangadhar-editorial-publication-2026-10-20.json",
-        "records/balasore-editorial-publication-2026-10-20.json"
+        "records/balasore-editorial-publication-2026-10-20.json",
+        "records/mayurbhanj-editorial-publication-2026-10-20.json"
       ],
       "acceptance_criteria": [
         "Every published baseline route classified; each article independently reviewed against approved standard with PR/test/deploy/live receipt; exclusions justified; future articles follow same rule."
@@ -21271,6 +21274,34 @@
         "Geological interpretation and dated historical accounts; no fieldwork, current tide prediction, archival corroboration or human review.",
         "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
       ]
+    },
+    {
+      "id": "POD-REV-2026102010",
+      "title": "Separate Mayurbhanj article and source review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent /root/drishti"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human or language-specialist review.",
+      "reviewed_head": "373adbc49decf73b9e7a05eb0ccea935409e36bb",
+      "refs": [
+        "POD-WORK-302",
+        "POD-DEC-2026101901",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/mayurbhanj-editorial-team-2026-10-20.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human, specialist or field review.",
+        "Selected documentary text and indexed descriptions; no full play reading or performance attendance.",
+        "Responsive, keyboard and rendered SVG checks are coordinator-performed, not independently repeated.",
+        "Full build/suite results are coordinator-performed; reviewer ran the 17 focused tests and listed validators.",
+        "No fieldwork, witnessed performance, full play reading, current availability confirmation or human review. Selected indexed-source access limits retained.",
+        "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
+      ]
     }
   ],
   "releases": [
@@ -24442,6 +24473,23 @@
         "records/balasore-editorial-team-2026-10-20.json"
       ],
       "note": "Reviewed PR369 passed checks and merged; approved deployment and live notes, retained documentary photographs and responsive reading verified. Zero substantive programme credit."
+    },
+    {
+      "id": "POD-REL-2026102010",
+      "title": "Mayurbhanj forest, movement and written language",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/destinations/mayurbhanj/",
+      "refs": [
+        "POD-WORK-302",
+        "POD-REV-2026102010",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/mayurbhanj-editorial-publication-2026-10-20.json",
+        "records/mayurbhanj-editorial-team-2026-10-20.json"
+      ],
+      "note": "Reviewed PR371 passed checks and merged; approved deployment and live notes, retained documentary photographs and responsive reading verified. Zero substantive programme credit."
     }
   ],
   "sources": [

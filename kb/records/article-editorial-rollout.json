@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-20T11:14:32.697842+00:00",
+  "updated_at": "2026-10-20T11:36:19.178657+00:00",
   "authorization": "POD-DEC-2026101702",
   "work_id": "POD-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -1738,16 +1738,27 @@
       "id": "POD-EDIT-052",
       "route": "/destinations/mayurbhanj/",
       "title": "Mayurbhanj: places, food &amp; living culture",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "classification_pending",
       "source_template": null,
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
-        "records/mayurbhanj-editorial-team-2026-10-20.json"
+        "records/mayurbhanj-editorial-team-2026-10-20.json",
+        "records/mayurbhanj-editorial-publication-2026-10-20.json"
       ],
       "blocker": null,
       "owner": "Disha",
-      "started_at": "2026-10-20T11:14:32.697842+00:00"
+      "started_at": "2026-10-20T11:14:32.697842+00:00",
+      "completed_at": "2026-10-20T11:36:19.178657+00:00",
+      "publication_receipt": "records/mayurbhanj-editorial-publication-2026-10-20.json"
     },
     {
       "id": "POD-EDIT-053",

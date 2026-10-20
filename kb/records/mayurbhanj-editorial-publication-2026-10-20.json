@@ -1,0 +1,161 @@
+{
+  "recorded_at": "2026-10-20T11:36:19.178657+00:00",
+  "authorization": [
+    "POD-DEC-2026101702",
+    "POD-DEC-225",
+    "POD-DEC-2026101901"
+  ],
+  "work_id": "POD-WORK-302",
+  "queue_item": "POD-EDIT-052",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/371",
+  "reviewed_head": "373adbc49decf73b9e7a05eb0ccea935409e36bb",
+  "merge_commit": "2598feb4696ded48f690a65e05a61caa1978bae7",
+  "validation": {
+    "conclusion": "success",
+    "databaseId": 39415201116,
+    "headSha": "373adbc49decf73b9e7a05eb0ccea935409e36bb",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39415201116"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "databaseId": 39415654479,
+    "headSha": "2598feb4696ded48f690a65e05a61caa1978bae7",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39415654479"
+  },
+  "live_checks": {
+    "checked_at": "2026-10-20T11:35:20.187931+00:00",
+    "url": "https://projectodisha.org/destinations/mayurbhanj/",
+    "http_status": 200,
+    "html_sha256": "0dcb8153dc3d507f87fe52253bb485a5e39768793bca91f3296dc9a7838dec9d",
+    "visible_notes": 8,
+    "references": 14,
+    "exact_returns": 14,
+    "checks": {
+      "byline": true,
+      "headline": true,
+      "specific_reading": true,
+      "access_limits": true,
+      "noindex": true,
+      "returns": true,
+      "image_credits": true,
+      "canonical_save": true
+    },
+    "images": {
+      "/images/regions/barehipani.jpg": {
+        "http_status": 200,
+        "sha256": "48936cd341129e6dc21082f88a938d566b133cfc12e7f4bf427d2ecf0823d026"
+      },
+      "/images/regions/mayurbhanj-chhau.webp": {
+        "http_status": 200,
+        "sha256": "74d69ba8018fd8b389a8872afcabc568ddfcc47dc288338a2b2ed6c39922673a"
+      },
+      "/assets/language-literature/mudhi-mansa.jpg": {
+        "http_status": 200,
+        "sha256": "7d96b934d4d64e38cd20f379e4aa342abe28a8bab2d3fa28305015a5e717edfa"
+      },
+      "/assets/language-literature/ol-chiki.svg": {
+        "http_status": 200,
+        "sha256": "43497034b34aae814636b2cf601c6d08dec5fdf1211d37521ae36c00f90e8b6e"
+      }
+    },
+    "unchanged_sitemap_count": 11,
+    "route_inventory": {
+      "directory_indexes": 394,
+      "separate_error_page": "/404.html",
+      "unregistered_routes": [],
+      "total_registered_routes": 395
+    },
+    "browser": {
+      "viewports": [
+        [
+          1440,
+          1000
+        ],
+        [
+          390,
+          844
+        ]
+      ],
+      "reading_widths": [
+        740,
+        343.1953125
+      ],
+      "horizontal_overflow": false,
+      "visible_notes": true,
+      "exact_keyboard_returns": [
+        "ref-stories-1-similipal-biosphere"
+      ],
+      "further_reading_keyboard_toggle": true,
+      "screenshots": [
+        "records/evidence/mayurbhanj-editorial-2026-10-20/live-desktop.png",
+        "records/evidence/mayurbhanj-editorial-2026-10-20/live-mobile.png"
+      ],
+      "limits": [
+        "Browser emulation, not physical-device or screen-reader testing."
+      ],
+      "screenshot_sha256": {
+        "live-desktop.png": "cf33c39e819d1bbc9412cf2de9a8fddf4888574f2123ceab70e34d814bbea1b6",
+        "live-mobile.png": "1aab8bf454951efeb7c41a063b43407085356ead187565d5a961101336b314d2"
+      },
+      "script_sample_rendered": true
+    }
+  },
+  "test_review_and_source_mapping": "records/mayurbhanj-editorial-team-2026-10-20.json",
+  "final_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_review",
+    "head": "373adbc49decf73b9e7a05eb0ccea935409e36bb",
+    "base": "7ca9cae45b84f04c74e7faadf0ceb3a27edeca17",
+    "result": "pass_with_limitations",
+    "blocking_findings": [],
+    "checks": {
+      "focused_tests": 17,
+      "validators": [
+        "article_rollout",
+        "team_assignments",
+        "autonomous_program",
+        "registers",
+        "workbench",
+        "catalogue",
+        "research_map",
+        "git_diff_check"
+      ],
+      "paragraphs": 10,
+      "visible_notes": 8,
+      "references_and_exact_returns": 14,
+      "only_region_row_changed": "mayurbhanj",
+      "asset_metadata_unchanged": true,
+      "programme_byte_unchanged": true,
+      "substantive_completed": 112
+    },
+    "source_review": "Independently inspected actual UNESCO Similipal profile, Battery Dance programme and credits, President Secretariat 2023 release, current Baripada food description and reserve guidelines. Rechecked indexed UNESCO Chhau, Murmu and district sabai descriptions. Claims match selected evidence and stated access limits. Three local photos visually inspected; all four Commons provenance/licences rechecked. SVG bytes/metadata reviewed, not independently browser-rendered.",
+    "implementation_review": "Exact Mayurbhanj opt-in; full ten-paragraph portable narrative, eight visible notes/fourteen exact references, all four retained assets. Coastal Ol Chiki card saves existing allowed Santali identity with page-and-idea guards; no edition eligibility/configuration change. Other regional data and assets unchanged; Santali byline negative control passes. Disha retains sole claim; article remains in progress.",
+    "limits": [
+      "Separate AI review, not human, specialist or field review.",
+      "Selected documentary text and indexed descriptions; no full play reading or performance attendance.",
+      "Responsive, keyboard and rendered SVG checks are coordinator-performed, not independently repeated.",
+      "Full build/suite results are coordinator-performed; reviewer ran the 17 focused tests and listed validators."
+    ]
+  },
+  "integration_review": {
+    "head": "2598feb4696ded48f690a65e05a61caa1978bae7",
+    "result": "pass",
+    "scope": "Merge tree identical to separately reviewed candidate; no incoming changes."
+  },
+  "concurrent_work": "Open PR304 statistics and PR281 Ashoka untouched. No overlapping article claim.",
+  "attachment_note": "PR attachment attempted; app limit100 reached. URL retained here.",
+  "counting": "One editorial article; zero substantive500 increment. Programme remains112.",
+  "limitations": [
+    "Separate AI review, not human, specialist or field review.",
+    "Selected documentary text and indexed descriptions; no full play reading or performance attendance.",
+    "Responsive, keyboard and rendered SVG checks are coordinator-performed, not independently repeated.",
+    "Full build/suite results are coordinator-performed; reviewer ran the 17 focused tests and listed validators.",
+    "No fieldwork, witnessed performance, full play reading, current availability confirmation or human review. Selected indexed-source access limits retained.",
+    "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
+  ],
+  "verified_routes": [
+    "/destinations/mayurbhanj/"
+  ]
+}

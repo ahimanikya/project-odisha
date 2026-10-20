@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T11:14:32.697842+00:00",
   "article_id": "POD-EDIT-052",
   "route": "/destinations/mayurbhanj/",
-  "status": "in_progress",
+  "status": "published_receipt_pending_integration",
   "input_head": "7ca9cae45b84f04c74e7faadf0ceb3a27edeca17",
   "authorization": "POD-DEC-225",
   "central_question": "How can a reader understand Mayurbhanj through the forest, the trained body and the written language without reducing its communities to attractions?",
@@ -54,13 +54,24 @@
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Separate integrated candidate review",
-      "status": "assigned"
+      "status": "complete",
+      "input_head": "373adbc49decf73b9e7a05eb0ccea935409e36bb",
+      "findings": "Exact Mayurbhanj opt-in; full ten-paragraph portable narrative, eight visible notes/fourteen exact references, all four retained assets. Coastal Ol Chiki card saves existing allowed Santali identity with page-and-idea guards; no edition eligibility/configuration change. Other regional data and assets unchanged; Santali byline negative control passes. Disha retains sole claim; article remains in progress.",
+      "limits": [
+        "Separate AI review, not human, specialist or field review.",
+        "Selected documentary text and indexed descriptions; no full play reading or performance attendance.",
+        "Responsive, keyboard and rendered SVG checks are coordinator-performed, not independently repeated.",
+        "Full build/suite results are coordinator-performed; reviewer ran the 17 focused tests and listed validators.",
+        "No fieldwork, witnessed performance, full play reading, current availability confirmation or human review. Selected indexed-source access limits retained.",
+        "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
+      ]
     },
     {
       "name": "Disha",
       "runtime": "/root",
       "scope": "Narrative/KB integration, shared records and publishing",
-      "status": "in_progress"
+      "status": "receipt_pending_integration",
+      "findings": "Prose, KB, tests, responsive checks, reviewed PR371 merge and approved live publication completed; retain claim through receipt merge."
     }
   ],
   "concurrency": "Named workers completed prior scopes; receipt370 independently confirmed merged. PR304 and281 unrelated and untouched.",
@@ -131,5 +142,43 @@
     "limits": [
       "Browser emulation, not physical-device or screen-reader testing."
     ]
-  }
+  },
+  "review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_review",
+    "head": "373adbc49decf73b9e7a05eb0ccea935409e36bb",
+    "base": "7ca9cae45b84f04c74e7faadf0ceb3a27edeca17",
+    "result": "pass_with_limitations",
+    "blocking_findings": [],
+    "checks": {
+      "focused_tests": 17,
+      "validators": [
+        "article_rollout",
+        "team_assignments",
+        "autonomous_program",
+        "registers",
+        "workbench",
+        "catalogue",
+        "research_map",
+        "git_diff_check"
+      ],
+      "paragraphs": 10,
+      "visible_notes": 8,
+      "references_and_exact_returns": 14,
+      "only_region_row_changed": "mayurbhanj",
+      "asset_metadata_unchanged": true,
+      "programme_byte_unchanged": true,
+      "substantive_completed": 112
+    },
+    "source_review": "Independently inspected actual UNESCO Similipal profile, Battery Dance programme and credits, President Secretariat 2023 release, current Baripada food description and reserve guidelines. Rechecked indexed UNESCO Chhau, Murmu and district sabai descriptions. Claims match selected evidence and stated access limits. Three local photos visually inspected; all four Commons provenance/licences rechecked. SVG bytes/metadata reviewed, not independently browser-rendered.",
+    "implementation_review": "Exact Mayurbhanj opt-in; full ten-paragraph portable narrative, eight visible notes/fourteen exact references, all four retained assets. Coastal Ol Chiki card saves existing allowed Santali identity with page-and-idea guards; no edition eligibility/configuration change. Other regional data and assets unchanged; Santali byline negative control passes. Disha retains sole claim; article remains in progress.",
+    "limits": [
+      "Separate AI review, not human, specialist or field review.",
+      "Selected documentary text and indexed descriptions; no full play reading or performance attendance.",
+      "Responsive, keyboard and rendered SVG checks are coordinator-performed, not independently repeated.",
+      "Full build/suite results are coordinator-performed; reviewer ran the 17 focused tests and listed validators."
+    ]
+  },
+  "publication_receipt": "records/mayurbhanj-editorial-publication-2026-10-20.json",
+  "ownership": "Disha retains claim until receipt PR is actually merged; release only after observed integration."
 }
