@@ -1,0 +1,849 @@
+{
+  "record_id": "POD-RESTAURANT-AUDIT-20261020",
+  "checked_on": "2026-10-20",
+  "researcher": "Anvesha",
+  "scope": "Review of all 61 original public restaurant records against existing evidence, with targeted fresh official retrievals for weak access evidence, geography, contacts and cuisine claims. One record was held by the coordinator during this audit.",
+  "input_snapshot_at_write": {
+    "path": "kb/research/food/restaurants.json",
+    "sha256": "de542943b953d3b602f36f0eb8602ac285b3206efdaa8ac2b771fb92787cb0d1",
+    "git_head": "8c0665003f8ca3f847998df6981222c2ef4bbc56",
+    "public_venues": 60,
+    "pending_venues": 1,
+    "note": "Shared coordinator edits were in progress; this snapshot records state at evidence write, not immutable initial input."
+  },
+  "reuse_before_research": {
+    "method": "Reviewed research map and ran query_research.py restaurant before targeted web work; read existing source records for all venue batches.",
+    "source_records": [
+      "bhubaneswar-restaurant-direct-links-20261020.json",
+      "restaurant-cities-coast-south-20261020.json",
+      "restaurant-cities-west-north-20261020.json",
+      "restaurants-tourist-expansion-coast-20261020.json",
+      "restaurants-tourist-expansion-regions-20261020.json",
+      "atithi-devo-bhaba-20261020.json",
+      "puri-coco-palms-20261020.json"
+    ],
+    "additional_context": [
+      "kb/research/food/bhubaneswar.json",
+      "kb/research/facilities/nimantran-bhubaneswar.md"
+    ]
+  },
+  "findings": [
+    {
+      "id": "F01",
+      "priority": "P2",
+      "slug": "jajpur-road-sao",
+      "issue": "Public operator link currently unusable in tested paths",
+      "source_url": "https://www.satarupa.in/",
+      "observations": [
+        "Web open failed.",
+        "Chrome navigation returned net::ERR_SSL_PROTOCOL_ERROR.",
+        "Wayback replay request also failed."
+      ],
+      "wayback_attempt": {
+        "url": "https://web.archive.org/web/20260000000000/https://www.satarupa.in/",
+        "result": "Retrieval error; no archived snapshot content was read."
+      },
+      "action": "Move full venue record to pending_venues until a usable direct operator source is verified. Preserve prior indexed evidence and phone without claiming closure.",
+      "coordinator_status_at_write": "Already held in pending_venues.",
+      "limitations": [
+        "Failure in these tools is not evidence that the restaurant closed or that every browser cannot reach it."
+      ]
+    },
+    {
+      "id": "F02",
+      "priority": "P2",
+      "slug": "barbeque-nation",
+      "issue": "Operator title/address inconsistency",
+      "source_url": "https://www.barbequenation.com/restaurants/bhubaneswar/dn-regalia-mall-patrapada",
+      "observations": [
+        "Page title names DN Regalia Mall.",
+        "Address block gives 6th floor, Service road South Tamando DN Square, Kalinga Vihar, Patrapada, Odisha 751019."
+      ],
+      "recommended_fields": {
+        "name": "Barbeque Nation",
+        "area": "Patrapada / South Tamando — confirm DN Square address",
+        "visitor_note": "The operator page names DN Regalia but gives a DN Square address. Confirm the location when booking."
+      },
+      "action": "Avoid presenting DN Regalia as an unqualified physical address. Keep neutral restaurant name and disclose conflict.",
+      "limitations": [
+        "No relocation date or explanation independently established."
+      ]
+    }
+  ],
+  "status_upgrades": [
+    {
+      "slug": "crunchy-munchie",
+      "source_url": "https://crunchymunchie.in/",
+      "retrieval_method": "web_page",
+      "recommended_evidence_status": "operator_page",
+      "verified_fields": [
+        "Restaurant identity at Cozzet Victoria",
+        "Vegetarian/nonvegetarian thalis and kebabs",
+        "2282/2851 Cuttack Road, Buddha Nagar, Laxmisagar, Bhubaneswar"
+      ],
+      "limitations": []
+    },
+    {
+      "slug": "welcomcafe",
+      "source_url": "https://www.itchotels.com/in/en/welcomhotelbhubaneswar-bhubaneswar",
+      "retrieval_method": "web_page",
+      "recommended_evidence_status": "operator_page",
+      "verified_fields": [
+        "Named WelcomCafe outlet",
+        "All-day dining",
+        "Explicit Oriya dishes",
+        "Hotel address D/1 Dumuduma, Bhubaneswar"
+      ],
+      "limitations": [
+        "Hotel address and switchboard must not be presented as separate restaurant contact."
+      ]
+    },
+    {
+      "slug": "golden-bird",
+      "source_url": "https://www.hotelpushpak.com/n/dining.php",
+      "retrieval_method": "web_page",
+      "recommended_evidence_status": "operator_page",
+      "verified_fields": [
+        "Golden Bird outlet at Hotel Pushpak",
+        "Indian, Chinese, Tandoor and Continental cuisines",
+        "Kalpana Square, Bhubaneswar"
+      ],
+      "limitations": []
+    },
+    {
+      "slug": "yum-yum-fast-food",
+      "source_url": "https://www.hotelpushpak.com/n/dining.php",
+      "retrieval_method": "web_page",
+      "recommended_evidence_status": "operator_page",
+      "verified_fields": [
+        "Yum Yum outlet at hotel entrance",
+        "Rolls, Chinese, Tandoor and Indian food",
+        "Kalpana Square, Bhubaneswar"
+      ],
+      "limitations": []
+    },
+    {
+      "slug": "barbeque-nation",
+      "source_url": "https://www.barbequenation.com/restaurants/bhubaneswar/dn-regalia-mall-patrapada",
+      "retrieval_method": "web_page",
+      "recommended_evidence_status": "operator_page",
+      "verified_fields": [
+        "Restaurant identity and Patrapada locality",
+        "Operator outlet page accessible"
+      ],
+      "limitations": [
+        "Outlet title and address conflict: see F02."
+      ]
+    },
+    {
+      "slug": "kanika",
+      "source_url": "https://www.mayfairhotels.com/lagoon-bhubaneswar/dining.html",
+      "retrieval_method": "web_page",
+      "recommended_evidence_status": "operator_page",
+      "verified_fields": [
+        "Kanika outlet",
+        "Traditional Odia food explicitly described",
+        "Mayfair Lagoon, Jayadev Vihar"
+      ],
+      "limitations": []
+    },
+    {
+      "slug": "angul-shakti-continental",
+      "source_url": "https://hotelshakticontinental.com/services-facilities/",
+      "retrieval_method": "chrome_visible_page",
+      "recommended_evidence_status": "operator_page_browser",
+      "verified_fields": [
+        "Multicuisine restaurant",
+        "6th Lane, Amalapada, Angul 759122",
+        "Phone 8093088880"
+      ],
+      "limitations": [
+        "Web-text retrieval failure resolved by Chrome page."
+      ]
+    },
+    {
+      "slug": "bhadrak-soukheen-hotel-orion",
+      "source_url": "https://hotelorion.in/dining/",
+      "retrieval_method": "chrome_visible_page",
+      "recommended_evidence_status": "operator_page_browser",
+      "verified_fields": [
+        "Named Soukheen/Saukheen family restaurant; both spellings occur",
+        "Indian, Chinese, Tandoori and Continental food",
+        "Near Nehru Stadium, NH16, Bhadrak 756100",
+        "Phone 9437068219"
+      ],
+      "limitations": [
+        "Operator spelling variation retained without inventing a corrected brand."
+      ]
+    },
+    {
+      "slug": "rayagada-jyoti-mahal",
+      "source_url": "https://hoteljyotimahal.com/",
+      "retrieval_method": "chrome_visible_page",
+      "recommended_evidence_status": "operator_page_browser",
+      "verified_fields": [
+        "Restaurant facility",
+        "Convent Road, New Colony, Rayagada 765001"
+      ],
+      "limitations": [
+        "Automatic browser-loading screen cleared before readable content; no challenge bypass. No new phone inferred."
+      ]
+    },
+    {
+      "slug": "bhawanipatna-amrapali-classic",
+      "source_url": "https://hotelamrapaliclassic.com/",
+      "retrieval_method": "chrome_visible_page",
+      "recommended_evidence_status": "operator_page_browser",
+      "verified_fields": [
+        "Multicuisine restaurant in operator FAQ",
+        "Hilltown, Bhawanipatna 766002",
+        "Phone 9938187448"
+      ],
+      "limitations": [
+        "Generic award/heritage promotion was not adopted as verified fact."
+      ]
+    },
+    {
+      "slug": "sambalpur-nimantran",
+      "source_url": "https://otdc.odisha.gov.in/en/light/subsubpage/nimantran-restaurant-sambalapur",
+      "retrieval_method": "chrome_visible_page",
+      "recommended_evidence_status": "operator_page_browser",
+      "verified_fields": [
+        "Sambalpur Nimantran outlet identity",
+        "Regional Odia cooking",
+        "Phone 8328880507"
+      ],
+      "limitations": [
+        "OTDC Lewis Road footer is head office, not this restaurant address. No street address added."
+      ]
+    },
+    {
+      "slug": "bhubaneswar-nimantran",
+      "source_url": "https://otdc.odisha.gov.in/en/light/subsubpage/nimantran-restaurant-bhubaneswar",
+      "retrieval_method": "chrome_visible_page",
+      "recommended_evidence_status": "operator_page_browser",
+      "verified_fields": [
+        "Bhubaneswar Nimantran outlet identity",
+        "Regional Odia cooking",
+        "Phone 7854815707",
+        "Parking and waiting area"
+      ],
+      "limitations": [
+        "Near Rama Devi Women’s University is supported by the previously archived 2023 government tender, not by the generic footer on this page."
+      ]
+    }
+  ],
+  "fresh_no_change_checks": [
+    {
+      "slugs": [
+        "garam-masala"
+      ],
+      "source_url": "https://garammasala.co.in/menu.php",
+      "method": "web_page_and_chrome_visible_page",
+      "observations": [
+        "Actual directory menu URL works.",
+        "Odia Cuisine section explicitly present alongside Indian and Chinese dishes.",
+        "Footer gives Chandrasekharpur, Bhubaneswar and phone 9937014000."
+      ],
+      "outcome": "retain",
+      "limitations": [
+        "Root homepage https://garammasala.co.in/ failed in web retrieval and showed HTTP 500 in Chrome. This does not invalidate the working menu URL. No link replacement needed."
+      ]
+    },
+    {
+      "slugs": [
+        "dhenkanal-nirupama"
+      ],
+      "source_url": "https://nirupamagroup.com/",
+      "method": "web_page",
+      "observations": [
+        "Dhenkanal property specifically describes Odia meals.",
+        "NH55, Mahisapat Road and phone 9348608425 match.",
+        "Kapilash is separately described; the directory has not merged the two properties."
+      ],
+      "outcome": "retain"
+    },
+    {
+      "slugs": [
+        "pind-da-dhaba"
+      ],
+      "source_url": "https://www.palheights.com/dining/pal-heights-mantra",
+      "method": "web_page",
+      "observations": [
+        "Punjabi food description matches.",
+        "Pahal/Plot 26 property locality matches; outlying location is not silently moved to central Bhubaneswar."
+      ],
+      "outcome": "retain"
+    },
+    {
+      "slugs": [
+        "cuttack-odisha-hotel",
+        "bhubaneswar-odisha-hotel"
+      ],
+      "source_url": "https://odishahotel.in/contact",
+      "method": "web_page",
+      "observations": [
+        "Sahid Nagar C18 address and phone 9861887700 match.",
+        "Cuttack is an operator-listed branch but its exact street address is left to enquiry; existing caution is appropriate."
+      ],
+      "outcome": "retain"
+    },
+    {
+      "slugs": [
+        "odraa"
+      ],
+      "source_url": "https://www.odraa.in/",
+      "method": "web_page",
+      "observations": [
+        "Tallina Patnaik and Tanaya Patnaik named as founders.",
+        "Odia regional influences and contemporary presentation support description.",
+        "N3/46 Nayapalli and phone 6372900356 match."
+      ],
+      "outcome": "retain",
+      "limitations": [
+        "Google Drive menu contents remain unread; existing menu limitation should remain."
+      ]
+    },
+    {
+      "slugs": [
+        "atithi-devo-bhaba"
+      ],
+      "source_url": "https://atithidevobhaba.com/",
+      "method": "web_page",
+      "observations": [
+        "Odia vegetarian/nonvegetarian food and Kansa thali explicit.",
+        "Chhena Poda, Poda Pitha and Patra Poda associations supported.",
+        "A/54 Saheed Nagar, opposite Law University and phone 7735693202 match."
+      ],
+      "outcome": "retain"
+    },
+    {
+      "slugs": [
+        "jeypore-swad-sadan"
+      ],
+      "source_url": "https://www.balkrishnapalace.in/",
+      "method": "web_page",
+      "observations": [
+        "FAQ names Swad Sadan as rooftop restaurant and explicitly welcomes walk-ins.",
+        "Odia, North Indian and Continental cuisine supported.",
+        "Parabeda Chowk/NH26 locality supported."
+      ],
+      "outcome": "retain"
+    },
+    {
+      "slugs": [
+        "jeypore-hotel-signature"
+      ],
+      "source_url": "https://hotelsignaturejeypore.in/",
+      "method": "web_page_attempt",
+      "observations": [
+        "Fresh web extraction returned only a minimal line and did not newly substantiate fields."
+      ],
+      "outcome": "retain_existing_browser_evidence",
+      "limitations": [
+        "Earlier browser evidence in the coastal/southern city record remains the basis; a thin web extract does not prove the restaurant or website has closed."
+      ]
+    }
+  ],
+  "existing_evidence_review_safeguards": [
+    "Naivaidyam is not labelled pure vegetarian because operator copy contains contradictory salmon wording.",
+    "Cuttack Odisha Hotel street address is explicitly left for direct enquiry.",
+    "OTDC Lewis Road head-office footer is not used as Nimantran outlet geography.",
+    "Puri Oudichi founder recommendation is identified separately from operator evidence.",
+    "Hotel restaurants do not receive blanket walk-in assurances; Swad Sadan is explicit.",
+    "No new dish associations were added.",
+    "Outlying Pahala, Ramachandi and Bejiput locations remain explicit.",
+    "Kendujhar remains a coverage gap rather than receiving an unsupported filler venue."
+  ],
+  "inventory": [
+    {
+      "slug": "odraa",
+      "existing_evidence": [
+        "kb/research/references/data/odraa-20261020.json"
+      ],
+      "audit_basis": "fresh_operator_check_and_existing_evidence",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "atithi-devo-bhaba",
+      "existing_evidence": [
+        "kb/research/references/data/atithi-devo-bhaba-20261020.json"
+      ],
+      "audit_basis": "fresh_operator_check_and_existing_evidence",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "zaika",
+      "existing_evidence": [
+        "kb/research/references/data/bhubaneswar-restaurant-direct-links-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "pind-da-dhaba",
+      "existing_evidence": [
+        "kb/research/references/data/bhubaneswar-restaurant-direct-links-20261020.json"
+      ],
+      "audit_basis": "fresh_operator_check_and_existing_evidence",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "breeze",
+      "existing_evidence": [
+        "kb/research/references/data/bhubaneswar-restaurant-direct-links-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "crunchy-munchie",
+      "existing_evidence": [
+        "kb/research/references/data/bhubaneswar-restaurant-direct-links-20261020.json"
+      ],
+      "audit_basis": "fresh_operator_check_and_existing_evidence",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "welcomcafe",
+      "existing_evidence": [
+        "kb/research/references/data/bhubaneswar-restaurant-direct-links-20261020.json"
+      ],
+      "audit_basis": "fresh_operator_check_and_existing_evidence",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "golden-bird",
+      "existing_evidence": [
+        "kb/research/references/data/bhubaneswar-restaurant-direct-links-20261020.json"
+      ],
+      "audit_basis": "fresh_operator_check_and_existing_evidence",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "the-salt-theory-kitchen-and-bar",
+      "existing_evidence": [
+        "kb/research/references/data/bhubaneswar-restaurant-direct-links-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "kanika",
+      "existing_evidence": [
+        "kb/research/references/data/bhubaneswar-restaurant-direct-links-20261020.json"
+      ],
+      "audit_basis": "fresh_operator_check_and_existing_evidence",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "garam-masala",
+      "existing_evidence": [
+        "kb/research/references/data/bhubaneswar-restaurant-direct-links-20261020.json"
+      ],
+      "audit_basis": "fresh_operator_check_and_existing_evidence",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "silver-streak",
+      "existing_evidence": [
+        "kb/research/references/data/bhubaneswar-restaurant-direct-links-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "barbeque-nation",
+      "existing_evidence": [
+        "kb/research/references/data/bhubaneswar-restaurant-direct-links-20261020.json"
+      ],
+      "audit_basis": "fresh_operator_check_and_existing_evidence",
+      "outcome": "address_conflict_disclosed"
+    },
+    {
+      "slug": "pizza-hut",
+      "existing_evidence": [
+        "kb/research/references/data/bhubaneswar-restaurant-direct-links-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "domino-s-pizza",
+      "existing_evidence": [
+        "kb/research/references/data/bhubaneswar-restaurant-direct-links-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "yum-yum-fast-food",
+      "existing_evidence": [
+        "kb/research/references/data/bhubaneswar-restaurant-direct-links-20261020.json"
+      ],
+      "audit_basis": "fresh_operator_check_and_existing_evidence",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "the-chef-restaurant",
+      "existing_evidence": [
+        "kb/research/references/data/bhubaneswar-restaurant-direct-links-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "cuttack-odisha-hotel",
+      "existing_evidence": [
+        "kb/research/references/data/restaurant-cities-coast-south-20261020.json"
+      ],
+      "audit_basis": "fresh_operator_check_and_existing_evidence",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "cuttack-zaikedaar-dhaba",
+      "existing_evidence": [
+        "kb/research/references/data/restaurant-cities-coast-south-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "puri-oudichi-hans-coco-palms",
+      "existing_evidence": [
+        "kb/research/references/data/puri-coco-palms-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "puri-nimantran",
+      "existing_evidence": [
+        "kb/research/references/data/restaurant-cities-coast-south-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "puri-pearl",
+      "existing_evidence": [
+        "kb/research/references/data/restaurant-cities-coast-south-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "berhampur-vayu",
+      "existing_evidence": [
+        "kb/research/references/data/restaurant-cities-coast-south-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "balasore-julian",
+      "existing_evidence": [
+        "kb/research/references/data/restaurant-cities-coast-south-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "balasore-barjorjis-banjara",
+      "existing_evidence": [
+        "kb/research/references/data/restaurant-cities-coast-south-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "jeypore-swad-sadan",
+      "existing_evidence": [
+        "kb/research/references/data/restaurant-cities-coast-south-20261020.json"
+      ],
+      "audit_basis": "fresh_operator_check_and_existing_evidence",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "jeypore-hotel-signature",
+      "existing_evidence": [
+        "kb/research/references/data/restaurant-cities-coast-south-20261020.json"
+      ],
+      "audit_basis": "fresh_operator_check_and_existing_evidence",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "koraput-raj-residency",
+      "existing_evidence": [
+        "kb/research/references/data/restaurant-cities-coast-south-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "paradip-mosaic",
+      "existing_evidence": [
+        "kb/research/references/data/restaurant-cities-coast-south-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "paradip-sea-pearl",
+      "existing_evidence": [
+        "kb/research/references/data/restaurant-cities-coast-south-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "rourkela-super-snax-mayfair-garden",
+      "existing_evidence": [
+        "kb/research/references/data/restaurant-cities-west-north-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "rourkela-tea-pot-world-cup-village",
+      "existing_evidence": [
+        "kb/research/references/data/restaurant-cities-west-north-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "sambalpur-nimantran",
+      "existing_evidence": [
+        "kb/research/references/data/restaurant-cities-west-north-20261020.json"
+      ],
+      "audit_basis": "fresh_operator_check_and_existing_evidence",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "sambalpur-sapphire-grand-siba",
+      "existing_evidence": [
+        "kb/research/references/data/restaurant-cities-west-north-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "jharsuguda-naivaidyam-mohini-royale",
+      "existing_evidence": [
+        "kb/research/references/data/restaurant-cities-west-north-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "jharsuguda-pipul-utkal-continental",
+      "existing_evidence": [
+        "kb/research/references/data/restaurant-cities-west-north-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "balangir-cupid-apoorva-royale",
+      "existing_evidence": [
+        "kb/research/references/data/restaurant-cities-west-north-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "balangir-swayam-hotel-resort",
+      "existing_evidence": [
+        "kb/research/references/data/restaurant-cities-west-north-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "angul-shakti-continental",
+      "existing_evidence": [
+        "kb/research/references/data/restaurant-cities-west-north-20261020.json"
+      ],
+      "audit_basis": "fresh_operator_check_and_existing_evidence",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "dhenkanal-nirupama",
+      "existing_evidence": [
+        "kb/research/references/data/restaurant-cities-west-north-20261020.json"
+      ],
+      "audit_basis": "fresh_operator_check_and_existing_evidence",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "baripada-shakti-hotel-durga",
+      "existing_evidence": [
+        "kb/research/references/data/restaurant-cities-west-north-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "bhadrak-soukheen-hotel-orion",
+      "existing_evidence": [
+        "kb/research/references/data/restaurant-cities-west-north-20261020.json"
+      ],
+      "audit_basis": "fresh_operator_check_and_existing_evidence",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "bargarh-royal-leaf",
+      "existing_evidence": [
+        "kb/research/references/data/restaurant-cities-west-north-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "rayagada-jyoti-mahal",
+      "existing_evidence": [
+        "kb/research/references/data/restaurant-cities-west-north-20261020.json"
+      ],
+      "audit_basis": "fresh_operator_check_and_existing_evidence",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "bhawanipatna-amrapali-classic",
+      "existing_evidence": [
+        "kb/research/references/data/restaurant-cities-west-north-20261020.json"
+      ],
+      "audit_basis": "fresh_operator_check_and_existing_evidence",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "jajpur-road-paradise-restro",
+      "existing_evidence": [
+        "kb/research/references/data/restaurant-cities-west-north-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "bhubaneswar-odisha-hotel",
+      "existing_evidence": [
+        "kb/research/references/data/restaurants-tourist-expansion-coast-20261020.json"
+      ],
+      "audit_basis": "fresh_operator_check_and_existing_evidence",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "bhubaneswar-nimantran",
+      "existing_evidence": [
+        "kb/research/references/data/restaurants-tourist-expansion-coast-20261020.json"
+      ],
+      "audit_basis": "fresh_operator_check_and_existing_evidence",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "puri-holiday-palms",
+      "existing_evidence": [
+        "kb/research/references/data/restaurants-tourist-expansion-coast-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "konark-lotus-restaurant",
+      "existing_evidence": [
+        "kb/research/references/data/restaurants-tourist-expansion-coast-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "chilika-orana",
+      "existing_evidence": [
+        "kb/research/references/data/restaurants-tourist-expansion-coast-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "gopalpur-yummies",
+      "existing_evidence": [
+        "kb/research/references/data/restaurants-tourist-expansion-coast-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "gopalpur-1914",
+      "existing_evidence": [
+        "kb/research/references/data/restaurants-tourist-expansion-coast-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "sambalpur-kedias-restaurant",
+      "existing_evidence": [
+        "kb/research/references/data/restaurants-tourist-expansion-regions-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "rourkela-yavis",
+      "existing_evidence": [
+        "kb/research/references/data/restaurants-tourist-expansion-regions-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "jharsuguda-the-marinated",
+      "existing_evidence": [
+        "kb/research/references/data/restaurants-tourist-expansion-regions-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "berhampur-bojanam",
+      "existing_evidence": [
+        "kb/research/references/data/restaurants-tourist-expansion-regions-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "balasore-yum-chinese",
+      "existing_evidence": [
+        "kb/research/references/data/restaurants-tourist-expansion-regions-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "jharsuguda-super-snax-mayfair-oasis",
+      "existing_evidence": [
+        "kb/research/references/data/restaurants-tourist-expansion-regions-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    },
+    {
+      "slug": "cuttack-vdumpling-dynasty",
+      "existing_evidence": [
+        "kb/research/references/data/restaurants-tourist-expansion-regions-20261020.json"
+      ],
+      "audit_basis": "existing_evidence_review",
+      "outcome": "no_substantive_correction_identified"
+    }
+  ],
+  "limitations": [
+    "This is a documentary audit, not a field visit or independent assessment of hygiene, hospitality, food quality or present opening hours.",
+    "Not every venue received a new network retrieval; inventory distinguishes fresh checks from existing evidence review.",
+    "Web and Chrome visible text were read; raw pages/screenshots were not archived as new local copies in this audit.",
+    "Automatic browser loading screens resolved normally; no security challenge was bypassed.",
+    "Phone numbers are operator-published, not tested by call.",
+    "A timeout, sparse extract or SSL error alone is not evidence of restaurant closure."
+  ],
+  "mutation_scope": "Only this reserved audit evidence JSON was written by Anvesha; shared data and site decisions belong to coordinator."
+}

@@ -52,6 +52,7 @@ const chapterId=story.voice?'poems-songs':'history';
         <div class="mag-food-lead" id={foodLead.id.replaceAll(':','-')} data-source-ids={foodLead.sources.join(' ')}><h3>{foodLead.title}</h3><p class="mag-reading">{foodLead.text}{editorial&&<ArticleFootnote ids={foodLead.sources} sources={editorial.sources} passage="food-lead"/>}</p>{foodLead.detail_href&&allowsPage(foodLead.detail_href)&&<a class="mag-detail-link" href={foodLead.detail_href}>Read the food story ↗</a>}<SaveJourney id={foodLead.id} quiet /></div>
         <details class="mag-disclosure"><summary>{layout.moreFoodLabel}</summary>{foodOthers.map(item=><article id={item.id.replaceAll(':','-')} data-source-ids={item.sources.join(' ')}><h3>{item.title}</h3><p>{item.text}{editorial&&<ArticleFootnote ids={item.sources} sources={editorial.sources} passage={`food-${d.foods.indexOf(item)}`}/>}</p>{item.detail_href&&allowsPage(item.detail_href)&&<a class="mag-detail-link" href={item.detail_href}>Read the food story ↗</a>}<SaveJourney id={item.id} quiet /></article>)}</details>
         <p class="mag-note">{d.food_note}</p>
+        {['konark','chilika'].includes(entry.slug)&&allowsPage('/food/where-to-eat/')&&<p><a class="mag-detail-link" href={'/food/where-to-eat/#'+entry.slug}>Find a place to eat around {entry.label} →</a></p>}
       </div>
     </section>
     <section class="mag-chapter mag-visit" id="plan-visit" aria-labelledby="mag-visit-title">

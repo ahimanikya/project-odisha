@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 396. completed: 51, excluded: 10, queued: 335.
+Route inventory: 458. completed: 51, excluded: 72, queued: 335.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -410,3 +410,65 @@ Route inventory: 396. completed: 51, excluded: 10, queued: 335.
 | POD-EDIT-394 | [Our editorial process](https://projectodisha.org/about/editorial-process/) | excluded | process_page |
 | POD-EDIT-395 | [Heritage walks visitor directory](https://projectodisha.org/heritage-walks/) | excluded | visitor_directory_utility |
 | POD-EDIT-396 | [Odisha sweets and the places they carry](https://projectodisha.org/food/sweets-and-places/) | completed | new_source_linked_food_collection |
+| POD-EDIT-397 | [Where to eat in Odisha](https://projectodisha.org/food/where-to-eat/) | excluded | dining_directory |
+| POD-EDIT-398 | [Odraa Dine](https://projectodisha.org/food/restaurants/odraa/) | excluded | dining_listing |
+| POD-EDIT-399 | [Atithi Devo Bhaba](https://projectodisha.org/food/restaurants/atithi-devo-bhaba/) | excluded | dining_listing |
+| POD-EDIT-400 | [Zaika](https://projectodisha.org/food/restaurants/zaika/) | excluded | dining_listing |
+| POD-EDIT-401 | [Pind Da Dhaba](https://projectodisha.org/food/restaurants/pind-da-dhaba/) | excluded | dining_listing |
+| POD-EDIT-402 | [Breeze](https://projectodisha.org/food/restaurants/breeze/) | excluded | dining_listing |
+| POD-EDIT-403 | [Crunchy Munchie](https://projectodisha.org/food/restaurants/crunchy-munchie/) | excluded | dining_listing |
+| POD-EDIT-404 | [WelcomCafe](https://projectodisha.org/food/restaurants/welcomcafe/) | excluded | dining_listing |
+| POD-EDIT-405 | [Golden Bird](https://projectodisha.org/food/restaurants/golden-bird/) | excluded | dining_listing |
+| POD-EDIT-406 | [The Salt Theory Kitchen and Bar](https://projectodisha.org/food/restaurants/the-salt-theory-kitchen-and-bar/) | excluded | dining_listing |
+| POD-EDIT-407 | [Kanika at Mayfair Lagoon](https://projectodisha.org/food/restaurants/kanika/) | excluded | dining_listing |
+| POD-EDIT-408 | [Garam Masala](https://projectodisha.org/food/restaurants/garam-masala/) | excluded | dining_listing |
+| POD-EDIT-409 | [Silver Streak](https://projectodisha.org/food/restaurants/silver-streak/) | excluded | dining_listing |
+| POD-EDIT-410 | [Barbeque Nation](https://projectodisha.org/food/restaurants/barbeque-nation/) | excluded | dining_listing |
+| POD-EDIT-411 | [Pizza Hut](https://projectodisha.org/food/restaurants/pizza-hut/) | excluded | dining_listing |
+| POD-EDIT-412 | [Domino’s Pizza](https://projectodisha.org/food/restaurants/domino-s-pizza/) | excluded | dining_listing |
+| POD-EDIT-413 | [Yum Yum Fast Food](https://projectodisha.org/food/restaurants/yum-yum-fast-food/) | excluded | dining_listing |
+| POD-EDIT-414 | [The Chef Restaurant](https://projectodisha.org/food/restaurants/the-chef-restaurant/) | excluded | dining_listing |
+| POD-EDIT-415 | [Odisha Hotel — Cuttack](https://projectodisha.org/food/restaurants/cuttack-odisha-hotel/) | excluded | dining_listing |
+| POD-EDIT-416 | [Zaikedaar Dhaba](https://projectodisha.org/food/restaurants/cuttack-zaikedaar-dhaba/) | excluded | dining_listing |
+| POD-EDIT-417 | [Oudichi at The Hans Coco Palms](https://projectodisha.org/food/restaurants/puri-oudichi-hans-coco-palms/) | excluded | dining_listing |
+| POD-EDIT-418 | [Nimantran — Puri](https://projectodisha.org/food/restaurants/puri-nimantran/) | excluded | dining_listing |
+| POD-EDIT-419 | [Pearl at Empires Puri](https://projectodisha.org/food/restaurants/puri-pearl/) | excluded | dining_listing |
+| POD-EDIT-420 | [Vayu at Shankar Bhavan](https://projectodisha.org/food/restaurants/berhampur-vayu/) | excluded | dining_listing |
+| POD-EDIT-421 | [Julian Restaurant](https://projectodisha.org/food/restaurants/balasore-julian/) | excluded | dining_listing |
+| POD-EDIT-422 | [Barjorjis Banjara restaurant](https://projectodisha.org/food/restaurants/balasore-barjorjis-banjara/) | excluded | dining_listing |
+| POD-EDIT-423 | [Swad Sadan at The Balkrishna Palace](https://projectodisha.org/food/restaurants/jeypore-swad-sadan/) | excluded | dining_listing |
+| POD-EDIT-424 | [Dining at Hotel Signature](https://projectodisha.org/food/restaurants/jeypore-hotel-signature/) | excluded | dining_listing |
+| POD-EDIT-425 | [Dining at Raj Residency](https://projectodisha.org/food/restaurants/koraput-raj-residency/) | excluded | dining_listing |
+| POD-EDIT-426 | [Mosaic at Empires Paradeep](https://projectodisha.org/food/restaurants/paradip-mosaic/) | excluded | dining_listing |
+| POD-EDIT-427 | [Hotel Sea Pearl restaurant](https://projectodisha.org/food/restaurants/paradip-sea-pearl/) | excluded | dining_listing |
+| POD-EDIT-428 | [Super Snax at Mayfair Garden](https://projectodisha.org/food/restaurants/rourkela-super-snax-mayfair-garden/) | excluded | dining_listing |
+| POD-EDIT-429 | [Tea Pot at Mayfair World Cup Village](https://projectodisha.org/food/restaurants/rourkela-tea-pot-world-cup-village/) | excluded | dining_listing |
+| POD-EDIT-430 | [Nimantran Sambalpur](https://projectodisha.org/food/restaurants/sambalpur-nimantran/) | excluded | dining_listing |
+| POD-EDIT-431 | [Sapphire at The Grand Siba](https://projectodisha.org/food/restaurants/sambalpur-sapphire-grand-siba/) | excluded | dining_listing |
+| POD-EDIT-432 | [Naivaidyam at The Mohini Royale](https://projectodisha.org/food/restaurants/jharsuguda-naivaidyam-mohini-royale/) | excluded | dining_listing |
+| POD-EDIT-433 | [Restaurant at Pipul Utkal Continental](https://projectodisha.org/food/restaurants/jharsuguda-pipul-utkal-continental/) | excluded | dining_listing |
+| POD-EDIT-434 | [The Cupid Restaurant at Apoorva Royale](https://projectodisha.org/food/restaurants/balangir-cupid-apoorva-royale/) | excluded | dining_listing |
+| POD-EDIT-435 | [Restaurant at Swayam Hotel & Resort](https://projectodisha.org/food/restaurants/balangir-swayam-hotel-resort/) | excluded | dining_listing |
+| POD-EDIT-436 | [Restaurant at Shakti Continental](https://projectodisha.org/food/restaurants/angul-shakti-continental/) | excluded | dining_listing |
+| POD-EDIT-437 | [Restaurant at Nirupama Dhenkanal](https://projectodisha.org/food/restaurants/dhenkanal-nirupama/) | excluded | dining_listing |
+| POD-EDIT-438 | [Shakti Restaurant at Hotel Durga](https://projectodisha.org/food/restaurants/baripada-shakti-hotel-durga/) | excluded | dining_listing |
+| POD-EDIT-439 | [Soukheen at Hotel Orion](https://projectodisha.org/food/restaurants/bhadrak-soukheen-hotel-orion/) | excluded | dining_listing |
+| POD-EDIT-440 | [The Royal Leaf at Hotel Royal Palace](https://projectodisha.org/food/restaurants/bargarh-royal-leaf/) | excluded | dining_listing |
+| POD-EDIT-441 | [Restaurant at Hotel Jyoti Mahal](https://projectodisha.org/food/restaurants/rayagada-jyoti-mahal/) | excluded | dining_listing |
+| POD-EDIT-442 | [Restaurant at Hotel Amrapali Classic](https://projectodisha.org/food/restaurants/bhawanipatna-amrapali-classic/) | excluded | dining_listing |
+| POD-EDIT-443 | [Paradise Restro](https://projectodisha.org/food/restaurants/jajpur-road-paradise-restro/) | excluded | dining_listing |
+| POD-EDIT-444 | [Odisha Hotel — Sahid Nagar](https://projectodisha.org/food/restaurants/bhubaneswar-odisha-hotel/) | excluded | dining_listing |
+| POD-EDIT-445 | [Nimantran — Bhubaneswar](https://projectodisha.org/food/restaurants/bhubaneswar-nimantran/) | excluded | dining_listing |
+| POD-EDIT-446 | [Holiday Palms at Hotel Holiday Resort](https://projectodisha.org/food/restaurants/puri-holiday-palms/) | excluded | dining_listing |
+| POD-EDIT-447 | [Restaurant at Lotus Eco Beach Resort](https://projectodisha.org/food/restaurants/konark-lotus-restaurant/) | excluded | dining_listing |
+| POD-EDIT-448 | [Orana at Swosti Chilika Resort](https://projectodisha.org/food/restaurants/chilika-orana/) | excluded | dining_listing |
+| POD-EDIT-449 | [Yummies Restaurant](https://projectodisha.org/food/restaurants/gopalpur-yummies/) | excluded | dining_listing |
+| POD-EDIT-450 | [1914 Dining Room at Mayfair Palm Beach Resort](https://projectodisha.org/food/restaurants/gopalpur-1914/) | excluded | dining_listing |
+| POD-EDIT-451 | [Kedia’s Restaurant](https://projectodisha.org/food/restaurants/sambalpur-kedias-restaurant/) | excluded | dining_listing |
+| POD-EDIT-452 | [Yavis Restaurant](https://projectodisha.org/food/restaurants/rourkela-yavis/) | excluded | dining_listing |
+| POD-EDIT-453 | [The Marinated](https://projectodisha.org/food/restaurants/jharsuguda-the-marinated/) | excluded | dining_listing |
+| POD-EDIT-454 | [Bojanam](https://projectodisha.org/food/restaurants/berhampur-bojanam/) | excluded | dining_listing |
+| POD-EDIT-455 | [Yum Chinese](https://projectodisha.org/food/restaurants/balasore-yum-chinese/) | excluded | dining_listing |
+| POD-EDIT-456 | [Super Snax at Mayfair Oasis](https://projectodisha.org/food/restaurants/jharsuguda-super-snax-mayfair-oasis/) | excluded | dining_listing |
+| POD-EDIT-457 | [VDumpling Dynasty — Cuttack](https://projectodisha.org/food/restaurants/cuttack-vdumpling-dynasty/) | excluded | dining_listing |
+| POD-EDIT-458 | [Chilika island breakfast — Rambha Palace](https://projectodisha.org/food/restaurants/chilika-rambha-island-breakfast/) | excluded | dining_listing |
