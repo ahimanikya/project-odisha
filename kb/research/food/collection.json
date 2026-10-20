@@ -33,11 +33,13 @@
       "source": "https://commons.wikimedia.org/wiki/File:Mudhi_Mansa.jpg",
       "license": "CC BY-SA 4.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "changes": "Wikimedia rendition retained. Responsive display may crop; displayed adaptations retain the source licence.",
+      "changes": "Wikimedia resized rendition retained; no creative edits.",
       "kind": "photograph",
       "sha256": "7d96b934d4d64e38cd20f379e4aa342abe28a8bab2d3fa28305015a5e717edfa",
       "bytes": 90858,
-      "inspection": "Description, creator and licence inspected; downloaded image visually reviewed. Image metadata is not evidence of current access or an exact historical sitting date."
+      "inspection": "Actual local photograph and Commons description/licence inspected 20 October2026. Coherent leaf bowl, puffed rice, onion and curry. Creator describes home-cooked chicken variation; photograph is not proof of standard meat or restaurant availability.",
+      "date": "2020-09-09",
+      "fit": "contain"
     },
     "cuttack-dahibara": {
       "src": "/images/regions/cuttack-dahibara.webp",
@@ -525,6 +527,19 @@
       "url": "https://odishatourism.gov.in/en/cuisine-culinary-trails",
       "inspection": "Chhena Poda bullet read for Nayagada association, slow baking and caramelised flavour. Promotional overview does not establish first invention. Reuses existing sweets research source identity.",
       "checked_on": "2026-10-20"
+    },
+    "mudhi-oriyarasoi2015": {
+      "title": "Oriyarasoi · Mudhi Mansa (Puffed Rice with Mutton Gravy — A Baripada Special), 1 June 2015",
+      "url": "https://www.oriyarasoi.com/2015/06/",
+      "inspection": "Actual original monthly archive HTML read through web open/find. Original post web extraction returned zero lines; mobile variant failed. Direct normal TLS Python fetch failed DNS. Archive contains full post text and links to canonical permalink. Blogger profile fetch cache miss.",
+      "checked_on": "2026-10-21",
+      "canonical_url": "https://www.oriyarasoi.com/2015/06/mudhi-mansa-puffed-rice-with-mutton.html"
+    },
+    "mudhi-tnie2019": {
+      "title": "The New Indian Express · Mudhi Mansa: The classic breakfast of warriors, 24 August 2019",
+      "url": "https://www.newindianexpress.com/lifestyle/food/2019/aug/24/mudhi-mansa-the-classic-breakfast-of-warriors-2023711.html",
+      "inspection": "Original complete article HTML read with web open. Stronger parts concern named restaurant practices; ancient claims lack archival locators and mix Mauryan, Gupta and Mughal chronology.",
+      "checked_on": "2026-10-21"
     }
   },
   "pages": [
@@ -657,69 +672,107 @@
       "slug": "mudhi-mansa",
       "title": "Mudhi Mansa",
       "odia": "ମୁଢ଼ି ମାଂସ",
-      "lead": "The lightness of puffed rice meets the depth of a curry. A meal can be a reason to give a town more time.",
+      "lead": "Puffed rice and meat curry meet in different ways: in a remembered family bowl, a Baripada restaurant and a home-cooked chicken variation.",
       "area": "Baripada · Mayurbhanj",
       "hero": "mudhi-mansa",
       "save_id": "food:baripada-mudhi-mansa",
       "sections": [
         {
           "id": "place",
-          "title": "Begin in Baripada",
+          "title": "Rice and curry, brought together",
           "paragraphs": [
             {
-              "text": "Odisha Tourism highlights Mudhi Mansa among Baripada’s foods: puffed rice paired with meat curry. It gives the visitor another way into the city alongside its wider cultural landscape.",
+              "text": "Mudhi mansa brings puffed rice together with meat curry. Odisha Tourism’s current culinary guide associates the mutton version with Mayurbhanj. The rice and curry deserve equal attention: the interest lies in how the two are brought together.",
               "source_ids": [
-                "baripada"
+                "sweets-tourism-trails20261020"
               ],
               "kind": "sourced_summary"
             },
             {
-              "text": "Plan room for a meal and a conversation. Ask the person serving it how they enjoy the rice and curry together.",
+              "text": "Start with the rice before mixing it. Then add a little gravy and notice what changes: the coating, the texture and how much curry you want with each handful. This is a way to explore your serving, not a rule that everyone must eat it in the same sequence.",
               "source_ids": [],
               "kind": "editorial_invitation"
             }
           ]
         },
         {
-          "id": "variations",
-          "title": "One name, different kitchens",
+          "id": "home",
+          "title": "The gravy left in the cooker",
           "paragraphs": [
             {
-              "text": "The photograph on this page is Sangram Keshari Senapati’s home preparation with chicken curry, described by its creator as Baripada-style. It illustrates a variation; it is not proof of a restaurant’s menu or of a single standard recipe.",
+              "text": "A June 2015 Oriyarasoi post begins with the writer’s childhood memory. After the mutton curry had been transferred out, her mother put puffed rice into the pressure cooker to gather the gravy clinging to its sides. Chopped onion and green chillies finished the bowl for the waiting children.",
+              "source_ids": [
+                "mudhi-oriyarasoi2015"
+              ],
+              "kind": "sourced_summary"
+            },
+            {
+              "text": "The accompanying recipe turns that memory into an assembled serving: warm gravy, some meat and puffed rice are tossed with chopped vegetables and mustard oil, then served immediately. The rice is mixed with an already cooked curry.",
+              "source_ids": [
+                "mudhi-oriyarasoi2015"
+              ],
+              "kind": "sourced_summary"
+            }
+          ]
+        },
+        {
+          "id": "restaurant",
+          "title": "A restaurant makes its own choices",
+          "paragraphs": [
+            {
+              "text": "A 2019 New Indian Express feature describes Kartik Chandra Behera’s Garma Garam version as a deliberate change from thinner home-style gravy. It reports a thicker curry and a separate curd-based relish with onion, cucumber and sweet chilli pickle. In the same account, his son Jogeswar describes continuity in the family’s preparation.",
+              "source_ids": [
+                "mudhi-tnie2019"
+              ],
+              "kind": "sourced_summary"
+            },
+            {
+              "text": "Compare this with the home account’s mixed bowl: the restaurant’s separate relish offers another choice about what to bring together. Ask about the accompaniments and how the kitchen serves them.",
+              "source_ids": [
+                "mudhi-tnie2019",
+                "mudhi-oriyarasoi2015"
+              ],
+              "kind": "editorial_interpretation"
+            }
+          ]
+        },
+        {
+          "id": "variations",
+          "title": "A photograph of a particular meal",
+          "paragraphs": [
+            {
+              "text": "Sangram Keshari Senapati identifies this photograph as his own Baripada-style preparation with chicken curry, made at home. It is a concrete example of variation under the same dish name. The image should not be relabelled mutton simply because the familiar description of mudhi mansa often uses that meat.",
               "source_ids": [
                 "mudhi-photo"
               ],
               "kind": "sourced_summary"
             },
             {
-              "text": "Ask which meat is being used, how hot the curry is and what comes alongside it. Let the kitchen explain its version.",
+              "text": "The photograph offers another useful comparison with a mixed serving: the puffed rice and curry remain visibly distinct. Ask which meat is being served and what comes alongside it. The answer belongs to the kitchen and the meal in front of you.",
               "source_ids": [],
-              "kind": "editorial_invitation"
+              "kind": "editorial_observation_and_invitation"
             }
           ]
         },
         {
           "id": "history",
-          "title": "Make room for the remembered story",
+          "title": "A place association is not an invention date",
           "paragraphs": [
             {
-              "text": "Ask a willing cook what this pairing means in their home: when they serve it, how they learned it and what they would change. A remembered meal can open a personal history; let the teller choose what to share.",
-              "source_ids": [],
-              "kind": "editorial_invitation"
+              "text": "The 2019 feature places Behera’s venture in 1969. That dates its restaurant story, not the first household pairing; its distant royal and military claims lack inspectable archival references.",
+              "source_ids": [
+                "mudhi-tnie2019"
+              ],
+              "kind": "sourced_summary"
             }
           ]
         },
         {
           "id": "try",
-          "title": "Make it part of your day",
+          "title": "Ask how this kitchen serves it",
           "paragraphs": [
             {
-              "text": "Baripada can be a food stop while you research Mayurbhanj. Confirm the kitchen’s hours, current price and ingredients directly. A Similipal visit has separate gate and permit arrangements; a food idea does not establish a feasible route.",
-              "source_ids": [],
-              "kind": "editorial_invitation"
-            },
-            {
-              "text": "This is a meat dish. If you need a vegetarian meal, ask what can be prepared separately rather than assuming the same curry will suit. No venue has been inspected for this page.",
+              "text": "The useful story is already close at hand: cooks choosing how to use gravy, what to mix into the rice and what to serve beside it. When planning a meal in Baripada, use the dining directory as a starting point and confirm the current dish, price and opening time directly. A historical account is not a present-day restaurant review.",
               "source_ids": [],
               "kind": "editorial_invitation"
             }
@@ -734,8 +787,13 @@
         {
           "title": "Similipal",
           "href": "/visit/places/similipal/"
+        },
+        {
+          "title": "Places to eat in Baripada",
+          "href": "/food/where-to-eat/#baripada"
         }
-      ]
+      ],
+      "checked_on": "2026-10-21"
     },
     {
       "slug": "balasore",

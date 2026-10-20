@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T18:23:42.529706+00:00",
   "article_id": "POD-EDIT-058",
   "route": "/food/chhena-poda/",
-  "status": "published_receipt_pending_integration",
+  "status": "complete",
   "input_head": "349197491797e77ed9b9b4841d49a85b956cc0c8",
   "authorization": [
     "POD-DEC-2026101901",
@@ -56,9 +56,9 @@
     {
       "name": "Disha",
       "runtime": "/root",
-      "status": "receipt_pending_integration",
+      "status": "complete",
       "scope": "Canonical narrative, source mapping, image audit, shared records and publishing.",
-      "findings": "Canonical article and downloads, full/coastal tests, responsive checks, reviewed PR389 merge and approved live publication complete. Retain claim through receipt integration."
+      "findings": "Article publication and receipt PR391 integration observed; scope released after a136b2496f309061d4cd10bb7a7a977aa2c2dbd0."
     }
   ],
   "concurrency": "Previous article receipt PR388 merged at34919749; actual handoff complete. Only open unrelated PR304 and PR281 observed; no overlapping worker.",
@@ -635,7 +635,7 @@
     "programme_count": 112,
     "resolved_by": "PR390 merged57bcb54ad8172ba7a14752e1e9182c6ebd070f37 at2026-10-20T18:58:39Z; publication39479940943 success observed this heartbeat."
   },
-  "ownership": "Disha retains claim until receipt PR is actually merged; release only after observed integration.",
+  "ownership": "Released after observed receipt integration; no further article writes reserved.",
   "incoming_integration": {
     "base": "57bcb54ad8172ba7a14752e1e9182c6ebd070f37",
     "source_pr": 390,
@@ -696,5 +696,11 @@
       "No code rebuild or website test repetition for this records-only diff. Prior candidate review remains applicable; receipt integration still requires actual merge."
     ]
   },
-  "receipt_pull_request": "https://github.com/ahimanikya/project-odisha/pull/391"
+  "receipt_pull_request": "https://github.com/ahimanikya/project-odisha/pull/391",
+  "receipt_integration": {
+    "pr": 391,
+    "merge_commit": "a136b2496f309061d4cd10bb7a7a977aa2c2dbd0",
+    "merged_at": "2026-10-20T19:37:56Z",
+    "observed_at": "2026-10-20T20:24:30.196421+00:00"
+  }
 }
