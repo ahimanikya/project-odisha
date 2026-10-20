@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-20T19:20:40.561095+00:00",
+  "updated_at": "2026-10-20T19:31:28.424787+00:00",
   "authorization": "POD-DEC-2026101702",
   "work_id": "POD-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -1884,14 +1884,25 @@
       "id": "POD-EDIT-058",
       "route": "/food/chhena-poda/",
       "title": "Chhena Poda",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "Existing food article: technique, interpretation and origin evidence individually reviewed",
       "source_template": "projects/site/src/pages/food/[slug].astro",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
-        "records/chhena-poda-editorial-team-2026-10-20.json"
+        "records/chhena-poda-editorial-team-2026-10-20.json",
+        "records/chhena-poda-editorial-publication-2026-10-20.json"
       ],
-      "blocker": null
+      "blocker": null,
+      "completed_at": "2026-10-20T19:31:28.424787+00:00",
+      "publication_receipt": "records/chhena-poda-editorial-publication-2026-10-20.json"
     },
     {
       "id": "POD-EDIT-059",

@@ -8647,7 +8647,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "POD-DEC-2026101702",
-      "next_action": "Continue next eligible queued article after verifying receipt integration and reconciling team ownership;51 editorial entries complete.",
+      "next_action": "Continue next eligible queued article after verifying receipt integration and reconciling team ownership;52 editorial entries complete.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026101702",
@@ -8736,7 +8736,9 @@
         "POD-REV-2026102014",
         "POD-REL-2026102014",
         "POD-REV-2026102015",
-        "POD-REL-2026102015"
+        "POD-REL-2026102015",
+        "POD-REV-2026102016",
+        "POD-REL-2026102016"
       ],
       "evidence": [
         "reference/article-editorial-standard.md",
@@ -8786,7 +8788,8 @@
         "records/similipal-editorial-publication-2026-10-20.json",
         "records/chhau-editorial-publication-2026-10-20.json",
         "records/balasore-stay-editorial-publication-2026-10-20.json",
-        "records/similipal-stay-editorial-publication-2026-10-20.json"
+        "records/similipal-stay-editorial-publication-2026-10-20.json",
+        "records/chhena-poda-editorial-publication-2026-10-20.json"
       ],
       "acceptance_criteria": [
         "Every published baseline route classified; each article independently reviewed against approved standard with PR/test/deploy/live receipt; exclusions justified; future articles follow same rule."
@@ -21461,6 +21464,33 @@
         "No property inspection, provider confirmation, current rates, availability, timetable, fieldwork or human review. Scenarios are hypothetical planning comparisons.",
         "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
       ]
+    },
+    {
+      "id": "POD-REV-2026102016",
+      "title": "Separate Chhena Poda article and source review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent /root/drishti"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human or language-specialist review.",
+      "reviewed_head": "eddd577256b527b6f59e872a7277afb36ab7fce8",
+      "refs": [
+        "POD-WORK-302",
+        "POD-DEC-2026101901",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/chhena-poda-editorial-team-2026-10-20.json"
+      ],
+      "limitations": [
+        "Separate AI research, implementation and review; no human, culinary specialist, language or field review.",
+        "No recipe trial, tasting, maker interview, archival invention witness, current menu, shop or enterprise verification.",
+        "Three text sources share Odisha Tourism hosting; distinct bylined accounts are not independent institutional corroboration.",
+        "Full566 and coastal343 tests plus responsive/keyboard checks were coordinator-performed; separate AI review records its own focused tests and inherited source checks.",
+        "Browser emulation, not physical-device or screen-reader testing."
+      ]
     }
   ],
   "releases": [
@@ -24734,6 +24764,23 @@
         "records/similipal-stay-editorial-team-2026-10-20.json"
       ],
       "note": "Reviewed PR384 passed checks and merged; approved deployment and live notes, retained dated landscape and responsive reading verified. Zero substantive programme credit."
+    },
+    {
+      "id": "POD-REL-2026102016",
+      "title": "Chhena Poda technique and attributed history",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/food/chhena-poda/",
+      "refs": [
+        "POD-WORK-302",
+        "POD-REV-2026102016",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/chhena-poda-editorial-publication-2026-10-20.json",
+        "records/chhena-poda-editorial-team-2026-10-20.json"
+      ],
+      "note": "Reviewed PR389 passed checks and merged; approved deployment and live notes, retained photograph and responsive reading verified. Zero substantive programme credit."
     }
   ],
   "sources": [

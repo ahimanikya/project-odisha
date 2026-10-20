@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T18:23:42.529706+00:00",
   "article_id": "POD-EDIT-058",
   "route": "/food/chhena-poda/",
-  "status": "integrating_completed_directory",
+  "status": "published_receipt_pending_integration",
   "input_head": "349197491797e77ed9b9b4841d49a85b956cc0c8",
   "authorization": [
     "POD-DEC-2026101901",
@@ -28,30 +28,37 @@
     {
       "name": "Samanta",
       "runtime": "/root/samanta",
-      "status": "integrating",
-      "input_head": "349197491797e77ed9b9b4841d49a85b956cc0c8",
+      "status": "complete",
+      "input_head": "73388e83109f005410d2646e316579cdeb32e02c",
       "scope": "Inspect current food layout and prepare scoped implementation; exact allowed files assigned separately. No shared records or Git mutations.",
       "write_files": [
         "projects/site/src/pages/food/[slug].astro",
         "projects/site/src/components/ChhenaPodaArticle.astro",
         "projects/site/tests-coast/chhena-poda-editorial.test.mjs"
       ],
-      "findings": "Five scoped files; static test passed, rendered checks in coordinator build."
+      "findings": "Three-file directory integration; focused static and actual fresh six rendered article tests passed. No shared-record or Git writes."
     },
     {
       "name": "Drishti",
       "runtime": "/root/drishti",
       "status": "complete",
       "scope": "Separate read-only candidate review after integration.",
-      "input_head": "ab3807cb84c3d87da05cc12d9f29251748482847",
-      "findings": "Separate AI review passed after one generated input fingerprint correction;22 focused tests and source checks passed."
+      "input_head": "eddd577256b527b6f59e872a7277afb36ab7fce8",
+      "findings": "Separate review of integrated candidate passed; actual focused tests and inherited source checks detailed in final review.",
+      "limits": [
+        "Separate AI research, implementation and review; no human, culinary specialist, language or field review.",
+        "No recipe trial, tasting, maker interview, archival invention witness, current menu, shop or enterprise verification.",
+        "Three text sources share Odisha Tourism hosting; distinct bylined accounts are not independent institutional corroboration.",
+        "Full566 and coastal343 tests plus responsive/keyboard checks were coordinator-performed; separate AI review records its own focused tests and inherited source checks.",
+        "Browser emulation, not physical-device or screen-reader testing."
+      ]
     },
     {
       "name": "Disha",
       "runtime": "/root",
-      "status": "retained_claim_publication_deferred",
+      "status": "receipt_pending_integration",
       "scope": "Canonical narrative, source mapping, image audit, shared records and publishing.",
-      "findings": "Final candidate ab3807cb passed CI39476274936. At pre-merge reconciliation, active food-directory PR390 overlapped food/[slug].astro and publication route inventory. Preserve both branches; no merge or deployment performed."
+      "findings": "Canonical article and downloads, full/coastal tests, responsive checks, reviewed PR389 merge and approved live publication complete. Retain claim through receipt integration."
     }
   ],
   "concurrency": "Previous article receipt PR388 merged at34919749; actual handoff complete. Only open unrelated PR304 and PR281 observed; no overlapping worker.",
@@ -452,97 +459,166 @@
     "limits": [
       "Browser emulation, not physical-device or screen-reader testing."
     ],
-    "coast_tests": 342,
-    "publication_build": "pass;11 indexable routes unchanged"
+    "coast_tests": 343,
+    "publication_build": "pass;11 indexable routes unchanged",
+    "route_inventory": "457 directory indexes plus404.html,458 registered routes, zero unregistered."
   },
   "review": {
     "reviewer": "Drishti",
-    "kind": "separate_ai_candidate_review",
-    "head": "ab3807cb84c3d87da05cc12d9f29251748482847",
-    "initial_review_head": "ec1ff77a5280dea336e304ac603a480626f9b386",
-    "base": "349197491797e77ed9b9b4841d49a85b956cc0c8",
+    "kind": "separate_ai_integrated_candidate_review",
+    "head": "eddd577256b527b6f59e872a7277afb36ab7fce8",
+    "base": "73388e83109f005410d2646e316579cdeb32e02c",
     "article": "POD-EDIT-058",
     "route": "/food/chhena-poda/",
     "result": "pass_with_limitations",
     "blocking_findings": [],
-    "resolved_findings": [
-      {
-        "issue": "Initial workbench checker failed because collection input fingerprint was stale.",
-        "resolution": "Final one-line generated fingerprint delta inspected; workbench --check and diff check now pass. No content or implementation change."
-      }
-    ],
-    "checks": {
-      "focused_tests": {
-        "passed": 22,
+    "inherited_review": {
+      "reviewer": "Drishti",
+      "kind": "separate_ai_candidate_review",
+      "head": "ab3807cb84c3d87da05cc12d9f29251748482847",
+      "initial_review_head": "ec1ff77a5280dea336e304ac603a480626f9b386",
+      "base": "349197491797e77ed9b9b4841d49a85b956cc0c8",
+      "article": "POD-EDIT-058",
+      "route": "/food/chhena-poda/",
+      "result": "pass_with_limitations",
+      "blocking_findings": [],
+      "resolved_findings": [
+        {
+          "issue": "Initial workbench checker failed because collection input fingerprint was stale.",
+          "resolution": "Final one-line generated fingerprint delta inspected; workbench --check and diff check now pass. No content or implementation change."
+        }
+      ],
+      "checks": {
+        "focused_tests": {
+          "passed": 22,
+          "failed": 0,
+          "runtime": "Node24.15.0",
+          "files": [
+            "tests-coast/chhena-poda-editorial.test.mjs",
+            "tests/discovery-and-books.test.mjs",
+            "tests-coast/food-alternate-images.test.mjs",
+            "tests-coast/sweets-and-places.test.mjs"
+          ]
+        },
+        "validators_passed": [
+          "article_rollout --check",
+          "check_team_assignments",
+          "check_autonomous_program",
+          "registers --check",
+          "editorial/build_workbench --check after correction",
+          "catalog --check",
+          "research/validate_research_map",
+          "git diff --check",
+          "read-only in-memory search-index comparison"
+        ],
+        "scope": "Seventeen files. Only chhena-poda food page changes in canonical collection; exact slug component and saved author/paragraph opt-in. Shared MagazineArticle unchanged. Other food-page records and all image bytes preserved. Caption/contain metadata change only to Chhena Poda image; source inspection metadata reused. Enduri negative control passes.",
+        "narrative": "Five sections, ten complete paragraphs, three ordered notes and six unique references/returns. Portable HTML/text preserve individual paragraphs, named culinary credits and concise linked sources. Original appearance and tasting suggestions distinguished from sourced statements.",
+        "source_checks": [
+          {
+            "url": "https://apps.odishatourism.gov.in/blog-detail/chhenapoda",
+            "inspection": "Actual original page independently read:29July2021 ChefMichael byline, retrospective overnight-oven account, sugar/jaggery description and chocolate ingredients/mixing/baking/cooling. Article attributes anecdote without invention priority/date and does not reproduce full recipe quantities."
+          },
+          {
+            "url": "https://apps.odishatourism.gov.in/blog-detail/chef-tzac-odia-cuisine-is-an-evolved-cuisine",
+            "inspection": "Actual original page independently read:27November2019 MansitaMishra feature. AlkaJena collaboration in Zacharias answer, compote/granola adaptation in his answer, sal leaves/aroma in subsequent descriptive text. Public attribution preserves these distinct voices and historical menu limit."
+          },
+          {
+            "url": "https://odishatourism.gov.in/en/cuisine-culinary-trails",
+            "inspection": "Actual SweetTrail entry independently read: Nayagada spelling, slow baking and caramelised flavour. Article uses bounded Nayagarh association rather than archival invention proof."
+          },
+          {
+            "url": "https://commons.wikimedia.org/wiki/File:Chhena_Poda-Puri-Odisha-IMG_1323.jpg",
+            "inspection": "Commons own-work/date19November2022/creatorSubhransuphotography/CC BY-SA4.0 independently read. Local photograph visually inspected; browned surface/pale grainy-looking interior, nuts and fruit match observed presentation. No claim it depicts leaf cooking or named maker."
+          }
+        ],
+        "image_sha256": "94cd55915889d9787c9611197a2ec59a5670f491619ca8ca916ee4a87fdbf8aa",
+        "all_food_image_bytes_unchanged": true,
+        "programme_byte_unchanged": true,
+        "substantive_completed": 112,
+        "rollout_counts": {
+          "completed": 51,
+          "in_progress": 1,
+          "queued": 334,
+          "excluded": 10
+        },
+        "ownership": "Only058 in progress; publication/receipt gates remain. Prior Similipal receipt review copied exactly; independent gh query confirms PR388 MERGED17:34:15Z, reviewedbf048898, merge34919749.",
+        "search": "No search-policy or eligibility change; rendered noindex controls pass."
+      },
+      "limits": [
+        "Separate AI review, not human, culinary specialist, language or field approval.",
+        "No recipe trial, tasting, maker interview, archival invention witness, current menu, shop or enterprise verification.",
+        "Three text sources share Odisha Tourism hosting; bylined contributions do not constitute independent institutional corroboration.",
+        "Full566/coast342 suites, publication build and responsive1440/390 keyboard/disclosure observations were coordinator-performed, not independently repeated.",
+        "Reviewer independently ran22 focused tests against supplied built outputs, inspected source text/local image, and ran record checks; no new build/browser interaction.",
+        "Final delta only regenerated a fingerprint, so website tests were not repeated after it.",
+        "Required exact-head CI, approved publication and live receipt remain release gates; this review does not mark article complete."
+      ]
+    },
+    "newly_checked": {
+      "scope": "Merge of completed external directory PR390 into previously reviewed Chhena Poda article. Source/narrative and portable catalog bytes identical to prior candidate. Slot preserves directory component after narrative and before further reading/source notes in exact Chhena branch; legacy branch also retains component.",
+      "preservation": "All27 disjoint incoming paths byte-identical to incoming main57bcb54a. Four overlapping paths reconciled: rollout, generated worklist/workbench, food template. All396 prior rollout entries identical;62 added exclusions match61 actual venue routes plus directory.",
+      "tests": {
+        "passed": 29,
         "failed": 0,
         "runtime": "Node24.15.0",
         "files": [
           "tests-coast/chhena-poda-editorial.test.mjs",
           "tests/discovery-and-books.test.mjs",
           "tests-coast/food-alternate-images.test.mjs",
-          "tests-coast/sweets-and-places.test.mjs"
-        ]
+          "tests-coast/sweets-and-places.test.mjs",
+          "tests/build.test.mjs"
+        ],
+        "details": "Fresh coordinator-built outputs; six Chhena tests including dining order/links, portable full paragraphs, photo rights and legacy control. Six general build tests verify all local links/anchors/assets and unindexed state. Initial general-build test invocation from wrong cwd failed ENOENT; rerun from projects/site passed6/6."
       },
-      "validators_passed": [
+      "validators": [
         "article_rollout --check",
         "check_team_assignments",
         "check_autonomous_program",
         "registers --check",
-        "editorial/build_workbench --check after correction",
+        "editorial/build_workbench --check",
         "catalog --check",
         "research/validate_research_map",
-        "git diff --check",
+        "git diff --check73388e83..HEAD",
         "read-only in-memory search-index comparison"
       ],
-      "scope": "Seventeen files. Only chhena-poda food page changes in canonical collection; exact slug component and saved author/paragraph opt-in. Shared MagazineArticle unchanged. Other food-page records and all image bytes preserved. Caption/contain metadata change only to Chhena Poda image; source inspection metadata reused. Enduri negative control passes.",
-      "narrative": "Five sections, ten complete paragraphs, three ordered notes and six unique references/returns. Portable HTML/text preserve individual paragraphs, named culinary credits and concise linked sources. Original appearance and tasting suggestions distinguished from sourced statements.",
-      "source_checks": [
-        {
-          "url": "https://apps.odishatourism.gov.in/blog-detail/chhenapoda",
-          "inspection": "Actual original page independently read:29July2021 ChefMichael byline, retrospective overnight-oven account, sugar/jaggery description and chocolate ingredients/mixing/baking/cooling. Article attributes anecdote without invention priority/date and does not reproduce full recipe quantities."
-        },
-        {
-          "url": "https://apps.odishatourism.gov.in/blog-detail/chef-tzac-odia-cuisine-is-an-evolved-cuisine",
-          "inspection": "Actual original page independently read:27November2019 MansitaMishra feature. AlkaJena collaboration in Zacharias answer, compote/granola adaptation in his answer, sal leaves/aroma in subsequent descriptive text. Public attribution preserves these distinct voices and historical menu limit."
-        },
-        {
-          "url": "https://odishatourism.gov.in/en/cuisine-culinary-trails",
-          "inspection": "Actual SweetTrail entry independently read: Nayagada spelling, slow baking and caramelised flavour. Article uses bounded Nayagarh association rather than archival invention proof."
-        },
-        {
-          "url": "https://commons.wikimedia.org/wiki/File:Chhena_Poda-Puri-Odisha-IMG_1323.jpg",
-          "inspection": "Commons own-work/date19November2022/creatorSubhransuphotography/CC BY-SA4.0 independently read. Local photograph visually inspected; browned surface/pale grainy-looking interior, nuts and fruit match observed presentation. No claim it depicts leaf cooking or named maker."
-        }
-      ],
-      "image_sha256": "94cd55915889d9787c9611197a2ec59a5670f491619ca8ca916ee4a87fdbf8aa",
-      "all_food_image_bytes_unchanged": true,
-      "programme_byte_unchanged": true,
-      "substantive_completed": 112,
+      "route_inventory": "457 built directory indexes plus /404.html exactly458 registered routes; all62 additions present in coast edition and search policy hold. Initial ad hoc comparison assumed /404/; corrected to actual /404.html, no repository defect.",
+      "additional_rendered_checks": "Chhena dining heading occurs once; legacy patrapoda and poda-pitha matching modules each occur once. Publication sitemap contains11 loc entries.",
       "rollout_counts": {
         "completed": 51,
+        "excluded": 72,
         "in_progress": 1,
-        "queued": 334,
-        "excluded": 10
+        "queued": 334
       },
-      "ownership": "Only058 in progress; publication/receipt gates remain. Prior Similipal receipt review copied exactly; independent gh query confirms PR388 MERGED17:34:15Z, reviewedbf048898, merge34919749.",
-      "search": "No search-policy or eligibility change; rendered noindex controls pass."
+      "programme": "Byte unchanged,112 completed. Only058 in_progress, Disha retains claim through actual receipt integration. No delivered credit for directory exclusions.",
+      "remote_verification": {
+        "pr390": {
+          "state": "MERGED",
+          "head": "62b39ed32b952ee0f5418a06af29e0b77fd91984",
+          "merge": "57bcb54ad8172ba7a14752e1e9182c6ebd070f37",
+          "merged_at": "2026-10-20T18:58:39Z"
+        },
+        "deployment39479940943": {
+          "status": "completed",
+          "conclusion": "success",
+          "head": "57bcb54ad8172ba7a14752e1e9182c6ebd070f37"
+        },
+        "method": "Read-only gh queries; initial sandbox network failure resolved with permitted read-only escalation."
+      }
     },
     "limits": [
-      "Separate AI review, not human, culinary specialist, language or field approval.",
-      "No recipe trial, tasting, maker interview, archival invention witness, current menu, shop or enterprise verification.",
-      "Three text sources share Odisha Tourism hosting; bylined contributions do not constitute independent institutional corroboration.",
-      "Full566/coast342 suites, publication build and responsive1440/390 keyboard/disclosure observations were coordinator-performed, not independently repeated.",
-      "Reviewer independently ran22 focused tests against supplied built outputs, inspected source text/local image, and ran record checks; no new build/browser interaction.",
-      "Final delta only regenerated a fingerprint, so website tests were not repeated after it.",
-      "Required exact-head CI, approved publication and live receipt remain release gates; this review does not mark article complete."
+      "Separate AI review, not human, culinary-specialist or field approval.",
+      "Earlier actual source and image inspections are inherited from embedded ab3807cb review; not re-read this delta. Canonical narrative/source map/image unchanged.",
+      "External directory data, operator claims and61 venues preserved; not independently re-researched or endorsed by this article review. Reviewed integration behavior and preservation, not new factual certification of external project.",
+      "Full566/coast343 builds and responsive1440/390, keyboard and disclosure checks were coordinator-performed. Reviewer ran29 focused/build-output tests and record checks, no build/browser/live checks.",
+      "Exact-head required CI, approved publication and actual live receipt remain gates. This review does not complete058 or release ownership."
     ]
   },
   "candidate_validation": {
     "conclusion": "success",
-    "databaseId": 39476274936,
-    "headSha": "ab3807cb84c3d87da05cc12d9f29251748482847",
+    "databaseId": 39482934414,
+    "headSha": "eddd577256b527b6f59e872a7277afb36ab7fce8",
     "status": "completed",
-    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39476274936"
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39482934414"
   },
   "pull_request": "https://github.com/ahimanikya/project-odisha/pull/389",
   "concurrency_hold": {
@@ -559,7 +635,7 @@
     "programme_count": 112,
     "resolved_by": "PR390 merged57bcb54ad8172ba7a14752e1e9182c6ebd070f37 at2026-10-20T18:58:39Z; publication39479940943 success observed this heartbeat."
   },
-  "ownership": "Disha retains POD-EDIT-058 through actual publication and receipt integration. External directory scope remains with its worker.",
+  "ownership": "Disha retains claim until receipt PR is actually merged; release only after observed integration.",
   "incoming_integration": {
     "base": "57bcb54ad8172ba7a14752e1e9182c6ebd070f37",
     "source_pr": 390,
@@ -575,6 +651,50 @@
       "excluded": 72,
       "in_progress": 1,
       "queued": 334
-    }
-  }
+    },
+    "implementation": "Samanta resolved exactfoodtemplate and inserted a slot for the preserved directory module before further reading; scoped rendered integration test passed after fresh build."
+  },
+  "publication_receipt": "records/chhena-poda-editorial-publication-2026-10-20.json",
+  "receipt_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_receipt_review",
+    "head": "97cb8e4888b276e4c8c8cc106b33a7942ff81374",
+    "base": "19c4f40bcb9e10d6afc2429788fa2a783ad28015",
+    "article": "POD-EDIT-058",
+    "result": "pass_with_limitations",
+    "blocking_findings": [],
+    "checks": {
+      "scope": "Ten files, records/generated views and two screenshots only. No article implementation, assets, sources or search eligibility edits.",
+      "remote": "Independent gh: PR389 MERGED2026-10-20T19:26:42Z, reviewededdd577256b527b6f59e872a7277afb36ab7fce8 merged19c4f40bcb9e10d6afc2429788fa2a783ad28015. CI39482934414 completed success on reviewed head; publication39483525378 completed success on merge head.",
+      "tree_equality": "Reviewed candidate and published merge trees identical.",
+      "transcription": "Receipt final_review exactly equals saved independent candidate review; team review matches receipt. Historical pending-gate language remains nested as historical review; current receipt states observed publication.",
+      "validators_passed": [
+        "article_rollout --check",
+        "check_team_assignments",
+        "check_autonomous_program",
+        "registers --check",
+        "editorial/build_workbench --check",
+        "git diff --check19c4f40b..HEAD"
+      ],
+      "accounting": "Only058 rollout entry changes;52completed72excluded334queued458total. Programme byte-identical112. Zero substantive credit.",
+      "ownership": "Team published_receipt_pending_integration and operations explicit integration gate retain Disha ownership until observed receipt PR merge; phase receipt_integrated is conditional, no new article claimed.",
+      "screenshots": {
+        "desktop": {
+          "sha256": "94d44d5f1a056b0457355ad7a7b2be83396d8e5597ef750e96cb2a29a87f49dd",
+          "inspection": "1440x1000 cover visually inspected: legible title, byline, lead and retained photo/caption; no visible clipping."
+        },
+        "mobile": {
+          "sha256": "dfbb940a216a6f0a0bb743bf74f70718406835856a0bf633e5ec3d720ae0aaf2",
+          "inspection": "390x844 section screenshot visually inspected: dining listing and availability caveat, collapsed Further reading and visible numbered source note legible and wrapped within viewport."
+        }
+      }
+    },
+    "limits": [
+      "Separate AI records review, not human, culinary-specialist or field approval.",
+      "Reviewer independently checked remote run/merge metadata, local tree equality, review transcription, records, screenshot hashes and saved screenshot appearance.",
+      "Coordinator live HTTP/content/image/sitemap checks and interactive browser/keyboard/width measurements were not independently repeated. Saved screenshots establish only visible captured portions.",
+      "No code rebuild or website test repetition for this records-only diff. Prior candidate review remains applicable; receipt integration still requires actual merge."
+    ]
+  },
+  "receipt_pull_request": "https://github.com/ahimanikya/project-odisha/pull/391"
 }
