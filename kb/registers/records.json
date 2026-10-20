@@ -8647,7 +8647,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "POD-DEC-2026101702",
-      "next_action": "Continue next eligible queued article after verifying receipt integration and reconciling team ownership;47 editorial entries complete.",
+      "next_action": "Continue next eligible queued article after verifying receipt integration and reconciling team ownership;48 editorial entries complete.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026101702",
@@ -8730,7 +8730,9 @@
         "POD-REV-2026102011",
         "POD-REL-2026102011",
         "POD-REV-2026102012",
-        "POD-REL-2026102012"
+        "POD-REL-2026102012",
+        "POD-REV-2026102013",
+        "POD-REL-2026102013"
       ],
       "evidence": [
         "reference/article-editorial-standard.md",
@@ -8777,7 +8779,8 @@
         "records/balasore-editorial-publication-2026-10-20.json",
         "records/mayurbhanj-editorial-publication-2026-10-20.json",
         "records/chandipur-editorial-publication-2026-10-20.json",
-        "records/similipal-editorial-publication-2026-10-20.json"
+        "records/similipal-editorial-publication-2026-10-20.json",
+        "records/chhau-editorial-publication-2026-10-20.json"
       ],
       "acceptance_criteria": [
         "Every published baseline route classified; each article independently reviewed against approved standard with PR/test/deploy/live receipt; exclusions justified; future articles follow same rule."
@@ -21363,6 +21366,34 @@
         "No fieldwork, current opening confirmation, community interviews, species identification or human review. Historical local research is not a current visitor activity.",
         "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
       ]
+    },
+    {
+      "id": "POD-REV-2026102013",
+      "title": "Separate Mayurbhanj Chhau article and source review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent /root/drishti"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human or language-specialist review.",
+      "reviewed_head": "577512ae4678e2c69beee2feb03df4e8c752ae73",
+      "refs": [
+        "POD-WORK-302",
+        "POD-DEC-2026101901",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/chhau-editorial-team-2026-10-20.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human, practitioner, language-specialist or field review.",
+        "No performance or training-film viewing, personal interview, gesture demonstration, current class or event confirmation. Source testimony, institutional self-description and programme billing retain those limits.",
+        "Full566/coast319 builds/suites and responsive1440/390 keyboard/disclosure checks were coordinator-performed, not independently repeated. Reviewer ran25 focused tests and canonical checks against provided built output.",
+        "No publication or live-delivery assessment in this candidate review.",
+        "No performance viewing, current event confirmation, interview or human review. Retrospective testimony, programme billing and institutional self-description retain those limits.",
+        "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
+      ]
     }
   ],
   "releases": [
@@ -24585,6 +24616,23 @@
         "records/similipal-editorial-team-2026-10-20.json"
       ],
       "note": "Reviewed PR375 passed checks and merged; approved deployment and live notes, retained documentary photographs and responsive reading verified. Zero substantive programme credit."
+    },
+    {
+      "id": "POD-REL-2026102013",
+      "title": "Mayurbhanj Chhau training and named repertoire",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/visit/experiences/mayurbhanj-chhau/",
+      "refs": [
+        "POD-WORK-302",
+        "POD-REV-2026102013",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/chhau-editorial-publication-2026-10-20.json",
+        "records/chhau-editorial-team-2026-10-20.json"
+      ],
+      "note": "Reviewed PR377 passed checks and merged; approved deployment and live notes, retained documentary photographs and responsive reading verified. Zero substantive programme credit."
     }
   ],
   "sources": [
