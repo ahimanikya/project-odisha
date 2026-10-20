@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "status": "reviewed_ready_for_pr",
+  "route": "/food/",
+  "scope": "Founder-requested five missing food-card images only; not a full article editorial rollout or substantive programme completion",
+  "authorization": "Direct Founder request in this chat,20October2026",
+  "input_head": "354e50a1",
+  "coordinator": "Disha",
+  "workers": {
+    "Anvesha": {
+      "runtime": "/root/anvesha_pala_revision",
+      "scope": "Read-only existing/new media provenance audit; scratch evidence only",
+      "result": "Four Commons originals and metadata inspected; exact Puri Mahaprasad and generic/contextual prawn, Odia fish-fry and curd selected. Pakhala reused; conflicting CHINGUDI_TARKARI filename rejected."
+    },
+    "Samanta": {
+      "runtime": "/root/samanta_pala_revision",
+      "scope": "Reserved projects/site/src/pages/food/index.astro, kb/research/food/discovery-hub.json, projects/site/tests-coast/food-hub-images.test.mjs only; five-card image mappings, no shared component or global export changes",
+      "result": "Five page-local mappings and focused coast tests implemented; file scopes released."
+    },
+    "Drishti": {
+      "runtime": "/root/drishti_pala_reader_review",
+      "result": "PASS; separate AI source/asset/code review,6focused tests; no blockingfindings; nohumanreviewclaimed",
+      "reviewed_hashes": {
+        "projects/site/src/pages/food/index.astro": "3e32c4b99a36a4df1795ba0d0c59e2e041556fbca325e2437bcff5e8ffeaceb0",
+        "kb/research/food/discovery-hub.json": "22a1451814a187246a75c2d7efdf81a60cde4c87e41cae93fff453bf14c0d6df",
+        "kb/research/food/collection.json": "9c03e3ce7805fca45bbf93fb2e5f20b9c71566f304a18f9371e7efa9cbab1f41"
+      }
+    }
+  },
+  "missing_card_ids": [
+    "food:puri-mahaprasad",
+    "food:konark-chingudi",
+    "food:chilika-fish",
+    "food:chilika-curd",
+    "food:pakhala"
+  ],
+  "unrelated_changes": "Untracked duplicate font licence files preserved; not included. Open PR304/281 unrelated. Current main Chhau receipt observed integrated.",
+  "git_push": false,
+  "verified_publication": false,
+  "asset_evidence": "records/food-card-image-provenance-2026-10-20.json",
+  "media": "Four optimizedWebP photos; original creator/licence retained; contextual location/milk/preparation captions visible.",
+  "validation": {
+    "full_build": "PASS408pages",
+    "full_tests": "PASS566",
+    "coastal_build": "PASS395pages",
+    "coastal_tests": "PASS322",
+    "bundle": "PASS1737concepts",
+    "registers": "PASS1089records624events",
+    "team_assignments": "PASS",
+    "autonomous_program": "PASS; no programme credit added",
+    "research_reindex_and_validate": "PASS1504concepts",
+    "browser": "Desktop1280px and mobile390px inspected; visible context captions, correct cardphotos, no horizontaloverflow at390px. Existing3featuredphotos unchanged."
+  },
+  "changed_files": [
+    "kb/log.md",
+    "kb/records/food-card-image-provenance-2026-10-20.json",
+    "kb/records/food-card-images-2026-10-20.json",
+    "kb/research/food/collection.json",
+    "kb/research/food/discovery-hub.json",
+    "projects/site/src/pages/food/index.astro",
+    "projects/site/tests-coast/food-hub-images.test.mjs",
+    "projects/site/public/images/food/curd-context.webp",
+    "projects/site/public/images/food/fish-fry-odia-context.webp",
+    "projects/site/public/images/food/mahaprasad-pots.webp",
+    "projects/site/public/images/food/prawn-curry-context.webp",
+    "kb/records/editorial-workbench.json"
+  ],
+  "ci_history": [
+    {
+      "run_id": 39451102173,
+      "result": "FAIL",
+      "reason": "Generated editorial-workbench.json outdated after hub data change",
+      "repair": "Regenerated view; generator check,6Python tests and3Node tests passed. Article/media candidate unchanged."
+    }
+  ]
+}
