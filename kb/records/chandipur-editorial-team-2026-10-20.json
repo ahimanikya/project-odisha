@@ -1,0 +1,115 @@
+{
+  "recorded_at": "2026-10-20T12:16:20.084770+00:00",
+  "article_id": "POD-EDIT-053",
+  "route": "/visit/places/chandipur/",
+  "status": "in_progress",
+  "input_head": "496294b0fba394a6ad5928ee6902325bf2ab8c56",
+  "authorization": "POD-DEC-225",
+  "central_question": "Why does Chandipur expose so much ground at low tide, and what can that changing surface teach a visitor without turning exposure into a safe-walking promise?",
+  "acceptance": [
+    "Reuse current tourism and sedimentology evidence; inspect actual text and explain concrete terrain/process observations.",
+    "Preserve both credited photographs, byline, visible numbered notes and full portable reading.",
+    "Separate AI review, full/coast tests, responsive review, approved deployment, live checks and merged receipt."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only bounded evidence and prose proposal",
+      "status": "complete",
+      "input_head": "496294b0fba394a6ad5928ee6902325bf2ab8c56",
+      "findings": "Adds terrain geometry, sediment pathways and distinction between water-made patterns and biological traces; turns viewing into observation rather than a distance challenge.",
+      "tests": "Four passage mappings; paper-derived body140words plus note25; currenttourism30+note20. Actual selected source text inspected.",
+      "limits": [
+        "No fieldwork, rendered scientific figures, species identification or current tide/access confirmation."
+      ]
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/pages/visit/[kind]/[slug].astro",
+        "projects/site/src/data/destination-details.ts",
+        "projects/site/src/data/journey-catalog.ts",
+        "kb/research/destinations/chandipur-editorial.json",
+        "projects/site/tests-coast/chandipur-editorial.test.mjs"
+      ],
+      "status": "complete",
+      "input_head": "496294b0fba394a6ad5928ee6902325bf2ab8c56",
+      "findings": "Exact Chandipur opt-in for visible notes, full portable paragraphs, preserved two photographs, collapsed onward links and visible update/privacy. No publication eligibility change.",
+      "tests": "Static mapping/hash/source-budget1/1; coordinator fresh full566 and coast311 tests, publication build all pass.",
+      "limits": [
+        "No human review or physical-device/screen-reader testing."
+      ]
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Separate integrated candidate review",
+      "status": "assigned"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": "Canonical narrative, KB, shared records and publication",
+      "status": "in_progress"
+    }
+  ],
+  "concurrency": "All named workers completed Mayurbhanj; actual receipt372 merge reconciled. Open PR304 statistics and281 Ashoka untouched.",
+  "substantive_items_added": 0,
+  "human_review_claimed": false,
+  "image_audit": {
+    "inspector": "Disha",
+    "images": {
+      "/images/regions/chandipur-sunset.jpg": {
+        "sha256": "cd0d20634950b20af1301665a667e5baff2a670344b1c8d399f99f9302eea2e1",
+        "creator": "Nihar.race",
+        "source": "https://commons.wikimedia.org/wiki/File:Sunset_at_Chandipur_Sea_Beach,_Odisha.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      "/images/regions/chandipur-panorama.jpg": {
+        "sha256": "06e8b1a4852f7cb6726380a4ee934d3a3e5f80ea834d395012f76bfc8548dc4b",
+        "creator": "Alankar41",
+        "source": "https://commons.wikimedia.org/wiki/File:Chandipur_Beach.JPG",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    "finding": "Both local photographs visually inspected and Commons source pages rechecked. Sunset shows coherent reflected light and shoreline; panorama shows broad exposed surface, distant visitors and shoreline vegetation. Retain original files and CC BY-SA4 rights; display full frame.",
+    "limits": "Historical2012/2014 photos are not present access evidence, measured exposure distance, species identification or safe routes."
+  },
+  "research_gain": "Adds terrain geometry, sediment pathways and distinction between water-made patterns and biological traces; turns viewing into observation rather than a distance challenge.",
+  "local_validation": {
+    "full_tests": 566,
+    "coast_tests": 311,
+    "failed": 0,
+    "publication_mode": "limited",
+    "indexable_pages": 11,
+    "registered_routes": 395,
+    "unregistered_routes": [],
+    "browser": {
+      "viewports": [
+        [
+          1440,
+          1000
+        ],
+        [
+          390,
+          844
+        ]
+      ],
+      "reading_widths": [
+        740,
+        343.1953125
+      ],
+      "overflow": false,
+      "notes": 2,
+      "references": 4,
+      "keyboard_return": "ref-detail-1-chandipur-sedimentation2023",
+      "further_reading_keyboard_toggle": true,
+      "panorama_full_frame": true
+    },
+    "limits": [
+      "Browser emulation, not physical-device or screen-reader testing."
+    ]
+  }
+}

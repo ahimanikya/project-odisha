@@ -45,3 +45,7 @@ The flat is also being made and remade. A geological study describes river-borne
 Evidence: Saha, Samanta, Mukhopadhyay and Eriksson, Journal Indian Association of Sedimentologists40(1),2023, Study Area pp6–7. The relation between slope and horizontal exposure is a plain geometrical explanation of the described terrain. No tide prediction, safe walking distance, current erosion rate or present access survey is supplied. [Source](../sources/chandipur-sedimentation2023.md).
 
 The current [Odisha Tourism page](https://odishatourism.gov.in/en/places/chandipur-beach) recommends October–March and names Baleshwar rail/road arrival. The old page’s November–March and restaurant text remain historical references, not freshly verified operating advice.
+
+## Reading the surface · 20 October 2026
+
+The visitor article now distinguishes tide exposure from dry or safe ground and turns selected sedimentological observations into specific looking questions: line direction, crossing marks and traces whose maker cannot be inferred from a distant photograph. It reuses the2023 paper’s printedpp6–9 and current tourism arrival/season advice. No species identification, current tide prediction, route inspection or bathing assurance is claimed. Both historical photographs and rights remain intact. Mapping: [Chandipur editorial](../destinations/chandipur-editorial.json).

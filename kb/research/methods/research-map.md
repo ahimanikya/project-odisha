@@ -825,3 +825,7 @@ POD-EDIT-051 reuses regions, northern detail/trail, Chandipur place and Fakir/Si
 ## Mayurbhanj regional article reuse · 20 October 2026
 
 Reused regions/northern-details/mayurbhanj-trail, Similipal, Chhau, Santali and the Chhau-recognition investigation before bounded source checks. Existing UNESCO ecological source is mapped as `similipal-biosphere` within destinations to distinguish the old operational `similipal` key; no duplicate source record. New references are the2023 President’s Secretariat Baripada literary-event release, current tourism Baripada successor and current reserve guidelines. Indexed-only reopening date was not adopted. No new subject, fieldwork or programme credit.
+
+## Chandipur visitor article reuse · 20 October 2026
+
+POD-EDIT-053 reuses the Chandipur place, current tourism successor, sedimentology2023 and northern-detail records. Adds bounded reading of the existing paper’s printed p9 for surface observations; no duplicate source or place. Historical photographs remain intact and are not species or access evidence. The regional Balasore article remains unchanged. No fieldwork or substantive-programme credit.
