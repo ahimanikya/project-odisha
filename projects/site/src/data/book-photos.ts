@@ -26,6 +26,7 @@ export const bookPhotos={
  'food:odisha-rasagola':foods.assets['pahala-rasagola'],
  'reading:people/subhas-chandra-bose':regions.assets['cuttack-netaji'],
  'place:balasore':regions.assets.chandipur,
+ 'stay:similipal-camps':{...regions.assets.barehipani,caption:'Barehipani waterfall, 2013; landscape context, not a camp or room.'},
  'stay:balasore-coast':{...regions.assets.chandipur,caption:'Chandipur landscape, 2012; not a photograph of accommodation.'},
  'reading:people/fakir-mohan-senapati':voices.assets.fakir,
  'food:chandipur-seafood':foods.assets['chandipur-context'],

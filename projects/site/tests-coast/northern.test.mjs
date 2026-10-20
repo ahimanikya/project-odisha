@@ -15,7 +15,7 @@ test('northern starters create distinct unscheduled plans while preserving a pre
   const starter=data.starters.find(s=>s.id===id),next=createStarterTrip(old,id,starter,data.catalog.map(i=>i.id));
   assert.deepEqual(old,before);assert.deepEqual(next.trips[0],before.trips[0]);assert.equal(next.trips[1].plan.items.length,5);
   const book=buildTourBook(next.trips[1].plan,data.catalog);
-  for(const phrase of id==='northern-stories'?['Balasore town','Chandipur coast','portion','Fakir Mohan']:['29 June','announced separately','Kaliani','Mayurbhanj Chhau','chicken'])assert.ok(book.includes(phrase),phrase);
+  for(const phrase of id==='northern-stories'?['Balasore town','Chandipur coast','portion','Fakir Mohan']:['Pithabata','Kaliani','Jamuani, Gurguria, Kumari and Barehipani','day-entry passes','overnight reservations','certified local nature guide','Mayurbhanj Chhau','chicken'])assert.ok(book.includes(phrase),phrase);
  }
 });
 test('northern guidance, stay comparisons and source links survive both offline formats',()=>{

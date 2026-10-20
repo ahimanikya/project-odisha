@@ -1,0 +1,134 @@
+{
+  "recorded_at": "2026-10-20T16:15:54.681680+00:00",
+  "article_id": "POD-EDIT-057",
+  "route": "/visit/stays/similipal-gateways/",
+  "status": "candidate_ready",
+  "input_head": "8c0665003f8ca3f847998df6981222c2ef4bbc56",
+  "authorization": [
+    "POD-DEC-2026101702",
+    "POD-DEC-225",
+    "POD-DEC-2026101901"
+  ],
+  "central_question": "What must a traveller settle before choosing a town base or an overnight camp for Similipal, and how do gate, route and booking conditions change that choice?",
+  "acceptance": [
+    "Explain named gateway and camp choices using actual current official material and concrete planning scenarios; distinguish historical notices from current access.",
+    "Preserve all useful comparisons, complete portable reading, dated landscape provenance, footnotes and onward reading.",
+    "Separate AI review, meaningful tests, responsive review, merged PR, approved deployment and live receipt before completion."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only research and proposal",
+      "status": "complete",
+      "input_head": "8c0665003f8ca3f847998df6981222c2ef4bbc56",
+      "findings": "Three distinct official successor pages explain named gate pairings, day versus overnight booking and vehicle/guide requirements. Five sections with concrete town-day and camp-arrival scenarios.",
+      "tests": "Existing KB and actual pages inspected; proposal serialized.",
+      "limits": "No currentopening, liveinventory, bookingtransaction, providercontact, propertyinspection, fieldvisit orhumanreview. Originalscenariosnotvalidateditineraries."
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/pages/visit/[kind]/[slug].astro",
+        "projects/site/src/data/destination-details.ts",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/src/data/book-photos.ts",
+        "kb/research/destinations/similipal-stay-editorial.json",
+        "projects/site/tests-coast/similipal-stay-editorial.test.mjs",
+        "projects/site/tests/bhubaneswar-stay-editorial.test.mjs",
+        "projects/site/tests/barabati-reading-book.test.mjs",
+        "projects/site/tests/mukteswar-editorial.test.mjs",
+        "projects/site/tests/cuttack-reading-book.test.mjs",
+        "projects/site/tests-coast/barabati-editorial.test.mjs",
+        "projects/site/tests-coast/balasore-stay-editorial.test.mjs",
+        "projects/site/tests-coast/chandipur-editorial.test.mjs",
+        "projects/site/tests-coast/chhau-editorial.test.mjs",
+        "projects/site/tests-coast/cuttack-stay-editorial.test.mjs",
+        "projects/site/tests-coast/dhauli-editorial.test.mjs",
+        "projects/site/tests-coast/netaji-museum-editorial.test.mjs",
+        "projects/site/tests-coast/similipal-editorial.test.mjs",
+        "projects/site/tests-coast/tarakasi-editorial.test.mjs",
+        "projects/site/tests-coast/launch-readiness.test.mjs",
+        "projects/site/tests-coast/northern.test.mjs"
+      ],
+      "status": "complete",
+      "scope_note": "Only negative controls move to untouched Jobra maritime museum; onward Similipal links retained. Retained waterfall portable image is landscape context, not camp/room.",
+      "input_head": "8c0665003f8ca3f847998df6981222c2ef4bbc56",
+      "findings": "Exact stay opt-in, full ten paragraphs and three comparisons, three visible notes and exact returns, retained Barehipani portable photograph. Thirteen stale negative controls moved to untouched Jobra without changing onward Similipal links.",
+      "tests": "Static source map1/1 and38existing focused regressions on prior builds; syntax/diff pass. Fresh rendering coordinator-owned. Follow-up two stale integration assertions updated to meaningful current access and portable checks;16/16affectedtests passed."
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Separate integrated candidate review",
+      "status": "waiting_for_candidate"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": "Canonical narrative, shared records, source/photo audit and publishing",
+      "status": "in_progress"
+    }
+  ],
+  "concurrency": "All prior team workers completed; receipt PR380 observed merged. Incoming food-card image PR381/382 integrated; open PR304 statistics and PR281 Ashoka untouched.",
+  "substantive_items_added": 0,
+  "human_review_claimed": false,
+  "image_audit": {
+    "result": "retain",
+    "asset": "barehipani",
+    "inspection": "Actual original photograph and Commons source inspected: coherent wooded rock face and falling water; no physical anomalies observed. Dated landscape, not camp, room or current visitor conditions.",
+    "creator": "Wiki GSD",
+    "photographed_on": "2013-12-29",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Similipal_(2).jpg",
+    "sha256": "48936cd341129e6dc21082f88a938d566b133cfc12e7f4bf427d2ecf0823d026"
+  },
+  "source_review": {
+    "actual_pages": [
+      "https://www.similipal.org/entry-gates/",
+      "https://similipal.org/permits/",
+      "https://similipal.org/routes/"
+    ],
+    "inspection": "Disha independently read actual official entry-gates, permits and routes text. Named pairings, four camp examples, booking distinctions and guide/vehicle requirements verified at their specified sections. No current opening or availability inferred.",
+    "mapping": "research/destinations/similipal-stay-editorial.json",
+    "historical_evidence": "Old closure and operational IDs preserved; present article uses distinct verified successor pages.",
+    "limits": "No currentopening, liveinventory, bookingtransaction, providercontact, propertyinspection, fieldvisit orhumanreview. Originalscenariosnotvalidateditineraries."
+  },
+  "resolved_findings": [
+    {
+      "issue": "Initial full suite found three newly inspected source IDs absent from the shared destination source pool.",
+      "resolution": "Added the same three source identities and inspection limits to regions.sources; historical sources preserved. Fresh full build and suites rerun."
+    },
+    {
+      "issue": "Two old coastal integration tests assumed the historical closure text and a separate readiness block.",
+      "resolution": "Explicit integrated practical-guidance branch verifies current booking/access details and notes; starter asserts named gates/camps/guide distinction.16focusedtests and full330coastaltests pass."
+    }
+  ],
+  "validation": {
+    "full_build": "pass",
+    "full_tests": 566,
+    "coast_build": "pass",
+    "coast_tests": 330,
+    "publication_build": "pass;11indexablepages",
+    "local_browser": {
+      "viewports": [
+        [
+          1440,
+          1000
+        ],
+        [
+          390,
+          844
+        ]
+      ],
+      "reading_widths": [
+        740,
+        343.1953125
+      ],
+      "horizontal_overflow": false,
+      "inspection": "Desktop and mobile cover, mobile prose and three stacked comparison cards inspected. Footnote1 exact keyboard return and disclosure toggle verified.",
+      "limits": "Browser emulation, not physical-device or screen-reader testing."
+    }
+  }
+}

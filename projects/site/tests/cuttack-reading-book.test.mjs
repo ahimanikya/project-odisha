@@ -13,7 +13,7 @@ test('Cuttack portable reading keeps its evidenced byline, narrative, concise so
  assert.equal(item.author,editorial.author);
  assert.equal(data.catalog.find(x=>x.id==='place:balasore')?.author,'Ahimanikya Satapathy');
  assert.equal(data.catalog.find(x=>x.id==='place:mayurbhanj')?.author,'Ahimanikya Satapathy');
- assert.equal(data.catalog.find(x=>x.id==='stay:similipal-camps')?.author,undefined);
+ assert.equal(data.catalog.find(x=>x.id==='experience:jobra-maritime-museum')?.author,undefined);
  const plan=addItem(emptyJourney(),region.id);
  const book=buildTourBook(plan,data.catalog),text=buildTextItinerary(plan,data.catalog);
  assert.ok(book.includes('By '+editorial.author));assert.ok(text.includes('By '+editorial.author));

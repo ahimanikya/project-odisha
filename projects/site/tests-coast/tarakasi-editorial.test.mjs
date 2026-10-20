@@ -53,7 +53,7 @@ test('Tarakasi keeps collapsed further reading, a visible update and journey sav
  assert.match(outsideDisclosures,/GitHub submissions are public; omit private contact details and consent documents/);
  assert.match(html,/data-save-journey="experience:cuttack-filigree"/);
  assert.match(html,/name="robots" content="noindex, nofollow"/);
- const other=read('/visit/stays/similipal-gateways/');
+ const other=read('/visit/experiences/jobra-maritime-museum/');
  assert.doesNotMatch(other,/class="article-byline"|id="story-sources"/);
  assert.match(other,/Drafted with AI assistance/);
  const barabati=read('/visit/places/barabati/');
