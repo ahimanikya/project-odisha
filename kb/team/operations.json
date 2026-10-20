@@ -59,11 +59,12 @@
     "route": "/visit/stays/similipal-gateways/",
     "owner": "Disha",
     "coordinator_runtime": "/root",
-    "phase": "candidate_review",
+    "phase": "receipt_integrated",
     "branch": "codex/similipal-stay-editorial-20261020",
     "input_head": "8c0665003f8ca3f847998df6981222c2ef4bbc56",
     "file_reservations": "records/similipal-stay-editorial-team-2026-10-20.json#executions",
-    "integration_gate": "External sweets receipt PR385 observed merged at09ee64ec; subsequent photo receipt PR387 observed merged atd5888b36. Resume only this retained Similipal article through its own receipt integration."
+    "integration_gate": "Retain ownership until this receipt PR is actually merged; phase becomes effective only with that integration. No next article claim before observed merge.",
+    "publication_receipt": "records/similipal-stay-editorial-publication-2026-10-20.json"
   },
   "project_identity": "reference/project-identity.md"
 }

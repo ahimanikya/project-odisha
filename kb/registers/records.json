@@ -8647,7 +8647,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "POD-DEC-2026101702",
-      "next_action": "Continue next eligible queued article after verifying receipt integration and reconciling team ownership;49 editorial entries complete.",
+      "next_action": "Continue next eligible queued article after verifying receipt integration and reconciling team ownership;51 editorial entries complete.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026101702",
@@ -8734,7 +8734,9 @@
         "POD-REV-2026102013",
         "POD-REL-2026102013",
         "POD-REV-2026102014",
-        "POD-REL-2026102014"
+        "POD-REL-2026102014",
+        "POD-REV-2026102015",
+        "POD-REL-2026102015"
       ],
       "evidence": [
         "reference/article-editorial-standard.md",
@@ -8783,7 +8785,8 @@
         "records/chandipur-editorial-publication-2026-10-20.json",
         "records/similipal-editorial-publication-2026-10-20.json",
         "records/chhau-editorial-publication-2026-10-20.json",
-        "records/balasore-stay-editorial-publication-2026-10-20.json"
+        "records/balasore-stay-editorial-publication-2026-10-20.json",
+        "records/similipal-stay-editorial-publication-2026-10-20.json"
       ],
       "acceptance_criteria": [
         "Every published baseline route classified; each article independently reviewed against approved standard with PR/test/deploy/live receipt; exclusions justified; future articles follow same rule."
@@ -21426,6 +21429,38 @@
         "No property inspection, provider confirmation, current rates, availability, timetable, fieldwork or human review. Scenarios are hypothetical planning comparisons.",
         "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
       ]
+    },
+    {
+      "id": "POD-REV-2026102015",
+      "title": "Separate Similipal stay article and source review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent /root/drishti"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human or language-specialist review.",
+      "reviewed_head": "199c8b90c4cd2a0d238c20b45edaa7c0a3090a03",
+      "refs": [
+        "POD-WORK-302",
+        "POD-DEC-2026101901",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/similipal-stay-editorial-team-2026-10-20.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human, hospitality specialist, legal or field approval.",
+        "No live opening, camp inventory, booking transaction, provider contact, room inspection, current vehicle/guide availability or accessibility confirmation.",
+        "Official pages were read; no independent legal validation of stated vehicle/guide requirements.",
+        "Initial candidate full566/coast330 and reconciled full566/coast337 suites were coordinator-performed; reviewer separately ran focused tests. Browser checks were coordinator-performed.",
+        "No new build or browser interaction; independently ran54 focused tests against supplied built outputs.",
+        "Initial54 focused tests apply to unchanged own content; additional29 tests independently ran against fresh combined built output.",
+        "Incoming sweets and photograph factual/rights research was not re-reviewed as this task; preservation and relevant regression behavior checked.",
+        "Prior release hold resolved by observed remote integration; passing exact-head CI, approved publication and live evidence are now linked in this receipt. Only receipt integration remains pending.",
+        "No property inspection, provider confirmation, current rates, availability, timetable, fieldwork or human review. Scenarios are hypothetical planning comparisons.",
+        "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
+      ]
     }
   ],
   "releases": [
@@ -24682,6 +24717,23 @@
         "records/balasore-stay-editorial-team-2026-10-20.json"
       ],
       "note": "Reviewed PR379 passed checks and merged; approved deployment and live notes, retained dated landscape and responsive reading verified. Zero substantive programme credit."
+    },
+    {
+      "id": "POD-REL-2026102015",
+      "title": "Similipal stay overnight base comparison",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/visit/stays/similipal-gateways/",
+      "refs": [
+        "POD-WORK-302",
+        "POD-REV-2026102015",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/similipal-stay-editorial-publication-2026-10-20.json",
+        "records/similipal-stay-editorial-team-2026-10-20.json"
+      ],
+      "note": "Reviewed PR384 passed checks and merged; approved deployment and live notes, retained dated landscape and responsive reading verified. Zero substantive programme credit."
     }
   ],
   "sources": [
