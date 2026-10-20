@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T16:15:54.681680+00:00",
   "article_id": "POD-EDIT-057",
   "route": "/visit/stays/similipal-gateways/",
-  "status": "awaiting_external_receipt_integration",
+  "status": "candidate_reconciliation",
   "input_head": "8c0665003f8ca3f847998df6981222c2ef4bbc56",
   "authorization": [
     "POD-DEC-2026101702",
@@ -62,7 +62,7 @@
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Separate integrated candidate review",
-      "status": "complete",
+      "status": "waiting_for_candidate",
       "input_head": "480040f83b31d3206587368601af442e43122360",
       "findings": "Separate content review passed with explicit concurrent-publication hold; fresh combined-head review required after reconciliation."
     },
@@ -133,7 +133,33 @@
       "limits": "Browser emulation, not physical-device or screen-reader testing."
     }
   },
-  "review": {
+  "candidate_validation": {
+    "conclusion": "success",
+    "databaseId": 39457437088,
+    "headSha": "480040f83b31d3206587368601af442e43122360",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39457437088"
+  },
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/384",
+  "concurrency_hold": {
+    "observed_at": "2026-10-20T16:30:53.354129+00:00",
+    "external_pr": "https://github.com/ahimanikya/project-odisha/pull/383",
+    "external_article": "POD-EDIT-396",
+    "external_handoff": "records/sweets-and-places-team-2026-10-20.json",
+    "external_claim_recorded_at": "2026-10-20T16:17:19.119150+00:00",
+    "reason": "Both candidates independently started from8c066500 before their PRs were visible. Content scopes differ but operations/rollout are shared. Direct Founder-request sweets worker retains its scope.",
+    "action": "PR384 marked draft with explicit publishing deferral; no merge/deployment/completion. Preserve current candidate and await observed external receipt integration, then reconcile incoming records and review/test the combined head.",
+    "next_action": "Read actual PR383 and any receipt PR plus latest main handoff; no ownership takeover based on timestamp. No new article while this candidate remains held.",
+    "resolution": {
+      "external_receipt_pr": 385,
+      "merge_commit": "09ee64ec91f5e3959d2e9e225d48fa62edc463a2",
+      "merged_at": "2026-10-20T16:40:27Z",
+      "additional_photo_receipt_pr": 387,
+      "incoming_head": "d5888b36616d839d390019f6c4032383c2b0d27b",
+      "observed": "Actual remote merged states and successful deployments confirmed; all incoming source, image, edition and completion records preserved. Only Similipal remains in progress in integrated inventory."
+    }
+  },
+  "review_before_reconciliation": {
     "reviewer": "Drishti",
     "kind": "separate_ai_candidate_review",
     "head": "480040f83b31d3206587368601af442e43122360",
@@ -223,23 +249,5 @@
       "No new build or browser interaction; independently ran54 focused tests against supplied built outputs.",
       "Local validators check record consistency, not distributed locking. Concurrent claim prevents release approval until a reconciled exact head is separately reviewed."
     ]
-  },
-  "candidate_validation": {
-    "conclusion": "success",
-    "databaseId": 39457437088,
-    "headSha": "480040f83b31d3206587368601af442e43122360",
-    "status": "completed",
-    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39457437088"
-  },
-  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/384",
-  "concurrency_hold": {
-    "observed_at": "2026-10-20T16:30:53.354129+00:00",
-    "external_pr": "https://github.com/ahimanikya/project-odisha/pull/383",
-    "external_article": "POD-EDIT-396",
-    "external_handoff": "records/sweets-and-places-team-2026-10-20.json",
-    "external_claim_recorded_at": "2026-10-20T16:17:19.119150+00:00",
-    "reason": "Both candidates independently started from8c066500 before their PRs were visible. Content scopes differ but operations/rollout are shared. Direct Founder-request sweets worker retains its scope.",
-    "action": "PR384 marked draft with explicit publishing deferral; no merge/deployment/completion. Preserve current candidate and await observed external receipt integration, then reconcile incoming records and review/test the combined head.",
-    "next_action": "Read actual PR383 and any receipt PR plus latest main handoff; no ownership takeover based on timestamp. No new article while this candidate remains held."
   }
 }

@@ -824,3 +824,13 @@ Expanded the existing Pala narrative using saved artist/network and literary evi
 ## Pala reader revision · 19 October 2026
 
 Founder-approved revision retains By Ahimanikya Satapathy, the credited documentary photograph, visible sources, collapsed reading paths and visible update action. Six artist introductions now give women individual repertoire credits; saved sources support teaching and literary examples. Repeated cautions are shortened and visitor guidance consolidated into Before you go, What to listen for and Supporting the artists. Earlier origin, livelihood and visitor-availability gaps remain. Separate AI evidence review completed; quality and publication evidence follow in the team handoff. No substantive500 count increment.
+
+
+## 20 October 2026 · Sweets and places
+
+Added a source-linked eight-sweet collection: Nimapada Jhili, Kendrapara Rasabali, Dhenkanal Magji, Nayagarh Chhena Poda, Bhubaneswar Korakhai, Pahala/Salepur Rasagola, Puri Khaja and Bhadrak Palua Ladu. Reused saved evidence; newly inspected institutional Puri, Bhadrak and culinary-trail pages. Maker accounts remain attributed and dated; no current GI validity, invented origin, vendor inspection or economic total claimed. Two existing documentary photographs retain location and rights. Public release is recorded separately from local research.
+
+
+## 20 October 2026 · Alternate food photographs
+
+Replaced the active Dalma, Tomato Poda and Poda Pitha illustrations with newly inspected licensed documentary alternatives. Habisha Dalma retains its variant identity; the alternate pakhala meal identifies bilati poda at left; the whole Poda Pitha photograph supports browned-crust observation but no cut-interior claim. Updated photograph-specific prose and saved-book mappings. Historical assets and their rights remain intact. Separate AI research, implementation and quality checks are recorded with the release; no human field review or programme completion credit.

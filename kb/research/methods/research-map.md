@@ -841,3 +841,8 @@ POD-EDIT-056 reuses the northern stay, Balasore regional and Chandipur place rec
 ## Similipal stay-area editorial reuse · 20 October 2026
 
 POD-EDIT-057 reuses the northern stay row, Similipal place article, reserve guidelines and historical closure evidence before inspecting three distinct current successor pages for gates, permits and routes. The named gateway pairings, camp examples and vehicle/guide distinction support concrete overnight planning. Old operational and closure source identities remain unchanged; no reopening, room inventory, current inclusions or provider confirmation inferred. No duplicate place or programme credit. Mapping: `research/destinations/similipal-stay-editorial.json`.
+
+
+## 20 October 2026 · Place-linked sweets collection
+
+Reuse [sweets and places](../food/sweets-and-places.md) and its structured companion before researching local sweet identities. This eight-entry selection combines existing profiles with freshly inspected institutional Khaja/Puri and Palua Ladu/Bhadrak associations. It is not a complete district inventory or a current venue list.

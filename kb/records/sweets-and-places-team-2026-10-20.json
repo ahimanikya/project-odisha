@@ -1,0 +1,99 @@
+{
+  "recorded_at": "2026-10-20T16:17:19.119150+00:00",
+  "article_id": "POD-EDIT-396",
+  "route": "/food/sweets-and-places/",
+  "status": "published_receipt_pending_integration",
+  "input_head": "8c0665003f8ca3f847998df6981222c2ef4bbc56",
+  "authorization": [
+    "Direct Founder request: document sweets associated with places",
+    "POD-DEC-2026101901"
+  ],
+  "acceptance": [
+    "Eight evidenced sweet identities and nine named place associations, without invented origin/current venue/GI validity claims.",
+    "Founder byline, visible sources and image credits, collapsed Further reading, visible update link.",
+    "Separate AI quality review, responsive checks, normal CI and verified publication before completion."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha_pala_revision",
+      "status": "complete",
+      "scope": [
+        "kb/research/food/sweets-and-places.json",
+        "kb/research/food/sweets-and-places.md"
+      ]
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta_pala_revision",
+      "status": "complete",
+      "scope": [
+        "projects/site/src/pages/food/sweets-and-places.astro",
+        "projects/site/tests-coast/sweets-and-places.test.mjs"
+      ]
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "status": "receipt_integration",
+      "scope": "Shared integration, registers, edition/discovery, catalog/map/classification, tests and release; exclusive Git/publisher"
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti_pala_reader_review",
+      "status": "complete",
+      "scope": "Read-only separate integrated candidate review"
+    }
+  ],
+  "programme_credit": 0,
+  "prior_claim_release": "Balasore receipt integrated in observed main before8c066500; no active article/open overlapping PR observed.",
+  "validation": {
+    "full_build": "409 pages; pass",
+    "full_tests": 566,
+    "responsive": {
+      "desktop": [
+        1280,
+        900
+      ],
+      "mobile": [
+        390,
+        844
+      ],
+      "horizontal_overflow": false,
+      "images": "Both real photographs loaded after scrolling; lazy loading retained.",
+      "further_reading": "Closed by default; opened using Enter.",
+      "limits": "Browser emulation, not physical device or screen-reader review."
+    },
+    "coast_tests": 330,
+    "publication_build": "pass;11 indexable routes unchanged"
+  },
+  "evidence_limits": [
+    "Separate task-scoped AI research/implementation, no human/local review claimed.",
+    "Historical maker sources are dated and attributed; no current GI status, serving venues or storage duration asserted.",
+    "Sarsatia source preparation conflict remains a next-research lead; no invented recipe."
+  ],
+  "review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_candidate_review",
+    "result": "pass_with_limits",
+    "reviewed_head": "6f278d67f2857992cd90cfcc1de00aa35af79448",
+    "subsequent_public_claim_changes": false,
+    "blocking_findings": [],
+    "checks": [
+      "10 focused sweets/discovery/edition tests passed",
+      "Research/core/map/classification/bundle/workbench/team/programme checks passed",
+      "21 narrative paragraphs aligned with Markdown;16 source IDs cited",
+      "Two original image hashes and credits retained"
+    ],
+    "limits": [
+      "No fresh external verification by reviewer",
+      "No human/producer review, browser interaction or publication verification by reviewer"
+    ],
+    "content_sha256": {
+      "kb/research/food/sweets-and-places.json": "f15c32bea26f5339fac5b45ba9d38c6a2ec7fc79b78349b3ee445137a69e7ec8",
+      "projects/site/src/pages/food/sweets-and-places.astro": "8ebdb73867aad6c34c558f1af5ecb17f908c8545a86f19de95d8973c822b2662"
+    }
+  },
+  "publication_receipt": "records/sweets-and-places-publication-2026-10-20.json",
+  "ownership": "Disha retains the article claim until this records-only receipt PR is actually merged."
+}
