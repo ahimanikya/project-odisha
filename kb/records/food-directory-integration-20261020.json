@@ -1,0 +1,51 @@
+{
+  "id": "POD-FOOD-DIRECTORY-20261020",
+  "status": "local_preview_verified",
+  "input_head": "8c066500",
+  "authorization": "User accepted the proposed food-to-restaurant linking approach with ok. Local implementation and preview; no deployment requested.",
+  "scope": "Food directory and cross-links, not an editorial-rollout article claim. Existing team operations and article ownership unchanged.",
+  "reservations": {
+    "Samanta": [
+      "projects/site/src/pages/food/where-to-eat.astro",
+      "projects/site/src/pages/food/restaurants/[slug].astro",
+      "projects/site/src/components/WhereToEat.astro"
+    ],
+    "Disha": [
+      "kb/research/food/restaurants.json",
+      "projects/site/src/components/FoodDiscovery.astro",
+      "projects/site/src/components/RegionalMeal.astro",
+      "projects/site/src/pages/food/[slug].astro",
+      "projects/site/src/data/planning-collections.ts",
+      "projects/site/editions/coast.json",
+      "projects/site/src/components/RegionMagazine.astro"
+    ]
+  },
+  "checks": [
+    {
+      "check": "Coastal build and edition finalizer",
+      "result": "pass; 426 built routes, 413 retained edition pages, internal links/assets verified"
+    },
+    {
+      "check": "Focused generated HTML checks",
+      "result": "pass; 17 profiles, direct operator links, 3 Atithi dish backlinks, no Odraa dish assertions, food hub/meal/destination entry links, no Tripadvisor profile links"
+    },
+    {
+      "check": "Browser layout and navigation",
+      "result": "Directory inspected at desktop and 390px width; Odraa profile inspected at 390px. Card navigation confirmed. Viewport override reset."
+    },
+    {
+      "check": "Drishti independent read-only review",
+      "result": "No blocking findings. External Chef link follow-up resolved by coordinator browser check."
+    },
+    {
+      "check": "git diff --check",
+      "result": "pass"
+    }
+  ],
+  "preview": "http://127.0.0.1:4397/food/where-to-eat/",
+  "publication": "Not committed, pushed or deployed in this task.",
+  "limits": [
+    "Listings are operator descriptions, not site inspections or Alliance endorsements.",
+    "Odraa menu link is available but its menu contents were not read; no dish-specific associations."
+  ]
+}

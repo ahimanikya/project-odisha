@@ -1,0 +1,72 @@
+{
+  "id": "POD-FOOD-CITIES-20261020",
+  "status": "local_preview_verified",
+  "authorization": "User requested extension to all other major cities. Local site and KB expansion; no deployment requested.",
+  "scope": "Major Odisha cities and travel hubs: 21 city sections, 20 with sourced operator listings; Kendujhar pending a reliable direct source. This is working travel coverage, not an official or exhaustive urban classification.",
+  "reservations": {
+    "Anvesha": [
+      "kb/research/references/data/restaurant-cities-west-north-20261020.json"
+    ],
+    "Samanta": [
+      "projects/site/src/pages/food/where-to-eat.astro",
+      "projects/site/src/pages/food/restaurants/[slug].astro",
+      "projects/site/src/components/WhereToEat.astro"
+    ],
+    "Disha": [
+      "kb/research/food/restaurants.json",
+      "kb/research/references/data/restaurant-cities-coast-south-20261020.json",
+      "projects/site/src/components/FoodDiscovery.astro",
+      "projects/site/src/components/RegionalMeal.astro",
+      "projects/site/src/components/RegionMagazine.astro",
+      "projects/site/editions/coast.json"
+    ]
+  },
+  "checks": [
+    "Coast build passed:455 generated pages;442 retained edition pages.",
+    "All46 restaurant profile pages exist, include their direct operator links and return to the correct city anchor.",
+    "21 unique city anchors and legacy #odia-dining anchor checked.",
+    "Four food-guide reciprocal links and five destination links verified in generated HTML.",
+    "Only three pre-existing Atithi dish associations; none inferred for new venues.",
+    "No Tripadvisor links in rendered restaurant profiles; git diff --check passed.",
+    "Mobile390px Jeypore cards/profile and desktop1280px directory visually inspected; no horizontal overflow. Viewport reset.",
+    "Separate Drishti review: data/evidence match, routes, city assignments, anchor integrity, semantics checked; Balasore reciprocal-link gap corrected."
+  ],
+  "result": {
+    "venues_total": 46,
+    "new_venues": 29,
+    "populated_cities": 20,
+    "cities": [
+      "Bhubaneswar",
+      "Cuttack",
+      "Puri",
+      "Berhampur",
+      "Balasore",
+      "Baripada",
+      "Bhadrak",
+      "Sambalpur",
+      "Rourkela",
+      "Jharsuguda",
+      "Balangir",
+      "Bargarh",
+      "Angul",
+      "Dhenkanal",
+      "Jajpur Road",
+      "Kendujhar",
+      "Paradip",
+      "Jeypore",
+      "Koraput",
+      "Rayagada",
+      "Bhawanipatna"
+    ],
+    "pending_cities": [
+      "Kendujhar"
+    ],
+    "publication": "Local preview only; no commit, push or deployment performed this turn.",
+    "evidence": [
+      "kb/research/references/data/restaurant-cities-coast-south-20261020.json",
+      "kb/research/references/data/restaurant-cities-west-north-20261020.json"
+    ],
+    "source_limitations": "Operator descriptions and in some cases indexed operator content; not independent quality or current operating-status verification. Retrieval limitations retained in evidence.",
+    "screenshot": "/tmp/project-odisha-city-dining.png"
+  }
+}

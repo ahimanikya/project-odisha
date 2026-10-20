@@ -1,0 +1,64 @@
+{
+  "id": "POD-REVIEW-FOOD-DIRECTORY-20261020",
+  "date": "2026-10-20",
+  "scope": "Restaurant directory, individual restaurant profiles and food/destination links",
+  "status": "local_preview_verified",
+  "publication": "No commit, push or deployment performed.",
+  "counts": {
+    "public_venues": 60,
+    "populated_places": 23,
+    "place_sections": 24,
+    "held_venues": 1,
+    "previous_public_venues": 61
+  },
+  "findings_fixed": [
+    {
+      "finding": "Blanket source verification language obscured indexed-only evidence",
+      "fix": "Directory uses reviewed wording; profiles distinguish indexed-only sources. Twelve previously indexed listings directly rechecked through web or browser and updated; SAO held pending."
+    },
+    {
+      "finding": "Menu notes were never rendered, and Odraa note implied an inspected current menu",
+      "fix": "Render nonempty menu notes; Odraa identifies the operator-linked Drive menu as unread."
+    },
+    {
+      "finding": "General visit guidance appeared below all 61 cards on a roughly 30,220px mobile page",
+      "fix": "Guidance moved above listings; includes confirming nonresident hotel dining access. Added accessible progressive search with result count, empty state, clear and anchor reset."
+    },
+    {
+      "finding": "Repeated action links were indistinguishable in a screen-reader links list",
+      "fix": "Accessible names include venue names while retaining visible action labels."
+    },
+    {
+      "finding": "Konark and Chilika destination links were one-way",
+      "fix": "Their food sections now link back to the appropriate directory sections."
+    },
+    {
+      "finding": "Barbeque Nation page title names DN Regalia while its address specifies DN Square",
+      "fix": "Area is cautious and visitor note identifies both conflicting operator details; exact mall requires confirmation."
+    },
+    {
+      "finding": "SAO operator link was unusable, including browser SSL protocol failure",
+      "fix": "Full record retained under pending_venues; removed from public directory and coast allowlist. No closure inferred."
+    }
+  ],
+  "validation": {
+    "coast_build": "passed",
+    "internal_links_and_anchors": "All 60 profiles plus directory checked; no missing internal destinations or anchors, no duplicate IDs. Query parameters handled separately from paths.",
+    "rendered_content": "Menu note, evidence status wording and reciprocal links checked in built HTML.",
+    "browser": "390px mobile: no horizontal overflow; search matching, zero-results, clear focus, pending place restoration, and city navigation reset checked. 1280px desktop: result counts and cards checked.",
+    "independent_review": "Drishti reviewed UI/source fixes and final data/build integration: no material site findings. Found a wrong Oudichi audit provenance pointer; corrected to puri-coco-palms-20261020.json and verified by coordinator.",
+    "whitespace": "git diff --check passed"
+  },
+  "evidence": [
+    "kb/research/references/data/restaurant-audit-20261020.json"
+  ],
+  "preview": "http://127.0.0.1:4397/food/where-to-eat/#gopalpur",
+  "screenshot": "/tmp/odisha-restaurant-audit-preview.png",
+  "limits": [
+    "No field visit, food tasting, hygiene or service-quality audit performed.",
+    "Existing evidence reviewed across the directory; fresh external checks targeted indexed and questionable sources, not every restaurant anew.",
+    "Menus, prices, operation and hotel dining access can change; confirm with operator.",
+    "Kendujhar still has no verified directory listing.",
+    "Historical expansion receipts retain their original counts."
+  ]
+}
