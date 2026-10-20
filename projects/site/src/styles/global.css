@@ -150,5 +150,5 @@ summary{min-height:44px;cursor:pointer}main:focus{outline:none}.header nav a{min
 .footer-links .eyebrow{font-family:inherit;font-size:11px;font-weight:650;line-height:1.5;letter-spacing:.12em;margin:4px 0 12px}
 .footer-links a{line-height:1.45;padding-block:8px;overflow-wrap:anywhere}
 @media(max-width:1000px){.footer-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.footer-grid>.footer-intro{grid-column:1/-1}}
-@media(max-width:650px){.footer{margin-top:32px;padding-top:32px}.footer-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 20px}.footer-grid>.footer-intro{grid-column:1/-1}.footer-bottom{margin-top:24px;padding-top:24px}}
+@media(max-width:650px){.footer{margin-top:32px;padding-top:32px}.footer::before{height:1px;background:var(--earth);border:0}.footer-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 20px}.footer-grid>.footer-intro{grid-column:1/-1}.footer-bottom{margin-top:24px;padding-top:24px}}
 @media(max-width:360px){.footer-grid{grid-template-columns:1fr}}
