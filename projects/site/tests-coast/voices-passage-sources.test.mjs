@@ -12,8 +12,8 @@ for(const original of collection.pages.filter(p=>edition.routes.includes('/'+p.p
  if(entry.path==='languages')entry.roster=[...held.map(c=>c.title),...(entry.roster||[])];
  const sources=voiceSources(entry,collection.sources);
  const html=readFileSync('dist-coast/'+entry.path+'/index.html','utf8').replaceAll('&#39;',"'");
- if(['languages','languages/odia'].includes(entry.path)){
-  const editorial=JSON.parse(readFileSync('../../kb/research/voices/'+(entry.path==='languages'?'languages':'odia')+'-editorial.json','utf8'));
+ if(['languages','languages/odia','literature'].includes(entry.path)){
+  const editorial=JSON.parse(readFileSync('../../kb/research/voices/'+(entry.path==='languages/odia'?'odia':entry.path)+'-editorial.json','utf8'));
   assert.match(html,/<section id="story-sources"/);
   for(const passage of editorial.passages)for(const id of passage.source_ids){
    const ref=`ref-${passage.id}-${id}`;

@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/odia-editorial-team-2026-10-19.json",
+  "handoff_home": "records/literature-editorial-team-2026-10-20.json",
   "roles": [
     {
       "name": "Disha",
@@ -55,15 +55,15 @@
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
   "current_article": {
-    "id": "POD-EDIT-042",
-    "route": "/languages/odia/",
+    "id": "POD-EDIT-043",
+    "route": "/literature/",
     "owner": "Disha",
     "coordinator_runtime": "/root",
-    "phase": "receipt_integrated",
-    "branch": "codex/odia-editorial-20261019",
-    "input_head": "740e2e5dc2110f1bcd00ee32259efd9ab16b4b45",
-    "file_reservations": "records/odia-editorial-team-2026-10-19.json#executions",
-    "integration_gate": "This release takes effect when the receipt PR merges. Retain ownership until observed merge; do not start the next article beforehand."
+    "phase": "research_and_implementation",
+    "branch": "codex/literature-editorial-20261020",
+    "input_head": "06927e55878f8f263cebd4a1832dd752b3c1f1ac",
+    "file_reservations": "records/literature-editorial-team-2026-10-20.json#executions",
+    "integration_gate": "Retain ownership until publication receipt is integrated."
   },
   "project_identity": "reference/project-identity.md"
 }

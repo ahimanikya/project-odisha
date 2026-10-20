@@ -1,0 +1,115 @@
+{
+  "recorded_at": "2026-10-20T01:55:28.690168+00:00",
+  "article_id": "POD-EDIT-043",
+  "route": "/literature/",
+  "status": "in_progress",
+  "input_head": "06927e55878f8f263cebd4a1832dd752b3c1f1ac",
+  "authorization": "POD-DEC-225",
+  "classification": "Authored literary introduction with seven existing reading doors and unlinked future writers.",
+  "central_question": "How can a reader choose a first Odia work, and what difference do voice, form and translation make?",
+  "acceptance": [
+    "Inspect actual sources and existing KB; concrete examples rather than general praise.",
+    "Founder byline, comfortable reading, visible numbered footnotes with exact returns, retained image provenance, collapsed further reading and visible article update.",
+    "Retain all seven linked reading doors and unlinked roster; no claim to complete linked profiles.",
+    "Separate AI review, tests, responsive check, approved deployment and live receipt before completion."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only source, current article and media audit; source-grounded narrative proposals",
+      "status": "handoff_received",
+      "input_head": "06927e55878f8f263cebd4a1832dd752b3c1f1ac",
+      "findings": [
+        "Actual Wikisource chapter1 opening, revision23315, supports Mangaraj fasting-vessels and narrator defence. Selected fictional passage, not general village history.",
+        "Independently inspected Disha-recovered Ray excerpt and UCPress contributor/edition metadata. No translator is named on the Ray excerpt. UCPress lists Jatindra N. Nayak; preserve that source-specific credit.",
+        "Seven destinations/eight unlinked names retained. Sarala and Gopinath contextual manuscript labels needed; future roster is an editorial reading plan.",
+        "Ray and memorial visually inspected and Commons author/date/licences checked; retain all assets.",
+        "Final prose comparison passed after root changed room/nights to house/evenings, matching actual Odia wording. All five asset record hashes match."
+      ],
+      "limits": [
+        "No full novel, facsimile collation or language-specialist review.",
+        "Initial Ray/UCPress web access failed; Disha recovered HTML via TLS-validated curl. Anvesha inspected saved response."
+      ]
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/components/CultureMagazine.astro",
+        "projects/site/src/components/CultureCards.astro",
+        "projects/site/src/components/CultureOnward.astro",
+        "kb/research/voices/literature-editorial.json",
+        "projects/site/tests-coast/literature-editorial.test.mjs",
+        "projects/site/tests/voices.test.mjs",
+        "projects/site/tests-coast/voices-passage-sources.test.mjs"
+      ],
+      "status": "handoff_received",
+      "input_head": "06927e55878f8f263cebd4a1832dd752b3c1f1ac",
+      "findings": [
+        "Seven reserved files changed. Exact hub opt-in, narrative before seven cards, three mapped source notes with returns, distinct-source image credits, collapsed onward reading and visible update link.",
+        "Static source-map/link/image-hash test passes; three test modules parse; diff whitespace passes."
+      ],
+      "limits": [
+        "Full builds and responsive checks performed by coordinator.",
+        "Hub has no existing saved/download identity; no new item was invented."
+      ]
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Read-only integrated candidate review",
+      "status": "pending"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": "Only literature entry in collection.json; shared records, integration and publishing",
+      "status": "in_progress"
+    }
+  ],
+  "concurrency": "Prior receipt351 observed merged; all prior workers completed. PR304 statistics and PR281 Ashoka excluded.",
+  "substantive_items_added": 0,
+  "human_review_claimed": false,
+  "coordinator_source_review": {
+    "fakir-novel-opening": {
+      "method": "Actual chapter1 text via web tool",
+      "locator": "Opening paragraph of Ramachandra Mangaraj, revision23315",
+      "supports": "Piety, fasting-night food, empty vessels and narrated defence; interpretation kept distinct."
+    },
+    "ray-work": {
+      "method": "Direct curl HTTPS, certificate validated; actual English excerpt inspected",
+      "html_sha256": "3a41abef569b08cb8af552b323b86f43d3bdac83a8e79aae7fc691622871948c",
+      "locator": "Excerpt beneath Jajnaseni heading",
+      "supports": "Attachment questions, Himalayan fall, five husbands continuing; no translator inferred."
+    },
+    "six-acres": {
+      "method": "Direct curl HTTPS, certificate validated; contributor and edition metadata inspected",
+      "html_sha256": "49a9aa2d6647864706c6b4a345d017aba233e41afe013aed30eda69864598513",
+      "locator": "Contributor block and Title Details",
+      "supports": "Four translators, December2005 edition, not original composition date; no availability claim."
+    }
+  },
+  "media_review": {
+    "reviewer": "Disha and separate Anvesha audit",
+    "retained": "All five asset IDs, four distinct image files unchanged. Root directly viewed Ray portrait and memorial; manuscript and bust retain immediately preceding visual audit.",
+    "context": "Sarala and Gopinath manuscript images labelled contextual. Memorial not lifetime portrait. All creators and reuse terms retained."
+  },
+  "coordinator_validation": {
+    "builds": "Full site, coast and limited publication builds passed; publication retains 11 indexable pages.",
+    "tests": {
+      "full_site": 566,
+      "coast": 271,
+      "workbench": "Passed",
+      "python_workbench": 6,
+      "records": "Rollout, registers, team, programme, bundle and diff whitespace passed."
+    },
+    "responsive": {
+      "desktop": "1440x1000; 740px prose, 18px font/33.3px line height.",
+      "mobile": "390x844; 343.195px prose; document width390 with no overflow.",
+      "interactions": "Visible notes and all three exact keyboard return targets verified; Further reading expands by Enter; seven reading doors and eight unlinked names retained.",
+      "images": "All five card image instances load, object-fit contain; contextual manuscript captions and four distinct credits retained."
+    },
+    "limits": "AI coordinator review, not human or specialist review; no form submitted."
+  }
+}

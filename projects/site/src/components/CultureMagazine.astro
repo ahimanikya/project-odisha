@@ -1,4 +1,5 @@
 ---
+import literatureEditorial from '../../../../kb/research/voices/literature-editorial.json';
 import odiaEditorial from '../../../../kb/research/voices/odia-editorial.json';
 import languagesEditorial from '../../../../kb/research/voices/languages-editorial.json';
 import ArticleByline from './ArticleByline.astro';
@@ -21,19 +22,22 @@ import CultureOnward from './CultureOnward.astro';
 import collection from '../../../../kb/research/voices/collection.json';
 import '../styles/culture-magazine.css';
 const {entry}=Astro.props,hero=collection.assets[entry.hero_asset],hub=!entry.path.includes('/');
-const editorial=entry.path==='languages'?languagesEditorial:entry.path==='languages/odia'?odiaEditorial:null;
+const editorial=entry.path==='languages'?languagesEditorial:entry.path==='languages/odia'?odiaEditorial:entry.path==='literature'?literatureEditorial:null;
 const passageSources=id=>editorial?.passages.find(p=>p.id===id)?.source_ids||[];
-const editorialAssets=[...new Set([entry.hero_asset,...entry.cards.map(c=>c.asset)].filter(Boolean))];
+const proseFirst=entry.path==='literature';
+const assetIds=[...new Set([entry.hero_asset,...entry.cards.map(c=>c.asset)].filter(Boolean))];
+const editorialAssets=proseFirst?assetIds.filter((id,i)=>assetIds.findIndex(other=>collection.assets[other].source===collection.assets[id].source)===i):assetIds;
 const sources=voiceSources(entry,collection.sources);
 const hasPopulation=entry.path.startsWith('languages/')&&Object.hasOwn(atlas.profiles,entry.path.split('/')[1]);
 const kind=entry.path.startsWith('languages')?'A living language':entry.path.startsWith('people')?'A literary life':'A world of words';
-const start=hub&&entry.cards.length?'#reading-doors':'#'+entry.sections[0].id;
+const start=hub&&!proseFirst&&entry.cards.length?'#reading-doors':'#'+entry.sections[0].id;
 ---
 <div class:list={["utk-magazine","utk-magazine--culture",{"culture-script":hero?.kind==='script',"languages-editorial":!!editorial}]}>
- <MagazineCover title={entry.title} eyebrow={entry.kicker} deck={[entry.lead]} photo={hero} caption={entry.hero_caption||hero?.caption} identity={entry.identity_panel} identityLabel={entry.identity_label||kind} identityNote={entry.identity_note||'A reading doorway, not a script specimen.'} saveId={hub?undefined:'reading:'+entry.path} startHref={start} startLabel={hub?'Find a reading doorway':'Follow the story'} footline="A place becomes richer when you listen to its voices."><Fragment slot="byline">{editorial&&<ArticleByline author={editorial.author}/>}</Fragment></MagazineCover>
+ <MagazineCover title={entry.title} eyebrow={entry.kicker} deck={[entry.lead]} photo={hero} caption={entry.hero_caption||hero?.caption} identity={entry.identity_panel} identityLabel={entry.identity_label||kind} identityNote={entry.identity_note||'A reading doorway, not a script specimen.'} saveId={hub?undefined:'reading:'+entry.path} startHref={start} startLabel={proseFirst?'Begin reading':hub?'Find a reading doorway':'Follow the story'} footline="A place becomes richer when you listen to its voices."><Fragment slot="byline">{editorial&&<ArticleByline author={editorial.author}/>}</Fragment></MagazineCover>
  <MagazineContents links={[
- ...(hub&&entry.cards.length?[{href:'#reading-doors',label:'A place to begin'}]:[]),
+ ...(hub&&!proseFirst&&entry.cards.length?[{href:'#reading-doors',label:'A place to begin'}]:[]),
  ...entry.sections.map(s=>({href:'#'+s.id,label:s.title})),
+ ...(proseFirst&&entry.cards.length?[{href:'#reading-doors',label:'Choose a reading path'}]:[]),
  ...(hasPopulation?[{href:'#population',label:'Population & districts'}]:[]),
  ...(entry.learning_resource?[{href:'#learning-shelf',label:'Reading shelf'}]:[]),
  ...(entry.roster?[{href:'#more-voices',label:'More voices'}]:[]),
@@ -42,11 +46,11 @@ const start=hub&&entry.cards.length?'#reading-doors':'#'+entry.sections[0].id;
  ...(editorial?[{href:'#story-sources',label:'Footnotes & Sources'}]:[])
  ]}/>
  <article class="mag-content">
-  {hub&&(entry.path==='languages'?<LanguageDirectory entry={entry} editorial={editorial}/>:<CultureCards entry={entry}/>)}
+  {hub&&!proseFirst&&(entry.path==='languages'?<LanguageDirectory entry={entry} editorial={editorial}/>:<CultureCards entry={entry}/>)}
   <div class="mag-article-chapters">{entry.sections.map((s,index)=><section id={s.id} class:list={['mag-reading-section',{'mag-reading-section--warm':index===1}]}><div><p class="eyebrow">{String(index+1).padStart(2,'0')} · {kind}</p><h2>{s.title}</h2></div><div>{s.paragraphs.map((p,i)=>editorial?<p data-source-ids={p.source_ids.join(' ')}>{p.text}<ArticleFootnote ids={passageSources(`${s.id}-${i}`)} sources={editorial.sources} passage={`${s.id}-${i}`}/></p>:<VoicesParagraph paragraph={p} sources={sources}/>)}</div></section>)}</div>
   {entry.path==='languages'&&<section id="language-counts" class="mag-reading-section language-counts"><div><p class="eyebrow">The numbers behind the voices</p><h2>Where languages were counted</h2></div><div>{entry.atlas_paragraphs.map((p,i)=><p data-source-ids={p.source_ids.join(' ')}>{p.text}<ArticleFootnote ids={passageSources(`atlas-${i}`)} sources={editorial.sources} passage={`atlas-${i}`}/></p>)}<a class="text-link" href="/languages/atlas/">Open the language population atlas →</a><p><a href="/languages/districts/">Start with a district →</a> · <a href="/languages/multilingual-odisha/">Multilingual Odisha →</a></p></div></section>}
   {hasPopulation&&<LanguagePopulation path={entry.path} editorial={editorial}/>}
-  {!hub&&<CultureCards entry={entry}/>}
+  {(!hub||proseFirst)&&<CultureCards entry={entry} editorial={proseFirst?editorial:null}/>}
   {entry.learning_resource&&<LanguageLearning resource={entry.learning_resource}/>}
   {entry.roster&&<section id="more-voices" class="culture-roster"><p class="eyebrow">The collection will grow</p><h2>{entry.roster_heading}</h2><ul>{entry.roster.map(name=><li>{name}</li>)}</ul><p>{entry.roster_note}{editorial&&<ArticleFootnote ids={passageSources('roster')} sources={editorial.sources} passage="roster"/>}</p>{entry.roster_sources?.includes('scstrti')&&<a class="text-link" href={collection.sources.scstrti.url}>Browse SCSTRTI’s learning resources ↗</a>}</section>}
   {entry.external_links?.length>0&&<section class="culture-reading-links"><p class="eyebrow">Continue with the work</p>{entry.external_links.map(link=><a href={link.href}>{link.title} ↗</a>)}</section>}
