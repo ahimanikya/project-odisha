@@ -172,5 +172,49 @@
   ],
   "verified_routes": [
     "/food/balasore/"
-  ]
+  ],
+  "receipt_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_receipt_review",
+    "head": "d900d2d0051221cfa7dc1e8e29ca132034f95709",
+    "base": "5e80cb1dd5c5c252f5f688f10cfa488eed0bbf55",
+    "article": "POD-EDIT-060",
+    "result": "pass_with_limitations",
+    "blocking_findings": [],
+    "checks": {
+      "scope": "Ten files: records/generated views and two screenshots only. No article, source, asset or search eligibility changes.",
+      "remote_verification": "Independent gh confirms PR394 MERGED2026-10-20T21:40:21Z, head9dbb642df0695c5a7168793faeae87f62bb93428, merge5e80cb1dd5c5c252f5f688f10cfa488eed0bbf55. RequiredCI39501755100success on reviewedhead and approved publication39502276923success on mergehead.",
+      "tree_equality": "Reviewed and published merge trees identical.",
+      "transcription": "Canonical receipt and handoff reproduce /tmp/pod-chandipur-meal-review.json exactly. All coordinator /tmp/pod-chandipur-meal-live.json values retained exactly; canonical adds browser and route inventory.",
+      "validators_passed": [
+        "article_rollout --check",
+        "check_team_assignments",
+        "check_autonomous_program",
+        "registers --check",
+        "editorial/build_workbench --check",
+        "git diff --check5e80cb1d..HEAD"
+      ],
+      "accounting": "Only060 rollout entry changes.54completed72excluded332queued458total. Programme byte-identical112; no substantive credit.",
+      "ownership": "Team status published_receipt_pending_integration and Disha ownership retained; operations receipt_integrated explicitly conditional upon actual receipt PR merge. No next article claim.",
+      "live_record": "Coordinator records HTTP200,HTML3e0f59b32cf16822ea4429d689d490465e22809a676989ea1f817a078fd6f1e8,2notes2exactreturns, unchanged photograph hashcd0d2063...,11sitemap,457directoryindexes+404. No contradictory completion claim found.",
+      "screenshots": {
+        "desktop": {
+          "sha256": "7c978cf8f885cd52644461ec8ebfe497fe5bda6e62958ee13e72231c58d3cd2a",
+          "inspection": "Actual saved1440x1000cover viewed: clear title,lead,Founderbyline and retained complete shoreline image with2012context-only caption."
+        },
+        "mobile": {
+          "sha256": "b82d71279986a8651636f3509871ed432f919ee6782a104bcf69bcc7f781d566",
+          "inspection": "Actual saved390x844body viewed: wrapped paragraphs,legible section headings and focused source reference at viewporttop; no visible horizontalclipping. Screenshot does not independently prove return sequence."
+        }
+      }
+    },
+    "limits": [
+      "Separate AI records review,not human,culinary-specialist or field approval.",
+      "Independently verified remote metadata,tree equality,review transcription,records, savedHTTPartifact correspondence,screenshot hashes and capturedappearance.",
+      "Live HTTP,interactive keyboard/disclosure,viewport measurements and fullwebsite suites were coordinator-performed; not repeated by reviewer.",
+      "No codebuild or website-test repetition for this records-only delta. Prior candidate review remains applicable; ownership release awaits actual receipt merge."
+    ]
+  },
+  "receipt_pull_request": "https://github.com/ahimanikya/project-odisha/pull/395",
+  "receipt_integration": "Effective only after PR395 passes required checks and merges; observed merge must be reconciled before releasing the article claim."
 }
