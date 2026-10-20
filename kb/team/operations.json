@@ -59,11 +59,12 @@
     "route": "/people/gopinath-mohanty/",
     "owner": "Disha",
     "coordinator_runtime": "/root",
-    "phase": "candidate_review",
+    "phase": "receipt_integrated",
     "branch": "codex/gopinath-editorial-20261020",
     "input_head": "a4207c5fd85599601ab05c5dde9da059d9b8d4fb",
     "file_reservations": "records/gopinath-editorial-team-2026-10-20.json#executions",
-    "integration_gate": "Retain ownership through actual publication receipt integration."
+    "integration_gate": "Retain ownership until this receipt PR is actually merged; phase becomes effective only with that integration. No next article claim before observed merge.",
+    "publication_receipt": "records/gopinath-editorial-publication-2026-10-20.json"
   },
   "project_identity": "reference/project-identity.md"
 }

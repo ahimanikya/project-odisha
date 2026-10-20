@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T08:11:52.552814+00:00",
   "article_id": "POD-EDIT-049",
   "route": "/people/gopinath-mohanty/",
-  "status": "candidate_ready_for_separate_review",
+  "status": "published_receipt_pending_integration",
   "input_head": "a4207c5fd85599601ab05c5dde9da059d9b8d4fb",
   "authorization": "POD-DEC-225",
   "classification": "Founder-directed literary introduction; author, translators and contextual-image credits preserved.",
@@ -52,13 +52,23 @@
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Separate integrated candidate review",
-      "status": "ready_for_candidate"
+      "status": "complete",
+      "input_head": "04c2746dcf3d5d375cccbb74bdf0cd5014bcd7dc",
+      "findings": "59 focused rendered/export/regression tests; independently checked both supplied IGNOU PDF hashes and selected passages plus memorial/Oxford records; canonical checks pass. Six notes/eight refs and full portable reading; exact-route wrapper change and negative controls reviewed, media and programme unchanged.",
+      "limits": [
+        "Separate AI review, not human, Odia-language-specialist or community approval.",
+        "Selected English-mediated text inspection only; no complete-work, manuscript or original-Odia collation.",
+        "Official teaching PDFs retrieved with valid TLS; selected text inspected, not a complete novel.",
+        "Literary characters and teaching-source generalizations are not treated as contemporary community testimony; edition records remain distinct.",
+        "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
+      ]
     },
     {
       "name": "Disha",
       "runtime": "/root",
       "scope": "Collection narrative, person/work/source KB, shared records, Git and publication",
-      "status": "in_progress"
+      "status": "receipt_pending_integration",
+      "findings": "Prose, KB, tests, responsive checks, reviewed PR365 merge and approved live publication completed; retain claim through receipt merge."
     }
   ],
   "concurrency": "Bhima receipt364 merged; prior workers complete. Unrelated PR304/281 untouched.",
@@ -132,5 +142,21 @@
       "visual": "Desktop prose and mobile source/prose spacing visually checked.",
       "limits": "Browser emulation, not physical-device or screen-reader review."
     }
-  }
+  },
+  "review": {
+    "role": "Drishti",
+    "runtime": "/root/drishti",
+    "head": "04c2746dcf3d5d375cccbb74bdf0cd5014bcd7dc",
+    "result": "pass_with_limitations",
+    "scope": "59 focused rendered/export/regression tests; independently checked both supplied IGNOU PDF hashes and selected passages plus memorial/Oxford records; canonical checks pass. Six notes/eight refs and full portable reading; exact-route wrapper change and negative controls reviewed, media and programme unchanged.",
+    "limitations": [
+      "Separate AI review, not human, Odia-language-specialist or community approval.",
+      "Selected English-mediated text inspection only; no complete-work, manuscript or original-Odia collation.",
+      "Official teaching PDFs retrieved with valid TLS; selected text inspected, not a complete novel.",
+      "Literary characters and teaching-source generalizations are not treated as contemporary community testimony; edition records remain distinct.",
+      "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
+    ]
+  },
+  "publication_receipt": "records/gopinath-editorial-publication-2026-10-20.json",
+  "ownership": "Disha retains claim until receipt PR is actually merged; release only after observed integration."
 }
