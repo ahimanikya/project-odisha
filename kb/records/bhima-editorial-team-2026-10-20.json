@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T07:08:12.408285+00:00",
   "article_id": "POD-EDIT-048",
   "route": "/people/bhima-bhoi/",
-  "status": "published_receipt_pending_integration",
+  "status": "receipt_integrated",
   "input_head": "8961069ae7ad0bbededed6ecde21021141422f0e",
   "authorization": "POD-DEC-225",
   "classification": "Founder-directed literary introduction; Bhima Bhoi, translators, scholars and photographer retain their own credits.",
@@ -64,7 +64,7 @@
       "name": "Disha",
       "runtime": "/root",
       "scope": "Bhima collection prose, existing culture/work/source KB, shared records, Git and publishing",
-      "status": "receipt_pending_integration",
+      "status": "complete",
       "findings": "Prose, KB, tests, responsive checks, reviewed PR363 merge and approved live publication completed; retain claim through receipt merge."
     }
   ],
@@ -114,5 +114,12 @@
     ]
   },
   "publication_receipt": "records/bhima-editorial-publication-2026-10-20.json",
-  "ownership": "Disha retains claim until receipt PR is actually merged; release only after observed integration."
+  "ownership": "Released after observed receipt364 merge.",
+  "receipt_integration": {
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/364",
+    "merge_commit": "a4207c5fd85599601ab05c5dde9da059d9b8d4fb",
+    "reviewed_head": "fe8229c8c5fccf2d240f368bb29e1044aa43fda1",
+    "ci_run": 39387073573,
+    "review": "Drishti separate AI PASS; actual merge observed20October2026"
+  }
 }

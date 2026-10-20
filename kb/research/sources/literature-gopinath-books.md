@@ -19,3 +19,7 @@ Locator: Novel table rows Paraja, Amrutara Santana, Matimatala; language-researc
 Direct HTML bibliography inspected, not linked first-edition scans. Paraja is listed under 1945; original-language identification also supported by Oxford bibliographic reference. Dates are attributed bibliography dates, not first-edition examination.
 
 [Source](https://gopinathmohanty.in/books/).
+
+## Fresh editorial inspection · 20 October 2026
+
+Existing canonical source reused. Fresh listing dates Odia Paraja1945; original first-edition imprint and linked scan not inspected.

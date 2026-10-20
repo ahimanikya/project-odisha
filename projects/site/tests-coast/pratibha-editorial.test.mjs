@@ -45,7 +45,7 @@ test('Pratibha preserves reading paths, documentary credit and save identity wit
  const outside=html.replace(/<details\b[^>]*>[\s\S]*?<\/details>/g,'');
  assert.match(outside,/href="\/contribute\/\?page=%2Fpeople%2Fpratibha-ray%2F"[^>]*>Suggest an update/);assert.match(outside,/GitHub submissions are public; omit private contact details and consent documents/);
  assert.match(html,/name="robots" content="noindex, nofollow"/);
- const other=page('/people/gopinath-mohanty/');assert.doesNotMatch(other,/class="article-byline"|id="story-sources"/);assert.match(other,/Editorial preview/);
+ const other=page('/people/gangadhar-meher/');assert.doesNotMatch(other,/class="article-byline"|id="story-sources"/);assert.match(other,/Editorial preview/);
  for(const route of ['/languages/','/languages/odia/','/literature/','/people/fakir-mohan-senapati/','/literature/six-acres-and-a-third/','/people/sarala-das/']){const previous=page(route);assert.ok(previous.includes('By Ahimanikya Satapathy'));assert.ok(previous.includes('id="story-sources"'));}
 });
 test('Pratibha portable reading keeps every narrative paragraph once, byline, short sources and portrait rights',()=>{

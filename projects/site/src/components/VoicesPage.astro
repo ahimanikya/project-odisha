@@ -1,12 +1,6 @@
 ---
-import MagazineArticle from './MagazineArticle.astro';
-import {voiceSources} from '../lib/voices-sources.mjs';
 import CultureMagazine from './CultureMagazine.astro';
-import CultureConnections from './CultureConnections.astro';
-import VoicesCredits from './VoicesCredits.astro';
-import CultureOnward from './CultureOnward.astro';
 import Shell from '../layouts/Shell.astro';
-import collection from '../../../../kb/research/voices/collection.json';
 import {allowsPage,isCoastalEdition} from '../data/edition';
 const entry=structuredClone(Astro.props.entry);
 if(isCoastalEdition){
@@ -17,7 +11,5 @@ if(isCoastalEdition){
 }
 ---
 <Shell title={entry.title} description={entry.lead} active="explore" wide related={false}>
-{entry.path==='people/gopinath-mohanty'?<MagazineArticle kind="person" title={entry.title} eyebrow={entry.kicker} deck={['A landscape holds','more than a view.']} photo={collection.assets[entry.hero_asset]} caption={entry.hero_caption||collection.assets[entry.hero_asset].caption} saveId={'reading:'+entry.path} sections={entry.sections} voiceSources={voiceSources(entry,collection.sources)} links={entry.external_links} footline="Follow the writing into the lives within a place.">
- <CultureOnward entry={entry}/><VoicesCredits entry={entry}/><p class="mag-status">Editorial preview · awaiting Founder and literary review.</p>
- </MagazineArticle>:<CultureMagazine entry={entry}/>}
+<CultureMagazine entry={entry}/>
 </Shell>
