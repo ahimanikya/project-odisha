@@ -1,0 +1,127 @@
+{
+  "article_id": "POD-EDIT-060",
+  "route": "/food/balasore/",
+  "input_head": "869d51194ca188792277df9f6e2099babf13ae94",
+  "role": "Anvesha, separate AI research worker; read-only repository scope",
+  "candidate_title": "A meal by Chandipur",
+  "candidate_lead": "Start with the fish’s name, then ask how the kitchen cooks it. The harbour and the meal each have something to tell you.",
+  "proposal": [
+    {
+      "id": "place",
+      "title": "More than a seaside menu",
+      "paragraphs": [
+        {
+          "text": "Fish, prawns and crabs belong to the coastal food picture here. Odisha Tourism includes Baleshwar in its coastal dining trail, alongside Puri, Chilika and Gopalpur. That is a useful starting point for a meal near Chandipur, but the interesting questions begin with the particular fish and the way a kitchen prepares it.",
+          "sources": [
+            "sweets-tourism-trails20261020"
+          ]
+        },
+        {
+          "text": "Ask for the local name of what is being offered. Then ask how it will be cooked and what comes with it. A name, a preparation and a plate of accompaniments tell you more than the promise of “fresh seafood”.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "harbour",
+      "title": "A harbour behind the beach",
+      "paragraphs": [
+        {
+          "text": "At nearby Balaramgadi, the Budhabalanga meets the sea. In a travelogue published in October 2019, Jitu Mishra described fishing trawlers and smaller boats at the jetty, with hilsa, pomfret and large prawns among the catch unloaded for auction. His account gives the coast a working setting: boats, landings and sales, as well as a beach. It does not trace the seafood served by a particular restaurant.",
+          "sources": [
+            "harbour"
+          ]
+        },
+        {
+          "text": "If a host says the fish is local, ask where it was bought and what they mean by local. Listen to the answer as part of that meal’s story. There is no need to turn a nearby harbour into a promise about every plate.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "kitchen",
+      "title": "Let the preparation lead",
+      "paragraphs": [
+        {
+          "text": "A useful question is: how do you usually cook this? Ask about the ingredients and whether the dish comes dry or with gravy. If several preparations are offered, choose the one you want to understand rather than assuming that the most elaborate order will tell you the most about the place.",
+          "sources": []
+        },
+        {
+          "text": "When the food arrives, notice what the cook has made prominent: the fish itself, a sauce, a spice or an accompaniment. If you want to remember the meal, note its local name and the kitchen’s explanation. Those details make a more useful record than calling it simply a Chandipur special.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "try",
+      "title": "Agree the meal before ordering",
+      "paragraphs": [
+        {
+          "text": "Confirm the portion and price, whether the charge is for a piece, a serving or a weight, and what is included. Ask about ingredients you need to avoid; if you do not want seafood, ask what vegetarian meal the kitchen can prepare. Make room for the meal in your return journey, so the conversation does not have to compete with a hurried departure.",
+          "sources": []
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "sweets-tourism-trails20261020",
+      "title": "Odisha Tourism · Cuisine and Culinary Trails",
+      "url": "https://odishatourism.gov.in/en/cuisine-culinary-trails",
+      "locator": "Coastal & Seafood Trails; actual web text lines322–328",
+      "actual_inspection": "Full original HTML text opened through web tool; selected heading and bullets read. Baleshwar named with other coastal destinations; fish, prawns and crabs described as coastal food. No particular Chandipur recipe, restaurant, supplier or local season established. Existing source identity reused despite sweets-prefixed identifier.",
+      "public_note": "The Coastal & Seafood Trails section names Baleshwar among coastal dining destinations and lists fish, prawns and crabs. It describes a regional food setting, not a particular kitchen’s menu.",
+      "word_limit": 200,
+      "proposed_derived_word_count_including_title_note": 88
+    },
+    {
+      "id": "harbour",
+      "title": "Jitu Mishra · The tale of Chandipur beach beyond the vanishing sea (10 October 2019)",
+      "url": "https://apps.odishatourism.gov.in/blog-detail/the-tale-of-chandipur-beach-beyond-the-vanishing-sea",
+      "locator": "Paragraph beginning “However, beyond nature’s hide and seek games” and following fishing-harbour paragraph; actual web text lines283–286. Date/byline lines314–318.",
+      "actual_inspection": "Full original contributor travelogue freshly opened. Exact account includes Budhabalanga estuary at Balaramgadi, trawlers/small boats, and hilsa, “pomp fret” [normalised to pomfret] and large prawns unloaded for auction. Author/date visible. No traceability from harbour to restaurant, present auction schedule or visitor-access guarantee. Unverified historical grand claims and 5km tide assertion excluded.",
+      "public_note": "Mishra’s dated travelogue describes the Budhabalanga estuary and fish landings at Balaramgadi. It is an account from 2019, not a current auction schedule or evidence of a restaurant’s supply.",
+      "word_limit": 200,
+      "proposed_derived_word_count_including_title_note": 110
+    }
+  ],
+  "reader_gain": "Replaces generic fresh-seafood promise with an attributed, dated fishery example and specific ways of learning from an actual kitchen. Separates beach setting, fishery landing and restaurant preparation without a fabricated farm-to-table narrative.",
+  "corrections_to_old_article": [
+    "Remove old crab-and-prawn wording attributed to obsolete Chandipur page; support only regional list with current cuisine page.",
+    "No assumption that red ghost crabs observed on the beach are edible crabs on a menu. The proposal makes no ecological or species-equivalence claim.",
+    "No invented signature recipe, local spices list, typical accompaniments, current fresh-catch guarantee or kitchen endorsement.",
+    "Preserve source chandipur and old capture as historical KB evidence, not current food authority."
+  ],
+  "actual_checks": [
+    "Read current handoff, AGENTS and editorial standard; earlier in this task inspected research map and ran query_research.py chandipur, then searched existing food/source records.",
+    "Read exact current balasore collection entry and Chandipur place/source plus Balasore editorial mappings.",
+    "Fresh web full text read for actual current culinary trail and 2019 Jitu Mishra original travelogue including byline/date.",
+    "Fresh attempt to open Chandipur successor returned Internal Error; earlier saved original inspection retained as earlier evidence, not a new successful fetch.",
+    "Search exploration found no necessary independently evidenced Chandipur-specific recipe; generic travel/restaurant summaries rejected.",
+    "Counted proposed source-attributed prose with complete source title and note; no source above200words. No code/build/publication tests within read-only research scope."
+  ],
+  "access_limits": [
+    {
+      "url": "https://odishatourism.gov.in/en/places/chandipur-beach",
+      "current_result": "Fresh tool Internal Error. Previous source record documents actual original reading but no food statement on successor."
+    },
+    {
+      "url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/beaches/chandipur.html",
+      "current_result": "Historical saved/indexed capture only; existing source record says original URL shell/404. Not retried or claimed fresh."
+    }
+  ],
+  "image_scope": "Root independently audited existing chandipur-context shoreline photograph: Nihar.race,26Feb2012,CCBYSA4.0. Read that record; this worker did not independently inspect pixels this turn. Image is setting evidence only, not a meal, catch or restaurant.",
+  "preserve": [
+    "/food/balasore/",
+    "food:chandipur-seafood",
+    "place and try section anchors",
+    "Existing Balasore city WhereToEat link and onward links"
+  ],
+  "limits": [
+    "No cook interviewed, no meal tasted, no recipe tested, no restaurant supply/menu/availability inspected.",
+    "Only two necessary sources; bounded guidance should not be padded to a target length.",
+    "No field/current tide or access verification. No human review claimed.",
+    "No shared files or Git state changed."
+  ],
+  "publication_status": "Research proposal only; root integration, independent review, tests, deployment and receipt still required."
+}

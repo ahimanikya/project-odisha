@@ -1,0 +1,69 @@
+{
+  "author": "Ahimanikya Satapathy",
+  "checked_on": "2026-10-21",
+  "route": "/food/balasore/",
+  "source_home": "food/collection.json#pages/balasore",
+  "sources": [
+    {
+      "id": "sweets-tourism-trails20261020",
+      "title": "Odisha Tourism · Cuisine and Culinary Trails",
+      "url": "https://odishatourism.gov.in/en/cuisine-culinary-trails",
+      "note": "The Coastal & Seafood Trails section names Baleshwar among coastal dining destinations and lists fish, prawns and crabs. It describes a regional food setting, not a particular kitchen’s menu."
+    },
+    {
+      "id": "harbour",
+      "title": "Jitu Mishra · The tale of Chandipur beach beyond the vanishing sea (10 October 2019)",
+      "url": "https://apps.odishatourism.gov.in/blog-detail/the-tale-of-chandipur-beach-beyond-the-vanishing-sea",
+      "note": "Mishra’s dated travelogue describes the Budhabalanga estuary and fish landings at Balaramgadi. It is an account from 2019, not a current auction schedule or evidence of a restaurant’s supply."
+    }
+  ],
+  "passages": [
+    {
+      "id": "place-0",
+      "source_ids": [
+        "sweets-tourism-trails20261020"
+      ]
+    },
+    {
+      "id": "place-1",
+      "source_ids": []
+    },
+    {
+      "id": "harbour-0",
+      "source_ids": [
+        "harbour"
+      ]
+    },
+    {
+      "id": "harbour-1",
+      "source_ids": []
+    },
+    {
+      "id": "kitchen-0",
+      "source_ids": []
+    },
+    {
+      "id": "try-0",
+      "source_ids": []
+    }
+  ],
+  "inspection": [
+    {
+      "source_id": "sweets-tourism-trails20261020",
+      "locator": "Coastal & Seafood Trails; actual web text lines322–328",
+      "inspection": "Full original HTML text opened through web tool; selected heading and bullets read. Baleshwar named with other coastal destinations; fish, prawns and crabs described as coastal food. No particular Chandipur recipe, restaurant, supplier or local season established. Existing source identity reused despite sweets-prefixed identifier."
+    },
+    {
+      "source_id": "harbour",
+      "locator": "Paragraph beginning “However, beyond nature’s hide and seek games” and following fishing-harbour paragraph; actual web text lines283–286. Date/byline lines314–318.",
+      "inspection": "Full original contributor travelogue freshly opened. Exact account includes Budhabalanga estuary at Balaramgadi, trawlers/small boats, and hilsa, “pomp fret” [normalised to pomfret] and large prawns unloaded for auction. Author/date visible. No traceability from harbour to restaurant, present auction schedule or visitor-access guarantee. Unverified historical grand claims and 5km tide assertion excluded."
+    }
+  ],
+  "image_audit": "records/chandipur-meal-editorial-team-2026-10-20.json#image_audit",
+  "limits": [
+    "No cook interviewed, no meal tasted, no recipe tested, no restaurant supply/menu/availability inspected.",
+    "Only two necessary sources; bounded guidance should not be padded to a target length.",
+    "No field/current tide or access verification. No human review claimed.",
+    "No shared files or Git state changed."
+  ]
+}
