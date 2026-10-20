@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "reviewed_ready_for_pr",
+  "status": "published_verified",
   "route": "/food/",
   "scope": "Founder-requested five missing food-card images only; not a full article editorial rollout or substantive programme completion",
   "authorization": "Direct Founder request in this chat,20October2026",
@@ -35,8 +35,8 @@
     "food:pakhala"
   ],
   "unrelated_changes": "Untracked duplicate font licence files preserved; not included. Open PR304/281 unrelated. Current main Chhau receipt observed integrated.",
-  "git_push": false,
-  "verified_publication": false,
+  "git_push": true,
+  "verified_publication": true,
   "asset_evidence": "records/food-card-image-provenance-2026-10-20.json",
   "media": "Four optimizedWebP photos; original creator/licence retained; contextual location/milk/preparation captions visible.",
   "validation": {
@@ -71,6 +71,60 @@
       "result": "FAIL",
       "reason": "Generated editorial-workbench.json outdated after hub data change",
       "repair": "Regenerated view; generator check,6Python tests and3Node tests passed. Article/media candidate unchanged."
+    },
+    {
+      "run_id": 39451805302,
+      "result": "PASS",
+      "head": "8507e40e14301cb131eb0a22c249b7150cfdfe98",
+      "followup": "Concurrent main change required merge; regenerated shared catalogue. Reviewed food files retained exact hashes."
+    },
+    {
+      "run_id": 39452655237,
+      "result": "PASS",
+      "head": "7c9b091dde3bfe2d4cac4a1ceb79ad26962855c4"
     }
-  ]
+  ],
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/381",
+  "reviewed_head": "7c9b091dde3bfe2d4cac4a1ceb79ad26962855c4",
+  "merge_commit": "9ce6439d51f66a107402910e6200b015a3bd4811",
+  "successful_ci_run": "https://github.com/ahimanikya/project-odisha/actions/runs/39452655237",
+  "deployment_run": "https://github.com/ahimanikya/project-odisha/actions/runs/39453370514",
+  "published_revision": "9ce6439d51f66a107402910e6200b015a3bd4811",
+  "live_verification": {
+    "checked_at": "2026-10-20T16:03:41.654527+00:00",
+    "url": "https://projectodisha.org/food/",
+    "http_status": 200,
+    "regional_food_cards": 21,
+    "regional_cards_with_images": 21,
+    "new_assets": [
+      {
+        "asset": "mahaprasad-pots",
+        "http_status": 200,
+        "sha256": "8a4685c2a9bc2b25713b1a48cb9a883ac381abe67c1a848fd13351f42d6cfc77",
+        "matches_reviewed_asset": true
+      },
+      {
+        "asset": "prawn-curry-context",
+        "http_status": 200,
+        "sha256": "3f5df53006cbdbc427129eaadaa7defa6e78d4500ea3f25f5c11dcb0a9e3adc0",
+        "matches_reviewed_asset": true
+      },
+      {
+        "asset": "fish-fry-odia-context",
+        "http_status": 200,
+        "sha256": "862145d0fee51146d605f896220a82b0fe06f5fec20227221aff6b241a341088",
+        "matches_reviewed_asset": true
+      },
+      {
+        "asset": "curd-context",
+        "http_status": 200,
+        "sha256": "e90026fb95135267092e75ac0493b26da69e008dee1ccb6d6ca42c175a3b5e8d",
+        "matches_reviewed_asset": true
+      }
+    ],
+    "published_revision": "9ce6439d51f66a107402910e6200b015a3bd4811",
+    "deployment_run": "https://github.com/ahimanikya/project-odisha/actions/runs/39453370514",
+    "source": "Successful deployment revision plus live page and exact live asset hashes, not Git push alone."
+  },
+  "receipt_scope": "Records-only follow-up; no site source or asset changes and no second deployment required."
 }
