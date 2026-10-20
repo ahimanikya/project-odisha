@@ -35,3 +35,7 @@ Verify official access and closures; avoid ambiguous area figures on the profile
 [Related knowledge](../culture/mayurbhanj-chhau.md) · [Research standards](../about/research-method.md)
 
 [^similipal]: [Similipal Biosphere Reserve](https://www.unesco.org/en/mab/similipal)
+
+## Regional reading update · 20 October 2026
+
+The Mayurbhanj article reuses the UNESCO profile to explain streams feeding the Budhabalang, Baitarani and Subarnarekha, and sal alongside orchids, mahua and cotton tree. It uses no uncertain area/species totals. [Source and scoped-ID distinction](../sources/similipal.md). [Current visitor guidelines](../sources/similipal-guidelines.md) replace the article’s obsolete operational URL; the old closure notice remains historical evidence, not a current access claim.

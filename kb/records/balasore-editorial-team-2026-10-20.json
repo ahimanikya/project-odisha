@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T10:07:49.604548+00:00",
   "article_id": "POD-EDIT-051",
   "route": "/destinations/balasore/",
-  "status": "published_receipt_pending_integration",
+  "status": "complete",
   "input_head": "c88a96988f0ef98430a2d455478b0a247e33b567",
   "authorization": "POD-DEC-225",
   "central_question": "How do Chandipur’s changing shore and Balasore’s literary history help a reader understand the region beyond a list of stops?",
@@ -70,7 +70,7 @@
       "name": "Disha",
       "runtime": "/root",
       "scope": "Narrative/KB integration, shared records, Git/publishing",
-      "status": "receipt_pending_integration",
+      "status": "complete",
       "findings": "Prose, KB, tests, responsive checks, reviewed PR369 merge and approved live publication completed; retain claim through receipt merge."
     }
   ],
@@ -135,5 +135,25 @@
     ]
   },
   "publication_receipt": "records/balasore-editorial-publication-2026-10-20.json",
-  "ownership": "Disha retains claim until receipt PR is actually merged; release only after observed integration."
+  "ownership": "Released after independently observed receipt PR370 merge.",
+  "receipt_integration": {
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/370",
+    "merge_commit": "7ca9cae45b84f04c74e7faadf0ceb3a27edeca17",
+    "merged_at": "2026-10-20T10:36:38Z",
+    "review": {
+      "reviewer": "Drishti",
+      "runtime": "/root/drishti",
+      "head": "b3c3b34ff3673adb0d81330fc6a9a3c003966683",
+      "result": "pass",
+      "scope": "Independently confirmed PR369 merged and CI39407355023/deployment39407919329 succeeded on recorded heads; candidate and merge trees match. Ten-file records/screenshots delta; only Balasore completion,44 completed341 queued10 excluded,programme112 byte-identical.394 published directory indexes plus404 registered. Screenshot hashes and visual inspection passed. Canonical validators pass. Ownership conditional on actual receipt merge.",
+      "limits": "Separate AI review. Live HTTP, keyboard and responsive measurements are coordinator-performed; reviewer checked remote metadata, saved evidence and screenshots."
+    },
+    "validation": {
+      "conclusion": "success",
+      "databaseId": 39408683356,
+      "headSha": "b3c3b34ff3673adb0d81330fc6a9a3c003966683",
+      "status": "completed",
+      "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39408683356"
+    }
+  }
 }

@@ -821,3 +821,7 @@ POD-EDIT-050 deepens the existing voices introduction after searching the KB. Ne
 ### Balasore editorial reuse · 20 October 2026
 
 POD-EDIT-051 reuses regions, northern detail/trail, Chandipur place and Fakir/Six Acres records. Added bounded sedimentology source and current tourism successor page; existing harbour source ID receives its own source record. Current access, operators and tide predictions remain unconfirmed. Mapping: `research/destinations/balasore-editorial.json`. No duplicate literary or place entity.
+
+## Mayurbhanj regional article reuse · 20 October 2026
+
+Reused regions/northern-details/mayurbhanj-trail, Similipal, Chhau, Santali and the Chhau-recognition investigation before bounded source checks. Existing UNESCO ecological source is mapped as `similipal-biosphere` within destinations to distinguish the old operational `similipal` key; no duplicate source record. New references are the2023 President’s Secretariat Baripada literary-event release, current tourism Baripada successor and current reserve guidelines. Indexed-only reopening date was not adopted. No new subject, fieldwork or programme credit.

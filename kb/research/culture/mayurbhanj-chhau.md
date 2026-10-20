@@ -41,3 +41,7 @@ Credit the troupe; the UNESCO inscription covers three regional styles, not Odis
 Battery Dance’s **15 August 2024** programme at Rockefeller Park, New York, bills **The Chhau Samagam** by the Rajesh Sai Babu Mayurbhanj Chhau Group. Its credits name **Rajesh Sai Babu** as choreographer, assisted by **Pritha Ghosh**, with music credited as **Saroj Mohanti** and costume design to Rajesh. Preserve the presenter’s name spellings rather than silently merging similarly spelled musicians. [Presenter programme](https://batterydance.org/aug-15-2024/).
 
 This is a documented international presentation route, not a measured popularity, attendance or export-revenue result. The source is a programme, so delivery is not independently verified here. The same page includes a separately credited Odissi presentation; the two traditions remain distinct. Its mistaken introductory “northeastern” location wording is not adopted.
+
+## Looking at movement · 20 October 2026
+
+The actual Battery Dance2024 programme was re-read for the Mayurbhanj regional article: jumps, spins and high kicks contrast with torso/shoulder movement; the Natraj notes name preservation, destruction and renewed creation. Those are the presenter’s descriptions, not witnessed analysis or an exclusive origin history. Choreographer Rajesh Sai Babu, assistant Pritha Ghosh and music credit Saroj Mohanti remain distinct. UNESCO’s shared three-style inscription is reused from official indexed text; a direct verification barrier was not bypassed.

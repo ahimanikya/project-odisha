@@ -44,8 +44,8 @@ test('Balasore preserves photos, saved ideas and onward paths with a visible pri
  const onward=html.match(/<details class="mag-disclosure region-balasore-onward"[\s\S]*?<\/details>/)?.[0];assert.ok(onward);assert.match(onward,/<summary>Further reading<\/summary>/);assert.doesNotMatch(onward,/<details[^>]*\bopen\b/);
  for(const href of ['/journey/','/destinations/mayurbhanj/',region.journey_starter.href])assert.ok(onward.includes(`href="${href}"`));
  const outside=html.replace(/<details\b[^>]*>[\s\S]*?<\/details>/g,'');assert.match(outside,/href="\/contribute\/\?page=%2Fdestinations%2Fbalasore%2F"[^>]*>Suggest an update/);assert.match(outside,/GitHub submissions are public; omit private contact details and consent documents/);
- const other=page('/destinations/mayurbhanj/');assert.doesNotMatch(other,/class="article-byline"|id="story-sources"/);assert.match(other,/<details id="sources"/);
- for(const route of ['/destinations/cuttack/','/destinations/puri/','/destinations/bhubaneswar/']){const previous=page(route);assert.ok(previous.includes('By Ahimanikya Satapathy'));assert.ok(previous.includes('id="story-sources"'));}
+ const other=page('/languages/santali/');assert.doesNotMatch(other,/class="article-byline"|id="story-sources"/);assert.match(other,/Editorial preview/);
+ for(const route of ['/destinations/cuttack/','/destinations/puri/','/destinations/bhubaneswar/','/destinations/mayurbhanj/']){const previous=page(route);assert.ok(previous.includes('By Ahimanikya Satapathy'));assert.ok(previous.includes('id="story-sources"'));}
 });
 test('Balasore portable reading keeps complete paragraphs, short sources and documentary rights',()=>{
  const catalog=JSON.parse(read('dist-coast/index.html').match(/id="journey-data"[^>]*>([\s\S]*?)<\/script>/)[1]).catalog,item=catalog.find(i=>i.id===region.id);
