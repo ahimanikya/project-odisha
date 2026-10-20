@@ -838,6 +838,10 @@ POD-EDIT-054 reuses the place, UNESCO biosphere, reserve guidelines, mahua profi
 
 POD-EDIT-056 reuses the northern stay, Balasore regional and Chandipur place records, current tourism arrival source and sedimentology study. Two hypothetical planning scenarios and the existing area comparison explain choices without adding a hotel or provider endorsement. No new source or place entity. Mapping: `research/destinations/balasore-stay-editorial.json`. No substantive programme credit.
 
+## Similipal stay-area editorial reuse · 20 October 2026
+
+POD-EDIT-057 reuses the northern stay row, Similipal place article, reserve guidelines and historical closure evidence before inspecting three distinct current successor pages for gates, permits and routes. The named gateway pairings, camp examples and vehicle/guide distinction support concrete overnight planning. Old operational and closure source identities remain unchanged; no reopening, room inventory, current inclusions or provider confirmation inferred. No duplicate place or programme credit. Mapping: `research/destinations/similipal-stay-editorial.json`.
+
 
 ## 20 October 2026 · Place-linked sweets collection
 

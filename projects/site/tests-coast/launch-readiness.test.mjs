@@ -69,6 +69,16 @@ test('practical notes stay in one planning section before onward links and credi
    assert.ok(practical.includes('ref-detail-4-p-0-similipal-guidelines'));
    continue;
   }
+  if(route==='/visit/stays/similipal-gateways/'){
+   assert.equal(matches.length,0);
+   const start=html.indexOf('id="detail-section-1"'),end=html.indexOf('id="connect-visit"');
+   assert.ok(start>0&&end>start);
+   const practical=html.slice(start,end);
+   for(const phrase of ['latest opening notice','day-entry passes','overnight reservations','government-issued photo identification','certified local nature guide','room, food, transfers, entry','refunded or moved','drinking water'])assert.ok(practical.includes(phrase),phrase);
+   for(const ref of ['ref-detail-0-similipal-entry-gates','ref-detail-1-similipal-permits','ref-detail-2-similipal-routes'])assert.ok(practical.includes(ref),ref);
+   assert.ok(html.indexOf('id="story-sources"')>end);
+   continue;
+  }
   assert.equal(matches.length,expected.includes(route)?1:0,route);
   if(!expected.includes(route))continue;
   const position=matches[0].index;

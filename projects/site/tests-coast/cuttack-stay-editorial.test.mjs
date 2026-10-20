@@ -53,7 +53,7 @@ test('Cuttack stay retains a contextual photograph and concise rights, onward re
  assert.match(outside,/GitHub submissions are public; omit private contact details and consent documents/);
  assert.match(html,/data-save-journey="stay:cuttack"/);
  assert.match(html,/name="robots" content="noindex, nofollow"/);
- const other=page('/visit/stays/similipal-gateways/');assert.doesNotMatch(other,/class="article-byline"|id="story-sources"/);assert.match(other,/Drafted with AI assistance/);
+ const other=page('/visit/experiences/jobra-maritime-museum/');assert.doesNotMatch(other,/class="article-byline"|id="story-sources"/);assert.match(other,/Drafted with AI assistance/);
 });
 test('Cuttack stay portable reading preserves author, paragraph breaks, all option guidance and concise sources',()=>{
  const catalog=JSON.parse(read('dist-coast/index.html').match(/<script[^>]*id="journey-data"[^>]*>([\s\S]*?)<\/script>/)[1]).catalog;

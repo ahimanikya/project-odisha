@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T15:17:50.577506+00:00",
   "article_id": "POD-EDIT-056",
   "route": "/visit/stays/balasore-coast/",
-  "status": "published_receipt_pending_integration",
+  "status": "complete",
   "input_head": "354e50a11bde9680ac601e77cc88a764a9d2110b",
   "authorization": [
     "POD-DEC-2026101702",
@@ -73,8 +73,8 @@
       "name": "Disha",
       "runtime": "/root",
       "scope": "Canonical narrative, shared records, image audit and publishing",
-      "status": "receipt_pending_integration",
-      "findings": "Prose, KB, tests, responsive checks, reviewed PR379 merge and approved live publication completed; retain claim through receipt merge."
+      "status": "complete",
+      "findings": "Published, live-verified and receipt PR380 observed merged; article ownership released. Zero substantive programme increment."
     }
   ],
   "concurrency": "All existing team workers completed Chhau; receipt PR378 observed merged at354e50a1. Prior integration-only handoff retained. Open PR304 statistics and PR281 Ashoka untouched.",
@@ -197,5 +197,94 @@
     ]
   },
   "publication_receipt": "records/balasore-stay-editorial-publication-2026-10-20.json",
-  "ownership": "Disha retains claim until receipt PR is actually merged; release only after observed integration."
+  "ownership": "Disha released article ownership after observed receipt PR380 merge at 75829dfa89ec705e3b515a9d1716cb1038717aa8. Next article requires a new reconciled claim.",
+  "receipt_integration": {
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/380",
+    "head": "b3e3dd996fe14b94976844d462c76967f2312083",
+    "merge_commit": "75829dfa89ec705e3b515a9d1716cb1038717aa8",
+    "merged_at": "2026-10-20T15:45:23Z",
+    "validation": {
+      "conclusion": "success",
+      "databaseId": 39450594320,
+      "headSha": "b3e3dd996fe14b94976844d462c76967f2312083",
+      "status": "completed",
+      "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39450594320"
+    },
+    "review": {
+      "reviewer": "Drishti",
+      "kind": "separate_ai_receipt_review",
+      "head": "b3e3dd996fe14b94976844d462c76967f2312083",
+      "base": "64d0bd75ca227126418da31c02f4f5005adb1bc7",
+      "result": "pass_with_limitations",
+      "blocking_findings": [],
+      "resolved_findings": [
+        {
+          "initial_head": "8b7d7d87969ccc89c05be1c3a7aedb7e09226b9e",
+          "issue": "Current receipt, team execution and register limitations incorrectly repeated candidate-stage pending publication gates.",
+          "resolution": "Final four-file delta updates current limitations to evidenced CI/merge/publication with receipt integration still pending; preserves historical candidate review verbatim and regenerates dashboard."
+        }
+      ],
+      "checks": {
+        "scope": "Ten records/screenshots only; no website, source, policy or implementation changes.",
+        "validators": [
+          "article_rollout --check",
+          "check_team_assignments",
+          "check_autonomous_program",
+          "registers --check",
+          "editorial/build_workbench --check",
+          "git diff --check"
+        ],
+        "final_delta_checks": [
+          "registers --check",
+          "article_rollout --check",
+          "check_team_assignments",
+          "git diff --check",
+          "historical candidate review exact comparison"
+        ],
+        "counts": {
+          "completed": 49,
+          "queued": 336,
+          "excluded": 10
+        },
+        "only_queue_entry_changed": "POD-EDIT-056",
+        "programme_byte_unchanged": true,
+        "substantive_completed": 112,
+        "review_transcription": "Receipt final_review and team review exactly match independently saved candidate review.",
+        "tree_correspondence": "Reviewed2d45af44 and merged64d0bd75 both tree97dbfbf6c8245895bbe247ccd96db8de00aef5bc.",
+        "ownership": "Disha retains POD-EDIT-056 until actual receipt merge; receipt_integrated phase explicitly conditional.",
+        "local_photo_hash_matches_receipt": true
+      },
+      "remote_verification": {
+        "method": "Independent gh pr view and gh run view",
+        "pull_request": 379,
+        "state": "MERGED",
+        "merged_at": "2026-10-20T15:33:50Z",
+        "reviewed_head": "2d45af4400081f38d67aa409be1ece7ef1167877",
+        "merge_head": "64d0bd75ca227126418da31c02f4f5005adb1bc7",
+        "ci": {
+          "run": 39448861402,
+          "conclusion": "success",
+          "head": "2d45af4400081f38d67aa409be1ece7ef1167877"
+        },
+        "deployment": {
+          "run": 39449584921,
+          "conclusion": "success",
+          "head": "64d0bd75ca227126418da31c02f4f5005adb1bc7"
+        }
+      },
+      "screenshot_review": {
+        "desktop_sha256": "62e5e3f4ffd024b1049abe365b20c0142e5ebbdd2424dc7abc3b7a7a0a87ba61",
+        "mobile_sha256": "f2459535a7b3d3267521fc9e5173137f82fa58b069743ce329276f35d5e0cf05",
+        "result": "Both saved cover views visually inspected and file hashes computed. Title, lead, Founder byline and photo legible without visible horizontal clipping; desktop dated landscape-not-accommodation caption visible. Mobile capture ends before caption."
+      },
+      "limits": [
+        "Separate AI review, not human, hospitality specialist or field approval.",
+        "Live HTTP/image requests, sitemap, responsive measurements, exact keyboard return and disclosure checks were coordinator-performed; not independently repeated.",
+        "Saved screenshots show cover views and cannot independently establish full-page accessibility or interactions.",
+        "No website build or suite repeated for records-only changes; prior candidate29 focused tests and successful exact-head CI retained.",
+        "No property, provider, room, transport, pricing, availability or current access verification.",
+        "Receipt integration remains pending; ownership must be retained until observed merge."
+      ]
+    }
+  }
 }

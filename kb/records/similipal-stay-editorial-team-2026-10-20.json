@@ -1,0 +1,253 @@
+{
+  "recorded_at": "2026-10-20T16:15:54.681680+00:00",
+  "article_id": "POD-EDIT-057",
+  "route": "/visit/stays/similipal-gateways/",
+  "status": "candidate_reconciliation",
+  "input_head": "8c0665003f8ca3f847998df6981222c2ef4bbc56",
+  "authorization": [
+    "POD-DEC-2026101702",
+    "POD-DEC-225",
+    "POD-DEC-2026101901"
+  ],
+  "central_question": "What must a traveller settle before choosing a town base or an overnight camp for Similipal, and how do gate, route and booking conditions change that choice?",
+  "acceptance": [
+    "Explain named gateway and camp choices using actual current official material and concrete planning scenarios; distinguish historical notices from current access.",
+    "Preserve all useful comparisons, complete portable reading, dated landscape provenance, footnotes and onward reading.",
+    "Separate AI review, meaningful tests, responsive review, merged PR, approved deployment and live receipt before completion."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only research and proposal",
+      "status": "complete",
+      "input_head": "8c0665003f8ca3f847998df6981222c2ef4bbc56",
+      "findings": "Three distinct official successor pages explain named gate pairings, day versus overnight booking and vehicle/guide requirements. Five sections with concrete town-day and camp-arrival scenarios.",
+      "tests": "Existing KB and actual pages inspected; proposal serialized.",
+      "limits": "No currentopening, liveinventory, bookingtransaction, providercontact, propertyinspection, fieldvisit orhumanreview. Originalscenariosnotvalidateditineraries."
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/pages/visit/[kind]/[slug].astro",
+        "projects/site/src/data/destination-details.ts",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/src/data/book-photos.ts",
+        "kb/research/destinations/similipal-stay-editorial.json",
+        "projects/site/tests-coast/similipal-stay-editorial.test.mjs",
+        "projects/site/tests/bhubaneswar-stay-editorial.test.mjs",
+        "projects/site/tests/barabati-reading-book.test.mjs",
+        "projects/site/tests/mukteswar-editorial.test.mjs",
+        "projects/site/tests/cuttack-reading-book.test.mjs",
+        "projects/site/tests-coast/barabati-editorial.test.mjs",
+        "projects/site/tests-coast/balasore-stay-editorial.test.mjs",
+        "projects/site/tests-coast/chandipur-editorial.test.mjs",
+        "projects/site/tests-coast/chhau-editorial.test.mjs",
+        "projects/site/tests-coast/cuttack-stay-editorial.test.mjs",
+        "projects/site/tests-coast/dhauli-editorial.test.mjs",
+        "projects/site/tests-coast/netaji-museum-editorial.test.mjs",
+        "projects/site/tests-coast/similipal-editorial.test.mjs",
+        "projects/site/tests-coast/tarakasi-editorial.test.mjs",
+        "projects/site/tests-coast/launch-readiness.test.mjs",
+        "projects/site/tests-coast/northern.test.mjs"
+      ],
+      "status": "complete",
+      "scope_note": "Only negative controls move to untouched Jobra maritime museum; onward Similipal links retained. Retained waterfall portable image is landscape context, not camp/room.",
+      "input_head": "8c0665003f8ca3f847998df6981222c2ef4bbc56",
+      "findings": "Exact stay opt-in, full ten paragraphs and three comparisons, three visible notes and exact returns, retained Barehipani portable photograph. Thirteen stale negative controls moved to untouched Jobra without changing onward Similipal links.",
+      "tests": "Static source map1/1 and38existing focused regressions on prior builds; syntax/diff pass. Fresh rendering coordinator-owned. Follow-up two stale integration assertions updated to meaningful current access and portable checks;16/16affectedtests passed."
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Separate integrated candidate review",
+      "status": "waiting_for_candidate",
+      "input_head": "480040f83b31d3206587368601af442e43122360",
+      "findings": "Separate content review passed with explicit concurrent-publication hold; fresh combined-head review required after reconciliation."
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": "Canonical narrative, shared records, source/photo audit and publishing",
+      "status": "in_progress"
+    }
+  ],
+  "concurrency": "All prior team workers completed; receipt PR380 observed merged. Incoming food-card image PR381/382 integrated; open PR304 statistics and PR281 Ashoka untouched.",
+  "substantive_items_added": 0,
+  "human_review_claimed": false,
+  "image_audit": {
+    "result": "retain",
+    "asset": "barehipani",
+    "inspection": "Actual original photograph and Commons source inspected: coherent wooded rock face and falling water; no physical anomalies observed. Dated landscape, not camp, room or current visitor conditions.",
+    "creator": "Wiki GSD",
+    "photographed_on": "2013-12-29",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Similipal_(2).jpg",
+    "sha256": "48936cd341129e6dc21082f88a938d566b133cfc12e7f4bf427d2ecf0823d026"
+  },
+  "source_review": {
+    "actual_pages": [
+      "https://www.similipal.org/entry-gates/",
+      "https://similipal.org/permits/",
+      "https://similipal.org/routes/"
+    ],
+    "inspection": "Disha independently read actual official entry-gates, permits and routes text. Named pairings, four camp examples, booking distinctions and guide/vehicle requirements verified at their specified sections. No current opening or availability inferred.",
+    "mapping": "research/destinations/similipal-stay-editorial.json",
+    "historical_evidence": "Old closure and operational IDs preserved; present article uses distinct verified successor pages.",
+    "limits": "No currentopening, liveinventory, bookingtransaction, providercontact, propertyinspection, fieldvisit orhumanreview. Originalscenariosnotvalidateditineraries."
+  },
+  "resolved_findings": [
+    {
+      "issue": "Initial full suite found three newly inspected source IDs absent from the shared destination source pool.",
+      "resolution": "Added the same three source identities and inspection limits to regions.sources; historical sources preserved. Fresh full build and suites rerun."
+    },
+    {
+      "issue": "Two old coastal integration tests assumed the historical closure text and a separate readiness block.",
+      "resolution": "Explicit integrated practical-guidance branch verifies current booking/access details and notes; starter asserts named gates/camps/guide distinction.16focusedtests and full330coastaltests pass."
+    }
+  ],
+  "validation": {
+    "full_build": "pass",
+    "full_tests": 566,
+    "coast_build": "pass",
+    "coast_tests": 330,
+    "publication_build": "pass;11indexablepages",
+    "local_browser": {
+      "viewports": [
+        [
+          1440,
+          1000
+        ],
+        [
+          390,
+          844
+        ]
+      ],
+      "reading_widths": [
+        740,
+        343.1953125
+      ],
+      "horizontal_overflow": false,
+      "inspection": "Desktop and mobile cover, mobile prose and three stacked comparison cards inspected. Footnote1 exact keyboard return and disclosure toggle verified.",
+      "limits": "Browser emulation, not physical-device or screen-reader testing."
+    }
+  },
+  "candidate_validation": {
+    "conclusion": "success",
+    "databaseId": 39457437088,
+    "headSha": "480040f83b31d3206587368601af442e43122360",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39457437088"
+  },
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/384",
+  "concurrency_hold": {
+    "observed_at": "2026-10-20T16:30:53.354129+00:00",
+    "external_pr": "https://github.com/ahimanikya/project-odisha/pull/383",
+    "external_article": "POD-EDIT-396",
+    "external_handoff": "records/sweets-and-places-team-2026-10-20.json",
+    "external_claim_recorded_at": "2026-10-20T16:17:19.119150+00:00",
+    "reason": "Both candidates independently started from8c066500 before their PRs were visible. Content scopes differ but operations/rollout are shared. Direct Founder-request sweets worker retains its scope.",
+    "action": "PR384 marked draft with explicit publishing deferral; no merge/deployment/completion. Preserve current candidate and await observed external receipt integration, then reconcile incoming records and review/test the combined head.",
+    "next_action": "Read actual PR383 and any receipt PR plus latest main handoff; no ownership takeover based on timestamp. No new article while this candidate remains held.",
+    "resolution": {
+      "external_receipt_pr": 385,
+      "merge_commit": "09ee64ec91f5e3959d2e9e225d48fa62edc463a2",
+      "merged_at": "2026-10-20T16:40:27Z",
+      "additional_photo_receipt_pr": 387,
+      "incoming_head": "d5888b36616d839d390019f6c4032383c2b0d27b",
+      "observed": "Actual remote merged states and successful deployments confirmed; all incoming source, image, edition and completion records preserved. Only Similipal remains in progress in integrated inventory."
+    }
+  },
+  "review_before_reconciliation": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_candidate_review",
+    "head": "480040f83b31d3206587368601af442e43122360",
+    "base": "8c0665003f8ca3f847998df6981222c2ef4bbc56",
+    "article": "POD-EDIT-057",
+    "route": "/visit/stays/similipal-gateways/",
+    "result": "content_pass_release_held_for_concurrency",
+    "blocking_findings": [],
+    "release_blockers": [
+      {
+        "issue": "Separate POD-EDIT-396 sweets-and-places worker also claimed shared operations/rollout from the same input base.",
+        "evidence": "Read coordinator-fetched /tmp/pod-concurrent-sweets-team.json: candidate_review on input8c066500, concurrent shared integration scope.",
+        "required_resolution": "Do not release this snapshot. Observe external receipt integration, preserve incoming records/content, reconcile a single active claim, rerun affected checks and obtain exact combined-head review."
+      }
+    ],
+    "checks": {
+      "focused_tests": {
+        "runtime": "Node24.15.0",
+        "passed": 54,
+        "failed": 0,
+        "files": [
+          "tests-coast/balasore-stay-editorial.test.mjs",
+          "tests-coast/barabati-editorial.test.mjs",
+          "tests-coast/chandipur-editorial.test.mjs",
+          "tests-coast/chhau-editorial.test.mjs",
+          "tests-coast/cuttack-stay-editorial.test.mjs",
+          "tests-coast/dhauli-editorial.test.mjs",
+          "tests-coast/launch-readiness.test.mjs",
+          "tests-coast/netaji-museum-editorial.test.mjs",
+          "tests-coast/northern.test.mjs",
+          "tests-coast/similipal-editorial.test.mjs",
+          "tests-coast/similipal-stay-editorial.test.mjs",
+          "tests-coast/tarakasi-editorial.test.mjs",
+          "tests/barabati-reading-book.test.mjs",
+          "tests/bhubaneswar-stay-editorial.test.mjs",
+          "tests/cuttack-reading-book.test.mjs",
+          "tests/mukteswar-editorial.test.mjs"
+        ]
+      },
+      "validators_passed": [
+        "article_rollout --check",
+        "check_team_assignments",
+        "check_autonomous_program",
+        "registers --check",
+        "editorial/build_workbench --check",
+        "catalog --check",
+        "research/validate_research_map",
+        "git diff --check",
+        "in-memory search-index comparison without writes"
+      ],
+      "scope": "35 changed files; only northern detail row stays/similipal-gateways changes. Exact kind/slug template/source/byline/portable opt-ins. No public assets changed; incoming food images retained. Regions change adds three source identities, all prior sources and assets retained.",
+      "test_changes": "Thirteen negative-control routes move to untouched Jobra while assertions remain. Two integration checks now require named gates, camp examples, guide/booking distinctions, in-article practical guidance and visible source returns.",
+      "narrative": "Five sections, ten paragraphs and three comparison options; three visible notes with exact references/returns. Full prose and options retained in portable HTML/text with concise sources and photo rights.",
+      "source_checks": [
+        {
+          "url": "https://www.similipal.org/entry-gates/",
+          "inspection": "Actual full page independently read. Kaliani/Jashipur and Pithabata/Baripada pairings match; no promotional quietness, exhaustive gate list or current opening inferred."
+        },
+        {
+          "url": "https://similipal.org/permits/",
+          "inspection": "Actual full page independently read. Day-pass versus advance camp reservation, four named examples and government photo ID match. No live availability, reserve-boundary, package-inclusion or same-day-entry assurance."
+        },
+        {
+          "url": "https://similipal.org/routes/",
+          "inspection": "Actual full page independently read. Eligibility, rough tracks, certified guide in vehicle and separate fees match. Numeric clearance not presented as sufficient standalone permission; scenarios remain original conditional advice."
+        }
+      ],
+      "image": "Retained Barehipani image visually inspected; coherent wooded waterfall landscape, explicitly dated2013 and not a camp or room. Previously inspected Commons provenance WikiGSD29Dec2013 CC BY-SA4 retained.",
+      "image_sha256": "48936cd341129e6dc21082f88a938d566b133cfc12e7f4bf427d2ecf0823d026",
+      "image_byte_unchanged": true,
+      "programme_byte_unchanged": true,
+      "substantive_completed": 112,
+      "local_rollout_counts": {
+        "completed": 49,
+        "in_progress": 1,
+        "queued": 335,
+        "excluded": 10
+      },
+      "prior_receipt": "Independent gh query confirms PR380 merged15:45:23Z reviewedb3e3dd99 at75829dfa89ec705e3b515a9d1716cb1038717aa8; review transcription exactly matches saved receipt review.",
+      "search": "Eligibility policy unchanged; rendered noindex controls pass."
+    },
+    "limits": [
+      "Separate AI review, not human, hospitality specialist, legal or field approval.",
+      "No live opening, camp inventory, booking transaction, provider contact, room inspection, current vehicle/guide availability or accessibility confirmation.",
+      "Official pages were read; no independent legal validation of stated vehicle/guide requirements.",
+      "Full566/coast330 suites, publication build and1440/390 interactive browser checks were coordinator-performed, not independently repeated.",
+      "No new build or browser interaction; independently ran54 focused tests against supplied built outputs.",
+      "Local validators check record consistency, not distributed locking. Concurrent claim prevents release approval until a reconciled exact head is separately reviewed."
+    ]
+  }
+}
