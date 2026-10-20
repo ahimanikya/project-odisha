@@ -34,3 +34,7 @@ Creator direction and final editorial authority remain with Ahimanikya Satapathy
 The existing Balasore route now explains gently sloping tidal-flat geometry and sediment movement, attributes Jitu Mishra’s2019 river/harbour account, and links Fakir Mohan’s printing work with a selected fictional household. Existing literary source IDs and original source-access limits are reused; no new literary entity. The current tourism page supersedes the earlier season recommendation for this article only. Food and stay choices remain original planning suggestions.
 
 Visible numbered notes, Founder-directed byline and complete portable prose follow the current editorial standard. Retained Chandipur2012 photograph and commemorative bust keep credits, licences and image hashes; no depicted bust is claimed as a visit stop. [Evidence mapping](../destinations/balasore-editorial.json).
+
+## Mayurbhanj editorial extension · 20 October 2026
+
+One regional article now connects forest streams and vegetation, Chhau movement through a named2024 programme, Murmu’s plays and the2023 Baripada literary gathering. The food image remains a home-cooked chicken variation, distinct from tourism’s mutton example. Old seasonal/gateway/closure claims were individually replaced with current-notice planning guidance after source access changed; no current opening or booking confirmation is inferred. Existing detailed routes remain queued independently.

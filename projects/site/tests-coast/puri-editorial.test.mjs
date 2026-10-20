@@ -24,5 +24,6 @@ test('Puri preserves its documentary photographs and leaves unreviewed cities ou
  for(const id of ['puri-beach','raghurajpur-artisan']){const p=data.assets[id];assert.equal(createHash('sha256').update(readFileSync('public'+p.src)).digest('hex'),p.sha256);for(const v of [p.src,p.creator,p.license_url])assert.ok(html.includes(v));}
  assert.match(html,/Her name is not supplied in the source/);
  const balasore=readFileSync('dist-coast/destinations/balasore/index.html','utf8');assert.match(balasore,/By Ahimanikya Satapathy/);assert.match(balasore,/<section id="story-sources"/);
- for(const slug of ['mayurbhanj']){const other=readFileSync(`dist-coast/destinations/${slug}/index.html`,'utf8');assert.doesNotMatch(other,/class="article-byline"|id="story-sources"/);assert.match(other,/<details id="sources"/);}
+ const mayurbhanj=readFileSync('dist-coast/destinations/mayurbhanj/index.html','utf8');assert.match(mayurbhanj,/By Ahimanikya Satapathy/);assert.match(mayurbhanj,/<section id="story-sources"/);
+ const other=readFileSync('dist-coast/languages/santali/index.html','utf8');assert.doesNotMatch(other,/class="article-byline"|id="story-sources"/);assert.match(other,/Editorial preview/);
 });

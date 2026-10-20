@@ -15,3 +15,7 @@ Battery Dance. Program / Rajesh Sai Babu Mayurbhanj Chhau Group / Credits.
 Presenter programme for Rockefeller Park, New York; establishes billed work and credits, not independently confirmed delivery, audience or commercial success. Page incorrectly calls Odisha northeastern in its introduction; geography wording not adopted.
 
 [Original source](https://batterydance.org/aug-15-2024/). Retrieved 1 October 2026. Publication date not established; report/event period is retained separately.
+
+## Mayurbhanj regional reuse · 20 October 2026
+
+Actual programme introduction, Natraj entry and credits inspected. Used for a specific movement contrast and named collaboration; no attendance, witnessed delivery, ancient origin or presenter geography error adopted. Keep combined public paraphrase and footnote below200 words.
