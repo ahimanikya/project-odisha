@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T01:55:28.690168+00:00",
   "article_id": "POD-EDIT-043",
   "route": "/literature/",
-  "status": "published_receipt_pending_integration",
+  "status": "receipt_integrated",
   "input_head": "06927e55878f8f263cebd4a1832dd752b3c1f1ac",
   "authorization": "POD-DEC-225",
   "classification": "Authored literary introduction with seven existing reading doors and unlinked future writers.",
@@ -74,7 +74,7 @@
       "name": "Disha",
       "runtime": "/root",
       "scope": "Only literature entry in collection.json; shared records, integration and publishing",
-      "status": "receipt_integration_pending"
+      "status": "completed"
     }
   ],
   "concurrency": "Prior receipt351 observed merged; all prior workers completed. PR304 statistics and PR281 Ashoka excluded.",
@@ -135,5 +135,12 @@
       "Author-hosted Jajnaseni excerpt does not identify its translator; none inferred."
     ]
   },
-  "ownership_release": "Only after this receipt is merged; no next article claimed."
+  "ownership_release": "Released after observed receipt PR353 merge.",
+  "receipt_integration": {
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/353",
+    "reviewed_head": "e749a87a40cb3f59c65c1306b024d7a8a543e112",
+    "merge_commit": "45357d43dfa11081d104012eb999d2462e018ead",
+    "validation_run": 39357964132,
+    "separate_ai_review": "Drishti PASS on receipt head, recorded in PR353"
+  }
 }

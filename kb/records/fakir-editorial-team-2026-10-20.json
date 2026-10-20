@@ -1,0 +1,92 @@
+{
+  "recorded_at": "2026-10-20T03:01:20.727658+00:00",
+  "article_id": "POD-EDIT-044",
+  "route": "/people/fakir-mohan-senapati/",
+  "status": "in_progress",
+  "input_head": "45357d43dfa11081d104012eb999d2462e018ead",
+  "authorization": "POD-DEC-225",
+  "classification": "Founder-directed literary biography with existing portable reading.",
+  "central_question": "How do Senapati’s public-language work and the voices of his stories illuminate one another?",
+  "acceptance": [
+    "Reinspect actual historical sources and selected original texts; explain concrete narrative choices without inflated first/modern superlatives.",
+    "Preserve biography conflicts, original/translation edition distinction and documentary bust rights.",
+    "Visible numbered footnotes, Founder byline, readable layout, collapsed further reading and visible update; existing saved reading and portable formats remain complete.",
+    "Separate AI review, tests, responsive review, approved deployment and live receipt before completion."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only actual source and media audit; literary findings and biography precision",
+      "status": "complete",
+      "input_head": "45357d43dfa11081d104012eb999d2462e018ead",
+      "findings": [
+        "Reinspected selected Rebati, Patent Medicine and chapter10 Odia passages; chapter10 English institutional labels deepen the account of reader knowledge.",
+        "Rout indexed original p14 and Priyambada indexed opening p38 support scoped historical claims; direct PDFs unavailable, mirrors not independent sources.",
+        "Retained documentary bust and CC BY-SA4.0 rights; publisher-specific N initial corrected."
+      ],
+      "tests": [
+        "Bust visually reinspected and SHA256 de64db9a31244c1bd557f61ccfab1dc63e289bf9b7b388acf155385fc5761f0b unchanged."
+      ],
+      "limits": [
+        "No original school/press records, full novel, facsimile collation or human review."
+      ]
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/components/CultureMagazine.astro",
+        "kb/research/voices/fakir-editorial.json",
+        "projects/site/tests-coast/fakir-editorial.test.mjs",
+        "projects/site/tests/voices.test.mjs",
+        "projects/site/tests-coast/voices-passage-sources.test.mjs",
+        "projects/site/src/components/CultureOnward.astro",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/tests-coast/literature-editorial.test.mjs"
+      ],
+      "status": "complete",
+      "input_head": "45357d43dfa11081d104012eb999d2462e018ead",
+      "findings": [
+        "Exact Fakir opt-in to byline, visible notes and collapsed onward reading; other authors unchanged.",
+        "Portable reading contains every narrative paragraph once, author, short source list and documentary bust rights."
+      ],
+      "tests": [
+        "29/29 focused rendered and portable reading tests passed."
+      ],
+      "limits": [
+        "No independent responsive or keyboard review; coordinator performs these."
+      ]
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Separate read-only integrated candidate review",
+      "status": "pending"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": "Only Fakir entry in voices collection, people/fakir-mohan-senapati.md and shared records/publishing",
+      "status": "in_progress"
+    }
+  ],
+  "concurrency": "All previous workers completed and receipt353 merged. PR304 statistics and PR281 Ashoka excluded.",
+  "substantive_items_added": 0,
+  "human_review_claimed": false,
+  "candidate_validation": {
+    "tests": [
+      "Full build and566 tests passed",
+      "Coast build and275 tests passed",
+      "Publication build passed;11 indexable routes unchanged",
+      "Workbench6 Python and3 Node tests passed",
+      "Rollout, registers, team, programme, bundle and whitespace checks passed"
+    ],
+    "responsive": {
+      "desktop": "1440x1000;740px prose,33.3px line height,22.5px paragraph spacing",
+      "mobile": "390x844;343.195px prose;no horizontal overflow",
+      "keyboard": "Footnote1 entry and precise return passed;Further reading opens by Enter and exposes7 links",
+      "image": "Commemorative bust loads and uses contain; retained credits"
+    }
+  }
+}

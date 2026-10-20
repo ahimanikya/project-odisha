@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 395. completed: 36, excluded: 10, queued: 349.
+Route inventory: 395. completed: 36, excluded: 10, in_progress: 1, queued: 348.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -57,7 +57,7 @@ Route inventory: 395. completed: 36, excluded: 10, queued: 349.
 | POD-EDIT-041 | [Languages of Odisha](https://projectodisha.org/languages/) | completed | Authored introductory reading with a language directory; review its prose and source mapping, not all linked profiles. |
 | POD-EDIT-042 | [Odia](https://projectodisha.org/languages/odia/) | completed | Individually revise Odia introduction, its source mapping, credited images, population inset and portable reading; linked literary profiles remain separate. |
 | POD-EDIT-043 | [Odia Literature](https://projectodisha.org/literature/) | completed | Individually revise literary introduction and reading choices; retain seven doors, source mapping and media rights. Linked profiles are separate. |
-| POD-EDIT-044 | [Fakir Mohan Senapati](https://projectodisha.org/people/fakir-mohan-senapati/) | queued | classification_pending |
+| POD-EDIT-044 | [Fakir Mohan Senapati](https://projectodisha.org/people/fakir-mohan-senapati/) | in_progress | Individually revise writer biography, public-language work, selected literary readings and portable notes; linked works remain separate. |
 | POD-EDIT-045 | [Six Acres and a Third](https://projectodisha.org/literature/six-acres-and-a-third/) | queued | classification_pending |
 | POD-EDIT-046 | [Sarala Das](https://projectodisha.org/people/sarala-das/) | queued | classification_pending |
 | POD-EDIT-047 | [Pratibha Ray](https://projectodisha.org/people/pratibha-ray/) | queued | classification_pending |

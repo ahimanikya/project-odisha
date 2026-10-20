@@ -3,7 +3,7 @@ import connections from '../../../../kb/research/related-discoveries.json';
 import {discoveryEntries} from '../data/discovery';
 import {allowsPage} from '../data/edition';
 const {entry,collapsed=false}=Astro.props;
-const useDisclosure=['languages','languages/odia','literature'].includes(entry.path)&&collapsed;
+const useDisclosure=['languages','languages/odia','literature','people/fakir-mohan-senapati'].includes(entry.path)&&collapsed;
 const linked=connections.links.filter(link=>link.from==='/'+entry.path+'/').map(link=>({href:link.to,title:discoveryEntries.find(item=>item.href===link.to)?.label||link.to,reason:link.reason}));
 const readingPaths=['literature','languages/odia','people/gangadhar-meher','people/bhima-bhoi','people/sarala-das','people/fakir-mohan-senapati'];
 const links=[...new Map([...(readingPaths.includes(entry.path)?[{href:'/literature/reading-journey/',title:'Follow an illustrated Odia reading journey'}]:[]),...entry.related,...linked,...[{href:'/languages/',title:'Languages of Odisha'}, {href:'/literature/',title:'Odia literature'}, {href:'/destinations/',title:'Explore destination guides'}].filter(link=>link.href!=='/'+entry.path+'/')].filter(link=>allowsPage(link.href)).map(link=>[link.href,link])).values()];
