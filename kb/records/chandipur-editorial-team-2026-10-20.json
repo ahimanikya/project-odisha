@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T12:16:20.084770+00:00",
   "article_id": "POD-EDIT-053",
   "route": "/visit/places/chandipur/",
-  "status": "in_progress",
+  "status": "published_receipt_pending_integration",
   "input_head": "496294b0fba394a6ad5928ee6902325bf2ab8c56",
   "authorization": "POD-DEC-225",
   "central_question": "Why does Chandipur expose so much ground at low tide, and what can that changing surface teach a visitor without turning exposure into a safe-walking promise?",
@@ -46,13 +46,23 @@
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Separate integrated candidate review",
-      "status": "assigned"
+      "status": "complete",
+      "input_head": "1434cb5830ba43e8eba40faf37b097da64d96ecb",
+      "findings": "Exact kind+slug opt-in, full portable paragraph boundaries, concise sources and panorama credit retained. Adjacent Balasore stay remains outside byline/notes opt-in; existing Barabati, Netaji, Cuttack stay and region controls pass. Article stays in progress under Disha; no 500-item increment.",
+      "limits": [
+        "Separate AI review, not human or field review.",
+        "Selected scientific text reviewed; no rendered scientific figure review, site visit or current access/tide assessment.",
+        "Responsive and keyboard checks and full builds/suites are coordinator-performed, not independently repeated. Reviewer ran 23 focused tests and canonical checks.",
+        "No fieldwork, current tide prediction, species identification, access inspection or human review. Selected scientific text is not a visitor safety assessment.",
+        "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
+      ]
     },
     {
       "name": "Disha",
       "runtime": "/root",
       "scope": "Canonical narrative, KB, shared records and publication",
-      "status": "in_progress"
+      "status": "receipt_pending_integration",
+      "findings": "Prose, KB, tests, responsive checks, reviewed PR373 merge and approved live publication completed; retain claim through receipt merge."
     }
   ],
   "concurrency": "All named workers completed Mayurbhanj; actual receipt372 merge reconciled. Open PR304 statistics and281 Ashoka untouched.",
@@ -111,5 +121,44 @@
     "limits": [
       "Browser emulation, not physical-device or screen-reader testing."
     ]
-  }
+  },
+  "review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_review",
+    "head": "1434cb5830ba43e8eba40faf37b097da64d96ecb",
+    "base": "496294b0fba394a6ad5928ee6902325bf2ab8c56",
+    "result": "pass_with_limitations",
+    "blocking_findings": [],
+    "checks": {
+      "focused_tests": 23,
+      "validators": [
+        "article_rollout",
+        "team_assignments",
+        "autonomous_program",
+        "registers",
+        "workbench",
+        "research_map",
+        "catalogue",
+        "git_diff_check"
+      ],
+      "paragraphs": 9,
+      "sections": 6,
+      "visible_notes": 2,
+      "references_and_exact_returns": 4,
+      "only_detail_record_changed": "chandipur",
+      "programme_byte_unchanged": true,
+      "substantive_completed": 112,
+      "publication_eligibility_files_unchanged": true
+    },
+    "source_review": "Independently inspected actual sedimentology text pp6–7 and9, including water film, ripples and animal trails/burrows; checked current official October–March and Baleshwar rail/road statements. Geometry inference identified in KB; original observation and practical guidance not assigned false citations. No current tide, bathing or walking-distance assurance. Existing source IDs reused.",
+    "media_review": "Both local photographs visually inspected and preserved hashes confirmed by tests; panorama creator/date/CC BY-SA4 provenance independently rechecked. Sunset provenance already checked during Balasore review. No claimed animal-trace identification in photographs.",
+    "implementation_review": "Exact kind+slug opt-in, full portable paragraph boundaries, concise sources and panorama credit retained. Adjacent Balasore stay remains outside byline/notes opt-in; existing Barabati, Netaji, Cuttack stay and region controls pass. Article stays in progress under Disha; no 500-item increment.",
+    "limits": [
+      "Separate AI review, not human or field review.",
+      "Selected scientific text reviewed; no rendered scientific figure review, site visit or current access/tide assessment.",
+      "Responsive and keyboard checks and full builds/suites are coordinator-performed, not independently repeated. Reviewer ran 23 focused tests and canonical checks."
+    ]
+  },
+  "publication_receipt": "records/chandipur-editorial-publication-2026-10-20.json",
+  "ownership": "Disha retains claim until receipt PR is actually merged; release only after observed integration."
 }
