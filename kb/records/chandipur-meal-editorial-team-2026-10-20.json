@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T21:29:07.562193+00:00",
   "article_id": "POD-EDIT-060",
   "route": "/food/balasore/",
-  "status": "research_and_implementation",
+  "status": "published_receipt_pending_integration",
   "input_head": "869d51194ca188792277df9f6e2099babf13ae94",
   "authorization": [
     "POD-DEC-2026101702",
@@ -38,14 +38,24 @@
     {
       "name": "Drishti",
       "runtime": "/root/drishti",
-      "status": "pending",
-      "scope": "Separate read-only integrated candidate review."
+      "status": "complete",
+      "scope": "Separate read-only integrated candidate review.",
+      "input_head": "9dbb642df0695c5a7168793faeae87f62bb93428",
+      "findings": "Separate review of integrated candidate passed; actual focused tests and original-source checks detailed in final review.",
+      "limits": [
+        "Separate AI research, implementation and review; no human, culinary specialist, language or field review.",
+        "No meal tasting, cook interview, kitchen supply trace, current menu, auction schedule or harbour-access verification.",
+        "Current regional tourism text and a dated hosted travelogue share institutional hosting; no independent kitchen or field corroboration.",
+        "Full566 and coastal355 tests plus responsive/keyboard checks were coordinator-performed; separate AI review records its own focused tests and original-source checks.",
+        "Browser emulation, not physical-device or screen-reader testing."
+      ]
     },
     {
       "name": "Disha",
       "runtime": "/root",
-      "status": "active",
-      "scope": "Canonical content, source mapping, image audit, shared records and publishing."
+      "status": "receipt_pending_integration",
+      "scope": "Canonical content, source mapping, image audit, shared records and publishing.",
+      "findings": "Canonical article and downloads, full/coastal tests, responsive checks, reviewed PR394 merge and approved live publication complete. Retain claim through receipt integration."
     }
   ],
   "concurrency": {
@@ -292,5 +302,74 @@
     "copy": "Four sections, six paragraphs; repetitive prompts shortened. Two sources and two cited passages. No invented supply chain, recipe or present-day venue review.",
     "independent_source_check": "Disha also read actual cuisine Coastal & Seafood Trails bullets and Mishra2019 Balaramgadi paragraphs/byline/date.",
     "reader_gain": "Replaces generic fresh-seafood promise with an attributed, dated fishery example and specific ways of learning from an actual kitchen. Separates beach setting, fishery landing and restaurant preparation without a fabricated farm-to-table narrative."
-  }
+  },
+  "review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_integrated_candidate_review",
+    "head": "9dbb642df0695c5a7168793faeae87f62bb93428",
+    "base": "869d51194ca188792277df9f6e2099babf13ae94",
+    "article": "POD-EDIT-060",
+    "route": "/food/balasore/",
+    "result": "pass_with_limitations",
+    "blocking_findings": [],
+    "source_checks": [
+      {
+        "url": "https://odishatourism.gov.in/en/cuisine-culinary-trails",
+        "inspection": "Actual Coastal & Seafood Trails heading and bullets read. Fish,prawns,crabs and Baleshwar coastal dining association supported. No particular restaurant,current dish,recipe or supply chain inferred. Existing source identity reused."
+      },
+      {
+        "url": "https://apps.odishatourism.gov.in/blog-detail/the-tale-of-chandipur-beach-beyond-the-vanishing-sea",
+        "inspection": "Actual original travelogue selected paragraphs and byline/date read.10October2019 Jitu Mishra. Budhabalanga estuary at Balaramgadi, trawlers/smallboats and hilsa,pomp fret(normalised pomfret),large prawns landed for auction support attributed paragraph. Article omits unsupported current auction timing, tide-distance and historical grand claims; explicit restaurant-supply limitation accurate."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Sunset_at_Chandipur_Sea_Beach,_Odisha.jpg",
+        "inspection": "Actual description,date26February2012,ownwork,Nihar.race andCCBYSA4.0 licensing read. Independently viewed local1280x848image: coherent sun reflection on wet sand and distant land edge. Context photograph only, not evidence of food, catch or restaurant supply."
+      }
+    ],
+    "checks": {
+      "focused_tests": {
+        "passed": 27,
+        "failed": 0,
+        "runtime": "Node24.15.0",
+        "files": [
+          "tests-coast/chandipur-meal-editorial.test.mjs",
+          "tests-coast/chhena-poda-editorial.test.mjs",
+          "tests-coast/mudhi-mansa-editorial.test.mjs",
+          "tests/balasore-trail.test.mjs",
+          "tests/food-card-consistency.test.mjs",
+          "tests-coast/northern.test.mjs"
+        ],
+        "scope": "Fresh coordinator-built outputs; all6portableparagraphs,byline,2visible notes2exactreturn targets,photographic rights,noindex,foodcard/title consistency,oldjourneyidentity,legacy Enduri and prior reviewed foods preserved. Balasore city directory block occurs once before onward/source notes without invented dish listing."
+      },
+      "validators_passed": [
+        "article_rollout --check",
+        "check_team_assignments",
+        "check_autonomous_program",
+        "registers --check",
+        "editorial/build_workbench --check",
+        "catalog --check",
+        "research/validate_research_map",
+        "read-only in-memory search-index comparison",
+        "git diff --check869d5119..HEAD"
+      ],
+      "word_scope": {
+        "method": "All mapped prose plus complete note,title and entire lead counted for each source; both below200. Remaining paragraphs are explicit original planning prompts,not invented observations.",
+        "tourism": 98,
+        "harbour": 128
+      },
+      "preservation": "15file scope. All other canonical food entries and public image bytes unchanged. Only chandipur-context asset metadata updated. Exact balasore food-template and portable opt-in preserves other authors,sharedcomponents,dining hooks andfood:chandipur-seafood identity. Prior Mudhi handoff records actual receipt integration only.",
+      "photo_sha256": "cd0d20634950b20af1301665a667e5baff2a670344b1c8d399f99f9302eea2e1",
+      "accounting": "Programme byte unchanged112. Rollout53completed72excluded1inprogress332queued. Only060 active; Disha retainsownershipthroughreceipt. No deliveredcredit.",
+      "prior_receipt": "Independent gh verifies PR393 MERGED2026-10-20T20:49:06Z,reviewedaa3cf441267005dd1d5b9ce020857a5f255dbd97,merge869d51194ca188792277df9f6e2099babf13ae94."
+    },
+    "limits": [
+      "Separate AI review,not human,culinary-specialist or field approval.",
+      "No cook interview,meal tasting,recipe test,current restaurant supply/menu/availability inspection,boat/auction access or tide verification.",
+      "Two text sources share Odisha Tourism hosting; institutional summary and named contributor travelogue offer bounded context,not independent corroboration of current trade.",
+      "Reviewer independently read source text,Commons metadata and local pixels,ran27focusedtests andcanonicalchecks; no build or interactive browser review. Full566/coast355/publication11 checks are coordinator evidence.",
+      "Coordinator responsive/keyboard checks,required exact-head CI,approveddeployment andactual live receipt remain release/completiongates. Article remainsinprogress."
+    ]
+  },
+  "publication_receipt": "records/chandipur-meal-editorial-publication-2026-10-20.json",
+  "ownership": "Disha retains claim until receipt PR is actually merged; release only after observed integration."
 }
