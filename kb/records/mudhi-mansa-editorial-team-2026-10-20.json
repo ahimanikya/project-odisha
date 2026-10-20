@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T20:24:30.196421+00:00",
   "article_id": "POD-EDIT-059",
   "route": "/food/mudhi-mansa/",
-  "status": "research_and_implementation",
+  "status": "published_receipt_pending_integration",
   "input_head": "a136b2496f309061d4cd10bb7a7a977aa2c2dbd0",
   "authorization": [
     "POD-DEC-2026101901",
@@ -26,7 +26,7 @@
     {
       "name": "Samanta",
       "runtime": "/root/samanta",
-      "status": "assigned",
+      "status": "complete",
       "scope": "Read-only implementation assessment until exact files reserved.",
       "write_files": [
         "projects/site/src/components/MudhiMansaArticle.astro",
@@ -38,14 +38,24 @@
     {
       "name": "Drishti",
       "runtime": "/root/drishti",
-      "status": "pending",
-      "scope": "Separate read-only integrated candidate review."
+      "status": "complete",
+      "scope": "Separate read-only integrated candidate review.",
+      "input_head": "a729ae8f62e836b22331c4969e46beddbab31bf7",
+      "findings": "Separate review of integrated candidate passed; actual focused tests and inherited source checks detailed in final review.",
+      "limits": [
+        "Separate AI research, implementation and review; no human, culinary specialist, language or field review.",
+        "No recipe trial, tasting, maker interview, archival invention witness, current menu, shop or enterprise verification.",
+        "Original household recipe, attributed press account, tourism association and creator testimony support bounded examples, not universal practice or invention chronology.",
+        "Full566 and coastal349 tests plus responsive/keyboard checks were coordinator-performed; separate AI review records its own focused tests and inherited source checks.",
+        "Browser emulation, not physical-device or screen-reader testing."
+      ]
     },
     {
       "name": "Disha",
       "runtime": "/root",
-      "status": "active",
-      "scope": "Canonical content, image audit, shared records and publisher."
+      "status": "receipt_pending_integration",
+      "scope": "Canonical content, image audit, shared records and publisher.",
+      "findings": "Canonical article and downloads, full/coastal tests, responsive checks, reviewed PR392 merge and approved live publication complete. Retain claim through receipt integration."
     }
   ],
   "concurrency": "PR391 receipt observed merged; only unrelated304statistics and281Ashoka open. No overlapping article worker observed.",
@@ -377,9 +387,103 @@
     }
   },
   "resolved_findings": [
-    "Shortened household and history passages after source allocation review; all final source budgets below200 words including notes and conservative overhead.",
+    "Shortened household and history passages after source allocation review; source-derived allocations remain within200 words; the separate review documents why assigning every word of the lead and closing synthesis to each source overcounts shared material.",
     "Added explicit Baripada dining-directory reading link without claiming a matching dish venue.",
     "Initial coastal suite caught stale expected phrase after final prose trim; test wording aligned, frozen candidate rebuilt."
   ],
-  "review_correction": "Separate source review: TNIE identifies Jogeswar as family scion, not explicitly son; final article uses Jogeswar Behera without a parental relationship claim."
+  "review_correction": "Separate source review: TNIE identifies Jogeswar as family scion, not explicitly son; final article uses Jogeswar Behera without a parental relationship claim.",
+  "review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_integrated_candidate_review",
+    "head": "a729ae8f62e836b22331c4969e46beddbab31bf7",
+    "initial_review_head": "1326e895ee5ebbe657c273739cea355d325451f7",
+    "base": "a136b2496f309061d4cd10bb7a7a977aa2c2dbd0",
+    "article": "POD-EDIT-059",
+    "route": "/food/mudhi-mansa/",
+    "result": "pass_with_limitations",
+    "blocking_findings": [],
+    "resolved_findings": [
+      {
+        "issue": "Initial prose described Jogeswar as Kartik Chandra Behera’s son, while inspected TNIE only identifies him as the family scion.",
+        "resolution": "a729ae8f replaces relationship with Jogeswar Behera; no unsupported immediate-parentage claim."
+      }
+    ],
+    "source_checks": [
+      {
+        "url": "https://www.oriyarasoi.com/2015/06/",
+        "inspection": "Actual June1,2015 post in original monthly archive read, including family memory, ingredients and assembly. Supports cooker gravy, onion/chilli and already-cooked curry mixed with puffed rice, mustard oil and vegetables. No full recipe quantities reproduced. Not a household survey or invention witness."
+      },
+      {
+        "url": "https://www.newindianexpress.com/lifestyle/food/2019/aug/24/mudhi-mansa-the-classic-breakfast-of-warriors-2023711.html",
+        "inspection": "Actual complete feature read. Opening named Behera enterprise account supports thicker gravy, curd relish with onion/cucumber/sweet chilli pickle, restaurant Garma Garam and Jogeswar’s continuity testimony. Separate relish is a reasonable interpretation of its trio/chutney description, not an assertion of the exact restaurant’s current plating.1969 is attributed business account, not validated invention. Distant military/dynastic assertions lack inspectable archival locators; they are not adopted as fact."
+      },
+      {
+        "url": "https://odishatourism.gov.in/en/cuisine-culinary-trails",
+        "inspection": "Actual Rural & Traditional Cuisine bullet read: Mayurbhanj association with puffed rice/mutton. No history or recipe method inferred from short listing."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Mudhi_Mansa.jpg",
+        "inspection": "Actual English/Odia captions,9September2020 date, own-work creatorSangram Keshari Senapati andCC BY-SA4.0 metadata read. Local retained image independently viewed: coherent leaf bowl, separate identifiable puffed grains and curried pieces, onion on top. Chicken identity is creator testimony, not inferred visually. Home-made context preserved."
+      }
+    ],
+    "checks": {
+      "validators_passed": [
+        "article_rollout --check",
+        "check_team_assignments",
+        "check_autonomous_program",
+        "registers --check",
+        "editorial/build_workbench --check",
+        "catalog --check",
+        "research/validate_research_map",
+        "read-only in-memory search-index comparison",
+        "git diff --checka136b249..HEAD"
+      ],
+      "preservation": "All other canonical food-page entries unchanged; all public image bytes unchanged. Mudhi photo metadata alone gains date,contain and accurate alteration/inspection wording. Chhena component unchanged; exact additional Mudhi opt-in preserves dining hooks in all branches. Portable author/paragraph/source logic restricted to Mudhi and previous Chhena.",
+      "image_sha256": "7d96b934d4d64e38cd20f379e4aa342abe28a8bab2d3fa28305015a5e717edfa",
+      "programme": "Byte unchanged112 completed; only059 active,52 completed72excluded333queued. No new delivered credit.",
+      "prior_receipt": "Independent gh verified PR391 MERGED2026-10-20T19:37:56Z,head768abaf388e68757c1f7f0a82c124f71c2b6f937,mergea136b2496f309061d4cd10bb7a7a977aa2c2dbd0 before059 ownership.",
+      "focused_tests": {
+        "passed": 25,
+        "failed": 0,
+        "runtime": "Node24.15.0",
+        "files": [
+          "tests-coast/mudhi-mansa-editorial.test.mjs",
+          "tests-coast/chhena-poda-editorial.test.mjs",
+          "tests/discovery-and-books.test.mjs",
+          "tests-coast/food-alternate-images.test.mjs"
+        ],
+        "scope": "Fresh final corrected built outputs: source coverage,4visible notes8exactreferences/returns, complete10paragraph portable HTML/text, Founder byline, rights/uncropped media, specific update link, conditional dining hook, preserved Chhena listing and Enduri legacy author control."
+      },
+      "source_word_scope": {
+        "method": "Mapped jointly cited text assigned to both sources; note/title and whole lead conservatively included. Separate26-word closing synthesis can be counted additionally, but whole lead contains distinct other-source content.",
+        "counts_before_closing_synthesis": {
+          "oriyarasoi": 178,
+          "tnie": 172,
+          "tourism": 84,
+          "photo": 97
+        },
+        "qualification": "Adding entire generic closing26words to wholelead accounting yields204 for Oriyarasoi. This is an intentionally overinclusive allocation, not actual single-source derivation. The lead’s restaurant and chicken examples derive elsewhere. No source-word blocker, but do not call that absolute worst-case count below200. Coordinator acknowledged and will qualify method in receipt."
+      },
+      "final_rendered_copy": "Fresh output has Jogeswar Behera, without son assertion; all25 targeted tests pass. No current matching Mudhi directory listing is invented; Baripada directory link remains in further reading."
+    },
+    "limits": [
+      "Separate AI review, not human, culinary specialist, language or field approval.",
+      "No tasting, recipe trials, current menus/prices/service or business verification, interviews or independent historical archives.",
+      "Actual original June2015 archive,2019 feature,current tourism bullet and Commons metadata read; inspected retained local photograph. These are bounded documented examples, not a census of cooking practices.",
+      "Reviewer independently ran25 focused tests on coordinator-built final outputs and canonical checks. Full566/coast349/build/publication checks are coordinator-performed; reviewer did not build or interact with browser.",
+      "Exact-head required CI, coordinator responsive/keyboard acceptance, approved deployment and actual live receipt remain release/completion gates. Article remains in progress."
+    ]
+  },
+  "publication_receipt": "records/mudhi-mansa-editorial-publication-2026-10-20.json",
+  "ownership": "Disha retains claim until receipt PR is actually merged; release only after observed integration.",
+  "source_word_allocation_qualification": {
+    "method": "Mapped jointly cited text assigned to both sources; note/title and whole lead conservatively included. Separate26-word closing synthesis can be counted additionally, but whole lead contains distinct other-source content.",
+    "counts_before_closing_synthesis": {
+      "oriyarasoi": 178,
+      "tnie": 172,
+      "tourism": 84,
+      "photo": 97
+    },
+    "qualification": "Adding entire generic closing26words to wholelead accounting yields204 for Oriyarasoi. This is an intentionally overinclusive allocation, not actual single-source derivation. The lead’s restaurant and chicken examples derive elsewhere. No source-word blocker, but do not call that absolute worst-case count below200. Coordinator acknowledged and will qualify method in receipt."
+  }
 }
