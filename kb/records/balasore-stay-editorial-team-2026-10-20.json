@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T15:17:50.577506+00:00",
   "article_id": "POD-EDIT-056",
   "route": "/visit/stays/balasore-coast/",
-  "status": "candidate_ready",
+  "status": "published_receipt_pending_integration",
   "input_head": "354e50a11bde9680ac601e77cc88a764a9d2110b",
   "authorization": [
     "POD-DEC-2026101702",
@@ -56,13 +56,25 @@
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Separate integrated candidate review",
-      "status": "waiting_for_candidate"
+      "status": "complete",
+      "input_head": "2d45af4400081f38d67aa409be1ece7ef1167877",
+      "findings": "Separate integrated candidate review.",
+      "limits": [
+        "Separate AI review, not human, hospitality specialist or field approval.",
+        "No properties, rooms, vendors, transfers, timetable, fare, current tide or local access independently confirmed.",
+        "Full 566-test and coast 323-test suites, publication build and responsive/keyboard/disclosure measurements were coordinator-performed; not independently repeated.",
+        "Independent checks used current built output and code/data inspection; no new build or interactive browser session performed.",
+        "Candidate approval does not certify merge, required CI, live publication or completion; those gates remain pending.",
+        "No property inspection, provider confirmation, current rates, availability, timetable, fieldwork or human review. Scenarios are hypothetical planning comparisons.",
+        "Responsive and keyboard checks use browser emulation, not physical-device or screen-reader testing."
+      ]
     },
     {
       "name": "Disha",
       "runtime": "/root",
       "scope": "Canonical narrative, shared records, image audit and publishing",
-      "status": "in_progress"
+      "status": "receipt_pending_integration",
+      "findings": "Prose, KB, tests, responsive checks, reviewed PR379 merge and approved live publication completed; retain claim through receipt merge."
     }
   ],
   "concurrency": "All existing team workers completed Chhau; receipt PR378 observed merged at354e50a1. Prior integration-only handoff retained. Open PR304 statistics and PR281 Ashoka untouched.",
@@ -117,5 +129,73 @@
       "keyboard": "Footnote1 and exact return; further-reading disclosure opened with Enter.",
       "limitations": "Browser emulation; no physical-device or screen-reader test."
     }
-  }
+  },
+  "review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_candidate_review",
+    "head": "2d45af4400081f38d67aa409be1ece7ef1167877",
+    "base": "354e50a11bde9680ac601e77cc88a764a9d2110b",
+    "article": "POD-EDIT-056",
+    "route": "/visit/stays/balasore-coast/",
+    "result": "pass_with_limitations",
+    "blocking_findings": [],
+    "checks": {
+      "focused_tests": {
+        "passed": 29,
+        "failed": 0,
+        "runtime": "Node 24.15.0",
+        "files": [
+          "tests-coast/balasore-stay-editorial.test.mjs",
+          "tests-coast/barabati-editorial.test.mjs",
+          "tests-coast/chandipur-editorial.test.mjs",
+          "tests-coast/cuttack-stay-editorial.test.mjs",
+          "tests-coast/dhauli-editorial.test.mjs",
+          "tests-coast/netaji-museum-editorial.test.mjs",
+          "tests-coast/tarakasi-editorial.test.mjs",
+          "tests/barabati-reading-book.test.mjs",
+          "tests/bhubaneswar-stay-editorial.test.mjs",
+          "tests/mukteswar-editorial.test.mjs"
+        ]
+      },
+      "validators_passed": [
+        "article_rollout --check",
+        "check_team_assignments",
+        "check_autonomous_program",
+        "registers --check",
+        "editorial/build_workbench --check",
+        "catalog --check",
+        "research/validate_research_map",
+        "git diff --check"
+      ],
+      "scope": "26 changed files. Northern detail data changes only stays/balasore-coast. Template, source adapter, saved author and paragraph handling use exact kind/slug opt-in. Nine negative-control updates switch the comparison route to unchanged Similipal stays without removing assertions.",
+      "narrative": "Five sections, nine paragraphs and two comparison options preserved in portable HTML and text. Two visible fact notes and exact return links; planning scenarios and booking questions remain original guidance, not inspected-property claims.",
+      "sources": [
+        "Independently inspected Odisha Tourism Chandipur How to Reach: Baleshwar rail arrival and road access. No marketing access, season, transfer reliability or hotel endorsement imported.",
+        "Independently inspected Saha and colleagues PDF printed pp. 6–7 Study Area: broad gently dipping tidal flat with narrower landward beach. Waterline explanation is identified as geometric inference; no forecast, current access or safety assurance.",
+        "Independently inspected Commons source page: Nihar.race, 26 February 2012, own work, CC BY-SA 4.0. Local image visually inspected; landscape context accurately distinguished from accommodation."
+      ],
+      "image_sha256": "cd0d20634950b20af1301665a667e5baff2a670344b1c8d399f99f9302eea2e1",
+      "image_byte_unchanged": true,
+      "programme_byte_unchanged": true,
+      "substantive_completed": 112,
+      "rollout_counts": {
+        "completed": 48,
+        "in_progress": 1,
+        "queued": 336,
+        "excluded": 10
+      },
+      "ownership": "Disha holds POD-EDIT-056 in candidate_review through actual publication receipt integration; no premature completion.",
+      "prior_chhau": "Only handoff integration record updated. Saved separate receipt review exactly transcribed. Independent gh query confirms PR378 MERGED at 2026-10-20T14:52:33Z, reviewed d334b9eca426d95974e5732f38b8ee39fa1eeae0, merge 354e50a11bde9680ac601e77cc88a764a9d2110b.",
+      "search": "No eligibility-policy changes; focused rendered noindex control passes."
+    },
+    "limits": [
+      "Separate AI review, not human, hospitality specialist or field approval.",
+      "No properties, rooms, vendors, transfers, timetable, fare, current tide or local access independently confirmed.",
+      "Full 566-test and coast 323-test suites, publication build and responsive/keyboard/disclosure measurements were coordinator-performed; not independently repeated.",
+      "Independent checks used current built output and code/data inspection; no new build or interactive browser session performed.",
+      "Candidate approval does not certify merge, required CI, live publication or completion; those gates remain pending."
+    ]
+  },
+  "publication_receipt": "records/balasore-stay-editorial-publication-2026-10-20.json",
+  "ownership": "Disha retains claim until receipt PR is actually merged; release only after observed integration."
 }

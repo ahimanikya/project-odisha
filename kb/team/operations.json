@@ -59,11 +59,12 @@
     "route": "/visit/stays/balasore-coast/",
     "owner": "Disha",
     "coordinator_runtime": "/root",
-    "phase": "candidate_review",
+    "phase": "receipt_integrated",
     "branch": "codex/balasore-stay-editorial-20261020",
     "input_head": "354e50a11bde9680ac601e77cc88a764a9d2110b",
     "file_reservations": "records/balasore-stay-editorial-team-2026-10-20.json#executions",
-    "integration_gate": "Retain ownership through actual receipt integration."
+    "integration_gate": "Retain ownership until this receipt PR is actually merged; phase becomes effective only with that integration. No next article claim before observed merge.",
+    "publication_receipt": "records/balasore-stay-editorial-publication-2026-10-20.json"
   },
   "project_identity": "reference/project-identity.md"
 }
