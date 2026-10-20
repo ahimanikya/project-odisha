@@ -854,3 +854,8 @@ POD-EDIT-058 reuses `food/chhena-poda.md`, `food/collection.json`, `sources/food
 ### Mudhi Mansa article · 21 October 2026
 
 Reused `food/collection.json`, its existing photograph and current culinary-trails source. Scoped search found no separate narrative; [source dossier](../food/mudhi-mansa-research-2026-10-21.json) records actual Oriyarasoi archive and reported Behera-family evidence, access limits and rejected ancient-origin claims. [Article map](../food/mudhi-mansa-editorial.json) maps the revised passage groups. No maker contact, tasting or archival invention witness claimed.
+
+
+## Chandipur meal article reuse · 21 October 2026
+
+POD-EDIT-060 reuses the food entry, current cuisine trail and existing harbour source identity. Fresh original-page reading adds a dated named fish-landing example and distinguishes its scope from kitchen supply and preparation. Old Chandipur food attribution remains historical evidence. No new source entity or field confirmation. Mapping: `research/food/chandipur-meal-editorial.json`. Zero substantive programme credit.

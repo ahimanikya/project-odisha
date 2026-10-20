@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T20:24:30.196421+00:00",
   "article_id": "POD-EDIT-059",
   "route": "/food/mudhi-mansa/",
-  "status": "published_receipt_pending_integration",
+  "status": "complete",
   "input_head": "a136b2496f309061d4cd10bb7a7a977aa2c2dbd0",
   "authorization": [
     "POD-DEC-2026101901",
@@ -53,7 +53,7 @@
     {
       "name": "Disha",
       "runtime": "/root",
-      "status": "receipt_pending_integration",
+      "status": "complete",
       "scope": "Canonical content, image audit, shared records and publisher.",
       "findings": "Canonical article and downloads, full/coastal tests, responsive checks, reviewed PR392 merge and approved live publication complete. Retain claim through receipt integration."
     }
@@ -475,7 +475,7 @@
     ]
   },
   "publication_receipt": "records/mudhi-mansa-editorial-publication-2026-10-20.json",
-  "ownership": "Disha retains claim until receipt PR is actually merged; release only after observed integration.",
+  "ownership": "Released after observed PR393 merge; no active file reservations.",
   "source_word_allocation_qualification": {
     "method": "Mapped jointly cited text assigned to both sources; note/title and whole lead conservatively included. Separate26-word closing synthesis can be counted additionally, but whole lead contains distinct other-source content.",
     "counts_before_closing_synthesis": {
@@ -485,5 +485,12 @@
       "photo": 97
     },
     "qualification": "Adding entire generic closing26words to wholelead accounting yields204 for Oriyarasoi. This is an intentionally overinclusive allocation, not actual single-source derivation. The lead’s restaurant and chicken examples derive elsewhere. No source-word blocker, but do not call that absolute worst-case count below200. Coordinator acknowledged and will qualify method in receipt."
+  },
+  "receipt_integration": {
+    "pull_request": 393,
+    "reviewed_head": "aa3cf441267005dd1d5b9ce020857a5f255dbd97",
+    "merge_commit": "869d51194ca188792277df9f6e2099babf13ae94",
+    "merged_at": "2026-10-20T20:49:06Z",
+    "ci": 39494473331
   }
 }
