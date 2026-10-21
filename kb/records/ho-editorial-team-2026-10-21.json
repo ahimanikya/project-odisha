@@ -1,0 +1,90 @@
+{
+  "recorded_at": "2026-10-21T12:07:07.895045+00:00",
+  "article_id": "POD-EDIT-069",
+  "route": "/languages/ho/",
+  "status": "in_progress",
+  "input_head": "6e947832f6071ce02aa36455c027f23789f88d37",
+  "authorization": [
+    "POD-DEC-2026101702",
+    "POD-DEC-2026101901",
+    "POD-DEC-225"
+  ],
+  "central_question": "How has Ho been put into writing and learning materials, and what can a reader understand from the people, scripts and concrete pages involved?",
+  "scope": "Deepen existing Ho introduction with actual sources and concrete learning examples; preserve source limits, contributor credits and credible text identity panel.",
+  "acceptance": [
+    "Specific supported explanation and claim mapping",
+    "Reference reading rhythm, byline, visible notes and exact returns",
+    "Preserve learning credits and dated Census scope",
+    "Separate AI review, tests, desktop/mobile checks, reviewed PR, approved deployment, live verification and merged receipt"
+  ],
+  "ownership": "Disha retains claim through receipt integration.",
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only bounded research; temporary report only.",
+      "status": "assigned"
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/components/CultureMagazine.astro",
+        "projects/site/src/components/CultureOnward.astro",
+        "projects/site/src/components/LanguagePopulation.astro",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/tests-coast/ho-editorial.test.mjs",
+        "projects/site/tests-coast/balasore-editorial.test.mjs",
+        "projects/site/tests-coast/bhima-editorial.test.mjs",
+        "projects/site/tests-coast/bhubaneswar-editorial.test.mjs",
+        "projects/site/tests-coast/fakir-editorial.test.mjs",
+        "projects/site/tests-coast/gangadhar-editorial.test.mjs",
+        "projects/site/tests-coast/gopinath-editorial.test.mjs",
+        "projects/site/tests-coast/kui-editorial.test.mjs",
+        "projects/site/tests-coast/kuvi-editorial.test.mjs",
+        "projects/site/tests-coast/languages-editorial.test.mjs",
+        "projects/site/tests-coast/literature-editorial.test.mjs",
+        "projects/site/tests-coast/mayurbhanj-editorial.test.mjs",
+        "projects/site/tests-coast/odia-editorial.test.mjs",
+        "projects/site/tests-coast/pratibha-editorial.test.mjs",
+        "projects/site/tests-coast/puri-editorial.test.mjs",
+        "projects/site/tests-coast/santali-editorial.test.mjs",
+        "projects/site/tests-coast/saora-editorial.test.mjs",
+        "projects/site/tests-coast/sarala-editorial.test.mjs",
+        "projects/site/tests-coast/six-acres-editorial.test.mjs"
+      ],
+      "status": "assigned"
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Separate read-only integrated candidate review after implementation.",
+      "status": "pending"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": [
+        "kb/research/voices/collection.json",
+        "kb/research/voices/ho-editorial.json",
+        "kb/research/voices/ho-research-2026-10-21.json",
+        "shared records and publishing"
+      ],
+      "status": "working"
+    }
+  ],
+  "counting": {
+    "substantive500": 112,
+    "increment": 0
+  },
+  "previous_integration": {
+    "pull_request": 408,
+    "head": "8318503e4ae0be6505c2ae7759c569c69f69d18e",
+    "merge_commit": "6e947832f6071ce02aa36455c027f23789f88d37",
+    "merged_at": "2026-10-21T11:35:02Z",
+    "required_ci": 39592458334,
+    "tree_equivalence": "a4a3d3b0ffc9dfca8c076755d789cdc66c0a779a"
+  },
+  "worker_reconciliation": "Existing named agents observed completed from Saora; reuse with follow-up tasks, no duplicate agents.",
+  "next_action": "Research Ho sources and implement the exact Ho opt-in; separate integrated review follows."
+}

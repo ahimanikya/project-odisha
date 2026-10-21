@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `13f8e46c846fbdbc6851a8468ab0b5cf9e459cc2994c2be6529058bd05ed00de`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `48baa0bf4d9f1bebea2e3470f1a40b31c9f9a3d067926c32bc68e89997259899`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -321,7 +321,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-299 · Deepen Dalkhai song, occasion and stage context | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, song-language review and recovered source PDFs remain open for future research. | — |
 | POD-WORK-300 · Deepen Pala literary performance, forms and repertoire | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/Odia review and manuscript evidence remain open for future research. | — |
 | POD-WORK-301 · Deepen Dhemsa community, movement and occasion | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/language review and field evidence remain open for future research. | — |
-| POD-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Integrate Santali receipt and reconcile ownership before next eligible article;55 editorial entries complete. | — |
+| POD-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Ho is the single active article after observed Saora receipt integration;58 editorial entries completed, substantive programme112 unchanged. | — |
 | POD-WORK-2026101701 · Publish two Pattachitra Jhula choices | completed | published | Ahimanikya Satapathy | Review the live Pattachitra choices. | — |
 | POD-WORK-2026101901 · Activate separate editorial agents and durable handoffs | completed | applied | Ahimanikya Satapathy | Use saved team loop for subsequent article work; recreate task-scoped workers when needed. | — |
 | POD-WORK-2026101801 · Coherent Jhula story and collection overview | completed | published | Ahimanikya Satapathy | Review the refined live page. | — |
