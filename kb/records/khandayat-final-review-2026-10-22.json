@@ -1,0 +1,65 @@
+{
+  "article_id": "POD-EDIT-460",
+  "reviewer": "Drishti, separate AI reviewer",
+  "status": "pass_with_limitations",
+  "recorded_at": "2026-10-21T21:31:32.056720+00:00",
+  "input_head": "6a69d1a47da0ee5b47e8913986fd5ab994507ec3",
+  "file_sha256": {
+    "kb/research/communities/khandayat.json": "1b6f35e42de72e074ea5573ca29c74c09a1566536ab4d20e39f6b39d39a71af9",
+    "kb/research/communities/khandayat.md": "ee090a499ca0462f99ae16864c0fd949d69f3e4bde5c2085fd2440b17240a1d9",
+    "kb/research/sources/khandayat-research.json": "9407c43ea69cdb008f018a68363a0bdcb0ae9a77402b1676d1bdc82f3c2dedde",
+    "projects/site/src/pages/communities/khandayat.astro": "1e33a86c81b69ea7284d209072836cda52c7fbbbf9fad6c660dc45408f8e3115",
+    "projects/site/tests-coast/khandayat-editorial.test.mjs": "6ec8228352876b6a8039f02f521b60e04b8fa5da8b2ab4214bb7c1cdd29188ad",
+    "projects/site/editions/coast.json": "b91b0d36b1994d09e01b6b8b23b48a8909f6ecbfd012edee2a75627fde13e4d0",
+    "projects/site/editions/search-candidate.json": "2e82e5832e83131265d7328e1930337b39fe7a336bb6da564330cd44b22cbc11",
+    "projects/site/src/data/discovery.ts": "4f6a5281d49fb6f068cd898f9f1a6a54f79d0f9df25a80bfbe1ff88d02e2c008",
+    "projects/site/src/data/journey-catalog.ts": "05b513e273f795fca2e9706238664219fcf12ee9dd1f36ec14eb795ece13e597"
+  },
+  "findings": [
+    "Puri census counts exactly match Tanabe2020 original inspected in prior Paika review; present article attributes interpretation to Tanabe and limits district/category scope rather than equating population growth or Chasa identity.",
+    "Original1896PDF printed147–148 independently extracted: swordsman gloss, branch labels and named titles supported. Current prose explicitly treats taxonomy/rank assumptions as dated author description, not present fact or universal genealogy.",
+    "ResearchGate author-uploaded chapter opening plainly supports forts, fields and forest/plains participation. Saori passage827–833 plainly identifies Gajapati king and Saora girl; legible842 confirms conceded Saora origin. Despite adjacent garbled-font lines, narrow paraphrase connecting royal/Saora origins is supported; no exact quotation or detailed genealogy adopted.",
+    "Original1999PDF printed198–200 and214note1 independently extracted: household/ancestral offerings and April1991–November1992 Garh Manitri scope confirmed. Printed205 explicitly places turmeric/oil bathing in puberty ritual; no wedding origin inferred.",
+    "Initial Managing diversities budget209 including headings flagged; coordinator trimmed fort paragraph. Final conservative totals incl all attributed paragraphs, notes, source titles and section headings:186/193/175/148, each below200.",
+    "Route, discovery card, portable reading and explicit search hold are scoped to Khandayat. Full paragraph/source mapping retained. No invented imagery or human review."
+  ],
+  "tests": [
+    "Read actual narrative/source map/page/tests and shared integration diff.",
+    "Original chapter web retrieval and original1896/1999 localPDF extraction checks.",
+    "Source-attributed word-count calculation after trim.",
+    "Confirmed all9 reviewed content/source/integration file hashes exactly match committed558468564752371f3c9f89e75b57ec11a71c032c.",
+    "Independently inspected desktop, mobile header and mobile body screenshots: readable hierarchy/spacing and footnotes, no visible clipping; mobile body contains final trimmed prose.",
+    "Read final422 coastal-test log,566 full-suite log and publication log11indexable pages. Full566run preceded last prose-only trim; final coast422 and publication rebuild followed it.",
+    "Reviewed shared test deltas: one additional Explore/Reading/static route only; expectations retain existing scope checks."
+  ],
+  "resolved_findings": [
+    {
+      "issue": "Managing diversities source budget margin",
+      "resolution": "Bounded fort paragraph trim;193words including headings."
+    }
+  ],
+  "blockers": [],
+  "limits": [
+    "Some chapter HTML lines have embedded-font corruption; only directly legible narrow Saori claims used. No original census/service manuscripts read.",
+    "No human/community/field or physical-device/screen-reader review.",
+    "Responsive interaction behavior is Samanta evidence; reviewer directly inspected3screenshots.",
+    "Full566tests before final prose-only trim; latest422coast tests and publication build after trim.",
+    "Required CI, merge, approved deployment and live receipt remain coordinator gates."
+  ],
+  "repository_edits": [],
+  "reviewed_head": "558468564752371f3c9f89e75b57ec11a71c032c",
+  "visual_evidence": {
+    "/tmp/pod-khandayat-desktop.png": "4073d8cbd02f243bd9391eb8a0d4ab6ce54acc37abf65b51a0a14c532f225207",
+    "/tmp/pod-khandayat-mobile.png": "44c2dca0a93b54186f7fdbf9e1dd19ca0ea168a3877b5d4a656a54139e1969c4",
+    "/tmp/pod-khandayat-mobile-body.png": "85a70673431254140c95d1df6b6ff1e4092330d8d05109a6e10cafcfa6b255a6"
+  },
+  "program_item": "POD-A500-114",
+  "work_id": "POD-WORK-304",
+  "authorization": "POD-DEC-225",
+  "verification": {
+    "source_review": "Separate AI original-source review and budget checks recorded in findings",
+    "implementation": "422coastal and566full tests, responsive screenshots and exact source hashes checked",
+    "ci": "Required validation39679480539 passed on exact reviewed55846856"
+  },
+  "normalization": "Disha normalized PASS to programme pass_with_limitations and linked existing verification; original agent report preserved in chat and /tmp. No new human review asserted."
+}

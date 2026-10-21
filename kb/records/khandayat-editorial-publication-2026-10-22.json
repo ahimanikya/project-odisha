@@ -1,0 +1,82 @@
+{
+  "recorded_at": "2026-10-21T21:41:44.840261+00:00",
+  "authorization": "POD-DEC-225",
+  "program_item": "POD-A500-114",
+  "work_id": "POD-WORK-304",
+  "queue_item": "POD-EDIT-460",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/424",
+  "reviewed_head": "558468564752371f3c9f89e75b57ec11a71c032c",
+  "merge_commit": "ee98ef631d801f29653e4a18019ef79084b2c292",
+  "validation": {
+    "conclusion": "success",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39679480539"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "ee98ef631d801f29653e4a18019ef79084b2c292",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39680210876",
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "review": "records/khandayat-final-review-2026-10-22.json",
+  "live": {
+    "result": "PASS",
+    "checked_at": "2026-10-21T21:41:07.354108+00:00",
+    "url": "https://projectodisha.org/communities/khandayat/",
+    "html_sha256": "eaed4e4245977ddc04bc7cd84c49b0259ac79a6e9180a3d77359eb5d5e724586",
+    "checks": [
+      "All canonical prose matches live HTML",
+      "Founder byline",
+      "Four visible source note targets",
+      "noindex preserved"
+    ]
+  },
+  "live_browser": {
+    "worker": "Samanta, AI implementation agent",
+    "input_head": "ee98ef631d801f29653e4a18019ef79084b2c292",
+    "deployment": "39680210876",
+    "status": "pass",
+    "url": "https://projectodisha.org/communities/khandayat/",
+    "desktop": {
+      "byline": true,
+      "collapsed": true,
+      "notes": 4,
+      "readingWidth": 740,
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "mobile": {
+      "readingWidth": 390,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    "footnote": {
+      "active": "note-khandayat-bhattacharya1896",
+      "hash": "#note-khandayat-bhattacharya1896"
+    },
+    "return": {
+      "active": "ref-name-0-khandayat-bhattacharya1896",
+      "hash": "#ref-name-0-khandayat-bhattacharya1896"
+    },
+    "explore": "Named Khandayat card opens canonical article successfully",
+    "screenshots": [
+      "/tmp/pod-khandayat-live-desktop.png",
+      "/tmp/pod-khandayat-live-mobile.png"
+    ],
+    "limits": [
+      "Read-only browser check; no production save mutation.",
+      "No repository edits.",
+      "Deployment head provided by coordinator; browser confirms rendered page and behavior."
+    ]
+  },
+  "verified_routes": [
+    "/communities/khandayat/"
+  ],
+  "limits": [
+    "Separate AI research and review; no human historian or community field review.",
+    "Khurda and Garh Manitri evidence is not universal regional genealogy or current custom.",
+    "Some chapter text has font corruption; only legible narrow claims adopted. Original census/service manuscripts not independently read.",
+    "No current legal status, caste rank or wedding Haldi origin inferred; search eligibility unchanged."
+  ]
+}
