@@ -227,5 +227,40 @@
     "headSha": "51964e2b206c5c032bd0830005d79e306b1df13f",
     "status": "completed",
     "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39625350150"
+  },
+  "receipt_review": {
+    "reviewer": "Drishti — separate AI reviewer",
+    "input_head": "ea488b557ac1b0979581573155f6c7d4b6e3350e",
+    "base_head": "51964e2b206c5c032bd0830005d79e306b1df13f",
+    "article_id": "POD-EDIT-072",
+    "result": "PASS",
+    "blocking_findings": [],
+    "findings": [
+      "Ten-file delta contains records and two live screenshots only; no site/source/code changes.",
+      "Actual remote PR415 merged reviewed341c181d at2026-10-21T15:24:01Z; CI39624499440success on reviewed head and workflow_dispatch Publish39625350150success on merge51964e2b independently confirmed.",
+      "Reviewed and merged Git trees both a4074d499fbc1dfb7a99dde7468c92b42e183f13.",
+      "Embedded candidate review exactly equals saved independent review. Current receipt limits distinguish AI/documentary evidence from human/field/recipe verification.",
+      "Only072 queue entry changes to completed:62completed76excluded320queued. Programme remains112 and byte-identical to base.",
+      "Existing activity ledger preserved byte-for-byte as prefix, with one new event appended. All existing register rows unchanged except intended POD-WORK-302; two new review/release rows. Earlier whitespace normalization is absent from netdiff.",
+      "Disha claim retained through observed receipt merge; receipt_integrated phase explicitly conditional, no new article or premature ownership release.",
+      "Saved live HTML SHA matches receipt; live JSON and browser observations agree with five notes,nine references/nine returns,eleven sitemap entries and458registered routes."
+    ],
+    "checks": [
+      "Independent gh pr view415 and gh run view39624499440/39625350150 after read-only network retry.",
+      "article_rollout.py --check,check_team_assignments.py,check_autonomous_program.py,registers.py --check allPASS;1116records639events.",
+      "git diff --check51964e2b..ea488b55PASS; tree equality,programme bytes,ledger prefix,register/queue comparison and exact review transcription checksPASS.",
+      "Viewed actual committed live-desktop.jpg and live-mobile.jpg; sampled reading legible at both widths.",
+      "Saved HTML hash52b4943db28ec4665c7c0d87749e28e5f59c3e22f59f93dbdcdc16a445dba77b independently computed."
+    ],
+    "screenshot_sha256": {
+      "live-desktop.jpg": "1b108d3b1dcf8f68bc23dfc5028049d48c5bea7690217f0870c8b987fc40cdfb",
+      "live-mobile.jpg": "edc4bf1b35197e9a3da815c3e851e716ea4ecce570422433086bce7371912abc"
+    },
+    "limits": [
+      "Separate AI receipt review only; no human,culinary specialist,field,maker or recipe-testing review.",
+      "Disha performed liveHTTP and interactive responsive/keyboard checks; I verified saved evidence,hashes,screenshots and remote workflow metadata,not independent browser interaction or repeated live fetch.",
+      "No repeat build/site suites needed for records-only delta; prior candidate review and source limits remain applicable.",
+      "No repository/Git/publication changes performed. This temporary review file is the sole write. Receipt PR checks and actual merge remain required before ownership release."
+    ]
   }
 }
