@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `3280fe57a8678b99357f4cb129522ede5090b03c0453f3b3c934258da337306c`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `404ac1f29ac615878762da8cad57f615fab92c02c98a80e59ef3313cee414410`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -330,6 +330,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-303 · Research and publish Paika service, community and Odia heritage | completed | published | Ahimanikya Satapathy | Retain article ownership through observed receipt integration, then build community coverage index and select next evidence-backed community history. | — |
 | POD-WORK-304 · Research and publish Khandayat community history | completed | published | Ahimanikya Satapathy | Retain claim through receipt integration, then select next evidence-backed community history. | — |
 | POD-WORK-305 · Research and publish Chasa community history | completed | published | Ahimanikya Satapathy | Retain claim through receipt merge before the next article. | — |
+| POD-WORK-306 · Research and publish Tanti community histories | in_progress | draft | Ahimanikya Satapathy | Inspect textile KB and specific Tanti evidence; produce one article only if origin/region claims are supportable. | — |
 
 ## Pending human review and decisions
 
