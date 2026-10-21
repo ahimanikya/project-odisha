@@ -32,7 +32,7 @@
       "name": "Samanta",
       "runtime": "/root/samanta",
       "task": "Verify render paths, source hashes, actual live HTML and attribution.",
-      "write_scope": "Temporary report only; no repository writes.",
+      "write_scope": "tools/test_team_assignments.py only: make negative-test setup independent of optional current article; no validator or website changes.",
       "status": "complete"
     },
     {
@@ -53,7 +53,8 @@
         "kb/team/operations.json",
         "kb/registers/records.json",
         "kb/registers/activity.jsonl",
-        "generated KB register/catalog/workbench views"
+        "generated KB register/catalog/workbench views",
+        "Samanta integration: tools/test_team_assignments.py"
       ],
       "status": "running"
     }
@@ -236,14 +237,11 @@
     }
   ],
   "limitations": [
-    "No new web/source research, live checks, screenshots or responsive rendering review; not required to distinguish present utility structure.",
-    "Existing built artifacts inspected/tested without rebuilding; no fresh deployment claim.",
-    "No exhaustive revalidation of every inherited card fact, asset right or linked article. Known source/rights links preserved in observed implementation; independent cultural image review not claimed.",
-    "Exclusion is from article editorial treatment only, not from future factual, source, accessibility or rights maintenance.",
-    "No browser visual or keyboard review; HTML inspection is not visual review.",
-    "No repository files edited, build, Git mutation or publication performed.",
-    "Existing dist-coast tests are artifact checks; live HTML hashes are compared separately.",
-    "Live HTTP 200 does not establish factual correctness of linked articles or availability of services."
+    "Anvesha inspected source and preexisting build; Samanta separately fetched the four live pages. Neither performed a fresh build or browser visual/keyboard review.",
+    "Existing artifact test passes do not certify a fresh build or byte identity with live pages.",
+    "No exhaustive factual, cultural or legal-rights revalidation of inherited cards or linked articles; attribution presence was checked.",
+    "Worker reports contain no repository writes except the subsequent explicitly assigned ownership-test fixture repair. Disha edited the inventory and shared records. No website content or deployment is changed.",
+    "Exclusion applies to article treatment only; future accuracy, accessibility, source and media maintenance remain required."
   ],
   "technical_verification": {
     "input_head": "9c1a3a4f08e0db94387c987deb80adad29d1e313",
@@ -336,6 +334,38 @@
       "projects/site/tests-coast/planning-hubs.test.mjs": {
         "sha256": "14a562527d93fba206e217a42f940461017b0da039ce5fc866427ab844a17364",
         "bytes": 2128
+      },
+      "kb/research/stories/narratives/chilika.json": {
+        "sha256": "a6240bf74e5ada79b4671bc0364720db22c4cb3b5613ae2a6905b951afac46a3",
+        "bytes": 6657
+      },
+      "kb/research/voices/culture-trails.json": {
+        "sha256": "5df8068c0389922a573f849bccf8b6eaea4d59350b072dc55430251a6a8b8e27",
+        "bytes": 7213
+      },
+      "kb/research/destinations/chilika.json": {
+        "sha256": "881be870259ffd17c2fa516960a08c54aea249ff2e623a7a0beb790a40e8cadb",
+        "bytes": 18736
+      },
+      "kb/research/destinations/konark.json": {
+        "sha256": "b5b641a48d93b727fbb81d1f517595f0c80e3cbdc53978373700ea921a2a549d",
+        "bytes": 14789
+      },
+      "kb/research/destinations/book-images.json": {
+        "sha256": "8dbd1f146ce0db4a2c3ad85637a14f54b9181230b46592a91b25e55ed434da74",
+        "bytes": 1061
+      },
+      "kb/research/destinations/central-details.json": {
+        "sha256": "11be92ceb51e5247da983bab8c0811e08a3eb7b212bf8007e3efc08f6eec2506",
+        "bytes": 69205
+      },
+      "kb/research/destinations/northern-details.json": {
+        "sha256": "ed33e1026ba2d1e81c9e3253b1a9acb9c48a8f88774273a8e4e1640a54d68ecb",
+        "bytes": 27687
+      },
+      "kb/research/destinations/details.json": {
+        "sha256": "9bf11775038460a6d898f8d41b4809430ea5d081d07200464f369534dcd70359",
+        "bytes": 47642
       }
     },
     "checks": [
@@ -343,14 +373,16 @@
       "Four actual live HTTPS responses: 200; exact body SHA256 and retrieval timestamps recorded.",
       "Parsed live DOM: one current planning nav and one credits disclosure per hub; nonempty linked cards; unique per-card save identities for three planning collections.",
       "Every live card destination exists in existing coastal build; no network status claims for those individual targets.",
-      "node --test tests-coast/planning-hubs.test.mjs: 2 passed, 0 failed against existing dist-coast."
+      "node --test tests-coast/planning-hubs.test.mjs: 2 passed, 0 failed against existing dist-coast.",
+      "Compared parsed live versus existing dist-coast card text, target links and images; results and differences recorded per route. Verified live image source/license/creator presence in corresponding credit disclosure."
     ],
     "limits": [
       "No browser visual or keyboard review; HTML inspection is not visual review.",
       "No repository files edited, build, Git mutation or publication performed.",
       "Existing dist-coast tests are artifact checks; live HTML hashes are compared separately.",
       "Live HTTP 200 does not establish factual correctness of linked articles or availability of services.",
-      "Initial sandbox DNS failed; read-only public retrieval succeeded with approved network escalation."
+      "Initial sandbox DNS failed; read-only public retrieval succeeded with approved network escalation.",
+      "Image hashes are local repository asset bytes referenced by live HTML, not separately downloaded live image responses. No visual assessment or new image factual/rights investigation performed."
     ],
     "findings": [
       "Destinations enumerates region guides plus Chilika/Konark via DestinationCards; no standalone authored narrative.",
@@ -358,7 +390,9 @@
       "Food adds discovery-hub teasers, collection and dining routes; these remain introductions to separate articles, not a single food article.",
       "Destination credits deduplicate photographs by source path. Planning credits deduplicate card photos by source path and list creator, license, changes; food feature media credits should remain checked against this card-derived set.",
       "Stay cards explicitly label photographs as landscape context, not properties; notes disclaim inspection, endorsement, booking and availability. Things-to-do note says research ideas, not bookable activities.",
-      "CSS uses cropped directory thumbnails by default; selected photoFit contain exceptions preserved. Article full-frame requirement should not be inferred to require rewriting directory thumbnails."
+      "CSS uses cropped directory thumbnails by default; selected photoFit contain exceptions preserved. Article full-frame requirement should not be inferred to require rewriting directory thumbnails.",
+      "Every live image src has a known local provenance record with its source link, license link and creator present in that hub’s live credits disclosure, including the food feature images.",
+      "All four live page body hashes differ from preexisting dist-coast. The first difference is robots policy: live noindex, follow versus local noindex, nofollow. Card comparison is recorded per route, including differences; do not claim byte-identical builds."
     ],
     "routes": {
       "/destinations/": {
@@ -383,7 +417,115 @@
         "credit_disclosure_count": 1,
         "existing_dist_coast_sha256": "5e647f5596dae2752a6869cee3a8cb92c7f44fead3fca349796374e99f417870",
         "existing_dist_matches_live": false,
-        "classification": "utility planning directory; exclude from article presentation rollout, retain inherited content/media obligations"
+        "classification": "utility planning directory; exclude from article presentation rollout, retain inherited content/media obligations",
+        "live_cards_equal_existing_dist": true,
+        "robots_live": [
+          "noindex, follow"
+        ],
+        "robots_existing_dist": [
+          "noindex, nofollow"
+        ],
+        "media_attribution_check": {
+          "/images/chilika/chilika-lake-hellohappy.webp": {
+            "known_records": [
+              {
+                "record": "kb/research/stories/narratives/chilika.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Chilika_Lake_(56468).jpg",
+                "creator": "Hellohappy",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "changes": "Full-frame resize and WebP compression for delivery; original retained. No generated or removed elements. Displayed adaptations retain the source licence."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/regions/barabati.jpg": {
+            "known_records": [
+              {
+                "record": "kb/research/destinations/regions.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Entrance_to_the_Barabati_fort.jpg",
+                "creator": "Rahul66wiki",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                "changes": "Resized and JPEG-compressed for the website. Responsive display may crop the view. Adaptations retain the stated share-alike licence."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/regions/barehipani.jpg": {
+            "known_records": [
+              {
+                "record": "kb/research/destinations/regions.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Similipal_(2).jpg",
+                "creator": "Wiki GSD",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "changes": "Original file retained; responsive display may crop the view. Displayed adaptations remain CC BY-SA 4.0."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/regions/chandipur-sunset.jpg": {
+            "known_records": [
+              {
+                "record": "kb/research/food/collection.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Sunset_at_Chandipur_Sea_Beach,_Odisha.jpg",
+                "creator": "Nihar.race",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "changes": "Wikimedia 1280px rendition retained; no creative edits."
+              },
+              {
+                "record": "kb/research/destinations/regions.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Sunset_at_Chandipur_Sea_Beach,_Odisha.jpg",
+                "creator": "Nihar.race",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "changes": "Wikimedia 1280px rendition; responsive display may crop the view. Displayed adaptations remain CC BY-SA 4.0."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/regions/mukteswar.jpg": {
+            "known_records": [
+              {
+                "record": "kb/research/destinations/regions.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Mukteshwar_temple_Side_Profile.jpg",
+                "creator": "Bikashrd",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                "changes": "Resized and JPEG-compressed for the website. Responsive display may crop the view. Adaptations retain the stated share-alike licence."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/regions/puri-beach.jpg": {
+            "known_records": [
+              {
+                "record": "kb/research/destinations/regions.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Puri_Beach_(8748084672).jpg",
+                "creator": "Aleksandr Zykov from Russia",
+                "license": "CC BY-SA 2.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                "changes": "Resized and JPEG-compressed for the website. Responsive display may crop the view. Adaptations retain the stated share-alike licence."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/tour-book/konark-wheel.jpg": {
+            "known_records": [
+              {
+                "record": "kb/research/destinations/book-images.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Konark_Sun_temple_during_sunset_09.jpg",
+                "creator": "Darshanavenugopal",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "changes": "Resized to 1400 × 1050 and JPEG-compressed for offline books; composition unchanged."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          }
+        }
       },
       "/food/": {
         "url": "https://projectodisha.org/food/",
@@ -439,7 +581,322 @@
           "/food/machha-besara/",
           "/food/machha-besara/"
         ],
-        "food_directory_link_present": true
+        "food_directory_link_present": true,
+        "live_cards_equal_existing_dist": false,
+        "robots_live": [
+          "noindex, follow"
+        ],
+        "robots_existing_dist": [
+          "noindex, nofollow"
+        ],
+        "media_attribution_check": {
+          "/images/destinations/chhena-poda.jpg": {
+            "known_records": [
+              {
+                "record": "kb/research/food/collection.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Chhena_Poda-Puri-Odisha-IMG_1323.jpg",
+                "creator": "Subhransuphotography",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "changes": "Wikimedia Commons resized rendition; no creative edits."
+              },
+              {
+                "record": "kb/research/destinations/konark.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Chhena_Poda-Puri-Odisha-IMG_1323.jpg",
+                "creator": "Subhransuphotography",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "changes": "Wikimedia Commons resized rendition; no creative edits. Display framing may crop the edges."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/destinations/crab.jpg": {
+            "known_records": [
+              {
+                "record": "kb/research/destinations/chilika.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Crab_dish_chilika_dhaba.jpg",
+                "creator": "Kurov 47",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "changes": "Original file; no creative edits. Display framing may crop the edges."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/food/badi-chura.webp": {
+            "known_records": [
+              {
+                "record": "kb/research/food/collection.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Badi_chura_01.jpg",
+                "creator": "Subhashish Panigrahi",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                "changes": "Resized and converted to WebP; image remains under its stated licence."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/food/baigana-bilati-poda.webp": {
+            "known_records": [
+              {
+                "record": "kb/research/food/collection.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Baigana-bilati_poda.jpg",
+                "creator": "Subhashish Panigrahi",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                "changes": "Resized and converted to WebP; image remains under its stated licence."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/food/curd-context.webp": {
+            "known_records": [
+              {
+                "record": "kb/research/food/collection.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Perfect_Curd_yoghurt_picture.JPG",
+                "creator": "Nithyasrm",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                "changes": "Resized and converted to WebP; displayed crops may vary with screen size. Image remains under its stated licence."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/food/dalma-habisha-alternate.webp": {
+            "known_records": [
+              {
+                "record": "kb/research/food/collection.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Habisha_Dalma.jpg",
+                "creator": "Subhransuphotography",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "changes": "Aspect-preserving resize and WebP compression; no scene alteration. Responsive display framing may crop the edges. Image remains CC BY-SA 4.0."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/food/enduri-pitha.webp": {
+            "known_records": [
+              {
+                "record": "kb/research/food/collection.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Enduri_Pitha.jpg",
+                "creator": "Subhransuphotography",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "changes": "Aspect-preserving resize and WebP encoding; no creative edits. Display framing may crop edges. Resized image remains CC BY-SA 4.0."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/food/fish-fry-odia-context.webp": {
+            "known_records": [
+              {
+                "record": "kb/research/food/collection.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Fish_Fry_Odia_style.jpg",
+                "creator": "TheDashd",
+                "license": "CC BY-SA 3.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                "changes": "Resized and converted to WebP; displayed crops may vary with screen size. Image remains under its stated licence."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/food/fish-patrapoda.webp": {
+            "known_records": [
+              {
+                "record": "kb/research/food/collection.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Patrapoda_macha_Rayagada_Odisha_0028.jpg",
+                "creator": "Lopanayak",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                "changes": "Resized and converted to WebP; image remains under its stated licence."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/food/machha-besara.webp": {
+            "known_records": [
+              {
+                "record": "kb/research/food/collection.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Machha_Besara_(_ମାଛ_ବେସର_).jpg",
+                "creator": "Kumarnihar",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "changes": "Resized without enlargement and compressed to WebP. No scene alteration; derivative retained under the same ShareAlike licence."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/food/mahaprasad-pots.webp": {
+            "known_records": [
+              {
+                "record": "kb/research/food/collection.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Jagannath_Puri_Mahaprasadam_01.JPG",
+                "creator": "Yuv103m",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                "changes": "Resized and converted to WebP; displayed crops may vary with screen size. Image remains under its stated licence."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/food/ou-khatta.webp": {
+            "known_records": [
+              {
+                "record": "kb/research/food/collection.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Ou_Khota_or_Ou_Khata.jpg",
+                "creator": "Subhashish Panigrahi",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                "changes": "Resized and converted to WebP; image remains under its stated licence."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/food/pakhala-tomato-poda.webp": {
+            "known_records": [
+              {
+                "record": "kb/research/food/collection.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Pakhala_with_assorted_side_dishes_03.jpg",
+                "creator": "Subhashish Panigrahi",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                "changes": "Resized and converted to WebP; image remains under its stated licence."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/food/poda-pitha.webp": {
+            "known_records": [
+              {
+                "record": "kb/research/food/collection.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Poda_Pitha.JPG",
+                "creator": "Udipta876",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "changes": "Aspect-preserving resize and WebP encoding; no creative edits. Display framing may crop edges. Resized image remains CC BY-SA 4.0."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/food/prawn-curry-context.webp": {
+            "known_records": [
+              {
+                "record": "kb/research/food/collection.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Homemade_prawn_curry.jpg",
+                "creator": "Asifaminvb",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                "changes": "Resized and converted to WebP; displayed crops may vary with screen size. Image remains under its stated licence."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/food/tala-pitha.webp": {
+            "known_records": [
+              {
+                "record": "kb/research/food/collection.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Tala_Poda_Pitha.jpg",
+                "creator": "Sangram Keshari Senapati",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                "changes": "Resized and converted to WebP; image remains under its stated licence."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/food/tomato-poda-meal-alternate.webp": {
+            "known_records": [
+              {
+                "record": "kb/research/food/collection.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Pakhala_with_assorted_side_dishes_02.jpg",
+                "creator": "Subhashish Panigrahi",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "changes": "Aspect-preserving resize and WebP compression; no scene alteration. Responsive display framing may crop the edges. Image remains CC BY-SA 4.0."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/regions/chandipur-sunset.jpg": {
+            "known_records": [
+              {
+                "record": "kb/research/food/collection.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Sunset_at_Chandipur_Sea_Beach,_Odisha.jpg",
+                "creator": "Nihar.race",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "changes": "Wikimedia 1280px rendition retained; no creative edits."
+              },
+              {
+                "record": "kb/research/destinations/regions.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Sunset_at_Chandipur_Sea_Beach,_Odisha.jpg",
+                "creator": "Nihar.race",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "changes": "Wikimedia 1280px rendition; responsive display may crop the view. Displayed adaptations remain CC BY-SA 4.0."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/regions/cuttack-dahibara.webp": {
+            "known_records": [
+              {
+                "record": "kb/research/food/collection.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Dahibara-aludam.jpg",
+                "creator": "Subhashish Panigrahi",
+                "license": "CC BY-SA 3.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                "changes": "Resized and WebP-compressed. Responsive display may crop the view. Adaptations retain the stated share-alike licence."
+              },
+              {
+                "record": "kb/research/destinations/regions.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Dahibara-aludam.jpg",
+                "creator": "Subhashish Panigrahi",
+                "license": "CC BY-SA 3.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                "changes": "Resized and WebP-compressed. Responsive display may crop the view. Adaptations retain the stated share-alike licence."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/regions/pahala-rasagola.webp": {
+            "known_records": [
+              {
+                "record": "kb/research/food/collection.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Rasagolla.JPG",
+                "creator": "Archbik",
+                "license": "Public domain (author release)",
+                "license_url": "https://commons.wikimedia.org/wiki/File:Rasagolla.JPG#Licensing",
+                "changes": "Aspect-preserving resize and WebP compression; no creative edits. Responsive framing may crop the view."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          }
+        },
+        "card_differences": [
+          {
+            "live": {
+              "text": "Across Odisha Poda pitha ↗ A browned surface, a cut slice, a pause before sharing. Some food stories are worth waiting for. Save to my journey + Enable JavaScript to save a journey, or print this page from your browser.",
+              "links": [
+                "/food/poda-pitha/"
+              ],
+              "images": [
+                "/images/food/poda-pitha.webp"
+              ]
+            },
+            "existing_dist": {
+              "text": "Across Odisha Poda pitha ↗ A browned surface, a cut slice, a pause before sharing. Some food stories are worth waiting for. Save to my journey + Enable JavaScript to save a journey, or print this page from your browser.",
+              "links": [
+                "/food/poda-pitha/"
+              ],
+              "images": [
+                "/images/food/poda-pitha-alternate.webp"
+              ]
+            }
+          }
+        ]
       },
       "/things-to-do/": {
         "url": "https://projectodisha.org/things-to-do/",
@@ -473,7 +930,133 @@
         "credit_disclosure_count": 1,
         "existing_dist_coast_sha256": "b00e2e53505a68a7ff1620277fdc8490faa129966c7defde53cc8411500b2746",
         "existing_dist_matches_live": false,
-        "classification": "utility planning directory; exclude from article presentation rollout, retain inherited content/media obligations"
+        "classification": "utility planning directory; exclude from article presentation rollout, retain inherited content/media obligations",
+        "live_cards_equal_existing_dist": true,
+        "robots_live": [
+          "noindex, follow"
+        ],
+        "robots_existing_dist": [
+          "noindex, nofollow"
+        ],
+        "media_attribution_check": {
+          "/images/chilika/chilika-lake-hellohappy.webp": {
+            "known_records": [
+              {
+                "record": "kb/research/stories/narratives/chilika.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Chilika_Lake_(56468).jpg",
+                "creator": "Hellohappy",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "changes": "Full-frame resize and WebP compression for delivery; original retained. No generated or removed elements. Displayed adaptations retain the source licence."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/destinations/kalijai.jpg": {
+            "known_records": [
+              {
+                "record": "kb/research/destinations/chilika.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Kalijai_temple_Chilika.jpg",
+                "creator": "Aruni Nayak",
+                "license": "CC BY-SA 3.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+                "changes": "Wikimedia Commons resized rendition; no creative edits. Display framing may crop the edges."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/destinations/mangalajodi-boat.jpg": {
+            "known_records": [
+              {
+                "record": "kb/research/destinations/chilika.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Mangalajodi_Ecotourism.jpg",
+                "creator": "Neerakiran",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "changes": "Wikimedia Commons 1280-pixel derivative; no additional image edits. Responsive display framing may crop the view."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/jobra/courtyard.webp": {
+            "known_records": [
+              {
+                "record": "kb/research/destinations/regions.json",
+                "source": "https://commons.wikimedia.org/wiki/File:The_courtyard_inside_the_Odisha_State_Maritime_Museum.jpg",
+                "creator": "Gouravmoy Mohanty",
+                "license": "CC BY-SA 3.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+                "changes": "WebP compression at original dimensions; no crop, upscaling or recolouring. Reuse and adaptations retain CC BY-SA 3.0."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/kala-bhoomi/grounds.webp": {
+            "known_records": [
+              {
+                "record": "kb/research/destinations/regions.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Kala_Bhoomi_-_31.jpg",
+                "creator": "SUDEEP PRAMANIK",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "changes": "WebP compression at original dimensions; no crop, upscaling or recolouring. Reuse and adaptations retain CC BY-SA 4.0."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/regions/cuttack-filigree.webp": {
+            "known_records": [
+              {
+                "record": "kb/research/destinations/regions.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Cuttack_Tarkasi_(silver_filigree)_pendant_%26_ear_rings.jpg",
+                "creator": "ଆଶୁତୋଷ କର",
+                "license": "CC BY-SA 3.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                "changes": "Resized and WebP-compressed. Responsive display may crop the view. Adaptations retain the stated share-alike licence."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/regions/cuttack-netaji.webp": {
+            "known_records": [
+              {
+                "record": "kb/research/destinations/regions.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Netaji_Birth_Place_Museum,_Cuttack,_Odisha,_India.jpg",
+                "creator": "Subhashish Panigrahi",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                "changes": "Resized and WebP-compressed. Responsive display may crop the view. Adaptations retain the stated share-alike licence."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/regions/fresco-procession.jpg": {
+            "known_records": [
+              {
+                "record": "kb/research/destinations/regions.json",
+                "source": "/stories/bhubaneswar-fresco/",
+                "creator": "Ahimanikya Satapathy",
+                "license": "Photographer-authorised Project Odisha display; underlying mural rights remain unverified",
+                "license_url": "/stories/bhubaneswar-fresco/#credits",
+                "changes": "Unmodified copy of IMG_1262.JPG. Responsive display may crop the edges. Mural artist and present condition not established."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/regions/mayurbhanj-chhau.webp": {
+            "known_records": [
+              {
+                "record": "kb/research/destinations/regions.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Mayurbhanj_Chhau.jpg",
+                "creator": "Ramesh Lalwani",
+                "license": "CC BY 2.0",
+                "license_url": "https://creativecommons.org/licenses/by/2.0/",
+                "changes": "Resized and WebP-compressed from the original; no generated elements. Full-frame display requested."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          }
+        }
       },
       "/stay-areas/": {
         "url": "https://projectodisha.org/stay-areas/",
@@ -505,7 +1088,115 @@
         "credit_disclosure_count": 1,
         "existing_dist_coast_sha256": "9a96d2f798ec629eb79589af17a8fbefa9cce1f33ea01f9fbcb1001a9e8bfa6d",
         "existing_dist_matches_live": false,
-        "classification": "utility planning directory; exclude from article presentation rollout, retain inherited content/media obligations"
+        "classification": "utility planning directory; exclude from article presentation rollout, retain inherited content/media obligations",
+        "live_cards_equal_existing_dist": true,
+        "robots_live": [
+          "noindex, follow"
+        ],
+        "robots_existing_dist": [
+          "noindex, nofollow"
+        ],
+        "media_attribution_check": {
+          "/images/chilika/chilika-lake-hellohappy.webp": {
+            "known_records": [
+              {
+                "record": "kb/research/stories/narratives/chilika.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Chilika_Lake_(56468).jpg",
+                "creator": "Hellohappy",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "changes": "Full-frame resize and WebP compression for delivery; original retained. No generated or removed elements. Displayed adaptations retain the source licence."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/destinations/mangalajodi.webp": {
+            "known_records": [
+              {
+                "record": "kb/research/destinations/chilika.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Birds_of_magicial_Mangalajodi.jpg",
+                "creator": "Mamta Parmar",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "changes": "Full-frame resize and WebP compression for delivery; original retained. No generated or removed elements. Displayed adaptations retain the source licence."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/regions/barabati.jpg": {
+            "known_records": [
+              {
+                "record": "kb/research/destinations/regions.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Entrance_to_the_Barabati_fort.jpg",
+                "creator": "Rahul66wiki",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                "changes": "Resized and JPEG-compressed for the website. Responsive display may crop the view. Adaptations retain the stated share-alike licence."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/regions/barehipani.jpg": {
+            "known_records": [
+              {
+                "record": "kb/research/destinations/regions.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Similipal_(2).jpg",
+                "creator": "Wiki GSD",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "changes": "Original file retained; responsive display may crop the view. Displayed adaptations remain CC BY-SA 4.0."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/regions/chandipur-sunset.jpg": {
+            "known_records": [
+              {
+                "record": "kb/research/food/collection.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Sunset_at_Chandipur_Sea_Beach,_Odisha.jpg",
+                "creator": "Nihar.race",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "changes": "Wikimedia 1280px rendition retained; no creative edits."
+              },
+              {
+                "record": "kb/research/destinations/regions.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Sunset_at_Chandipur_Sea_Beach,_Odisha.jpg",
+                "creator": "Nihar.race",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "changes": "Wikimedia 1280px rendition; responsive display may crop the view. Displayed adaptations remain CC BY-SA 4.0."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/regions/mukteswar.jpg": {
+            "known_records": [
+              {
+                "record": "kb/research/destinations/regions.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Mukteshwar_temple_Side_Profile.jpg",
+                "creator": "Bikashrd",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                "changes": "Resized and JPEG-compressed for the website. Responsive display may crop the view. Adaptations retain the stated share-alike licence."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          },
+          "/images/regions/puri-beach.jpg": {
+            "known_records": [
+              {
+                "record": "kb/research/destinations/regions.json",
+                "source": "https://commons.wikimedia.org/wiki/File:Puri_Beach_(8748084672).jpg",
+                "creator": "Aleksandr Zykov from Russia",
+                "license": "CC BY-SA 2.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                "changes": "Resized and JPEG-compressed for the website. Responsive display may crop the view. Adaptations retain the stated share-alike licence."
+              }
+            ],
+            "source_license_creator_present_in_hub_credit_disclosure": true
+          }
+        }
       }
     }
   },
@@ -523,5 +1214,48 @@
     "publication": "No site edits or deployment; four live page checks are observations of the existing deployment.",
     "previous_receipt": "Observed PR395 MERGED at2026-10-21T01:27:32Z, reviewed head c54ba45efb89fbdfda3a6b865765f3c483f1b9e1, CI39503090863 success."
   },
-  "next_action": "Separate Drishti review, then passing PR checks and observed merge. Resume the next eligible queued article after integration."
+  "next_action": "Separate Drishti review, then passing PR checks and observed merge. Resume the next eligible queued article after integration.",
+  "ci_failure": {
+    "run": 39534031454,
+    "head": "05a40a6766a6b231bf32aef8b33c316015086ecc",
+    "reason": "Three ownership test fixtures dereference null current_article while validator accepts idle/no-claim state. Samanta assigned bounded fixture repair.",
+    "resolution": "Explicit active test fixtures plus idle/no-claim acceptance; all10 ownership tests pass locally. Await CI rerun."
+  },
+  "attachment": "PR399 attachment attempted; app thread attachment identity count exceeds100. URL retained in record.",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/399",
+  "test_fixture_repair": {
+    "input_head": "05a40a6766a6b231bf32aef8b33c316015086ecc",
+    "status": "complete_frozen_for_coordinator",
+    "changed_files": [
+      "tools/test_team_assignments.py"
+    ],
+    "sha256": "c7b31dbd3bb2f5c3a2d3e1971860c58d3a523b785f7a557831250ec397733e5d",
+    "cause": "Ownership negative tests dereferenced operations.current_article, which legitimately becomes null during idle classification.",
+    "changes": [
+      "Added explicit two-row active ownership fixture independent of current runtime article and asserted it is valid before mutation.",
+      "Added positive acceptance coverage for an explicit active claim and idle no-claim state.",
+      "Second active article, missing claim and mismatched route tests use fixture; exact rejection messages are checked.",
+      "Removed unused copy import; validator and canonical records unchanged."
+    ],
+    "checks": [
+      {
+        "command": "python3 tools/test_team_assignments.py",
+        "result": "PASS",
+        "tests": 10
+      },
+      {
+        "command": "python3 tools/check_team_assignments.py",
+        "result": "PASS",
+        "errors": []
+      },
+      {
+        "command": "git diff --check",
+        "result": "PASS"
+      }
+    ],
+    "limits": [
+      "No CI rerun, build, commit, shared-record edits or publishing performed.",
+      "Fixture tests validate ownership-record semantics, not actual distributed locking or human review."
+    ]
+  }
 }
