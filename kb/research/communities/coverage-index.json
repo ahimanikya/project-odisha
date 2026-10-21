@@ -1,0 +1,3893 @@
+{
+  "schema_version": 1,
+  "coverage": {
+    "exhaustive": false,
+    "scope": "Working source-label inventory and editorial topic map for Odisha caste and community histories. Source-listed groups are not automatically distinct castes or equivalent communities.",
+    "limits": [
+      "Administrative lists serve different purposes and are not a complete social history.",
+      "Names and legal categories may change; this index is not eligibility guidance.",
+      "Historical labels may be externally assigned; self-identification and regional scope require research.",
+      "All216SEBCrows extracted but full manual source-to-row proofreading remains.",
+      "ST,SC,centralOBC not comprehensively row-extracted in this bounded task.",
+      "No exhaustive all-Odisha caste count; no present-day legal classification opinion.",
+      "Current residents/community self-identification and origin traditions require source-specific research."
+    ],
+    "counting_note": "Coverage planning and index maintenance receive zero substantive credit toward the 500-item programme."
+  },
+  "sources": [
+    {
+      "id": "pod-paika-published",
+      "title": "Project Odisha · Paika: service, community and Odia heritage",
+      "url": "https://projectodisha.org/communities/paika/",
+      "accessed_on": "2026-10-22",
+      "scope": "Existing published article and its mapped historical references; seed relationships only.",
+      "status": "inspected",
+      "limits": [
+        "Secondary project synthesis; not independent corroboration of its cited primary research.",
+        "No complete community enumeration or legal classification."
+      ]
+    },
+    {
+      "id": "odisha-community-list-landing",
+      "title": "Odisha department: List of Communities",
+      "url": "https://stsc.odisha.gov.in/en/about-us/list-of-communities",
+      "accessed_on": "2026-10-22",
+      "scope": "Inventory of four current download links on the departmental page",
+      "status": "inspected",
+      "limits": [
+        "Landing page links administrative lists, not an exhaustive census of Odisha community identities."
+      ]
+    },
+    {
+      "id": "odisha-st-linked-2024",
+      "title": "List of Scheduled Tribes (department-linked PDF)",
+      "url": "https://stsc.odisha.gov.in/sites/default/files/2024-03/ST%20Community%20List%20Final.pdf",
+      "accessed_on": "2026-10-22",
+      "scope": "Two-page linked PDF; header and numbered entries1–64 inspected through original PDF extraction; only selected source observation retained",
+      "status": "inspected",
+      "limits": [
+        "Header cites Act6 of2024 dated15.02.2024 and state notification2232 dated20.02.2024; this is stated amendment context, not independent present-day legal validation.",
+        "Serial numbering is not a count of unique historical identities; grouped names and regional qualifiers must remain intact.",
+        "No legal entitlement determination or automatic alias equivalence."
+      ]
+    },
+    {
+      "id": "odisha-sc-linked-2024",
+      "title": "List of Scheduled Castes (department-linked PDF)",
+      "url": "https://stsc.odisha.gov.in/sites/default/files/2024-03/SC%20Community%20List%20Final.pdf",
+      "accessed_on": "2026-10-22",
+      "scope": "Three-page linked PDF; header and serials1–95 inspected, including deleted entries; selected observations retained",
+      "status": "inspected",
+      "limits": [
+        "Header cites Act6 of2024 dated15.02.2024 and notification2232 dated20.02.2024; later changes not independently audited.",
+        "Numbered rows include deletion notices, not95 currently listed communities.",
+        "District restrictions and amendment text must accompany labels; no entitlement determination."
+      ]
+    },
+    {
+      "id": "odisha-sebc-linked-20240119",
+      "title": "List of SEBC as per Notification of Government of Odisha (19January2024 filename)",
+      "url": "https://stsc.odisha.gov.in/sites/default/files/2024-01/216%20REVISED%20LIST%20OF%20SEBC%20AS%20PER%20NOTIFICATION%20OF%20GOVERNMENT%20OF%20ODISHA%2019.01.2024%20Final.pdf",
+      "accessed_on": "2026-10-22",
+      "scope": "All216 numbered rows extracted with page-continuation segments and verbatim adjacent qualification cells from20-page original PDF",
+      "status": "inspected",
+      "limits": [
+        "Filename and PDF creation/modification metadata say19January2024; individual rows carry earlier notification dates. Do not confuse capture/compilation date with every row notification date.",
+        "216 is numbered source rows, including deleted labels and repeated/grouped names, not216 unique communities or proof of current legal status.",
+        "Extraction preserves newline text but cannot reproduce typography; raw_segments retain page and qualifier association.",
+        "OnlyPDF13–14 containing row138 visually checked in this pass; all rows have table-structure checks, not full manual proofreading.",
+        "-do- and empty continuation qualifiers preserved literally; no inferred expansion or automatic legal interpretation.",
+        "No automatic comma/slash splitting or aliases."
+      ],
+      "capture": {
+        "bytes": 420676,
+        "sha256": "c9007da5b4b1d25b614dc2cca086505ab5ef6b1951ee95cc09980a9c5c5efddb",
+        "pages": 20,
+        "pdf_creation_date": "D:20240119123138+05'30'",
+        "extraction": "pdfplumber table cells, main table per page; row-number continuity1–216",
+        "visual_checks": [
+          "PDF13",
+          "PDF14"
+        ]
+      }
+    },
+    {
+      "id": "odisha-obc-central-linked",
+      "title": "Odisha OBC List (Central), department-linked PDF",
+      "url": "https://stsc.odisha.gov.in/sites/default/files/2021-09/OBC_List_Central_Web-upload_.pdf",
+      "accessed_on": "2026-10-22",
+      "scope": "Six-page original linkedPDF, serials1–200 including Nil/deletion rows; selected Paiko/Chasa source observations retained",
+      "status": "inspected",
+      "limits": [
+        "2021-09 is upload-path component, not verified edition date. Rows include individual central notifications, including a2017deletion.",
+        "Current NCBC amendments and legal eligibility not independently audited.",
+        "StateSEBC and centralOBC are separate source inventories; do not equate their row numbers or grouped labels.",
+        "200 serial numbers include Nil/deleted slots; not200 unique communities."
+      ]
+    }
+  ],
+  "observations": [
+    {
+      "id": "paika-service",
+      "source_id": "pod-paika-published",
+      "locator": "#meaning",
+      "raw_label": "Paika",
+      "context": "Military service across communities; the article treats a Khurda service identity, not one uniform caste."
+    },
+    {
+      "id": "khandayat-service",
+      "source_id": "pod-paika-published",
+      "locator": "#khandayat",
+      "raw_label": "Khandayat",
+      "context": "Named in late-eighteenth-century Garh Manitri records discussed by Tanabe. Connection to Paika service is not identity equivalence."
+    },
+    {
+      "id": "paiko-regional",
+      "source_id": "pod-paika-published",
+      "locator": "#regional:Paiko",
+      "raw_label": "Paiko",
+      "context": "Regional occupational and community label discussed through the Koraput Gazetteer; scope unresolved for distinct regional groups."
+    },
+    {
+      "id": "kottia-paiko-regional",
+      "source_id": "pod-paika-published",
+      "locator": "#regional:Kottia-Paiko",
+      "raw_label": "Kottia Paiko",
+      "context": "Separately named in the gazetteer discussion; no automatic merger with Paika or other Paiko groups."
+    },
+    {
+      "id": "sebc-row-001",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 1; PDF pages 1",
+      "raw_label": "Agharia,\nAgaria,\nAghria",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 1,
+      "raw_segments": [
+        {
+          "page": 1,
+          "raw_label": "Agharia,\nAgaria,\nAghria",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-002",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 2; PDF pages 1",
+      "raw_label": "Aranedan",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 2,
+      "raw_segments": [
+        {
+          "page": 1,
+          "raw_label": "Aranedan",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-003",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 3; PDF pages 1",
+      "raw_label": "Asur",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 3,
+      "raw_segments": [
+        {
+          "page": 1,
+          "raw_label": "Asur",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-004",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 4; PDF pages 1",
+      "raw_label": "Badhai,\nBarhai,\nBindhania,\nSutradhar,\nBadhira,\nBadhria\nBadhei,\nBindhani/\nBindani",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 4,
+      "raw_segments": [
+        {
+          "page": 1,
+          "raw_label": "Badhai,\nBarhai,\nBindhania,\nSutradhar,\nBadhira,\nBadhria",
+          "raw_qualifier": "-do-"
+        },
+        {
+          "page": 1,
+          "raw_label": "Badhei,\nBindhani/\nBindani",
+          "raw_qualifier": "No.17409, dt.06.10.2022"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-005",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 5; PDF pages 1",
+      "raw_label": "Badasuda",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 5,
+      "raw_segments": [
+        {
+          "page": 1,
+          "raw_label": "Badasuda",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-006",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 6; PDF pages 1",
+      "raw_label": "Baipari",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 6,
+      "raw_segments": [
+        {
+          "page": 1,
+          "raw_label": "Baipari",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-007",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 7; PDF pages 1",
+      "raw_label": "Baira,\nBarai",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 7,
+      "raw_segments": [
+        {
+          "page": 1,
+          "raw_label": "Baira,\nBarai",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-008",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 8; PDF pages 1",
+      "raw_label": "Bairagi",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 8,
+      "raw_segments": [
+        {
+          "page": 1,
+          "raw_label": "Bairagi",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-009",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 9; PDF pages 1",
+      "raw_label": "Bariji or Barui,\nBaraji,\nBaroi\nBaraji Bangali,\nBarohi",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 9,
+      "raw_segments": [
+        {
+          "page": 1,
+          "raw_label": "Bariji or Barui,",
+          "raw_qualifier": "-do-"
+        },
+        {
+          "page": 1,
+          "raw_label": "Baraji,\nBaroi",
+          "raw_qualifier": "No.17409, dt.06.10.2022"
+        },
+        {
+          "page": 1,
+          "raw_label": "Baraji Bangali,\nBarohi",
+          "raw_qualifier": "No.1760, dt.03.02.2023"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-010",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 10; PDF pages 2",
+      "raw_label": "Barika,\nBhandari,\nNapit,\nNai",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 10,
+      "raw_segments": [
+        {
+          "page": 2,
+          "raw_label": "Barika,\nBhandari,\nNapit,\nNai",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-011",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 11; PDF pages 2",
+      "raw_label": "Bellara",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 11,
+      "raw_segments": [
+        {
+          "page": 2,
+          "raw_label": "Bellara",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-012",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 12; PDF pages 2",
+      "raw_label": "Bentkar",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 12,
+      "raw_segments": [
+        {
+          "page": 2,
+          "raw_label": "Bentkar",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-013",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 13; PDF pages 2",
+      "raw_label": "Bhatua",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 13,
+      "raw_segments": [
+        {
+          "page": 2,
+          "raw_label": "Bhatua",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-014",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 14; PDF pages 2, 3",
+      "raw_label": "Bania,\nPutulibandha Vaisya\nSunari,\nSunaree,\nViswa Brahman,\nPutuli Bania,\nVasya Bania,\nVashya,\nVashya,\nVashya Bania,\nVaishya Bania,\nVaishya Banik,\nPotali Bania,\nGandha Banik,\nVaishya Putuli Bania\nPaudar Bania,\nPodar Bania\nKamila,\nAstalohi,\nAstalohi Karmakar\nSubarna Banik\nSunari Bania\nSwarnakar\nSubarna Bania\nSunari Banik\nAstalohi Bania\nSwarnakar Bania\nBaisya Astalohi Karmakar\nAshtralohi/\nAshtalohi Karmakar/\nViswa Brahman (Sunari)/\nSwaransilpi",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 14,
+      "raw_segments": [
+        {
+          "page": 2,
+          "raw_label": "Bania,\nPutulibandha Vaisya",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        },
+        {
+          "page": 2,
+          "raw_label": "Sunari,\nSunaree,\nViswa Brahman,\nPutuli Bania,\nVasya Bania,\nVashya,\nVashya,\nVashya Bania,\nVaishya Bania,\nVaishya Banik,\nPotali Bania,\nGandha Banik,\nVaishya Putuli Bania",
+          "raw_qualifier": "No. 18222 dt.29.07.1996 (W)"
+        },
+        {
+          "page": 2,
+          "raw_label": "Paudar Bania,\nPodar Bania",
+          "raw_qualifier": "No.26118 dt.05.11.1996 (W)"
+        },
+        {
+          "page": 2,
+          "raw_label": "Kamila,\nAstalohi,\nAstalohi Karmakar\nSubarna Banik\nSunari Bania\nSwarnakar\nSubarna Bania",
+          "raw_qualifier": "No.8808 dt.08.04.1997 (W)"
+        },
+        {
+          "page": 3,
+          "raw_label": "Sunari Banik",
+          "raw_qualifier": ""
+        },
+        {
+          "page": 3,
+          "raw_label": "Astalohi Bania\nSwarnakar Bania\nBaisya Astalohi Karmakar",
+          "raw_qualifier": "No. 479 11.10.2003 (W)"
+        },
+        {
+          "page": 3,
+          "raw_label": "Ashtralohi/\nAshtalohi Karmakar/\nViswa Brahman (Sunari)/\nSwaransilpi",
+          "raw_qualifier": "No.8749, dt.04.05.2023"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-015",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 15; PDF pages 3",
+      "raw_label": "Bhogta",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 15,
+      "raw_segments": [
+        {
+          "page": 3,
+          "raw_label": "Bhogta",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-016",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 16; PDF pages 3",
+      "raw_label": "Bhokta",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 16,
+      "raw_segments": [
+        {
+          "page": 3,
+          "raw_label": "Bhokta",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-017",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 17; PDF pages 3",
+      "raw_label": "Bhujan",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 17,
+      "raw_segments": [
+        {
+          "page": 3,
+          "raw_label": "Bhujan",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-018",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 18; PDF pages 3",
+      "raw_label": "Bhuliya",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 18,
+      "raw_segments": [
+        {
+          "page": 3,
+          "raw_label": "Bhuliya",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-019",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 19; PDF pages 3",
+      "raw_label": "Birjhia\nDhakhada",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 19,
+      "raw_segments": [
+        {
+          "page": 3,
+          "raw_label": "Birjhia",
+          "raw_qualifier": "-do-"
+        },
+        {
+          "page": 3,
+          "raw_label": "Dhakhada",
+          "raw_qualifier": "No.8749, dt.04.05.2023"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-020",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 20; PDF pages 3",
+      "raw_label": "Bissoy-Barangi Jodia\nBennangi,\nDaduva,\nFrangi,\nHollar,\nJhoriya,\nKollai,\nKonde,\nParanga,\nPengajodia,\nSodojodia & Takoara",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 20,
+      "raw_segments": [
+        {
+          "page": 3,
+          "raw_label": "Bissoy-Barangi Jodia\nBennangi,\nDaduva,\nFrangi,\nHollar,\nJhoriya,\nKollai,\nKonde,\nParanga,\nPengajodia,\nSodojodia & Takoara",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-021",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 21; PDF pages 3",
+      "raw_label": "Binedhanies",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 21,
+      "raw_segments": [
+        {
+          "page": 3,
+          "raw_label": "Binedhanies",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-022",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 22; PDF pages 3",
+      "raw_label": "Bogada",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 22,
+      "raw_segments": [
+        {
+          "page": 3,
+          "raw_label": "Bogada",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-023",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 23; PDF pages 3",
+      "raw_label": "Bolodhia",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 23,
+      "raw_segments": [
+        {
+          "page": 3,
+          "raw_label": "Bolodhia",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-024",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 24; PDF pages 3, 4",
+      "raw_label": "Buruashankar/\nBarnaSuankar",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 24,
+      "raw_segments": [
+        {
+          "page": 3,
+          "raw_label": "Buruashankar/",
+          "raw_qualifier": "-do-"
+        },
+        {
+          "page": 4,
+          "raw_label": "BarnaSuankar",
+          "raw_qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-025",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 25; PDF pages 4",
+      "raw_label": "Byagari",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 25,
+      "raw_segments": [
+        {
+          "page": 4,
+          "raw_label": "Byagari",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-026",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 26; PDF pages 4",
+      "raw_label": "Chaupal",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 26,
+      "raw_segments": [
+        {
+          "page": 4,
+          "raw_label": "Chaupal",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-027",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 27; PDF pages 4",
+      "raw_label": "Chasa\nPradhan,\nPadhan,\nOdapadhan,\nOdachasa",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 27,
+      "raw_segments": [
+        {
+          "page": 4,
+          "raw_label": "Chasa",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        },
+        {
+          "page": 4,
+          "raw_label": "Pradhan,\nPadhan,\nOdapadhan,\nOdachasa",
+          "raw_qualifier": "No. 21863 dt.25.08.1995 (W)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-028",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 28; PDF pages 4",
+      "raw_label": "Chero",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 28,
+      "raw_segments": [
+        {
+          "page": 4,
+          "raw_label": "Chero",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-029",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 29; PDF pages 4",
+      "raw_label": "Cheruman",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 29,
+      "raw_segments": [
+        {
+          "page": 4,
+          "raw_label": "Cheruman",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-030",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 30; PDF pages 4",
+      "raw_label": "Chikbaraik",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 30,
+      "raw_segments": [
+        {
+          "page": 4,
+          "raw_label": "Chikbaraik",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-031",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 31; PDF pages 4",
+      "raw_label": "Chik",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 31,
+      "raw_segments": [
+        {
+          "page": 4,
+          "raw_label": "Chik",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-032",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 32; PDF pages 4",
+      "raw_label": "Chitra,\nChitrakar,\nChitrasilpi",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 32,
+      "raw_segments": [
+        {
+          "page": 4,
+          "raw_label": "Chitra,\nChitrakar,\nChitrasilpi",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-033",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 33; PDF pages 4",
+      "raw_label": "Churia",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 33,
+      "raw_segments": [
+        {
+          "page": 4,
+          "raw_label": "Churia",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-034",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 34; PDF pages 4",
+      "raw_label": "Dahalia",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 34,
+      "raw_segments": [
+        {
+          "page": 4,
+          "raw_label": "Dahalia",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-035",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 35; PDF pages 4",
+      "raw_label": "Darji",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 35,
+      "raw_segments": [
+        {
+          "page": 4,
+          "raw_label": "Darji",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-036",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 36; PDF pages 4",
+      "raw_label": "Damal",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 36,
+      "raw_segments": [
+        {
+          "page": 4,
+          "raw_label": "Damal",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-037",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 37; PDF pages 4",
+      "raw_label": "Dangua",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 37,
+      "raw_segments": [
+        {
+          "page": 4,
+          "raw_label": "Dangua",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-038",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 38; PDF pages 4",
+      "raw_label": "Dehuri",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 38,
+      "raw_segments": [
+        {
+          "page": 4,
+          "raw_label": "Dehuri",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-039",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 39; PDF pages 4",
+      "raw_label": "Dhakkada\nDhakhada",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 39,
+      "raw_segments": [
+        {
+          "page": 4,
+          "raw_label": "Dhakkada",
+          "raw_qualifier": "-do-"
+        },
+        {
+          "page": 4,
+          "raw_label": "Dhakhada",
+          "raw_qualifier": "No.8749, dt.04.05.2023"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-040",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 40; PDF pages 4",
+      "raw_label": "Dhaner",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 40,
+      "raw_segments": [
+        {
+          "page": 4,
+          "raw_label": "Dhaner",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-041",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 41; PDF pages 4",
+      "raw_label": "Dumala,\nDumal",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 41,
+      "raw_segments": [
+        {
+          "page": 4,
+          "raw_label": "Dumala,\nDumal",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-042",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 42; PDF pages 4",
+      "raw_label": "Ghatwar",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 42,
+      "raw_segments": [
+        {
+          "page": 4,
+          "raw_label": "Ghatwar",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-043",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 43; PDF pages 4",
+      "raw_label": "Girigiris",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 43,
+      "raw_segments": [
+        {
+          "page": 4,
+          "raw_label": "Girigiris",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-044",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 44; PDF pages 5",
+      "raw_label": "Godda",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 44,
+      "raw_segments": [
+        {
+          "page": 5,
+          "raw_label": "Godda",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-045",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 45; PDF pages 5, 6",
+      "raw_label": "Gola,\nGolla\nGope\nSadgope\nAhir,\nGour,\nGouda\nGoudo\nMekala Golla\nPuunu Golla\nYadav,\nMathurapuria Gouda\nGopapuria,\nGouda,\nNanda Gouda,\nJhadua Gouda,\nDumala Gouda,\nNaria Gouda,\nBashya Gopa,\nMaha Bhoi,\nGendu,\nNepalies,\nGorkha\nGopal,\nSholakhandia,\nMagadha Gouda\nLaxminarayan Gola,\nGoudia Gola\nMahakul,\nMahakud\nGopal Baishnab,\nKalanjia Gouda,\nKaranjia Gouda,\nKanoujia Gouda,\nKanja Gouda\nGop,\nSadgop,\nGopala,\nDumal Gouda,\nGopapuria Gouda",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 45,
+      "raw_segments": [
+        {
+          "page": 5,
+          "raw_label": "Gola,\nGolla\nGope\nSadgope\nAhir,\nGour,\nGouda\nGoudo\nMekala Golla\nPuunu Golla\nYadav,\nMathurapuria Gouda\nGopapuria,\nGouda,\nNanda Gouda,\nJhadua Gouda,\nDumala Gouda,\nNaria Gouda,\nBashya Gopa,\nMaha Bhoi,\nGendu,\nNepalies,\nGorkha",
+          "raw_qualifier": "No. 25455 dt.10.09.1993(TW)"
+        },
+        {
+          "page": 5,
+          "raw_label": "Gopal,\nSholakhandia,\nMagadha Gouda",
+          "raw_qualifier": "No. 34905 dt. 30.11.1994(W)"
+        },
+        {
+          "page": 5,
+          "raw_label": "Laxminarayan Gola,\nGoudia Gola",
+          "raw_qualifier": "No. 32714 dt. 16.12.1995(W)"
+        },
+        {
+          "page": 5,
+          "raw_label": "Mahakul,\nMahakud",
+          "raw_qualifier": "No. 18222 dt. 29.07.1996(W)"
+        },
+        {
+          "page": 5,
+          "raw_label": "Gopal Baishnab,",
+          "raw_qualifier": ""
+        },
+        {
+          "page": 6,
+          "raw_label": "Kalanjia Gouda,\nKaranjia Gouda,\nKanoujia Gouda,\nKanja Gouda",
+          "raw_qualifier": "No. 529 dt. 24.12.2004\n(M&BCW)"
+        },
+        {
+          "page": 6,
+          "raw_label": "Gop,\nSadgop,\nGopala,\nDumal Gouda,\nGopapuria Gouda",
+          "raw_qualifier": "No.8749, dt.04.05.2023"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-046",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 46; PDF pages 6",
+      "raw_label": "Gudia or Guria,\nGurja,\nGunju\nGanju",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 46,
+      "raw_segments": [
+        {
+          "page": 6,
+          "raw_label": "Gudia or Guria,\nGurja,\nGunju",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        },
+        {
+          "page": 6,
+          "raw_label": "Ganju",
+          "raw_qualifier": "No.23003, dt.04.11.2023"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-047",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 47; PDF pages 6",
+      "raw_label": "Gosangi",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 47,
+      "raw_segments": [
+        {
+          "page": 6,
+          "raw_label": "Gosangi",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-048",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 48; PDF pages 6",
+      "raw_label": "Gondu-Bato,\nBhirthya,\nDudho Kouriya,\nHato,\nJatako,\nJoria\nBudho Kouriya",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 48,
+      "raw_segments": [
+        {
+          "page": 6,
+          "raw_label": "Gondu-Bato,\nBhirthya,\nDudho Kouriya,\nHato,\nJatako,\nJoria",
+          "raw_qualifier": "-do-"
+        },
+        {
+          "page": 6,
+          "raw_label": "Budho Kouriya",
+          "raw_qualifier": "No.8749, dt.04.05.2023"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-049",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 49; PDF pages 6",
+      "raw_label": "Habra",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 49,
+      "raw_segments": [
+        {
+          "page": 6,
+          "raw_label": "Habra",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-050",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 50; PDF pages 6, 7",
+      "raw_label": "Hansi,\nDera,\nDewanga,\nKosta,\nVina,\nTula bhina,\nTanti,\nPatsalia,\nBuna,\nRangani,\nBunakara,\nSalia,\nSukuli\nSaraka,\nSaraka Tanti\nBangali Tanti,\nBangiya Tanti,\nMativansa Tanti,\nAsina Tanti,\nAswina Tanti,\nAshani Tanti,\nAswinna Tanti\nRangani Tanti,\nRangani Tantee,\nRanganee Tantee,\nRangini Tanti\nRangani Hansi,\nDewangulu,\nAmila Tanti\nKusta/\nKustha\nSankhua Tanti,\nGola Tanti,\nLajya Nibaran,\nHansi Tanti\nKostha,\nTulabhina,\nBunakar/Bunakara,\nMatibansa Tanti\nRangini Hansi,\nRanguni Tanti\nBuna Tanti",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 50,
+      "raw_segments": [
+        {
+          "page": 6,
+          "raw_label": "Hansi,\nDera,\nDewanga,\nKosta,\nVina,\nTula bhina,\nTanti,\nPatsalia,\nBuna,\nRangani,",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        },
+        {
+          "page": 7,
+          "raw_label": "Bunakara,\nSalia,\nSukuli",
+          "raw_qualifier": ""
+        },
+        {
+          "page": 7,
+          "raw_label": "Saraka,\nSaraka Tanti",
+          "raw_qualifier": "No. 25958 dt. 09.10.1995(W)"
+        },
+        {
+          "page": 7,
+          "raw_label": "Bangali Tanti,\nBangiya Tanti,\nMativansa Tanti,\nAsina Tanti,\nAswina Tanti,\nAshani Tanti,\nAswinna Tanti",
+          "raw_qualifier": "No. 32714 dt. 16.12.1995(W)"
+        },
+        {
+          "page": 7,
+          "raw_label": "Rangani Tanti,\nRangani Tantee,\nRanganee Tantee,\nRangini Tanti",
+          "raw_qualifier": "No. 18222 dt. 29.07.1996(W)"
+        },
+        {
+          "page": 7,
+          "raw_label": "Rangani Hansi,\nDewangulu,\nAmila Tanti",
+          "raw_qualifier": "No. 592 dt.\n28.11.2003(M&BCW)"
+        },
+        {
+          "page": 7,
+          "raw_label": "Kusta/\nKustha",
+          "raw_qualifier": "No. 529 dt. 24.12.2004\n(M&BCW)"
+        },
+        {
+          "page": 7,
+          "raw_label": "Sankhua Tanti,\nGola Tanti,\nLajya Nibaran,\nHansi Tanti",
+          "raw_qualifier": "No.17409, dt.06.10.2022"
+        },
+        {
+          "page": 7,
+          "raw_label": "Kostha,\nTulabhina,\nBunakar/Bunakara,\nMatibansa Tanti\nRangini Hansi,\nRanguni Tanti",
+          "raw_qualifier": "No.8749, dt.04.05.2023"
+        },
+        {
+          "page": 7,
+          "raw_label": "Buna Tanti",
+          "raw_qualifier": "No.23003, dt.04.11.2023"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-051",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 51; PDF pages 8",
+      "raw_label": "Holeya",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 51,
+      "raw_segments": [
+        {
+          "page": 8,
+          "raw_label": "Holeya",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-052",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 52; PDF pages 8",
+      "raw_label": "Irula",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 52,
+      "raw_segments": [
+        {
+          "page": 8,
+          "raw_label": "Irula",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-053",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 53; PDF pages 8",
+      "raw_label": "Jadapus",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 53,
+      "raw_segments": [
+        {
+          "page": 8,
+          "raw_label": "Jadapus",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-054",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 54; PDF pages 8",
+      "raw_label": "Jaintrapans",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 54,
+      "raw_segments": [
+        {
+          "page": 8,
+          "raw_label": "Jaintrapans",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-055",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 55; PDF pages 8",
+      "raw_label": "Jogi or Yogi",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 55,
+      "raw_segments": [
+        {
+          "page": 8,
+          "raw_label": "Jogi or Yogi",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-056",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 56; PDF pages 8",
+      "raw_label": "Jyotish,\nJyotisha Abadhan,\nJyotish Nayak,",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 56,
+      "raw_segments": [
+        {
+          "page": 8,
+          "raw_label": "Jyotish,\nJyotisha Abadhan,\nJyotish Nayak,",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-057",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 57; PDF pages 8",
+      "raw_label": "Kadan",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 57,
+      "raw_segments": [
+        {
+          "page": 8,
+          "raw_label": "Kadan",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-058",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 58; PDF pages 8",
+      "raw_label": "Kalladi",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 58,
+      "raw_segments": [
+        {
+          "page": 8,
+          "raw_label": "Kalladi",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-059",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 59; PDF pages 8",
+      "raw_label": "Kammara,\nKamara,\nKamar,\nKammaro,\nMuli,\nLohuru,\nLoharo\nAstolohi Kamar",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 59,
+      "raw_segments": [
+        {
+          "page": 8,
+          "raw_label": "Kammara,\nKamara,\nKamar,\nKammaro,\nMuli,\nLohuru,\nLoharo",
+          "raw_qualifier": "-do-"
+        },
+        {
+          "page": 8,
+          "raw_label": "Astolohi Kamar",
+          "raw_qualifier": "No. 8808 dt. 08.04.1997(W)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-060",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 60; PDF pages 8",
+      "raw_label": "Kanakkan",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 60,
+      "raw_segments": [
+        {
+          "page": 8,
+          "raw_label": "Kanakkan",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-061",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 61; PDF pages 8",
+      "raw_label": "Kandarpa",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 61,
+      "raw_segments": [
+        {
+          "page": 8,
+          "raw_label": "Kandarpa",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-062",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 62; PDF pages 8",
+      "raw_label": "Kanjar",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 62,
+      "raw_segments": [
+        {
+          "page": 8,
+          "raw_label": "Kanjar",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-063",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 63; PDF pages 8",
+      "raw_label": "Kapudia\nKapadia",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 63,
+      "raw_segments": [
+        {
+          "page": 8,
+          "raw_label": "Kapudia",
+          "raw_qualifier": "-do-"
+        },
+        {
+          "page": 8,
+          "raw_label": "Kapadia",
+          "raw_qualifier": "No.17409, dt.06.10.2022"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-064",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 64; PDF pages 8",
+      "raw_label": "Karhara,\nKachara,\nKachera",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 64,
+      "raw_segments": [
+        {
+          "page": 8,
+          "raw_label": "Karhara,\nKachara,\nKachera",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-065",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 65; PDF pages 8",
+      "raw_label": "Karimpalan",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 65,
+      "raw_segments": [
+        {
+          "page": 8,
+          "raw_label": "Karimpalan",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-066",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 66; PDF pages 8",
+      "raw_label": "Karmali",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 66,
+      "raw_segments": [
+        {
+          "page": 8,
+          "raw_label": "Karmali",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-067",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 67; PDF pages 9",
+      "raw_label": "Kattunayakan",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 67,
+      "raw_segments": [
+        {
+          "page": 9,
+          "raw_label": "Kattunayakan",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-068",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 68; PDF pages 9",
+      "raw_label": "Khaira",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 68,
+      "raw_segments": [
+        {
+          "page": 9,
+          "raw_label": "Khaira",
+          "raw_qualifier": "Deleted by Notification No.\n238 Dt.23.04.2005\n(M&BCW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-069",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 69; PDF pages 9",
+      "raw_label": "Khuria/\nThoria\nThodia,\nThudia,\nThuria",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 69,
+      "raw_segments": [
+        {
+          "page": 9,
+          "raw_label": "Khuria/\nThoria",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        },
+        {
+          "page": 9,
+          "raw_label": "Thodia,\nThudia,\nThuria",
+          "raw_qualifier": "No. 8808 dt. 08.04.1997(W)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-070",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 70; PDF pages 9",
+      "raw_label": "Khandnals/\nKhandal,\nKhandual",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 70,
+      "raw_segments": [
+        {
+          "page": 9,
+          "raw_label": "Khandnals/\nKhandal,\nKhandual",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-071",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 71; PDF pages 9",
+      "raw_label": "Khatti-Khatti",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 71,
+      "raw_segments": [
+        {
+          "page": 9,
+          "raw_label": "Khatti-Khatti",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-072",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 72; PDF pages 9",
+      "raw_label": "Khatua",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 72,
+      "raw_segments": [
+        {
+          "page": 9,
+          "raw_label": "Khatua",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-073",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 73; PDF pages 9",
+      "raw_label": "Khodra,\nKhadura\nKharuda",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 73,
+      "raw_segments": [
+        {
+          "page": 9,
+          "raw_label": "Khodra,\nKhadura",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        },
+        {
+          "page": 9,
+          "raw_label": "Kharuda",
+          "raw_qualifier": "No. 32714 dt. 16.12.95(W)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-074",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 74; PDF pages 9",
+      "raw_label": "Khetauri",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 74,
+      "raw_segments": [
+        {
+          "page": 9,
+          "raw_label": "Khetauri",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-075",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 75; PDF pages 9",
+      "raw_label": "Koda,\nKuda",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 75,
+      "raw_segments": [
+        {
+          "page": 9,
+          "raw_label": "Koda,\nKuda",
+          "raw_qualifier": "Deleted by Notification No.\n238 Dt.23.04.05 (M&BCW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-076",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 76; PDF pages 9",
+      "raw_label": "Koilar",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 76,
+      "raw_segments": [
+        {
+          "page": 9,
+          "raw_label": "Koilar",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-077",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 77; PDF pages 9",
+      "raw_label": "Kolam",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 77,
+      "raw_segments": [
+        {
+          "page": 9,
+          "raw_label": "Kolam",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-078",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 78; PDF pages 9",
+      "raw_label": "Kond(Kul)",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 78,
+      "raw_segments": [
+        {
+          "page": 9,
+          "raw_label": "Kond(Kul)",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-079",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 79; PDF pages 9",
+      "raw_label": "KondaKapu/\nGagulaKapu\nKapu,\nKampo",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 79,
+      "raw_segments": [
+        {
+          "page": 9,
+          "raw_label": "KondaKapu/\nGagulaKapu",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        },
+        {
+          "page": 9,
+          "raw_label": "Kapu,\nKampo",
+          "raw_qualifier": "No. 32714 dt. 16.12.1995(W)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-080",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 80; PDF pages 9",
+      "raw_label": "Kondareddy,\nReddy dhakas & Reddy",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 80,
+      "raw_segments": [
+        {
+          "page": 9,
+          "raw_label": "Kondareddy,\nReddy dhakas & Reddy",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-081",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 81; PDF pages 9",
+      "raw_label": "Koraga",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 81,
+      "raw_segments": [
+        {
+          "page": 9,
+          "raw_label": "Koraga",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-082",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 82; PDF pages 10",
+      "raw_label": "Kosalya,\nGoudus,\nBosotheriya Goudus,\nChiti Goudus,\nDangayath Goudus,\nDoddu Kamariya,\nDudu Kamaro,\nLadiya Goudus &\nPullo Soriya Goudus\nKosalya Goudus,\nBosotheriya",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 82,
+      "raw_segments": [
+        {
+          "page": 10,
+          "raw_label": "Kosalya,\nGoudus,\nBosotheriya Goudus,\nChiti Goudus,\nDangayath Goudus,\nDoddu Kamariya,\nDudu Kamaro,\nLadiya Goudus &\nPullo Soriya Goudus",
+          "raw_qualifier": "-do-"
+        },
+        {
+          "page": 10,
+          "raw_label": "Kosalya Goudus,\nBosotheriya",
+          "raw_qualifier": "No.8749, dt.04.05.2023"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-083",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 83; PDF pages 10",
+      "raw_label": "Kota",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 83,
+      "raw_segments": [
+        {
+          "page": 10,
+          "raw_label": "Kota",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-084",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 84; PDF pages 10",
+      "raw_label": "Kudiya",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 84,
+      "raw_segments": [
+        {
+          "page": 10,
+          "raw_label": "Kudiya",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-085",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 85; PDF pages 10",
+      "raw_label": "Kudubi",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 85,
+      "raw_segments": [
+        {
+          "page": 10,
+          "raw_label": "Kudubi",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-086",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 86; PDF pages 10",
+      "raw_label": "Kudumban",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 86,
+      "raw_segments": [
+        {
+          "page": 10,
+          "raw_label": "Kudumban",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-087",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 87; PDF pages 10",
+      "raw_label": "Kumbhar,\nKulal,\nKumhar,\nKumbharo\nKumbhakar",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 87,
+      "raw_segments": [
+        {
+          "page": 10,
+          "raw_label": "Kumbhar,\nKulal,\nKumhar,\nKumbharo",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        },
+        {
+          "page": 10,
+          "raw_label": "Kumbhakar",
+          "raw_qualifier": "No. 592 dt.\n28.11.2003(MBC&W)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-088",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 88; PDF pages 10",
+      "raw_label": "Kundamatia",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 88,
+      "raw_segments": [
+        {
+          "page": 10,
+          "raw_label": "Kundamatia",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-089",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 89; PDF pages 10",
+      "raw_label": "Kulta",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 89,
+      "raw_segments": [
+        {
+          "page": 10,
+          "raw_label": "Kulta",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-090",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 90; PDF pages 10",
+      "raw_label": "Kurariar\nKuraiar",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 90,
+      "raw_segments": [
+        {
+          "page": 10,
+          "raw_label": "Kurariar",
+          "raw_qualifier": "-do-"
+        },
+        {
+          "page": 10,
+          "raw_label": "Kuraiar",
+          "raw_qualifier": "No.8749, dt.04.05.2023"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-091",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 91; PDF pages 10",
+      "raw_label": "Kuravan",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 91,
+      "raw_segments": [
+        {
+          "page": 10,
+          "raw_label": "Kuravan",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-092",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 92; PDF pages 10",
+      "raw_label": "Kurichchan",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 92,
+      "raw_segments": [
+        {
+          "page": 10,
+          "raw_label": "Kurichchan",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-093",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 93; PDF pages 10",
+      "raw_label": "Kuruman(Kurumba)",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 93,
+      "raw_segments": [
+        {
+          "page": 10,
+          "raw_label": "Kuruman(Kurumba)",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-094",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 94; PDF pages 10",
+      "raw_label": "Lakhra",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 94,
+      "raw_segments": [
+        {
+          "page": 10,
+          "raw_label": "Lakhra",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-095",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 95; PDF pages 11",
+      "raw_label": "Lambadi",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 95,
+      "raw_segments": [
+        {
+          "page": 11,
+          "raw_label": "Lambadi",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-096",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 96; PDF pages 11",
+      "raw_label": "Luhura",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 96,
+      "raw_segments": [
+        {
+          "page": 11,
+          "raw_label": "Luhura",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-097",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 97; PDF pages 11",
+      "raw_label": "Machua",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 97,
+      "raw_segments": [
+        {
+          "page": 11,
+          "raw_label": "Machua",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-098",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 98; PDF pages 11",
+      "raw_label": "Maghi or Meghia",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 98,
+      "raw_segments": [
+        {
+          "page": 11,
+          "raw_label": "Maghi or Meghia",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-099",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 99; PDF pages 11",
+      "raw_label": "Magura",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 99,
+      "raw_segments": [
+        {
+          "page": 11,
+          "raw_label": "Magura",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-100",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 100; PDF pages 11",
+      "raw_label": "Mahunta",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 100,
+      "raw_segments": [
+        {
+          "page": 11,
+          "raw_label": "Mahunta",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-101",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 101; PDF pages 11",
+      "raw_label": "Magatha Goudus,\nBermia Goudus,\nBoodo Magatha,\nDongayath Goudu,\nLadya Goudu,\nPoona Magatha and Sana Magatha",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 101,
+      "raw_segments": [
+        {
+          "page": 11,
+          "raw_label": "Magatha Goudus,\nBermia Goudus,\nBoodo Magatha,\nDongayath Goudu,\nLadya Goudu,\nPoona Magatha and Sana Magatha",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-102",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 102; PDF pages 11",
+      "raw_label": "Magadhi Goral",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 102,
+      "raw_segments": [
+        {
+          "page": 11,
+          "raw_label": "Magadhi Goral",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-103",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 103; PDF pages 11",
+      "raw_label": "Maila",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 103,
+      "raw_segments": [
+        {
+          "page": 11,
+          "raw_label": "Maila",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-104",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 104; PDF pages 11",
+      "raw_label": "Maladasu",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 104,
+      "raw_segments": [
+        {
+          "page": 11,
+          "raw_label": "Maladasu",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-105",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 105; PDF pages 11",
+      "raw_label": "Malasar",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 105,
+      "raw_segments": [
+        {
+          "page": 11,
+          "raw_label": "Malasar",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-106",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 106; PDF pages 11",
+      "raw_label": "Mali,\nPhulia,\nSagbaria,\nBhajemali\nMuni\nGandhamali,\nThanapati,\nPandara Mali",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 106,
+      "raw_segments": [
+        {
+          "page": 11,
+          "raw_label": "Mali,\nPhulia,\nSagbaria,\nBhajemali",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        },
+        {
+          "page": 11,
+          "raw_label": "Muni",
+          "raw_qualifier": "No. 21863 dt. 25.08.1995(W)"
+        },
+        {
+          "page": 11,
+          "raw_label": "Gandhamali,\nThanapati,\nPandara Mali",
+          "raw_qualifier": "No.17409, dt.06.10.2022"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-107",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 107; PDF pages 11",
+      "raw_label": "Malis-Korchia Malis,\nPaido Malis,\nPedda Malis\nMalis,\nKorchia Malis,\nPodda Malis",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 107,
+      "raw_segments": [
+        {
+          "page": 11,
+          "raw_label": "Malis-Korchia Malis,\nPaido Malis,\nPedda Malis",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        },
+        {
+          "page": 11,
+          "raw_label": "Malis,\nKorchia Malis,\nPodda Malis",
+          "raw_qualifier": "No.8749, dt.04.05.2023"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-108",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 108; PDF pages 12",
+      "raw_label": "Mal Paharia",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 108,
+      "raw_segments": [
+        {
+          "page": 12,
+          "raw_label": "Mal Paharia",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-109",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 109; PDF pages 12",
+      "raw_label": "Manna Dhora",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 109,
+      "raw_segments": [
+        {
+          "page": 12,
+          "raw_label": "Manna Dhora",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-110",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 110; PDF pages 12",
+      "raw_label": "Maune",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 110,
+      "raw_segments": [
+        {
+          "page": 12,
+          "raw_label": "Maune",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-111",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 111; PDF pages 12",
+      "raw_label": "Marathi",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 111,
+      "raw_segments": [
+        {
+          "page": 12,
+          "raw_label": "Marathi",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-112",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 112; PDF pages 12",
+      "raw_label": "Matangi",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 112,
+      "raw_segments": [
+        {
+          "page": 12,
+          "raw_label": "Matangi",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-113",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 113; PDF pages 12",
+      "raw_label": "Mavilan",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 113,
+      "raw_segments": [
+        {
+          "page": 12,
+          "raw_label": "Mavilan",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-114",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 114; PDF pages 12",
+      "raw_label": "Minka",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 114,
+      "raw_segments": [
+        {
+          "page": 12,
+          "raw_label": "Minka",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-115",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 115; PDF pages 12",
+      "raw_label": "Moger\nMonger",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 115,
+      "raw_segments": [
+        {
+          "page": 12,
+          "raw_label": "Moger",
+          "raw_qualifier": "-do-"
+        },
+        {
+          "page": 12,
+          "raw_label": "Monger",
+          "raw_qualifier": "No.8749, dt.04.05.2023"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-116",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 116; PDF pages 12",
+      "raw_label": "Mukhadora-Mokka Dhora",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 116,
+      "raw_segments": [
+        {
+          "page": 12,
+          "raw_label": "Mukhadora-Mokka Dhora",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-117",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 117; PDF pages 12",
+      "raw_label": "Muliya",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 117,
+      "raw_segments": [
+        {
+          "page": 12,
+          "raw_label": "Muliya",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-118",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 118; PDF pages 12",
+      "raw_label": "Mundala",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 118,
+      "raw_segments": [
+        {
+          "page": 12,
+          "raw_label": "Mundala",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-119",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 119; PDF pages 12",
+      "raw_label": "Muria",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 119,
+      "raw_segments": [
+        {
+          "page": 12,
+          "raw_label": "Muria",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-120",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 120; PDF pages 12",
+      "raw_label": "Nahar",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 120,
+      "raw_segments": [
+        {
+          "page": 12,
+          "raw_label": "Nahar",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-121",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 121; PDF pages 12",
+      "raw_label": "Nalakeyava",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 121,
+      "raw_segments": [
+        {
+          "page": 12,
+          "raw_label": "Nalakeyava",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-122",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 122; PDF pages 12",
+      "raw_label": "Nat",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 122,
+      "raw_segments": [
+        {
+          "page": 12,
+          "raw_label": "Nat",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-123",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 123; PDF pages 12",
+      "raw_label": "Nagavasam,\nMahisya, and Saunties\nMahesh,\nMaheshya",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 123,
+      "raw_segments": [
+        {
+          "page": 12,
+          "raw_label": "Nagavasam,\nMahisya, and Saunties",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        },
+        {
+          "page": 12,
+          "raw_label": "Mahesh,\nMaheshya",
+          "raw_qualifier": "No. 32714 dt. 16.12.1995(W)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-124",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 124; PDF pages 12",
+      "raw_label": "Nayadi",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 124,
+      "raw_segments": [
+        {
+          "page": 12,
+          "raw_label": "Nayadi",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-125",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 125; PDF pages 12",
+      "raw_label": "Nolia",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 125,
+      "raw_segments": [
+        {
+          "page": 12,
+          "raw_label": "Nolia",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-126",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 126; PDF pages 12",
+      "raw_label": "Nuhura,\nNuhuraj",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 126,
+      "raw_segments": [
+        {
+          "page": 12,
+          "raw_label": "Nuhura,\nNuhuraj",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-127",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 127; PDF pages 12",
+      "raw_label": "Nuniya",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 127,
+      "raw_segments": [
+        {
+          "page": 12,
+          "raw_label": "Nuniya",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-128",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 128; PDF pages 12",
+      "raw_label": "Ojulu or Metta,\nKamasalie",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 128,
+      "raw_segments": [
+        {
+          "page": 12,
+          "raw_label": "Ojulu or Metta,\nKamasalie",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-129",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 129; PDF pages 12",
+      "raw_label": "Omeyita",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 129,
+      "raw_segments": [
+        {
+          "page": 12,
+          "raw_label": "Omeyita",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-130",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 130; PDF pages 13",
+      "raw_label": "Padaria,\nPamaria,\nPandara\nPaniar Mali,\nPandaria",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 130,
+      "raw_segments": [
+        {
+          "page": 13,
+          "raw_label": "Padaria,\nPamaria,\nPandara",
+          "raw_qualifier": "-do-"
+        },
+        {
+          "page": 13,
+          "raw_label": "Paniar Mali,\nPandaria",
+          "raw_qualifier": "No.17409, dt.06.10.2022"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-131",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 131; PDF pages 13",
+      "raw_label": "Pagadia\nPagadai",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 131,
+      "raw_segments": [
+        {
+          "page": 13,
+          "raw_label": "Pagadia",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        },
+        {
+          "page": 13,
+          "raw_label": "Pagadai",
+          "raw_qualifier": "No.8749, dt.04.05.2023"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-132",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 132; PDF pages 13",
+      "raw_label": "Paigarapu",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 132,
+      "raw_segments": [
+        {
+          "page": 13,
+          "raw_label": "Paigarapu",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-133",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 133; PDF pages 13",
+      "raw_label": "Paltan",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 133,
+      "raw_segments": [
+        {
+          "page": 13,
+          "raw_label": "Paltan",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-134",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 134; PDF pages 13",
+      "raw_label": "Paky",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 134,
+      "raw_segments": [
+        {
+          "page": 13,
+          "raw_label": "Paky",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-135",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 135; PDF pages 13",
+      "raw_label": "Pal",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 135,
+      "raw_segments": [
+        {
+          "page": 13,
+          "raw_label": "Pal",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-136",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 136; PDF pages 13",
+      "raw_label": "Palasi",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 136,
+      "raw_segments": [
+        {
+          "page": 13,
+          "raw_label": "Palasi",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-137",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 137; PDF pages 13",
+      "raw_label": "Paliyan",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 137,
+      "raw_segments": [
+        {
+          "page": 13,
+          "raw_label": "Paliyan",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-138",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 138; PDF pages 13, 14",
+      "raw_label": "Paiko,\nAlia,\nKhandayat,\nChasa Paiko,\nPaikali,\nKhandayat,\nKalingi Sudra Khandayat,\nMahanayak Sudra,\nBaisya Karan\nNamasudra\nOdia,\nOdia Khandayat,\nMahanayak,\nMahalayak,\nChasa Mahanty,\nMahanty\nOda-Khandayat,\nBayalisha,\nOda,\nOda Paika/\nOda Paiko\nBasantia, Mahalaek",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 138,
+      "raw_segments": [
+        {
+          "page": 13,
+          "raw_label": "Paiko,\nAlia,\nKhandayat,\nChasa Paiko,\nPaikali,\nKhandayat,\nKalingi Sudra Khandayat,\nMahanayak Sudra,\nBaisya Karan",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        },
+        {
+          "page": 13,
+          "raw_label": "Namasudra",
+          "raw_qualifier": "Deleted by Notification No.\n1853 Dt.16.07.1994\n(M&BCW)"
+        },
+        {
+          "page": 13,
+          "raw_label": "Odia,\nOdia Khandayat,\nMahanayak,\nMahalayak,",
+          "raw_qualifier": "No. 529 dt.\n24.12.2004(M&BCW)"
+        },
+        {
+          "page": 14,
+          "raw_label": "Chasa Mahanty,\nMahanty",
+          "raw_qualifier": ""
+        },
+        {
+          "page": 14,
+          "raw_label": "Oda-Khandayat,\nBayalisha,\nOda,\nOda Paika/\nOda Paiko",
+          "raw_qualifier": "No.17409, dt.06.10.2022"
+        },
+        {
+          "page": 14,
+          "raw_label": "Basantia, Mahalaek",
+          "raw_qualifier": "No.23003, dt.04.11.2023"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-139",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 139; PDF pages 14",
+      "raw_label": "Palli",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 139,
+      "raw_segments": [
+        {
+          "page": 14,
+          "raw_label": "Palli",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-140",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 140; PDF pages 14",
+      "raw_label": "Pulayan",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 140,
+      "raw_segments": [
+        {
+          "page": 14,
+          "raw_label": "Pulayan",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-141",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 141; PDF pages 14",
+      "raw_label": "Pambada",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 141,
+      "raw_segments": [
+        {
+          "page": 14,
+          "raw_label": "Pambada",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-142",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 142; PDF pages 14",
+      "raw_label": "Paniyan",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 142,
+      "raw_segments": [
+        {
+          "page": 14,
+          "raw_label": "Paniyan",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-143",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 143; PDF pages 14",
+      "raw_label": "Panjira",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 143,
+      "raw_segments": [
+        {
+          "page": 14,
+          "raw_label": "Panjira",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-144",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 144; PDF pages 14",
+      "raw_label": "Panniandi",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 144,
+      "raw_segments": [
+        {
+          "page": 14,
+          "raw_label": "Panniandi",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-145",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 145; PDF pages 14",
+      "raw_label": "Paraiyan",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 145,
+      "raw_segments": [
+        {
+          "page": 14,
+          "raw_label": "Paraiyan",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-146",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 146; PDF pages 14",
+      "raw_label": "Paravan",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 146,
+      "raw_segments": [
+        {
+          "page": 14,
+          "raw_label": "Paravan",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-147",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 147; PDF pages 14",
+      "raw_label": "Parhaiya",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 147,
+      "raw_segments": [
+        {
+          "page": 14,
+          "raw_label": "Parhaiya",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-148",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 148; PDF pages 14",
+      "raw_label": "Pathuria",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 148,
+      "raw_segments": [
+        {
+          "page": 14,
+          "raw_label": "Pathuria",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-149",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 149; PDF pages 14",
+      "raw_label": "Patara\nAsini Patara,\nAswini Patara,\nAshini Patara\nGoudia Patara\nPatra,\nAswini",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 149,
+      "raw_segments": [
+        {
+          "page": 14,
+          "raw_label": "Patara",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        },
+        {
+          "page": 14,
+          "raw_label": "Asini Patara,\nAswini Patara,\nAshini Patara",
+          "raw_qualifier": "No. 34905 dt. 30.11.1994 (W)"
+        },
+        {
+          "page": 14,
+          "raw_label": "Goudia Patara",
+          "raw_qualifier": "No. 18222 dt. 29.07.1996(W)"
+        },
+        {
+          "page": 14,
+          "raw_label": "Patra,\nAswini",
+          "raw_qualifier": "No.8749, dt.04.05.2023"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-150",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 150; PDF pages 14",
+      "raw_label": "Pengua",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 150,
+      "raw_segments": [
+        {
+          "page": 14,
+          "raw_label": "Pengua",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-151",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 151; PDF pages 14",
+      "raw_label": "Pita",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 151,
+      "raw_segments": [
+        {
+          "page": 14,
+          "raw_label": "Pita",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-152",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 152; PDF pages 14",
+      "raw_label": "Raneyar",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 152,
+      "raw_segments": [
+        {
+          "page": 14,
+          "raw_label": "Raneyar",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-153",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 153; PDF pages 15",
+      "raw_label": "Ronas/Rana",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 153,
+      "raw_segments": [
+        {
+          "page": 15,
+          "raw_label": "Ronas/Rana",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-154",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 154; PDF pages 15",
+      "raw_label": "Routia",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 154,
+      "raw_segments": [
+        {
+          "page": 15,
+          "raw_label": "Routia",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-155",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 155; PDF pages 15",
+      "raw_label": "Sagarpasha",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 155,
+      "raw_segments": [
+        {
+          "page": 15,
+          "raw_label": "Sagarpasha",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-156",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 156; PDF pages 15",
+      "raw_label": "Samban",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 156,
+      "raw_segments": [
+        {
+          "page": 15,
+          "raw_label": "Samban",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-157",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 157; PDF pages 15",
+      "raw_label": "Sankhari",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 157,
+      "raw_segments": [
+        {
+          "page": 15,
+          "raw_label": "Sankhari",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-158",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 158; PDF pages 15",
+      "raw_label": "Sanyasi,\nMoembram\nMembram",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 158,
+      "raw_segments": [
+        {
+          "page": 15,
+          "raw_label": "Sanyasi,\nMoembram",
+          "raw_qualifier": "-do-"
+        },
+        {
+          "page": 15,
+          "raw_label": "Membram",
+          "raw_qualifier": "No.8749, dt.04.05.2023"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-159",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 159; PDF pages 15",
+      "raw_label": "Seerithi Goudu",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 159,
+      "raw_segments": [
+        {
+          "page": 15,
+          "raw_label": "Seerithi Goudu",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-160",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 160; PDF pages 15",
+      "raw_label": "Semman",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 160,
+      "raw_segments": [
+        {
+          "page": 15,
+          "raw_label": "Semman",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-161",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 161; PDF pages 15",
+      "raw_label": "Sholagar",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 161,
+      "raw_segments": [
+        {
+          "page": 15,
+          "raw_label": "Sholagar",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-162",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 162; PDF pages 15",
+      "raw_label": "Sauria Paharia",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 162,
+      "raw_segments": [
+        {
+          "page": 15,
+          "raw_label": "Sauria Paharia",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-163",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 163; PDF pages 15",
+      "raw_label": "Sinke/Sinko",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 163,
+      "raw_segments": [
+        {
+          "page": 15,
+          "raw_label": "Sinke/Sinko",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-164",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 164; PDF pages 15",
+      "raw_label": "Suda",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 164,
+      "raw_segments": [
+        {
+          "page": 15,
+          "raw_label": "Suda",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-165",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 165; PDF pages 15",
+      "raw_label": "Sulia",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 165,
+      "raw_segments": [
+        {
+          "page": 15,
+          "raw_label": "Sulia",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-166",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 166; PDF pages 15",
+      "raw_label": "Sunri/Sundi\nSundhi",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 166,
+      "raw_segments": [
+        {
+          "page": 15,
+          "raw_label": "Sunri/Sundi",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        },
+        {
+          "page": 15,
+          "raw_label": "Sundhi",
+          "raw_qualifier": "No.26118 dt.05.11.1996 (W)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-167",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 167; PDF pages 15",
+      "raw_label": "Tana",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 167,
+      "raw_segments": [
+        {
+          "page": 15,
+          "raw_label": "Tana",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-168",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 168; PDF pages 15, 16",
+      "raw_label": "Teli,\nTelli,\nKubara,\nTalakar,\nSahu,\nBahaldia\nKubera\nEkadas Teli,\nTailik Baishya\nBaladia\nHaladia Teli\nKubara,\nSahoo",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 168,
+      "raw_segments": [
+        {
+          "page": 15,
+          "raw_label": "Teli,\nTelli,\nKubara,\nTalakar,\nSahu,\nBahaldia",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        },
+        {
+          "page": 15,
+          "raw_label": "Kubera",
+          "raw_qualifier": "Kubara was substituted by\nKubera by Notification\nNo.18222 dt.29.07.1996"
+        },
+        {
+          "page": 15,
+          "raw_label": "Ekadas Teli,",
+          "raw_qualifier": "No.18222 dt. 29.07.1996 (W)"
+        },
+        {
+          "page": 16,
+          "raw_label": "Tailik Baishya",
+          "raw_qualifier": ""
+        },
+        {
+          "page": 16,
+          "raw_label": "Baladia",
+          "raw_qualifier": "No. 529 dt.24.12.2004\n(M&BCW)"
+        },
+        {
+          "page": 16,
+          "raw_label": "Haladia Teli",
+          "raw_qualifier": "No.17409, dt.06.10.2022"
+        },
+        {
+          "page": 16,
+          "raw_label": "Kubara,\nSahoo",
+          "raw_qualifier": "No.8749, dt.04.05.2023"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-169",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 169; PDF pages 16",
+      "raw_label": "Telaga,\nPamula / Teloga\nTelugu,\nTelanga,\nTelenga & Telugu Kachara",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 169,
+      "raw_segments": [
+        {
+          "page": 16,
+          "raw_label": "Telaga,\nPamula / Teloga",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        },
+        {
+          "page": 16,
+          "raw_label": "Telugu,\nTelanga,\nTelenga & Telugu Kachara",
+          "raw_qualifier": "No. 26118 dt. 05.11.1996 (W)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-170",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 170; PDF pages 16",
+      "raw_label": "Thanu",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 170,
+      "raw_segments": [
+        {
+          "page": 16,
+          "raw_label": "Thanu",
+          "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-171",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 171; PDF pages 16",
+      "raw_label": "Thatari/Kansari",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 171,
+      "raw_segments": [
+        {
+          "page": 16,
+          "raw_label": "Thatari/Kansari",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-172",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 172; PDF pages 16",
+      "raw_label": "Thoti",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 172,
+      "raw_segments": [
+        {
+          "page": 16,
+          "raw_label": "Thoti",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-173",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 173; PDF pages 16",
+      "raw_label": "Tiruvalluvar",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 173,
+      "raw_segments": [
+        {
+          "page": 16,
+          "raw_label": "Tiruvalluvar",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-174",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 174; PDF pages 16",
+      "raw_label": "Tivoro",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 174,
+      "raw_segments": [
+        {
+          "page": 16,
+          "raw_label": "Tivoro",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-175",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 175; PDF pages 16",
+      "raw_label": "Toda",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 175,
+      "raw_segments": [
+        {
+          "page": 16,
+          "raw_label": "Toda",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-176",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 176; PDF pages 16",
+      "raw_label": "Valluvan",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 176,
+      "raw_segments": [
+        {
+          "page": 16,
+          "raw_label": "Valluvan",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-177",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 177; PDF pages 16",
+      "raw_label": "Vannan",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 177,
+      "raw_segments": [
+        {
+          "page": 16,
+          "raw_label": "Vannan",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-178",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 178; PDF pages 16",
+      "raw_label": "Vettuvan",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 178,
+      "raw_segments": [
+        {
+          "page": 16,
+          "raw_label": "Vettuvan",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-179",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 179; PDF pages 16",
+      "raw_label": "Yandi",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 179,
+      "raw_segments": [
+        {
+          "page": 16,
+          "raw_label": "Yandi",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-180",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 180; PDF pages 16",
+      "raw_label": "Yerna Golta",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 180,
+      "raw_segments": [
+        {
+          "page": 16,
+          "raw_label": "Yerna Golta",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-181",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 181; PDF pages 16",
+      "raw_label": "Yerukula",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 181,
+      "raw_segments": [
+        {
+          "page": 16,
+          "raw_label": "Yerukula",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-182",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 182; PDF pages 16, 17",
+      "raw_label": "Kurumi,\nKuruma Chasa,\nKudumi,\nKurma,\nKurmi Mahto,\nKurmi Khetriya,\nKurumi,\nKudumi Kshyatriya\nKurum\nMahanta/ Mahat\nKurmi,\nKurma Chasa",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 182,
+      "raw_segments": [
+        {
+          "page": 16,
+          "raw_label": "Kurumi,\nKuruma Chasa,\nKudumi,\nKurma,\nKurmi Mahto,\nKurmi Khetriya,",
+          "raw_qualifier": "No. 11177 dt. 01.05.1995 (W)"
+        },
+        {
+          "page": 17,
+          "raw_label": "Kurumi,\nKudumi Kshyatriya",
+          "raw_qualifier": ""
+        },
+        {
+          "page": 17,
+          "raw_label": "Kurum",
+          "raw_qualifier": "No. 26118 dt. 05.11.96 (W)"
+        },
+        {
+          "page": 17,
+          "raw_label": "Mahanta/ Mahat",
+          "raw_qualifier": "No. 529 dt. 24.12.04\n(M&BCW)"
+        },
+        {
+          "page": 17,
+          "raw_label": "Kurmi,\nKurma Chasa",
+          "raw_qualifier": "No.8749, dt.04.05.2023"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-183",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 183; PDF pages 17",
+      "raw_label": "Bhanja Puran",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 183,
+      "raw_segments": [
+        {
+          "page": 17,
+          "raw_label": "Bhanja Puran",
+          "raw_qualifier": "No. 11177 dt. 01.05.95 (W)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-184",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 184; PDF pages 17",
+      "raw_label": "Bhopa,\nRaula",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 184,
+      "raw_segments": [
+        {
+          "page": 17,
+          "raw_label": "Bhopa,\nRaula",
+          "raw_qualifier": "No. 15306 dt. 13.06.95 (W)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-185",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 185; PDF pages 17",
+      "raw_label": "Malha,\nMalhar\nMahla/ Mahlar",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 185,
+      "raw_segments": [
+        {
+          "page": 17,
+          "raw_label": "Malha,\nMalhar",
+          "raw_qualifier": "-do-"
+        },
+        {
+          "page": 17,
+          "raw_label": "Mahla/ Mahlar",
+          "raw_qualifier": "No.8749, dt.04.05.2023"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-186",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 186; PDF pages 17",
+      "raw_label": "Kalanji,\nKhandayat Kalanji,\nOdra Khandayat Kalanji\nKalingi,\nKaliji,\nKalinga\nKalandi\nKalinji",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 186,
+      "raw_segments": [
+        {
+          "page": 17,
+          "raw_label": "Kalanji,\nKhandayat Kalanji,\nOdra Khandayat Kalanji",
+          "raw_qualifier": "No. 32714 dt. 16.12.95(W)"
+        },
+        {
+          "page": 17,
+          "raw_label": "Kalingi,\nKaliji,\nKalinga",
+          "raw_qualifier": "No. 26118 dt. 05.11.96 (W)"
+        },
+        {
+          "page": 17,
+          "raw_label": "Kalandi",
+          "raw_qualifier": "No.17409, dt.06.10.2022"
+        },
+        {
+          "page": 17,
+          "raw_label": "Kalinji",
+          "raw_qualifier": "No.8749, dt.04.05.2023"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-187",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 187; PDF pages 17",
+      "raw_label": "Sudra",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 187,
+      "raw_segments": [
+        {
+          "page": 17,
+          "raw_label": "Sudra",
+          "raw_qualifier": "No. 32714 dt. 16.12.95(W)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-188",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 188; PDF pages 17",
+      "raw_label": "Belama\nEllama",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 188,
+      "raw_segments": [
+        {
+          "page": 17,
+          "raw_label": "Belama",
+          "raw_qualifier": "-do-"
+        },
+        {
+          "page": 17,
+          "raw_label": "Ellama",
+          "raw_qualifier": "No. 529 dt. 24.12.04\n(M&BCW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-189",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 189; PDF pages 17",
+      "raw_label": "Dalapati,\nDalua",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 189,
+      "raw_segments": [
+        {
+          "page": 17,
+          "raw_label": "Dalapati,\nDalua",
+          "raw_qualifier": "No.18222 dt. 29.07.1996 (W)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-190",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 190; PDF pages 17",
+      "raw_label": "Rajasribalasi/Balasi",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 190,
+      "raw_segments": [
+        {
+          "page": 17,
+          "raw_label": "Rajasribalasi/Balasi",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-191",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 191; PDF pages 17",
+      "raw_label": "Raju\nRajua",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 191,
+      "raw_segments": [
+        {
+          "page": 17,
+          "raw_label": "Raju",
+          "raw_qualifier": "-do-"
+        },
+        {
+          "page": 17,
+          "raw_label": "Rajua",
+          "raw_qualifier": "No.7204, dt.13.04.2023"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-192",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 192; PDF pages 17, 18",
+      "raw_label": "Segidi,\nSrisayan",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 192,
+      "raw_segments": [
+        {
+          "page": 17,
+          "raw_label": "Segidi,",
+          "raw_qualifier": "No.18222 dt. 29.07.1996 (W)"
+        },
+        {
+          "page": 18,
+          "raw_label": "Srisayan",
+          "raw_qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-193",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 193; PDF pages 18",
+      "raw_label": "Dambo-Christian,\nPano-Christian,\nGanda-Christian\nScheduled Castes converts to\nChristianity and their progeny",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 193,
+      "raw_segments": [
+        {
+          "page": 18,
+          "raw_label": "Dambo-Christian,\nPano-Christian,\nGanda-Christian",
+          "raw_qualifier": "No. 20325 dt. 22.08.96 (W)"
+        },
+        {
+          "page": 18,
+          "raw_label": "Scheduled Castes converts to\nChristianity and their progeny",
+          "raw_qualifier": "No.8749, dt.04.05.2023"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-194",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 194; PDF pages 18",
+      "raw_label": "Kandha-Kumbhar",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 194,
+      "raw_segments": [
+        {
+          "page": 18,
+          "raw_label": "Kandha-Kumbhar",
+          "raw_qualifier": "No. 26118 dt. 05.11.96 (W)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-195",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 195; PDF pages 18",
+      "raw_label": "Dalakhandayat,\nDalua-Paik",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 195,
+      "raw_segments": [
+        {
+          "page": 18,
+          "raw_label": "Dalakhandayat,\nDalua-Paik",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-196",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 196; PDF pages 18",
+      "raw_label": "Kapala Velama,\nKapulu Elama,\nKoppala Velama,\nKoppala Elama,\nKappula Elama,\nKupala Velama,\nKapala Elama,\nKapala Elaga\nKoppula Vellama",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 196,
+      "raw_segments": [
+        {
+          "page": 18,
+          "raw_label": "Kapala Velama,\nKapulu Elama,\nKoppala Velama,\nKoppala Elama,\nKappula Elama,\nKupala Velama,\nKapala Elama,\nKapala Elaga",
+          "raw_qualifier": "-do-"
+        },
+        {
+          "page": 18,
+          "raw_label": "Koppula Vellama",
+          "raw_qualifier": "No.8749, dt.04.05.2023"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-197",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 197; PDF pages 18",
+      "raw_label": "Banka",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 197,
+      "raw_segments": [
+        {
+          "page": 18,
+          "raw_label": "Banka",
+          "raw_qualifier": "No. 26118 dt. 05.11.96 (W)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-198",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 198; PDF pages 18",
+      "raw_label": "Kshitibansa,\nMatibansa Ojha,\nKshitibansa Naik,\nOjha Karan,\nKshitibansa Nayak,\nMatibansa,\nMatibansa Abadhan\n( Matibansa & Matibansa Abadhan\ndeleted from sl. No.56)",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 198,
+      "raw_segments": [
+        {
+          "page": 18,
+          "raw_label": "Kshitibansa,\nMatibansa Ojha,\nKshitibansa Naik,\nOjha Karan,\nKshitibansa Nayak,\nMatibansa,\nMatibansa Abadhan\n( Matibansa & Matibansa Abadhan\ndeleted from sl. No.56)",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-199",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 199; PDF pages 18",
+      "raw_label": "Arua",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 199,
+      "raw_segments": [
+        {
+          "page": 18,
+          "raw_label": "Arua",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-200",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 200; PDF pages 18",
+      "raw_label": "Hatua",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 200,
+      "raw_segments": [
+        {
+          "page": 18,
+          "raw_label": "Hatua",
+          "raw_qualifier": "No.8808 dt.08.04.1997 (W)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-201",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 201; PDF pages 18, 19",
+      "raw_label": "Kalar\nKalwar,\nKalal",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 201,
+      "raw_segments": [
+        {
+          "page": 18,
+          "raw_label": "Kalar",
+          "raw_qualifier": "-do-"
+        },
+        {
+          "page": 19,
+          "raw_label": "Kalwar,\nKalal",
+          "raw_qualifier": "No.8749, dt.04.05.2023"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-202",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 202; PDF pages 19",
+      "raw_label": "Banayat Oriya,\nBenayat Oriya,\nBeneyit Odia,\nBanayat,\nBanayat Odia,\nOdia,\nUdia\nBenayit Odia,\nBanayat Odiya",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 202,
+      "raw_segments": [
+        {
+          "page": 19,
+          "raw_label": "Banayat Oriya,\nBenayat Oriya,\nBeneyit Odia,\nBanayat,\nBanayat Odia,\nOdia,\nUdia",
+          "raw_qualifier": "-do-"
+        },
+        {
+          "page": 19,
+          "raw_label": "Benayit Odia,\nBanayat Odiya",
+          "raw_qualifier": "No.8749, dt.04.05.2023"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-203",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 203; PDF pages 19",
+      "raw_label": "Kalandi Baishnab\nKalandi Baishanaba/\nKalandi Vaishnab",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 203,
+      "raw_segments": [
+        {
+          "page": 19,
+          "raw_label": "Kalandi Baishnab",
+          "raw_qualifier": "No. 165 dt.\n08.03.02(M&BCW)"
+        },
+        {
+          "page": 19,
+          "raw_label": "Kalandi Baishanaba/\nKalandi Vaishnab",
+          "raw_qualifier": "No.8749, dt.04.05.2023"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-204",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 204; PDF pages 19",
+      "raw_label": "Pallia,\nAgnikula Kshatriya",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 204,
+      "raw_segments": [
+        {
+          "page": 19,
+          "raw_label": "Pallia,\nAgnikula Kshatriya",
+          "raw_qualifier": "No.479\ndt.11.10.2003(M&BCW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-205",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 205; PDF pages 19",
+      "raw_label": "Tamuli,\nTamali,\nTamili,\nBangiya Tambuli,\nTambuli,\nTambili,\nBangiya Tamboli,\nBangadesiya Tambili,\nTamila,\nBangiya Tamili,\nTambila & Tambula",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 205,
+      "raw_segments": [
+        {
+          "page": 19,
+          "raw_label": "Tamuli,\nTamali,\nTamili,\nBangiya Tambuli,\nTambuli,\nTambili,\nBangiya Tamboli,\nBangadesiya Tambili,\nTamila,\nBangiya Tamili,\nTambila & Tambula",
+          "raw_qualifier": "No.532\ndt.24.12.2004(M&BCW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-206",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 206; PDF pages 19",
+      "raw_label": "Chattada Srivaishnab",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 206,
+      "raw_segments": [
+        {
+          "page": 19,
+          "raw_label": "Chattada Srivaishnab",
+          "raw_qualifier": "No. 529 dt. 24.12.04\n(M&BCW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-207",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 207; PDF pages 19",
+      "raw_label": "Sagua",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 207,
+      "raw_segments": [
+        {
+          "page": 19,
+          "raw_label": "Sagua",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-208",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 208; PDF pages 19",
+      "raw_label": "Majjula",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 208,
+      "raw_segments": [
+        {
+          "page": 19,
+          "raw_label": "Majjula",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-209",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 209; PDF pages 20",
+      "raw_label": "Goudia,\nLaxminarayan Goudia",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 209,
+      "raw_segments": [
+        {
+          "page": 20,
+          "raw_label": "Goudia,\nLaxminarayan Goudia",
+          "raw_qualifier": "-do-"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-210",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 210; PDF pages 20",
+      "raw_label": "Baliji",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 210,
+      "raw_segments": [
+        {
+          "page": 20,
+          "raw_label": "Baliji",
+          "raw_qualifier": "No.14239\ndt.09.08.2017(M&BCW)"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-211",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 211; PDF pages 20",
+      "raw_label": "Kalanga",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 211,
+      "raw_segments": [
+        {
+          "page": 20,
+          "raw_label": "Kalanga",
+          "raw_qualifier": "No.8749, dt.04.05.2023"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-212",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 212; PDF pages 20",
+      "raw_label": "Liari, Niari, Chudutia",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 212,
+      "raw_segments": [
+        {
+          "page": 20,
+          "raw_label": "Liari, Niari, Chudutia",
+          "raw_qualifier": "No.23003, dt.04.11.2023"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-213",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 213; PDF pages 20",
+      "raw_label": "Jhara",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 213,
+      "raw_segments": [
+        {
+          "page": 20,
+          "raw_label": "Jhara",
+          "raw_qualifier": "No.23003, dt.04.11.2023"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-214",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 214; PDF pages 20",
+      "raw_label": "Mangatajana",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 214,
+      "raw_segments": [
+        {
+          "page": 20,
+          "raw_label": "Mangatajana",
+          "raw_qualifier": "No.23003, dt.04.11.2023"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-215",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 215; PDF pages 20",
+      "raw_label": "Ghani",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 215,
+      "raw_segments": [
+        {
+          "page": 20,
+          "raw_label": "Ghani",
+          "raw_qualifier": "No.23003, dt.04.11.2023"
+        }
+      ]
+    },
+    {
+      "id": "sebc-row-216",
+      "source_id": "odisha-sebc-linked-20240119",
+      "locator": "Serial 216; PDF pages 20",
+      "raw_label": "Badheita, Badhayat, Boda, Badayat",
+      "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+      "source_row": 216,
+      "raw_segments": [
+        {
+          "page": 20,
+          "raw_label": "Badheita, Badhayat, Boda, Badayat",
+          "raw_qualifier": "No.23003, dt.04.11.2023"
+        }
+      ]
+    },
+    {
+      "id": "st-row-040",
+      "source_id": "odisha-st-linked-2024",
+      "locator": "Serial40; PDF2",
+      "raw_label": "Kotia",
+      "context": "Single listed source label. Do not automatically equate with Kottia Paiko of the historical gazetteer."
+    },
+    {
+      "id": "sc-row-010",
+      "source_id": "odisha-sc-linked-2024",
+      "locator": "Serial10; PDF1",
+      "raw_label": "Bauri, Buna Bauri, Dasia Bauri",
+      "context": "Grouped administrative label; comparison lead to historic Bauri military labour evidence, not automatic identity merge."
+    },
+    {
+      "id": "sc-row-042",
+      "source_id": "odisha-sc-linked-2024",
+      "locator": "Serial42; PDF2",
+      "raw_label": "Kandra, Kandara, Kadama,Kuduma,Kodma,Kodama.",
+      "context": "Preserve exact grouped label/punctuation from web PDF extraction; regional/current identity and aliases need independent evidence."
+    },
+    {
+      "id": "sc-row-069",
+      "source_id": "odisha-sc-linked-2024",
+      "locator": "Serial69; PDF2",
+      "raw_label": "Pan, Pano, Buna Pana, Desua Pana, Buna Pano",
+      "context": "Grouped source label only; no automatic equivalence with every historic Pana mention."
+    },
+    {
+      "id": "obc-row-133",
+      "source_id": "odisha-obc-central-linked",
+      "locator": "Serial133; PDF4",
+      "raw_label": "Paiko",
+      "context": "Central-list row; adjacent qualifier -do- retained as observed, not expanded. Separate from stateSEBC138."
+    },
+    {
+      "id": "obc-row-177",
+      "source_id": "odisha-obc-central-linked",
+      "locator": "Serial177; PDF5",
+      "raw_label": "Chasa , Odachasa., Banayat Odiya, Benayat\nOriya, Benayit Odia, Banayat, Banayat\nOriya, Odia & Udia",
+      "context": "Adjacent notifications: No.12011-44/96-BCC dated6.12.1996; No.12011/36/99-BCC dated4.4.2000; No.12015/15/2008-BCC dated16.06.11. Raw label preserves extracted linebreaks and punctuation; do not split into canonical aliases."
+    }
+  ],
+  "topics": [
+    {
+      "id": "paika",
+      "label": "Paika",
+      "kind": "historical_service_identity",
+      "status": "published",
+      "source_observation_ids": [
+        "paika-service"
+      ],
+      "evidence": [
+        "paika-service"
+      ],
+      "relationships": [],
+      "route": "/communities/paika/"
+    },
+    {
+      "id": "khandayat",
+      "label": "Khandayat",
+      "kind": "community_history_candidate",
+      "status": "next_research",
+      "source_observation_ids": [
+        "khandayat-service"
+      ],
+      "evidence": [
+        "khandayat-service"
+      ],
+      "relationships": [
+        {
+          "target": "paika",
+          "type": "documented_service_connection",
+          "evidence": [
+            "khandayat-service"
+          ],
+          "note": "Khandayat participation in the documented military establishment does not make Paika and Khandayat interchangeable."
+        }
+      ]
+    },
+    {
+      "id": "paiko-regional",
+      "label": "Paiko (regional scope unresolved)",
+      "kind": "regional_label",
+      "status": "unresolved_scope",
+      "source_observation_ids": [
+        "paiko-regional"
+      ],
+      "evidence": [
+        "paiko-regional"
+      ],
+      "relationships": [
+        {
+          "target": "paika",
+          "type": "related_term_scope_unresolved",
+          "evidence": [
+            "paiko-regional"
+          ],
+          "note": "Different regional uses need individual research; not an alias declaration."
+        }
+      ]
+    },
+    {
+      "id": "kottia-paiko",
+      "label": "Kottia Paiko",
+      "kind": "regional_community_history_candidate",
+      "status": "unresolved_scope",
+      "source_observation_ids": [
+        "kottia-paiko-regional"
+      ],
+      "evidence": [
+        "kottia-paiko-regional"
+      ],
+      "relationships": [
+        {
+          "target": "paiko-regional",
+          "type": "separately_described_in_source",
+          "evidence": [
+            "kottia-paiko-regional"
+          ],
+          "note": "Retain separate identity pending regional and community evidence; no inferred ancestry or current legal status."
+        }
+      ]
+    }
+  ]
+}

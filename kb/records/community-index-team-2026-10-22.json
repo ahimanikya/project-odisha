@@ -1,0 +1,63 @@
+{
+  "recorded_at": "2026-10-21T20:15:38.461047+00:00",
+  "task_id": "POD-TASK-COMMUNITY-INDEX-20261022",
+  "status": "in_progress",
+  "input_head": "677a3ce0dc89c4ee1e6fbb8b0ce61ecb1b65a1e9",
+  "authorization": [
+    "POD-DEC-225",
+    "POD-DEC-2026101901"
+  ],
+  "scope": "Build an internal evidence-based coverage index for the Founder-requested Odisha community history series. Keep administrative rows, historical labels and editorial topic identities distinct; no claim of exhaustive caste enumeration.",
+  "acceptance": [
+    "Verified source inventory with access dates and limits; retain exact labels and source-row context.",
+    "Canonical topic links for published Paika and next Khandayat research; aliases only when evidenced; unresolved regional/name relationships remain explicit.",
+    "Machine-readable index and readable coverage view; independent AI review; no public legal classification or inferred ancestry."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only source inventory and bounded extraction to /tmp/pod-community-index-research.json",
+      "status": "completed"
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "tools/research/validate_community_index.py"
+      ],
+      "status": "completed"
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Read-only integrated index/source review",
+      "status": "reviewing"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": [
+        "kb/research/communities/coverage-index.json",
+        "kb/research/communities/index.md",
+        "shared records"
+      ],
+      "status": "working"
+    }
+  ],
+  "worker_reconciliation": "All Paika workers completed; PR422 observed merged697f00ff. No active article. Unrelated PR304 and281 remain untouched.",
+  "counting": {
+    "substantive500_increment": 0,
+    "completed_items": 113
+  },
+  "next_action": "Integrate separate AI review, merge reviewed internal-index PR, then claim Khandayat research.",
+  "validation": [
+    "community index: PASS, 6 sources, 226 observations, 4 topics",
+    "team assignments: PASS",
+    "autonomous programme: PASS, unchanged113",
+    "editorial rollout: PASS, unchanged65 completed",
+    "bundle: PASS",
+    "git diff --check: PASS"
+  ],
+  "delivery_scope": "Internal KB inventory and read-only validator only. No website changes; deployment is not required. No substantive programme credit."
+}

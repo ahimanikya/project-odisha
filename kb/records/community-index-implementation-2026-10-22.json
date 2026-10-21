@@ -1,0 +1,107 @@
+{
+  "task_id": "POD-TASK-COMMUNITY-INDEX-20261022",
+  "worker": "Samanta, separate AI implementation agent",
+  "input_head": "677a3ce0dc89c4ee1e6fbb8b0ce61ecb1b65a1e9",
+  "status": "validator implemented and canonical index passes",
+  "actual_edits": [
+    "tools/research/validate_community_index.py"
+  ],
+  "behavior": [
+    "Standard-library read-only CLI, default canonical path and optional --index argument.",
+    "Validates schema fields, source provenance/access dates/status, exact raw labels and locator context.",
+    "Rejects duplicate IDs within source/observation/topic namespaces, duplicate source+locator pairs, dangling source/observation/topic refs and duplicate canonical routes.",
+    "Requires explicit verified evidence flag for alias_of/same_as/equivalent; derives no equivalences.",
+    "Requires exhaustive false and no substantive credit statement; computes inventory counts at runtime.",
+    "Gracefully reports malformed JSON/fields and exits nonzero on failure."
+  ],
+  "tests": [
+    {
+      "name": "valid minimal index",
+      "result": "pass",
+      "observed": "PASS",
+      "errors": []
+    },
+    {
+      "name": "dangling source",
+      "result": "pass",
+      "observed": "FAIL",
+      "errors": [
+        "Observation O1: dangling or missing source_id"
+      ]
+    },
+    {
+      "name": "dangling evidence",
+      "result": "pass",
+      "observed": "FAIL",
+      "errors": [
+        "Topic T1.evidence: dangling observation missing",
+        "Topic T1: evidence must be included in source_observation_ids"
+      ]
+    },
+    {
+      "name": "duplicate source and locator",
+      "result": "pass",
+      "observed": "FAIL",
+      "errors": [
+        "Observation O2: duplicate source+locator ('S1', 'row 1')"
+      ]
+    },
+    {
+      "name": "equivalence without verified evidence flag",
+      "result": "pass",
+      "observed": "FAIL",
+      "errors": [
+        "Topic T1.relationships[0]: equivalence requires evidence_status verified"
+      ]
+    },
+    {
+      "name": "exhaustive assertion",
+      "result": "pass",
+      "observed": "FAIL",
+      "errors": [
+        "coverage.exhaustive must be false"
+      ]
+    },
+    {
+      "name": "duplicate source id",
+      "result": "pass",
+      "observed": "FAIL",
+      "errors": [
+        "Duplicate source id: S1"
+      ]
+    },
+    {
+      "name": "malformed relationship and dangling topic handled without crash",
+      "result": "pass",
+      "observed": "FAIL",
+      "errors": [
+        "Topic T1.relationships[0]: dangling or missing target",
+        "Topic T1.relationships[0]: missing type"
+      ]
+    },
+    {
+      "name": "missing zero-credit statement",
+      "result": "pass",
+      "observed": "FAIL",
+      "errors": [
+        "coverage.counting_note must state \"no substantive credit\" (or zero substantive credit)"
+      ]
+    }
+  ],
+  "canonical_result": {
+    "result": "PASS",
+    "sources": 6,
+    "observations": 226,
+    "topics": 4,
+    "relationships": 3,
+    "routes": 1,
+    "errors": []
+  },
+  "diff_check": "pass",
+  "limits": [
+    "Structural validity is not factual/source verification, current legal classification, ancestry, human approval or exhaustive enumeration.",
+    "Verified flag is declared evidence status, not independent proof of equivalence.",
+    "No site changes, dependency installs, Git mutations or shared-record edits.",
+    "No substantive500 credit; inventory tooling only."
+  ]
+}
