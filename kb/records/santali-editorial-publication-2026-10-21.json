@@ -1,0 +1,249 @@
+{
+  "recorded_at": "2026-10-21T04:45:08.880876+00:00",
+  "authorization": [
+    "POD-DEC-2026101702",
+    "POD-DEC-2026101901",
+    "POD-DEC-225"
+  ],
+  "work_id": "POD-WORK-302",
+  "queue_item": "POD-EDIT-065",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/401",
+  "reviewed_head": "48752aa24ca2b51070acf17754739d9e20ac0787",
+  "merge_commit": "b5a3bec5353bed59a28e12f277c51a43b7d85bcc",
+  "validation": {
+    "conclusion": "success",
+    "databaseId": 39544815191,
+    "headSha": "48752aa24ca2b51070acf17754739d9e20ac0787",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39544815191"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "databaseId": 39545275532,
+    "headSha": "b5a3bec5353bed59a28e12f277c51a43b7d85bcc",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39545275532"
+  },
+  "live_checks": {
+    "checked_at": "2026-10-21T04:44:59.694770+00:00",
+    "url": "https://projectodisha.org/languages/santali/",
+    "http_status": 200,
+    "html_sha256": "f264a5686da75b888cab23566ddf22f3aa8fdd0d1bed706aceb8289be047fd64",
+    "visible_notes": 6,
+    "references": 7,
+    "exact_returns": 7,
+    "checks": {
+      "byline": true,
+      "specific_prose": true,
+      "marks": true,
+      "preserved_mayurbhanj": true,
+      "notes_and_returns": true,
+      "noindex": true,
+      "update_link": true,
+      "credit": true,
+      "booklet_limit": true
+    },
+    "images": {
+      "/assets/language-literature/ol-chiki.svg": {
+        "http_status": 200,
+        "sha256": "43497034b34aae814636b2cf601c6d08dec5fdf1211d37521ae36c00f90e8b6e"
+      }
+    },
+    "unchanged_sitemap_count": 11,
+    "browser": {
+      "viewports": [
+        [
+          1440,
+          900
+        ],
+        [
+          390,
+          844
+        ]
+      ],
+      "desktop": {
+        "notes": 7,
+        "readingWidth": 740,
+        "scrollWidth": 1440,
+        "width": 1440
+      },
+      "mobile": {
+        "focus": "ref-script-0-ol-chiki",
+        "hash": "#ref-script-0-ol-chiki",
+        "onwardOpen": false,
+        "readingWidth": 343.1953125,
+        "scrollWidth": 390,
+        "width": 390
+      },
+      "liveNote": {
+        "focus": "note-ol-chiki",
+        "hash": "#note-ol-chiki"
+      },
+      "further_reading_enter_opens": true,
+      "horizontal_overflow": false,
+      "screenshots": [
+        "records/evidence/santali-editorial-2026-10-21/live-desktop.png",
+        "records/evidence/santali-editorial-2026-10-21/live-mobile.png"
+      ],
+      "limits": [
+        "Browser emulation; not physical-device or screen-reader testing."
+      ]
+    },
+    "route_inventory": {
+      "directory_indexes": 457,
+      "separate_error_page": "/404.html",
+      "unregistered_routes": [],
+      "total_registered_routes": 458
+    }
+  },
+  "test_review_and_source_mapping": "records/santali-editorial-team-2026-10-21.json",
+  "final_review": {
+    "reviewer": "Drishti, separate AI subagent /root/drishti; not human review",
+    "input_head": "48752aa24ca2b51070acf17754739d9e20ac0787",
+    "base": "a3836d8123dc7208435e2bfb06f115331f945e67",
+    "result": "PASS",
+    "blocking_findings": [],
+    "scope": "POD-EDIT-065 Santali: prose/evidence, exact-route opt-in, visible source mapping, retained media and complete portable narrative.",
+    "actual_source_checks": [
+      {
+        "url": "https://www.presidentofindia.gov.in/press_releases/president-india-inaugurates-centenary-celebrations-ol-chiki-script",
+        "check": "Fresh actual HTML read: attributed1925 script date,16February2026 event and earlier scripts; article does not adopt institutional pronunciation superiority claim."
+      },
+      {
+        "url": "https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-13/",
+        "check": "Fresh actual17.0 section13.10.1 read: standalone vowels/alphabet, baseline modifier, raised nasalization dot and oral/nasalized length mark support prose. Outdated demographic/geographic claims not adopted."
+      },
+      {
+        "url": "https://sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp",
+        "check": "Fresh actual Santali table2016 row: Nalha, poetry, Gobinda Chandra Majhi. No edition-script, publication-date,translation or poem interpretation inferred."
+      },
+      {
+        "url": "https://sahitya-akademi.gov.in/aboutus/pdf/AR-2022-23.pdf#page=145",
+        "check": "Independently visually read supplied original PDF page145/printed144 render. Baripada21May2022, Beshra inaugural role and Jharkhand/Odisha/WestBengal presentations match. Preceding unrelated event paragraph not conflated."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Ol_Chiki.svg",
+        "check": "Fresh source page checked: SlowPhoton, own work3September2018, CC0, nominal241x49. Original asset hash43497034b34aae814636b2cf601c6d08dec5fdf1211d37521ae36c00f90e8b6e and metadata unchanged."
+      },
+      {
+        "file": "kb/research/references/census-2011/c16-odisha.xlsx",
+        "check": "Independently read original XLSX XML row116:018040 Santali859947; hashbc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db. Census remains2011 mother-tongue entry, not current speakers/script users."
+      }
+    ],
+    "preservation_checks": [
+      "Only Santali collection page changed; assets and population data unchanged.",
+      "Only rollout065 becomes in_progress;programme byte-identical112.",
+      "Shared components opt in exact languages/santali path; Kui negative control retained, Odia existing census notes still pass.",
+      "#mayurbhanj preserved for inbound trail;5sections8paragraphs,6notes7markers; all portable narrative paragraphs appear once with short linked source list.",
+      "Conservative source allocation including full lead: Unicode183words; booklet188including retained learning-resource panel. Other mapped body/title/note plus fulllead below200. No original literary quotations reproduced."
+    ],
+    "tests": [
+      {
+        "command": "node --test tests-coast/santali-editorial.test.mjs tests-coast/odia-editorial.test.mjs tests-coast/languages-editorial.test.mjs tests-coast/voices-passage-sources.test.mjs tests/voices.test.mjs",
+        "cwd": "projects/site",
+        "runtime": "Node24.15.0",
+        "result": "PASS36/36 on fresh built outputs"
+      },
+      {
+        "command": "python3 tools/editorial/article_rollout.py --check",
+        "result": "PASS54complete76excluded1in_progress327queued"
+      },
+      {
+        "command": "python3 tools/check_team_assignments.py",
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/check_autonomous_program.py",
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_research_map.py",
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/editorial/build_workbench.py --check",
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/catalog.py --check",
+        "result": "PASS"
+      },
+      {
+        "command": "git diff --check BASE..HEAD",
+        "result": "PASS"
+      },
+      {
+        "command": "node --test tests-coast/living-languages.test.mjs tests-coast/santali-editorial.test.mjs",
+        "cwd": "projects/site",
+        "runtime": "Node24.15.0",
+        "result": "PASS9/9 independently rerun at final head"
+      }
+    ],
+    "limitations": [
+      "Prior1October selected booklet-page review retained explicitly; Drishti didnot freshlyretrieve or independentlyrevalidate those pages.",
+      "No fluent Santali, pronunciation, specialist, human or field review; Nalha poemsnotread.",
+      "Drishti independently reviewed3saved screenshots, not interactivebrowser/physicaldevice/screenreader. Disha performedactual responsive and keyboard checks.",
+      "Full566/coast361 pass logs are coordinator executions; Drishti independently ran36focused checks then9final-delta checks.",
+      "Required CI must pass onfinal reviewedhead beforemerge; publication/livechecks/receipt remain necessary and no completionclaim isissued.",
+      "No repository edits/build/Gitmutation/publication byDrishti;temporaryreportonly."
+    ],
+    "prior_review_head": "a2e15c187a1194524ded18cb474e0bc2d88bad9c",
+    "final_delta_checks": [
+      "Inspected four-file delta froma2e15c18: only living-languages test assertions, generated collection fingerprint, team evidence/status and operations phase; production/article/asset bytes unchanged.",
+      "Living-languages test now explicitly validates Santali visible source notes and collapsed onward reading, preserving legacy checks for six other profiles. Checked date follows each canonical entry; portable assertions verify each complete paragraph instead of joined text.",
+      "Independently reran living-languages and Santali suites9/9PASS on fresh output; prior36/36 focused checks remain applicable.",
+      "Read coordinator logs: full566/566 and coast361/361 pass; these full-suite executions were not performed by Drishti.",
+      "Workbench, rollout, ownership, programme and diff checks independently pass. Article065 remains the sole in-progress article with Disha retaining ownership; counts54complete76excluded327queued,programme112.",
+      "Earlier review is faithfully preserved as historical snapshot. Current handoff explicitly blocks actual responsive/keyboard review and claims no merge/deployment/completion."
+    ],
+    "release_gate": {
+      "status": "REVIEW_PASSED_AWAITING_REQUIRED_CI_AND_PUBLICATION",
+      "ownership": "Disha retains POD-EDIT-065 through publication receipt integration",
+      "visual_gate": "Resolved by recorded Disha actual browser review plus independent Drishti sampled screenshot review"
+    },
+    "prior_conditional_review_head": "6347c5c601abd9c4ba3435c134e061b8b40c083e",
+    "browser_evidence_review": {
+      "performed_by": "Drishti screenshot and record review; Disha performed interactive checks",
+      "screenshots_visually_inspected": [
+        "desktop-reading.png",
+        "mobile-hero.png",
+        "mobile-notes.png"
+      ],
+      "observations": [
+        "Desktop reading column is centered with clear paragraph/section separation and visible source markers.",
+        "Mobile hero shows byline and complete uncropped specimen with context caption; visible content fits viewport.",
+        "Mobile footnotes wrap legibly with visible numbered notes and exact-return controls; no clipped text visible in sampled screenshot."
+      ],
+      "coordinator_interactive_checks": "Disha reports1440x900 and390x844,no horizontal overflow,740/343.195px reading widths,18/17px body,33.3/30.6px line heights; Enter to note and exact return changes hash+focus; Further reading initiallyclosed and Enter opens; update outside disclosures.",
+      "limits": "Screenshots support sampled visual state, not independent keyboard execution or proof of entire-page overflow. Interactive measurements/focus observations remain attributed to Disha."
+    },
+    "evidence_delta_checks": [
+      "Eight-file delta contains6PNG screenshots plus team and operations evidence only; no production/code/asset changes.",
+      "Earlier conditional review transcribed exactly; resolved browser blocker is explicitly historical. Article remains in_progress, ownershipretained, no merge/deploy/completionclaimed.",
+      "Independent ownership,rollout,diff checksPASS;54complete76excluded1active327queued. Prior source/code/test checks remain applicable."
+    ],
+    "screenshots_sha256": {
+      "desktop-notes.png": "75eb918d4ff1f74aed92f9167a31d801caf12b75f0094b93ade50969c764754c",
+      "mobile-notes.png": "c4fdde4d69ad810b7bfeb912c11be7659bfd0bc6e219802b4c8de65c23b35b5c",
+      "mobile-hero.png": "069260645a8ddbd259b72c19214bdddcfd3c09ef93a59785471b45b1862e9bef",
+      "mobile-reading.png": "6070305afba090c198e804bfb6a9dd80ad2528b7473a0e81cf7f60e20734ca5e",
+      "desktop-reading.png": "05eb318ebfaa39208c50b28b63fccfcc6ad2ce276787b24db81e51913e2a2e57",
+      "desktop-hero.png": "1f7ab853530ff79af0e3d28efac585f95d521612e87378a37d0b2810354f93f6"
+    }
+  },
+  "integration_review": {
+    "head": "b5a3bec5353bed59a28e12f277c51a43b7d85bcc",
+    "result": "pass",
+    "scope": "Published merge tree identical to separately reviewed candidate."
+  },
+  "attachment_note": "PR attachment attempted; app100-attachment limit reached; actual URL retained.",
+  "counting": "One editorial article; zero substantive500 increment. Programme remains112.",
+  "limitations": [
+    "Separate AI research, implementation and review, not human, fluent-language or field review.",
+    "Booklet credits/table evidence retains1October inspection; fresh retrieval failed21October. No pronunciation review or Nalha poem interpretation.",
+    "Browser emulation, not physical-device or screen-reader testing."
+  ],
+  "verified_routes": [
+    "/languages/santali/"
+  ]
+}

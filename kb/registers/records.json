@@ -8647,7 +8647,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "POD-DEC-2026101702",
-      "next_action": "Continue next eligible queued article after verifying receipt integration and reconciling team ownership;54 editorial entries complete.",
+      "next_action": "Integrate Santali receipt and reconcile ownership before next eligible article;55 editorial entries complete.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026101702",
@@ -8742,7 +8742,9 @@
         "POD-REV-2026102017",
         "POD-REL-2026102017",
         "POD-REV-2026102018",
-        "POD-REL-2026102018"
+        "POD-REL-2026102018",
+        "POD-REV-2026102102",
+        "POD-REL-2026102101"
       ],
       "evidence": [
         "reference/article-editorial-standard.md",
@@ -8795,7 +8797,8 @@
         "records/similipal-stay-editorial-publication-2026-10-20.json",
         "records/chhena-poda-editorial-publication-2026-10-20.json",
         "records/mudhi-mansa-editorial-publication-2026-10-20.json",
-        "records/chandipur-meal-editorial-publication-2026-10-20.json"
+        "records/chandipur-meal-editorial-publication-2026-10-20.json",
+        "records/santali-editorial-publication-2026-10-21.json"
       ],
       "acceptance_criteria": [
         "Every published baseline route classified; each article independently reviewed against approved standard with PR/test/deploy/live receipt; exclusions justified; future articles follow same rule."
@@ -21577,6 +21580,31 @@
         "Idle-state ownership test fixtures repaired; validator semantics unchanged.",
         "Final record transcription and passing PR checks required before merge."
       ]
+    },
+    {
+      "id": "POD-REV-2026102102",
+      "title": "Separate Santali article and source review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent /root/drishti"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human or fluent-language review.",
+      "reviewed_head": "48752aa24ca2b51070acf17754739d9e20ac0787",
+      "refs": [
+        "POD-WORK-302",
+        "POD-DEC-2026101901",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/santali-editorial-team-2026-10-21.json"
+      ],
+      "limitations": [
+        "Separate AI research, implementation and review, not human, fluent-language or field review.",
+        "Booklet credits/table evidence retains1October inspection; fresh retrieval failed21October. No pronunciation review or Nalha poem interpretation.",
+        "Browser emulation, not physical-device or screen-reader testing."
+      ]
     }
   ],
   "releases": [
@@ -24901,6 +24929,23 @@
         "records/chandipur-meal-editorial-team-2026-10-20.json"
       ],
       "note": "Reviewed PR394 passed checks and merged; approved deployment and live notes, retained photograph and responsive reading verified. Zero substantive programme credit."
+    },
+    {
+      "id": "POD-REL-2026102101",
+      "title": "Santali language, script and reading practice",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/languages/santali/",
+      "refs": [
+        "POD-WORK-302",
+        "POD-REV-2026102102",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/santali-editorial-publication-2026-10-21.json",
+        "records/santali-editorial-team-2026-10-21.json"
+      ],
+      "note": "ReviewedPR401 passedCI and merged; approved deployment and live notes, retainedCC0 specimen and responsive reading verified. Zero substantive programme credit."
     }
   ],
   "sources": [

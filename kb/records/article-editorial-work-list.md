@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 458. completed: 54, excluded: 76, in_progress: 1, queued: 327.
+Route inventory: 458. completed: 55, excluded: 76, queued: 327.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -78,7 +78,7 @@ Route inventory: 458. completed: 54, excluded: 76, in_progress: 1, queued: 327.
 | POD-EDIT-062 | [Food &amp; flavours](https://projectodisha.org/food/) | excluded | directory_utility |
 | POD-EDIT-063 | [Things to do](https://projectodisha.org/things-to-do/) | excluded | directory_utility |
 | POD-EDIT-064 | [Where to base yourself](https://projectodisha.org/stay-areas/) | excluded | directory_utility |
-| POD-EDIT-065 | [Santali](https://projectodisha.org/languages/santali/) | in_progress | Santali language, Ol Chiki and reading practice |
+| POD-EDIT-065 | [Santali](https://projectodisha.org/languages/santali/) | completed | Santali language, Ol Chiki and reading practice |
 | POD-EDIT-066 | [Kui](https://projectodisha.org/languages/kui/) | queued | classification_pending |
 | POD-EDIT-067 | [Kuvi](https://projectodisha.org/languages/kuvi/) | queued | classification_pending |
 | POD-EDIT-068 | [Saora / Sora](https://projectodisha.org/languages/saora/) | queued | classification_pending |

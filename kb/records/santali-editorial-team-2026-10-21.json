@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-21T03:34:45.502032+00:00",
   "article_id": "POD-EDIT-065",
   "route": "/languages/santali/",
-  "status": "responsive_verified_awaiting_final_review",
+  "status": "published_receipt_pending_integration",
   "input_head": "a3836d8123dc7208435e2bfb06f115331f945e67",
   "authorization": [
     "POD-DEC-2026101702",
@@ -59,7 +59,7 @@
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Separate read-only review of integrated candidate; no self-review or human-review claim.",
-      "status": "reviewing_final_browser_evidence"
+      "status": "complete"
     },
     {
       "name": "Disha",
@@ -145,13 +145,15 @@
     "Initial missing #mayurbhanj restored; stale presentation/date/export test assumptions corrected with per-route and complete-paragraph assertions.",
     "Research precision correction applied: Nalha script is not inferred from award record.",
     "Source-map, catalogue, research map, rollout, team and programme consistency checks PASS.",
-    "No article completion, merge, publication, live verification or deployment claimed."
+    "Publication packaging PASS: limited mode11indexable pages; no search eligibility expansion.",
+    "PR401 passed final validation39544815191 and merged exact reviewed48752aa2; merge tree b5a3bec5 identical. Approved publication39545275532 in progress; live receipt and completion pending.",
+    "Approved deployment succeeded; actual live HTML, original SVG,11-page sitemap and desktop/mobile browser verified. Receipt integration still required before ownership release."
   ],
   "review": {
     "reviewer": "Drishti, separate AI subagent /root/drishti; not human review",
-    "input_head": "6347c5c601abd9c4ba3435c134e061b8b40c083e",
+    "input_head": "48752aa24ca2b51070acf17754739d9e20ac0787",
     "base": "a3836d8123dc7208435e2bfb06f115331f945e67",
-    "result": "CONDITIONAL_CONTENT_CODE_PASS_VISUAL_GATE_BLOCKED",
+    "result": "PASS",
     "blocking_findings": [],
     "scope": "POD-EDIT-065 Santali: prose/evidence, exact-route opt-in, visible source mapping, retained media and complete portable narrative.",
     "actual_source_checks": [
@@ -230,12 +232,12 @@
       }
     ],
     "limitations": [
-      "Prior1October selected booklet-page review retained explicitly; Drishti did not freshly retrieve or independently revalidate those pages.",
-      "No fluent Santali, pronunciation, specialist, human or field review; Nalha poems not read.",
-      "No build/Git mutation/publication or repository writes performed by Drishti; temporary report only.",
-      "Actual desktop/mobile visual and keyboard review is incomplete because coordinator browser transport is unavailable. Drishti performed no independent interactive review; test assertions do not substitute for that gate.",
-      "Content/code/test review accepted conditionally only. No merge or publication approval until actual responsive/keyboard checks, final review evidence, required CI and remaining publication gates pass.",
-      "Coordinator logs show full566/coast361PASS; Drishti independently reran focused suites only."
+      "Prior1October selected booklet-page review retained explicitly; Drishti didnot freshlyretrieve or independentlyrevalidate those pages.",
+      "No fluent Santali, pronunciation, specialist, human or field review; Nalha poemsnotread.",
+      "Drishti independently reviewed3saved screenshots, not interactivebrowser/physicaldevice/screenreader. Disha performedactual responsive and keyboard checks.",
+      "Full566/coast361 pass logs are coordinator executions; Drishti independently ran36focused checks then9final-delta checks.",
+      "Required CI must pass onfinal reviewedhead beforemerge; publication/livechecks/receipt remain necessary and no completionclaim isissued.",
+      "No repository edits/build/Gitmutation/publication byDrishti;temporaryreportonly."
     ],
     "prior_review_head": "a2e15c187a1194524ded18cb474e0bc2d88bad9c",
     "final_delta_checks": [
@@ -247,10 +249,38 @@
       "Earlier review is faithfully preserved as historical snapshot. Current handoff explicitly blocks actual responsive/keyboard review and claims no merge/deployment/completion."
     ],
     "release_gate": {
-      "status": "BLOCKED",
-      "requirement": "Actual responsive and keyboard review",
-      "ownership": "Disha retains POD-EDIT-065",
-      "user_action_required": false
+      "status": "REVIEW_PASSED_AWAITING_REQUIRED_CI_AND_PUBLICATION",
+      "ownership": "Disha retains POD-EDIT-065 through publication receipt integration",
+      "visual_gate": "Resolved by recorded Disha actual browser review plus independent Drishti sampled screenshot review"
+    },
+    "prior_conditional_review_head": "6347c5c601abd9c4ba3435c134e061b8b40c083e",
+    "browser_evidence_review": {
+      "performed_by": "Drishti screenshot and record review; Disha performed interactive checks",
+      "screenshots_visually_inspected": [
+        "desktop-reading.png",
+        "mobile-hero.png",
+        "mobile-notes.png"
+      ],
+      "observations": [
+        "Desktop reading column is centered with clear paragraph/section separation and visible source markers.",
+        "Mobile hero shows byline and complete uncropped specimen with context caption; visible content fits viewport.",
+        "Mobile footnotes wrap legibly with visible numbered notes and exact-return controls; no clipped text visible in sampled screenshot."
+      ],
+      "coordinator_interactive_checks": "Disha reports1440x900 and390x844,no horizontal overflow,740/343.195px reading widths,18/17px body,33.3/30.6px line heights; Enter to note and exact return changes hash+focus; Further reading initiallyclosed and Enter opens; update outside disclosures.",
+      "limits": "Screenshots support sampled visual state, not independent keyboard execution or proof of entire-page overflow. Interactive measurements/focus observations remain attributed to Disha."
+    },
+    "evidence_delta_checks": [
+      "Eight-file delta contains6PNG screenshots plus team and operations evidence only; no production/code/asset changes.",
+      "Earlier conditional review transcribed exactly; resolved browser blocker is explicitly historical. Article remains in_progress, ownershipretained, no merge/deploy/completionclaimed.",
+      "Independent ownership,rollout,diff checksPASS;54complete76excluded1active327queued. Prior source/code/test checks remain applicable."
+    ],
+    "screenshots_sha256": {
+      "desktop-notes.png": "75eb918d4ff1f74aed92f9167a31d801caf12b75f0094b93ade50969c764754c",
+      "mobile-notes.png": "c4fdde4d69ad810b7bfeb912c11be7659bfd0bc6e219802b4c8de65c23b35b5c",
+      "mobile-hero.png": "069260645a8ddbd259b72c19214bdddcfd3c09ef93a59785471b45b1862e9bef",
+      "mobile-reading.png": "6070305afba090c198e804bfb6a9dd80ad2528b7473a0e81cf7f60e20734ca5e",
+      "desktop-reading.png": "05eb318ebfaa39208c50b28b63fccfcc6ad2ce276787b24db81e51913e2a2e57",
+      "desktop-hero.png": "1f7ab853530ff79af0e3d28efac585f95d521612e87378a37d0b2810354f93f6"
     }
   },
   "resolved_blocker": {
@@ -297,7 +327,8 @@
       "focus_matches_hash": true,
       "further_reading_initial_closed": true,
       "enter_opens_further_reading": true,
-      "suggest_update_outside_disclosures": true
+      "suggest_update_outside_disclosures": true,
+      "mobile_enter_return_and_disclosure": true
     },
     "screenshots": [
       "records/evidence/santali-editorial-2026-10-21/desktop-hero.png",
@@ -316,5 +347,14 @@
     "head": "6347c5c601abd9c4ba3435c134e061b8b40c083e",
     "run": 39540866930,
     "conclusion": "SUCCESS"
-  }
+  },
+  "publication_pending": {
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/401",
+    "reviewed_head": "48752aa24ca2b51070acf17754739d9e20ac0787",
+    "merge_commit": "b5a3bec5353bed59a28e12f277c51a43b7d85bcc",
+    "merged_at": "2026-10-21T04:39:40Z",
+    "ci": 39544815191,
+    "deployment": 39545275532
+  },
+  "publication_receipt": "records/santali-editorial-publication-2026-10-21.json"
 }
