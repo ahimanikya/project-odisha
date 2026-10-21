@@ -859,3 +859,7 @@ Reused `food/collection.json`, its existing photograph and current culinary-trai
 ## Chandipur meal article reuse · 21 October 2026
 
 POD-EDIT-060 reuses the food entry, current cuisine trail and existing harbour source identity. Fresh original-page reading adds a dated named fish-landing example and distinguishes its scope from kitchen supply and preparation. Old Chandipur food attribution remains historical evidence. No new source entity or field confirmation. Mapping: `research/food/chandipur-meal-editorial.json`. Zero substantive programme credit.
+
+### Ho article editorial reuse · 21 October 2026
+
+POD-EDIT-069 extends the existing voices Ho introduction, SCSTRTI community profile and 2018 booklet before bounded primary-source reading. The Unicode17 account and its 2012 proposal are one related evidence lineage, not independent corroborators. A selected July2024 Ho–Odia primer lesson adds concrete learning-page and contributor detail without translations or image reproduction. Source mapping: `research/voices/ho-editorial.json`; access and selected-page limits: `research/voices/ho-research-2026-10-21.json`. No new language identity, field testimony or substantive-programme credit.

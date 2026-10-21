@@ -1,0 +1,226 @@
+{
+  "recorded_at": "2026-10-21T12:07:07.895045+00:00",
+  "article_id": "POD-EDIT-069",
+  "route": "/languages/ho/",
+  "status": "in_progress",
+  "input_head": "6e947832f6071ce02aa36455c027f23789f88d37",
+  "authorization": [
+    "POD-DEC-2026101702",
+    "POD-DEC-2026101901",
+    "POD-DEC-225"
+  ],
+  "central_question": "How has Ho been put into writing and learning materials, and what can a reader understand from the people, scripts and concrete pages involved?",
+  "scope": "Deepen existing Ho introduction with actual sources and concrete learning examples; preserve source limits, contributor credits and credible text identity panel.",
+  "acceptance": [
+    "Specific supported explanation and claim mapping",
+    "Reference reading rhythm, byline, visible notes and exact returns",
+    "Preserve learning credits and dated Census scope",
+    "Separate AI review, tests, desktop/mobile checks, reviewed PR, approved deployment, live verification and merged receipt"
+  ],
+  "ownership": "Disha retains claim through receipt integration.",
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only bounded research; temporary report only.",
+      "status": "complete"
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/components/CultureMagazine.astro",
+        "projects/site/src/components/CultureOnward.astro",
+        "projects/site/src/components/LanguagePopulation.astro",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/tests-coast/ho-editorial.test.mjs",
+        "projects/site/tests-coast/balasore-editorial.test.mjs",
+        "projects/site/tests-coast/bhima-editorial.test.mjs",
+        "projects/site/tests-coast/bhubaneswar-editorial.test.mjs",
+        "projects/site/tests-coast/fakir-editorial.test.mjs",
+        "projects/site/tests-coast/gangadhar-editorial.test.mjs",
+        "projects/site/tests-coast/gopinath-editorial.test.mjs",
+        "projects/site/tests-coast/kui-editorial.test.mjs",
+        "projects/site/tests-coast/kuvi-editorial.test.mjs",
+        "projects/site/tests-coast/languages-editorial.test.mjs",
+        "projects/site/tests-coast/literature-editorial.test.mjs",
+        "projects/site/tests-coast/mayurbhanj-editorial.test.mjs",
+        "projects/site/tests-coast/odia-editorial.test.mjs",
+        "projects/site/tests-coast/pratibha-editorial.test.mjs",
+        "projects/site/tests-coast/puri-editorial.test.mjs",
+        "projects/site/tests-coast/santali-editorial.test.mjs",
+        "projects/site/tests-coast/saora-editorial.test.mjs",
+        "projects/site/tests-coast/sarala-editorial.test.mjs",
+        "projects/site/tests-coast/six-acres-editorial.test.mjs",
+        "projects/site/tests-coast/voices-passage-sources.test.mjs",
+        "projects/site/tests-coast/living-languages.test.mjs",
+        "projects/site/tests/voices.test.mjs"
+      ],
+      "status": "complete"
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Separate read-only integrated candidate review after implementation.",
+      "status": "pending"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": [
+        "kb/research/voices/collection.json",
+        "kb/research/voices/ho-editorial.json",
+        "kb/research/voices/ho-research-2026-10-21.json",
+        "shared records and publishing"
+      ],
+      "status": "working"
+    }
+  ],
+  "counting": {
+    "substantive500": 112,
+    "increment": 0
+  },
+  "previous_integration": {
+    "pull_request": 408,
+    "head": "8318503e4ae0be6505c2ae7759c569c69f69d18e",
+    "merge_commit": "6e947832f6071ce02aa36455c027f23789f88d37",
+    "merged_at": "2026-10-21T11:35:02Z",
+    "required_ci": 39592458334,
+    "tree_equivalence": "a4a3d3b0ffc9dfca8c076755d789cdc66c0a779a"
+  },
+  "worker_reconciliation": "Existing named agents observed completed from Saora; reuse with follow-up tasks, no duplicate agents.",
+  "next_action": "Research Ho sources and implement the exact Ho opt-in; separate integrated review follows.",
+  "existing_article_audit": {
+    "findings": [
+      "Actual live page and screenshot inspected; two sections, four brief paragraphs without script or concrete learning examples.",
+      "Credible text-only Ho/Mayurbhanj identity panel retained; no documentary image or invented cultural scene.",
+      "2018 booklet publisher and compilers preserved individually."
+    ],
+    "url": "https://projectodisha.org/languages/ho/",
+    "census_independent_check": {
+      "file": "kb/research/references/census-2011/c16-odisha.xlsx",
+      "sheet": "Sheet1",
+      "row": 180,
+      "cells": {
+        "A180": "C0116",
+        "B180": "21",
+        "C180": "000",
+        "D180": "00000",
+        "E180": "ODISHA",
+        "F180": "048004",
+        "G180": " Ho",
+        "H180": "411098",
+        "I180": "203176",
+        "J180": "207922",
+        "K180": "387665",
+        "L180": "191404",
+        "M180": "196261",
+        "N180": "23433",
+        "O180": "11772",
+        "P180": "11661"
+      },
+      "sha256": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db"
+    }
+  },
+  "research": "research/voices/ho-research-2026-10-21.json",
+  "implementation": {
+    "article_id": "POD-EDIT-069",
+    "input_head": "9de3534bd5e1378a1a16abb4156f68c61d8e40d0",
+    "base_head": "6e947832f6071ce02aa36455c027f23789f88d37",
+    "status": "frozen_focused_rendered_checks_pass",
+    "files": [
+      "projects/site/src/components/CultureMagazine.astro",
+      "projects/site/src/components/CultureOnward.astro",
+      "projects/site/src/components/LanguagePopulation.astro",
+      "projects/site/src/data/journey-catalog.ts",
+      "projects/site/tests-coast/ho-editorial.test.mjs",
+      "projects/site/tests-coast/balasore-editorial.test.mjs",
+      "projects/site/tests-coast/bhima-editorial.test.mjs",
+      "projects/site/tests-coast/bhubaneswar-editorial.test.mjs",
+      "projects/site/tests-coast/fakir-editorial.test.mjs",
+      "projects/site/tests-coast/gangadhar-editorial.test.mjs",
+      "projects/site/tests-coast/gopinath-editorial.test.mjs",
+      "projects/site/tests-coast/kui-editorial.test.mjs",
+      "projects/site/tests-coast/kuvi-editorial.test.mjs",
+      "projects/site/tests-coast/languages-editorial.test.mjs",
+      "projects/site/tests-coast/literature-editorial.test.mjs",
+      "projects/site/tests-coast/mayurbhanj-editorial.test.mjs",
+      "projects/site/tests-coast/odia-editorial.test.mjs",
+      "projects/site/tests-coast/pratibha-editorial.test.mjs",
+      "projects/site/tests-coast/puri-editorial.test.mjs",
+      "projects/site/tests-coast/santali-editorial.test.mjs",
+      "projects/site/tests-coast/saora-editorial.test.mjs",
+      "projects/site/tests-coast/sarala-editorial.test.mjs",
+      "projects/site/tests-coast/six-acres-editorial.test.mjs",
+      "projects/site/tests-coast/voices-passage-sources.test.mjs",
+      "projects/site/tests-coast/living-languages.test.mjs",
+      "projects/site/tests/voices.test.mjs"
+    ],
+    "checks": [
+      "All 22 modified/new tests passed Node24 syntax checks.",
+      "git diff --check passed.",
+      "Node24 --test tests-coast/ho-editorial.test.mjs tests-coast/saora-editorial.test.mjs tests-coast/living-languages.test.mjs tests-coast/voices-passage-sources.test.mjs: 34 passed, 0 failed against coordinator fresh dist-coast."
+    ],
+    "preserved": [
+      "Exact Ho editorial mapping and all prior reviewed language behavior.",
+      "Text-only cover and language/culture anchors; existing 2018 publisher/compiler credit.",
+      "Population uses existing individual Census entry, counts/year/atlas links; mapped note added only to Ho.",
+      "Full portable section paragraphs and short sources, existing reading:languages/ho identity; no image/translation added.",
+      "Only stale negative controls moved to queued Juang; genuine links remain."
+    ],
+    "limits": [
+      "No implementation changes needed after canonical integration.",
+      "No build, browser review, source research, asset/shared-record edits, Git mutation or publishing by Samanta."
+    ],
+    "integration_input_head": "18f7c1e90f7b4e56224db5daebf6411597d1e590",
+    "content_counts": {
+      "sections": 5,
+      "paragraphs": 8,
+      "notes": 6,
+      "references": 9
+    }
+  },
+  "source_audit": "Disha independently viewed original primer PDF5 and PDF20, confirming July2024edition and printed6learning layout; no source images reproduced.",
+  "browser_review": {
+    "reviewer": "Disha, AI coordinator",
+    "input_head": "18f7c1e90f7b4e56224db5daebf6411597d1e590 plus source-order correction",
+    "desktop": {
+      "width": 1440,
+      "height": 900,
+      "readingWidth": 740,
+      "font": "18px",
+      "lineHeight": "33.3px",
+      "scrollWidth": 1440
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "readingWidth": 343.1953125,
+      "font": "17px",
+      "lineHeight": "30.6px",
+      "scrollWidth": 390
+    },
+    "notes": 6,
+    "references": 9,
+    "keyboard": "Enter reaches note-ho-unicode17 and exact return ref-language-0-ho-unicode17 with focus at both sizes. Further reading initially closed and opens with Enter at both sizes.",
+    "visual": "Six screenshots inspected; text-only identity panel retained, paragraphs and visible notes readable with no horizontal overflow.",
+    "screenshots": [
+      "records/evidence/ho-editorial-2026-10-21/desktop-hero.png",
+      "records/evidence/ho-editorial-2026-10-21/desktop-reading.png",
+      "records/evidence/ho-editorial-2026-10-21/desktop-notes.png",
+      "records/evidence/ho-editorial-2026-10-21/mobile-hero.png",
+      "records/evidence/ho-editorial-2026-10-21/mobile-reading.png",
+      "records/evidence/ho-editorial-2026-10-21/mobile-notes.png"
+    ],
+    "limitations": "Viewport emulation; no physical-device or screen-reader review."
+  },
+  "validation_notes": [
+    "Full build566/566PASS; initial coast385/385PASS; publication11indexable unchanged.",
+    "Drishti suggested first-use source ordering. Transitional rebuild started before corrected source save and portable-source test caught stale order; clean serial rebuild followed.",
+    "Final saved order fresh coast385/385PASS; rendered firstmarkers1then2.",
+    "457 directory indexes plus404 total458; no unregistered routes.",
+    "Separate final evidence review and PR/publication/receipt remain gates.",
+    "Initial PR409 CI39598683863 caught a stale generated research index after the reuse-map note. Regenerated the index; no article content or search eligibility change.",
+    "CI39599035726 then caught the workbench fingerprint affected by regenerated index; regenerated the dependent workbench and checked consistency. No site or factual changes."
+  ]
+}

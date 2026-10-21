@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-21T11:07:27.913957+00:00",
   "article_id": "POD-EDIT-068",
   "route": "/languages/saora/",
-  "status": "published_receipt_pending_integration",
+  "status": "complete",
   "input_head": "8d1d0c19cbd9cd8df3b0b1a325ff7a1e82ecf964",
   "authorization": [
     "POD-DEC-2026101702",
@@ -17,7 +17,7 @@
     "Preserve contributor and publisher credits, original anchors and full portable narrative with short source list.",
     "Separate AI review, tests, actual responsive/keyboard review, passing PR, approved deployment, live checks and integrated receipt."
   ],
-  "ownership": "Disha retains claim through publication receipt integration.",
+  "ownership": "Released after observed receipt integration.",
   "executions": [
     {
       "name": "Anvesha",
@@ -292,8 +292,16 @@
     "status": "completed",
     "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39591359974"
   },
-  "next_action": "Integrate the separately reviewed receipt through passing required checks and an observed merge before releasing the Saora claim.",
+  "next_action": "Saora claim released after observed receipt merge; next queued article is Ho.",
   "publication_receipt": "records/saora-editorial-publication-2026-10-21.json",
   "pull_request": "https://github.com/ahimanikya/project-odisha/pull/407",
-  "receipt_pull_request": "https://github.com/ahimanikya/project-odisha/pull/408"
+  "receipt_pull_request": "https://github.com/ahimanikya/project-odisha/pull/408",
+  "receipt_integration_observed": {
+    "pull_request": 408,
+    "head": "8318503e4ae0be6505c2ae7759c569c69f69d18e",
+    "merge_commit": "6e947832f6071ce02aa36455c027f23789f88d37",
+    "merged_at": "2026-10-21T11:35:02Z",
+    "required_ci": 39592458334,
+    "tree_equivalence": "a4a3d3b0ffc9dfca8c076755d789cdc66c0a779a"
+  }
 }
