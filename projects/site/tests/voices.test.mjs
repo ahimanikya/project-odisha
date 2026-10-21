@@ -7,7 +7,7 @@ test('language and literary pages retain claim sources, real assets and reuse cr
   for(const page of data.pages){
     const html=readFileSync(`dist/${page.path}/index.html`,'utf8');
     assert.ok(html.includes(page.title));
-    if(['languages','languages/odia','languages/santali','literature','people/fakir-mohan-senapati','literature/six-acres-and-a-third','people/sarala-das','people/pratibha-ray','people/bhima-bhoi','people/gopinath-mohanty','people/gangadhar-meher'].includes(page.path)){assert.ok(html.includes('By Ahimanikya Satapathy'));assert.match(html,/<section id="story-sources"/);}else assert.ok(html.includes('Editorial preview'));
+    if(['languages','languages/odia','languages/santali','languages/kui','literature','people/fakir-mohan-senapati','literature/six-acres-and-a-third','people/sarala-das','people/pratibha-ray','people/bhima-bhoi','people/gopinath-mohanty','people/gangadhar-meher'].includes(page.path)){assert.ok(html.includes('By Ahimanikya Satapathy'));assert.match(html,/<section id="story-sources"/);}else assert.ok(html.includes('Editorial preview'));
     for(const section of page.sections)for(const p of section.paragraphs){
       assert.ok(['sourced_summary','editorial_invitation','asset_description'].includes(p.kind));
       if(p.kind==='sourced_summary')assert.ok(p.source_ids.length,`${page.path}: unsupported factual paragraph`);

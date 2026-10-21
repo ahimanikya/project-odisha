@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-21T03:34:45.502032+00:00",
   "article_id": "POD-EDIT-065",
   "route": "/languages/santali/",
-  "status": "published_receipt_pending_integration",
+  "status": "receipt_integrated",
   "input_head": "a3836d8123dc7208435e2bfb06f115331f945e67",
   "authorization": [
     "POD-DEC-2026101702",
@@ -18,7 +18,7 @@
     "Complete portable narrative with short sources; preserve census chart and learning-resource attribution.",
     "Meaningful tests, desktop/mobile and keyboard checks, separate AI review, passing PR, authorized main deployment, actual live check and integrated receipt."
   ],
-  "ownership": "Disha retains claim through publication receipt integration.",
+  "ownership": "Released after observed merge of PR402; file scopes complete.",
   "executions": [
     {
       "name": "Anvesha",
@@ -356,5 +356,12 @@
     "ci": 39544815191,
     "deployment": 39545275532
   },
-  "publication_receipt": "records/santali-editorial-publication-2026-10-21.json"
+  "publication_receipt": "records/santali-editorial-publication-2026-10-21.json",
+  "receipt_integration": {
+    "pull_request": 402,
+    "reviewed_head": "077f075e11dab225e1482a1b77c01c65259cc3b6",
+    "merge_commit": "c30643edd43a10746c3b14a7f15219c4273847c3",
+    "merged_at": "2026-10-21T04:53:08Z",
+    "ci": 39545988052
+  }
 }

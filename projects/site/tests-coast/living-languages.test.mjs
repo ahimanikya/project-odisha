@@ -15,7 +15,7 @@ test('all seven introductions have a real learning resource and a public contrib
   const r=entry.learning_resource;assert.ok(html.includes(`href="${r.href}"`));assert.ok(voices.sources[r.source_id]);
   assert.ok(html.includes('November 2018'));assert.ok(html.includes('submitted issues are public'));assert.ok(html.includes('id="share-a-voice"'));
   assert.ok(!/<(?:audio|iframe)\b/.test(html));
-  if(slug==='santali'){
+  if(['santali','kui'].includes(slug)){
    const outside=html.replace(/<details\b[^>]*>[\s\S]*?<\/details>/g,'');
    assert.match(outside,/<section id="story-sources"/);
    assert.match(outside,/data-footnote-ref/);assert.match(outside,/data-footnote-backref/);
