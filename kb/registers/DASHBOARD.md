@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `928e6b616df362d00972988c1bc35c3792b3ca0a5b8cc8a48e340cd0d4b21880`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `55766093b7614a2a3c578f9c6129a39f03a0cb2df06475955f6cb6d67f726590`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -1213,7 +1213,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261020010 | 2026-10-20T11:36:19.178657+00:00 | Published and live-verified POD-EDIT-052 Mayurbhanj via PR371 and approved deployment39415654479. Forest river connections, named Chhau movement and collaborators, Ol Chiki plays and Baripada literary gathering with eight visible notes and complete portable reading;45 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261020011 | 2026-10-20T12:32:52.726686+00:00 | Published and live-verified POD-EDIT-053 Chandipur via PR373 and approved deployment39422437567. Tidal-flat slope, sediment pathways and surface traces with two visible notes and complete portable reading;46 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261020012 | 2026-10-20T13:33:59.405057+00:00 | Published and live-verified POD-EDIT-054 Similipal via PR375 and approved deployment39430851737. Watershed observation, local historical mahua knowledge and visitor conduct with three visible notes and complete portable reading;47 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261020013 | 2026-10-20T14:47:20.257840+00:00 | Published and live-verified POD-EDIT-055 Mayurbhanj Chhau via PR377 and approved deployment39441642691. Training recollection, named works, artists and teaching initiative with four visible notes and complete portable reading;48 editorial entries complete, substantive programme112 unchanged. | — |
@@ -1223,6 +1222,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261020017 | 2026-10-20T20:42:14.123192+00:00 | Published and live-verified POD-EDIT-059 Mudhi Mansa via PR392 and approved deployment39493529777. Documented cooker-gravy memory, restaurant choices and chicken variation, four visible notes and complete portable reading;53 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261020018 | 2026-10-20T21:45:24.238519+00:00 | Published and live-verified POD-EDIT-060 Chandipur meal via PR394 and approved deployment39502276923. Regional seafood and dated harbour account, with kitchen sourcing kept distinct, two visible notes and complete portable reading;54 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261021001 | 2026-10-21T02:42:54.599123+00:00 | Separate research, technical live inspection and AI review support individual utility exclusions for POD-EDIT-061 through064. PR399 awaits final checks and integration.54 completed articles and112 substantive items unchanged;76 exclusions,328 queued. Prior Chandipur receipt395 observed merged and article ownership released. | — |
+| POD-EVT-20261021002 | 2026-10-21T02:49:46.144037+00:00 | PR399 exact separately accepted head passed validation39534590666 and merged at2026-10-21T02:48:42Z. Four individual utility exclusions applied; no deployment required.54 articles and112 programme items unchanged. Classification ownership released; application evidence in records/planning-hub-application-2026-10-21.json | — |
 
 ## Deferred extensions
 

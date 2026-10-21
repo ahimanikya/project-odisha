@@ -7,7 +7,7 @@
     "POD-DEC-225"
   ],
   "work_id": "POD-WORK-302",
-  "status": "reviewed_pending_integration",
+  "status": "complete",
   "input_head": "9c1a3a4f08e0db94387c987deb80adad29d1e313",
   "branch": "codex/planning-hub-classification-20261021",
   "scope": "Individual classification of queued directory routes POD-EDIT-061 through POD-EDIT-064. No public article or website edits.",
@@ -18,7 +18,7 @@
     "previous_article": "POD-EDIT-060",
     "previous_receipt_pr": 395,
     "observed_receipt_merge": "41cda4dab4ee635bcc3f89262c1a05422abddb3e",
-    "release": "Previous article ownership released after observed receipt merge."
+    "release": "Utility classification applied in observed merge PR399; all assigned file scopes released."
   },
   "executions": [
     {
@@ -56,7 +56,7 @@
         "generated KB register/catalog/workbench views",
         "Samanta integration: tools/test_team_assignments.py"
       ],
-      "status": "awaiting_passing_checks_and_merge"
+      "status": "complete"
     }
   ],
   "acceptance": [
@@ -1214,12 +1214,12 @@
     "publication": "No site edits or deployment; four live page checks are observations of the existing deployment.",
     "previous_receipt": "Observed PR395 MERGED at2026-10-21T01:27:32Z, reviewed head c54ba45efb89fbdfda3a6b865765f3c483f1b9e1, CI39503090863 success."
   },
-  "next_action": "Verify final PR399 reviewed head and passing required checks, merge, then record actual integration; no article or programme credit.",
+  "next_action": "Read current operations and rollout; select the next eligible queued article after reconciling other workers. No active article or utility claim remains.",
   "ci_failure": {
     "run": 39534031454,
     "head": "05a40a6766a6b231bf32aef8b33c316015086ecc",
     "reason": "Three ownership test fixtures dereference null current_article while validator accepts idle/no-claim state. Samanta assigned bounded fixture repair.",
-    "resolution": "Explicit active test fixtures plus idle/no-claim acceptance; all10 ownership tests pass locally. Await CI rerun."
+    "resolution": "Fixture repaired; final reviewed head3cc3e14dde8f79dad2765b78503ae4252b71968b passed required validation39534590666."
   },
   "attachment": "PR399 attachment attempted; app thread attachment identity count exceeds100. URL retained in record.",
   "pull_request": "https://github.com/ahimanikya/project-odisha/pull/399",
@@ -1412,5 +1412,6 @@
       "Any forthcoming review/register/activity transcription remains outside this exact reviewed head and requires narrow delta review."
     ]
   },
-  "integration_gate": "Classification is accepted at the separately reviewed candidate. Application is effective only after PR399 passes required checks on its final reviewed head and is observed merged. No deployment required. Resume next queued article only after integration is reconciled."
+  "integration_gate": "Satisfied by observed PR399 merge d57e80fe4139f3b104ff2155e5771ea9ca6839ac at2026-10-21T02:48:42Z after final review and passing validation39534590666.",
+  "application_receipt": "records/planning-hub-application-2026-10-21.json"
 }
