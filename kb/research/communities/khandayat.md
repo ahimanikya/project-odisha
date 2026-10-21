@@ -11,4 +11,4 @@ The Saori account is an origin tradition reported by Tanabe, not verified royal 
 
 No existing Khandayat-specific rights-cleared image was found in the reused collection. The candidate uses a readable text-led presentation without synthetic historical portraits. Regional family histories and contemporary customs require further evidence.
 
-Article POD-EDIT-460; programme POD-A500-114; work POD-WORK-304. In progress until separate review, tests, deployment and live receipt are complete.
+Article POD-EDIT-460; programme POD-A500-114; work POD-WORK-304. Published with separate AI review, tests, deployment and [live receipt](../../records/khandayat-editorial-publication-2026-10-22.json). Community and regional evidence gaps remain open.

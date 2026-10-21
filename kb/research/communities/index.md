@@ -1,6 +1,6 @@
 # Odisha community history: working coverage index
 
-Paika begins this series with a question about service, land and community identity. The next proposed study is Khandayat: how the name appears in historical records, how its meanings vary by place and period, and how community histories relate to military service without making Paika and Khandayat interchangeable.
+Paika begins this series with a question about service, land and community identity. The next published study is Khandayat: how the name appears in historical records, how its meanings vary by place and period, and how community histories relate to military service without making Paika and Khandayat interchangeable.
 
 This is a research map, not a complete list of Odisha castes. Its [machine-readable inventory](coverage-index.json) separates source observations from editorial topics. An administrative row can contain several names, regional restrictions, substitutions or deleted entries. It cannot by itself establish one community, shared ancestry, an alias, or present legal eligibility.
 
@@ -9,11 +9,11 @@ This is a research map, not a complete list of Odisha castes. Its [machine-reada
 | Topic | State | Research boundary |
 | --- | --- | --- |
 | [Paika](https://projectodisha.org/communities/paika/) | Published | Historical military/service identity; regional community uses require their own evidence. |
-| Khandayat | Article in progress | Examine dated records and regional histories; documented service connections do not establish identity equivalence. |
+| [Khandayat](https://projectodisha.org/communities/khandayat/) | Published | Examine dated records and regional histories; documented service connections do not establish identity equivalence. |
 | Paiko | Regional scope unresolved | Compare each regional use before proposing a canonical identity or alias. |
 | Kottia Paiko | Regional scope unresolved | Retain the gazetteer's separately described label; do not infer equivalence with similarly spelled administrative entries. |
 
-The four topics are a starting set, not four categories into which other people should be placed. Khandayat is now claimed separately in the article handoff; the index itself does not confer publication status.
+The four topics are a starting set, not four categories into which other people should be placed. Khandayat publication is evidenced in its article receipt; further regional histories remain open.
 
 ## Source coverage as accessed on 22 October 2026
 

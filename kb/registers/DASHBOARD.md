@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `3439922c594c0662bae90e91a9e22fcabd6663475437a6749afc81ce846c49f5`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `5e4c3851bf8dc8764cc09f4a4df3a7fdc896f05918aa0a1d3c5d848577eee368`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -328,7 +328,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026101902 · Migrate Project Odisha identifiers to POD with traceable UTP aliases | completed | applied | Ahimanikya Satapathy | Use canonical POD IDs and exact historical aliases; migration integrated. | — |
 | POD-WORK-2026101903 · Reconcile and migrate the Odisha project family | completed | reviewed | Ahimanikya Satapathy | Use canonical Odisha family IDs and exact historical aliases; no duplicate records. | — |
 | POD-WORK-303 · Research and publish Paika service, community and Odia heritage | completed | published | Ahimanikya Satapathy | Retain article ownership through observed receipt integration, then build community coverage index and select next evidence-backed community history. | — |
-| POD-WORK-304 · Research and publish Khandayat community history | in_progress | draft | Ahimanikya Satapathy | Research and prepare one Khandayat article; no credit before publication receipt. | — |
+| POD-WORK-304 · Research and publish Khandayat community history | completed | published | Ahimanikya Satapathy | Retain claim through receipt integration, then select next evidence-backed community history. | — |
 
 ## Pending human review and decisions
 
@@ -981,6 +981,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026102110 | pass_with_limitations | True | Separate AI research, implementation and review; no human, historian, field visit, school-access or museum-object confirmation.; Selected re-typeset retrospective autobiography; no manuscript or critical-edition collation. Reproduced 1948 preface is not a composition date.; Browser viewport emulation, not physical-device or screen-reader testing. Portable reading retains existing museum image only; both photographs appear on website. |
 | POD-REV-2026102111 | pass_with_limitations | True | Separate AI research, implementation and review; no human specialist, field visit or recipe test.; Named cultural accounts do not establish an invention date or uniform household practice.; Desktop and mobile viewport emulation, not physical-device or screen-reader testing. |
 | POD-REV-2026102201 | pass_with_limitations | True | Separate AI research/review; no human historian, community interview or field observation.; Khurda service history is not a universal genealogy of all regional Paiko communities.; Text-first article; no invented historical images; current legal classifications and uninterrupted performance lineage not asserted. |
+| POD-REV-2026102202 | pass_with_limitations | True | Separate AI research and review; no human historian or community field review.; Khurda and Garh Manitri evidence is not universal regional genealogy or current custom.; Some chapter text has font corruption; only legible narrow claims adopted. Original census/service manuscripts not independently read.; No current legal status, caste rank or wedding Haldi origin inferred; search eligibility unchanged. |
 
 ## Publication and application history
 
@@ -1200,6 +1201,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026102109 · Bose childhood, classrooms and remembered influence | published | https://projectodisha.org/people/subhas-chandra-bose/ | POD-DEC-225 |
 | POD-REL-2026102110 · Enduri pitha preparation and festival context | published | https://projectodisha.org/food/enduri-pitha/ | POD-DEC-225 |
 | POD-REL-2026102201 · Paika service, community and Odia heritage | published | https://projectodisha.org/communities/paika/ | POD-DEC-225 |
+| POD-REL-2026102202 · Khandayat land service and community history | published | https://projectodisha.org/communities/khandayat/ | POD-DEC-225 |
 
 ## Sources and assets
 
@@ -1237,7 +1239,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261021004 | 2026-10-21T09:52:43.058094+00:00 | Kui article066 published after source research, implementation, separateAI review, passing tests, responsive/keyboard checks, PR403 and approved deployment. Actual live receipt verified; ownership retained through receipt integration.56articles complete;112programme items unchanged. | — |
 | POD-EVT-20261021005 | 2026-10-21T10:25:18.032748+00:00 | Kuvi article067 published after source research, implementation, separate AI review, passing tests, responsive/keyboard checks, PR405 and approved deployment. Actual live receipt verified; ownership retained through receipt integration. 57 articles complete; 112 programme items unchanged. | — |
 | POD-EVT-20261021006 | 2026-10-21T11:27:13.490208+00:00 | Saora article068 published after source research, implementation, separate AI review, passing tests, responsive/keyboard checks, PR407 and approved deployment. Actual live receipt verified; ownership retained through receipt integration. 58 articles complete; 112 programme items unchanged. | — |
 | POD-EVT-20261021007 | 2026-10-21T12:35:09.720057+00:00 | Ho article069 published after source research, implementation, separate AI review, passing tests, responsive/keyboard checks, PR409 and approved deployment. Actual live receipt verified; ownership retained through receipt integration. 59 articles complete; 112 programme items unchanged. | — |
@@ -1247,6 +1248,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261021011 | 2026-10-21T17:05:13.950062+00:00 | Bose childhood article073 published after primary-source research, implementation, separate AI review, tests, responsive/keyboard checks, PR417 and approved deployment. Actual live receipt verified; ownership retained through receipt integration. 63 articles complete;112 programme items unchanged. | — |
 | POD-EVT-20261021012 | 2026-10-21T18:35:13.268002+00:00 | Enduri article074 published through reviewed PR419 and approved deployment; live prose and responsive interactions verified. Claim retained through receipt integration.64 articles complete;112 programme items unchanged. | — |
 | POD-EVT-20261022001 | 2026-10-21T19:38:15.234829+00:00 | Founder-prioritized Paika history published through reviewed PR421 and approved deployment; live prose, responsive notes and discovery verified.65 editorial articles complete;113 individually evidenced programme items. Retain claim until receipt merge observed. | — |
+| POD-EVT-20261022002 | 2026-10-21T21:41:44.840261+00:00 | Khandayat history published through reviewed PR424 and approved workflow; live checks passed.66 editorial articles complete;114 programme items; retain claim until receipt merge. | — |
 
 ## Deferred extensions
 
