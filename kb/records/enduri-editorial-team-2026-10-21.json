@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-21T17:16:35.616687+00:00",
   "article_id": "POD-EDIT-074",
   "route": "/food/enduri-pitha/",
-  "status": "candidate_ready_for_pr",
+  "status": "published_receipt_integration_pending",
   "input_head": "fd3b0220afa598199b6772955095e4eb34223db3",
   "authorization": [
     "POD-DEC-2026101702",
@@ -72,7 +72,7 @@
     "merged_at": "2026-10-21T17:13:36Z",
     "observed_at": "2026-10-21T17:16:35.616687+00:00"
   },
-  "next_action": "Complete responsive review, commit reviewed candidate, PR checks, merge, approved publication and receipt integration. Then prioritize Paika per Founder continuation-chat instruction before remaining queued entries.",
+  "next_action": "Merge reviewed receipt after passing checks; reconcile observed merge then resume Paika priority.",
   "runtime_recovery": "2026-10-21 continuation chat: old source turn interrupted; read_thread confirms Anvesha and Samanta completed and their reports exist. Current tree has only new root before recreation. Existing uncommitted scaffold preserved. Open PRs 304 and 281 unrelated; leave untouched.",
   "latest_founder_direction": {
     "source": "Continuation chat 21 October 2026",
@@ -104,5 +104,6 @@
       "failure": "Legacy pitha test expects obsolete human-review-pending boilerplate on revised Enduri",
       "resolution": "Corrected Enduri expectation; unchanged Poda remains checked. Full coastal suite414 passed."
     }
-  ]
+  ],
+  "publication_receipt": "records/enduri-editorial-publication-2026-10-21.json"
 }
