@@ -127,7 +127,7 @@
     "article_id": "POD-EDIT-069",
     "input_head": "9de3534bd5e1378a1a16abb4156f68c61d8e40d0",
     "base_head": "6e947832f6071ce02aa36455c027f23789f88d37",
-    "status": "scaffold_ready_awaiting_canonical_copy_and_map",
+    "status": "frozen_focused_rendered_checks_pass",
     "files": [
       "projects/site/src/components/CultureMagazine.astro",
       "projects/site/src/components/CultureOnward.astro",
@@ -158,7 +158,8 @@
     ],
     "checks": [
       "All 22 modified/new tests passed Node24 syntax checks.",
-      "git diff --check passed."
+      "git diff --check passed.",
+      "Node24 --test tests-coast/ho-editorial.test.mjs tests-coast/saora-editorial.test.mjs tests-coast/living-languages.test.mjs tests-coast/voices-passage-sources.test.mjs: 34 passed, 0 failed against coordinator fresh dist-coast."
     ],
     "preserved": [
       "Exact Ho editorial mapping and all prior reviewed language behavior.",
@@ -168,9 +169,56 @@
       "Only stale negative controls moved to queued Juang; genuine links remain."
     ],
     "limits": [
-      "Canonical copy/map pending; source/rendered/export checks not yet run.",
-      "No build, source research, browser review, asset/shared-record edits, Git mutations or publishing."
-    ]
+      "No implementation changes needed after canonical integration.",
+      "No build, browser review, source research, asset/shared-record edits, Git mutation or publishing by Samanta."
+    ],
+    "integration_input_head": "18f7c1e90f7b4e56224db5daebf6411597d1e590",
+    "content_counts": {
+      "sections": 5,
+      "paragraphs": 8,
+      "notes": 6,
+      "references": 9
+    }
   },
-  "source_audit": "Disha independently viewed original primer PDF5 and PDF20, confirming July2024edition and printed6learning layout; no source images reproduced."
+  "source_audit": "Disha independently viewed original primer PDF5 and PDF20, confirming July2024edition and printed6learning layout; no source images reproduced.",
+  "browser_review": {
+    "reviewer": "Disha, AI coordinator",
+    "input_head": "18f7c1e90f7b4e56224db5daebf6411597d1e590 plus source-order correction",
+    "desktop": {
+      "width": 1440,
+      "height": 900,
+      "readingWidth": 740,
+      "font": "18px",
+      "lineHeight": "33.3px",
+      "scrollWidth": 1440
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "readingWidth": 343.1953125,
+      "font": "17px",
+      "lineHeight": "30.6px",
+      "scrollWidth": 390
+    },
+    "notes": 6,
+    "references": 9,
+    "keyboard": "Enter reaches note-ho-unicode17 and exact return ref-language-0-ho-unicode17 with focus at both sizes. Further reading initially closed and opens with Enter at both sizes.",
+    "visual": "Six screenshots inspected; text-only identity panel retained, paragraphs and visible notes readable with no horizontal overflow.",
+    "screenshots": [
+      "records/evidence/ho-editorial-2026-10-21/desktop-hero.png",
+      "records/evidence/ho-editorial-2026-10-21/desktop-reading.png",
+      "records/evidence/ho-editorial-2026-10-21/desktop-notes.png",
+      "records/evidence/ho-editorial-2026-10-21/mobile-hero.png",
+      "records/evidence/ho-editorial-2026-10-21/mobile-reading.png",
+      "records/evidence/ho-editorial-2026-10-21/mobile-notes.png"
+    ],
+    "limitations": "Viewport emulation; no physical-device or screen-reader review."
+  },
+  "validation_notes": [
+    "Full build566/566PASS; initial coast385/385PASS; publication11indexable unchanged.",
+    "Drishti suggested first-use source ordering. Transitional rebuild started before corrected source save and portable-source test caught stale order; clean serial rebuild followed.",
+    "Final saved order fresh coast385/385PASS; rendered firstmarkers1then2.",
+    "457 directory indexes plus404 total458; no unregistered routes.",
+    "Separate final evidence review and PR/publication/receipt remain gates."
+  ]
 }
