@@ -15,7 +15,13 @@ test('all seven introductions have a real learning resource and a public contrib
   const r=entry.learning_resource;assert.ok(html.includes(`href="${r.href}"`));assert.ok(voices.sources[r.source_id]);
   assert.ok(html.includes('November 2018'));assert.ok(html.includes('submitted issues are public'));assert.ok(html.includes('id="share-a-voice"'));
   assert.ok(!/<(?:audio|iframe)\b/.test(html));
-  assert.ok(html.replaceAll('&amp;','&').includes('Sources, image credits & editorial notes'));
+  if(slug==='santali'){
+   const outside=html.replace(/<details\b[^>]*>[\s\S]*?<\/details>/g,'');
+   assert.match(outside,/<section id="story-sources"/);
+   assert.match(outside,/data-footnote-ref/);assert.match(outside,/data-footnote-backref/);
+   const onward=html.match(/<section class="culture-onward-disclosure"[\s\S]*?<\/section>/)?.[0];assert.ok(onward);
+   assert.match(onward,/<summary[^>]*>Further reading<\/summary>/);assert.doesNotMatch(onward,/<details[^>]*\bopen\b/);
+  }else assert.ok(html.replaceAll('&amp;','&').includes('Sources, image credits & editorial notes'));
  }
  for(const slug of ['gondi','kisan','sadri']){assert.ok(!existsSync(`dist-coast/languages/${slug}/index.html`));assert.ok(!hub.includes(`href="/languages/${slug}/"`));}
 });
@@ -26,8 +32,8 @@ test('new reading items preserve sources, prompts, earlier notes and Odia text t
  const restored=parseBackup(JSON.stringify(library));assert.deepEqual(restored,library);
  const html=buildTourBook(restored.trips[0].plan,data.catalog),text=buildTextItinerary(restored.trips[0].plan,data.catalog);
  for(const slug of slugs){
-  const items=data.catalog.filter(i=>i.id===`reading:languages/${slug}`);assert.equal(items.length,1);const item=items[0];assert.equal(item.checked,'2026-10-01');assert.ok(item.practical.length>=3);
-  for(const n of item.practical){assert.ok(html.includes(escapeHTML(n.text)));assert.ok(text.includes(n.text));}
+  const items=data.catalog.filter(i=>i.id===`reading:languages/${slug}`);assert.equal(items.length,1);const item=items[0];const entry=voices.pages.find(p=>p.path===`languages/${slug}`);assert.equal(item.checked,entry.checked_on||voices.checked_on);assert.ok(item.practical.length>=3);
+  for(const n of item.practical)for(const paragraph of n.paragraphs||[n.text]){assert.ok(html.includes(escapeHTML(paragraph)));assert.ok(text.includes(paragraph));}
   for(const s of item.sources){assert.ok(html.includes(escapeHTML(s.url)));assert.ok(text.includes(s.url));}
  }
  for(const phrase of ['Keep my lake question','ମୋ ଯାତ୍ରା','ask about this edition']){assert.ok(html.includes(phrase));assert.ok(text.includes(phrase));}

@@ -51,6 +51,6 @@ test('Literature keeps collapsed onward reading and visible update privacy with 
  for(const href of ['/literature/reading-journey/','/languages/odia/','/languages/','/destinations/'])assert.ok(onward.includes(`href="${href}"`),href);
  const outside=html.replace(/<details\b[^>]*>[\s\S]*?<\/details>/g,'');
  assert.match(outside,/href="\/contribute\/\?page=%2Fliterature%2F"[^>]*>Suggest an update/);assert.match(outside,/GitHub submissions are public; omit private contact details and consent documents/);
- const other=page('/languages/santali/');assert.doesNotMatch(other,/class="article-byline"|id="story-sources"/);assert.match(other,/Editorial preview/);
+ const other=page('/languages/kui/');assert.doesNotMatch(other,/class="article-byline"|id="story-sources"/);assert.match(other,/Editorial preview/);
  for(const route of ['/languages/','/languages/odia/']){const existing=page(route);assert.ok(existing.includes('By Ahimanikya Satapathy'));assert.ok(existing.includes('id="story-sources"'));}
 });

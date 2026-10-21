@@ -12,8 +12,8 @@ for(const original of collection.pages.filter(p=>edition.routes.includes('/'+p.p
  if(entry.path==='languages')entry.roster=[...held.map(c=>c.title),...(entry.roster||[])];
  const sources=voiceSources(entry,collection.sources);
  const html=readFileSync('dist-coast/'+entry.path+'/index.html','utf8').replaceAll('&#39;',"'");
- if(['languages','languages/odia','literature','people/fakir-mohan-senapati','literature/six-acres-and-a-third','people/sarala-das','people/pratibha-ray','people/bhima-bhoi','people/gopinath-mohanty','people/gangadhar-meher'].includes(entry.path)){
-  const editorial=JSON.parse(readFileSync('../../kb/research/voices/'+({'languages/odia':'odia','people/fakir-mohan-senapati':'fakir','literature/six-acres-and-a-third':'six-acres','people/sarala-das':'sarala','people/pratibha-ray':'pratibha','people/bhima-bhoi':'bhima','people/gopinath-mohanty':'gopinath','people/gangadhar-meher':'gangadhar'}[entry.path]||entry.path)+'-editorial.json','utf8'));
+ if(['languages','languages/odia','languages/santali','literature','people/fakir-mohan-senapati','literature/six-acres-and-a-third','people/sarala-das','people/pratibha-ray','people/bhima-bhoi','people/gopinath-mohanty','people/gangadhar-meher'].includes(entry.path)){
+  const editorial=JSON.parse(readFileSync('../../kb/research/voices/'+({'languages/santali':'santali','languages/odia':'odia','people/fakir-mohan-senapati':'fakir','literature/six-acres-and-a-third':'six-acres','people/sarala-das':'sarala','people/pratibha-ray':'pratibha','people/bhima-bhoi':'bhima','people/gopinath-mohanty':'gopinath','people/gangadhar-meher':'gangadhar'}[entry.path]||entry.path)+'-editorial.json','utf8'));
   assert.match(html,/<section id="story-sources"/);
   for(const passage of editorial.passages)for(const id of passage.source_ids){
    const ref=`ref-${passage.id}-${id}`;

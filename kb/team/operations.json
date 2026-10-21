@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/planning-hub-classification-2026-10-21.json",
+  "handoff_home": "records/santali-editorial-team-2026-10-21.json",
   "roles": [
     {
       "name": "Disha",
@@ -54,7 +54,17 @@
     "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
-  "current_article": null,
+  "current_article": {
+    "id": "POD-EDIT-065",
+    "route": "/languages/santali/",
+    "owner": "Disha",
+    "coordinator_runtime": "/root",
+    "phase": "responsive_verified_awaiting_final_review",
+    "branch": "codex/santali-editorial-20261021",
+    "input_head": "a3836d8123dc7208435e2bfb06f115331f945e67",
+    "file_reservations": "records/santali-editorial-team-2026-10-21.json#executions",
+    "integration_gate": "Retain ownership through observed publication receipt merge."
+  },
   "project_identity": "reference/project-identity.md",
   "current_task": null
 }
