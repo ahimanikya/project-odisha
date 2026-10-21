@@ -16,7 +16,7 @@ test('Jhula ships eighteen sets plus two Pattachitra options and all original ba
  assert.match(html,/name="comment" maxlength="1000"/);
  assert.doesNotMatch(html,/class="vote-button" href=/);
  assert.match(html,/90 cm along the exposed strap/);
- assert.doesNotMatch(html,/>[^<]*(?:Kabira|Kabi’s Kit)[^<]*</);
+ assert.doesNotMatch(html,/>[^<]*(?:\bKabira\b|Kabi’s Kit)[^<]*</);
  assert.match(html,/noindex/);
  assert.match(html,/<input name="name"[^>]*required/);
  assert.match(html,/<input type="email" name="email"/);

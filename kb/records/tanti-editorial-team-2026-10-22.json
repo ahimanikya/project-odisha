@@ -28,7 +28,7 @@
         "projects/site/src/pages/communities/tanti.astro",
         "projects/site/tests-coast/tanti-editorial.test.mjs"
       ],
-      "status": "testing"
+      "status": "completed"
     },
     {
       "name": "Drishti",
@@ -43,5 +43,13 @@
     }
   ],
   "worker_reconciliation": "Chasa team completed; PR427 merge81be904a observed and no active article. Unrelated PR304/281 untouched. Existing workers reused.",
-  "next_action": "Complete candidate tests and independent AI review, then reviewed PR and authorized publication."
+  "next_action": "Complete candidate tests and independent AI review, then reviewed PR and authorized publication.",
+  "source_report": "research/sources/tanti-research.json",
+  "review_scope": "Separate Drishti AI review; original source table and dated regional accounts; no human review.",
+  "implementation": "records/tanti-implementation-2026-10-22.json",
+  "verification": {
+    "tests": "566 full and430coast passed; publication11indexable",
+    "responsive": "1440desktop/390mobile; notes,returns,contents,previewSave andKhandua link passed",
+    "record_checks": "programme/team/bundle/researchmap/coverage passed"
+  }
 }
