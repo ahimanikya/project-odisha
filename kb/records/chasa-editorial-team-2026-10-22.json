@@ -18,7 +18,7 @@
       "name": "Anvesha",
       "runtime": "/root/anvesha",
       "scope": "Read-only source research report /tmp/pod-chasa-research.json",
-      "status": "assigned"
+      "status": "completed"
     },
     {
       "name": "Samanta",
@@ -27,13 +27,13 @@
         "projects/site/src/pages/communities/chasa.astro",
         "projects/site/tests-coast/chasa-editorial.test.mjs"
       ],
-      "status": "assigned"
+      "status": "testing"
     },
     {
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Read-only integrated review after candidate ready",
-      "status": "waiting"
+      "status": "reviewing"
     },
     {
       "name": "Disha",
@@ -42,5 +42,6 @@
     }
   ],
   "worker_reconciliation": "Existing agents all completed Khandayat; PR425 merge92f27f06 observed. No active article; unrelated PR304/281 untouched.",
-  "next_action": "Investigate Chasa sources and prepare one evidence-grounded article; do not force publication if material is inadequate."
+  "next_action": "Investigate Chasa sources and prepare one evidence-grounded article; do not force publication if material is inadequate.",
+  "source_report": "research/sources/chasa-research.json"
 }

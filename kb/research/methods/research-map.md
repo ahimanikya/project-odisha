@@ -883,3 +883,7 @@ Reuse `people/subhas-chandra-bose.json`, `people/bose-editorial.json` and `peopl
 ### Khandayat community history · 22 October 2026
 
 POD-EDIT-460 reuses Paika research and the source-preserving community coverage index. The original Tanabe2020 source ID is retained. Additional original scholarly chapter, nineteenth-century printed witness and1991–92 village ethnography support social formation, dated classification and local ritual context. Administrative lists do not establish origins or legal status; Khurda evidence is not universal family genealogy. Mapping: `research/communities/khandayat.json`; inspection limits: `research/sources/khandayat-research.json`.
+
+### Chasa community history · 22 October 2026
+
+POD-EDIT-461 reuses the community index, Paika/Khandayat source maps and the original Tanabe2020 ID. New original Bhadrak Gazetteer, Penthabahal Census1961-series monograph and Misra1966 rice-ritual study distinguish occupation, identity, local tenure and shared agrarian heritage. Regional labels are not automatic aliases; historical land distribution is not current demographic evidence. Mapping: `research/communities/chasa.json`; inspection limits: `research/sources/chasa-research.json`.
