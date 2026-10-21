@@ -56,13 +56,13 @@
         "projects/site/tests/voices.test.mjs",
         "projects/site/tests-coast/voices-passage-sources.test.mjs"
       ],
-      "status": "awaiting_canonical_checks"
+      "status": "complete"
     },
     {
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Separate read-only integrated-candidate review.",
-      "status": "pending"
+      "status": "reviewing"
     },
     {
       "name": "Disha",
@@ -111,7 +111,7 @@
     "article_id": "POD-EDIT-068",
     "input_head": "45b152409f436345a56d720e522c95430155c15d",
     "base_head": "8d1d0c19cbd9cd8df3b0b1a325ff7a1e82ecf964",
-    "status": "scaffold_ready_awaiting_canonical_copy_and_map",
+    "status": "frozen_focused_rendered_checks_pass",
     "files": [
       "projects/site/src/components/CultureMagazine.astro",
       "projects/site/src/components/LanguagePopulation.astro",
@@ -144,7 +144,9 @@
     ],
     "checks": [
       "All 21 modified/new tests passed Node24 syntax checks.",
-      "git diff --check passed."
+      "git diff --check passed.",
+      "Source-only Saora mapping test: 1 passed, 0 failed.",
+      "Node24 --test tests-coast/saora-editorial.test.mjs tests-coast/kuvi-editorial.test.mjs tests-coast/living-languages.test.mjs tests-coast/voices-passage-sources.test.mjs: 34 passed, 0 failed against coordinator fresh dist-coast."
     ],
     "preserved": [
       "Exact Saora-only opt-in and unchanged prior reviewed language behavior.",
@@ -154,9 +156,55 @@
       "Stale negative controls moved only to queued Ho; genuine Saora references and language-atlas Savara assertion preserved."
     ],
     "limits": [
-      "Canonical content and map pending; no source/rendered/export execution yet.",
-      "No build, source research, browser review, asset/shared-record edits, Git mutation or publishing."
+      "No implementation changes needed after canonical integration.",
+      "No build, browser review, source research, asset/shared-record edits, Git mutation or publishing by Samanta."
+    ],
+    "integration_input_head": "bcbba430633f2d9427f4cb3cb1b8954ec0b47d83",
+    "content_counts": {
+      "sections": 5,
+      "paragraphs": 8,
+      "notes": 6,
+      "references": 10
+    }
+  },
+  "source_audit": "Disha independently inspected original primer page5 edition and page16 picture lesson renders; retained no image reproductions.",
+  "browser_review": {
+    "reviewer": "Disha, AI coordinator",
+    "input_head": "bcbba430633f2d9427f4cb3cb1b8954ec0b47d83",
+    "desktop": {
+      "font": "18px",
+      "height": 900,
+      "lineHeight": "33.3px",
+      "notes": 6,
+      "readingWidth": 740,
+      "refs": 10,
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "mobile": {
+      "font": "17px",
+      "height": 844,
+      "lineHeight": "30.6px",
+      "readingWidth": 343.1953125,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    "keyboard": "Enter reaches note-sora-ciil and exact return ref-names-0-sora-ciil with focus at both sizes. Further reading initially closed and opens with Enter at both sizes.",
+    "visual": "Six screenshots inspected; text-only identity panel retained, readable paragraphs/notes and no horizontal overflow.",
+    "screenshots": [
+      "records/evidence/saora-editorial-2026-10-21/desktop-hero.png",
+      "records/evidence/saora-editorial-2026-10-21/desktop-reading.png",
+      "records/evidence/saora-editorial-2026-10-21/desktop-notes.png",
+      "records/evidence/saora-editorial-2026-10-21/mobile-hero.png",
+      "records/evidence/saora-editorial-2026-10-21/mobile-reading.png",
+      "records/evidence/saora-editorial-2026-10-21/mobile-notes.png"
+    ],
+    "limitations": [
+      "Browser viewport emulation, not physical-device or screen-reader review."
     ]
   },
-  "source_audit": "Disha independently inspected original primer page5 edition and page16 picture lesson renders; retained no image reproductions."
+  "validation_notes": [
+    "Full build and566/566 tests PASS; coast build and379/379 tests PASS; limited publication11 indexable unchanged.",
+    "Actual desktop/mobile keyboard and visual review passed; separate AI final review pending."
+  ]
 }
