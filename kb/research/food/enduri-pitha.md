@@ -64,3 +64,10 @@ Enduri/Haldi Patra uses rice–black-gram batter, coconut/paneer filling and tur
 [Prathamastami](../culture/osha/prathamastami.md) now distinguishes ritual offering, a documented filling and personal food gifting. The saved CRRI2015 entry (printed19/PDF30) describes a steamer or cloth tied over a covered pot. Sarangi’s2018 Prathamastami paragraph names enduri alongside other foods and her Manabasa paragraph also includes enduri; association does not mean exclusive availability. These are attributed descriptions, not a tested recipe or universal household menu.
 
 [Related reading](../culture/osha/prathamastami.md) — Preparation and festival context explain different parts of the same food association; neither establishes a universal recipe.
+
+
+## Editorial revision · 21 October 2026
+
+The candidate narrative explains the turmeric wrapper, supported steaming, and a documented rice–black-gram preparation, alongside Namita Sarangi’s descriptions of Prathamastami and Manabasa. These accounts do not establish an invention date or a universal household recipe. The original photograph and its rights are retained.
+
+[Claim mapping](enduri-editorial.json) · [Research and source inspection](enduri-research-2026-10-21.json). Publication and separate review remain pending.

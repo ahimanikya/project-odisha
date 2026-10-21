@@ -1,0 +1,243 @@
+{
+  "task": "POD-EDIT-074",
+  "route": "/food/enduri-pitha/",
+  "researcher": "Anvesha, separate AI researcher",
+  "input_head": "089327801dff7c48af5c5971fbb96343d391ab17",
+  "base_head": "fd3b0220afa598199b6772955095e4eb34223db3",
+  "date": "2026-10-21",
+  "status": "bounded research complete; canonical writer integrates",
+  "resume": "Interruption occurred before temporary report creation. HEAD reconfirmed same on resumption; original PDF remained, extraction/render performed after resumption.",
+  "reuse_before_browsing": [
+    "AGENTS/governance/editorialstandard fromongoingteamwork",
+    "currentenduri-editorial-teamhandoff",
+    "researchmapexistingEnduri/Prathamastami reuse",
+    "query_research.py enduri foundfood/enduri-pitha andRES077",
+    "food/enduri-pitha.md",
+    "culture/osha/prathamastami.md",
+    "sources/food-crri-rice2015.md",
+    "sources/osha-kanji-sarangi2018.md",
+    "food/collection.json existingEnduriandanchors"
+  ],
+  "central_findings": [
+    "Leaf contributes aroma and physically wraps batter/filling duringsteaming.",
+    "Documented batter/filling distinct, including paneer; no universal recipe.",
+    "Steamerandclothovercoveredpot explain supportedparcelsabovewater.",
+    "Prathamastami kinship/offeringcontext andManabasa occurrence, withoutorigin claim.",
+    "Namedcompiler andcreditedwomencontributors retained withscopehonest."
+  ],
+  "sources": [
+    {
+      "id": "food-crri-rice2015",
+      "title": "Lipi Das · Traditional Rice Foods: The Rich Heritage of India (2015)",
+      "url": "https://icar-crri.in/wp-content/uploads/2023/05/final_book_ldas.pdf",
+      "local_pdf": "/tmp/pod-enduri-crri.pdf",
+      "local_text": "/tmp/pod-enduri-crri.txt",
+      "sha256": "e4d5894ef8492225462e69f4ec5ff76f80ea56c20234ffa2cdb8475bca3c3999",
+      "bytes": 2582188,
+      "pages": 134,
+      "actual_access": "Original institutional PDF freshly downloaded with valid TLS; pypdf extraction inspected and PDF30/printed19 locally rendered and visually inspected.",
+      "visual_paths": [
+        "/tmp/pod-enduri-p30.png"
+      ],
+      "selected_pages": {
+        "credits": 3,
+        "foreword": 4,
+        "preface": 6,
+        "Enduri": 30
+      },
+      "edition": "2015 correctcitation,15April2015foreword. 2023path is upload location, not publication date.",
+      "claims": [
+        {
+          "locator": "PDF30/printed19",
+          "finding": "Heading Enduri Pitha or Haldi Patra Pitha, Odisha label. Rice/blackgram batter, restingfermentation, coconutandpaneer filling, jaggery/sugar,cardamom/pepper. Foldturmericleaves andsteam; steamerorclothcoveredpot alternatives."
+        },
+        {
+          "locator": "PDF6Preface",
+          "finding": "Researchwithfarmwomen andSankiloworkshop; AnanyaMahilaBikasSamiticontributedprimaryinformationonseveralOdishafoods. Primaryandsecondarycompilationexplicit; noEnduri-onlyhouseholdattribution."
+        }
+      ],
+      "public_note": "Printed page 19 (PDF30), with contributor context in the preface. One documented preparation; no recipe testing claimed.",
+      "limits": [
+        "No full recipe reproduction, quantities or cooking-time prescription.",
+        "No recipe testing, medicinal effect, nutritional advantage or storage/safety guidance.",
+        "Text says fomentation, contextclearlybatterfermentation; noextra microbiologicalclaims.",
+        "PrefacedoesnotestablishEndurioriginatSankilo or particular household.",
+        "Government publication not assumed publicdomain; total publicsourcebudget200."
+      ]
+    },
+    {
+      "id": "food-tourism",
+      "title": "Odisha Tourism · The Taste of Odisha",
+      "url": "https://apps.odishatourism.gov.in/the-taste-of-odisha",
+      "old_url": "https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html",
+      "actual_access": "OldURL404; same namedoverview freshfullactual successor page read, Enduri headinglines302–304. Preserve oldaccesshistory.",
+      "claims": [
+        "Turmericleafaroma,coconutjaggeryfilling,Prathamastamiassociation."
+      ],
+      "public_note": "The Enduri Pitha entry describes turmeric-leaf aroma, coconut and jaggery, and its Prathamastami association.",
+      "limits": [
+        "Institutional overview, not namedhouseholdsurvey or recipe.",
+        "No exclusivefestivalday or uniquegeographicuseofturmericleaf inferred.",
+        "Do not import nearby broad foodhealthclaims."
+      ]
+    },
+    {
+      "id": "osha-kanji-sarangi2018",
+      "title": "Namita Sarangi · ଓଡିଆ ଘରେ ‘ଶୀତ ଋତୁ’ (2018)",
+      "url": "https://samadhwani.com/1311",
+      "actual_access": "Original authoredOdiaarticle freshactualwebtextread; author/date at132–134; selected adjacentparagraphs172–173.",
+      "author_display": "ଡ଼ଃ ନମିତା ଷଡ଼ଙ୍ଗୀ",
+      "published": "2018-01-08",
+      "claims": [
+        {
+          "locator": "Paragraph172beforeKanjiAnlatransition",
+          "finding": "Eldestchild, bath/newclothesfrommaternalhome, turmericleafEnduri,radishdalma,kheeri,fish offeredtoSasthi beforebandapana. Fish inthisparagraph isnotdriedfishofsubsequentKanjiAnla account."
+        },
+        {
+          "locator": "Paragraph173Manabasa",
+          "finding": "EnduriexplicitinLakshmiofferinglist. ThusPrathamastamiassociationnotexclusiveonlyday."
+        }
+      ],
+      "public_note": "Namita Sarangi, 8 January 2018: adjacent Prathamastami and Manabasa paragraphs. Locality and household sample are unspecified.",
+      "limits": [
+        "Authoredculturalaccount, not datesfororigins,fieldwork or statewidesurvey.",
+        "AuthoraffiliationPuri collegedoesnotidentifyallcustoms asPuri-specific.",
+        "No fluent/native/humanreviewclaimed; no extendedtranslation orpoemquotations.",
+        "Do not adopthealthcausalclaimsinotherparagraphs."
+      ]
+    },
+    {
+      "id": "optional-enduri-pattnaik2019",
+      "title": "Sameet Mamta Pattnaik · Enduri Pitha On The Occasion Of Prathamastami",
+      "url": "https://apps.odishatourism.gov.in/blog-detail/enduri-pitha-on-the-occasion-of-prathamastami",
+      "actual_access": "Actualhostedblogtextread,lines253–264,22November2019. Notproposedforcanonicalsourceadditionunlessneeded.",
+      "claims": [
+        "BylineasdisplayedSameetMamtaPattnaik; writerdescribesvideo featuring motherandownvoice, stuffedbatterwrappedturmericleafsteamed,nadia-pura coconut/jaggeryorsugar."
+      ],
+      "limits": [
+        "Embedded video not viewed; no firsthanddemonstrationcheck.",
+        "Do not assume bylineis twopeople or identify unnamedmother.",
+        "Do not adopt healthy/unique-to-stateclaims.",
+        "Optionalcorroborationnotneededtoinflatecitationlist."
+      ]
+    }
+  ],
+  "proposed_lead": "Enduri brings the leaf, the filling and the occasion into the same parcel. Looking at how it is prepared helps explain why the leaf matters.",
+  "sections": [
+    {
+      "id": "taste",
+      "title": "Begin with the leaf",
+      "paragraphs": [
+        {
+          "text": "Turmeric leaf gives Enduri more than its wrapper. Odisha Tourism singles out its aroma alongside the coconut-and-jaggery filling. The leaf is part of what the dish offers before the first bite.",
+          "source_ids": [
+            "food-tourism"
+          ],
+          "locator": "The Taste of Odisha, Enduri Pitha heading, line304"
+        },
+        {
+          "text": "When a parcel is opened, take a moment to look at the leaf and the pitha separately. Then notice the filling. A photograph can show their arrangement; it cannot tell you everything that went into this particular preparation.",
+          "source_ids": [],
+          "kind": "original reader invitation"
+        }
+      ]
+    },
+    {
+      "id": "origin",
+      "title": "A parcel in a family celebration",
+      "paragraphs": [
+        {
+          "text": "In her January 2018 account of winter observances, Namita Sarangi places Enduri within Prathamastami’s attention to the eldest child. She describes bathing and dressing the child in new clothes from the maternal home, then offering turmeric-leaf Enduri with other foods to Sasthi before bandapana. The parcel belongs to an occasion involving clothing, food and blessings, not just a seasonal menu.",
+          "source_ids": [
+            "osha-kanji-sarangi2018"
+          ],
+          "locator": "Original Odia paragraph beginning Margasira Krishna Ashtami, web172, before Kanji Anla transition"
+        },
+        {
+          "text": "Sarangi also names Enduri among the preparations for Manabasa, the Lakshmi observance described in the next paragraph. Its strong Prathamastami association is therefore not an only-on-that-day rule. Her essay records a particular cultural description; it does not establish when Enduri began or how every household makes it.",
+          "source_ids": [
+            "osha-kanji-sarangi2018"
+          ],
+          "locator": "Manabasa paragraph web173, offering list contains ଏଣ୍ଡୁରି"
+        }
+      ]
+    },
+    {
+      "id": "making",
+      "title": "What happens inside the parcel",
+      "paragraphs": [
+        {
+          "text": "Lipi Das’s 2015 ICAR-CRRI compilation documents a rice–black-gram batter that is left to ferment. It is spread on turmeric leaves, with filling in the centre, before the leaves are folded. This version combines grated coconut and paneer with jaggery or sugar, cardamom and pepper. The dairy ingredient is easy to miss if you know the dish only through its appearance.",
+          "source_ids": [
+            "food-crri-rice2015"
+          ],
+          "locator": "Printed19/PDF30 ingredients and Method firsttwo paragraphs"
+        },
+        {
+          "text": "The book gives two steaming arrangements: a steamer, or a wide pot with muslin tied across its mouth. The parcels sit on the cloth beneath a lid. The second arrangement makes the work of the vessel clear: water below, supported parcels above, steam enclosed around them.",
+          "source_ids": [
+            "food-crri-rice2015"
+          ],
+          "locator": "Printed19/PDF30 Method lastparagraph; explanatory restatement not testedengineering advice"
+        },
+        {
+          "text": "Das’s preface credits women of Ananya Mahila Bikas Samiti in Sankilo, Cuttack, among the contributors to the compilation. The book combines primary and secondary information; it does not identify this particular Enduri preparation with one named household.",
+          "source_ids": [
+            "food-crri-rice2015"
+          ],
+          "locator": "PDF6 Preface; avoid attributing Enduri specifically togroup/village"
+        }
+      ]
+    },
+    {
+      "id": "try",
+      "title": "Ask about this version",
+      "paragraphs": [
+        {
+          "text": "Ask the maker what is inside this version, and who taught them to prepare it. Let their answer carry its own name and place.",
+          "source_ids": [],
+          "locator": "Printed19 filling supports initial question; remainder original enquiry invitation",
+          "kind": "original enquiry invitation, grounded by preceding sourced ingredient account"
+        },
+        {
+          "text": "If someone is preparing Enduri for an observance, ask how they would like the occasion and food to be described. Make any visit or purchase arrangement directly. A festival association is a reason to enquire, not a promise that a parcel will be waiting.",
+          "source_ids": [],
+          "kind": "original practical invitation; no availability or household access implied"
+        }
+      ]
+    }
+  ],
+  "source_word_budgets": {
+    "food-crri-rice2015": {
+      "body": 143,
+      "title_and_note": 29,
+      "total": 172
+    },
+    "food-tourism": {
+      "body": 31,
+      "title_and_note": 21,
+      "total": 52
+    },
+    "osha-kanji-sarangi2018": {
+      "body": 107,
+      "title_and_note": 24,
+      "total": 131
+    }
+  },
+  "checks": [
+    "InputHEADresolvedandreconfirmedafterinterruption.",
+    "ExistingKBsearchedfirst.",
+    "OriginalCRRIdownloaded,hashed,selectedtextandvisualpageverified.",
+    "OriginalSarangiOdiapassagesreadandcomparedwithexistingresearch.",
+    "Oldtourism404andsuccessoractualcontentdistinguished.",
+    "Originaltaste/origin/making/tryanchorspreserved.",
+    "No sharedfilesorGitmutations."
+  ],
+  "media": "Root handlesexistingphotoaudit; no newAnveshaimageprovenanceclaim. OriginalPDFpageimage inspectedforsourceverificationonly, no reuseproposed.",
+  "remaining_limits": [
+    "No recipe test, householdinterview,fluentreview,humanreview orcurrentservingconfirmation.",
+    "No original historical evidence establishes whenEnduribegan; refrainfromancientorigin/templeorigin assertions.",
+    "No health/medicinal claims.",
+    "NCHM indexedearlierpassage remainsprioraccesslimit; notretried becauseactualCRRIentrysufficient."
+  ]
+}

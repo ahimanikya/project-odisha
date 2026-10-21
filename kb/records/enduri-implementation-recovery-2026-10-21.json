@@ -1,0 +1,71 @@
+{
+  "article_id": "POD-EDIT-074",
+  "worker": "Samanta, separate AI implementation agent",
+  "input_head": "089327801dff7c48af5c5971fbb96343d391ab17",
+  "status": "recovered implementation verified",
+  "new_edits": [],
+  "preserved_edits": [
+    "projects/site/src/pages/food/[slug].astro",
+    "projects/site/src/components/EnduriArticle.astro",
+    "projects/site/src/data/journey-catalog.ts",
+    "projects/site/tests-coast/enduri-editorial.test.mjs",
+    "projects/site/tests-coast/bose-editorial.test.mjs",
+    "projects/site/tests-coast/rasagola-editorial.test.mjs",
+    "projects/site/tests-coast/chhena-poda-editorial.test.mjs",
+    "projects/site/tests-coast/mudhi-mansa-editorial.test.mjs",
+    "projects/site/tests-coast/chandipur-meal-editorial.test.mjs"
+  ],
+  "tests": [
+    {
+      "name": "Node 24 syntax check and git diff --check",
+      "result": "pass"
+    },
+    {
+      "name": "npm run build:coast",
+      "result": "pass",
+      "log": "/tmp/pod-enduri-build.log"
+    },
+    {
+      "name": "six affected editorial suites",
+      "result": "35 passed, 0 failed",
+      "log": "/tmp/pod-enduri-tests.log"
+    }
+  ],
+  "runtime_note": "Default repo shell used old Node, causing ESM parse error; explicit Node v24.15.0 succeeded. Local preview server approved escalation at 127.0.0.1:8794.",
+  "responsive_review": {
+    "tool": "CUA in-app browser supported Playwright and viewport APIs",
+    "desktop": {
+      "width": 1440,
+      "height": 1000,
+      "scroll_width": 1440,
+      "reading_width": 740
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "scroll_width": 390,
+      "reading_width": 343.1953125
+    },
+    "findings": [
+      "All three displayed images loaded; complete Enduri image retained.",
+      "Desktop cover, body, and notes inspected; mobile cover, body, and notes inspected. No clipping or horizontal overflow.",
+      "Footnote click moved hash and focus to note-food-tourism; return moved hash and focus to ref-taste-0-food-tourism.",
+      "Further reading initially collapsed and expands to six links; mobile overflow remains absent.",
+      "Viewport override reset after inspection."
+    ],
+    "screenshots": [
+      "/tmp/pod-enduri-desktop-cover.png",
+      "/tmp/pod-enduri-desktop-body.png",
+      "/tmp/pod-enduri-desktop-notes.png",
+      "/tmp/pod-enduri-mobile-cover.png",
+      "/tmp/pod-enduri-mobile-body.png",
+      "/tmp/pod-enduri-mobile-notes.png"
+    ]
+  },
+  "limits": [
+    "No canonical/shared record changes, Git mutation or publishing.",
+    "No independent factual, human, or culinary review claimed.",
+    "Only six affected editorial suites run here, not all repository tests.",
+    "Existing photo changes metadata still says display framing may crop edges; actual new article displays contain without cropping."
+  ]
+}
