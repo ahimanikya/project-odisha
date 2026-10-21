@@ -22,7 +22,7 @@
       "name": "Anvesha",
       "runtime": "/root/anvesha",
       "scope": "Read-only Juang research; temporary report only.",
-      "status": "assigned"
+      "status": "complete"
     },
     {
       "name": "Samanta",
@@ -52,9 +52,12 @@
         "projects/site/tests-coast/santali-editorial.test.mjs",
         "projects/site/tests-coast/saora-editorial.test.mjs",
         "projects/site/tests-coast/sarala-editorial.test.mjs",
-        "projects/site/tests-coast/six-acres-editorial.test.mjs"
+        "projects/site/tests-coast/six-acres-editorial.test.mjs",
+        "projects/site/tests-coast/voices-passage-sources.test.mjs",
+        "projects/site/tests-coast/living-languages.test.mjs",
+        "projects/site/tests/voices.test.mjs"
       ],
-      "status": "assigned"
+      "status": "complete"
     },
     {
       "name": "Drishti",
@@ -86,5 +89,95 @@
     "observed_at": "2026-10-21T13:09:07.725430+00:00"
   },
   "worker_reconciliation": "All three existing workers observed completed from Ho; reuse without spawning duplicates. Open PR304 weekly data and281 Ashoka preserved.",
-  "next_action": "Integrate bounded Juang research and implementation, then obtain separate review."
+  "next_action": "Integrate bounded Juang research and implementation, then obtain separate review.",
+  "existing_article_audit": {
+    "url": "https://projectodisha.org/languages/juang/",
+    "findings": [
+      "Actual live page and screenshot inspected; two sections/five brief paragraphs, no concrete learning-page example.",
+      "Text-only identity panel credible and retained; no documentary image, no replacement image needed.",
+      "2018 publisher and three individual compiler names preserved."
+    ],
+    "census_independent_check": {
+      "file": "kb/research/references/census-2011/c16-odisha.xlsx",
+      "sheet": "Sheet1",
+      "row": 185,
+      "cells": {
+        "A185": "C0116",
+        "B185": "21",
+        "C185": "000",
+        "D185": "00000",
+        "E185": "ODISHA",
+        "F185": "050001",
+        "G185": " Juang",
+        "H185": "30377",
+        "I185": "14889",
+        "J185": "15488",
+        "K185": "30273",
+        "L185": "14832",
+        "M185": "15441",
+        "N185": "104",
+        "O185": "57",
+        "P185": "47"
+      },
+      "sha256": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db"
+    }
+  },
+  "implementation": {
+    "article_id": "POD-EDIT-070",
+    "input_head": "7521864fa2ca6631a4397e0a63b0aefe27ef05a2",
+    "base_head": "29997cd43c7e8f08814a1b7f7a03a2498e628d33",
+    "status": "scaffold_ready_awaiting_canonical_copy_and_map",
+    "files": [
+      "projects/site/src/components/CultureMagazine.astro",
+      "projects/site/src/components/CultureOnward.astro",
+      "projects/site/src/components/LanguagePopulation.astro",
+      "projects/site/src/data/journey-catalog.ts",
+      "projects/site/tests-coast/juang-editorial.test.mjs",
+      "projects/site/tests-coast/balasore-editorial.test.mjs",
+      "projects/site/tests-coast/bhima-editorial.test.mjs",
+      "projects/site/tests-coast/bhubaneswar-editorial.test.mjs",
+      "projects/site/tests-coast/fakir-editorial.test.mjs",
+      "projects/site/tests-coast/gangadhar-editorial.test.mjs",
+      "projects/site/tests-coast/gopinath-editorial.test.mjs",
+      "projects/site/tests-coast/ho-editorial.test.mjs",
+      "projects/site/tests-coast/kui-editorial.test.mjs",
+      "projects/site/tests-coast/kuvi-editorial.test.mjs",
+      "projects/site/tests-coast/languages-editorial.test.mjs",
+      "projects/site/tests-coast/literature-editorial.test.mjs",
+      "projects/site/tests-coast/mayurbhanj-editorial.test.mjs",
+      "projects/site/tests-coast/odia-editorial.test.mjs",
+      "projects/site/tests-coast/pratibha-editorial.test.mjs",
+      "projects/site/tests-coast/puri-editorial.test.mjs",
+      "projects/site/tests-coast/santali-editorial.test.mjs",
+      "projects/site/tests-coast/saora-editorial.test.mjs",
+      "projects/site/tests-coast/sarala-editorial.test.mjs",
+      "projects/site/tests-coast/six-acres-editorial.test.mjs",
+      "projects/site/tests-coast/voices-passage-sources.test.mjs",
+      "projects/site/tests-coast/living-languages.test.mjs",
+      "projects/site/tests/voices.test.mjs"
+    ],
+    "unchanged_reserved": [
+      "projects/site/tests-coast/cuttack-literature.test.mjs"
+    ],
+    "checks": [
+      "All 23 modified/new tests passed Node24 syntax checks.",
+      "git diff --check passed."
+    ],
+    "preserved": [
+      "Exact Juang opt-in, all previously reviewed language behavior.",
+      "Text-only identity panel, language/culture anchors, 2018 publisher/compiler credits.",
+      "Existing individual Census entry/counts/year/atlas source; mapped Juang note.",
+      "Full portable paragraphs/short sources, original reading identity, no image/translation added.",
+      "Only stale negative controls moved to queued Koya; real Juang links and Cuttack literature assertions unchanged."
+    ],
+    "limits": [
+      "Canonical map and prose pending; no source/rendered/export tests yet.",
+      "No build, source research, browser review, asset/shared-record edits, Git mutation or publishing."
+    ]
+  },
+  "source_audit": "Disha independently read CIIL/SCSTRTI profiles and original2018booklet text; visually inspected original2024primerPDF5,10,17 for edition, contributors and printed4learning layout. No source images reproduced.",
+  "research": "research/voices/juang-research-2026-10-21.json",
+  "validation_notes": [
+    "Research copy check flagged school locality spelling; omitted localities while retaining edition-specific contributor names."
+  ]
 }

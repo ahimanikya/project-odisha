@@ -863,3 +863,7 @@ POD-EDIT-060 reuses the food entry, current cuisine trail and existing harbour s
 ### Ho article editorial reuse · 21 October 2026
 
 POD-EDIT-069 extends the existing voices Ho introduction, SCSTRTI community profile and 2018 booklet before bounded primary-source reading. The Unicode17 account and its 2012 proposal are one related evidence lineage, not independent corroborators. A selected July2024 Ho–Odia primer lesson adds concrete learning-page and contributor detail without translations or image reproduction. Source mapping: `research/voices/ho-editorial.json`; access and selected-page limits: `research/voices/ho-research-2026-10-21.json`. No new language identity, field testimony or substantive-programme credit.
+
+### Juang article evidence · 21 October 2026
+
+Reuse `voices/juang-research-2026-10-21.json`, `voices/juang-editorial.json` and the Juang entry in `voices/collection.json` before new research. The dated source dossier separates the 2024 CIIL–NCERT primer and selected lesson pages from the 2018 trilingual booklet, attributed community-house/origin accounts and the original 2011 Census. No fluent-speaker or field review is claimed.
