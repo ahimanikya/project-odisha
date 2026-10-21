@@ -1,0 +1,46 @@
+{
+  "task_id": "POD-TASK-CHASA-20261022",
+  "article_id": "POD-EDIT-461",
+  "programme_id": "POD-A500-115",
+  "work_id": "POD-WORK-305",
+  "status": "in_progress",
+  "input_head": "5811dae5d304a5604a81ec37d8695115499f3a40",
+  "started_at": "2026-10-21T22:25:29.301027+00:00",
+  "route": "/communities/chasa/",
+  "scope": "Chasa: cultivation as work and community identity, dated social formation, regional distinctions and origin traditions. Distinguish occupational word from specific communities and avoid universal Khandayat equivalence.",
+  "acceptance": [
+    "Original sources explain distinct Chasa history beyond repeating Khandayat census passage; documented origins versus traditions, agricultural roles and regional scope.",
+    "Canonical KB and readable website with restrained sources, rights-aware media and existing editorial standard.",
+    "Separate AI review, meaningful tests and responsive review, reviewed merge, approved deployment and live receipt before counting."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only source research report /tmp/pod-chasa-research.json",
+      "status": "assigned"
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/pages/communities/chasa.astro",
+        "projects/site/tests-coast/chasa-editorial.test.mjs"
+      ],
+      "status": "assigned"
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Read-only integrated review after candidate ready",
+      "status": "waiting"
+    },
+    {
+      "name": "Disha",
+      "scope": "Canonical narrative, shared registers and sole publishing",
+      "status": "working"
+    }
+  ],
+  "worker_reconciliation": "Existing agents all completed Khandayat; PR425 merge92f27f06 observed. No active article; unrelated PR304/281 untouched.",
+  "next_action": "Investigate Chasa sources and prepare one evidence-grounded article; do not force publication if material is inadequate."
+}
