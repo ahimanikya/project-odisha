@@ -1,0 +1,69 @@
+{
+  "recorded_at": "2026-10-21T16:06:44.627670+00:00",
+  "article_id": "POD-EDIT-073",
+  "route": "/people/subhas-chandra-bose/",
+  "status": "research_and_implementation",
+  "input_head": "ceadbe0eb1a633530d91f0f32968adb6642feea8",
+  "authorization": [
+    "POD-DEC-2026101702",
+    "POD-DEC-2026101901",
+    "POD-DEC-225"
+  ],
+  "central_question": "What did Bose remember learning in Cuttack, and how do his later recollections differ from what a birthplace museum can establish?",
+  "scope": "Deepen the individual childhood article with concrete primary-source examples and honest retrospective limits; preserve both documentary photographs.",
+  "acceptance": [
+    "Concrete sourced examples explain childhood education and formative influences; visible notes and full portable reading.",
+    "Separate AI review, meaningful tests, responsive checks, merged PR, approved deployment, actual live receipt and receipt integration."
+  ],
+  "ownership": "Disha retains claim through receipt integration.",
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only bounded primary-source research; temporary report only.",
+      "status": "assigned"
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/pages/people/subhas-chandra-bose.astro",
+        "projects/site/src/components/BoseArticle.astro",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/tests-coast/bose-editorial.test.mjs",
+        "projects/site/tests-coast/odisha-roots.test.mjs"
+      ],
+      "status": "assigned"
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Separate read-only review of integrated candidate.",
+      "status": "waiting"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": [
+        "kb/research/people/subhas-chandra-bose.json",
+        "kb/research/people/bose-editorial.json",
+        "kb/research/people/bose-research-2026-10-21.json",
+        "shared records and publication"
+      ],
+      "status": "working"
+    }
+  ],
+  "counting": {
+    "substantive500": 112,
+    "increment": 0
+  },
+  "worker_reconciliation": "Actual inventory confirms all three workers completed prior assignments. Resume existing workers; no duplicate runtimes. Open PR304 and281 remain untouched.",
+  "previous_integration": {
+    "pull_request": 416,
+    "head": "a9cb9c8148924a08629f5c4768b9f77942a96d87",
+    "merge_commit": "ceadbe0eb1a633530d91f0f32968adb6642feea8",
+    "merged_at": "2026-10-21T15:41:35Z",
+    "observed_at": "2026-10-21T16:06:44.627670+00:00"
+  },
+  "next_action": "Integrate bounded research and implementation, then separate review."
+}
