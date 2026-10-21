@@ -161,5 +161,42 @@
   "verified_routes": [
     "/languages/ho/"
   ],
-  "receipt_integration": "Effective only after receipt PR passes required checks and merges; observed merge must be reconciled before releasing article claim."
+  "receipt_integration": "Effective only after receipt PR passes required checks and merges; observed merge must be reconciled before releasing article claim.",
+  "receipt_review": {
+    "reviewer": "Drishti (separate AI reviewer)",
+    "input_head": "34987bbf4f339594e01e5052fabca6ee208eadbf",
+    "base_head": "960ebc48447b154fd95dc0b8cab824e19c212518",
+    "result": "PASS",
+    "findings": [],
+    "checks": [
+      "Ten-file delta contains only receipt/shared records and two live screenshots; no source, site or implementation changes.",
+      "Independently queried GitHub: PR409 MERGED at2026-10-21T12:29:57Z, reviewed7076285d477786fe8e527fc88297782d2a38944a, merge960ebc48447b154fd95dc0b8cab824e19c212518.",
+      "Independently queried CI39599399445: success on reviewed head; Publish Project Odisha workflow_dispatch39600121605: success on merge head.",
+      "Reviewed and merged trees independently equal0428394c7bbb1722ddce7e8410f02bf829ae9e34.",
+      "Canonical final_review equals actual saved Drishti report exactly; live_checks and browser equal coordinator saved JSONs.",
+      "Saved HTML SHA256 matches receipt f6e78bf176a00333468cbfac069d28683538555d3988667c06ae89e8e30ad7e0. Coordinator evidence records HTTP200,6notes9references9returns and11sitemap entries.",
+      "Independently visually inspected saved live desktop cover and mobile reading screenshots; readable, correct source ordering and no visible clipping in sampled views.",
+      "Only POD-EDIT-069 transitions to completed:59completed76excluded323queued; programme byte-identical to publication base and remains112.",
+      "Disha article claim retained; receipt_integrated phase explicitly conditional on actual receipt merge before release.",
+      "Rollout, team assignments, autonomous programme, register/dashboard and git diff checks all PASS."
+    ],
+    "screenshot_sha256": {
+      "live-desktop.png": "6d412e54200ee36bec83e0afbfbd931e18c473f2494eac4e7fe79fbcf62518b9",
+      "live-mobile.png": "e95a3f3b6c33ace3285fa0739eb1c47e9fa3106b3d12b1438d52292c75085230"
+    },
+    "tests": {
+      "article_rollout": "PASS",
+      "team_assignments": "PASS",
+      "autonomous_programme": "PASS",
+      "registers": "PASS:1110records636events; dashboard current",
+      "git_diff_check": "PASS"
+    },
+    "limits": [
+      "Separate AI receipt review, not human, fluent-language, community or field review.",
+      "Did not independently repeat live HTTP, interactive keyboard, physical-device or screen-reader tests; live observations are Disha’s and saved artifacts were inspected.",
+      "No site rebuild or full test repeat for records-only delta; prior candidate factual and test limits remain.",
+      "Receipt PR is not yet observed merged; claim release and next article remain gated on actual integration."
+    ]
+  },
+  "receipt_pull_request": "https://github.com/ahimanikya/project-odisha/pull/410"
 }
