@@ -1,0 +1,231 @@
+{
+  "task": "POD-EDIT-068",
+  "input_head": "45b152409f436345a56d720e522c95430155c15d",
+  "base": "8d1d0c19cbd9cd8df3b0b1a325ff7a1e82ecf964",
+  "review_date": "2026-10-21",
+  "role": "Anvesha, separateAIresearcher; readonly",
+  "sources": [
+    {
+      "id": "sora-ciil",
+      "url": "https://sanchika.ciil.org/communities/9c78ecec-557c-4c84-904c-b966573aa1e9",
+      "inspection": "Actual HTML via web open,turn1208view0,2026-10-21.",
+      "locators": "Lines27names;31family;32/35districts;36writing systems and Malia/Mangei attribution.",
+      "findings": [
+        "South Munda/Austroasiatic; Sora/Saora/Savara names.",
+        "Gajapati/Rayagada/Ganjam broad geography.",
+        "Latin,Odia,Telugu,SorangSompeng;1936 credited to Malia,son-in-lawMangei associated with letterpress."
+      ],
+      "exclusions": "No racial typology, stereotype, mythic etymology presented as fact, religious generalisation, whole-community count or current census claims reused.",
+      "note": "CIIL, Sora overview, language and writing sections. Its account of the script’s inventorship differs from Unicode’s."
+    },
+    {
+      "id": "sora-unicode17",
+      "url": "https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-15/#G15492",
+      "inspection": "Actual HTML opened/read;turn1211view1lines554–567.",
+      "locators": "§15.17.1, historical paragraph.",
+      "findings": [
+        "Credits Mangei Gomango,1936.",
+        "Current17spec still says abugida; a2017 editorial submission contests this. Do not teach unsettled mechanism in public article."
+      ],
+      "note": "Unicode17.0, §15.17.1, Sora Sompeng: credits Mangei Gomango and dates the script to1936."
+    },
+    {
+      "id": "saora-primer",
+      "url": "https://www.ciil.org/primers/Sora_Primer.pdf",
+      "inspection": "Original downloaded using TLS-validatedcurl,HTTP200,18,688,915bytes,45PDFpages. web fetch failed size limit; pypdf text extracted and selected pages rendered/viewed.",
+      "local_pdf": "/tmp/pod-saora-primer.pdf",
+      "sha256": "c4aa34a78455cbc52c2915e9b6165980a1db7546bcacf0841e32b852eb6f3ab3",
+      "locators": {
+        "PDF5/printedii": "Savara(Sora)Primer;firstedition9March2024;CIILwithNCERT;ISBN978-81-19411-81-8;earlychildrenandadultliteracy;allrightsreserved;coverphotoOpinoGomango/LisuGomango.",
+        "PDF10/printedvii": "Resourcepersons:EnamGomango,TeacherGovtPrimarySchoolPalapur;OpinoGomango,SoraLanguageSpeakerLuhangarGajapati;LisuGomango,SoraLanguageSpeakerGunupurRayagada. ReviewersAnirudhaSabar/ KanashBhuyan.",
+        "PDF16/printed3": "Visually inspected large Odialetter, wordlabels/shortpassage, pictured leaf/openmouth/fruit, fading letterforms. No translated vocabulary asserted.",
+        "PDF20/printed7": "Visually inspected axe/ring/bovine/red colour layout, not used in publicproposal.",
+        "PDF38/printed25": "Visually inspected marks/example chart; no proposed phonetic interpretation."
+      },
+      "visuals": [
+        "/tmp/pod-saora-primer-p5.png",
+        "/tmp/pod-saora-primer-p10.png",
+        "/tmp/pod-saora-primer-p16.png",
+        "/tmp/pod-saora-primer-p20.png",
+        "/tmp/pod-saora-primer-p38.png"
+      ],
+      "rights": "CopyrightCIIL&NCERT2024; selected-page description only. Do not reproduce pages/pictures; source explicitlyreserves reproduction rights. No portrait replacement or newillustration needed.",
+      "note": "Savara (Sora) Primer, CIIL–NCERT (2024), publication and team credits, and printed p.3. Selected pages inspected; pictures are not reproduced."
+    },
+    {
+      "id": "saora-booklet",
+      "url": "https://scstrti.in/images/phocagallery/books/tlexicons/saora.pdf",
+      "inspection": "Fresh original-site PDF text through web:turn1208view2,114pages; directcurl bothbare/wwwhosts connection refused. Web screenshotattempt producedcachemiss/no accessible pixels; no fresh visual review claimed. Prior2026-10-01selectedvisualinspection stays distinct. No localfile/hash available.",
+      "locators": {
+        "PDF3": "Englishpublicationcredits:EnamGamango,PhilipMandal,TuluSabar;SpecialDevelopmentCouncilGajpati;firsteditionNovember2018.",
+        "PDF6": "Contents:pronouns/case/partsbody/naturalnames/land/crops/flowers/trees/household/equipment/time/verbs/everydaysentences.",
+        "PDF8/printed1": "English/Odia/Saora pronoun table.",
+        "PDF10/printed3": "Question/quantity/timewords in parallelcolumns."
+      },
+      "findings": [
+        "Source title SARALA(TRIBHASI)BHASHASIKSHYANAPUSTIKA(SAORA).",
+        "Freshtext supports retained2018edition and namedcompilers; spellingGamango retaineddistinctfrom2024Gomango, noidentityconflation.",
+        "Brieftablecontents comparison sufficient; no Saora translation/pronunciation added."
+      ],
+      "note": "Saora trilingual booklet (2018), publication credits, contents and selected comparison pages. Full credits remain on the reading shelf."
+    },
+    {
+      "id": "readers",
+      "url": "https://www.scstrti.in/index.php/resources/mle-initiative/supplementary-readers",
+      "inspection": "FreshactualHTMLwebreadturn1214view0.",
+      "locators": "Lines66–70purpose;159–163SaoraI/II/III;206–208PilankaKathalinks.",
+      "findings": "Catalogue describes pictorialmaterials drawn fromfolktales/songs/riddles and lists3Saoravolumes.",
+      "limits": "ActualVolIlinkhttps://www.scstrti.in/images/phocagallery/books/mle_books/saora_i.pdf failedwebfetch400OK. No tale text,translator,editionorplot inspected; describe catalogue not individualstories.",
+      "note": "SCSTRTI supplementary-reader catalogue, series introduction and Saora I–III listings; the individual story texts were not reviewed."
+    }
+  ],
+  "proposed_sections": [
+    {
+      "id": "names",
+      "title": "Names and a language family",
+      "paragraphs": [
+        {
+          "text": "Saora, Sora and Savara are names recorded for a language in the South Munda group of the Austroasiatic family. A book’s spelling is a useful starting point; ask a reader which name they use.",
+          "source_ids": [
+            "sora-ciil"
+          ],
+          "kind": "sourced_summary"
+        }
+      ]
+    },
+    {
+      "id": "places",
+      "title": "A page with a place behind it",
+      "paragraphs": [
+        {
+          "text": "CIIL locates many speakers in Gajapati, Rayagada and Ganjam. The learning books below bring that broad geography closer through named teachers, speakers and localities.",
+          "source_ids": [
+            "sora-ciil"
+          ],
+          "kind": "sourced_summary"
+        }
+      ]
+    },
+    {
+      "id": "scripts",
+      "title": "More than one way to write",
+      "paragraphs": [
+        {
+          "text": "Sora has been written in Latin, Odia and Telugu letters, as well as Sorang Sompeng. Recognising a script does not, by itself, identify the language written in it.",
+          "source_ids": [
+            "sora-ciil"
+          ],
+          "kind": "sourced_summary"
+        },
+        {
+          "text": "Two institutional accounts date Sorang Sompeng to 1936 but differ over its inventor. CIIL credits Malia Gomango and describes Mangei Gomango’s role in promoting it through a letterpress. The Unicode Standard credits Mangei with devising the script. The date is shared; the attribution remains a difference between these accounts.",
+          "source_ids": [
+            "sora-ciil",
+            "sora-unicode17"
+          ],
+          "kind": "sourced_summary"
+        }
+      ]
+    },
+    {
+      "id": "learning",
+      "title": "People behind a picture lesson",
+      "paragraphs": [
+        {
+          "text": "The 2024 Savara (Sora) Primer names Enam Gomango, a teacher at Palapur, and Sora speakers Opino Gomango of Luhangar and Lisu Gomango of Gunupur among its resource people. Published by CIIL with NCERT, it is intended for early childhood and adult literacy. The credit page shows whose knowledge helped shape this particular learning book.",
+          "source_ids": [
+            "saora-primer"
+          ],
+          "kind": "sourced_summary"
+        },
+        {
+          "text": "On printed page 3, a large Odia letter appears alongside a short passage and labelled pictures, including a leaf, an open mouth and fruit. Below them, progressively paler letter forms lead to an empty writing box. The page moves from recognising an object to seeing a written form and practising it by hand.",
+          "source_ids": [
+            "saora-primer"
+          ],
+          "kind": "sourced_summary"
+        }
+      ]
+    },
+    {
+      "id": "stories",
+      "title": "From a word column to a story",
+      "paragraphs": [
+        {
+          "text": "The 2018 Saora booklet offers another approach. Its English, Odia and Saora columns move from pronouns to topics such as crops, household objects and everyday sentences. Open a page with a reader and follow one row; then ask how the word would enter a conversation. The printed comparison is a starting point for use, rather than a substitute for it.",
+          "source_ids": [
+            "saora-booklet"
+          ],
+          "kind": "sourced_summary"
+        },
+        {
+          "text": "For connected reading, SCSTRTI lists three Saora volumes of Pilanka Katha. Its account of the series describes illustrated materials drawn from tales, songs and riddles for children. That is a different invitation from a word list: find a complete piece, keep its title and contributor with it, and listen to how a reader carries it from beginning to end.",
+          "source_ids": [
+            "readers"
+          ],
+          "kind": "sourced_summary"
+        }
+      ]
+    }
+  ],
+  "proposed_lead": "A language can reach the page through several scripts and several kinds of books. Saora learning materials make those choices visible.",
+  "source_word_allocations": {
+    "sora-ciil": {
+      "body_words_conservatively_including_shared_paragraphs": 170,
+      "note_words": 16,
+      "limit": 200,
+      "remaining_warning": "Add final lead/title/retainedshelf words; trim ifnecessary."
+    },
+    "sora-unicode17": {
+      "body_words_conservatively_including_shared_paragraphs": 52,
+      "note_words": 12,
+      "limit": 200,
+      "remaining_warning": "Add final lead/title/retainedshelf words; trim ifnecessary."
+    },
+    "saora-primer": {
+      "body_words_conservatively_including_shared_paragraphs": 162,
+      "note_words": 19,
+      "limit": 200,
+      "remaining_warning": "Add final lead/title/retainedshelf words; trim ifnecessary."
+    },
+    "saora-booklet": {
+      "body_words_conservatively_including_shared_paragraphs": 60,
+      "note_words": 18,
+      "limit": 200,
+      "remaining_warning": "Add final lead/title/retainedshelf words; trim ifnecessary."
+    },
+    "readers": {
+      "body_words_conservatively_including_shared_paragraphs": 59,
+      "note_words": 16,
+      "limit": 200,
+      "remaining_warning": "Add final lead/title/retainedshelf words; trim ifnecessary."
+    }
+  },
+  "additional_inspected_but_not_public_source": {
+    "url": "https://www.unicode.org/L2/L2017/17098-editorial-indic-updates.pdf",
+    "title": "Request for editorial updates to Indic scripts",
+    "authors": "Srinidhi A and Sridatta A",
+    "date": "17April2017",
+    "locator": "§3printedp7",
+    "scope": "ActualPDFtextread;contradictsabugidadescriptionusingpublishedattestations. Submissionnotadoptedstandard; noauthorityoverclaim. Keep in researchlimits, not citationpadding."
+  },
+  "checks": [
+    "ReadAGENTS,currenthandoff,operations,assignments,index,editorialstandard,researchmap andexistingpage.",
+    "RanKBquery beforeexternalresearch; onlycurrentvoiceentrysurfaced.",
+    "ActualCIILoverview,Unicode17section,SCSTRTIbooklettext andreadercatalogue inspected.",
+    "Originalprimerdownloaded,pypdfextracted,selectedpagesrendered andvisualschecked.",
+    "CalculatedSHA256forretrievedprimer.",
+    "No repository/Gitmutations; reportonly/tmp.",
+    "Noimplementationtests: research-onlyassignment."
+  ],
+  "critical_limits": [
+    "Original-languagefluentreview,interviews,communityreligiouspracticeandcurrentteachinguse notverified.",
+    "Noinventedtranslation/etymology or settledinventorship.",
+    "SorangSompengandOdia-scriptprimer nottreatedasonewritingsystem.",
+    "SCSTRTIhasfreshtextbutnolocaldownload orfreshscreenshots; donotclaimfullPDFvisualreview.",
+    "Censusrawrow independentlyverifiedbycoordinator, notduplicatedhere; originalsourceSavaraentry retained.",
+    "Do notassumeEnamGamango2018andEnamGomango2024aresamepersonwithoutidentityevidence.",
+    "Priorbookletcompilers,publisherandeditionretained; bookcopyrightnotwebsiteimagereuselicense."
+  ],
+  "integration_note": "Proposed prose was shortened and edited by Disha. Canonical article and source map are authoritative; source inspection limits remain unchanged."
+}

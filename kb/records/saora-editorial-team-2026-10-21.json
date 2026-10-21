@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-21T11:07:27.913957+00:00",
   "article_id": "POD-EDIT-068",
   "route": "/languages/saora/",
-  "status": "research_and_implementation",
+  "status": "integrated_candidate_review",
   "input_head": "8d1d0c19cbd9cd8df3b0b1a325ff7a1e82ecf964",
   "authorization": [
     "POD-DEC-2026101702",
@@ -21,13 +21,13 @@
   "executions": [
     {
       "name": "Anvesha",
-      "runtime": "to be recreated",
+      "runtime": "/root/anvesha",
       "scope": "Read-only bounded research; temporary report only.",
-      "status": "pending"
+      "status": "complete"
     },
     {
       "name": "Samanta",
-      "runtime": "to be recreated",
+      "runtime": "/root/samanta",
       "scope": [
         "projects/site/src/components/CultureMagazine.astro",
         "projects/site/src/components/LanguagePopulation.astro",
@@ -53,13 +53,14 @@
         "projects/site/tests-coast/santali-editorial.test.mjs",
         "projects/site/tests-coast/sarala-editorial.test.mjs",
         "projects/site/tests-coast/six-acres-editorial.test.mjs",
-        "projects/site/tests/voices.test.mjs"
+        "projects/site/tests/voices.test.mjs",
+        "projects/site/tests-coast/voices-passage-sources.test.mjs"
       ],
-      "status": "pending"
+      "status": "awaiting_canonical_checks"
     },
     {
       "name": "Drishti",
-      "runtime": "to be recreated",
+      "runtime": "/root/drishti",
       "scope": "Separate read-only integrated-candidate review.",
       "status": "pending"
     },
@@ -84,5 +85,78 @@
     "merge_commit": "8d1d0c19cbd9cd8df3b0b1a325ff7a1e82ecf964",
     "ci": 39584702199
   },
-  "worker_reconciliation": "No live child workers in this run; prior completed workers recreated from durable handoff."
+  "worker_reconciliation": "Inventory initially listed root only; existing named child handles remained available. Resumed Anvesha and Samanta through followup_task and observed both running; no duplicate agents created.",
+  "existing_article_audit": {
+    "observed_route": "https://projectodisha.org/languages/saora/",
+    "findings": [
+      "Four sections with six short paragraphs; script history compressed and no concrete example of writing or learning practice.",
+      "Two onward links duplicate the same supplementary-reader catalogue.",
+      "Existing cover is a credible Saora / Sora and Gajpati typographic panel, no image. Visually inspected and retained.",
+      "Original learning shelf publisher, November 2018 edition and Enam Gamango, Philip Mandal, Tulu Sabar compiler credits retained.",
+      "Census panel uses individual Savara label with clear naming and year limitations."
+    ],
+    "census_independent_check": {
+      "file": "research/references/census-2011/c16-odisha.xlsx",
+      "sheet": "Sheet1",
+      "row": 281,
+      "entry": "106004 Savara",
+      "odisha_total": 298655,
+      "male": 145137,
+      "female": 153518,
+      "sha256": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db"
+    }
+  },
+  "research": "research/voices/saora-research-2026-10-21.json",
+  "implementation": {
+    "article_id": "POD-EDIT-068",
+    "input_head": "45b152409f436345a56d720e522c95430155c15d",
+    "base_head": "8d1d0c19cbd9cd8df3b0b1a325ff7a1e82ecf964",
+    "status": "scaffold_ready_awaiting_canonical_copy_and_map",
+    "files": [
+      "projects/site/src/components/CultureMagazine.astro",
+      "projects/site/src/components/LanguagePopulation.astro",
+      "projects/site/src/components/CultureOnward.astro",
+      "projects/site/src/data/journey-catalog.ts",
+      "projects/site/tests-coast/saora-editorial.test.mjs",
+      "projects/site/tests-coast/balasore-editorial.test.mjs",
+      "projects/site/tests-coast/bhima-editorial.test.mjs",
+      "projects/site/tests-coast/bhubaneswar-editorial.test.mjs",
+      "projects/site/tests-coast/fakir-editorial.test.mjs",
+      "projects/site/tests-coast/gangadhar-editorial.test.mjs",
+      "projects/site/tests-coast/gopinath-editorial.test.mjs",
+      "projects/site/tests-coast/kui-editorial.test.mjs",
+      "projects/site/tests-coast/kuvi-editorial.test.mjs",
+      "projects/site/tests-coast/languages-editorial.test.mjs",
+      "projects/site/tests-coast/literature-editorial.test.mjs",
+      "projects/site/tests-coast/living-languages.test.mjs",
+      "projects/site/tests-coast/mayurbhanj-editorial.test.mjs",
+      "projects/site/tests-coast/odia-editorial.test.mjs",
+      "projects/site/tests-coast/pratibha-editorial.test.mjs",
+      "projects/site/tests-coast/puri-editorial.test.mjs",
+      "projects/site/tests-coast/santali-editorial.test.mjs",
+      "projects/site/tests-coast/sarala-editorial.test.mjs",
+      "projects/site/tests-coast/six-acres-editorial.test.mjs",
+      "projects/site/tests/voices.test.mjs",
+      "projects/site/tests-coast/voices-passage-sources.test.mjs"
+    ],
+    "unchanged_reserved": [
+      "projects/site/tests-coast/language-atlas.test.mjs"
+    ],
+    "checks": [
+      "All 21 modified/new tests passed Node24 syntax checks.",
+      "git diff --check passed."
+    ],
+    "preserved": [
+      "Exact Saora-only opt-in and unchanged prior reviewed language behavior.",
+      "Text-only identity panel; names/places/scripts/stories anchors; contributor and publisher credits.",
+      "Individual Savara Census entry/caveat retained and mapped, no community or current population inference.",
+      "Full portable section paragraphs/short sources, existing reading:languages/saora identity; no image/translation added.",
+      "Stale negative controls moved only to queued Ho; genuine Saora references and language-atlas Savara assertion preserved."
+    ],
+    "limits": [
+      "Canonical content and map pending; no source/rendered/export execution yet.",
+      "No build, source research, browser review, asset/shared-record edits, Git mutation or publishing."
+    ]
+  },
+  "source_audit": "Disha independently inspected original primer page5 edition and page16 picture lesson renders; retained no image reproductions."
 }
