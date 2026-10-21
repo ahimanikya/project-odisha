@@ -1,0 +1,267 @@
+{
+  "task": "POD-EDIT-073",
+  "route": "/people/subhas-chandra-bose/",
+  "researcher": "Anvesha, separate AI researcher",
+  "input_head": "80db9dfa4ab244f30c72882851b081fac9c40153",
+  "base_head": "ceadbe0eb1a633530d91f0f32968adb6642feea8",
+  "date": "2026-10-21",
+  "status": "bounded actual-source research complete; proposals not canonical edits",
+  "reuse_checked": [
+    "AGENTS.md",
+    "kb/index.md",
+    "kb/reference/agent-guide.md",
+    "kb/reference/article-editorial-standard.md",
+    "kb/team/assignments.json",
+    "kb/team/operations.json",
+    "kb/records/bose-editorial-team-2026-10-21.json",
+    "kb/research/methods/research-map.md",
+    "python3 tools/research/query_research.py bose: empty result, despite actual existing record; not evidence of absence",
+    "kb/research/people/subhas-chandra-bose.json",
+    "kb/research/destinations/netaji-museum-editorial.json"
+  ],
+  "sources": [
+    {
+      "id": "bose-indian-pilgrim",
+      "url": "https://www.rarebooksocietyofindia.org/book_archive/196174216674_10152181627431675.pdf",
+      "title": "Subhas Chandra Bose · An Indian Pilgrim",
+      "local_pdf": "/tmp/pod-bose-pilgrim.pdf",
+      "local_text": "/tmp/pod-bose-pilgrim.txt",
+      "bytes": 502503,
+      "pages": 150,
+      "sha256": "32f3d9c410244a6ecd46d239818fb77d41ae10b8cbc0c031b5513a368fb03ca3",
+      "access": "Actual URL read through web, then valid-TLS public download succeeded after sandbox DNS failed; text extracted with pypdf.",
+      "edition": "Title: Netaji’s Life and Writings,PartOne,AnIndianPilgrim orAutobiographyofSubhasChandraBose. Reproduces NetajiPublishingSocietypreface datedCalcutta23January1948. PDF carriesHindustanBookswatermarks and isre-typeset text, not an originalmanuscript or demonstrated originaleditionfacsimile.",
+      "selected_text_pages": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        43,
+        44,
+        45,
+        46
+      ],
+      "visually_inspected": [
+        {
+          "pdf_page": 40,
+          "printed_page": 40,
+          "path": "/tmp/pod-bose-p40.png"
+        },
+        {
+          "pdf_page": 46,
+          "printed_page": 46,
+          "path": "/tmp/pod-bose-p46.png"
+        }
+      ],
+      "findings": [
+        {
+          "locator": "ChapterI p6",
+          "claim": "Birth23January1897Cuttack;fatherJanakinathsettledlawyer; motherPrabhabatifamilyDuttHatkhola. Onlybirth/fatherneeded."
+        },
+        {
+          "locator": "ChapterIV pp29–30",
+          "claim": "SchoolJanuary1902near5thbirthday; firstdaydelayedbyfall; schoolfootnoteProtestantEuropeanSchoolBaptistMission; teacherSarahLawrencehelpedearlyEnglish. Optional specifics not all needed."
+        },
+        {
+          "locator": "ChapterIV pp31–32",
+          "claim": "Creditsorder,individualattention,English; criticisescurriculumfocusBritain,littleIndia,noIndianlanguage. Do not erase his praise or equate dissatisfaction with all childhood."
+        },
+        {
+          "locator": "ChapterIV pp36–37",
+          "claim": "Broadly satisfied1902–1908; laterdesiretobeatIndian school; explicitly adultdistancepermitsanalysis. Avoid diagnosticgeneralisation fromhisownpsychologicaltheory."
+        },
+        {
+          "locator": "ChapterV pp39–40",
+          "claim": "January1909Ravenshawarrival; Englishandparentagebroughtrecognition; Bengaliweakness,compositionlaughedat,annualhighestmark. Essayanimaluncertaincoworhorse: no definitecowstory."
+        },
+        {
+          "locator": "ChapterV pp43–46",
+          "claim": "BeniMadhavDasmoralinfluence; postdeparturecorrespondence; naturecontemplation river/hill/meadow/plants; hecannotclaimethicaleffectconfidently butexplicitlycreditsconcentrationandseeingbeauty. Avoid teacherledactualexcursion or exactriveridentification."
+        },
+        {
+          "locator": "Prefacepp3–5",
+          "claim": "Publisherintroducesunfinishedautobiography; dated23January1948. Dateofprefacenotcompositionyear. No independentlyestablished1937writingdate inthisboundedinspection."
+        }
+      ],
+      "limitations": [
+        "Single source across all chapters and websites; no split budgets.",
+        "Re-typeset reproduction has repeated passage acrosspp34–35 and typographic errors; no criticaleditioncollation. Selected examples pp31–32,37,39–40,45–46 are coherent and located.",
+        "No publicdomain determination attempted; respect requested200wordaggregate.",
+        "No fullbookreview,originalmanuscript inspection or outsidepsychologicaldiagnosis."
+      ],
+      "public_note": "Chapters I, IV and V, especially pages 6, 29–32, 36–40 and 43–46; reproduced preface dated 23 January 1948."
+    },
+    {
+      "id": "cuttack-netaji-current",
+      "url": "https://www.incredibleindia.gov.in/en/odisha/cuttack/netaji-birth-place-museum",
+      "title": "Incredible India · Netaji Birth Place Museum",
+      "access": "Fresh actual full official page read through web, not only indexed snippet.",
+      "locator": "The ancestral home of a hero and A glimpse into the past,lines747–752",
+      "claims": [
+        "Birthplacehouse,museumcollectionsfamilyletters,schoolcertificates,photos."
+      ],
+      "public_note": "Official collection description: family letters, school certificates and photographs. Individual display labels and current access were not independently checked.",
+      "limitations": [
+        "Promotional overview, no individualobject catalogue or prooforiginalvsreproduction.",
+        "Do not adopt pagegenericphotographyban aslocalcurrentrule; do not promisehours,prices oraccess.",
+        "Preserveexisting sourceIDfrompublishedmuseumguide."
+      ]
+    },
+    {
+      "id": "cuttack-netaji-tourism",
+      "url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/museums/netaji-museum.html",
+      "access": "OriginalURLfresh404.",
+      "successor_url": "https://odishatourism.gov.in/en/places/netaji-birth-place-museum-oriya-bazaar-kataka",
+      "successor_access": "Freshfullactualpage, descriptionline307 andcollectionheadings.",
+      "claims": [
+        "Ancestralhouse builtbyJanakinath; photos,belongings,letters,memorabilia."
+      ],
+      "limitations": [
+        "Keep oldURL historicalinspection ratherthansilent claimitworked.",
+        "Notnecessaryadditionto publicsource list becauseexisting IncredibleIndia currentidentityalreadycoversboundedcollectionclaim."
+      ]
+    },
+    {
+      "id": "cuttack-museum",
+      "url": "https://cmccuttack.odisha.gov.in/index.php/tourist-places/",
+      "access": "Freshdirectwebretrievaltimedouttwice; searchindexedtextsupportsOdiaBazaarandletters only.",
+      "limitations": [
+        "No freshfulldirectpageinspectionclaimed.",
+        "Do not usetheindexed round-yearopenclaim as currentaccessguarantee.",
+        "Can retirefromcurrentpublicfootnoteswhilepreservinghistoricalKBsource."
+      ]
+    }
+  ],
+  "proposed_sections": [
+    {
+      "id": "home",
+      "title": "A childhood in Cuttack",
+      "paragraphs": [
+        {
+          "text": "Bose records his birth in Cuttack on 23 January 1897, where his father Janakinath had settled as a lawyer.",
+          "source_ids": [
+            "bose-indian-pilgrim"
+          ],
+          "locator": "ChapterI printed/PDF6"
+        }
+      ]
+    },
+    {
+      "id": "first-school",
+      "title": "Learning English, missing Bengali",
+      "paragraphs": [
+        {
+          "text": "He entered the Protestant European School in 1902. Looking back, he valued its individual attention and English teaching, but criticised a curriculum with little about India and no Indian language. He remembered being broadly content for years, before wanting a school where he felt more at home.",
+          "source_ids": [
+            "bose-indian-pilgrim"
+          ],
+          "locator": "ChapterIV pp29–32,36–37; avoid portraying entire1902–1908period as continuous revolt."
+        }
+      ]
+    },
+    {
+      "id": "ravenshaw",
+      "title": "Confidence and a difficult lesson",
+      "paragraphs": [
+        {
+          "text": "At Ravenshaw in January 1909, English brought him recognition; Bengali exposed a gap. His classmates laughed at his composition. He worked until he topped the subject’s annual examination.",
+          "source_ids": [
+            "bose-indian-pilgrim"
+          ],
+          "locator": "ChapterV pp39–40. Essaytopic deliberatelyomitted: narratorhimself uncertain cow/horse."
+        },
+        {
+          "text": "Beni Madhav Das’s influence continued through letters after the headmaster left. Bose practised contemplation beside water and among plants. He credited this with closer attention and concentration, while remaining unsure of its ethical effect.",
+          "source_ids": [
+            "bose-indian-pilgrim"
+          ],
+          "locator": "ChapterV pp43–46; riverbank/hill/meadow p45,plants+concentration+ethicalqualification p46."
+        }
+      ]
+    },
+    {
+      "id": "read",
+      "title": "An adult looking back",
+      "paragraphs": [
+        {
+          "text": "The reproduction carries a preface dated 23 January 1948, introducing an unfinished autobiography. Its childhood scenes are remembered, not diary entries.",
+          "source_ids": [
+            "bose-indian-pilgrim"
+          ],
+          "locator": "PrefacePDF3–5,especiallydatep5; retrospectexplicitp37."
+        },
+        {
+          "text": "Try reading a passage twice: first for what happens, then for the judgement the narrator adds. What could a pupil have known then, and what belongs to the person remembering? That distinction makes autobiography more interesting than a list of childhood milestones.",
+          "source_ids": [],
+          "kind": "original reading invitation; not another factual summary"
+        }
+      ]
+    },
+    {
+      "id": "visit",
+      "title": "A house, a collection and its labels",
+      "paragraphs": [
+        {
+          "text": "The birthplace house offers another way into the story. Incredible India describes family letters, school certificates and photographs in the Netaji Birth Place Museum. These are different kinds of evidence: a certificate records an institutional result; a letter has a writer, recipient and occasion. The museum description does not identify every object as an original or a reproduction.",
+          "source_ids": [
+            "cuttack-netaji-current"
+          ],
+          "locator": "IncredibleIndia headings The ancestral home of a hero/A glimpse into the past,lines747–752. Evidencecomparisonoriginaleditorialreasoning, not inspectionofanyspecificobject."
+        },
+        {
+          "text": "Choose one labelled object and note its date and purpose. Then compare what it establishes with what a remembered scene asks you to understand. Use the separate museum guide to plan the visit and confirm current arrangements. The school photograph belongs to a separate site and establishes no right of entry.",
+          "source_ids": [],
+          "kind": "original visitor invitation and scope statement; root handles photo2013provenance"
+        }
+      ]
+    }
+  ],
+  "proposed_lead": "A childhood can be approached through a remembered classroom or a labelled object. In Cuttack, those two ways of knowing a life meet.",
+  "source_word_budgets": {
+    "bose-indian-pilgrim": {
+      "body": 149,
+      "note": 18,
+      "title": 7,
+      "total": 174
+    },
+    "cuttack-netaji-current": {
+      "body": 58,
+      "note": 19,
+      "title": 7,
+      "total": 84
+    }
+  },
+  "checks": [
+    "ResolvedfullHEAD.",
+    "ExistingKB/mapandpriorpublishedmuseumguideinspectedbeforefreshresearch.",
+    "Primaryautobiographicalreproductiondownloaded,hashed,textselectedandtwopagesvisuallyinspected.",
+    "Freshactualofficialmuseumdescriptionchecked; failedoldURLsseparatedfromsuccessor.",
+    "Allbookproseplusnoteandtitledconservativelycountedunder200.",
+    "Allfiveoriginalanchorsretainedinproposal."
+  ],
+  "media": "No newmediaresearchclaimed: root independently handlesretained2014museum/2013schoolphotosandrights. No PDF page screenshots proposed forpublicreuse.",
+  "limits": [
+    "No fieldvisit,humanreview,schoolaccessconfirmation,actualmuseumobjectverification.",
+    "No sharedrepositorywrites,Gitmutations,publishing oroutreach."
+  ],
+  "integration": {
+    "coordinator": "Disha",
+    "change": "Named An Indian Pilgrim at first mention; retained proposed examples and all five anchors. Public source list uses two existing identities; historical source failures retained.",
+    "book_public_word_count": 178,
+    "programme_credit": 0
+  }
+}

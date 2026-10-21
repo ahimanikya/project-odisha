@@ -1,0 +1,45 @@
+---
+import ResponsiveImage from './ResponsiveImage.astro';
+import MagazineCover from './MagazineCover.astro';
+import MagazineContents from './MagazineContents.astro';
+import ArticleByline from './ArticleByline.astro';
+import ArticleFootnote from './ArticleFootnote.astro';
+import ArticleFootnotes from './ArticleFootnotes.astro';
+const {entry,photo,links,editorial}=Astro.props;
+const passages=entry.sections.flatMap(s=>s.paragraphs.map((p,i)=>({id:`${s.id}-${i}`,source_ids:p.source_ids}))).filter(p=>p.source_ids.length);
+---
+<div class="utk-magazine utk-magazine--person bose-editorial">
+ <MagazineCover title={entry.title} odia={entry.odia} eyebrow={'Subhas Chandra Bose · roots in Cuttack'} deck={[entry.lead]} photo={{...photo,fit:'contain'}} saveId={entry.save_id} startHref={'#'+entry.sections[0].id} startLabel="Begin in Cuttack" footline="Home · classrooms · memory"><Fragment slot="byline"><ArticleByline author={editorial.author}/></Fragment></MagazineCover>
+ <MagazineContents links={[...entry.sections.map(s=>({href:'#'+s.id,label:s.title})),{href:'#bose-further-reading',label:'Further reading'},{href:'#story-sources',label:'Footnotes & Sources'}]}/>
+ <article class="mag-content">
+  <div class="bose-chapters">{entry.sections.map((section,index)=><section id={section.id} class="bose-section"><p class="eyebrow">{String(index+1).padStart(2,'0')} · A Cuttack childhood</p><h2>{section.title}</h2>{section.photo&&<figure class="chapter-photo"><ResponsiveImage src={entry.assets[section.photo].src} alt={entry.assets[section.photo].alt} width={entry.assets[section.photo].width} height={entry.assets[section.photo].height} loading="lazy" sizes="(max-width: 780px) 92vw, 740px"/><figcaption>{entry.assets[section.photo].caption}</figcaption></figure>}{section.paragraphs.map((p,i)=><p data-source-ids={p.source_ids.join(' ')}>{p.text}<ArticleFootnote ids={p.source_ids} sources={editorial.sources} passage={`${section.id}-${i}`}/></p>)}</section>)}</div>
+  <slot/>
+  <section id="bose-further-reading" class="bose-further-reading"><details class="utk-disclosure"><summary>Further reading</summary><nav aria-label="Continue the story"><ul>{links.map(link=><li><a href={link.href}>{link.title} →</a>{link.reason&&<p>{link.reason}</p>}</li>)}</ul></nav></details></section>
+  <ArticleFootnotes sources={editorial.sources} passages={passages}><div id="bose-image-credits"><h3>Photographs and reuse</h3>{Object.entries(entry.assets).map(([key,asset])=><p><a href={asset.source}>{key==='museum'?'Netaji Birth Place Museum (2014)':'Ravenshaw Collegiate School (2013)'}</a> by {asset.creator} · <a href={asset.license_url}>{asset.license}</a>. {asset.changes}</p>)}</div></ArticleFootnotes>
+  <p class="bose-update"><a href="/contribute/?page=%2Fpeople%2Fsubhas-chandra-bose%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
+ </article>
+</div>
+<script>
+import {bindStorySourceLinks} from '../lib/story-source-links.mjs';
+document.querySelectorAll('.bose-editorial sup, .bose-editorial .article-footnotes').forEach(group=>bindStorySourceLinks(group,document));
+</script>
+<style>
+.chapter-photo{margin:0 0 2rem}.chapter-photo :global(img){display:block;width:100%;height:auto;object-fit:contain}.chapter-photo figcaption{font-size:14px;line-height:1.6;color:var(--muted);margin-top:12px}
+.bose-chapters,.bose-further-reading,.bose-update{max-width:740px;margin-inline:auto}
+.bose-section{margin:56px 0;scroll-margin-top:28px}
+.bose-section h2{font-size:clamp(28px,3vw,38px);line-height:1.3;margin:0 0 24px}
+.bose-section p:not(.eyebrow){font-size:18px;line-height:1.85;margin:0 0 1.25em}
+.bose-further-reading p{font-size:15px;line-height:1.7;color:var(--muted)}
+.bose-update{font-size:15px;line-height:1.8;margin-block:40px}
+.bose-editorial :global(.article-footnotes){max-width:740px;margin:64px auto 48px;border-top:1px solid var(--line);padding-top:28px;font-size:16px;line-height:1.8}
+.bose-editorial :global(.article-footnotes p){margin:0 0 1.25em}
+.bose-editorial :global(.article-footnotes h2){font-size:30px;margin:0 0 24px}
+.bose-editorial :global(.article-footnotes h3){font-size:22px;margin:24px 0 16px}
+.bose-editorial :global(.article-footnotes li){margin-bottom:24px;scroll-margin-top:24px;overflow-wrap:anywhere}
+.bose-editorial :global(.article-footnotes li:target){outline:2px solid var(--line);outline-offset:6px}
+.bose-editorial :global(sup){font-size:.7em;line-height:0;margin-left:.15em}
+.bose-editorial :global(a[data-footnote-ref]){font-weight:600;text-decoration:none;padding:.2em .15em}
+.bose-editorial :global(a[data-footnote-backref]){display:inline-block;padding:.2rem .3rem}
+.bose-editorial :global(a:focus-visible){outline:2px solid var(--earth);outline-offset:3px}
+@media(max-width:700px){.bose-section{margin-block:40px}.bose-section p:not(.eyebrow){font-size:17px;line-height:1.8}}
+</style>

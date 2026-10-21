@@ -1,0 +1,210 @@
+{
+  "recorded_at": "2026-10-21T16:06:44.627670+00:00",
+  "article_id": "POD-EDIT-073",
+  "route": "/people/subhas-chandra-bose/",
+  "status": "reviewed_candidate",
+  "input_head": "ceadbe0eb1a633530d91f0f32968adb6642feea8",
+  "authorization": [
+    "POD-DEC-2026101702",
+    "POD-DEC-2026101901",
+    "POD-DEC-225"
+  ],
+  "central_question": "What did Bose remember learning in Cuttack, and how do his later recollections differ from what a birthplace museum can establish?",
+  "scope": "Deepen the individual childhood article with concrete primary-source examples and honest retrospective limits; preserve both documentary photographs.",
+  "acceptance": [
+    "Concrete sourced examples explain childhood education and formative influences; visible notes and full portable reading.",
+    "Separate AI review, meaningful tests, responsive checks, merged PR, approved deployment, actual live receipt and receipt integration."
+  ],
+  "ownership": "Disha retains claim through receipt integration.",
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only bounded primary-source research; temporary report only.",
+      "status": "complete"
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/pages/people/subhas-chandra-bose.astro",
+        "projects/site/src/components/BoseArticle.astro",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/tests-coast/bose-editorial.test.mjs",
+        "projects/site/tests-coast/odisha-roots.test.mjs"
+      ],
+      "status": "complete",
+      "scope_released": "Five implementation files frozen after canonical-copy checks; Disha may integrate."
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Separate read-only review of integrated candidate.",
+      "status": "complete"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": [
+        "kb/research/people/subhas-chandra-bose.json",
+        "kb/research/people/bose-editorial.json",
+        "kb/research/people/bose-research-2026-10-21.json",
+        "shared records and publication"
+      ],
+      "status": "working"
+    }
+  ],
+  "counting": {
+    "substantive500": 112,
+    "increment": 0
+  },
+  "worker_reconciliation": "Actual inventory confirms all three workers completed prior assignments. Resume existing workers; no duplicate runtimes. Open PR304 and281 remain untouched.",
+  "previous_integration": {
+    "pull_request": 416,
+    "head": "a9cb9c8148924a08629f5c4768b9f77942a96d87",
+    "merge_commit": "ceadbe0eb1a633530d91f0f32968adb6642feea8",
+    "merged_at": "2026-10-21T15:41:35Z",
+    "observed_at": "2026-10-21T16:06:44.627670+00:00"
+  },
+  "next_action": "Final separate evidence review, required PR checks, reviewed merge and approved publication.",
+  "implementation": {
+    "article_id": "POD-EDIT-073",
+    "input_head": "80db9dfa4ab244f30c72882851b081fac9c40153",
+    "status": "files_frozen_ready_for_coordinator_build",
+    "files": [
+      "projects/site/src/components/BoseArticle.astro",
+      "projects/site/src/pages/people/subhas-chandra-bose.astro",
+      "projects/site/src/data/journey-catalog.ts",
+      "projects/site/tests-coast/bose-editorial.test.mjs",
+      "projects/site/tests-coast/odisha-roots.test.mjs"
+    ],
+    "checks": [
+      {
+        "command": "node --check projects/site/tests-coast/bose-editorial.test.mjs",
+        "result": "pass after correction of slash in save-identity regex"
+      },
+      {
+        "command": "node --check projects/site/tests-coast/odisha-roots.test.mjs",
+        "result": "pass"
+      },
+      {
+        "command": "git diff --check",
+        "result": "pass"
+      },
+      {
+        "command": "node --test --test-name-pattern=\"Bose source map\" tests-coast/bose-editorial.test.mjs",
+        "cwd": "projects/site",
+        "result": "1/1 pass against final canonical copy"
+      }
+    ],
+    "findings": [
+      "Exact standalone route uses scoped BoseArticle; no blanket author assignment.",
+      "Both documentary photos retained, full-frame, school before Ravenshaw paragraphs as previously.",
+      "Footnote passages derive from each canonical paragraph; expanded notes, collapsed onward links, article-specific visible update and privacy notice.",
+      "Full portable paragraph arrays and concise editorial source list with existing reading save identity.",
+      "Existing portable renderer supports one item.photo; museum photo preserved. School photo remains website-only without shared model expansion, as coordinator approved.",
+      "Enduri Pitha queued POD-EDIT-074 is unchanged control.",
+      "Narrow roots wording assertions now match explicit Bengali learning gap, unfinished autobiography and school entry limitation.",
+      "Existing Shell ContextTrail preserves breadcrumb; focused test now asserts a single Explore/Cuttack/current route breadcrumb.",
+      "Final source test verifies concrete English/Bengali classroom contrast, continuing letters, ethical uncertainty, 1948 preface distinction and museum object limits."
+    ],
+    "limits": [
+      "Rendered behavior awaits coordinator build; no fresh rendered pass claimed.",
+      "Portable model remains single museum photo; school photograph and rights remain on website.",
+      "No builds, browser visual/keyboard checks, Git mutation, shared KB edits or publication performed."
+    ],
+    "integration_head": "80db9dfa4ab244f30c72882851b081fac9c40153 plus coordinator canonical working changes",
+    "content_shape": {
+      "sections": 5,
+      "paragraphs": 8,
+      "notes": 2,
+      "reference_occurrences": 6
+    }
+  },
+  "research": "research/people/bose-research-2026-10-21.json",
+  "source_audit": "Disha read actual reproduction preface/birth/school text and inspected rendered pages 40 and 46, plus the current official Incredible India collection description. Memoir claims remain retrospective; no manuscript, original letters or museum object examined.",
+  "image_audit": {
+    "result": "Both existing photographs visually inspected and retained; museum 2014, school 2013, physically credible later architectural views. Fresh Commons pages confirm creator, capture dates and CC BY-SA licences. No childhood scene or classroom identification inferred. Both website frames contained; portable reading retains its existing museum image only.",
+    "museum_sha256": "b63ae286dfbd7b92d5595337cf14d0a2202c8c6b2b3e9edcd6fbbbb0bbd3c4cd",
+    "school_sha256": "a38c3069a76495a5c5784f6b6f6dafa3b618dbce8809fc043c381b6fcf134774"
+  },
+  "validation_notes": [
+    "Full build and566/566tests PASS; coast build and408/408tests PASS; publication limited11 indexable unchanged.",
+    "All457 directory routes and404 reconcile to458 rollout entries; no new article route.",
+    "Minor EOF blank line from separate review trimmed; complete base diff whitespace check passes.",
+    "Actual Chrome desktop1440x900/mobile390x844 visual and keyboard checks pass: footnote focus and exact return, collapsed Further reading opens with Enter, preserved breadcrumb and school photo.",
+    "Desktop740px column,18px/33.3px; mobile343.2px,17px/30.6px; no horizontal overflow; both website images loaded and contained.",
+    "Browser emulation only; no physical-device or screen-reader test. No publication or completion yet.",
+    "Credit-related automatic approval review failure prevented a remote read; user upgraded and retry succeeded. No action bypassed and no publication occurred during that failure."
+  ],
+  "responsive": {
+    "reviewer": "Disha",
+    "candidate_content_head": "280656b87c4e328c85c30b008ec87391ebe388c4",
+    "screenshots": [
+      "kb/records/evidence/bose-editorial-2026-10-21/desktop-cover.jpg",
+      "kb/records/evidence/bose-editorial-2026-10-21/desktop-body.jpg",
+      "kb/records/evidence/bose-editorial-2026-10-21/desktop-notes.jpg",
+      "kb/records/evidence/bose-editorial-2026-10-21/mobile-cover.jpg",
+      "kb/records/evidence/bose-editorial-2026-10-21/mobile-school.jpg",
+      "kb/records/evidence/bose-editorial-2026-10-21/mobile-notes.jpg"
+    ],
+    "desktop_keyboard": "first-school reference → note-bose-indian-pilgrim → exact first-school reference; focus confirmed.",
+    "mobile_keyboard": "ravenshaw second paragraph reference → same note → exact ravenshaw-1 reference; focus confirmed.",
+    "reading_paths": [
+      "/visit/experiences/cuttack-netaji/",
+      "/destinations/cuttack/",
+      "/food/cuttack/",
+      "/food/odisha-rasagola/",
+      "/journey/"
+    ],
+    "limit": "No physical-device or screen-reader test."
+  },
+  "review": {
+    "reviewer": "Drishti — separate AI reviewer",
+    "article_id": "POD-EDIT-073",
+    "route": "/people/subhas-chandra-bose/",
+    "input_head": "3cb30de7d5fd0a16fed758825e7aa06ede12ae97",
+    "base_head": "ceadbe0eb1a633530d91f0f32968adb6642feea8",
+    "result": "PASS",
+    "blocking_findings": [],
+    "minor_findings": [
+      {
+        "file": "projects/site/tests-coast/bose-editorial.test.mjs:65",
+        "finding": "New blank line at EOF flagged by git diff --check; sent to coordinator to trim in final evidence commit.",
+        "status": "resolved: final commit removes only the EOF blank line; full base diff check passes"
+      }
+    ],
+    "findings": [
+      "Actual selected autobiography reproduction supports birth/school dates, English/Bengali contrast, annual result, continuing correspondence and explicit uncertainty about ethical effect.1948 is correctly identified as reproduced preface date,not composition date.",
+      "Official museum overview supports letters,certificates,photographs; article does not identify individual objects as inspected originals or promise school access.",
+      "Independent book-derived public body+source title+note count178; source examples are not split into artificial chapter budgets.",
+      "Both documentary photographs and metadata retained unchanged; actual Commons pages confirm creators,capture dates and CC BY-SA4.0/3.0. Local pixels show credible later architectural views,not childhood scenes.",
+      "Exact standalone route/component and one catalog entry opt in; all five anchors,eight paragraphs,two notes,six exact reference/return pairs retained. Portable contains all narrative and concise sources; existing single museum-photo limitation documented.",
+      "Enduri control and adjacent Rasagola behavior pass. Programme bytes unchanged112;sole073active,62completed76excluded319queued."
+    ],
+    "actual_checks": [
+      "Read AGENTS,editorial standard,current handoff,research dossier,map,canonical prose and exact implementation diff.",
+      "Read selected local original reproduction text,preface/birth/school passages; visually inspected printed40 and46. SHA25632f3d9c410244a6ecd46d239818fb77d41ae10b8cbc0c031b5513a368fb03ca3 verified.",
+      "Fresh web reads of IncredibleIndia selected collection paragraph and both original Commons file metadata/licensing pages; independently viewed both local photographs.",
+      "Node24 tests-coast/bose-editorial.test.mjs,odisha-roots.test.mjs,rasagola-editorial.test.mjs,visitor-experience.test.mjs:20/20PASS on fresh dist-coast.",
+      "article_rollout/check_team_assignments/check_autonomous_program/registers/build_workbench/validate_research_map checksPASS;1116records639events.",
+      "Independent asset JSON preservation,programme byte comparison and source word count. git diff --check identified minor EOFblankline.",
+      "Final280656b8..3cb30de7delta limited to six screenshots,handoff evidence and EOFblankline removal; exact initial review transcription verified. No production/source changes.",
+      "Independently viewed committed desktop-body,mobile-cover,mobile-school,mobile-notes JPGs: readable prose,full-frame contextual school image,correct later-date caption and legible numbered notes/return links.",
+      "git diff --check ceadbe0e..3cb30de7PASS."
+    ],
+    "coordinator_reported_checks": [
+      "Full566/566,coast408/408,publication11indexablePASS;457directoryroutes+404=458registered.",
+      "Actual1440x900/390x844 browser:740/343.2px prose widths,18/17px body,33.3/30.6px line heights,nooverflow; exact desktopfirst-school/mobileravenshaw-1 note returns and FurtherreadingEnter pass."
+    ],
+    "limits": [
+      "Separate AI review only; no human,historian,fieldvisit,schoolaccess or museum-object confirmation.",
+      "Selected re-typeset autobiography reproduction,not fullbook review,manuscript or critical-edition collation; original correspondence not inspected.",
+      "No independent interactive browser,physical-device,screen-reader or live publication checks; sampled committed screenshots inspected,keyboard/geometry evidence belongs to Disha.",
+      "No own build or broad-suite rerun;focused20tests and validators only. Portable retains existing museum image only; school image remains website-only.",
+      "No repository/Git/publishing changes;only temporary review JSON written.",
+      "Candidate review PASS does not establish publication/completion; required checks,reviewed merge,approved deployment and live receipt remain gates."
+    ],
+    "initial_input_head": "280656b87c4e328c85c30b008ec87391ebe388c4"
+  }
+}

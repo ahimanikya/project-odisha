@@ -1,3 +1,4 @@
+import boseEditorial from '../../../../kb/research/people/bose-editorial.json';
 import rasagolaEditorial from '../../../../kb/research/food/rasagola-editorial.json';
 import chandipurMealEditorial from '../../../../kb/research/food/chandipur-meal-editorial.json';
 import mudhiEditorial from '../../../../kb/research/food/mudhi-mansa-editorial.json';
@@ -83,7 +84,7 @@ for(const p of voices.pages.filter(p=>p.path.split('/').length>1)){
  entries.push({id:'reading:'+p.path,title:p.title,kind:'Reading',area:'Culture & language',summary:p.lead,href:'/'+p.path+'/',checked:p.checked_on||voices.checked_on,...(editorial?{author:editorial.author}:{}),practical:editorial?p.sections.map(s=>({heading:s.title,text:s.paragraphs.map(p=>p.text).join(' '),paragraphs:s.paragraphs.map(p=>p.text)})):p.reading_notes,sources:editorial?editorial.sources.map(({title,url})=>({title,url})):[...new Set([...p.sections.flatMap(s=>s.paragraphs.flatMap(v=>v.source_ids)),...(p.learning_resource?[p.learning_resource.source_id]:[])])].map(id=>({title:voices.sources[id].title,url:voices.sources[id].url}))});
 }
 for(const p of foodCollection.pages.filter(p=>!entries.some(item=>item.id===p.save_id)))entries.push({id:p.save_id,title:p.title,kind:'Food',area:p.planning_area||p.area,summary:p.lead,href:'/food/'+p.slug+'/',checked:p.checked_on||foodCollection.checked_on,sources:[]});
-entries.push({id:bose.save_id,title:bose.title,kind:'Reading',area:bose.area,summary:bose.lead,href:'/'+bose.path+'/',checked:bose.checked_on,practical:bose.sections.map(s=>({heading:s.title,text:s.paragraphs.map(p=>p.text).join(' ')})),sources:Object.values(bose.sources).map(s=>({title:s.title,url:s.url}))});
+entries.push({id:bose.save_id,author:boseEditorial.author,title:bose.title,kind:'Reading',area:bose.area,summary:bose.lead,href:'/'+bose.path+'/',checked:boseEditorial.checked_on,practical:bose.sections.map(s=>({heading:s.title,text:s.paragraphs.map(p=>p.text).join(' '),paragraphs:s.paragraphs.map(p=>p.text)})),sources:boseEditorial.sources.map(({title,url})=>({title,url}))});
 const pakhala=notes.find(n=>n.slug==='pakhala');
 entries.push({id:'food:pakhala',title:pakhala.label,kind:'Food',area:'Odisha',summary:pakhala.dek,href:pakhala.href,checked:'2026-09-29',sources:pakhala.sources.map(s=>({title:s.title,url:s.resource}))});
 export const journeyCatalog=entries.filter(item=>allowsIdea(item.id)).map(original=>{

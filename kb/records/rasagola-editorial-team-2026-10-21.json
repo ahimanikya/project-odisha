@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-21T15:06:19.887405+00:00",
   "article_id": "POD-EDIT-072",
   "route": "/food/odisha-rasagola/",
-  "status": "published_receipt_pending_integration",
+  "status": "completed_receipt_integrated",
   "input_head": "392fa983c2ad159f036694882150f94275b72e29",
   "authorization": [
     "POD-DEC-2026101702",
@@ -15,7 +15,7 @@
     "Concrete sourced preparation and cultural examples; visible numbered notes and full portable reading.",
     "Separate AI review, responsive checks, required tests, reviewed merged PR, approved deployment and live receipt."
   ],
-  "ownership": "Disha retains claim through receipt integration.",
+  "ownership": "Released after observed receipt merge.",
   "executions": [
     {
       "name": "Anvesha",
@@ -68,7 +68,7 @@
     "observed_at": "2026-10-21T15:06:19.887405+00:00"
   },
   "worker_reconciliation": "Actual inventory confirms all three named workers completed their prior tasks; resume existing workers with followup_task. Other open PR304 weekly data and281 Ashoka remain untouched.",
-  "next_action": "Integrate the independently reviewed receipt after required checks and observed merge before releasing Rasagola.",
+  "next_action": "Complete. Resume the next eligible queued article.",
   "implementation": {
     "article_id": "POD-EDIT-072",
     "input_head": "2e301ec76d916947aa3e26e7da6d41cebd7a64a8",
@@ -263,5 +263,12 @@
       "No repository/Git/publication changes performed. This temporary review file is the sole write. Receipt PR checks and actual merge remain required before ownership release."
     ]
   },
-  "receipt_pull_request": "https://github.com/ahimanikya/project-odisha/pull/416"
+  "receipt_pull_request": "https://github.com/ahimanikya/project-odisha/pull/416",
+  "receipt_integration_observed": {
+    "pull_request": 416,
+    "head": "a9cb9c8148924a08629f5c4768b9f77942a96d87",
+    "merge_commit": "ceadbe0eb1a633530d91f0f32968adb6642feea8",
+    "merged_at": "2026-10-21T15:41:35Z",
+    "observed_at": "2026-10-21T16:06:44.627670+00:00"
+  }
 }

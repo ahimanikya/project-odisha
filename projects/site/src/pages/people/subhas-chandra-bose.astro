@@ -1,14 +1,11 @@
 ---
 import Shell from '../../layouts/Shell.astro';
-import MagazineArticle from '../../components/MagazineArticle.astro';
+import BoseArticle from '../../components/BoseArticle.astro';
 import entry from '../../../../../kb/research/people/subhas-chandra-bose.json';
+import editorial from '../../../../../kb/research/people/bose-editorial.json';
 import {allowsPage} from '../../data/edition';
-const photos=Object.fromEntries(entry.sections.filter(s=>s.photo).map(s=>[s.id,entry.assets[s.photo]]));
+const links=[...entry.related.filter(link=>allowsPage(link.href)),{title:'Open my journey',href:'/journey/'}];
 ---
 <Shell title={entry.title} description={entry.lead} active="explore" wide related={false}>
- <MagazineArticle kind="person" title={entry.title} odia={entry.odia} eyebrow="Subhas Chandra Bose · roots in Cuttack" deck={[entry.lead]} photo={entry.assets[entry.hero]} saveId={entry.save_id} sections={entry.sections} sectionPhotos={photos} chapterLabel="A Cuttack childhood" startLabel="Begin in Cuttack" footline="A home. A teacher. A city that travelled with him.">
-  <nav class="story-onward" aria-label="Continue the story">{entry.related.filter(link=>allowsPage(link.href)).map(link=><a href={link.href}>{link.title} →</a>)}<a href="/journey/">Open my journey →</a></nav>
-  <details class="mag-article-credits"><summary>Sources, photographs & editorial notes</summary><p>Research checked {entry.checked_on}. This feature follows Bose’s early Cuttack life; it is not a complete biography. The autobiography is retrospective testimony. No current school access or museum hours have been verified.</p><ul>{Object.values(entry.sources).map(s=><li><a href={s.url}>{s.title}</a><p>{s.inspection}</p></li>)}</ul>{Object.values(entry.assets).map(photo=><p><a href={photo.source}>{photo.caption}</a> By {photo.creator} · <a href={photo.license_url}>{photo.license}</a>. {photo.changes}</p>)}<p>Project Odisha knowledge base. Founder & Editor-in-Chief: Ahimanikya Satapathy. Prepared with AI assistance; human editorial review pending.</p></details>
- </MagazineArticle>
+ <BoseArticle entry={entry} photo={entry.assets[entry.hero]} links={links} editorial={editorial}/>
 </Shell>
-<style>.story-onward{display:flex;flex-wrap:wrap;gap:1rem 2rem;padding:2rem 0;border-top:1px solid var(--line)}.story-onward a{display:inline-flex;align-items:center;min-height:44px}</style>
