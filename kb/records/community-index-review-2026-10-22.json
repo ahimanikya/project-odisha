@@ -1,0 +1,39 @@
+{
+  "task_id": "POD-TASK-COMMUNITY-INDEX-20261022",
+  "reviewer": "Drishti, separate AI reviewer",
+  "status": "PASS",
+  "recorded_at": "2026-10-21T20:21:00.610245+00:00",
+  "input_head": "677a3ce0dc89c4ee1e6fbb8b0ce61ecb1b65a1e9",
+  "reviewed_head": "7644d0a03f57cf3d7fade9b5ec09dbf06c542ebd",
+  "file_sha256": {
+    "kb/research/communities/coverage-index.json": "fd98c04d029d83e19005ef9ba17913e86b5835a306ed4576613a77a367bf4340",
+    "kb/research/communities/index.md": "d7e563d8342cc39d2938ee6250fe2b6b70ab81a25721b495045e5310b244fc79",
+    "tools/research/validate_community_index.py": "e640034d0ba4f2affce9cfed043d2e585ecd8ff571b396615df1c8d11ab59c1a",
+    "kb/records/community-index-research-2026-10-22.json": "5541a0bcfc7a94dacca017456b28f30ac52f8de350328f3cc47bef45b10d9a36"
+  },
+  "findings": [
+    "Inventory separates source observations from4editorial topics;226observations are not claimed as a caste/population count.6sources include landing page and project synthesis with appropriate independence limits.",
+    "StateSEBC and centralOBC retain separate source IDs/scope. No canonical alias or current entitlement inferred from grouped spelling or category.",
+    "All216SEBC serials present exactly once; deleted rows68/75 and Namasudra segment in row138 retain deletion qualifications.",
+    "Direct visual inspection of PDF13–14 confirms row138 boundaries, Namasudra deletion notice and continued Chasa Mahanty/Mahanty, Oda group and Basantia/Mahalaek segments.",
+    "Independent pdfplumber extraction comparison confirms every label/qualifier segment in rows24,50,138,168,182 exactly matches source table cells and page associations.",
+    "PDF checksum matches recorded c9007da5b4b1d25b614dc2cca086505ab5ef6b1951ee95cc09980a9c5c5efddb.",
+    "Four topic relationships describe connections/unresolved scope without declaring equivalence; Khandayat remains next_research rather than a claim automatically starting work.",
+    "Index and prose explicitly assign zero substantive credit; no website or search change in reviewed implementation."
+  ],
+  "tests": [
+    "Canonical validator PASS:6sources226observations4topics3relationships1route.",
+    "Independent negative tests reject duplicate observationID, dangling source, unverified equivalence and invalid calendar date.",
+    "Full216 serial continuity verified.",
+    "Selected continuation rows compared against original PDF tables.",
+    "Final commit7644d0a0 inspected; clean working tree at review."
+  ],
+  "blockers": [],
+  "limits": [
+    "Not full manual proofreading of216rows; selected rows and pages explicitly checked.",
+    "ST/SC/centralOBC source content not freshly re-fetched by this reviewer; bounded Anvesha provenance retained, later amendments not independently audited.",
+    "Validator checks declared structure and evidence flags, not truth or identity equivalence.",
+    "No human/community/field review or legal eligibility opinion."
+  ],
+  "repository_edits": []
+}
