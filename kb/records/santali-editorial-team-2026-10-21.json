@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-21T03:34:45.502032+00:00",
   "article_id": "POD-EDIT-065",
   "route": "/languages/santali/",
-  "status": "tested_candidate_awaiting_browser_review",
+  "status": "responsive_verified_awaiting_final_review",
   "input_head": "a3836d8123dc7208435e2bfb06f115331f945e67",
   "authorization": [
     "POD-DEC-2026101702",
@@ -59,7 +59,7 @@
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Separate read-only review of integrated candidate; no self-review or human-review claim.",
-      "status": "content_code_review_complete_final_delta_pending"
+      "status": "reviewing_final_browser_evidence"
     },
     {
       "name": "Disha",
@@ -145,14 +145,13 @@
     "Initial missing #mayurbhanj restored; stale presentation/date/export test assumptions corrected with per-route and complete-paragraph assertions.",
     "Research precision correction applied: Nalha script is not inferred from award record.",
     "Source-map, catalogue, research map, rollout, team and programme consistency checks PASS.",
-    "Desktop/mobile and keyboard review remains incomplete. Preview navigation served HTTP200 but browser control timed out, reset, and reported transport closed. Browser inventory and recovery check could not connect.",
     "No article completion, merge, publication, live verification or deployment claimed."
   ],
   "review": {
     "reviewer": "Drishti, separate AI subagent /root/drishti; not human review",
-    "input_head": "a2e15c187a1194524ded18cb474e0bc2d88bad9c",
+    "input_head": "6347c5c601abd9c4ba3435c134e061b8b40c083e",
     "base": "a3836d8123dc7208435e2bfb06f115331f945e67",
-    "result": "CONTENT_AND_CODE_PASS_PENDING_FINAL_TEST_DELTA",
+    "result": "CONDITIONAL_CONTENT_CODE_PASS_VISUAL_GATE_BLOCKED",
     "blocking_findings": [],
     "scope": "POD-EDIT-065 Santali: prose/evidence, exact-route opt-in, visible source mapping, retained media and complete portable narrative.",
     "actual_source_checks": [
@@ -222,20 +221,100 @@
       {
         "command": "git diff --check BASE..HEAD",
         "result": "PASS"
+      },
+      {
+        "command": "node --test tests-coast/living-languages.test.mjs tests-coast/santali-editorial.test.mjs",
+        "cwd": "projects/site",
+        "runtime": "Node24.15.0",
+        "result": "PASS9/9 independently rerun at final head"
       }
     ],
     "limitations": [
       "Prior1October selected booklet-page review retained explicitly; Drishti did not freshly retrieve or independently revalidate those pages.",
       "No fluent Santali, pronunciation, specialist, human or field review; Nalha poems not read.",
-      "No independent browser responsive/keyboard check performed; parent is handling actual browser checks.",
-      "Full566/coast359of361 are parent-reported; two pending living-languages test corrections require final delta review and completed passing checks before merge.",
-      "No build/Git mutation/publication or repository writes performed by Drishti; temporary report only."
-    ]
+      "No build/Git mutation/publication or repository writes performed by Drishti; temporary report only.",
+      "Actual desktop/mobile visual and keyboard review is incomplete because coordinator browser transport is unavailable. Drishti performed no independent interactive review; test assertions do not substitute for that gate.",
+      "Content/code/test review accepted conditionally only. No merge or publication approval until actual responsive/keyboard checks, final review evidence, required CI and remaining publication gates pass.",
+      "Coordinator logs show full566/coast361PASS; Drishti independently reran focused suites only."
+    ],
+    "prior_review_head": "a2e15c187a1194524ded18cb474e0bc2d88bad9c",
+    "final_delta_checks": [
+      "Inspected four-file delta froma2e15c18: only living-languages test assertions, generated collection fingerprint, team evidence/status and operations phase; production/article/asset bytes unchanged.",
+      "Living-languages test now explicitly validates Santali visible source notes and collapsed onward reading, preserving legacy checks for six other profiles. Checked date follows each canonical entry; portable assertions verify each complete paragraph instead of joined text.",
+      "Independently reran living-languages and Santali suites9/9PASS on fresh output; prior36/36 focused checks remain applicable.",
+      "Read coordinator logs: full566/566 and coast361/361 pass; these full-suite executions were not performed by Drishti.",
+      "Workbench, rollout, ownership, programme and diff checks independently pass. Article065 remains the sole in-progress article with Disha retaining ownership; counts54complete76excluded327queued,programme112.",
+      "Earlier review is faithfully preserved as historical snapshot. Current handoff explicitly blocks actual responsive/keyboard review and claims no merge/deployment/completion."
+    ],
+    "release_gate": {
+      "status": "BLOCKED",
+      "requirement": "Actual responsive and keyboard review",
+      "ownership": "Disha retains POD-EDIT-065",
+      "user_action_required": false
+    }
   },
-  "blocker": {
+  "resolved_blocker": {
     "gate": "actual_responsive_and_keyboard_review",
     "cause": "Browser-control transport unavailable after navigation timeout and session reset; latest inventory and recovery attempt failed.",
     "action": "Resume existing article when browser connection is available; do not publish or count completed until actual visual and keyboard checks, final review, merge, deployment and receipt.",
-    "user_action_required": false
+    "user_action_required": false,
+    "resolution": "Browser connection recovered21October; actual desktop/mobile and keyboard checks completed."
+  },
+  "browser_review": {
+    "reviewer": "Disha",
+    "candidate": "6347c5c601abd9c4ba3435c134e061b8b40c083e",
+    "viewports": [
+      [
+        1440,
+        900
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "reading_widths": [
+      740,
+      343.1953125
+    ],
+    "body_font_px": [
+      18,
+      17
+    ],
+    "line_height_px": [
+      33.3,
+      30.6
+    ],
+    "desktop_paragraph_margin_px": 22.5,
+    "horizontal_overflow": false,
+    "specimen": "Uncropped, loaded original Ol Chiki SVG and honest caption inspected at both widths.",
+    "notes": 6,
+    "references": 7,
+    "returns": 7,
+    "keyboard": {
+      "enter_to_note": "note-ol-chiki",
+      "enter_return": "ref-script-0-ol-chiki",
+      "focus_matches_hash": true,
+      "further_reading_initial_closed": true,
+      "enter_opens_further_reading": true,
+      "suggest_update_outside_disclosures": true
+    },
+    "screenshots": [
+      "records/evidence/santali-editorial-2026-10-21/desktop-hero.png",
+      "records/evidence/santali-editorial-2026-10-21/desktop-reading.png",
+      "records/evidence/santali-editorial-2026-10-21/desktop-notes.png",
+      "records/evidence/santali-editorial-2026-10-21/mobile-hero.png",
+      "records/evidence/santali-editorial-2026-10-21/mobile-reading.png",
+      "records/evidence/santali-editorial-2026-10-21/mobile-notes.png"
+    ],
+    "limits": [
+      "Browser emulation; not physical-device or screen-reader testing."
+    ]
+  },
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/401",
+  "initial_ci": {
+    "head": "6347c5c601abd9c4ba3435c134e061b8b40c083e",
+    "run": 39540866930,
+    "conclusion": "SUCCESS"
   }
 }
