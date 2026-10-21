@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-21T03:34:45.502032+00:00",
   "article_id": "POD-EDIT-065",
   "route": "/languages/santali/",
-  "status": "integrated_candidate_testing",
+  "status": "tested_candidate_awaiting_browser_review",
   "input_head": "a3836d8123dc7208435e2bfb06f115331f945e67",
   "authorization": [
     "POD-DEC-2026101702",
@@ -50,7 +50,8 @@
         "projects/site/tests-coast/pratibha-editorial.test.mjs",
         "projects/site/tests-coast/languages-editorial.test.mjs",
         "projects/site/tests-coast/voices-passage-sources.test.mjs",
-        "projects/site/tests/voices.test.mjs"
+        "projects/site/tests/voices.test.mjs",
+        "projects/site/tests-coast/living-languages.test.mjs"
       ],
       "status": "complete"
     },
@@ -58,7 +59,7 @@
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Separate read-only review of integrated candidate; no self-review or human-review claim.",
-      "status": "reviewing_integrated_candidate"
+      "status": "content_code_review_complete_final_delta_pending"
     },
     {
       "name": "Disha",
@@ -87,7 +88,7 @@
   "implementation": {
     "article_id": "POD-EDIT-065",
     "input_head": "a3836d8123dc7208435e2bfb06f115331f945e67",
-    "status": "scaffold_ready_waiting_for_canonical_copy",
+    "status": "frozen_focused_rendered_checks_pass",
     "files": [
       "projects/site/src/components/CultureMagazine.astro",
       "projects/site/src/components/LanguagePopulation.astro",
@@ -109,11 +110,14 @@
       "projects/site/tests-coast/pratibha-editorial.test.mjs",
       "projects/site/tests-coast/languages-editorial.test.mjs",
       "projects/site/tests-coast/voices-passage-sources.test.mjs",
-      "projects/site/tests/voices.test.mjs"
+      "projects/site/tests/voices.test.mjs",
+      "projects/site/tests-coast/living-languages.test.mjs"
     ],
     "checks": [
       "Syntax: all 17 modified/new test files passed Node 24 --check.",
-      "git diff --check passed."
+      "git diff --check passed.",
+      "node --test tests-coast/living-languages.test.mjs tests-coast/santali-editorial.test.mjs: 9 passed, 0 failed against coordinator fresh dist-coast.",
+      "git diff --check passed after scoped integration correction."
     ],
     "preserved": [
       "Existing Ol Chiki SVG and CC0 metadata unchanged.",
@@ -122,15 +126,116 @@
       "Real Santali links preserved; only stale negative-control fixtures switched to queued Kui."
     ],
     "limits": [
-      "Canonical map not present at last check; source-map test pending final content.",
-      "No build, rendered/export execution, browser review, Git mutation, shared-record edit or publishing."
-    ]
+      "Only living-languages.test.mjs edited during this integration turn; production and shared records unchanged.",
+      "No build, CI rerun, browser review, Git mutations or publishing by Samanta."
+    ],
+    "integration_input_head": "a2e15c187a1194524ded18cb474e0bc2d88bad9c",
+    "integration_fix": {
+      "file": "projects/site/tests-coast/living-languages.test.mjs",
+      "changes": [
+        "Santali asserts visible numbered notes and collapsed Further reading; six untouched language pages retain original sources-disclosure checks.",
+        "Portable date compares each actual collection entry checked_on (collection fallback), rather than universal 2026-10-01.",
+        "Portable content checks each paragraph when present, preserving original text checks for older note objects. This further stale expectation became visible after fixing the old date assertion."
+      ]
+    }
   },
   "reader_gain": "Distinguishes language from writing system, explains explicit vowels and distinct modifier marks, names a book without inventing its contents, and makes the Baripada literary gathering concrete. The duplicated anniversary timeline is replaced by an attributed learning-resource discussion.",
   "validation_notes": [
-    "Source-map/retainedSVG test passes.",
-    "First full test run564/566: existing #mayurbhanj inbound trail fragment was missing after paragraph regrouping. Restored separate Mayurbhanj section; rerun is in progress.",
+    "Full build and566/566 full tests PASS; coast build and361/361 coast tests PASS.",
+    "Initial missing #mayurbhanj restored; stale presentation/date/export test assumptions corrected with per-route and complete-paragraph assertions.",
     "Research precision correction applied: Nalha script is not inferred from award record.",
-    "No article complete, release, visual review or deployment claimed yet."
-  ]
+    "Source-map, catalogue, research map, rollout, team and programme consistency checks PASS.",
+    "Desktop/mobile and keyboard review remains incomplete. Preview navigation served HTTP200 but browser control timed out, reset, and reported transport closed. Browser inventory and recovery check could not connect.",
+    "No article completion, merge, publication, live verification or deployment claimed."
+  ],
+  "review": {
+    "reviewer": "Drishti, separate AI subagent /root/drishti; not human review",
+    "input_head": "a2e15c187a1194524ded18cb474e0bc2d88bad9c",
+    "base": "a3836d8123dc7208435e2bfb06f115331f945e67",
+    "result": "CONTENT_AND_CODE_PASS_PENDING_FINAL_TEST_DELTA",
+    "blocking_findings": [],
+    "scope": "POD-EDIT-065 Santali: prose/evidence, exact-route opt-in, visible source mapping, retained media and complete portable narrative.",
+    "actual_source_checks": [
+      {
+        "url": "https://www.presidentofindia.gov.in/press_releases/president-india-inaugurates-centenary-celebrations-ol-chiki-script",
+        "check": "Fresh actual HTML read: attributed1925 script date,16February2026 event and earlier scripts; article does not adopt institutional pronunciation superiority claim."
+      },
+      {
+        "url": "https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-13/",
+        "check": "Fresh actual17.0 section13.10.1 read: standalone vowels/alphabet, baseline modifier, raised nasalization dot and oral/nasalized length mark support prose. Outdated demographic/geographic claims not adopted."
+      },
+      {
+        "url": "https://sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp",
+        "check": "Fresh actual Santali table2016 row: Nalha, poetry, Gobinda Chandra Majhi. No edition-script, publication-date,translation or poem interpretation inferred."
+      },
+      {
+        "url": "https://sahitya-akademi.gov.in/aboutus/pdf/AR-2022-23.pdf#page=145",
+        "check": "Independently visually read supplied original PDF page145/printed144 render. Baripada21May2022, Beshra inaugural role and Jharkhand/Odisha/WestBengal presentations match. Preceding unrelated event paragraph not conflated."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Ol_Chiki.svg",
+        "check": "Fresh source page checked: SlowPhoton, own work3September2018, CC0, nominal241x49. Original asset hash43497034b34aae814636b2cf601c6d08dec5fdf1211d37521ae36c00f90e8b6e and metadata unchanged."
+      },
+      {
+        "file": "kb/research/references/census-2011/c16-odisha.xlsx",
+        "check": "Independently read original XLSX XML row116:018040 Santali859947; hashbc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db. Census remains2011 mother-tongue entry, not current speakers/script users."
+      }
+    ],
+    "preservation_checks": [
+      "Only Santali collection page changed; assets and population data unchanged.",
+      "Only rollout065 becomes in_progress;programme byte-identical112.",
+      "Shared components opt in exact languages/santali path; Kui negative control retained, Odia existing census notes still pass.",
+      "#mayurbhanj preserved for inbound trail;5sections8paragraphs,6notes7markers; all portable narrative paragraphs appear once with short linked source list.",
+      "Conservative source allocation including full lead: Unicode183words; booklet188including retained learning-resource panel. Other mapped body/title/note plus fulllead below200. No original literary quotations reproduced."
+    ],
+    "tests": [
+      {
+        "command": "node --test tests-coast/santali-editorial.test.mjs tests-coast/odia-editorial.test.mjs tests-coast/languages-editorial.test.mjs tests-coast/voices-passage-sources.test.mjs tests/voices.test.mjs",
+        "cwd": "projects/site",
+        "runtime": "Node24.15.0",
+        "result": "PASS36/36 on fresh built outputs"
+      },
+      {
+        "command": "python3 tools/editorial/article_rollout.py --check",
+        "result": "PASS54complete76excluded1in_progress327queued"
+      },
+      {
+        "command": "python3 tools/check_team_assignments.py",
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/check_autonomous_program.py",
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_research_map.py",
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/editorial/build_workbench.py --check",
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/catalog.py --check",
+        "result": "PASS"
+      },
+      {
+        "command": "git diff --check BASE..HEAD",
+        "result": "PASS"
+      }
+    ],
+    "limitations": [
+      "Prior1October selected booklet-page review retained explicitly; Drishti did not freshly retrieve or independently revalidate those pages.",
+      "No fluent Santali, pronunciation, specialist, human or field review; Nalha poems not read.",
+      "No independent browser responsive/keyboard check performed; parent is handling actual browser checks.",
+      "Full566/coast359of361 are parent-reported; two pending living-languages test corrections require final delta review and completed passing checks before merge.",
+      "No build/Git mutation/publication or repository writes performed by Drishti; temporary report only."
+    ]
+  },
+  "blocker": {
+    "gate": "actual_responsive_and_keyboard_review",
+    "cause": "Browser-control transport unavailable after navigation timeout and session reset; latest inventory and recovery attempt failed.",
+    "action": "Resume existing article when browser connection is available; do not publish or count completed until actual visual and keyboard checks, final review, merge, deployment and receipt.",
+    "user_action_required": false
+  }
 }
