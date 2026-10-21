@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-21T12:07:07.895045+00:00",
   "article_id": "POD-EDIT-069",
   "route": "/languages/ho/",
-  "status": "published_receipt_pending_integration",
+  "status": "completed_receipt_integrated",
   "input_head": "6e947832f6071ce02aa36455c027f23789f88d37",
   "authorization": [
     "POD-DEC-2026101702",
@@ -17,7 +17,7 @@
     "Preserve learning credits and dated Census scope",
     "Separate AI review, tests, desktop/mobile checks, reviewed PR, approved deployment, live verification and merged receipt"
   ],
-  "ownership": "Disha retains claim through receipt integration.",
+  "ownership": "Released after receipt PR410 merge observed.",
   "executions": [
     {
       "name": "Anvesha",
@@ -73,7 +73,7 @@
         "kb/research/voices/ho-research-2026-10-21.json",
         "shared records and publishing"
       ],
-      "status": "working"
+      "status": "complete"
     }
   ],
   "counting": {
@@ -89,7 +89,7 @@
     "tree_equivalence": "a4a3d3b0ffc9dfca8c076755d789cdc66c0a779a"
   },
   "worker_reconciliation": "Existing named agents observed completed from Saora; reuse with follow-up tasks, no duplicate agents.",
-  "next_action": "Integrate the independently reviewed receipt after required checks and observed merge before releasing Ho.",
+  "next_action": "Ho complete; next queued article may be claimed.",
   "existing_article_audit": {
     "findings": [
       "Actual live page and screenshot inspected; two sections, four brief paragraphs without script or concrete learning examples.",
@@ -319,5 +319,12 @@
     "status": "completed",
     "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39600121605"
   },
-  "receipt_pull_request": "https://github.com/ahimanikya/project-odisha/pull/410"
+  "receipt_pull_request": "https://github.com/ahimanikya/project-odisha/pull/410",
+  "receipt_integration": {
+    "pull_request": 410,
+    "reviewed_head": "beb45608566f26bb984f9b4022bd27453971f2dd",
+    "merge_commit": "29997cd43c7e8f08814a1b7f7a03a2498e628d33",
+    "merged_at": "2026-10-21T12:43:01Z",
+    "observed_at": "2026-10-21T13:09:07.725430+00:00"
+  }
 }
