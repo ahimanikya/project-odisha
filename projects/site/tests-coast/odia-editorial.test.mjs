@@ -40,7 +40,7 @@ test('Odia population retains the individual entry, original counts, districts, 
  for(const d of districtRows(atlas,profile.code).filter(r=>r.persons>0).slice(0,3))assert.ok(inset.includes(`${d.name} (${count(d.persons)})`));
  assert.ok(inset.includes(`href="/languages/atlas/?language=${profile.code}"`));assert.ok(inset.includes(atlas.sources.c16.url));
  assert.ok(inset.includes('id="ref-population-c16-odisha-2011"'));
- const other=page('/languages/saora/');assert.ok(!other.includes('ref-population-'));assert.match(other,/Sources, image credits/);
+ const other=page('/languages/ho/');assert.ok(!other.includes('ref-population-'));assert.match(other,/Sources, image credits/);
 });
 test('Odia preserves images, onward links, save identity and visible update privacy without changing the hub',()=>{
  const html=page('/languages/odia/');

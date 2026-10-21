@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 458. completed: 57, excluded: 76, queued: 325.
+Route inventory: 458. completed: 57, excluded: 76, in_progress: 1, queued: 324.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -81,7 +81,7 @@ Route inventory: 458. completed: 57, excluded: 76, queued: 325.
 | POD-EDIT-065 | [Santali](https://projectodisha.org/languages/santali/) | completed | Santali language, Ol Chiki and reading practice |
 | POD-EDIT-066 | [Kui](https://projectodisha.org/languages/kui/) | completed | Kui language, learning publications and reading practice |
 | POD-EDIT-067 | [Kuvi](https://projectodisha.org/languages/kuvi/) | completed | Kuvi language, learning publications and reading practice |
-| POD-EDIT-068 | [Saora / Sora](https://projectodisha.org/languages/saora/) | queued | classification_pending |
+| POD-EDIT-068 | [Saora / Sora](https://projectodisha.org/languages/saora/) | in_progress | Individually research and deepen existing Saora / Sora article; preserve names, script-history uncertainties, original contributor credits, Census scope and credible text-only identity panel. |
 | POD-EDIT-069 | [Ho](https://projectodisha.org/languages/ho/) | queued | classification_pending |
 | POD-EDIT-070 | [Juang](https://projectodisha.org/languages/juang/) | queued | classification_pending |
 | POD-EDIT-071 | [Koya](https://projectodisha.org/languages/koya/) | queued | classification_pending |

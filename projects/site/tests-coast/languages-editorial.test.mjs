@@ -52,5 +52,5 @@ test('Languages preserves collapsed onward links and public contribution privacy
  assert.match(outside,/href="\/contribute\/\?page=%2Flanguages%2F"[^>]*>Suggest an update/);
  assert.match(outside,/GitHub submissions are public; omit private contact details and consent documents/);
  assert.match(html,/submitted issues are public/);assert.match(html,/Recordings need permission and a transcript before publication/);
- const other=page('/languages/saora/').replaceAll('&amp;','&');assert.doesNotMatch(other,/class="article-byline"|id="story-sources"/);assert.match(other,/Sources, image credits & editorial notes/);assert.match(other,/Editorial preview/);
+ const other=page('/languages/ho/').replaceAll('&amp;','&');assert.doesNotMatch(other,/class="article-byline"|id="story-sources"/);assert.match(other,/Sources, image credits & editorial notes/);assert.match(other,/Editorial preview/);
 });

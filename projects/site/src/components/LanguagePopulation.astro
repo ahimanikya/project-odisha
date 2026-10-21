@@ -3,7 +3,7 @@ import ArticleFootnote from './ArticleFootnote.astro';
 import atlas from '../../../../kb/research/voices/population-2011.json';
 import {selection,districtRows,count,percent} from '../lib/language-atlas.mjs';
 const {path,editorial=null}=Astro.props;
-const reading=['languages/odia','languages/santali','languages/kui','languages/kuvi'].includes(path)?editorial:null;
+const reading=['languages/odia','languages/santali','languages/kui','languages/kuvi','languages/saora'].includes(path)?editorial:null;
 const populationSources=reading?.passages.find(p=>p.id==='population')?.source_ids||[];
 const profile=atlas.profiles[path.split('/')[1]];
 const value=profile?selection(atlas,profile.code):null;

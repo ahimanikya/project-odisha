@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-21T10:03:45.566354+00:00",
   "article_id": "POD-EDIT-067",
   "route": "/languages/kuvi/",
-  "status": "published_receipt_pending_integration",
+  "status": "receipt_integrated",
   "input_head": "434b437596bf65d67234c2632e9386835587674d",
   "authorization": [
     "POD-DEC-2026101702",
@@ -17,7 +17,7 @@
     "Preserve credible existing typographic identity panel and publication credits; full portable narrative with short source list.",
     "Separate AI review, meaningful tests, desktop/mobile/keyboard checks, passing PR, approved deployment, actual live verification and integrated receipt."
   ],
-  "ownership": "Disha retains claim through publication receipt integration.",
+  "ownership": "Released after observed receipt PR406 merge.",
   "executions": [
     {
       "name": "Anvesha",
@@ -72,7 +72,7 @@
         "kb/research/voices/kuvi-research-2026-10-21.json",
         "shared records and publication"
       ],
-      "status": "working"
+      "status": "complete"
     }
   ],
   "counting": {
@@ -300,8 +300,17 @@
     "status": "completed",
     "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39583802873"
   },
-  "next_action": "Integrate the separately reviewed receipt through passing required checks and an observed merge before releasing the Kuvi claim.",
+  "next_action": "Released; resume canonical next queued article.",
   "publication_receipt": "records/kuvi-editorial-publication-2026-10-21.json",
   "pull_request": "https://github.com/ahimanikya/project-odisha/pull/405",
-  "receipt_pull_request": "https://github.com/ahimanikya/project-odisha/pull/406"
+  "receipt_pull_request": "https://github.com/ahimanikya/project-odisha/pull/406",
+  "receipt_integration": {
+    "pull_request": 406,
+    "reviewed_head": "dee10caab71a326c4e402eebba945359d2ffd407",
+    "merge_commit": "8d1d0c19cbd9cd8df3b0b1a325ff7a1e82ecf964",
+    "merged_at": "2026-10-21T10:33:59Z",
+    "ci": 39584702199,
+    "observed_at": "2026-10-21T11:07:27.913957+00:00",
+    "tree_equivalent": true
+  }
 }
