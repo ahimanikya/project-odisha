@@ -1,0 +1,115 @@
+{
+  "recorded_at": "2026-10-21T19:37:28.746573+00:00",
+  "authorization": "POD-DEC-225",
+  "program_item": "POD-A500-113",
+  "work_id": "POD-WORK-303",
+  "queue_item": "POD-EDIT-459",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/421",
+  "reviewed_head": "790d6740b01f78aa69beb97b5447e2975b34891e",
+  "merge_commit": "2b33a5d63357a747efcc051b8bbebe8f83b49611",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "790d6740b01f78aa69beb97b5447e2975b34891e",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39661958562"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "2b33a5d63357a747efcc051b8bbebe8f83b49611",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39662604344",
+    "workflow": "publish-site.yml",
+    "publish_approved": true,
+    "head": "2b33a5d63357a747efcc051b8bbebe8f83b49611"
+  },
+  "review": "records/paika-delivery-review-2026-10-22.json",
+  "live": {
+    "checked_at": "2026-10-21T19:37:28.746573+00:00",
+    "url": "https://projectodisha.org/communities/paika/",
+    "html_sha256": "1da87b3afcf9eda54b192bc3bec611117555ddee10f37674fbee3b026fb4358b",
+    "result": "All canonical prose, byline,5visible source notes and noindex verified"
+  },
+  "verified_routes": [
+    "/communities/paika/"
+  ],
+  "live_browser": {
+    "article_id": "POD-EDIT-459",
+    "worker": "Samanta, separate AI implementation agent",
+    "url": "https://projectodisha.org/communities/paika/",
+    "observed_at": "2026-10-21T19:37:42.014Z",
+    "deployment_reported_by_coordinator": "39662604344 success; merge2b33a5d6",
+    "desktop": {
+      "byline": "By Ahimanikya Satapathy",
+      "collapsed": true,
+      "notes": 5,
+      "readingWidth": 740,
+      "robots": "noindex, follow",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "mobile": {
+      "readingWidth": 390,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    "footnote": {
+      "active": "note-paika-khordha-history",
+      "hash": "#note-paika-khordha-history"
+    },
+    "return_link": {
+      "active": "ref-meaning-0-paika-khordha-history",
+      "hash": "#ref-meaning-0-paika-khordha-history"
+    },
+    "disclosure": {
+      "links": 3,
+      "open": true
+    },
+    "discovery": {
+      "href": "/communities/paika/",
+      "visible": true
+    },
+    "screenshots": [
+      "/tmp/pod-paika-live-desktop.png",
+      "/tmp/pod-paika-live-mobile.png"
+    ],
+    "result": "PASS: current article, five visible sources, no horizontal overflow at1440 and390, footnote/return focus, collapsed onward reading and live Explore navigation verified.",
+    "limits": [
+      "No production journey save or other data mutation.",
+      "Deployment commit evidence retained by coordinator; browser verifies live behavior.",
+      "No repository or Git changes."
+    ]
+  },
+  "limits": [
+    "Separate AI research/review; no human historian, community interview or field observation.",
+    "Khurda service history is not a universal genealogy of all regional Paiko communities.",
+    "Text-first article; no invented historical images; current legal classifications and uninterrupted performance lineage not asserted."
+  ],
+  "receipt_integration": "Retain Paika claim until passing reviewed receipt PR merge is observed.",
+  "receipt_review": {
+    "article_id": "POD-EDIT-459",
+    "reviewer": "Drishti, separate AI reviewer",
+    "status": "PASS",
+    "recorded_at": "2026-10-21T19:39:18.669174+00:00",
+    "base_head": "2b33a5d63357a747efcc051b8bbebe8f83b49611",
+    "scope": "Uncommitted records-only Paika publication receipt candidate",
+    "findings": [
+      "Only article459 transitions completed; editorial completed65. Only A500113 changes to completed; programme derived count113.",
+      "New completed WORK303 links actual Paika review/release. Original rollout WORK302 remains in_progress.",
+      "Programme validator independently run:PASS for count and linked delivery records.",
+      "Previous reviews/releases and activity entries preserved; new2026102201 review and release appended. Existing work302 updates continuation metadata only.",
+      "Independently verified PR421 merged exact reviewed790d6740 into2b33a5d6; validate39661958562SUCCESS and Publish39662604344SUCCESS at same merge commit.",
+      "Saved live desktop/mobile screenshots independently inspected: correct title, lead, byline and readable layout, no visible clipping. Browser interactions and live HTML hash remain coordinator/Samanta evidence.",
+      "KB narrative now accurately marks published_with_source_limits and retains open community/human review. No website source changes in receipt delta.",
+      "Paika ownership remains explicitly conditional on observed receipt merge despite receipt_integrated phase label; no next article before reconciliation."
+    ],
+    "blockers": [],
+    "limits": [
+      "Receipt PR merge has not yet been observed; conditional status is not evidence of integration.",
+      "No independent fresh live HTML retrieval in this review.",
+      "Separate AI review is not human/community/field validation."
+    ],
+    "receipt_sha256": "34102cd6d854df2e96198c4e0570777b9bb4ca0947b8c506f9e87150e8dfcc66",
+    "tracked_diff_sha256": "c2446d840eefdbff54ebeeed94294e8618bc0418826eb5690a1e6e172cbe3652",
+    "repository_edits": []
+  }
+}

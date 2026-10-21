@@ -8647,7 +8647,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "POD-DEC-2026101702",
-      "next_action": "Enduri published; retain claim through receipt integration. Then prioritize Paika and source-grounded Odia community heritage as requested in continuation chat.",
+      "next_action": "Paika published; retain claim through receipt integration. Continue Founder-prioritized community histories with an evidence-based index and individual articles.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026101702",
@@ -8756,7 +8756,9 @@
         "POD-REV-2026102110",
         "POD-REL-2026102109",
         "POD-REV-2026102111",
-        "POD-REL-2026102110"
+        "POD-REL-2026102110",
+        "POD-REV-2026102201",
+        "POD-REL-2026102201"
       ],
       "evidence": [
         "reference/article-editorial-standard.md",
@@ -8816,7 +8818,8 @@
         "records/koya-editorial-publication-2026-10-21.json",
         "records/rasagola-editorial-publication-2026-10-21.json",
         "records/bose-editorial-publication-2026-10-21.json",
-        "records/enduri-editorial-publication-2026-10-21.json"
+        "records/enduri-editorial-publication-2026-10-21.json",
+        "records/paika-editorial-publication-2026-10-22.json"
       ],
       "acceptance_criteria": [
         "Every published baseline route classified; each article independently reviewed against approved standard with PR/test/deploy/live receipt; exclusions justified; future articles follow same rule."
@@ -8917,6 +8920,28 @@
       ],
       "evidence": [
         "records/project-family-migration-2026-10-19.json"
+      ]
+    },
+    {
+      "id": "POD-WORK-303",
+      "title": "Research and publish Paika service, community and Odia heritage",
+      "category": "website_and_knowledge",
+      "status": "completed",
+      "readiness": "published",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Disha with Anvesha, Samanta and separate Drishti AI review",
+      "authorization": "POD-DEC-225",
+      "next_action": "Retain article ownership through observed receipt integration, then build community coverage index and select next evidence-backed community history.",
+      "blockers": [],
+      "refs": [
+        "POD-DEC-225",
+        "POD-REV-2026102201",
+        "POD-REL-2026102201"
+      ],
+      "evidence": [
+        "records/paika-editorial-publication-2026-10-22.json",
+        "research/communities/paika.json",
+        "research/sources/paika-research.json"
       ]
     }
   ],
@@ -21848,6 +21873,30 @@
         "Named cultural accounts do not establish an invention date or uniform household practice.",
         "Desktop and mobile viewport emulation, not physical-device or screen-reader testing."
       ]
+    },
+    {
+      "id": "POD-REV-2026102201",
+      "title": "Separate Paika historical source and integrated article review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human historian or community review.",
+      "reviewed_head": "790d6740b01f78aa69beb97b5447e2975b34891e",
+      "refs": [
+        "POD-WORK-303",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/paika-delivery-review-2026-10-22.json"
+      ],
+      "limitations": [
+        "Separate AI research/review; no human historian, community interview or field observation.",
+        "Khurda service history is not a universal genealogy of all regional Paiko communities.",
+        "Text-first article; no invented historical images; current legal classifications and uninterrupted performance lineage not asserted."
+      ]
     }
   ],
   "releases": [
@@ -25341,6 +25390,22 @@
         "records/enduri-editorial-publication-2026-10-21.json"
       ],
       "note": "PR419 passed CI and merged; approved deployment and live browser checks passed. Zero substantive programme credit."
+    },
+    {
+      "id": "POD-REL-2026102201",
+      "title": "Paika service, community and Odia heritage",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/communities/paika/",
+      "refs": [
+        "POD-WORK-303",
+        "POD-REV-2026102201",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/paika-editorial-publication-2026-10-22.json"
+      ],
+      "note": "Reviewed PR421 passed CI and merged; approved deployment and live responsive/discovery checks passed. One substantive article; search eligibility unchanged."
     }
   ],
   "sources": [

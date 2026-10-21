@@ -3,7 +3,7 @@
   "article_id": "POD-EDIT-459",
   "programme_item": "POD-A500-113",
   "route": "/communities/paika/",
-  "status": "candidate_ready_for_pr",
+  "status": "published_receipt_pending",
   "input_head": "495c68e7247e226889ea33f82f5fec3c22b5f22c",
   "authorization": [
     "POD-DEC-225",
@@ -48,10 +48,11 @@
   ],
   "worker_reconciliation": "All three existing subagents completed Enduri. Reuse rather than spawn. Enduri PR420 observed merged6bfb2bd7; clean working tree and no overlapping remote PR. PR304 and281 untouched.",
   "counting": {
-    "completed": 112,
-    "increment": 0
+    "completed": 113,
+    "increment": 1,
+    "basis": "New individually researched article with reviewed publication and live evidence; effective on receipt integration."
   },
-  "next_action": "Commit candidate; passing required PR checks, exact-head merge, approved publication and live receipt integration.",
+  "next_action": "Merge reviewed receipt after passing checks; then build community coverage index, reconcile aliases and regional groups, and choose next history without claiming exhaustive coverage from administrative lists.",
   "verification": {
     "source_word_budgets": "All5 source totals below200words incl source-derived headings; Khordha184.",
     "images": "No relevant cleared image located; text-first page avoids invented historical imagery.",
@@ -70,5 +71,6 @@
     "run": 39661381456,
     "failure": "New route required explicit search hold and full-build static page-count increment.",
     "resolution": "Added hold without expanding search approval; static page baseline113→114. Full test rerun required. Full build and566 tests pass; publication retains11 indexed pages."
-  }
+  },
+  "publication_receipt": "records/paika-editorial-publication-2026-10-22.json"
 }
