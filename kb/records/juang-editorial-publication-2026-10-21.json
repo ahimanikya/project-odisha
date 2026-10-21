@@ -130,5 +130,41 @@
   "verified_routes": [
     "/languages/juang/"
   ],
-  "receipt_integration": "Effective only after receipt PR passes required checks and merges; observed merge must be reconciled before releasing article claim."
+  "receipt_integration": "Effective only after receipt PR passes required checks and merges; observed merge must be reconciled before releasing article claim.",
+  "receipt_pull_request": "https://github.com/ahimanikya/project-odisha/pull/412",
+  "receipt_review": {
+    "reviewer": "Drishti (separate AI reviewer)",
+    "input_head": "5558d9d26eb73ef50494af9e8ea6613690adf56e",
+    "base_head": "1274094ad2d34712a6eb5a93ed6ded6ecafcd228",
+    "result": "PASS",
+    "findings": [],
+    "checks": [
+      "Ten-file delta is receipt/shared records plus two live screenshots only; no implementation or source change.",
+      "Independently queried GitHub PR411:MERGED2026-10-21T13:22:13Z, accepted3becf02332e6fcff5a28d750d3ba2cfef90f8a02, merge1274094ad2d34712a6eb5a93ed6ded6ecafcd228.",
+      "Independently queried CI39606746443:success on accepted head; Publish Project Odisha workflow_dispatch39607441073:success on merge head.",
+      "Accepted and merged trees independently match950522664f2974975433a1ad241573523ae47789.",
+      "Canonical final_review equals actual saved Drishti report; all saved liveJSON fields match receipt. Saved HTML hash matchesb7d62834ec0a7d451c16004d41f9b8f5d2b546ba8cf0fe8fa019d00d2480e70e.",
+      "Independently viewed both live screenshots: desktop/mobile covers readable with honest typographic identity and byline; no visible clipping in sampled views.",
+      "Only070rollout entry changes;60completed76excluded322queued. Programme file byte-identical to base,112unchanged.",
+      "Disha retains claim, with explicit conditional receipt integration until observed receipt merge.",
+      "Rollout, team assignments, autonomous programme, register/dashboard and git diff checks PASS."
+    ],
+    "screenshot_sha256": {
+      "live-desktop.png": "f09404fc80bc1d058a09445091373d7cdd30aa5162b555e90bdcc4f0d24ed403",
+      "live-mobile.png": "fb9d0a903aaf6d6abcb0c6ce6eced27c4dedcd8c084e43b57d589c23a912bff7"
+    },
+    "tests": {
+      "rollout": "PASS",
+      "team_assignments": "PASS",
+      "autonomous_programme": "PASS",
+      "registers": "PASS:1112records637events; dashboard current",
+      "git_diff_check": "PASS"
+    },
+    "limits": [
+      "Separate AI review, not human, fluent-speaker, community or field review.",
+      "No repeat liveHTTP or interactive keyboard/browser tests; coordinator reports5notes7refs7returns, exactfocus and collapsedFurtherreading, with11sitemap entries. Saved evidence and screenshots were independently inspected.",
+      "No site rebuild or full tests repeated for records-only changes; prior selected-source and test limits remain.",
+      "Receipt merge is not yet observed; claim release remains gated on actual integration."
+    ]
+  }
 }
