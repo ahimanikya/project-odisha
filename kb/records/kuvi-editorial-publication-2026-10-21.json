@@ -159,5 +159,53 @@
   "verified_routes": [
     "/languages/kuvi/"
   ],
-  "receipt_integration": "Effective only after receipt PR passes required checks and merges; observed merge must be reconciled before releasing article claim."
+  "receipt_integration": "Effective only after receipt PR passes required checks and merges; observed merge must be reconciled before releasing article claim.",
+  "receipt_review": {
+    "reviewer": "Drishti, separate AI reviewer /root/drishti; not human review",
+    "input_head": "60637f698ccdfeb85b736b3533df89d03d599059",
+    "base": "8c576dfcf6cf5bab1137efddce5dc3b6c2452032",
+    "result": "PASS",
+    "blocking_findings": [],
+    "actual_checks": [
+      "Ten-file delta contains only receipt/team/queue/operations/register records and two screenshots; no website or source changes.",
+      "Independently queried GitHub: PR405 MERGED2026-10-21T10:19:40Z, reviewed0426a2ccf20d2447baf5c181f27811ec70c73e25, merge8c576dfcf6cf5bab1137efddce5dc3b6c2452032. CI39583230017 SUCCESS on reviewed head; workflow_dispatch Publish Project Odisha39583802873 SUCCESS on merge.",
+      "Published merge and reviewed candidate trees identical539ea39aa42f60d8c6a6646fd17f8e9c3914f2e2.",
+      "Canonical final_review exactly equals saved Drishti candidate report. Canonical live and browser objects exactly match saved coordinator JSON. Saved live HTML hashfcdd253d1a3e304672cde961447963740094042a81f78115e0693a2e94a00e4c matches receipt; independently counted6note IDs and8reference markers.",
+      "Only queue067 becomes completed;57completed76excluded325queued. Programme bytes identical to base,112 unchanged.",
+      "Disha remains current_article owner. receipt_integrated phase is expressly conditional on checks and observed receipt merge, with no next claim allowed before reconciliation.",
+      "Independently viewed both saved live screenshots: desktop reading shelf credits/columns and mobile article paragraphs/markers are readable without visible horizontal clipping. Interactive behavior is Disha evidence."
+    ],
+    "screenshot_sha256": {
+      "live-desktop.png": "a18c65316d09a8dd4d470ae8204ff9c3331c8e6d2ba468b553d146453d7dbc79",
+      "live-mobile.png": "87ef24b0c67f040eef2f4fe9c9a8f5bf9631694d6387d546bc30a3ab9e3194bc"
+    },
+    "tests": [
+      {
+        "command": "python3 tools/editorial/article_rollout.py --check",
+        "result": "PASS57completed76excluded325queued"
+      },
+      {
+        "command": "python3 tools/check_team_assignments.py",
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/check_autonomous_program.py",
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/registers.py --check",
+        "result": "PASS1106records634events; dashboard current"
+      },
+      {
+        "command": "git diff --check 8c576dfc..HEAD",
+        "result": "PASS"
+      }
+    ],
+    "limitations": [
+      "Separate AI receipt review, not human, fluent-language, field, physical-device or screen-reader review.",
+      "No independent live browser/HTTP/sitemap repetition: inspected saved coordinator artifacts and screenshots, independently verified remote GitHub state.",
+      "No rebuild or repeated source research for records-only delta. No repository/Git mutation; temporary report only. Receipt checks and actual merge remain necessary before ownership release."
+    ]
+  },
+  "receipt_pull_request": "https://github.com/ahimanikya/project-odisha/pull/406"
 }
