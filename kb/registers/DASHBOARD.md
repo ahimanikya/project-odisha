@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `55766093b7614a2a3c578f9c6129a39f03a0cb2df06475955f6cb6d67f726590`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `5addab404c5a12bd7f51c5aee125c3c14cabb0f56477030c39ef3229e0bd92b1`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -321,7 +321,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-299 · Deepen Dalkhai song, occasion and stage context | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, song-language review and recovered source PDFs remain open for future research. | — |
 | POD-WORK-300 · Deepen Pala literary performance, forms and repertoire | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/Odia review and manuscript evidence remain open for future research. | — |
 | POD-WORK-301 · Deepen Dhemsa community, movement and occasion | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/language review and field evidence remain open for future research. | — |
-| POD-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Continue next eligible queued article after verifying receipt integration and reconciling team ownership;54 editorial entries complete. | — |
+| POD-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Integrate Santali receipt and reconcile ownership before next eligible article;55 editorial entries complete. | — |
 | POD-WORK-2026101701 · Publish two Pattachitra Jhula choices | completed | published | Ahimanikya Satapathy | Review the live Pattachitra choices. | — |
 | POD-WORK-2026101901 · Activate separate editorial agents and durable handoffs | completed | applied | Ahimanikya Satapathy | Use saved team loop for subsequent article work; recreate task-scoped workers when needed. | — |
 | POD-WORK-2026101801 · Coherent Jhula story and collection overview | completed | published | Ahimanikya Satapathy | Review the refined live page. | — |
@@ -968,6 +968,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026102017 | pass_with_limitations | True | Separate AI research, implementation and review; no human, culinary specialist, language or field review.; No recipe trial, tasting, maker interview, archival invention witness, current menu, shop or enterprise verification.; Original household recipe, attributed press account, tourism association and creator testimony support bounded examples, not universal practice or invention chronology.; Full566 and coastal349 tests plus responsive/keyboard checks were coordinator-performed; separate AI review records its own focused tests and inherited source checks.; Browser emulation, not physical-device or screen-reader testing. |
 | POD-REV-2026102018 | pass_with_limitations | True | Separate AI research, implementation and review; no human, culinary specialist, language or field review.; No meal tasting, cook interview, kitchen supply trace, current menu, auction schedule or harbour-access verification.; Current regional tourism text and a dated hosted travelogue share institutional hosting; no independent kitchen or field corroboration.; Full566 and coastal355 tests plus responsive/keyboard checks were coordinator-performed; separate AI review records its own focused tests and original-source checks.; Browser emulation, not physical-device or screen-reader testing. |
 | POD-REV-2026102101 | pass_with_limitations | True | No website edit or deployment. Existing artifact tests and separately attributed live HTTP observations; no fresh local build/browser visual review.; Exclusion is a route-purpose classification, not comprehensive factual or rights certification.; Idle-state ownership test fixtures repaired; validator semantics unchanged.; Final record transcription and passing PR checks required before merge. |
+| POD-REV-2026102102 | pass_with_limitations | True | Separate AI research, implementation and review, not human, fluent-language or field review.; Booklet credits/table evidence retains1October inspection; fresh retrieval failed21October. No pronunciation review or Nalha poem interpretation.; Browser emulation, not physical-device or screen-reader testing. |
 
 ## Publication and application history
 
@@ -1176,6 +1177,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026102016 · Chhena Poda technique and attributed history | published | https://projectodisha.org/food/chhena-poda/ | POD-DEC-225 |
 | POD-REL-2026102017 · Mudhi Mansa household cooking and restaurant variation | published | https://projectodisha.org/food/mudhi-mansa/ | POD-DEC-225 |
 | POD-REL-2026102018 · Chandipur meal and dated fishing context | published | https://projectodisha.org/food/balasore/ | POD-DEC-225 |
+| POD-REL-2026102101 · Santali language, script and reading practice | published | https://projectodisha.org/languages/santali/ | POD-DEC-225 |
 
 ## Sources and assets
 
@@ -1213,7 +1215,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261020011 | 2026-10-20T12:32:52.726686+00:00 | Published and live-verified POD-EDIT-053 Chandipur via PR373 and approved deployment39422437567. Tidal-flat slope, sediment pathways and surface traces with two visible notes and complete portable reading;46 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261020012 | 2026-10-20T13:33:59.405057+00:00 | Published and live-verified POD-EDIT-054 Similipal via PR375 and approved deployment39430851737. Watershed observation, local historical mahua knowledge and visitor conduct with three visible notes and complete portable reading;47 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261020013 | 2026-10-20T14:47:20.257840+00:00 | Published and live-verified POD-EDIT-055 Mayurbhanj Chhau via PR377 and approved deployment39441642691. Training recollection, named works, artists and teaching initiative with four visible notes and complete portable reading;48 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261020014 | 2026-10-20T15:39:16.509626+00:00 | Published and live-verified POD-EDIT-056 Balasore and Chandipur stay via PR379 and approved deployment39449584921. Concrete overnight scenarios, two area comparisons and two visible notes and complete portable reading;49 editorial entries complete, substantive programme112 unchanged. | — |
@@ -1223,6 +1224,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261020018 | 2026-10-20T21:45:24.238519+00:00 | Published and live-verified POD-EDIT-060 Chandipur meal via PR394 and approved deployment39502276923. Regional seafood and dated harbour account, with kitchen sourcing kept distinct, two visible notes and complete portable reading;54 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261021001 | 2026-10-21T02:42:54.599123+00:00 | Separate research, technical live inspection and AI review support individual utility exclusions for POD-EDIT-061 through064. PR399 awaits final checks and integration.54 completed articles and112 substantive items unchanged;76 exclusions,328 queued. Prior Chandipur receipt395 observed merged and article ownership released. | — |
 | POD-EVT-20261021002 | 2026-10-21T02:49:46.144037+00:00 | PR399 exact separately accepted head passed validation39534590666 and merged at2026-10-21T02:48:42Z. Four individual utility exclusions applied; no deployment required.54 articles and112 programme items unchanged. Classification ownership released; application evidence in records/planning-hub-application-2026-10-21.json | — |
+| POD-EVT-20261021003 | 2026-10-21T04:45:08.880876+00:00 | Santali article065 published after actual source research, implementation, separate AI review, passing tests, responsive/keyboard checks, PR401 and approved deployment39545275532. Live receipt verified; ownership retained through receipt integration.55articles complete;112programme items unchanged. | — |
 
 ## Deferred extensions
 
