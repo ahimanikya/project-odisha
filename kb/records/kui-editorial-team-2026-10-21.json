@@ -23,7 +23,7 @@
       "name": "Anvesha",
       "runtime": "/root/anvesha",
       "scope": "Read-only bounded Kui source research; temporary report only.",
-      "status": "assigned"
+      "status": "complete"
     },
     {
       "name": "Samanta",
@@ -54,7 +54,7 @@
         "projects/site/tests-coast/santali-editorial.test.mjs",
         "projects/site/tests-coast/visitor-experience.test.mjs"
       ],
-      "status": "assigned"
+      "status": "implemented_pending_rendered_tests"
     },
     {
       "name": "Drishti",
@@ -82,5 +82,51 @@
     "receipt_pr": 402,
     "merge_commit": "c30643edd43a10746c3b14a7f15219c4273847c3",
     "merged_at": "2026-10-21T04:53:08Z"
+  },
+  "research": "research/voices/kui-research-2026-10-21.json",
+  "implementation": {
+    "article_id": "POD-EDIT-066",
+    "input_head": "c30643edd43a10746c3b14a7f15219c4273847c3",
+    "status": "scaffold_ready_awaiting_canonical_copy_and_map",
+    "files": [
+      "projects/site/src/components/CultureMagazine.astro",
+      "projects/site/src/components/LanguagePopulation.astro",
+      "projects/site/src/components/CultureOnward.astro",
+      "projects/site/src/data/journey-catalog.ts",
+      "projects/site/tests-coast/kui-editorial.test.mjs",
+      "projects/site/tests-coast/living-languages.test.mjs",
+      "projects/site/tests-coast/voices-passage-sources.test.mjs",
+      "projects/site/tests/voices.test.mjs",
+      "projects/site/tests-coast/fakir-editorial.test.mjs",
+      "projects/site/tests-coast/balasore-editorial.test.mjs",
+      "projects/site/tests-coast/bhima-editorial.test.mjs",
+      "projects/site/tests-coast/mayurbhanj-editorial.test.mjs",
+      "projects/site/tests-coast/puri-editorial.test.mjs",
+      "projects/site/tests-coast/six-acres-editorial.test.mjs",
+      "projects/site/tests-coast/gangadhar-editorial.test.mjs",
+      "projects/site/tests-coast/bhubaneswar-editorial.test.mjs",
+      "projects/site/tests-coast/gopinath-editorial.test.mjs",
+      "projects/site/tests-coast/literature-editorial.test.mjs",
+      "projects/site/tests-coast/odia-editorial.test.mjs",
+      "projects/site/tests-coast/sarala-editorial.test.mjs",
+      "projects/site/tests-coast/pratibha-editorial.test.mjs",
+      "projects/site/tests-coast/languages-editorial.test.mjs",
+      "projects/site/tests-coast/santali-editorial.test.mjs",
+      "projects/site/tests-coast/visitor-experience.test.mjs"
+    ],
+    "checks": [
+      "All 20 modified/new tests pass Node 24 syntax checks.",
+      "git diff --check passed."
+    ],
+    "implemented": [
+      "Exact Kui editorial binding, census note mapping and collapsed Further reading.",
+      "Full section paragraphs and short sources in existing reading:languages/kui portable identity; no image added.",
+      "Dynamic source-map/paragraph/footnote/backref tests, retained census values, text-only identity panel, existing anchors, learning credits, reader contribution/privacy and unchanged Kuvi/Odia coverage.",
+      "Only stale negative controls changed to queued Kuvi; genuine Kui links retained. Contextual sharing-image caveat retained and actual text-only hero verified by new assertion."
+    ],
+    "limits": [
+      "Final canonical Kui prose/map pending; source test not yet executed.",
+      "No build, browser review, source research, asset changes, canonical KB/shared-record edits, Git mutations or publishing."
+    ]
   }
 }

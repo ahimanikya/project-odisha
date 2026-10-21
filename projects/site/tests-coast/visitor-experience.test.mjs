@@ -14,7 +14,11 @@ test('social images are retained in the deployable edition and match documented 
   const html=read(path),image=html.match(/property="og:image" content="([^"]+)"/)[1];
   assert.ok(!image.includes('coast-illustration'));assert.ok(existsSync('dist-coast'+new URL(image).pathname));assert.ok(html.includes('src="'+new URL(image).pathname+'"'));
  }
- assert.ok(read('/languages/kui/').includes('not a documentary view of this subject'));
+ const kui=read('/languages/kui/');
+ assert.ok(kui.includes('not a documentary view of this subject'),'Contextual sharing-image limitation is retained');
+ const cover=kui.match(/<header[^>]*class="mag-cover[^"]*"[\s\S]*?<\/header>/)?.[0];assert.ok(cover);
+ assert.match(cover,/class="culture-identity"/);assert.doesNotMatch(cover,/<img\b/);
+ assert.match(cover,/Begin with a place, a publication and someone willing to read with you/);
 });
 test('cultural contents follow reading order and onward links respect publication scope',()=>{
  const html=read('/languages/');const nav=html.match(/<nav[^>]*story-contents-desktop[^>]*>(.*?)<\/nav>/)[1];
