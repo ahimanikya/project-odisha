@@ -22,7 +22,7 @@ export const bookPhotos={
  'food:badi-chura':foods.assets['badi-chura'],
  'food:tala-pitha':foods.assets['tala-pitha'],
  'food:enduri-pitha':foods.assets['enduri-pitha'],
- 'food:poda-pitha':foods.assets['poda-pitha-alternate'],
+ 'food:poda-pitha':foods.assets['poda-pitha'],
  'food:odisha-rasagola':foods.assets['pahala-rasagola'],
  'reading:people/subhas-chandra-bose':regions.assets['cuttack-netaji'],
  'place:balasore':regions.assets.chandipur,

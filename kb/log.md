@@ -750,3 +750,8 @@ Founder-approved revision retains By Ahimanikya Satapathy, the credited document
 ## Food discovery card images · 20 October 2026
 
 Founder requested photographs for five blank cards on /food/. Four credited Commons photographs and an existing Pakhala photo fill the gaps; generic prawn, fish and curd images have visible scope captions. Links, saved-journey IDs and shared exports remain unchanged. Candidate validation and publication are recorded in [delivery record](records/food-card-images-2026-10-20.json). This image correction carries no substantive programme credit.
+
+
+## Poda pitha photograph restored · 21 October 2026
+
+Founder prefers the earlier documentary photo. Restore the cut-slice photograph by Udipta876 (CC BY-SA4.0) across the food article, related views and saved journey book; restore its matching opening sentence. Retain both photographs and their provenance. [Correction record](records/poda-pitha-photo-restore-2026-10-21.json). No substantive programme credit or article-rollout completion.

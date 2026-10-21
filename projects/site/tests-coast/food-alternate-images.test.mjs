@@ -6,9 +6,9 @@ import {buildTourBook} from '../src/lib/tour-book.mjs';
 const foods=JSON.parse(readFileSync('../../kb/research/food/collection.json'));
 const read=path=>readFileSync('dist-coast'+path+'index.html','utf8');
 const catalog=JSON.parse(read('/journey/').match(/id="journey-data"[^>]*>([\s\S]*?)<\/script>/)[1]).catalog;
-const replacements=[{slug:'dalma',id:'food:bhubaneswar-dalma',asset:'dalma-alternate',old:'dalma'},{slug:'tomato-poda',id:'food:tomato-poda',asset:'tomato-poda',old:'pakhala-tomato-poda'},{slug:'poda-pitha',id:'food:poda-pitha',asset:'poda-pitha-alternate',old:'poda-pitha'}];
+const replacements=[{slug:'dalma',id:'food:bhubaneswar-dalma',asset:'dalma-alternate',old:'dalma'},{slug:'tomato-poda',id:'food:tomato-poda',asset:'tomato-poda',old:'pakhala-tomato-poda'},{slug:'poda-pitha',id:'food:poda-pitha',asset:'poda-pitha',old:'poda-pitha-alternate'}];
 const escape=s=>s.replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;');
-test('Dalma, tomato poda and Poda pitha show their alternate photographs with accurate credits and recorded bytes',()=>{
+test('Dalma and tomato poda retain their alternate photographs while Poda pitha restores its earlier photograph',()=>{
  for(const r of replacements){
   const page=foods.pages.find(p=>p.slug===r.slug),photo=foods.assets[r.asset],old=foods.assets[r.old],html=read('/food/'+r.slug+'/');
   assert.equal(page.hero,r.asset);assert.notEqual(photo.src,old.src);
@@ -20,7 +20,8 @@ test('Dalma, tomato poda and Poda pitha show their alternate photographs with ac
  }
  assert.doesNotMatch(read('/food/dalma/'),/A black pan rests on orange cloth/);
  assert.doesNotMatch(read('/food/tomato-poda/'),/photograph keeps pakhala at the centre/);
- assert.doesNotMatch(read('/food/poda-pitha/'),/photographed serving also shows nuts/);
+ assert.match(read('/food/poda-pitha/'),/Begin at the cut edge in the photograph/);
+ assert.doesNotMatch(read('/food/poda-pitha/'),/interior is not visible/);
 });
 test('saved food identities and illustrated readings follow the new photographs',()=>{
  const plan={version:1,title:'Three dishes to understand',items:replacements.map(r=>({id:r.id,day:1,notes:''}))};
@@ -37,7 +38,7 @@ test('saved food identities and illustrated readings follow the new photographs'
  }
 });
 test('connected food views update while the Pakhala meal photograph remains unchanged',()=>{
- const dalma=foods.assets['dalma-alternate'],tomato=foods.assets['tomato-poda'],poda=foods.assets['poda-pitha-alternate'];
+ const dalma=foods.assets['dalma-alternate'],tomato=foods.assets['tomato-poda'],poda=foods.assets['poda-pitha'];
  for(const route of ['/food/','/food/three-tastes/','/journey-starters/bhubaneswar-objects-ideas/'])assert.ok(read(route).includes(`src="${dalma.src}"`),route);
  for(const route of ['/food/','/food/fire-cooking/'])assert.ok(read(route).includes(`src="${tomato.src}"`),route);
  for(const route of ['/food/','/food/everyday/','/food/fire-cooking/'])assert.ok(read(route).includes(`src="${poda.src}"`),route);

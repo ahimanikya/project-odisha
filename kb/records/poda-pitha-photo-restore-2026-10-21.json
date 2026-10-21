@@ -1,0 +1,106 @@
+{
+  "status": "reviewed_candidate",
+  "authorization": "Founder asks to restore earlier Poda pitha photo; newest photo looks artificial and does not convey burnt pitha naturally.",
+  "scope": "Single-photo restoration, caption/prose alignment and saved-book image; zero article-rollout or500-item credit.",
+  "base": "5e80cb1dd5c5c252f5f688f10cfa488eed0bbf55",
+  "programme_credit": 0,
+  "ownership": "Bounded Founder-directed media correction; preserve active Chandipur receipt ownership and all shared team/rollout registers.",
+  "executions": [
+    {
+      "role": "Anvesha",
+      "scope": "Read-only existing image identity, rights and prior photo-specific prose inspection"
+    },
+    {
+      "role": "Samanta",
+      "scope": [
+        "kb/research/food/collection.json",
+        "projects/site/src/data/book-photos.ts",
+        "projects/site/tests-coast/food-alternate-images.test.mjs"
+      ]
+    },
+    {
+      "role": "Drishti",
+      "scope": "Separate read-only integrated candidate review"
+    },
+    {
+      "role": "Disha",
+      "scope": "Receipt, derived catalog/manifests/workbench and release"
+    }
+  ],
+  "image_preference": "Founder prefers the earlier documentary photograph and a natural appearance appropriate to Poda pitha. Do not replace it with a polished cake-like photograph without review; do not fabricate char, ingredients or cooking evidence.",
+  "evidence_review": {
+    "reviewer": "Anvesha, separate AI agent /root/anvesha_pala_revision",
+    "input_head": "5e80cb1dd5c5c252f5f688f10cfa488eed0bbf55",
+    "result": "PASS",
+    "scope": "Saved original image and source metadata; no new fieldwork or claim that alternate was AI-generated.",
+    "restored_asset": "poda-pitha",
+    "creator": "Udipta876",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Poda_Pitha.JPG",
+    "sha256": "6cbd3ddf1fbf65fc0eeb846432b955c0bec24a1c9ab94391449fa2984bb247c8"
+  },
+  "implementation": {
+    "agent": "/root/samanta_pala_revision",
+    "status": "complete",
+    "files": [
+      "kb/research/food/collection.json",
+      "projects/site/src/data/book-photos.ts",
+      "projects/site/tests-coast/food-alternate-images.test.mjs"
+    ],
+    "actual_checks": [
+      "Only two collection fields changed",
+      "Original photo SHA256 matches saved rights record",
+      "Existing regression test syntax passes"
+    ],
+    "limits": "Fresh builds and publication performed separately by coordinator."
+  },
+  "validation": {
+    "kb_bundle": "PASS",
+    "team_assignments": "PASS",
+    "research_core": "PASS",
+    "workbench": "PASS",
+    "full_build": {
+      "result": "PASS",
+      "pages": 471
+    },
+    "full_tests": {
+      "result": "PASS",
+      "tests": 566
+    },
+    "coast_build": {
+      "result": "PASS",
+      "pages": 458
+    },
+    "coast_tests": {
+      "result": "PASS",
+      "tests": 355
+    },
+    "registers": "PASS",
+    "programme": "PASS",
+    "article_rollout": "PASS",
+    "visual_preview": "Original photo rendered in local article preview; credit and restored paragraph confirmed."
+  },
+  "changed_files": [
+    "kb/log.md",
+    "kb/records/editorial-workbench.json",
+    "kb/records/poda-pitha-photo-restore-2026-10-21.json",
+    "kb/research/food/collection.json",
+    "kb/research/manifest-sha256.json",
+    "projects/site/src/data/book-photos.ts",
+    "projects/site/tests-coast/food-alternate-images.test.mjs"
+  ],
+  "quality_review": {
+    "reviewer": "Drishti, separate AI agent /root/drishti_pala_reader_review",
+    "result": "PASS",
+    "candidate_content_commit": "c93d8a49",
+    "checks": [
+      "Original image visually inspected, licence and SHA256 unchanged",
+      "Fresh rendered coastal HTML, related views and book mapping inspected",
+      "Focused image/card tests4/4 PASS",
+      "Non-Poda collection data unchanged",
+      "No invented charring or AI-generation claim",
+      "Team/programme and whitespace checks PASS"
+    ],
+    "limits": "No human review or live publication check claimed."
+  }
+}
