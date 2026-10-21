@@ -1,0 +1,69 @@
+{
+  "recorded_at": "2026-10-21T19:17:02.805728+00:00",
+  "article_id": "POD-EDIT-459",
+  "programme_item": "POD-A500-113",
+  "route": "/communities/paika/",
+  "status": "candidate_ready_for_pr",
+  "input_head": "495c68e7247e226889ea33f82f5fec3c22b5f22c",
+  "authorization": [
+    "POD-DEC-225",
+    "POD-DEC-2026101901"
+  ],
+  "founder_direction": "21 October continuation chat: start Paika then Odisha castes and community origins; centre Odia identity and heritage, distinguish established tradition and later adoption with evidence.",
+  "central_question": "What did being a Paika mean, how did the service system develop, and how does it relate to caste and living Odia heritage?",
+  "ownership": "Disha sole writer of shared records and publisher; one article through receipt integration.",
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only research; /tmp/pod-paika-research.json",
+      "status": "research_complete"
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/pages/communities/paika.astro",
+        "projects/site/tests-coast/paika-editorial.test.mjs"
+      ],
+      "status": "build418_coast36_unit_responsive_pass"
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Read-only integrated review after research and implementation",
+      "status": "separate_AI_integrated_review_PASS"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": [
+        "kb/research/communities/paika.json",
+        "kb/research/communities/paika.md",
+        "kb/research/sources/paika-research.json",
+        "shared registers and navigation integration"
+      ],
+      "status": "working"
+    }
+  ],
+  "worker_reconciliation": "All three existing subagents completed Enduri. Reuse rather than spawn. Enduri PR420 observed merged6bfb2bd7; clean working tree and no overlapping remote PR. PR304 and281 untouched.",
+  "counting": {
+    "completed": 112,
+    "increment": 0
+  },
+  "next_action": "Commit candidate; passing required PR checks, exact-head merge, approved publication and live receipt integration.",
+  "verification": {
+    "source_word_budgets": "All5 source totals below200words incl source-derived headings; Khordha184.",
+    "images": "No relevant cleared image located; text-first page avoids invented historical imagery.",
+    "tests": "418 coastal and36 relevant unit tests pass",
+    "responsive": "1440desktop and390mobile, source navigation and save verified"
+  },
+  "integration_files": [
+    "projects/site/editions/coast.json",
+    "projects/site/src/data/discovery.ts",
+    "projects/site/src/data/journey-catalog.ts",
+    "projects/site/tests-coast/edition.test.mjs",
+    "projects/site/tests-coast/cuttack-literature.test.mjs",
+    "projects/site/tests-coast/discovery-flow.test.mjs"
+  ]
+}

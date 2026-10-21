@@ -1162,3 +1162,8 @@ The Founder requested removal of the site-within-site appearance. The guide now 
 ## POD-HIS-FAMILY-20261019 · Odisha project family
 
 Founder authorized the family migration and selected Odisha Store (ODS). Current names/codes become Odisha Blueprint (ODB), Odisha Collective (ODC), Odisha Unbound (ODU) and Odisha Store (ODS). Original quotes, captured/adopted evidence, inactive roles and held status are preserved. [Migration record](../records/project-family-migration-2026-10-19.json). Subsequent no-payment Store pre-order and catalogue development is a distinct instruction, not an effect of renaming.
+
+
+## POD-HIS-PAIKA-20261022 · Community origins and Odia heritage
+
+The Founder requested a series beginning with Paika and extending to Odisha caste and community origins, with Odia identity and inherited customs central. The first candidate distinguishes military service, community identities and living traditions. Documented evidence, origin accounts and recent adoption must remain distinguishable; no single caste founder or universal cultural history is assumed. Publication remains subject to the existing reviewed release process. [Current Paika handoff](../records/paika-editorial-team-2026-10-22.json). Exact Founder wording is preserved in the structured ledger.
