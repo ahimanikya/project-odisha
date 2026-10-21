@@ -1,0 +1,57 @@
+{
+  "task_id": "POD-TASK-KHANDAYAT-20261022",
+  "article_id": "POD-EDIT-460",
+  "programme_id": "POD-A500-114",
+  "work_id": "POD-WORK-304",
+  "status": "in_progress",
+  "input_head": "a311dcec8964f74637ae1554d9402798faac7208",
+  "started_at": "2026-10-21T21:21:16.438441+00:00",
+  "route": "/communities/khandayat/",
+  "scope": "How Khandayat identity formed and changed: dated evidence, inherited service and cultivation, regional distinctions and origin traditions. No single-purpose caste creation, innate rank or automatic Paika equivalence.",
+  "acceptance": [
+    "Source-grounded narrative answering formation, roles and regional variation with precise origin limits.",
+    "KB and website alignment, visible numbered notes, Founder byline and thoughtful rights-aware media choice.",
+    "Separate AI review, tests, responsive review, merged PR, approved deployment and live receipt before completion."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only historical source research; report /tmp/pod-khandayat-research.json",
+      "status": "completed"
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/pages/communities/khandayat.astro",
+        "projects/site/tests-coast/khandayat-editorial.test.mjs"
+      ],
+      "status": "completed"
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Read-only independent review of integrated candidate",
+      "status": "reviewing"
+    },
+    {
+      "name": "Disha",
+      "scope": "Narrative, source map and shared records; sole publisher",
+      "status": "working"
+    }
+  ],
+  "worker_reconciliation": "Previous index workers completed; PR423 merge bad2dc5a observed; local receipt a311dcec retained. PR304 and281 unrelated and untouched. No active article existed.",
+  "next_action": "Resolve independent review, complete responsive/build checks, then reviewed PR and approved publication.",
+  "source_report": "research/sources/khandayat-research.json",
+  "review": "records/khandayat-review-2026-10-22.json",
+  "verification": {
+    "source_review": "Separate AI PASS; scoped original sources and budgets checked",
+    "images": "Text-led page; no invented imagery",
+    "record_checks": "Bundle, programme, team, research map and coverage index PASS",
+    "tests": "422 coastal tests on final prose;566 full tests before prose-only trim; publication limited11",
+    "responsive": "1440desktop/390mobile, source returns, contents, further reading and saved reading PASS"
+  },
+  "implementation": "records/khandayat-implementation-2026-10-22.json",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/424"
+}

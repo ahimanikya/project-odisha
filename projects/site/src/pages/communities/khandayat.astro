@@ -1,0 +1,49 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import ArticleByline from '../../components/ArticleByline.astro';
+import ArticleFootnote from '../../components/ArticleFootnote.astro';
+import ArticleFootnotes from '../../components/ArticleFootnotes.astro';
+import ResearchContents from '../../components/ResearchContents.astro';
+import SaveJourney from '../../components/SaveJourney.astro';
+import '../../styles/article-reading.css';
+import story from '../../../../../kb/research/communities/khandayat.json';
+const timeline=story.timeline||[];
+const reading=story.further_reading||[];
+const passages=[...story.sections.flatMap(s=>s.paragraphs.map((p,i)=>({id:`${s.id}-${i}`,source_ids:p.source_ids}))),...timeline.map((event,i)=>({id:`timeline-${i}`,source_ids:event.source_ids}))];
+const contents=[...story.sections.map(s=>({title:s.title,href:'#'+s.id})),...(timeline.length?[{title:'Dates in the story',href:'#khandayat-timeline'}]:[]),...(reading.length?[{title:'Further reading',href:'#khandayat-further-reading'}]:[]),{title:'Footnotes & Sources',href:'#story-sources'}];
+---
+<Shell title={story.title} description={story.lead} active="explore" wide related={false}>
+<article class="article-reading khandayat-story">
+ <a class="collection-return" href="/explore/">← Explore Odisha</a>
+ <header class="khandayat-hero"><p class="eyebrow">Odisha · Communities and heritage</p><h1>{story.title}</h1>{story.odia&&<p class="khandayat-odia" lang="or">{story.odia}</p>}<ArticleByline author={story.author}/><p class="lead">{story.lead}</p><SaveJourney id="reading:khandayat" quiet/></header>
+ <ResearchContents items={contents} label="In this article"/>
+ {story.sections.map(section=><section class="khandayat-section" aria-labelledby={section.id}><h2 id={section.id}>{section.title}</h2>{section.paragraphs.map((paragraph,i)=><p data-source-ids={paragraph.source_ids.join(' ')}>{paragraph.text}<ArticleFootnote ids={paragraph.source_ids} sources={story.sources} passage={`${section.id}-${i}`}/></p>)}</section>)}
+ {timeline.length>0&&<section class="khandayat-timeline" aria-labelledby="khandayat-timeline"><h2 id="khandayat-timeline">Dates in the story</h2><ol>{timeline.map((event,i)=><li><p class="timeline-date">{event.date}</p><h3>{event.title}</h3><p>{event.text}<ArticleFootnote ids={event.source_ids} sources={story.sources} passage={`timeline-${i}`}/></p></li>)}</ol></section>}
+ {reading.length>0&&<section id="khandayat-further-reading" class="khandayat-further-reading"><details class="utk-disclosure"><summary>Further reading</summary><nav aria-label="Related Odisha reading"><ul>{reading.map(link=><li><a href={link.href}>{link.title} →</a>{link.description&&<p>{link.description}</p>}</li>)}</ul></nav></details></section>}
+ <ArticleFootnotes sources={story.sources} passages={passages}/>
+ <p class="khandayat-update"><a href="/contribute/?page=%2Fcommunities%2Fkhandayat%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
+</article>
+</Shell>
+<script>
+import {bindStorySourceLinks} from '../../lib/story-source-links.mjs';
+document.querySelectorAll('.khandayat-story sup, .khandayat-story .article-footnotes').forEach(group=>bindStorySourceLinks(group,document));
+</script>
+<style>
+.collection-return{display:inline-block;margin:0 0 2rem;font-size:.95rem}
+.khandayat-hero{border-bottom:1px solid var(--line);padding-bottom:1.25rem}
+.khandayat-hero .eyebrow{font-size:.75rem;margin-bottom:1rem}
+.khandayat-hero .khandayat-odia{font-size:1.7rem;color:var(--earth);line-height:1.5;margin-top:-.4rem}
+.khandayat-hero .lead{font-size:1.25rem;line-height:1.75;margin-top:1.4rem}
+.khandayat-section{margin-block:3rem}
+.khandayat-timeline{margin:3rem 0}
+.khandayat-timeline ol{list-style:none;border-left:2px solid var(--line);padding-left:1.5rem}
+.khandayat-timeline li{position:relative;margin-bottom:2rem;padding-left:0}
+.khandayat-timeline li::before{position:absolute;content:'';width:.65rem;height:.65rem;border-radius:50%;background:var(--earth);left:-1.89rem;top:.5rem}
+.khandayat-timeline .timeline-date{font-size:.85rem;font-weight:700;color:var(--earth);margin:0 0 .3rem}
+.khandayat-timeline h3{margin:0 0 .6rem}
+.khandayat-timeline li>p:last-child{font-size:1rem;line-height:1.75}
+.khandayat-further-reading{margin-top:3rem}
+.khandayat-further-reading p{font-size:.95rem;margin-bottom:0}
+.khandayat-update{font-size:.9rem;line-height:1.75;margin-top:2.5rem}
+@media(max-width:600px){.khandayat-hero .lead{font-size:1.12rem}.khandayat-section{margin-block:2.5rem}}
+</style>
