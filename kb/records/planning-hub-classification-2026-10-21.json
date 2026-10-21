@@ -7,7 +7,7 @@
     "POD-DEC-225"
   ],
   "work_id": "POD-WORK-302",
-  "status": "awaiting_separate_review",
+  "status": "reviewed_pending_integration",
   "input_head": "9c1a3a4f08e0db94387c987deb80adad29d1e313",
   "branch": "codex/planning-hub-classification-20261021",
   "scope": "Individual classification of queued directory routes POD-EDIT-061 through POD-EDIT-064. No public article or website edits.",
@@ -40,7 +40,7 @@
       "runtime": "/root/drishti",
       "task": "Separate review of integrated classification candidate.",
       "write_scope": "Read-only; no repository writes.",
-      "status": "awaiting_integrated_candidate"
+      "status": "complete"
     },
     {
       "name": "Disha",
@@ -56,7 +56,7 @@
         "generated KB register/catalog/workbench views",
         "Samanta integration: tools/test_team_assignments.py"
       ],
-      "status": "running"
+      "status": "awaiting_passing_checks_and_merge"
     }
   ],
   "acceptance": [
@@ -1214,7 +1214,7 @@
     "publication": "No site edits or deployment; four live page checks are observations of the existing deployment.",
     "previous_receipt": "Observed PR395 MERGED at2026-10-21T01:27:32Z, reviewed head c54ba45efb89fbdfda3a6b865765f3c483f1b9e1, CI39503090863 success."
   },
-  "next_action": "Separate Drishti review, then passing PR checks and observed merge. Resume the next eligible queued article after integration.",
+  "next_action": "Verify final PR399 reviewed head and passing required checks, merge, then record actual integration; no article or programme credit.",
   "ci_failure": {
     "run": 39534031454,
     "head": "05a40a6766a6b231bf32aef8b33c316015086ecc",
@@ -1257,5 +1257,160 @@
       "No CI rerun, build, commit, shared-record edits or publishing performed.",
       "Fixture tests validate ownership-record semantics, not actual distributed locking or human review."
     ]
-  }
+  },
+  "initial_review": {
+    "reviewer": "Drishti — separate AI review, not human review",
+    "input_head": "05a40a6766a6b231bf32aef8b33c316015086ecc",
+    "base": "9c1a3a4f08e0db94387c987deb80adad29d1e313",
+    "result": "CHANGES_REQUESTED_RECORD_SCOPE_AND_PENDING_TEST_FIX",
+    "scope": "Individual utility classification POD-EDIT-061 through POD-EDIT-064; five-file KB-only candidate.",
+    "findings": [
+      {
+        "severity": "minor",
+        "path": "kb/records/planning-hub-classification-2026-10-21.json",
+        "issue": "Top-level limitations say no live checks although embedded technical verification records four live HTTP checks; scope the absence to the research reviewer and distinguish actual technical observations."
+      },
+      {
+        "severity": "minor",
+        "path": "kb/records/planning-hub-classification-2026-10-21.json",
+        "issue": "Top-level no repository files edited wording is a worker limitation, not true of the integrated five-file candidate; explicitly identify read-only reviewers or say no website edits."
+      },
+      {
+        "severity": "pending",
+        "path": "tools/test_team_assignments.py",
+        "issue": "Coordinator reports CI negative fixtures assume a non-null current_article and fail against valid idle state. Fix is not present in this reviewed head; final test delta requires separate review."
+      }
+    ],
+    "classification_assessment": "All four exclusions supported. Destinations is guide-card navigation; Food combines short linked teasers, thematic paths and area food cards; Things to do is an experience finder; Stay areas is an area comparison directory. Linked narratives remain independently inventoried, with inherited factual/media obligations preserved. No sustained article concealed in these hubs.",
+    "actual_checks": [
+      "Read four page templates, DestinationCards, FoodDiscovery, PlanningCollection, planning-collections.ts, destination-directory.ts and food discovery-hub data.",
+      "Compared classification research source SHA256 values with current files; all matched.",
+      "Verified only rollout entries061..064 changed;54completed,76excluded,328queued; programme file byte-identical to base,112 delivered.",
+      "Reconciled457 existing dist-coast directory indexes plus404 against458 inventory entries; no unregistered routes.",
+      "Verified no projects/site changes in candidate and current_article null, separate Disha utility task ownership.",
+      "Independently queried PR395: MERGED2026-10-21T01:27:32Z; headc54ba45efb89fbdfda3a6b865765f3c483f1b9e1; merge41cda4dab4ee635bcc3f89262c1a05422abddb3e. Run39503090863 SUCCESS on matching head.",
+      "Read supplemental Samanta report separately from committed candidate: live/local robots differ on all four pages; food Poda pitha image differs, all other compared cards match. Supplemental credits checks cover7/20/9/7 distinct images."
+    ],
+    "tests": [
+      {
+        "command": "node --test tests-coast/planning-hubs.test.mjs tests-coast/food-hub-images.test.mjs",
+        "cwd": "projects/site",
+        "result": "PASS5/5 using Node24.15.0 against preexisting dist-coast, not a fresh build"
+      },
+      {
+        "command": "python3 tools/editorial/article_rollout.py --check",
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/check_team_assignments.py",
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/check_autonomous_program.py",
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/registers.py --check",
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/editorial/build_workbench.py --check",
+        "result": "PASS"
+      },
+      {
+        "command": "git diff --check BASE..HEAD",
+        "result": "PASS"
+      }
+    ],
+    "limitations": [
+      "No independent reviewer live HTTP/browser, screenshot, keyboard or fresh-build checks; Samanta live retrieval remains separately attributed.",
+      "Existing rendered-output checks do not establish latest deployment byte identity. Supplemental report is not yet transcribed into frozen candidate.",
+      "No comprehensive factual, legal-rights or cultural review of every inherited card or linked article; preserved credits are not new rights certification.",
+      "Initial targeted test invocation from repository root failed on test-path lookup; corrected projects/site invocation passed5/5.",
+      "Coordinator-reported CI fixture defect and forthcoming fixes require final exact-head review. No publication or integration approval issued for unreviewed changes."
+    ]
+  },
+  "separate_review": {
+    "reviewer": "Drishti — separate AI review, not human review",
+    "input_head": "5db636c8a5ca747f96c11819d9c2112200ea2ee3",
+    "base": "9c1a3a4f08e0db94387c987deb80adad29d1e313",
+    "result": "PASS",
+    "blocking_findings": [],
+    "scope": "Final KB utility classifications061–064 and ownership-test fixture repair; no website/validator edits.",
+    "prior_review": {
+      "head": "05a40a6766a6b231bf32aef8b33c316015086ecc",
+      "checks": [
+        "Read four page templates, DestinationCards, FoodDiscovery, PlanningCollection, planning-collections.ts, destination-directory.ts and food discovery-hub data.",
+        "Compared classification research source SHA256 values with current files; all matched.",
+        "Verified only rollout entries061..064 changed;54completed,76excluded,328queued; programme file byte-identical to base,112 delivered.",
+        "Reconciled457 existing dist-coast directory indexes plus404 against458 inventory entries; no unregistered routes.",
+        "Verified no projects/site changes in candidate and current_article null, separate Disha utility task ownership.",
+        "Independently queried PR395: MERGED2026-10-21T01:27:32Z; headc54ba45efb89fbdfda3a6b865765f3c483f1b9e1; merge41cda4dab4ee635bcc3f89262c1a05422abddb3e. Run39503090863 SUCCESS on matching head.",
+        "Read supplemental Samanta report separately from committed candidate: live/local robots differ on all four pages; food Poda pitha image differs, all other compared cards match. Supplemental credits checks cover7/20/9/7 distinct images."
+      ],
+      "tests": [
+        {
+          "command": "node --test tests-coast/planning-hubs.test.mjs tests-coast/food-hub-images.test.mjs",
+          "cwd": "projects/site",
+          "result": "PASS5/5 using Node24.15.0 against preexisting dist-coast, not a fresh build"
+        },
+        {
+          "command": "python3 tools/editorial/article_rollout.py --check",
+          "result": "PASS"
+        },
+        {
+          "command": "python3 tools/check_team_assignments.py",
+          "result": "PASS"
+        },
+        {
+          "command": "python3 tools/check_autonomous_program.py",
+          "result": "PASS"
+        },
+        {
+          "command": "python3 tools/registers.py --check",
+          "result": "PASS"
+        },
+        {
+          "command": "python3 tools/editorial/build_workbench.py --check",
+          "result": "PASS"
+        },
+        {
+          "command": "git diff --check BASE..HEAD",
+          "result": "PASS"
+        }
+      ]
+    },
+    "resolved_findings": [
+      "Top-level limitations now distinguish Anvesha source inspection, Samanta live HTTP checks, Disha record edits and lack of browser/fresh-build checks.",
+      "Explicit active fixture validates before negative mutations, independent of real current_article; idle/no-claim positive case covers the current operational phase. Exact rejection assertions preserve second-active, missing-claim and mismatch detection. No validator weakening."
+    ],
+    "new_checks": [
+      "Inspected exact two-file delta from05a40a67:classification record and tools/test_team_assignments.py only.",
+      "Every retained technical-verification route field exactly matches supplemental Samanta report. Omitted verbose arrays do not alter retained evidence; live robots differences, Poda pitha image difference and provenance checks are preserved.",
+      "Fixture file SHA256 matches recordedc7b31dbd3bb2f5c3a2d3e1971860c58d3a523b785f7a557831250ec397733e5d.",
+      "Validator, programme, rollout and operations byte-identical to initial reviewed head;54completed76excluded328queued,112programme remain unchanged."
+    ],
+    "tests": [
+      {
+        "command": "python3 tools/test_team_assignments.py",
+        "result": "PASS10/10 independently rerun"
+      },
+      {
+        "command": "python3 tools/check_team_assignments.py",
+        "result": "PASS independently rerun"
+      },
+      {
+        "command": "git diff --check 05a40a6766a6b231bf32aef8b33c316015086ecc..HEAD",
+        "result": "PASS"
+      }
+    ],
+    "limitations": [
+      "Initial5rendered tests used preexisting dist-coast; no fresh build or independent live/browser/keyboard check performed by Drishti.",
+      "Samanta actual HTTP/credit checks remain separately attributed; image hashes are local assets referenced by live HTML, not independently downloaded live-image hashes.",
+      "Classification does not recertify every card fact, cultural representation, licence or linked article.",
+      "Required CI must pass on the final integrated head before merge; this review does not assert PR399 merged or delivery completed.",
+      "Any forthcoming review/register/activity transcription remains outside this exact reviewed head and requires narrow delta review."
+    ]
+  },
+  "integration_gate": "Classification is accepted at the separately reviewed candidate. Application is effective only after PR399 passes required checks on its final reviewed head and is observed merged. No deployment required. Resume next queued article only after integration is reconciled."
 }

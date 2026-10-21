@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `ceb8db5ff4b9b3388accbc6eea60518bacc88113197e1bd66df724ae51764d4c`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `928e6b616df362d00972988c1bc35c3792b3ca0a5b8cc8a48e340cd0d4b21880`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -967,6 +967,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026102016 | pass_with_limitations | True | Separate AI research, implementation and review; no human, culinary specialist, language or field review.; No recipe trial, tasting, maker interview, archival invention witness, current menu, shop or enterprise verification.; Three text sources share Odisha Tourism hosting; distinct bylined accounts are not independent institutional corroboration.; Full566 and coastal343 tests plus responsive/keyboard checks were coordinator-performed; separate AI review records its own focused tests and inherited source checks.; Browser emulation, not physical-device or screen-reader testing. |
 | POD-REV-2026102017 | pass_with_limitations | True | Separate AI research, implementation and review; no human, culinary specialist, language or field review.; No recipe trial, tasting, maker interview, archival invention witness, current menu, shop or enterprise verification.; Original household recipe, attributed press account, tourism association and creator testimony support bounded examples, not universal practice or invention chronology.; Full566 and coastal349 tests plus responsive/keyboard checks were coordinator-performed; separate AI review records its own focused tests and inherited source checks.; Browser emulation, not physical-device or screen-reader testing. |
 | POD-REV-2026102018 | pass_with_limitations | True | Separate AI research, implementation and review; no human, culinary specialist, language or field review.; No meal tasting, cook interview, kitchen supply trace, current menu, auction schedule or harbour-access verification.; Current regional tourism text and a dated hosted travelogue share institutional hosting; no independent kitchen or field corroboration.; Full566 and coastal355 tests plus responsive/keyboard checks were coordinator-performed; separate AI review records its own focused tests and original-source checks.; Browser emulation, not physical-device or screen-reader testing. |
+| POD-REV-2026102101 | pass_with_limitations | True | No website edit or deployment. Existing artifact tests and separately attributed live HTTP observations; no fresh local build/browser visual review.; Exclusion is a route-purpose classification, not comprehensive factual or rights certification.; Idle-state ownership test fixtures repaired; validator semantics unchanged.; Final record transcription and passing PR checks required before merge. |
 
 ## Publication and application history
 
@@ -1212,7 +1213,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261020009 | 2026-10-20T10:31:46.883243+00:00 | Published and live-verified POD-EDIT-051 Balasore via PR369 and approved deployment39407919329. Tidal-flat geometry, attributed river history, printing circulation and selected fictional household reading with five visible notes and complete portable reading;44 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261020010 | 2026-10-20T11:36:19.178657+00:00 | Published and live-verified POD-EDIT-052 Mayurbhanj via PR371 and approved deployment39415654479. Forest river connections, named Chhau movement and collaborators, Ol Chiki plays and Baripada literary gathering with eight visible notes and complete portable reading;45 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261020011 | 2026-10-20T12:32:52.726686+00:00 | Published and live-verified POD-EDIT-053 Chandipur via PR373 and approved deployment39422437567. Tidal-flat slope, sediment pathways and surface traces with two visible notes and complete portable reading;46 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261020012 | 2026-10-20T13:33:59.405057+00:00 | Published and live-verified POD-EDIT-054 Similipal via PR375 and approved deployment39430851737. Watershed observation, local historical mahua knowledge and visitor conduct with three visible notes and complete portable reading;47 editorial entries complete, substantive programme112 unchanged. | — |
@@ -1222,6 +1222,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261020016 | 2026-10-20T19:31:28.424787+00:00 | Published and live-verified POD-EDIT-058 Chhena Poda via PR389 and approved deployment39483525378. Concrete cooking comparisons, attributed origin limits, three visible notes and complete portable reading;52 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261020017 | 2026-10-20T20:42:14.123192+00:00 | Published and live-verified POD-EDIT-059 Mudhi Mansa via PR392 and approved deployment39493529777. Documented cooker-gravy memory, restaurant choices and chicken variation, four visible notes and complete portable reading;53 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261020018 | 2026-10-20T21:45:24.238519+00:00 | Published and live-verified POD-EDIT-060 Chandipur meal via PR394 and approved deployment39502276923. Regional seafood and dated harbour account, with kitchen sourcing kept distinct, two visible notes and complete portable reading;54 editorial entries complete, substantive programme112 unchanged. | — |
+| POD-EVT-20261021001 | 2026-10-21T02:42:54.599123+00:00 | Separate research, technical live inspection and AI review support individual utility exclusions for POD-EDIT-061 through064. PR399 awaits final checks and integration.54 completed articles and112 substantive items unchanged;76 exclusions,328 queued. Prior Chandipur receipt395 observed merged and article ownership released. | — |
 
 ## Deferred extensions
 
