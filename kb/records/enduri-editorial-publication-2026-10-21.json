@@ -1,0 +1,118 @@
+{
+  "recorded_at": "2026-10-21T18:34:05.019124+00:00",
+  "authorization": [
+    "POD-DEC-2026101702",
+    "POD-DEC-2026101901",
+    "POD-DEC-225"
+  ],
+  "work_id": "POD-WORK-302",
+  "queue_item": "POD-EDIT-074",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/419",
+  "reviewed_head": "0f0a96233c05eff9ea18e6658a684e0792d68b3c",
+  "merge_commit": "2d41354649df42df658b151e6856872f8df39e2a",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "0f0a96233c05eff9ea18e6658a684e0792d68b3c",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39652507449"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "2d41354649df42df658b151e6856872f8df39e2a",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39653155429"
+  },
+  "live_html": {
+    "url": "https://projectodisha.org/food/enduri-pitha/",
+    "sha256": "715d6cd0e85fb03633e3d64acbb1914627b5ed7c01180d5e6fe16af95f0aa990",
+    "result": "All canonical paragraphs, byline and 3 visible source notes verified"
+  },
+  "candidate_review": "records/enduri-final-review-2026-10-21.json",
+  "responsive_review": "records/enduri-implementation-recovery-2026-10-21.json",
+  "live_browser": {
+    "article_id": "POD-EDIT-074",
+    "worker": "Samanta, separate AI implementation agent",
+    "url": "https://projectodisha.org/food/enduri-pitha/",
+    "observed_at": "2026-10-21T18:34:37.632Z",
+    "deployment_reported_by_coordinator": "39653155429 success, merge 2d413546",
+    "browser": "Chrome extension via CUA; IAB unavailable on this turn",
+    "desktop": {
+      "byline": "By Ahimanikya Satapathy",
+      "collapsed": true,
+      "images": true,
+      "notes": 3,
+      "readingWidth": 740,
+      "scrollWidth": 1440,
+      "width": 1440,
+      "image_note": "Initial load still in progress; subsequent DOM inspection confirmed all three images loaded."
+    },
+    "mobile": {
+      "collapsed": true,
+      "images": true,
+      "readingWidth": 343.1953125,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    "footnote": {
+      "active": "note-food-tourism",
+      "hash": "#note-food-tourism"
+    },
+    "returnNote": {
+      "active": "ref-taste-0-food-tourism",
+      "hash": "#ref-taste-0-food-tourism"
+    },
+    "disclosure": {
+      "links": 6,
+      "open": true,
+      "scrollWidth": 390
+    },
+    "screenshots": [
+      "/tmp/pod-enduri-live-desktop.png",
+      "/tmp/pod-enduri-live-mobile.png"
+    ],
+    "result": "PASS: visible revised prose, byline and three source notes; image loaded, no desktop/mobile horizontal overflow; footnote/return focus and disclosure work.",
+    "limits": [
+      "Browser checks do not independently prove deployment commit; root retains deployment evidence.",
+      "No content, repository, Git or publication mutation performed."
+    ]
+  },
+  "counting": {
+    "substantive500_increment": 0,
+    "completed_items": 112
+  },
+  "receipt_integration": "Retain claim through observed passing receipt PR merge; no next article starts before integration.",
+  "limitations": [
+    "Separate AI research, implementation and review; no human specialist, field visit or recipe test.",
+    "Named cultural accounts do not establish an invention date or uniform household practice.",
+    "Desktop and mobile viewport emulation, not physical-device or screen-reader testing."
+  ],
+  "verified_routes": [
+    "/food/enduri-pitha/"
+  ],
+  "receipt_review": {
+    "reviewer": "Drishti, separate AI reviewer",
+    "status": "PASS",
+    "recorded_at": "2026-10-21T18:36:27.432959+00:00",
+    "base_head": "2d41354649df42df658b151e6856872f8df39e2a",
+    "branch": "codex/enduri-receipt-20261021",
+    "review_scope": "Uncommitted records-only receipt delta, not an observed receipt PR merge",
+    "findings": [
+      "Only POD-EDIT-074 transitions to completed; completed editorial count is64.",
+      "Autonomous programme file byte-identical to base and completed_items remains112.",
+      "Activity log preserves previous bytes and appends one event. Register adds review/release records and updates existing rollout work references; prior review/release entries unchanged.",
+      "Current article remains Enduri with Disha ownership. receipt_integrated phase is explicitly conditional on observed receipt PR merge; no next article may start until reconciliation. Team handoff accurately states published_receipt_integration_pending.",
+      "Independent GitHub reads confirm PR419 merged exact reviewed head0f0a96233c05eff9ea18e6658a684e0792d68b3c into2d41354649df42df658b151e6856872f8df39e2a; validation39652507449 succeeded.",
+      "Independent GitHub read confirms Publish Project Odisha run39653155429 completed successfully at merge commit2d41354649df42df658b151e6856872f8df39e2a.",
+      "Independently inspected saved live desktop and mobile screenshots: revised lead/byline and credited photograph visible, clean layout with no visible clipping. Browser event claims remain Samanta-reported."
+    ],
+    "blockers": [],
+    "limits": [
+      "Live browser behavior and HTML hash are coordinator/Samanta evidence, not independently fetched in this receipt review.",
+      "Receipt PR merge remains pending; conditional phase label must not be interpreted as already merged.",
+      "Separate AI review is not human or culinary specialist review."
+    ],
+    "receipt_sha256": "1d8b88d22cd37e468f7ba3b0f77bf3aba900d3a098ac72029da7762b9da54286",
+    "tracked_diff_sha256": "1aaf28f38dac46ff55e7b53797820964562ed1f15b4a31844cf9f354632e0bd7",
+    "repository_edits": []
+  }
+}

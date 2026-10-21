@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `df1b1ddc4d4e254bdb78c3a8aa8a7822e05aa987f870fee344f37571414f2b12`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `021a9bfc8a6d886dbe1d8f9bb1939090174fe926b6478891d7d8ee3bd2eb2226`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -321,7 +321,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-299 · Deepen Dalkhai song, occasion and stage context | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, song-language review and recovered source PDFs remain open for future research. | — |
 | POD-WORK-300 · Deepen Pala literary performance, forms and repertoire | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/Odia review and manuscript evidence remain open for future research. | — |
 | POD-WORK-301 · Deepen Dhemsa community, movement and occasion | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/language review and field evidence remain open for future research. | — |
-| POD-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Bose published; retain claim until receipt merge observed. 63 editorial entries complete after integration; 112 programme items unchanged. | — |
+| POD-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Enduri published; retain claim through receipt integration. Then prioritize Paika and source-grounded Odia community heritage as requested in continuation chat. | — |
 | POD-WORK-2026101701 · Publish two Pattachitra Jhula choices | completed | published | Ahimanikya Satapathy | Review the live Pattachitra choices. | — |
 | POD-WORK-2026101901 · Activate separate editorial agents and durable handoffs | completed | applied | Ahimanikya Satapathy | Use saved team loop for subsequent article work; recreate task-scoped workers when needed. | — |
 | POD-WORK-2026101801 · Coherent Jhula story and collection overview | completed | published | Ahimanikya Satapathy | Review the refined live page. | — |
@@ -977,6 +977,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026102108 | pass_with_limitations | True | Separate AI research, implementation and review; not human, fluent-language or field review.; Fresh 2018 booklet text and earlier selected-page visual inspection are distinct. The2024 Telugu-script primer and2018booklet preserve their own contributor spellings. The2025 Koya–Odia primer is catalogue-only, contents not inspected; no fluent review or translated vocabulary claimed.; Browser viewport emulation, not physical-device or screen-reader testing. |
 | POD-REV-2026102109 | pass_with_limitations | True | Separate AI research, implementation and review; no human, field, maker interview or recipe-testing review.; The original 1955 temple record and critical literary edition remain unread; applicant reports are attributed. Small 2023 study is not a current market census. Existing photograph provenance retained; fresh Commons fetch failed.; Browser viewport emulation, not physical-device or screen-reader testing. |
 | POD-REV-2026102110 | pass_with_limitations | True | Separate AI research, implementation and review; no human, historian, field visit, school-access or museum-object confirmation.; Selected re-typeset retrospective autobiography; no manuscript or critical-edition collation. Reproduced 1948 preface is not a composition date.; Browser viewport emulation, not physical-device or screen-reader testing. Portable reading retains existing museum image only; both photographs appear on website. |
+| POD-REV-2026102111 | pass_with_limitations | True | Separate AI research, implementation and review; no human specialist, field visit or recipe test.; Named cultural accounts do not establish an invention date or uniform household practice.; Desktop and mobile viewport emulation, not physical-device or screen-reader testing. |
 
 ## Publication and application history
 
@@ -1194,6 +1195,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026102107 · Koya seasonal practices and distinct learning editions | published | https://projectodisha.org/languages/koya/ | POD-DEC-225 |
 | POD-REL-2026102108 · Odisha Rasagola preparation, ritual and making places | published | https://projectodisha.org/food/odisha-rasagola/ | POD-DEC-225 |
 | POD-REL-2026102109 · Bose childhood, classrooms and remembered influence | published | https://projectodisha.org/people/subhas-chandra-bose/ | POD-DEC-225 |
+| POD-REL-2026102110 · Enduri pitha preparation and festival context | published | https://projectodisha.org/food/enduri-pitha/ | POD-DEC-225 |
 
 ## Sources and assets
 
@@ -1231,7 +1233,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261021002 | 2026-10-21T02:49:46.144037+00:00 | PR399 exact separately accepted head passed validation39534590666 and merged at2026-10-21T02:48:42Z. Four individual utility exclusions applied; no deployment required.54 articles and112 programme items unchanged. Classification ownership released; application evidence in records/planning-hub-application-2026-10-21.json | — |
 | POD-EVT-20261021003 | 2026-10-21T04:45:08.880876+00:00 | Santali article065 published after actual source research, implementation, separate AI review, passing tests, responsive/keyboard checks, PR401 and approved deployment39545275532. Live receipt verified; ownership retained through receipt integration.55articles complete;112programme items unchanged. | — |
 | POD-EVT-20261021004 | 2026-10-21T09:52:43.058094+00:00 | Kui article066 published after source research, implementation, separateAI review, passing tests, responsive/keyboard checks, PR403 and approved deployment. Actual live receipt verified; ownership retained through receipt integration.56articles complete;112programme items unchanged. | — |
 | POD-EVT-20261021005 | 2026-10-21T10:25:18.032748+00:00 | Kuvi article067 published after source research, implementation, separate AI review, passing tests, responsive/keyboard checks, PR405 and approved deployment. Actual live receipt verified; ownership retained through receipt integration. 57 articles complete; 112 programme items unchanged. | — |
@@ -1241,6 +1242,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261021009 | 2026-10-21T14:37:45.696592+00:00 | Koya article 071 published after source research, implementation, separate AI review, passing tests, responsive/keyboard checks, PR413 and approved deployment. Actual live receipt verified; ownership retained through receipt integration. 61 articles complete; 112 programme items unchanged. | — |
 | POD-EVT-20261021010 | 2026-10-21T15:30:50.793850+00:00 | Odisha Rasagola article 072 published after source research, implementation, separate AI review, passing tests, responsive/keyboard checks, PR415 and approved deployment. Actual live receipt verified; ownership retained through receipt integration. 62 articles complete; 112 programme items unchanged. | — |
 | POD-EVT-20261021011 | 2026-10-21T17:05:13.950062+00:00 | Bose childhood article073 published after primary-source research, implementation, separate AI review, tests, responsive/keyboard checks, PR417 and approved deployment. Actual live receipt verified; ownership retained through receipt integration. 63 articles complete;112 programme items unchanged. | — |
+| POD-EVT-20261021012 | 2026-10-21T18:35:13.268002+00:00 | Enduri article074 published through reviewed PR419 and approved deployment; live prose and responsive interactions verified. Claim retained through receipt integration.64 articles complete;112 programme items unchanged. | — |
 
 ## Deferred extensions
 

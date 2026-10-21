@@ -8647,7 +8647,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "POD-DEC-2026101702",
-      "next_action": "Bose published; retain claim until receipt merge observed. 63 editorial entries complete after integration; 112 programme items unchanged.",
+      "next_action": "Enduri published; retain claim through receipt integration. Then prioritize Paika and source-grounded Odia community heritage as requested in continuation chat.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026101702",
@@ -8754,7 +8754,9 @@
         "POD-REV-2026102109",
         "POD-REL-2026102108",
         "POD-REV-2026102110",
-        "POD-REL-2026102109"
+        "POD-REL-2026102109",
+        "POD-REV-2026102111",
+        "POD-REL-2026102110"
       ],
       "evidence": [
         "reference/article-editorial-standard.md",
@@ -8813,7 +8815,8 @@
         "records/juang-editorial-publication-2026-10-21.json",
         "records/koya-editorial-publication-2026-10-21.json",
         "records/rasagola-editorial-publication-2026-10-21.json",
-        "records/bose-editorial-publication-2026-10-21.json"
+        "records/bose-editorial-publication-2026-10-21.json",
+        "records/enduri-editorial-publication-2026-10-21.json"
       ],
       "acceptance_criteria": [
         "Every published baseline route classified; each article independently reviewed against approved standard with PR/test/deploy/live receipt; exclusions justified; future articles follow same rule."
@@ -21820,6 +21823,31 @@
         "Selected re-typeset retrospective autobiography; no manuscript or critical-edition collation. Reproduced 1948 preface is not a composition date.",
         "Browser viewport emulation, not physical-device or screen-reader testing. Portable reading retains existing museum image only; both photographs appear on website."
       ]
+    },
+    {
+      "id": "POD-REV-2026102111",
+      "title": "Separate Enduri pitha article and source review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent /root/drishti"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human, culinary specialist or field review.",
+      "reviewed_head": "0f0a96233c05eff9ea18e6658a684e0792d68b3c",
+      "refs": [
+        "POD-WORK-302",
+        "POD-DEC-2026101901",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/enduri-final-review-2026-10-21.json"
+      ],
+      "limitations": [
+        "Separate AI research, implementation and review; no human specialist, field visit or recipe test.",
+        "Named cultural accounts do not establish an invention date or uniform household practice.",
+        "Desktop and mobile viewport emulation, not physical-device or screen-reader testing."
+      ]
     }
   ],
   "releases": [
@@ -25297,6 +25325,22 @@
         "records/bose-editorial-team-2026-10-21.json"
       ],
       "note": "Reviewed PR417 passed CI and merged; approved deployment and live prose, numbered notes, preserved documentary photographs and responsive reading verified. Zero substantive programme credit."
+    },
+    {
+      "id": "POD-REL-2026102110",
+      "title": "Enduri pitha preparation and festival context",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/food/enduri-pitha/",
+      "refs": [
+        "POD-WORK-302",
+        "POD-REV-2026102111",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/enduri-editorial-publication-2026-10-21.json"
+      ],
+      "note": "PR419 passed CI and merged; approved deployment and live browser checks passed. Zero substantive programme credit."
     }
   ],
   "sources": [
