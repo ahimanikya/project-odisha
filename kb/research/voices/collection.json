@@ -155,9 +155,9 @@
     },
     "ho-scstrti": {
       "title": "SCSTRTI · Ho community profile",
-      "url": "https://www.scstrti.in/index.php/communities/tribes/91-tribes/168-ho",
-      "review": "Direct institutional profile inspected for broad geography and attributed cultural context. Older terminology, universal claims and population figures omitted. No field or speaker review.",
-      "checked_on": "2026-10-01"
+      "url": "https://scstrti.in/index.php/communities/tribes/91-tribes/168-ho",
+      "checked_on": "2026-10-21",
+      "review": "Actual complete institutional HTML through web; www returned 502, bare hostname succeeded. Institutional community profile, not an account of every household or a current access invitation. Profile population is not language-speaker count. Speculative etymology and broad social/religious generalizations omitted."
     },
     "juang-scstrti": {
       "title": "SCSTRTI · Juang community profile",
@@ -213,10 +213,10 @@
       "review": "Fresh original-site PDF text through web:turn1208view2,114pages; directcurl bothbare/wwwhosts connection refused. Web screenshotattempt producedcachemiss/no accessible pixels; no fresh visual review claimed. Prior2026-10-01selectedvisualinspection stays distinct. No localfile/hash available. "
     },
     "ho-booklet": {
-      "title": "SCSTRTI · Ho trilingual learning booklet (2018)",
-      "url": "https://scstrti.in/images/phocagallery/books/tlexicons/ho.pdf",
-      "checked_on": "2026-10-01",
-      "review": "Original PDF inspected: publication credits on PDF page 3 and comparison table on PDF page 10. Selected pages only; vocabulary and pronunciation have not received fluent-speaker review. Linked for reading; pages and illustrations are not reproduced."
+      "title": "Ho trilingual booklet · November 2018",
+      "url": "https://www.scstrti.in/images/phocagallery/books/tlexicons/ho.pdf",
+      "checked_on": "2026-10-21",
+      "review": "Fresh original PDF extracted text recovered through web www variant. Direct valid-TLS download failed to connect; no local hash. Earlier selected page visual inspection dated 2026-10-01 retained; fresh inspection in this task was extracted text only. No new fluent review, translation verification or audio. No fresh page image reused. Foreword indicates a selected regional variety, but legacy-font text alone is insufficient reason to add that claim now."
     },
     "juang-booklet": {
       "title": "SCSTRTI · Juang trilingual learning booklet (2018)",
@@ -441,6 +441,24 @@
       "url": "https://www.ciil.org/primers/Sora_Primer.pdf",
       "checked_on": "2026-10-21",
       "review": "Original downloaded using TLS-validatedcurl,HTTP200,18,688,915bytes,45PDFpages. web fetch failed size limit; pypdf text extracted and selected pages rendered/viewed. CopyrightCIIL&NCERT2024; selected-page description only. Do not reproduce pages/pictures; source explicitlyreserves reproduction rights. No portrait replacement or newillustration needed."
+    },
+    "ho-unicode17": {
+      "title": "The Unicode Standard 17.0 · Warang Citi",
+      "url": "https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-13/",
+      "checked_on": "2026-10-21",
+      "review": "Actual current standard HTML read through web. No creation year stated in inspected section. Do not say every vowel is written explicitly. Do not carry dated present-tense publication counts into current reporting. No pronunciation, translation or fluent-reader review."
+    },
+    "ho-warang-proposal2012": {
+      "title": "Michael Everson · Warang Citi encoding proposal (2012)",
+      "url": "https://www.unicode.org/wg2/docs/n4259.pdf",
+      "checked_on": "2026-10-21",
+      "review": "Actual original proposal PDF extracted text through web. This is a dated encoding proposal, not itself the adopted standard or an independent corroborating source for material later incorporated in Unicode. Did not read complete issues of either publication; no claim about current frequency, circulation or contents. Selected proposal text read, no fresh visual inspection of its sample facsimiles."
+    },
+    "ho-primer": {
+      "title": "Ho–Odia Primer · CIIL–NCERT, July 2024",
+      "url": "https://www.ciil.org/primers/Ho-Odia_Primer.pdf",
+      "checked_on": "2026-10-21",
+      "review": "Original PDF downloaded with valid TLS, HTTP 200; local text extraction and selected page renders inspected. No independent translation or pronunciation verification. Describe visible page without inventing vocabulary meanings or reading a lesson aloud. Roles are credited in 2024 edition; current appointments not separately verified. All rights reserved CIIL/NCERT 2024. Do not reproduce page images or reuse their pictures on website."
     }
   },
   "assets": {
@@ -2754,7 +2772,7 @@
       "path": "languages/ho",
       "title": "Ho",
       "kicker": "Mayurbhanj · learning · shared places",
-      "lead": "Listen for the words that make a gathering. Follow the words into everyday life.",
+      "lead": "Follow Ho into print: Warang Citi publications, a picture lesson and a book that places three languages side by side.",
       "hero_asset": null,
       "identity_panel": [
         "Ho",
@@ -2765,35 +2783,84 @@
       "sections": [
         {
           "id": "language",
-          "title": "Begin with the language",
+          "title": "A language with more than one written form",
           "paragraphs": [
             {
-              "text": "SCSTRTI identifies Ho as Austroasiatic in its community profile, and names Mayurbhanj, Keonjhar and Angul among the Odisha locations associated with the community.",
+              "text": "Ho is a North Munda language in the Austroasiatic family. In Odisha, the SCSTRTI profile places Ho communities in Mayurbhanj, Keonjhar and Angul. A district name helps place a community on a map, but it does not tell you which script a particular reader uses.",
               "source_ids": [
+                "ho-unicode17",
                 "ho-scstrti"
               ],
               "kind": "sourced_summary"
             },
             {
-              "text": "This is a starting point, not a complete map of speakers. Community identity, home language and the language someone uses at school or work need not be the same.",
-              "source_ids": [],
-              "kind": "editorial_invitation"
+              "text": "Warang Citi, devised by Lako Bodra, is one way of writing Ho. Unicode also records Ho writing in Devanagari, Odia and Latin. Warang Citi runs from left to right and distinguishes uppercase from lowercase. Its vowels have full letters, although consonants may also carry an unwritten vowel. That last detail matters: the appearance of separate vowel letters does not mean every vowel must appear separately on the page.",
+              "source_ids": [
+                "ho-unicode17"
+              ],
+              "kind": "sourced_summary"
+            }
+          ]
+        },
+        {
+          "id": "print",
+          "title": "A script used for reading",
+          "paragraphs": [
+            {
+              "text": "Michael Everson’s 2012 encoding proposal names two Warang Citi publications: the annual magazine Ho Sanagam and the biweekly Kolhan Sakam. These are dated examples of the script in print; their current publication schedules have not been checked. They show a use for the script beyond an alphabet chart: magazines and periodicals written for readers to return to.",
+              "source_ids": [
+                "ho-warang-proposal2012"
+              ],
+              "kind": "sourced_summary"
+            }
+          ]
+        },
+        {
+          "id": "primer",
+          "title": "Looking, comparing and practising",
+          "paragraphs": [
+            {
+              "text": "The Ho–Odia Primer published by CIIL and NCERT in July 2024 takes another route, using Odia script. Its development team includes Kanda Charan Naik, Ramrai Muduiya and Jaypal Singh Naik as resource persons. The book is intended for early learning and adult literacy. These names make the work of preparing a reader visible alongside the institutions on its cover.",
+              "source_ids": [
+                "ho-primer"
+              ],
+              "kind": "sourced_summary"
+            },
+            {
+              "text": "On printed page 6, a large letter sits beside coloured word labels and a picture of a bee on a flower. Below are mangoes, a boat and a bird, each with paired labels. At the bottom, the letter becomes progressively fainter. The page offers several things to do: look closely, compare the labels and practise the form. Its script and layout are visible even before a newcomer can read the Ho words.",
+              "source_ids": [
+                "ho-primer"
+              ],
+              "kind": "sourced_summary"
+            }
+          ]
+        },
+        {
+          "id": "comparison",
+          "title": "Reading across three columns",
+          "paragraphs": [
+            {
+              "text": "The 2018 Ho booklet offers a different starting point: English, Odia and Ho in parallel columns. Its contents move from pronouns and body parts to household objects and everyday sentences. A reader can follow a familiar item across the columns, then take an unfamiliar word to a Ho speaker for its sound and use. The named compilers remain credited in the learning shelf below.",
+              "source_ids": [
+                "ho-booklet"
+              ],
+              "kind": "sourced_summary"
             }
           ]
         },
         {
           "id": "culture",
-          "title": "Words within a living culture",
+          "title": "Words situated in shared places",
           "paragraphs": [
             {
-              "text": "SCSTRTI’s account describes the akhara as a space for dance and the sarna as a sacred grove. These are cultural contexts recorded by the institute, not public attractions or a description of every Ho household.",
+              "text": "The SCSTRTI profile describes an akhara as a dancing space and a sarna as a sacred grove. Such terms connect language with particular kinds of shared place. They are a useful reason to ask how a word is used locally, rather than treating an institutional description as a complete account of every settlement.",
               "source_ids": [
                 "ho-scstrti"
               ],
               "kind": "sourced_summary"
             },
             {
-              "text": "What words belong to an ordinary day? Begin with a greeting, a place name or the name of something a speaker chooses to show you. Ask whether they want the word written down, and in which script.",
+              "text": "Begin with one page or one place name. Ask the person reading with you which written form they use, what the printed example leaves out, and whether the word belongs in an everyday conversation.",
               "source_ids": [],
               "kind": "editorial_invitation"
             }
@@ -2809,8 +2876,13 @@
           "href": "/languages/"
         }
       ],
-      "external_links": [],
-      "checked_on": "2026-10-01",
+      "external_links": [
+        {
+          "title": "Ho–Odia Primer · CIIL–NCERT",
+          "href": "https://www.ciil.org/primers/Ho-Odia_Primer.pdf"
+        }
+      ],
+      "checked_on": "2026-10-21",
       "language_contribution": true,
       "identity_note": "Begin with a place, a publication and someone willing to read with you.",
       "learning_resource": {

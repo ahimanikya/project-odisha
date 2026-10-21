@@ -23,7 +23,7 @@
       "name": "Anvesha",
       "runtime": "/root/anvesha",
       "scope": "Read-only bounded research; temporary report only.",
-      "status": "assigned"
+      "status": "complete"
     },
     {
       "name": "Samanta",
@@ -51,9 +51,12 @@
         "projects/site/tests-coast/santali-editorial.test.mjs",
         "projects/site/tests-coast/saora-editorial.test.mjs",
         "projects/site/tests-coast/sarala-editorial.test.mjs",
-        "projects/site/tests-coast/six-acres-editorial.test.mjs"
+        "projects/site/tests-coast/six-acres-editorial.test.mjs",
+        "projects/site/tests-coast/voices-passage-sources.test.mjs",
+        "projects/site/tests-coast/living-languages.test.mjs",
+        "projects/site/tests/voices.test.mjs"
       ],
-      "status": "assigned"
+      "status": "complete"
     },
     {
       "name": "Drishti",
@@ -86,5 +89,88 @@
     "tree_equivalence": "a4a3d3b0ffc9dfca8c076755d789cdc66c0a779a"
   },
   "worker_reconciliation": "Existing named agents observed completed from Saora; reuse with follow-up tasks, no duplicate agents.",
-  "next_action": "Research Ho sources and implement the exact Ho opt-in; separate integrated review follows."
+  "next_action": "Research Ho sources and implement the exact Ho opt-in; separate integrated review follows.",
+  "existing_article_audit": {
+    "findings": [
+      "Actual live page and screenshot inspected; two sections, four brief paragraphs without script or concrete learning examples.",
+      "Credible text-only Ho/Mayurbhanj identity panel retained; no documentary image or invented cultural scene.",
+      "2018 booklet publisher and compilers preserved individually."
+    ],
+    "url": "https://projectodisha.org/languages/ho/",
+    "census_independent_check": {
+      "file": "kb/research/references/census-2011/c16-odisha.xlsx",
+      "sheet": "Sheet1",
+      "row": 180,
+      "cells": {
+        "A180": "C0116",
+        "B180": "21",
+        "C180": "000",
+        "D180": "00000",
+        "E180": "ODISHA",
+        "F180": "048004",
+        "G180": " Ho",
+        "H180": "411098",
+        "I180": "203176",
+        "J180": "207922",
+        "K180": "387665",
+        "L180": "191404",
+        "M180": "196261",
+        "N180": "23433",
+        "O180": "11772",
+        "P180": "11661"
+      },
+      "sha256": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db"
+    }
+  },
+  "research": "research/voices/ho-research-2026-10-21.json",
+  "implementation": {
+    "article_id": "POD-EDIT-069",
+    "input_head": "9de3534bd5e1378a1a16abb4156f68c61d8e40d0",
+    "base_head": "6e947832f6071ce02aa36455c027f23789f88d37",
+    "status": "scaffold_ready_awaiting_canonical_copy_and_map",
+    "files": [
+      "projects/site/src/components/CultureMagazine.astro",
+      "projects/site/src/components/CultureOnward.astro",
+      "projects/site/src/components/LanguagePopulation.astro",
+      "projects/site/src/data/journey-catalog.ts",
+      "projects/site/tests-coast/ho-editorial.test.mjs",
+      "projects/site/tests-coast/balasore-editorial.test.mjs",
+      "projects/site/tests-coast/bhima-editorial.test.mjs",
+      "projects/site/tests-coast/bhubaneswar-editorial.test.mjs",
+      "projects/site/tests-coast/fakir-editorial.test.mjs",
+      "projects/site/tests-coast/gangadhar-editorial.test.mjs",
+      "projects/site/tests-coast/gopinath-editorial.test.mjs",
+      "projects/site/tests-coast/kui-editorial.test.mjs",
+      "projects/site/tests-coast/kuvi-editorial.test.mjs",
+      "projects/site/tests-coast/languages-editorial.test.mjs",
+      "projects/site/tests-coast/literature-editorial.test.mjs",
+      "projects/site/tests-coast/mayurbhanj-editorial.test.mjs",
+      "projects/site/tests-coast/odia-editorial.test.mjs",
+      "projects/site/tests-coast/pratibha-editorial.test.mjs",
+      "projects/site/tests-coast/puri-editorial.test.mjs",
+      "projects/site/tests-coast/santali-editorial.test.mjs",
+      "projects/site/tests-coast/saora-editorial.test.mjs",
+      "projects/site/tests-coast/sarala-editorial.test.mjs",
+      "projects/site/tests-coast/six-acres-editorial.test.mjs",
+      "projects/site/tests-coast/voices-passage-sources.test.mjs",
+      "projects/site/tests-coast/living-languages.test.mjs",
+      "projects/site/tests/voices.test.mjs"
+    ],
+    "checks": [
+      "All 22 modified/new tests passed Node24 syntax checks.",
+      "git diff --check passed."
+    ],
+    "preserved": [
+      "Exact Ho editorial mapping and all prior reviewed language behavior.",
+      "Text-only cover and language/culture anchors; existing 2018 publisher/compiler credit.",
+      "Population uses existing individual Census entry, counts/year/atlas links; mapped note added only to Ho.",
+      "Full portable section paragraphs and short sources, existing reading:languages/ho identity; no image/translation added.",
+      "Only stale negative controls moved to queued Juang; genuine links remain."
+    ],
+    "limits": [
+      "Canonical copy/map pending; source/rendered/export checks not yet run.",
+      "No build, source research, browser review, asset/shared-record edits, Git mutations or publishing."
+    ]
+  },
+  "source_audit": "Disha independently viewed original primer PDF5 and PDF20, confirming July2024edition and printed6learning layout; no source images reproduced."
 }
