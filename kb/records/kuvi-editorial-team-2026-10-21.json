@@ -1,0 +1,213 @@
+{
+  "recorded_at": "2026-10-21T10:03:45.566354+00:00",
+  "article_id": "POD-EDIT-067",
+  "route": "/languages/kuvi/",
+  "status": "integrated_candidate_review",
+  "input_head": "434b437596bf65d67234c2632e9386835587674d",
+  "authorization": [
+    "POD-DEC-2026101702",
+    "POD-DEC-2026101901",
+    "POD-DEC-225"
+  ],
+  "central_question": "What changes when a spoken Kuvi expression becomes a written lesson, and how can a learner follow the people, places and choices behind that page?",
+  "scope": "Deepen the distinct Kuvi introduction using actual primary material; preserve Kui distinction, local contributor credits, dated Census limits and text-only identity panel.",
+  "acceptance": [
+    "Individual primary-source and existing-KB review; concrete examples without invented translation or origins.",
+    "Founder byline, readable paragraphs, visible numbered notes/returns, collapsed further reading and visible update/privacy.",
+    "Preserve credible existing typographic identity panel and publication credits; full portable narrative with short source list.",
+    "Separate AI review, meaningful tests, desktop/mobile/keyboard checks, passing PR, approved deployment, actual live verification and integrated receipt."
+  ],
+  "ownership": "Disha retains claim through publication receipt integration.",
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only bounded Kuvi source research; report in temporary file.",
+      "status": "complete"
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/components/CultureMagazine.astro",
+        "projects/site/src/components/LanguagePopulation.astro",
+        "projects/site/src/components/CultureOnward.astro",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/tests-coast/kuvi-editorial.test.mjs",
+        "projects/site/tests-coast/living-languages.test.mjs",
+        "projects/site/tests-coast/voices-passage-sources.test.mjs",
+        "projects/site/tests/voices.test.mjs",
+        "projects/site/tests-coast/fakir-editorial.test.mjs",
+        "projects/site/tests-coast/balasore-editorial.test.mjs",
+        "projects/site/tests-coast/bhima-editorial.test.mjs",
+        "projects/site/tests-coast/mayurbhanj-editorial.test.mjs",
+        "projects/site/tests-coast/puri-editorial.test.mjs",
+        "projects/site/tests-coast/six-acres-editorial.test.mjs",
+        "projects/site/tests-coast/gangadhar-editorial.test.mjs",
+        "projects/site/tests-coast/bhubaneswar-editorial.test.mjs",
+        "projects/site/tests-coast/gopinath-editorial.test.mjs",
+        "projects/site/tests-coast/literature-editorial.test.mjs",
+        "projects/site/tests-coast/odia-editorial.test.mjs",
+        "projects/site/tests-coast/sarala-editorial.test.mjs",
+        "projects/site/tests-coast/pratibha-editorial.test.mjs",
+        "projects/site/tests-coast/languages-editorial.test.mjs",
+        "projects/site/tests-coast/santali-editorial.test.mjs",
+        "projects/site/tests-coast/visitor-experience.test.mjs",
+        "projects/site/tests-coast/kui-editorial.test.mjs"
+      ],
+      "status": "complete"
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Separate read-only review of integrated candidate.",
+      "status": "reviewing"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": [
+        "kb/research/voices/collection.json",
+        "kb/research/voices/kuvi-editorial.json",
+        "kb/research/voices/kuvi-research-2026-10-21.json",
+        "shared records and publication"
+      ],
+      "status": "working"
+    }
+  ],
+  "counting": {
+    "substantive500": 112,
+    "increment": 0
+  },
+  "previous_integration": {
+    "pull_request": 404,
+    "reviewed_head": "4c7b362395ae0cf6c2b61ceb789e92db8d974966",
+    "merge_commit": "434b437596bf65d67234c2632e9386835587674d",
+    "merged_at": "2026-10-21T10:01:02Z",
+    "ci": 39580704981
+  },
+  "implementation": {
+    "article_id": "POD-EDIT-067",
+    "input_head": "85cb96bb9869c62d7cd98f20e68f4ec4e973fe96",
+    "base_head": "434b437596bf65d67234c2632e9386835587674d",
+    "status": "frozen_focused_rendered_checks_pass",
+    "files": [
+      "projects/site/src/components/CultureMagazine.astro",
+      "projects/site/src/components/LanguagePopulation.astro",
+      "projects/site/src/components/CultureOnward.astro",
+      "projects/site/src/data/journey-catalog.ts",
+      "projects/site/tests-coast/kuvi-editorial.test.mjs",
+      "projects/site/tests-coast/living-languages.test.mjs",
+      "projects/site/tests-coast/voices-passage-sources.test.mjs",
+      "projects/site/tests/voices.test.mjs",
+      "projects/site/tests-coast/fakir-editorial.test.mjs",
+      "projects/site/tests-coast/balasore-editorial.test.mjs",
+      "projects/site/tests-coast/bhima-editorial.test.mjs",
+      "projects/site/tests-coast/mayurbhanj-editorial.test.mjs",
+      "projects/site/tests-coast/puri-editorial.test.mjs",
+      "projects/site/tests-coast/six-acres-editorial.test.mjs",
+      "projects/site/tests-coast/gangadhar-editorial.test.mjs",
+      "projects/site/tests-coast/bhubaneswar-editorial.test.mjs",
+      "projects/site/tests-coast/gopinath-editorial.test.mjs",
+      "projects/site/tests-coast/literature-editorial.test.mjs",
+      "projects/site/tests-coast/odia-editorial.test.mjs",
+      "projects/site/tests-coast/sarala-editorial.test.mjs",
+      "projects/site/tests-coast/pratibha-editorial.test.mjs",
+      "projects/site/tests-coast/languages-editorial.test.mjs",
+      "projects/site/tests-coast/santali-editorial.test.mjs",
+      "projects/site/tests-coast/kui-editorial.test.mjs"
+    ],
+    "unchanged_reserved": [
+      "projects/site/tests-coast/visitor-experience.test.mjs"
+    ],
+    "checks": [
+      "All 20 modified/new test files passed Node24 syntax checks.",
+      "git diff --check passed.",
+      "Node24 --test --test-name-pattern=\"Kuvi maps\" tests-coast/kuvi-editorial.test.mjs: 1 passed.",
+      "After coordinator coastal build Complete and Coastal candidate458 pages in /tmp/pod-kuvi-coast-build.log: Node24 --test tests-coast/kuvi-editorial.test.mjs tests-coast/kui-editorial.test.mjs tests-coast/living-languages.test.mjs tests-coast/voices-passage-sources.test.mjs: 34 passed, 0 failed."
+    ],
+    "preserved": [
+      "Exact Kuvi-only editorial opt-in; Kui/Santali/Odia retain their current behavior.",
+      "Text-only identity panel, existing identity/writing anchors, publication and contributor credits.",
+      "Census individual Kuvi entry and KHOND/KONDH caveat preserved; no group substitution.",
+      "Existing portable identity gets full paragraph arrays and short sources; no image or translation added.",
+      "Only stale negative controls move to queued Saora; real Kuvi/Kui links retained."
+    ],
+    "limits": [
+      "No implementation changes required after final canonical content integration.",
+      "Focused tests use coordinator fresh dist-coast; Samanta did not build, perform browser review, edit shared records, mutate Git or publish."
+    ],
+    "integration_input_head": "8b6f146572148042c8a7fc5be4ab25d4cf49965e",
+    "content_counts": {
+      "sections": 5,
+      "paragraphs": 8,
+      "notes": 6,
+      "references": 8
+    }
+  },
+  "existing_article_audit": {
+    "observed_route": "https://projectodisha.org/languages/kuvi/",
+    "findings": [
+      "Two existing paragraphs, duplicated generic lead and two identical supplementary-reader onward URLs.",
+      "Existing hero is a typographic Kuvi/Rayagada identity panel with no image; retain it.",
+      "Existing2018learningpanel names publisher and three compilers; preserve these credits.",
+      "Existing Census panel correctly distinguishes individual058006 Kuvi from parentKHOND/KONDH."
+    ],
+    "census_independent_check": {
+      "file": "research/references/census-2011/c16-odisha.xlsx",
+      "sheet": "Sheet1",
+      "row": 206,
+      "entry": "058006 Kuvi",
+      "odisha_total": 6451,
+      "sha256": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db"
+    }
+  },
+  "research": "research/voices/kuvi-research-2026-10-21.json",
+  "browser_review": {
+    "reviewer": "Disha, AI coordinator",
+    "candidate": "8b6f146572148042c8a7fc5be4ab25d4cf49965e plus source-order-only delta",
+    "viewports": [
+      [
+        1440,
+        900
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "reading_widths": [
+      740,
+      343.1953125
+    ],
+    "font_px": [
+      18,
+      17
+    ],
+    "line_height_px": [
+      33.3,
+      30.6
+    ],
+    "horizontal_overflow": false,
+    "media": "Existing text-only identity panel retained, visually inspected; no image or script specimen invented.",
+    "notes": 6,
+    "references": 8,
+    "returns": 8,
+    "keyboard": "Enter reaches note-kuvi-ciil with matching focus; exact return reaches ref-identity-0-kuvi-ciil with focus at both widths. Further reading initially closed and opens with Enter; update link outside disclosures.",
+    "screenshots": [
+      "records/evidence/kuvi-editorial-2026-10-21/desktop-notes.png",
+      "records/evidence/kuvi-editorial-2026-10-21/mobile-notes.png",
+      "records/evidence/kuvi-editorial-2026-10-21/mobile-hero.png",
+      "records/evidence/kuvi-editorial-2026-10-21/mobile-reading.png",
+      "records/evidence/kuvi-editorial-2026-10-21/desktop-reading.png",
+      "records/evidence/kuvi-editorial-2026-10-21/desktop-hero.png"
+    ],
+    "limits": [
+      "Browser viewport emulation, not physical-device or screen-reader review."
+    ]
+  },
+  "validation_notes": [
+    "Full566/566 and coast373/373 tests passed, including rerun after source numbering reordered by first appearance.",
+    "Publication packaging retains11indexable routes. No search eligibility or substantive programme change."
+  ]
+}

@@ -65,8 +65,8 @@
     "kuvi-ciil": {
       "title": "CIIL · Kuvi collection",
       "url": "https://sanchika.ciil.org/collections/edf4dd66-e969-4277-863c-7032451b2358",
-      "review": "Institutional collection summary inspected; broad geography and writing context, not an exclusive language boundary.",
-      "checked_on": "2026-10-01"
+      "checked_on": "2026-10-21",
+      "review": "web open full HTML; turn1204view1 lines22–24 Dravidian; Odisha and Andhra Pradesh; Odia script. Do not reuse its rounded176000 claim in place of audited census inset. Collection summary not linguistic monograph."
     },
     "sora-ciil": {
       "title": "CIIL · Sora collection",
@@ -204,7 +204,7 @@
       "title": "SCSTRTI · Kuvi trilingual learning booklet (2018)",
       "url": "https://scstrti.in/images/phocagallery/books/tlexicons/kuvi.pdf",
       "checked_on": "2026-10-01",
-      "review": "Original PDF inspected: publication credits on PDF page 3 and comparison table on PDF page 10. Selected pages only; vocabulary and pronunciation have not received fluent-speaker review. Linked for reading; pages and illustrations are not reproduced."
+      "review": "Original PDF inspected: publication credits on PDF page 3 and comparison table on PDF page 10. Selected pages only; vocabulary and pronunciation have not received fluent-speaker review. Linked for reading; pages and illustrations are not reproduced. Fresh retrieval failed on 21 October 2026; prior selected-page evidence retained."
     },
     "saora-booklet": {
       "title": "SCSTRTI · Saora / Sora trilingual learning booklet (2018)",
@@ -417,6 +417,18 @@
       "url": "https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-13/",
       "checked_on": "2026-10-21",
       "review": "Script structure and modifier-letter passages inspected; demographic, literacy and contemporary usage claims not adopted."
+    },
+    "kuvi-folk-literature": {
+      "title": "CIIL · Kuvi Folk Literature (2000)",
+      "url": "https://store.ciil.org/bookdetails?book_id=MDA1NTA2MDYwOTk5MzI%3D",
+      "checked_on": "2026-10-21",
+      "review": "Web cache miss; original HTML retrieved with TLS-validated curl HTTP200, then actual detail fields and description inspected. Local /tmp/pod-kuvi-folk.html. Publisher description only, not full book or performances. No individual plot, translation judgement, current availability or purchasing claims."
+    },
+    "kuvi-primer": {
+      "title": "NCERT · Kuwi Primer",
+      "url": "https://www.ciil.org/primers/Kuwi_Primer.pdf",
+      "checked_on": "2026-10-21",
+      "review": "Catalogue actual HTML linked PDF221; web PDF too large, original downloaded with TLS-validated curl HTTP200,37,475,332bytes,65PDFpages. pypdf text plus visual rendered pages5,8,9,10,13 inspected. No fluent Kuvi review, invented translation, pronunciations or general phoneme inventory. No image/page reproduction in website. Pages are copyrighted educational source material."
     }
   },
   "assets": {
@@ -1780,7 +1792,7 @@
       "path": "languages/kuvi",
       "title": "Kuvi",
       "kicker": "Rayagada · Odisha & Andhra Pradesh",
-      "lead": "Follow the words beyond a familiar-looking name. Follow the words into everyday life.",
+      "lead": "Follow Kuvi from spoken words into a picture lesson, a comparison booklet and a collection of tales, songs and riddles.",
       "hero_asset": null,
       "identity_panel": [
         "Kuvi",
@@ -1791,12 +1803,20 @@
       "sections": [
         {
           "id": "identity",
-          "title": "Related does not mean identical",
+          "title": "A language, not a spelling variation",
           "paragraphs": [
             {
-              "text": "CIIL identifies Kuvi as a Dravidian language used in Odisha and Andhra Pradesh. Its collection notes use of the Odia script. That writing context does not make Kuvi a variety of Odia.",
+              "text": "Kuvi is a Dravidian language spoken in Odisha and Andhra Pradesh. Its use of Odia letters does not make it Odia, and the similar-looking name Kui belongs to a related language with its own learning materials. Start with the language named by the speaker or book, rather than guessing from the script.",
               "source_ids": [
-                "kuvi-ciil"
+                "kuvi-ciil",
+                "kui-ciil"
+              ],
+              "kind": "sourced_summary"
+            },
+            {
+              "text": "The census figure below has a narrower meaning than the language’s reach. It records the individual Kuvi mother-tongue return in Odisha in 2011. It is neither a present-day count nor a total for everyone who speaks Kuvi across state borders.",
+              "source_ids": [
+                "c16-odisha-2011"
               ],
               "kind": "sourced_summary"
             }
@@ -1804,10 +1824,61 @@
         },
         {
           "id": "writing",
-          "title": "Language and letters are different stories",
+          "title": "Putting a spoken repertoire on the page",
           "paragraphs": [
             {
-              "text": "A script is a way to write a language; sharing it does not erase the differences between languages. The forms used by particular communities, publishers and teachers need their own records.",
+              "text": "Kuvi Folk Literature offers one route from speech into print. CIIL’s catalogue describes a collection of twelve tales, twenty songs and thirty-five riddles, transcribed in a modified Odia script. It lists B. Ramakrishna Reddy, B. P. Mahapatra and Joy Reddy as authors, with E. Annamalai as editor, and gives 2000 as the publication year. These are details of a particular collection, rather than a claim that all Kuvi storytelling follows one written form.",
+              "source_ids": [
+                "kuvi-folk-literature"
+              ],
+              "kind": "sourced_summary"
+            },
+            {
+              "text": "A tale, a song and a riddle invite different kinds of attention. When reading with someone who knows the language, ask what changes when a performance becomes a printed text: where a voice pauses, how an answer is withheld, or which words need explanation. The catalogue is a way to find the collection; it cannot replace hearing or reading the individual pieces.",
+              "source_ids": [],
+              "kind": "editorial_invitation"
+            }
+          ]
+        },
+        {
+          "id": "primer",
+          "title": "From a familiar picture to a written word",
+          "paragraphs": [
+            {
+              "text": "The Kuwi Primer linked by CIIL was prepared in an NCERT workshop with the Central University of Odisha, Koraput. Its credits name instructors, coordinators, resource people and a social worker, including Sibo Sankar Patnaik, Paramananda Patel and Hanak Tadingi. Making a learning book involves choosing which familiar words and experiences will help a reader begin.",
+              "source_ids": [
+                "kuvi-primer"
+              ],
+              "kind": "sourced_summary"
+            },
+            {
+              "text": "On page 13, a house photograph sits beside a short passage; below are pictures of bricks, soil and a cat with paired labels. A large letter and empty writing boxes turn recognition into practice. Earlier charts separately present Kuvi letters and additional Odia letters. The layout makes the difference between learning a language and learning to write it visible on the page.",
+              "source_ids": [
+                "kuvi-primer"
+              ],
+              "kind": "sourced_summary"
+            }
+          ]
+        },
+        {
+          "id": "readers",
+          "title": "A different kind of reading companion",
+          "paragraphs": [
+            {
+              "text": "The 2018 Kuvi booklet on the reading shelf arranges English, Odia and Kuvi in parallel columns. Unlike the picture lesson, it invites comparison across languages. Try following one row with a reader or teacher, then ask for a sentence in which the word is used. A column can offer a starting point without showing every setting in which a word belongs.",
+              "source_ids": [
+                "kuvi-booklet"
+              ],
+              "kind": "sourced_summary"
+            }
+          ]
+        },
+        {
+          "id": "begin",
+          "title": "Keep the book and the speaker in view",
+          "paragraphs": [
+            {
+              "text": "Choose one small task: look closely at a primer page, compare a booklet row, or find a tale from the named collection. Keep the title, contributor and edition with your notes. That gives a future conversation something precise to return to, and leaves room for another reader to explain a different usage.",
               "source_ids": [],
               "kind": "editorial_invitation"
             }
@@ -1837,15 +1908,19 @@
           "href": "https://sanchika.ciil.org/collections/edf4dd66-e969-4277-863c-7032451b2358"
         },
         {
-          "title": "Browse SCSTRTI’s readers",
-          "href": "https://www.scstrti.in/index.php/resources/mle-initiative/supplementary-readers"
+          "title": "Open the Kuwi Primer",
+          "href": "https://www.ciil.org/primers/Kuwi_Primer.pdf"
+        },
+        {
+          "title": "Find Kuvi Folk Literature in the CIIL catalogue",
+          "href": "https://store.ciil.org/bookdetails?book_id=MDA1NTA2MDYwOTk5MzI%3D"
         },
         {
           "title": "Browse published supplementary readers",
           "href": "https://www.scstrti.in/index.php/resources/mle-initiative/supplementary-readers"
         }
       ],
-      "checked_on": "2026-10-01",
+      "checked_on": "2026-10-21",
       "language_contribution": true,
       "identity_note": "Begin with a place, a publication and someone willing to read with you.",
       "learning_resource": {

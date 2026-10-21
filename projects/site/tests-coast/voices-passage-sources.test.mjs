@@ -12,8 +12,8 @@ for(const original of collection.pages.filter(p=>edition.routes.includes('/'+p.p
  if(entry.path==='languages')entry.roster=[...held.map(c=>c.title),...(entry.roster||[])];
  const sources=voiceSources(entry,collection.sources);
  const html=readFileSync('dist-coast/'+entry.path+'/index.html','utf8').replaceAll('&#39;',"'");
- if(['languages','languages/odia','languages/santali','languages/kui','literature','people/fakir-mohan-senapati','literature/six-acres-and-a-third','people/sarala-das','people/pratibha-ray','people/bhima-bhoi','people/gopinath-mohanty','people/gangadhar-meher'].includes(entry.path)){
-  const editorial=JSON.parse(readFileSync('../../kb/research/voices/'+({'languages/kui':'kui','languages/santali':'santali','languages/odia':'odia','people/fakir-mohan-senapati':'fakir','literature/six-acres-and-a-third':'six-acres','people/sarala-das':'sarala','people/pratibha-ray':'pratibha','people/bhima-bhoi':'bhima','people/gopinath-mohanty':'gopinath','people/gangadhar-meher':'gangadhar'}[entry.path]||entry.path)+'-editorial.json','utf8'));
+ if(['languages','languages/odia','languages/santali','languages/kui','languages/kuvi','literature','people/fakir-mohan-senapati','literature/six-acres-and-a-third','people/sarala-das','people/pratibha-ray','people/bhima-bhoi','people/gopinath-mohanty','people/gangadhar-meher'].includes(entry.path)){
+  const editorial=JSON.parse(readFileSync('../../kb/research/voices/'+({'languages/kuvi':'kuvi','languages/kui':'kui','languages/santali':'santali','languages/odia':'odia','people/fakir-mohan-senapati':'fakir','literature/six-acres-and-a-third':'six-acres','people/sarala-das':'sarala','people/pratibha-ray':'pratibha','people/bhima-bhoi':'bhima','people/gopinath-mohanty':'gopinath','people/gangadhar-meher':'gangadhar'}[entry.path]||entry.path)+'-editorial.json','utf8'));
   assert.match(html,/<section id="story-sources"/);
   for(const passage of editorial.passages)for(const id of passage.source_ids){
    const ref=`ref-${passage.id}-${id}`;
@@ -23,7 +23,7 @@ for(const original of collection.pages.filter(p=>edition.routes.includes('/'+p.p
   }
   for(const source of editorial.sources){assert.equal(html.split(`id="note-${source.id}"`).length-1,1);assert.ok(html.includes(escape(source.url)));assert.ok(html.includes(escape(source.note)));}
   assert.doesNotMatch(html,/<details[^>]*id="sources"|Research and presentation prepared with AI assistance/);
-  if(entry.path==='languages/kui'){
+  if(['languages/kui','languages/kuvi'].includes(entry.path)){
    assert.equal(entry.hero_asset,null);assert.ok(entry.cards.every(c=>!c.asset));
    assert.ok(!html.includes('Images and reuse'));
    const cover=html.match(/<header[^>]*class="mag-cover[^"]*"[\s\S]*?<\/header>/)?.[0];assert.ok(cover);

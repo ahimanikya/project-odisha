@@ -1,0 +1,182 @@
+{
+  "task": "POD-EDIT-067",
+  "input_head": "85cb96bb9869c62d7cd98f20e68f4ec4e973fe96",
+  "base": "434b437596bf65d67234c2632e9386835587674d",
+  "inspected_at": "2026-10-21",
+  "role": "Separate AI research worker, read-only; no human/field/fluent-speaker review",
+  "lead": "Follow Kuvi from spoken words into a picture lesson, a comparison booklet and a collection of tales, songs and riddles.",
+  "sections": [
+    {
+      "id": "identity",
+      "heading": "A language, not a spelling variation",
+      "paragraphs": [
+        {
+          "text": "Kuvi is a Dravidian language spoken in Odisha and Andhra Pradesh. Its use of Odia letters does not make it Odia, and the similar-looking name Kui belongs to a related language with its own learning materials. Start with the language named by the speaker or book, rather than guessing from the script.",
+          "sources": [
+            "kuvi-ciil"
+          ],
+          "limit": "First two sentences supported by existing classification records; related Kui distinction can use retained Kui CIIL source if parent wants explicit reference."
+        },
+        {
+          "text": "The census figure below has a narrower meaning than the language’s reach. It records the individual Kuvi mother-tongue return in Odisha in 2011. It is neither a present-day count nor a total for everyone who speaks Kuvi across state borders.",
+          "sources": [
+            "census-c16"
+          ],
+          "limit": "Coordinator independently checked original XLSX row206/058006; I did not repeat workbook inspection."
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "heading": "Putting a spoken repertoire on the page",
+      "paragraphs": [
+        {
+          "text": "Kuvi Folk Literature offers one route from speech into print. CIIL’s catalogue describes a collection of twelve tales, twenty songs and thirty-five riddles, transcribed in a modified Odia script. It lists B. Ramakrishna Reddy, B. P. Mahapatra and Joy Reddy as authors, with E. Annamalai as editor, and gives 2000 as the publication year. These are details of a particular collection, rather than a claim that all Kuvi storytelling follows one written form.",
+          "sources": [
+            "kuvi-folk-literature"
+          ]
+        },
+        {
+          "text": "A tale, a song and a riddle invite different kinds of attention. When reading with someone who knows the language, ask what changes when a performance becomes a printed text: where a voice pauses, how an answer is withheld, or which words need explanation. The catalogue is a way to find the collection; it cannot replace hearing or reading the individual pieces.",
+          "sources": [],
+          "kind": "Original reading questions, not findings about uninspected tales."
+        }
+      ]
+    },
+    {
+      "id": "primer",
+      "heading": "From a familiar picture to a written word",
+      "paragraphs": [
+        {
+          "text": "The Kuwi Primer linked by CIIL was prepared in an NCERT workshop with the Central University of Odisha, Koraput. Its credits name instructors, coordinators, resource people and a social worker, including Sibo Sankar Patnaik, Paramananda Patel and Hanak Tadingi. Making a learning book involves choosing which familiar words and experiences will help a reader begin.",
+          "sources": [
+            "kuvi-primer"
+          ]
+        },
+        {
+          "text": "On page 13, a house photograph sits beside a short passage; below are pictures of bricks, soil and a cat with paired labels. A large letter and empty writing boxes turn recognition into practice. Earlier charts separately present Kuvi letters and additional Odia letters. The layout makes the difference between learning a language and learning to write it visible on the page.",
+          "sources": [
+            "kuvi-primer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "heading": "A different kind of reading companion",
+      "paragraphs": [
+        {
+          "text": "The 2018 Kuvi booklet on the reading shelf arranges English, Odia and Kuvi in parallel columns. Unlike the picture lesson, it invites comparison across languages. Try following one row with a reader or teacher, then ask for a sentence in which the word is used. A column can offer a starting point without showing every setting in which a word belongs.",
+          "sources": [
+            "kuvi-booklet"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "begin",
+      "heading": "Keep the book and the speaker in view",
+      "paragraphs": [
+        {
+          "text": "Choose one small task: look closely at a primer page, compare a booklet row, or find a tale from the named collection. Keep the title, contributor and edition with your notes. That gives a future conversation something precise to return to, and leaves room for another reader to explain a different usage.",
+          "sources": [],
+          "kind": "Original reading guidance."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "kuvi-ciil",
+      "url": "https://sanchika.ciil.org/collections/edf4dd66-e969-4277-863c-7032451b2358",
+      "actual_access": "web open full HTML; turn1204view1 lines22–24",
+      "findings": "Dravidian; Odisha and Andhra Pradesh; Odia script. Do not reuse its rounded176000 claim in place of audited census inset. Collection summary not linguistic monograph.",
+      "note": "CIIL, Kuvi collection: language family, broad geography and script; its rounded population claim is not used."
+    },
+    {
+      "id": "kuvi-folk-literature",
+      "url": "https://store.ciil.org/bookdetails?book_id=MDA1NTA2MDYwOTk5MzI%3D",
+      "actual_access": "Web cache miss; original HTML retrieved with TLS-validated curl HTTP200, then actual detail fields and description inspected. Local /tmp/pod-kuvi-folk.html.",
+      "locators": "Title/author/editor/year fields; description paragraph immediately after price. Hindi interface, English description.",
+      "findings": "2000;176pages;ISBN81-7342-063-7;authorsB.RamakrishnaReddy/B.P.Mahapatra/JoyReddy;editorE.Annamalai;12tales20songs35riddles;modifiedOriya transcription.",
+      "limits": "Publisher description only, not full book or performances. No individual plot, translation judgement, current availability or purchasing claims.",
+      "note": "CIIL publisher catalogue, Kuvi Folk Literature (2000), credits and description. The collection’s individual texts have not been reviewed here.",
+      "sha256": "932c966607dbf4a08b09b34dcbd9c2fd6961626565b31ae428a5847a529578c2"
+    },
+    {
+      "id": "kuvi-primer",
+      "url": "https://www.ciil.org/primers/Kuwi_Primer.pdf",
+      "catalogue": "https://www.ciil.org/primers_book",
+      "actual_access": "Catalogue actual HTML linked PDF221; web PDF too large, original downloaded with TLS-validated curl HTTP200,37,475,332bytes,65PDFpages. pypdf text plus visual rendered pages5,8,9,10,13 inspected.",
+      "locators": {
+        "PDF5": "Credits and NCERT workshop/Central University of Odisha collaboration; named contributors and roles.",
+        "PDF8": "Teaching guidance in Odia, speaking from pictures and teacher-guided reading/writing. No public translation of this guidance proposed.",
+        "PDF9": "Kuvi alphabet chart.",
+        "PDF10": "Separate additional Odia alphabet chart.",
+        "PDF13/printed13": "House photograph, short passage, paired labels beneath bricks/soil/cat, largeletter and writingboxes."
+      },
+      "findings": "This is an NCERT/central-university workshop primer hosted in CIIL catalogue, NOT automatically the9March2024CIIL-NCERTtitleformat of Kui. PDF2carries2022–23; no firm publication date inferred. English title is KUWI PRIMER, keep variant when citing book.",
+      "limits": "No fluent Kuvi review, invented translation, pronunciations or general phoneme inventory. No image/page reproduction in website. Pages are copyrighted educational source material.",
+      "note": "Kuwi Primer, NCERT: workshop credits (PDF p.5), alphabet charts (pp.9–10) and picture lesson (p.13). Selected pages inspected; no pronunciation review.",
+      "sha256": "7678dd1a8db39ad178f850d77f5886a0e38059df29592f73ef7166deead68071"
+    },
+    {
+      "id": "kuvi-booklet",
+      "url": "https://scstrti.in/images/phocagallery/books/tlexicons/kuvi.pdf",
+      "actual_access": "Fresh web open cache miss. Retain recorded2026-10-01 selected PDFpages3and10 inspection; do not relabel as fresh fullbook review.",
+      "findings": "November2018;SpecialDevelopmentCouncilRayagada;TrinathWadaka,SuryaNarayanPadhy,TripatiHikaka;English/Odia/Kuvi columns.",
+      "limits": "Existing shelf credit+panel text consume same200word source budget. Do not duplicate longcreditlisting in body/footnote.",
+      "note": "Kuvi booklet, November2018; publication and comparison pages checked previously on1October2026. See reading-shelf credits."
+    },
+    {
+      "id": "kuvi-dictionary-catalogue",
+      "url": "https://sanchika.ciil.org/items/44e96322-9774-4a4e-a456-687fd171b273/full",
+      "actual_access": "Full metadata HTML read,turn1205view0lines40–58.",
+      "findings": "Kuvi-Oriya-EnglishDictionary1995,authorsB.RamakrishnaReddy/JoyReddy/B.P.Mahapatra,132pages; linguistic/pedagogicalfocus.",
+      "limits": "Not proposed for publicbody; avoids citationpadding. Attached129.48KBfile notopened; nofulltextreviewclaimed. scriptusedKuvi-English field cannot identify script accurately."
+    }
+  ],
+  "word_budgets": {
+    "kuvi-ciil": {
+      "proposed_body_words": 52,
+      "note_words": 16,
+      "additional_headroom_note": "Count final lead, titles and retainedpanels too; Kuvi booklet panel not yet recounted in finalcopy."
+    },
+    "kuvi-folk-literature": {
+      "proposed_body_words": 73,
+      "note_words": 19,
+      "additional_headroom_note": "Count final lead, titles and retainedpanels too; Kuvi booklet panel not yet recounted in finalcopy."
+    },
+    "kuvi-primer": {
+      "proposed_body_words": 117,
+      "note_words": 20,
+      "additional_headroom_note": "Count final lead, titles and retainedpanels too; Kuvi booklet panel not yet recounted in finalcopy."
+    },
+    "kuvi-booklet": {
+      "proposed_body_words": 61,
+      "note_words": 13,
+      "additional_headroom_note": "Count final lead, titles and retainedpanels too; Kuvi booklet panel not yet recounted in finalcopy."
+    }
+  },
+  "checks": [
+    "Read current handoff/operations and existing Kuvi entry/source notes.",
+    "Ran existing KB query before external research; onlycurrentvoiceentry surfaced.",
+    "Inspected actual CIIL collection and catalogue.",
+    "Retrievedoriginalprimer and publisherHTML withvalidTLS; SHA256 recorded.",
+    "Renderedselectedprimerpages and checkedvisiblelayout againsttext.",
+    "No Git or repository edits; proposal/report only in/tmp."
+  ],
+  "critical_distinctions": [
+    "Kui and Kuvi are not interchangeable; Jatapu(Kuvi) is a separatecatalogueentry not used to stand for allKuvi.",
+    "Kuwi spelling retained for exactprimer title; do notassign2024date fromotherprimers.",
+    "Folkcollection is publisherdescription only, notdirectepisode reading.",
+    "Census count is parentverifiedindividualOdishareturn2011, notallcurrent speakers.",
+    "No publicimage replacementneeded; retainedtext-onlypanelhonest."
+  ],
+  "limitations": [
+    "No speaker/teacher consultation or fieldvisit.",
+    "No vocabularytranslation, fluentreview, broadlinguisticinventory or entirebook inspection.",
+    "FreshSCSTRTIfetchfailed; priorselectedpage record retained.",
+    "No implementationtests run: no repochanges. Parent owns final sourcewordcount inclusive of existingpanel."
+  ]
+}
