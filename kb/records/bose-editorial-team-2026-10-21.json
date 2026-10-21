@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-21T16:06:44.627670+00:00",
   "article_id": "POD-EDIT-073",
   "route": "/people/subhas-chandra-bose/",
-  "status": "candidate_review",
+  "status": "reviewed_candidate",
   "input_head": "ceadbe0eb1a633530d91f0f32968adb6642feea8",
   "authorization": [
     "POD-DEC-2026101702",
@@ -40,7 +40,7 @@
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Separate read-only review of integrated candidate.",
-      "status": "waiting"
+      "status": "complete"
     },
     {
       "name": "Disha",
@@ -134,7 +134,8 @@
     "Minor EOF blank line from separate review trimmed; complete base diff whitespace check passes.",
     "Actual Chrome desktop1440x900/mobile390x844 visual and keyboard checks pass: footnote focus and exact return, collapsed Further reading opens with Enter, preserved breadcrumb and school photo.",
     "Desktop740px column,18px/33.3px; mobile343.2px,17px/30.6px; no horizontal overflow; both website images loaded and contained.",
-    "Browser emulation only; no physical-device or screen-reader test. No publication or completion yet."
+    "Browser emulation only; no physical-device or screen-reader test. No publication or completion yet.",
+    "Credit-related automatic approval review failure prevented a remote read; user upgraded and retry succeeded. No action bypassed and no publication occurred during that failure."
   ],
   "responsive": {
     "reviewer": "Disha",
@@ -162,15 +163,15 @@
     "reviewer": "Drishti — separate AI reviewer",
     "article_id": "POD-EDIT-073",
     "route": "/people/subhas-chandra-bose/",
-    "input_head": "280656b87c4e328c85c30b008ec87391ebe388c4",
+    "input_head": "3cb30de7d5fd0a16fed758825e7aa06ede12ae97",
     "base_head": "ceadbe0eb1a633530d91f0f32968adb6642feea8",
-    "result": "CONTENT_CODE_PASS_PENDING_FINAL_EVIDENCE",
+    "result": "PASS",
     "blocking_findings": [],
     "minor_findings": [
       {
         "file": "projects/site/tests-coast/bose-editorial.test.mjs:65",
         "finding": "New blank line at EOF flagged by git diff --check; sent to coordinator to trim in final evidence commit.",
-        "status": "pending"
+        "status": "resolved: final commit removes only the EOF blank line; full base diff check passes"
       }
     ],
     "findings": [
@@ -187,17 +188,23 @@
       "Fresh web reads of IncredibleIndia selected collection paragraph and both original Commons file metadata/licensing pages; independently viewed both local photographs.",
       "Node24 tests-coast/bose-editorial.test.mjs,odisha-roots.test.mjs,rasagola-editorial.test.mjs,visitor-experience.test.mjs:20/20PASS on fresh dist-coast.",
       "article_rollout/check_team_assignments/check_autonomous_program/registers/build_workbench/validate_research_map checksPASS;1116records639events.",
-      "Independent asset JSON preservation,programme byte comparison and source word count. git diff --check identified minor EOFblankline."
+      "Independent asset JSON preservation,programme byte comparison and source word count. git diff --check identified minor EOFblankline.",
+      "Final280656b8..3cb30de7delta limited to six screenshots,handoff evidence and EOFblankline removal; exact initial review transcription verified. No production/source changes.",
+      "Independently viewed committed desktop-body,mobile-cover,mobile-school,mobile-notes JPGs: readable prose,full-frame contextual school image,correct later-date caption and legible numbered notes/return links.",
+      "git diff --check ceadbe0e..3cb30de7PASS."
     ],
     "coordinator_reported_checks": [
-      "Full566/566,coast408/408,publication11indexablePASS; interactive browser checks pending final evidence."
+      "Full566/566,coast408/408,publication11indexablePASS;457directoryroutes+404=458registered.",
+      "Actual1440x900/390x844 browser:740/343.2px prose widths,18/17px body,33.3/30.6px line heights,nooverflow; exact desktopfirst-school/mobileravenshaw-1 note returns and FurtherreadingEnter pass."
     ],
     "limits": [
       "Separate AI review only; no human,historian,fieldvisit,schoolaccess or museum-object confirmation.",
       "Selected re-typeset autobiography reproduction,not fullbook review,manuscript or critical-edition collation; original correspondence not inspected.",
-      "No independent interactive browser or live publication checks; final screenshot/evidence delta remains to review.",
+      "No independent interactive browser,physical-device,screen-reader or live publication checks; sampled committed screenshots inspected,keyboard/geometry evidence belongs to Disha.",
       "No own build or broad-suite rerun;focused20tests and validators only. Portable retains existing museum image only; school image remains website-only.",
-      "No repository/Git/publishing changes;only temporary review JSON written."
-    ]
+      "No repository/Git/publishing changes;only temporary review JSON written.",
+      "Candidate review PASS does not establish publication/completion; required checks,reviewed merge,approved deployment and live receipt remain gates."
+    ],
+    "initial_input_head": "280656b87c4e328c85c30b008ec87391ebe388c4"
   }
 }
