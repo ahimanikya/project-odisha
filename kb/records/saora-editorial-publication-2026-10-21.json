@@ -154,5 +154,53 @@
   "verified_routes": [
     "/languages/saora/"
   ],
-  "receipt_integration": "Effective only after receipt PR passes required checks and merges; observed merge must be reconciled before releasing article claim."
+  "receipt_integration": "Effective only after receipt PR passes required checks and merges; observed merge must be reconciled before releasing article claim.",
+  "receipt_review": {
+    "reviewer": "Drishti, separate AI reviewer /root/drishti; not human review",
+    "input_head": "d4173c61ca66495d564e22fcce3cf3658196794d",
+    "base": "a8d619ba64b86ad6e521dfd4493ab99866a65b3f",
+    "result": "PASS",
+    "blocking_findings": [],
+    "actual_checks": [
+      "Ten-file delta is records and two screenshots only; no article, source or website implementation change.",
+      "Independently verified GitHub: PR407 MERGED2026-10-21T11:21:17Z, reviewed4c32dbd6543db753216c2cf414816097dbbf2c1f, mergea8d619ba64b86ad6e521dfd4493ab99866a65b3f. CI39590761413SUCCESS on reviewed head; workflow_dispatch Publish Project Odisha39591359974SUCCESS on merge.",
+      "Reviewed and published merge trees equal6968b5c625fe1bafd50df4d757f2e6c861b30a8f.",
+      "Canonical final_review matches saved independent review exactly. Live and browser data equal coordinator savedJSON. SavedHTML SHA25633e1c0d73b5e98c51a5a0f31cce141875fa53c2fe1b0a2b0e24c128705787d5b matchesreceipt; independently counted6notes10markers.",
+      "Only068 completes;58completed76excluded324queued. Programme byte-identical to base,112unchanged.",
+      "Disha ownership retained; receipt_integratedphase expressly conditional on requiredchecks and observedreceiptmerge before nextclaim.",
+      "Both live screenshots independently viewed: readable desktopcover/textidentity and mobileprose/attribution, no apparent horizontalclipping. Coordinator owns liveinteractive observations."
+    ],
+    "screenshot_sha256": {
+      "live-desktop.png": "31c109ad5e88556d0c78d109e8277498e1b81f86e74ddf4ae4a5918d47d2a5a5",
+      "live-mobile.png": "0cffe42b40e2debfb0a57ce2b232d361b42d7d8209cadd07c6e63026cb488bd9"
+    },
+    "tests": [
+      {
+        "command": "python3 tools/editorial/article_rollout.py --check",
+        "result": "PASS58completed76excluded324queued"
+      },
+      {
+        "command": "python3 tools/check_team_assignments.py",
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/check_autonomous_program.py",
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/registers.py --check",
+        "result": "PASS1108records635events;dashboardcurrent"
+      },
+      {
+        "command": "git diff --check a8d619ba..HEAD",
+        "result": "PASS"
+      }
+    ],
+    "limitations": [
+      "SeparateAI receipt review, nothuman/fluent-language/field/physical-device/screenreaderreview. Source/test limitations preserved.",
+      "No independent livebrowser/HTTP/sitemap repetition; saved coordinator artifacts/screenshots inspected and remote GitHub state independently verified.",
+      "No rebuild/source research repeated for records-only delta. No repository/Git mutation; temporary report only. Receiptrequiredchecks and actualmerge remain gates beforeownershiprelease."
+    ]
+  },
+  "receipt_pull_request": "https://github.com/ahimanikya/project-odisha/pull/408"
 }
