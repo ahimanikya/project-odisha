@@ -887,3 +887,7 @@ POD-EDIT-460 reuses Paika research and the source-preserving community coverage 
 ### Chasa community history · 22 October 2026
 
 POD-EDIT-461 reuses the community index, Paika/Khandayat source maps and the original Tanabe2020 ID. New original Bhadrak Gazetteer, Penthabahal Census1961-series monograph and Misra1966 rice-ritual study distinguish occupation, identity, local tenure and shared agrarian heritage. Regional labels are not automatic aliases; historical land distribution is not current demographic evidence. Mapping: `research/communities/chasa.json`; inspection limits: `research/sources/chasa-research.json`.
+
+## Tanti regional community history · 22 October 2026
+
+Reuse `communities/tanti.json`, `communities/tanti.md` and `sources/tanti-research.json` for the Stirling1825 table, Bhadrak Aswini Tanti and Jain2015 Bomkai Patra Tanti account. Existing handloom/textile KB informs reading paths only; it does not prove caste identity. Source ID `chasa-bhadrak-gazetteer` is reused. No universal origin, branch equivalence, current livelihood or Pantanti identification follows from these regional examples.
