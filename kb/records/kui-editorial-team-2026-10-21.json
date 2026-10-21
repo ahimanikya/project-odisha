@@ -1,0 +1,86 @@
+{
+  "recorded_at": "2026-10-21T05:38:59.885946+00:00",
+  "article_id": "POD-EDIT-066",
+  "route": "/languages/kui/",
+  "status": "research_and_implementation",
+  "input_head": "c30643edd43a10746c3b14a7f15219c4273847c3",
+  "authorization": [
+    "POD-DEC-2026101702",
+    "POD-DEC-2026101901",
+    "POD-DEC-225"
+  ],
+  "central_question": "How does Kui move from speech into a printed learning page and contemporary stories, and what can a reader learn from the people and choices behind those books?",
+  "scope": "Deepen existing Kui introduction with inspected primary material; distinguish Kui from Kuvi, preserve local contributors, census limits and text-only identity panel.",
+  "acceptance": [
+    "Individual primary-source and existing-KB review; concrete examples without invented translation or origins.",
+    "Founder byline, readable paragraphs, visible numbered notes/returns, collapsed further reading and visible update/privacy.",
+    "Preserve credible existing typographic identity panel and publication credits; full portable narrative with short source list.",
+    "Separate AI review, meaningful tests, desktop/mobile/keyboard checks, passing PR, approved deployment, actual live verification and integrated receipt."
+  ],
+  "ownership": "Disha retains claim through publication receipt integration.",
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only bounded Kui source research; temporary report only.",
+      "status": "assigned"
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/components/CultureMagazine.astro",
+        "projects/site/src/components/LanguagePopulation.astro",
+        "projects/site/src/components/CultureOnward.astro",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/tests-coast/kui-editorial.test.mjs",
+        "projects/site/tests-coast/living-languages.test.mjs",
+        "projects/site/tests-coast/voices-passage-sources.test.mjs",
+        "projects/site/tests/voices.test.mjs",
+        "projects/site/tests-coast/fakir-editorial.test.mjs",
+        "projects/site/tests-coast/balasore-editorial.test.mjs",
+        "projects/site/tests-coast/bhima-editorial.test.mjs",
+        "projects/site/tests-coast/mayurbhanj-editorial.test.mjs",
+        "projects/site/tests-coast/puri-editorial.test.mjs",
+        "projects/site/tests-coast/six-acres-editorial.test.mjs",
+        "projects/site/tests-coast/gangadhar-editorial.test.mjs",
+        "projects/site/tests-coast/bhubaneswar-editorial.test.mjs",
+        "projects/site/tests-coast/gopinath-editorial.test.mjs",
+        "projects/site/tests-coast/literature-editorial.test.mjs",
+        "projects/site/tests-coast/odia-editorial.test.mjs",
+        "projects/site/tests-coast/sarala-editorial.test.mjs",
+        "projects/site/tests-coast/pratibha-editorial.test.mjs",
+        "projects/site/tests-coast/languages-editorial.test.mjs",
+        "projects/site/tests-coast/santali-editorial.test.mjs",
+        "projects/site/tests-coast/visitor-experience.test.mjs"
+      ],
+      "status": "assigned"
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Read-only separate review after integrated candidate ready.",
+      "status": "pending"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": [
+        "kb/research/voices/collection.json",
+        "kb/research/voices/kui-editorial.json",
+        "kb/research/voices/kui-research-2026-10-21.json",
+        "shared registers and publication"
+      ],
+      "status": "working"
+    }
+  ],
+  "counting": {
+    "substantive500": 112,
+    "increment": 0
+  },
+  "previous_integration": {
+    "receipt_pr": 402,
+    "merge_commit": "c30643edd43a10746c3b14a7f15219c4273847c3",
+    "merged_at": "2026-10-21T04:53:08Z"
+  }
+}
