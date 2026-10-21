@@ -1,7 +1,7 @@
 {
   "recorded_at": "2026-10-21T20:15:38.461047+00:00",
   "task_id": "POD-TASK-COMMUNITY-INDEX-20261022",
-  "status": "reviewed_awaiting_merge",
+  "status": "completed",
   "input_head": "677a3ce0dc89c4ee1e6fbb8b0ce61ecb1b65a1e9",
   "authorization": [
     "POD-DEC-225",
@@ -18,7 +18,8 @@
       "name": "Anvesha",
       "runtime": "/root/anvesha",
       "scope": "Read-only source inventory and bounded extraction to /tmp/pod-community-index-research.json",
-      "status": "completed"
+      "status": "completed",
+      "scope_released": true
     },
     {
       "name": "Samanta",
@@ -26,13 +27,15 @@
       "scope": [
         "tools/research/validate_community_index.py"
       ],
-      "status": "completed"
+      "status": "completed",
+      "scope_released": true
     },
     {
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Read-only integrated index/source review",
-      "status": "completed"
+      "status": "completed",
+      "scope_released": true
     },
     {
       "name": "Disha",
@@ -42,7 +45,8 @@
         "kb/research/communities/index.md",
         "shared records"
       ],
-      "status": "working"
+      "status": "completed",
+      "scope_released": true
     }
   ],
   "worker_reconciliation": "All Paika workers completed; PR422 observed merged697f00ff. No active article. Unrelated PR304 and281 remain untouched.",
@@ -50,7 +54,7 @@
     "substantive500_increment": 0,
     "completed_items": 113
   },
-  "next_action": "Observe passing CI and merge PR423; record merge receipt before claiming next article.",
+  "next_action": "Index merged. Next wake reconcile this receipt and claim Khandayat as the next community article; reuse Paika evidence and coverage index, then research dated origins and regional meanings. No article currently active.",
   "validation": [
     "community index: PASS, 6 sources, 226 observations, 4 topics",
     "team assignments: PASS",
@@ -61,5 +65,16 @@
   ],
   "delivery_scope": "Internal KB inventory and read-only validator only. No website changes; deployment is not required. No substantive programme credit.",
   "review": "records/community-index-review-2026-10-22.json",
-  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/423"
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/423",
+  "delivery": {
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/423",
+    "reviewed_head": "2c923f5720358c9b8619c50e79d6cab8100b3bad",
+    "exact_head_review": "Drishti separately confirmed unchanged content hashes and review-record-only delta in chat. Separate AI review, not human review.",
+    "ci": "https://github.com/ahimanikya/project-odisha/actions/runs/39669613142",
+    "ci_result": "success",
+    "merge_commit": "bad2dc5a6e0812bd5cb9a9f12ce292a3d0954d77",
+    "merged_at": "2026-10-21T20:26:25Z",
+    "deployment": "Not required: internal KB inventory and validator only; no website change.",
+    "receipt_state": "Merge observed; this local checkpoint will integrate with next article handoff."
+  }
 }
