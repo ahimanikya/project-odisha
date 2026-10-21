@@ -29,6 +29,6 @@ test('the new sweet and childhood reading save distinct items and carry their ev
 test('new real photographs ship unchanged from recorded derivatives with end-of-page credit and licences',()=>{
  for(const [asset,route] of [[food.assets['pahala-rasagola'],'/food/odisha-rasagola/'],[bose.assets.school,'/people/subhas-chandra-bose/']]){
   const bytes=readFileSync('dist-coast'+asset.src);assert.equal(createHash('sha256').update(bytes).digest('hex'),asset.sha256);
-  const credits=read(route).match(/<details class="mag-article-credits"[\s\S]*?<\/details>/)[0];for(const text of [asset.creator,asset.source,asset.license_url])assert.ok(credits.includes(text),text);
+  const credits=route==='/food/odisha-rasagola/'?read(route).match(/<div id="food-image-credits"[\s\S]*?<\/div>/)[0]:read(route).match(/<details class="mag-article-credits"[\s\S]*?<\/details>/)[0];for(const text of [asset.creator,asset.source,asset.license_url])assert.ok(credits.includes(text),text);
  }
 });
