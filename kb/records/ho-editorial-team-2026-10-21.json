@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-21T12:07:07.895045+00:00",
   "article_id": "POD-EDIT-069",
   "route": "/languages/ho/",
-  "status": "in_progress",
+  "status": "published_receipt_pending_integration",
   "input_head": "6e947832f6071ce02aa36455c027f23789f88d37",
   "authorization": [
     "POD-DEC-2026101702",
@@ -62,7 +62,7 @@
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Separate read-only integrated candidate review after implementation.",
-      "status": "pending"
+      "status": "complete"
     },
     {
       "name": "Disha",
@@ -89,7 +89,7 @@
     "tree_equivalence": "a4a3d3b0ffc9dfca8c076755d789cdc66c0a779a"
   },
   "worker_reconciliation": "Existing named agents observed completed from Saora; reuse with follow-up tasks, no duplicate agents.",
-  "next_action": "Research Ho sources and implement the exact Ho opt-in; separate integrated review follows.",
+  "next_action": "Integrate the independently reviewed receipt after required checks and observed merge before releasing Ho.",
   "existing_article_audit": {
     "findings": [
       "Actual live page and screenshot inspected; two sections, four brief paragraphs without script or concrete learning examples.",
@@ -221,6 +221,102 @@
     "457 directory indexes plus404 total458; no unregistered routes.",
     "Separate final evidence review and PR/publication/receipt remain gates.",
     "Initial PR409 CI39598683863 caught a stale generated research index after the reuse-map note. Regenerated the index; no article content or search eligibility change.",
-    "CI39599035726 then caught the workbench fingerprint affected by regenerated index; regenerated the dependent workbench and checked consistency. No site or factual changes."
-  ]
+    "CI39599035726 then caught the workbench fingerprint affected by regenerated index; regenerated the dependent workbench and checked consistency. No site or factual changes.",
+    "Full build and 566/566 tests PASS; coast build and 385/385 tests PASS; limited publication 11 indexable unchanged.",
+    "Actual desktop/mobile keyboard and visual review passed; separate AI review accepted exact published candidate.",
+    "PR409 merged; approved publication succeeded; actual live HTML and desktop/mobile verified. Receipt merge required before ownership release."
+  ],
+  "review": {
+    "reviewer": "Drishti (separate AI reviewer)",
+    "input_head": "7076285d477786fe8e527fc88297782d2a38944a",
+    "base_head": "6e947832f6071ce02aa36455c027f23789f88d37",
+    "result": "PASS",
+    "findings": [
+      {
+        "severity": "minor presentation",
+        "status": "resolved in final accepted head; first markers and notes now1,2",
+        "detail": "Initial source array emitted first markers 2,1. Coordinator reordered Unicode then SCSTRTI to match first occurrence; no prose changes."
+      }
+    ],
+    "checks": [
+      "Independently inspected Unicode17 Warang Citi structure and preserved inherent-vowel qualification; original 2012 Everson proposal publication examples treated as dated evidence.",
+      "Inspected SCSTRTI profile and fresh English booklet contents/credits; article does not claim fluent validation or complete literary texts.",
+      "Visually inspected original CIIL/NCERT Ho-Odia primer PDF pages5,11,20: July2024 edition, named resource persons, printed6 bee/mango/boat/bird and faint letter forms; no copyrighted source images reproduced.",
+      "Independently read original Census Sheet1 row180: individual Ho048004, total411098, all sex/residence component counts preserved.",
+      "Source allocations including lead and notes remain below200 words per source; booklet panel included.",
+      "Exact Ho-only template/onward/population/portable opt-in; other canonical pages/assets unchanged; negative controls move to queued Juang while real Ho links remain.",
+      "Programme file byte-identical to base with112 completed items.",
+      "Rollout, team assignment, autonomous programme, workbench, research map and git diff checks passed.",
+      "Node24 focused rendered tests:44/44 PASS (ho-editorial,saora-editorial,kuvi-editorial,voices-passage-sources,living-languages,language-atlas,voices)."
+    ],
+    "tests": {
+      "focused_pass": 44,
+      "focused_fail": 0,
+      "command": "node --test tests-coast/ho-editorial.test.mjs tests-coast/saora-editorial.test.mjs tests-coast/kuvi-editorial.test.mjs tests-coast/voices-passage-sources.test.mjs tests-coast/living-languages.test.mjs tests-coast/language-atlas.test.mjs tests/voices.test.mjs",
+      "final_focused_pass": 25,
+      "final_focused_fail": 0,
+      "final_command": "node --test tests-coast/ho-editorial.test.mjs tests-coast/voices-passage-sources.test.mjs"
+    },
+    "limits": [
+      "Separate AI review, not human, fluent-language, community or field review.",
+      "Did not repeat coordinator full/coast builds or interactive browser checks; independently inspected three saved screenshots and focused rendered outputs.",
+      "Selected primer pages and source passages inspected, not all source pages or fluent translations.",
+      "Booklet fresh English text inspection is distinct from earlier selected visual inspection; no new independent booklet visual review.",
+      "Candidate review acceptance only; no publication/completion claim. Merge, approved deployment and live receipt remain coordinator gates."
+    ],
+    "initial_input_head": "18f7c1e90f7b4e56224db5daebf6411597d1e590",
+    "final_accepted_head": "7076285d477786fe8e527fc88297782d2a38944a",
+    "final_delta_checks": [
+      "Nine-file delta limited to source-array ordering, research-map reuse note, handoff evidence and six screenshots; no article prose or implementation change.",
+      "Independently viewed saved desktop-reading, mobile-hero and mobile-notes: readable paragraphs, honest typographic cover, visible numbered sources and return links, no visible clipping in sampled views.",
+      "Final fresh coast log reports385/385 PASS; independently reran25/25 Ho and shared passage-source tests against final artifact, including full portable prose and source order.",
+      "git diff --check passed; source-order issue resolved.",
+      "Reviewed Disha browser evidence1440x900/390x844, widths740/343.195, exact keyboard return and initially collapsed Further reading; these interactive checks were coordinator-performed."
+    ],
+    "prior_accepted_head": "fea77032a6942b24a666d2e41d229214447fc497",
+    "generated_index_delta_review": {
+      "result": "PASS",
+      "checks": [
+        "Only handoff CI-failure note and generated search-index changed since04bca181.",
+        "Exactly one of1504 index entries changed: methods/research-map body incorporates previously accepted reuse note (not a word-count field).",
+        "Read-only in-memory regeneration using kb_io.concepts is byte-identical to committed index.",
+        "research/validate.py PASS:1504concepts,5734local-link checks,38arithmetic checks,71preserved evidence records; git diff --check PASS."
+      ],
+      "limits": "No source, public prose, UI or eligibility change; prior factual, focused-test and screenshot reviews remain applicable. No full build repeated."
+    },
+    "workbench_delta_review": {
+      "result": "PASS",
+      "checks": [
+        "Only generated search-index fingerprint in workbench and handoff CI-failure note changed.",
+        "Independently hashed search-index; matches corrected workbench input fingerprint.",
+        "build_workbench.py --check and git diff --check PASS."
+      ],
+      "limits": "No site, prose, factual or eligibility changes; prior source, rendered and screenshot review stands. No full suite repeated."
+    }
+  },
+  "publication_receipt": "records/ho-editorial-publication-2026-10-21.json",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/409",
+  "article_pull_request": {
+    "headRefOid": "7076285d477786fe8e527fc88297782d2a38944a",
+    "mergeCommit": {
+      "oid": "960ebc48447b154fd95dc0b8cab824e19c212518"
+    },
+    "mergedAt": "2026-10-21T12:29:57Z",
+    "state": "MERGED",
+    "url": "https://github.com/ahimanikya/project-odisha/pull/409"
+  },
+  "required_checks": {
+    "conclusion": "success",
+    "databaseId": 39599399445,
+    "headSha": "7076285d477786fe8e527fc88297782d2a38944a",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39599399445"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "databaseId": 39600121605,
+    "headSha": "960ebc48447b154fd95dc0b8cab824e19c212518",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39600121605"
+  }
 }
