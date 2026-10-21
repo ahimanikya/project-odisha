@@ -1,0 +1,132 @@
+{
+  "recorded_at": "2026-10-21T15:30:50.793850+00:00",
+  "authorization": [
+    "POD-DEC-2026101702",
+    "POD-DEC-2026101901",
+    "POD-DEC-225"
+  ],
+  "work_id": "POD-WORK-302",
+  "queue_item": "POD-EDIT-072",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/415",
+  "reviewed_head": "341c181d954687b39386a0e269dbfe5134c6d924",
+  "merge_commit": "51964e2b206c5c032bd0830005d79e306b1df13f",
+  "validation": {
+    "conclusion": "success",
+    "headSha": "341c181d954687b39386a0e269dbfe5134c6d924",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39624499440"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "51964e2b206c5c032bd0830005d79e306b1df13f",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39625350150"
+  },
+  "live_checks": {
+    "checked_at": "2026-10-21T15:29:44.444887+00:00",
+    "url": "https://projectodisha.org/food/odisha-rasagola/",
+    "http_status": 200,
+    "html_sha256": "52b4943db28ec4665c7c0d87749e28e5f59c3e22f59f93dbdcdc16a445dba77b",
+    "visible_notes": 5,
+    "references": 9,
+    "exact_returns": 9,
+    "checks": {
+      "byline": true,
+      "all_prose": true,
+      "credits": true,
+      "noindex": true,
+      "notes": true,
+      "exact_returns": true,
+      "preserved_anchors": true,
+      "uncropped_photo": true,
+      "visible_update": true
+    },
+    "unchanged_sitemap_count": 11,
+    "route_inventory": {
+      "directory_indexes": 457,
+      "separate_error_page": "/404.html",
+      "unregistered_routes": [],
+      "total_registered_routes": 458
+    },
+    "browser": {
+      "checked_at": "2026-10-21T15:30:43.380Z",
+      "url": "https://projectodisha.org/food/odisha-rasagola/",
+      "desktop": [
+        1440,
+        900
+      ],
+      "mobile": [
+        390,
+        844
+      ],
+      "byline": true,
+      "visible_notes": 5,
+      "references": 9,
+      "no_horizontal_overflow": true,
+      "keyboard": "Enter note and exact return focus passed on desktop and mobile; Further reading collapsed by default and mobile Enter expands.",
+      "screenshots": [
+        "records/evidence/rasagola-editorial-2026-10-21/live-desktop.jpg",
+        "records/evidence/rasagola-editorial-2026-10-21/live-mobile.jpg"
+      ],
+      "limits": "Actual browser viewport emulation, not physical-device or screen-reader testing."
+    }
+  },
+  "test_review_and_source_mapping": "records/rasagola-editorial-team-2026-10-21.json",
+  "final_review": {
+    "reviewer": "Drishti — separate AI reviewer",
+    "article_id": "POD-EDIT-072",
+    "route": "/food/odisha-rasagola/",
+    "initial_input_head": "cb9e7883bd58f7d883453828f660fed3dfe8b2bf",
+    "input_head": "341c181d954687b39386a0e269dbfe5134c6d924",
+    "base_head": "392fa983c2ad159f036694882150f94275b72e29",
+    "result": "PASS",
+    "blocking_findings": [],
+    "findings": [
+      "Filed GI specification and OSIC newsletter are attributed as institutional evidence; unread original temple record and poem are expressly distinguished. Registration date is not presented as invention date.",
+      "Original Journal method supports hand kneading, syrup/hot-water stages and variable appearance. Original publisher study supports bounded Niali/Pahala supply and rear/side manufacture, with sample limits preserved.",
+      "Actual dated travelogue supports Pahala visit and sugar/jaggery comparison; Salepur is separately mentioned, not claimed visited.",
+      "Samanta-identified portable source-title loss is resolved: Rasagola-only title+URL dedup preserves distinct Journal and Registry titles at their shared application URL; other routes retain previous dedup behavior.",
+      "All eleven paragraphs, five concise sources, nine exact reference/return pairs, author and existing photograph rights survive rendered and portable checks. Other food authorship and WhereToEat hook retained.",
+      "Only Rasagola collection page changed; all collection asset records and autonomous programme bytes unchanged. Sole active article remains072;61completed76excluded320queued and112programme. No completion/publication asserted.",
+      "Sampled saved desktop prose and mobile cover/notes are legible without clipping. Keyboard/live geometry evidence is coordinator-performed, not independently repeated.",
+      "Nested implementation waiting-for-rebuild limits preserve Samanta historical handoff; final validation_notes explicitly supersede them with successful coordinator rebuilds."
+    ],
+    "actual_checks": [
+      "Inspected exact candidate diff, canonical prose/source map/research and scoped route/component/catalog/tests.",
+      "Independently read local original Journal/OSIC selected text; visually inspected Journal printed11 and12; SHA256 matches dossier for both original PDFs.",
+      "Independently read actual publisher study PDF text, registry application612 and tourism travelogue via web. Fresh Commons fetch failed; retained documented prior rights evidence plus original local pixels inspected.",
+      "Independently counted source-attributed body plus title/note and conservative whole lead: Journal179,OSIC164,study168,travelogue134,registry94 words; below200 per distinct document.",
+      "Node24 focused suites rasagola-editorial,odisha-roots,puri-food-editorial,visitor-experience:17/17PASS on fresh dist-coast.",
+      "article_rollout.py --check;check_team_assignments.py;check_autonomous_program.py;validate_research_map.py;registers.py --check;build_workbench.py --check: allPASS.",
+      "git diff --check392fa983..341c181dPASS; independent JSON comparison onlyRasagola page changed,allassetsunchanged;programmebytecomparisonPASS.",
+      "Viewed committed desktop-reading.jpg,mobile-cover.jpg,mobile-notes.jpg; reviewed coordinator responsive1440x900/390x844,keyboard return/disclosure evidence."
+    ],
+    "coordinator_reported_checks": [
+      "Full566/566,coast403/403,publication11indexable unchanged; actual browser responsive/keyboard checks recorded in handoff."
+    ],
+    "limits": [
+      "Separate AI review only; no human,specialist,field,maker interview,recipe test or firsthand tasting.",
+      "Original1955RecordofRights and critical DandiRamayana not inspected; institutional claims remain attributed.",
+      "No independent interactive browser,physical-device,screen-reader or live-deployment checks; screenshot review does not substitute for those.",
+      "Fresh Commons source unavailable; no refreshed rights verification claimed. Prior public-domain creator provenance retained and local pixels/hash checked.",
+      "No independent repeat of full build/full suites; focused17tests and listed validators only. No repository or Git mutations; only this temporary review file written.",
+      "PASS is integrated candidate review, not publication receipt or completion. Required CI,reviewed merge,approved deployment and live receipt remain coordinator gates."
+    ]
+  },
+  "integration_review": {
+    "head": "51964e2b206c5c032bd0830005d79e306b1df13f",
+    "result": "pass",
+    "scope": "Published merge tree identical to separately reviewed candidate."
+  },
+  "attachment_note": "PR attachment attempted; app 100-attachment limit reached; actual URL retained.",
+  "counting": "One editorial article; zero substantive 500 increment. Programme remains 112.",
+  "limitations": [
+    "Separate AI research, implementation and review; no human, field, maker interview or recipe-testing review.",
+    "The original 1955 temple record and critical literary edition remain unread; applicant reports are attributed. Small 2023 study is not a current market census. Existing photograph provenance retained; fresh Commons fetch failed.",
+    "Browser viewport emulation, not physical-device or screen-reader testing."
+  ],
+  "verified_routes": [
+    "/food/odisha-rasagola/"
+  ],
+  "receipt_integration": "Effective only after receipt PR passes required checks and merges; observed merge must be reconciled before releasing article claim."
+}
