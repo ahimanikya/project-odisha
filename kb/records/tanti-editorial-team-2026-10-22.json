@@ -3,7 +3,7 @@
   "article_id": "POD-EDIT-462",
   "programme_id": "POD-A500-116",
   "work_id": "POD-WORK-306",
-  "status": "published_receipt_integration_pending",
+  "status": "completed",
   "input_head": "0e331eaf45c426596e7f2e3c6fe627dc8ea80f49",
   "started_at": "2026-10-21T23:21:58.839523+00:00",
   "route": "/communities/tanti/",
@@ -19,7 +19,8 @@
       "runtime": "/root/anvesha",
       "scope": "Read-only source research /tmp/pod-tanti-research.json",
       "status": "completed",
-      "report": "kb/research/sources/tanti-research.json"
+      "report": "kb/research/sources/tanti-research.json",
+      "scope_released": true
     },
     {
       "name": "Samanta",
@@ -28,22 +29,25 @@
         "projects/site/src/pages/communities/tanti.astro",
         "projects/site/tests-coast/tanti-editorial.test.mjs"
       ],
-      "status": "completed"
+      "status": "completed",
+      "scope_released": true
     },
     {
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Read-only integrated source and candidate review",
-      "status": "completed"
+      "status": "completed",
+      "scope_released": true
     },
     {
       "name": "Disha",
       "scope": "Canonical narrative, shared records and sole publishing",
-      "status": "working"
+      "status": "completed",
+      "scope_released": true
     }
   ],
   "worker_reconciliation": "Chasa team completed; PR427 merge81be904a observed and no active article. Unrelated PR304/281 untouched. Existing workers reused.",
-  "next_action": "Merge reviewed receipt with passing checks, observe remote merge, then release article ownership.",
+  "next_action": "Tanti receipt merged and ownership released. On next wake reconcile workers and durable state, then select the next useful community-series subject from the evidence-based coverage index and existing KB. Establish scoped source-backed acceptance before implementation. Continue remaining editorial rollout one article at a time; do not repeat completed Paika, Khandayat, Chasa or Tanti. No active article.",
   "source_report": "research/sources/tanti-research.json",
   "review_scope": "Separate Drishti AI review; original source table and dated regional accounts; no human review.",
   "implementation": "records/tanti-implementation-2026-10-22.json",
@@ -57,6 +61,75 @@
   "counting": {
     "completed_items": 116,
     "increment": 1,
-    "basis": "Individually researched published article with live evidence; receipt integration pending."
+    "basis": "One individually researched published article; reviewed receipt merge observed."
+  },
+  "receipt_integration_observed": {
+    "pull_request": 429,
+    "reviewed_head": "443b6e7961a9bff20a46912aaa53a703b05f28da",
+    "merge_commit": "d496ab76c4de2e1998cb6870be23b0e2d9524008",
+    "merged_at": "2026-10-21T23:46:00Z",
+    "validation_run": 39695012027,
+    "validation_result": "success",
+    "review": "Drishti independently reviewed exact443b6e79 receipt and preserved prior entries; coordinator observed passing CI and actual remote merge."
+  },
+  "receipt_review": {
+    "reviewer": "Drishti, separate AI reviewer",
+    "status": "PASS",
+    "reviewed_head": "443b6e7961a9bff20a46912aaa53a703b05f28da",
+    "findings": [],
+    "record_changes": {
+      "kb/records/autonomous-500-program.json:items": {
+        "changed": [
+          "POD-A500-116"
+        ],
+        "added": []
+      },
+      "kb/records/article-editorial-rollout.json:items": {
+        "changed": [
+          "POD-EDIT-462"
+        ],
+        "added": []
+      },
+      "kb/registers/records.json:work": {
+        "changed": [
+          "POD-WORK-306"
+        ],
+        "added": []
+      },
+      "kb/registers/records.json:reviews": {
+        "changed": [],
+        "added": [
+          "POD-REV-2026102204"
+        ]
+      },
+      "kb/registers/records.json:releases": {
+        "changed": [],
+        "added": [
+          "POD-REL-2026102204"
+        ]
+      }
+    },
+    "completed_counts": {
+      "kb/records/autonomous-500-program.json": 116,
+      "kb/records/article-editorial-rollout.json": 68
+    },
+    "normalized_original_review_changed_keys": [
+      "status"
+    ],
+    "public_source_hash_changes": [],
+    "checks": [
+      "30 programme tests PASS",
+      "Register tests PASS;1132 records645 events and dashboard current",
+      "Team consistency PASS; current Tanti claim retains receipt_merge_pending true",
+      "git diff --check PASS",
+      "Original merge capture confirms PR428 merged reviewed d54b2931 as b605b733",
+      "Receipt deployment head matches merge; live HTML and browser evidence linked",
+      "Independent inspection of live desktop/mobile screenshots found no visible clipping/overlap"
+    ],
+    "limits": [
+      "CI/deployment/live interaction outcomes read from saved evidence; no fresh remote API or interactive browser replay in this receipt review.",
+      "Separate AI review is not human/community review; historical and preview limitations preserved."
+    ],
+    "repository_edits": []
   }
 }
