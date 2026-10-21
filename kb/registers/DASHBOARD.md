@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `2a5555bc0de1ed7050e72dcd1bd20dc4694c531049d2a35d429f7a93855c3713`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `a7643581f71a42ce3f4d26f62995e24e3fcc3f5174a6c07137e0c3edec3b2cfa`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -970,6 +970,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026102101 | pass_with_limitations | True | No website edit or deployment. Existing artifact tests and separately attributed live HTTP observations; no fresh local build/browser visual review.; Exclusion is a route-purpose classification, not comprehensive factual or rights certification.; Idle-state ownership test fixtures repaired; validator semantics unchanged.; Final record transcription and passing PR checks required before merge. |
 | POD-REV-2026102102 | pass_with_limitations | True | Separate AI research, implementation and review, not human, fluent-language or field review.; Booklet credits/table evidence retains1October inspection; fresh retrieval failed21October. No pronunciation review or Nalha poem interpretation.; Browser emulation, not physical-device or screen-reader testing. |
 | POD-REV-2026102103 | pass_with_limitations | True | Separate AI research, implementation and review; not human, fluent-language or field review.; Tahii catalogue and2018booklet retain1October inspection after fresh retrieval failures; no plot or vocabulary translation inferred.; Browser viewport emulation, not physical-device or screen-reader testing. |
+| POD-REV-2026102104 | pass_with_limitations | True | Separate AI research, implementation and review; not human, fluent-language or field review.; 2018 booklet retains 1 October inspection after fresh retrieval failure; folk texts not inspected and no translation or primer date invented.; Browser viewport emulation, not physical-device or screen-reader testing. |
 
 ## Publication and application history
 
@@ -1180,6 +1181,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026102018 · Chandipur meal and dated fishing context | published | https://projectodisha.org/food/balasore/ | POD-DEC-225 |
 | POD-REL-2026102101 · Santali language, script and reading practice | published | https://projectodisha.org/languages/santali/ | POD-DEC-225 |
 | POD-REL-2026102102 · Kui learning pages and contributors | published | https://projectodisha.org/languages/kui/ | POD-DEC-225 |
+| POD-REL-2026102103 · Kuvi speech-to-print reading and learning practice | published | https://projectodisha.org/languages/kuvi/ | POD-DEC-225 |
 
 ## Sources and assets
 
@@ -1217,7 +1219,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261020013 | 2026-10-20T14:47:20.257840+00:00 | Published and live-verified POD-EDIT-055 Mayurbhanj Chhau via PR377 and approved deployment39441642691. Training recollection, named works, artists and teaching initiative with four visible notes and complete portable reading;48 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261020014 | 2026-10-20T15:39:16.509626+00:00 | Published and live-verified POD-EDIT-056 Balasore and Chandipur stay via PR379 and approved deployment39449584921. Concrete overnight scenarios, two area comparisons and two visible notes and complete portable reading;49 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261020015 | 2026-10-20T17:28:27.332519+00:00 | Published and live-verified POD-EDIT-057 Similipal stay via PR384 and approved deployment39465385552. Concrete overnight scenarios, three base comparisons and three visible notes and complete portable reading;51 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261020016 | 2026-10-20T19:31:28.424787+00:00 | Published and live-verified POD-EDIT-058 Chhena Poda via PR389 and approved deployment39483525378. Concrete cooking comparisons, attributed origin limits, three visible notes and complete portable reading;52 editorial entries complete, substantive programme112 unchanged. | — |
@@ -1227,6 +1228,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261021002 | 2026-10-21T02:49:46.144037+00:00 | PR399 exact separately accepted head passed validation39534590666 and merged at2026-10-21T02:48:42Z. Four individual utility exclusions applied; no deployment required.54 articles and112 programme items unchanged. Classification ownership released; application evidence in records/planning-hub-application-2026-10-21.json | — |
 | POD-EVT-20261021003 | 2026-10-21T04:45:08.880876+00:00 | Santali article065 published after actual source research, implementation, separate AI review, passing tests, responsive/keyboard checks, PR401 and approved deployment39545275532. Live receipt verified; ownership retained through receipt integration.55articles complete;112programme items unchanged. | — |
 | POD-EVT-20261021004 | 2026-10-21T09:52:43.058094+00:00 | Kui article066 published after source research, implementation, separateAI review, passing tests, responsive/keyboard checks, PR403 and approved deployment. Actual live receipt verified; ownership retained through receipt integration.56articles complete;112programme items unchanged. | — |
+| POD-EVT-20261021005 | 2026-10-21T10:25:18.032748+00:00 | Kuvi article067 published after source research, implementation, separate AI review, passing tests, responsive/keyboard checks, PR405 and approved deployment. Actual live receipt verified; ownership retained through receipt integration. 57 articles complete; 112 programme items unchanged. | — |
 
 ## Deferred extensions
 
