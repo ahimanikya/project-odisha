@@ -8969,18 +8969,21 @@
       "id": "POD-WORK-305",
       "title": "Research and publish Chasa community history",
       "category": "website_and_knowledge",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti AI review",
       "authorization": "POD-DEC-225",
-      "next_action": "Investigate Chasa sources and prepare one evidence-grounded article; do not force publication if material is inadequate.",
+      "next_action": "Retain claim through receipt merge before the next article.",
       "blockers": [],
       "refs": [
-        "POD-DEC-225"
+        "POD-DEC-225",
+        "POD-REV-2026102203",
+        "POD-REL-2026102203"
       ],
       "evidence": [
-        "records/chasa-editorial-team-2026-10-22.json"
+        "records/chasa-editorial-team-2026-10-22.json",
+        "records/chasa-editorial-publication-2026-10-22.json"
       ]
     }
   ],
@@ -21961,6 +21964,31 @@
         "Some chapter text has font corruption; only legible narrow claims adopted. Original census/service manuscripts not independently read.",
         "No current legal status, caste rank or wedding Haldi origin inferred; search eligibility unchanged."
       ]
+    },
+    {
+      "id": "POD-REV-2026102203",
+      "title": "Separate Chasa source and integrated article review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human historian or community review.",
+      "reviewed_head": "4ea68ace84ea7905230e8cf691814e004d4a02c8",
+      "refs": [
+        "POD-WORK-305",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/chasa-delivery-review-2026-10-22.json"
+      ],
+      "limitations": [
+        "Separate AI review, no human community review or field observation.",
+        "Penthabahal evidence is a historical village snapshot, not current conditions or an all-Odisha branch map.",
+        "Shared rice rituals are not exclusive Chasa customs; no universal origin, innate rank or current legal classification.",
+        "Exact Odia spelling and further regional history remain open; search eligibility unchanged."
+      ]
     }
   ],
   "releases": [
@@ -25486,6 +25514,22 @@
         "records/khandayat-editorial-publication-2026-10-22.json"
       ],
       "note": "Reviewed PR424, passing CI, approved deployment and live checks. One substantive article; search eligibility unchanged."
+    },
+    {
+      "id": "POD-REL-2026102203",
+      "title": "Chasa cultivation and community history",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/communities/chasa/",
+      "refs": [
+        "POD-WORK-305",
+        "POD-REV-2026102203",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/chasa-editorial-publication-2026-10-22.json"
+      ],
+      "note": "Reviewed PR426, passing CI, approved deployment and live checks. One substantive article; search eligibility unchanged."
     }
   ],
   "sources": [
