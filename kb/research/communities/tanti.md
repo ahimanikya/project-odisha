@@ -11,4 +11,4 @@ No universal founder, earliest attestation, exhaustive branch map, contemporary 
 
 Text-first: existing Khandua imagery has rights, but no verified Tanti-specific maker connection. No photograph is assigned a caste identity. No fieldwork or human community review is claimed.
 
-POD-EDIT-462; POD-A500-116; POD-WORK-306. Candidate in progress; publication requires separate review, tests, deployment and live receipt.
+POD-EDIT-462; POD-A500-116; POD-WORK-306. Published with separate AI review, tests, approved deployment and [live receipt](../../records/tanti-editorial-publication-2026-10-22.json). Further local and community evidence remains open.

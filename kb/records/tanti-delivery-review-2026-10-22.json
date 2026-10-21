@@ -1,0 +1,99 @@
+{
+  "reviewer": "Drishti",
+  "review_type": "separate AI review; not human review",
+  "status": "pass_with_limitations",
+  "input_head": "99ac43b454f165fb22eb9be748deacc9595eb027",
+  "reviewed_head": "d54b29314288f18835040b7621efdb8ab1d14742",
+  "reviewed_at": "2026-10-21T23:28:53.611497+00:00",
+  "findings": [],
+  "blockers": [],
+  "source_checks": [
+    "Independently visually inspected Census reprint printed172/PDF216: Tanti, Tantravaya and Weaver align in the table. Original1825 edition not inspected; page169 attribution inspected in extracted text. Article explicitly uses later reprint and does not make first-attestation or community-foundation claim.",
+    "Bhadrak original PDF54–55/printed38–39 extracted entry independently inspected: Aswini Tanti occupational change and colonial-policy argument correctly attributed as retrospective, without universal current loss-of-skill claim. Front matter independently confirms compilation beginning2015; publication year not conflated with compilation.",
+    "Global InCH original capture preview independently inspected for Gunjan Jain/January2015, Kabiraj identification as Patra Tanti and Vaishnav, home pitloom, seven-to-ten-day sari, slower earnings growth and departing village weavers. Web fetch failed cache miss; saved original HTML/text inspected instead. Subscriber remainder not accessed.",
+    "Regional examples are not declared exhaustive branches or shared ancestry; no current legal classification, innate rank or general all-weavers caste identity.",
+    "No caste identity inferred from surnames or existing photographs; source-specific named identification is attributed."
+  ],
+  "source_budgets_including_section_headings_titles_notes": {
+    "tanti-stirling1825-census1961": 148,
+    "chasa-bhadrak-gazetteer": 165,
+    "tanti-jain-bomkai2015": 188
+  },
+  "integration_checks": [
+    "Canonical paragraphs, numbered footnotes, Founder byline, related reading, correction and portable reading mapping retain established layout.",
+    "New route, discovery entry and journey entry are scoped additions; search-candidate route explicitly held.",
+    "Meaningful subject addresses inherited work and identity through two concrete regional examples; rejects invented single founder and origin date while retaining local heritage significance.",
+    "Final delta since be023406 consists only of implementation report, handoff and reviewed word-boundary test fix. Public article/source/page hashes unchanged."
+  ],
+  "tests": [
+    {
+      "check": "git diff --check",
+      "result": "PASS"
+    },
+    {
+      "check": "full test log",
+      "result": "566/566 PASS"
+    },
+    {
+      "check": "coast test log",
+      "result": "430/430 PASS"
+    },
+    {
+      "check": "publication log",
+      "result": "PASS;11 indexable"
+    }
+  ],
+  "limits": [
+    "Independently inspected three supplied desktop/mobile screenshots and passing logs; browser interactions attested by Samanta, not repeated by Drishti. No physical-device or human review.",
+    "Independent original PDF table visual review done; Bhadrak entry checked by extraction.",
+    "No human historian/community review or field confirmation; no exhaustive regional history or current craft-status survey.",
+    "Source wording and page boundaries support adopted claims, not the broader colonial causal explanation; original1825 edition and subscription remainder uninspected."
+  ],
+  "file_sha256": {
+    "kb/catalog.json": "b167bcee2a25015f5854da35e0ce97577bedc2c7aa2df5996e6cedd65cefb57a",
+    "kb/records/editorial-workbench.json": "cd02830f7a6b2e46695f6a4af3fe9241645272f0c1a26b72a86d0e120f21a70b",
+    "kb/records/tanti-editorial-team-2026-10-22.json": "b53a6c182ade1a4df1cfaa055805b36587a7b62d1457e8677bb7c5b19415fca2",
+    "kb/records/tanti-implementation-2026-10-22.json": "9fc42d71d4baded44e43654865dcd7bf8a85dd821276da5fb1c582b1dba710db",
+    "kb/research/communities/coverage-index.json": "7fa7d72fe412fc5f7ca1a1b89105039749de0eca975e1211427b6efc3cc18e36",
+    "kb/research/communities/index.md": "d6db9c48f56888f9e8cd8683a69b2a06f09094aa99979b875c42d5c91781227c",
+    "kb/research/communities/tanti.json": "cae3af65d360187834b020fb9ef0118d2426a1f843294dcddd7fcd5bfc559f27",
+    "kb/research/communities/tanti.md": "e0fe3dd465a940b3c37401546f6bb24229b45f2ecdaa7125f64a06cbf8c6b5be",
+    "kb/research/methods/research-map.md": "b7d4cdd56fe7d79b6cba223a5c20d51a8a3466b9c97d13ecfb02a7659ed1f3fc",
+    "kb/research/search-index.json": "38f512b7a342c45fa2478c2220b30146ce938ff5b1f136b406c4bfb99582b743",
+    "kb/research/sources/tanti-research.json": "d6bb8cc6e7130ddafdfca94655e09569b146c63ffb6a239df333549e88683b7d",
+    "kb/team/operations.json": "0bd79855cb807268cd8ade715c134196a50843b1c49725ed98f88ce81b1170da",
+    "projects/site/editions/coast.json": "ca36d60b1dfbe985e4a22bc728e6dcdece36527432554abf664deee8dce7aeff",
+    "projects/site/editions/search-candidate.json": "9370f6bdcd97ed2860f8e46e65ebe7e0365bcb98d5038500c67c4e7dcd8053ef",
+    "projects/site/src/data/discovery.ts": "9b42c6a5381f1eb0d6464b8116d6238b2f280df831dfd7219cb0df7a6ad6da37",
+    "projects/site/src/data/journey-catalog.ts": "98ffce8664797276a838b484a3e2ef10f62f89ac5aad682eb5afdae704e3cfe0",
+    "projects/site/src/pages/communities/tanti.astro": "f17e2040a728d10c0d1965de2724dc1e02c2ae4fcede6f2d41c5c0a5f94868b9",
+    "projects/site/tests-coast/cuttack-literature.test.mjs": "cf19a3a345b813cb1e21679f81acc69fd42b1f6184b810f48dce055a41fd422e",
+    "projects/site/tests-coast/discovery-flow.test.mjs": "ef3499837018f770a1ef67bc96ded2511d596828805bb779b26014aceae09c48",
+    "projects/site/tests-coast/edition.test.mjs": "d684c2309d5f2c63176153635b93d1f2a3614db92be6ffc9b39f7645fc060baf",
+    "projects/site/tests-coast/poetry-jhula.test.mjs": "86e9cea59ce9836d4afba3c5717dda723470dc911fa94a65df4df69162926f9b",
+    "projects/site/tests-coast/tanti-editorial.test.mjs": "d6e412234a2ed8229aa0584cf74c802f5f09855a2896008c610c0294723ece3a",
+    "projects/site/tests/build.test.mjs": "08c8937915419c6bd7bc16e97bc4f4b4f0b26ad961466c102b1fe645173eb8b6"
+  },
+  "repository_edits": [],
+  "resolved_failures": [
+    "First coast run429/430 failed when retired brand Kabira matched named maker Kabiraj in portable catalog. Reviewed word-boundary correction preserves standalone brand rejection; subsequent430/430 pass."
+  ],
+  "visual_review": {
+    "status": "PASS",
+    "inspected": [
+      "/tmp/pod-tanti-desktop.png",
+      "/tmp/pod-tanti-mobile.png",
+      "/tmp/pod-tanti-mobile-body.png"
+    ],
+    "finding": "Readable headings, byline, lead, save button, body and numbered footnotes; no visible clipping or overlap at supplied desktop/mobile viewports."
+  },
+  "program_item": "POD-A500-116",
+  "work_id": "POD-WORK-306",
+  "authorization": "POD-DEC-225",
+  "verification": {
+    "sources": "Separate original table visual review and regional source checks; preview limits and word budgets",
+    "implementation": "566 full and430coast tests; desktop/mobile visual and interaction checks",
+    "ci": "39693886900 succeeded on reviewed d54b2931"
+  },
+  "normalization": "Disha linked separate AI PASS to programme fields, preserving original findings and limits; no human review asserted."
+}
