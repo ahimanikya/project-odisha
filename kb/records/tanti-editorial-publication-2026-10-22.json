@@ -1,0 +1,84 @@
+{
+  "recorded_at": "2026-10-21T23:40:30.497590+00:00",
+  "authorization": "POD-DEC-225",
+  "program_item": "POD-A500-116",
+  "work_id": "POD-WORK-306",
+  "queue_item": "POD-EDIT-462",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/428",
+  "reviewed_head": "d54b29314288f18835040b7621efdb8ab1d14742",
+  "merge_commit": "b605b7336e24df7cd9069852ca74f4fcafc81006",
+  "validation": {
+    "conclusion": "success",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39693886900"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "b605b7336e24df7cd9069852ca74f4fcafc81006",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39694409037",
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "review": "records/tanti-delivery-review-2026-10-22.json",
+  "live": {
+    "result": "PASS",
+    "checked_at": "2026-10-21T23:39:37.739164+00:00",
+    "url": "https://projectodisha.org/communities/tanti/",
+    "html_sha256": "80cb31b7a925800e0c1ca0d25561e7da69ea99fa51b2ed8ac85e77f34850bcbd",
+    "checks": [
+      "All canonical prose matches",
+      "Founder byline",
+      "Three visible source note targets",
+      "noindex preserved"
+    ]
+  },
+  "live_browser": {
+    "worker": "Samanta, AI implementation agent",
+    "input_head": "b605b7336e24df7cd9069852ca74f4fcafc81006",
+    "deployment": "39694409037",
+    "status": "pass",
+    "url": "https://projectodisha.org/communities/tanti/",
+    "desktop": {
+      "byline": true,
+      "collapsed": true,
+      "notes": 3,
+      "readingWidth": 740,
+      "robots": "noindex, follow",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "mobile": {
+      "readingWidth": 390,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    "footnote": {
+      "active": "note-tanti-stirling1825-census1961",
+      "hash": "#note-tanti-stirling1825-census1961"
+    },
+    "return": {
+      "active": "ref-recorded-name-0-tanti-stirling1825-census1961",
+      "hash": "#ref-recorded-name-0-tanti-stirling1825-census1961"
+    },
+    "disclosure": "Collapsed by default; expands on click",
+    "explore": "Named Tanti card opens canonical article",
+    "screenshots": [
+      "/tmp/pod-tanti-live-desktop.png",
+      "/tmp/pod-tanti-live-mobile.png"
+    ],
+    "limits": [
+      "Read-only browser verification; no production Save action.",
+      "No repository edits.",
+      "Deployment head supplied by coordinator; rendered behavior verified."
+    ]
+  },
+  "verified_routes": [
+    "/communities/tanti/"
+  ],
+  "limits": [
+    "Separate AI review; no human community review or field observation.",
+    "Dated regional Aswini Tanti and named Bomkai Patra Tanti accounts do not establish universal ancestry, exhaustive branches or a founder.",
+    "Jain2015 public preview only; livelihood conditions are historical, not current.",
+    "No all-weaver caste equivalence, innate rank or current legal classification; search eligibility unchanged."
+  ]
+}

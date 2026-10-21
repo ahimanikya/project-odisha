@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-21T23:21:58.839523+00:00",
+  "updated_at": "2026-10-21T23:40:30.497590+00:00",
   "authorization": "POD-DEC-2026101702",
   "work_id": "POD-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -6924,15 +6924,26 @@
       "id": "POD-EDIT-462",
       "route": "/communities/tanti/",
       "title": "Tanti: weaving and community histories",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "Tanti histories in Odisha: weaving occupation and community names, regional distinctions, documented formation versus origin accounts, inherited craft and change. Do not merge all weaving communities or treat administrative grouping as ancestry.",
       "source_template": "projects/site/src/pages/communities/tanti.astro",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
-        "records/tanti-editorial-team-2026-10-22.json"
+        "records/tanti-editorial-team-2026-10-22.json",
+        "records/tanti-editorial-publication-2026-10-22.json"
       ],
       "blocker": null,
-      "started_at": "2026-10-21T23:21:58.839523+00:00"
+      "started_at": "2026-10-21T23:21:58.839523+00:00",
+      "completed_at": "2026-10-21T23:40:30.497590+00:00",
+      "publication_receipt": "records/tanti-editorial-publication-2026-10-22.json"
     }
   ]
 }
