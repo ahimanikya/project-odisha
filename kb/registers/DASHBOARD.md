@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `fa817789c7e5d8aff2de87fd01e2d033686200a2fe53774860481c1153916b32`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `3439922c594c0662bae90e91a9e22fcabd6663475437a6749afc81ce846c49f5`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -328,6 +328,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026101902 · Migrate Project Odisha identifiers to POD with traceable UTP aliases | completed | applied | Ahimanikya Satapathy | Use canonical POD IDs and exact historical aliases; migration integrated. | — |
 | POD-WORK-2026101903 · Reconcile and migrate the Odisha project family | completed | reviewed | Ahimanikya Satapathy | Use canonical Odisha family IDs and exact historical aliases; no duplicate records. | — |
 | POD-WORK-303 · Research and publish Paika service, community and Odia heritage | completed | published | Ahimanikya Satapathy | Retain article ownership through observed receipt integration, then build community coverage index and select next evidence-backed community history. | — |
+| POD-WORK-304 · Research and publish Khandayat community history | in_progress | draft | Ahimanikya Satapathy | Research and prepare one Khandayat article; no credit before publication receipt. | — |
 
 ## Pending human review and decisions
 
