@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-21T13:09:07.725430+00:00",
   "article_id": "POD-EDIT-070",
   "route": "/languages/juang/",
-  "status": "published_receipt_pending_integration",
+  "status": "completed_receipt_integrated",
   "input_head": "29997cd43c7e8f08814a1b7f7a03a2498e628d33",
   "authorization": [
     "POD-DEC-2026101702",
@@ -16,7 +16,7 @@
     "Reference reading rhythm, exact keyboard returns, preserved learning credits and Census scope",
     "Separate AI review, meaningful tests, desktop/mobile checks, merged reviewed PR, approved deployment, live verification and merged receipt"
   ],
-  "ownership": "Disha retains claim through receipt integration.",
+  "ownership": "Released after receipt PR412 merge observed.",
   "executions": [
     {
       "name": "Anvesha",
@@ -74,7 +74,7 @@
         "kb/research/voices/juang-research-2026-10-21.json",
         "shared records and publishing"
       ],
-      "status": "working"
+      "status": "complete"
     }
   ],
   "counting": {
@@ -89,7 +89,7 @@
     "observed_at": "2026-10-21T13:09:07.725430+00:00"
   },
   "worker_reconciliation": "All three existing workers observed completed from Ho; reuse without spawning duplicates. Open PR304 weekly data and281 Ashoka preserved.",
-  "next_action": "Integrate the independently reviewed receipt after required checks and observed merge before releasing Juang.",
+  "next_action": "Juang complete; next queued article may be claimed.",
   "existing_article_audit": {
     "url": "https://projectodisha.org/languages/juang/",
     "findings": [
@@ -325,5 +325,12 @@
       "No site rebuild or full tests repeated for records-only changes; prior selected-source and test limits remain.",
       "Receipt merge is not yet observed; claim release remains gated on actual integration."
     ]
+  },
+  "receipt_integration": {
+    "pull_request": 412,
+    "reviewed_head": "64b100abf22c63fb3b8ac294c76172d522178124",
+    "merge_commit": "770a675b5259f3408466894a807b588f5a72f7f4",
+    "merged_at": "2026-10-21T13:35:16Z",
+    "observed_at": "2026-10-21T14:09:18.848263+00:00"
   }
 }
