@@ -410,9 +410,10 @@
     },
     "food-tourism": {
       "title": "The Taste of Odisha",
-      "url": "https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html",
-      "inspection": "Institutional overview, Enduri and Poda Pitha headings; reused saved capture checked 1 October 2026. Festival associations do not establish universal household practice.",
-      "research_source_id": "food-tourism"
+      "url": "https://apps.odishatourism.gov.in/the-taste-of-odisha",
+      "inspection": "Institutional overview, Enduri and Poda Pitha headings; reused saved capture checked 1 October 2026. Festival associations do not establish universal household practice. 21 October 2026: successor page inspected by separate AI researcher; prior URL returned 404.",
+      "research_source_id": "food-tourism",
+      "previous_url": "https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html"
     },
     "food-crri-rice2015": {
       "title": "Traditional Rice Foods: The Rich Heritage of India — Lipi Das",
@@ -558,6 +559,12 @@
       "url": "https://ndpublisher.in/admin/issues/EAv68n5z11.pdf",
       "checked_on": "2026-10-21",
       "inspection": "Original publisher PDF full extracted text read through web tool; local TLS curl timed out; no local hash or visual layout claim. Study small and fieldworkdates notspecified; not current market census. PaperGI date19February2019 contradicted by primaryRegistry29July2019. 10kg at150–200 perkg calculation incorrectly reported3000–4000; excludeprices/revenues andprojectedregionaltotals. Percentages45/30 among10retailers denominator unclear; omit. Spoiled-product repurposing claim not adopted as established practice or food guidance; p2306 says spoiled,p2307 before spoiled. No product safety,storage,shelf-life orcurrentvendor guarantee."
+    },
+    "osha-kanji-sarangi2018": {
+      "title": "Namita Sarangi · ଓଡିଆ ଘରେ ‘ଶୀତ ଋତୁ’ (2018)",
+      "url": "https://samadhwani.com/1311",
+      "inspection": "Original authoredOdiaarticle freshactualwebtextread; author/date at132–134; selected adjacentparagraphs172–173.",
+      "research_source_id": "osha-kanji-sarangi2018"
     }
   },
   "pages": [
@@ -1041,7 +1048,7 @@
       "slug": "enduri-pitha",
       "title": "Enduri pitha",
       "odia": "ଏଣ୍ଡୁରି ପିଠା",
-      "lead": "A leaf folds around a sweet centre. Open it slowly; there is a whole food story inside.",
+      "lead": "Enduri brings the leaf, the filling and the occasion into the same parcel. Looking at how it is prepared helps explain why the leaf matters.",
       "area": "Across Odisha",
       "planning_area": "Across Odisha",
       "regions": [
@@ -1049,77 +1056,87 @@
       ],
       "hero": "enduri-pitha",
       "save_id": "food:enduri-pitha",
-      "checked_on": "2026-10-01",
+      "checked_on": "2026-10-21",
       "sections": [
         {
           "id": "taste",
           "title": "Begin with the leaf",
           "paragraphs": [
             {
-              "text": "Look at the photograph: pale pitha, a dark filling, a green leaf waiting to fold. Before you ask how to make it, ask what the leaf brings to the experience.",
-              "source_ids": [],
-              "kind": "editorial_invitation"
-            },
-            {
-              "text": "Odisha Tourism introduces Enduri as a turmeric-leaf pitha with coconut and jaggery, associated with Prathamastami. The leaf belongs to the preparation, not simply the presentation.",
+              "text": "Turmeric leaf gives Enduri more than its wrapper. Odisha Tourism singles out its aroma alongside the coconut-and-jaggery filling. The leaf is part of what the dish offers before the first bite.",
               "source_ids": [
                 "food-tourism"
               ],
-              "kind": "sourced_summary"
+              "locator": "The Taste of Odisha, Enduri Pitha heading, line304"
+            },
+            {
+              "text": "When a parcel is opened, take a moment to look at the leaf and the pitha separately. Then notice the filling. A photograph can show their arrangement; it cannot tell you everything that went into this particular preparation.",
+              "source_ids": [],
+              "kind": "original reader invitation"
             }
           ]
         },
         {
           "id": "origin",
-          "title": "A festival, a family, a parcel",
+          "title": "A parcel in a family celebration",
           "paragraphs": [
             {
-              "text": "Prathamastami gives this dish a place in Odisha’s festival food calendar in the tourism account. That association is a beginning for conversation; it does not tell us how every family observes the occasion.",
+              "text": "In her January 2018 account of winter observances, Namita Sarangi places Enduri within Prathamastami’s attention to the eldest child. She describes bathing and dressing the child in new clothes from the maternal home, then offering turmeric-leaf Enduri with other foods to Sasthi before bandapana. The parcel belongs to an occasion involving clothing, food and blessings, not just a seasonal menu.",
               "source_ids": [
-                "food-tourism"
+                "osha-kanji-sarangi2018"
               ],
-              "kind": "sourced_summary"
+              "locator": "Original Odia paragraph beginning Margasira Krishna Ashtami, web172, before Kanji Anla transition"
             },
             {
-              "text": "Ask someone who makes it: who taught you, who opens the first parcel, and what do you remember about that kitchen? Let their answer carry a name and a place of its own.",
-              "source_ids": [],
-              "kind": "editorial_invitation"
+              "text": "Sarangi also names Enduri among the preparations for Manabasa, the Lakshmi observance described in the next paragraph. Its strong Prathamastami association is therefore not an only-on-that-day rule. Her essay records a particular cultural description; it does not establish when Enduri began or how every household makes it.",
+              "source_ids": [
+                "osha-kanji-sarangi2018"
+              ],
+              "locator": "Manabasa paragraph web173, offering list contains ଏଣ୍ଡୁରି"
             }
           ]
         },
         {
           "id": "making",
-          "title": "Steam does the quiet work",
+          "title": "What happens inside the parcel",
           "paragraphs": [
             {
-              "text": "In Lipi Das’s 2015 ICAR-CRRI compilation, the Enduri/Haldi Patra entry describes rice–black-gram batter, a coconut/paneer filling and turmeric leaves. The wrapped parcels are steamed. This is one documented preparation, with a dairy ingredient that a photograph alone would not reveal.",
+              "text": "Lipi Das’s 2015 ICAR-CRRI compilation documents a rice–black-gram batter that is left to ferment. It is spread on turmeric leaves, with filling in the centre, before the leaves are folded. This version combines grated coconut and paneer with jaggery or sugar, cardamom and pepper. The dairy ingredient is easy to miss if you know the dish only through its appearance.",
               "source_ids": [
                 "food-crri-rice2015"
               ],
-              "kind": "sourced_summary"
+              "locator": "Printed19/PDF30 ingredients and Method firsttwo paragraphs"
             },
             {
-              "text": "Follow the sequence in your mind: batter, filling, leaf, steam, opening. This is a way to notice the dish, not a tested recipe with quantities and timings.",
-              "source_ids": [],
-              "kind": "editorial_invitation"
+              "text": "The book gives two steaming arrangements: a steamer, or a wide pot with muslin tied across its mouth. The parcels sit on the cloth beneath a lid. The second arrangement makes the work of the vessel clear: water below, supported parcels above, steam enclosed around them.",
+              "source_ids": [
+                "food-crri-rice2015"
+              ],
+              "locator": "Printed19/PDF30 Method lastparagraph; explanatory restatement not testedengineering advice"
+            },
+            {
+              "text": "Das’s preface credits women of Ananya Mahila Bikas Samiti in Sankilo, Cuttack, among the contributors to the compilation. The book combines primary and secondary information; it does not identify this particular Enduri preparation with one named household.",
+              "source_ids": [
+                "food-crri-rice2015"
+              ],
+              "locator": "PDF6 Preface; avoid attributing Enduri specifically togroup/village"
             }
           ]
         },
         {
           "id": "try",
-          "title": "Take a question to the table",
+          "title": "Ask about this version",
           "paragraphs": [
             {
-              "text": "Ask the maker what is inside this version, whether it contains dairy or other ingredients you avoid, and when it was prepared. The documented paneer filling is a reason to check rather than assume.",
-              "source_ids": [
-                "food-crri-rice2015"
-              ],
-              "kind": "sourced_summary"
+              "text": "Ask the maker what is inside this version, and who taught them to prepare it. Let their answer carry its own name and place.",
+              "source_ids": [],
+              "locator": "Printed19 filling supports initial question; remainder original enquiry invitation",
+              "kind": "original enquiry invitation, grounded by preceding sourced ingredient account"
             },
             {
-              "text": "Save Enduri as a food to seek out. We have not reviewed a kitchen or confirmed where it is available today. If a family welcomes your curiosity, ask before photographing their food or sharing their story.",
+              "text": "If someone is preparing Enduri for an observance, ask how they would like the occasion and food to be described. Make any visit or purchase arrangement directly. A festival association is a reason to enquire, not a promise that a parcel will be waiting.",
               "source_ids": [],
-              "kind": "editorial_invitation"
+              "kind": "original practical invitation; no availability or household access implied"
             }
           ]
         }

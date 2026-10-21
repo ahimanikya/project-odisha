@@ -1,0 +1,108 @@
+{
+  "recorded_at": "2026-10-21T17:16:35.616687+00:00",
+  "article_id": "POD-EDIT-074",
+  "route": "/food/enduri-pitha/",
+  "status": "candidate_ready_for_pr",
+  "input_head": "fd3b0220afa598199b6772955095e4eb34223db3",
+  "authorization": [
+    "POD-DEC-2026101702",
+    "POD-DEC-2026101901",
+    "POD-DEC-225"
+  ],
+  "central_question": "What does the turmeric leaf do in Enduri pitha, and how do documented preparations connect with Prathamastami without becoming one universal recipe?",
+  "scope": "Individually deepen existing Enduri article; preserve actual photo and rights, inspect food technique and festival evidence.",
+  "acceptance": [
+    "Concrete sourced technique and festival examples, honest variations and source limits.",
+    "Numbered notes, full portable prose, retained reading paths and image rights; separate AI review, tests, responsive review, merged PR, approved publication, live checks and integrated receipt."
+  ],
+  "ownership": "Disha retains claim through receipt integration.",
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only bounded research; temporary report only.",
+      "status": "recovery_validation_complete"
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/pages/food/[slug].astro",
+        "projects/site/src/components/EnduriArticle.astro",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/tests-coast/enduri-editorial.test.mjs",
+        "projects/site/tests-coast/bose-editorial.test.mjs",
+        "projects/site/tests-coast/rasagola-editorial.test.mjs",
+        "projects/site/tests-coast/chhena-poda-editorial.test.mjs",
+        "projects/site/tests-coast/mudhi-mansa-editorial.test.mjs",
+        "projects/site/tests-coast/chandipur-meal-editorial.test.mjs",
+        "projects/site/tests-coast/pitha.test.mjs"
+      ],
+      "status": "full_coastal_414_pass",
+      "scope_note": "Three additional prior-article suites may move only their obsolete untouched Enduri negative controls to queued Poda Pitha; no other article changes."
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Read-only separate integrated candidate review.",
+      "status": "separate_AI_source_review_pass"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": [
+        "kb/research/food/collection.json Enduri page and relevant source fields only",
+        "kb/research/food/enduri-pitha.md",
+        "kb/research/food/enduri-editorial.json",
+        "kb/research/food/enduri-research-2026-10-21.json",
+        "shared records and publication"
+      ],
+      "status": "working"
+    }
+  ],
+  "counting": {
+    "substantive500": 112,
+    "increment": 0
+  },
+  "worker_reconciliation": "Actual inventory shows all prior assignments complete. Reuse three existing workers. Other open PR304 and281 untouched.",
+  "previous_integration": {
+    "pull_request": 418,
+    "head": "f23670b4068d5d5f34949dab6a7d9ffcc7333e11",
+    "merge_commit": "fd3b0220afa598199b6772955095e4eb34223db3",
+    "merged_at": "2026-10-21T17:13:36Z",
+    "observed_at": "2026-10-21T17:16:35.616687+00:00"
+  },
+  "next_action": "Complete responsive review, commit reviewed candidate, PR checks, merge, approved publication and receipt integration. Then prioritize Paika per Founder continuation-chat instruction before remaining queued entries.",
+  "runtime_recovery": "2026-10-21 continuation chat: old source turn interrupted; read_thread confirms Anvesha and Samanta completed and their reports exist. Current tree has only new root before recreation. Existing uncommitted scaffold preserved. Open PRs 304 and 281 unrelated; leave untouched.",
+  "latest_founder_direction": {
+    "source": "Continuation chat 21 October 2026",
+    "priority": "Begin community series with Paika, then research Odisha castes and communities, their origins and formation. Odia identity and inherited customs central; distinguish documented local heritage from recent adoption and avoid unsupported origin assertions.",
+    "application": "Finish already-owned Enduri candidate; select Paika next without overlapping active article claims. No new delivery credit for this direction."
+  },
+  "image_review": {
+    "reviewer": "Disha, AI",
+    "finding": "Original 1600x1067 photograph visually inspected: opened filled pitha, green leaves and wrapped parcel clearly represented; retain original asset and rights; no new image needed.",
+    "human_review": false
+  },
+  "responsive_review": {
+    "reviewer": "Samanta, separate AI implementation agent; screenshots also inspected by Disha",
+    "widths": [
+      1440,
+      390
+    ],
+    "result": "PASS",
+    "evidence": "records/enduri-implementation-recovery-2026-10-21.json"
+  },
+  "ci_recovery": [
+    {
+      "run": 39651373214,
+      "failure": "Stale generated editorial-workbench input hashes",
+      "resolution": "Regenerated in 2325b1f0; subsequent CI passed this gate."
+    },
+    {
+      "run": 39651711389,
+      "failure": "Legacy pitha test expects obsolete human-review-pending boilerplate on revised Enduri",
+      "resolution": "Corrected Enduri expectation; unchanged Poda remains checked. Full coastal suite414 passed."
+    }
+  ]
+}

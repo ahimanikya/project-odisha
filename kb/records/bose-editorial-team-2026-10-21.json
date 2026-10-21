@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-21T16:06:44.627670+00:00",
   "article_id": "POD-EDIT-073",
   "route": "/people/subhas-chandra-bose/",
-  "status": "published_receipt_pending_integration",
+  "status": "completed_receipt_integrated",
   "input_head": "ceadbe0eb1a633530d91f0f32968adb6642feea8",
   "authorization": [
     "POD-DEC-2026101702",
@@ -66,7 +66,7 @@
     "merged_at": "2026-10-21T15:41:35Z",
     "observed_at": "2026-10-21T16:06:44.627670+00:00"
   },
-  "next_action": "Integrate separately reviewed receipt after required checks and observed merge before releasing Bose.",
+  "next_action": "Ownership released after actual receipt merge; next eligible article may proceed.",
   "implementation": {
     "article_id": "POD-EDIT-073",
     "input_head": "80db9dfa4ab244f30c72882851b081fac9c40153",
@@ -576,5 +576,12 @@
       "No repository edits,Git mutations or publishing. Only temporary report written. Required receiptPR checks and observed merge remain ownership-release gates."
     ]
   },
-  "receipt_pull_request": "https://github.com/ahimanikya/project-odisha/pull/418"
+  "receipt_pull_request": "https://github.com/ahimanikya/project-odisha/pull/418",
+  "receipt_integration_observed": {
+    "pull_request": 418,
+    "head": "f23670b4068d5d5f34949dab6a7d9ffcc7333e11",
+    "merge_commit": "fd3b0220afa598199b6772955095e4eb34223db3",
+    "merged_at": "2026-10-21T17:13:36Z",
+    "observed_at": "2026-10-21T17:16:35.616687+00:00"
+  }
 }

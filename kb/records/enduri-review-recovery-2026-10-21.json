@@ -1,0 +1,57 @@
+{
+  "article_id": "POD-EDIT-074",
+  "reviewer": "Drishti, separate AI reviewer",
+  "review_kind": "Separate AI source and integration review; not human or native-language specialist review",
+  "recorded_at": "2026-10-21T18:16:38.691195+00:00",
+  "input_head": "089327801dff7c48af5c5971fbb96343d391ab17",
+  "tracked_diff_sha256": "bc3bdaced56460ec8c8a9fefbd5518e512ee7bf7cde6adbcc4cf7f51f979b6af",
+  "file_sha256": {
+    "kb/research/food/collection.json": "eea4d32360aeae6516f20427c23daf517b86bdc01deaa234a0f9bc104bda6e95",
+    "kb/research/food/enduri-editorial.json": "efaa2df47d2fba59d4c9137caccae03bb387cf8af65cd7323d40ac9cc2fd43d3",
+    "kb/research/food/enduri-research-2026-10-21.json": "9b6a4dec7c0db68f9268fd885ca75bf3bb1e26fbab90c7503af76d4b4bdb64d8",
+    "kb/research/food/enduri-pitha.md": "c1bc90845d5a5d91aa5acf4b75bf587ba9b1a20af2065c4d8edbc3d0251032ef",
+    "projects/site/src/components/EnduriArticle.astro": "2b786ab1b39edd35bac16f18f8c76e59be9afa9064410c7828f65d5565abda45",
+    "projects/site/src/pages/food/[slug].astro": "e672143a238d41ed3b1f904e1f331a78f4a8d901e300caae56cee9c0b9a5a0f2",
+    "projects/site/src/data/journey-catalog.ts": "dc0f16c9ed4f02661d4756452197ac8f888dae557eac065f51e07a095a4fc25f",
+    "projects/site/tests-coast/enduri-editorial.test.mjs": "ccbf757121cd3b5df69971e50139662e0a80f9bdb60070301031e548552c45b9"
+  },
+  "status": "PASS — public source candidate and observed build/test evidence; responsive visual gate pending",
+  "blockers": [],
+  "findings": [
+    "Enduri route alone opts into new article component; other previously revised foods retain their components. Existing photo bytes, dimensions, attribution and CC BY-SA 4.0 are preserved.",
+    "Six factual passages map to three stable sources; source scope is explicit. Festival paragraphs remain attributed to Sarangi and distinguish Prathamastami association from exclusivity. No invented origin date or universal recipe.",
+    "CRRI ingredients and steaming sequence explain concrete technique. Contributor credit does not imply that the preparation originated in Sankilo or one particular household. Anvesha separately verified original captures; this review inspected integrated claims against those findings and saved source report.",
+    "Portable reading includes full paragraphs and concise source titles/URLs. Visible numbered footnotes, return targets, collapsed further reading and visible correction link are implemented.",
+    "Shared food-tourism URL is refreshed while preserving previous_url and old access provenance; this also changes the Poda Pitha source link, not its narrative.",
+    "Recent Founder priority for Odia heritage is served by specific named local observances and evidence limits, without treating one documented version as the only authentic practice."
+  ],
+  "nonblocking_suggestions": [
+    "Define bandapana briefly for readers unfamiliar with the term, using a source-supported gloss.",
+    "Remove the words described in the next paragraph from the Manabasa passage: source-page layout is not needed in the public narrative.",
+    "Existing image alteration notice says display framing may crop edges although this component uses contain; it is a generic shared asset notice, not a factual blocker."
+  ],
+  "tests_performed": [
+    "Read AGENTS, current team handoff/operations/assignments, editorial standard and Enduri rollout entry.",
+    "Read tracked diff and untracked Enduri component, test suite, evidence report and claim map.",
+    "git diff --check passed.",
+    "Computed SHA256 fingerprints of eight reviewed files including new files, plus tracked diff.",
+    "Read /tmp/pod-enduri-build.log: complete coastal build, 458 filtered pages, 1173 files.",
+    "Read /tmp/pod-enduri-tests.log: 35 affected tests passed, zero failed, skipped or cancelled. Execution by Samanta, logs inspected by Drishti.",
+    "Recomputed all eight prior source fingerprints: unchanged since separate review.",
+    "Inspected derived kb/research/search-index.json diff: only existing Enduri search record text extended by appended editorial paragraph; no added route or public search eligibility."
+  ],
+  "limits": [
+    "No responsive screenshot inspection, live-page check, PR/check/merge/deployment verification performed in this review.",
+    "No new original-source retrieval, recipe test, field interview, human or fluent Odia review.",
+    "Source changes after these fingerprints need affected review before publication."
+  ],
+  "repository_edits": [],
+  "remaining_gates": [
+    "Responsive visual review",
+    "Required PR checks, exact reviewed head merge, approved deployment and live receipt"
+  ],
+  "observed_build_logs": {
+    "/tmp/pod-enduri-build.log": "adb62d2034a2ef6bf6e048fc081d37e573b0e3e251bb1b348bf6b521dfdcd8e7",
+    "/tmp/pod-enduri-tests.log": "3fd47e060fd647f625649373f070577071f3af8c65b4785efa945a954ff9166c"
+  }
+}
