@@ -1,0 +1,220 @@
+{
+  "recorded_at": "2026-10-20T21:45:24.238519+00:00",
+  "authorization": [
+    "POD-DEC-2026101702",
+    "POD-DEC-225",
+    "POD-DEC-2026101901"
+  ],
+  "work_id": "POD-WORK-302",
+  "queue_item": "POD-EDIT-060",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/394",
+  "reviewed_head": "9dbb642df0695c5a7168793faeae87f62bb93428",
+  "merge_commit": "5e80cb1dd5c5c252f5f688f10cfa488eed0bbf55",
+  "validation": {
+    "conclusion": "success",
+    "databaseId": 39501755100,
+    "headSha": "9dbb642df0695c5a7168793faeae87f62bb93428",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39501755100"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "databaseId": 39502276923,
+    "headSha": "5e80cb1dd5c5c252f5f688f10cfa488eed0bbf55",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39502276923"
+  },
+  "live_checks": {
+    "checked_at": "2026-10-20T21:44:45.793356+00:00",
+    "url": "https://projectodisha.org/food/balasore/",
+    "http_status": 200,
+    "html_sha256": "3e0f59b32cf16822ea4429d689d490465e22809a676989ea1f817a078fd6f1e8",
+    "visible_notes": 2,
+    "references": 2,
+    "exact_returns": 2,
+    "checks": {
+      "byline": true,
+      "specific_reading": true,
+      "evidence_limits": true,
+      "noindex": true,
+      "returns": true,
+      "image_credits": true,
+      "save_identity": true,
+      "no_production_boilerplate": true,
+      "update_link": true,
+      "directory_link": true,
+      "dining_before_further_reading": true
+    },
+    "images": {
+      "/images/regions/chandipur-sunset.jpg": {
+        "http_status": 200,
+        "sha256": "cd0d20634950b20af1301665a667e5baff2a670344b1c8d399f99f9302eea2e1"
+      }
+    },
+    "unchanged_sitemap_count": 11,
+    "route_inventory": {
+      "directory_indexes": 457,
+      "separate_error_page": "/404.html",
+      "unregistered_routes": [],
+      "total_registered_routes": 458
+    },
+    "browser": {
+      "viewports": [
+        [
+          1440,
+          1000
+        ],
+        [
+          390,
+          844
+        ]
+      ],
+      "reading_widths": [
+        740,
+        343.1953125
+      ],
+      "horizontal_overflow": false,
+      "visible_notes": true,
+      "exact_keyboard_returns": [
+        "ref-harbour-0-harbour"
+      ],
+      "further_reading_keyboard_toggle": true,
+      "screenshots": [
+        "records/evidence/chandipur-meal-editorial-2026-10-20/live-desktop.png",
+        "records/evidence/chandipur-meal-editorial-2026-10-20/live-mobile.png"
+      ],
+      "limits": [
+        "Browser emulation, not physical-device or screen-reader testing."
+      ]
+    }
+  },
+  "test_review_and_source_mapping": "records/chandipur-meal-editorial-team-2026-10-20.json",
+  "final_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_integrated_candidate_review",
+    "head": "9dbb642df0695c5a7168793faeae87f62bb93428",
+    "base": "869d51194ca188792277df9f6e2099babf13ae94",
+    "article": "POD-EDIT-060",
+    "route": "/food/balasore/",
+    "result": "pass_with_limitations",
+    "blocking_findings": [],
+    "source_checks": [
+      {
+        "url": "https://odishatourism.gov.in/en/cuisine-culinary-trails",
+        "inspection": "Actual Coastal & Seafood Trails heading and bullets read. Fish,prawns,crabs and Baleshwar coastal dining association supported. No particular restaurant,current dish,recipe or supply chain inferred. Existing source identity reused."
+      },
+      {
+        "url": "https://apps.odishatourism.gov.in/blog-detail/the-tale-of-chandipur-beach-beyond-the-vanishing-sea",
+        "inspection": "Actual original travelogue selected paragraphs and byline/date read.10October2019 Jitu Mishra. Budhabalanga estuary at Balaramgadi, trawlers/smallboats and hilsa,pomp fret(normalised pomfret),large prawns landed for auction support attributed paragraph. Article omits unsupported current auction timing, tide-distance and historical grand claims; explicit restaurant-supply limitation accurate."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Sunset_at_Chandipur_Sea_Beach,_Odisha.jpg",
+        "inspection": "Actual description,date26February2012,ownwork,Nihar.race andCCBYSA4.0 licensing read. Independently viewed local1280x848image: coherent sun reflection on wet sand and distant land edge. Context photograph only, not evidence of food, catch or restaurant supply."
+      }
+    ],
+    "checks": {
+      "focused_tests": {
+        "passed": 27,
+        "failed": 0,
+        "runtime": "Node24.15.0",
+        "files": [
+          "tests-coast/chandipur-meal-editorial.test.mjs",
+          "tests-coast/chhena-poda-editorial.test.mjs",
+          "tests-coast/mudhi-mansa-editorial.test.mjs",
+          "tests/balasore-trail.test.mjs",
+          "tests/food-card-consistency.test.mjs",
+          "tests-coast/northern.test.mjs"
+        ],
+        "scope": "Fresh coordinator-built outputs; all6portableparagraphs,byline,2visible notes2exactreturn targets,photographic rights,noindex,foodcard/title consistency,oldjourneyidentity,legacy Enduri and prior reviewed foods preserved. Balasore city directory block occurs once before onward/source notes without invented dish listing."
+      },
+      "validators_passed": [
+        "article_rollout --check",
+        "check_team_assignments",
+        "check_autonomous_program",
+        "registers --check",
+        "editorial/build_workbench --check",
+        "catalog --check",
+        "research/validate_research_map",
+        "read-only in-memory search-index comparison",
+        "git diff --check869d5119..HEAD"
+      ],
+      "word_scope": {
+        "method": "All mapped prose plus complete note,title and entire lead counted for each source; both below200. Remaining paragraphs are explicit original planning prompts,not invented observations.",
+        "tourism": 98,
+        "harbour": 128
+      },
+      "preservation": "15file scope. All other canonical food entries and public image bytes unchanged. Only chandipur-context asset metadata updated. Exact balasore food-template and portable opt-in preserves other authors,sharedcomponents,dining hooks andfood:chandipur-seafood identity. Prior Mudhi handoff records actual receipt integration only.",
+      "photo_sha256": "cd0d20634950b20af1301665a667e5baff2a670344b1c8d399f99f9302eea2e1",
+      "accounting": "Programme byte unchanged112. Rollout53completed72excluded1inprogress332queued. Only060 active; Disha retainsownershipthroughreceipt. No deliveredcredit.",
+      "prior_receipt": "Independent gh verifies PR393 MERGED2026-10-20T20:49:06Z,reviewedaa3cf441267005dd1d5b9ce020857a5f255dbd97,merge869d51194ca188792277df9f6e2099babf13ae94."
+    },
+    "limits": [
+      "Separate AI review,not human,culinary-specialist or field approval.",
+      "No cook interview,meal tasting,recipe test,current restaurant supply/menu/availability inspection,boat/auction access or tide verification.",
+      "Two text sources share Odisha Tourism hosting; institutional summary and named contributor travelogue offer bounded context,not independent corroboration of current trade.",
+      "Reviewer independently read source text,Commons metadata and local pixels,ran27focusedtests andcanonicalchecks; no build or interactive browser review. Full566/coast355/publication11 checks are coordinator evidence.",
+      "Coordinator responsive/keyboard checks,required exact-head CI,approveddeployment andactual live receipt remain release/completiongates. Article remainsinprogress."
+    ]
+  },
+  "integration_review": {
+    "head": "5e80cb1dd5c5c252f5f688f10cfa488eed0bbf55",
+    "result": "pass",
+    "scope": "Merge tree checked against separately reviewed candidate; existing dining hooks preserved and458 routes reconciled."
+  },
+  "attachment_note": "PR attachment attempted; app limit100 reached. URL retained here.",
+  "counting": "One editorial article; zero substantive500 increment. Programme remains112.",
+  "limitations": [
+    "Separate AI research, implementation and review; no human, culinary specialist, language or field review.",
+    "No meal tasting, cook interview, kitchen supply trace, current menu, auction schedule or harbour-access verification.",
+    "Current regional tourism text and a dated hosted travelogue share institutional hosting; no independent kitchen or field corroboration.",
+    "Full566 and coastal355 tests plus responsive/keyboard checks were coordinator-performed; separate AI review records its own focused tests and original-source checks.",
+    "Browser emulation, not physical-device or screen-reader testing."
+  ],
+  "verified_routes": [
+    "/food/balasore/"
+  ],
+  "receipt_review": {
+    "reviewer": "Drishti",
+    "kind": "separate_ai_receipt_review",
+    "head": "d900d2d0051221cfa7dc1e8e29ca132034f95709",
+    "base": "5e80cb1dd5c5c252f5f688f10cfa488eed0bbf55",
+    "article": "POD-EDIT-060",
+    "result": "pass_with_limitations",
+    "blocking_findings": [],
+    "checks": {
+      "scope": "Ten files: records/generated views and two screenshots only. No article, source, asset or search eligibility changes.",
+      "remote_verification": "Independent gh confirms PR394 MERGED2026-10-20T21:40:21Z, head9dbb642df0695c5a7168793faeae87f62bb93428, merge5e80cb1dd5c5c252f5f688f10cfa488eed0bbf55. RequiredCI39501755100success on reviewedhead and approved publication39502276923success on mergehead.",
+      "tree_equality": "Reviewed and published merge trees identical.",
+      "transcription": "Canonical receipt and handoff reproduce /tmp/pod-chandipur-meal-review.json exactly. All coordinator /tmp/pod-chandipur-meal-live.json values retained exactly; canonical adds browser and route inventory.",
+      "validators_passed": [
+        "article_rollout --check",
+        "check_team_assignments",
+        "check_autonomous_program",
+        "registers --check",
+        "editorial/build_workbench --check",
+        "git diff --check5e80cb1d..HEAD"
+      ],
+      "accounting": "Only060 rollout entry changes.54completed72excluded332queued458total. Programme byte-identical112; no substantive credit.",
+      "ownership": "Team status published_receipt_pending_integration and Disha ownership retained; operations receipt_integrated explicitly conditional upon actual receipt PR merge. No next article claim.",
+      "live_record": "Coordinator records HTTP200,HTML3e0f59b32cf16822ea4429d689d490465e22809a676989ea1f817a078fd6f1e8,2notes2exactreturns, unchanged photograph hashcd0d2063...,11sitemap,457directoryindexes+404. No contradictory completion claim found.",
+      "screenshots": {
+        "desktop": {
+          "sha256": "7c978cf8f885cd52644461ec8ebfe497fe5bda6e62958ee13e72231c58d3cd2a",
+          "inspection": "Actual saved1440x1000cover viewed: clear title,lead,Founderbyline and retained complete shoreline image with2012context-only caption."
+        },
+        "mobile": {
+          "sha256": "b82d71279986a8651636f3509871ed432f919ee6782a104bcf69bcc7f781d566",
+          "inspection": "Actual saved390x844body viewed: wrapped paragraphs,legible section headings and focused source reference at viewporttop; no visible horizontalclipping. Screenshot does not independently prove return sequence."
+        }
+      }
+    },
+    "limits": [
+      "Separate AI records review,not human,culinary-specialist or field approval.",
+      "Independently verified remote metadata,tree equality,review transcription,records, savedHTTPartifact correspondence,screenshot hashes and capturedappearance.",
+      "Live HTTP,interactive keyboard/disclosure,viewport measurements and fullwebsite suites were coordinator-performed; not repeated by reviewer.",
+      "No codebuild or website-test repetition for this records-only delta. Prior candidate review remains applicable; ownership release awaits actual receipt merge."
+    ]
+  },
+  "receipt_pull_request": "https://github.com/ahimanikya/project-odisha/pull/395",
+  "receipt_integration": "Effective only after PR395 passes required checks and merges; observed merge must be reconciled before releasing the article claim."
+}
