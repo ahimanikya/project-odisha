@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-21T17:16:35.616687+00:00",
   "article_id": "POD-EDIT-074",
   "route": "/food/enduri-pitha/",
-  "status": "published_receipt_integration_pending",
+  "status": "receipt_integrated",
   "input_head": "fd3b0220afa598199b6772955095e4eb34223db3",
   "authorization": [
     "POD-DEC-2026101702",
@@ -72,7 +72,7 @@
     "merged_at": "2026-10-21T17:13:36Z",
     "observed_at": "2026-10-21T17:16:35.616687+00:00"
   },
-  "next_action": "Merge reviewed receipt after passing checks; reconcile observed merge then resume Paika priority.",
+  "next_action": "Enduri complete. Select or create Paika article scope next, reusing existing KB and preserving Founder direction on source-grounded Odia community heritage. Do not count planning as substantive delivery.",
   "runtime_recovery": "2026-10-21 continuation chat: old source turn interrupted; read_thread confirms Anvesha and Samanta completed and their reports exist. Current tree has only new root before recreation. Existing uncommitted scaffold preserved. Open PRs 304 and 281 unrelated; leave untouched.",
   "latest_founder_direction": {
     "source": "Continuation chat 21 October 2026",
@@ -105,5 +105,13 @@
       "resolution": "Corrected Enduri expectation; unchanged Poda remains checked. Full coastal suite414 passed."
     }
   ],
-  "publication_receipt": "records/enduri-editorial-publication-2026-10-21.json"
+  "publication_receipt": "records/enduri-editorial-publication-2026-10-21.json",
+  "receipt_integration_observed": {
+    "pull_request": 420,
+    "head": "4a05788efe930dafc6acfae564c99f842ac6920c",
+    "merge_commit": "6bfb2bd70e308b129c61d0fb1dbe590f2c5415ff",
+    "merged_at": "2026-10-21T18:41:06Z",
+    "validation_run": 39654335215,
+    "validation_result": "success"
+  }
 }

@@ -1,0 +1,63 @@
+{
+  "article_id": "POD-EDIT-459",
+  "reviewer": "Drishti, separate AI reviewer",
+  "recorded_at": "2026-10-21T19:22:07.624961+00:00",
+  "input_head": "495c68e7247e226889ea33f82f5fec3c22b5f22c",
+  "status": "PASS — source and integration review; build and responsive visual gates pending",
+  "file_sha256": {
+    "kb/research/communities/paika.json": "91738b70a4c7173215c3c8dd7ea4e67fbac432230d2828c9e9548961d9f7aa75",
+    "kb/research/sources/paika-research.json": "169b0e22ed3a9e33ccec849760dd5e62be1d734488187b0b0c293d0cda77503a",
+    "projects/site/src/pages/communities/paika.astro": "3a282806188a7da4c3a5434b854928dea56886b31bd8600f60d67ba5a98c1324",
+    "projects/site/tests-coast/paika-editorial.test.mjs": "0edcf781a8dd33f91a9777bccffb90c63403321d3f0d0a861ccb9a5fb458bea2",
+    "projects/site/editions/coast.json": "7c231cca6773f0599dc1a799df06ef9a961265c70389a5cea66d1d9430ea76a4",
+    "projects/site/src/data/discovery.ts": "5ea749da71377dba23a63efde9836cb7aeaa2a959924ea8825eb38b75e6a20dc",
+    "projects/site/src/data/journey-catalog.ts": "16c3bbb776027f4f0b99957e8b45cacc38228e05d78ed95665c80c37a318f4db"
+  },
+  "findings": [
+    "Read actual canonical narrative, evidence dossier, new page/test and shared edition/discovery/journey diffs.",
+    "Independently read original Khordha history, Tanabe publisher text574–589, Koraput Gazetteer printed140 and PIB2017. Service/caste distinctions, hereditary positions, diverse personnel, inequalities and region-sensitive terminology are supported.",
+    "Khordha culture original cached HTML supports Dussehra performance, listed instruments and attributed padatika etymology; no uninterrupted lineage implied.",
+    "No invention date, universal caste genealogy, current legal classification or first-war superlative asserted. Original manuscript inspection is not claimed.",
+    "Source budgets by whitespace count including footnote titles/notes: Khordha195,Tanabe191,Koraput144,PIB83,culture88. Khordha headings leave insufficient conservative margin; trim about15 words from source-linked prose.",
+    "New public route is explicitly admitted to coastal edition and discoverable; journey receives full paragraph arrays and concise sources. No sitemap/search eligibility addition.",
+    "Article template retains visible linked footnotes, collapsed further reading and public correction link. No invented documentary imagery."
+  ],
+  "blockers": [],
+  "tests": [
+    "git diff --check passed.",
+    "Independent source checks against original web documents and saved culture HTML.",
+    "Computed source-attributed prose/notes word counts.",
+    "Rechecked revised Khordha prose: no factual change, all five source budgets including headings now at or below200."
+  ],
+  "limits": [
+    "Build, rendered tests and responsive screenshots pending Samanta.",
+    "No human/community interview, manuscript or field verification.",
+    "No independent physical-device or screen-reader assessment."
+  ],
+  "repository_edits": [],
+  "source_budget_correction": {
+    "result": "Resolved by bounded first-section trims; meaning preserved.",
+    "counts_including_section_headings": {
+      "paika-khordha-history": {
+        "body_notes_title": 173,
+        "including_section_headings": 184
+      },
+      "paika-tanabe2020": {
+        "body_notes_title": 191,
+        "including_section_headings": 194
+      },
+      "paika-koraput-gazetteer": {
+        "body_notes_title": 144,
+        "including_section_headings": 151
+      },
+      "paika-pib2017": {
+        "body_notes_title": 83,
+        "including_section_headings": 90
+      },
+      "paika-khordha-culture": {
+        "body_notes_title": 88,
+        "including_section_headings": 92
+      }
+    }
+  }
+}

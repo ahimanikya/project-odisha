@@ -1,0 +1,115 @@
+{
+  "article_id": "POD-EDIT-459",
+  "worker": "Samanta, separate AI implementation agent",
+  "input_head": "495c68e7247e226889ea33f82f5fec3c22b5f22c",
+  "status": "implemented and verified; ready for separate review",
+  "files": [
+    "projects/site/src/pages/communities/paika.astro",
+    "projects/site/tests-coast/paika-editorial.test.mjs"
+  ],
+  "schema": {
+    "required": [
+      "title",
+      "odia",
+      "lead",
+      "author",
+      "checked_on",
+      "sections[id,title,paragraphs[text,source_ids]]",
+      "sources[id,title,url,note]",
+      "further_reading[title,href,description?]"
+    ],
+    "optional": [
+      "timeline[date,title,text,source_ids]"
+    ]
+  },
+  "implementation": [
+    "Shared ArticleByline/Footnote/Footnotes and article-reading stylesheet.",
+    "ResearchContents navigation, collapsed Further reading, visible correction/public-submission notice.",
+    "Text-first, no invented imagery. Optional sourced timeline only if canonical data supplies one.",
+    "Footnote/return focus binding included.",
+    "Shared SaveJourney control plus full-prose/short-source portable reading regression test."
+  ],
+  "tests": [
+    {
+      "name": "Node24 syntax and git diff --check",
+      "result": "pass"
+    },
+    {
+      "name": "npm run build:coast after final canonical trim",
+      "result": "pass",
+      "log": "/tmp/pod-paika-build.log"
+    },
+    {
+      "name": "npm run test:coast",
+      "result": "418 passed, 0 failed",
+      "log": "/tmp/pod-paika-coast-tests.log"
+    },
+    {
+      "name": "story-source-links, tour-book, journey, discovery-and-books, featured-discovery unit suites",
+      "result": "36 passed, 0 failed",
+      "log": "/tmp/pod-paika-unit-tests.log"
+    },
+    {
+      "name": "npm run build after root search-hold/static-count fixes",
+      "result": "pass",
+      "log": "/tmp/pod-paika-full-build.log"
+    },
+    {
+      "name": "npm test full suite",
+      "result": "566 passed, 0 failed",
+      "log": "/tmp/pod-paika-full-tests.log"
+    },
+    {
+      "name": "npm run build:publication",
+      "result": "pass; limited mode; 11 indexable pages unchanged",
+      "log": "/tmp/pod-paika-publication.log"
+    }
+  ],
+  "required_root_integration": [
+    "Canonical paika.json, KB narrative/source provenance.",
+    "Add exact /communities/paika/ to coastal edition.",
+    "Add discoverable /explore/ link.",
+    "Register rollout/programme/source records, preserve noindex unless evidence separately permits.",
+    "Optional journey-catalog entry for portable reading."
+  ],
+  "limits": [
+    "No Git or shared-record mutation by Samanta.",
+    "No source truth, community/practitioner or human review claimed.",
+    "No publication/live checks yet.",
+    "No relevant rights-cleared Paika imagery found; page deliberately text-first.",
+    "Local browser test saved reading:paika in localhost journey; no production journey affected."
+  ],
+  "responsive": {
+    "browser": "CUA Chrome with supported viewport/Playwright controls",
+    "desktop": {
+      "width": 1440,
+      "height": 1000,
+      "scroll_width": 1440,
+      "article_width": 740
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "scroll_width": 390,
+      "article_width": 390,
+      "side_padding": 19.2
+    },
+    "checks": [
+      "Desktop header/notes and mobile header/body visually inspected.",
+      "Source footnote moves hash/focus to note-paika-khordha-history; return restores ref-meaning-0-paika-khordha-history.",
+      "Contents opens then closes after selection and focuses target heading.",
+      "Further reading opens three links; remains within viewport.",
+      "Local Save to my journey changes to Saved and persists through reload; repeated click reports already saved.",
+      "Viewport override reset.",
+      "Fresh build after final23word canonical trim; current desktop/mobile/body screenshots replaced."
+    ],
+    "screenshots": [
+      "/tmp/pod-paika-desktop.png",
+      "/tmp/pod-paika-desktop-notes.png",
+      "/tmp/pod-paika-mobile.png",
+      "/tmp/pod-paika-mobile-body.png"
+    ]
+  },
+  "integration_status": "Root supplied canonical JSON, edition, discovery and full portable journey entry. Root corrected three exact entry-count assertions after adding Paika.",
+  "ci_followup": "Full suite covers all566 tests; root added explicit Paika search hold and corrected static route count. No further worker edits."
+}
