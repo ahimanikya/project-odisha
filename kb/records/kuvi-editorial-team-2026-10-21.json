@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-21T10:03:45.566354+00:00",
   "article_id": "POD-EDIT-067",
   "route": "/languages/kuvi/",
-  "status": "research_and_implementation",
+  "status": "integrated_candidate_review",
   "input_head": "434b437596bf65d67234c2632e9386835587674d",
   "authorization": [
     "POD-DEC-2026101702",
@@ -23,7 +23,7 @@
       "name": "Anvesha",
       "runtime": "/root/anvesha",
       "scope": "Read-only bounded Kuvi source research; report in temporary file.",
-      "status": "assigned"
+      "status": "complete"
     },
     {
       "name": "Samanta",
@@ -55,7 +55,7 @@
         "projects/site/tests-coast/visitor-experience.test.mjs",
         "projects/site/tests-coast/kui-editorial.test.mjs"
       ],
-      "status": "assigned"
+      "status": "scaffold_ready"
     },
     {
       "name": "Drishti",
@@ -85,5 +85,73 @@
     "merge_commit": "434b437596bf65d67234c2632e9386835587674d",
     "merged_at": "2026-10-21T10:01:02Z",
     "ci": 39580704981
-  }
+  },
+  "implementation": {
+    "article_id": "POD-EDIT-067",
+    "input_head": "85cb96bb9869c62d7cd98f20e68f4ec4e973fe96",
+    "base_head": "434b437596bf65d67234c2632e9386835587674d",
+    "status": "scaffold_ready_awaiting_canonical_copy_and_map",
+    "files": [
+      "projects/site/src/components/CultureMagazine.astro",
+      "projects/site/src/components/LanguagePopulation.astro",
+      "projects/site/src/components/CultureOnward.astro",
+      "projects/site/src/data/journey-catalog.ts",
+      "projects/site/tests-coast/kuvi-editorial.test.mjs",
+      "projects/site/tests-coast/living-languages.test.mjs",
+      "projects/site/tests-coast/voices-passage-sources.test.mjs",
+      "projects/site/tests/voices.test.mjs",
+      "projects/site/tests-coast/fakir-editorial.test.mjs",
+      "projects/site/tests-coast/balasore-editorial.test.mjs",
+      "projects/site/tests-coast/bhima-editorial.test.mjs",
+      "projects/site/tests-coast/mayurbhanj-editorial.test.mjs",
+      "projects/site/tests-coast/puri-editorial.test.mjs",
+      "projects/site/tests-coast/six-acres-editorial.test.mjs",
+      "projects/site/tests-coast/gangadhar-editorial.test.mjs",
+      "projects/site/tests-coast/bhubaneswar-editorial.test.mjs",
+      "projects/site/tests-coast/gopinath-editorial.test.mjs",
+      "projects/site/tests-coast/literature-editorial.test.mjs",
+      "projects/site/tests-coast/odia-editorial.test.mjs",
+      "projects/site/tests-coast/sarala-editorial.test.mjs",
+      "projects/site/tests-coast/pratibha-editorial.test.mjs",
+      "projects/site/tests-coast/languages-editorial.test.mjs",
+      "projects/site/tests-coast/santali-editorial.test.mjs",
+      "projects/site/tests-coast/kui-editorial.test.mjs"
+    ],
+    "unchanged_reserved": [
+      "projects/site/tests-coast/visitor-experience.test.mjs"
+    ],
+    "checks": [
+      "All 20 modified/new test files passed Node24 syntax checks.",
+      "git diff --check passed."
+    ],
+    "preserved": [
+      "Exact Kuvi-only editorial opt-in; Kui/Santali/Odia retain their current behavior.",
+      "Text-only identity panel, existing identity/writing anchors, publication and contributor credits.",
+      "Census individual Kuvi entry and KHOND/KONDH caveat preserved; no group substitution.",
+      "Existing portable identity gets full paragraph arrays and short sources; no image or translation added.",
+      "Only stale negative controls move to queued Saora; real Kuvi/Kui links retained."
+    ],
+    "limits": [
+      "Canonical source map not yet present; source/rendered/export tests await integration.",
+      "No build, source research, browser review, asset/shared-record edits, Git mutations or publishing."
+    ]
+  },
+  "existing_article_audit": {
+    "observed_route": "https://projectodisha.org/languages/kuvi/",
+    "findings": [
+      "Two existing paragraphs, duplicated generic lead and two identical supplementary-reader onward URLs.",
+      "Existing hero is a typographic Kuvi/Rayagada identity panel with no image; retain it.",
+      "Existing2018learningpanel names publisher and three compilers; preserve these credits.",
+      "Existing Census panel correctly distinguishes individual058006 Kuvi from parentKHOND/KONDH."
+    ],
+    "census_independent_check": {
+      "file": "research/references/census-2011/c16-odisha.xlsx",
+      "sheet": "Sheet1",
+      "row": 206,
+      "entry": "058006 Kuvi",
+      "odisha_total": 6451,
+      "sha256": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db"
+    }
+  },
+  "research": "research/voices/kuvi-research-2026-10-21.json"
 }
