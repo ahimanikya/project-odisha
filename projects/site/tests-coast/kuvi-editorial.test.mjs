@@ -40,7 +40,7 @@ test('Kuvi population retains the individual entry, original counts, districts, 
  for(const d of districtRows(atlas,profile.code).filter(r=>r.persons>0).slice(0,3))assert.ok(inset.includes(`${d.name} (${count(d.persons)})`));
  assert.ok(inset.includes(`href="/languages/atlas/?language=${profile.code}"`));assert.ok(inset.includes(atlas.sources.c16.url));
  assert.ok(inset.includes('id="ref-population-c16-odisha-2011"'));
- const other=page('/languages/juang/');assert.ok(!other.includes('ref-population-'));assert.match(other,/Sources, image credits/);
+ const other=page('/languages/koya/');assert.ok(!other.includes('ref-population-'));assert.match(other,/Sources, image credits/);
  const odia=page('/languages/odia/');assert.ok(odia.includes('ref-population-c16-odisha-2011'));assert.ok(odia.includes('By Ahimanikya Satapathy'));
 });
 test('Kuvi preserves the typographic cover, onward links, save identity and visible update privacy without changing the hub',()=>{
@@ -74,7 +74,7 @@ test('Kuvi portable reading contains complete paragraphs once, short sources, we
  for(const source of editorial.sources){const url=new URL(source.url).href;assert.ok(book.includes(`href="${escapeHTML(url)}"`),source.id);assert.ok(text.includes(url),source.id);}
 
  assert.ok(text.includes('Keep my edition note.'));
- const juang=catalog.find(i=>i.id==='reading:languages/juang');assert.equal(juang.author,undefined);assert.ok(juang.practical.every(p=>!p.paragraphs));
+ const koya=catalog.find(i=>i.id==='reading:languages/koya');assert.equal(koya.author,undefined);assert.ok(koya.practical.every(p=>!p.paragraphs));
 });
 
 test('Kuvi retains its attributed learning shelf and public contribution boundaries',()=>{

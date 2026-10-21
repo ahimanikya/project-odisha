@@ -47,7 +47,7 @@ test('Mayurbhanj preserves photos, saved ideas and onward paths with a visible p
  const onward=html.match(/<details class="mag-disclosure region-mayurbhanj-onward"[\s\S]*?<\/details>/)?.[0];assert.ok(onward);assert.match(onward,/<summary>Further reading<\/summary>/);assert.doesNotMatch(onward,/<details[^>]*\bopen\b/);
  for(const href of ['/journey/','/destinations/balasore/',region.journey_starter.href])assert.ok(onward.includes(`href="${href}"`));
  const outside=html.replace(/<details\b[^>]*>[\s\S]*?<\/details>/g,'');assert.match(outside,/href="\/contribute\/\?page=%2Fdestinations%2Fmayurbhanj%2F"[^>]*>Suggest an update/);assert.match(outside,/GitHub submissions are public; omit private contact details and consent documents/);
- const other=page('/languages/juang/');assert.doesNotMatch(other,/class="article-byline"|id="story-sources"/);assert.match(other,/Editorial preview/);
+ const other=page('/languages/koya/');assert.doesNotMatch(other,/class="article-byline"|id="story-sources"/);assert.match(other,/Editorial preview/);
  for(const route of ['/destinations/cuttack/','/destinations/puri/','/destinations/bhubaneswar/','/destinations/balasore/']){const previous=page(route);assert.ok(previous.includes('By Ahimanikya Satapathy'));assert.ok(previous.includes('id="story-sources"'));}
 });
 test('Mayurbhanj portable reading keeps complete paragraphs, short sources and documentary rights',()=>{
