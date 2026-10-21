@@ -23,7 +23,13 @@ for(const original of collection.pages.filter(p=>edition.routes.includes('/'+p.p
   }
   for(const source of editorial.sources){assert.equal(html.split(`id="note-${source.id}"`).length-1,1);assert.ok(html.includes(escape(source.url)));assert.ok(html.includes(escape(source.note)));}
   assert.doesNotMatch(html,/<details[^>]*id="sources"|Research and presentation prepared with AI assistance/);
-  if(entry.path==='people/gangadhar-meher')assert.ok(!html.includes('Images and reuse'));else assert.ok(html.includes('Images and reuse'));
+  if(entry.path==='languages/kui'){
+   assert.equal(entry.hero_asset,null);assert.ok(entry.cards.every(c=>!c.asset));
+   assert.ok(!html.includes('Images and reuse'));
+   const cover=html.match(/<header[^>]*class="mag-cover[^"]*"[\s\S]*?<\/header>/)?.[0];assert.ok(cover);
+   assert.match(cover,/class="culture-identity"/);assert.doesNotMatch(cover,/<img\b/);
+   for(const line of entry.identity_panel)assert.ok(cover.includes(escape(line)),line);
+  }else if(entry.path==='people/gangadhar-meher')assert.ok(!html.includes('Images and reuse'));else assert.ok(html.includes('Images and reuse'));
   return;
  }
  for(const section of entry.sections){

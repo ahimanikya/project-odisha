@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-21T05:38:59.885946+00:00",
   "article_id": "POD-EDIT-066",
   "route": "/languages/kui/",
-  "status": "research_and_implementation",
+  "status": "integrated_candidate_review",
   "input_head": "c30643edd43a10746c3b14a7f15219c4273847c3",
   "authorization": [
     "POD-DEC-2026101702",
@@ -54,13 +54,13 @@
         "projects/site/tests-coast/santali-editorial.test.mjs",
         "projects/site/tests-coast/visitor-experience.test.mjs"
       ],
-      "status": "implemented_pending_rendered_tests"
+      "status": "complete"
     },
     {
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Read-only separate review after integrated candidate ready.",
-      "status": "pending"
+      "status": "reviewing"
     },
     {
       "name": "Disha",
@@ -87,7 +87,7 @@
   "implementation": {
     "article_id": "POD-EDIT-066",
     "input_head": "c30643edd43a10746c3b14a7f15219c4273847c3",
-    "status": "scaffold_ready_awaiting_canonical_copy_and_map",
+    "status": "frozen_focused_rendered_checks_pass",
     "files": [
       "projects/site/src/components/CultureMagazine.astro",
       "projects/site/src/components/LanguagePopulation.astro",
@@ -116,7 +116,9 @@
     ],
     "checks": [
       "All 20 modified/new tests pass Node 24 syntax checks.",
-      "git diff --check passed."
+      "git diff --check passed.",
+      "Node 24 --test tests-coast/kui-editorial.test.mjs tests-coast/voices-passage-sources.test.mjs tests-coast/living-languages.test.mjs: 28 passed, 0 failed against fresh coordinator dist-coast.",
+      "git diff --check passed after integration correction."
     ],
     "implemented": [
       "Exact Kui editorial binding, census note mapping and collapsed Further reading.",
@@ -125,8 +127,59 @@
       "Only stale negative controls changed to queued Kuvi; genuine Kui links retained. Contextual sharing-image caveat retained and actual text-only hero verified by new assertion."
     ],
     "limits": [
-      "Final canonical Kui prose/map pending; source test not yet executed.",
-      "No build, browser review, source research, asset changes, canonical KB/shared-record edits, Git mutations or publishing."
+      "No build, browser review, Git mutation or publication by Samanta.",
+      "No production or shared-record changes during integration correction; focused tests used coordinator fresh build."
+    ],
+    "integration_input_head": "435957e744464c922649a6cd7caf612a253af727",
+    "content_counts": {
+      "sections": 5,
+      "paragraphs": 8,
+      "notes": 5,
+      "references": 7
+    },
+    "integration_fix": "Only voices-passage-sources.test.mjs changed this turn: Kui explicitly asserts null hero/no card assets, honest typographic cover with every identity line and no img, and no invented Images and reuse block. Other profiles retain prior assertions."
+  },
+  "browser_review": {
+    "reviewer": "Disha, AI coordinator",
+    "candidate": "435957e744464c922649a6cd7caf612a253af727",
+    "viewports": [
+      [
+        1440,
+        900
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "reading_widths": [
+      740,
+      343.1953125
+    ],
+    "font_px": [
+      18,
+      17
+    ],
+    "line_height_px": [
+      33.3,
+      30.6
+    ],
+    "horizontal_overflow": false,
+    "media": "Existing text-only identity panel retained; no image or script specimen invented.",
+    "notes": 5,
+    "references": 7,
+    "returns": 7,
+    "keyboard": "Enter reaches note-kui-ciil with matching focus; exact return reaches ref-identity-0-kui-ciil with focus at both widths. Further reading initially closed and opens with Enter; update link outside disclosures.",
+    "screenshots": [
+      "records/evidence/kui-editorial-2026-10-21/desktop-notes.png",
+      "records/evidence/kui-editorial-2026-10-21/mobile-notes.png",
+      "records/evidence/kui-editorial-2026-10-21/mobile-hero.png",
+      "records/evidence/kui-editorial-2026-10-21/mobile-reading.png",
+      "records/evidence/kui-editorial-2026-10-21/desktop-reading.png",
+      "records/evidence/kui-editorial-2026-10-21/desktop-hero.png"
+    ],
+    "limits": [
+      "Browser viewport emulation, not physical-device or screen-reader review."
     ]
   }
 }
