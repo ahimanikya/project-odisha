@@ -875,3 +875,7 @@ Reuse `voices/koya-research-2026-10-21.json`, `voices/koya-editorial.json` and t
 ### Odisha Rasagola article evidence · 21 October 2026
 
 Reuse `food/rasagola-research-2026-10-21.json`, `food/rasagola-editorial.json`, `food/odisha-rasagola.md` and `economy/rasagola-and-sweets.md` before new research. The dossier distinguishes the original filed specification, applicant-reported historic sources, small 2023 supply study and dated travelogue. Salepur was mentioned, not visited, in the latter. No new food identity, field confirmation or programme credit.
+
+### Bose childhood article evidence · 21 October 2026
+
+Reuse `people/subhas-chandra-bose.json`, `people/bose-editorial.json` and `people/bose-research-2026-10-21.json`, alongside the existing `destinations/netaji-museum-editorial.json`, before further research. The individual article distinguishes retrospective schooling and nature recollections from the official museum collection description. The re-typeset autobiography reproduces a 1948 publisher preface; this is not a composition date or manuscript inspection. Both existing documentary photographs retain their original rights and capture dates. No new person identity, field confirmation or programme credit.

@@ -10,7 +10,7 @@ const bose=JSON.parse(readFileSync('../../kb/research/people/subhas-chandra-bose
 test('Odisha roots pages keep archival limits and modern image context visible in the delivered story',()=>{
  const sweet=read('/food/odisha-rasagola/'),childhood=read('/people/subhas-chandra-bose/');
  for(const phrase of ['Niladri Bije','Dandi Ramayana','Pahala','Salepur','original temple record and poem have not been examined','29 July 2019'])assert.ok(sweet.includes(phrase),phrase);
- for(const phrase of ['1897','1902','1909','Beni Madhav Das','Bengal connections','retrospective','2013','does not establish public access'])assert.ok(childhood.includes(phrase),phrase);
+ for(const phrase of ['1897','1902','1909','Beni Madhav Das','Bengali exposed a gap','unfinished autobiography','2013','establishes no right of entry'])assert.ok(childhood.includes(phrase),phrase);
  assert.ok(!childhood.includes('A literary life'));
  assert.match(childhood,/<figure class="chapter-photo"/);
  assert.match(childhood,/<img[^>]+ravenshaw-collegiate-school[^>]+srcset=/);
@@ -29,6 +29,6 @@ test('the new sweet and childhood reading save distinct items and carry their ev
 test('new real photographs ship unchanged from recorded derivatives with end-of-page credit and licences',()=>{
  for(const [asset,route] of [[food.assets['pahala-rasagola'],'/food/odisha-rasagola/'],[bose.assets.school,'/people/subhas-chandra-bose/']]){
   const bytes=readFileSync('dist-coast'+asset.src);assert.equal(createHash('sha256').update(bytes).digest('hex'),asset.sha256);
-  const credits=route==='/food/odisha-rasagola/'?read(route).match(/<div id="food-image-credits"[\s\S]*?<\/div>/)[0]:read(route).match(/<details class="mag-article-credits"[\s\S]*?<\/details>/)[0];for(const text of [asset.creator,asset.source,asset.license_url])assert.ok(credits.includes(text),text);
+  const credits=route==='/food/odisha-rasagola/'?read(route).match(/<div id="food-image-credits"[\s\S]*?<\/div>/)[0]:read(route).match(/<div id="bose-image-credits"[\s\S]*?<\/div>/)[0];for(const text of [asset.creator,asset.source,asset.license_url])assert.ok(credits.includes(text),text);
  }
 });

@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-21T16:06:44.627670+00:00",
   "article_id": "POD-EDIT-073",
   "route": "/people/subhas-chandra-bose/",
-  "status": "research_and_implementation",
+  "status": "integrated_candidate_testing",
   "input_head": "ceadbe0eb1a633530d91f0f32968adb6642feea8",
   "authorization": [
     "POD-DEC-2026101702",
@@ -21,7 +21,7 @@
       "name": "Anvesha",
       "runtime": "/root/anvesha",
       "scope": "Read-only bounded primary-source research; temporary report only.",
-      "status": "assigned"
+      "status": "complete"
     },
     {
       "name": "Samanta",
@@ -33,7 +33,8 @@
         "projects/site/tests-coast/bose-editorial.test.mjs",
         "projects/site/tests-coast/odisha-roots.test.mjs"
       ],
-      "status": "assigned"
+      "status": "complete",
+      "scope_released": "Five implementation files frozen after canonical-copy checks; Disha may integrate."
     },
     {
       "name": "Drishti",
@@ -65,5 +66,66 @@
     "merged_at": "2026-10-21T15:41:35Z",
     "observed_at": "2026-10-21T16:06:44.627670+00:00"
   },
-  "next_action": "Integrate bounded research and implementation, then separate review."
+  "next_action": "Integrate bounded research and implementation, then separate review.",
+  "implementation": {
+    "article_id": "POD-EDIT-073",
+    "input_head": "80db9dfa4ab244f30c72882851b081fac9c40153",
+    "status": "files_frozen_ready_for_coordinator_build",
+    "files": [
+      "projects/site/src/components/BoseArticle.astro",
+      "projects/site/src/pages/people/subhas-chandra-bose.astro",
+      "projects/site/src/data/journey-catalog.ts",
+      "projects/site/tests-coast/bose-editorial.test.mjs",
+      "projects/site/tests-coast/odisha-roots.test.mjs"
+    ],
+    "checks": [
+      {
+        "command": "node --check projects/site/tests-coast/bose-editorial.test.mjs",
+        "result": "pass after correction of slash in save-identity regex"
+      },
+      {
+        "command": "node --check projects/site/tests-coast/odisha-roots.test.mjs",
+        "result": "pass"
+      },
+      {
+        "command": "git diff --check",
+        "result": "pass"
+      },
+      {
+        "command": "node --test --test-name-pattern=\"Bose source map\" tests-coast/bose-editorial.test.mjs",
+        "cwd": "projects/site",
+        "result": "1/1 pass against final canonical copy"
+      }
+    ],
+    "findings": [
+      "Exact standalone route uses scoped BoseArticle; no blanket author assignment.",
+      "Both documentary photos retained, full-frame, school before Ravenshaw paragraphs as previously.",
+      "Footnote passages derive from each canonical paragraph; expanded notes, collapsed onward links, article-specific visible update and privacy notice.",
+      "Full portable paragraph arrays and concise editorial source list with existing reading save identity.",
+      "Existing portable renderer supports one item.photo; museum photo preserved. School photo remains website-only without shared model expansion, as coordinator approved.",
+      "Enduri Pitha queued POD-EDIT-074 is unchanged control.",
+      "Narrow roots wording assertions now match explicit Bengali learning gap, unfinished autobiography and school entry limitation.",
+      "Existing Shell ContextTrail preserves breadcrumb; focused test now asserts a single Explore/Cuttack/current route breadcrumb.",
+      "Final source test verifies concrete English/Bengali classroom contrast, continuing letters, ethical uncertainty, 1948 preface distinction and museum object limits."
+    ],
+    "limits": [
+      "Rendered behavior awaits coordinator build; no fresh rendered pass claimed.",
+      "Portable model remains single museum photo; school photograph and rights remain on website.",
+      "No builds, browser visual/keyboard checks, Git mutation, shared KB edits or publication performed."
+    ],
+    "integration_head": "80db9dfa4ab244f30c72882851b081fac9c40153 plus coordinator canonical working changes",
+    "content_shape": {
+      "sections": 5,
+      "paragraphs": 8,
+      "notes": 2,
+      "reference_occurrences": 6
+    }
+  },
+  "research": "research/people/bose-research-2026-10-21.json",
+  "source_audit": "Disha read actual reproduction preface/birth/school text and inspected rendered pages 40 and 46, plus the current official Incredible India collection description. Memoir claims remain retrospective; no manuscript, original letters or museum object examined.",
+  "image_audit": {
+    "result": "Both existing photographs visually inspected and retained; museum 2014, school 2013, physically credible later architectural views. Fresh Commons pages confirm creator, capture dates and CC BY-SA licences. No childhood scene or classroom identification inferred. Both website frames contained; portable reading retains its existing museum image only.",
+    "museum_sha256": "b63ae286dfbd7b92d5595337cf14d0a2202c8c6b2b3e9edcd6fbbbb0bbd3c4cd",
+    "school_sha256": "a38c3069a76495a5c5784f6b6f6dafa3b618dbce8809fc043c381b6fcf134774"
+  }
 }
