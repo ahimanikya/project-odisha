@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-21T14:09:18.848263+00:00",
   "article_id": "POD-EDIT-071",
   "route": "/languages/koya/",
-  "status": "research_and_implementation",
+  "status": "integrated_candidate_testing",
   "input_head": "770a675b5259f3408466894a807b588f5a72f7f4",
   "authorization": [
     "POD-DEC-2026101702",
@@ -22,7 +22,7 @@
       "name": "Anvesha",
       "runtime": "/root/anvesha",
       "scope": "Read-only Koya research; temporary report only.",
-      "status": "assigned"
+      "status": "complete"
     },
     {
       "name": "Samanta",
@@ -57,7 +57,7 @@
         "projects/site/tests-coast/voices-passage-sources.test.mjs",
         "projects/site/tests/voices.test.mjs"
       ],
-      "status": "assigned"
+      "status": "complete"
     },
     {
       "name": "Drishti",
@@ -88,6 +88,68 @@
     "merged_at": "2026-10-21T13:35:16Z",
     "observed_at": "2026-10-21T14:09:18.848263+00:00"
   },
-  "worker_reconciliation": "Only root exists in current live-agent inventory. Recreate the three named workers from saved role and handoff records; no continuous runtime claimed. Open PR304 weekly data and281 Ashoka preserved.",
-  "next_action": "Integrate bounded Koya research and implementation, then obtain separate review."
+  "worker_reconciliation": "Initial inventory showed root only. Attempt to recreate Anvesha returned existing-name error; followup_task successfully resumed existing /root/anvesha and /root/samanta. No duplicate workers created or continuous runtime claimed. Drishti will resume for integrated review. Open PR304 weekly data and281 Ashoka preserved.",
+  "next_action": "Integrate bounded Koya research and implementation, then obtain separate review.",
+  "implementation": {
+    "article_id": "POD-EDIT-071",
+    "input_head": "a2ab84a446604fa23872ae47e4db7a9bd3b1d27d",
+    "base_head": "770a675b5259f3408466894a807b588f5a72f7f4",
+    "status": "scaffold_ready_awaiting_canonical_copy_and_map",
+    "files": [
+      "projects/site/src/components/CultureMagazine.astro",
+      "projects/site/src/components/CultureOnward.astro",
+      "projects/site/src/components/LanguagePopulation.astro",
+      "projects/site/src/data/journey-catalog.ts",
+      "projects/site/tests-coast/koya-editorial.test.mjs",
+      "projects/site/tests-coast/balasore-editorial.test.mjs",
+      "projects/site/tests-coast/bhima-editorial.test.mjs",
+      "projects/site/tests-coast/bhubaneswar-editorial.test.mjs",
+      "projects/site/tests-coast/fakir-editorial.test.mjs",
+      "projects/site/tests-coast/gangadhar-editorial.test.mjs",
+      "projects/site/tests-coast/gopinath-editorial.test.mjs",
+      "projects/site/tests-coast/ho-editorial.test.mjs",
+      "projects/site/tests-coast/juang-editorial.test.mjs",
+      "projects/site/tests-coast/kui-editorial.test.mjs",
+      "projects/site/tests-coast/kuvi-editorial.test.mjs",
+      "projects/site/tests-coast/languages-editorial.test.mjs",
+      "projects/site/tests-coast/literature-editorial.test.mjs",
+      "projects/site/tests-coast/living-languages.test.mjs",
+      "projects/site/tests-coast/mayurbhanj-editorial.test.mjs",
+      "projects/site/tests-coast/odia-editorial.test.mjs",
+      "projects/site/tests-coast/pratibha-editorial.test.mjs",
+      "projects/site/tests-coast/puri-editorial.test.mjs",
+      "projects/site/tests-coast/santali-editorial.test.mjs",
+      "projects/site/tests-coast/saora-editorial.test.mjs",
+      "projects/site/tests-coast/sarala-editorial.test.mjs",
+      "projects/site/tests-coast/six-acres-editorial.test.mjs",
+      "projects/site/tests-coast/voices-passage-sources.test.mjs",
+      "projects/site/tests/voices.test.mjs"
+    ],
+    "checks": [
+      "All 24 modified/new tests passed Node24 syntax checks.",
+      "git diff --check passed."
+    ],
+    "preserved": [
+      "Exact Koya opt-in and unchanged previously reviewed language behavior.",
+      "Text identity panel, language/culture anchors and2018 publisher/compiler credits.",
+      "Existing individual Census entry/counts/year/atlas source retained.",
+      "Full portable paragraphs/short sources, original reading identity, no image/translation added.",
+      "Only stale negative controls moved to queued Sambalpuri; genuine Koya assertions unchanged."
+    ],
+    "limits": [
+      "Canonical copy/map pending; no source/rendered/export tests yet.",
+      "No build, source research, browser review, asset/shared-record edits, Git mutation or publishing."
+    ]
+  },
+  "source_audit": "Disha independently read current bare-host SCSTRTI profile, visually inspected original 2024 primer PDF5,10,16 for edition, contributor roles and printed3 lesson; read original catalogue selected printed276 text. Original Census workbook row224 independently verified: 069002 Koya,143676. No source images reproduced.",
+  "census_evidence": {
+    "path": "kb/research/references/census-2011/c16-odisha.xlsx",
+    "sha256": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db",
+    "sheet": "Sheet1",
+    "row": 224,
+    "code": "069002",
+    "persons": 143676
+  },
+  "image_audit": "Actual existing live cover visually inspected: typographic Koya/Malkangiri identity panel, no documentary or synthetic image. Retain this honest panel; original primer pictures remain inspection-only, rights reserved.",
+  "research": "kb/research/voices/koya-research-2026-10-21.json"
 }
