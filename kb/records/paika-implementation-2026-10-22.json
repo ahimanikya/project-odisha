@@ -48,6 +48,21 @@
       "name": "story-source-links, tour-book, journey, discovery-and-books, featured-discovery unit suites",
       "result": "36 passed, 0 failed",
       "log": "/tmp/pod-paika-unit-tests.log"
+    },
+    {
+      "name": "npm run build after root search-hold/static-count fixes",
+      "result": "pass",
+      "log": "/tmp/pod-paika-full-build.log"
+    },
+    {
+      "name": "npm test full suite",
+      "result": "566 passed, 0 failed",
+      "log": "/tmp/pod-paika-full-tests.log"
+    },
+    {
+      "name": "npm run build:publication",
+      "result": "pass; limited mode; 11 indexable pages unchanged",
+      "log": "/tmp/pod-paika-publication.log"
     }
   ],
   "required_root_integration": [
@@ -95,5 +110,6 @@
       "/tmp/pod-paika-mobile-body.png"
     ]
   },
-  "integration_status": "Root supplied canonical JSON, edition, discovery and full portable journey entry. Root corrected three exact entry-count assertions after adding Paika."
+  "integration_status": "Root supplied canonical JSON, edition, discovery and full portable journey entry. Root corrected three exact entry-count assertions after adding Paika.",
+  "ci_followup": "Full suite covers all566 tests; root added explicit Paika search hold and corrected static route count. No further worker edits."
 }
