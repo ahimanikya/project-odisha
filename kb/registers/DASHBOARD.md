@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `5e4c3851bf8dc8764cc09f4a4df3a7fdc896f05918aa0a1d3c5d848577eee368`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `818ac750936b9e504d1924a3c1148f5529dd4d7a68f895c409c2581ffc521bbc`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -329,6 +329,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026101903 · Reconcile and migrate the Odisha project family | completed | reviewed | Ahimanikya Satapathy | Use canonical Odisha family IDs and exact historical aliases; no duplicate records. | — |
 | POD-WORK-303 · Research and publish Paika service, community and Odia heritage | completed | published | Ahimanikya Satapathy | Retain article ownership through observed receipt integration, then build community coverage index and select next evidence-backed community history. | — |
 | POD-WORK-304 · Research and publish Khandayat community history | completed | published | Ahimanikya Satapathy | Retain claim through receipt integration, then select next evidence-backed community history. | — |
+| POD-WORK-305 · Research and publish Chasa community history | in_progress | draft | Ahimanikya Satapathy | Investigate Chasa sources and prepare one evidence-grounded article; do not force publication if material is inadequate. | — |
 
 ## Pending human review and decisions
 
