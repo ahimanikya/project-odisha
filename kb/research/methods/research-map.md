@@ -879,3 +879,7 @@ Reuse `food/rasagola-research-2026-10-21.json`, `food/rasagola-editorial.json`, 
 ### Bose childhood article evidence · 21 October 2026
 
 Reuse `people/subhas-chandra-bose.json`, `people/bose-editorial.json` and `people/bose-research-2026-10-21.json`, alongside the existing `destinations/netaji-museum-editorial.json`, before further research. The individual article distinguishes retrospective schooling and nature recollections from the official museum collection description. The re-typeset autobiography reproduces a 1948 publisher preface; this is not a composition date or manuscript inspection. Both existing documentary photographs retain their original rights and capture dates. No new person identity, field confirmation or programme credit.
+
+### Khandayat community history · 22 October 2026
+
+POD-EDIT-460 reuses Paika research and the source-preserving community coverage index. The original Tanabe2020 source ID is retained. Additional original scholarly chapter, nineteenth-century printed witness and1991–92 village ethnography support social formation, dated classification and local ritual context. Administrative lists do not establish origins or legal status; Khurda evidence is not universal family genealogy. Mapping: `research/communities/khandayat.json`; inspection limits: `research/sources/khandayat-research.json`.

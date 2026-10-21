@@ -9,11 +9,11 @@ This is a research map, not a complete list of Odisha castes. Its [machine-reada
 | Topic | State | Research boundary |
 | --- | --- | --- |
 | [Paika](https://projectodisha.org/communities/paika/) | Published | Historical military/service identity; regional community uses require their own evidence. |
-| Khandayat | Next research candidate | Examine dated records and regional histories; documented service connections do not establish identity equivalence. |
+| Khandayat | Article in progress | Examine dated records and regional histories; documented service connections do not establish identity equivalence. |
 | Paiko | Regional scope unresolved | Compare each regional use before proposing a canonical identity or alias. |
 | Kottia Paiko | Regional scope unresolved | Retain the gazetteer's separately described label; do not infer equivalence with similarly spelled administrative entries. |
 
-The four topics are a starting set, not four categories into which other people should be placed. No next article has been claimed by this index alone.
+The four topics are a starting set, not four categories into which other people should be placed. Khandayat is now claimed separately in the article handoff; the index itself does not confer publication status.
 
 ## Source coverage as accessed on 22 October 2026
 

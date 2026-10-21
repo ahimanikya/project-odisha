@@ -18,7 +18,7 @@
       "name": "Anvesha",
       "runtime": "/root/anvesha",
       "scope": "Read-only historical source research; report /tmp/pod-khandayat-research.json",
-      "status": "assigned"
+      "status": "completed"
     },
     {
       "name": "Samanta",
@@ -27,13 +27,13 @@
         "projects/site/src/pages/communities/khandayat.astro",
         "projects/site/tests-coast/khandayat-editorial.test.mjs"
       ],
-      "status": "assigned"
+      "status": "testing"
     },
     {
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Read-only independent review of integrated candidate",
-      "status": "waiting"
+      "status": "reviewing"
     },
     {
       "name": "Disha",
@@ -42,5 +42,12 @@
     }
   ],
   "worker_reconciliation": "Previous index workers completed; PR423 merge bad2dc5a observed; local receipt a311dcec retained. PR304 and281 unrelated and untouched. No active article existed.",
-  "next_action": "Research and prepare one Khandayat article; no credit before publication receipt."
+  "next_action": "Resolve independent review, complete responsive/build checks, then reviewed PR and approved publication.",
+  "source_report": "research/sources/khandayat-research.json",
+  "review": "records/khandayat-review-2026-10-22.json",
+  "verification": {
+    "source_review": "Separate AI PASS; scoped original sources and budgets checked",
+    "images": "Text-led page; no invented imagery",
+    "record_checks": "Bundle, programme, team, research map and coverage index PASS"
+  }
 }

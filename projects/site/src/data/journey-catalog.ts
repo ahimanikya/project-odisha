@@ -1,3 +1,4 @@
+import khandayat from '../../../../kb/research/communities/khandayat.json';
 import paika from '../../../../kb/research/communities/paika.json';
 import enduriEditorial from '../../../../kb/research/food/enduri-editorial.json';
 import boseEditorial from '../../../../kb/research/people/bose-editorial.json';
@@ -55,6 +56,7 @@ import cityMeal from '../../../../kb/research/food/bhubaneswar.json';
 import regions from '../../../../kb/research/destinations/regions.json';
 const entries=[];
 entries.push({id:'reading:paika',author:paika.author,title:paika.title,kind:'Reading',area:'Odisha',summary:paika.lead,href:'/communities/paika/',checked:paika.checked_on,practical:paika.sections.map(s=>({heading:s.title,text:s.paragraphs.map(p=>p.text).join(' '),paragraphs:s.paragraphs.map(p=>p.text)})),sources:paika.sources.map(({title,url})=>({title,url}))});
+entries.push({id:'reading:khandayat',author:khandayat.author,title:khandayat.title,kind:'Reading',area:'Odisha',summary:khandayat.lead,href:'/communities/khandayat/',checked:khandayat.checked_on,practical:khandayat.sections.map(s=>({heading:s.title,text:s.paragraphs.map(p=>p.text).join(' '),paragraphs:s.paragraphs.map(p=>p.text)})),sources:khandayat.sources.map(({title,url})=>({title,url}))});
 entries.push({id:maritime.save_id,title:maritime.title,kind:'Reading',area:'Odisha and the sea',summary:maritime.lead,href:maritime.href,checked:maritime.reviewed_on,
  practical:[{heading:'Begin with a question',text:maritime.opening},
  ...maritime.chapters.flatMap(c=>[{heading:c.title,text:c.paragraphs.join(' ')},{heading:'A question to carry',text:c.question}]),
