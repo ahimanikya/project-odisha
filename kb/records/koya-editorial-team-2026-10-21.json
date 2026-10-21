@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-21T14:09:18.848263+00:00",
   "article_id": "POD-EDIT-071",
   "route": "/languages/koya/",
-  "status": "published_receipt_pending_integration",
+  "status": "completed_receipt_integrated",
   "input_head": "770a675b5259f3408466894a807b588f5a72f7f4",
   "authorization": [
     "POD-DEC-2026101702",
@@ -16,7 +16,7 @@
     "Reference reading rhythm, exact keyboard returns, preserved learning credits and dated Census scope",
     "Separate AI review, meaningful tests, desktop/mobile checks, merged reviewed PR, approved deployment, live verification and merged receipt"
   ],
-  "ownership": "Disha retains claim through receipt integration.",
+  "ownership": "Released after actual receipt PR414 merge observed.",
   "executions": [
     {
       "name": "Anvesha",
@@ -89,7 +89,7 @@
     "observed_at": "2026-10-21T14:09:18.848263+00:00"
   },
   "worker_reconciliation": "Initial inventory showed root only. Attempt to recreate Anvesha returned existing-name error; followup_task successfully resumed existing /root/anvesha and /root/samanta. No duplicate workers created or continuous runtime claimed. Drishti will resume for integrated review. Open PR304 weekly data and281 Ashoka preserved.",
-  "next_action": "Integrate the independently reviewed receipt after required checks and observed merge before releasing Koya.",
+  "next_action": "Koya complete; next eligible queued article may be claimed.",
   "implementation": {
     "article_id": "POD-EDIT-071",
     "input_head": "a2ab84a446604fa23872ae47e4db7a9bd3b1d27d",
@@ -326,5 +326,12 @@
       "Receipt merge not yet observed; ownership release remains gated."
     ]
   },
-  "receipt_pull_request": "https://github.com/ahimanikya/project-odisha/pull/414"
+  "receipt_pull_request": "https://github.com/ahimanikya/project-odisha/pull/414",
+  "receipt_integration": {
+    "pull_request": 414,
+    "reviewed_head": "12ad584e72d66af00ce514d8c715425a7dad058c",
+    "merge_commit": "392fa983c2ad159f036694882150f94275b72e29",
+    "merged_at": "2026-10-21T14:44:34Z",
+    "observed_at": "2026-10-21T15:06:19.887405+00:00"
+  }
 }

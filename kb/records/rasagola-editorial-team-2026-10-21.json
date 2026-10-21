@@ -1,0 +1,72 @@
+{
+  "recorded_at": "2026-10-21T15:06:19.887405+00:00",
+  "article_id": "POD-EDIT-072",
+  "route": "/food/odisha-rasagola/",
+  "status": "research_and_implementation",
+  "input_head": "392fa983c2ad159f036694882150f94275b72e29",
+  "authorization": [
+    "POD-DEC-2026101702",
+    "POD-DEC-2026101901",
+    "POD-DEC-225"
+  ],
+  "central_question": "What makes Odisha Rasagola a particular sweet, and what do its preparation, ritual, written records and making places actually establish?",
+  "scope": "Individually deepen the existing Rasagola article using original source evidence, preserving documentary photograph rights and honest distinctions between tradition, filed history and invention claims.",
+  "acceptance": [
+    "Concrete sourced preparation and cultural examples; visible numbered notes and full portable reading.",
+    "Separate AI review, responsive checks, required tests, reviewed merged PR, approved deployment and live receipt."
+  ],
+  "ownership": "Disha retains claim through receipt integration.",
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only bounded research; temporary report only.",
+      "status": "assigned"
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/components/RasagolaArticle.astro",
+        "projects/site/src/pages/food/[slug].astro",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/tests-coast/rasagola-editorial.test.mjs",
+        "projects/site/tests-coast/odisha-roots.test.mjs",
+        "projects/site/tests-coast/puri-food-editorial.test.mjs",
+        "projects/site/tests-coast/visitor-experience.test.mjs"
+      ],
+      "status": "assigned"
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Separate read-only integrated candidate review.",
+      "status": "waiting"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": [
+        "kb/research/food/collection.json",
+        "kb/research/food/rasagola-editorial.json",
+        "kb/research/food/rasagola-research-2026-10-21.json",
+        "kb/research/food/odisha-rasagola.md",
+        "shared records and publishing"
+      ],
+      "status": "working"
+    }
+  ],
+  "counting": {
+    "substantive500": 112,
+    "increment": 0
+  },
+  "previous_integration": {
+    "pull_request": 414,
+    "reviewed_head": "12ad584e72d66af00ce514d8c715425a7dad058c",
+    "merge_commit": "392fa983c2ad159f036694882150f94275b72e29",
+    "merged_at": "2026-10-21T14:44:34Z",
+    "observed_at": "2026-10-21T15:06:19.887405+00:00"
+  },
+  "worker_reconciliation": "Actual inventory confirms all three named workers completed their prior tasks; resume existing workers with followup_task. Other open PR304 weekly data and281 Ashoka remain untouched.",
+  "next_action": "Integrate bounded Rasagola research and implementation, then separate review."
+}
