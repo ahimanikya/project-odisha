@@ -1,0 +1,89 @@
+{
+  "recorded_at": "2026-10-21T10:03:45.566354+00:00",
+  "article_id": "POD-EDIT-067",
+  "route": "/languages/kuvi/",
+  "status": "research_and_implementation",
+  "input_head": "434b437596bf65d67234c2632e9386835587674d",
+  "authorization": [
+    "POD-DEC-2026101702",
+    "POD-DEC-2026101901",
+    "POD-DEC-225"
+  ],
+  "central_question": "What changes when a spoken Kuvi expression becomes a written lesson, and how can a learner follow the people, places and choices behind that page?",
+  "scope": "Deepen the distinct Kuvi introduction using actual primary material; preserve Kui distinction, local contributor credits, dated Census limits and text-only identity panel.",
+  "acceptance": [
+    "Individual primary-source and existing-KB review; concrete examples without invented translation or origins.",
+    "Founder byline, readable paragraphs, visible numbered notes/returns, collapsed further reading and visible update/privacy.",
+    "Preserve credible existing typographic identity panel and publication credits; full portable narrative with short source list.",
+    "Separate AI review, meaningful tests, desktop/mobile/keyboard checks, passing PR, approved deployment, actual live verification and integrated receipt."
+  ],
+  "ownership": "Disha retains claim through publication receipt integration.",
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only bounded Kuvi source research; report in temporary file.",
+      "status": "assigned"
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/components/CultureMagazine.astro",
+        "projects/site/src/components/LanguagePopulation.astro",
+        "projects/site/src/components/CultureOnward.astro",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/tests-coast/kuvi-editorial.test.mjs",
+        "projects/site/tests-coast/living-languages.test.mjs",
+        "projects/site/tests-coast/voices-passage-sources.test.mjs",
+        "projects/site/tests/voices.test.mjs",
+        "projects/site/tests-coast/fakir-editorial.test.mjs",
+        "projects/site/tests-coast/balasore-editorial.test.mjs",
+        "projects/site/tests-coast/bhima-editorial.test.mjs",
+        "projects/site/tests-coast/mayurbhanj-editorial.test.mjs",
+        "projects/site/tests-coast/puri-editorial.test.mjs",
+        "projects/site/tests-coast/six-acres-editorial.test.mjs",
+        "projects/site/tests-coast/gangadhar-editorial.test.mjs",
+        "projects/site/tests-coast/bhubaneswar-editorial.test.mjs",
+        "projects/site/tests-coast/gopinath-editorial.test.mjs",
+        "projects/site/tests-coast/literature-editorial.test.mjs",
+        "projects/site/tests-coast/odia-editorial.test.mjs",
+        "projects/site/tests-coast/sarala-editorial.test.mjs",
+        "projects/site/tests-coast/pratibha-editorial.test.mjs",
+        "projects/site/tests-coast/languages-editorial.test.mjs",
+        "projects/site/tests-coast/santali-editorial.test.mjs",
+        "projects/site/tests-coast/visitor-experience.test.mjs",
+        "projects/site/tests-coast/kui-editorial.test.mjs"
+      ],
+      "status": "assigned"
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Separate read-only review of integrated candidate.",
+      "status": "pending"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": [
+        "kb/research/voices/collection.json",
+        "kb/research/voices/kuvi-editorial.json",
+        "kb/research/voices/kuvi-research-2026-10-21.json",
+        "shared records and publication"
+      ],
+      "status": "working"
+    }
+  ],
+  "counting": {
+    "substantive500": 112,
+    "increment": 0
+  },
+  "previous_integration": {
+    "pull_request": 404,
+    "reviewed_head": "4c7b362395ae0cf6c2b61ceb789e92db8d974966",
+    "merge_commit": "434b437596bf65d67234c2632e9386835587674d",
+    "merged_at": "2026-10-21T10:01:02Z",
+    "ci": 39580704981
+  }
+}
