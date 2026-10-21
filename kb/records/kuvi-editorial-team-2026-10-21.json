@@ -55,13 +55,13 @@
         "projects/site/tests-coast/visitor-experience.test.mjs",
         "projects/site/tests-coast/kui-editorial.test.mjs"
       ],
-      "status": "scaffold_ready"
+      "status": "complete"
     },
     {
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Separate read-only review of integrated candidate.",
-      "status": "pending"
+      "status": "reviewing"
     },
     {
       "name": "Disha",
@@ -90,7 +90,7 @@
     "article_id": "POD-EDIT-067",
     "input_head": "85cb96bb9869c62d7cd98f20e68f4ec4e973fe96",
     "base_head": "434b437596bf65d67234c2632e9386835587674d",
-    "status": "scaffold_ready_awaiting_canonical_copy_and_map",
+    "status": "frozen_focused_rendered_checks_pass",
     "files": [
       "projects/site/src/components/CultureMagazine.astro",
       "projects/site/src/components/LanguagePopulation.astro",
@@ -122,7 +122,9 @@
     ],
     "checks": [
       "All 20 modified/new test files passed Node24 syntax checks.",
-      "git diff --check passed."
+      "git diff --check passed.",
+      "Node24 --test --test-name-pattern=\"Kuvi maps\" tests-coast/kuvi-editorial.test.mjs: 1 passed.",
+      "After coordinator coastal build Complete and Coastal candidate458 pages in /tmp/pod-kuvi-coast-build.log: Node24 --test tests-coast/kuvi-editorial.test.mjs tests-coast/kui-editorial.test.mjs tests-coast/living-languages.test.mjs tests-coast/voices-passage-sources.test.mjs: 34 passed, 0 failed."
     ],
     "preserved": [
       "Exact Kuvi-only editorial opt-in; Kui/Santali/Odia retain their current behavior.",
@@ -132,9 +134,16 @@
       "Only stale negative controls move to queued Saora; real Kuvi/Kui links retained."
     ],
     "limits": [
-      "Canonical source map not yet present; source/rendered/export tests await integration.",
-      "No build, source research, browser review, asset/shared-record edits, Git mutations or publishing."
-    ]
+      "No implementation changes required after final canonical content integration.",
+      "Focused tests use coordinator fresh dist-coast; Samanta did not build, perform browser review, edit shared records, mutate Git or publish."
+    ],
+    "integration_input_head": "8b6f146572148042c8a7fc5be4ab25d4cf49965e",
+    "content_counts": {
+      "sections": 5,
+      "paragraphs": 8,
+      "notes": 6,
+      "references": 8
+    }
   },
   "existing_article_audit": {
     "observed_route": "https://projectodisha.org/languages/kuvi/",
@@ -153,5 +162,52 @@
       "sha256": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db"
     }
   },
-  "research": "research/voices/kuvi-research-2026-10-21.json"
+  "research": "research/voices/kuvi-research-2026-10-21.json",
+  "browser_review": {
+    "reviewer": "Disha, AI coordinator",
+    "candidate": "8b6f146572148042c8a7fc5be4ab25d4cf49965e plus source-order-only delta",
+    "viewports": [
+      [
+        1440,
+        900
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "reading_widths": [
+      740,
+      343.1953125
+    ],
+    "font_px": [
+      18,
+      17
+    ],
+    "line_height_px": [
+      33.3,
+      30.6
+    ],
+    "horizontal_overflow": false,
+    "media": "Existing text-only identity panel retained, visually inspected; no image or script specimen invented.",
+    "notes": 6,
+    "references": 8,
+    "returns": 8,
+    "keyboard": "Enter reaches note-kuvi-ciil with matching focus; exact return reaches ref-identity-0-kuvi-ciil with focus at both widths. Further reading initially closed and opens with Enter; update link outside disclosures.",
+    "screenshots": [
+      "records/evidence/kuvi-editorial-2026-10-21/desktop-notes.png",
+      "records/evidence/kuvi-editorial-2026-10-21/mobile-notes.png",
+      "records/evidence/kuvi-editorial-2026-10-21/mobile-hero.png",
+      "records/evidence/kuvi-editorial-2026-10-21/mobile-reading.png",
+      "records/evidence/kuvi-editorial-2026-10-21/desktop-reading.png",
+      "records/evidence/kuvi-editorial-2026-10-21/desktop-hero.png"
+    ],
+    "limits": [
+      "Browser viewport emulation, not physical-device or screen-reader review."
+    ]
+  },
+  "validation_notes": [
+    "Full566/566 and coast373/373 tests passed, including rerun after source numbering reordered by first appearance.",
+    "Publication packaging retains11indexable routes. No search eligibility or substantive programme change."
+  ]
 }
