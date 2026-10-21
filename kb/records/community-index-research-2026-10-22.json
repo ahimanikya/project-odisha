@@ -1,0 +1,146 @@
+{
+  "task_id": "POD-TASK-COMMUNITY-INDEX-20261022",
+  "researcher": "Anvesha, separate AI researcher",
+  "input_head": "677a3ce0dc89c4ee1e6fbb8b0ce61ecb1b65a1e9",
+  "recorded_at": "2026-10-21T20:18:30.147447+00:00",
+  "sources": [
+    {
+      "id": "odisha-community-list-landing",
+      "title": "Odisha department: List of Communities",
+      "url": "https://stsc.odisha.gov.in/en/about-us/list-of-communities",
+      "accessed_on": "2026-10-22",
+      "scope": "Inventory of four current download links on the departmental page",
+      "status": "inspected",
+      "limits": [
+        "Landing page links administrative lists, not an exhaustive census of Odisha community identities."
+      ]
+    },
+    {
+      "id": "odisha-st-linked-2024",
+      "title": "List of Scheduled Tribes (department-linked PDF)",
+      "url": "https://stsc.odisha.gov.in/sites/default/files/2024-03/ST%20Community%20List%20Final.pdf",
+      "accessed_on": "2026-10-22",
+      "scope": "Two-page linked PDF; header and numbered entries1–64 inspected through original PDF extraction; only selected source observation retained",
+      "status": "inspected",
+      "limits": [
+        "Header cites Act6 of2024 dated15.02.2024 and state notification2232 dated20.02.2024; this is stated amendment context, not independent present-day legal validation.",
+        "Serial numbering is not a count of unique historical identities; grouped names and regional qualifiers must remain intact.",
+        "No legal entitlement determination or automatic alias equivalence."
+      ]
+    },
+    {
+      "id": "odisha-sc-linked-2024",
+      "title": "List of Scheduled Castes (department-linked PDF)",
+      "url": "https://stsc.odisha.gov.in/sites/default/files/2024-03/SC%20Community%20List%20Final.pdf",
+      "accessed_on": "2026-10-22",
+      "scope": "Three-page linked PDF; header and serials1–95 inspected, including deleted entries; selected observations retained",
+      "status": "inspected",
+      "limits": [
+        "Header cites Act6 of2024 dated15.02.2024 and notification2232 dated20.02.2024; later changes not independently audited.",
+        "Numbered rows include deletion notices, not95 currently listed communities.",
+        "District restrictions and amendment text must accompany labels; no entitlement determination."
+      ]
+    },
+    {
+      "id": "odisha-sebc-linked-20240119",
+      "title": "List of SEBC as per Notification of Government of Odisha (19January2024 filename)",
+      "url": "https://stsc.odisha.gov.in/sites/default/files/2024-01/216%20REVISED%20LIST%20OF%20SEBC%20AS%20PER%20NOTIFICATION%20OF%20GOVERNMENT%20OF%20ODISHA%2019.01.2024%20Final.pdf",
+      "accessed_on": "2026-10-22",
+      "scope": "All216 numbered rows extracted with page-continuation segments and verbatim adjacent qualification cells from20-page original PDF",
+      "status": "inspected",
+      "limits": [
+        "Filename and PDF creation/modification metadata say19January2024; individual rows carry earlier notification dates. Do not confuse capture/compilation date with every row notification date.",
+        "216 is numbered source rows, including deleted labels and repeated/grouped names, not216 unique communities or proof of current legal status.",
+        "Extraction preserves newline text but cannot reproduce typography; raw_segments retain page and qualifier association.",
+        "OnlyPDF13–14 containing row138 visually checked in this pass; all rows have table-structure checks, not full manual proofreading.",
+        "-do- and empty continuation qualifiers preserved literally; no inferred expansion or automatic legal interpretation.",
+        "No automatic comma/slash splitting or aliases."
+      ],
+      "capture": {
+        "bytes": 420676,
+        "sha256": "c9007da5b4b1d25b614dc2cca086505ab5ef6b1951ee95cc09980a9c5c5efddb",
+        "pages": 20,
+        "pdf_creation_date": "D:20240119123138+05'30'",
+        "extraction": "pdfplumber table cells, main table per page; row-number continuity1–216",
+        "visual_checks": [
+          "PDF13",
+          "PDF14"
+        ]
+      }
+    },
+    {
+      "id": "odisha-obc-central-linked",
+      "title": "Odisha OBC List (Central), department-linked PDF",
+      "url": "https://stsc.odisha.gov.in/sites/default/files/2021-09/OBC_List_Central_Web-upload_.pdf",
+      "accessed_on": "2026-10-22",
+      "scope": "Six-page original linkedPDF, serials1–200 including Nil/deletion rows; selected Paiko/Chasa source observations retained",
+      "status": "inspected",
+      "limits": [
+        "2021-09 is upload-path component, not verified edition date. Rows include individual central notifications, including a2017deletion.",
+        "Current NCBC amendments and legal eligibility not independently audited.",
+        "StateSEBC and centralOBC are separate source inventories; do not equate their row numbers or grouped labels.",
+        "200 serial numbers include Nil/deleted slots; not200 unique communities."
+      ]
+    }
+  ],
+  "observations": [],
+  "checks": [
+    "All4PDFURLs followed from original landing page, not guessed.",
+    "ST,SC,OBC original PDF text accessed viaweb.",
+    "SEBCwebfetch timedout; sandboxcurlDNS failed; approved directcurl downloaded original410.82KB PDF.",
+    "Extracted216 unique contiguous serials with no missing1–216.",
+    "Kept multiline continuation segments across page breaks.",
+    "Visually readPDF13–14; row138 deletion and addenda checked.",
+    "No comma splitting, deduplication, corrected spelling or legal status inferred."
+  ],
+  "seed_recommendations": [
+    {
+      "topic": "Paika",
+      "evidence": [
+        "published /communities/paika/",
+        "existing paika-tanabe2020 and paika-khordha-history research"
+      ],
+      "relation": "historical military/service identity; not equal to all listedPaiko labels"
+    },
+    {
+      "topic": "Khandayat",
+      "evidence": [
+        "paika-tanabe2020",
+        "sebc-row-138"
+      ],
+      "relation": "distinct proposed historical/community article; service overlap documented; administrative grouping not shared ancestry"
+    },
+    {
+      "topic": "Oda Paika / Oda Paiko",
+      "evidence": [
+        "sebc-row-138"
+      ],
+      "relation": "source-listed related label lead; defer canonicalalias until specific historical/community evidence"
+    },
+    {
+      "topic": "Kottia Paiko / Kotia comparison",
+      "evidence": [
+        "paika-koraput-gazetteer",
+        "st-row-040"
+      ],
+      "relation": "unresolved cross-source comparison, not alias or legal classification"
+    },
+    {
+      "topic": "Chasa",
+      "evidence": [
+        "paika-tanabe2020",
+        "sebc-row-027",
+        "obc-row-177"
+      ],
+      "relation": "distinct next research candidate; cannot merge withKhandayat based on status-mobility history or administrative list"
+    }
+  ],
+  "remaining_limits": [
+    "All216SEBCrows extracted but full manual source-to-row proofreading remains.",
+    "ST,SC,centralOBC not comprehensively row-extracted in this bounded task.",
+    "No exhaustive all-Odisha caste count; no present-day legal classification opinion.",
+    "Current residents/community self-identification and origin traditions require source-specific research."
+  ],
+  "repository_edits": [],
+  "observations_home": "research/communities/coverage-index.json"
+}
