@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-21T16:06:44.627670+00:00",
   "article_id": "POD-EDIT-073",
   "route": "/people/subhas-chandra-bose/",
-  "status": "integrated_candidate_testing",
+  "status": "candidate_review",
   "input_head": "ceadbe0eb1a633530d91f0f32968adb6642feea8",
   "authorization": [
     "POD-DEC-2026101702",
@@ -66,7 +66,7 @@
     "merged_at": "2026-10-21T15:41:35Z",
     "observed_at": "2026-10-21T16:06:44.627670+00:00"
   },
-  "next_action": "Integrate bounded research and implementation, then separate review.",
+  "next_action": "Final separate evidence review, required PR checks, reviewed merge and approved publication.",
   "implementation": {
     "article_id": "POD-EDIT-073",
     "input_head": "80db9dfa4ab244f30c72882851b081fac9c40153",
@@ -127,5 +127,77 @@
     "result": "Both existing photographs visually inspected and retained; museum 2014, school 2013, physically credible later architectural views. Fresh Commons pages confirm creator, capture dates and CC BY-SA licences. No childhood scene or classroom identification inferred. Both website frames contained; portable reading retains its existing museum image only.",
     "museum_sha256": "b63ae286dfbd7b92d5595337cf14d0a2202c8c6b2b3e9edcd6fbbbb0bbd3c4cd",
     "school_sha256": "a38c3069a76495a5c5784f6b6f6dafa3b618dbce8809fc043c381b6fcf134774"
+  },
+  "validation_notes": [
+    "Full build and566/566tests PASS; coast build and408/408tests PASS; publication limited11 indexable unchanged.",
+    "All457 directory routes and404 reconcile to458 rollout entries; no new article route.",
+    "Minor EOF blank line from separate review trimmed; complete base diff whitespace check passes.",
+    "Actual Chrome desktop1440x900/mobile390x844 visual and keyboard checks pass: footnote focus and exact return, collapsed Further reading opens with Enter, preserved breadcrumb and school photo.",
+    "Desktop740px column,18px/33.3px; mobile343.2px,17px/30.6px; no horizontal overflow; both website images loaded and contained.",
+    "Browser emulation only; no physical-device or screen-reader test. No publication or completion yet."
+  ],
+  "responsive": {
+    "reviewer": "Disha",
+    "candidate_content_head": "280656b87c4e328c85c30b008ec87391ebe388c4",
+    "screenshots": [
+      "kb/records/evidence/bose-editorial-2026-10-21/desktop-cover.jpg",
+      "kb/records/evidence/bose-editorial-2026-10-21/desktop-body.jpg",
+      "kb/records/evidence/bose-editorial-2026-10-21/desktop-notes.jpg",
+      "kb/records/evidence/bose-editorial-2026-10-21/mobile-cover.jpg",
+      "kb/records/evidence/bose-editorial-2026-10-21/mobile-school.jpg",
+      "kb/records/evidence/bose-editorial-2026-10-21/mobile-notes.jpg"
+    ],
+    "desktop_keyboard": "first-school reference → note-bose-indian-pilgrim → exact first-school reference; focus confirmed.",
+    "mobile_keyboard": "ravenshaw second paragraph reference → same note → exact ravenshaw-1 reference; focus confirmed.",
+    "reading_paths": [
+      "/visit/experiences/cuttack-netaji/",
+      "/destinations/cuttack/",
+      "/food/cuttack/",
+      "/food/odisha-rasagola/",
+      "/journey/"
+    ],
+    "limit": "No physical-device or screen-reader test."
+  },
+  "review": {
+    "reviewer": "Drishti — separate AI reviewer",
+    "article_id": "POD-EDIT-073",
+    "route": "/people/subhas-chandra-bose/",
+    "input_head": "280656b87c4e328c85c30b008ec87391ebe388c4",
+    "base_head": "ceadbe0eb1a633530d91f0f32968adb6642feea8",
+    "result": "CONTENT_CODE_PASS_PENDING_FINAL_EVIDENCE",
+    "blocking_findings": [],
+    "minor_findings": [
+      {
+        "file": "projects/site/tests-coast/bose-editorial.test.mjs:65",
+        "finding": "New blank line at EOF flagged by git diff --check; sent to coordinator to trim in final evidence commit.",
+        "status": "pending"
+      }
+    ],
+    "findings": [
+      "Actual selected autobiography reproduction supports birth/school dates, English/Bengali contrast, annual result, continuing correspondence and explicit uncertainty about ethical effect.1948 is correctly identified as reproduced preface date,not composition date.",
+      "Official museum overview supports letters,certificates,photographs; article does not identify individual objects as inspected originals or promise school access.",
+      "Independent book-derived public body+source title+note count178; source examples are not split into artificial chapter budgets.",
+      "Both documentary photographs and metadata retained unchanged; actual Commons pages confirm creators,capture dates and CC BY-SA4.0/3.0. Local pixels show credible later architectural views,not childhood scenes.",
+      "Exact standalone route/component and one catalog entry opt in; all five anchors,eight paragraphs,two notes,six exact reference/return pairs retained. Portable contains all narrative and concise sources; existing single museum-photo limitation documented.",
+      "Enduri control and adjacent Rasagola behavior pass. Programme bytes unchanged112;sole073active,62completed76excluded319queued."
+    ],
+    "actual_checks": [
+      "Read AGENTS,editorial standard,current handoff,research dossier,map,canonical prose and exact implementation diff.",
+      "Read selected local original reproduction text,preface/birth/school passages; visually inspected printed40 and46. SHA25632f3d9c410244a6ecd46d239818fb77d41ae10b8cbc0c031b5513a368fb03ca3 verified.",
+      "Fresh web reads of IncredibleIndia selected collection paragraph and both original Commons file metadata/licensing pages; independently viewed both local photographs.",
+      "Node24 tests-coast/bose-editorial.test.mjs,odisha-roots.test.mjs,rasagola-editorial.test.mjs,visitor-experience.test.mjs:20/20PASS on fresh dist-coast.",
+      "article_rollout/check_team_assignments/check_autonomous_program/registers/build_workbench/validate_research_map checksPASS;1116records639events.",
+      "Independent asset JSON preservation,programme byte comparison and source word count. git diff --check identified minor EOFblankline."
+    ],
+    "coordinator_reported_checks": [
+      "Full566/566,coast408/408,publication11indexablePASS; interactive browser checks pending final evidence."
+    ],
+    "limits": [
+      "Separate AI review only; no human,historian,fieldvisit,schoolaccess or museum-object confirmation.",
+      "Selected re-typeset autobiography reproduction,not fullbook review,manuscript or critical-edition collation; original correspondence not inspected.",
+      "No independent interactive browser or live publication checks; final screenshot/evidence delta remains to review.",
+      "No own build or broad-suite rerun;focused20tests and validators only. Portable retains existing museum image only; school image remains website-only.",
+      "No repository/Git/publishing changes;only temporary review JSON written."
+    ]
   }
 }
