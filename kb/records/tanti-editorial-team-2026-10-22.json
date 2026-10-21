@@ -1,0 +1,55 @@
+{
+  "task_id": "POD-TASK-TANTI-20261022",
+  "article_id": "POD-EDIT-462",
+  "programme_id": "POD-A500-116",
+  "work_id": "POD-WORK-306",
+  "status": "in_progress",
+  "input_head": "0e331eaf45c426596e7f2e3c6fe627dc8ea80f49",
+  "started_at": "2026-10-21T23:21:58.839523+00:00",
+  "route": "/communities/tanti/",
+  "scope": "Tanti histories in Odisha: weaving occupation and community names, regional distinctions, documented formation versus origin accounts, inherited craft and change. Do not merge all weaving communities or treat administrative grouping as ancestry.",
+  "acceptance": [
+    "Original sources support distinct regional community history beyond generic textile technique; clearly distinguish dated evidence and origin traditions.",
+    "Canonical KB and source mapping, readable website, rights-aware media, numbered notes and meaningful reader paths.",
+    "Separate AI review, full/coastal tests and responsive checks, reviewed merge, approved deployment and live receipt before count."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only source research /tmp/pod-tanti-research.json",
+      "status": "completed",
+      "report": "kb/research/sources/tanti-research.json"
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/pages/communities/tanti.astro",
+        "projects/site/tests-coast/tanti-editorial.test.mjs"
+      ],
+      "status": "completed"
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Read-only integrated source and candidate review",
+      "status": "reviewing"
+    },
+    {
+      "name": "Disha",
+      "scope": "Canonical narrative, shared records and sole publishing",
+      "status": "working"
+    }
+  ],
+  "worker_reconciliation": "Chasa team completed; PR427 merge81be904a observed and no active article. Unrelated PR304/281 untouched. Existing workers reused.",
+  "next_action": "Complete candidate tests and independent AI review, then reviewed PR and authorized publication.",
+  "source_report": "research/sources/tanti-research.json",
+  "review_scope": "Separate Drishti AI review; original source table and dated regional accounts; no human review.",
+  "implementation": "records/tanti-implementation-2026-10-22.json",
+  "verification": {
+    "tests": "566 full and430coast passed; publication11indexable",
+    "responsive": "1440desktop/390mobile; notes,returns,contents,previewSave andKhandua link passed",
+    "record_checks": "programme/team/bundle/researchmap/coverage passed"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "task_id": "POD-TASK-TANTI-20261022",
+  "article_id": "POD-EDIT-462",
+  "worker": "Samanta, AI implementation agent",
+  "input_head": "99ac43b454f165fb22eb9be748deacc9595eb027",
+  "handoff_input_head": "0e331eaf45c426596e7f2e3c6fe627dc8ea80f49",
+  "status": "implementation and local verification passed",
+  "actual_edits": [
+    "projects/site/src/pages/communities/tanti.astro",
+    "projects/site/tests-coast/tanti-editorial.test.mjs"
+  ],
+  "implementation": [
+    "Canonical source-driven page with byline, numbered notes and exact backlinks.",
+    "Shared reading rhythm and contents; collapsed further reading and visible correction.",
+    "SaveJourney reading:tanti; portable full prose and short-source tests.",
+    "No fixed source counts, invented narrative or identity imagery."
+  ],
+  "tests": [
+    {
+      "name": "Node24 syntax check",
+      "result": "pass"
+    },
+    {
+      "name": "git diff --check",
+      "result": "pass"
+    },
+    {
+      "name": "full build and npm test",
+      "result": "566/566 pass",
+      "log": "/tmp/pod-tanti-full-tests.log"
+    },
+    {
+      "name": "coast build and tests",
+      "result": "430/430 pass",
+      "log": "/tmp/pod-tanti-coast-tests.log"
+    },
+    {
+      "name": "publication build",
+      "result": "pass; limited11 indexable",
+      "log": "/tmp/pod-tanti-publication.log"
+    }
+  ],
+  "pending": [
+    "Separate review, CI, merge/deployment and live check after coordinator signal"
+  ],
+  "limits": [
+    "Only reserved page/test edited. No shared records or Git mutations.",
+    "No factual research or publication.",
+    "Preview-only save; no production mutation."
+  ],
+  "resolved_failures": [
+    "First coast run429/430: Jhula obsolete-brand regex matched Kabira prefix of named maker Kabiraj in embedded journey catalog. Disha added word boundary;430/430 pass afterward."
+  ],
+  "responsive": {
+    "tool": "CUA Chrome",
+    "desktop": "1440x1000;740px reading column; no overflow",
+    "mobile": "390x844;390px article width; no overflow",
+    "notes": "Footnote1 focuses note-tanti-stirling1825-census1961; return focuses ref-recorded-name-0-tanti-stirling1825-census1961",
+    "contents": "Bomkai link focuses bomkai-home heading",
+    "further_reading": "Collapsed default and opens on click; Khandua link navigates successfully to /textiles/khandua/ with Khandua heading",
+    "save": "Local preview Saved to my journey persists reload",
+    "screenshots": [
+      "/tmp/pod-tanti-desktop.png",
+      "/tmp/pod-tanti-mobile.png",
+      "/tmp/pod-tanti-mobile-body.png"
+    ]
+  }
+}
