@@ -9,7 +9,11 @@ test('both pitha stories carry licensed photographs, sources and portable practi
   assert.match(html,/noindex, nofollow/);assert.ok(html.includes(asset.creator));assert.ok(html.includes(asset.license_url));assert.ok(html.includes(asset.alt));
   assert.equal(createHash('sha256').update(readFileSync('dist-coast'+asset.src)).digest('hex'),asset.sha256);
   assert.ok(read('/food/').includes(page.save_id));assert.ok(read('/explore/').includes('/food/'+slug+'/'));
-  assert.ok(html.includes('human editorial review pending'));
+  if(slug==='enduri-pitha'){
+   assert.match(html,/By Ahimanikya Satapathy/);assert.match(html,/id="story-sources"/);assert.match(html,/Footnotes &amp; Sources/);assert.doesNotMatch(html,/human editorial review pending/);
+  }else{
+   assert.ok(html.includes('human editorial review pending'));assert.doesNotMatch(html,/class="article-byline"|id="story-sources"/);
+  }
  }
 });
 test('food crosslinks connect the new stories without changing an existing saved-item identity',()=>{

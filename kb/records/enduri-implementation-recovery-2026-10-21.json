@@ -3,7 +3,9 @@
   "worker": "Samanta, separate AI implementation agent",
   "input_head": "089327801dff7c48af5c5971fbb96343d391ab17",
   "status": "recovered implementation verified",
-  "new_edits": [],
+  "new_edits": [
+    "projects/site/tests-coast/pitha.test.mjs"
+  ],
   "preserved_edits": [
     "projects/site/src/pages/food/[slug].astro",
     "projects/site/src/components/EnduriArticle.astro",
@@ -65,7 +67,16 @@
   "limits": [
     "No canonical/shared record changes, Git mutation or publishing.",
     "No independent factual, human, or culinary review claimed.",
-    "Only six affected editorial suites run here, not all repository tests.",
     "Existing photo changes metadata still says display framing may crop edges; actual new article displays contain without cropping."
-  ]
+  ],
+  "ci_followup": {
+    "input_head": "2325b1f04f2dc2938fc04870263825e2a7919077",
+    "cause": "Legacy combined pitha test required obsolete pending-review boilerplate for Enduri.",
+    "change": "Enduri now asserts Founder byline and visible numbered source section with no legacy boilerplate; Poda still asserts legacy disclosure and no new byline/source section. All photograph, source, practical-note and held-scope checks retained.",
+    "test": "npm run test:coast using Node v24.15.0 against existing coastal build",
+    "result": "414 passed, 0 failed",
+    "log": "/tmp/pod-enduri-full-coast-tests.log",
+    "diff_check": "pass",
+    "limits": "Test-only correction; no new build or visual review required because article source and rendered output unchanged. No Git/shared-record mutation."
+  }
 }

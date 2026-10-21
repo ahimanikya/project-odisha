@@ -35,9 +35,10 @@
         "projects/site/tests-coast/rasagola-editorial.test.mjs",
         "projects/site/tests-coast/chhena-poda-editorial.test.mjs",
         "projects/site/tests-coast/mudhi-mansa-editorial.test.mjs",
-        "projects/site/tests-coast/chandipur-meal-editorial.test.mjs"
+        "projects/site/tests-coast/chandipur-meal-editorial.test.mjs",
+        "projects/site/tests-coast/pitha.test.mjs"
       ],
-      "status": "build_tests_and_responsive_pass",
+      "status": "full_coastal_414_pass",
       "scope_note": "Three additional prior-article suites may move only their obsolete untouched Enduri negative controls to queued Poda Pitha; no other article changes."
     },
     {
@@ -91,5 +92,17 @@
     ],
     "result": "PASS",
     "evidence": "records/enduri-implementation-recovery-2026-10-21.json"
-  }
+  },
+  "ci_recovery": [
+    {
+      "run": 39651373214,
+      "failure": "Stale generated editorial-workbench input hashes",
+      "resolution": "Regenerated in 2325b1f0; subsequent CI passed this gate."
+    },
+    {
+      "run": 39651711389,
+      "failure": "Legacy pitha test expects obsolete human-review-pending boilerplate on revised Enduri",
+      "resolution": "Corrected Enduri expectation; unchanged Poda remains checked. Full coastal suite414 passed."
+    }
+  ]
 }
