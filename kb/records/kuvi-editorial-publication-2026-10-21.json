@@ -1,0 +1,163 @@
+{
+  "recorded_at": "2026-10-21T10:25:18.032748+00:00",
+  "authorization": [
+    "POD-DEC-2026101702",
+    "POD-DEC-2026101901",
+    "POD-DEC-225"
+  ],
+  "work_id": "POD-WORK-302",
+  "queue_item": "POD-EDIT-067",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/405",
+  "reviewed_head": "0426a2ccf20d2447baf5c181f27811ec70c73e25",
+  "merge_commit": "8c576dfcf6cf5bab1137efddce5dc3b6c2452032",
+  "validation": {
+    "conclusion": "success",
+    "databaseId": 39583230017,
+    "headSha": "0426a2ccf20d2447baf5c181f27811ec70c73e25",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39583230017"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "databaseId": 39583802873,
+    "headSha": "8c576dfcf6cf5bab1137efddce5dc3b6c2452032",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39583802873"
+  },
+  "live_checks": {
+    "checked_at": "2026-10-21T10:24:40.457944+00:00",
+    "url": "https://projectodisha.org/languages/kuvi/",
+    "http_status": 200,
+    "html_sha256": "fcdd253d1a3e304672cde961447963740094042a81f78115e0693a2e94a00e4c",
+    "visible_notes": 6,
+    "references": 8,
+    "exact_returns": 8,
+    "checks": {
+      "byline": true,
+      "specific_prose": true,
+      "credits": true,
+      "noindex": true,
+      "notes": true,
+      "exact_returns": true,
+      "preserved_anchors": true,
+      "old_evidence_limit": true,
+      "visible_update": true
+    },
+    "unchanged_sitemap_count": 11,
+    "route_inventory": {
+      "directory_indexes": 457,
+      "separate_error_page": "/404.html",
+      "unregistered_routes": [],
+      "total_registered_routes": 458
+    },
+    "browser": {
+      "checked_at": "2026-10-21T10:25:12.343Z",
+      "url": "https://projectodisha.org/languages/kuvi/",
+      "reviewer": "Disha, AI coordinator",
+      "desktop": {
+        "height": 900,
+        "notes": 6,
+        "refs": 8,
+        "scrollWidth": 1440,
+        "width": 1440
+      },
+      "mobile": {
+        "focus": "ref-identity-0-kuvi-ciil",
+        "hash": "#ref-identity-0-kuvi-ciil",
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      },
+      "keyboard": "Enter reaches note-kuvi-ciil and exact ref-identity-0-kuvi-ciil return at both sizes.",
+      "visual_result": "PASS: saved desktop reading shelf and mobile article screenshots inspected; readable, no horizontal overflow.",
+      "screenshots": [
+        "records/evidence/kuvi-editorial-2026-10-21/live-desktop.png",
+        "records/evidence/kuvi-editorial-2026-10-21/live-mobile.png"
+      ],
+      "limitations": "Viewport emulation, no physical-device or screen-reader review."
+    }
+  },
+  "test_review_and_source_mapping": "records/kuvi-editorial-team-2026-10-21.json",
+  "final_review": {
+    "reviewer": "Drishti, separate AI reviewer /root/drishti; not human review",
+    "input_head": "0426a2ccf20d2447baf5c181f27811ec70c73e25",
+    "base": "434b437596bf65d67234c2632e9386835587674d",
+    "result": "PASS",
+    "blocking_findings": [],
+    "actual_source_checks": [
+      "Fresh CIIL Kuvi collection HTML opened: Dravidian classification, Odisha/Andhra Pradesh and Odia script support bounded claims; rounded176000 not substituted for census.",
+      "Actual original publisher HTML /tmp/pod-kuvi-folk.html inspected: author/editor/year fields and description confirm12tales20songs35riddles,modifiedOriya,2000. Article clearly limits this to catalogue description, with no claims about individual uninspected texts. SHA256932c966607dbf4a08b09b34dcbd9c2fd6961626565b31ae428a5847a529578c2.",
+      "Original Kuwi Primer SHA2567678dd1a8db39ad178f850d77f5886a0e38059df29592f73ef7166deead68071; independently visually read supplied page5credits,9/10charts,13lesson renders. Workshop NCERT/CentralUniversityOdisha credit, Patnaik/Patel/Tadingi roles, house/brick/soil/cat and writing boxes match prose. No inferred publication year or transfer of Kui2024 attribution.",
+      "Independently inspected original C-16 XLSX Sheet1 XML row206:058006Kuvi6451total2912male3539female. Mother-tongue geography/year and KHOND/KONDH distinction retained."
+    ],
+    "source_limits": [
+      "2018booklet retains prior1October selected-page inspection; fresh failure openly stated. Drishti did not repeat booklet retrieval or review whole folk collection.",
+      "No fluent-language, pronunciation, translation, community or teaching-outcome review. Source pages/images linked and described, not publicly reproduced.",
+      "Word audit including entire lead, mappedbody, title and note:CIIL92,folk118,primer161,booklet110; booklet adds65 retained shelf words=175. All below200 per source under this conservative allocation."
+    ],
+    "implementation_checks": [
+      "Exact-route opt-in for Kuvi in shared byline/notes/onward/population/portable components; other collection pages and assets equal base.",
+      "Five sections/eight paragraphs, six source notes/eight markers including repeated census, full portable paragraphs once with short sources and website link.",
+      "Text-only identity cover retained; existing learning shelf contributor/publisher/edition credits retained. No image invented.",
+      "Negative legacy controls change Kuvi to queued Saora; actual Kuvi/Kui relationships preserved. Targeted tests include legacy controls and prior Kui/Santali editorial behavior.",
+      "Programme/population files unchanged; only067inprogress, prior066 integration reconciled separately. Claim retained."
+    ],
+    "tests": [
+      {
+        "command": "node --test tests-coast/kuvi-editorial.test.mjs tests-coast/kui-editorial.test.mjs tests-coast/santali-editorial.test.mjs tests-coast/voices-passage-sources.test.mjs tests-coast/living-languages.test.mjs tests/voices.test.mjs",
+        "runtime": "Node24.15.0",
+        "cwd": "projects/site",
+        "result": "PASS42/42 independently executed on fresh built outputs"
+      },
+      {
+        "command": "article_rollout.py --check; check_team_assignments.py; check_autonomous_program.py; build_workbench.py --check; validate_research_map.py; git diff --check",
+        "result": "All PASS;56completed76excluded1inprogress325queued, programme112 unchanged"
+      },
+      {
+        "command": "node --test tests-coast/kuvi-editorial.test.mjs tests-coast/voices-passage-sources.test.mjs",
+        "runtime": "Node24.15.0",
+        "cwd": "projects/site",
+        "result": "PASS25/25 independently rerun after final source-order rebuild"
+      },
+      {
+        "command": "article_rollout.py --check; check_team_assignments.py; check_autonomous_program.py; git diff --check 434b4375..HEAD",
+        "result": "PASS at final head,56completed76excluded1inprogress325queued"
+      }
+    ],
+    "coordinator_checks_observed": [
+      "Fresh final full566/566 and coast373/373 PASS log tails independently inspected; full builds/suites performed by Disha.",
+      "Disha records1440x900/390x844,740/343.1953125reading widths,18/17pxfont,33.3/30.6pxlineheight,nooverflow,6notes8refs8returns; Enter note and exactreturn focus plus collapsed Further reading opens at both widths. Three saved screenshots independently inspected by Drishti."
+    ],
+    "limitations": [
+      "Separate AI review, not human, fluent-language, field, physical-device or screen-reader review. Original source-inspection limits remain.",
+      "Drishti ran bounded tests, source/code checks and screenshot review; full builds and interactive browser checks remain Disha evidence.",
+      "No repository/Git mutation or publication by Drishti; temporary report only. Required CI, merged reviewed head, approved deployment, live verification and receipt integration remain outstanding. Article remains in_progress with Disha ownership retained."
+    ],
+    "initial_reviewed_head": "8b6f146572148042c8a7fc5be4ab25d4cf49965e",
+    "final_delta_review": {
+      "scope": "Source array reordered by first appearance only; all source objects and passage mappings equal prior reviewed candidate. Other delta is six screenshots plus coordinator execution/browser evidence. No article prose or implementation changes.",
+      "screenshots_independently_inspected": [
+        "kb/records/evidence/kuvi-editorial-2026-10-21/desktop-reading.png",
+        "kb/records/evidence/kuvi-editorial-2026-10-21/mobile-hero.png",
+        "kb/records/evidence/kuvi-editorial-2026-10-21/mobile-notes.png"
+      ],
+      "visual_result": "Centered readable desktop narrative with sequential1/2/3 markers, mobile text-only identity cover and wrapping source notes; no apparent clipping. Interactive exact-focus return and disclosure results are Disha observations, not independently repeated."
+    }
+  },
+  "integration_review": {
+    "head": "8c576dfcf6cf5bab1137efddce5dc3b6c2452032",
+    "result": "pass",
+    "scope": "Published merge tree identical to separately reviewed candidate."
+  },
+  "attachment_note": "PR attachment attempted; app 100-attachment limit reached; actual URL retained.",
+  "counting": "One editorial article; zero substantive 500 increment. Programme remains 112.",
+  "limitations": [
+    "Separate AI research, implementation and review; not human, fluent-language or field review.",
+    "2018 booklet retains 1 October inspection after fresh retrieval failure; folk texts not inspected and no translation or primer date invented.",
+    "Browser viewport emulation, not physical-device or screen-reader testing."
+  ],
+  "verified_routes": [
+    "/languages/kuvi/"
+  ],
+  "receipt_integration": "Effective only after receipt PR passes required checks and merges; observed merge must be reconciled before releasing article claim."
+}

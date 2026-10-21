@@ -21630,6 +21630,31 @@
         "Tahii catalogue and2018booklet retain1October inspection after fresh retrieval failures; no plot or vocabulary translation inferred.",
         "Browser viewport emulation, not physical-device or screen-reader testing."
       ]
+    },
+    {
+      "id": "POD-REV-2026102104",
+      "title": "Separate Kuvi article and source review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent /root/drishti"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human or fluent-language review.",
+      "reviewed_head": "0426a2ccf20d2447baf5c181f27811ec70c73e25",
+      "refs": [
+        "POD-WORK-302",
+        "POD-DEC-2026101901",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/kuvi-editorial-team-2026-10-21.json"
+      ],
+      "limitations": [
+        "Separate AI research, implementation and review; not human, fluent-language or field review.",
+        "2018 booklet retains 1 October inspection after fresh retrieval failure; folk texts not inspected and no translation or primer date invented.",
+        "Browser viewport emulation, not physical-device or screen-reader testing."
+      ]
     }
   ],
   "releases": [
@@ -24988,6 +25013,23 @@
         "records/kui-editorial-team-2026-10-21.json"
       ],
       "note": "ReviewedPR403 passedCI and merged; approved deployment and live numbered notes, text-only identity panel and responsive reading verified. Zero substantive programme credit."
+    },
+    {
+      "id": "POD-REL-2026102103",
+      "title": "Kuvi speech-to-print reading and learning practice",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/languages/kuvi/",
+      "refs": [
+        "POD-WORK-302",
+        "POD-REV-2026102104",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/kuvi-editorial-publication-2026-10-21.json",
+        "records/kuvi-editorial-team-2026-10-21.json"
+      ],
+      "note": "Reviewed PR405 passed CI and merged; approved deployment and live numbered notes, text-only identity panel and responsive reading verified. Zero substantive programme credit."
     }
   ],
   "sources": [
