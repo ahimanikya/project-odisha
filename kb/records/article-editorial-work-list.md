@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 458. completed: 62, excluded: 76, in_progress: 1, queued: 319.
+Route inventory: 458. completed: 63, excluded: 76, queued: 319.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -86,7 +86,7 @@ Route inventory: 458. completed: 62, excluded: 76, in_progress: 1, queued: 319.
 | POD-EDIT-070 | [Juang](https://projectodisha.org/languages/juang/) | completed | founder_directed_language_article |
 | POD-EDIT-071 | [Koya](https://projectodisha.org/languages/koya/) | completed | founder_directed_language_article |
 | POD-EDIT-072 | [Odisha Rasagola](https://projectodisha.org/food/odisha-rasagola/) | completed | Individually deepen the existing Rasagola article using original source evidence, preserving documentary photograph rights and honest distinctions between tradition, filed history and invention claims. |
-| POD-EDIT-073 | [Before Netaji: a Cuttack childhood](https://projectodisha.org/people/subhas-chandra-bose/) | in_progress | Deepen the individual childhood article with concrete primary-source examples and honest retrospective limits; preserve both documentary photographs. |
+| POD-EDIT-073 | [Before Netaji: a Cuttack childhood](https://projectodisha.org/people/subhas-chandra-bose/) | completed | Deepen the individual childhood article with concrete primary-source examples and honest retrospective limits; preserve both documentary photographs. |
 | POD-EDIT-074 | [Enduri pitha](https://projectodisha.org/food/enduri-pitha/) | queued | classification_pending |
 | POD-EDIT-075 | [Poda pitha](https://projectodisha.org/food/poda-pitha/) | queued | classification_pending |
 | POD-EDIT-076 | [Languages of Odisha · population atlas](https://projectodisha.org/languages/atlas/) | queued | classification_pending |
