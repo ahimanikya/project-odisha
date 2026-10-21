@@ -1,0 +1,252 @@
+{
+  "task": "POD-EDIT-072",
+  "route": "/food/odisha-rasagola/",
+  "researcher": "Anvesha,separateAIresearchworker",
+  "input_head": "2e301ec76d916947aa3e26e7da6d41cebd7a64a8",
+  "base_head": "392fa983c2ad159f036694882150f94275b72e29",
+  "date": "2026-10-21",
+  "status": "bounded research complete; prose proposals only, canonical writer decides final wording",
+  "read_before_web": [
+    "currenthandoff",
+    "AGENTS/editorialstandard/team/researchmap",
+    "tools/research/query_research.py rasagola",
+    "kb/research/food/odisha-rasagola.md",
+    "kb/research/economy/rasagola-and-sweets.md",
+    "kb/research/sources/gi-rasagola.md",
+    "kb/research/sources/sweets-pahala-study2023.md",
+    "kb/research/food/collection.json"
+  ],
+  "reader_gains": [
+    "Concrete handwork,syrupstages and filedappearancevariation.",
+    "Offering framed as particularritualrelationship; dated institutional record distinguished fromoriginalmanuscript review.",
+    "Pahala understood throughNiali supply andback/frontshop work, not juststoplist.",
+    "Salepurmention corrected fromunperformedvisit.",
+    "Registration distinguished frominvention."
+  ],
+  "sources": [
+    {
+      "id": "rasagola-journal",
+      "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/612",
+      "document": "Geographical Indications Journal116,27March2019,OdishaRasagola pp7–14",
+      "download": {
+        "method": "POST read-only ViewDocument form",
+        "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/ViewDocument",
+        "field": "DocumentPath",
+        "value": "612/612 - GI - Journal Copy - 27-03-2019.pdf"
+      },
+      "local_pdf": "/tmp/pod-rasagola-journal.pdf",
+      "text": "/tmp/pod-rasagola-journal.txt",
+      "selected_pages": [
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "visually_inspected_pages": [
+        10,
+        11,
+        12
+      ],
+      "render_paths": [
+        "/tmp/pod-rasagola-journal-p10.png",
+        "/tmp/pod-rasagola-journal-p11.png",
+        "/tmp/pod-rasagola-journal-p12.png"
+      ],
+      "note": "Filed specification, especially pages 7–12: product description, historical references and the described preparation. Original cited historical works were not inspected.",
+      "limits": [
+        "Applicant-filed description, not independent scientific testing or proof every present maker follows it.",
+        "White/off-white wording; do not paraphrase as exclusively brown.",
+        "Kneading differs15minutes versus20minutes acrossdescription/method; omitexacttiming.",
+        "Avoid questionable temperature/caramelisation/creamcomparisons and inconsistent nutritiontables.",
+        "1955record/DandiRamayana/1892/1893/1904 references read in filing only; no originals inspected."
+      ],
+      "bytes": 2749348,
+      "sha256": "f51834eb0da460a703b55404a73017ba22a8e517f966e136c4d3a6c1cc752e28",
+      "proposed_public_word_count": 147
+    },
+    {
+      "id": "rasagola-osic",
+      "url": "https://admin.osicltd.in/Siteupdate/Event/AUG19.pdf",
+      "document": "OSIC newsletter,VolumeIV,July2019,PDFpp3–4",
+      "local_pdf": "/tmp/pod-rasagola-osic.pdf",
+      "text": "/tmp/pod-rasagola-osic.txt",
+      "selected_pages": [
+        3,
+        4
+      ],
+      "visually_inspected_pages": [],
+      "note": "OSIC’s July 2019 newsletter, page 4, describes the offering and cites temple and literary records. OSIC was a co-applicant.",
+      "limits": [
+        "Institutional applicant account, not independent corroboration of the GI historical source family.",
+        "Original temple record and poem not read.",
+        "Notification12October1955 and publication14October1955 distinguished; no need add both in public.",
+        "No current ritual observation or visit."
+      ],
+      "bytes": 282636,
+      "sha256": "a72b056c7891363915eff283c62cc2f5fda0f419d27c0ecacc0ffb3916d052db",
+      "proposed_public_word_count": 133
+    },
+    {
+      "id": "sweets-pahala-study2023",
+      "url": "https://ndpublisher.in/admin/issues/EAv68n5z11.pdf",
+      "document": "Abinash Sahoo,Shakti Ranjan Panigrahy,Arpita Mohapatra,Supply Chain of Pahala Rasagola in Odisha,EconomicAffairs68(04),2305–2308,December2023",
+      "doi": "10.46852/0424-2513.4.2023.37",
+      "access": "Original publisher PDF full extracted text read through web tool; local TLS curl timed out; no local hash or visual layout claim.",
+      "selected_pages": [
+        2305,
+        2306,
+        2307,
+        2308
+      ],
+      "note": "Sahoo, Panigrahy and Mohapatra (2023), pages 2306–2307: a study of ten retailers and two hundred customers; fieldwork dates unspecified.",
+      "limits": [
+        "Study small and fieldworkdates notspecified; not current market census.",
+        "PaperGI date19February2019 contradicted by primaryRegistry29July2019.",
+        "10kg at150–200 perkg calculation incorrectly reported3000–4000; excludeprices/revenues andprojectedregionaltotals.",
+        "Percentages45/30 among10retailers denominator unclear; omit.",
+        "Spoiled-product repurposing claim not adopted as established practice or food guidance; p2306 says spoiled,p2307 before spoiled.",
+        "No product safety,storage,shelf-life orcurrentvendor guarantee."
+      ],
+      "proposed_public_word_count": 131
+    },
+    {
+      "id": "rasagola-markets",
+      "url": "https://apps.odishatourism.gov.in/blog-detail/a-short-trip-to-a-sweets-wonderland-in-odisha",
+      "document": "Argho Mukherjee,A short trip to a sweets wonderland in Odisha,published7August2020,describingOctober2019Pahala visit",
+      "access": "Fresh full original hosted travelogue text read.",
+      "note": "Argho Mukherjee’s 2020 travelogue describes a 2019 Pahala visit; Salepur is mentioned separately.",
+      "limits": [
+        "Do not say he visitedSalepur; finalparagraph explicitly futurevisitstootherplaces.",
+        "Hostedtravelogue is authoredaccount, not officialcurrentshopaudit.",
+        "No oldhours/prices/allshopsquality/promisedavailability carriedforward."
+      ],
+      "proposed_public_word_count": 56
+    },
+    {
+      "id": "rasagola-gi",
+      "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/612",
+      "document": "GI Registry application612,OdishaRasagola",
+      "access": "Fresh actual registryHTML and local TLS capture /tmp/pod-rasagola-registry.html.",
+      "note": "GI Registry, application 612: Odisha geographical area and certificate dated 29 July 2019.",
+      "limits": [
+        "Registration not inventionverdict.",
+        "No legal-advice orauthorizeduserrightsanalysis undertaken; personalauthorizeduseraddresses not reproduced."
+      ],
+      "proposed_public_word_count": 63
+    }
+  ],
+  "proposed_lead": "Rasagola can be read through the work of making it, the moment of offering it and the places that carry its name. Each tells a different part of the story.",
+  "sections": [
+    {
+      "id": "taste",
+      "heading": "Chhena, hands and syrup",
+      "paragraphs": [
+        {
+          "text": "The filed Odisha Rasagola specification begins with milk curdled using whey, then strained through cloth. The chhena is worked by hand on a board, with finely sieved suji and maida and a little cardamom. This repeated kneading is called chhena chakata. Shaped portions are cooked in syrup; the described process also includes a transfer through hot water before syrup is added again. The repeated handwork and movement between liquids give the making process its shape.",
+          "sources": [
+            "rasagola-journal"
+          ],
+          "locator": "Journal116 printed/PDF11–12, Method of Production steps1–9"
+        },
+        {
+          "text": "The same specification allows white and off-white shades, and describes differences in syrup blends, heat and cooking time. Colour alone therefore makes a poor test of a single supposedly correct appearance. Look at the surface, then notice how the sweet yields and how much syrup accompanies a bite.",
+          "sources": [
+            "rasagola-journal"
+          ],
+          "locator": "Journal116 pp7–8, Description; p12 steps6–9. Last sentence is an original tasting invitation, not a claimed tasting."
+        }
+      ]
+    },
+    {
+      "id": "homecoming",
+      "heading": "A sweet in a homecoming",
+      "paragraphs": [
+        {
+          "text": "At Niladri Bije, the return of Jagannath to the temple, rasagola is offered to Lakshmi on his behalf. OSIC’s July 2019 account identifies the Bhitarachha Sebaka’s responsibility for this offering. The sweet has a particular relationship and moment here: it belongs to the homecoming, rather than serving merely as a general symbol of celebration.",
+          "sources": [
+            "rasagola-osic"
+          ],
+          "locator": "July2019 newsletter PDF4, Historical Background, numbered points4–5"
+        },
+        {
+          "text": "That account cites the temple’s 1955 Record of Rights and a hospitality scene in Balaram Das’s Dandi Ramayana, where Bharadwaj serves Bharata, Satrughna and their company. Those are references reported by the institution; the original temple record and poem have not been examined for this article. They should not be collapsed into a precise date when the sweet was invented.",
+          "sources": [
+            "rasagola-osic"
+          ],
+          "locator": "PDF4 numbered points3–5; Journal116 p10 separately inspected and reports same source family. No independent early-text verification."
+        }
+      ]
+    },
+    {
+      "id": "makers",
+      "heading": "The work behind a making place",
+      "paragraphs": [
+        {
+          "text": "A 2023 study of Pahala traces a chain that begins beyond its shopfronts. The authors describe chhena arriving from Niali in Cuttack district and being made into rasagola in Pahala. Their description of the shops places production at the back or side and selling at the front. The counter is one end of a network of milk producers, chhena suppliers and sweet makers.",
+          "sources": [
+            "sweets-pahala-study2023"
+          ],
+          "locator": "pp2306–2307, Materials and Methods; Results; p2307 footnote2"
+        },
+        {
+          "text": "The study interviewed ten retailers and two hundred customers. It offers a bounded account of that trade, not a live census of businesses. Its most useful contribution here is the connection between making and supplying: the place named on a sweet need not contain every stage of its work.",
+          "sources": [
+            "sweets-pahala-study2023"
+          ],
+          "locator": "p2306 Materials and Methods. Last clause is editorial inference from documented chain, not a new universal claim."
+        }
+      ]
+    },
+    {
+      "id": "places",
+      "heading": "Pahala and Salepur in a dated account",
+      "paragraphs": [
+        {
+          "text": "Argho Mukherjee’s travelogue, published in August 2020, describes an October 2019 visit to Pahala and separately mentions Bikalanda Kar’s shop in Salepur. It is a useful record of places associated with rasagola, rather than a current guide to their opening hours or stock.",
+          "sources": [
+            "rasagola-markets"
+          ],
+          "locator": "Byline/date; opening journey account; paragraph mentioning BikalandaKar; final paragraph explicitly treats other places as future visits."
+        },
+        {
+          "text": "If you compare sweets from different makers, ask what each maker calls the preparation and what they want you to notice. Keep your own observations separate from a reputation inherited from a travel story. A comparison becomes more interesting when it records a difference rather than declaring a winner.",
+          "sources": [],
+          "locator": "Original reader invitation; no maker contact or firsthand tasting claimed."
+        }
+      ]
+    },
+    {
+      "id": "gi",
+      "heading": "What the registered name establishes",
+      "paragraphs": [
+        {
+          "text": "The registry records Odisha Rasagola under application 612, with a certificate dated 29 July 2019 and Odisha as its geographical area. That is the registration record for this named product. It should be read alongside the specification and its cited history, without turning the certificate date into an invention date.",
+          "sources": [
+            "rasagola-gi"
+          ],
+          "locator": "Registry612 Application Details; Certificate Details; Geographical Area."
+        }
+      ]
+    }
+  ],
+  "checks": [
+    "HEADresolvedfull atstartandreportgeneration.",
+    "ExistingKB searched before fresh retrieval.",
+    "Actual originalJournalPDF downloaded,textchecked andselectedoriginalpagesvisuallyinspected.",
+    "OriginalOSICPDF downloadedandselectedtextchecked.",
+    "OriginalPahalapublisherPDFfulltextread; no copiedsecondarysummarytreatedasoriginal.",
+    "Actualtraveloguebyline,date,visitandclosingchecked.",
+    "Proposedparagraphs andnotes grouped bysource for conservative200wordlimit; publiclead originaleditorialframing."
+  ],
+  "media": "ExistingPahalaphoto provenance retained fromKB; no freshmediaauditclaimedbyAnvesha. Parent independentlyhandlesvisual/rightsreview. DownloadedsourcePDFpages notproposedasarticleimages.",
+  "limits": [
+    "No field/maker interview,humanreview,recipetest orfirsthandtasting.",
+    "No original1955templedocument or criticalDandiRamayanaeditionread; claims attributedto2019 institutionalfiling/newsletter.",
+    "No current vendor,hours,stock,safety orqualityguarantee.",
+    "No repository/sharedfileedits,Gitmutations,publishing oroutreach.",
+    "Study originalPDF accessiblethroughwebtext; localdownloadfailed, nohash/renderclaimed."
+  ]
+}

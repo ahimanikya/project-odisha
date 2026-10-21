@@ -871,3 +871,7 @@ Reuse `voices/juang-research-2026-10-21.json`, `voices/juang-editorial.json` and
 ### Koya article evidence · 21 October 2026
 
 Reuse `voices/koya-research-2026-10-21.json`, `voices/koya-editorial.json` and the Koya entry in `voices/collection.json` before new research. The dossier distinguishes the inspected 2024 Telugu-script primer, separately catalogued 2025 Koya–Odia edition, 2018 Malkangiri trilingual booklet and dated institutional cultural account. Original 2011 Census remains distinct from current speaker totals. No fluent-speaker or field review is claimed.
+
+### Odisha Rasagola article evidence · 21 October 2026
+
+Reuse `food/rasagola-research-2026-10-21.json`, `food/rasagola-editorial.json`, `food/odisha-rasagola.md` and `economy/rasagola-and-sweets.md` before new research. The dossier distinguishes the original filed specification, applicant-reported historic sources, small 2023 supply study and dated travelogue. Salepur was mentioned, not visited, in the latter. No new food identity, field confirmation or programme credit.

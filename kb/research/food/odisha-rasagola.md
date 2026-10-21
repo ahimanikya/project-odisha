@@ -9,7 +9,7 @@ sources: [{"id": "gi-rasagola", "title": "Odisha Rasagola — GI application 612
 verified: [{"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}, {"by": "Current AI assistant", "at": "2026-10-01T15:37:40.825682+00:00"}]
 geography: "Odisha"
 aliases: ["Odisha Rasagola", "odisha rasagola"]
-verification_scope: "Registry record, GI Journal 116 p. 10, OSIC account and dated hosted travelogue inspected; original temple records and a critical edition of the cited poem remain uninspected."
+verification_scope: "Registry record, GI Journal 116 pp. 7–14 including selected original page images, OSIC account, original 2023 Pahala study text and dated travelogue inspected; original temple records and a critical edition of the cited poem remain uninspected."
 stale_after: "2027-03-27T00:00:00Z"
 readiness: "Odisha-rooted editorial candidate; maker interviews and original-document checks remain open."
 ---
@@ -57,3 +57,9 @@ Inspect the cited temple record and a critical edition of Dandi Ramayana; record
 ## From milk to market
 
 A 2023 original study links Niali’s chhena supply to Pahala’s sweet shops and describes markets within Odisha and in West Bengal. Its ten retailer interviews are a sample, not an enterprise census. The [economic record](../economy/rasagola-and-sweets.md) retains the study’s limits and arithmetic conflicts. [Original study, pp.2306–2308](https://ndpublisher.in/admin/issues/EAv68n5z11.pdf). No current sales or export total established.
+
+## Individual editorial revision · 21 October 2026
+
+The [source dossier](rasagola-research-2026-10-21.json) and [passage map](rasagola-editorial.json) support the revised website article. Readers can follow chhena chakata and the filed syrup stages, the Niali-to-Pahala supply connection, and a dated sugar/jaggery comparison. The 2019 travelogue visit concerns Pahala; its Salepur shop is mentioned, not visited. This corrects the earlier collection summary. The original 1955 record and a critical Dandi Ramayana edition remain uninspected. Filed temperatures, nutrition and kneading durations are not adopted as verified science or a tested recipe. The 2023 study’s arithmetic conflicts remain in the economic record; no current market totals are inferred.
+
+Archbik’s existing public-domain photograph was visually inspected and retained, including its unknown capture date. The article now displays the full frame. Earlier rights metadata is preserved; a fresh Commons fetch failed, so this is not a new rights verification. No source PDF images are reproduced. Separate AI research, implementation and review are recorded in the [team handoff](../../records/rasagola-editorial-team-2026-10-21.json); no maker interview, tasting, human review or field confirmation is claimed.

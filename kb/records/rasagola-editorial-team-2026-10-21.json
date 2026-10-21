@@ -1,0 +1,165 @@
+{
+  "recorded_at": "2026-10-21T15:06:19.887405+00:00",
+  "article_id": "POD-EDIT-072",
+  "route": "/food/odisha-rasagola/",
+  "status": "awaiting_separate_review",
+  "input_head": "392fa983c2ad159f036694882150f94275b72e29",
+  "authorization": [
+    "POD-DEC-2026101702",
+    "POD-DEC-2026101901",
+    "POD-DEC-225"
+  ],
+  "central_question": "What makes Odisha Rasagola a particular sweet, and what do its preparation, ritual, written records and making places actually establish?",
+  "scope": "Individually deepen the existing Rasagola article using original source evidence, preserving documentary photograph rights and honest distinctions between tradition, filed history and invention claims.",
+  "acceptance": [
+    "Concrete sourced preparation and cultural examples; visible numbered notes and full portable reading.",
+    "Separate AI review, responsive checks, required tests, reviewed merged PR, approved deployment and live receipt."
+  ],
+  "ownership": "Disha retains claim through receipt integration.",
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only bounded research; temporary report only.",
+      "status": "complete"
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/components/RasagolaArticle.astro",
+        "projects/site/src/pages/food/[slug].astro",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/tests-coast/rasagola-editorial.test.mjs",
+        "projects/site/tests-coast/odisha-roots.test.mjs",
+        "projects/site/tests-coast/puri-food-editorial.test.mjs",
+        "projects/site/tests-coast/visitor-experience.test.mjs"
+      ],
+      "status": "complete"
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Separate read-only integrated candidate review.",
+      "status": "waiting"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": [
+        "kb/research/food/collection.json",
+        "kb/research/food/rasagola-editorial.json",
+        "kb/research/food/rasagola-research-2026-10-21.json",
+        "kb/research/food/odisha-rasagola.md",
+        "shared records and publishing"
+      ],
+      "status": "working"
+    }
+  ],
+  "counting": {
+    "substantive500": 112,
+    "increment": 0
+  },
+  "previous_integration": {
+    "pull_request": 414,
+    "reviewed_head": "12ad584e72d66af00ce514d8c715425a7dad058c",
+    "merge_commit": "392fa983c2ad159f036694882150f94275b72e29",
+    "merged_at": "2026-10-21T14:44:34Z",
+    "observed_at": "2026-10-21T15:06:19.887405+00:00"
+  },
+  "worker_reconciliation": "Actual inventory confirms all three named workers completed their prior tasks; resume existing workers with followup_task. Other open PR304 weekly data and281 Ashoka remain untouched.",
+  "next_action": "Integrate bounded Rasagola research and implementation, then separate review.",
+  "implementation": {
+    "article_id": "POD-EDIT-072",
+    "input_head": "2e301ec76d916947aa3e26e7da6d41cebd7a64a8",
+    "status": "files_frozen_awaiting_coordinator_rebuild_for_source_title_fix",
+    "files": [
+      "projects/site/src/components/RasagolaArticle.astro",
+      "projects/site/src/pages/food/[slug].astro",
+      "projects/site/src/data/journey-catalog.ts",
+      "projects/site/tests-coast/rasagola-editorial.test.mjs",
+      "projects/site/tests-coast/odisha-roots.test.mjs"
+    ],
+    "unchanged_reserved": [
+      "projects/site/tests-coast/puri-food-editorial.test.mjs",
+      "projects/site/tests-coast/visitor-experience.test.mjs"
+    ],
+    "checks": [
+      {
+        "command": "node --check projects/site/tests-coast/rasagola-editorial.test.mjs",
+        "result": "pass",
+        "runtime": "Node 24.15.0"
+      },
+      {
+        "command": "node --check projects/site/tests-coast/odisha-roots.test.mjs",
+        "result": "pass",
+        "runtime": "Node 24.15.0"
+      },
+      {
+        "command": "git diff --check",
+        "result": "pass"
+      },
+      {
+        "command": "node --test --test-name-pattern=\"Rasagola source map\" tests-coast/rasagola-editorial.test.mjs",
+        "result": "1/1 pass against integrated canonical map",
+        "cwd": "projects/site"
+      },
+      {
+        "command": "node --test tests-coast/rasagola-editorial.test.mjs tests-coast/odisha-roots.test.mjs tests-coast/puri-food-editorial.test.mjs tests-coast/visitor-experience.test.mjs",
+        "result": "Initial fresh-rendered run 14/17 pass; two legacy phrase assertions and one portable source-title loss identified",
+        "cwd": "projects/site"
+      },
+      {
+        "command": "node --test tests-coast/odisha-roots.test.mjs tests-coast/puri-food-editorial.test.mjs tests-coast/visitor-experience.test.mjs",
+        "result": "11/11 pass after current uncertainty phrase assertion correction",
+        "cwd": "projects/site"
+      }
+    ],
+    "findings": [
+      "Exact odisha-rasagola branch preserves WhereToEat slot before Further reading. No current matching venue; hook retained.",
+      "Portable identity food:odisha-rasagola and existing Archbik photo mapping preserved.",
+      "Enduri Pitha queued POD-EDIT-074 supplies unchanged authorship control.",
+      "Unknown capture date is not inferred from the 2010 upload date.",
+      "Legacy odisha-roots credit selector adapted for visible photograph credits; other food and Bose behavior preserved.",
+      "Rasagola-only portable source key now preserves distinct Journal and Registry titles sharing the same application URL. Other items retain URL-only deduplication.",
+      "Current canonical source map has six sections, eleven paragraphs, five numbered sources and nine reference occurrences.",
+      "Puri-food and visitor-experience tests required no edits."
+    ],
+    "limits": [
+      "Coordinator must rebuild outputs to verify the final portable source-title fix; current dist predates that fix.",
+      "No build, browser visual/keyboard review, Git mutation, canonical KB edit or publication performed by Samanta."
+    ],
+    "integration_head": "cb9e7883bd58f7d883453828f660fed3dfe8b2bf",
+    "content_shape": {
+      "sections": 6,
+      "paragraphs": 11,
+      "notes": 5,
+      "reference_occurrences": 9
+    }
+  },
+  "research": "research/food/rasagola-research-2026-10-21.json",
+  "source_audit": "Disha independently read original Journal116 pp7–14 text and visually inspected printed11, actual original OSIC/Pahala-study text and dated tourism travelogue. Original cited 1955/poem witnesses remain unread. No source images reproduced.",
+  "image_audit": "Existing four brown sweets in syrup physically credible; original Archbik public-domain photograph retained and displayed full-frame. Unknown capture date remains unknown; prior rights check retained, fresh Commons fetch failed.",
+  "validation_notes": [
+    "Initial coast suite caught obsolete phrase assertions and a real portable source-title deduplication issue; Samanta fixed both within scoped files.",
+    "Final full build and566/566 tests PASS; coast build and403/403 tests PASS; limited publication11 indexable unchanged.",
+    "Actual Chrome desktop1440x900 and mobile390x844 visual inspection passed: full-frame photograph, readable prose and visible notes. Enter follows first note and returns focus to exact marker; collapsed Further reading opens with Enter in both sizes.",
+    "Desktop740px reading width,18px font/33.3px line; mobile343.2px,17px/30.6px; no horizontal overflow. Browser emulation, not physical-device or screen-reader testing."
+  ],
+  "responsive": {
+    "checked_at": "2026-10-21T15:17:56.777113+00:00",
+    "evidence": "records/evidence/rasagola-editorial-2026-10-21/",
+    "desktop": [
+      1440,
+      900
+    ],
+    "mobile": [
+      390,
+      844
+    ],
+    "notes": 5,
+    "references": 9,
+    "keyboard": "Enter note and exact return focus PASS; Further reading Enter expands PASS",
+    "limits": "Browser emulation only; no physical-device or screen-reader review."
+  }
+}
