@@ -1,0 +1,91 @@
+{
+  "task_id": "POD-TASK-KHANDAYAT-20261022",
+  "article_id": "POD-EDIT-460",
+  "worker": "Samanta, separate AI implementation agent",
+  "input_head": "a311dcec8964f74637ae1554d9402798faac7208",
+  "status": "implementation and integrated local validation passed",
+  "actual_edits": [
+    "projects/site/src/pages/communities/khandayat.astro",
+    "projects/site/tests-coast/khandayat-editorial.test.mjs"
+  ],
+  "implementation": [
+    "Same accepted canonical schema as Paika.",
+    "Shared reading stylesheet, byline, numbered notes with exact return targets, contents and collapsed further reading.",
+    "Visible update link and public-submission notice.",
+    "Shared SaveJourney control reading:khandayat.",
+    "Text-first; no invented imagery or narrative."
+  ],
+  "tests": [
+    {
+      "name": "Node24 syntax check",
+      "result": "pass"
+    },
+    {
+      "name": "git diff --check",
+      "result": "pass"
+    },
+    {
+      "name": "build:coast latest shortened prose",
+      "result": "pass",
+      "log": "/tmp/pod-khandayat-build.log"
+    },
+    {
+      "name": "test:coast",
+      "result": "422/422 pass",
+      "log": "/tmp/pod-khandayat-coast-tests.log"
+    },
+    {
+      "name": "full build + npm test",
+      "result": "566/566 pass",
+      "log": "/tmp/pod-khandayat-full-tests.log"
+    },
+    {
+      "name": "build:publication",
+      "result": "pass; limited mode, 11 indexable pages",
+      "log": "/tmp/pod-khandayat-publication.log"
+    }
+  ],
+  "test_acceptance": [
+    "Canonical prose and source notes render unchanged with valid backlinks.",
+    "Relevant onward links and discovery route present.",
+    "Portable reading preserves full paragraphs, author and short sources without extended footnotes.",
+    "No rigid source/paragraph counts."
+  ],
+  "pending": [
+    "Separate review, CI, merge, approved deployment and live checks owned by coordinator"
+  ],
+  "limits": [
+    "No narrative facts supplied by implementation agent.",
+    "No shared records, Git or publication mutations.",
+    "Responsive preview only; no production save or live verification.",
+    "Full566-test run passed before last prose-only trim; latest coast422 suite and publication regenerated after trim."
+  ],
+  "responsive": {
+    "tool": "CUA Chrome",
+    "desktop": {
+      "viewport": "1440x1000",
+      "reading_width": 740,
+      "horizontal_overflow": false
+    },
+    "mobile": {
+      "viewport": "390x844",
+      "reading_width": 390,
+      "horizontal_overflow": false
+    },
+    "checks": [
+      "Latest shortened forts-fields paragraph verified in browser",
+      "Footnote3 focuses note-khandayat-bhattacharya1896; return focuses exact ref-name-0-khandayat-bhattacharya1896",
+      "Contents link focuses forts-fields heading",
+      "Further reading collapsed by default and expands on click",
+      "Local preview save becomes Saved to my journey and persists reload"
+    ],
+    "screenshots": [
+      "/tmp/pod-khandayat-desktop.png",
+      "/tmp/pod-khandayat-mobile.png",
+      "/tmp/pod-khandayat-mobile-body.png"
+    ]
+  },
+  "resolved_failures": [
+    "First coast run421/422: shared discovery-flow topic count117 expected versus118 actual. Disha updated; latest422/422 pass."
+  ]
+}
