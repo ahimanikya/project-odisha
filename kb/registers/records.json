@@ -8647,7 +8647,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "POD-DEC-2026101702",
-      "next_action": "Ho receipt PR410 merged; Juang POD-EDIT-070 is the sole active article.59 editorial completions;112 programme unchanged.",
+      "next_action": "Juang published; retain claim until receipt merge observed.60 editorial entries completed after integration;112programme unchanged.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026101702",
@@ -8746,7 +8746,9 @@
         "POD-REV-2026102102",
         "POD-REL-2026102101",
         "POD-REV-2026102106",
-        "POD-REL-2026102105"
+        "POD-REL-2026102105",
+        "POD-REV-2026102107",
+        "POD-REL-2026102106"
       ],
       "evidence": [
         "reference/article-editorial-standard.md",
@@ -8801,7 +8803,8 @@
         "records/mudhi-mansa-editorial-publication-2026-10-20.json",
         "records/chandipur-meal-editorial-publication-2026-10-20.json",
         "records/santali-editorial-publication-2026-10-21.json",
-        "records/ho-editorial-publication-2026-10-21.json"
+        "records/ho-editorial-publication-2026-10-21.json",
+        "records/juang-editorial-publication-2026-10-21.json"
       ],
       "acceptance_criteria": [
         "Every published baseline route classified; each article independently reviewed against approved standard with PR/test/deploy/live receipt; exclusions justified; future articles follow same rule."
@@ -21708,6 +21711,31 @@
         "Fresh 2018 booklet text and earlier selected-page visual inspection are distinct. Warang Citi publications remain dated2012 evidence; no current schedules, fluent review or translated vocabulary claimed.",
         "Browser viewport emulation, not physical-device or screen-reader testing."
       ]
+    },
+    {
+      "id": "POD-REV-2026102107",
+      "title": "Separate Juang article and source review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent /root/drishti"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human or fluent-language review.",
+      "reviewed_head": "3becf02332e6fcff5a28d750d3ba2cfef90f8a02",
+      "refs": [
+        "POD-WORK-302",
+        "POD-DEC-2026101901",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/juang-editorial-team-2026-10-21.json"
+      ],
+      "limitations": [
+        "Separate AI research, implementation and review; not human, fluent-language or field review.",
+        "Fresh 2018 booklet text and earlier selected-page visual inspection are distinct. The2024primer and2018booklet preserve their own contributor spellings; no fluent review or translated vocabulary claimed.",
+        "Browser viewport emulation, not physical-device or screen-reader testing."
+      ]
     }
   ],
   "releases": [
@@ -25117,6 +25145,23 @@
         "records/ho-editorial-team-2026-10-21.json"
       ],
       "note": "Reviewed PR409 passed CI and merged; approved deployment and live numbered notes, text-only identity panel and responsive reading verified. Zero substantive programme credit."
+    },
+    {
+      "id": "POD-REL-2026102106",
+      "title": "Juang community life and learning pages",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/languages/juang/",
+      "refs": [
+        "POD-WORK-302",
+        "POD-REV-2026102107",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/juang-editorial-publication-2026-10-21.json",
+        "records/juang-editorial-team-2026-10-21.json"
+      ],
+      "note": "Reviewed PR411 passed CI and merged; approved deployment and live numbered notes, text-only identity panel and responsive reading verified. Zero substantive programme credit."
     }
   ],
   "sources": [

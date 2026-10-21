@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `46eeb362b050469336df5b90139c15d1505ceda4a231a7e79666734dbfeb4e69`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `5e20156699e7d2afa5f76e3405fb618d8683105a8ee3531512ad11c5fc7a5b16`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -321,7 +321,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-299 · Deepen Dalkhai song, occasion and stage context | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, song-language review and recovered source PDFs remain open for future research. | — |
 | POD-WORK-300 · Deepen Pala literary performance, forms and repertoire | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/Odia review and manuscript evidence remain open for future research. | — |
 | POD-WORK-301 · Deepen Dhemsa community, movement and occasion | completed | published | Ahimanikya Satapathy | Substantive revision published and live-verified. Historical origins, local variation, practitioner/language review and field evidence remain open for future research. | — |
-| POD-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Ho receipt PR410 merged; Juang POD-EDIT-070 is the sole active article.59 editorial completions;112 programme unchanged. | — |
+| POD-WORK-302 · Align all articles with Founder authorship and Human Natural editorial standard | in_progress | draft | Ahimanikya Satapathy | Juang published; retain claim until receipt merge observed.60 editorial entries completed after integration;112programme unchanged. | — |
 | POD-WORK-2026101701 · Publish two Pattachitra Jhula choices | completed | published | Ahimanikya Satapathy | Review the live Pattachitra choices. | — |
 | POD-WORK-2026101901 · Activate separate editorial agents and durable handoffs | completed | applied | Ahimanikya Satapathy | Use saved team loop for subsequent article work; recreate task-scoped workers when needed. | — |
 | POD-WORK-2026101801 · Coherent Jhula story and collection overview | completed | published | Ahimanikya Satapathy | Review the refined live page. | — |
@@ -973,6 +973,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026102104 | pass_with_limitations | True | Separate AI research, implementation and review; not human, fluent-language or field review.; 2018 booklet retains 1 October inspection after fresh retrieval failure; folk texts not inspected and no translation or primer date invented.; Browser viewport emulation, not physical-device or screen-reader testing. |
 | POD-REV-2026102105 | pass_with_limitations | True | Separate AI research, implementation and review; not human, fluent-language or field review.; Fresh 2018 booklet text and earlier selected-page visual inspection are distinct. Script inventor attribution differs between sources; no fluent review or translated vocabulary claimed.; Browser viewport emulation, not physical-device or screen-reader testing. |
 | POD-REV-2026102106 | pass_with_limitations | True | Separate AI research, implementation and review; not human, fluent-language or field review.; Fresh 2018 booklet text and earlier selected-page visual inspection are distinct. Warang Citi publications remain dated2012 evidence; no current schedules, fluent review or translated vocabulary claimed.; Browser viewport emulation, not physical-device or screen-reader testing. |
+| POD-REV-2026102107 | pass_with_limitations | True | Separate AI research, implementation and review; not human, fluent-language or field review.; Fresh 2018 booklet text and earlier selected-page visual inspection are distinct. The2024primer and2018booklet preserve their own contributor spellings; no fluent review or translated vocabulary claimed.; Browser viewport emulation, not physical-device or screen-reader testing. |
 
 ## Publication and application history
 
@@ -1186,6 +1187,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026102103 · Kuvi speech-to-print reading and learning practice | published | https://projectodisha.org/languages/kuvi/ | POD-DEC-225 |
 | POD-REL-2026102104 · Saora scripts and named learning materials | published | https://projectodisha.org/languages/saora/ | POD-DEC-225 |
 | POD-REL-2026102105 · Ho scripts and named learning materials | published | https://projectodisha.org/languages/ho/ | POD-DEC-225 |
+| POD-REL-2026102106 · Juang community life and learning pages | published | https://projectodisha.org/languages/juang/ | POD-DEC-225 |
 
 ## Sources and assets
 
@@ -1223,7 +1225,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261020016 | 2026-10-20T19:31:28.424787+00:00 | Published and live-verified POD-EDIT-058 Chhena Poda via PR389 and approved deployment39483525378. Concrete cooking comparisons, attributed origin limits, three visible notes and complete portable reading;52 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261020017 | 2026-10-20T20:42:14.123192+00:00 | Published and live-verified POD-EDIT-059 Mudhi Mansa via PR392 and approved deployment39493529777. Documented cooker-gravy memory, restaurant choices and chicken variation, four visible notes and complete portable reading;53 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261020018 | 2026-10-20T21:45:24.238519+00:00 | Published and live-verified POD-EDIT-060 Chandipur meal via PR394 and approved deployment39502276923. Regional seafood and dated harbour account, with kitchen sourcing kept distinct, two visible notes and complete portable reading;54 editorial entries complete, substantive programme112 unchanged. | — |
 | POD-EVT-20261021001 | 2026-10-21T02:42:54.599123+00:00 | Separate research, technical live inspection and AI review support individual utility exclusions for POD-EDIT-061 through064. PR399 awaits final checks and integration.54 completed articles and112 substantive items unchanged;76 exclusions,328 queued. Prior Chandipur receipt395 observed merged and article ownership released. | — |
@@ -1233,6 +1234,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261021005 | 2026-10-21T10:25:18.032748+00:00 | Kuvi article067 published after source research, implementation, separate AI review, passing tests, responsive/keyboard checks, PR405 and approved deployment. Actual live receipt verified; ownership retained through receipt integration. 57 articles complete; 112 programme items unchanged. | — |
 | POD-EVT-20261021006 | 2026-10-21T11:27:13.490208+00:00 | Saora article068 published after source research, implementation, separate AI review, passing tests, responsive/keyboard checks, PR407 and approved deployment. Actual live receipt verified; ownership retained through receipt integration. 58 articles complete; 112 programme items unchanged. | — |
 | POD-EVT-20261021007 | 2026-10-21T12:35:09.720057+00:00 | Ho article069 published after source research, implementation, separate AI review, passing tests, responsive/keyboard checks, PR409 and approved deployment. Actual live receipt verified; ownership retained through receipt integration. 59 articles complete; 112 programme items unchanged. | — |
+| POD-EVT-20261021008 | 2026-10-21T13:27:20.718096+00:00 | Juang article070 published after source research, implementation, separate AI review, passing tests, responsive/keyboard checks, PR411 and approved deployment. Actual live receipt verified; ownership retained through receipt integration. 60 articles complete; 112 programme items unchanged. | — |
 
 ## Deferred extensions
 

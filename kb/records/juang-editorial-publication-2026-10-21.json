@@ -1,0 +1,134 @@
+{
+  "recorded_at": "2026-10-21T13:27:20.718096+00:00",
+  "authorization": [
+    "POD-DEC-2026101702",
+    "POD-DEC-2026101901",
+    "POD-DEC-225"
+  ],
+  "work_id": "POD-WORK-302",
+  "queue_item": "POD-EDIT-070",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/411",
+  "reviewed_head": "3becf02332e6fcff5a28d750d3ba2cfef90f8a02",
+  "merge_commit": "1274094ad2d34712a6eb5a93ed6ded6ecafcd228",
+  "validation": {
+    "conclusion": "success",
+    "databaseId": 39606746443,
+    "headSha": "3becf02332e6fcff5a28d750d3ba2cfef90f8a02",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39606746443"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "databaseId": 39607441073,
+    "headSha": "1274094ad2d34712a6eb5a93ed6ded6ecafcd228",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39607441073"
+  },
+  "live_checks": {
+    "checked_at": "2026-10-21T13:26:44.132268+00:00",
+    "url": "https://projectodisha.org/languages/juang/",
+    "http_status": 200,
+    "html_sha256": "b7d62834ec0a7d451c16004d41f9b8f5d2b546ba8cf0fe8fa019d00d2480e70e",
+    "visible_notes": 5,
+    "references": 7,
+    "exact_returns": 7,
+    "checks": {
+      "byline": true,
+      "specific_prose": true,
+      "credits": true,
+      "noindex": true,
+      "notes": true,
+      "exact_returns": true,
+      "preserved_anchors": true,
+      "dated_print_scope": true,
+      "visible_update": true
+    },
+    "unchanged_sitemap_count": 11,
+    "route_inventory": {
+      "directory_indexes": 457,
+      "separate_error_page": "/404.html",
+      "unregistered_routes": [],
+      "total_registered_routes": 458
+    },
+    "browser": {
+      "reviewer": "Disha, AI coordinator",
+      "url": "https://projectodisha.org/languages/juang/",
+      "desktop": {
+        "width": 1440,
+        "height": 900,
+        "scrollWidth": 1440
+      },
+      "mobile": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390
+      },
+      "notes": 5,
+      "references": 7,
+      "keyboard": "Enter reached note-juang-ciil and exact return ref-language-0-juang-ciil with focus on desktop and mobile.",
+      "furtherReading": "Observed initially collapsed on both live viewports.",
+      "screenshots": [
+        "records/evidence/juang-editorial-2026-10-21/live-desktop.png",
+        "records/evidence/juang-editorial-2026-10-21/live-mobile.png"
+      ],
+      "visual": "Both live screenshots inspected; readable byline and typographic cover, no horizontal clipping.",
+      "limits": "Viewport emulation, not physical-device or screen-reader review."
+    }
+  },
+  "test_review_and_source_mapping": "records/juang-editorial-team-2026-10-21.json",
+  "final_review": {
+    "reviewer": "Drishti (separate AI reviewer)",
+    "input_head": "3becf02332e6fcff5a28d750d3ba2cfef90f8a02",
+    "base_head": "29997cd43c7e8f08814a1b7f7a03a2498e628d33",
+    "result": "PASS",
+    "findings": [],
+    "checks": [
+      "Independently opened actual CIIL overview and SCSTRTI community profile; geography, language/script distinction and bounded majang account agree. Origin tradition explicitly distinguished from chronology/current village survey.",
+      "Independently read fresh original2018 booklet English credits, contents and pronoun table extracted text; publisher/compiler spellings retained, no new fluent-language or fresh visual booklet claim.",
+      "Independently visually inspected original primer PDF pages5,10,14,15,17:9March2024 edition, credited resource persons, distinct teaching charts, printed4mat/pot/maize/axe and fading writing forms. Sudarsan2024 versus Sudarshan2018 retained without identity assertion.",
+      "Verified primer SHA256356f58825efa4e31df7f730aa964e99c8a3d95d585597cfaa134cd2fb5b119a7; all-rights-reserved pages used for inspection only, not public image reproduction.",
+      "Independently extracted Census original workbook Sheet1row185:individual050001Juang30377, component counts14889/15488,30273rural104urban.",
+      "Source budgets checked including full lead plus notes/titles and retained booklet panel: all below200/source.",
+      "Only Juang canonical collection page changed; assets and programme bytes unchanged. Programme112, sole070in progress.",
+      "Exact-route template/onward/population/portable opt-ins preserve prior articles; obsolete negative controls move to queuedKoya.",
+      "Rollout, team assignments, autonomous programme, workbench and diff checks PASS.",
+      "Fresh coast log reports391/391; independently ran38focused rendered tests covering Juang,Ho,all passage mappings,living languages,atlas and voices:38PASS0FAIL."
+    ],
+    "tests": {
+      "command": "node --test tests-coast/juang-editorial.test.mjs tests-coast/ho-editorial.test.mjs tests-coast/voices-passage-sources.test.mjs tests-coast/living-languages.test.mjs tests-coast/language-atlas.test.mjs tests/voices.test.mjs",
+      "pass": 38,
+      "fail": 0
+    },
+    "limits": [
+      "Separate AI review, not human, fluent-speaker, community or field review.",
+      "Selected source passages and primer pages only; no full original1991 work, translations or pronunciation validation.",
+      "Fresh2018booklet extracted text distinct from earlier1October visual inspection; no independent fresh booklet pixels reviewed.",
+      "Did not repeat coordinator builds or interactive browser checks; independently inspected four saved screenshots and prior focused rendered outputs.",
+      "Candidate accepted for next publication gates; no merge/deployment/live receipt completion claim in this review."
+    ],
+    "initial_input_head": "7b726264b049cdc4b2a6114f6c1cdafabe29bb07",
+    "final_accepted_head": "3becf02332e6fcff5a28d750d3ba2cfef90f8a02",
+    "final_delta_checks": [
+      "Seven-file evidence-only delta: handoff test/browser record plus six screenshots; no source, prose, implementation, count or ownership changes.",
+      "Independently visually inspected desktop-reading,mobile-hero,mobile-reading,mobile-notes: readable paragraphs and wrapped notes, retained text-only identity, visible footnote/return controls, no visible horizontal clipping in sampled views.",
+      "Disha browser record attributes exact keyboard note-return focus and Further reading toggle to coordinator at1440x900/390x844; widths740/343.195,font18/17,line33.3/30.6. No human/device/screen-reader review claimed.",
+      "git diff --check PASS; prior38focused tests and source review remain applicable without rerun."
+    ]
+  },
+  "integration_review": {
+    "head": "1274094ad2d34712a6eb5a93ed6ded6ecafcd228",
+    "result": "pass",
+    "scope": "Published merge tree identical to separately reviewed candidate."
+  },
+  "attachment_note": "PR attachment attempted; app 100-attachment limit reached; actual URL retained.",
+  "counting": "One editorial article; zero substantive 500 increment. Programme remains 112.",
+  "limitations": [
+    "Separate AI research, implementation and review; not human, fluent-language or field review.",
+    "Fresh 2018 booklet text and earlier selected-page visual inspection are distinct. The2024primer and2018booklet preserve their own contributor spellings; no fluent review or translated vocabulary claimed.",
+    "Browser viewport emulation, not physical-device or screen-reader testing."
+  ],
+  "verified_routes": [
+    "/languages/juang/"
+  ],
+  "receipt_integration": "Effective only after receipt PR passes required checks and merges; observed merge must be reconciled before releasing article claim."
+}
