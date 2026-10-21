@@ -1,0 +1,527 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-21T02:33:33.864762+00:00",
+  "authorization": [
+    "POD-DEC-2026101702",
+    "POD-DEC-2026101901",
+    "POD-DEC-225"
+  ],
+  "work_id": "POD-WORK-302",
+  "status": "awaiting_separate_review",
+  "input_head": "9c1a3a4f08e0db94387c987deb80adad29d1e313",
+  "branch": "codex/planning-hub-classification-20261021",
+  "scope": "Individual classification of queued directory routes POD-EDIT-061 through POD-EDIT-064. No public article or website edits.",
+  "ownership": {
+    "owner": "Disha",
+    "runtime": "/root",
+    "active_article": null,
+    "previous_article": "POD-EDIT-060",
+    "previous_receipt_pr": 395,
+    "observed_receipt_merge": "41cda4dab4ee635bcc3f89262c1a05422abddb3e",
+    "release": "Previous article ownership released after observed receipt merge."
+  },
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "task": "Research each template and KB context to classify article versus directory.",
+      "write_scope": "Temporary report only; no repository writes.",
+      "status": "complete"
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "task": "Verify render paths, source hashes, actual live HTML and attribution.",
+      "write_scope": "Temporary report only; no repository writes.",
+      "status": "complete"
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "task": "Separate review of integrated classification candidate.",
+      "write_scope": "Read-only; no repository writes.",
+      "status": "awaiting_integrated_candidate"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "task": "Integrate evidence, update rollout and shared records, validate and merge reviewed PR.",
+      "write_scope": [
+        "kb/records/planning-hub-classification-2026-10-21.json",
+        "kb/records/chandipur-meal-editorial-team-2026-10-20.json",
+        "kb/records/article-editorial-rollout.json",
+        "kb/team/operations.json",
+        "kb/registers/records.json",
+        "kb/registers/activity.jsonl",
+        "generated KB register/catalog/workbench views"
+      ],
+      "status": "running"
+    }
+  ],
+  "acceptance": [
+    "Inspect every route separately against actual template, KB and live HTML.",
+    "Record route-specific reason and retained media/source treatment.",
+    "Leave linked articles in their own queue scopes; no blanket bylines.",
+    "Separate AI review of integrated candidate, passing checks and observed PR merge."
+  ],
+  "counting": {
+    "completed_articles": 54,
+    "substantive500": 112,
+    "increment": 0
+  },
+  "publication": {
+    "required": false,
+    "reason": "Inventory classification and handoff records only; no website content, assets or search eligibility changed."
+  },
+  "research": {
+    "input_head": "9c1a3a4f08e0db94387c987deb80adad29d1e313",
+    "role": "Anvesha, separate AI research worker; bounded read-only classification",
+    "routes": [
+      {
+        "id": "POD-EDIT-061",
+        "route": "/destinations/",
+        "classification": "directory_utility",
+        "recommended_status": "excluded",
+        "reason": "Destination index: opening invitation, planning navigation, destination-guide cards and a preview notice. It aggregates region orientations and Chilika/Konark summaries; it does not present a sustained destination essay. The individual linked destination guides are the articles.",
+        "evidence": [
+          "projects/site/src/pages/destinations/index.astro:2–8",
+          "projects/site/src/components/DestinationCards.astro:2–6",
+          "projects/site/src/data/destination-directory.ts:1–8",
+          "kb/research/destinations/regions.json",
+          "projects/site/src/data/selected.json"
+        ],
+        "observed_card_count": 7,
+        "byline_sources": "No route byline or article footnotes. Do not assign blanket authorship to navigation cards. Descriptive summaries remain traceable to linked guides and underlying KB; exclusion does not certify every geographic claim.",
+        "media": "DestinationCards collects unique photographs and renders source, creator, licence URL and changes in Photographs & credits. Cards crop to1.5 ratio as directory previews; no new media or article-specific image treatment required by classification. Preserve original credits and linked full guides."
+      },
+      {
+        "id": "POD-EDIT-062",
+        "route": "/food/",
+        "classification": "directory_utility",
+        "recommended_status": "excluded",
+        "reason": "Food discovery and planning directory. Three illustrated teasers point to Dalma, Dahibara Aloodum and Machha Besara; thematic paths, a collection starter and Where to eat lead elsewhere. Area-grouped saveable food ideas constitute the main catalogue. Short connective prose invites reading but does not form an independent food essay. Do not confuse this hub with /food/everyday/, /food/fire-cooking/, /food/three-tastes/ or individual dish articles.",
+        "evidence": [
+          "projects/site/src/pages/food/index.astro:2–16",
+          "projects/site/src/components/FoodDiscovery.astro:2–16",
+          "kb/research/food/discovery-hub.json",
+          "projects/site/src/components/PlanningCollection.astro:18–31",
+          "projects/site/src/data/planning-collections.ts:7–19",
+          "kb/research/food/collection.json"
+        ],
+        "observed_card_count": 21,
+        "byline_sources": "No hub byline; leave article author/source treatment on linked narratives. Feature descriptions are abbreviated story invitations with direct article links. Do not interpret the lack of hub footnotes as permission to add new unsupported food claims.",
+        "media": "Page merges five declared food card-image mappings; other card imagery comes from existing catalogue assets. PlanningCollection lists unique photo credits. Existing tests verify all regional cards have photos, five scoped mappings retain creator/licence/source/captions and hashes where supplied, and all rendered hub image files decode. No new independent visual-cultural review claimed."
+      },
+      {
+        "id": "POD-EDIT-063",
+        "route": "/things-to-do/",
+        "classification": "directory_utility",
+        "recommended_status": "excluded",
+        "reason": "Area-grouped experience finder, generated from journey-catalog kind Experience. It offers save buttons, links to detailed experience readings, heritage-walk/craft/textile directories and preparation questions. The note explicitly calls these ideas to research, not bookable activities. This is a planning index, not an independent performance/craft/nature article.",
+        "evidence": [
+          "projects/site/src/pages/things-to-do/index.astro:2–6",
+          "projects/site/src/components/PlanningCollection.astro:16–31",
+          "projects/site/src/data/planning-collections.ts:8–19",
+          "projects/site/src/data/journey-catalog.ts:58–70",
+          "kb/research/destinations/regions.json",
+          "kb/research/destinations/details.json",
+          "kb/research/destinations/central-details.json",
+          "kb/research/destinations/northern-details.json"
+        ],
+        "observed_card_count": 11,
+        "byline_sources": "No aggregate byline. Preserve source and author identities within linked articles, including the dated first-person Bhubaneswar photo-story teaser. Card wording remains evidence-bearing even though the route is a utility. No current performance, booking or maker-access guarantee should be inferred.",
+        "media": "Cover is Mayurbhanj Chhau where present; contain treatment explicitly retained. Shared photo disclosure preserves original credits/rights. Reusing a documentary image on a navigation card does not imply today’s event availability."
+      },
+      {
+        "id": "POD-EDIT-064",
+        "route": "/stay-areas/",
+        "classification": "directory_utility",
+        "recommended_status": "excluded",
+        "reason": "Eight area-guide choices grouped for trip planning, with save actions, comparison prompts and links to individual stay-area articles. No property listings, room inventory, prices, booking flow or sustained hotel/area essay. The opening and note explicitly tell readers to choose an area and then research individual accommodation.",
+        "evidence": [
+          "projects/site/src/pages/stay-areas/index.astro:2–6",
+          "projects/site/src/components/PlanningCollection.astro:12–31",
+          "projects/site/src/data/planning-collections.ts:9–19",
+          "projects/site/src/data/destination-details.ts:25–39",
+          "kb/research/destinations/details.json",
+          "kb/research/destinations/central-details.json",
+          "kb/research/destinations/northern-details.json"
+        ],
+        "observed_card_count": 8,
+        "byline_sources": "No route byline. Property-inspection/endorsement, availability and booking limits are stated. Individual linked area guides keep their own source notes; exclusion does not turn any suggestion into a verified provider.",
+        "media": "Every stay card uses explicit Landscape context · not a property photograph wording through planning-collections.ts. Credits remain in shared disclosure. Keep this distinction and do not relabel scenery as a hotel photograph."
+      }
+    ],
+    "standard_basis": "article-editorial-standard.md Sequential completion loop explicitly requires classifying utility pages and duplicates and says not to add bylines to navigation cards automatically. Narrative length alone is not the criterion; each route was inspected by purpose, actual page structure, data and linked reading functions.",
+    "checked": [
+      "Read all four actual Astro route templates, shared PlanningCollection/DestinationCards/FoodDiscovery/PlanningPaths, data-generation modules and food discovery KB.",
+      "Examined actual current built dist-coast HTML and embedded catalogue:7 destination cards,21 food,11 experience,8 stay-area cards. No route article byline found.",
+      "Read current rollout entries061–064, all queued/classification_pending at input head.",
+      "Read existing planning-hubs and food-hub-images tests; ran both successfully with Node24.15.0:5 tests passed. Tests cover catalogue completeness/unique IDs, canonical links, planning navigation/current link, parent-return paths, scoped food-media credit/hash/decode checks."
+    ],
+    "test_attempts": [
+      {
+        "runtime": "default node",
+        "result": "Cannot run --test; environment mismatch."
+      },
+      {
+        "runtime": "/opt/homebrew/opt/node/bin/node v18.5.0",
+        "result": "Unsupported Array.toSorted and JSON import attributes; these attempts were not content failures."
+      },
+      {
+        "runtime": "/Users/ahimanikya/.nvm/versions/node/v24.15.0/bin/node",
+        "command": "--test tests-coast/planning-hubs.test.mjs tests-coast/food-hub-images.test.mjs",
+        "result": "5 passed,0 failed against existing dist-coast output."
+      }
+    ],
+    "evidence_sha256": {
+      "projects/site/src/pages/destinations/index.astro": "6b3c7477249aefd626f310b2229c69cff648a7d26687d905c6360e5e07cc4c92",
+      "projects/site/src/pages/food/index.astro": "3e32c4b99a36a4df1795ba0d0c59e2e041556fbca325e2437bcff5e8ffeaceb0",
+      "projects/site/src/pages/things-to-do/index.astro": "6eba51c716105b23104948cbeaf11c71e382102474594a6fe65459104ceb89eb",
+      "projects/site/src/pages/stay-areas/index.astro": "9169ba4419135ee6a6b2ff4d3fc7e97f9b14864707ebb88451da2fa5be468840",
+      "projects/site/src/components/PlanningCollection.astro": "d6e8b1f0f4792bf75d4d41c0a096de5d02d4b45a54e3ba13185471ebe972c502",
+      "projects/site/src/components/DestinationCards.astro": "998ace67588a348a123e4c04d5e397c1dfabb40b108ef57b23ed1771fbb5502e",
+      "projects/site/src/components/FoodDiscovery.astro": "0944d7e8c3ad149c57d90dd77e4c12ed0aaf380ecf8310226f05aff45d349b7d",
+      "projects/site/src/components/PlanningPaths.astro": "ef826ba4c2a9cbe3b90307a1ba4b11f4d5b496ce71660a9184eac913a89725b9",
+      "projects/site/src/data/planning-collections.ts": "467b2390327f329535d624447f542b198b51851f25e5873e3f6a2f78c643698c",
+      "projects/site/src/data/destination-directory.ts": "f08255bc05118d159dff75bb9eb7813da01c6ce85d310350cb6f5b0546b96e7d",
+      "projects/site/src/data/journey-catalog.ts": "d99c8240580af4c63850a9bf5a60c7e46b4bd569b3883f7f24b522d76441d20e",
+      "projects/site/src/data/destination-details.ts": "c9fc83ce8d08940aeafdd87c66757aa9b8f8e6d722434d7efc97ed8abc0ac131",
+      "kb/research/food/discovery-hub.json": "76a7c04d1b6ae0bd5e880b7fffb1f394f91029c0096b8599798773376495bc56",
+      "kb/reference/article-editorial-standard.md": "a2e06ce528ab49ce2cd3e306b8c115133520202b745f1fdb85a80f9532b5fe2d"
+    },
+    "limits": [
+      "No repository or Git writes. Only this report written under /tmp.",
+      "No new web/source research, live checks, screenshots or responsive rendering review; not required to distinguish present utility structure.",
+      "Existing built artifacts inspected/tested without rebuilding; no fresh deployment claim.",
+      "No exhaustive revalidation of every inherited card fact, asset right or linked article. Known source/rights links preserved in observed implementation; independent cultural image review not claimed.",
+      "Classifications are recommendations for coordinator reconciliation, not an applied queue mutation or publication receipt."
+    ],
+    "recommendation": "Record four separate justified exclusions with route-specific reasons and this evidence. Keep routes published and functional; no blanket text deletion/byline rewrite or conversion into essays. Any later substantive hub narrative should be reassessed individually.",
+    "delivered_article_count": 0,
+    "substantive_programme_credit": 0
+  },
+  "routes": [
+    {
+      "queue_item": "POD-EDIT-061",
+      "route": "/destinations/",
+      "classification": "directory_utility",
+      "rationale": "Destination index: opening invitation, planning navigation, destination-guide cards and a preview notice. It aggregates region orientations and Chilika/Konark summaries; it does not present a sustained destination essay. The individual linked destination guides are the articles.",
+      "attribution": "No route byline or article footnotes. Do not assign blanket authorship to navigation cards. Descriptive summaries remain traceable to linked guides and underlying KB; exclusion does not certify every geographic claim.",
+      "media": "DestinationCards collects unique photographs and renders source, creator, licence URL and changes in Photographs & credits. Cards crop to1.5 ratio as directory previews; no new media or article-specific image treatment required by classification. Preserve original credits and linked full guides."
+    },
+    {
+      "queue_item": "POD-EDIT-062",
+      "route": "/food/",
+      "classification": "directory_utility",
+      "rationale": "Food discovery and planning directory. Three illustrated teasers point to Dalma, Dahibara Aloodum and Machha Besara; thematic paths, a collection starter and Where to eat lead elsewhere. Area-grouped saveable food ideas constitute the main catalogue. Short connective prose invites reading but does not form an independent food essay. Do not confuse this hub with /food/everyday/, /food/fire-cooking/, /food/three-tastes/ or individual dish articles.",
+      "attribution": "No hub byline; leave article author/source treatment on linked narratives. Feature descriptions are abbreviated story invitations with direct article links. Do not interpret the lack of hub footnotes as permission to add new unsupported food claims.",
+      "media": "Page merges five declared food card-image mappings; other card imagery comes from existing catalogue assets. PlanningCollection lists unique photo credits. Existing tests verify all regional cards have photos, five scoped mappings retain creator/licence/source/captions and hashes where supplied, and all rendered hub image files decode. No new independent visual-cultural review claimed."
+    },
+    {
+      "queue_item": "POD-EDIT-063",
+      "route": "/things-to-do/",
+      "classification": "directory_utility",
+      "rationale": "Area-grouped experience finder, generated from journey-catalog kind Experience. It offers save buttons, links to detailed experience readings, heritage-walk/craft/textile directories and preparation questions. The note explicitly calls these ideas to research, not bookable activities. This is a planning index, not an independent performance/craft/nature article.",
+      "attribution": "No aggregate byline. Preserve source and author identities within linked articles, including the dated first-person Bhubaneswar photo-story teaser. Card wording remains evidence-bearing even though the route is a utility. No current performance, booking or maker-access guarantee should be inferred.",
+      "media": "Cover is Mayurbhanj Chhau where present; contain treatment explicitly retained. Shared photo disclosure preserves original credits/rights. Reusing a documentary image on a navigation card does not imply today’s event availability."
+    },
+    {
+      "queue_item": "POD-EDIT-064",
+      "route": "/stay-areas/",
+      "classification": "directory_utility",
+      "rationale": "Eight area-guide choices grouped for trip planning, with save actions, comparison prompts and links to individual stay-area articles. No property listings, room inventory, prices, booking flow or sustained hotel/area essay. The opening and note explicitly tell readers to choose an area and then research individual accommodation.",
+      "attribution": "No route byline. Property-inspection/endorsement, availability and booking limits are stated. Individual linked area guides keep their own source notes; exclusion does not turn any suggestion into a verified provider.",
+      "media": "Every stay card uses explicit Landscape context · not a property photograph wording through planning-collections.ts. Credits remain in shared disclosure. Keep this distinction and do not relabel scenery as a hotel photograph."
+    }
+  ],
+  "limitations": [
+    "No new web/source research, live checks, screenshots or responsive rendering review; not required to distinguish present utility structure.",
+    "Existing built artifacts inspected/tested without rebuilding; no fresh deployment claim.",
+    "No exhaustive revalidation of every inherited card fact, asset right or linked article. Known source/rights links preserved in observed implementation; independent cultural image review not claimed.",
+    "Exclusion is from article editorial treatment only, not from future factual, source, accessibility or rights maintenance.",
+    "No browser visual or keyboard review; HTML inspection is not visual review.",
+    "No repository files edited, build, Git mutation or publication performed.",
+    "Existing dist-coast tests are artifact checks; live HTML hashes are compared separately.",
+    "Live HTTP 200 does not establish factual correctness of linked articles or availability of services."
+  ],
+  "technical_verification": {
+    "input_head": "9c1a3a4f08e0db94387c987deb80adad29d1e313",
+    "scope": "Read-only technical classification of POD-EDIT-061 through POD-EDIT-064. No delivered article or programme credit.",
+    "source_files": {
+      "projects/site/src/pages/destinations/index.astro": {
+        "sha256": "6b3c7477249aefd626f310b2229c69cff648a7d26687d905c6360e5e07cc4c92",
+        "bytes": 1531
+      },
+      "projects/site/src/pages/food/index.astro": {
+        "sha256": "3e32c4b99a36a4df1795ba0d0c59e2e041556fbca325e2437bcff5e8ffeaceb0",
+        "bytes": 885
+      },
+      "projects/site/src/pages/things-to-do/index.astro": {
+        "sha256": "6eba51c716105b23104948cbeaf11c71e382102474594a6fe65459104ceb89eb",
+        "bytes": 270
+      },
+      "projects/site/src/pages/stay-areas/index.astro": {
+        "sha256": "9169ba4419135ee6a6b2ff4d3fc7e97f9b14864707ebb88451da2fa5be468840",
+        "bytes": 268
+      },
+      "projects/site/src/components/PlanningCollection.astro": {
+        "sha256": "d6e8b1f0f4792bf75d4d41c0a096de5d02d4b45a54e3ba13185471ebe972c502",
+        "bytes": 8050
+      },
+      "projects/site/src/components/PlanningPaths.astro": {
+        "sha256": "ef826ba4c2a9cbe3b90307a1ba4b11f4d5b496ce71660a9184eac913a89725b9",
+        "bytes": 969
+      },
+      "projects/site/src/components/DestinationCards.astro": {
+        "sha256": "998ace67588a348a123e4c04d5e397c1dfabb40b108ef57b23ed1771fbb5502e",
+        "bytes": 1574
+      },
+      "projects/site/src/components/FoodDiscovery.astro": {
+        "sha256": "0944d7e8c3ad149c57d90dd77e4c12ed0aaf380ecf8310226f05aff45d349b7d",
+        "bytes": 3822
+      },
+      "projects/site/src/components/SaveJourney.astro": {
+        "sha256": "ea8d434933074a5205f34b87fedff19abcb6a983b1883c3eb22e9df26f822840",
+        "bytes": 731
+      },
+      "projects/site/src/components/ResponsiveImage.astro": {
+        "sha256": "38c36c702bd2da4e2d7411eeffc5d495017f9b53ca8856e6d9c8ed0b8532878f",
+        "bytes": 264
+      },
+      "projects/site/src/data/planning-collections.ts": {
+        "sha256": "467b2390327f329535d624447f542b198b51851f25e5873e3f6a2f78c643698c",
+        "bytes": 2774
+      },
+      "projects/site/src/data/destination-directory.ts": {
+        "sha256": "f08255bc05118d159dff75bb9eb7813da01c6ce85d310350cb6f5b0546b96e7d",
+        "bytes": 630
+      },
+      "projects/site/src/data/journey-catalog.ts": {
+        "sha256": "d99c8240580af4c63850a9bf5a60c7e46b4bd569b3883f7f24b522d76441d20e",
+        "bytes": 17797
+      },
+      "projects/site/src/data/destination-details.ts": {
+        "sha256": "c9fc83ce8d08940aeafdd87c66757aa9b8f8e6d722434d7efc97ed8abc0ac131",
+        "bytes": 8517
+      },
+      "projects/site/src/data/book-photos.ts": {
+        "sha256": "1d7e92a35272eaaa1f76287a2f362126e6d23d4837f7d278f376a3bebcbd52d4",
+        "bytes": 4895
+      },
+      "projects/site/src/data/selected.json": {
+        "sha256": "f786d885ce4b8f40956c0d011a0e24c9143dde4e29327c6bdfca75c5105ea7a2",
+        "bytes": 7761
+      },
+      "projects/site/src/data/edition.ts": {
+        "sha256": "ac57ce41ddd2ebfc59779e3a17d7ca69e4023ae71d963e332492a80692d7a903",
+        "bytes": 713
+      },
+      "kb/research/food/discovery-hub.json": {
+        "sha256": "76a7c04d1b6ae0bd5e880b7fffb1f394f91029c0096b8599798773376495bc56",
+        "bytes": 2330
+      },
+      "kb/research/food/collection.json": {
+        "sha256": "cf9ed7162e5e36008c3c96c3d9663c59540a5cbbb812c48803ff0ad4841b5812",
+        "bytes": 105692
+      },
+      "kb/research/destinations/regions.json": {
+        "sha256": "7c6cb3cd47edb321aa869696b35a9062adf066fc39a42122c91027e511475f70",
+        "bytes": 107175
+      },
+      "projects/site/editions/coast.json": {
+        "sha256": "596d662572d47451a1e262003a8b53949c6f8f50d88cf9acd1ad29d93bef1ae3",
+        "bytes": 22247
+      },
+      "projects/site/tests-coast/planning-hubs.test.mjs": {
+        "sha256": "14a562527d93fba206e217a42f940461017b0da039ce5fc866427ab844a17364",
+        "bytes": 2128
+      }
+    },
+    "checks": [
+      "Read actual templates, imported planning/data/photo components and edition filtering.",
+      "Four actual live HTTPS responses: 200; exact body SHA256 and retrieval timestamps recorded.",
+      "Parsed live DOM: one current planning nav and one credits disclosure per hub; nonempty linked cards; unique per-card save identities for three planning collections.",
+      "Every live card destination exists in existing coastal build; no network status claims for those individual targets.",
+      "node --test tests-coast/planning-hubs.test.mjs: 2 passed, 0 failed against existing dist-coast."
+    ],
+    "limits": [
+      "No browser visual or keyboard review; HTML inspection is not visual review.",
+      "No repository files edited, build, Git mutation or publication performed.",
+      "Existing dist-coast tests are artifact checks; live HTML hashes are compared separately.",
+      "Live HTTP 200 does not establish factual correctness of linked articles or availability of services.",
+      "Initial sandbox DNS failed; read-only public retrieval succeeded with approved network escalation."
+    ],
+    "findings": [
+      "Destinations enumerates region guides plus Chilika/Konark via DestinationCards; no standalone authored narrative.",
+      "Food, Things to do and Stay areas derive cards from journeyCatalog with kind and edition filters; cards provide save controls and area jump links, followed by planning questions.",
+      "Food adds discovery-hub teasers, collection and dining routes; these remain introductions to separate articles, not a single food article.",
+      "Destination credits deduplicate photographs by source path. Planning credits deduplicate card photos by source path and list creator, license, changes; food feature media credits should remain checked against this card-derived set.",
+      "Stay cards explicitly label photographs as landscape context, not properties; notes disclaim inspection, endorsement, booking and availability. Things-to-do note says research ideas, not bookable activities.",
+      "CSS uses cropped directory thumbnails by default; selected photoFit contain exceptions preserved. Article full-frame requirement should not be inferred to require rewriting directory thumbnails."
+    ],
+    "routes": {
+      "/destinations/": {
+        "url": "https://projectodisha.org/destinations/",
+        "effective_url": "https://projectodisha.org/destinations/",
+        "status": 200,
+        "sha256": "a2df8a992fe80cbc437f53f62f61e5a4fb9554607f256ff611d97b288d6507b1",
+        "bytes": 574619,
+        "observed_at": "2026-10-21T02:33:18.859674+00:00",
+        "title": "A place to pause.  A story to follow.",
+        "card_count": 7,
+        "card_links": [
+          "/destinations/balasore/",
+          "/destinations/mayurbhanj/",
+          "/destinations/bhubaneswar/",
+          "/destinations/puri/",
+          "/destinations/cuttack/",
+          "/knowledge/chilika/",
+          "/knowledge/konark/"
+        ],
+        "area_links": [],
+        "credit_disclosure_count": 1,
+        "existing_dist_coast_sha256": "5e647f5596dae2752a6869cee3a8cb92c7f44fead3fca349796374e99f417870",
+        "existing_dist_matches_live": false,
+        "classification": "utility planning directory; exclude from article presentation rollout, retain inherited content/media obligations"
+      },
+      "/food/": {
+        "url": "https://projectodisha.org/food/",
+        "effective_url": "https://projectodisha.org/food/",
+        "status": 200,
+        "sha256": "63864c176251625ddd85924c3b1978032d55b0bc1b451a50d4d23f06d700c11e",
+        "bytes": 614460,
+        "observed_at": "2026-10-21T02:33:19.524357+00:00",
+        "title": "Leave room for  one more taste.",
+        "card_count": 21,
+        "card_links": [
+          "/food/balasore/",
+          "/food/mudhi-mansa/",
+          "/food/enduri-pitha/",
+          "/food/poda-pitha/",
+          "/food/ou-khatta/",
+          "/food/badi-chura/",
+          "/food/tala-pitha/",
+          "/food/baigana-poda/",
+          "/food/tomato-poda/",
+          "/food/patrapoda/",
+          "/food/dalma/",
+          "/food/dahibara-aloodum/",
+          "/food/puri-coast/#maha-prasad",
+          "/food/machha-besara/",
+          "/food/puri-coast/#chingudi",
+          "/food/chhena-poda/",
+          "/knowledge/chilika/#food-chilika-fish",
+          "/knowledge/chilika/#food-chilika-prawns-crab",
+          "/knowledge/chilika/#food-chilika-curd",
+          "/food/odisha-rasagola/",
+          "/food/bhubaneswar/#pakhala"
+        ],
+        "area_links": [
+          "#area-chandipur-balasore",
+          "#area-baripada-mayurbhanj",
+          "#area-across-odisha",
+          "#area-bhubaneswar",
+          "#area-cuttack",
+          "#area-puri-konark",
+          "#area-chilika",
+          "#area-odisha"
+        ],
+        "credit_disclosure_count": 1,
+        "existing_dist_coast_sha256": "f7f6dc180712fea014e41ef6381f1a7e692f986fa287433491207973124668cc",
+        "existing_dist_matches_live": false,
+        "classification": "utility planning directory; exclude from article presentation rollout, retain inherited content/media obligations",
+        "feature_links": [
+          "/food/dalma/",
+          "/food/dalma/",
+          "/food/dahibara-aloodum/",
+          "/food/dahibara-aloodum/",
+          "/food/machha-besara/",
+          "/food/machha-besara/"
+        ],
+        "food_directory_link_present": true
+      },
+      "/things-to-do/": {
+        "url": "https://projectodisha.org/things-to-do/",
+        "effective_url": "https://projectodisha.org/things-to-do/",
+        "status": 200,
+        "sha256": "72880bca150d528aabc00d61a011a8c19feff220743524dbee5465c0205920ea",
+        "bytes": 589570,
+        "observed_at": "2026-10-21T02:33:20.278584+00:00",
+        "title": "A closer look.  A richer visit.",
+        "card_count": 11,
+        "card_links": [
+          "/stories/bhubaneswar-fresco/",
+          "/visit/experiences/kala-bhoomi/",
+          "/visit/experiences/cuttack-filigree/",
+          "/visit/experiences/cuttack-netaji/",
+          "/visit/experiences/jobra-maritime-museum/",
+          "/visit/experiences/mangalajodi-birdwatching/",
+          "/visit/experiences/kalijai-crossing/",
+          "/visit/experiences/satapada-boating/",
+          "/destinations/balasore/#experience-balasore-reading",
+          "/visit/experiences/mayurbhanj-chhau/",
+          "/destinations/mayurbhanj/#experience-mayurbhanj-sabai"
+        ],
+        "area_links": [
+          "#area-bhubaneswar",
+          "#area-cuttack",
+          "#area-chilika",
+          "#area-balasore",
+          "#area-mayurbhanj"
+        ],
+        "credit_disclosure_count": 1,
+        "existing_dist_coast_sha256": "b00e2e53505a68a7ff1620277fdc8490faa129966c7defde53cc8411500b2746",
+        "existing_dist_matches_live": false,
+        "classification": "utility planning directory; exclude from article presentation rollout, retain inherited content/media obligations"
+      },
+      "/stay-areas/": {
+        "url": "https://projectodisha.org/stay-areas/",
+        "effective_url": "https://projectodisha.org/stay-areas/",
+        "status": 200,
+        "sha256": "5754208e4d2a58fd5895ebe92711709f44566e2ec27b5f4460288bab9bb2af5a",
+        "bytes": 584838,
+        "observed_at": "2026-10-21T02:33:20.994961+00:00",
+        "title": "Choose a base.  Find your own pace.",
+        "card_count": 8,
+        "card_links": [
+          "/visit/stays/bhubaneswar/",
+          "/visit/stays/cuttack/",
+          "/visit/stays/puri-coast/",
+          "/visit/stays/mangalajodi/",
+          "/visit/stays/barkul-rambha/",
+          "/visit/stays/rajhans-satapada/",
+          "/visit/stays/balasore-coast/",
+          "/visit/stays/similipal-gateways/"
+        ],
+        "area_links": [
+          "#area-bhubaneswar",
+          "#area-cuttack",
+          "#area-puri-konark",
+          "#area-chilika",
+          "#area-balasore",
+          "#area-mayurbhanj"
+        ],
+        "credit_disclosure_count": 1,
+        "existing_dist_coast_sha256": "9a96d2f798ec629eb79589af17a8fbefa9cce1f33ea01f9fbcb1001a9e8bfa6d",
+        "existing_dist_matches_live": false,
+        "classification": "utility planning directory; exclude from article presentation rollout, retain inherited content/media obligations"
+      }
+    }
+  },
+  "coordinator_checks": {
+    "record_consistency": [
+      "team assignments PASS",
+      "autonomous500 count and delivery links PASS",
+      "rollout PASS:54 completed,76 excluded,328 queued",
+      "registers current",
+      "research map PASS",
+      "workbench current",
+      "catalogue current",
+      "git diff --check PASS"
+    ],
+    "publication": "No site edits or deployment; four live page checks are observations of the existing deployment.",
+    "previous_receipt": "Observed PR395 MERGED at2026-10-21T01:27:32Z, reviewed head c54ba45efb89fbdfda3a6b865765f3c483f1b9e1, CI39503090863 success."
+  },
+  "next_action": "Separate Drishti review, then passing PR checks and observed merge. Resume the next eligible queued article after integration."
+}
