@@ -1,0 +1,121 @@
+{
+  "article_id": "POD-EDIT-459",
+  "reviewer": "Drishti, separate AI reviewer",
+  "recorded_at": "2026-10-21T19:28:57.869009+00:00",
+  "input_head": "495c68e7247e226889ea33f82f5fec3c22b5f22c",
+  "status": "pass_with_limitations",
+  "file_sha256": {
+    "kb/research/communities/paika.json": "91738b70a4c7173215c3c8dd7ea4e67fbac432230d2828c9e9548961d9f7aa75",
+    "kb/research/sources/paika-research.json": "169b0e22ed3a9e33ccec849760dd5e62be1d734488187b0b0c293d0cda77503a",
+    "projects/site/src/pages/communities/paika.astro": "3a282806188a7da4c3a5434b854928dea56886b31bd8600f60d67ba5a98c1324",
+    "projects/site/tests-coast/paika-editorial.test.mjs": "0edcf781a8dd33f91a9777bccffb90c63403321d3f0d0a861ccb9a5fb458bea2",
+    "projects/site/editions/coast.json": "7c231cca6773f0599dc1a799df06ef9a961265c70389a5cea66d1d9430ea76a4",
+    "projects/site/src/data/discovery.ts": "5ea749da71377dba23a63efde9836cb7aeaa2a959924ea8825eb38b75e6a20dc",
+    "projects/site/src/data/journey-catalog.ts": "16c3bbb776027f4f0b99957e8b45cacc38228e05d78ed95665c80c37a318f4db"
+  },
+  "findings": [
+    "Read actual canonical narrative, evidence dossier, new page/test and shared edition/discovery/journey diffs.",
+    "Independently read original Khordha history, Tanabe publisher text574–589, Koraput Gazetteer printed140 and PIB2017. Service/caste distinctions, hereditary positions, diverse personnel, inequalities and region-sensitive terminology are supported.",
+    "Khordha culture original cached HTML supports Dussehra performance, listed instruments and attributed padatika etymology; no uninterrupted lineage implied.",
+    "No invention date, universal caste genealogy, current legal classification or first-war superlative asserted. Original manuscript inspection is not claimed.",
+    "Source budgets by whitespace count including footnote titles/notes: Khordha195,Tanabe191,Koraput144,PIB83,culture88. Khordha headings leave insufficient conservative margin; trim about15 words from source-linked prose.",
+    "New public route is explicitly admitted to coastal edition and discoverable; journey receives full paragraph arrays and concise sources. No sitemap/search eligibility addition.",
+    "Article template retains visible linked footnotes, collapsed further reading and public correction link. No invented documentary imagery."
+  ],
+  "blockers": [],
+  "tests": [
+    "git diff --check passed.",
+    "Independent source checks against original web documents and saved culture HTML.",
+    "Computed source-attributed prose/notes word counts.",
+    "Rechecked revised Khordha prose: no factual change, all five source budgets including headings now at or below200.",
+    "Read full coast log:418 passed,0 failed; unit log:36 passed,0 failed. Execution by Samanta.",
+    "Inspected current desktop and mobile-body captures: clear reading layout, no visible clipping; source references readable.",
+    "Independently counted117 rendered Explore entries and30 Reading items, including exactly one reading:paika. Three integration-test count deltas are justified.",
+    "All seven public/source file fingerprints unchanged after budget correction.",
+    "Exact commit verification: all7 public/source and3 integration-test file hashes match reviewed candidate at 7122b01572d55beab31ff7e75bc83814d91806cc",
+    "Reviewed follow-up delta: explicit Paika search hold preserves eleven-route approval; full-build static route count increases by1 for new Paika page. No prose/source change.",
+    "Independently read full-test log566 passed0failed and publication build log11indexable pages.",
+    "All7 public/source hashes remain identical to prior reviewed candidate."
+  ],
+  "limits": [
+    "No human/community interview, manuscript or field verification.",
+    "Responsive interactions are Samanta evidence; Drishti directly inspected two named screenshot captures.",
+    "No independent physical-device or screen-reader assessment.",
+    "PR required checks, merge, approved deployment and live receipt remain coordinator gates."
+  ],
+  "repository_edits": [],
+  "source_budget_correction": {
+    "result": "Resolved by bounded first-section trims; meaning preserved.",
+    "counts_including_section_headings": {
+      "paika-khordha-history": {
+        "body_notes_title": 173,
+        "including_section_headings": 184
+      },
+      "paika-tanabe2020": {
+        "body_notes_title": 191,
+        "including_section_headings": 194
+      },
+      "paika-koraput-gazetteer": {
+        "body_notes_title": 144,
+        "including_section_headings": 151
+      },
+      "paika-pib2017": {
+        "body_notes_title": 83,
+        "including_section_headings": 90
+      },
+      "paika-khordha-culture": {
+        "body_notes_title": 88,
+        "including_section_headings": 92
+      }
+    }
+  },
+  "remaining_gates": [
+    "PR checks",
+    "Reviewed-head merge",
+    "Approved publication",
+    "Live checks and receipt"
+  ],
+  "integration_test_sha256": {
+    "projects/site/tests-coast/edition.test.mjs": "3f8ac290910fbd3c6fa85c1e46d8df8eb669bd6c84fe6cacb72d6d8ffd36565f",
+    "projects/site/tests-coast/discovery-flow.test.mjs": "ed25440b1ac6f628b5db6ada94cda50fe0be214ce7e4d69fec29803fc350feb6",
+    "projects/site/tests-coast/cuttack-literature.test.mjs": "629b8b9e6fb5ed58660cd1d0139c4f82a24e0dda5d040fb9dfc7ef8419685b47"
+  },
+  "visual_evidence": {
+    "/tmp/pod-paika-desktop.png": "7e8f991323ddf2c2ede6ae4169520c9dfd33cf714e519edd62c05b6837507722",
+    "/tmp/pod-paika-mobile-body.png": "c5b5af09d06a8d3f97f629dc8be1e3c5e07ca6e9abf29bdffefc8959f790cd5a"
+  },
+  "reviewed_head": "790d6740b01f78aa69beb97b5447e2975b34891e",
+  "exact_commit_verified_files": [
+    "kb/research/communities/paika.json",
+    "kb/research/sources/paika-research.json",
+    "projects/site/src/pages/communities/paika.astro",
+    "projects/site/tests-coast/paika-editorial.test.mjs",
+    "projects/site/editions/coast.json",
+    "projects/site/src/data/discovery.ts",
+    "projects/site/src/data/journey-catalog.ts",
+    "projects/site/tests-coast/edition.test.mjs",
+    "projects/site/tests-coast/discovery-flow.test.mjs",
+    "projects/site/tests-coast/cuttack-literature.test.mjs"
+  ],
+  "previous_reviewed_head": "7122b01572d55beab31ff7e75bc83814d91806cc",
+  "ci_history": [
+    {
+      "failed_run": "39661381456",
+      "cause": "New route lacked explicit search hold and full-build static route count was stale.",
+      "correction": "Added Paika hold decision and increased static count113 to114; full566 tests and publication build passed locally.",
+      "required_ci": "Coordinator must verify passing latest head before merge."
+    }
+  ],
+  "additional_reviewed_files": {
+    "projects/site/editions/search-candidate.json": "566a2d8df0a2dbe653e15ca5d6394ac225c6f5b0cb7563ac9ea211282a54ad01",
+    "projects/site/tests/build.test.mjs": "676c53d062f6b58499f5867aeba3fef0e4e1de3d3e4cfbc5ee74a767741d0a13"
+  },
+  "program_item": "POD-A500-113",
+  "work_id": "POD-WORK-303",
+  "authorization": "POD-DEC-225",
+  "verification": {
+    "source_review": "Independent original-source and source-budget review recorded in paika-review-2026-10-22.json",
+    "implementation": "418coastal,566full tests; desktop/mobile and portable reading checks; exact public source hashes compared",
+    "ci": "Passing PR421 validation39661958562 on reviewed790d6740"
+  }
+}

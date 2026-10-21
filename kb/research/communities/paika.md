@@ -1,7 +1,7 @@
 ---
 type: "Community history"
 title: "Paika: service, community and Odia heritage"
-status: "researched_candidate"
+status: "published_with_source_limits"
 ---
 
 # Paika
@@ -11,3 +11,5 @@ The Khurda service system recruited across communities. Khandayat connections ar
 [Canonical article and claim mapping](paika.json) · [Source inspections and limits](../sources/paika-research.json).
 
 Founder direction: begin with Paika and examine Odisha community origins with Odia identity and local heritage central. Distinguish documented traditions, oral origin accounts and recent adoption; do not infer that every caste was intentionally created for one purpose. No human or community review is claimed.
+
+Publication and live verification: [delivery receipt](../../records/paika-editorial-publication-2026-10-22.json). Community and human historical review remain open.

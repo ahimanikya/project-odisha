@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 459. completed: 64, excluded: 76, in_progress: 1, queued: 318.
+Route inventory: 459. completed: 65, excluded: 76, queued: 318.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -472,4 +472,4 @@ Route inventory: 459. completed: 64, excluded: 76, in_progress: 1, queued: 318.
 | POD-EDIT-456 | [Super Snax at Mayfair Oasis](https://projectodisha.org/food/restaurants/jharsuguda-super-snax-mayfair-oasis/) | excluded | dining_listing |
 | POD-EDIT-457 | [VDumpling Dynasty — Cuttack](https://projectodisha.org/food/restaurants/cuttack-vdumpling-dynasty/) | excluded | dining_listing |
 | POD-EDIT-458 | [Chilika island breakfast — Rambha Palace](https://projectodisha.org/food/restaurants/chilika-rambha-island-breakfast/) | excluded | dining_listing |
-| POD-EDIT-459 | [Paika: service, community and Odia heritage](https://projectodisha.org/communities/paika/) | in_progress | Founder-prioritized new community article, documented origins versus traditions; distinguish military service, caste identities and living heritage. |
+| POD-EDIT-459 | [Paika: service, community and Odia heritage](https://projectodisha.org/communities/paika/) | completed | Founder-prioritized new community article, documented origins versus traditions; distinguish military service, caste identities and living heritage. |
