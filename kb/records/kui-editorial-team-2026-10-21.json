@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-21T05:38:59.885946+00:00",
   "article_id": "POD-EDIT-066",
   "route": "/languages/kui/",
-  "status": "integrated_candidate_review",
+  "status": "published_receipt_pending_integration",
   "input_head": "c30643edd43a10746c3b14a7f15219c4273847c3",
   "authorization": [
     "POD-DEC-2026101702",
@@ -60,7 +60,7 @@
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Read-only separate review after integrated candidate ready.",
-      "status": "reviewing"
+      "status": "complete"
     },
     {
       "name": "Disha",
@@ -181,5 +181,117 @@
     "limits": [
       "Browser viewport emulation, not physical-device or screen-reader review."
     ]
-  }
+  },
+  "review": {
+    "reviewer": "Drishti, separate AI reviewer /root/drishti; not human review",
+    "input_head": "11b3425e0e8f31d455813e813a4c92e628a1390c",
+    "base": "c30643edd43a10746c3b14a7f15219c4273847c3",
+    "result": "PASS",
+    "blocking_findings": [],
+    "actual_source_checks": [
+      {
+        "source": "CIIL Kui collection",
+        "url": "https://sanchika.ciil.org/communities/ad651338-c2a2-49ec-ae49-0731c4d175b6",
+        "check": "Fresh original HTML read; South-Central Dravidian relation to Kuvi/Gondi supports article. Institutional community figures/stereotypes not adopted as speaker counts."
+      },
+      {
+        "source": "CIIL–NCERT Kui Primer2024",
+        "file": "/tmp/pod-kui-primer.pdf",
+        "sha256": "ae381095b949e5437416a467569954d88944f1974f1abaf67b84e0b690c81251",
+        "check": "Independently visually read supplied renders PDF5/10/16/43 (printedii/vii/3/30): first edition9March2024 and child/adult literacy purpose; named Kandhamal resource-person roles and AnujMohanPradhan reviewer; mouse/letter/label/fadingforms and numeral/word/fruitquantity layout. No new word translation or public image reproduction."
+      },
+      {
+        "source": "Original Census C-16 workbook",
+        "file": "kb/research/references/census-2011/c16-odisha.xlsx",
+        "check": "Independently read Sheet1 XML row226:070001Kui939177. Retained2011 mother-tongue scope; districtdata unchanged."
+      }
+    ],
+    "source_limits": [
+      "ATLC Tahii catalogue and2018booklet remain earlier selected inspections with freshaccessfailure honest; Drishti didnot freshly retrieve those sources. No fullTahii reading, pronunciation/fluent/community/field review.",
+      "Primer public budget: mappedbody+source title+note172words; plus entirelead194. Booklet71 plus fulllead22 and retainedpanel66=159. No source text/image reproduced as original writing."
+    ],
+    "preservation_checks": [
+      "Only Kui collectionpage changes; sourceidentities reused, assets and census dataunchanged.",
+      "Exact languages/kui opt-in controls byline, numberednotes, collapsedonward,census and portable fullparagraphs. Kuvi remains unchangedcontrol; prior Santali/Odia controls retained.",
+      "Five sections/eight paragraphs,5sources7markers, original identity/place/stories/primer anchors. Text-only cover and book avoid inventing a script image.",
+      "Prior Santali receipt integration records change separately; programme file byte-identical112 and065not re-counted.066 remainsinprogress."
+    ],
+    "tests": [
+      {
+        "command": "node --test tests-coast/kui-editorial.test.mjs tests-coast/santali-editorial.test.mjs tests-coast/living-languages.test.mjs tests-coast/visitor-experience.test.mjs tests-coast/odia-editorial.test.mjs tests/voices.test.mjs",
+        "cwd": "projects/site",
+        "runtime": "Node24.15.0",
+        "result": "PASS28/28 independently run on fresh outputs"
+      },
+      {
+        "command": "python3 tools/editorial/article_rollout.py --check",
+        "result": "PASS55completed76excluded1in_progress326queued"
+      },
+      {
+        "command": "python3 tools/check_team_assignments.py",
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/check_autonomous_program.py",
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/editorial/build_workbench.py --check",
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/research/validate_research_map.py",
+        "result": "PASS"
+      },
+      {
+        "command": "git diff --check c30643ed..435957e7",
+        "result": "PASS"
+      },
+      {
+        "command": "node --test tests-coast/voices-passage-sources.test.mjs tests-coast/kui-editorial.test.mjs",
+        "cwd": "projects/site",
+        "runtime": "Node24.15.0",
+        "result": "PASS25/25 independently run on final built output"
+      },
+      {
+        "command": "git diff --check c30643ed..11b3425e; article_rollout.py --check; check_team_assignments.py; check_autonomous_program.py",
+        "result": "PASS independently rerun at final head; 55 completed, 76 excluded, 1 in_progress, 326 queued; programme112"
+      }
+    ],
+    "limitations": [
+      "Separate AI review, not human, fluent-language, specialist, field or teaching-outcome review. ATLC and2018booklet earlier inspections were not freshly repeated by Drishti.",
+      "Drishti independently inspected selected source/PDF pages, workbook XML, code, rendered focused tests and three saved screenshots; interactive browser actions and full builds/suites are coordinator evidence.",
+      "No builds, Git mutation, shared-file edits or publication by Drishti. Required CI, merge, approved deployment, live checks and receipt integration remain necessary; article still in_progress and claim retained."
+    ],
+    "initial_reviewed_head": "435957e744464c922649a6cd7caf612a253af727",
+    "final_delta_review": {
+      "scope": "Eight files since initial candidate: six screenshots, coordinator browser evidence, and one targeted test correction; no production or prose changes.",
+      "test_correction": "Kui no-image case now checks null hero_asset, no card assets, text-only culture-identity cover, all identity lines and absence of Images and reuse. Other route image-credit assertions retained.",
+      "screenshots_independently_inspected": [
+        "kb/records/evidence/kui-editorial-2026-10-21/desktop-reading.png",
+        "kb/records/evidence/kui-editorial-2026-10-21/mobile-hero.png",
+        "kb/records/evidence/kui-editorial-2026-10-21/mobile-notes.png"
+      ],
+      "visual_result": "Readable centered desktop prose, mobile text-only identity cover, and wrapping five-note list with three primer return links; no visible clipping in inspected screenshots. Interactive focus/disclosure measurements are coordinator evidence, not independently repeated by Drishti."
+    },
+    "coordinator_validation": {
+      "full_suite": "566/566 PASS, log inspected; not executed by Drishti",
+      "coast_suite": "367/367 PASS, final /tmp/pod-kui-coast-test.log tail independently inspected; not full-suite executed by Drishti",
+      "publication": "11 indexable PASS reported by coordinator",
+      "browser": "Coordinator actual 1440x900 and390x844 viewport, 740/343.195px reading widths, no overflow, exact keyboard note/return focus and Further reading Enter toggle; three saved screenshots separately inspected by Drishti"
+    }
+  },
+  "publication_pending": {
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/403",
+    "merge_commit": "8eaed4cc475098de44bb4697a4e88e7715d73059",
+    "ci": 39551568708,
+    "deployment": 39552428067
+  },
+  "publication_receipt": "records/kui-editorial-publication-2026-10-21.json",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/403",
+  "validation_notes": [
+    "Full build and566/566 testsPASS; coast build and367/367 testsPASS; limited publication11indexable unchanged.",
+    "Actual desktop/mobile keyboard and visual review passed; separateAI review accepted exact published candidate.",
+    "PR403 merged; approved publication succeeded; actual liveHTML and desktop/mobile verified. Receipt merge required before ownership release."
+  ]
 }

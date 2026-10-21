@@ -21605,6 +21605,31 @@
         "Booklet credits/table evidence retains1October inspection; fresh retrieval failed21October. No pronunciation review or Nalha poem interpretation.",
         "Browser emulation, not physical-device or screen-reader testing."
       ]
+    },
+    {
+      "id": "POD-REV-2026102103",
+      "title": "Separate Kui article and source review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent /root/drishti"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human or fluent-language review.",
+      "reviewed_head": "11b3425e0e8f31d455813e813a4c92e628a1390c",
+      "refs": [
+        "POD-WORK-302",
+        "POD-DEC-2026101901",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/kui-editorial-team-2026-10-21.json"
+      ],
+      "limitations": [
+        "Separate AI research, implementation and review; not human, fluent-language or field review.",
+        "Tahii catalogue and2018booklet retain1October inspection after fresh retrieval failures; no plot or vocabulary translation inferred.",
+        "Browser viewport emulation, not physical-device or screen-reader testing."
+      ]
     }
   ],
   "releases": [
@@ -24946,6 +24971,23 @@
         "records/santali-editorial-team-2026-10-21.json"
       ],
       "note": "ReviewedPR401 passedCI and merged; approved deployment and live notes, retainedCC0 specimen and responsive reading verified. Zero substantive programme credit."
+    },
+    {
+      "id": "POD-REL-2026102102",
+      "title": "Kui learning pages and contributors",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/languages/kui/",
+      "refs": [
+        "POD-WORK-302",
+        "POD-REV-2026102103",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/kui-editorial-publication-2026-10-21.json",
+        "records/kui-editorial-team-2026-10-21.json"
+      ],
+      "note": "ReviewedPR403 passedCI and merged; approved deployment and live numbered notes, text-only identity panel and responsive reading verified. Zero substantive programme credit."
     }
   ],
   "sources": [
