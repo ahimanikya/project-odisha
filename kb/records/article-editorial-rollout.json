@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-20T21:45:24.238519+00:00",
+  "updated_at": "2026-10-21T02:34:40.273822+00:00",
   "authorization": "POD-DEC-2026101702",
   "work_id": "POD-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -1958,45 +1958,65 @@
       "id": "POD-EDIT-061",
       "route": "/destinations/",
       "title": "Destinations in Odisha",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "excluded",
+      "scope": "directory_utility",
       "source_template": "projects/site/src/pages/destinations/index.astro",
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/planning-hub-classification-2026-10-21.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Destination index: opening invitation, planning navigation, destination-guide cards and a preview notice. It aggregates region orientations and Chilika/Konark summaries; it does not present a sustained destination essay. The individual linked destination guides are the articles."
     },
     {
       "id": "POD-EDIT-062",
       "route": "/food/",
       "title": "Food &amp; flavours",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "excluded",
+      "scope": "directory_utility",
       "source_template": "projects/site/src/pages/food/index.astro",
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/planning-hub-classification-2026-10-21.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Food discovery and planning directory. Three illustrated teasers point to Dalma, Dahibara Aloodum and Machha Besara; thematic paths, a collection starter and Where to eat lead elsewhere. Area-grouped saveable food ideas constitute the main catalogue. Short connective prose invites reading but does not form an independent food essay. Do not confuse this hub with /food/everyday/, /food/fire-cooking/, /food/three-tastes/ or individual dish articles."
     },
     {
       "id": "POD-EDIT-063",
       "route": "/things-to-do/",
       "title": "Things to do",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "excluded",
+      "scope": "directory_utility",
       "source_template": "projects/site/src/pages/things-to-do/index.astro",
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/planning-hub-classification-2026-10-21.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Area-grouped experience finder, generated from journey-catalog kind Experience. It offers save buttons, links to detailed experience readings, heritage-walk/craft/textile directories and preparation questions. The note explicitly calls these ideas to research, not bookable activities. This is a planning index, not an independent performance/craft/nature article."
     },
     {
       "id": "POD-EDIT-064",
       "route": "/stay-areas/",
       "title": "Where to base yourself",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "excluded",
+      "scope": "directory_utility",
       "source_template": "projects/site/src/pages/stay-areas/index.astro",
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/planning-hub-classification-2026-10-21.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Eight area-guide choices grouped for trip planning, with save actions, comparison prompts and links to individual stay-area articles. No property listings, room inventory, prices, booking flow or sustained hotel/area essay. The opening and note explicitly tell readers to choose an area and then research individual accommodation."
     },
     {
       "id": "POD-EDIT-065",

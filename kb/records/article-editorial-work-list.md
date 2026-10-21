@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 458. completed: 54, excluded: 72, queued: 332.
+Route inventory: 458. completed: 54, excluded: 76, queued: 328.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -74,10 +74,10 @@ Route inventory: 458. completed: 54, excluded: 72, queued: 332.
 | POD-EDIT-058 | [Chhena Poda](https://projectodisha.org/food/chhena-poda/) | completed | Existing food article: technique, interpretation and origin evidence individually reviewed |
 | POD-EDIT-059 | [Mudhi Mansa](https://projectodisha.org/food/mudhi-mansa/) | completed | Existing food article: preparation, variation and historical evidence individually reviewed |
 | POD-EDIT-060 | [A meal by Chandipur](https://projectodisha.org/food/balasore/) | completed | Individually reviewed food and coastal meal article |
-| POD-EDIT-061 | [Destinations in Odisha](https://projectodisha.org/destinations/) | queued | classification_pending |
-| POD-EDIT-062 | [Food &amp; flavours](https://projectodisha.org/food/) | queued | classification_pending |
-| POD-EDIT-063 | [Things to do](https://projectodisha.org/things-to-do/) | queued | classification_pending |
-| POD-EDIT-064 | [Where to base yourself](https://projectodisha.org/stay-areas/) | queued | classification_pending |
+| POD-EDIT-061 | [Destinations in Odisha](https://projectodisha.org/destinations/) | excluded | directory_utility |
+| POD-EDIT-062 | [Food &amp; flavours](https://projectodisha.org/food/) | excluded | directory_utility |
+| POD-EDIT-063 | [Things to do](https://projectodisha.org/things-to-do/) | excluded | directory_utility |
+| POD-EDIT-064 | [Where to base yourself](https://projectodisha.org/stay-areas/) | excluded | directory_utility |
 | POD-EDIT-065 | [Santali](https://projectodisha.org/languages/santali/) | queued | classification_pending |
 | POD-EDIT-066 | [Kui](https://projectodisha.org/languages/kui/) | queued | classification_pending |
 | POD-EDIT-067 | [Kuvi](https://projectodisha.org/languages/kuvi/) | queued | classification_pending |

@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-20T21:29:07.562193+00:00",
   "article_id": "POD-EDIT-060",
   "route": "/food/balasore/",
-  "status": "published_receipt_pending_integration",
+  "status": "complete",
   "input_head": "869d51194ca188792277df9f6e2099babf13ae94",
   "authorization": [
     "POD-DEC-2026101702",
@@ -53,7 +53,7 @@
     {
       "name": "Disha",
       "runtime": "/root",
-      "status": "receipt_pending_integration",
+      "status": "complete",
       "scope": "Canonical content, source mapping, image audit, shared records and publishing.",
       "findings": "Canonical article and downloads, full/coastal tests, responsive checks, reviewed PR394 merge and approved live publication complete. Retain claim through receipt integration."
     }
@@ -371,5 +371,12 @@
     ]
   },
   "publication_receipt": "records/chandipur-meal-editorial-publication-2026-10-20.json",
-  "ownership": "Disha retains claim until receipt PR is actually merged; release only after observed integration."
+  "ownership": "Released after observed merge of PR395; file scopes complete.",
+  "receipt_integration": {
+    "pull_request": 395,
+    "reviewed_head": "c54ba45efb89fbdfda3a6b865765f3c483f1b9e1",
+    "merge_commit": "41cda4dab4ee635bcc3f89262c1a05422abddb3e",
+    "merged_at": "2026-10-21T01:27:32Z",
+    "ci": 39503090863
+  }
 }
