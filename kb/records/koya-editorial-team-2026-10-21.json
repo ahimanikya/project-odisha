@@ -1,0 +1,236 @@
+{
+  "recorded_at": "2026-10-21T14:09:18.848263+00:00",
+  "article_id": "POD-EDIT-071",
+  "route": "/languages/koya/",
+  "status": "awaiting_final_separate_review",
+  "input_head": "770a675b5259f3408466894a807b588f5a72f7f4",
+  "authorization": [
+    "POD-DEC-2026101702",
+    "POD-DEC-2026101901",
+    "POD-DEC-225"
+  ],
+  "central_question": "What can a reader learn about Koya from its language, seasonal cultural practices and concrete publications made for learners?",
+  "scope": "Individually deepen Koya with primary evidence and concrete examples, preserving cultural limits, source identities, named contributors and text-only identity panel.",
+  "acceptance": [
+    "Concrete evidence-based understanding with visible numbered notes and restrained attribution",
+    "Reference reading rhythm, exact keyboard returns, preserved learning credits and dated Census scope",
+    "Separate AI review, meaningful tests, desktop/mobile checks, merged reviewed PR, approved deployment, live verification and merged receipt"
+  ],
+  "ownership": "Disha retains claim through receipt integration.",
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only Koya research; temporary report only.",
+      "status": "complete"
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/components/CultureMagazine.astro",
+        "projects/site/src/components/CultureOnward.astro",
+        "projects/site/src/components/LanguagePopulation.astro",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/tests-coast/koya-editorial.test.mjs",
+        "projects/site/tests-coast/balasore-editorial.test.mjs",
+        "projects/site/tests-coast/bhima-editorial.test.mjs",
+        "projects/site/tests-coast/bhubaneswar-editorial.test.mjs",
+        "projects/site/tests-coast/fakir-editorial.test.mjs",
+        "projects/site/tests-coast/gangadhar-editorial.test.mjs",
+        "projects/site/tests-coast/gopinath-editorial.test.mjs",
+        "projects/site/tests-coast/ho-editorial.test.mjs",
+        "projects/site/tests-coast/juang-editorial.test.mjs",
+        "projects/site/tests-coast/kui-editorial.test.mjs",
+        "projects/site/tests-coast/kuvi-editorial.test.mjs",
+        "projects/site/tests-coast/languages-editorial.test.mjs",
+        "projects/site/tests-coast/literature-editorial.test.mjs",
+        "projects/site/tests-coast/living-languages.test.mjs",
+        "projects/site/tests-coast/mayurbhanj-editorial.test.mjs",
+        "projects/site/tests-coast/odia-editorial.test.mjs",
+        "projects/site/tests-coast/pratibha-editorial.test.mjs",
+        "projects/site/tests-coast/puri-editorial.test.mjs",
+        "projects/site/tests-coast/santali-editorial.test.mjs",
+        "projects/site/tests-coast/saora-editorial.test.mjs",
+        "projects/site/tests-coast/sarala-editorial.test.mjs",
+        "projects/site/tests-coast/six-acres-editorial.test.mjs",
+        "projects/site/tests-coast/voices-passage-sources.test.mjs",
+        "projects/site/tests/voices.test.mjs"
+      ],
+      "status": "complete"
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Separate read-only integrated candidate review after implementation.",
+      "status": "waiting"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": [
+        "kb/research/voices/collection.json",
+        "kb/research/voices/koya-editorial.json",
+        "kb/research/voices/koya-research-2026-10-21.json",
+        "shared records and publishing"
+      ],
+      "status": "working"
+    }
+  ],
+  "counting": {
+    "substantive500": 112,
+    "increment": 0
+  },
+  "previous_integration": {
+    "pull_request": 412,
+    "reviewed_head": "64b100abf22c63fb3b8ac294c76172d522178124",
+    "merge_commit": "770a675b5259f3408466894a807b588f5a72f7f4",
+    "merged_at": "2026-10-21T13:35:16Z",
+    "observed_at": "2026-10-21T14:09:18.848263+00:00"
+  },
+  "worker_reconciliation": "Initial inventory showed root only. Attempt to recreate Anvesha returned existing-name error; followup_task successfully resumed existing /root/anvesha and /root/samanta. No duplicate workers created or continuous runtime claimed. Drishti will resume for integrated review. Open PR304 weekly data and281 Ashoka preserved.",
+  "next_action": "Separate Drishti review of final candidate and browser evidence, required checks, approved publication and live receipt.",
+  "implementation": {
+    "article_id": "POD-EDIT-071",
+    "input_head": "a2ab84a446604fa23872ae47e4db7a9bd3b1d27d",
+    "base_head": "770a675b5259f3408466894a807b588f5a72f7f4",
+    "status": "frozen_focused_rendered_checks_pass",
+    "files": [
+      "projects/site/src/components/CultureMagazine.astro",
+      "projects/site/src/components/CultureOnward.astro",
+      "projects/site/src/components/LanguagePopulation.astro",
+      "projects/site/src/data/journey-catalog.ts",
+      "projects/site/tests-coast/koya-editorial.test.mjs",
+      "projects/site/tests-coast/balasore-editorial.test.mjs",
+      "projects/site/tests-coast/bhima-editorial.test.mjs",
+      "projects/site/tests-coast/bhubaneswar-editorial.test.mjs",
+      "projects/site/tests-coast/fakir-editorial.test.mjs",
+      "projects/site/tests-coast/gangadhar-editorial.test.mjs",
+      "projects/site/tests-coast/gopinath-editorial.test.mjs",
+      "projects/site/tests-coast/ho-editorial.test.mjs",
+      "projects/site/tests-coast/juang-editorial.test.mjs",
+      "projects/site/tests-coast/kui-editorial.test.mjs",
+      "projects/site/tests-coast/kuvi-editorial.test.mjs",
+      "projects/site/tests-coast/languages-editorial.test.mjs",
+      "projects/site/tests-coast/literature-editorial.test.mjs",
+      "projects/site/tests-coast/living-languages.test.mjs",
+      "projects/site/tests-coast/mayurbhanj-editorial.test.mjs",
+      "projects/site/tests-coast/odia-editorial.test.mjs",
+      "projects/site/tests-coast/pratibha-editorial.test.mjs",
+      "projects/site/tests-coast/puri-editorial.test.mjs",
+      "projects/site/tests-coast/santali-editorial.test.mjs",
+      "projects/site/tests-coast/saora-editorial.test.mjs",
+      "projects/site/tests-coast/sarala-editorial.test.mjs",
+      "projects/site/tests-coast/six-acres-editorial.test.mjs",
+      "projects/site/tests-coast/voices-passage-sources.test.mjs",
+      "projects/site/tests/voices.test.mjs"
+    ],
+    "checks": [
+      "All 24 modified/new tests passed Node24 syntax checks.",
+      "git diff --check passed.",
+      "Source-only Koya mapping test:1 passed,0 failed.",
+      "After coordinator coastal build Complete and458-page candidate, Node24 --test tests-coast/koya-editorial.test.mjs tests-coast/juang-editorial.test.mjs tests-coast/living-languages.test.mjs tests-coast/voices-passage-sources.test.mjs:34 passed,0 failed against fresh dist-coast."
+    ],
+    "preserved": [
+      "Exact Koya opt-in and unchanged previously reviewed language behavior.",
+      "Text identity panel, language/culture anchors and2018 publisher/compiler credits.",
+      "Existing individual Census entry/counts/year/atlas source retained.",
+      "Full portable paragraphs/short sources, original reading identity, no image/translation added.",
+      "Only stale negative controls moved to queued Sambalpuri; genuine Koya assertions unchanged."
+    ],
+    "limits": [
+      "No implementation changes needed after canonical integration.",
+      "No build, browser review, source research, asset/shared-record edits, Git mutation or publishing by Samanta."
+    ],
+    "integration_input_head": "817aa6462c477f2cdf50cda7a78330ac992b2be0",
+    "content_counts": {
+      "sections": 4,
+      "paragraphs": 7,
+      "notes": 5,
+      "references": 8
+    }
+  },
+  "source_audit": "Disha independently read current bare-host SCSTRTI profile, visually inspected original 2024 primer PDF5,10,16 for edition, contributor roles and printed3 lesson; read original catalogue selected printed276 text. Original Census workbook row224 independently verified: 069002 Koya,143676. No source images reproduced. Fresh original2018booklet text independently checked for credits and examples.",
+  "census_evidence": {
+    "path": "kb/research/references/census-2011/c16-odisha.xlsx",
+    "sha256": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db",
+    "sheet": "Sheet1",
+    "row": 224,
+    "code": "069002",
+    "persons": 143676
+  },
+  "image_audit": "Actual existing live cover visually inspected: typographic Koya/Malkangiri identity panel, no documentary or synthetic image. Retain this honest panel; original primer pictures remain inspection-only, rights reserved.",
+  "research": "kb/research/voices/koya-research-2026-10-21.json",
+  "review": {
+    "reviewer": "Drishti (separate AI reviewer)",
+    "input_head": "817aa6462c477f2cdf50cda7a78330ac992b2be0",
+    "base_head": "770a675b5259f3408466894a807b588f5a72f7f4",
+    "result": "CONTENT_CODE_PASS_PENDING_BROWSER_EVIDENCE",
+    "findings": [],
+    "checks": [
+      "Read AGENTS, editorial standard, current handoff, canonical map/research and implementation diff.",
+      "Independently opened actual SCSTRTI profile: family/location, named food festivals and dormitory decline match qualified public claims; no universal present practice or access promise.",
+      "Independently viewed original2024primer PDF5,10,16:Telugu-script layout,9March edition, resource-person names/state roles and printed3forest/mirror/dance/road/fading letter details. No source images publicly reproduced.",
+      "Read original catalogue selected printed276 text:2024Koya versus2025Koya-Odia, NarayanChoudhary etal andISBN978-81-977442-8-0; latter remains catalogue-only.",
+      "Independently opened2018booklet original extracted text:exact compiler/publisher credits,November2018,pronouns/questions and parallelcolumns. Fresh text distinguished from prior selected visual inspection.",
+      "Verified primer SHA4ecb30a715ddebc91a5668af9056b21293de90446726ce58ca3c5609f76a4d40 and catalogue SHA00e96bf713e4feb8fe21591bff6210033d8afaa8757d601943a243e52d89ff14.",
+      "Independently extracted original Census Sheet1row224:069002Koya143676,sex69196/74480,rural142909,urban767; unchanged individual2011entry.",
+      "Cumulative source budget checked including footnotes, source titles, attributable lead/headings and retained shelf. Profile body+title+note177; entire lead would bring200; actual source-related lead fragment plus headings remains within200. Other source allocations also within200.",
+      "Only Koya canonical page changes; assets/programme bytes unchanged112. Exactroute opt-in preserves prior articles, negativecontrols move to queuedSambalpuri; complete portable paragraphs and shortsource lists.",
+      "Rollout,team,programme,workbench,diff checks PASS. Sole071inprogress;60completed76excluded321queued.",
+      "Observed fresh coast log397/397PASS and independently ran38focused rendered tests:38PASS0FAIL."
+    ],
+    "tests": {
+      "command": "node --test tests-coast/koya-editorial.test.mjs tests-coast/juang-editorial.test.mjs tests-coast/voices-passage-sources.test.mjs tests-coast/living-languages.test.mjs tests-coast/language-atlas.test.mjs tests/voices.test.mjs",
+      "pass": 38,
+      "fail": 0
+    },
+    "limits": [
+      "Separate AI review, not human, fluent-language, community or field review.",
+      "Selected originalprimer pages and catalogue text inspected, not full2025book or translated vocabulary.",
+      "Fresh2018booklet text inspection does not imply new visual/full-language validation.",
+      "Did not repeat coordinator builds or interactive responsive/keyboard checks; final browser evidence pending.",
+      "Candidate content/code acceptance only; no merge,publication or completion claim."
+    ]
+  },
+  "validation_notes": [
+    "Full build and566/566tests PASS; coast build and397/397tests PASS; publication mode limited with11indexable pages unchanged.",
+    "All457directory routes plus404 represented in458entry rollout inventory; no unregistered routes.",
+    "Registry generation, research index/workbench generation, research-map validator, team/programme checks and diff check PASS."
+  ],
+  "browser_review": {
+    "checked_at": "2026-10-21T14:18:31.447008+00:00",
+    "head": "817aa6462c477f2cdf50cda7a78330ac992b2be0",
+    "route": "http://127.0.0.1:8786/languages/koya/",
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 900,
+        "body_width": 740,
+        "font": 18,
+        "line_height": 33.3
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "body_width": 343.1953125,
+        "font": 17,
+        "line_height": 30.6
+      }
+    ],
+    "overflow": false,
+    "notes": 5,
+    "references": 8,
+    "keyboard": "Enter on first marker focuses note-koya-scstrti; Enter return focuses exact ref-language-0-koya-scstrti at both sizes. Further reading closed initially and Enter opens at both sizes.",
+    "visual": "Cover, reading spacing and visible notes inspected at both sizes. Mobile screenshots captured with explicit viewport clip after default screenshot returned a scaled thumbnail; valid390x844 replacements saved. Separate review identified actual mobile encoding as JPEG; file extensions corrected to .jpg without changing pixels.",
+    "screenshots": [
+      "records/evidence/koya-editorial-2026-10-21/desktop-cover.png",
+      "records/evidence/koya-editorial-2026-10-21/desktop-reading.png",
+      "records/evidence/koya-editorial-2026-10-21/desktop-notes.png",
+      "records/evidence/koya-editorial-2026-10-21/mobile-cover.jpg",
+      "records/evidence/koya-editorial-2026-10-21/mobile-reading.jpg",
+      "records/evidence/koya-editorial-2026-10-21/mobile-notes.jpg"
+    ],
+    "limits": "Browser viewport emulation; no physical-device or screen-reader review."
+  }
+}

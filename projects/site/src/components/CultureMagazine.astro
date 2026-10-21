@@ -7,6 +7,7 @@ import saralaEditorial from '../../../../kb/research/voices/sarala-editorial.jso
 import sixAcresEditorial from '../../../../kb/research/voices/six-acres-editorial.json';
 import fakirEditorial from '../../../../kb/research/voices/fakir-editorial.json';
 import literatureEditorial from '../../../../kb/research/voices/literature-editorial.json';
+import koyaEditorial from '../../../../kb/research/voices/koya-editorial.json';
 import juangEditorial from '../../../../kb/research/voices/juang-editorial.json';
 import hoEditorial from '../../../../kb/research/voices/ho-editorial.json';
 import saoraEditorial from '../../../../kb/research/voices/saora-editorial.json';
@@ -35,7 +36,7 @@ import CultureOnward from './CultureOnward.astro';
 import collection from '../../../../kb/research/voices/collection.json';
 import '../styles/culture-magazine.css';
 const {entry}=Astro.props,hero=collection.assets[entry.hero_asset],hub=!entry.path.includes('/');
-const editorial=entry.path==='languages'?languagesEditorial:entry.path==='languages/odia'?odiaEditorial:entry.path==='languages/santali'?santaliEditorial:entry.path==='languages/kui'?kuiEditorial:entry.path==='languages/kuvi'?kuviEditorial:entry.path==='languages/saora'?saoraEditorial:entry.path==='languages/ho'?hoEditorial:entry.path==='languages/juang'?juangEditorial:entry.path==='literature'?literatureEditorial:entry.path==='people/fakir-mohan-senapati'?fakirEditorial:entry.path==='literature/six-acres-and-a-third'?sixAcresEditorial:entry.path==='people/sarala-das'?saralaEditorial:entry.path==='people/pratibha-ray'?pratibhaEditorial:entry.path==='people/bhima-bhoi'?bhimaEditorial:entry.path==='people/gopinath-mohanty'?gopinathEditorial:entry.path==='people/gangadhar-meher'?gangadharEditorial:null;
+const editorial=entry.path==='languages'?languagesEditorial:entry.path==='languages/odia'?odiaEditorial:entry.path==='languages/santali'?santaliEditorial:entry.path==='languages/kui'?kuiEditorial:entry.path==='languages/kuvi'?kuviEditorial:entry.path==='languages/saora'?saoraEditorial:entry.path==='languages/ho'?hoEditorial:entry.path==='languages/juang'?juangEditorial:entry.path==='languages/koya'?koyaEditorial:entry.path==='literature'?literatureEditorial:entry.path==='people/fakir-mohan-senapati'?fakirEditorial:entry.path==='literature/six-acres-and-a-third'?sixAcresEditorial:entry.path==='people/sarala-das'?saralaEditorial:entry.path==='people/pratibha-ray'?pratibhaEditorial:entry.path==='people/bhima-bhoi'?bhimaEditorial:entry.path==='people/gopinath-mohanty'?gopinathEditorial:entry.path==='people/gangadhar-meher'?gangadharEditorial:null;
 const passageSources=id=>editorial?.passages.find(p=>p.id===id)?.source_ids||[];
 const proseFirst=entry.path==='literature';
 const assetIds=[...new Set([entry.hero_asset,...entry.cards.map(c=>c.asset)].filter(Boolean))];

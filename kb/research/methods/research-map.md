@@ -867,3 +867,7 @@ POD-EDIT-069 extends the existing voices Ho introduction, SCSTRTI community prof
 ### Juang article evidence · 21 October 2026
 
 Reuse `voices/juang-research-2026-10-21.json`, `voices/juang-editorial.json` and the Juang entry in `voices/collection.json` before new research. The dated source dossier separates the 2024 CIIL–NCERT primer and selected lesson pages from the 2018 trilingual booklet, attributed community-house/origin accounts and the original 2011 Census. No fluent-speaker or field review is claimed.
+
+### Koya article evidence · 21 October 2026
+
+Reuse `voices/koya-research-2026-10-21.json`, `voices/koya-editorial.json` and the Koya entry in `voices/collection.json` before new research. The dossier distinguishes the inspected 2024 Telugu-script primer, separately catalogued 2025 Koya–Odia edition, 2018 Malkangiri trilingual booklet and dated institutional cultural account. Original 2011 Census remains distinct from current speaker totals. No fluent-speaker or field review is claimed.
