@@ -1,0 +1,152 @@
+{
+  "recorded_at": "2026-10-21T14:37:45.696592+00:00",
+  "authorization": [
+    "POD-DEC-2026101702",
+    "POD-DEC-2026101901",
+    "POD-DEC-225"
+  ],
+  "work_id": "POD-WORK-302",
+  "queue_item": "POD-EDIT-071",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/413",
+  "reviewed_head": "72773f35a6ef3d1f29d7e8fef67f1b7b682348cb",
+  "merge_commit": "4c029f7e184ccd4a2903b3828da2238adc7f66d4",
+  "validation": {
+    "conclusion": "success",
+    "createdAt": "2026-10-21T14:19:49Z",
+    "databaseId": 39615922647,
+    "headSha": "72773f35a6ef3d1f29d7e8fef67f1b7b682348cb",
+    "status": "completed",
+    "updatedAt": "2026-10-21T14:29:03Z",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39615922647"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "createdAt": "2026-10-21T14:30:23Z",
+    "databaseId": 39617371973,
+    "headSha": "4c029f7e184ccd4a2903b3828da2238adc7f66d4",
+    "status": "completed",
+    "updatedAt": "2026-10-21T14:36:18Z",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39617371973"
+  },
+  "live_checks": {
+    "checked_at": "2026-10-21T14:36:55.419460+00:00",
+    "url": "https://projectodisha.org/languages/koya/",
+    "http_status": 200,
+    "html_sha256": "c0370c71f17d41bdf3f1a0a6459da1d0b6d305636ce9c0999d6a5ae6ff9eee12",
+    "visible_notes": 5,
+    "references": 8,
+    "exact_returns": 8,
+    "checks": {
+      "byline": true,
+      "specific_prose": true,
+      "credits": true,
+      "noindex": true,
+      "notes": true,
+      "exact_returns": true,
+      "preserved_anchors": true,
+      "dated_print_scope": true,
+      "visible_update": true
+    },
+    "unchanged_sitemap_count": 11,
+    "route_inventory": {
+      "directory_indexes": 457,
+      "separate_error_page": "/404.html",
+      "unregistered_routes": [],
+      "total_registered_routes": 458
+    },
+    "browser": {
+      "checked_at": "2026-10-21T14:37:45.662931+00:00",
+      "url": "https://projectodisha.org/languages/koya/",
+      "viewports": [
+        "1440x900",
+        "390x844"
+      ],
+      "checks": [
+        "Actual deployed prose, byline,5notes and8references visible.",
+        "No horizontal overflow at both sizes; readable paragraph width and spacing visually inspected.",
+        "Enter first footnote focuses note-koya-scstrti and return focuses exact ref-language-0-koya-scstrti at both sizes.",
+        "Temporary viewport restored."
+      ],
+      "screenshots": [
+        "records/evidence/koya-editorial-2026-10-21/live-desktop.jpg",
+        "records/evidence/koya-editorial-2026-10-21/live-mobile.jpg"
+      ],
+      "limits": "Coordinator interactive review in browser emulation; no physical-device or screen-reader claim."
+    }
+  },
+  "test_review_and_source_mapping": "records/koya-editorial-team-2026-10-21.json",
+  "final_review": {
+    "reviewer": "Drishti (separate AI reviewer)",
+    "input_head": "72773f35a6ef3d1f29d7e8fef67f1b7b682348cb",
+    "base_head": "770a675b5259f3408466894a807b588f5a72f7f4",
+    "result": "PASS",
+    "findings": [
+      {
+        "severity": "minor evidence-label issue",
+        "blocking": false,
+        "detail": "Three mobile files named .png contain JPEG/JFIF390x844 bytes. Images render correctly; recommend matching extension or explicit format note.",
+        "status": "resolved:100% renames to .jpg and updated handoff paths, no pixel changes"
+      }
+    ],
+    "checks": [
+      "Read AGENTS, editorial standard, current handoff, canonical map/research and implementation diff.",
+      "Independently opened actual SCSTRTI profile: family/location, named food festivals and dormitory decline match qualified public claims; no universal present practice or access promise.",
+      "Independently viewed original2024primer PDF5,10,16:Telugu-script layout,9March edition, resource-person names/state roles and printed3forest/mirror/dance/road/fading letter details. No source images publicly reproduced.",
+      "Read original catalogue selected printed276 text:2024Koya versus2025Koya-Odia, NarayanChoudhary etal andISBN978-81-977442-8-0; latter remains catalogue-only.",
+      "Independently opened2018booklet original extracted text:exact compiler/publisher credits,November2018,pronouns/questions and parallelcolumns. Fresh text distinguished from prior selected visual inspection.",
+      "Verified primer SHA4ecb30a715ddebc91a5668af9056b21293de90446726ce58ca3c5609f76a4d40 and catalogue SHA00e96bf713e4feb8fe21591bff6210033d8afaa8757d601943a243e52d89ff14.",
+      "Independently extracted original Census Sheet1row224:069002Koya143676,sex69196/74480,rural142909,urban767; unchanged individual2011entry.",
+      "Cumulative source budget checked including footnotes, source titles, attributable lead/headings and retained shelf. Profile body+title+note177; entire lead would bring200; actual source-related lead fragment plus headings remains within200. Other source allocations also within200.",
+      "Only Koya canonical page changes; assets/programme bytes unchanged112. Exactroute opt-in preserves prior articles, negativecontrols move to queuedSambalpuri; complete portable paragraphs and shortsource lists.",
+      "Rollout,team,programme,workbench,diff checks PASS. Sole071inprogress;60completed76excluded321queued.",
+      "Observed fresh coast log397/397PASS and independently ran38focused rendered tests:38PASS0FAIL."
+    ],
+    "tests": {
+      "command": "node --test tests-coast/koya-editorial.test.mjs tests-coast/juang-editorial.test.mjs tests-coast/voices-passage-sources.test.mjs tests-coast/living-languages.test.mjs tests-coast/language-atlas.test.mjs tests/voices.test.mjs",
+      "pass": 38,
+      "fail": 0
+    },
+    "limits": [
+      "Separate AI review, not human, fluent-language, community or field review.",
+      "Selected originalprimer pages and catalogue text inspected, not full2025book or translated vocabulary.",
+      "Fresh2018booklet text inspection does not imply new visual/full-language validation.",
+      "Did not repeat coordinator builds or interactive responsive/keyboard checks; independently inspected four screenshots and image metadata.",
+      "Candidate accepted for next publication gates; no merge/deployment/live receipt completion claimed."
+    ],
+    "initial_input_head": "817aa6462c477f2cdf50cda7a78330ac992b2be0",
+    "final_accepted_head": "72773f35a6ef3d1f29d7e8fef67f1b7b682348cb",
+    "final_delta_checks": [
+      "Seven-file evidence-only delta: handoff and six screenshots; no prose/source/code changes.",
+      "Initial saved review embedded exactly.",
+      "Independently viewed desktop-reading,mobile-cover,mobile-reading,mobile-notes: readable spacing, wrapped notes and return links, honest typographic panel, no visible horizontal clipping.",
+      "Actual mobile image dimensions independently confirmed390x844; content is JPEG despite .png filename.",
+      "Reviewed coordinator browser observations at1440x900/390x844: exactnote-returnfocus and collapsed/openFurtherreading. These interactions were Disha-performed.",
+      "git diff --check PASS; previous38focused checks/source review remain applicable."
+    ],
+    "prior_accepted_head": "da1298e2f5e90801c20f4cda03dc0c73b427bb39",
+    "extension_delta_review": {
+      "result": "PASS",
+      "checks": [
+        "Three100%image renames .png to .jpg; handoff paths and factual format explanation corrected.",
+        "No pixel, article, source or code changes; git diff --check PASS."
+      ],
+      "limits": "Prior source, focused-test and screenshot review retained; no unnecessary rerun."
+    }
+  },
+  "integration_review": {
+    "head": "4c029f7e184ccd4a2903b3828da2238adc7f66d4",
+    "result": "pass",
+    "scope": "Published merge tree identical to separately reviewed candidate."
+  },
+  "attachment_note": "PR attachment attempted; app 100-attachment limit reached; actual URL retained.",
+  "counting": "One editorial article; zero substantive 500 increment. Programme remains 112.",
+  "limitations": [
+    "Separate AI research, implementation and review; not human, fluent-language or field review.",
+    "Fresh 2018 booklet text and earlier selected-page visual inspection are distinct. The2024 Telugu-script primer and2018booklet preserve their own contributor spellings. The2025 Koya–Odia primer is catalogue-only, contents not inspected; no fluent review or translated vocabulary claimed.",
+    "Browser viewport emulation, not physical-device or screen-reader testing."
+  ],
+  "verified_routes": [
+    "/languages/koya/"
+  ],
+  "receipt_integration": "Effective only after receipt PR passes required checks and merges; observed merge must be reconciled before releasing article claim."
+}

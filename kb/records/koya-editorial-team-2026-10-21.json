@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-21T14:09:18.848263+00:00",
   "article_id": "POD-EDIT-071",
   "route": "/languages/koya/",
-  "status": "awaiting_final_separate_review",
+  "status": "published_receipt_pending_integration",
   "input_head": "770a675b5259f3408466894a807b588f5a72f7f4",
   "authorization": [
     "POD-DEC-2026101702",
@@ -63,7 +63,7 @@
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Separate read-only integrated candidate review after implementation.",
-      "status": "waiting"
+      "status": "complete"
     },
     {
       "name": "Disha",
@@ -89,7 +89,7 @@
     "observed_at": "2026-10-21T14:09:18.848263+00:00"
   },
   "worker_reconciliation": "Initial inventory showed root only. Attempt to recreate Anvesha returned existing-name error; followup_task successfully resumed existing /root/anvesha and /root/samanta. No duplicate workers created or continuous runtime claimed. Drishti will resume for integrated review. Open PR304 weekly data and281 Ashoka preserved.",
-  "next_action": "Separate Drishti review of final candidate and browser evidence, required checks, approved publication and live receipt.",
+  "next_action": "Integrate the independently reviewed receipt after required checks and observed merge before releasing Koya.",
   "implementation": {
     "article_id": "POD-EDIT-071",
     "input_head": "a2ab84a446604fa23872ae47e4db7a9bd3b1d27d",
@@ -163,10 +163,17 @@
   "research": "kb/research/voices/koya-research-2026-10-21.json",
   "review": {
     "reviewer": "Drishti (separate AI reviewer)",
-    "input_head": "817aa6462c477f2cdf50cda7a78330ac992b2be0",
+    "input_head": "72773f35a6ef3d1f29d7e8fef67f1b7b682348cb",
     "base_head": "770a675b5259f3408466894a807b588f5a72f7f4",
-    "result": "CONTENT_CODE_PASS_PENDING_BROWSER_EVIDENCE",
-    "findings": [],
+    "result": "PASS",
+    "findings": [
+      {
+        "severity": "minor evidence-label issue",
+        "blocking": false,
+        "detail": "Three mobile files named .png contain JPEG/JFIF390x844 bytes. Images render correctly; recommend matching extension or explicit format note.",
+        "status": "resolved:100% renames to .jpg and updated handoff paths, no pixel changes"
+      }
+    ],
     "checks": [
       "Read AGENTS, editorial standard, current handoff, canonical map/research and implementation diff.",
       "Independently opened actual SCSTRTI profile: family/location, named food festivals and dormitory decline match qualified public claims; no universal present practice or access promise.",
@@ -189,14 +196,36 @@
       "Separate AI review, not human, fluent-language, community or field review.",
       "Selected originalprimer pages and catalogue text inspected, not full2025book or translated vocabulary.",
       "Fresh2018booklet text inspection does not imply new visual/full-language validation.",
-      "Did not repeat coordinator builds or interactive responsive/keyboard checks; final browser evidence pending.",
-      "Candidate content/code acceptance only; no merge,publication or completion claim."
-    ]
+      "Did not repeat coordinator builds or interactive responsive/keyboard checks; independently inspected four screenshots and image metadata.",
+      "Candidate accepted for next publication gates; no merge/deployment/live receipt completion claimed."
+    ],
+    "initial_input_head": "817aa6462c477f2cdf50cda7a78330ac992b2be0",
+    "final_accepted_head": "72773f35a6ef3d1f29d7e8fef67f1b7b682348cb",
+    "final_delta_checks": [
+      "Seven-file evidence-only delta: handoff and six screenshots; no prose/source/code changes.",
+      "Initial saved review embedded exactly.",
+      "Independently viewed desktop-reading,mobile-cover,mobile-reading,mobile-notes: readable spacing, wrapped notes and return links, honest typographic panel, no visible horizontal clipping.",
+      "Actual mobile image dimensions independently confirmed390x844; content is JPEG despite .png filename.",
+      "Reviewed coordinator browser observations at1440x900/390x844: exactnote-returnfocus and collapsed/openFurtherreading. These interactions were Disha-performed.",
+      "git diff --check PASS; previous38focused checks/source review remain applicable."
+    ],
+    "prior_accepted_head": "da1298e2f5e90801c20f4cda03dc0c73b427bb39",
+    "extension_delta_review": {
+      "result": "PASS",
+      "checks": [
+        "Three100%image renames .png to .jpg; handoff paths and factual format explanation corrected.",
+        "No pixel, article, source or code changes; git diff --check PASS."
+      ],
+      "limits": "Prior source, focused-test and screenshot review retained; no unnecessary rerun."
+    }
   },
   "validation_notes": [
     "Full build and566/566tests PASS; coast build and397/397tests PASS; publication mode limited with11indexable pages unchanged.",
     "All457directory routes plus404 represented in458entry rollout inventory; no unregistered routes.",
-    "Registry generation, research index/workbench generation, research-map validator, team/programme checks and diff check PASS."
+    "Registry generation, research index/workbench generation, research-map validator, team/programme checks and diff check PASS.",
+    "Full build and 566/566 tests PASS; coast build and 397/397 tests PASS; limited publication 11 indexable unchanged.",
+    "Actual desktop/mobile keyboard and visual review passed; separate AI review accepted exact published candidate.",
+    "PR413 merged; approved publication succeeded; actual live HTML and desktop/mobile verified. Receipt merge required before ownership release."
   ],
   "browser_review": {
     "checked_at": "2026-10-21T14:18:31.447008+00:00",
@@ -232,5 +261,34 @@
       "records/evidence/koya-editorial-2026-10-21/mobile-notes.jpg"
     ],
     "limits": "Browser viewport emulation; no physical-device or screen-reader review."
+  },
+  "publication_receipt": "records/koya-editorial-publication-2026-10-21.json",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/413",
+  "article_pull_request": {
+    "headRefOid": "72773f35a6ef3d1f29d7e8fef67f1b7b682348cb",
+    "mergeCommit": {
+      "oid": "4c029f7e184ccd4a2903b3828da2238adc7f66d4"
+    },
+    "mergedAt": "2026-10-21T14:30:07Z",
+    "state": "MERGED",
+    "url": "https://github.com/ahimanikya/project-odisha/pull/413"
+  },
+  "required_checks": {
+    "conclusion": "success",
+    "createdAt": "2026-10-21T14:19:49Z",
+    "databaseId": 39615922647,
+    "headSha": "72773f35a6ef3d1f29d7e8fef67f1b7b682348cb",
+    "status": "completed",
+    "updatedAt": "2026-10-21T14:29:03Z",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39615922647"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "createdAt": "2026-10-21T14:30:23Z",
+    "databaseId": 39617371973,
+    "headSha": "4c029f7e184ccd4a2903b3828da2238adc7f66d4",
+    "status": "completed",
+    "updatedAt": "2026-10-21T14:36:18Z",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39617371973"
   }
 }
