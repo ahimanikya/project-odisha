@@ -8647,7 +8647,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "POD-DEC-2026101702",
-      "next_action": "Rasagola receipt PR416 merged. Bose POD-EDIT-073 is the sole active article; 62 editorial completions and programme112 unchanged.",
+      "next_action": "Bose published; retain claim until receipt merge observed. 63 editorial entries complete after integration; 112 programme items unchanged.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026101702",
@@ -8752,7 +8752,9 @@
         "POD-REV-2026102108",
         "POD-REL-2026102107",
         "POD-REV-2026102109",
-        "POD-REL-2026102108"
+        "POD-REL-2026102108",
+        "POD-REV-2026102110",
+        "POD-REL-2026102109"
       ],
       "evidence": [
         "reference/article-editorial-standard.md",
@@ -8810,7 +8812,8 @@
         "records/ho-editorial-publication-2026-10-21.json",
         "records/juang-editorial-publication-2026-10-21.json",
         "records/koya-editorial-publication-2026-10-21.json",
-        "records/rasagola-editorial-publication-2026-10-21.json"
+        "records/rasagola-editorial-publication-2026-10-21.json",
+        "records/bose-editorial-publication-2026-10-21.json"
       ],
       "acceptance_criteria": [
         "Every published baseline route classified; each article independently reviewed against approved standard with PR/test/deploy/live receipt; exclusions justified; future articles follow same rule."
@@ -21792,6 +21795,31 @@
         "The original 1955 temple record and critical literary edition remain unread; applicant reports are attributed. Small 2023 study is not a current market census. Existing photograph provenance retained; fresh Commons fetch failed.",
         "Browser viewport emulation, not physical-device or screen-reader testing."
       ]
+    },
+    {
+      "id": "POD-REV-2026102110",
+      "title": "Separate Bose childhood article and source review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent /root/drishti"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human, historian or field review.",
+      "reviewed_head": "ec3553bd0fd816004afde3848f821ec289c22ada",
+      "refs": [
+        "POD-WORK-302",
+        "POD-DEC-2026101901",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/bose-editorial-team-2026-10-21.json"
+      ],
+      "limitations": [
+        "Separate AI research, implementation and review; no human, historian, field visit, school-access or museum-object confirmation.",
+        "Selected re-typeset retrospective autobiography; no manuscript or critical-edition collation. Reproduced 1948 preface is not a composition date.",
+        "Browser viewport emulation, not physical-device or screen-reader testing. Portable reading retains existing museum image only; both photographs appear on website."
+      ]
     }
   ],
   "releases": [
@@ -25252,6 +25280,23 @@
         "records/rasagola-editorial-team-2026-10-21.json"
       ],
       "note": "Reviewed PR415 passed CI and merged; approved deployment and live numbered notes, retained full-frame photograph and responsive reading verified. Zero substantive programme credit."
+    },
+    {
+      "id": "POD-REL-2026102109",
+      "title": "Bose childhood, classrooms and remembered influence",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/people/subhas-chandra-bose/",
+      "refs": [
+        "POD-WORK-302",
+        "POD-REV-2026102110",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/bose-editorial-publication-2026-10-21.json",
+        "records/bose-editorial-team-2026-10-21.json"
+      ],
+      "note": "Reviewed PR417 passed CI and merged; approved deployment and live prose, numbered notes, preserved documentary photographs and responsive reading verified. Zero substantive programme credit."
     }
   ],
   "sources": [
