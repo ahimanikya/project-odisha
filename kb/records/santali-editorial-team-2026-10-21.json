@@ -1,0 +1,136 @@
+{
+  "recorded_at": "2026-10-21T03:34:45.502032+00:00",
+  "article_id": "POD-EDIT-065",
+  "route": "/languages/santali/",
+  "status": "integrated_candidate_testing",
+  "input_head": "a3836d8123dc7208435e2bfb06f115331f945e67",
+  "authorization": [
+    "POD-DEC-2026101702",
+    "POD-DEC-2026101901",
+    "POD-DEC-225"
+  ],
+  "central_question": "What does Ol Chiki make possible for Santali readers, and how does a script connect to a language already spoken and written in different ways?",
+  "scope": "Deepen the existing introduction with verified examples of script structure, contemporary literature and a dated learning resource; preserve language/census distinctions, contributor credits and original script image.",
+  "acceptance": [
+    "Inspect actual primary sources and existing KB; preserve dated accounts and limits.",
+    "Founder byline, readable prose, visible linked numbered notes, collapsed onward reading and visible update link.",
+    "Retain credible Ol Chiki specimen and CC0 attribution; no invented translation or fluent-speaker review.",
+    "Complete portable narrative with short sources; preserve census chart and learning-resource attribution.",
+    "Meaningful tests, desktop/mobile and keyboard checks, separate AI review, passing PR, authorized main deployment, actual live check and integrated receipt."
+  ],
+  "ownership": "Disha retains claim through publication receipt integration.",
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only source research, claim-to-source suggestions, input head/checks/limits in temporary report.",
+      "status": "complete"
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/components/CultureMagazine.astro",
+        "projects/site/src/components/LanguagePopulation.astro",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/tests-coast/santali-editorial.test.mjs",
+        "projects/site/src/components/CultureOnward.astro",
+        "projects/site/tests-coast/fakir-editorial.test.mjs",
+        "projects/site/tests-coast/balasore-editorial.test.mjs",
+        "projects/site/tests-coast/bhima-editorial.test.mjs",
+        "projects/site/tests-coast/mayurbhanj-editorial.test.mjs",
+        "projects/site/tests-coast/puri-editorial.test.mjs",
+        "projects/site/tests-coast/six-acres-editorial.test.mjs",
+        "projects/site/tests-coast/gangadhar-editorial.test.mjs",
+        "projects/site/tests-coast/bhubaneswar-editorial.test.mjs",
+        "projects/site/tests-coast/gopinath-editorial.test.mjs",
+        "projects/site/tests-coast/literature-editorial.test.mjs",
+        "projects/site/tests-coast/odia-editorial.test.mjs",
+        "projects/site/tests-coast/sarala-editorial.test.mjs",
+        "projects/site/tests-coast/pratibha-editorial.test.mjs",
+        "projects/site/tests-coast/languages-editorial.test.mjs",
+        "projects/site/tests-coast/voices-passage-sources.test.mjs",
+        "projects/site/tests/voices.test.mjs"
+      ],
+      "status": "complete"
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Separate read-only review of integrated candidate; no self-review or human-review claim.",
+      "status": "reviewing_integrated_candidate"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": [
+        "kb/research/voices/collection.json",
+        "kb/research/voices/santali-editorial.json",
+        "kb/research/voices/santali-research-2026-10-21.json",
+        "kb/records/santali-editorial-team-2026-10-21.json",
+        "kb/records/santali-editorial-publication-2026-10-21.json",
+        "shared rollout, operations, registers and generated views"
+      ],
+      "status": "working"
+    }
+  ],
+  "counting": {
+    "substantive500": 112,
+    "increment": 0
+  },
+  "previous_integration": {
+    "receipt_pr": 400,
+    "merge_commit": "a3836d8123dc7208435e2bfb06f115331f945e67",
+    "merged_at": "2026-10-21T02:55:02Z"
+  },
+  "research": "research/voices/santali-research-2026-10-21.json",
+  "implementation": {
+    "article_id": "POD-EDIT-065",
+    "input_head": "a3836d8123dc7208435e2bfb06f115331f945e67",
+    "status": "scaffold_ready_waiting_for_canonical_copy",
+    "files": [
+      "projects/site/src/components/CultureMagazine.astro",
+      "projects/site/src/components/LanguagePopulation.astro",
+      "projects/site/src/data/journey-catalog.ts",
+      "projects/site/tests-coast/santali-editorial.test.mjs",
+      "projects/site/src/components/CultureOnward.astro",
+      "projects/site/tests-coast/fakir-editorial.test.mjs",
+      "projects/site/tests-coast/balasore-editorial.test.mjs",
+      "projects/site/tests-coast/bhima-editorial.test.mjs",
+      "projects/site/tests-coast/mayurbhanj-editorial.test.mjs",
+      "projects/site/tests-coast/puri-editorial.test.mjs",
+      "projects/site/tests-coast/six-acres-editorial.test.mjs",
+      "projects/site/tests-coast/gangadhar-editorial.test.mjs",
+      "projects/site/tests-coast/bhubaneswar-editorial.test.mjs",
+      "projects/site/tests-coast/gopinath-editorial.test.mjs",
+      "projects/site/tests-coast/literature-editorial.test.mjs",
+      "projects/site/tests-coast/odia-editorial.test.mjs",
+      "projects/site/tests-coast/sarala-editorial.test.mjs",
+      "projects/site/tests-coast/pratibha-editorial.test.mjs",
+      "projects/site/tests-coast/languages-editorial.test.mjs",
+      "projects/site/tests-coast/voices-passage-sources.test.mjs",
+      "projects/site/tests/voices.test.mjs"
+    ],
+    "checks": [
+      "Syntax: all 17 modified/new test files passed Node 24 --check.",
+      "git diff --check passed."
+    ],
+    "preserved": [
+      "Existing Ol Chiki SVG and CC0 metadata unchanged.",
+      "Odia census footnote unchanged; other language census panels retain legacy behavior.",
+      "Portable remains text-only; full section paragraphs and concise current source list selected only for Santali.",
+      "Real Santali links preserved; only stale negative-control fixtures switched to queued Kui."
+    ],
+    "limits": [
+      "Canonical map not present at last check; source-map test pending final content.",
+      "No build, rendered/export execution, browser review, Git mutation, shared-record edit or publishing."
+    ]
+  },
+  "reader_gain": "Distinguishes language from writing system, explains explicit vowels and distinct modifier marks, names a book without inventing its contents, and makes the Baripada literary gathering concrete. The duplicated anniversary timeline is replaced by an attributed learning-resource discussion.",
+  "validation_notes": [
+    "Source-map/retainedSVG test passes.",
+    "First full test run564/566: existing #mayurbhanj inbound trail fragment was missing after paragraph regrouping. Restored separate Mayurbhanj section; rerun is in progress.",
+    "Research precision correction applied: Nalha script is not inferred from award record.",
+    "No article complete, release, visual review or deployment claimed yet."
+  ]
+}
