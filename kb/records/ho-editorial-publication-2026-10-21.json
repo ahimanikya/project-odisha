@@ -1,0 +1,202 @@
+{
+  "recorded_at": "2026-10-21T12:35:09.720057+00:00",
+  "authorization": [
+    "POD-DEC-2026101702",
+    "POD-DEC-2026101901",
+    "POD-DEC-225"
+  ],
+  "work_id": "POD-WORK-302",
+  "queue_item": "POD-EDIT-069",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/409",
+  "reviewed_head": "7076285d477786fe8e527fc88297782d2a38944a",
+  "merge_commit": "960ebc48447b154fd95dc0b8cab824e19c212518",
+  "validation": {
+    "conclusion": "success",
+    "databaseId": 39599399445,
+    "headSha": "7076285d477786fe8e527fc88297782d2a38944a",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39599399445"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "databaseId": 39600121605,
+    "headSha": "960ebc48447b154fd95dc0b8cab824e19c212518",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39600121605"
+  },
+  "live_checks": {
+    "checked_at": "2026-10-21T12:34:34.422685+00:00",
+    "url": "https://projectodisha.org/languages/ho/",
+    "http_status": 200,
+    "html_sha256": "f6e78bf176a00333468cbfac069d28683538555d3988667c06ae89e8e30ad7e0",
+    "visible_notes": 6,
+    "references": 9,
+    "exact_returns": 9,
+    "checks": {
+      "byline": true,
+      "specific_prose": true,
+      "credits": true,
+      "noindex": true,
+      "notes": true,
+      "exact_returns": true,
+      "preserved_anchors": true,
+      "dated_print_scope": true,
+      "visible_update": true
+    },
+    "unchanged_sitemap_count": 11,
+    "route_inventory": {
+      "directory_indexes": 457,
+      "separate_error_page": "/404.html",
+      "unregistered_routes": [],
+      "total_registered_routes": 458
+    },
+    "browser": {
+      "checked_at": "2026-10-21T12:35:02.501Z",
+      "url": "https://projectodisha.org/languages/ho/",
+      "reviewer": "Disha, AI coordinator",
+      "desktop": {
+        "width": 1440,
+        "height": 900,
+        "scrollWidth": 1440,
+        "notes": 6,
+        "refs": 9
+      },
+      "mobile": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "notes": 6,
+        "refs": 9
+      },
+      "keyboard": "Enter reaches note-ho-unicode17 and exact ref-language-0-ho-unicode17 return with focus at both sizes.",
+      "visual_result": "PASS: live desktop cover and mobile reading screenshots inspected; readable with no horizontal overflow.",
+      "screenshots": [
+        "records/evidence/ho-editorial-2026-10-21/live-desktop.png",
+        "records/evidence/ho-editorial-2026-10-21/live-mobile.png"
+      ],
+      "limitations": "Viewport emulation, no physical-device or screen-reader review."
+    }
+  },
+  "test_review_and_source_mapping": "records/ho-editorial-team-2026-10-21.json",
+  "final_review": {
+    "reviewer": "Drishti (separate AI reviewer)",
+    "input_head": "7076285d477786fe8e527fc88297782d2a38944a",
+    "base_head": "6e947832f6071ce02aa36455c027f23789f88d37",
+    "result": "PASS",
+    "findings": [
+      {
+        "severity": "minor presentation",
+        "status": "resolved in final accepted head; first markers and notes now1,2",
+        "detail": "Initial source array emitted first markers 2,1. Coordinator reordered Unicode then SCSTRTI to match first occurrence; no prose changes."
+      }
+    ],
+    "checks": [
+      "Independently inspected Unicode17 Warang Citi structure and preserved inherent-vowel qualification; original 2012 Everson proposal publication examples treated as dated evidence.",
+      "Inspected SCSTRTI profile and fresh English booklet contents/credits; article does not claim fluent validation or complete literary texts.",
+      "Visually inspected original CIIL/NCERT Ho-Odia primer PDF pages5,11,20: July2024 edition, named resource persons, printed6 bee/mango/boat/bird and faint letter forms; no copyrighted source images reproduced.",
+      "Independently read original Census Sheet1 row180: individual Ho048004, total411098, all sex/residence component counts preserved.",
+      "Source allocations including lead and notes remain below200 words per source; booklet panel included.",
+      "Exact Ho-only template/onward/population/portable opt-in; other canonical pages/assets unchanged; negative controls move to queued Juang while real Ho links remain.",
+      "Programme file byte-identical to base with112 completed items.",
+      "Rollout, team assignment, autonomous programme, workbench, research map and git diff checks passed.",
+      "Node24 focused rendered tests:44/44 PASS (ho-editorial,saora-editorial,kuvi-editorial,voices-passage-sources,living-languages,language-atlas,voices)."
+    ],
+    "tests": {
+      "focused_pass": 44,
+      "focused_fail": 0,
+      "command": "node --test tests-coast/ho-editorial.test.mjs tests-coast/saora-editorial.test.mjs tests-coast/kuvi-editorial.test.mjs tests-coast/voices-passage-sources.test.mjs tests-coast/living-languages.test.mjs tests-coast/language-atlas.test.mjs tests/voices.test.mjs",
+      "final_focused_pass": 25,
+      "final_focused_fail": 0,
+      "final_command": "node --test tests-coast/ho-editorial.test.mjs tests-coast/voices-passage-sources.test.mjs"
+    },
+    "limits": [
+      "Separate AI review, not human, fluent-language, community or field review.",
+      "Did not repeat coordinator full/coast builds or interactive browser checks; independently inspected three saved screenshots and focused rendered outputs.",
+      "Selected primer pages and source passages inspected, not all source pages or fluent translations.",
+      "Booklet fresh English text inspection is distinct from earlier selected visual inspection; no new independent booklet visual review.",
+      "Candidate review acceptance only; no publication/completion claim. Merge, approved deployment and live receipt remain coordinator gates."
+    ],
+    "initial_input_head": "18f7c1e90f7b4e56224db5daebf6411597d1e590",
+    "final_accepted_head": "7076285d477786fe8e527fc88297782d2a38944a",
+    "final_delta_checks": [
+      "Nine-file delta limited to source-array ordering, research-map reuse note, handoff evidence and six screenshots; no article prose or implementation change.",
+      "Independently viewed saved desktop-reading, mobile-hero and mobile-notes: readable paragraphs, honest typographic cover, visible numbered sources and return links, no visible clipping in sampled views.",
+      "Final fresh coast log reports385/385 PASS; independently reran25/25 Ho and shared passage-source tests against final artifact, including full portable prose and source order.",
+      "git diff --check passed; source-order issue resolved.",
+      "Reviewed Disha browser evidence1440x900/390x844, widths740/343.195, exact keyboard return and initially collapsed Further reading; these interactive checks were coordinator-performed."
+    ],
+    "prior_accepted_head": "fea77032a6942b24a666d2e41d229214447fc497",
+    "generated_index_delta_review": {
+      "result": "PASS",
+      "checks": [
+        "Only handoff CI-failure note and generated search-index changed since04bca181.",
+        "Exactly one of1504 index entries changed: methods/research-map body incorporates previously accepted reuse note (not a word-count field).",
+        "Read-only in-memory regeneration using kb_io.concepts is byte-identical to committed index.",
+        "research/validate.py PASS:1504concepts,5734local-link checks,38arithmetic checks,71preserved evidence records; git diff --check PASS."
+      ],
+      "limits": "No source, public prose, UI or eligibility change; prior factual, focused-test and screenshot reviews remain applicable. No full build repeated."
+    },
+    "workbench_delta_review": {
+      "result": "PASS",
+      "checks": [
+        "Only generated search-index fingerprint in workbench and handoff CI-failure note changed.",
+        "Independently hashed search-index; matches corrected workbench input fingerprint.",
+        "build_workbench.py --check and git diff --check PASS."
+      ],
+      "limits": "No site, prose, factual or eligibility changes; prior source, rendered and screenshot review stands. No full suite repeated."
+    }
+  },
+  "integration_review": {
+    "head": "960ebc48447b154fd95dc0b8cab824e19c212518",
+    "result": "pass",
+    "scope": "Published merge tree identical to separately reviewed candidate."
+  },
+  "attachment_note": "PR attachment attempted; app 100-attachment limit reached; actual URL retained.",
+  "counting": "One editorial article; zero substantive 500 increment. Programme remains 112.",
+  "limitations": [
+    "Separate AI research, implementation and review; not human, fluent-language or field review.",
+    "Fresh 2018 booklet text and earlier selected-page visual inspection are distinct. Warang Citi publications remain dated2012 evidence; no current schedules, fluent review or translated vocabulary claimed.",
+    "Browser viewport emulation, not physical-device or screen-reader testing."
+  ],
+  "verified_routes": [
+    "/languages/ho/"
+  ],
+  "receipt_integration": "Effective only after receipt PR passes required checks and merges; observed merge must be reconciled before releasing article claim.",
+  "receipt_review": {
+    "reviewer": "Drishti (separate AI reviewer)",
+    "input_head": "34987bbf4f339594e01e5052fabca6ee208eadbf",
+    "base_head": "960ebc48447b154fd95dc0b8cab824e19c212518",
+    "result": "PASS",
+    "findings": [],
+    "checks": [
+      "Ten-file delta contains only receipt/shared records and two live screenshots; no source, site or implementation changes.",
+      "Independently queried GitHub: PR409 MERGED at2026-10-21T12:29:57Z, reviewed7076285d477786fe8e527fc88297782d2a38944a, merge960ebc48447b154fd95dc0b8cab824e19c212518.",
+      "Independently queried CI39599399445: success on reviewed head; Publish Project Odisha workflow_dispatch39600121605: success on merge head.",
+      "Reviewed and merged trees independently equal0428394c7bbb1722ddce7e8410f02bf829ae9e34.",
+      "Canonical final_review equals actual saved Drishti report exactly; live_checks and browser equal coordinator saved JSONs.",
+      "Saved HTML SHA256 matches receipt f6e78bf176a00333468cbfac069d28683538555d3988667c06ae89e8e30ad7e0. Coordinator evidence records HTTP200,6notes9references9returns and11sitemap entries.",
+      "Independently visually inspected saved live desktop cover and mobile reading screenshots; readable, correct source ordering and no visible clipping in sampled views.",
+      "Only POD-EDIT-069 transitions to completed:59completed76excluded323queued; programme byte-identical to publication base and remains112.",
+      "Disha article claim retained; receipt_integrated phase explicitly conditional on actual receipt merge before release.",
+      "Rollout, team assignments, autonomous programme, register/dashboard and git diff checks all PASS."
+    ],
+    "screenshot_sha256": {
+      "live-desktop.png": "6d412e54200ee36bec83e0afbfbd931e18c473f2494eac4e7fe79fbcf62518b9",
+      "live-mobile.png": "e95a3f3b6c33ace3285fa0739eb1c47e9fa3106b3d12b1438d52292c75085230"
+    },
+    "tests": {
+      "article_rollout": "PASS",
+      "team_assignments": "PASS",
+      "autonomous_programme": "PASS",
+      "registers": "PASS:1110records636events; dashboard current",
+      "git_diff_check": "PASS"
+    },
+    "limits": [
+      "Separate AI receipt review, not human, fluent-language, community or field review.",
+      "Did not independently repeat live HTTP, interactive keyboard, physical-device or screen-reader tests; live observations are Disha’s and saved artifacts were inspected.",
+      "No site rebuild or full test repeat for records-only delta; prior candidate factual and test limits remain.",
+      "Receipt PR is not yet observed merged; claim release and next article remain gated on actual integration."
+    ]
+  },
+  "receipt_pull_request": "https://github.com/ahimanikya/project-odisha/pull/410"
+}
