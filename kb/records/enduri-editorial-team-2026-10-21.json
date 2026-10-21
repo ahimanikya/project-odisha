@@ -1,0 +1,71 @@
+{
+  "recorded_at": "2026-10-21T17:16:35.616687+00:00",
+  "article_id": "POD-EDIT-074",
+  "route": "/food/enduri-pitha/",
+  "status": "research_and_implementation",
+  "input_head": "fd3b0220afa598199b6772955095e4eb34223db3",
+  "authorization": [
+    "POD-DEC-2026101702",
+    "POD-DEC-2026101901",
+    "POD-DEC-225"
+  ],
+  "central_question": "What does the turmeric leaf do in Enduri pitha, and how do documented preparations connect with Prathamastami without becoming one universal recipe?",
+  "scope": "Individually deepen existing Enduri article; preserve actual photo and rights, inspect food technique and festival evidence.",
+  "acceptance": [
+    "Concrete sourced technique and festival examples, honest variations and source limits.",
+    "Numbered notes, full portable prose, retained reading paths and image rights; separate AI review, tests, responsive review, merged PR, approved publication, live checks and integrated receipt."
+  ],
+  "ownership": "Disha retains claim through receipt integration.",
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only bounded research; temporary report only.",
+      "status": "assigned"
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/pages/food/[slug].astro",
+        "projects/site/src/components/EnduriArticle.astro",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/tests-coast/enduri-editorial.test.mjs",
+        "projects/site/tests-coast/bose-editorial.test.mjs",
+        "projects/site/tests-coast/rasagola-editorial.test.mjs"
+      ],
+      "status": "assigned"
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Read-only separate integrated candidate review.",
+      "status": "waiting"
+    },
+    {
+      "name": "Disha",
+      "runtime": "/root",
+      "scope": [
+        "kb/research/food/collection.json Enduri page and relevant source fields only",
+        "kb/research/food/enduri-pitha.md",
+        "kb/research/food/enduri-editorial.json",
+        "kb/research/food/enduri-research-2026-10-21.json",
+        "shared records and publication"
+      ],
+      "status": "working"
+    }
+  ],
+  "counting": {
+    "substantive500": 112,
+    "increment": 0
+  },
+  "worker_reconciliation": "Actual inventory shows all prior assignments complete. Reuse three existing workers. Other open PR304 and281 untouched.",
+  "previous_integration": {
+    "pull_request": 418,
+    "head": "f23670b4068d5d5f34949dab6a7d9ffcc7333e11",
+    "merge_commit": "fd3b0220afa598199b6772955095e4eb34223db3",
+    "merged_at": "2026-10-21T17:13:36Z",
+    "observed_at": "2026-10-21T17:16:35.616687+00:00"
+  },
+  "next_action": "Integrate bounded research and implementation, then separate review."
+}
