@@ -21655,6 +21655,31 @@
         "2018 booklet retains 1 October inspection after fresh retrieval failure; folk texts not inspected and no translation or primer date invented.",
         "Browser viewport emulation, not physical-device or screen-reader testing."
       ]
+    },
+    {
+      "id": "POD-REV-2026102105",
+      "title": "Separate Saora article and source review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent /root/drishti"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human or fluent-language review.",
+      "reviewed_head": "4c32dbd6543db753216c2cf414816097dbbf2c1f",
+      "refs": [
+        "POD-WORK-302",
+        "POD-DEC-2026101901",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/saora-editorial-team-2026-10-21.json"
+      ],
+      "limitations": [
+        "Separate AI research, implementation and review; not human, fluent-language or field review.",
+        "Fresh 2018 booklet text and earlier selected-page visual inspection are distinct. Script inventor attribution differs between sources; no fluent review or translated vocabulary claimed.",
+        "Browser viewport emulation, not physical-device or screen-reader testing."
+      ]
     }
   ],
   "releases": [
@@ -25030,6 +25055,23 @@
         "records/kuvi-editorial-team-2026-10-21.json"
       ],
       "note": "Reviewed PR405 passed CI and merged; approved deployment and live numbered notes, text-only identity panel and responsive reading verified. Zero substantive programme credit."
+    },
+    {
+      "id": "POD-REL-2026102104",
+      "title": "Saora scripts and named learning materials",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/languages/saora/",
+      "refs": [
+        "POD-WORK-302",
+        "POD-REV-2026102105",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/saora-editorial-publication-2026-10-21.json",
+        "records/saora-editorial-team-2026-10-21.json"
+      ],
+      "note": "Reviewed PR407 passed CI and merged; approved deployment and live numbered notes, text-only identity panel and responsive reading verified. Zero substantive programme credit."
     }
   ],
   "sources": [
