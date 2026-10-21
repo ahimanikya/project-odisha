@@ -540,5 +540,40 @@
     ],
     "status": "completed",
     "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39639941607"
+  },
+  "receipt_review": {
+    "reviewer": "Drishti — separate AI reviewer",
+    "article_id": "POD-EDIT-073",
+    "input_head": "1bc080a137cd5bea386770ba8f4bc14e4f8ab295",
+    "base_head": "d432396119df3143d1736959ce0881850edafc04",
+    "result": "PASS",
+    "blocking_findings": [],
+    "findings": [
+      "Ten-file receipt delta contains records and two screenshots only; no website/source changes.",
+      "Independently queried PR417: MERGED2026-10-21T17:00:33Z,reviewed ec3553bd,merge d4323961. RequiredCI39639293474success on reviewed head; workflow_dispatch Publish39639941607success on merge.",
+      "Reviewed and merged trees equal241a8b1eb73f9f0a3abed5de46d1505b5287b6ad. Candidate review including final acknowledgment copied exactly.",
+      "Only073 queue entry completed;63completed76excluded319queued. Programme byte-identical112,no substantive increment.",
+      "All prior activity lines preserved byte-for-byte with one new event. Existing register rows unchanged except intended WORK302; only REV2026102110 and REL2026102109 appended.",
+      "Operations retains Disha and073 through actual receipt merge; conditional receipt_integrated gate explicitly prevents starting next article before reconciliation.",
+      "Saved liveHTML hash matches receipt and independently contains2notes6refs6returns; liveJSON transcription exact. Viewed desktop body and mobile notes screenshots,legible and consistent with narrative/credit records."
+    ],
+    "checks": [
+      "Read exact receipt/team/register/operations/queue delta.",
+      "Independent gh pr view417;gh run view39639293474;gh run view39639941607 remote metadata.",
+      "article_rollout.py --check;check_team_assignments.py;check_autonomous_program.py;registers.py --check allPASS:1118records640events.",
+      "git diff --check d4323961..1bc080a1PASS. Independent tree,ledger-prefix,programme bytes,register preservation,queue uniqueness and exact review transcription comparisons.",
+      "Saved HTML SHA4e4f60e2507ab5aac5e1e30086b9dedb16f0ff44f51ef15d4023a2fe04b18bb5;notes/refs/returns counted independently.",
+      "Viewed both committed live JPGs and calculated their SHA256 values."
+    ],
+    "screenshot_sha256": {
+      "live-desktop.jpg": "1bff893c8be867f6a0b0633e22a3922a3669b36769f838e76035644c3754d153",
+      "live-mobile.jpg": "55c2964a29a3863daa09824ec8a22dd0d8a11f767a9b4ed194973a1ec568b7e7"
+    },
+    "limits": [
+      "Separate AI receipt review,not human,historian,fieldvisit,school-access or museum-object confirmation.",
+      "Disha performed actual liveHTTP and browser/keyboard checks; reviewer checked savedHTML/JSON/screenshots and remote workflow metadata,not independent live interaction or physical-device/screen-reader testing.",
+      "No redundant site build/test suites for records-only delta; prior candidate source/portable limits remain.",
+      "No repository edits,Git mutations or publishing. Only temporary report written. Required receiptPR checks and observed merge remain ownership-release gates."
+    ]
   }
 }
