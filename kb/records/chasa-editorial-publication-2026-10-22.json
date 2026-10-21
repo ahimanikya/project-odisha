@@ -1,0 +1,82 @@
+{
+  "recorded_at": "2026-10-21T22:41:01.338660+00:00",
+  "authorization": "POD-DEC-225",
+  "program_item": "POD-A500-115",
+  "work_id": "POD-WORK-305",
+  "queue_item": "POD-EDIT-461",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/426",
+  "reviewed_head": "4ea68ace84ea7905230e8cf691814e004d4a02c8",
+  "merge_commit": "cfd4403e26ad6fb0ac61a237565abe8e351fb419",
+  "validation": {
+    "conclusion": "success",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39687168083"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "cfd4403e26ad6fb0ac61a237565abe8e351fb419",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39687669897",
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "review": "records/chasa-delivery-review-2026-10-22.json",
+  "live": {
+    "result": "PASS",
+    "checked_at": "2026-10-21T22:40:24.537454+00:00",
+    "url": "https://projectodisha.org/communities/chasa/",
+    "html_sha256": "8403f3136d86606c8d58954de61c1c169313369c82df22b60ea59c5b972a556c",
+    "checks": [
+      "All canonical prose matches",
+      "Founder byline",
+      "Four visible source note targets",
+      "noindex preserved"
+    ]
+  },
+  "live_browser": {
+    "worker": "Samanta, AI implementation agent",
+    "input_head": "cfd4403e26ad6fb0ac61a237565abe8e351fb419",
+    "deployment": "39687669897",
+    "status": "pass",
+    "url": "https://projectodisha.org/communities/chasa/",
+    "desktop": {
+      "byline": true,
+      "collapsed": true,
+      "notes": 4,
+      "readingWidth": 740,
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "mobile": {
+      "readingWidth": 390,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    "footnote": {
+      "active": "note-chasa-bhadrak-gazetteer",
+      "hash": "#note-chasa-bhadrak-gazetteer"
+    },
+    "return": {
+      "active": "ref-name-work-0-chasa-bhadrak-gazetteer",
+      "hash": "#ref-name-work-0-chasa-bhadrak-gazetteer"
+    },
+    "explore": "Named Chasa card opens canonical article",
+    "screenshots": [
+      "/tmp/pod-chasa-live-desktop.png",
+      "/tmp/pod-chasa-live-mobile.png"
+    ],
+    "limits": [
+      "Read-only browser check; no production save mutation.",
+      "No repository edits.",
+      "Deployment head supplied by coordinator; rendered behavior verified."
+    ]
+  },
+  "verified_routes": [
+    "/communities/chasa/"
+  ],
+  "limits": [
+    "Separate AI review, no human community review or field observation.",
+    "Penthabahal evidence is a historical village snapshot, not current conditions or an all-Odisha branch map.",
+    "Shared rice rituals are not exclusive Chasa customs; no universal origin, innate rank or current legal classification.",
+    "Exact Odia spelling and further regional history remain open; search eligibility unchanged."
+  ]
+}

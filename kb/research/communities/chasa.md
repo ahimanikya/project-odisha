@@ -11,4 +11,4 @@ No single founder, first-attestation date, exhaustive regional branch list, curr
 
 No relevant rights-cleared Chasa-specific image was located in the existing collections. The candidate uses text rather than assigning a generic farmer photograph a caste identity. No field observation or human community review is claimed.
 
-POD-EDIT-461; POD-A500-115; POD-WORK-305. In progress until review, tests, deployment and live receipt are complete.
+POD-EDIT-461; POD-A500-115; POD-WORK-305. Published with separate AI review, tests, deployment and [live receipt](../../records/chasa-editorial-publication-2026-10-22.json). Regional evidence gaps remain open.

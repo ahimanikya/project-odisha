@@ -1,0 +1,97 @@
+{
+  "reviewer": "Drishti",
+  "review_type": "separate AI review; not human review",
+  "status": "pass_with_limitations",
+  "input_head": "dfb747f055fe2859d93a498589fe68dfdda78617",
+  "reviewed_head": "4ea68ace84ea7905230e8cf691814e004d4a02c8",
+  "reviewed_at": "2026-10-21T22:31:35.742865+00:00",
+  "findings": [],
+  "blockers": [],
+  "source_checks": [
+    "Penthabahal original PDF24/printed9 visually confirms 15 Chasa households, 67 people, 30 men and 37 women; local Bisi/Sahu wording does not establish statewide branches.",
+    "Penthabahal original PDF42/printed23 visually confirms 12 Chasa landowning households and nearly 87 percent cultivated area, with other communities owning remaining land.",
+    "Penthabahal original PDF50–51/printed31–32 visually confirms Gountiahi intermediary abolition effective 1 June 1961 and Bhogra service-land settlement; article does not mistake these institutional relations for innate caste attributes.",
+    "Penthabahal PDF12 preface text independently confirms M. Ahmed and 1 July 1962; exact fieldwork dates remain unestablished.",
+    "Bhadrak original PDF56/printed40 visually confirms farmer/community distinction; unmeasured population language is appropriately excluded.",
+    "Misra original publisher PDF independently inspected: printed236 all-caste cultivation and plains scope; 238–240 two sowing variants; 240–241 arum priestly Lakshmi and popular frog explanations. Article presents interpretation rather than agricultural fact and does not claim exclusive Chasa ritual ownership.",
+    "Tanabe Puri census interpretation carries forward previously independently inspected publisher text; original census volumes remain uninspected and article explicitly says so."
+  ],
+  "integration_checks": [
+    "Canonical narrative is rendered with visible numbered footnotes and correct Founder byline; source references resolve within source list.",
+    "New Chasa route, discovery entry and portable reading entry are scoped additions. Search candidate explicitly holds route; no broad indexing authorization.",
+    "Count expectations change by one: Explore 118 to119, Reading31to32, full static base115to116.",
+    "No origin founder/date, current legal caste classification, universal Khandayat equivalence or fabricated field/human review. No generic image assigned a caste identity.",
+    "Final4ea68ace delta from21c9ea6d is handoff plus implementation report only. Reviewed public source and test hashes unchanged."
+  ],
+  "source_budgets_including_section_headings_title_and_note": {
+    "chasa-bhadrak-gazetteer": 132,
+    "chasa-penthabahal-census1961": 176,
+    "chasa-misra-rice1966": 168,
+    "paika-tanabe2020": 120
+  },
+  "tests": [
+    {
+      "check": "git diff --check dfb747f0..HEAD",
+      "result": "PASS"
+    },
+    {
+      "check": "full test log",
+      "result": "566/566 PASS"
+    },
+    {
+      "check": "coast test log",
+      "result": "426/426 PASS"
+    },
+    {
+      "check": "publication log",
+      "result": "PASS;11 indexable"
+    }
+  ],
+  "limits": [
+    "Build logs independently read:566 full tests,426 coast tests,publication limited11 passed. Browser interactions reported by Samanta; Drishti independently inspected three screenshots, not interactive browser or physical devices.",
+    "Source reading does not establish exhaustive regional coverage, current practice or human/community endorsement.",
+    "Bhadrak edition date unresolved; Penthabahal fieldwork dates unresolved; Misra does not identify each ritual village or observation date."
+  ],
+  "file_sha256": {
+    "kb/catalog.json": "29bf2a40fc50788a624168d047389cf08f7ce4c489c42dd892914f5589b5478a",
+    "kb/records/chasa-editorial-team-2026-10-22.json": "1f6f863367e5fa537973406a77f918ab977cd5196c0ce23574c3c155284f3fe4",
+    "kb/records/chasa-implementation-2026-10-22.json": "892a280798c7b2e4c0b2028c5fe238ce57bed3c6d1388a10f664847645c1f0d5",
+    "kb/records/editorial-workbench.json": "977f272d5d1fae74743fed0f2252fc7dc14ce210cda6d0bb73a31831a1845c44",
+    "kb/research/communities/chasa.json": "1adddd91250d77ea809bc9295631544efb91efde3740de1d47ee5165d6cdb482",
+    "kb/research/communities/chasa.md": "de5d903a27ffbfeaf50df4603dccae369f035e5622f47acedbe84fddd3423ab9",
+    "kb/research/communities/coverage-index.json": "f829beb055a8aee37af5fa1650ad1f7659a69588a1835c65127f287b3ffb0ff8",
+    "kb/research/communities/index.md": "526414a2e5ee93c9a747af4d44b6453a1f2b1dc35793ee7e29ae7a562a2a8b17",
+    "kb/research/methods/research-map.md": "fb248e4dc1a8fe7e8b78e227990fefe1bbdc1b1e1bb17fb2f528d8838ece95d2",
+    "kb/research/search-index.json": "2a9897752aa3d865e8f9adc61b331203015779466db79aeda4612123ad3df8fa",
+    "kb/research/sources/chasa-research.json": "85a22544929e8e365614aca8f219badf630ed03bc093995a1e04c138df918b8c",
+    "projects/site/editions/coast.json": "01e8c2e7b0109f81f9333037d86c01a6f065d1f667ded1ad01b7d1881864f58e",
+    "projects/site/editions/search-candidate.json": "a4ba79c53df7ad9ba5c4c363a9e9d034357d6c06dc11d199fd75219d453d2117",
+    "projects/site/src/data/discovery.ts": "63888d4ce23827d5778273a2f3173f43343de3948ede8dfba00819bc399c4d1a",
+    "projects/site/src/data/journey-catalog.ts": "e7ae4289f01041735c3060cf6fde2fd588467f192b49be0cd9c779ff1b734388",
+    "projects/site/src/pages/communities/chasa.astro": "2328e0c11471ae8e3c50a38af6f2001679e3eb190975157d65fd727d08b5a338",
+    "projects/site/tests-coast/chasa-editorial.test.mjs": "d4b9c3eaa3547f1ecd9a9ef4e35c3e5d74aa075bb5910f62253949073aed5197",
+    "projects/site/tests-coast/cuttack-literature.test.mjs": "04580568f15cd54edf854886e0c150dbc4e08eeb78d3eccb0b1a525a6e5f6ad8",
+    "projects/site/tests-coast/discovery-flow.test.mjs": "b41eb907543ca9cb16111f79b2994cc5faf7f5d6d8f6e1a11822148ed3c3132c",
+    "projects/site/tests-coast/edition.test.mjs": "8aa421a3a553e4c77efe87fce1431392987a67f56440b61861db057531dda45c",
+    "projects/site/tests/build.test.mjs": "a768741375493785142be1e07a9de03cca5310d34cc4dfc2f0a2e5b54a12948b"
+  },
+  "repository_edits": [],
+  "visual_review": {
+    "status": "PASS",
+    "actual_inspection": [
+      "/tmp/pod-chasa-desktop.png",
+      "/tmp/pod-chasa-mobile.png",
+      "/tmp/pod-chasa-mobile-body.png"
+    ],
+    "finding": "Desktop and mobile headings, byline, lead, save controls and body paragraphs readable without visible clipping or overlap; mobile numbered footnotes visible."
+  },
+  "program_item": "POD-A500-115",
+  "work_id": "POD-WORK-305",
+  "authorization": "POD-DEC-225",
+  "verification": {
+    "sources": "Separate original PDF and visual table review, precise scope and word budgets",
+    "implementation": "566full and426coastal tests, desktop/mobile screenshots and interactions",
+    "ci": "39687168083 succeeded on reviewed4ea68ace"
+  },
+  "normalization": "Disha linked the separate AI PASS to programme fields and retained evidence limits; no new human review asserted."
+}
