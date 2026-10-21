@@ -1,0 +1,64 @@
+{
+  "task_id": "POD-TASK-CHASA-20261022",
+  "article_id": "POD-EDIT-461",
+  "worker": "Samanta, AI implementation agent",
+  "input_head": "5811dae5d304a5604a81ec37d8695115499f3a40",
+  "status": "implementation and local verification passed",
+  "actual_edits": [
+    "projects/site/src/pages/communities/chasa.astro",
+    "projects/site/tests-coast/chasa-editorial.test.mjs"
+  ],
+  "implementation": [
+    "Khandayat canonical-content layout reused; no narrative invented.",
+    "Visible numbered sources and exact backlinks, Founder byline, contents, collapsed further reading, visible correction.",
+    "SaveJourney reading:chasa; portable prose and short-source tests derived from canonical content.",
+    "No fixed source counts or invented imagery."
+  ],
+  "tests": [
+    {
+      "name": "Node24 syntax check",
+      "result": "pass"
+    },
+    {
+      "name": "git diff --check",
+      "result": "pass"
+    },
+    {
+      "name": "full build and npm test",
+      "result": "566/566 pass",
+      "log": "/tmp/pod-chasa-full-tests.log"
+    },
+    {
+      "name": "coast build and tests",
+      "result": "426/426 pass",
+      "log": "/tmp/pod-chasa-coast-tests.log"
+    },
+    {
+      "name": "publication build",
+      "result": "pass; limited11 indexable",
+      "log": "/tmp/pod-chasa-publication.log"
+    }
+  ],
+  "pending": [
+    "Separate review, CI, merge/deployment and live check after coordinator signal"
+  ],
+  "limits": [
+    "Only two reserved files edited; no Git or shared records.",
+    "No factual research or publication.",
+    "Preview-only save; no production mutation."
+  ],
+  "responsive": {
+    "tool": "CUA Chrome",
+    "desktop": "1440x1000;740px reading column; no overflow",
+    "mobile": "390x844;390px article width; no overflow",
+    "notes": "Footnote1 focuses note-chasa-bhadrak-gazetteer and return focuses ref-name-work-0-chasa-bhadrak-gazetteer",
+    "contents": "Penthabahal link focuses heading",
+    "further_reading": "Collapsed default, expands on click",
+    "save": "Local preview Saved to my journey checked, persists reload; visible screenshot and AX state verified",
+    "screenshots": [
+      "/tmp/pod-chasa-desktop.png",
+      "/tmp/pod-chasa-mobile.png",
+      "/tmp/pod-chasa-mobile-body.png"
+    ]
+  }
+}
