@@ -209,5 +209,52 @@
     "/languages/kui/"
   ],
   "receipt_integration": "Effective only after PR404 passes required checks and merges; observed merge must be reconciled before releasing article claim.",
-  "receipt_pull_request": "https://github.com/ahimanikya/project-odisha/pull/404"
+  "receipt_pull_request": "https://github.com/ahimanikya/project-odisha/pull/404",
+  "receipt_review": {
+    "reviewer": "Drishti, separate AI reviewer /root/drishti; not human review",
+    "input_head": "ec86b97e856af152be1a7fdba8f973cb339f299f",
+    "base": "8eaed4cc475098de44bb4697a4e88e7715d73059",
+    "result": "PASS",
+    "blocking_findings": [],
+    "checks": [
+      "Ten-file delta contains only receipt/team/queue/register/operations records and two screenshots; no website/source implementation changes.",
+      "Independently queried GitHub: PR403 MERGED at2026-10-21T05:56:08Z, reviewed head11b3425e0e8f31d455813e813a4c92e628a1390c and merge8eaed4cc475098de44bb4697a4e88e7715d73059. Required CI39551568708 completed success on reviewed head; workflow_dispatch Publish Project Odisha39552428067 completed success on merge head.",
+      "Reviewed candidate and published merge Git trees equal fedadef61f786d95cede972930eecb410ebdcdb6.",
+      "Canonical final_review exactly equals saved independent candidate review; live_checks excluding browser exactly equals coordinator saved live JSON. Saved HTML SHA256 matches3f327b8bee69d5f55bd05edf3ebc9fa36e7cc8f8d0f9c9c55416e419c2af08c0; independently counted five note IDs and seven data-footnote-ref markers.",
+      "Only queue066 transitions to completed; 56completed76excluded326queued. Programme JSON byte-identical to publication base,112 unchanged.",
+      "Disha remains current article owner; receipt_integrated phase explicitly conditional on PR404 checks and observed merge before claim release.",
+      "Independently visually inspected live-desktop.png and live-mobile.png: desktop cover/byline/text identity and mobile primer prose readable without obvious clipping. Coordinator interactive keyboard and viewport measurements are attributed separately."
+    ],
+    "screenshot_sha256": {
+      "live-desktop.png": "c59b40a444bda3978cad5150df6667e65868ca2838044ed79a036e6cea2e86e0",
+      "live-mobile.png": "dcf716b1802e1d1f985e69b088408ae1fc3e89125b477fa56ab47fa04fcd6fa5"
+    },
+    "tests": [
+      {
+        "command": "python3 tools/editorial/article_rollout.py --check",
+        "result": "PASS56completed76excluded326queued"
+      },
+      {
+        "command": "python3 tools/check_team_assignments.py",
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/check_autonomous_program.py",
+        "result": "PASS"
+      },
+      {
+        "command": "python3 tools/registers.py --check",
+        "result": "PASS1104records633events;dashboard current"
+      },
+      {
+        "command": "git diff --check 8eaed4cc..HEAD",
+        "result": "PASS"
+      }
+    ],
+    "limits": [
+      "Separate AI receipt review; no human, fluent-language, physical-device, field or screen-reader review.",
+      "Live HTTP retrieval, sitemap and interactive browser checks were performed by Disha; Drishti inspected their saved artifacts and screenshots, and independently queried GitHub metadata. No independent live browser repetition.",
+      "No site rebuild or source research repeated for this records-only delta. No repository/Git mutation; temporary review file only. Receipt PR404 must pass required checks and actually merge before ownership release."
+    ]
+  }
 }
