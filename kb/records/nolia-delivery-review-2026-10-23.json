@@ -1,0 +1,139 @@
+{
+  "reviewer": "Drishti",
+  "review_type": "Separate independent AI review; not human or field review",
+  "status": "pass_with_limitations",
+  "input_head": "348b7fbddc7423a152688eeb51fecab2d815f38b",
+  "reviewed_at": "2026-10-22T18:36:45.038941+00:00",
+  "findings": [],
+  "blockers": [],
+  "source_checks": [
+    {
+      "source": "kaibarta-kalavathy-tietze1985",
+      "actual_check": "Original FAO chapter3 PDF printed59–61 independently read: local umbrella designation, two groups, regional distribution, four-village sample and councils support narrative. No transfer of northern Kaibarta claims; no ancient-date etymology promoted."
+    },
+    {
+      "source": "nolia-gupta2010",
+      "actual_check": "Original ISEC WP255 PDF imprint2010 and printed2,15–16 independently read. Two-village comparison, uncertain settlement date, languages and reported belonging supported. No fieldwork year invented, no universal current identity claim; surrounding legal/rank generalizations excluded."
+    },
+    {
+      "source": "nolia-ganjam-gazetteer",
+      "actual_check": "Original official PDF printed99–100 and footnote113 independently read: Jalandhara descent attributed to Jalarulu; Narasingha Swamy/Dola Purnima/Simhachalam description cites1961 Nuagolabandh monograph. Article preserves secondary-source and dated-practice limitations; no genealogy asserted."
+    },
+    {
+      "source": "nolia-dakshin-commoning2021",
+      "actual_check": "Original institutional2021 PDF methods and printed18–24 independently read: June2019scoping, Purnabandha mapping, shared landing/drying, fishingcommittee, society and jetty disagreement supported. Does not infer current legal rights, universal agreement or caste from all Telugu settlements."
+    }
+  ],
+  "source_budgets_conservative_including_all_paragraphs_in_associated_section_headings_title_note": {
+    "kaibarta-kalavathy-tietze1985": 181,
+    "nolia-gupta2010": 192,
+    "nolia-ganjam-gazetteer": 128,
+    "nolia-dakshin-commoning2021": 195
+  },
+  "depth_assessment": "Substantive new value beyond existing Kaibarta article: distinguishes local names, documents multilingual belonging and unsettled arrival chronology, links origin tradition to explicitly older evidence, and explains shared shore work through concrete drying/landing/institution/conflict examples. Fair Odia heritage framing includes Telugu-speaking residents without erasing language or prescribing hereditary work. No invented founder or creation event.",
+  "integration_checks": [
+    "Coverage index adds source-specific umbrella observation and narrative topic; administrative row remains coverage lead, no alias relationships created.",
+    "Wrapper uses canonical description, mapped visible numbered notes/backlinks, collapsed further reading, visible correction and portable reading.",
+    "Shared integration adds one Nolia route and reading entry; search hold remains explicit.",
+    "Prior Kaibarta handoff changes are completion checkpoint integration, not new substantive credit.",
+    "Exact committed candidate compared with source-review hashes: all public, canonical narrative, dossier and wrapper/test hashes unchanged; only handoff and operations changed among prior captured files. Final implementation report reviewed.",
+    "Merged origin/main71c61ce3 reviewed: all prior Nolia public/source hashes unchanged; external wedding publication/team/evidence, cultural-identity narrative, ledger and research log match external main byte-for-byte. Generated workbench/search index reconcile both scopes and operations retains Nolia claim; no external evidence overwritten."
+  ],
+  "tests": [
+    {
+      "check": "git diff --check",
+      "result": "PASS"
+    },
+    {
+      "check": "Final full/coast build and test logs independently inspected",
+      "result": "PASS:566 full tests,453 coast tests"
+    },
+    {
+      "check": "Publication/audit logs independently inspected",
+      "result": "PASS:11 indexable pages;1872/1872 acceptance checks"
+    },
+    {
+      "check": "Actual downloaded offline HTML",
+      "result": "PASS:all canonical paragraphs and four source titles independently checked",
+      "path": "/Users/ahimanikya/Downloads/My-Odisha-Journey-book-2026-10-22.html"
+    },
+    {
+      "check": "Merged-input report and actual build/test/publication/audit log tails independently inspected at41cfe486",
+      "result": "PASS:coast468pages,453tests,1872acceptancechecks,11indexable",
+      "report": "/tmp/pod-nolia-resume-implementation.json"
+    },
+    {
+      "check": "git diff --check1815686e..41cfe486",
+      "result": "PASS"
+    }
+  ],
+  "limits": [
+    "Actual screenshots, logs and downloaded offline HTML independently inspected. Browser keyboard interactions and Save persistence reported by Samanta, not independently replayed. CI, merge, deployment and live receipt remain separate gates.",
+    "No human community review, field observations or original1961monograph inspection. Gazetteer edition date and Gupta fieldwork dates remain unresolved.",
+    "Source verification used actual original PDF extracted text; no new images selected or source images reused."
+  ],
+  "file_sha256": {
+    "kb/catalog.json": "3829afd90f77250f5632a06106e7c1f205c4928fa01daa1252b4a903b1a7abe6",
+    "kb/history/ledger.jsonl": "240cc610706c1e2a4d55b27bdd4a4cecdb3dd27d991cc425c23e8553cefd54f0",
+    "kb/records/article-editorial-rollout.json": "d4b9908e3480e43f6a0cf0038ace2dcc781016708bb1f401191a227990e18e4a",
+    "kb/records/article-editorial-work-list.md": "151d92b74a0ff884dfa450624d5ca1dcc3418a62ae32d5bf74bc3369b90d733e",
+    "kb/records/autonomous-500-program.json": "fba35388a859382b4f6aaf519a1863deeb9a7612940c622ebd377a5013027a8b",
+    "kb/records/editorial-workbench.json": "1c6f371f7214378e753e861b11254bd5d0f2f37fb1c3176301df5931b5a8a9bc",
+    "kb/records/kaibarta-editorial-team-2026-10-22.json": "957e7f36d14944ef88743ead4e447ec90b8eebe9aec58d2a8ff32845c917eef7",
+    "kb/records/nolia-editorial-team-2026-10-22.json": "7cda0cfce82b3b7fee6bc95dd4410a991ac6b8b72ac316c4b6465de21495bba2",
+    "kb/records/nolia-implementation-2026-10-22.json": "dba6b44a8c32cbdf188ef41b61f6b389e0680629df232d7ba7f02af04ec618df",
+    "kb/records/odia-wedding-publication-2026-10-22.json": "b32f6d4264c90f7d0757908fdbc5c7b849713ddfa6cace2e3157d362aafc554e",
+    "kb/records/odia-wedding-team-2026-10-22.json": "0ccb51411e226c0f610bfe13ac1adc9a9c42a1ec1e6b19e502d727a2473dc8bf",
+    "kb/registers/DASHBOARD.md": "c9c3e0b5acfaa18cddeb35081b741a2de3433af6486b065888f30f8666163939",
+    "kb/registers/records.json": "7ee780b1ee720d8536476f4002e76344aa1a1c31bf4308974921a45880e0f58d",
+    "kb/research/communities/coverage-index.json": "badfd95e9305dff1c932c49d3ee470427fe704359136b0ced4cd375f8bca6c35",
+    "kb/research/communities/index.md": "88a1b35dd577b4d2b1f4657cd9d109ff2b0cbad0d71f86b571c974efb94e6bb8",
+    "kb/research/communities/nolia.json": "09362541c3b7c4443205e014a79d004399466b6120f1068e7bbcab488f26e9fb",
+    "kb/research/communities/nolia.md": "93c5b27a8f735ecd7eddd6828166d9d2d1764868268d913939e7ea2758f7fe7a",
+    "kb/research/culture/odia-cultural-identity.md": "d91d9915583825c891152d179d30fdeb2e6ff9d3894fc8b0210235bde5de9f59",
+    "kb/research/log.md": "1084237d452ad39ff798e584166969b08baa2c0d174fea8d85cfb4ef56a76cdc",
+    "kb/research/methods/research-map.md": "02338a80a984ff2c4f338a3a546f4384dd5a3e55f3e7945ae8bb2514d1ea43da",
+    "kb/research/search-index.json": "a4824256872db2aea16a7be6adf7796b366caa9c8a04511bdad18abcbeb568b4",
+    "kb/research/sources/nolia-research.json": "4f79db5e06a868c7c96721e5c8cce225a7a753cd2d26dd8429e16f48252912e3",
+    "kb/research/sources/odia-identity-evidence.json": "bc6e2e8d42ef17554cdce0ac2c815694f8beacb3e4ede26bbac99323faf765af",
+    "kb/research/sources/odia-wedding-media-evidence.json": "58d62c8dbee482e3be7e69fce5abec159f389b487487f12f5d55c48fa817a3ce",
+    "kb/team/operations.json": "7b18962114aa098b82c33d48eef8688d877c75af8fa3a04a8deb54eb4ac2fa6b",
+    "projects/site/editions/coast.json": "6765829520ce99558e36aa1db55d7132e4f64ddffe7b4d5b637a8a55cc6caad5",
+    "projects/site/editions/search-candidate.json": "865ad6152e5d3ea91c9954fb69b3caf02f3029d5207cdc1e92366adf1db11d4c",
+    "projects/site/src/data/discovery.ts": "858a8ae38b0bc50a3be090c1b27195b007012b509df1d3f492c167a07d66f527",
+    "projects/site/src/data/journey-catalog.ts": "b8029340e384cbc91ef41c075dcdd04690f471cdb4b9aa1fca1e1bac92c78189",
+    "projects/site/src/pages/communities/nolia.astro": "cf33b65f0778ff70f7d754507e56b872b724847303bf031585d55b86738afc38",
+    "projects/site/tests-coast/cuttack-literature.test.mjs": "68b9c2cc7ccc4deb37ce6ba02121cc972bcffed54ddeb2e467021900d1629aef",
+    "projects/site/tests-coast/discovery-flow.test.mjs": "d283e8d9a0fc51fb5a957c8cda045b9bb468e78c3904fc06935c03cc83e34380",
+    "projects/site/tests-coast/edition.test.mjs": "6a1c347ccd6939b02973cca079e72ee49237fb14b8adf08b1274f9e479b25e09",
+    "projects/site/tests-coast/nolia-editorial.test.mjs": "0b6efa06faa2b95298ac77124d937a721de92775bc6e4a292f88d21462f14aa1",
+    "projects/site/tests/build.test.mjs": "07f918d07ef5c5dfe75301e4d768ae66be40d08284db5a36cd1b0655e9753a5d"
+  },
+  "repository_edits": [],
+  "reviewed_head": "41cfe486621e2ab7e71e846981dc8a6569ae1f32",
+  "visual_review": {
+    "status": "PASS",
+    "screenshots": [
+      "/tmp/pod-nolia-desktop.png",
+      "/tmp/pod-nolia-mobile.png",
+      "/tmp/pod-nolia-mobile-body.png"
+    ],
+    "actual_inspection": "All three screenshots visually inspected:1440x1000 desktop and390x844 mobile top/body. Readable title, lead, byline, menu, save control, paragraphs and visible numbered notes; no observed clipping or overlap."
+  },
+  "review_history": [
+    {
+      "reviewed_head": "1815686ebb0504b1e04ae77015d896099e4cd443",
+      "status": "PASS",
+      "retained": "Original source inspection, three actual screenshot inspections, full566test log and actual downloaded reading check retained; article content/code unchanged."
+    }
+  ],
+  "program_item": "POD-A500-121",
+  "work_id": "POD-WORK-312",
+  "authorization": "POD-DEC-225",
+  "verification": {
+    "sources": "Four original sources inspected with local/time limits; separate source integrity check after merge",
+    "implementation": "Prior566full tests and actual desktop/mobile/download checks; merged453coasttests1872acceptancechecks11indexable",
+    "ci": "39831931686 passed on exact41cfe486"
+  },
+  "normalization": "Disha linked actual separate AI review to programme fields, preserving review history; no human review asserted."
+}

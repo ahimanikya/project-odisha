@@ -9116,18 +9116,21 @@
       "id": "POD-WORK-312",
       "title": "Research and publish Nolia coastal community history",
       "category": "website_and_knowledge",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti AI review",
       "authorization": "POD-DEC-225",
-      "next_action": "Establish source viability, integrate canonical narrative, then implement and review. No publication or completion claimed.",
+      "next_action": "Retain ownership through receipt merge before another article.",
       "blockers": [],
       "refs": [
-        "POD-DEC-225"
+        "POD-DEC-225",
+        "POD-REV-2026102301",
+        "POD-REL-2026102301"
       ],
       "evidence": [
-        "records/nolia-editorial-team-2026-10-22.json"
+        "records/nolia-editorial-team-2026-10-22.json",
+        "records/nolia-editorial-publication-2026-10-23.json"
       ]
     }
   ],
@@ -22301,6 +22304,33 @@
         "No measured statewide dilution, exclusive textile-colour ownership, original reel transcript or local interview claimed."
       ],
       "reviewed_head": "295b64e7849ecba453c4878e28e093c374140544"
+    },
+    {
+      "id": "POD-REV-2026102301",
+      "title": "Separate Nolia source and integrated article review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human historian or community review.",
+      "reviewed_head": "41cfe486621e2ab7e71e846981dc8a6569ae1f32",
+      "refs": [
+        "POD-WORK-312",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/nolia-delivery-review-2026-10-23.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human community review or fieldwork.",
+        "Local Nolia naming covers distinct groups in the inspected1985study; no universal alias or single founder established.",
+        "Gupta2010 testimony is local and dated; not merged with2009WP231 or a current population survey.",
+        "Gazetteer origin tradition is not proved descent; original1961monograph and editiondate unresolved.",
+        "Shared-shore research describes selected2019–2021settings; no present legal entitlement inferred.",
+        "No community-specific unrestricted image rights established; no generic fisher identified by caste. Search eligibility unchanged."
+      ]
     }
   ],
   "releases": [
@@ -25938,6 +25968,22 @@
         "records/odia-identity-publication-2026-10-22.json"
       ],
       "note": "Reviewed PR438, passing CI, approved deployment and exact live text verification. No autonomous500 credit; search eligibility unchanged."
+    },
+    {
+      "id": "POD-REL-2026102301",
+      "title": "Nolia making a home on the Odisha coast",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/communities/nolia/",
+      "refs": [
+        "POD-WORK-312",
+        "POD-REV-2026102301",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/nolia-editorial-publication-2026-10-23.json"
+      ],
+      "note": "Reviewed PR443, passing checks, approved deployment and live verification. One substantive article; search eligibility unchanged."
     }
   ],
   "sources": [
