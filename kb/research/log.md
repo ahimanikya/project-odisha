@@ -838,3 +838,7 @@ Added a source-linked eight-sweet collection: Nimapada Jhili, Kendrapara Rasabal
 ## 20 October 2026 · Alternate food photographs
 
 Replaced the active Dalma, Tomato Poda and Poda Pitha illustrations with newly inspected licensed documentary alternatives. Habisha Dalma retains its variant identity; the alternate pakhala meal identifies bilati poda at left; the whole Poda Pitha photograph supports browned-crust observation but no cut-interior claim. Updated photograph-specific prose and saved-book mappings. Historical assets and their rights remain intact. Separate AI research, implementation and quality checks are recorded with the release; no human field review or programme completion credit.
+
+## 22 October 2026 · Wedding names and media context
+
+Extended the cultural identity article with attributed wedding reporting and practical guidance for Nirbandha, Mangana and additional functions. Structured evidence separates interviews, wider scholarship and editorial proposals; no statewide replacement rate or blanket foreign-origin claim adopted. Source and family/community variation retained.

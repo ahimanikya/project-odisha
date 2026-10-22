@@ -74,5 +74,12 @@
     ]
   },
   "prior_receipt_reconciliation": "Kaibarta completed handoff selectively restored from local checkpoint53fbeed9, preserving all newer remote identity-article records and ownership.",
-  "implementation": "records/nolia-implementation-2026-10-22.json"
+  "implementation": "records/nolia-implementation-2026-10-22.json",
+  "resume_reconciliation": {
+    "external_receipt_pr": 444,
+    "external_receipt_state": "merged",
+    "observed_main": "71c61ce3",
+    "external_handoff": "completed with reserved_files_released true; operations current_task and current_article null",
+    "integration": "Merge current main preserving wedding source/article/receipt. Retain Nolia active claim; regenerate shared indexes."
+  }
 }
