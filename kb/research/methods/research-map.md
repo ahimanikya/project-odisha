@@ -915,3 +915,7 @@ Reuse `communities/nolia.json`, `communities/nolia.md` and `sources/nolia-resear
 ## Kansari community history · 23 October 2026
 
 Reuse `communities/kansari.json`, `communities/kansari.md` and `sources/kansari-research.json`. Census1961-series volume actually published1967 supports local training and occupational mobility; NID source reused from Ghanta Ghanti. OCO maker profile explicitly identifies community; programme aims are not outcome evidence. No universal origin or Thatari alias. Journal1972 inaccessible; unsupported health/chronology claims excluded.
+
+## Gopala regional community history · 23 October 2026
+
+Reuse `communities/gopala.json`, `communities/gopala.md` and `sources/gopala-research.json`. Existing Ganjam/Bhadrak source IDs retained;1909 classifications,2012 literary interpretation and Nemalo reporting are distinct evidence types. No universal alias, caste creation date, proven genealogy or current event-year inference. Livestock PDFs unavailable; no snippet claims used.
