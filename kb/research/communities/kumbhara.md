@@ -11,4 +11,4 @@ The Kurala Purana account is treated as an origin tradition. The archive’s rep
 
 No relevant rights-cleared community photograph was found in the existing KB. The Puri archive has excellent named documentary images but no verified open-reuse licence; link its archive rather than reproducing them. No generic maker photograph is assigned a caste. Optional Pradhan2025 paper was excluded from the narrative because its geographic and household-count inconsistencies are unnecessary here. No field visit or human community review claimed.
 
-POD-EDIT-464; POD-A500-118; POD-WORK-308. Candidate awaiting separate review, tests, deployment and live receipt.
+POD-EDIT-464; POD-A500-118; POD-WORK-308. Published with separate AI review, tests, approved deployment and [live receipt](../../records/kumbhara-editorial-publication-2026-10-22.json). Further local and community evidence remains open.

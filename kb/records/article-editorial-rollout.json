@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-22T01:28:52.629541+00:00",
+  "updated_at": "2026-10-22T01:44:21.249373+00:00",
   "authorization": "POD-DEC-2026101702",
   "work_id": "POD-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -6974,15 +6974,26 @@
       "id": "POD-EDIT-464",
       "route": "/communities/kumbhara/",
       "title": "Kumbhara: pottery and community histories",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "Kumbhara community histories in Odisha: pottery, origin traditions versus documented formation, local institutions and changing work. Do not conflate all potters, grouped administrative names or Kandha-Kumbhar with one ancestry.",
       "source_template": "projects/site/src/pages/communities/kumbhara.astro",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
-        "records/kumbhara-editorial-team-2026-10-22.json"
+        "records/kumbhara-editorial-team-2026-10-22.json",
+        "records/kumbhara-editorial-publication-2026-10-22.json"
       ],
       "blocker": null,
-      "started_at": "2026-10-22T01:28:52.629541+00:00"
+      "started_at": "2026-10-22T01:28:52.629541+00:00",
+      "completed_at": "2026-10-22T01:44:21.249373+00:00",
+      "publication_receipt": "records/kumbhara-editorial-publication-2026-10-22.json"
     }
   ]
 }

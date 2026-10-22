@@ -9032,18 +9032,21 @@
       "id": "POD-WORK-308",
       "title": "Research and publish Kumbhara community history",
       "category": "website_and_knowledge",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti AI review",
       "authorization": "POD-DEC-225",
-      "next_action": "Research source viability, integrate supported narrative, test, review and publish one article.",
+      "next_action": "Retain claim through receipt merge before the next article.",
       "blockers": [],
       "refs": [
-        "POD-DEC-225"
+        "POD-DEC-225",
+        "POD-REV-2026102206",
+        "POD-REL-2026102206"
       ],
       "evidence": [
-        "records/kumbhara-editorial-team-2026-10-22.json"
+        "records/kumbhara-editorial-team-2026-10-22.json",
+        "records/kumbhara-editorial-publication-2026-10-22.json"
       ]
     }
   ],
@@ -22099,6 +22102,32 @@
         "Acharya household fieldwork and Tanty six-village study retain their dated local scopes; no current household survey.",
         "Documentary textile maker and community not established; no all-weaver equivalence or current legal classification; search eligibility unchanged."
       ]
+    },
+    {
+      "id": "POD-REV-2026102206",
+      "title": "Separate Kumbhara source and integrated article review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human historian or community review.",
+      "reviewed_head": "562f5e558fd093e19edce8f579fdf96bd34776cb",
+      "refs": [
+        "POD-WORK-308",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/kumbhara-delivery-review-2026-10-22.json"
+      ],
+      "limitations": [
+        "Separate AI review; no human community review or field observation.",
+        "Puri Kumbhara Bishoi is a specific service community; the Kurala Purana account is an origin tradition, not a verified caste-creation event.",
+        "Underlying Madala Panji and colonial records were not independently inspected; archive descriptions are attributed to researchers.",
+        "Bhadrak2015–17 fieldwork is regional and dated; no all-potter equivalence, complete branch map or present-day statewide practice claimed.",
+        "Archive image reuse rights unverified; no photograph copied. Search eligibility unchanged."
+      ]
     }
   ],
   "releases": [
@@ -25672,6 +25701,22 @@
         "records/bhulia-editorial-publication-2026-10-22.json"
       ],
       "note": "Reviewed PR430, passing CI, approved deployment and live checks. One substantive article; search eligibility unchanged."
+    },
+    {
+      "id": "POD-REL-2026102206",
+      "title": "Kumbhara clay community and temple service",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/communities/kumbhara/",
+      "refs": [
+        "POD-WORK-308",
+        "POD-REV-2026102206",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/kumbhara-editorial-publication-2026-10-22.json"
+      ],
+      "note": "Reviewed PR432, passing CI, approved deployment and live checks. One substantive article; search eligibility unchanged."
     }
   ],
   "sources": [
