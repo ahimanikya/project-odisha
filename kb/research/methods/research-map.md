@@ -911,3 +911,7 @@ Reuse `communities/kaibarta.json`, `communities/kaibarta.md` and `sources/kaibar
 ## Nolia community history · 22 October 2026
 
 Reuse `communities/nolia.json`, `communities/nolia.md` and `sources/nolia-research.json`. FAO1985 stable source reused; Gupta2010 WP255 is distinct from2009 WP231. Regional umbrella naming, uncertain settlement memory, gazetteer origin tradition and Dakshin2019–2021 shared-shore research have distinct scopes. No universal caste alias, foundingdate, current custom or legal entitlement inferred.
+
+## Kansari community history · 23 October 2026
+
+Reuse `communities/kansari.json`, `communities/kansari.md` and `sources/kansari-research.json`. Census1961-series volume actually published1967 supports local training and occupational mobility; NID source reused from Ghanta Ghanti. OCO maker profile explicitly identifies community; programme aims are not outcome evidence. No universal origin or Thatari alias. Journal1972 inaccessible; unsupported health/chronology claims excluded.

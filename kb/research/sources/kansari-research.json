@@ -1,0 +1,136 @@
+{
+  "agent": "Anvesha",
+  "input_head": "fda91031ac66d90d58c89ff2d5bc3868439fdc82",
+  "accessed_on": "2026-10-23",
+  "role": "Read-only AI researcher, not human review",
+  "readiness": "Ready for a focused article on learning, workshop organisation and occupational change. Strong historical evidence distinct from existing bell article. No verified universal caste origin/date/founder.",
+  "reuse": [
+    "Read current AGENTS governance in prior same-repo work; refreshed research-map and team operations, queried Nolia-completed current head and Kansari query returned no standalone narrative.",
+    "Read existing ghanta-ghanti.md/source mapping: retain ghanta-dsource, no duplicate source-ID or programme credit for reused bell descriptions."
+  ],
+  "sources": [
+    {
+      "id": "kansari-census1961-survey1967",
+      "title": "M.Ahmed, Survey of Traditional Crafts, Census of India1961, VolXII PartVII-A, Orissa",
+      "publication": "Printed1967; Census1961series is not exact publicationdate",
+      "url": "https://censusindia.gov.in/nada/index.php/catalog/32264/download/35445/23449_1961_STC.pdf",
+      "capture": "/tmp/pod-kansari-census1961.pdf",
+      "passages": "/tmp/pod-kansari-census-passages.txt",
+      "status": "Original officialPDF downloaded and relevant chapters read",
+      "locators": [
+        "ImprintPDF6:1967",
+        "Kantilo printed85–86/PDF99–100",
+        "Organisation and training printed111–112/PDF125–126",
+        "Tarbha printed144–145/PDF158–159;164–165/PDF178–179"
+      ],
+      "claims": [
+        "Kantilo survey reports249workshops and1103workers;912were Kansari, including90women. Other communities also worked in the industry: occupational participation did not imply caste identity.",
+        "Family workshops trained boys by observation and progressively harder tasks. The account describes cooperatives helping procure raw metals and production interrupted by supply shortages.",
+        "Tarbha chapter recounts Kansari families moving from bell-metal work into silversmithy, learning from existing smiths and teaching relatives. It explicitly identifies the family of Paramanand Sahu; attribution comes from survey account, not surname.",
+        "The earlier family migration is narrated as roughly200–250years before the survey without a cited dated charter. Do not calculate a settled arrivaldate or treat a local family story as origin of the whole community."
+      ],
+      "limits": [
+        "Keep entire volume within one200wordderivedbudget; do not split chapters merely to multiply budget.",
+        "TableOCR has inconsistent Thodia numbers; use verified aggregate figures or avoid counts. Table present-position year OCR1864 likely1964 but unverified visually; omit thatdate.",
+        "Historical district names preserved; Kantilo then-Puri is not current district claim.",
+        "Do not adopt stereotyped praise, castehierarchy or dismissive descriptions of customers."
+      ],
+      "derived_word_budget_including_notes": 200,
+      "recommended_article_allocation": 190
+    },
+    {
+      "id": "ghanta-dsource",
+      "reuse_existing_id": true,
+      "title": "Bibhudutta Baral and Antony William, Bell Metal Design of Orissa",
+      "url": "https://www.dsource.in/resource/bell-metal-design-orissa/introduction",
+      "status": "Actual NID-attributed resource page opened and read",
+      "locator": "Introduction and Tools and Materials; authorcredit",
+      "claims": [
+        "Resource explicitly associates Kansari makers with brass/bell-metal work and distinguishes its discussion from Sithulia dhokra work.",
+        "Domestic utensils, wedding gifts and templeobjects situate the work in a wider economy than bells alone; attributed description, not compulsory communitycustom.",
+        "Page documents collaborative hammering and engraving tools, but these craftdetails already appear partly in ghanta-ghanti and should not dominate newarticle."
+      ],
+      "limits": [
+        "No founder or chronology established.",
+        "Old district labels and sweeping largest-concentration claims not independently current.",
+        "Visible unrelated spam links in page header ignored; only coherent attributed resource body used.",
+        "No unrestricted image license established."
+      ],
+      "derived_word_budget_including_notes": 200,
+      "recommended_article_allocation": 100
+    },
+    {
+      "id": "kansari-oco-gangadhar",
+      "title": "Odisha Craft Odyssey: Gangadhar Sahoo",
+      "url": "https://www.odishacraftodyssey.org/artisan/gangadhar-sahoo",
+      "capture": "/tmp/pod-kansari-gangadhar.html",
+      "text_capture": "/tmp/pod-kansari-gangadhar.txt",
+      "status": "Original programme makerprofile fetched directly via curl; visibleHTML text extracted and read, not searchsnippet",
+      "locator": "Profile following Location:Balipatna,Odisha",
+      "claims": [
+        "OCO explicitly describes Gangadhar Sahoo of Balipatna as initially a Kansari who madeobjects and later specialised in final detailing.",
+        "The profile says he lacked formal art/design training and developed drawingskills over time, using bird, fish and flower motifs. This gives one concrete example of learning and specialisation.",
+        "The profile lists Samdani and Golonei tools, but their technical identification was not separately checked. No need to reproduce.",
+        "Profile gives birthyear1970, but avoid unnecessary biographical detail; no exact interviewdate or publicationdate established."
+      ],
+      "limits": [
+        "Attribute to OCO's documentation; no independent interview here.",
+        "Do not infer other namedmakers' caste from surnames or occupation.",
+        "Community-list2024tag appeared in search but not individual visibleprofile; do not use as verified interviewdate.",
+        "All-rights-reserved footer; image reuse not cleared."
+      ],
+      "derived_word_budget_including_notes": 200,
+      "recommended_article_allocation": 140
+    },
+    {
+      "id": "kansari-oco-ranade2024",
+      "title": "Rageshree Ranade, Revitalising the Bell Metal Craft with Contemporary Design",
+      "url": "https://www.odishacraftodyssey.org/post/revitalising-the-bell-metal-craft-with-contemporary-design",
+      "status": "Original programme account fully opened",
+      "publication": "DisplayedSeptember16,2024; UpdatedJune17 withoutyear",
+      "locator": "MGMFoundationxBEADS:OdishaCraftOdyssey; CollaborationwithArtisans sections",
+      "claims": [
+        "Programme describes its residency as two phases: immersion/documentation followed by presentation of collaborative work and findings.",
+        "It states aims of reciprocal learning, faircompensation and artist participation. These are stated aims, not independently demonstrated outcomes."
+      ],
+      "limits": [
+        "Earlier history/caste passages overlap weak secondaryNayak2018; exclude unverified fifth-centurydate and generalisations.",
+        "Treat OCO sources collectively within prudent200wordarticleallocation if bothprofileandprogramme used, despite separatepages.",
+        "Optional; not needed to padarticle."
+      ],
+      "derived_word_budget_including_notes": 200,
+      "recommended_article_allocation": 50
+    }
+  ],
+  "excluded_sources": [
+    {
+      "title": "P.K.Mohapatra1972, A Study on Socio-Economic Condition of Kansari Caste in Sambalpur District, AdibasiXIII3–4pp9–12",
+      "status": "Both repository.tribal.gov.in URLs returned404 via curl and web failed; searchmetadata only; excluded until full originalretrieved"
+    },
+    {
+      "title": "UmeshChandraNayak2018 MetalBowlMakers(Kansari)in anEastrnOdisha",
+      "url": "https://www.journalcra.com/sites/default/files/issue-pdf/31521.pdf",
+      "status": "ActualPDFread but not recommended foundation",
+      "reasons": [
+        "Mistakes bell-metal chemistry as copper/zinc in multiplepassages and gives unsupportedmedicalbenefits.",
+        "Originchronologies inconsistent and presentedwithout documentaryproof.",
+        "Some passages duplicateNID wording; cannot count as independentcorroboration."
+      ]
+    }
+  ],
+  "narrative_plan": [
+    "Centralquestion: how did Kansari skill passbetween generations while people changedproducts, workplaces andoccupations?",
+    "Briefly identify source-associatedmetalwork and household/ritualmarkets; linkexistingGhantaarticle.",
+    "Anchorhistory in CensusKantilo workshop evidence, women and othercommunityworkers; distinguish identity fromoccupation.",
+    "Use Tarbha occupationalchange to break staticcastejobstory. Keep wholeCensusderivedproseunder200words by choosingdetails, notlistingall.",
+    "Use namedOCOprofile as concretelearning/specialisationexample; optionalprogrammeparagraph as statedinitiative, notprovenrescue.",
+    "Earliestcommunityformation remains unresolved. No claimthatonekingcreatedcaste or thatsimilarlables universallyalias. Modest450–550words can beuseful withoutfiller."
+  ],
+  "media": "No verifiedlicensed communityimage selected. NID/OCOpictures require rightscheck; no surnameoroccupation identityinference.",
+  "checks_and_limits": [
+    "JSON report only; no repositoryedits or newclaim.",
+    "Direct sourceinspection and publicationimprintchecked; originalCensuspassages saved forroot.",
+    "No freshfieldwork, outreach, humanreview, presentlegalrights or innatecasteclaims.",
+    "Sources offer localhistorical occupationalchange, not comprehensive castegenealogy."
+  ]
+}
