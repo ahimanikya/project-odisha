@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 473. completed: 78, excluded: 76, in_progress: 1, queued: 318.
+Route inventory: 473. completed: 79, excluded: 76, queued: 318.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -486,4 +486,4 @@ Route inventory: 473. completed: 78, excluded: 76, in_progress: 1, queued: 318.
 | POD-EDIT-470 | [Gopala regional community history](https://projectodisha.org/communities/gopala/) | completed | Gopala and Gauda regional community history: cattle work, named local practices, origin traditions and changing livelihoods; administrative groupings are not universal aliases. |
 | POD-EDIT-471 | [Chitrakara regional community history](https://projectodisha.org/communities/chitrakara/) | completed | Chitrakara regional community history: documented service, learning and changing work, with origin traditions distinguished from formation evidence and painting occupation from community identity. |
 | POD-EDIT-472 | [Teli regional community history](https://projectodisha.org/communities/teli/) | completed | Teli regional community history: oil work, transport, naming and changing livelihoods, with origins distinguished from occupational accounts. |
-| POD-EDIT-473 | [Bhandari regional community history](https://projectodisha.org/communities/bhandari/) | in_progress | Bhandari regional community history: inherited service, ritual participation, names and changing work; occupational explanations distinguished from formation evidence. |
+| POD-EDIT-473 | [Bhandari regional community history](https://projectodisha.org/communities/bhandari/) | completed | Bhandari regional community history: inherited service, ritual participation, names and changing work; occupational explanations distinguished from formation evidence. |

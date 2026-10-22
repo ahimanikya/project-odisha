@@ -9221,18 +9221,21 @@
       "id": "POD-WORK-317",
       "title": "Research and publish Bhandari community history",
       "category": "website_and_knowledge",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti AI review",
       "authorization": "POD-DEC-225",
-      "next_action": "Research and implement, then separately review and publish with receipt.",
+      "next_action": "Retain ownership through receipt merge before another article.",
       "blockers": [],
       "refs": [
-        "POD-DEC-225"
+        "POD-DEC-225",
+        "POD-REV-2026102306",
+        "POD-REL-2026102306"
       ],
       "evidence": [
-        "records/bhandari-editorial-team-2026-10-23.json"
+        "records/bhandari-editorial-team-2026-10-23.json",
+        "records/bhandari-editorial-publication-2026-10-23.json"
       ]
     }
   ],
@@ -22541,6 +22544,33 @@
         "Daanla1962 investigation published1968 in1961Census series; single Teli teacher is not a representative employment sample.",
         "No verified community-specific image added. Search eligibility unchanged."
       ]
+    },
+    {
+      "id": "POD-REV-2026102306",
+      "title": "Separate Bhandari source and integrated article review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human historian or community review.",
+      "reviewed_head": "cce3720cd46b0d0b3ba54454505c17daeb9a2238",
+      "refs": [
+        "POD-WORK-317",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/bhandari-delivery-review-2026-10-23.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human community review or fieldwork.",
+        "No universal name equivalence, surname-based caste assignment or verified single founder/creation date established.",
+        "Thurston1909 quotes Rice name explanation; not an inspected foundation charter. Wedding sequence is historical Ganjam evidence, not proof of every modern Haldi format.",
+        "Bhadrak imprint unresolved; author’s broad service-relationship claim limited, individual grants not inspected.",
+        "Ganjam salon/band changes are regional observations with practice dates unspecified; no current employment survey or cultural-displacement conclusion.",
+        "No authenticated community-specific image added; search eligibility unchanged."
+      ]
     }
   ],
   "releases": [
@@ -26258,6 +26288,22 @@
         "records/teli-editorial-publication-2026-10-23.json"
       ],
       "note": "Reviewed PR452, passing checks, approved deployment and live verification. One substantive article; search eligibility unchanged."
+    },
+    {
+      "id": "POD-REL-2026102306",
+      "title": "Bhandari ceremonial service and changing livelihoods",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/communities/bhandari/",
+      "refs": [
+        "POD-WORK-317",
+        "POD-REV-2026102306",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/bhandari-editorial-publication-2026-10-23.json"
+      ],
+      "note": "Reviewed PR454, passing checks, approved deployment and live verification. One substantive article; search eligibility unchanged."
     }
   ],
   "sources": [
