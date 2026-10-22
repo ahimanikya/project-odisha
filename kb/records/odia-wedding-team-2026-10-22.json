@@ -1,0 +1,74 @@
+{
+  "task_id": "POD-TASK-ODIA-WEDDING-20261022",
+  "status": "reviewed_ready_for_ci",
+  "route": "/stories/odia-cultural-identity/",
+  "authorization_quote": "Let’s add these findings to the KB and articles - the common mistakes people are making based on influence from external media or culture",
+  "reserved_files": [
+    "kb/research/culture/odia-cultural-identity.md"
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "scope": "Read-only evidence verification",
+      "runtime": "/root/anvesha_identity"
+    },
+    {
+      "name": "Samanta",
+      "scope": "Existing article Markdown only",
+      "runtime": "/root/samanta_identity"
+    },
+    {
+      "name": "Drishti",
+      "scope": "Read-only independent review",
+      "runtime": "/root/drishti_identity"
+    }
+  ],
+  "programme_credit": 0,
+  "review": {
+    "reviewer": "Drishti",
+    "review_kind": "Separate AI editorial/source review",
+    "base_head": "348b7fbd",
+    "reviewed_at": "2026-10-22T06:44:35.542368+00:00",
+    "result": "pass_with_limits",
+    "blocking_findings": [],
+    "reviewed_hashes": {
+      "kb/research/culture/odia-cultural-identity.md": "d91d9915583825c891152d179d30fdeb2e6ff9d3894fc8b0210235bde5de9f59",
+      "kb/research/sources/odia-wedding-media-evidence.json": "58d62c8dbee482e3be7e69fce5abec159f389b487487f12f5d55c48fa817a3ce",
+      "kb/research/sources/odia-identity-evidence.json": "bc6e2e8d42ef17554cdce0ac2c815694f8beacb3e4ede26bbac99323faf765af"
+    },
+    "source_checks": [
+      {
+        "source": "MyCityLinks2016",
+        "access": "Direct HTML independently inspected",
+        "locators": "line48 Nirbandha/engagement; lines50–51 Smita Choudhury; byline/date30–32",
+        "assessment": "Article accurately attributes local experience and avoids adopting compressed two-ritual history as exhaustive fact."
+      },
+      {
+        "source": "NewIndianExpress2023",
+        "access": "Direct HTML independently inspected",
+        "locators": "Updated date48–50; Agarwal66; Patra85",
+        "assessment": "Commercial contrast and coexistence are accurately attributed. No turmeric foreignness, haldi/Mangana equivalence or statewide estimate inferred."
+      },
+      {
+        "source": "Kapur2009",
+        "access": "Publisher abstract and metadata independently inspected; not full article",
+        "locators": "Abstract65–68; first-published37; issue173–177",
+        "assessment": "Wider interpretive context only; issue and online dates preserved. No Odisha-specific causal or measured displacement claim."
+      }
+    ],
+    "editorial_assessment": "New section preserves positive practical direction: named rites, family-specific explanations, optional additions and songs. General opening statements are editorial reasoning, not reported prevalence. Sources and limits stated beside claims and in notes. No fabricated fieldwork, universal ritual inventory, caste/religious purity or blame claims.",
+    "limits": [
+      "Not human/community ritual review. Precise rite sequence and Odia-script spelling still require local speaker/practitioner confirmation; draft does not invent them.",
+      "Build and responsive checks pending coordinator; reviewer has not tested generated output for this addition."
+    ],
+    "next_action": "Coordinator complete generated-page validation, responsive check, exact-head CI and publication receipt."
+  },
+  "validation": {
+    "kb_core": "pass",
+    "classification": "pass",
+    "coastal_build": "pass",
+    "article_tests": 3,
+    "publication_build": "pass",
+    "browser": "New heading, three source/return targets and loaded original illustration confirmed in preview"
+  }
+}
