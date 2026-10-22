@@ -1,0 +1,96 @@
+{
+  "task_id": "POD-TASK-CHITRAKARA-20261023",
+  "article_id": "POD-EDIT-471",
+  "worker": "Samanta, AI implementation agent",
+  "input_head": "efc65b5f1c64a40f9af98d4ec5540d7280bc10fa",
+  "status": "frozen candidate passed local validation",
+  "actual_edits": [
+    "projects/site/src/pages/communities/chitrakara.astro",
+    "projects/site/tests-coast/chitrakara-editorial.test.mjs"
+  ],
+  "implementation": [
+    "Canonical JSON-driven template with concise metadata, visible source notes and exact backlinks.",
+    "Collapsed further reading, visible correction notice and portable full prose/source tests.",
+    "No new imagery or identity assertions."
+  ],
+  "tests": [
+    {
+      "name": "Node24 syntax check",
+      "result": "pass"
+    },
+    {
+      "name": "git diff --check",
+      "result": "pass"
+    },
+    {
+      "name": "full build and npm test",
+      "passed": 566,
+      "failed": 0,
+      "log": "/tmp/pod-chitrakara-full-tests.log"
+    },
+    {
+      "name": "build:coast and test:coast",
+      "passed": 465,
+      "failed": 0,
+      "log": "/tmp/pod-chitrakara-tests.log"
+    },
+    {
+      "name": "build:publication",
+      "result": "pass",
+      "indexable_pages": 11,
+      "log": "/tmp/pod-chitrakara-publication.log"
+    },
+    {
+      "name": "audit-coast.py",
+      "passed": 1884,
+      "total": 1884,
+      "log": "/tmp/pod-chitrakara-audit.log"
+    }
+  ],
+  "limits": [
+    "Only reserved page/test edited; no shared records or Git/publication changes.",
+    "Factual research/canonical prose belongs to Anvesha/Disha; this is AI implementation validation.",
+    "Separate final review, CI, merge, approved deployment and live verification remain."
+  ],
+  "checked_at": "2026-10-22T21:05:30.483554+00:00",
+  "validation_head": "efc65b5f1c64a40f9af98d4ec5540d7280bc10fa",
+  "failed_gates": [],
+  "responsive": {
+    "desktop": {
+      "viewport": [
+        1440,
+        1000
+      ],
+      "column_width": 740,
+      "scroll_width": 1440,
+      "screenshot": "/tmp/pod-chitrakara-desktop.png"
+    },
+    "mobile": {
+      "viewport": [
+        390,
+        844
+      ],
+      "scroll_width": 390,
+      "screenshots": [
+        "/tmp/pod-chitrakara-mobile.png",
+        "/tmp/pod-chitrakara-mobile-body.png"
+      ]
+    },
+    "metadata": "sips confirms desktop1440x1000 and both mobile390x844; all screenshots visually inspected, readable, no overflow.",
+    "keyboard": "Enter first note focused note-chitrakara-tripathy1998; backlink returned exact ref-households-and-service-0-chitrakara-tripathy1998. Contents Enter focused learning-the-work.",
+    "disclosure": "Initially collapsed; Enter expands three expected reading links. Raghurajpur link reached real place article.",
+    "source_order": [
+      "Tripathy1998",
+      "Williams1996",
+      "FMC2008"
+    ],
+    "save": "Preview Save persisted across navigation; mobile screenshot shows saved state.",
+    "download": {
+      "path": "/Users/ahimanikya/Downloads/My-Odisha-Journey-book-2026-10-22 (3).html",
+      "bytes": 66917,
+      "modified": "2026-10-22T21:05:05.075962+00:00",
+      "all_paragraphs_present": true,
+      "all_sources_present": true
+    }
+  }
+}

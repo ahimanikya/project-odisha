@@ -1,0 +1,48 @@
+{
+  "task_id": "POD-TASK-CHITRAKARA-20261023",
+  "article_id": "POD-EDIT-471",
+  "programme_id": "POD-A500-124",
+  "work_id": "POD-WORK-315",
+  "status": "reviewing",
+  "input_head": "efc65b5f1c64a40f9af98d4ec5540d7280bc10fa",
+  "started_at": "2026-10-22T20:58:42.894707+00:00",
+  "route": "/communities/chitrakara/",
+  "scope": "Chitrakara regional community history: documented service, learning and changing work, with origin traditions distinguished from formation evidence and painting occupation from community identity.",
+  "acceptance": [
+    "Substantive social history beyond existing Pattachitra technique/visitor articles using original sources and reused stable IDs.",
+    "Regional naming, inherited roles and origin accounts mapped without universal aliases, invented caste creation or inferred identity from occupation/surname.",
+    "Separate AI research, implementation and review; tests, responsive/download checks, reviewed merge, approved deployment, live checks and receipt integration before completion credit."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only original research /tmp/pod-chitrakara-research.json",
+      "status": "completed"
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/pages/communities/chitrakara.astro",
+        "projects/site/tests-coast/chitrakara-editorial.test.mjs"
+      ],
+      "status": "completed"
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Read-only integrated candidate review",
+      "status": "reviewing"
+    },
+    {
+      "name": "Disha",
+      "scope": "Canonical narrative/shared records/publishing",
+      "status": "working"
+    }
+  ],
+  "worker_reconciliation": "Gopala PR449 receipt merged521afb60; local completionefc65b5f retained. All previous workers completed and scopes released; external current_article/task null, unrelated PR304/281 untouched.",
+  "next_action": "Finish separate exact-head review, required CI, approved deployment and live receipt; retain claim until receipt merge.",
+  "research": "research/sources/chitrakara-research.json",
+  "implementation": "records/chitrakara-implementation-2026-10-23.json"
+}
