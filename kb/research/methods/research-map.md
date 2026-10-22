@@ -899,3 +899,7 @@ Reuse `communities/bhulia.json`, `communities/bhulia.md` and `sources/bhulia-res
 ## Kumbhara community history · 22 October 2026
 
 Reuse `communities/kumbhara.json`, `communities/kumbhara.md` and `sources/kumbhara-research.json` for the Puri Kumbhara Bishoi research archive, Bhadrak2015–17 field study and reused Stirling1825 source ID. Origin tradition, described administrative records and original field observations remain separate. Existing terracotta artist evidence does not establish caste identity; no automatic alias from administrative grouping.
+
+## Karana community history · 22 October 2026
+
+Reuse `communities/karana.json`, `communities/karana.md` and `sources/karana-research.json`. Bhadrak historical synthesis, Stirling1825 classification, Dash2022 temple-service traditions and CIIL2020 book metadata have separate evidentiary roles. No single founder, current caste/office equivalence or complete branch map. Tanabe chapter excluded pending direct access; no original manuscripts inspected.
