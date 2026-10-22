@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `d21bd10937b3a8d4af404d39d716cc83c76936fc8ebdee61510b909377296881`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `70c23619f11ee904339db410c71cd04e27a4792a0b3700217da02eeb13b00ac6`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -335,7 +335,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-308 · Research and publish Kumbhara community history | completed | published | Ahimanikya Satapathy | Retain claim through receipt merge before the next article. | — |
 | POD-WORK-309 · Research and publish Karana community history | completed | published | Ahimanikya Satapathy | Retain claim through receipt merge before the next article. | — |
 | POD-WORK-310 · Research and publish Kaibarta community history | completed | published | Ahimanikya Satapathy | Retain claim through receipt merge before the next article. | — |
-| POD-WORK-311 · Research and publish Odia Cultural Identity and Pride | in_progress | reviewed | Ahimanikya Satapathy | Complete review, CI, publication and live verification. | — |
+| POD-WORK-311 · Research and publish Odia Cultural Identity and Pride | completed | published | Ahimanikya Satapathy | Use the published article and preserve regional corrections through the contribution link. | — |
 
 ## Pending human review and decisions
 
@@ -1223,6 +1223,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026102206 · Kumbhara clay community and temple service | published | https://projectodisha.org/communities/kumbhara/ | POD-DEC-225 |
 | POD-REL-2026102207 · Karana keeping records remembering Odisha | published | https://projectodisha.org/communities/karana/ | POD-DEC-225 |
 | POD-REL-2026102208 · Kaibarta rivers work and community memory | published | https://projectodisha.org/communities/kaibarta/ | POD-DEC-225 |
+| POD-REL-2026102209 · Odia Cultural Identity and Pride | published | https://projectodisha.org/stories/odia-cultural-identity/ | POD-DEC-2026102209 |
 
 ## Sources and assets
 

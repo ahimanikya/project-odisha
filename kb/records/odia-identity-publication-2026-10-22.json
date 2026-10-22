@@ -1,0 +1,58 @@
+{
+  "recorded_at": "2026-10-22T04:32:53.559296+00:00",
+  "authorization": "POD-DEC-2026102209",
+  "work_id": "POD-WORK-311",
+  "queue_item": "POD-EDIT-467",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/438",
+  "reviewed_head": "295b64e7849ecba453c4878e28e093c374140544",
+  "merge_commit": "eb6d65a276daf0cdb7889ac9c83a13af05f82e4f",
+  "validation": {
+    "conclusion": "success",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39722135859"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "status": "completed",
+    "headSha": "eb6d65a276daf0cdb7889ac9c83a13af05f82e4f",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39722594036",
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "live": {
+    "checked_at": "2026-10-22T04:32:06.026715+00:00",
+    "url": "https://projectodisha.org/stories/odia-cultural-identity/",
+    "status": "pass",
+    "checks": {
+      "http_200": true,
+      "canonical": true,
+      "full_article_matches_local_publication": true,
+      "byline": true,
+      "notes": true,
+      "correction": true,
+      "search_hold_preserved": true
+    },
+    "html_sha256": "2c02ccdeab0693eadca46f4a6c3c184ea504164dfb5295bbb9055399ba8aad5b",
+    "article_text_sha256": "f58ff3301e899da140b896f035cd99685bc9985bc277acac719965b1d00c1ea0"
+  },
+  "live_browser": {
+    "result": "pass",
+    "browser": "CUA in-app browser",
+    "checked_at": "2026-10-22T04:32:53.559296+00:00",
+    "checks": [
+      "Rendered title, Founder byline and Footnotes & Sources visible",
+      "Desktop screenshot inspected"
+    ],
+    "screenshot": "/tmp/odia-identity-live.png"
+  },
+  "verified_routes": [
+    "/stories/odia-cultural-identity/"
+  ],
+  "review": "records/odia-identity-final-review-2026-10-22.json",
+  "limits": [
+    "Separate AI review; no human community specialist review or original reel transcript.",
+    "No statewide decline trend, cinema causation or exclusive textile-colour ownership asserted.",
+    "Historical PDF unavailable; contemporary official Odia names used. Indexed-only Cuttack/UNESCO access recorded.",
+    "Existing eleven-route search approval unchanged; article is public by URL with noindex.",
+    "No autonomous500 credit claimed."
+  ]
+}

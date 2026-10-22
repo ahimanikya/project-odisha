@@ -2,7 +2,7 @@
 
 ## 2026-10-22
 
-Added the Founder-directed Odia Cultural Identity and Pride essay, with contextual festival names, regional practices, textiles, food and practical transmission. Reused Dalkhai, Nuakhai and Bandha knowledge; retained unavailable historical PDF and indexed-only source limits in the evidence record. No measured dilution, original reel transcript or human community review claimed. Publication candidate; live receipt follows validation.
+Added the Founder-directed Odia Cultural Identity and Pride essay, with contextual festival names, regional practices, textiles, food and practical transmission. Reused Dalkhai, Nuakhai and Bandha knowledge; retained unavailable historical PDF and indexed-only source limits in the evidence record. No measured dilution, original reel transcript or human community review claimed. Published after PR438 and deployment39722594036; live article text matches the reviewed release. Receipt: records/odia-identity-publication-2026-10-22.json in the project KB.
 
 ## 2026-10-01 — Women writers and English reading checkpoint
 
