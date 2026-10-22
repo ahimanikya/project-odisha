@@ -1,0 +1,115 @@
+{
+  "task_id": "POD-TASK-KANSARI-20261023",
+  "article_id": "POD-EDIT-469",
+  "worker": "Samanta, AI implementation agent",
+  "input_head": "fda91031ac66d90d58c89ff2d5bc3868439fdc82",
+  "status": "final frozen candidate passed implementation validation",
+  "actual_edits": [
+    "projects/site/src/pages/communities/kansari.astro",
+    "projects/site/tests-coast/kansari-editorial.test.mjs"
+  ],
+  "implementation": [
+    "Canonical JSON-driven template, compact metadata, mapped visible footnotes and exact backlinks.",
+    "Collapsed further reading, visible correction notice, portable full prose/source tests; no invented imagery."
+  ],
+  "tests": [
+    {
+      "name": "Node24 syntax check",
+      "result": "pass after correcting initial copy-script test filename"
+    },
+    {
+      "name": "git diff --check",
+      "result": "pass"
+    },
+    {
+      "name": "full build and npm test",
+      "passed": 566,
+      "failed": 0,
+      "log": "/tmp/pod-kansari-full-tests.log"
+    },
+    {
+      "name": "build:coast and test:coast",
+      "passed": 457,
+      "failed": 0,
+      "log": "/tmp/pod-kansari-tests.log"
+    },
+    {
+      "name": "build:publication",
+      "result": "pass",
+      "indexable_pages": 11,
+      "log": "/tmp/pod-kansari-publication.log"
+    },
+    {
+      "name": "audit-coast.py",
+      "passed": 1876,
+      "total": 1876,
+      "log": "/tmp/pod-kansari-audit.log"
+    }
+  ],
+  "resolved_tool_errors": [
+    "Initial copy script used nolia.test.mjs instead of nolia-editorial.test.mjs. Page copied; test copy failed, then corrected. No build attempted."
+  ],
+  "limits": [
+    "Only two reserved page/test files edited; no shared records/Git/publication changes.",
+    "Factual source research and canonical changes belong to Anvesha/Disha; this is AI implementation validation.",
+    "Separate review, CI, merge, approved deployment and live verification remain."
+  ],
+  "checked_at": "2026-10-22T19:00:17.951977+00:00",
+  "validation_head": "fda91031ac66d90d58c89ff2d5bc3868439fdc82",
+  "resolved_failed_gates": [
+    {
+      "gate": "initial full tests",
+      "passed": 565,
+      "failed": 1,
+      "cause": "Canonical further-reading route nonexistent; Disha corrected /stories/ghanta-ghanti/ to /sounds-of-odisha/ghanta-ghanti/.",
+      "log": "/tmp/pod-kansari-full-tests-initial-failure.log"
+    },
+    {
+      "gate": "intermediate coast tests",
+      "passed": 456,
+      "failed": 1,
+      "cause": "Disha final paragraph deletion overlapped build; portable catalogue stale against canonical JSON. Rebuilt all variants after prose freeze; all pass.",
+      "log": "/tmp/pod-kansari-tests-stale-failure.log"
+    }
+  ],
+  "responsive": {
+    "desktop": {
+      "viewport": [
+        1440,
+        1000
+      ],
+      "column_width": 740,
+      "scroll_width": 1440,
+      "screenshot": "/tmp/pod-kansari-desktop.png"
+    },
+    "mobile": {
+      "viewport": [
+        390,
+        844
+      ],
+      "scroll_width": 390,
+      "screenshots": [
+        "/tmp/pod-kansari-mobile.png",
+        "/tmp/pod-kansari-mobile-body.png"
+      ]
+    },
+    "screenshot_dimensions_verified": "sips: desktop1440x1000, both mobile390x844; images visually inspected. Initial mobile capture at footer replaced after navigation to top.",
+    "keyboard": "First note Enter focuses note-ghanta-dsource; return Enter focuses exact ref-more-than-bells-0-ghanta-dsource. Contents Enter focuses workshops-and-movement.",
+    "disclosure": "Further reading initially collapsed; Enter expands; corrected Ghanta/Ghanti link reached actual article.",
+    "source_order": [
+      "NID design resource",
+      "Census1961-series published1967",
+      "OCO maker profile",
+      "OCO programme"
+    ],
+    "save": "Preview Save persisted across reload; mobile screenshot shows saved state.",
+    "download": {
+      "path": "/Users/ahimanikya/Downloads/My-Odisha-Journey-book-2026-10-22 (1).html",
+      "bytes": 56452,
+      "modified": "2026-10-22T18:59:45.003634+00:00",
+      "title_present": true,
+      "all_paragraphs_present": true,
+      "all_sources_present": true
+    }
+  }
+}
