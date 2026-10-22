@@ -18,7 +18,7 @@
       "name": "Anvesha",
       "runtime": "/root/anvesha",
       "scope": "Read-only source research /tmp/pod-kaibarta-research.json",
-      "status": "assigned"
+      "status": "completed"
     },
     {
       "name": "Samanta",
@@ -27,13 +27,13 @@
         "projects/site/src/pages/communities/kaibarta.astro",
         "projects/site/tests-coast/kaibarta-editorial.test.mjs"
       ],
-      "status": "assigned"
+      "status": "completed"
     },
     {
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Read-only integrated candidate review",
-      "status": "waiting"
+      "status": "reviewing"
     },
     {
       "name": "Disha",
@@ -42,5 +42,7 @@
     }
   ],
   "worker_reconciliation": "All prior workers completed. Karana PR435 receipt merge569bb56e observed and scope released; no active article. Unrelated PR304/281 untouched.",
-  "next_action": "Establish evidence viability and naming scope before narrative; if insufficient, retain uncounted research findings and choose another eligible subject."
+  "next_action": "Complete separate exact-head AI review, passing remote checks, approved publication and live receipt; retain ownership through receipt merge.",
+  "research": "research/sources/kaibarta-research.json",
+  "implementation": "records/kaibarta-implementation-2026-10-22.json"
 }
