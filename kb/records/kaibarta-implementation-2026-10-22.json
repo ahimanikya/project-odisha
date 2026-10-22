@@ -39,6 +39,11 @@
       "name": "publication build",
       "result": "pass; limited11 indexable",
       "log": "/tmp/pod-kaibarta-publication.log"
+    },
+    {
+      "name": "audit-coast.py after metadata fix",
+      "result": "pass",
+      "log": "/tmp/pod-kaibarta-audit.log"
     }
   ],
   "pending": [
@@ -48,8 +53,7 @@
     "Only reserved page/test edited; no shared records or Git mutations.",
     "No factual research or publication.",
     "No figure rendered.",
-    "Preview-only save; no production mutation.",
-    "No code fixes required during validation."
+    "Preview-only save; no production mutation."
   ],
   "responsive": {
     "tool": "CUA Chrome",
@@ -65,7 +69,7 @@
       "/tmp/pod-kaibarta-mobile-body.png"
     ]
   },
-  "validation_head": "0f23e158b3615089f4df2090238e7077c04dbc72",
+  "validation_head": "bb959df27577be7a70662f42ae585fb8ff2df9e3",
   "final_polish": "All full/coast/publication builds and566/446 tests rerun after source-order change; portable sources order verified by canonical test. Final screenshots refreshed with festival note2.",
   "mobile_capture_correction": {
     "reason": "Initial refreshed header capture raced viewport layout and was390x271 desktop layout; rejected by separate review.",
@@ -82,5 +86,13 @@
       844
     ],
     "metadata_check": "sips pixelWidth390 pixelHeight844 (screenshot bytes JPEG despite .png filename)"
+  },
+  "ci_failure_and_fix": {
+    "run": "39718367040",
+    "failure": "Initial CI audit-coast failed description greater than250 characters despite566/446 tests passing. Local audit gate had been omitted.",
+    "fix": "Disha supplied142-character canonical description; Samanta updated Shell to description fallback and tested exact metadata and maximum250 length.",
+    "verification": "Rebuilt full/coast/publication;566/446 tests pass; audit-coast exit0.",
+    "audit_log": "/tmp/pod-kaibarta-audit.log",
+    "visuals": "No prose/layout change; previous corrected screenshots retained."
   }
 }

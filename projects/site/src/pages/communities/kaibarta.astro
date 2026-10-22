@@ -12,7 +12,7 @@ const reading=story.further_reading||[];
 const passages=[...story.sections.flatMap(s=>s.paragraphs.map((p,i)=>({id:`${s.id}-${i}`,source_ids:p.source_ids}))),...timeline.map((event,i)=>({id:`timeline-${i}`,source_ids:event.source_ids}))];
 const contents=[...story.sections.map(s=>({title:s.title,href:'#'+s.id})),...(timeline.length?[{title:'Dates in the story',href:'#kaibarta-timeline'}]:[]),...(reading.length?[{title:'Further reading',href:'#kaibarta-further-reading'}]:[]),{title:'Footnotes & Sources',href:'#story-sources'}];
 ---
-<Shell title={story.title} description={story.lead} active="explore" wide related={false}>
+<Shell title={story.title} description={story.description||story.lead} active="explore" wide related={false}>
 <article class="article-reading kaibarta-story">
  <a class="collection-return" href="/explore/">← Explore Odisha</a>
  <header class="kaibarta-hero"><p class="eyebrow">Odisha · Communities and heritage</p><h1>{story.title}</h1>{story.odia&&<p class="kaibarta-odia" lang="or">{story.odia}</p>}<ArticleByline author={story.author}/><p class="lead">{story.lead}</p><SaveJourney id="reading:kaibarta" quiet/></header>

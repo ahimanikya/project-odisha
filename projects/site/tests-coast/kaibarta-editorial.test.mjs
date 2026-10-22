@@ -12,6 +12,7 @@ const passages=[...story.sections.flatMap(s=>s.paragraphs.map((p,i)=>({id:`${s.i
 test('Kaibarta renders canonical prose, author and mapped visible footnotes',()=>{
  assert.equal(story.author,'Ahimanikya Satapathy');assert.match(html,/By Ahimanikya Satapathy/);
  assert.ok(html.includes(escaped(story.title)));assert.ok(html.includes(escaped(story.lead)));
+ const description=story.description||story.lead;assert.ok(description.length<=250,'Search description stays within publication limit');assert.ok(html.includes(`name="description" content="${escaped(description)}"`));
  const ids=story.sources.map(s=>s.id);assert.equal(new Set(ids).size,ids.length);
  assert.deepEqual(new Set(passages.flatMap(p=>p.source_ids)),new Set(ids));
  for(const section of story.sections){assert.equal(html.split(`id="${section.id}"`).length-1,1);assert.ok(section.paragraphs.length);}
