@@ -1,0 +1,100 @@
+{
+  "reviewer": "Drishti",
+  "review_type": "separate AI review; not human review",
+  "status": "pass_with_limitations",
+  "input_head": "a8a655567012c61cfd137895beecc445b8e487eb",
+  "reviewed_head": "d4e8c22e7fe80803fc70808b36896c6b825a17d7",
+  "reviewed_at": "2026-10-22T00:33:44.450914+00:00",
+  "findings": [],
+  "blockers": [],
+  "source_checks": [
+    "Full Gutenberg1916 Bhulia entry independently inspected: tradition explicitly qualified, northern connections speculative, vansa names village-related and Sonpur paper footnote confirmed. Historical record date distinct from migration date; hostile rank/origin sayings appropriately excluded.",
+    "Original Acharya thesis PDF independently inspected: formal titlepage2004, printed50 participant row identifies Barhamunda Bhulia, printed75 Tulasi interview contextualises ancestral local weaving and wider markets,80–81 distinguishes capable household labour from male registration and documents women’s preparation and finance constraints. Broad study includes multiple communities; article keeps this scope.",
+    "Appendix3 independently confirms field visits1998–99,2000–01 and2002 revisits; no interview-specific date invented.",
+    "Original Tanty2021 PDF independently inspected: six Bhulia-dominated villages and interview/group/observation methods, drum/winding/jacquard/dobby tools, dyes, specialisation and master-finance dependence support narrowed article. Sample respondent count and dates not clearly specified.",
+    "Object caption explicitly does not assign maker/community identity to bandha pallu. Reused photograph retains source/creator/licence/change attribution and full-frame sizing."
+  ],
+  "source_budgets_including_section_headings_titles_notes": {
+    "bhulia-russell-hiralal1916": 191,
+    "bhulia-acharya2004": 177,
+    "bhulia-tanty2021": 182
+  },
+  "integration_checks": [
+    "Canonical source-driven sections, numbered footnotes and inherited author pattern.",
+    "No founder, universal origin, modern marriage practice or all-weaver identity inferred.",
+    "Image is contextual textile object rather than purported Bhulia portrait or specimen.",
+    "Exact final delta from e46b33a8 is handoff and implementation report only; reviewed public source/page hashes unchanged."
+  ],
+  "tests": [
+    {
+      "check": "git diff --check a8a65556..HEAD",
+      "result": "PASS"
+    },
+    {
+      "check": "full test log",
+      "result": "566/566 PASS"
+    },
+    {
+      "check": "coast test log",
+      "result": "434/434 PASS"
+    },
+    {
+      "check": "publication log",
+      "result": "PASS;11 indexable"
+    }
+  ],
+  "limits": [
+    "Independently inspected four supplied desktop/mobile and figure screenshots and passing build logs; browser interaction outcomes reported by Samanta, not independently replayed. No physical-device testing.",
+    "PDF participant table text inspected; attempted web PDF screenshot returned internal error, so table not visually inspected in this pass.",
+    "No fieldwork or human/community review. Original studies are bounded historical accounts, not current exhaustive population evidence.",
+    "Image rights provenance relies on existing asset record; original Commons licence not freshly reopened in this pass."
+  ],
+  "file_sha256": {
+    "kb/catalog.json": "c336ec657d387b795792fe466c5b3de9907f2ac6d9ae5716d05a491d99f62829",
+    "kb/records/article-editorial-rollout.json": "19e3bd86fc0e9641b1d6228c2b6c3ed0a62633a3cfcb1de356d28fdd794a1f31",
+    "kb/records/autonomous-500-program.json": "79e278f03df3e98ae28855252dc93f69dbccc27d1baf8836ba1b300e41a6deb1",
+    "kb/records/bhulia-editorial-team-2026-10-22.json": "03695b47a8907f29e2d045816f6967271cfe79e5b2f9b59402131446a6eab078",
+    "kb/records/bhulia-implementation-2026-10-22.json": "ffcbe63a7b8111f837957d327a365afba8ef5b514f5ce952e00f5168c4ac0f95",
+    "kb/records/editorial-workbench.json": "a0adca137d311400f1be3e6d0c8fdacf80766f3cde1535c9e95921bc518eb883",
+    "kb/registers/DASHBOARD.md": "a63bd00c8abb083940cbec6b4a8d3b3c9a83b82b914023f06d7a6ae2632c0780",
+    "kb/registers/records.json": "cd7724384897392a7db771fc228d8c177dd62d9e3468b7c12ceff70a95e57ec7",
+    "kb/research/communities/bhulia.json": "d9dc16ec4456408aca94d5a1903e5ce159d0dd202ab813278b9cd543c6a34b4b",
+    "kb/research/communities/bhulia.md": "166795d1b23835ccb9b2febd2ec761e2f7024bc674ddf74aec133c693847f053",
+    "kb/research/communities/coverage-index.json": "c937cb2db34e69e9c9acf180f68f90964390e477cc3a862e0ed4a7102a832fec",
+    "kb/research/communities/index.md": "288589a06338c7c94bd5b9f00267a1a00d122b68feb4018a159dd279793a74ea",
+    "kb/research/methods/research-map.md": "d98b97c2ad2eef0099e1c342b8f25d08b39c8c539d57092abba81ca64fe69320",
+    "kb/research/search-index.json": "5ae3b3f474817f38211c3e9bce8ed84d64f98b816d1dc613490f34bf78b0bb1c",
+    "kb/research/sources/bhulia-research.json": "d7a3a1c068fe76feb06a533999751be3d315a37b528fd0809e1e2ed7c8226eb4",
+    "kb/team/operations.json": "b0c7eb36c38b80f375b6b8e0d4ce99092685511295291516afd5f55788fa0ff0",
+    "projects/site/editions/coast.json": "327d251f0f71116e82866f462ee227b799cf412e22ec774dc93fdbbd3543dfa8",
+    "projects/site/editions/search-candidate.json": "3b4a9eca1a0f7602c73d4f2773e2591c3db510e50bc3923fc313c8fc20ae7c2d",
+    "projects/site/src/data/discovery.ts": "f8cb0031b290714511ca8fb9b211a9460a0018e6a7043b19b10c2b3ed17d31cf",
+    "projects/site/src/data/journey-catalog.ts": "b274f613a01d50891a935e424b7a7a6463f8a50221d1682fda43cb5af07f0117",
+    "projects/site/src/pages/communities/bhulia.astro": "224fd6619efbb3aca56df48ced629782330704b6075b28e77304a7b57ad22087",
+    "projects/site/tests-coast/bhulia-editorial.test.mjs": "016d9b25bc7e73e1b15b2a224e9973aad195eb3d0c2e4373f861008a6630565a",
+    "projects/site/tests-coast/cuttack-literature.test.mjs": "55ad694a4832b64b79ce07b726c472a343ea114605124f81f6124bb6bfc70066",
+    "projects/site/tests-coast/discovery-flow.test.mjs": "482cb8460f4dda7612236a5fce85373221e686d50b5c2fde01ff048d5cdad40f",
+    "projects/site/tests-coast/edition.test.mjs": "52d41e8fffcba38655399d3532445a39323691b844bf72d3813930b06e4c7a66",
+    "projects/site/tests/build.test.mjs": "8aa58a708f2e7d4d2b1e039a7246b8c2d838a27326380ea1f5c3b8164c0ee2c0"
+  },
+  "repository_edits": [],
+  "visual_review": {
+    "status": "PASS",
+    "screenshots": [
+      "/tmp/pod-bhulia-desktop.png",
+      "/tmp/pod-bhulia-mobile.png",
+      "/tmp/pod-bhulia-desktop-figure.png",
+      "/tmp/pod-bhulia-mobile-figure.png"
+    ],
+    "finding": "Readable header and body at both supplied viewports; full-frame image with visible source, creator, licence and explicit unverified-maker/community caption. No visible clipping or overlap."
+  },
+  "program_item": "POD-A500-117",
+  "work_id": "POD-WORK-307",
+  "authorization": "POD-DEC-225",
+  "verification": {
+    "sources": "Separate original-source review of tradition and fieldwork; local limits and word budgets",
+    "implementation": "566 full and434coast tests; desktop/mobile visual and interaction checks",
+    "ci": "39700579843 succeeded on reviewed d4e8c22e"
+  },
+  "normalization": "Disha linked separate AI PASS to programme fields, preserving original findings and limits; no human review asserted."
+}
