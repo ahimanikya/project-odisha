@@ -3,7 +3,7 @@
   "article_id": "POD-EDIT-463",
   "programme_id": "POD-A500-117",
   "work_id": "POD-WORK-307",
-  "status": "published_receipt_integration_pending",
+  "status": "completed",
   "input_head": "feefcb0af564a03792f5e2dbde55a5477e033679",
   "started_at": "2026-10-22T00:28:32.701341+00:00",
   "route": "/communities/bhulia/",
@@ -18,7 +18,8 @@
       "name": "Anvesha",
       "runtime": "/root/anvesha",
       "scope": "Read-only research /tmp/pod-bhulia-research.json",
-      "status": "completed"
+      "status": "completed",
+      "scope_released": true
     },
     {
       "name": "Samanta",
@@ -27,22 +28,25 @@
         "projects/site/src/pages/communities/bhulia.astro",
         "projects/site/tests-coast/bhulia-editorial.test.mjs"
       ],
-      "status": "completed"
+      "status": "completed",
+      "scope_released": true
     },
     {
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Read-only integrated review",
-      "status": "completed"
+      "status": "completed",
+      "scope_released": true
     },
     {
       "name": "Disha",
       "scope": "Canonical narrative, shared records and publishing",
-      "status": "working"
+      "status": "completed",
+      "scope_released": true
     }
   ],
   "worker_reconciliation": "All existing workers completed Tanti; receipt429 merge d496ab76 observed and claim released. Unrelated304/281 left untouched.",
-  "next_action": "Merge reviewed receipt with passing checks, observe remote merge, then release article ownership.",
+  "next_action": "Bhulia receipt merged and ownership released. On next wake reconcile workers and durable state, select next useful community-series subject from coverage index and existing KB, and establish scoped source-backed acceptance before implementation. Continue remaining editorial rollout one article at a time. Do not repeat completed Paika, Khandayat, Chasa, Tanti or Bhulia. No active article.",
   "source_report": "research/sources/bhulia-research.json",
   "implementation": "records/bhulia-implementation-2026-10-22.json",
   "verification": {
@@ -55,6 +59,75 @@
   "counting": {
     "completed_items": 117,
     "increment": 1,
-    "basis": "Individually researched published article with live evidence; receipt integration pending."
+    "basis": "One individually researched published article; reviewed receipt merge observed."
+  },
+  "receipt_integration_observed": {
+    "pull_request": 431,
+    "reviewed_head": "cc69ff0961080534866b07a7e3475dc48c1f9208",
+    "merge_commit": "dcfb86222cf03a2f1c3fb42d82ae126d49ee27ac",
+    "merged_at": "2026-10-22T00:49:07Z",
+    "validation_run": 39701528016,
+    "validation_result": "success",
+    "review": "Drishti independently reviewed exact cc69ff09 receipt; coordinator observed required checks and actual remote merge."
+  },
+  "receipt_review": {
+    "reviewer": "Drishti, separate AI reviewer",
+    "status": "PASS",
+    "reviewed_head": "cc69ff0961080534866b07a7e3475dc48c1f9208",
+    "findings": [],
+    "record_changes": {
+      "kb/records/autonomous-500-program.json:items": {
+        "changed": [
+          "POD-A500-117"
+        ],
+        "added": []
+      },
+      "kb/records/article-editorial-rollout.json:items": {
+        "changed": [
+          "POD-EDIT-463"
+        ],
+        "added": []
+      },
+      "kb/registers/records.json:work": {
+        "changed": [
+          "POD-WORK-307"
+        ],
+        "added": []
+      },
+      "kb/registers/records.json:reviews": {
+        "changed": [],
+        "added": [
+          "POD-REV-2026102205"
+        ]
+      },
+      "kb/registers/records.json:releases": {
+        "changed": [],
+        "added": [
+          "POD-REL-2026102205"
+        ]
+      }
+    },
+    "completed_counts": {
+      "kb/records/autonomous-500-program.json": 117,
+      "kb/records/article-editorial-rollout.json": 69
+    },
+    "normalized_original_review_changed_keys": [
+      "status"
+    ],
+    "public_source_hash_changes": [],
+    "checks": [
+      "30 programme tests PASS",
+      "Register tests PASS;1135 records646 events and dashboard current",
+      "Team consistency PASS and Bhulia claim retained until receipt merge",
+      "git diff --check PASS",
+      "Saved PR430 merge capture and deployment39700980976 agree on reviewed head and merge676707eb",
+      "Receipt preserves linked CI39700579843, live HTML and browser evidence",
+      "Live mobile figure screenshot independently inspected: full frame and readable provenance/identity limitation"
+    ],
+    "limits": [
+      "Remote CI/deployment/live interactions reviewed from saved evidence, not fresh network replay.",
+      "Separate AI review, not human community or field confirmation."
+    ],
+    "repository_edits": []
   }
 }
