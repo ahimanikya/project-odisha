@@ -1,0 +1,99 @@
+{
+  "reviewer": "Drishti",
+  "review_type": "Separate independent AI review; not human or field review",
+  "input_head": "fda91031ac66d90d58c89ff2d5bc3868439fdc82",
+  "status": "pass_with_limitations",
+  "findings": [],
+  "source_checks": [
+    "Census original localPDF passages read; visually inspected imprintPDF6 (1967), printed86 skilledwomen/othercommunity table and145 Tarbha learning/kin teaching. Familyhistory not universalorigin; no calculatedmigrationdate.",
+    "Original NID-attributed Dsource webpage independently read; domestic/wedding/temple work and hammer/engraving supported; existing source reused.",
+    "Gangadhar original saved profile extraction independently read after web cachemiss; explicit Kansari identification, Balipatna, move to detailing, self-developed drawing and motifs supported. No surname inference.",
+    "Original Ranade programme page independently read;16September2024, two residencyphases and ethicalcollaboration aims supported. No demonstrated livelihoodoutcomes asserted."
+  ],
+  "source_budgets_including_interpretation_headings_titles_notes": {
+    "Census": 179,
+    "NID": 121,
+    "OCO_combined": 188
+  },
+  "depth_assessment": "Meaningful communityhistory beyond GhantaGhanti: learning across generations, women/othercommunityworkers, occupational transition to silver and namedmaker specialisation. Does not conflate craft and caste or invent founder.",
+  "review_history": [
+    "Initial OCO conservative256words reduced to208; furthertrim requested.",
+    "Coordinator corrected broken Ghanta route after fulltest565/566failure; rerun pending.",
+    "Budget issue resolved by removing learning-question paragraph; independently recounted OCO aggregate188words.",
+    "Final implementation report preserves full565/566 broken-link failure and coast456/457 stale-catalogue failure; frozen-candidate rebuilds passed. Copy-script filename error corrected before build."
+  ],
+  "tests": [
+    {
+      "check": "git diff --check",
+      "result": "PASS"
+    },
+    {
+      "check": "Final log tails independently inspected",
+      "result": "PASS:566full,457coast,1876acceptancechecks,11indexablepages"
+    },
+    {
+      "check": "Actual downloaded offline HTML independently read",
+      "result": "PASS:all current canonical paragraphs and four source titles present"
+    },
+    {
+      "check": "git diff --check fda91031..eeac58af",
+      "result": "PASS"
+    }
+  ],
+  "limits": [
+    "Final screenshots, logs and downloaded HTML independently inspected. Keyboard interaction/save persistence reported by Samanta, not replayed by reviewer. CI, merge, deployment and live receipt remain separate gates.",
+    "No human or fieldreview, verified familygenealogy or universalorigin established.",
+    "Maker profile checked via saved original extraction after web cachemiss."
+  ],
+  "file_sha256": {
+    "kb/catalog.json": "7caaf26e2690b3bb5b55201309eba0d7066145c87099de8e47ddee82ed1d7ca8",
+    "kb/records/article-editorial-rollout.json": "4f2698dbde4b2613c38b6c84311542366d84e5301168809e94c73a028bbff1aa",
+    "kb/records/article-editorial-work-list.md": "8e628eb6aec6f08fbc70062174ab76672ab1830db4aca1d4c2dbcc91e450243f",
+    "kb/records/autonomous-500-program.json": "5e1ff85736b5692880d8b7a1c01002791f0e3297b3c215eb14a3814e4ead40d5",
+    "kb/records/editorial-workbench.json": "6d33d189fd6c116b18807b7b04d1737968037f168ed1d7d1c00786834583d5cd",
+    "kb/records/kansari-editorial-team-2026-10-23.json": "1efaf4c34c9745b8ab365a9f0204796516a4f277c241b49b2bd1eb07bb852cf0",
+    "kb/records/kansari-implementation-2026-10-23.json": "7c4218ce59eb259efbb3e15d57621fce47ea496f1a8ca44dc15a96ca6a81a2db",
+    "kb/registers/DASHBOARD.md": "cabc85d36a2bc99343ecb8ec111c7e1f62fcbc0ace2f0d6d99c3e74720c8a946",
+    "kb/registers/records.json": "8add34ec2b5f3a431bb1ba9c14736a033b8165d20b5494a5a2313021840319dd",
+    "kb/research/communities/coverage-index.json": "02209722e9f007e2eaab77325905b228d41e9b8924252d85739a7eb730a83084",
+    "kb/research/communities/index.md": "fffc0006bdf0894aa3332b5d8a1a37d6fc91e4e2c4c1675792c63c8743868ebc",
+    "kb/research/communities/kansari.json": "822b17edd123f7d14a98cd7343c5345adda39f347869d80c3eb9019719bfe51e",
+    "kb/research/communities/kansari.md": "c146ba1380f2ab207f719969a04ebd164c4dd0496db0360786786440c77008e0",
+    "kb/research/methods/research-map.md": "a44829ebb99db22faa64b69634b9b97c96e22f687ebc80e45e49abec59b5bab1",
+    "kb/research/search-index.json": "7685aeb6452625eb66d3a0914a8afaae3736e1cc7fd83b61ef3d701c1cd3e4cb",
+    "kb/research/sources/kansari-research.json": "e29294e1fac5d94c7de0bc561b148ce1b40217a1035f58163a6a563fb6fbb713",
+    "kb/team/operations.json": "bc8856f9b193ac5e1fbfd855f44271bf0f7b82315f8c3261ff381f73b87d016e",
+    "projects/site/editions/coast.json": "a66077d944c6f590e250e58054f3420bbdba13a58a0f11af77e6aff29984d5ed",
+    "projects/site/editions/search-candidate.json": "3c488f2ca7cce8472aa9458de85f90778073cc90cac503292d3d204fd404e2f6",
+    "projects/site/src/data/discovery.ts": "844bbd327bffd4ad8bca6da0cc484d926c048339cc7a1c947017cdce3e446a3e",
+    "projects/site/src/data/journey-catalog.ts": "58e67b9e41b908aaa7144431a1adb91db6c6107f4d6dba76c64071dfc5f5d8c6",
+    "projects/site/src/pages/communities/kansari.astro": "2f4da234e716a8232de379a0763c96bf12152c9c10e910a4f1c75419d97520ff",
+    "projects/site/tests-coast/cuttack-literature.test.mjs": "b3f64bba1ac4e581a4204b42e0debd7e78e8e7536210c842ad9462e5d4832bd3",
+    "projects/site/tests-coast/discovery-flow.test.mjs": "a98e9d60eba59dfec275f8415c43704c61098d37829c7febe27e82334c25080f",
+    "projects/site/tests-coast/edition.test.mjs": "894038a3a09426006957caaa3283fdbe6e3491e3776914b2a4bd62e822a4dbd5",
+    "projects/site/tests-coast/kansari-editorial.test.mjs": "42b8b2910a8f6c8c0e60f2644555120cab4d9abd41773eaa0a94ed55500a1ebf",
+    "projects/site/tests/build.test.mjs": "364e61241f4ee77aaed8d983b395f99ab3a5d943cb179bcc54b4d41c98cfd4e5"
+  },
+  "repository_edits": [],
+  "blockers": [],
+  "reviewed_head": "eeac58af4e64aafcc6346c5672cdade62993af91",
+  "reviewed_at": "2026-10-22T19:01:14.811181+00:00",
+  "visual_review": {
+    "status": "PASS",
+    "screenshots": [
+      "/tmp/pod-kansari-desktop.png",
+      "/tmp/pod-kansari-mobile.png",
+      "/tmp/pod-kansari-mobile-body.png"
+    ],
+    "actual_inspection": "Inspected desktop1440x1000 and mobile390x844 top/body images. Readable headings, byline, lead, menu, save state, workshop prose and note2; no observed clipping or overlap."
+  },
+  "program_item": "POD-A500-122",
+  "work_id": "POD-WORK-313",
+  "authorization": "POD-DEC-225",
+  "verification": {
+    "sources": "Four original sources inspected with local/time limits; Census179,NID121,OCOcombined188 source-derived words",
+    "implementation": "566full tests,457coast tests,1876acceptancechecks,11indexable; actual desktop/mobile/download checks",
+    "ci": "39836407308 passed on exacteeac58af"
+  },
+  "normalization": "Disha linked actual separate AI review to programme fields, preserving review history; no human review asserted."
+}
