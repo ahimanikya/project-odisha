@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 462. completed: 68, excluded: 76, queued: 318.
+Route inventory: 463. completed: 68, excluded: 76, in_progress: 1, queued: 318.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -476,3 +476,4 @@ Route inventory: 462. completed: 68, excluded: 76, queued: 318.
 | POD-EDIT-460 | [Khandayat: land, service and community history](https://projectodisha.org/communities/khandayat/) | completed | How Khandayat identity formed and changed: dated evidence, inherited service and cultivation, regional distinctions and origin traditions. No single-purpose caste creation, innate rank or automatic Paika equivalence. |
 | POD-EDIT-461 | [Chasa: cultivation and community history](https://projectodisha.org/communities/chasa/) | completed | Chasa: cultivation as work and community identity, dated social formation, regional distinctions and origin traditions. Distinguish occupational word from specific communities and avoid universal Khandayat equivalence. |
 | POD-EDIT-462 | [Tanti: weaving and community histories](https://projectodisha.org/communities/tanti/) | completed | Tanti histories in Odisha: weaving occupation and community names, regional distinctions, documented formation versus origin accounts, inherited craft and change. Do not merge all weaving communities or treat administrative grouping as ancestry. |
+| POD-EDIT-463 | [Bhulia: weaving and community history](https://projectodisha.org/communities/bhulia/) | in_progress | Bhulia community histories in Odisha: dated weaving records, migration and origin traditions distinguished from demonstrated ancestry, regional craft practice and social change. Administrative Bhuliya spelling is a research lead, not proof of aliases or all-weaver equivalence. |

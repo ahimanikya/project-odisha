@@ -1,0 +1,53 @@
+{
+  "task_id": "POD-TASK-BHULIA-20261022",
+  "article_id": "POD-EDIT-463",
+  "programme_id": "POD-A500-117",
+  "work_id": "POD-WORK-307",
+  "status": "in_progress",
+  "input_head": "feefcb0af564a03792f5e2dbde55a5477e033679",
+  "started_at": "2026-10-22T00:28:32.701341+00:00",
+  "route": "/communities/bhulia/",
+  "scope": "Bhulia community histories in Odisha: dated weaving records, migration and origin traditions distinguished from demonstrated ancestry, regional craft practice and social change. Administrative Bhuliya spelling is a research lead, not proof of aliases or all-weaver equivalence.",
+  "acceptance": [
+    "Original inspected evidence supports a meaningful regional community history and distinguishes documented history from origin traditions.",
+    "Canonical KB, claim-source mapping, readable article, numbered notes, rights-aware media and portable reading.",
+    "Separate AI review, full/coastal tests, responsive review, reviewed PR, approved deployment and live receipt before counting."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only research /tmp/pod-bhulia-research.json",
+      "status": "completed"
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/pages/communities/bhulia.astro",
+        "projects/site/tests-coast/bhulia-editorial.test.mjs"
+      ],
+      "status": "completed"
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Read-only integrated review",
+      "status": "reviewing"
+    },
+    {
+      "name": "Disha",
+      "scope": "Canonical narrative, shared records and publishing",
+      "status": "working"
+    }
+  ],
+  "worker_reconciliation": "All existing workers completed Tanti; receipt429 merge d496ab76 observed and claim released. Unrelated304/281 left untouched.",
+  "next_action": "Investigate source viability; implement only supported regional account, then review and publish.",
+  "source_report": "research/sources/bhulia-research.json",
+  "implementation": "records/bhulia-implementation-2026-10-22.json",
+  "verification": {
+    "tests": "566full and434coast passed; publication11indexable",
+    "responsive": "Desktop/mobile, uncroppedfigure/credits, notes/returns/contents/disclosure/previewSave andBandhalink passed",
+    "record_checks": "programme/team/bundle/researchmap/coverage passed"
+  }
+}

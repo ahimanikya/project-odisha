@@ -891,3 +891,7 @@ POD-EDIT-461 reuses the community index, Paika/Khandayat source maps and the ori
 ## Tanti regional community history · 22 October 2026
 
 Reuse `communities/tanti.json`, `communities/tanti.md` and `sources/tanti-research.json` for the Stirling1825 table, Bhadrak Aswini Tanti and Jain2015 Bomkai Patra Tanti account. Existing handloom/textile KB informs reading paths only; it does not prove caste identity. Source ID `chasa-bhadrak-gazetteer` is reused. No universal origin, branch equivalence, current livelihood or Pantanti identification follows from these regional examples.
+
+## Bhulia community history · 22 October 2026
+
+Reuse `communities/bhulia.json`, `communities/bhulia.md` and `sources/bhulia-research.json` for the 1916 Sonpur migration-tradition witness, Acharya2004 original household fieldwork and Tanty2021 six-village study. Existing Sambalpuri technique/media records supply context and rights, not individual maker caste. Do not turn tradition into verified migration chronology or infer community from Meher surname.
