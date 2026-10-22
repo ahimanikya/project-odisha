@@ -11,4 +11,4 @@ Existing Chaiti Ghoda narrative and dossier were read and linked. Its performanc
 
 No photograph was selected: FAO has captioned community images but unrestricted rights and visual suitability were not established. Existing related performance text has no documentary community photograph to reuse. No generic fisher image is assigned a caste. NIRMAN direct retrieval was blocked and is not used. No field visit, human community review or original royal charter inspection claimed.
 
-POD-EDIT-466; POD-A500-120; POD-WORK-310. Candidate awaiting separate review, tests, deployment and live receipt.
+POD-EDIT-466; POD-A500-120; POD-WORK-310. Published with separate AI review, tests, approved deployment and [live receipt](../../records/kaibarta-editorial-publication-2026-10-22.json). Further local and community evidence remains open.
