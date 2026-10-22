@@ -8,7 +8,7 @@
   "article_id": "POD-EDIT-468",
   "programme_id": "POD-A500-121",
   "work_id": "POD-WORK-312",
-  "status": "published_receipt_integration_pending",
+  "status": "completed",
   "input_head": "348b7fbddc7423a152688eeb51fecab2d815f38b",
   "started_at": "2026-10-22T06:37:17.955490+00:00",
   "route": "/communities/nolia/",
@@ -18,7 +18,8 @@
       "name": "Anvesha",
       "runtime": "/root/anvesha",
       "scope": "Read-only bounded research; /tmp/pod-nolia-research.json",
-      "status": "completed"
+      "status": "completed",
+      "scope_released": true
     },
     {
       "name": "Samanta",
@@ -27,18 +28,21 @@
         "projects/site/src/pages/communities/nolia.astro",
         "projects/site/tests-coast/nolia-editorial.test.mjs"
       ],
-      "status": "completed"
+      "status": "completed",
+      "scope_released": true
     },
     {
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Read-only separate integrated candidate review",
-      "status": "completed"
+      "status": "completed",
+      "scope_released": true
     },
     {
       "name": "Disha",
       "scope": "Canonical KB, shared records and publication",
-      "status": "working"
+      "status": "completed",
+      "scope_released": true
     }
   ],
   "reserved_files": [
@@ -46,7 +50,7 @@
     "projects/site/tests-coast/nolia-editorial.test.mjs"
   ],
   "worker_reconciliation": "Existing local workers completed; external image PR440 and receipt441 merged, handoff completed and scope released on origin/main348b7fbd. External chat observed idle and checkout has no new tracked edits. Prior local Kaibarta completion checkpoint retained on its branch.",
-  "next_action": "Merge reviewed receipt with passing required checks, observe actual merge, then release ownership.",
+  "next_action": "Nolia receipt merged and ownership released. On next wake reconcile workers and durable state, select next useful community-series subject from coverage index and existing KB, and establish scoped source-backed acceptance before implementation. Continue remaining editorial rollout one article at a time. Do not repeat published community articles; consult the current coverage index. For every future article run the local coastal acceptance audit before submission; also verify actual mobile viewport and screenshot dimensions. No active article.",
   "research": "research/sources/nolia-research.json",
   "source_check": {
     "agent": "Anvesha",
@@ -88,6 +92,60 @@
   "counting": {
     "completed_items": 121,
     "increment": 1,
-    "basis": "Individually researched published article with live evidence; receipt integration pending."
+    "basis": "One individually researched published article; reviewed receipt merge observed."
+  },
+  "receipt_integration_observed": {
+    "pull_request": 445,
+    "reviewed_head": "0c45d792d1e523fd8d74cd49a5233480e60f72e1",
+    "merge_commit": "0210138d3509f7d43e6dc45eb28aad22c72e04db",
+    "merged_at": "2026-10-22T18:47:47Z",
+    "validation_run": 39833846668,
+    "validation_result": "success",
+    "review": "Drishti independently reviewed exact 0c45d792 receipt; coordinator observed required checks and actual remote merge."
+  },
+  "receipt_review": {
+    "reviewer": "Drishti",
+    "review_type": "Independent AI receipt review; not human review",
+    "status": "PASS",
+    "input_head": "0c45d792d1e523fd8d74cd49a5233480e60f72e1",
+    "reviewed_head": "0c45d792d1e523fd8d74cd49a5233480e60f72e1",
+    "comparison_base": "9be8b1fe99186b100c155dd2c8deaad2927c53ef",
+    "reviewed_at": "2026-10-22T18:43:40.123388+00:00",
+    "findings": [],
+    "blockers": [],
+    "checks": [
+      "Only existing A500121, EDIT468 and WORK312 changed to completed; all prior programme/article/work entries unchanged.",
+      "Independently verified121 completed substantive items and74 completed editorial entries.",
+      "Only REV2026102301 and REL2026102301 appended to review/release registers.",
+      "Delivery review preserves all original fields including source inspection and merged-input review history; only PASS normalized to pass_with_limitations.",
+      "All reviewed public/source hashes unchanged; receipt changes internal status/records only.",
+      "Saved PR443 merge record matches reviewed41cfe486 and merge9be8b1fe; successful deployment39833000236 uses same merge head. Receipt links successful requiredCI39831931686.",
+      "Saved all-prose live and browser reports agree with receipt, correct source order, noindex, bounded metadata and desktop/mobile widths; exact note/backlink focus reported.",
+      "Current Nolia claim retained with receipt_integrated and receipt_merge_pending true.",
+      "UTC22October18:42 timestamps correspond to23October00:12 Asia/Kolkata; date-labelled record is consistent."
+    ],
+    "tests": [
+      {
+        "name": "test_autonomous_program.py",
+        "result": "PASS30tests"
+      },
+      {
+        "name": "test_registers.py",
+        "result": "PASS1151records650events"
+      },
+      {
+        "name": "check_team_assignments.py",
+        "result": "PASS"
+      },
+      {
+        "name": "git diff --check9be8b1fe..HEAD",
+        "result": "PASS"
+      }
+    ],
+    "limits": [
+      "Remote merge/CI/deployment and live outcomes assessed from saved response evidence, linked receipt and browser report; no fresh remote query or live interaction replay in this receipt review.",
+      "No human community review or field confirmation. Source limits from final review retained."
+    ],
+    "repository_edits": []
   }
 }
