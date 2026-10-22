@@ -16,7 +16,16 @@ test('Identity essay renders one title, credited prose and an accessible reading
   const description = html.match(/name="description" content="([^"]*)"/)?.[1];
   assert.ok(description && description.length <= 250, 'Supply a concise article-specific search description');
   assert.match(html, /rel="canonical" href="https:\/\/projectodisha.org\/stories\/odia-cultural-identity\/"/);
-  assert.doesNotMatch(article, /<img\b|Prepared with AI assistance|human editorial review pending/);
+  assert.doesNotMatch(article, /Prepared with AI assistance|human editorial review pending/);
+  assert.equal((article.match(/<img\b/g) || []).length, 1);
+  const figure = article.match(/<figure class="identity-illustration"[\s\S]*?<\/figure>/)?.[0];
+  assert.ok(figure, 'The approved illustration appears in the article');
+  assert.match(figure, /src="\/images\/stories\/odia-identity-passing-on-culture.webp"/);
+  assert.match(figure, /width="1536" height="1024"/);
+  assert.match(figure, /alt="Illustration of an older woman and a child folding leaves around pitha batter together."/);
+  assert.match(figure, /Illustration · Culture lives in what we pass on./);
+  assert.ok(readFileSync('dist-coast/images/stories/odia-identity-passing-on-culture.webp').length > 0);
+  assert.ok(article.indexOf('</header>') < article.indexOf('<figure'), 'Figure follows the article header');
   assert.match(text, /Navaratri/i);
   assert.match(text, /Dashami|Dasami/i);
   assert.match(text, /nine nights/i);

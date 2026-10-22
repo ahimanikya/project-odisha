@@ -1,0 +1,80 @@
+{
+  "task_id": "POD-TASK-ODIA-IDENTITY-IMAGE-20261022",
+  "status": "reviewed_ready_for_ci",
+  "route": "/stories/odia-cultural-identity/",
+  "authorization_quote": "Let's update the article and then we will focus a new one with odia title",
+  "input_head": "9de30afa",
+  "reserved_files": [
+    "projects/site/src/pages/stories/odia-cultural-identity.astro",
+    "projects/site/public/images/stories/odia-identity-passing-on-culture.webp",
+    "projects/site/tests-coast/odia-identity.test.mjs"
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha_identity",
+      "scope": "Read-only existing image provenance review"
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta_identity",
+      "scope": "Reserved wrapper and WebP implementation only"
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti_identity",
+      "scope": "Read-only integrated review"
+    },
+    {
+      "name": "Disha",
+      "scope": "Shared records, validation and publishing"
+    }
+  ],
+  "next_action": "Implement existing illustration and verify publication",
+  "programme_credit": 0,
+  "research_review": {
+    "reviewer": "Anvesha",
+    "status": "pass",
+    "scope": "Actual existing image and provenance hash inspected; imagined scene, no specific recipe or documentary claim."
+  },
+  "quality_review": {
+    "role": "Drishti",
+    "kind": "Separate AI image/static implementation review",
+    "reviewed_at": "2026-10-22T05:27:25.888398+00:00",
+    "base_head": "9de30afa",
+    "result": "pass_with_limits",
+    "blocking_findings": [],
+    "reviewed_hashes": {
+      "projects/site/src/pages/stories/odia-cultural-identity.astro": "3ef0715ee15984170c5e13f2dce4e70b04a83b0def5087973d042724450cbeae",
+      "projects/site/tests-coast/odia-identity.test.mjs": "ab3dd8ceaaee88527c258044e31358314ddd9adc0b2a66e553ce38236c439f65",
+      "projects/site/public/images/stories/odia-identity-passing-on-culture.webp": "b62496256471e4e884ceb192cc211102d7b12bce41921a204db45757ecec640a",
+      "kb/records/odia-identity-content-and-image.json": "cc5cd5d2d4457191a8b78ccee8d239b7f5124ffca47918eebb2a5cdb297f7ede"
+    },
+    "inspection": [
+      "Viewed actual website WebP: painterly household scene of older woman and child working together with leaf, batter and filling; matches general alt text.",
+      "Visible Illustration caption distinguishes imagined scene from documentary evidence; no unsupported personal identities or exact recipe claim.",
+      "Internal provenance retains generation method/prompt, original asset, SHA256 and imagined-scene limitation.",
+      "Shared article-reading CSS uses width100%, heightauto and object-fitcontain: no intentional crop; intrinsic dimensions supplied.",
+      "Article text and source claims unchanged; scope adds one companion image and updates focused assertions.",
+      "Independently reran three generated-page tests with Node24.15.0: all passed."
+    ],
+    "limits": [
+      "Not human cultural, botanical or culinary specialist review. Leaf folding is illustrative; not verified as an instructional procedure.",
+      "Responsive browser rendering and live publication must be verified by coordinator; no live publication claim."
+    ],
+    "next_action": "Coordinator complete responsive inspection, CI and exact revised-head deployment/live verification."
+  },
+  "validation": {
+    "coastal_build": "pass",
+    "article_tests": "3 passed",
+    "publication_build": "pass",
+    "responsive": {
+      "desktop_width": 1280,
+      "desktop_scroll_width": 1280,
+      "mobile_width": 390,
+      "mobile_scroll_width": 390,
+      "image_loaded_width": 1536,
+      "visual_inspection": "Desktop and mobile screenshots inspected; full image aspect preserved."
+    }
+  }
+}
