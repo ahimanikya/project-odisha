@@ -18,7 +18,7 @@
       "name": "Anvesha",
       "runtime": "/root/anvesha",
       "scope": "Read-only research /tmp/pod-karana-research.json",
-      "status": "assigned"
+      "status": "completed"
     },
     {
       "name": "Samanta",
@@ -27,13 +27,13 @@
         "projects/site/src/pages/communities/karana.astro",
         "projects/site/tests-coast/karana-editorial.test.mjs"
       ],
-      "status": "assigned"
+      "status": "completed"
     },
     {
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Read-only integrated source and candidate review",
-      "status": "waiting"
+      "status": "reviewing"
     },
     {
       "name": "Disha",
@@ -42,5 +42,7 @@
     }
   ],
   "worker_reconciliation": "Existing workers completed Kumbhara; PR433 merge aa8d31ba observed and claim released. Unrelated PR304/281 untouched.",
-  "next_action": "Establish source viability, integrate supported narrative, test, review and publish one article."
+  "next_action": "Complete separate exact-head AI review, passing remote checks, approved publication and live receipt; retain ownership through receipt merge.",
+  "research": "research/sources/karana-research.json",
+  "implementation": "records/karana-implementation-2026-10-22.json"
 }

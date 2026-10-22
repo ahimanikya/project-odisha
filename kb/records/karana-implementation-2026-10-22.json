@@ -1,0 +1,70 @@
+{
+  "task_id": "POD-TASK-KARANA-20261022",
+  "article_id": "POD-EDIT-465",
+  "worker": "Samanta, AI implementation agent",
+  "input_head": "691f37cc3f64e3881f04358341a0e561c050beff",
+  "handoff_input_head": "d47ce3da632ed3cae5b2df356f52c8e8904d8b0a",
+  "status": "implementation and final corrected candidate verification passed",
+  "actual_edits": [
+    "projects/site/src/pages/communities/karana.astro",
+    "projects/site/tests-coast/karana-editorial.test.mjs"
+  ],
+  "implementation": [
+    "Canonical source-driven page with byline, numbered notes and exact backlinks.",
+    "Shared reading rhythm and contents; collapsed further reading and visible correction.",
+    "SaveJourney reading:karana; portable full prose and short-source tests.",
+    "Optional full-frame figure with canonical provenance; no figure required.",
+    "No fixed source counts, factual prose or alias assumptions."
+  ],
+  "tests": [
+    {
+      "name": "Node24 syntax check",
+      "result": "pass"
+    },
+    {
+      "name": "git diff --check",
+      "result": "pass"
+    },
+    {
+      "name": "full build and npm test after factual correction",
+      "result": "566/566 pass",
+      "log": "/tmp/pod-karana-full-tests.log"
+    },
+    {
+      "name": "coast build and tests after factual correction",
+      "result": "442/442 pass",
+      "log": "/tmp/pod-karana-coast-tests.log"
+    },
+    {
+      "name": "publication build",
+      "result": "pass; limited11 indexable",
+      "log": "/tmp/pod-karana-publication.log"
+    }
+  ],
+  "pending": [
+    "Separate review, CI, merge/deployment and live check after coordinator signal"
+  ],
+  "limits": [
+    "Only reserved page/test edited; no shared records or Git mutations.",
+    "No factual research or publication.",
+    "No figure rendered.",
+    "Preview-only save; no production mutation.",
+    "No code fixes required during validation; factual correction made by Disha and rebuilt."
+  ],
+  "validation_head": "d5c0ff747b3fa35084c030d454867763252ef062",
+  "responsive": {
+    "tool": "CUA Chrome",
+    "desktop": "1440x1000;740px reading column; no overflow",
+    "mobile": "390x844;390px article width; no overflow",
+    "notes": "Enter activates footnote1 and exact return focus",
+    "contents": "Enter activates Puri link and focuses puri-records heading",
+    "further_reading": "Collapsed default; Enter expands; Kumbhara link opens via Enter",
+    "save": "Local preview saved state persists reload",
+    "final_prose": "Corrected twenty-four families/five entrusted wording visually inspected after rebuild",
+    "screenshots": [
+      "/tmp/pod-karana-desktop.png",
+      "/tmp/pod-karana-mobile.png",
+      "/tmp/pod-karana-mobile-body.png"
+    ]
+  }
+}
