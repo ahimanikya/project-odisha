@@ -18,7 +18,7 @@
       "name": "Anvesha",
       "runtime": "/root/anvesha",
       "scope": "Read-only research /tmp/pod-kumbhara-research.json",
-      "status": "assigned"
+      "status": "completed"
     },
     {
       "name": "Samanta",
@@ -27,13 +27,13 @@
         "projects/site/src/pages/communities/kumbhara.astro",
         "projects/site/tests-coast/kumbhara-editorial.test.mjs"
       ],
-      "status": "assigned"
+      "status": "testing"
     },
     {
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Read-only integrated source and candidate review",
-      "status": "waiting"
+      "status": "reviewing"
     },
     {
       "name": "Disha",
@@ -42,5 +42,6 @@
     }
   ],
   "worker_reconciliation": "Existing workers completed Bhulia; PR431 merge dcfb8622 observed and claim released. Unrelated PR304/281 untouched.",
-  "next_action": "Research source viability, integrate supported narrative, test, review and publish one article."
+  "next_action": "Research source viability, integrate supported narrative, test, review and publish one article.",
+  "source_report": "research/sources/kumbhara-research.json"
 }
