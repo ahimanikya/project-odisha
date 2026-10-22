@@ -919,3 +919,7 @@ Reuse `communities/kansari.json`, `communities/kansari.md` and `sources/kansari-
 ## Gopala regional community history · 23 October 2026
 
 Reuse `communities/gopala.json`, `communities/gopala.md` and `sources/gopala-research.json`. Existing Ganjam/Bhadrak source IDs retained;1909 classifications,2012 literary interpretation and Nemalo reporting are distinct evidence types. No universal alias, caste creation date, proven genealogy or current event-year inference. Livestock PDFs unavailable; no snippet claims used.
+
+## Chitrakara community history · 23 October 2026
+
+Reuse `communities/chitrakara.json`, `communities/chitrakara.md` and `sources/chitrakara-research.json`. Existing Pattachitra/Raghurajpur narratives retained; Tripathy1998 household/service evidence, Williams1996 apprenticeship and FMC2008 market study have separate scopes. No caste inference from occupation, verified royal founding, universal aliases or current statistics. Census1967 source checked but not relevant; not cited.
