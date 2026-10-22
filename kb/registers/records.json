@@ -9095,19 +9095,21 @@
       "id": "POD-WORK-311",
       "title": "Research and publish Odia Cultural Identity and Pride",
       "category": "website_and_knowledge",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti AI review",
       "authorization": "POD-DEC-2026102209",
-      "next_action": "Complete review, CI, publication and live verification.",
+      "next_action": "Use the published article and preserve regional corrections through the contribution link.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026102209",
-        "POD-REV-2026102209"
+        "POD-REV-2026102209",
+        "POD-REL-2026102209"
       ],
       "evidence": [
-        "records/odia-identity-team-2026-10-22.json"
+        "records/odia-identity-team-2026-10-22.json",
+        "records/odia-identity-publication-2026-10-22.json"
       ]
     }
   ],
@@ -22273,12 +22275,14 @@
         "POD-DEC-2026102209"
       ],
       "evidence": [
-        "records/odia-identity-quality-review-2026-10-22.json"
+        "records/odia-identity-quality-review-2026-10-22.json",
+        "records/odia-identity-final-review-2026-10-22.json"
       ],
       "limitations": [
         "Browser and deployment acceptance recorded separately.",
         "No measured statewide dilution, exclusive textile-colour ownership, original reel transcript or local interview claimed."
-      ]
+      ],
+      "reviewed_head": "295b64e7849ecba453c4878e28e093c374140544"
     }
   ],
   "releases": [
@@ -25900,6 +25904,22 @@
         "records/kaibarta-editorial-publication-2026-10-22.json"
       ],
       "note": "Reviewed PR436, passing CI, approved deployment and live checks. One substantive article; search eligibility unchanged."
+    },
+    {
+      "id": "POD-REL-2026102209",
+      "title": "Odia Cultural Identity and Pride",
+      "status": "published",
+      "authorization": "POD-DEC-2026102209",
+      "destination": "https://projectodisha.org/stories/odia-cultural-identity/",
+      "refs": [
+        "POD-WORK-311",
+        "POD-REV-2026102209",
+        "POD-DEC-2026102209"
+      ],
+      "evidence": [
+        "records/odia-identity-publication-2026-10-22.json"
+      ],
+      "note": "Reviewed PR438, passing CI, approved deployment and exact live text verification. No autonomous500 credit; search eligibility unchanged."
     }
   ],
   "sources": [

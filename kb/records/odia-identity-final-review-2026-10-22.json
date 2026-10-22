@@ -1,0 +1,46 @@
+{
+  "role": "Drishti",
+  "review_kind": "Separate AI exact-head source/static integration review",
+  "reviewed_head": "295b64e7849ecba453c4878e28e093c374140544",
+  "reviewed_at": "2026-10-22T04:24:16.327122+00:00",
+  "result": "pass_with_documented_limits",
+  "blocking_findings": [],
+  "hash_checks": {
+    "kb/research/culture/odia-cultural-identity.md": {
+      "sha256": "9ca91ad2240850b110bd40ea0863dade8ae0afabd8c6cbe59a70d3a44ca5ffbc",
+      "unchanged_since_content_review": true
+    },
+    "kb/research/sources/odia-identity-evidence.json": {
+      "sha256": "bf05152dd0dd62c6cc184859dc6291020a843f5480ed7bfcf2905b3885470f77",
+      "unchanged_since_content_review": false
+    },
+    "projects/site/src/pages/stories/odia-cultural-identity.astro": {
+      "sha256": "14a84a8918257493057585b6d384d73afaf22a1aadaaab7a396cbc9929160bbf",
+      "unchanged_since_content_review": true
+    },
+    "projects/site/tests-coast/odia-identity.test.mjs": {
+      "sha256": "e8f0c3d5558ce5f6e930d37fcf8b61f2c25ae0753b7215e4003cc2cdc6b0a795",
+      "unchanged_since_content_review": true
+    }
+  },
+  "findings": [
+    "Article text, wrapper and focused generated-page tests match saved reviewed hashes.",
+    "Source evidence differs as expected: Akashvani publication date corrected to 2026-10-17.",
+    "Coast route added; search-candidate explicitly holds new article outside eleven-route search approval.",
+    "Expected static page count increases by exactly one for the new article.",
+    "Explore and culture-trails discovery links present.",
+    "Shared footnote-heading change scopes only reference article and new essay.",
+    "Work/rollout remain in progress and no autonomous500 delivery credit is claimed.",
+    "Review record distinguishes separate AI review from human/community review."
+  ],
+  "validation_basis": {
+    "full_566_and_coast_449": "Coordinator recorded, not rerun by Drishti",
+    "responsive": "Coordinator browser report inspected; desktop1280/article740 and mobile390/no overflow, source jump/return and disclosure keyboard interactions recorded. Not independently browser-inspected by Drishti.",
+    "focused_generated_page_tests": "Independently rerun by Drishti with Node24.15.0: 3 passed, zero failed. Initial /usr/local/bin/node is obsolete and rejected --test; rerun used installed required runtime."
+  },
+  "limitations": [
+    "No human or community specialist review claimed.",
+    "Live deployment still pending; this review is not a publication receipt."
+  ],
+  "next_action": "Coordinator may continue exact-head CI and authorized publication; preserve actual live receipt before completion."
+}
