@@ -1,0 +1,44 @@
+{
+  "task_id": "POD-TASK-NOLIA-20261022",
+  "article_id": "POD-EDIT-468",
+  "worker": "Samanta, AI implementation agent",
+  "input_head": "41cfe486621e2ab7e71e846981dc8a6569ae1f32",
+  "checked_at": "2026-10-22T18:31:27.699101+00:00",
+  "status": "merged-input bounded validation passed",
+  "actual_edits": [],
+  "tests": [
+    {
+      "name": "build:coast",
+      "result": "pass",
+      "pages": 468,
+      "log": "/tmp/pod-nolia-resume-build.log"
+    },
+    {
+      "name": "test:coast",
+      "result": "pass",
+      "passed": 453,
+      "failed": 0,
+      "log": "/tmp/pod-nolia-resume-tests.log"
+    },
+    {
+      "name": "build:publication",
+      "result": "pass",
+      "indexable_pages": 11,
+      "log": "/tmp/pod-nolia-resume-publication.log"
+    },
+    {
+      "name": "audit-coast.py",
+      "result": "pass",
+      "passed": 1872,
+      "total": 1872,
+      "log": "/tmp/pod-nolia-resume-audit.log"
+    }
+  ],
+  "retained_evidence": "/tmp/pod-nolia-implementation.json: prior full566 tests, desktop/mobile screenshot dimensions, keyboard notes and actual offline download retained because Nolia public content/code unchanged.",
+  "failed_gates": [],
+  "limits": [
+    "No source, shared-record or Git edits.",
+    "No repeat unchanged visual checks; no publication or live checks in this task.",
+    "Separate coordinator review and live deployment verification remain."
+  ]
+}

@@ -11,4 +11,4 @@ Gupta's2010 Working Paper255 is distinct from2009 WP231. Family settlement memor
 
 No media selected: documentary image credits exist but unrestricted reuse rights were not established. No generic fisher portrait is assigned a caste. Community and language specialist review, field histories, original genealogy and founding chronology remain open.
 
-POD-EDIT-468; POD-A500-121; POD-WORK-312. Candidate awaiting independent AI review and full publication evidence.
+POD-EDIT-468; POD-A500-121; POD-WORK-312. Published with separate AI review, tests, approved deployment and [live receipt](../../records/nolia-editorial-publication-2026-10-23.json). Local and community research questions remain open.

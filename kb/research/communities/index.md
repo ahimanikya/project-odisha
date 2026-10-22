@@ -16,7 +16,7 @@ This is a research map, not a complete list of Odisha castes. Its [machine-reada
 | [Kumbhara](https://projectodisha.org/communities/kumbhara/) | Published | Puri and Bhadrak histories; grouped names and Kandha-Kumbhar not merged. |
 | [Karana](https://projectodisha.org/communities/karana/) | Published | Scribal institutions; office, community and similar names distinguished. |
 | [Kaibarta](https://projectodisha.org/communities/kaibarta/) | Published | Regional naming, changing work and institutions; not every fisher or similarly named community. |
-| Nolia | In progress | Regional umbrella name, coastal settlement and multilingual belonging; no single genealogy. |
+| [Nolia](https://projectodisha.org/communities/nolia/) | Published | Regional umbrella name, coastal settlement and multilingual belonging; no single genealogy. |
 | Paiko | Regional scope unresolved | Compare each regional use before proposing a canonical identity or alias. |
 | Kottia Paiko | Regional scope unresolved | Retain the gazetteer's separately described label; do not infer equivalence with similarly spelled administrative entries. |
 
