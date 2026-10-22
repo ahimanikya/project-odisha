@@ -1,0 +1,98 @@
+{
+  "task_id": "POD-TASK-GOPALA-20261023",
+  "article_id": "POD-EDIT-470",
+  "worker": "Samanta, AI implementation agent",
+  "input_head": "e36b0fa8decc6aa6d4abfd59dd6b04103f28478d",
+  "status": "frozen candidate passed local validation",
+  "actual_edits": [
+    "projects/site/src/pages/communities/gopala.astro",
+    "projects/site/tests-coast/gopala-editorial.test.mjs"
+  ],
+  "implementation": [
+    "Canonical JSON-driven template with concise metadata, visible source mapping and exact backlinks.",
+    "Collapsed further reading, visible correction notice and full portable narrative tests.",
+    "No imagery or identity assertions introduced."
+  ],
+  "tests": [
+    {
+      "name": "Node24 syntax check",
+      "result": "pass"
+    },
+    {
+      "name": "git diff --check",
+      "result": "pass"
+    },
+    {
+      "name": "full build and npm test",
+      "passed": 566,
+      "failed": 0,
+      "log": "/tmp/pod-gopala-full-tests.log"
+    },
+    {
+      "name": "build:coast and test:coast",
+      "passed": 461,
+      "failed": 0,
+      "log": "/tmp/pod-gopala-tests.log"
+    },
+    {
+      "name": "build:publication",
+      "result": "pass",
+      "indexable_pages": 11,
+      "log": "/tmp/pod-gopala-publication.log"
+    },
+    {
+      "name": "audit-coast.py",
+      "passed": 1880,
+      "total": 1880,
+      "log": "/tmp/pod-gopala-audit.log"
+    }
+  ],
+  "limits": [
+    "Only two reserved page/test files edited; no shared records or Git/publication changes.",
+    "Factual research/canonical prose belongs to Anvesha/Disha; this is AI implementation validation.",
+    "Separate final review, CI, merge, approved deployment and live verification remain."
+  ],
+  "checked_at": "2026-10-22T20:03:08.696228+00:00",
+  "validation_head": "e36b0fa8decc6aa6d4abfd59dd6b04103f28478d",
+  "failed_gates": [],
+  "responsive": {
+    "desktop": {
+      "viewport": [
+        1440,
+        1000
+      ],
+      "column_width": 740,
+      "scroll_width": 1440,
+      "screenshot": "/tmp/pod-gopala-desktop.png"
+    },
+    "mobile": {
+      "viewport": [
+        390,
+        844
+      ],
+      "scroll_width": 390,
+      "screenshots": [
+        "/tmp/pod-gopala-mobile.png",
+        "/tmp/pod-gopala-mobile-body.png"
+      ]
+    },
+    "metadata": "sips confirms desktop1440x1000 and both mobile390x844; all three screenshots visually inspected, readable, no overflow.",
+    "keyboard": "Enter first note focused note-nolia-ganjam-gazetteer; backlink returned exact ref-names-and-work-0-nolia-ganjam-gazetteer. Contents Enter focused historical-livelihoods.",
+    "disclosure": "Initially collapsed; Enter expands three expected reading links. Odia cultural identity link reached real article.",
+    "source_order": [
+      "Ganjam Gazetteer",
+      "Thurston1909",
+      "Bhadrak Gazetteer",
+      "Das2012",
+      "New Indian Express Laudi report"
+    ],
+    "save": "Preview Save persisted across navigation; mobile screenshot shows saved state.",
+    "download": {
+      "path": "/Users/ahimanikya/Downloads/My-Odisha-Journey-book-2026-10-22 (2).html",
+      "bytes": 61953,
+      "modified": "2026-10-22T20:02:39.868970+00:00",
+      "all_paragraphs_present": true,
+      "all_sources_present": true
+    }
+  }
+}
