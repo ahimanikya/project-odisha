@@ -11,4 +11,4 @@ No verified founding date, universal branch equivalence or royal grant asserted.
 
 Existing Sumit Surai2013 pattachitra-making image and rights were inspected in canonical provenance; it depicts an unidentified artist and does not establish community identity. No image added to this community history. Existing craft pages retain the photograph and credits. No fieldwork, current household survey or human specialist review claimed.
 
-POD-EDIT-471; POD-A500-124; POD-WORK-315. Candidate awaiting separate review and full publication evidence.
+POD-EDIT-471; POD-A500-124; POD-WORK-315. Published with separate AI review, tests, approved deployment and [live receipt](../../records/chitrakara-editorial-publication-2026-10-23.json). Local and community research questions remain open.

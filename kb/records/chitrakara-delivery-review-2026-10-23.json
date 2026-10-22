@@ -1,0 +1,102 @@
+{
+  "reviewer": "Drishti",
+  "review_type": "Separate independent AI review; not human or field review",
+  "status": "pass_with_limitations",
+  "input_head": "efc65b5f1c64a40f9af98d4ec5540d7280bc10fa",
+  "reviewed_at": "2026-10-22T21:06:22.414200+00:00",
+  "findings": [],
+  "blockers": [],
+  "source_checks": [
+    "Tripathy1998 original downloaded article text independently inspected for myth/chronicle passage, shared transport, three badas and respective anasara supply, household preparation and women glue/chalk/polishing work. Claims supported and locally dated; problematic calendar/image-repainting claims excluded. No chronicle/grant independently inspected.",
+    "Williams1996 original saved UCPress text independently inspected at60–61: household/master apprenticeship, practice to teacher-drawn images/borders, shared large versus individual small paintings, named training/cooperative and unresolved Buguda Balipadar/Mathura accounts supported. Web tool could not open canonicalURL; used saved original capture, not snippet.",
+    "FMC original institutionalPDF independently read throughweb, May2008 imprint and printed36–38: artist-household table distinguishes communities, Dandasahi credit/distress-sales and uneven access, multiple interventions without simple attribution supported. No current population/rank or singlecause claim."
+  ],
+  "source_budgets_including_associated_interpretation_headings_titles_notes": {
+    "Tripathy1998": 191,
+    "Williams1996": 189,
+    "FMC2008": 166
+  },
+  "depth_assessment": "Adds socialhistory beyond craft/travel description: distribution of household work, service groups, collaborative authorship and training, neighbouring market differences and unreliable formation stories. Caste/community not inferred from painting or surname. Concrete details explain relationships rather than generic cultural praise.",
+  "integration_checks": [
+    "Three first-use sources map adopted claims; later origin passages reuse proper source identities.",
+    "No invented ritual calendar, current temple-duty register or royal founding date; manuscript/grant and uncertain painter origin limits visible.",
+    "Further reading points to existing Raghurajpur and reviewed community articles; no image assigned community identity.",
+    "Exact final candidate public/source/template/test hashes unchanged from source review; handoff/operations only changed among captured files."
+  ],
+  "tests": [
+    {
+      "check": "git diff --check",
+      "result": "PASS"
+    },
+    {
+      "check": "Conservative source allocation count",
+      "result": "PASS191/189/166"
+    },
+    {
+      "check": "Final logs independently inspected",
+      "result": "PASS566full465coast1884acceptance11indexable"
+    },
+    {
+      "check": "Actual downloaded HTML independently read",
+      "result": "PASSall canonical paragraphs and three source titles"
+    },
+    {
+      "check": "git diff --check efc65b5f..8b195e53",
+      "result": "PASS"
+    }
+  ],
+  "limits": [
+    "Screenshots, logs and downloaded HTML independently inspected; keyboard interactions and Save persistence reported by Samanta, not independently replayed. CI, merge, deployment and live receipt remain separate gates.",
+    "No human community/temple review, current householdsurvey or original chronicle/grant inspection.",
+    "Williams verified from saved original UCPress capture because web access failed; selected passages only, not full volume."
+  ],
+  "file_sha256": {
+    "kb/catalog.json": "8a73f60e9efbe1dcf5e8410616be25900b3a2733e36b90459b8b4258c349ae63",
+    "kb/records/article-editorial-rollout.json": "75d5a9f1acf3142d827d8f5d612901bb4718b0bb0bcba43ab1b4283fc6eb68a2",
+    "kb/records/article-editorial-work-list.md": "9a9e3ca9ad305c3a74a7167467b812f1979c3df93d8379e4d45f001a13383e0d",
+    "kb/records/autonomous-500-program.json": "7769272010979ffb11c8c04c23ee5362815981480c7950b43b2d9cab2cda4066",
+    "kb/records/chitrakara-editorial-team-2026-10-23.json": "e89ad951ff5387f2427681c11b84ea69c2216625e1930c25c3ad73f1c1314bea",
+    "kb/records/chitrakara-implementation-2026-10-23.json": "f8df00acc14e484d063686bdbc7173bcc16c2611164e55cda186ecd9e386580a",
+    "kb/records/editorial-workbench.json": "9ad447bf87c69c807b9c7f3bb6f49882a42ced2e8ea0382a1fc6a1ec5536450b",
+    "kb/registers/DASHBOARD.md": "fcacaef4067b6083086ec50422c694c038a9e667190fd7f550d90fcac5d617a9",
+    "kb/registers/records.json": "21ec8aeceb5d7ebf9ced0961a8f00b346d1f9df432e484a693ff844320a84f46",
+    "kb/research/communities/chitrakara.json": "8b184b897f1667b156bca6a44548de9b9caca0f9e6947878c66454a410e3ecf2",
+    "kb/research/communities/chitrakara.md": "6c505eab535dbe5fa48ee723801613d9435e03cc4313a834bb1e97c1f8bc539d",
+    "kb/research/communities/coverage-index.json": "3f1bf05e7e2367c6f0f1000b654770692a588c874ca6e9a86d5afd34aa33a502",
+    "kb/research/communities/index.md": "6d5a462401df5ee2a6a7a4da9b22be5e6e09e8afb370c6b54770edb172ab6f6b",
+    "kb/research/methods/research-map.md": "a1b74d2ee5388e788161e013c5b6f2ee95df4bafea7419a3bcc99a70319d0310",
+    "kb/research/search-index.json": "a0faae2ded21c8b7402c370dcd2182de315b3cf6cab2a22314b8958506e08251",
+    "kb/research/sources/chitrakara-research.json": "5f1da258436b0d41844fbf3cfd6e1fc8fbd67117cad9f326e8e7bede2ca23f74",
+    "kb/team/operations.json": "15f8de04dc52f4bd97b56797f539ace5bd5a71630a905812fa27d736b612ca69",
+    "projects/site/editions/coast.json": "ba430be0c19314001e81965cdb7312b18bed282c32cc39bf73142883d4d04802",
+    "projects/site/editions/search-candidate.json": "3f015608812c224a8b0dd3b873be3afe33c6f4a6d1bf0699931ffe8f454afc4c",
+    "projects/site/src/data/discovery.ts": "5dcec08cc7d54029a8cfafce9e503758a106b90100d898669ddf243ca5972850",
+    "projects/site/src/data/journey-catalog.ts": "5b106991655d8cc58a00d8afcf38c519845bfa71dc9537921c436a170781417e",
+    "projects/site/src/pages/communities/chitrakara.astro": "d153d0b9a02833f6bf960bc81a4b19c4f20177299f178b95f17b0e392927215d",
+    "projects/site/tests-coast/chitrakara-editorial.test.mjs": "3735c28c21f76769c331dbbd9132a2e6c47553b56b2ec9a898760644bc798da2",
+    "projects/site/tests-coast/cuttack-literature.test.mjs": "53e9f5f11dfb9759bf788d6b67d569595368e5114f41785a9a53c2a7fa50e4a6",
+    "projects/site/tests-coast/discovery-flow.test.mjs": "60948b97ec2f8ab2684523afcd0091ab394c7eaae45d8343c4e7765df347f414",
+    "projects/site/tests-coast/edition.test.mjs": "01e2e2a062101df395809e607af2046cd64251d96027609f1a8b94dacddfaea2",
+    "projects/site/tests/build.test.mjs": "316ce4efa8328af8c941ea4c99a2c0b6640c0be9837ba1a86b90a25a1f89e6d5"
+  },
+  "repository_edits": [],
+  "reviewed_head": "8b195e53ebf9a889283fd59a98465050b9e183e7",
+  "visual_review": {
+    "status": "PASS",
+    "screenshots": [
+      "/tmp/pod-chitrakara-desktop.png",
+      "/tmp/pod-chitrakara-mobile.png",
+      "/tmp/pod-chitrakara-mobile-body.png"
+    ],
+    "actual_inspection": "Actual desktop1440x1000 and mobile390x844 top/body screenshots inspected: readable title, byline, lead, mobilemenu/save control, learning and market passages, and note2; no observed clipping/overlap."
+  },
+  "program_item": "POD-A500-124",
+  "work_id": "POD-WORK-315",
+  "authorization": "POD-DEC-225",
+  "verification": {
+    "sources": "Three original sources inspected; source-derived totals including associated interpretation and notes191/189/166words",
+    "implementation": "566full tests,465coast tests,1884acceptancechecks,11indexable; actual desktop/mobile/download checks",
+    "ci": "39854492224 passed on exact8b195e53"
+  },
+  "normalization": "Disha linked actual separate AI review to programme fields, preserving review history; no human review asserted."
+}
