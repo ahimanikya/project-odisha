@@ -1,0 +1,62 @@
+{
+  "recorded_at": "2026-10-22T05:41:02.070103+00:00",
+  "authorization_quote": "Let's update the article and then we will focus a new one with odia title",
+  "route": "/stories/odia-cultural-identity/",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/440",
+  "reviewed_head": "23fb3b2e1427e16604f6b09af6b58f6039ca92cd",
+  "merge_commit": "5efd1146ba6001cea76d6700ab483768b8dcb3f7",
+  "validation_run": "https://github.com/ahimanikya/project-odisha/actions/runs/39728649302",
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "5efd1146ba6001cea76d6700ab483768b8dcb3f7",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39729069641"
+  },
+  "live": {
+    "checked_at": "2026-10-22T05:41:02.027419+00:00",
+    "url": "https://projectodisha.org/stories/odia-cultural-identity/",
+    "image_url": "https://projectodisha.org/images/stories/odia-identity-passing-on-culture.webp",
+    "checks": {
+      "article_matches_build": true,
+      "image_reference": true,
+      "caption": true,
+      "image_hash_matches": true
+    },
+    "image_sha256": "b62496256471e4e884ceb192cc211102d7b12bce41921a204db45757ecec640a",
+    "html_sha256": "5a6985bce92d1cb0728e99afc4ed614da5868140bcae93f96354efba8f379d33"
+  },
+  "review": {
+    "reviewer": "Drishti",
+    "kind": "Separate AI exact-head confirmation",
+    "reviewed_head": "23fb3b2e1427e16604f6b09af6b58f6039ca92cd",
+    "reviewed_at": "2026-10-22T05:34:00.925711+00:00",
+    "result": "pass",
+    "hash_checks": {
+      "projects/site/src/pages/stories/odia-cultural-identity.astro": {
+        "sha256": "3ef0715ee15984170c5e13f2dce4e70b04a83b0def5087973d042724450cbeae",
+        "matches_review": true
+      },
+      "projects/site/tests-coast/odia-identity.test.mjs": {
+        "sha256": "ab3dd8ceaaee88527c258044e31358314ddd9adc0b2a66e553ce38236c439f65",
+        "matches_review": true
+      },
+      "projects/site/public/images/stories/odia-identity-passing-on-culture.webp": {
+        "sha256": "b62496256471e4e884ceb192cc211102d7b12bce41921a204db45757ecec640a",
+        "matches_review": true
+      },
+      "kb/records/odia-identity-content-and-image.json": {
+        "sha256": "0efb86cdd9b679bd56c594204337efe97827d723012148e9727167ae0154cd96",
+        "matches_review": false
+      }
+    },
+    "tests": "No repeat: wrapper, tests and WebP unchanged; prior three focused tests passed.",
+    "responsive": "Coordinator reports desktop1280 and mobile390 inspection passed, image loaded at naturalWidth1536, aspect preserved and no horizontal overflow. Not independently repeated by Drishti.",
+    "limitations": [
+      "No human cultural or culinary review claimed.",
+      "CI, merge, deployment and live verification remain coordinator gates."
+    ],
+    "metadata_reinspection": "Content/image record changed only as expected: updated_at advanced and website_sha256 added; hash matches actual reviewed WebP. Re-read committed record, no new claim or publication-state change.",
+    "blocking_findings": []
+  },
+  "scope": "Companion illustration and accessible caption; narrative and sources unchanged. No programme credit."
+}
