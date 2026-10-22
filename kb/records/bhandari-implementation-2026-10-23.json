@@ -1,0 +1,99 @@
+{
+  "task_id": "POD-TASK-BHANDARI-20261023",
+  "article_id": "POD-EDIT-473",
+  "worker": "Samanta, AI implementation agent",
+  "input_head": "4a95f4db4bba22251b8666922ca93fd1fc0d2755",
+  "status": "final candidate passed local validation",
+  "actual_edits": [
+    "projects/site/src/pages/communities/bhandari.astro",
+    "projects/site/tests-coast/bhandari-editorial.test.mjs"
+  ],
+  "implementation": [
+    "Canonical JSON-driven template, compact metadata, visible mapped footnotes and exact backlinks.",
+    "Collapsed further reading, visible correction notice and portable full prose/source tests.",
+    "No invented imagery or identity assertions."
+  ],
+  "tests": [
+    {
+      "name": "Node24 syntax check",
+      "result": "pass"
+    },
+    {
+      "name": "git diff --check",
+      "result": "pass"
+    },
+    {
+      "name": "full build and npm test",
+      "passed": 566,
+      "failed": 0,
+      "log": "/tmp/pod-bhandari-full-tests.log"
+    },
+    {
+      "name": "build:coast and test:coast",
+      "passed": 473,
+      "failed": 0,
+      "log": "/tmp/pod-bhandari-tests.log"
+    },
+    {
+      "name": "build:publication",
+      "result": "pass",
+      "indexable_pages": 11,
+      "log": "/tmp/pod-bhandari-publication.log"
+    },
+    {
+      "name": "audit-coast.py",
+      "passed": 1892,
+      "total": 1892,
+      "log": "/tmp/pod-bhandari-audit.log"
+    }
+  ],
+  "limits": [
+    "Only reserved page/test edited; no shared records or Git/publication changes.",
+    "Factual research/canonical prose belongs to Anvesha/Disha; this is AI implementation validation.",
+    "Separate final review, CI, merge, approved deployment and live verification remain."
+  ],
+  "checked_at": "2026-10-22T23:10:15.278003+00:00",
+  "validation_head": "4a95f4db4bba22251b8666922ca93fd1fc0d2755",
+  "failed_gates": [],
+  "reruns": [
+    "Coordinator clarified wedding-water collectors after initial full build; coast included final prose. Verified coast paragraph match; repeated full build/tests566 to include final clarification. Initial passing log retained /tmp/pod-bhandari-full-tests-before-clarification.log."
+  ],
+  "responsive": {
+    "desktop": {
+      "viewport": [
+        1440,
+        1000
+      ],
+      "column_width": 740,
+      "scroll_width": 1440,
+      "screenshot": "/tmp/pod-bhandari-desktop.png"
+    },
+    "mobile": {
+      "viewport": [
+        390,
+        844
+      ],
+      "scroll_width": 390,
+      "screenshots": [
+        "/tmp/pod-bhandari-mobile.png",
+        "/tmp/pod-bhandari-mobile-body.png"
+      ]
+    },
+    "metadata": "sips confirms desktop1440x1000 and both mobile390x844; all screenshots inspected, readable, no overflow.",
+    "keyboard": "Enter first note focuses note-chasa-bhadrak-gazetteer; backlink returns exact ref-ceremonial-work-0-chasa-bhadrak-gazetteer. Contents Enter focuses names-and-weddings.",
+    "disclosure": "Initially collapsed; Enter expands expected reading links. Teli link reached correct article.",
+    "source_order": [
+      "Bhadrak Gazetteer",
+      "Thurston1909",
+      "Ganjam Gazetteer"
+    ],
+    "save": "Preview Save persisted across navigation; mobile screenshot shows saved state.",
+    "download": {
+      "path": "/Users/ahimanikya/Downloads/My-Odisha-Journey-book-2026-10-22 (5).html",
+      "bytes": 74991,
+      "modified": "2026-10-22T23:09:47.642112+00:00",
+      "all_paragraphs_present": true,
+      "all_sources_present": true
+    }
+  }
+}

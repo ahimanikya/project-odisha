@@ -927,3 +927,7 @@ Reuse `communities/chitrakara.json`, `communities/chitrakara.md` and `sources/ch
 ## Teli regional history · 23 October 2026
 
 Reuse `communities/teli.json`, `communities/teli.md` and `sources/teli-research.json`. Thurston1909 regional work/document marks; stable Bhadrak gazetteer source with differing subgroup account; Daanla investigation1962/publication1968 in1961Census series. No universal aliases, surname inference, founding date or occupational determinism. Ganjam redundant and Census1967craftsurvey incidental; not cited.
+
+## Bhandari regional history · 23 October 2026
+
+Reuse `communities/bhandari.json`, `communities/bhandari.md` and `sources/bhandari-research.json`. Stable Bhadrak39/34 and Ganjam93 sources; Thurston1909 VolumeI Bhondari230–235 distinct from VolumeVII Telli. Treasury name explanation is not caste founding evidence. Women/service-land/salons and film-song band work remain regional source accounts. Wedding timing retained; no universal modern Haldi equivalence or displacement conclusion. Generic Census barber roles excluded, not caste evidence.

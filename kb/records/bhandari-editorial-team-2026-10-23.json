@@ -1,0 +1,52 @@
+{
+  "task_id": "POD-TASK-BHANDARI-20261023",
+  "article_id": "POD-EDIT-473",
+  "programme_id": "POD-A500-126",
+  "work_id": "POD-WORK-317",
+  "status": "reviewing",
+  "input_head": "4a95f4db4bba22251b8666922ca93fd1fc0d2755",
+  "started_at": "2026-10-22T23:05:08.474908+00:00",
+  "route": "/communities/bhandari/",
+  "scope": "Bhandari regional community history: inherited service, ritual participation, names and changing work; occupational explanations distinguished from formation evidence.",
+  "acceptance": [
+    "Explain documented Bhandari service, regional naming, ritual participation and changing livelihoods from inspected original sources.",
+    "Separate occupational explanations and origin traditions from verified formation; do not infer caste from surname or equate all barbers, regional labels or administrative groupings.",
+    "Separate AI research, implementation and review; meaningful tests, responsive/download checks, reviewed merge, approved deployment, live checks and receipt integration before credit."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only original research /tmp/pod-bhandari-research.json",
+      "status": "completed",
+      "scope_released": false
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/pages/communities/bhandari.astro",
+        "projects/site/tests-coast/bhandari-editorial.test.mjs"
+      ],
+      "status": "completed",
+      "scope_released": false
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Read-only integrated candidate review",
+      "status": "reviewing",
+      "scope_released": false
+    },
+    {
+      "name": "Disha",
+      "scope": "Canonical narrative/shared records/publishing",
+      "status": "in_progress",
+      "scope_released": false
+    }
+  ],
+  "worker_reconciliation": "Teli receipt PR453 merged d39031ee; completion4a95f4db retained. Previous workers completed and scopes released; external current_article/task null; unrelated PR304/281 untouched.",
+  "next_action": "Drishti final exact-head review, then required checks and approved publication.",
+  "research": "research/sources/bhandari-research.json",
+  "implementation": "records/bhandari-implementation-2026-10-23.json"
+}
