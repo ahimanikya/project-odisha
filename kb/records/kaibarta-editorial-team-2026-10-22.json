@@ -1,0 +1,48 @@
+{
+  "task_id": "POD-TASK-KAIBARTA-20261022",
+  "article_id": "POD-EDIT-466",
+  "programme_id": "POD-A500-120",
+  "work_id": "POD-WORK-310",
+  "status": "in_progress",
+  "input_head": "fcdb166306d2cb98c050ebf3dbd1e102be9e9b2c",
+  "started_at": "2026-10-22T03:31:00.849403+00:00",
+  "route": "/communities/kaibarta/",
+  "scope": "Kaibarta community histories in Odisha: fishing, boat work, regional names and origin traditions. Establish precise source-specific relationships with Keuta/Keot labels; never infer universal aliases or that all fishers form one caste.",
+  "acceptance": [
+    "Inspected original evidence supports community-specific history and concrete local practices; origin traditions and documented formation remain distinct.",
+    "Canonical KB/source map and evidence-linked community index; readable article with numbered notes and portable reading.",
+    "Separate AI review, tests, responsive checks, reviewed PR, approved deployment, live checks and merged receipt before delivery count."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only source research /tmp/pod-kaibarta-research.json",
+      "status": "completed"
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/pages/communities/kaibarta.astro",
+        "projects/site/tests-coast/kaibarta-editorial.test.mjs"
+      ],
+      "status": "completed"
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Read-only integrated candidate review",
+      "status": "reviewing"
+    },
+    {
+      "name": "Disha",
+      "scope": "Canonical narrative, shared records and publishing",
+      "status": "working"
+    }
+  ],
+  "worker_reconciliation": "All prior workers completed. Karana PR435 receipt merge569bb56e observed and scope released; no active article. Unrelated PR304/281 untouched.",
+  "next_action": "Complete separate exact-head AI review, passing remote checks, approved publication and live receipt; retain ownership through receipt merge.",
+  "research": "research/sources/kaibarta-research.json",
+  "implementation": "records/kaibarta-implementation-2026-10-22.json"
+}

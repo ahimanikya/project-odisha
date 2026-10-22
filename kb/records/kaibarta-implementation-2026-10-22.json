@@ -1,0 +1,98 @@
+{
+  "task_id": "POD-TASK-KAIBARTA-20261022",
+  "article_id": "POD-EDIT-466",
+  "worker": "Samanta, AI implementation agent",
+  "input_head": "08c83114005ba852e2bdf890d9b766aa2b68e6c8",
+  "handoff_input_head": "fcdb166306d2cb98c050ebf3dbd1e102be9e9b2c",
+  "status": "implementation and local verification passed",
+  "actual_edits": [
+    "projects/site/src/pages/communities/kaibarta.astro",
+    "projects/site/tests-coast/kaibarta-editorial.test.mjs"
+  ],
+  "implementation": [
+    "Canonical source-driven page with byline, numbered notes and exact backlinks.",
+    "Shared reading rhythm and contents; collapsed further reading and visible correction.",
+    "SaveJourney reading:kaibarta; portable full prose and short-source tests.",
+    "Optional full-frame figure with canonical provenance; no figure required.",
+    "No fixed source counts, factual prose or alias assumptions."
+  ],
+  "tests": [
+    {
+      "name": "Node24 syntax check",
+      "result": "pass"
+    },
+    {
+      "name": "git diff --check",
+      "result": "pass"
+    },
+    {
+      "name": "full build and npm test",
+      "result": "566/566 pass",
+      "log": "/tmp/pod-kaibarta-full-tests.log"
+    },
+    {
+      "name": "coast build and tests",
+      "result": "446/446 pass",
+      "log": "/tmp/pod-kaibarta-coast-tests.log"
+    },
+    {
+      "name": "publication build",
+      "result": "pass; limited11 indexable",
+      "log": "/tmp/pod-kaibarta-publication.log"
+    },
+    {
+      "name": "audit-coast.py after metadata fix",
+      "result": "pass",
+      "log": "/tmp/pod-kaibarta-audit.log"
+    }
+  ],
+  "pending": [
+    "Separate review, CI, merge/deployment and live check after coordinator signal"
+  ],
+  "limits": [
+    "Only reserved page/test edited; no shared records or Git mutations.",
+    "No factual research or publication.",
+    "No figure rendered.",
+    "Preview-only save; no production mutation."
+  ],
+  "responsive": {
+    "tool": "CUA Chrome",
+    "desktop": "1440x1000;740px reading column; no overflow",
+    "mobile": "390x844;390px article width; no overflow",
+    "notes": "Enter activates footnote1 and exact return focus",
+    "contents": "Enter activates festival link and focuses festival-and-story heading",
+    "further_reading": "Collapsed default; Enter expands; Chaiti Ghoda link opens via Enter",
+    "save": "Local preview saved state persists reload",
+    "screenshots": [
+      "/tmp/pod-kaibarta-desktop.png",
+      "/tmp/pod-kaibarta-mobile.png",
+      "/tmp/pod-kaibarta-mobile-body.png"
+    ]
+  },
+  "validation_head": "bb959df27577be7a70662f42ae585fb8ff2df9e3",
+  "final_polish": "All full/coast/publication builds and566/446 tests rerun after source-order change; portable sources order verified by canonical test. Final screenshots refreshed with festival note2.",
+  "mobile_capture_correction": {
+    "reason": "Initial refreshed header capture raced viewport layout and was390x271 desktop layout; rejected by separate review.",
+    "replacement": "/tmp/pod-kaibarta-mobile.png",
+    "dom_viewport": [
+      390,
+      844
+    ],
+    "article_width": 390,
+    "scroll_width": 390,
+    "mobile_menu_visible": true,
+    "image_dimensions": [
+      390,
+      844
+    ],
+    "metadata_check": "sips pixelWidth390 pixelHeight844 (screenshot bytes JPEG despite .png filename)"
+  },
+  "ci_failure_and_fix": {
+    "run": "39718367040",
+    "failure": "Initial CI audit-coast failed description greater than250 characters despite566/446 tests passing. Local audit gate had been omitted.",
+    "fix": "Disha supplied142-character canonical description; Samanta updated Shell to description fallback and tested exact metadata and maximum250 length.",
+    "verification": "Rebuilt full/coast/publication;566/446 tests pass; audit-coast exit0.",
+    "audit_log": "/tmp/pod-kaibarta-audit.log",
+    "visuals": "No prose/layout change; previous corrected screenshots retained."
+  }
+}
