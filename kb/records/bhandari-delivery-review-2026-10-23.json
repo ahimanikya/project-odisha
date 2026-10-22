@@ -1,0 +1,94 @@
+{
+  "reviewer": "Drishti — separate AI review, not human review",
+  "input_head": "4a95f4db4bba22251b8666922ca93fd1fc0d2755",
+  "status": "pass_with_limitations",
+  "findings": [],
+  "source_checks": [
+    "Independently read original Bhadrak PDF printed34 and39 using PDFium extraction: regional names, women and men, shrine roles, cash/kind/service land and attributed jajman assessment supported.",
+    "Independently read original Ganjam PDF printed93: Telugu/Odia distinction, band repertoire and salon/household change supported; narrative avoids universal identity and present-day survey claims.",
+    "Opened original Gutenberg1909 VolumeI frontmatter and Bhondari230–235 entry: Rice etymology correctly attributed; women ululate, wedding parties collect seven-house water, fifth-day turmeric-water play correctly sequenced. No community formation date established."
+  ],
+  "word_budgets": {
+    "method": "Whitespace counts including each source title/note, all associated section headings and uncited editorial interpretation in those sections. Generic original framing excluded.",
+    "Bhadrak": 186,
+    "Thurston1909": 156,
+    "Ganjam": 180
+  },
+  "depth_assessment": "Useful distinct community history through ceremonial participation, women’s under-recorded contributions, remuneration and land, historical wedding timing and occupational adaptation. Explains why neither etymology nor occupational label establishes formation or universal caste identity. Heritage framing permits local continuity and change without unsupported exclusion or displacement claims.",
+  "tests": [
+    "git diff --check passed",
+    "Inspected wrapper, source IDs and first-use order, dedicated tests, route/discovery/portable integration and explicit search hold. No builds run concurrently with Samanta.",
+    "Inspected actual final full566/coast473 test log summaries (zero failures), audit1892/1892 and publication11 indexable.",
+    "git diff --check input..final passed; working tree clean.",
+    "Independently read actual downloaded HTML and verified every canonical paragraph and all3 source titles."
+  ],
+  "limits": [
+    "No human specialist review or field confirmation. Gazetteer imprint/practice dates unresolved as disclosed; individual land grants not inspected.",
+    "Original PDFs inspected through text extraction, not visual rendering; passages are prose without tabular ambiguity.",
+    "No independent current occupational survey or community genealogy.",
+    "Keyboard, navigation, save persistence and download generation actions reported by Samanta, not independently replayed; actual download contents and screenshots independently inspected.",
+    "CI, merge, deployment and live checks remain separate publication gates."
+  ],
+  "file_sha256": {
+    "kb/catalog.json": "6754fe75fa7218875299a44a5aba6f402a2e6483dbc13efde273db0b8183f921",
+    "kb/records/article-editorial-rollout.json": "82f5724db9fb7a361a4f65bb6c5b971d1aa6f5a3a722442af4ed1b2ba55d92fd",
+    "kb/records/article-editorial-work-list.md": "0b90a6df59c9ee38ab80d18ee11f3dba2d363f8659b17f05cb3351f1ca8a090d",
+    "kb/records/autonomous-500-program.json": "cced46109d634f374b01f17d100604c94bb6a80f49e28e9c086cfe75317d443a",
+    "kb/records/bhandari-editorial-team-2026-10-23.json": "d4c0c758e2fdc28b9aef6f8beb1a2c00e374b336bab26ca807b7f80668db09c1",
+    "kb/records/bhandari-implementation-2026-10-23.json": "f277374f114e562784ed6639782ec0f0e7e90dd98cdf791062d847a02abee32a",
+    "kb/records/editorial-workbench.json": "656c64261d9124864f85c06cb7e2d3b82067a1b3af29f71d7385b6697c796f7a",
+    "kb/registers/DASHBOARD.md": "2072b59a49863d3d166f3961ee824fd8ed8f0dd124d74ce0894ec2dfe6df822c",
+    "kb/registers/records.json": "94fcfbada36610001bf8c5543639e66050a2dbd2ec45666907b25f25d424d92d",
+    "kb/research/communities/bhandari.json": "d4915799f6784bb7f82369d13cae1d31ec880445a8605294157f0074f86e2f27",
+    "kb/research/communities/bhandari.md": "cf4a5c9eaaaceb84c99d03ceac871d0cd380bea944023ac118f63e423a9bca1f",
+    "kb/research/communities/coverage-index.json": "f90bd25a1b0962f34dbe9ac98dd89f8d775f7dd04e992d95cd87e480d4d45c36",
+    "kb/research/communities/index.md": "8e03a3f7d991eca47add5d426eec0252787913ab6e3b85d6325e99d796818160",
+    "kb/research/methods/research-map.md": "e507f45f17e45fb1bcdbca1aa732560c6b8ab14e8e1b607362d6783f8f5fb4fc",
+    "kb/research/search-index.json": "86795369ccb01dc2b6cb9cc74af7fa3a7222ca77b3d528ac1d94ce38a7fbd9d5",
+    "kb/research/sources/bhandari-research.json": "2e8dba81c9fe78ec13305ad8ecfd45f55d249ae4c1ea92bd1767337fd7e8a7ec",
+    "kb/team/operations.json": "bb1725d252fc6c17f9072cf8e2645fce9f04c6b7a1457fdc9e8b7ab91ca9669d",
+    "projects/site/editions/coast.json": "b0dcef51d616366fdf8c166123880c06083d3b7f424c817df257ce73c1b9bd98",
+    "projects/site/editions/search-candidate.json": "28f454327d533b56e805752e443d5a540f7bf3c85a925799041080742360be24",
+    "projects/site/src/data/discovery.ts": "2d7bc7c48c029d3fe87022bb2ba48384e0acb4fe0827fe2c0e91fdd0f314ccaf",
+    "projects/site/src/data/journey-catalog.ts": "f95b5ab8858ff530ee0b527da049ea5db4b5c2bc494bf0d086d095f491617a45",
+    "projects/site/src/pages/communities/bhandari.astro": "6115b5e7882cd353ff5c5fa5fefaa0f6ad84d19cf4e20314334501c9872b94c8",
+    "projects/site/tests-coast/bhandari-editorial.test.mjs": "c642162fb13a4b88905a709b2286ddb48ff098c57442c961390bde283c43e5ca",
+    "projects/site/tests-coast/cuttack-literature.test.mjs": "0addf91d7bbb8ba0b64a49c73e57d7aa52ca2b24a8c8d20858df7a4dc9cb7241",
+    "projects/site/tests-coast/discovery-flow.test.mjs": "0f4a406efcff7b77c7e3b31a66530d7282c67b607ff9757416c78b70229e7a2d",
+    "projects/site/tests-coast/edition.test.mjs": "1114224a08f0a5125a0d89cb051dcc955bc85cf1a9e6ef9f43ea60e789997db6",
+    "projects/site/tests/build.test.mjs": "00806fccdda1e44eece328385df1af8725ba54211822f3f7e45b8716ad689161"
+  },
+  "review_history": [
+    {
+      "input_head": "4a95f4db4bba22251b8666922ca93fd1fc0d2755",
+      "status": "SOURCE_CONTENT_PASS_PENDING_FINAL_HEAD_BUILD_VISUAL",
+      "source_content_hashes_verified_unchanged": true
+    }
+  ],
+  "reviewed_head": "cce3720cd46b0d0b3ba54454505c17daeb9a2238",
+  "visual_review": {
+    "inspected": [
+      "/tmp/pod-bhandari-desktop.png",
+      "/tmp/pod-bhandari-mobile.png",
+      "/tmp/pod-bhandari-mobile-body.png"
+    ],
+    "dimensions": [
+      "1440x1000",
+      "390x844",
+      "390x844"
+    ],
+    "result": "Readable title, byline, body and superscript notes; no clipping or overflow visible. Mobile body shows final wedding-party clarification and fifth-day scope qualification."
+  },
+  "implementation_evidence": "/tmp/pod-bhandari-implementation.json",
+  "rerun_history": "Initial full test pass followed by clarification; final full566 rerun includes final prose. No failed gates reported; earlier passing log retained.",
+  "program_item": "POD-A500-126",
+  "work_id": "POD-WORK-317",
+  "authorization": "POD-DEC-225",
+  "verification": {
+    "sources": "Three originals inspected; source budgets and limitations retained in this separate review",
+    "implementation": "566full tests,473coast tests,1892acceptancechecks,11indexable; actual desktop/mobile/download checks",
+    "ci": "https://github.com/ahimanikya/project-odisha/actions/runs/39870082650/job/120142030313 passed on cce3720cd46b0d0b3ba54454505c17daeb9a2238"
+  },
+  "receipt_preparation_note": "Initial receipt preparation stopped before repository writes because the separate review uses findings rather than a blockers field; checked PASS and empty findings before retry.",
+  "normalization": "Disha linked actual separate AI review to programme fields, preserving review history; no human review asserted."
+}

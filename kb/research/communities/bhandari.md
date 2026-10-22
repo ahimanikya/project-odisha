@@ -11,4 +11,4 @@ Thurston's Ganjam wedding sequence includes ulu cries, seven-house water collect
 
 No verified community-specific image found; generic barber photographs cannot establish caste. No image added. No human specialist review, field confirmation, current occupational survey or founding charter claimed.
 
-POD-EDIT-473; POD-A500-126; POD-WORK-317. Candidate awaiting separate review and full publication evidence.
+POD-EDIT-473; POD-A500-126; POD-WORK-317. Published with separate AI review, tests, approved deployment and [live receipt](../../records/bhandari-editorial-publication-2026-10-23.json). Local and community research questions remain open.
