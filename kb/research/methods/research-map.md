@@ -895,3 +895,7 @@ Reuse `communities/tanti.json`, `communities/tanti.md` and `sources/tanti-resear
 ## Bhulia community history · 22 October 2026
 
 Reuse `communities/bhulia.json`, `communities/bhulia.md` and `sources/bhulia-research.json` for the 1916 Sonpur migration-tradition witness, Acharya2004 original household fieldwork and Tanty2021 six-village study. Existing Sambalpuri technique/media records supply context and rights, not individual maker caste. Do not turn tradition into verified migration chronology or infer community from Meher surname.
+
+## Kumbhara community history · 22 October 2026
+
+Reuse `communities/kumbhara.json`, `communities/kumbhara.md` and `sources/kumbhara-research.json` for the Puri Kumbhara Bishoi research archive, Bhadrak2015–17 field study and reused Stirling1825 source ID. Origin tradition, described administrative records and original field observations remain separate. Existing terracotta artist evidence does not establish caste identity; no automatic alias from administrative grouping.

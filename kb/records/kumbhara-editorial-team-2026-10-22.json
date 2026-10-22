@@ -1,0 +1,53 @@
+{
+  "task_id": "POD-TASK-KUMBHARA-20261022",
+  "article_id": "POD-EDIT-464",
+  "programme_id": "POD-A500-118",
+  "work_id": "POD-WORK-308",
+  "status": "in_progress",
+  "input_head": "66e6e4cf9f913c407a43a881ca29d4334eed7b76",
+  "started_at": "2026-10-22T01:28:52.629541+00:00",
+  "route": "/communities/kumbhara/",
+  "scope": "Kumbhara community histories in Odisha: pottery, origin traditions versus documented formation, local institutions and changing work. Do not conflate all potters, grouped administrative names or Kandha-Kumbhar with one ancestry.",
+  "acceptance": [
+    "Original inspected sources support community-specific regional history, documented work and origin traditions with honest limits.",
+    "Canonical KB and website with numbered notes, preserved authorship/media rights and portable reading.",
+    "Separate AI review, meaningful tests and responsive review, reviewed merge, approved deployment and live receipt before counting."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only research /tmp/pod-kumbhara-research.json",
+      "status": "completed"
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/pages/communities/kumbhara.astro",
+        "projects/site/tests-coast/kumbhara-editorial.test.mjs"
+      ],
+      "status": "completed"
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Read-only integrated source and candidate review",
+      "status": "reviewing"
+    },
+    {
+      "name": "Disha",
+      "scope": "Canonical narrative, shared records and publishing",
+      "status": "working"
+    }
+  ],
+  "worker_reconciliation": "Existing workers completed Bhulia; PR431 merge dcfb8622 observed and claim released. Unrelated PR304/281 untouched.",
+  "next_action": "Research source viability, integrate supported narrative, test, review and publish one article.",
+  "source_report": "research/sources/kumbhara-research.json",
+  "implementation": "records/kumbhara-implementation-2026-10-22.json",
+  "verification": {
+    "tests": "566full and438coast passed; publication11indexable",
+    "responsive": "Desktop/mobile, notes/returns/contents/disclosure/previewSave andrelatedreading passed",
+    "record_checks": "programme/team/bundle/researchmap/coverage passed"
+  }
+}
