@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 469. completed: 74, excluded: 76, in_progress: 1, queued: 318.
+Route inventory: 469. completed: 75, excluded: 76, queued: 318.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -482,4 +482,4 @@ Route inventory: 469. completed: 74, excluded: 76, in_progress: 1, queued: 318.
 | POD-EDIT-466 | [Kaibarta: fishing boat work and community history](https://projectodisha.org/communities/kaibarta/) | completed | Kaibarta community histories in Odisha: fishing, boat work, regional names and origin traditions. Establish precise source-specific relationships with Keuta/Keot labels; never infer universal aliases or that all fishers form one caste. |
 | POD-EDIT-467 | [Odia Cultural Identity and Pride](https://projectodisha.org/stories/odia-cultural-identity/) | completed | Constructive cultural essay grounded in documented names, regional practices, craft and transmission; no unsupported decline claims. |
 | POD-EDIT-468 | [Nolia coastal community history](https://projectodisha.org/communities/nolia/) | completed | Nolia community histories on the Odisha coast: source-specific naming, movement and settlement, maritime work and cultural transmission. Establish evidence rather than assume a single creation event or equate all coastal fishers. |
-| POD-EDIT-469 | [Kansari community history](https://projectodisha.org/communities/kansari/) | in_progress | Kansari community history: regional naming, workshop inheritance, documented changes and origin traditions; no caste inferred from craft or surname. |
+| POD-EDIT-469 | [Kansari community history](https://projectodisha.org/communities/kansari/) | completed | Kansari community history: regional naming, workshop inheritance, documented changes and origin traditions; no caste inferred from craft or surname. |

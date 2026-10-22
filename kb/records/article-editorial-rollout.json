@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-22T18:50:27.462907+00:00",
+  "updated_at": "2026-10-22T19:10:33.157073+00:00",
   "authorization": "POD-DEC-2026101702",
   "work_id": "POD-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -7101,23 +7101,26 @@
       "id": "POD-EDIT-469",
       "route": "/communities/kansari/",
       "title": "Kansari community history",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "Kansari community history: regional naming, workshop inheritance, documented changes and origin traditions; no caste inferred from craft or surname.",
       "source_template": "projects/site/src/pages/communities/kansari.astro",
       "checks": {
-        "authorship": false,
-        "language": false,
-        "formatting": false,
-        "footnotes": false,
-        "images": false,
-        "kb_alignment": false,
-        "responsive": false
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
       },
       "evidence": [
-        "records/kansari-editorial-team-2026-10-23.json"
+        "records/kansari-editorial-team-2026-10-23.json",
+        "records/kansari-editorial-publication-2026-10-23.json"
       ],
       "blocker": null,
-      "started_at": "2026-10-22T18:50:27.462907+00:00"
+      "started_at": "2026-10-22T18:50:27.462907+00:00",
+      "completed_at": "2026-10-22T19:10:33.157073+00:00",
+      "publication_receipt": "records/kansari-editorial-publication-2026-10-23.json"
     }
   ]
 }

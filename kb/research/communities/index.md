@@ -17,7 +17,7 @@ This is a research map, not a complete list of Odisha castes. Its [machine-reada
 | [Karana](https://projectodisha.org/communities/karana/) | Published | Scribal institutions; office, community and similar names distinguished. |
 | [Kaibarta](https://projectodisha.org/communities/kaibarta/) | Published | Regional naming, changing work and institutions; not every fisher or similarly named community. |
 | [Nolia](https://projectodisha.org/communities/nolia/) | Published | Regional umbrella name, coastal settlement and multilingual belonging; no single genealogy. |
-| Kansari | In progress | Workshop learning, occupational mobility and maker specialisation; no universal alias. |
+| [Kansari](https://projectodisha.org/communities/kansari/) | Published | Workshop learning, occupational mobility and maker specialisation; no universal alias. |
 | Paiko | Regional scope unresolved | Compare each regional use before proposing a canonical identity or alias. |
 | Kottia Paiko | Regional scope unresolved | Retain the gazetteer's separately described label; do not infer equivalence with similarly spelled administrative entries. |
 

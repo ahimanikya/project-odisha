@@ -11,4 +11,4 @@ No founder, common migration chronology or universal Thatari/Kansari equivalence
 
 No image selected: source image rights were not established; no generic metalworker identified by caste. No human community review, interviews or fieldwork claimed.
 
-POD-EDIT-469; POD-A500-122; POD-WORK-313. Candidate awaiting separate review and full publication evidence.
+POD-EDIT-469; POD-A500-122; POD-WORK-313. Published with separate AI review, tests, approved deployment and [live receipt](../../records/kansari-editorial-publication-2026-10-23.json). Local and community research questions remain open.

@@ -9137,18 +9137,21 @@
       "id": "POD-WORK-313",
       "title": "Research and publish Kansari community history",
       "category": "website_and_knowledge",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti AI review",
       "authorization": "POD-DEC-225",
-      "next_action": "Establish original-source viability, integrate narrative, implement and independently review before publication.",
+      "next_action": "Retain ownership through receipt merge before another article.",
       "blockers": [],
       "refs": [
-        "POD-DEC-225"
+        "POD-DEC-225",
+        "POD-REV-2026102302",
+        "POD-REL-2026102302"
       ],
       "evidence": [
-        "records/kansari-editorial-team-2026-10-23.json"
+        "records/kansari-editorial-team-2026-10-23.json",
+        "records/kansari-editorial-publication-2026-10-23.json"
       ]
     }
   ],
@@ -22349,6 +22352,33 @@
         "Shared-shore research describes selected2019–2021settings; no present legal entitlement inferred.",
         "No community-specific unrestricted image rights established; no generic fisher identified by caste. Search eligibility unchanged."
       ]
+    },
+    {
+      "id": "POD-REV-2026102302",
+      "title": "Separate Kansari source and integrated article review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human historian or community review.",
+      "reviewed_head": "eeac58af4e64aafcc6346c5672cdade62993af91",
+      "refs": [
+        "POD-WORK-313",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/kansari-delivery-review-2026-10-23.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human community review or fieldwork.",
+        "Workshop inheritance and occupational change do not establish a universal founder or formation date.",
+        "Historical Census observations are local and dated; the1961series volume was published1967.",
+        "OCO maker and residency accounts are attributed; programme aims do not establish livelihood outcomes.",
+        "Administrative Thatari/Kansari label is a research lead, not universal synonymy.",
+        "No unrestricted community-specific image rights established; search eligibility unchanged."
+      ]
     }
   ],
   "releases": [
@@ -26002,6 +26032,22 @@
         "records/nolia-editorial-publication-2026-10-23.json"
       ],
       "note": "Reviewed PR443, passing checks, approved deployment and live verification. One substantive article; search eligibility unchanged."
+    },
+    {
+      "id": "POD-REL-2026102302",
+      "title": "Kansari learning and changing metalwork",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/communities/kansari/",
+      "refs": [
+        "POD-WORK-313",
+        "POD-REV-2026102302",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/kansari-editorial-publication-2026-10-23.json"
+      ],
+      "note": "Reviewed PR446, passing checks, approved deployment and live verification. One substantive article; search eligibility unchanged."
     }
   ],
   "sources": [
