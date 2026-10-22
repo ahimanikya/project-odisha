@@ -1,0 +1,95 @@
+{
+  "reviewer": "Drishti",
+  "review_type": "separate AI review; not human review",
+  "status": "pass_with_limitations",
+  "input_head": "85017074c697ae4fb624fb8136faf09161f82ff1",
+  "reviewed_head": "562f5e558fd093e19edce8f579fdf96bd34776cb",
+  "reviewed_at": "2026-10-22T01:33:10.461854+00:00",
+  "findings": [],
+  "blockers": [],
+  "source_checks": [
+    "Original FID4SA researcher archive independently read in full: fieldwork October1979–February1981, three villages, male induction, women’s bowls/lamps, red faceted single-use cooking vessels confirmed. Archive counted as one source.",
+    "Kurala Purana/Vishnu and Kurala Panchami tool worship accurately identified as origin tradition and ritual. Nineteenth/twentieth-century service records are reported by researchers, not claimed directly inspected; archival followup1984 does not change principal fieldwork period.",
+    "Original Panda2019 CSIR PDF independently read: methods327 confirm December2015–November2017,79 experienced artisans,seven blocks. Table328 supports stove,lamps,kumpi and kua-nanda shallow-well rings;329–330 confirms closed-kiln blackish-grey wares, unpainted ritual preferences and financial/material competition.",
+    "Reused Stirling printed172 table was independently visually inspected during Tanti review; Kumhar/Cumbhacara/Potter association supports historical written witness, not founder/date/modern alias map.",
+    "No archaeological caste identity, all-potter temple-service equivalence, current prices or unchanged present ritual claim. Optional weaker Pradhan source correctly excluded."
+  ],
+  "source_budgets_including_section_headings_titles_notes": {
+    "tanti-stirling1825-census1961": 127,
+    "kumbhara-cort-mishra-archive": 171,
+    "kumbhara-panda2019": 177
+  },
+  "integration_checks": [
+    "Canonical article uses numbered sources, Founder byline, full portable paragraphs and reading paths.",
+    "No unlicensed archival image embedded; source link allows readers to explore research archive.",
+    "New route held outside approved search eligibility; discovery/journey additions confined to Kumbhara.",
+    "Final delta from465a2d7e is implementation report and handoff only; all reviewed public source/page/test hashes unchanged."
+  ],
+  "tests": [
+    {
+      "check": "git diff --check85017074..HEAD",
+      "result": "PASS"
+    },
+    {
+      "check": "full test log",
+      "result": "566/566 PASS"
+    },
+    {
+      "check": "coast test log",
+      "result": "438/438 PASS"
+    },
+    {
+      "check": "publication log",
+      "result": "PASS;11 indexable"
+    }
+  ],
+  "limits": [
+    "Independently inspected three supplied screenshots and full/coast/publication logs. Browser interactions reported by Samanta; not replayed by reviewer and no physical-device review.",
+    "Original Madala Panji/colonial manuscripts not independently inspected; archive researchers’ descriptions are evidence used.",
+    "No human/community review, fieldwork or current comprehensive household survey.",
+    "Historical and modern spellings are not asserted as exhaustive equivalent labels."
+  ],
+  "file_sha256": {
+    "kb/catalog.json": "4dfc0cd71f33f04d9c2a99c2f45476ab6a8cb0793bd1c09aebc7fe7a4ca2a376",
+    "kb/records/editorial-workbench.json": "c7427455d7c45450d100a30e605446e77734da5712747e2c44d154e0b049c26c",
+    "kb/records/kumbhara-editorial-team-2026-10-22.json": "c000cfb6c868495840ae0426ef46b8da0250cc6ac0abe262a9e341d0279aff20",
+    "kb/records/kumbhara-implementation-2026-10-22.json": "a5b1384f0dd4be23dbad62806d73c3ef14132c7e484bd356f9fd9626dfd91f67",
+    "kb/research/communities/coverage-index.json": "9df3cdb119512b1048b51be6ae80987607cd36b2cd6016ba7954facc2290dbdd",
+    "kb/research/communities/index.md": "8ccab2c404a311d54f4c131a6b23ee18b430c5e720195924b2dbb4408f90c280",
+    "kb/research/communities/kumbhara.json": "117dd545f69212362649c1efa08fecdfec81c3c987b6d05b3bec363ececbc050",
+    "kb/research/communities/kumbhara.md": "2e96c707e4386a80edc197e06119439df32299472fcefc387c3b0a5f9408f772",
+    "kb/research/methods/research-map.md": "cf506fb7a844006fd9665f452a369817de6383f05ba3973c5f0aee95cbce0c4a",
+    "kb/research/search-index.json": "3264a26e4254a4539632cef1ea9dc902d31a9f2cee84cb70f02e39c59e2b1412",
+    "kb/research/sources/kumbhara-research.json": "a55721f780980b9caffb59f8d0fbe31ba7a179641f672ecaf0c21bab7db92b15",
+    "kb/team/operations.json": "ff9aa5eac6d5865a03796787b72774fc9e4297a20f3984e925a0b7e7e9cb39ac",
+    "projects/site/editions/coast.json": "0348c6603ae30b9d5875de511fecbc8c6eddb6144b7dcc55effeb6e97d136703",
+    "projects/site/editions/search-candidate.json": "0f3daaf9df2c0de455d33527f1a4258114ccfa7f68eeb681efee3fa28509e9ec",
+    "projects/site/src/data/discovery.ts": "a660aa9966bdd55cf161a573b86e394fcac94e65fdef75afb7be83c4560abde6",
+    "projects/site/src/data/journey-catalog.ts": "7c3a413bbfd07825a6c4a8fc36b93662d8b2c9e65ef852a4de7ac3afff36b042",
+    "projects/site/src/pages/communities/kumbhara.astro": "e6d57bedb71b15dbececb2ac8e1d1c5b6b0d31884e2454545e41bccd49517e24",
+    "projects/site/tests-coast/cuttack-literature.test.mjs": "56548cf33eb0d63f84ccbf62e10e2503eec81e97dbc5b2d9e8cbf98a448d50d8",
+    "projects/site/tests-coast/discovery-flow.test.mjs": "6f479fc0106d65615ec2f27cc09b434a1bf8c07a592b8812b06deb0471f1c0f9",
+    "projects/site/tests-coast/edition.test.mjs": "efb421a9c155ea8bdfb4d8ae862a59a282307ca1460e3a41d18c933a0f274e50",
+    "projects/site/tests-coast/kumbhara-editorial.test.mjs": "22563d0dbfd30ffbebcde2aa969362f95bcb846ac0432132f4a822c5aeeacc39",
+    "projects/site/tests/build.test.mjs": "e153f6ec27e3dc10e75ca239e9361ce31b45b96ea5115723e985901b8c131a40"
+  },
+  "repository_edits": [],
+  "visual_review": {
+    "status": "PASS",
+    "screenshots": [
+      "/tmp/pod-kumbhara-desktop.png",
+      "/tmp/pod-kumbhara-mobile.png",
+      "/tmp/pod-kumbhara-mobile-body.png"
+    ],
+    "finding": "Header, byline, lead, save control, body paragraphs and numbered sources readable without visible clipping/overlap at supplied desktop/mobile viewports."
+  },
+  "program_item": "POD-A500-118",
+  "work_id": "POD-WORK-308",
+  "authorization": "POD-DEC-225",
+  "verification": {
+    "sources": "Separate original-source review of tradition and fieldwork; local limits and word budgets",
+    "implementation": "566 full and438coast tests; desktop/mobile visual and interaction checks",
+    "ci": "39706505683 succeeded on reviewed 562f5e55"
+  },
+  "normalization": "Disha linked separate AI PASS to programme fields, preserving original findings and limits; no human review asserted."
+}
