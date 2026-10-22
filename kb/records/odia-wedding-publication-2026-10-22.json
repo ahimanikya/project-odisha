@@ -1,0 +1,53 @@
+{
+  "recorded_at": "2026-10-22T13:41:41.865568+00:00",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/442",
+  "reviewed_head": "4f48307357c087ea2047898dfb5d6fb81a26ca00",
+  "merge_commit": "f71c0eaa6e1fbb1912800d04332c9ea473b58383",
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "f71c0eaa6e1fbb1912800d04332c9ea473b58383",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39788426592"
+  },
+  "live": {
+    "url": "https://projectodisha.org/stories/odia-cultural-identity/",
+    "checked_at": "2026-10-22T13:40:57.099511+00:00",
+    "checks": {
+      "article_matches_reviewed_build": true,
+      "wedding_heading": true,
+      "new_footnotes": true,
+      "image_preserved": true
+    },
+    "html_sha256": "276c7e04da9dcca2e8ba44b1ca433bb05e802f9bb3b33831ee4645a0b9c8747d"
+  },
+  "review": {
+    "reviewer": "Drishti",
+    "kind": "Separate AI exact-head review",
+    "reviewed_at": "2026-10-22T06:48:09.865883+00:00",
+    "reviewed_head": "4f48307357c087ea2047898dfb5d6fb81a26ca00",
+    "result": "pass",
+    "blocking_findings": [],
+    "hash_checks": {
+      "kb/research/culture/odia-cultural-identity.md": {
+        "sha256": "d91d9915583825c891152d179d30fdeb2e6ff9d3894fc8b0210235bde5de9f59",
+        "matches_review": true
+      },
+      "kb/research/sources/odia-wedding-media-evidence.json": {
+        "sha256": "58d62c8dbee482e3be7e69fce5abec159f389b487487f12f5d55c48fa817a3ce",
+        "matches_review": true
+      },
+      "kb/research/sources/odia-identity-evidence.json": {
+        "sha256": "bc6e2e8d42ef17554cdce0ac2c815694f8beacb3e4ede26bbac99323faf765af",
+        "matches_review": true
+      }
+    },
+    "tests": "No repeated tests for unchanged reviewed article/evidence; coordinator retains build/CI gates.",
+    "limitations": [
+      "Not human/community ritual review.",
+      "Deployment and actual live receipt still required."
+    ],
+    "generated_diff_review": "Only generated input fingerprint for kb/research/search-index.json changed, not source count. Independently verified new fingerprint matches committed search-index bytes: 83b233152d7685b6d8e2aa2a9ffeb5c85f88832610b7b97f507db10d423b7044"
+  },
+  "scope": "Wedding naming, attributed media context and family-transmission guidance added to the existing cultural identity article. No statewide prevalence or causal claim; no programme credit.",
+  "validation": "Core KB, classification, article tests, publication build and required CI passed. Initial stale editorial fingerprint was regenerated before successful CI."
+}
