@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-22T00:28:32.701341+00:00",
+  "updated_at": "2026-10-22T00:44:08.490520+00:00",
   "authorization": "POD-DEC-2026101702",
   "work_id": "POD-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -6949,15 +6949,26 @@
       "id": "POD-EDIT-463",
       "route": "/communities/bhulia/",
       "title": "Bhulia: weaving and community history",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "Bhulia community histories in Odisha: dated weaving records, migration and origin traditions distinguished from demonstrated ancestry, regional craft practice and social change. Administrative Bhuliya spelling is a research lead, not proof of aliases or all-weaver equivalence.",
       "source_template": "projects/site/src/pages/communities/bhulia.astro",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
-        "records/bhulia-editorial-team-2026-10-22.json"
+        "records/bhulia-editorial-team-2026-10-22.json",
+        "records/bhulia-editorial-publication-2026-10-22.json"
       ],
       "blocker": null,
-      "started_at": "2026-10-22T00:28:32.701341+00:00"
+      "started_at": "2026-10-22T00:28:32.701341+00:00",
+      "completed_at": "2026-10-22T00:44:08.490520+00:00",
+      "publication_receipt": "records/bhulia-editorial-publication-2026-10-22.json"
     }
   ]
 }

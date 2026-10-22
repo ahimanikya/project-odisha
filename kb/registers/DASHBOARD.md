@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `8f5f46e7bdcc5984fbe9fb8a299bb6705b72ae10330d1abc407f8c520f6f3afc`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `36b74df3c82ea3f497dda36cceb566de372af9042cf70fd59bced334f99175ba`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -331,7 +331,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-304 · Research and publish Khandayat community history | completed | published | Ahimanikya Satapathy | Retain claim through receipt integration, then select next evidence-backed community history. | — |
 | POD-WORK-305 · Research and publish Chasa community history | completed | published | Ahimanikya Satapathy | Retain claim through receipt merge before the next article. | — |
 | POD-WORK-306 · Research and publish Tanti community histories | completed | published | Ahimanikya Satapathy | Retain claim through receipt merge before the next article. | — |
-| POD-WORK-307 · Research and publish Bhulia community history | in_progress | draft | Ahimanikya Satapathy | Investigate source viability; implement only supported regional account, then review and publish. | — |
+| POD-WORK-307 · Research and publish Bhulia community history | completed | published | Ahimanikya Satapathy | Retain claim through receipt merge before the next article. | — |
 
 ## Pending human review and decisions
 
@@ -987,6 +987,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026102202 | pass_with_limitations | True | Separate AI research and review; no human historian or community field review.; Khurda and Garh Manitri evidence is not universal regional genealogy or current custom.; Some chapter text has font corruption; only legible narrow claims adopted. Original census/service manuscripts not independently read.; No current legal status, caste rank or wedding Haldi origin inferred; search eligibility unchanged. |
 | POD-REV-2026102203 | pass_with_limitations | True | Separate AI review, no human community review or field observation.; Penthabahal evidence is a historical village snapshot, not current conditions or an all-Odisha branch map.; Shared rice rituals are not exclusive Chasa customs; no universal origin, innate rank or current legal classification.; Exact Odia spelling and further regional history remain open; search eligibility unchanged. |
 | POD-REV-2026102204 | pass_with_limitations | True | Separate AI review; no human community review or field observation.; Dated regional Aswini Tanti and named Bomkai Patra Tanti accounts do not establish universal ancestry, exhaustive branches or a founder.; Jain2015 public preview only; livelihood conditions are historical, not current.; No all-weaver caste equivalence, innate rank or current legal classification; search eligibility unchanged. |
+| POD-REV-2026102205 | pass_with_limitations | True | Separate AI review; no human community review or field observation.; The 1916 account records a migration tradition, not a verified migration date or universal ancestry.; Acharya household fieldwork and Tanty six-village study retain their dated local scopes; no current household survey.; Documentary textile maker and community not established; no all-weaver equivalence or current legal classification; search eligibility unchanged. |
 
 ## Publication and application history
 
@@ -1209,6 +1210,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026102202 · Khandayat land service and community history | published | https://projectodisha.org/communities/khandayat/ | POD-DEC-225 |
 | POD-REL-2026102203 · Chasa cultivation and community history | published | https://projectodisha.org/communities/chasa/ | POD-DEC-225 |
 | POD-REL-2026102204 · Tanti weaving and community histories | published | https://projectodisha.org/communities/tanti/ | POD-DEC-225 |
+| POD-REL-2026102205 · Bhulia remembered journeys and weaving households | published | https://projectodisha.org/communities/bhulia/ | POD-DEC-225 |
 
 ## Sources and assets
 
@@ -1246,7 +1248,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261021007 | 2026-10-21T12:35:09.720057+00:00 | Ho article069 published after source research, implementation, separate AI review, passing tests, responsive/keyboard checks, PR409 and approved deployment. Actual live receipt verified; ownership retained through receipt integration. 59 articles complete; 112 programme items unchanged. | — |
 | POD-EVT-20261021008 | 2026-10-21T13:27:20.718096+00:00 | Juang article070 published after source research, implementation, separate AI review, passing tests, responsive/keyboard checks, PR411 and approved deployment. Actual live receipt verified; ownership retained through receipt integration. 60 articles complete; 112 programme items unchanged. | — |
 | POD-EVT-20261021009 | 2026-10-21T14:37:45.696592+00:00 | Koya article 071 published after source research, implementation, separate AI review, passing tests, responsive/keyboard checks, PR413 and approved deployment. Actual live receipt verified; ownership retained through receipt integration. 61 articles complete; 112 programme items unchanged. | — |
 | POD-EVT-20261021010 | 2026-10-21T15:30:50.793850+00:00 | Odisha Rasagola article 072 published after source research, implementation, separate AI review, passing tests, responsive/keyboard checks, PR415 and approved deployment. Actual live receipt verified; ownership retained through receipt integration. 62 articles complete; 112 programme items unchanged. | — |
@@ -1256,6 +1257,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261022002 | 2026-10-21T21:41:44.840261+00:00 | Khandayat history published through reviewed PR424 and approved workflow; live checks passed.66 editorial articles complete;114 programme items; retain claim until receipt merge. | — |
 | POD-EVT-20261022003 | 2026-10-21T22:41:01.338660+00:00 | Chasa history published through reviewed PR426 and approved deployment; live checks passed.67 editorial articles complete;115 substantive items. Claim retained through receipt merge. | — |
 | POD-EVT-20261022004 | 2026-10-21T23:40:30.497590+00:00 | Tanti history published through reviewed PR428 and approved deployment; live checks passed.68 editorial articles complete;116 substantive items. Claim retained through receipt merge. | — |
+| POD-EVT-20261022005 | 2026-10-22T00:44:08.490520+00:00 | Bhulia history published through reviewed PR430 and approved deployment; live checks passed.69 editorial articles complete;117 substantive items. Claim retained through receipt merge. | — |
 
 ## Deferred extensions
 

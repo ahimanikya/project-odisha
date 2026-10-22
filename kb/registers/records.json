@@ -9011,18 +9011,21 @@
       "id": "POD-WORK-307",
       "title": "Research and publish Bhulia community history",
       "category": "website_and_knowledge",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti AI review",
       "authorization": "POD-DEC-225",
-      "next_action": "Investigate source viability; implement only supported regional account, then review and publish.",
+      "next_action": "Retain claim through receipt merge before the next article.",
       "blockers": [],
       "refs": [
-        "POD-DEC-225"
+        "POD-DEC-225",
+        "POD-REV-2026102205",
+        "POD-REL-2026102205"
       ],
       "evidence": [
-        "records/bhulia-editorial-team-2026-10-22.json"
+        "records/bhulia-editorial-team-2026-10-22.json",
+        "records/bhulia-editorial-publication-2026-10-22.json"
       ]
     }
   ],
@@ -22053,6 +22056,31 @@
         "Jain2015 public preview only; livelihood conditions are historical, not current.",
         "No all-weaver caste equivalence, innate rank or current legal classification; search eligibility unchanged."
       ]
+    },
+    {
+      "id": "POD-REV-2026102205",
+      "title": "Separate Bhulia source and integrated article review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human historian or community review.",
+      "reviewed_head": "d4e8c22e7fe80803fc70808b36896c6b825a17d7",
+      "refs": [
+        "POD-WORK-307",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/bhulia-delivery-review-2026-10-22.json"
+      ],
+      "limitations": [
+        "Separate AI review; no human community review or field observation.",
+        "The 1916 account records a migration tradition, not a verified migration date or universal ancestry.",
+        "Acharya household fieldwork and Tanty six-village study retain their dated local scopes; no current household survey.",
+        "Documentary textile maker and community not established; no all-weaver equivalence or current legal classification; search eligibility unchanged."
+      ]
     }
   ],
   "releases": [
@@ -25610,6 +25638,22 @@
         "records/tanti-editorial-publication-2026-10-22.json"
       ],
       "note": "Reviewed PR428, passing CI, approved deployment and live checks. One substantive article; search eligibility unchanged."
+    },
+    {
+      "id": "POD-REL-2026102205",
+      "title": "Bhulia remembered journeys and weaving households",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/communities/bhulia/",
+      "refs": [
+        "POD-WORK-307",
+        "POD-REV-2026102205",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/bhulia-editorial-publication-2026-10-22.json"
+      ],
+      "note": "Reviewed PR430, passing CI, approved deployment and live checks. One substantive article; search eligibility unchanged."
     }
   ],
   "sources": [
