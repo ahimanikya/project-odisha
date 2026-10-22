@@ -21,10 +21,11 @@ This is a research map, not a complete list of Odisha castes. Its [machine-reada
 | [Gopala](https://projectodisha.org/communities/gopala/) | Published | Regional naming, cattle work and Dola heritage; no universal alias. |
 | [Chitrakara](https://projectodisha.org/communities/chitrakara/) | Published | Temple service, household work and markets; painter is not a caste inference. |
 | [Teli](https://projectodisha.org/communities/teli/) | Published | Oil work, transport and regional names; surname does not establish caste. |
+| Bhandari | In progress | Ceremonial service and changing work; regional labels remain scoped. |
 | Paiko | Regional scope unresolved | Compare each regional use before proposing a canonical identity or alias. |
 | Kottia Paiko | Regional scope unresolved | Retain the gazetteer's separately described label; do not infer equivalence with similarly spelled administrative entries. |
 
-The fifteen topics are a starting set, not categories into which other people should be placed. Khandayat publication is evidenced in its article receipt; further regional histories remain open.
+The sixteen topics are a starting set, not categories into which other people should be placed. Khandayat publication is evidenced in its article receipt; further regional histories remain open.
 
 ## Source coverage as accessed on 22 October 2026
 

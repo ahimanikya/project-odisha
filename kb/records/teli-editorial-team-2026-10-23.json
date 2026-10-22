@@ -3,7 +3,7 @@
   "article_id": "POD-EDIT-472",
   "programme_id": "POD-A500-125",
   "work_id": "POD-WORK-316",
-  "status": "published_receipt_integration_pending",
+  "status": "completed",
   "input_head": "330c86c71e766e1a1093ce267c617ab8f3e30f2d",
   "started_at": "2026-10-22T22:05:56.301852+00:00",
   "route": "/communities/teli/",
@@ -19,7 +19,7 @@
       "runtime": "/root/anvesha",
       "scope": "Read-only original research /tmp/pod-teli-research.json",
       "status": "completed",
-      "scope_released": false
+      "scope_released": true
     },
     {
       "name": "Samanta",
@@ -29,24 +29,24 @@
         "projects/site/tests-coast/teli-editorial.test.mjs"
       ],
       "status": "completed",
-      "scope_released": false
+      "scope_released": true
     },
     {
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Read-only integrated candidate review",
       "status": "completed",
-      "scope_released": false
+      "scope_released": true
     },
     {
       "name": "Disha",
       "scope": "Canonical narrative/shared records/publishing",
-      "status": "in_progress",
-      "scope_released": false
+      "status": "completed",
+      "scope_released": true
     }
   ],
   "worker_reconciliation": "Chitrakara receipt PR451 merged112be380 and local completion330c86c7 retained. Existing workers reconciled; external current_article/task null; unrelated PR304/281 untouched.",
-  "next_action": "Merge reviewed receipt with passing required checks, observe actual merge, then release ownership.",
+  "next_action": "Teli receipt merged and ownership released. On next wake reconcile workers and durable state, select next useful community-series subject from coverage index and existing KB, and establish scoped source-backed acceptance before implementation. Continue remaining editorial rollout one article at a time. Do not repeat published community articles; consult the current coverage index. For every future article run the local coastal acceptance audit before submission; also verify actual mobile viewport and screenshot dimensions. No active article.",
   "research": "research/sources/teli-research.json",
   "implementation": "records/teli-implementation-2026-10-23.json",
   "publication_receipt": "records/teli-editorial-publication-2026-10-23.json",
@@ -54,6 +54,100 @@
   "counting": {
     "completed_items": 125,
     "increment": 1,
-    "basis": "Individually researched published article with live evidence; receipt integration pending."
+    "basis": "One individually researched published article; reviewed receipt merge observed."
+  },
+  "receipt_integration_observed": {
+    "pull_request": 453,
+    "reviewed_head": "22327fdc38abc10af5189c29e35bc205e2e69359",
+    "merge_commit": "d39031eee9d23e53afb5708d9f18e3d2c99595be",
+    "merged_at": "2026-10-22T22:25:39Z",
+    "validation_run": 39864352497,
+    "validation_result": "success",
+    "review": "Drishti independently reviewed the exact receipt head; coordinator observed required checks and actual remote merge."
+  },
+  "receipt_review": {
+    "reviewer": "Drishti",
+    "review_type": "Independent AI receipt review; not human review",
+    "status": "PASS",
+    "input_head": "22327fdc38abc10af5189c29e35bc205e2e69359",
+    "reviewed_head": "22327fdc38abc10af5189c29e35bc205e2e69359",
+    "comparison_base": "6495fa036347e213e624eebaf8f79f6642007b8c",
+    "reviewed_at": "2026-10-22T22:21:38.694294+00:00",
+    "findings": [],
+    "blockers": [],
+    "register_deltas": [
+      {
+        "collection": "items",
+        "changed": [
+          "POD-A500-125"
+        ],
+        "added": [],
+        "removed": []
+      },
+      {
+        "collection": "items",
+        "changed": [
+          "POD-EDIT-472"
+        ],
+        "added": [],
+        "removed": []
+      },
+      {
+        "collection": "work",
+        "changed": [
+          "POD-WORK-316"
+        ],
+        "added": [],
+        "removed": []
+      },
+      {
+        "collection": "reviews",
+        "changed": [],
+        "added": [
+          "POD-REV-2026102305"
+        ],
+        "removed": []
+      },
+      {
+        "collection": "releases",
+        "changed": [],
+        "added": [
+          "POD-REL-2026102305"
+        ],
+        "removed": []
+      }
+    ],
+    "checks": [
+      "125completedprogrammeitems and78editorialarticles verified; only currentTeli existing entries changed.",
+      "Prior124programmeentries and public/source hashes unchanged.",
+      "Normalized review retains all fields except PASS status normalized to pass_with_limitations.",
+      "SavedPR452 reviewedd9b29314 aligns merge6495fa03 and successfuldeploy39863650760; requiredCI39863034412success linked.",
+      "Saved liveHTML and exact browserreport preserved, three orderednotes and exactkeyboardreturn, noindex and boundeddescription.",
+      "Claim retained receipt_integrated with receipt_merge_pending true. No humanreview inferred.",
+      "Initial jobURL receipt/test rejection preserved; corrected parent Actions run URL valid and30tests rerun pass."
+    ],
+    "tests": [
+      {
+        "name": "test_autonomous_program.py",
+        "result": "PASS30tests"
+      },
+      {
+        "name": "test_registers.py",
+        "result": "PASS1163records654events"
+      },
+      {
+        "name": "check_team_assignments.py",
+        "result": "PASS"
+      },
+      {
+        "name": "git diff --check6495fa03..HEAD",
+        "result": "PASS"
+      }
+    ],
+    "limits": [
+      "Remote CI/merge/deployment and live outcomes assessed from saved response evidence and linked receipt; not freshly queried or replayed in this review.",
+      "No human communityreview or fieldconfirmation; final source limitations preserved."
+    ],
+    "repository_edits": []
   }
 }
