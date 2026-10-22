@@ -3,7 +3,7 @@
   "article_id": "POD-EDIT-464",
   "programme_id": "POD-A500-118",
   "work_id": "POD-WORK-308",
-  "status": "published_receipt_integration_pending",
+  "status": "completed",
   "input_head": "66e6e4cf9f913c407a43a881ca29d4334eed7b76",
   "started_at": "2026-10-22T01:28:52.629541+00:00",
   "route": "/communities/kumbhara/",
@@ -18,7 +18,8 @@
       "name": "Anvesha",
       "runtime": "/root/anvesha",
       "scope": "Read-only research /tmp/pod-kumbhara-research.json",
-      "status": "completed"
+      "status": "completed",
+      "scope_released": true
     },
     {
       "name": "Samanta",
@@ -27,22 +28,25 @@
         "projects/site/src/pages/communities/kumbhara.astro",
         "projects/site/tests-coast/kumbhara-editorial.test.mjs"
       ],
-      "status": "completed"
+      "status": "completed",
+      "scope_released": true
     },
     {
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Read-only integrated source and candidate review",
-      "status": "completed"
+      "status": "completed",
+      "scope_released": true
     },
     {
       "name": "Disha",
       "scope": "Canonical narrative, shared records and publishing",
-      "status": "working"
+      "status": "completed",
+      "scope_released": true
     }
   ],
   "worker_reconciliation": "Existing workers completed Bhulia; PR431 merge dcfb8622 observed and claim released. Unrelated PR304/281 untouched.",
-  "next_action": "Merge reviewed receipt with passing checks, observe remote merge, then release article ownership.",
+  "next_action": "Kumbhara receipt merged and ownership released. On next wake reconcile workers and durable state, select next useful community-series subject from coverage index and existing KB, and establish scoped source-backed acceptance before implementation. Continue remaining editorial rollout one article at a time. Do not repeat completed Paika, Khandayat, Chasa, Tanti, Bhulia or Kumbhara. No active article.",
   "source_report": "research/sources/kumbhara-research.json",
   "implementation": "records/kumbhara-implementation-2026-10-22.json",
   "verification": {
@@ -55,6 +59,74 @@
   "counting": {
     "completed_items": 118,
     "increment": 1,
-    "basis": "Individually researched published article with live evidence; receipt integration pending."
+    "basis": "One individually researched published article; reviewed receipt merge observed."
+  },
+  "receipt_integration_observed": {
+    "pull_request": 433,
+    "reviewed_head": "efb06b19abcb68f84948ec5f47b68ff9d70d2cfc",
+    "merge_commit": "aa8d31ba2de0b473884e29df9acc15e95201777b",
+    "merged_at": "2026-10-22T01:48:46Z",
+    "validation_run": 39707477235,
+    "validation_result": "success",
+    "review": "Drishti independently reviewed exact efb06b19 receipt; coordinator observed required checks and actual remote merge."
+  },
+  "receipt_review": {
+    "reviewer": "Drishti, separate AI reviewer",
+    "status": "PASS",
+    "reviewed_head": "efb06b19abcb68f84948ec5f47b68ff9d70d2cfc",
+    "findings": [],
+    "record_changes": {
+      "kb/records/autonomous-500-program.json:items": {
+        "changed": [
+          "POD-A500-118"
+        ],
+        "added": []
+      },
+      "kb/records/article-editorial-rollout.json:items": {
+        "changed": [
+          "POD-EDIT-464"
+        ],
+        "added": []
+      },
+      "kb/registers/records.json:work": {
+        "changed": [
+          "POD-WORK-308"
+        ],
+        "added": []
+      },
+      "kb/registers/records.json:reviews": {
+        "changed": [],
+        "added": [
+          "POD-REV-2026102206"
+        ]
+      },
+      "kb/registers/records.json:releases": {
+        "changed": [],
+        "added": [
+          "POD-REL-2026102206"
+        ]
+      }
+    },
+    "completed_counts": {
+      "kb/records/autonomous-500-program.json": 118,
+      "kb/records/article-editorial-rollout.json": 70
+    },
+    "normalized_original_review_changed_keys": [
+      "status"
+    ],
+    "public_source_hash_changes": [],
+    "checks": [
+      "30 programme tests PASS",
+      "Register tests PASS;1138 records647 events and dashboard current",
+      "Team consistency PASS; Kumbhara claim retains receipt_merge_pending true",
+      "git diff --check PASS",
+      "Saved PR432 merge capture and deployment39706964209 agree on reviewed562f5e55 and merge96f3080b",
+      "Receipt includes CI39706505683 and matching saved live HTML/browser evidence"
+    ],
+    "limits": [
+      "Remote CI/deployment/live interactions reviewed from saved evidence, not fresh network or browser replay.",
+      "Separate AI review, not human community review or field confirmation."
+    ],
+    "repository_edits": []
   }
 }

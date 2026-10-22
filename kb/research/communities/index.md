@@ -14,10 +14,11 @@ This is a research map, not a complete list of Odisha castes. Its [machine-reada
 | [Tanti](https://projectodisha.org/communities/tanti/) | Published | Regional Bhadrak and Bomkai accounts; no all-weaver or branch equivalence. |
 | [Bhulia](https://projectodisha.org/communities/bhulia/) | Published | Migration traditions and original household studies; no automatic alias or all-weaver equivalence. |
 | [Kumbhara](https://projectodisha.org/communities/kumbhara/) | Published | Puri and Bhadrak histories; grouped names and Kandha-Kumbhar not merged. |
+| Karana | In progress | Scribal institutions; office, community and similar names distinguished. |
 | Paiko | Regional scope unresolved | Compare each regional use before proposing a canonical identity or alias. |
 | Kottia Paiko | Regional scope unresolved | Retain the gazetteer's separately described label; do not infer equivalence with similarly spelled administrative entries. |
 
-The eight topics are a starting set, not categories into which other people should be placed. Khandayat publication is evidenced in its article receipt; further regional histories remain open.
+The nine topics are a starting set, not categories into which other people should be placed. Khandayat publication is evidenced in its article receipt; further regional histories remain open.
 
 ## Source coverage as accessed on 22 October 2026
 
@@ -25,12 +26,13 @@ The [Odisha department's List of Communities page](https://stsc.odisha.gov.in/en
 
 | Source | Material retained | Limits |
 | --- | --- | --- |
+| Bhadrak district gazetteer | One historical scribal-work observation | Regional synthesis, not a community founding record. |
 | Published Paika article and mapped historical references | Four seed observations | Project synthesis; not independent corroboration. |
 | Department-linked state SEBC list | All 216 numbered rows, including continuation segments and adjacent qualifiers | Numbered rows are not a count of communities. Extraction is structurally checked; full manual proofreading remains. |
 | Department-linked ST and SC lists | Selected observations | Not full row inventories; amendment headers are not independent verification of current legal status. |
 | Department-linked central OBC list | Selected observations | Separate from state SEBC; the upload path is not a verified edition date. |
 
-The combined inventory currently has 226 observations and six source records, including the department landing page. These are provenance counts, not population or community counts. All 216 SEBC serials are represented, including deleted entries at 68 and 75. Row 138 spans two pages and includes a deletion affecting a name within the row; its label must always be read with the preserved qualifiers. Pages 13 and 14 were visually inspected. Other rows retain extracted text and page associations but have not all been manually proofread.
+The combined inventory currently has 227 observations and seven source records, including the department landing page. These are provenance counts, not population or community counts. All 216 SEBC serials are represented, including deleted entries at 68 and 75. Row 138 spans two pages and includes a deletion affecting a name within the row; its label must always be read with the preserved qualifiers. Pages 13 and 14 were visually inspected. Other rows retain extracted text and page associations but have not all been manually proofread.
 
 ## How coverage grows
 

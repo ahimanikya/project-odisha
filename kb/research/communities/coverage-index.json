@@ -104,6 +104,19 @@
         "StateSEBC and centralOBC are separate source inventories; do not equate their row numbers or grouped labels.",
         "200 serial numbers include Nil/deleted slots; not200 unique communities."
       ]
+    },
+    {
+      "id": "chasa-bhadrak-gazetteer",
+      "title": "Odisha District Gazetteers: Bhadrak",
+      "url": "https://bhadrak.odisha.gov.in/sites/default/files/2023-06/2020120281%20%281%29.pdf",
+      "accessed_on": "2026-10-22",
+      "scope": "Regional historical account of scribal work, not an administrative inventory",
+      "status": "inspected",
+      "limits": [
+        "Compiled2015–16 context; exact publication imprint not resolved here.",
+        "The text reproduces hierarchical caste classifications and essentialist praise. Do not adopt either.",
+        "Its phrase originally scribes is a summary, not documentary proof of a single caste-creation event."
+      ]
     }
   ],
   "observations": [
@@ -3806,6 +3819,13 @@
       "locator": "Serial177; PDF5",
       "raw_label": "Chasa , Odachasa., Banayat Odiya, Benayat\nOriya, Benayit Odia, Banayat, Banayat\nOriya, Odia & Udia",
       "context": "Adjacent notifications: No.12011-44/96-BCC dated6.12.1996; No.12011/36/99-BCC dated4.4.2000; No.12015/15/2008-BCC dated16.06.11. Raw label preserves extracted linebreaks and punctuation; do not split into canonical aliases."
+    },
+    {
+      "id": "karana-bhadrak-scribes",
+      "source_id": "chasa-bhadrak-gazetteer",
+      "locator": "Printed32–33",
+      "raw_label": "Karanas",
+      "context": "Regional scribal-work account; not alias or single-origin proof"
     }
   ],
   "topics": [
@@ -3951,6 +3971,21 @@
       ],
       "relationships": [],
       "note": "Grouped administrative labels are coverage leads, not alias or ancestry declarations. Separate Kandha-Kumbhar row194 is not merged. Narrative sources mapped in kumbhara.json."
+    },
+    {
+      "id": "karana",
+      "label": "Karana",
+      "kind": "community_history",
+      "status": "in_progress",
+      "route": "/communities/karana/",
+      "source_observation_ids": [
+        "karana-bhadrak-scribes"
+      ],
+      "evidence": [
+        "karana-bhadrak-scribes"
+      ],
+      "relationships": [],
+      "note": "Community and office/title distinguished. Similar administrative labels are not merged. Narrative evidence in karana.json."
     }
   ]
 }

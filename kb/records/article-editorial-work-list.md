@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 464. completed: 70, excluded: 76, queued: 318.
+Route inventory: 465. completed: 70, excluded: 76, in_progress: 1, queued: 318.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -478,3 +478,4 @@ Route inventory: 464. completed: 70, excluded: 76, queued: 318.
 | POD-EDIT-462 | [Tanti: weaving and community histories](https://projectodisha.org/communities/tanti/) | completed | Tanti histories in Odisha: weaving occupation and community names, regional distinctions, documented formation versus origin accounts, inherited craft and change. Do not merge all weaving communities or treat administrative grouping as ancestry. |
 | POD-EDIT-463 | [Bhulia: weaving and community history](https://projectodisha.org/communities/bhulia/) | completed | Bhulia community histories in Odisha: dated weaving records, migration and origin traditions distinguished from demonstrated ancestry, regional craft practice and social change. Administrative Bhuliya spelling is a research lead, not proof of aliases or all-weaver equivalence. |
 | POD-EDIT-464 | [Kumbhara: pottery and community histories](https://projectodisha.org/communities/kumbhara/) | completed | Kumbhara community histories in Odisha: pottery, origin traditions versus documented formation, local institutions and changing work. Do not conflate all potters, grouped administrative names or Kandha-Kumbhar with one ancestry. |
+| POD-EDIT-465 | [Karana: writing, offices and community history](https://projectodisha.org/communities/karana/) | in_progress | Karana histories in Odisha: community formation, scribal work and offices, documented origins versus traditions, regional institutions and social change. Distinguish community, office/title and similar names; no automatic Kayastha or Karanam equivalence or hereditary rank. |

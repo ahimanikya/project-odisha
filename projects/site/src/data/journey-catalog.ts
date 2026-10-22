@@ -1,3 +1,4 @@
+import karana from '../../../../kb/research/communities/karana.json';
 import kumbhara from '../../../../kb/research/communities/kumbhara.json';
 import bhulia from '../../../../kb/research/communities/bhulia.json';
 import tanti from '../../../../kb/research/communities/tanti.json';
@@ -65,6 +66,7 @@ entries.push({id:'reading:chasa',author:chasa.author,title:chasa.title,kind:'Rea
 entries.push({id:'reading:tanti',author:tanti.author,title:tanti.title,kind:'Reading',area:'Odisha',summary:tanti.lead,href:'/communities/tanti/',checked:tanti.checked_on,practical:tanti.sections.map(s=>({heading:s.title,text:s.paragraphs.map(p=>p.text).join(' '),paragraphs:s.paragraphs.map(p=>p.text)})),sources:tanti.sources.map(({title,url})=>({title,url}))});
 entries.push({id:'reading:bhulia',author:bhulia.author,title:bhulia.title,kind:'Reading',area:'Odisha',summary:bhulia.lead,href:'/communities/bhulia/',checked:bhulia.checked_on,practical:bhulia.sections.map(s=>({heading:s.title,text:s.paragraphs.map(p=>p.text).join(' '),paragraphs:s.paragraphs.map(p=>p.text)})),sources:bhulia.sources.map(({title,url})=>({title,url}))});
 entries.push({id:'reading:kumbhara',author:kumbhara.author,title:kumbhara.title,kind:'Reading',area:'Odisha',summary:kumbhara.lead,href:'/communities/kumbhara/',checked:kumbhara.checked_on,practical:kumbhara.sections.map(s=>({heading:s.title,text:s.paragraphs.map(p=>p.text).join(' '),paragraphs:s.paragraphs.map(p=>p.text)})),sources:kumbhara.sources.map(({title,url})=>({title,url}))});
+entries.push({id:'reading:karana',author:karana.author,title:karana.title,kind:'Reading',area:'Odisha',summary:karana.lead,href:'/communities/karana/',checked:karana.checked_on,practical:karana.sections.map(s=>({heading:s.title,text:s.paragraphs.map(p=>p.text).join(' '),paragraphs:s.paragraphs.map(p=>p.text)})),sources:karana.sources.map(({title,url})=>({title,url}))});
 entries.push({id:maritime.save_id,title:maritime.title,kind:'Reading',area:'Odisha and the sea',summary:maritime.lead,href:maritime.href,checked:maritime.reviewed_on,
  practical:[{heading:'Begin with a question',text:maritime.opening},
  ...maritime.chapters.flatMap(c=>[{heading:c.title,text:c.paragraphs.join(' ')},{heading:'A question to carry',text:c.question}]),

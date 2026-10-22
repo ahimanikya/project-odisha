@@ -26,7 +26,7 @@ test('reading starter and every literary idea retain reading prompts and source 
  for(const section of gangadhar.sections)for(const paragraph of section.paragraphs)assert.ok(book.includes(`<p>${escapeHTML(paragraph.text)}</p>`),section.id);
  assert.ok(book.includes('Keep the translation in view'));assert.ok(book.includes('Harekrishna Meher'));assert.ok(book.includes('Madhusudan Pati'));
  assert.ok(book.includes('Compare my canto and edition.'));assert.ok(book.includes('Gangadhar Meher'));assert.ok(book.includes('sahitya-akademi.gov.in'));
- const reading=data.catalog.filter(i=>i.kind==='Reading');assert.equal(reading.length,35);assert.ok(reading.some(i=>i.id==='reading:stories/maritime-memory'));
+ const reading=data.catalog.filter(i=>i.kind==='Reading');assert.equal(reading.length,36);assert.ok(reading.some(i=>i.id==='reading:stories/maritime-memory'));
  for(const idea of reading){assert.ok(idea.practical.length>=2,idea.id);assert.ok(idea.sources.length);}
 });
 test('language hub preserves diversity without linking to unreleased profiles',()=>{

@@ -1,0 +1,48 @@
+{
+  "task_id": "POD-TASK-KARANA-20261022",
+  "article_id": "POD-EDIT-465",
+  "programme_id": "POD-A500-119",
+  "work_id": "POD-WORK-309",
+  "status": "in_progress",
+  "input_head": "d47ce3da632ed3cae5b2df356f52c8e8904d8b0a",
+  "started_at": "2026-10-22T02:25:37.674245+00:00",
+  "route": "/communities/karana/",
+  "scope": "Karana histories in Odisha: community formation, scribal work and offices, documented origins versus traditions, regional institutions and social change. Distinguish community, office/title and similar names; no automatic Kayastha or Karanam equivalence or hereditary rank.",
+  "acceptance": [
+    "Original inspected evidence supports meaningful community-specific history beyond an occupational definition, with dated examples and honest origin limits.",
+    "Canonical KB and source mapping, readable numbered-footnote article, preserved media rights and portable reading.",
+    "Separate AI review, meaningful tests and responsive review, reviewed PR, approved deployment and live receipt before count."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only research /tmp/pod-karana-research.json",
+      "status": "completed"
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/pages/communities/karana.astro",
+        "projects/site/tests-coast/karana-editorial.test.mjs"
+      ],
+      "status": "completed"
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Read-only integrated source and candidate review",
+      "status": "reviewing"
+    },
+    {
+      "name": "Disha",
+      "scope": "Canonical narrative, shared records and publishing",
+      "status": "working"
+    }
+  ],
+  "worker_reconciliation": "Existing workers completed Kumbhara; PR433 merge aa8d31ba observed and claim released. Unrelated PR304/281 untouched.",
+  "next_action": "Complete separate exact-head AI review, passing remote checks, approved publication and live receipt; retain ownership through receipt merge.",
+  "research": "research/sources/karana-research.json",
+  "implementation": "records/karana-implementation-2026-10-22.json"
+}
