@@ -903,3 +903,7 @@ Reuse `communities/kumbhara.json`, `communities/kumbhara.md` and `sources/kumbha
 ## Karana community history · 22 October 2026
 
 Reuse `communities/karana.json`, `communities/karana.md` and `sources/karana-research.json`. Bhadrak historical synthesis, Stirling1825 classification, Dash2022 temple-service traditions and CIIL2020 book metadata have separate evidentiary roles. No single founder, current caste/office equivalence or complete branch map. Tanabe chapter excluded pending direct access; no original manuscripts inspected.
+
+## Kaibarta community history · 22 October 2026
+
+Reuse `communities/kaibarta.json`, `communities/kaibarta.md` and `sources/kaibarta-research.json`. FAO-hosted1985 study and Chhotray2016 original field research add occupational/institutional history; existing Chaiti Ghoda narrative is linked, not recounted as new delivery. Behera2012 cultural description is distinct from the older annual source. Kewat/Keota naming connection remains regional; koeta remains unresolved. No universal aliases or current fishing-rights findings.
