@@ -1,0 +1,123 @@
+{
+  "role": "Anvesha, read-only AI research",
+  "input_head": "330c86c71e766e1a1093ce267c617ab8f3e30f2d",
+  "readiness": "Viable focused regional article, about450–500words without padding. Concrete work/transport/document-mark history plus local teaching counterexample; no foundingdate or castecreator established.",
+  "checks": [
+    "Read current governance, completedChitrakara handoff and researchmap; operations currentarticle null atstart",
+    "ResearchCLI Teli no narrativehit; coverage groupedrow only, not universalaliasauthority",
+    "Searched reused Census1967craftsurvey: only incidentalTeli listing, no relevantoilpressingchapter",
+    "Read full1909Telli entry in originalGutenberg transcription and crosscheckedWikisource",
+    "Read reusedBhadrak p43 andGanjam p101 originals",
+    "Downloaded original Daanla monograph, read frontmatter1962investigation/1968publication and pp6,7,48–49"
+  ],
+  "sources": [
+    {
+      "id": "teli-thurston1909",
+      "title": "Edgar Thurston, assisted by K.Rangachari, Castes and Tribes of Southern India, VolumeVII (GovernmentPress,Madras,1909)",
+      "url": "https://www.gutenberg.org/files/42997/42997-h/42997-h.htm",
+      "locator": "Telli entry pp15–17; adjacentTelikula p15",
+      "status": "inspected completeentry",
+      "budget_words": 200,
+      "findings": [
+        "Entry identifies OriyaTellis withoilpressing; namesHolodia,Bolodia,Khadi tentatively(apparently) assections. Holodia originalturmericoccupation is explicitly saidtohavebeen, not independentlydatedorigin.",
+        "Bolodia linked to carrying oilseeds/produce onpackbullocks; Khadi principallyoilpressing, also practiced byothers. Avoidrigid onegrouponejob mapping.",
+        "p16nisani documentmarks: turmericsymbolforHolodia, bullockbeltforBolodia, curvedoil-millpoleforKhadi. Specifically peopleusingmarks instead of signatures, not allmembers. Useful concrete connection between work and publicidentity.",
+        "p17weddingaccount: marriedwomen carry whitepaintedpots totemple and collectwater atsevenhouses with conch/pipes; expressly notes otherOdia castes sharewatercustom. Optionalhistorical example, not currentuniversalritual orproofDandiya/Haldi absent.",
+        "p15adjacententry explicitly distinguishes TeluguTelikula fromOriyaTelli andTellakula. No universalaliaspermitted."
+      ],
+      "limits": [
+        "Colonialclassification contains hierarchy/stereotypes; rejectrankclaims.",
+        "Sahu title recorded but insufficient toidentifyanySahu/Sahooperson caste.",
+        "Do not present etymology as proofwhencommunityformed.",
+        "No contemporaryfieldconfirmation; regionalcoverage not comprehensive.",
+        "Entirevolume200wordderivedbudget inclnotes, not perentry."
+      ]
+    },
+    {
+      "id": "chasa-bhadrak-gazetteer",
+      "reuse": true,
+      "title": "Bhadrak District Gazetteer, Teli subsection",
+      "url": "https://bhadrak.odisha.gov.in/sites/default/files/2023-06/2020120281%20%281%29.pdf",
+      "capture": "/tmp/pod-chasa-bhadrak.pdf",
+      "locator": "printed43/PDF59",
+      "status": "inspected originalpassage",
+      "budget_words": 200,
+      "findings": [
+        "Describes oilpressing/sale and Kuberaputra sonsofKubera name; deityassociation is not historicalgenealogy.",
+        "Lists Haladia,Khari andBaladia/Thoria; firsttwo oilpressing, lastturmerictransportbybullocks. Differs from1909assignment, so retainregional/source-specific wording, never harmonize into universalbranchmap.",
+        "Reports movement into otherprofessions including trade/manufacture; publicationaccount not2026labourstatistics."
+      ],
+      "limits": [
+        "Reject strongbusinessacumen stereotype.",
+        "Exactimprintdate unresolved inthischeck; existingdossier2015–16compilationcontext, URL2020notpublicationproof.",
+        "Presenttense cannotbeassumedcurrent."
+      ]
+    },
+    {
+      "id": "teli-daanla-census1961-survey1962-pub1968",
+      "title": "M.Ahmed, A Monograph on Village Daanla, Census of India1961, VolumeXII PartVI No6, Orissa; investigation1962, published1968",
+      "url": "https://censusindia.gov.in/nada/index.php/catalog/28120/download/31302/23422_1961_DAA.pdf",
+      "capture": "/tmp/pod-teli-daanla.pdf",
+      "text": "/tmp/pod-teli-daanla.txt",
+      "locator": "PDF4 imprint; printed6/PDF38 settlementpara26; printed7/PDF39 communitytable; printed48–49/PDF80–81 teacherhousehold",
+      "status": "OriginalPDFdownloaded and selectedpagesinspected",
+      "budget_words": 200,
+      "findings": [
+        "Village Daanla inSadarSubdivisionKeonjhar; purposivelychosenCensusvillagestudy, notrandomstatewide sample.",
+        "1962investigation recorded singleTeli household ofoneperson, the schoolteacher; settlement account calls it arrival inpresentgeneration relative tosurvey.",
+        "Provides concreteexamplecommunitylabel didnotforceoilpressingoccupation by1962. Do notinfer typicalemployment, statewideproportion orname ofteacher.",
+        "p49identifies school established1950; optional context only, no teacheridentity/dateofappointment established."
+      ],
+      "limits": [
+        "1961censusseries !=1962investigation !=1968publication; preserveall.",
+        "No inference onepersonrepresentedentirecommunity or migration origin.",
+        "No currentlegalstatus claims from historicaltable.",
+        "Ignore narrative literacy-interest stereotypes aboutothercommunities."
+      ]
+    },
+    {
+      "id": "nolia-ganjam-gazetteer",
+      "reuse": true,
+      "optional": true,
+      "title": "Ganjam District Gazetteer, Teli subsection",
+      "url": "https://ganjam.odisha.gov.in/sites/default/files/2023-06/2018032995.pdf",
+      "capture": "/tmp/pod-gopala-ganjam.pdf",
+      "locator": "printed101/PDF117 (index printed113 erroneous relative actualpageheading)",
+      "status": "inspected originalpassage",
+      "budget_words": 200,
+      "findings": [
+        "Reports Teli self/othername and recent appellationsTailikaVaishya,SadhabaTeli,Kuveraputra with limitedacceptance according toaccount.",
+        "Notes pastindigenousoilpressing andtrade withmanynowtradesmen inaccount."
+      ],
+      "limits": [
+        "Optionalmostlyredundant; avoidusingnameadoption ascurrentrepresentativeclaim.",
+        "No preciseformationchronology, no currentclassificationauthority."
+      ]
+    }
+  ],
+  "reuse_limits": [
+    {
+      "id": "kansari-census1961-survey1967",
+      "reason": "Only incidentalTeli oilmanlabel inTarbha metalcraftcontext, not substantivenewsourceforTeli."
+    },
+    {
+      "path": "kb/research/communities/coverage-index.json",
+      "reason": "GroupedTeli/Telli/Kubara/Talakar/Sahu/etc labels preserveascoverageleads only; notprovenuniversalaliases."
+    }
+  ],
+  "narrative_plan": [
+    "Beginwithoilworklinkedidentity, butexplicitlynotacompletepersonbiography.",
+    "1909source: seeds,presses,packbullocks anddocumentmarks provideconcretesocialhistory; preserveuncertaintyofsections.",
+    "Bhadrakdifferentdivisionofworkwarnsagainstflatteningregions; Kuberaassociation onlyorigintradition/name.",
+    "Daanla1962schoolteacherdemonstratesoccupationandidentitycandiverge usingdatedsmallcase.",
+    "Optionalhistoricalwatercollectionweddingexample ifsourcebudgetallows; notexclusiveorcurrentrule.",
+    "Concludeearlyformationunknown andlocalfamily/tradeevidencestillneeded."
+  ],
+  "media": "No verifiedcommunity-specific rights-clearedimage; genericmill wouldillustrateequipment only, notmakeridentity.",
+  "changes": "Only /tmp report/captures; no repoedits",
+  "limits": [
+    "No humanreview/fieldconfirmation",
+    "No ancientfounder/date or comprehensivebranchmap",
+    "Source-derivedpublicprose<=200/source includingnotes"
+  ]
+}

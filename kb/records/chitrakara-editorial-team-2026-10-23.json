@@ -3,7 +3,7 @@
   "article_id": "POD-EDIT-471",
   "programme_id": "POD-A500-124",
   "work_id": "POD-WORK-315",
-  "status": "published_receipt_integration_pending",
+  "status": "completed",
   "input_head": "efc65b5f1c64a40f9af98d4ec5540d7280bc10fa",
   "started_at": "2026-10-22T20:58:42.894707+00:00",
   "route": "/communities/chitrakara/",
@@ -18,7 +18,8 @@
       "name": "Anvesha",
       "runtime": "/root/anvesha",
       "scope": "Read-only original research /tmp/pod-chitrakara-research.json",
-      "status": "completed"
+      "status": "completed",
+      "scope_released": true
     },
     {
       "name": "Samanta",
@@ -27,22 +28,25 @@
         "projects/site/src/pages/communities/chitrakara.astro",
         "projects/site/tests-coast/chitrakara-editorial.test.mjs"
       ],
-      "status": "completed"
+      "status": "completed",
+      "scope_released": true
     },
     {
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Read-only integrated candidate review",
-      "status": "completed"
+      "status": "completed",
+      "scope_released": true
     },
     {
       "name": "Disha",
       "scope": "Canonical narrative/shared records/publishing",
-      "status": "working"
+      "status": "completed",
+      "scope_released": true
     }
   ],
   "worker_reconciliation": "Gopala PR449 receipt merged521afb60; local completionefc65b5f retained. All previous workers completed and scopes released; external current_article/task null, unrelated PR304/281 untouched.",
-  "next_action": "Merge reviewed receipt with passing required checks, observe actual merge, then release ownership.",
+  "next_action": "Chitrakara receipt merged and ownership released. On next wake reconcile workers and durable state, select next useful community-series subject from coverage index and existing KB, and establish scoped source-backed acceptance before implementation. Continue remaining editorial rollout one article at a time. Do not repeat published community articles; consult the current coverage index. For every future article run the local coastal acceptance audit before submission; also verify actual mobile viewport and screenshot dimensions. No active article.",
   "research": "research/sources/chitrakara-research.json",
   "implementation": "records/chitrakara-implementation-2026-10-23.json",
   "publication_receipt": "records/chitrakara-editorial-publication-2026-10-23.json",
@@ -50,6 +54,99 @@
   "counting": {
     "completed_items": 124,
     "increment": 1,
-    "basis": "Individually researched published article with live evidence; receipt integration pending."
+    "basis": "One individually researched published article; reviewed receipt merge observed."
+  },
+  "receipt_integration_observed": {
+    "pull_request": 451,
+    "reviewed_head": "3b4a8c335ac9040fcffb8af7d6b22769b51ea4e4",
+    "merge_commit": "112be3805658bcafe339486b2271eb40959798ed",
+    "merged_at": "2026-10-22T21:21:03Z",
+    "validation_run": 39855884699,
+    "validation_result": "success",
+    "review": "Drishti independently reviewed exact 3b4a8c33 receipt; coordinator observed required checks and actual remote merge."
+  },
+  "receipt_review": {
+    "reviewer": "Drishti",
+    "review_type": "Independent AI receipt review; not human review",
+    "status": "PASS",
+    "input_head": "3b4a8c335ac9040fcffb8af7d6b22769b51ea4e4",
+    "reviewed_head": "3b4a8c335ac9040fcffb8af7d6b22769b51ea4e4",
+    "comparison_base": "11e96f8732af82a2404045dabf60ffbbe5f9873e",
+    "reviewed_at": "2026-10-22T21:16:41.208393+00:00",
+    "findings": [],
+    "blockers": [],
+    "register_deltas": [
+      {
+        "collection": "items",
+        "changed": [
+          "POD-A500-124"
+        ],
+        "added": [],
+        "removed": []
+      },
+      {
+        "collection": "items",
+        "changed": [
+          "POD-EDIT-471"
+        ],
+        "added": [],
+        "removed": []
+      },
+      {
+        "collection": "work",
+        "changed": [
+          "POD-WORK-315"
+        ],
+        "added": [],
+        "removed": []
+      },
+      {
+        "collection": "reviews",
+        "changed": [],
+        "added": [
+          "POD-REV-2026102304"
+        ],
+        "removed": []
+      },
+      {
+        "collection": "releases",
+        "changed": [],
+        "added": [
+          "POD-REL-2026102304"
+        ],
+        "removed": []
+      }
+    ],
+    "checks": [
+      "124completedprogrammeitems and77editorialarticles verified; only currentChitrakara existing entries changed.",
+      "Prior123programmeentries and public/source hashes unchanged.",
+      "Normalized review retains all fields except PASS status normalized to pass_with_limitations.",
+      "SavedPR450 reviewed8b195e53 aligns merge11e96f87 and successfuldeploy39855049079; requiredCI39854492224success linked.",
+      "Saved liveHTML and exact browserreport preserved, three orderednotes and exactkeyboardreturn, noindex and boundeddescription.",
+      "Claim retained receipt_integrated with receipt_merge_pending true. No humanreview inferred."
+    ],
+    "tests": [
+      {
+        "name": "test_autonomous_program.py",
+        "result": "PASS30tests"
+      },
+      {
+        "name": "test_registers.py",
+        "result": "PASS1160records653events"
+      },
+      {
+        "name": "check_team_assignments.py",
+        "result": "PASS"
+      },
+      {
+        "name": "git diff --check11e96f87..HEAD",
+        "result": "PASS"
+      }
+    ],
+    "limits": [
+      "Remote CI/merge/deployment and live outcomes assessed from saved response evidence and linked receipt; not freshly queried or replayed in this review.",
+      "No human communityreview, fieldconfirmation or original chronicle/grant inspection; final source limitations preserved."
+    ],
+    "repository_edits": []
   }
 }
