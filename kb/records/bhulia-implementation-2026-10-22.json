@@ -1,0 +1,69 @@
+{
+  "task_id": "POD-TASK-BHULIA-20261022",
+  "article_id": "POD-EDIT-463",
+  "worker": "Samanta, AI implementation agent",
+  "input_head": "a8a655567012c61cfd137895beecc445b8e487eb",
+  "handoff_input_head": "feefcb0af564a03792f5e2dbde55a5477e033679",
+  "status": "implementation and local verification passed",
+  "actual_edits": [
+    "projects/site/src/pages/communities/bhulia.astro",
+    "projects/site/tests-coast/bhulia-editorial.test.mjs"
+  ],
+  "implementation": [
+    "Canonical source-driven page with byline, numbered notes and exact backlinks.",
+    "Shared reading rhythm and contents; collapsed further reading and visible correction.",
+    "SaveJourney reading:bhulia; portable full prose and short-source tests.",
+    "No fixed source counts, factual prose, alias assumptions or identity imagery.",
+    "Canonical documentary figure after changing-tools; full frame retained with visible maker-identity limitation, creator/source/CC BY-SA 4.0/changes. Portable export remains text-only."
+  ],
+  "tests": [
+    {
+      "name": "Node24 syntax check",
+      "result": "pass"
+    },
+    {
+      "name": "git diff --check",
+      "result": "pass"
+    },
+    {
+      "name": "full build and npm test",
+      "result": "566/566 pass",
+      "log": "/tmp/pod-bhulia-full-tests.log"
+    },
+    {
+      "name": "coast build and tests",
+      "result": "434/434 pass",
+      "log": "/tmp/pod-bhulia-coast-tests.log"
+    },
+    {
+      "name": "publication build",
+      "result": "pass; limited11 indexable",
+      "log": "/tmp/pod-bhulia-publication.log"
+    }
+  ],
+  "pending": [
+    "Separate review, CI, merge/deployment and live check after coordinator signal"
+  ],
+  "limits": [
+    "Only reserved page/test edited; no shared records or Git mutations.",
+    "No factual research or publication.",
+    "Preview-only save; no production mutation.",
+    "Image provenance sourced and inspected by coordinator; this verification checks rendered attribution and full-frame behavior."
+  ],
+  "responsive": {
+    "tool": "CUA Chrome",
+    "desktop": "1440x1000;740px reading column; no overflow",
+    "mobile": "390x844;390px article width; no overflow",
+    "figure": "1600x1067 loaded;695x464 desktop,352px wide mobile; contain fit, full frame and visible provenance at both widths",
+    "notes": "Footnote1 focuses note-bhulia-russell-hiralal1916; return focuses exact ref-remembered-journeys-0-bhulia-russell-hiralal1916",
+    "contents": "Changing tools link focuses heading",
+    "further_reading": "Collapsed default; expands; Bandha link opens expected textile route",
+    "save": "Local preview saved state persists reload",
+    "screenshots": [
+      "/tmp/pod-bhulia-desktop.png",
+      "/tmp/pod-bhulia-mobile.png",
+      "/tmp/pod-bhulia-desktop-figure.png",
+      "/tmp/pod-bhulia-mobile-figure.png"
+    ]
+  }
+}
