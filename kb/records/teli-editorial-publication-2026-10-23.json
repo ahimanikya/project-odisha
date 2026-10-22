@@ -1,0 +1,107 @@
+{
+  "recorded_at": "2026-10-22T22:20:34.690372+00:00",
+  "authorization": "POD-DEC-225",
+  "program_item": "POD-A500-125",
+  "work_id": "POD-WORK-316",
+  "queue_item": "POD-EDIT-472",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/452",
+  "reviewed_head": "d9b293141a2b8bc5da1399a984143a0475457862",
+  "merge_commit": "6495fa036347e213e624eebaf8f79f6642007b8c",
+  "validation": {
+    "conclusion": "success",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39863034412"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "createdAt": "2026-10-22T22:15:52Z",
+    "databaseId": 39863650760,
+    "headSha": "6495fa036347e213e624eebaf8f79f6642007b8c",
+    "status": "completed",
+    "updatedAt": "2026-10-22T22:19:12Z",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39863650760",
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "review": "records/teli-delivery-review-2026-10-23.json",
+  "live": {
+    "result": "PASS",
+    "checked_at": "2026-10-22T22:19:30.263354+00:00",
+    "url": "https://projectodisha.org/communities/teli/",
+    "html_sha256": "cc1e6ed91450e4b7fae88286dd9a89a99fdc06828f8702f9908610aa978d9f68",
+    "checks": [
+      "All canonical prose matches",
+      "Founder byline",
+      "Three visible source note targets",
+      "noindex preserved",
+      "Bounded canonical description present"
+    ]
+  },
+  "live_browser": {
+    "worker": "Samanta, AI implementation agent",
+    "input_head": "6495fa036347e213e624eebaf8f79f6642007b8c",
+    "deployment": "39863650760",
+    "checked_at": "2026-10-22T22:20:15.961Z",
+    "url": "https://projectodisha.org/communities/teli/",
+    "status": "pass",
+    "desktop": {
+      "collapsed": true,
+      "column": 740,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "mobile": {
+      "height": 844,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    "title": "Teli: oil, transport and changing work",
+    "byline": "By Ahimanikya Satapathy",
+    "note_order": [
+      "Thurston1909",
+      "Bhadrak Gazetteer",
+      "Daanla monograph"
+    ],
+    "keyboard_note": {
+      "focus": "note-teli-thurston1909",
+      "hash": "#note-teli-thurston1909"
+    },
+    "keyboard_exact_return": {
+      "focus": "ref-oil-and-transport-0-teli-thurston1909",
+      "hash": "#ref-oil-and-transport-0-teli-thurston1909"
+    },
+    "further_reading": "Further reading\nPaika: service and community history →\nKansari: learning and changing metalwork →\nChitrakara: service, households and changing work →",
+    "screenshots": [
+      "/tmp/pod-teli-live-desktop.png",
+      "/tmp/pod-teli-live-mobile.png"
+    ],
+    "visual": "Both screenshots inspected; title and byline readable, mobile menu, no overflow. Further reading initially collapsed; keyboard expands.",
+    "limits": [
+      "No production Save/download or repository edits.",
+      "Deployment/head supplied by coordinator; browser verifies live behavior."
+    ],
+    "screenshot_metadata": {
+      "method": "sips pixelWidth/pixelHeight",
+      "desktop": [
+        1440,
+        1000
+      ],
+      "mobile": [
+        390,
+        844
+      ]
+    }
+  },
+  "verified_routes": [
+    "/communities/teli/"
+  ],
+  "limits": [
+    "Separate AI review, not human community review or fieldwork.",
+    "No universal name equivalence, surname-based identity or independently verified founder/creation date established.",
+    "Thurston1909 colonial regional description; inherited rank and innate stereotypes rejected. Wedding water account is historical and shared, not universal or proof of cultural displacement.",
+    "Bhadrak imprint date remains unresolved; distinct regional subgroup account retained.",
+    "Daanla1962 investigation published1968 in1961Census series; single Teli teacher is not a representative employment sample.",
+    "No verified community-specific image added. Search eligibility unchanged."
+  ],
+  "receipt_validation_correction": "Initial receipt validator and one programme test rejected a job-detail URL; corrected to the parent Actions run URL before submission. Actual CI outcome unchanged."
+}

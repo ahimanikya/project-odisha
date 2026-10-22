@@ -3,7 +3,7 @@
   "article_id": "POD-EDIT-472",
   "programme_id": "POD-A500-125",
   "work_id": "POD-WORK-316",
-  "status": "reviewing",
+  "status": "published_receipt_integration_pending",
   "input_head": "330c86c71e766e1a1093ce267c617ab8f3e30f2d",
   "started_at": "2026-10-22T22:05:56.301852+00:00",
   "route": "/communities/teli/",
@@ -35,7 +35,7 @@
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Read-only integrated candidate review",
-      "status": "reviewing",
+      "status": "completed",
       "scope_released": false
     },
     {
@@ -46,7 +46,14 @@
     }
   ],
   "worker_reconciliation": "Chitrakara receipt PR451 merged112be380 and local completion330c86c7 retained. Existing workers reconciled; external current_article/task null; unrelated PR304/281 untouched.",
-  "next_action": "Drishti final exact-head review, then required checks and approved publication.",
+  "next_action": "Merge reviewed receipt with passing required checks, observe actual merge, then release ownership.",
   "research": "research/sources/teli-research.json",
-  "implementation": "records/teli-implementation-2026-10-23.json"
+  "implementation": "records/teli-implementation-2026-10-23.json",
+  "publication_receipt": "records/teli-editorial-publication-2026-10-23.json",
+  "review": "records/teli-delivery-review-2026-10-23.json",
+  "counting": {
+    "completed_items": 125,
+    "increment": 1,
+    "basis": "Individually researched published article with live evidence; receipt integration pending."
+  }
 }

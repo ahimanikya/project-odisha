@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e8c5bc624191b29819c75c3953dce1894b81515a6485e3c82e7a9f3325f457ae`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `cb2e40d5df96649c17e34626d65f0a049125490218bbc3ed9c0a76e9dde5a6da`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -340,7 +340,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-313 · Research and publish Kansari community history | completed | published | Ahimanikya Satapathy | Retain ownership through receipt merge before another article. | — |
 | POD-WORK-314 · Research and publish Gopala regional community history | completed | published | Ahimanikya Satapathy | Retain ownership through receipt merge before another article. | — |
 | POD-WORK-315 · Research and publish Chitrakara community history | completed | published | Ahimanikya Satapathy | Retain ownership through receipt merge before another article. | — |
-| POD-WORK-316 · Research and publish Teli community history | in_progress | draft | Ahimanikya Satapathy | Research and implement, then separately review and publish with receipt. | — |
+| POD-WORK-316 · Research and publish Teli community history | completed | published | Ahimanikya Satapathy | Retain ownership through receipt merge before another article. | — |
 
 ## Pending human review and decisions
 
@@ -1006,6 +1006,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026102302 | pass_with_limitations | True | Separate AI review, not human community review or fieldwork.; Workshop inheritance and occupational change do not establish a universal founder or formation date.; Historical Census observations are local and dated; the1961series volume was published1967.; OCO maker and residency accounts are attributed; programme aims do not establish livelihood outcomes.; Administrative Thatari/Kansari label is a research lead, not universal synonymy.; No unrestricted community-specific image rights established; search eligibility unchanged. |
 | POD-REV-2026102303 | pass_with_limitations | True | Separate AI review, not human community review or fieldwork.; No universal name equivalence, founder, creation date or verified descent established.; 1909 colonial classifications are historical testimony with explicit doubts; hierarchy and stereotypes rejected.; District gazetteer edition dates unresolved; occupational accounts are not current statistics.; Bula Das2012 is literary interpretation, not original manuscript dating; Nemalo report URL and update dates differ.; No unrestricted community-specific image rights established; search eligibility unchanged. |
 | POD-REV-2026102304 | pass_with_limitations | True | Separate AI review, not human community review or fieldwork.; No universal name equivalence or independently verified founder, creation date or descent established.; Tripathy1998 fieldwork dates unspecified; unsafe ritual calendar and principal-image painting claims excluded.; Williams1996 selected passages; Buguda painter origins unresolved, not genealogy.; FMC May2008 study is dated artist-household and market evidence, not current population statistics;2024 upload is not publication year.; Existing unidentified-artist photograph does not establish community identity; no new image added. Search eligibility unchanged. |
+| POD-REV-2026102305 | pass_with_limitations | True | Separate AI review, not human community review or fieldwork.; No universal name equivalence, surname-based identity or independently verified founder/creation date established.; Thurston1909 colonial regional description; inherited rank and innate stereotypes rejected. Wedding water account is historical and shared, not universal or proof of cultural displacement.; Bhadrak imprint date remains unresolved; distinct regional subgroup account retained.; Daanla1962 investigation published1968 in1961Census series; single Teli teacher is not a representative employment sample.; No verified community-specific image added. Search eligibility unchanged. |
 
 ## Publication and application history
 
@@ -1237,6 +1238,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026102302 · Kansari learning and changing metalwork | published | https://projectodisha.org/communities/kansari/ | POD-DEC-225 |
 | POD-REL-2026102303 · Gopala cattle work and Dola traditions | published | https://projectodisha.org/communities/gopala/ | POD-DEC-225 |
 | POD-REL-2026102304 · Chitrakara service households and changing work | published | https://projectodisha.org/communities/chitrakara/ | POD-DEC-225 |
+| POD-REL-2026102305 · Teli oil transport and changing work | published | https://projectodisha.org/communities/teli/ | POD-DEC-225 |
 
 ## Sources and assets
 
@@ -1274,7 +1276,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261022003 | 2026-10-21T22:41:01.338660+00:00 | Chasa history published through reviewed PR426 and approved deployment; live checks passed.67 editorial articles complete;115 substantive items. Claim retained through receipt merge. | — |
 | POD-EVT-20261022004 | 2026-10-21T23:40:30.497590+00:00 | Tanti history published through reviewed PR428 and approved deployment; live checks passed.68 editorial articles complete;116 substantive items. Claim retained through receipt merge. | — |
 | POD-EVT-20261022005 | 2026-10-22T00:44:08.490520+00:00 | Bhulia history published through reviewed PR430 and approved deployment; live checks passed.69 editorial articles complete;117 substantive items. Claim retained through receipt merge. | — |
 | POD-EVT-20261022006 | 2026-10-22T01:44:21.249373+00:00 | Kumbhara history published through reviewed PR432 and approved deployment; live checks passed.70 editorial articles complete;118 substantive items. Claim retained through receipt merge. | — |
@@ -1284,6 +1285,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261023002 | 2026-10-22T19:10:33.157073+00:00 | Kansari history published through reviewed PR446 and approved deployment; live checks passed. 75 editorial articles complete;122 substantive items. Claim retained through receipt merge. | — |
 | POD-EVT-20261023003 | 2026-10-22T20:14:01.390180+00:00 | Gopala history published through reviewed PR448 and approved deployment; live checks passed. 76 editorial articles complete;123 substantive items. Claim retained through receipt merge. | — |
 | POD-EVT-20261023004 | 2026-10-22T21:15:55.439826+00:00 | Chitrakara history published through reviewed PR450 and approved deployment; live checks passed. 77 editorial articles complete;124 substantive items. Claim retained through receipt merge. | — |
+| POD-EVT-20261023005 | 2026-10-22T22:20:34.690372+00:00 | Teli history published through reviewed PR452 and approved deployment; live checks passed. 78 editorial articles complete;125 substantive items. Claim retained through receipt merge. | — |
 
 ## Deferred extensions
 

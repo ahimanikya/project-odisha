@@ -9200,18 +9200,21 @@
       "id": "POD-WORK-316",
       "title": "Research and publish Teli community history",
       "category": "website_and_knowledge",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti AI review",
       "authorization": "POD-DEC-225",
-      "next_action": "Research and implement, then separately review and publish with receipt.",
+      "next_action": "Retain ownership through receipt merge before another article.",
       "blockers": [],
       "refs": [
-        "POD-DEC-225"
+        "POD-DEC-225",
+        "POD-REV-2026102305",
+        "POD-REL-2026102305"
       ],
       "evidence": [
-        "records/teli-editorial-team-2026-10-23.json"
+        "records/teli-editorial-team-2026-10-23.json",
+        "records/teli-editorial-publication-2026-10-23.json"
       ]
     }
   ],
@@ -22493,6 +22496,33 @@
         "FMC May2008 study is dated artist-household and market evidence, not current population statistics;2024 upload is not publication year.",
         "Existing unidentified-artist photograph does not establish community identity; no new image added. Search eligibility unchanged."
       ]
+    },
+    {
+      "id": "POD-REV-2026102305",
+      "title": "Separate Teli source and integrated article review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human historian or community review.",
+      "reviewed_head": "d9b293141a2b8bc5da1399a984143a0475457862",
+      "refs": [
+        "POD-WORK-316",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/teli-delivery-review-2026-10-23.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human community review or fieldwork.",
+        "No universal name equivalence, surname-based identity or independently verified founder/creation date established.",
+        "Thurston1909 colonial regional description; inherited rank and innate stereotypes rejected. Wedding water account is historical and shared, not universal or proof of cultural displacement.",
+        "Bhadrak imprint date remains unresolved; distinct regional subgroup account retained.",
+        "Daanla1962 investigation published1968 in1961Census series; single Teli teacher is not a representative employment sample.",
+        "No verified community-specific image added. Search eligibility unchanged."
+      ]
     }
   ],
   "releases": [
@@ -26194,6 +26224,22 @@
         "records/chitrakara-editorial-publication-2026-10-23.json"
       ],
       "note": "Reviewed PR450, passing checks, approved deployment and live verification. One substantive article; search eligibility unchanged."
+    },
+    {
+      "id": "POD-REL-2026102305",
+      "title": "Teli oil transport and changing work",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/communities/teli/",
+      "refs": [
+        "POD-WORK-316",
+        "POD-REV-2026102305",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/teli-editorial-publication-2026-10-23.json"
+      ],
+      "note": "Reviewed PR452, passing checks, approved deployment and live verification. One substantive article; search eligibility unchanged."
     }
   ],
   "sources": [
