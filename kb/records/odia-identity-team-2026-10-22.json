@@ -1,0 +1,106 @@
+{
+  "task_id": "POD-TASK-ODIA-IDENTITY-20261022",
+  "article_id": "POD-EDIT-467",
+  "status": "reviewed_ready_for_ci",
+  "input_head": "b60103e8",
+  "route": "/stories/odia-cultural-identity/",
+  "authorization_quote": "So do a deep research on this and let's build a solid article around this and publish it.",
+  "editorial_direction": "Celebrate what to know, practise and pass on; comparisons clarify rather than complain.",
+  "worker_reconciliation": "Previous Kaibarta receipt merged in PR437 at b60103e8; rollout shows completed, all workers completed. Open PR304/281 unrelated and untouched.",
+  "executions": [
+    {
+      "name": "Anvesha",
+      "scope": "Read-only research; report /tmp/odia-identity-research-review.json",
+      "status": "completed",
+      "runtime": "/root/anvesha_identity"
+    },
+    {
+      "name": "Samanta",
+      "scope": [
+        "projects/site/src/pages/stories/odia-cultural-identity.astro",
+        "projects/site/tests-coast/odia-identity.test.mjs"
+      ],
+      "status": "completed",
+      "runtime": "/root/samanta_identity"
+    },
+    {
+      "name": "Drishti",
+      "scope": "Read-only integrated article review after implementation",
+      "status": "completed",
+      "runtime": "/root/drishti_identity"
+    },
+    {
+      "name": "Disha",
+      "scope": "Article text, evidence, shared registers, navigation and publishing"
+    }
+  ],
+  "reserved_files": [
+    "kb/research/culture/odia-cultural-identity.md",
+    "kb/research/sources/odia-identity-evidence.json",
+    "projects/site/src/pages/stories/odia-cultural-identity.astro",
+    "projects/site/tests-coast/odia-identity.test.mjs"
+  ],
+  "next_action": "Finish responsive verification and CI; publish and record live receipt.",
+  "research": "research/sources/odia-identity-evidence.json",
+  "work_id": "POD-WORK-311",
+  "authorization": "POD-DEC-2026102209",
+  "counting": {
+    "increment": 0,
+    "basis": "User-directed essay; no autonomous500 credit claimed."
+  },
+  "review": "records/odia-identity-quality-review-2026-10-22.json",
+  "browser_review": "records/odia-identity-browser-review-2026-10-22.json",
+  "validation": {
+    "full_tests": 566,
+    "coast_tests": 449,
+    "result": "pass",
+    "audits": [
+      "coast",
+      "discovery",
+      "launch-readiness",
+      "search-shortlist",
+      "publication build",
+      "research core",
+      "classification",
+      "research-map",
+      "collections",
+      "osha-culture",
+      "registers",
+      "bundle",
+      "team",
+      "rollout"
+    ],
+    "resolved_failures": [
+      "Outdated Node runtime and missing local Firebase dependency: used required Node24 and npm ci.",
+      "New route search decision and static page count: registered hold and incremented expected count."
+    ],
+    "catalog_scope": "Unrelated untracked duplicate files preserved, excluded from committed catalogue; clean CI will validate committed inventory."
+  },
+  "changed_files": [
+    "kb/catalog.json",
+    "kb/history/ledger.jsonl",
+    "kb/records/article-editorial-rollout.json",
+    "kb/records/article-editorial-work-list.md",
+    "kb/records/editorial-workbench.json",
+    "kb/records/odia-identity-browser-review-2026-10-22.json",
+    "kb/records/odia-identity-quality-review-2026-10-22.json",
+    "kb/records/odia-identity-team-2026-10-22.json",
+    "kb/registers/DASHBOARD.md",
+    "kb/registers/records.json",
+    "kb/research/culture/index.md",
+    "kb/research/culture/odia-cultural-identity.md",
+    "kb/research/log.md",
+    "kb/research/references/data/imported-research-scope.json",
+    "kb/research/search-index.json",
+    "kb/research/sources/odia-identity-evidence.json",
+    "kb/team/operations.json",
+    "projects/site/editions/coast.json",
+    "projects/site/editions/search-candidate.json",
+    "projects/site/src/pages/explore.astro",
+    "projects/site/src/pages/stories/culture-trails/index.astro",
+    "projects/site/src/pages/stories/odia-cultural-identity.astro",
+    "projects/site/tests-coast/odia-identity.test.mjs",
+    "projects/site/tests/build.test.mjs",
+    "projects/site/tools/nimuhi-footnote-heading.mjs"
+  ]
+}

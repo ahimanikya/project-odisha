@@ -1,5 +1,9 @@
 # Change history
 
+## 2026-10-22
+
+Added the Founder-directed Odia Cultural Identity and Pride essay, with contextual festival names, regional practices, textiles, food and practical transmission. Reused Dalkhai, Nuakhai and Bandha knowledge; retained unavailable historical PDF and indexed-only source limits in the evidence record. No measured dilution, original reel transcript or human community review claimed. Publication candidate; live receipt follows validation.
+
 ## 2026-10-01 — Women writers and English reading checkpoint
 
 Run 2026-10-01T092949Z progressed RES-026: four new profiles, Pratibha Ray biography expansion, five translated stories and their anthology, four source records and explained author/work links. Preserved translator/editor roles, original-date unknowns, conflicting birth/award years and unavailable fetches. This is an unfinished literature task with an automatic continuation checkpoint. Rebuilt search, validation reports, catalogue, summaries, manifests and portable packages. Local update only; no Git push or website publication.

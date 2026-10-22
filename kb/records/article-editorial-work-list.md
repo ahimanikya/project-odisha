@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 466. completed: 72, excluded: 76, queued: 318.
+Route inventory: 467. completed: 72, excluded: 76, in_progress: 1, queued: 318.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -480,3 +480,4 @@ Route inventory: 466. completed: 72, excluded: 76, queued: 318.
 | POD-EDIT-464 | [Kumbhara: pottery and community histories](https://projectodisha.org/communities/kumbhara/) | completed | Kumbhara community histories in Odisha: pottery, origin traditions versus documented formation, local institutions and changing work. Do not conflate all potters, grouped administrative names or Kandha-Kumbhar with one ancestry. |
 | POD-EDIT-465 | [Karana: writing, offices and community history](https://projectodisha.org/communities/karana/) | completed | Karana histories in Odisha: community formation, scribal work and offices, documented origins versus traditions, regional institutions and social change. Distinguish community, office/title and similar names; no automatic Kayastha or Karanam equivalence or hereditary rank. |
 | POD-EDIT-466 | [Kaibarta: fishing boat work and community history](https://projectodisha.org/communities/kaibarta/) | completed | Kaibarta community histories in Odisha: fishing, boat work, regional names and origin traditions. Establish precise source-specific relationships with Keuta/Keot labels; never infer universal aliases or that all fishers form one caste. |
+| POD-EDIT-467 | [Odia Cultural Identity and Pride](https://projectodisha.org/stories/odia-cultural-identity/) | in_progress | Constructive cultural essay grounded in documented names, regional practices, craft and transmission; no unsupported decline claims. |
