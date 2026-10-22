@@ -1,0 +1,106 @@
+{
+  "reviewer": "Drishti",
+  "review_type": "Separate independent AI review; not human or field review",
+  "input_head": "e36b0fa8decc6aa6d4abfd59dd6b04103f28478d",
+  "status": "pass_with_limitations",
+  "reviewed_at": "2026-10-22T20:04:06.791103+00:00",
+  "findings": [],
+  "blockers": [],
+  "source_checks": [
+    "Ganjam original local PDF printed94 independently extracted/read: cattle/milk work, changing occupations and regional names supported; no universal equivalence or current survey asserted.",
+    "Thurston/Rangachari original1909 volume via Gutenberg titlepage and Gaudo entry273–276 independently read: cultivation, Sollokhondia cattle/sheep/cartwork, title/subdivision doubts and reported Yadava descent supported. Adjacent Canarese entry not conflated; colonial stereotypes/rank not adopted.",
+    "Bhadrak original local PDF printed40 independently extracted/read: older OMalley women dairy passage and nonexclusive Dola participation supported. No current demographic claim.",
+    "Bula Das original2012 local PDF text printed32 independently read: Ogala attribution, conversational motifs and water-pitcher singing at Dola supported. No poet gender inference, original manuscript/date or universal current practice asserted.",
+    "Original New Indian Express Nemalo article independently read viaweb: performance question/answer circles/lines and named organiser female-troupe observation supported; URL2009/displayed2012 conflict preserved; unsupported primordial chronology and vast corpus counts omitted."
+  ],
+  "source_budgets_including_associated_uncited_interpretation_headings_titles_notes": {
+    "Ganjam": 119,
+    "Thurston1909": 168,
+    "Bhadrak": 111,
+    "BulaDas2012": 144,
+    "NemaloReport": 147
+  },
+  "depth_assessment": "Concrete community understanding through multiple livelihoods, disputed classifications, shared festival participation, specific water-pitcher song use and Nemalo performance structure. Responds to Odia heritage concern through evidence for Laudi without claiming a shared origin with another stickdance or unsupported cultural displacement. Formation remains unresolved, not replaced by devotional genealogy.",
+  "integration_checks": [
+    "Five sources follow first-appearance order exactly; mappings present for adopted factual passages.",
+    "Canonical description and shared article components with visible notes/backlinks, collapsed further reading and visible public correction.",
+    "Coverage row stays a lead without alias relationships; Golla/KandhaGauda not merged.",
+    "New route explicit search hold, portable reading uses canonical prose; no new image or caste inferred from image.",
+    "Exact final candidate compared to source-review hashes: public/source/template/test unchanged; handoff/operations updated only among prior captured files."
+  ],
+  "tests": [
+    {
+      "check": "git diff --check",
+      "result": "PASS"
+    },
+    {
+      "check": "First appearance source order",
+      "result": "PASS5sources"
+    },
+    {
+      "check": "Final logs independently inspected",
+      "result": "PASS566full461coast1880acceptance11indexable"
+    },
+    {
+      "check": "Actual downloaded HTML independently read",
+      "result": "PASSall canonical paragraphs and five source titles"
+    },
+    {
+      "check": "git diff --check e36b0fa8..86da2bb8",
+      "result": "PASS"
+    }
+  ],
+  "limits": [
+    "Actual screenshots, logs and downloaded HTML independently inspected; browser interactions and Save persistence reported by Samanta, not replayed independently. CI, merge, deployment and live receipt remain separate gates.",
+    "No human fieldreview, manuscript inspection, familygenealogy or current population survey. Gazetteer date and Nemalo eventyear remain unresolved."
+  ],
+  "file_sha256": {
+    "kb/catalog.json": "b150d4c4bc210af784f395c4ff605f0643ed8beb396379f31f1e54f72d342044",
+    "kb/records/article-editorial-rollout.json": "6ad51703d279470ffb38cb12c126cf88f2cce0ab3125f9640146e10be162eea2",
+    "kb/records/article-editorial-work-list.md": "c6f39dcaab4cc4e373bc65514c1774cfb50bc4873c0a43aa6edf635afdf0736a",
+    "kb/records/autonomous-500-program.json": "8fb47042f199477d90f49408bacd53148b6513cc55012d41401c8186d47dbe24",
+    "kb/records/editorial-workbench.json": "3add6ba8ff11b843742f3046e875f7cd136db67374e7803c0b63fc2722f172a7",
+    "kb/records/gopala-editorial-team-2026-10-23.json": "fb51b60f5e2e86dc55ce741c13d59fa0a0396af6a675b040a0db7bb701ec9053",
+    "kb/records/gopala-implementation-2026-10-23.json": "7c45ac2090c7e46a91440782fab688d7265f9abd1c024c703f8a2c8503b4815b",
+    "kb/registers/DASHBOARD.md": "d3f61240b23ca311f57f2990cbc2a08b5e187aaa3aa785c80ec15acb36490d70",
+    "kb/registers/records.json": "4a662b24048552139089481af4c12952d604071762b353443192c276c56a5608",
+    "kb/research/communities/coverage-index.json": "07081be61139d7e10ad76c3def7772965bf6c33531c5900011f7aedcc4ee46e5",
+    "kb/research/communities/gopala.json": "671cd69eac102c83cd5fc5d8be7b3d6209cd41cf6854b1286cd3a69ca9045751",
+    "kb/research/communities/gopala.md": "2e1c6eaafe2b7f96aa635d0e3c7ea453dc54c191aa2c22dbfff29fdd52b54242",
+    "kb/research/communities/index.md": "bfcf54fa0e00a7762308b2a501c13c049dd3eb1b61e1b6f21b63690956bfd7ad",
+    "kb/research/methods/research-map.md": "2efa97cdb8772f40e4b5cde1602318e0b3ad57baa18fbc1a0e7d5cff8f1493a9",
+    "kb/research/search-index.json": "bbe8db5e4721041787981badeaf72bcf8847f9f345051232ff1fba4dc5b9b18c",
+    "kb/research/sources/gopala-research.json": "a670d7368c4ba3f8e012d30b0e0f3f5b459dfa4e0b1fdb1f2482ad193f7a4acf",
+    "kb/team/operations.json": "640ce87bb225ae2d05c55a261f342a0469c227aeecf1c0544068ecc76890dafb",
+    "projects/site/editions/coast.json": "973ee4d078700baf9951b7589974879c5acd7ada9ba39f5ddcb90218f21d21fc",
+    "projects/site/editions/search-candidate.json": "bea8bb2ff0d2e1390dc2122cb4095e6ddb49b9ee2b3b327bd0b9adb3d3ef7906",
+    "projects/site/src/data/discovery.ts": "2474883ad6d5d61f7988305742ab13fcebdf4cfdfaacfce92728273d5c5c2550",
+    "projects/site/src/data/journey-catalog.ts": "241153468ab5dd36a5c7b82cdcdc8f2d4310b13fa6b40c9cb50a7e049f035996",
+    "projects/site/src/pages/communities/gopala.astro": "5e8d455781e459a796cee96a0e88474a7112358d0c170a8958b89629a7f94e22",
+    "projects/site/tests-coast/cuttack-literature.test.mjs": "64aa56b225506d56be91940d15a26ff6728f48f6dfd35168984c260849241410",
+    "projects/site/tests-coast/discovery-flow.test.mjs": "8916e2ab8c8bb7e82d094b818f0c951bfda980e1ba64238c916258fda219449d",
+    "projects/site/tests-coast/edition.test.mjs": "418f4bec16228f5f03067977c72bea385b739d6b9d5928b8bd1a8c5f4b15bb9e",
+    "projects/site/tests-coast/gopala-editorial.test.mjs": "a9e3b9b82349b23fe862af74e2f691b2d18bf712d3fde6679946d26cb696258e",
+    "projects/site/tests/build.test.mjs": "ce3d711bec30d994f60eed9188b7bf4f797fa718f20d462cfd1fba4ef1d31e32"
+  },
+  "repository_edits": [],
+  "reviewed_head": "86da2bb80bf8a52c2f1505f20f055dac30369732",
+  "visual_review": {
+    "status": "PASS",
+    "screenshots": [
+      "/tmp/pod-gopala-desktop.png",
+      "/tmp/pod-gopala-mobile.png",
+      "/tmp/pod-gopala-mobile-body.png"
+    ],
+    "actual_inspection": "Desktop1440x1000 and mobile390x844 top/body inspected: readable title/byline/lead, menu/save control, historical paragraphs and numbered notes; no observed clipping or overlap."
+  },
+  "program_item": "POD-A500-123",
+  "work_id": "POD-WORK-314",
+  "authorization": "POD-DEC-225",
+  "verification": {
+    "sources": "Five original sources inspected with regional and temporal limits; source budgets including interpretation independently reviewed",
+    "implementation": "566full tests,461coast tests,1880acceptancechecks,11indexable; actual desktop/mobile/download checks",
+    "ci": "39845578228 passed on exact86da2bb8"
+  },
+  "normalization": "Disha linked actual separate AI review to programme fields, preserving review history; no human review asserted."
+}

@@ -3,7 +3,7 @@
   "article_id": "POD-EDIT-470",
   "programme_id": "POD-A500-123",
   "work_id": "POD-WORK-314",
-  "status": "reviewing",
+  "status": "published_receipt_integration_pending",
   "input_head": "e36b0fa8decc6aa6d4abfd59dd6b04103f28478d",
   "started_at": "2026-10-22T19:54:59.339494+00:00",
   "route": "/communities/gopala/",
@@ -33,7 +33,7 @@
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Read-only integrated candidate review",
-      "status": "reviewing"
+      "status": "completed"
     },
     {
       "name": "Disha",
@@ -42,10 +42,17 @@
     }
   ],
   "worker_reconciliation": "Kansari PR447 receipt merge1b1c9b96 observed; local completione36b0fa8 retained. All previous workers completed and scopes released. External current_article/task null; unrelated PR304/281 untouched.",
-  "next_action": "Finish separate exact-head review, required CI, approved deployment and live receipt; retain claim until receipt merge.",
+  "next_action": "Merge reviewed receipt with passing required checks, observe actual merge, then release ownership.",
   "resolved_findings": [
     "Initial register validation rejected unsupported readiness research; corrected to declared draft state before implementation."
   ],
   "research": "research/sources/gopala-research.json",
-  "implementation": "records/gopala-implementation-2026-10-23.json"
+  "implementation": "records/gopala-implementation-2026-10-23.json",
+  "publication_receipt": "records/gopala-editorial-publication-2026-10-23.json",
+  "review": "records/gopala-delivery-review-2026-10-23.json",
+  "counting": {
+    "completed_items": 123,
+    "increment": 1,
+    "basis": "Individually researched published article with live evidence; receipt integration pending."
+  }
 }
