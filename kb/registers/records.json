@@ -9053,18 +9053,21 @@
       "id": "POD-WORK-309",
       "title": "Research and publish Karana community history",
       "category": "website_and_knowledge",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti AI review",
       "authorization": "POD-DEC-225",
-      "next_action": "Establish source viability, integrate supported narrative, test, review and publish one article.",
+      "next_action": "Retain claim through receipt merge before the next article.",
       "blockers": [],
       "refs": [
-        "POD-DEC-225"
+        "POD-DEC-225",
+        "POD-REV-2026102207",
+        "POD-REL-2026102207"
       ],
       "evidence": [
-        "records/karana-editorial-team-2026-10-22.json"
+        "records/karana-editorial-team-2026-10-22.json",
+        "records/karana-editorial-publication-2026-10-22.json"
       ]
     }
   ],
@@ -22146,6 +22149,32 @@
         "Bhadrak2015–17 fieldwork is regional and dated; no all-potter equivalence, complete branch map or present-day statewide practice claimed.",
         "Archive image reuse rights unverified; no photograph copied. Search eligibility unchanged."
       ]
+    },
+    {
+      "id": "POD-REV-2026102207",
+      "title": "Separate Karana source and integrated article review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human historian or community review.",
+      "reviewed_head": "b638c9ec9454894163ecd3de40fc1c90246443cc",
+      "refs": [
+        "POD-WORK-309",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/karana-delivery-review-2026-10-22.json"
+      ],
+      "limitations": [
+        "Separate AI review; no human community review or field observation.",
+        "No single founder, formation date, complete genealogy or present-day occupational survey established.",
+        "Dash temple-service traditions are distinguished from verified chronology; underlying manuscripts and grants were not independently inspected.",
+        "CIIL catalogue metadata, not full2020 book text, inspected; similar names and offices are not treated as community equivalents.",
+        "No community-specific licensed imagery established. Search eligibility unchanged."
+      ]
     }
   ],
   "releases": [
@@ -25735,6 +25764,22 @@
         "records/kumbhara-editorial-publication-2026-10-22.json"
       ],
       "note": "Reviewed PR432, passing CI, approved deployment and live checks. One substantive article; search eligibility unchanged."
+    },
+    {
+      "id": "POD-REL-2026102207",
+      "title": "Karana keeping records remembering Odisha",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/communities/karana/",
+      "refs": [
+        "POD-WORK-309",
+        "POD-REV-2026102207",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/karana-editorial-publication-2026-10-22.json"
+      ],
+      "note": "Reviewed PR434, passing CI, approved deployment and live checks. One substantive article; search eligibility unchanged."
     }
   ],
   "sources": [

@@ -1,0 +1,85 @@
+{
+  "recorded_at": "2026-10-22T03:01:16.820672+00:00",
+  "authorization": "POD-DEC-225",
+  "program_item": "POD-A500-119",
+  "work_id": "POD-WORK-309",
+  "queue_item": "POD-EDIT-465",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/434",
+  "reviewed_head": "b638c9ec9454894163ecd3de40fc1c90246443cc",
+  "merge_commit": "aa3a7289c5959b4f951f241d059fde17c44f374b",
+  "validation": {
+    "conclusion": "success",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39712607124"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "aa3a7289c5959b4f951f241d059fde17c44f374b",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39713955813",
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "review": "records/karana-delivery-review-2026-10-22.json",
+  "live": {
+    "result": "PASS",
+    "checked_at": "2026-10-22T03:00:22.668375+00:00",
+    "url": "https://projectodisha.org/communities/karana/",
+    "html_sha256": "9e09ff0b1e9a9feb3f05f05cb28f4a223b845e95564a5ceb00711c74f4ecf7ee",
+    "checks": [
+      "All canonical prose matches",
+      "Founder byline",
+      "Four visible source note targets",
+      "noindex preserved"
+    ]
+  },
+  "live_browser": {
+    "worker": "Samanta, AI implementation agent",
+    "input_head": "aa3a7289",
+    "deployment": "39713955813",
+    "checked_at": "2026-10-22T03:01:05.199Z",
+    "status": "pass",
+    "url": "https://projectodisha.org/communities/karana/",
+    "desktop": {
+      "collapsed": true,
+      "correctedSentence": true,
+      "notes": 4,
+      "readingWidth": 740,
+      "robots": "noindex, follow",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "mobile": {
+      "readingWidth": 390,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    "footnote": {
+      "active": "note-karana-dash-madalapanji2022",
+      "hash": "#note-karana-dash-madalapanji2022"
+    },
+    "return": {
+      "active": "ref-puri-records-1-karana-dash-madalapanji2022",
+      "hash": "#ref-puri-records-1-karana-dash-madalapanji2022"
+    },
+    "interaction": "Enter activation of corrected paragraph source2 and exact passage2 return",
+    "screenshots": [
+      "/tmp/pod-karana-live-desktop.png",
+      "/tmp/pod-karana-live-mobile.png"
+    ],
+    "limits": [
+      "Read-only browser verification; no production save mutation.",
+      "No repository edits.",
+      "Deployment merge short head supplied by coordinator; rendered behavior verified."
+    ]
+  },
+  "verified_routes": [
+    "/communities/karana/"
+  ],
+  "limits": [
+    "Separate AI review; no human community review or field observation.",
+    "No single founder, formation date, complete genealogy or present-day occupational survey established.",
+    "Dash temple-service traditions are distinguished from verified chronology; underlying manuscripts and grants were not independently inspected.",
+    "CIIL catalogue metadata, not full2020 book text, inspected; similar names and offices are not treated as community equivalents.",
+    "No community-specific licensed imagery established. Search eligibility unchanged."
+  ]
+}

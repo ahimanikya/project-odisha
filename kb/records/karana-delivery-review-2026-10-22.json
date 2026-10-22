@@ -1,0 +1,98 @@
+{
+  "reviewer": "Drishti",
+  "review_type": "separate AI review; not human review",
+  "status": "pass_with_limitations",
+  "input_head": "691f37cc3f64e3881f04358341a0e561c050beff",
+  "reviewed_head": "b638c9ec9454894163ecd3de40fc1c90246443cc",
+  "reviewed_at": "2026-10-22T02:35:53.216038+00:00",
+  "findings": [],
+  "blockers": [],
+  "source_checks": [
+    "Original Bhadrak PDF32–33 independently extracted and read: clerical/accountant service and unassessed-land remuneration support attributed regional account; writing-material history is explicitly regional, not exclusively Karana. Essentialist rank/intelligence descriptions excluded.",
+    "Original author-uploaded Dash full text independently opened and read: January2022 publication distinguished from November2024 upload; twenty-four families and five duties explicitly tradition, actual start unknown, inventory/routines/orders and Desa Khanja property claims supported. Earlier manuscripts/editions not inspected and no founded-community inference made.",
+    "CIIL full institutional metadata independently inspected:2020 issue,Artaballabh Mohanti editor,Odisha Sahitya Akademi publisher,Odia PDF/book. Used only for publication/preservation; no merger of its three-family abstract with Dash’s twenty-four-family tradition.",
+    "Stirling printed172 table carried forward from prior independent visual inspection; Mainti/Carana/writer-secretary association stays historical taxonomy, not modern aliases.",
+    "No Kayastha/Karanam equivalence, inferred caste from surnames, hereditary intellectual trait, universal founder or date. Unrecovered Tanabe chapter correctly excluded."
+  ],
+  "source_budgets_including_section_headings_titles_notes": {
+    "chasa-bhadrak-gazetteer": 120,
+    "karana-dash-madalapanji2022": 185,
+    "karana-ciil-madalapanji-catalog2020": 66,
+    "tanti-stirling1825-census1961": 92
+  },
+  "depth_assessment": "Adequate as a focused introductory community history of record-keeping institutions: concretely links work, remuneration, writing materials, differentiated temple duties and preservation. It does not complete social formation, regional branches or family genealogy; text honestly states these gaps. Further depth would require dated grants/manuscripts or field histories, not added speculation.",
+  "integration_checks": [
+    "Canonical source-driven page with numbered footnotes, Founder byline, portable full prose and scoped discovery/journey entry.",
+    "Search eligibility explicitly held; no unlicensed image or fabricated community imagery.",
+    "Final delta since corrected d5c0ff74 is handoff, implementation report and operations phase only. Public source correction independently reviewed; page and test hashes unchanged."
+  ],
+  "tests": [
+    {
+      "check": "git diff --check691f37cc..HEAD",
+      "result": "PASS"
+    },
+    {
+      "check": "corrected full test log",
+      "result": "566/566 PASS"
+    },
+    {
+      "check": "corrected coast test log",
+      "result": "442/442 PASS"
+    },
+    {
+      "check": "publication log",
+      "result": "PASS;11 indexable"
+    }
+  ],
+  "limits": [
+    "Independently inspected three final screenshots and corrected-candidate build logs; browser keyboard, focus and save interactions reported by Samanta, not independently replayed. No physical-device review.",
+    "No original Madala Panji manuscript, grant or2020 book text independently read. Dash is historical synthesis, not firsthand medieval witness.",
+    "No human/community review or current occupational survey; focused scope is not exhaustive caste history."
+  ],
+  "file_sha256": {
+    "kb/catalog.json": "835ae06a42bc091cd7006517ee985aa71dafcbc331a2f8d7b7f670ef906a85a7",
+    "kb/records/editorial-workbench.json": "73a50d61a26eb62532c855e88103eec6b9f897e5052f511f3034e9de4cb1eb37",
+    "kb/records/karana-editorial-team-2026-10-22.json": "24c9beefecebfc7e6c50753bf680f73575e206164ce6df39ff0df70d7c6b981b",
+    "kb/records/karana-implementation-2026-10-22.json": "ad3684f5120395e371f3c825705047e6f8a6770a619921563a271c4f563bad3f",
+    "kb/research/communities/coverage-index.json": "6034ed28a255cbf3427fe28666e06155a3e6c02d87b8f49cdae4228690137c55",
+    "kb/research/communities/index.md": "28978f040ab01cc469d7be5130d7f4fea7982e2bb2a56a9e83145f3dc60436de",
+    "kb/research/communities/karana.json": "478669e74574988989c73ba25173322dc9b32b49ee7d4fa48ab7dc9708cd54a1",
+    "kb/research/communities/karana.md": "f862851317c76d3467035faefd3fc87922ec2d3ea319fee5f7af8a19eab51b88",
+    "kb/research/methods/research-map.md": "35cbe70bfb0bacc8aad16fc2a9bdcb237e99d2077252fd1b150431d5b3498384",
+    "kb/research/search-index.json": "1454b62409a38771b8ab166653bcf339c2afb3b9dd82dfa9b02c327ca18338bc",
+    "kb/research/sources/karana-research.json": "faefbd20e6fd738225a29e22d40e0d116b7f254ac352ddcb366c8ecd8d8d5fcd",
+    "kb/team/operations.json": "74ae64925bb0bc68c25d6e72c83f1691afb2e4cdff8dd7bb0ab4a25d8aa1eb2c",
+    "projects/site/editions/coast.json": "8245656a05c3ed4fa0a33400a60e557b9c7503ce95ff21536de83c64364a7e32",
+    "projects/site/editions/search-candidate.json": "7512921efe8d030d6396de49304f42594c46c23b65ad61633a51b8f00cfeb110",
+    "projects/site/src/data/discovery.ts": "86430f4b9b5e7a30652366a804af0ca8dbae2d4c195a06e126dfb4f8a3dbf32e",
+    "projects/site/src/data/journey-catalog.ts": "549bea387e2095c2b1463f23792e643f7176db482b24cbf567b887ffe046f092",
+    "projects/site/src/pages/communities/karana.astro": "a0eb763a2f8df9e358522a1d05b2095fe5d74c6c3344b39c22f41be98a9c5625",
+    "projects/site/tests-coast/cuttack-literature.test.mjs": "f5c2c06a2d416590825a227c311fc1b4a08f011ef176f8d03787a4c3e91a97eb",
+    "projects/site/tests-coast/discovery-flow.test.mjs": "24a0b5801ac3c471a6ff63ed623ec3bb470c6a3db279b6ae80c6ce0c4533a03e",
+    "projects/site/tests-coast/edition.test.mjs": "4e2952ae61ac12143ef7cf051cd5b0864e46b148b08463d8790e380282bf48df",
+    "projects/site/tests-coast/karana-editorial.test.mjs": "bfef819fbfc1d5c18d89ad2f3385d1e9c33ea4768e47647eae2535f642fde535",
+    "projects/site/tests/build.test.mjs": "f05fdc0e940fd466b70b5945901eddfdfb7642d624e3fe6c0981792f469429b0"
+  },
+  "repository_edits": [],
+  "resolved_findings": [
+    "Anvesha identified precision needed in initial summary: five of twenty-four families entrusted with writing/preservation. Disha corrected d5c0ff74; Drishti independently checked against Dash original lines347–365. Rebuild and screenshot show corrected wording."
+  ],
+  "visual_review": {
+    "status": "PASS",
+    "screenshots": [
+      "/tmp/pod-karana-desktop.png",
+      "/tmp/pod-karana-mobile.png",
+      "/tmp/pod-karana-mobile-body.png"
+    ],
+    "finding": "Readable header/body and numbered footnotes; corrected twenty-four/five wording visible. No visible clipping or overlap."
+  },
+  "program_item": "POD-A500-119",
+  "work_id": "POD-WORK-309",
+  "authorization": "POD-DEC-225",
+  "verification": {
+    "sources": "Separate source review of regional synthesis, historical taxonomy, temple-service tradition and catalogue metadata; local limits and word budgets",
+    "implementation": "566 full and442coast tests; desktop/mobile visual and interaction checks",
+    "ci": "39712607124 succeeded on reviewed b638c9ec"
+  },
+  "normalization": "Disha linked separate AI PASS to programme fields, preserving original findings and limits; no human review asserted."
+}
