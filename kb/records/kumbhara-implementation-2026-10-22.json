@@ -1,0 +1,67 @@
+{
+  "task_id": "POD-TASK-KUMBHARA-20261022",
+  "article_id": "POD-EDIT-464",
+  "worker": "Samanta, AI implementation agent",
+  "input_head": "85017074c697ae4fb624fb8136faf09161f82ff1",
+  "handoff_input_head": "66e6e4cf9f913c407a43a881ca29d4334eed7b76",
+  "status": "implementation and local verification passed",
+  "actual_edits": [
+    "projects/site/src/pages/communities/kumbhara.astro",
+    "projects/site/tests-coast/kumbhara-editorial.test.mjs"
+  ],
+  "implementation": [
+    "Canonical source-driven page with byline, numbered notes and exact backlinks.",
+    "Shared reading rhythm and contents; collapsed further reading and visible correction.",
+    "SaveJourney reading:kumbhara; portable full prose and short-source tests.",
+    "Optional full-frame figure with canonical provenance; no figure required.",
+    "No fixed source counts, factual prose or alias assumptions."
+  ],
+  "tests": [
+    {
+      "name": "Node24 syntax check",
+      "result": "pass"
+    },
+    {
+      "name": "git diff --check",
+      "result": "pass"
+    },
+    {
+      "name": "full build and npm test",
+      "result": "566/566 pass",
+      "log": "/tmp/pod-kumbhara-full-tests.log"
+    },
+    {
+      "name": "coast build and tests",
+      "result": "438/438 pass",
+      "log": "/tmp/pod-kumbhara-coast-tests.log"
+    },
+    {
+      "name": "publication build",
+      "result": "pass; limited11 indexable",
+      "log": "/tmp/pod-kumbhara-publication.log"
+    }
+  ],
+  "pending": [
+    "Separate review, CI, merge/deployment and live check after coordinator signal"
+  ],
+  "limits": [
+    "Only reserved page/test edited; no shared records or Git mutations.",
+    "No factual research or publication.",
+    "No figure rendered because rights unverified; no invented image.",
+    "Preview-only save; no production mutation."
+  ],
+  "responsive": {
+    "tool": "CUA Chrome",
+    "desktop": "1440x1000;740px reading column; no overflow",
+    "mobile": "390x844;390px article width; no overflow",
+    "notes": "Footnote1 and exact return focus verified",
+    "contents": "Puri link focuses puri-service heading",
+    "further_reading": "Collapsed default; expands; Bhulia link opens expected community route",
+    "save": "Local preview saved state persists reload",
+    "screenshots": [
+      "/tmp/pod-kumbhara-desktop.png",
+      "/tmp/pod-kumbhara-mobile.png",
+      "/tmp/pod-kumbhara-mobile-body.png"
+    ]
+  }
+}
