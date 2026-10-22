@@ -18,7 +18,7 @@
       "name": "Anvesha",
       "runtime": "/root/anvesha",
       "scope": "Read-only research /tmp/pod-bhulia-research.json",
-      "status": "assigned"
+      "status": "completed"
     },
     {
       "name": "Samanta",
@@ -27,13 +27,13 @@
         "projects/site/src/pages/communities/bhulia.astro",
         "projects/site/tests-coast/bhulia-editorial.test.mjs"
       ],
-      "status": "assigned"
+      "status": "testing"
     },
     {
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Read-only integrated review",
-      "status": "waiting"
+      "status": "reviewing"
     },
     {
       "name": "Disha",
@@ -42,5 +42,6 @@
     }
   ],
   "worker_reconciliation": "All existing workers completed Tanti; receipt429 merge d496ab76 observed and claim released. Unrelated304/281 left untouched.",
-  "next_action": "Investigate source viability; implement only supported regional account, then review and publish."
+  "next_action": "Investigate source viability; implement only supported regional account, then review and publish.",
+  "source_report": "research/sources/bhulia-research.json"
 }
