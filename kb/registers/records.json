@@ -9179,18 +9179,21 @@
       "id": "POD-WORK-315",
       "title": "Research and publish Chitrakara community history",
       "category": "website_and_knowledge",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti AI review",
       "authorization": "POD-DEC-225",
-      "next_action": "Establish source-backed community history distinct from existing craft articles.",
+      "next_action": "Retain ownership through receipt merge before another article.",
       "blockers": [],
       "refs": [
-        "POD-DEC-225"
+        "POD-DEC-225",
+        "POD-REV-2026102304",
+        "POD-REL-2026102304"
       ],
       "evidence": [
-        "records/chitrakara-editorial-team-2026-10-23.json"
+        "records/chitrakara-editorial-team-2026-10-23.json",
+        "records/chitrakara-editorial-publication-2026-10-23.json"
       ]
     }
   ],
@@ -22445,6 +22448,33 @@
         "Bula Das2012 is literary interpretation, not original manuscript dating; Nemalo report URL and update dates differ.",
         "No unrestricted community-specific image rights established; search eligibility unchanged."
       ]
+    },
+    {
+      "id": "POD-REV-2026102304",
+      "title": "Separate Chitrakara source and integrated article review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human historian or community review.",
+      "reviewed_head": "8b195e53ebf9a889283fd59a98465050b9e183e7",
+      "refs": [
+        "POD-WORK-315",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/chitrakara-delivery-review-2026-10-23.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human community review or fieldwork.",
+        "No universal name equivalence or independently verified founder, creation date or descent established.",
+        "Tripathy1998 fieldwork dates unspecified; unsafe ritual calendar and principal-image painting claims excluded.",
+        "Williams1996 selected passages; Buguda painter origins unresolved, not genealogy.",
+        "FMC May2008 study is dated artist-household and market evidence, not current population statistics;2024 upload is not publication year.",
+        "Existing unidentified-artist photograph does not establish community identity; no new image added. Search eligibility unchanged."
+      ]
     }
   ],
   "releases": [
@@ -26130,6 +26160,22 @@
         "records/gopala-editorial-publication-2026-10-23.json"
       ],
       "note": "Reviewed PR448, passing checks, approved deployment and live verification. One substantive article; search eligibility unchanged."
+    },
+    {
+      "id": "POD-REL-2026102304",
+      "title": "Chitrakara service households and changing work",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/communities/chitrakara/",
+      "refs": [
+        "POD-WORK-315",
+        "POD-REV-2026102304",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/chitrakara-editorial-publication-2026-10-23.json"
+      ],
+      "note": "Reviewed PR450, passing checks, approved deployment and live verification. One substantive article; search eligibility unchanged."
     }
   ],
   "sources": [

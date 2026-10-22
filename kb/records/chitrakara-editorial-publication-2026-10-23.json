@@ -1,0 +1,104 @@
+{
+  "recorded_at": "2026-10-22T21:15:55.439826+00:00",
+  "authorization": "POD-DEC-225",
+  "program_item": "POD-A500-124",
+  "work_id": "POD-WORK-315",
+  "queue_item": "POD-EDIT-471",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/450",
+  "reviewed_head": "8b195e53ebf9a889283fd59a98465050b9e183e7",
+  "merge_commit": "11e96f8732af82a2404045dabf60ffbbe5f9873e",
+  "validation": {
+    "conclusion": "success",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39854492224"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "databaseId": 39855049079,
+    "headSha": "11e96f8732af82a2404045dabf60ffbbe5f9873e",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39855049079",
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "review": "records/chitrakara-delivery-review-2026-10-23.json",
+  "live": {
+    "result": "PASS",
+    "checked_at": "2026-10-22T21:15:08.752371+00:00",
+    "url": "https://projectodisha.org/communities/chitrakara/",
+    "html_sha256": "0dec70cf9c1464f5c11f9322fa7fff842bf696c14adc09ab948ae5c00178f6bd",
+    "checks": [
+      "All canonical prose matches",
+      "Founder byline",
+      "Three visible source note targets",
+      "noindex preserved",
+      "Bounded canonical description present"
+    ]
+  },
+  "live_browser": {
+    "worker": "Samanta, AI implementation agent",
+    "input_head": "11e96f8732af82a2404045dabf60ffbbe5f9873e",
+    "deployment": "39855049079",
+    "checked_at": "2026-10-22T21:15:32.025Z",
+    "url": "https://projectodisha.org/communities/chitrakara/",
+    "status": "pass",
+    "desktop": {
+      "collapsed": true,
+      "column": 740,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "mobile": {
+      "height": 844,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    "title": "Chitrakara: service, households and changing work",
+    "byline": "By Ahimanikya Satapathy",
+    "note_order": [
+      "Tripathy1998",
+      "Williams1996",
+      "FMC2008"
+    ],
+    "keyboard_note": {
+      "focus": "note-chitrakara-tripathy1998",
+      "hash": "#note-chitrakara-tripathy1998"
+    },
+    "keyboard_exact_return": {
+      "focus": "ref-households-and-service-0-chitrakara-tripathy1998",
+      "hash": "#ref-households-and-service-0-chitrakara-tripathy1998"
+    },
+    "further_reading": "Further reading\nRaghurajpur: painting and performance →\nKumbhara: clay, community and temple service →\nKansari: learning and changing metalwork →",
+    "screenshots": [
+      "/tmp/pod-chitrakara-live-desktop.png",
+      "/tmp/pod-chitrakara-live-mobile.png"
+    ],
+    "visual": "Both screenshots inspected; readable title/byline, mobile menu, no overflow. Further reading initially collapsed; keyboard expands.",
+    "limits": [
+      "No production Save/download or repository edits.",
+      "Deployment/head supplied by coordinator; browser verifies live behavior."
+    ],
+    "screenshot_metadata": {
+      "method": "sips pixelWidth/pixelHeight",
+      "desktop": [
+        1440,
+        1000
+      ],
+      "mobile": [
+        390,
+        844
+      ]
+    }
+  },
+  "verified_routes": [
+    "/communities/chitrakara/"
+  ],
+  "limits": [
+    "Separate AI review, not human community review or fieldwork.",
+    "No universal name equivalence or independently verified founder, creation date or descent established.",
+    "Tripathy1998 fieldwork dates unspecified; unsafe ritual calendar and principal-image painting claims excluded.",
+    "Williams1996 selected passages; Buguda painter origins unresolved, not genealogy.",
+    "FMC May2008 study is dated artist-household and market evidence, not current population statistics;2024 upload is not publication year.",
+    "Existing unidentified-artist photograph does not establish community identity; no new image added. Search eligibility unchanged."
+  ]
+}

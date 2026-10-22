@@ -19,7 +19,7 @@ This is a research map, not a complete list of Odisha castes. Its [machine-reada
 | [Nolia](https://projectodisha.org/communities/nolia/) | Published | Regional umbrella name, coastal settlement and multilingual belonging; no single genealogy. |
 | [Kansari](https://projectodisha.org/communities/kansari/) | Published | Workshop learning, occupational mobility and maker specialisation; no universal alias. |
 | [Gopala](https://projectodisha.org/communities/gopala/) | Published | Regional naming, cattle work and Dola heritage; no universal alias. |
-| Chitrakara | In progress | Temple service, household work and markets; painter is not a caste inference. |
+| [Chitrakara](https://projectodisha.org/communities/chitrakara/) | Published | Temple service, household work and markets; painter is not a caste inference. |
 | Paiko | Regional scope unresolved | Compare each regional use before proposing a canonical identity or alias. |
 | Kottia Paiko | Regional scope unresolved | Retain the gazetteer's separately described label; do not infer equivalence with similarly spelled administrative entries. |
 

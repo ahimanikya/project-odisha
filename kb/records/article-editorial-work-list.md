@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 471. completed: 76, excluded: 76, in_progress: 1, queued: 318.
+Route inventory: 471. completed: 77, excluded: 76, queued: 318.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -484,4 +484,4 @@ Route inventory: 471. completed: 76, excluded: 76, in_progress: 1, queued: 318.
 | POD-EDIT-468 | [Nolia coastal community history](https://projectodisha.org/communities/nolia/) | completed | Nolia community histories on the Odisha coast: source-specific naming, movement and settlement, maritime work and cultural transmission. Establish evidence rather than assume a single creation event or equate all coastal fishers. |
 | POD-EDIT-469 | [Kansari community history](https://projectodisha.org/communities/kansari/) | completed | Kansari community history: regional naming, workshop inheritance, documented changes and origin traditions; no caste inferred from craft or surname. |
 | POD-EDIT-470 | [Gopala regional community history](https://projectodisha.org/communities/gopala/) | completed | Gopala and Gauda regional community history: cattle work, named local practices, origin traditions and changing livelihoods; administrative groupings are not universal aliases. |
-| POD-EDIT-471 | [Chitrakara regional community history](https://projectodisha.org/communities/chitrakara/) | in_progress | Chitrakara regional community history: documented service, learning and changing work, with origin traditions distinguished from formation evidence and painting occupation from community identity. |
+| POD-EDIT-471 | [Chitrakara regional community history](https://projectodisha.org/communities/chitrakara/) | completed | Chitrakara regional community history: documented service, learning and changing work, with origin traditions distinguished from formation evidence and painting occupation from community identity. |
