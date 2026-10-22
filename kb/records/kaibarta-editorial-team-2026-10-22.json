@@ -3,7 +3,7 @@
   "article_id": "POD-EDIT-466",
   "programme_id": "POD-A500-120",
   "work_id": "POD-WORK-310",
-  "status": "published_receipt_integration_pending",
+  "status": "completed",
   "input_head": "fcdb166306d2cb98c050ebf3dbd1e102be9e9b2c",
   "started_at": "2026-10-22T03:31:00.849403+00:00",
   "route": "/communities/kaibarta/",
@@ -18,7 +18,8 @@
       "name": "Anvesha",
       "runtime": "/root/anvesha",
       "scope": "Read-only source research /tmp/pod-kaibarta-research.json",
-      "status": "completed"
+      "status": "completed",
+      "scope_released": true
     },
     {
       "name": "Samanta",
@@ -27,22 +28,25 @@
         "projects/site/src/pages/communities/kaibarta.astro",
         "projects/site/tests-coast/kaibarta-editorial.test.mjs"
       ],
-      "status": "completed"
+      "status": "completed",
+      "scope_released": true
     },
     {
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Read-only integrated candidate review",
-      "status": "completed"
+      "status": "completed",
+      "scope_released": true
     },
     {
       "name": "Disha",
       "scope": "Canonical narrative, shared records and publishing",
-      "status": "working"
+      "status": "completed",
+      "scope_released": true
     }
   ],
   "worker_reconciliation": "All prior workers completed. Karana PR435 receipt merge569bb56e observed and scope released; no active article. Unrelated PR304/281 untouched.",
-  "next_action": "Merge reviewed receipt with passing checks, observe remote merge, then release article ownership.",
+  "next_action": "Kaibarta receipt merged and ownership released. On next wake reconcile workers and durable state, select next useful community-series subject from coverage index and existing KB, and establish scoped source-backed acceptance before implementation. Continue remaining editorial rollout one article at a time. Do not repeat completed Paika, Khandayat, Chasa, Tanti, Bhulia, Kumbhara, Karana or Kaibarta. For every future article run the local coastal acceptance audit before submission; also verify actual mobile viewport and screenshot dimensions. No active article.",
   "research": "research/sources/kaibarta-research.json",
   "implementation": "records/kaibarta-implementation-2026-10-22.json",
   "publication_receipt": "records/kaibarta-editorial-publication-2026-10-22.json",
@@ -50,6 +54,60 @@
   "counting": {
     "completed_items": 120,
     "increment": 1,
-    "basis": "Individually researched published article with live evidence; receipt integration pending."
+    "basis": "One individually researched published article; reviewed receipt merge observed."
+  },
+  "receipt_integration_observed": {
+    "pull_request": 437,
+    "reviewed_head": "96a44cb7585f466ea2c02a01c8b65f28c457c2fb",
+    "merge_commit": "b60103e8a614da610e25b3cd5683193d5aacee2a",
+    "merged_at": "2026-10-22T04:04:19Z",
+    "validation_run": 39719966093,
+    "validation_result": "success",
+    "review": "Drishti independently reviewed exact 96a44cb7 receipt; coordinator observed required checks and actual remote merge."
+  },
+  "receipt_review": {
+    "reviewer": "Drishti",
+    "review_type": "Separate AI receipt review, not human review",
+    "status": "PASS",
+    "input_head": "96a44cb7585f466ea2c02a01c8b65f28c457c2fb",
+    "reviewed_head": "96a44cb7585f466ea2c02a01c8b65f28c457c2fb",
+    "comparison_base": "b5b556061e9765a4ac9ca57776390eeb624d6c6c",
+    "reviewed_at": "2026-10-22T04:00:15.318393+00:00",
+    "findings": [],
+    "blockers": [],
+    "checks": [
+      "Only POD-A500-120, POD-EDIT-466 and POD-WORK-310 changed among existing programme/article/work entries; no deletions or prior entry changes.",
+      "Programme completed120; independently counted72 completed editorial entries.",
+      "Only POD-REV-2026102208 and POD-REL-2026102208 appended to review/release registers.",
+      "Normalized delivery review preserves every original field exactly except PASS becomes pass_with_limitations. Source findings, corrected mobile screenshot and CI failure/fix history retained.",
+      "Public source and website file hashes match final reviewed candidate; receipt diff is records and internal status only.",
+      "Saved PR436 merge and deploy39719300383 align reviewed0f32158b with mergeb5b55606; receipt records successfulCI39718969169.",
+      "Saved live HTML/browser PASS with canonical description, source order, exact footnote return, noindex and desktop/mobile widths.",
+      "Claim remains POD-EDIT-466, ownerDisha, receipt_integrated and receipt_merge_pending true."
+    ],
+    "tests": [
+      {
+        "name": "test_autonomous_program.py",
+        "result": "PASS30tests"
+      },
+      {
+        "name": "test_registers.py",
+        "result": "PASS1144records649events"
+      },
+      {
+        "name": "check_team_assignments.py",
+        "result": "PASS"
+      },
+      {
+        "name": "git diff --check base..HEAD",
+        "result": "PASS"
+      }
+    ],
+    "limits": [
+      "Fresh GitHub API verification attempted via gh run view but network connection failed; remote CI, merge and deployment assessment relies on saved response evidence and linked receipt, not a newly queried remote result.",
+      "Saved live-browser and HTML evidence reviewed; live interactions not independently replayed.",
+      "AI review only; no human community review or field confirmation."
+    ],
+    "repository_edits": []
   }
 }

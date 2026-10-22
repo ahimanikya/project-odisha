@@ -1,0 +1,111 @@
+{
+  "task_id": "POD-TASK-NOLIA-20261022",
+  "article_id": "POD-EDIT-468",
+  "worker": "Samanta, AI implementation agent",
+  "input_head": "348b7fbddc7423a152688eeb51fecab2d815f38b",
+  "status": "implementation and local validation passed; ready for separate review",
+  "actual_edits": [
+    "projects/site/src/pages/communities/nolia.astro",
+    "projects/site/tests-coast/nolia-editorial.test.mjs"
+  ],
+  "implementation": [
+    "Canonical metadata description fallback and250-character limit test.",
+    "Shared reading rhythm, numbered notes and exact backlinks, byline, contents, collapsed further reading and visible correction.",
+    "SaveJourney reading:nolia and portable full prose/short-source tests.",
+    "Optional rights-qualified figure only when canonical supplies it; no invented imagery or identity assumptions."
+  ],
+  "tests": [
+    {
+      "name": "Node24 syntax check",
+      "result": "pass"
+    },
+    {
+      "name": "git diff --check",
+      "result": "pass"
+    },
+    {
+      "name": "full build and npm test",
+      "result": "pass",
+      "tests": 566,
+      "log": "/tmp/pod-nolia-full-tests.log"
+    },
+    {
+      "name": "build:coast and test:coast",
+      "result": "pass",
+      "tests": 453,
+      "log": "/tmp/pod-nolia-coast-tests.log"
+    },
+    {
+      "name": "build:publication",
+      "result": "pass",
+      "indexable_pages": 11,
+      "log": "/tmp/pod-nolia-publication.log"
+    },
+    {
+      "name": "audit-coast.py",
+      "result": "pass",
+      "checks": 1872,
+      "log": "/tmp/pod-nolia-audit.log"
+    }
+  ],
+  "pending": [
+    "Separate integrated review, CI, merge, approved deployment and live verification by coordinator."
+  ],
+  "limits": [
+    "Only reserved page/test edited; no shared or Git mutations.",
+    "No factual research or publication."
+  ],
+  "checked_at": "2026-10-22T06:47:00.555757+00:00",
+  "validation_head": "348b7fbddc7423a152688eeb51fecab2d815f38b",
+  "responsive": {
+    "browser": "Chrome via CUA",
+    "desktop": {
+      "viewport": [
+        1440,
+        1000
+      ],
+      "screenshot_dimensions": [
+        1440,
+        1000
+      ],
+      "scroll_width": 1440,
+      "reading_column": 740,
+      "screenshot": "/tmp/pod-nolia-desktop.png"
+    },
+    "mobile": {
+      "viewport": [
+        390,
+        844
+      ],
+      "screenshot_dimensions": [
+        390,
+        844
+      ],
+      "scroll_width": 390,
+      "screenshots": [
+        "/tmp/pod-nolia-mobile.png",
+        "/tmp/pod-nolia-mobile-body.png"
+      ]
+    },
+    "visual_result": "Readable title/body, mobile Menu, no horizontal overflow; screenshots inspected. No imagery.",
+    "keyboard": "Enter activated first footnote and focused note-kaibarta-kalavathy-tietze1985; backlink returned exact focus to ref-a-name-on-the-coast-0-kaibarta-kalavathy-tietze1985. Contents Enter focused settlement-and-belonging.",
+    "source_order": [
+      "FAO",
+      "Gupta",
+      "Ganjam Gazetteer",
+      "Dakshin"
+    ],
+    "disclosure": "Further reading initially collapsed; keyboard opened three expected reading links. Kaibarta link reached its article.",
+    "save": "Preview Save set Saved to my journey and persisted across reload.",
+    "download": {
+      "result": "Downloaded offline HTML through browser button; full canonical Nolia paragraphs and four source titles verified in file.",
+      "path": "/Users/ahimanikya/Downloads/My-Odisha-Journey-book-2026-10-22.html",
+      "bytes": 51474,
+      "screenshot": "/tmp/pod-nolia-download.png"
+    }
+  },
+  "failed_gates": [],
+  "tool_limitations": [
+    "One CUA combined navigation call timed out and reset runtime. Rebound existing tab confirmed Kaibarta destination; continued download successfully. No application test failure."
+  ]
+}

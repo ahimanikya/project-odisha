@@ -1,0 +1,85 @@
+{
+  "acceptance": [
+    "Inspected original evidence supports community-specific history and concrete local practices; origin traditions and documented formation remain distinct.",
+    "Canonical KB/source map and evidence-linked community index; readable article with numbered notes and portable reading.",
+    "Separate AI review, tests, responsive checks, reviewed PR, approved deployment, live checks and merged receipt before delivery count."
+  ],
+  "task_id": "POD-TASK-NOLIA-20261022",
+  "article_id": "POD-EDIT-468",
+  "programme_id": "POD-A500-121",
+  "work_id": "POD-WORK-312",
+  "status": "reviewing",
+  "input_head": "348b7fbddc7423a152688eeb51fecab2d815f38b",
+  "started_at": "2026-10-22T06:37:17.955490+00:00",
+  "route": "/communities/nolia/",
+  "scope": "Nolia community histories on the Odisha coast: source-specific naming, movement and settlement, maritime work and cultural transmission. Establish evidence rather than assume a single creation event or equate all coastal fishers.",
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only bounded research; /tmp/pod-nolia-research.json",
+      "status": "completed"
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/pages/communities/nolia.astro",
+        "projects/site/tests-coast/nolia-editorial.test.mjs"
+      ],
+      "status": "completed"
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Read-only separate integrated candidate review",
+      "status": "reviewing"
+    },
+    {
+      "name": "Disha",
+      "scope": "Canonical KB, shared records and publication",
+      "status": "working"
+    }
+  ],
+  "reserved_files": [
+    "projects/site/src/pages/communities/nolia.astro",
+    "projects/site/tests-coast/nolia-editorial.test.mjs"
+  ],
+  "worker_reconciliation": "Existing local workers completed; external image PR440 and receipt441 merged, handoff completed and scope released on origin/main348b7fbd. External chat observed idle and checkout has no new tracked edits. Prior local Kaibarta completion checkpoint retained on its branch.",
+  "next_action": "Complete exact-head separate review, remote required checks, approved publication and live receipt; retain ownership through receipt merge.",
+  "research": "research/sources/nolia-research.json",
+  "source_check": {
+    "agent": "Anvesha",
+    "role": "Read-only AI source check, not human review",
+    "input_head": "348b7fbddc7423a152688eeb51fecab2d815f38b",
+    "candidate": "working tree",
+    "narrative_path": "kb/research/communities/nolia.json",
+    "narrative_sha256": "09362541c3b7c4443205e014a79d004399466b6120f1068e7bbcab488f26e9fb",
+    "result": "No factual corrections required in checked narrative",
+    "findings": [],
+    "checks": [
+      "Compared all source-linked paragraphs with inspected original passages from FAO1985, GuptaWP2552010, GanjamGazetteer and Dakshin2021.",
+      "Gazetteer printed99 explicitly attributes Jalandhara descent to Jalarulu group; narrative accurately calls it tradition.",
+      "Gazetteer printed100 explicitly describes DolaPurnima NarasinghaSwamy worship and Simhachalam; note113 cites1961Nuagolabandh monograph. Narrative correctly states indirect access and older practice.",
+      "Gupta2010 settlement uncertainty and sense of belonging toOdisha accurately scoped to study village; no merger with2009WP231.",
+      "FAO sample and Jalari/Vodabalija naming remain regional, period-specific.",
+      "Dakshin shared use, committee, society and proposedjetty disagreement match actual passages; revised printedpage locators accepted from coordinator independent PDF inspection.",
+      "JSON parsed; source budgets remain below200words each for explicitly source-linked paragraphs plus notes."
+    ],
+    "limits": [
+      "No new fieldwork or human specialist review.",
+      "No underlying1961monograph inspection or settled Gazetteer publicationdate.",
+      "Did not rerun UI/build tests; independent Drishti review remains separate.",
+      "No repository edits."
+    ]
+  },
+  "prior_receipt_reconciliation": "Kaibarta completed handoff selectively restored from local checkpoint53fbeed9, preserving all newer remote identity-article records and ownership.",
+  "implementation": "records/nolia-implementation-2026-10-22.json",
+  "resume_reconciliation": {
+    "external_receipt_pr": 444,
+    "external_receipt_state": "merged",
+    "observed_main": "71c61ce3",
+    "external_handoff": "completed with reserved_files_released true; operations current_task and current_article null",
+    "integration": "Merge current main preserving wedding source/article/receipt. Retain Nolia active claim; regenerate shared indexes."
+  }
+}

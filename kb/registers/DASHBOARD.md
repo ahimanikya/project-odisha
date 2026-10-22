@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `70c23619f11ee904339db410c71cd04e27a4792a0b3700217da02eeb13b00ac6`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `1d48045a9cd084452f13729f4d04aa2d4e5a072507330f8f2c0cc80d73f54937`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -336,6 +336,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-309 · Research and publish Karana community history | completed | published | Ahimanikya Satapathy | Retain claim through receipt merge before the next article. | — |
 | POD-WORK-310 · Research and publish Kaibarta community history | completed | published | Ahimanikya Satapathy | Retain claim through receipt merge before the next article. | — |
 | POD-WORK-311 · Research and publish Odia Cultural Identity and Pride | completed | published | Ahimanikya Satapathy | Use the published article and preserve regional corrections through the contribution link. | — |
+| POD-WORK-312 · Research and publish Nolia coastal community history | in_progress | draft | Ahimanikya Satapathy | Establish source viability, integrate canonical narrative, then implement and review. No publication or completion claimed. | — |
 
 ## Pending human review and decisions
 
