@@ -61,3 +61,5 @@
 ## 2026-10-07 · Osha and food
 
 [Osha, stories and seasonal food](osha-brata-seasonal-food.md) — twelve source-bounded profiles and continuing research.
+
+- [Odia Cultural Identity and Pride](odia-cultural-identity.md) — practical transmission, contextual naming and regional traditions.

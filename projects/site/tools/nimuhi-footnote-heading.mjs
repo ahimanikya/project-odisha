@@ -1,6 +1,6 @@
 // Scope the visible source heading to the approved reference article.
 export default function nimuhiFootnoteHeading({fileURL}) {
-  if (!fileURL?.pathname.endsWith('/culture/sashisena-and-nimuhi-temple.md')) return null;
+  if (!['/culture/sashisena-and-nimuhi-temple.md', '/culture/odia-cultural-identity.md'].some(path => fileURL?.pathname.endsWith(path))) return null;
   return {
     name: 'nimuhi-footnote-heading',
     element: {

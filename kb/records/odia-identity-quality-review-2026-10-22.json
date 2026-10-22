@@ -1,0 +1,82 @@
+{
+  "role": "Drishti",
+  "review_kind": "separate AI editorial/source and static implementation review; not human or specialist review",
+  "reviewed_at": "2026-10-22T04:16:01.781120+00:00",
+  "input_head": "b60103e8",
+  "status": "content_and_static_integration_pass",
+  "files": {
+    "kb/research/culture/odia-cultural-identity.md": "9ca91ad2240850b110bd40ea0863dade8ae0afabd8c6cbe59a70d3a44ca5ffbc",
+    "kb/research/sources/odia-identity-evidence.json": "e6b128ba57bc8fba87dedd958bfa0c5fe394a58db49e6da499c2eb58a893c96e",
+    "projects/site/src/pages/stories/odia-cultural-identity.astro": "14a84a8918257493057585b6d384d73afaf22a1aadaaab7a396cbc9929160bbf",
+    "projects/site/tests-coast/odia-identity.test.mjs": "e8f0c3d5558ce5f6e930d37fcf8b61f2c25ae0753b7215e4003cc2cdc6b0a795"
+  },
+  "content_findings": [],
+  "integration_findings": [
+    {
+      "priority": "P2",
+      "finding": "Discovery test currently expects a direct article link on /explore/, while integration adds culture-trails only.",
+      "required_resolution": "Add explore link or align test to intended visible discovery path; run generated-page tests.",
+      "resolution": "Verified article link added to projects/site/src/pages/explore.astro; generated test remains root gate"
+    },
+    {
+      "priority": "P2",
+      "finding": "Saved evidence JSON initially contains four Anvesha findings only, while article uses additional inspected sources.",
+      "required_resolution": "Append remaining source locators, retrieval dates and direct/indexed/failed access distinctions before committing.",
+      "resolution": "Verified appended coordinator source inspections preserve dates, locators and direct/indexed/failed retrieval distinctions"
+    }
+  ],
+  "verified_sources": [
+    {
+      "url": "https://sambalpur.odisha.gov.in/or/tourism/culture-Heritage",
+      "locator": "Dalkhai line37 and Bhaijiuntia line77",
+      "result": "Direct HTML confirms cited Odia names; no historic-first-use inference."
+    },
+    {
+      "url": "https://sambalpur.odisha.gov.in/en/tourism/culture-Heritage",
+      "locator": "Dalkhai line31; Nuakhai lines64–66; Bhaijiuntia lines67–69",
+      "result": "Direct HTML supports situated community/dance and festival accounts. Article correctly avoids blanket all/only claims."
+    },
+    {
+      "url": "https://newsonair.gov.in/durga-puja-festivities-begin-across-odisha-with-maha-shashthi-celebrations/",
+      "locator": "17 October 2026; body lines49–50",
+      "result": "Direct HTML describes nine nights and Saptami–Ashtami–Navami culminating in Vijaya Dashami. Avoid extrapolating specific 2026 dates."
+    },
+    {
+      "url": "https://apps.odishatourism.gov.in/blog-detail/enduri-pitha-on-the-occasion-of-prathamastami",
+      "locator": "lines253–264; 22 November2019",
+      "result": "Direct HTML confirms credited household account, method and filling. Article excludes health/exclusivity claims."
+    },
+    {
+      "url": "https://handloom.odisha.gov.in/en/handloomtab/important-handloom-centers",
+      "locator": "table rows23–30",
+      "result": "Direct HTML confirms named production centres and techniques."
+    },
+    {
+      "url": "https://dsal.uchicago.edu/dictionaries/praharaj/",
+      "locator": "bibliographic record line35",
+      "result": "Direct HTML confirms publication1931–1940 at Cuttack Utkal Sahitya Press."
+    },
+    {
+      "url": "https://ich.unesco.org/en/transmission-00078",
+      "locator": "indexed body paragraphs1–3",
+      "result": "Indexed full text supports knowledge/skill transmission and continuing recreation. Direct HTML returned human-verification challenge; not direct full page inspection."
+    },
+    {
+      "url": "https://ich.unesco.org/en/decisions/18.COM/8.B.32",
+      "locator": "indexed decision introduction,R.1 and3",
+      "result": "Indexed text supports 2023 Garba inscription and learning practices; not interchangeable with dandiya."
+    }
+  ],
+  "editorial_assessment": "Constructive concrete proposals satisfy user direction. No fabricated reel quotations, measured statewide decline, cultural inferiority claims, colour exclusivity, universal regional customs or personal interviews. Names/calendar distinction correct. Native source notes, author credit, further reading and visible correction implemented in source.",
+  "not_checked": [
+    "Generated-page test execution",
+    "Responsive browser rendering",
+    "Live links after deployment",
+    "Human language/community review"
+  ],
+  "publication_gate": "Root must complete build/tests, responsive checks, evidence integration and actual PR/deployment/live receipt before marking published.",
+  "metadata_followup": "Akashvani publication date is 2026-10-17, displayed 1:48 PM; root informed to replace null before commit.",
+  "coordinator_resolution": {
+    "Akashvani_date": "Corrected to 2026-10-17"
+  }
+}

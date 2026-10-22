@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `bb62eda979cbd5f13c7bcee0e492bac04a3c8e9b86ac25dde693000c90874d92`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `d21bd10937b3a8d4af404d39d716cc83c76936fc8ebdee61510b909377296881`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -335,6 +335,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-308 · Research and publish Kumbhara community history | completed | published | Ahimanikya Satapathy | Retain claim through receipt merge before the next article. | — |
 | POD-WORK-309 · Research and publish Karana community history | completed | published | Ahimanikya Satapathy | Retain claim through receipt merge before the next article. | — |
 | POD-WORK-310 · Research and publish Kaibarta community history | completed | published | Ahimanikya Satapathy | Retain claim through receipt merge before the next article. | — |
+| POD-WORK-311 · Research and publish Odia Cultural Identity and Pride | in_progress | reviewed | Ahimanikya Satapathy | Complete review, CI, publication and live verification. | — |
 
 ## Pending human review and decisions
 
@@ -640,6 +641,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-2026101801 · Refine the accumulated Jhula webpage | approved | Ahimanikya Satapathy | Refine and publish coherent webpage wording and navigation while preserving all20 designs and voting. |
 | POD-DEC-2026101902 · Align current project code with Project Odisha | recorded_direction | Ahimanikya Satapathy | Change the current project code and migrate existing IDs, as requested by the Founder. POD is the coordinator-selected abbreviation; preserve suffixes, original evidence and exact old-to-new lookup aliases. No other project, permission or website domain changes. |
 | POD-DEC-2026101903 · Apply Odisha project-family names and codes | recorded_direction | Ahimanikya Satapathy | Apply Odisha Blueprint/ODB, Odisha Collective/ODC, Odisha Unbound/ODU and Odisha Store/ODS consistently, migrating IDs with exact aliases and preserved original evidence. No launch, access, membership, spending or adoption changes. |
+| POD-DEC-2026102209 · Research and publish constructive Odia cultural identity essay | recorded_direction | Ahimanikya Satapathy | Positive cultural celebration, contextual names and practical transmission; existing site publication through review and CI. |
 
 ## Reviews
 
@@ -994,6 +996,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026102206 | pass_with_limitations | True | Separate AI review; no human community review or field observation.; Puri Kumbhara Bishoi is a specific service community; the Kurala Purana account is an origin tradition, not a verified caste-creation event.; Underlying Madala Panji and colonial records were not independently inspected; archive descriptions are attributed to researchers.; Bhadrak2015–17 fieldwork is regional and dated; no all-potter equivalence, complete branch map or present-day statewide practice claimed.; Archive image reuse rights unverified; no photograph copied. Search eligibility unchanged. |
 | POD-REV-2026102207 | pass_with_limitations | True | Separate AI review; no human community review or field observation.; No single founder, formation date, complete genealogy or present-day occupational survey established.; Dash temple-service traditions are distinguished from verified chronology; underlying manuscripts and grants were not independently inspected.; CIIL catalogue metadata, not full2020 book text, inspected; similar names and offices are not treated as community equivalents.; No community-specific licensed imagery established. Search eligibility unchanged. |
 | POD-REV-2026102208 | pass_with_limitations | True | Separate AI review; no human community review or field observation.; No single founder, formation date, complete genealogy or present-day occupational survey established.; 1985 northern Odisha naming relationship remains source-specific; no universal aliases or all-fisher equivalence.; 1861 grant is reported testimony; original charter and court outcome not independently verified. No current fishing-rights finding.; 2012 performance traditions are not caste-creation chronology; earlier Chaiti Ghoda work is reused without duplicate credit.; No community-specific image rights established; text-first article. Search eligibility unchanged. |
+| POD-REV-2026102209 | pass_with_limitations | True | Browser and deployment acceptance recorded separately.; No measured statewide dilution, exclusive textile-colour ownership, original reel transcript or local interview claimed. |
 
 ## Publication and application history
 
