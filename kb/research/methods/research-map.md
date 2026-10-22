@@ -907,3 +907,7 @@ Reuse `communities/karana.json`, `communities/karana.md` and `sources/karana-res
 ## Kaibarta community history · 22 October 2026
 
 Reuse `communities/kaibarta.json`, `communities/kaibarta.md` and `sources/kaibarta-research.json`. FAO-hosted1985 study and Chhotray2016 original field research add occupational/institutional history; existing Chaiti Ghoda narrative is linked, not recounted as new delivery. Behera2012 cultural description is distinct from the older annual source. Kewat/Keota naming connection remains regional; koeta remains unresolved. No universal aliases or current fishing-rights findings.
+
+## Nolia community history · 22 October 2026
+
+Reuse `communities/nolia.json`, `communities/nolia.md` and `sources/nolia-research.json`. FAO1985 stable source reused; Gupta2010 WP255 is distinct from2009 WP231. Regional umbrella naming, uncertain settlement memory, gazetteer origin tradition and Dakshin2019–2021 shared-shore research have distinct scopes. No universal caste alias, foundingdate, current custom or legal entitlement inferred.

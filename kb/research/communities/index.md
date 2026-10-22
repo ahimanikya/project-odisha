@@ -16,10 +16,11 @@ This is a research map, not a complete list of Odisha castes. Its [machine-reada
 | [Kumbhara](https://projectodisha.org/communities/kumbhara/) | Published | Puri and Bhadrak histories; grouped names and Kandha-Kumbhar not merged. |
 | [Karana](https://projectodisha.org/communities/karana/) | Published | Scribal institutions; office, community and similar names distinguished. |
 | [Kaibarta](https://projectodisha.org/communities/kaibarta/) | Published | Regional naming, changing work and institutions; not every fisher or similarly named community. |
+| Nolia | In progress | Regional umbrella name, coastal settlement and multilingual belonging; no single genealogy. |
 | Paiko | Regional scope unresolved | Compare each regional use before proposing a canonical identity or alias. |
 | Kottia Paiko | Regional scope unresolved | Retain the gazetteer's separately described label; do not infer equivalence with similarly spelled administrative entries. |
 
-The ten topics are a starting set, not categories into which other people should be placed. Khandayat publication is evidenced in its article receipt; further regional histories remain open.
+The eleven topics are a starting set, not categories into which other people should be placed. Khandayat publication is evidenced in its article receipt; further regional histories remain open.
 
 ## Source coverage as accessed on 22 October 2026
 
@@ -34,7 +35,7 @@ The [Odisha department's List of Communities page](https://stsc.odisha.gov.in/en
 | Department-linked ST and SC lists | Selected observations | Not full row inventories; amendment headers are not independent verification of current legal status. |
 | Department-linked central OBC list | Selected observations | Separate from state SEBC; the upload path is not a verified edition date. |
 
-The combined inventory currently has 228 observations and eight source records, including the department landing page. These are provenance counts, not population or community counts. All 216 SEBC serials are represented, including deleted entries at 68 and 75. Row 138 spans two pages and includes a deletion affecting a name within the row; its label must always be read with the preserved qualifiers. Pages 13 and 14 were visually inspected. Other rows retain extracted text and page associations but have not all been manually proofread.
+The combined inventory currently has 229 observations and eight source records, including the department landing page. These are provenance counts, not population or community counts. All 216 SEBC serials are represented, including deleted entries at 68 and 75. Row 138 spans two pages and includes a deletion affecting a name within the row; its label must always be read with the preserved qualifiers. Pages 13 and 14 were visually inspected. Other rows retain extracted text and page associations but have not all been manually proofread.
 
 ## How coverage grows
 

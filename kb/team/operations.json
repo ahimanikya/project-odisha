@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/odia-identity-image-team-2026-10-22.json",
+  "handoff_home": "records/nolia-editorial-team-2026-10-22.json",
   "roles": [
     {
       "name": "Disha",
@@ -54,7 +54,13 @@
     "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
-  "current_article": null,
+  "current_article": {
+    "route": "/communities/nolia/",
+    "phase": "review",
+    "handoff": "records/nolia-editorial-team-2026-10-22.json",
+    "id": "POD-EDIT-468",
+    "owner": "Disha"
+  },
   "project_identity": "reference/project-identity.md",
   "current_task": null
 }
