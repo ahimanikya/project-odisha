@@ -14,7 +14,7 @@ This is a research map, not a complete list of Odisha castes. Its [machine-reada
 | [Tanti](https://projectodisha.org/communities/tanti/) | Published | Regional Bhadrak and Bomkai accounts; no all-weaver or branch equivalence. |
 | [Bhulia](https://projectodisha.org/communities/bhulia/) | Published | Migration traditions and original household studies; no automatic alias or all-weaver equivalence. |
 | [Kumbhara](https://projectodisha.org/communities/kumbhara/) | Published | Puri and Bhadrak histories; grouped names and Kandha-Kumbhar not merged. |
-| Karana | In progress | Scribal institutions; office, community and similar names distinguished. |
+| [Karana](https://projectodisha.org/communities/karana/) | Published | Scribal institutions; office, community and similar names distinguished. |
 | Paiko | Regional scope unresolved | Compare each regional use before proposing a canonical identity or alias. |
 | Kottia Paiko | Regional scope unresolved | Retain the gazetteer's separately described label; do not infer equivalence with similarly spelled administrative entries. |
 
