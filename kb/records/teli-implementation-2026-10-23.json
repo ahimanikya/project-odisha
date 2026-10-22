@@ -1,0 +1,97 @@
+{
+  "task_id": "POD-TASK-TELI-20261023",
+  "article_id": "POD-EDIT-472",
+  "worker": "Samanta, AI implementation agent",
+  "input_head": "330c86c71e766e1a1093ce267c617ab8f3e30f2d",
+  "status": "frozen candidate passed local validation",
+  "actual_edits": [
+    "projects/site/src/pages/communities/teli.astro",
+    "projects/site/tests-coast/teli-editorial.test.mjs"
+  ],
+  "implementation": [
+    "Canonical JSON-driven template, concise metadata, visible footnotes and exact backlinks.",
+    "Collapsed further reading, visible correction notice and portable full prose/source tests.",
+    "No new imagery or identity assertions."
+  ],
+  "tests": [
+    {
+      "name": "Node24 syntax check",
+      "result": "pass"
+    },
+    {
+      "name": "git diff --check",
+      "result": "pass"
+    },
+    {
+      "name": "full build and npm test",
+      "passed": 566,
+      "failed": 0,
+      "log": "/tmp/pod-teli-full-tests.log"
+    },
+    {
+      "name": "build:coast and test:coast",
+      "passed": 469,
+      "failed": 0,
+      "log": "/tmp/pod-teli-tests.log"
+    },
+    {
+      "name": "build:publication",
+      "result": "pass",
+      "indexable_pages": 11,
+      "log": "/tmp/pod-teli-publication.log"
+    },
+    {
+      "name": "audit-coast.py",
+      "passed": 1888,
+      "total": 1888,
+      "log": "/tmp/pod-teli-audit.log"
+    }
+  ],
+  "limits": [
+    "Only reserved page/test edited; no shared records or Git/publication changes.",
+    "Factual research/canonical prose belongs to Anvesha/Disha; this is AI implementation validation.",
+    "Separate final review, CI, merge, approved deployment and live verification remain."
+  ],
+  "checked_at": "2026-10-22T22:10:03.658439+00:00",
+  "validation_head": "330c86c71e766e1a1093ce267c617ab8f3e30f2d",
+  "failed_gates": [],
+  "responsive": {
+    "desktop": {
+      "viewport": [
+        1440,
+        1000
+      ],
+      "column_width": 740,
+      "scroll_width": 1440,
+      "screenshot": "/tmp/pod-teli-desktop.png"
+    },
+    "mobile": {
+      "viewport": [
+        390,
+        844
+      ],
+      "scroll_width": 390,
+      "screenshots": [
+        "/tmp/pod-teli-mobile.png",
+        "/tmp/pod-teli-mobile-body.png"
+      ]
+    },
+    "metadata": "sips confirms desktop1440x1000 and both mobile390x844; all screenshots inspected, readable, no overflow.",
+    "keyboard": "Enter first note focuses note-teli-thurston1909; backlink returns exact ref-oil-and-transport-0-teli-thurston1909. Contents Enter focuses teacher-in-daanla.",
+    "disclosure": "Initially collapsed; Enter expands expected reading links. Paika link reached /communities/paika/ with correct title.",
+    "source_order": [
+      "Thurston1909",
+      "Bhadrak Gazetteer",
+      "Daanla monograph1968"
+    ],
+    "save": "Preview Save persisted across navigation; mobile screenshot shows saved state.",
+    "download": {
+      "path": "/Users/ahimanikya/Downloads/My-Odisha-Journey-book-2026-10-22 (4).html",
+      "bytes": 70950,
+      "modified": "2026-10-22T22:09:39.627588+00:00",
+      "all_paragraphs_present": true,
+      "all_sources_present": true
+    }
+  },
+  "coordinator_reported_resolved_issue": "Disha reported earlier team-claim schema string/object validation failure, corrected and passing; not an implementation gate run by Samanta."
+}

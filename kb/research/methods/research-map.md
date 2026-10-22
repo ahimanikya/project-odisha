@@ -923,3 +923,7 @@ Reuse `communities/gopala.json`, `communities/gopala.md` and `sources/gopala-res
 ## Chitrakara community history · 23 October 2026
 
 Reuse `communities/chitrakara.json`, `communities/chitrakara.md` and `sources/chitrakara-research.json`. Existing Pattachitra/Raghurajpur narratives retained; Tripathy1998 household/service evidence, Williams1996 apprenticeship and FMC2008 market study have separate scopes. No caste inference from occupation, verified royal founding, universal aliases or current statistics. Census1967 source checked but not relevant; not cited.
+
+## Teli regional history · 23 October 2026
+
+Reuse `communities/teli.json`, `communities/teli.md` and `sources/teli-research.json`. Thurston1909 regional work/document marks; stable Bhadrak gazetteer source with differing subgroup account; Daanla investigation1962/publication1968 in1961Census series. No universal aliases, surname inference, founding date or occupational determinism. Ganjam redundant and Census1967craftsurvey incidental; not cited.

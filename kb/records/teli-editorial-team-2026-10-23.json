@@ -1,0 +1,52 @@
+{
+  "task_id": "POD-TASK-TELI-20261023",
+  "article_id": "POD-EDIT-472",
+  "programme_id": "POD-A500-125",
+  "work_id": "POD-WORK-316",
+  "status": "reviewing",
+  "input_head": "330c86c71e766e1a1093ce267c617ab8f3e30f2d",
+  "started_at": "2026-10-22T22:05:56.301852+00:00",
+  "route": "/communities/teli/",
+  "scope": "Teli regional community history: oil work, transport, naming and changing livelihoods, with origins distinguished from occupational accounts.",
+  "acceptance": [
+    "Explain regional oil work, transport, documentary identity and the dated Daanla teaching example from inspected original sources.",
+    "Distinguish occupational history, regional subgroup accounts and origin traditions; no invented founding date, universal aliases or caste inference from surname.",
+    "Separate AI research, implementation and review; tests, responsive/download checks, reviewed merge, approved deployment, live checks and integrated receipt before credit."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only original research /tmp/pod-teli-research.json",
+      "status": "completed",
+      "scope_released": false
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/pages/communities/teli.astro",
+        "projects/site/tests-coast/teli-editorial.test.mjs"
+      ],
+      "status": "completed",
+      "scope_released": false
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Read-only integrated candidate review",
+      "status": "reviewing",
+      "scope_released": false
+    },
+    {
+      "name": "Disha",
+      "scope": "Canonical narrative/shared records/publishing",
+      "status": "in_progress",
+      "scope_released": false
+    }
+  ],
+  "worker_reconciliation": "Chitrakara receipt PR451 merged112be380 and local completion330c86c7 retained. Existing workers reconciled; external current_article/task null; unrelated PR304/281 untouched.",
+  "next_action": "Drishti final exact-head review, then required checks and approved publication.",
+  "research": "research/sources/teli-research.json",
+  "implementation": "records/teli-implementation-2026-10-23.json"
+}

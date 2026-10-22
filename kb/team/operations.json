@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/chitrakara-editorial-team-2026-10-23.json",
+  "handoff_home": "records/teli-editorial-team-2026-10-23.json",
   "roles": [
     {
       "name": "Disha",
@@ -54,7 +54,13 @@
     "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
-  "current_article": null,
+  "current_article": {
+    "id": "POD-EDIT-472",
+    "owner": "Disha",
+    "route": "/communities/teli/",
+    "phase": "reviewing",
+    "handoff": "records/teli-editorial-team-2026-10-23.json"
+  },
   "project_identity": "reference/project-identity.md",
   "current_task": null
 }
