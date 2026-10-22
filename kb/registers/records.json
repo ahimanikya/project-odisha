@@ -9074,18 +9074,21 @@
       "id": "POD-WORK-310",
       "title": "Research and publish Kaibarta community history",
       "category": "website_and_knowledge",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti AI review",
       "authorization": "POD-DEC-225",
-      "next_action": "Establish original evidence and naming scope, then research, implement, independently review and publish.",
+      "next_action": "Retain claim through receipt merge before the next article.",
       "blockers": [],
       "refs": [
-        "POD-DEC-225"
+        "POD-DEC-225",
+        "POD-REV-2026102208",
+        "POD-REL-2026102208"
       ],
       "evidence": [
-        "records/kaibarta-editorial-team-2026-10-22.json"
+        "records/kaibarta-editorial-team-2026-10-22.json",
+        "records/kaibarta-editorial-publication-2026-10-22.json"
       ]
     }
   ],
@@ -22193,6 +22196,33 @@
         "CIIL catalogue metadata, not full2020 book text, inspected; similar names and offices are not treated as community equivalents.",
         "No community-specific licensed imagery established. Search eligibility unchanged."
       ]
+    },
+    {
+      "id": "POD-REV-2026102208",
+      "title": "Separate Kaibarta source and integrated article review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human historian or community review.",
+      "reviewed_head": "0f32158b4ed44301754843c4518b05b97e8d8e9f",
+      "refs": [
+        "POD-WORK-310",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/kaibarta-delivery-review-2026-10-22.json"
+      ],
+      "limitations": [
+        "Separate AI review; no human community review or field observation.",
+        "No single founder, formation date, complete genealogy or present-day occupational survey established.",
+        "1985 northern Odisha naming relationship remains source-specific; no universal aliases or all-fisher equivalence.",
+        "1861 grant is reported testimony; original charter and court outcome not independently verified. No current fishing-rights finding.",
+        "2012 performance traditions are not caste-creation chronology; earlier Chaiti Ghoda work is reused without duplicate credit.",
+        "No community-specific image rights established; text-first article. Search eligibility unchanged."
+      ]
     }
   ],
   "releases": [
@@ -25798,6 +25828,22 @@
         "records/karana-editorial-publication-2026-10-22.json"
       ],
       "note": "Reviewed PR434, passing CI, approved deployment and live checks. One substantive article; search eligibility unchanged."
+    },
+    {
+      "id": "POD-REL-2026102208",
+      "title": "Kaibarta rivers work and community memory",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/communities/kaibarta/",
+      "refs": [
+        "POD-WORK-310",
+        "POD-REV-2026102208",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/kaibarta-editorial-publication-2026-10-22.json"
+      ],
+      "note": "Reviewed PR436, passing CI, approved deployment and live checks. One substantive article; search eligibility unchanged."
     }
   ],
   "sources": [

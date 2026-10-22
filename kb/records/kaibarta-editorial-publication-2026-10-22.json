@@ -1,0 +1,108 @@
+{
+  "recorded_at": "2026-10-22T03:58:51.049150+00:00",
+  "authorization": "POD-DEC-225",
+  "program_item": "POD-A500-120",
+  "work_id": "POD-WORK-310",
+  "queue_item": "POD-EDIT-466",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/436",
+  "reviewed_head": "0f32158b4ed44301754843c4518b05b97e8d8e9f",
+  "merge_commit": "b5b556061e9765a4ac9ca57776390eeb624d6c6c",
+  "validation": {
+    "conclusion": "success",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39718969169"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "b5b556061e9765a4ac9ca57776390eeb624d6c6c",
+    "status": "completed",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39719300383",
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "review": "records/kaibarta-delivery-review-2026-10-22.json",
+  "live": {
+    "result": "PASS",
+    "checked_at": "2026-10-22T03:57:46.563898+00:00",
+    "url": "https://projectodisha.org/communities/kaibarta/",
+    "html_sha256": "e66b348b3b2c858450d164ad476b112860703d98bcad977391b87194456a267f",
+    "checks": [
+      "All canonical prose matches",
+      "Founder byline",
+      "Three visible source note targets",
+      "noindex preserved",
+      "Bounded canonical description present"
+    ]
+  },
+  "live_browser": {
+    "worker": "Samanta, AI implementation agent",
+    "input_head": "b5b55606",
+    "deployment": "39719300383",
+    "checked_at": "2026-10-22T03:58:27.458Z",
+    "status": "pass",
+    "url": "https://projectodisha.org/communities/kaibarta/",
+    "desktop": {
+      "viewport": [
+        1440,
+        1000
+      ],
+      "scrollWidth": 1440
+    },
+    "mobile": {
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollWidth": 390,
+      "mobile_menu_visible": true
+    },
+    "source_order": [
+      "note-kaibarta-kalavathy-tietze1985",
+      "note-kaibarta-behera-chaiti2012",
+      "note-kaibarta-chhotray2016"
+    ],
+    "footnote": {
+      "active": "note-kaibarta-behera-chaiti2012",
+      "hash": "#note-kaibarta-behera-chaiti2012"
+    },
+    "return": {
+      "active": "ref-festival-and-story-0-kaibarta-behera-chaiti2012",
+      "hash": "#ref-festival-and-story-0-kaibarta-behera-chaiti2012"
+    },
+    "screenshots": [
+      "/tmp/pod-kaibarta-live-desktop.png",
+      "/tmp/pod-kaibarta-live-mobile.png"
+    ],
+    "limits": [
+      "No production Save mutation.",
+      "No repository edits.",
+      "Merge short head and deployment supplied by coordinator; rendered page verified."
+    ],
+    "image_metadata": {
+      "method": "sips",
+      "desktop": [
+        1440,
+        1000
+      ],
+      "mobile": [
+        390,
+        844
+      ]
+    }
+  },
+  "verified_routes": [
+    "/communities/kaibarta/"
+  ],
+  "limits": [
+    "Separate AI review; no human community review or field observation.",
+    "No single founder, formation date, complete genealogy or present-day occupational survey established.",
+    "1985 northern Odisha naming relationship remains source-specific; no universal aliases or all-fisher equivalence.",
+    "1861 grant is reported testimony; original charter and court outcome not independently verified. No current fishing-rights finding.",
+    "2012 performance traditions are not caste-creation chronology; earlier Chaiti Ghoda work is reused without duplicate credit.",
+    "No community-specific image rights established; text-first article. Search eligibility unchanged."
+  ],
+  "resolved_validation_failure": {
+    "run": "https://github.com/ahimanikya/project-odisha/actions/runs/39718367040",
+    "reason": "Description exceeded250characters; local acceptance audit had been omitted",
+    "resolution": "Bounded canonical description, Shell wiring and regression test;1864local acceptance checks and freshCI passed"
+  }
+}

@@ -3,7 +3,7 @@
   "article_id": "POD-EDIT-466",
   "programme_id": "POD-A500-120",
   "work_id": "POD-WORK-310",
-  "status": "in_progress",
+  "status": "published_receipt_integration_pending",
   "input_head": "fcdb166306d2cb98c050ebf3dbd1e102be9e9b2c",
   "started_at": "2026-10-22T03:31:00.849403+00:00",
   "route": "/communities/kaibarta/",
@@ -33,7 +33,7 @@
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Read-only integrated candidate review",
-      "status": "reviewing"
+      "status": "completed"
     },
     {
       "name": "Disha",
@@ -42,7 +42,14 @@
     }
   ],
   "worker_reconciliation": "All prior workers completed. Karana PR435 receipt merge569bb56e observed and scope released; no active article. Unrelated PR304/281 untouched.",
-  "next_action": "Complete separate exact-head AI review, passing remote checks, approved publication and live receipt; retain ownership through receipt merge.",
+  "next_action": "Merge reviewed receipt with passing checks, observe remote merge, then release article ownership.",
   "research": "research/sources/kaibarta-research.json",
-  "implementation": "records/kaibarta-implementation-2026-10-22.json"
+  "implementation": "records/kaibarta-implementation-2026-10-22.json",
+  "publication_receipt": "records/kaibarta-editorial-publication-2026-10-22.json",
+  "review": "records/kaibarta-delivery-review-2026-10-22.json",
+  "counting": {
+    "completed_items": 120,
+    "increment": 1,
+    "basis": "Individually researched published article with live evidence; receipt integration pending."
+  }
 }

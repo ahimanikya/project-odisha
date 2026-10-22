@@ -1,0 +1,125 @@
+{
+  "reviewer": "Drishti",
+  "review_type": "separate AI review; not human review",
+  "status": "pass_with_limitations",
+  "input_head": "08c83114005ba852e2bdf890d9b766aa2b68e6c8",
+  "reviewed_head": "0f32158b4ed44301754843c4518b05b97e8d8e9f",
+  "reviewed_at": "2026-10-22T03:49:12.294250+00:00",
+  "findings": [],
+  "blockers": [],
+  "source_checks": [
+    "Original FAO-hosted frontmatter independently confirms December1985 publication;2004 web date not adopted. Chapter3pp62–63 confirms source-scoped Kewat/Keota connection, Chasi/Jalia/Adi distinctions and occupation overlap; uncertain marine-transition date not extrapolated.",
+    "Original introductionpp5–6 independently confirms248households,ten selected villages,six then-Balasore/fourGanjam. Article calls this wider sample, not248Kaibarta households.",
+    "Original Chhotray2016 article independently read:2011–12 purposive interviews/groups,KKFS1962 foundation,1861grant as leader testimony, mutually opposing court narratives explicitly unverified by researcher, declining unified authority and motorised-gillnet transition among some Odia fishers. No legal outcome or current exclusive right asserted.",
+    "Original Chhotray erratum independently checked; corrections do not overturn adopted passages. Village pseudonyms not mapped or disclosed as real places.",
+    "Original Behera2012 PDF printed10–11 independently read:Chaitra full-moon festival, village-road performance and money/cloth contributions, Rama horse-gift legend and multiple traditions confirmed. Performance origin tradition not caste-formation evidence; no current extinction claim.",
+    "Existing Chaiti article contains named Utsab Charan Das2013 example and is linked rather than recreated."
+  ],
+  "source_budgets_including_section_headings_titles_notes": {
+    "kaibarta-kalavathy-tietze1985": 154,
+    "kaibarta-chhotray2016": 177,
+    "kaibarta-behera-chaiti2012": 153
+  },
+  "depth_assessment": "Meaningful new community-history value beyond existing Chaiti performance article:1985 occupational overlaps and marine transitions plus2011–12 cooperative authority, contested memory and everyday relations. Festival context is reused transparently and does not supply separate duplicate credit. Earliest formation, family genealogies and contemporary practice remain open.",
+  "integration_checks": [
+    "New canonical community route and existing Chaiti onward link; no source edits to existing performance article in diff.",
+    "No all-fisher caste equation, universal aliases, surnames as proof, hostile ethnic allegations adopted or current legal status asserted.",
+    "Final exact candidate checked: only canonical source-object order changed since source review (FAO, Behera, Chhotray), matching first citation appearance; all source wording and other public hashes unchanged. Subsequent commits modify implementation evidence only.",
+    "Independently reviewed four-file metadata fix since bb959df2: canonical142-character description accurately summarizes existing history; Shell uses it with lead fallback; test checks exact rendered metadata and <=250 length; implementation records original CI failure. Visible prose and layout unchanged, source and visual findings carry forward."
+  ],
+  "tests": [
+    {
+      "check": "git diff --check08c83114..HEAD",
+      "result": "PASS"
+    },
+    {
+      "check": "Final full test log independently inspected",
+      "result": "PASS: 566/566",
+      "log": "/tmp/pod-kaibarta-full-tests.log"
+    },
+    {
+      "check": "Final coast test log independently inspected",
+      "result": "PASS: 446/446",
+      "log": "/tmp/pod-kaibarta-coast-tests.log"
+    },
+    {
+      "check": "Publication build log independently inspected",
+      "result": "PASS: limited mode; 11 indexable pages",
+      "log": "/tmp/pod-kaibarta-publication.log"
+    },
+    {
+      "check": "git diff --check 08c83114..bb959df2",
+      "result": "PASS"
+    },
+    {
+      "check": "Fresh full/coast/publication/audit logs after metadata fix",
+      "result": "PASS:566 full,446 coast,11 indexable,1864/1864 page acceptance checks",
+      "logs": [
+        "/tmp/pod-kaibarta-full-tests.log",
+        "/tmp/pod-kaibarta-coast-tests.log",
+        "/tmp/pod-kaibarta-publication.log",
+        "/tmp/pod-kaibarta-audit.log"
+      ]
+    },
+    {
+      "check": "git diff --check bb959df2..0f32158b",
+      "result": "PASS"
+    }
+  ],
+  "limits": [
+    "Screenshots and logs independently inspected; keyboard, save persistence and browser measurements reported by Samanta, not replayed independently. No physical-device review. CI, deployment and live publication remain separate gates.",
+    "No original royal charter,court order or Kaibarta Geeta independently inspected.",
+    "No human community review or field confirmation; historical sample and local purposive study do not establish statewide current practice."
+  ],
+  "file_sha256": {
+    "kb/catalog.json": "620f5dcf656ca19dc2907656c7fd7b4fd35af609789f7da253e9fe5b342180ae",
+    "kb/records/editorial-workbench.json": "e1dc5ba1210ce428e941e5567a894ca700f98bde8fd11b0f80de474a7284bb3f",
+    "kb/records/kaibarta-editorial-team-2026-10-22.json": "7bc3b6547cdeea3353e874f221f411e68f8022f69a6f707d20b820a536e51521",
+    "kb/records/kaibarta-implementation-2026-10-22.json": "a51bc2066faf125347ea2575555f4173096e83b8cab4b780e2a76913072f2a7b",
+    "kb/research/communities/coverage-index.json": "4d1115ce4971af4c747b9495943685726af5209d92f86d3ff73cef0f4bfc8463",
+    "kb/research/communities/index.md": "5e023133d96fe29044c513b05a691d5cae6d6f56a3e39adfcd665c259f35851e",
+    "kb/research/communities/kaibarta.json": "8bb563a41229c70e22f21723b96c6e4be9793bf59fcbb35eb3bad967071d972f",
+    "kb/research/communities/kaibarta.md": "6488c53677694118f956f915edd14fe5c5bc7260033959c98885636e39cd35ce",
+    "kb/research/methods/research-map.md": "08f4a284958d4f2f24abb19da28b35a5c47e35f0c480be5c5616a98ad2e3c861",
+    "kb/research/search-index.json": "ed7896e072d5fc5d1320bae388fe5198b12bed054aca5a08fa65ab1aaed746c0",
+    "kb/research/sources/kaibarta-research.json": "481c9a18da50f2c140fa12904b6db6f44395f408768f54b220767c716a59e838",
+    "kb/team/operations.json": "34dbe75657257cafcc0ece0263157cc6d16edf786433949a819badc55ce55bfb",
+    "projects/site/editions/coast.json": "25c4d9a917f7706b9bea06ed17eb6d556ee76716f1971f7c8f58e3914d027ba1",
+    "projects/site/editions/search-candidate.json": "d2e75f90fe8065aa3ca2d3d74b4365e888a49a8284153c3f3bcadd2e3f157eab",
+    "projects/site/src/data/discovery.ts": "b10d5fcd4b95d2fa44f9d83143ea4d1ec06b80b7997fa0ac159638bbd35948f8",
+    "projects/site/src/data/journey-catalog.ts": "4d0548e489bcb8a36f4d88059873eb811b3fa44c8e2b9dc35c38619c97ad3da0",
+    "projects/site/src/pages/communities/kaibarta.astro": "a7d51180e6cb4ffbe9748eccb6d346b3d0bfcdd65c63312dec5d683929477bd9",
+    "projects/site/tests-coast/cuttack-literature.test.mjs": "c7a1b32894357b45330d42162d2dc05916d28605dd45f6ca52ed075676e6b809",
+    "projects/site/tests-coast/discovery-flow.test.mjs": "07108a0df169e97ff68ff8665b1c253c37b42d964cdeff14f7f88b2b95a5d4f2",
+    "projects/site/tests-coast/edition.test.mjs": "e9fb4bd9b897e6ce665cdc134267addfc1a97f7caac3ee24b464de27ab2df32e",
+    "projects/site/tests-coast/kaibarta-editorial.test.mjs": "892b98608448b680d6fadcc43585674af975c972c07b0891a98739ab91cae1f0",
+    "projects/site/tests/build.test.mjs": "9927b50922b205ef2ec4e740d54d353b5dfad2a71c092ba515512a2ce2720b04"
+  },
+  "repository_edits": [],
+  "visual_review": {
+    "status": "PASS",
+    "screenshots": [
+      "/tmp/pod-kaibarta-desktop.png",
+      "/tmp/pod-kaibarta-mobile.png",
+      "/tmp/pod-kaibarta-mobile-body.png"
+    ],
+    "actual_inspection": "Desktop, replacement mobile top and mobile body images visually inspected. Readable title, byline, lead, save control, paragraphs and note 2; no observed clipping or overlap.",
+    "correction_history": "Initial refreshed mobile-top evidence was a 390x271 miniature desktop image and rejected; replaced with actual 390x844 mobile viewport capture, inspected and passed at final head."
+  },
+  "review_history": [
+    {
+      "reviewed_head": "bb959df27577be7a70662f42ae585fb8ff2df9e3",
+      "status": "PASS",
+      "subsequent_failure": "CI39718367040: description exceeded250 characters; local audit-coast gate omitted."
+    }
+  ],
+  "program_item": "POD-A500-120",
+  "work_id": "POD-WORK-310",
+  "authorization": "POD-DEC-225",
+  "verification": {
+    "sources": "Separate source review of 1985 occupational study, 2011–12 fieldwork and 2012 performance traditions; local limits, naming scope and word budgets",
+    "implementation": "566 full and 446 coastal tests; 1864 acceptance checks; desktop/mobile visual and interaction checks",
+    "ci": "39718969169 succeeded on reviewed 0f32158b"
+  },
+  "normalization": "Disha linked separate AI PASS to programme fields, preserving original findings and limits; no human review asserted."
+}
