@@ -1,0 +1,106 @@
+{
+  "reviewer": "Drishti",
+  "review_type": "Separate independent AI review; not human or field review",
+  "status": "pass_with_limitations",
+  "input_head": "330c86c71e766e1a1093ce267c617ab8f3e30f2d",
+  "reviewed_at": "2026-10-22T22:10:53.338889+00:00",
+  "findings": [],
+  "blockers": [],
+  "source_checks": [
+    "Original Gutenberg1909 VolumeVII titlepage and complete Telli entry15–17 independently read. Tentative sections, differing work, nisani turmeric/belt/curvedpole and seven-house weddingwater with conch/pipes supported; occupational/ritual observations historically scoped, no universalbranches.",
+    "Original BhadrakPDF printed43 independently extracted/read: Haladia/Khari versus Baladia/Thoria work mapping and movement into other professions supported. Source difference retained, not harmonised; Kuberaputra name is religious association, not genealogy.",
+    "Original downloaded DaanlaPDF frontmatter and printed6,48–49 independently read: investigation1962/publication1968 distinct from1961series; one Teli resident schoolteacher and arrival within then-presentgeneration explicitly supported. No name/appointmentdate or statewideemployment inference."
+  ],
+  "source_budgets_including_associated_interpretation_headings_titles_notes": {
+    "Thurston1909": 178,
+    "Bhadrak": 199,
+    "Daanla": 114
+  },
+  "depth_assessment": "Concrete history through transport/pressing work, occupational documentmarks and inconsistent regionalclassifications. Dated singleteacher case demonstrates limits of hereditaryoccupation assumptions without suggesting representativeness. Historical weddingwater example explicitly shared, not compulsory currentcustom. Formationunknown and no surname inference.",
+  "integration_checks": [
+    "Three sources follow firstappearance; reusedBhadrak stableID retained.",
+    "No universal alias chart or caste inferredfromsurname; interpretation distinguished from documentary founding.",
+    "Final public/source/template/test hashes unchanged from source-review snapshot; only handoff/operations changed among captured files."
+  ],
+  "tests": [
+    {
+      "check": "git diff --check",
+      "result": "PASS"
+    },
+    {
+      "check": "Firstappearance source order",
+      "result": "PASS3sources"
+    },
+    {
+      "check": "Conservative budgetcount",
+      "result": "PASS178/199/114"
+    },
+    {
+      "check": "Final logs independently inspected",
+      "result": "PASS566full469coast1888acceptance11indexable"
+    },
+    {
+      "check": "Actual downloaded HTML independently read",
+      "result": "PASSall canonical paragraphs and three source titles"
+    },
+    {
+      "check": "git diff --check330c86c7..d9b29314",
+      "result": "PASS"
+    }
+  ],
+  "limits": [
+    "Actual screenshots, logs and downloaded HTML independently inspected; keyboard interactions and Save persistence reported by Samanta, not independently replayed. CI, merge, deployment and live receipt remain separate gates.",
+    "No humanreview/fieldconfirmation or currentpopulation survey; Bhadrak exactimprint unresolved.",
+    "Historical colonial classifications not independently verified contemporarybranches; sources do not establish founder/date."
+  ],
+  "file_sha256": {
+    "kb/catalog.json": "286c32cdd5f95484af8d50e1925bf57086b91a8d18937dbfbb5b368ad17d2614",
+    "kb/records/article-editorial-rollout.json": "abb691be364e3da5dde55271f3eab65db5dc6b8b996d4f84cf5e1607065be8bb",
+    "kb/records/article-editorial-work-list.md": "5658d376cb5a2b0ef7ec0585f6f8b7c46e565b4d46b0f3591ee34fdb60fdd790",
+    "kb/records/autonomous-500-program.json": "2de1ef8ac9053f5b94ab3695a9856c96b2e22059d7cb7a59ea64071b3cbafd46",
+    "kb/records/editorial-workbench.json": "1c2c576d1fa68ed562ae517d105a0ac20a6835fd4573105e04540f797742cc58",
+    "kb/records/teli-editorial-team-2026-10-23.json": "37f3a77f1eed98480f54622dd79fbae446585b172f9da78c2785b893c8af3dab",
+    "kb/records/teli-implementation-2026-10-23.json": "f39a4b30b7bde9e984c9619864f43e787c5a5ab3ed62d4a574841ea8ff6859f9",
+    "kb/registers/DASHBOARD.md": "79c9d3128a2d2698006dd415d66c9a0813f95ca74ce5ca2dfa12c6c6b7b8b0b1",
+    "kb/registers/records.json": "095ac6da5c217852a96746ff3d4b8818d0033fba130aada8fbc0da403c210ef2",
+    "kb/research/communities/coverage-index.json": "2944fb1ddc1555c44e1b1020bfe9c45d43955898ce212612e481a829301120e3",
+    "kb/research/communities/index.md": "e4b548afc28179876b2c6a3b44bc653748d8d61938282ea8b2956e32a6974d9f",
+    "kb/research/communities/teli.json": "730619523b215d2f58d9ea92fbe2fab6e5258dab61b5263b579651f467dc8ad0",
+    "kb/research/communities/teli.md": "319873f766295d2d6ed22c08de22c3f9b7b0a5f1610b3987c1c400bbd57eb8fc",
+    "kb/research/methods/research-map.md": "f8c8ae27947ba1426acbf96818c0c2961aa59a59fd1d69e6b4122d0f918eb3d0",
+    "kb/research/search-index.json": "09c09c56e7c904bf81b050e0527e2601d82dcc00cb648c2abec95b61711649a8",
+    "kb/research/sources/teli-research.json": "b9cfbba79017f754f7db4990b16e4614c7260acd0f12d502d738791407317556",
+    "kb/team/operations.json": "4a80b3a0d29e356dd02453ede9b11bb39739c36c342cc50369da3c462e7f9986",
+    "projects/site/editions/coast.json": "31ee98471ad16337892b06e1ac463e5e95583b5149090c66b8163e5db8c3b338",
+    "projects/site/editions/search-candidate.json": "27c50ce8e98bcd49f85ef00e105119bdcb2dc1ed007088d292bdc57f0bbe8ccb",
+    "projects/site/src/data/discovery.ts": "c36e2a486605eafc44e417cdf0af0639569e6dd106223257a1a0387aa3a9fd8b",
+    "projects/site/src/data/journey-catalog.ts": "bafaac3368e18d3a735e3351a25a3bcef3fe803194921037203233152fe0741b",
+    "projects/site/src/pages/communities/teli.astro": "9e55a82d7443a11a051a390097966d3a31ea25c477dbcbe66cab878737d05061",
+    "projects/site/tests-coast/cuttack-literature.test.mjs": "fc64b8a358485dabe3a5cb0bff6ddf4a0f33cf4a922a167d0b2ce6dec31eb2f4",
+    "projects/site/tests-coast/discovery-flow.test.mjs": "63b194f09c5100a60f2c6f2a44a584becdc22f7d9c8a8982601cf202a9de7645",
+    "projects/site/tests-coast/edition.test.mjs": "c5aa765fb172ac830f7e6ae23a7714f7de27ad8668c0da4ae657f5365d897db0",
+    "projects/site/tests-coast/teli-editorial.test.mjs": "08e83bff29471156a006b8791beb21d1f5e60b3c8d8952a068a54be5f225f90d",
+    "projects/site/tests/build.test.mjs": "b621078c4897f83859e0616a8ad5817a4b0c01802720a6e1590ee2814213abdf"
+  },
+  "repository_edits": [],
+  "reviewed_head": "d9b293141a2b8bc5da1399a984143a0475457862",
+  "visual_review": {
+    "status": "PASS",
+    "screenshots": [
+      "/tmp/pod-teli-desktop.png",
+      "/tmp/pod-teli-mobile.png",
+      "/tmp/pod-teli-mobile-body.png"
+    ],
+    "actual_inspection": "Actual1440x1000desktop and390x844mobile top/body inspected: readable title/byline/lead, mobilemenu/savecontrol, Daanla and origin prose, notes3and2; no observed clipping/overlap."
+  },
+  "resolved_procedural_issue": "Coordinator reported prior claim string/object schema failure corrected; implementation report distinguishes this from Samanta gates.",
+  "program_item": "POD-A500-125",
+  "work_id": "POD-WORK-316",
+  "authorization": "POD-DEC-225",
+  "verification": {
+    "sources": "Three original sources inspected; source-derived totals including associated interpretation and notes178/199/114words",
+    "implementation": "566full tests,469coast tests,1888acceptancechecks,11indexable; actual desktop/mobile/download checks",
+    "ci": "https://github.com/ahimanikya/project-odisha/actions/runs/39863034412/job/120118249279 passed on d9b293141a2b8bc5da1399a984143a0475457862"
+  },
+  "normalization": "Disha linked actual separate AI review to programme fields, preserving review history; no human review asserted."
+}
