@@ -11,4 +11,4 @@ No founder, universal alias, proven Yadava genealogy or inevitable hereditary oc
 
 No existing community-specific illustration or verified reuse rights found; text-first presentation avoids assigning caste to a generic herder image. Public historical source retrieved with a single certificate-check bypass after expired server certificate; no credentials or settings changes. Unavailable livestock PDFs excluded.
 
-POD-EDIT-470; POD-A500-123; POD-WORK-314. Candidate awaiting separate review and full publication evidence.
+POD-EDIT-470; POD-A500-123; POD-WORK-314. Published with separate AI review, tests, approved deployment and [live receipt](../../records/gopala-editorial-publication-2026-10-23.json). Local and community research questions remain open.

@@ -9158,18 +9158,21 @@
       "id": "POD-WORK-314",
       "title": "Research and publish Gopala regional community history",
       "category": "website_and_knowledge",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti AI review",
       "authorization": "POD-DEC-225",
-      "next_action": "Verify regional sources and prepare canonical article with documented origin limits.",
+      "next_action": "Retain ownership through receipt merge before another article.",
       "blockers": [],
       "refs": [
-        "POD-DEC-225"
+        "POD-DEC-225",
+        "POD-REV-2026102303",
+        "POD-REL-2026102303"
       ],
       "evidence": [
-        "records/gopala-editorial-team-2026-10-23.json"
+        "records/gopala-editorial-team-2026-10-23.json",
+        "records/gopala-editorial-publication-2026-10-23.json"
       ]
     }
   ],
@@ -22397,6 +22400,33 @@
         "Administrative Thatari/Kansari label is a research lead, not universal synonymy.",
         "No unrestricted community-specific image rights established; search eligibility unchanged."
       ]
+    },
+    {
+      "id": "POD-REV-2026102303",
+      "title": "Separate Gopala source and integrated article review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human historian or community review.",
+      "reviewed_head": "86da2bb80bf8a52c2f1505f20f055dac30369732",
+      "refs": [
+        "POD-WORK-314",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/gopala-delivery-review-2026-10-23.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human community review or fieldwork.",
+        "No universal name equivalence, founder, creation date or verified descent established.",
+        "1909 colonial classifications are historical testimony with explicit doubts; hierarchy and stereotypes rejected.",
+        "District gazetteer edition dates unresolved; occupational accounts are not current statistics.",
+        "Bula Das2012 is literary interpretation, not original manuscript dating; Nemalo report URL and update dates differ.",
+        "No unrestricted community-specific image rights established; search eligibility unchanged."
+      ]
     }
   ],
   "releases": [
@@ -26066,6 +26096,22 @@
         "records/kansari-editorial-publication-2026-10-23.json"
       ],
       "note": "Reviewed PR446, passing checks, approved deployment and live verification. One substantive article; search eligibility unchanged."
+    },
+    {
+      "id": "POD-REL-2026102303",
+      "title": "Gopala cattle work and Dola traditions",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/communities/gopala/",
+      "refs": [
+        "POD-WORK-314",
+        "POD-REV-2026102303",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/gopala-editorial-publication-2026-10-23.json"
+      ],
+      "note": "Reviewed PR448, passing checks, approved deployment and live verification. One substantive article; search eligibility unchanged."
     }
   ],
   "sources": [
