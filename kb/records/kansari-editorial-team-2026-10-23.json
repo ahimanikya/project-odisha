@@ -3,7 +3,7 @@
   "article_id": "POD-EDIT-469",
   "programme_id": "POD-A500-122",
   "work_id": "POD-WORK-313",
-  "status": "published_receipt_integration_pending",
+  "status": "completed",
   "input_head": "fda91031ac66d90d58c89ff2d5bc3868439fdc82",
   "started_at": "2026-10-22T18:50:27.462907+00:00",
   "route": "/communities/kansari/",
@@ -18,7 +18,8 @@
       "name": "Anvesha",
       "runtime": "/root/anvesha",
       "scope": "Read-only research /tmp/pod-kansari-research.json",
-      "status": "completed"
+      "status": "completed",
+      "scope_released": true
     },
     {
       "name": "Samanta",
@@ -27,21 +28,24 @@
         "projects/site/src/pages/communities/kansari.astro",
         "projects/site/tests-coast/kansari-editorial.test.mjs"
       ],
-      "status": "completed"
+      "status": "completed",
+      "scope_released": true
     },
     {
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Read-only integrated candidate review",
-      "status": "completed"
+      "status": "completed",
+      "scope_released": true
     },
     {
       "name": "Disha",
       "scope": "Canonical narrative/shared records/publishing",
-      "status": "working"
+      "status": "completed",
+      "scope_released": true
     }
   ],
-  "next_action": "Merge reviewed receipt with passing required checks, observe actual merge, then release ownership.",
+  "next_action": "Kansari receipt merged and ownership released. On next wake reconcile workers and durable state, select next useful community-series subject from coverage index and existing KB, and establish scoped source-backed acceptance before implementation. Continue remaining editorial rollout one article at a time. Do not repeat published community articles; consult the current coverage index. For every future article run the local coastal acceptance audit before submission; also verify actual mobile viewport and screenshot dimensions. No active article.",
   "worker_reconciliation": "Nolia PR445 receipt merged0210138d and localcompletionfda91031 observed; all workers completed, current scopes released. External checkout current_article/task null, unrelated PR304/281 untouched.",
   "research": "research/sources/kansari-research.json",
   "resolved_findings": [
@@ -55,6 +59,60 @@
   "counting": {
     "completed_items": 122,
     "increment": 1,
-    "basis": "Individually researched published article with live evidence; receipt integration pending."
+    "basis": "One individually researched published article; reviewed receipt merge observed."
+  },
+  "receipt_integration_observed": {
+    "pull_request": 447,
+    "reviewed_head": "0cf92789356709b37b00dd3d455a71cae51ff07b",
+    "merge_commit": "1b1c9b96330d0cfa740e9bd93268076ebf1da159",
+    "merged_at": "2026-10-22T19:16:02Z",
+    "validation_run": 39837871258,
+    "validation_result": "success",
+    "review": "Drishti independently reviewed exact 0cf92789 receipt; coordinator observed required checks and actual remote merge."
+  },
+  "receipt_review": {
+    "reviewer": "Drishti",
+    "review_type": "Independent AI receipt review, not human review",
+    "status": "PASS",
+    "input_head": "0cf92789356709b37b00dd3d455a71cae51ff07b",
+    "reviewed_head": "0cf92789356709b37b00dd3d455a71cae51ff07b",
+    "comparison_base": "5442b4c825ee03758cddf644b008f9c0b2cdda59",
+    "reviewed_at": "2026-10-22T19:11:37.040311+00:00",
+    "findings": [],
+    "blockers": [],
+    "checks": [
+      "Only A500122, EDIT469 and WORK313 changed among existing entries; prior121programme entries and other article/work entries unchanged.",
+      "Count122 completed programme items and75 completed editorial articles verified.",
+      "REV2026102302 and REL2026102302 appended; no existing review/release overwritten.",
+      "Delivery review matches original in every existing field except PASS normalized to pass_with_limitations; source budgets, corrected route, stale-build failure and screenshot review retained honestly.",
+      "Public website and canonical narrative/source hashes unchanged from reviewed eeac58af. Receipt delta only internal records/status.",
+      "Saved PR446 merge evidence matches reviewed eeac58af and merge5442b4c8; successful deployment39837072423 uses merge head. RequiredCI39836407308 success linked in receipt.",
+      "Live HTML saved report and exact saved browser report preserved in receipt; all prose/byline/four notes/noindex/description and keyboard return evidenced.",
+      "Disha claim EDIT469 retained in receipt_integrated with receipt_merge_pending true.",
+      "UTC22October19:10 corresponds to23October Asia/Kolkata; record date consistent."
+    ],
+    "tests": [
+      {
+        "name": "test_autonomous_program.py",
+        "result": "PASS30tests"
+      },
+      {
+        "name": "test_registers.py",
+        "result": "PASS1154records651events"
+      },
+      {
+        "name": "check_team_assignments.py",
+        "result": "PASS"
+      },
+      {
+        "name": "git diff --check5442b4c8..HEAD",
+        "result": "PASS"
+      }
+    ],
+    "limits": [
+      "Merge,CI,deployment and live results assessed from saved evidence/linked receipt; no fresh remote query or independent live browser replay in this receipt review.",
+      "Independent AI review only, no human community/field confirmation."
+    ],
+    "repository_edits": []
   }
 }
