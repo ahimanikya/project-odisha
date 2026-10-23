@@ -69,8 +69,7 @@ For a first encounter, begin with a named performance or recording. Follow one p
 
 [^films-division-sakhipila]: Films Division, [*Film Library Catalogue*](https://bpb-us-w2.wpmucdn.com/web.sas.upenn.edu/dist/4/705/files/2020/09/Films-Division-Catalogue.pdf), PDF p.2560, entry 6236, unique number 008432, NM0401. University-hosted copy; full PDF text and rendered row inspected 23 October 2026. No film viewing or identification of “Kelu sir” follows from this record.
 
-<details>
-<summary>Further reading</summary>
+## Further reading
 
 - [Champu and the sakhi](champu-and-sakhi.md)
 - [Gotipua](gotipua.md)
@@ -78,6 +77,5 @@ For a first encounter, begin with a named performance or recording. Follow one p
 - [Jhulana in Odisha](jhulana-in-odisha.md)
 - [Prahallad Nataka](prahallad-nataka.md)
 
-</details>
 
 **[Suggest an update](https://projectodisha.org/contribute/?page=kb%2Fresearch%2Fculture%2Fsakhi-nata-and-sakhi-pila.md):** identify the performer, locality, recording or source passage. GitHub submissions are public; omit private contact details and consent documents.

@@ -1,0 +1,34 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import ReviewedCultureArticle from '../../components/ReviewedCultureArticle.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
+import {renderReviewedCultureArticle} from '../../lib/reviewed-culture-article.mjs';
+import source from '../../../../../kb/research/culture/sakhi-nata-and-sakhi-pila.md?raw';
+const image={src:'/assets/sakhi-nata-and-sakhi-pila/mardala.jpg',alt:'Mardala used in Sakhi Nata, photographed by Prateek Pattanaik',width:2716,height:3024};
+const article=renderReviewedCultureArticle(source,{
+ sourcePath:'kb/research/culture/sakhi-nata-and-sakhi-pila.md',route:'/stories/sakhi-nata-and-sakhi-pila/',
+ images:{'../media/sakhi-nata/mardala.jpg':image.src},
+ imageDimensions:{[image.src]:{width:image.width,height:image.height}},
+ links:{'champu-and-sakhi.md':'/literature/champu-and-sakhi/','gotipua.md':'/stories/gotipua/','mardala.md':'/sounds-of-odisha/mardala/','jhulana-in-odisha.md':'/stories/jhulana-in-odisha/','prahallad-nataka.md':'/stories/prahlada-nataka/'}
+});
+// This article adopts the current reading-path pattern without changing earlier pages.
+const further=article.html.match(/<h2 id="further-reading">Further reading<\/h2>\s*<ul>([\s\S]*?)<\/ul>/);
+if(!further)throw Error('Sakhi Nata further-reading list missing');
+const destinationImages={
+ '/literature/champu-and-sakhi/':'/assets/champu-and-sakhi/radha-confidante-met.jpg',
+ '/stories/jhulana-in-odisha/':'/assets/jhulana-in-odisha/hindola-raga.jpg',
+ '/stories/prahlada-nataka/':'/assets/prahallad-nataka/crafts-museum.jpg',
+ '/sounds-of-odisha/mardala/':'/assets/home-art/odissi-rehearsal-v1.webp'
+};
+const readingLinks=[...further[1].matchAll(/<a href="([^"]+)">([^<]+)<\/a>/g)].map(([,href,title])=>({href:href.replaceAll('&amp;','&'),title:title.replaceAll('&amp;','&'),image:destinationImages[href],description:href==='/sounds-of-odisha/mardala/'?'Illustration from the Mardala article.':undefined}));
+const [body,afterReading]=article.html.split(further[0]);
+article.html=body;
+---
+<Shell title={article.title} description="Sakhi Nata and Sakhi Pila through performers, instruments, historical accounts and credited documentary records." active="explore" related={false} shareImage={image}>
+ <ReviewedCultureArticle article={article}>
+  <div slot="intro"><p><a href="/explore/">← Explore Odisha</a></p><p class="eyebrow">Living traditions · Music and theatre</p></div>
+  <ArticleReadingPath id="further-reading" heading="Further reading" links={readingLinks}/>
+  <div set:html={afterReading}/>
+  <ArticleReadingPath links={[{href:'/literature/',title:'Explore Odia literature'},{href:'/stories/ashta-nayika/',title:'Ashta Nayika: eight dramatic situations',image:'/assets/ashta-nayika/abhisarika-met.jpg'}]}/>
+ </ReviewedCultureArticle>
+</Shell>

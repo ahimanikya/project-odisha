@@ -3,7 +3,7 @@
   "status": "in_progress",
   "scope": "Twelve reviewed standalone articles, individually reviewed and published in their subject sections",
   "coordinator": "Disha",
-  "active_article": "/stories/jhulana-in-odisha/",
+  "active_article": "/stories/sakhi-nata-and-sakhi-pila/",
   "research_checkpoint": "07a41a9a",
   "reconciled_main": "9c82dca8",
   "external_worker_reconciliation": "Read current Project Odisha editorial chat: Dhaga discovery research only; no public article or reader changes. Preserve its current_task and files. PR281 and304 unrelated.",
@@ -37,6 +37,10 @@
     {
       "route": "/literature/alankara-and-bhanja/",
       "receipt": "records/alankara-and-bhanja-publication-2026-10-24.json"
+    },
+    {
+      "route": "/stories/jhulana-in-odisha/",
+      "receipt": "records/jhulana-in-odisha-publication-2026-10-24.json"
     }
   ],
   "limits": [
@@ -44,11 +48,11 @@
     "Specialist, full listening and documentary identity limits retained in sources."
   ],
   "reserved_implementation_files": [
-    "projects/site/src/pages/stories/jhulana-in-odisha.astro",
-    "projects/site/public/assets/jhulana-in-odisha/",
-    "projects/site/tests/jhulana-editorial.test.mjs",
-    "projects/site/src/pages/stories/odissi-abhinaya.astro (navigation only)",
-    "projects/site/src/pages/literature/champu-and-sakhi.astro (navigation only)"
+    "projects/site/src/pages/stories/sakhi-nata-and-sakhi-pila.astro",
+    "projects/site/public/assets/sakhi-nata-and-sakhi-pila/",
+    "projects/site/tests/sakhi-nata-editorial.test.mjs",
+    "projects/site/src/pages/stories/prahlada-nataka.astro (navigation only)",
+    "projects/site/src/pages/stories/jhulana-in-odisha.astro (navigation only)"
   ],
   "queue": [
     {
@@ -84,12 +88,12 @@
     {
       "source": "jhulana-in-odisha",
       "route": "/stories/jhulana-in-odisha/",
-      "status": "implementation"
+      "status": "published"
     },
     {
       "source": "sakhi-nata-and-sakhi-pila",
       "route": "/stories/sakhi-nata-and-sakhi-pila/",
-      "status": "queued"
+      "status": "implementation"
     },
     {
       "source": "odissi-tala-and-changing-cycles",
