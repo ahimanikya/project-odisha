@@ -108,3 +108,9 @@ Entries092–108 add17 independently AI-reviewed records beyond the canonical91:
 Edit one saying in `entries/POD-DHAGA-NNN.json`. These108 individual files are the narrative source, including each bilingual summary and optional illustration. Edit `collection-metadata.json` for sources, collection rights and the bilingual book introduction. `research-design.json` supplies the complete thematic chapter map. The original bilingual-summary research file is provenance only; the build reads the summaries from each entry.
 
 Run `python3 build.py` in this folder. It reads the entry folder by default and regenerates `collection.json` (derived compatibility/export data; do not edit), `index.html` (bilingual contents article), `reader.html` (stable hash entry point) and `sayings/POD-DHAGA-NNN.html` (one complete saying per static page). All reading pages and previous/next navigation work without JavaScript; index search needs JavaScript. Print the contents article for every bilingual short reading, or an individual page for its full reading and sources. Run `python3 -m unittest test_repository test_source_inventory` to check the source folder, generated pages, navigation, rights references and offline assets. No source facsimiles are bundled.
+
+## Printable reading edition
+
+The reader download is `odia-dhaga-book.pdf`, an A4 book with one saying per page, a bilingual subject introduction, chapter contents, illustrations and compact source credits. It deliberately omits the online witness, variant and research-limit panels; the canonical evidence remains unchanged.
+
+After editing entries or the introduction, run `python3 build.py`, then regenerate the PDF with `python3 build_print.py` in an environment containing `requirements-print.txt`. The generator converts the bundled licensed fonts temporarily and uses HarfBuzz shaping for Odia. Inspect rendered pages after regeneration; PDF text extraction alone cannot verify Odia glyph shaping.

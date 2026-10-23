@@ -1,0 +1,40 @@
+{
+  "reviewer": "Drishti \u2014 independent AI review",
+  "status": "pass_with_limitations",
+  "input_head": "293e13b97a25e1408281b10b20ca953b0ef3aa5b",
+  "findings": [],
+  "resolved_findings": [
+    "Initial mixed-script credit titles and URLs rendered boxes/garbled text. Final credits use readable ASCII source labels and permanent oldid URLs; inspected corrected page112.",
+    "Added explicit CC BY-SA4.0 license URL and durable repository source-record link."
+  ],
+  "checks": [
+    "Read PDF skill and used visual rendered-page review. Inspected intro page2, illustrated007 page5,054 page46, and corrected credits112. Odia body glyphs shaped and readable; no clipping in samples.",
+    "114 pages;108 saying titles accounted for:107 normalized extraction matches and054 visually confirmed where extraction ligature differs.",
+    "Independently ran17 repository and source-inventory tests:PASS.",
+    "All108 canonical entry bodies and individual JSON/HTML pages unchanged vs origin/main.",
+    "Reviewed substantive bilingual intro and Odia h1; single search control replaces theme/reset controls, no obsolete listener dependency.",
+    "PDF deliberately excludes witness/variant/limit apparatus, with primary-source credits, original commentary license and explicit SCERT separate-rights exception retained. Canonical evidence not deleted.",
+    "Final license URL and source repository reference verified in PDF text and visual credits.",
+    "Final optimized PDF: actually viewed credits-final-112 and freshly rendered optimized page5; no orphan credit label, no garbled credits, illustration remains clear at reading size."
+  ],
+  "hashes": {
+    "build.py": "869b6de23bbf8727fe38309810ea6522a70417bf20dfb7111a258e9bf6123641",
+    "build_print.py": "a1812a287f18792b3fe27b2bb154ee0d43f74593953cfdd9e9a45db072f4f17c",
+    "collection.json": "46ef3d87bf636decc7b01ebdb41e67af6190e9c3151d837c9ea873e2450e9d26",
+    "collection-metadata.json": "b228653085a0f94673af2729962789b189a57d20ffe5e0b1ea4fabe22963aae2",
+    "index.html": "4cd173774e4860c49d0a9a0cb0a5434ddb8359bd482d2278fdae3e6df2b82d71",
+    "odia-dhaga-book.pdf": "eee94399e89f6a8271f8177804a17fcd8edb7306ccf57ed9020f05c19d1c7b51",
+    "requirements-print.txt": "6dd9a6f9bac0fa86ffd2838e5d33985e6f30de2e903b7dc7ed67cea85032464e",
+    "README.md": "930c921c20694e61db5f6832bf092121ff0216ea6c35e9ba072820f8c0c49b1a"
+  },
+  "limits": [
+    "Independent AI review, not human Odia proofreading.",
+    "Visual sampling rather than all114 pages inspected. Shaped PDF extraction is imperfect; appearance was assessed using rendered samples.",
+    "Browser interaction attributed to coordinator, not independently rerun in this review.",
+    "Print dialog and physical print not tested.",
+    "Credits summarize primary witnesses; full lexical/variant evidence remains canonical and linked.",
+    "Working-candidate approval; exact committed-head confirmation remains pending."
+  ],
+  "previous_pdf_hash": "ab066b755097404583af559cb62cc07776443c6411bf556a1107420956218783",
+  "pdf_bytes": 4392022
+}
