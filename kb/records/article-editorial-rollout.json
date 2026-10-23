@@ -7520,14 +7520,23 @@
       "id": "POD-EDIT-487",
       "route": "/stories/sakhi-nata-and-sakhi-pila/",
       "title": "Sakhi Nata and Sakhi Pila: song, dancer and companion",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "Reviewed standalone illustrated research article",
       "source_template": "projects/site/src/pages/stories/sakhi-nata-and-sakhi-pila.astro",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
         "records/nataka-publication-2026-10-24.json"
       ],
-      "blocker": null
+      "blocker": null,
+      "publication_receipt": "records/sakhi-nata-and-sakhi-pila-publication-2026-10-24.json"
     }
   ]
 }
