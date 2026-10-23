@@ -3,7 +3,7 @@
   "article_id": "POD-EDIT-477",
   "programme_id": "POD-A500-130",
   "work_id": "POD-WORK-321",
-  "status": "in_progress",
+  "status": "published_receipt_integration_pending",
   "input_head": "7d01a078d7818d2154605e1da17f331b0da41326",
   "started_at": "2026-10-23T04:47:21.004251+00:00",
   "route": "/communities/kamar/",
@@ -35,7 +35,7 @@
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Read-only integrated candidate review",
-      "status": "content_review_completed_final_pending",
+      "status": "completed",
       "scope_released": false
     },
     {
@@ -46,7 +46,7 @@
     }
   ],
   "worker_reconciliation": "Patara receipt PR461 mergeddf716008; completion7d01a078 retained. Previous workers completed and scopes released; external current_article/task null; unrelated PR304/281 untouched.",
-  "next_action": "Exact committed-head separate AI review, passing checks and approved publication, then live receipt integration.",
+  "next_action": "Merge reviewed receipt with passing required checks, observe actual merge, then release ownership.",
   "research": {
     "role": "Anvesha read-only research",
     "input_head": "7d01a078d7818d2154605e1da17f331b0da41326",
@@ -357,5 +357,12 @@
       "publication": "/tmp/pod-kamar-publication.log"
     }
   },
-  "coordinator_visual_check": "Disha inspected actual390x844 header/body screenshots; readable with no clipping. Samanta actual browser evidence retained."
+  "coordinator_visual_check": "Disha inspected actual390x844 header/body screenshots; readable with no clipping. Samanta actual browser evidence retained.",
+  "publication_receipt": "records/kamar-editorial-publication-2026-10-23.json",
+  "review": "records/kamar-delivery-review-2026-10-23.json",
+  "counting": {
+    "completed_items": 130,
+    "increment": 1,
+    "basis": "Individually researched published article with live evidence; receipt integration pending."
+  }
 }

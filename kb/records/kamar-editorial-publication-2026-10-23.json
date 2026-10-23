@@ -1,0 +1,80 @@
+{
+  "recorded_at": "2026-10-23T05:04:22.397000+00:00",
+  "authorization": "POD-DEC-225",
+  "program_item": "POD-A500-130",
+  "work_id": "POD-WORK-321",
+  "queue_item": "POD-EDIT-477",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/462",
+  "reviewed_head": "4914ef342b26e39a6710e48f9b69b469d0eb9589",
+  "merge_commit": "0a9801fe50f772c134ea3be12b0a800bc6b47116",
+  "validation": {
+    "conclusion": "success",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39902907477"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "createdAt": "2026-10-23T04:59:10Z",
+    "databaseId": 39903246078,
+    "headSha": "0a9801fe50f772c134ea3be12b0a800bc6b47116",
+    "status": "completed",
+    "updatedAt": "2026-10-23T05:03:20Z",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39903246078",
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "review": "records/kamar-delivery-review-2026-10-23.json",
+  "live": {
+    "result": "PASS",
+    "checked_at": "2026-10-23T05:03:58.431754+00:00",
+    "url": "https://projectodisha.org/communities/kamar/",
+    "html_sha256": "1963c7d771fb8601ec7fbd18cfd287e726b288da4ef39eeb4edc5004b883d20e",
+    "checks": [
+      "All canonical prose matches",
+      "Founder byline",
+      "Three visible source note targets",
+      "noindex preserved",
+      "Bounded canonical description present"
+    ]
+  },
+  "live_browser": {
+    "worker": "Samanta, AI implementation agent",
+    "checked_at": "2026-10-23T05:04:08.895001+00:00",
+    "input_head": "0a9801fe50f772c134ea3be12b0a800bc6b47116",
+    "deployment": "39903246078",
+    "url": "https://projectodisha.org/communities/kamar/",
+    "result": "pass",
+    "actual_checks": {
+      "byline": "By Ahimanikya Satapathy",
+      "viewport": [
+        390,
+        844
+      ],
+      "scroll_width": 390,
+      "visible_source_notes": [
+        "note-nolia-ganjam-gazetteer",
+        "note-kansari-census1961-survey1967",
+        "note-teli-daanla-census1961-survey1962-pub1968"
+      ],
+      "keyboard_note_focus": "note-nolia-ganjam-gazetteer",
+      "keyboard_exact_return_focus": "ref-iron-and-other-crafts-0-nolia-ganjam-gazetteer",
+      "further_reading_initially_collapsed": true
+    },
+    "limits": [
+      "Read-only live browser check; no production Save or download.",
+      "No repository edits.",
+      "Deployment/head supplied by coordinator; browser checked live content and behavior.",
+      "Desktop visual and actual book download checks belong to separately recorded preview validation."
+    ]
+  },
+  "verified_routes": [
+    "/communities/kamar/"
+  ],
+  "limits": [
+    "Separate AI review, not human community review or fieldwork.",
+    "No universal alias, surname-based caste assignment or verified community formation date established.",
+    "Ganjam district craft grouping has unresolved exact imprint and practice dates.",
+    "Crafts1962 fieldwork/published1967 is period evidence; closure causes attributed to smelters, not independently verified legal findings.",
+    "Daanla1962/published1968 household and occupational passages remain distinct; payment per pair of bullocks is local history, not current rate.",
+    "Source stereotypes and unsubstantiated settlement chronology excluded. No image rights verified; no image added. Search eligibility unchanged."
+  ]
+}
