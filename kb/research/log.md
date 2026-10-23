@@ -842,3 +842,15 @@ Replaced the active Dalma, Tomato Poda and Poda Pitha illustrations with newly i
 ## 22 October 2026 · Wedding names and media context
 
 Extended the cultural identity article with attributed wedding reporting and practical guidance for Nirbandha, Mangana and additional functions. Structured evidence separates interviews, wider scholarship and editorial proposals; no statewide replacement rate or blanket foreign-origin claim adopted. Source and family/community variation retained.
+
+## 2026-10-23
+
+Added Prahallad Nataka feature, comparative theatre guide, conflict/source dossier, structured evidence and Baithak event record. Existing Pala, Daskathia and Chhau knowledge reused. Literature review with separate AI research and review; no fieldwork, human specialist review or site publication claimed.
+
+## 2026-10-23 · Nayika and Odissi & Beyond
+
+Added two sourced articles, Champu/sakhi evidence and a dated Instagram concept survey. Signed-in Chrome expanded the initial anonymous sample to 140 distinct caption records against145 displayed posts. Full media inspection not claimed. Separate AI source review completed with tracked corrections; no public release or autonomous programme increment.
+
+## 2026-10-23 · Illustrated Nayika second pass
+
+Deepened Ashta Nayika with precise Gita Govinda passages, expanded abhinaya through the historical waiting scene and credited practitioner views, and created Champu/sakhi feature. Every article has an image and visible Soumya Biswajit acknowledgement. Two Met public-domain paintings and one original SVG retain provenance. No new archive-completion or public-release claim.

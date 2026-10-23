@@ -75,3 +75,9 @@ Checked 29 September 2026 UTC:
 - [Bharatiya Jnanpith: laureates](https://jnanpith.net/laureates.html?id=3). Retrieved register inspected; award-year information is distinct from announcement dates and does not supply complete bibliographies.
 
 Tracked under **POD-WORK-016** as an expansion of the language and heritage programme. No new pages have been deployed by this documentation change.
+
+## New literary reading · 23 October 2026
+
+[When the poet enters the song: bhanita and literary signatures](bhanita-and-poet-signatures.md) is a standalone illustrated local draft, prompted by Soumya Biswajit and supported by a documented Bhanja lyric and scholarship on attribution. It belongs to Literature; it does not complete the Bhanja biography or the wider poetic-devices queue.
+
+[How sound and comparison shape Bhanja’s poetry](alankara-and-bhanja.md) — a standalone illustrated close reading; local draft, with Abana still an open question.

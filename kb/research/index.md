@@ -1,5 +1,7 @@
 # Utkal · Odisha knowledge base
 
+[Explore poetry, music and living traditions](collections/poetry-music-and-living-traditions.md) — subjects beyond Nataka and Nayika, with existing reading and open research clearly marked.
+
 Research edition 1.3.0 · 30 September 2026. Built for compelling, source-backed stories about Odisha in India and globally.
 
 Start with [nine subjects of Odisha](subjects/index.md): places, history, people, arts, food and farming, nature, everyday life, economy and governance. Follow connected pages and source-linked explanations across these subjects. Tourism is one collection within this broader encyclopedia.
@@ -56,3 +58,13 @@ This is a research collection, not a current travel-booking directory. Statement
 [District evidence matrix](statistics/district-coverage.md) — saved evidence across 30 districts, with local and district scopes kept separate.
 
 [Western and southern district baselines](statistics/western-southern-baselines.md) — historical people and work context.
+
+## Theatre research · 23 October 2026
+
+[Prahallad Nataka feature](culture/prahallad-nataka.md) · [Odisha theatre comparison](culture/odisha-theatre-traditions.md) · [Evidence and conflicts](sources/prahallad-nataka-research.md). Local KB additions and article draft; no website release is recorded.
+
+## Nayika, Champu and performance · 23 October 2026
+
+[Ashta Nayika](culture/ashta-nayika.md) · [Odissi abhinaya](culture/odissi-abhinaya.md) · [Champu and sakhi research](sources/champu-and-sakhi-research.md) · [Instagram survey and research directions](sources/odissiandbeyond-research-map.md). Local drafts; 140 caption records surveyed, complete audiovisual review not claimed.
+
+[Illustrated Champu and sakhi article](culture/champu-and-sakhi.md) completes the linked Nayika–abhinaya–sakhi reading sequence. Each article includes an image and visible credit to Soumya Biswajit / Odissi & Beyond.

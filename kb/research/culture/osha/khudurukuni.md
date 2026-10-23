@@ -64,3 +64,7 @@ Nayak and Mohanty cite an undated Bruhat Tapoyi ba Khudurukuni Osa from Lokanath
 The 2013 paper describes the text as anonymous; Patra attributes it to Gopinath Das. These accounts do not settle authorship. IRRI distinguishes hull from bran; neither identifies this locality’s khuda.
 
 [The connected article](../../stories/khudurukuni-maritime-knowledge.md) reads the observance beside maritime practical knowledge.
+
+## Continue exploring
+
+Soumya Biswajit’s [Tapoi post](https://www.instagram.com/odissiandbeyond/reel/Dcp-_QYzY0t/) offers a telling to compare with the sources here. Its inclusion does not settle the existing text-attribution question. See the [poetry, music and living traditions collection](../../collections/poetry-music-and-living-traditions.md).

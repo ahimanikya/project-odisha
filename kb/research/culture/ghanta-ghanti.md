@@ -62,3 +62,7 @@ We have not established an invention date or a single origin for these instrumen
 [^ghanta-museum]: [Odisha State Museum, Musical Instruments](https://odishamuseum.nic.in/?q=node/95), paragraphs on temple bells and ghanti. Current access arrangements have not been checked here.
 
 Practitioner review, local terminology and authorised photographs/audio remain open. [Research notes and recording questions](../sources/ghanta-ghanti-research.md).
+
+## Continue exploring
+
+[Balakati metalcraft: the work behind the ringing](balakati-metalcraft.md) extends this reading with a named workshop, household participation and a dated account of brass production. The original manjira post is credited there; its particular maker and instrument process still need verification. See the [poetry, music and living traditions collection](../collections/poetry-music-and-living-traditions.md).

@@ -943,3 +943,11 @@ Reuse `communities/dhoba.json`, `communities/dhoba.md` and `sources/dhoba-resear
 ## Patara regional history · 23 October 2026
 
 Reuse `communities/patara.json`, `communities/patara.md` and `sources/patara-research.json`. Bhadrak43 yarn trade and implement worship; Thurston1909 printed177 offices and products; Mohapatra2017 Bijaya Dori; Baral2026 Patara Bisoi Gamha Purnima craft. Named services do not represent all households; no surname inference or founding event established. NCBC scan unread and excluded; Ganjam101 redundant corroboration. No verified media rights.
+
+## Prahallad Nataka and related theatre · 23 October 2026
+
+[Feature](../culture/prahallad-nataka.md), [comparison](../culture/odisha-theatre-traditions.md) and [dossier](../sources/prahallad-nataka-research.md) extend existing Pala, Daskathia, Chhau and Sounds of Odisha research. Preserve the shared Kalahandi and IGNCA source identities. Current event data lives separately. The user-directed addition does not change autonomous programme completion counts.
+
+### 23 October 2026: Nayika and Odissi & Beyond
+
+Reuse the [caption survey](../sources/odissiandbeyond-research-map.md), [Ashta Nayika article](../culture/ashta-nayika.md), [abhinaya article](../culture/odissi-abhinaya.md) and [Champu/sakhi dossier](../sources/champu-and-sakhi-research.md). Classical definitions, practitioner captions, historical testimony and modern programmes retain distinct scopes.
