@@ -50,7 +50,7 @@
     "reason": "No autonomous-500 credit claimed for setup or the initial research collection."
   },
   "deployment": "Local standalone repository requested; no public-site deployment claimed.",
-  "next_action": "Continue1893PDF4 as next page-wide attempt; revisit unresolved PDF2/3 glyphs separately. Research drafts forPDF2/3 merged viaPR466;31 tentative segments are not31 verified sayings. Fifteen explained entries unchanged. Receipt integrated and scopes released; no active lock on community work.",
+  "next_action": "Continue1893PDF5 as next independent page attempt. PDF4 local research checkpoint has18 tentative segments; cumulative49 acrossPDF2–4, not verified unique sayings. Preserve unresolved glyphs and15explained entries; include pending checkpoint in next reviewed repository release. Scopes released; no lock on community queue.",
   "research_report": "research/folklore/odia-dhaga-source-audit-2026-10-23.json",
   "implementation": {
     "worker": "Samanta, AI implementation agent",
@@ -505,5 +505,37 @@
     "programme_increment": 0,
     "delivery_receipt": "records/odia-dhaga-historical-pages2-3-delivery-2026-10-23.json",
     "pull_request": "https://github.com/ahimanikya/project-odisha/pull/466"
+  },
+  "page4_work": {
+    "status": "local_research_checkpoint_scopes_released",
+    "input_head": "1e86930d7ffba42f9471562eb1257a3f0c294343",
+    "owner": "Disha",
+    "reserved_scope": [
+      "kb/research/folklore/odia-dhaga-1893-page4-transcription-2026-10-23.json",
+      "kb/research/folklore/odia-dhaga-1893-page4-review-2026-10-23.json",
+      "kb/research/folklore/odia-dhaga-1893-page4-validation-2026-10-23.json",
+      "projects/odia-dhaga/coverage-ledger.json",
+      "kb/records/odia-dhaga-team-2026-10-23.json"
+    ],
+    "workers": {
+      "Anvesha": "Read-only fullpage visual transcription to temporary draft",
+      "Samanta": "Read-only mechanical validation",
+      "Drishti": "Read-only separate visual and integrated review"
+    },
+    "accepted_increment": 0,
+    "programme_increment": 0,
+    "scopes_released": true,
+    "transcription_sha256": "1c74bc4a852808c9168578d197e0d08dfe00b5cf22d98f6fa2c6717dc5a93ce9",
+    "review": "research/folklore/odia-dhaga-1893-page4-review-2026-10-23.json",
+    "validation": "research/folklore/odia-dhaga-1893-page4-validation-2026-10-23.json",
+    "integrated_review": "Drishti confirmed exact integrated draft/review,49tentative segments across3draftpages,15explained entries,zero complete/humanreviewed pages,nextattempt5; publicreader unchanged. Samanta final validation subsequently saved and copied.",
+    "tests": [
+      "Exact draft-review hash validation passed",
+      "8 reader collection tests passed",
+      "32 malformed transcription fixtures rejected",
+      "Research index and workbench generated without differences",
+      "Bundle validation and diff check passed"
+    ],
+    "delivery": "Local research checkpoint only; carry into next reviewed PR. No published batch, website deployment, accepted-entry addition or programme credit claimed."
   }
 }
