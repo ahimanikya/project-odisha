@@ -2,7 +2,7 @@
 type: "Theatre and Festival"
 title: "Sahi Jatra: Puri’s neighbourhoods in performance"
 description: "Street performance, Ramayana characters and the neighbourhood institutions behind Sahi Jatra in Puri."
-status: "draft"
+status: "published"
 reviewed_on: "2026-10-23"
 human_review_claimed: false
 sources: [{"id": "ignca-akhyan2010", "title": "IGNCA and Sangeet Natak Akademi, Akhyan, 2010", "resource": "https://ignca.gov.in/PDF_data/aakhyan_brochure.pdf"}, {"id": "mohanty-physical2015", "title": "Bimal Prasad Mohanty, Physical Culture in Jagannath Consciousness", "resource": "https://magazines.odisha.gov.in/Orissareview/2015/July/engpdf/146-148.pdf"}, {"id": "nanda-ram2007", "title": "Prabhat Kumar Nanda, Shree Jagannath and Shree Ram", "resource": "https://magazines.odisha.gov.in/Orissareview/june_july-2007/engpdf/Pages110-111.pdf"}, {"id": "odb-sahi", "title": "Soumya Biswajit, Suchitra Ramayana and Sahi Jatra", "resource": "https://www.instagram.com/odissiandbeyond/reel/DWlxjNKk1wz/"}, {"id": "sahi-photo", "title": "Parsurama in Sahi Jata, Wikimedia Commons", "resource": "https://commons.wikimedia.org/wiki/File:Parsurama_in_Sahi_Jata.jpg"}, {"id": "dash-pattanaik2006", "title": "Dash and Pattanaik, Translating Medieval Orissa, 2006", "resource": "https://ntm.org.in/download/ttvol/volume3/ARTICLES/02%20-%20Translating%20Medieval%20Orissa1%20%E2%80%93%20Debendra%20K.%20Dash%2C%20Dipti%20R.%20Pattanaik.pdf"}]
