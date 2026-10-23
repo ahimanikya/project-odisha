@@ -1,0 +1,21 @@
+{
+  "reviewer": "Drishti, independent AI review",
+  "status": "pass_with_limitations",
+  "input_head": "4cb9f5aab47d253724551d7ea232f228692580e8",
+  "candidate_state": "receipt working tree",
+  "receipt_sha256": "f65f84a9f5b024b9cd5cf081c84cdb20640125ee8b3c35e01e70e89bf25286ec",
+  "findings": [],
+  "checks": [
+    "Local merge commit has reviewed ba3d6038 as second parent and PR495 merge subject.",
+    "All seven merged reader/concordance/ledger/README/provenance hashes match independent reviewed candidate.",
+    "Receipt counts89 explained,55 canonical additions,0 new research and0 programme credit agree with integrated data.",
+    "Only receipt/shared status and saved review confirmation change; no reader content change.",
+    "Claim release follows observed content merge, no website deployment claim, human/source limitations retained.",
+    "Initial CI fingerprint failure and corrected reviewed head preserved."
+  ],
+  "limits": [
+    "Direct GitHub PR/run verification attempted but API network connection failed. CI success/run metadata therefore remain parent-observed evidence, not independently fetched by this reviewer.",
+    "Receipt not yet committed at inspection.",
+    "No human proofreading or new source review implied."
+  ]
+}
