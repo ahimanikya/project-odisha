@@ -955,3 +955,7 @@ Reuse `folklore/odia-dhaga-source-audit-2026-10-23.json` and `../../projects/odi
 ### Dhaga batch 2 and coverage ledger — 23 October 2026
 
 Reuse `folklore/odia-dhaga-batch2-source-audit-2026-10-23.json` for five further licensed witnesses (entries011–015) and targeted1893comparisons. Entry011 has a version on printed1/PDF2; entry012 has a provisional address variant on printed3/PDF4. Entry015's possible historical match remains deferred. `../../projects/odia-dhaga/coverage-ledger.json` distinguishes targeted inspection from complete transcription and unique sayings from variant witnesses. The approved heritage lemon artwork has explicit contemporary AI provenance; no scan facsimile is republished. No programme credit for this corpus batch.
+
+## Sunari community history — 23 October 2026
+
+Reuse `communities/sunari.json`, `communities/sunari.md` and `communities/sunari-source-audit-2026-10-23.json`. Bhadrak regional names, Tarbha silverwork across communities, dated Kotpad household reporting and Gajapati ornaments. No universal aliases, occupation-to-caste inference or founding history established. In review; no publication or community fieldwork claimed.
