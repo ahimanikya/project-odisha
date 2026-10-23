@@ -1,0 +1,28 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import ReviewedCultureArticle from '../../components/ReviewedCultureArticle.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
+import {renderReviewedCultureArticle} from '../../lib/reviewed-culture-article.mjs';
+import source from '../../../../../kb/research/culture/alankara-and-bhanja.md?raw';
+const image={src:'/assets/alankara-and-bhanja/alankara-reading.svg',alt:'Original reading aid contrasting repeated openings with poetic comparison',width:700,height:780};
+const article=renderReviewedCultureArticle(source,{
+ sourcePath:'kb/research/culture/alankara-and-bhanja.md',route:'/literature/alankara-and-bhanja/',
+ images:{'../media/poetic-craft/alankara-reading.svg':image.src},
+ imageDimensions:{[image.src]:{width:image.width,height:image.height}},
+ links:{'bhanita-and-poet-signatures.md':'/literature/bhanita-and-poet-signatures/','champu-and-sakhi.md':'/literature/champu-and-sakhi/','odissi-abhinaya.md':'/stories/odissi-abhinaya/'}
+});
+// This article adopts the current reading-path pattern without changing earlier pages.
+const further=article.html.match(/<h2 id="further-reading">Further reading<\/h2>\s*<ul>([\s\S]*?)<\/ul>/);
+if(!further)throw Error('Alankara further-reading list missing');
+const readingLinks=[...further[1].matchAll(/<a href="([^"]+)">([^<]+)<\/a>/g)].map(([,href,title])=>({href:href.replaceAll('&amp;','&'),title:title.replaceAll('&amp;','&')}));
+const [body,afterReading]=article.html.split(further[0]);
+article.html=body;
+---
+<Shell title={article.title} description="Read repetition and comparison in Bhanja’s poetry, with identified passages and the evidence of digital and printed editions." active="explore" related={false} shareImage={{...image,src:'/assets/alankara-and-bhanja/alankara-reading.png'}}>
+ <ReviewedCultureArticle article={article}>
+  <div slot="intro"><p><a href="/literature/">← Odia literature</a></p><p class="eyebrow">Literature · Poetic craft</p></div>
+  <ArticleReadingPath id="further-reading" heading="Further reading" links={readingLinks} intro="Readings without a published article open the research knowledge base on GitHub."/>
+  <div set:html={afterReading}/>
+  <ArticleReadingPath links={[{href:'/literature/',title:'Explore Odia literature'},{href:'/stories/ashta-nayika/',title:'Ashta Nayika: eight dramatic situations'}]}/>
+ </ReviewedCultureArticle>
+</Shell>
