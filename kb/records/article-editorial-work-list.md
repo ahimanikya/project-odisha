@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 474. completed: 79, excluded: 76, in_progress: 1, queued: 318.
+Route inventory: 474. completed: 80, excluded: 76, queued: 318.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -487,4 +487,4 @@ Route inventory: 474. completed: 79, excluded: 76, in_progress: 1, queued: 318.
 | POD-EDIT-471 | [Chitrakara regional community history](https://projectodisha.org/communities/chitrakara/) | completed | Chitrakara regional community history: documented service, learning and changing work, with origin traditions distinguished from formation evidence and painting occupation from community identity. |
 | POD-EDIT-472 | [Teli regional community history](https://projectodisha.org/communities/teli/) | completed | Teli regional community history: oil work, transport, naming and changing livelihoods, with origins distinguished from occupational accounts. |
 | POD-EDIT-473 | [Bhandari regional community history](https://projectodisha.org/communities/bhandari/) | completed | Bhandari regional community history: inherited service, ritual participation, names and changing work; occupational explanations distinguished from formation evidence. |
-| POD-EDIT-474 | [Mali regional community history](https://projectodisha.org/communities/mali/) | in_progress | Mali regional community history: gardens, irrigation, temple roles and regional names; occupational explanations distinguished from formation evidence. |
+| POD-EDIT-474 | [Mali regional community history](https://projectodisha.org/communities/mali/) | completed | Mali regional community history: gardens, irrigation, temple roles and regional names; occupational explanations distinguished from formation evidence. |

@@ -1,0 +1,99 @@
+{
+  "reviewer": "Drishti — separate AI review, not human review",
+  "input_head": "161b5d99249f11dd5aa0b0bc6d31734eba156b0b",
+  "status": "pass_with_limitations",
+  "findings": [],
+  "resolved_findings": [
+    "Initial Thurston aggregate exceeded200 when cross-period comparison was included (218). Disha shortened historical passage and comparison; reread correction and recomputed184."
+  ],
+  "source_checks": [
+    "Independently opened original Gutenberg VolumeIV Mali440–443: irrigation/markets quotation, reported Pondra water-lift hospitality and Rao-attributed Kasi/Jeypore migration tradition supported; source stereotypes and prescriptive rites omitted.",
+    "Independently read Niyogi original Counterview report and all captions; publication4April2023 confirmed. Seasonal stream, February decline, overnight indoor storage, next-morning leaf-bowl sale and supplementary November–February work supported. Publication correctly distinguished from unspecified visit date.",
+    "Read original Bhadrak PDF printed42 and Ganjam PDF printed99 through PDFium extraction. Commercial floriculture and local Mali/Raula services supported; regional heading not universal alias."
+  ],
+  "word_budgets": {
+    "method": "Conservative whitespace count including source titles/notes, section headings, associated uncited interpretation; cross-period comparison counted against both historical and2023 sources. Closing interpretation counted against each district source.",
+    "Thurston1909": 184,
+    "Niyogi2023": 136,
+    "Bhadrak": 119,
+    "Ganjam": 136
+  },
+  "depth_assessment": "Concrete irrigation mechanism and hospitality, migration tradition, women’s storage/sale sequence and seasonal constraints explain economic and regional histories beyond a gardening label. Different sources are compared without fabricated continuity or a single caste creation event. No surname/occupation identity inference.",
+  "tests": [
+    "git diff --check passed",
+    "Read canonical narrative/MD/dossier/handoff and wrapper/shared route/discovery/portable integration; source first-use order1,2,3,4 consistent; explicit search hold retained. No builds run while Samanta validating.",
+    "Actual final logs inspected:566full tests and477coastal tests zero failures;1896/1896audit;11indexable publication.",
+    "Actual downloaded HTML independently verified all canonical paragraphs and4source titles.",
+    "Final input..HEAD diff check passed; clean workingtree. Public prose/source hashes unchanged from corrected source review."
+  ],
+  "limits": [
+    "No human community review, field confirmation, current survey or founding charter.",
+    "Original1871 census not independently examined; evidence is1909quotation. Gazetteer imprint/practice dates and report visit date unresolved as disclosed.",
+    "PDF originals inspected by text extraction; no tables or visual ambiguity required rendering.",
+    "Image rights unverified; no copied photo or generic identity image.",
+    "Keyboard/disclosure/navigation/save actions reported by Samanta, not independently replayed. Actual screenshots and download content independently inspected.",
+    "CI/merge/deployment/live verification remain separate gates."
+  ],
+  "file_sha256": {
+    "kb/catalog.json": "19c28fe4e2a2a04305282886091611e0ea564230921c9e721e948e17f059c851",
+    "kb/records/article-editorial-rollout.json": "13145602cbed7f33998d037fad04eb4fbe4fad38a4aef2c610a32ff03adb5cb9",
+    "kb/records/article-editorial-work-list.md": "d93dc93f79800dc2ff4f065dccfa10564d101b9fc0325c5ed1c09a7bd718310a",
+    "kb/records/autonomous-500-program.json": "714fab893c78b5c6f88a9759114e97a52aa90f9a8c2b590ad376dc0c3d8a9d21",
+    "kb/records/editorial-workbench.json": "20239285e52d8ce8cc5aa9a7a535a3100a20b56142d13d179e42c9a0a93b42b2",
+    "kb/records/mali-editorial-team-2026-10-23.json": "1e152c042c3bd44e625bcb0624180bb9bced48963a88e6494ebce5f2d0cfa9b1",
+    "kb/registers/DASHBOARD.md": "956dfbaa30cfbad5a745fb4e7b3390ca3b763fb088b9eb3c096f266a1ef405a0",
+    "kb/registers/records.json": "e204948678d7e8c66c90d8c26f09d031e18c2c749d580889ade648049feec918",
+    "kb/research/communities/coverage-index.json": "88882fd3aab96348422671400689a5100acafa8fd347af16e5f92251a30db8d2",
+    "kb/research/communities/index.md": "d4cd14c4aaad3e7417b42869b3eaea74d32b1ce4241ae24327cdafd8ecb40e83",
+    "kb/research/communities/mali.json": "1005a4e6f371a36842cea1c5ac657a13cfda0d3fce6141a8e7309191c3ba53e0",
+    "kb/research/communities/mali.md": "584d329936f9a038659cc6f0c9cc1d9a0a8741251f253b475a929b8b98ec6d6d",
+    "kb/research/methods/research-map.md": "afdc9a41a830b7fc2b2ec729ff947ccfea2be043ba65615daae64d5e0e706598",
+    "kb/research/search-index.json": "e28a355541e2fc9c51190bfc03e88b416aad13aa18b316517755648400ac31a5",
+    "kb/research/sources/mali-research.json": "a9f1428decfd8ec8b16d2638c0334d55c94c08dfb478ec0d7898790c7c3c45d4",
+    "kb/team/operations.json": "d438b9adbffbeedf1d2e1f9973c5ae6d494b470d8541c5434ee45aab3e3b6fe1",
+    "projects/site/editions/coast.json": "9609c323707c654ed9f54e992a444ec1aded35f79a4f893ae8c2f39d1ce8f0dd",
+    "projects/site/editions/search-candidate.json": "6001d9975b3093438d259f36659b22a9326340a8319bd9837c9de968fc326f40",
+    "projects/site/src/data/discovery.ts": "d879a6be8b90e3d4e458616ec6efeffa9e88eb80e72d461b45403408e8fb6349",
+    "projects/site/src/data/journey-catalog.ts": "71763026bcd6f4976b8d93123a5c95c062e0a05efe54252ab959f30f4917c751",
+    "projects/site/src/pages/communities/mali.astro": "1894f94c834c8aa1f4f8d86dad6c155bb40638654d6d2fdd170032efbaa52d1a",
+    "projects/site/tests-coast/cuttack-literature.test.mjs": "229fabe99994d69a00e8df84deb5672d78a9b8d959dd9247a4263d62288992f3",
+    "projects/site/tests-coast/discovery-flow.test.mjs": "96775167d78052518d2a7ea08fd15ca8aa6a02bbb7a592a4d4acee06bc91a97a",
+    "projects/site/tests-coast/edition.test.mjs": "b922d94a72688172da4535080748ecedc48ceeb13bd4285d7fad95d39da72652",
+    "projects/site/tests-coast/mali-editorial.test.mjs": "4d3eafd42108ea5158033cfb0f4c24f4a47f8738d16fd02823799032b98b66ad",
+    "projects/site/tests/build.test.mjs": "8df77869082c989acef02b638bdcf07eb0789b19b58b739a073a99d629259396"
+  },
+  "review_history": [
+    {
+      "input_head": "161b5d99249f11dd5aa0b0bc6d31734eba156b0b",
+      "status": "SOURCE_CONTENT_PASS_PENDING_FINAL_HEAD_BUILD_VISUAL",
+      "resolved_findings": [
+        "Initial Thurston aggregate exceeded200 when cross-period comparison was included (218). Disha shortened historical passage and comparison; reread correction and recomputed184."
+      ]
+    }
+  ],
+  "reviewed_head": "cea50b7dae53503e58defa02f14a110f455ca6d5",
+  "visual_review": {
+    "inspected": [
+      "/tmp/pod-mali-desktop.png",
+      "/tmp/pod-mali-mobile.png",
+      "/tmp/pod-mali-mobile-body.png"
+    ],
+    "dimensions": [
+      "1440x1000",
+      "390x844",
+      "390x844"
+    ],
+    "result": "Readable title/byline/body and visible footnotes; no observed clipping or overflow; body shows corrected comparison and dated snapshot qualification."
+  },
+  "implementation_evidence": "/tmp/pod-mali-implementation.json",
+  "reruns": "Implementation repeated all variants/tests after source-budget edit; prior passing logs retained. No implementation failed gates reported.",
+  "program_item": "POD-A500-127",
+  "work_id": "POD-WORK-318",
+  "authorization": "POD-DEC-225",
+  "verification": {
+    "sources": "Four originals inspected; source budgets and limitations retained in this separate review",
+    "implementation": "566full tests,477coast tests,1896acceptancechecks,11indexable; actual desktop/mobile/download checks",
+    "ci": "https://github.com/ahimanikya/project-odisha/actions/runs/39877627856/job/120166987542 passed on cea50b7dae53503e58defa02f14a110f455ca6d5"
+  },
+  "normalization": "Disha linked actual separate AI review to programme fields, preserving review history; no human review asserted."
+}

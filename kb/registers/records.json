@@ -9242,18 +9242,21 @@
       "id": "POD-WORK-318",
       "title": "Research and publish Mali community history",
       "category": "website_and_knowledge",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti AI review",
       "authorization": "POD-DEC-225",
-      "next_action": "Research and implement, then separately review and publish with receipt.",
+      "next_action": "Retain ownership through receipt merge before another article.",
       "blockers": [],
       "refs": [
-        "POD-DEC-225"
+        "POD-DEC-225",
+        "POD-REV-2026102307",
+        "POD-REL-2026102307"
       ],
       "evidence": [
-        "records/mali-editorial-team-2026-10-23.json"
+        "records/mali-editorial-team-2026-10-23.json",
+        "records/mali-editorial-publication-2026-10-23.json"
       ]
     }
   ],
@@ -22589,6 +22592,33 @@
         "Ganjam salon/band changes are regional observations with practice dates unspecified; no current employment survey or cultural-displacement conclusion.",
         "No authenticated community-specific image added; search eligibility unchanged."
       ]
+    },
+    {
+      "id": "POD-REV-2026102307",
+      "title": "Separate Mali source and integrated article review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human historian or community review.",
+      "reviewed_head": "cea50b7dae53503e58defa02f14a110f455ca6d5",
+      "refs": [
+        "POD-WORK-318",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/mali-delivery-review-2026-10-23.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human community review or fieldwork.",
+        "No universal name equivalence, surname-based caste assignment or verified caste founding date established.",
+        "Thurston1909 waterlift hospitality is reported testimony; Kasi–Jeypore migration remains a tradition. Original1871census not separately inspected.",
+        "Niyogi report published4April2023; visit date unspecified. Comparison does not establish continuous family histories.",
+        "Bhadrak exact imprint unresolved; Ganjam Mali/Raula heading remains regional, not universal equivalence.",
+        "No photograph reuse rights verified; no image copied. Search eligibility unchanged."
+      ]
     }
   ],
   "releases": [
@@ -26322,6 +26352,22 @@
         "records/bhandari-editorial-publication-2026-10-23.json"
       ],
       "note": "Reviewed PR454, passing checks, approved deployment and live verification. One substantive article; search eligibility unchanged."
+    },
+    {
+      "id": "POD-REL-2026102307",
+      "title": "Mali gardens water and regional names",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/communities/mali/",
+      "refs": [
+        "POD-WORK-318",
+        "POD-REV-2026102307",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/mali-editorial-publication-2026-10-23.json"
+      ],
+      "note": "Reviewed PR456, passing checks, approved deployment and live verification. One substantive article; search eligibility unchanged."
     }
   ],
   "sources": [

@@ -11,4 +11,4 @@ CASI report deferred after original URLs failed; indexed snippets supply no appr
 
 Niyogi’s photoessay has relevant photographs but no verified reuse licence; images not copied. No generic gardener image substituted. No human specialist review, field confirmation, current survey or founding charter claimed.
 
-POD-EDIT-474; POD-A500-127; POD-WORK-318. Candidate awaiting separate review and publication evidence.
+POD-EDIT-474; POD-A500-127; POD-WORK-318. Published with separate AI review, tests, approved deployment and [live receipt](../../records/mali-editorial-publication-2026-10-23.json). Local and community research questions remain open.
