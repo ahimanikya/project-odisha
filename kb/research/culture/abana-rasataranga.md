@@ -2,7 +2,7 @@
 type: "Literary Culture"
 title: "Reading Abana Rasataranga: letters, vowels and poetic constraint"
 description: "A close reading of Bhanja’s opening line distinguishes vowel signs from vowel sounds, with a comparison between digital and printed readings."
-status: "draft"
+status: "published"
 reviewed_on: "2026-10-23"
 human_review_claimed: false
 sources: [{"id": "abana-work", "title": "Abana Rasataranga, Odia Wikisource", "resource": "https://or.wikisource.org/wiki/ଅବନା_ରସତରଙ୍ଗ"}, {"id": "abana-opening", "title": "Abana Rasataranga, first chhanda", "resource": "https://or.wikisource.org/wiki/ଅବନା_ରସତରଙ୍ଗ/ଜୟ_ଭକତବତ୍ସଳ_ଜଗତ_ଇଶ୍ଵର"}, {"id": "unicode-odia", "title": "Unicode16, chapter12.5 Oriya (Odia)", "resource": "https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/"}, {"id": "ova-bhanja", "title": "Odia Virtual Academy, Abana Rasataranga digital reader", "resource": "https://ova.gov.in/en/ReadEbooks?bid=NXPqPwFdaJc%3D"}, {"id": "odb-abana", "title": "Soumya Biswajit, Abana and constrained writing", "resource": "https://www.instagram.com/odissiandbeyond/reel/DPjXaspE0H2/"}, {"id": "abana-print-rao", "title": "Abana Rasataranga, revision credited to Sridhar Rao, printed scan", "resource": "https://drive.google.com/file/d/1jidGiqo3RIqitDN8-mylQRu1cGyVt0l_/view"}, {"id": "abana-third", "title": "Abana Rasataranga third chhanda, Wikisource", "resource": "https://or.wikisource.org/wiki/ଅବନା_ରସତରଙ୍ଗ/ଅଜନନ୍ଦନ_ନନ୍ଦନ_ଭ୍ରମଣବନ"}]

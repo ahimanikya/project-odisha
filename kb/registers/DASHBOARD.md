@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `7f2ea3da7533963e027b9a3affdcb9201f8bc66e2534b82cba98351d47de3243`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `c9300836ea6ba3fb33cdf39bca595a0a91d951e0a1fd1d70f0605a76ae7de29a`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -347,8 +347,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-320 · Research and publish Patara community history | completed | published | Ahimanikya Satapathy | Retain ownership through receipt merge before another article. | — |
 | POD-WORK-321 · Research and publish Kamar community history | completed | published | Ahimanikya Satapathy | Retain ownership through receipt merge before another article. | — |
 | POD-WORK-322 · Research and publish Sunari community history | completed | published | Ahimanikya Satapathy | Retain ownership through receipt merge before another article. | — |
-| POD-WORK-2026102391 · Prahallad Nataka research, comparative theatre guide and article | completed | reviewed | Ahimanikya Satapathy | Read local feature and guide; unresolved scholarly and practitioner questions remain in the dossier. Website publication is not part of this delivery. | — |
-| POD-WORK-2026102392 · Nayika articles and Odissi & Beyond concept survey | in_progress | reviewed | Ahimanikya Satapathy | Local articles delivered; reconcile five-post count gap and inspect complete media before claiming exhaustive archive review. | — |
+| POD-WORK-2026102391 · Prahallad Nataka research, comparative theatre guide and article | completed | reviewed | Ahimanikya Satapathy | Prahallad article published and verified. Unresolved scholarly and practitioner questions remain in the research dossier. | — |
+| POD-WORK-2026102392 · Nayika articles and Odissi & Beyond concept survey | in_progress | reviewed | Ahimanikya Satapathy | Twelve standalone articles published and verified in their subject sections. Archive research remains open: reconcile the five-post count gap and inspect complete media before claiming exhaustive coverage. | — |
 
 ## Pending human review and decisions
 
@@ -1298,7 +1298,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026102402 | 2026-10-23T06:56:46.566977+00:00 | Standalone illustrated Sakhi Nata/Sakhi Pila article adds responsive performance, named Ganjam repertoire, theatre history and film candidate with unresolved identity/credit limits. Gotipua onward link and comparison updated. Anvesha research, Drishti independent review and Samanta image/HTML checks completed; no publication or full browser QA claimed. | — |
 | POD-EVT-2026102403 | 2026-10-23T07:05:07.185534+00:00 | Illustrated standalone tala article verifies Adatali/Aditala distinction and documents three fourteen-matra groupings in Sabda Swara Pallavi; linked Mardala and updated KB. Independent factual review and structural/image checks performed; source-derived text shortened. No publication or audiovisual review claimed. | — |
 | POD-EVT-2026102404 | 2026-10-23T16:51:48.465647+00:00 | Standalone Balakati craft article adds named workshop/family, dated brass process and order relationships with original diagram; linked ghanta/ghanti and updated KB. Anvesha research, Drishti independent review and Samanta visual/structural checks passed. Specific manjira making and full browser QA remain open; no publication. | — |
 | POD-EVT-2026102405 | 2026-10-23T17:07:08.016870+00:00 | Standalone illustrated Sahi Jatra article adds neighbourhood institutions, dated character associations and bibliographic Suchitra1972lead. Anvesha research, Drishti independent review and Samanta photograph/HTML checks passed; KB comparison/map updated. No universal repertoire, current timetable, publication or full browser QA claimed. | — |
@@ -1308,6 +1307,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026102409 | 2026-10-23T18:03:04.908091+00:00 | Resolved Jhula notation example, verified FilmsDivision productioncredits, recoveredAbana digitalreader, matched bhanita displayedverse, fixed3previewtableaccessibilityissues. Independent boundedreviews and all12structuralchecks pass. Printedwitnesses,fullfilm/audio and browservisualreview remainopen; receipt evidence-gap-review-2026-10-23.json. Unpublished. | — |
 | POD-EVT-2026102410 | 2026-10-23T18:13:47.887363+00:00 | Recovered primaryarchive-linked Abana/SridharRao and1939Subhadraprintedscans; correctedAbana digitalcounterexample framing, verified signatureplacements andrupaka variant, addedboundedrecordinguploadercredits. Anvesharesearch/Drishtiindependentreview/Samantapreviewchecks passed. Filmcertificate/audio/browserlayoutlimits retained; unpublished. | — |
 | POD-EVT-2026102411 | 2026-10-23T18:18:42.271663+00:00 | Three separate workers visually screened complete runningverse PDF2–112 in SridharRao witness; cover1 andadvertisement113 distinguished. No clear dependent-vowel exception found; notcharacter-perfect transcription or humanreview. AddedWikisource/printcomparisontable, updatedKB, all12previewchecks pass. Othermedia/browseraccesslimitsremain; unpublished. | — |
+| POD-EVT-20261023012 | 2026-10-23T21:17:28.855212+00:00 | Founder-directed publication completed sequentially for twelve standalone illustrated articles. Individual reviewed heads, merged PRs, successful deployments and desktop/mobile/live receipts recorded in nataka-publication-2026-10-24.json; final cross-page audit passed. Soumya Biswajit credit remains in source notes. No autonomous programme credit, specialist review or exhaustive archive claim. | — |
 
 ## Deferred extensions
 
