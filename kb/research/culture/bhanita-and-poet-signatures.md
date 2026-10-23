@@ -2,7 +2,7 @@
 type: "Literary Culture"
 title: "When the poet enters the song: bhanita and literary signatures"
 description: "Poet, character and performer: a closing signature in Ramani Ratana and two named appearances within Subhadra Parinaya’s first chhanda."
-status: "draft"
+status: "published"
 reviewed_on: "2026-10-23"
 human_review_claimed: false
 sources: [{"id": "odb-bhanita", "title": "Soumya Biswajit: poet signatures", "resource": "https://www.instagram.com/odissiandbeyond/reel/DY7Ka5_Tib1/"}, {"id": "bhanita-jha-vidyapati", "title": "Ramanath Jha, Vidyapati, Sahitya Akademi", "resource": "https://sahitya-akademi.gov.in/pdf/Vidyapati.pdf"}, {"id": "bhanita-ramani-ratana", "title": "Utkal Sangeet: Ramani Ratana", "resource": "https://utkalsangeet.wordpress.com/2015/07/05/ramani-ratana/"}, {"id": "bhanja-subhadra-ova", "title": "Upendra Bhanja, Subhadra Parinaya, OVA digital text", "resource": "https://ova.gov.in/en/ReadEbooks?bid=ToEVr+zu+mg%3D"}, {"id": "ramani-annapurna-upload", "title": "odia melody, Ramani Ratana sung by Annapurna Acharya", "resource": "https://www.youtube.com/watch?v=H0_wPW5fCyE"}, {"id": "subhadra-print1939", "title": "Upendra Bhanja, Subhadra Parinaya, fourth edition 1939", "resource": "https://drive.google.com/file/d/1p9JC9tprZu_hp55TGzysKjGNVOOi6TTp/view"}]
