@@ -3,7 +3,7 @@ import path from 'node:path';
 const repository='https://github.com/ahimanikya/project-odisha/blob/main/';
 const escapeAttribute=s=>s.replaceAll('&','&amp;').replaceAll('"','&quot;');
 /** Render only an explicitly selected, reviewed canonical article. No route discovery. */
-export function renderReviewedCultureArticle(source,{sourcePath,route,links={},images={}}){
+export function renderReviewedCultureArticle(source,{sourcePath,route,links={},images={},imageDimensions={}}){
  const title=source.match(/^# (.+)$/m)?.[1];
  const author=source.match(/^By (.+)$/m)?.[1];
  if(!title||!author)throw Error(`Missing article title/byline: ${sourcePath}`);
@@ -25,6 +25,7 @@ export function renderReviewedCultureArticle(source,{sourcePath,route,links={},i
  html=html.replace(notes,'').replace('<div data-source-position></div>',notes.replace('class="footnotes"','class="article-footnotes"').replace('class="sr-only" ',''));
  html=html.replace(/<p>(<img\b[^>]*>)<\/p>\s*<p><em>([\s\S]*?)<\/em>((?:<sup[\s\S]*?<\/sup>)*)<\/p>/g,'<figure>$1<figcaption>$2$3</figcaption></figure>');
  html=html.replace(/<table>/g,'<div class="article-table" role="region" aria-label="Scrollable data table" tabindex="0"><table>').replace(/<\/table>/g,'</table></div>');
+ html=html.replace(/<img\b([^>]*?)src="([^"]+)"([^>]*)>/g,(whole,before,src,after)=>{const size=imageDimensions[src];return size?`<img${before}src="${src}"${after} width="${size.width}" height="${size.height}" loading="lazy" decoding="async">`:whole;});
  const headings=[];const used=new Set(['footnote-label']);
  html=html.replace(/<h2>(.*?)<\/h2>/g,(_,text)=>{let base=text.replace(/<[^>]+>/g,'').toLowerCase().replace(/[^\p{L}\p{N}\s-]/gu,'').trim().replace(/\s+/g,'-'),id=base,n=2;while(used.has(id))id=base+'-'+n++;used.add(id);headings.push({title:text,href:'#'+id});return `<h2 id="${escapeAttribute(id)}">${text}</h2>`;});
  return {title,author,html,headings};
