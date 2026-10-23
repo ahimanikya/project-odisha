@@ -97,4 +97,53 @@ class RepositoryTests(unittest.TestCase):
             if link.startswith('#'):self.assertIn(link[1:],p.ids)
         for path in p.resources:self.assertTrue((ROOT/path).is_file(),path)
 
+class LibraryFileTests(unittest.TestCase):
+    def test_default_cli_reads_entry_folder_deterministically(self):
+        import subprocess,sys
+        before=(ROOT/'collection.json').read_bytes()
+        subprocess.run([sys.executable,str(ROOT/'build.py')],cwd=ROOT,check=True,capture_output=True)
+        self.assertEqual(before,(ROOT/'collection.json').read_bytes())
+        self.assertTrue((ROOT/'sayings'/'POD-DHAGA-108.html').is_file())
+    def test_folder_parity_and_bad_filename(self):
+        import json
+        from build import load_library
+        data=load_library();self.assertEqual(data,json.loads((ROOT/'collection.json').read_text()))
+        with tempfile.TemporaryDirectory() as tmp:
+            folder=Path(tmp);(folder/'entries').mkdir();d=fixture();(folder/'collection-metadata.json').write_text(json.dumps({k:v for k,v in d.items() if k!='entries'}))
+            (folder/'entries'/'wrong.json').write_text(json.dumps(d['entries'][0]))
+            with self.assertRaisesRegex(ValueError,'filename'):load_library(folder)
+    def test_every_reading_has_one_saying_and_resolving_navigation(self):
+        from build import load_library
+        data=load_library()
+        for i,e in enumerate(data['entries']):
+            path=ROOT/'sayings'/(e['id']+'.html');out=path.read_text();doc=Document();doc.feed(out)
+            self.assertEqual(len(doc.entries),1);self.assertEqual(doc.entries[0]['id'],e['id']);self.assertNotIn('hidden',doc.entries[0])
+            self.assertIn('<details class="saying-detail" open>',out)
+            self.assertNotIn('id="pagination"',out)
+            expected={x['source_id'] for x in e['witnesses']+e.get('variants',[]) if x.get('source_id')}
+            actual={x.removeprefix('source-') for x in doc.ids if x.startswith('source-')}
+            self.assertEqual(actual,expected)
+            for link in doc.links:
+                if link.startswith(('https:','http:','#')):continue
+                self.assertTrue((path.parent/link.split('#')[0]).is_file(),link)
+            for resource in doc.resources:self.assertTrue((path.parent/resource).is_file())
+            if i:self.assertIn(data['entries'][i-1]['id']+'.html',out)
+            if i+1<len(data['entries']):self.assertIn(data['entries'][i+1]['id']+'.html',out)
+    def test_collection_article_preserves_bilingual_summaries_and_shelves(self):
+        from build import load_library
+        import json
+        from html import escape
+        data=load_library();out=(ROOT/'index.html').read_text();design=json.loads((ROOT/'research-design.json').read_text())
+        self.assertEqual(set(design['id_to_shelf']),{e['id'] for e in data['entries']})
+        for e in data['entries']:
+            self.assertIn('id="'+e['id']+'"',out)
+            for key in ['odia']:
+                if e.get(key):self.assertIn(escape(e[key],quote=True),out)
+            self.assertIn('sayings/'+e['id']+'.html',out)
+        for brief in data['entries']:
+            self.assertIn(escape(brief['odia_summary'],quote=True),out)
+            self.assertIn(escape(brief['english_summary'],quote=True),out)
+        self.assertNotIn('editorial_status',out)
+        self.assertNotIn('AI-assisted',out)
+
 if __name__=='__main__':unittest.main()

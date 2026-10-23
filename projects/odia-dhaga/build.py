@@ -89,32 +89,67 @@ figure{margin:1.8rem 0;max-width:760px}figure img{width:100%;height:auto;display
 footer{border-top:1px solid var(--line);padding:2rem;text-align:center;font-size:.88rem;color:var(--muted)}[hidden]{display:none!important}
 @media(max-width:640px){header{padding:2.2rem 1.1rem 1.3rem}main{padding:0 1.1rem 2rem}.filters{grid-template-columns:1fr}.entry{padding:1.2rem}.details-grid{grid-template-columns:1fr}.subtitle{font-size:1.15rem}}
 @media print{body{background:white;color:black;font-size:11pt}header{padding:1rem 0;border:0}main{padding:0}.tools,.header-links,.permalink,.skip{display:none!important}.entry{break-inside:avoid;padding:1rem 0;border:0;border-top:1px solid #aaa}.collection{gap:1rem}details>*,details:not([open])>*{display:block!important}details summary{display:block!important}details::details-content{content-visibility:visible!important;display:block!important}a{color:black}figure{max-width:450px}.source{break-inside:avoid}footer{padding:1rem}}
+.shelves{display:flex;gap:.6rem;flex-wrap:wrap;margin:1.5rem 0}.shelves button{font:500 .9rem/1.4 system-ui,sans-serif;border:1px solid var(--line);border-radius:2rem;padding:.65rem 1rem;background:#fffdf7}.shelves button span{margin-left:.4rem;opacity:.7}.shelves button[aria-pressed=true]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.collection{gap:.7rem}.entry{padding:0;border-radius:5px}.saying-detail{margin:0;padding:0;border:0}.saying-detail>summary{padding:1.15rem 1.5rem;list-style:none}.saying-detail>summary::-webkit-details-marker{display:none}.saying-detail>summary:hover{background:#f0eadb}.saying-detail[open]>summary{border-bottom:1px solid var(--line)}.entry h2{font-size:1.35rem;line-height:1.85;margin:.45rem 0 0}.entry-title{font:500 .92rem/1.4 system-ui,sans-serif;margin:.4rem 0;color:var(--muted)}.open-hint{font:500 .8rem/1.5 system-ui,sans-serif;color:var(--accent);white-space:nowrap}.reading-body{padding:1.3rem 1.5rem 2rem;max-width:820px;margin:auto}.reading-body .details-grid{display:block}.reading-body p{line-height:1.85}.reading-body .permalink{font-size:.85rem}.saying-detail[open]{border-left:3px solid var(--accent)}#collection-heading{font-size:1.3rem;margin:1.2rem 0}#pagination{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin:1.5rem 0}button:disabled{opacity:.4;cursor:default}#page-label{font:500 .85rem system-ui,sans-serif}
+@media(max-width:640px){.saying-detail>summary,.reading-body{padding:1rem}.entry h2{font-size:1.15rem}.shelves{gap:.45rem}.shelves button{font-size:.8rem;padding:.55rem .8rem}.entry-header .number{font-size:.65rem}#pagination button{font-size:.85rem}}
+@media print{.shelves,#pagination,.open-hint{display:none!important}.entry[hidden]{display:block!important}.saying-detail>summary,.reading-body{padding:.5rem 0}.saying-detail[open]{border:0}.entry{break-inside:auto}.reading-body{max-width:none}}
+
 """
+SHELVES = {
+ 'Choices & consequences': {'moderation','planning','foresight','timing','premature-action','premature-plans','practical-choices','short-term-choices','lasting-consequences','needless-delay','responsibility','underlying-causes'},
+ 'People & relationships': {'family-and-individual','cooperation','consultation','conflict','unequal-power','unequal-resources','unequal-attention','authority-and-judgment','bad-advice','double-dealing','shared-fault','gratitude-and-independence','contradictory-affection','feeling-unwelcome','familiarity'},
+ 'Words & appearances': {'speech','skillful-expression','empty-display','empty-presentation','empty-courtesy','empty-threats','concealment','self-disclosure','proof-and-value','discernment','judgement','intention-and-impact','exaggeration','integrity','self-awareness','self-scrutiny'},
+ 'Work & experience': {'work','work-and-reward','learning','experience','fruitless-effort','unsuitable-method','endurance','habit-and-change','resisting-change','unthinking-imitation','means-and-desire','means-and-promises','combined-errands'},
+ 'Feelings & everyday images': set(),
+}
+def shelf(entry):
+    for title, tags in SHELVES.items():
+        if tags.intersection(entry['tags']): return title
+    return 'Feelings & everyday images'
+
 JS = """
 (() => {
  const search=document.querySelector('#search'), tag=document.querySelector('#tag');
  const cards=[...document.querySelectorAll('.entry')], status=document.querySelector('#result-count');
  const norm=s=>s.normalize('NFC').toLocaleLowerCase().replace(/\\s+/g,' ').trim();
- function filter(){
-  const words=norm(search.value).split(' ').filter(Boolean); let count=0;
-  for(const card of cards){
-   const matches=words.every(w=>norm(card.textContent).includes(w));
-   const matchesTag=!tag.value||[...card.querySelectorAll('.tag')].some(t=>t.textContent===tag.value);
-   card.hidden=!(matches&&matchesTag); if(!card.hidden)count++;
-  }
-  status.textContent=count+' of '+cards.length+' sayings shown';
-  document.querySelector('#empty').hidden=count!==0;
+ const texts=new Map(cards.map(c=>[c,norm(c.textContent)]));
+ const chips=[...document.querySelectorAll('[data-filter-shelf]')];
+ let page=1, activeShelf='', printing=false; const pageSize=12;
+ function results(){const words=norm(search.value).split(' ').filter(Boolean);return cards.filter(c=>words.every(w=>texts.get(c).includes(w))&&(!activeShelf||c.dataset.shelf===activeShelf)&&(!tag.value||[...c.querySelectorAll('.tag')].some(t=>t.textContent===tag.value)));}
+ function show(){
+  const matches=results(), pages=Math.max(1,Math.ceil(matches.length/pageSize));page=Math.min(page,pages);
+  const shown=new Set(matches.slice((page-1)*pageSize,page*pageSize));cards.forEach(c=>c.hidden=!shown.has(c));
+  status.textContent=matches.length?((page-1)*pageSize+1)+'–'+Math.min(page*pageSize,matches.length)+' of '+matches.length+' matching sayings · '+cards.length+' in the library':'No matching sayings · '+cards.length+' in the library';
+  document.querySelector('#empty').hidden=matches.length!==0;
+  document.querySelector('#page-label').textContent='Page '+page+' of '+pages;
+  document.querySelector('#previous').disabled=page===1;document.querySelector('#next').disabled=page===pages;
+  chips.forEach(c=>c.setAttribute('aria-pressed',String(c.dataset.filterShelf===activeShelf)));
  }
- search.addEventListener('input',filter); tag.addEventListener('change',filter);
- document.querySelector('#clear').addEventListener('click',()=>{search.value='';tag.value='';filter();search.focus();});
- document.querySelector('#filters').hidden=false; filter();
+ function reset(){search.value='';tag.value='';activeShelf='';page=1;show();}
+ search.addEventListener('input',()=>{page=1;show();});tag.addEventListener('change',()=>{page=1;show();});
+ chips.forEach(c=>c.addEventListener('click',()=>{activeShelf=c.dataset.filterShelf;page=1;show();}));
+ document.querySelector('#clear').addEventListener('click',()=>{reset();search.focus();});
+ for(const [id,delta] of [['previous',-1],['next',1]])document.querySelector('#'+id).addEventListener('click',()=>{page+=delta;show();document.querySelector('#collection-heading').focus();});
+ const panels=cards.map(c=>c.querySelector('.saying-detail'));
+ panels.forEach(d=>d.addEventListener('toggle',()=>{if(d.open&&!printing)panels.forEach(other=>{if(other!==d)other.open=false;});}));
+ function openHash(){let id;try{id=decodeURIComponent(location.hash.slice(1));}catch{return;}const card=cards.find(c=>c.id===id);if(!card)return;reset();page=Math.floor(cards.indexOf(card)/pageSize)+1;show();const panel=card.querySelector('.saying-detail');panel.open=true;panel.querySelector('summary').focus();card.scrollIntoView({block:'start'});}
+ window.addEventListener('hashchange',openHash);
+ document.querySelector('#filters').hidden=false;document.querySelector('#shelves').hidden=false;document.querySelector('#pagination').hidden=false;show();openHash();
  let previous, disclosures;
- window.addEventListener('beforeprint',()=>{previous=cards.map(c=>c.hidden);cards.forEach(c=>c.hidden=false);disclosures=[...document.querySelectorAll('details')].map(d=>[d,d.open]);disclosures.forEach(([d])=>d.open=true);});
- window.addEventListener('afterprint',()=>{if(previous)cards.forEach((c,i)=>c.hidden=previous[i]);if(disclosures)disclosures.forEach(([d,open])=>d.open=open);});
+ window.addEventListener('beforeprint',()=>{printing=true;previous=cards.map(c=>c.hidden);cards.forEach(c=>c.hidden=false);disclosures=[...document.querySelectorAll('details')].map(d=>[d,d.open]);disclosures.forEach(([d])=>d.open=true);});
+ window.addEventListener('afterprint',()=>{if(previous)cards.forEach((c,i)=>c.hidden=previous[i]);if(disclosures)disclosures.forEach(([d,open])=>d.open=open);setTimeout(()=>printing=false,0);});
 })();
 """
 
 def render(data):
+    # Keep production history in entry JSON; retain reading uncertainty in public prose.
+    def public_copy(value):
+        if isinstance(value,dict): return {k:public_copy(v) for k,v in value.items()}
+        if isinstance(value,list): return [public_copy(v) for v in value]
+        if isinstance(value,str):
+            return value.replace('AI visual reading', 'Provisional visual reading').replace('reviewed by a separate AI reviewer; human Odia proofreading remains pending', 'with human Odia proofreading still pending')
+        return value
+    data=public_copy(data)
     validate(data)
     sources = {s['id']:s for s in data['sources']}
     cards = []
@@ -129,19 +164,19 @@ def render(data):
                             + (f' <a href="#source-{esc(v["source_id"])}">Source</a>' if v.get('source_id') else '') + '</li>' for v in entry.get('variants', []))
         graphic = entry.get('graphic')
         figure = f'<figure><img src="{esc(graphic["src"])}" alt="{esc(graphic["alt"])}" loading="lazy"><figcaption>{esc(graphic["caption"])}</figcaption></figure>' if graphic else ''
-        cards.append(f'''<article class="entry" id="{esc(entry['id'])}">
-<div class="entry-header"><span class="number">SAYING {n:02d}{' · '+esc(entry['category']) if entry.get('category') else ''}</span><a class="permalink" href="#{esc(entry['id'])}" aria-label="Link to saying {n}">#</a></div>
+        cards.append(f'''<article class="entry" id="{esc(entry['id'])}" data-shelf="{esc(shelf(entry))}">
+<details class="saying-detail"><summary><span class="entry-header"><span class="number">SAYING {n:02d}{' · '+esc(entry['category']) if entry.get('category') else ''}</span><span class="open-hint" aria-hidden="true">Read ↗</span></span>
 {f'<p class="entry-title">{esc(entry["title"])}</p>' if entry.get('title') else ''}
-<h2 lang="or">{esc(entry['odia'])}</h2>
+<h2 lang="or">{esc(entry['odia'])}</h2></summary><div class="reading-body"><a class="permalink" href="#{esc(entry['id'])}">Link to this saying</a>
 {f'<p class="odia" lang="or">{esc(entry["meaning_odia"])}</p>' if entry.get('meaning_odia') else ''}
-{f'<p class="note">{esc(entry["editorial_status"])}</p>' if entry.get('editorial_status') else ''}
+
 {f'<p class="transliteration">{esc(entry["transliteration"])}</p>' if entry.get('transliteration') else ''}
 <div class="tags">{''.join(f'<span class="tag">{esc(t)}</span>' for t in entry['tags'])}</div>
 <div class="details-grid">{body}</div>{figure}
 <details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses">{witnesses}</ul>
 {f'<h3>Recorded variants</h3><ul>{variants}</ul>' if variants else '<p class="note">No additional variant is documented in this entry.</p>'}
-<h3>Origins and uncertainty</h3><p>{esc(entry['origin_note'])}</p>
-<h3>Reuse and rights</h3><p>{esc(entry['rights_note'])}</p></details></article>''')
+<h3>Origins and uncertainty</h3><p>{esc(entry['origin_note'].replace('Meanings here are original editorial interpretations with human Odia proofreading still pending.', 'The interpretation remains provisional.'))}</p>
+<h3>Reuse and rights</h3><p>{esc(entry['rights_note'])}</p></details></div></details></article>''')
     cited_source_ids = {item['source_id'] for entry in data['entries']
                         for item in entry['witnesses'] + entry.get('variants', [])
                         if item.get('source_id')}
@@ -151,6 +186,8 @@ def render(data):
 <p><strong>Access:</strong> {esc(s['access'])}</p><p><strong>Rights:</strong> {esc(s['rights'])}</p>
 <p><strong>Limits:</strong> {esc(s['limits'])}</p></section>''' for s in data['sources'] if s['id'] in cited_source_ids)
     tags = sorted({t for e in data['entries'] for t in e['tags']})
+    counts = {title:sum(shelf(e)==title for e in data['entries']) for title in SHELVES}
+    shelves = ''.join(f'<button type="button" data-filter-shelf="{esc(title)}" aria-pressed="false">{esc(title)} <span>{count}</span></button>' for title,count in counts.items() if count)
     return f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(data['title'])}</title><meta name="description" content="{esc(data['subtitle'])}"><style>{CSS}</style></head>
@@ -158,16 +195,16 @@ def render(data):
 <header><p class="eyebrow">Project Odisha · A living research collection</p><h1>{esc(data['title'])}</h1>
 <p class="subtitle">{esc(data['subtitle'])}</p><p class="scope">{esc(data['scope_note'])}</p>
 <nav class="header-links" aria-label="Collection resources"><a href="#sources">Sources &amp; rights</a><a href="README.md">Research guide</a><a href="coverage-ledger.json">Coverage ledger</a><a href="source127.html">Research: 127 source items</a><a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 licence</a><a href="collection.json" download>Download collection JSON</a></nav>
-{f'<p class="scope">{esc(data["editorial_note"])}</p>' if data.get('editorial_note') else ''}
+<p class="scope">By Ahimanikya Satapathy · <a href="https://projectodisha.org/about/editorial-process/">Our editorial process</a></p>
 {f'<p class="note"><strong>Collection licence:</strong> {esc(data["license"])}</p>' if data.get('license') else ''}
 <p class="meta">Checked {esc(data['checked_on'])} · {len(cards)} documented entries</p></header>
-<main><section class="tools" aria-label="Find a saying"><div class="filters" id="filters" hidden>
+<main><section id="shelves" class="shelves" aria-label="Browse thematic shelves" hidden><button type="button" data-filter-shelf="" aria-pressed="true">All sayings <span>{len(cards)}</span></button>{shelves}</section><section class="tools" aria-label="Find a saying"><div class="filters" id="filters" hidden>
 <div><label for="search">Search Odia or English</label><input id="search" type="search" placeholder="Words, meanings, situations…" autocomplete="off"></div>
 <div><label for="tag">Theme</label><select id="tag"><option value="">All themes</option>{''.join(f'<option>{esc(t)}</option>' for t in tags)}</select></div>
 <button id="clear" type="button">Clear filters</button></div><p class="status" id="result-count" role="status" aria-live="polite">{len(cards)} sayings — all entries are available below.</p>
 <noscript><p>Search needs JavaScript. Every saying and its sources remain readable below.</p></noscript></section>
 <p id="empty" hidden>No sayings match. Try a different word or clear the filters.</p>
-<div id="collection" class="collection">{''.join(cards)}</div>
+<h2 id="collection-heading" tabindex="-1">Find a saying to open</h2><div id="collection" class="collection">{''.join(cards)}</div><nav id="pagination" aria-label="Library pages" hidden><button id="previous" type="button">← Previous</button><span id="page-label"></span><button id="next" type="button">Next →</button></nav>
 <section id="sources"><h2>Sources &amp; rights</h2><p>Sources cited by the sayings above, including recorded variants. Availability is not a reuse licence. External source links require an internet connection.</p>{bibliography}</section></main>
 <footer>Read locally, share carefully. Explanations and diagrams are contemporary aids, not evidence of a saying’s age.<br>
 Offline typefaces: Noto Serif Oriya and Source Serif 4, SIL Open Font License. Licences are included in assets/.</footer>
@@ -182,9 +219,67 @@ def build(source, output):
     Path(output).write_text(result, encoding='utf-8')
     return len(data['entries'])
 
+
+def load_library(directory=ROOT):
+    directory=Path(directory)
+    data=json.loads((directory/'collection-metadata.json').read_text())
+    entries=[]
+    for path in sorted((directory/'entries').glob('*.json')):
+        entry=json.loads(path.read_text())
+        if path.stem != entry.get('id'): raise ValueError('Entry filename must match its id')
+        entries.append(entry)
+    if not entries: raise ValueError('Entry folder must not be empty')
+    data['entries']=entries
+    return validate(data)
+
+def library_index(data, directory=ROOT):
+    design=json.loads((Path(directory)/'research-design.json').read_text())
+    abstracts={'intro':data['book_intro'],'summaries':{e['id']:e for e in data['entries']}}
+    mapping=design['id_to_shelf']
+    labels={x['id']:x['label'] for x in design['shelves']}
+    titles=[x['label'] for x in design['shelves']]
+    rows=[]
+    for e in data['entries']:
+        theme=labels[mapping[e['id']]]
+        rows.append(f'''<article class="index-row" id="{esc(e["id"])}" data-theme="{esc(theme)}"><p class="number">Saying {int(e["id"].rsplit("-",1)[-1]):02d} · {esc(theme)}</p><h2 lang="or">{esc(e["odia"])}</h2><p lang="or" class="odia">{esc(abstracts['summaries'][e['id']]['odia_summary'])}</p><p>{esc(abstracts['summaries'][e['id']]['english_summary'])}</p><a href="sayings/{esc(e["id"])}.html">Read the saying, context &amp; sources →</a><span hidden>{esc(' '.join(e['tags']))} {esc(e.get('title',''))}</span></article>''')
+    introduction=''.join(f'<p class="odia" lang="or">{esc(t)}</p>' for t in abstracts['intro']['odia'])+''.join(f'<p>{esc(t)}</p>' for t in abstracts['intro']['english'])
+    by_id={e['id']:row for e,row in zip(data['entries'],rows)}
+    chapters=''.join(f'<section class="chapter" id="chapter-{esc(ch["id"])}"><h2>{esc(ch["label"])}</h2><p>{esc(ch["description"])}</p>{"".join(by_id[ident] for ident in ch["entry_ids"])}</section>' for ch in design['shelves'])
+    contents=''.join(f'<li><a href="#chapter-{esc(ch["id"])}">{esc(ch["label"])} <span>· {len(ch["entry_ids"])} sayings</span></a></li>' for ch in design['shelves'])
+    script="""(() => {const q=document.querySelector('#search'),t=document.querySelector('#theme'),rows=[...document.querySelectorAll('.index-row')];const norm=s=>s.normalize('NFC').toLocaleLowerCase();function filter(){const words=norm(q.value).trim().split(/\\s+/).filter(Boolean);let n=0;rows.forEach(r=>{r.hidden=!(words.every(w=>norm(r.textContent).includes(w))&&(!t.value||r.dataset.theme===t.value));if(!r.hidden)n++});document.querySelectorAll('.chapter').forEach(ch=>ch.hidden=![...ch.querySelectorAll('.index-row')].some(r=>!r.hidden));document.querySelector('#result-count').textContent=n+' of '+rows.length+' sayings';document.querySelector('#empty').hidden=!!n}q.addEventListener('input',filter);t.addEventListener('change',filter);document.querySelector('#clear').addEventListener('click',()=>{q.value='';t.value='';filter();q.focus()});document.querySelector('#filters').hidden=false;filter();})();"""
+    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(data["title"])}</title><style>{CSS} .book-intro{{max-width:760px;margin:2rem auto}}.index-row{{border-top:1px solid var(--line);padding:1.5rem 0;max-width:760px;margin:auto}}.index-row h2{{font:600 1.35rem/1.9 Odia,serif}}.index-row p{{margin:.7rem 0}}@media print{{.index-row[hidden],.chapter[hidden]{{display:block!important}}.index-row{{break-inside:avoid}}}}</style></head><body><a class="skip" href="#collection">Skip to sayings</a><header><p class="eyebrow">Project Odisha · A book of Odia sayings</p><h1>Words carried through everyday life</h1><p class="subtitle">ଓଡ଼ିଆ ଢଗଢମାଳି · {len(rows)} sayings in Odia and English</p><p>Each short reading below explains an image or situation. Open a saying for its complete meaning, examples, illustration where available, and sources. The themes are reading paths, not historical classifications.</p><p>By Ahimanikya Satapathy · <a href="https://projectodisha.org/about/editorial-process/">Our editorial process</a></p><nav class="header-links"><a href="reader.html">Open the single-saying reader →</a><a href="source127.html">Source concordance</a><a href="collection.json" download>Download collection</a><a href="README.md">Research guide</a></nav><p class="note">{esc(data.get("license",""))}</p></header><main><section class="book-intro">{introduction}</section><nav aria-label="Book contents"><h2>Contents</h2><ol>{contents}</ol></nav><div id="filters" class="filters tools" hidden><div><label for="search">Search Odia or English</label><input id="search" type="search"></div><div><label for="theme">Reading theme</label><select id="theme"><option value="">All themes</option>{"".join(f"<option>{esc(t)}</option>" for t in titles)}</select></div><button id="clear">Clear filters</button></div><p id="result-count" role="status">{len(rows)} sayings</p><p id="empty" hidden>No sayings match. Try another word or clear the filters.</p><noscript>All sayings remain available below. Open each reading for its sources.</noscript><div id="collection">{chapters}</div></main><footer>Original commentary and illustrations: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA4.0</a>. Source-specific rights, including three brief SCERT quotations, remain distinct.</footer><script>{script}</script></body></html>'''
+
+def build_library(directory=ROOT):
+    directory=Path(directory);data=load_library(directory)
+    (directory/'collection.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
+    (directory/'index.html').write_text(library_index(data,directory))
+    dest=directory/'sayings';dest.mkdir(exist_ok=True)
+    for i,e in enumerate(data['entries']):
+        one={**data,'entries':[e]}
+        page=render(one)
+        page=re.sub(r'<script>.*?</script>','',page,flags=re.S)
+        page=re.sub(r'<section id="shelves".*?</section>','',page,flags=re.S)
+        page=re.sub(r'<section class="tools".*?</section>','',page,flags=re.S)
+        page=re.sub(r'<nav id="pagination".*?</nav>','',page,flags=re.S)
+        page=re.sub(r'<span class="open-hint"[^>]*>.*?</span>','',page,flags=re.S)
+        page=page.replace('<details class="saying-detail">','<details class="saying-detail" open>')
+        page=page.replace('Find a saying to open','').replace('SAYING 01',f'SAYING {i+1:02d}')
+        page=page.replace('<h1>'+esc(data['title'])+'</h1>','<h1>'+esc(e.get('title',e['odia']))+'</h1>')
+        page=page.replace('href="#'+e['id']+'"','href="../index.html#'+e['id']+'"')
+        page=page.replace("url('assets/","url('../assets/").replace('src="assets/','src="../assets/')
+        for name in ['README.md','coverage-ledger.json','source127.html','collection.json']:
+            page=page.replace('href="'+name+'"','href="../'+name+'"')
+        header=f'<header><p class="eyebrow">Project Odisha · A book of Odia sayings</p><p><a href="../index.html">← Contents &amp; chapters</a></p><h1>{esc(e.get("title",e["odia"]))}</h1><p>By Ahimanikya Satapathy</p></header>'
+        page=re.sub(r'<header>.*?</header>',header,page,count=1,flags=re.S)
+        previous=f'<a rel="prev" href="{data["entries"][i-1]["id"]}.html">← Previous saying</a>' if i else '<span>First saying</span>'
+        following=f'<a rel="next" href="{data["entries"][i+1]["id"]}.html">Next saying →</a>' if i+1<len(data['entries']) else '<span>Last saying</span>'
+        nav=f'<nav class="header-links" aria-label="Saying navigation">{previous}<a href="../index.html#{e["id"]}">Contents &amp; search</a>{following}</nav><p class="meta">{i+1} of {len(data["entries"])} sayings</p>'
+        page=page.replace('<main>','<main>'+nav).replace('</main>',nav+'</main>')
+        (dest/(e['id']+'.html')).write_text(page)
+    links=''.join(f'<li><a href="sayings/{e["id"]}.html">{esc(e.get("title",e["odia"]))}</a></li>' for e in data['entries'])
+    ids=json.dumps([e['id'] for e in data['entries']])
+    (directory/'reader.html').write_text(f'''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Choose a saying</title><style>{CSS}</style><body><main><h1>Open a saying</h1><p><a href="index.html">Browse all sayings and themes</a></p><ul>{links}</ul></main><script>const ids={ids};let id=location.hash.slice(1);if(!ids.includes(id))id=ids[0];location.replace("sayings/"+id+".html");</script></body></html>''')
+    return len(data['entries'])
+
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--source', type=Path, default=ROOT/'collection.json')
-    parser.add_argument('--output', type=Path, default=ROOT/'index.html')
-    args = parser.parse_args()
-    print(f'Built {build(args.source, args.output)} entries → {args.output}')
+    print(f'Built {build_library()} individual readings and bilingual collection article')
