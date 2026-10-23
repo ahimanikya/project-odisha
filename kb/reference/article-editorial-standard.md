@@ -28,7 +28,7 @@ Name an author in the prose when identity is part of the meaning: quotations, di
 
 ## Further reading and reader updates
 
-Additional direction from Ahimanikya Satapathy on 19 October 2026: preserve the existing reading paths and the suggestion to update the article. Keep **Further reading** or **Continue your reading path** in a collapsed, keyboard-accessible disclosure by default. Readers can open it when they want another article; do not remove it during a formatting refresh. This is separate from **Footnotes & Sources**, which stays expanded.
+Additional direction from Ahimanikya Satapathy on 19 October 2026: preserve the existing reading paths and the suggestion to update the article. Updated direction from Ahimanikya Satapathy on 23 October 2026: keep **Further reading**, **Continue reading** and **Continue your reading path** explicitly visible above the footer, with headings and links expanded by default. Do not hide these reading paths in disclosures. This supersedes the earlier collapsed presentation; **Footnotes & Sources** also stays expanded. The three connected Odia essays receive this update together through their shared reading component; other pages retain their individual review status.
 
 Keep **Suggest an update** visible outside disclosures, with the article-specific contribution link. Preserve the notice that GitHub submissions are public and must omit private contact details and consent documents. These rules apply to future articles and to existing articles as each receives its individual editorial review; they do not mark untouched articles complete.
 

@@ -1,0 +1,37 @@
+{
+  "task_id": "POD-TASK-DHAGA-20261023",
+  "delivery_kind": "non-website research repository",
+  "status": "initial_edition_delivered",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/464",
+  "reviewed_head": "da7d0eab83c3756129cc6084c11898b0659aa6c5",
+  "merge_commit": "e59e8722c9df25b85e829934d04d76ff2e7d6c24",
+  "merged_at": "2026-10-23T05:53:28Z",
+  "required_validation": {
+    "run": 39907804692,
+    "conclusion": "success",
+    "duration": "4m2s"
+  },
+  "separate_ai_review": "Drishti passed original collection and final metadata/generated-index/CI follow-ups at the exact reviewed head. No human review claimed.",
+  "deployment": "Not required: standalone offline collection, no public-site route changed.",
+  "outputs": [
+    "projects/odia-dhaga/index.html",
+    "projects/odia-dhaga/collection.json",
+    "projects/odia-dhaga/README.md"
+  ],
+  "counts": {
+    "explained_sayings": 10,
+    "source_records": 13,
+    "original_diagrams": 2,
+    "programme_increment": 0
+  },
+  "limits": [
+    "Historical corpus not fully transcribed or public-domain certified.",
+    "Human Odia proofreading pending.",
+    "Direct-file browser and actual print rendering untested; loopback desktop/mobile and structural offline checks passed."
+  ],
+  "validation_repairs": [
+    "Regenerated research search index after research-map addition.",
+    "Regenerated editorial-workbench input hash after index update.",
+    "Added dedicated Dhaga tests and generated-HTML consistency check to CI."
+  ]
+}

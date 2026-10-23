@@ -951,3 +951,18 @@ Reuse `communities/patara.json`, `communities/patara.md` and `sources/patara-res
 ### 23 October 2026: Nayika and Odissi & Beyond
 
 Reuse the [caption survey](../sources/odissiandbeyond-research-map.md), [Ashta Nayika article](../culture/ashta-nayika.md), [abhinaya article](../culture/odissi-abhinaya.md) and [Champu/sakhi dossier](../sources/champu-and-sakhi-research.md). Classical definitions, practitioner captions, historical testimony and modern programmes retain distinct scopes.
+## Kamar regional history · 23 October 2026
+
+Reuse `communities/kamar.json`, `communities/kamar.md` and `sources/kamar-research.json`. Ganjam93 craft grouping; Census crafts1962 fieldwork/published1967 Penthabahal household smelting and attributed Umarkot closure causes; Daanla1962/published1968 tool repair, per-pair-of-bullocks grain payment and markets. No universal aliases or identity from metalworking. No founding event established, no media rights verified.
+
+## Odia dhaga research repository — 23 October 2026
+
+Reuse `folklore/odia-dhaga-source-audit-2026-10-23.json` and `../../projects/odia-dhaga/collection.json` before new proverb research. The standalone collection has ten explained contemporary licensed witnesses, two original explanatory diagrams, thirteen source records and an expansion plan. The1893 Gobinda Rath-published scan and1926 Praharaj/Pitambari Debi volume have inspected title pages; the lemon saying has a located1893 attestation, not a proven origin. Preserve exact revision attribution, historical glyph uncertainty, public-access versus reuse distinctions and unresolved regional distribution. Bibliography/catalogue leads are not inspected book contents; no complete public-domain corpus or human review is claimed. Current priority and scopes: `records/odia-dhaga-team-2026-10-23.json`.
+
+### Dhaga batch 2 and coverage ledger — 23 October 2026
+
+Reuse `folklore/odia-dhaga-batch2-source-audit-2026-10-23.json` for five further licensed witnesses (entries011–015) and targeted1893comparisons. Entry011 has a version on printed1/PDF2; entry012 has a provisional address variant on printed3/PDF4. Entry015's possible historical match remains deferred. `../../projects/odia-dhaga/coverage-ledger.json` distinguishes targeted inspection from complete transcription and unique sayings from variant witnesses. The approved heritage lemon artwork has explicit contemporary AI provenance; no scan facsimile is republished. No programme credit for this corpus batch.
+
+## Sunari community history — 23 October 2026
+
+Reuse `communities/sunari.json`, `communities/sunari.md` and `communities/sunari-source-audit-2026-10-23.json`. Bhadrak regional names, Tarbha silverwork across communities, dated Kotpad household reporting and Gajapati ornaments. No universal aliases, occupation-to-caste inference or founding history established. Published with a live receipt; no community fieldwork claimed.

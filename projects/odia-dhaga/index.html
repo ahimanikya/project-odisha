@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Odia Dhaga · ଓଡ଼ିଆ ଢଗଢମାଳି</title><meta name="description" content="Sayings, meanings and the sources behind them"><style>
+@font-face{font-family:Odia;src:url('assets/NotoSerifOriya-Variable.woff2') format('woff2');font-display:swap}
+@font-face{font-family:Reading;src:url('assets/SourceSerif4-Variable.woff2') format('woff2');font-display:swap}
+:root{color-scheme:light;--ink:#243b3b;--muted:#536461;--paper:#f8f4e9;--line:#d7d2c2;--accent:#8a4029}
+*{box-sizing:border-box}body{margin:0;color:var(--ink);background:var(--paper);font:17px/1.7 Reading,Odia,Georgia,serif}
+a{color:var(--accent);text-underline-offset:.2em}a:hover{text-decoration-thickness:2px}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #006b74;outline-offset:4px}
+.skip{position:absolute;left:1rem;top:-10rem;background:white;padding:.5rem}.skip:focus{top:.5rem}
+header{border-top:8px solid var(--accent);max-width:1120px;margin:auto;padding:4rem 2rem 2rem}
+.eyebrow,.number,.tag,label,button,select,.meta{font:600 .78rem/1.5 system-ui,sans-serif;letter-spacing:.04em}
+.eyebrow{text-transform:uppercase;color:var(--accent)}h1{font-size:clamp(2.7rem,6vw,5.2rem);line-height:1.1;letter-spacing:-.035em;margin:.7rem 0}
+.subtitle{font-size:1.35rem;max-width:44rem}.scope{max-width:48rem;color:var(--muted)}.header-links{display:flex;flex-wrap:wrap;gap:1.4rem}
+main{max-width:1120px;margin:auto;padding:0 2rem 3rem}.tools{border-block:1px solid var(--line);padding:1.4rem 0;margin:1rem 0 2rem}
+.filters{display:grid;grid-template-columns:1fr 220px auto;gap:1rem;align-items:end}
+label{display:block;margin-bottom:.4rem}input,select,button{font:inherit;border:1px solid #81918b;background:#fffdf7;color:var(--ink);padding:.7rem;border-radius:3px;width:100%}
+button{cursor:pointer;width:auto}.status{color:var(--muted);margin:.8rem 0 0;font-size:.9rem}
+.collection{display:grid;gap:2rem}.entry{background:#fffdf7;border:1px solid var(--line);border-radius:4px;padding:2rem;scroll-margin-top:1rem}
+.entry-header{display:flex;gap:1rem;justify-content:space-between}.number{color:var(--accent)}.entry h2{font-family:Odia,serif;font-size:clamp(1.6rem,3vw,2.25rem);line-height:1.8;font-weight:600;margin:.6rem 0 1.2rem;overflow-wrap:anywhere}
+.entry p{max-width:72ch}.entry h3{font:600 .82rem/1.5 system-ui,sans-serif;margin:1.6rem 0 .4rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.entry h3+p{margin-top:0}.transliteration{font-style:italic;color:var(--muted)}.tags{display:flex;flex-wrap:wrap;gap:.4rem}.tag{background:#eceede;padding:.2rem .6rem;border-radius:2rem;letter-spacing:0}
+.details-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 2rem}details{border-top:1px solid var(--line);margin-top:1.5rem;padding-top:1rem}summary{cursor:pointer;font-weight:600}
+.witnesses{padding-left:1.2rem}li{margin:.6rem 0}.odia{font-family:Odia,serif;line-height:1.9}.note{font-size:.92rem;color:var(--muted)}
+figure{margin:1.8rem 0;max-width:760px}figure img{width:100%;height:auto;display:block}figcaption{font-size:.9rem;color:var(--muted);margin-top:.7rem}
+#sources{margin-top:4rem;border-top:2px solid var(--ink);padding-top:1.5rem}.source{border-bottom:1px solid var(--line);padding:1rem 0;overflow-wrap:anywhere}.source h3{margin-bottom:.4rem}.source p{margin:.4rem 0}
+footer{border-top:1px solid var(--line);padding:2rem;text-align:center;font-size:.88rem;color:var(--muted)}[hidden]{display:none!important}
+@media(max-width:640px){header{padding:2.2rem 1.1rem 1.3rem}main{padding:0 1.1rem 2rem}.filters{grid-template-columns:1fr}.entry{padding:1.2rem}.details-grid{grid-template-columns:1fr}.subtitle{font-size:1.15rem}}
+@media print{body{background:white;color:black;font-size:11pt}header{padding:1rem 0;border:0}main{padding:0}.tools,.header-links,.permalink,.skip{display:none!important}.entry{break-inside:avoid;padding:1rem 0;border:0;border-top:1px solid #aaa}.collection{gap:1rem}details>*,details:not([open])>*{display:block!important}details summary{display:block!important}details::details-content{content-visibility:visible!important;display:block!important}a{color:black}figure{max-width:450px}.source{break-inside:avoid}footer{padding:1rem}}
+</style></head>
+<body><a class="skip" href="#collection">Skip to sayings</a>
+<header><p class="eyebrow">Project Odisha · A living research collection</p><h1>Odia Dhaga · ଓଡ଼ିଆ ଢଗଢମାଳି</h1>
+<p class="subtitle">Sayings, meanings and the sources behind them</p><p class="scope">A growing research repository: 34 explained sayings with traceable contemporary witnesses, historical comparisons and a source survey for expansion. This is not a complete anthology or a certified public-domain corpus. Public access, open licensing and historical attestation are recorded separately.</p>
+<nav class="header-links" aria-label="Collection resources"><a href="#sources">Sources &amp; rights</a><a href="README.md">Research guide</a><a href="coverage-ledger.json">Coverage ledger</a><a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 licence</a><a href="collection.json" download>Download collection JSON</a></nav>
+<p class="scope">By Ahimanikya Satapathy · Project Odisha. AI-assisted research and drafting; separate AI review is recorded in the research handoff and is not human or community validation. See README.md for method and limits.</p>
+<p class="note"><strong>Collection licence:</strong> Adapted entries and original explanatory illustrations: CC BY-SA 4.0. Source books, scans, linked sites and fonts retain their own rights.</p>
+<p class="meta">Checked 2026-10-23 · 34 documented entries</p></header>
+<main><section class="tools" aria-label="Find a saying"><div class="filters" id="filters" hidden>
+<div><label for="search">Search Odia or English</label><input id="search" type="search" placeholder="Words, meanings, situations…" autocomplete="off"></div>
+<div><label for="tag">Theme</label><select id="tag"><option value="">All themes</option><option>awkward-predicament</option><option>conflict</option><option>deferred-reply</option><option>discernment</option><option>double-dealing</option><option>emotion</option><option>empty-agreement</option><option>empty-courtesy</option><option>escalation</option><option>exasperation</option><option>feeling-unwelcome</option><option>foresight</option><option>hidden-agreement</option><option>integrity</option><option>judgement</option><option>learning</option><option>means-and-desire</option><option>means-and-promises</option><option>moderation</option><option>money-and-worry</option><option>planning</option><option>premature-action</option><option>pride</option><option>proof-and-value</option><option>resisting-change</option><option>self-awareness</option><option>self-respect</option><option>short-term-choices</option><option>speech</option><option>steadfastness</option><option>timing</option><option>work</option></select></div>
+<button id="clear" type="button">Clear filters</button></div><p class="status" id="result-count" role="status" aria-live="polite">34 sayings — all entries are available below.</p>
+<noscript><p>Search needs JavaScript. Every saying and its sources remain readable below.</p></noscript></section>
+<p id="empty" hidden>No sayings match. Try a different word or clear the filters.</p>
+<div id="collection" class="collection"><article class="entry" id="POD-DHAGA-001">
+<div class="entry-header"><span class="number">SAYING 01 · proverbial saying</span><a class="permalink" href="#POD-DHAGA-001" aria-label="Link to saying 1">#</a></div>
+<p class="entry-title">Squeezing past the useful point</p>
+<h2 lang="or">ଅତି ଲେମ୍ବୁ ଚିପୁଡ଼ିଲେ ପିତା ।</h2>
+<p class="odia" lang="or">ଅତି କଲେ ଭଲ କାମର ଫଳ ମଧ୍ୟ ଖରାପ ହୋଇପାରେ।</p>
+<p class="note">Historical attestation located; diplomatic transcription and human Odia review pending.</p>
+
+<div class="tags"><span class="tag">moderation</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>If you squeeze a lemon too much, it turns bitter.</p></section><section><h3>What it means</h3><p>The useful action—extracting juice—becomes counterproductive when carried too far. The warning is about proportion: pressing for one more favour, one more concession or one more advantage may damage what was already achieved. It does not mean that effort itself is bad.</p></section><section><h3>When you might use it</h3><p>After a neighbour has agreed to help for an afternoon, repeatedly asking for more time may invite this saying. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>The image makes a social judgement through an ordinary kitchen action. This reading explains the metaphor; it is not a scientific claim about every citrus fruit or a documented account of how the proverb originated.</p></section></div><figure><img src="assets/lemon-heritage-v1.png" alt="Two heritage-inspired painted scenes show a woman gently squeezing a lemon into a brass bowl, then pressing its flattened rind." loading="lazy"><figcaption>Original AI-generated Pattachitra-inspired interpretation for Project Odisha, approved by the Founder; not an archival painting or a work attributed to a traditional artist. CC BY-SA4.0.</figcaption></figure>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-bibidha">Wikimedia Incubator, Wq/or/ବିବିଧ ଢଗଢମାଳି</a> — unnumbered bullet beginning with this text<p class="odia" lang="or">ଅତି ଲେମ୍ବୁ ଚିପୁଡ଼ିଲେ ପିତା ।</p><p class="note">Exact contemporary digital witness read. Historical corroboration is recorded separately below; no field collection has been conducted.</p></li><li><a href="#source-dhaga-rath1893">ଢଗମାଳିକା, ପ୍ରଥମଭାଗ</a> — Printed page 2 / PDF page 3, sixth text line, second saying<p class="note">Anvesha and Disha visually inspected the scan. A version of the lemon saying is visible here, establishing attestation by1893. Exact old spacing and nukta transcription remain provisional; the displayed headword follows the separately credited contemporary witness.</p></li></ul>
+<p class="note">No additional variant is documented in this entry.</p>
+<h3>Origins and uncertainty</h3><p>A version is attested in the 1893 collection, printed page 2 / PDF page 3. This is the earliest witness inspected for this entry, not a claim of first coinage. Gobinda Rath is credited as publisher on the title page, not established as the proverb’s author. Regional distribution and oral collection history remain unverified.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Literal rendering, explanations and usage example added by Project Odisha; adapted entry distributed under the same licence.</p></details></article><article class="entry" id="POD-DHAGA-002">
+<div class="entry-header"><span class="number">SAYING 02 · proverbial saying</span><a class="permalink" href="#POD-DHAGA-002" aria-label="Link to saying 2">#</a></div>
+<p class="entry-title">Inviting trouble</p>
+<h2 lang="or">ଆ ବଳଦ ମୋତେ ବିନ୍ଧ ।</h2>
+<p class="odia" lang="or">ନିଜେ ଡାକି ଅଯଥା ବିପଦରେ ପଡ଼ିବା।</p>
+<p class="note">Explained seed; historical collation and human Odia review pending.</p>
+
+<div class="tags"><span class="tag">judgement</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>Come, ox, gore me.</p></section><section><h3>What it means</h3><p>The speaker imagines someone summoning the very trouble they could have avoided. Used ironically, it criticises an unnecessary provocation or a knowingly risky decision. It should not be used to blame someone for harm they did not choose.</p></section><section><h3>When you might use it</h3><p>A person interrupts an argument that has nothing to do with them merely to insult both sides; a friend may use this saying. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>ବଳଦ is rendered here as ox or bullock. The horned animal supplies the force of the image; the wording alone cannot establish a particular village, farming community or date of origin.</p></section></div>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-bibidha">Wikimedia Incubator, Wq/or/ବିବିଧ ଢଗଢମାଳି</a> — unnumbered bullet beginning with this text<p class="odia" lang="or">ଆ ବଳଦ ମୋତେ ବିନ୍ଧ ।</p><p class="note">Exact contemporary digital witness read; no earlier-print attestation or field collection established.</p></li></ul>
+<p class="note">No additional variant is documented in this entry.</p>
+<h3>Origins and uncertainty</h3><p>First coinage, named author and regional distribution are not established. This entry records a contemporary digital witness; it does not prove exclusive Odia origin. No oral-history interview has been conducted.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Literal rendering, explanations and usage example added by Project Odisha; adapted entry distributed under the same licence.</p></details></article><article class="entry" id="POD-DHAGA-003">
+<div class="entry-header"><span class="number">SAYING 03 · proverbial saying</span><a class="permalink" href="#POD-DHAGA-003" aria-label="Link to saying 3">#</a></div>
+<p class="entry-title">There will be another winter</p>
+<h2 lang="or">ଏକା ମାଘକେ ଶୀତ ଯାଏନାହିଁ।</h2>
+<p class="odia" lang="or">ଆଜିର ଦରକାର ସରିଗଲେ ମଧ୍ୟ ଆଗକୁ ପୁଣି ଦରକାର ପଡ଼ିପାରେ।</p>
+<p class="note">Explained seed; historical collation and human Odia review pending.</p>
+
+<div class="tags"><span class="tag">foresight</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>Cold does not finish with a single Magha.</p></section><section><h3>What it means</h3><p>One difficult season is not the last occasion on which we may need help. The saying can warn against treating a temporary advantage as permanent, or remind someone who refuses help that circumstances may change. Tone matters: it can sound like practical advice or a pointed warning.</p></section><section><h3>When you might use it</h3><p>After borrowing a tool successfully once, someone dismisses the neighbour who lent it. Another person reminds them that they may need that neighbour again. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>Magha supplies the seasonal image. The central point is recurring need and changing fortunes, not a precise forecast or a claim that cold is confined to one calendar month.</p></section></div>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-bibidha">Wikimedia Incubator, Wq/or/ବିବିଧ ଢଗଢମାଳି</a> — unnumbered bullet beginning with this text<p class="odia" lang="or">ଏକା ମାଘକେ ଶୀତ ଯାଏନାହିଁ।</p><p class="note">Exact contemporary digital witness read; no earlier-print attestation or field collection established.</p></li></ul>
+<p class="note">No additional variant is documented in this entry.</p>
+<h3>Origins and uncertainty</h3><p>First coinage, named author and regional distribution are not established. This entry records a contemporary digital witness; it does not prove exclusive Odia origin. No oral-history interview has been conducted.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Literal rendering, explanations and usage example added by Project Odisha; adapted entry distributed under the same licence.</p></details></article><article class="entry" id="POD-DHAGA-004">
+<div class="entry-header"><span class="number">SAYING 04 · proverbial saying</span><a class="permalink" href="#POD-DHAGA-004" aria-label="Link to saying 4">#</a></div>
+<p class="entry-title">Learning when responsibility arrives</p>
+<h2 lang="or">କାନ୍ଧରେ ପଡିଲେ ବଜାଇ ଶିଖନ୍ତି</h2>
+<p class="odia" lang="or">ଦାୟିତ୍ୱ ପଡ଼ିଲେ କାମ କରିବାର ଉପାୟ ଶିଖିହୁଏ।</p>
+<p class="note">Explained seed; historical collation and human Odia review pending.</p>
+
+<div class="tags"><span class="tag">learning</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>When it falls on the shoulder, one learns to play.</p></section><section><h3>What it means</h3><p>Taking responsibility can force a beginner to learn the necessary skill. The compressed wording leaves the instrument unnamed; imagining a carried percussion instrument helps explain the metaphor, but does not establish which instrument first inspired it. This is encouragement to learn through doing, not a guarantee that preparation is unnecessary.</p></section><section><h3>When you might use it</h3><p>A first-time organiser worries about arranging a neighbourhood reading session. A more experienced friend uses the saying while offering help with the practical tasks. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>The body carrying a burden and the hands learning a performance meet in one image. No historical link to a named musical tradition has been verified.</p></section></div>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-bibidha">Wikimedia Incubator, Wq/or/ବିବିଧ ଢଗଢମାଳି</a> — unnumbered bullet beginning with this text<p class="odia" lang="or">କାନ୍ଧରେ ପଡିଲେ ବଜାଇ ଶିଖନ୍ତି</p><p class="note">Exact contemporary digital witness read; no earlier-print attestation or field collection established.</p></li></ul>
+<p class="note">No additional variant is documented in this entry.</p>
+<h3>Origins and uncertainty</h3><p>First coinage, named author and regional distribution are not established. This entry records a contemporary digital witness; it does not prove exclusive Odia origin. No oral-history interview has been conducted.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Literal rendering, explanations and usage example added by Project Odisha; adapted entry distributed under the same licence.</p></details></article><article class="entry" id="POD-DHAGA-005">
+<div class="entry-header"><span class="number">SAYING 05 · idiomatic saying</span><a class="permalink" href="#POD-DHAGA-005" aria-label="Link to saying 5">#</a></div>
+<p class="entry-title">Not even a straw broken</p>
+<h2 lang="or">କୁଟା ଖଣ୍ଡକ ଦିଖଣ୍ଡ ନ କରିବା</h2>
+<p class="odia" lang="or">ସାମାନ୍ୟ କାମଟିଏ ମଧ୍ୟ ନ କରିବା।</p>
+<p class="note">Explained seed; historical collation and human Odia review pending.</p>
+
+<div class="tags"><span class="tag">work</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>Not to break one piece of straw into two.</p></section><section><h3>What it means</h3><p>This expression makes a very small action stand for any contribution at all. Saying that someone has not done even this means they have done no work in the situation being discussed. It is an idiomatic phrase rather than a complete rhymed maxim.</p></section><section><h3>When you might use it</h3><p>Several people clean up after a gathering while one person only gives instructions. Someone complains that the person has not lifted a finger—the comparable English idiom. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>Straw provides a small, light object in the verbal image. The comparison with an English idiom explains the sense; it is not a claim of translation, borrowing or shared origin.</p></section></div>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-bibidha">Wikimedia Incubator, Wq/or/ବିବିଧ ଢଗଢମାଳି</a> — unnumbered bullet beginning with this text<p class="odia" lang="or">କୁଟା ଖଣ୍ଡକ ଦିଖଣ୍ଡ ନ କରିବା</p><p class="note">Exact contemporary digital witness read; no earlier-print attestation or field collection established.</p></li></ul>
+<p class="note">No additional variant is documented in this entry.</p>
+<h3>Origins and uncertainty</h3><p>First coinage, named author and regional distribution are not established. This entry records a contemporary digital witness; it does not prove exclusive Odia origin. No oral-history interview has been conducted.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Literal rendering, explanations and usage example added by Project Odisha; adapted entry distributed under the same licence.</p></details></article><article class="entry" id="POD-DHAGA-006">
+<div class="entry-header"><span class="number">SAYING 06 · proverbial saying</span><a class="permalink" href="#POD-DHAGA-006" aria-label="Link to saying 6">#</a></div>
+<p class="entry-title">Advice that stops at the doorstep</p>
+<h2 lang="or">କହି ଦେଉଥାଇ ପରକୁ, ବୁଦ୍ଧି ନ ଦିଶଇ ଘରକୁ</h2>
+<p class="odia" lang="or">ଅନ୍ୟକୁ ଉପଦେଶ ଦେଇ ନିଜେ ତାହା ନ ମାନିବା।</p>
+<p class="note">Explained seed; historical collation and human Odia review pending.</p>
+
+<div class="tags"><span class="tag">self-awareness</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>One keeps advising others, but wisdom is not seen at home.</p></section><section><h3>What it means</h3><p>The criticism is the gap between giving advice and practising it. The outward-facing adviser appears wise, yet fails to apply that wisdom to their own affairs. The saying invites self-examination; it does not imply that advice is worthless whenever its giver has difficulties.</p></section><section><h3>When you might use it</h3><p>A person lectures everyone about keeping accounts but repeatedly loses track of their own spending. A relative uses this line to point out the inconsistency. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>The rhyme of ପରକୁ and ଘରକୁ reinforces the contrast between others and home. Here the structure is part of the saying’s force, not just decoration.</p></section></div>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-bibidha">Wikimedia Incubator, Wq/or/ବିବିଧ ଢଗଢମାଳି</a> — unnumbered bullet beginning with this text<p class="odia" lang="or">କହି ଦେଉଥାଇ ପରକୁ, ବୁଦ୍ଧି ନ ଦିଶଇ ଘରକୁ</p><p class="note">Exact contemporary digital witness read; no earlier-print attestation or field collection established.</p></li></ul>
+<p class="note">No additional variant is documented in this entry.</p>
+<h3>Origins and uncertainty</h3><p>First coinage, named author and regional distribution are not established. This entry records a contemporary digital witness; it does not prove exclusive Odia origin. No oral-history interview has been conducted.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Literal rendering, explanations and usage example added by Project Odisha; adapted entry distributed under the same licence.</p></details></article><article class="entry" id="POD-DHAGA-007">
+<div class="entry-header"><span class="number">SAYING 07 · proverbial saying</span><a class="permalink" href="#POD-DHAGA-007" aria-label="Link to saying 7">#</a></div>
+<p class="entry-title">Noise is not the same as action</p>
+<h2 lang="or">ଗରଜିଲା ମେଘ ବରଷେ ନାହିଁ</h2>
+<p class="odia" lang="or">ବଡ଼ ବଡ଼ କଥା କହିବା ଓ କାମ କରିବା ଏକ କଥା ନୁହେଁ।</p>
+<p class="note">Explained seed; historical collation and human Odia review pending.</p>
+
+<div class="tags"><span class="tag">speech</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>The cloud that thunders does not rain.</p></section><section><h3>What it means</h3><p>The contrast between loud thunder and absent rain is used to question bluster: impressive promises or threats do not necessarily lead to action. Read the sentence figuratively. Thunderstorms can, of course, bring rain; the proverb is not a dependable weather rule.</p></section><section><h3>When you might use it</h3><p>Someone loudly promises to repair a shared bench, but nothing happens. Others use the saying to ask for action rather than another announcement. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>Weather becomes a way of talking about human speech. Similar imagery elsewhere would not by itself prove where this Odia wording originated.</p></section></div>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-bibidha">Wikimedia Incubator, Wq/or/ବିବିଧ ଢଗଢମାଳି</a> — unnumbered bullet beginning with this text<p class="odia" lang="or">ଗରଜିଲା ମେଘ ବରଷେ ନାହିଁ</p><p class="note">Exact contemporary digital witness read; no earlier-print attestation or field collection established.</p></li></ul>
+<p class="note">No additional variant is documented in this entry.</p>
+<h3>Origins and uncertainty</h3><p>First coinage, named author and regional distribution are not established. This entry records a contemporary digital witness; it does not prove exclusive Odia origin. No oral-history interview has been conducted.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Literal rendering, explanations and usage example added by Project Odisha; adapted entry distributed under the same licence.</p></details></article><article class="entry" id="POD-DHAGA-008">
+<div class="entry-header"><span class="number">SAYING 08 · proverbial saying</span><a class="permalink" href="#POD-DHAGA-008" aria-label="Link to saying 8">#</a></div>
+<p class="entry-title">Planting when the meal is due</p>
+<h2 lang="or">ବାହାଘର ବେଳେ ବାଇଗଣ ରୂଆ</h2>
+<p class="odia" lang="or">ଦରକାର ବେଳ ଆସିଗଲା ପରେ ପ୍ରସ୍ତୁତି ଆରମ୍ଭ କରିବା।</p>
+<p class="note">Explained seed; historical collation and human Odia review pending.</p>
+
+<div class="tags"><span class="tag">timing</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>Planting eggplant at wedding time.</p></section><section><h3>What it means</h3><p>The joke is a mismatch between a long preparation and an immediate need. Planting a crop when the occasion has arrived cannot supply that occasion’s meal. The saying criticises starting essential work too late, rather than the act of planting itself.</p></section><section><h3>When you might use it</h3><p>The event starts tomorrow, but the organisers only now begin looking for a venue. Someone compares their timing to planting eggplant at wedding time. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>The wedding and vegetable crop create the contrast. This does not prove eggplant is required at every Odia wedding or identify a particular community’s menu. The graphic illustrates lead time, not an agricultural timetable.</p></section></div><figure><img src="assets/preparation-timeline.svg" alt="Planting must precede growing and harvesting; starting at the moment a meal is needed is too late." loading="lazy"><figcaption>Original explanatory diagram by Project Odisha, CC BY-SA 4.0; an interpretation of the saying, not a historical illustration.</figcaption></figure>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-bibidha">Wikimedia Incubator, Wq/or/ବିବିଧ ଢଗଢମାଳି</a> — unnumbered bullet beginning with this text<p class="odia" lang="or">ବାହାଘର ବେଳେ ବାଇଗଣ ରୂଆ</p><p class="note">Exact contemporary digital witness read; no earlier-print attestation or field collection established.</p></li></ul>
+<p class="note">No additional variant is documented in this entry.</p>
+<h3>Origins and uncertainty</h3><p>First coinage, named author and regional distribution are not established. This entry records a contemporary digital witness; it does not prove exclusive Odia origin. No oral-history interview has been conducted.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Literal rendering, explanations and usage example added by Project Odisha; adapted entry distributed under the same licence.</p></details></article><article class="entry" id="POD-DHAGA-009">
+<div class="entry-header"><span class="number">SAYING 09 · idiomatic saying</span><a class="permalink" href="#POD-DHAGA-009" aria-label="Link to saying 9">#</a></div>
+<p class="entry-title">Anger aimed at the bowl</p>
+<h2 lang="or">ଓଷଦ ରାଗରେ ତାଟିଆ କାମୁଡିବା</h2>
+<p class="odia" lang="or">ଯାହା ପାଇଁ ରାଗ, ତାହା ବଦଳରେ ଅନ୍ୟ ଉପରେ ରାଗ ସୁଝାଇବା।</p>
+<p class="note">Explained seed; historical collation and human Odia review pending.</p>
+
+<div class="tags"><span class="tag">emotion</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>Biting the bowl in anger at the medicine.</p></section><section><h3>What it means</h3><p>The unpleasant thing is the medicine, but the anger is directed at its container. The expression describes displaced frustration: attacking a messenger, object or bystander instead of addressing the actual problem.</p></section><section><h3>When you might use it</h3><p>A delayed delivery frustrates a customer, who shouts at a neighbour merely passing on the update. Another person uses the saying to identify the misplaced anger. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>The source writes ଓଷଦ and କାମୁଡିବା; this edition preserves those forms rather than silently replacing them with modern spellings. The image explains behaviour and gives no advice about taking medicine.</p></section></div>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-lakshana">Wikimedia Incubator, Wq/or/ଢଗଢମାଳି/ଲକ୍ଷଣାର୍ଥ</a> — numbered item 22<p class="odia" lang="or">ଓଷଦ ରାଗରେ ତାଟିଆ କାମୁଡିବା</p><p class="note">Text and accompanying sense read in original community page; rewritten explanation, not historical-origin claim.</p></li></ul>
+<p class="note">No additional variant is documented in this entry.</p>
+<h3>Origins and uncertainty</h3><p>First coinage, named author and regional distribution are not established. This entry records a contemporary digital witness; it does not prove exclusive Odia origin. No oral-history interview has been conducted.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Literal rendering, explanations and usage example added by Project Odisha; adapted entry distributed under the same licence.</p></details></article><article class="entry" id="POD-DHAGA-010">
+<div class="entry-header"><span class="number">SAYING 10 · proverbial saying</span><a class="permalink" href="#POD-DHAGA-010" aria-label="Link to saying 10">#</a></div>
+<p class="entry-title">A little game, an enormous quarrel</p>
+<h2 lang="or">ଝିମିଟି ଖେଳରୁ ମହାଭାରତ</h2>
+<p class="odia" lang="or">ସାମାନ୍ୟ କଥାରୁ ବଡ଼ ଝଗଡ଼ା ହେବା।</p>
+<p class="note">Explained seed; historical collation and human Odia review pending.</p>
+
+<div class="tags"><span class="tag">conflict</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>From a game of jhimiti to the Mahabharata.</p></section><section><h3>What it means</h3><p>A small disagreement grows into an outsized conflict. The Mahabharata provides a culturally recognisable scale of conflict. The expression is not evidence that the epic war literally began with this named game, and the game’s precise historical rules have not been established here.</p></section><section><h3>When you might use it</h3><p>Two friends disagree over a turn in a game; soon several families are arguing. A neighbour uses the saying to describe how far the quarrel has grown. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>ଝିମିଟି is retained rather than replaced by an invented modern game. The contrast is between a modest starting point and epic-scale escalation.</p></section></div>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-lakshana">Wikimedia Incubator, Wq/or/ଢଗଢମାଳି/ଲକ୍ଷଣାର୍ଥ</a> — numbered item 26<p class="odia" lang="or">ଝିମିଟି ଖେଳରୁ ମହାଭାରତ</p><p class="note">Text and accompanying sense read in original community page; rewritten explanation, not historical-origin claim.</p></li></ul>
+<p class="note">No additional variant is documented in this entry.</p>
+<h3>Origins and uncertainty</h3><p>First coinage, named author and regional distribution are not established. This entry records a contemporary digital witness; it does not prove exclusive Odia origin. No oral-history interview has been conducted.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Literal rendering, explanations and usage example added by Project Odisha; adapted entry distributed under the same licence.</p></details></article><article class="entry" id="POD-DHAGA-011">
+<div class="entry-header"><span class="number">SAYING 11 · proverbial saying</span><a class="permalink" href="#POD-DHAGA-011" aria-label="Link to saying 11">#</a></div>
+<p class="entry-title">When dishonest gain takes the roots with it</p>
+<h2 lang="or">ଅଧର୍ମ ବିତ୍ତ ବଢେ ବହୁତ, ଗଲା ବେଳେ ଯାଏ ମୂଳ ସହିତ ।</h2>
+<p class="odia" lang="or">ଅସତ୍ ଉପାୟରେ ଅର୍ଜିତ ଧନ ଶେଷରେ ସବୁ କିଛି ହରାଇବାର କାରଣ ହୋଇପାରେ।</p>
+<p class="note">Explained entry; human Odia proofreading pending.</p>
+
+<div class="tags"><span class="tag">integrity</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>Wrongfully gained wealth grows greatly, but disappears with its roots.</p></section><section><h3>What it means</h3><p>The image contrasts rapid growth with loss at the root. Wealth obtained dishonestly may look impressive, yet the conduct behind it can endanger the whole household or enterprise. This is a moral warning about how gain is obtained, not a reliable prediction that every dishonest person will become poor.</p></section><section><h3>When you might use it</h3><p>A trader is tempted to falsify weights for a little extra profit. An older colleague uses the saying to warn that losing customers’ trust could destroy the business. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>The rhyme of ବହୁତ and ସହିତ gives the warning a memorable close. The root image suggests losing the foundation, not merely the most recent gain. A version appears as the opening proverb of the1893 collection.</p></section></div>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-bibidha">Wikimedia Incubator, Wq/or/ବିବିଧ ଢଗଢମାଳି</a> — Unnumbered bullet beginning with quoted text<p class="odia" lang="or">ଅଧର୍ମ ବିତ୍ତ ବଢେ ବହୁତ, ଗଲା ବେଳେ ଯାଏ ମୂଳ ସହିତ ।</p><p class="note">Exact contemporary digital wording inspected; source revision6945232. Historical evidence, where available, is recorded separately.</p></li><li><a href="#source-dhaga-rath1893">ଢଗମାଳିକା, ପ୍ରଥମଭାଗ</a> — printed1/PDF2, first proverb under ଅ<p class="note">A version is present in the1893 printed witness; not evidence of first coinage. AI visual reading, not human-proofread diplomatic transcription. Modern spacing supplied in normalized reading; old typography is faint.</p></li></ul>
+<h3>Recorded variants</h3><ul><li><span class="odia" lang="or">ଅଧର୍ମ ବିତ୍ତ ବଢ଼େ ବହୁତ, ଗଲାବେଳେ ଯାଏ ମୂଳସହିତ ।</span> — Provisional normalized historical reading, not an exact diplomatic transcription. AI visual reading, not human-proofread diplomatic transcription. Modern spacing supplied in normalized reading; old typography is faint. <a href="#source-dhaga-rath1893">Source</a></li></ul>
+<h3>Origins and uncertainty</h3><p>A version is visually attested in the1893 collection at the locator above. That establishes a dated witness, not first coinage. Exact old typography and spacing await human proofreading; regional use remains unverified.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha added literal rendering, explanations and original usage example; adapted entry distributed under the same licence.</p></details></article><article class="entry" id="POD-DHAGA-012">
+<div class="entry-header"><span class="number">SAYING 12 · proverbial saying</span><a class="permalink" href="#POD-DHAGA-012" aria-label="Link to saying 12">#</a></div>
+<p class="entry-title">Keeping one’s own dignity</p>
+<h2 lang="or">ଆଲୋ ସଖି, ଆପଣା ମହତ ଆପେ ରଖି</h2>
+<p class="odia" lang="or">ନିଜ ଆଚରଣରେ ନିଜ ସମ୍ମାନ ରଖିବା।</p>
+<p class="note">Explained entry; human Odia proofreading pending.</p>
+
+<div class="tags"><span class="tag">self-respect</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>Friend, preserve your own dignity yourself.</p></section><section><h3>What it means</h3><p>The friendly address makes this advice sound like one person speaking directly to another: preserve your dignity through your own conduct. It may counsel restraint when someone is tempted to join a humiliating quarrel or chase approval. It does not make a person responsible for mistreatment inflicted by others.</p></section><section><h3>When you might use it</h3><p>During an argument, a friend is about to answer an insult with another insult. Someone close to them uses the line to encourage a calm withdrawal. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>The contemporary witness begins ଆଲୋ ସଖି. The1893 scan appears to begin ଆରେ ସଖି; that difference is retained as a provisional historical reading. The wording does not establish who first used the saying or confine its advice to one gender.</p></section></div>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-bibidha">Wikimedia Incubator, Wq/or/ବିବିଧ ଢଗଢମାଳି</a> — Unnumbered bullet beginning with quoted text<p class="odia" lang="or">ଆଲୋ ସଖି, ଆପଣା ମହତ ଆପେ ରଖି</p><p class="note">Exact contemporary digital wording inspected; source revision6945232. Historical evidence, where available, is recorded separately.</p></li><li><a href="#source-dhaga-rath1893">ଢଗମାଳିକା, ପ୍ରଥମଭାଗ</a> — printed3/PDF4, second proverb under ଆ, near page bottom<p class="note">Related1893 variant, not an identical historical quotation of the contemporary string. AI visual reading. Distinguish historical ଆରେ from contemporary ଆଲୋ; exact historical spacing/punctuation not certified.</p></li></ul>
+<h3>Recorded variants</h3><ul><li><span class="odia" lang="or">ଆରେ ସଖି, ଆପଣା ମହତ ଆପେ ରଖି ।</span> — Provisional normalized historical reading, not an exact diplomatic transcription. AI visual reading. Distinguish historical ଆରେ from contemporary ଆଲୋ; exact historical spacing/punctuation not certified. <a href="#source-dhaga-rath1893">Source</a></li></ul>
+<h3>Origins and uncertainty</h3><p>A version is visually attested in the1893 collection at the locator above. That establishes a dated witness, not first coinage. Exact old typography and spacing await human proofreading; regional use remains unverified.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha added literal rendering, explanations and original usage example; adapted entry distributed under the same licence.</p></details></article><article class="entry" id="POD-DHAGA-013">
+<div class="entry-header"><span class="number">SAYING 13 · proverbial saying</span><a class="permalink" href="#POD-DHAGA-013" aria-label="Link to saying 13">#</a></div>
+<p class="entry-title">When praise becomes suspicious</p>
+<h2 lang="or">ଅତି ଭକ୍ତି ଚୋର ଲକ୍ଷଣ ।</h2>
+<p class="odia" lang="or">ଅତ୍ୟଧିକ ତୋଷାମୋଦ ପଛରେ ସ୍ୱାର୍ଥ ଲୁଚିଥାଇପାରେ।</p>
+<p class="note">Explained entry; human Odia proofreading pending.</p>
+
+<div class="tags"><span class="tag">discernment</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>Excessive devotion is a thief’s sign.</p></section><section><h3>What it means</h3><p>Exaggerated displays of devotion or deference can invite suspicion that the speaker wants something. In everyday use the warning can concern flattery, not only religious devotion. The force comes from the deliberately sharp word “thief”; the saying itself is not evidence that a particular admirer is dishonest.</p></section><section><h3>When you might use it</h3><p>A stranger showers a shopkeeper with praise and then asks to take goods away without paying. The shopkeeper recalls this saying and checks the request carefully. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>ଭକ୍ତି supplies the outward appearance of reverence, while ଚୋର supplies the hidden motive in the proverb’s contrast. Interpretation depends on the conversation; sincere devotion is not being classified as theft.</p></section></div>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-bibidha">Wikimedia Incubator, Wq/or/ବିବିଧ ଢଗଢମାଳି</a> — Unnumbered bullet beginning with quoted text<p class="odia" lang="or">ଅତି ଭକ୍ତି ଚୋର ଲକ୍ଷଣ ।</p><p class="note">Exact contemporary digital wording inspected; source revision6945232. Historical evidence, where available, is recorded separately.</p></li></ul>
+<p class="note">No additional variant is documented in this entry.</p>
+<h3>Origins and uncertainty</h3><p>No first author, date of coinage or regional distribution established. A contemporary digital witness records this wording; no oral-history interview has been conducted.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha added literal rendering, explanations and original usage example; adapted entry distributed under the same licence.</p></details></article><article class="entry" id="POD-DHAGA-014">
+<div class="entry-header"><span class="number">SAYING 14 · idiomatic saying</span><a class="permalink" href="#POD-DHAGA-014" aria-label="Link to saying 14">#</a></div>
+<p class="entry-title">Swinging without seeing</p>
+<h2 lang="or">ଅନ୍ଧାରରେ ବାଡ଼ି ବୁଲାଇବା ।</h2>
+<p class="odia" lang="or">ଯଥେଷ୍ଟ ତଥ୍ୟ ବା ଦିଗ ନ ଜାଣି ଅନୁମାନରେ କାମ କରିବା।</p>
+<p class="note">Explained entry; human Odia proofreading pending.</p>
+
+<div class="tags"><span class="tag">judgement</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>Swinging a stick in darkness.</p></section><section><h3>What it means</h3><p>A stick swung in darkness may miss its intended target because the person cannot see where to aim. The expression describes guesses or effort without adequate information. Its criticism is not that no effort is being made, but that effort has no dependable direction.</p></section><section><h3>When you might use it</h3><p>Several people keep changing settings on a faulty device without checking what has failed. One suggests identifying the problem first instead of trying changes at random. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>This is an idiomatic action phrase rather than a complete rhyming couplet. Darkness is the image for missing information; no specific origin incident has been established.</p></section></div>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-bibidha">Wikimedia Incubator, Wq/or/ବିବିଧ ଢଗଢମାଳି</a> — Unnumbered bullet beginning with quoted text<p class="odia" lang="or">ଅନ୍ଧାରରେ ବାଡ଼ି ବୁଲାଇବା ।</p><p class="note">Exact contemporary digital wording inspected; source revision6945232. Historical evidence, where available, is recorded separately.</p></li></ul>
+<p class="note">No additional variant is documented in this entry.</p>
+<h3>Origins and uncertainty</h3><p>No first author, date of coinage or regional distribution established. A contemporary digital witness records this wording; no oral-history interview has been conducted.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha added literal rendering, explanations and original usage example; adapted entry distributed under the same licence.</p></details></article><article class="entry" id="POD-DHAGA-015">
+<div class="entry-header"><span class="number">SAYING 15 · proverbial saying</span><a class="permalink" href="#POD-DHAGA-015" aria-label="Link to saying 15">#</a></div>
+<p class="entry-title">An appetite larger than the means</p>
+<h2 lang="or">ଅରଜି ନପାରେ ମୁଣ୍ଡ, ସୁଆଦ ଲୋଡୁଚି ତୁଣ୍ଡ ।</h2>
+<p class="odia" lang="or">ସାମର୍ଥ୍ୟ ବା ଉଦ୍ୟମ ସହ ମେଳ ନ ଥିବା ବିଳାସର ଆଶା କରିବା।</p>
+<p class="note">Explained entry; human Odia proofreading pending.</p>
+
+<div class="tags"><span class="tag">means-and-desire</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>The head cannot earn; the mouth wants delicacies.</p></section><section><h3>What it means</h3><p>The line sets the head’s inability to earn against the mouth’s demand for tasty food. It can rebuke expectations of luxury that do not match available means or contribution. Its tone is sharp and can be hurtful when applied to someone whose circumstances are outside their control.</p></section><section><h3>When you might use it</h3><p>A group has agreed to a modest outing, but one member insists on an expensive feast while refusing to contribute. Another uses the saying to question that mismatch. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>ମୁଣ୍ଡ and ତୁଣ୍ଡ create a compact rhyme between earning and appetite. A possible related line in the1893 scan remains unverified; its uncertain wording is not presented here as a confirmed historical match.</p></section></div>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-bibidha">Wikimedia Incubator, Wq/or/ବିବିଧ ଢଗଢମାଳି</a> — Unnumbered bullet beginning with quoted text<p class="odia" lang="or">ଅରଜି ନପାରେ ମୁଣ୍ଡ, ସୁଆଦ ଲୋଡୁଚି ତୁଣ୍ଡ ।</p><p class="note">Exact contemporary digital wording inspected; source revision6945232. Historical evidence, where available, is recorded separately.</p></li></ul>
+<p class="note">No additional variant is documented in this entry.</p>
+<h3>Origins and uncertainty</h3><p>No first author, date of coinage or regional distribution established. A contemporary digital witness records this wording; no oral-history interview has been conducted.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha added literal rendering, explanations and original usage example; adapted entry distributed under the same licence.</p></details></article><article class="entry" id="POD-DHAGA-016">
+<div class="entry-header"><span class="number">SAYING 16 · proverbial saying</span><a class="permalink" href="#POD-DHAGA-016" aria-label="Link to saying 16">#</a></div>
+<p class="entry-title">When means are short</p>
+<h2 lang="or">ଅଳପ ଧନ ବିକଳ ମନ</h2>
+<p class="odia" lang="or">ଅଭାବରେ ଆବଶ୍ୟକତା ପୂରଣ ନ ହେଲେ ମନ ବ୍ୟାକୁଳ ହୁଏ।</p>
+<p class="note">Explained entry; human Odia proofreading pending.</p>
+
+<div class="tags"><span class="tag">money-and-worry</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>Little money, an anxious mind.</p></section><section><h3>What it means</h3><p>The line connects limited means with the distress of being unable to meet needs. Its compact rhyme can express sympathy for someone trying to make a small sum cover many demands. It need not be read as an accusation of greed or a judgement about character.</p></section><section><h3>When you might use it</h3><p>A family is weighing school expenses against a repair bill; someone uses the line to acknowledge the pressure. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>The source adds an explanation about being unable to obtain necessities. That explanatory parenthesis is kept outside the saying itself.</p></section></div>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-bibidha">Wikimedia Incubator, Wq/or/ବିବିଧ ଢଗଢମାଳି</a> — bullet beginning ଅଳପ ଧନ; saying before explanatory parenthesis<p class="odia" lang="or">ଅଳପ ଧନ ବିକଳ ମନ</p><p class="note">Exact saying wording inspected in revision6945232; surrounding explanatory prose is not part of the headword. No oral field collection.</p></li></ul>
+<p class="note">No additional variant is documented in this entry.</p>
+<h3>Origins and uncertainty</h3><p>No first author, date of coinage or regional distribution established. This contemporary digital witness records the wording; no historical attestation is claimed for this entry.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha added literal rendering, explanations and labelled original examples; adapted entry distributed under the same licence. Openly licensed does not mean public domain.</p></details></article><article class="entry" id="POD-DHAGA-017">
+<div class="entry-header"><span class="number">SAYING 17 · proverbial saying</span><a class="permalink" href="#POD-DHAGA-017" aria-label="Link to saying 17">#</a></div>
+<p class="entry-title">Spending tomorrow’s means today</p>
+<h2 lang="or">ଆଜି କୁରୁ କୁରୁ ହସୁ, କାଲି ଲଙ୍ଗଳ କାହିଁରେ ଚଷୁ ?</h2>
+<p class="odia" lang="or">ଆଜିର ଆନନ୍ଦ ପାଇଁ କାଲିର ଜୀବିକାର ସାଧନ ନଷ୍ଟ କରିବା ଉଚିତ ନୁହେଁ।</p>
+<p class="note">Explained entry; human Odia proofreading pending.</p>
+
+<div class="tags"><span class="tag">short-term-choices</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>Today you laugh merrily; tomorrow, what will you plough with?</p></section><section><h3>What it means</h3><p>The teasing question asks what will remain after today’s enjoyment. It warns against consuming the very means needed for tomorrow’s work. The pleasure is immediate, while the cost becomes visible only when work must resume.</p></section><section><h3>When you might use it</h3><p>Someone proposes selling essential work equipment to fund a lavish celebration; a relative answers with this question. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>The digital witness supplies a story of burning a plough as feast fuel. Treat that as its illustration of the saying, not a verified event or origin. Its citation currently displays a script error.</p></section></div>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-bibidha">Wikimedia Incubator, Wq/or/ବିବିଧ ଢଗଢମାଳି</a> — bullet beginning ଆଜି କୁରୁ କୁରୁ; question before parenthesis<p class="odia" lang="or">ଆଜି କୁରୁ କୁରୁ ହସୁ, କାଲି ଲଙ୍ଗଳ କାହିଁରେ ଚଷୁ ?</p><p class="note">Exact saying wording inspected in revision6945232; surrounding explanatory prose is not part of the headword. No oral field collection.</p></li></ul>
+<p class="note">No additional variant is documented in this entry.</p>
+<h3>Origins and uncertainty</h3><p>No first author, date of coinage or regional distribution established. This contemporary digital witness records the wording; no historical attestation is claimed for this entry.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha added literal rendering, explanations and labelled original examples; adapted entry distributed under the same licence. Openly licensed does not mean public domain.</p></details></article><article class="entry" id="POD-DHAGA-018">
+<div class="entry-header"><span class="number">SAYING 18 · proverbial saying</span><a class="permalink" href="#POD-DHAGA-018" aria-label="Link to saying 18">#</a></div>
+<p class="entry-title">Responding to the occasion</p>
+<h2 lang="or">ଆରେ ଏ, ଯେତେବେଳେ ଯେ</h2>
+<p class="odia" lang="or">ସମୟ ଓ ପରିସ୍ଥିତି ଦେଖି ଉଚିତ କାମ କରିବା।</p>
+<p class="note">Explained entry; human Odia proofreading pending.</p>
+
+<div class="tags"><span class="tag">judgement</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>Hey, you—whatever the occasion calls for.</p></section><section><h3>What it means</h3><p>This compressed expression advises a fitting response to the circumstances. It may interrupt someone who insists on handling every situation in the same way. The point is practical judgement about this occasion, rather than a rule that commitments can always be discarded.</p></section><section><h3>When you might use it</h3><p>A host changes the outdoor arrangements when rain begins instead of insisting on the original plan. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>The source itself supplies an English gloss about appropriate action. The elliptical Odia is retained; the English rendering makes the implied advice explicit.</p></section></div>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-bibidha">Wikimedia Incubator, Wq/or/ବିବିଧ ଢଗଢମାଳି</a> — bullet beginning ଆରେ ଏ; wording before dash and English gloss<p class="odia" lang="or">ଆରେ ଏ, ଯେତେବେଳେ ଯେ</p><p class="note">Exact saying wording inspected in revision6945232; surrounding explanatory prose is not part of the headword. No oral field collection.</p></li></ul>
+<p class="note">No additional variant is documented in this entry.</p>
+<h3>Origins and uncertainty</h3><p>No first author, date of coinage or regional distribution established. This contemporary digital witness records the wording; no historical attestation is claimed for this entry.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha added literal rendering, explanations and labelled original examples; adapted entry distributed under the same licence. Openly licensed does not mean public domain.</p></details></article><article class="entry" id="POD-DHAGA-019">
+<div class="entry-header"><span class="number">SAYING 19 · proverbial saying</span><a class="permalink" href="#POD-DHAGA-019" aria-label="Link to saying 19">#</a></div>
+<p class="entry-title">A welcome that sends you away</p>
+<h2 lang="or">ଆସିଲ ବନ୍ଧୁ ଭଲ କଲ, ବସିବାକୁ ନାହିଁ ଠା, ଯେଉଁ ବାଟେ ବାଟେ ଆସିଲ ବନ୍ଧୁ ସେଇ ବାଟେ ବାଟେ ଯା ।</h2>
+<p class="odia" lang="or">ମୁହଁରେ ସ୍ୱାଗତ କରି କାମରେ ଅନାଦର କରିବା।</p>
+<p class="note">Explained entry; human Odia proofreading pending.</p>
+
+<div class="tags"><span class="tag">empty-courtesy</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>Good of you to come, friend; there is nowhere to sit. Go back by the very way you came.</p></section><section><h3>What it means</h3><p>The opening sounds hospitable, but the ending cancels the welcome. The humour lies in that sudden reversal: someone offers warm words while making it plain that the visitor is unwanted. Used pointedly, it exposes courtesy that provides no actual welcome.</p></section><section><h3>When you might use it</h3><p>A club warmly invites suggestions but immediately dismisses every visitor’s proposal; an observer recalls this saying. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>The repeated address to a friend sharpens the irony. The example extends that verbal pattern to another setting; no historical hospitality custom is being asserted.</p></section></div>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-bibidha">Wikimedia Incubator, Wq/or/ବିବିଧ ଢଗଢମାଳି</a> — unnumbered bullet beginning ଆସିଲ ବନ୍ଧୁ<p class="odia" lang="or">ଆସିଲ ବନ୍ଧୁ ଭଲ କଲ, ବସିବାକୁ ନାହିଁ ଠା, ଯେଉଁ ବାଟେ ବାଟେ ଆସିଲ ବନ୍ଧୁ ସେଇ ବାଟେ ବାଟେ ଯା ।</p><p class="note">Exact saying wording inspected in revision6945232; surrounding explanatory prose is not part of the headword. No oral field collection.</p></li></ul>
+<p class="note">No additional variant is documented in this entry.</p>
+<h3>Origins and uncertainty</h3><p>No first author, date of coinage or regional distribution established. This contemporary digital witness records the wording; no historical attestation is claimed for this entry.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha added literal rendering, explanations and labelled original examples; adapted entry distributed under the same licence. Openly licensed does not mean public domain.</p></details></article><article class="entry" id="POD-DHAGA-020">
+<div class="entry-header"><span class="number">SAYING 20 · proverbial saying</span><a class="permalink" href="#POD-DHAGA-020" aria-label="Link to saying 20">#</a></div>
+<p class="entry-title">Value put to the test</p>
+<h2 lang="or">କାଚ, କାଚ, ମଣି, ମଣି, କିଣା ବିକା ବେଳେ ଜଣା ଜଣି</h2>
+<p class="odia" lang="or">ପରୀକ୍ଷା ବେଳେ ଅସଲ ମୂଲ୍ୟ ଜଣାପଡ଼େ।</p>
+<p class="note">Explained entry; human Odia proofreading pending.</p>
+
+<div class="tags"><span class="tag">proof-and-value</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>Glass is glass, a gem is a gem; buying and selling reveal which is which.</p></section><section><h3>What it means</h3><p>Resemblance and confident claims are not enough to establish value. The saying imagines a transaction as the moment when differences become consequential. It can be used when an attractive promise finally has to face a practical test.</p></section><section><h3>When you might use it</h3><p>Two suppliers make equally impressive promises; a buyer asks to see their finished work before deciding. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>The image comes from comparing valuable objects with lookalikes. It is a metaphor about testing claims, not a guarantee that markets always recognise quality.</p></section></div>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-bibidha">Wikimedia Incubator, Wq/or/ବିବିଧ ଢଗଢମାଳି</a> — unnumbered bullet beginning କାଚ, କାଚ<p class="odia" lang="or">କାଚ, କାଚ, ମଣି, ମଣି, କିଣା ବିକା ବେଳେ ଜଣା ଜଣି</p><p class="note">Exact saying wording inspected in revision6945232; surrounding explanatory prose is not part of the headword. No oral field collection.</p></li></ul>
+<p class="note">No additional variant is documented in this entry.</p>
+<h3>Origins and uncertainty</h3><p>No first author, date of coinage or regional distribution established. This contemporary digital witness records the wording; no historical attestation is claimed for this entry.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha added literal rendering, explanations and labelled original examples; adapted entry distributed under the same licence. Openly licensed does not mean public domain.</p></details></article><article class="entry" id="POD-DHAGA-021">
+<div class="entry-header"><span class="number">SAYING 21 · idiomatic saying</span><a class="permalink" href="#POD-DHAGA-021" aria-label="Link to saying 21">#</a></div>
+<p class="entry-title">Making a small irritation worse</p>
+<h2 lang="or">ଖସ କୁଣ୍ଡାଇ ଘା କରିବା</h2>
+<p class="odia" lang="or">ଛୋଟ ଅସୁବିଧାକୁ ଅଯଥା ଖୋଚି ବଡ଼ ସମସ୍ୟା କରିବା।</p>
+<p class="note">Explained entry; human Odia proofreading pending.</p>
+
+<div class="tags"><span class="tag">escalation</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>Scratch an itch into a wound.</p></section><section><h3>What it means</h3><p>An action that brings brief relief can deepen the original trouble. In conversation, the expression can describe reopening a minor grievance until it becomes a serious quarrel. The rebuke is directed at aggravating the problem rather than resolving it.</p></section><section><h3>When you might use it</h3><p>A small misunderstanding has been settled, but repeated sarcastic reminders start the argument again. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>The bodily image supplies a social metaphor. This entry explains that metaphor and offers no medical advice.</p></section></div>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-bibidha">Wikimedia Incubator, Wq/or/ବିବିଧ ଢଗଢମାଳି</a> — unnumbered bullet beginning ଖସ କୁଣ୍ଡାଇ<p class="odia" lang="or">ଖସ କୁଣ୍ଡାଇ ଘା କରିବା</p><p class="note">Exact saying wording inspected in revision6945232; surrounding explanatory prose is not part of the headword. No oral field collection.</p></li></ul>
+<p class="note">No additional variant is documented in this entry.</p>
+<h3>Origins and uncertainty</h3><p>No first author, date of coinage or regional distribution established. This contemporary digital witness records the wording; no historical attestation is claimed for this entry.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha added literal rendering, explanations and labelled original examples; adapted entry distributed under the same licence. Openly licensed does not mean public domain.</p></details></article><article class="entry" id="POD-DHAGA-022">
+<div class="entry-header"><span class="number">SAYING 22 · proverbial saying</span><a class="permalink" href="#POD-DHAGA-022" aria-label="Link to saying 22">#</a></div>
+<p class="entry-title">Getting ahead of the occasion</p>
+<h2 lang="or">ନଇ ନ ଦେଖୁଣୁ ନଙ୍ଗଳା</h2>
+<p class="odia" lang="or">ଆବଶ୍ୟକତା ନିଶ୍ଚିତ ହେବା ଆଗରୁ ଅତି ତତ୍ପର ହେବା।</p>
+<p class="note">Explained entry; human Odia proofreading pending.</p>
+
+<div class="tags"><span class="tag">premature-action</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>Undressed before even seeing the river.</p></section><section><h3>What it means</h3><p>The image mocks preparation that runs ahead of any confirmed need. Someone has acted as though the next step were certain before checking whether the situation calls for it. The saying is sharper than a general reminder to plan carefully.</p></section><section><h3>When you might use it</h3><p>Before a trip is agreed, a participant announces the departure date and begins making arrangements for everyone. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>The river and undressing belong to the saying’s literal scene. They do not establish a particular place, journey or bathing custom as its origin.</p></section></div>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-bibidha">Wikimedia Incubator, Wq/or/ବିବିଧ ଢଗଢମାଳି</a> — unnumbered bullet beginning ନଇ ନ ଦେଖୁଣୁ<p class="odia" lang="or">ନଇ ନ ଦେଖୁଣୁ ନଙ୍ଗଳା</p><p class="note">Exact saying wording inspected in revision6945232; surrounding explanatory prose is not part of the headword. No oral field collection.</p></li></ul>
+<p class="note">No additional variant is documented in this entry.</p>
+<h3>Origins and uncertainty</h3><p>No first author, date of coinage or regional distribution established. This contemporary digital witness records the wording; no historical attestation is claimed for this entry.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha added literal rendering, explanations and labelled original examples; adapted entry distributed under the same licence. Openly licensed does not mean public domain.</p></details></article><article class="entry" id="POD-DHAGA-023">
+<div class="entry-header"><span class="number">SAYING 23 · proverbial saying</span><a class="permalink" href="#POD-DHAGA-023" aria-label="Link to saying 23">#</a></div>
+<p class="entry-title">Plans are still untested</p>
+<h2 lang="or">ଆଗ ପଞ୍ଚା, ସବୁ କଞ୍ଚା!</h2>
+<p class="odia" lang="or">ଆଗରୁ ଭାବିଥିବା ଯୋଜନା ଠିକଣା ବେଳେ ବଦଳିଯାଇପାରେ।</p>
+<p class="note">Explained entry; human Odia proofreading pending.</p>
+
+<div class="tags"><span class="tag">planning</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>Planned beforehand, yet all still raw!</p></section><section><h3>What it means</h3><p>An advance plan may look settled until circumstances put it to the test. The source explains the line as a warning that earlier arrangements can fall apart at the appointed time. It tempers certainty without making preparation itself pointless.</p></section><section><h3>When you might use it</h3><p>Friends confidently divide festival duties, then discover on the day that several people cannot come. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>The digital list numbers the saying12 and its explanation13. Those are one saying with its gloss, not two entries. The raw or unripe image marks something not yet dependable.</p></section></div>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-lakshana">Wikimedia Incubator, Wq/or/ଢଗଢମାଳି/ଲକ୍ଷଣାର୍ଥ</a> — numbered item12; associated explanation numbered13<p class="odia" lang="or">ଆଗ ପଞ୍ଚା, ସବୁ କଞ୍ଚା!</p><p class="note">Exact saying wording inspected in revision4144125; surrounding explanatory prose is not part of the headword. No oral field collection.</p></li></ul>
+<p class="note">No additional variant is documented in this entry.</p>
+<h3>Origins and uncertainty</h3><p>No first author, date of coinage or regional distribution established. This contemporary digital witness records the wording; no historical attestation is claimed for this entry.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha added literal rendering, explanations and labelled original examples; adapted entry distributed under the same licence. Openly licensed does not mean public domain.</p></details></article><article class="entry" id="POD-DHAGA-024">
+<div class="entry-header"><span class="number">SAYING 24 · proverbial saying</span><a class="permalink" href="#POD-DHAGA-024" aria-label="Link to saying 24">#</a></div>
+<p class="entry-title">Giving beyond one’s means</p>
+<h2 lang="or">ମୋତେ ନ ଅଣ୍ଟେ ମୁଁ ନେଇ କରି ସାଇରେ ବାଣ୍ଟେ</h2>
+<p class="odia" lang="or">ନିଜ ପାଇଁ ନିଅଣ୍ଟ ଥାଇ ଅନ୍ୟଙ୍କୁ ବାଣ୍ଟିବାର ବଡ଼ ପ୍ରତିଶ୍ରୁତି ଦେବା।</p>
+<p class="note">Explained entry; human Odia proofreading pending.</p>
+
+<div class="tags"><span class="tag">means-and-promises</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>It is not enough for me, yet I take it and distribute it around the neighbourhood.</p></section><section><h3>What it means</h3><p>The speaker describes a mismatch between available means and a display of generosity. It can question a promise to provide for everyone when the giver has not secured enough to do so. Its irony concerns overextension; it need not belittle sharing during hardship.</p></section><section><h3>When you might use it</h3><p>An organiser promises supplies to several groups before checking whether the stock covers even the first group. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>The neighbourhood gives the boast an audience. This is an editorial reading of the recorded wording; the witness supplies no separate explanation for this item.</p></section></div>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-lakshana">Wikimedia Incubator, Wq/or/ଢଗଢମାଳି/ଲକ୍ଷଣାର୍ଥ</a> — numbered item17<p class="odia" lang="or">ମୋତେ ନ ଅଣ୍ଟେ ମୁଁ ନେଇ କରି ସାଇରେ ବାଣ୍ଟେ</p><p class="note">Exact saying wording inspected in revision4144125; surrounding explanatory prose is not part of the headword. No oral field collection.</p></li></ul>
+<p class="note">No additional variant is documented in this entry.</p>
+<h3>Origins and uncertainty</h3><p>No first author, date of coinage or regional distribution established. This contemporary digital witness records the wording; no historical attestation is claimed for this entry.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha added literal rendering, explanations and labelled original examples; adapted entry distributed under the same licence. Openly licensed does not mean public domain.</p></details></article><article class="entry" id="POD-DHAGA-025">
+<div class="entry-header"><span class="number">SAYING 25 · idiomatic saying</span><a class="permalink" href="#POD-DHAGA-025" aria-label="Link to saying 25">#</a></div>
+<p class="entry-title">Nodding without understanding</p>
+<h2 lang="or">ଏଣ୍ଡୁଅପରି ମୁଣ୍ଡ ଟୁଙ୍ଗାରିବା</h2>
+<p class="odia" lang="or">କଥା ବୁଝିବା ନ ବୁଝିବା ନିର୍ବିଶେଷରେ ଖାଲି ମୁଣ୍ଡ ହଲାଇ ସମ୍ମତି ଦେବା।</p>
+<p class="note">Explained entry; human Odia proofreading pending.</p>
+
+<div class="tags"><span class="tag">empty-agreement</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>Nod the head like a lizard.</p></section><section><h3>What it means</h3><p>A person keeps signalling agreement whether or not they understand what is being said. The source’s gloss makes the gap between the nod and comprehension explicit. The expression can tease empty assent or call attention to it when a real decision requires understanding.</p></section><section><h3>When you might use it</h3><p>After a complicated explanation, a listener nods along but cannot say what they have agreed to do. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>The animal comparison belongs to the figurative expression. The entry makes no zoological claim about why a lizard moves its head.</p></section></div>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-lakshana">Wikimedia Incubator, Wq/or/ଢଗଢମାଳି/ଲକ୍ଷଣାର୍ଥ</a> — numbered item21 and its gloss<p class="odia" lang="or">ଏଣ୍ଡୁଅପରି ମୁଣ୍ଡ ଟୁଙ୍ଗାରିବା</p><p class="note">Exact saying wording inspected in revision4144125; surrounding explanatory prose is not part of the headword. No oral field collection.</p></li></ul>
+<p class="note">No additional variant is documented in this entry.</p>
+<h3>Origins and uncertainty</h3><p>No first author, date of coinage or regional distribution established. This contemporary digital witness records the wording; no historical attestation is claimed for this entry.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha added literal rendering, explanations and labelled original examples; adapted entry distributed under the same licence. Openly licensed does not mean public domain.</p></details></article><article class="entry" id="POD-DHAGA-026">
+<div class="entry-header"><span class="number">SAYING 26 · idiomatic saying</span><a class="permalink" href="#POD-DHAGA-026" aria-label="Link to saying 26">#</a></div>
+<p class="entry-title">Making oneself welcome on every side</p>
+<h2 lang="or">ଏ ଘର ମାଉସୀ ସେ ଘର ପିଉସୀ</h2>
+<p class="odia" lang="or">ଦୁଇ ପକ୍ଷରେ ଭଲ ହେବାକୁ ଯାଇ ଏପଟ କଥା ସେପଟ କରି ମନୋମାଳିନ୍ୟ ସୃଷ୍ଟି କରିବା।</p>
+<p class="note">Explained entry; human Odia proofreading pending.</p>
+
+<div class="tags"><span class="tag">double-dealing</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>A maternal aunt in this house, a paternal aunt in that one.</p></section><section><h3>What it means</h3><p>The expression portrays someone claiming closeness everywhere while carrying damaging talk between people. The source gloss stresses pleasing both sides and creating discord. Its target is manipulative familiarity, not genuine friendship across households.</p></section><section><h3>When you might use it</h3><p>A neighbour tells each household that they alone have her sympathy, while repeating complaints from the other. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>ମାଉସୀ and ପିଉସୀ are distinct kinship terms, preserved in the literal rendering. The figurative criticism does not describe a trait of actual aunts or of women generally.</p></section></div>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-lakshana">Wikimedia Incubator, Wq/or/ଢଗଢମାଳି/ଲକ୍ଷଣାର୍ଥ</a> — numbered item25 and its gloss<p class="odia" lang="or">ଏ ଘର ମାଉସୀ ସେ ଘର ପିଉସୀ</p><p class="note">Exact saying wording inspected in revision4144125; surrounding explanatory prose is not part of the headword. No oral field collection.</p></li></ul>
+<p class="note">No additional variant is documented in this entry.</p>
+<h3>Origins and uncertainty</h3><p>No first author, date of coinage or regional distribution established. This contemporary digital witness records the wording; no historical attestation is claimed for this entry.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha added literal rendering, explanations and labelled original examples; adapted entry distributed under the same licence. Openly licensed does not mean public domain.</p></details></article><article class="entry" id="POD-DHAGA-027">
+<div class="entry-header"><span class="number">SAYING 27 · idiomatic saying</span><a class="permalink" href="#POD-DHAGA-027" aria-label="Link to saying 27">#</a></div>
+<p class="entry-title">A difficulty too awkward to disclose</p>
+<h2 lang="or">ଅଜାଗା ଘା ଦେଖି ହୁଏ ନାହିଁ କି ଦେଖାଇ ହୁଏ ନାହିଁ ।</h2>
+<p class="odia" lang="or">ଏପରି ଅସୁବିଧାରେ ପଡ଼ିବା, ଯାହା ନିଜେ ସମ୍ଭାଳିବା କଷ୍ଟ ଓ ଅନ୍ୟକୁ କହିବାକୁ ସଙ୍କୋଚ ଲାଗେ।</p>
+<p class="note">Explained entry; human Odia proofreading pending.</p>
+
+<div class="tags"><span class="tag">awkward-predicament</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>A sore in an awkward place can neither be seen nor shown.</p></section><section><h3>What it means</h3><p>The image conveys a predicament that is hard to inspect privately and embarrassing to disclose. In conversation, it can express the burden of a trouble someone feels unable to explain openly. Its force lies in that double bind, rather than in a recommendation to keep suffering secret.</p></section><section><h3>When you might use it</h3><p>A person asked to mediate a dispute between close relatives feels unable to describe either side’s private complaints. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>The bodily image is retained in the literal rendering. The figurative explanation is an editorial reading; no medical claim or origin incident is established.</p></section></div>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-bibidha">Wikimedia Incubator, Wq/or/ବିବିଧ ଢଗଢମାଳି</a> — bullet beginning ଅଜାଗା ଘା<p class="odia" lang="or">ଅଜାଗା ଘା ଦେଖି ହୁଏ ନାହିଁ କି ଦେଖାଇ ହୁଏ ନାହିଁ ।</p><p class="note">Exact contemporary wording and line breaks inspected in revision6945232. Source introductory gloss, where present, is excluded from the saying.</p></li></ul>
+<p class="note">No additional variant is documented in this entry.</p>
+<h3>Origins and uncertainty</h3><p>No first author, date of coinage or regional distribution established. This contemporary digital witness records the wording; no historical attestation is claimed for this entry.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha added literal rendering, explanations and labelled original examples; adapted entry distributed under the same licence. Openly licensed does not mean public domain.</p></details></article><article class="entry" id="POD-DHAGA-028">
+<div class="entry-header"><span class="number">SAYING 28 · proverbial saying</span><a class="permalink" href="#POD-DHAGA-028" aria-label="Link to saying 28">#</a></div>
+<p class="entry-title">A quarrel staged for others</p>
+<h2 lang="or">ଅଙ୍ଗୁଳି ସନ୍ଧିରେ ମଳି
+ଭିତରେ ଭିତରେ ସଲା ସୁତୁରାଲୋ
+ଉପରେ ଉପରେ କଳି ।</h2>
+<p class="odia" lang="or">ଭିତରେ ମିଳାମିଶା ରଖି ବାହାରେ ଲୋକଦେଖାଣିଆ କଳି କରିବା।</p>
+<p class="note">Explained entry; human Odia proofreading pending.</p>
+
+<div class="tags"><span class="tag">hidden-agreement</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>Dirt between the fingers; agreement behind the scenes, quarrelling on the surface.</p></section><section><h3>What it means</h3><p>Two sides appear to fight while privately cooperating. The repeated contrast between inside and outside exposes a performance meant to mislead an audience. The saying accuses the quarrel of being staged; it does not merely describe people who disagree but remain friendly.</p></section><section><h3>When you might use it</h3><p>Two organisers loudly blame each other in public, although they have already agreed privately to divide the benefit. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>The three source lines are retained. The address particle ଲୋ adds a conversational voice; the English rendering conveys the contrast without inventing a named listener.</p></section></div>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-bibidha">Wikimedia Incubator, Wq/or/ବିବିଧ ଢଗଢମାଳି</a> — three-line bullet beginning ଅଙ୍ଗୁଳି ସନ୍ଧିରେ<p class="odia" lang="or">ଅଙ୍ଗୁଳି ସନ୍ଧିରେ ମଳି
+ଭିତରେ ଭିତରେ ସଲା ସୁତୁରାଲୋ
+ଉପରେ ଉପରେ କଳି ।</p><p class="note">Exact contemporary wording and line breaks inspected in revision6945232. Source introductory gloss, where present, is excluded from the saying.</p></li></ul>
+<p class="note">No additional variant is documented in this entry.</p>
+<h3>Origins and uncertainty</h3><p>No first author, date of coinage or regional distribution established. This contemporary digital witness records the wording; no historical attestation is claimed for this entry.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha added literal rendering, explanations and labelled original examples; adapted entry distributed under the same licence. Openly licensed does not mean public domain.</p></details></article><article class="entry" id="POD-DHAGA-029">
+<div class="entry-header"><span class="number">SAYING 29 · idiomatic saying</span><a class="permalink" href="#POD-DHAGA-029" aria-label="Link to saying 29">#</a></div>
+<p class="entry-title">Saving a reply for later</p>
+<h2 lang="or">ଏ କଥା ରହିଲା ମନେ, ବେଳ କାଳ ଦେଖି କହିବି ଦିନେ</h2>
+<p class="odia" lang="or">ଏବେ ଚୁପ୍ ରହିଲେ ମଧ୍ୟ କଥାଟି ମନେ ରଖି ସୁଯୋଗ ବେଳେ ଉତ୍ତର ଦେବା।</p>
+<p class="note">Explained entry; human Odia proofreading pending.</p>
+
+<div class="tags"><span class="tag">deferred-reply</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>I will keep this in mind; one day I will speak when the time is right.</p></section><section><h3>What it means</h3><p>The speaker declines an immediate reply while making clear that the matter is not forgotten. Depending on the situation, the line can sound restrained, pointed or quietly threatening. It preserves a future opportunity to answer rather than offering reconciliation now.</p></section><section><h3>When you might use it</h3><p>Someone is dismissed during a meeting and replies that they will return to the matter when the facts can be discussed. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>The time and occasion remain unspecified in the wording. This entry explains its possible conversational tone without assigning it a historical dispute.</p></section></div>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-bibidha">Wikimedia Incubator, Wq/or/ବିବିଧ ଢଗଢମାଳି</a> — bullet beginning ଏ କଥା ରହିଲା ମନେ<p class="odia" lang="or">ଏ କଥା ରହିଲା ମନେ, ବେଳ କାଳ ଦେଖି କହିବି ଦିନେ</p><p class="note">Exact contemporary wording and line breaks inspected in revision6945232. Source introductory gloss, where present, is excluded from the saying.</p></li></ul>
+<p class="note">No additional variant is documented in this entry.</p>
+<h3>Origins and uncertainty</h3><p>No first author, date of coinage or regional distribution established. This contemporary digital witness records the wording; no historical attestation is claimed for this entry.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha added literal rendering, explanations and labelled original examples; adapted entry distributed under the same licence. Openly licensed does not mean public domain.</p></details></article><article class="entry" id="POD-DHAGA-030">
+<div class="entry-header"><span class="number">SAYING 30 · idiomatic saying</span><a class="permalink" href="#POD-DHAGA-030" aria-label="Link to saying 30">#</a></div>
+<p class="entry-title">Who is there to tell?</p>
+<h2 lang="or">କାହାକୁ କହିବା, କପାଳରେ ସିନା କର ମାରିବା</h2>
+<p class="odia" lang="or">ଅଭିଯୋଗ ଶୁଣିବାକୁ କେହି ନାହାନ୍ତି ବୋଲି ମନେ କରି ବିରକ୍ତି ପ୍ରକାଶ କରିବା।</p>
+<p class="note">Explained entry; human Odia proofreading pending.</p>
+
+<div class="tags"><span class="tag">exasperation</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>Whom can one tell? One can only strike a hand against one’s forehead.</p></section><section><h3>What it means</h3><p>This is a gesture of exasperation put into words. The speaker feels that complaining will find no useful listener, so frustration turns into a weary reaction. It may be rueful or comic; it expresses a feeling of helplessness without proving that help is unavailable.</p></section><section><h3>When you might use it</h3><p>After correcting the same simple mistake several times, a person says this with a tired laugh. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>କର means hand here. The literal gesture helps convey the expression; no physical action is prescribed by the explanation.</p></section></div>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-bibidha">Wikimedia Incubator, Wq/or/ବିବିଧ ଢଗଢମାଳି</a> — bullet beginning କାହାକୁ କହିବା<p class="odia" lang="or">କାହାକୁ କହିବା, କପାଳରେ ସିନା କର ମାରିବା</p><p class="note">Exact contemporary wording and line breaks inspected in revision6945232. Source introductory gloss, where present, is excluded from the saying.</p></li></ul>
+<p class="note">No additional variant is documented in this entry.</p>
+<h3>Origins and uncertainty</h3><p>No first author, date of coinage or regional distribution established. This contemporary digital witness records the wording; no historical attestation is claimed for this entry.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha added literal rendering, explanations and labelled original examples; adapted entry distributed under the same licence. Openly licensed does not mean public domain.</p></details></article><article class="entry" id="POD-DHAGA-031">
+<div class="entry-header"><span class="number">SAYING 31 · idiomatic saying</span><a class="permalink" href="#POD-DHAGA-031" aria-label="Link to saying 31">#</a></div>
+<p class="entry-title">Refusing to be polished into something else</p>
+<h2 lang="or">ମୋତେ ଯେତେ ମାଠିବୁ ମାଠ ମୁହିଁ ସେଇ ଦରପଡ଼ା କାଠ</h2>
+<p class="odia" lang="or">ଯେତେ ବୁଝାଇଲେ ବା ବଦଳାଇବାକୁ ଚେଷ୍ଟା କଲେ ମଧ୍ୟ ନିଜେ ସେପରି ରହିବି ବୋଲି କହିବା।</p>
+<p class="note">Explained entry; human Odia proofreading pending.</p>
+
+<div class="tags"><span class="tag">resisting-change</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>Polish me as much as you like; I remain that half-burnt wood.</p></section><section><h3>What it means</h3><p>The speaker declares that repeated efforts to change or improve them will not work. The blunt material image can make the refusal comic, defiant or self-deprecating. It voices a stance in a conversation, not a truth that people cannot learn or change.</p></section><section><h3>When you might use it</h3><p>After repeated advice to adopt a more fashionable manner, someone jokingly insists that they will remain as they are. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>The wood image and the first-person voice are preserved. This is distinct from enduring pressure: here the emphasis falls on resisting another person’s attempts to remake the speaker. The source spells the word ଦରପଡ଼ା. “Half-burnt” is an editorial interpretation of that spelling, not a verified correction to the original; lexical and human review remain pending.</p></section></div>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-bibidha">Wikimedia Incubator, Wq/or/ବିବିଧ ଢଗଢମାଳି</a> — later bullet beginning ମୋତେ ଯେତେ ମାଠିବୁ<p class="odia" lang="or">ମୋତେ ଯେତେ ମାଠିବୁ ମାଠ ମୁହିଁ ସେଇ ଦରପଡ଼ା କାଠ</p><p class="note">Exact contemporary wording and line breaks inspected in revision6945232. Source introductory gloss, where present, is excluded from the saying.</p></li></ul>
+<p class="note">No additional variant is documented in this entry.</p>
+<h3>Origins and uncertainty</h3><p>No first author, date of coinage or regional distribution established. This contemporary digital witness records the wording; no historical attestation is claimed for this entry.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha added literal rendering, explanations and labelled original examples; adapted entry distributed under the same licence. Openly licensed does not mean public domain.</p></details></article><article class="entry" id="POD-DHAGA-032">
+<div class="entry-header"><span class="number">SAYING 32 · idiomatic saying</span><a class="permalink" href="#POD-DHAGA-032" aria-label="Link to saying 32">#</a></div>
+<p class="entry-title">You can shake; I need not move</p>
+<h2 lang="or">ତୁ କେତେ ହଲଉଚୁ ହଲା...
+ମୁଁ କିଛି ନହଲିଲେ ଗଲା...!!!</h2>
+<p class="odia" lang="or">ଅନ୍ୟେ ଯେତେ ଚାପ ଦେଲେ ମଧ୍ୟ ନିଜ ସ୍ଥିରତା ରଖିବା।</p>
+<p class="note">Explained entry; human Odia proofreading pending.</p>
+
+<div class="tags"><span class="tag">steadfastness</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>Shake as much as you like; it is enough if I do not budge.</p></section><section><h3>What it means</h3><p>The speaker answers pressure with a challenge. Another person may keep trying to unsettle them, but the speaker claims control over their own response. The tone can convey resolve or stubbornness; its value depends on what they are refusing to yield about.</p></section><section><h3>When you might use it</h3><p>Friends tease someone to abandon a carefully considered decision; the reply insists that the teasing will not change it. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>The source introduces these lines as a response by someone determined. That introductory gloss is excluded from the headword. The digital ellipses and exclamation marks are retained, not claimed as ancient punctuation.</p></section></div>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-bibidha">Wikimedia Incubator, Wq/or/ବିବିଧ ଢଗଢମାଳି</a> — later two-line saying under introductory gloss ଯଦି କେହି ଦୃଢ଼ମନା ହୋଇ ରହେ<p class="odia" lang="or">ତୁ କେତେ ହଲଉଚୁ ହଲା...
+ମୁଁ କିଛି ନହଲିଲେ ଗଲା...!!!</p><p class="note">Exact contemporary wording and line breaks inspected in revision6945232. Source introductory gloss, where present, is excluded from the saying.</p></li></ul>
+<p class="note">No additional variant is documented in this entry.</p>
+<h3>Origins and uncertainty</h3><p>No first author, date of coinage or regional distribution established. This contemporary digital witness records the wording; no historical attestation is claimed for this entry.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha added literal rendering, explanations and labelled original examples; adapted entry distributed under the same licence. Openly licensed does not mean public domain.</p></details></article><article class="entry" id="POD-DHAGA-033">
+<div class="entry-header"><span class="number">SAYING 33 · idiomatic saying</span><a class="permalink" href="#POD-DHAGA-033" aria-label="Link to saying 33">#</a></div>
+<p class="entry-title">No one even asked me to sit</p>
+<h2 lang="or">ମାଲୋ ମଲି,
+ଗାଁ ଚାରିଆଡ଼େ ବୁଲି ଆଇଲି...
+କେହି ନକହିଲେ ବସ ବୋଲି...!!!</h2>
+<p class="odia" lang="or">ସବୁଆଡ଼େ ଯାଇ ମଧ୍ୟ ସାମାନ୍ୟ ଆଦର ନ ମିଳିବାର ଦୁଃଖ ପ୍ରକାଶ କରିବା।</p>
+<p class="note">Explained entry; human Odia proofreading pending.</p>
+
+<div class="tags"><span class="tag">feeling-unwelcome</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>Oh mother, I am undone! I went all around the village; no one said, “Sit down.”</p></section><section><h3>What it means</h3><p>The complaint turns a small invitation into the measure of being welcomed. After going everywhere, the speaker has not received even that acknowledgement. The exaggerated opening can make the hurt comic, while the last line reveals the modest courtesy that was missing.</p></section><section><h3>When you might use it</h3><p>A visitor calls on several acquaintances and feels brushed aside by all of them, then recounts the experience with this lament. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>The source places it under a gloss about not receiving due respect. The dramatic ମଲି is rendered as an exclamation, not a report of death. No universal village hospitality rule is inferred.</p></section></div>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-bibidha">Wikimedia Incubator, Wq/or/ବିବିଧ ଢଗଢମାଳି</a> — later three-line saying under ଯଦି ସମୁଚିତ ସମ୍ମାନ ନମିଳେ<p class="odia" lang="or">ମାଲୋ ମଲି,
+ଗାଁ ଚାରିଆଡ଼େ ବୁଲି ଆଇଲି...
+କେହି ନକହିଲେ ବସ ବୋଲି...!!!</p><p class="note">Exact contemporary wording and line breaks inspected in revision6945232. Source introductory gloss, where present, is excluded from the saying.</p></li></ul>
+<p class="note">No additional variant is documented in this entry.</p>
+<h3>Origins and uncertainty</h3><p>No first author, date of coinage or regional distribution established. This contemporary digital witness records the wording; no historical attestation is claimed for this entry.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha added literal rendering, explanations and labelled original examples; adapted entry distributed under the same licence. Openly licensed does not mean public domain.</p></details></article><article class="entry" id="POD-DHAGA-034">
+<div class="entry-header"><span class="number">SAYING 34 · proverbial saying</span><a class="permalink" href="#POD-DHAGA-034" aria-label="Link to saying 34">#</a></div>
+<p class="entry-title">Pride that boils over</p>
+<h2 lang="or">କ୍ଷୀର ଉତୁରିଲେ ଚୁଲିକୁ,
+ମଣିଷ ଉତୁରିଲେ ଗାତକୁ...!!!</h2>
+<p class="odia" lang="or">ଅତ୍ୟଧିକ ଗର୍ବ କଲେ ନିଜର ପତନ ହୋଇପାରେ।</p>
+<p class="note">Explained entry; human Odia proofreading pending.</p>
+
+<div class="tags"><span class="tag">pride</span></div>
+<div class="details-grid"><section><h3>Literal meaning</h3><p>When milk boils over, it spills onto the hearth; when a person goes too far, into the pit.</p></section><section><h3>What it means</h3><p>The first line supplies an everyday overflow; the second turns it into a warning about arrogance. The source explicitly frames the saying as a response to excessive pride. Its sharp downward ending suggests that losing restraint can bring a fall.</p></section><section><h3>When you might use it</h3><p>A successful team member begins dismissing everyone else’s advice, and a colleague warns against letting success become arrogance. (New editorial example, not a collected quotation.)</p></section><section><h3>Cultural context</h3><p>The comparison is between two kinds of overstepping. It is a figurative warning, not a prediction that every proud person will suffer a particular fate. The source’s digital punctuation is preserved.</p></section></div>
+<details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses"><li><a href="#source-dhaga-wikiquote-bibidha">Wikimedia Incubator, Wq/or/ବିବିଧ ଢଗଢମାଳି</a> — later two-line saying under ଯଦି କେହି ଗର୍ବର ସମସ୍ତ ସୀମା ଟପିଯାଏ<p class="odia" lang="or">କ୍ଷୀର ଉତୁରିଲେ ଚୁଲିକୁ,
+ମଣିଷ ଉତୁରିଲେ ଗାତକୁ...!!!</p><p class="note">Exact contemporary wording and line breaks inspected in revision6945232. Source introductory gloss, where present, is excluded from the saying.</p></li></ul>
+<p class="note">No additional variant is documented in this entry.</p>
+<h3>Origins and uncertainty</h3><p>No first author, date of coinage or regional distribution established. This contemporary digital witness records the wording; no historical attestation is claimed for this entry.</p>
+<h3>Reuse and rights</h3><p>Wording credited to Wikimedia Incubator contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha added literal rendering, explanations and labelled original examples; adapted entry distributed under the same licence. Openly licensed does not mean public domain.</p></details></article></div>
+<section id="sources"><h2>Sources &amp; rights</h2><p>Availability is not a reuse licence. Entry witnesses and research candidates are distinguished below. External source links require an internet connection.</p><section class="source" id="source-dhaga-rath1893"><h3><a href="https://archive.org/details/dhagamalika-1893">ଢଗମାଳିକା, ପ୍ରଥମଭାଗ</a></h3>
+<p class="meta">Status: inspected historical scan</p>
+<p><strong>Bibliography:</strong> Title page explicitly says published by Sri Gobinda Rath, Cuttack, Victoria Press, 1893. Metadata says Gobinda Rath, publisher. Do not silently convert publisher to author.</p>
+<p><strong>Access:</strong> Title and first three text pages viewed as rendered images. OCR downloaded but seriously inaccurate.</p><p><strong>Rights:</strong> Publicly accessible scan from Srujanika/Odia Bibhaba, uploaded2024. No rights field in inspected IA metadata. Underlying1893 text is a strong public-domain candidate, but publisher-only credit means author identification still unresolved; this report does not certify worldwide public-domain status. Digital watermark is provenance, not reuse licence.</p>
+<p><strong>Limits:</strong> Title and selected sayings visually checked. Three entries have located historical versions; the volume has not been completely transcribed. Historical readings retain explicit glyph/spacing uncertainty and unresolved reuse status.</p></section><section class="source" id="source-dhaga-praharaj-pitambari1926"><h3><a href="https://archive.org/details/dhagadhamali-bachana-v01-1926">ଓଡ଼ିଆ ଲୌକିକ ପଦ ବା ଢଗଢମାଳୀ ବଚନ, ଭାଗ୧</a></h3>
+<p class="meta">Status: inspected historical scan</p>
+<p><strong>Bibliography:</strong> IA year1926, creators Gopal Chandra Praharaj AND Pitambari Debi; both names visible on title page, first edition. Publisher line needs sharper independent transcription.</p>
+<p><strong>Access:</strong> Title and opening preface pages rendered and read at overview level; not a complete volume reading.</p><p><strong>Rights:</strong> Access confirmed, rights metadata absent. Do not determine copyright from Praharaj death alone: Pitambari Debi credit requires separate role/death research. A separate1990 reprint identifier exists and must not be conflated with this edition.</p>
+<p><strong>Limits:</strong> No complete historical reading or first-origin claim.</p></section><section class="source" id="source-dhaga-doctor2004-bibliography"><h3><a href="https://naklada.ffos.hr/casopisi/index.php/proverbium/article/download/588/380/1682">Raymond Doctor, A Bibliography of Proverb Collections in Indian Languages, Proverbium21(2004),35–62</a></h3>
+<p class="meta">Status: research reference</p>
+
+<p><strong>Access:</strong> Original journal PDF text read including Oriya entries and introduction.</p><p><strong>Rights:</strong> Reuse status not established; linked for research, not bulk reproduced.</p>
+<p><strong>Limits:</strong> Apanna Panda1923 conflicts with modern publisher account1930/1931; retain unresolved edition/date question. No catalogue entry proves accessible scan, PD or exact text.</p></section><section class="source" id="source-dhaga-praharaj-dsal"><h3><a href="https://dsal.uchicago.edu/dictionaries/praharaj/">G.C.Praharaj, Purnnachandra Ordia Bhashakosha, Utkal Sahitya Press1931–1940; DSAL digital edition</a></h3>
+<p class="meta">Status: research reference</p>
+
+<p><strong>Access:</strong> Original institutional landing page and linked licence inspected.</p><p><strong>Rights:</strong> Landing licence links https://creativecommons.org/licenses/by-nc-nd/2.0/ . Public access is not unrestricted adaptation permission. Distinguish historical underlying dictionary from digital edition/data. No dictionary-entry bulk copying undertaken.</p>
+<p><strong>Limits:</strong> No complete historical reading or first-origin claim.</p></section><section class="source" id="source-dhaga-wikiquote-bibidha"><h3><a href="https://incubator.wikimedia.org/w/index.php?title=Wq/or/ବିବିଧ_ଢଗଢମାଳି&amp;oldid=6945232">Wikimedia Incubator, Wq/or/ବିବିଧ ଢଗଢମାଳି</a></h3>
+<p class="meta">Status: licensed contemporary witness</p>
+
+<p><strong>Access:</strong> Original digital page body, revision and footer read.</p><p><strong>Rights:</strong> Footer links CC BY-SA4.0: https://creativecommons.org/licenses/by-sa/4.0/ . Credit Wikimedia contributors, link exact revision and licence, identify changes, apply compatible share-alike treatment to adapted material. Licensed is not public domain.</p>
+<p><strong>Limits:</strong> Mostly unsourced community compilation; one displayed citation has a script error. Does not prove antiquity, exclusive Odia origin, region or historical author.</p></section><section class="source" id="source-dhaga-wikiquote-lakshana"><h3><a href="https://incubator.wikimedia.org/w/index.php?title=Wq/or/ଢଗଢମାଳି/ଲକ୍ଷଣାର୍ଥ&amp;oldid=4144125">Wikimedia Incubator, Wq/or/ଢଗଢମାଳି/ଲକ୍ଷଣାର୍ଥ</a></h3>
+<p class="meta">Status: licensed contemporary witness</p>
+
+<p><strong>Access:</strong> Original numbered text, senses, revision and footer read.</p><p><strong>Rights:</strong> CC BY-SA4.0 per linked footer; same attribution/change/share-alike requirements.</p>
+<p><strong>Limits:</strong> Contemporary community compilation, not a scan-backed Wikisource edition. Contains prejudicial or demeaning examples and weakly edited senses; selected examples require independent editorial judgement.</p></section><section class="source" id="source-dhaga-mohanty1991-access"><h3><a href="https://archive.org/details/odia-dhaga-dhamali">Ram Prasad Mohanty, Odia Dhaga Dhamali, catalogue year1991</a></h3>
+<p class="meta">Status: research reference</p>
+
+<p><strong>Access:</strong> Original IA item metadata/download listings read; volume itself not inspected.</p><p><strong>Rights:</strong> No verified reuse licence; exclude bulk copying. Useful access lead only.</p>
+<p><strong>Limits:</strong> No complete historical reading or first-origin claim.</p></section><section class="source" id="source-dhaga-wiktionary-definition"><h3><a href="https://or.wiktionary.org/w/index.php?title=ଢଗ_ଢମାଳି&amp;oldid=72721">Odia Wiktionary: ଢଗ ଢମାଳି</a></h3>
+<p class="meta">Status: terminology reference</p>
+
+<p><strong>Access:</strong> Digital entry inspected.</p><p><strong>Rights:</strong> CC BY-SA 4.0 per page footer. Link: https://creativecommons.org/licenses/by-sa/4.0/</p>
+<p><strong>Limits:</strong> A dictionary distinction, not a universal classification of every local form. Historical dictionary-page verification remains pending.</p></section><section class="source" id="source-dhaga-pattanaik2017"><h3><a href="https://medium.com/prateek-pattanaik/crowdsourcing-odia-proverbs-dhagadhamali-1cac38c39dbc">Prateek Pattanaik, Crowdsourcing Odia proverbs (26 April 2017)</a></h3>
+<p class="meta">Status: existing project</p>
+
+<p><strong>Access:</strong> Announcement read; embedded database contents and current count not independently recovered.</p><p><strong>Rights:</strong> Article links CC BY-NC-SA 4.0. This does not establish the licence of the database or books contributing to it. No database entries copied.</p>
+<p><strong>Limits:</strong> An existing initiative to acknowledge and investigate; projected hundreds are not a verified collection size.</p></section><section class="source" id="source-dhaga-bibhaba"><h3><a href="https://odiabibhaba.in/en/home/">Odia Bibhaba / Srujanika digital library</a></h3>
+<p class="meta">Status: archive access lead</p>
+
+<p><strong>Access:</strong> Indexed home-page notice inspected; direct site returned HTTP403 during this research. Related scans recovered through Internet Archive.</p><p><strong>Rights:</strong> The notice says some hosted books remain in copyright. Public access is not blanket permission.</p>
+<p><strong>Limits:</strong> No complete catalogue crawl or site-wide rights certification.</p></section><section class="source" id="source-dhaga-archive-dhagamalika-ba-dhagadhamali-rahasya-1927-5e"><h3><a href="https://archive.org/details/dhagamalika-ba-dhagadhamali-rahasya-1927-5e">dhagamalika ba dhagadhamali rahasya 1927 5e</a></h3>
+<p class="meta">Status: catalogue lead</p>
+
+<p><strong>Access:</strong> API catalogue observed only; original scan/title/rights uninspected</p><p><strong>Rights:</strong> Unverified; no text or images reproduced.</p>
+<p><strong>Limits:</strong> Catalogue lead only. Sheikh Abdul Aziz</p></section><section class="source" id="source-dhaga-archive-dhagaratnamala"><h3><a href="https://archive.org/details/dhagaratnamala-">dhagaratnamala </a></h3>
+<p class="meta">Status: catalogue lead</p>
+
+<p><strong>Access:</strong> API catalogue observed only</p><p><strong>Rights:</strong> Unverified; no text or images reproduced.</p>
+<p><strong>Limits:</strong> Catalogue lead only. Jagannath Singh, compiler</p></section><section class="source" id="source-dhaga-archive-dhagadhamali-2e-1949"><h3><a href="https://archive.org/details/dhagadhamali-2e-1949">dhagadhamali 2e 1949</a></h3>
+<p class="meta">Status: catalogue lead</p>
+
+<p><strong>Access:</strong> API catalogue observed only; creator missing</p><p><strong>Rights:</strong> Unverified; no text or images reproduced.</p>
+<p><strong>Limits:</strong> Catalogue lead only. Creator not established.</p></section></section></main>
+<footer>Read locally, share carefully. Explanations and diagrams are contemporary aids, not evidence of a saying’s age.<br>
+Offline typefaces: Noto Serif Oriya and Source Serif 4, SIL Open Font License. Licences are included in assets/.</footer>
+<script>
+(() => {
+ const search=document.querySelector('#search'), tag=document.querySelector('#tag');
+ const cards=[...document.querySelectorAll('.entry')], status=document.querySelector('#result-count');
+ const norm=s=>s.normalize('NFC').toLocaleLowerCase().replace(/\s+/g,' ').trim();
+ function filter(){
+  const words=norm(search.value).split(' ').filter(Boolean); let count=0;
+  for(const card of cards){
+   const matches=words.every(w=>norm(card.textContent).includes(w));
+   const matchesTag=!tag.value||[...card.querySelectorAll('.tag')].some(t=>t.textContent===tag.value);
+   card.hidden=!(matches&&matchesTag); if(!card.hidden)count++;
+  }
+  status.textContent=count+' of '+cards.length+' sayings shown';
+  document.querySelector('#empty').hidden=count!==0;
+ }
+ search.addEventListener('input',filter); tag.addEventListener('change',filter);
+ document.querySelector('#clear').addEventListener('click',()=>{search.value='';tag.value='';filter();search.focus();});
+ document.querySelector('#filters').hidden=false; filter();
+ let previous, disclosures;
+ window.addEventListener('beforeprint',()=>{previous=cards.map(c=>c.hidden);cards.forEach(c=>c.hidden=false);disclosures=[...document.querySelectorAll('details')].map(d=>[d,d.open]);disclosures.forEach(([d])=>d.open=true);});
+ window.addEventListener('afterprint',()=>{if(previous)cards.forEach((c,i)=>c.hidden=previous[i]);if(disclosures)disclosures.forEach(([d,open])=>d.open=open);});
+})();
+</script></body></html>

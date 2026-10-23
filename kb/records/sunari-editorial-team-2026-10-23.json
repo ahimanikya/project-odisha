@@ -1,0 +1,291 @@
+{
+  "task_id": "POD-TASK-SUNARI-20261023",
+  "article_id": "POD-EDIT-478",
+  "programme_id": "POD-A500-131",
+  "work_id": "POD-WORK-322",
+  "status": "completed_scopes_released",
+  "input_head": "870bbe6b",
+  "started_at": "2026-10-23T15:39:27.058257+00:00",
+  "route": "/communities/sunari/",
+  "scope": "Regional Sunari history through ornament work, family learning and changing markets. No definitive origin claim.",
+  "acceptance": [
+    "Explain regional Sunari ornament work, family learning and changes in markets from inspected original sources; distinguish community identity from trade and grouped labels; preserve unknown formation; pass independent AI review, source budgets, tests, responsive/download review, reviewed merge, approved deployment and live receipt before credit."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "scope": "Source-budgeted narrative draft to temporary JSON only",
+      "status": "completed",
+      "scope_released": true
+    },
+    {
+      "name": "Samanta",
+      "scope": [
+        "projects/site/src/pages/communities/sunari.astro",
+        "projects/site/tests-coast/sunari-editorial.test.mjs"
+      ],
+      "status": "completed",
+      "scope_released": true
+    },
+    {
+      "name": "Drishti",
+      "scope": "Separate integrated AI review, read-only",
+      "status": "completed",
+      "scope_released": true
+    },
+    {
+      "name": "Disha",
+      "scope": "Canonical narrative, shared integration records and publication",
+      "status": "completed",
+      "scope_released": true
+    }
+  ],
+  "research_handoff": "records/sunari-research-handoff-2026-10-23.json",
+  "next_action": "Sunari complete. All scopes released. Alternate next eligible Dhaga source batch (PDF6; PDF2–5 uncertainties remain) with community/editorial queue. No new article claimed.",
+  "handoff_note": "Community-loop registration interrupted by Dhaga heartbeat; coordinator repaired its own claim-schema fields. Pending Dhaga release must defer while this article claim is active. No programme credit.",
+  "research_execution": {
+    "input_head": "1c04c5e0b4cb6ab09628f159fcd3ececc3c01fa8",
+    "output": "/tmp/pod-sunari-narrative.json",
+    "sha256": "d0649f635ed46070f56b273596065545e0d8814d232f3d98439d1bb19d040373",
+    "body_words": 502,
+    "source_budgets_including_titles_and_notes": {
+      "chasa-bhadrak-gazetteer": 108,
+      "kansari-census1961-survey1967": 172,
+      "sunari-misra-kotpad2025": 131,
+      "sunari-gajapati-industries": 59
+    },
+    "tests": [
+      "Kamar schema followed: paragraph source_ids and locators, source footnotes, author, further_reading.",
+      "Only four previously inspected sources used; stable IDs reused.",
+      "Every source-derived paragraph assigned; no source exceeds200words including citation title/note.",
+      "No image reuse, repo writes or Git mutations."
+    ],
+    "limits": [
+      "Draft requires independent integrated review; no human review claimed.",
+      "No verified founder or formation date; no universal aliases or surname inference.",
+      "Report testimony dated2025; district accounts not asserted current surveys.",
+      "Source audit captures reused; no new research this turn."
+    ]
+  },
+  "implementation_execution": {
+    "worker": "Samanta, AI implementation agent",
+    "input_head": "1c04c5e0b4cb6ab09628f159fcd3ececc3c01fa8",
+    "checked_at": "2026-10-23T16:45:04.694109+00:00",
+    "status": "pass — final preview implementation validation complete",
+    "actual_edits": [
+      "projects/site/src/pages/communities/sunari.astro",
+      "projects/site/tests-coast/sunari-editorial.test.mjs"
+    ],
+    "features": [
+      "Canonical JSON-driven reading page with compact metadata",
+      "Visible mapped footnotes, exact backlinks, contents and collapsed reading",
+      "Correction/privacy note and full portable prose/source tests",
+      "No invented imagery, authorship or label equivalence"
+    ],
+    "tests": [
+      {
+        "name": "Node24 syntax",
+        "result": "pass"
+      },
+      {
+        "name": "scoped diff check",
+        "result": "pass"
+      },
+      {
+        "name": "npm run build && npm test",
+        "result": "566/566 pass",
+        "log": "/tmp/pod-sunari-full-tests.log"
+      },
+      {
+        "name": "npm run build:coast && npm run test:coast",
+        "result": "493/493 pass final canonical",
+        "log": "/tmp/pod-sunari-tests.log"
+      },
+      {
+        "name": "python3 tools/audit-coast.py",
+        "result": "1912/1912 pass",
+        "log": "/tmp/pod-sunari-audit.log"
+      },
+      {
+        "name": "python3 tools/audit-discovery.py",
+        "result": "pass",
+        "log": "/tmp/pod-sunari-discovery.log"
+      },
+      {
+        "name": "node tools/prepare-search-review.mjs",
+        "result": "pass 11 proposed pages",
+        "log": "/tmp/pod-sunari-search-review.log"
+      },
+      {
+        "name": "python3 tools/audit-launch-readiness.py",
+        "result": "pass",
+        "log": "/tmp/pod-sunari-launch.log"
+      },
+      {
+        "name": "npm run build:publication",
+        "result": "pass 11 indexable pages",
+        "log": "/tmp/pod-sunari-publication.log"
+      },
+      {
+        "name": "python3 tools/audit-search-shortlist.py",
+        "result": "pass 11 reviewed pages errors=[]",
+        "log": "/tmp/pod-sunari-shortlist.log"
+      },
+      {
+        "name": "Final publication Sunari HTML",
+        "result": "all canonical paragraphs and noindex, follow pass"
+      }
+    ],
+    "limits": [
+      "Local preview only; no deployment/live checks claimed.",
+      "No production Save/download mutation.",
+      "No human or field review claimed; content review belongs to Disha/Drishti.",
+      "Only reserved page/test edits; no Git/shared-record changes by Samanta."
+    ],
+    "initial_pipeline": {
+      "full_pass": 566,
+      "coast_pass": 493
+    },
+    "reruns": [
+      "Coordinator shortened Tarbha paragraph and corrected related-reading title during initial pipeline. Final coast build/test and full validation audit sequence rerun; unrelated full tests retained per coordinator instruction."
+    ],
+    "failed_gates": [],
+    "validation_head": "e6adc7643a71da17dc66bf5b186f8a012ad7748e",
+    "canonical_sha256": "e5a72a94511a38c10b01c587b1a6847fb056ebabcc87e53e8037f9e5bd75c0b5",
+    "browser": {
+      "url": "http://127.0.0.1:8794/communities/sunari/",
+      "desktop": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "screenshot_dimensions": [
+          1440,
+          1000
+        ],
+        "document_width": 1440,
+        "article_width": 740,
+        "path": "/tmp/pod-sunari-desktop.png"
+      },
+      "mobile": {
+        "viewport": [
+          390,
+          844
+        ],
+        "screenshot_dimensions": [
+          390,
+          844
+        ],
+        "document_width": 390,
+        "path": "/tmp/pod-sunari-mobile.png",
+        "body_path": "/tmp/pod-sunari-mobile-body.png"
+      },
+      "visual_inspection": "Readable title, lead and body; mobile menu and column correct; no overflow or clipping observed. Text-only article as intended.",
+      "keyboard_note": "Enter focused note-chasa-bhadrak-gazetteer; backlink Enter returned focus and hash exactly to ref-regional-names-0-chasa-bhadrak-gazetteer.",
+      "contents": "Keyboard contents activation then Kotpad link focused kotpad-households.",
+      "further_reading": "Initially collapsed, Enter opened, Kansari onward link reached correct title and /communities/kansari/.",
+      "save": "Local preview Save changed label to Saved to my journey and persisted after navigation/reload.",
+      "download": {
+        "actual_path": "/Users/ahimanikya/Downloads/My-Odisha-Journey-book-2026-10-23 (5).html",
+        "bytes": 94670,
+        "all_paragraphs": true,
+        "all_four_source_titles": true,
+        "screenshot": "/tmp/pod-sunari-download.png"
+      },
+      "viewport_reset": true,
+      "recovery": "Initial preview connection refused resolved by starting loopback server and reloading; no product defect."
+    }
+  },
+  "content_review": {
+    "reviewer": "Drishti, separate AI; not human/community review",
+    "input_head": "1c04c5e0b4cb6ab09628f159fcd3ececc3c01fa8",
+    "reviewed_head": "e6adc7643a71da17dc66bf5b186f8a012ad7748e",
+    "checked_at": "2026-10-23T16:46:02.090165+00:00",
+    "status": "pass_with_limitations",
+    "findings": [],
+    "blockers": [],
+    "resolved_findings": [
+      "Removed repetitive Tarbha closing sentence, creating sufficient Census source-budget margin."
+    ],
+    "checks": [
+      "Compared canonical narrative against original sources independently inspected during readiness: Bhadrak printed39, Census printed164 with165 extract, Kotpad2025 original report and Gajapati district page. Optional unverified Thurston source omitted.",
+      "Regional naming retained; no universal alias, surname/occupation identity inference or invented founder. Tarbha totals and labour explicitly shared-industry observations. Kotpad family testimony dated and scoped; unsupported support/price/medical claims omitted.",
+      "Mapped paragraphs plus relevant headings/source titles/notes counted:114/157/137/64. Census157 plus up to40 for source-derived lead/title/closing synthesis stays below200. Whole-volume rather than perparagraph budget respected.",
+      "Source order matches first appearance1–4. Template exposes numbered footnotes and exact backlinks, Save reading and public correction notice. No invented figure.",
+      "Shared discovery/journey/edition wiring scoped; aliases empty and search hold retained. No builds run concurrently.",
+      "Preserved local Dhaga PDF4/5 drafts match separately reviewed exact hashes and saved review bindings. Ledger retains67 tentative segments,15 explained entries,0 complete/human-reviewed pages; no conflict with sole active Sunari integration or new Dhaga programme credit. Kansari reading label now matches canonical title.",
+      "Exact committed candidate e6adc7643a71da17dc66bf5b186f8a012ad7748e clean; all four recorded source/page/test hashes unchanged from content review.",
+      "Read actual saved test/audit logs:566 full tests passed before final prose trim; final493 coast tests and1912 acceptance checks passed. Discovery, launch, shortlist and limited publication11-page gates passed. Full suite not rerun after prose-only correction, explicitly preserved in implementation report.",
+      "Personally inspected actual1440x1000 desktop and390x844 mobile/header/body images: readable column, unclipped text and visible notes. Interactive keyboard/backlink/contents/onward/Save checks are Samanta evidence, not reviewer replay.",
+      "Independently read actual downloaded94670-byte HTML book; every canonical paragraph and all four source titles present.",
+      "Preserved Dhaga PDF4/5 exact reviewed hashes and research-only ledger counts already verified; no new accepted sayings or credit inferred."
+    ],
+    "source_word_counts": {
+      "chasa-bhadrak-gazetteer": 114,
+      "kansari-census1961-survey1967": 157,
+      "sunari-misra-kotpad2025": 137,
+      "sunari-gajapati-industries": 64
+    },
+    "limits": [
+      "Local preview validation only; remote required CI, merged-head deployment, live verification and receipt still gate publication/completion. No production/live checks in this review.",
+      "No human/community review, fieldwork, verified formation history or current household census.",
+      "Source-derived synthesis budget is editorial allocation; no independent facts inferred from occupational classifications.",
+      "Visual inspection samples supplied screenshots; no exhaustive accessibility audit or independent replay of browser actions.",
+      "Accepted source constraints remain: bounded regional history, attributed occupational changes and dated2025 testimony; no founder, universal aliases or current household census."
+    ],
+    "file_sha256": {
+      "kb/research/communities/sunari.json": "e5a72a94511a38c10b01c587b1a6847fb056ebabcc87e53e8037f9e5bd75c0b5",
+      "kb/research/communities/sunari.md": "b33f51b9afb9b60bae90846b17516c3f7e97918737d211e25dbc22a9f9d87049",
+      "projects/site/src/pages/communities/sunari.astro": "66aa905d6993e44f5099446c058d3c705180fa56d19a848eb43c5287aa09e12f",
+      "projects/site/tests-coast/sunari-editorial.test.mjs": "b19afbbadb3abd6045a3fa659a5d474b2abae52ee1a9d84e94bd8de748138f66"
+    },
+    "history": [
+      {
+        "status": "CONTENT_PASS_FINAL_HEAD_AND_UI_PENDING",
+        "checked_at": "2026-10-23T16:41:09.956813+00:00",
+        "input_head": "1c04c5e0b4cb6ab09628f159fcd3ececc3c01fa8"
+      }
+    ]
+  },
+  "coordinator_visual_check": "Disha inspected actual desktop1440x1000 and mobile390x844 body screenshots; readable with no clipping.",
+  "review": "records/sunari-delivery-review-2026-10-23.json",
+  "publication_receipt": "records/sunari-editorial-publication-2026-10-23.json",
+  "counting": {
+    "completed_items": 131,
+    "increment": 1,
+    "basis": "One individually researched published article; separately reviewed receipt merge observed."
+  },
+  "receipt_integration_observed": {
+    "pull_request": 468,
+    "reviewed_head": "b69636b8b675e5907c8ab7f83fd6f856cb1ef972",
+    "merge_commit": "70837aaad2bac742ba0f8e2d082f264ecd0322fa",
+    "merged_at": "2026-10-23T16:58:23Z",
+    "validation_run": 39990514393,
+    "validation_result": "success"
+  },
+  "receipt_review": {
+    "reviewer": "Drishti, separate AI receipt review; no human review",
+    "reviewed_head": "b69636b8b675e5907c8ab7f83fd6f856cb1ef972",
+    "comparison_base": "d1de8d73ca386e4900c00e1cde369955952de3e5",
+    "checked_at": "2026-10-23T16:54:13.186851+00:00",
+    "status": "PASS",
+    "findings": [],
+    "blockers": [],
+    "checks": [
+      "Receipt-only delta inspected. Public Sunari narrative/page and Dhaga collection/reader unchanged from published merge.",
+      "Compared programme items individually: only POD-A500-131 changed; all prior130 identical,131 completed entries. Rollout only POD-EDIT-478 changed,84completed. Register work only POD-WORK-322 changed.",
+      "Actual saved PR467 response binds reviewed e6adc764 to merged d1de8d73; saved deployment39989731894 completed successfully at exact merge. Receipt CI39989013999 success URL recorded.",
+      "Live HTML and live-browser canonical evidence exactly match saved files. Actual390x844 live screenshot independently inspected: readable unclipped title/lead. Keyboard live navigation evidence remains Samanta observation, not reviewer replay.",
+      "Delivery review retains every original review field unchanged; only programme/work/authority and verification additions. Source and test limits preserved without human-review invention.",
+      "Operations retains Sunari in_progress claim at receipt_integrated with receipt_merge_pending true; next Dhaga batch awaits claim release.",
+      "Dhaga PDF4/5 truthfully marked merged through PR467; no accepted-saying increment or programme credit. Public15-entry collection remains unchanged.",
+      "Programme validator PASS and30tests PASS; team consistency PASS; register --check PASS1181records660events; diff check PASS."
+    ],
+    "limits": [
+      "Read saved GitHub/deployment evidence; did not independently re-fetch remote run state. Production HTML check belongs to coordinator and live interactions to Samanta.",
+      "Receipt head still requires its reviewed merge before ownership release.",
+      "Initial register invocation used unsupported validate argument and failed read-only; corrected --check succeeded.",
+      "No source/publication prose changes or builds in this gate; underlying bounded-history and no-human-review limits remain."
+    ]
+  }
+}

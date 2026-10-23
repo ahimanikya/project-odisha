@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 476. completed: 82, excluded: 76, queued: 318.
+Route inventory: 480. completed: 84, excluded: 76, queued: 320.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -490,3 +490,7 @@ Route inventory: 476. completed: 82, excluded: 76, queued: 318.
 | POD-EDIT-474 | [Mali regional community history](https://projectodisha.org/communities/mali/) | completed | Mali regional community history: gardens, irrigation, temple roles and regional names; occupational explanations distinguished from formation evidence. |
 | POD-EDIT-475 | [Dhoba regional community history](https://projectodisha.org/communities/dhoba/) | completed | Dhoba regional community history: cloth washing, water access, ceremonial roles and regional names; occupational explanations distinguished from formation evidence. |
 | POD-EDIT-476 | [Patara regional community history](https://projectodisha.org/communities/patara/) | completed | Patara regional community history: yarn work, trade, regional names and specific temple craft; occupational explanations distinguished from formation evidence. |
+| POD-EDIT-477 | [Kamar regional community history](https://projectodisha.org/communities/kamar/) | completed | Kamar regional community history: iron working, tools, workshop learning and regional names; occupational explanations distinguished from formation evidence. |
+| POD-EDIT-478 | [Sunari regional community history](https://projectodisha.org/communities/sunari/) | completed | Regional Sunari history through ornament work, family learning and changing markets. No definitive origin claim. |
+| POD-EDIT-479 | [Rise, Children of Utkal — ଉଠରେ ଉଠରେ ଉତ୍କଳ ସନ୍ତାନ](https://projectodisha.org/stories/rise-children-of-utkal/) | queued | Founder-directed companion essay; reviewed candidate awaiting verified publication receipt. |
+| POD-EDIT-480 | [A Place to Learn Together — ଆସନ୍ତୁ ଏକାଠି ଶିଖିବା](https://projectodisha.org/stories/a-place-to-learn-together/) | queued | Founder-directed companion essay; reviewed candidate awaiting verified publication receipt. |

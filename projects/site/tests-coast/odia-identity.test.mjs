@@ -51,14 +51,14 @@ test('All native source markers reach visible notes and each note returns to the
   assert.match(notes, /href="https?:\/\//);
 });
 
-test('Readers can discover the article, open further reading and submit a public correction', () => {
+test('Readers can discover the article, see further reading and submit a public correction', () => {
   const scope = JSON.parse(read('editions/coast.json')).routes;
   assert.ok(scope.includes(route));
   assert.ok(read('dist-coast/explore/index.html').includes(`href="${route}"`), 'Article is discoverable');
   const further = article.match(/<section id="identity-further-reading"[\s\S]*?<\/section>/)?.[0];
   assert.ok(further);
-  assert.match(further, /<summary[^>]*>Further reading<\/summary>/);
-  assert.doesNotMatch(further, /<details[^>]*\bopen\b/);
+  assert.match(further, /<h2[^>]*>Further reading<\/h2>/);
+  assert.doesNotMatch(further, /<details\b/);
   for (const path of ['/languages/odia/', '/sounds-of-odisha/dalkhai/', '/textiles/sambalpuri-bandha/', '/culture/osha/nuakhai/']) {
     assert.ok(scope.includes(path), 'Further reading stays in this edition: ' + path);
     assert.ok(further.includes(`href="${path}"`));

@@ -1,0 +1,218 @@
+{
+  "task_id": "POD-TASK-SUNARI-RESEARCH-20261023",
+  "status": "source_ready_for_bounded_draft",
+  "input_head": "184742ab",
+  "owner": "Disha",
+  "scope": "Determine source readiness of a future Sunari community history, after published Kamar; not an article release or delivered programme item.",
+  "acceptance": [
+    "Inspect original source evidence for regional community accounts and documented roles.",
+    "Preserve grouped administrative labels as leads, not universal aliases.",
+    "Independent research, implementation handoff and AI readiness review; no invented human review."
+  ],
+  "reserved_files": [
+    "kb/records/sunari-research-handoff-2026-10-23.json",
+    "kb/research/communities/sunari-source-audit-2026-10-23.json",
+    "kb/team/operations.json"
+  ],
+  "workers": {
+    "Anvesha": "Original-source eligibility audit, temporary file only",
+    "Samanta": "Read-only template/data/test handoff",
+    "Drishti": "Read-only source-readiness review"
+  },
+  "article_claim": null,
+  "programme_credit": 0,
+  "coordination": "Dhaga historical research release466 delivered and receipt integrated; no active shared release. Source-readiness packet does not lock out next Dhaga phase.",
+  "implementation_handoff": {
+    "worker": "Samanta, AI implementation preparation",
+    "input_head": "184742ab3fef9ea33e010c994f3966d2053562d3",
+    "checked_at": "2026-10-23T07:07:54.872364+00:00",
+    "status": "read-only scope assessment; article not implementation-ready until source audit",
+    "route": "/communities/sunari/",
+    "absence_checks": {
+      "projects/site/src/pages/communities/sunari.astro": true,
+      "projects/site/tests-coast/sunari-editorial.test.mjs": true,
+      "kb/research/communities/sunari.json": true
+    },
+    "reusable_paths": [
+      "projects/site/src/pages/communities/kamar.astro",
+      "projects/site/src/pages/communities/kansari.astro",
+      "projects/site/tests-coast/kamar-editorial.test.mjs",
+      "projects/site/tests-coast/kansari-editorial.test.mjs"
+    ],
+    "proposed_reserved_scope": [
+      "projects/site/src/pages/communities/sunari.astro",
+      "projects/site/tests-coast/sunari-editorial.test.mjs"
+    ],
+    "canonical_input_required": {
+      "path": "kb/research/communities/sunari.json",
+      "required_fields": [
+        "title",
+        "description (<=250 chars)",
+        "author",
+        "checked_on",
+        "lead",
+        "sections[{id,title,paragraphs[{text,source_ids}]}]",
+        "sources[{id,title,url,note}]",
+        "further_reading[{title,href}]"
+      ],
+      "optional_fields": [
+        "odia (verified spelling only)",
+        "timeline[{date,title,text,source_ids}]",
+        "figure{after_section,src,width,height,alt,caption,creator,source,license,license_url,changes}"
+      ],
+      "rules": [
+        "Source IDs stable and sources ordered by first passage appearance.",
+        "Editorial interpretation may have empty source_ids; source-backed statements require exact mapping.",
+        "Do not invent author, origins, interchangeable labels or caste identity from occupation.",
+        "Default text-first; no figure unless actual rights/context cleared."
+      ]
+    },
+    "components": [
+      "Shell.astro",
+      "ArticleByline.astro",
+      "ArticleFootnote.astro",
+      "ArticleFootnotes.astro",
+      "ResearchContents.astro",
+      "SaveJourney.astro",
+      "styles/article-reading.css",
+      "lib/story-source-links.mjs"
+    ],
+    "behavior": [
+      "740px reading rhythm",
+      "Visible source notes and exact passage backlinks",
+      "Collapsed further reading",
+      "Correction link and public-submission privacy note",
+      "reading:sunari saved journey, full prose and concise portable sources"
+    ],
+    "coordinator_integration": [
+      "editions/coast.json route and journey id",
+      "src/data/discovery.ts entry; no inferred alias list",
+      "src/data/journey-catalog.ts canonical import/prose/sources",
+      "editions/search-candidate.json explicit hold, no new index eligibility",
+      "Affected exact route/reading count assertions only after integration",
+      "Canonical KB narrative, source audit, claim and publication records"
+    ],
+    "source_label_mapping": [
+      {
+        "id": "sebc-row-014",
+        "source_id": "odisha-sebc-linked-20240119",
+        "locator": "Serial 14; PDF pages 2, 3",
+        "raw_label": "Bania,\nPutulibandha Vaisya\nSunari,\nSunaree,\nViswa Brahman,\nPutuli Bania,\nVasya Bania,\nVashya,\nVashya,\nVashya Bania,\nVaishya Bania,\nVaishya Banik,\nPotali Bania,\nGandha Banik,\nVaishya Putuli Bania\nPaudar Bania,\nPodar Bania\nKamila,\nAstalohi,\nAstalohi Karmakar\nSubarna Banik\nSunari Bania\nSwarnakar\nSubarna Bania\nSunari Banik\nAstalohi Bania\nSwarnakar Bania\nBaisya Astalohi Karmakar\nAshtralohi/\nAshtalohi Karmakar/\nViswa Brahman (Sunari)/\nSwaransilpi",
+        "context": "One numbered administrative source row. Label segments and adjacent resolutions, deletion/substitution notices, and empty/dittographic qualifiers are preserved in raw_segments. This is not a canonical community or legal classification claim.",
+        "source_row": 14,
+        "raw_segments": [
+          {
+            "page": 2,
+            "raw_label": "Bania,\nPutulibandha Vaisya",
+            "raw_qualifier": "No.25455, dt.10.09.1993\n(TW)"
+          },
+          {
+            "page": 2,
+            "raw_label": "Sunari,\nSunaree,\nViswa Brahman,\nPutuli Bania,\nVasya Bania,\nVashya,\nVashya,\nVashya Bania,\nVaishya Bania,\nVaishya Banik,\nPotali Bania,\nGandha Banik,\nVaishya Putuli Bania",
+            "raw_qualifier": "No. 18222 dt.29.07.1996 (W)"
+          },
+          {
+            "page": 2,
+            "raw_label": "Paudar Bania,\nPodar Bania",
+            "raw_qualifier": "No.26118 dt.05.11.1996 (W)"
+          },
+          {
+            "page": 2,
+            "raw_label": "Kamila,\nAstalohi,\nAstalohi Karmakar\nSubarna Banik\nSunari Bania\nSwarnakar\nSubarna Bania",
+            "raw_qualifier": "No.8808 dt.08.04.1997 (W)"
+          },
+          {
+            "page": 3,
+            "raw_label": "Sunari Banik",
+            "raw_qualifier": ""
+          },
+          {
+            "page": 3,
+            "raw_label": "Astalohi Bania\nSwarnakar Bania\nBaisya Astalohi Karmakar",
+            "raw_qualifier": "No. 479 11.10.2003 (W)"
+          },
+          {
+            "page": 3,
+            "raw_label": "Ashtralohi/\nAshtalohi Karmakar/\nViswa Brahman (Sunari)/\nSwaransilpi",
+            "raw_qualifier": "No.8749, dt.04.05.2023"
+          }
+        ]
+      }
+    ],
+    "source_mapping_limits": [
+      "sebc-row-014 is one grouped administrative observation spanning PDF2–3; not synonyms or genealogy.",
+      "Sunari/Sunaree segment on PDF2 carries No.18222 dt29.07.1996(W).",
+      "Sunari Bania appears within separate PDF2 segment qualified No.8808 dt08.04.1997(W).",
+      "Sunari Banik PDF3 continuation has empty qualifier; do not invent inherited notification.",
+      "Viswa Brahman(Sunari) occurs in separate PDF3 segment No.8749 dt04.05.2023.",
+      "Do not flatten row into aliases or infer present legal eligibility; complete visual row proofreading is not documented."
+    ],
+    "planned_tests": [
+      "Canonical prose/author/<=250 metadata",
+      "Unique source note/ref IDs and exact backlinks, visible outside disclosures",
+      "Valid onward routes/correction notice/preview robots/discovery",
+      "No invented imagery; optional figure provenance",
+      "Saved reading retains all paragraphs, author/date and short sources",
+      "Node24 full build/test; coast build/test; publication boundary; audit-coast",
+      "Actual desktop1440x1000/mobile390x844, keyboard return/contents/disclosure/onward, local Save persistence and actual downloaded book",
+      "Read-only live checks only after coordinator-approved successful publication"
+    ],
+    "actual_checks": [
+      "Read index row and qualifiers",
+      "Read Kamar/Kansari templates and Kamar tests",
+      "Confirmed proposed page/test/JSON paths absent",
+      "Read shared Kamar integration locations; no builds or browser performed"
+    ],
+    "limits": [
+      "Source-label inventory is planning evidence, not a source audit or Sunari history.",
+      "No article prose, scaffold, repository or Git mutations.",
+      "No implementation/publishing readiness asserted; await approved bounded source audit and claim."
+    ]
+  },
+  "research_audit": "research/communities/sunari-source-audit-2026-10-23.json",
+  "research_sha256": "c254e6a498937b5cab0f071a6db085c4017c284c52fded9547905a3e1cf643b9",
+  "scopes_released": true,
+  "independent_ai_review": {
+    "reviewer": "Drishti, separate AI readiness review; not human review",
+    "input_head": "184742ab3fef9ea33e010c994f3966d2053562d3",
+    "observed_head": "184742ab3fef9ea33e010c994f3966d2053562d3",
+    "checked_at": "2026-10-23T09:36:02.361834+00:00",
+    "status": "READY_FOR_BOUNDED_DRAFT_NOT_PUBLICATION",
+    "source_audit_sha256": "c254e6a498937b5cab0f071a6db085c4017c284c52fded9547905a3e1cf643b9",
+    "findings": [],
+    "blockers_for_preparation": [],
+    "recommendation": "Evidence supports a regional Sunari account of community association with ornament work, family learning and changing markets. It does not support a definitive caste origin history or one universal identity map. Proceed to bounded drafting under an actual claim, then separate source/prose/implementation/publication review.",
+    "actual_checks": [
+      "Read source audit, implementation handoff and raw administrative row14. No standalone Sunari article currently present; template/shared integration scope coherent.",
+      "Independently opened original2025 Indian Tribal reporting and Gajapati district industries page. Explicit Sunari family context supports named family-learning/market account; Gajapati wording remains separate Bania and Sunaries rather than equivalence.",
+      "Independently rendered and visually inspected original Bhadrak printed39/PDF55 and Census printed164/PDF178. Bhadrak uses Sunari Bania regionally; Census names Sunari among many participating communities and does not identify the traditional teachers as Sunari.",
+      "Read preserved Census printed165 extract for industry-wide labour account; no table-aligned Sunari counts or precise later year accepted.",
+      "Integrated source audit is byte-identical to reviewed temporary file; saved research handoff embeds exact implementation preparation report. No article creation or publication approved by these records."
+    ],
+    "draft_constraints": [
+      "Keep Bhadrak terminology local and attributed. Its skill-loss claim is gazetteer wording, not a proven judgement about current people; omit unsupported seafaring explanation.",
+      "Describe Tarbha as a mixed-community industry. Workshop totals and women’s work cannot become Sunari-specific statistics. No caste identity from trade or surname.",
+      "Kotpad evidence is August2025 named reporting, not present-day census or firsthand fieldwork by this team. Preserve source’s family context and reported testimony.",
+      "Do not adopt no-government-support rhetoric: article mentions earlier training. Exclude questionable price units, earnings comparisons, tool translations and medical claims.",
+      "No inspected source establishes first formation, founder or single ancestry. Viswakarma tradition in optional colonial entry must not become established origin or all-Odisha identity. Prefer omitting optional colonial naming discussion until separately verified in final draft.",
+      "SEBC administrative grouping does not establish universal Bania/Sunari/Sonari/Kamsala equivalence or current legal status.",
+      "Per-source budgets must include headings, notes and derived uncited interpretation; proposed allocations are planning estimates, not final clearance. Text-first; no photograph reuse rights established."
+    ],
+    "limits": [
+      "Preparation only: no canonical prose, reader layout, source-footnote budget or publication candidate reviewed.",
+      "Optional Thurston transcription not independently re-opened in this readiness gate; cannot treat this report as verification of it.",
+      "No human review, field interviews, legal determination or verified founder/formation history.",
+      "No implementation tests/builds/browser actions run because no article implementation exists. No programme-delivery credit."
+    ],
+    "programme_credit": 0
+  },
+  "next_action": "On next community-loop turn, reconcile active scopes, register concrete article output and acceptance in programme/work records, then draft a regional Sunari account using inspected sources. Do not infer founder/formation or universal aliases. Separate final prose, source, responsive and publication review required. No active article lock; Dhaga may continue independently.",
+  "tests": [
+    "Exact reviewed source-audit hash verified",
+    "Implementation absence and reuse checks recorded",
+    "Research index/workbench regenerated without differences",
+    "Team and bundle checks passed",
+    "Programme count remains130; no delivery credited"
+  ],
+  "delivery": "Local research preparation checkpoint only; no PR, website publication or completed programme item claimed."
+}

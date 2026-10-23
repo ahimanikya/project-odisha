@@ -1,0 +1,62 @@
+{
+  "worker": "Samanta, AI mechanical validation",
+  "input_head": "1e86930d7ffba42f9471562eb1257a3f0c294343",
+  "validation_head": "1e86930d7ffba42f9471562eb1257a3f0c294343",
+  "checked_at": "2026-10-23T15:19:55.719873+00:00",
+  "result": "pass",
+  "transcription_sha256": "1c74bc4a852808c9168578d197e0d08dfe00b5cf22d98f6fa2c6717dc5a93ce9",
+  "validation": {
+    "draft_path": "/tmp/pod-dhaga-page4-transcription.json",
+    "transcription_sha256": "1c74bc4a852808c9168578d197e0d08dfe00b5cf22d98f6fa2c6717dc5a93ce9",
+    "result": "pass",
+    "segment_count": 18,
+    "pdf_page": 4,
+    "declared_body_lines": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "same_line_segments": 4,
+    "line_gaps": [],
+    "accepted_corpus_increment": 0,
+    "human_reviewed": false,
+    "review_hash_verified": true,
+    "limits": [
+      "Structure only: not glyph accuracy, segmentation correctness, physical page completeness, rights or human review."
+    ]
+  },
+  "review_sha256": "a071fd5dc5f9d6dbad474e882da8679994259b79d00cb78efbba1b9bfead8150",
+  "validator_sha256": "ee182213a67b8cf1bb6173e96134f145b0ebd165506d3a841ab809228789d048",
+  "tests": [
+    "Existing repository validator against final draft:pass",
+    "Existing validator with exact final AI review binding:pass",
+    "Initial ledger read31 attempted segments/15 explained/0 human/0 completed pages.",
+    "Final ledger now coordinator-integrated49 attempted segments (=31+18), still15 explained/0 human/0 completed pages:pass"
+  ],
+  "initial_failure": {
+    "draft_sha256": "b9260aabbdf51f9cd2e58ce906faa2a95971a757f481d3d7527dcd98f8e4ce16",
+    "error": "invalid incoming continuation anchors",
+    "resolution": "Researcher added previous-final and current-first segment anchors; existing validator unchanged."
+  },
+  "validation_note": "An assertion expecting unchanged31 draft segments failed after coordinator concurrently integrated page4; final check confirms49 and unchanged acceptance boundaries.",
+  "limits": [
+    "No glyph, segmentation or physical completeness certification.",
+    "18 tentative segments do not add18 accepted sayings; accepted increment0.",
+    "Matching review SHA binds bytes, not human approval or validation of review conclusions.",
+    "No repository edits, Git mutations, new validator feature or browser actions."
+  ]
+}

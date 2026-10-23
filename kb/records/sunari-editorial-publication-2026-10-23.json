@@ -1,0 +1,84 @@
+{
+  "recorded_at": "2026-10-23T16:52:36.123525+00:00",
+  "authorization": "POD-DEC-225",
+  "program_item": "POD-A500-131",
+  "work_id": "POD-WORK-322",
+  "queue_item": "POD-EDIT-478",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/467",
+  "reviewed_head": "e6adc7643a71da17dc66bf5b186f8a012ad7748e",
+  "merge_commit": "d1de8d73ca386e4900c00e1cde369955952de3e5",
+  "validation": {
+    "conclusion": "success",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39989013999"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "createdAt": "2026-10-23T16:47:44Z",
+    "databaseId": 39989731894,
+    "headSha": "d1de8d73ca386e4900c00e1cde369955952de3e5",
+    "status": "completed",
+    "updatedAt": "2026-10-23T16:51:25Z",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39989731894",
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "review": "records/sunari-delivery-review-2026-10-23.json",
+  "live": {
+    "result": "PASS",
+    "checked_at": "2026-10-23T16:52:10.263833+00:00",
+    "url": "https://projectodisha.org/communities/sunari/",
+    "html_sha256": "9d5473dc237c787c2344613f26d7708c14773add7b47a03e489521b969003bde",
+    "checks": {
+      "all_canonical_prose": true,
+      "lead": true,
+      "byline": true,
+      "four_note_targets": true,
+      "search_boundary": true,
+      "description": true
+    }
+  },
+  "live_browser": {
+    "worker": "Samanta (AI)",
+    "result": "pass",
+    "checked_at": "2026-10-23T16:52:25.915Z",
+    "input_head": "d1de8d73ca386e4900c00e1cde369955952de3e5",
+    "deployment": "39989731894",
+    "checks": {
+      "byline": true,
+      "collapsed": true,
+      "height": 844,
+      "notes": [
+        "note-chasa-bhadrak-gazetteer",
+        "note-kansari-census1961-survey1967",
+        "note-sunari-misra-kotpad2025",
+        "note-sunari-gajapati-industries"
+      ],
+      "scrollWidth": 390,
+      "url": "https://projectodisha.org/communities/sunari/",
+      "width": 390,
+      "note_navigation": {
+        "focus": "note-chasa-bhadrak-gazetteer",
+        "hash": "#note-chasa-bhadrak-gazetteer"
+      },
+      "return_navigation": {
+        "focus": "ref-regional-names-0-chasa-bhadrak-gazetteer",
+        "hash": "#ref-regional-names-0-chasa-bhadrak-gazetteer"
+      }
+    },
+    "screenshot": "/tmp/pod-sunari-live-mobile.png",
+    "limits": [
+      "Read-only production browser check; no Save or download action.",
+      "Deployment identity supplied by coordinator; coordinator verifies exact HTML separately.",
+      "No human review claimed."
+    ]
+  },
+  "verified_routes": [
+    "/communities/sunari/"
+  ],
+  "limits": [
+    "Separate AI review; no human community review or project fieldwork.",
+    "Regional names and mixed-community craft participation are not universal aliases or caste inferred from work.",
+    "No founder, formation date or current household census established. Kotpad testimony is dated2025 reporting.",
+    "No image rights verified; text-first article. Search eligibility unchanged."
+  ]
+}

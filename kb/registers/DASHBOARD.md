@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `2b85e9014573fb561f4472e479cd4c5c7e0c67c0c20b05c8933e9c73131e2460`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `7f2ea3da7533963e027b9a3affdcb9201f8bc66e2534b82cba98351d47de3243`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -345,6 +345,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-318 · Research and publish Mali community history | completed | published | Ahimanikya Satapathy | Retain ownership through receipt merge before another article. | — |
 | POD-WORK-319 · Research and publish Dhoba community history | completed | published | Ahimanikya Satapathy | Retain ownership through receipt merge before another article. | — |
 | POD-WORK-320 · Research and publish Patara community history | completed | published | Ahimanikya Satapathy | Retain ownership through receipt merge before another article. | — |
+| POD-WORK-321 · Research and publish Kamar community history | completed | published | Ahimanikya Satapathy | Retain ownership through receipt merge before another article. | — |
+| POD-WORK-322 · Research and publish Sunari community history | completed | published | Ahimanikya Satapathy | Retain ownership through receipt merge before another article. | — |
 | POD-WORK-2026102391 · Prahallad Nataka research, comparative theatre guide and article | completed | reviewed | Ahimanikya Satapathy | Read local feature and guide; unresolved scholarly and practitioner questions remain in the dossier. Website publication is not part of this delivery. | — |
 | POD-WORK-2026102392 · Nayika articles and Odissi & Beyond concept survey | in_progress | reviewed | Ahimanikya Satapathy | Local articles delivered; reconcile five-post count gap and inspect complete media before claiming exhaustive archive review. | — |
 
@@ -1019,6 +1021,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026102307 | pass_with_limitations | True | Separate AI review, not human community review or fieldwork.; No universal name equivalence, surname-based caste assignment or verified caste founding date established.; Thurston1909 waterlift hospitality is reported testimony; Kasi–Jeypore migration remains a tradition. Original1871census not separately inspected.; Niyogi report published4April2023; visit date unspecified. Comparison does not establish continuous family histories.; Bhadrak exact imprint unresolved; Ganjam Mali/Raula heading remains regional, not universal equivalence.; No photograph reuse rights verified; no image copied. Search eligibility unchanged. |
 | POD-REV-2026102308 | pass_with_limitations | True | Separate AI review, not human community review or fieldwork.; No universal alias, surname-based caste assignment or verified community formation date established.; Daanla investigation1962/publication1968 describes one village; original payment units and caste exclusions retained.; Bhadrak ritual contamination is reported belief, not physical dirt or intrinsic status.; Gazetteer exact imprint and practice dates unresolved; Gandi worship and laundry changes are regional accounts, not a current survey.; SCSTRTI unavailable; CWDS draft deferred. No image rights verified; no image added. Search eligibility unchanged. |
 | POD-REV-2026102309 | pass_with_limitations | True | Separate AI review, not human community review or fieldwork.; No universal alias, surname-based caste assignment or verified community formation date established.; Bhadrak district account has unresolved exact imprint and practice dates.; Thurston1909 describes historical organisation, not current identity authority; Telugu Patras remain distinct.; Named Puri service reporting from2017 and2026 does not represent all Patara households or establish practice antiquity.; NCBC scan unread and excluded. No image rights verified; no image added. Search eligibility unchanged. |
+| POD-REV-2026102310 | pass_with_limitations | True | Separate AI review, not human community review or fieldwork.; No universal alias, surname-based caste assignment or verified community formation date established.; Ganjam district craft grouping has unresolved exact imprint and practice dates.; Crafts1962 fieldwork/published1967 is period evidence; closure causes attributed to smelters, not independently verified legal findings.; Daanla1962/published1968 household and occupational passages remain distinct; payment per pair of bullocks is local history, not current rate.; Source stereotypes and unsubstantiated settlement chronology excluded. No image rights verified; no image added. Search eligibility unchanged. |
+| POD-REV-2026102311 | pass_with_limitations | True | Separate AI review; no human community review or project fieldwork.; Regional names and mixed-community craft participation are not universal aliases or caste inferred from work.; No founder, formation date or current household census established. Kotpad testimony is dated2025 reporting.; No image rights verified; text-first article. Search eligibility unchanged. |
 
 ## Publication and application history
 
@@ -1255,6 +1259,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026102307 · Mali gardens water and regional names | published | https://projectodisha.org/communities/mali/ | POD-DEC-225 |
 | POD-REL-2026102308 · Dhoba washing payment and ceremonial work | published | https://projectodisha.org/communities/dhoba/ | POD-DEC-225 |
 | POD-REL-2026102309 · Patara yarn trade and temple craft | published | https://projectodisha.org/communities/patara/ | POD-DEC-225 |
+| POD-REL-2026102310 · Kamar iron household work and village tools | published | https://projectodisha.org/communities/kamar/ | POD-DEC-225 |
+| POD-REL-2026102311 · Sunari ornaments family learning and changing work | published | https://projectodisha.org/communities/sunari/ | POD-DEC-225 |
 
 ## Sources and assets
 
