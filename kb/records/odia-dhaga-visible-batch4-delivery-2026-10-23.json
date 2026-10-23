@@ -1,0 +1,133 @@
+{
+  "recorded_at": "2026-10-23T18:21:45.556077+00:00",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/473",
+  "reviewed_head": "4342899a4dce461daca61c3b37bf83410781d65b",
+  "merge_commit": "9c82dca8447a9124960a8c495c23e7c2b68e2162",
+  "merged_at": "2026-10-23T18:21:26Z",
+  "validation_run": "https://github.com/ahimanikya/project-odisha/actions/runs/40001942745",
+  "validation_result": "success",
+  "delivery": "Eight explained sayings027–034 added; reader expanded from26to34.",
+  "accepted_entry_increment": 8,
+  "unique_explained_entries": 34,
+  "programme_increment": 0,
+  "review": {
+    "reviewer": "Drishti",
+    "review_type": "Independent AI source/content review, not human proofreading",
+    "input_head": "a120faffad0ead1b4ea5c026ddfa64c2dafe12d3",
+    "research_input_head": "3fe6cd7191bceb9c09570ba83102e70b36f02be7",
+    "reviewed_head": "4342899a4dce461daca61c3b37bf83410781d65b",
+    "draft_sha256": "3294c875222e2d72f63c0e33cc28d18cb047ebd8ee37dc8b20dd8311d58f4ff8",
+    "status": "pass_with_limitations",
+    "checks": [
+      "Read all eight proposed entries and source audit. Compared all headwords and later multiline passages with original Wikimedia canonical page and matching revision6945232 footer.",
+      "Verified introductory glosses excluded from 032–034 and digital punctuation retained.",
+      "Eight unique headwords, none duplicate existing26. Historical research fragments are not accepted entries; no historical promotion claimed.",
+      "Read literal and figurative English, Odia summaries and labelled original examples. 028 staged conflict distinct from026 double-dealing;033 ignored guest distinct from019 insincere host;031 resistance to improvement distinct from032 resolve under pressure.",
+      "Idiomatic labels for conversational complaints/replies and proverbial labels for generalised contrast/warning are defensible editorial classifications.",
+      "027 bodily image not a diagnosis;030 hand/forehead gesture not prescribed action;033 exclamation not death report;034 pride metaphor not deterministic fate.",
+      "CC BY-SA attribution/revision/licence/adaptation notices present; unknown origin and pending human proofreading retained.",
+      "Compared integrated34 entries: prior26 unchanged as JSON objects against a120faff; eight additions match research draft except requested031 context clarification.",
+      "Final head and reviewed collection/reader hashes remain unchanged. Independently checked deterministic render equality.",
+      "Read actual test log: eight reader tests pass and transcription suite reports thirty-two negative cases rejected.",
+      "Personally viewed desktop1440x1000 and mobile390x844 screenshots: readable selected reader states, visible keyboard focus, expanded source/rights/origin notes,34-entry count and one matching search result. No clipping evident in captures.",
+      "Read Samanta interaction report for Odia/English search, theme/reset, disclosure keyboard activation and031 note. Interactions were not independently replayed."
+    ],
+    "limits": [
+      "Final local reader review; no hosted deployment or direct-file-browser certification. Screenshots cover selected states, not every card.",
+      "Source is contemporary community compilation, not evidence of first authorship, antiquity or exclusive origin.",
+      "Genre and English/Odia interpretations remain editorial assessments, not human or community validation.",
+      "Search found other contemporary spellings of031 but no new historical witness or dictionary certification was established."
+    ],
+    "resolved_findings": [
+      {
+        "entry": "POD-DHAGA-031",
+        "severity": "correction_before_release",
+        "issue": "Half-burnt interprets source spelling ଦରପଡ଼ା as ଦରପୋଡ଼ା without saying so.",
+        "requested_change": "Retain exact source headword; explicitly label half-burnt an editorial interpretation of this spelling, with lexical/human review still pending.",
+        "resolution": "Verified explicit source-spelling interpretation and pending lexical/human review note in integrated031; exact Odia unchanged."
+      }
+    ],
+    "findings": [],
+    "file_hashes": {
+      "projects/odia-dhaga/collection.json": "1841456b7e00a7b3dc1eb27321d6a660fd445f37228955512026f52c8de39ecf",
+      "projects/odia-dhaga/index.html": "b3152fca31d99927018158b2cd6e6b6fdc8aa4e1d85b6721edcf6bde94dc6989"
+    },
+    "implementation_report": "/tmp/pod-dhaga-visible4-implementation.json",
+    "screenshots": [
+      "/tmp/pod-dhaga-visible4-desktop.png",
+      "/tmp/pod-dhaga-visible4-mobile.png"
+    ]
+  },
+  "implementation": {
+    "worker": "Samanta AI implementation validation",
+    "input_head": "4342899a4dce461daca61c3b37bf83410781d65b",
+    "checked_at": "2026-10-23T18:16:24.831422+00:00",
+    "result": "pass",
+    "collection_sha256": "1841456b7e00a7b3dc1eb27321d6a660fd445f37228955512026f52c8de39ecf",
+    "index_sha256": "b3152fca31d99927018158b2cd6e6b6fdc8aa4e1d85b6721edcf6bde94dc6989",
+    "entry_count": 34,
+    "previous26_unchanged": true,
+    "tests": [
+      {
+        "command": "python3 -m unittest discover -s projects/odia-dhaga -p 'test_*.py'",
+        "result": "8 reader tests and32 transcription negative fixtures/positive cases pass",
+        "log": "/tmp/pod-dhaga-visible4-tests.log"
+      },
+      {
+        "command": "build.render(collection) == index.html",
+        "result": "pass byte-identical generated reader"
+      },
+      {
+        "command": "compare aeb758e1 collection entries with current first26",
+        "result": "all26 unchanged"
+      }
+    ],
+    "browser": {
+      "url": "http://127.0.0.1:8795/",
+      "fresh_count": "34 of34",
+      "desktop": [
+        1440,
+        1000
+      ],
+      "mobile": [
+        390,
+        844
+      ],
+      "mobile_document_width": 390,
+      "odia_search": "କ୍ଷୀର ଉତୁରିଲେ →034 only",
+      "english_search": "Pride that boils over →034 only",
+      "theme": "pride →1 of34",
+      "clear_filters": "34 of34 restored on desktop and mobile",
+      "source_disclosure": "034 keyboard opened; exact revision6945232, rights and origin limits visible",
+      "interpretation_note031": "Half-burnt explicitly editorial interpretation; lexical and human review pending visible",
+      "screenshots": [
+        "/tmp/pod-dhaga-visible4-desktop.png",
+        "/tmp/pod-dhaga-visible4-mobile.png"
+      ],
+      "image_dimensions_verified": {
+        "desktop": "/private/tmp/pod-dhaga-visible4-desktop.png\n  pixelWidth: 1440\n  pixelHeight: 1000\n",
+        "mobile": "/private/tmp/pod-dhaga-visible4-mobile.png\n  pixelWidth: 390\n  pixelHeight: 844\n"
+      },
+      "inspection": "Readable desktop two-column card and mobile stacked content; no clipping or horizontal overflow observed.",
+      "viewport_reset": true
+    },
+    "limits": [
+      "No source or Git writes.",
+      "Local preview only; no hosted release or direct-file-browser certification.",
+      "Meaning and provenance reviewed separately; no human proofreading claimed."
+    ],
+    "validation_head": "4342899a4dce461daca61c3b37bf83410781d65b"
+  },
+  "remote_file_sha256": {
+    "projects/odia-dhaga/collection.json": "1841456b7e00a7b3dc1eb27321d6a660fd445f37228955512026f52c8de39ecf",
+    "projects/odia-dhaga/index.html": "b3152fca31d99927018158b2cd6e6b6fdc8aa4e1d85b6721edcf6bde94dc6989"
+  },
+  "deployment": {
+    "required": false,
+    "reason": "Standalone repository/local reader; public-site content unchanged."
+  },
+  "limits": [
+    "Human Odia proofreading remains pending.",
+    "Contemporary licensed sources do not establish ancient origin or public-domain status."
+  ]
+}
