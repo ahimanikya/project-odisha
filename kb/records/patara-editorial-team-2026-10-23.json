@@ -3,7 +3,7 @@
   "article_id": "POD-EDIT-476",
   "programme_id": "POD-A500-129",
   "work_id": "POD-WORK-320",
-  "status": "in_progress",
+  "status": "published_receipt_integration_pending",
   "input_head": "2269ed6459009e328ca562e125ce2b880e0b02f3",
   "started_at": "2026-10-23T03:50:29.757935+00:00",
   "route": "/communities/patara/",
@@ -35,7 +35,7 @@
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Read-only integrated candidate review",
-      "status": "content_review_completed_final_pending",
+      "status": "completed",
       "scope_released": false
     },
     {
@@ -46,7 +46,7 @@
     }
   ],
   "worker_reconciliation": "Dhoba receipt PR459 merged399e5566; completion2269ed64 retained. Previous workers completed and scopes released; external current_article/task null; unrelated PR304/281 untouched.",
-  "next_action": "Exact committed-head separate AI review, passing PR checks and approved publication; retain ownership through receipt merge.",
+  "next_action": "Merge reviewed receipt with passing required checks, observe actual merge, then release ownership.",
   "research": {
     "role": "Anvesha, read-only source researcher",
     "input_head": "2269ed6459009e328ca562e125ce2b880e0b02f3",
@@ -379,5 +379,12 @@
       "patara-baral-rakhi2026"
     ]
   },
-  "coordinator_visual_check": "Disha inspected actual390x844 header/body screenshots; readable, no clipping; evidence from Samanta actual browser retained."
+  "coordinator_visual_check": "Disha inspected actual390x844 header/body screenshots; readable, no clipping; evidence from Samanta actual browser retained.",
+  "publication_receipt": "records/patara-editorial-publication-2026-10-23.json",
+  "review": "records/patara-delivery-review-2026-10-23.json",
+  "counting": {
+    "completed_items": 129,
+    "increment": 1,
+    "basis": "Individually researched published article with live evidence; receipt integration pending."
+  }
 }

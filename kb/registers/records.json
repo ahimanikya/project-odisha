@@ -9284,18 +9284,21 @@
       "id": "POD-WORK-320",
       "title": "Research and publish Patara community history",
       "category": "website_and_knowledge",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti AI review",
       "authorization": "POD-DEC-225",
-      "next_action": "Research and implement, then separately review and publish with receipt.",
+      "next_action": "Retain ownership through receipt merge before another article.",
       "blockers": [],
       "refs": [
-        "POD-DEC-225"
+        "POD-DEC-225",
+        "POD-REV-2026102309",
+        "POD-REL-2026102309"
       ],
       "evidence": [
-        "records/patara-editorial-team-2026-10-23.json"
+        "records/patara-editorial-team-2026-10-23.json",
+        "records/patara-editorial-publication-2026-10-23.json"
       ]
     }
   ],
@@ -22685,6 +22688,33 @@
         "Gazetteer exact imprint and practice dates unresolved; Gandi worship and laundry changes are regional accounts, not a current survey.",
         "SCSTRTI unavailable; CWDS draft deferred. No image rights verified; no image added. Search eligibility unchanged."
       ]
+    },
+    {
+      "id": "POD-REV-2026102309",
+      "title": "Separate Patara source and integrated article review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human historian or community review.",
+      "reviewed_head": "31d0f85d15dd4290d15aaf7b2dfd7c34e7cec7bf",
+      "refs": [
+        "POD-WORK-320",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/patara-delivery-review-2026-10-23.json"
+      ],
+      "limitations": [
+        "Separate AI review, not human community review or fieldwork.",
+        "No universal alias, surname-based caste assignment or verified community formation date established.",
+        "Bhadrak district account has unresolved exact imprint and practice dates.",
+        "Thurston1909 describes historical organisation, not current identity authority; Telugu Patras remain distinct.",
+        "Named Puri service reporting from2017 and2026 does not represent all Patara households or establish practice antiquity.",
+        "NCBC scan unread and excluded. No image rights verified; no image added. Search eligibility unchanged."
+      ]
     }
   ],
   "releases": [
@@ -26450,6 +26480,22 @@
         "records/dhoba-editorial-publication-2026-10-23.json"
       ],
       "note": "Reviewed PR458, passing checks, approved deployment and live verification. One substantive article; search eligibility unchanged."
+    },
+    {
+      "id": "POD-REL-2026102309",
+      "title": "Patara yarn trade and temple craft",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/communities/patara/",
+      "refs": [
+        "POD-WORK-320",
+        "POD-REV-2026102309",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/patara-editorial-publication-2026-10-23.json"
+      ],
+      "note": "Reviewed PR460, passing checks, approved deployment and live verification. One substantive article; search eligibility unchanged."
     }
   ],
   "sources": [

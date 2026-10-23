@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e072b3a010b266d022b82b018eaff38d411d13bb04cfc92e4d433891bc3176a1`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `56902b02fe35df41faeccd092160fd41af3d355895eefc011bba3a3024c685e8`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -344,7 +344,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-317 · Research and publish Bhandari community history | completed | published | Ahimanikya Satapathy | Retain ownership through receipt merge before another article. | — |
 | POD-WORK-318 · Research and publish Mali community history | completed | published | Ahimanikya Satapathy | Retain ownership through receipt merge before another article. | — |
 | POD-WORK-319 · Research and publish Dhoba community history | completed | published | Ahimanikya Satapathy | Retain ownership through receipt merge before another article. | — |
-| POD-WORK-320 · Research and publish Patara community history | in_progress | draft | Ahimanikya Satapathy | Research and implement, then separately review and publish with receipt. | — |
+| POD-WORK-320 · Research and publish Patara community history | completed | published | Ahimanikya Satapathy | Retain ownership through receipt merge before another article. | — |
 
 ## Pending human review and decisions
 
@@ -1014,6 +1014,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026102306 | pass_with_limitations | True | Separate AI review, not human community review or fieldwork.; No universal name equivalence, surname-based caste assignment or verified single founder/creation date established.; Thurston1909 quotes Rice name explanation; not an inspected foundation charter. Wedding sequence is historical Ganjam evidence, not proof of every modern Haldi format.; Bhadrak imprint unresolved; author’s broad service-relationship claim limited, individual grants not inspected.; Ganjam salon/band changes are regional observations with practice dates unspecified; no current employment survey or cultural-displacement conclusion.; No authenticated community-specific image added; search eligibility unchanged. |
 | POD-REV-2026102307 | pass_with_limitations | True | Separate AI review, not human community review or fieldwork.; No universal name equivalence, surname-based caste assignment or verified caste founding date established.; Thurston1909 waterlift hospitality is reported testimony; Kasi–Jeypore migration remains a tradition. Original1871census not separately inspected.; Niyogi report published4April2023; visit date unspecified. Comparison does not establish continuous family histories.; Bhadrak exact imprint unresolved; Ganjam Mali/Raula heading remains regional, not universal equivalence.; No photograph reuse rights verified; no image copied. Search eligibility unchanged. |
 | POD-REV-2026102308 | pass_with_limitations | True | Separate AI review, not human community review or fieldwork.; No universal alias, surname-based caste assignment or verified community formation date established.; Daanla investigation1962/publication1968 describes one village; original payment units and caste exclusions retained.; Bhadrak ritual contamination is reported belief, not physical dirt or intrinsic status.; Gazetteer exact imprint and practice dates unresolved; Gandi worship and laundry changes are regional accounts, not a current survey.; SCSTRTI unavailable; CWDS draft deferred. No image rights verified; no image added. Search eligibility unchanged. |
+| POD-REV-2026102309 | pass_with_limitations | True | Separate AI review, not human community review or fieldwork.; No universal alias, surname-based caste assignment or verified community formation date established.; Bhadrak district account has unresolved exact imprint and practice dates.; Thurston1909 describes historical organisation, not current identity authority; Telugu Patras remain distinct.; Named Puri service reporting from2017 and2026 does not represent all Patara households or establish practice antiquity.; NCBC scan unread and excluded. No image rights verified; no image added. Search eligibility unchanged. |
 
 ## Publication and application history
 
@@ -1249,6 +1250,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026102306 · Bhandari ceremonial service and changing livelihoods | published | https://projectodisha.org/communities/bhandari/ | POD-DEC-225 |
 | POD-REL-2026102307 · Mali gardens water and regional names | published | https://projectodisha.org/communities/mali/ | POD-DEC-225 |
 | POD-REL-2026102308 · Dhoba washing payment and ceremonial work | published | https://projectodisha.org/communities/dhoba/ | POD-DEC-225 |
+| POD-REL-2026102309 · Patara yarn trade and temple craft | published | https://projectodisha.org/communities/patara/ | POD-DEC-225 |
 
 ## Sources and assets
 
@@ -1286,7 +1288,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261022007 | 2026-10-22T03:01:16.820672+00:00 | Karana history published through reviewed PR434 and approved deployment; live checks passed.71 editorial articles complete;119 substantive items. Claim retained through receipt merge. | — |
 | POD-EVT-20261022008 | 2026-10-22T03:58:51.049150+00:00 | Kaibarta history published through reviewed PR436 and approved deployment; live checks passed.72 editorial articles complete;120 substantive items. Claim retained through receipt merge. | — |
 | POD-EVT-20261023001 | 2026-10-22T18:42:41.285800+00:00 | Nolia history published through reviewed PR443 and approved deployment; live checks passed. 74 editorial articles complete;121 substantive items. Claim retained through receipt merge. | — |
 | POD-EVT-20261023002 | 2026-10-22T19:10:33.157073+00:00 | Kansari history published through reviewed PR446 and approved deployment; live checks passed. 75 editorial articles complete;122 substantive items. Claim retained through receipt merge. | — |
@@ -1296,6 +1297,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261023006 | 2026-10-22T23:20:49.523941+00:00 | Bhandari history published through reviewed PR454 and approved deployment; live checks passed. 79 editorial articles complete;126 substantive items. Claim retained through receipt merge. | — |
 | POD-EVT-20261023007 | 2026-10-23T00:31:08.679888+00:00 | Mali history published through reviewed PR456 and approved deployment; live checks passed. 80 editorial articles complete;127 substantive items. Claim retained through receipt merge. | — |
 | POD-EVT-20261023008 | 2026-10-23T03:41:56.684183+00:00 | Dhoba history published through reviewed PR458 and approved deployment; live checks passed. 81 editorial articles complete;128 substantive items. Claim retained through receipt merge. | — |
+| POD-EVT-20261023009 | 2026-10-23T04:08:54.690630+00:00 | Patara history published through reviewed PR460 and approved deployment; live checks passed. 82 editorial articles complete;129 substantive items. Claim retained through receipt merge. | — |
 
 ## Deferred extensions
 

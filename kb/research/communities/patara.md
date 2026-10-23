@@ -13,4 +13,4 @@ No verified founder or formation date. Administrative grouped names stay unmerge
 
 No rights-cleared community-specific photograph identified. News photos not reused; generic weavers cannot establish caste. Text-first treatment preserves cultural and media honesty. Separate AI research and review do not assert human/community review or fieldwork.
 
-POD-EDIT-476; POD-A500-129; POD-WORK-320. Candidate awaiting review and publication evidence.
+POD-EDIT-476; POD-A500-129; POD-WORK-320. Published with separate AI review, tests, approved deployment and [live receipt](../../records/patara-editorial-publication-2026-10-23.json). Local and community research questions remain open.
