@@ -1,6 +1,6 @@
 {
   "task_id": "POD-TASK-DHAGA-20261023",
-  "status": "batch2_candidate_review",
+  "status": "batch2_reviewed_merge_pending",
   "input_head": "93fba198856fccc3011d82f1fb939c74e26f90a9",
   "scope": "Founder requested deep research and a repository of Odia dhaga with explanations and selective graphics. Deliver a bounded sourced seed collection, accessible local browser and expansion research map; do not claim exhaustive coverage.",
   "acceptance": [
@@ -364,6 +364,82 @@
       "researchmap/index/workbench regenerated andchecked",
       "programmecountunchanged130",
       "coordinator visually inspected historicalscans andmobileimage"
-    ]
+    ],
+    "review": {
+      "reviewer": "Drishti, separate AI review, not human proofreading",
+      "input_head": "d414da24718790a874c3a48419214535740a4235",
+      "reviewed_head": "d2ed373e840630d636edd96cf8614cef86165b94",
+      "status": "PASS",
+      "checked_at": "2026-10-23T06:17:14.951522+00:00",
+      "findings": [],
+      "blockers": [],
+      "checks": [
+        "Read active batch scope, source audit, five new canonical entries, ledger, image provenance and code/test delta.",
+        "Independently reopened original Wikimedia page and checked exact five wordings at lines101/105/113/115/134; entry012 correctly separates explanatory gloss from saying.",
+        "Visually inspected historical printed1/PDF2 and printed3/PDF4. First proverb supports011 and second under A supports related012. Normalized readings labelled provisional, historical address differs from contemporary and no coinage/date certainty claimed.",
+        "Entry015 uncertain historical candidate deferred; no fabricated complete transcription. Ledger has zero fully transcribed or human-reviewed pages and next full transcription remains PDF2.",
+        "Meanings distinguish moral warnings from predictions, devotion from dishonesty, darkness from disability and spending expectations from blame for poverty. Examples explicitly newly composed.",
+        "Visually inspected full approved PNG: coherent contemporary illustrative diptych, not historical evidence. Caption credits AI-assisted Project Odisha work without traditional artist attribution; no source scan bundled.",
+        "PNG path extension preserves narrow local asset regex; expanded traversal/remote/query negative tests inspected. Independently ran all eight tests: PASS. git diff --check PASS.",
+        "Final README idiomatic count corrected to three. All saved content-checkpoint hashes unchanged; README correction and final generation were already present when that checkpoint was hashed.",
+        "Final index exactly reproduces generator output and data/index hashes match final Samanta report; eight tests independently passed again, diff check passed and worktree clean.",
+        "Personally inspected all four final screenshots: desktop 1440x1000 and mobile390x844 samples readable, illustration fits and AI provenance visible. Entry012 mobile text readable. Browser search/reset/keyboard variant checks are Samanta evidence, not Drishti replay."
+      ],
+      "limitations": [
+        "Direct file:// browser execution and actual print/PDF output untested. Browser interaction verified by Samanta over loopback; reviewer inspected supplied final screenshots and static generation.",
+        "No human Odia proofreading or full historical collation. Variant punctuation and old glyphs remain provisional.",
+        "No independent verification of first coiners, regional distribution or worldwide copyright status.",
+        "No autonomous programme credit; five additional editorial entries do not certify an exhaustive anthology."
+      ],
+      "file_sha256": {
+        "projects/odia-dhaga/test_repository.py": "51742d354b271e6df497fe1e653db1f89f97274bc94c2f29f6fafc0e27fb8663",
+        "projects/odia-dhaga/build.py": "69c26db03a06f0536d51642dc3f5e33a5953ea40d941294d91f6f929d440824d",
+        "projects/odia-dhaga/index.html": "2d5b91583914206adb8d43d0be86a940fde53e0be81eedb748562bc7bb5fab47",
+        "projects/odia-dhaga/README.md": "9d6fb865ea2ea20ca331f94d76c11d863817eaa827e3b5e60964d19d87676650",
+        "projects/odia-dhaga/collection.json": "972aa35edb0a31304811daac76196c38943961a911c88cb29f93426ad69558cb",
+        "projects/odia-dhaga/coverage-ledger.json": "deea7fe3e505a441cd6ec1bb871c3776db2fb5c290ae823f264255a3f8d00f9a",
+        "projects/odia-dhaga/artwork-provenance.json": "3c73229fd127a5d5e5813e76e611466db33a4706ed26bcb7ad4fa8a3ab14111b",
+        "projects/odia-dhaga/assets/lemon-moderation.svg": "96e1640c6a214edfbc9c6eb42aa317dead63ae12887eb90e81cfa6bae121c3be",
+        "projects/odia-dhaga/assets/SourceSerif4-OFL.txt": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9",
+        "projects/odia-dhaga/assets/SourceSerif4-Variable.woff2": "4453d73855919eb67a8291bf2bad07782ecaf8af0e4e363d58948ff993209d51",
+        "projects/odia-dhaga/assets/NotoSerifOriya-OFL.txt": "c90ff15ade263a49148e35af34e9c177c6d56881e81260b29f10123e9e227eca",
+        "projects/odia-dhaga/assets/lemon-heritage-v1.png": "5f59025cecdba8c96aa590e7ea5138b6a0ccb07b203e80e45788f27423ecb8dc",
+        "projects/odia-dhaga/assets/NotoSerifOriya-Variable.woff2": "f83bd7dbbfefbe3f7ee544f07f0de44eb59bd370abb44ec9568fab23a53175a1",
+        "projects/odia-dhaga/assets/preparation-timeline.svg": "54f244f9bf0ad012dc7ef9a02fc914e656f4e1bec856766706847aa3f509de35"
+      },
+      "history": [
+        {
+          "reviewer": "Drishti, separate AI review, not human proofreading",
+          "input_head": "d414da24718790a874c3a48419214535740a4235",
+          "reviewed_head": null,
+          "status": "CONTENT_PASS_WITH_MINOR_CORRECTION; FINAL_GATE_PENDING",
+          "checked_at": "2026-10-23T06:15:54.358161+00:00",
+          "findings": [
+            {
+              "severity": "minor",
+              "file": "projects/odia-dhaga/README.md",
+              "issue": "Genre paragraph says two idiomatic sayings; data now has three (005,009,014).",
+              "requested_change": "Change two to three or remove numeric count."
+            }
+          ],
+          "blockers": [],
+          "limitations": [
+            "Direct file:// browser execution and actual print/PDF output untested. Browser interaction verified by Samanta over loopback; reviewer inspected supplied final screenshots and static generation.",
+            "No human Odia proofreading or full historical collation. Variant punctuation and old glyphs remain provisional.",
+            "No independent verification of first coiners, regional distribution or worldwide copyright status.",
+            "No autonomous programme credit; five additional editorial entries do not certify an exhaustive anthology."
+          ]
+        }
+      ],
+      "resolved_findings": [
+        {
+          "severity": "minor",
+          "file": "projects/odia-dhaga/README.md",
+          "issue": "Genre paragraph says two idiomatic sayings; data now has three (005,009,014).",
+          "requested_change": "Change two to three or remove numeric count."
+        }
+      ]
+    },
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/465"
   }
 }
