@@ -17,7 +17,7 @@ test('Identity essay renders one title, credited prose and an accessible reading
   assert.ok(description && description.length <= 250, 'Supply a concise article-specific search description');
   assert.match(html, /rel="canonical" href="https:\/\/projectodisha.org\/stories\/odia-cultural-identity\/"/);
   assert.doesNotMatch(article, /Prepared with AI assistance|human editorial review pending/);
-  assert.equal((article.match(/<img\b/g) || []).length, 1);
+  assert.equal((article.match(/<img\b/g) || []).length, 5, 'Hero plus four reading-path images');
   const figure = article.match(/<figure class="identity-illustration"[\s\S]*?<\/figure>/)?.[0];
   assert.ok(figure, 'The approved illustration appears in the article');
   assert.match(figure, /src="\/images\/stories\/odia-identity-passing-on-culture.webp"/);
