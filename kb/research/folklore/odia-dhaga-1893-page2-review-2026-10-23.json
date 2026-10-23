@@ -1,0 +1,43 @@
+{
+  "reviewer": "Drishti, independent AI; not human Odia proofreading",
+  "input_head": "af48419a228724a2ded2b3402593360dac41abdb",
+  "checked_at": "2026-10-23T06:34:02.071172+00:00",
+  "status": "PASS_RESEARCH_DRAFT_ONLY",
+  "scope": "Entire visible body of historical PDF2, with PDF3 opening checked for possible continuation. Acceptance only as unverified research attempts, never public-ready transcription.",
+  "draft_sha256": "a1499943febe60a576d2afe8d500896946016f6f0298959f38cc85b1a0438b97",
+  "image_sha256": "7ba9914cb31480aafec7ed690b0f58dc8282e1101f60716ad97884a7d9d7931b",
+  "actual_checks": [
+    "Personally inspected full PDF2 image and adjacent PDF3 image, including all body lines rather than only matched opening saying.",
+    "Confirmed eleven visible body lines, ten tentative segments. Segment2 spans physical lines2–3; headers/watermark correctly excluded.",
+    "Reviewed every proposed segment against scan. Numerous uncertain clusters prevent reliable exact transcription; broad provisional labels and null normalized fields are essential.",
+    "Segment1 lexical correspondence supported; historical spacing and diacritics remain provisional. Segments2–9 visibly terminate in danda but individual lexical readings are not certified.",
+    "Final PDF2 line lacks obvious terminal danda. PDF3 opening appears potentially separate but syntax/glyph uncertainty prevents either a confirmed join or confident complete-saying assertion. Null continuation and separate next-page attempt are appropriate.",
+    "No new meanings/origins supplied for uncertain readings; accepted increment0, page_complete false and no human review preserve honest progress.",
+    "Verified all three uncertainty corrections in exact final draft; null normalization, false page completion, zero corpus increment and unresolved continuation retained."
+  ],
+  "limits": [
+    "Not a diplomatic edition or accepted corpus text. Separate AI scrutiny cannot certify all faint historical glyphs.",
+    "No full-page completion justified until unresolved tokens and last boundary are resolved and appropriately proofread.",
+    "No repository edits or publication; original source rights status unchanged."
+  ],
+  "recommendation": "Integrate exactly reviewed SHA as research-only provisional draft. Keep fully-transcribed and human-reviewed lists empty; PDF2 remains the next full-transcription task.",
+  "initial_draft_sha256": "a8e33645e09f6a0784068dccfb2834157a1aea23c4f9f80b34bf8fc2ed60d1d6",
+  "resolved_findings": [
+    {
+      "segment": "s05",
+      "severity": "minor",
+      "issue": "Uncertainty note says phrase is not bracketed although it is; remove stale clause."
+    },
+    {
+      "segment": "s09",
+      "severity": "minor",
+      "issue": "Consonant in unbracketed ପରେ uncertain; bracket proposed reading/alternative or retain unresolved token rather than privileging one."
+    },
+    {
+      "segment": "s10",
+      "severity": "minor",
+      "issue": "Second word currently unbracketed ଘରେ has ambiguous glyph structure; bracket it without asserting a guessed replacement."
+    }
+  ],
+  "findings": []
+}

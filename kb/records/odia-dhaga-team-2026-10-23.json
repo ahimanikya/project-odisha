@@ -1,6 +1,6 @@
 {
   "task_id": "POD-TASK-DHAGA-20261023",
-  "status": "batch2_reviewed_merge_pending",
+  "status": "batch2_delivered",
   "input_head": "93fba198856fccc3011d82f1fb939c74e26f90a9",
   "scope": "Founder requested deep research and a repository of Odia dhaga with explanations and selective graphics. Deliver a bounded sourced seed collection, accessible local browser and expansion research map; do not claim exhaustive coverage.",
   "acceptance": [
@@ -50,7 +50,7 @@
     "reason": "No autonomous-500 credit claimed for setup or the initial research collection."
   },
   "deployment": "Local standalone repository requested; no public-site deployment claimed.",
-  "next_action": "Dedicated Dhaga loop: resume1893visual transcription and edition/rights research, with source/page coverage ledger, then1926volume and discovered leads. Coordinate bounded batches with the continuing community programme; neither queued programme monopolizes the shared writer. Initial10entries delivered; preserve and expand them. Do not promise a finite known total or claim complete oral coverage.",
+  "next_action": "Continue1893PDF3 as next independent page attempt; retainPDF2 unresolved glyphs and continuation for second reading. Saved page2 research draft is linked from coverage ledger. Fifteen entries remain delivered; research checkpoint is local and unpublished. No active release lock; coordinate with community loop.",
   "research_report": "research/folklore/odia-dhaga-source-audit-2026-10-23.json",
   "implementation": {
     "worker": "Samanta, AI implementation agent",
@@ -440,6 +440,68 @@
         }
       ]
     },
-    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/465"
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/465",
+    "status": "delivered_scopes_released",
+    "delivery_receipt": "records/odia-dhaga-batch2-delivery-2026-10-23.json",
+    "final_reviewed_head": "e60bbc1a4654c0b2d73b0bd3786399e23a3ef836",
+    "scopes_released": true
+  },
+  "research_checkpoint": {
+    "status": "local_research_checkpoint_scopes_released",
+    "input_head": "af48419a228724a2ded2b3402593360dac41abdb",
+    "owner": "Disha",
+    "reserved_scope": [
+      "kb/research/folklore/odia-dhaga-1893-page2-transcription-2026-10-23.json",
+      "kb/research/folklore/odia-dhaga-1893-page2-review-2026-10-23.json",
+      "kb/research/folklore/odia-dhaga-1893-page2-validation-2026-10-23.json",
+      "projects/odia-dhaga/coverage-ledger.json",
+      "kb/records/odia-dhaga-team-2026-10-23.json"
+    ],
+    "accepted_increment": 0,
+    "programme_increment": 0,
+    "scopes_released": true,
+    "transcription_sha256": "a1499943febe60a576d2afe8d500896946016f6f0298959f38cc85b1a0438b97",
+    "independent_ai_review": "research/folklore/odia-dhaga-1893-page2-review-2026-10-23.json",
+    "mechanical_validation": "research/folklore/odia-dhaga-1893-page2-validation-2026-10-23.json",
+    "integration_review": "Drishti verified byte-identical integrated draft and ledger boundaries. Stale validation finding resolved by Samanta revalidation of final draft; Disha confirmed matching hash.",
+    "tests": [
+      "8 collection tests passed",
+      "Team assignment consistency passed",
+      "Autonomous programme consistency passed",
+      "Research-map validation passed",
+      "Bundle validation passed",
+      "Research reindex and editorial workbench regenerated with no differences",
+      "Integrated draft/review/validation hashes match"
+    ],
+    "delivery": "Unpublished provisional research checkpoint only; no PR, public release or deployment claimed. Carry into next reviewed repository release.",
+    "limits": [
+      "Ten tentative segments across eleven lines; not ten accepted sayings.",
+      "Page2 incomplete, glyph uncertainty and final boundary unresolved.",
+      "15 explained entries retained; zero human proofreading and zero fully transcribed pages."
+    ]
+  },
+  "page3_work": {
+    "status": "integrated_candidate_review",
+    "input_head": "5630ec35f9d1be7a8e30f280bd461b695475eb10",
+    "owner": "Disha",
+    "scope": [
+      "kb/research/folklore/odia-dhaga-1893-page3-transcription-2026-10-23.json",
+      "kb/research/folklore/odia-dhaga-1893-page3-review-2026-10-23.json",
+      "kb/research/folklore/odia-dhaga-1893-page3-validation-2026-10-23.json",
+      "projects/odia-dhaga/validate_transcription.py",
+      "projects/odia-dhaga/coverage-ledger.json",
+      "kb/records/odia-dhaga-team-2026-10-23.json",
+      "projects/odia-dhaga/test_transcription.py",
+      "projects/odia-dhaga/README.md",
+      ".github/workflows/validate-site.yml"
+    ],
+    "workers": {
+      "Anvesha": "Full page3 visual transcription; temporary file only",
+      "Samanta": "Reusable draft validator and negative fixtures; temporary files only",
+      "Drishti": "Separate visual and integrated AI review; read-only"
+    },
+    "scopes_released": false,
+    "accepted_increment": 0,
+    "programme_increment": 0
   }
 }

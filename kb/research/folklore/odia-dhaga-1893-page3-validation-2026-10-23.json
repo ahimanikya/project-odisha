@@ -1,0 +1,253 @@
+{
+  "worker": "Samanta, AI mechanical validation",
+  "input_head": "5630ec35f9d1be7a8e30f280bd461b695475eb10",
+  "checked_at": "2026-10-23T06:58:39.427381+00:00",
+  "result": "pass",
+  "page3": {
+    "draft_path": "/tmp/pod-dhaga-page3-transcription.json",
+    "transcription_sha256": "54bdebccc0096eb89459181be8599deaed58dea300ad558c5026291165d0805e",
+    "result": "pass",
+    "segment_count": 21,
+    "pdf_page": 3,
+    "declared_body_lines": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "same_line_segments": 6,
+    "line_gaps": [],
+    "accepted_corpus_increment": 0,
+    "human_reviewed": false,
+    "review_hash_verified": true,
+    "limits": [
+      "Structure only: not glyph accuracy, segmentation correctness, physical page completeness, rights or human review."
+    ]
+  },
+  "transcription_sha256": "54bdebccc0096eb89459181be8599deaed58dea300ad558c5026291165d0805e",
+  "page2": {
+    "draft_path": "/tmp/pod-dhaga-1893-page2-transcription.json",
+    "transcription_sha256": "a1499943febe60a576d2afe8d500896946016f6f0298959f38cc85b1a0438b97",
+    "result": "pass",
+    "segment_count": 10,
+    "pdf_page": 2,
+    "declared_body_lines": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "same_line_segments": 0,
+    "line_gaps": [],
+    "accepted_corpus_increment": 0,
+    "human_reviewed": false,
+    "review_hash_verified": true,
+    "limits": [
+      "Structure only: not glyph accuracy, segmentation correctness, physical page completeness, rights or human review."
+    ]
+  },
+  "negative_fixture_tests": [
+    {
+      "case": "duplicate ID",
+      "result": "rejected",
+      "reason": "duplicate segment id"
+    },
+    {
+      "case": "missing ID",
+      "result": "rejected",
+      "reason": "invalid segment id"
+    },
+    {
+      "case": "negative line",
+      "result": "rejected",
+      "reason": "positive line range pair required"
+    },
+    {
+      "case": "boolean line",
+      "result": "rejected",
+      "reason": "positive line range pair required"
+    },
+    {
+      "case": "overlapping lines",
+      "result": "rejected",
+      "reason": "unordered or overlapping line ranges"
+    },
+    {
+      "case": "missing page anchor",
+      "result": "rejected",
+      "reason": "printed_page anchor required"
+    },
+    {
+      "case": "mixed PDF page",
+      "result": "rejected",
+      "reason": "one PDF page per draft required"
+    },
+    {
+      "case": "source mismatch",
+      "result": "rejected",
+      "reason": "segment source mismatch"
+    },
+    {
+      "case": "missing uncertainties",
+      "result": "rejected",
+      "reason": "explicit uncertainty notes required"
+    },
+    {
+      "case": "accepted status",
+      "result": "rejected",
+      "reason": "explicit provisional not_accepted status required"
+    },
+    {
+      "case": "normalized speculative text",
+      "result": "rejected",
+      "reason": "provisional normalized_reading must be explicitly null"
+    },
+    {
+      "case": "missing normalized null",
+      "result": "rejected",
+      "reason": "provisional normalized_reading must be explicitly null"
+    },
+    {
+      "case": "page complete claim",
+      "result": "rejected",
+      "reason": "provisional page_complete must be false"
+    },
+    {
+      "case": "accepted corpus increase",
+      "result": "rejected",
+      "reason": "provisional accepted_corpus_increment must be integer zero"
+    },
+    {
+      "case": "human claim",
+      "result": "rejected",
+      "reason": "segment human_reviewed must be false"
+    },
+    {
+      "case": "top human count",
+      "result": "rejected",
+      "reason": "human_proofread_entries must be integer zero"
+    },
+    {
+      "case": "accepted IDs",
+      "result": "rejected",
+      "reason": "accepted_entry_ids must be empty for a provisional draft"
+    },
+    {
+      "case": "null continuation without cross note",
+      "result": "rejected",
+      "reason": "unresolved continuation requires cross_page note"
+    },
+    {
+      "case": "dangling continuation",
+      "result": "rejected",
+      "reason": "cross_page must reference final segment"
+    },
+    {
+      "case": "wrong next page",
+      "result": "rejected",
+      "reason": "cross_page next page mismatch"
+    },
+    {
+      "case": "nonfinal outgoing",
+      "result": "rejected",
+      "reason": "only final segment may have outgoing continuation"
+    },
+    {
+      "case": "stale review hash",
+      "result": "rejected",
+      "reason": "review SHA does not bind exact draft bytes"
+    },
+    {
+      "case": "duplicate portion",
+      "result": "rejected",
+      "reason": "unordered, duplicate or out-of-range line portion"
+    },
+    {
+      "case": "missing portion note",
+      "result": "rejected",
+      "reason": "line portion requires positive line/index and position note"
+    },
+    {
+      "case": "missing declared line portion",
+      "result": "rejected",
+      "reason": "line portions must cover declared line range"
+    },
+    {
+      "case": "unanchored overlap in portion mode",
+      "result": "rejected",
+      "reason": "all segments require line_portions in portion mode"
+    },
+    {
+      "case": "out of range portion",
+      "result": "rejected",
+      "reason": "unordered, duplicate or out-of-range line portion"
+    },
+    {
+      "case": "conflicting review hashes",
+      "result": "rejected",
+      "reason": "review SHA does not bind exact draft bytes"
+    },
+    {
+      "case": "missing incoming boundary",
+      "result": "rejected",
+      "reason": "incoming continuation note required"
+    },
+    {
+      "case": "wrong incoming target",
+      "result": "rejected",
+      "reason": "invalid incoming continuation anchors"
+    },
+    {
+      "case": "wrong incoming page",
+      "result": "rejected",
+      "reason": "invalid incoming continuation anchors"
+    },
+    {
+      "case": "wrong outgoing page",
+      "result": "rejected",
+      "reason": "invalid outgoing continuation anchors"
+    }
+  ],
+  "negative_passed": 32,
+  "artifacts_sha256": {
+    "/tmp/pod_validate_transcription.py": "352c6fe3fc480f54de93e5253242473dc9dd09c67e354e547d2d43ee22e93b99",
+    "/tmp/pod_test_transcription_validator.py": "32817559a92144b4f741287e3fc4a5fc7c9fae4bb9c4e81afb334139bd82bd4c",
+    "/tmp/pod-dhaga-page3-review.json": "722f4d2fd5d3107767c3525df0964938bce95b3a3bf5ff387f7c140b143bdf22"
+  },
+  "actual_edits": [
+    "/tmp/pod_validate_transcription.py",
+    "/tmp/pod_test_transcription_validator.py"
+  ],
+  "resolved_findings": [
+    "Initial start>last_end validator rejected legitimate same-line/multiline segments; generalized explicit ordered line_portions added and positive/negative overlap fixtures pass.",
+    "Review SHA supports draft_sha256 and transcription_sha256; conflicting bindings rejected.",
+    "Page3 nested incoming/outgoing schema supported with anchored boundary checks."
+  ],
+  "limits": [
+    "Mechanical structure and exact-review hash only; no independent glyph accuracy, segmentation correctness, physical page completeness or rights assessment.",
+    "Review hash verification binds bytes; does not certify review conclusions.",
+    "No accepted sayings or human proofreading added; page remains provisional.",
+    "No repository writes, Git mutations or browser actions."
+  ]
+}
