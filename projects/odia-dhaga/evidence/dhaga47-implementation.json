@@ -1,0 +1,44 @@
+{
+  "worker": "Samanta AI staging validation",
+  "input_head": "35b4268eeb35397fe1c7136290fe799fc3459621",
+  "checked_at": "2026-10-23T19:17:27.082399+00:00",
+  "result": "pass mechanical staging; separate content review pending",
+  "files": [
+    "/tmp/dhaga47/collection.json",
+    "/tmp/dhaga47/index.html",
+    "/tmp/dhaga47/source127.json",
+    "/tmp/dhaga47/source127.html"
+  ],
+  "batch_sha256": "f0abb0c57f70d7a728361917590546ac3c4faa012d5956dee3589d7c898be21d",
+  "entry_count": 47,
+  "original34_unchanged": true,
+  "source_count": 16,
+  "cited_sources": 6,
+  "position_counts": {
+    "independent_witness_candidate": 3,
+    "existing_reader_match": 22,
+    "awaiting_independent_witness": 101,
+    "duplicate_source_position": 1
+  },
+  "tests": [
+    "Existing build.validate and build.render pass on candidate47",
+    "Original34 parsed entries exactly equal baseline;13unique new IDs and provenance validated",
+    "Existing source inventory validator and renderer pass all127positions and collectionrefs",
+    "No repository edits or Git changes",
+    "Existing13 reader/source-inventory unittests pass with test_repository.ROOT redirected in memory to /tmp/dhaga47; integrated assertions tested candidate47",
+    "Scope notice explicitly separates47reader/25witnesses/22licensed/3briefSCERT/101pending/1duplicate; source127 regenerated from staged data"
+  ],
+  "limits": [
+    "Only staging; source/meaning review pending, especially SCERT candidates.",
+    "Three SCERT quotations not called licensed;22 licensed witness positions distinguished.",
+    "Linked README/coverage remain existing baseline documents, not refreshed candidate records.",
+    "Browser not checked yet; no published or accepted programme claim."
+  ],
+  "test_log": "/tmp/dhaga47-tests.log",
+  "hashes": {
+    "collection.json": "bdcb90189d36eeafab0c5c7ae6657e4a55c8543334d6781c0272346624ecaf61",
+    "index.html": "0cd03f3409978d08afbc66f5242b851a696dbb82aa1427aa77e4d32110cb0f23",
+    "source127.json": "fa0adcc5751183d7eca96f9d6df6bb62baf6f7418f18e10962482c04b49ce0c5",
+    "source127.html": "8daafebeec66a0e3f6e877708885abcb991cd04c7579624d8127cbf63623072c"
+  }
+}

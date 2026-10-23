@@ -1,0 +1,37 @@
+{
+  "reviewer": "Drishti — independent AI reviewer, not human proofreading",
+  "status": "pass_with_limitations",
+  "input_head": "35b4268eeb35397fe1c7136290fe799fc3459621",
+  "scope": "Local preview only; no canonical publication or substantive programme credit.",
+  "baseline_sha256": "2cbff3a6cd3c19a245df32051ea8bd6312bc8fcfdb2d983af89fa1c1c8a53a0b",
+  "research_sha256": "26ffc671e8bea312158f12049db55e9e4cf89f2467d96849c5eff3f2865e6ff9",
+  "hashes": {
+    "collection.json": "7cbbc6f74fb49b4e77fc1ff7dc6d756008afcc45f1392395a2ae48b8933d956b",
+    "index.html": "bd4d2c88d3820843d5fbc66d404fca5208863197ac5b3cddb46d0ffdd485cfe6",
+    "source127.json": "48afb3443b6705430235ddf41ca669c1f16e529423d806a5086bbffc84ae24c4",
+    "source127.html": "d7cdd6e2b98a89546a63f581556a466346bd3e60f37f4b38e722d5549c70a791",
+    "coverage-ledger.json": "63a79097dcaed7317a82175f0422e4b8da5216dc181fa8c409e44c5ccb214a9b"
+  },
+  "findings": [],
+  "source_checks": [
+    "Independently opened original Bandhiba and Katha dictionary pages; revision footers214480/7705 match cited witnesses. Licence footer destination checked CC BY-SA4.0.",
+    "083 wording and explicit dhaga label match Bandhiba sense5 hair arrangement; skill-based interpretation supported.",
+    "084 wording and dhaga label match Katha sense12 event; lament interpretation expressly editorial and no clinical claim.",
+    "085 wording and proverb label match Katha sense31 fame/notoriety; lasting reputation interpretation supported, no invented feast/origin.",
+    "No duplicate headword among prior82; related Bandhiba crying/bundling witness is excluded rather than recounting052."
+  ],
+  "actual_checks": [
+    "85 entries; original82 parsed entries exactly preserved, including graphics/captions.",
+    "All baseline asset files byte-identical; three new entries equal research payload.",
+    "Independent schema validation and deterministic renderer comparison pass; all source anchors resolve.",
+    "127 positions exactly unchanged.",
+    "Every prior coverage-ledger source row exactly unchanged, including historical counters/cursors. New Bandhiba/Katha targeted source rows added with no complete extraction claim.",
+    "Inspected implementation test log:13 tests pass."
+  ],
+  "limits": [
+    "No fresh browser/visual review performed; existing layout reused.",
+    "Human Odia proofreading remains pending.",
+    "Digital witnesses establish textual attestation, not earliest use, regional distribution or independent oral provenance.",
+    "Final approval bound to listed hashes; status-only delivery edits must be recorded separately."
+  ]
+}

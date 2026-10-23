@@ -1,0 +1,190 @@
+{
+  "reviewer": "Drishti — independent AI visual research review, not human proofreading",
+  "status": "pass_with_corrections",
+  "scope": "Locator-only leads; no new source quotations or reader acceptance",
+  "input_source127": "/tmp/dhaga47/source127.json",
+  "source127_sha256": "fa0adcc5751183d7eca96f9d6df6bb62baf6f7418f18e10962482c04b49ce0c5",
+  "image_sha256": "b9bf967781848ddd24437760cf548504661cbcce4e1657e92a1e9e026e86c524",
+  "checks": [
+    "Personally inspected full original page 138 image and counted bilingual pairs from first body row, excluding heading.",
+    "Reopened original Blogspot page and compared positions 27–42.",
+    "Checked existing staged source127 statuses and linked reader IDs."
+  ],
+  "mappings": [
+    {
+      "position": 27,
+      "printed_pdf_page": 138,
+      "pairs": [
+        1
+      ],
+      "note": "Corresponding expression; spacing differs.",
+      "existing_status": "awaiting_independent_witness"
+    },
+    {
+      "position": 28,
+      "printed_pdf_page": 138,
+      "pairs": [
+        2
+      ],
+      "note": "Existing reader 001; not a newly pending position.",
+      "existing_status": "existing_reader_match"
+    },
+    {
+      "position": 29,
+      "printed_pdf_page": 138,
+      "pairs": [
+        3
+      ],
+      "note": "Corresponding expression with orthographic difference; do not silently normalize.",
+      "existing_status": "awaiting_independent_witness"
+    },
+    {
+      "position": 31,
+      "printed_pdf_page": 138,
+      "pairs": [
+        4
+      ],
+      "note": "Corresponding expression.",
+      "existing_status": "awaiting_independent_witness"
+    },
+    {
+      "position": 30,
+      "printed_pdf_page": 138,
+      "pairs": [
+        5
+      ],
+      "note": "Corresponding expression; duplicate source position 35 remains separately recorded.",
+      "existing_status": "awaiting_independent_witness"
+    },
+    {
+      "position": 36,
+      "printed_pdf_page": 138,
+      "pairs": [
+        7
+      ],
+      "note": "Corresponding expression.",
+      "existing_status": "awaiting_independent_witness"
+    },
+    {
+      "position": 37,
+      "printed_pdf_page": 138,
+      "pairs": [
+        8
+      ],
+      "note": "Existing reader 013; possessive wording differs between witnesses. Not newly pending.",
+      "existing_status": "existing_reader_match"
+    },
+    {
+      "position": 39,
+      "printed_pdf_page": 138,
+      "pairs": [
+        9,
+        11
+      ],
+      "note": "Pair 11 matches expenditure alternative. Pair 9 is related means/expenditure formulation; it does not witness the discovery position’s second almsgiving alternative. One source position, not two new positions.",
+      "existing_status": "awaiting_independent_witness"
+    },
+    {
+      "position": 34,
+      "printed_pdf_page": 138,
+      "pairs": [
+        10
+      ],
+      "note": "Corresponding expression.",
+      "existing_status": "awaiting_independent_witness"
+    },
+    {
+      "position": 38,
+      "printed_pdf_page": 138,
+      "pairs": [
+        12
+      ],
+      "note": "Different opening word in textbook; related necessity/emergency formulation, not exact wording identity.",
+      "existing_status": "awaiting_independent_witness"
+    },
+    {
+      "position": 40,
+      "printed_pdf_page": 138,
+      "pairs": [
+        14
+      ],
+      "note": "Corresponding expression; orthographic/punctuation difference.",
+      "existing_status": "awaiting_independent_witness"
+    },
+    {
+      "position": 33,
+      "printed_pdf_page": 138,
+      "pairs": [
+        16
+      ],
+      "note": "One-hand/clapping wording variant; not exact word-for-word identity.",
+      "existing_status": "awaiting_independent_witness"
+    },
+    {
+      "position": 32,
+      "printed_pdf_page": 138,
+      "pairs": [
+        17
+      ],
+      "note": "Existing reader 003. Textbook and blog English pairings misread the seasonal image; do not import English gloss as literal meaning.",
+      "existing_status": "existing_reader_match"
+    },
+    {
+      "position": 41,
+      "printed_pdf_page": 138,
+      "pairs": [
+        18
+      ],
+      "note": "Corresponding expression.",
+      "existing_status": "awaiting_independent_witness"
+    },
+    {
+      "position": 42,
+      "printed_pdf_page": 138,
+      "pairs": [
+        22
+      ],
+      "note": "Textbook casts effort/reward relation in negative form; blog positive form. Meaning-related wording variant, not exact wording identity.",
+      "existing_status": "awaiting_independent_witness"
+    }
+  ],
+  "counts": {
+    "mapped_unique_positions": 15,
+    "already_witnessed_positions": [
+      28,
+      32,
+      37
+    ],
+    "previously_pending_unique_positions": [
+      27,
+      29,
+      30,
+      31,
+      33,
+      34,
+      36,
+      38,
+      39,
+      40,
+      41,
+      42
+    ],
+    "previously_pending_count": 12
+  },
+  "findings": [
+    {
+      "severity": "correction",
+      "issue": "Claim of 13 previously pending positions is incorrect; 37 is already reader 013. Correct newly pending count is 12."
+    },
+    {
+      "severity": "qualification",
+      "issue": "Position 39 pair 9 is a related formulation, not the blog second alternative. Pairs 9 and 11 must not inflate position count."
+    }
+  ],
+  "limits": [
+    "This confirms locations and broad correspondence, not exact quotation-ready transcription for all rows.",
+    "No assumption of independent collection lineage: textbook and blog may share earlier material.",
+    "Government publication does not establish open licensing, first origin or accuracy of English pairings.",
+    "No source wording copied into this report, no accepted reader increment, no human review, no canonical repository change."
+  ]
+}

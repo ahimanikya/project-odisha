@@ -1,0 +1,31 @@
+{
+  "reviewer": "Drishti, independent AI reviewer; not human proofreading",
+  "status": "pass_with_limitations",
+  "input_head": "35b4268eeb35397fe1c7136290fe799fc3459621",
+  "scope": "Isolated local preview and source/meaning review, not publication approval",
+  "hashes": {
+    "/tmp/dhaga13-entries.json": "f0abb0c57f70d7a728361917590546ac3c4faa012d5956dee3589d7c898be21d",
+    "/tmp/dhaga47/collection.json": "bdcb90189d36eeafab0c5c7ae6657e4a55c8543334d6781c0272346624ecaf61",
+    "/tmp/dhaga47/index.html": "0cd03f3409978d08afbc66f5242b851a696dbb82aa1427aa77e4d32110cb0f23",
+    "/tmp/dhaga47/source127.json": "fa0adcc5751183d7eca96f9d6df6bb62baf6f7418f18e10962482c04b49ce0c5",
+    "/tmp/dhaga47/source127.html": "8daafebeec66a0e3f6e877708885abcb991cd04c7579624d8127cbf63623072c"
+  },
+  "findings": [],
+  "checks": [
+    "Read all 13 entries, bilingual explanations, original-example labels, provenance and rights notes.",
+    "Reopened both Wikimedia Incubator originals and checked the quoted headwords and bounded gloss at position 124; Wiktionary three source passages retain the independently checked earlier concordance witnesses.",
+    "041 preserves the bodily image while marking interpretation; 044 distinguishes destructive resentment interpretation from historical household assertions; 047 limits source-supported sense to shared fault and identifies further interpretation.",
+    "043 corrected Odia glyph is present. No new founding, author, date, caste identity or inferred animal species claim.",
+    "All 13 draft entries exactly equal staged entries 035–047. Original 34 entries exactly equal baseline. 47 distinct headword strings; related themes are not duplicates.",
+    "Ran current build.validate on staged collection; render exactly equals staged HTML. Six cited source blocks out of 16 retained source records; all source anchors resolve.",
+    "Read Samanta staging implementation report; mechanical tests reported separately.",
+    "SCERT three short quotations separately visually checked; corrected total is 12 words. They remain research candidates, not reader entries or openly licensed material."
+  ],
+  "limits": [
+    "No fresh browser/visual review performed for 47-entry preview; this is a content and deterministic-render gate.",
+    "No human Odia proofreading or exhaustive attestation of conventional meanings; labelled editorial interpretations remain provisional.",
+    "Wiktionary historical printed originals not checked; digital witness does not establish origin.",
+    "README and coverage ledger in staging are baseline documents and need appropriate preview caveat or refresh before publication.",
+    "No repository mutation, Git mutation, acceptance counter or publication performed."
+  ]
+}
