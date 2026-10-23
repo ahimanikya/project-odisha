@@ -1,0 +1,55 @@
+{
+  "reviewer": "Drishti",
+  "review_type": "Independent AI content/source/code review; not human proofreading",
+  "input_head": "d0d451915799bdc7cf506c15ec6d887fe0b7e62a",
+  "reviewed_head": "9d09201ce0f15343999b4824ed24760391b732d5",
+  "status": "pass_with_limitations",
+  "scope": "Partial127-position research checklist, not completion of all127 documented/explained sayings",
+  "file_hashes": {
+    "projects/odia-dhaga/source127.json": "a55299c568907a2cbbc721b6dfb0caa1934c287ef5be308e447175580881af8a",
+    "projects/odia-dhaga/source127.html": "4dd723e0849d250efd6182b1f307d9d106e2be276d80113db2167aa35676b1fd",
+    "projects/odia-dhaga/build_source_inventory.py": "2a142be610226f2ec69f81278435f800e988c2f7bc6145e6b5de6c4a7900be8c",
+    "kb/research/folklore/odia-dhaga-source127-audit-2026-10-24.json": "3236b7db8d82c39cfd51da1b2a12f6c6c0f43289b587f0c2f3475cd31ed4cfc5"
+  },
+  "findings": [],
+  "checks": [
+    "127 unique ordered positions; status counts9 existing reader matches,11 independent candidates,106 pending,1 duplicate35→30. Collection remains34; no accepted increment.",
+    "Compared all20 audit crosswalk texts against integrated candidate fields; exact equality. Nineteen Incubator texts match previously independently inspected originals; variants are explicitly not exact blog reproductions.",
+    "Independently opened Wiktionary na sense4: exact110 dialogue, explicit dhaga label, revision200354 footer and CC BY-SA4.0 linked deed verified. Dictionary witness is not claimed original scanned page.",
+    "Blog source mapping checked against prior complete source inspection; 25 only one alternative;124 substantial same-image variant;32/52 erroneous English pairings not imported;17 and90 semantic-only matches rejected.",
+    "Credits, pinned source URLs, adaptation notice and share-alike footer present; no licence asserted for blog compilation or historical origin.",
+    "Inspected renderer: escapes dynamic text, validateshttp/https URLs and known IDs, unique1–127 positions and acyclic duplicate references; semantic headings/skip link and mobile CSS supplied.",
+    "Independently ran unittest discovery:13 tests pass plus transcription fixtures through32 negative cases.",
+    "Independently verified renderer output equals current source127.html without writes.",
+    "Final supplement independently checked original Tulasi excerpt and Mamu proverb: selected text exact, longer-clause and first-alternative limits retained. No botanical, character or disability assertions adopted.",
+    "Final22 witnessed positions:9existing+13candidates;104pending+1duplicate;34reader entries remain.",
+    "Reran13tests and32negative fixtures; deterministic final JSON-to-HTML equality passes.",
+    "Personally viewed actual390x844 mobile screenshot at position110: Odia, source attribution and cautions wrap readably. Screenshot/report precede two candidate additions; same renderer/layout, not asserted new22-version screenshot.",
+    "Read Samanta reported navigation/anchor/footer checks; not independently replayed."
+  ],
+  "limits": [
+    "Exact committed-head source/code gate complete. Browser screenshot is preceding20-witness version of unchanged layout; no fresh22-version browser replay or hosted deployment reviewed.",
+    "This checkpoint does not fulfill all127 documentation/explanations:104positions pending and13candidates not accepted.",
+    "Independent witness denotes separately inspected publication, not independent oral provenance.",
+    "Human language review and original dictionary scan remain unverified.",
+    "Code review and structural tests do not substitute actual keyboard/responsive browser checks."
+  ],
+  "review_history": [
+    {
+      "head": "d0d451915799bdc7cf506c15ec6d887fe0b7e62a",
+      "status": "20-position partial content pass",
+      "hashes": {
+        "projects/odia-dhaga/source127.json": "876284e827f36510fe984dbd375dc8c9666c4fdd5cae1c165ef60ded7eec4c3e",
+        "projects/odia-dhaga/source127.html": "884428de9e6b6c3f27619331cf03a9d3043da693060d8d61799c536d2aa86c42",
+        "projects/odia-dhaga/build_source_inventory.py": "2a142be610226f2ec69f81278435f800e988c2f7bc6145e6b5de6c4a7900be8c",
+        "kb/research/folklore/odia-dhaga-source127-audit-2026-10-24.json": "4b79041271f242196a0fc9574fa1509223a8d4d66ba69bf8c580a744f57a2da3"
+      }
+    }
+  ],
+  "current_counts": {
+    "awaiting_independent_witness": 104,
+    "independent_witness_candidate": 13,
+    "existing_reader_match": 9,
+    "duplicate_source_position": 1
+  }
+}

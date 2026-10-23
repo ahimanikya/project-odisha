@@ -84,8 +84,14 @@ class RepositoryTests(unittest.TestCase):
         for entry in d['entries']:
             if entry.get('meaning_odia'):self.assertIn('<p class="odia" lang="or">'+escape(entry['meaning_odia'],quote=True),out)
             if entry.get('title'):self.assertIn(escape(entry['title'],quote=True),out)
+        cited = {item['source_id'] for entry in d['entries']
+                 for item in entry['witnesses'] + entry.get('variants', []) if item.get('source_id')}
         for source in d['sources']:
-            if source.get('bibliography'):self.assertIn(escape(source['bibliography'],quote=True),out)
+            if source['id'] in cited:
+                self.assertIn('source-'+source['id'],p.ids)
+                if source.get('bibliography'):self.assertIn(escape(source['bibliography'],quote=True),out)
+            else:
+                self.assertNotIn('source-'+source['id'],p.ids)
         self.assertEqual(len(p.ids),len(set(p.ids)))
         for link in p.links:
             if link.startswith('#'):self.assertIn(link[1:],p.ids)
