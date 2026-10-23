@@ -1,0 +1,29 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import ReviewedCultureArticle from '../../components/ReviewedCultureArticle.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
+import {renderReviewedCultureArticle} from '../../lib/reviewed-culture-article.mjs';
+import source from '../../../../../kb/research/culture/abana-rasataranga.md?raw';
+const image={src:'/assets/abana-rasataranga/abana-script.png',alt:'Original reading aid distinguishing Odia consonants, vowel signs, independent vowels and conjuncts',width:760,height:1040};
+const article=renderReviewedCultureArticle(source,{
+ sourcePath:'kb/research/culture/abana-rasataranga.md',route:'/literature/abana-rasataranga/',
+ images:{'../media/poetic-craft/abana-script.svg':image.src},
+ imageDimensions:{[image.src]:{width:image.width,height:image.height}},
+ links:{'alankara-and-bhanja.md':'/literature/alankara-and-bhanja/','bhanita-and-poet-signatures.md':'/literature/bhanita-and-poet-signatures/','champu-and-sakhi.md':'/literature/champu-and-sakhi/','odissi-abhinaya.md':'/stories/odissi-abhinaya/'}
+});
+// This article adopts the current reading-path pattern without changing earlier pages.
+const further=article.html.match(/<h2 id="further-reading">Further reading<\/h2>\s*<ul>([\s\S]*?)<\/ul>/);
+if(!further)throw Error('Abana further-reading list missing');
+const destinationImages={'/literature/alankara-and-bhanja/':'/assets/alankara-and-bhanja/alankara-reading.svg','/literature/bhanita-and-poet-signatures/':'/assets/bhanita-and-poet-signatures/voices-and-signature.svg'};
+const readingLinks=[...further[1].matchAll(/<a href="([^"]+)">([^<]+)<\/a>/g)].map(([,href,title])=>({href:href.replaceAll('&amp;','&'),title:title.replaceAll('&amp;','&'),image:destinationImages[href]}));
+const [body,afterReading]=article.html.split(further[0]);
+article.html=body;
+---
+<Shell title={article.title} description="Read Abana Rasataranga through Odia script distinctions and a comparison of digital readings with a printed witness." active="explore" related={false} shareImage={{...image,src:'/assets/abana-rasataranga/abana-script.png'}}>
+ <ReviewedCultureArticle article={article}>
+  <div slot="intro"><p><a href="/literature/">← Odia literature</a></p><p class="eyebrow">Literature · Poetic craft</p></div>
+  <ArticleReadingPath id="further-reading" heading="Further reading" links={readingLinks} intro="Readings without a published article open the research knowledge base on GitHub."/>
+  <div set:html={afterReading}/>
+  <ArticleReadingPath links={[{href:'/literature/',title:'Explore Odia literature'},{href:'/stories/ashta-nayika/',title:'Ashta Nayika: eight dramatic situations',image:'/assets/ashta-nayika/abhisarika-met.jpg'}]}/>
+ </ReviewedCultureArticle>
+</Shell>
