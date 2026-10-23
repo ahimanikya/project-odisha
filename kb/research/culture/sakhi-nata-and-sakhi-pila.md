@@ -2,7 +2,7 @@
 type: "Performance Tradition"
 title: "Sakhi Nata and Sakhi Pila: song, dancer and companion"
 description: "An introduction to Sakhi Nata through responsive performance, a named Ganjam musician and the Sakhi Pila film catalogue."
-status: "draft"
+status: "published"
 reviewed_on: "2026-10-23"
 human_review_claimed: false
 sources: [{"id": "pathy-sakhinata", "title": "Dinanath Pathy, Sakhinata, March 2016", "resource": "https://ketakifoundation.org/sakhinata/"}, {"id": "odissi-project", "title": "Prateek Pattanaik, The Odissi Project", "resource": "https://pattaprateek.com/the-odissi-project/"}, {"id": "citaristi-theatre", "title": "Ileana Citaristi, History of Evolution of Odissi Dance after Independence", "resource": "https://narthaki.com/info/prism/prism28.html"}, {"id": "jdca-sakhipila", "title": "JD Centre of Art, February 2020 festival programme", "resource": "https://www.jdcentreofart.org/program"}, {"id": "odb-sakhipila", "title": "Soumya Biswajit, Sakhi Pila", "resource": "https://www.instagram.com/odissiandbeyond/p/DcfmhbDCPGB/"}, {"id": "sakhi-mardala", "title": "Prateek Pattanaik, Mardala used in Sakhi Nata", "resource": "https://commons.wikimedia.org/wiki/File:Mardala_used_in_Sakhi_Nata.jpg"}, {"id": "films-division-sakhipila", "title": "Films Division Film Library Catalogue, Sakhi Pila", "resource": "https://bpb-us-w2.wpmucdn.com/web.sas.upenn.edu/dist/4/705/files/2020/09/Films-Division-Catalogue.pdf"}]

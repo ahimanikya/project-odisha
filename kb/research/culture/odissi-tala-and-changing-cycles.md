@@ -65,14 +65,12 @@ When listening, record the work’s title, performer, tala name and the teacher 
 
 [^misra-jhula2012]: Manisha Misra, comparative study of *Gita-Govinda*, chapter 6, [printed p.220](https://www.wisdomlib.org/uploads/ocr/essays/gitagovinda/15-chapter-7.pdf), PDF p.19, “Khemata/Jhula”; footnote 57 cites Akhila Kumar Lenka, *Odisi Svaralipi*, p.120. Scanned page visually inspected. The mirror identifies Misra and 2012; original thesis-record metadata could not be checked. The scan says chapter 6 although the mirror filename says chapter 7. Lenka’s book was not independently consulted.
 
-<details>
-<summary>Further reading</summary>
+## Further reading
 
 - [Mardala](mardala.md)
 - [Jhulana in Odisha](jhulana-in-odisha.md)
 - [Champu and the sakhi](champu-and-sakhi.md)
 - [Rhythm and transmission research guide](rhythm-and-transmission-research-guide.md)
 
-</details>
 
 **[Suggest an update](https://projectodisha.org/contribute/?page=kb%2Fresearch%2Fculture%2Fodissi-tala-and-changing-cycles.md):** identify the notation, teacher, recording and passage. GitHub submissions are public; omit private contact details and consent documents.

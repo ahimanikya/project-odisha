@@ -3,7 +3,8 @@ import Shell from '../layouts/Shell.astro';
 import SoundReadingPaths from '../components/SoundReadingPaths.astro';
 import story from '../../../../kb/research/culture/sounds-website.json';
 import {soundDiscoveryEntries} from '../data/sounds-discovery';
-const furtherReading=soundDiscoveryEntries.filter(entry=>entry.href.startsWith('/stories/'));
+import reviewedCulture from '../data/reviewed-culture.json';
+const furtherReading=[...soundDiscoveryEntries.filter(entry=>entry.href.startsWith('/stories/')),...reviewedCulture.filter(entry=>entry.href.startsWith('/sounds-of-odisha/'))];
 ---
 <Shell title={story.title} description={story.lead} active="explore" wide related={false}>
 <article class="wrap sounds-story">
