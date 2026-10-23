@@ -3,7 +3,7 @@
   "article_id": "POD-EDIT-475",
   "programme_id": "POD-A500-128",
   "work_id": "POD-WORK-319",
-  "status": "in_progress",
+  "status": "published_receipt_integration_pending",
   "input_head": "bee7dbf891d1e6f4a6080c2641e9945751e983c0",
   "started_at": "2026-10-23T01:11:25.769991+00:00",
   "route": "/communities/dhoba/",
@@ -35,7 +35,7 @@
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Read-only integrated candidate review",
-      "status": "in_progress",
+      "status": "completed",
       "scope_released": false
     },
     {
@@ -46,7 +46,7 @@
     }
   ],
   "worker_reconciliation": "Mali receipt PR457 merged9f360114; completionbee7dbf8 retained. Previous workers completed and scopes released; external current_article/task null; unrelated PR304/281 untouched.",
-  "next_action": "Complete final responsive/download validation and exact committed-head review, then publish and retain claim through receipt integration.",
+  "next_action": "Merge reviewed receipt with passing required checks, observe actual merge, then release ownership.",
   "research_report": "research/sources/dhoba-research.json",
   "source_review": {
     "reviewer": "Drishti, separate AI subagent",
@@ -127,5 +127,12 @@
       },
       "limitation": "Browser download event wait timed out after click; actual downloaded file recovered and contents verified independently. Native app inventory reported locked Mac; Chrome preview DOM remained accessible."
     }
+  },
+  "publication_receipt": "records/dhoba-editorial-publication-2026-10-23.json",
+  "review": "records/dhoba-delivery-review-2026-10-23.json",
+  "counting": {
+    "completed_items": 128,
+    "increment": 1,
+    "basis": "Individually researched published article with live evidence; receipt integration pending."
   }
 }
