@@ -1,0 +1,72 @@
+{
+  "worker": "Samanta, AI mechanical validation",
+  "input_head": "af48419a228724a2ded2b3402593360dac41abdb",
+  "checked_at": "2026-10-23T06:35:02.717521+00:00",
+  "transcription_path": "/tmp/pod-dhaga-1893-page2-transcription.json",
+  "transcription_sha256": "a1499943febe60a576d2afe8d500896946016f6f0298959f38cc85b1a0438b97",
+  "result": "pass",
+  "checks": [
+    {
+      "name": "unique segment IDs",
+      "pass": true,
+      "detail": "10 distinct segment identifiers"
+    },
+    {
+      "name": "page provenance",
+      "pass": true,
+      "detail": "PDF2; printed1 inference explicitly stated"
+    },
+    {
+      "name": "ordered body line anchors",
+      "pass": true,
+      "detail": "Declared body lines1\u201311 covered exactly once by10 spans; not independent visual completeness confirmation"
+    },
+    {
+      "name": "explicit uncertainty",
+      "pass": true,
+      "detail": "Every segment carries uncertainty and withheld normalization"
+    },
+    {
+      "name": "no human or accepted completion claim",
+      "pass": true,
+      "detail": "No accepted increment; no human review; page incomplete"
+    },
+    {
+      "name": "continuation references",
+      "pass": true,
+      "detail": "Final segment points to PDF3; null means unresolved, not no continuation"
+    },
+    {
+      "name": "source in existing ledger",
+      "pass": true,
+      "detail": "Stable source ID resolves"
+    },
+    {
+      "name": "PDF integrity",
+      "pass": true,
+      "detail": "Recorded PDF SHA256 matches current local original"
+    },
+    {
+      "name": "reference images exist",
+      "pass": true,
+      "detail": "Main and adjacent-page image paths exist; images not reinspected by this mechanical pass"
+    },
+    {
+      "name": "ledger completion boundaries",
+      "pass": true,
+      "detail": "Existing15 entries retained,0 human review,no page completion"
+    }
+  ],
+  "passed": 10,
+  "failed": 0,
+  "findings": [],
+  "limits": [
+    "Mechanical consistency only; no independent glyph/line/page-completeness or continuation verification.",
+    "Ten provisional segments are not ten accepted sayings.",
+    "No human review, rights clearance, new accepted entry, or programme credit inferred.",
+    "No repository writes or Git mutations."
+  ],
+  "resolved_findings": [
+    "Obsolete s05 not-bracketed note corrected; final draft also has two additional explicit uncertainty brackets. Structural gates rerun against final SHA; no reading acceptance inferred."
+  ]
+}
