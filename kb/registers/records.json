@@ -9326,18 +9326,21 @@
       "id": "POD-WORK-322",
       "title": "Research and publish Sunari community history",
       "category": "website_and_knowledge",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and separate Drishti AI review",
       "authorization": "POD-DEC-225",
-      "next_action": "Draft and implement from inspected evidence, then integrated review. Retain claim through publication receipt.",
+      "next_action": "Retain ownership through receipt merge before another article.",
       "blockers": [],
       "refs": [
-        "POD-DEC-225"
+        "POD-DEC-225",
+        "POD-REV-2026102311",
+        "POD-REL-2026102311"
       ],
       "evidence": [
-        "records/sunari-editorial-team-2026-10-23.json"
+        "records/sunari-editorial-team-2026-10-23.json",
+        "records/sunari-editorial-publication-2026-10-23.json"
       ]
     }
   ],
@@ -22781,6 +22784,31 @@
         "Daanla1962/published1968 household and occupational passages remain distinct; payment per pair of bullocks is local history, not current rate.",
         "Source stereotypes and unsubstantiated settlement chronology excluded. No image rights verified; no image added. Search eligibility unchanged."
       ]
+    },
+    {
+      "id": "POD-REV-2026102311",
+      "title": "Separate Sunari source and integrated article review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Drishti, separate subagent"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human historian or community review.",
+      "reviewed_head": "e6adc7643a71da17dc66bf5b186f8a012ad7748e",
+      "refs": [
+        "POD-WORK-322",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/sunari-delivery-review-2026-10-23.json"
+      ],
+      "limitations": [
+        "Separate AI review; no human community review or project fieldwork.",
+        "Regional names and mixed-community craft participation are not universal aliases or caste inferred from work.",
+        "No founder, formation date or current household census established. Kotpad testimony is dated2025 reporting.",
+        "No image rights verified; text-first article. Search eligibility unchanged."
+      ]
     }
   ],
   "releases": [
@@ -26578,6 +26606,22 @@
         "records/kamar-editorial-publication-2026-10-23.json"
       ],
       "note": "Reviewed PR462, passing checks, approved deployment and live verification. One substantive article; search eligibility unchanged."
+    },
+    {
+      "id": "POD-REL-2026102311",
+      "title": "Sunari ornaments family learning and changing work",
+      "status": "published",
+      "authorization": "POD-DEC-225",
+      "destination": "https://projectodisha.org/communities/sunari/",
+      "refs": [
+        "POD-WORK-322",
+        "POD-REV-2026102311",
+        "POD-DEC-225"
+      ],
+      "evidence": [
+        "records/sunari-editorial-publication-2026-10-23.json"
+      ],
+      "note": "Reviewed PR467, passing checks, approved deployment and live verification. One substantive article; search eligibility unchanged."
     }
   ],
   "sources": [

@@ -958,4 +958,4 @@ Reuse `folklore/odia-dhaga-batch2-source-audit-2026-10-23.json` for five further
 
 ## Sunari community history — 23 October 2026
 
-Reuse `communities/sunari.json`, `communities/sunari.md` and `communities/sunari-source-audit-2026-10-23.json`. Bhadrak regional names, Tarbha silverwork across communities, dated Kotpad household reporting and Gajapati ornaments. No universal aliases, occupation-to-caste inference or founding history established. In review; no publication or community fieldwork claimed.
+Reuse `communities/sunari.json`, `communities/sunari.md` and `communities/sunari-source-audit-2026-10-23.json`. Bhadrak regional names, Tarbha silverwork across communities, dated Kotpad household reporting and Gajapati ornaments. No universal aliases, occupation-to-caste inference or founding history established. Published with a live receipt; no community fieldwork claimed.

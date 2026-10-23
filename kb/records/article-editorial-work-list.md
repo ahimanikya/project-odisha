@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 478. completed: 83, excluded: 76, in_progress: 1, queued: 318.
+Route inventory: 478. completed: 84, excluded: 76, queued: 318.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -491,4 +491,4 @@ Route inventory: 478. completed: 83, excluded: 76, in_progress: 1, queued: 318.
 | POD-EDIT-475 | [Dhoba regional community history](https://projectodisha.org/communities/dhoba/) | completed | Dhoba regional community history: cloth washing, water access, ceremonial roles and regional names; occupational explanations distinguished from formation evidence. |
 | POD-EDIT-476 | [Patara regional community history](https://projectodisha.org/communities/patara/) | completed | Patara regional community history: yarn work, trade, regional names and specific temple craft; occupational explanations distinguished from formation evidence. |
 | POD-EDIT-477 | [Kamar regional community history](https://projectodisha.org/communities/kamar/) | completed | Kamar regional community history: iron working, tools, workshop learning and regional names; occupational explanations distinguished from formation evidence. |
-| POD-EDIT-478 | [Sunari regional community history](https://projectodisha.org/communities/sunari/) | in_progress | Regional Sunari history through ornament work, family learning and changing markets. No definitive origin claim. |
+| POD-EDIT-478 | [Sunari regional community history](https://projectodisha.org/communities/sunari/) | completed | Regional Sunari history through ornament work, family learning and changing markets. No definitive origin claim. |
