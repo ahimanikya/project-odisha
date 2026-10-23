@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `258e3058bd3af4252818aeaa379d3ae78fb4f0ac382de23f901839ce747d316d`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `557926ebe21b4a47e2a2a017da183e50284e401cc1c207614a0763c841efeafb`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -346,6 +346,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-319 · Research and publish Dhoba community history | completed | published | Ahimanikya Satapathy | Retain ownership through receipt merge before another article. | — |
 | POD-WORK-320 · Research and publish Patara community history | completed | published | Ahimanikya Satapathy | Retain ownership through receipt merge before another article. | — |
 | POD-WORK-321 · Research and publish Kamar community history | completed | published | Ahimanikya Satapathy | Retain ownership through receipt merge before another article. | — |
+| POD-WORK-322 · Research and publish Sunari community history | in_progress | draft | Ahimanikya Satapathy | Draft and implement from inspected evidence, then integrated review. Retain claim through publication receipt. | — |
 
 ## Pending human review and decisions
 
