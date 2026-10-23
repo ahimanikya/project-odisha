@@ -73,13 +73,11 @@ Return afterwards to the original Odia. An English paraphrase can explain an ide
 
 [^abana-third]: [*Abana Rasataranga*, third chhanda](https://or.wikisource.org/wiki/ଅବନା_ରସତରଙ୍ଗ/ଅଜନନ୍ଦନ_ନନ୍ଦନ_ଭ୍ରମଣବନ), Odia Wikisource, stanza 21, revision 57616. Digital କନ୍ୟା compared with printed କନ୍ୟ on printed p.30 / PDF p.31 of the Sridhar Rao-revised witness.
 
-<details>
-<summary>Further reading</summary>
+## Further reading
 
 - [Alankara and Bhanja](alankara-and-bhanja.md)
 - [Bhanita and poet signatures](bhanita-and-poet-signatures.md)
 - [Poetic craft research guide](poetic-craft-research-guide.md)
 
-</details>
 
 **[Suggest an update](https://projectodisha.org/contribute/?page=kb%2Fresearch%2Fculture%2Fabana-rasataranga.md):** identify the edition, page and exact Odia reading. GitHub submissions are public; omit private contact details and consent documents.
