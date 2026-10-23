@@ -1,7 +1,7 @@
 ---
 interface Source {id:string; title:string}
 interface Props {ids:string[]; sources:Source[]; prefix?:string; label?:string}
-const {ids,sources,prefix="story-source-",label="Sources for this section:"}=Astro.props;
+const {ids,sources,prefix="story-source-",label=""}=Astro.props;
 const references=ids.map(id=>{
  const index=sources.findIndex(source=>source.id===id);
  if(index<0)throw new Error(`Unknown story source: ${id}`);
@@ -9,8 +9,7 @@ const references=ids.map(id=>{
 });
 ---
 {references.length>0&&<p class="story-source-links">
- <span>{label}</span>
- {references.map(source=><a href={'#'+prefix+source.id} aria-label={'Source '+source.number+': '+source.title}>Source {source.number}</a>)}
+ {references.map(source=><sup><a href={'#'+prefix+source.id} data-footnote-ref aria-label={'Footnote '+source.number+': '+source.title}>{source.number}</a></sup>)}
 </p>}
 <style>
 .story-source-links{display:flex;flex-wrap:wrap;align-items:center;gap:0 .9rem;font-size:15px;line-height:1.5;margin-top:1rem}

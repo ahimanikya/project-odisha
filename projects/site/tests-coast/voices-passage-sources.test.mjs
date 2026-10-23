@@ -38,11 +38,11 @@ for(const original of collection.pages.filter(p=>edition.routes.includes('/'+p.p
   assert.equal(passages.length,section.paragraphs.length);
   section.paragraphs.forEach((p,i)=>{
    assert.equal(passages[i][1]||'',p.source_ids.join(' '));assert.equal(passages[i][2],escape(p.text));
-   const links=[...passages[i][3].matchAll(/href="#voice-source-([^"]+)"[^>]*aria-label="([^"]+)"[^>]*>Source (\d+)<\/a>/g)];
+   const links=[...passages[i][3].matchAll(/href="#voice-source-([^"]+)"[^>]*aria-label="([^"]+)"[^>]*>(\d+)<\/a>/g)];
    assert.deepEqual(links.map(m=>m[1]),p.source_ids);
    for(const link of links){
     const source=sources.find(s=>s.id===link[1]);assert.equal(Number(link[3]),sources.indexOf(source)+1);
-    assert.equal(link[2],escape(`Source ${link[3]}: ${source.title}`));
+    assert.equal(link[2],escape(`Footnote ${link[3]}: ${source.title}`));
    }
   });
  }

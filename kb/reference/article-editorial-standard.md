@@ -59,3 +59,7 @@ Completion means every baseline route is individually revised or has a justified
 ## New articles
 
 Use the shared ArticleByline, ArticleFootnote and ArticleFootnotes components and article-reading stylesheet when appropriate. Markdown articles may retain native accessible footnotes. New public articles join the rollout register and must pass the same editorial acceptance before publication. Automated checks catch missing credits, broken footnote targets and production boilerplate; they cannot certify prose quality, cultural accuracy or source truth.
+
+## Citation labels · 24 October 2026
+
+Use numbered footnote links beside the relevant article passage. Do not display “Source 1”, “Source 2” or standalone named-source citations beneath passages. Keep bibliographic titles, credited authors and precise page/verse locators in the linked footnotes. Names that belong to the narrative remain in the prose. Accessible link labels may name the source.
