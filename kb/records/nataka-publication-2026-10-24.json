@@ -1,16 +1,16 @@
 {
   "authorization": "Founder direct instruction in current chat: publish",
-  "status": "in_progress",
+  "status": "published_verified",
   "scope": "Twelve reviewed standalone articles, individually reviewed and published in their subject sections",
   "coordinator": "Disha",
-  "active_article": "/literature/abana-rasataranga/",
+  "active_article": null,
   "research_checkpoint": "07a41a9a",
   "reconciled_main": "9c82dca8",
   "external_worker_reconciliation": "Read current Project Odisha editorial chat: Dhaga discovery research only; no public article or reader changes. Preserve its current_task and files. PR281 and304 unrelated.",
   "workers": {
-    "Anvesha": "Read-only route/evidence/media reconciliation",
-    "Samanta": "Current active article route, assets, focused tests and reserved navigation-only mappings",
-    "Drishti": "Separate integrated review after implementation"
+    "Anvesha": "Completed; no active reserved files",
+    "Samanta": "Completed; no active reserved files",
+    "Drishti": "Completed; no active reserved files"
   },
   "programme_credit": 0,
   "completed": [
@@ -57,19 +57,17 @@
     {
       "route": "/stories/sahi-jatra/",
       "receipt": "records/sahi-jatra-publication-2026-10-24.json"
+    },
+    {
+      "route": "/literature/abana-rasataranga/",
+      "receipt": "records/abana-rasataranga-publication-2026-10-24.json"
     }
   ],
   "limits": [
     "Local-file browser automation remains unavailable; no bypass. Live HTTPS verification follows deployment.",
     "Specialist, full listening and documentary identity limits retained in sources."
   ],
-  "reserved_implementation_files": [
-    "projects/site/src/pages/literature/abana-rasataranga.astro",
-    "projects/site/public/assets/abana-rasataranga/",
-    "projects/site/tests/abana-editorial.test.mjs",
-    "projects/site/src/pages/literature/alankara-and-bhanja.astro (navigation only)",
-    "projects/site/src/pages/literature/bhanita-and-poet-signatures.astro (navigation only)"
-  ],
+  "reserved_implementation_files": [],
   "queue": [
     {
       "source": "prahallad-nataka",
@@ -129,7 +127,8 @@
     {
       "source": "abana-rasataranga",
       "route": "/literature/abana-rasataranga/",
-      "status": "implementation"
+      "status": "published"
     }
-  ]
+  ],
+  "final_live_audit": "records/nataka-publication-live-audit-2026-10-24.json"
 }
