@@ -1,0 +1,28 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import ReviewedCultureArticle from '../../components/ReviewedCultureArticle.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
+import {renderReviewedCultureArticle} from '../../lib/reviewed-culture-article.mjs';
+import source from '../../../../../kb/research/culture/jhulana-in-odisha.md?raw';
+const image={src:'/assets/jhulana-in-odisha/hindola-raga.jpg',alt:'Hindola Raga, a comparative Pahari painting of Radha and Krishna on a swing',width:2519,height:3400};
+const article=renderReviewedCultureArticle(source,{
+ sourcePath:'kb/research/culture/jhulana-in-odisha.md',route:'/stories/jhulana-in-odisha/',
+ images:{'../media/jhulana/hindola-raga.jpg':image.src},
+ imageDimensions:{[image.src]:{width:image.width,height:image.height}},
+ links:{'bhanita-and-poet-signatures.md':'/literature/bhanita-and-poet-signatures/','champu-and-sakhi.md':'/literature/champu-and-sakhi/','odissi-abhinaya.md':'/stories/odissi-abhinaya/'}
+});
+// This article adopts the current reading-path pattern without changing earlier pages.
+const further=article.html.match(/<h2 id="further-reading">Further reading<\/h2>\s*<ul>([\s\S]*?)<\/ul>/);
+if(!further)throw Error('Jhulana further-reading list missing');
+const readingLinks=[...further[1].matchAll(/<a href="([^"]+)">([^<]+)<\/a>/g)].map(([,href,title])=>({href:href.replaceAll('&amp;','&'),title:title.replaceAll('&amp;','&')}));
+const [body,afterReading]=article.html.split(further[0]);
+article.html=body;
+---
+<Shell title={article.title} description="Explore Jhulana through local festival accounts, a named singer, a devotional lyric and comparative swing imagery." active="explore" related={false} shareImage={image}>
+ <ReviewedCultureArticle article={article}>
+  <div slot="intro"><p><a href="/explore/">← Explore Odisha</a></p><p class="eyebrow">Living traditions · Song and season</p></div>
+  <ArticleReadingPath id="further-reading" heading="Further reading" links={readingLinks} intro="Readings without a published article open the research knowledge base on GitHub."/>
+  <div set:html={afterReading}/>
+  <ArticleReadingPath links={[{href:'/literature/',title:'Explore Odia literature'},{href:'/stories/ashta-nayika/',title:'Ashta Nayika: eight dramatic situations'}]}/>
+ </ReviewedCultureArticle>
+</Shell>
