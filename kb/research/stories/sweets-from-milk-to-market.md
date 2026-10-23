@@ -6,6 +6,7 @@ status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-02T08:45:40.027103+00:00"}
 sources: [{"id": "sweets-pahala-study2023", "title": "Supply Chain of Pahala Rasagola in Odisha", "resource": "https://ndpublisher.in/admin/issues/EAv68n5z11.pdf"}, {"id": "sweets-khordha-census2001", "title": "Khordha District Census Handbook 2001 — town commodity directory", "resource": "https://censusindia.gov.in/nada/index.php/catalog/44136/download/47792/DH_21_2001_KHO.pdf"}, {"id": "sweets-magji-maker2024", "title": "Dhenkanal Magji: attributed confectioner account", "resource": "https://interviewtimes.net/dhenkanal-magji-gets-gi-tag/"}, {"id": "sweets-sisir-market2026", "title": "Sisir Saras 2026: Rasabali among featured products", "resource": "https://www.newindianexpress.com/cities/bhubaneswar/2026/Jan/16/stalls-selling-gi-tagged-products-major-crowd-puller-at-sisir-saras"}]
 human_review_claimed: false
+production_provenance: "Developed and reviewed by the current AI assistant."
 subjects: ["food", "economy"]
 revised_on: "2026-10-11"
 publication_scope: "Repository article draft; not a website release"
@@ -57,7 +58,7 @@ For a reader’s notebook, begin with the sweet’s name, the broad place and th
 
 The [sweets-economy record](../references/data/sweets-economy.json) preserves quantity/revenue arithmetic, retailer-percentage denominator and GI-date discrepancies. GI recognition, statewide industry size, current prices, sales growth, foreign exports and food-safety claims are not inferred from this study. Existing other-sweet accounts below remain dated research leads, not newly verified operations or maker interviews.
 
-Creative direction: **Ahimanikya Satapathy**. Developed and reviewed by the current AI assistant. No independent economics or human review, interview, field visit, media-rights clearance or current venue confirmation is claimed. Original draft wording follows intact.
+Creative direction: **Ahimanikya Satapathy**. No independent economics or human review, interview, field visit, media-rights clearance or current venue confirmation is claimed. Original draft wording follows intact.
 
 ### Earlier draft · 2 October 2026
 

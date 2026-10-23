@@ -6,6 +6,7 @@ status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-02T02:06:44.053750+00:00"}
 sources: [{"id": "rice-fscw2026", "title": "Food Supplies and Consumer Welfare Annual Activity Report 2025–2026", "resource": "https://foododisha.in/Download/annual-activity-glance-25-26.pdf"}]
 human_review_claimed: false
+production_provenance: "Developed and reviewed by the current AI assistant."
 subjects: ["economy", "food", "governance"]
 revised_on: "2026-10-11"
 verification_scope: "Bounded report tables and payment text visually checked; settlement, unique farmer count and household income remain unverified."
@@ -56,7 +57,7 @@ The original departmental report was recovered and PDF pages12,28,31 (printed10,
 
 The canonical reconciliation retains a small difference between the reported combined payment and quantity multiplied by a common rate. No bank-settlement records, formal correction notice or explanation of that difference has been obtained. This article reports the department’s figure; it does not claim an audited payment total, timely payment to every farmer or a measured household-welfare outcome. The report’s promotional wellbeing language is not adopted as evidence of impact.
 
-Creative direction: **Ahimanikya Satapathy**. Developed and reviewed by the current AI assistant. No independent economics or human review, interview, field visit or present-day entitlement advice is claimed. Earlier wording is retained below; the underlying research dataset and its held findings are preserved.
+Creative direction: **Ahimanikya Satapathy**. No independent economics or human review, interview, field visit or present-day entitlement advice is claimed. Earlier wording is retained below; the underlying research dataset and its held findings are preserved.
 
 ### Earlier draft · 2 October 2026
 

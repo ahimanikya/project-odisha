@@ -87,6 +87,7 @@ jobs:
       - name: Build and test full draft
         run: |
           npm run build
+          node tools/check-public-disclosures.mjs dist
           npm test
         working-directory: projects/site
       - name: Build review gallery and test shared design system
@@ -99,12 +100,14 @@ jobs:
           PUBLIC_GA_MEASUREMENT_ID: ${{ vars.PUBLIC_GA_MEASUREMENT_ID }}
         run: |
           npm run build:coast
+          node tools/check-public-disclosures.mjs dist-coast
           npm run test:coast
           python3 tools/audit-coast.py
           python3 tools/audit-discovery.py
           node tools/prepare-search-review.mjs
           python3 tools/audit-launch-readiness.py
           npm run build:publication
+          node tools/check-public-disclosures.mjs dist-publish
           python3 tools/audit-search-shortlist.py
         working-directory: projects/site
       - name: Save coastal files for review

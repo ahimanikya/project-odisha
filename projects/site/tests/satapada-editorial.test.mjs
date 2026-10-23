@@ -18,7 +18,7 @@ test('Satapada explains limited sightings and historical boat practice and links
  }
  assert.equal((page.match(/data-footnote-ref/g)||[]).length,5);
  for(const phrase of ['2005 training programme','not proof that every trip follows it today','may bring no sighting at all','regional view does not identify Satapada'])assert.ok(page.includes(phrase));
- assert.match(read('dist/visit/stays/konark/index.html'),/Drafted with AI assistance/);
+ assert.doesNotMatch(read('dist/visit/stays/konark/index.html'),/Drafted with AI assistance/);
  assert.match(page,/data-save-journey="place:satapada"/);
 });
 test('Satapada portable reading retains every paragraph and concise sources with original photograph credit',()=>{

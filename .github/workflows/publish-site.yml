@@ -38,10 +38,13 @@ jobs:
       - uses: actions/configure-pages@v6
       - run: npm ci
       - run: npm run build
+      - run: node tools/check-public-disclosures.mjs dist
       - run: npm test
       - run: npm run build:coast
+      - run: node tools/check-public-disclosures.mjs dist-coast
       - run: npm run test:coast
       - run: npm run build:publication
+      - run: node tools/check-public-disclosures.mjs dist-publish
       - uses: actions/upload-pages-artifact@v5
         with:
           path: projects/site/dist-publish

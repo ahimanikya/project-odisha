@@ -9,7 +9,7 @@ test('observance articles retain narrative status, source anchors and visitor un
   const html=read(page.route);
   assert.ok(html.includes(page.name));
   assert.match(html,/No serving place or invitation to private worship is verified/);
-  assert.match(html,/human editorial and Odia review pending/);
+  assert.match(html,/[Hh]uman editorial and Odia review pending/);
   if(page.coverage_status==='research_note')assert.match(html,/history and local narrative incomplete/);
   for(const id of page.source_ids)assert.ok(html.includes(`id="source-${id}"`),page.slug+': '+id);
  }

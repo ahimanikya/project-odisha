@@ -6,6 +6,7 @@ status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-02T01:52:06.804669+00:00"}
 sources: [{"id": "rice-sahoo-cost2023", "title": "Study of Cropping Pattern and Profitability Analysis of Major Crops of North Eastern Ghats Agro-Climatic Zone of Odisha", "resource": "https://ndpublisher.in/countpdfdownload.php?id=5788&pdf=EAv68n1p.pdf"}]
 human_review_claimed: false
+production_provenance: "Developed and reviewed by the current AI assistant."
 subjects: ["economy", "food", "people"]
 revised_on: "2026-10-11"
 publication_scope: "Repository article draft; not a website release"
@@ -52,7 +53,7 @@ At the next meal, the rice on the plate can prompt more than a question about ta
 
 ₹72,750 + ₹6,300 = ₹79,050. Subtracting displayed C2 yields ₹14,141.57, one paisa below the table’s ₹14,141.58; we retain the reported value and flag the rounding difference. The table’s gross value includes by-products although the methods formula names the main product alone. The [canonical case](../references/data/rice-economy.json) preserves that definition difference, the C3 discrepancy and the excluded ragi ratio. No new cross-crop comparison or current valuation is inferred.
 
-Creative direction: **Ahimanikya Satapathy**. Developed and reviewed by the current AI assistant. No independent economics or human review, interview, fieldwork or agronomic recommendation is claimed. Underlying research and unresolved fields remain unchanged.
+Creative direction: **Ahimanikya Satapathy**. No independent economics or human review, interview, fieldwork or agronomic recommendation is claimed. Underlying research and unresolved fields remain unchanged.
 
 ### Earlier draft · 2 October 2026
 

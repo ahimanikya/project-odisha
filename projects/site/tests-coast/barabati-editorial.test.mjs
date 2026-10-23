@@ -17,7 +17,7 @@ test('Barabati has a credited reading and visible exact source returns without c
  for(const [,ref,note] of refs){assert.equal(html.split(`id="${note}"`).length-1,1);assert.equal(html.split(`href="#${ref}"`).length-1,1);}
  const other=read('/visit/experiences/jobra-maritime-museum/');
  assert.doesNotMatch(other,/class="article-byline"|id="story-sources"/);
- assert.match(other,/Drafted with AI assistance/);
+ assert.doesNotMatch(other,/Drafted with AI assistance/);
 });
 test('Barabati retains documentary photo rights, collapsed onward paths and a visible update action',()=>{
  assert.equal(createHash('sha256').update(readFileSync('public'+asset.src)).digest('hex'),asset.sha256);

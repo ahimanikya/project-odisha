@@ -21,7 +21,7 @@ test('Mangalajodi has visible sources and exact returns without assigning the un
  for(const route of ['stays/konark']){
   const other=read(`dist/visit/${route}/index.html`);
   assert.doesNotMatch(other,/By Ahimanikya Satapathy/);
-  assert.match(other,/Drafted with AI assistance/);
+  assert.doesNotMatch(other,/Drafted with AI assistance/);
  }
 });
 test('saved Mangalajodi carries the complete reading and concise sources into both formats',()=>{

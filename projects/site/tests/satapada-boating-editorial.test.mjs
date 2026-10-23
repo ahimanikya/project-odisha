@@ -18,7 +18,7 @@ test('Satapada boating explains limited sightings and historical boat practice a
  }
  assert.equal((page.match(/data-footnote-ref/g)||[]).length,3);
  for(const phrase of ['In 2005','not proof of how a particular boat operates today','A glimpse may be all you see','does not identify a Satapada operator'])assert.ok(page.includes(phrase));
- assert.match(read('dist/visit/stays/konark/index.html'),/Drafted with AI assistance/);
+ assert.doesNotMatch(read('dist/visit/stays/konark/index.html'),/Drafted with AI assistance/);
  assert.match(page,/data-save-journey="experience:chilika-satapada"/);
 });
 test('Satapada boating portable reading retains every paragraph and concise sources with original photograph credit',()=>{

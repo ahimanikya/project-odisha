@@ -14,7 +14,7 @@ const profileRoute = (path) => study.pages.find(p => p.canonical_path === path)?
 </section>
 {guide.sections.slice(2).map(s => <section><h2>{s.title}</h2><p>{s.text}</p></section>)}
 <section><h2>Research still open</h2><p>Benatia needs an identifiable Odia textual or local account. The intended identity of the unqualified Purnima entry also remains open. No annual dates, serving venues or invitations to private worship are verified here.</p></section>
-<section><h2>Sources and scope</h2><p class="source">Saved research reused and selected original pages rechecked on 9 October 2026. AI-assisted research; no interviews or human editorial review claimed.</p><ol>{sources.map(id => <li id={'source-'+id}><a href={study.sources[id].resource}>{study.sources[id].title}</a><p class="source">{guide.source_checks.find(s=>s.source_id===id)?.scope}</p></li>)}</ol></section>
+<section><h2>Sources and scope</h2><p class="source">Saved research reused and selected original pages rechecked on 9 October 2026. No interviews or human editorial review claimed.</p><ol>{sources.map(id => <li id={'source-'+id}><a href={study.sources[id].resource}>{study.sources[id].title}</a><p class="source">{guide.source_checks.find(s=>s.source_id===id)?.scope}</p></li>)}</ol></section>
 <p><a href="/culture/osha/">Return to the collection →</a></p>
 </article></div>
 </Shell>

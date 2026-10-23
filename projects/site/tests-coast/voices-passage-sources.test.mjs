@@ -52,5 +52,5 @@ for(const original of collection.pages.filter(p=>edition.routes.includes('/'+p.p
   const note=notes.match(new RegExp('<li id="voice-source-'+source.id+'"[^>]*tabindex="-1"[^>]*>([\\s\\S]*?)</li>'))?.[1];assert.ok(note);
   assert.ok(note.includes(escape(source.url)));assert.ok(note.includes(escape(source.review||source.inspection)));
  }
- assert.ok(notes.includes('Images and reuse'));assert.ok(notes.includes('AI assistance'));
+ assert.ok(notes.includes('Images and reuse'));assert.ok(!notes.includes('AI assistance'));
 });

@@ -41,7 +41,7 @@ test('Similipal stay retains its image context, rights, saved identity and readi
  for(const href of ['/destinations/mayurbhanj/','/visit/places/similipal/','/food/mudhi-mansa/','/visit/experiences/mayurbhanj-chhau/','/journey/'])assert.ok(onward.includes(`href="${href}"`),href);
  const outside=html.replace(/<details\b[^>]*>[\s\S]*?<\/details>/g,'');assert.match(outside,/href="\/contribute\/\?page=%2Fvisit%2Fstays%2Fsimilipal-gateways%2F"[^>]*>Suggest an update/);assert.match(outside,/GitHub submissions are public; omit private contact details and consent documents/);
  assert.match(html,/data-save-journey="stay:similipal-camps"/);assert.match(html,/name="robots" content="noindex, nofollow"/);
- const other=page('/visit/experiences/jobra-maritime-museum/');assert.doesNotMatch(other,/class="article-byline"|id="story-sources"/);assert.match(other,/Drafted with AI assistance/);
+ const other=page('/visit/experiences/jobra-maritime-museum/');assert.doesNotMatch(other,/class="article-byline"|id="story-sources"/);assert.doesNotMatch(other,/Drafted with AI assistance/);
  for(const path of ['/visit/places/barabati/','/visit/experiences/cuttack-netaji/','/visit/stays/cuttack/','/visit/places/chandipur/','/visit/places/similipal/'])assert.match(page(path),/By Ahimanikya Satapathy/);
 });
 test('Similipal stay portable reading retains every paragraph, concise sources and landscape photograph rights',()=>{
