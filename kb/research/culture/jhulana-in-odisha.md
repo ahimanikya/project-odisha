@@ -2,7 +2,7 @@
 type: "Festival and Music"
 title: "Jhulana in Odisha: the swing, the song and the season"
 description: "Local Jhulana calendars in Puri and Paralakhemundi, an Odissi repertoire entry and a swing lyric."
-status: "draft"
+status: "published"
 reviewed_on: "2026-10-23"
 human_review_claimed: false
 sources: [{"id": "odb-jhulana", "title": "Soumya Biswajit: Jhulana, song and painting", "resource": "https://www.instagram.com/odissiandbeyond/reel/Dciw7uUzIFR/"}, {"id": "barik-festivals", "title": "Sarmistha Barik, Festivals in Shri Jagannath Temple", "resource": "https://magazines.odisha.gov.in/Orissareview/june_july-2007/engpdf/Pages18-24.pdf"}, {"id": "misro-dash", "title": "R. C. Misro and S. K. Dash, Cultural Life in Paralakhemundi", "resource": "https://magazines.odisha.gov.in/Journal/journalvol3/pdf/15-27.pdf"}, {"id": "odissi-project", "title": "Prateek Pattanaik, The Odissi Project", "resource": "https://pattaprateek.com/the-odissi-project/"}, {"id": "ana-lo-mitani", "title": "Ana Lo Mitani Kunje Jhulana Doliku, Odissi Music", "resource": "https://odissimusic.co.in/index.php/song/ana-lo-mitani-kunje-jhulana-doliku/"}, {"id": "cma-hindola", "title": "Hindola Raga, Cleveland Museum of Art, 1975.9", "resource": "https://www.clevelandart.org/art/1975.9"}]
