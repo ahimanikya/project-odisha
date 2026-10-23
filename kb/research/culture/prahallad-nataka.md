@@ -91,14 +91,12 @@ One good performance can begin a longer relationship with that world. Let the ne
 
 [^ig-DeuJ1Ivk_32]: Odissi & Beyond, [20 October 2026 programme caption](https://www.instagram.com/odissiandbeyond/p/DeuJ1Ivk_32/), advertising 9 am–9 pm. Original caption inspected 23 October; conflicts with the booking page’s half-hour-later times.
 
-<details>
-<summary>Further reading</summary>
+## Further reading
 
 - [Odisha’s theatre traditions](odisha-theatre-traditions.md)
 - [Pala](pala.md) and [Daskathia](daskathia.md)
 - [Mardala](mardala.md) and [Mayurbhanj Chhau](mayurbhanj-chhau.md)
 - [Research dossier and unresolved questions](../sources/prahallad-nataka-research.md)
 
-</details>
 
 **[Suggest an update](https://projectodisha.org/contribute/?page=kb%2Fresearch%2Fculture%2Fprahallad-nataka.md):** identify the passage, source or performance you would like added. Practitioner explanations, dated programmes and text editions are especially useful. Obtain permission before supplying recordings or photographs. GitHub submissions are public; omit private contact details and consent documents.

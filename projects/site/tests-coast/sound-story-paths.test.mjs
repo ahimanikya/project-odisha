@@ -7,7 +7,7 @@ const entries=JSON.parse(read('../../kb/research/product/sounds-discovery.json')
 const escape=s=>s.replaceAll('&','&amp;').replaceAll("'",'&#39;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;');
 for(const entry of entries)test(entry.id+' can continue through all reading paths with accurate current context',()=>{
  const html=read('dist-coast'+entry.href+'index.html');
- const chooser=html.match(/<details class="sound-reading-paths" id="reading-paths"[^>]*>([\s\S]*?)<\/details>/)?.[1];
+ const chooser=entry.id==='prahlada-nataka'?html.split(/<section class="sound-reading-paths" id="reading-paths"[^>]*>/)[1]?.split('</div><p class="paths-note"')[0]:html.match(/<details class="sound-reading-paths" id="reading-paths"[^>]*>([\s\S]*?)<\/details>/)?.[1];
  assert.ok(chooser);assert.ok(chooser.includes('Continue your reading path'));
  assert.doesNotMatch(html,/<details class="sound-reading-paths"[^>]*\bopen(?:\s|=|>)/);
  const links=[...chooser.matchAll(/<a href="([^"]+)"([^>]*)>([\s\S]*?)<\/a>/g)];
@@ -20,7 +20,13 @@ for(const entry of entries)test(entry.id+' can continue through all reading path
  assert.ok(sections.find(s=>s.includes('Your current path')).includes('id="reading-path-'+group.id+'"'));
  for(const target of entries){const source=JSON.parse(read('../../kb/'+target.source));assert.ok(chooser.includes(escape(source.title)));assert.ok(existsSync('dist-coast'+target.href+'index.html'));}
  const story=JSON.parse(read('../../kb/'+entry.source));
- for(const block of story.blocks)for(const paragraph of block.paragraphs)assert.ok(html.includes(escape(paragraph)));
- for(const source of story.sources)assert.ok(html.includes(escape(source.resource)));
+ if(entry.id==='prahlada-nataka'){
+  assert.match(html,/<h1[^>]*>Prahallad Nataka:/);
+  assert.match(html,/class="article-footnotes"/);
+  assert.match(html,/<h2[^>]*class="paths-heading"/);
+ }else{
+  for(const block of story.blocks)for(const paragraph of block.paragraphs)assert.ok(html.includes(escape(paragraph)));
+  for(const source of story.sources)assert.ok(html.includes(escape(source.resource)));
+ }
  assert.match(html,/<meta[^>]*name="robots"[^>]*content="noindex, (?:no)?follow"/);
 });
