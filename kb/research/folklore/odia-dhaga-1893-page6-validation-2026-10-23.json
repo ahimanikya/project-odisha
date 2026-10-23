@@ -1,0 +1,63 @@
+{
+  "worker": "Samanta, AI mechanical validation",
+  "input_head": "64c8f59929b73c0ec85b9597d665a6fe334cea96",
+  "checked_at": "2026-10-23T17:37:21.779539+00:00",
+  "result": "pass",
+  "validation": {
+    "draft_path": "/tmp/pod-dhaga-page6-transcription.json",
+    "transcription_sha256": "ace83213f64716e94192c8796ccfc930f970344c2a7a7da512bf752e32a926a9",
+    "result": "pass",
+    "segment_count": 16,
+    "pdf_page": 6,
+    "declared_body_lines": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "same_line_segments": 3,
+    "line_gaps": [],
+    "accepted_corpus_increment": 0,
+    "human_reviewed": false,
+    "review_hash_verified": true,
+    "limits": [
+      "Structure only: not glyph accuracy, segmentation correctness, physical page completeness, rights or human review."
+    ]
+  },
+  "transcription_sha256": "ace83213f64716e94192c8796ccfc930f970344c2a7a7da512bf752e32a926a9",
+  "review_sha256": "825aaa2007d748ed27aeae954e9ade3862d3b5f00d35fa5dec7c83dd4e244d21",
+  "validator_sha256": "ee182213a67b8cf1bb6173e96134f145b0ebd165506d3a841ab809228789d048",
+  "commands": [
+    {
+      "command": "python3 projects/odia-dhaga/validate_transcription.py /tmp/pod-dhaga-page6-transcription.json --review /tmp/pod-dhaga-page6-review.json",
+      "result": "pass exact byte binding; 16 segments, 17 declared lines, no gaps",
+      "output": "/tmp/pod-dhaga-page6-validator-output.json"
+    },
+    {
+      "command": "python3 -m unittest discover -s projects/odia-dhaga -p 'test_*.py'",
+      "result": "pass: 8 reader tests; transcription module executes 32 negative fixtures and positive page2/page3/portion/review cases",
+      "log": "/tmp/pod-dhaga-page6-tests.log"
+    }
+  ],
+  "accepted_reader_entries": 15,
+  "accepted_corpus_increment": 0,
+  "limits": [
+    "Mechanical schema and exact review hash binding only; not glyph accuracy, semantic segmentation, physical completeness or rights certification.",
+    "Separate review is AI review, not human proofreading.",
+    "No repository content edits, Git mutation or build; no source facsimile bundled.",
+    "Uncertainty markers remain provisional; no new accepted sayings."
+  ]
+}
