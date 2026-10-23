@@ -1,0 +1,10 @@
+---
+const {current} = Astro.props;
+const articles = [{"slug": "odia-cultural-identity", "title": "Odia Cultural Identity and Pride", "description": "Know, use and pass on our language and living traditions."}, {"slug": "rise-children-of-utkal", "title": "Rise, Children of Utkal — ଉଠରେ ଉଠରେ ଉତ୍କଳ ସନ୍ତାନ", "description": "Turn encouragement into action using what we know, have and can do together."}, {"slug": "a-place-to-learn-together", "title": "A Place to Learn Together — ଆସନ୍ତୁ ଏକାଠି ଶିଖିବା", "description": "Give shared learning a regular place, willing people and a next meeting."}];
+---
+<section aria-label="Culture, initiative and shared learning" class="connected-reading">
+<details class="utk-disclosure"><summary>Continue reading: culture, initiative and shared learning</summary>
+<p>These three essays move from carrying culture into everyday life, to taking initiative, to creating a place where people can learn together.</p>
+<ul>{articles.filter(a => a.slug !== current).map(a => <li><a href={`/stories/${a.slug}/`}>{a.title}</a><p>{a.description}</p></li>)}</ul>
+</details></section>
+<style>.connected-reading{margin-top:2.5rem}.connected-reading li{margin:1rem 0}.connected-reading li p{margin:.35rem 0;line-height:1.7}</style>
