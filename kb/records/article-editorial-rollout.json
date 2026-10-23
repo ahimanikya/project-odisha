@@ -7432,14 +7432,23 @@
       "id": "POD-EDIT-483",
       "route": "/literature/champu-and-sakhi/",
       "title": "Champu and the sakhi: the friend who moves the story",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "Reviewed standalone illustrated research article",
       "source_template": "projects/site/src/pages/literature/champu-and-sakhi.astro",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
         "records/nataka-publication-2026-10-24.json"
       ],
-      "blocker": null
+      "blocker": null,
+      "publication_receipt": "records/champu-and-sakhi-publication-2026-10-24.json"
     }
   ]
 }

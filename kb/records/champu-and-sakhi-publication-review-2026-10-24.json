@@ -1,0 +1,40 @@
+{
+  "reviewer": "Drishti",
+  "commit": "6f44b115c816d3eaa6eeb55013c6b57ec29f05ab",
+  "route": "/literature/champu-and-sakhi/",
+  "status": "pass",
+  "blockers": [],
+  "checks": {
+    "canonical_paragraphs": {
+      "count": 39,
+      "missing": []
+    },
+    "source_notes": 11,
+    "missing_source_notes": [],
+    "duplicate_ids": [],
+    "broken_fragments": [],
+    "missing_local_destinations": [],
+    "sources_before_reading": true,
+    "reading_expanded": true,
+    "image_dimensions": [
+      3923,
+      2569
+    ],
+    "hash_matches_provenance": true,
+    "hash": "45e9402723c7be66b33532082b9e6b522724fd08f4615766d17bc2caff7b1e5d",
+    "comparative_caption": true,
+    "share_image": true,
+    "abhinaya_reciprocal_link": true,
+    "explore_entry": true,
+    "literature_entry": true,
+    "focused_tests": "8/8 independently passed",
+    "literature_test_delta": "Only test changed: count includes reviewed Literature manifest entries; each added href and description asserted. Existing source/image/card checks preserved. Focused coastal literature tests independently rerun."
+  },
+  "limits": [
+    "No browser visual or responsive interaction review.",
+    "No live deployment verification.",
+    "Retained prior source and image audits; no new external research.",
+    "Coastal and broader tests belong to root.",
+    "Ashta route has prospective Champu mapping but no canonical link currently uses it; actual reciprocal link verified in Abhinaya."
+  ]
+}
