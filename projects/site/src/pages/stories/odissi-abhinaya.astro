@@ -1,0 +1,23 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import ReviewedCultureArticle from '../../components/ReviewedCultureArticle.astro';
+import {renderReviewedCultureArticle} from '../../lib/reviewed-culture-article.mjs';
+import source from '../../../../../kb/research/culture/odissi-abhinaya.md?raw';
+const image={src:'/assets/odissi-abhinaya/abhinaya-reading.svg',alt:'Explanatory diagram: lyric, music and expressive performance invite an audience’s aesthetic experience',width:900,height:1080};
+const article=renderReviewedCultureArticle(source,{
+ sourcePath:'kb/research/culture/odissi-abhinaya.md',route:'/stories/odissi-abhinaya/',
+ images:{'../media/nayika/abhinaya-reading.svg':image.src},
+ imageDimensions:{[image.src]:{width:image.width,height:image.height}},
+ links:{'ashta-nayika.md':'/stories/ashta-nayika/','prahallad-nataka.md':'/stories/prahlada-nataka/','mardala.md':'/sounds-of-odisha/mardala/'}
+});
+---
+<Shell title={article.title} description="Bhava, rasa and abhinaya: following a lyric, its musicians and expressive storytelling in Odissi." active="explore" related={false} shareImage={{...image,src:'/assets/odissi-abhinaya/abhinaya-reading.png'}}>
+ <ReviewedCultureArticle article={article}>
+  <div slot="intro"><p><a href="/explore/">← Explore Odisha</a></p><p class="eyebrow">Odissi · Poetry and performance</p></div>
+  <p>Companion readings without a published article open the research knowledge base on GitHub.</p>
+  <nav aria-label="Continue reading about music and performance">
+   <h2>Continue reading</h2>
+   <ul><li><a href="/stories/ashta-nayika/">Ashta Nayika</a></li><li><a href="/stories/odissi-music/">Odissi music</a></li><li><a href="/stories/prahlada-nataka/">Prahallad Nataka</a></li><li><a href="/sounds-of-odisha/">Sounds of Odisha</a></li></ul>
+  </nav>
+ </ReviewedCultureArticle>
+</Shell>

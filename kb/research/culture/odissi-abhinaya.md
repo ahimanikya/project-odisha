@@ -87,8 +87,7 @@ The [Champu and sakhi article](champu-and-sakhi.md) takes the enquiry into dialo
 [^natyashastra-ch6-ghosh]: [*Natyashastra*, chapter VI, “Sentiments”](https://www.wisdomlib.org/hinduism/book/the-natyashastra/d/doc209700.html), Manomohan Ghosh’s English translation, hosted by Wisdomlib; verses 22–23 and the “Sentiments explained” discussion with verses 32–36. Introductory distinctions, not a comprehensive account of subsequent rasa theory. Inspected 23 October 2026.
 [^ignca-gita-govinda]: [IGNCA, Gita Govinda](https://ignca.gov.in/divisionss/cultural-informatics/gita-govinda/), multimedia-project description, including the 27 May 2015 release account. Interpretive framework attributed to this project; no recording was watched for this article. Page inspected 23 October 2026.
 
-<details>
-<summary>Further reading</summary>
+## Further reading
 
 - [Bhanita and literary signatures](bhanita-and-poet-signatures.md) — distinguish the poet’s name from the character and performer.
 
@@ -96,7 +95,6 @@ The [Champu and sakhi article](champu-and-sakhi.md) takes the enquiry into dialo
 - [Odissi](odissi.md)
 - [Mardala](mardala.md)
 
-</details>
 
 **[Suggest an update](https://projectodisha.org/contribute/?page=kb%2Fresearch%2Fculture%2Fodissi-abhinaya.md):** identify the lyric or credited performance and the passage needing correction. Obtain permission before sharing recordings or quoting a practitioner. GitHub submissions are public; omit private contact details and consent documents.
 
