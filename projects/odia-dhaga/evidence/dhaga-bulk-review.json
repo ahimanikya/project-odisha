@@ -1,0 +1,42 @@
+{
+  "reviewer": "Drishti, independent AI reviewer, not human proofreading",
+  "status": "pass_with_limitations",
+  "input_head": "61ef94f5b6b8da9a03788a544a27a81e16ff3908",
+  "scope": "Final108 local staging; canonical integration requires followup",
+  "research_hashes": {
+    "dhaga-bulk-a.json": "dae0adb6e3b6b6c1f3f06b4465f14b71568015ff136b082cc2caae116bd24727",
+    "dhaga-bulk-b.json": "e5e4e94e94c30d54e0d498b7de5cef565469d9102219d50e9913a3e0661474e9",
+    "dhaga-bulk-c.json": "59a283a7b805273ac4030c26360a358a23e535cbf704e6a2b43829dd1948ba06"
+  },
+  "hashes": {
+    "collection.json": "cacd95216e1b1ef9188066c6b7051509615202e90cf5377090a8b5c8f4401871",
+    "index.html": "06b57c59066cc3c0f012977a06f2974817a2494639ea4209f73fe0fe57800ca5",
+    "source127.json": "cda50900080f764277a5011675b26a837c2ff17f9473826adc60ad8e3443796c",
+    "source127.html": "31948e47b20b186645bb6fa5daaeec6cbe6d6bae6cd95b8ddb1abd6290a7834a",
+    "coverage-ledger.json": "93f5d6a4b941d81621497995e28ec2d278fc479cf4c1e36c70e14821f937093c"
+  },
+  "findings": [],
+  "source_checks": [
+    "Inspected all15 candidate explanations against supplied exact revision API wikitext; Tali/Desha originals additionally opened in web.",
+    "Phanka7975 lexical senses support local ways; support excerpt transparently distinct from full-saying attestation.",
+    "Position104 preserved Baiṣama spelling and synonym context; no religious-group generalization.",
+    "Position109 preserves longer drum/mouth witness and exaggeration, not measured distance.",
+    "Sanskrit maxims identified as such, not uniquely Odia origin. Silence expression explicitly not permission/consent.",
+    "Mahadeva investigation interpretation marked editorial without invented shrine origin. Historical and earliest-use claims remain limited."
+  ],
+  "actual_checks": [
+    "108 entries; all93 baseline parsed entries and asset bytes preserved.",
+    "15 new entries exactly equal final a/b/c payload apart from assigned canonical IDs; no duplicate headwords.",
+    "Independent schema validation, deterministic HTML and source-anchor checks pass.",
+    "Only15 intended source127 positions changed;40linked/37licensed+3SCERT/86pending/1duplicate reconcile.11 pending SCERT leads remain.",
+    "All previous ledger source rows unchanged, including historical counters/paths.",
+    "Implementation log read:13 tests passed."
+  ],
+  "limits": [
+    "No fresh browser/visual review for final108 by this reviewer.",
+    "Human Odia proofreading remains pending.",
+    "Raw API source captures independently inspected, but not independently refetched for every revision.",
+    "Full127 audit disposition is not proof of exhaustive source search; deferred positions remain unresolved.",
+    "Canonical integration and post-review status changes need exact-hash followup."
+  ]
+}
