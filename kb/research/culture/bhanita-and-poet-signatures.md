@@ -74,8 +74,7 @@ This connects with the [Champu and sakhi article](champu-and-sakhi.md), where id
 
 [^subhadra-print1939]: Upendra Bhanja, [*Subhadra Parinaya*, fourth edition, 1939](https://drive.google.com/file/d/1p9JC9tprZu_hp55TGzysKjGNVOOi6TTp/view), printed pp.1 and 6 (PDF pp.6 and 11), first chhanda, stanzas 10 and 66; title page PDF p.2. Odia Bibhaba catalogue record 580 lists Sheikh Nazir Muhammad as editor. Title imprint: S. S. Book-Stall, Cuttack; publication leaf also names Radhamohan Pustakalaya. Selected pages visually inspected; not a full critical collation.
 
-<details>
-<summary>Further reading</summary>
+## Further reading
 
 - [How sound and comparison shape Bhanja’s poetry](alankara-and-bhanja.md)
 
@@ -83,6 +82,5 @@ This connects with the [Champu and sakhi article](champu-and-sakhi.md), where id
 - [Odissi abhinaya](odissi-abhinaya.md)
 - [Poetic craft: further research questions](poetic-craft-research-guide.md)
 
-</details>
 
 **[Suggest an update](https://projectodisha.org/contribute/?page=kb%2Fresearch%2Fculture%2Fbhanita-and-poet-signatures.md):** identify the song, edition, signature and credited rendition. GitHub submissions are public; omit private contact details and consent documents.
