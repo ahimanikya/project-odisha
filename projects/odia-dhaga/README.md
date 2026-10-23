@@ -4,7 +4,7 @@ A source-led repository of Odia sayings: what the words picture, what people mea
 
 Open **[index.html](index.html)** in a browser. Search in Odia or English, filter by theme, read the original wording and explanations, and follow each witness to its source. The collection works offline; source links require internet. The portable research data is **[collection.json](collection.json)**.
 
-The current collection contains **15 explained sayings, 1 heritage illustration, 1 explanatory diagram and 13 source records**. It is a bounded seed, not a complete anthology. Three sayings have located nineteenth-century versions; provisional historical readings are labelled. The remaining entries are grounded in identified contemporary digital witnesses while historical comparison remains open. Odia explanations are editorial drafts, not a substitute for an experienced human language editor.
+The current collection contains **26 explained sayings, 1 heritage illustration, 1 explanatory diagram and 13 source records**. It is a bounded seed, not a complete anthology. Three sayings have located nineteenth-century versions; provisional historical readings are labelled. The remaining entries are grounded in identified contemporary digital witnesses while historical comparison remains open. Odia explanations are editorial drafts, not a substitute for an experienced human language editor.
 
 ## What we found
 
@@ -79,6 +79,6 @@ The canonical data is `collection.json`; regenerate `index.html` after edits. Re
 
 ## Coverage checkpoint
 
-[coverage-ledger.json](coverage-ledger.json) records source-by-source progress and the exact next transcription page. Fifteen explained entries are distinct from historical variants and repeated witnesses. The 1893 scan now has page-wide provisional transcription drafts for PDF pages 2–6 (printed pages 1–5): 83 tentative punctuation/layout segments across 80 physical body lines. These are research attempts, not 83 verified or newly explained sayings. Unclear glyphs and semantic boundaries remain explicit; no page is claimed fully transcribed or human-proofread. The next independent page attempt is PDF7. The bull-saying comparison on PDF6 points to existing entry002 and does not add a unique saying.
+[coverage-ledger.json](coverage-ledger.json) records source-by-source progress and the exact next transcription page. Twenty-six explained entries are distinct from historical variants and repeated witnesses. The 1893 scan now has page-wide provisional transcription drafts for PDF pages 2–6 (printed pages 1–5): 83 tentative punctuation/layout segments across 80 physical body lines. These are research attempts, not 83 verified or newly explained sayings. Unclear glyphs and semantic boundaries remain explicit; no page is claimed fully transcribed or human-proofread. The next independent page attempt is PDF7. The bull-saying comparison on PDF6 points to existing entry002 and does not add a unique saying.
 
 Drafts, exact source hashes, separate AI reviews and mechanical checks are linked in the coverage ledger. Multiple sayings can share one printed line, so their anchors preserve both line number and position within that line. Research drafts are kept outside `collection.json` and the reader browser until wording and interpretation are sufficiently supported.
