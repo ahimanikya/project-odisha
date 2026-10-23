@@ -56,7 +56,7 @@ An initial-letter pattern should not automatically be called **yamaka**. Vani’
 
 For this passage, the modest description is the stronger one: a recurring initial consonant and a comparison. More intricate classifications require closer work with the exact wording and a stated account of poetics. Naming a device should help explain a passage, not substitute for understanding it.
 
-The [Abana Rasataranga reading](abana-rasataranga.md) examines a different constraint: attached vowel signs. Its digital and printed readings differ at a checked passage, and the whole-work restriction remains unverified. Abana should not be used as a loose label for any poem with unusual lettering or repetition.
+The [Abana Rasataranga reading](abana-rasataranga.md) examines a different constraint: attached vowel signs. Its digital and printed readings differ at a checked passage. Abana should not be used as a loose label for any poem with unusual lettering or repetition.
 
 ## Read, listen, then return to the words
 
@@ -75,13 +75,11 @@ The [article on bhanita](bhanita-and-poet-signatures.md) follows another detail 
 
 [^subhadra-print1939]: Upendra Bhanja, [*Subhadra Parinaya*, fourth edition, 1939](https://drive.google.com/file/d/1p9JC9tprZu_hp55TGzysKjGNVOOi6TTp/view), printed p.2 (PDF p.7), first chhanda, stanzas 16–18; title page PDF p.2. Odia Bibhaba catalogue record 580 lists Sheikh Nazir Muhammad as editor. Title imprint: S. S. Book-Stall, Cuttack; publication leaf also names Radhamohan Pustakalaya. Selected pages visually inspected; not a full critical collation.
 
-<details>
-<summary>Further reading</summary>
+## Further reading
 
 - [Bhanita and literary signatures](bhanita-and-poet-signatures.md)
 - [Champu and the sakhi](champu-and-sakhi.md)
 - [Poetic craft: open research questions](poetic-craft-research-guide.md)
 
-</details>
 
 **[Suggest an update](https://projectodisha.org/contribute/?page=kb%2Fresearch%2Fculture%2Falankara-and-bhanja.md):** identify the passage, edition and interpretation. GitHub submissions are public; omit private contact details and consent documents.
