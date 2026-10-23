@@ -5,8 +5,9 @@ import OdiaConnectedReading from '../../components/OdiaConnectedReading.astro';
 import '../../styles/article-reading.css';
 import {Content, frontmatter} from '../../../../../kb/research/culture/a-place-to-learn-together.md';
 ---
-<Shell title={frontmatter.title} description={frontmatter.description} active="explore" wide related={false}>
+<Shell title={frontmatter.title} description={frontmatter.description} shareImage={{src:"/images/stories/shared-reading-circle.png",alt:"Illustration of adults and children sharing books in a community reading room.",width:1536,height:1024}} active="explore" wide related={false}>
 <article class="article-reading"><header><h1>{frontmatter.title}</h1><ArticleByline author="Ahimanikya Satapathy"/></header>
+<figure><img src="/images/stories/shared-reading-circle.png" width="1536" height="1024" alt="Illustration of adults and children sharing books around a table in a community reading room."/><figcaption>Illustration · An imagined neighbourhood reading circle, where generations learn together.</figcaption></figure>
 <Content/>
 <OdiaConnectedReading current="a-place-to-learn-together"/>
 <p><a href="/contribute/?page=%2Fstories%2Fa-place-to-learn-together%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>

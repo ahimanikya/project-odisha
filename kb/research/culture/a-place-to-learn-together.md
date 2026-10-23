@@ -1,16 +1,17 @@
 ---
+type: "Cultural essay"
+subjects: ["arts", "everyday"]
 title: "A Place to Learn Together — ଆସନ୍ତୁ ଏକାଠି ଶିଖିବା"
 description: "Give shared learning a regular place, willing people and a next meeting."
 status: "draft"
 human_review_claimed: false
+sources: [{"id": "dash", "title": "“A Discourse on Odia Cultural Space”", "resource": "https://odisha.plus/2020/02/a-discourse-on-odia-cultural-space-by-kailash-chandra-dash/"}, {"id": "satpathy", "title": "*Modernity, Print and Sahitya: The Making of a New Literary Culture, 1866–1919*", "resource": "https://www.routledge.com/Modernity-Print-and-Sahitya-The-Making-of-a-New-Literary-Culture-186/Satpathy/p/book/9781003431220"}, {"id": "deogarh", "title": "“Literature”", "resource": "https://deogarh.odisha.gov.in/en/tourism/literature"}]
 ---
 
 *What the Bhagabata Tungi tradition can teach us about building community today.*
 
 
-![Illustration of adults and children sharing books around a table in a community reading room.](/images/stories/shared-reading-circle.png)
 
-*Illustration · An imagined neighbourhood reading circle, where generations learn together.*
 
 Who opens the room? Who brings the book? Who makes a newcomer feel comfortable enough to ask a question? And who remembers to arrange the next meeting?
 
@@ -81,8 +82,6 @@ We can honour Jagannath Das by reading his work and understanding its place in p
 For a new learning circle, the beginning can be quite ordinary: a suitable room, a few willing people, something worth learning and a date everyone has agreed to keep.
 
 **ଆସନ୍ତୁ ଏକାଠି ଶିଖିବା—let us learn together. Then decide, together, when to meet again.**
-
-## Footnotes & Sources
 
 [^dash]: Kailash Chandra Dash, [“A Discourse on Odia Cultural Space”](https://odisha.plus/2020/02/a-discourse-on-odia-cultural-space-by-kailash-chandra-dash/), 2020, “Bhagavata Ghara” section. Historical synthesis, inspected as web text. Its regional observations are not used here as current counts or universal claims about access.
 

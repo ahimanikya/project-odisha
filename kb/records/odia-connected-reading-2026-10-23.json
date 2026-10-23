@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-10-23T17:27:09.339455+00:00",
-  "status": "local_preview",
+  "status": "release_candidate",
   "routes": [
     "/stories/odia-cultural-identity/",
     "/stories/rise-children-of-utkal/",
@@ -8,5 +8,21 @@
   ],
   "scope": "Reciprocal contextual links, companion draft website pages and existing illustrations. Existing identity further reading retained.",
   "git_push": false,
-  "website_publication_verified": false
+  "website_publication_verified": false,
+  "authorization": "Founder: go ahead, following proposal to review and publish all three articles.",
+  "review": {
+    "kind": "separate AI editorial review",
+    "agent": "/root/everyday_review",
+    "result": "Duplicate footnote headings identified and corrected; no other blocking findings.",
+    "human_review_claimed": false
+  },
+  "image_provenance": {
+    "community-learning-circle.png": "Original generated editorial illustration; not documentary evidence. Prompt retained in author workspace outputs/rise-children-of-utkal/image-prompt.txt.",
+    "shared-reading-circle.png": "Original generated editorial illustration; not documentary evidence. Prompt retained in author workspace outputs/a-place-to-learn-together/image-prompt.txt."
+  },
+  "validation": {
+    "kb": "PASS: check_bundle, research validate, catalogue, rollout",
+    "browser": "All three pages checked at390and1440pixels: one h1, one Footnotes & Sources heading, no horizontal overflow, all images loaded. Selected screenshots visually inspected.",
+    "review_fix": "Removed manual duplicate footnote headings; shared renderer now labels both companion source lists."
+  }
 }

@@ -1,16 +1,17 @@
 ---
+type: "Cultural essay"
+subjects: ["arts", "everyday"]
 title: "Rise, Children of Utkal — ଉଠରେ ଉଠରେ ଉତ୍କଳ ସନ୍ତାନ"
 description: "Turn encouragement into action using what we know, have and can do together."
 status: "draft"
 human_review_claimed: false
+sources: [{"id": "constraints", "title": "“Understanding and Overcoming Key Challenges of Agripreneurs in Southern Odisha: A Case Study”", "resource": "https://epubs.icar.org.in/index.php/IJEE/article/view/165221"}, {"id": "bootup", "title": "“#BootUpINDIA — Giving Independence to Indian Startups!”", "resource": "https://pn.ispirt.in/bootupindia-giving-independence-to-indian-startups/"}, {"id": "effectuation", "title": "“The Five Principles of Effectuation”", "resource": "https://effectuation.org/the-five-principles-of-effectuation"}, {"id": "tungi", "title": "“A Discourse on Odia Cultural Space”", "resource": "https://odisha.plus/2020/02/a-discourse-on-odia-cultural-space-by-kailash-chandra-dash/"}, {"id": "fakir", "title": "Fakir Mohan Senapati", "resource": "https://odisha.gov.in/en/odisha-profile/eminent-personalities/fakir-mohan-senapati"}, {"id": "madhu", "title": "“ଉତ୍କଳ ସନ୍ତାନ”", "resource": "https://www.odiasahitya.com/smaraniya-lekha/kabya-kabita-smaraniyalekha/utkal-santan/"}, {"id": "maritime", "title": "“Monsoon Wind and Maritime Trade: A Case Study of Historical Evidence from Orissa, India”", "resource": "https://www.currentscience.ac.in/Volumes/90/06/0864.pdf"}, {"id": "madhu-enterprise", "title": "“Madhubabu as a visionary Industrialist & Economist”", "resource": "https://odisha.plus/2020/04/madhubabu-as-a-visionary-industrialist-economist/"}]
 ---
 
 *From “nothing will happen here” to what we can begin together.*
 
 
-![Illustration of an intergenerational neighbourhood gathering, sharing books and notebooks on a shaded veranda.](/images/stories/community-learning-circle.png)
 
-*Illustration · A shared beginning: knowledge, time and people coming together.*
 
 “ଆମର ଏଠି କିଛି ହେବନି”—nothing will happen here.
 
@@ -101,8 +102,6 @@ This month, choose one useful activity and one person willing to work on it with
 A first meeting. A lesson someone agrees to teach. A useful service tested with a customer. A promise kept long enough for another person to trust it.
 
 **“ଉଠରେ ଉଠରେ ଉତ୍କଳ ସନ୍ତାନ.” Let us answer with something we begin—and something we help another person begin.**
-
-## Footnotes & Sources
 
 [^constraints]: Netrananda Das and colleagues, [“Understanding and Overcoming Key Challenges of Agripreneurs in Southern Odisha: A Case Study”](https://epubs.icar.org.in/index.php/IJEE/article/view/165221), *Indian Journal of Extension Education* 61(2), 2025, pp.118–122. Study of 120 agripreneurs in Gajapati and Rayagada during 2023–24; abstract and method summary inspected. It is not a statewide survey of pessimism or proof of causation.
 
