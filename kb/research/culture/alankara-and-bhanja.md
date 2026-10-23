@@ -2,7 +2,7 @@
 type: "Literary Culture"
 title: "How sound and comparison shape Bhanja’s poetry"
 description: "Sound and comparison in Baidehisha Bilasa, and the poetic devices named within Subhadra Parinaya."
-status: "draft"
+status: "published"
 reviewed_on: "2026-10-23"
 human_review_claimed: false
 sources: [{"id": "odb-alankara", "title": "Soumya Biswajit: alankara and Bhanja", "resource": "https://www.instagram.com/odissiandbeyond/reel/DZjYUmwT-Ec/"}, {"id": "bhanja-chhanda18", "title": "Baidehisha Bilasa, eighteenth chhanda, Odia Wikisource", "resource": "https://or.wikisource.org/wiki/ବୈଦେହୀଶ_ବିଳାସ/ବନ୍ୟା_ଶିଖରିର_ତହିଁ_ବିପ୍ରଲବ୍ଧା_ପ୍ରାୟ_ହୋଇ"}, {"id": "banerjee-bhanja2026", "title": "Ishita Banerjee, Baidehisha Bilasa review", "resource": "https://academic.oup.com/jhs/advance-article-abstract/doi/10.1093/jhs/hiag022/8864960"}, {"id": "vani-kavyadarsha", "title": "Bhandaram Vani, Kavyadarsha, INFLIBNET", "resource": "https://ebooks.inflibnet.ac.in/engp11/chapter/kavyadarsha/"}, {"id": "bhanja-subhadra-ova", "title": "Upendra Bhanja, Subhadra Parinaya, OVA digital text", "resource": "https://ova.gov.in/en/ReadEbooks?bid=ToEVr+zu+mg%3D"}, {"id": "subhadra-print1939", "title": "Upendra Bhanja, Subhadra Parinaya, fourth edition 1939", "resource": "https://drive.google.com/file/d/1p9JC9tprZu_hp55TGzysKjGNVOOi6TTp/view"}]
