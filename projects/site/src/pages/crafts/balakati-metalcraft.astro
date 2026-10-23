@@ -1,0 +1,32 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import ReviewedCultureArticle from '../../components/ReviewedCultureArticle.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
+import {renderReviewedCultureArticle} from '../../lib/reviewed-culture-article.mjs';
+import source from '../../../../../kb/research/culture/balakati-metalcraft.md?raw';
+const image={src:'/assets/balakati-metalcraft/process-overview.svg',alt:'Original illustrative overview of brass scrap, melting, casting, forming and finishing',width:720,height:1100};
+const article=renderReviewedCultureArticle(source,{
+ sourcePath:'kb/research/culture/balakati-metalcraft.md',route:'/crafts/balakati-metalcraft/',
+ images:{'../media/balakati/process-overview.svg':image.src},
+ imageDimensions:{[image.src]:{width:image.width,height:image.height}},
+ links:{'ghanta-ghanti.md':'/sounds-of-odisha/ghanta-ghanti/','mardala.md':'/sounds-of-odisha/mardala/','sakhi-nata-and-sakhi-pila.md':'/stories/sakhi-nata-and-sakhi-pila/','sounds-of-odisha.md':'/sounds-of-odisha/'}
+});
+// This article adopts the current reading-path pattern without changing earlier pages.
+const further=article.html.match(/<h2 id="further-reading">Further reading<\/h2>\s*<ul>([\s\S]*?)<\/ul>/);
+if(!further)throw Error('Balakati further-reading list missing');
+const destinationImages={
+ '/stories/sakhi-nata-and-sakhi-pila/':'/assets/sakhi-nata-and-sakhi-pila/mardala.jpg',
+ '/sounds-of-odisha/mardala/':'/assets/home-art/odissi-rehearsal-v1.webp'
+};
+const readingLinks=[...further[1].matchAll(/<a href="([^"]+)">([^<]+)<\/a>/g)].map(([,href,title])=>({href:href.replaceAll('&amp;','&'),title:title.replaceAll('&amp;','&'),image:destinationImages[href],description:href==='/sounds-of-odisha/mardala/'?'Illustration from the Mardala article.':undefined}));
+const [body,afterReading]=article.html.split(further[0]);
+article.html=body;
+---
+<Shell title={article.title} description="Follow Balakati brass work through a named workshop, documented processes and the relationship between makers and musical instruments." active="explore" related={false} shareImage={{...image,src:'/assets/balakati-metalcraft/process-overview.png'}}>
+ <ReviewedCultureArticle article={article}>
+  <div slot="intro"><p><a href="/crafts/">← Crafts of Odisha</a></p><p class="eyebrow">Crafts · Metal and music</p></div>
+  <ArticleReadingPath id="further-reading" heading="Further reading" links={readingLinks}/>
+  <div set:html={afterReading}/>
+  <ArticleReadingPath links={[{href:'/crafts/',title:'Explore crafts of Odisha'},{href:'/stories/ashta-nayika/',title:'Ashta Nayika: eight dramatic situations',image:'/assets/ashta-nayika/abhisarika-met.jpg'}]}/>
+ </ReviewedCultureArticle>
+</Shell>

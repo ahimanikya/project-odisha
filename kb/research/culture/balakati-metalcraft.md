@@ -59,14 +59,12 @@ Our [ghanta and ghanti article](ghanta-ghanti.md) follows ringing into ritual an
 [^ghanta-dsource]: Bibhudutta Baral and Antony William, [*Bell Metal Design of Orissa*](https://www.dsource.in/resource/bell-metal-design-orissa/introduction), NID Bengaluru, D’source, Introduction, manjira product description. Read 23 October 2026. This is wider craft context, not documentation of the particular instrument in the social post.
 [^odb-manjira]: Soumya Biswajit / Odissi & Beyond, [manjira and Balakati post](https://www.instagram.com/odissiandbeyond/reel/DOOA2aRiOOX/), caption inspected in the 23 October 2026 archive survey. Credit for the research lead; workshop identity and audiovisual process analysis remain unverified.
 
-<details>
-<summary>Further reading</summary>
+## Further reading
 
 - [Ghanta and ghanti](ghanta-ghanti.md)
 - [Mardala](mardala.md)
 - [Sakhi Nata and Sakhi Pila](sakhi-nata-and-sakhi-pila.md)
 - [Sounds of Odisha](sounds-of-odisha.md)
 
-</details>
 
 **[Suggest an update](https://projectodisha.org/contribute/?page=kb%2Fresearch%2Fculture%2Fbalakati-metalcraft.md):** identify the maker, object, process or source passage. GitHub submissions are public; omit private contact details and consent documents.

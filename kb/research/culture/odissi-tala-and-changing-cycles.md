@@ -2,7 +2,7 @@
 type: "Music and Rhythm"
 title: "Odissi tala: why the grouping matters"
 description: "Adatali, Aditala and a documented composition that changes between three fourteen-matra cycles."
-status: "draft"
+status: "published"
 reviewed_on: "2026-10-23"
 human_review_claimed: false
 sources: [{"id": "ada-database", "title": "Odissi Music, Adatali", "resource": "https://odissimusic.co.in/index.php/tala/adatali-aadtali-ada-tali-aadatali/"}, {"id": "abgmvm-odissi", "title": "Akhil Bharatiya Gandharva Mahavidyalaya Mandal, Odissi dance syllabus", "resource": "https://abgmvm.org/wp-content/uploads/2024/12/ओडिसी-नृत्य.pdf"}, {"id": "patnaik-rhythm2019", "title": "Sushil Kumar Patnaik, The Role of Rhythm, 2019", "resource": "https://magazines.odisha.gov.in/Orissareview/2019/Feb-Mar/engpdf/35-41.pdf"}, {"id": "charlotte-odissi2026", "title": "UNC Charlotte, Odissi Odyssey programme, 2026", "resource": "https://coaa.charlotte.edu/wp-content/uploads/sites/807/2026/04/Odissi26_FINAL-2.pdf"}, {"id": "jhula-database", "title": "Odissi Music, Jhula", "resource": "https://odissimusic.co.in/index.php/tala/jhula-jhulaa/"}, {"id": "odissi-project", "title": "Prateek Pattanaik, The Odissi Project", "resource": "https://pattaprateek.com/the-odissi-project/"}, {"id": "odb-ada", "title": "Soumya Biswajit, changing talas", "resource": "https://www.instagram.com/odissiandbeyond/reel/DNLMAFUTQny/"}, {"id": "odb-ga-champu", "title": "Collaborative Ga Champu and Ada Tali post", "resource": "https://www.instagram.com/tulika_tripathy/reel/DXt09PvjD-I/"}, {"id": "misra-jhula2012", "title": "Manisha Misra, Gita-Govinda comparative study, Jhula notation", "resource": "https://www.wisdomlib.org/uploads/ocr/essays/gitagovinda/15-chapter-7.pdf"}]
