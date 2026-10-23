@@ -69,13 +69,11 @@ Read the song, the festival account and the painting with their own names attach
 [^odissi-project]: Prateek Pattanaik, [*The Odissi Project*](https://pattaprateek.com/the-odissi-project/), section 2, “Chandramani Lenka, Puri,” “Songs recorded,” item 6. Catalogue inspected 23 October 2026; the recording was not auditioned for this article.
 [^ana-lo-mitani]: [“Ana Lo Mitani Kunje Jhulana Doliku”](https://odissimusic.co.in/index.php/song/ana-lo-mitani-kunje-jhulana-doliku/), *Odissi Music*, attributed there to Baikunthanath Brahmachari; refrain and stanza 3. Digital transcription inspected 23 October 2026; no historical edition or locality of ritual performance is identified on the page. Brief English gloss by Project Odisha.
 
-<details>
-<summary>Further reading</summary>
+## Further reading
 
 - [Bhanita and literary signatures](bhanita-and-poet-signatures.md)
 - [Champu and the sakhi](champu-and-sakhi.md)
 - [Jhulana and Sakhi Pila research guide](jhulana-and-sakhi-pila-research-guide.md)
 
-</details>
 
 **[Suggest an update](https://projectodisha.org/contribute/?page=kb%2Fresearch%2Fculture%2Fjhulana-in-odisha.md):** identify the locality, song or source passage. GitHub submissions are public; omit private contact details and consent documents.
