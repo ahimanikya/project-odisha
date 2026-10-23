@@ -15,5 +15,5 @@ export function pageContext(path, title) {
 // into a social image, and a missing portrait never receives a substitute face.
 export function sharingImage(image) {
  if (image?.src?.startsWith('/') && /\.(?:png|jpe?g|webp)$/i.test(image.src) && image.alt && image.width && image.height) return image;
- return {src:'/assets/coast-illustration-v1.webp',alt:'Project Odisha brand illustration: an imagined Odisha-inspired coast, not a documentary view of this subject.',width:1536,height:1024};
+ return {src:'/assets/coast-natural-fallback-v2.png',alt:'Project Odisha brand illustration: two people tending a wooden boat on an imagined Odisha-inspired shore, not a documentary view of this subject.',width:1536,height:1024};
 }
