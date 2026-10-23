@@ -1,0 +1,158 @@
+{
+  "task_id": "POD-TASK-MALI-20261023",
+  "article_id": "POD-EDIT-474",
+  "programme_id": "POD-A500-127",
+  "work_id": "POD-WORK-318",
+  "status": "in_progress",
+  "input_head": "161b5d99249f11dd5aa0b0bc6d31734eba156b0b",
+  "started_at": "2026-10-23T00:11:33.341737+00:00",
+  "route": "/communities/mali/",
+  "scope": "Mali regional community history: gardens, irrigation, temple roles and regional names; occupational explanations distinguished from formation evidence.",
+  "acceptance": [
+    "Explain documented Mali gardening, irrigation, markets, regional naming and temple roles from inspected original sources.",
+    "Separate occupational explanations and origin traditions from verified formation; do not infer caste from surname or equate all gardeners, regional labels or administrative groupings.",
+    "Separate AI research, implementation and review; meaningful tests, responsive/download checks, reviewed merge, approved deployment, live checks and receipt integration before credit."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only original research /tmp/pod-mali-research.json",
+      "status": "completed",
+      "scope_released": false
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/pages/communities/mali.astro",
+        "projects/site/tests-coast/mali-editorial.test.mjs"
+      ],
+      "status": "completed",
+      "scope_released": false
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Read-only integrated candidate review",
+      "status": "in_progress",
+      "scope_released": false
+    },
+    {
+      "name": "Disha",
+      "scope": "Canonical narrative/shared records/publishing",
+      "status": "in_progress",
+      "scope_released": false
+    }
+  ],
+  "worker_reconciliation": "Bhandari receipt PR455 merged c1fb9099; completion161b5d99 retained. Previous workers completed and scopes released; external current_article/task null; unrelated PR304/281 untouched.",
+  "next_action": "Complete responsive/download checks and exact committed-head review, then merge and publish; retain claim through receipt integration.",
+  "research_report": "research/sources/mali-research.json",
+  "source_review": {
+    "reviewer": "Drishti, separate AI subagent",
+    "status": "content_pass_pending_exact_head_and_implementation",
+    "resolved_finding": "Source aggregate shortened to respect conservative quotation/summarization budget.",
+    "human_review": false
+  },
+  "implementation": {
+    "task_id": "POD-TASK-MALI-20261023",
+    "article_id": "POD-EDIT-474",
+    "worker": "Samanta, AI implementation agent",
+    "input_head": "161b5d99249f11dd5aa0b0bc6d31734eba156b0b",
+    "status": "final candidate passed local validation",
+    "actual_edits": [
+      "projects/site/src/pages/communities/mali.astro",
+      "projects/site/tests-coast/mali-editorial.test.mjs"
+    ],
+    "implementation": [
+      "Canonical JSON-driven template, compact metadata, visible mapped footnotes and exact backlinks.",
+      "Collapsed further reading, visible correction notice and portable full prose/source tests.",
+      "No invented imagery or identity assertions."
+    ],
+    "tests": [
+      {
+        "name": "Node24 syntax check",
+        "result": "pass"
+      },
+      {
+        "name": "git diff --check",
+        "result": "pass"
+      },
+      {
+        "name": "full build and npm test",
+        "passed": 566,
+        "failed": 0,
+        "log": "/tmp/pod-mali-full-tests.log"
+      },
+      {
+        "name": "build:coast and test:coast",
+        "passed": 477,
+        "failed": 0,
+        "log": "/tmp/pod-mali-tests.log"
+      },
+      {
+        "name": "build:publication",
+        "result": "pass",
+        "indexable_pages": 11,
+        "log": "/tmp/pod-mali-publication.log"
+      },
+      {
+        "name": "audit-coast.py",
+        "passed": 1896,
+        "total": 1896,
+        "log": "/tmp/pod-mali-audit.log"
+      }
+    ],
+    "limits": [
+      "Only reserved page/test edited; no shared records or Git/publication changes.",
+      "Factual research/canonical prose belongs to Anvesha/Disha; this is AI implementation validation.",
+      "Separate final review, CI, merge, approved deployment and live verification remain."
+    ],
+    "checked_at": "2026-10-23T00:20:16.840731+00:00",
+    "validation_head": "161b5d99249f11dd5aa0b0bc6d31734eba156b0b",
+    "failed_gates": [],
+    "reruns": [
+      "Coordinator shortened two paragraphs for source budget after initial gates passed. Rebuilt all variants and repeated tests for final prose before screenshots/download; initial passing logs retained with before-budget-edit suffix."
+    ],
+    "responsive": {
+      "desktop": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "column_width": 740,
+        "scroll_width": 1440,
+        "screenshot": "/tmp/pod-mali-desktop.png"
+      },
+      "mobile": {
+        "viewport": [
+          390,
+          844
+        ],
+        "scroll_width": 390,
+        "screenshots": [
+          "/tmp/pod-mali-mobile.png",
+          "/tmp/pod-mali-mobile-body.png"
+        ]
+      },
+      "metadata": "sips confirms desktop1440x1000 and both mobile390x844; screenshots inspected, readable, no overflow.",
+      "keyboard": "Enter first note focuses note-mali-thurston1909; backlink returns exact ref-water-and-gardens-0-mali-thurston1909. Contents Enter focuses winter-flowers.",
+      "disclosure": "Initially collapsed; Enter expands expected links. Bhandari link reached correct article.",
+      "source_order": [
+        "Thurston1909",
+        "Niyogi2023",
+        "Bhadrak Gazetteer",
+        "Ganjam Gazetteer"
+      ],
+      "save": "Preview Save persisted across navigation; mobile screenshot shows saved state.",
+      "download": {
+        "path": "/Users/ahimanikya/Downloads/My-Odisha-Journey-book-2026-10-23.html",
+        "bytes": 79074,
+        "modified": "2026-10-23T00:19:45.885844+00:00",
+        "all_paragraphs_present": true,
+        "all_sources_present": true
+      }
+    }
+  },
+  "coordinator_visual_check": "Inspected actual390x844 mobile body image; readable spacing, correct footnotes, no horizontal overflow."
+}
