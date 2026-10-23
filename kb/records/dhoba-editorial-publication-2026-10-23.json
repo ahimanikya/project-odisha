@@ -1,0 +1,86 @@
+{
+  "recorded_at": "2026-10-23T03:41:56.684183+00:00",
+  "authorization": "POD-DEC-225",
+  "program_item": "POD-A500-128",
+  "work_id": "POD-WORK-319",
+  "queue_item": "POD-EDIT-475",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/458",
+  "reviewed_head": "e792e9a90a2a5e59533fb99a0ff397335ddc1e2d",
+  "merge_commit": "069dc46108ce2f3310f87d42689ec6012562fbbc",
+  "validation": {
+    "conclusion": "success",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39895623258"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "createdAt": "2026-10-23T03:38:04Z",
+    "databaseId": 39896052839,
+    "headSha": "069dc46108ce2f3310f87d42689ec6012562fbbc",
+    "status": "completed",
+    "updatedAt": "2026-10-23T03:40:47Z",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39896052839",
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "review": "records/dhoba-delivery-review-2026-10-23.json",
+  "live": {
+    "result": "PASS",
+    "checked_at": "2026-10-23T03:41:14.677036+00:00",
+    "url": "https://projectodisha.org/communities/dhoba/",
+    "html_sha256": "a38116282c5a5e38a00ecc8600b80f224bbd5fbfe85442088f6b28c874d4429f",
+    "checks": [
+      "All canonical prose matches",
+      "Founder byline",
+      "Three visible source note targets",
+      "noindex preserved",
+      "Bounded canonical description present"
+    ]
+  },
+  "live_browser": {
+    "worker": "Samanta, AI implementation agent",
+    "checked_at": "2026-10-23T03:41:36.349555+00:00",
+    "input_head": "069dc46108ce2f3310f87d42689ec6012562fbbc",
+    "deployment": "39896052839",
+    "url": "https://projectodisha.org/communities/dhoba/",
+    "result": "pass",
+    "actual_checks": {
+      "title": "Dhoba: washing, payment and ceremonial work · Project Odisha",
+      "viewport": [
+        390,
+        844
+      ],
+      "scroll_width": 390,
+      "notes_order": [
+        "M. Ahmed · A Monograph on Village Daanla",
+        "Bhadrak District Gazetteer · Dhoba",
+        "Ganjam District Gazetteer · Dhoba"
+      ],
+      "keyboard_note_focus": "note-teli-daanla-census1961-survey1962-pub1968",
+      "keyboard_exact_return_focus": "ref-harvest-and-payment-0-teli-daanla-census1961-survey1962-pub1968",
+      "further_reading_initially_collapsed": true,
+      "keyboard_disclosure_expands": true,
+      "reading_hrefs": [
+        "https://projectodisha.org/communities/bhandari/",
+        "https://projectodisha.org/communities/mali/",
+        "https://projectodisha.org/stories/odia-cultural-identity/"
+      ]
+    },
+    "limits": [
+      "Tiny live check requested; desktop and screenshot validation retained from preview.",
+      "No production Save/download mutations.",
+      "Reading link hrefs verified; destination pages not opened in this live check.",
+      "Deployment/head supplied by coordinator; browser verifies live content and behavior."
+    ]
+  },
+  "verified_routes": [
+    "/communities/dhoba/"
+  ],
+  "limits": [
+    "Separate AI review, not human community review or fieldwork.",
+    "No universal alias, surname-based caste assignment or verified community formation date established.",
+    "Daanla investigation1962/publication1968 describes one village; original payment units and caste exclusions retained.",
+    "Bhadrak ritual contamination is reported belief, not physical dirt or intrinsic status.",
+    "Gazetteer exact imprint and practice dates unresolved; Gandi worship and laundry changes are regional accounts, not a current survey.",
+    "SCSTRTI unavailable; CWDS draft deferred. No image rights verified; no image added. Search eligibility unchanged."
+  ]
+}

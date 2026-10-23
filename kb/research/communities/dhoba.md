@@ -11,4 +11,4 @@ No verified community founding date or founder. No universal Dhoba/Dhobi/Rajak a
 
 No rights-cleared community-specific image identified; generic laundry images cannot establish caste. No image added. Separate AI production and review do not assert human community review or fieldwork.
 
-POD-EDIT-475; POD-A500-128; POD-WORK-319. Candidate awaiting separate review and publication evidence.
+POD-EDIT-475; POD-A500-128; POD-WORK-319. Published with separate AI review, tests, approved deployment and [live receipt](../../records/dhoba-editorial-publication-2026-10-23.json). Local and community research questions remain open.
