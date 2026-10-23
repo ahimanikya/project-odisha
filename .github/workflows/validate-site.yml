@@ -74,6 +74,7 @@ jobs:
       - name: Validate offline Odia dhaga repository
         run: |
           python3 projects/odia-dhaga/test_repository.py
+          python3 projects/odia-dhaga/test_transcription.py
           python3 projects/odia-dhaga/build.py
           git diff --exit-code -- projects/odia-dhaga/index.html
       - name: Reconcile official language population tables

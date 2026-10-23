@@ -72,10 +72,13 @@ Local font licences are preserved in `assets/`. Source records contain additiona
 ```sh
 python3 projects/odia-dhaga/build.py
 python3 projects/odia-dhaga/test_repository.py
+python3 projects/odia-dhaga/test_transcription.py
 ```
 
 The canonical data is `collection.json`; regenerate `index.html` after edits. Review textual changes against witnesses, not just automated tests. See [the source audit](../../kb/research/folklore/odia-dhaga-source-audit-2026-10-23.json) and [team handoff](../../kb/records/odia-dhaga-team-2026-10-23.json) for inspection and review limits.
 
 ## Coverage checkpoint
 
-[coverage-ledger.json](coverage-ledger.json) records source-by-source progress and the exact next transcription page. Fifteen explained entries are distinct from historical variants and repeated witnesses. The1893 scan has targeted checks on PDFpages2–4, but no page is yet claimed fully transcribed or human-proofread. This prevents repeated sampling from masquerading as completed coverage.
+[coverage-ledger.json](coverage-ledger.json) records source-by-source progress and the exact next transcription page. Fifteen explained entries are distinct from historical variants and repeated witnesses. The 1893 scan now has page-wide provisional transcription drafts for PDF pages 2 and 3 (printed pages 1 and 2): 31 tentative segments across 29 physical lines. These are research attempts, not 31 verified or newly explained sayings. Unclear glyphs and the boundary between the pages remain explicit; no page is claimed fully transcribed or human-proofread. The next independent page attempt is PDF 4.
+
+Drafts, exact source hashes, separate AI reviews and mechanical checks are linked in the coverage ledger. Multiple sayings can share one printed line, so their anchors preserve both line number and position within that line. Research drafts are kept outside `collection.json` and the reader browser until wording and interpretation are sufficiently supported.
