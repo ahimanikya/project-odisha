@@ -64,14 +64,12 @@ When returning to a photograph or recording, keep three details together: the ch
 
 [^dash-pattanaik2006]: Debendra K. Dash and Dipti R. Pattanaik, [“Translating Medieval Orissa”](https://ntm.org.in/download/ttvol/volume3/ARTICLES/02%20-%20Translating%20Medieval%20Orissa1%20%E2%80%93%20Debendra%20K.%20Dash%2C%20Dipti%20R.%20Pattanaik.pdf), *Translation Today* 3, nos.1–2 (2006), bibliography p.66. Bibliographic reference inspected 23 October 2026; it establishes an edition to consult, not its use in a specific Sahi Jatra performance.
 
-<details>
-<summary>Further reading</summary>
+## Further reading
 
 - [Prahallad Nataka](prahallad-nataka.md)
 - [Odisha’s theatre traditions](odisha-theatre-traditions.md)
 - [Sakhi Nata and Sakhi Pila](sakhi-nata-and-sakhi-pila.md)
 - [Jhulana in Odisha](jhulana-in-odisha.md)
 
-</details>
 
 **[Suggest an update](https://projectodisha.org/contribute/?page=kb%2Fresearch%2Fculture%2Fsahi-jatra.md):** identify the neighbourhood, performer, text or dated programme. GitHub submissions are public; omit private contact details and consent documents.

@@ -1,0 +1,33 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import ReviewedCultureArticle from '../../components/ReviewedCultureArticle.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
+import {renderReviewedCultureArticle} from '../../lib/reviewed-culture-article.mjs';
+import source from '../../../../../kb/research/culture/sahi-jatra.md?raw';
+const image={src:'/assets/sahi-jatra/performer.jpg',alt:'Parasurama in Sahi Jata, Harachandi Sahi, Puri; photograph by Prateek Pattanaik',width:3264,height:4928};
+const article=renderReviewedCultureArticle(source,{
+ sourcePath:'kb/research/culture/sahi-jatra.md',route:'/stories/sahi-jatra/',
+ images:{'../media/sahi-jatra/performer.jpg':image.src},
+ imageDimensions:{[image.src]:{width:image.width,height:image.height}},
+ links:{'prahallad-nataka.md':'/stories/prahlada-nataka/','sakhi-nata-and-sakhi-pila.md':'/stories/sakhi-nata-and-sakhi-pila/','jhulana-in-odisha.md':'/stories/jhulana-in-odisha/'}
+});
+// This article adopts the current reading-path pattern without changing earlier pages.
+const further=article.html.match(/<h2 id="further-reading">Further reading<\/h2>\s*<ul>([\s\S]*?)<\/ul>/);
+if(!further)throw Error('Sahi Jatra further-reading list missing');
+const destinationImages={
+ '/stories/prahlada-nataka/':'/assets/prahallad-nataka/crafts-museum.jpg',
+ '/stories/sakhi-nata-and-sakhi-pila/':'/assets/sakhi-nata-and-sakhi-pila/mardala.jpg',
+ '/stories/jhulana-in-odisha/':'/assets/jhulana-in-odisha/hindola-raga.jpg'
+};
+const readingLinks=[...further[1].matchAll(/<a href="([^"]+)">([^<]+)<\/a>/g)].map(([,href,title])=>({href:href.replaceAll('&amp;','&'),title:title.replaceAll('&amp;','&'),image:destinationImages[href]}));
+const [body,afterReading]=article.html.split(further[0]);
+article.html=body;
+---
+<Shell title={article.title} description="Puri’s Sahi Jatra through characters, neighbourhood associations and the institutions behind the street performance." active="explore" related={false} shareImage={image}>
+ <ReviewedCultureArticle article={article}>
+  <div slot="intro"><p><a href="/explore/">← Explore Odisha</a></p><p class="eyebrow">Living traditions · Music and theatre</p></div>
+  <ArticleReadingPath id="further-reading" heading="Further reading" links={readingLinks} intro="The theatre guide opens the research knowledge base on GitHub."/>
+  <div set:html={afterReading}/>
+  <ArticleReadingPath links={[{href:'/literature/',title:'Explore Odia literature'},{href:'/stories/ashta-nayika/',title:'Ashta Nayika: eight dramatic situations',image:'/assets/ashta-nayika/abhisarika-met.jpg'}]}/>
+ </ReviewedCultureArticle>
+</Shell>
