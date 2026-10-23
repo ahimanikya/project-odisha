@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 476. completed: 81, excluded: 76, in_progress: 1, queued: 318.
+Route inventory: 476. completed: 82, excluded: 76, queued: 318.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -489,4 +489,4 @@ Route inventory: 476. completed: 81, excluded: 76, in_progress: 1, queued: 318.
 | POD-EDIT-473 | [Bhandari regional community history](https://projectodisha.org/communities/bhandari/) | completed | Bhandari regional community history: inherited service, ritual participation, names and changing work; occupational explanations distinguished from formation evidence. |
 | POD-EDIT-474 | [Mali regional community history](https://projectodisha.org/communities/mali/) | completed | Mali regional community history: gardens, irrigation, temple roles and regional names; occupational explanations distinguished from formation evidence. |
 | POD-EDIT-475 | [Dhoba regional community history](https://projectodisha.org/communities/dhoba/) | completed | Dhoba regional community history: cloth washing, water access, ceremonial roles and regional names; occupational explanations distinguished from formation evidence. |
-| POD-EDIT-476 | [Patara regional community history](https://projectodisha.org/communities/patara/) | in_progress | Patara regional community history: yarn work, trade, regional names and specific temple craft; occupational explanations distinguished from formation evidence. |
+| POD-EDIT-476 | [Patara regional community history](https://projectodisha.org/communities/patara/) | completed | Patara regional community history: yarn work, trade, regional names and specific temple craft; occupational explanations distinguished from formation evidence. |

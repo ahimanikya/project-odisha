@@ -1,0 +1,81 @@
+{
+  "recorded_at": "2026-10-23T04:08:54.690630+00:00",
+  "authorization": "POD-DEC-225",
+  "program_item": "POD-A500-129",
+  "work_id": "POD-WORK-320",
+  "queue_item": "POD-EDIT-476",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/460",
+  "reviewed_head": "31d0f85d15dd4290d15aaf7b2dfd7c34e7cec7bf",
+  "merge_commit": "49ac0a886b5d41c65540834b607c8ae348198e5b",
+  "validation": {
+    "conclusion": "success",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39897975089"
+  },
+  "deployment": {
+    "conclusion": "success",
+    "createdAt": "2026-10-23T04:04:32Z",
+    "databaseId": 39898361497,
+    "headSha": "49ac0a886b5d41c65540834b607c8ae348198e5b",
+    "status": "completed",
+    "updatedAt": "2026-10-23T04:07:54Z",
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/39898361497",
+    "workflow": "publish-site.yml",
+    "publish_approved": true
+  },
+  "review": "records/patara-delivery-review-2026-10-23.json",
+  "live": {
+    "result": "PASS",
+    "checked_at": "2026-10-23T04:08:23.339012+00:00",
+    "url": "https://projectodisha.org/communities/patara/",
+    "html_sha256": "4f164a9538e0f521abf69936814ed259e2cc993fb39df42404896189d11f9b03",
+    "checks": [
+      "All canonical prose matches",
+      "Founder byline",
+      "Four visible source note targets",
+      "noindex preserved",
+      "Bounded canonical description present"
+    ]
+  },
+  "live_browser": {
+    "worker": "Samanta, AI implementation agent",
+    "checked_at": "2026-10-23T04:08:41.378943+00:00",
+    "input_head": "49ac0a886b5d41c65540834b607c8ae348198e5b",
+    "deployment": "39898361497",
+    "url": "https://projectodisha.org/communities/patara/",
+    "result": "pass",
+    "actual_checks": {
+      "byline": "By Ahimanikya Satapathy",
+      "viewport": [
+        390,
+        844
+      ],
+      "scroll_width": 390,
+      "visible_source_notes": [
+        "note-chasa-bhadrak-gazetteer",
+        "note-patara-thurston1909",
+        "note-patara-mohapatra-ropes2017",
+        "note-patara-baral-rakhi2026"
+      ],
+      "keyboard_note_focus": "note-chasa-bhadrak-gazetteer",
+      "keyboard_exact_return_focus": "ref-around-the-loom-0-chasa-bhadrak-gazetteer",
+      "further_reading_initially_collapsed": true
+    },
+    "limits": [
+      "Read-only live browser check; no production Save or download.",
+      "No repository edits.",
+      "Deployment/head supplied by coordinator; browser checked live content and behavior.",
+      "Desktop visual and actual book download checks belong to separately recorded preview validation."
+    ]
+  },
+  "verified_routes": [
+    "/communities/patara/"
+  ],
+  "limits": [
+    "Separate AI review, not human community review or fieldwork.",
+    "No universal alias, surname-based caste assignment or verified community formation date established.",
+    "Bhadrak district account has unresolved exact imprint and practice dates.",
+    "Thurston1909 describes historical organisation, not current identity authority; Telugu Patras remain distinct.",
+    "Named Puri service reporting from2017 and2026 does not represent all Patara households or establish practice antiquity.",
+    "NCBC scan unread and excluded. No image rights verified; no image added. Search eligibility unchanged."
+  ]
+}
