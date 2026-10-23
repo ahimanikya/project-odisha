@@ -1,0 +1,63 @@
+{
+  "status": "merged_research_delivery",
+  "input_head": "5630ec35f9d1be7a8e30f280bd461b695475eb10",
+  "reviewed_head": "306dd640a78bc95636eec6f9df92ffce9ecd9350",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/466",
+  "validation_run": "https://github.com/ahimanikya/project-odisha/actions/runs/39914971765",
+  "scope": "1893 PDF2/3 research drafts,31 tentative segments,29 physical lines;15 explained entries unchanged",
+  "deployment": "Not required: standalone research records; public site and reader HTML unchanged.",
+  "programme_increment": 0,
+  "accepted_entry_increment": 0,
+  "human_proofread_entries": 0,
+  "review": {
+    "reviewer": "Drishti, separate AI review, not human proofreading",
+    "reviewed_head": "306dd640a78bc95636eec6f9df92ffce9ecd9350",
+    "comparison_base": "c82e12f47652767aefc8f5265418bd1abe10a73f",
+    "checked_at": "2026-10-23T07:00:09.316625+00:00",
+    "status": "PASS",
+    "findings": [],
+    "blockers": [],
+    "checks": [
+      "Read entire integrated diff scope: prior batch delivery receipt, both historical research drafts/reviews/validation, ledger, README, validator/fixtures and one bounded CI test addition.",
+      "Both integrated drafts match exact independently reviewed hashes; both independent review bindings match. Previously stale page2 mechanical validation now correctly binds final hash and records resolved wording finding.",
+      "All public collection JSON, rendered browser HTML and artwork provenance unchanged from origin/main.15 explained entries,0 human-proofread entries,0 completed pages and0 accepted draft increments retained.31 attempts across29 physical lines are explicitly provisional.",
+      "Read segmentation validator and fixtures. Same-line portions and wrapped segments supported; duplicate/out-of-order/out-of-range portions, missing notes, invalid references, stale/conflicting review hashes and false acceptance claims tested. Structural checks explicitly do not certify glyphs or physical completeness.",
+      "Independently ran8 repository tests,32 malformed transcription fixtures and positive wrapped/nested-boundary cases: PASS. Independently ran page3 CLI validator with exact review binding: PASS,21segments/18lines/no line gaps.",
+      "git diff --check passed; clean tree observed. CI change only adds transcription tests to existing bounded validation step; no permissions or deployment changes.",
+      "Receipt describes prior batch2 delivery and zero programme increment; inherited separate review labels/limits remain honest. No new receipt or deployment fabricated by this checkpoint."
+    ],
+    "limits": [
+      "Research-only acceptance; faint text and incoming PDF2/3 boundary remain unresolved. No public-ready transcription or human review.",
+      "Did not independently re-fetch GitHub PR465 merge/CI status in this gate; receipt consistency checked against recorded evidence and prior exact-head review.",
+      "Validator reports line gaps and checks declared anchors; it cannot infer missing scan content, authenticate glyphs or establish rights.",
+      "No browser replay needed for unchanged reader HTML. No full-site build run for this research-only scope; remote required CI still gates merge."
+    ],
+    "file_sha256": {
+      "projects/odia-dhaga/collection.json": "972aa35edb0a31304811daac76196c38943961a911c88cb29f93426ad69558cb",
+      "projects/odia-dhaga/index.html": "2d5b91583914206adb8d43d0be86a940fde53e0be81eedb748562bc7bb5fab47",
+      "projects/odia-dhaga/artwork-provenance.json": "3c73229fd127a5d5e5813e76e611466db33a4706ed26bcb7ad4fa8a3ab14111b",
+      ".github/workflows/validate-site.yml": "868012a62971241a52478eea6816ac01bea8253a2dd2418a6ca29cee05579168",
+      "kb/records/odia-dhaga-batch2-delivery-2026-10-23.json": "3cc2fb48ea54cbf8269d301f6ef418bd49820f95c1978a1e6af89d6b2044ccbe",
+      "kb/records/odia-dhaga-team-2026-10-23.json": "561fee9063f6296038f3a5f9f75792ce8fac815a998d08398155a216251c6349",
+      "kb/research/folklore/odia-dhaga-1893-page2-review-2026-10-23.json": "eb49088f7c642081afd5ee7b88ec16b8660afdc41c6a69a3be636928c82e6fda",
+      "kb/research/folklore/odia-dhaga-1893-page2-transcription-2026-10-23.json": "a1499943febe60a576d2afe8d500896946016f6f0298959f38cc85b1a0438b97",
+      "kb/research/folklore/odia-dhaga-1893-page2-validation-2026-10-23.json": "8510f5471d7ba63583138235f3f3ed096940bbaca597c4b429f41d2d2e8097e0",
+      "kb/research/folklore/odia-dhaga-1893-page3-review-2026-10-23.json": "722f4d2fd5d3107767c3525df0964938bce95b3a3bf5ff387f7c140b143bdf22",
+      "kb/research/folklore/odia-dhaga-1893-page3-transcription-2026-10-23.json": "54bdebccc0096eb89459181be8599deaed58dea300ad558c5026291165d0805e",
+      "kb/research/folklore/odia-dhaga-1893-page3-validation-2026-10-23.json": "af9db810f216d282b39fbb185449353c65836bc4f301385ca453e18e7078208e",
+      "kb/team/operations.json": "c23979ae68c93068a60e2a05cde4022b099442448f2a8dcf3e018bed748e32ce",
+      "projects/odia-dhaga/README.md": "490fc5c4be4d1caeefe7dd273bad0f1770c59c735c9b411e4a1cb81cb890b6d6",
+      "projects/odia-dhaga/coverage-ledger.json": "56b2ded1c30686f9942ab7a4ec0407a1538b4f937e2a7416c41b079448e4d669",
+      "projects/odia-dhaga/test_transcription.py": "c6db2e6dd8ff55ead44a85338097f47bc6b92d1f7cca6c5e2f15adcccbbca351",
+      "projects/odia-dhaga/validate_transcription.py": "ee182213a67b8cf1bb6173e96134f145b0ebd165506d3a841ab809228789d048"
+    }
+  },
+  "merge_commit": "b426da5fc54be6e80d311f72a613b1d125f8eb8c",
+  "merged_at": "2026-10-23T07:04:17Z",
+  "required_checks": "PASS,3m42s",
+  "remote_content_check": {
+    "path": "kb/research/folklore/odia-dhaga-1893-page3-transcription-2026-10-23.json",
+    "sha256": "54bdebccc0096eb89459181be8599deaed58dea300ad558c5026291165d0805e",
+    "result": "Exact merged repository bytes match reviewed draft"
+  }
+}
