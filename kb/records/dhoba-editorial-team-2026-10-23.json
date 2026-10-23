@@ -3,7 +3,7 @@
   "article_id": "POD-EDIT-475",
   "programme_id": "POD-A500-128",
   "work_id": "POD-WORK-319",
-  "status": "published_receipt_integration_pending",
+  "status": "completed",
   "input_head": "bee7dbf891d1e6f4a6080c2641e9945751e983c0",
   "started_at": "2026-10-23T01:11:25.769991+00:00",
   "route": "/communities/dhoba/",
@@ -19,7 +19,7 @@
       "runtime": "/root/anvesha",
       "scope": "Read-only original research /tmp/pod-dhoba-research.json",
       "status": "completed",
-      "scope_released": false
+      "scope_released": true
     },
     {
       "name": "Samanta",
@@ -28,25 +28,25 @@
         "projects/site/src/pages/communities/dhoba.astro",
         "projects/site/tests-coast/dhoba-editorial.test.mjs"
       ],
-      "status": "implementation_complete_coordinator_validation",
-      "scope_released": false
+      "status": "completed",
+      "scope_released": true
     },
     {
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Read-only integrated candidate review",
       "status": "completed",
-      "scope_released": false
+      "scope_released": true
     },
     {
       "name": "Disha",
       "scope": "Canonical narrative/shared records/publishing",
-      "status": "in_progress",
-      "scope_released": false
+      "status": "completed",
+      "scope_released": true
     }
   ],
   "worker_reconciliation": "Mali receipt PR457 merged9f360114; completionbee7dbf8 retained. Previous workers completed and scopes released; external current_article/task null; unrelated PR304/281 untouched.",
-  "next_action": "Merge reviewed receipt with passing required checks, observe actual merge, then release ownership.",
+  "next_action": "Dhoba receipt merged and ownership released. On next wake reconcile workers and durable state, select next useful community-series subject from coverage index and existing KB, and establish scoped source-backed acceptance before implementation. Continue remaining editorial rollout one article at a time. Do not repeat published community articles; consult the current coverage index. For every future article run the local coastal acceptance audit before submission; also verify actual mobile viewport and screenshot dimensions. No active article.",
   "research_report": "research/sources/dhoba-research.json",
   "source_review": {
     "reviewer": "Drishti, separate AI subagent",
@@ -133,6 +133,44 @@
   "counting": {
     "completed_items": 128,
     "increment": 1,
-    "basis": "Individually researched published article with live evidence; receipt integration pending."
+    "basis": "One individually researched published article; reviewed receipt merge observed."
+  },
+  "receipt_integration_observed": {
+    "pull_request": 459,
+    "reviewed_head": "c2a1486e622562741893043ac9e4c617f89f6935",
+    "merge_commit": "399e5566be117ac09812932a7d8cc4631d0d0f81",
+    "merged_at": "2026-10-23T03:47:25Z",
+    "validation_run": 39896464444,
+    "validation_result": "success",
+    "review": "Drishti independently reviewed the exact receipt head; coordinator observed required checks and actual remote merge."
+  },
+  "receipt_review": {
+    "reviewer": "Drishti, separate AI receipt review; not human review",
+    "input_head": "c2a1486e622562741893043ac9e4c617f89f6935",
+    "reviewed_head": "c2a1486e622562741893043ac9e4c617f89f6935",
+    "base": "069dc46108ce2f3310f87d42689ec6012562fbbc",
+    "status": "PASS",
+    "findings": [],
+    "checks": [
+      "Only POD-A500-128 changed; prior127 programme entries unchanged; count128. Only POD-EDIT-475 changed;81 completed editorial entries.",
+      "Only POD-WORK-319 changed; review/release2026102308 appended; prior register entries unchanged.",
+      "Public site and canonical Dhoba JSON/source dossier unchanged from published merge.",
+      "Saved PR458 reviewed e792e9a9 merged069dc461; validate CI39895623258 SUCCESS; deployment39896052839 success matches exact merge.",
+      "Receipt matches actual saved live/live-browser/deployment fields. Live report explicitly verifies hrefs, not destination navigation; coordinator preview navigation evidence remains a distinct check. Updated worker report acknowledges its unsuccessful onward click, no conflicting success inferred.",
+      "Original independent review preserved except PASS normalized to pass_with_limitations; source limits, capacity interruption, coordinator scope and download timeout retained.",
+      "Claim remains Disha EDIT475 receipt_integrated with receipt_merge_pending true."
+    ],
+    "tests": [
+      "30 autonomous-programme tests passed",
+      "Registers validation passed:1172records657events; dashboard current",
+      "Team assignments PASS",
+      "git diff --check base..HEAD PASS"
+    ],
+    "limits": [
+      "Remote PR/CI/deployment outcomes assessed from saved evidence; no fresh remote query.",
+      "Live browser actions not independently replayed; live scope is mobile content, notes/backlinks and reading hrefs, not destination pages or production Save/download.",
+      "Original source and fieldwork limits remain; no human community review asserted.",
+      "Receipt merge pending; ownership remains until observed merge."
+    ]
   }
 }
