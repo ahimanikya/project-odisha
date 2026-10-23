@@ -23,10 +23,11 @@ This is a research map, not a complete list of Odisha castes. Its [machine-reada
 | [Teli](https://projectodisha.org/communities/teli/) | Published | Oil work, transport and regional names; surname does not establish caste. |
 | [Bhandari](https://projectodisha.org/communities/bhandari/) | Published | Ceremonial service and changing work; regional labels remain scoped. |
 | [Mali](https://projectodisha.org/communities/mali/) | Published | Gardens, water and regional names; administrative observations remain distinct. |
+| Dhoba | In progress | Washing, payments and ceremonial work; service exclusions retained. |
 | Paiko | Regional scope unresolved | Compare each regional use before proposing a canonical identity or alias. |
 | Kottia Paiko | Regional scope unresolved | Retain the gazetteer's separately described label; do not infer equivalence with similarly spelled administrative entries. |
 
-The seventeen topics are a starting set, not categories into which other people should be placed. Khandayat publication is evidenced in its article receipt; further regional histories remain open.
+The eighteen topics are a starting set, not categories into which other people should be placed. Khandayat publication is evidenced in its article receipt; further regional histories remain open.
 
 ## Source coverage as accessed on 22 October 2026
 
@@ -36,12 +37,13 @@ The [Odisha department's List of Communities page](https://stsc.odisha.gov.in/en
 | --- | --- | --- |
 | Bhadrak district gazetteer | One historical scribal-work observation | Regional synthesis, not a community founding record. |
 | Artisanal Marine Fisherfolk of Orissa (1985) | One regional community/name observation | Period study; naming scope not universal. |
+| Daanla village monograph | One Dhoba household/service observation | Investigation1962, publication1968; one village, not statewide identity evidence. |
 | Published Paika article and mapped historical references | Four seed observations | Project synthesis; not independent corroboration. |
 | Department-linked state SEBC list | All 216 numbered rows, including continuation segments and adjacent qualifiers | Numbered rows are not a count of communities. Extraction is structurally checked; full manual proofreading remains. |
 | Department-linked ST and SC lists | Selected observations | Not full row inventories; amendment headers are not independent verification of current legal status. |
 | Department-linked central OBC list | Selected observations | Separate from state SEBC; the upload path is not a verified edition date. |
 
-The combined inventory currently has 229 observations and eight source records, including the department landing page. These are provenance counts, not population or community counts. All 216 SEBC serials are represented, including deleted entries at 68 and 75. Row 138 spans two pages and includes a deletion affecting a name within the row; its label must always be read with the preserved qualifiers. Pages 13 and 14 were visually inspected. Other rows retain extracted text and page associations but have not all been manually proofread.
+The combined inventory currently has 230 observations and nine source records, including the department landing page. These are provenance counts, not population or community counts. All 216 SEBC serials are represented, including deleted entries at 68 and 75. Row 138 spans two pages and includes a deletion affecting a name within the row; its label must always be read with the preserved qualifiers. Pages 13 and 14 were visually inspected. Other rows retain extracted text and page associations but have not all been manually proofread.
 
 ## How coverage grows
 

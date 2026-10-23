@@ -935,3 +935,7 @@ Reuse `communities/bhandari.json`, `communities/bhandari.md` and `sources/bhanda
 ## Mali regional history · 23 October 2026
 
 Reuse `communities/mali.json`, `communities/mali.md` and `sources/mali-research.json`. Thurston1909 VolumeIV Mali440–443, stable Bhadrak42/Ganjam99, Niyogi original Maliguda report published4April2023. Waterlift hospitality and Kasi–Jeypore tradition remain reported testimony; contemporary flower storage/sales not proof of continuity. Administrative rows106/107 and Mali/Raula regional heading are not universal aliases. CASI originals inaccessible, snippets deferred; INCATA2026 does not identify Mali. No rights-cleared image.
+
+## Dhoba regional history · 23 October 2026
+
+Reuse `communities/dhoba.json`, `communities/dhoba.md` and `sources/dhoba-research.json`. Stable Daanla Census source (1962 investigation,1968 publication), Bhadrak43 and Ganjam105. Payments and exclusions, ritual/material distinction, Gandi worship and laundry changes. No universal aliases, caste-from-occupation inference or invented formation. SCSTRTI inaccessible; CWDS recovered draft deferred. No community-specific image rights verified.

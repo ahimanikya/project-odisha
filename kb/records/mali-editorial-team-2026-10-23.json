@@ -3,7 +3,7 @@
   "article_id": "POD-EDIT-474",
   "programme_id": "POD-A500-127",
   "work_id": "POD-WORK-318",
-  "status": "published_receipt_integration_pending",
+  "status": "completed",
   "input_head": "161b5d99249f11dd5aa0b0bc6d31734eba156b0b",
   "started_at": "2026-10-23T00:11:33.341737+00:00",
   "route": "/communities/mali/",
@@ -19,7 +19,7 @@
       "runtime": "/root/anvesha",
       "scope": "Read-only original research /tmp/pod-mali-research.json",
       "status": "completed",
-      "scope_released": false
+      "scope_released": true
     },
     {
       "name": "Samanta",
@@ -29,24 +29,24 @@
         "projects/site/tests-coast/mali-editorial.test.mjs"
       ],
       "status": "completed",
-      "scope_released": false
+      "scope_released": true
     },
     {
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Read-only integrated candidate review",
       "status": "completed",
-      "scope_released": false
+      "scope_released": true
     },
     {
       "name": "Disha",
       "scope": "Canonical narrative/shared records/publishing",
-      "status": "in_progress",
-      "scope_released": false
+      "status": "completed",
+      "scope_released": true
     }
   ],
   "worker_reconciliation": "Bhandari receipt PR455 merged c1fb9099; completion161b5d99 retained. Previous workers completed and scopes released; external current_article/task null; unrelated PR304/281 untouched.",
-  "next_action": "Merge reviewed receipt with passing required checks, observe actual merge, then release ownership.",
+  "next_action": "Mali receipt merged and ownership released. On next wake reconcile workers and durable state, select next useful community-series subject from coverage index and existing KB, and establish scoped source-backed acceptance before implementation. Continue remaining editorial rollout one article at a time. Do not repeat published community articles; consult the current coverage index. For every future article run the local coastal acceptance audit before submission; also verify actual mobile viewport and screenshot dimensions. No active article.",
   "research_report": "research/sources/mali-research.json",
   "source_review": {
     "reviewer": "Drishti, separate AI subagent",
@@ -160,6 +160,44 @@
   "counting": {
     "completed_items": 127,
     "increment": 1,
-    "basis": "Individually researched published article with live evidence; receipt integration pending."
+    "basis": "One individually researched published article; reviewed receipt merge observed."
+  },
+  "receipt_integration_observed": {
+    "pull_request": 457,
+    "reviewed_head": "2ecb712a42fa74cc9bfc105291e5d365653ca8ab",
+    "merge_commit": "9f360114b7eae67fa2fdfe1dae8f8eb4c35d424f",
+    "merged_at": "2026-10-23T00:35:21Z",
+    "validation_run": 39878667679,
+    "validation_result": "success",
+    "review": "Drishti independently reviewed the exact receipt head; coordinator observed required checks and actual remote merge."
+  },
+  "receipt_review": {
+    "reviewer": "Drishti, separate AI receipt review; not human review",
+    "input_head": "2ecb712a42fa74cc9bfc105291e5d365653ca8ab",
+    "reviewed_head": "2ecb712a42fa74cc9bfc105291e5d365653ca8ab",
+    "base": "fd3065ebf393744244b78fbada0cf4f7fafee49d",
+    "status": "PASS",
+    "findings": [],
+    "checks": [
+      "Only POD-A500-127 changes among programme entries; prior126 entries unchanged; completed_items127.",
+      "Only POD-EDIT-474 changes in rollout;80 completed articles. Only POD-WORK-318 changes; review/release2026102307 appended, prior register entries unchanged.",
+      "Public site, canonical Mali JSON and source dossier unchanged from published merge.",
+      "Saved PR456 shows reviewed cea50b7d merged as fd3065eb, required validate CI39877627856 SUCCESS. Deployment39878093580 success uses exact merge head.",
+      "Canonical receipt exactly matches saved live/live-browser reports and saved deployment fields.",
+      "Normalized delivery review preserves all original fields except PASS becomes pass_with_limitations; resolved budget finding and source limits preserved. No invented human review.",
+      "Claim retained under Disha EDIT474 phase receipt_integrated receipt_merge_pending true."
+    ],
+    "tests": [
+      "30 autonomous-programme tests passed",
+      "Register validation passed:1169 records656 events; dashboard current",
+      "Team consistency PASS",
+      "git diff --check base..HEAD PASS"
+    ],
+    "limits": [
+      "Remote outcomes assessed from saved actual PR/CI/deployment evidence; no fresh remote query.",
+      "Live HTML and browser evidence inspected as saved reports; browser actions not independently replayed.",
+      "Separate AI review is not human community approval; original source and fieldwork limits remain.",
+      "Receipt merge pending; ownership must remain until observed merge."
+    ]
   }
 }
