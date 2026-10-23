@@ -1,0 +1,26 @@
+{
+  "status": "pass_with_limitations",
+  "reviewer": "Drishti \u2014 separate AI review",
+  "input_head": "6b6da3a53e19e1fea2bf5a46a6fa46f399d8abf4",
+  "findings": [],
+  "tests": [
+    "Independently ran12 repository tests:PASS.",
+    "All108 entries identical; only aggregate book_intro changed.",
+    "All individual entryfiles and saying pages unchanged against origin/main.",
+    "Header now plain byline and Startreading; editorial/resources moved to footer; rights and SCERT exception retained.",
+    "Concise Odia/English introductory sentences correspond without unsupported cultural claims."
+  ],
+  "hashes": {
+    "projects/odia-dhaga/build.py": "4bc32a67c10cd3bc8d1f5862d1df7b2f1f880a4791eb62341b5e7421ae2c50b7",
+    "projects/odia-dhaga/collection-metadata.json": "c48d59aeccbeab919cce676316bade489e2ba7315505ebfdd1cdc0a4d7fe22a1",
+    "projects/odia-dhaga/collection.json": "5f5f130d4cee984c14d5bdcc4fd163574d302e2d8e543fd906d359b874066e4f",
+    "projects/odia-dhaga/index.html": "6e68cffac3cdf763b421ab516b8ae4906f5199b00e44f5655ddb4dda53901dd4",
+    "kb/team/operations.json": "83d4f87c8be45843322865ab0c92744c7cec18c3c3529edeb14079bc53282c19",
+    "kb/records/odia-dhaga-opening-2026-10-24.json": "b64ad323e424c421269d7471a2b841e5a33ca4813f86fcd7457062e35e31c257"
+  },
+  "limits": [
+    "Working candidate review, not committed-head confirmation.",
+    "No new browser screenshot or interaction check; scope is text/link placement and existing tests.",
+    "No human proofreading claim."
+  ]
+}
