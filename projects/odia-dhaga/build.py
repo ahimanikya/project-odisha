@@ -142,11 +142,14 @@ def render(data):
 {f'<h3>Recorded variants</h3><ul>{variants}</ul>' if variants else '<p class="note">No additional variant is documented in this entry.</p>'}
 <h3>Origins and uncertainty</h3><p>{esc(entry['origin_note'])}</p>
 <h3>Reuse and rights</h3><p>{esc(entry['rights_note'])}</p></details></article>''')
+    cited_source_ids = {item['source_id'] for entry in data['entries']
+                        for item in entry['witnesses'] + entry.get('variants', [])
+                        if item.get('source_id')}
     bibliography = ''.join(f'''<section class="source" id="source-{esc(s['id'])}"><h3><a href="{esc(s['url'])}">{esc(s['title'])}</a></h3>
 {f'<p class="meta">Status: {esc(s["status"])}</p>' if s.get('status') else ''}
 {f'<p><strong>Bibliography:</strong> {esc(s["bibliography"])}</p>' if s.get('bibliography') else ''}
 <p><strong>Access:</strong> {esc(s['access'])}</p><p><strong>Rights:</strong> {esc(s['rights'])}</p>
-<p><strong>Limits:</strong> {esc(s['limits'])}</p></section>''' for s in data['sources'])
+<p><strong>Limits:</strong> {esc(s['limits'])}</p></section>''' for s in data['sources'] if s['id'] in cited_source_ids)
     tags = sorted({t for e in data['entries'] for t in e['tags']})
     return f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -165,7 +168,7 @@ def render(data):
 <noscript><p>Search needs JavaScript. Every saying and its sources remain readable below.</p></noscript></section>
 <p id="empty" hidden>No sayings match. Try a different word or clear the filters.</p>
 <div id="collection" class="collection">{''.join(cards)}</div>
-<section id="sources"><h2>Sources &amp; rights</h2><p>Availability is not a reuse licence. Entry witnesses and research candidates are distinguished below. External source links require an internet connection.</p>{bibliography}</section></main>
+<section id="sources"><h2>Sources &amp; rights</h2><p>Sources cited by the sayings above, including recorded variants. Availability is not a reuse licence. External source links require an internet connection.</p>{bibliography}</section></main>
 <footer>Read locally, share carefully. Explanations and diagrams are contemporary aids, not evidence of a saying’s age.<br>
 Offline typefaces: Noto Serif Oriya and Source Serif 4, SIL Open Font License. Licences are included in assets/.</footer>
 <script>{JS}</script></body></html>'''
