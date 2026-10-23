@@ -1,0 +1,43 @@
+{
+  "reviewer": "Drishti, independent AI review, not human proofreading",
+  "status": "pass_with_limitations",
+  "input_head": "47cd5ff6db1bc036c33891117f6e7dd24cbc665a",
+  "candidate_state": "canonical and staging working candidates",
+  "research_sha256": "1eaa566fc9e782bb1b317f4cbab36005b50e0dc860eff57831ed5e6f99457dfc",
+  "canonical_hashes": {
+    "collection.json": "4bd0da51039ea7179d157d3d38555fcc112854a428a00681541e02522dbf7d24",
+    "index.html": "06bdbd579ad6cb165fa8e937cd93aa647cb21c0c6e19cdb0bc24561eaf8005ef",
+    "source127.json": "c7e36a41b88af2df09a9acc15d4c6efe491eb04294f8307487b658c955193256",
+    "source127.html": "a998c95a5f4c0b6c5c57d4066ea362f8f6e3ff9fafc4aecf50ac80357ee19f93",
+    "coverage-ledger.json": "3e988c38c751b23f3111b5202ec3bb6e386f4af79adaf1e7267572f91616b8d7",
+    "README.md": "c6792312c51ca6f6fb033aaed86953dd98389e226347743582495b60a7cf0645"
+  },
+  "staging_hashes": {
+    "collection.json": "4bd0da51039ea7179d157d3d38555fcc112854a428a00681541e02522dbf7d24",
+    "index.html": "06bdbd579ad6cb165fa8e937cd93aa647cb21c0c6e19cdb0bc24561eaf8005ef",
+    "source127.json": "c7e36a41b88af2df09a9acc15d4c6efe491eb04294f8307487b658c955193256",
+    "source127.html": "a998c95a5f4c0b6c5c57d4066ea362f8f6e3ff9fafc4aecf50ac80357ee19f93",
+    "coverage-ledger.json": "4ef29c928d688998f520cc1741022ba89d5b3c5365f19bcf5bc06b2b9d263b2e",
+    "README.md": "9a3fa644437a2964fea875dd9239f9bb53bb631bcc0ad9e247aa1c5129e1ef79"
+  },
+  "findings": [],
+  "source_checks": [
+    "Both exact wordings independently inspected in original Mariba214762 collected items2/4 during preceding source review.",
+    "090 indirect-warning explanation follows recipient/learner contrast; violence is not endorsed.",
+    "091 root-cause reading explicitly editorial; gods clause retained literally without invented story, tree or historical origin.",
+    "Source attribution/rights preserved; no new source127 match inferred."
+  ],
+  "actual_checks": [
+    "Canonical91 preserves all89 prior entries; new two equal research, canonical/staging collection byte-identical.",
+    "Independent schema, deterministic renderer and source-anchor checks pass.",
+    "Only Mariba ledger source row changes; historical rows and evidence paths unchanged;127positions unchanged.",
+    "Independently ran13 tests plus historical assertion suites22/28/32 negative fixtures:pass.",
+    "README count and latest next90 cursor corrected."
+  ],
+  "limits": [
+    "Human proofreading pending.",
+    "091 interpretation remains editorial rather than verified usage history.",
+    "No fresh browser review by this reviewer.",
+    "Exact committed-head followup required after root status updates."
+  ]
+}
