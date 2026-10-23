@@ -16,7 +16,7 @@ from reportlab.lib.styles import ParagraphStyle
 from reportlab.lib.pagesizes import A4
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, PageBreak, Image, KeepInFrame, KeepTogether
 from svglib.svglib import svg2rlg
-from build import load_library
+from build import load_library, reading_caption
 ROOT=Path(__file__).resolve().parent
 
 def make_book(root=ROOT):
@@ -60,10 +60,11 @@ def make_book(root=ROOT):
                     else:
                         raster=RasterImage.open(src).convert('RGB');raster.thumbnail((1400,1000));encoded=BytesIO();raster.save(encoded,format='JPEG',quality=90);encoded.seek(0)
                         im=Image(encoded);scale=min(usable/im.imageWidth,145/im.imageHeight);im.drawWidth=im.imageWidth*scale;im.drawHeight=im.imageHeight*scale
-                    blocks += [Spacer(1,6),im,p(g['caption'],'small')]
+                    blocks += [Spacer(1,6),im,p(reading_caption(g['caption']),'small')]
                 frame=KeepInFrame(usable,bodyheight,blocks,mode='shrink');frames.append(frame);story.append(frame)
-                primary.setdefault(e['witnesses'][0]['source_id'],[]).append(e['id'].rsplit('-',1)[1])
-        story += [PageBreak(),p('Credits & rights','heading'),p(data['license'],'small'),p('Licence: https://creativecommons.org/licenses/by-sa/4.0/','small'),p('Collection and detailed source records: https://github.com/ahimanikya/project-odisha/tree/main/projects/odia-dhaga','small'),p('Original examples and explanations: Project Odisha. Illustrations are contemporary interpretations. Source links and detailed documentation remain in the online reading pages.','small'),p('Fonts: Noto Serif Oriya and Source Serif 4, SIL Open Font License.','small')]
+                for sid in dict.fromkeys(w['source_id'] for w in e['witnesses']+e.get('variants',[]) if w.get('source_id')):
+                    primary.setdefault(sid,[]).append(e['id'].rsplit('-',1)[1])
+        story += [PageBreak(),p('Credits & rights','heading'),p(data['license'],'small'),p('Licence: https://creativecommons.org/licenses/by-sa/4.0/','small'),p('Collection and detailed source records: https://github.com/ahimanikya/project-odisha/tree/main/projects/odia-dhaga','small'),p('Wikimedia contributors are credited at each linked revision. Translations, explanations and examples are original adaptations by Project Odisha; illustrations are contemporary interpretations.','small'),p('Fonts: Noto Serif Oriya and Source Serif 4, SIL Open Font License.','small')]
         sources={s['id']:s for s in data['sources']}
         for sid,ids in primary.items():
             s=sources[sid];parts=urlsplit(s['url']);revision=parse_qs(parts.query).get('oldid',[None])[0]
@@ -73,7 +74,7 @@ def make_book(root=ROOT):
             else:
                 url=quote(s['url'],safe=':/?&=%#')
                 label=re.sub(r'[\u0b00-\u0b7f]+','',s['title']).strip();label=re.sub(r'\(\s*\)','',label)
-            story.append(KeepTogether([p(label,'body'),p('Sayings '+', '.join(ids)+' · '+url,'small')]))
+            story.append(KeepTogether([p(label,'body'),p('Sayings '+', '.join(ids)+' · '+url,'small'),*([p(s['rights'],'small')] if not ('wiktionary' in parts.netloc or 'incubator.wikimedia' in parts.netloc) else [])]))
         out=root/'odia-dhaga-book.pdf'
         def page_number(c,doc):
             c.saveState();c.setFont('English',8);c.setFillColor(colors.HexColor('#665c52'));c.drawCentredString(width/2,28,str(doc.page));c.restoreState()
