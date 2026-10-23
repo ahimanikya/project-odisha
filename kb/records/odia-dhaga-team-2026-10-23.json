@@ -1,6 +1,6 @@
 {
   "task_id": "POD-TASK-DHAGA-20261023",
-  "status": "candidate_review",
+  "status": "reviewed_initial_edition_merge_pending",
   "input_head": "93fba198856fccc3011d82f1fb939c74e26f90a9",
   "scope": "Founder requested deep research and a repository of Odia dhaga with explanations and selective graphics. Deliver a bounded sourced seed collection, accessible local browser and expansion research map; do not claim exhaustive coverage.",
   "acceptance": [
@@ -33,9 +33,9 @@
     {
       "name": "Drishti",
       "runtime": "/root/drishti",
-      "status": "reviewing",
+      "status": "completed",
       "scope": "Read-only independent AI review",
-      "scope_released": false
+      "scope_released": true
     },
     {
       "name": "Disha",
@@ -50,7 +50,7 @@
     "reason": "No autonomous-500 credit claimed for setup or the initial research collection."
   },
   "deployment": "Local standalone repository requested; no public-site deployment claimed.",
-  "next_action": "Integrate verified sayings and source survey, implement browser, review and deliver initial research collection. This direct Founder request takes priority over the community queue.",
+  "next_action": "Observe passing required checks and merge the reviewed initial collection. Save actual delivery receipt. Future Dhaga work should resume historical transcription and edition/rights research before returning to the older community queue; do not claim the complete corpus has been delivered.",
   "research_report": "research/folklore/odia-dhaga-source-audit-2026-10-23.json",
   "implementation": {
     "worker": "Samanta, AI implementation agent",
@@ -131,5 +131,55 @@
     "research_map": "pass",
     "team_consistency": "pass",
     "coordinator_visual": "Inspected mobile screenshot and1893lemon scan; no human review implied."
-  }
+  },
+  "review": {
+    "reviewer": "Drishti, separate AI reviewer; not human or community review",
+    "input_head": "93fba198856fccc3011d82f1fb939c74e26f90a9",
+    "reviewed_head": "4b385a9e01f05d1b1c43a889baedd17ebc285d1b",
+    "checked_at": "2026-10-23T05:42:18.924136+00:00",
+    "status": "PASS",
+    "findings": [],
+    "blockers": [],
+    "scope": "Standalone bounded ten-entry Odia dhaga collection, source audit, original explanatory diagrams, static builder and tests. No website publication or programme credit reviewed or requested.",
+    "actual_checks": [
+      "Independently compared the ten original wordings with both Wikimedia Incubator pages; footer revisions matched 6945232 and 4144125. Inspected linked CC BY-SA 4.0 licence. Fixed-revision URL fetch was unavailable; current page footer identified the exact retained revisions.",
+      "Visually inspected 1893 title page, printed page 2 lemon attestation, and 1926 title page. Publisher wording and joint names supported; no creator-role or origin-date extrapolation.",
+      "Reviewed meanings and limits: Magha is not a meteorological rule; shoulder saying does not name its instrument; ox/bullock rendering and anti-victim-blaming caveat are reasonable; jhimiti retains an unidentified game without invented rules. Newly composed examples and explanations labelled as additions.",
+      "Read builder and eight tests: HTML escaping, safe URL and asset paths, reference integrity, static content, failed-input preservation, offline resources and accessible controls. No executable source interpolation identified.",
+      "Independently reran eight unit tests: eight passed, zero skips/failures. git diff --check HEAD^ HEAD passed. Current working tree clean.",
+      "Regenerated HTML in memory: render(collection.json) exactly equals committed index.html. Both data and HTML SHA-256 match final Samanta implementation report.",
+      "Visually inspected actual desktop 1440x1000, mobile 390x844, lemon diagram and timeline screenshots. Text readable and sample layouts unclipped. Read final implementation report documenting search/filter/reset, keyboard disclosure and source navigation. These interactive actions were performed by Samanta, not replayed by Drishti.",
+      "README and data distinguish open licensing from public domain, identify Wikimedia contributors and changed material, retain revision links and font OFL licences. No historical facsimiles bundled.",
+      "Reviewed final commit scope: standalone collection, source audit, handoff, research map and operations only; no site article or programme counter changes."
+    ],
+    "resolved_findings": [
+      {
+        "issue": "Initial contemporary lemon witness note said no earlier print witness was established despite the added 1893 attestation.",
+        "resolution": "Coordinator corrected note to separate contemporary wording from historical corroboration; final data and regenerated HTML checked."
+      }
+    ],
+    "limitations": [
+      "Independent AI source review is not experienced human Odia proofreading, field verification or legal certification. Pending human editorial status is visible.",
+      "Historical scans were checked at cited title/attestation pages; neither historical volume was fully transcribed or collated. Regional prevalence, original coiners and antiquity beyond the lemon attestation remain unknown.",
+      "Browser file navigation was rejected by browser policy; loopback HTTP interaction and static resource checks support portability. Actual direct-file offline browser execution and print/PDF output were not tested.",
+      "Visual review sampled supplied screenshots; no exhaustive assistive-technology audit. Builder validates expected fields and references but does not enforce schema_version, a nonblocking future schema-hardening consideration.",
+      "Source audit intentionally preserves initial research chronology followed by historical follow-up; final collection supersedes the initial lemon assessment."
+    ],
+    "file_sha256": {
+      "projects/odia-dhaga/test_repository.py": "4d6e136a2dd91b00230d59dd0739d5c061a55b03d906955eda5d2e1f169900cc",
+      "projects/odia-dhaga/build.py": "43292282acd2585bbff7667712dd6f3019970fdca3d47b04675c1ec69ce5f931",
+      "projects/odia-dhaga/index.html": "a6e3d2031dc54d41a15238e9e828909e048eaded63321f241a6ffe95768dd6ab",
+      "projects/odia-dhaga/README.md": "7958a0d4a30122a5c9791a7b1262fa4189769a83dd66554c1edabd41f754749f",
+      "projects/odia-dhaga/collection.json": "59eae753e8ec98471c57e1f89a9e55f48774066d6827240892938fb4dbf7c86e",
+      "projects/odia-dhaga/assets/lemon-moderation.svg": "96e1640c6a214edfbc9c6eb42aa317dead63ae12887eb90e81cfa6bae121c3be",
+      "projects/odia-dhaga/assets/SourceSerif4-OFL.txt": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9",
+      "projects/odia-dhaga/assets/SourceSerif4-Variable.woff2": "4453d73855919eb67a8291bf2bad07782ecaf8af0e4e363d58948ff993209d51",
+      "projects/odia-dhaga/assets/NotoSerifOriya-OFL.txt": "c90ff15ade263a49148e35af34e9c177c6d56881e81260b29f10123e9e227eca",
+      "projects/odia-dhaga/assets/NotoSerifOriya-Variable.woff2": "f83bd7dbbfefbe3f7ee544f07f0de44eb59bd370abb44ec9568fab23a53175a1",
+      "projects/odia-dhaga/assets/preparation-timeline.svg": "54f244f9bf0ad012dc7ef9a02fc914e656f4e1bec856766706847aa3f509de35",
+      "kb/research/folklore/odia-dhaga-source-audit-2026-10-23.json": "72627a3fa4162dc7d34ee39d95834219ebb2fb8df184c0e1d91348bafbf03e84",
+      "kb/records/odia-dhaga-team-2026-10-23.json": "fd67f2ed143566eebfa38dab201b3ea5d5bd17fd68400268dc4abb2dbd989251"
+    }
+  },
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/464"
 }
