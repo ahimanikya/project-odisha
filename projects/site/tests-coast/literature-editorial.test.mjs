@@ -4,6 +4,7 @@ import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 const read=path=>readFileSync(path,'utf8');
 const collection=JSON.parse(read('../../kb/research/voices/collection.json'));
+const reviewedLiterature=JSON.parse(read('src/data/reviewed-culture.json')).filter(p=>p.category==='Literature');
 const entry=collection.pages.find(p=>p.path==='literature');
 const editorial=JSON.parse(read('../../kb/research/voices/literature-editorial.json'));
 const page=path=>read(`dist-coast${path}index.html`).replace(/<script\b[^>]*>[\s\S]*?<\/script>/g,'').replaceAll('&#39;',"'");
@@ -33,9 +34,10 @@ test('Literature begins with complete narrative before the seven reading doors a
  for(const s of editorial.sources){assert.ok(html.includes(escape(s.url)));assert.ok(html.includes(escape(s.note)));}
  assert.doesNotMatch(html,/Research and presentation prepared with AI assistance|awaiting Founder and language or literary review|Sources for this passage:/);
 });
-test('Literature preserves image context, rights once per source, seven links and unlinked future writers without a hub download',()=>{
+test('Literature preserves image context, rights once per source, existing and newly reviewed links and unlinked future writers without a hub download',()=>{
  const html=page('/literature/');
- const doors=html.match(/<section id="reading-doors"[\s\S]*?<\/section>/)?.[0];assert.ok(doors);assert.equal((doors.match(/<article\b/g)||[]).length,7);
+ const doors=html.match(/<section id="reading-doors"[\s\S]*?<\/section>/)?.[0];assert.ok(doors);assert.equal((doors.match(/<article\b/g)||[]).length,7+reviewedLiterature.length);
+ for(const card of reviewedLiterature){assert.ok(doors.includes(`href="${card.href}"`));assert.ok(doors.includes(escape(card.dek)));}
  for(const card of entry.cards){assert.ok(doors.includes(`href="${card.href}"`));assert.ok(doors.includes(escape(card.text)));if(card.image_note)assert.ok(doors.includes(escape(card.image_note)));}
  for(const name of entry.roster)assert.match(html,new RegExp(`<li[^>]*>${name}</li>`));
  const credits=html.match(/<div id="language-image-credits"[\s\S]*?<\/div>/)?.[0];assert.ok(credits);

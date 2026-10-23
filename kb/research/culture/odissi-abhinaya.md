@@ -2,7 +2,7 @@
 type: "Cultural Practice"
 title: "Odissi abhinaya: following a lyric into performance"
 description: "Bhava, rasa and expressive storytelling, with an attentive viewing guide and specific repertoire sources."
-status: "draft"
+status: "published"
 reviewed_on: "2026-10-23"
 human_review_claimed: false
 sources: [{"id": "srjan-odissi-repertoire", "title": "Srjan: Odissi Repertoire", "resource": "https://www.srjan.com/odissirepertoire.php"}, {"id": "natyashastra-ch6-ghosh", "title": "Natyashastra chapter VI: Sentiments", "resource": "https://www.wisdomlib.org/hinduism/book/the-natyashastra/d/doc209700.html"}, {"id": "ignca-gita-govinda", "title": "IGNCA: Gita Govinda multimedia documentation", "resource": "https://ignca.gov.in/divisionss/cultural-informatics/gita-govinda/"}, {"id": "odb-live-accompaniment", "title": "Soumya Biswajit: reflections on live Odissi accompaniment", "resource": "https://www.instagram.com/odissiandbeyond/p/DM79Aq_z8en/"}, {"id": "odb-guru-transmission", "title": "Soumya Biswajit: fixed patterns and improvisation", "resource": "https://www.instagram.com/odissiandbeyond/reel/DNxC59YZgv9/"}, {"id": "natyashastra-ch24-ghosh", "title": "Natyashastra XXIV: Harmonious Representation", "resource": "https://www.wisdomlib.org/hinduism/book/the-natyashastra/d/doc210156.html"}]

@@ -3,7 +3,7 @@
   "status": "in_progress",
   "scope": "Twelve reviewed standalone articles, individually reviewed and published in their subject sections",
   "coordinator": "Disha",
-  "active_article": "/stories/odissi-abhinaya/",
+  "active_article": "/literature/champu-and-sakhi/",
   "research_checkpoint": "07a41a9a",
   "reconciled_main": "9c82dca8",
   "external_worker_reconciliation": "Read current Project Odisha editorial chat: Dhaga discovery research only; no public article or reader changes. Preserve its current_task and files. PR281 and304 unrelated.",
@@ -21,6 +21,10 @@
     {
       "route": "/stories/ashta-nayika/",
       "receipt": "records/ashta-nayika-publication-2026-10-24.json"
+    },
+    {
+      "route": "/stories/odissi-abhinaya/",
+      "receipt": "records/odissi-abhinaya-publication-2026-10-24.json"
     }
   ],
   "limits": [
@@ -28,10 +32,11 @@
     "Specialist, full listening and documentary identity limits retained in sources."
   ],
   "reserved_implementation_files": [
-    "projects/site/src/pages/stories/odissi-abhinaya.astro",
-    "projects/site/public/assets/odissi-abhinaya/",
-    "projects/site/tests/odissi-abhinaya-editorial.test.mjs",
-    "projects/site/src/pages/stories/ashta-nayika.astro (navigation only)"
+    "projects/site/src/pages/literature/champu-and-sakhi.astro",
+    "projects/site/public/assets/champu-and-sakhi/",
+    "projects/site/tests/champu-and-sakhi-editorial.test.mjs",
+    "projects/site/src/pages/stories/ashta-nayika.astro (navigation only)",
+    "projects/site/src/pages/stories/odissi-abhinaya.astro (navigation only)"
   ],
   "queue": [
     {
@@ -47,12 +52,12 @@
     {
       "source": "odissi-abhinaya",
       "route": "/stories/odissi-abhinaya/",
-      "status": "implementation"
+      "status": "published"
     },
     {
       "source": "champu-and-sakhi",
       "route": "/literature/champu-and-sakhi/",
-      "status": "queued"
+      "status": "implementation"
     },
     {
       "source": "bhanita-and-poet-signatures",

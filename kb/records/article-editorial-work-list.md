@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 482. completed: 86, excluded: 76, in_progress: 1, queued: 319.
+Route inventory: 483. completed: 87, excluded: 76, in_progress: 1, queued: 319.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -495,4 +495,5 @@ Route inventory: 482. completed: 86, excluded: 76, in_progress: 1, queued: 319.
 | POD-EDIT-479 | [Rise, Children of Utkal — ଉଠରେ ଉଠରେ ଉତ୍କଳ ସନ୍ତାନ](https://projectodisha.org/stories/rise-children-of-utkal/) | queued | Founder-directed companion essay; reviewed candidate awaiting verified publication receipt. |
 | POD-EDIT-480 | [A Place to Learn Together — ଆସନ୍ତୁ ଏକାଠି ଶିଖିବା](https://projectodisha.org/stories/a-place-to-learn-together/) | queued | Founder-directed companion essay; reviewed candidate awaiting verified publication receipt. |
 | POD-EDIT-481 | [Ashta Nayika: eight situations, many ways to tell a love story](https://projectodisha.org/stories/ashta-nayika/) | completed | Reviewed standalone illustrated research article |
-| POD-EDIT-482 | [Odissi abhinaya: following a lyric into performance](https://projectodisha.org/stories/odissi-abhinaya/) | in_progress | Reviewed standalone illustrated research article |
+| POD-EDIT-482 | [Odissi abhinaya: following a lyric into performance](https://projectodisha.org/stories/odissi-abhinaya/) | completed | Reviewed standalone illustrated research article |
+| POD-EDIT-483 | [Champu and the sakhi: the friend who moves the story](https://projectodisha.org/literature/champu-and-sakhi/) | in_progress | Reviewed standalone illustrated research article |

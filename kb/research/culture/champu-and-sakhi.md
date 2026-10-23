@@ -76,8 +76,7 @@ The sakhi gives this enquiry a particularly good starting point. Follow her ques
 [^champu-orc-rti]: [Odissi Research Centre institutional disclosure](https://rtiodisha.gov.in/Pages/getDisclouser/office_id:271/section_id:2), Champu publication paragraph. Historical institutional activity, not confirmation of current stock or access to recordings.
 [^odb-champu-multimedia]: Soumya Biswajit / Odissi & Beyond, [book and multimedia announcement](https://www.instagram.com/odissiandbeyond/reel/DTvQV3hE0Rg/), original caption inspected 23 October 2026. No endorsement or full review of the book is implied.
 
-<details>
-<summary>Further reading</summary>
+## Further reading
 
 - [Bhanita: when the poet enters the song](bhanita-and-poet-signatures.md)
 
@@ -86,7 +85,6 @@ The sakhi gives this enquiry a particularly good starting point. Follow her ques
 - [Champu and sakhi research dossier](../sources/champu-and-sakhi-research.md)
 - [Soumya Biswajit / Odissi & Beyond](https://www.instagram.com/odissiandbeyond/)
 
-</details>
 
 **[Suggest an update](https://projectodisha.org/contribute/?page=kb%2Fresearch%2Fculture%2Fchampu-and-sakhi.md):** share an identified edition, passage or credited recording that helps clarify the speaker or interpretation. GitHub submissions are public; omit private contact details and consent documents.
 
