@@ -4,7 +4,7 @@ A source-led repository of Odia sayings: what the words picture, what people mea
 
 Open **[index.html](index.html)** in a browser. Search in Odia or English, filter by theme, read the original wording and explanations, and follow each witness to its source. The collection works offline; source links require internet. The portable research data is **[collection.json](collection.json)**.
 
-The current collection contains **34 explained sayings, 1 heritage illustration, 1 explanatory diagram and 13 source records**. It is a bounded seed, not a complete anthology. Three sayings have located nineteenth-century versions; provisional historical readings are labelled. The remaining entries are grounded in identified contemporary digital witnesses while historical comparison remains open. Odia explanations are editorial drafts, not a substitute for an experienced human language editor.
+The current collection contains **89 explained sayings, 4 heritage illustrations, 1 explanatory diagram and 29 source records**. It is a bounded seed, not a complete anthology. Three sayings have located nineteenth-century versions; provisional historical readings are labelled. The remaining entries are grounded in identified contemporary digital witnesses while historical comparison remains open. Odia explanations are editorial drafts, not a substitute for an experienced human language editor.
 
 ## What we found
 
@@ -16,11 +16,11 @@ The current collection contains **34 explained sayings, 1 heritage illustration,
 
 **There is existing digital work to acknowledge.** [Prateek Pattanaik’s 2017 announcement](https://medium.com/prateek-pattanaik/crowdsourcing-odia-proverbs-dhagadhamali-1cac38c39dbc) describes a searchable, downloadable, contributable Airtable collection. Its current contents, size and reuse licence have not been verified here. This repository does not claim to be the first such effort or import that database without checking provenance.
 
-**Openly licensed wording is available now.** The two Wikimedia Incubator pages linked in each entry supply identifiable contemporary witnesses. Their open licence makes an attributed seed possible, but their community-edited status does not establish antiquity, village distribution or exclusive Odia origin. We preserve their wording, including spelling and punctuation, and clearly mark our added interpretation.
+**Openly licensed wording is available now.** The Wikimedia Incubator and Wiktionary pages linked in entries supply identifiable contemporary witnesses. Their open licence makes an attributed seed possible, but their community-edited status does not establish antiquity, village distribution or exclusive Odia origin. We preserve their wording, including spelling and punctuation, and clearly mark our added interpretation.
 
 ## What belongs in the collection?
 
-“Dhaga” is a useful starting term, but the repository should distinguish rhymed maxims, proverbial sentences, idiomatic phrases, riddles and attributed verses. The [Wiktionary entry](https://or.wiktionary.org/w/index.php?title=ଢଗ_ଢମାଳି&oldid=72721) offers a distinction involving rhyme and satire; that is one dictionary’s account, not a rule that erases regional usage. The collection labels three entries as idiomatic sayings and does not silently turn every short expression into the same genre.
+“Dhaga” is a useful starting term, but the repository should distinguish rhymed maxims, proverbial sentences, idiomatic phrases, riddles and attributed verses. The [Wiktionary entry](https://or.wiktionary.org/w/index.php?title=ଢଗ_ଢମାଳି&oldid=72721) offers a distinction involving rhyme and satire; that is one dictionary’s account, not a rule that erases regional usage. The collection labels idiomatic sayings and other short expressions by genre and does not silently turn every short expression into the same genre.
 
 The entries illustrate several ways sayings work: a useful act carried too far; a burden teaching skill; household advice contrasted with actual conduct; a crop’s lead time exposing late preparation; a small disagreement magnified into an epic conflict. Explaining the image is different from inventing an origin story. A wedding image does not prove a universal Odia wedding menu. A weather image does not become a meteorological law.
 
@@ -58,9 +58,9 @@ No outreach or interviews have been conducted. Village, district, speaker, recor
 
 ## Attribution and reuse
 
-The adapted entries, editorial explanations, examples and original diagrams are offered under **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**. Credit **Wikimedia Incubator contributors** for the source wording, preserve each entry’s revision link, and credit **Project Odisha** for the added explanations and diagrams. Changes: selection, literal renderings, Odia/English explanations, usage examples, structure and illustrations. Adapted copies must observe the licence’s share-alike conditions. This statement does not relicense linked books, scans, websites or third-party fonts.
+Wikimedia-derived adapted entries and original Project Odisha explanations, examples, diagrams and illustrations are offered under **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**. Credit the linked **Wikimedia Incubator or Odia Wiktionary contributors**, preserve each revision link, and credit **Project Odisha** for editorial additions. Changes include selection, literal renderings, bilingual explanations, usage examples, structure and illustrations. Adaptations of licensed material must observe share-alike conditions. **The three brief SCERT quotations in048–050 are separate source material, not openly licensed or relicensed here**; their newly written commentary has the Project Odisha licence. Linked books, scans, websites and third-party fonts retain their own rights.
 
-Original wording sources:
+Examples of original wording sources (the reader’s Sources & rights panel lists all cited witnesses):
 
 - [ବିବିଧ ଢଗଢମାଳି, revision 6945232](https://incubator.wikimedia.org/w/index.php?title=Wq/or/ବିବିଧ_ଢଗଢମାଳି&oldid=6945232): entries 001–008 and 011–015.
 - [ଢଗଢମାଳି/ଲକ୍ଷଣାର୍ଥ, revision 4144125](https://incubator.wikimedia.org/w/index.php?title=Wq/or/ଢଗଢମାଳି/ଲକ୍ଷଣାର୍ଥ&oldid=4144125): entries 009–010, with newly written explanations.
@@ -79,12 +79,23 @@ The canonical data is `collection.json`; regenerate `index.html` after edits. Re
 
 ## Coverage checkpoint
 
-[coverage-ledger.json](coverage-ledger.json) records source-by-source progress and the exact next transcription page. Thirty-four explained entries are distinct from historical variants and repeated witnesses. The 1893 scan now has page-wide provisional transcription drafts for PDF pages 2–6 (printed pages 1–5): 83 tentative punctuation/layout segments across 80 physical body lines. These are research attempts, not 83 verified or newly explained sayings. Unclear glyphs and semantic boundaries remain explicit; no page is claimed fully transcribed or human-proofread. The next independent page attempt is PDF7. The bull-saying comparison on PDF6 points to existing entry002 and does not add a unique saying.
+[coverage-ledger.json](coverage-ledger.json) records source-by-source progress and the exact next transcription page. Eighty-nine explained entries are distinct from historical variants and repeated witnesses. The 1893 scan now has page-wide provisional transcription drafts for PDF pages 2–6 (printed pages 1–5): 83 tentative punctuation/layout segments across 80 physical body lines. These are research attempts, not 83 verified or newly explained sayings. Unclear glyphs and semantic boundaries remain explicit; no page is claimed fully transcribed or human-proofread. Targeted visual inspection has reached PDF9; the next targeted page is PDF10, while the full-transcription cursor remains PDF2. The bull-saying comparison on PDF6 points to existing entry002 and does not add a unique saying.
 
 Drafts, exact source hashes, separate AI reviews and mechanical checks are linked in the coverage ledger. Multiple sayings can share one printed line, so their anchors preserve both line number and position within that line. Research drafts are kept outside `collection.json` and the reader browser until wording and interpretation are sufficiently supported.
 
 ## 127-position source concordance
 
-Open [the research concordance](source127.html) from the reader header. Its numbered records track the 2020 Pratikruti Samantray collection as discovery leads; they are not a republication of that compilation and do not represent127 completed explanations. Each independently located wording credits its own licensed witness and preserves variants. Existing reader matches link back to the explained collection. Pending records remain visibly pending; duplicate positions do not increase the saying count.
+Open [the research concordance](source127.html) from the reader header. Its numbered records track the 2020 Pratikruti Samantray collection as discovery leads; they are not a republication of that compilation and do not represent127 completed explanations. Each independently located wording credits its witness and preserves variants; three brief SCERT quotations retain separate rights and are not openly licensed. Existing reader matches link back to the explained collection. Pending records remain visibly pending; duplicate positions do not increase the saying count.
 
 Regenerate with `python3 projects/odia-dhaga/build_source_inventory.py`; check its completeness, references and escaping with `python3 projects/odia-dhaga/test_source_inventory.py`. Canonical research data lives in `source127.json`. Count independently witnessed positions separately from accepted reader entries. The next task is independent sourcing of the remaining positions, followed by explanation review; the numbered checklist itself earns no corpus or programme credit.
+
+
+## Integrated reader and continuing research
+
+The reviewed local reader through POD-DHAGA-089 is integrated here, preserving its wording, explanations, captions and source attributions. Separate AI review is recorded in [evidence](evidence/HANDOFF.json); the retained handoff is a historical delivery snapshot, so its pending-integration language describes its earlier state. Human proofreading remains pending.
+
+The [127-position concordance](source127.html) has25 reader-linked positions,101 pending positions and1 duplicate. Added reader entries do not imply additional concordance matches. Twelve pending positions have SCERT locator leads, not accepted transcriptions. Three short SCERT quotations in entries048–050 have separate source rights: they are not openly licensed or relicensed by this repository. Original commentary remains CC BY-SA4.0; source-specific rights are retained.
+
+Historical targeted inspection continues at PDF10; full transcription remains at PDF2. Provisional scan readings do not add explained entries. [The coverage ledger](coverage-ledger.json) and [latest dictionary cursor](evidence/dhaga-next87-entries.json) retain the next research steps. The three new heritage illustrations are original contemporary interpretations; generation provenance and separate AI visual review are retained in [artwork-provenance.json](artwork-provenance.json). No source facsimile or checkpoint screenshots are bundled.
+
+The early witness notes in048–050 retain the research-stage review-pending wording. Their final editorial status and later separate AI review supersede that stage; human proofreading remains pending. Original research evidence is preserved without retrospective alteration.

@@ -1,0 +1,47 @@
+{
+  "checked_at": "2026-10-23T21:19:25.849175+00:00",
+  "mode": "read-only assessment; no integration performed",
+  "canonical_count": 34,
+  "local_count": 86,
+  "minimum_data_updates": [
+    "collection.json",
+    "source127.json",
+    "coverage-ledger.json"
+  ],
+  "regenerate": [
+    "index.html",
+    "source127.html"
+  ],
+  "new_runtime_assets": [
+    "assets/forest-and-grief-heritage-v1.png",
+    "assets/empty-betel-pouch-heritage-v1.png",
+    "assets/prince-khaja-heritage-v1.png"
+  ],
+  "unchanged_code_and_tests": [
+    "build.py",
+    "build_source_inventory.py",
+    "test_repository.py",
+    "test_source_inventory.py"
+  ],
+  "documentation_work": [
+    "Merge README with canonical research guidance rather than replace with append-only local delivery history; remove obsolete integration-pending wording.",
+    "Preserve canonical artwork-provenance.json (absent locally) and extend it from illustration-prompts.json and separate illustration review.",
+    "Preserve canonical discovery inventory and transcription validator/tests, absent from local delivery.",
+    "Carry referenced source-pass, review and historical PDF7\u20139 reports into canonical evidence location, resolving relative ledger links.",
+    "Record accepted final collection/hash and separate AI reviews in coordinator-owned handoff; no human review claim."
+  ],
+  "checks": [
+    "Run python3 -m unittest test_repository test_source_inventory from canonical reader folder (13 tests).",
+    "Generate both HTML files twice and verify determinism.",
+    "Verify86 baseline entries/media preservation when integrating future87+ final.",
+    "Validate127 positions unchanged and no source rights or source extraction claims expanded.",
+    "Validate ledger historical progress preserved and evidence paths resolve.",
+    "Check offline browser image/source/search behavior desktop/mobile after canonical integration.",
+    "Run existing transcription tests if evidence/ledger integration touches their inputs; no public site tests necessary absent site changes."
+  ],
+  "limits": [
+    "Read-only other-chat release clearance not independently verified here; coordinator must resolve current ownership before write.",
+    "No wholesale directory replacement: local folder omits canonical-only tooling/provenance and contains numerous redundant checkpoints/screenshots.",
+    "This is local research reader integration, not a deployment or source-search eligibility expansion."
+  ]
+}

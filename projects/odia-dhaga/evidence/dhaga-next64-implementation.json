@@ -1,0 +1,45 @@
+{
+  "worker": "Samanta AI implementation",
+  "input_head": "35b4268eeb35397fe1c7136290fe799fc3459621",
+  "checked_at": "2026-10-23T20:10:47.191754+00:00",
+  "result": "mechanical pass; integrated review pending",
+  "staging": "/tmp/dhaga-next64-preview",
+  "baseline_count": 63,
+  "limits": [
+    "Staging only; integrated independent review pending.",
+    "No canonical/Git edits; no human review claimed.",
+    "Historical phrase remains separate from accepted reader entries."
+  ],
+  "entry_count": 69,
+  "original63_unchanged": true,
+  "batch_sha256": "5fb3b22f773e747aadd3a49d2db03d573a56611fcdf745a744cc275da06ebdaa",
+  "hashes": {
+    "collection.json": "69521c4a0f771f1d08a2560c0e0691f8986baf60b2463ca8ed3fae8d08c13f0e",
+    "index.html": "d9430249ee0abad0e841c9472997009678f2f364c0c6c54cda00ab1e6345a2de",
+    "source127.json": "d27491c026dd9d3f0aca929db00a6578d5baec1dc30f7bedb9a37d61bfd2d818",
+    "source127.html": "a01ad1d79a0b958c88f957a6da4344b608ab5130b137b303260a867401e27e4e",
+    "coverage-ledger.json": "8cd496406f8d118d2b7e9d7f6326e8b139c0d312c9bc201d34ac5e79cf9033df"
+  },
+  "digital_ledger_reconciliation": [
+    {
+      "source_id": "dhaga-wikiquote-bibidha",
+      "count": 45
+    },
+    {
+      "source_id": "dhaga-wikiquote-lakshana",
+      "count": 17
+    },
+    {
+      "source_id": "dhaga-wiktionary-definition",
+      "count": 0
+    }
+  ],
+  "tests": [
+    "Exact baseline63 SHA matched; all63 parsed entries unchanged",
+    "69 unique entries/provenance validated;13 existing reader/concordance tests pass",
+    "Source127 positions/statuses unchanged, overall reader count only updated",
+    "Existing digital-source rows accepted IDs rebuilt from actual entry witnesses only; no new ledger rows or full extraction claims",
+    "Historical1893 targeted inspection list adds7, next8, report linked; full cursor2 and all draft/completion/accepted counters unchanged; other historical rows untouched"
+  ],
+  "test_log": "/tmp/dhaga-next64-tests.log"
+}

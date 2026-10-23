@@ -1,0 +1,36 @@
+{
+  "reviewer": "Drishti, independent AI reviewer; not human proofreading",
+  "status": "pass_with_limitations",
+  "input_head": "9c3806a953f69898fde199884f305982d21e4559",
+  "candidate_state": "working tree; final committed-head followup required",
+  "hashes": {
+    "collection.json": "5974bbe96a88925b111ecf6e5ae35715c21c70c39e65ed5e3f1ea25ab651a2ab",
+    "index.html": "07959553ad942bc9d8533ccecbdd1d993c20fb6e00e576174938eabfe921ea87",
+    "source127.json": "a53bcd578a36434fcd7a57118eba3649a90dccc94206e0223e65ee87a26ce774",
+    "source127.html": "0281cb5c573ec0009dca6cd868e597e0c226afcbcd0ce8a6890d1ed97c0baed2",
+    "coverage-ledger.json": "af91c1cb0542aa105005a2cc7f39c22b75851b09482f5d419395cdc670ff1de9",
+    "README.md": "3152e58b3cbd3d81d5e63ef05ffc2c30e73fc3d3a3321ea24d09fdf5d399503a",
+    "artwork-provenance.json": "1e32b24e0014cb404cec90a955da5fd307b99c8dc61cd4c0e18b3c91a7b0a38c"
+  },
+  "findings": [],
+  "resolved_findings": [
+    "README obsolete34/PDF7 coverage corrected to89/targeted10/full2.",
+    "Main attribution now includes Wiktionary and explicit SCERT quotation exception, matching appended scope."
+  ],
+  "actual_checks": [
+    "All89 collection data byte-identical to delivered local baseline; integration adds55 previously reviewed entries, not new research acceptances.",
+    "All baseline artwork assets byte-identical; provenance hashes independently validated.",
+    "Canonical-only build scripts, test modules and discovery inventory unchanged against HEAD.",
+    "Initial53 evidence snapshots byte-identical to delivered originals; expanded56-file list inspected after missing audit/support snapshots were added.",
+    "All transformed ledger paths exist; preserved research-stage pending notes clearly contextualized in README.",
+    "Independent deterministic reader render and schema validation pass.",
+    "Independently ran unittest discovery:13 tests pass plus existing historical transcription assertion suites (22/28/32 negative fixtures).",
+    "Shared records retain in_progress, claim not released, no deployment/publication claim, zero programme credit; previous team history retained."
+  ],
+  "limits": [
+    "No fresh responsive browser review in this integration; prior actual image reviews retained.",
+    "Human Odia proofreading remains pending.",
+    "Evidence snapshots intentionally retain historical local paths/pending-stage language; current ledger links resolve.",
+    "Final exact committed head and passing required CI remain release gates."
+  ]
+}
