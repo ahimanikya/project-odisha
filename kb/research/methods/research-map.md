@@ -947,3 +947,7 @@ Reuse `communities/patara.json`, `communities/patara.md` and `sources/patara-res
 ## Kamar regional history · 23 October 2026
 
 Reuse `communities/kamar.json`, `communities/kamar.md` and `sources/kamar-research.json`. Ganjam93 craft grouping; Census crafts1962 fieldwork/published1967 Penthabahal household smelting and attributed Umarkot closure causes; Daanla1962/published1968 tool repair, per-pair-of-bullocks grain payment and markets. No universal aliases or identity from metalworking. No founding event established, no media rights verified.
+
+## Odia dhaga research repository — 23 October 2026
+
+Reuse `folklore/odia-dhaga-source-audit-2026-10-23.json` and `../../projects/odia-dhaga/collection.json` before new proverb research. The standalone collection has ten explained contemporary licensed witnesses, two original explanatory diagrams, thirteen source records and an expansion plan. The1893 Gobinda Rath-published scan and1926 Praharaj/Pitambari Debi volume have inspected title pages; the lemon saying has a located1893 attestation, not a proven origin. Preserve exact revision attribution, historical glyph uncertainty, public-access versus reuse distinctions and unresolved regional distribution. Bibliography/catalogue leads are not inspected book contents; no complete public-domain corpus or human review is claimed. Current priority and scopes: `records/odia-dhaga-team-2026-10-23.json`.
