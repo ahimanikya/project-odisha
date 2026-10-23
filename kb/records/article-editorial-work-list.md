@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 489. completed: 93, excluded: 76, in_progress: 1, queued: 319.
+Route inventory: 489. completed: 94, excluded: 76, queued: 319.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -502,4 +502,4 @@ Route inventory: 489. completed: 93, excluded: 76, in_progress: 1, queued: 319.
 | POD-EDIT-486 | [Jhulana in Odisha: the swing, the song and the season](https://projectodisha.org/stories/jhulana-in-odisha/) | completed | Reviewed standalone illustrated research article |
 | POD-EDIT-487 | [Sakhi Nata and Sakhi Pila: song, dancer and companion](https://projectodisha.org/stories/sakhi-nata-and-sakhi-pila/) | completed | Reviewed standalone illustrated research article |
 | POD-EDIT-488 | [Odissi tala: why the grouping matters](https://projectodisha.org/sounds-of-odisha/odissi-tala-and-changing-cycles/) | completed | Reviewed standalone illustrated research article |
-| POD-EDIT-489 | [Balakati metalcraft: the work behind the ringing](https://projectodisha.org/crafts/balakati-metalcraft/) | in_progress | Reviewed standalone illustrated research article |
+| POD-EDIT-489 | [Balakati metalcraft: the work behind the ringing](https://projectodisha.org/crafts/balakati-metalcraft/) | completed | Reviewed standalone illustrated research article |

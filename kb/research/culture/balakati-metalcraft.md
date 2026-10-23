@@ -2,7 +2,7 @@
 type: "Craft and Music"
 title: "Balakati metalcraft: the work behind the ringing"
 description: "A documented workshop, the brass-making process and the connection between metalcraft and manjira."
-status: "draft"
+status: "published"
 reviewed_on: "2026-10-23"
 human_review_claimed: false
 sources: [{"id": "teri-balakati2016", "title": "TERI, Cluster Profile Report: Balakati brass industries, 2016", "resource": "https://sameeeksha.org/pdf/clusterprofile/balakati-brass-Odisha.pdf"}, {"id": "nid-balakati", "title": "Bibhudutta Baral, Divyadarshan C. S. and Amulya S., Metal Crafts: Balakati", "resource": "https://www.dsource.in/sites/default/files/resource/metal-crafts-balakati-orissa/downloads/file/metal-crafts-balakati-orissa.pdf"}, {"id": "ghanta-dsource", "title": "Bibhudutta Baral and Antony William, Bell Metal Design of Orissa", "resource": "https://www.dsource.in/resource/bell-metal-design-orissa/introduction"}, {"id": "odb-manjira", "title": "Soumya Biswajit, manjira and Balakati", "resource": "https://www.instagram.com/odissiandbeyond/reel/DOOA2aRiOOX/"}]
