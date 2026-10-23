@@ -3,7 +3,7 @@
   "article_id": "POD-EDIT-478",
   "programme_id": "POD-A500-131",
   "work_id": "POD-WORK-322",
-  "status": "published_receipt_merge_pending",
+  "status": "completed_scopes_released",
   "input_head": "870bbe6b",
   "started_at": "2026-10-23T15:39:27.058257+00:00",
   "route": "/communities/sunari/",
@@ -37,11 +37,11 @@
       "name": "Disha",
       "scope": "Canonical narrative, shared integration records and publication",
       "status": "completed",
-      "scope_released": false
+      "scope_released": true
     }
   ],
   "research_handoff": "records/sunari-research-handoff-2026-10-23.json",
-  "next_action": "Merge separately reviewed receipt with passing checks, then release claim. Alternate eligible Dhaga batch before another community article.",
+  "next_action": "Sunari complete. All scopes released. Alternate next eligible Dhaga source batch (PDF6; PDF2–5 uncertainties remain) with community/editorial queue. No new article claimed.",
   "handoff_note": "Community-loop registration interrupted by Dhaga heartbeat; coordinator repaired its own claim-schema fields. Pending Dhaga release must defer while this article claim is active. No programme credit.",
   "research_execution": {
     "input_head": "1c04c5e0b4cb6ab09628f159fcd3ececc3c01fa8",
@@ -253,6 +253,39 @@
   "counting": {
     "completed_items": 131,
     "increment": 1,
-    "basis": "One individually researched article with approved deployment and actual live receipt; receipt merge remains pending."
+    "basis": "One individually researched published article; separately reviewed receipt merge observed."
+  },
+  "receipt_integration_observed": {
+    "pull_request": 468,
+    "reviewed_head": "b69636b8b675e5907c8ab7f83fd6f856cb1ef972",
+    "merge_commit": "70837aaad2bac742ba0f8e2d082f264ecd0322fa",
+    "merged_at": "2026-10-23T16:58:23Z",
+    "validation_run": 39990514393,
+    "validation_result": "success"
+  },
+  "receipt_review": {
+    "reviewer": "Drishti, separate AI receipt review; no human review",
+    "reviewed_head": "b69636b8b675e5907c8ab7f83fd6f856cb1ef972",
+    "comparison_base": "d1de8d73ca386e4900c00e1cde369955952de3e5",
+    "checked_at": "2026-10-23T16:54:13.186851+00:00",
+    "status": "PASS",
+    "findings": [],
+    "blockers": [],
+    "checks": [
+      "Receipt-only delta inspected. Public Sunari narrative/page and Dhaga collection/reader unchanged from published merge.",
+      "Compared programme items individually: only POD-A500-131 changed; all prior130 identical,131 completed entries. Rollout only POD-EDIT-478 changed,84completed. Register work only POD-WORK-322 changed.",
+      "Actual saved PR467 response binds reviewed e6adc764 to merged d1de8d73; saved deployment39989731894 completed successfully at exact merge. Receipt CI39989013999 success URL recorded.",
+      "Live HTML and live-browser canonical evidence exactly match saved files. Actual390x844 live screenshot independently inspected: readable unclipped title/lead. Keyboard live navigation evidence remains Samanta observation, not reviewer replay.",
+      "Delivery review retains every original review field unchanged; only programme/work/authority and verification additions. Source and test limits preserved without human-review invention.",
+      "Operations retains Sunari in_progress claim at receipt_integrated with receipt_merge_pending true; next Dhaga batch awaits claim release.",
+      "Dhaga PDF4/5 truthfully marked merged through PR467; no accepted-saying increment or programme credit. Public15-entry collection remains unchanged.",
+      "Programme validator PASS and30tests PASS; team consistency PASS; register --check PASS1181records660events; diff check PASS."
+    ],
+    "limits": [
+      "Read saved GitHub/deployment evidence; did not independently re-fetch remote run state. Production HTML check belongs to coordinator and live interactions to Samanta.",
+      "Receipt head still requires its reviewed merge before ownership release.",
+      "Initial register invocation used unsupported validate argument and failed read-only; corrected --check succeeded.",
+      "No source/publication prose changes or builds in this gate; underlying bounded-history and no-human-review limits remain."
+    ]
   }
 }
