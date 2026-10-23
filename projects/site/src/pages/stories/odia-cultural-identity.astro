@@ -26,10 +26,8 @@ const reading = [
     <Content/>
     <OdiaConnectedReading current="odia-cultural-identity"/>
     <section id="identity-further-reading" class="identity-further-reading">
-      <details class="utk-disclosure">
-        <summary>Further reading</summary>
+      <h2>Further reading</h2>
         <nav aria-label="Related Odisha reading"><ul>{reading.map(link => <li><a href={link.href}>{link.title} →</a></li>)}</ul></nav>
-      </details>
     </section>
     <p class="identity-update"><a href="/contribute/?page=%2Fstories%2Fodia-cultural-identity%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
   </article>
