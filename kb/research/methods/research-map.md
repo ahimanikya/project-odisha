@@ -939,3 +939,7 @@ Reuse `communities/mali.json`, `communities/mali.md` and `sources/mali-research.
 ## Dhoba regional history · 23 October 2026
 
 Reuse `communities/dhoba.json`, `communities/dhoba.md` and `sources/dhoba-research.json`. Stable Daanla Census source (1962 investigation,1968 publication), Bhadrak43 and Ganjam105. Payments and exclusions, ritual/material distinction, Gandi worship and laundry changes. No universal aliases, caste-from-occupation inference or invented formation. SCSTRTI inaccessible; CWDS recovered draft deferred. No community-specific image rights verified.
+
+## Patara regional history · 23 October 2026
+
+Reuse `communities/patara.json`, `communities/patara.md` and `sources/patara-research.json`. Bhadrak43 yarn trade and implement worship; Thurston1909 printed177 offices and products; Mohapatra2017 Bijaya Dori; Baral2026 Patara Bisoi Gamha Purnima craft. Named services do not represent all households; no surname inference or founding event established. NCBC scan unread and excluded; Ganjam101 redundant corroboration. No verified media rights.
