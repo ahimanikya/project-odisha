@@ -1,5 +1,5 @@
 ---
-interface Link { href: string; title: string; description?: string }
+interface Link { href: string; title: string; description?: string; image?: string }
 interface Props { links: Link[]; heading?: string; intro?: string; id?: string; class?: string }
 const { links, heading = 'Continue reading', intro, id, class: className } = Astro.props;
 ---
@@ -8,8 +8,11 @@ const { links, heading = 'Continue reading', intro, id, class: className } = Ast
   {intro && <p class="reading-path-intro">{intro}</p>}
   <nav aria-label={heading}>
     <ul>{links.map(link => <li>
-      <a href={link.href}>{link.title} <span aria-hidden="true">→</span></a>
-      {link.description && <p>{link.description}</p>}
+      <a href={link.href} class:list={['reading-path-link', {'has-image': link.image}]}>
+        {link.image && <img src={link.image} alt="" width="180" height="120" loading="lazy" decoding="async"/>}
+        <span class="reading-path-copy"><span class="reading-path-title">{link.title} <span aria-hidden="true">→</span></span>
+        {link.description && <span class="reading-path-description">{link.description}</span>}</span>
+      </a>
     </li>)}</ul>
   </nav>
 </section>
@@ -21,6 +24,11 @@ const { links, heading = 'Continue reading', intro, id, class: className } = Ast
 .article-reading-path li{margin:0;padding:1rem 0;border-bottom:1px solid var(--line)}
 .article-reading-path li:last-child{border-bottom:0;padding-bottom:0}
 .article-reading-path a{display:inline-block;font-size:1.05rem;line-height:1.65;text-underline-offset:.2em;overflow-wrap:anywhere}
-.article-reading-path li p{font-size:.95rem;line-height:1.7;margin:.35rem 0 0;color:var(--muted)}
+.article-reading-path .reading-path-link{text-decoration:none;display:flex;align-items:flex-start;gap:1rem}
+.article-reading-path .reading-path-title{text-decoration:underline;text-underline-offset:.2em}
+.article-reading-path .reading-path-copy{min-width:0}
+.article-reading-path .reading-path-description{display:block;font-size:.95rem;line-height:1.7;margin-top:.35rem;color:var(--muted)}
+.article-reading-path img{display:block;width:180px;height:auto;flex:none;margin:0;aspect-ratio:3/2;object-fit:contain;background:var(--paper)}
+@media(max-width:600px){.article-reading-path .has-image{flex-direction:column}.article-reading-path img{width:100%;max-width:320px}}
 .article-reading-path a:focus-visible{outline:3px solid var(--earth);outline-offset:4px}
 </style>
