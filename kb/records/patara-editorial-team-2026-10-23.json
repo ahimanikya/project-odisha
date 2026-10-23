@@ -1,0 +1,383 @@
+{
+  "task_id": "POD-TASK-PATARA-20261023",
+  "article_id": "POD-EDIT-476",
+  "programme_id": "POD-A500-129",
+  "work_id": "POD-WORK-320",
+  "status": "in_progress",
+  "input_head": "2269ed6459009e328ca562e125ce2b880e0b02f3",
+  "started_at": "2026-10-23T03:50:29.757935+00:00",
+  "route": "/communities/patara/",
+  "scope": "Patara regional community history: yarn work, trade, regional names and specific temple craft; occupational explanations distinguished from formation evidence.",
+  "acceptance": [
+    "Explain documented Patara yarn work, trade, regional names and documented temple craft from inspected original sources.",
+    "Separate occupational explanations and origin traditions from verified formation; do not infer caste from surname or equate all weavers or silk traders, regional labels or administrative groupings.",
+    "Separate AI research, implementation and review; meaningful tests, responsive/download checks, reviewed merge, approved deployment, live checks and receipt integration before credit."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only original research /tmp/pod-patara-research.json",
+      "status": "completed",
+      "scope_released": false
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/pages/communities/patara.astro",
+        "projects/site/tests-coast/patara-editorial.test.mjs"
+      ],
+      "status": "completed",
+      "scope_released": false
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Read-only integrated candidate review",
+      "status": "content_review_completed_final_pending",
+      "scope_released": false
+    },
+    {
+      "name": "Disha",
+      "scope": "Canonical narrative/shared records/publishing",
+      "status": "in_progress",
+      "scope_released": false
+    }
+  ],
+  "worker_reconciliation": "Dhoba receipt PR459 merged399e5566; completion2269ed64 retained. Previous workers completed and scopes released; external current_article/task null; unrelated PR304/281 untouched.",
+  "next_action": "Exact committed-head separate AI review, passing PR checks and approved publication; retain ownership through receipt merge.",
+  "research": {
+    "role": "Anvesha, read-only source researcher",
+    "input_head": "2269ed6459009e328ca562e125ce2b880e0b02f3",
+    "accessed_on": "2026-10-23",
+    "topic": "Patara",
+    "readiness": "Ready for a bounded history of yarn work, historical organisation and specifically named Puri temple services. Not enough evidence for a founding date, exhaustive branch map or universal temple-service identity.",
+    "sources": [
+      {
+        "id": "chasa-bhadrak-gazetteer",
+        "reuse": true,
+        "url": "https://bhadrak.odisha.gov.in/sites/default/files/2023-06/2020120281%20%281%29.pdf",
+        "capture": "/tmp/pod-chasa-bhadrak.pdf",
+        "locator": "printed 43 / PDF page 59, Patara subsection",
+        "inspection": "Original PDF text extracted and read",
+        "findings": [
+          "Describes Pataras dealing in silk and cotton yarn, necklace stringing, reeled yarn, hand-spun tussar and silk, tie-and-dye borders, applique designs and weaving supplements.",
+          "Lists phulia, Tasaria, Dandia and Jagati as four subdivisions in this district account; do not universalise.",
+          "Describes Balabhadra devotion and worship of implements on Gamha Purnima."
+        ],
+        "limits": [
+          "District summary, not dated household fieldwork or community founding evidence.",
+          "PDF upload filename is not an established publication year."
+        ],
+        "derived_word_budget": 200
+      },
+      {
+        "id": "patara-thurston1909",
+        "reuse": false,
+        "url": "https://www.gutenberg.org/files/42996/42996-h/42996-h.htm",
+        "title": "Edgar Thurston and K. Rangachari, Castes and Tribes of Southern India, Volume VI (1909)",
+        "locator": "printed 177, Patrā entry; HTML lines 1088–1091",
+        "inspection": "Original book transcription inspected, including printed-page markers",
+        "findings": [
+          "Oriya Patrā entry distinguishes silk waist-thread and tassel manufacture from silk-cloth weaving.",
+          "Names Mahānāyako as cloth-weaving section head, with Bēhara and Bhollobaya officers; the other section has Sēnāpati assisted by Dhanapati.",
+          "A separately described Telugu Patrā population in Cuddapah and Kurnool has hunting and cultivation associations. That account is not Odisha Patara evidence."
+        ],
+        "limits": [
+          "Colonial classification is a dated outside description, not current community authority.",
+          "Do not infer caste from listed surnames, preserve discrimination as historical only if relevant, and omit irrelevant child-marriage prescriptions.",
+          "Correct printed locator is 177; a later NCBC search snippet says 176, but direct page markers support 177.",
+          "No proven founding event or date."
+        ],
+        "derived_word_budget": 200
+      },
+      {
+        "id": "patara-mohapatra-ropes2017",
+        "reuse": false,
+        "url": "https://timesofindia.indiatimes.com/city/bhubaneswar/learning-the-ropes-of-the-festival/articleshow/59279096.cms",
+        "title": "Arunika Mohapatra, Learning the ropes of the festival, Times of India, 23 June 2017",
+        "locator": "article body, particularly paragraphs identifying pataras and interview with Santosh Kumar Patra; web lines 151–161",
+        "inspection": "Full original article opened and read",
+        "findings": [
+          "Reporting explicitly calls the Puri sevayats pataras; connection does not depend on the interviewed person’s surname.",
+          "Describes silk Bijaya Dori for pahandi, made with silk from Nuapatna; interviewee Santosh Kumar Patra describes hand preparation and measurements estimated by eye.",
+          "Reports fathers and grandfathers training young men. Scope is these temple servitors in 2017.",
+          "Explicitly distinguishes the silk procession ropes from chariot-pulling ropes acquired from Odisha Coir Board."
+        ],
+        "limits": [
+          "Named, dated temple service reporting does not identify all Patara community members as servitors.",
+          "No founding date follows from family training.",
+          "Do not reproduce the claim that estimates never go wrong as objective verification.",
+          "Photo rights unverified; no reuse recommended."
+        ],
+        "derived_word_budget": 200
+      },
+      {
+        "id": "patara-baral-rakhi2026",
+        "reuse": false,
+        "url": "https://www.prameyanews.com/mahabahu-to-adorn-rakhi-as-servitors-put-finishing-touches-on-sacred-threads",
+        "title": "Bratati Baral, Mahabahu to adorn Rakhi as servitors put finishing touches on sacred threads, Prameya News, 27 August 2026",
+        "locator": "Traditional Crafting Process section, web lines 25–33; identification lines 18–23",
+        "inspection": "Full original article opened and read independently",
+        "findings": [
+          "Explicitly names Patara Bisoi servitors, and quotes Santosh Kumar Patra about family service.",
+          "Describes Vasunga silk supplied by temple administration, dyeing, sun drying, shaping into circular layers and use of wooden comb to arrange five layers.",
+          "Links preparation to Gamha Purnima and says the work is done at servitors’ homes."
+        ],
+        "limits": [
+          "Dated reporting of one temple service, not an exhaustive account of the community.",
+          "Specific tools and methods differ from the 2017 rope account because the objects differ; do not imply contradiction or combine into one technique.",
+          "No basis for measuring antiquity of current procedure.",
+          "Photo rights not verified; no reuse."
+        ],
+        "derived_word_budget": 200
+      },
+      {
+        "id": "nolia-ganjam-gazetteer",
+        "reuse": true,
+        "url": "https://ganjam.odisha.gov.in/sites/default/files/2023-06/2018032995.pdf",
+        "capture": "/tmp/pod-gopala-ganjam.pdf",
+        "locator": "printed 101 / PDF page 117, Patara subsection",
+        "inspection": "Original PDF text extracted and read",
+        "findings": [
+          "Silk and cotton yarn dealing; Balabhadra worship on Gamha Purnami and worship of professional articles ankura and pata."
+        ],
+        "limits": [
+          "Mostly redundant corroboration for Bhadrak; can omit from article.",
+          "Meaning of named articles not independently established; do not invent glosses."
+        ],
+        "derived_word_budget": 200
+      }
+    ],
+    "excluded_or_pending": [
+      {
+        "url": "https://ncbc.nic.in/Writereaddata/addodh2.pdf",
+        "capture": "/tmp/pod-patara-ncbc2.pdf",
+        "status": "Downloaded seven-page scanned PDF; text extraction empty. Not substantively inspected, not admissible as evidence from snippets. No need to pursue for current article."
+      },
+      {
+        "topic": "Patara Saura dance in existing dhuduki KB",
+        "reason": "Distinct context; not evidence of Patara yarn-community identity."
+      },
+      {
+        "topic": "Administrative grouped names and Patajoshi titles",
+        "reason": "No automatic identity equivalence or community inference."
+      }
+    ],
+    "narrative_plan": [
+      "Begin with yarn preparation and supplementary work needed around weaving, using district evidence.",
+      "Explain 1909 distinction between products and named offices as dated evidence of organisation, not a caste creation story.",
+      "Introduce the specifically documented Puri pataras, hand-prepared silk procession ropes and family learning; distinguish coir chariot ropes.",
+      "Describe the different Rakhi-making service through 2026 named reporting and Gamha Purnima connection; no universal community ritual assertion.",
+      "State that these records explain work and institutions but do not establish a single founder or date."
+    ],
+    "tests": [
+      "Read current assignments, operations, handoff and research map; no active prior article scope at start.",
+      "Queried KB before source work; no standalone Patara narrative found.",
+      "Inspected original gazetteer PDF subsections and original 1909 entry, including printed locator.",
+      "Independently opened and read both parent-supplied reporting sources.",
+      "Checked that temple identification is explicit in reporting rather than inferred from surname.",
+      "No repository edits or new claim made."
+    ],
+    "global_limits": [
+      "No modern household field study or quantitative livelihood change established.",
+      "Do not conflate all silk dealers, weavers, Telugu Patras, Pataratanti or Saura dancers.",
+      "Use four main sources within independent 200-word derived prose budgets, including footnotes; Ganjam optional.",
+      "Text-first article recommended; no verified community-identifying media rights."
+    ]
+  },
+  "content_review": {
+    "reviewer": "Drishti, independent AI content review, not human review",
+    "input_head": "2269ed6459009e328ca562e125ce2b880e0b02f3",
+    "status": "SOURCE_CONTENT_PASS_PENDING_FINAL_HEAD_BUILD_VISUAL",
+    "findings": [],
+    "source_checks": [
+      "Read original Bhadrak PDF printed43: silk/cotton yarn, necklaces, reeled/hand-spun material, borders/applique and Gamha Purnima implement worship supported. District scope retained.",
+      "Independently opened Gutenberg original transcription: page177marker precedes Patra entry; product sections and Mahanayako/Senapati/Dhanapati offices supported. Telugu account separately identified. Historical classification is not adopted as present identity or formation evidence.",
+      "Read original Mohapatra TOI23June2017 full report: explicit patara servitors, Nuapatna silk, hand/eye technique, family teaching and separate Coir Board chariot ropes supported. Identity not inferred from surname.",
+      "Read original Baral Prameya27August2026: explicit Patara Bisoi home service, supplied Vasunga silk, dyeing/sun drying/circular five layers/wooden comb supported. Distinct object and technique, no antiquity or universal Raksha Bandhan inference."
+    ],
+    "word_budgets": {
+      "section_title_note_interpretation_counts": {
+        "Bhadrak": 120,
+        "Thurston": 128,
+        "Mohapatra": 138,
+        "Baral": 161
+      },
+      "conservative_with_lead_and_title": {
+        "Bhadrak": 147,
+        "Thurston": 155,
+        "Mohapatra": 185,
+        "Baral": 187
+      },
+      "method": "Section counts include source title/note and all associated paragraphs including uncited conclusion. Added entire6word article title to each. First21lead words allocated to Bhadrak/Thurston; last20 to Baral; entire41word lead to Mohapatra conservatively. All <=200."
+    },
+    "depth_assessment": "Connects yarn supply and historical organisation to two concrete named temple techniques and learning. Distinguishing procession silk ropes from chariot ropes and layered rakhis adds useful understanding beyond generic occupational summary. Origin limits honest.",
+    "tests": [
+      "git diff --check passed",
+      "Read canonical JSON/MD/dossier and page wrapper; four first-use sources in order; visible mapped notes, collapsed reading and correction link implemented; route/discovery/portable additions scoped, search eligibility hold retained."
+    ],
+    "limits": [
+      "Final exact candidate, build logs, screenshots and download still pending.",
+      "No human community review, household fieldwork, formation date or comprehensive present-day identity map.",
+      "Gazetteer dates unresolved; original newspaper reports inspected, temple practice not independently observed.",
+      "NCBC uninspected scan excluded; no claims borrowed from snippets. No photos reused without rights."
+    ],
+    "file_sha256": {
+      "kb/catalog.json": "ddd90b1468ac53092332c542c86e36a1d16dd0cd0bdc76062b1b8539d15d83ed",
+      "kb/records/article-editorial-rollout.json": "430f5b886ad9ef0cb3e6b99ec68c8237fdadfa8216c2577a92e3048d4ba5af5a",
+      "kb/records/article-editorial-work-list.md": "0dc3f98d3e18c5f657a85d28a609d247dcda8dde92d645172dc9636ce9e879b2",
+      "kb/records/autonomous-500-program.json": "594802be8a50242256f9600158ba7a91ea83d48c78f083c8175484573b6ca013",
+      "kb/records/editorial-workbench.json": "e61ba619a14249a4bb2b6ea2fa91d36e068981c10ea63f6319dcc0e265729b8e",
+      "kb/records/patara-editorial-team-2026-10-23.json": "e904fd5ff3c2ac39966f03c1d05d0fb612c629ed0df6280f0a3877d62cc08945",
+      "kb/registers/DASHBOARD.md": "c0b7c1d1ce596ad4aa859b9fb3d464d2e6a764bfae80638c48a56f779dc222aa",
+      "kb/registers/records.json": "71e620b91df39ec300929eb2ac46d76630fe2cb166720665e9e29006711a4524",
+      "kb/research/communities/coverage-index.json": "751fbc1995adc9132821d0a759f2d03c134d28a24fbf9f83a801d345c662776d",
+      "kb/research/communities/index.md": "f9700c400e21ad7a1696fcd84dc1524e57c86d94cf8e70ba55d29a3a5ecfddc5",
+      "kb/research/communities/patara.json": "17d9d4ff22f23e2deb7aff4aa91eb35adad4b2727c76b11235ea65a68a99f9b8",
+      "kb/research/communities/patara.md": "40f644ca4b9bcbf53d5d397e6b8d3adbe1d451d3448ad286a2a59a75be9a7af6",
+      "kb/research/methods/research-map.md": "d806ca9f7f87a2f384bb468f3e34489c297887a9dacc4dfac041df1516d84ba7",
+      "kb/research/search-index.json": "ac155237770a80f367fee71df8400a97292c1932528beb2153ed70be04fec2dc",
+      "kb/research/sources/patara-research.json": "9ae4f1f938ff10a27287fe7dd886c03d9889d7a9944c4ed833b18fd22b875026",
+      "kb/team/operations.json": "601ac474debf6350735fbe58bbcf58bbe8506f949da1f428814b39361c6dabdf",
+      "projects/site/editions/coast.json": "79efe552673f925d46e3bbed1deb9393670a0270ce2b54732180ee30edf2178d",
+      "projects/site/editions/search-candidate.json": "9ebe4842cc9ae74592679a639b343db78bb475fce17d1eab2cea8d0cf0f6fa73",
+      "projects/site/src/data/discovery.ts": "a9c6c02f01f05a34c30ff03ca86d5cc8a8cc5db48c3fd2d6bd2f496134b050c0",
+      "projects/site/src/data/journey-catalog.ts": "581ee54e7006e4f556fd731fae1197a13a57746a2f105f94c7c1e58c7126eccf",
+      "projects/site/src/pages/communities/patara.astro": "2322d9f26c5917c1f3cbc82972bcc7ea9db6b926d50ffa32a912a4fdd41c5f58",
+      "projects/site/tests-coast/cuttack-literature.test.mjs": "7f43494851fa42f94e72a5916c19c602b06bc7b71ee1b1d6997c5280392a3543",
+      "projects/site/tests-coast/discovery-flow.test.mjs": "fc47ce1b30e37941805b31321bd3e958a87dbf21e00046d8d5e50197002b4810",
+      "projects/site/tests-coast/edition.test.mjs": "dab56233df6ef9e7b05038988da36d763d07d29d86c701631252013412625e44",
+      "projects/site/tests-coast/patara-editorial.test.mjs": "ddf4d1507d5d62990dff7e901c3c08d9e709e01c94e2490f1ba5dacba165362c",
+      "projects/site/tests/build.test.mjs": "16aabd814815081a33ebc4e0810d3f0022b188b182d16bfeef18b93dd8dfdff8"
+    }
+  },
+  "validation": {
+    "programme_tests": 30,
+    "register_tests": "pass",
+    "bundle": "pass",
+    "community_index": "19 topics,230 observations,9 sources,17 routes",
+    "research_map": "pass",
+    "diff_check": "pass"
+  },
+  "implementation": {
+    "task_id": "POD-TASK-PATARA-20261023",
+    "article_id": "POD-EDIT-476",
+    "worker": "Samanta, AI implementation agent",
+    "input_head": "2269ed6459009e328ca562e125ce2b880e0b02f3",
+    "status": "implementation validation complete",
+    "checked_at": "2026-10-23T03:59:05.809340+00:00",
+    "actual_edits": [
+      "projects/site/src/pages/communities/patara.astro",
+      "projects/site/tests-coast/patara-editorial.test.mjs"
+    ],
+    "implementation": [
+      "Reused canonical-source Dhoba template with compact metadata, footnotes/backlinks, collapsed reading and public correction notice.",
+      "Flexible sources and optional rights-cleared figure support; no invented prose or image.",
+      "Portable full prose and concise sources verified by prepared tests."
+    ],
+    "tests": [
+      {
+        "name": "Node24 test syntax",
+        "result": "pass"
+      },
+      {
+        "name": "scoped git diff --check",
+        "result": "pass"
+      },
+      {
+        "name": "full build and test",
+        "passed": 566,
+        "failed": 0,
+        "log": "/tmp/pod-patara-full-tests.log"
+      },
+      {
+        "name": "coast build/test",
+        "passed": 485,
+        "failed": 0,
+        "log": "/tmp/pod-patara-tests.log"
+      },
+      {
+        "name": "audit-coast",
+        "passed": 1904,
+        "total": 1904,
+        "log": "/tmp/pod-patara-audit.log"
+      },
+      {
+        "name": "publication",
+        "indexable_pages": 11,
+        "log": "/tmp/pod-patara-publication.log"
+      }
+    ],
+    "limits": [
+      "Only reserved page/test edited; no shared records or Git mutations.",
+      "AI implementation checks only; factual review and publication remain coordinator responsibilities.",
+      "Browser Save/download limited to local preview."
+    ],
+    "failed_gates": [],
+    "responsive": {
+      "desktop": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "scroll_width": 1440,
+        "column": 740,
+        "screenshot": "/tmp/pod-patara-desktop.png"
+      },
+      "mobile": {
+        "viewport": [
+          390,
+          844
+        ],
+        "scroll_width": 390,
+        "screenshot": "/tmp/pod-patara-mobile.png",
+        "body_screenshot": "/tmp/pod-patara-mobile-body.png"
+      },
+      "visual_inspection": "Readable desktop/mobile layout; mobile navigation and no clipping.",
+      "file_dimensions_verified": {
+        "/tmp/pod-patara-desktop.png": [
+          1440,
+          1000
+        ],
+        "/tmp/pod-patara-mobile.png": [
+          390,
+          844
+        ],
+        "/tmp/pod-patara-mobile-body.png": [
+          390,
+          844
+        ]
+      }
+    },
+    "keyboard": {
+      "note_focus": "note-chasa-bhadrak-gazetteer",
+      "exact_return_focus": "ref-around-the-loom-0-chasa-bhadrak-gazetteer",
+      "further_reading_initially_collapsed": true,
+      "contents_focus": "procession-ropes",
+      "further_reading_expands": true,
+      "onward_url": "http://127.0.0.1:8794/communities/tanti/",
+      "onward_title": "Tanti: weaving and community histories · Project Odisha"
+    },
+    "preview_save": {
+      "saved": true,
+      "persists_after_navigation": true
+    },
+    "validation_head": "2269ed6459009e328ca562e125ce2b880e0b02f3",
+    "download": {
+      "path": "/Users/ahimanikya/Downloads/My-Odisha-Journey-book-2026-10-23 (3).html",
+      "bytes": 86831,
+      "all_paragraphs": true,
+      "all_sources": true,
+      "feedback_screenshot": "/tmp/pod-patara-download.png"
+    },
+    "source_order": [
+      "chasa-bhadrak-gazetteer",
+      "patara-thurston1909",
+      "patara-mohapatra-ropes2017",
+      "patara-baral-rakhi2026"
+    ]
+  },
+  "coordinator_visual_check": "Disha inspected actual390x844 header/body screenshots; readable, no clipping; evidence from Samanta actual browser retained."
+}
