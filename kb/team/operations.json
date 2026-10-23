@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/sunari-editorial-team-2026-10-23.json",
+  "handoff_home": "records/odia-dhaga-team-2026-10-23.json",
   "roles": [
     {
       "name": "Disha",
@@ -54,23 +54,21 @@
     "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
-  "current_article": {
-    "route": "/communities/sunari/",
+  "current_article": null,
+  "project_identity": "reference/project-identity.md",
+  "current_task": {
+    "id": "POD-TASK-DHAGA-PAGE6-20261023",
     "owner": "Disha",
     "status": "in_progress",
-    "handoff": "records/sunari-editorial-team-2026-10-23.json",
-    "id": "POD-EDIT-478",
-    "phase": "receipt_integrated",
-    "receipt_merge_pending": true
+    "handoff": "records/odia-dhaga-team-2026-10-23.json",
+    "scope": "1893 PDF6 provisional research checkpoint"
   },
-  "project_identity": "reference/project-identity.md",
-  "current_task": null,
   "parallel_programmes": [
     {
       "name": "Community history and editorial rollout",
       "automation_id": "utkal-next-500",
-      "next_research_handoff": "records/sunari-research-handoff-2026-10-23.json",
-      "queue_note": "Source-readiness preparation only; not an article claim or programme delivery. Do not treat as a lock on Dhaga work."
+      "queue_note": "Sunari published and receipt PR468 merged. No active claim. Reconcile coverage and editorial queue for next community research after alternate eligible Dhaga batch.",
+      "last_completed_handoff": "records/sunari-editorial-team-2026-10-23.json"
     },
     {
       "name": "Odia Dhaga and Dhamali corpus",
