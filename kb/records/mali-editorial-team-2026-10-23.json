@@ -3,7 +3,7 @@
   "article_id": "POD-EDIT-474",
   "programme_id": "POD-A500-127",
   "work_id": "POD-WORK-318",
-  "status": "in_progress",
+  "status": "published_receipt_integration_pending",
   "input_head": "161b5d99249f11dd5aa0b0bc6d31734eba156b0b",
   "started_at": "2026-10-23T00:11:33.341737+00:00",
   "route": "/communities/mali/",
@@ -35,7 +35,7 @@
       "name": "Drishti",
       "runtime": "/root/drishti",
       "scope": "Read-only integrated candidate review",
-      "status": "in_progress",
+      "status": "completed",
       "scope_released": false
     },
     {
@@ -46,7 +46,7 @@
     }
   ],
   "worker_reconciliation": "Bhandari receipt PR455 merged c1fb9099; completion161b5d99 retained. Previous workers completed and scopes released; external current_article/task null; unrelated PR304/281 untouched.",
-  "next_action": "Complete responsive/download checks and exact committed-head review, then merge and publish; retain claim through receipt integration.",
+  "next_action": "Merge reviewed receipt with passing required checks, observe actual merge, then release ownership.",
   "research_report": "research/sources/mali-research.json",
   "source_review": {
     "reviewer": "Drishti, separate AI subagent",
@@ -154,5 +154,12 @@
       }
     }
   },
-  "coordinator_visual_check": "Inspected actual390x844 mobile body image; readable spacing, correct footnotes, no horizontal overflow."
+  "coordinator_visual_check": "Inspected actual390x844 mobile body image; readable spacing, correct footnotes, no horizontal overflow.",
+  "publication_receipt": "records/mali-editorial-publication-2026-10-23.json",
+  "review": "records/mali-delivery-review-2026-10-23.json",
+  "counting": {
+    "completed_items": 127,
+    "increment": 1,
+    "basis": "Individually researched published article with live evidence; receipt integration pending."
+  }
 }
