@@ -4,7 +4,7 @@ A source-led repository of Odia sayings: what the words picture, what people mea
 
 Open **[index.html](index.html)** in a browser. Search in Odia or English, filter by theme, read the original wording and explanations, and follow each witness to its source. The collection works offline; source links require internet. The portable research data is **[collection.json](collection.json)**.
 
-This first release contains **10 explained sayings, 2 original explanatory diagrams and 13 source records**. It is a bounded seed, not a complete anthology. One saying has a located nineteenth-century attestation. The remaining entries are grounded in identified contemporary digital witnesses while historical comparison remains open. Odia explanations are editorial drafts, not a substitute for an experienced human language editor.
+The current collection contains **15 explained sayings, 1 heritage illustration, 1 explanatory diagram and 13 source records**. It is a bounded seed, not a complete anthology. Three sayings have located nineteenth-century versions; provisional historical readings are labelled. The remaining entries are grounded in identified contemporary digital witnesses while historical comparison remains open. Odia explanations are editorial drafts, not a substitute for an experienced human language editor.
 
 ## What we found
 
@@ -20,9 +20,9 @@ This first release contains **10 explained sayings, 2 original explanatory diagr
 
 ## What belongs in the collection?
 
-“Dhaga” is a useful starting term, but the repository should distinguish rhymed maxims, proverbial sentences, idiomatic phrases, riddles and attributed verses. The [Wiktionary entry](https://or.wiktionary.org/w/index.php?title=ଢଗ_ଢମାଳି&oldid=72721) offers a distinction involving rhyme and satire; that is one dictionary’s account, not a rule that erases regional usage. This seed labels two entries as idiomatic sayings and does not silently turn every short expression into the same genre.
+“Dhaga” is a useful starting term, but the repository should distinguish rhymed maxims, proverbial sentences, idiomatic phrases, riddles and attributed verses. The [Wiktionary entry](https://or.wiktionary.org/w/index.php?title=ଢଗ_ଢମାଳି&oldid=72721) offers a distinction involving rhyme and satire; that is one dictionary’s account, not a rule that erases regional usage. The collection labels three entries as idiomatic sayings and does not silently turn every short expression into the same genre.
 
-The first ten illustrate several ways sayings work: a useful act carried too far; a burden teaching skill; household advice contrasted with actual conduct; a crop’s lead time exposing late preparation; a small disagreement magnified into an epic conflict. Explaining the image is different from inventing an origin story. A wedding image does not prove a universal Odia wedding menu. A weather image does not become a meteorological law.
+The entries illustrate several ways sayings work: a useful act carried too far; a burden teaching skill; household advice contrasted with actual conduct; a crop’s lead time exposing late preparation; a small disagreement magnified into an epic conflict. Explaining the image is different from inventing an origin story. A wedding image does not prove a universal Odia wedding menu. A weather image does not become a meteorological law.
 
 ## Publicly available is not necessarily public domain
 
@@ -41,7 +41,7 @@ Each entry retains the exact source wording, a literal English rendering, an Odi
 
 The source witness answers “where did we read this wording?” The explanation answers “how does this image convey its meaning?” Historical attestation, interpretation and regional usage must be assessed separately. Explanations and examples are editorial additions; they are not quotations from unnamed elders.
 
-Graphics are original explanatory diagrams. The lemon diagram shows proportion; the eggplant diagram shows preparation and lead time. Neither is presented as an archival image, a scientific experiment or a reconstruction of a particular ceremony.
+The lemon illustration is an original AI-generated, Pattachitra-inspired interpretation approved by the Founder. The eggplant diagram explains preparation and lead time. Neither is an archival image or a reconstruction of a particular ceremony. The earlier lemon diagram remains in the assets as a retained alternative. See artwork-provenance.json for the illustration record.
 
 ## Expansion work, in order
 
@@ -58,11 +58,11 @@ No outreach or interviews have been conducted. Village, district, speaker, recor
 
 ## Attribution and reuse
 
-The ten adapted entries, editorial explanations, examples and original diagrams are offered under **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**. Credit **Wikimedia Incubator contributors** for the source wording, preserve each entry’s revision link, and credit **Project Odisha** for the added explanations and diagrams. Changes: selection, literal renderings, Odia/English explanations, usage examples, structure and illustrations. Adapted copies must observe the licence’s share-alike conditions. This statement does not relicense linked books, scans, websites or third-party fonts.
+The adapted entries, editorial explanations, examples and original diagrams are offered under **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**. Credit **Wikimedia Incubator contributors** for the source wording, preserve each entry’s revision link, and credit **Project Odisha** for the added explanations and diagrams. Changes: selection, literal renderings, Odia/English explanations, usage examples, structure and illustrations. Adapted copies must observe the licence’s share-alike conditions. This statement does not relicense linked books, scans, websites or third-party fonts.
 
 Original wording sources:
 
-- [ବିବିଧ ଢଗଢମାଳି, revision 6945232](https://incubator.wikimedia.org/w/index.php?title=Wq/or/ବିବିଧ_ଢଗଢମାଳି&oldid=6945232): entries 001–008.
+- [ବିବିଧ ଢଗଢମାଳି, revision 6945232](https://incubator.wikimedia.org/w/index.php?title=Wq/or/ବିବିଧ_ଢଗଢମାଳି&oldid=6945232): entries 001–008 and 011–015.
 - [ଢଗଢମାଳି/ଲକ୍ଷଣାର୍ଥ, revision 4144125](https://incubator.wikimedia.org/w/index.php?title=Wq/or/ଢଗଢମାଳି/ଲକ୍ଷଣାର୍ଥ&oldid=4144125): entries 009–010, with newly written explanations.
 
 Local font licences are preserved in `assets/`. Source records contain additional rights notes. The collection is Founder-directed. AI research, implementation and separate AI review are recorded in the project handoff; none is represented as human scholarship or community verification.
@@ -75,3 +75,7 @@ python3 projects/odia-dhaga/test_repository.py
 ```
 
 The canonical data is `collection.json`; regenerate `index.html` after edits. Review textual changes against witnesses, not just automated tests. See [the source audit](../../kb/research/folklore/odia-dhaga-source-audit-2026-10-23.json) and [team handoff](../../kb/records/odia-dhaga-team-2026-10-23.json) for inspection and review limits.
+
+## Coverage checkpoint
+
+[coverage-ledger.json](coverage-ledger.json) records source-by-source progress and the exact next transcription page. Fifteen explained entries are distinct from historical variants and repeated witnesses. The1893 scan has targeted checks on PDFpages2–4, but no page is yet claimed fully transcribed or human-proofread. This prevents repeated sampling from masquerading as completed coverage.
