@@ -1,6 +1,6 @@
 {
   "task_id": "POD-TASK-DHAGA-20261023",
-  "status": "reviewed_initial_edition_merge_pending",
+  "status": "initial_edition_delivered",
   "input_head": "93fba198856fccc3011d82f1fb939c74e26f90a9",
   "scope": "Founder requested deep research and a repository of Odia dhaga with explanations and selective graphics. Deliver a bounded sourced seed collection, accessible local browser and expansion research map; do not claim exhaustive coverage.",
   "acceptance": [
@@ -14,14 +14,14 @@
     {
       "name": "Anvesha",
       "runtime": "/root/anvesha",
-      "status": "completed",
+      "status": "completed_initial_edition",
       "scope": "Read-only original-source research; /tmp/pod-dhaga-research.json",
       "scope_released": true
     },
     {
       "name": "Samanta",
       "runtime": "/root/samanta",
-      "status": "completed",
+      "status": "completed_initial_edition",
       "scope": [
         "projects/odia-dhaga/build.py",
         "projects/odia-dhaga/test_repository.py",
@@ -33,15 +33,15 @@
     {
       "name": "Drishti",
       "runtime": "/root/drishti",
-      "status": "completed",
+      "status": "completed_initial_edition",
       "scope": "Read-only independent AI review",
       "scope_released": true
     },
     {
       "name": "Disha",
-      "status": "integrating",
+      "status": "completed_initial_edition",
       "scope": "Canonical collection JSON, source survey, README and shared records",
-      "scope_released": false
+      "scope_released": true
     }
   ],
   "worker_reconciliation": "Existing agents reconciled; prior Kamar assignments completed and released. Reuse same agents with bounded new scopes.",
@@ -50,7 +50,7 @@
     "reason": "No autonomous-500 credit claimed for setup or the initial research collection."
   },
   "deployment": "Local standalone repository requested; no public-site deployment claimed.",
-  "next_action": "Observe passing required checks and merge the reviewed initial collection. Save actual delivery receipt. Future Dhaga work should resume historical transcription and edition/rights research before returning to the older community queue; do not claim the complete corpus has been delivered.",
+  "next_action": "Next bounded Dhaga phase: investigate edition/rights evidence and visually transcribe1893collection with uncertainty markers; compare witnesses without invented origins. Retain the Founder Dhaga priority before returning to community queue. Initial10-entry collection delivered; do not restart or duplicate it. Do not claim full corpus completion.",
   "research_report": "research/folklore/odia-dhaga-source-audit-2026-10-23.json",
   "implementation": {
     "worker": "Samanta, AI implementation agent",
@@ -181,5 +181,43 @@
       "kb/records/odia-dhaga-team-2026-10-23.json": "fd67f2ed143566eebfa38dab201b3ea5d5bd17fd68400268dc4abb2dbd989251"
     }
   },
-  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/464"
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/464",
+  "delivery_receipt": "records/odia-dhaga-delivery-2026-10-23.json",
+  "delivery": {
+    "task_id": "POD-TASK-DHAGA-20261023",
+    "delivery_kind": "non-website research repository",
+    "status": "initial_edition_delivered",
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/464",
+    "reviewed_head": "da7d0eab83c3756129cc6084c11898b0659aa6c5",
+    "merge_commit": "e59e8722c9df25b85e829934d04d76ff2e7d6c24",
+    "merged_at": "2026-10-23T05:53:28Z",
+    "required_validation": {
+      "run": 39907804692,
+      "conclusion": "success",
+      "duration": "4m2s"
+    },
+    "separate_ai_review": "Drishti passed original collection and final metadata/generated-index/CI follow-ups at the exact reviewed head. No human review claimed.",
+    "deployment": "Not required: standalone offline collection, no public-site route changed.",
+    "outputs": [
+      "projects/odia-dhaga/index.html",
+      "projects/odia-dhaga/collection.json",
+      "projects/odia-dhaga/README.md"
+    ],
+    "counts": {
+      "explained_sayings": 10,
+      "source_records": 13,
+      "original_diagrams": 2,
+      "programme_increment": 0
+    },
+    "limits": [
+      "Historical corpus not fully transcribed or public-domain certified.",
+      "Human Odia proofreading pending.",
+      "Direct-file browser and actual print rendering untested; loopback desktop/mobile and structural offline checks passed."
+    ],
+    "validation_repairs": [
+      "Regenerated research search index after research-map addition.",
+      "Regenerated editorial-workbench input hash after index update.",
+      "Added dedicated Dhaga tests and generated-HTML consistency check to CI."
+    ]
+  }
 }
