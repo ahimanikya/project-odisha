@@ -25,7 +25,7 @@ This is a research map, not a complete list of Odisha castes. Its [machine-reada
 | [Mali](https://projectodisha.org/communities/mali/) | Published | Gardens, water and regional names; administrative observations remain distinct. |
 | [Dhoba](https://projectodisha.org/communities/dhoba/) | Published | Washing, payments and ceremonial work; service exclusions retained. |
 | [Patara](https://projectodisha.org/communities/patara/) | Published | Yarn work, trade and named temple services; no universal alias or surname inference. |
-| Kamar | In progress | Household smelting and village tools; no universal name or metalworker identity inference. |
+| [Kamar](https://projectodisha.org/communities/kamar/) | Published | Household smelting and village tools; no universal name or metalworker identity inference. |
 | Paiko | Regional scope unresolved | Compare each regional use before proposing a canonical identity or alias. |
 | Kottia Paiko | Regional scope unresolved | Retain the gazetteer's separately described label; do not infer equivalence with similarly spelled administrative entries. |
 
