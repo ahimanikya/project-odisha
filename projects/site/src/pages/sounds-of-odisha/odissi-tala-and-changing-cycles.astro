@@ -1,0 +1,34 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import ReviewedCultureArticle from '../../components/ReviewedCultureArticle.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
+import {renderReviewedCultureArticle} from '../../lib/reviewed-culture-article.mjs';
+import source from '../../../../../kb/research/culture/odissi-tala-and-changing-cycles.md?raw';
+const image={src:'/assets/odissi-tala-and-changing-cycles/tala-counts.svg',alt:'Original counting aid comparing three fourteen-count divisions and a sixteen-count total',width:920,height:980};
+const article=renderReviewedCultureArticle(source,{
+ sourcePath:'kb/research/culture/odissi-tala-and-changing-cycles.md',route:'/sounds-of-odisha/odissi-tala-and-changing-cycles/',
+ images:{'../media/rhythm/tala-counts.svg':image.src},
+ imageDimensions:{[image.src]:{width:image.width,height:image.height}},
+ links:{'champu-and-sakhi.md':'/literature/champu-and-sakhi/','gotipua.md':'/stories/gotipua/','mardala.md':'/sounds-of-odisha/mardala/','jhulana-in-odisha.md':'/stories/jhulana-in-odisha/','prahallad-nataka.md':'/stories/prahlada-nataka/'}
+});
+// This article adopts the current reading-path pattern without changing earlier pages.
+const further=article.html.match(/<h2 id="further-reading">Further reading<\/h2>\s*<ul>([\s\S]*?)<\/ul>/);
+if(!further)throw Error('Odissi tala further-reading list missing');
+const destinationImages={
+ '/literature/champu-and-sakhi/':'/assets/champu-and-sakhi/radha-confidante-met.jpg',
+ '/stories/jhulana-in-odisha/':'/assets/jhulana-in-odisha/hindola-raga.jpg',
+ '/stories/prahlada-nataka/':'/assets/prahallad-nataka/crafts-museum.jpg',
+ '/sounds-of-odisha/mardala/':'/assets/home-art/odissi-rehearsal-v1.webp'
+};
+const readingLinks=[...further[1].matchAll(/<a href="([^"]+)">([^<]+)<\/a>/g)].map(([,href,title])=>({href:href.replaceAll('&amp;','&'),title:title.replaceAll('&amp;','&'),image:destinationImages[href],description:href==='/sounds-of-odisha/mardala/'?'Illustration from the Mardala article.':undefined}));
+const [body,afterReading]=article.html.split(further[0]);
+article.html=body;
+---
+<Shell title={article.title} description="Tala totals and divisions in Odissi: distinguish Adatali and Aditala, and follow a documented composition through changing cycles." active="explore" related={false} shareImage={{...image,src:'/assets/odissi-tala-and-changing-cycles/tala-counts.png'}}>
+ <ReviewedCultureArticle article={article}>
+  <div slot="intro"><p><a href="/sounds-of-odisha/">← Sounds of Odisha</a></p><p class="eyebrow">Sounds of Odisha · Rhythm and performance</p></div>
+  <ArticleReadingPath id="further-reading" heading="Further reading" links={readingLinks} intro="The research guide opens the source knowledge base on GitHub."/>
+  <div set:html={afterReading}/>
+  <ArticleReadingPath links={[{href:'/literature/',title:'Explore Odia literature'},{href:'/stories/ashta-nayika/',title:'Ashta Nayika: eight dramatic situations',image:'/assets/ashta-nayika/abhisarika-met.jpg'}]}/>
+ </ReviewedCultureArticle>
+</Shell>
