@@ -5,11 +5,13 @@ const read=p=>readFileSync(p,'utf8');
 const html=read('dist-coast/sounds-of-odisha/index.html');
 const decode=s=>s.replaceAll('&quot;','"').replaceAll('&#39;',"'").replaceAll('&lt;','<').replaceAll('&gt;','>').replaceAll('&amp;','&');
 const entries=JSON.parse(read('../../kb/research/product/sounds-discovery.json')).entries.filter(e=>e.href.startsWith('/stories/'));
+const added=JSON.parse(read('src/data/reviewed-culture.json')).filter(e=>e.href.startsWith('/sounds-of-odisha/'));
 test('Sounds collection exposes every further-reading story with its canonical introduction',()=>{
  const section=html.match(/<section[^>]*id="further-reading"[^>]*>([\s\S]*?)<\/section>/)?.[1];assert.ok(section);
- const cards=[...section.matchAll(/<article\b[^>]*>([\s\S]*?)<\/article>/g)].map(m=>m[1]);assert.equal(cards.length,entries.length);assert.equal(cards.length,14);
- const links=cards.map(c=>c.match(/href="([^"]+)"/)[1]);assert.deepEqual(links,entries.map(e=>e.href));assert.equal(new Set(links).size,links.length);
+ const cards=[...section.matchAll(/<article\b[^>]*>([\s\S]*?)<\/article>/g)].map(m=>m[1]);assert.equal(cards.length,entries.length+added.length);assert.equal(entries.length,14);
+ const links=cards.map(c=>c.match(/href="([^"]+)"/)[1]);assert.deepEqual(links,[...entries,...added].map(e=>e.href));assert.equal(new Set(links).size,links.length);
  for(const entry of entries){const source=JSON.parse(read('../../kb/'+entry.source));const card=cards.find(c=>c.includes('href="'+entry.href+'"'));assert.ok(decode(card).includes(source.title));assert.ok(decode(card).includes(source.lead));assert.ok(existsSync('dist-coast'+entry.href+'index.html'));}
+ for(const entry of added){const card=cards.find(c=>c.includes('href="'+entry.href+'"'));assert.ok(decode(card).includes(entry.label));assert.ok(decode(card).includes(entry.dek));assert.ok(existsSync('dist-coast'+entry.href+'index.html'));}
  assert.ok(html.indexOf('href="#further-reading"')<html.indexOf('id="huluhuli"'));assert.equal((html.match(/id="further-reading"/g)||[]).length,1);
  assert.ok(section.includes('/explore/?q=Sounds%20of%20Odisha'));assert.ok(!html.includes('Further reading:'));
  const story=JSON.parse(read('../../kb/research/culture/sounds-website.json'));assert.equal(story.chapters.length,8);
