@@ -1,0 +1,122 @@
+{
+  "recorded_at": "2026-10-23T17:54:50.279087+00:00",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/471",
+  "reviewed_head": "fdd27f4a3cc31ef5537c1302607857f130eeda89",
+  "merge_commit": "aeb758e1b121a90ca832e864cf52962188d1dfcd",
+  "merged_at": "2026-10-23T17:54:22Z",
+  "validation_run": "https://github.com/ahimanikya/project-odisha/actions/runs/39998458197",
+  "validation_result": "success",
+  "delivery": "Standalone reader expanded from15to26explained entries;11new IDs016–026.",
+  "accepted_entry_increment": 11,
+  "unique_explained_entries": 26,
+  "programme_increment": 0,
+  "review": {
+    "reviewer": "Drishti",
+    "review_type": "independent AI content and source review; not human proofreading",
+    "input_head": "395faef5bb87bd9cb7e6672628ce3faee5f47fa6",
+    "reviewed_head": "fdd27f4a3cc31ef5537c1302607857f130eeda89",
+    "status": "pass_with_limitations",
+    "findings": [],
+    "resolved_findings": [
+      {
+        "entry": "POD-DHAGA-025",
+        "issue": "Chameleon was unnecessarily species-specific.",
+        "resolution": "Verified repository literal and context now say lizard; source wording unchanged."
+      }
+    ],
+    "draft_sha256": "99f53e0c19340a27966ec7788cf0f9efe8626791a6be13e3beab67eac7816a39",
+    "file_hashes": {
+      "projects/odia-dhaga/collection.json": "ead5462029db167a7a0c53e97b3157dfb093dcaf371f0ddf29203aae9e1d186c",
+      "projects/odia-dhaga/index.html": "f21634d1e0541b77139cfef3343f870dc06aef305239ee09ec3077ffa2ab6d6d"
+    },
+    "checks": [
+      "Independently opened both canonical Wikimedia pages and verified all eleven headwords against actual bullets/numbered items. Footer revisions match 6945232 and 4144125.",
+      "Verified source footers state Creative Commons Attribution-ShareAlike; entries preserve contributor attribution, revision source mapping, adaptation notice and CC BY-SA 4.0 link.",
+      "Compared integrated eleven entries to research draft: only 025 literal/context correction differs.",
+      "Prior fifteen entries byte-equivalent as JSON objects to input HEAD; twenty-six distinct headwords and IDs.",
+      "Read all English literal renderings, explanations, newly labelled examples, Odia meaning summaries and context notes. No invented origin, fieldwork or human proofreading.",
+      "017 source narrative is illustration, not origin; citation error independently observed. 018 elliptical expansion acknowledged. 021 figurative itch/scratching reading without diagnosis. 023 source items 12/13 correctly treated as one saying and gloss. 024 editorial interpretation explicitly labelled. 026 kinship terms distinguished without gender generalisation.",
+      "Final committed head and both prior-reviewed file SHA256 values verified unchanged. Prior fifteen objects remain identical to input HEAD.",
+      "Independently reran unittest discovery: eight reader tests and transcription fixture suite through thirty-two negative cases pass.",
+      "Independently verified build.render(collection) equals saved index.html without writing files.",
+      "Personally inspected actual desktop 1440x1000 and mobile 390x844 screenshots. Desktop expanded witness/limits and mobile search controls/result show readable layout, visible focus styling, truthful AI/human distinction and 26-entry count.",
+      "Read Samanta final implementation report: actual Odia/English search, theme/reset, keyboard disclosure and no horizontal overflow reported. These interactions were not independently replayed."
+    ],
+    "limitations": [
+      "Local reader release gate only; no hosted deployment or direct-file browser certification. Screenshots cover selected reader states, not every card.",
+      "Contemporary digital witnesses establish recorded wording, not first origin or universal regional usage.",
+      "Independent AI assessment does not replace human Odia proofreading; that status remains pending.",
+      "Fixed revision URLs did not load reliably; canonical pages inspected and matching retrieved revision footers checked.",
+      "No historical draft promoted, accepted historical pages or programme credit claimed."
+    ],
+    "visual_evidence": [
+      "/tmp/pod-dhaga-batch3-desktop.png",
+      "/tmp/pod-dhaga-batch3-mobile.png"
+    ]
+  },
+  "implementation": {
+    "worker": "Samanta AI implementation validation",
+    "input_head": "395faef5bb87bd9cb7e6672628ce3faee5f47fa6",
+    "checked_at": "2026-10-23T17:50:18.163551+00:00",
+    "result": "pass",
+    "collection_sha256": "ead5462029db167a7a0c53e97b3157dfb093dcaf371f0ddf29203aae9e1d186c",
+    "tests": [
+      {
+        "command": "python3 -m unittest discover -s projects/odia-dhaga -p 'test_*.py'",
+        "result": "8 reader tests and32 transcription negative fixtures pass"
+      },
+      {
+        "command": "build.render(json.loads(collection.json)) == index.html",
+        "result": "byte-identical deterministic render;26entries"
+      },
+      {
+        "command": "Final render equality and fresh browser page025",
+        "result": "pass: corrected literal and context use lizard, no stale chameleon wording;26 visible count retained"
+      }
+    ],
+    "browser": {
+      "url": "http://127.0.0.1:8795/",
+      "fresh_tab": true,
+      "count": "26 of26 sayings shown",
+      "odia_search": "ଅଳପ ଧନ → POD-DHAGA-016 only",
+      "english_search": "anxious → POD-DHAGA-016 only",
+      "theme": "money-and-worry →1 of26",
+      "clear": "restores26 of26",
+      "disclosure": "Keyboard Enter shows witness revision6945232, origin limits and CC BY-SA4.0 rights for016",
+      "desktop": [
+        1440,
+        1000
+      ],
+      "mobile": [
+        390,
+        844
+      ],
+      "mobile_scroll_width": 390,
+      "screenshots": [
+        "/tmp/pod-dhaga-batch3-desktop.png",
+        "/tmp/pod-dhaga-batch3-mobile.png"
+      ],
+      "visual": "Readable two-column desktop and single-column mobile; no clipping observed.",
+      "viewport_reset": true
+    },
+    "limits": [
+      "No source or Git writes.",
+      "Local loopback reader, no publication or direct-file-browser certification.",
+      "Meaning/source review by separate researcher/reviewer; human proofreading pending."
+    ],
+    "index_sha256": "f21634d1e0541b77139cfef3343f870dc06aef305239ee09ec3077ffa2ab6d6d"
+  },
+  "remote_file_sha256": {
+    "projects/odia-dhaga/collection.json": "ead5462029db167a7a0c53e97b3157dfb093dcaf371f0ddf29203aae9e1d186c",
+    "projects/odia-dhaga/index.html": "f21634d1e0541b77139cfef3343f870dc06aef305239ee09ec3077ffa2ab6d6d"
+  },
+  "deployment": {
+    "required": false,
+    "reason": "Standalone repository/local reader delivery; public-site content unchanged."
+  },
+  "limits": [
+    "Openly licensed contemporary witnesses, not certified public-domain text.",
+    "Human Odia proofreading and historical origins remain open.",
+    "83provisional historical segments remain separate from explained entries."
+  ]
+}
