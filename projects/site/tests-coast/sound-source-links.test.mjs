@@ -27,12 +27,12 @@ for(const slug of ['ghumura','mahuri','ranapa','chaiti-ghoda','danda-nata','prah
  const notes=html.match(/<details id="story-sources"[^>]*>([\s\S]*?)<\/details>/)[1];
  assert.match(notes,/<ol\b[^>]*>/);
  story.blocks.forEach((block,i)=>{
-  const links=[...sections[i].matchAll(/href="#story-source-([^"]+)"[^>]*aria-label="([^"]+)"[^>]*>Source (\d+)<\/a>/g)];
+  const links=[...sections[i].matchAll(/href="#story-source-([^"]+)"[^>]*aria-label="([^"]+)"[^>]*>(\d+)<\/a>/g)];
   assert.deepEqual(links.map(m=>m[1]),block.source_ids);
   for(const link of links){
    const source=story.sources.find(s=>s.id===link[1]);assert.ok(source);
    assert.equal(Number(link[3]),story.sources.indexOf(source)+1);
-   assert.equal(link[2],escape(`Source ${link[3]}: ${source.title}`));
+   assert.equal(link[2],escape(`Footnote ${link[3]}: ${source.title}`));
    assert.equal(html.split('id="story-source-'+source.id+'"').length-1,1);
    const note=notes.match(new RegExp('<li id="story-source-'+source.id+'"[^>]*tabindex="-1"[^>]*>([\\s\\S]*?)<\\/li>'))?.[1];
    assert.ok(note?.includes(escape(source.resource))&&note.includes(escape(source.locator)),source.id);
