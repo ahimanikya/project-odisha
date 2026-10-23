@@ -5774,14 +5774,23 @@
       "id": "POD-EDIT-391",
       "route": "/stories/prahlada-nataka/",
       "title": "Prahallad Nataka: the king, the child and the work of keeping a theatre alive",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "Reviewed research expansion, image and editorial presentation",
       "source_template": "projects/site/src/pages/stories/prahlada-nataka.astro",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
         "records/nataka-publication-2026-10-24.json"
       ],
-      "blocker": null
+      "blocker": null,
+      "publication_receipt": "records/prahallad-publication-2026-10-24.json"
     },
     {
       "id": "POD-EDIT-392",
