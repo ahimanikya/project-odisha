@@ -1,0 +1,42 @@
+{
+  "recorded_at": "2026-10-23T17:43:44.016863+00:00",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/469",
+  "reviewed_head": "e00628511e7cb1eebceec03f92f1c1137c02730f",
+  "merge_commit": "5981f8629cd862eaad18180e29339d62b11ff3db",
+  "merged_at": "2026-10-23T17:43:19Z",
+  "validation_run": "https://github.com/ahimanikya/project-odisha/actions/runs/39996690277",
+  "validation_result": "success",
+  "scope": "1893 PDF6/printed5 provisional research draft:16tentative segments across17bodylines. Existing15explained entries unchanged.",
+  "remote_verification": {
+    "method": "Fetched origin/main and compared exact committed draft bytes",
+    "transcription_sha256": "ace83213f64716e94192c8796ccfc930f970344c2a7a7da512bf752e32a926a9"
+  },
+  "review": {
+    "reviewer": "Drishti, separate AI integrated checkpoint review",
+    "reviewed_head": "e00628511e7cb1eebceec03f92f1c1137c02730f",
+    "comparison_base": "70837aaad2bac742ba0f8e2d082f264ecd0322fa",
+    "checked_at": "2026-10-23T17:38:17.085232+00:00",
+    "status": "PASS_RESEARCH_CHECKPOINT",
+    "findings": [],
+    "checks": [
+      "Integrated draft exact SHA ace83213f64716e94192c8796ccfc930f970344c2a7a7da512bf752e32a926a9 matches independent review and final mechanical validation; review bytes and validator hash also match.",
+      "Independently reran8 reader tests,32 negative transcription fixtures and page6 exact-review validator: all PASS. Team consistency and diff checks PASS.",
+      "Ledger independently counted5 attempted pages,83 tentative segments and80 declared body lines;15 explained entries,0 accepted increment,0 fully transcribed pages and0 human-reviewed entries/pages. Next attemptPDF7; unresolved full-transcription work retained.",
+      "README consistently calls attempts provisional; possible002 comparison does not create accepted witness or entry.",
+      "No site source, reader HTML/data or artwork changes in release diff. Existing Sunari release metadata records receipt468 observed before relinquishing article; one new Disha Dhaga task claim retained."
+    ],
+    "limits": [
+      "Checkpoint approval only; no glyph certification, semantic boundary acceptance, human proofreading or programme delivery.",
+      "Sunari receipt release observation read from saved records, not re-fetched remotely in this gate.",
+      "Remote required CI and actual repository merge still pending; current task must retain ownership through release evidence."
+    ]
+  },
+  "deployment": {
+    "required": false,
+    "reason": "Standalone research checkpoint only; public site, reader HTML/data and artwork unchanged."
+  },
+  "programme_increment": 0,
+  "accepted_entry_increment": 0,
+  "human_proofread_entries": 0,
+  "next_unattempted_pdf_page": 7
+}

@@ -50,7 +50,7 @@
     "reason": "No autonomous-500 credit claimed for setup or the initial research collection."
   },
   "deployment": "Local standalone repository requested; no public-site deployment claimed.",
-  "next_action": "Integrated PDF6 provisional draft awaiting validation and exact-head review, then repository PR.15explained entries unchanged; nextunattemptedPDF7.",
+  "next_action": "Add reviewed clearly sourced unique explained entries to the reader; do not count provisional historical segments as entries.",
   "research_report": "research/folklore/odia-dhaga-source-audit-2026-10-23.json",
   "implementation": {
     "worker": "Samanta, AI implementation agent",
@@ -575,7 +575,7 @@
     "merge_commit": "d1de8d73ca386e4900c00e1cde369955952de3e5"
   },
   "page6_work": {
-    "status": "integrated_review_pending",
+    "status": "delivered_research_checkpoint_scopes_released",
     "input_head": "64c8f599",
     "owner": "Disha",
     "reserved_scope": [
@@ -595,10 +595,23 @@
     },
     "accepted_increment": 0,
     "programme_increment": 0,
-    "scopes_released": false,
+    "scopes_released": true,
     "transcription_sha256": "ace83213f64716e94192c8796ccfc930f970344c2a7a7da512bf752e32a926a9",
     "review": "research/folklore/odia-dhaga-1893-page6-review-2026-10-23.json",
     "candidate_notes": "research/folklore/odia-dhaga-1893-page6-candidates-2026-10-23.json",
-    "validation": "research/folklore/odia-dhaga-1893-page6-validation-2026-10-23.json"
+    "validation": "research/folklore/odia-dhaga-1893-page6-validation-2026-10-23.json",
+    "delivery": "records/odia-dhaga-page6-delivery-2026-10-23.json"
+  },
+  "visible_batch3": {
+    "status": "in_progress",
+    "owner": "Disha",
+    "reason": "Founder requests more explained entries visible in reader; clear licensed contemporary witnesses take priority over further provisional historical pages for this batch.",
+    "scopes": {
+      "Anvesha": "Temporary candidate JSON and source audit only",
+      "Samanta": "Read-only collection/browser validation",
+      "Drishti": "Independent integrated source and explanation review",
+      "Disha": "Collection, generated reader, source audit, coverage and shared release records"
+    },
+    "scopes_released": false
   }
 }
