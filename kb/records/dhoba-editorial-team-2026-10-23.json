@@ -1,0 +1,131 @@
+{
+  "task_id": "POD-TASK-DHOBA-20261023",
+  "article_id": "POD-EDIT-475",
+  "programme_id": "POD-A500-128",
+  "work_id": "POD-WORK-319",
+  "status": "in_progress",
+  "input_head": "bee7dbf891d1e6f4a6080c2641e9945751e983c0",
+  "started_at": "2026-10-23T01:11:25.769991+00:00",
+  "route": "/communities/dhoba/",
+  "scope": "Dhoba regional community history: cloth washing, water access, ceremonial roles and regional names; occupational explanations distinguished from formation evidence.",
+  "acceptance": [
+    "Explain documented Dhoba cloth washing, water access, remuneration, regional naming and ceremonial roles from inspected original sources.",
+    "Separate occupational explanations and origin traditions from verified formation; do not infer caste from surname or equate all laundry workers, regional labels or administrative groupings.",
+    "Separate AI research, implementation and review; meaningful tests, responsive/download checks, reviewed merge, approved deployment, live checks and receipt integration before credit."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only original research /tmp/pod-dhoba-research.json",
+      "status": "completed",
+      "scope_released": false
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/pages/communities/dhoba.astro",
+        "projects/site/tests-coast/dhoba-editorial.test.mjs"
+      ],
+      "status": "implementation_complete_coordinator_validation",
+      "scope_released": false
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Read-only integrated candidate review",
+      "status": "in_progress",
+      "scope_released": false
+    },
+    {
+      "name": "Disha",
+      "scope": "Canonical narrative/shared records/publishing",
+      "status": "in_progress",
+      "scope_released": false
+    }
+  ],
+  "worker_reconciliation": "Mali receipt PR457 merged9f360114; completionbee7dbf8 retained. Previous workers completed and scopes released; external current_article/task null; unrelated PR304/281 untouched.",
+  "next_action": "Complete final responsive/download validation and exact committed-head review, then publish and retain claim through receipt integration.",
+  "research_report": "research/sources/dhoba-research.json",
+  "source_review": {
+    "reviewer": "Drishti, separate AI subagent",
+    "status": "content_pass_pending_exact_head_and_implementation",
+    "resolved_finding": "Closing paragraph shortened; conservative source summaries within200words each.",
+    "human_review": false
+  },
+  "runtime_limits": [
+    "Anvesha and Samanta encountered model-capacity errors; same workers retried from saved work. No alternate human or independent review invented."
+  ],
+  "implementation": {
+    "task_id": "POD-TASK-DHOBA-20261023",
+    "article_id": "POD-EDIT-475",
+    "worker": "Samanta, AI implementation agent",
+    "input_head": "bee7dbf891d1e6f4a6080c2641e9945751e983c0",
+    "status": "Builds passed; coordinator completed remaining browser/download verification after worker capacity failures",
+    "actual_edits": [
+      "projects/site/src/pages/communities/dhoba.astro",
+      "projects/site/tests-coast/dhoba-editorial.test.mjs"
+    ],
+    "implementation": [
+      "Canonical JSON-driven template, compact metadata, visible mapped footnotes and exact backlinks.",
+      "Collapsed further reading, visible correction notice and portable full prose/source tests.",
+      "No invented imagery or identity assertions."
+    ],
+    "tests": {
+      "full": {
+        "pass": 566,
+        "fail": 0
+      },
+      "coast": {
+        "pass": 481,
+        "fail": 0
+      },
+      "audit": {
+        "pass": 1900,
+        "total": 1900
+      },
+      "publication": {
+        "indexable_pages": 11
+      }
+    },
+    "limits": [
+      "Samanta implemented and ran builds; Disha completed remaining verification after capacity interruptions. Separate Drishti exact-head quality review still required."
+    ],
+    "checked_at": "2026-10-23T02:22:53.965142+00:00",
+    "failed_gates": [],
+    "reruns": [
+      "Initial complete pipeline passed; repeated all gates after coordinator shortened final canonical closing paragraph."
+    ],
+    "responsive": {
+      "desktop": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "scroll_width": 1440,
+        "reading_column": 740
+      }
+    },
+    "coordinator_validation": {
+      "reviewer": "Disha, not independent quality reviewer",
+      "keyboard": "Actual browser Enter reached note-teli-daanla-census1961-survey1962-pub1968 and exact ref-harvest-and-payment-0 return; Further reading initially collapsed and expanded by Enter.",
+      "onward": "Mali link reached correct preview route.",
+      "save": "Already saved by implementation worker; coordinator observed saved checkbox in fresh tab and Dhoba item in journey after navigation.",
+      "screenshots": [
+        "/tmp/pod-dhoba-desktop.png",
+        "/tmp/pod-dhoba-mobile.png",
+        "/tmp/pod-dhoba-mobile-body.png"
+      ],
+      "dimensions": "Actual PNGs1440x1000 and390x844; mobile body visually inspected, readable and no visible clipping.",
+      "download": {
+        "path": "/Users/ahimanikya/Downloads/My-Odisha-Journey-book-2026-10-23 (1).html",
+        "bytes": 82166,
+        "all_final_paragraphs": true,
+        "all_three_sources": true,
+        "full_notes_excluded": true
+      },
+      "limitation": "Browser download event wait timed out after click; actual downloaded file recovered and contents verified independently. Native app inventory reported locked Mac; Chrome preview DOM remained accessible."
+    }
+  }
+}

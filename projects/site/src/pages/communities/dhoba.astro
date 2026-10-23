@@ -1,0 +1,53 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import ArticleByline from '../../components/ArticleByline.astro';
+import ArticleFootnote from '../../components/ArticleFootnote.astro';
+import ArticleFootnotes from '../../components/ArticleFootnotes.astro';
+import ResearchContents from '../../components/ResearchContents.astro';
+import SaveJourney from '../../components/SaveJourney.astro';
+import '../../styles/article-reading.css';
+import story from '../../../../../kb/research/communities/dhoba.json';
+const timeline=story.timeline||[];
+const reading=story.further_reading||[];
+const passages=[...story.sections.flatMap(s=>s.paragraphs.map((p,i)=>({id:`${s.id}-${i}`,source_ids:p.source_ids}))),...timeline.map((event,i)=>({id:`timeline-${i}`,source_ids:event.source_ids}))];
+const contents=[...story.sections.map(s=>({title:s.title,href:'#'+s.id})),...(timeline.length?[{title:'Dates in the story',href:'#dhoba-timeline'}]:[]),...(reading.length?[{title:'Further reading',href:'#dhoba-further-reading'}]:[]),{title:'Footnotes & Sources',href:'#story-sources'}];
+---
+<Shell title={story.title} description={story.description||story.lead} active="explore" wide related={false}>
+<article class="article-reading dhoba-story">
+ <a class="collection-return" href="/explore/">← Explore Odisha</a>
+ <header class="dhoba-hero"><p class="eyebrow">Odisha · Communities and heritage</p><h1>{story.title}</h1>{story.odia&&<p class="dhoba-odia" lang="or">{story.odia}</p>}<ArticleByline author={story.author}/><p class="lead">{story.lead}</p><SaveJourney id="reading:dhoba" quiet/></header>
+ <ResearchContents items={contents} label="In this article"/>
+ {story.sections.map(section=><Fragment><section class="dhoba-section" aria-labelledby={section.id}><h2 id={section.id}>{section.title}</h2>{section.paragraphs.map((paragraph,i)=><p data-source-ids={paragraph.source_ids.join(' ')}>{paragraph.text}<ArticleFootnote ids={paragraph.source_ids} sources={story.sources} passage={`${section.id}-${i}`}/></p>)}</section>{story.figure?.after_section===section.id&&<figure class="dhoba-object"><img src={story.figure.src} width={story.figure.width} height={story.figure.height} alt={story.figure.alt} loading="lazy" decoding="async"/><figcaption><p>{story.figure.caption}</p><p class="object-credit">Photograph: {story.figure.creator} · <a href={story.figure.source}>Original source</a> · <a href={story.figure.license_url}>{story.figure.license}</a>. {story.figure.changes}</p></figcaption></figure>}</Fragment>)}
+ {timeline.length>0&&<section class="dhoba-timeline" aria-labelledby="dhoba-timeline"><h2 id="dhoba-timeline">Dates in the story</h2><ol>{timeline.map((event,i)=><li><p class="timeline-date">{event.date}</p><h3>{event.title}</h3><p>{event.text}<ArticleFootnote ids={event.source_ids} sources={story.sources} passage={`timeline-${i}`}/></p></li>)}</ol></section>}
+ {reading.length>0&&<section id="dhoba-further-reading" class="dhoba-further-reading"><details class="utk-disclosure"><summary>Further reading</summary><nav aria-label="Related Odisha reading"><ul>{reading.map(link=><li><a href={link.href}>{link.title} →</a>{link.description&&<p>{link.description}</p>}</li>)}</ul></nav></details></section>}
+ <ArticleFootnotes sources={story.sources} passages={passages}/>
+ <p class="dhoba-update"><a href="/contribute/?page=%2Fcommunities%2Fdhoba%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
+</article>
+</Shell>
+<script>
+import {bindStorySourceLinks} from '../../lib/story-source-links.mjs';
+document.querySelectorAll('.dhoba-story sup, .dhoba-story .article-footnotes').forEach(group=>bindStorySourceLinks(group,document));
+</script>
+<style>
+.collection-return{display:inline-block;margin:0 0 2rem;font-size:.95rem}
+.dhoba-hero{border-bottom:1px solid var(--line);padding-bottom:1.25rem}
+.dhoba-hero .eyebrow{font-size:.75rem;margin-bottom:1rem}
+.dhoba-hero .dhoba-odia{font-size:1.7rem;color:var(--earth);line-height:1.5;margin-top:-.4rem}
+.dhoba-hero .lead{font-size:1.25rem;line-height:1.75;margin-top:1.4rem}
+.dhoba-section{margin-block:3rem}
+.dhoba-object{margin:3rem 0}
+.dhoba-object img{display:block;width:100%;height:auto;object-fit:contain}
+.dhoba-object figcaption p{font-size:.95rem;line-height:1.65;margin:.7rem 0 0}
+.dhoba-object figcaption .object-credit{font-size:.8rem}
+.dhoba-timeline{margin:3rem 0}
+.dhoba-timeline ol{list-style:none;border-left:2px solid var(--line);padding-left:1.5rem}
+.dhoba-timeline li{position:relative;margin-bottom:2rem;padding-left:0}
+.dhoba-timeline li::before{position:absolute;content:'';width:.65rem;height:.65rem;border-radius:50%;background:var(--earth);left:-1.89rem;top:.5rem}
+.dhoba-timeline .timeline-date{font-size:.85rem;font-weight:700;color:var(--earth);margin:0 0 .3rem}
+.dhoba-timeline h3{margin:0 0 .6rem}
+.dhoba-timeline li>p:last-child{font-size:1rem;line-height:1.75}
+.dhoba-further-reading{margin-top:3rem}
+.dhoba-further-reading p{font-size:.95rem;margin-bottom:0}
+.dhoba-update{font-size:.9rem;line-height:1.75;margin-top:2.5rem}
+@media(max-width:600px){.dhoba-hero .lead{font-size:1.12rem}.dhoba-section{margin-block:2.5rem}}
+</style>

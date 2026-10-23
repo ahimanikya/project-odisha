@@ -132,6 +132,17 @@
         "Do not import caste-rank or enterprising-character praise, surname lists as identity tests, or universal gender-role prescriptions.",
         "Do not transfer southern Telugu communities' festivals in section3.3 to Kaibarta."
       ]
+    },
+    {
+      "id": "teli-daanla-census1961-survey1962-pub1968",
+      "title": "M. Ahmed, A Monograph on Village Daanla",
+      "url": "https://censusindia.gov.in/nada/index.php/catalog/28120/download/31302/23422_1961_DAA.pdf",
+      "accessed_on": "2026-10-23",
+      "scope": "1962 investigation,1968 publication; printed7,14,38 inspected for Dhoba household and washing service",
+      "status": "inspected",
+      "limits": [
+        "One purposively selected village, not a statewide identity or current legal classification."
+      ]
     }
   ],
   "observations": [
@@ -3855,6 +3866,13 @@
       "locator": "Chapter3 printed59–61",
       "raw_label": "Noliyas; Jalaris; Vodabalijas",
       "context": "Local umbrella label in the southern1985study; does not merge two groups or all fishers into one caste."
+    },
+    {
+      "id": "daanla-dhoba-1962",
+      "source_id": "teli-daanla-census1961-survey1962-pub1968",
+      "locator": "Printed7 community table; printed14,38 washing service",
+      "raw_label": "Dhoba",
+      "context": "One Dhoba household in the village study. Payment and service exclusion are historical local observations, not universal identity or practice."
     }
   ],
   "topics": [
@@ -4139,6 +4157,21 @@
       ],
       "relationships": [],
       "note": "Grouped administrative label remains coverage lead, not universal equivalence. Community history and occupational participation mapped in mali.json."
+    },
+    {
+      "id": "dhoba",
+      "label": "Dhoba",
+      "kind": "community_history",
+      "status": "in_progress",
+      "route": "/communities/dhoba/",
+      "source_observation_ids": [
+        "daanla-dhoba-1962"
+      ],
+      "evidence": [
+        "daanla-dhoba-1962"
+      ],
+      "relationships": [],
+      "note": "Local Census observation; no alias or occupation-to-caste inference."
     }
   ]
 }
