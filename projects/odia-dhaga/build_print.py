@@ -38,7 +38,7 @@ def make_book(root=ROOT):
             # Preserve Odia shaping in mixed-language credits and text.
             chunks=re.split(r'([\u0b00-\u0b7f]+)',str(text));s=''.join('<font name="Odia">'+escape(c)+'</font>' if re.search(r'[\u0b00-\u0b7f]',c) else escape(c) for c in chunks)
             return Paragraph(s,styles[kind])
-        story=[Spacer(1,90),p('ଓଡ଼ିଆ ଢଗଢମାଳି','title'),p('Odia Dhaga–Dhamali','heading'),p('108 sayings in Odia and English'),Spacer(1,22),p('By Ahimanikya Satapathy'),Spacer(1,35),p('Project Odisha · Reading edition'),PageBreak(),p('ଢଗଢମାଳି ବିଷୟରେ','title'),p('About this collection','heading')]
+        story=[Spacer(1,90),p('ଓଡ଼ିଆ ଢଗଢମାଳି','title'),p('Odia Sayings and Proverbs','heading'),p('108 sayings in Odia and English'),Spacer(1,22),p('By Ahimanikya Satapathy'),Spacer(1,35),p('Project Odisha · Reading edition'),PageBreak(),p('ଢଗଢମାଳି ବିଷୟରେ','title'),p('About this collection','heading')]
         for x in data['book_intro']['odia']:story.append(p(x,'odia'))
         for x in data['book_intro']['english']:story.append(p(x))
         story += [Spacer(1,20),p('Read by theme or follow the sayings in order. The examples are original illustrations of everyday use.'),PageBreak(),p('Contents','heading')]
@@ -77,7 +77,7 @@ def make_book(root=ROOT):
         out=root/'odia-dhaga-book.pdf'
         def page_number(c,doc):
             c.saveState();c.setFont('English',8);c.setFillColor(colors.HexColor('#665c52'));c.drawCentredString(width/2,28,str(doc.page));c.restoreState()
-        SimpleDocTemplate(str(out),pagesize=A4,rightMargin=47,leftMargin=47,topMargin=48,bottomMargin=52,title='ଓଡ଼ିଆ ଢଗଢମାଳି · Odia Dhaga–Dhamali',author='Ahimanikya Satapathy').build(story,onFirstPage=page_number,onLaterPages=page_number)
+        SimpleDocTemplate(str(out),pagesize=A4,rightMargin=47,leftMargin=47,topMargin=48,bottomMargin=52,title='ଓଡ଼ିଆ ଢଗଢମାଳି · Odia Sayings and Proverbs',author='Ahimanikya Satapathy').build(story,onFirstPage=page_number,onLaterPages=page_number)
         print('Maximum shrink factor:',max(getattr(f,'_scale',1) for f in frames))
         return out
 if __name__=='__main__':print(make_book())
