@@ -63,3 +63,7 @@ Use the shared ArticleByline, ArticleFootnote and ArticleFootnotes components an
 ## Citation labels · 24 October 2026
 
 Use numbered footnote links beside the relevant article passage. Do not display “Source 1”, “Source 2” or standalone named-source citations beneath passages. Keep bibliographic titles, credited authors and precise page/verse locators in the linked footnotes. Names that belong to the narrative remain in the prose. Accessible link labels may name the source.
+
+## Reading-path presentation · 24 October 2026
+
+Use the shared ArticleReadingPath component for the connected Odia essays and their further-reading links: visible section heading, unbulleted linked titles with a trailing arrow, optional short descriptions, and consistent spacing and dividers. Keep the article reading width and place the sections before the footer. Preserve destination links and meaningful distinctions between the connected sequence and supplementary reading. This component is the reusable pattern for subsequent individual article reviews; unrelated pages are not marked reviewed by this change.

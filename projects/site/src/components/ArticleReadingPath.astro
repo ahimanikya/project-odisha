@@ -1,0 +1,26 @@
+---
+interface Link { href: string; title: string; description?: string }
+interface Props { links: Link[]; heading?: string; intro?: string; id?: string; class?: string }
+const { links, heading = 'Continue reading', intro, id, class: className } = Astro.props;
+---
+<section id={id} class:list={['article-reading-path', className]} aria-label={heading}>
+  <h2>{heading}</h2>
+  {intro && <p class="reading-path-intro">{intro}</p>}
+  <nav aria-label={heading}>
+    <ul>{links.map(link => <li>
+      <a href={link.href}>{link.title} <span aria-hidden="true">→</span></a>
+      {link.description && <p>{link.description}</p>}
+    </li>)}</ul>
+  </nav>
+</section>
+<style>
+.article-reading-path{margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--line)}
+.article-reading-path h2{font-size:clamp(1.5rem,3vw,1.8rem);line-height:1.3;margin:0 0 1.25rem}
+.article-reading-path .reading-path-intro{font-size:1rem;line-height:1.75;margin:0 0 1.25rem}
+.article-reading-path ul{list-style:none;padding:0;margin:0}
+.article-reading-path li{margin:0;padding:1rem 0;border-bottom:1px solid var(--line)}
+.article-reading-path li:last-child{border-bottom:0;padding-bottom:0}
+.article-reading-path a{display:inline-block;font-size:1.05rem;line-height:1.65;text-underline-offset:.2em;overflow-wrap:anywhere}
+.article-reading-path li p{font-size:.95rem;line-height:1.7;margin:.35rem 0 0;color:var(--muted)}
+.article-reading-path a:focus-visible{outline:3px solid var(--earth);outline-offset:4px}
+</style>
