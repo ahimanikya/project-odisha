@@ -1,3 +1,4 @@
+import reviewedCulture from './reviewed-culture.json';
 import {soundDiscoveryEntries} from './sounds-discovery';
 import textiles from '../../../../kb/research/culture/textile-stories.json';
 import crafts from '../../../../kb/research/culture/craft-stories.json';
@@ -20,6 +21,7 @@ import {detailRecords,detailUrl,detailPhoto} from './destination-details';
 const locations={chilika:['Chilika'],konark:['Konark & Puri'],kotpad:['Koraput'],pakhala:['Across Odisha'],'boita-bandana':['Across Odisha']};
 const voiceAreas={'languages/ho':['Mayurbhanj','Keonjhar','Angul'],'languages/juang':['Keonjhar','Angul','Dhenkanal'],'languages/koya':['Malkangiri'],'people/gangadhar-meher':['Bargarh'],'people/fakir-mohan-senapati':['Balasore'],'people/pratibha-ray':['Jagatsinghpur'],'people/bhima-bhoi':['Sambalpur & Subarnapur'],'people/gopinath-mohanty':['Cuttack','Koraput'],'languages/kui':['Kandhamal'],'languages/kuvi':['Rayagada'],'languages/saora':['Southern Odisha'],'languages/santali':['Mayurbhanj']};
 const collectionEntries=[
+ ...reviewedCulture,
  {label:"Paika: service, community and Odia heritage",category:"Living culture",dek:"Military service, land, the 1817 rebellion and living tradition: why Paika history cannot be reduced to one caste origin.",href:"/communities/paika/",regions:["Khordha","Across Odisha"],aliases:["Paik","Paika Akhada","Khandayat","ପାଇକ"]},
  {label:"Khandayat: land, service and community history",category:"Living culture",dek:"Dated records, inherited roles and regional meanings behind a community name.",href:"/communities/khandayat/",regions:["Across Odisha"],aliases:["Khandayata","ଖଣ୍ଡାୟତ"]},
  {label:"Chasa: cultivation and community history",category:"Living culture",dek:"Cultivation, village histories and the distinction between shared agrarian heritage and community identity.",href:"/communities/chasa/",regions:["Across Odisha"],aliases:[]},

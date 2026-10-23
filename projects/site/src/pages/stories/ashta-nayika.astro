@@ -1,0 +1,22 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import ReviewedCultureArticle from '../../components/ReviewedCultureArticle.astro';
+import {renderReviewedCultureArticle} from '../../lib/reviewed-culture-article.mjs';
+import source from '../../../../../kb/research/culture/ashta-nayika.md?raw';
+const image={src:'/assets/ashta-nayika/abhisarika-met.jpg',alt:'Abhisarika Nayika in an ochre shawl, a Kangra painting in The Metropolitan Museum of Art',width:2907,height:4000};
+const article=renderReviewedCultureArticle(source,{
+ sourcePath:'kb/research/culture/ashta-nayika.md',route:'/stories/ashta-nayika/',
+ images:{'../media/nayika/abhisarika-met.jpg':image.src},
+ imageDimensions:{[image.src]:{width:image.width,height:image.height}}
+});
+---
+<Shell title={article.title} description="Eight dramatic situations, their place in Odissi learning, and how lyrics and performances give them meaning." active="explore" related={false} shareImage={image}>
+ <ReviewedCultureArticle article={article}>
+  <div slot="intro"><p><a href="/explore/">← Explore Odisha</a></p><p class="eyebrow">Odissi · Poetry and performance</p></div>
+  <p>The companion readings and inspection record linked above open the research knowledge base on GitHub.</p>
+  <nav aria-label="Continue reading about music and performance">
+   <h2>Continue reading</h2>
+   <ul><li><a href="/stories/odissi-music/">Odissi music</a></li><li><a href="/stories/prahlada-nataka/">Prahallad Nataka</a></li><li><a href="/sounds-of-odisha/">Sounds of Odisha</a></li></ul>
+  </nav>
+ </ReviewedCultureArticle>
+</Shell>
