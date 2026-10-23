@@ -62,7 +62,7 @@ test('Netaji keeps further reading collapsed, update guidance visible and adjace
  assert.match(html,/name="robots" content="noindex, nofollow"/);
  const other=page('/visit/experiences/jobra-maritime-museum/');
  assert.doesNotMatch(other,/class="article-byline"|id="story-sources"/);
- assert.match(other,/Drafted with AI assistance/);
+ assert.doesNotMatch(other,/Drafted with AI assistance/);
  for(const href of ['/visit/places/barabati/','/visit/experiences/cuttack-filigree/'])assert.match(page(href),/By Ahimanikya Satapathy/);
 });
 test('Netaji portable reading retains every paragraph, author, original check date and concise sources',()=>{

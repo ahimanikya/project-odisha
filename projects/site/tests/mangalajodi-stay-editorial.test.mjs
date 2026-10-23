@@ -18,7 +18,7 @@ test('Mangalajodi stay distinguishes a published camp lead from verified rooms a
  assert.equal((page.match(/data-footnote-ref/g)||[]).length,2);
  for(const phrase of ['has not inspected its rooms','room-to-water journey','November to February','not a room or a view promised'])assert.ok(page.includes(phrase));
  assert.ok(!page.split('<section id="story-sources"')[1].split('</section>')[0].includes('chilika-nature-camps.html'));
- assert.match(read('dist/visit/stays/konark/index.html'),/Drafted with AI assistance/);
+ assert.doesNotMatch(read('dist/visit/stays/konark/index.html'),/Drafted with AI assistance/);
  assert.match(page,/data-save-journey="base:chilika-mangalajodi"/);
 });
 test('Mangalajodi stay portable reading keeps all planning paragraphs and concise sources with photograph provenance',()=>{

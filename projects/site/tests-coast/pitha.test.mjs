@@ -12,7 +12,7 @@ test('both pitha stories carry licensed photographs, sources and portable practi
   if(slug==='enduri-pitha'){
    assert.match(html,/By Ahimanikya Satapathy/);assert.match(html,/id="story-sources"/);assert.match(html,/Footnotes &amp; Sources/);assert.doesNotMatch(html,/human editorial review pending/);
   }else{
-   assert.ok(html.includes('human editorial review pending'));assert.doesNotMatch(html,/class="article-byline"|id="story-sources"/);
+   assert.match(html,/[Hh]uman editorial review pending/);assert.doesNotMatch(html,/class="article-byline"|id="story-sources"/);
   }
  }
 });

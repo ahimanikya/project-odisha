@@ -40,7 +40,7 @@ test('Chhau retains its image context, rights, saved identity and reading paths 
  for(const href of ['/destinations/mayurbhanj/','/visit/stays/similipal-gateways/','/food/mudhi-mansa/','/journey/'])assert.ok(onward.includes(`href="${href}"`),href);
  const outside=html.replace(/<details\b[^>]*>[\s\S]*?<\/details>/g,'');assert.match(outside,/href="\/contribute\/\?page=%2Fvisit%2Fexperiences%2Fmayurbhanj-chhau%2F"[^>]*>Suggest an update/);assert.match(outside,/GitHub submissions are public; omit private contact details and consent documents/);
  assert.match(html,/data-save-journey="experience:mayurbhanj-chhau"/);assert.match(html,/name="robots" content="noindex, nofollow"/);
- const other=page('/visit/experiences/jobra-maritime-museum/');assert.doesNotMatch(other,/class="article-byline"|id="story-sources"/);assert.match(other,/Drafted with AI assistance/);
+ const other=page('/visit/experiences/jobra-maritime-museum/');assert.doesNotMatch(other,/class="article-byline"|id="story-sources"/);assert.doesNotMatch(other,/Drafted with AI assistance/);
  for(const path of ['/visit/places/barabati/','/visit/experiences/cuttack-netaji/','/visit/stays/cuttack/','/visit/places/chandipur/','/visit/places/similipal/'])assert.match(page(path),/By Ahimanikya Satapathy/);
 });
 test('Chhau portable reading retains every paragraph, concise sources and performance photograph rights',()=>{

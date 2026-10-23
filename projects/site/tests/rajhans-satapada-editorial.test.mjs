@@ -18,7 +18,7 @@ test('Rajhans and Satapada stay distinguishes published property leads from veri
  assert.equal((page.match(/data-footnote-ref/g)||[]).length,3);
  for(const phrase of ['limited once on the island','has not inspected its rooms','confirmed transfer booking','does not show Rajhans Nature Camp'])assert.ok(page.includes(phrase));
  assert.ok(!page.split('<section id="story-sources"')[1].split('</section>')[0].includes('chilika-nature-camps.html'));
- assert.match(read('dist/visit/stays/konark/index.html'),/Drafted with AI assistance/);
+ assert.doesNotMatch(read('dist/visit/stays/konark/index.html'),/Drafted with AI assistance/);
  assert.match(page,/data-save-journey="base:chilika-rajhans"/);
 });
 test('Rajhans and Satapada stay portable reading keeps all planning paragraphs and concise sources with photograph provenance',()=>{

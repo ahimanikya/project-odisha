@@ -6,6 +6,7 @@ status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-02T01:11:51.135341+00:00"}
 sources: [{"id": "forest-loksabha1179-2023", "title": "Lok Sabha question 1179: economic development of tribal communities", "resource": "https://sansad.in/getFile/loksabhaquestions/annex/1714/AU1179.pdf?source=pqals"}, {"id": "forest-pib-vandhan2021", "title": "Benefiting the tribal livelihoods of Odisha through the Van Dhan Yojana", "resource": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1715921"}]
 human_review_claimed: false
+production_provenance: "Developed and reviewed by the current AI assistant."
 subjects: ["economy", "everyday", "governance"]
 revised_on: "2026-10-11"
 publication_scope: "Repository article draft; not a website release"
@@ -54,7 +55,7 @@ Continue through the [forest-product economy research](../economy/forest-product
 
 [Lok Sabha question 1179, answer 11 December 2023](https://sansad.in/getFile/loksabhaquestions/annex/1714/AU1179.pdf?source=pqals), PDF pp.1 and3. Original reply retrieved and the annexure rendered/visually checked 11 October 2026. ₹1,072.01 lakh ÷100 = ₹10.7201 crore; 1,072.01 ÷4,102.95 ×100 = about26.1%. The table’s reported total is the denominator; its scope is cumulative programme reporting. The [statistics page](../statistics/forest-products.md) preserves earlier vintages and other categories separately.
 
-Creative direction: **Ahimanikya Satapathy**. Developed and reviewed by the current AI assistant. No independent economics or human review, interviews, field visits, community relationships or current service confirmation is claimed. Earlier wording and canonical research remain preserved.
+Creative direction: **Ahimanikya Satapathy**. No independent economics or human review, interviews, field visits, community relationships or current service confirmation is claimed. Earlier wording and canonical research remain preserved.
 
 ### Earlier draft · 2 October 2026
 
