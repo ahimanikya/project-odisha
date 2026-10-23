@@ -1,0 +1,361 @@
+{
+  "task_id": "POD-TASK-KAMAR-20261023",
+  "article_id": "POD-EDIT-477",
+  "programme_id": "POD-A500-130",
+  "work_id": "POD-WORK-321",
+  "status": "in_progress",
+  "input_head": "7d01a078d7818d2154605e1da17f331b0da41326",
+  "started_at": "2026-10-23T04:47:21.004251+00:00",
+  "route": "/communities/kamar/",
+  "scope": "Kamar regional community history: iron working, tools, workshop learning and regional names; occupational explanations distinguished from formation evidence.",
+  "acceptance": [
+    "Explain documented Kamar iron working, tools, workshop learning and regional names from inspected original sources.",
+    "Separate occupational explanations and origin traditions from verified formation; do not infer caste from surname or equate all metalworkers, regional labels or administrative groupings.",
+    "Separate AI research, implementation and review; meaningful tests, responsive/download checks, reviewed merge, approved deployment, live checks and receipt integration before credit."
+  ],
+  "executions": [
+    {
+      "name": "Anvesha",
+      "runtime": "/root/anvesha",
+      "scope": "Read-only original research /tmp/pod-kamar-research.json",
+      "status": "completed",
+      "scope_released": false
+    },
+    {
+      "name": "Samanta",
+      "runtime": "/root/samanta",
+      "scope": [
+        "projects/site/src/pages/communities/kamar.astro",
+        "projects/site/tests-coast/kamar-editorial.test.mjs"
+      ],
+      "status": "completed",
+      "scope_released": false
+    },
+    {
+      "name": "Drishti",
+      "runtime": "/root/drishti",
+      "scope": "Read-only integrated candidate review",
+      "status": "content_review_completed_final_pending",
+      "scope_released": false
+    },
+    {
+      "name": "Disha",
+      "scope": "Canonical narrative/shared records/publishing",
+      "status": "in_progress",
+      "scope_released": false
+    }
+  ],
+  "worker_reconciliation": "Patara receipt PR461 mergeddf716008; completion7d01a078 retained. Previous workers completed and scopes released; external current_article/task null; unrelated PR304/281 untouched.",
+  "next_action": "Exact committed-head separate AI review, passing checks and approved publication, then live receipt integration.",
+  "research": {
+    "role": "Anvesha read-only research",
+    "input_head": "7d01a078d7818d2154605e1da17f331b0da41326",
+    "accessed_on": "2026-10-23",
+    "topic": "Kamar",
+    "readiness": "Strong bounded article possible from original 1962 craft fieldwork, a separate Daanla village survey and a short district overview. No founding date established.",
+    "sources": [
+      {
+        "id": "kansari-census1961-survey1967",
+        "reuse": true,
+        "title": "M. Ahmed, Census of India 1961, Volume XII Part VII-A, Survey of Traditional Crafts, Orissa (published 1967), Book One",
+        "url": "https://censusindia.gov.in/nada/index.php/catalog/32264/download/35445/23449_1961_STC.pdf",
+        "capture": "/tmp/pod-kansari-census1961.pdf",
+        "selected_capture": "/tmp/pod-kamar-census-passages.txt",
+        "inspection": "Original PDF extracted and inspected, including imprint PDF6 and preface PDF11–12.",
+        "locators": {
+          "scope": "printed12/PDF26 paragraphs7–9",
+          "date_and_closures": "printed15–16/PDF29–30 paragraph11",
+          "labour_and_tools": "printed17–19/PDF31–33 paragraphs15–19; printed25/PDF39 paragraph26",
+          "learning": "printed33/PDF47 paragraph36",
+          "change": "printed49/PDF63 paragraphs71–73",
+          "occupational_overlap": "printed111/PDF125 paragraph57"
+        },
+        "findings": [
+          "1962 investigation centred on Penthabahal in then Rairakhol subdivision, Sambalpur district; not a census of all Kamar people. The source explicitly identifies the village smelters as Kamars.",
+          "Women helped gather ore, transport charcoal and work the paired foot bellows; the smelting operation depended on coordinated household labour. Furnace was clay; hot iron removed with tongs and worked on a granite anvil.",
+          "Practical skill in giving iron useful hardness is described as learned by watching forefathers. Attribute to this report; do not repeat its claim of absence of theoretical knowledge.",
+          "Investigators found furnaces operating around Umarkot in February1961 but closed in several villages when revisited in latter1962. Smelters attributed closures to officials stopping removal of ore from reserved forests; this is attributed testimony, not a verified legal finding.",
+          "The author also identifies competition from factory iron and difficulty obtaining charcoal. Treat as historical analysis, not current conditions.",
+          "Kantilo chapter lists twenty Kamar workers in brass/bell-metal industry, useful optional evidence that identities and occupations do not map one-to-one; would share this same source budget."
+        ],
+        "limits": [
+          "Entire publication shares one <=200-word derived-prose budget, including notes. Suggested allocation: ~100 words family work/learning, ~65 change, ~25 source note.",
+          "Reject racial appearance/fitness statements, temperament and laziness claims, romantic contentment and universal ancient continuity.",
+          "Eleventh-century Kond settlement chronology is unsubstantiated in this inspected account; not community formation evidence.",
+          "Distinct Koraput Lohar study must not be silently treated as Kamar identity.",
+          "Photographs and captions identify workshop people, but reuse rights not established; no image recommendation."
+        ],
+        "derived_word_budget": 200
+      },
+      {
+        "id": "teli-daanla-census1961-survey1962-pub1968",
+        "reuse": true,
+        "title": "Census of India 1961, village survey Daanla; 1962 investigation, published1968",
+        "url": "https://censusindia.gov.in/nada/index.php/catalog/28120/download/31302/23422_1961_DAA.pdf",
+        "capture": "/tmp/pod-teli-daanla.pdf",
+        "inspection": "Original PDF selected pages extracted and read",
+        "locators": {
+          "settlement": "printed6/PDF38 paragraph26",
+          "household": "printed7/PDF39 table2; printed9/PDF41 paragraph12",
+          "tools": "printed31/PDF63 paragraphs17–18",
+          "service_and_payment": "printed38/PDF70 paragraph44",
+          "markets": "printed40/PDF72 paragraph55"
+        },
+        "findings": [
+          "Records one Kamar household of seven people; says it arrived in the preceding generation, a local settlement account rather than caste origin.",
+          "Separately describes one village blacksmith making axes, sickles, ploughshares and knives and doing repairs. Each draught-animal-owning household paid six seers of paddy annually per pair of bullocks for services.",
+          "Villagers shaped wooden handles while metal portions were bought at market or prepared by local blacksmith. This shows interdependent labour rather than a single self-contained craft.",
+          "Products surplus to local needs were sold in surrounding villages or Keonjhar market."
+        ],
+        "limits": [
+          "One village in the survey period, not present-day universal payment rate.",
+          "Household caste count and occupational passage are separate; do not invent a named Kamar artisan or imply every blacksmith was Kamar. Safe wording: the same village study records a Kamar household and describes the blacksmith service.",
+          "No inference that preceding-generation household migration gives origin of the community."
+        ],
+        "derived_word_budget": 200
+      },
+      {
+        "id": "nolia-ganjam-gazetteer",
+        "reuse": true,
+        "url": "https://ganjam.odisha.gov.in/sites/default/files/2023-06/2018032995.pdf",
+        "capture": "/tmp/pod-gopala-ganjam.pdf",
+        "locator": "printed93/PDF109, Badhei entry",
+        "inspection": "Original PDF subsection read",
+        "findings": [
+          "Places Badhei, Kamar and Pathuria within its Biswakarma community description, distinguishing wood, iron and stone work.",
+          "Specifically associates Kamars with iron implements and household appliances; reports Biswakarma worship."
+        ],
+        "limits": [
+          "District account, not an exhaustive Odisha caste map.",
+          "Do not universalise its broad intermarriage statement or collapse these named communities into aliases.",
+          "Do not infer community identity of every ironworker or every Biswakarma worshipper."
+        ],
+        "derived_word_budget": 200
+      },
+      {
+        "id": "chasa-bhadrak-gazetteer",
+        "reuse": true,
+        "url": "https://bhadrak.odisha.gov.in/sites/default/files/2023-06/2020120281%20%281%29.pdf",
+        "capture": "/tmp/pod-chasa-bhadrak.pdf",
+        "locator": "printed39/PDF55, Badhei entry",
+        "inspection": "Original PDF subsection read",
+        "findings": [
+          "Similar district grouping of Badhei, Kamara and Pathuria with wood, iron and stone work, and Biswakarma worship."
+        ],
+        "limits": [
+          "Overlaps Ganjam; optional corroboration, not needed as a separate narrative section.",
+          "No founding chronology or all-Odisha marriage generalisation."
+        ],
+        "derived_word_budget": 200
+      }
+    ],
+    "narrative_plan": [
+      "Briefly establish Kamar iron-work associations through Ganjam with strict regional scope.",
+      "Move into Penthabahal household smelting: ore, charcoal, bellows and forging, with women visible and practical learning attributed.",
+      "Contrast Daanla service arrangements: repairing tools, annual grain remuneration, wooden handles made by cultivators, market sales.",
+      "Return briefly to historically documented pressure on access to materials and factory competition. Distinguish reported causes from proved legal findings.",
+      "Explain that occupational needs document roles and livelihoods but do not reveal a single caste founder or creation date."
+    ],
+    "tests": [
+      "Read AGENTS, current assignments, operations and Kamar handoff; verified full input head.",
+      "Read research-map reuse rules and ran query_research.py Kamar: no standalone narrative.",
+      "Searched KB and retained coverage raw label only as lead.",
+      "Re-inspected original gazetteer subsections, Daanla passages and crafts report selected pages rather than relying on snippets.",
+      "Verified crafts imprint1967 and body fieldwork timing1962; preserved stable source IDs.",
+      "Saved selected craft passages for parent inspection. No repo changes."
+    ],
+    "global_limits": [
+      "No current household interviews, contemporary livelihood survey or precise formation date.",
+      "No equivalence with tribal Kamar outside Odisha, all metalworkers, surname carriers or grouped administrative labels.",
+      "Avoid stretching into a large article: roughly450–550 words can be meaningful; substantive source-driven insight matters more than length."
+    ]
+  },
+  "content_review": {
+    "reviewer": "Drishti, separate AI review, not human review",
+    "input_head": "7d01a078d7818d2154605e1da17f331b0da41326",
+    "status": "SOURCE_CONTENT_PASS_PENDING_FINAL_HEAD_BUILD_VISUAL",
+    "source_checks": [
+      "Read original crafts PDF imprint1967, scope printed12, closure15–16 and49, plus extracted original labour/tools17–19,25 and learning33. Women’s work, paired foot bellows, clay furnace/granite anvil and practical learning supported. Umarkot closure evidence and forest restrictions clearly attributed historical testimony, not current legal finding.",
+      "Reused original Daanla table visually inspected in preceding Dhoba review: one Kamar household. Original payment paragraph38 specifies annual six seers per pair of bullocks; household identity and occupational service kept separate. Independently read original31handles and40surplus market passages.",
+      "Ganjam93 original previously inspected; Badhei grouping distinguishes iron/wood/stone, consistent with article; no universal alias or surname inference.",
+      "Reread shortened furnace paragraph: original printed33 says learning from watching forefathers; paraphrase elders is supported, without asserting all elders or a formal teaching institution."
+    ],
+    "word_budgets": {
+      "section_heading_note_interpretation": {
+        "nolia-ganjam-gazetteer": 107,
+        "kansari-census1961-survey1967": 172,
+        "teli-daanla-census1961-survey1962-pub1968": 156
+      },
+      "crafts_with_title_and_relevant_lead": 190,
+      "other_source_upper_bound": "Even adding entire37word lead and7word title gives Ganjam151 and Daanla200."
+    },
+    "depth_assessment": "Household labour, tool/user interdependence, animal-based remuneration and material-access pressures supply concrete distinct understanding. Historical stereotypes omitted, no invented founding explanation.",
+    "tests": [
+      "git diff --check PASS",
+      "Canonical narrative/MD/dossier/page inspected; mapped notes first-use1,2,3; descriptive further-reading labels fit Kansari/Chitrakara subjects though not exact titles."
+    ],
+    "limits": [
+      "Final exact head/build/visual/download verification pending.",
+      "No human community review, field confirmation, current conditions or community founding established.",
+      "No independent legal adjudication of historical forest restrictions.",
+      "No reused source photographs without rights."
+    ],
+    "file_sha256": {
+      "kb/catalog.json": "665d203471a97a42aaf90902d238a76e53c09b70ee591979f67493829796547b",
+      "kb/records/article-editorial-rollout.json": "9337abde995502c270630192b1b8f1f045af2082a996659aa0db55849243bea2",
+      "kb/records/article-editorial-work-list.md": "4b0ac008f4188a28706cf8e9e66a40825bdd33569a16f21a4b68772a3c7b7cfb",
+      "kb/records/autonomous-500-program.json": "1dd54743cd278c8a332fa24a307e9540e1f99d86c13e696303d7111d60ecc7f0",
+      "kb/records/editorial-workbench.json": "d5f921b5f062fefd0a74c81c95139e94866905eeecdb8634d2af9d8309aca950",
+      "kb/records/kamar-editorial-team-2026-10-23.json": "0e0c3112a7a61ff3b59d7ae6d3544c7b79fc454c8a6171182f463c0aae4a5f3a",
+      "kb/registers/DASHBOARD.md": "c47e0ee4b075e2e4d4ec9603e19530da2cf2b127265b1ed469391c8cec8071dc",
+      "kb/registers/records.json": "8de2ec5d7372b12aee8fab4afcdadf8b0198be60d4c0b9bd0417915a91d194cb",
+      "kb/research/communities/coverage-index.json": "8a0790e5565c9abe255624ac06158d2d65b8f6cbd1fb109d739b18e4a1aab2a2",
+      "kb/research/communities/index.md": "8fd1457eba4ab573229caf7049472b08e7ed6fd480c9b8bf4bf1f1f42fcbe518",
+      "kb/research/communities/kamar.json": "c3497672dcfde15a9f9be5e24363d1f32a50ae85323776ea9a126df617bac761",
+      "kb/research/communities/kamar.md": "b81614b478079bb6abbea20c355fc908c6611be236c05ebdaaa4801e6758194b",
+      "kb/research/methods/research-map.md": "459db6456f0261ad64be1e0467c5b475acdb5c7e638e8584aead555a795668fa",
+      "kb/research/search-index.json": "6dfd24a69404079ba31116d0bad83d279b4ce7058b740a6950fff1486b336a59",
+      "kb/research/sources/kamar-research.json": "95249119637206ac6b0eaeb78d0708d27bf41443630b03b5e6bcebb72264c24e",
+      "kb/team/operations.json": "a64fd43a61a6800caa31fcdc46617b7cd03e20f59d85090983ccf709339c3641",
+      "projects/site/editions/coast.json": "5f4348cb920973695278cc0f43c38ab932aafe9e5439a7c547290722a083cb82",
+      "projects/site/editions/search-candidate.json": "3db432a45641f0a3a4a8a52ef55b46e698453206391badeb10891d66942c5139",
+      "projects/site/src/data/discovery.ts": "5649049b5c15fc909667305437c7faa7c8e0abfbc285438e9d8665a35e0a8d3a",
+      "projects/site/src/data/journey-catalog.ts": "094da9ef0a3ea6a07bcfb3480fe6bfc4620808625660bc6a19b0b6a9d1ab3dbc",
+      "projects/site/src/pages/communities/kamar.astro": "3ad6e2f31a011d761ceea9947779ead19dc31d54a895092882186d2632d95781",
+      "projects/site/tests-coast/cuttack-literature.test.mjs": "a22d689b85e8b07db61d3a7cb32a871ccd2e19968b743d3f74e5bcc2baedd402",
+      "projects/site/tests-coast/discovery-flow.test.mjs": "a6b9e985ef0f85f5c76ee1c1717fa61028b0ea5fc4d1ffedf3a97ab47332b898",
+      "projects/site/tests-coast/edition.test.mjs": "209d81258c8641d738627c72d3338b782359807581bc9d2cb9c5826a7b4a905c",
+      "projects/site/tests-coast/kamar-editorial.test.mjs": "f38c2f5def6300db5ce27b6dad59366ec9f6b6370c247d1247cda4c66e1ff090",
+      "projects/site/tests/build.test.mjs": "649c09cdc0dbebb4e913d8cf7bfdb2fa76e3d09ee8c1e56e68074b9e65e4ae19"
+    },
+    "resolved_findings": [
+      "Crafts volume aggregate184 before article title/lead. Adding7word article title and11word household-labour lead sentence yields202; trim about10words for margin."
+    ],
+    "findings": []
+  },
+  "validation": {
+    "programme_tests": 30,
+    "register_tests": "pass",
+    "bundle": "pass",
+    "community_index": "20 topics,230 observations,9 sources,18 routes",
+    "research_map": "pass",
+    "diff_check": "pass"
+  },
+  "implementation": {
+    "task_id": "POD-TASK-KAMAR-20261023",
+    "article_id": "POD-EDIT-477",
+    "worker": "Samanta, AI implementation agent",
+    "input_head": "7d01a078d7818d2154605e1da17f331b0da41326",
+    "status": "implementation validation complete",
+    "checked_at": "2026-10-23T04:54:26.389900+00:00",
+    "actual_edits": [
+      "projects/site/src/pages/communities/kamar.astro",
+      "projects/site/tests-coast/kamar-editorial.test.mjs"
+    ],
+    "implementation": [
+      "Canonical-source template with compact metadata, mapped visible footnotes and exact backlinks.",
+      "Collapsed further reading, correction/privacy notice and full portable prose/source checks.",
+      "No invented prose, identity assumptions or image."
+    ],
+    "tests": [
+      {
+        "name": "Node24 syntax check",
+        "result": "pass"
+      },
+      {
+        "name": "scoped git diff --check",
+        "result": "pass"
+      }
+    ],
+    "limits": [
+      "Only reserved page/test edited; no shared records or Git mutations.",
+      "AI implementation checks only; factual review and publication remain coordinator responsibilities.",
+      "Browser Save/download limited to local preview; live checks not yet performed."
+    ],
+    "initial_pipeline": {
+      "full_pass": 566,
+      "coast_pass": 489,
+      "audit_pass": 1908,
+      "publication_indexable": 11
+    },
+    "reruns": [
+      "Coordinator shortened household-furnace paragraph after initial full build/test; rerunning all outputs against final canonical."
+    ],
+    "failed_gates": [],
+    "final_pipeline": {
+      "full_pass": 566,
+      "coast_pass": 489,
+      "audit_pass": 1908,
+      "publication_indexable": 11
+    },
+    "canonical_sha256": "c3497672dcfde15a9f9be5e24363d1f32a50ae85323776ea9a126df617bac761",
+    "responsive": {
+      "desktop": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "scroll_width": 1440,
+        "column": 740,
+        "screenshot": "/tmp/pod-kamar-desktop.png"
+      },
+      "mobile": {
+        "viewport": [
+          390,
+          844
+        ],
+        "scroll_width": 390,
+        "screenshot": "/tmp/pod-kamar-mobile.png",
+        "body_screenshot": "/tmp/pod-kamar-mobile-body.png"
+      },
+      "visual_inspection": "Readable desktop/mobile, mobile menu and no clipping.",
+      "file_dimensions_verified": {
+        "/tmp/pod-kamar-desktop.png": [
+          1440,
+          1000
+        ],
+        "/tmp/pod-kamar-mobile.png": [
+          390,
+          844
+        ],
+        "/tmp/pod-kamar-mobile-body.png": [
+          390,
+          844
+        ]
+      }
+    },
+    "keyboard": {
+      "note_focus": "note-nolia-ganjam-gazetteer",
+      "exact_return_focus": "ref-iron-and-other-crafts-0-nolia-ganjam-gazetteer",
+      "further_reading_initially_collapsed": true,
+      "contents_focus": "household-furnace",
+      "further_reading_expands": true,
+      "onward_url": "http://127.0.0.1:8794/communities/kansari/",
+      "onward_title": "Kansari: learning and changing metalwork · Project Odisha"
+    },
+    "preview_save": {
+      "saved": true,
+      "persists_after_navigation": true
+    },
+    "validation_head": "7d01a078d7818d2154605e1da17f331b0da41326",
+    "download": {
+      "path": "/Users/ahimanikya/Downloads/My-Odisha-Journey-book-2026-10-23 (4).html",
+      "bytes": 90146,
+      "all_paragraphs": true,
+      "all_sources": true,
+      "feedback_screenshot": "/tmp/pod-kamar-download.png"
+    },
+    "source_order": [
+      "nolia-ganjam-gazetteer",
+      "kansari-census1961-survey1967",
+      "teli-daanla-census1961-survey1962-pub1968"
+    ],
+    "test_logs": {
+      "full": "/tmp/pod-kamar-full-tests.log",
+      "coast": "/tmp/pod-kamar-tests.log",
+      "audit": "/tmp/pod-kamar-audit.log",
+      "publication": "/tmp/pod-kamar-publication.log"
+    }
+  },
+  "coordinator_visual_check": "Disha inspected actual390x844 header/body screenshots; readable with no clipping. Samanta actual browser evidence retained."
+}

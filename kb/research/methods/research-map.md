@@ -943,3 +943,7 @@ Reuse `communities/dhoba.json`, `communities/dhoba.md` and `sources/dhoba-resear
 ## Patara regional history · 23 October 2026
 
 Reuse `communities/patara.json`, `communities/patara.md` and `sources/patara-research.json`. Bhadrak43 yarn trade and implement worship; Thurston1909 printed177 offices and products; Mohapatra2017 Bijaya Dori; Baral2026 Patara Bisoi Gamha Purnima craft. Named services do not represent all households; no surname inference or founding event established. NCBC scan unread and excluded; Ganjam101 redundant corroboration. No verified media rights.
+
+## Kamar regional history · 23 October 2026
+
+Reuse `communities/kamar.json`, `communities/kamar.md` and `sources/kamar-research.json`. Ganjam93 craft grouping; Census crafts1962 fieldwork/published1967 Penthabahal household smelting and attributed Umarkot closure causes; Daanla1962/published1968 tool repair, per-pair-of-bullocks grain payment and markets. No universal aliases or identity from metalworking. No founding event established, no media rights verified.
