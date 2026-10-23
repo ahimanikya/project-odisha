@@ -247,7 +247,41 @@ def library_index(data, directory=ROOT):
     chapters=''.join(f'<section class="chapter" id="chapter-{esc(ch["id"])}"><h2>{esc(ch["label"])}</h2><p>{esc(ch["description"])}</p>{"".join(by_id[ident] for ident in ch["entry_ids"])}</section>' for ch in design['shelves'])
     contents=''.join(f'<li><a href="#chapter-{esc(ch["id"])}">{esc(ch["label"])} <span>· {len(ch["entry_ids"])} sayings</span></a></li>' for ch in design['shelves'])
     script="""(() => {const q=document.querySelector('#search'),rows=[...document.querySelectorAll('.index-row')];const norm=s=>s.normalize('NFC').toLocaleLowerCase();function filter(){const words=norm(q.value).trim().split(/\\s+/).filter(Boolean);let n=0;rows.forEach(r=>{r.hidden=!(words.every(w=>norm(r.textContent).includes(w)));if(!r.hidden)n++});document.querySelectorAll('.chapter').forEach(ch=>ch.hidden=![...ch.querySelectorAll('.index-row')].some(r=>!r.hidden));document.querySelector('#result-count').textContent=n+' of '+rows.length+' sayings';document.querySelector('#empty').hidden=!!n}if(q){q.addEventListener('input',filter);document.querySelector('#filters').hidden=false;filter();}})();"""
-    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(data["title"])}</title><style>{CSS} .book-title{{font-family:Odia,serif;font-size:clamp(2.3rem,6vw,4.8rem);line-height:1.5;letter-spacing:0}}#filters{{grid-template-columns:1fr;max-width:760px;margin:2rem auto}}.english-title{{display:block;font-family:Reading,Georgia,serif;font-size:.72em;line-height:1.3;margin-top:.15em}}.book-intro{{max-width:760px;margin:2rem auto}}.index-row{{border-top:1px solid var(--line);padding:1.5rem 0;max-width:760px;margin:auto}}.index-row h2{{font:600 1.35rem/1.9 Odia,serif}}.index-row p{{margin:.7rem 0}}@media print{{.index-row[hidden],.chapter[hidden]{{display:block!important}}.index-row{{break-inside:avoid}}}}</style></head><body><a class="skip" href="#collection">Skip to sayings</a><header><p class="eyebrow">Project Odisha · A book of Odia sayings</p><h1 class="book-title"><span lang="or">ଓଡ଼ିଆ ଢଗଢମାଳି</span><span class="english-title" lang="en">Odia Sayings and Proverbs</span></h1><p class="subtitle">Words carried through everyday life · {len(rows)} sayings in Odia and English</p><p>By Ahimanikya Satapathy</p><nav class="header-links"><a href="reader.html">Start reading →</a><a href="odia-dhaga-book.pdf" download>Download the printable book</a></nav></header><main><section class="book-intro">{introduction}</section><nav aria-label="Book contents"><h2>Contents</h2><ol>{contents}</ol></nav><div id="filters" class="filters tools" hidden><div><label for="search">Find a saying</label><input id="search" type="search" placeholder="Search in Odia or English" aria-label="Find a saying in Odia or English"></div></div><p id="result-count" role="status">{len(rows)} sayings</p><p id="empty" hidden>No sayings match. Try another word, or empty the search box.</p><noscript>All sayings remain available below. Open each reading for its sources.</noscript><div id="collection">{chapters}</div></main><footer><nav aria-label="Book resources"><a href="https://projectodisha.org/about/editorial-process/">Our editorial process</a> · <a href="source127.html">Source concordance</a> · <a href="README.md">Research guide</a></nav><details><summary>Sources &amp; rights</summary><p>{esc(data.get("license",""))}</p><p>Original commentary and illustrations: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA4.0</a>. Source-specific rights, including three brief SCERT quotations, remain distinct. Each saying links its own witnesses.</p></details></footer><script>{script}</script></body></html>'''
+    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(data["title"])}</title><style>{CSS} .book-title{{font-family:Odia,serif;font-size:clamp(2.3rem,6vw,4.8rem);line-height:1.5;letter-spacing:0}}#filters{{grid-template-columns:1fr;max-width:760px;margin:2rem auto}}.english-title{{display:block;font-family:Reading,Georgia,serif;font-size:.72em;line-height:1.3;margin-top:.15em}}.book-intro{{max-width:760px;margin:2rem auto}}.index-row{{border-top:1px solid var(--line);padding:1.5rem 0;max-width:760px;margin:auto}}.index-row h2{{font:600 1.35rem/1.9 Odia,serif}}.index-row p{{margin:.7rem 0}}@media print{{.index-row[hidden],.chapter[hidden]{{display:block!important}}.index-row{{break-inside:avoid}}}}</style></head><body><a class="skip" href="#collection">Skip to sayings</a><header><p class="eyebrow">Project Odisha · A book of Odia sayings</p><h1 class="book-title"><span lang="or">ଓଡ଼ିଆ ଢଗଢମାଳି</span><span class="english-title" lang="en">Odia Sayings and Proverbs</span></h1><p class="subtitle">Words carried through everyday life · {len(rows)} sayings in Odia and English</p><p>By Ahimanikya Satapathy</p><nav class="header-links"><a href="reader.html">Start reading →</a><a href="odia-dhaga-book.pdf" download>Download the printable book</a></nav></header><main><section class="book-intro">{introduction}</section><nav aria-label="Book contents"><h2>Contents</h2><ol>{contents}</ol></nav><div id="filters" class="filters tools" hidden><div><label for="search">Find a saying</label><input id="search" type="search" placeholder="Search in Odia or English" aria-label="Find a saying in Odia or English"></div></div><p id="result-count" role="status">{len(rows)} sayings</p><p id="empty" hidden>No sayings match. Try another word, or empty the search box.</p><noscript>All sayings remain available below. Open each reading for its sources.</noscript><div id="collection">{chapters}</div></main><footer><nav aria-label="Book resources"><a href="https://projectodisha.org/about/editorial-process/">Our editorial process</a> · <a href="source127.html">Source concordance</a> · <a href="README.md">Research guide</a></nav><details><summary>Sources &amp; rights</summary><p>{esc(data.get("license",""))}</p><p><a href="https://creativecommons.org/licenses/by-sa/4.0/">Read the CC BY-SA4.0 licence</a>. Each saying links its own witnesses.</p></details></footer><script>{script}</script></body></html>'''
+
+def reading_caption(text):
+    # Credits are collected at the end; retain the image's explanatory/uncertainty text.
+    text=re.sub(r'\s*Original illustration for Project Odisha\s*·\s*CC BY-SA\s*4\.0\.?', '', text)
+    text=re.sub(r'\s*CC BY-SA\s*4\.0\.?', '', text)
+    text=text.replace(' by Project Odisha,;', ';').replace(' by Project Odisha,', '').replace(' for Project Odisha, approved by the Founder;', ';').replace(' for Project Odisha;', ';')
+    return text.strip()
+
+def consolidate_entry_sources(page, entry):
+    # Move existing bibliography plus passage-specific details into one source area.
+    page=re.sub(r'<details><summary>Witnesses, variants &amp; limits</summary>.*?</details>', '', page, count=1, flags=re.S)
+    def public_note(text):
+        return esc(text.replace('Meanings here are original editorial interpretations with human Odia proofreading still pending.', 'The interpretation remains provisional.').replace('AI visual reading','Provisional visual reading').replace('reviewed by a separate AI reviewer; human Odia proofreading remains pending','with human Odia proofreading still pending').replace('Meanings here are original editorial interpretations with human Odia proofreading still pending.', 'The interpretation remains provisional.'))
+    for sid in dict.fromkeys(x['source_id'] for x in entry['witnesses']+entry.get('variants',[]) if x.get('source_id')):
+        additions=[]
+        for w in entry['witnesses']:
+            if w['source_id']!=sid: continue
+            additions.append('<p><strong>Passage:</strong> '+esc(w['locator'])+'</p>')
+            if w.get('wording'):additions.append('<p class="odia" lang="or">'+esc(w['wording'])+'</p>')
+            if w.get('note'):additions.append('<p class="note">'+public_note(w['note'])+'</p>')
+        for v in entry.get('variants',[]):
+            if v.get('source_id')!=sid: continue
+            additions.append('<p><strong>Recorded variant:</strong> <span class="odia" lang="or">'+esc(v['odia'])+'</span></p><p>'+public_note(v['note'])+'</p>')
+            if v.get('locator'):additions.append('<p>'+esc(v['locator'])+'</p>')
+        pattern=r'(<section class="source" id="source-'+re.escape(sid)+r'">.*?</h3>)'
+        page=re.sub(pattern,lambda m:m.group(1)+''.join(additions),page,count=1,flags=re.S)
+    if entry.get('graphic'):
+        page=page.replace(esc(entry['graphic']['caption']),esc(reading_caption(entry['graphic']['caption'])))
+    page=page.replace('Offline typefaces: Noto Serif Oriya and Source Serif 4, SIL Open Font License. Licences are included in assets/.','')
+    extra='<h3>Origins and uncertainty</h3><p>'+public_note(entry['origin_note'])+'</p><h3>Entry reuse</h3><p>'+esc(entry['rights_note'])+'</p><p>Original commentary and illustrations: Project Odisha · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Fonts: Noto Serif Oriya and Source Serif 4, SIL Open Font License.</p>'
+    for v in entry.get('variants',[]):
+        if not v.get('source_id'):extra+='<p class="odia" lang="or">'+esc(v['odia'])+'</p><p>'+public_note(v['note'])+'</p>'
+    page=page.replace('<section id="sources"><h2>Sources &amp; rights</h2>','<section id="sources"><h2>Sources &amp; rights</h2>'+extra)
+    return page
 
 def build_library(directory=ROOT):
     directory=Path(directory);data=load_library(directory)
@@ -256,7 +290,7 @@ def build_library(directory=ROOT):
     dest=directory/'sayings';dest.mkdir(exist_ok=True)
     for i,e in enumerate(data['entries']):
         one={**data,'entries':[e]}
-        page=render(one)
+        page=consolidate_entry_sources(render(one),e)
         page=re.sub(r'<script>.*?</script>','',page,flags=re.S)
         page=re.sub(r'<section id="shelves".*?</section>','',page,flags=re.S)
         page=re.sub(r'<section class="tools".*?</section>','',page,flags=re.S)
