@@ -55,8 +55,13 @@ class RepositoryTests(unittest.TestCase):
         for url in ['javascript:alert(1)','//example.org','file:///etc/passwd']:
             d=fixture();d['sources'][0]['url']=url
             with self.assertRaises(ValueError):validate(d)
-        d=fixture();d['entries'][0]['graphic']={'src':'../secret.svg','alt':'alt','caption':'caption'}
-        with self.assertRaises(ValueError):validate(d)
+        for path in ['../secret.svg','assets/../secret.png','assets/%2e%2e/secret.png','https://example.org/a.png','assets/x.png?query=1']:
+            d=fixture();d['entries'][0]['graphic']={'src':path,'alt':'alt','caption':'caption'}
+            with self.assertRaises(ValueError):validate(d)
+        for path in ['assets/lemon-moderation.svg','assets/lemon-heritage-v1.png']:
+            d=fixture();d['entries'][0]['graphic']={'src':path,'alt':'alt','caption':'caption'}
+            validate(d)
+            self.assertIn('src="'+path+'"',render(d))
     def test_offline_resources_and_no_network_calls(self):
         out=render(fixture());p=Document();p.feed(out)
         self.assertEqual(p.resources,[])

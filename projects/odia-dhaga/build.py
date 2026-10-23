@@ -58,8 +58,8 @@ def validate(data):
         if entry.get('graphic'):
             graphic = entry['graphic']
             required(graphic, ['src', 'alt', 'caption'], 'graphic')
-            if not re.fullmatch(r'assets/[a-z0-9-]+\.svg', graphic['src']):
-                raise ValueError('graphic must be a local assets SVG')
+            if not re.fullmatch(r'assets/[a-z0-9-]+\.(?:svg|png)', graphic['src']):
+                raise ValueError('graphic must be a local assets SVG or PNG')
     return data
 
 CSS = """
@@ -154,7 +154,7 @@ def render(data):
 <body><a class="skip" href="#collection">Skip to sayings</a>
 <header><p class="eyebrow">Project Odisha · A living research collection</p><h1>{esc(data['title'])}</h1>
 <p class="subtitle">{esc(data['subtitle'])}</p><p class="scope">{esc(data['scope_note'])}</p>
-<nav class="header-links" aria-label="Collection resources"><a href="#sources">Sources &amp; rights</a><a href="README.md">Research guide</a><a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 licence</a><a href="collection.json" download>Download collection JSON</a></nav>
+<nav class="header-links" aria-label="Collection resources"><a href="#sources">Sources &amp; rights</a><a href="README.md">Research guide</a><a href="coverage-ledger.json">Coverage ledger</a><a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 licence</a><a href="collection.json" download>Download collection JSON</a></nav>
 {f'<p class="scope">{esc(data["editorial_note"])}</p>' if data.get('editorial_note') else ''}
 {f'<p class="note"><strong>Collection licence:</strong> {esc(data["license"])}</p>' if data.get('license') else ''}
 <p class="meta">Checked {esc(data['checked_on'])} · {len(cards)} documented entries</p></header>
