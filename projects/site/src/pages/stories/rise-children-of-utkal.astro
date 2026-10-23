@@ -1,0 +1,14 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import ArticleByline from '../../components/ArticleByline.astro';
+import OdiaConnectedReading from '../../components/OdiaConnectedReading.astro';
+import '../../styles/article-reading.css';
+import {Content, frontmatter} from '../../../../../kb/research/culture/rise-children-of-utkal.md';
+---
+<Shell title={frontmatter.title} description={frontmatter.description} active="explore" wide related={false}>
+<article class="article-reading"><header><h1>{frontmatter.title}</h1><ArticleByline author="Ahimanikya Satapathy"/></header>
+<Content/>
+<OdiaConnectedReading current="rise-children-of-utkal"/>
+<p><a href="/contribute/?page=%2Fstories%2Frise-children-of-utkal%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
+</article></Shell>
+<style>article :global(img){max-width:100%;height:auto}article :global(.footnotes h2){position:static;width:auto;height:auto;clip:auto;clip-path:none;overflow:visible;white-space:normal}article :global(.footnotes){margin-top:3rem}</style>
