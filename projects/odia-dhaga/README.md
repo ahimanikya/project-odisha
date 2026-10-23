@@ -101,3 +101,10 @@ Historical targeted inspection continues at PDF10; full transcription remains at
 The early witness notes in048–050 retain the research-stage review-pending wording. Their final editorial status and later separate AI review supersede that stage; human proofreading remains pending. Original research evidence is preserved without retrospective alteration.
 
 Entries092–108 add17 independently AI-reviewed records beyond the canonical91: two preserved local additions and15 newly verified pending-position expressions. All127positions have an explicit evidence disposition;86remain unresolved. The larger source pass has no two-entry cap. Human proofreading remains pending. See evidence/dhaga-bulk-review.json and evidence/dhaga-bulk-127-audit.json.
+
+
+## Book source files and building
+
+Edit one saying in `entries/POD-DHAGA-NNN.json`. These108 individual files are the narrative source, including each bilingual summary and optional illustration. Edit `collection-metadata.json` for sources, collection rights and the bilingual book introduction. `research-design.json` supplies the complete thematic chapter map. The original bilingual-summary research file is provenance only; the build reads the summaries from each entry.
+
+Run `python3 build.py` in this folder. It reads the entry folder by default and regenerates `collection.json` (derived compatibility/export data; do not edit), `index.html` (bilingual contents article), `reader.html` (stable hash entry point) and `sayings/POD-DHAGA-NNN.html` (one complete saying per static page). All reading pages and previous/next navigation work without JavaScript; index search needs JavaScript. Print the contents article for every bilingual short reading, or an individual page for its full reading and sources. Run `python3 -m unittest test_repository test_source_inventory` to check the source folder, generated pages, navigation, rights references and offline assets. No source facsimiles are bundled.

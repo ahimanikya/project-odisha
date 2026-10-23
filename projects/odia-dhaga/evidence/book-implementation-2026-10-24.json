@@ -1,0 +1,69 @@
+{
+  "checked_at": "2026-10-23T22:54:56.785796+00:00",
+  "input_head": "0f236b29b2166b7b68512af7e397dc3a9073e11c",
+  "staging": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/odia-dhaga-library-design",
+  "result": "implementation complete; separate review pending",
+  "entry_count": 108,
+  "architecture": [
+    "entries/ID.json authoritative individual records; new bilingual summaries stored with each entry",
+    "collection-metadata.json sources/rights and bilingual introduction",
+    "research-design.json eight editorial chapter routes",
+    "index.html bilingual contents/chapter article with all108 brief narratives and links",
+    "sayings/ID.html108 static single-saying pages with previous/next, relevant source subset and offline reading",
+    "reader.html#ID compatible entry point; collection.json generated export"
+  ],
+  "files_for_integration": [
+    "build.py",
+    "test_repository.py",
+    "README.md",
+    "entries/*.json",
+    "collection-metadata.json",
+    "research-design.json",
+    "collection.json",
+    "index.html",
+    "reader.html",
+    "sayings/*.html",
+    "bilingual-summaries.json (research provenance only)",
+    "illustration-provenance-book.json",
+    "assets/new four artwork files listed below"
+  ],
+  "new_art": {
+    "POD-DHAGA-007": "assets/thunder-no-rain-line-v1.png",
+    "POD-DHAGA-081": "assets/winter-tiger-heritage-v1.png",
+    "POD-DHAGA-104": "assets/one-hand-clap-line-v1.png",
+    "POD-DHAGA-106": "assets/sky-flower-heritage-v1.png"
+  },
+  "tests": [
+    "17 tests pass:13existing+4folder/parity/singlepage/navigation/source-subset/defaultCLI checks",
+    "All108 original narrative fields preserved except root-authorized4graphic changes; summaries added separately",
+    "Default python3 build.py generates deterministically from entriesfolder",
+    "Browser desktop1440x1000:108rows/8chapters/nooverflow",
+    "Browser mobile390x844:one reading card/nooverflow;104newimage loaded",
+    "Actual Odia search one result, theme Time & seasons13, empty state and reset108",
+    "reader.html#POD-DHAGA-104 redirects correct page; keyboardEnter Next opens105"
+  ],
+  "screenshots": [
+    "/tmp/dhaga-book-desktop.png",
+    "/tmp/dhaga-book-mobile.png"
+  ],
+  "hashes": {
+    "build.py": "356d8e4b9470ef60118b3c6dc43dd25a0d6c881310e40c932abb0d34a171d8f6",
+    "test_repository.py": "19f434b83f81dd608232d04fa878276ad810756d436efb5cb723f4aedb707473",
+    "collection.json": "10a53f41fb657e0e10c6db87e258c6e0624034198f503cf0568615feb12ab0c8",
+    "collection-metadata.json": "5c7636d3074fe08bd2091b04996e129d18ce197a9a61f58f16903a8ba6a4c819",
+    "index.html": "21666516026f5f683e68c2c3467a1a9f17a2dac8455b294a432acd8ce82b1b44",
+    "reader.html": "6834fc510eb62cc955c62c7510d3060c1392986bc195c25639e7219e51a7ca18",
+    "research-design.json": "596b42a67f5830b635f1eb43268721640bf5917678bed919b255e4fadc1b5796",
+    "README.md": "9e815098785d02210b60b7e0402906b68eab9e9b3a11a4f8286828adf6b2fb73"
+  },
+  "limits": [
+    "No canonical/shared/Git edits or deployment.",
+    "No-JavaScript behavior verified structurally by static pages and links; browser JavaScript-disable mode not exercised.",
+    "Print styles include all108short readings even when filtered; actual print dialog not exercised.",
+    "Initial draft had12pagination, superseded by user instruction; final book uses one static full card perpage.",
+    "Python3.9 f-string quoting failures during implementation fixed; final17tests pass.",
+    "file:// browser preview denied; scoped localhost HTTP server approved and used.",
+    "Production labels retained internally; rendered routine editorial status omitted, provisional reading uncertainty preserved."
+  ],
+  "final_polish": "Visible index labels use Saying NN, preserving stable POD IDs in anchors/files."
+}
