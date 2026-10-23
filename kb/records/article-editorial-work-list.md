@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 480. completed: 84, excluded: 76, in_progress: 1, queued: 319.
+Route inventory: 481. completed: 85, excluded: 76, in_progress: 1, queued: 319.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -404,7 +404,7 @@ Route inventory: 480. completed: 84, excluded: 76, in_progress: 1, queued: 319.
 | POD-EDIT-388 | [Chaiti Ghoda: a horse carried by song](https://projectodisha.org/stories/chaiti-ghoda/) | queued | classification_pending |
 | POD-EDIT-389 | [Danda Nata: listening beyond the stage](https://projectodisha.org/stories/danda-nata/) | queued | classification_pending |
 | POD-EDIT-390 | [Odia Poetry Jhula](https://projectodisha.org/odia-poetry-jhula/) | queued | classification_pending |
-| POD-EDIT-391 | [Prahallad Nataka: the king, the child and the work of keeping a theatre alive](https://projectodisha.org/stories/prahlada-nataka/) | in_progress | Reviewed research expansion, image and editorial presentation |
+| POD-EDIT-391 | [Prahallad Nataka: the king, the child and the work of keeping a theatre alive](https://projectodisha.org/stories/prahlada-nataka/) | completed | Reviewed research expansion, image and editorial presentation |
 | POD-EDIT-392 | [Dhuduki: a string beneath the story](https://projectodisha.org/stories/dhuduki/) | queued | classification_pending |
 | POD-EDIT-393 | [Odissi music: follow the singer](https://projectodisha.org/stories/odissi-music/) | queued | classification_pending |
 | POD-EDIT-394 | [Our editorial process](https://projectodisha.org/about/editorial-process/) | excluded | process_page |
@@ -494,3 +494,4 @@ Route inventory: 480. completed: 84, excluded: 76, in_progress: 1, queued: 319.
 | POD-EDIT-478 | [Sunari regional community history](https://projectodisha.org/communities/sunari/) | completed | Regional Sunari history through ornament work, family learning and changing markets. No definitive origin claim. |
 | POD-EDIT-479 | [Rise, Children of Utkal — ଉଠରେ ଉଠରେ ଉତ୍କଳ ସନ୍ତାନ](https://projectodisha.org/stories/rise-children-of-utkal/) | queued | Founder-directed companion essay; reviewed candidate awaiting verified publication receipt. |
 | POD-EDIT-480 | [A Place to Learn Together — ଆସନ୍ତୁ ଏକାଠି ଶିଖିବା](https://projectodisha.org/stories/a-place-to-learn-together/) | queued | Founder-directed companion essay; reviewed candidate awaiting verified publication receipt. |
+| POD-EDIT-481 | [Ashta Nayika: eight situations, many ways to tell a love story](https://projectodisha.org/stories/ashta-nayika/) | in_progress | Reviewed standalone illustrated research article |

@@ -112,14 +112,12 @@ Follow the original episodes for Soumya’s terminology, examples and qualificat
 [^ig-DO7uGGuiOmc]: Soumya Biswajit / Odissi & Beyond, [Vasakasajja stanza qualification](https://www.instagram.com/odissiandbeyond/reel/DO7uGGuiOmc/). Original caption inspected 23 October 2026; source-specific qualification, not a complete performance analysis.
 [^ig-DPBtrgGk-2N]: Soumya Biswajit / Odissi & Beyond, [Svadhinabhartrika example](https://www.instagram.com/odissiandbeyond/reel/DPBtrgGk-2N/). Original caption inspected 23 October 2026; the creator’s association is preserved without independently mapping the complete song or choreography.
 
-<details>
-<summary>Further reading</summary>
+## Further reading
 
 - [Odissi abhinaya: following a lyric into performance](odissi-abhinaya.md)
 - [Odissi](odissi.md)
 - [Odisha’s theatre traditions](odisha-theatre-traditions.md)
 
-</details>
 
 **[Suggest an update](https://projectodisha.org/contribute/?page=kb%2Fresearch%2Fculture%2Fashta-nayika.md):** send a precise passage, text edition or credited programme. A teacher’s explanation should retain the teacher’s name, the work discussed and permission to quote. GitHub submissions are public; omit private contact details and consent documents.
 
