@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `618b8aa602626380ba148c5f9b063d152e99ae40c0092cf686ac4db9b5c5ec4d`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `7f2ea3da7533963e027b9a3affdcb9201f8bc66e2534b82cba98351d47de3243`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -347,6 +347,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-320 · Research and publish Patara community history | completed | published | Ahimanikya Satapathy | Retain ownership through receipt merge before another article. | — |
 | POD-WORK-321 · Research and publish Kamar community history | completed | published | Ahimanikya Satapathy | Retain ownership through receipt merge before another article. | — |
 | POD-WORK-322 · Research and publish Sunari community history | completed | published | Ahimanikya Satapathy | Retain ownership through receipt merge before another article. | — |
+| POD-WORK-2026102391 · Prahallad Nataka research, comparative theatre guide and article | completed | reviewed | Ahimanikya Satapathy | Read local feature and guide; unresolved scholarly and practitioner questions remain in the dossier. Website publication is not part of this delivery. | — |
+| POD-WORK-2026102392 · Nayika articles and Odissi & Beyond concept survey | in_progress | reviewed | Ahimanikya Satapathy | Local articles delivered; reconcile five-post count gap and inspect complete media before claiming exhaustive archive review. | — |
 
 ## Pending human review and decisions
 
@@ -653,6 +655,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-2026101902 · Align current project code with Project Odisha | recorded_direction | Ahimanikya Satapathy | Change the current project code and migrate existing IDs, as requested by the Founder. POD is the coordinator-selected abbreviation; preserve suffixes, original evidence and exact old-to-new lookup aliases. No other project, permission or website domain changes. |
 | POD-DEC-2026101903 · Apply Odisha project-family names and codes | recorded_direction | Ahimanikya Satapathy | Apply Odisha Blueprint/ODB, Odisha Collective/ODC, Odisha Unbound/ODU and Odisha Store/ODS consistently, migrating IDs with exact aliases and preserved original evidence. No launch, access, membership, spending or adoption changes. |
 | POD-DEC-2026102209 · Research and publish constructive Odia cultural identity essay | recorded_direction | Ahimanikya Satapathy | Positive cultural celebration, contextual names and practical transmission; existing site publication through review and CI. |
+| POD-DEC-2026102391 · Research Prahallad Nataka and other Odisha theatre forms | recorded_direction | Ahimanikya Satapathy | KB update and article draft; no new public release requested. |
+| POD-DEC-2026102392 · Research Odissi & Beyond themes and Nayika articles | recorded_direction | Ahimanikya Satapathy | User-directed cultural research and KB articles; signed-in Chrome authorized in follow-up. |
 
 ## Reviews
 
@@ -1294,16 +1298,16 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261023002 | 2026-10-22T19:10:33.157073+00:00 | Kansari history published through reviewed PR446 and approved deployment; live checks passed. 75 editorial articles complete;122 substantive items. Claim retained through receipt merge. | — |
-| POD-EVT-20261023003 | 2026-10-22T20:14:01.390180+00:00 | Gopala history published through reviewed PR448 and approved deployment; live checks passed. 76 editorial articles complete;123 substantive items. Claim retained through receipt merge. | — |
-| POD-EVT-20261023004 | 2026-10-22T21:15:55.439826+00:00 | Chitrakara history published through reviewed PR450 and approved deployment; live checks passed. 77 editorial articles complete;124 substantive items. Claim retained through receipt merge. | — |
-| POD-EVT-20261023005 | 2026-10-22T22:20:34.690372+00:00 | Teli history published through reviewed PR452 and approved deployment; live checks passed. 78 editorial articles complete;125 substantive items. Claim retained through receipt merge. | — |
-| POD-EVT-20261023006 | 2026-10-22T23:20:49.523941+00:00 | Bhandari history published through reviewed PR454 and approved deployment; live checks passed. 79 editorial articles complete;126 substantive items. Claim retained through receipt merge. | — |
-| POD-EVT-20261023007 | 2026-10-23T00:31:08.679888+00:00 | Mali history published through reviewed PR456 and approved deployment; live checks passed. 80 editorial articles complete;127 substantive items. Claim retained through receipt merge. | — |
-| POD-EVT-20261023008 | 2026-10-23T03:41:56.684183+00:00 | Dhoba history published through reviewed PR458 and approved deployment; live checks passed. 81 editorial articles complete;128 substantive items. Claim retained through receipt merge. | — |
-| POD-EVT-20261023009 | 2026-10-23T04:08:54.690630+00:00 | Patara history published through reviewed PR460 and approved deployment; live checks passed. 82 editorial articles complete;129 substantive items. Claim retained through receipt merge. | — |
-| POD-EVT-20261023010 | 2026-10-23T05:04:22.397000+00:00 | Kamar history published through reviewed PR462 and approved deployment; live checks passed. 83 editorial articles complete;130 substantive items. Claim retained through receipt merge. | — |
-| POD-EVT-20261023011 | 2026-10-23T16:52:36.123525+00:00 | Sunari history published through reviewed PR467 and approved deployment; live checks passed.84editorial articles and131substantive items complete. Claim retained through receipt merge. | — |
+| POD-EVT-2026102402 | 2026-10-23T06:56:46.566977+00:00 | Standalone illustrated Sakhi Nata/Sakhi Pila article adds responsive performance, named Ganjam repertoire, theatre history and film candidate with unresolved identity/credit limits. Gotipua onward link and comparison updated. Anvesha research, Drishti independent review and Samanta image/HTML checks completed; no publication or full browser QA claimed. | — |
+| POD-EVT-2026102403 | 2026-10-23T07:05:07.185534+00:00 | Illustrated standalone tala article verifies Adatali/Aditala distinction and documents three fourteen-matra groupings in Sabda Swara Pallavi; linked Mardala and updated KB. Independent factual review and structural/image checks performed; source-derived text shortened. No publication or audiovisual review claimed. | — |
+| POD-EVT-2026102404 | 2026-10-23T16:51:48.465647+00:00 | Standalone Balakati craft article adds named workshop/family, dated brass process and order relationships with original diagram; linked ghanta/ghanti and updated KB. Anvesha research, Drishti independent review and Samanta visual/structural checks passed. Specific manjira making and full browser QA remain open; no publication. | — |
+| POD-EVT-2026102405 | 2026-10-23T17:07:08.016870+00:00 | Standalone illustrated Sahi Jatra article adds neighbourhood institutions, dated character associations and bibliographic Suchitra1972lead. Anvesha research, Drishti independent review and Samanta photograph/HTML checks passed; KB comparison/map updated. No universal repertoire, current timetable, publication or full browser QA claimed. | — |
+| POD-EVT-2026102406 | 2026-10-23T17:29:08.282698+00:00 | Standalone illustrated Abana Rasataranga reading distinguishes independent vowels, dependent vowel signs and conjuncts; documents opening and apparent stanza 7 exception. Research, independent review and image/structural checks passed; KB links updated. Whole-work rule requires printed-edition collation; no publication or full browser QA claimed. | — |
+| POD-EVT-2026102407 | 2026-10-23T17:43:56.265182+00:00 | Enhanced existing illustrated Alankara article with OVA Subhadra Parinaya first chhanda 15–18. Anvesha recovered caption premise, Disha retrieved text, Drishti verified passage and Samanta checked preview/image. KB gaps updated; print-edition identity and full reel explanations remain open. No new article count or publication. | — |
+| POD-EVT-2026102408 | 2026-10-23T17:48:58.935230+00:00 | Enhanced existing illustrated bhanita article with verified Subhadra Parinaya first-chhanda self-references in stanzas 10 and 66. Anvesha caption research, Drishti independent text review and Samanta image/preview checks completed. Unidentified reel example remains open; no publication or additional article count. | — |
+| POD-EVT-2026102409 | 2026-10-23T18:03:04.908091+00:00 | Resolved Jhula notation example, verified FilmsDivision productioncredits, recoveredAbana digitalreader, matched bhanita displayedverse, fixed3previewtableaccessibilityissues. Independent boundedreviews and all12structuralchecks pass. Printedwitnesses,fullfilm/audio and browservisualreview remainopen; receipt evidence-gap-review-2026-10-23.json. Unpublished. | — |
+| POD-EVT-2026102410 | 2026-10-23T18:13:47.887363+00:00 | Recovered primaryarchive-linked Abana/SridharRao and1939Subhadraprintedscans; correctedAbana digitalcounterexample framing, verified signatureplacements andrupaka variant, addedboundedrecordinguploadercredits. Anvesharesearch/Drishtiindependentreview/Samantapreviewchecks passed. Filmcertificate/audio/browserlayoutlimits retained; unpublished. | — |
+| POD-EVT-2026102411 | 2026-10-23T18:18:42.271663+00:00 | Three separate workers visually screened complete runningverse PDF2–112 in SridharRao witness; cover1 andadvertisement113 distinguished. No clear dependent-vowel exception found; notcharacter-perfect transcription or humanreview. AddedWikisource/printcomparisontable, updatedKB, all12previewchecks pass. Othermedia/browseraccesslimitsremain; unpublished. | — |
 
 ## Deferred extensions
 

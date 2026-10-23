@@ -1,0 +1,25 @@
+---
+import ArticleByline from './ArticleByline.astro';
+import ResearchContents from './ResearchContents.astro';
+import '../styles/article-reading.css';
+interface Props { article: { title:string; author:string; html:string; headings:Array<{title:string;href:string}> }; }
+const {article}=Astro.props;
+---
+<article class="article-reading reviewed-culture">
+  <slot name="intro"/>
+  <h1>{article.title}</h1>
+  <ArticleByline author={article.author}/>
+  <ResearchContents items={[...article.headings.filter(h=>h.title!=='Further reading'),{title:'Footnotes & Sources',href:'#footnote-label'}]} label="In this article"/>
+  <div set:html={article.html}/>
+  <slot/>
+</article>
+<style>
+.reviewed-culture{max-width:804px;padding-inline:32px}
+.reviewed-culture :global(figure img){max-height:85vh;width:auto;max-width:100%;margin-inline:auto}
+.reviewed-culture :global(.article-footnotes h2){position:static;width:auto;height:auto;clip:auto;clip-path:none;overflow:visible;white-space:normal}
+.reviewed-culture :global(.article-table){overflow-x:auto;margin:1.5rem 0}
+.reviewed-culture :global(.article-table:focus-visible){outline:2px solid var(--earth);outline-offset:4px}
+.reviewed-culture :global(table){border-collapse:collapse;width:100%;font-size:.95rem}
+.reviewed-culture :global(th),.reviewed-culture :global(td){padding:.6rem;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+@media(max-width:600px){.reviewed-culture{padding-inline:22px}.reviewed-culture :global(table){min-width:580px}}
+</style>

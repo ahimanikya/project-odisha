@@ -3,14 +3,25 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 const read=p=>readFileSync(new URL(p,import.meta.url),'utf8');
 const story=JSON.parse(read('../../../kb/research/culture/prahlada-nataka-website.json'));
+import {renderReviewedCultureArticle} from '../src/lib/reviewed-culture-article.mjs';
+const canonical=read('../../../kb/research/culture/prahallad-nataka.md');
+const reviewed=renderReviewedCultureArticle(canonical,{sourcePath:'kb/research/culture/prahallad-nataka.md',route:'/stories/prahlada-nataka/'});
+const plain=s=>s.replace(/<[^>]*>/g,'').replace(/\s+/g,' ').trim();
 const dossier=JSON.parse(read('../../../kb/research/sources/prahlada-nataka-research.json'));
 const html=read('../dist-coast/stories/prahlada-nataka/index.html');
 const escape=s=>s.replaceAll('&','&amp;').replaceAll("'",'&#39;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;');
 test('Prahlada Nataka publishes its canonical narrative and scoped source trail',()=>{
- assert.equal(story.canonical_kb_narrative,true);
- for(const b of story.blocks){for(const p of b.paragraphs)assert.ok(html.includes(escape(p)));for(const id of b.source_ids)assert.ok(story.sources.some(s=>s.id===id));}
- for(const s of story.sources){assert.ok(html.includes(escape(s.resource)));assert.ok(html.includes(escape(s.locator)));assert.ok(dossier.sources.some(d=>d.id===s.id&&d.resource===s.resource));}
- for(const phrase of ['around 1860','approximately 1880','We retain that difference','no score, lyrics or recording'])assert.ok(html.includes(phrase));
+ assert.ok(html.includes(reviewed.title));
+ const paragraphs=[...reviewed.html.matchAll(/<p>([\s\S]*?)<\/p>/g)];
+ assert.equal(paragraphs.length,34);
+ assert.equal(story.canonical_kb_narrative,false);
+ assert.equal(story.narrative_superseded_by,'culture/prahallad-nataka.md');
+ for(const [,p] of paragraphs)assert.ok(plain(html).includes(plain(p)),plain(p));
+ for(const [,id] of canonical.matchAll(/^\[\^([^\]]+)\]:/gm))assert.ok(html.includes('id="user-content-fn-'+id.toLowerCase()+'"'));
+ assert.match(html, /By Ahimanikya Satapathy/);
+ assert.match(html, /<figure><img[^>]*crafts-museum.jpg/);
+ assert.match(html, /creativecommons.org\/licenses\/by\/4.0/);
+ assert.ok(html.indexOf('class="article-footnotes"')<html.indexOf('id="further-reading"'));
  assert.ok(!html.includes('<audio'));assert.ok(!html.includes('<img src="/images/sounds/'));
 });
 test('Prahlada Nataka is reachable from collection and Explore while retaining editorial hold',()=>{

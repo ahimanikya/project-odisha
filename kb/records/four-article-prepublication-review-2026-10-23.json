@@ -1,0 +1,96 @@
+{
+  "reviewed_on": "2026-10-23",
+  "scope": "Four local article drafts, pre-publication fixes requested by Founder",
+  "published": false,
+  "articles": [
+    "prahallad-nataka",
+    "ashta-nayika",
+    "odissi-abhinaya",
+    "champu-and-sakhi"
+  ],
+  "review": {
+    "Anvesha": "Sequential factual/source review; no material factual blocker; identified licensed performance photo and bibliography correction",
+    "Drishti": "Final review passed: each article exactly one figure/image/nonempty caption, source and license links, alt text, footnotes and local hrefs; corrected prose/bibliography visible. Actual photograph visually inspected. No remaining source/structural blocker.",
+    "Disha": "Integrated canonical fixes; inspected performance photo and rasterized abhinaya diagram",
+    "Samanta": "Responsive preview renderers, rebuilds and review index"
+  },
+  "fixes": [
+    "Added actual Prahallad Nataka performance image with Government of Odisha attribution and CC BY4 link",
+    "Explicit Soumya Biswajit inspiration acknowledgement in Prahallad",
+    "Champu grammar, author spelling Pattanaik and1958 volume/1959 imprint",
+    "Named Ghosh translation consistently",
+    "Article-specific contribution links and public-submission notice",
+    "Responsive figures/captions and shared editorial-process links"
+  ],
+  "image_provenance": [
+    "research/media/prahallad/provenance.json",
+    "research/media/nayika/provenance.json"
+  ],
+  "preview": "outputs/article-review/index.html",
+  "visual_limits": "All four assets visually inspected across root and Drishti. Full HTML browser layout not visually verified: existing local-file browser policy denial; no workaround attempted. Codex file preview open queued.",
+  "checks": [
+    "check_bundle PASS",
+    "research map PASS",
+    "registers PASS",
+    "git diff --check PASS",
+    "original preview and review-index structure PASS",
+    "all4 article image assets visually inspected"
+  ],
+  "status": "local_review_fixes_complete_browser_layout_unverified",
+  "substantive_second_pass": {
+    "status": "completed_local",
+    "date": "2026-10-23",
+    "added": {
+      "prahallad-nataka": "Historical child-role training pathway, source Emigh PDF49",
+      "ashta-nayika": "Role/temperament versus changing situation, NSXXXIV25\u201328",
+      "odissi-abhinaya": "Four modes of representation, NSVI22\u201323; abhinaya versus Batu/Pallavi, Srjan",
+      "champu-and-sakhi": "Specific sakhi persuasion examples, LACMA/Cleveland; credited digital text access and edition-specific alphabetic exception"
+    },
+    "limits": [
+      "Historical training evidence not current troupe survey",
+      "Digital editorial note not verified against printed edition",
+      "No full recording analysis or practitioner interview"
+    ],
+    "images": "Existing4 credited images preserved",
+    "publication": false,
+    "review": "Independent Drishti source review passed. Verse locator22\u201323 ensured; Emigh summary trimmed. Four images retained; previews rebuilt and structural checks passed. Browser visual QA limitation unchanged."
+  },
+  "placement_direction": {
+    "instruction": "Keep four independent articles in their appropriate subject sections; combined index is a review aid only, not a public collection.",
+    "publication": false,
+    "articles": [
+      {
+        "article": "prahallad-nataka",
+        "primary_section": "Theatre and performance",
+        "existing_route": "/stories/prahlada-nataka/",
+        "action": "Reconcile new research into existing article before publication; preserve its Sounds of Odisha reading path. Do not create duplicate spelling route."
+      },
+      {
+        "article": "ashta-nayika",
+        "primary_section": "Dance and expressive traditions",
+        "related_sections": [
+          "Odissi",
+          "Literature"
+        ],
+        "action": "Independent article; cross-link abhinaya and literary examples."
+      },
+      {
+        "article": "odissi-abhinaya",
+        "primary_section": "Odissi dance",
+        "related_sections": [
+          "Music and accompaniment"
+        ],
+        "action": "Independent article linked from Odissi coverage."
+      },
+      {
+        "article": "champu-and-sakhi",
+        "primary_section": "Literature",
+        "related_sections": [
+          "Odissi music",
+          "Dance interpretation"
+        ],
+        "action": "Independent article linked from existing Literature section."
+      }
+    ]
+  }
+}

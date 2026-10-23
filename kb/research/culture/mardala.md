@@ -96,3 +96,11 @@ The [source dossier](../sources/mardala-research.md) maps claims and preserves l
 ## Publication history
 
 The initial [reader article](https://projectodisha.org/sounds-of-odisha/mardala/) is public. This 17 October revision is tracked as POD-A500-109 / POD-WORK-298; count delivery only after its separate approved deployment and live receipt. No reusable recording or current class access is implied.
+
+## Continue exploring
+
+Explore [specific tala and transmission questions](rhythm-and-transmission-research-guide.md), including the distinction between Ada Tali and Aaditaala. See the [poetry, music and living traditions collection](../collections/poetry-music-and-living-traditions.md).
+
+## Specific tala reading
+
+[Odissi tala: why the grouping matters](odissi-tala-and-changing-cycles.md) compares Adatali and Aditala and follows a documented composition with three different fourteen-matra groupings. Its counting diagram complements the teaching and musician histories here.

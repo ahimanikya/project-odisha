@@ -1,5 +1,7 @@
 # Culture
 
+[Explore poetry, music and living traditions](../collections/poetry-music-and-living-traditions.md) — subjects beyond Nataka and Nayika, with existing reading and open research clearly marked.
+
 - [Bali Yatra and maritime memory](bali-yatra.md)
 - [Boita Bandana: honouring the maritime trader](boita-bandana.md)
 - [Gotipua](gotipua.md)
@@ -63,3 +65,20 @@
 [Osha, stories and seasonal food](osha-brata-seasonal-food.md) — twelve source-bounded profiles and continuing research.
 
 - [Odia Cultural Identity and Pride](odia-cultural-identity.md) — practical transmission, contextual naming and regional traditions.
+
+## Theatre research · 23 October 2026
+
+- [Prahallad Nataka: the king, the child and the work of keeping a theatre alive](prahallad-nataka.md)
+- [Odisha’s theatre traditions: comparative guide](odisha-theatre-traditions.md)
+
+## Nayika and expressive performance · 23 October 2026
+
+- [Ashta Nayika: eight situations](ashta-nayika.md)
+- [Odissi abhinaya](odissi-abhinaya.md)
+- [Odissi & Beyond post survey and article directions](../sources/odissiandbeyond-research-map.md)
+
+- [Champu and the sakhi: the friend who moves the story](champu-and-sakhi.md) — illustrated, with credit to Soumya Biswajit.
+
+[Bhanita and literary signatures](bhanita-and-poet-signatures.md) — a sourced song example and the distinction between character, poet and singer.
+
+[How sound and comparison shape Bhanja’s poetry](alankara-and-bhanja.md) — a standalone illustrated close reading; local draft, with Abana still an open question.

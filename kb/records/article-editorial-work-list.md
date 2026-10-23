@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 480. completed: 84, excluded: 76, queued: 320.
+Route inventory: 480. completed: 84, excluded: 76, in_progress: 1, queued: 319.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -404,7 +404,7 @@ Route inventory: 480. completed: 84, excluded: 76, queued: 320.
 | POD-EDIT-388 | [Chaiti Ghoda: a horse carried by song](https://projectodisha.org/stories/chaiti-ghoda/) | queued | classification_pending |
 | POD-EDIT-389 | [Danda Nata: listening beyond the stage](https://projectodisha.org/stories/danda-nata/) | queued | classification_pending |
 | POD-EDIT-390 | [Odia Poetry Jhula](https://projectodisha.org/odia-poetry-jhula/) | queued | classification_pending |
-| POD-EDIT-391 | [Prahlada Nataka: a story carried in song](https://projectodisha.org/stories/prahlada-nataka/) | queued | classification_pending |
+| POD-EDIT-391 | [Prahallad Nataka: the king, the child and the work of keeping a theatre alive](https://projectodisha.org/stories/prahlada-nataka/) | in_progress | Reviewed research expansion, image and editorial presentation |
 | POD-EDIT-392 | [Dhuduki: a string beneath the story](https://projectodisha.org/stories/dhuduki/) | queued | classification_pending |
 | POD-EDIT-393 | [Odissi music: follow the singer](https://projectodisha.org/stories/odissi-music/) | queued | classification_pending |
 | POD-EDIT-394 | [Our editorial process](https://projectodisha.org/about/editorial-process/) | excluded | process_page |

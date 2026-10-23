@@ -1,0 +1,70 @@
+{
+  "id": "POD-TASK-NAYIKA-20261023",
+  "status": "local_drafts_reviewed_archive_followup_open",
+  "scope": "User-directed research, local KB and articles; no publication",
+  "work_id": "POD-WORK-2026102392",
+  "decision_id": "POD-DEC-2026102392",
+  "human_review": false,
+  "published": false,
+  "deliverables": [
+    "culture/ashta-nayika.md",
+    "culture/odissi-abhinaya.md",
+    "sources/odissiandbeyond-research-map.md",
+    "sources/champu-and-sakhi-research.md",
+    "culture/champu-and-sakhi.md"
+  ],
+  "source_audit": "research/references/data/odissiandbeyond-post-audit-20261023.json",
+  "coverage": {
+    "profile_count": 145,
+    "caption_records": 140,
+    "full_media_review": false
+  },
+  "roles": {
+    "Disha": "Coordination, Instagram inspection, KB integration",
+    "Anvesha": "Independent classical and Champu source research",
+    "Samanta": "Sequential article drafts and reading HTML",
+    "Drishti": "Separate source and editorial review"
+  },
+  "limits": [
+    "Five-post count discrepancy unresolved",
+    "No complete audiovisual review",
+    "No practitioner interview or unread-book review"
+  ],
+  "review": "Separate AI review by Drishti complete; late caption corrections, precise Joyce credit and conflicting event times verified. No review blockers. No human practitioner or full-media review claimed.",
+  "checks": [
+    "research/validate.py PASS",
+    "research/validate_research_map.py PASS",
+    "check_bundle.py PASS",
+    "registers.py --check PASS",
+    "HTML structure and footnote targets PASS"
+  ],
+  "visual_qa": "Not performed; browser URL policy blocks local file navigation. No workaround attempted.",
+  "second_pass": {
+    "request": "Do another pass and create articles with at least one image per article; credit Soumya Biswajit and reference his work.",
+    "articles": [
+      "culture/ashta-nayika.md",
+      "culture/odissi-abhinaya.md",
+      "culture/champu-and-sakhi.md"
+    ],
+    "image_provenance": "research/media/nayika/provenance.json",
+    "research": "Primary Gita Govinda passage check; historical acting scene; named dialogue and oral transmission; no new claim of complete media viewing.",
+    "review": "Three articles independently reviewed by Drishti; terminology wording and source URL corrected, duplicated source summary shortened.",
+    "publication": false,
+    "validation": "Three local images/captions/alt, Soumya acknowledgement per article and index, source IDs, local links, footnotes and navigation PASS. Museum images visually inspected; full browser layout QA unavailable.",
+    "reading_index": "outputs/nayika-research/index.html",
+    "status": "completed_local"
+  },
+  "navigation_pass": {
+    "status": "completed_local",
+    "topics_compared": 15,
+    "collection": "research/collections/poetry-music-and-living-traditions.md",
+    "comparison": "research/references/data/odissiandbeyond-kb-comparison-20261023.json",
+    "new_research_guides": 3,
+    "existing_entries_enhanced": 3,
+    "reading_index": "outputs/culture-discovery/index.html",
+    "scope": "Navigation and evidence gaps; not three new feature articles. No publication.",
+    "review": "Anvesha compared actual KB coverage; Drishti independently reviewed navigation and evidence boundaries. Routing and collaborative attribution corrected; no blocking factual issues.",
+    "validation": "KB links, research map, registers and HTML structural checks pass. Search/filter script tested with DOM fixtures. No visual browser QA claimed.",
+    "user_clarification": "Prioritise next research topics; ranked queue added to collection and comparison record."
+  }
+}

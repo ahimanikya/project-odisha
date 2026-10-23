@@ -68,6 +68,10 @@ A story worth sharing can begin with a person’s work: a teacher’s explanatio
 
 [Research dossier](../sources/gotipua-learning-research.json). KB reader draft only; no website release, field encounter, audio playback, image rights or independent human review claimed.
 
+## Related reading on Sakhi Nata
+
+[Sakhi Nata and Sakhi Pila](sakhi-nata-and-sakhi-pila.md) follows a southern Odisha performance account and a named Ganjam musician. Its film section identifies the JD Centre of Art’s catalogue entry for *Sakhi Pila (Boy Odissi Dancer)*, described there through Gotipua. The names overlap in some sources; the new article preserves their local and source-specific uses.
+
 ## Earlier research nucleus preserved
 
 *The following is the existing 27 September 2026 record, retained rather than replaced as evidence.*

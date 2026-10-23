@@ -8,6 +8,18 @@ test('fourteen further-reading stories expose real section destinations and reve
   const story=JSON.parse(readFileSync('../../kb/research/culture/'+slug+'-website.json','utf8'));
   const html=readFileSync('dist-coast/stories/'+slug+'/index.html','utf8');
   const menu=html.match(/<details class="research-contents"[^>]*>([\s\S]*?)<\/details>/)?.[1];
+  if(slug==='prahlada-nataka'){
+   assert.ok(menu);assert.match(menu,/<summary[^>]*>In this article<\/summary>/);
+   const links=[...menu.matchAll(/href="#([^"]+)"[^>]*>(.*?)<\/a>/g)];
+   assert.equal(links.length,8);assert.equal(links.at(-1)[1],'footnote-label');
+   for(const [,id,label] of links){
+    assert.equal(html.split('id="'+id+'"').length-1,1);
+    assert.match(html,new RegExp('<h2[^>]*id="'+id+'"[^>]*>'+label+'<'));
+   }
+   assert.match(html,/<section[^>]*data-footnotes/);
+   assert.ok(html.indexOf('id="footnote-label"')<html.indexOf('id="further-reading"'));
+   continue;
+  }
   assert.ok(menu,slug);assert.match(menu,/<summary[^>]*>In this story<\/summary>/);
   const links=[...menu.matchAll(/href="#([^"]+)"[^>]*>(.*?)<\/a>/g)];
   const article=html.split('<article ',2)[1].split('</article>',1)[0];

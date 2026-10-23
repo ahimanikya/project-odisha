@@ -1,0 +1,54 @@
+{
+  "id": "POD-TASK-PRAHALLAD-20261023",
+  "status": "completed_local",
+  "scope": "User-directed KB research and article draft; no website publication requested in this chat.",
+  "authorization_quote": "Let's take a deep dive and research Prahallad Nataka, update our KB, and write an article on this. I am sure there are other Nataka form, let's also document that.",
+  "base_head": "df716008",
+  "worker_reconciliation": "Existing Kamar work in utkal-fieldwork-pack and its registers left untouched. Dedicated branch from observed origin/main; no autonomous programme or editorial rollout claim taken.",
+  "reserved_files": {
+    "Disha": [
+      "kb/research/culture/prahallad-nataka.md",
+      "kb/research/culture/odisha-theatre-traditions.md",
+      "kb/research/sources/prahallad-nataka-research.md",
+      "kb/research/references/data/prahallad-nataka-20261023.json",
+      "kb/research/events/baithak-17-2026.md",
+      "KB navigation, generated indexes and task record"
+    ],
+    "Anvesha": "read-only comparative research",
+    "Samanta": "outputs/prahallad-nataka/ reading HTML, assigned after narrative",
+    "Drishti": "read-only final review"
+  },
+  "human_review": false,
+  "published": false,
+  "work_id": "POD-WORK-2026102391",
+  "decision_id": "POD-DEC-2026102391",
+  "deliverables": [
+    "research/culture/prahallad-nataka.md",
+    "research/culture/odisha-theatre-traditions.md",
+    "research/sources/prahallad-nataka-research.md",
+    "research/references/data/prahallad-nataka-20261023.json",
+    "research/events/baithak-17-2026.md"
+  ],
+  "separate_ai_review": {
+    "reviewer": "Drishti, /root/drishti",
+    "status": "completed_with_findings_resolved",
+    "findings": [
+      "Qualified heading changed to disputed authorship.",
+      "Foundation identity corrected to Project Odisha.",
+      "Pending structured evidence and metadata integrated; source-footnote/link validators passed."
+    ],
+    "limits": [
+      "No human practitioner review",
+      "No full-film viewing",
+      "No visual browser QA"
+    ]
+  },
+  "checks": [
+    "research/validate.py PASS",
+    "research/validate_research_map.py PASS",
+    "check_bundle.py PASS",
+    "registers.py --check PASS"
+  ],
+  "delivery_scope": "Local KB and reading drafts only; no website deployment required by this user request. Existing Kamar worker and autonomous programme unchanged.",
+  "next_action": "Reader review; practitioner and manuscript questions retained in dossier."
+}
