@@ -284,6 +284,35 @@ def consolidate_entry_sources(page, entry):
     page=page.replace('</section></main>', '</details></section></main>', 1)
     return page
 
+
+BROWSE_CSS = """
+.saying-nav{display:flex;align-items:center;justify-content:center;gap:.65rem;position:relative;margin:1.25rem 0;font-size:.88rem;flex-wrap:wrap}
+.saying-nav>a,.saying-nav>span{white-space:nowrap}.saying-nav .nav-count{font-variant-numeric:tabular-nums;color:var(--muted);font-size:.8rem}
+.saying-nav .browse{margin:0;border:0;padding:0}.browse>summary{cursor:pointer;white-space:nowrap;padding:.45rem .5rem}
+.browse-panel{position:absolute;z-index:20;top:100%;left:50%;transform:translateX(-50%);width:min(36rem,calc(100vw - 2rem));max-height:min(28rem,65vh);overflow:auto;padding:1rem;background:#fffaf0;color:#29251f;border:1px solid #bdb09a;box-shadow:0 8px 28px #0002;border-radius:.4rem;box-sizing:border-box;text-align:left}
+.saying-nav-bottom .browse-panel{top:auto;bottom:100%}.browse-panel input{box-sizing:border-box;width:100%;margin:.4rem 0}.browse-panel ul{padding:0;list-style:none;margin:.6rem 0}.browse-panel li{border-top:1px solid #d8cdbb}.browse-panel a{display:block;padding:.65rem .2rem;text-decoration:none}.browse-panel a span{display:block}.browse-panel [lang=or]{font-family:Odia,serif;line-height:1.8}.browse-panel a[aria-current=page]{font-weight:bold}.browse-panel [hidden]{display:none!important}
+@media(max-width:430px){.saying-nav{gap:.4rem;font-size:.8rem}.browse>summary{padding:.45rem .15rem}.saying-nav .nav-count{font-size:.7rem}}
+@media print{.saying-nav{display:none!important}}
+"""
+BROWSE_JS = """
+document.querySelectorAll('.browse').forEach(details=>{
+ const input=details.querySelector('input'), rows=[...details.querySelectorAll('li')], status=details.querySelector('[role=status]'), empty=details.querySelector('.browse-empty');
+ input.addEventListener('input',()=>{const q=input.value.normalize('NFC').trim().toLocaleLowerCase();let n=0;rows.forEach(row=>{row.hidden=!row.textContent.normalize('NFC').toLocaleLowerCase().includes(q);if(!row.hidden)n++;});status.textContent=n+(n===1?' saying':' sayings');empty.hidden=n!==0;});
+ details.addEventListener('keydown',event=>{if(event.key==='Escape'&&details.open){details.open=false;details.querySelector('summary').focus();event.preventDefault();event.stopPropagation();}});
+ details.addEventListener('toggle',()=>{if(details.open)document.querySelectorAll('.browse').forEach(other=>{if(other!==details)other.open=false;});});
+ document.addEventListener('click',event=>{if(details.open&&!details.contains(event.target))details.open=false;});
+});
+"""
+def saying_navigation(data, current, position):
+    entries=data['entries']; e=entries[current]; suffix=position+'-'+e['id']
+    previous=f'<a rel="prev" href="{entries[current-1]["id"]}.html" aria-label="Previous saying">← Previous</a>' if current else '<span>First</span>'
+    following=f'<a rel="next" href="{entries[current+1]["id"]}.html" aria-label="Next saying">Next →</a>' if current+1<len(entries) else '<span>Last</span>'
+    rows=[]
+    for item in entries:
+        active=' aria-current="page"' if item['id']==e['id'] else ''
+        rows.append(f'<li><a href="{esc(item["id"])}.html"{active}><span lang="or">{esc(item["odia"])}</span><span lang="en">{esc(item.get("title",item.get("literal_english","")))}</span></a></li>')
+    return f'<nav class="saying-nav saying-nav-{position}" aria-label="{position.title()} saying navigation">{previous}<details class="browse" id="browse-{suffix}"><summary>Browse sayings</summary><div class="browse-panel"><a href="../index.html">Book contents &amp; themes →</a><label for="browse-search-{suffix}">Search in Odia or English</label><input id="browse-search-{suffix}" type="search" autocomplete="off"><p role="status">{len(entries)} sayings</p><p class="browse-empty" hidden>No sayings match. Try another word.</p><ul>{"".join(rows)}</ul></div></details><span class="nav-count">{current+1}/{len(entries)}</span>{following}</nav>'
+
 def build_library(directory=ROOT):
     directory=Path(directory);data=load_library(directory)
     (directory/'collection.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
@@ -304,12 +333,10 @@ def build_library(directory=ROOT):
         page=page.replace("url('assets/","url('../assets/").replace('src="assets/','src="../assets/')
         for name in ['README.md','coverage-ledger.json','source127.html','collection.json']:
             page=page.replace('href="'+name+'"','href="../'+name+'"')
-        header=f'<header><p class="eyebrow">Project Odisha · A book of Odia sayings</p><p><a href="../index.html">← Contents &amp; chapters</a></p><h1>{esc(e.get("title",e["odia"]))}</h1><p>By Ahimanikya Satapathy</p></header>'
+        header=f'<header><p class="eyebrow">Project Odisha · A book of Odia sayings</p><h1>{esc(e.get("title",e["odia"]))}</h1><p>By Ahimanikya Satapathy</p></header>'
         page=re.sub(r'<header>.*?</header>',header,page,count=1,flags=re.S)
-        previous=f'<a rel="prev" href="{data["entries"][i-1]["id"]}.html">← Previous saying</a>' if i else '<span>First saying</span>'
-        following=f'<a rel="next" href="{data["entries"][i+1]["id"]}.html">Next saying →</a>' if i+1<len(data['entries']) else '<span>Last saying</span>'
-        nav=f'<nav class="header-links" aria-label="Saying navigation">{previous}<a href="../index.html#{e["id"]}">Contents &amp; search</a>{following}</nav><p class="meta">{i+1} of {len(data["entries"])} sayings</p>'
-        page=page.replace('<main>','<main>'+nav).replace('<section id="sources">',nav+'<section id="sources">',1)
+        page=page.replace('<main>','<main>'+saying_navigation(data,i,'top')).replace('<section id="sources">',saying_navigation(data,i,'bottom')+'<section id="sources">',1)
+        page=page.replace('</head>','<style>'+BROWSE_CSS+'</style></head>').replace('</body>','<script>'+BROWSE_JS+'</script></body>')
         (dest/(e['id']+'.html')).write_text(page)
     links=''.join(f'<li><a href="sayings/{e["id"]}.html">{esc(e.get("title",e["odia"]))}</a></li>' for e in data['entries'])
     ids=json.dumps([e['id'] for e in data['entries']])
