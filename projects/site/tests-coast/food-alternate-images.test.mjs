@@ -20,7 +20,9 @@ test('Dalma and tomato poda retain their alternate photographs while Poda pitha 
  }
  assert.doesNotMatch(read('/food/dalma/'),/A black pan rests on orange cloth/);
  assert.doesNotMatch(read('/food/tomato-poda/'),/photograph keeps pakhala at the centre/);
- assert.match(read('/food/poda-pitha/'),/Begin at the cut edge in the photograph/);
+ const poda=foods.pages.find(p=>p.slug==='poda-pitha');
+ assert.ok(read('/food/poda-pitha/').includes(escape(poda.sections[0].paragraphs[0].text)));
+ assert.match(read('/food/poda-pitha/'),/mag-cover--contain/);
  assert.doesNotMatch(read('/food/poda-pitha/'),/interior is not visible/);
 });
 test('saved food identities and illustrated readings follow the new photographs',()=>{

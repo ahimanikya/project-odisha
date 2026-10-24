@@ -1,0 +1,45 @@
+---
+import MagazineCover from './MagazineCover.astro';
+import MagazineContents from './MagazineContents.astro';
+import ArticleByline from './ArticleByline.astro';
+import ArticleFootnote from './ArticleFootnote.astro';
+import ArticleFootnotes from './ArticleFootnotes.astro';
+const {entry,photo,links,editorial}=Astro.props;
+const passages=entry.sections.flatMap(s=>s.paragraphs.map((p,i)=>({id:`${s.id}-${i}`,source_ids:p.source_ids}))).filter(p=>p.source_ids.length);
+---
+<div class="utk-magazine utk-magazine--food poda-editorial">
+ <MagazineCover title={entry.title} odia={entry.odia} eyebrow={'A taste of Odisha · '+entry.area} deck={[entry.lead]} photo={{...photo,fit:'contain'}} saveId={entry.save_id} startHref={'#'+entry.sections[0].id} startLabel="Meet the dish" footline="Rice · leaves · slow heat"><Fragment slot="byline"><ArticleByline author={editorial.author}/></Fragment></MagazineCover>
+ <MagazineContents links={[...entry.sections.map(s=>({href:'#'+s.id,label:s.title})),{href:'#food-further-reading',label:'Further reading'},{href:'#story-sources',label:'Footnotes & Sources'}]}/>
+ <article class="mag-content">
+  <div class="poda-chapters">{entry.sections.map((section,index)=><section id={section.id} class="poda-section"><p class="eyebrow">{String(index+1).padStart(2,'0')} · A taste of Odisha</p><h2>{section.title}</h2>{section.paragraphs.map((p,i)=><p data-source-ids={p.source_ids.join(' ')}>{p.text}<ArticleFootnote ids={p.source_ids} sources={editorial.sources} passage={`${section.id}-${i}`}/></p>)}</section>)}</div>
+  <slot/>
+  <section id="food-further-reading" class="poda-further-reading"><h2>Further reading</h2><nav aria-label="Related food and places"><ul>{links.map(link=><li><a href={link.href}>{link.title} →</a>{link.reason&&<p>{link.reason}</p>}</li>)}</ul></nav></section>
+  <ArticleFootnotes sources={editorial.sources} passages={passages}><div id="food-image-credits"><h3>Photograph and reuse</h3><p><a href={photo.source}>Poda pitha (2015)</a> by {photo.creator} · <a href={photo.license_url}>{photo.license}</a>. {photo.changes}</p></div></ArticleFootnotes>
+  <p class="poda-update"><a href="/contribute/?page=%2Ffood%2Fpoda-pitha%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
+ </article>
+</div>
+<script>
+import {bindStorySourceLinks} from '../lib/story-source-links.mjs';
+document.querySelectorAll('.poda-editorial sup, .poda-editorial .article-footnotes').forEach(group=>bindStorySourceLinks(group,document));
+</script>
+<style>
+.poda-chapters,.poda-further-reading,.poda-update{max-width:min(46.25rem,80ch);margin-inline:auto}
+.poda-section{margin:56px 0;scroll-margin-top:28px}
+.poda-section h2{font-size:clamp(1.75rem,1.2rem + 2vw,2.375rem);line-height:1.3;margin:0 0 24px}
+.poda-section p:not(.eyebrow){font-size:1.125rem;line-height:1.85;margin:0 0 1.25em}
+.poda-further-reading p{font-size:.9375rem;line-height:1.7;color:var(--muted)}
+.poda-update{font-size:.9375rem;line-height:1.8;margin-block:40px}
+.poda-editorial :global(.article-footnotes){max-width:min(46.25rem,80ch);margin:64px auto 48px;border-top:1px solid var(--line);padding-top:28px;font-size:1rem;line-height:1.8}
+.poda-editorial :global(.article-footnotes p){margin:0 0 1.25em}
+.poda-editorial :global(.article-footnotes h2){font-size:1.875rem;margin:0 0 24px}
+.poda-editorial :global(.article-footnotes h3){font-size:1.375rem;margin:24px 0 16px}
+.poda-editorial :global(.article-footnotes li){margin-bottom:24px;scroll-margin-top:24px;overflow-wrap:anywhere}
+.poda-editorial :global(.article-footnotes li:target){outline:2px solid var(--line);outline-offset:6px}
+.poda-editorial :global(sup){font-size:.7em;line-height:0;margin-left:.15em}
+.poda-editorial :global(a[data-footnote-ref]){font-weight:600;text-decoration:none;padding:.2em .15em}
+.poda-editorial :global(a[data-footnote-backref]){display:inline-block;padding:.2rem .3rem}
+.poda-editorial :global(a:focus-visible){outline:2px solid var(--earth);outline-offset:3px}
+@media(max-width:700px){.poda-section{margin-block:40px}.poda-section p:not(.eyebrow){font-size:1.0625rem;line-height:1.8}}
+@supports(text-wrap:balance){.poda-section h2{text-wrap:balance}}
+@supports(text-wrap:pretty){.poda-section p:not(.eyebrow){text-wrap:pretty}}
+</style>

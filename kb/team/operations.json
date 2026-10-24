@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/odia-dhaga-print-cards-2026-10-24.json",
+  "handoff_home": "records/poda-pitha-editorial-team-2026-10-24.json",
   "roles": [
     {
       "name": "Disha",
@@ -54,9 +54,18 @@
     "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
-  "current_article": null,
+  "current_article": {
+    "id": "POD-EDIT-075",
+    "route": "/food/poda-pitha/",
+    "owner": "Disha",
+    "phase": "release_review"
+  },
   "project_identity": "reference/project-identity.md",
-  "current_task": null,
+  "current_task": {
+    "kind": "editorial",
+    "status": "release_review",
+    "handoff": "records/poda-pitha-editorial-team-2026-10-24.json"
+  },
   "parallel_programmes": [
     {
       "name": "Community history and editorial rollout",
