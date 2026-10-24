@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 624. completed: 98, excluded: 209, queued: 317.
+Route inventory: 624. completed: 98, excluded: 211, in_progress: 1, queued: 314.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -89,9 +89,9 @@ Route inventory: 624. completed: 98, excluded: 209, queued: 317.
 | POD-EDIT-073 | [Before Netaji: a Cuttack childhood](https://projectodisha.org/people/subhas-chandra-bose/) | completed | Deepen the individual childhood article with concrete primary-source examples and honest retrospective limits; preserve both documentary photographs. |
 | POD-EDIT-074 | [Enduri pitha](https://projectodisha.org/food/enduri-pitha/) | completed | Individual food article research and editorial revision |
 | POD-EDIT-075 | [Poda pitha](https://projectodisha.org/food/poda-pitha/) | completed | Individually researched preparation-focused article, visible notes and portable reading |
-| POD-EDIT-076 | [Languages of Odisha · population atlas](https://projectodisha.org/languages/atlas/) | queued | classification_pending |
-| POD-EDIT-077 | [Languages by district · Odisha](https://projectodisha.org/languages/districts/) | queued | classification_pending |
-| POD-EDIT-078 | [Multilingual Odisha · beyond one mother tongue](https://projectodisha.org/languages/multilingual-odisha/) | queued | classification_pending |
+| POD-EDIT-076 | [Languages of Odisha · population atlas](https://projectodisha.org/languages/atlas/) | excluded | interactive_data_utility |
+| POD-EDIT-077 | [Languages by district · Odisha](https://projectodisha.org/languages/districts/) | excluded | district_navigation_directory |
+| POD-EDIT-078 | [Multilingual Odisha · beyond one mother tongue](https://projectodisha.org/languages/multilingual-odisha/) | in_progress | Individual Census-language explanatory article |
 | POD-EDIT-079 | [Sambalpuri](https://projectodisha.org/languages/sambalpuri/) | queued | classification_pending |
 | POD-EDIT-080 | [Desia](https://projectodisha.org/languages/desia/) | queued | classification_pending |
 | POD-EDIT-081 | [Bargarh · languages and population](https://projectodisha.org/languages/districts/bargarh/) | queued | classification_pending |

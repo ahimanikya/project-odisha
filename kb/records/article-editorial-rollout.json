@@ -2299,33 +2299,45 @@
       "id": "POD-EDIT-076",
       "route": "/languages/atlas/",
       "title": "Languages of Odisha · population atlas",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "excluded",
+      "scope": "interactive_data_utility",
       "source_template": "projects/site/src/pages/languages/atlas.astro",
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/multilingual-editorial-team-2026-10-24.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually inspected Census atlas application with selection, sorting, search and CSV export. Its primary purpose is comparison and data retrieval, not a sustained authored narrative. Preserve controls, source labels and routes; no automatic byline."
     },
     {
       "id": "POD-EDIT-077",
       "route": "/languages/districts/",
       "title": "Languages by district · Odisha",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "excluded",
+      "scope": "district_navigation_directory",
       "source_template": "projects/site/src/pages/languages/districts/index.astro",
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/multilingual-editorial-team-2026-10-24.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually inspected directory of30district links and historical statistical summaries. This navigation surface is not a standalone narrative article. Individual district profile queue items remain separate and are not excluded by this classification."
     },
     {
       "id": "POD-EDIT-078",
       "route": "/languages/multilingual-odisha/",
       "title": "Multilingual Odisha · beyond one mother tongue",
-      "status": "queued",
-      "scope": "classification_pending",
+      "status": "in_progress",
+      "scope": "Individual Census-language explanatory article",
       "source_template": "projects/site/src/pages/languages/multilingual-odisha.astro",
       "checks": {},
-      "evidence": [],
+      "evidence": [
+        "records/multilingual-editorial-team-2026-10-24.json"
+      ],
       "blocker": null
     },
     {

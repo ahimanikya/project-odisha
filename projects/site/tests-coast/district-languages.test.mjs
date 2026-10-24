@@ -20,7 +20,7 @@ test('new reading stories preserve attribution, census mappings and portable not
  }
  assert.match(read('/languages/sambalpuri/'),/Mitrabhanu Gountia/);assert.match(read('/languages/desia/'),/testing and revision still to come/);
  assert.match(read('/languages/multilingual-odisha/'),/1,38,25,024/);assert.match(read('/languages/multilingual-odisha/'),/55,25,278/);
- assert.match(read('/languages/multilingual-odisha/'),/None reported/);
+ assert.match(read('/languages/multilingual-odisha/'),/No additional language reported/);
 });
 test('atlas links each district from its server-rendered distribution table',()=>{
  const html=read('/languages/atlas/');for(const area of Object.values(atlas.areas).filter(a=>a.code!=='000'))assert.ok(html.includes(districtHref(area)));

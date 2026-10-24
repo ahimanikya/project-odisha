@@ -1,0 +1,109 @@
+{
+  "author": "Ahimanikya Satapathy",
+  "checked_on": "2026-10-24",
+  "route": "/languages/multilingual-odisha/",
+  "title": "One person, more than one language",
+  "lead": "Odisha’s Census 2011 tables distinguish recorded mother tongues from additional languages. Some totals overlap.",
+  "sections": [
+    {
+      "id": "counting",
+      "title": "The same people appear in both headlines",
+      "paragraphs": [
+        {
+          "text": "Of Odisha’s 41,974,218 residents in the 2011 tables, 13,825,024 reported at least one additional language. Within that total, 5,525,278 reported two. Roughly 33 out of 100 residents were in the first category, including about 13 who were in the second. Adding 33 and 13 would count the latter people twice.",
+          "source_ids": [
+            "census-c17-odisha2011"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "groups",
+      "title": "ODIA and Odia are different rows",
+      "paragraphs": [
+        {
+          "text": "C-16 lists an ODIA language-group total of 34,712,170 and an Odia mother-tongue entry of 31,507,158. The group also contains separately named returns, including Desia and Sambalpuri. Those entries are already inside the group total; adding them to it would count people again.",
+          "source_ids": [
+            "census-c16-odisha2011"
+          ]
+        },
+        {
+          "text": "These labels describe how the Census arranges its returns. They do not settle how speakers should name their language or understand its relationship to another. Keep the source’s category visible without making it the only way a speaker may describe themselves.",
+          "source_ids": [
+            "census-c16-odisha2011"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additional",
+      "title": "What the additional-language table can tell us",
+      "paragraphs": [
+        {
+          "text": "C-17 organises additional-language reports under language groups, statewide. It records up to two additional languages; it does not measure everyone’s complete repertoire. “No additional language reported” does not establish inability to use another language. These figures cannot supply a district’s multilingual rate or an individual’s proficiency.",
+          "source_ids": [
+            "census-c17-odisha2011"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "listening",
+      "title": "Let the table begin a conversation",
+      "paragraphs": [
+        {
+          "text": "A historical count is a starting point for curiosity, not a substitute for listening. Ask which name someone uses for their language and which language they prefer for your conversation. A song, a book or a family memory they choose to share can open questions the tables do not answer.",
+          "source_ids": []
+        },
+        {
+          "text": "Explore the district profiles for geography and the language stories for named people and works.",
+          "source_ids": []
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "census-c17-odisha2011",
+      "title": "Census of India 2011 · C-17, Odisha",
+      "url": "https://censusindia.gov.in/nada/index.php/catalog/10283",
+      "note": "Sheet 1, columns E, J, O; statewide sums across 90 groups, including OTHERS. Source hierarchy distinguishes first and second subsidiary-language counts."
+    },
+    {
+      "id": "census-c16-odisha2011",
+      "title": "Census of India 2011 · C-16, Odisha",
+      "url": "https://censusindia.gov.in/nada/index.php/catalog/10217",
+      "note": "Sheet 1, rows 96, 100, 101, 104: group and named returns. Original saved workbook verified."
+    }
+  ],
+  "evidence_limits": [
+    "Census 2011 returns only; no current population, legal-status, ancestry or language-vitality claim.",
+    "No unsupported childhood, fluency-threshold or language-preference definition.",
+    "C-17 reports up to two additional languages; absence of an additional report is not proof of inability.",
+    "Current catalogue access returned 502 in readiness pass; saved original workbooks matched recorded hashes. No failed retrieval repeated."
+  ],
+  "reading_gain": "Explains overlapping totals through a 100-person illustration, separates group totals from contained named returns, and makes the additional-language reporting limit explicit.",
+  "chart_text": {
+    "denominator": 41974218,
+    "year": 2011,
+    "segments": [
+      {
+        "label": "No additional language reported",
+        "value": 28149194
+      },
+      {
+        "label": "One additional language reported",
+        "value": 8299746
+      },
+      {
+        "label": "Two additional languages reported",
+        "value": 5525278
+      }
+    ],
+    "source_ids": [
+      "census-c17-odisha2011"
+    ],
+    "note": "Non-overlapping segments: subtract two additional from at least one to find one; subtract at least one from population to find none."
+  },
+  "description": "Read Odisha’s Census 2011 language counts: overlapping multilingual totals, grouped mother-tongue returns and the limits of what the tables can tell us."
+}
