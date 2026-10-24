@@ -2330,15 +2330,32 @@
     {
       "id": "POD-EDIT-078",
       "route": "/languages/multilingual-odisha/",
-      "title": "Multilingual Odisha · beyond one mother tongue",
-      "status": "in_progress",
+      "title": "One person, more than one language",
+      "status": "completed",
       "scope": "Individual Census-language explanatory article",
       "source_template": "projects/site/src/pages/languages/multilingual-odisha.astro",
-      "checks": {},
+      "checks": {
+        "source_review": true,
+        "separate_ai_review": true,
+        "responsive_review": true,
+        "tests": true,
+        "merged": true,
+        "deployed": true,
+        "live": true,
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
-        "records/multilingual-editorial-team-2026-10-24.json"
+        "records/multilingual-editorial-team-2026-10-24.json",
+        "records/multilingual-editorial-delivery-2026-10-25.json"
       ],
-      "blocker": null
+      "blocker": null,
+      "publication_receipt": "records/multilingual-editorial-delivery-2026-10-25.json"
     },
     {
       "id": "POD-EDIT-079",
