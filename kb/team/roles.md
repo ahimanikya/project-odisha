@@ -9,6 +9,8 @@ title: "Project Odisha — initial team and JD review"
 
 This packet proposes the initial UTP role grouping and the eight JD profiles below, each at candidate v0.3 in this packet (separate from the packet’s own v0.1). Stable IDs retain their existing meanings. The shared role/JD standard supplies the reusable structure. Earlier detailed team drafts remain reference proposals; approval of this packet would cover the wording here, not silently approve every earlier draft or future role.
 
+Current assignment status: all four names below are approved and active under the [actual assignments](assignments.json). The [24 October orientation](../records/blueprint-persona-onboarding-2026-10-24.json) includes Characters. Earlier proposal and review wording below preserves the original role packet; it does not supersede current assignment evidence.
+
 ## Team at a glance
 
 | Member | Type | Proposed responsibilities | Human authority |

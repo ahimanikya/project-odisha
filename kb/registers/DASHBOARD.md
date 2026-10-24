@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `57d06ab9cea566f76d31661c93c998532c4055541bac61fc2db4d0014aee9a1d`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b1847baa6c66352a1219e24d42ca99796efe6beab4237dff518a8dae378f311e`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -659,6 +659,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-2026102391 · Research Prahallad Nataka and other Odisha theatre forms | recorded_direction | Ahimanikya Satapathy | KB update and article draft; no new public release requested. |
 | POD-DEC-2026102392 · Research Odissi & Beyond themes and Nayika articles | recorded_direction | Ahimanikya Satapathy | User-directed cultural research and KB articles; signed-in Chrome authorized in follow-up. |
 | POD-DEC-2026102481 · Move character worlds to Project Odisha | recorded_direction | Ahimanikya Satapathy | Transfer existing character website, media, downloads and provenance; publish destination and retire source with compatibility links. |
+| POD-DEC-2026102483 · Onboard all Blueprint personas for this Project Odisha chat | recorded_direction | Ahimanikya Satapathy | Verify the complete current Blueprint persona roster, orient existing Project Odisha assignments for this chat and explicitly include Characters; retain existing human authority and permissions. |
 
 ## Reviews
 
@@ -1301,7 +1302,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026102405 | 2026-10-23T17:07:08.016870+00:00 | Standalone illustrated Sahi Jatra article adds neighbourhood institutions, dated character associations and bibliographic Suchitra1972lead. Anvesha research, Drishti independent review and Samanta photograph/HTML checks passed; KB comparison/map updated. No universal repertoire, current timetable, publication or full browser QA claimed. | — |
 | POD-EVT-2026102406 | 2026-10-23T17:29:08.282698+00:00 | Standalone illustrated Abana Rasataranga reading distinguishes independent vowels, dependent vowel signs and conjuncts; documents opening and apparent stanza 7 exception. Research, independent review and image/structural checks passed; KB links updated. Whole-work rule requires printed-edition collation; no publication or full browser QA claimed. | — |
 | POD-EVT-2026102407 | 2026-10-23T17:43:56.265182+00:00 | Enhanced existing illustrated Alankara article with OVA Subhadra Parinaya first chhanda 15–18. Anvesha recovered caption premise, Disha retrieved text, Drishti verified passage and Samanta checked preview/image. KB gaps updated; print-edition identity and full reel explanations remain open. No new article count or publication. | — |
 | POD-EVT-2026102408 | 2026-10-23T17:48:58.935230+00:00 | Enhanced existing illustrated bhanita article with verified Subhadra Parinaya first-chhanda self-references in stanzas 10 and 66. Anvesha caption research, Drishti independent text review and Samanta image/preview checks completed. Unidentified reel example remains open; no publication or additional article count. | — |
@@ -1311,6 +1311,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-20261023012 | 2026-10-23T21:17:28.855212+00:00 | Founder-directed publication completed sequentially for twelve standalone illustrated articles. Individual reviewed heads, merged PRs, successful deployments and desktop/mobile/live receipts recorded in nataka-publication-2026-10-24.json; final cross-page audit passed. Soumya Biswajit credit remains in source notes. No autonomous programme credit, specialist review or exhaustive archive claim. | — |
 | POD-EVT-2026102481 | 2026-10-24T01:19:58.051266+00:00 | Founder requested transfer from Sishu Kishore. Isolated current main worktree; separate Anvesha audit and Samanta implementation; no research/programme credit. Preserving existing media and historical source records. | — |
 | POD-EVT-2026102482 | 2026-10-24T02:03:09.992892+00:00 | PR517 reviewed and merged; Project Odisha publication and Sishu retirement succeeded.132 new pages verified live;132 old pages confirmed removed without redirects;40download assets verified. Books unchanged; source/font/provenance preserved. No autonomous programme credit. Task scopes released. | — |
+| POD-EVT-2026102483 | 2026-10-24T02:08:36.906284+00:00 | Verified current Blueprint roster: Disha, Anvesha, Samanta and Drishti all assigned and oriented for this chat. Explicit Characters scope and no-redirect history loaded. Separate specialist acknowledgements and Drishti review recorded; no new access, schedules, article claim or programme credit. | — |
 
 ## Deferred extensions
 

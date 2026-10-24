@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-24",
+  "status": "verified",
+  "user_direction": "Let's make sure all blueprint personas are onboarded here",
+  "authorization": "POD-DEC-2026102483",
+  "existing_activation": "POD-DEC-2026101901",
+  "project": "POD",
+  "scope": "Continuation-chat orientation for Project Odisha, explicitly including its Characters subsite. Existing assignments retained; no new persona or permissions.",
+  "upstream": {
+    "repo": "ahimanikya/utkal-blueprint",
+    "commit": "fb3a28971087ec7c0f8525aa4d6aa66d0cb5e042",
+    "path": "kb/roles/definitions.json",
+    "sha256": "cf3c87fecd4f073152ab5af1604269230f01e6023d8cbe1ce292fa21f1463102"
+  },
+  "upstream_url": "https://github.com/ahimanikya/utkal-blueprint/blob/fb3a28971087ec7c0f8525aa4d6aa66d0cb5e042/kb/roles/definitions.json",
+  "roster_complete": true,
+  "human_supervisor": "Ahimanikya Satapathy",
+  "personas": [
+    {
+      "name": "Disha Dash",
+      "short_name": "Disha",
+      "jd_ids": [
+        "POD-JD-002",
+        "POD-JD-003"
+      ],
+      "remit": "Product direction, scope, coordination, shared records and publishing under actual Founder authorization.",
+      "execution_mode": "coordinator_in_current_chat",
+      "orientation": "loaded",
+      "runtime": "/root"
+    },
+    {
+      "name": "Anvesha Acharya",
+      "short_name": "Anvesha",
+      "jd_ids": [
+        "POD-JD-007",
+        "POD-JD-008"
+      ],
+      "remit": "Source evidence, cultural and language uncertainties, provenance, archive integrity, stable mappings and rights documentation.",
+      "execution_mode": "separate_subagent_per_assignment",
+      "orientation": "loaded",
+      "runtime": "/root/anvesha_character_audit"
+    },
+    {
+      "name": "Samanta Chandrasekhar",
+      "short_name": "Samanta",
+      "jd_ids": [
+        "POD-JD-004",
+        "POD-JD-005"
+      ],
+      "remit": "Accessible Odia/English reading, navigation, illustration and film presentation, downloads, implementation and relevant verification.",
+      "execution_mode": "separate_subagent_per_assignment",
+      "orientation": "loaded",
+      "runtime": "/root/samanta_character_import"
+    },
+    {
+      "name": "Drishti Senapati",
+      "short_name": "Drishti",
+      "jd_ids": [
+        "POD-JD-006"
+      ],
+      "remit": "Separate revision-specific review of behavior, layout, links, source/credit treatment and delivery evidence; report unresolved findings.",
+      "execution_mode": "separate_subagent_per_assignment",
+      "orientation": "loaded",
+      "runtime": "/root/drishti_character_review"
+    }
+  ],
+  "loaded_context": [
+    "AGENTS.md",
+    "kb/TEAM-CHARTER.md",
+    "kb/Working-Agreement.md",
+    "kb/team/roles.md",
+    "kb/team/assignments.json",
+    "kb/team/operations.json",
+    "kb/team/working-arrangements.md",
+    "projects/characters/README.md",
+    "kb/records/characters-transfer-2026-10-24.json"
+  ],
+  "characters": {
+    "public_home": "https://projectodisha.org/characters/",
+    "web_directory": "projects/site/public/characters/",
+    "archive_directory": "projects/characters/",
+    "downloads": "40ZIP/PDF/Word release assets; artwork and14videos hosted with the site.",
+    "source_site": "Character pages and assets removed from Sishu Kishore without redirects.",
+    "editorial": "Preserve narrative, real credits, uncertainty, draft/proof status and original provenance; production explanation follows central editorial-process policy."
+  },
+  "reserved_files": {
+    "Disha": [
+      "records/blueprint-persona-onboarding-2026-10-24.json",
+      "team/assignments.json",
+      "team/operations.json",
+      "team/working-arrangements.md",
+      "team/roles.md",
+      "registers/records.json",
+      "registers/activity.jsonl",
+      "registers/DASHBOARD.md",
+      "records/editorial-workbench.json"
+    ]
+  },
+  "access_added": [],
+  "execution_note": "Disha coordinates in this chat; Anvesha, Samanta and Drishti are task-scoped separate agents. No continuous runtime or recurring schedule is created. Onboarding itself starts no additional content work.",
+  "deployment_required": false,
+  "deployment_reason": "Internal role and handoff records only; no public site content changes.",
+  "checks": {
+    "upstream_roster": "4of4 current definitions match approved local assignments",
+    "team_assignments": "PASS",
+    "registers": "PASS",
+    "bundle": "PASS",
+    "autonomous_programme": "PASS; no programme-credit change"
+  },
+  "verified_at": "2026-10-24T02:08:36.905883+00:00",
+  "review": {
+    "reviewer": "Drishti /root/drishti_character_review",
+    "independent": true,
+    "human_review": false,
+    "result": "pass",
+    "findings": [],
+    "scope": "Roster, role remits, permissions, active claims/parallel handoffs, task-scoped runtime and Characters/no-redirect context."
+  },
+  "reserved_files_released": true
+}
