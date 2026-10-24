@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 623. completed: 96, excluded: 208, queued: 319.
+Route inventory: 623. completed: 96, excluded: 209, in_progress: 1, queued: 317.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -88,7 +88,7 @@ Route inventory: 623. completed: 96, excluded: 208, queued: 319.
 | POD-EDIT-072 | [Odisha Rasagola](https://projectodisha.org/food/odisha-rasagola/) | completed | Individually deepen the existing Rasagola article using original source evidence, preserving documentary photograph rights and honest distinctions between tradition, filed history and invention claims. |
 | POD-EDIT-073 | [Before Netaji: a Cuttack childhood](https://projectodisha.org/people/subhas-chandra-bose/) | completed | Deepen the individual childhood article with concrete primary-source examples and honest retrospective limits; preserve both documentary photographs. |
 | POD-EDIT-074 | [Enduri pitha](https://projectodisha.org/food/enduri-pitha/) | completed | Individual food article research and editorial revision |
-| POD-EDIT-075 | [Poda pitha](https://projectodisha.org/food/poda-pitha/) | queued | classification_pending |
+| POD-EDIT-075 | [Poda pitha](https://projectodisha.org/food/poda-pitha/) | in_progress | Individually researched preparation-focused article, visible notes and portable reading |
 | POD-EDIT-076 | [Languages of Odisha · population atlas](https://projectodisha.org/languages/atlas/) | queued | classification_pending |
 | POD-EDIT-077 | [Languages by district · Odisha](https://projectodisha.org/languages/districts/) | queued | classification_pending |
 | POD-EDIT-078 | [Multilingual Odisha · beyond one mother tongue](https://projectodisha.org/languages/multilingual-odisha/) | queued | classification_pending |
@@ -295,7 +295,7 @@ Route inventory: 623. completed: 96, excluded: 208, queued: 319.
 | POD-EDIT-279 | [Mohu: honey, collectors and processing — Research notes](https://projectodisha.org/reading-room/food/mohu-honey/) | queued | classification_pending |
 | POD-EDIT-280 | [Nimapada chhena jhili: documentary name use and maker attribution — Research notes](https://projectodisha.org/reading-room/food/nimapada-jhili-evidence/) | queued | classification_pending |
 | POD-EDIT-281 | [Poda pitha and arisa: Puri associations and wider Odisha traditions — Research notes](https://projectodisha.org/reading-room/food/poda-arisa-place-evidence/) | queued | classification_pending |
-| POD-EDIT-282 | [Poda pitha — Research notes](https://projectodisha.org/reading-room/food/poda-pitha/) | queued | classification_pending |
+| POD-EDIT-282 | [Poda pitha — Research notes](https://projectodisha.org/reading-room/food/poda-pitha/) | excluded | dated_research_record |
 | POD-EDIT-283 | [How Odisha cooks: preparations and variations — Research notes](https://projectodisha.org/reading-room/food/preparation-and-variation/) | queued | classification_pending |
 | POD-EDIT-284 | [Odisha’s rice: varieties, seed keepers and food — Research notes](https://projectodisha.org/reading-room/food/rice-varieties/) | queued | classification_pending |
 | POD-EDIT-285 | [Temple-food GI evidence: Tirupathi Laddu and questions for Puri — Research notes](https://projectodisha.org/reading-room/food/temple-food-gi-governance/) | queued | classification_pending |

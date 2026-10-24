@@ -1,0 +1,60 @@
+{
+  "status": "release_review",
+  "item": "POD-EDIT-075",
+  "route": "/food/poda-pitha/",
+  "input_head": "f2d1512545e34013136eb34919a6d38fdaeb09ca",
+  "authorization": "Founder editorial rollout and POD-DEC-225",
+  "output": "Individually researched preparation-focused article, visible notes and portable reading",
+  "acceptance": [
+    "CRRI named versions and attributed Mint accounts correctly scoped",
+    "Restored licensed photograph retained",
+    "Full article and portable reading preserve source mapping",
+    "17October editorial style and responsive review",
+    "Separate AI review; reviewedPR/CI/merge/deployment/live receipt before completion"
+  ],
+  "workers": {
+    "Anvesha": "Draft canonical narrative and source mapping in isolated output",
+    "Samanta": "Scoped component, route, journey and tests",
+    "Drishti": "Integrated separate review"
+  },
+  "reserved_files": [
+    "kb/research/food/collection.json",
+    "kb/research/food/poda-editorial.json",
+    "kb/research/food/poda-pitha.md",
+    "projects/site/src/components/PodaPithaArticle.astro",
+    "projects/site/src/pages/food/[slug].astro",
+    "projects/site/src/data/journey-catalog.ts",
+    "projects/site/tests-coast/*editorial*.test.mjs",
+    "projects/site/tests-coast/pitha.test.mjs",
+    "projects/site/tests-coast/food-alternate-images.test.mjs"
+  ],
+  "scopes_released": false,
+  "programme_credit": 0,
+  "research_note_classification": {
+    "item": "POD-EDIT-282",
+    "status": "excluded",
+    "reason": "Dated research ledger inspected individually; preserve source history and proposals, not a duplicate feature article."
+  },
+  "source_review": {
+    "reviewer": "Drishti (separate AI)",
+    "result": "PASS on shortened canonical prose",
+    "scope": "Original CRRI recipe/preface and Mint passages re-opened; conservative source-derived budgets including editorial framing 195 and198 words respectively",
+    "human_review": false
+  },
+  "tests": {
+    "team_records": "PASS",
+    "autonomous_program": "PASS; completed_items unchanged",
+    "rollout": "PASS",
+    "full_draft": "595 passed before source-budget shortening; rebuilt after shortening",
+    "coastal": "501 passed final",
+    "coastal_audit": "2492 checks passed",
+    "publication": "11 indexable routes; eligibility unchanged",
+    "disclosures": "full/coast/publication gates passed",
+    "research": "validate and collections passed",
+    "bundle": "PASS"
+  },
+  "visual_review": {
+    "implementation_check": "1440x1000 and390x844 no overflow; note/backlink keyboard focus passed",
+    "independent_review": "pending screenshots"
+  }
+}

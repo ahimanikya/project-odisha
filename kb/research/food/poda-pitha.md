@@ -70,3 +70,10 @@ Reuse of saved attributed regional accounts; versions are not universal rules.
 ## 2026-10-10 · Raja: preparing ahead and sharing
 
 [Raja Parba](../culture/osha/raja-parba.md). The Raja account connects preparation ahead and shared pitha with a pause in everyday work; dish-level pages retain their own preparation evidence.
+
+
+## Editorial evidence audit · 24 October 2026
+
+The new article compares the three named 2015 CRRI preparations with attributed 2023 Mint accounts, preserving their different mixtures, wrappers and methods. The original sources were inspected during the readiness pass. It makes no recipe-safety, shelf-life, origin-date or universal regional claim. The Tourism endpoint returned 404; its older notes above remain historical records, not fresh confirmation.
+
+Keep the restored Udipta876 photograph and its CC BY-SA 4.0 credit. The image shows one serving, not the method or provenance of all poda pitha. No new photograph or fabricated char is proposed.

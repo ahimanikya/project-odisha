@@ -2269,11 +2269,13 @@
       "id": "POD-EDIT-075",
       "route": "/food/poda-pitha/",
       "title": "Poda pitha",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
+      "status": "in_progress",
+      "scope": "Individually researched preparation-focused article, visible notes and portable reading",
+      "source_template": "projects/site/src/pages/food/[slug].astro",
       "checks": {},
-      "evidence": [],
+      "evidence": [
+        "records/poda-pitha-editorial-team-2026-10-24.json"
+      ],
       "blocker": null
     },
     {
@@ -4575,12 +4577,17 @@
       "id": "POD-EDIT-282",
       "route": "/reading-room/food/poda-pitha/",
       "title": "Poda pitha — Research notes",
-      "status": "queued",
-      "scope": "classification_pending",
-      "source_template": null,
-      "checks": {},
-      "evidence": [],
-      "blocker": null
+      "status": "excluded",
+      "scope": "dated_research_record",
+      "source_template": "projects/site/src/pages/reading-room/[...slug].astro",
+      "checks": {
+        "classification": true
+      },
+      "evidence": [
+        "records/poda-pitha-editorial-team-2026-10-24.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually inspected dated research and reuse ledger with source extracts, proposals and unresolved questions; retained as research history rather than assigning a feature byline or treating it as the published Poda article. POD-EDIT-075 owns the reader-facing feature revision."
     },
     {
       "id": "POD-EDIT-283",
