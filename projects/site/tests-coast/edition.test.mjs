@@ -15,7 +15,7 @@ const data=payload(read('/'));
 const files=(dir)=>readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?files(join(dir,e.name)):[join(dir,e.name)]);
 test('only selected pages and their declared client content ship',()=>{
  const actual=files('dist-coast').filter(p=>p.endsWith('.html')&&!(scope.downloads||[]).includes('/'+p.slice('dist-coast/'.length))).map(p=>'/'+p.slice('dist-coast/'.length).replace(/index\.html$/,'')).sort();assert.deepEqual(actual,[...scope.routes].sort());
- for(const route of scope.routes){const html=read(route),d=payload(html);assert.deepEqual(d.catalog.map(i=>i.id).sort(),[...scope.journey_ids].sort());assert.deepEqual(d.starters.map(s=>s.id),scope.starter_ids);assert.ok(html.includes('noindex'));}
+ for(const route of scope.routes){const html=read(route);assert.ok(html.includes('noindex'));if((scope.standalone_routes||[]).includes(route)){assert.ok(!html.includes('id="journey-data"'));continue;}const d=payload(html);assert.deepEqual(d.catalog.map(i=>i.id).sort(),[...scope.journey_ids].sort());assert.deepEqual(d.starters.map(s=>s.id),scope.starter_ids);assert.ok(html.includes('noindex'));}
  assert.equal((read('/explore/').match(/data-entry=/g)||[]).length,135+reviewedArticleCount);
  assert.ok(read('/destinations/bhubaneswar/').includes('fresco-procession'));
  for(const f of files('dist-coast').filter(p=>/\.(html|js)$/.test(p)))for(const held of ['gopinath-mohanty.jpg','href="/store/'])assert.ok(!readFileSync(f,'utf8').includes(held),f+': '+held);

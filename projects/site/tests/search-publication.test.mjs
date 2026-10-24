@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {readFile,mkdir,writeFile,mkdtemp,rm,symlink} from 'node:fs/promises';
+import {readFile,mkdir,writeFile,mkdtemp,rm,symlink,truncate} from 'node:fs/promises';
 import {tmpdir} from 'node:os';
 import {pathToFileURL} from 'node:url';
 import {join} from 'node:path';
@@ -57,6 +57,7 @@ test('publication assembly preserves source and media, removes stale sitemap and
   await write('verification/'+verificationName,verification);
   await write('editions/search-publication.json',{...config,mode:'withdrawn'});await buildPublication(site);await assert.rejects(readFile(new URL('dist-publish/sitemap.xml',site)),{code:'ENOENT'});assert.match(await readFile(new URL('dist-publish/robots.txt',site),'utf8'),/Allow: \//);
   await write('dist-coast/stray.html',html);await assert.rejects(buildPublication(site),/Unexpected HTML/);await rm(new URL('dist-coast/stray.html',site));
+  await write('dist-coast/oversized.bin','');await truncate(new URL('dist-coast/oversized.bin',site),1_000_000_000);await assert.rejects(buildPublication(site),/1 GB budget/);await rm(new URL('dist-coast/oversized.bin',site));
   await symlink(new URL('dist-coast/photo.webp',site),new URL('dist-coast/alias.webp',site));await assert.rejects(buildPublication(site),/symlinks/);
  }finally{await rm(dir,{recursive:true,force:true});}
 });

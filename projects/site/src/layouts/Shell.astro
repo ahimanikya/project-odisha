@@ -67,6 +67,7 @@ const socialImage=new URL(sharePhoto.src,Astro.site).href;
     </nav>
     <nav class="footer-links" aria-label="Explore and contribute">
       <h2 class="eyebrow">Take part</h2>
+      {allowsPage('/characters/')&&<a href="/characters/">Character worlds</a>}
       {allowsPage('/odia-poetry-jhula/')&&<a href="/odia-poetry-jhula/">Odia Poetry Jhula</a>}
       <a href="/contribute/">Contribute</a>
       <a href={"/contribute/?page="+encodeURIComponent(Astro.url.pathname)}>Suggest a correction</a>

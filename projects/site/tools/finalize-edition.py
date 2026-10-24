@@ -31,10 +31,14 @@ if '/' not in routes:
 journey_ids = unique_strings('journey_ids', r'[a-z0-9][a-z0-9:/_-]{0,159}')
 starter_ids = unique_strings('starter_ids', r'[a-z0-9][a-z0-9_-]{0,159}')
 config.setdefault('downloads', [])
-downloads = set(unique_strings('downloads', r'(?:/assets/[a-z0-9-]+\.txt|/downloads/heritage-walks/odisha-heritage-walks\.(?:html|md|json|csv|zip))'))
+downloads = set(unique_strings('downloads', r'(?:/assets/[a-z0-9-]+\.txt|/downloads/heritage-walks/odisha-heritage-walks\.(?:html|md|json|csv|zip)|/characters/(?:[a-zA-Z0-9_-]+/)*[a-zA-Z0-9_-]+\.(?:txt|png|jpe?g|webp|zip|vtt|json|mp4|css|js|pdf|ttf|woff2|csv|svg|docx))'))
 config.setdefault('documents', [])
 documents = set(unique_strings('documents', r'/archive/[a-z0-9-]+\.pdf'))
 allowed = set(routes)
+config.setdefault('standalone_routes', [])
+standalone = set(unique_strings('standalone_routes', r'/characters/(?:[a-z0-9-]+/)*(?:[a-z0-9-]+\.html)?'))
+if not standalone <= allowed:
+    raise SystemExit('Standalone pages must be explicitly selected edition routes')
 # Do not follow symlinks even when a target would otherwise appear reachable.
 if any(p.is_symlink() for p in OUT.rglob('*')):
     raise SystemExit('Symlinks are not permitted in staged output')
@@ -137,6 +141,12 @@ for route in routes:
         errors.append('Duplicate IDs: ' + route)
     if not doc.noindex:
         errors.append('Preview noindex missing: ' + route)
+    if route in standalone:
+        if doc.payload:
+            errors.append('Standalone page must not include journey data: ' + route)
+        for ref in doc.resources:
+            retain(ref, p)
+        continue
     try:
         payload = json.loads(doc.payload)
         catalog, starters = payload['catalog'], payload['starters']
@@ -179,6 +189,11 @@ for route, doc in pages.items():
             errors.append('Link to missing selected page: ' + route + ' → ' + ref)
         elif resolved.fragment and unquote(resolved.fragment) not in pages[target].ids:
             errors.append('Missing fragment: ' + route + ' → ' + ref)
+
+# Explicit collection downloads also retain historical assets that have no current page link.
+for ref in sorted(downloads):
+    if ref.startswith('/characters/'):
+        retain(ref, OUT / 'index.html')
 
 # Follow emitted CSS and static module resources, without executing browser code.
 while queue:

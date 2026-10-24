@@ -1,0 +1,138 @@
+{
+  "id": "POD-MOVE-2026102401",
+  "date": "2026-10-24",
+  "authorization": "Direct Founder request: Move characters out of Sishu Kishore and add to project Odisha",
+  "status": "reviewed_local_checks_passed",
+  "input_head": "9d5e82c56914f5d6458ea6740959cf5abd6fbacd",
+  "scope": "Move existing character collection to /characters/ on Project Odisha with source-site redirects; preserve media and historical provenance. No new article claims or programme credit.",
+  "existing_work": "PR515 Dhaga illustration scope remains separate; original dirty Jhula checkout untouched. Current task/article claims empty at inspected head.",
+  "executions": [
+    {
+      "role": "Disha",
+      "runtime": "/root",
+      "scope": "Source retirement, integration, shared records, Git and publishing"
+    },
+    {
+      "role": "Anvesha",
+      "runtime": "/root/anvesha_character_audit",
+      "scope": "Read-only dependency and migration audit"
+    },
+    {
+      "role": "Samanta",
+      "runtime": "/root/samanta_character_import",
+      "scope": "Destination public/characters, destination build/routing support and footer navigation only; no Git, shared records or publishing"
+    },
+    {
+      "role": "Drishti",
+      "runtime": "/root/drishti_character_review",
+      "scope": "Separate read-only review after implementation"
+    }
+  ],
+  "human_review_claimed": false,
+  "reserved_files": {
+    "Disha": [
+      "projects/characters/**",
+      "kb/records/characters-transfer-2026-10-24.json",
+      "kb/registers/records.json",
+      "kb/registers/activity.jsonl",
+      "kb/registers/DASHBOARD.md",
+      "kb/history/LEDGER.md",
+      "source repository retirement and redirects",
+      "kb/team/operations.json",
+      "kb/records/editorial-workbench.json",
+      "kb/records/article-editorial-rollout.json",
+      "kb/records/article-editorial-work-list.md"
+    ],
+    "Samanta": [
+      "projects/site/public/characters/**",
+      "projects/site/editions/coast.json",
+      "projects/site/editions/search-candidate.json",
+      "projects/site/tools and tests required for explicit standalone routes",
+      "projects/site/src/layouts/Shell.astro footer navigation"
+    ]
+  },
+  "audit": {
+    "agent": "/root/anvesha_character_audit",
+    "status": "complete",
+    "findings": [
+      "Copy49 sharing images; preserve two Sishu article citations",
+      "Shared bookPDF font must be retained on source",
+      "Store33ZIP downloads in Project Odisha release to stay below1GB",
+      "No production labels found in public text/binary text; legacy generators preserved as archive"
+    ]
+  },
+  "integration_base": "0d003120f733d1162b32616b2d733a362a4a212f",
+  "download_hosting": {
+    "repository": "ahimanikya/project-odisha",
+    "release_tag": "characters-archive-2026-10-24",
+    "assets": 40,
+    "types": [
+      "zip",
+      "pdf",
+      "docx"
+    ],
+    "reason": "Preserve files unchanged while keeping published website below1,000,000,000bytes; videos remain local for playback.",
+    "status": "40assets_uploaded_and_sha256_verified"
+  },
+  "implementation_validation": {
+    "coast_pages": 623,
+    "coast_files": 1740,
+    "coast_bytes": 937633870,
+    "focused_tests": 24,
+    "indexable_pages_unchanged": 11,
+    "disclosure_violations": 0
+  },
+  "review": {
+    "reviewer": "Drishti /root/drishti_character_review",
+    "independent": true,
+    "human_review": false,
+    "status": "pass_with_limitations",
+    "resolved_findings": [
+      "Correct source/destination manifest public path prefixes",
+      "Preserve historical Git attributes as archived source",
+      "Preserve shared Baloo typography and full-build standalone route checks"
+    ],
+    "checks": [
+      "All484 original public files inventoried with preserved hashes for retained binary assets and40release downloads",
+      "All132 narrative main texts unchanged except site/footer navigation",
+      "6181 local reference checks with no missing targets",
+      "Baloo stylesheet on132pages; five font/licence files equal source",
+      "Explicit standalone route allowlist retains link/fragment/assets validation",
+      "Source retirement preconditions and saved script reviewed"
+    ],
+    "limitations": [
+      "Final rebuilt typography artifact, fullCI and browser/live checks remain coordinator-owned",
+      "Old asset URLs use a JavaScript404 recovery; no server-side HTTP redirects on static hosting",
+      "No new specialist or human editorial review claimed"
+    ],
+    "followup": "Drishti rechecked audit-coast.py standalone rules,132referrer tags,21main IDs and48actual image dimensions; no unresolved findings; narrative unchanged.",
+    "classification_head": "7c54843ca53b4424c8f84c9fc758569f07149331"
+  },
+  "validation": {
+    "full_tests": 592,
+    "coast_tests": 495,
+    "page_acceptance_checks": 2492,
+    "source_public_files_accounted_for": 484,
+    "original_nonHTML_local_files_unchanged": 312,
+    "release_asset_server_hashes_verified": 40,
+    "remaining": "Browser and remote CI/publication checks",
+    "final_published_bytes": 937813925,
+    "clean_full_tests": 592,
+    "clean_coast_tests": 495,
+    "clean_page_acceptance": 2492,
+    "disclosure_files": {
+      "full": 763,
+      "coast": 750,
+      "publish": 751
+    },
+    "disclosure_violations": 0,
+    "discovery_launch_search_publication_audits": "pass"
+  },
+  "subsite_direction": "Founder follow-up: it should have its own directory, like a subsite. Separate /characters/ directory, home and navigation retained.",
+  "ci_correction": "Registered132 transferred creative routes in the existing editorial inventory as excluded from research-article rollout; no programme credit or completion claims. CI run40050428497 identified the missing classification.",
+  "reconciled_parallel_merge": {
+    "main": "92933619",
+    "pull_request": 516,
+    "scope": "Dhaga terminology retained unchanged; active character handoff retained with latest completed Dhaga handoff recorded separately."
+  }
+}
