@@ -1,0 +1,44 @@
+{
+  "input_head": "365570076be99dc148ecc1619d2a603424a4dae6",
+  "checked_at": "2026-10-24T10:33:27.768093+00:00",
+  "worker": "Samanta",
+  "scope": "Read-only schema/reuse and integration assessment; no page10 glyph reading or canonical mutation.",
+  "source_pdf": {
+    "path": "/tmp/pod-dhaga-1893.pdf",
+    "exists": true,
+    "sha256": "c0c818ed2dce7c9872e3141166e0e4676a6bd2c0fd2338c2f6f3b4ce56227dac"
+  },
+  "previous_evidence": {
+    "research": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/odia-dhaga/evidence/dhaga1893-page9-research.json",
+    "sha256": "2ac07e3f000d42ed36c9b83aab81399f6ed2e62509722150d25b081bcdf7378c",
+    "review": "projects/odia-dhaga/evidence/dhaga1893-page9-review.json",
+    "exact_review_binding_matches": true,
+    "previous_render": "/tmp/dhaga1893-page9.png"
+  },
+  "schema_notes": [
+    "Page9 targeted research uses candidates with locator, provisional_reading, secure_visible_excerpt, uncertainties, normalized_reading:null, meaning:null and crosswalk:null. page_complete:false, accepted_corpus_increment:0.",
+    "validate_transcription.py expects full provisional segment schema with source_url,page_status,line_numbering,uncertainty_convention,segments and page boundaries. Do not run it unchanged on targeted candidate reports and misclassify missing segment fields as a research defect.",
+    "For targeted PDF10 keep exact source/image/draft hashes, one-based PDF10 versus printed-page confirmed from actual scan, exact candidate anchors and unresolved continuation limits. Separate AI review should bind reviewed_sha256 to final research file bytes."
+  ],
+  "integration_when_reviewed": [
+    "Copy small page10 research and exact-hash review JSON into canonical evidence/ via Disha; use relative evidence links.",
+    "Append10 once to historical source text_pdf_pages_targeted_inspection and advance next_page_to_attempt11 only after actual inspection/review; update next_action to distinguish targeted work from full transcription.",
+    "Add targeted_page10_inspection_report and targeted_page10_ai_review pointers.",
+    "Keep next_full_transcription_pdf_page2; pages_fully_transcribed[],pages_human_reviewed[],pdf_pages_draft_attempted2\u20136,draft_segments_attempted83,draft_segments_accepted_as_new_entries0 unchanged unless separately performed full-draft work.",
+    "Do not add candidate matches into accepted_entry_ids or entries_with_located_historical_versions without separately reviewed exact attestation."
+  ],
+  "invariants": {
+    "reader_entries": 108,
+    "illustrated_entries": 55,
+    "source_concordance_positions": 127,
+    "accepted_reader_increment": 0,
+    "human_review_increment": 0,
+    "full_page_completion_increment": 0
+  },
+  "tests": "Existing fixture suite passed in immediately preceding integration (32negativecases); not rerun because validator unchanged and page10 target report has a different schema. Source PDF and page9 hash binding rechecked in this assessment.",
+  "limits": [
+    "No new render generated; Anvesha owns page10 visual processing.",
+    "No source-rights certification, human review or accepted transcription claim.",
+    "No reader rebuild, PDFbook change, source127 mapping change, canonical or Git write."
+  ]
+}

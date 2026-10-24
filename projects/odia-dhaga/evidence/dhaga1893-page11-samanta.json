@@ -1,0 +1,97 @@
+{
+  "input_head": "365570076be99dc148ecc1619d2a603424a4dae6",
+  "checked_at": "2026-10-24T11:26:56.600191+00:00",
+  "worker": "Samanta",
+  "scope": "Output-only integration plan; no canonical updates or visual glyph certification.",
+  "canonical_ledger_sha256": "5425729757831056da7988015699f9dbf289091dbc8707907bdee410403f3990",
+  "current_historical_cursor": {
+    "text_pdf_pages_targeted_inspection": [
+      2,
+      3,
+      4,
+      7,
+      8,
+      9
+    ],
+    "next_page_to_attempt": 10,
+    "next_full_transcription_pdf_page": 2,
+    "draft_segments_attempted": 83
+  },
+  "page10_evidence": {
+    "research_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-historical-page10-2026-10-24/anvesha.json",
+    "research_sha256": "6c45b252a942595a36a5fac53e04f97f6d0cd93a5417f8eeafd04e22e5266f11",
+    "review_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-historical-page10-2026-10-24/drishti.json",
+    "review_sha256": "0a4a7965885a348f6c05f4a8a3a4d551738f7a71fc03f0d5ea8540793706b3d3",
+    "exact_binding_and_capture_hash": "pass",
+    "status": "separate AI review pass with limitations, not human review"
+  },
+  "page11_evidence": {
+    "research_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-historical-page11-2026-10-24/anvesha.json",
+    "review_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-historical-page11-2026-10-24/drishti.json",
+    "status": "pending; only HANDOFF.json and pdf11.png available at this check"
+  },
+  "proposed_updates_after_page11_exact_hash_review": {
+    "text_pdf_pages_targeted_inspection": [
+      2,
+      3,
+      4,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "next_page_to_attempt": 12,
+    "next_action": "Next targeted inspection PDF12. PDF10 and PDF11 targeted research and separate AI second readings are not full transcription or accepted reader additions; full-transcription cursor remains 2.",
+    "targeted_page10_inspection_report": "evidence/dhaga1893-page10-research.json",
+    "targeted_page10_ai_review": "evidence/dhaga1893-page10-review.json",
+    "targeted_page11_inspection_report": "evidence/dhaga1893-page11-research.json",
+    "targeted_page11_ai_review": "evidence/dhaga1893-page11-review.json"
+  },
+  "integration_rules": [
+    "Copy page10 and page11 research/review JSON to named evidence destinations; retain raw historical pending-status wording and use separate review as completion evidence.",
+    "Apply union of targeted page IDs once, not append duplicated counts. If page11 is not ready, integrate reviewed page10 alone with next_page_to_attempt 11.",
+    "Update any ledger top-level next_action if present to the same targeted/full-transcription distinction.",
+    "No candidate promotion, historical accepted-entry or concordance crosswalk change from visual resemblance.",
+    "Retain source PDF and capture hashes, page number convention, unresolved clusters and continuation limits. Recheck exact final research SHA against review before integration."
+  ],
+  "unchanged_fields": {
+    "next_full_transcription_pdf_page": 2,
+    "pages_fully_transcribed": [],
+    "pages_human_reviewed": [],
+    "pdf_pages_draft_attempted": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "draft_segments_attempted": 83,
+    "draft_segments_accepted_as_new_entries": 0,
+    "accepted_entry_ids": [
+      "POD-DHAGA-001",
+      "POD-DHAGA-011",
+      "POD-DHAGA-012"
+    ]
+  },
+  "constraints": {
+    "reader_entries": 108,
+    "illustrated_entries": 55,
+    "concordance_positions": 127,
+    "accepted_increment": 0,
+    "human_review_increment": 0,
+    "full_page_completion_increment": 0,
+    "programme_credit": 0
+  },
+  "schema_checks": [
+    "Parsed canonical ledger, collection and concordance; actual counts 108/55/127 verified.",
+    "Page10 exact research/review binding and capture hash pass;18 unique contiguous physical line anchors; candidate IDs unique; null normalization and zero acceptance/full-page completion verified.",
+    "Targeted reports use line_observations/candidates, not full provisional segments schema; existing validate_transcription.py is not applied as a false compatibility gate.",
+    "Page11 schema/AI review still pending: require correct PDF11 anchor, unique candidate IDs, explicit uncertainties, null normalization, false page_complete, zero accepted increment, source/capture hashes and exact review binding."
+  ],
+  "limits": [
+    "No source image read by this worker; Anvesha and Drishti own actual source reading/review.",
+    "No reader regeneration, tests of unchanged builder, PDF mutation, repository or Git edits.",
+    "Saved page10 remains an output checkpoint until coordinator integrates; current canonical ledger still stops at targeted PDF9."
+  ]
+}

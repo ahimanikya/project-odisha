@@ -1,0 +1,42 @@
+{
+  "review_type": "independent AI visual source and ledger-proposal review; not human proofreading",
+  "input_head": "1bab862e8740f7550876db9a1fe6b4652385473f",
+  "status": "pass_with_limitations",
+  "findings": [],
+  "input_hashes": {
+    "anvesha.json": "4ec24e757b3cc03afeed6c46c14d57642234167cd88338c1516b35e1c8810b47",
+    "pdf12.png": "ec19d135fc47c5211d580e031b26df096dd40e1b246e1588288591fd816b115b",
+    "coverage-ledger.json": "12c266b2ed3095adb2f07b309e18cfdd93babb9ff0dc3cd7ae1e630401ae9462",
+    "ledger-checks.json": "91e4d5bc85c1753d8684f142c0629298cb4c5d6fedc9af480e3e431dc2b22cb1"
+  },
+  "source_pdf_sha256": "c0c818ed2dce7c9872e3141166e0e4676a6bd2c0fd2338c2f6f3b4ce56227dac",
+  "actual_checks": [
+    "Independently viewed full PDF12 render; printed11,18 body lines excluding page number/watermark; no intervening heading.",
+    "Two candidate anchors at lines8 and18 supported only provisionally; retain bracketed first word and final verbs, null normalization/meaning/crosswalk.",
+    "Requested line10 verb uncertainty instead of secure-looking transcription; final report brackets this along with Samanta line12/13 cautions. Verified corrected final hash.",
+    "Inspected full partial line inventory and Samanta independent second-read report. Physical lines and apparent wraps are not certified saying boundaries.",
+    "Computed sourcePDF and render SHA256; match report.",
+    "Compared candidate ledger to canonical baseline: exactly nine fields change in Rath1893 row; all other source rows and top-level fields unchanged.",
+    "Targeted pages10,11,12 appended without duplicates; next targeted13. Reapplying set-union and cursor update leaves proposal unchanged.",
+    "Historical full-transcription cursor2,83draft segments, accepted historical IDs, full/human completion arrays all preserved. Unique explained108 and human-proofread0 unchanged.",
+    "Six proposed evidence pointers use portable evidence/ filenames; actual copying and final resolution must be checked at canonical integration."
+  ],
+  "resolved_findings": [
+    "Line10 verb may be ପଶିଲେ rather than ଦିଶିଲେ; now explicitly bracketed alternatives, not silently modernized.",
+    "Line12 terminal and line13 verb uncertainty bracketed following independent second reader."
+  ],
+  "promotion_decision": "Retain internal provisional research only; no accepted historical witness, new reader entry, meaning, complete transcription or human review.",
+  "count_effect": {
+    "accepted_entries": 0,
+    "programme_credit": 0,
+    "human_review": 0,
+    "complete_pages": 0
+  },
+  "rights": "Retained conservative source rights: public access and1893 date are not blanket worldwide/facsimile reuse certification; watermark retained in internal capture.",
+  "limits": [
+    "AI visual reading is provisional and does not certify all unbracketed glyphs.",
+    "No exhaustive semantic deduplication, original author/jurisdiction verification or next-page boundary inspection.",
+    "Samanta manifest/final status may be updated after this report; this review binds ledger bytes and corrected research, not future report hashes.",
+    "No canonical reader, PDF, artwork or source127 edits performed; final integration paths and exact commit require subsequent check."
+  ]
+}

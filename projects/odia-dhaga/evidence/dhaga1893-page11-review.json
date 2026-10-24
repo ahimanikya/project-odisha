@@ -1,0 +1,59 @@
+{
+  "review_type": "separate independent AI visual research review; not human proofreading",
+  "reviewer": "Drishti",
+  "input_head": "365570076be99dc148ecc1619d2a603424a4dae6",
+  "status": "pass_with_limitations",
+  "reviewed_sha256": "2f74bc52ba8724aaab3d133cee37bab46fc4bf5589277459d57e5698ba1170ad",
+  "input_hashes": {
+    "anvesha.json": "2f74bc52ba8724aaab3d133cee37bab46fc4bf5589277459d57e5698ba1170ad",
+    "samanta.json": "df38f483bca960a61c7077343723d8de0a34d15ae030783155b93da8a69d19a3",
+    "pdf11.png": "8fb93522d259f05b87766814b4539ecddaacb39df823ee0c7bbf3587473957b8"
+  },
+  "source_pdf_sha256": "c0c818ed2dce7c9872e3141166e0e4676a6bd2c0fd2338c2f6f3b4ce56227dac",
+  "actual_visual_review": {
+    "image": "pdf11.png",
+    "pdf_page": 11,
+    "printed_page": "10",
+    "physical_body_lines": 18,
+    "excluded": "Printed numeral, watermark and short centered heading between body16/17.",
+    "scope": "Viewed entire image independently and compared partial inventory, candidate anchors and layout. No reconstructed missing clusters."
+  },
+  "candidate_findings": [
+    {
+      "id": "dhaga-rath1893-pdf011-c01",
+      "decision": "retain incomplete candidate; defer promotion",
+      "finding": "Line13 securely supports the contrast through the second କୁଳ as recorded. The following expression remains withheld. Do not supply a familiar modern ending or infer meaning from a reconstructed full proverb."
+    },
+    {
+      "id": "dhaga-rath1893-pdf011-c02",
+      "decision": "retain incomplete candidate; defer promotion",
+      "finding": "Line16 supports the recorded latter phrase. Keep opening compound bracketed and final-word meaning unresolved. This second reading is not an accepted normalization or new explained entry."
+    }
+  ],
+  "findings": [],
+  "boundary_assessment": "The indented second line and final line are visible wraps; the isolated heading is not a body line. Multiple punctuation-separated portions do not establish a count of independent sayings. No new cross-page join asserted; PDF12 not inspected.",
+  "actual_checks": [
+    "Parsed both reports; verified candidate IDs and18 contiguous line anchors.",
+    "Verified original source PDF SHA256 against report.",
+    "Recorded independent hash of exact rendered image, which Anvesha report identifies by path but does not separately hash.",
+    "Viewed full image and checked both candidate locators and remaining partial-line anchors.",
+    "Confirmed null candidate meanings/normalizations/crosswalks, false page completion and zero acceptance."
+  ],
+  "safeguards": {
+    "accepted_increment": 0,
+    "human_review_increment": 0,
+    "full_page_completion_increment": 0,
+    "programme_credit": 0,
+    "next_targeted_page_after_review": 12,
+    "full_transcription_cursor": 2,
+    "reader_count_expected_unchanged": 108,
+    "illustrated_count_expected_unchanged": 55,
+    "concordance_count_expected_unchanged": 127
+  },
+  "limits": [
+    "Partial unbracketed excerpts remain provisional, not certified diplomatic text.",
+    "No complete transcription, full semantic deduplication, lexical explanation, historical-origin claim or rights clearance.",
+    "Samanta plan was written before final research availability; its pending wording is chronological, not a completed integration claim.",
+    "No canonical files, ledger, reader or Git changes; no unrelated tests or source research."
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "input_head": "1bab862e8740f7550876db9a1fe6b4652385473f",
+  "checked_at": "2026-10-24T13:56:00.068848+00:00",
+  "worker": "Samanta",
+  "review_type": "independent AI visual second reading and output-only ledger proposal; not human review",
+  "status": "pass_with_limitations",
+  "actual_image_viewed": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-historical-page12-2026-10-24/pdf12.png",
+  "capture_sha256": "ec19d135fc47c5211d580e031b26df096dd40e1b246e1588288591fd816b115b",
+  "source_pdf_sha256": "c0c818ed2dce7c9872e3141166e0e4676a6bd2c0fd2338c2f6f3b4ce56227dac",
+  "visual_findings": {
+    "pdf_page": 12,
+    "printed_page": "11",
+    "physical_body_lines": 18,
+    "heading": false,
+    "wraps": [
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        14,
+        15
+      ]
+    ],
+    "candidate_8": "Finger/thumb contrast visible; first word remains uncertain. Retain bracketed opening and no normalization or meaning.",
+    "candidate_18": "Work/enemy parallel visible; finalverbs plausibly match bracketed candidates but remain provisional. Do not replace with familiar modern inflected wording.",
+    "requested_corrections": [
+      "Line12 terminal ଏକବଂଶ conjunct/nasal not sufficiently secure; bracket or unread.",
+      "Line13 ଜାଣି unclear in scan; bracket or unread."
+    ],
+    "other_limits": [
+      "Familiar-looking line9 yogi phrase is not completed from memory.",
+      "Line13 punctuation splits more than one phrase; physical lines are not certified saying count.",
+      "Final line has visible danda; no cross-page continuation asserted without PDF13."
+    ]
+  },
+  "existing_reader_comparison": {
+    "entries": 108,
+    "headword_terms_checked": [
+      "ଅଙ୍ଗୁଠି",
+      "ଶତ୍ରୁ",
+      "ଯୋଗୀ",
+      "କାକର"
+    ],
+    "exact_headword_matches": [],
+    "result": "No exact candidate match identified; not exhaustive semantic deduplication."
+  },
+  "ledger_proposal": "coverage-ledger.json",
+  "ledger_tests": "ledger-checks.json",
+  "invariants": {
+    "entries": 108,
+    "illustrations": 55,
+    "concordance_positions": 127,
+    "accepted_increment": 0,
+    "full_transcription_cursor": 2,
+    "draft_segments": 83,
+    "full_page_completion_increment": 0,
+    "human_review_increment": 0,
+    "programme_credit": 0
+  },
+  "checks": [
+    "Actual page image inspected independently before reading Anvesha draft.",
+    "OriginalPDF and rendered image SHA recorded; prior10/11 research hashes match independent reviews.",
+    "Candidate ledger idempotent;9historicalfields only, top-level/other rows unchanged.",
+    "No reader/fullbook regeneration or canonical/Git mutations."
+  ],
+  "limits": [
+    "No glyph certification or complete diplomatic transcription.",
+    "Latest53page flowing print trial untouched."
+  ],
+  "reviewed_sha256": "4ec24e757b3cc03afeed6c46c14d57642234167cd88338c1516b35e1c8810b47",
+  "corrections_resolved": "Requested line12/13 uncertainty brackets applied; Drishti line10 bracket also present. Candidate8/18 unchanged."
+}

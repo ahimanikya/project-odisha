@@ -1,0 +1,122 @@
+{
+  "status": "reviewed_candidate",
+  "input_head": "1bab862e8740f7550876db9a1fe6b4652385473f",
+  "scope": "Integrate separately reviewed targeted historical PDF10–12 research checkpoints and coverage ledger; no accepted entry or print changes",
+  "reserved_files": [
+    "projects/odia-dhaga/coverage-ledger.json",
+    "projects/odia-dhaga/evidence/dhaga1893-page10-*.json",
+    "projects/odia-dhaga/evidence/dhaga1893-page11-*.json",
+    "projects/odia-dhaga/evidence/dhaga1893-page12-*.json"
+  ],
+  "workers": {
+    "Anvesha": "Targeted page12 visual reading; outputs only",
+    "Samanta": "Independent visual reading and idempotent ledger candidate",
+    "Drishti": "Separate source/ledger and exact-head AI review"
+  },
+  "ownership_reconciliation": "Poda receipt PR525 merged1bab862e; conditional release satisfied. Clean remote-main base.",
+  "counts": {
+    "explained": 108,
+    "illustrated": 55,
+    "new_accepted": 0,
+    "programme_credit": 0,
+    "full_transcription_cursor": 2
+  },
+  "print_preservation": "Local53-page trial preserved; canonical60-page unchanged",
+  "scope_release": "After reviewed required-check-passing PR merge; repository-only evidence delivery needs no public-site deployment",
+  "review": "projects/odia-dhaga/evidence/dhaga1893-page12-review.json",
+  "evidence_manifest": {
+    "input_head": "1bab862e8740f7550876db9a1fe6b4652385473f",
+    "checked_at": "2026-10-24T13:57:11.137725+00:00",
+    "status": "reviewed_output_only_candidate",
+    "ledger": {
+      "staged": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-historical-page12-2026-10-24/coverage-ledger.json",
+      "canonical_destination": "projects/odia-dhaga/coverage-ledger.json",
+      "sha256": "12c266b2ed3095adb2f07b309e18cfdd93babb9ff0dc3cd7ae1e630401ae9462"
+    },
+    "evidence": [
+      {
+        "source": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-historical-page10-2026-10-24/anvesha.json",
+        "staged": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-historical-page12-2026-10-24/evidence/dhaga1893-page10-research.json",
+        "canonical_destination": "projects/odia-dhaga/evidence/dhaga1893-page10-research.json",
+        "sha256": "6c45b252a942595a36a5fac53e04f97f6d0cd93a5417f8eeafd04e22e5266f11",
+        "unchanged_bytes": true
+      },
+      {
+        "source": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-historical-page10-2026-10-24/drishti.json",
+        "staged": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-historical-page12-2026-10-24/evidence/dhaga1893-page10-review.json",
+        "canonical_destination": "projects/odia-dhaga/evidence/dhaga1893-page10-review.json",
+        "sha256": "0a4a7965885a348f6c05f4a8a3a4d551738f7a71fc03f0d5ea8540793706b3d3",
+        "unchanged_bytes": true
+      },
+      {
+        "source": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-historical-page10-2026-10-24/samanta.json",
+        "staged": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-historical-page12-2026-10-24/evidence/dhaga1893-page10-samanta.json",
+        "canonical_destination": "projects/odia-dhaga/evidence/dhaga1893-page10-samanta.json",
+        "sha256": "b38105304b798f3cc95d5e7a84285c97fbd735bebc4a25c9c4fe6d16a1b65244",
+        "unchanged_bytes": true
+      },
+      {
+        "source": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-historical-page11-2026-10-24/anvesha.json",
+        "staged": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-historical-page12-2026-10-24/evidence/dhaga1893-page11-research.json",
+        "canonical_destination": "projects/odia-dhaga/evidence/dhaga1893-page11-research.json",
+        "sha256": "2f74bc52ba8724aaab3d133cee37bab46fc4bf5589277459d57e5698ba1170ad",
+        "unchanged_bytes": true
+      },
+      {
+        "source": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-historical-page11-2026-10-24/drishti.json",
+        "staged": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-historical-page12-2026-10-24/evidence/dhaga1893-page11-review.json",
+        "canonical_destination": "projects/odia-dhaga/evidence/dhaga1893-page11-review.json",
+        "sha256": "46c7adcb9403aa3a7a36ccd02901c1fb0f3012bb810b90a5a64f6507213f483c",
+        "unchanged_bytes": true
+      },
+      {
+        "source": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-historical-page11-2026-10-24/samanta.json",
+        "staged": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-historical-page12-2026-10-24/evidence/dhaga1893-page11-samanta.json",
+        "canonical_destination": "projects/odia-dhaga/evidence/dhaga1893-page11-samanta.json",
+        "sha256": "df38f483bca960a61c7077343723d8de0a34d15ae030783155b93da8a69d19a3",
+        "unchanged_bytes": true
+      },
+      {
+        "source": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-historical-page12-2026-10-24/anvesha.json",
+        "staged": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-historical-page12-2026-10-24/evidence/dhaga1893-page12-research.json",
+        "canonical_destination": "projects/odia-dhaga/evidence/dhaga1893-page12-research.json",
+        "sha256": "4ec24e757b3cc03afeed6c46c14d57642234167cd88338c1516b35e1c8810b47",
+        "unchanged_bytes": true
+      },
+      {
+        "source": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-historical-page12-2026-10-24/drishti.json",
+        "staged": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-historical-page12-2026-10-24/evidence/dhaga1893-page12-review.json",
+        "canonical_destination": "projects/odia-dhaga/evidence/dhaga1893-page12-review.json",
+        "sha256": "49d558ab2a350a151b96bc760c4e5fa3a47c9fc165c02728eee54acd2967b7f8",
+        "unchanged_bytes": true
+      },
+      {
+        "source": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-historical-page12-2026-10-24/samanta.json",
+        "staged": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-historical-page12-2026-10-24/evidence/dhaga1893-page12-samanta.json",
+        "canonical_destination": "projects/odia-dhaga/evidence/dhaga1893-page12-samanta.json",
+        "sha256": "4c410ea05ea510043ea6a33a07808fb828e4d593f92ca205963963639f2594a3",
+        "unchanged_bytes": true
+      },
+      {
+        "source": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-historical-page11-2026-10-24/camphor-followup.json",
+        "staged": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-historical-page12-2026-10-24/evidence/dhaga1893-page11-camphor-followup.json",
+        "canonical_destination": "projects/odia-dhaga/evidence/dhaga1893-page11-camphor-followup.json",
+        "sha256": "b7c1d85c8b085d8854083dbf223156ee33e94e6e4b08399872c3027414fb9343",
+        "unchanged_bytes": true
+      }
+    ],
+    "checks": [
+      "All10JSONreports copied byte-for-byte, preserving original statuses and historical source/capture hashes.",
+      "No page facsimiles, reader, PDF, code or assets in package.",
+      "All6new ledger evidence pointers resolve in staged package.",
+      "All3research/review bindings match exact bytes.",
+      "Ledger patch idempotency and unchanged83draftsegments/fullcursor2/108entries55illustrations127positions tested."
+    ],
+    "tooling_note": "Initial packaging check expected reviewed_sha256; page12review uses input_hashes.anvesha.json. Read actual schema and rechecked correctly; no evidence altered.",
+    "limits": [
+      "Research documents retain original absolute capture paths as provenance; these are not bundled facsimiles or runtime dependencies.",
+      "Separate review is AI review only. No new accepted entries, programme credit, full transcription or human review.",
+      "Canonical integration reserved for Disha."
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "review_type": "separate independent AI visual research review; not human proofreading",
+  "reviewer": "Drishti",
+  "input_head": "365570076be99dc148ecc1619d2a603424a4dae6",
+  "status": "pass_with_limitations",
+  "reviewed_sha256": "6c45b252a942595a36a5fac53e04f97f6d0cd93a5417f8eeafd04e22e5266f11",
+  "input_hashes": {
+    "anvesha.json": "6c45b252a942595a36a5fac53e04f97f6d0cd93a5417f8eeafd04e22e5266f11",
+    "samanta.json": "b38105304b798f3cc95d5e7a84285c97fbd735bebc4a25c9c4fe6d16a1b65244",
+    "pdf10.png": "4263c6d21607c35cc2c82822f884a72f3b9d67dcab521f6dd5224e2e942df143"
+  },
+  "visual_inspection": {
+    "actual_image_viewed": "pdf10.png",
+    "scope": "Entire rendered page, with particular second reading of body lines9 and15.",
+    "physical_body_lines": 18,
+    "printed_page": "9",
+    "body_heading": false,
+    "line_count_caution": "Physical lines are not a saying count; wrapped and punctuation-separated portions remain distinct from certified proverb boundaries."
+  },
+  "candidate_findings": [
+    {
+      "id": "dhaga-rath1893-pdf010-c01",
+      "decision": "retain provisional possible POD-DHAGA-006 comparison only",
+      "finding": "The visible line supports the retained sequence after the bracketed opening, including the old-form negative phrase recorded as ନ ଅଛଇ. The opening remains uncertain. Do not replace the visible form with the modern witness or certify identity from resemblance.",
+      "accepted": false
+    },
+    {
+      "id": "dhaga-rath1893-pdf010-c02",
+      "decision": "retain legible candidate for later lexical and explanatory review",
+      "finding": "Independent visual reading supports the recorded camphor/cloth phrase at physical line15. No meaning, modern normalization, origin or accepted-reader status follows from this reading alone.",
+      "accepted": false
+    }
+  ],
+  "boundaries": "First two indented lines are compatible with a continuation but this review does not establish an incoming join. Last physical line visibly ends in punctuation; PDF11 not inspected, so no outgoing join assertion.",
+  "findings": [],
+  "checks": [
+    "Read Anvesha and Samanta reports.",
+    "Viewed actual full-page image and counted18 body lines excluding numeral and watermark.",
+    "Compared candidate anchors and partial-line inventory to the image; retained all unresolved clusters, with no speculative filling.",
+    "Verified capture hash, JSON validity,18line inventory, null normalizations, page_complete:false and accepted increment0."
+  ],
+  "integration_safeguards": {
+    "accepted_reader_increment": 0,
+    "full_transcription_completion_increment": 0,
+    "human_review_increment": 0,
+    "full_transcription_cursor": 2,
+    "targeted_next_page": 11,
+    "reader_entries_unchanged_expected": 108,
+    "illustrated_entries_unchanged_expected": 55,
+    "source127_positions_unchanged_expected": 127
+  },
+  "limits": [
+    "This is a bounded provisional AI second reading, not a complete diplomatic transcription or human-proofread text.",
+    "No independent new PDF rendering or whole-book rights determination; image hash verified against supplied research.",
+    "Unbracketed fragments remain provisional; no certification of every historical glyph or reconstructed word.",
+    "No semantic deduplication or explanatory research completed for the camphor candidate.",
+    "No canonical, reader, ledger or programme updates made. Existing validator fixtures were not rerun because this is targeted research rather than full-transcription schema."
+  ]
+}
