@@ -38,18 +38,18 @@ def make_book(root=ROOT):
             # Preserve Odia shaping in mixed-language credits and text.
             chunks=re.split(r'([\u0b00-\u0b7f]+)',str(text));s=''.join('<font name="Odia">'+escape(c)+'</font>' if re.search(r'[\u0b00-\u0b7f]',c) else escape(c) for c in chunks)
             return Paragraph(s,styles[kind])
-        story=[Spacer(1,90),p('ଓଡ଼ିଆ ଢଗଢମାଳି','title'),p('Odia Sayings and Proverbs','heading'),p('108 sayings in Odia and English'),Spacer(1,22),p('By Ahimanikya Satapathy'),Spacer(1,35),p('Project Odisha · Reading edition'),PageBreak(),p('ଢଗଢମାଳି ବିଷୟରେ','title'),p('About this collection','heading')]
+        story=[Spacer(1,90),p('ଓଡ଼ିଆ ଢଗଢମାଳି','title'),p('Odia Sayings and Proverbs','heading'),p('108 Dhaga in Odia and English'),Spacer(1,22),p('By Ahimanikya Satapathy'),Spacer(1,35),p('Project Odisha · Reading edition'),PageBreak(),p('ଢଗଢମାଳି ବିଷୟରେ','title'),p('About this collection','heading')]
         for x in data['book_intro']['odia']:story.append(p(x,'odia'))
         for x in data['book_intro']['english']:story.append(p(x))
-        story += [Spacer(1,20),p('Read by theme or follow the sayings in order. The examples are original illustrations of everyday use.'),PageBreak(),p('Contents','heading')]
+        story += [Spacer(1,20),p('Read by theme or follow the Dhaga in order. The examples are original illustrations of everyday use.'),PageBreak(),p('Contents','heading')]
         byid={e['id']:e for e in data['entries']}; ordered=[]; next_page=4; frames=[]
         for ch in design['shelves']:
-            story.append(p(f"{ch['label']} · {len(ch['entry_ids'])} sayings · page {next_page}"));ordered.extend(byid[i] for i in ch['entry_ids']);next_page+=len(ch['entry_ids'])
-        story += [Spacer(1,20),p('Each reading includes the saying, its literal sense, meaning and an original usage example. Source acknowledgements and reuse rights are collected at the end.','small')]
+            story.append(p(f"{ch['label']} · {len(ch['entry_ids'])} Dhaga · page {next_page}"));ordered.extend(byid[i] for i in ch['entry_ids']);next_page+=len(ch['entry_ids'])
+        story += [Spacer(1,20),p('Each reading includes the Dhaga, its literal sense, meaning and an original usage example. Source acknowledgements and reuse rights are collected at the end.','small')]
         primary={}
         for ch in design['shelves']:
             for j,ident in enumerate(ch['entry_ids']):
-                e=byid[ident];story.append(PageBreak());blocks=[p(ch['label']+' · Saying '+e['id'].rsplit('-',1)[1],'label'),p(e['odia'],'saying'),p(e['title'],'heading'),p(e.get('meaning_odia',''),'odia')]
+                e=byid[ident];story.append(PageBreak());blocks=[p(ch['label']+' · Dhaga '+e['id'].rsplit('-',1)[1],'label'),p(e['odia'],'saying'),p(e['title'],'heading'),p(e.get('meaning_odia',''),'odia')]
                 for label,key in [('Literal meaning','literal_meaning'),('Meaning','explanation'),('An example · original','usage_example'),('In context','cultural_context')]:
                     blocks += [p(label,'label'),p(e[key])]
                 g=e.get('graphic')
@@ -74,7 +74,7 @@ def make_book(root=ROOT):
             else:
                 url=quote(s['url'],safe=':/?&=%#')
                 label=re.sub(r'[\u0b00-\u0b7f]+','',s['title']).strip();label=re.sub(r'\(\s*\)','',label)
-            story.append(KeepTogether([p(label,'body'),p('Sayings '+', '.join(ids)+' · '+url,'small'),*([p(s['rights'],'small')] if not ('wiktionary' in parts.netloc or 'incubator.wikimedia' in parts.netloc) else [])]))
+            story.append(KeepTogether([p(label,'body'),p('Dhaga '+', '.join(ids)+' · '+url,'small'),*([p(s['rights'],'small')] if not ('wiktionary' in parts.netloc or 'incubator.wikimedia' in parts.netloc) else [])]))
         out=root/'odia-dhaga-book.pdf'
         def page_number(c,doc):
             c.saveState();c.setFont('English',8);c.setFillColor(colors.HexColor('#665c52'));c.drawCentredString(width/2,28,str(doc.page));c.restoreState()
