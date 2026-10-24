@@ -280,7 +280,8 @@ def consolidate_entry_sources(page, entry):
     extra='<h3>Origins and uncertainty</h3><p>'+public_note(entry['origin_note'])+'</p><h3>Entry reuse</h3><p>'+esc(entry['rights_note'])+'</p><p>Original commentary and illustrations: Project Odisha · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Fonts: Noto Serif Oriya and Source Serif 4, SIL Open Font License.</p>'
     for v in entry.get('variants',[]):
         if not v.get('source_id'):extra+='<p class="odia" lang="or">'+esc(v['odia'])+'</p><p>'+public_note(v['note'])+'</p>'
-    page=page.replace('<section id="sources"><h2>Sources &amp; rights</h2>','<section id="sources"><h2>Sources &amp; rights</h2>'+extra)
+    page=page.replace('<section id="sources"><h2>Sources &amp; rights</h2>','<section id="sources"><details><summary>Sources &amp; rights</summary>'+extra)
+    page=page.replace('</section></main>', '</details></section></main>', 1)
     return page
 
 def build_library(directory=ROOT):
