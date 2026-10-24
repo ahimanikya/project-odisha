@@ -3,6 +3,8 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,existsSync,readdirSync,statSync} from 'node:fs';
 import {resolve,dirname,join} from 'node:path';
+const scope=JSON.parse(readFileSync('editions/coast.json','utf8'));
+const standalonePages=new Set((scope.standalone_routes||[]).map(route=>route.slice(1)+(route.endsWith('/')?'index.html':'')));
 const root=resolve('dist');
 const files=readdirSync(root,{recursive:true}).filter(f=>statSync(join(root,f)).isFile());
 const pages=files.filter(f=>f.endsWith('.html'));
@@ -10,7 +12,7 @@ const read=f=>readFileSync(join(root,f),'utf8');
 test('all built local links, assets and fragment targets resolve',()=>{
   const details=JSON.parse(readFileSync('../../kb/research/destinations/details.json','utf8'));
   const voices=JSON.parse(readFileSync('../../kb/research/voices/collection.json','utf8'));
-  assert.equal(pages.length,135+reviewedArticleCount+JSON.parse(readFileSync('../../kb/research/food/restaurants.json','utf8')).venues.length+JSON.parse(readFileSync('../../kb/records/pending-reading-room.json','utf8')).entries.length+JSON.parse(readFileSync('../../kb/research/references/data/osha-culture.json','utf8')).pages.length+JSON.parse(readFileSync('../../kb/research/destinations/flexible-visit-plans.json','utf8')).plans.length+JSON.parse(readFileSync('../../kb/research/culture/craft-stories.json','utf8')).pages.length+JSON.parse(readFileSync('../../kb/research/destinations/central-details.json','utf8')).records.length+details.records.length+JSON.parse(readFileSync('../../kb/research/destinations/northern-details.json','utf8')).records.length+JSON.parse(readFileSync('../../kb/research/food/collection.json','utf8')).pages.length+voices.pages.length+JSON.parse(readFileSync('../../kb/research/destinations/regions.json','utf8')).regions.length);
+  assert.equal(pages.length,standalonePages.size+135+reviewedArticleCount+JSON.parse(readFileSync('../../kb/research/food/restaurants.json','utf8')).venues.length+JSON.parse(readFileSync('../../kb/records/pending-reading-room.json','utf8')).entries.length+JSON.parse(readFileSync('../../kb/research/references/data/osha-culture.json','utf8')).pages.length+JSON.parse(readFileSync('../../kb/research/destinations/flexible-visit-plans.json','utf8')).plans.length+JSON.parse(readFileSync('../../kb/research/culture/craft-stories.json','utf8')).pages.length+JSON.parse(readFileSync('../../kb/research/destinations/central-details.json','utf8')).records.length+details.records.length+JSON.parse(readFileSync('../../kb/research/destinations/northern-details.json','utf8')).records.length+JSON.parse(readFileSync('../../kb/research/food/collection.json','utf8')).pages.length+voices.pages.length+JSON.parse(readFileSync('../../kb/research/destinations/regions.json','utf8')).regions.length);
   for(const file of pages){
     const html=read(file);
     for(const [,raw] of html.matchAll(/(?:href|src)="([^"]+)"/g)){
@@ -63,7 +65,10 @@ test('main website excludes the unpublished Store collection and links',()=>{
 // A successful page build must also carry its shared design version and usable fonts.
 test('every website page uses the same design system and retains font distribution licences',()=>{
  const pkg=JSON.parse(readFileSync('../design-system/package.json','utf8'));
- for(const file of pages.filter(f=>f!=="downloads/heritage-walks/odisha-heritage-walks.html"))assert.ok(read(file).includes(`name="utkal-design-system" content="${pkg.version}"`),file);
+ for(const file of pages.filter(f=>f!=="downloads/heritage-walks/odisha-heritage-walks.html"&&!standalonePages.has(f)))assert.ok(read(file).includes(`name="utkal-design-system" content="${pkg.version}"`),file);
+ for(const file of standalonePages)assert.ok(read(file).includes('href="/characters/assets/typography.css"'),file);
+ assert.match(read('characters/assets/typography.css'),/font-family:var\(--character-type\)!important/);
+ assert.ok(read('characters/assets/fonts/baloo-bhaina-2-OFL.txt').includes('SIL OPEN FONT LICENSE'));
  for(const name of ['CormorantGaramond-OFL.txt','SourceSerif4-OFL.txt','NotoSerifOriya-OFL.txt'])assert.equal(read('fonts/utkal/'+name),readFileSync('../design-system/fonts/'+name,'utf8'));
  const cssFiles=files.filter(f=>f.endsWith('.css'));
  let fonts=0;

@@ -1167,3 +1167,7 @@ Founder authorized the family migration and selected Odisha Store (ODS). Current
 ## POD-HIS-PAIKA-20261022 · Community origins and Odia heritage
 
 The Founder requested a series beginning with Paika and extending to Odisha caste and community origins, with Odia identity and inherited customs central. The first candidate distinguishes military service, community identities and living traditions. Documented evidence, origin accounts and recent adoption must remain distinguishable; no single caste founder or universal cultural history is assumed. Publication remains subject to the existing reviewed release process. [Current Paika handoff](../records/paika-editorial-team-2026-10-22.json). Exact Founder wording is preserved in the structured ledger.
+
+### 24 October 2026 — Character collection transfer
+
+Founder requested moving character worlds from Sishu Kishore to Project Odisha. Work reserved in `records/characters-transfer-2026-10-24.json`; separate audit and implementation began in an isolated worktree. Existing draft status and media retained; no substantive programme credit.

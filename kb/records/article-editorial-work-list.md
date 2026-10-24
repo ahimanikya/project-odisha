@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 491. completed: 96, excluded: 76, queued: 319.
+Route inventory: 623. completed: 96, excluded: 208, queued: 319.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -505,3 +505,135 @@ Route inventory: 491. completed: 96, excluded: 76, queued: 319.
 | POD-EDIT-489 | [Balakati metalcraft: the work behind the ringing](https://projectodisha.org/crafts/balakati-metalcraft/) | completed | Reviewed standalone illustrated research article |
 | POD-EDIT-490 | [Sahi Jatra: Puri’s neighbourhoods in performance](https://projectodisha.org/stories/sahi-jatra/) | completed | Reviewed standalone illustrated research article |
 | POD-EDIT-491 | [Reading Abana Rasataranga: letters, vowels and poetic constraint](https://projectodisha.org/literature/abana-rasataranga/) | completed | Reviewed standalone illustrated research article |
+| POD-EDIT-492 | [ଅବୋଲକରା ଓ ସାଆନ୍ତ](https://projectodisha.org/characters/abolakara.html) | excluded | standalone_character_subsite |
+| POD-EDIT-493 | [ଭାଷା ଯାଞ୍ଚ](https://projectodisha.org/characters/abolakara/language-review/) | excluded | standalone_character_subsite |
+| POD-EDIT-494 | [ପାଣିର ବାଟ](https://projectodisha.org/characters/abolakara/pilot-story/finished-page-v1.html) | excluded | standalone_character_subsite |
+| POD-EDIT-495 | [ବାଟରେ କଥା · ଓଡ଼ିଶାର ଆଠଟି ଚରିତ୍ର ଜଗତ](https://projectodisha.org/characters/batare-katha.html) | excluded | standalone_character_subsite |
+| POD-EDIT-496 | [ବୋଇତର ସାଥୀ · ଓଡ଼ିଶାର ଚରିତ୍ର ଜଗତ](https://projectodisha.org/characters/boita-sadhaba.html) | excluded | standalone_character_subsite |
+| POD-EDIT-497 | [ପାଲ ଉଠିବା ଆଗରୁ · ଭାଷା ଯାଞ୍ଚ](https://projectodisha.org/characters/boita-sadhaba/language-review/) | excluded | standalone_character_subsite |
+| POD-EDIT-498 | [ପାଲ ଉଠିବା ଆଗରୁ · ବୋଇତର ସାଥୀ](https://projectodisha.org/characters/boita-sadhaba/pilot-story/finished-page-v1.html) | excluded | standalone_character_subsite |
+| POD-EDIT-499 | [ପାଲ ଉଠିବା ଆଗରୁ · ବୋଇତର ସାଥୀ](https://projectodisha.org/characters/boita-sadhaba/pilot-story/) | excluded | standalone_character_subsite |
+| POD-EDIT-500 | [ପାଲ ଉଠିବା ଆଗରୁ · ବୋଇତର ସାଥୀ](https://projectodisha.org/characters/boita-sadhaba/pilot-story/page-english-v1.html) | excluded | standalone_character_subsite |
+| POD-EDIT-501 | [ପାଲ ଉଠିବା ଆଗରୁ · ବୋଇତର ସାଥୀ](https://projectodisha.org/characters/boita-sadhaba/pilot-story/page-odia-v1.html) | excluded | standalone_character_subsite |
+| POD-EDIT-502 | [ଛୋଟ କାରିଗର · ଓଡ଼ିଶାର ଆଠଟି ଚରିତ୍ର ଜଗତ](https://projectodisha.org/characters/chhota-karigara.html) | excluded | standalone_character_subsite |
+| POD-EDIT-503 | [ଛଅ ଦଳର ତୁଳନା · ଓଡ଼ିଶାର ଆଠଟି ଚରିତ୍ର ଜଗତ](https://projectodisha.org/characters/comparison.html) | excluded | standalone_character_subsite |
+| POD-EDIT-504 | [ସମ୍ପୂର୍ଣ୍ଣ ବିସ୍ତୃତ ରିପୋର୍ଟ · ଓଡ଼ିଶାର ଆଠଟି ଚରିତ୍ର ଜଗତ](https://projectodisha.org/characters/complete-report.html) | excluded | standalone_character_subsite |
+| POD-EDIT-505 | [ଅଧ୍ୟୟନରୁ ଛପା ଆଡ଼କୁ · ଓଡ଼ିଶାର ଆଠଟି ଚରିତ୍ର ଜଗତ](https://projectodisha.org/characters/design-path.html) | excluded | standalone_character_subsite |
+| POD-EDIT-506 | [ଧରମା / ଧର୍ମପଦ](https://projectodisha.org/characters/dharmapada.html) | excluded | standalone_character_subsite |
+| POD-EDIT-507 | [ଭାଷା ଯାଞ୍ଚ](https://projectodisha.org/characters/dharmapada/language-review/) | excluded | standalone_character_subsite |
+| POD-EDIT-508 | [ଅଗଣାର କୋଳି](https://projectodisha.org/characters/dharmapada/pilot-story/finished-page-v1.html) | excluded | standalone_character_subsite |
+| POD-EDIT-509 | [ଆଗେ ମୋ ଗପ · ପ୍ରଥମ ଚଳଚ୍ଚିତ୍ର ଖସଡ଼ା](https://projectodisha.org/characters/films/benu-my-story-first/first-cut-v1.html) | excluded | standalone_character_subsite |
+| POD-EDIT-510 | [ଆଗେ ମୋ ଗପ · ସମୟଧରା ଖସଡ଼ା](https://projectodisha.org/characters/films/benu-my-story-first/) | excluded | standalone_character_subsite |
+| POD-EDIT-511 | [ଛୋଟ ପୁଟୁଳି · The Small Bundle](https://projectodisha.org/characters/films/boita-small-bundle/) | excluded | standalone_character_subsite |
+| POD-EDIT-512 | [ପଥରର ଅନ୍ୟ ପଟେ · ଛୋଟ ଚଳଚ୍ଚିତ୍ର](https://projectodisha.org/characters/films/chiku-round-the-stone/film-v3.html) | excluded | standalone_character_subsite |
+| POD-EDIT-513 | [ପଥରର ଅନ୍ୟ ପଟେ · ପ୍ରଥମ ଚଳଚ୍ଚିତ୍ର ଖସଡ଼ା](https://projectodisha.org/characters/films/chiku-round-the-stone/first-cut-v1.html) | excluded | standalone_character_subsite |
+| POD-EDIT-514 | [ପଥରର ଅନ୍ୟ ପଟେ · ସଂଶୋଧିତ ଚଳଚ୍ଚିତ୍ର ଖସଡ଼ା](https://projectodisha.org/characters/films/chiku-round-the-stone/revised-cut-v2.html) | excluded | standalone_character_subsite |
+| POD-EDIT-515 | [ଟିକେ ରୁହ, ମାମୁ · ପ୍ରଥମ ଚଳଚ୍ଚିତ୍ର ଖସଡ଼ା](https://projectodisha.org/characters/films/dinu-wait-a-moment/first-cut-v1.html) | excluded | standalone_character_subsite |
+| POD-EDIT-516 | [ଟିକେ ରୁହ, ମାମୁ · ସମୟଧରା ଖସଡ଼ା](https://projectodisha.org/characters/films/dinu-wait-a-moment/) | excluded | standalone_character_subsite |
+| POD-EDIT-517 | [ସେଇ ଛୋଟ ଶବ୍ଦ · ଚଳଚ୍ଚିତ୍ର ଖସଡ଼ା](https://projectodisha.org/characters/films/koeli-little-sound/first-cut-v1.html) | excluded | standalone_character_subsite |
+| POD-EDIT-518 | [ସେଇ ଛୋଟ ଶବ୍ଦ · ସମୟଧରା ଖସଡ଼ା](https://projectodisha.org/characters/films/koeli-little-sound/) | excluded | standalone_character_subsite |
+| POD-EDIT-519 | [ସେଇ ଛୋଟ ଶବ୍ଦ · ଚଳନର ନମୁନା](https://projectodisha.org/characters/films/koeli-little-sound/motion-v1.html) | excluded | standalone_character_subsite |
+| POD-EDIT-520 | [ଆଉ ଟିକେ ବସ · ଚଳଚ୍ଚିତ୍ର ଖସଡ଼ା](https://projectodisha.org/characters/films/malati-stay-a-moment/first-cut-v1.html) | excluded | standalone_character_subsite |
+| POD-EDIT-521 | [ଆଉ ଟିକେ ବସ · ସମୟଧରା ଖସଡ଼ା](https://projectodisha.org/characters/films/malati-stay-a-moment/) | excluded | standalone_character_subsite |
+| POD-EDIT-522 | [ଆଉ ଟିକେ ବସ · ସଂଶୋଧିତ ଚଳଚ୍ଚିତ୍ର ଖସଡ଼ା](https://projectodisha.org/characters/films/malati-stay-a-moment/revised-cut-v2.html) | excluded | standalone_character_subsite |
+| POD-EDIT-523 | [ମୋ କଥାଟିଏ · ସମୟଧରା ଖସଡ଼ା](https://projectodisha.org/characters/films/mother-message-from-me/) | excluded | standalone_character_subsite |
+| POD-EDIT-524 | [ଏ ପଟଟା ଧର · ପ୍ରଥମ ଚଳଚ୍ଚିତ୍ର ଖସଡ଼ା](https://projectodisha.org/characters/films/nilu-hold-this-end/first-cut-v1.html) | excluded | standalone_character_subsite |
+| POD-EDIT-525 | [ଏ ପଟଟା ଧର · ସମୟଧରା ଖସଡ଼ା](https://projectodisha.org/characters/films/nilu-hold-this-end/) | excluded | standalone_character_subsite |
+| POD-EDIT-526 | [ଏ ପଟଟା ଧର · ଚଳନର ନମୁନା](https://projectodisha.org/characters/films/nilu-hold-this-end/motion-v1.html) | excluded | standalone_character_subsite |
+| POD-EDIT-527 | [ଏ ପଟଟା ଧର · ସଂଶୋଧିତ ଚଳଚ୍ଚିତ୍ର ଖସଡ଼ା](https://projectodisha.org/characters/films/nilu-hold-this-end/revised-cut-v2.html) | excluded | standalone_character_subsite |
+| POD-EDIT-528 | [ଏଇ ସିଲେଇଟା ସରୁ · ସମୟଧରା ଖସଡ଼ା](https://projectodisha.org/characters/films/reba-one-last-seam/) | excluded | standalone_character_subsite |
+| POD-EDIT-529 | [ଏ ଗଧ କେଉଁଠୁ ଆସିଲା? · ପ୍ରଥମ ଚଳଚ୍ଚିତ୍ର ଖସଡ଼ା](https://projectodisha.org/characters/films/saanta-wrong-ending/first-cut-v1.html) | excluded | standalone_character_subsite |
+| POD-EDIT-530 | [ଏ ଗଧ କେଉଁଠୁ ଆସିଲା? · ସମୟଧରା ଖସଡ଼ା](https://projectodisha.org/characters/films/saanta-wrong-ending/) | excluded | standalone_character_subsite |
+| POD-EDIT-531 | [ଗୁଡ଼ୁଲ୍–ଗୁଡ଼ଲି · ଓଡ଼ିଶାର ଆଠଟି ଚରିତ୍ର ଜଗତ](https://projectodisha.org/characters/gudul-gudli.html) | excluded | standalone_character_subsite |
+| POD-EDIT-532 | [ପରିଚୟ · ଓଡ଼ିଶାର ଆଠଟି ଚରିତ୍ର ଜଗତ](https://projectodisha.org/characters/) | excluded | standalone_character_subsite |
+| POD-EDIT-533 | [କୋଇଲି · ଗୀତ ଓ ଗପର ସାଥୀ](https://projectodisha.org/characters/koeli.html) | excluded | standalone_character_subsite |
+| POD-EDIT-534 | [କୋରାପୁଟର ସାଥୀମାନେ · ଓଡ଼ିଶାର ଆଠଟି ଚରିତ୍ର ଜଗତ](https://projectodisha.org/characters/koraput.html) | excluded | standalone_character_subsite |
+| POD-EDIT-535 | [ନୀଳୁ–ଚଇତି · ଓଡ଼ିଶାର ଆଠଟି ଚରିତ୍ର ଜଗତ](https://projectodisha.org/characters/nilu-chaiti.html) | excluded | standalone_character_subsite |
+| POD-EDIT-536 | [ପୋଷାକରେ ମଣିଷ ଓ ତାଙ୍କ ଅଞ୍ଚଳ](https://projectodisha.org/characters/regional-dress.html) | excluded | standalone_character_subsite |
+| POD-EDIT-537 | [ଗଣ୍ଠିଟା କାହିଁକି?](https://projectodisha.org/characters/scripts/abolakara-knot-for-what.html) | excluded | standalone_character_subsite |
+| POD-EDIT-538 | [ଶେଷ କଥା](https://projectodisha.org/characters/scripts/abolakara-last-word.html) | excluded | standalone_character_subsite |
+| POD-EDIT-539 | [ଦୁଇ ମୁଠା](https://projectodisha.org/characters/scripts/abolakara-two-handfuls.html) | excluded | standalone_character_subsite |
+| POD-EDIT-540 | [ତୁମର ଆଠ, ମୋର ବାର](https://projectodisha.org/characters/scripts/benu-eight-and-twelve.html) | excluded | standalone_character_subsite |
+| POD-EDIT-541 | [ଆଗେ ମୋ ଗପ](https://projectodisha.org/characters/scripts/benu-my-story-first.html) | excluded | standalone_character_subsite |
+| POD-EDIT-542 | [କାହାର ବାମ ପଟ?](https://projectodisha.org/characters/scripts/benu-which-left.html) | excluded | standalone_character_subsite |
+| POD-EDIT-543 | [ଖାଲି ପାହାଚ](https://projectodisha.org/characters/scripts/bird-empty-step.html) | excluded | standalone_character_subsite |
+| POD-EDIT-544 | [ଛୋଟ ଛିଟା](https://projectodisha.org/characters/scripts/bird-shallow-splash.html) | excluded | standalone_character_subsite |
+| POD-EDIT-545 | [ଏଠି ବସିବି?](https://projectodisha.org/characters/scripts/bird-wrong-perch.html) | excluded | standalone_character_subsite |
+| POD-EDIT-546 | [ଆଉ ଥରେ କହ](https://projectodisha.org/characters/scripts/bisu-listen-again.html) | excluded | standalone_character_subsite |
+| POD-EDIT-547 | [ଖଟା ନା ମିଠା?](https://projectodisha.org/characters/scripts/bisu-sour-berry.html) | excluded | standalone_character_subsite |
+| POD-EDIT-548 | [ଆମେ କରିଛୁ](https://projectodisha.org/characters/scripts/bisu-we-made-it.html) | excluded | standalone_character_subsite |
+| POD-EDIT-549 | [ଆଉ ଗୋଟିଏ ଟିପା](https://projectodisha.org/characters/scripts/chaiti-one-more-dot.html) | excluded | standalone_character_subsite |
+| POD-EDIT-550 | [ଖୋଲିବ କେମିତି?](https://projectodisha.org/characters/scripts/chaiti-open-knot.html) | excluded | standalone_character_subsite |
+| POD-EDIT-551 | [କାଗଜ ଠିଆ ହେଲା](https://projectodisha.org/characters/scripts/chaiti-paper-bridge.html) | excluded | standalone_character_subsite |
+| POD-EDIT-552 | [ଲାଞ୍ଜରେ ପତ୍ର](https://projectodisha.org/characters/scripts/chiku-leaf-on-tail.html) | excluded | standalone_character_subsite |
+| POD-EDIT-553 | [ପଥରର ଅନ୍ୟ ପଟେ](https://projectodisha.org/characters/scripts/chiku-round-the-stone.html) | excluded | standalone_character_subsite |
+| POD-EDIT-554 | [କାନ୍ଥର ବାଟ](https://projectodisha.org/characters/scripts/chiku-wall-crossing.html) | excluded | standalone_character_subsite |
+| POD-EDIT-555 | [ମୋ ଏଠୁ ଦେଖ](https://projectodisha.org/characters/scripts/dharama-from-here.html) | excluded | standalone_character_subsite |
+| POD-EDIT-556 | [ବାପା ବୋଲି ଡାକିଲି](https://projectodisha.org/characters/scripts/dharama-saying-bapa.html) | excluded | standalone_character_subsite |
+| POD-EDIT-557 | [ଘରଟା ଦେଖାଇଦେଉଛି](https://projectodisha.org/characters/scripts/dharama-show-you-home.html) | excluded | standalone_character_subsite |
+| POD-EDIT-558 | [ମୋ ଧାଡ଼ି ବି ବଙ୍କା](https://projectodisha.org/characters/scripts/dinu-my-crooked-line.html) | excluded | standalone_character_subsite |
+| POD-EDIT-559 | [ମୋ ପାଇଁ ଟିକେ ଜାଗା](https://projectodisha.org/characters/scripts/dinu-room-for-my-work.html) | excluded | standalone_character_subsite |
+| POD-EDIT-560 | [ଟିକେ ରୁହ, ମାମୁ](https://projectodisha.org/characters/scripts/dinu-wait-a-moment.html) | excluded | standalone_character_subsite |
+| POD-EDIT-561 | [ଏବେ ବସିବା](https://projectodisha.org/characters/scripts/hari-time-to-sit.html) | excluded | standalone_character_subsite |
+| POD-EDIT-562 | [ଆଉ ଦୁଇଟି ହାତ](https://projectodisha.org/characters/scripts/hari-two-pairs-of-hands.html) | excluded | standalone_character_subsite |
+| POD-EDIT-563 | [କେଉଁ ମୁଣ୍ଡଟା?](https://projectodisha.org/characters/scripts/hari-which-end.html) | excluded | standalone_character_subsite |
+| POD-EDIT-564 | [ଭିତର ଭାଙ୍ଗଟା](https://projectodisha.org/characters/scripts/hema-damp-fold.html) | excluded | standalone_character_subsite |
+| POD-EDIT-565 | [ଏଇ ଖଣ୍ଡଟା ରହୁ](https://projectodisha.org/characters/scripts/hema-kept-piece.html) | excluded | standalone_character_subsite |
+| POD-EDIT-566 | [ସେ କହୁ](https://projectodisha.org/characters/scripts/hema-let-her-answer.html) | excluded | standalone_character_subsite |
+| POD-EDIT-567 | [ଏକା ଜାଗାରୁ](https://projectodisha.org/characters/scripts/kanu-same-start.html) | excluded | standalone_character_subsite |
+| POD-EDIT-568 | [ଏଇ କୋଣଟା](https://projectodisha.org/characters/scripts/kanu-this-corner.html) | excluded | standalone_character_subsite |
+| POD-EDIT-569 | [ଦୁଇଟି ନାମ](https://projectodisha.org/characters/scripts/kanu-two-names.html) | excluded | standalone_character_subsite |
+| POD-EDIT-570 | [ଆରମ୍ଭଟା କେଉଁଠି?](https://projectodisha.org/characters/scripts/koeli-first-line.html) | excluded | standalone_character_subsite |
+| POD-EDIT-571 | [ସେଇ ଛୋଟ ଶବ୍ଦ](https://projectodisha.org/characters/scripts/koeli-little-sound.html) | excluded | standalone_character_subsite |
+| POD-EDIT-572 | [ଏଥର ତୁମ ଗପ](https://projectodisha.org/characters/scripts/koeli-your-turn.html) | excluded | standalone_character_subsite |
+| POD-EDIT-573 | [ଧାଡ଼ି ବଦଳିଲା](https://projectodisha.org/characters/scripts/kusum-change-the-row.html) | excluded | standalone_character_subsite |
+| POD-EDIT-574 | [ଆଗେ ଶୁଣ](https://projectodisha.org/characters/scripts/kusum-let-me-finish.html) | excluded | standalone_character_subsite |
+| POD-EDIT-575 | [ଟିକେ ଜାଗା ରହୁ](https://projectodisha.org/characters/scripts/kusum-one-empty-space.html) | excluded | standalone_character_subsite |
+| POD-EDIT-576 | [ବହି ପାଇଁ ଶୁଖିଲା ଜାଗା](https://projectodisha.org/characters/scripts/madhab-dry-books.html) | excluded | standalone_character_subsite |
+| POD-EDIT-577 | [ଆଜି ଏଇ ବାଟ](https://projectodisha.org/characters/scripts/madhab-longer-way.html) | excluded | standalone_character_subsite |
+| POD-EDIT-578 | [ଆସ୍ତେ ଠକ୍‌ଠକ୍](https://projectodisha.org/characters/scripts/madhab-quiet-knock.html) | excluded | standalone_character_subsite |
+| POD-EDIT-579 | [କ’ଣ ଗଣୁଛୁ?](https://projectodisha.org/characters/scripts/malati-count-what.html) | excluded | standalone_character_subsite |
+| POD-EDIT-580 | [ମୋ ଛୋଟ ପୁଟୁଳି](https://projectodisha.org/characters/scripts/malati-small-parcel.html) | excluded | standalone_character_subsite |
+| POD-EDIT-581 | [ଆଉ ଟିକେ ବସ](https://projectodisha.org/characters/scripts/malati-stay-a-moment.html) | excluded | standalone_character_subsite |
+| POD-EDIT-582 | [ଲମ୍ବା ଲାଞ୍ଜର ଛାଇ](https://projectodisha.org/characters/scripts/mandar-long-shadow.html) | excluded | standalone_character_subsite |
+| POD-EDIT-583 | [ବ୍ୟାଗ୍ ଭିତରେ କିଏ?](https://projectodisha.org/characters/scripts/mandar-rustling-bag.html) | excluded | standalone_character_subsite |
+| POD-EDIT-584 | [ଜଣେ ଶ୍ରୋତା କମିଗଲା](https://projectodisha.org/characters/scripts/mandar-small-audience.html) | excluded | standalone_character_subsite |
+| POD-EDIT-585 | [ତୁ ଖୋଲିପାରିବୁ ତ?](https://projectodisha.org/characters/scripts/mother-knot-he-can-open.html) | excluded | standalone_character_subsite |
+| POD-EDIT-586 | [ମୋ କଥାଟିଏ](https://projectodisha.org/characters/scripts/mother-message-from-me.html) | excluded | standalone_character_subsite |
+| POD-EDIT-587 | [ଏଇଟା ମୋର](https://projectodisha.org/characters/scripts/mother-one-for-me.html) | excluded | standalone_character_subsite |
+| POD-EDIT-588 | [ଏ ପଟଟା ଧର](https://projectodisha.org/characters/scripts/nilu-hold-this-end.html) | excluded | standalone_character_subsite |
+| POD-EDIT-589 | [ଏ ଦାଗଟା ମୋର](https://projectodisha.org/characters/scripts/nilu-not-my-mark.html) | excluded | standalone_character_subsite |
+| POD-EDIT-590 | [କେଉଁ ପାଦ?](https://projectodisha.org/characters/scripts/nilu-wrong-foot.html) | excluded | standalone_character_subsite |
+| POD-EDIT-591 | [ଲମ୍ବା ବାଟ](https://projectodisha.org/characters/scripts/puppy-long-way.html) | excluded | standalone_character_subsite |
+| POD-EDIT-592 | [ସେ ଶବ୍ଦଟା](https://projectodisha.org/characters/scripts/puppy-loud-tin.html) | excluded | standalone_character_subsite |
+| POD-EDIT-593 | [ଫେରାଇ ଆଣିବୁ?](https://projectodisha.org/characters/scripts/puppy-not-fetch.html) | excluded | standalone_character_subsite |
+| POD-EDIT-594 | [ହାତରେ କହିଥିଲି](https://projectodisha.org/characters/scripts/raghu-handful-of-water.html) | excluded | standalone_character_subsite |
+| POD-EDIT-595 | [କେବେ ଫେରିବ?](https://projectodisha.org/characters/scripts/raghu-return-day.html) | excluded | standalone_character_subsite |
+| POD-EDIT-596 | [ପାଣି ପାତ୍ରଟା?](https://projectodisha.org/characters/scripts/raghu-water-pot.html) | excluded | standalone_character_subsite |
+| POD-EDIT-597 | [ଏଇ ସିଲେଇଟା ସରୁ](https://projectodisha.org/characters/scripts/reba-one-last-seam.html) | excluded | standalone_character_subsite |
+| POD-EDIT-598 | [ଅନ୍ୟ ପକେଟ୍‌ରେ](https://projectodisha.org/characters/scripts/reba-other-pocket.html) | excluded | standalone_character_subsite |
+| POD-EDIT-599 | [ତଳ ପଟର ମରାମତି](https://projectodisha.org/characters/scripts/reba-patch-faces-in.html) | excluded | standalone_character_subsite |
+| POD-EDIT-600 | [ଗପଟା ଶୁଣିଛି](https://projectodisha.org/characters/scripts/saanta-start-again.html) | excluded | standalone_character_subsite |
+| POD-EDIT-601 | [ଖରାରେ ଛତା](https://projectodisha.org/characters/scripts/saanta-umbrella-in-sun.html) | excluded | standalone_character_subsite |
+| POD-EDIT-602 | [ଏ ଗଧ କେଉଁଠୁ ଆସିଲା?](https://projectodisha.org/characters/scripts/saanta-wrong-ending.html) | excluded | standalone_character_subsite |
+| POD-EDIT-603 | [ପ୍ରଥମଟା ରହୁ](https://projectodisha.org/characters/scripts/tara-keep-the-first.html) | excluded | standalone_character_subsite |
+| POD-EDIT-604 | [ଶେଷ ପତ୍ରଟା](https://projectodisha.org/characters/scripts/tara-last-leaf.html) | excluded | standalone_character_subsite |
+| POD-EDIT-605 | [ନମୁନାଟା ଦେଖ](https://projectodisha.org/characters/scripts/tara-show-the-model.html) | excluded | standalone_character_subsite |
+| POD-EDIT-606 | [ଉତ୍ସ ଓ କୃତିତ୍ୱ · ଓଡ଼ିଶାର ଆଠଟି ଚରିତ୍ର ଜଗତ](https://projectodisha.org/characters/sources.html) | excluded | standalone_character_subsite |
+| POD-EDIT-607 | [ଚରିତ୍ରରୁ ଗପ, ଗପରୁ ଚଳଚ୍ଚିତ୍ର](https://projectodisha.org/characters/story-lab.html) | excluded | standalone_character_subsite |
+| POD-EDIT-608 | [ଦୁଇଟି ଶେଷ · ଭାଷା ଯାଞ୍ଚ](https://projectodisha.org/characters/travelling-duo/language-review/) | excluded | standalone_character_subsite |
+| POD-EDIT-609 | [ଦୁଇଟି ଶେଷ · ଦ୍ୱିଭାଷୀ ଗଳ୍ପ](https://projectodisha.org/characters/travelling-duo/pilot-story/finished-english-v1.html) | excluded | standalone_character_subsite |
+| POD-EDIT-610 | [ଦୁଇଟି ଶେଷ · ଦ୍ୱିଭାଷୀ ଗଳ୍ପ](https://projectodisha.org/characters/travelling-duo/pilot-story/finished-odia-v1.html) | excluded | standalone_character_subsite |
+| POD-EDIT-611 | [ଦୁଇଟି ଶେଷ · ଦ୍ୱିଭାଷୀ ଗଳ୍ପ](https://projectodisha.org/characters/travelling-duo/pilot-story/finished-page-v1.html) | excluded | standalone_character_subsite |
+| POD-EDIT-612 | [ଦୁଇଟି ଶେଷ · ଦ୍ୱିଭାଷୀ ଗଳ୍ପ](https://projectodisha.org/characters/travelling-duo/pilot-story/) | excluded | standalone_character_subsite |
+| POD-EDIT-613 | [ଦୁଇଟି ଶେଷ · ଦ୍ୱିଭାଷୀ ଗଳ୍ପ](https://projectodisha.org/characters/travelling-duo/pilot-story/page-english-v1.html) | excluded | standalone_character_subsite |
+| POD-EDIT-614 | [ଦୁଇଟି ଶେଷ · ଦ୍ୱିଭାଷୀ ଗଳ୍ପ](https://projectodisha.org/characters/travelling-duo/pilot-story/page-odia-v1.html) | excluded | standalone_character_subsite |
+| POD-EDIT-615 | [ଦୁଇଟି ଶେଷ · ଖସଡ଼ା ଦୃଶ୍ୟପଟ](https://projectodisha.org/characters/travelling-duo/pilot-story/rough-storyboard.html) | excluded | standalone_character_subsite |
+| POD-EDIT-616 | [ଟଳମଳ ଚକ · ଭାଷା ଯାଞ୍ଚ](https://projectodisha.org/characters/young-makers/language-review/) | excluded | standalone_character_subsite |
+| POD-EDIT-617 | [ଟଳମଳ ଚକ · ଦ୍ୱିଭାଷୀ ଗଳ୍ପ](https://projectodisha.org/characters/young-makers/pilot-story/finished-english-v1.html) | excluded | standalone_character_subsite |
+| POD-EDIT-618 | [ଟଳମଳ ଚକ · ଦ୍ୱିଭାଷୀ ଗଳ୍ପ](https://projectodisha.org/characters/young-makers/pilot-story/finished-odia-v1.html) | excluded | standalone_character_subsite |
+| POD-EDIT-619 | [ଟଳମଳ ଚକ · ଦ୍ୱିଭାଷୀ ଗଳ୍ପ](https://projectodisha.org/characters/young-makers/pilot-story/finished-page-v1.html) | excluded | standalone_character_subsite |
+| POD-EDIT-620 | [ଟଳମଳ ଚକ · ଦ୍ୱିଭାଷୀ ଗଳ୍ପ](https://projectodisha.org/characters/young-makers/pilot-story/) | excluded | standalone_character_subsite |
+| POD-EDIT-621 | [ଟଳମଳ ଚକ · ଦ୍ୱିଭାଷୀ ଗଳ୍ପ](https://projectodisha.org/characters/young-makers/pilot-story/page-english-v1.html) | excluded | standalone_character_subsite |
+| POD-EDIT-622 | [ଟଳମଳ ଚକ · ଦ୍ୱିଭାଷୀ ଗଳ୍ପ](https://projectodisha.org/characters/young-makers/pilot-story/page-odia-v1.html) | excluded | standalone_character_subsite |
+| POD-EDIT-623 | [ଟଳମଳ ଚକ · ଖସଡ଼ା ଦୃଶ୍ୟପଟ](https://projectodisha.org/characters/young-makers/pilot-story/rough-storyboard.html) | excluded | standalone_character_subsite |

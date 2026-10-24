@@ -27,3 +27,19 @@ test('only declared archive PDFs survive publication, with reader page fragments
  put('index.html',html());config.documents=['/archive/../private.pdf'];assert.match(execute().stderr,/Invalid edition configuration/);
  config.documents=['/archive/missing.pdf'];put('index.html',html('<a href="/archive/missing.pdf">Missing</a>'));assert.match(execute().stderr,/Missing asset/);
 }));
+
+test('standalone character pages keep strict links and assets without journey data',()=>fixture(({dir,config,execute,put})=>{
+ config.routes.push('/characters/');config.standalone_routes=['/characters/'];config.downloads=['/characters/assets/cast.png','/characters/downloads/story.pdf'];
+ put('index.html',html('<a href="/characters/">Characters</a>'));
+ const page='<meta name="robots" content="noindex"><h1 id="cast">Cast</h1><img src="/characters/assets/cast.png" alt="Cast"><a href="/characters/downloads/story.pdf">Read story</a><a href="/">Project home</a>';
+ put('characters/index.html',page);put('characters/assets/cast.png','art');put('characters/downloads/story.pdf','pdf');
+ assert.equal(execute().status,0);assert.ok(existsSync(join(dir,'dist-coast/characters/assets/cast.png')));assert.ok(existsSync(join(dir,'dist-coast/characters/downloads/story.pdf')));
+ put('characters/index.html',page+'<a href="/held/">Held</a>');assert.match(execute().stderr,/Link outside scope/);
+ config.standalone_routes=['/characters/held/'];assert.match(execute().stderr,/explicitly selected/);
+ config.standalone_routes=['/'];assert.match(execute().stderr,/Invalid edition configuration/);
+}));
+
+test('character download allowlist rejects traversal and missing files',()=>fixture(({config,execute,put})=>{
+ put('index.html',html());config.downloads=['/characters/assets/../private.txt'];assert.match(execute().stderr,/Invalid edition configuration/);
+ config.downloads=['/characters/assets/missing.png'];assert.match(execute().stderr,/Missing asset/);
+}));

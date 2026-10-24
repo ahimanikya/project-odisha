@@ -24,10 +24,11 @@ class Page(HTMLParser):
  def handle_data(self,d):
   if self.in_title:self.title+=d
 scope=json.loads((SITE/'editions/coast.json').read_text());rows=[]
+standalone=set(scope.get('standalone_routes',[]))
 for route in scope['routes']:
  doc=Page();doc.feed((SITE/'dist-coast'/(route.lstrip('/')+'index.html' if route.endswith('/') else route.lstrip('/'))).read_text());m=doc.meta;share=urlsplit(m.get('og:image',''));errors=[]
  if doc.canonical!=['https://projectodisha.org'+route]:errors.append('canonical')
- if not 50<=len(m.get('description',''))<=250:errors.append('description')
+ if not (1 if route in standalone else 50)<=len(m.get('description',''))<=250:errors.append('description')
  if m.get('og:description')!=m.get('description'):errors.append('social_description')
  if not doc.title or m.get('og:title') not in [doc.title,doc.title.split(' | ')[0]]:errors.append('title')
  if share.netloc!='projectodisha.org' or not (SITE/'dist-coast'/unquote(share.path).lstrip('/')).is_file():errors.append('missing_social_image')
@@ -35,9 +36,10 @@ for route in scope['routes']:
  if 'noindex' not in m.get('robots',''):errors.append('preview_boundary')
  rows.append(dict(route=route,title=doc.title,description=m.get('description'),social_image=m.get('og:image'),social_alt=m.get('og:image:alt'),image_on_page=share.path in doc.images,errors=errors))
 for key in ['title','description']:
- counts=Counter(row[key] for row in rows)
+ # Preserved, non-indexed archive versions may share a title/summary; canonical URLs remain unique.
+ counts=Counter(row[key] for row in rows if row['route'] not in standalone)
  for row in rows:
-  if counts[row[key]]>1:row['errors'].append('duplicate_'+key)
+  if row['route'] not in standalone and counts[row[key]]>1:row['errors'].append('duplicate_'+key)
 selection=json.loads((SITE/'editions/search-candidate.json').read_text())
 selected={p['route'] for p in selection['pages'] if p['decision']=='proposed'}
 if {p['route'] for p in selection['pages']}!=set(scope['routes']):raise SystemExit('Search selection must cover the edition')
