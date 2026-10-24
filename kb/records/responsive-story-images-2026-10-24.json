@@ -1,0 +1,186 @@
+{
+  "status": "reviewed_local_candidate",
+  "owner": "Disha",
+  "scope": "Responsive delivery for recent story heroes and reading cards",
+  "reserved_files": [
+    "projects/site/src/components/ArticleReadingPath.astro",
+    "projects/site/editions/responsive-images.json",
+    "projects/site/src/pages/stories/",
+    "projects/site/tests/responsive-story-images.test.mjs",
+    "projects/site/src/pages/sounds-of-odisha/dalkhai.astro"
+  ],
+  "implementation": "Samanta separate agent",
+  "review": {
+    "reviewer": "separate everyday_review agent, Drishti role",
+    "result": "No source-level blockers",
+    "limits": "Not a human or specialist review"
+  },
+  "programme500_increment": 0,
+  "scopes_released": false,
+  "authorization": "Founder: Let\u2019s do that, following proposed image delivery update and publication.",
+  "guidance": {
+    "id": "performance",
+    "applied": [
+      "srcset and sizes matched to display columns",
+      "Retained explicit dimensions and original fallback",
+      "Lazy reading cards, eager essay heroes"
+    ],
+    "quote": "DON\u2019T omit the sizes attribute when using srcset"
+  },
+  "browser": {
+    "engine": "in-app Chromium",
+    "viewport_width": 1280,
+    "result": "All six identity reading cards loaded 480w variants at 180px CSS width; identity hero selected1440w at695.2px; no horizontal overflow; screenshot visually inspected",
+    "limits": "Mobile and other browser engines not exercised in this batch; Core Web Vitals not measured"
+  },
+  "checks": [
+    "Full Astro build504pages",
+    "Responsive regressions3/3",
+    "Coastal suite495/495",
+    "All three disclosure scans clean",
+    "KB/workbench/diff checks pass"
+  ],
+  "publication": "pending",
+  "image_bytes": [
+    {
+      "src": "/images/stories/odia-identity-passing-on-culture.webp",
+      "original_bytes": 304580,
+      "variants": [
+        {
+          "src": "/images/responsive/f5d5282541da87dc-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 33742,
+          "sha256": "f5d5282541da87dca7d7a3be294be95676bc6f3a2e0f78fbf9f236856b52e3d4"
+        },
+        {
+          "src": "/images/responsive/832d22cfef0ec215-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 101750,
+          "sha256": "832d22cfef0ec21580494f8d42db96761eca212e29fad683c74a9b4855f5e7e6"
+        },
+        {
+          "src": "/images/responsive/147bc208ec41f272-1440.webp",
+          "width": 1440,
+          "height": 960,
+          "bytes": 176858,
+          "sha256": "147bc208ec41f2726fdeb2c8636dc99108b4d058f169abf0ad28f9a27b9902d2"
+        }
+      ]
+    },
+    {
+      "src": "/images/stories/rise-practical-beginning-v2.png",
+      "original_bytes": 2172471,
+      "variants": [
+        {
+          "src": "/images/responsive/746667d5d1f51ea2-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 24978,
+          "sha256": "746667d5d1f51ea2ec81e3185ef7e02c830b05f4e6ff082750006dcb796f3241"
+        },
+        {
+          "src": "/images/responsive/acbc85ccb1afa17e-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 67000,
+          "sha256": "acbc85ccb1afa17e6ed97c85a6ec057456345e1981d4e20e7b137a3f6a95e44d"
+        },
+        {
+          "src": "/images/responsive/3642c019b837922f-1440.webp",
+          "width": 1440,
+          "height": 960,
+          "bytes": 116002,
+          "sha256": "3642c019b837922f72c4719dd5409967e1e6429a4f8f61388d8906737353d82c"
+        }
+      ]
+    },
+    {
+      "src": "/images/stories/learn-neighbourhood-room-v2.png",
+      "original_bytes": 2432783,
+      "variants": [
+        {
+          "src": "/images/responsive/b38c23a20a758675-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 27566,
+          "sha256": "b38c23a20a75867571213f7eff014c9241982e4ef57a093b94e36eb822b17752"
+        },
+        {
+          "src": "/images/responsive/932465ba30c1eb5b-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 77612,
+          "sha256": "932465ba30c1eb5b9d664cba7e0b9157f71c7e2c691bb126fb535376df4707b5"
+        },
+        {
+          "src": "/images/responsive/feb8dd186a339892-1440.webp",
+          "width": 1440,
+          "height": 960,
+          "bytes": 133632,
+          "sha256": "feb8dd186a339892f09088a6e98342cbc48beddeb4222c9b0f8fd6fcebaae795"
+        }
+      ]
+    },
+    {
+      "src": "/images/stories/dalkhai-stage-illustration-v2.png",
+      "original_bytes": 2868671,
+      "variants": [
+        {
+          "src": "/images/responsive/ab5eb3a4b5e7b096-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 44610,
+          "sha256": "ab5eb3a4b5e7b096172d4ebcc95ed251d1015f5a6994641e3c69933fa636ed7e"
+        },
+        {
+          "src": "/images/responsive/b02083f8975de227-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 135472,
+          "sha256": "b02083f8975de227c585c03354694bdac357749fc7645121b7186621b1a32ae3"
+        },
+        {
+          "src": "/images/responsive/d1d2b298ae1ccee0-1440.webp",
+          "width": 1440,
+          "height": 960,
+          "bytes": 239418,
+          "sha256": "d1d2b298ae1ccee082d2a97f90c08d90d1428dc5c6164ba492cf49b3346ad4f8"
+        }
+      ]
+    },
+    {
+      "src": "/images/stories/nuakhai-shared-meal-v2.png",
+      "original_bytes": 2829439,
+      "variants": [
+        {
+          "src": "/images/responsive/0d0040123b6e7052-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 36998,
+          "sha256": "0d0040123b6e7052185e333b1235fd1be374f318fca5b66252b198dd2c75fa8e"
+        },
+        {
+          "src": "/images/responsive/2bfafa314ac1b480-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 110704,
+          "sha256": "2bfafa314ac1b480b0fee76ee8068429650346984bfe88b3aee99d06aced3a4e"
+        },
+        {
+          "src": "/images/responsive/20d5057bf0e0b11c-1440.webp",
+          "width": 1440,
+          "height": 960,
+          "bytes": 197686,
+          "sha256": "20d5057bf0e0b11c7da7ee572c09508624e3c52d178693db95e813a4c5c732cf"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Nuakhai card optimized; its article hero unchanged",
+    "Original sharing-image URLs unchanged",
+    "File-byte savings are not measured load-time or field-CWV improvement"
+  ]
+}
