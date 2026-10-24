@@ -119,7 +119,7 @@ JS = """
  function show(){
   const matches=results(), pages=Math.max(1,Math.ceil(matches.length/pageSize));page=Math.min(page,pages);
   const shown=new Set(matches.slice((page-1)*pageSize,page*pageSize));cards.forEach(c=>c.hidden=!shown.has(c));
-  status.textContent=matches.length?((page-1)*pageSize+1)+'–'+Math.min(page*pageSize,matches.length)+' of '+matches.length+' matching sayings · '+cards.length+' in the library':'No matching sayings · '+cards.length+' in the library';
+  status.textContent=matches.length?((page-1)*pageSize+1)+'–'+Math.min(page*pageSize,matches.length)+' of '+matches.length+' matching Dhaga · '+cards.length+' in the library':'No matching Dhaga · '+cards.length+' in the library';
   document.querySelector('#empty').hidden=matches.length!==0;
   document.querySelector('#page-label').textContent='Page '+page+' of '+pages;
   document.querySelector('#previous').disabled=page===1;document.querySelector('#next').disabled=page===pages;
@@ -165,9 +165,9 @@ def render(data):
         graphic = entry.get('graphic')
         figure = f'<figure><img src="{esc(graphic["src"])}" alt="{esc(graphic["alt"])}" loading="lazy"><figcaption>{esc(graphic["caption"])}</figcaption></figure>' if graphic else ''
         cards.append(f'''<article class="entry" id="{esc(entry['id'])}" data-shelf="{esc(shelf(entry))}">
-<details class="saying-detail"><summary><span class="entry-header"><span class="number">SAYING {n:02d}{' · '+esc(entry['category']) if entry.get('category') else ''}</span><span class="open-hint" aria-hidden="true">Read ↗</span></span>
+<details class="saying-detail"><summary><span class="entry-header"><span class="number">DHAGA {n:02d}{' · '+esc(entry['category']) if entry.get('category') else ''}</span><span class="open-hint" aria-hidden="true">Read ↗</span></span>
 {f'<p class="entry-title">{esc(entry["title"])}</p>' if entry.get('title') else ''}
-<h2 lang="or">{esc(entry['odia'])}</h2></summary><div class="reading-body"><a class="permalink" href="#{esc(entry['id'])}">Link to this saying</a>
+<h2 lang="or">{esc(entry['odia'])}</h2></summary><div class="reading-body"><a class="permalink" href="#{esc(entry['id'])}">Link to this Dhaga</a>
 {f'<p class="odia" lang="or">{esc(entry["meaning_odia"])}</p>' if entry.get('meaning_odia') else ''}
 
 {f'<p class="transliteration">{esc(entry["transliteration"])}</p>' if entry.get('transliteration') else ''}
@@ -191,22 +191,22 @@ def render(data):
     return f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(data['title'])}</title><meta name="description" content="{esc(data['subtitle'])}"><style>{CSS}</style></head>
-<body><a class="skip" href="#collection">Skip to sayings</a>
+<body><a class="skip" href="#collection">Skip to Dhaga</a>
 <header><p class="eyebrow">Project Odisha · A living research collection</p><h1>{esc(data['title'])}</h1>
 <p class="subtitle">{esc(data['subtitle'])}</p><p class="scope">{esc(data['scope_note'])}</p>
 <nav class="header-links" aria-label="Collection resources"><a href="#sources">Sources &amp; rights</a><a href="README.md">Research guide</a><a href="coverage-ledger.json">Coverage ledger</a><a href="source127.html">Research: 127 source items</a><a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 licence</a><a href="collection.json" download>Download collection JSON</a></nav>
 <p class="scope">By Ahimanikya Satapathy · <a href="https://projectodisha.org/about/editorial-process/">Our editorial process</a></p>
 {f'<p class="note"><strong>Collection licence:</strong> {esc(data["license"])}</p>' if data.get('license') else ''}
 <p class="meta">Checked {esc(data['checked_on'])} · {len(cards)} documented entries</p></header>
-<main><section id="shelves" class="shelves" aria-label="Browse thematic shelves" hidden><button type="button" data-filter-shelf="" aria-pressed="true">All sayings <span>{len(cards)}</span></button>{shelves}</section><section class="tools" aria-label="Find a saying"><div class="filters" id="filters" hidden>
+<main><section id="shelves" class="shelves" aria-label="Browse thematic shelves" hidden><button type="button" data-filter-shelf="" aria-pressed="true">All Dhaga <span>{len(cards)}</span></button>{shelves}</section><section class="tools" aria-label="Find a Dhaga"><div class="filters" id="filters" hidden>
 <div><label for="search">Search Odia or English</label><input id="search" type="search" placeholder="Words, meanings, situations…" autocomplete="off"></div>
 <div><label for="tag">Theme</label><select id="tag"><option value="">All themes</option>{''.join(f'<option>{esc(t)}</option>' for t in tags)}</select></div>
-<button id="clear" type="button">Clear filters</button></div><p class="status" id="result-count" role="status" aria-live="polite">{len(cards)} sayings — all entries are available below.</p>
-<noscript><p>Search needs JavaScript. Every saying and its sources remain readable below.</p></noscript></section>
-<p id="empty" hidden>No sayings match. Try a different word or clear the filters.</p>
-<h2 id="collection-heading" tabindex="-1">Find a saying to open</h2><div id="collection" class="collection">{''.join(cards)}</div><nav id="pagination" aria-label="Library pages" hidden><button id="previous" type="button">← Previous</button><span id="page-label"></span><button id="next" type="button">Next →</button></nav>
-<section id="sources"><h2>Sources &amp; rights</h2><p>Sources cited by the sayings above, including recorded variants. Availability is not a reuse licence. External source links require an internet connection.</p>{bibliography}</section></main>
-<footer>Read locally, share carefully. Explanations and diagrams are contemporary aids, not evidence of a saying’s age.<br>
+<button id="clear" type="button">Clear filters</button></div><p class="status" id="result-count" role="status" aria-live="polite">{len(cards)} Dhaga — all entries are available below.</p>
+<noscript><p>Search needs JavaScript. Every Dhaga and its sources remain readable below.</p></noscript></section>
+<p id="empty" hidden>No Dhaga match. Try a different word or clear the filters.</p>
+<h2 id="collection-heading" tabindex="-1">Find a Dhaga to open</h2><div id="collection" class="collection">{''.join(cards)}</div><nav id="pagination" aria-label="Library pages" hidden><button id="previous" type="button">← Previous</button><span id="page-label"></span><button id="next" type="button">Next →</button></nav>
+<section id="sources"><h2>Sources &amp; rights</h2><p>Sources cited by the Dhaga above, including recorded variants. Availability is not a reuse licence. External source links require an internet connection.</p>{bibliography}</section></main>
+<footer>Read locally, share carefully. Explanations and diagrams are contemporary aids, not evidence of a Dhaga’s age.<br>
 Offline typefaces: Noto Serif Oriya and Source Serif 4, SIL Open Font License. Licences are included in assets/.</footer>
 <script>{JS}</script></body></html>'''
 
@@ -241,11 +241,11 @@ def library_index(data, directory=ROOT):
     rows=[]
     for e in data['entries']:
         theme=labels[mapping[e['id']]]
-        rows.append(f'''<article class="index-row" id="{esc(e["id"])}" data-theme="{esc(theme)}"><p class="number">Saying {int(e["id"].rsplit("-",1)[-1]):02d} · {esc(theme)}</p><h2 lang="or">{esc(e["odia"])}</h2><p lang="or" class="odia">{esc(abstracts['summaries'][e['id']]['odia_summary'])}</p><p>{esc(abstracts['summaries'][e['id']]['english_summary'])}</p><a href="sayings/{esc(e["id"])}.html">Read the saying, context &amp; sources →</a><span hidden>{esc(' '.join(e['tags']))} {esc(e.get('title',''))}</span></article>''')
+        rows.append(f'''<article class="index-row" id="{esc(e["id"])}" data-theme="{esc(theme)}"><p class="number">Dhaga {int(e["id"].rsplit("-",1)[-1]):02d} · {esc(theme)}</p><h2 lang="or">{esc(e["odia"])}</h2><p lang="or" class="odia">{esc(abstracts['summaries'][e['id']]['odia_summary'])}</p><p>{esc(abstracts['summaries'][e['id']]['english_summary'])}</p><a href="sayings/{esc(e["id"])}.html">Read the Dhaga, context &amp; sources →</a><span hidden>{esc(' '.join(e['tags']))} {esc(e.get('title',''))}</span></article>''')
     introduction=''.join(f'<p class="odia" lang="or">{esc(t)}</p>' for t in abstracts['intro']['odia'])+''.join(f'<p>{esc(t)}</p>' for t in abstracts['intro']['english'])
     by_id={e['id']:row for e,row in zip(data['entries'],rows)}
     chapters=''.join(f'<section class="chapter" id="chapter-{esc(ch["id"])}"><h2>{esc(ch["label"])}</h2><p>{esc(ch["description"])}</p>{"".join(by_id[ident] for ident in ch["entry_ids"])}</section>' for ch in design['shelves'])
-    contents=''.join(f'<li><a href="#chapter-{esc(ch["id"])}">{esc(ch["label"])} <span>· {len(ch["entry_ids"])} sayings</span></a></li>' for ch in design['shelves'])
+    contents=''.join(f'<li><a href="#chapter-{esc(ch["id"])}">{esc(ch["label"])} <span>· {len(ch["entry_ids"])} Dhaga</span></a></li>' for ch in design['shelves'])
     script="""(() => {
 const q=document.querySelector('#book-search'),menu=document.querySelector('#browse-book'),clear=document.querySelector('#clear-search'),rows=[...document.querySelectorAll('.index-row')],norm=s=>s.normalize('NFC').toLocaleLowerCase();
 function filter(){const value=q.value.trim(),words=norm(value).split(/\\s+/).filter(Boolean);let n=0;rows.forEach(r=>{r.hidden=!words.every(w=>norm(r.textContent).includes(w));if(!r.hidden)n++});document.querySelectorAll('.chapter').forEach(ch=>ch.hidden=![...ch.querySelectorAll('.index-row')].some(r=>!r.hidden));document.querySelector('#result-count').textContent=n+' of '+rows.length;document.querySelector('#active-filter').textContent=value?'Search: '+value:'';clear.hidden=!value;document.querySelector('#empty').hidden=!!n;}
@@ -256,7 +256,7 @@ menu.addEventListener('keydown',e=>{if(e.key==='Escape'&&menu.open){menu.open=fa
 document.addEventListener('click',e=>{if(menu.open&&!menu.contains(e.target))menu.open=false;});
 document.querySelector('#book-search-tools').hidden=false;filter();
 })();"""
-    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(data["title"])}</title><style>{CSS} .book-title{{font-family:Odia,serif;font-size:clamp(2.3rem,6vw,4.8rem);line-height:1.5;letter-spacing:0}}.book-toolbar{{display:flex;align-items:center;justify-content:center;gap:1rem;flex-wrap:wrap;position:relative;max-width:760px;margin:1rem auto;font-size:.9rem}}.book-toolbar>details{{border:0;margin:0;padding:0}}.book-toolbar summary{{cursor:pointer;white-space:nowrap;padding:.4rem}}.book-toolbar>a{{white-space:nowrap}}#result-count{{font-size:.8rem;color:var(--muted)}}.book-browse-panel{{position:absolute;z-index:20;left:50%;transform:translateX(-50%);top:100%;width:min(36rem,calc(100vw - 2rem));max-height:min(30rem,45vh);overflow:auto;box-sizing:border-box;background:#fffaf0;border:1px solid #bdb09a;border-radius:.4rem;box-shadow:0 8px 28px #0002;padding:1rem;text-align:left}}.book-browse-panel input{{width:100%;box-sizing:border-box;margin:.5rem 0}}.book-browse-panel h2{{font-size:1rem}}.book-browse-panel li a{{display:block;padding:.45rem 0}}.search-state{{max-width:760px;margin:.7rem auto;display:flex;gap:.75rem;align-items:center;flex-wrap:wrap;overflow-wrap:anywhere}}.search-state:has(#clear-search[hidden]){{display:none}}#clear-search[hidden]{{display:none!important}}@media(max-width:430px){{.book-toolbar{{gap:.5rem;font-size:.8rem}}}}@media print{{.book-toolbar,.search-state,#empty{{display:none!important}}}}.english-title{{display:block;font-family:Reading,Georgia,serif;font-size:.72em;line-height:1.3;margin-top:.15em}}.book-intro{{max-width:760px;margin:2rem auto}}.index-row{{border-top:1px solid var(--line);padding:1.5rem 0;max-width:760px;margin:auto}}.index-row h2{{font:600 1.35rem/1.9 Odia,serif}}.index-row p{{margin:.7rem 0}}@media print{{.index-row[hidden],.chapter[hidden]{{display:block!important}}.index-row{{break-inside:avoid}}}}</style></head><body><a class="skip" href="#collection">Skip to sayings</a><header><p class="eyebrow">Project Odisha · A book of Odia sayings</p><h1 class="book-title"><span lang="or">ଓଡ଼ିଆ ଢଗଢମାଳି</span><span class="english-title" lang="en">Odia Sayings and Proverbs</span></h1><p class="subtitle">Words carried through everyday life · {len(rows)} sayings in Odia and English</p><p>By Ahimanikya Satapathy</p></header><main><section class="book-intro">{introduction}</section><nav class="book-toolbar" aria-label="Browse the book"><a href="reader.html">Start reading →</a><details id="browse-book"><summary>Browse book</summary><div class="book-browse-panel"><div id="book-search-tools" hidden><label for="book-search">Search in Odia or English</label><input id="book-search" type="search" autocomplete="off"></div><h2>Chapters</h2><ol>{contents}</ol></div></details><a href="odia-dhaga-book.pdf" download>Download book</a><span id="result-count" role="status">{len(rows)} sayings</span></nav><div class="search-state"><span id="active-filter"></span><button id="clear-search" type="button" hidden>Clear search</button></div><p id="empty" hidden>No sayings match. Try another word, or empty the search box.</p><noscript>All sayings remain available below. Open each reading for its sources.</noscript><div id="collection">{chapters}</div></main><footer><nav aria-label="Book resources"><a href="https://projectodisha.org/about/editorial-process/">Our editorial process</a> · <a href="source127.html">Source concordance</a> · <a href="README.md">Research guide</a></nav><details><summary>Sources &amp; rights</summary><p>{esc(data.get("license",""))}</p><p><a href="https://creativecommons.org/licenses/by-sa/4.0/">Read the CC BY-SA4.0 licence</a>. Each saying links its own witnesses.</p></details></footer><script>{script}</script></body></html>'''
+    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(data["title"])}</title><style>{CSS} .book-title{{font-family:Odia,serif;font-size:clamp(2.3rem,6vw,4.8rem);line-height:1.5;letter-spacing:0}}.book-toolbar{{display:flex;align-items:center;justify-content:center;gap:1rem;flex-wrap:wrap;position:relative;max-width:760px;margin:1rem auto;font-size:.9rem}}.book-toolbar>details{{border:0;margin:0;padding:0}}.book-toolbar summary{{cursor:pointer;white-space:nowrap;padding:.4rem}}.book-toolbar>a{{white-space:nowrap}}#result-count{{font-size:.8rem;color:var(--muted)}}.book-browse-panel{{position:absolute;z-index:20;left:50%;transform:translateX(-50%);top:100%;width:min(36rem,calc(100vw - 2rem));max-height:min(30rem,45vh);overflow:auto;box-sizing:border-box;background:#fffaf0;border:1px solid #bdb09a;border-radius:.4rem;box-shadow:0 8px 28px #0002;padding:1rem;text-align:left}}.book-browse-panel input{{width:100%;box-sizing:border-box;margin:.5rem 0}}.book-browse-panel h2{{font-size:1rem}}.book-browse-panel li a{{display:block;padding:.45rem 0}}.search-state{{max-width:760px;margin:.7rem auto;display:flex;gap:.75rem;align-items:center;flex-wrap:wrap;overflow-wrap:anywhere}}.search-state:has(#clear-search[hidden]){{display:none}}#clear-search[hidden]{{display:none!important}}@media(max-width:430px){{.book-toolbar{{gap:.5rem;font-size:.8rem}}}}@media print{{.book-toolbar,.search-state,#empty{{display:none!important}}}}.english-title{{display:block;font-family:Reading,Georgia,serif;font-size:.72em;line-height:1.3;margin-top:.15em}}.book-intro{{max-width:760px;margin:2rem auto}}.index-row{{border-top:1px solid var(--line);padding:1.5rem 0;max-width:760px;margin:auto}}.index-row h2{{font:600 1.35rem/1.9 Odia,serif}}.index-row p{{margin:.7rem 0}}@media print{{.index-row[hidden],.chapter[hidden]{{display:block!important}}.index-row{{break-inside:avoid}}}}</style></head><body><a class="skip" href="#collection">Skip to Dhaga</a><header><p class="eyebrow">Project Odisha · A book of Odia Dhaga</p><h1 class="book-title"><span class="english-title" lang="en">Sayings and Proverbs - </span><span lang="or">ଓଡ଼ିଆ ଢଗଢମାଳି</span></h1><p class="subtitle">Words carried through everyday life · {len(rows)} Dhaga in Odia and English</p><p>By Ahimanikya Satapathy</p></header><main><section class="book-intro">{introduction}</section><nav class="book-toolbar" aria-label="Browse the book"><a href="reader.html">Start reading →</a><details id="browse-book"><summary>Browse book</summary><div class="book-browse-panel"><div id="book-search-tools" hidden><label for="book-search">Search in Odia or English</label><input id="book-search" type="search" autocomplete="off"></div><h2>Chapters</h2><ol>{contents}</ol></div></details><a href="odia-dhaga-book.pdf" download>Download book</a><span id="result-count" role="status">{len(rows)} Dhaga</span></nav><div class="search-state"><span id="active-filter"></span><button id="clear-search" type="button" hidden>Clear search</button></div><p id="empty" hidden>No Dhaga match. Try another word, or empty the search box.</p><noscript>All Dhaga remain available below. Open each reading for its sources.</noscript><div id="collection">{chapters}</div></main><footer><nav aria-label="Book resources"><a href="https://projectodisha.org/about/editorial-process/">Our editorial process</a> · <a href="source127.html">Source concordance</a> · <a href="README.md">Research guide</a></nav><details><summary>Sources &amp; rights</summary><p>{esc(data.get("license",""))}</p><p><a href="https://creativecommons.org/licenses/by-sa/4.0/">Read the CC BY-SA4.0 licence</a>. Each Dhaga links its own witnesses.</p></details></footer><script>{script}</script></body></html>'''
 
 def reading_caption(text):
     # Credits are collected at the end; retain the image's explanatory/uncertainty text.
@@ -306,7 +306,7 @@ BROWSE_CSS = """
 BROWSE_JS = """
 document.querySelectorAll('.browse').forEach(details=>{
  const input=details.querySelector('input'), rows=[...details.querySelectorAll('li')], status=details.querySelector('[role=status]'), empty=details.querySelector('.browse-empty');
- input.addEventListener('input',()=>{const q=input.value.normalize('NFC').trim().toLocaleLowerCase();let n=0;rows.forEach(row=>{row.hidden=!row.textContent.normalize('NFC').toLocaleLowerCase().includes(q);if(!row.hidden)n++;});status.textContent=n+(n===1?' saying':' sayings');empty.hidden=n!==0;});
+ input.addEventListener('input',()=>{const q=input.value.normalize('NFC').trim().toLocaleLowerCase();let n=0;rows.forEach(row=>{row.hidden=!row.textContent.normalize('NFC').toLocaleLowerCase().includes(q);if(!row.hidden)n++;});status.textContent=n+' Dhaga';empty.hidden=n!==0;});
  details.addEventListener('keydown',event=>{if(event.key==='Escape'&&details.open){details.open=false;details.querySelector('summary').focus();event.preventDefault();event.stopPropagation();}});
  details.addEventListener('toggle',()=>{if(details.open)document.querySelectorAll('.browse').forEach(other=>{if(other!==details)other.open=false;});});
  document.addEventListener('click',event=>{if(details.open&&!details.contains(event.target))details.open=false;});
@@ -314,13 +314,13 @@ document.querySelectorAll('.browse').forEach(details=>{
 """
 def saying_navigation(data, current, position):
     entries=data['entries']; e=entries[current]; suffix=position+'-'+e['id']
-    previous=f'<a rel="prev" href="{entries[current-1]["id"]}.html" aria-label="Previous saying">← Previous</a>' if current else '<span>First</span>'
-    following=f'<a rel="next" href="{entries[current+1]["id"]}.html" aria-label="Next saying">Next →</a>' if current+1<len(entries) else '<span>Last</span>'
+    previous=f'<a rel="prev" href="{entries[current-1]["id"]}.html" aria-label="Previous Dhaga">← Previous</a>' if current else '<span>First</span>'
+    following=f'<a rel="next" href="{entries[current+1]["id"]}.html" aria-label="Next Dhaga">Next →</a>' if current+1<len(entries) else '<span>Last</span>'
     rows=[]
     for item in entries:
         active=' aria-current="page"' if item['id']==e['id'] else ''
         rows.append(f'<li><a href="{esc(item["id"])}.html"{active}><span lang="or">{esc(item["odia"])}</span><span lang="en">{esc(item.get("title",item.get("literal_english","")))}</span></a></li>')
-    return f'<nav class="saying-nav saying-nav-{position}" aria-label="{position.title()} saying navigation">{previous}<details class="browse" id="browse-{suffix}"><summary>Browse sayings</summary><div class="browse-panel"><a href="../index.html">Book contents &amp; themes →</a><label for="browse-search-{suffix}">Search in Odia or English</label><input id="browse-search-{suffix}" type="search" autocomplete="off"><p role="status">{len(entries)} sayings</p><p class="browse-empty" hidden>No sayings match. Try another word.</p><ul>{"".join(rows)}</ul></div></details><span class="nav-count">{current+1}/{len(entries)}</span>{following}</nav>'
+    return f'<nav class="saying-nav saying-nav-{position}" aria-label="{position.title()} Dhaga navigation">{previous}<details class="browse" id="browse-{suffix}"><summary>Browse Dhaga</summary><div class="browse-panel"><a href="../index.html">Book contents &amp; themes →</a><label for="browse-search-{suffix}">Search in Odia or English</label><input id="browse-search-{suffix}" type="search" autocomplete="off"><p role="status">{len(entries)} Dhaga</p><p class="browse-empty" hidden>No Dhaga match. Try another word.</p><ul>{"".join(rows)}</ul></div></details><span class="nav-count">{current+1}/{len(entries)}</span>{following}</nav>'
 
 def build_library(directory=ROOT):
     directory=Path(directory);data=load_library(directory)
@@ -336,20 +336,20 @@ def build_library(directory=ROOT):
         page=re.sub(r'<nav id="pagination".*?</nav>','',page,flags=re.S)
         page=re.sub(r'<span class="open-hint"[^>]*>.*?</span>','',page,flags=re.S)
         page=page.replace('<details class="saying-detail">','<details class="saying-detail" open>')
-        page=page.replace('Find a saying to open','').replace('SAYING 01',f'SAYING {i+1:02d}')
+        page=page.replace('Find a Dhaga to open','').replace('DHAGA 01',f'DHAGA {i+1:02d}')
         page=page.replace('<h1>'+esc(data['title'])+'</h1>','<h1>'+esc(e.get('title',e['odia']))+'</h1>')
         page=page.replace('href="#'+e['id']+'"','href="../index.html#'+e['id']+'"')
         page=page.replace("url('assets/","url('../assets/").replace('src="assets/','src="../assets/')
         for name in ['README.md','coverage-ledger.json','source127.html','collection.json']:
             page=page.replace('href="'+name+'"','href="../'+name+'"')
-        header=f'<header><p class="eyebrow">Project Odisha · A book of Odia sayings</p><h1>{esc(e.get("title",e["odia"]))}</h1><p>By Ahimanikya Satapathy</p></header>'
+        header=f'<header><p class="eyebrow">Project Odisha · A book of Odia Dhaga</p><h1>{esc(e.get("title",e["odia"]))}</h1><p>By Ahimanikya Satapathy</p></header>'
         page=re.sub(r'<header>.*?</header>',header,page,count=1,flags=re.S)
         page=page.replace('<main>','<main>'+saying_navigation(data,i,'top')).replace('<section id="sources">',saying_navigation(data,i,'bottom')+'<section id="sources">',1)
         page=page.replace('</head>','<style>'+BROWSE_CSS+'</style></head>').replace('</body>','<script>'+BROWSE_JS+'</script></body>')
         (dest/(e['id']+'.html')).write_text(page)
     links=''.join(f'<li><a href="sayings/{e["id"]}.html">{esc(e.get("title",e["odia"]))}</a></li>' for e in data['entries'])
     ids=json.dumps([e['id'] for e in data['entries']])
-    (directory/'reader.html').write_text(f'''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Choose a saying</title><style>{CSS}</style><body><main><h1>Open a saying</h1><p><a href="index.html">Browse all sayings and themes</a></p><ul>{links}</ul></main><script>const ids={ids};let id=location.hash.slice(1);if(!ids.includes(id))id=ids[0];location.replace("sayings/"+id+".html");</script></body></html>''')
+    (directory/'reader.html').write_text(f'''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Choose a Dhaga</title><style>{CSS}</style><body><main><h1>Open a Dhaga</h1><p><a href="index.html">Browse all Dhaga and themes</a></p><ul>{links}</ul></main><script>const ids={ids};let id=location.hash.slice(1);if(!ids.includes(id))id=ids[0];location.replace("sayings/"+id+".html");</script></body></html>''')
     return len(data['entries'])
 
 if __name__ == '__main__':
