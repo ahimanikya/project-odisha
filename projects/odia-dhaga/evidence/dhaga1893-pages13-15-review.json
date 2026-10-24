@@ -1,0 +1,43 @@
+{
+  "review_type": "independent AI visual research and ledger-proposal review, not human proofreading",
+  "input_head": "468582d0f3b3dce4a1c0fda47560137768a5ec47",
+  "status": "pass_with_limitations",
+  "findings": [],
+  "input_hashes": {
+    "anvesha.json": "0e4b3cf6f9c104db4786fb354f87046c88a1faa5c162be87a738e6d91bb70010",
+    "coverage-ledger.proposed.json": "ec263d02bf29dd7d779ac88511028af1e9ad59051292499478e3aa356888a779",
+    "page-13.png": "009b24af04435417fa7e1a3883bd367022c4b97a2fb5e0a20b29776d5f15450a",
+    "page-14.png": "04b0e3bd235fe407132474e03c6b914236916830293afb156316a7373b1afc18",
+    "page-15.png": "a3a438017ee1431157ace6102bad20f6ca4abee8e709030813b763b7a811bb3d"
+  },
+  "actual_checks": [
+    "Independently viewed all three full renders: PDF13/printed12 has17physical body lines; PDF14/printed13 has16 excluding middle heading; PDF15/printed14 has17 excluding two headings. Total50 partial line observations, not50sayings.",
+    "Read all partial line observations and three candidate records against renders; uncertainty/unread fields retained, no normalized reading or meaning supplied.",
+    "Requested explicit brackets for PDF14:7 terminal in inventory/candidate and14:10 final word; verified corrected frozen research0e4b3cf6.",
+    "Compared actual existing020/061 headwords:14:7 and15:4–5 support provisional historical variant leads only; spelling/phrase differences and unread clusters prevent accepted equivalence.",
+    "PDF13crow/jackfruit candidate remains separate unaccepted lead; no equivalence to crow/grain086 asserted.",
+    "Visible wraps and punctuation support physical anchors only; no semantic segmentation or next-page16continuation certified.",
+    "Verified all three image hashes against research report.",
+    "Read Samanta independent report and its explicit limited source127 comparison; absence in available row text does not exclude equivalent among all127originals.",
+    "Independently compared proposed ledger with canonical baseline: exactly nine Rath1893 fields change; all top-level and other source rows unchanged.",
+    "Reapplied targeted-page union13–15: proposal unchanged/idempotent. Next targeted16; fullcursor2,83draftsegments, acceptedIDs, completion/human arrays unchanged."
+  ],
+  "resolved_findings": [
+    "PDF14terminal uncertainties now bracketed consistently; no speculative alternative reconstruction."
+  ],
+  "disposition": "Pass for output-only provisional research checkpoint; no public reader addition or accepted historical witness.",
+  "count_effect": {
+    "accepted_entries": 0,
+    "full_transcribed_pages": 0,
+    "human_review": 0,
+    "programme_credit": 0
+  },
+  "rights": "Retain previous1893underlying-text and scan provenance/jurisdiction qualifications; internal image viewing does not establish blanket facsimile republication rights.",
+  "limits": [
+    "AI reading only; unbracketed fragments are not certified diplomatic transcription.",
+    "Six proposed ledger pointers share two batchJSONs, appropriate because records contain per-page anchors; final canonical copying/path resolution remains an integration check.",
+    "No exhaustive source127 comparison or original-author/rights research undertaken.",
+    "Samanta final metadata rebinding may follow; this gate binds corrected research and proposed ledger bytes.",
+    "No canonical product, PDF, images or source127 mutations made."
+  ]
+}

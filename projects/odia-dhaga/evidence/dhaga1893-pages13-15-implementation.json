@@ -1,0 +1,132 @@
+{
+  "role": "Samanta independent AI visual second-reader",
+  "input_head": "468582d0f3b3dce4a1c0fda47560137768a5ec47",
+  "checked_at": "2026-10-24T17:25:09.300930+00:00",
+  "status": "targeted_visual_read_complete; ledger proposal awaiting separate research review",
+  "source": {
+    "path": "/tmp/pod-dhaga-1893.pdf",
+    "sha256": "c0c818ed2dce7c9872e3141166e0e4676a6bd2c0fd2338c2f6f3b4ce56227dac",
+    "url": "https://archive.org/details/dhagamalika-1893"
+  },
+  "method": "Viewed actual complete page13,14,15 PNGs through image viewer; no OCR used. Compared promising visual phrases with all108 displayed headwords and source127 candidate text/mappings. This is targeted reading, not certified full transcription.",
+  "pages": [
+    {
+      "pdf_page": 13,
+      "printed_page": 12,
+      "render": "page-13.png",
+      "sha256": "009b24af04435417fa7e1a3883bd367022c4b97a2fb5e0a20b29776d5f15450a",
+      "body_lines_observed": 17,
+      "layout": "No section heading; body lines1–2 and14–15 wrap. Full semantic segmentation remains unverified.",
+      "visual_findings": [
+        "Line6 compares crow and cuckoo: visible fragments କାଉ କୋକିଳ and ଏକବର୍ଣ୍ଣ; final wording needs glyph-level proofreading.",
+        "Line7 contains crow/jackfruit/blame contrast; do not equate with existing086 crow/grain/daughter-in-law saying.",
+        "Lines14–15 wrap an extended sentence; faded left-edge glyphs in lower half prevent reliable complete transcription."
+      ],
+      "new_candidate_disposition": "No direct existing108 match established from selected phrases; retain unaccepted research leads."
+    },
+    {
+      "pdf_page": 14,
+      "printed_page": 13,
+      "render": "page-14.png",
+      "sha256": "04b0e3bd235fe407132474e03c6b914236916830293afb156316a7373b1afc18",
+      "body_lines_observed": 16,
+      "layout": "Eight body lines before central letter heading and eight after it; heading excluded. Wraps1–2,5–6,9–10,14–15 under body-only numbering.",
+      "visual_findings": [
+        "Bodyline7 repeats କାଚ କାଚ, ମଣି ମଣି and a transaction/test clause, a strong variant candidate for existing020. Closing words differ from contemporary wording; do not silently replace them.",
+        "Bodylines5–6 contrast an ear and an ornament; fragment intelligible but full wording not certified.",
+        "Section heading and terminal printed tally are not sayings."
+      ],
+      "existing_comparison": {
+        "entry_id": "POD-DHAGA-020",
+        "relation": "provisional historical wording variant; not exact-text equality",
+        "count_effect": 0,
+        "uncertainty": "Final transaction clause appears shorter than modern କିଣା ବିକା ବେଳେ ଜଣା ଜଣି; exact old spelling requires separate review."
+      }
+    },
+    {
+      "pdf_page": 15,
+      "printed_page": 14,
+      "render": "page-15.png",
+      "sha256": "a3a438017ee1431157ace6102bad20f6ca4abee8e709030813b763b7a811bb3d",
+      "body_lines_observed": 17,
+      "layout": "Initial letter heading; sixteen body lines before next letter heading and one after it. Body4–5 wrap. Lower-left print is faded.",
+      "visual_findings": [
+        "Body4–5 shows saying about repeated firing and iron becoming gold; distinctive ending ଲୁହା କି / ହୋଇବ ସୁନା supports comparison to061.",
+        "Modern061 contains duplicated ତୁହାଇ and କାହିଁ; these are not both visibly established in this shorter historical line. Retain historical wording uncertainty rather than normalize from known modern form.",
+        "Lower lines include several dog-related expressions; shared animal alone is no identity or concordance match."
+      ],
+      "existing_comparison": {
+        "entry_id": "POD-DHAGA-061",
+        "relation": "provisional historical wording variant; not exact-text equality",
+        "count_effect": 0,
+        "uncertainty": "Opening spelling and single repetition/firing verb require full glyph review; recognizable ending does not certify the complete line."
+      }
+    }
+  ],
+  "comparison": {
+    "collection_sha256": "71a6abb1f8646f3b167be0dcd2e34e7f6a21185a33d289af89092ebca5708537",
+    "source127_sha256": "cda50900080f764277a5011675b26a837c2ff17f9473826adc60ad8e3443796c",
+    "reader_entries": 108,
+    "positions": 127,
+    "positions_with_candidate_or_user_wording": 25,
+    "mapped_positions_for_020_or_061": [],
+    "conclusion": "No127 crosswalk added. Many concordance rows do not contain full text; absence of match in available text is not proof of no equivalent among all127 source originals. Existing020/061 remain unchanged; candidate historical links are not accepted witnesses yet."
+  },
+  "ledger_plan_pending_review": {
+    "targeted_pages_union": [
+      13,
+      14,
+      15
+    ],
+    "next_page_to_attempt": 16,
+    "next_full_transcription_pdf_page": 2,
+    "preserve": {
+      "draft_segments_attempted": 83,
+      "draft_segments_accepted_as_new_entries": 0,
+      "reader_entries": 108,
+      "illustrations": 55,
+      "concordance_positions": 127,
+      "pages_fully_transcribed": [],
+      "pages_human_reviewed": []
+    },
+    "condition": "Only produce final scoped candidate ledger after Anvesha report and Drishti review are frozen. Add JSON evidence pointers, not facsimiles; no accepted_entry_ids change."
+  },
+  "limits": [
+    "Separate AI reading, not human Odia proofreading or glyph certification.",
+    "No canonical changes, reader rebuild, new accepted entries, publication or completion credit.",
+    "53-page local print trial untouched."
+  ],
+  "research_comparison": {
+    "path": "anvesha.json",
+    "sha256": "0e4b3cf6f9c104db4786fb354f87046c88a1faa5c162be87a738e6d91bb70010",
+    "result": "Provisional candidate anchors and17/16/17line counts agree. Middle transaction cluster14:7 and repetition cluster15:4 remain bracketed; null normalized readings and meanings preserved. No glyph certification. Final research also brackets PDF14line7 terminal and line10terminal per separate reviewer; final hash bound."
+  },
+  "ledger_proposal": {
+    "file": "coverage-ledger.proposed.json",
+    "sha256": "ec263d02bf29dd7d779ac88511028af1e9ad59051292499478e3aa356888a779",
+    "base_sha256": "12c266b2ed3095adb2f07b309e18cfdd93babb9ff0dc3cd7ae1e630401ae9462",
+    "status": "output-only proposal; evidence packaging and separate review required before integration",
+    "changed_fields": [
+      "text_pdf_pages_targeted_inspection",
+      "next_page_to_attempt",
+      "next_action",
+      "targeted_page13_inspection_report",
+      "targeted_page13_ai_review",
+      "targeted_page14_inspection_report",
+      "targeted_page14_ai_review",
+      "targeted_page15_inspection_report",
+      "targeted_page15_ai_review"
+    ],
+    "tests": {
+      "idempotent": true,
+      "only_nine_historical_fields_changed": true,
+      "other_sources_and_top_level_unchanged": true,
+      "draft83_fullcursor2_accepted_ids_unchanged": true
+    },
+    "evidence_map_proposed": {
+      "anvesha.json": "evidence/dhaga1893-pages13-15-research.json",
+      "drishti.json": "evidence/dhaga1893-pages13-15-review.json",
+      "samanta.json": "evidence/dhaga1893-pages13-15-implementation.json"
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "status": "integration_review",
+  "input_head": "de9652eddb61d9c5d087e4f57124ff57de9e3b3b",
+  "scope": "Integrate frozen reviewed PDF13–15 partial historical observations and coverage ledger; no reader additions",
+  "reserved_files": [
+    "projects/odia-dhaga/coverage-ledger.json",
+    "projects/odia-dhaga/evidence/dhaga1893-pages13-15-*.json"
+  ],
+  "workers": {
+    "Anvesha": "Frozen source/hash reconciliation",
+    "Samanta": "Scoped evidence and ledger packaging",
+    "Drishti": "Separate integrated exact-head AI review"
+  },
+  "ownership_reconciliation": "Multilingual531 released; actual Bhubaneswar530 published_verified local receipt has empty reserved_files; stale candidate fields are not locks.",
+  "counts": {
+    "explained": 108,
+    "illustrated": 55,
+    "physical_line_observations": 50,
+    "accepted_increment": 0,
+    "programme_credit": 0,
+    "next_targeted_page": 16,
+    "full_transcription_cursor": 2
+  },
+  "print_preservation": "Local53-page trial and canonical60-page PDF untouched",
+  "scope_release": "Upon reviewed merge with required checks passed; evidence-only repository delivery requires no website deployment.",
+  "source_check": {
+    "input_head": "de9652eddb61d9c5d087e4f57124ff57de9e3b3b",
+    "status": "PASS frozen research integrity and scope",
+    "frozen_research_sha256": "0e4b3cf6f9c104db4786fb354f87046c88a1faa5c162be87a738e6d91bb70010",
+    "checks": {
+      "handoff_report_hashes": {
+        "anvesha.json": true,
+        "samanta.json": true,
+        "drishti.json": true,
+        "coverage-ledger.proposed.json": true
+      },
+      "render_hashes": {
+        "page-13.png": true,
+        "page-14.png": true,
+        "page-15.png": true
+      },
+      "accepted_increment_zero": true,
+      "page_complete_false": true,
+      "all_candidates_unaccepted": true,
+      "no_candidate_meaning_or_normalization": true,
+      "full_cursor2": true,
+      "next_targeted16": true
+    },
+    "findings": [
+      "All four HANDOFF-bound report/proposal files are byte-unchanged.",
+      "All three render hashes match previously inspected evidence; no repeat visual scan needed.",
+      "50 partial physical lines remain observations, not50 sayings or full transcriptions.",
+      "Possible020/061 variant links remain provisional and unaccepted. PDF14 uncertainty brackets are preserved.",
+      "Separate AI review labels, unresolved rights qualifications, reader108 and zero programme credit remain intact."
+    ],
+    "limits": [
+      "Reconciliation only; no fresh glyph reading, interpretation, human proofreading or rights research.",
+      "Does not certify proposed ledger path resolution or release; coordinator must check canonical evidence links during integration.",
+      "Only this output report written; no canonical/reader mutation."
+    ]
+  },
+  "implementation": {
+    "input_head": "de9652eddb61d9c5d087e4f57124ff57de9e3b3b",
+    "checked_at": "2026-10-24T23:00:22.401668+00:00",
+    "status": "pass",
+    "role": "Samanta scoped integration",
+    "canonical_files_changed": [
+      "coverage-ledger.json"
+    ],
+    "canonical_files_added": [
+      "evidence/dhaga1893-pages13-15-implementation.json",
+      "evidence/dhaga1893-pages13-15-research.json",
+      "evidence/dhaga1893-pages13-15-review.json"
+    ],
+    "canonical_root": "projects/odia-dhaga",
+    "baseline_exact_match": true,
+    "hashes": {
+      "coverage-ledger.json": "ec263d02bf29dd7d779ac88511028af1e9ad59051292499478e3aa356888a779",
+      "evidence/dhaga1893-pages13-15-implementation.json": "aa709632a355f9c5d1316b4d7819c1ccd213400504f1cb62a9ffb4cdacf05368",
+      "evidence/dhaga1893-pages13-15-research.json": "0e4b3cf6f9c104db4786fb354f87046c88a1faa5c162be87a738e6d91bb70010",
+      "evidence/dhaga1893-pages13-15-review.json": "bb1a176e8d4ce5a4843185dce08c24e347543ffdeaa8643dad17e45c8cf9fdd0"
+    },
+    "ledger_fields_changed": [
+      "text_pdf_pages_targeted_inspection",
+      "next_page_to_attempt",
+      "next_action",
+      "targeted_page13_inspection_report",
+      "targeted_page13_ai_review",
+      "targeted_page14_inspection_report",
+      "targeted_page14_ai_review",
+      "targeted_page15_inspection_report",
+      "targeted_page15_ai_review"
+    ],
+    "checks": {
+      "six_new_evidence_pointers_resolve": true,
+      "three_reports_byte_exact_to_frozen_handoff": true,
+      "review_binds_research_and_proposal": true,
+      "targeted_union_idempotent": true,
+      "all_other_source_rows_and_top_level_unchanged": true,
+      "all_existing_nonledger_book_files_byte_unchanged": true,
+      "accepted_entry_ids_unchanged": true
+    },
+    "counts": {
+      "reader_entries": 108,
+      "illustrated_entries": 55,
+      "source_positions": 127,
+      "draft_segments_attempted": 83,
+      "new_accepted_draft_segments": 0,
+      "full_transcription_cursor": 2,
+      "next_targeted_page": 16,
+      "full_pages": 0,
+      "human_reviewed_pages": 0,
+      "programme_credit": 0
+    },
+    "tests": [
+      {
+        "command": "python3 projects/odia-dhaga/test_transcription.py",
+        "result": "PASS page2 exact review; wrapped-line/review-alias/page3 boundaries;32negative fixtures rejected",
+        "log": "/tmp/dhaga13-15-transcription-tests.log"
+      },
+      {
+        "command": "python3 -m unittest discover -s projects/odia-dhaga -p 'test_repository.py'",
+        "result": "12/12 pass",
+        "log": "/tmp/dhaga13-15-repository-tests.log"
+      },
+      {
+        "command": "python3 -m unittest discover -s projects/odia-dhaga -p 'test_source_inventory.py'",
+        "result": "5/5 pass",
+        "log": "/tmp/dhaga13-15-inventory-tests.log"
+      }
+    ],
+    "local_print_trial": {
+      "untouched": true,
+      "sha256": "c82d8b68e181b79e66895c77bb4197e30af2f3352b9fcaea580abbf90395dd9c"
+    },
+    "limits": [
+      "Frozen historical reports retain original output-only statuses and local capture paths for provenance; this integration report supplies current packaging state.",
+      "Only ledger evidence pointers are canonical resolution targets; no facsimile or historical image copied.",
+      "Provisional020/061 variants remain unaccepted. No exhaustive127wording comparison claimed.",
+      "No Git/shared records, reader rebuild, PDF/art changes or publication. Separate final integration review still belongs to Drishti."
+    ]
+  }
+}
