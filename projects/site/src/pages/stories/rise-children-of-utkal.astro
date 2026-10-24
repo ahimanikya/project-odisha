@@ -1,4 +1,5 @@
 ---
+import ResponsiveImage from '../../components/ResponsiveImage.astro';
 import Shell from '../../layouts/Shell.astro';
 import ArticleByline from '../../components/ArticleByline.astro';
 import OdiaConnectedReading from '../../components/OdiaConnectedReading.astro';
@@ -7,7 +8,7 @@ import {Content, frontmatter} from '../../../../../kb/research/culture/rise-chil
 ---
 <Shell title={frontmatter.title} description={frontmatter.description} shareImage={{src:"/images/stories/rise-practical-beginning-v2.png",alt:"Illustration of three neighbours preparing a cloth-pouch product catalogue: one positions a pouch, one photographs it with a phone and one notes measurements.",width:1536,height:1024}} active="explore" wide related={false}>
 <article class="article-reading"><header><h1>{frontmatter.title}</h1><ArticleByline author="Ahimanikya Satapathy"/></header>
-<figure><img src="/images/stories/rise-practical-beginning-v2.png" width="1536" height="1024" alt="Illustration of three neighbours preparing a cloth-pouch product catalogue: one positions a pouch, one photographs it with a phone and one notes measurements."/><figcaption>Illustration · An imagined practical beginning: neighbours bring their skills together to prepare a simple product catalogue.</figcaption></figure>
+<figure><ResponsiveImage sizes="(max-width: 600px) calc(100vw - 2.4rem), (max-width: 740px) calc(100vw - 2.8rem), 695.2px" loading="eager" fetchpriority="high" src="/images/stories/rise-practical-beginning-v2.png" width="1536" height="1024" alt="Illustration of three neighbours preparing a cloth-pouch product catalogue: one positions a pouch, one photographs it with a phone and one notes measurements."/><figcaption>Illustration · An imagined practical beginning: neighbours bring their skills together to prepare a simple product catalogue.</figcaption></figure>
 <Content/>
 <OdiaConnectedReading current="rise-children-of-utkal"/>
 <p><a href="/contribute/?page=%2Fstories%2Frise-children-of-utkal%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>

@@ -1,4 +1,5 @@
 ---
+import ResponsiveImage from '../../components/ResponsiveImage.astro';
 import Shell from '../../layouts/Shell.astro';
 import ArticleByline from '../../components/ArticleByline.astro';
 import OdiaConnectedReading from '../../components/OdiaConnectedReading.astro';
@@ -7,7 +8,7 @@ import {Content, frontmatter} from '../../../../../kb/research/culture/a-place-t
 ---
 <Shell title={frontmatter.title} description={frontmatter.description} shareImage={{src:"/images/stories/learn-neighbourhood-room-v2.png",alt:"Illustration of neighbours reading and discussing together in a community room while another person brings a chair.",width:1536,height:1024}} active="explore" wide related={false}>
 <article class="article-reading"><header><h1>{frontmatter.title}</h1><ArticleByline author="Ahimanikya Satapathy"/></header>
-<figure><img src="/images/stories/learn-neighbourhood-room-v2.png" width="1536" height="1024" alt="Illustration of neighbours reading and discussing together in a community room while another person brings a chair."/><figcaption>Illustration · An imagined neighbourhood room for reading, discussion and making space for one another.</figcaption></figure>
+<figure><ResponsiveImage sizes="(max-width: 600px) calc(100vw - 2.4rem), (max-width: 740px) calc(100vw - 2.8rem), 695.2px" loading="eager" fetchpriority="high" src="/images/stories/learn-neighbourhood-room-v2.png" width="1536" height="1024" alt="Illustration of neighbours reading and discussing together in a community room while another person brings a chair."/><figcaption>Illustration · An imagined neighbourhood room for reading, discussion and making space for one another.</figcaption></figure>
 <Content/>
 <OdiaConnectedReading current="a-place-to-learn-together"/>
 <p><a href="/contribute/?page=%2Fstories%2Fa-place-to-learn-together%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>

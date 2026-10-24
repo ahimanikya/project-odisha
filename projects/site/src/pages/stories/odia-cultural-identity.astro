@@ -1,4 +1,5 @@
 ---
+import ResponsiveImage from '../../components/ResponsiveImage.astro';
 import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
 import OdiaConnectedReading from '../../components/OdiaConnectedReading.astro';
 import Shell from '../../layouts/Shell.astro';
@@ -21,7 +22,7 @@ const reading = [
       <ArticleByline author="Ahimanikya Satapathy"/>
     </header>
     <figure class="identity-illustration">
-      <img src="/images/stories/odia-identity-passing-on-culture.webp" width="1536" height="1024" alt="Illustration of an older woman and a child folding leaves around pitha batter together." decoding="async"/>
+      <ResponsiveImage sizes="(max-width: 600px) calc(100vw - 2.4rem), (max-width: 740px) calc(100vw - 2.8rem), 695.2px" loading="eager" fetchpriority="high" src="/images/stories/odia-identity-passing-on-culture.webp" width="1536" height="1024" alt="Illustration of an older woman and a child folding leaves around pitha batter together."/>
       <figcaption>Illustration · Culture lives in what we pass on.</figcaption>
     </figure>
     <Content/>
