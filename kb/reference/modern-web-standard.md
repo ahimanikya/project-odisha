@@ -39,7 +39,7 @@ Read-only source review of the shared shell, styles, images and workflows found:
 | High | No browser-driven accessibility/performance suite found in the inspected configuration. | Repeatable keyboard, overflow and interaction checks across representative routes; manual review limitations explicit. |
 | Medium | No explicit site-wide CSP found in the shared shell; deployment headers not inspected. | Inspect live headers and external-resource needs, develop and test an appropriate hosting-compatible policy. This is a verification gap, not proof of a vulnerability. |
 
-The adoption is complete as a project workflow. These implementation and measurement tasks remain open. No public-site code, browser session, Lighthouse report, screen-reader review or live security-header test is claimed by this audit.
+The adoption is complete as a project workflow. The recent-story image delivery task was published in PR520: three essay heroes, Dalkhai’s illustration and shared reading cards now use responsive variants. Five artworks have25–45KB thumbnail variants; four live routes and12image references were verified. [Delivery evidence](../records/responsive-story-images-2026-10-24.json) records exact byte counts and checks. Wider image coverage, mobile measurement, browser testing and security-header work remain open. No public-site code, browser session, Lighthouse report, screen-reader review or live security-header test is claimed by this audit.
 
 ## Sources and maintenance
 
