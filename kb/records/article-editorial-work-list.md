@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 623. completed: 97, excluded: 209, queued: 317.
+Route inventory: 624. completed: 97, excluded: 209, in_progress: 1, queued: 317.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -637,3 +637,4 @@ Route inventory: 623. completed: 97, excluded: 209, queued: 317.
 | POD-EDIT-621 | [ଟଳମଳ ଚକ · ଦ୍ୱିଭାଷୀ ଗଳ୍ପ](https://projectodisha.org/characters/young-makers/pilot-story/page-english-v1.html) | excluded | standalone_character_subsite |
 | POD-EDIT-622 | [ଟଳମଳ ଚକ · ଦ୍ୱିଭାଷୀ ଗଳ୍ପ](https://projectodisha.org/characters/young-makers/pilot-story/page-odia-v1.html) | excluded | standalone_character_subsite |
 | POD-EDIT-623 | [ଟଳମଳ ଚକ · ଖସଡ଼ା ଦୃଶ୍ୟପଟ](https://projectodisha.org/characters/young-makers/pilot-story/rough-storyboard.html) | excluded | standalone_character_subsite |
+| POD-EDIT-624 | [A Week in Bhubaneswar: Conversations and New Beginnings](https://projectodisha.org/stories/bhubaneswar-week/) | in_progress | Founder-requested personal essay based on his firsthand account; original supplied photographs and verified poets portal context. No autonomous programme credit. |
