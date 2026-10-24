@@ -2269,14 +2269,31 @@
       "id": "POD-EDIT-075",
       "route": "/food/poda-pitha/",
       "title": "Poda pitha",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "Individually researched preparation-focused article, visible notes and portable reading",
       "source_template": "projects/site/src/pages/food/[slug].astro",
-      "checks": {},
+      "checks": {
+        "source_review": true,
+        "separate_ai_review": true,
+        "responsive_review": true,
+        "tests": true,
+        "merged": true,
+        "deployed": true,
+        "live": true,
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
-        "records/poda-pitha-editorial-team-2026-10-24.json"
+        "records/poda-pitha-editorial-team-2026-10-24.json",
+        "records/poda-pitha-editorial-delivery-2026-10-24.json"
       ],
-      "blocker": null
+      "blocker": null,
+      "publication_receipt": "records/poda-pitha-editorial-delivery-2026-10-24.json"
     },
     {
       "id": "POD-EDIT-076",
