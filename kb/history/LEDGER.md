@@ -1173,3 +1173,7 @@ The Founder requested a series beginning with Paika and extending to Odisha cast
 Founder requested moving character worlds from Sishu Kishore to Project Odisha. Work reserved in `records/characters-transfer-2026-10-24.json`; separate audit and implementation began in an isolated worktree. Existing draft status and media retained; no substantive programme credit.
 
 Character transfer completed: reviewed PR517 and approved live deployment succeeded. All132 new pages verified live;132 old source pages confirmed removed online without redirects, plus40published downloads. Source collection retired while books and shared font remain intact. Separate subsite at https://projectodisha.org/characters/. Actual workflow heads and checks are retained in the transfer record; task scopes released.
+
+## POD-HIS-BHUBANESWAR-WEEK-20261024 · Personal essay
+
+Founder requested an expanded account of his week in Bhubaneswar and publication on Project Odisha. Candidate prepared from his notes, with original supplied photographs; separate evidence and implementation passes completed. [Work and publication evidence](../records/bhubaneswar-week-publication-2026-10-24.json). Live verification pending.
