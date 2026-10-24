@@ -5,68 +5,96 @@ type: "Personal essay"
 
 I have been in Bhubaneswar for a week—and what a week it has been.
 
-It began with Sabyasachi Supper Club. From there, the days filled up with writers, young entrepreneurs, filmmakers and creative people. There was so much talking, and just as much to listen to. Some conversations renewed old connections. Others introduced me to people I had not known before. Several deserved a second meeting, and one led to three meetings in the same week.
+It began with Sabyasachi Supper Club. Then came meetings with writers, young entrepreneurs, filmmakers and creative people. So many conversations. Some brought me back to people I have known since childhood. Others introduced me to people whose energy made me want to keep talking, and keep learning.
 
-Looking back, what stays with me is the encouragement I found in these encounters. I came away wanting to learn more and do more. Alongside all the conversations, I also managed to take a few concrete steps that matter to me.
+But the beginning of this journey was somewhere very different: a hotel room during my last trip to the United States.
 
-## Returning to poems I wrote at nineteen
+## A hotel room, an old poem and a song
 
-My recent journey back into literature began with a small experiment involving poetry I wrote when I was nineteen. That continuing exploration is documented at [Kabita Without Borders](https://kabitawithoutborders.org/).
+I was sitting in my hotel room with nothing to do. I decided to make music from “I Am Free to Dream.” That small experiment was the trigger that got me going.
 
-There is something very personal about returning to words written by a younger version of yourself. You recognise the person who wrote them, even as you bring years of other experiences to the reading. For me, revisiting those poems opened up a question: what could I do with this interest now?
+I had returned to poetry I wrote when I was nineteen. Hearing those words as music gave me a new way to engage with something I had written so long ago. An idle moment became the start of an exploration that is still unfolding, documented at [Kabita Without Borders](https://kabitawithoutborders.org/).
 
-That question has gradually taken me beyond my own writing. I also built a portal for poets, [Kabita Poet Studio](https://poets.kabitawithoutborders.org/workspace). It brings together space for writing and revising, organising work, preparing manuscripts and choosing what to share. My hope is that it can become useful in the everyday life of a poet, including the quieter work that happens before anything is ready for readers.
+At the time, I could not have imagined how far that curiosity would take me. It would lead me towards other writers, towards building things for poets, and towards subjects in Odisha’s culture that I had never expected to spend time researching.
 
-Building something is one step. Listening to the people who might use it is another. The conversations this week have reminded me how much there is to learn by spending time with writers and hearing what matters to them.
+This week in Bhubaneswar brought many of those threads together. The work had already begun, but meeting people and talking with them gave it a different kind of energy.
 
-## Picking up old conversations
+## Returning to people I have known since childhood
 
-Pradeep Biswal and Paresh Patnaik have been an important part of this return. I have known both since I was a teenager. This time, I circled back to them to explore what I could contribute to Odia literature.
+Sri Pradeep Biswal and Sri Paresh Patnaik have been an important part of this journey. I have known both since my teenage years. My affection and respect for them go back a long way, well before these recent projects.
 
-They gave me opportunities to get involved. That was enough to motivate me to do more. An interest becomes much more immediate when someone makes room for you to participate, and when there is real work you can begin.
+When I began thinking about what I could contribute to Odia literature, I circled back to them. They gave me opportunities to get involved. That encouragement was enough to motivate me to do more.
 
-There is a particular pleasure in reconnecting with people who knew you much earlier in life. The shared history is already there, but the conversation has room to change. We can return to an old connection with new questions and different things to offer.
+There is something deeply reassuring about returning to people who knew you when you were young. You do not have to explain every part of where you come from. There is already a connection, and now there are new things to talk about and new ways to work together.
 
-I hope this becomes a long journey with both Pradeep and Paresh. I am still discovering what my contribution might look like, but I would like to remain involved and make myself useful to Odia literature in whatever ways I can.
+I am grateful to Sri Pradeep Biswal and Sri Paresh Patnaik for making room for me in this world again. I hope we have a long journey ahead, and that I can contribute to Odia literature in some useful form along the way.
 
-## A foundation, and the work that comes next
+## Building something for poets
 
-One of the most meaningful things I managed to do this week was register the Pravakar Satapathy Foundation.
+My own experiment with poetry also led me to build a portal for poets: [Kabita Poet Studio](https://poets.kabitawithoutborders.org/workspace).
 
-The foundation will provide grants to help writers publish their books. We are also considering an award for young writers. The award remains a possibility; its shape and details still need to be worked out.
+It brings together space for writing and revising, organising work, preparing manuscripts and deciding what to share. My hope is that it can support the everyday work of a poet, including the drafts and revisions that readers never see.
 
-For now, I am happy to have made a beginning. Registration gives the intention a formal starting point. The work ahead is to turn that intention into thoughtful, practical support.
+The portal is another beginning. Building it has given me something concrete to offer; conversations with writers will help me understand how useful it can become. I want to keep listening as it develops.
 
-My own experience this week has made me think about the value of encouragement. Pradeep and Paresh gave me opportunities, and those opportunities made me want to keep going. Through the foundation, I hope we can offer writers a similarly useful kind of support: help that allows them to take the next step with their work.
+Alongside that work, I took another important step this week: registering the Pravakar Satapathy Foundation.
 
-There will be more to share as the grant programme takes shape. At this stage, I want to give it the care it deserves and build steadily from this first step.
+The foundation will provide grants to help writers publish their books. We are also considering an award for young writers. The award is still a possibility, and its details remain to be worked out.
 
-## Two meetings with the team behind Daman
+I am happy to have made a formal beginning. Now comes the work of shaping the support carefully and making it useful. Having felt the value of encouragement myself, I hope we can offer writers help that enables them to take the next step with their work.
 
-Literature was only part of the week. I also met filmmakers from the team behind *Daman*, twice.
+## Discovering how much I still have to learn
 
-I was struck by their energy and willingness to make things happen. Spending time with people who bring that willingness to a conversation is encouraging. Their enthusiasm stayed with me after our meetings.
+One of the most surprising parts of this journey has been the range of things it has led me to explore.
 
-I hope there will be an opportunity to work with them in some form. Nothing is being announced yet. For now, I am glad we met, had time to talk again, and began a conversation that I would like to continue.
+Learning about textiles—Dongria traditions, Kotpad and so much else—has been a mind-blowing experience for me. I find myself looking at cloth with a different curiosity. I want to understand more about the people behind it, the work involved and the knowledge that a finished piece carries. My exploration of [Kotpad textiles](/knowledge/kotpad/) is one part of that learning.
 
-Moving between conversations about books and cinema also made me think about the different ways stories reach people. Each form has its own demands. I enjoyed being able to listen to people whose work approaches storytelling from a different direction.
+Then there is Prahalad Natak, explored on Project Odisha as [Prahallad Nataka](/stories/prahlada-nataka/). Learning about it has drawn me further into Odisha’s performance traditions and made me aware of how much remains outside my own experience. It is a subject I want to keep returning to, with more attention to the people who practise and sustain it.
 
-## Three conversations with a heritage storyteller
+Writing about [Pala](/sounds-of-odisha/pala/) was something I would once have found hard to imagine. A personal experiment with a poem had opened a path towards learning about other ways poetry and stories live among people.
 
-Another memorable connection was with Shakti Badjena, a young heritage storyteller. We met three times during the week.
+And researching my own name—Ahimanikya—and its origins was an even more unexpected turn. It led me into the [story of Ahimanikya and Sashisena](/stories/nimuhi-temple/), and into questions about literature and a name I have carried all my life. I could hardly have imagined that this would become part of my work.
 
-I loved his passion for Odisha’s history. I also appreciated what felt to me like an open, unbiased approach to telling its stories. That is my impression from spending time with him: someone with a strong interest in the subject and a gift for making others want to listen.
+These discoveries have been exciting partly because they are so personal. I am learning about subjects connected to where I come from, while repeatedly realising how little I know about them. Each article gives me a reason to pay closer attention.
 
-A good storyteller leaves you curious. Shakti’s passion made me want to keep listening, and I was glad we had the chance to meet more than once.
+## Two meetings with the Daman team
 
-For me, this connects closely with the purpose of Project Odisha. There is so much to learn about the place, and so much value in meeting the people who are trying to understand and share it. Those encounters can give a subject a human presence that reading alone cannot always provide.
+During the week, I also met Vishal Mourya, Debi Prasad Lenka and Deependra Samal—the directors and producer, respectively, behind *Daman*.[^daman-credits] I met the team twice.
+
+I was amazed by their energy and willingness to do things. That stayed with me after the meetings. It is encouraging to spend time with people whose enthusiasm makes you want to explore what might be possible together.
+
+I hope we will work together in some form. There is no collaboration to announce yet, but I am glad we began the conversation and had the chance to continue it during the same week.
+
+After spending so much time thinking about poetry and books, meeting filmmakers added another dimension to the journey. I enjoyed listening to people working with stories in a different form.
+
+## Three conversations with Shakti Badjena
+
+I also met the young heritage storyteller Shakti Badjena three times this week.
+
+I loved his passion for Odisha’s history and what I found to be an open, unbiased way of telling its stories. He is a gifted storyteller. His enthusiasm made me want to listen, ask questions and learn more.
+
+These conversations meant a great deal to me because I am still finding my own way through many of these subjects. Meeting someone who cares deeply about sharing history makes that learning more immediate and personal.
+
+I hope we keep talking. Three meetings in one week still felt like a beginning.
+
+## When people say, “Nothing will happen here”
+
+Many people say that nothing will happen here. It is a discouraging thing to hear, especially when you are trying to begin something.
+
+This week gave me reasons to feel otherwise. I met people who were writing, creating, building and sharing what they knew. Sri Pradeep Biswal and Sri Paresh Patnaik gave me opportunities. The *Daman* team brought energy to our conversations. Shakti brought curiosity and a desire to tell Odisha’s stories. The young entrepreneurs and creative people I met added their own perspectives.
+
+I do not think a good week makes every difficulty disappear. There is plenty of work ahead, including on my own projects. But I find it hard to accept that nothing can happen when I have just spent time with people so willing to do things.
+
+For my part, I want to follow through on what I have started: keep improving the poets’ portal, shape the foundation’s grants carefully, continue writing and learning, and stay connected with the people who have encouraged me.
 
 ## What I am carrying forward
 
-The week brought together several parts of my life: poems written long ago, people I have known since my teens, new work for writers, and new connections in cinema and heritage.
+A song made in a hotel room has led me into a journey I could not have planned in advance. Poems written at nineteen, people I have known since childhood, textiles, theatre, cinema, Pala, and even the story of my own name have all found a place in it.
 
-It also left me with plenty to think and write about. I do not yet know which conversations will become collaborations, or exactly where each beginning will lead. I do know that I want to follow through: keep developing the poets’ portal, shape the foundation’s work carefully, and stay in touch with the people who made this week so worthwhile.
+I am grateful to Sri Pradeep Biswal, Sri Paresh Patnaik, Vishal Mourya, Debi Prasad Lenka, Deependra Samal, Shakti Badjena, and everyone who made time for me this week. The conversations have given me plenty to think about, and plenty to write about.
 
-To Pradeep, Paresh, the filmmakers I met, Shakti, and everyone who made time for a conversation—thank you. I have learned a great deal, and your encouragement means more than I can easily put into a short account of the week.
+I do not yet know where each of these beginnings will lead. I am glad I started with that song, and glad that I kept following my curiosity.
 
-A week in Bhubaneswar. So much talking. So much learning. And several reasons to keep going.
+A week in Bhubaneswar. So much talking. So much learning. And so much I still want to do.
+
+[^daman-credits]: [*Daman* (2022), film credits](https://en.wikipedia.org/wiki/Daman_(2022_film)): directed by Vishal Mourya and Debi Prasad Lenka, produced by Deependra Samal. The directors’ credits are also recorded in the Ministry of Information and Broadcasting’s [70th National Film Awards gazette notification](https://mib.gov.in/sites/default/files/2024-12/70th-nfa-gazette-notification.pdf). The meetings described here are the author’s personal account.
