@@ -1,0 +1,214 @@
+{
+  "status": "published_receipt",
+  "item": "POD-EDIT-075",
+  "route": "/food/poda-pitha/",
+  "content_pr": "https://github.com/ahimanikya/project-odisha/pull/524",
+  "reviewed_head": "5b071af7235d3dd25954e0bc9602a68736c551c8",
+  "merge_commit": "6eca629899192f35af2f8e2d4bdfd6608a475494",
+  "required_ci": {
+    "run": 40095798559,
+    "result": "success"
+  },
+  "publication": {
+    "workflow": "publish-site.yml",
+    "publish_approved": true,
+    "run": 40096133565,
+    "head": "6eca629899192f35af2f8e2d4bdfd6608a475494",
+    "result": "success"
+  },
+  "live_checks": {
+    "url": "https://projectodisha.org/food/poda-pitha/",
+    "checks": {
+      "paragraph_0": true,
+      "paragraph_1": true,
+      "paragraph_2": true,
+      "paragraph_3": true,
+      "paragraph_4": true,
+      "paragraph_5": true,
+      "paragraph_6": true,
+      "paragraph_7": true,
+      "author": true,
+      "visible_notes": true,
+      "noindex": true,
+      "photo_hash": true
+    },
+    "html_sha256": "8010b9c34eea92df42966411d9b84f7cdca3208f5048fd0cfa460f67f99483ec"
+  },
+  "review": {
+    "review_type": "separate AI factual/editorial/integration review, not human review",
+    "input_head": "f2d1512545e34013136eb34919a6d38fdaeb09ca",
+    "status": "pass_with_limitations",
+    "findings": [],
+    "resolved_findings": [
+      "Initial draft199word CRRI estimate omitted source-derived headings and uncited framing; root shortened canonical narrative. Current conservative count within200each.",
+      "Samanta reports initial499/501coastal run corrected scoped-h2 regex and obsolete image-prose assertion; final501pass observed."
+    ],
+    "source_review": [
+      "Independently reopened original CRRI PDF:2015 citation/preface and printed23,26,29. Preparation summaries and mixed primary/secondary compilation qualification supported.",
+      "Independently reopened original Mint2023 article paragraphs137–142. Named regional preparation and festival associations supported; no universal regional or origin claim.",
+      "Tourism unavailable-source claim omitted from revised article; no temple recipe/antiquity claim introduced."
+    ],
+    "source_budgets": {
+      "method": "Whitespace count of mapped paragraphs, relevant source-derived section headings, source title/note, full lead and both uncited framing paragraphs charged conservatively to EACH source, plus5coverfootline words and2article-titlewords. Navigation duplicate labels and generic UI labels excluded.",
+      "food-crri-rice2015": 195,
+      "food-poda-regions-mint2023": 198,
+      "limit_each": 200
+    },
+    "actual_checks": [
+      "Read current working diff, new component/test, canonical narrative/editorial mapping and staged reports.",
+      "Source order CRRI thenMint matches first appearance. Mapped paragraphs include sharedcomparison under bothsources.",
+      "Photo SHA exact restored documentaryasset; earlier readiness actualpixel review applies because bytes unchanged.",
+      "Poda-specific route and journey branch retain food:poda-pitha ID; allparagraphs and concise sources included. No blanket food-page byline change.",
+      "Reading-room282 separately excluded as datedresearchrecord after inspection; article075 remainsinprogress, no deliveredcount credit.",
+      "Newtests cover note/backlinks, retainedimage/rights, portableprose, noindex and unaffectedou-khatta control. Tests not rerun by thisreviewer while Samantabuilds.",
+      "Independently viewed all5 actual Chrome screenshots:1440x1000 cover/body and390x844 cover/body/notes. Original photo fully framed, body/notes readable, no visible overlap or horizontal clipping.",
+      "Read final implementation report; actual keyboard note/exact backlink and Save/reload behavior performed by Samanta, not independently repeated by reviewer.",
+      "Read actual logs:595 full tests before final prose trim; latest501 coastal tests,2492 acceptance and publication11indexable pass. Final full/coast builds reported separately.",
+      "Independently read downloaded6560byte HTML: all8 canonical paragraphs,2source URLs and author present.",
+      "Exact commit5b071af7 observed with clean working tree; all5 recorded content/source/image hashes unchanged from source-pass review."
+    ],
+    "candidate_hashes": {
+      "kb/research/food/collection.json": "4d700f98827f06fd8fa24013b2d472937319283f1f003db5e4ca069799febfb5",
+      "kb/research/food/poda-editorial.json": "cfe4840148710301069b1bceaea356b47c9bff78e68355cb51603569c69c405b",
+      "projects/site/src/components/PodaPithaArticle.astro": "cdca30a2ac8b4af04503bfb29421fa65d57a4cfd89c7b8c3e49b37239a3e79fe",
+      "projects/site/src/data/journey-catalog.ts": "92b0a44078bfbae23331cb09ebcd491c70a2217842b2f709a2dd7b79361e3e0a",
+      "projects/site/public/images/food/poda-pitha.webp": "6cbd3ddf1fbf65fc0eeb846432b955c0bec24a1c9ab94391449fa2984bb247c8"
+    },
+    "limits": [
+      "No recipe testing, household interview, human Odia review or new rights clearance.",
+      "Source budgets have little margin; any public prose/notes additions require recount.",
+      "Source-informed subject is preparation variation, not independently established dish formation history.",
+      "Local preview release candidate review only; required CI/merge/deployment/live receipt not yet observed.",
+      "Chrome screenshot inspection only; no independent browser interaction or assistive-technology test.",
+      "Full595suite precedes prose trim; latestfullbuild and501coast suite cover final narrative."
+    ],
+    "reviewed_head": "5b071af7235d3dd25954e0bc9602a68736c551c8",
+    "evidence_hashes": {
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/poda-pitha-editorial-2026-10-24/samanta.json": "191f6409ced5d3b566dc171e9c187c79853390f9e53a04aaa4cbab269b02f5d2",
+      "/tmp/pod-poda-downloaded-book.html": "09b73f1e0567389948ad836641c0ad32f01ab7240824cbc5a1ad13d8c1e613d5"
+    }
+  },
+  "validation": {
+    "input_head": "f2d1512545e34013136eb34919a6d38fdaeb09ca",
+    "checked_at": "2026-10-24T12:53:16.921114+00:00",
+    "status": "implementation_validation_pass",
+    "changes": [
+      "New PodaPithaArticle adapted from Enduri with expanded further reading, unchanged licensed image, visible numbered notes/update and rem-based typography.",
+      "Poda-only route integration and full portable paragraphs/author/short sources.",
+      "New7 focused editorial tests;6 old editorial controls now use unchanged Ou khatta; pitha integration checks updated narrowly.",
+      "Authorized additional food-alternate-images.test.mjs removes obsolete prose pin and checks canonical opening plus uncropped image behavior."
+    ],
+    "tests": [
+      {
+        "gate": "full build and initial full tests",
+        "result": "595/595 pass",
+        "logs": [
+          "/tmp/pod-poda-full-build.log",
+          "/tmp/pod-poda-full-test.log"
+        ]
+      },
+      {
+        "gate": "latest prose full/coast rebuild and full coastal tests",
+        "result": "501/501 pass",
+        "logs": [
+          "/tmp/pod-poda-full-build-final.log",
+          "/tmp/pod-poda-coast-build-final.log",
+          "/tmp/pod-poda-coast-test-final.log"
+        ]
+      },
+      {
+        "gate": "coast audit",
+        "result": "2492/2492 pass",
+        "log": "/tmp/pod-poda-audit-coast.log"
+      },
+      {
+        "gate": "discovery, launch readiness, search shortlist, publication",
+        "result": "pass;11 indexable pages unchanged",
+        "logs": [
+          "/tmp/pod-poda-audit-discovery.log",
+          "/tmp/pod-poda-audit-launch.log",
+          "/tmp/pod-poda-audit-shortlist.log",
+          "/tmp/pod-poda-publication.log"
+        ]
+      },
+      {
+        "gate": "public disclosures full/coast/publication",
+        "result": "zero violations",
+        "logs": [
+          "/tmp/pod-poda-full-disclosure-final.log",
+          "/tmp/pod-poda-coast-disclosure.log",
+          "/tmp/pod-poda-publish-disclosure.log"
+        ]
+      }
+    ],
+    "guidance": {
+      "skill": "modern-web-guidance",
+      "searched": "readable article typography",
+      "retrieved": "typography",
+      "applied": "rem font sizes, unitless leading, max80ch, scoped progressive text-wrap balance/pretty; no justification"
+    },
+    "limits": [
+      "No Git/publication/shared-record changes. Build-generated ignored artifacts only.",
+      "Full595 suite passed before source-budget prose trim; final full build and all501coastal tests use trimmed prose.",
+      "Chrome only; Firefox/WebKit/screen-reader testing not performed.",
+      "Separate content review belongs to Drishti; no human review or live publication claimed."
+    ],
+    "tested_head": "5b071af7235d3dd25954e0bc9602a68736c551c8",
+    "resolved_failures": [
+      "Initial coastal499/501: new h2 assertion rejected Astro scoped attributes; corrected regex.",
+      "Existing alternate image test pinned obsolete opening; authorized narrow correction preserves actual photo/credit/hash assertions."
+    ],
+    "browser": {
+      "url": "http://127.0.0.1:8798/food/poda-pitha/",
+      "engine": "Actual Chrome via CUA",
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 1000,
+          "scroll_width": 1440
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "scroll_width": 390
+        }
+      ],
+      "screenshots": [
+        "/tmp/pod-poda-desktop.jpg",
+        "/tmp/pod-poda-desktop-body.jpg",
+        "/tmp/pod-poda-mobile.jpg",
+        "/tmp/pod-poda-mobile-body.jpg",
+        "/tmp/pod-poda-mobile-notes.jpg"
+      ],
+      "checks": [
+        "Actual cover and mobile prose inspected; original photo uncropped, mobile nav and paragraph flow readable.",
+        "Enter on CRRI making reference focuses note; Enter backlink focuses exact ref-making-0-food-crri-rice2015.",
+        "Mobile Enter on Mint variations reference and second backlink returns exact ref-variations-1-food-poda-regions-mint2023.",
+        "Further reading and notes expanded; mobile On this page disclosure remains existing shared behavior.",
+        "Preview Save persisted after reload; journey contained one Poda item.",
+        "Actual browser downloaded HTML copied /tmp/pod-poda-downloaded-book.html; all8paragraphs,2shortsourceURLs,byline verified, fullfootnotes absent.",
+        "Temporary viewport reset."
+      ],
+      "download": "/tmp/pod-poda-downloaded-book.html"
+    },
+    "canonical_hashes": {
+      "kb/research/food/collection.json": "4d700f98827f06fd8fa24013b2d472937319283f1f003db5e4ca069799febfb5",
+      "kb/research/food/poda-editorial.json": "cfe4840148710301069b1bceaea356b47c9bff78e68355cb51603569c69c405b"
+    }
+  },
+  "programme_credit": 0,
+  "completed_items": 131,
+  "scope_release": "Upon merge of this receipt; no subsequent article integration before that merge.",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/524",
+  "deployment": {
+    "workflow": "publish-site.yml",
+    "publish_approved": true,
+    "run": 40096133565,
+    "head": "6eca629899192f35af2f8e2d4bdfd6608a475494",
+    "result": "success",
+    "conclusion": "success"
+  },
+  "verified_routes": [
+    "/food/poda-pitha/"
+  ]
+}
