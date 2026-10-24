@@ -309,7 +309,7 @@ def build_library(directory=ROOT):
         previous=f'<a rel="prev" href="{data["entries"][i-1]["id"]}.html">← Previous saying</a>' if i else '<span>First saying</span>'
         following=f'<a rel="next" href="{data["entries"][i+1]["id"]}.html">Next saying →</a>' if i+1<len(data['entries']) else '<span>Last saying</span>'
         nav=f'<nav class="header-links" aria-label="Saying navigation">{previous}<a href="../index.html#{e["id"]}">Contents &amp; search</a>{following}</nav><p class="meta">{i+1} of {len(data["entries"])} sayings</p>'
-        page=page.replace('<main>','<main>'+nav).replace('</main>',nav+'</main>')
+        page=page.replace('<main>','<main>'+nav).replace('<section id="sources">',nav+'<section id="sources">',1)
         (dest/(e['id']+'.html')).write_text(page)
     links=''.join(f'<li><a href="sayings/{e["id"]}.html">{esc(e.get("title",e["odia"]))}</a></li>' for e in data['entries'])
     ids=json.dumps([e['id'] for e in data['entries']])
