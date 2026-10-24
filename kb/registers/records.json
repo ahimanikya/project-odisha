@@ -9386,12 +9386,12 @@
       "id": "POD-WORK-2026102481",
       "title": "Transfer character collection from Sishu Kishore",
       "category": "website",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and Drishti",
       "authorization": "POD-DEC-2026102481",
-      "next_action": "Complete release checks and publish destination, then retire source and record live receipt.",
+      "next_action": "Complete. Character collection owns /characters/ on Project Odisha; old Sishu pages removed without redirects per Founder follow-up.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026102481"
@@ -26724,6 +26724,21 @@
         "records/sunari-editorial-publication-2026-10-23.json"
       ],
       "note": "Reviewed PR467, passing checks, approved deployment and live verification. One substantive article; search eligibility unchanged."
+    },
+    {
+      "id": "POD-REL-2026102481",
+      "title": "Character worlds standalone subsite transfer",
+      "status": "published",
+      "authorization": "POD-DEC-2026102481",
+      "destination": "https://projectodisha.org/characters/",
+      "refs": [
+        "POD-WORK-2026102481",
+        "POD-DEC-2026102481"
+      ],
+      "evidence": [
+        "records/characters-transfer-2026-10-24.json"
+      ],
+      "note": "Reviewed PR517, passing CI, successful destination and source deployments.132new pages verified live;132old pages removed without redirects per Founder follow-up;40downloads preserved. No programme credit."
     }
   ],
   "sources": [

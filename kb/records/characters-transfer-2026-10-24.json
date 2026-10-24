@@ -2,9 +2,9 @@
   "id": "POD-MOVE-2026102401",
   "date": "2026-10-24",
   "authorization": "Direct Founder request: Move characters out of Sishu Kishore and add to project Odisha",
-  "status": "reviewed_local_checks_passed",
+  "status": "published_and_verified",
   "input_head": "9d5e82c56914f5d6458ea6740959cf5abd6fbacd",
-  "scope": "Move existing character collection to /characters/ on Project Odisha with source-site redirects; preserve media and historical provenance. No new article claims or programme credit.",
+  "scope": "Move existing character collection to its own /characters/ subsite on Project Odisha; remove old Sishu pages without redirects per Founder follow-up. Preserve media and historical provenance; no programme credit.",
   "existing_work": "PR515 Dhaga illustration scope remains separate; original dirty Jhula checkout untouched. Current task/article claims empty at inspected head.",
   "executions": [
     {
@@ -37,7 +37,7 @@
       "kb/registers/activity.jsonl",
       "kb/registers/DASHBOARD.md",
       "kb/history/LEDGER.md",
-      "source repository retirement and redirects",
+      "source repository retirement without redirects",
       "kb/team/operations.json",
       "kb/records/editorial-workbench.json",
       "kb/records/article-editorial-rollout.json",
@@ -72,7 +72,7 @@
       "docx"
     ],
     "reason": "Preserve files unchanged while keeping published website below1,000,000,000bytes; videos remain local for playback.",
-    "status": "40assets_uploaded_and_sha256_verified"
+    "status": "published_40assets_public_200_and_server_sha256_verified"
   },
   "implementation_validation": {
     "coast_pages": 623,
@@ -101,12 +101,12 @@
       "Source retirement preconditions and saved script reviewed"
     ],
     "limitations": [
-      "Final rebuilt typography artifact, fullCI and browser/live checks remain coordinator-owned",
-      "Old asset URLs use a JavaScript404 recovery; no server-side HTTP redirects on static hosting",
-      "No new specialist or human editorial review claimed"
+      "No new specialist or human editorial review claimed."
     ],
     "followup": "Drishti rechecked audit-coast.py standalone rules,132referrer tags,21main IDs and48actual image dimensions; no unresolved findings; narrative unchanged.",
-    "classification_head": "7c54843ca53b4424c8f84c9fc758569f07149331"
+    "classification_head": "7c54843ca53b4424c8f84c9fc758569f07149331",
+    "analytics_followup": "Drishti independently reviewed exact standalone analytics absence assertions; all normal route checks retained.",
+    "source_retirement": "Drishti reviewed original retirement, then final no-redirect revision: all132compatibility pages and404removed, books unchanged, sharedTTFpreserved."
   },
   "validation": {
     "full_tests": 592,
@@ -115,8 +115,7 @@
     "source_public_files_accounted_for": 484,
     "original_nonHTML_local_files_unchanged": 312,
     "release_asset_server_hashes_verified": 40,
-    "remaining": "Browser and remote CI/publication checks",
-    "final_published_bytes": 937813925,
+    "remaining": "none",
     "clean_full_tests": 592,
     "clean_coast_tests": 495,
     "clean_page_acceptance": 2492,
@@ -126,7 +125,11 @@
       "publish": 751
     },
     "disclosure_violations": 0,
-    "discovery_launch_search_publication_audits": "pass"
+    "discovery_launch_search_publication_audits": "pass",
+    "configured_analytics_coast_tests": 495,
+    "source_tests": 24,
+    "source_books": "Public book files unchanged; shared TTF preserved byte-for-byte;142book UI pages verified.",
+    "local_unconfigured_publication_bytes": 937813925
   },
   "subsite_direction": "Founder follow-up: it should have its own directory, like a subsite. Separate /characters/ directory, home and navigation retained.",
   "ci_correction": "Registered132 transferred creative routes in the existing editorial inventory as excluded from research-article rollout; no programme credit or completion claims. CI run40050428497 identified the missing classification.",
@@ -134,5 +137,35 @@
     "main": "92933619",
     "pull_request": 516,
     "scope": "Dhaga terminology retained unchanged; active character handoff retained with latest completed Dhaga handoff recorded separately."
-  }
+  },
+  "publication": {
+    "destination": {
+      "conclusion": "success",
+      "headSha": "28fede61b0f717911cd2b43f4bef472523de2ebe",
+      "status": "completed",
+      "url": "https://github.com/ahimanikya/project-odisha/actions/runs/40051856804"
+    },
+    "source_retirement": {
+      "conclusion": "success",
+      "headSha": "af3e9ea2ca79830e67144a2228b6f7b487a97825",
+      "status": "completed",
+      "url": "https://github.com/ahimanikya/sishu-kishore/actions/runs/40052288610"
+    },
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/517",
+    "reviewed_head": "9264b39aaf31849752b1628dcc1075ab38678aa3",
+    "validation_run": "https://github.com/ahimanikya/project-odisha/actions/runs/40051480295",
+    "verified_at": "2026-10-24T02:03:09.971572+00:00",
+    "live_character_pages": 132,
+    "live_source_pages_removed_without_redirects": 132,
+    "download_assets_publicly_verified": 40,
+    "redirects": false,
+    "followup_authorization": "I don’t need redirect",
+    "uploaded_artifact_bytes": 644421610,
+    "live_media_checks": "14video HEADresponses and typography stylesheet200with exactsizes; main-site navigation includes /characters/.",
+    "live_browser": "Desktop homepage:0broken images, no horizontal overflow, Baloo Bhaina2computed; local desktop/mobile and film controls checked before publication.",
+    "source_books_live": "Homepage, forest.html and both illustrated.html readers returned200 after removal."
+  },
+  "executions_released": true,
+  "reserved_files_released": true,
+  "source_redirect_plan_superseded": "Founder follow-up: I don’t need redirect. The initial local redirect candidate was removed before source publication."
 }

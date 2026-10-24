@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `c0300c297a66f0883d8ec4ec3b88115b62a10049979584450ece85278c3650be`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `57d06ab9cea566f76d31661c93c998532c4055541bac61fc2db4d0014aee9a1d`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -349,7 +349,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-322 · Research and publish Sunari community history | completed | published | Ahimanikya Satapathy | Retain ownership through receipt merge before another article. | — |
 | POD-WORK-2026102391 · Prahallad Nataka research, comparative theatre guide and article | completed | reviewed | Ahimanikya Satapathy | Prahallad article published and verified. Unresolved scholarly and practitioner questions remain in the research dossier. | — |
 | POD-WORK-2026102392 · Nayika articles and Odissi & Beyond concept survey | in_progress | reviewed | Ahimanikya Satapathy | Twelve standalone articles published and verified in their subject sections. Archive research remains open: reconcile the five-post count gap and inspect complete media before claiming exhaustive coverage. | — |
-| POD-WORK-2026102481 · Transfer character collection from Sishu Kishore | in_progress | reviewed | Ahimanikya Satapathy | Complete release checks and publish destination, then retire source and record live receipt. | — |
+| POD-WORK-2026102481 · Transfer character collection from Sishu Kishore | completed | published | Ahimanikya Satapathy | Complete. Character collection owns /characters/ on Project Odisha; old Sishu pages removed without redirects per Founder follow-up. | — |
 
 ## Pending human review and decisions
 
@@ -1263,6 +1263,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026102309 · Patara yarn trade and temple craft | published | https://projectodisha.org/communities/patara/ | POD-DEC-225 |
 | POD-REL-2026102310 · Kamar iron household work and village tools | published | https://projectodisha.org/communities/kamar/ | POD-DEC-225 |
 | POD-REL-2026102311 · Sunari ornaments family learning and changing work | published | https://projectodisha.org/communities/sunari/ | POD-DEC-225 |
+| POD-REL-2026102481 · Character worlds standalone subsite transfer | published | https://projectodisha.org/characters/ | POD-DEC-2026102481 |
 
 ## Sources and assets
 
@@ -1300,7 +1301,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026102404 | 2026-10-23T16:51:48.465647+00:00 | Standalone Balakati craft article adds named workshop/family, dated brass process and order relationships with original diagram; linked ghanta/ghanti and updated KB. Anvesha research, Drishti independent review and Samanta visual/structural checks passed. Specific manjira making and full browser QA remain open; no publication. | — |
 | POD-EVT-2026102405 | 2026-10-23T17:07:08.016870+00:00 | Standalone illustrated Sahi Jatra article adds neighbourhood institutions, dated character associations and bibliographic Suchitra1972lead. Anvesha research, Drishti independent review and Samanta photograph/HTML checks passed; KB comparison/map updated. No universal repertoire, current timetable, publication or full browser QA claimed. | — |
 | POD-EVT-2026102406 | 2026-10-23T17:29:08.282698+00:00 | Standalone illustrated Abana Rasataranga reading distinguishes independent vowels, dependent vowel signs and conjuncts; documents opening and apparent stanza 7 exception. Research, independent review and image/structural checks passed; KB links updated. Whole-work rule requires printed-edition collation; no publication or full browser QA claimed. | — |
 | POD-EVT-2026102407 | 2026-10-23T17:43:56.265182+00:00 | Enhanced existing illustrated Alankara article with OVA Subhadra Parinaya first chhanda 15–18. Anvesha recovered caption premise, Disha retrieved text, Drishti verified passage and Samanta checked preview/image. KB gaps updated; print-edition identity and full reel explanations remain open. No new article count or publication. | — |
@@ -1310,6 +1310,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026102411 | 2026-10-23T18:18:42.271663+00:00 | Three separate workers visually screened complete runningverse PDF2–112 in SridharRao witness; cover1 andadvertisement113 distinguished. No clear dependent-vowel exception found; notcharacter-perfect transcription or humanreview. AddedWikisource/printcomparisontable, updatedKB, all12previewchecks pass. Othermedia/browseraccesslimitsremain; unpublished. | — |
 | POD-EVT-20261023012 | 2026-10-23T21:17:28.855212+00:00 | Founder-directed publication completed sequentially for twelve standalone illustrated articles. Individual reviewed heads, merged PRs, successful deployments and desktop/mobile/live receipts recorded in nataka-publication-2026-10-24.json; final cross-page audit passed. Soumya Biswajit credit remains in source notes. No autonomous programme credit, specialist review or exhaustive archive claim. | — |
 | POD-EVT-2026102481 | 2026-10-24T01:19:58.051266+00:00 | Founder requested transfer from Sishu Kishore. Isolated current main worktree; separate Anvesha audit and Samanta implementation; no research/programme credit. Preserving existing media and historical source records. | — |
+| POD-EVT-2026102482 | 2026-10-24T02:03:09.992892+00:00 | PR517 reviewed and merged; Project Odisha publication and Sishu retirement succeeded.132 new pages verified live;132 old pages confirmed removed without redirects;40download assets verified. Books unchanged; source/font/provenance preserved. No autonomous programme credit. Task scopes released. | — |
 
 ## Deferred extensions
 
