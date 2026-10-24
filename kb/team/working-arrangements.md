@@ -42,3 +42,7 @@ All four current Blueprint personas are assigned here: **Disha Dash** coordinate
 Their project scope explicitly includes the standalone Characters collection at `/characters/`. Web files live in `projects/site/public/characters/`; historical sources and manifests live in `projects/characters/`. Preserve the release-hosted downloads, local artwork and films, existing narratives and review status. Sishu Kishore’s old collection was removed without redirects at the Founder’s direction.
 
 Load this brief and the current handoff when resuming. Disha reserves exact work, maintains shared records and publishes within existing authorization; specialists return evidence and release their reserved files. Onboarding creates no additional access, continuous execution, scheduled work or new article claim.
+
+## Web engineering standard · 24 October 2026
+
+Use [the adopted Modern Web standard](../reference/modern-web-standard.md) for website engineering. Consult the project-installed official skill before relevant implementation, document browser support and fallbacks, and report actual checks separately from unmeasured quality goals. This adoption changes our development workflow; it is not a claim of site-wide accessibility or performance certification.
