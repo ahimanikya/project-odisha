@@ -1,0 +1,41 @@
+{
+  "review_type": "separate AI visual and implementation review, not human proofreading",
+  "reviewer": "Drishti",
+  "input_head": "365570076be99dc148ecc1619d2a603424a4dae6",
+  "status": "pass_with_limitations",
+  "pdf_sha256": "21fddb25c6e26aadd4800064a384f5166a02484986793a75e2c29572ea2969a0",
+  "builder_sha256": "4350bdf956b1ad6f3d108ff8eb31bc9d4b73b9a7a36fcf18e930ec4091ad1277",
+  "counts": {
+    "pdf_pages": 60,
+    "paired_reading_pages": 54,
+    "entries": 108,
+    "illustrated_entries": 55
+  },
+  "actual_checks": [
+    "Read CardPair builder and final implementation report; no automatic text shrinking in card layout.",
+    "Independently ran17 repository/source-inventory tests: PASS.",
+    "Compared all108 entry JSON files, aggregate collection and all55 active image bytes with canonical baseline before copy: unchanged.",
+    "Extracted every paired reading page and verified exact ordered108 unique Dhaga labels on54 pages.",
+    "Rendered final frozen PDF independently and visually inspected pages1,4,44,49,51,58,59,60.",
+    "Cover, first illustrated pair, dense no-image/image pair, chapter opening, tightest card031 and all three credits pages inspected. Sampled Odia forms visibly shaped, text readable, no clipping or image/text collisions.",
+    "Image follows narrative with short gap and caption beneath; gutter and margins separate columns cleanly. Source/rights text, CC link, SCERT exception and revision URLs remain visible.",
+    "Final credit-only correction: inspected actual revised page59 render; original Odia source title is visible rather than lone comma. Builder now passes nonrevision source title intact to mixed-script shaping.",
+    "Rechecked corrected PDF60pages and108 unique reading markers; hashes bound to final corrected PDF/builder."
+  ],
+  "findings": [],
+  "limits": [
+    "Visual sample covers8 final pages, not pixel inspection of every page; all108 ordering checked programmatically and builder enforces card overflow.",
+    "17 tests were run during review before final font-only trial; final PDF examined directly and final builder reviewed; Samanta/root report rerun passes.",
+    "No physical paper proof or human Odia proofreading; font readability assessed from rendered pages.",
+    "Earlier59-page and9.5pt samples superseded by final60-page10.5pt PDF.",
+    "No new source research, rights clearance, canonical writes or publication approval.",
+    "Full visual sample from prior frozen layout carried forward for unchanged cards; final corrected credits page independently viewed."
+  ],
+  "review_history": [
+    {
+      "pdf_sha256": "d56fc9a818d1f90504e38f5b166332fb8a32ffd682eb8b6fbb885fda6626ef37",
+      "status": "pass_with_limitations",
+      "finding": "Nonrevision source title reduced to comma; subsequently corrected."
+    }
+  ]
+}

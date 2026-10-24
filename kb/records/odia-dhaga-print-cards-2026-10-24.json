@@ -1,0 +1,34 @@
+{
+  "status": "separately_ai_reviewed_pending_merge",
+  "input_head": "53beda0df35d509cd763f4f124194f4158b3117a",
+  "authorization": "Founder direct request24October2026: two-column print cards, text above image; effective space and book typography",
+  "scope": [
+    "projects/odia-dhaga/build_print.py",
+    "projects/odia-dhaga/odia-dhaga-book.pdf"
+  ],
+  "workers": {
+    "Anvesha": "content preservation",
+    "Samanta": "isolated print implementation",
+    "Drishti": "separate integrated review"
+  },
+  "counts": {
+    "entries": 108,
+    "illustrated": 55,
+    "programme_credit": 0
+  },
+  "acceptance": [
+    "All108entries and55images retained",
+    "Two columns, text above uncropped image",
+    "Readable Odia and English; no clipping",
+    "Compact end credits; no witness panels",
+    "Separate AI visual review, tests, reviewed PR and passing CI"
+  ],
+  "scopes_released": true,
+  "pages": 60,
+  "tests": "17 passed; all108 ordered IDs,55unchanged illustration assets; all36usedsource credits retained",
+  "layout": "Two columns, continuous pairs;10.5pt/14English; text then image andcaption; no shrink",
+  "pdf_sha256": "21fddb25c6e26aadd4800064a384f5166a02484986793a75e2c29572ea2969a0",
+  "deployment": "Not required: standalone printable book only, no public website change",
+  "review": "projects/odia-dhaga/evidence/print-cards-drishti.json",
+  "release_condition": "Effective only after passing required checks and merge; no public-site deployment required"
+}

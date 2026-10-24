@@ -1,0 +1,41 @@
+{
+  "input_head": "365570076be99dc148ecc1619d2a603424a4dae6",
+  "checked_at": "2026-10-24T12:01:39.110853+00:00",
+  "changed_files": [
+    "build_print.py",
+    "odia-dhaga-book.pdf"
+  ],
+  "counts": {
+    "entries": 108,
+    "illustrated": 55,
+    "pdf_pages": 60,
+    "card_pages": 54,
+    "cards_per_page": 2,
+    "max_shrink": 1
+  },
+  "layout": "Continuous two-column pairs on A4; chapter labels per card; exact contents formula4+floor(prior entries/2). Narrative followed immediately by uncropped aspect-fit images after8pt gap; captions directly beneath images after5pt gap; no forced bottom anchoring, subtle top/gutter rules. Body10.5pt/14leading, Odia10.5/16, proverb14/22; no shrinking.",
+  "checks": [
+    "PDF operation marker executed once successfully.",
+    "Native ReportLab generation passed including per-card text/image collision guard.",
+    "17 existing repository/sourceinventory tests passed.",
+    "SUPERSEDED EARLIER 9.5pt STAGE: All108 ordered IDs found on expected54 paired pages; total59 pages.",
+    "All entry JSON and all asset hashes equal canonical; no prose/source/image changes.",
+    "Actual rendered PDF page4 inspected with clear Odia/English and no overlap. Further independent visual review pending.",
+    "SUPERSEDED EARLIER 9.5pt STAGE: Final flow-layout PDF rebuilt:59 pages,108 IDs in expected pairs, all card bottom guards pass; final page4 rendered and inspected /tmp/dhaga-cards-flow-04.png.",
+    "Final uniform English10.5pt/14 fits all108 without shrink, minimum bottom38.516pt(031). Frontmatter and credits retain original styles; current total60pages;54 ordered paired pages verified.",
+    "Final review correction: nonrevision credits retain exact source title with mixed Odia shaping instead of stripping Odia.60pages and no lone-comma sourceheading verified."
+  ],
+  "initial_failures_resolved": [
+    "SVG Drawing disallows drawWidth attribute; measurement uses native width/height.",
+    "Eager fallback attribute access on rasterImage corrected using type-specific dimensions."
+  ],
+  "pdf_sha256": "21fddb25c6e26aadd4800064a384f5166a02484986793a75e2c29572ea2969a0",
+  "builder_sha256": "4350bdf956b1ad6f3d108ff8eb31bc9d4b73b9a7a36fcf18e930ec4091ad1277",
+  "limits": [
+    "No canonical/Git edits or preview replacement.",
+    "Existing tests verify repository data not full PDF visual coverage; parent/independent review should inspect additional dense/image-free/credits pages."
+  ],
+  "minimum_card_bottom_pt": 38.51614735658055,
+  "worst_card": "POD-DHAGA-031",
+  "minimum_required_bottom_pt": 10
+}
