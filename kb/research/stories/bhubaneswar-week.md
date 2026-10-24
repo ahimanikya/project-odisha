@@ -7,13 +7,15 @@ I have been in Bhubaneswar for a week—and what a week it has been.
 
 It began with Sabyasachi Supper Club. Then came meetings with writers, young entrepreneurs, filmmakers and creative people. So many conversations. Some brought me back to people I have known since childhood. Others introduced me to people whose energy made me want to keep talking, and keep learning.
 
-But the beginning of this journey was somewhere very different: a hotel room during my last trip to the United States.
+This journey began a little earlier, during my last trip to the United States.
 
-## A hotel room, an old poem and a song
+## An old poem finds a new voice
 
-I was sitting in my hotel room with nothing to do. I decided to make music from “I Am Free to Dream.” That small experiment was the trigger that got me going.
+One weekend during my last trip to the United States, I had a little time to spare and a few ideas to play with. I returned to “I Am Free to Dream,” a poem I had written as a teenager, and began turning it into music.
 
-I had returned to poetry I wrote when I was nineteen. Hearing those words as music gave me a new way to engage with something I had written so long ago. An idle moment became the start of an exploration that is still unfolding, documented at [Kabita Without Borders](https://kabitawithoutborders.org/).
+Words from my younger self found a new voice. I followed it, without knowing where it would lead—to familiar faces, new friendships, and stories of Odisha I had yet to discover.
+
+That exploration is still unfolding, documented at [Kabita Without Borders](https://kabitawithoutborders.org/).
 
 At the time, I could not have imagined how far that curiosity would take me. It would lead me towards other writers, towards building things for poets, and towards subjects in Odisha’s culture that I had never expected to spend time researching.
 
@@ -89,7 +91,7 @@ For my part, I want to follow through on what I have started: keep improving the
 
 ## What I am carrying forward
 
-A song made in a hotel room has led me into a journey I could not have planned in advance. Poems written at nineteen, people I have known since childhood, textiles, theatre, cinema, Pala, and even the story of my own name have all found a place in it.
+Turning an old poem into music has led me into a journey I could not have planned in advance. Poems written as a teenager, people I have known since childhood, textiles, theatre, cinema, Pala, and even the story of my own name have all found a place in it.
 
 I am grateful to Sri Pradeep Biswal, Sri Paresh Patnaik, Vishal Mourya, Debi Prasad Lenka, Deependra Samal, Shakti Badjena, and everyone who made time for me this week. The conversations have given me plenty to think about, and plenty to write about.
 
