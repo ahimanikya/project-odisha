@@ -47,13 +47,13 @@ I am happy to have made a formal beginning. Now comes the work of shaping the su
 
 One of the most surprising parts of this journey has been the range of things it has led me to explore.
 
-Learning about textiles—Dongria traditions, Kotpad and so much else—has been a mind-blowing experience for me. I find myself looking at cloth with a different curiosity. I want to understand more about the people behind it, the work involved and the knowledge that a finished piece carries. My exploration of [Kotpad textiles](/knowledge/kotpad/) is one part of that learning.
+Learning about textiles—Dongria traditions, Kotpad and so much else—has been a mind-blowing experience for me. I find myself looking at cloth with a different curiosity. I want to understand more about the people behind it, the work involved and the knowledge that a finished piece carries. My exploration of [Kotpad textiles](https://projectodisha.org/knowledge/kotpad/) is one part of that learning.
 
-Then there is Prahalad Natak, explored on Project Odisha as [Prahallad Nataka](/stories/prahlada-nataka/). Learning about it has drawn me further into Odisha’s performance traditions and made me aware of how much remains outside my own experience. It is a subject I want to keep returning to, with more attention to the people who practise and sustain it.
+Then there is Prahalad Natak, explored on Project Odisha as [Prahallad Nataka](https://projectodisha.org/stories/prahlada-nataka/). Learning about it has drawn me further into Odisha’s performance traditions and made me aware of how much remains outside my own experience. It is a subject I want to keep returning to, with more attention to the people who practise and sustain it.
 
-Writing about [Pala](/sounds-of-odisha/pala/) was something I would once have found hard to imagine. A personal experiment with a poem had opened a path towards learning about other ways poetry and stories live among people.
+Writing about [Pala](https://projectodisha.org/sounds-of-odisha/pala/) was something I would once have found hard to imagine. A personal experiment with a poem had opened a path towards learning about other ways poetry and stories live among people.
 
-And researching my own name—Ahimanikya—and its origins was an even more unexpected turn. It led me into the [story of Ahimanikya and Sashisena](/stories/nimuhi-temple/), and into questions about literature and a name I have carried all my life. I could hardly have imagined that this would become part of my work.
+And researching my own name—Ahimanikya—and its origins was an even more unexpected turn. It led me into the [story of Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-temple/), and into questions about literature and a name I have carried all my life. I could hardly have imagined that this would become part of my work.
 
 These discoveries have been exciting partly because they are so personal. I am learning about subjects connected to where I come from, while repeatedly realising how little I know about them. Each article gives me a reason to pay closer attention.
 
