@@ -1,17 +1,46 @@
 ---
 import Shell from '../../layouts/Shell.astro';
+import ArticleByline from '../../components/ArticleByline.astro';
+import ArticleFootnote from '../../components/ArticleFootnote.astro';
+import ArticleFootnotes from '../../components/ArticleFootnotes.astro';
+import ResearchContents from '../../components/ResearchContents.astro';
+import SaveJourney from '../../components/SaveJourney.astro';
+import '../../styles/article-reading.css';
 import atlas from '../../../../../kb/research/voices/population-2011.json';
+import story from '../../../../../kb/research/voices/multilingual-editorial.json';
 import {multilingualTotals,count,percent} from '../../lib/language-atlas.mjs';
-import '../../styles/language-districts.css';
 const t=multilingualTotals(atlas);
 const segments=[{label:'No additional language reported',value:t.noAdditionalReported},{label:'One additional language reported',value:t.exactlyTwoReported},{label:'Two additional languages reported',value:t.three}];
+const passages=[...story.sections.flatMap(s=>s.paragraphs.map((p,i)=>({id:`${s.id}-${i}`,source_ids:p.source_ids}))),{id:'chart',source_ids:story.chart_text.source_ids}];
+const contents=[...story.sections.map(s=>({title:s.title,href:'#'+s.id})),{title:'Further reading',href:'#further-reading'},{title:'Footnotes & Sources',href:'#story-sources'}];
 ---
-<Shell title="Multilingual Odisha · beyond one mother tongue" description="Understand Odisha’s Census 2011 multilingualism: mother tongue, additional languages and why language does not determine ancestry." active="explore" wide related={false}>
-<article class="district-wrap"><header class="district-intro"><p class="eyebrow">Languages travel together · Census 2011</p><h1>One person.<br/><em>More than one way to speak.</em></h1><p>A home language, a workplace conversation, a favourite song: one name in a Census table cannot describe every part of a person’s linguistic life.</p></header>
-<div class="district-stats"><div><span>At least one additional language reported</span><strong>{count(t.atLeastTwo)}</strong><span>{percent(t.atLeastTwo,t.population)} of Odisha’s 2011 population</span></div><div><span>Within that total: two additional languages</span><strong>{count(t.three)}</strong><span>{percent(t.three,t.population)} of the same population</span></div></div>
-<section class="district-section"><h2>Three distinct slices of the same population</h2><p>The bars below do not overlap. The first headline above combines the second and third bars; adding that headline to the third bar would count some people twice.</p>{segments.map(s=><div class="district-copy"><p><strong>{s.label}</strong> · {count(s.value)} · {percent(s.value,t.population)}</p><span class="district-bar" aria-hidden="true"><i style={'width:'+s.value/t.population*100+'%'}></i></span></div>)}<p class="district-small">Denominator: {count(t.population)} people, Odisha, Census 2011. C-17 records up to two additional languages. “None reported” is not proof that a person was unable to use another language.</p></section>
-<section class="district-section district-copy"><h2>A mother tongue is one question</h2><p>C-16 records mother-tongue returns. C-17 records additional languages against Census language groups. The latter describes the state as a whole in this dataset; it cannot tell us a district’s multilingual rate or the skills of an individual.</p><p>A speaker’s language does not by itself establish birthplace, migration history or ancestry. Those questions need their own evidence and, where appropriate, a person’s own account.</p></section>
-<section class="district-section district-copy"><h2>Listen before choosing the label</h2><p>Ask someone which language they prefer, how they name it and whether they would like to share a word, a reading recommendation or a song. Keep their name for the language alongside the source’s terminology when the two differ.</p><p>On a visit, confirm communication needs with your host. A district’s Census majority is useful historical background; it is not a promise about a guide, a household or a village.</p></section>
-<nav class="district-links" aria-label="Continue exploring"><a href="/languages/districts/">Explore district profiles →</a><a href="/languages/atlas/">Compare language groups →</a><a href="/languages/">Meet the language stories →</a></nav>
-<details class="mag-article-credits"><summary>Sources & calculation</summary><p><a href={atlas.sources.c17.url}>Census C-17, Odisha, 2011</a>, checked against <a href={atlas.sources.c16.url}>C-16</a>. State totals sum the 90 mutually exclusive language groups, including OTHERS. People reporting two additional languages are a subset of those reporting at least one. One-additional-only is their difference; none-reported is the population minus the at-least-one count.</p><p>Figures describe 2011 returns, not present-day fluency or a language-vitality ranking. Source workbooks, row references and calculations are preserved in the project KB.</p></details></article>
+<Shell title={story.title} description={story.description||story.lead} active="explore" wide related={false}>
+<article class="article-reading multilingual-story">
+<a class="collection-return" href="/languages/">← Languages of Odisha</a>
+<header><p class="eyebrow">Languages travel together · Census 2011</p><h1>{story.title}</h1><ArticleByline author={story.author}/><p class="lead">{story.lead}</p><SaveJourney id="reading:languages/multilingual-odisha" quiet/></header>
+<ResearchContents items={contents} label="In this article"/>
+{story.sections.map(section=><section aria-labelledby={section.id}><h2 id={section.id}>{section.title}</h2>{section.paragraphs.map((p,i)=><p data-source-ids={p.source_ids.join(' ')}>{p.text}<ArticleFootnote ids={p.source_ids} sources={story.sources} passage={`${section.id}-${i}`}/></p>)}{section.id==='counting'&&<figure class="language-chart" aria-labelledby="chart-title"><figcaption id="chart-title">Three distinct slices of the same population</figcaption><dl class="headlines"><div><dt>At least one additional language reported</dt><dd>{count(t.atLeastTwo)}<span>{percent(t.atLeastTwo,t.population)} of Odisha’s 2011 population</span></dd></div><div><dt>Within that total: two additional languages</dt><dd>{count(t.three)}<span>{percent(t.three,t.population)} of the same population</span></dd></div></dl><ul class="chart-segments">{segments.map(s=><li><p><strong>{s.label}</strong><span>{count(s.value)} · {percent(s.value,t.population)}</span></p><span class="chart-bar" aria-hidden="true"><i style={'width:'+s.value/t.population*100+'%'}></i></span></li>)}</ul><p class="chart-note">Denominator: {count(t.population)} people, Odisha, Census 2011. {story.chart_text.note}<ArticleFootnote ids={story.chart_text.source_ids} sources={story.sources} passage="chart"/></p></figure>}</section>)}
+<section id="further-reading"><h2>Further reading</h2><nav aria-label="Continue exploring"><ul><li><a href="/languages/districts/">Explore district profiles →</a></li><li><a href="/languages/atlas/">Compare language groups →</a></li><li><a href="/languages/">Meet the language stories →</a></li></ul></nav></section>
+<ArticleFootnotes sources={story.sources} passages={passages}/>
+<p class="article-update"><a href="/contribute/?page=%2Flanguages%2Fmultilingual-odisha%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
+</article>
 </Shell>
+<script>
+import {bindStorySourceLinks} from '../../lib/story-source-links.mjs';
+document.querySelectorAll('.multilingual-story sup, .multilingual-story .article-footnotes').forEach(group=>bindStorySourceLinks(group,document));
+</script>
+<style>
+.collection-return{display:inline-block;margin-bottom:2rem;font-size:.95rem}
+.multilingual-story header{border-bottom:1px solid var(--line);padding-bottom:1.25rem}
+.multilingual-story .lead{font-size:1.25rem;line-height:1.75;margin-top:1.4rem}
+.multilingual-story p{text-wrap:pretty}
+.language-chart{border-block:1px solid var(--line);padding-block:1.5rem}
+.language-chart figcaption{font-size:1.2rem;font-weight:650;color:var(--ink)}
+.headlines{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin:1.5rem 0 2rem}
+.headlines div{min-width:0}.headlines dt{font-size:.9rem;line-height:1.5}.headlines dd{margin:.6rem 0 0;font:clamp(1.6rem,1rem + 2vw,2.4rem)/1.25 Georgia,serif;color:var(--sea)}
+.headlines dd span{display:block;margin-top:.5rem;font: .85rem/1.5 system-ui,sans-serif;color:var(--muted)}
+.multilingual-story .chart-segments{list-style:none;padding:0;margin:1.5rem 0}.chart-segments li{padding:0;margin-bottom:1.5rem}.chart-segments p{font-size:1rem;margin-bottom:.5rem}.chart-segments p span{display:block;font-variant-numeric:tabular-nums}
+.chart-bar{display:block;height:.4rem;background:var(--line)}.chart-bar i{display:block;height:100%;background:var(--earth)}
+.language-chart .chart-note,.article-update{font-size:.9rem;line-height:1.75}.article-update{margin-top:2.5rem}
+@media(max-width:600px){.headlines{grid-template-columns:1fr}.multilingual-story .lead{font-size:1.12rem}}
+</style>

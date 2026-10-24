@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/odia-dhaga-historical-10-12-2026-10-24.json",
+  "handoff_home": "records/multilingual-editorial-team-2026-10-24.json",
   "roles": [
     {
       "name": "Disha",
@@ -54,12 +54,17 @@
     "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
-  "current_article": null,
+  "current_article": {
+    "id": "POD-EDIT-078",
+    "route": "/languages/multilingual-odisha/",
+    "owner": "Disha",
+    "phase": "release_review"
+  },
   "project_identity": "reference/project-identity.md",
   "current_task": {
-    "kind": "dhaga_historical_research",
-    "status": "integration_review",
-    "handoff": "records/odia-dhaga-historical-10-12-2026-10-24.json"
+    "kind": "editorial",
+    "status": "release_review",
+    "handoff": "records/multilingual-editorial-team-2026-10-24.json"
   },
   "parallel_programmes": [
     {

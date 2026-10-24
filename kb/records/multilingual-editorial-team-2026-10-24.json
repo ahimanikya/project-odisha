@@ -1,0 +1,54 @@
+{
+  "status": "release_review",
+  "input_head": "468582d0f3b3dce4a1c0fda47560137768a5ec47",
+  "item": "POD-EDIT-078",
+  "route": "/languages/multilingual-odisha/",
+  "owner": "Disha",
+  "scope": "Explain overlapping reported-language totals and source grouping with concrete Census examples; visible notes and complete portable reading",
+  "readiness": "outputs/multilingual-odisha-readiness-2026-10-24/HANDOFF.json",
+  "reserved_files": [
+    "kb/research/voices/multilingual-editorial.json",
+    "projects/site/src/pages/languages/multilingual-odisha.astro",
+    "projects/site/src/data/journey-catalog.ts",
+    "projects/site/editions/coast.json",
+    "projects/site/tests-coast/multilingual-editorial.test.mjs",
+    "kb/research/coastal-page-descriptions.json (078 description only)",
+    "projects/site/tests-coast/district-languages.test.mjs (078 wording assertion)",
+    "projects/site/tests-coast/cuttack-literature.test.mjs (Reading48 to49)"
+  ],
+  "workers": {
+    "Anvesha": "Source-mapped narrative in isolated output",
+    "Samanta": "Scoped page/portable implementation and tests",
+    "Drishti": "Separate integrated factual/visual/exact-head AI review"
+  },
+  "acceptance": [
+    "Verified2011source grouping and disjoint-count explanation",
+    "No precise operational definitions without evidence",
+    "Founder byline and numbered sources",
+    "Portable reading includes full prose and numerical explanation",
+    "Responsive/keyboard/download checks; required CI, reviewed merge, approved publish and live receipt"
+  ],
+  "programme_credit": 0,
+  "scope_released": false,
+  "classification": {
+    "POD-EDIT-076": "individually inspected interactive atlas utility",
+    "POD-EDIT-077": "individually inspected district navigation directory"
+  },
+  "source_review": {
+    "type": "Separate AI review, not human review",
+    "reviewer": "Drishti",
+    "status": "content passes; finalvisual/exacthead pending",
+    "basis": "Saved original C16/C17 workbook hashes, rows and arithmetic independently inspected",
+    "limits": "No currentdemographic/ancestry/fluency claims;2011reportedcounts only"
+  },
+  "validation": {
+    "full_tests": "595 initial variant passed; final fullbuild rebuilt",
+    "coastal_tests": 504,
+    "arithmetic_tests": 9,
+    "audit_checks": 2492,
+    "publication_indexable": 11,
+    "disclosure_violations": 0,
+    "browser": "1440x1000/390x844 no overflow, keyboardnotes andSave/download checked bySamanta",
+    "independent_visual": "pending"
+  }
+}
