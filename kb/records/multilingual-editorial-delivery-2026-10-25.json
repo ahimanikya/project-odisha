@@ -1,0 +1,192 @@
+{
+  "status": "published_receipt",
+  "item": "POD-EDIT-078",
+  "route": "/languages/multilingual-odisha/",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/528",
+  "content_pr": "https://github.com/ahimanikya/project-odisha/pull/528",
+  "reviewed_head": "781e2219b30b4ab768c72eb7cdd8479ff6360364",
+  "merge_commit": "b1fb28e439a5efd903dc883a7c25662d1832093d",
+  "required_ci": {
+    "run": 40122200683,
+    "result": "success"
+  },
+  "publication": {
+    "workflow": "publish-site.yml",
+    "publish_approved": true,
+    "run": 40122689568,
+    "head": "b1fb28e439a5efd903dc883a7c25662d1832093d",
+    "result": "success",
+    "conclusion": "success"
+  },
+  "live_checks": {
+    "url": "https://projectodisha.org/languages/multilingual-odisha/",
+    "checks": {
+      "paragraph_0": true,
+      "paragraph_1": true,
+      "paragraph_2": true,
+      "paragraph_3": true,
+      "paragraph_4": true,
+      "paragraph_5": true,
+      "author": true,
+      "title": true,
+      "visible_notes": true,
+      "source_links": true,
+      "noindex": true,
+      "chart": true
+    },
+    "html_sha256": "9b7f04aab10f219200cd3c525a8b7224c462707e32d6a477766ffccba78b8d82",
+    "verification_note": "Initial check expected Western digit grouping; actual chart correctly uses Indian digit grouping. Verified all three values and percentages against canonical totals."
+  },
+  "review": {
+    "review_type": "separate AI merge-reconciliation review, not human review",
+    "reviewed_head": "781e2219b30b4ab768c72eb7cdd8479ff6360364",
+    "comparison_base": "1729492a",
+    "status": "pass_with_limitations",
+    "findings": [],
+    "actual_checks": [
+      "All four prior reviewed narrative/page/journey/built-article hashes unchanged from exactaefc4a3b review. Earlier actual screenshots/source review remain applicable to these bytes.",
+      "Exact diff against merged main limited to078integration and associated tests/records; essay article and publication evidence untouched.",
+      "Compared rollout arrays against main: only076/077excluded and078in_progress differ. Essay624 completion and all other items preserved exactly.",
+      "Operations resumes078release_review after essay receipt merge; parallel programme records retained.",
+      "Ran team consistency check:PASS.",
+      "Ran rollout validator:PASS completed98/excluded211/in_progress1/queued314.",
+      "Read reconciled Samanta report bound to781e2219:full595/coast504, full/coast/publication builds pass,11indexable and zero disclosure violations. No count fixes or product edits required.",
+      "Recomputed final rebuilt article/source/journey hashes against report: unchanged.",
+      "Essay527 has no portable item in its original source; reconciliation preserves this preexisting scope rather than asserting new portable coverage."
+    ],
+    "limits": [
+      "Prior factual/visual/source-budget limitations retained. Actual previous screenshots/download apply because exact relevant bytes unchanged; no new browser interactions during reconciliation.",
+      "MergedPR, approved publication and live receipt still required; no release completion claimed."
+    ]
+  },
+  "implementation": {
+    "role": "Samanta",
+    "input_head": "781e2219b30b4ab768c72eb7cdd8479ff6360364",
+    "checked_at": "2026-10-24T18:46:59.660895+00:00",
+    "status": "pass",
+    "repo_edits": [],
+    "commands": [
+      {
+        "command": "npm run build",
+        "result": "pass"
+      },
+      {
+        "command": "npm test",
+        "result": "595/595 pass"
+      },
+      {
+        "command": "npm run build:coast",
+        "result": "pass;505 Astro routes"
+      },
+      {
+        "command": "npm run test:coast",
+        "result": "504/504 pass"
+      },
+      {
+        "command": "npm run build:publication",
+        "result": "pass;limited11indexable"
+      },
+      {
+        "command": "node tools/check-public-disclosures.mjs dist / dist-coast / dist-publish (three separate invocations)",
+        "result": {
+          "full": {
+            "pages": 764,
+            "violations": 0
+          },
+          "coast": {
+            "pages": 751,
+            "violations": 0
+          },
+          "publish": {
+            "pages": 752,
+            "violations": 0
+          }
+        }
+      }
+    ],
+    "log_prefix": "/tmp/pod-multilingual-reconciled-",
+    "preservation": {
+      "essay_page_identical_to_origin_main_1729492a": true,
+      "essay_source_sha256": "ef98c8fec4c19e91f9b855fef69391731a0dd4bb93df0dccfe7c01608e9c275c",
+      "essay_coast_route_exists": true,
+      "reading_count": 49,
+      "count_assertion_change_required": false,
+      "multilingual_all_six_paragraphs_and_two_sources_retained_in_rendered_catalog": true,
+      "multilingual_portable_test": "Passed as part of504tests; book/text include all narrative and textual chart values",
+      "essay_portable_limit": "Essay527 did not supply a journey-catalog entry or SaveJourney control in its original page. No missing essay portable item invented or added during reconciliation."
+    },
+    "hashes": {
+      "kb/research/voices/multilingual-editorial.json": "20d93fdddf2f12e1a63c74cef45d571caa624f5953a19b79d973ab23b1783bea",
+      "projects/site/src/pages/languages/multilingual-odisha.astro": "7d3cc4b42d55e2fb49648070a9c7431aa8594c71f71407faac81f7f5b99476c8",
+      "projects/site/src/data/journey-catalog.ts": "caa323f57c26aab5ca23f4b5d8cb77c7babdc9cdeaccae4e16abc4f7afa42e3e",
+      "projects/site/dist-coast/languages/multilingual-odisha/index.html": "b23f78bc15caccdeee28bcf51435a97ebd93aff3d84c488138e0afabf122b2c1"
+    },
+    "limits": [
+      "No Git, canonical/shared-record or source mutations. Only this output report written.",
+      "Existing actual browser/screenshot/download evidence from final unchanged article is retained; no fresh browser review during merge-only validation.",
+      "No deployment/live result claimed."
+    ]
+  },
+  "source_review": {
+    "input_head": "781e2219b30b4ab768c72eb7cdd8479ff6360364",
+    "reviewed_baseline": "aefc4a3b85fb21be9c77cba1974266fb82302a04",
+    "status": "PASS reconciliation; no source or identity-scope regression",
+    "checks": [
+      {
+        "path": "kb/research/voices/multilingual-editorial.json",
+        "byte_equal_to_reviewed": true,
+        "sha256": "20d93fdddf2f12e1a63c74cef45d571caa624f5953a19b79d973ab23b1783bea"
+      },
+      {
+        "path": "kb/research/voices/population-2011.json",
+        "byte_equal_to_reviewed": true,
+        "sha256": "c149d36bfa5c6c01595ddb517dfca21c5d8d5fe6d2283fa19dc020432b7fe998"
+      },
+      {
+        "path": "kb/research/references/census-2011/c16-odisha.xlsx",
+        "byte_equal_to_reviewed": true,
+        "sha256": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db"
+      },
+      {
+        "path": "kb/research/references/census-2011/c17-odisha.xlsx",
+        "byte_equal_to_reviewed": true,
+        "sha256": "7dcbe31d6af61a6a4222393808c64f5a56879a3cfeaa72dff054a0985e2a1de8"
+      },
+      {
+        "path": "projects/site/src/lib/language-atlas.mjs",
+        "byte_equal_to_reviewed": true,
+        "sha256": "c52a825ccfec3aa241173e7d50355a42074bdfb8a45ee4ac225a2fec3e99a87c"
+      },
+      {
+        "path": "projects/site/src/pages/languages/multilingual-odisha.astro",
+        "byte_equal_to_reviewed": true,
+        "sha256": "7d3cc4b42d55e2fb49648070a9c7431aa8594c71f71407faac81f7f5b99476c8"
+      }
+    ],
+    "findings": [
+      "Canonical editorial narrative is byte-identical to reviewed candidate.",
+      "C17 first-use source order, fixed2011scope, nested33/13 explanation and up-to-two-additional reporting limit remain.",
+      "ODIA group versus Odia return comparison and respect for speaker self-naming remain unchanged.",
+      "Population data, original workbooks, arithmetic helper and article renderer all byte-identical. Only team record differs within multilingual filename scope; it is not narrative evidence."
+    ],
+    "limits": [
+      "Read-only reconciliation, not fresh source retrieval, factual research or human proofreading.",
+      "No new build, visual or deployment checks; unchanged content does not certify publication.",
+      "Only this authorized output report written."
+    ]
+  },
+  "programme_credit": 0,
+  "completed_items": 131,
+  "scope_release": "Upon reviewed receipt PR merge after required checks; do not start another integration before then.",
+  "verified_routes": [
+    "/languages/multilingual-odisha/"
+  ],
+  "deployment": {
+    "workflow": "publish-site.yml",
+    "publish_approved": true,
+    "run": 40122689568,
+    "head": "b1fb28e439a5efd903dc883a7c25662d1832093d",
+    "result": "success",
+    "conclusion": "success"
+  }
+}
