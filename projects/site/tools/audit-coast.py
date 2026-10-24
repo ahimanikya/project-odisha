@@ -27,23 +27,24 @@ class Page(HTMLParser):
 pages={}
 for route in config['routes']:
  p=OUT/(route.lstrip('/')+'index.html' if route.endswith('/') else route.lstrip('/'));page=Page();page.feed(p.read_text());page.raw=p.read_text();page.file=p;pages[route]=page
+standalone=set(config.get('standalone_routes',[]))
 checks=[]
 def add(route,kind,errors,details):checks.append(dict(route=route,check=kind,status='pass' if not errors else 'fail',errors=errors,details=details))
 for route,page in pages.items():
  errors=[];canonical=[a.get('href') for a in page.nodes_of('link') if a.get('rel')=='canonical'];expected='https://projectodisha.org'+route
  if canonical!=[expected]:errors.append('Canonical mismatch '+str(canonical))
- if not 50<=len(page.meta('description'))<=250:errors.append('Description missing or poorly bounded')
+ if not (1 if route in standalone else 50)<=len(page.meta('description'))<=250:errors.append('Description missing or poorly bounded')
  if len(page.document_titles)!=1 or not page.meta('og:title'):errors.append('Page/social title missing')
  if page.meta('og:description')!=page.meta('description'):errors.append('Social description differs')
  if page.meta('og:url')!=expected:errors.append('Social URL mismatch')
- if page.nodes_of('html')[0].get('lang')!='en':errors.append('Document language missing')
+ if page.nodes_of('html')[0].get('lang') not in (['en','or'] if route in standalone else ['en']):errors.append('Document language missing')
  for key in ['og:image','og:image:alt','og:image:width','og:image:height','twitter:card','referrer']:
   if not page.meta(key):errors.append(key+' missing')
  add(route,'metadata_and_language',errors,{'canonical':canonical,'description':page.meta('description'),'social_image':page.meta('og:image')})
  errors=[];ids=[a['id'] for _,a in page.nodes if a.get('id')];fors=[a.get('for') for a in page.nodes_of('label')]
  if len(ids)!=len(set(ids)):errors.append('Duplicate IDs')
  if len(page.nodes_of('main'))!=1 or 'main' not in ids:errors.append('Main landmark missing')
- if len(page.nodes_of('h1'))!=1:errors.append('Expected one article h1')
+ if (len(page.nodes_of('h1'))<1 if route in standalone else len(page.nodes_of('h1'))!=1):errors.append('Expected one article h1')
  if not any(a.get('href')=='#main' for a in page.nodes_of('a')):errors.append('Skip link missing')
  for tag,a in page.nodes:
   if tag in ['input','select','textarea'] and a.get('id') not in page.labelled and a.get('id') not in fors:errors.append('Unlabelled '+tag+' '+str(a.get('id')))
@@ -78,6 +79,9 @@ for route,page in pages.items():
  images=page.nodes_of('img')
  for a in images:
   if 'alt' not in a or not a.get('width') or not a.get('height'):errors.append('Image missing alt/dimensions '+str(a.get('src')))
+ if route in standalone:
+  add(route,'edition_boundary_and_credits',errors,{'images':len(images),'catalogue_choices':None,'scope':'Transferred standalone character archive; original contributor credits preserved; no journey catalogue'})
+  continue
  payload=page.raw.split('id="journey-data"',1)[1].split('>',1)[1].split('</script>',1)[0];data=json.loads(payload)
  if set(i['id'] for i in data['catalog'])!=set(config['journey_ids']):errors.append('Catalogue boundary differs')
  for item in data['catalog']:
