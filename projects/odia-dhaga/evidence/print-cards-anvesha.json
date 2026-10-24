@@ -1,0 +1,49 @@
+{
+  "input_head": "53beda0df35d509cd763f4f124194f4158b3117a",
+  "status": "PASS bounded preservation audit; not exhaustive pixel review",
+  "pdf_sha256": "d56fc9a818d1f90504e38f5b166332fb8a32ffd682eb8b6fbb885fda6626ef37",
+  "builder_sha256": "b375d55382bf95a7ac955f85644260b94267632a9e9c6d420eaac50795f8de33",
+  "counts": {
+    "entries": 108,
+    "graphics": 55,
+    "chapters": 8,
+    "pdf_pages": 60,
+    "paired_card_pages": 54,
+    "used_source_ids": 36
+  },
+  "checks": {
+    "collection_exact_equal": true,
+    "chapter_design_exact_equal": true,
+    "all108_pdf_card_ids_ordered": true,
+    "missing_credit_sources": [],
+    "credit_section_count": 1,
+    "witness_panels": "No per-card witness panels in builder; all source attribution grouped at end, including variants.",
+    "reading_text_preserved": "Builder iterates unchanged Odia headword/title/meaning_odia/literal_meaning/explanation/usage_example/cultural_context for every entry. Full collection equality verified. Extraction sentence matching not used as proof due ligatures and mixed-script extraction issues.",
+    "graphics_preserved": "55 graphics remain in exact collection; builder places each associated source asset without crop, follows with caption."
+  },
+  "visual_checks": [
+    {
+      "page": 22,
+      "result": "PASS dense illustrated pair008/017, bilingual reading, diagram and modern work-tool photo/captions visible; no overlap/clipping."
+    },
+    {
+      "page": 57,
+      "result": "PASS last pair084/105, complete-looking context and image/caption, no clipping."
+    },
+    {
+      "page": 58,
+      "result": "PASS consolidated credits readable; source revision mapping, CC licence and SCERT separate-rights caveat retained."
+    }
+  ],
+  "findings": [
+    "No preservation blocker identified. Compact cards retain substantive reading text and original-example labels.",
+    "Chapter order matches design, including chapters starting in second card position where relevant.",
+    "Rights are consolidated once, not removed; historic and SCERT source scopes remain distinguished."
+  ],
+  "limits": [
+    "Only pages22,57,58 visually inspected by this reviewer; not all60 pages.",
+    "No human Odia proofreading or fresh source/legal-rights research.",
+    "Initial render fontconfig failures resolved using a temporary local fontconfig file. Earlier59-page candidate superseded; this report binds final60-page PDF.",
+    "No canonical edits, publication or programme credit."
+  ]
+}

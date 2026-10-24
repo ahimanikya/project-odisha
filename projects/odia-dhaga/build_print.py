@@ -14,10 +14,36 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.lib import colors
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.lib.pagesizes import A4
-from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, PageBreak, Image, KeepInFrame, KeepTogether
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, PageBreak, Image, KeepInFrame, KeepTogether, Flowable
 from svglib.svglib import svg2rlg
 from build import load_library, reading_caption
 ROOT=Path(__file__).resolve().parent
+
+CARD_BOTTOMS=[]
+
+class CardPair(Flowable):
+    """Two measured cards; text never overprints the uncropped lower illustration."""
+    def __init__(self, cards, width, height):
+        Flowable.__init__(self); self.cards=cards; self.width=width; self.height=height
+    def draw(self):
+        gap=16; cw=(self.width-gap)/2; pad=10
+        for index,(blocks,image,caption) in enumerate(self.cards):
+            x=index*(cw+gap); c=self.canv
+            c.setStrokeColor(colors.HexColor('#d8cdbb'));c.setFillColor(colors.HexColor('#fffdf7'))
+            c.line(x+pad,self.height,cw+x-pad,self.height)
+            if index==0:c.line(cw+gap/2,0,cw+gap/2,self.height)
+            y=self.height-pad
+            for block in blocks:
+                w,h=block.wrap(cw-2*pad,self.height)
+                y-=h; block.drawOn(c,x+pad,y); y-=block.getSpaceAfter()
+            if image:
+                y-=8+(image.drawHeight if isinstance(image,Image) else image.height)
+                image.drawOn(c,x+(cw-(image.drawWidth if isinstance(image,Image) else image.width))/2,y)
+                y-=5
+                w,h=caption.wrap(cw-2*pad,self.height)
+                y-=h; caption.drawOn(c,x+pad,y)
+            CARD_BOTTOMS.append((y,blocks[0].getPlainText()))
+            if y < pad: raise ValueError(f'Card overflow: content bottom {y}, minimum {pad}')
 
 def make_book(root=ROOT):
     root=Path(root);data=load_library(root);design=json.loads((root/'research-design.json').read_text())
@@ -42,28 +68,42 @@ def make_book(root=ROOT):
         for x in data['book_intro']['odia']:story.append(p(x,'odia'))
         for x in data['book_intro']['english']:story.append(p(x))
         story += [Spacer(1,20),p('Read by theme or follow the Dhaga in order. The examples are original illustrations of everyday use.'),PageBreak(),p('Contents','heading')]
-        byid={e['id']:e for e in data['entries']}; ordered=[]; next_page=4; frames=[]
+        byid={e['id']:e for e in data['entries']}; ordered=[]; next_page=4; frames=[]; entry_offset=0
         for ch in design['shelves']:
-            story.append(p(f"{ch['label']} · {len(ch['entry_ids'])} Dhaga · page {next_page}"));ordered.extend(byid[i] for i in ch['entry_ids']);next_page+=len(ch['entry_ids'])
+            story.append(p(f"{ch['label']} · {len(ch['entry_ids'])} Dhaga · page {4+entry_offset//2}"));ordered.extend(byid[i] for i in ch['entry_ids']);entry_offset+=len(ch['entry_ids'])
         story += [Spacer(1,20),p('Each reading includes the Dhaga, its literal sense, meaning and an original usage example. Source acknowledgements and reuse rights are collected at the end.','small')]
         primary={}
+        front_styles=styles
+        styles={k:v.clone('card-'+k) for k,v in styles.items()}
+        cardwidth=(usable-12-16)/2-20
+        styles['body'].fontSize=10.5; styles['body'].leading=14; styles['body'].spaceAfter=5
+        styles['odia'].fontSize=10.5; styles['odia'].leading=16; styles['odia'].spaceAfter=7
+        styles['saying'].fontSize=14; styles['saying'].leading=22; styles['saying'].spaceAfter=8
+        styles['heading'].fontSize=14; styles['heading'].leading=18; styles['heading'].spaceAfter=8
+        styles['label'].fontSize=7.5; styles['label'].leading=10; styles['label'].spaceAfter=3
+        styles['small'].fontSize=7.5; styles['small'].leading=10
+        cards=[]
+        processed=0
         for ch in design['shelves']:
             for j,ident in enumerate(ch['entry_ids']):
-                e=byid[ident];story.append(PageBreak());blocks=[p(ch['label']+' · Dhaga '+e['id'].rsplit('-',1)[1],'label'),p(e['odia'],'saying'),p(e['title'],'heading'),p(e.get('meaning_odia',''),'odia')]
+                e=byid[ident];blocks=[p(ch['label']+' · Dhaga '+e['id'].rsplit('-',1)[1],'label'),p(e['odia'],'saying'),p(e['title'],'heading'),p(e.get('meaning_odia',''),'odia')]
                 for label,key in [('Literal meaning','literal_meaning'),('Meaning','explanation'),('An example · original','usage_example'),('In context','cultural_context')]:
                     blocks += [p(label,'label'),p(e[key])]
-                g=e.get('graphic')
+                g=e.get('graphic'); im=None; caption=None
                 if g:
                     src=root/g['src']
                     if src.suffix=='.svg':
-                        im=svg2rlg(str(src));scale=min(usable/im.width,145/im.height);im.width*=scale;im.height*=scale;im.scale(scale,scale)
+                        im=svg2rlg(str(src));scale=min(cardwidth/im.width,190/im.height);im.width*=scale;im.height*=scale;im.scale(scale,scale)
                     else:
                         raster=RasterImage.open(src).convert('RGB');raster.thumbnail((1400,1000));encoded=BytesIO();raster.save(encoded,format='JPEG',quality=90);encoded.seek(0)
-                        im=Image(encoded);scale=min(usable/im.imageWidth,145/im.imageHeight);im.drawWidth=im.imageWidth*scale;im.drawHeight=im.imageHeight*scale
-                    blocks += [Spacer(1,6),im,p(reading_caption(g['caption']),'small')]
-                frame=KeepInFrame(usable,bodyheight,blocks,mode='shrink');frames.append(frame);story.append(frame)
+                        im=Image(encoded);scale=min(cardwidth/im.imageWidth,190/im.imageHeight);im.drawWidth=im.imageWidth*scale;im.drawHeight=im.imageHeight*scale
+                    caption=p(reading_caption(g['caption']),'small')
+                cards.append((blocks,im,caption));processed+=1
+                if len(cards)==2 or processed==len(ordered):
+                    story.extend([PageBreak(),CardPair(cards,usable-12,bodyheight-12)]);cards=[]
                 for sid in dict.fromkeys(w['source_id'] for w in e['witnesses']+e.get('variants',[]) if w.get('source_id')):
                     primary.setdefault(sid,[]).append(e['id'].rsplit('-',1)[1])
+        styles=front_styles
         story += [PageBreak(),p('Credits & rights','heading'),p(data['license'],'small'),p('Licence: https://creativecommons.org/licenses/by-sa/4.0/','small'),p('Collection and detailed source records: https://github.com/ahimanikya/project-odisha/tree/main/projects/odia-dhaga','small'),p('Wikimedia contributors are credited at each linked revision. Translations, explanations and examples are original adaptations by Project Odisha; illustrations are contemporary interpretations.','small'),p('Fonts: Noto Serif Oriya and Source Serif 4, SIL Open Font License.','small')]
         sources={s['id']:s for s in data['sources']}
         for sid,ids in primary.items():
@@ -73,12 +113,13 @@ def make_book(root=ROOT):
                 label=('Odia Wiktionary' if 'wiktionary' in parts.netloc else 'Wikimedia Incubator · Odia sayings')+' · revision '+revision
             else:
                 url=quote(s['url'],safe=':/?&=%#')
-                label=re.sub(r'[\u0b00-\u0b7f]+','',s['title']).strip();label=re.sub(r'\(\s*\)','',label)
+                label=s['title']
             story.append(KeepTogether([p(label,'body'),p('Dhaga '+', '.join(ids)+' · '+url,'small'),*([p(s['rights'],'small')] if not ('wiktionary' in parts.netloc or 'incubator.wikimedia' in parts.netloc) else [])]))
         out=root/'odia-dhaga-book.pdf'
         def page_number(c,doc):
             c.saveState();c.setFont('English',8);c.setFillColor(colors.HexColor('#665c52'));c.drawCentredString(width/2,28,str(doc.page));c.restoreState()
         SimpleDocTemplate(str(out),pagesize=A4,rightMargin=47,leftMargin=47,topMargin=48,bottomMargin=52,title='Sayings and Proverbs - ଓଡ଼ିଆ ଢଗଢମାଳି',author='Ahimanikya Satapathy').build(story,onFirstPage=page_number,onLaterPages=page_number)
-        print('Maximum shrink factor:',max(getattr(f,'_scale',1) for f in frames))
+        print('Minimum card bottom:',min(CARD_BOTTOMS))
+        print('Maximum shrink factor:',max([getattr(f,'_scale',1) for f in frames] or [1]))
         return out
 if __name__=='__main__':print(make_book())
