@@ -1,5 +1,5 @@
 {
-  "status": "reviewed_local_candidate",
+  "status": "published_and_verified",
   "owner": "Disha",
   "scope": "Responsive delivery for recent story heroes and reading cards",
   "reserved_files": [
@@ -16,7 +16,7 @@
     "limits": "Not a human or specialist review"
   },
   "programme500_increment": 0,
-  "scopes_released": false,
+  "scopes_released": true,
   "authorization": "Founder: Let\u2019s do that, following proposed image delivery update and publication.",
   "guidance": {
     "id": "performance",
@@ -38,9 +38,103 @@
     "Responsive regressions3/3",
     "Coastal suite495/495",
     "All three disclosure scans clean",
-    "KB/workbench/diff checks pass"
+    "KB/workbench/diff checks pass",
+    "Full test suite595/595"
   ],
-  "publication": "pending",
+  "publication": {
+    "pr": 520,
+    "merge": "b26b4193a10c08d703fef796badaf5e8b9ab1557",
+    "validation_run": 40059856085,
+    "publication_run": 40060192421,
+    "result": "success",
+    "verified": "2026-10-24",
+    "live_checks": [
+      {
+        "route": "stories/odia-cultural-identity",
+        "original": "/images/stories/odia-identity-passing-on-culture.webp",
+        "candidate": "/images/responsive/90a4fc03608d60c7-480.webp",
+        "bytes": 33688,
+        "sizes": "(max-width: 600px) calc(100vw - 2.4rem), (max-width: 740px) calc(100vw - 2.8rem), 695.2px"
+      },
+      {
+        "route": "stories/odia-cultural-identity",
+        "original": "/images/stories/rise-practical-beginning-v2.png",
+        "candidate": "/images/responsive/746667d5d1f51ea2-480.webp",
+        "bytes": 24978,
+        "sizes": "(max-width: 358px) calc(100vw - 2.4rem), (max-width: 600px) 320px, 180px"
+      },
+      {
+        "route": "stories/odia-cultural-identity",
+        "original": "/images/stories/learn-neighbourhood-room-v2.png",
+        "candidate": "/images/responsive/b38c23a20a758675-480.webp",
+        "bytes": 27566,
+        "sizes": "(max-width: 358px) calc(100vw - 2.4rem), (max-width: 600px) 320px, 180px"
+      },
+      {
+        "route": "stories/odia-cultural-identity",
+        "original": "/images/stories/dalkhai-stage-illustration-v2.png",
+        "candidate": "/images/responsive/ab5eb3a4b5e7b096-480.webp",
+        "bytes": 44610,
+        "sizes": "(max-width: 358px) calc(100vw - 2.4rem), (max-width: 600px) 320px, 180px"
+      },
+      {
+        "route": "stories/odia-cultural-identity",
+        "original": "/images/stories/nuakhai-shared-meal-v2.png",
+        "candidate": "/images/responsive/0d0040123b6e7052-480.webp",
+        "bytes": 36998,
+        "sizes": "(max-width: 358px) calc(100vw - 2.4rem), (max-width: 600px) 320px, 180px"
+      },
+      {
+        "route": "stories/rise-children-of-utkal",
+        "original": "/images/stories/rise-practical-beginning-v2.png",
+        "candidate": "/images/responsive/746667d5d1f51ea2-480.webp",
+        "bytes": 24978,
+        "sizes": "(max-width: 600px) calc(100vw - 2.4rem), (max-width: 740px) calc(100vw - 2.8rem), 695.2px"
+      },
+      {
+        "route": "stories/rise-children-of-utkal",
+        "original": "/images/stories/odia-identity-passing-on-culture.webp",
+        "candidate": "/images/responsive/90a4fc03608d60c7-480.webp",
+        "bytes": 33688,
+        "sizes": "(max-width: 358px) calc(100vw - 2.4rem), (max-width: 600px) 320px, 180px"
+      },
+      {
+        "route": "stories/rise-children-of-utkal",
+        "original": "/images/stories/learn-neighbourhood-room-v2.png",
+        "candidate": "/images/responsive/b38c23a20a758675-480.webp",
+        "bytes": 27566,
+        "sizes": "(max-width: 358px) calc(100vw - 2.4rem), (max-width: 600px) 320px, 180px"
+      },
+      {
+        "route": "stories/a-place-to-learn-together",
+        "original": "/images/stories/learn-neighbourhood-room-v2.png",
+        "candidate": "/images/responsive/b38c23a20a758675-480.webp",
+        "bytes": 27566,
+        "sizes": "(max-width: 600px) calc(100vw - 2.4rem), (max-width: 740px) calc(100vw - 2.8rem), 695.2px"
+      },
+      {
+        "route": "stories/a-place-to-learn-together",
+        "original": "/images/stories/odia-identity-passing-on-culture.webp",
+        "candidate": "/images/responsive/90a4fc03608d60c7-480.webp",
+        "bytes": 33688,
+        "sizes": "(max-width: 358px) calc(100vw - 2.4rem), (max-width: 600px) 320px, 180px"
+      },
+      {
+        "route": "stories/a-place-to-learn-together",
+        "original": "/images/stories/rise-practical-beginning-v2.png",
+        "candidate": "/images/responsive/746667d5d1f51ea2-480.webp",
+        "bytes": 24978,
+        "sizes": "(max-width: 358px) calc(100vw - 2.4rem), (max-width: 600px) 320px, 180px"
+      },
+      {
+        "route": "sounds-of-odisha/dalkhai",
+        "original": "/images/stories/dalkhai-stage-illustration-v2.png",
+        "candidate": "/images/responsive/ab5eb3a4b5e7b096-480.webp",
+        "bytes": 44610,
+        "sizes": "(max-width: 450px) calc(100vw - 36px), (max-width: 978px) 92vw, 900px"
+      }
+    ]
+  },
   "image_bytes": [
     {
       "src": "/images/stories/odia-identity-passing-on-culture.webp",
