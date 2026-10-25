@@ -1,0 +1,87 @@
+{
+  "review_type": "Separate AI visual inventory and proposal review; not human proofreading",
+  "reviewer": "Drishti",
+  "input_head": "80256428f0d7890646633687fe6318292bbfb902",
+  "status": "pass_with_limitations",
+  "blockers": [],
+  "actual_pages_visually_checked": [
+    61,
+    62,
+    63,
+    64,
+    65,
+    66
+  ],
+  "source_pdf_sha256": "fe6b974c2b2b6de7a11ff34a2c79bb2bfc4986d8ecf6d9da08eca9d02f1e8863",
+  "input_hashes": {
+    "anvesha.json": "94f72a75d33478dad0672537af3ca1a6609472e3c00a77a98a09df16a9871e15",
+    "samanta.json": "19a102e0183ad506a260d2bd95b0fe39c2743117620c9ff3154a157e231033e0",
+    "proposed-ledger-delta.json": "e3c5b6db8af78856e813b0b0c50c55e9defbb4b535944a6e29fb13d28ee7f617"
+  },
+  "render_hashes": {
+    "outputs/dhaga-1926-pages61-66-2026-10-25/renders/page-061.png": "44658f374bc683b5d57e2e911f9d59a6c704a0f5bd156d62d6599882be30c796",
+    "outputs/dhaga-1926-pages61-66-2026-10-25/renders/page-062.png": "051b67361acfe62b73e98dd1d6966d9eca5808e7334ae77fb7d9c39bf14dce81",
+    "outputs/dhaga-1926-pages61-66-2026-10-25/renders/page-063.png": "4fe9cd24f54ea0b4dc680804bf8bd9ccfe97752761f6bbdfdfb410523d3e29db",
+    "outputs/dhaga-1926-pages61-66-2026-10-25/renders/page-064.png": "1ca1030f78220c4e312069bc6fb17007bfb871f23c7d7e1dc6539202d87ae578",
+    "outputs/dhaga-1926-pages61-66-2026-10-25/renders/page-065.png": "e4778e0155f9eeda5d869df2208b6dd48c692ac99098fe693fdd529a9dc5bba4",
+    "outputs/dhaga-1926-pages61-66-2026-10-25/renders/page-066.png": "98c61c8c0a6fc7376cac240fcc9d2a4d555d6c8cd4582d8eba6f2d97e34022d1"
+  },
+  "visual_findings": [
+    "PDF61 continues numbered entries with variants and bracketed usage comments; damaged margin numerals do not establish a certified total.",
+    "PDF62 has severe upper fading and right-edge damage. Opening continuation and separate entries are visible; the Magha opening is only a possible003 parallel. The short katha fragment does not establish029 equivalence.",
+    "PDF63 continues the series with extensive upper/right dropout and bracketed explanation passages; no new section reset identified.",
+    "PDF64 is clearer centrally, with apparent40–50 numbering; isolated broken clusters still prevent complete transcription.",
+    "PDF65 loses left numeral strokes and right portions. Apparent one-digit starts are not evidence of a new sequence.",
+    "PDF66 has three upper continuation items, ornamental divider, centeredଓ heading and a restarted numbered list. The otter fragment in item4 has longer distinct surrounding text and cannot be promoted to056 merely by shared animal word."
+  ],
+  "proposal_checks": {
+    "baseline_hash_and_source_row_match": true,
+    "changed_field_count": 5,
+    "added_overview_pages": [
+      61,
+      62,
+      63,
+      64,
+      65,
+      66
+    ],
+    "added_full_render_inspection_pages": [
+      61,
+      62,
+      63,
+      64,
+      65,
+      66
+    ],
+    "idempotent_in_memory": true,
+    "all_other_source_rows_and_top_level_preserved": true,
+    "next_inventory_page_after_integration": 67,
+    "1926_full_transcription_cursor_unchanged": 31,
+    "1893_full_transcription_cursor_unchanged": 2
+  },
+  "preserved_baseline": {
+    "entries": 159,
+    "illustrations": 159,
+    "book_pages": 86,
+    "original127_pending": 75,
+    "1893_draft_segments": 83,
+    "1893_full_transcription_cursor": 2,
+    "1926_full_transcription_cursor": 31
+  },
+  "accepted_increment": 0,
+  "programme_credit": 0,
+  "actual_checks": [
+    "Actually viewed all six full1800px source renders, not merely contact sheets or OCR.",
+    "Read both frozen reports and compared all three partial-fragment anchors/uncertainty with the source images.",
+    "Verified source and six render hashes, canonical baseline hash/source-row equality, exact five-field proposal and idempotence in memory.",
+    "Confirmed full-transcription/human-reviewed lists, prior coverage/evidence and all other ledger rows remain untouched by proposed set operation."
+  ],
+  "limits": [
+    "Inventory approval only; no exact diplomatic transcription, candidate acceptance, complete source extraction or human review.",
+    "Severe missing ink prevents secure full readings; provisional numeral ranges cannot serve as unique-proverb counts.",
+    "No copyright clearance, author-role determination,1990edition comparison or historical-origin claim. Local facsimiles remain inspection artifacts.",
+    "No canonical/book changes or deployment. Next67 is conditional on coordinator integration; full transcription31 remains unfinished.",
+    "Targeted159-headword comparisons are not exhaustive semantic deduplication."
+  ],
+  "next_action": "Preserve these frozen reports and proposal as an output-only checkpoint. Coordinator may integrate scoped1926 inventory evidence separately; then inspect PDF67 onward without promoting these fragments."
+}
