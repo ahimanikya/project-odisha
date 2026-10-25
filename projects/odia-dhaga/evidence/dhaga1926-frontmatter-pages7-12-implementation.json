@@ -1,0 +1,119 @@
+{
+  "input_head": "f48cd3b068738e33655029b77492bbabb1842a72",
+  "checked_head": "b57c21e318a439b3b3ebb6baab449eafac1029e7",
+  "checked_at": "2026-10-25T15:47:46.866902+00:00",
+  "reviewer": "Samanta; independent AI visual inventory and mechanical proposal validation, not human review",
+  "scope": "Output-only; no canonical/book/Git mutations",
+  "research_sha256": "4ac5bfafad9f61980b772f95e6c8fe7635852f9d172f52edf0877480d7af301b",
+  "baseline_ledger_sha256": "a146ce2839d7a45e73229d4ef89b54aaf4d66eb2c8b54b8f9cce8024f13fe684",
+  "proposal_sha256": "522baf2634a4db12e8528e295e1ae05728a03f16ada0f8f6bd09155d0dd71271",
+  "source_sha256": "fe6b974c2b2b6de7a11ff34a2c79bb2bfc4986d8ecf6d9da08eca9d02f1e8863",
+  "actual_visual_checks": [
+    {
+      "pdf_page": 7,
+      "render_sha256": "22aac78ebee257d0041c54fc12396c96f80ded8eb53850b21753997642d01cf0",
+      "section": "Prefatory prose continuation; no standalone numbered proverb-list opening",
+      "printed_number_candidate": 5,
+      "number_limit": "Provisional visual number, not diplomatic transcription"
+    },
+    {
+      "pdf_page": 8,
+      "render_sha256": "e9da0e7954cf1c499500deffc5f73a6d42a22d8c3d67cbf1659cfc0dbc0453a0",
+      "section": "Prefatory prose continuation; no standalone numbered proverb-list opening",
+      "printed_number_candidate": 6,
+      "number_limit": "Provisional visual number, not diplomatic transcription"
+    },
+    {
+      "pdf_page": 9,
+      "render_sha256": "7b67e8e4e40101dab63d7c6ae0222468f43a8b8f04df156de8fe36b85d2fe739",
+      "section": "Prefatory prose continuation; no standalone numbered proverb-list opening",
+      "printed_number_candidate": 7,
+      "number_limit": "Provisional visual number, not diplomatic transcription"
+    },
+    {
+      "pdf_page": 10,
+      "render_sha256": "0a5ad8b74f50d6a9f8de3b1594c73259bb199c3839e9ff796cf8e5d1ddabb0f7",
+      "section": "Prefatory prose continuation; no standalone numbered proverb-list opening",
+      "printed_number_candidate": 8,
+      "number_limit": "Provisional visual number, not diplomatic transcription"
+    },
+    {
+      "pdf_page": 11,
+      "render_sha256": "49393074bf48c1b11da6a2a630d8a3bd4cc2b863d5850be5de6d1cd900612940",
+      "section": "Prefatory prose continuation; no standalone numbered proverb-list opening",
+      "printed_number_candidate": 9,
+      "number_limit": "Provisional visual number, not diplomatic transcription"
+    },
+    {
+      "pdf_page": 12,
+      "render_sha256": "5204f8212e015ea3d0020a26a14ea58c654e9c13ecd286f085c7e3820d591adf",
+      "section": "Prefatory prose continuation; no standalone numbered proverb-list opening",
+      "printed_number_candidate": 10,
+      "number_limit": "Provisional visual number, not diplomatic transcription"
+    }
+  ],
+  "independent_observations": [
+    "PDF7 Light Literature, PDF8 Idiom and PDF9 Popular Literature are visibly embedded English parentheticals.",
+    "PDF9–10 contain bibliographic-looking names/dates; exact names, titles and roles remain uncertified.",
+    "PDF11 contains quoted examples within prose; these do not establish standalone entries.",
+    "PDF12 remains prose through the lower paragraph; no end-of-preface marker observed.",
+    "No additional repeated full-page layout identified within7–12; earlier3/5 repeat remains unresolved."
+  ],
+  "differences_from_research": [],
+  "changed_source_id": "dhaga-praharaj-pitambari1926",
+  "changed_fields": [
+    "inspection",
+    "next_action",
+    "frontmatter_pdf_pages_targeted_inspection",
+    "next_page_to_attempt",
+    "frontmatter_pages7_12_inspection_report",
+    "frontmatter_pages7_12_ai_review"
+  ],
+  "future_evidence_paths": [
+    "evidence/dhaga1926-frontmatter-pages7-12-research.json",
+    "evidence/dhaga1926-frontmatter-pages7-12-review.json"
+  ],
+  "evidence_path_status": "Proposal pointers only; future integration must copy frozen research/review JSON before applying. No facsimile packaging.",
+  "tests": [
+    {
+      "check": "Exact frozen research SHA and all six render SHA bindings",
+      "result": "pass"
+    },
+    {
+      "check": "Proposal JSON parses; exactly six1926-row fields changed",
+      "result": "pass"
+    },
+    {
+      "check": "Idempotency: apply(apply(base)) equals apply(base)",
+      "result": "pass"
+    },
+    {
+      "check": "All top-level fields and every other source row including entire1893 row preserved",
+      "result": "pass"
+    },
+    {
+      "check": "1926 rights, fully-transcribed and human-reviewed arrays unchanged",
+      "result": "pass"
+    },
+    {
+      "check": "Actual collection110 entries and110 graphics; historical fullcursor2 and83drafts preserved",
+      "result": "pass"
+    }
+  ],
+  "preserve": {
+    "entries": 110,
+    "illustrations": 110,
+    "book_pages": 60,
+    "1893_full_cursor": 2,
+    "draft_segments": 83,
+    "accepted_increment": 0,
+    "programme_credit": 0
+  },
+  "next_targeted_pdf_page": 13,
+  "limits": [
+    "No glyph-complete transcription, human proofreading, acceptance or reuse-rights determination.",
+    "The six pages provide section/sequence inventory, not certified bibliography or creator-role conclusions.",
+    "No public book rebuild:60-page count retained from reviewed current edition; no PDF mutation.",
+    "No full-source extraction or completion claimed."
+  ]
+}

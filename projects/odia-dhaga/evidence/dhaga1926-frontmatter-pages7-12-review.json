@@ -1,0 +1,112 @@
+{
+  "review_type": "separate AI visual research review; not human proofreading",
+  "status": "pass_with_limitations",
+  "input_head": "f48cd3b068738e33655029b77492bbabb1842a72",
+  "source_hash": "fe6b974c2b2b6de7a11ff34a2c79bb2bfc4986d8ecf6d9da08eca9d02f1e8863",
+  "research_hash": "4ac5bfafad9f61980b772f95e6c8fe7635852f9d172f52edf0877480d7af301b",
+  "findings": [],
+  "actual_visual_observations": [
+    {
+      "pdf_page": 7,
+      "observation": "Continuous introductory prose; Light Literature is visible in lower passage. No standalone numbered saying list."
+    },
+    {
+      "pdf_page": 8,
+      "observation": "Continuous first-person prose; Idiom visible as an English parenthetical. Bottom passage continues."
+    },
+    {
+      "pdf_page": 9,
+      "observation": "Introductory prose with Popular Literature and lower publication references. Names and dates not certified."
+    },
+    {
+      "pdf_page": 10,
+      "observation": "Prose references earlier publications and regional collecting; not a newly numbered saying body."
+    },
+    {
+      "pdf_page": 11,
+      "observation": "Embedded quoted formulations and regional comparisons within prose. They are not accepted sayings or a verified list boundary."
+    },
+    {
+      "pdf_page": 12,
+      "observation": "Continuing prose with household/women/men discussion; neither exclusive creator-role attribution nor exact method established. Bottom text continues."
+    }
+  ],
+  "sequence_assessment": "Provisional printed5–10 consistent with viewed top numerals. No repeated page within7–12 observed; prior3/5 anomaly remains unresolved.",
+  "render_hashes": {
+    "7": "22aac78ebee257d0041c54fc12396c96f80ded8eb53850b21753997642d01cf0",
+    "8": "e9da0e7954cf1c499500deffc5f73a6d42a22d8c3d67cbf1659cfc0dbc0453a0",
+    "9": "7b67e8e4e40101dab63d7c6ae0222468f43a8b8f04df156de8fe36b85d2fe739",
+    "10": "0a5ad8b74f50d6a9f8de3b1594c73259bb199c3839e9ff796cf8e5d1ddabb0f7",
+    "11": "49393074bf48c1b11da6a2a630d8a3bd4cc2b863d5850be5de6d1cd900612940",
+    "12": "5204f8212e015ea3d0020a26a14ea58c654e9c13ecd286f085c7e3820d591adf"
+  },
+  "checks": [
+    "Actually viewed all6 images independently before reading final Anvesha report.",
+    "Verified all6 render hashes against report.",
+    "Independently recomputed source PDF hash and pagecount with pypdf.",
+    "Compared proposal against current canonical ledger: exactly six fields in1926 row; other sources/top-level unchanged.",
+    "Verified frozen research/Samanta/proposal hashes and baseline hash."
+  ],
+  "limits": [
+    "Page-inventory review only: no full prose transcription or repaired glyphs.",
+    "Access/date/watermark are not rights clearance; creator roles and separate1990 edition remain unresolved.",
+    "No human review or accepted additions."
+  ],
+  "accepted_increment": 0,
+  "programme_credit": 0,
+  "next_action": "May preserve this output-only checkpoint; any canonical integration needs frozen JSON copies and exact-head review. Next bounded inventory PDF13–18, with no assumed body boundary.",
+  "checked_head": "b57c21e318a439b3b3ebb6baab449eafac1029e7",
+  "bound_hashes": {
+    "anvesha.json": "4ac5bfafad9f61980b772f95e6c8fe7635852f9d172f52edf0877480d7af301b",
+    "samanta.json": "6704ff904c60fc6a6a4cbab4186858ba4a332f61b102d9816bef7167b73c1adc",
+    "coverage-ledger.proposed.json": "522baf2634a4db12e8528e295e1ae05728a03f16ada0f8f6bd09155d0dd71271"
+  },
+  "ledger_checks": {
+    "baseline_hash_verified": true,
+    "changed_source_only": "dhaga-praharaj-pitambari1926",
+    "changed_fields": [
+      "frontmatter_pages7_12_ai_review",
+      "frontmatter_pages7_12_inspection_report",
+      "frontmatter_pdf_pages_targeted_inspection",
+      "inspection",
+      "next_action",
+      "next_page_to_attempt"
+    ],
+    "all_other_source_rows_and_top_level_exact": true,
+    "rights_and_fulltranscription_human_arrays_unchanged": true,
+    "next_page": 13,
+    "targeted_inspection_pages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "evidence_paths": "Future integration pointers, not claimed to resolve in canonical book yet; copy frozen JSONs when authorized.",
+    "idempotency": "Union of inspected pages and assignment of reviewed six fields is idempotent; Samanta mechanical test also reports pass."
+  },
+  "preserve": {
+    "entries": 110,
+    "illustrations": 110,
+    "book_pages": 60,
+    "1893_full_cursor": 2,
+    "draft_segments": 83,
+    "accepted_increment": 0,
+    "programme_credit": 0
+  },
+  "source_pdf_page_count": 259,
+  "actual_visually_checked_pdf_pages": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ]
+}
