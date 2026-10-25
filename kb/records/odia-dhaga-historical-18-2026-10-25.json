@@ -1,0 +1,140 @@
+{
+  "status": "integration_review",
+  "input_head": "6b8e925a1b948bef49cad39a2847ae2bfa984da7",
+  "owner": "Disha",
+  "scope": "Frozen reviewed PDF18 research and five ledger fields only",
+  "reserved_files": [
+    "projects/odia-dhaga/coverage-ledger.json",
+    "projects/odia-dhaga/evidence/dhaga1893-page18-research.json",
+    "projects/odia-dhaga/evidence/dhaga1893-page18-implementation.json",
+    "projects/odia-dhaga/evidence/dhaga1893-page18-review.json"
+  ],
+  "workers": {
+    "Anvesha": "Frozenintegrity",
+    "Samanta": "Scopedpackaging/tests",
+    "Drishti": "Separateexactheadreview"
+  },
+  "counts": {
+    "entries": 108,
+    "illustrations": 108,
+    "book_pages": 59,
+    "draft_segments": 83,
+    "accepted_increment": 0,
+    "programme_credit": 0,
+    "next_targeted_page": 19,
+    "full_transcription_cursor": 2
+  },
+  "scope_release": "Upon reviewed merge after passing required checks; repository-only evidence needs no website deployment.",
+  "ownership_reconciliation": "Desia541 released; author542 actualpublished_verified receipt inspected; unrelated534/304/281preserved.",
+  "source_check": {
+    "input_head": "6b8e925a1b948bef49cad39a2847ae2bfa984da7",
+    "requested_base": "6b8e925a",
+    "status": "pass_frozen_evidence_integrity",
+    "handoff_sha256": "6e0442460c27ba5860413ca2e04a607963618b95da87963793f61998f0c9d8ed",
+    "hash_checks": [
+      {
+        "path": "anvesha.json",
+        "expected": "b5e5e71227d0d75472c51eaee92e2fc1b8fc976c140ee470dc30bde9e27ad29d",
+        "actual": "b5e5e71227d0d75472c51eaee92e2fc1b8fc976c140ee470dc30bde9e27ad29d",
+        "pass": true
+      },
+      {
+        "path": "samanta.json",
+        "expected": "d62e3a5aea17b14bf65c80ae4465c420fed64e4b27a8e0c2b7827605ac3998ab",
+        "actual": "d62e3a5aea17b14bf65c80ae4465c420fed64e4b27a8e0c2b7827605ac3998ab",
+        "pass": true
+      },
+      {
+        "path": "drishti.json",
+        "expected": "ac48e0ff749a8ec56a1a935fa6f795a48acd3af76b09fdfe0a1711ba3f03798f",
+        "actual": "ac48e0ff749a8ec56a1a935fa6f795a48acd3af76b09fdfe0a1711ba3f03798f",
+        "pass": true
+      },
+      {
+        "path": "coverage-ledger.proposed.json",
+        "expected": "b80483b63c2afb11bd77c76e0b17163861ad51d48c0056ec83114a689c8af137",
+        "actual": "b80483b63c2afb11bd77c76e0b17163861ad51d48c0056ec83114a689c8af137",
+        "pass": true
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-historical-page18-2026-10-25/page18.png",
+        "expected": "b5ed49af498d5c3354b0d2eab0849bfd139e07f3ae6a4a49bf27494451de1893",
+        "actual": "b5ed49af498d5c3354b0d2eab0849bfd139e07f3ae6a4a49bf27494451de1893",
+        "pass": true
+      },
+      {
+        "path": "/tmp/pod-dhaga-1893.pdf",
+        "expected": "c0c818ed2dce7c9872e3141166e0e4676a6bd2c0fd2338c2f6f3b4ce56227dac",
+        "actual": "c0c818ed2dce7c9872e3141166e0e4676a6bd2c0fd2338c2f6f3b4ce56227dac",
+        "pass": true
+      }
+    ],
+    "verified_facts": {
+      "partial_lines": 6,
+      "unaccepted_candidates": 2,
+      "page_complete": false,
+      "accepted_increment": 0,
+      "next_targeted": 19,
+      "full_cursor": 2,
+      "entries": 108,
+      "illustrations": 108,
+      "draft_segments": 83,
+      "book_pages_preserved": 59
+    },
+    "rights_preserved": "Publicly accessible1893scan; underlying old text is a strong public-domain candidate, but author/jurisdiction and scan reuse rights remain unresolved. Watermark retained; internal research render, not public facsimile licence.",
+    "limits": [
+      "No repeat visual reading or lexical repair.",
+      "Page19 remains uninspected by this evidence batch; source completion is not claimed.",
+      "Six partial physical lines are not six accepted sayings or new draft-segment count.",
+      "59-page book preservation is inherited recorded baseline, not a fresh PDF-render check.",
+      "No canonical/reader/book changes; only this integration report written."
+    ]
+  },
+  "implementation": {
+    "input_head": "6b8e925a1b948bef49cad39a2847ae2bfa984da7",
+    "checked_at": "2026-10-25T09:27:06.386841+00:00",
+    "status": "pass",
+    "changed_files": {
+      "projects/odia-dhaga/coverage-ledger.json": "b80483b63c2afb11bd77c76e0b17163861ad51d48c0056ec83114a689c8af137",
+      "projects/odia-dhaga/evidence/dhaga1893-page18-research.json": "b5e5e71227d0d75472c51eaee92e2fc1b8fc976c140ee470dc30bde9e27ad29d",
+      "projects/odia-dhaga/evidence/dhaga1893-page18-implementation.json": "d62e3a5aea17b14bf65c80ae4465c420fed64e4b27a8e0c2b7827605ac3998ab",
+      "projects/odia-dhaga/evidence/dhaga1893-page18-review.json": "ac48e0ff749a8ec56a1a935fa6f795a48acd3af76b09fdfe0a1711ba3f03798f"
+    },
+    "changed_fields": [
+      "text_pdf_pages_targeted_inspection",
+      "next_page_to_attempt",
+      "next_action",
+      "targeted_page18_inspection_report",
+      "targeted_page18_ai_review"
+    ],
+    "checks": [
+      "All HANDOFF frozen hashes match.",
+      "Canonical baseline hash equals proposalbase.",
+      "Five historical fields only; other sources/top-level unchanged.",
+      "New research/review references resolve; three reports exactbytes."
+    ],
+    "preserved": {
+      "nonallowlisted_book_files_hash_verified": 501,
+      "entries": 108,
+      "illustrations": 108,
+      "pdf_pages": 59,
+      "draft_segments": 83,
+      "full_cursor": 2,
+      "accepted_increment": 0,
+      "programme_credit": 0
+    },
+    "limits": [
+      "No reader/art/PDF rebuild, Git/sharedrecords orauthor542edits.",
+      "Provisional AI-reviewed research; no humanproofreading or acceptedwitness."
+    ],
+    "tests": [
+      {
+        "command": "python3 -m unittest test_repository.py test_source_inventory.py test_transcription.py",
+        "cwd": "projects/odia-dhaga",
+        "result": "17pass; existing exact-review and segmentation fixtures pass,32cumulative negative cases rejected",
+        "log": "/tmp/dhaga18-integration-tests.log"
+      }
+    ],
+    "generation_consistency": "Existing repository/inventory checks pass;501nonallowlisted files retain hashes. No rebuild needed for ledger-only checkpoint."
+  }
+}
