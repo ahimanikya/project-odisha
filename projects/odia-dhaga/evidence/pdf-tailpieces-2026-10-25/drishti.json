@@ -1,0 +1,99 @@
+{
+  "review_type": "separate AI visual and implementation review; not human review",
+  "input_head": "834bd74d4ccf3ea17d1a3440f5240aa66841a9fa",
+  "status": "pass_with_limitations",
+  "findings": [],
+  "actual_visual_checks": {
+    "assets": [
+      "twig",
+      "grass",
+      "vine"
+    ],
+    "asset_findings": "Viewed all three full images. Clear generic botanical line art on white, no text or culturally specific artifact claim.",
+    "contact_sheets": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "affected_pages_overview": [
+      9,
+      11,
+      12,
+      13,
+      17,
+      18,
+      19,
+      20,
+      26,
+      27,
+      28,
+      32,
+      35,
+      36,
+      42,
+      46,
+      47,
+      48,
+      49,
+      58
+    ],
+    "full_page_samples": [
+      1,
+      9,
+      14,
+      18,
+      58,
+      59,
+      60
+    ],
+    "layout_findings": "All20 placements inspected in contact-sheet overview. Full samples show motifs separated from both columns with breathing space. They do not resemble continuation diagrams or entry illustrations. Dense14 has no filler. Cover now correctly states110. Both credit pages remain readable; contemporary botanical tailpieces credited without historical provenance claims."
+  },
+  "independent_checks": {
+    "unchanged110_placement_objects": true,
+    "unchanged_chapter_starts": true,
+    "unchanged_all55_reading_page_extracted_texts": true,
+    "collection_bytes_unchanged": true,
+    "all110_existing_art_bytes_unchanged": true,
+    "both_columns_occupied_on_all20_filler_pages": true,
+    "all_gaps_at_least180pt": true,
+    "all_clearances_at_least24pt": true,
+    "one_per_page_and_max_dimensions_pass": true,
+    "pdf_pages": 60,
+    "reading_pages": 55
+  },
+  "hashes": {
+    "build_print.py": "b9896d409c0313a1d294429e167ae64a1a791b6ce3c2320f499c8a75f56935ed",
+    "odia-dhaga-book.pdf": "ebc620cfde8f940c014c1ca403da2ad0245bcb0ed629039cc8fa2d3709d211ed",
+    "packing-report.json": "43c687e0aae9733d3f80ecbf32f5813b00b7a3a824428da7679178d0bde7c4e9",
+    "filler-manifest.json": "54562349e1452375c5e6b2dd5ec4f9088d9955389acd1692ee7c763027c690be",
+    "assets/filler-twig-v1.png": "42bd199b872fd82b7398145b52cd9381687d71eecba7912f4f332add4bf915a2",
+    "assets/filler-grass-v1.png": "f7e7361cc8f32e125cf60ef31194a357b9ef8253a9ee0ee045eb624014422d7b",
+    "assets/filler-vine-v1.png": "4d04c890b7676856125979f9420fd5205d22762fa39ba861a31fc4401800b015"
+  },
+  "visual_hashes": {
+    "contact-3.jpg": "b98bda038d825e19b2b161a607c8d34fc96ecfdd291f6dd26daa313bc6f7bcae",
+    "contact-2.jpg": "2a19542a7ebe64f1f1f936448842b2d6e10cb26bfa63b1744ba2332a6ed9a87e",
+    "contact-1.jpg": "70283dc51413269f06bdc8545901923667f554caae2bd2f82b8694ddac5fa889",
+    "contact-4.jpg": "84d0d3451338fa80b8ef7df3da478e47e1137b695080297f0211093e4ade6b07",
+    "renders/page-001.png": "af2d34540458a33c71c310b8614f6aba6a8b9decf1865098b4a16de7c20bd6f0",
+    "renders/page-009.png": "85971a706945771576af10a5098b938f332d86828d14939a42408066487fde38",
+    "renders/page-014.png": "66fba1e8758312b226740e28229f5511e3bc8334537fdd09ea761995e9d42129",
+    "renders/page-018.png": "9794c3928164e71afa5abf65a70472b19543caa4324b7adfbe96ae2ab766751c",
+    "renders/page-058.png": "d62475517d44cbc31abc01e2a56ba7aeb7b3bd3ca5cc2b68f9d5f35fb82ad565",
+    "renders/page-059.png": "4b9c12c3cb8f2846ad45d4ba53f2f313d185ab2cf7780612d01845f7ff88cecd",
+    "renders/page-060.png": "b88ceb347160e499dd53797e874e4f773dcc652e6af559f6fd944fe6d2cbd8a5"
+  },
+  "implementation_report_sha256": "186c078288f9271f460910ad73052a8ea2838fb838f1c4e48cc5821b4c0edff3",
+  "tests": [
+    "Independently checked packing invariants, threshold bounds, baseline collection/art preservation and all55 PDF reading-text equality with pypdf.",
+    "Read implementation report:17focused tests pass; no extra full suite run.",
+    "Initially attempted contact sheets under renders; path absent, corrected to outputroot and actually viewed all4."
+  ],
+  "limits": [
+    "Contact-sheet overview covers all20 affected pages; full-resolution sample review is seven pages, not every affected page.",
+    "Screen review, not physical print proof or exhaustive Odia proofreading.",
+    "Generic modern decorative motifs, not botanical species identification or authenticated Odia historical ornament.",
+    "No canonical edits, served installation or release claim."
+  ]
+}

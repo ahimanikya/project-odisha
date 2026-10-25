@@ -1,0 +1,116 @@
+{
+  "status": "built_checked_pending_independent_final_review",
+  "input_head": "834bd74d4ccf3ea17d1a3440f5240aa66841a9fa",
+  "checked_at": "2026-10-25T16:03:17.389346+00:00",
+  "scope": "Isolated output copy; canonical and served reader unchanged",
+  "pdf_sha256": "ebc620cfde8f940c014c1ca403da2ad0245bcb0ed629039cc8fa2d3709d211ed",
+  "pdf_pages": 60,
+  "entries": 110,
+  "entry_illustrations": 110,
+  "decorative_motifs": 3,
+  "filler_placements": 20,
+  "filler_pages": [
+    9,
+    11,
+    12,
+    13,
+    17,
+    18,
+    19,
+    20,
+    26,
+    27,
+    28,
+    32,
+    35,
+    36,
+    42,
+    46,
+    47,
+    48,
+    49,
+    58
+  ],
+  "policy": {
+    "max_per_reading_page": 1,
+    "minimum_gap_pt": 180,
+    "requires_both_columns": true,
+    "minimum_separation_pt": 24,
+    "maximum_width_pt": 160,
+    "maximum_height_pt": 110,
+    "text_reflow": false
+  },
+  "minimum_measured_clearance_pt": 53.59414510686179,
+  "tests": [
+    {
+      "command": "python3 -m unittest test_repository.py test_source_inventory.py",
+      "result": "17 tests pass",
+      "log": "tests.log"
+    },
+    {
+      "command": "PYTHONPATH=/tmp/dhaga-pdf-libs bundled-python build_print.py",
+      "result": "55 reading pages;110 units;shrink1;60 total PDF pages",
+      "log": "build.log"
+    },
+    {
+      "check": "All110 placement objects and chapter pages equal baseline",
+      "result": "pass"
+    },
+    {
+      "check": "All55 reading-page PDF extracted texts equal baseline exactly",
+      "result": "pass"
+    },
+    {
+      "check": "Each filler below both columns with\u226524pt clearance, within content bounds; one per qualifying page",
+      "result": "pass"
+    },
+    {
+      "check": "Only7 expected staged product files changed/new; all entries/assets/HTML/source data unchanged",
+      "result": "pass"
+    }
+  ],
+  "visual_checks": {
+    "actual_viewed": [
+      "contact-1.jpg",
+      "contact-2.jpg",
+      "contact-3.jpg",
+      "contact-4.jpg",
+      "renders/page-001.png",
+      "renders/page-014.png",
+      "renders/page-059.png"
+    ],
+    "findings": "All20 placements appear understated and centered with clear breathing space. Dense14 remains undecorated. Cover displays110; credits acknowledge botanical tailpieces under Project Odisha CC BY-SA4.0. No clipping or text overlap observed.",
+    "rendered_pages": [
+      1,
+      9,
+      11,
+      12,
+      13,
+      14,
+      17,
+      18,
+      19,
+      20,
+      26,
+      27,
+      28,
+      32,
+      35,
+      36,
+      42,
+      46,
+      47,
+      48,
+      49,
+      58,
+      59,
+      60
+    ]
+  },
+  "limits": [
+    "Screen rendering reviewed, not a physical printer proof.",
+    "Motifs are generic contemporary decoration, not authenticated historical botanical motifs.",
+    "No crop, image edit, font reduction or text reflow.",
+    "Independent Drishti final review pending; no publication or installation claimed."
+  ]
+}
