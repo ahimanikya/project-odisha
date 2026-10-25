@@ -14,7 +14,7 @@ export async function exportDhaga(destination){
  for(const e of data.entries){
   if(!/^assets\/[a-zA-Z0-9_-]+\.(png|webp|svg)$/.test(e.graphic.src))throw Error('Unsafe Dhaga art path');
   const src=resolve(book,e.graphic.src),name=basename(e.graphic.src).replace(/\.[^.]+$/,'.webp');
-  if(!assets.has(e.graphic.src)){const info=await sharp(src).resize({width:1000,withoutEnlargement:true}).webp({quality:82,effort:6}).toFile(resolve(out,'assets',name));assets.set(e.graphic.src,'assets/'+name);dimensions.set('assets/'+name,info);}
+  if(!assets.has(e.graphic.src)){const info=await sharp(src).resize({width:800,withoutEnlargement:true}).webp({quality:65,effort:6}).toFile(resolve(out,'assets',name));assets.set(e.graphic.src,'assets/'+name);dimensions.set('assets/'+name,info);}
  }
  const fonts=['NotoSerifOriya-Variable.woff2','SourceSerif4-Variable.woff2'];
  const licences=['NotoSerifOriya-OFL.txt','SourceSerif4-OFL.txt'];
@@ -24,13 +24,15 @@ export async function exportDhaga(destination){
   html=html.replace(/<meta (?:name|property)="(?:description|og:[^"]+|twitter:[^"]+|referrer)"[^>]*>/g,'');
   const title=html.match(/<title>([\s\S]*?)<\/title>/)?.[1]||'Odia Dhaga';
   const description='Read illustrated Odia Dhaga with English and Odia meanings, usage, source witnesses and rights, and download the complete book.';
-  const social='<meta name="description" content="'+description+'"><meta property="og:title" content="'+esc(title)+'"><meta property="og:description" content="'+description+'"><meta property="og:url" content="https://projectodisha.org'+route+'"><meta property="og:image" content="https://projectodisha.org/dhaga/assets/'+basename(assets.values().next().value)+'"><meta property="og:image:alt" content="Illustration accompanying an Odia Dhaga"><meta property="og:image:width" content="1000"><meta property="og:image:height" content="667"><meta name="twitter:card" content="summary_large_image"><meta name="referrer" content="strict-origin-when-cross-origin">';
+  const social='<meta name="description" content="'+description+'"><meta property="og:title" content="'+esc(title)+'"><meta property="og:description" content="'+description+'"><meta property="og:url" content="https://projectodisha.org'+route+'"><meta property="og:image" content="https://projectodisha.org/dhaga/assets/'+basename(assets.values().next().value)+'"><meta property="og:image:alt" content="Illustration accompanying an Odia Dhaga"><meta property="og:image:width" content="'+dimensions.values().next().value.width+'"><meta property="og:image:height" content="'+dimensions.values().next().value.height+'"><meta name="twitter:card" content="summary_large_image"><meta name="referrer" content="strict-origin-when-cross-origin">';
   const meta=social+'<meta name="robots" content="noindex, nofollow"><link rel="canonical" href="https://projectodisha.org'+route+'">'+fonts.map(f=>'<link rel="preload" href="/dhaga/assets/'+f+'" as="font" type="font/woff2" crossorigin>').join('');
   if(!html.includes('<head>'))html=html.replace('<html lang="en">','<html lang="en"><head>').replace('<body>','</head><body>');
   html=html.replace(/<main(?: id="sources" tabindex="-1")?>/,'<main id="main" tabindex="-1">').replace('href="#sources"','href="#main"');
   if(!html.includes('href="#main"'))html=html.replace(/<body>/,'<body><a class="skip" href="#main">Skip to main content</a>');
   html=html.replace(/(?:\.\.\/)?index\.html/g,'/dhaga/').replace(/(?:\.\.\/)?reader\.html/g,'/dhaga/reader.html');
   html=html.replace(/(?:sayings\/)?POD-DHAGA-(\d+)\.html/g,(_,n)=>'/dhaga/sayings/pod-dhaga-'+n+'.html');
+  // Keep one complete native browse list; bottom navigation links back to it.
+  html=html.replace(/<details class="browse" id="browse-bottom-(POD-DHAGA-\d+)">[\s\S]*?<\/details>/g,(_,id)=>'<a href="#browse-top-'+id+'">Browse Dhaga ↑</a>');
   // The reader redirect builds its URL dynamically from stable uppercase IDs.
   html=html.replace(/["']sayings\/["']\s*\+\s*id\s*\+\s*["']\.html["']/g,"'/dhaga/sayings/'+id.toLowerCase()+'.html'");
   html=html.replace(/<a href="(?:\.\.\/)?(?:README\.md|source127\.html)"[^>]*>[\s\S]*?<\/a>/g,'');
@@ -53,7 +55,7 @@ export async function exportDhaga(destination){
  await writeFile(resolve(out,'sources.html'),adapt(sourceHTML,'/dhaga/sources.html'));
  const files=await import('node:fs/promises').then(async fs=>{const all=[];async function walk(dir){for(const n of await fs.readdir(dir,{withFileTypes:true})){const p=resolve(dir,n.name);if(n.isDirectory())await walk(p);else all.push(p);}}await walk(out);return all;});
  const bytes=(await Promise.all(files.map(async p=>(await stat(p)).size))).reduce((a,b)=>a+b,0);
- if(bytes>35_000_000)throw Error('Dhaga web export exceeds35MB budget: '+bytes);
+ if(bytes>18_000_000)throw Error('Dhaga web export exceeds18MB budget: '+bytes);
  const report={entries:data.entries.length,routes,downloads:licences.map(n=>'/dhaga/assets/'+n),standalone_routes:routes,pdf_url:pdfURL,pdf_sha256:createHash('sha256').update(await readFile(resolve(book,'odia-dhaga-book.pdf'))).digest('hex'),bytes,files:files.length};
  await mkdir(resolve(site,'.astro'),{recursive:true});await writeFile(resolve(site,'.astro/dhaga-export.json'),JSON.stringify(report,null,2)+'\n');return report;
 }
