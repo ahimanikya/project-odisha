@@ -1,0 +1,236 @@
+{
+  "checked_at": "2026-10-25T22:51:49.945072+00:00",
+  "agent": "Samanta",
+  "head": "0568d745eb1c6c793ae49562697cf24deb6ca2d1",
+  "status": "implementation_local_gates_and_responsive_checks_pass",
+  "source_frozen": true,
+  "scope": {
+    "site_files": [
+      "tools/export-dhaga.mjs",
+      "tools/finalize-edition.py",
+      "package.json",
+      "src/pages/explore.astro",
+      "tests/dhaga-export.test.mjs",
+      "tests/build.test.mjs"
+    ],
+    "canonical_book_changed": false,
+    "shared_records_written": false,
+    "git_mutations": false
+  },
+  "implementation": [
+    "Deterministic allowlisted export of159 accepted entries and162 standalone routes.",
+    "Only selected images exported as uncropped WebP derivatives; canonical art unchanged.",
+    "Pinned external exact86-page PDF avoids exceeding publication budget.",
+    "Public source rights include cited sources and SCERT exceptions; no internal research files exported.",
+    "All new routes held out of search indexing."
+  ],
+  "tests": [
+    {
+      "command": "npm run build && npm test",
+      "result": "pass",
+      "tests": 597,
+      "logs": [
+        "/tmp/dhaga-site-build.log",
+        "/tmp/dhaga-site-test.log"
+      ],
+      "timing": "Before final metadata-only correction."
+    },
+    {
+      "command": "npm run build:coast && npm run test:coast",
+      "result": "pass",
+      "tests": 515,
+      "logs": [
+        "/tmp/dhaga-coast-build.log",
+        "/tmp/dhaga-coast-test.log"
+      ],
+      "timing": "Before final metadata-only correction."
+    },
+    {
+      "command": "node tools/check-public-disclosures.mjs dist / dist-coast / dist-publish (three separate calls)",
+      "result": "pass",
+      "violations": 0,
+      "timing": "Before final metadata-only correction."
+    },
+    {
+      "command": "Final export regeneration for dist and dist-coast; npm run build:publication",
+      "result": "pass",
+      "indexable_pages": 11,
+      "log": "/tmp/dhaga-publication.log"
+    },
+    {
+      "command": "python3 tools/audit-coast.py",
+      "result": "pass",
+      "checks": 3144,
+      "log": "/tmp/dhaga-audit.log"
+    },
+    {
+      "command": "node --test tests/dhaga-export.test.mjs",
+      "result": "pass",
+      "tests": 2,
+      "log": "/tmp/dhaga-focused.log"
+    },
+    {
+      "command": "Final CSS-only export refresh; publication build; export tests; audit-coast",
+      "result": "pass",
+      "tests": 2,
+      "acceptance_checks": 3144,
+      "logs": [
+        "/tmp/dhaga-mobile-publication.log",
+        "/tmp/dhaga-mobile-tests.log",
+        "/tmp/dhaga-mobile-audit.log"
+      ]
+    },
+    {
+      "command": "Budget final: focused export tests, coast audit, discovery audit, search review, launch readiness, search shortlist, publication disclosure",
+      "result": "pass",
+      "tests": 2,
+      "all159_navigation_regressions": true,
+      "coast_acceptance": 3144,
+      "search_indexable": 11,
+      "contrast_pairs": 14,
+      "log_prefix": "/tmp/dhaga-budget-"
+    }
+  ],
+  "failure_and_resolution": {
+    "initial_audit": "3143/3144: redirect reader canonical was rewritten twice and absent explicit head confused title parser.",
+    "fix": "Inject metadata after relative-path rewriting; explicitly wrap source reader head.",
+    "final": "3144/3144 acceptance checks pass."
+  },
+  "browser": {
+    "preview": "http://127.0.0.1:8990/dhaga/",
+    "method": "Headless Chrome controlled by Playwright with explicit390x844 viewport; desktop1440x1000.",
+    "checks": [
+      {
+        "name": "index",
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "title": "Sayings and Proverbs - ଓଡ଼ିଆ ଢଗଢମାଳି",
+        "missingImages": 0
+      },
+      {
+        "name": "048",
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "title": "Sayings and Proverbs - ଓଡ଼ିଆ ଢଗଢମାଳି",
+        "missingImages": 0
+      },
+      {
+        "name": "Odia-search",
+        "visibleResults": 1
+      },
+      {
+        "name": "escape",
+        "closed": true,
+        "focusSummary": true
+      },
+      {
+        "name": "bottomBrowseAnchor",
+        "hash": "#browse-top-POD-DHAGA-048",
+        "topOpened": true,
+        "focus": "SUMMARY"
+      },
+      {
+        "name": "rightsDisclosure",
+        "opened": true,
+        "scrollWidth": 390
+      },
+      {
+        "name": "159",
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "title": "Sayings and Proverbs - ଓଡ଼ିଆ ଢଗଢମାଳି",
+        "missingImages": 0
+      },
+      {
+        "name": "001",
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "title": "Sayings and Proverbs - ଓଡ଼ିଆ ଢଗଢମାଳି",
+        "missingImages": 0
+      },
+      {
+        "name": "081",
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "title": "Sayings and Proverbs - ଓଡ଼ିଆ ଢଗଢମାଳି",
+        "missingImages": 0
+      },
+      {
+        "name": "sources",
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "title": "Dhaga · Sources and rights",
+        "missingImages": 0
+      }
+    ],
+    "screenshots": [
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-publication-2026-10-26/mobile-index.png",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-publication-2026-10-26/mobile-159-image.png",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-publication-2026-10-26/mobile-001-image.png",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-publication-2026-10-26/mobile-081.png",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-publication-2026-10-26/mobile-081-image.png",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-publication-2026-10-26/mobile-048-image.png",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-publication-2026-10-26/mobile-sources.png",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-publication-2026-10-26/mobile-048.png",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-publication-2026-10-26/mobile-001.png",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-publication-2026-10-26/mobile-159.png",
+      "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-publication-2026-10-26/desktop-048.png"
+    ],
+    "visual_inspection": "Actual final001heritage and048line-art phone captures inspected by Samanta; Drishti independently inspected native800px derivatives001/048/081. Phone390 and desktop1440 captures refreshed.",
+    "history": [
+      "Initial CUA call hung478.9seconds and was interrupted.",
+      "CLI window-size screenshot cropped browser minimum viewport, initially appearing to clip048; explicitviewport proved no product clipping there.",
+      "Real sources-page scrollWidth411 resolved to390 with source li overflow-wrap:anywhere.",
+      "Initial missingImages1 was lazy below-fold image; scrollIntoView and decode verified048/159 loaded, missingImages0."
+    ]
+  },
+  "publication_bytes": 977104596,
+  "pdf": {
+    "pages": 86,
+    "sha256": "5780efedce5a7fd9be8c71d81937381341f1344b8865603f7c37690063a3cd22",
+    "delivery": "Pinned external GitHub raw URL; root separately verified downloaded bytes."
+  },
+  "files_sha256": {
+    "tools/export-dhaga.mjs": "3b0ffaaf859bb25fb098444de21491dc698617edd2d613e81c8cf6bcee29d2b1",
+    "tools/finalize-edition.py": "ec942e499e7061ffc9c6e94160ed3f21173cb9779132a47c2b3aabec4ca2ba8b",
+    "package.json": "dd5861b6c178ab5692f03f27f2644483de0fb84b0d5fa7adcaafd0a83cf107a1",
+    "src/pages/explore.astro": "c62968c7c10fda22ffe3457e09a25cfac993362941740c61ccb58d96e16cafdd",
+    "tests/dhaga-export.test.mjs": "f990b2910aded97134faa891ff94403b9c6d6272951d2fc3edd2c94c4982ed01",
+    "tests/build.test.mjs": "2a0e13754ab48a03aa250fb2428c3cf7d4a7fde86aa39949dea99dd45eea1393"
+  },
+  "limits": [
+    "No deployment or live verification performed by this worker.",
+    "Full/coast suites were not repeated after metadata-only fix; focused export and complete coast acceptance audit were repeated.",
+    "Linux CI still must verify platform artifact size; local current artifact is below1GB. No budget increase or unrelated product removal."
+  ],
+  "modern_web_guidance": {
+    "source": "/tmp/dhaga-web-guidance.txt",
+    "applied": "Native semantic links and landmarks, skip navigation and visible keyboard focus; standard HTML fallback without new browser APIs."
+  },
+  "head_note": "7426522a baseline plus authorized budget correction in exporter and regression tests; coordinator commits.",
+  "budget_correction": {
+    "ci_failure_bytes": 1006629563,
+    "previous_local_bytes": 991769471,
+    "settings": {
+      "max_width": 800,
+      "webp_quality": 65,
+      "effort": 6,
+      "uncropped": true
+    },
+    "dhaga_export_bytes": 17467856,
+    "gate_bytes": 18000000,
+    "navigation": "One full native browse list per page; bottom anchor links to top, previous/next preserved.",
+    "attempt_history": [
+      "800px/q65 alone:22922033bytes failed18MB gate.",
+      "Removing duplicated bottom159-link list:17467856bytes passes."
+    ],
+    "canonical_art_pdf_unchanged": true,
+    "social_dimensions": "Derived from actual first-image metadata."
+  }
+}

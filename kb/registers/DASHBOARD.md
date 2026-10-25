@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `3ab7b89c191272ae5730ac37562c7b7f71422c9ea827f2846f32d3ab566d0170`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `77370bf5ce8c04fbefa750b8910bf6d9325dcaabf87b474651140effb7d9fb66`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -1305,7 +1305,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026102408 | 2026-10-23T17:48:58.935230+00:00 | Enhanced existing illustrated bhanita article with verified Subhadra Parinaya first-chhanda self-references in stanzas 10 and 66. Anvesha caption research, Drishti independent text review and Samanta image/preview checks completed. Unidentified reel example remains open; no publication or additional article count. | — |
 | POD-EVT-2026102409 | 2026-10-23T18:03:04.908091+00:00 | Resolved Jhula notation example, verified FilmsDivision productioncredits, recoveredAbana digitalreader, matched bhanita displayedverse, fixed3previewtableaccessibilityissues. Independent boundedreviews and all12structuralchecks pass. Printedwitnesses,fullfilm/audio and browservisualreview remainopen; receipt evidence-gap-review-2026-10-23.json. Unpublished. | — |
 | POD-EVT-2026102410 | 2026-10-23T18:13:47.887363+00:00 | Recovered primaryarchive-linked Abana/SridharRao and1939Subhadraprintedscans; correctedAbana digitalcounterexample framing, verified signatureplacements andrupaka variant, addedboundedrecordinguploadercredits. Anvesharesearch/Drishtiindependentreview/Samantapreviewchecks passed. Filmcertificate/audio/browserlayoutlimits retained; unpublished. | — |
 | POD-EVT-2026102411 | 2026-10-23T18:18:42.271663+00:00 | Three separate workers visually screened complete runningverse PDF2–112 in SridharRao witness; cover1 andadvertisement113 distinguished. No clear dependent-vowel exception found; notcharacter-perfect transcription or humanreview. AddedWikisource/printcomparisontable, updatedKB, all12previewchecks pass. Othermedia/browseraccesslimitsremain; unpublished. | — |
@@ -1315,6 +1314,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026102483 | 2026-10-24T02:08:36.906284+00:00 | Verified current Blueprint roster: Disha, Anvesha, Samanta and Drishti all assigned and oriented for this chat. Explicit Characters scope and no-redirect history loaded. Separate specialist acknowledgements and Drishti review recorded; no new access, schedules, article claim or programme credit. | — |
 | POD-EVT-2026102491 | 2026-10-24T14:14:28.870294+00:00 | Prepared author-directed personal essay and original supplied photographs with separate evidence and implementation passes. Publication and live verification pending; no programme credit or social posting. | — |
 | POD-EVT-2026102492 | 2026-10-24T17:54:35.622277+00:00 | Published author-directed essay via PR527 and deployment40117643003; verified live content, original images and mobile/desktop layout. No programme credit or social posting. | — |
+| POD-EVT-2026102699 | 2026-10-25T23:07:41.478596+00:00 | Founder-requested159-entry illustrated Dhaga reader and exact86-page PDF published via PR564/deployment40242598763. All162routes/159images/PDFhash and live mobile navigation verified. No new saying acceptance, article completion, human proof or500programme credit. Receipt: records/odia-dhaga-publication-2026-10-26.json | — |
 
 ## Deferred extensions
 
