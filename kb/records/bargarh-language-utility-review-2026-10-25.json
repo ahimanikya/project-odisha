@@ -1,0 +1,197 @@
+{
+  "status": "reviewed_classification_integration",
+  "item": "POD-EDIT-081",
+  "route": "/languages/districts/bargarh/",
+  "input_head": "958f76a4102573241cd457b2539770420ad21745",
+  "decision": "Exclude this individually inspected Census data utility from sustained-article rollout; preserve public route and data.",
+  "programme_credit": 0,
+  "article_completion_credit": 0,
+  "scope_release": "On separately reviewed merge after passing required checks; no website deployment because product unchanged.",
+  "reports": {
+    "anvesha.json": {
+      "input_head": "0616d490883e07f6a192defada27a2198a335400",
+      "requested_remote_head": "6b8e925a",
+      "item": "POD-EDIT-081",
+      "route": "/languages/districts/bargarh/",
+      "recommendation": "individually_justified_utility_exclusion_from_article_editorial_rollout",
+      "classification_basis": [
+        "Actual dynamic district template computes Bargarh370 directly from Census atlas; no authored district-specific language history.",
+        "Principal contents are whole-district and rural/urban group/individual-entry tables, explicit denominator notes, story links and dated scope caveats.",
+        "No Bargarh entry in district-connections.json; no independently evidenced local narrative to preserve or substantially rewrite.",
+        "Keep public utility and source accessibility; exclusion is from sustained-article rollout, not deletion or claim of editorial completion."
+      ],
+      "central_reader_question": "How do the recorded mother-tongue entries sit inside broad Census groups, and which population supplies each share?",
+      "reuse_checked": [
+        "Research map reuse rule and query_research.py Bargarh; returned handloom/economy/place leads are not language-population primary evidence.",
+        "Read actual [slug].astro district route, DistrictLanguageTable.astro, language-atlas.mjs, district-connections.json and population-2011.json.",
+        "Inspected saved original C16 workbook XML and verified its SHA; no new network retrieval necessary."
+      ],
+      "primary_evidence": {
+        "id": "c16-odisha-2011",
+        "url": "https://censusindia.gov.in/nada/index.php/catalog/10217",
+        "download": "https://censusindia.gov.in/nada/index.php/catalog/10217/download/13329/DDW-C16-STMT-MDDS-2100.XLSX",
+        "local_path": "kb/research/references/census-2011/c16-odisha.xlsx",
+        "sha256": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db",
+        "actual_inspection": "Sheet1 rows341,343,344,345: areaBargarh/code370, group015000 and individual015014/015043/015058; H:P numeric vectors matched current atlas.",
+        "row_checks": [
+          {
+            "row": 341,
+            "code": "015000",
+            "label": "ODIA",
+            "persons": 1386478,
+            "scope": "group"
+          },
+          {
+            "row": 343,
+            "code": "015014",
+            "label": "Desia",
+            "persons": 2,
+            "scope": "individual return"
+          },
+          {
+            "row": 344,
+            "code": "015043",
+            "label": "Odia",
+            "persons": 257190,
+            "scope": "individual return"
+          },
+          {
+            "row": 345,
+            "code": "015058",
+            "label": "Sambalpuri",
+            "persons": 1128991,
+            "scope": "individual return"
+          }
+        ],
+        "limits": [
+          "Internal validation of already displayed2011data, not newly proposed demographic claims.",
+          "Mother-tongue return differs from fluency, ethnicity, ancestry, present practice and work language.",
+          "Do not add group and component returns.",
+          "C17 statewide group multilingualism cannot become district-level or individual-entry evidence."
+        ]
+      },
+      "possible_reader_gain": [
+        "A short worked example could contrast group015000 with component015058 and015043, but this is utility explanation rather than a substantial Bargarh article.",
+        "Rural/urban shares use separate denominators; current template already explains this. No new arithmetic needed to justify exclusion.",
+        "Existing reviewed Sambalpuri and Multilingual Odisha stories supply substantive reading alongside the data utility."
+      ],
+      "exact_next_actions": [
+        "Disha records route-specific exclusion reason in rollout inventory under established utility category, preserving route and published data.",
+        "Do not automatically exclude the other29 district routes from this one assessment; inspect each under authorized queue scope.",
+        "If a later separate Bargarh language-history article is commissioned, obtain original local speaker/writer/work evidence rather than repurpose C16 as cultural history."
+      ],
+      "rights_and_budget": [
+        "No new public prose or source quotation proposed; no new source budget consumed by an article draft.",
+        "Primary government data reference retained, no image reuse or licensing inference."
+      ],
+      "checks": [
+        "Source XLSX hash equals atlas metadata.",
+        "Four source rows and all nine numeric fields per row inspected against data.",
+        "Distinguished utility function from article narrative based on actual route/component contents."
+      ],
+      "limits": [
+        "Read-only readiness, not implementation or publication.",
+        "No browser/layout audit or full workbook rerun; existing generation checks remain separate.",
+        "No origin, current demographic trend or naming equivalence claimed.",
+        "Only authorized output report written."
+      ]
+    },
+    "samanta.json": {
+      "role": "Samanta",
+      "input_head": "0616d490883e07f6a192defada27a2198a335400",
+      "requested_remote_head": "6b8e925a",
+      "checked_at": "2026-10-25T09:17:08.435119+00:00",
+      "route": "/languages/districts/bargarh/",
+      "rollout_id": "POD-EDIT-081",
+      "recommendation": "exclude individually as Census district utility; no article implementation necessary",
+      "rationale": [
+        "Primary purpose is lookup/comparison of Census2011 groups, nested mother-tongue returns and residence categories. All specific numerical statements generated from district370 data.",
+        "Bargarh has no destination-language connection paragraphs; only one editorial furtherlink to Sambalpuri Bandha. Generic conversation guidance and methodological caveats do not form a researched district narrative.",
+        "Six server-rendered tables (group/entry across total/rural/urban) and interactive native disclosures make this a utility, despite article HTML wrapper and evocative heading.",
+        "Existing exactroute queued classification_pending; recommendation applies only081, not otherdistricts."
+      ],
+      "files": {
+        "route_template": "projects/site/src/pages/languages/districts/[slug].astro",
+        "table": "projects/site/src/components/DistrictLanguageTable.astro",
+        "math": "projects/site/src/lib/language-atlas.mjs",
+        "styles": "projects/site/src/styles/language-districts.css",
+        "data": "kb/research/voices/population-2011.json",
+        "source_workbook": "references/census-2011/c16-odisha.xlsx",
+        "connections": "kb/research/voices/district-connections.json",
+        "further_reading": "kb/research/related-discoveries.json"
+      },
+      "actual_checks": {
+        "built_page": "projects/site/dist-coast/languages/districts/bargarh/index.html",
+        "built_sha256": "e6efd28db636d1064c905eadfde3a570c36370d1958746a1f7b2bfa9a3de02cc",
+        "table_count": 6,
+        "district_code": "370",
+        "population": 1481255,
+        "rural_share": "89.87%",
+        "urban_share": "10.13%",
+        "source_and_nonadditive_warning_present": true,
+        "portable_item_for_exactroute": false,
+        "destination_connections": 0,
+        "related_link": "/textiles/sambalpuri-bandha/"
+      },
+      "research_coordination": {
+        "agent": "Anvesha",
+        "finding": "Exact original C16 workbook hash matches; Bargarh rows341ODIA/343Desia/344Odia/345Sambalpuri matchdata. Worked-example guidance possible but not independently researched Bargarh narrative.",
+        "limit": "This report inspects data/rendering; source-cell reopening performed separately by Anvesha."
+      },
+      "implementation_if_classification_accepted": "No product edits/build needed. Coordinator may record justifiedutility exclusion and evidence in rollout/workbench with normal registervalidation; no substantiveitemcredit.",
+      "future_scope_if_needed": [
+        "Only pursue separately evidenced Bargarh language-practice narrative if named sources/people/works establish readinggain. Do not turn Census labels into origin/identity claims.",
+        "Any sharedtemplate/table/math change affects30district routes and must verify allaffected outputs; a Bargarh-specific workedexample needs explicitscope rather than silentgeneralization."
+      ],
+      "validation_pointers": [
+        "projects/site/tests/language-atlas.test.mjs: residence reconciliation/nonoverlappinggroups/children/denominators",
+        "projects/site/tests-coast/district-languages.test.mjs:30district source/caveat/residence routes",
+        "projects/site/tests-coast/language-atlas.test.mjs: atlas links and renderedvalues"
+      ],
+      "limits": [
+        "Read-only inspection; no tests executed, builds, sourceedits, sharedrecords, Git or releaseclaim.",
+        "No actualbrowserresponsive review performed; builtHTML inspected only.",
+        "Collapsed source utilitydisclosure remains currentbehavior; exclusion does not certify general accessibility or change article standards.",
+        "No currentfluency, communityidentity, ancestry or district-origin inference from Censusfigures."
+      ]
+    },
+    "drishti.json": {
+      "review_type": "separate independent AI classification readiness review",
+      "status": "pass_individual_utility_exclusion_recommendation",
+      "input_head": "0616d490883e07f6a192defada27a2198a335400",
+      "requested_remote_context": "6b8e925a; preceding author publication evidence supplied by coordinator, not a new release claim here",
+      "item": "POD-EDIT-081",
+      "route": "/languages/districts/bargarh/",
+      "input_hashes": {
+        "anvesha.json": "0b7bfdfd65b1cd7f14b97899e63be5625245aa8555f814922e48f83393271d89",
+        "samanta.json": "41059c571f9e934d0227c3cd043ca5d217767c7cb03d776c96fcce6f283d26bf"
+      },
+      "findings": [],
+      "decision": "Individually justified exclusion from sustained-article editorial rollout as a Census district lookup/comparison utility. Retain the public route/data/sources; this is not article completion or deletion.",
+      "actual_checks": [
+        "Read actual dynamic district route template: generated group/person statistics, six total/rural/urban group/entry tables, source/caveat disclosures and linked reading. HTML article element does not make this a researched narrative.",
+        "Verified Bargarh370 has zero district-connection narrative entries. Generic conversation advice and further-reading link do not supply a distinct authored district history.",
+        "Independently opened original XLSX XML and computed SHA bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db. Rows341/343/344/345 contain Bargarh370,ODIA1386478,Desia2,Odia257190,Sambalpuri1128991 as reported.",
+        "Read both readiness reports and retained clear source-group versus nested-entry distinction."
+      ],
+      "limits": [
+        "Decision applies only POD-EDIT-081; no other district classification inferred.",
+        "Original workbook sampled four identified rows; not full workbook or arithmetic audit.",
+        "No browser/layout accessibility check, builds or tests performed in this readiness pass.",
+        "Census2011 returns do not establish present fluency, ancestry, preferred identity or town/provider language. Do not add parent group and nested entries or assign statewideC17 figures to Bargarh.",
+        "No new public prose or source quotation, no source-budget draft to approve.",
+        "No canonical edits, publication or programme credit."
+      ],
+      "safe_next_step": "Coordinator may record this route-specific utility exclusion with evidence and register validation. A future separately commissioned language-history article needs named local works/speakers and sources, not repackaged census totals."
+    }
+  },
+  "frozen_hashes": {
+    "anvesha.json": "0b7bfdfd65b1cd7f14b97899e63be5625245aa8555f814922e48f83393271d89",
+    "samanta.json": "41059c571f9e934d0227c3cd043ca5d217767c7cb03d776c96fcce6f283d26bf",
+    "drishti.json": "61c34dd49f84fc3ba80c17631933e2e2b786a4aaa34ce9e37c7519fbf590671e"
+  },
+  "limits": [
+    "No blanket classification of remaining districts.",
+    "No language identity/fluency/currentdemographic inference."
+  ]
+}
