@@ -1,3 +1,9 @@
+---
+type: "Design pattern"
+title: "Decorative line-art fillers"
+status: "founder_adopted"
+---
+
 # Decorative line-art fillers
 
 Adopted by the Founder on 25 October 2026 for pages and book-style PDF generation. This is a shared design-system pattern, first proven in the illustrated Dhaga book. Use the existing twig, grass and vine drawings as quiet tailpieces at a reading pause or in generous unused space.
@@ -39,7 +45,7 @@ This adoption supplies reusable assets and a placement policy. It does not silen
 
 ## Shared assets, rights and maintenance
 
-The portable asset manifest and placement policy live in [projects/design-system/ornaments/](../../projects/design-system/ornaments/), packaged with the design-system library. Reuse those versioned files for new adopters. The existing Dhaga edition keeps its original asset paths and byte-identical images; future migration is a separate tested change.
+The portable asset manifest and placement policy live in `projects/design-system/ornaments/` at the repository root, packaged with the design-system library. Reuse those versioned files for new adopters. The existing Dhaga edition keeps its original asset paths and byte-identical images; future migration is a separate tested change.
 
 Retain creator, CC BY-SA 4.0 rights, original prompts, image hashes and review provenance in the manifest and appropriate shared credits. Production disclosure follows the site's shared editorial-process policy; do not add production labels to every ornament or its alt text. New motifs or altered drawings require a separate visual review and new versioned assets. Never overwrite a reviewed asset in place.
 
