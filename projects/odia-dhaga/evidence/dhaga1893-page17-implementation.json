@@ -1,0 +1,92 @@
+{
+  "role": "Samanta independent AI visual second-reader",
+  "input_head": "64717433c2a958ec26000041e80dd456ecc64211",
+  "parent_reported_remote_main": "ac23c676e4cd90eab3c86098a3dd73459699b881",
+  "checked_at": "2026-10-25T06:54:52.227941+00:00",
+  "status": "targeted independent visual read and output-only ledger proposal complete; separate review pending",
+  "source": {
+    "pdf": "/tmp/pod-dhaga-1893.pdf",
+    "sha256": "c0c818ed2dce7c9872e3141166e0e4676a6bd2c0fd2338c2f6f3b4ce56227dac",
+    "url": "https://archive.org/details/dhagamalika-1893",
+    "pdf_page": 17,
+    "printed_page": 16,
+    "render": "page17.png",
+    "render_sha256": "f570f8a87aac605a38e24b7144ba0758025cafe1fdf3b2ca906cd40a0c94f3ef"
+  },
+  "actual_reading": {
+    "method": "Viewed actual complete rendered page, not OCR-only. Independently compared selected fragments with all108 current headwords.",
+    "body_lines": 17,
+    "heading_exclusion": "Printed page16 and centered ଖା after bodyline10 excluded.",
+    "wraps": [
+      [
+        2,
+        3
+      ]
+    ],
+    "findings": [
+      "Bodyline4 has two danda-separated short items; physical line count is not a count of sayings.",
+      "Line11 has eating and dust-scattering wording. My initial house reading of the middle cluster differs from Anvesha’s tentative reading; neither is accepted and the word remains withheld.",
+      "Line15 contrasts eating/stomach with saying/stomach; a promising unaccepted research lead.",
+      "Line12 final cluster after ପୁଅ remains uncertain to this reader; requested explicit bracket from Anvesha."
+    ],
+    "accepted": false,
+    "normalized_reading": null,
+    "count_effect": 0
+  },
+  "comparison": {
+    "collection_sha256": "528ec2ca4f053e8f764b24645d9c73a080d0ac0b42711a84f825b4f63d99a403",
+    "source127_sha256": "cda50900080f764277a5011675b26a837c2ff17f9473826adc60ad8e3443796c",
+    "reader_entries": 108,
+    "source_positions": 127,
+    "textbearing_source_positions": 25,
+    "finding": "No selected candidate established as an existing entry by exact wording; shared eating/speech motifs do not justify matching.",
+    "limits": "Only25 concordance rows carry candidate/user wording. No exhaustive negative crosswalk conclusion."
+  },
+  "preserved": {
+    "draft_segments": 83,
+    "reader_entries": 108,
+    "illustrations": 108,
+    "source_positions": 127,
+    "full_transcription_cursor": 2,
+    "new_accepted_entries": 0,
+    "human_proofreading": 0,
+    "programme_credit": 0
+  },
+  "ledger_proposal": {
+    "file": "coverage-ledger.proposed.json",
+    "sha256": "1f044f94e9fe55cf66988d8bf818472ca4e7a6cc4fd46e2f52da36a2c0da60df",
+    "base_sha256": "e51ade166d477423ab1ab8e5c39f9c25e301386f53914cb6a18c7d00e28867a8",
+    "changed_fields": [
+      "text_pdf_pages_targeted_inspection",
+      "next_page_to_attempt",
+      "next_action",
+      "targeted_page17_inspection_report",
+      "targeted_page17_ai_review"
+    ],
+    "evidence_paths_proposed": [
+      "evidence/dhaga1893-page17-research.json",
+      "evidence/dhaga1893-page17-review.json"
+    ],
+    "checks": {
+      "idempotent": true,
+      "only_five_historical_fields_changed": true,
+      "other_sources_top_level_rights_and_counters_unchanged": true
+    },
+    "status": "Pointers proposed only; future integration must copy separately reviewed frozen reports."
+  },
+  "tests": [
+    "Union application twice equals once.",
+    "Exactly five historical fields change; all other data preserved.",
+    "Actual collection has108 entries and108 graphic fields; source127 retains127positions.",
+    "Research lines exactly1–17, all normalization null, both candidate meanings null/accepted false and increment0."
+  ],
+  "limits": [
+    "Separate AI visual reading, not human proofreading, full transcription or accepted normalized text.",
+    "No canonical/book/reader/PDF/art/rights/Git changes; latest print artifact preserved."
+  ],
+  "research_binding": {
+    "file": "anvesha.json",
+    "sha256": "f10205960a3cfffc7490789534c815b241564123c9243d089f06c4a8e5290e2e",
+    "findings": "17 physical lines/layout agree. Line11 middle-word disagreement explicitly retained as unread; line12 terminal uncertainty bracketed. Line15 comparison remains provisional; no gloss or acceptance."
+  }
+}

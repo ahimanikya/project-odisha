@@ -1,0 +1,50 @@
+{
+  "review_type": "separate independent AI review; not human proofreading",
+  "status": "pass_with_limitations",
+  "input_head": "64717433c2a958ec26000041e80dd456ecc64211",
+  "remote_merge_context_reported_by_coordinator": "ac23c676e4cd90eab3c86098a3dd73459699b881",
+  "scope": "Output-only targeted PDF17 research and ledger proposal; no article, accepted witness or publication approval.",
+  "input_hashes": {
+    "anvesha.json": "f10205960a3cfffc7490789534c815b241564123c9243d089f06c4a8e5290e2e",
+    "samanta.json": "894080acfbe1fb5f65bf463e9f98616f68b814f4d2bb175a01d066f14fb1e788",
+    "page17.png": "f570f8a87aac605a38e24b7144ba0758025cafe1fdf3b2ca906cd40a0c94f3ef",
+    "coverage-ledger.proposed.json": "1f044f94e9fe55cf66988d8bf818472ca4e7a6cc4fd46e2f52da36a2c0da60df"
+  },
+  "blockers": [],
+  "actual_visual_checks": [
+    "Viewed entire page17.png; printed page16 has17 physical body lines, not17 certified sayings. Centered heading after line10 and watermark excluded.",
+    "Lines2–3 wrap; line4 contains more than one danda-delimited item.",
+    "Line11 middle cluster remains withheld despite differing tentative readings. Line12 terminal cluster also withheld. This avoids speculative modern restoration.",
+    "Line15 candidate agrees broadly with visible scan; retained as provisional, with punctuation/vowel certainty and interpretation unresolved.",
+    "Remaining partial lines were compared with scan; unread spans retained. Line13 small vowel/nasal detail around its surviving verb is not certified by this review; do not promote it to normalized text."
+  ],
+  "checks": [
+    "Independently computed all four input SHA256 hashes and matched frozen research/implementation bindings.",
+    "Compared proposed ledger recursively with canonical baseline e51ade166d477423ab1ab8e5c39f9c25e301386f53914cb6a18c7d00e28867a8: exactly five fields differ, all within historical source row.",
+    "Independently checked targeted-page union idempotence and preserved full-transcription cursor2/draft-segment count83.",
+    "All other ledger rows/top-level fields, rights, accepted IDs, completed-page and human-review lists are unchanged.",
+    "Two evidence pointers are future canonical integration targets, not claims that output-only evidence is already installed."
+  ],
+  "count_effect": {
+    "accepted_entries": 0,
+    "accepted_historical_witnesses": 0,
+    "completed_pages": 0,
+    "human_reviews": 0,
+    "programme_credit": 0
+  },
+  "preserved_counts": {
+    "reader_entries": 108,
+    "illustrations": 108,
+    "source127_positions": 127,
+    "earlier_draft_segments": 83,
+    "full_transcription_cursor": 2
+  },
+  "limits": [
+    "No adjacent-page join independently verified in this pass.",
+    "No exhaustive corpus negative-match assertion: no exact link established for the two partial candidates.",
+    "Public availability of scan does not certify worldwide public-domain or facsimile reuse rights; existing qualified rights statement retained.",
+    "No meanings, origin stories, health advice or identity claims inferred from partial lines.",
+    "No product build, live browser check or canonical mutation was needed or performed."
+  ],
+  "safe_next_step": "Retain this as provisional targeted research. A later authorized integration must copy exact frozen research/review files and resolve the two proposed evidence paths. Next targeted inspection PDF18; full transcription remains at PDF2."
+}
