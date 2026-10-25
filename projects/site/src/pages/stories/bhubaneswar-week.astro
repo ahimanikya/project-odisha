@@ -4,7 +4,7 @@ import ArticleByline from '../../components/ArticleByline.astro';
 import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
 import ResponsiveImage from '../../components/ResponsiveImage.astro';
 import '../../styles/article-reading.css';
-import { Content } from '../../../../../kb/research/stories/bhubaneswar-week.md';
+import { compiledContent } from '../../../../../kb/research/stories/bhubaneswar-week.md';
 
 const title = 'A Week in Bhubaneswar: Conversations and New Beginnings';
 const description = 'Ahimanikya Satapathy reflects on a week of conversations in Bhubaneswar, returning to poetry, building a poets’ portal and registering the Pravakar Satapathy Foundation.';
@@ -14,6 +14,23 @@ const shareImage = {
   height: 3213,
   alt: 'Three people standing beneath the Mentis Films sign and framed film posters, including Daman.'
 };
+// Only the trusted, locally compiled article is rendered below. Keep photographs
+// with their narrative sections without duplicating or rewriting the Markdown.
+const photographSections = new Map([
+  ['Returning to people I have known since childhood', 'conversations'],
+  ['Stories on screen and in conversation', 'mentis']
+]);
+const articleHtml = await compiledContent();
+if (typeof articleHtml !== 'string') throw new Error('Bhubaneswar Markdown must compile to HTML text.');
+const sections = articleHtml.split(/(?=<h2(?:\s|>))/).map(html => {
+  const heading = html.match(/^<h2\b[^>]*>([\s\S]*?)<\/h2>/)?.[1];
+  return { html, photograph: photographSections.get(heading) };
+});
+for (const [heading, photograph] of photographSections) {
+  if (sections.filter(section => section.photograph === photograph).length !== 1) {
+    throw new Error(`Bhubaneswar photograph placement needs exactly one section: ${heading}`);
+  }
+}
 const readingLinks = [{
   href: '/literature/',
   title: 'Odia Literature',
@@ -31,32 +48,31 @@ const readingLinks = [{
       <p class="publication-date"><time datetime="2026-10-24">24 October 2026</time></p>
     </header>
 
-    <figure>
-      <ResponsiveImage
-        src={shareImage.src}
-        alt={shareImage.alt}
-        width={shareImage.width}
-        height={shareImage.height}
-        sizes="(max-width: 600px) calc(100vw - 2.4rem), (max-width: 740px) calc(100vw - 2.8rem), 695.2px"
-        loading="eager"
-        fetchpriority="high"
-      />
-      <figcaption>At Mentis Films during the week in Bhubaneswar. Photograph supplied by Ahimanikya Satapathy.</figcaption>
-    </figure>
-
-    <Content />
-
-    <figure class="conversation-photograph">
-      <ResponsiveImage
-        src="/assets/bhubaneswar-week/conversations.jpg"
-        alt="Three people standing together indoors, with an arm around one another’s shoulders."
-        width="3213"
-        height="5712"
-        sizes="(max-width: 480px) calc(100vw - 2.4rem), 420px"
-        loading="lazy"
-      />
-      <figcaption>A moment from a week of conversations. Photograph supplied by Ahimanikya Satapathy.</figcaption>
-    </figure>
+    {sections.map(({ html, photograph }) => <>
+      <Fragment set:html={html} />
+      {photograph === 'conversations' && <figure class="conversation-photograph">
+        <ResponsiveImage
+          src="/assets/bhubaneswar-week/conversations.jpg"
+          alt="Three people standing together indoors, with an arm around one another’s shoulders."
+          width="3213"
+          height="5712"
+          sizes="(max-width: 480px) calc(100vw - 2.4rem), 420px"
+          loading="lazy"
+        />
+        <figcaption>A moment from a week of conversations. Photograph supplied by Ahimanikya Satapathy.</figcaption>
+      </figure>}
+      {photograph === 'mentis' && <figure>
+        <ResponsiveImage
+          src={shareImage.src}
+          alt={shareImage.alt}
+          width={shareImage.width}
+          height={shareImage.height}
+          sizes="(max-width: 600px) calc(100vw - 2.4rem), (max-width: 740px) calc(100vw - 2.8rem), 695.2px"
+          loading="lazy"
+        />
+        <figcaption>At Mentis Films during the week in Bhubaneswar. Photograph supplied by Ahimanikya Satapathy.</figcaption>
+      </figure>}
+    </>)}
 
     <ArticleReadingPath heading="Further reading" links={readingLinks} />
     <p class="reader-update"><a href="/contribute/?page=%2Fstories%2Fbhubaneswar-week%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
@@ -79,19 +95,5 @@ const readingLinks = [{
     border-top: 1px solid var(--line);
     font-size: .95rem;
     line-height: 1.75;
-  }
-  .bhubaneswar-week :global(.footnotes) {
-    margin-top: 3.5rem;
-    padding-top: 1.5rem;
-    border-top: 1px solid var(--line);
-  }
-  .bhubaneswar-week :global(.footnotes h2) {
-    position: static;
-    width: auto;
-    height: auto;
-    clip: auto;
-    clip-path: none;
-    overflow: visible;
-    white-space: normal;
   }
 </style>
