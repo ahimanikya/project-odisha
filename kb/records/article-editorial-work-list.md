@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 624. completed: 99, excluded: 211, queued: 314.
+Route inventory: 624. completed: 99, excluded: 211, in_progress: 1, queued: 313.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -92,7 +92,7 @@ Route inventory: 624. completed: 99, excluded: 211, queued: 314.
 | POD-EDIT-076 | [Languages of Odisha · population atlas](https://projectodisha.org/languages/atlas/) | excluded | interactive_data_utility |
 | POD-EDIT-077 | [Languages by district · Odisha](https://projectodisha.org/languages/districts/) | excluded | district_navigation_directory |
 | POD-EDIT-078 | [One person, more than one language](https://projectodisha.org/languages/multilingual-odisha/) | completed | Individual Census-language explanatory article |
-| POD-EDIT-079 | [Sambalpuri](https://projectodisha.org/languages/sambalpuri/) | queued | classification_pending |
+| POD-EDIT-079 | [Sambalpuri](https://projectodisha.org/languages/sambalpuri/) | in_progress | Substantive attributed writer/version revision with numbered footnotes and complete portable prose |
 | POD-EDIT-080 | [Desia](https://projectodisha.org/languages/desia/) | queued | classification_pending |
 | POD-EDIT-081 | [Bargarh · languages and population](https://projectodisha.org/languages/districts/bargarh/) | queued | classification_pending |
 | POD-EDIT-082 | [Jharsuguda · languages and population](https://projectodisha.org/languages/districts/jharsuguda/) | queued | classification_pending |
