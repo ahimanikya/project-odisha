@@ -1,0 +1,80 @@
+{
+  "review_type": "separate AI integrated source/content/art/PDF review; not human proofreading",
+  "input_head": "38fdacfeb99593b58e5d297c9e0ee0182f3d8e6b",
+  "observed_repo_head_at_freeze": "eed4837976b265fa828c3cf05a3a19b99eacef56",
+  "scope": "Local staged110-entry book only; no canonical integration or publication approval claimed.",
+  "status": "pass_with_limitations",
+  "findings": [],
+  "file_hashes": {
+    "collection.json": "8a83e127202cca4fd6c5bfee82250f95c4385c176ff10bc72620735d7b76e4a9",
+    "index.html": "df4d59408331386fc58f49ace362f3e43dc2531a66abb2be91f03ccde4ba7341",
+    "source127.json": "d2759946411a7fb322e627d5df0106880344d84296c634b6088fea702a153a36",
+    "source127.html": "448eec78e7cf73bf1775bee0855aeed4dd54189561b62176204cc1d3cfda7b69",
+    "odia-dhaga-book.pdf": "30e0765b2c58d5010ceef4baa92b24137ccc3321ac12f928f5c6f25a11078903",
+    "assets/dhaga-109-line-art-v1.png": "180a1c5ec3940416f72886069210e41dc923a9ddb10c40558a928c11da1c8d81",
+    "assets/dhaga-110-line-art-v1.png": "23a8f555320ec76be3260f31ead4c601d08bd3106a26b0948a858d5e6bdf1413"
+  },
+  "report_hashes": {
+    "implementation.json": "d077c1306939fe9327524832b23bb2bc2b40ee9e7d80f936c22e997459f904c7",
+    "installation-manifest.json": "816d8de330b2955908ba7cc187bb5ebf3ff1ca978f1c3e5a781524c02a9f8190",
+    "focused-tests.log": "44770580b20ef76a302c83c125b247f60f95160797005a52393d3a8c9a182807",
+    "print-build.log": "69e7facf19c41578f4d965f0d2661c046bc4685d1ba64ced1691e80ca9fb2526"
+  },
+  "source_review": "Reuses exact candidate2075a9cc source/meaning review in outputs/dhaga-all86-2026-10-25/drishti.json. Compared all original candidate fields except assigned ID, status and graphic with final staged entries.",
+  "visual_checks": [
+    {
+      "entry": "POD-DHAGA-109",
+      "asset": "assets/dhaga-109-line-art-v1.png",
+      "verdict": "keep",
+      "observed": "Full-resolution image shows traveller on rough path, distant hill and two waving friends. Figures, hands, walking stick and scale are coherent. Generic setting supports the metaphor without asserting a named location or historical event. Alt and caption match."
+    },
+    {
+      "entry": "POD-DHAGA-110",
+      "asset": "assets/dhaga-110-line-art-v1.png",
+      "verdict": "keep",
+      "observed": "Full-resolution image shows angry open-hand speech, an intervening adult and another walking away. No assault is depicted. Anatomy and clothing are plausible. Caption/alt describe a modern illustrative conflict, not a documented historical scene."
+    },
+    {
+      "pdf_pages": [
+        14,
+        22,
+        59,
+        60
+      ],
+      "verdict": "pass",
+      "observed": "Actually viewed all four rendered full pages. Both new entries are intact, clear shaped Odia and English, captions sit with their illustrations, and no observed clipping or collisions. Credit pages display both new source titles/contributors and preserve CC BY-SA and SCERT distinctions."
+    }
+  ],
+  "preservation_checks": {
+    "prior108_entry_objects_exact": true,
+    "prior108_graphic_files_exact": true,
+    "new_reviewed_candidate_fields_preserved": true,
+    "source127_only_new_links6_and121_with_variant_contextual_qualifiers": true,
+    "source127_total": 127,
+    "linked": 42,
+    "pending": 84,
+    "duplicate": 1,
+    "historical_coverage_ledger_bytes_unchanged": true,
+    "entries_and_illustrations": 110,
+    "pdf_pages": 60,
+    "new_revision_URLs_in_PDF_annotations": [
+      206494,
+      218838
+    ]
+  },
+  "tests": [
+    "Read actual focused-tests.log:17 tests pass.",
+    "Read actual print-build.log:110 units,55 reading pages,shrink1.",
+    "Independently counted60 PDF pages with pypdf and verified exact PDF SHA.",
+    "Independently inspected permanent oldid links206494/218838 in page59 PDF annotations.",
+    "Independently compared prior108 objects/assets and final candidates with reviewed inputs."
+  ],
+  "limits": [
+    "No fresh browser interaction or all60-page reinspection; actual visual gate covers both full assets, both new reading pages and both credit pages. Existing content/assets were checked by equality.",
+    "Render checks are AI visual review, not human Odia proofreading or physical print proof.",
+    "Historical coverage ledger intentionally still records108 explained entries; it is unchanged research metadata and needs separately authorized scoped counter reconciliation if intended to track this edition.",
+    "Final exact canonical commit and source-evidence path review remain separate gates.",
+    "No earliest-use, independent oral provenance or universal customary claim is established."
+  ],
+  "next_action": "May integrate the frozen staged candidate, retaining idiom/lemma and expanded-variant distinctions, and obtain exact-head review before release."
+}

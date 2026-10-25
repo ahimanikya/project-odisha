@@ -8,7 +8,7 @@
     "date": "2020-03-14",
     "rights_note": "Publicly accessible; no explicit reuse licence observed. This inventory links source positions without reproducing its compilation or English pairings."
   },
-  "scope_note": "108 explained reader entries. Among127 source positions,40 are linked to reader entries: 37 licensed witness positions and3 brief SCERT quotations with separate rights;86 await independent witnesses and1 is a duplicate. Newly integrated candidates await separate AI review; no claim of127 completed explanations. 11 pending positions retain SCERT location leads, not completed transcriptions.",
+  "scope_note": "127 discovery positions;42 linked to110 explained reader entries,84 remain unresolved and1 is a duplicate. Two new links preserve expanded-variant and contextual-idiom distinctions. Three SCERT quotations retain separate rights; not all witnesses are openly licensed.11 pending positions retain locator leads.",
   "positions": [
     {
       "number": 1,
@@ -93,10 +93,15 @@
     },
     {
       "number": 6,
-      "status": "awaiting_independent_witness",
-      "collection_ids": [],
+      "status": "existing_reader_match",
+      "collection_ids": [
+        "POD-DHAGA-109"
+      ],
       "duplicate_of": null,
-      "notes": []
+      "notes": [
+        "Staged reviewed dictionary witness: expanded two-clause and orthographic variant; not exact discovery wording."
+      ],
+      "match_type": "expanded_orthographic_variant"
     },
     {
       "number": 7,
@@ -1229,10 +1234,15 @@
     },
     {
       "number": 121,
-      "status": "awaiting_independent_witness",
-      "collection_ids": [],
+      "status": "existing_reader_match",
+      "collection_ids": [
+        "POD-DHAGA-110"
+      ],
       "duplicate_of": null,
-      "notes": []
+      "notes": [
+        "Staged contextual idiom witness: source inflected sentence supports editorial infinitive; not exact source-headword quotation."
+      ],
+      "match_type": "contextual_idiom_attestation"
     },
     {
       "number": 122,
@@ -1292,12 +1302,12 @@
   "attribution": "Wikimedia witness wording is credited per position under CC BY-SA4.0. Three SCERT examples are brief research quotations, not licensed reproductions; the textbook is not relicensed. Original Project Odisha crosswalk and notes are CC BY-SA4.0. No historical public-domain certification.",
   "coverage": {
     "source_positions": 127,
-    "independently_witnessed_positions": 40,
-    "licensed_witness_positions": 37,
+    "independently_witnessed_positions": 42,
+    "licensed_witness_positions": 39,
     "brief_quotation_candidates": 0,
-    "existing_reader_matches": 40,
+    "existing_reader_matches": 42,
     "duplicate_source_positions": 1,
-    "awaiting_independent_witness": 86,
+    "awaiting_independent_witness": 84,
     "accepted_new_entries": 0,
     "pending_with_locator_leads": 11,
     "brief_quotation_reader_entries": 3

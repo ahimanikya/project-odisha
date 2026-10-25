@@ -1,0 +1,113 @@
+{
+  "input_head": "eed4837976b265fa828c3cf05a3a19b99eacef56",
+  "role": "Anvesha AI provenance/integrity audit; no human review",
+  "result": "pass",
+  "checks": [
+    {
+      "check": "review hash anvesha.json",
+      "pass": true
+    },
+    {
+      "check": "review hash samanta.json",
+      "pass": true
+    },
+    {
+      "check": "review hash candidates-complete.json",
+      "pass": true
+    },
+    {
+      "check": "review hash compound-batch.json",
+      "pass": true
+    },
+    {
+      "check": "review hash wiktionary-batch.json",
+      "pass": true
+    },
+    {
+      "check": "review hash phrase-search.json",
+      "pass": true
+    },
+    {
+      "check": "review hash samanta-captures/reused-and-fresh-revisions.json",
+      "pass": true
+    },
+    {
+      "check": "prior108 full per-entry JSON unchanged",
+      "pass": true
+    },
+    {
+      "check": "110 authoritative per-entry files",
+      "pass": true
+    },
+    {
+      "check": "109 source/meaning fields preserved",
+      "pass": true
+    },
+    {
+      "check": "110 source/meaning fields preserved",
+      "pass": true
+    },
+    {
+      "check": "dhaga-wiktionary-duraparbat206494 permanent URL,revision,rights",
+      "pass": true
+    },
+    {
+      "check": "dhaga-wiktionary-madhyama218838 permanent URL,revision,rights",
+      "pass": true
+    },
+    {
+      "check": "42linked84pending1duplicate",
+      "pass": true
+    },
+    {
+      "check": "expanded/contextual relations preserved",
+      "pass": true
+    }
+  ],
+  "counts": {
+    "linked": 42,
+    "pending": 84,
+    "duplicate": 1
+  },
+  "authoritative_entries": 110,
+  "sources": [
+    {
+      "id": "dhaga-wiktionary-duraparbat206494",
+      "title": "Odia Wiktionary: ଦୂର ପର୍ବତ",
+      "url": "https://or.wiktionary.org/w/index.php?title=ଦୂର_ପର୍ବତ&oldid=206494",
+      "locator": "After deshaja noun sense2; quotation explicitly labelled ପ୍ରବଚନ",
+      "revision": 206494,
+      "capture": "compound-batch.json",
+      "rights": "Odia Wiktionary contributors, CC BY-SA4.0, following established site licence evidence; not public-domain certification.",
+      "limits": "API original content read; rendered oldid page inaccessible this pass. No earliest oral use, author or collection date inferred."
+    },
+    {
+      "id": "dhaga-wiktionary-madhyama218838",
+      "title": "Odia Wiktionary: ମଧ୍ୟମ",
+      "url": "https://or.wiktionary.org/w/index.php?title=ମଧ୍ୟମ&oldid=218838",
+      "revision": 218838,
+      "locator": "ମଧ୍ୟମ; ଦେଶଜ - ବିଶେଷ୍ୟ, sense2, parenthetical usage example and explanatory equation",
+      "capture": "samanta-captures/reused-and-fresh-revisions.json",
+      "rights": "Odia Wiktionary contributors, CC BY-SA4.0, at revision218838. Original editorial explanations and adaptations use the same licence; no public-domain certification.",
+      "limits": "Exact revision API content retained. Rendered oldid page was inaccessible; contextual usage is an idiom attestation, not an exact standalone infinitive quote."
+    }
+  ],
+  "audit_bindings": {
+    "candidates-complete.json": "2075a9cc5db3dc3887c46aef22d086cd7f685f2a6977eddbb019d6e61040b438",
+    "drishti.json": "9f399a7be2d8f0bad73c02ab0ce1e6c7bf70767e7d8f6bebdcd605a94bf60f90",
+    "collection-metadata.json": "61fbe9d036c24c09a5e60ad8a4c1d8c4a2487ab84b0265b12b099c1ca979be79",
+    "source127.json": "d2759946411a7fb322e627d5df0106880344d84296c634b6088fea702a153a36",
+    "entry109": "6fbdedc6a155b07f1e6b49068eabcec61e9b7b216e5c09a721b8a03281c77099",
+    "entry110": "dda482ad1e0e4b9208e259921817a19385a512790e33ecc98ea2c41b0de00d9f"
+  },
+  "notes": [
+    "Legacy collection.json remains108; actual current reader uses individual entries and collection-metadata.json. This audit checks authoritative files, not that legacy snapshot as110.",
+    "New sources retain contributor attribution and CC BY-SA4.0; no public-domain claim.",
+    "Source127 position6 maps an expanded orthographic variant;121 maps contextual idiom usage with explicit editorial infinitive, not verbatim standalone headword."
+  ],
+  "limits": [
+    "No fresh source retrieval or new licensing research. Bound exact captured revisions and prior separate AI review.",
+    "No new artwork pixel review or PDF layout review performed in this provenance check.",
+    "No canonical or staged book edits."
+  ]
+}
