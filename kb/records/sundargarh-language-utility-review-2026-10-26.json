@@ -1,0 +1,3015 @@
+{
+  "status": "reviewed_classification_integration",
+  "item": "POD-EDIT-085",
+  "route": "/languages/districts/sundargarh/",
+  "input_head": "ba72f4736d1b9eb22716d9edbc9c8ad2ca3b7ca7",
+  "decision": "Individually exclude085 from sustained-article rollout as Census utility; retain public route/data and separate Banei/Suruguda authored material.",
+  "programme_credit": 0,
+  "article_completion_credit": 0,
+  "scope_release": "On separately reviewed merge after passing required checks; no website deployment because product unchanged.",
+  "reports": {
+    "anvesha.json": {
+      "schema_version": 1,
+      "role": "Anvesha, separate AI source readiness; not human review",
+      "requested_remote_head": "ba72f4736d1b9eb22716d9edbc9c8ad2ca3b7ca7",
+      "actual_input_head": "4b0c7449e83eb5e0011f0912ec519e51ef5bd734",
+      "item": "POD-EDIT-085",
+      "route": "/languages/districts/sundargarh/",
+      "recommendation": "utility_exclusion_candidate",
+      "programme_credit": 0,
+      "reason": "Individually inspected Sundargarh route is a Census table/navigation utility. Its lead is computed from largest group; district and residence denominators, expandable group/member rows and positive-return language profile links form the main content. It has no sustained district-specific authored narrative, no attached destination connection and no related-discovery reading link. Recommend justified single-route rollout exclusion while retaining this useful data page, not deletion or automatic byline assignment.",
+      "central_reader_question": "Which mother-tongue entries were reported for Sundargarh district in Census2011, and how do district, rural and urban counts and shares differ?",
+      "source": {
+        "title": "C-16: Population by mother tongue, Odisha — 2011",
+        "url": "https://censusindia.gov.in/nada/index.php/catalog/10217",
+        "download": "https://censusindia.gov.in/nada/index.php/catalog/10217/download/13329/DDW-C16-STMT-MDDS-2100.XLSX",
+        "file": "references/census-2011/c16-odisha.xlsx",
+        "sha256": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db",
+        "sheet": "Sheet1"
+      },
+      "source_hash_verified": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db",
+      "district": {
+        "code": "374",
+        "source_name": "Sundargarh",
+        "source_rows": [
+          3022,
+          3194
+        ],
+        "row_count": 173,
+        "language_groups": 57,
+        "subordinate_entries": 116,
+        "population_H_to_P": [
+          2093437,
+          1061147,
+          1032290,
+          1355340,
+          676068,
+          679272,
+          738097,
+          385079,
+          353018
+        ],
+        "positive_profile_links": [
+          "odia",
+          "santali",
+          "kui",
+          "kuvi",
+          "saora",
+          "ho",
+          "sambalpuri"
+        ]
+      },
+      "actual_checks": {
+        "all_district_rows_and_nine_numeric_columns_equal_atlas": true,
+        "cell_comparisons": 1557,
+        "source_codes_name_and_district_geography_checked": true,
+        "mutually_exclusive_group_sum_equals_all_nine_population_cells": true,
+        "all_rows_sex_and_residence_addition": true,
+        "template_and_connections_inspected": true,
+        "fresh_web_retrieval": false
+      },
+      "source_rows_checked": [
+        {
+          "row": 3022,
+          "code": "001000",
+          "raw_label": "1 ASSAMESE",
+          "values_H_to_P": [
+            158,
+            112,
+            46,
+            8,
+            7,
+            1,
+            150,
+            105,
+            45
+          ]
+        },
+        {
+          "row": 3023,
+          "code": "001002",
+          "raw_label": " Assamese",
+          "values_H_to_P": [
+            157,
+            112,
+            45,
+            8,
+            7,
+            1,
+            149,
+            105,
+            44
+          ]
+        },
+        {
+          "row": 3024,
+          "code": "001999",
+          "raw_label": "1 Others",
+          "values_H_to_P": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "row": 3025,
+          "code": "002000",
+          "raw_label": "2 BENGALI ",
+          "values_H_to_P": [
+            31845,
+            16971,
+            14874,
+            3753,
+            1997,
+            1756,
+            28092,
+            14974,
+            13118
+          ]
+        },
+        {
+          "row": 3026,
+          "code": "002007",
+          "raw_label": " Bengali",
+          "values_H_to_P": [
+            31844,
+            16971,
+            14873,
+            3752,
+            1997,
+            1755,
+            28092,
+            14974,
+            13118
+          ]
+        },
+        {
+          "row": 3027,
+          "code": "002999",
+          "raw_label": "2 Others",
+          "values_H_to_P": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 3028,
+          "code": "003000",
+          "raw_label": "3 BODO ",
+          "values_H_to_P": [
+            3,
+            3,
+            0,
+            0,
+            0,
+            0,
+            3,
+            3,
+            0
+          ]
+        },
+        {
+          "row": 3029,
+          "code": "003001",
+          "raw_label": " Bodo/Boro",
+          "values_H_to_P": [
+            3,
+            3,
+            0,
+            0,
+            0,
+            0,
+            3,
+            3,
+            0
+          ]
+        },
+        {
+          "row": 3030,
+          "code": "004000",
+          "raw_label": "4 DOGRI ",
+          "values_H_to_P": [
+            8,
+            8,
+            0,
+            2,
+            2,
+            0,
+            6,
+            6,
+            0
+          ]
+        },
+        {
+          "row": 3031,
+          "code": "004001",
+          "raw_label": " Dogri",
+          "values_H_to_P": [
+            8,
+            8,
+            0,
+            2,
+            2,
+            0,
+            6,
+            6,
+            0
+          ]
+        },
+        {
+          "row": 3032,
+          "code": "005000",
+          "raw_label": "5 GUJARATI",
+          "values_H_to_P": [
+            1682,
+            869,
+            813,
+            202,
+            106,
+            96,
+            1480,
+            763,
+            717
+          ]
+        },
+        {
+          "row": 3033,
+          "code": "005018",
+          "raw_label": " Gujarati",
+          "values_H_to_P": [
+            1650,
+            856,
+            794,
+            183,
+            98,
+            85,
+            1467,
+            758,
+            709
+          ]
+        },
+        {
+          "row": 3034,
+          "code": "005999",
+          "raw_label": "5 Others",
+          "values_H_to_P": [
+            32,
+            13,
+            19,
+            19,
+            8,
+            11,
+            13,
+            5,
+            8
+          ]
+        },
+        {
+          "row": 3035,
+          "code": "006000",
+          "raw_label": "6 HINDI ",
+          "values_H_to_P": [
+            489524,
+            250208,
+            239316,
+            278665,
+            139297,
+            139368,
+            210859,
+            110911,
+            99948
+          ]
+        },
+        {
+          "row": 3036,
+          "code": "006042",
+          "raw_label": " Bagheli/Baghel Khandi",
+          "values_H_to_P": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "row": 3037,
+          "code": "006102",
+          "raw_label": " Bhojpuri",
+          "values_H_to_P": [
+            10744,
+            5906,
+            4838,
+            661,
+            369,
+            292,
+            10083,
+            5537,
+            4546
+          ]
+        },
+        {
+          "row": 3038,
+          "code": "006123",
+          "raw_label": " Brajbhasha",
+          "values_H_to_P": [
+            17,
+            10,
+            7,
+            8,
+            4,
+            4,
+            9,
+            6,
+            3
+          ]
+        },
+        {
+          "row": 3039,
+          "code": "006125",
+          "raw_label": " Bundeli/Bundel khandi",
+          "values_H_to_P": [
+            8,
+            5,
+            3,
+            4,
+            3,
+            1,
+            4,
+            2,
+            2
+          ]
+        },
+        {
+          "row": 3040,
+          "code": "006142",
+          "raw_label": " Chhattisgarhi",
+          "values_H_to_P": [
+            2519,
+            1238,
+            1281,
+            1717,
+            818,
+            899,
+            802,
+            420,
+            382
+          ]
+        },
+        {
+          "row": 3041,
+          "code": "006173",
+          "raw_label": " Dhundhari",
+          "values_H_to_P": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "row": 3042,
+          "code": "006195",
+          "raw_label": " Garhwali",
+          "values_H_to_P": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 3043,
+          "code": "006207",
+          "raw_label": " Gojri/Gujjari/Gujar",
+          "values_H_to_P": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "row": 3044,
+          "code": "006235",
+          "raw_label": " Haryanvi",
+          "values_H_to_P": [
+            29,
+            19,
+            10,
+            3,
+            3,
+            0,
+            26,
+            16,
+            10
+          ]
+        },
+        {
+          "row": 3045,
+          "code": "006240",
+          "raw_label": " Hindi",
+          "values_H_to_P": [
+            146125,
+            78672,
+            67453,
+            23014,
+            12180,
+            10834,
+            123111,
+            66492,
+            56619
+          ]
+        },
+        {
+          "row": 3046,
+          "code": "006311",
+          "raw_label": " Khari Boli",
+          "values_H_to_P": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 3047,
+          "code": "006320",
+          "raw_label": " Khortha/Khotta",
+          "values_H_to_P": [
+            37,
+            19,
+            18,
+            6,
+            4,
+            2,
+            31,
+            15,
+            16
+          ]
+        },
+        {
+          "row": 3048,
+          "code": "006336",
+          "raw_label": " Kulvi",
+          "values_H_to_P": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 3049,
+          "code": "006340",
+          "raw_label": " Kumauni",
+          "values_H_to_P": [
+            28,
+            13,
+            15,
+            28,
+            13,
+            15,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 3050,
+          "code": "006345",
+          "raw_label": " Kurmali Thar",
+          "values_H_to_P": [
+            2781,
+            1414,
+            1367,
+            2661,
+            1351,
+            1310,
+            120,
+            63,
+            57
+          ]
+        },
+        {
+          "row": 3051,
+          "code": "006353",
+          "raw_label": " Lamani/Lambadi",
+          "values_H_to_P": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "row": 3052,
+          "code": "006355",
+          "raw_label": " Laria",
+          "values_H_to_P": [
+            4519,
+            2190,
+            2329,
+            4504,
+            2183,
+            2321,
+            15,
+            7,
+            8
+          ]
+        },
+        {
+          "row": 3053,
+          "code": "006376",
+          "raw_label": " Magadhi/Magahi",
+          "values_H_to_P": [
+            255,
+            144,
+            111,
+            19,
+            10,
+            9,
+            236,
+            134,
+            102
+          ]
+        },
+        {
+          "row": 3054,
+          "code": "006400",
+          "raw_label": " Marwari",
+          "values_H_to_P": [
+            2427,
+            1280,
+            1147,
+            287,
+            147,
+            140,
+            2140,
+            1133,
+            1007
+          ]
+        },
+        {
+          "row": 3055,
+          "code": "006420",
+          "raw_label": " Nagpuria",
+          "values_H_to_P": [
+            337,
+            175,
+            162,
+            221,
+            114,
+            107,
+            116,
+            61,
+            55
+          ]
+        },
+        {
+          "row": 3056,
+          "code": "006451",
+          "raw_label": " Panch Pargania",
+          "values_H_to_P": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "row": 3057,
+          "code": "006476",
+          "raw_label": " Puran/Puran Bhasha",
+          "values_H_to_P": [
+            115,
+            57,
+            58,
+            83,
+            42,
+            41,
+            32,
+            15,
+            17
+          ]
+        },
+        {
+          "row": 3058,
+          "code": "006489",
+          "raw_label": " Rajasthani",
+          "values_H_to_P": [
+            245,
+            140,
+            105,
+            29,
+            20,
+            9,
+            216,
+            120,
+            96
+          ]
+        },
+        {
+          "row": 3059,
+          "code": "006503",
+          "raw_label": " Sadan/Sadri",
+          "values_H_to_P": [
+            309883,
+            153901,
+            155982,
+            244032,
+            121324,
+            122708,
+            65851,
+            32577,
+            33274
+          ]
+        },
+        {
+          "row": 3060,
+          "code": "006999",
+          "raw_label": "6 Others",
+          "values_H_to_P": [
+            9447,
+            5018,
+            4429,
+            1385,
+            709,
+            676,
+            8062,
+            4309,
+            3753
+          ]
+        },
+        {
+          "row": 3061,
+          "code": "007000",
+          "raw_label": "7 KANNADA",
+          "values_H_to_P": [
+            234,
+            146,
+            88,
+            123,
+            69,
+            54,
+            111,
+            77,
+            34
+          ]
+        },
+        {
+          "row": 3062,
+          "code": "007016",
+          "raw_label": " Kannada",
+          "values_H_to_P": [
+            227,
+            142,
+            85,
+            122,
+            69,
+            53,
+            105,
+            73,
+            32
+          ]
+        },
+        {
+          "row": 3063,
+          "code": "007027",
+          "raw_label": " Kuruba/Kurumba",
+          "values_H_to_P": [
+            5,
+            2,
+            3,
+            1,
+            0,
+            1,
+            4,
+            2,
+            2
+          ]
+        },
+        {
+          "row": 3064,
+          "code": "007999",
+          "raw_label": "7 Others",
+          "values_H_to_P": [
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            2,
+            2,
+            0
+          ]
+        },
+        {
+          "row": 3065,
+          "code": "008000",
+          "raw_label": "8 KASHMIRI ",
+          "values_H_to_P": [
+            30,
+            24,
+            6,
+            20,
+            16,
+            4,
+            10,
+            8,
+            2
+          ]
+        },
+        {
+          "row": 3066,
+          "code": "008005",
+          "raw_label": " Kashmiri",
+          "values_H_to_P": [
+            29,
+            23,
+            6,
+            20,
+            16,
+            4,
+            9,
+            7,
+            2
+          ]
+        },
+        {
+          "row": 3067,
+          "code": "008010",
+          "raw_label": " Kishtwari",
+          "values_H_to_P": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "row": 3068,
+          "code": "009000",
+          "raw_label": "9 KONKANI",
+          "values_H_to_P": [
+            547,
+            283,
+            264,
+            461,
+            232,
+            229,
+            86,
+            51,
+            35
+          ]
+        },
+        {
+          "row": 3069,
+          "code": "009011",
+          "raw_label": " Konkani",
+          "values_H_to_P": [
+            9,
+            7,
+            2,
+            1,
+            0,
+            1,
+            8,
+            7,
+            1
+          ]
+        },
+        {
+          "row": 3070,
+          "code": "009013",
+          "raw_label": " Kudubi/Kudumbi",
+          "values_H_to_P": [
+            535,
+            275,
+            260,
+            457,
+            231,
+            226,
+            78,
+            44,
+            34
+          ]
+        },
+        {
+          "row": 3071,
+          "code": "009999",
+          "raw_label": "9 Others",
+          "values_H_to_P": [
+            3,
+            1,
+            2,
+            3,
+            1,
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 3072,
+          "code": "010000",
+          "raw_label": "10 MAITHILI ",
+          "values_H_to_P": [
+            964,
+            531,
+            433,
+            157,
+            92,
+            65,
+            807,
+            439,
+            368
+          ]
+        },
+        {
+          "row": 3073,
+          "code": "010008",
+          "raw_label": " Maithili",
+          "values_H_to_P": [
+            946,
+            524,
+            422,
+            152,
+            90,
+            62,
+            794,
+            434,
+            360
+          ]
+        },
+        {
+          "row": 3074,
+          "code": "010013",
+          "raw_label": " Thati",
+          "values_H_to_P": [
+            13,
+            5,
+            8,
+            5,
+            2,
+            3,
+            8,
+            3,
+            5
+          ]
+        },
+        {
+          "row": 3075,
+          "code": "010014",
+          "raw_label": " Tharu",
+          "values_H_to_P": [
+            5,
+            2,
+            3,
+            0,
+            0,
+            0,
+            5,
+            2,
+            3
+          ]
+        },
+        {
+          "row": 3076,
+          "code": "011000",
+          "raw_label": "11 MALAYALAM",
+          "values_H_to_P": [
+            1442,
+            805,
+            637,
+            183,
+            114,
+            69,
+            1259,
+            691,
+            568
+          ]
+        },
+        {
+          "row": 3077,
+          "code": "011016",
+          "raw_label": " Malayalam",
+          "values_H_to_P": [
+            1326,
+            743,
+            583,
+            79,
+            58,
+            21,
+            1247,
+            685,
+            562
+          ]
+        },
+        {
+          "row": 3078,
+          "code": "011999",
+          "raw_label": "11 Others",
+          "values_H_to_P": [
+            116,
+            62,
+            54,
+            104,
+            56,
+            48,
+            12,
+            6,
+            6
+          ]
+        },
+        {
+          "row": 3079,
+          "code": "012000",
+          "raw_label": "12 MANIPURI ",
+          "values_H_to_P": [
+            62,
+            32,
+            30,
+            4,
+            4,
+            0,
+            58,
+            28,
+            30
+          ]
+        },
+        {
+          "row": 3080,
+          "code": "012003",
+          "raw_label": " Manipuri",
+          "values_H_to_P": [
+            62,
+            32,
+            30,
+            4,
+            4,
+            0,
+            58,
+            28,
+            30
+          ]
+        },
+        {
+          "row": 3081,
+          "code": "013000",
+          "raw_label": "13 MARATHI ",
+          "values_H_to_P": [
+            648,
+            354,
+            294,
+            211,
+            109,
+            102,
+            437,
+            245,
+            192
+          ]
+        },
+        {
+          "row": 3082,
+          "code": "013071",
+          "raw_label": " Marathi",
+          "values_H_to_P": [
+            593,
+            330,
+            263,
+            159,
+            86,
+            73,
+            434,
+            244,
+            190
+          ]
+        },
+        {
+          "row": 3083,
+          "code": "013999",
+          "raw_label": "13 Others",
+          "values_H_to_P": [
+            55,
+            24,
+            31,
+            52,
+            23,
+            29,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "row": 3084,
+          "code": "014000",
+          "raw_label": "14 NEPALI ",
+          "values_H_to_P": [
+            2323,
+            1218,
+            1105,
+            1091,
+            558,
+            533,
+            1232,
+            660,
+            572
+          ]
+        },
+        {
+          "row": 3085,
+          "code": "014011",
+          "raw_label": " Nepali",
+          "values_H_to_P": [
+            2318,
+            1216,
+            1102,
+            1091,
+            558,
+            533,
+            1227,
+            658,
+            569
+          ]
+        },
+        {
+          "row": 3086,
+          "code": "014999",
+          "raw_label": "14 Others",
+          "values_H_to_P": [
+            5,
+            2,
+            3,
+            0,
+            0,
+            0,
+            5,
+            2,
+            3
+          ]
+        },
+        {
+          "row": 3087,
+          "code": "015000",
+          "raw_label": "15 ODIA ",
+          "values_H_to_P": [
+            962146,
+            489633,
+            472513,
+            583868,
+            292530,
+            291338,
+            378278,
+            197103,
+            181175
+          ]
+        },
+        {
+          "row": 3088,
+          "code": "015007",
+          "raw_label": " Bhuiya/Bhuyan[Ori]",
+          "values_H_to_P": [
+            89,
+            52,
+            37,
+            77,
+            46,
+            31,
+            12,
+            6,
+            6
+          ]
+        },
+        {
+          "row": 3089,
+          "code": "015010",
+          "raw_label": " Bhumijali",
+          "values_H_to_P": [
+            332,
+            171,
+            161,
+            228,
+            117,
+            111,
+            104,
+            54,
+            50
+          ]
+        },
+        {
+          "row": 3090,
+          "code": "015043",
+          "raw_label": " Odia",
+          "values_H_to_P": [
+            917947,
+            467646,
+            450301,
+            543939,
+            272710,
+            271229,
+            374008,
+            194936,
+            179072
+          ]
+        },
+        {
+          "row": 3091,
+          "code": "015055",
+          "raw_label": " Relli",
+          "values_H_to_P": [
+            19,
+            7,
+            12,
+            0,
+            0,
+            0,
+            19,
+            7,
+            12
+          ]
+        },
+        {
+          "row": 3092,
+          "code": "015058",
+          "raw_label": " Sambalpuri",
+          "values_H_to_P": [
+            42720,
+            21171,
+            21549,
+            38843,
+            19252,
+            19591,
+            3877,
+            1919,
+            1958
+          ]
+        },
+        {
+          "row": 3093,
+          "code": "015999",
+          "raw_label": "15 Others",
+          "values_H_to_P": [
+            1039,
+            586,
+            453,
+            781,
+            405,
+            376,
+            258,
+            181,
+            77
+          ]
+        },
+        {
+          "row": 3094,
+          "code": "016000",
+          "raw_label": "16 PUNJABI ",
+          "values_H_to_P": [
+            6099,
+            3221,
+            2878,
+            319,
+            171,
+            148,
+            5780,
+            3050,
+            2730
+          ]
+        },
+        {
+          "row": 3095,
+          "code": "016038",
+          "raw_label": " Punjabi",
+          "values_H_to_P": [
+            6094,
+            3218,
+            2876,
+            319,
+            171,
+            148,
+            5775,
+            3047,
+            2728
+          ]
+        },
+        {
+          "row": 3096,
+          "code": "016999",
+          "raw_label": "16 Others",
+          "values_H_to_P": [
+            5,
+            3,
+            2,
+            0,
+            0,
+            0,
+            5,
+            3,
+            2
+          ]
+        },
+        {
+          "row": 3097,
+          "code": "017000",
+          "raw_label": "17 SANSKRIT ",
+          "values_H_to_P": [
+            15,
+            9,
+            6,
+            0,
+            0,
+            0,
+            15,
+            9,
+            6
+          ]
+        },
+        {
+          "row": 3098,
+          "code": "017999",
+          "raw_label": "17 Others",
+          "values_H_to_P": [
+            15,
+            9,
+            6,
+            0,
+            0,
+            0,
+            15,
+            9,
+            6
+          ]
+        },
+        {
+          "row": 3099,
+          "code": "018000",
+          "raw_label": "18 SANTALI ",
+          "values_H_to_P": [
+            9036,
+            4543,
+            4493,
+            2402,
+            1187,
+            1215,
+            6634,
+            3356,
+            3278
+          ]
+        },
+        {
+          "row": 3100,
+          "code": "018010",
+          "raw_label": " Karmali",
+          "values_H_to_P": [
+            6,
+            2,
+            4,
+            0,
+            0,
+            0,
+            6,
+            2,
+            4
+          ]
+        },
+        {
+          "row": 3101,
+          "code": "018011",
+          "raw_label": " Mahili",
+          "values_H_to_P": [
+            212,
+            99,
+            113,
+            212,
+            99,
+            113,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 3102,
+          "code": "018040",
+          "raw_label": " Santali",
+          "values_H_to_P": [
+            8817,
+            4441,
+            4376,
+            2189,
+            1087,
+            1102,
+            6628,
+            3354,
+            3274
+          ]
+        },
+        {
+          "row": 3103,
+          "code": "018999",
+          "raw_label": "18 Others",
+          "values_H_to_P": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 3104,
+          "code": "019000",
+          "raw_label": "19 SINDHI",
+          "values_H_to_P": [
+            308,
+            159,
+            149,
+            0,
+            0,
+            0,
+            308,
+            159,
+            149
+          ]
+        },
+        {
+          "row": 3105,
+          "code": "019008",
+          "raw_label": " Kachchhi",
+          "values_H_to_P": [
+            5,
+            2,
+            3,
+            0,
+            0,
+            0,
+            5,
+            2,
+            3
+          ]
+        },
+        {
+          "row": 3106,
+          "code": "019014",
+          "raw_label": " Sindhi",
+          "values_H_to_P": [
+            303,
+            157,
+            146,
+            0,
+            0,
+            0,
+            303,
+            157,
+            146
+          ]
+        },
+        {
+          "row": 3107,
+          "code": "020000",
+          "raw_label": "20 TAMIL ",
+          "values_H_to_P": [
+            808,
+            441,
+            367,
+            44,
+            28,
+            16,
+            764,
+            413,
+            351
+          ]
+        },
+        {
+          "row": 3108,
+          "code": "020027",
+          "raw_label": " Tamil",
+          "values_H_to_P": [
+            795,
+            434,
+            361,
+            33,
+            21,
+            12,
+            762,
+            413,
+            349
+          ]
+        },
+        {
+          "row": 3109,
+          "code": "020029",
+          "raw_label": " Yerukala/Yerukula",
+          "values_H_to_P": [
+            11,
+            7,
+            4,
+            11,
+            7,
+            4,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 3110,
+          "code": "020999",
+          "raw_label": "20 Others",
+          "values_H_to_P": [
+            2,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            2
+          ]
+        },
+        {
+          "row": 3111,
+          "code": "021000",
+          "raw_label": "21 TELUGU ",
+          "values_H_to_P": [
+            9941,
+            5181,
+            4760,
+            321,
+            180,
+            141,
+            9620,
+            5001,
+            4619
+          ]
+        },
+        {
+          "row": 3112,
+          "code": "021046",
+          "raw_label": " Telugu",
+          "values_H_to_P": [
+            9928,
+            5176,
+            4752,
+            308,
+            175,
+            133,
+            9620,
+            5001,
+            4619
+          ]
+        },
+        {
+          "row": 3113,
+          "code": "021999",
+          "raw_label": "21 Others",
+          "values_H_to_P": [
+            13,
+            5,
+            8,
+            13,
+            5,
+            8,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 3114,
+          "code": "022000",
+          "raw_label": "22 URDU",
+          "values_H_to_P": [
+            44729,
+            23572,
+            21157,
+            9804,
+            4908,
+            4896,
+            34925,
+            18664,
+            16261
+          ]
+        },
+        {
+          "row": 3115,
+          "code": "022015",
+          "raw_label": " Urdu",
+          "values_H_to_P": [
+            44716,
+            23563,
+            21153,
+            9802,
+            4906,
+            4896,
+            34914,
+            18657,
+            16257
+          ]
+        },
+        {
+          "row": 3116,
+          "code": "022999",
+          "raw_label": "22 Others",
+          "values_H_to_P": [
+            13,
+            9,
+            4,
+            2,
+            2,
+            0,
+            11,
+            7,
+            4
+          ]
+        },
+        {
+          "row": 3117,
+          "code": "023000",
+          "raw_label": "23 ADI ",
+          "values_H_to_P": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "row": 3118,
+          "code": "023999",
+          "raw_label": "23 Others",
+          "values_H_to_P": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "row": 3119,
+          "code": "028000",
+          "raw_label": "28 ARABIC/ARBI ",
+          "values_H_to_P": [
+            32,
+            18,
+            14,
+            0,
+            0,
+            0,
+            32,
+            18,
+            14
+          ]
+        },
+        {
+          "row": 3120,
+          "code": "028001",
+          "raw_label": " Arabic/Arbi",
+          "values_H_to_P": [
+            32,
+            18,
+            14,
+            0,
+            0,
+            0,
+            32,
+            18,
+            14
+          ]
+        },
+        {
+          "row": 3121,
+          "code": "030000",
+          "raw_label": "30 BHILI/BHILODI ",
+          "values_H_to_P": [
+            8,
+            4,
+            4,
+            4,
+            2,
+            2,
+            4,
+            2,
+            2
+          ]
+        },
+        {
+          "row": 3122,
+          "code": "030002",
+          "raw_label": " Baori",
+          "values_H_to_P": [
+            5,
+            3,
+            2,
+            1,
+            1,
+            0,
+            4,
+            2,
+            2
+          ]
+        },
+        {
+          "row": 3123,
+          "code": "030020",
+          "raw_label": " Gamti/Gavit",
+          "values_H_to_P": [
+            3,
+            1,
+            2,
+            3,
+            1,
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 3124,
+          "code": "032000",
+          "raw_label": "32 BHUMIJ ",
+          "values_H_to_P": [
+            1023,
+            525,
+            498,
+            949,
+            487,
+            462,
+            74,
+            38,
+            36
+          ]
+        },
+        {
+          "row": 3125,
+          "code": "032002",
+          "raw_label": " Bhumij",
+          "values_H_to_P": [
+            167,
+            85,
+            82,
+            124,
+            63,
+            61,
+            43,
+            22,
+            21
+          ]
+        },
+        {
+          "row": 3126,
+          "code": "032999",
+          "raw_label": "32 Others",
+          "values_H_to_P": [
+            856,
+            440,
+            416,
+            825,
+            424,
+            401,
+            31,
+            16,
+            15
+          ]
+        },
+        {
+          "row": 3127,
+          "code": "036000",
+          "raw_label": "36 CHANG ",
+          "values_H_to_P": [
+            2,
+            0,
+            2,
+            2,
+            0,
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 3128,
+          "code": "036001",
+          "raw_label": " Chang",
+          "values_H_to_P": [
+            2,
+            0,
+            2,
+            2,
+            0,
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 3129,
+          "code": "037000",
+          "raw_label": "37 COORGI/KODAGU ",
+          "values_H_to_P": [
+            9,
+            3,
+            6,
+            1,
+            0,
+            1,
+            8,
+            3,
+            5
+          ]
+        },
+        {
+          "row": 3130,
+          "code": "037001",
+          "raw_label": " Coorgi/Kodagu",
+          "values_H_to_P": [
+            9,
+            3,
+            6,
+            1,
+            0,
+            1,
+            8,
+            3,
+            5
+          ]
+        },
+        {
+          "row": 3131,
+          "code": "040000",
+          "raw_label": "40 ENGLISH ",
+          "values_H_to_P": [
+            107,
+            57,
+            50,
+            21,
+            11,
+            10,
+            86,
+            46,
+            40
+          ]
+        },
+        {
+          "row": 3132,
+          "code": "040001",
+          "raw_label": " English",
+          "values_H_to_P": [
+            107,
+            57,
+            50,
+            21,
+            11,
+            10,
+            86,
+            46,
+            40
+          ]
+        },
+        {
+          "row": 3133,
+          "code": "043000",
+          "raw_label": "43 GARO ",
+          "values_H_to_P": [
+            6,
+            4,
+            2,
+            0,
+            0,
+            0,
+            6,
+            4,
+            2
+          ]
+        },
+        {
+          "row": 3134,
+          "code": "043999",
+          "raw_label": "43 Others",
+          "values_H_to_P": [
+            6,
+            4,
+            2,
+            0,
+            0,
+            0,
+            6,
+            4,
+            2
+          ]
+        },
+        {
+          "row": 3135,
+          "code": "044000",
+          "raw_label": "44 GONDI",
+          "values_H_to_P": [
+            404,
+            219,
+            185,
+            371,
+            201,
+            170,
+            33,
+            18,
+            15
+          ]
+        },
+        {
+          "row": 3136,
+          "code": "044007",
+          "raw_label": " Gondi",
+          "values_H_to_P": [
+            32,
+            20,
+            12,
+            28,
+            19,
+            9,
+            4,
+            1,
+            3
+          ]
+        },
+        {
+          "row": 3137,
+          "code": "044999",
+          "raw_label": "44 Others",
+          "values_H_to_P": [
+            372,
+            199,
+            173,
+            343,
+            182,
+            161,
+            29,
+            17,
+            12
+          ]
+        },
+        {
+          "row": 3138,
+          "code": "045000",
+          "raw_label": "45 HALABI",
+          "values_H_to_P": [
+            4,
+            2,
+            2,
+            0,
+            0,
+            0,
+            4,
+            2,
+            2
+          ]
+        },
+        {
+          "row": 3139,
+          "code": "045001",
+          "raw_label": " Halabi",
+          "values_H_to_P": [
+            4,
+            2,
+            2,
+            0,
+            0,
+            0,
+            4,
+            2,
+            2
+          ]
+        },
+        {
+          "row": 3140,
+          "code": "048000",
+          "raw_label": "48 HO",
+          "values_H_to_P": [
+            4412,
+            2193,
+            2219,
+            2805,
+            1384,
+            1421,
+            1607,
+            809,
+            798
+          ]
+        },
+        {
+          "row": 3141,
+          "code": "048004",
+          "raw_label": " Ho",
+          "values_H_to_P": [
+            4155,
+            2059,
+            2096,
+            2566,
+            1258,
+            1308,
+            1589,
+            801,
+            788
+          ]
+        },
+        {
+          "row": 3142,
+          "code": "048007",
+          "raw_label": " Lohara",
+          "values_H_to_P": [
+            257,
+            134,
+            123,
+            239,
+            126,
+            113,
+            18,
+            8,
+            10
+          ]
+        },
+        {
+          "row": 3143,
+          "code": "053000",
+          "raw_label": "53 KHANDESHI",
+          "values_H_to_P": [
+            10,
+            6,
+            4,
+            10,
+            6,
+            4,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 3144,
+          "code": "053999",
+          "raw_label": "53 Others",
+          "values_H_to_P": [
+            10,
+            6,
+            4,
+            10,
+            6,
+            4,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 3145,
+          "code": "054000",
+          "raw_label": "54 KHARIA ",
+          "values_H_to_P": [
+            91732,
+            44980,
+            46752,
+            85116,
+            41824,
+            43292,
+            6616,
+            3156,
+            3460
+          ]
+        },
+        {
+          "row": 3146,
+          "code": "054005",
+          "raw_label": " Kharia",
+          "values_H_to_P": [
+            91732,
+            44980,
+            46752,
+            85116,
+            41824,
+            43292,
+            6616,
+            3156,
+            3460
+          ]
+        },
+        {
+          "row": 3147,
+          "code": "056000",
+          "raw_label": "56 KHEZHA ",
+          "values_H_to_P": [
+            7,
+            5,
+            2,
+            7,
+            5,
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 3148,
+          "code": "056003",
+          "raw_label": " Khezha",
+          "values_H_to_P": [
+            7,
+            5,
+            2,
+            7,
+            5,
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 3149,
+          "code": "058000",
+          "raw_label": "58 KHOND/KONDH ",
+          "values_H_to_P": [
+            15,
+            13,
+            2,
+            6,
+            6,
+            0,
+            9,
+            7,
+            2
+          ]
+        },
+        {
+          "row": 3150,
+          "code": "058001",
+          "raw_label": " Khond/Kondh",
+          "values_H_to_P": [
+            14,
+            12,
+            2,
+            5,
+            5,
+            0,
+            9,
+            7,
+            2
+          ]
+        },
+        {
+          "row": 3151,
+          "code": "058006",
+          "raw_label": " Kuvi",
+          "values_H_to_P": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 3152,
+          "code": "060000",
+          "raw_label": "60 KISAN ",
+          "values_H_to_P": [
+            95759,
+            47331,
+            48428,
+            88053,
+            43563,
+            44490,
+            7706,
+            3768,
+            3938
+          ]
+        },
+        {
+          "row": 3153,
+          "code": "060002",
+          "raw_label": " Kisan",
+          "values_H_to_P": [
+            95759,
+            47331,
+            48428,
+            88053,
+            43563,
+            44490,
+            7706,
+            3768,
+            3938
+          ]
+        },
+        {
+          "row": 3154,
+          "code": "062000",
+          "raw_label": "62 KODA/KORA ",
+          "values_H_to_P": [
+            4,
+            3,
+            1,
+            4,
+            3,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 3155,
+          "code": "062003",
+          "raw_label": " Koda/Kora",
+          "values_H_to_P": [
+            4,
+            3,
+            1,
+            4,
+            3,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 3156,
+          "code": "064000",
+          "raw_label": "64 KOM",
+          "values_H_to_P": [
+            5,
+            2,
+            3,
+            0,
+            0,
+            0,
+            5,
+            2,
+            3
+          ]
+        },
+        {
+          "row": 3157,
+          "code": "064001",
+          "raw_label": " Kom",
+          "values_H_to_P": [
+            5,
+            2,
+            3,
+            0,
+            0,
+            0,
+            5,
+            2,
+            3
+          ]
+        },
+        {
+          "row": 3158,
+          "code": "066000",
+          "raw_label": "66 KONYAK ",
+          "values_H_to_P": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 3159,
+          "code": "066001",
+          "raw_label": " Konyak",
+          "values_H_to_P": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 3160,
+          "code": "070000",
+          "raw_label": "70 KUI ",
+          "values_H_to_P": [
+            87,
+            44,
+            43,
+            18,
+            10,
+            8,
+            69,
+            34,
+            35
+          ]
+        },
+        {
+          "row": 3161,
+          "code": "070001",
+          "raw_label": " Kui",
+          "values_H_to_P": [
+            87,
+            44,
+            43,
+            18,
+            10,
+            8,
+            69,
+            34,
+            35
+          ]
+        },
+        {
+          "row": 3162,
+          "code": "071000",
+          "raw_label": "71 KUKI",
+          "values_H_to_P": [
+            8,
+            3,
+            5,
+            0,
+            0,
+            0,
+            8,
+            3,
+            5
+          ]
+        },
+        {
+          "row": 3163,
+          "code": "071008",
+          "raw_label": " Kuki",
+          "values_H_to_P": [
+            8,
+            3,
+            5,
+            0,
+            0,
+            0,
+            8,
+            3,
+            5
+          ]
+        },
+        {
+          "row": 3164,
+          "code": "072000",
+          "raw_label": "72 KURUKH/ORAON ",
+          "values_H_to_P": [
+            116651,
+            57556,
+            59095,
+            104247,
+            51476,
+            52771,
+            12404,
+            6080,
+            6324
+          ]
+        },
+        {
+          "row": 3165,
+          "code": "072024",
+          "raw_label": " Kurukh/Oraon",
+          "values_H_to_P": [
+            116499,
+            57484,
+            59015,
+            104095,
+            51404,
+            52691,
+            12404,
+            6080,
+            6324
+          ]
+        },
+        {
+          "row": 3166,
+          "code": "072999",
+          "raw_label": "72 Others ",
+          "values_H_to_P": [
+            152,
+            72,
+            80,
+            152,
+            72,
+            80,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 3167,
+          "code": "073000",
+          "raw_label": "73 LADAKHI ",
+          "values_H_to_P": [
+            4,
+            3,
+            1,
+            0,
+            0,
+            0,
+            4,
+            3,
+            1
+          ]
+        },
+        {
+          "row": 3168,
+          "code": "073003",
+          "raw_label": " Ladakhi",
+          "values_H_to_P": [
+            4,
+            3,
+            1,
+            0,
+            0,
+            0,
+            4,
+            3,
+            1
+          ]
+        },
+        {
+          "row": 3169,
+          "code": "076000",
+          "raw_label": "76 LAKHER",
+          "values_H_to_P": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "row": 3170,
+          "code": "076002",
+          "raw_label": " Mara",
+          "values_H_to_P": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "row": 3171,
+          "code": "081000",
+          "raw_label": "81 LOTHA ",
+          "values_H_to_P": [
+            3,
+            0,
+            3,
+            0,
+            0,
+            0,
+            3,
+            0,
+            3
+          ]
+        },
+        {
+          "row": 3172,
+          "code": "081001",
+          "raw_label": " Lotha",
+          "values_H_to_P": [
+            3,
+            0,
+            3,
+            0,
+            0,
+            0,
+            3,
+            0,
+            3
+          ]
+        },
+        {
+          "row": 3173,
+          "code": "091000",
+          "raw_label": "91 MUNDA",
+          "values_H_to_P": [
+            184514,
+            91832,
+            92682,
+            162034,
+            80531,
+            81503,
+            22480,
+            11301,
+            11179
+          ]
+        },
+        {
+          "row": 3174,
+          "code": "091006",
+          "raw_label": " Kol",
+          "values_H_to_P": [
+            31,
+            17,
+            14,
+            0,
+            0,
+            0,
+            31,
+            17,
+            14
+          ]
+        },
+        {
+          "row": 3175,
+          "code": "091009",
+          "raw_label": " Munda",
+          "values_H_to_P": [
+            182513,
+            90844,
+            91669,
+            160168,
+            79608,
+            80560,
+            22345,
+            11236,
+            11109
+          ]
+        },
+        {
+          "row": 3176,
+          "code": "091999",
+          "raw_label": "91 Others ",
+          "values_H_to_P": [
+            1970,
+            971,
+            999,
+            1866,
+            923,
+            943,
+            104,
+            48,
+            56
+          ]
+        },
+        {
+          "row": 3177,
+          "code": "092000",
+          "raw_label": "92 MUNDARI ",
+          "values_H_to_P": [
+            16777,
+            8326,
+            8451,
+            14268,
+            7052,
+            7216,
+            2509,
+            1274,
+            1235
+          ]
+        },
+        {
+          "row": 3178,
+          "code": "092005",
+          "raw_label": " Mundari",
+          "values_H_to_P": [
+            16777,
+            8326,
+            8451,
+            14268,
+            7052,
+            7216,
+            2509,
+            1274,
+            1235
+          ]
+        },
+        {
+          "row": 3179,
+          "code": "096000",
+          "raw_label": "96 PAITE",
+          "values_H_to_P": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "row": 3180,
+          "code": "096002",
+          "raw_label": " Paite",
+          "values_H_to_P": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "row": 3181,
+          "code": "102000",
+          "raw_label": "102 RABHA ",
+          "values_H_to_P": [
+            5,
+            4,
+            1,
+            5,
+            4,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 3182,
+          "code": "102002",
+          "raw_label": " Rabha",
+          "values_H_to_P": [
+            5,
+            4,
+            1,
+            5,
+            4,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 3183,
+          "code": "103000",
+          "raw_label": "103 RAI ",
+          "values_H_to_P": [
+            1805,
+            871,
+            934,
+            1709,
+            821,
+            888,
+            96,
+            50,
+            46
+          ]
+        },
+        {
+          "row": 3184,
+          "code": "103003",
+          "raw_label": " Rai",
+          "values_H_to_P": [
+            1805,
+            871,
+            934,
+            1709,
+            821,
+            888,
+            96,
+            50,
+            46
+          ]
+        },
+        {
+          "row": 3185,
+          "code": "106000",
+          "raw_label": "106 SAVARA",
+          "values_H_to_P": [
+            12,
+            5,
+            7,
+            12,
+            5,
+            7,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 3186,
+          "code": "106004",
+          "raw_label": " Savara",
+          "values_H_to_P": [
+            12,
+            5,
+            7,
+            12,
+            5,
+            7,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 3187,
+          "code": "111000",
+          "raw_label": "111 TAMANG ",
+          "values_H_to_P": [
+            12,
+            7,
+            5,
+            12,
+            7,
+            5,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 3188,
+          "code": "111001",
+          "raw_label": " Tamang",
+          "values_H_to_P": [
+            12,
+            7,
+            5,
+            12,
+            7,
+            5,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 3189,
+          "code": "116000",
+          "raw_label": "116 TRIPURI ",
+          "values_H_to_P": [
+            4,
+            4,
+            0,
+            1,
+            1,
+            0,
+            3,
+            3,
+            0
+          ]
+        },
+        {
+          "row": 3190,
+          "code": "116014",
+          "raw_label": " Tripuri",
+          "values_H_to_P": [
+            4,
+            4,
+            0,
+            1,
+            1,
+            0,
+            3,
+            3,
+            0
+          ]
+        },
+        {
+          "row": 3191,
+          "code": "117000",
+          "raw_label": "117 TULU ",
+          "values_H_to_P": [
+            12,
+            8,
+            4,
+            6,
+            4,
+            2,
+            6,
+            4,
+            2
+          ]
+        },
+        {
+          "row": 3192,
+          "code": "117009",
+          "raw_label": " Tulu",
+          "values_H_to_P": [
+            4,
+            3,
+            1,
+            0,
+            0,
+            0,
+            4,
+            3,
+            1
+          ]
+        },
+        {
+          "row": 3193,
+          "code": "117999",
+          "raw_label": "117 Others ",
+          "values_H_to_P": [
+            8,
+            5,
+            3,
+            6,
+            4,
+            2,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "row": 3194,
+          "code": "124000",
+          "raw_label": "124 OTHERS",
+          "values_H_to_P": [
+            17448,
+            8793,
+            8655,
+            14040,
+            7057,
+            6983,
+            3408,
+            1736,
+            1672
+          ]
+        }
+      ],
+      "kb_search": {
+        "queries": [
+          "query_research.py Sundargarh",
+          "query_research.py Sundergarh",
+          "rg Sundargarh|Sundergarh across voices/stories/culture/communities"
+        ],
+        "result": "Dated map returns district-banking and forest-study pointers. Direct current search locates Naga Panchami cultural material and atlas data. Forest-livelihood history separately records Bindhapahad–Suruguda; these adjacent authored records are retained, not classified as this route or evidence of language identity. No standalone district-language narrative found in searched voices/stories files.",
+        "adjacent_material": [
+          {
+            "path": "kb/research/culture/osha/naga-panchami.md",
+            "locator": "line38",
+            "scope": "Attributed Astika–Jaratkaru sculpture description at Deogaon near Banei, Sundargarh; iconographic date is not age of a festival or language."
+          },
+          {
+            "path": "kb/research/history/forest-livelihoods.md",
+            "locator": "lines17,42,46",
+            "scope": "2001 study case geography for Bindhapahad–Suruguda; preserve the publisher summary/body discrepancy and historical local scope."
+          }
+        ],
+        "limits": "These external cultural/forest sources were not freshly retrieved; only existing KB passages inspected. Search is not proof all unpublished research was exhausted."
+      },
+      "interpretation": {
+        "group_example": "Sheet1 row3087 ODIA=962146; row3090 individual Odia=917947; row3092 Sambalpuri=42720. Parent and subordinate levels are not additive.",
+        "other_examples": "KISAN group row3152=95759; MUNDA group row3173=184514; Ho individual row3141=4155. Their source classification does not establish ethnicity, caste, fluency or preferred identity.",
+        "population_scope": "2093437 whole district, including1355340 rural and738097 urban residents in2011; no town-specific extrapolation."
+      },
+      "next_actions": [
+        "Coordinator may record this individually justified utility exclusion after separate review; preserve route, source labels, numbers, links and denominator explanations.",
+        "Do not transfer separate cultural/community narratives into a demographic profile without a separately scoped sourced editorial question.",
+        "For a future authored district-language history, obtain named and dated local evidence; Census alone cannot explain language transmission, contemporary practice or community naming."
+      ],
+      "limits": [
+        "No current demographic, migration, ethnicity, ancestry or legal classification claims.",
+        "No statewide C17 data apportioned to district; no inference about everyone able to speak a language.",
+        "No browser/live deployment test in this source-readiness scope.",
+        "No human or specialist review, no sibling-route blanket conclusion, no programme completion credit."
+      ],
+      "file_hashes": {
+        "kb/research/references/census-2011/c16-odisha.xlsx": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db",
+        "kb/research/voices/population-2011.json": "c149d36bfa5c6c01595ddb517dfca21c5d8d5fe6d2283fa19dc020432b7fe998",
+        "projects/site/src/pages/languages/districts/[slug].astro": "4710838468016e58cf8b3d2a1537c1185b3cb39049b5ce90dbae6c1391568e76",
+        "projects/site/src/lib/language-atlas.mjs": "c52a825ccfec3aa241173e7d50355a42074bdfb8a45ee4ac225a2fec3e99a87c",
+        "kb/research/voices/district-connections.json": "149161595dab537134f247fd7c5fdb34aa128b2bb008ae5a35fc0bb04f97f303",
+        "kb/research/related-discoveries.json": "a5e4eff87f1a410f860950103d9cbbd527a03b084f7b6513ac95fe4f6100ee6c",
+        "kb/research/culture/osha/naga-panchami.md": "0e101108b0831c6e73f65f0c052a3e899a5516ca3f1cf2df6e4f8c7b81c36bf9",
+        "kb/research/history/forest-livelihoods.md": "2d921b6d2e180d17a5cf8ef3b5253ce529b8eaf504f33d99f1eae0e2e60c892e"
+      }
+    },
+    "samanta.json": {
+      "input_head": "4b0c7449e83eb5e0011f0912ec519e51ef5bd734",
+      "requested_origin_main": "ba72f4736d1b9eb22716d9edbc9c8ad2ca3b7ca7",
+      "checked_at": "2026-10-25T19:40:33.591134+00:00",
+      "item": "POD-EDIT-085",
+      "route": "/languages/districts/sundargarh/",
+      "recommendation": "Individually exclude as Census district data/navigation utility from authored-article rollout; retain route and eligibility unchanged. Separate review required before records-only classification.",
+      "actual_findings": {
+        "district_code": "374",
+        "population_2011": 2093437,
+        "rural": 1355340,
+        "urban": 738097,
+        "render_opening": [
+          "← All 30 districts",
+          "A district in voices · Census 2011",
+          "Sundargarh",
+          "More than a single voice.",
+          "The largest recorded language group was ODIA, with 9,62,146 people (45.96%). Open the individual entries below: broad groups can contain distinct names and stories.",
+          "District population · 2011",
+          "20,93,437",
+          "Rural population",
+          "64.74%",
+          "13,55,340 people",
+          "Urban population",
+          "35.26%",
+          "7,38,097 people"
+        ],
+        "configured_destination_connections": [],
+        "configured_related_reading": [],
+        "saved_journey_entries": [],
+        "coastal_route_included": true,
+        "search_decision": {
+          "route": "/languages/districts/sundargarh/",
+          "decision": "hold",
+          "reason": "Historical language context and source-led introductions; community naming and visual review remain open."
+        },
+        "render_robots": [
+          "<meta name=\"robots\" content=\"noindex, nofollow\">"
+        ],
+        "narrative": "Generated count/share opening and historical caveats, district and residence tables, selected language-profile links and generic conversation prompt. No bespoke sustained Sundargarh narrative, credited local work or image. Empty connection/related-reading records specifically checked for374 and this route."
+      },
+      "caveats": [
+        "Historical2011 district counts are not Rourkela/city language counts or present-day estimates.",
+        "Parent language groups contain child mother-tongue returns; do not add both.",
+        "Rural and urban shares use their own denominators.",
+        "Census categories do not establish identity, fluency, ancestry or a person’s language.",
+        "C17 statewide multilingualism is not apportioned to district."
+      ],
+      "narrow_implementation": [
+        "No site/component/journey/byline edits needed for utility classification. Root may update only085 rollout and justified evidence/worklist after review.",
+        "Future authored Sundargarh narrative requires new locally grounded source evidence and separate portable article content, not invented elaboration of table categories.",
+        "Any shared template modification affects30 districts; existing tests-coast/district-languages.test.mjs is the relevant regression gate. No build necessary for readiness."
+      ],
+      "checks": {
+        "parsed_district_and_connections": "Pass;374 individually checked",
+        "population_arithmetic": "1355340+738097=2093437",
+        "actual_local_html": "Extracted article to rendered-article.txt; no live-site claim",
+        "saved_id": "No exact route in actual embedded catalog",
+        "file_hashes": {
+          "AGENTS.md": "201a1681b987fac0947dc7dd846d29058d753f7f3e7b497026ec197f35c19a58",
+          "kb/reference/article-editorial-standard.md": "f57a132777734615fa83badba44430683c254c9930f136e6dcd3d01302665df1",
+          "kb/team/operations.json": "edd1b8a150b3f818b95734bfe5277f5055374a8a1c58b75b7ae19f1b7018ee94",
+          "projects/site/src/pages/languages/districts/[slug].astro": "4710838468016e58cf8b3d2a1537c1185b3cb39049b5ce90dbae6c1391568e76",
+          "projects/site/src/components/DistrictLanguageTable.astro": "36971c1f294c05a73ab2885629be49bea81ff14782d5a7c1846433ac734d06ed",
+          "projects/site/src/lib/language-atlas.mjs": "c52a825ccfec3aa241173e7d50355a42074bdfb8a45ee4ac225a2fec3e99a87c",
+          "projects/site/src/data/journey-catalog.ts": "681ded61bb26bbd0c6379b1d7819fdd49a077799ab153172c15c6d118d7a35d9",
+          "projects/site/tests-coast/district-languages.test.mjs": "d08f9361f582b4b9d079f82ea34eba984eba00774d1dbb963234d3557be522c9",
+          "projects/site/editions/coast.json": "b1d0b8bbb0f13643abce36d4aa059aa1506347ea1fe57b1cb4d61cb6b136796f",
+          "projects/site/editions/search-candidate.json": "a00db7399a03e0b023c75768d2207f3daafc5def9e03ffdcbe469d1085e073ed",
+          "kb/research/voices/population-2011.json": "c149d36bfa5c6c01595ddb517dfca21c5d8d5fe6d2283fa19dc020432b7fe998",
+          "kb/research/voices/district-connections.json": "149161595dab537134f247fd7c5fdb34aa128b2bb008ae5a35fc0bb04f97f303",
+          "kb/research/related-discoveries.json": "a5e4eff87f1a410f860950103d9cbbd527a03b084f7b6513ac95fe4f6100ee6c",
+          "projects/site/dist-coast/languages/districts/sundargarh/index.html": "e4c654f4996abe93d454f74dfedfb40b7f9b9c34f954dea0197b595e679aa8e8"
+        }
+      },
+      "limits": [
+        "Local HEAD differs requested remote; both recorded. No fetch/checkout or Git mutation.",
+        "Existing generated HTML hash retained; generation time not proven current; actual template/config/data separately inspected.",
+        "No fresh original-workbook source audit, responsive/browser review, build or deployment.",
+        "No canonical changes or substantive programme credit."
+      ]
+    },
+    "drishti.json": {
+      "review_type": "Separate AI individual readiness review; not human review",
+      "reviewer": "Drishti",
+      "input_head": "4b0c7449e83eb5e0011f0912ec519e51ef5bd734",
+      "item": "POD-EDIT-085",
+      "route": "/languages/districts/sundargarh/",
+      "status": "pass_with_limitations",
+      "recommendation": "Individually classify085 as Census district table/navigation utility for justified rollout exclusion; retain route/data.",
+      "blockers": [],
+      "actual_checks": [
+        "Read actual district template and saved local Sundargarh rendered article; generic historical framing, tables and profile navigation are the substantive route content.",
+        "Independently reopened original C16 workbook and compared all173 rows/1557 numeric cells plus district/language codes with report and current atlas374.",
+        "Independently verified no configured district374 destination connections or route-specific related-reading links.",
+        "Read adjacent Banei sculpture and Bindhapahad–Suruguda forest-history passages; their authored historical contexts are separate from this language table."
+      ],
+      "findings": [
+        "District2093437 includes rural1355340 and urban738097 in2011, not Rourkela population or present-day estimates.",
+        "ODIAgroup962146 includes individualOdia917947 and Sambalpuri42720; source levels cannot be added or converted into identity/fluency/caste claims.",
+        "This specific route lacks sustained district-specific authored narrative; utility recommendation is not inferred from sibling decisions.",
+        "Preserve Banei Astika–Jaratkaru material with attributed iconographic dating limits and separate forest-livelihoods/Suruguda historical evidence with source discrepancy safeguards. Do not delete, reclassify or transfer that material automatically.",
+        "Preserve public route/data/links/search hold and source caveats. No byline assignment or narrative rewrite required for records-only classification."
+      ],
+      "input_hashes": {
+        "anvesha.json": "cf3d94b4ea6fc16f33b64e2b258311802312b2c9b25c4986e09a52847b6256ad",
+        "samanta.json": "a442235e52b690b61f3f992cda8a0e03b9ccd5d1649f615b8164c4594c23314b",
+        "rendered-article.txt": "188e20ca5a82220d8602ea1000800380d9ec45717c5198d2d3ce734b11d3c2bc"
+      },
+      "source_sha256": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db",
+      "next_action": "Coordinator may prepare evidence-backed exclusion of085 only and obtain exact-head records review; preserve every other inventory entry and public product. A future authored district-language article requires independently scoped local evidence.",
+      "limits": [
+        "No fresh external retrieval, live/browser/responsive/build/deployment test; saved local rendering may predate HEAD.",
+        "Readiness only, not record integration or release approval. No human/community confirmation, contemporary-demography or district-level C17 inference.",
+        "Adjacent original external sources not newly verified; existing KB attribution/uncertainty retained."
+      ],
+      "programme_credit": 0,
+      "article_completion_credit": 0,
+      "canonical_edits": false
+    }
+  },
+  "report_hashes": {
+    "anvesha.json": "cf3d94b4ea6fc16f33b64e2b258311802312b2c9b25c4986e09a52847b6256ad",
+    "samanta.json": "a442235e52b690b61f3f992cda8a0e03b9ccd5d1649f615b8164c4594c23314b",
+    "drishti.json": "be04e0d1c94afc8e1193e0167a4aa79a1b943cb5a9345b98cb4405ff5caa3894"
+  }
+}
