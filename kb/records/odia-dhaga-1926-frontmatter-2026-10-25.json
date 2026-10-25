@@ -1,0 +1,203 @@
+{
+  "status": "integration_review",
+  "owner": "Disha",
+  "input_head": "35fb3bf5eafd60be7f3b73c071a308a76a6ce117",
+  "scope": "Frozen reviewed1926PDF1–6 frontmatter inventory; seven1926 ledger fields only",
+  "reserved_files": [
+    "projects/odia-dhaga/coverage-ledger.json",
+    "projects/odia-dhaga/evidence/dhaga1926-frontmatter-pages1-6-research.json",
+    "projects/odia-dhaga/evidence/dhaga1926-frontmatter-pages1-6-implementation.json",
+    "projects/odia-dhaga/evidence/dhaga1926-frontmatter-pages1-6-review.json"
+  ],
+  "workers": {
+    "Anvesha": "Frozen integrity",
+    "Samanta": "Scoped packaging and tests",
+    "Drishti": "Separate exact-head review"
+  },
+  "scope_release": "Upon separately reviewed merge after passing required checks. No website deployment: repository-only evidence.",
+  "counts": {
+    "entries": 108,
+    "illustrations": 108,
+    "book_pages": 59,
+    "draft_segments": 83,
+    "1893_full_cursor": 2
+  },
+  "accepted_increment": 0,
+  "programme_credit": 0,
+  "limits": [
+    "Title followed by prefatory prose; proverb-body boundary not established.",
+    "Apparent repeated material on PDF3/5 needs sequence check; no missing-page conclusion.",
+    "Creator roles and faded imprint remain uncertified; rights unresolved."
+  ],
+  "next_bounded_pages": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "ownership_reconciliation": "Jharsuguda548/Dhaga547 merged and receipts released. Sambalpur083 readiness has no release claim. Unrelated534/304/281 preserved.",
+  "source_check": {
+    "input_head": "35fb3bf5eafd60be7f3b73c071a308a76a6ce117",
+    "role": "Anvesha; frozen evidence integrity check, not renewed visual review or human review",
+    "handoff_sha256": "37cb07e2ebed173a9a47e523f0fcf299382f0819ac64d3f5a319234536211898",
+    "checks": [
+      {
+        "file": "anvesha.json",
+        "expected": "148475b4052dcf84d73656024c0576908236556242b85c088de2701db2edb768",
+        "actual": "148475b4052dcf84d73656024c0576908236556242b85c088de2701db2edb768",
+        "pass": true
+      },
+      {
+        "file": "samanta.json",
+        "expected": "84bda178c5f8ce825cb81b0995c739951e1f4e988c42d65cc21639aeb4f77268",
+        "actual": "84bda178c5f8ce825cb81b0995c739951e1f4e988c42d65cc21639aeb4f77268",
+        "pass": true
+      },
+      {
+        "file": "drishti.json",
+        "expected": "abea62e689fe9cfd6481eb3d5aa0e4fb1e185831af0d5d2a7df3778a845a926c",
+        "actual": "abea62e689fe9cfd6481eb3d5aa0e4fb1e185831af0d5d2a7df3778a845a926c",
+        "pass": true
+      },
+      {
+        "file": "coverage-ledger.proposed.json",
+        "expected": "d2c2467b4c86ed2e8b3bdfd86faae09aa0e58e63f2915157a986d2b1c26c8ac6",
+        "actual": "d2c2467b4c86ed2e8b3bdfd86faae09aa0e58e63f2915157a986d2b1c26c8ac6",
+        "pass": true
+      },
+      {
+        "file": "outputs/dhaga-1926-frontmatter-2026-10-25/page-001.png",
+        "expected": "83fbe6e63c0a9412cdbd51b430aae1a6fc66f6b943f6ff7becb96c5729623925",
+        "actual": "83fbe6e63c0a9412cdbd51b430aae1a6fc66f6b943f6ff7becb96c5729623925",
+        "pass": true
+      },
+      {
+        "file": "outputs/dhaga-1926-frontmatter-2026-10-25/page-002.png",
+        "expected": "383d4c4cbb14bf47088b446ddbdfcee8c27d4ba26398383a2edb85597ea89801",
+        "actual": "383d4c4cbb14bf47088b446ddbdfcee8c27d4ba26398383a2edb85597ea89801",
+        "pass": true
+      },
+      {
+        "file": "outputs/dhaga-1926-frontmatter-2026-10-25/page-003.png",
+        "expected": "c9602f16e2cbc0064963c37e99149c9f0e823f3293b7fdca3b23432b9bdf0bbb",
+        "actual": "c9602f16e2cbc0064963c37e99149c9f0e823f3293b7fdca3b23432b9bdf0bbb",
+        "pass": true
+      },
+      {
+        "file": "outputs/dhaga-1926-frontmatter-2026-10-25/page-004.png",
+        "expected": "59c9189c005fbc5750b5417e29a62ac8e99401a1224d8926dfca7b47fbedc267",
+        "actual": "59c9189c005fbc5750b5417e29a62ac8e99401a1224d8926dfca7b47fbedc267",
+        "pass": true
+      },
+      {
+        "file": "outputs/dhaga-1926-frontmatter-2026-10-25/page-005.png",
+        "expected": "fc1fe51d83896b00427d370134a3d64ad14b2478f157770f2635fca271d05ad2",
+        "actual": "fc1fe51d83896b00427d370134a3d64ad14b2478f157770f2635fca271d05ad2",
+        "pass": true
+      },
+      {
+        "file": "outputs/dhaga-1926-frontmatter-2026-10-25/page-006.png",
+        "expected": "1986dff04c3cc502419035be424f8ae4c3724a2d008ec19a4ee24193ea2cb820",
+        "actual": "1986dff04c3cc502419035be424f8ae4c3724a2d008ec19a4ee24193ea2cb820",
+        "pass": true
+      },
+      {
+        "file": "/tmp/pod-dhaga-1926.pdf",
+        "expected": "fe6b974c2b2b6de7a11ff34a2c79bb2bfc4986d8ecf6d9da08eca9d02f1e8863",
+        "actual": "fe6b974c2b2b6de7a11ff34a2c79bb2bfc4986d8ecf6d9da08eca9d02f1e8863",
+        "pass": true
+      }
+    ],
+    "result": "pass",
+    "claims_verified_against_frozen_report": {
+      "actual_inspected_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "frontmatter_only": true,
+      "no_body_boundary_established": true,
+      "duplicate_pages_3_5_candidate_only": true,
+      "creator_roles_and_imprint_uncertified": true,
+      "rights_unresolved": true,
+      "next_targeted_page": 7,
+      "next_bounded_pages": [
+        7,
+        12
+      ],
+      "accepted_increment": 0,
+      "programme_credit": 0,
+      "preserve": {
+        "entries": 108,
+        "illustrations": 108,
+        "book_pages": 59,
+        "draft_segments": 83,
+        "1893_full_cursor": 2
+      }
+    },
+    "limits": [
+      "No repeat visual reading, source retrieval, copyright determination or new transcription.",
+      "Checks bind frozen reports, proposal, source and all six renders; they do not independently validate every prospective canonical edit.",
+      "No canonical files or reader assets edited."
+    ]
+  },
+  "implementation": {
+    "status": "pass_with_limits",
+    "input_head": "35fb3bf5eafd60be7f3b73c071a308a76a6ce117",
+    "checked_at": "2026-10-25T13:27:28.944699+00:00",
+    "changed_fields": [
+      "inspection",
+      "next_action",
+      "title_pdf_pages_inspected",
+      "frontmatter_pdf_pages_targeted_inspection",
+      "next_page_to_attempt",
+      "frontmatter_pages1_6_inspection_report",
+      "frontmatter_pages1_6_ai_review"
+    ],
+    "copied_reports": {
+      "anvesha.json": "evidence/dhaga1926-frontmatter-pages1-6-research.json",
+      "samanta.json": "evidence/dhaga1926-frontmatter-pages1-6-implementation.json",
+      "drishti.json": "evidence/dhaga1926-frontmatter-pages1-6-review.json"
+    },
+    "hashes": {
+      "coverage-ledger.json": "d2c2467b4c86ed2e8b3bdfd86faae09aa0e58e63f2915157a986d2b1c26c8ac6",
+      "evidence/dhaga1926-frontmatter-pages1-6-implementation.json": "84bda178c5f8ce825cb81b0995c739951e1f4e988c42d65cc21639aeb4f77268",
+      "evidence/dhaga1926-frontmatter-pages1-6-research.json": "148475b4052dcf84d73656024c0576908236556242b85c088de2701db2edb768",
+      "evidence/dhaga1926-frontmatter-pages1-6-review.json": "abea62e689fe9cfd6481eb3d5aa0e4fb1e185831af0d5d2a7df3778a845a926c"
+    },
+    "checks": {
+      "frozen_report_hashes": "pass",
+      "canonical_base_equals_reviewed_base": "pass",
+      "exactly_seven_1926_fields": "pass",
+      "entire1893_other_sources_and_top_level_unchanged": "pass",
+      "nonallowlisted_product_files_unchanged": 507,
+      "canonical_evidence_references_resolve": "pass"
+    },
+    "preserved_counts": {
+      "entries": 108,
+      "illustrations": 108,
+      "book_pages": 59,
+      "draft_segments": 83,
+      "1893_full_cursor": 2
+    },
+    "accepted_increment": 0,
+    "programme_credit": 0,
+    "limits": [
+      "Repository evidence integration only; no publication/acceptance/human review claim.",
+      "Existing prefatory sequence uncertainty and creator/rights uncertainty preserved.",
+      "No reader/PDF/art/build or Git changes."
+    ],
+    "tests": {
+      "command": "python3 -m unittest test_repository.py test_source_inventory.py test_transcription.py",
+      "cwd": "projects/odia-dhaga",
+      "exit_code": 0,
+      "log": "/tmp/dhaga1926-frontmatter-integration-tests.log",
+      "result": "17 repository/inventory tests pass; transcription valid fixtures pass and negative fixtures rejected."
+    }
+  }
+}

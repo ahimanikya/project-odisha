@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "researcher": "Anvesha (AI research; not human review)",
+  "input_head": "35fb3bf5eafd60be7f3b73c071a308a76a6ce117",
+  "scope": "Actual visual inspection of PDF1–6 only; frontmatter/section inventory, no proverb transcription or acceptance.",
+  "source": {
+    "id": "dhaga-praharaj-pitambari1926",
+    "url": "https://archive.org/details/dhagadhamali-bachana-v01-1926",
+    "path": "/tmp/pod-dhaga-1926.pdf",
+    "sha256": "fe6b974c2b2b6de7a11ff34a2c79bb2bfc4986d8ecf6d9da08eca9d02f1e8863",
+    "total_pdf_pages": 259,
+    "page_count_basis": "Existing source inventory; no saying count inferred."
+  },
+  "reuse": [
+    "projects/odia-dhaga/coverage-ledger.json",
+    "projects/odia-dhaga/discovery-inventory.json",
+    "outputs/dhaga-historical-page19-2026-10-25/HANDOFF.json",
+    "kb/research/methods/research-map.md"
+  ],
+  "pages": [
+    {
+      "pdf_page": 1,
+      "kind": "title-page",
+      "observation": "Ornamental title page. Visible title refers to Odia laukika pada / Dhagadh amali bachana; first-volume/part line and name credits below. Gopal Chandra Praharaj and Pitambari Debi are the existing catalogue credits and are consistent with the visible faded name lines.",
+      "uncertainties": "Exact diplomatic spelling, full qualifiers, creator roles, edition statement, publisher name and imprint date are not certified from these faded clusters. No exclusive authorship assigned.",
+      "render_path": "outputs/dhaga-1926-frontmatter-2026-10-25/page-001.png",
+      "render_sha256": "83fbe6e63c0a9412cdbd51b430aae1a6fc66f6b943f6ff7becb96c5729623925",
+      "fully_transcribed": false,
+      "accepted_candidates": []
+    },
+    {
+      "pdf_page": 2,
+      "kind": "preface",
+      "observation": "Heading ଅବତାରଣା followed by continuous prose, including a short English quotation and the word Idiom. Bottom text continues.",
+      "uncertainties": "No collection method or origin claim inferred from partial reading.",
+      "render_path": "outputs/dhaga-1926-frontmatter-2026-10-25/page-002.png",
+      "render_sha256": "383d4c4cbb14bf47088b446ddbdfcee8c27d4ba26398383a2edb85597ea89801",
+      "fully_transcribed": false,
+      "accepted_candidates": []
+    },
+    {
+      "pdf_page": 3,
+      "kind": "preface",
+      "observation": "Continuous prose without a new section heading or numbered proverb sequence.",
+      "uncertainties": "Printed page numeral and exact sentences not transcribed. Visually repeated material on PDF5 requires scan-order check.",
+      "render_path": "outputs/dhaga-1926-frontmatter-2026-10-25/page-003.png",
+      "render_sha256": "c9602f16e2cbc0064963c37e99149c9f0e823f3293b7fdca3b23432b9bdf0bbb",
+      "fully_transcribed": false,
+      "accepted_candidates": []
+    },
+    {
+      "pdf_page": 4,
+      "kind": "preface",
+      "observation": "Continuous prefatory prose, with the English phrase Popular Literature visible.",
+      "uncertainties": "No section boundary established; no substantive interpretation inferred from isolated English words.",
+      "render_path": "outputs/dhaga-1926-frontmatter-2026-10-25/page-004.png",
+      "render_sha256": "59c9189c005fbc5750b5417e29a62ac8e99401a1224d8926dfca7b47fbedc267",
+      "fully_transcribed": false,
+      "accepted_candidates": []
+    },
+    {
+      "pdf_page": 5,
+      "kind": "preface-possible-repeated-page",
+      "observation": "Layout and text visually repeat PDF3; both show the same paragraph arrangement.",
+      "uncertainties": "Render hashes differ, so this is a visual duplicate-page candidate, not byte identity or proof that a page is missing. Verify page order against printed numerals and adjacent pages before extraction.",
+      "render_path": "outputs/dhaga-1926-frontmatter-2026-10-25/page-005.png",
+      "render_sha256": "fc1fe51d83896b00427d370134a3d64ad14b2478f157770f2635fca271d05ad2",
+      "fully_transcribed": false,
+      "accepted_candidates": []
+    },
+    {
+      "pdf_page": 6,
+      "kind": "preface",
+      "observation": "Continuous prose containing Ruling and Essence; final sentence continues at bottom.",
+      "uncertainties": "No proverb-list opening or preface end visible. Next PDF page is uninspected, not presumed first body page.",
+      "render_path": "outputs/dhaga-1926-frontmatter-2026-10-25/page-006.png",
+      "render_sha256": "1986dff04c3cc502419035be424f8ae4c3724a2d008ec19a4ee24193ea2cb820",
+      "fully_transcribed": false,
+      "accepted_candidates": []
+    }
+  ],
+  "findings": [
+    "All six pages inspected visually; first is title page, next five are prefatory prose.",
+    "PDF3/PDF5 appear to repeat a prefatory page; scan order needs checking before assigning a continuous printed-page sequence.",
+    "Both catalogue creator credits are retained; readable names alone do not resolve author/editor/collector roles.",
+    "1926 scan remains separate from the 1990 reprint identifiers with 184/186 images.",
+    "Prior samples PDF130/255/259 showed reset numbering: no terminal number or total images may be treated as unique saying count."
+  ],
+  "rights_limits": [
+    "Public access is not a reuse licence or public-domain finding.",
+    "No copyright conclusion from publication year or Praharaj death alone; Pitambari Debi role and relevant rights evidence remain unresolved.",
+    "Renders are internal research captures, not public facsimile publication."
+  ],
+  "checks": [
+    "Source and six render SHA256 hashes computed.",
+    "Actual six full-page renders visually inspected.",
+    "PDF3 and PDF5 render hashes differ; duplication remains visual candidate.",
+    "No canonical files, reader content, illustrations or ledger edited."
+  ],
+  "preserved": {
+    "accepted_entries": 108,
+    "illustrations": 108,
+    "book_pages": 59,
+    "draft_segments": 83,
+    "full_transcription_cursor": 2,
+    "accepted_increment": 0,
+    "human_review_increment": 0
+  },
+  "next_action": {
+    "next_targeted_pdf_page": 7,
+    "proposed_bounded_range": [
+      7,
+      12
+    ],
+    "purpose": "Locate end of preface or first section; check printed sequence against suspected PDF3/5 repetition and seek explicit creator-role wording. Do not assume list starts at7."
+  },
+  "limits": [
+    "No full-page diplomatic transcription, translated interpretation, collection-method assertion or complete-source inventory claimed.",
+    "Title/imprint faded clusters intentionally unresolved.",
+    "No new independent discovery or source download performed."
+  ]
+}

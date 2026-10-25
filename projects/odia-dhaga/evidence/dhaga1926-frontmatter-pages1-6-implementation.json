@@ -1,0 +1,118 @@
+{
+  "status": "pass_with_limits_output_only",
+  "input_head": "35fb3bf5eafd60be7f3b73c071a308a76a6ce117",
+  "checked_at": "2026-10-25T12:34:27.027794+00:00",
+  "scope": "Output-only independent AI visual reading and minimal1926 source-row ledger proposal. No canonical files changed.",
+  "source": {
+    "path": "/tmp/pod-dhaga-1926.pdf",
+    "sha256": "fe6b974c2b2b6de7a11ff34a2c79bb2bfc4986d8ecf6d9da08eca9d02f1e8863",
+    "url": "https://archive.org/details/dhagadhamali-bachana-v01-1926"
+  },
+  "actual_visual_reading": [
+    {
+      "pdf_page": 1,
+      "observation": "Decorative title page with multiple name and publication lines. Faded glyphs prevent this second reading from certifying precise roles, date or edition transcription."
+    },
+    {
+      "pdf_page": 2,
+      "observation": "Introduction heading and discursive prose; printed English phrases That is art which conceals art and Idiom visible. No numbered saying extraction undertaken."
+    },
+    {
+      "pdf_page": 3,
+      "observation": "Introductory prose, two main paragraph blocks. Reopened actual render after Anvesha noted repetition; its paragraph layout and text visibly recur on PDF5. Printed numeral not certified."
+    },
+    {
+      "pdf_page": 4,
+      "observation": "Discursive prose continues, with Popular Literature visible in parentheses; no list boundary identified."
+    },
+    {
+      "pdf_page": 5,
+      "observation": "Introductory prose visually repeats PDF3; hashes differ, so record repeated-material candidate rather than byte identity or a proven missing page. No new collection heading."
+    },
+    {
+      "pdf_page": 6,
+      "observation": "Introductory prose continues, with Ruling and Essence visible in parentheses; bottom text continues without a completion statement."
+    }
+  ],
+  "renders": [
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-1926-frontmatter-2026-10-25/page-001.png",
+      "sha256": "83fbe6e63c0a9412cdbd51b430aae1a6fc66f6b943f6ff7becb96c5729623925"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-1926-frontmatter-2026-10-25/page-002.png",
+      "sha256": "383d4c4cbb14bf47088b446ddbdfcee8c27d4ba26398383a2edb85597ea89801"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-1926-frontmatter-2026-10-25/page-003.png",
+      "sha256": "c9602f16e2cbc0064963c37e99149c9f0e823f3293b7fdca3b23432b9bdf0bbb"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-1926-frontmatter-2026-10-25/page-004.png",
+      "sha256": "59c9189c005fbc5750b5417e29a62ac8e99401a1224d8926dfca7b47fbedc267"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-1926-frontmatter-2026-10-25/page-005.png",
+      "sha256": "fc1fe51d83896b00427d370134a3d64ad14b2478f157770f2635fca271d05ad2"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-1926-frontmatter-2026-10-25/page-006.png",
+      "sha256": "1986dff04c3cc502419035be424f8ae4c3724a2d008ec19a4ee24193ea2cb820"
+    }
+  ],
+  "proposal": {
+    "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-1926-frontmatter-2026-10-25/coverage-ledger.proposed.json",
+    "baseline_sha256": "9a7049ee192d414adab80b619bc0ae291cfd38e675e503aa7a5a87e7107c0931",
+    "sha256": "d2c2467b4c86ed2e8b3bdfd86faae09aa0e58e63f2915157a986d2b1c26c8ac6",
+    "changed_fields": [
+      "title_pdf_pages_inspected",
+      "frontmatter_pdf_pages_targeted_inspection",
+      "inspection",
+      "next_page_to_attempt",
+      "next_action",
+      "frontmatter_pages1_6_inspection_report",
+      "frontmatter_pages1_6_ai_review"
+    ],
+    "next_uninspected_pdf_page": 7,
+    "future_evidence_paths_not_yet_integrated": [
+      "evidence/dhaga1926-frontmatter-pages1-6-research.json",
+      "evidence/dhaga1926-frontmatter-pages1-6-review.json"
+    ],
+    "next_bounded_inspection": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "checks": {
+    "json_parse": "pass",
+    "idempotent_apply": "pass",
+    "only1926_row_changed": "pass",
+    "entire1893_row_preserved": "pass",
+    "top_level_preserved": "pass",
+    "rights_and_complete_transcription_and_human_review_fields_preserved": "pass",
+    "entries": 108,
+    "illustrations": 108,
+    "draft_segments": 83,
+    "full_transcription_cursor": 2,
+    "accepted_increment": 0,
+    "programme_credit": 0,
+    "final_research_sha256_binding": "pass",
+    "repeated_material_caution_in_proposal": "pass"
+  },
+  "limits": [
+    "Separate AI visual reading, not human proofreading or certified transcription.",
+    "No creator role or copyright determination; no historical saying accepted.",
+    "PDF7 is next uninspected page, not a claim of where the proverb collection begins.",
+    "No reader, PDF, image, canonical ledger or Git changes; no rebuild required.",
+    "No exhaustive correspondence search against all127 source positions is claimed.",
+    "Apparent PDF3/5 repetition requires scan-order checking; six PDF positions do not establish six unique text pages."
+  ],
+  "research_binding": {
+    "path": "outputs/dhaga-1926-frontmatter-2026-10-25/anvesha.json",
+    "sha256": "148475b4052dcf84d73656024c0576908236556242b85c088de2701db2edb768"
+  }
+}
