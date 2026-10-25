@@ -1,0 +1,238 @@
+{
+  "status": "reviewed_classification_integration",
+  "item": "POD-EDIT-082",
+  "route": "/languages/districts/jharsuguda/",
+  "input_head": "b50de2a8c06b2c5972416d0976eaad77b450cab7",
+  "decision": "Exclude this individually inspected Census data utility from sustained-article rollout; preserve public route and data.",
+  "programme_credit": 0,
+  "article_completion_credit": 0,
+  "scope_release": "On separately reviewed merge after passing required checks; no website deployment because product unchanged.",
+  "reports": {
+    "anvesha.json": {
+      "input_head": "b50de2a8c06b2c5972416d0976eaad77b450cab7",
+      "item": "POD-EDIT-082",
+      "route": "/languages/districts/jharsuguda/",
+      "recommendation": "individual_utility_exclusion_from_sustained_article_rollout",
+      "status": "ready_for_separate_classification_review",
+      "classification_basis": [
+        "Inspected actual dynamic route and Jharsuguda371 data, not inferred classification solely from another district.",
+        "Page provides group/individual-return tables, residence breakdowns, denominator warnings, language-story navigation and generic conversation guidance. No district-specific sustained language narrative is authored here.",
+        "No Jharsuguda destination connection in district-connections.json. Existing KB query found banking, forest and seed-training leads, not an original district-language history.",
+        "Preserve public route and tables; exclusion does not mean deleting useful evidence or marking a rewritten article complete."
+      ],
+      "source": {
+        "id": "c16-odisha-2011",
+        "title": "C-16: Population by mother tongue, Odisha — 2011",
+        "url": "https://censusindia.gov.in/nada/index.php/catalog/10217",
+        "download": "https://censusindia.gov.in/nada/index.php/catalog/10217/download/13329/DDW-C16-STMT-MDDS-2100.XLSX",
+        "file": "references/census-2011/c16-odisha.xlsx",
+        "sha256": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db",
+        "sheet": "Sheet1",
+        "actual_file_sha256": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db",
+        "inspection": "Original saved Sheet1 XML cell values re-read for four Jharsuguda rows; all nine numeric columns H:P match atlas.",
+        "row_checks": [
+          {
+            "source_row": 1017,
+            "district_code": "371",
+            "district_label": "Jharsuguda",
+            "code": "006000",
+            "label": "6 HINDI ",
+            "values": [
+              82516,
+              43524,
+              38992,
+              10817,
+              5247,
+              5570,
+              71699,
+              38277,
+              33422
+            ],
+            "matches_atlas": true
+          },
+          {
+            "source_row": 1060,
+            "district_code": "371",
+            "district_label": "Jharsuguda",
+            "code": "015000",
+            "label": "15 ODIA ",
+            "values": [
+              405880,
+              207380,
+              198500,
+              279742,
+              142032,
+              137710,
+              126138,
+              65348,
+              60790
+            ],
+            "matches_atlas": true
+          },
+          {
+            "source_row": 1062,
+            "district_code": "371",
+            "district_label": "Jharsuguda",
+            "code": "015043",
+            "label": " Odia",
+            "values": [
+              158909,
+              82130,
+              76779,
+              71186,
+              36296,
+              34890,
+              87723,
+              45834,
+              41889
+            ],
+            "matches_atlas": true
+          },
+          {
+            "source_row": 1063,
+            "district_code": "371",
+            "district_label": "Jharsuguda",
+            "code": "015058",
+            "label": " Sambalpuri",
+            "values": [
+              244919,
+              124204,
+              120715,
+              207315,
+              105095,
+              102220,
+              37604,
+              19109,
+              18495
+            ],
+            "matches_atlas": true
+          }
+        ]
+      },
+      "existing_data_scope": {
+        "area_code": "371",
+        "population_vector": [
+          579505,
+          296690,
+          282815,
+          348340,
+          176162,
+          172178,
+          231165,
+          120528,
+          110637
+        ],
+        "note": "Existing Census2011values inspected for provenance; no new demographic claim or calculated percentage proposed.",
+        "related_reading_links": []
+      },
+      "reader_gain_assessment": [
+        "A source-supported explanation could contrast ODIA group1060 with Odia1062/Sambalpuri1063 returns or different rural/urban denominators. Current table headings and caveats already provide that utility.",
+        "Higher/lower counts cannot explain migration, industrial employment language, fluency or community identity; such local history would require separate evidence.",
+        "Do not turn the HINDI group count into a count of Hindi-only speakers or workers."
+      ],
+      "next_actions": [
+        "Disha may record a route-specific justified utility exclusion after separate review, without new byline or article prose.",
+        "Retain source links, original code371 and dated residence scope.",
+        "Inspect any next district individually; no blanket classification or programme credit from this report."
+      ],
+      "reuse_checks": [
+        "Read AGENTS/research map and current queued082 rollout item.",
+        "Ran query_research.py Jharsuguda and read existing district-banking note to distinguish unrelated evidence.",
+        "Read actual route/template and district connection data; inspected original workbook rows."
+      ],
+      "limits": [
+        "No new web search necessary; retained original primary workbook sufficient for this classification task.",
+        "No new demographic/current language/identity or rights claim.",
+        "No responsive/browser audit or comprehensive source-row test rerun.",
+        "No canonical edits, implementation, publication or programme credit."
+      ]
+    },
+    "samanta.json": {
+      "role": "Samanta",
+      "input_head": "b50de2a8c06b2c5972416d0976eaad77b450cab7",
+      "checked_at": "2026-10-25T12:16:40.605473+00:00",
+      "item": "POD-EDIT-082",
+      "route": "/languages/districts/jharsuguda/",
+      "recommendation": "individually classify as Census district utility; records-only exclusion from sustained-article rollout",
+      "reason": [
+        "Read actual route template and Jharsuguda371 data, not inferred from another district. It generates whole/rural/urban totals and nested entries with denominator guidance.",
+        "Jharsuguda has no district-connections narrative and no related-discoveries editorial reading rows. Its actual built headings are four generic utility sections, not a separately authored history.",
+        "Six tables supply lookup/comparison functionality; introduction derives largest group from data. Article wrapper and evocative tagline do not establish sustained narrative.",
+        "No standalone Jharsuguda voice narrative found by focused search ofvoices KB outside numericalatlas. This is limited inspection, not exhaustive projectresearch."
+      ],
+      "inspected_files": [
+        "projects/site/src/pages/languages/districts/[slug].astro",
+        "projects/site/src/components/DistrictLanguageTable.astro",
+        "projects/site/src/lib/language-atlas.mjs",
+        "kb/research/voices/population-2011.json",
+        "kb/research/voices/district-connections.json",
+        "kb/research/related-discoveries.json",
+        "kb/records/article-editorial-rollout.json",
+        "projects/site/tests/language-atlas.test.mjs",
+        "projects/site/tests-coast/district-languages.test.mjs",
+        "projects/site/dist-coast/languages/districts/jharsuguda/index.html"
+      ],
+      "actual_checks": {
+        "district_code": "371",
+        "population": 579505,
+        "rural_population": 348340,
+        "urban_population": 231165,
+        "rural_share": "60.11%",
+        "urban_share": "39.89%",
+        "tables": 6,
+        "source_code_and_nonadditive_warning_visible_in_html": true,
+        "district_connections": 0,
+        "related_reading_rows": 0,
+        "exact_route_portable_entry": false,
+        "current_rollout_status": "queued",
+        "built_html_sha256": "55adc1b23fce756d1bc8465708f1b2bf6498f2cb74b9e8ce96fecf3371eed0f6"
+      },
+      "narrow_next_action": "After separate source/classification review, coordinator may record only082utility exclusion and evidence, regenerate worklist and validate register counts. Preserve publicroute/data; no articlebyline or fullportable story invented. Zero substantivecompletioncredit.",
+      "implementation_impact": "No product implementation needed for classification. Future utility changes to sharedtemplate/table/math/styles affect30routes and require allaffected checks; a future Jharsuguda-specific narrative needs separately sourced localworks/voices and explicit scope.",
+      "validation": [
+        "Read-only parsed area/connection/related rows and actualHTML structure.",
+        "Existing language-atlas tests cover nonoverlapping groups, children, male/female counts and all residence denominators.",
+        "Existing district-languages tests cover sourcecodes, caveats, indexlinks and historical residenceviews.",
+        "No tests/builds executed in this readinesspass."
+      ],
+      "limits": [
+        "Original workbook cells not independently reread bySamanta thispass; data/render checks only.",
+        "No browserresponsive or accessibility certification.",
+        "No blanket classification ofotherdistricts or inference of presentfluency/ancestry/identity from2011returns.",
+        "No code/canonical/sharedrecord/Git changes or releaseclaim."
+      ]
+    },
+    "drishti.json": {
+      "review_type": "separate independent AI individual readiness/classification review",
+      "status": "pass_individual_utility_exclusion_recommendation",
+      "input_head": "b50de2a8c06b2c5972416d0976eaad77b450cab7",
+      "item": "POD-EDIT-082",
+      "route": "/languages/districts/jharsuguda/",
+      "input_hashes": {
+        "anvesha.json": "a34c65c8a9c5c58cdd15a4a1cb4d70d9c95d5467b8b9caa9ac8fba0ceced247b",
+        "samanta.json": "d1e6932f1da10795b2266a3190cbc08108b43cbbe319fe2ee3d06e8e7dc20772"
+      },
+      "findings": [],
+      "decision": "Individually classify Jharsuguda082 as Census lookup/comparison utility excluded from sustained-article rollout; retain public route/data and sources. No article completion.",
+      "actual_checks": [
+        "Read actual template flow and built Jharsuguda HTML: six tables, generated summary and four generic utility sections; no authored local language-history section.",
+        "Parsed actual district371 population579505/rural348340/urban231165, zero destination connections and zero related-discovery rows.",
+        "Reopened original workbook XML rows1017/1060/1062/1063; all nine H:P values per row match research report and actual atlas, distinguishing HINDI/ODIA groups from Odia/Sambalpuri component returns.",
+        "Read actual queued POD-EDIT-082 rollout record and both readiness reports. No other district decision inferred."
+      ],
+      "scope_limits": [
+        "Mother-tongue returns do not establish present fluency, workforce language, ancestry or community identity. HINDI group is not Hindi-only speakers.",
+        "Do not sum parent groups with components; rural/urban percentages have separate denominators.",
+        "Four workbook rows sampled, not complete workbook audit; no new public numbers or source-derived article draft.",
+        "No responsive/accessibility certification or tests/builds performed for this classification.",
+        "No canonical edits, implementation/publication or programme credit."
+      ],
+      "next_step": "Coordinator may record only082justified utility exclusion, preserve route/data, regenerate worklist and validate counts. Any later local narrative requires named works/voices and distinct evidence; assess next district separately."
+    }
+  },
+  "frozen_report_hashes": {
+    "anvesha.json": "a34c65c8a9c5c58cdd15a4a1cb4d70d9c95d5467b8b9caa9ac8fba0ceced247b",
+    "samanta.json": "d1e6932f1da10795b2266a3190cbc08108b43cbbe319fe2ee3d06e8e7dc20772",
+    "drishti.json": "7b365e5f0b1f778d7747f51e93a4d91ce3b87197dd5717aa6955b98c0383f733"
+  }
+}
