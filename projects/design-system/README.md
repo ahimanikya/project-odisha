@@ -77,3 +77,7 @@ Check keyboard focus in a real browser: when a contents menu closes, native frag
 ## Lessons from the cultural reading-flow review
 
 A subject name and an editorial subtitle need different visual weight. Maker stories use a compact subject heading, an earth-coloured story subtitle and reading-size introductory text. Keep the full editorial title in metadata and discovery; never shorten it by silently discarding the story. Preserve the entire photographed artwork or textile, and provide its category breadcrumb, including stories whose canonical URL sits outside that category. Food, language and literary pages keep their existing subject-specific layouts. This is a bounded UTP review lesson; wider adoption and human review remain separate.
+
+## Optional botanical tailpieces
+
+Three reviewed decorative assets are available through [the ornament manifest](ornaments/manifest.json), with exact prompts, provenance and CC BY-SA4.0 credits. Follow the opt-in [PDF and web placement policy](ornaments/policy.json). Package exports are `@utkal/design-system/ornaments`, `@utkal/design-system/ornaments/policy` and `@utkal/design-system/ornaments/assets/*`. These assets add no styles or automatic placement; each consuming page or book verifies its own layout.

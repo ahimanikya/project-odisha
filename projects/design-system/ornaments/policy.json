@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "adoption": "Optional; consuming projects opt in and verify their own layout.",
+  "pdf": {
+    "units": "pt",
+    "reading_pages_only": true,
+    "max_per_page": 1,
+    "minimum_gap": 180,
+    "requires_both_columns": true,
+    "placement": "Centered below the deeper of the two reading columns.",
+    "minimum_text_separation": 24,
+    "minimum_bottom_reserve": 24,
+    "maximum_width": 160,
+    "maximum_height": 110,
+    "preserve_aspect_ratio": true,
+    "crop": false,
+    "reflow_text": false,
+    "shrink_fonts": false,
+    "tight_page_action": "Omit ornament; retain content and pagination.",
+    "validation": "Record actual bounds; check text clearance, footer reserve and overlap after pagination.",
+    "profile": "dhaga-two-column-book-v1",
+    "minimum_rendered_height": 45,
+    "other_formats": "Adapt explicit profile to trim size or single-column frame; these values are not universal."
+  },
+  "web": {
+    "optional": true,
+    "placement": "At the end of a section in natural document flow.",
+    "decorative": true,
+    "semantic_content": false,
+    "accessible_text": "Empty alternative text; do not use the motif as a heading, link label or information-bearing illustration.",
+    "preserve_aspect_ratio": true,
+    "crop": false,
+    "layout": "Reserve intrinsic dimensions and constrain to available width. No absolute positioning over content.",
+    "validation": "Review responsive spacing and reading order in the consuming page."
+  },
+  "rights": {
+    "license": "CC-BY-SA-4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "credit": "Project Odisha",
+    "instructions": "Retain attribution and license; indicate modifications and share adaptations under the same license. Keep detailed generation provenance internal."
+  }
+}

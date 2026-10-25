@@ -114,3 +114,7 @@ A documentary photograph and an explanatory drawing can answer different questio
 A documentary photograph can be small and still carry the story. Jobra’s 469-pixel workshop portrait now has an intrinsic-width ceiling in the shared chapter layout, retaining the full frame instead of stretching it across a wide reading column. Keep the image’s date near the picture and fuller rights information at the end. A photograph of a museum model must identify the display; it is not evidence of workers performing the pictured task.
 
 The three-story review uses the same progression: an inviting opening, an image or detail to inspect, a readable explanation, then practical choices and onward connections. Raghurajpur starts with the brush, Tarakasi explains frame and infill, and Jobra follows a workshop and boat display. Browser review at 390 and 1440 pixels preserves each story’s different visual needs. Field access, firsthand accounts and specialist review remain separate from visual checks.
+
+## Decorative reading pauses
+
+The Founder adopted [decorative line-art fillers](decorative-fillers.md) for pages and book-style PDFs on 25 October 2026. This is a separate decorative role: a quiet tailpiece may balance generous space after the content is laid out. It does not replace meaningful media or serve as historical evidence. Keep text size, reading order and useful whitespace intact.
