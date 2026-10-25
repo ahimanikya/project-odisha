@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 624. completed: 101, excluded: 213, queued: 310.
+Route inventory: 624. completed: 101, excluded: 214, queued: 309.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -96,7 +96,7 @@ Route inventory: 624. completed: 101, excluded: 213, queued: 310.
 | POD-EDIT-080 | [Desia](https://projectodisha.org/languages/desia/) | completed | Explain documented learning-material preparation, planned trials and revision with precise source boundaries |
 | POD-EDIT-081 | [Bargarh · languages and population](https://projectodisha.org/languages/districts/bargarh/) | excluded | classification_pending |
 | POD-EDIT-082 | [Jharsuguda · languages and population](https://projectodisha.org/languages/districts/jharsuguda/) | excluded | classification_pending |
-| POD-EDIT-083 | [Sambalpur · languages and population](https://projectodisha.org/languages/districts/sambalpur/) | queued | classification_pending |
+| POD-EDIT-083 | [Sambalpur · languages and population](https://projectodisha.org/languages/districts/sambalpur/) | excluded | classification_pending |
 | POD-EDIT-084 | [Debagarh · languages and population](https://projectodisha.org/languages/districts/debagarh/) | queued | classification_pending |
 | POD-EDIT-085 | [Sundargarh · languages and population](https://projectodisha.org/languages/districts/sundargarh/) | queued | classification_pending |
 | POD-EDIT-086 | [Kendujhar · languages and population](https://projectodisha.org/languages/districts/kendujhar/) | queued | classification_pending |
