@@ -1,0 +1,90 @@
+{
+  "review_type": "separate AI source and meaning review; not human proofreading",
+  "reviewer": "Drishti",
+  "checked_at": "2026-10-25T15:09:01.526528+00:00",
+  "input_head": "875c7d4ecef4072e473c6f08cd2477a0a5846ba3",
+  "status": "pass_with_limitations",
+  "scope": "Comprehensive bounded review of the 86 pending source positions and two completed candidate entries; no canonical edits or acceptance increments.",
+  "input_hashes": {
+    "anvesha.json": "27822943597b268f7660e93aec885c9336435df53ffd64a4f0e39620982a0016",
+    "samanta.json": "7853cb5fbecd95f4cb4379614def3648b5c68c5ded0571539763c47544542cf0",
+    "candidates-complete.json": "2075a9cc5db3dc3887c46aef22d086cd7f685f2a6977eddbb019d6e61040b438",
+    "compound-batch.json": "17a3beb5a64de82fe18d55ec3e4a1e7b6f670b587900203800ca3c9b5a566cd5",
+    "wiktionary-batch.json": "d5fe71413b9273849c3bdb05e4ff97bb76071f1d08b67c671e282699c3639916",
+    "phrase-search.json": "4ca6e8ce8d5a54e23b2f49327dcc643b89a4fc57d64865182d0613b5febece32",
+    "samanta-captures/reused-and-fresh-revisions.json": "fe62f285c8e5b9aeb5670e5c369b6302279ce7bdc1b14f9dd84e5a41f150ecc0"
+  },
+  "baseline_hashes": {
+    "collection.json": "528ec2ca4f053e8f764b24645d9c73a080d0ac0b42711a84f825b4f63d99a403",
+    "source127.json": "cda50900080f764277a5011675b26a837c2ff17f9473826adc60ad8e3443796c"
+  },
+  "coverage": {
+    "records": 86,
+    "unique_positions": 86,
+    "exact_pending_set": true,
+    "dispositions": {
+      "pending_independent_reusable_witness": 38,
+      "licensed_candidate_ready_for_separate_review": 1,
+      "institutional_attestation_verified_reuse_review_pending": 4,
+      "unresolved_full_independent_witness": 42,
+      "contextual_idiom_candidate_requires_separate_review": 1
+    },
+    "interpretation": "Every pending position received a recorded disposition. This is not proof of exhaustive source searching, absence of witnesses, or 86 resolved items. Missing titles, partial lexical matches and failed retrievals remain unresolved.",
+    "duplicate_position35_not_promoted": true
+  },
+  "candidate_decisions": [
+    {
+      "position": 6,
+      "decision": "ready_for_bounded_entry_integration_and_artwork",
+      "genre": "Proverb",
+      "source_revision": 206494,
+      "checks": [
+        "Saved original compound-batch API content explicitly labels the complete two-clause quotation as a proverb.",
+        "Quotation excludes the trailing genre label without altering its wording.",
+        "Discovery position 6 is shorter and uses an orthographic variant; map as expanded/orthographic variant, not exact wording.",
+        "Original draft fields are unchanged in the completed candidate; both summaries added.",
+        "Literal translation and bilingual interpretation distinguish the image from an asserted origin or rule about friendship."
+      ],
+      "limits": [
+        "No earliest date, speaker, oral independence or regional distribution verified."
+      ]
+    },
+    {
+      "position": 121,
+      "decision": "ready_for_bounded_entry_integration_and_artwork_after_completed_draft_review",
+      "genre": "Idiom, documented through a contextual dictionary example",
+      "source_revision": 218838,
+      "checks": [
+        "Saved original revision contains the inflected sentence and its explicit equation with blows and abuse.",
+        "Completed candidate labels its infinitive as editorial, retains the exact inflected witness, and marks the source127 relationship contextual rather than exact.",
+        "Bilingual explanation and summaries preserve harsh treatment rather than softening it to praise or mere reprimand.",
+        "Original illustrative situation is labelled as such and does not endorse violence."
+      ],
+      "limits": [
+        "Not a standalone proverb attestation; preserve genre and lemma distinction in rendering.",
+        "Initial research report alone was incomplete for reader acceptance; candidates-complete.json supplies the missing bilingual fields and summaries."
+      ]
+    }
+  ],
+  "findings": [],
+  "required_integration_safeguards": [
+    "Assign new IDs only during authorized integration; preserve all 108 existing entries.",
+    "Retain contributor attribution, permanent revision URLs, CC BY-SA adaptation notice and source-specific limits; do not assert public-domain status.",
+    "Preserve contextual versus expanded-variant source127 mappings, not exact-witness flags.",
+    "Keep unresolved 84 positions pending, including the four institutional SCERT attestations pending reuse review.",
+    "Review any new illustrations as modern interpretations; position121 should not illustrate or endorse physical punishment.",
+    "Complete schema, generated-page, source-credit, duplicate and artwork checks before acceptance."
+  ],
+  "actual_checks": [
+    "Read both reports, completed candidate and saved original source passages.",
+    "Independently opened the Blogspot discovery page and compared positions6/121.",
+    "Attempted both exact oldid rendered URLs; retrieval failed, so source verification relies on saved original API revisions.",
+    "Programmatically verified 86 unique positions equal the current pending set.",
+    "Checked completed candidate preserves position6 original fields and both displayed headwords are absent from 108 existing headwords; prior variant review found no exact candidate duplicates.",
+    "Recalculated all listed hashes; no canonical mutations or reader builds performed."
+  ],
+  "rights_limits": "CC BY-SA4.0 attribution follows established Wiktionary site licence evidence and recorded revision provenance, not a fresh rendered-page licence verification. No claim that the two dictionary attestations are independent oral collections.",
+  "accepted_increment": 0,
+  "programme_credit": 0,
+  "next_action": "Implement the two reviewed candidates with explicit mapping distinctions and separately review their illustrations and integrated output. Do not repeat failed exact-title probes as new progress."
+}
