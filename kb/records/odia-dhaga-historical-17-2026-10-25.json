@@ -1,0 +1,140 @@
+{
+  "status": "integration_review",
+  "input_head": "ac23c676e4cd90eab3c86098a3dd73459699b881",
+  "scope": "Frozen reviewed historical PDF17 evidence and five ledger fields only",
+  "owner": "Disha",
+  "reserved_files": [
+    "projects/odia-dhaga/coverage-ledger.json",
+    "projects/odia-dhaga/evidence/dhaga1893-page17-research.json",
+    "projects/odia-dhaga/evidence/dhaga1893-page17-implementation.json",
+    "projects/odia-dhaga/evidence/dhaga1893-page17-review.json"
+  ],
+  "workers": {
+    "Anvesha": "Frozen source integrity",
+    "Samanta": "Scoped packaging and validation",
+    "Drishti": "Separate exact-head integration review"
+  },
+  "counts": {
+    "entries": 108,
+    "illustrations": 108,
+    "draft_segments": 83,
+    "accepted_increment": 0,
+    "programme_credit": 0,
+    "next_targeted_page": 18,
+    "full_transcription_cursor": 2
+  },
+  "print_preservation": "108illustrations59pagebook unchanged",
+  "scope_release": "Upon reviewed merge after passing required checks; no website deployment needed for repository-only evidence.",
+  "ownership_reconciliation": "Sambalpuri538 merged and release condition satisfied; only unrelated534/304/281open.",
+  "source_check": {
+    "input_head": "ac23c676e4cd90eab3c86098a3dd73459699b881",
+    "requested_base": "ac23c676e4cd90eab3c86098a3dd73459699b881",
+    "status": "pass_frozen_evidence_integrity",
+    "handoff_sha256": "f31c9118ce1f2b1e43892a92580229ed2a6408d58f85ffa6cfd15adf01ca4d06",
+    "hash_checks": [
+      {
+        "path": "anvesha.json",
+        "expected": "f10205960a3cfffc7490789534c815b241564123c9243d089f06c4a8e5290e2e",
+        "actual": "f10205960a3cfffc7490789534c815b241564123c9243d089f06c4a8e5290e2e",
+        "pass": true
+      },
+      {
+        "path": "samanta.json",
+        "expected": "894080acfbe1fb5f65bf463e9f98616f68b814f4d2bb175a01d066f14fb1e788",
+        "actual": "894080acfbe1fb5f65bf463e9f98616f68b814f4d2bb175a01d066f14fb1e788",
+        "pass": true
+      },
+      {
+        "path": "drishti.json",
+        "expected": "0c9333b11c97b930e2516aaae8a7a26e120d11d9ef1d776b7908ac0c6bbb5d02",
+        "actual": "0c9333b11c97b930e2516aaae8a7a26e120d11d9ef1d776b7908ac0c6bbb5d02",
+        "pass": true
+      },
+      {
+        "path": "coverage-ledger.proposed.json",
+        "expected": "1f044f94e9fe55cf66988d8bf818472ca4e7a6cc4fd46e2f52da36a2c0da60df",
+        "actual": "1f044f94e9fe55cf66988d8bf818472ca4e7a6cc4fd46e2f52da36a2c0da60df",
+        "pass": true
+      },
+      {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-historical-page17-2026-10-25/page17.png",
+        "expected": "f570f8a87aac605a38e24b7144ba0758025cafe1fdf3b2ca906cd40a0c94f3ef",
+        "actual": "f570f8a87aac605a38e24b7144ba0758025cafe1fdf3b2ca906cd40a0c94f3ef",
+        "pass": true
+      },
+      {
+        "path": "/tmp/pod-dhaga-1893.pdf",
+        "expected": "c0c818ed2dce7c9872e3141166e0e4676a6bd2c0fd2338c2f6f3b4ce56227dac",
+        "actual": "c0c818ed2dce7c9872e3141166e0e4676a6bd2c0fd2338c2f6f3b4ce56227dac",
+        "pass": true
+      }
+    ],
+    "verified_facts": {
+      "line_observations": 17,
+      "unaccepted_candidates": 2,
+      "page_complete": false,
+      "accepted_increment": 0,
+      "full_cursor": 2,
+      "next_targeted": 18,
+      "entries": 108,
+      "illustrations": 108,
+      "proposed_draft_segments": 83
+    },
+    "rights_preserved": "Publicly accessible1893scan; underlying old text is a strong public-domain candidate, but author/jurisdiction and scan reuse rights remain unresolved. Watermark retained; internal research render only, not public facsimile licence.",
+    "limits": [
+      "No repeat visual research or lexical correction.",
+      "Partial inventory and two provisional candidates remain unaccepted; no human proofreading claimed.",
+      "Source rights uncertainty remains explicit; internal render does not confer public facsimile reuse rights.",
+      "No book, article or canonical files modified; only this integration check written."
+    ]
+  },
+  "implementation": {
+    "input_head": "ac23c676e4cd90eab3c86098a3dd73459699b881",
+    "checked_at": "2026-10-25T07:35:02.016180+00:00",
+    "status": "pass",
+    "changed_files": {
+      "projects/odia-dhaga/coverage-ledger.json": "1f044f94e9fe55cf66988d8bf818472ca4e7a6cc4fd46e2f52da36a2c0da60df",
+      "projects/odia-dhaga/evidence/dhaga1893-page17-research.json": "f10205960a3cfffc7490789534c815b241564123c9243d089f06c4a8e5290e2e",
+      "projects/odia-dhaga/evidence/dhaga1893-page17-implementation.json": "894080acfbe1fb5f65bf463e9f98616f68b814f4d2bb175a01d066f14fb1e788",
+      "projects/odia-dhaga/evidence/dhaga1893-page17-review.json": "0c9333b11c97b930e2516aaae8a7a26e120d11d9ef1d776b7908ac0c6bbb5d02"
+    },
+    "changed_ledger_fields": [
+      "text_pdf_pages_targeted_inspection",
+      "next_page_to_attempt",
+      "next_action",
+      "targeted_page17_inspection_report",
+      "targeted_page17_ai_review"
+    ],
+    "preserved": {
+      "unrelated_files_hash_verified": 498,
+      "entries": 108,
+      "illustrations": 108,
+      "pdf_pages": 59,
+      "draft_segments": 83,
+      "full_cursor": 2,
+      "accepted_increment": 0,
+      "programme_credit": 0
+    },
+    "checks": [
+      "Frozen HANDOFF four hashes matched.",
+      "Canonical ledger baseline equals reviewed proposal base.",
+      "Exactly five historical fields change; other sources/top-level unchanged.",
+      "New research/review ledger references resolve; implementation copied byte-exact.",
+      "All non-allowlisted book files hash-identical."
+    ],
+    "limits": [
+      "Separate AI-reviewed research only; no human proofreading or normalized witness acceptance.",
+      "No reader/PDF/art rebuilding, Git or shared-record edits."
+    ],
+    "tests": [
+      {
+        "command": "python3 -m unittest test_repository.py test_source_inventory.py test_transcription.py",
+        "cwd": "projects/odia-dhaga",
+        "result": "17 tests pass; transcription exact-review/segmentation fixtures pass,32 cumulative malformed cases rejected",
+        "log": "/tmp/dhaga17-integration-tests-final.log"
+      }
+    ],
+    "initial_attempt": "Test command first invoked from workspace rather than projects/odia-dhaga: import errors only; rerun from correct directory passed.",
+    "generation_consistency": "Repository/inventory tests passed existing generated content; no regenerate required for ledger-only evidence change. All498 non-allowlisted file hashes preserved."
+  }
+}
