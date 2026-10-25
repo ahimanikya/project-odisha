@@ -1,0 +1,100 @@
+{
+  "role": "Samanta independent AI visual second-reader",
+  "input_head": "0616d490883e07f6a192defada27a2198a335400",
+  "parent_reported_remote_head": "a0c232260b9d90a3c6d23fbeb008a55e1a2b8186",
+  "checked_at": "2026-10-25T08:44:59.471307+00:00",
+  "status": "independent targeted reading and idempotent output-only proposal complete; separate review pending",
+  "source": {
+    "pdf": "/tmp/pod-dhaga-1893.pdf",
+    "sha256": "c0c818ed2dce7c9872e3141166e0e4676a6bd2c0fd2338c2f6f3b4ce56227dac",
+    "url": "https://archive.org/details/dhagamalika-1893",
+    "pdf_page": 18,
+    "printed_page": 17,
+    "render": "page18.png",
+    "render_sha256": "b5ed49af498d5c3354b0d2eab0849bfd139e07f3ae6a4a49bf27494451de1893"
+  },
+  "actual_reading": {
+    "method": "Viewed complete actual render, not OCR-only.",
+    "body_lines": 6,
+    "wraps": [
+      [
+        1,
+        2
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "heading_excluded": "Centered heading after bodyline4; printed numeral and lower ornament excluded.",
+    "same_line_multiple_items": [
+      6
+    ],
+    "findings": [
+      "Line1–2 contrasts spoken eating/giving terms; middle cluster after ନା uncertain, no accepted reconstruction.",
+      "Line4 contains eating/sleeping/rising vocabulary but uncertain clusters prevent reliable full reading; no health advice inferred.",
+      "Line5 continues onto6, then another short item begins after the first danda.",
+      "Sparse layout and end ornament do not establish full-book completion."
+    ],
+    "accepted": false,
+    "normalized_reading": null,
+    "count_effect": 0
+  },
+  "comparison": {
+    "collection_sha256": "528ec2ca4f053e8f764b24645d9c73a080d0ac0b42711a84f825b4f63d99a403",
+    "source127_sha256": "cda50900080f764277a5011675b26a837c2ff17f9473826adc60ad8e3443796c",
+    "reader_entries": 108,
+    "source_positions": 127,
+    "textbearing_source_positions": 25,
+    "finding": "Selected visible phrases do not establish an exact existing headword match; eating/speech motifs alone not sufficient.",
+    "limits": "Only25concordance rows have candidate/user wording; no exhaustive negative127crosswalk assertion."
+  },
+  "preserved": {
+    "draft_segments": 83,
+    "reader_entries": 108,
+    "illustrations": 108,
+    "pdf_pages": 59,
+    "source_positions": 127,
+    "full_transcription_cursor": 2,
+    "new_accepted_entries": 0,
+    "human_proofreading": 0,
+    "programme_credit": 0
+  },
+  "ledger_proposal": {
+    "file": "coverage-ledger.proposed.json",
+    "sha256": "b80483b63c2afb11bd77c76e0b17163861ad51d48c0056ec83114a689c8af137",
+    "base_sha256": "1f044f94e9fe55cf66988d8bf818472ca4e7a6cc4fd46e2f52da36a2c0da60df",
+    "changed_fields": [
+      "text_pdf_pages_targeted_inspection",
+      "next_page_to_attempt",
+      "next_action",
+      "targeted_page18_inspection_report",
+      "targeted_page18_ai_review"
+    ],
+    "evidence_paths_proposed": [
+      "evidence/dhaga1893-page18-research.json",
+      "evidence/dhaga1893-page18-review.json"
+    ],
+    "checks": {
+      "idempotent": true,
+      "only_five_historical_fields_changed": true,
+      "all_other_sources_top_level_rights_and_counters_preserved": true
+    },
+    "status": "Proposed pointers only; future integration requires separately reviewed frozen JSON reports."
+  },
+  "tests": [
+    "Union applied twice equals once.",
+    "Exactly5historical fields change; otherfields/sources/top-level identical.",
+    "Actual collection108entries/108graphics; concordance127positions.",
+    "Six ordered line records/null normalization and2unaccepted/nullmeaning candidates validated; no accepted increment."
+  ],
+  "limits": [
+    "AI second reading not humanproofreading or complete diplomatic transcription.",
+    "No canonical/book/art/PDF/Git changes or release claim."
+  ],
+  "research_binding": {
+    "file": "anvesha.json",
+    "sha256": "b5e5e71227d0d75472c51eaee92e2fc1b8fc976c140ee470dc30bde9e27ad29d",
+    "findings": "Six physical lines/wraps/line6 boundary agree. Word after ନା remains bracketed per second-reading caution; unresolved role/title in5–6 withheld. No further correction requested."
+  }
+}
