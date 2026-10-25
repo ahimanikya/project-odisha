@@ -1,0 +1,257 @@
+{
+  "status": "published_receipt",
+  "item": "POD-EDIT-080",
+  "route": "/languages/desia/",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/540",
+  "reviewed_head": "efd82ec02c332e6adc2264ac5dd06dabdce1f092",
+  "merge_commit": "81354813c6cb06a2f7237f67a56e109edadb1058",
+  "required_ci": {
+    "run": 40176232160,
+    "result": "success"
+  },
+  "deployment": {
+    "workflow": "publish-site.yml",
+    "publish_approved": true,
+    "run": 40176649075,
+    "head": "81354813c6cb06a2f7237f67a56e109edadb1058",
+    "conclusion": "success"
+  },
+  "live_checks": {
+    "checked_at": "2026-10-25T08:33:38.711262+00:00",
+    "url": "https://projectodisha.org/languages/desia/",
+    "all6paragraphs": true,
+    "author": true,
+    "numbered_sources": true,
+    "source_links": true,
+    "population2011": true,
+    "same_savedID": true,
+    "search_hold_preserved": true,
+    "robots": "noindex, follow",
+    "html_sha256": "75965710c66b5df39bcd09bcee96c009162850617a5a2d73adcfbff07d1b3d71"
+  },
+  "review": {
+    "review_type": "separate AI preliminary content review",
+    "status": "pass_with_limitations",
+    "input_head": "5fba443a509474f78f04684e15765166520ad5af",
+    "working_file_hashes": {
+      "kb/research/voices/collection.json": "7c860069d965157b3865991a22766c67efeadcc0e334766db9763928393ceabe",
+      "kb/research/voices/desia-editorial.json": "7bb1be58ad4cd2c76c46292c25d9fa93ff7c3bfa18ef82d439bffdb2e0fb91a2",
+      "kb/records/desia-editorial-source-review-2026-10-25.json": "ac67722b538d1136c7aac454cab345f0816fd3331c9c52e3e651acf6a6f37f6e",
+      "projects/site/src/components/CultureMagazine.astro": "61d8beac9ed9911817381f28160839d74563af6e7db9309ef93f82235686dcb1",
+      "projects/site/src/components/LanguagePopulation.astro": "562aa63dcb5ada46b182502c36cfb73867e4bc463aefe4e9cf746e794c563acd",
+      "projects/site/src/data/journey-catalog.ts": "681ded61bb26bbd0c6379b1d7819fdd49a077799ab153172c15c6d118d7a35d9",
+      "projects/site/tests-coast/desia-editorial.test.mjs": "01ec3382d76c6bb633dfb4e7c5bad5ebd9615f373d6a79fd295c8ff754bc3be3"
+    },
+    "blockers": [],
+    "actual_checks": [
+      "Read all six current paragraphs, lead/headings/identity text, four notes and passage mapping against original PIB/catalogue independently opened during readiness.",
+      "Two primary alphabet books explicitly across Kui and Desia; no completed trial/adoption asserted. Preparing a first book heading is appropriately prospective.",
+      "First-use source order matches numbered list: catalogue,Census,PIB,newsletter. Uncited closing paragraph is editorial inquiry, not another historical claim.",
+      "Newsletter retains only prior broad summary and explicit internal2026-10-01 original-inspection provenance; no fresh recovery or expanded publication claim.",
+      "Naming and Census015014 scope remain separate from Bhatri-Desia catalogue label and current identity."
+    ],
+    "source_budget_review": {
+      "catalogue": 52,
+      "census_before_population_panel": 66,
+      "PIB_corrected_heading": 151,
+      "newsletter_conservative_allocation": 159,
+      "note": "PIB151; catalogue52; newsletter159 conservative allocations remain. Census144 includes full unique portable population text, leaving margin for website-only labels; repeated numeric facts and identical exports not counted as new prose.",
+      "census_with_portable_population": 144
+    },
+    "substantive_gain": "Adds concrete word/illustration selection, vowel/consonant sequencing, Odia letters and planned speaker trial/revision, explaining why preparation is not rollout.",
+    "limits": [
+      "Separate AI review, not human or fluent-speaker confirmation. Newsletter still rests on dated prior original inspection.",
+      "Actual browser interactions/Save/keyboard returns performed by Samanta; reviewer inspected resulting images/download and tests, did not independently click.",
+      "No deployment/live approval implied by local candidate review."
+    ],
+    "preliminary_review": {
+      "input_head": "5fba443a509474f78f04684e15765166520ad5af",
+      "status": "content_pass_final_integration_pending",
+      "hashes": {
+        "kb/research/voices/collection.json": "7c860069d965157b3865991a22766c67efeadcc0e334766db9763928393ceabe",
+        "kb/research/voices/desia-editorial.json": "7bb1be58ad4cd2c76c46292c25d9fa93ff7c3bfa18ef82d439bffdb2e0fb91a2",
+        "kb/records/desia-editorial-source-review-2026-10-25.json": "ac67722b538d1136c7aac454cab345f0816fd3331c9c52e3e651acf6a6f37f6e"
+      }
+    },
+    "reviewed_head": "efd82ec02c332e6adc2264ac5dd06dabdce1f092",
+    "actual_final_checks": [
+      "Actually viewed five supplied screenshot pixels:1440x1000 desktop and390x844 mobile, readable cover/body opening and all four mobile notes; no visible clipping or horizontal overflow. Screenshot body framing covers opening, not every lower section.",
+      "Read actual downloaded HTML:all six canonical paragraphs present; population context78 words plus canonical Census allocation66 gives144 before minor website-only UI labels, safely within200. Counts2,25,188/0.54%,three districts and row100 retained.",
+      "Read final full/coast logs:595 and515 tests pass; no failed or skipped tests. Read implementation report for2496audit/publication/disclosure gates.",
+      "Inspected actual new AstroContainer test: unreviewed synthetic fixture renders real component, retains fallback sources/preview and lacks Founder byline. Positive sibling controls do not pretend to test fallback.",
+      "Read scoped component/catalog changes and preservation tests; shared helper selects Desia profile without changing Sambalpuri branch content.",
+      "Original source/paraphrase review and first-use ordering remain valid; no two-Desia-books, rollout, naming equivalence or newly recovered newsletter claim."
+    ],
+    "download_sha256": "fe2914f5e3da045c9e56615b8d6a06d0fd1fb97db48f7e8147516eaaf1058fdc",
+    "visual_hashes": {
+      "desktop": "36695abcf576b006c24c0334cf0d90ee65fe856fc2e8ef40a667a860ebf5defc",
+      "desktop-body": "b9135353b17e34f693d6f49fb2358804dd24a34698efaa04c596755b124f74fc",
+      "mobile": "221d20e0128dde5838b46f959fd3b49b8932a090602e153fd86ac42d6ecde69c",
+      "mobile-body": "d0e62bd488bd5aac1917c352e67b16c4e2a47024ef4532682a6603298e5afbcd",
+      "mobile-notes": "88985a1234815b3889a9c56036a08e729cd0c73c8907d268d93f0334fe0d5ae9"
+    }
+  },
+  "implementation": {
+    "role": "Samanta",
+    "input_head": "5fba443a509474f78f04684e15765166520ad5af",
+    "checked_at": "2026-10-25T08:19:45.951191+00:00",
+    "status": "implementation and local validation pass; separate review pending",
+    "changed_files": [
+      "projects/site/src/components/CultureMagazine.astro",
+      "projects/site/src/components/LanguagePopulation.astro",
+      "projects/site/src/data/journey-catalog.ts",
+      "projects/site/tests-coast/balasore-editorial.test.mjs",
+      "projects/site/tests-coast/bhima-editorial.test.mjs",
+      "projects/site/tests-coast/bhubaneswar-editorial.test.mjs",
+      "projects/site/tests-coast/desia-editorial.test.mjs",
+      "projects/site/tests-coast/district-languages.test.mjs",
+      "projects/site/tests-coast/fakir-editorial.test.mjs",
+      "projects/site/tests-coast/gangadhar-editorial.test.mjs",
+      "projects/site/tests-coast/gopinath-editorial.test.mjs",
+      "projects/site/tests-coast/ho-editorial.test.mjs",
+      "projects/site/tests-coast/juang-editorial.test.mjs",
+      "projects/site/tests-coast/koya-editorial.test.mjs",
+      "projects/site/tests-coast/kui-editorial.test.mjs",
+      "projects/site/tests-coast/kuvi-editorial.test.mjs",
+      "projects/site/tests-coast/languages-editorial.test.mjs",
+      "projects/site/tests-coast/literature-editorial.test.mjs",
+      "projects/site/tests-coast/mayurbhanj-editorial.test.mjs",
+      "projects/site/tests-coast/odia-editorial.test.mjs",
+      "projects/site/tests-coast/pratibha-editorial.test.mjs",
+      "projects/site/tests-coast/puri-editorial.test.mjs",
+      "projects/site/tests-coast/sambalpuri-editorial.test.mjs",
+      "projects/site/tests-coast/santali-editorial.test.mjs",
+      "projects/site/tests-coast/saora-editorial.test.mjs",
+      "projects/site/tests-coast/sarala-editorial.test.mjs",
+      "projects/site/tests-coast/six-acres-editorial.test.mjs",
+      "projects/site/tests-coast/voices-passage-sources.test.mjs",
+      "projects/site/tests/voices.test.mjs"
+    ],
+    "changes": [
+      "Opt Desia into existing article/byline/footnote and Census source paths.",
+      "Keep reading:languages/desia; portable full6paragraphs,4shortsources and all visible populationcontext.",
+      "22 existing editorial control files transition to unaffected reviewed sibling invariants rather than false legacy claims. New real test-only unreviewed fixture renders actual CultureMagazine via Astro container and verifies no Founder byline, fallback source attribution and preview notice. No public test route."
+    ],
+    "guidance": {
+      "search": "accessible article navigation",
+      "guide": "accessibility",
+      "path": "/tmp/desia-accessibility-guidance.md",
+      "rule": "Prefer HTML elements and attributes to ARIA",
+      "application": "Native headings/nav/href footnotes and exact returnfocus retained; no new client API/polyfill."
+    },
+    "tests": [
+      {
+        "command": "npm run build && npm test",
+        "result": "595/595pass",
+        "logs": [
+          "/tmp/desia-full-build.log",
+          "/tmp/desia-full-tests.log"
+        ]
+      },
+      {
+        "command": "npm run build:coast && npm run test:coast",
+        "result": "515/515pass",
+        "logs": [
+          "/tmp/desia-coast-build.log",
+          "/tmp/desia-coast-tests.log"
+        ]
+      },
+      {
+        "command": "npm run build:publication",
+        "result": "pass",
+        "log": "/tmp/desia-publication.log"
+      },
+      {
+        "command": "node tools/check-public-disclosures.mjs dist / dist-coast / dist-publish",
+        "result": "0violations764/751/752pages",
+        "log": "/tmp/desia-disclosure.log"
+      },
+      {
+        "command": "python3 tools/audit-coast.py",
+        "result": "2496/2496pass",
+        "log": "/tmp/desia-audit.log"
+      }
+    ],
+    "fixture_development": "Initial Vite fixture probe passed but attempted websocket port blocked bysandbox. Final test sets server.ws=false and hmr=false; final coastlog contains no sucherror. Temporary probe removed.",
+    "preservation": {
+      "sambalpuri_rendered_main_byte_identical": true,
+      "sambalpuri_catalog_item_deep_equal": true,
+      "baseline": "/tmp/desia-baseline-sambalpuri.html",
+      "images": "No changes/new identityimage",
+      "search_eligibility": "unchanged"
+    },
+    "browser": {
+      "url": "http://127.0.0.1:8801/languages/desia/",
+      "desktop": [
+        1440,
+        1000
+      ],
+      "mobile": [
+        390,
+        844
+      ],
+      "overflow": false,
+      "notes": 4,
+      "footnotes": "Keyboard Enter focuses note-scstrti; exact backlink returns focus ref-language-0-scstrti atbothwidths.",
+      "reading_paths": "expanded; native Follow the story navigation works",
+      "save": "Local preview button aria-pressed true after reload",
+      "actual_download": "/tmp/desia-downloaded-book.html",
+      "download_sha256": "fe2914f5e3da045c9e56615b8d6a06d0fd1fb97db48f7e8147516eaaf1058fdc",
+      "download_check": "All6canonicalparagraphs and2,25,188/0.54%,topdistrictcounts1,69,071/30,395/25,608,row100 present."
+    },
+    "screenshots": [
+      {
+        "path": "/tmp/desia-desktop-body.jpg",
+        "format": "JPEG",
+        "dimensions": [
+          1440,
+          1000
+        ]
+      },
+      {
+        "path": "/tmp/desia-desktop.jpg",
+        "format": "JPEG",
+        "dimensions": [
+          1440,
+          1000
+        ]
+      },
+      {
+        "path": "/tmp/desia-mobile-body.jpg",
+        "format": "JPEG",
+        "dimensions": [
+          390,
+          844
+        ]
+      },
+      {
+        "path": "/tmp/desia-mobile-notes.jpg",
+        "format": "JPEG",
+        "dimensions": [
+          390,
+          844
+        ]
+      },
+      {
+        "path": "/tmp/desia-mobile.jpg",
+        "format": "JPEG",
+        "dimensions": [
+          390,
+          844
+        ]
+      }
+    ],
+    "limits": [
+      "Local preview only; no deployment or live verification.",
+      "Separate factual/visual AI review owned by Drishti; no humanreviewclaim.",
+      "No sharedKB/Git/publication mutations by Samanta.",
+      "Sambalpuri whole HTML includes sharedcatalog changes, but rendered main and its own catalogitem remain exact."
+    ]
+  },
+  "programme_credit": 0,
+  "completed_items": 131,
+  "verified_routes": [
+    "/languages/desia/"
+  ],
+  "scope_release": "Upon reviewed receipt PR merge after passing required checks."
+}

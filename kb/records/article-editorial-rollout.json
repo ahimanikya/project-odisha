@@ -2391,14 +2391,31 @@
       "id": "POD-EDIT-080",
       "route": "/languages/desia/",
       "title": "Desia",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "Explain documented learning-material preparation, planned trials and revision with precise source boundaries",
       "source_template": "projects/site/src/pages/languages/desia.astro",
-      "checks": {},
+      "checks": {
+        "source_review": true,
+        "separate_ai_review": true,
+        "responsive_review": true,
+        "tests": true,
+        "merged": true,
+        "deployed": true,
+        "live": true,
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
-        "records/desia-editorial-team-2026-10-25.json"
+        "records/desia-editorial-team-2026-10-25.json",
+        "records/desia-editorial-delivery-2026-10-25.json"
       ],
-      "blocker": null
+      "blocker": null,
+      "publication_receipt": "records/desia-editorial-delivery-2026-10-25.json"
     },
     {
       "id": "POD-EDIT-081",
