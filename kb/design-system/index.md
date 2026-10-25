@@ -3,6 +3,7 @@
 A shared design foundation for the Utkal family, built under the Founder's direction. **0.1.0-rc.5 is applied throughout the local Project Odisha website**, with refinements from real pages. Publication and adoption by other projects remain separate decisions.
 
 - [Story patterns and three reference pages](story-patterns.md)
+- [Decorative line-art fillers for pages and books](decorative-fillers.md)
 - [Media and meaning — the Founder’s visual storytelling foundation](media-and-meaning.md)
 - [System guide and component contracts](guide.md)
 - [Adoption and maintenance](adoption.md)

@@ -9,12 +9,16 @@
     "styles/",
     "fonts/",
     "icons/",
+    "ornaments/",
     "README.md"
   ],
   "exports": {
     "./tokens": "./tokens.json",
     "./styles.css": "./styles/utkal.css",
-    "./icons": "./icons/index.mjs"
+    "./icons": "./icons/index.mjs",
+    "./ornaments": "./ornaments/manifest.json",
+    "./ornaments/policy": "./ornaments/policy.json",
+    "./ornaments/assets/*": "./ornaments/assets/*"
   },
   "scripts": {
     "build": "node tools/build.mjs",
