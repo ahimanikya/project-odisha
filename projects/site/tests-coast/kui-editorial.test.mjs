@@ -40,7 +40,7 @@ test('Kui population retains the individual entry, original counts, districts, y
  for(const d of districtRows(atlas,profile.code).filter(r=>r.persons>0).slice(0,3))assert.ok(inset.includes(`${d.name} (${count(d.persons)})`));
  assert.ok(inset.includes(`href="/languages/atlas/?language=${profile.code}"`));assert.ok(inset.includes(atlas.sources.c16.url));
  assert.ok(inset.includes('id="ref-population-c16-odisha-2011"'));
- const other=page('/languages/desia/');assert.ok(!other.includes('ref-population-'));assert.match(other,/Sources, image credits/);
+ const other=page('/languages/sambalpuri/');assert.ok(other.includes('ref-population-c16-odisha-2011'));assert.ok(other.includes('language=015058'));assert.match(other,/Footnotes &amp; Sources/);
  const odia=page('/languages/odia/');assert.ok(odia.includes('ref-population-c16-odisha-2011'));assert.ok(odia.includes('By Ahimanikya Satapathy'));
 });
 test('Kui preserves the typographic cover, onward links, save identity and visible update privacy without changing the hub',()=>{
@@ -74,7 +74,7 @@ test('Kui portable reading contains complete paragraphs once, short sources, web
  for(const source of editorial.sources){const url=new URL(source.url).href;assert.ok(book.includes(`href="${escapeHTML(url)}"`),source.id);assert.ok(text.includes(url),source.id);}
 
  assert.ok(text.includes('Keep my edition note.'));
- const desia=catalog.find(i=>i.id==='reading:languages/desia');assert.equal(desia.author,undefined);assert.ok(desia.practical.every(p=>!p.paragraphs));
+ const sibling=catalog.find(i=>i.id==='reading:languages/sambalpuri');assert.equal(sibling.author,'Ahimanikya Satapathy');const original=collection.pages.find(p=>p.path==='languages/sambalpuri');assert.deepEqual(sibling.practical.slice(0,original.sections.length).map(s=>s.paragraphs),original.sections.map(s=>s.paragraphs.map(p=>p.text)));
 });
 
 test('Kui retains its attributed learning shelf and public contribution boundaries',()=>{

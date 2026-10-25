@@ -16,9 +16,9 @@ test('destination language links use district context without calling city count
 test('new reading stories preserve attribution, census mappings and portable notes',()=>{
  const catalog=JSON.parse(read('/').match(/id="journey-data"[^>]*>([\s\S]*?)<\/script>/)[1]).catalog;
  for(const [slug,code] of [['sambalpuri','015058'],['desia','015014']]){
-  const html=read('/languages/'+slug+'/'),item=catalog.find(i=>i.id==='reading:languages/'+slug);assert.ok(item);assert.ok(item.practical.length>=2);assert.ok(item.sources.length>=2);assert.ok(html.includes('language='+code));if(slug==='sambalpuri')assert.match(html,/Footnotes &amp; Sources/);else assert.match(html,/Sources, image credits/);
+  const html=read('/languages/'+slug+'/'),item=catalog.find(i=>i.id==='reading:languages/'+slug);assert.ok(item);assert.ok(item.practical.length>=2);assert.ok(item.sources.length>=2);assert.ok(html.includes('language='+code));assert.match(html,/Footnotes &amp; Sources/);
  }
- assert.match(read('/languages/sambalpuri/'),/Mitrabhanu Gountia/);assert.match(read('/languages/desia/'),/testing and revision still to come/);
+ assert.match(read('/languages/sambalpuri/'),/Mitrabhanu Gountia/);const desia=JSON.parse(readFileSync('../../kb/research/voices/collection.json')).pages.find(p=>p.path==='languages/desia');assert.ok(read('/languages/desia/').includes(desia.sections.find(s=>s.id==='learning').title));
  assert.match(read('/languages/multilingual-odisha/'),/1,38,25,024/);assert.match(read('/languages/multilingual-odisha/'),/55,25,278/);
  assert.match(read('/languages/multilingual-odisha/'),/No additional language reported/);
 });
