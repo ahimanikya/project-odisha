@@ -1,0 +1,92 @@
+{
+  "review_type": "Separate AI visual inventory/proposal review; not human proofreading",
+  "input_head": "875c38feadc25da95b5789759e12bc4ee5a5723a",
+  "reviewer": "Drishti",
+  "status": "pass_with_limitations",
+  "blockers": [],
+  "actual_pages_visually_checked": [
+    73,
+    74,
+    75,
+    76,
+    77,
+    78
+  ],
+  "input_hashes": {
+    "anvesha.json": "310cbaec2e6c046b0a6845287ab2c9b41c97bd004a7652791d89542cb2179375",
+    "samanta.json": "a9efa1b9fda61855819ae56f54b6ba02e8ef6498965523e6cee8136e39827ca1",
+    "proposed-ledger-delta.json": "add4d73c7dc202bf7f82c10bba0075dd8e2765eb2b8c7e8794c494939e95e6ff"
+  },
+  "source_pdf_sha256": "fe6b974c2b2b6de7a11ff34a2c79bb2bfc4986d8ecf6d9da08eca9d02f1e8863",
+  "render_hashes": {
+    "outputs/dhaga-1926-pages73-78-2026-10-26/renders/page-073.png": "38f997d8c3cd5de6d3f2343af629291ac4e9fe9dfbcc32c34821adedc57dbe3a",
+    "outputs/dhaga-1926-pages73-78-2026-10-26/renders/page-074.png": "115d221dcb3a1df6f6e810fb6f94f630176b03d423d8a5742cf8e02ff87ac62e",
+    "outputs/dhaga-1926-pages73-78-2026-10-26/renders/page-075.png": "4ba9d0168985afb798da4d4f96aa8703b3a1be5f67d334e866cb7a7183a7916e",
+    "outputs/dhaga-1926-pages73-78-2026-10-26/renders/page-076.png": "d0d0cace27d4092fb4bf8deed99940fec24ab8262262db713d3c5118fdc24d78",
+    "outputs/dhaga-1926-pages73-78-2026-10-26/renders/page-077.png": "d0440d86d78ba3904c3fc504d059d00870a8e053ce3e362b121093c716cb190e",
+    "outputs/dhaga-1926-pages73-78-2026-10-26/renders/page-078.png": "39c6ccf7530f9d248ac7580728d7bce722526c35a1231f2aa64da4e668aaf41d"
+  },
+  "visual_findings": [
+    "73 has running numberedକ material, long wraps, alternatives and bracketed notes; damaged left numerals.",
+    "74 remains in same series with substantial upper/middle/right dropout and right-edge dark rule.",
+    "75 alternates short and long formulations; severe central fading precludes full reading.",
+    "76 has visible crow/ear wording in middle/lower item87, but no complete historic variant or122/148 association established.",
+    "77 has long central commentary and damaged margin numbering. Item98 does not securely establish shoulder/କାନ୍ଧ; requested withholding noun and004 association, now corrected without speculative substitute.",
+    "78 continues numberedକ material; brief top expressions and longer bracketed explanations, faded upper-middle and right edge. No new heading or restart observed across six pages."
+  ],
+  "resolved_findings": [
+    {
+      "issue": "PDF77 item98 provisional shoulder reading and004 association were not secure.",
+      "resolution": "Anvesha withdrew noun and relation; current fragment unread/uncertain and relation null. Earlier reading retained only in explicit correction history.",
+      "final_research_sha256": "310cbaec2e6c046b0a6845287ab2c9b41c97bd004a7652791d89542cb2179375"
+    }
+  ],
+  "proposal_checks": {
+    "baseline_hash_and_row_match": true,
+    "five_fields_only": [
+      "inventory_pdf_pages_overviewed",
+      "inventory_pdf_pages_full_render_inspected",
+      "inspection",
+      "next_page_to_attempt",
+      "next_action"
+    ],
+    "added_inventory_pages": [
+      73,
+      74,
+      75,
+      76,
+      77,
+      78
+    ],
+    "idempotent_in_memory": true,
+    "all_prior_coverage_evidence_other_rows_preserved": true,
+    "next_inventory_conditional": 79,
+    "full_transcription_cursor": 31,
+    "1893_full_cursor": 2
+  },
+  "preserved_baseline": {
+    "entries": 159,
+    "illustrations": 159,
+    "book_pages": 86,
+    "original127_pending": 75,
+    "1893_draft_segments": 83,
+    "1893_full_transcription_cursor": 2,
+    "1926_full_transcription_cursor": 31
+  },
+  "actual_checks": [
+    "Actually viewed all six full source images independently.",
+    "Compared both retrieval fragments and source structure with actual pixels; requested/resolved one lexical-association overreach.",
+    "Verified source/render/report hashes and proposal baseline equality, exact five-field scope, retained prior pages and idempotence.",
+    "Confirmed both fragment exact/normalized/meaning/relation fields null."
+  ],
+  "limits": [
+    "Inventory only, not full transcription, historical origin, accepted witness or human review.",
+    "Provisional numerals are navigation aids, not certified unique-saying counts.",
+    "No exhaustive159-entry semantic comparison; uncertain fragments cannot establish equivalence.",
+    "Rights/creator roles unresolved; local facsimiles inspection-only.",
+    "No canonical/product changes; next79 requires coordinator integration, full31 remains unfinished."
+  ],
+  "accepted_increment": 0,
+  "programme_credit": 0,
+  "next_action": "Preserve corrected frozen research with separate review. Coordinator may integrate scoped1926 inventory evidence then continue bounded inspection79 onward without promoting fragments."
+}
