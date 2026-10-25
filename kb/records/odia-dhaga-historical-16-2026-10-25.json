@@ -1,0 +1,136 @@
+{
+  "status": "integration_review",
+  "input_head": "74e47f982140cc283cca00581e817844b569be64",
+  "scope": "Frozen reviewed historicalPDF16 evidence and coverage ledger only",
+  "reserved_files": [
+    "projects/odia-dhaga/coverage-ledger.json",
+    "projects/odia-dhaga/evidence/dhaga1893-page16-*.json"
+  ],
+  "workers": {
+    "Anvesha": "Frozen evidence integrity",
+    "Samanta": "Scoped evidence packaging",
+    "Drishti": "Separate integrated exact-head AI review"
+  },
+  "counts": {
+    "explained": 108,
+    "illustrated": 55,
+    "accepted_increment": 0,
+    "programme_credit": 0,
+    "next_targeted_page": 17,
+    "full_transcription_cursor": 2
+  },
+  "print_preservation": "Local53page trial and canonical60pagePDF untouched",
+  "scope_release": "Upon reviewed merge after passingrequiredchecks; repository-only evidence requires no website deployment",
+  "ownership_reconciliation": "PR532merged and previous article receiptsreleased; no new activePR identified.",
+  "source_check": {
+    "input_head": "74e47f982140cc283cca00581e817844b569be64",
+    "status": "PASS frozen source checkpoint verification",
+    "research_sha256": "fd28825d689f35788bc6c5910d5c82cd6cc4521e5f8c94d3e1568991ce744348",
+    "verified_report_hashes": {
+      "anvesha.json": true,
+      "samanta.json": true,
+      "drishti.json": true,
+      "coverage-ledger.proposed.json": true
+    },
+    "source_pdf_hash_matches": true,
+    "render_hash_matches": true,
+    "claims_checks": {
+      "accepted_increment_zero": true,
+      "no_full_transcription": true,
+      "candidate_meaning_normalization_null": true,
+      "070_variant_unaccepted": true,
+      "physical_lines": 17,
+      "full_cursor": 2,
+      "next_targeted": 17
+    },
+    "findings": [
+      "All four HANDOFF-bound files match frozen hashes.",
+      "070 comparison remains possible variant only: opening verb unread, crab spelling bracketed, no historical glyph or community-diet claim.",
+      "17 line observations are partial physical lines, not17accepted sayings.",
+      "Existing108entries55images and source127 mapping are outside this research change.",
+      "Rights limitations and separate AI-review labeling unchanged; no human proofreading claimed."
+    ],
+    "rights_limits": [
+      "Same1893underlying-text age/authorship/jurisdiction qualifications remain. Publicly accessible scan is not a blanket facsimile reuse licence.",
+      "Watermark preserved in internal render; no public image republication proposed."
+    ],
+    "limits": [
+      "No repeat scan viewing or new source research; hash/structure/claim verification only.",
+      "No canonical/book/PDF edits; final evidence paths and ledger merge remain integration checks.",
+      "Zero accepted increment and programme credit."
+    ]
+  },
+  "implementation": {
+    "role": "Samanta scoped integration",
+    "input_head": "74e47f982140cc283cca00581e817844b569be64",
+    "checked_at": "2026-10-25T00:53:37.292914+00:00",
+    "status": "pass",
+    "canonical_root": "projects/odia-dhaga",
+    "changed": [
+      "coverage-ledger.json"
+    ],
+    "added": [
+      "evidence/dhaga1893-page16-implementation.json",
+      "evidence/dhaga1893-page16-research.json",
+      "evidence/dhaga1893-page16-review.json"
+    ],
+    "hashes": {
+      "coverage-ledger.json": "e51ade166d477423ab1ab8e5c39f9c25e301386f53914cb6a18c7d00e28867a8",
+      "evidence/dhaga1893-page16-implementation.json": "73c4d6ec6dcd577a10cc210938e7a38079044bd798abebda135b8e3521ce84aa",
+      "evidence/dhaga1893-page16-research.json": "fd28825d689f35788bc6c5910d5c82cd6cc4521e5f8c94d3e1568991ce744348",
+      "evidence/dhaga1893-page16-review.json": "774972769953e91c074e3d52c5757f6c64804d3aa83caf3ab26a976d1d0e5f7a"
+    },
+    "changed_historical_fields": [
+      "text_pdf_pages_targeted_inspection",
+      "next_page_to_attempt",
+      "next_action",
+      "targeted_page16_inspection_report",
+      "targeted_page16_ai_review"
+    ],
+    "checks": {
+      "exact_baseline_matches_reviewed_proposal": true,
+      "all_frozen_report_hashes_match_HANDOFF": true,
+      "two_ledger_evidence_paths_resolve": true,
+      "targeted_union_idempotent": true,
+      "all_other_ledger_sources_and_top_level_unchanged": true,
+      "rights_and_accepted_ids_unchanged": true,
+      "all_existing_nonledger_book_files_byte_unchanged": true,
+      "local_53page_print_trial_exact_hash_unchanged": true
+    },
+    "counts": {
+      "reader_entries": 108,
+      "illustrations": 55,
+      "concordance_positions": 127,
+      "draft_segments": 83,
+      "accepted_new_entries": 0,
+      "full_transcription_cursor": 2,
+      "next_targeted_page": 17,
+      "full_pages": 0,
+      "human_reviewed_pages": 0,
+      "programme_credit": 0
+    },
+    "tests": [
+      {
+        "command": "python3 projects/odia-dhaga/test_transcription.py",
+        "result": "PASS exact review and positive boundaries;32negative fixtures rejected",
+        "log": "/tmp/dhaga16-transcription-tests.log"
+      },
+      {
+        "command": "python3 -m unittest discover -s projects/odia-dhaga -p 'test_repository.py'",
+        "result": "12/12 pass",
+        "log": "/tmp/dhaga16-repository-tests.log"
+      },
+      {
+        "command": "python3 -m unittest discover -s projects/odia-dhaga -p 'test_source_inventory.py'",
+        "result": "5/5 pass",
+        "log": "/tmp/dhaga16-inventory-tests.log"
+      }
+    ],
+    "limits": [
+      "Frozen reports copied byte-exact with original output-only statuses/local render paths; this report records later integration.",
+      "No facsimile, reader, PDF, art, shared-record or Git changes.",
+      "Candidate070 historical relationship remains provisional; no accepted witness or exhaustive127 comparison.",
+      "No release/deployment claimed; independent final integration review belongs to Drishti."
+    ]
+  }
+}

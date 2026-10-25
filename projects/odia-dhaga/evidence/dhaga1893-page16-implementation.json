@@ -1,0 +1,112 @@
+{
+  "role": "Samanta independent AI visual second-reader",
+  "input_head": "8be4d375bd75a599cc42c66fe99970f79e4efd9b",
+  "checked_at": "2026-10-25T00:40:09.000584+00:00",
+  "status": "targeted visual second-read and output-only ledger proposal complete; separate review pending",
+  "source": {
+    "pdf": "/tmp/pod-dhaga-1893.pdf",
+    "sha256": "c0c818ed2dce7c9872e3141166e0e4676a6bd2c0fd2338c2f6f3b4ce56227dac",
+    "url": "https://archive.org/details/dhagamalika-1893",
+    "pdf_page": 16,
+    "printed_page": 15,
+    "render": "page16.png",
+    "render_sha256": "192a9e8eb17982cd83ea84dd364f53b6235c6714d38d9d806b87a16cca19278a"
+  },
+  "actual_reading": {
+    "method": "Viewed complete actual rendered PNG, not OCR-only. Compared selected visible fragments with current108headwords and available source127 candidate text/mappings.",
+    "body_lines": 17,
+    "heading_exclusion": "Two central letter headings excluded from body-line count.",
+    "wraps": [
+      [
+        2,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        16,
+        17
+      ]
+    ],
+    "findings": [
+      "Firstline has Keuta/fish/crab contrast: possible historical variant of existing070. The verb preceding fish differs visually from modernଧରେ; no automatic normalization.",
+      "Lines2–3 visibly reverse cart/boat relationship; retain as unaccepted separate lead, not equivalent to other vehicle sayings without text evidence.",
+      "Lines5–6 enumerate contrasting food situations; several clusters unresolved, no complete meaning supplied.",
+      "Lower-left faded letters and joined historical forms limit exact reading. Body15 appears paired Arjuna/Karna names; no mythic-origin claim inferred."
+    ],
+    "candidate": {
+      "anchor": "PDF16 bodyline1",
+      "existing_entry_id": "POD-DHAGA-070",
+      "existing_wording": "କେଉଟ ଧରେ ମାଛ, ଖାଏ କଙ୍କଡ଼ା",
+      "relation": "possible historical variant only",
+      "uncertainties": [
+        "Verb beforeମାଛ unresolved; do not substitute modernଧରେ.",
+        "Historical spelling of final crab word remains provisional."
+      ],
+      "normalized_reading": null,
+      "accepted": false,
+      "count_effect": 0
+    }
+  },
+  "comparison": {
+    "collection_sha256": "71a6abb1f8646f3b167be0dcd2e34e7f6a21185a33d289af89092ebca5708537",
+    "source127_sha256": "cda50900080f764277a5011675b26a837c2ff17f9473826adc60ad8e3443796c",
+    "reader_entries": 108,
+    "source_positions": 127,
+    "textbearing_source_positions": 25,
+    "existing070_mapped_positions": [],
+    "limits": "Only25concordance rows carry candidate/user wording; no exhaustive negative crosswalk conclusion. Sharedfish/food/animal motifs alone do not establish identity."
+  },
+  "preserved": {
+    "draft_segments": 83,
+    "reader_entries": 108,
+    "illustrations": 55,
+    "source_positions": 127,
+    "full_transcription_cursor": 2,
+    "new_accepted_entries": 0,
+    "human_proofreading": 0,
+    "programme_credit": 0
+  },
+  "limits": [
+    "SeparateAI reading, not human proofreading or complete diplomatic transcription.",
+    "No canonical, reader, PDF, art, rights or Git mutation.",
+    "Local53-page print trial remains untouched.",
+    "Proposal and research await final separate review; no canonical integration performed."
+  ],
+  "research_binding": {
+    "file": "anvesha.json",
+    "sha256": "fd28825d689f35788bc6c5910d5c82cd6cc4521e5f8c94d3e1568991ce744348",
+    "findings": "Candidate anchors and null normalization/meaning agree with actual pixels.17bodylines and wrap anchors agree. No additional correction requested."
+  },
+  "ledger_proposal": {
+    "file": "coverage-ledger.proposed.json",
+    "sha256": "e51ade166d477423ab1ab8e5c39f9c25e301386f53914cb6a18c7d00e28867a8",
+    "base_sha256": "ec263d02bf29dd7d779ac88511028af1e9ad59051292499478e3aa356888a779",
+    "changed_fields": [
+      "text_pdf_pages_targeted_inspection",
+      "next_page_to_attempt",
+      "next_action",
+      "targeted_page16_inspection_report",
+      "targeted_page16_ai_review"
+    ],
+    "evidence_paths_proposed": [
+      "evidence/dhaga1893-page16-research.json",
+      "evidence/dhaga1893-page16-review.json"
+    ],
+    "status": "Output-only; future canonical integration must copy frozen JSON reports and resolve pointers after separate review.",
+    "checks": {
+      "idempotent": true,
+      "only_five_historical_fields_changed": true,
+      "all_other_sources_top_level_and_rights_unchanged": true,
+      "counts_and_accepted_ids_unchanged": true
+    }
+  },
+  "tests": [
+    "17ordered physical line records and all null normalizations verified",
+    "Two candidate meanings/normalizations null and accepted increment0",
+    "Ledger union idempotence and five-field scope verified",
+    "All other source rows, top-level fields, accepted IDs, rights and full/draft/human counters preserved"
+  ]
+}
