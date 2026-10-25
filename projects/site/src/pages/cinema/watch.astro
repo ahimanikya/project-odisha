@@ -1,0 +1,14 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import content from '../../data/cinema-player.html?raw';
+import {cinema} from '../../lib/cinema-article.mjs';
+const lead=cinema.articles[0],hero=lead.images.find(i=>i.role==='title');
+---
+<Shell title="Odia cinema viewing room" description="Find official Odia film uploads, trailers, archive clips and provider listings, with clear sources and access conditions." active="explore" related={false} shareImage={{src:hero.file,alt:lead.hero.alt,width:hero.width,height:hero.height}}>
+ <link rel="stylesheet" href="/assets/cinema/player/player.css"/>
+ <div class="cinema-player"><nav aria-label="Cinema companions"><a href="/cinema/">← The cinema readings</a><a href="/cinema/book/">Read or print the book →</a></nav><Fragment set:html={content}/><noscript><p>This collection needs JavaScript to filter and select a player. <a href="https://www.youtube.com/watch?v=bX9WYaIzVa4">Open the official DAMaN upload on YouTube</a>.</p></noscript></div>
+ <script is:inline defer src="/assets/cinema/player/catalogue.js"></script>
+ <script is:inline defer src="/assets/cinema/player/core.js"></script>
+ <script is:inline defer src="/assets/cinema/player/app.js"></script>
+</Shell>
+<style>.cinema-player{max-width:1280px;margin:auto;padding:2rem clamp(1.2rem,5vw,4rem);background:#151a18;color:#f5efdf;font:17px/1.65 system-ui,sans-serif}.cinema-player>nav{display:flex;gap:1.5rem;flex-wrap:wrap}.cinema-player>nav a{color:inherit}.cinema-player :global(h1),.cinema-player :global(h2),.cinema-player :global(h3){color:inherit}.cinema-player :global(.eyebrow){color:#e3b578}</style>

@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-25",
+  "agent": "Anvesha",
+  "scope": "Bounded final evidence pass of Maya Miriga only. Research query and retained dossiers reused; current material assertions checked. No article edits, publication or film viewing.",
+  "article": "kb/research/culture/cinema-series/maya-miriga.md",
+  "article_sha256": "067491835f0de381b21f92bb15cafec13ee9cf77c8c1fccdc1476b9017ad87da",
+  "verdict": "PASS_WITH_SMALL_CREDIT_COMPLETENESS_RECOMMENDATION; no material factual error identified. Not publication approval.",
+  "reused_sources": [
+    {
+      "path": "kb/research/sources/odia-cinema-research-2026-10-25.json",
+      "sha256": "a5b46c9397b7591903900aeebd4757c996418a9ea38cf183a263c20fd5d819d1"
+    },
+    {
+      "path": "kb/research/sources/cinema-series-research-2026-10-25.json",
+      "sha256": "c734bd1c10891e72e96c60964e18144eb6b6ae94f672817637e8e3b5eb2aee3f"
+    },
+    {
+      "path": "kb/research/sources/cinema-reception-evidence-2026-10-25.json",
+      "sha256": "a1f5c41a751480526103922e4d9fd4c29dd87745b66fe1480afc4ae200a0bb8c"
+    },
+    {
+      "path": "kb/records/cinema-claims-review-2026-10-25.json",
+      "sha256": "f87e6b085741eb6533eeecee1e1e1bf6a93a5050a0f08c72266b433a7f207b0a"
+    },
+    {
+      "path": "kb/records/cinema-reception-review-2026-10-25.json",
+      "sha256": "478930b14739e21ae246697d7b1a9893146bdeda4225891fc62456a209a069ee"
+    }
+  ],
+  "checks": [
+    {
+      "claim": "1984 film designation versus 1983 national award eligibility and1984 presentation",
+      "status": "Supported with retained-access limit",
+      "sources": [
+        "https://www.dff.nic.in/images/Documents/86_31stNfacatalogue.pdf",
+        "https://www.semainedelacritique.com/en/edition/1984/movie/maya-miriga",
+        "https://festival.ilcinemaritrovato.it/en/film/maya-miriga/"
+      ],
+      "finding": "Cannes and Bologna freshly reopened both label film1984. Retained indexed original31st catalogue identifies Second Best Feature Film of1983; prior review records1984 award. Mannheim catalogue lists film1983. These source-specific conventions do not require changing current careful distinction.",
+      "limit": "Original NFA PDF reopening timed out; no fresh full-catalogue inspection or precise eligibility rules established. Do not convert award eligibility into a universal theatrical release date."
+    },
+    {
+      "claim": "Mannheim category and Cannes selection",
+      "status": "Fresh primary PASS",
+      "sources": [
+        "https://www.iffmh.de/festival/history/1984/index_eng.html",
+        "https://www.semainedelacritique.com/en/edition/1984/movie/maya-miriga"
+      ],
+      "locator": "Mannheim Awards lines74–92; Cannes lines54–61",
+      "finding": "Maya Miriga and Leila et les loups both under Grand Prize Competition Third World; overall Grand Prize Malambo. Cannes1984 selection, not award. Existing distinctions correct."
+    },
+    {
+      "claim": "Restoration material, institutions and screenings",
+      "status": "Fresh primary PASS; modest credit omission",
+      "sources": [
+        "https://www.moma.org/calendar/events/10180",
+        "https://festival.ilcinemaritrovato.it/en/film/maya-miriga/"
+      ],
+      "locator": "MoMA lines33–49; Bologna lines113–118",
+      "finding": "MoMA confirms January10/15,2025 screenings in To Save and Project and4K work from16mm negative/35mm print. Bologna confirms June27,2024 screening and fuller collective credits. Current text accurately names FHF,L’Immagine Ritrovata,NFDC–NFAI but omits director family, Digital Film Restore and Prasad Corporation."
+    },
+    {
+      "claim": "Family and gender interpretation",
+      "status": "Fresh source PASS",
+      "sources": [
+        "https://festival.ilcinemaritrovato.it/en/film/maya-miriga/",
+        "https://www.moma.org/calendar/events/10180",
+        "https://anttialanenfilmdiary.blogspot.com/2024/06/maya-miriga-mirage-2024-restoration.html"
+      ],
+      "locator": "Bologna filmmaker quotation line76; MoMA lines34–35; Alanen original AA discussion separately retained and independently reviewed in cinema-reception-review",
+      "finding": "Filmmaker note explicitly contrasts family warmth and responsibility with married sons’ tensions and daughters-in-law freedom. Current prose attributes it to Mohapatra. Prabha emotional-centre interpretation is explicitly Alanen’s2024 response, not narrator film-viewing or audience consensus.",
+      "limit": "Alanen page also reproduces synopsis and catalogue essays; these are not independent additional witnesses. No new scene analysis or film viewing."
+    }
+  ],
+  "recommended_changes": [
+    {
+      "priority": "small substantive credit completion",
+      "location": "Restoration paragraph after MoMA technical credit",
+      "text": "Bologna’s programme also credits the director’s family, Digital Film Restore for digital restoration, and Prasad Corporation for scanning.[^bologna]",
+      "reason": "Makes the already verified collective labour visible without enlarging historical scope. Existing sentence is not false.",
+      "source": "https://festival.ilcinemaritrovato.it/en/film/maya-miriga/",
+      "locator": "Copy From, line118",
+      "budget": "Keep total source-derived Bologna paraphrase and notes below200words; this addition roughly22words."
+    }
+  ],
+  "remaining_limits": [
+    "NFA original fetch timeout; rely transparently on retained indexed original and prior independent review.",
+    "Film years vary by catalogue convention; no exact production-completion/certification/theatrical-premiere dates established here.",
+    "No fresh visual review of page layout or documentary image licence; previously reviewed portrait remains unchanged.",
+    "No claims of film popularity, revenue, first international recognition or comprehensive filmography introduced."
+  ],
+  "new_search": "No broad search. Reopened linked primary pages and one linked critic page; failed once on original award PDF."
+}

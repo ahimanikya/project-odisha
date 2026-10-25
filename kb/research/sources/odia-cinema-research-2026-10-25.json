@@ -1,0 +1,506 @@
+{
+  "project": "POD",
+  "research_date": "2026-10-25",
+  "status": "draft_evidence",
+  "article": "../culture/odia-cinema.md",
+  "scope": "Selective foundational history and national/international recognition; not exhaustive filmography or all current awards.",
+  "reuse_before_research": [
+    "../people/nandita-das.md",
+    "../works/manto-film.md",
+    "../works/zwigato-film.md",
+    "../sources/creators-nandita-roots.md",
+    "../sources/creators-manto-cannes.md"
+  ],
+  "foundation": {
+    "scope": "Read-only bounded foundation research for flagship Odia cinema article; no narrative or publication. Inspected public sources 2026-10-25.",
+    "kb_reuse": {
+      "query": "python3 tools/research/query_research.py Odia cinema returned no matching entries and inventory-date warning",
+      "path": "kb/research/people/hariprasad-chaurasia.md",
+      "lead": "Existing Saregama Gapa Helebi Sata upload credits Bhuban-Hari; Cinemaazi explains partnership. Reopen original sources before expanded use."
+    },
+    "sources": [
+      {
+        "id": "pib-foundation",
+        "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=67399",
+        "title": "75 Years of Odiya Film Making: A Flashback",
+        "author": "Kapilas Bhuyan",
+        "date": "2010-11-22",
+        "type": "Government-hosted authored IFFI retrospective; disclaimer says author views, not necessarily PIB",
+        "locator": "Opening paragraphs; paragraphs beginning The second Odiya film, However, the Odiya film music, and The mythological films",
+        "usable_claims": [
+          "Mohan Sundar Deb Goswami’s Sita Bibah formally opened at Laxmitalkie Cinema, Puri, on 28 April 1936. The account distinguishes a completed first print on 25 March and Calcutta touring-cinema showing on 29 March.",
+          "Lalita (1949) was the second Odia film; production remained sparse until the early 1960s.",
+          "Sita Bibah contained fourteen songs sung by actors; Lalita introduced background singing, with music by Gouri Goswami and Suren Pal and lyrics by Kalicharan Pattnaik.",
+          "The retrospective identifies Manikajodi, Amada Bata, Abhinetri, Malajanha, Matira Manisha and Adina Megha as films drawn from literary works.",
+          "Prashanta Nanda’s Sesha Shrabana (1976) and Sadhu Meher’s Abhiman (1977) are singled out for drawing audiences back during a lean period."
+        ],
+        "limits": [
+          "Keep all derived prose across article to at most200words; above facts should be selected, not all expanded.",
+          "The page’s nationhood terminology is misleading for1936; write linguistic province only with independent history source.",
+          "Do not use its imprecise Maya Miriga award wording or award/festival conflations. This is retrospective evidence, not contemporaneous1936 programme."
+        ]
+      },
+      {
+        "id": "ofdc-own-record",
+        "url": "https://rtiodisha.gov.in/Pages/printManual/section_id:2/office_id:1345/lang",
+        "title": "Odisha Film Development Corporation Limited, Cuttack — Manual1",
+        "type": "Institution’s own statutory RTI disclosure",
+        "locator": "Date of Incorporation; opening objectives list; Kalinga Studios section",
+        "usable_claims": [
+          "Incorporation and commercial operation are dated22April1976.",
+          "OFDC’s objectives included financing Odia feature films and low-cost rural/semiurban cinema houses; studio facilities for shooting, dubbing, editing, music recording and mixing; festivals and assistance to cine societies.",
+          "Kalinga Studios is described as an OFDC subsidiary providing pre- and post-production facilities."
+        ],
+        "limits": [
+          "Institutional objectives are not proof every facility or programme was operating continuously.",
+          "Do not confuse OFDC incorporation1976 with a separately verified opening date for Kalinga Studios.",
+          "Keep derived prose under200words."
+        ]
+      },
+      {
+        "id": "uttam-air",
+        "url": "https://newsonair.gov.in/legendary-odia-actor-uttam-mohanty-passes-away-at-66/",
+        "title": "Veteran Odia actor Uttam Mohanty dies at66",
+        "date": "2025-02-28",
+        "type": "Akashvani news report",
+        "locator": "Opening two paragraphs, lines49–50 in fetched page",
+        "usable_claims": [
+          "Akashvani reports his work in more than130Odia films,30Bengali films and the Hindi film Naya Zahar.",
+          "The report identifies Aparajita Mohanty as his actor wife and Babushan as his actor son."
+        ],
+        "limits": [
+          "Useful for cross-language acting and continuity across generations; do not use the headline age to calculate birthyear because other sources disagree.",
+          "This source does not establish debutfilm, best-actor awards or precise career total."
+        ]
+      },
+      {
+        "id": "sri-lokanath-object",
+        "url": "https://dsource.in/dcontent/design-india/collection/collection-details2.php?id=84",
+        "title": "Design in India Archives: Sri Lokanath",
+        "type": "IITBombay Dsource poster object entry, historical text cites IMDb",
+        "locator": "Detailed Description, lines37–52",
+        "usable_claims": [
+          "The archive identifies a print-on-paper poster for the1960Odia film Sri Lokanath, artistunknown.",
+          "It calls the film the firstOdia national-award winner."
+        ],
+        "limits": [
+          "Do not cite as originalawardregister; detailed description is derivative.",
+          "Wording eleventhOdiafilm madebyRuprang is ambiguous and should be excluded.",
+          "No verified reusableimage licence in inspected record; existence inarchive does notgrant reuse."
+        ]
+      }
+    ],
+    "precise_award_unresolved": {
+      "film": "Sri Lokanath",
+      "expected_lead": "1960awardyear,8thNationalFilmAwards, President’sSilverMedalforBestFeatureFilminOriya",
+      "status": "Not primary-verified in this pass; official IFFI original and Wayback links from Wikipedia both failed. Do not represent expectedlead as confirmedawardcitation.",
+      "reference_page_inspected": "https://en.wikipedia.org/wiki/Sri_Lokanath"
+    },
+    "discrepancies_and_exclusions": [
+      "DFF1990Panorama catalogue search extraction says SitaBibaha made1934; page open timed out. Do not silently replace1936release with1934. It may reflect production chronology or catalogue error, unresolved.",
+      "Avoid conflating Gloria Mohanty’s role named Lalita in SriJagannath with the1949film Lalita; actor foundation needs a better primary source. ParbatiGhose and GloriaMohanty are different performers, not alternate names.",
+      "No primary-grounded biographical detail sufficient for JayiramPani, SamuelSahu, GourPrasadGhose or ParbatiGhose in this bounded pass. Do not manufacture a complete founding cast list.",
+      "PIB’s story scaffolding is useful but its evaluative GoldenAge terminology should be attributed, not presented as universal periodization."
+    ],
+    "followup_sources_not_fully_read": [
+      {
+        "url": "https://dff.nic.in/images/Documents/134_IPCatalogue1990.pdf",
+        "reason": "Officialfestivalcatalogue; open timedout; searchsnippet has usefulfilmhistory but1934date discrepancy."
+      },
+      {
+        "url": "https://indiancine.ma/texts/indiancine.ma%3AEncyclopedia_of_Indian_Cinema/text.pdf",
+        "reason": "Rajadhyaksha/Willemen encyclopedia scan; fetch rejected37.6MB. Searchexcerpt calls SeshaSravana Nanda’s successfuldirectorialdebut and secondOrissacolourfilm. Needs pageinspection beforecitation."
+      },
+      {
+        "url": "https://cm.odisha.gov.in/en/video-gallery/inauguration-renovated-state-art-kalinga-studio",
+        "reason": "Current official inaugurationvideo lead; notopened, so no currentstatusclaim."
+      }
+    ],
+    "recommended_selective_use": "Anchor the foundation in the gap between1936SitaBibah and1949Lalita, connect actor-sung cinema to literary/music practice, then explain1976OFDC as production/exhibition infrastructure. Use independent festival/award-agent research for internationalrecognition; avoid unsupported actorslaundrylist."
+  },
+  "recognition": {
+    "reviewed_at": "2026-10-25",
+    "role": "Independent primary-source recognition research; read-only repository",
+    "scope": "Award categories and eligibility years distinguished from ceremony years and festival selection. No films watched.",
+    "records": [
+      {
+        "film": "Bhukha",
+        "director": "Sabyasachi Mohapatra",
+        "status": "institutional retrospective verified via indexed catalogue; festival original unresolved",
+        "film_year": 1989,
+        "language": "Sambalpuri",
+        "claim": "70th National Film Awards catalogue biography credits Bhukha with International Jury Award at Gijon Film Festival.",
+        "source": "https://nfaindia.org/images/pdf/70th%20National%20Film%20Award%20Catalogue.pdf",
+        "locator": "printed p.036, North Panel chairperson biography",
+        "access": "Search-index extraction; direct PDF and homepage timed out; curl DNS failed. Official-domain use corroborated by PIB https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/oct/doc2024109412301.pdf",
+        "limits": "Catalogue gives film year1989, not prize year. Do not assert1990 as independently established or translate category into overall Best Film. No first-Odisha-international-award claim."
+      },
+      {
+        "film": "Maya Miriga",
+        "director": "Nirad Mohapatra",
+        "status": "verified",
+        "recognition": "Second Best Feature Film",
+        "scope": "national overall feature award, not Odia-language category",
+        "eligibility_year": 1983,
+        "award_edition": 31,
+        "award_year": 1984,
+        "source": "https://www.dff.nic.in/images/Documents/86_31stNfacatalogue.pdf",
+        "locator": "Award for Second Best Feature Film citation",
+        "access": "Indexed original catalogue",
+        "limits": "Source calls it second best film of1983; Cannes lists film1984. Keep award eligibility distinct from release/catalogue year."
+      },
+      {
+        "film": "Maya Miriga",
+        "status": "verified",
+        "recognition": "1984 Critics’ Week feature selection",
+        "scope": "Cannes parallel section, not main Palme d’Or competition or an award",
+        "source": "https://www.semainedelacritique.com/en/edition/1984/movie/maya-miriga",
+        "support": "https://www.semainedelacritique.com/en/edition/1984/film-selection",
+        "access": "Official festival pages"
+      },
+      {
+        "film": "Maya Miriga",
+        "status": "verified",
+        "recognition": "Grand Prize Competition Third World",
+        "scope": "Specific Mannheim competition prize; archive lists both Maya Miriga and Leila et les loups in this category",
+        "festival_year": 1984,
+        "source": "https://www.iffmh.de/festival/history/1984/index_eng.html",
+        "locator": "Awards list,33rd International Film Week Mannheim8–13October1984",
+        "access": "Opened official archive",
+        "limits": "Overall Grand Prize of Mannheim awarded Malambo. Do not collapse the two categories."
+      },
+      {
+        "film": "Maya Miriga",
+        "status": "government retrospective only",
+        "recognition": "Special Jury Award Hawaii; Locarno selection",
+        "source": "https://dff.nic.in/images/Documents/18_IPCatalogue2015.pdf",
+        "locator": "printed p.135 Nirad Mohapatra retrospective",
+        "limits": "Exact Hawaii award year and original festival category not independently established; optional omit from concise article."
+      },
+      {
+        "film": "Seeta Raati",
+        "director": "Manmohan Mahapatra",
+        "status": "verified",
+        "recognition": "Best Oriya Film",
+        "award_edition": 29,
+        "eligibility_year": 1981,
+        "scope": "language-specific national award",
+        "source": "https://nfaindia.org/images/pdf/29th%20National%20Film%20Award%20Catalogue.pdf",
+        "locator": "Best Oriya Film citation",
+        "access": "Indexed original catalogue",
+        "corroboration": "DFF IndianPanorama1990 printed54 dates recognition1982: https://dff.nic.in/images/Documents/134_IPCatalogue1990.pdf",
+        "limits": "Do not make1982 the eligibility year."
+      },
+      {
+        "film": "Seeta Rati",
+        "status": "selection verified, exact first/year unresolved",
+        "recognition": "Indian Panorama selection",
+        "source": "https://dff.nic.in/images/Documents/138_IPCatalogue1986.pdf",
+        "locator": "Oriya cinema survey explicitly lists Seeta Rati,Nirab Jhada,Klanta Aparanha as having made Panorama",
+        "access": "Indexed original catalogue",
+        "limits": "Secondary sources disagree1982/1983. Avoid first-Odia and exact selection year without original edition catalogue."
+      },
+      {
+        "film": "Sala Budha",
+        "director": "Sabyasachi Mohapatra",
+        "status": "verified",
+        "recognition": "Indian Panorama2013 selection",
+        "scope": "selection, not festival award",
+        "source": "https://dff.nic.in/images/Documents/20_IPCatalogue2014.pdf",
+        "locator": "printed p.031 Mohapatra Movie Magic producer biography",
+        "access": "Indexed original catalogue",
+        "limits": "Do not confuse with Sala Budhar Badla national award; no international-competition claim from this source."
+      },
+      {
+        "film": "Aadim Vichar",
+        "director": "Sabyasachi Mohapatra",
+        "status": "verified",
+        "recognition": "Best Odiya Film",
+        "scope": "language-specific national award",
+        "eligibility_year": 2014,
+        "award_edition": 62,
+        "announcement_date": "2015-03-24",
+        "source": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=117636",
+        "locator": "Best Odiya Film result",
+        "access": "Opened PIB official result"
+      },
+      {
+        "film": "Adim Vichar",
+        "status": "verified",
+        "recognition": "Indian Panorama2014 screening",
+        "scope": "selection/screening distinct from2015 award announcement",
+        "source": "https://dff.nic.in/images/Documents/20_IPCatalogue2014.pdf",
+        "locator": "printed pp.030–031",
+        "corroboration": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=111903"
+      },
+      {
+        "film": "Pratikshya",
+        "director": "Anupam Patnaik",
+        "status": "verified",
+        "recognition": "Best Odia Film",
+        "scope": "language-specific national award",
+        "eligibility_year": 2021,
+        "award_edition": 69,
+        "announcement_date": "2023-08-24",
+        "source": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1951758&lang=2&reg=48",
+        "access": "Official indexed/opened result",
+        "corroboration": "https://cbfcindia.gov.in/cbfcAdmin/assets/pdf/Films_certified_2021.pdf",
+        "locator": "CBFC row53: certification29December2021, DIL/1/27/2021-CUT",
+        "limits": "2022 theatrical-release label must not overwrite official award-for2021. Overall Best Feature Film was Rocketry."
+      },
+      {
+        "film": "Daman",
+        "directors": [
+          "Vishal Mourya",
+          "Debi Prasad Lenka"
+        ],
+        "status": "verified",
+        "recognition": "Best Odia Film",
+        "scope": "language-specific national award",
+        "eligibility_year": 2022,
+        "award_edition": 70,
+        "announcement_date": "2024-08-16",
+        "source": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2045960&lang=2&reg=48",
+        "locator": "result row(g)",
+        "corroboration": "https://mib.gov.in/sites/default/files/2024-12/70th-nfa-gazette-notification.pdf",
+        "gazette_locator": "PDF p.22, English list Best Odia Film; notification7October2024",
+        "limits": "Not overall Best Feature Film; that award was Aattam. Not Hindi2001film Daman."
+      }
+    ],
+    "excluded_claims": [
+      "Bhukha exact Gijon prize year1990 not confirmed from original festival archive.",
+      "Bhukha first Odisha film to win any international award contradicted by Maya Miriga1984.",
+      "Maya Miriga won overall Mannheim Grand Prize or Cannes award unsupported.",
+      "Seeta Rati precise first IndianPanorama year unresolved1982/1983.",
+      "Sala Budha won national film award: possible confusion with Sala Budhar Badla; not established.",
+      "Award year, certification year, release year and ceremony year are not interchangeable."
+    ],
+    "limits": "Web primary pages and indexed original PDFs reviewed; some PDF direct access unavailable. No complete film viewing or independent audiovisual analysis. Repository untouched."
+  },
+  "article_claim_groups": [
+    {
+      "footnote": "restoration",
+      "source_note": "Il Cinema Ritrovato, [*Māyā Miriga*, 2024 programme](https://festival.ilcinemaritrovato.it/en/film/maya-miriga/), screening on 27 June; film note by Shivendra Singh Dungarpur and restoration credits. Restoration by Film Heritage Foundation at L’Immagine Ritrovata, with the director’s family. The programme credits additional technical partners and distinguishes the negative from the NFDC–NFAI print."
+    },
+    {
+      "footnote": "foundation",
+      "source_note": "Kapilas Bhuyan, [“75 Years of Odiya Film Making: A Flashback”](https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=67399), IFFI retrospective hosted by PIB, 22 November 2010. Opening chronology, music and literary-adaptation paragraphs. An authored retrospective, not a surviving 1936 screening programme."
+    },
+    {
+      "footnote": "gour-parbati",
+      "source_note": "[Gour–Parbati filmography](https://www.gourparbati.com/filmography.php), compiled by Khirod Naik and Shekhar Barman. Entries distinguish production from directing and identify the collective directing credit “Siddharth.”"
+    },
+    {
+      "footnote": "parbati-film",
+      "source_note": "Gour–Parbati archive, [*Chha Mana Atha Guntha* (1986)](https://www.gourparbati.com/movie_chha_mana_atha_guntha.php), story, direction, screenplay and cast credits."
+    },
+    {
+      "footnote": "ofdc",
+      "source_note": "Odisha Film Development Corporation, [RTI Manual 1](https://rtiodisha.gov.in/Pages/printManual/section_id:2/office_id:1345/lang), incorporation date and objectives. Institutional remit is not a claim that every service operated continuously."
+    },
+    {
+      "footnote": "maya-national",
+      "source_note": "Directorate of Film Festivals, [31st National Film Awards catalogue](https://www.dff.nic.in/images/Documents/86_31stNfacatalogue.pdf), Second Best Feature Film citation: films of 1983, awards in 1984. Indexed catalogue text inspected; direct PDF access was intermittent."
+    },
+    {
+      "footnote": "maya-cannes",
+      "source_note": "Semaine de la Critique, [*Maya Miriga*, 1984](https://www.semainedelacritique.com/en/edition/1984/movie/maya-miriga), official selection record."
+    },
+    {
+      "footnote": "maya-mannheim",
+      "source_note": "International Film Festival Mannheim–Heidelberg, [1984 archive](https://www.iffmh.de/festival/history/1984/index_eng.html), award list. The historical Third World competition category is reproduced to avoid conflation with the overall prize."
+    },
+    {
+      "footnote": "seeta",
+      "source_note": "[29th National Film Awards catalogue](https://nfaindia.org/images/pdf/29th%20National%20Film%20Award%20Catalogue.pdf), Best Oriya Film citation for 1981; and [Indian Panorama 1985 catalogue](https://dff.nic.in/images/Documents/139_IPCatalogue1985.pdf), Manmohan Mahapatra biography naming Paris and Montreal screenings. Indexed original catalogue text; exact first Panorama-selection year is not asserted."
+    },
+    {
+      "footnote": "new-wave",
+      "source_note": "Ashok Palit, [“The New Wave Cinema of Odisha”](https://fipresci-india.org/wp-content/uploads/2025/01/11.-Article-Ashok-Palit-New-Wave-Cinema-of-Odisha.pdf), *E-CineIndia*, October–December 2024, pp.3–4 and 6. Used for attributed critical descriptions, not as a substitute for festival award registers."
+    },
+    {
+      "footnote": "bhukha",
+      "source_note": "[70th National Film Awards catalogue](https://nfaindia.org/images/pdf/70th%20National%20Film%20Award%20Catalogue.pdf), printed p.036, Sabyasachi Mohapatra biography: 1989, Sambalpuri, Gijón International Jury Award. Indexed official catalogue text inspected; the original Gijón award record and exact prize year remain unverified. The research prompt included [_rohitmahanand’s Instagram reel](https://www.instagram.com/reel/DduwFPqzOqP/); it is a discovery lead, not independent award evidence."
+    },
+    {
+      "footnote": "bhukha-play",
+      "source_note": "Riyan Ramanath V, [“Film highlights struggle to survive in rural Odisha”](https://timesofindia.indiatimes.com/city/bhubaneswar/film-highlights-struggle-to-survive-in-rural-odisha/articleshow/17396785.cms), *The Times of India*, 28 November 2012, paragraphs on *Bhukha*’s play source and folk drummers. Used for those details only; the report’s relative-year arithmetic is inconsistent and is not adopted."
+    },
+    {
+      "footnote": "sala",
+      "source_note": "Directorate of Film Festivals, [Indian Panorama 2014 catalogue](https://dff.nic.in/images/Documents/20_IPCatalogue2014.pdf), printed p.031, producer biography recording *Sala Budha*’s 2013 Panorama selection."
+    },
+    {
+      "footnote": "aadim",
+      "source_note": "PIB, [62nd National Film Awards results](https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=117636), 24 March 2015, Best Odiya Film category for 2014. Language-category wording follows the award record."
+    },
+    {
+      "footnote": "sambalpuri-study",
+      "source_note": "Amrit Amlan Pattanaik, [“Reading auteurship and subregional subjectivities in the Sambalpuri cinema of Sabyasachi Mohapatra”](https://intellectdiscover.com/content/journals/10.1386/safm_00105_1), *Studies in South Asian Film & Media* 17(2), pp.153–172. Issue dated December 2025; publisher lists online publication on 27 March 2026. Abstract and bibliography inspected; the full article was not available in this pass."
+    },
+    {
+      "footnote": "sadhu",
+      "source_note": "Directorate of Film Festivals, [22nd National Film Awards catalogue](https://www.dff.nic.in/images/Documents/94_22ndNfacatalogue.pdf), Best Actor citation for Sadhu Meher in *Ankur*, films of 1974. Indexed original citation inspected; direct PDF retrieval timed out."
+    },
+    {
+      "footnote": "nandita-roots",
+      "source_note": "Nandita Das, [“I am still searching for a place to call home”](https://openthemagazine.com/art-culture/i-am-still-searching-for-a-place-to-call-home/), *Open*, 2013. Reuses the KB source identity `creators-nandita-roots`."
+    },
+    {
+      "footnote": "nandita-cannes",
+      "source_note": "Festival de Cannes, [Nandita Das](https://www.festival-cannes.com/en/p/nandita-das/), official jury and film-selection history. See also the existing KB source `creators-manto-cannes` for the film’s own credits."
+    },
+    {
+      "footnote": "uttam",
+      "source_note": "Akashvani, [Uttam Mohanty obituary](https://newsonair.gov.in/legendary-odia-actor-uttam-mohanty-passes-away-at-66/), 28 February 2025, cross-language film work. Career totals and disputed birth-year arithmetic are not required here."
+    },
+    {
+      "footnote": "pratikshya",
+      "source_note": "PIB, [69th National Film Awards results](https://www.pib.gov.in/PressReleasePage.aspx?PRID=1951758&lang=2&reg=48), 24 August 2023, Best Odia Film for 2021. The [CBFC 2021 certification list](https://cbfcindia.gov.in/cbfcAdmin/assets/pdf/Films_certified_2021.pdf), row 53, dates certification to 29 December 2021; this is separate from theatrical release."
+    },
+    {
+      "footnote": "daman",
+      "source_note": "PIB, [70th National Film Awards results](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2045960&lang=2&reg=48), 16 August 2024, Best Odia Film for 2022. This is the Odia film *Daman*, not the unrelated Hindi film of 2001."
+    }
+  ],
+  "source_ids": [
+    {
+      "id": "cinema-restoration",
+      "title": "Māyā Miriga, 2024 programme",
+      "resource": "https://festival.ilcinemaritrovato.it/en/film/maya-miriga/"
+    },
+    {
+      "id": "cinema-foundation",
+      "title": "“75 Years of Odiya Film Making: A Flashback”",
+      "resource": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=67399"
+    },
+    {
+      "id": "cinema-gour-parbati",
+      "title": "Gour–Parbati filmography",
+      "resource": "https://www.gourparbati.com/filmography.php"
+    },
+    {
+      "id": "cinema-parbati-film",
+      "title": "Chha Mana Atha Guntha (1986)",
+      "resource": "https://www.gourparbati.com/movie_chha_mana_atha_guntha.php"
+    },
+    {
+      "id": "cinema-ofdc",
+      "title": "RTI Manual 1",
+      "resource": "https://rtiodisha.gov.in/Pages/printManual/section_id:2/office_id:1345/lang"
+    },
+    {
+      "id": "cinema-maya-national",
+      "title": "31st National Film Awards catalogue",
+      "resource": "https://www.dff.nic.in/images/Documents/86_31stNfacatalogue.pdf"
+    },
+    {
+      "id": "cinema-maya-cannes",
+      "title": "Maya Miriga, 1984",
+      "resource": "https://www.semainedelacritique.com/en/edition/1984/movie/maya-miriga"
+    },
+    {
+      "id": "cinema-maya-mannheim",
+      "title": "1984 archive",
+      "resource": "https://www.iffmh.de/festival/history/1984/index_eng.html"
+    },
+    {
+      "id": "cinema-seeta",
+      "title": "29th National Film Awards catalogue",
+      "resource": "https://nfaindia.org/images/pdf/29th%20National%20Film%20Award%20Catalogue.pdf"
+    },
+    {
+      "id": "cinema-new-wave",
+      "title": "“The New Wave Cinema of Odisha”",
+      "resource": "https://fipresci-india.org/wp-content/uploads/2025/01/11.-Article-Ashok-Palit-New-Wave-Cinema-of-Odisha.pdf"
+    },
+    {
+      "id": "cinema-bhukha",
+      "title": "70th National Film Awards catalogue",
+      "resource": "https://nfaindia.org/images/pdf/70th%20National%20Film%20Award%20Catalogue.pdf"
+    },
+    {
+      "id": "cinema-bhukha-play",
+      "title": "“Film highlights struggle to survive in rural Odisha”",
+      "resource": "https://timesofindia.indiatimes.com/city/bhubaneswar/film-highlights-struggle-to-survive-in-rural-odisha/articleshow/17396785.cms"
+    },
+    {
+      "id": "cinema-sala",
+      "title": "Indian Panorama 2014 catalogue",
+      "resource": "https://dff.nic.in/images/Documents/20_IPCatalogue2014.pdf"
+    },
+    {
+      "id": "cinema-aadim",
+      "title": "62nd National Film Awards results",
+      "resource": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=117636"
+    },
+    {
+      "id": "cinema-sambalpuri-study",
+      "title": "“Reading auteurship and subregional subjectivities in the Sambalpuri cinema of Sabyasachi Mohapatra”",
+      "resource": "https://intellectdiscover.com/content/journals/10.1386/safm_00105_1"
+    },
+    {
+      "id": "cinema-sadhu",
+      "title": "22nd National Film Awards catalogue",
+      "resource": "https://www.dff.nic.in/images/Documents/94_22ndNfacatalogue.pdf"
+    },
+    {
+      "id": "creators-nandita-roots",
+      "title": "“I am still searching for a place to call home”",
+      "resource": "https://openthemagazine.com/art-culture/i-am-still-searching-for-a-place-to-call-home/"
+    },
+    {
+      "id": "cinema-nandita-cannes",
+      "title": "Nandita Das",
+      "resource": "https://www.festival-cannes.com/en/p/nandita-das/"
+    },
+    {
+      "id": "cinema-uttam",
+      "title": "Uttam Mohanty obituary",
+      "resource": "https://newsonair.gov.in/legendary-odia-actor-uttam-mohanty-passes-away-at-66/"
+    },
+    {
+      "id": "cinema-pratikshya",
+      "title": "69th National Film Awards results",
+      "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1951758&lang=2&reg=48"
+    },
+    {
+      "id": "cinema-daman",
+      "title": "70th National Film Awards results",
+      "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2045960&lang=2&reg=48"
+    }
+  ],
+  "media": "../media/odia-cinema/provenance.json",
+  "interpretation": "Transitions, preservation argument and questions are editorial synthesis; film descriptions attributed to inspected programmes/criticism. No full films watched.",
+  "excluded": [
+    "Bhukha first-ever Odisha international award",
+    "Cannes selection as Cannes prize",
+    "Mannheim category prize as overall Grand Prize",
+    "Regional film award as individual acting award",
+    "Sri Lokanath exact award unverified in original register",
+    "Current box-office figures or global popularity rankings"
+  ],
+  "followup_gaps": [
+    "Recover8thNFA original SriLokanath citation",
+    "Recover originalGijon prize record/year",
+    "View films legally before scene-level criticism",
+    "Resolve SeetaRaati production/release/Panorama dates",
+    "Expand early actors,commercial cinema,women,technicians and music with originalcredits",
+    "Rights-cleared historical filmstills/posters for futureindividualarticles"
+  ],
+  "production": {
+    "research": "Anvesha,Drishti and root coordinator",
+    "drafting": "root coordinator under Founder editorialdirection",
+    "preview": "Samanta",
+    "human_review_claimed": false,
+    "published": false
+  },
+  "article_sha256": "f044f27f979329e3e049c02bbb81ccefa49d5784614b872a42472cc100650f65",
+  "indexed_excerpt_capture": {
+    "source": "https://dff.nic.in/images/Documents/139_IPCatalogue1985.pdf",
+    "captured_on": "2026-10-25",
+    "tool_result": "web search result turn285search20",
+    "excerpt": "has been screened in the Indian Film Fete in Paris at the Pompidou Centre, and at Montreal in Canada.",
+    "scope": "Indexed primary-catalogue extraction, not independently fetched complete PDF. Article uses only screening locations from this excerpt."
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "date": "2026-10-26",
+  "status": "implementation_handed_to_release_coordinator",
+  "publication": "Pending coordinator release; no Git or deployment operations by implementer",
+  "routes": [
+    "/cinema/",
+    "/cinema/odia-cinema/",
+    "/cinema/air-cuttack/",
+    "/cinema/parbati-ghose/",
+    "/cinema/sadhu-meher/",
+    "/cinema/manmohan-mahapatra/",
+    "/cinema/maya-miriga/",
+    "/cinema/bhukha/",
+    "/cinema/nandita-das/",
+    "/cinema/daman/",
+    "/cinema/odia-television/",
+    "/cinema/odia-ott/",
+    "/cinema/book/",
+    "/cinema/watch/"
+  ],
+  "source_alignment_sequence": [
+    {
+      "article": "odia-cinema",
+      "scope": "Reviewed children overview block, five source records/definitions and provider Watch link promoted verbatim",
+      "review": "Drishti PASS before TV began",
+      "notes": 51,
+      "citation_pairs": 58,
+      "images": 3
+    },
+    {
+      "article": "odia-television",
+      "scope": "Reviewed animation block, six source records/definitions and IDMT producer Watch link; final source-check dates match reviewed book",
+      "review": "Drishti PASS, tiny reviewed-book date wording carried forward",
+      "notes": 15,
+      "citation_pairs": 18,
+      "images": 1
+    }
+  ],
+  "files": {
+    "projects/site/src/lib/cinema-article.mjs": {
+      "sha256": "35b230ec936ea51ecb81bc34c87edd02d3d0c0936f24e7a2f4399d947939b6c7",
+      "bytes": 4855
+    },
+    "projects/site/src/data/cinema.json": {
+      "sha256": "ba0679c80d36e221f81e3b0398b39878211f2eddae1ec625c351cae117d0826d",
+      "bytes": 75484
+    },
+    "projects/site/src/data/cinema-player.html": {
+      "sha256": "524769c53efc3f930dd1a3cb62cfc5f5d3639391c975f9a11a696d8d1624799f",
+      "bytes": 4783
+    },
+    "projects/site/tools/prepare-cinema.mjs": {
+      "sha256": "456ad399e97953efa571c6aa8db24690ab80a5d669ba4b0b6a47627b8caef1e9",
+      "bytes": 2297
+    },
+    "projects/site/tools/prepare-cinema-player.mjs": {
+      "sha256": "5d5c5b7690cf3f7edef85bc7ad21bf2158cba2edca6e38897aafbfae90953c6f",
+      "bytes": 1290
+    },
+    "projects/site/tests/cinema-release.test.mjs": {
+      "sha256": "78a4ed1f62411e34fbbfe42cb111d850d96b2acf1d550e0b99d402c54e6d1af6",
+      "bytes": 3836
+    },
+    "kb/research/culture/odia-cinema.md": {
+      "sha256": "7ea77880fc51c84b5bd56d8170346a4791dedcc9d8bdeb96d4185828ec3f588b",
+      "bytes": 55310
+    },
+    "kb/research/culture/odia-television.md": {
+      "sha256": "e8222758746c6a0e4675b806ef43f06f24c616843830597330be26ac9db5f816",
+      "bytes": 17823
+    },
+    "output/pdf/build_book.py": {
+      "sha256": "2a8c5cf6cbe2dd84c2b6043c65c8c9015ffd6baae7e172ab66bc197e3eed2524",
+      "bytes": 21900
+    },
+    "projects/site/src/pages/cinema/index.astro": {
+      "sha256": "a790026a07a7c5202fbe46351db434f0912c7b788d79f90e00f0a5acf5b38e19",
+      "bytes": 1898
+    },
+    "projects/site/src/pages/cinema/[slug].astro": {
+      "sha256": "53a93618698f2dbc4eecb1ec1135c7668d76da68b49480d4588785da4a281584",
+      "bytes": 2414
+    },
+    "projects/site/src/pages/cinema/watch.astro": {
+      "sha256": "f923876f0049b8775875d6d76e838e9319b17713a48d78d32e64b9ee5150ceec",
+      "bytes": 1623
+    },
+    "projects/site/src/pages/cinema/book.astro": {
+      "sha256": "373473292e1e3eeafe63d150913b56f41c4f6dfb9c6cbc3f40a38120a3c9e0d1",
+      "bytes": 2764
+    }
+  },
+  "assets": {
+    "web_derivative_files_and_provenance": 221,
+    "total_bytes": 20820766,
+    "originals": "Retained untouched in KB; original large PNGs not deployed",
+    "key_image_mapping": "Same title derivative appears in article, reading card and Shell social metadata",
+    "player": "Source-identical reviewed app/core/catalogue; scoped CSS; explicit iframe referrer policy; no provider iframe"
+  },
+  "books": [
+    {
+      "file": "/archive/odia-cinema-a-living-screen.pdf",
+      "bytes": 5077890,
+      "sha256": "1cab48f871fc67784d8095162141b884be1cd6cdd80eaedbb4fccc229144f3b5"
+    },
+    {
+      "file": "/archive/odia-cinema-a-living-screen-print.pdf",
+      "bytes": 82106416,
+      "sha256": "f5a31e693c88693f95281ccec77f9c55857c16ed4bee4befd01b7fa1d6e2264b"
+    }
+  ],
+  "checks": {
+    "focused_site_tests": {
+      "passed": 4,
+      "failed": 0,
+      "command": "node --test projects/site/tests/cinema-release.test.mjs"
+    },
+    "preview_validator": "All eleven PASS after children integration; final TV date-only regeneration preserves figures/notes",
+    "full_latest_main_build": "Coordinator reported successful build before final TV date wording; coordinator will rebuild after final transfer",
+    "book_overlay_idempotence": "Section and Watch overlays skipped when already in canonical; existing reviewed PDF bytes remain unchanged",
+    "test_scope": [
+      "All11 canonical source hash bindings",
+      "Unique/resolving native footnote anchors",
+      "Exact figure counts and staged derivative hashes",
+      "AI illustration labels and public contribution routes",
+      "Further-reading links and multi-group overview preserved",
+      "Both PDFs match independent reviewed delivery hashes",
+      "Source-identical player logic with explicit strict-origin-when-cross-origin policy"
+    ]
+  },
+  "guidance": {
+    "skill": "modern-web-guidance",
+    "search": "read article navigation",
+    "guide": "accessibility",
+    "retrieved_sha256": "f7466d6f584f825079d0e9339f199aeb21be68a2309c1aa42ad631547df29e5a",
+    "quote": "Prefer HTML elements and attributes to ARIA",
+    "application": "Reused semantic article/byline/contents/reading-path components and native player controls; preserved descriptive iframe title and visible keyboard focus."
+  },
+  "limits": [
+    "No local-browser preview or bypass of prior file-access restriction",
+    "No embedded playback test; source links and explicit player controls retained",
+    "No self-approved publication; coordinator owns latest-main transfer, release gates and deployment",
+    "Public PDFs retain reviewed-edition statements; no press-ready or definitive-history claim"
+  ],
+  "handoff": [
+    "Copy cinema-only files; do not overwrite shared Shell, renderer, Explore or edition files",
+    "Prepared assets and data are committed outputs; CI does not need to run prep scripts",
+    "Tests compare PDFs to retained review receipt without requiring duplicate root output/pdf files",
+    "Player source tests use the small outputs/odia-movie-player source folder",
+    "Final deltas since first transfer: cinema-article.mjs bundle-root fix; cinema-release.test.mjs reviewed-PDF hash comparison; odia-television.md precise Watch date and refreshed cinema.json"
+  ]
+}

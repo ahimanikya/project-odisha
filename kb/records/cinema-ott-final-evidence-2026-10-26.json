@@ -1,0 +1,80 @@
+{
+  "review_date": "2026-10-26",
+  "reviewer": "Anvesha",
+  "article": "kb/research/culture/odia-ott.md",
+  "article_sha256": "954f0e76b7c71c1328e9f378a2338bcaf8a2c7e58b072089082f602a357d3f1a",
+  "verdict": "PASS",
+  "required_corrections": [],
+  "reuse": {
+    "query": "python3 tools/research/query_research.py Odia OTT",
+    "query_result": "No matching inventory entry; retained dossier read directly.",
+    "source_dossier": "kb/research/sources/odia-ott-evidence-2026-10-25.json",
+    "sha256": "472cd51d062efec6f9d6ce48430d5d8d1c80ed25cf5480d903442e572a7aac29"
+  },
+  "checks": [
+    {
+      "id": "tarang-launch2019",
+      "url": "https://onlytech.com/tarang-plus-first-odia-ott-otv/",
+      "inspection": "Original page freshly opened and relevant text read",
+      "locator": "lines21,27,40-51",
+      "finding": "Contemporary4November2019 report confirms27October2019 launch after planned5October; mixed launch offering supported. No universal first or current-price assertion.",
+      "assessment": "PASS"
+    },
+    {
+      "id": "kanccha-founder2025",
+      "url": "https://www.orissapost.com/individual-creator-can-challenge-large-organisations-says-rath/",
+      "inspection": "Original page freshly opened and relevant text read",
+      "locator": "lines83-94",
+      "finding": "Rath explicitly dates2021 co-founding with AkshayParija and CRNayak; named titles and production challenge supported as his account, not independently audited outcome.",
+      "assessment": "PASS"
+    },
+    {
+      "id": "tarang-chumbak",
+      "url": "https://www.mycitylinks.in/tarang-plus-first-odia-ott-platform-to-break-stereotypes",
+      "inspection": "Original page freshly opened and relevant text read",
+      "locator": "lines30,36,42-50",
+      "finding": "Freshly inspected original now independently confirms4March2020 report, directorSusantMani, lead actorsTamannaVyas/DivyadishaMohanty, same-gender relationship, limited-budget experimentation and actor preparation. No audience-majority or first claim adopted.",
+      "assessment": "PASS"
+    },
+    {
+      "id": "aao-founder2023",
+      "url": "https://www.mediainfoline.com/interview/interview-of-kaushik-das-ceo-founder-aaonxt",
+      "inspection": "Original page freshly opened and relevant text read",
+      "locator": "lines63,74-82",
+      "finding": "Freshly inspected original now independently confirms founder AAOTV2019 aggregation to AAONXTDecember2020, technology and production operation costs. Forecasts and subscriber claims excluded.",
+      "assessment": "PASS"
+    },
+    {
+      "id": "binge2023",
+      "url": "https://www.tataplay.com/dth/press-releases/tata-play-binge-adds-regional-otts-manoraramamax-koode-tarang",
+      "inspection": "Original page freshly opened and relevant text read",
+      "locator": "lines12-18",
+      "finding": "Official dated12January2023 announcement confirms TarangPlus addition/shared interface. Historical distribution evidence, not current terms or uptake.",
+      "assessment": "PASS"
+    },
+    {
+      "id": "mint-diaspora2025",
+      "url": "https://www.livemint.com/industry/media/overseas-markets-big-opportunity-local-streaming-platforms-regional-stories-zee5-ott-diaspora-hoichoi-11743406476365.html",
+      "inspection": "Retained prior dossier inspection reused; not freshly reopened",
+      "locator": "KaushikDasparagraphline156",
+      "finding": "Mint founder diaspora testimony remains clearly attributed; no Odia-specific overseas revenue percentage inferred.",
+      "assessment": "PASS"
+    },
+    {
+      "id": "selected-subtitles",
+      "url": "https://apps.apple.com/in/app/kanccha-lannka/id1584598214",
+      "inspection": "Fresh developer AppStore description read",
+      "locator": "lines53-57",
+      "finding": "English subtitles on selected titles expressly advertised. Current article correctly limits this to catalogue description, not all titles or all territories. No playback/payment test.",
+      "assessment": "PASS"
+    }
+  ],
+  "remaining_limits": [
+    "No unique first-Odia-OTT finding attempted.",
+    "Launch reports, founder recollections and catalogue descriptions remain distinct from audited commercial outcomes.",
+    "No current subscription guide, revenue ranking, overseas share or subscriber totals asserted.",
+    "No full-series viewing, app playback, territory availability or rights-contract inspection claimed.",
+    "Mint diaspora remarks remain founder testimony rather than population-wide preference evidence."
+  ],
+  "canonical_edits": false
+}

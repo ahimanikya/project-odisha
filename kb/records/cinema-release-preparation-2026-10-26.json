@@ -1,0 +1,52 @@
+{
+  "status": "validated_awaiting_repository_release",
+  "authorization": "User: ok, let’s go, after recommendation to complete alignment/checks and publish articles, book and viewing room together.",
+  "source_checkout": "prahallad-nataka-research",
+  "release_checkout": "odia-cinema-release-20261026",
+  "base_sha": "e3edac6c",
+  "reason_for_clean_checkout": "Source checkout 134 commits behind origin/main; transfer only cinema changes so newer public work is preserved.",
+  "scope": [
+    "11 cinema articles",
+    "cinema hub",
+    "viewing room",
+    "book guide",
+    "digital and print PDF downloads"
+  ],
+  "publication_route": "existing GitHub Pages manual workflow publish-site.yml",
+  "search_scope": "Existing indexable route policy unchanged",
+  "social_publication": false,
+  "workers": {
+    "Anvesha": "source/route/media evidence audit",
+    "Samanta": "scoped content and site integration",
+    "Drishti": "separate review of integrated release",
+    "Disha": "shared release records, Git and publication"
+  },
+  "outstanding": [
+    "Final article alignment review",
+    "Website build and checks",
+    "Pull request checks/merge",
+    "Authorized manual deployment",
+    "Live URL and viewing-room checks"
+  ],
+  "download_delivery": {
+    "digital": "site /archive/odia-cinema-a-living-screen.pdf",
+    "print": "GitHub release odia-cinema-book-2026-10-26 asset; unchanged reviewed PDF",
+    "reason": "Full artifact 1078312283 bytes exceeds Pages 1 GB limit; omit print PDF from Pages artifact while preserving public downloadable edition.",
+    "limit_source": "https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits"
+  },
+  "checks": {
+    "full_build": "PASS",
+    "full_tests": 599,
+    "coast_tests": 515,
+    "publication": "PASS",
+    "kb_bundle": "PASS",
+    "catalogue": "PASS",
+    "registers": "PASS",
+    "rollout": "PASS",
+    "autonomous_program": "PASS"
+  },
+  "artifact_bytes": 996205516,
+  "artifact_limit_bytes": 1000000000,
+  "indexable_routes_unchanged": 11,
+  "print_release_pending": true
+}

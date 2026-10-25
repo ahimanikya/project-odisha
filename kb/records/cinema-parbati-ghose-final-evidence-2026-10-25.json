@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-25",
+  "agent": "Anvesha",
+  "scope": "Bounded final pass1, Parbati Ghose only. Applicable AGENTS/editorial standard and research query reused; four currently linked sources opened. No article edits, viewing, image acquisition or publication.",
+  "article": "kb/research/culture/cinema-series/parbati-ghose.md",
+  "article_sha256": "a3ca9d2cd9f2a2f0c48f187f871ee1512afe2e47c978436be402d4fdb4cc7ae2",
+  "verdict": "PASS_WITH_MINOR_CHRONOLOGY_PRECISION_CHANGE",
+  "reused_evidence": [
+    {
+      "path": "kb/research/sources/cinema-series-research-2026-10-25.json",
+      "sha256": "c734bd1c10891e72e96c60964e18144eb6b6ae94f672817637e8e3b5eb2aee3f"
+    },
+    {
+      "path": "kb/research/sources/odia-cinema-research-2026-10-25.json",
+      "sha256": "a5b46c9397b7591903900aeebd4757c996418a9ea38cf183a263c20fd5d819d1"
+    },
+    {
+      "path": "kb/records/cinema-claims-review-2026-10-25.json",
+      "sha256": "f87e6b085741eb6533eeecee1e1e1bf6a93a5050a0f08c72266b433a7f207b0a"
+    },
+    {
+      "path": "kb/records/cinema-series-image-rights-audit-2026-10-25.json",
+      "sha256": "d216780234f8f26ff5b9047fcfebff6713634db1a26ca350c4101cbdc58b42b7"
+    }
+  ],
+  "checks": [
+    {
+      "source": "https://www.gourparbati.com/movie_chha_mana_atha_guntha.php",
+      "inspection": "Fresh full credit page read",
+      "locator": "Header lines0–2; producer/director14–16; screenplay26–28; camera30–32; editor34–36; music41–43; cast103–109",
+      "finding": "All stated production, screenplay and cast/technical credits supported. Shrabani explicitly identified as Parbati. Source spells cast Bijoy Mohanty but assistant-direction list uses Bijay; current standard Bijay spelling is not identity conflict. Header dates film1986 and says based on Senapati novel.",
+      "limit": "Archive is compiled primary-family film documentation, not inspected original title cards. Header does not independently establish exact theatrical release year/date. Source separates Prafulla Kar music from Purna Khuntia background music; current text makes no all-music exclusivity claim."
+    },
+    {
+      "source": "https://www.gourparbati.com/filmography.php",
+      "inspection": "Fresh full filmography read",
+      "locator": "Compiled by Khirod Naik and Shekhar Barman line46; Laxmi175–190; Kaa194–211; Stree215–233; adaptation273–286",
+      "finding": "Laxmi,Kaa,Stree producer credits include Gour Prasad Ghose and Parbati Ghose. Kaa/Stree Siddharth explicitly includes Ram Chandra Thakur,Gour andParbati. Adaptation year1986 and sole producer/directorParbati supported.",
+      "limit": "Article correctly does not claim sole direction of partnership films or invent their release dates. No first-woman-director claim."
+    },
+    {
+      "source": "https://www.gourparbati.com/award.php",
+      "inspection": "Fresh full awards page read",
+      "locator": "Parbati section31–37; Gour section1–10",
+      "finding": "Archive records national regional-film honours for Laxmi,Kaa,Stree under both artists. Article accurately attributes archive and does not turn film honours into individual Best Actress awards.",
+      "limit": "Exact catalogue category nomenclature and presentation-versus-film years not freshly independently established; current article avoids exact dates/categories beyond national recognition."
+    },
+    {
+      "source": "https://www.educationaboutasia.org/article/id/1629/",
+      "inspection": "Fresh full original article read",
+      "locator": "Peter Samuels byline32; publication62–63; introduction78; colonial-law analysis82–89; couple90–91",
+      "finding": "Mangaraj moneylending/property seizure through colonial courts, satirical novel and Bhagia/Saria weaver couple all supported. Current prose identifies Samuels and keeps literary plot separate from cast/film credit evidence.",
+      "limit": "Not a film review; cannot establish screen-scene fidelity, adaptation choices or reception. Current prose makes no such specific claim."
+    }
+  ],
+  "recommended_changes": [
+    {
+      "priority": "minor precision",
+      "current": "The film was released in 1986, adapting Fakir Mohan Senapati’s novel.",
+      "replacement": "The 1986 film adapts Fakir Mohan Senapati’s novel.",
+      "reason": "Sources establish film year1986, but page does not expressly identify theatrical release. No broad search needed for this wording fix."
+    }
+  ],
+  "no_changes_needed": [
+    "Crew roles and collective Siddharth credit.",
+    "Award category caution and avoidance of firsts.",
+    "Literary-source versus film-production distinction.",
+    "Current stamp and digitised-novel captions covered by preceding image-rights audit."
+  ],
+  "remaining_limits": [
+    "No full film viewing or original screen credits inspected.",
+    "Archive year is not a fully documented release chronology.",
+    "Primary national-award catalogues not reopened because current claim already narrowly attributed.",
+    "Review concerns evidence; root/Drishti own prose and rendered-preview acceptance."
+  ]
+}

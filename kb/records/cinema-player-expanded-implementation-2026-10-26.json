@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-26",
+  "status": "implementation_complete_source_checks_cleared",
+  "entrypoint": "outputs/odia-movie-player/index.html",
+  "scope": "Local-only catalogue expansion; no publication, browser bypass or PDF changes",
+  "counts": {
+    "entries": 37,
+    "distinct_titles": 36,
+    "full_film_routes": 31,
+    "official_full_film_uploads": 19,
+    "provider_listings": 12,
+    "trailers": 5,
+    "archive_song_clips": 1,
+    "verified_public_domain": 0
+  },
+  "files": {
+    "outputs/odia-movie-player/README.md": {
+      "sha256": "f7a0d2f74e5daa6beb57baacbe2187389d970a9a5b166ec32f974fbc5d5c0120",
+      "bytes": 3234
+    },
+    "outputs/odia-movie-player/app.js": {
+      "sha256": "162aa27337f5b7edec3856de1496baa9d4fea14563b2f1a88a8dc3c8268b6926",
+      "bytes": 7859
+    },
+    "outputs/odia-movie-player/catalogue.js": {
+      "sha256": "68d64e1e0f0bb0713b04ec78082060dab4a0dba25b41df60f97dad8e77a8f4b7",
+      "bytes": 57754
+    },
+    "outputs/odia-movie-player/catalogue.json": {
+      "sha256": "f11f5f7397bb1d5096f3d4d3622f9a7cd5d128714964e60c4688a5e7fd7461a0",
+      "bytes": 57731
+    },
+    "outputs/odia-movie-player/core.js": {
+      "sha256": "f2b54d2f5a0c7b681d139c63398dfa70d1b51ae8cbdc5ad0a4d7b976778f49a8",
+      "bytes": 2504
+    },
+    "outputs/odia-movie-player/index.html": {
+      "sha256": "f53ffe66cb1fc91f1988b829b7a34d166062c8a79bcec1440a6c4fb42a3a25f8",
+      "bytes": 6058
+    },
+    "outputs/odia-movie-player/style.css": {
+      "sha256": "b56e4602e6e0856a7335abc2650da81fcfc1e785e5e5860ee0f1d4c15f7432db",
+      "bytes": 5588
+    },
+    "outputs/odia-movie-player/sync-catalogue.py": {
+      "sha256": "15a87578edd4d5a9bf9de0a6382adbacd9b56b7d52bf8213ebce0a440a6064b8",
+      "bytes": 8672
+    },
+    "outputs/odia-movie-player/test.cjs": {
+      "sha256": "0c586d1c2ef65533ae1a4ae363dc2d1126bc9cc39c0c2bcc69e3596d885e119f",
+      "bytes": 7687
+    }
+  },
+  "source_records": {
+    "kb/records/cinema-player-browser-evidence-2026-10-26.json": "8eb72138b7fe448c7773a0cd8e71a1f18a125f98eaaea8525c66c09953a0b76b",
+    "kb/records/cinema-player-catalogue-2026-10-26.json": "7b122c077d0541c618763c84a2f841e0347bf21cf93aab8f8e4da632ac27a13f",
+    "kb/records/cinema-player-expanded-providers-2026-10-26.json": "7f631e600861b2fc87de09f0daead6ee217cfd27f15217becf6e4208c0282fe1",
+    "kb/records/cinema-player-expanded-youtube-2026-10-26.json": "18c0b35189ca6a06afe8ee7435cd3631da747c4afe16e2b15fa72354b873db65",
+    "kb/records/cinema-viewing-links-contemporary-2026-10-26.json": "95868177e39baddc75b6ff189d562851867fa9d37bb3a4d2ece1523ee21e457b"
+  },
+  "tests": {
+    "command": "node --test outputs/odia-movie-player/test.cjs",
+    "passed": 9,
+    "failed": 0,
+    "method": "Node VM with minimal DOM test double plus pure logic and static checks; not browser emulation",
+    "coverage": [
+      "Actual catalogue exact URL/ID/classification validation",
+      "Combined classification filters, unknown fields and distinct-title grouping",
+      "Host lookalikes, credentials, non-HTTPS URLs and nonstandard ports rejected",
+      "Provider listings external-only with no thumbnail or iframe",
+      "Explicit player creation, no autoplay, stop and selection clearing",
+      "Local-file iframe prevention, external fallback, deep links and keyboard focus",
+      "Reset restores all advanced controls",
+      "1998 Stree and 1968 Stree remain different works",
+      "Companion links resolve and scripts defer in order"
+    ]
+  },
+  "implementation": [
+    "Separate access, format, source, decade, sourced genre, language type and rights filters",
+    "Labelled native controls; advanced filters grouped in details/fieldset; available formats derived from data",
+    "19 official full-film uploads plus 12 conditional provider routes; existing trailers and archive song preserved",
+    "Eleven new Odia titles use explicitly labelled editorial reading forms",
+    "Provider-listed years identified as such; unknown original/dubbed status not inferred from Odia audio",
+    "Coverage ledger humanized without changing source claims; held candidates omitted",
+    "Exact provider allowlist: www.zee5.com, www.primevideo.com, www.airtelxstream.in",
+    "No raw evidence captures shipped in client data; retained research records remain canonical"
+  ],
+  "guidance": {
+    "skill": "modern-web-guidance",
+    "search": "label search filters",
+    "guide": "forms",
+    "retrieved_sha256": "75e54bff3fdbfc84da15da1a19a8c1c9ad12305daf4bd5ec5019e49f8538672e",
+    "quotes": [
+      "use `<fieldset>` and `<legend>` to group related controls.",
+      "always associate `<label>` with its input using `for` and `id`.",
+      "ensure tap targets are at least `48px`."
+    ],
+    "application": "Native labels and fieldset/legend inside expandable advanced filters; 48px controls; single-column mobile layout. Small-choice selects retained to conserve limited filter-panel space."
+  },
+  "limitations": [
+    "No exhaustive catalogue claim; source coverage remains partial",
+    "No embedded playback or browser layout test; prior local-file restriction respected, no server or alternate browser",
+    "Provider access may require payment/sign-in or vary by region",
+    "No verified public-domain films; no movies downloaded/rehosted",
+    "Original-language status, genre and dates remain unknown when evidence is insufficient"
+  ],
+  "previous_implementation": "cinema-player-implementation-2026-10-26.json",
+  "final_checks": [
+    "Tate uploader/category Romance corroborated in primary indexed source; disputed year remains null",
+    "Abhimanyu 2009 release line corroborated in retained primary upload description",
+    "Nine tests rerun after final source regeneration; all PASS",
+    "app.js/core.js syntax checks PASS"
+  ]
+}

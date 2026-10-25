@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-26",
+  "reviewer": "Drishti",
+  "status": "PASS_STATIC_RELEASE_CANDIDATE_WITH_COORDINATOR_GATES",
+  "scope": "Authorized cinema release candidate; root alone publishes. Read-only except this review record.",
+  "baseline": "Latest substantive, image, print/children andexpandedplayer reviews have no unresolvedrequiredfixes; preservedsourceaccess/researchlimits remain.",
+  "sequential_checks": [
+    {
+      "article": "odia-cinema",
+      "source_sha256": "7ea77880fc51c84b5bd56d8170346a4791dedcc9d8bdeb96d4185828ec3f588b",
+      "result": "PASS bounded canonical alignment",
+      "checks": [
+        "Reviewedchildren-overviewbody integratedverbatimonce.",
+        "Five newnotes exactlyonce,HTML/sourcehashmatchesandallfragmenttargetsvalid.",
+        "ReturnHanumanproviderWatchlinkpresent; no substantiveclaimsadded beyondreviewedoverlay."
+      ]
+    },
+    {
+      "article": "odia-television",
+      "source_sha256": "44ae7a54252f428ed82898c5e013043214cea4612153fb2ce20807debbf9d64f",
+      "result": "PASS bounded canonical alignment",
+      "checks": [
+        "Reviewedanimationoverlaybodyintegratedverbatimonce;sixnotesexactlyonce.",
+        "Source/HTMLhashesmatchreportandallfragmenttargetsvalid.",
+        "IDMTproducerlinkpresent,notfullfilmavailabilityclaim."
+      ]
+    }
+  ],
+  "release_checks_pending": [
+    "Coordinatorfinal515publiceditiontests/publicationassembly,commit/PRchecks/mergeandmanualdeployment.",
+    "Upload reviewedprintasset to exactpublicGitHubreleaseURL beforewebsitepublication; verifydownloadstatus/hash afterward.",
+    "LiveHTTPSverify14routes,digitalPDF/printasset/images/scripts,canonical/OG/noindex,visiblecredits andplayerfilters/layout.",
+    "Browser-renderedresponsive/accessibility andactualiframebehaviournotcertified; inspectonlyauthorizedactualHTTPS,neverworkaroundlocalfiledenial."
+  ],
+  "deferred_nonblocking_limits": [
+    "No exhaustivefilmcanon/completearchive orpublicdomainfilmclearance.",
+    "OriginalGijonprizeyear/earlyAIR-TVrecords/residentDAMaNfilmreceptionremainqualified.",
+    "Somehistoricimagephotographerchainsunknown; Commonsuploaderclaims attributed, notguaranteedrights.",
+    "No fullfilmviewing orprovider/embedplaybackverification.",
+    "No physicalprintproof orprinter-specificpresscertification."
+  ],
+  "release_checkout": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/odia-cinema-release-20261026",
+  "release_base_sha": "e3edac6ce7318935e087937dc5bd6a5cb8eb6ba5",
+  "commit_binding": "Review binds working candidate file hashes below; coordinator must bind actual release commit after staging, not represent base SHA as release head.",
+  "reviewed_file_hashes": {
+    "projects/site/src/lib/cinema-article.mjs": "35b230ec936ea51ecb81bc34c87edd02d3d0c0936f24e7a2f4399d947939b6c7",
+    "projects/site/src/pages/cinema/[slug].astro": "53a93618698f2dbc4eecb1ec1135c7668d76da68b49480d4588785da4a281584",
+    "projects/site/src/pages/cinema/index.astro": "a790026a07a7c5202fbe46351db434f0912c7b788d79f90e00f0a5acf5b38e19",
+    "projects/site/src/pages/cinema/watch.astro": "f923876f0049b8775875d6d76e838e9319b17713a48d78d32e64b9ee5150ceec",
+    "projects/site/src/pages/cinema/book.astro": "d42bd8c2f2e62c2a9268bf9df10b79245a7bd3414bae1008852c3a4224eac350",
+    "projects/site/src/data/cinema.json": "ba0679c80d36e221f81e3b0398b39878211f2eddae1ec625c351cae117d0826d",
+    "projects/site/src/data/cinema-player.html": "524769c53efc3f930dd1a3cb62cfc5f5d3639391c975f9a11a696d8d1624799f",
+    "projects/site/tools/prepare-cinema.mjs": "456ad399e97953efa571c6aa8db24690ab80a5d669ba4b0b6a47627b8caef1e9",
+    "projects/site/tools/prepare-cinema-player.mjs": "5d5c5b7690cf3f7edef85bc7ad21bf2158cba2edca6e38897aafbfae90953c6f",
+    "projects/site/tests/cinema-release.test.mjs": "78a4ed1f62411e34fbbfe42cb111d850d96b2acf1d550e0b99d402c54e6d1af6",
+    "projects/site/tests/build.test.mjs": "a248560dda261cb3187ccdcfeb4b070b527ab122b1dfa46ff4e30c8431ce5346",
+    "projects/site/editions/coast.json": "8510ed7c7b6ef531c9d13332064352d553ccb636fb6e5682c5349a54bb63f4cd",
+    "projects/site/editions/search-candidate.json": "5bda258495de370cbfa48714b5e6fec5405019fc74a15a09f05f87e8146985b0",
+    "kb/research/culture/odia-cinema.md": "7ea77880fc51c84b5bd56d8170346a4791dedcc9d8bdeb96d4185828ec3f588b",
+    "kb/research/culture/air-cuttack.md": "7019028105a62ef647d96c8991fd44acb573fa676745f0b67ee3d21105a47a24",
+    "kb/research/culture/cinema-series/parbati-ghose.md": "a96bf3af3d35dd8ce07a8f865b7b78e70acf39e1317c1c67616242f183d40f3b",
+    "kb/research/culture/cinema-series/sadhu-meher.md": "dd5fa2c29d4b4432eb6f4416d23ba6e47c0f93de32556b06c1f77b982be9f5db",
+    "kb/research/culture/cinema-series/manmohan-mahapatra.md": "0b7725c711ba11e7822158bb2b5b9d1209e059bf5441ab62aeb0df483a7c8145",
+    "kb/research/culture/cinema-series/maya-miriga.md": "1bcec15ec103939b66c8a82e74bfdab5815c458085ceff8e4fc25f9f1c1d5b6b",
+    "kb/research/culture/cinema-series/bhukha.md": "f11e567404c3e7f5f35d81eafc397fb2855e7514bfc9afaef7850debfb4dc88d",
+    "kb/research/culture/cinema-series/nandita-das.md": "8cc522fe754615aa4095e99840e02a54bf34e3de1b22ce836173c4541d74df5e",
+    "kb/research/culture/cinema-series/daman.md": "f31c93018ce2f6d94a40f4ce0dd897685f43d210fcb5bdbe1470e7c301302e7a",
+    "kb/research/culture/odia-television.md": "e8222758746c6a0e4675b806ef43f06f24c616843830597330be26ac9db5f816",
+    "kb/research/culture/odia-ott.md": "6e949d6c4c1e2d3039b85860670892eadd2c0a301482e0e2e725135bf80af544",
+    "outputs/odia-movie-player/app.js": "162aa27337f5b7edec3856de1496baa9d4fea14563b2f1a88a8dc3c8268b6926",
+    "outputs/odia-movie-player/core.js": "f2b54d2f5a0c7b681d139c63398dfa70d1b51ae8cbdc5ad0a4d7b976778f49a8",
+    "outputs/odia-movie-player/catalogue.js": "68d64e1e0f0bb0713b04ec78082060dab4a0dba25b41df60f97dad8e77a8f4b7",
+    "outputs/odia-movie-player/catalogue.json": "f11f5f7397bb1d5096f3d4d3622f9a7cd5d128714964e60c4688a5e7fd7461a0",
+    "outputs/odia-movie-player/style.css": "b56e4602e6e0856a7335abc2650da81fcfc1e785e5e5860ee0f1d4c15f7432db"
+  },
+  "built_public_route_hashes": {
+    "/cinema/": "3c8d892b8a24e5937dcab2a18ae936a7b5e4d7e8a237db3ddaf359b316bd349f",
+    "/cinema/watch/": "b06b3b045e905ae786f530a0f3610250f1aa8a86a3ee05b8a55e1dfcf9137236",
+    "/cinema/book/": "6c847fcd6d7a9b549948750531c6f408d7930053ac54cc41a155bd0758911020",
+    "/cinema/odia-cinema/": "e15667f9884141c6ab0f1f2e81bdca5d8cdd69025e259452b38603ca59a1bcd9",
+    "/cinema/air-cuttack/": "b767d73e497addda4831a6e654625fd63113c8f83c73bf611055c8516279e8ca",
+    "/cinema/parbati-ghose/": "94d907c858d2a1fe1eb4b116f74c97eb2e6a19411867ec3f6f559ea2149c5944",
+    "/cinema/sadhu-meher/": "b474385ea1a6df3b3810969066040e4bcdd249b0bab5cacfdc03c664a9542afd",
+    "/cinema/manmohan-mahapatra/": "2feac1690ee7fedf9ff44971429680c08e3cd1c5d36a9d102df216c8874816bb",
+    "/cinema/maya-miriga/": "7e6b522eb10ef3497bdd525250a804e8c464c01472429a67f0a4fbdcee132c3d",
+    "/cinema/bhukha/": "afd3258aceaa52c8ada861757f8d0e3256af76188791896f2df63037ee022740",
+    "/cinema/nandita-das/": "cf7da4aa8a5f495b764cd91d5055c43821603466356adc3345fc2a408ae0ddc6",
+    "/cinema/daman/": "1b489788238237dd1f64c6b6b52b58522f7bbe5377edd55ca801330ac6f4379d",
+    "/cinema/odia-television/": "c9355bd25a5fd5236bfaf049b597d53fe37fbe622b24b85f8c261ec81869f51a",
+    "/cinema/odia-ott/": "a96e88cdac4f0f6a241a19edec3463974279ca09b970a4aaee52d9206820cec2"
+  },
+  "paragraph_check": {
+    "odia-cinema": {
+      "paragraphs": 72,
+      "missing": [],
+      "html_sha256": "bb1d8a45a358bd331251e581c078943d1932e9eac9c8088da9254c3c6e8c89a1"
+    },
+    "air-cuttack": {
+      "paragraphs": 25,
+      "missing": [],
+      "html_sha256": "f69d6333a121ce404c65285ce37d81c9fb93cc089f76ad89c1446a07e162427d"
+    },
+    "parbati-ghose": {
+      "paragraphs": 12,
+      "missing": [],
+      "html_sha256": "7ab40a4d7769183bb4acafd09b420ca1711e01cfb2711acc88a9eae6b60e1659"
+    },
+    "sadhu-meher": {
+      "paragraphs": 11,
+      "missing": [],
+      "html_sha256": "b565690acdc9d9057f9a4dda07e34423ee0a1b83e29890eaa802d91a76de6c69"
+    },
+    "manmohan-mahapatra": {
+      "paragraphs": 10,
+      "missing": [],
+      "html_sha256": "79a0dc47f885e8493cb6f56e82934b217af2186612f59b0c35eb2b110aa0906c"
+    },
+    "maya-miriga": {
+      "paragraphs": 14,
+      "missing": [],
+      "html_sha256": "68cae6d9a37bd868f00b2f40c9ba5690bb7d5ad22c48bf7a0bbe295dac61ed84"
+    },
+    "bhukha": {
+      "paragraphs": 13,
+      "missing": [],
+      "html_sha256": "1206304cd1c7e244a4842056916e997c597aef0c05ba820e12d1e61937218cf3"
+    },
+    "nandita-das": {
+      "paragraphs": 12,
+      "missing": [],
+      "html_sha256": "0e90fe17727d2b41fb3432dedb3ad0e5e3ab2959b7f466e03baa1cfc16254696"
+    },
+    "daman": {
+      "paragraphs": 19,
+      "missing": [],
+      "html_sha256": "0827a000ebb3f725601a44f5e978eff45d04ae16dc4f93e9ed2011e27fef9895"
+    },
+    "odia-television": {
+      "paragraphs": 31,
+      "missing": [],
+      "html_sha256": "e44df227dedc6a451a8bf5f646451dc9a9d0199bf5432b02f8d0c6dc464ad10b"
+    },
+    "odia-ott": {
+      "paragraphs": 19,
+      "missing": [],
+      "html_sha256": "4b8fdce5f0ffa629cf354e821aa3c36a48329bcb40f9fb37f35995e6b09e2597"
+    }
+  },
+  "books": [
+    {
+      "file": "/archive/odia-cinema-a-living-screen.pdf",
+      "bytes": 5077890,
+      "sha256": "1cab48f871fc67784d8095162141b884be1cd6cdd80eaedbb4fccc229144f3b5"
+    },
+    {
+      "file": "/archive/odia-cinema-a-living-screen-print.pdf",
+      "bytes": 82106416,
+      "sha256": "f5a31e693c88693f95281ccec77f9c55857c16ed4bee4befd01b7fa1d6e2264b"
+    }
+  ],
+  "checks": [
+    "Independentnormalizedtextcheck foundall238substantialcanonicalparagraphs inbuilt11articles;citationmarkers excluded fromcomparison.",
+    "All11source blocks precedeFurtherreading;allfragmenttargetsresolve;hero/captionandoptimizedderivativespreserved.",
+    "Independently ran4cinema-focusedNode24testsPASS; previous9playerstatic/fakeDOMtestsPASS. Coordinator reportsfull599testsPASS andpublicedition515testsearlierPASS; finalsize-adjustedrun remainscoordinatorgate.",
+    "BothreviewedPDFsstagedbyte-identical; digitalpublicdownloadverifiedsamehash; printunchangedreviewedassetwillbeGitHubreleasehosted.",
+    "Publicartifact996206003bytes; printPDFremovedfromPagesartifact; bookpageexplicitGitHubreleasedownloadwithsize. Remainingconservative1e9budgetmargin3793997bytes.",
+    "14publiccinemaroutespresentandnoindex;14searchholdsdo not activateadditionalindexableroutes. Pagecounttestadds11articles+3utilityroutes.",
+    "PlayerJSsource-identical,exactproviderhostexternal-onlyboundary,singleuser-initiatediframe,explicitiframe referrerpolicyretaineddespiteshellno-referrermeta. Embeddingnottested.",
+    "No media-sizePNGoriginalsdeployed; reviewedderivativesandprovenance preserved.",
+    "OverviewandTVchildrenoverlaysintegratedexactlyonce;bookbuilderdeduplicatesalreadycanonicaloverlays; existingreviewedPDFsunchanged.",
+    "Readonlysourcealignmentdelta TVWatch25/26Octmatchesfinalreviewedbook; no newhistoricalassertions."
+  ],
+  "publication_blockers_found": [],
+  "browser_disposition": "No localbrowserbypass,localhostserver,Playwrightoralternatebrowser used. Static review permitscoordinatorpublicationworkflowwithexplicitremaininggates; not aclaimalreadydeployed or browser/playbackverified."
+}
