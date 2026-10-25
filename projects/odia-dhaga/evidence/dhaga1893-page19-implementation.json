@@ -1,0 +1,79 @@
+{
+  "role": "Samanta independent AI visual second-reader",
+  "input_head": "bdecb4f4b4ee6b7f6d78cf455c0b99e242174b84",
+  "checked_at": "2026-10-25T10:29:12.692195+00:00",
+  "status": "output-only second-reading and minimal terminal ledger proposal complete; separate review pending",
+  "source": {
+    "pdf": "/tmp/pod-dhaga-1893.pdf",
+    "sha256": "c0c818ed2dce7c9872e3141166e0e4676a6bd2c0fd2338c2f6f3b4ce56227dac",
+    "pdf_page": 19,
+    "total_pdf_pages": 19,
+    "render": "page19.png",
+    "render_sha256": "4a379f6b5303b3d12bdf49dc4e9fe938fcd2e7b95679cf44de6a85321a5c8902"
+  },
+  "actual_reading": {
+    "method": "Viewed complete actual page19 render independently.",
+    "body_lines": 0,
+    "classification": "nontext illustration page",
+    "finding": "Central uncaptioned equestrian/rider illustration with fence-like background lines. Digitization watermark below; no readable proverb body or numbered printed page identified.",
+    "limits": "No artist, narrative, identity or historical scene attributed from image. Scan-end does not establish originalvolume completeness.",
+    "candidates": [],
+    "count_effect": 0
+  },
+  "ledger_proposal": {
+    "file": "coverage-ledger.proposed.json",
+    "sha256": "9a7049ee192d414adab80b619bc0ae291cfd38e675e503aa7a5a87e7107c0931",
+    "base_sha256": "b80483b63c2afb11bd77c76e0b17163861ad51d48c0056ec83114a689c8af137",
+    "changed_fields": [
+      "next_page_to_attempt",
+      "next_action",
+      "nontext_pdf_pages_inspected",
+      "targeted_page19_inspection_report",
+      "targeted_page19_ai_review"
+    ],
+    "nontext_handling": "Page19 recorded separately; text_pdf_pages_targeted_inspection unchanged.",
+    "terminal_handling": "next_page_to_attempt null means no further page in availablePDF, not completed transcription.",
+    "evidence_paths_proposed": [
+      "evidence/dhaga1893-page19-research.json",
+      "evidence/dhaga1893-page19-review.json"
+    ],
+    "checks": {
+      "idempotent": true,
+      "five_fields_only": true,
+      "other_sources_top_level_rights_counters_unchanged": true
+    }
+  },
+  "next_coverage": {
+    "source_id": "dhaga-praharaj-pitambari1926",
+    "existing_total_pdf_pages": 259,
+    "actual_existing_progress": "Title and opening preface overview only; no exact pages completed.",
+    "next_action": "Verify title/edition, creator roles including Pitambari Debi, and page inventory; keep1926 distinct from1990 reprint. No page-specific extraction cursor invented.",
+    "source_row_unchanged": true,
+    "bounded_proposed_start": "Anvesha proposes1926PDF1–6 for title/frontmatter inventory only; not a previously verified cursor or claim of newly inspected pages."
+  },
+  "preserved": {
+    "reader_entries": 108,
+    "illustrations": 108,
+    "book_pages": 59,
+    "draft_segments": 83,
+    "full_transcription_cursor": 2,
+    "accepted_increment": 0,
+    "human_proofreading": 0,
+    "programme_credit": 0
+  },
+  "tests": [
+    "Five-field delta and preservation of all other fields verified.",
+    "Idempotent union and null terminal cursor verified.",
+    "Existing1926 source row remains byte-equivalent parsedobject."
+  ],
+  "limits": [
+    "Output-only; no canonical/book/art/PDF/Git/sharedrecord changes.",
+    "No accepted sayings or exhaustivecrosswalk: no readable sayings on thispage.",
+    "Independent AI secondreading is not humanproofreading."
+  ],
+  "research_binding": {
+    "file": "anvesha.json",
+    "sha256": "98d1cc171ae8d7f7c3b1b54a04161f39d8f2bf24a818b732212027a0b3c6478c",
+    "finding": "Independent actualpixels agree: nontext terminal page,0bodylines/candidates, no nextPDF20. No corrections requested."
+  }
+}
