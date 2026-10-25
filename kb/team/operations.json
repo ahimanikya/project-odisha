@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/odia-dhaga-historical-17-2026-10-25.json",
+  "handoff_home": "records/desia-editorial-team-2026-10-25.json",
   "roles": [
     {
       "name": "Disha",
@@ -55,17 +55,16 @@
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
   "current_article": {
-    "id": "POD-EDIT-079",
-    "route": "/languages/sambalpuri/",
+    "id": "POD-EDIT-080",
+    "route": "/languages/desia/",
     "owner": "Disha",
-    "phase": "receipt_integrated",
-    "release_condition": "Effective only after this receipt PR is reviewed and merged after passing CI; current_task retains pending release."
+    "phase": "implementation"
   },
   "project_identity": "reference/project-identity.md",
   "current_task": {
-    "kind": "dhaga_historical_evidence_integration",
-    "status": "integration_review",
-    "handoff": "records/odia-dhaga-historical-17-2026-10-25.json"
+    "kind": "article_editorial",
+    "status": "implementation",
+    "handoff": "records/desia-editorial-team-2026-10-25.json"
   },
   "parallel_programmes": [
     {
@@ -87,7 +86,7 @@
       "note": "Preserved concurrent research handoff from merged PR526; this personal essay does not change its status."
     }
   ],
-  "coordination_note": "Sambalpuri538 release satisfied. Dhaga PDF17 evidence integration active until reviewed merge; Desia readiness complete, no overlapping article claim.",
+  "coordination_note": "Dhaga539 reviewed merge releases evidence integration; Desia080 active through publication receipt.",
   "coordination_notes": "Print card scope releases upon reviewed merge after required checks; local receipt records actual delivery.",
   "onboarding_home": "records/blueprint-persona-onboarding-2026-10-24.json"
 }
