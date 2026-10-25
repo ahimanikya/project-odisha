@@ -9,6 +9,12 @@ import { compiledContent } from '../../../../../kb/research/stories/bhubaneswar-
 const title = 'A Week in Bhubaneswar: Conversations and New Beginnings';
 const description = 'Ahimanikya Satapathy reflects on a week of conversations in Bhubaneswar, returning to poetry, building a poets’ portal and registering the Pravakar Satapathy Foundation.';
 const shareImage = {
+  src: '/assets/bhubaneswar-week/poem-conversations-v1.png',
+  width: 1536,
+  height: 1024,
+  alt: 'Watercolor illustration of an open notebook, a flowing ink line, folded cloth and three people in conversation.'
+};
+const mentisPhoto = {
   src: '/assets/bhubaneswar-week/mentis-films.jpg',
   width: 5712,
   height: 3213,
@@ -76,10 +82,10 @@ const readingLinks = [{
       </figure>}
       {photograph === 'mentis' && <figure>
         <ResponsiveImage
-          src={shareImage.src}
-          alt={shareImage.alt}
-          width={shareImage.width}
-          height={shareImage.height}
+          src={mentisPhoto.src}
+          alt={mentisPhoto.alt}
+          width={mentisPhoto.width}
+          height={mentisPhoto.height}
           sizes="(max-width: 600px) calc(100vw - 2.4rem), (max-width: 740px) calc(100vw - 2.8rem), 695.2px"
           loading="lazy"
         />
