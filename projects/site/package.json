@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "node tools/build-local-verification.mjs && node ../design-system/tools/build.mjs && node tools/prepare-design-system.mjs && node tools/select-content.mjs && node tools/build-gallery.mjs && node tools/build-responsive-images.mjs && astro dev --host 127.0.0.1",
-    "build": "node tools/build-local-verification.mjs && node ../design-system/tools/build.mjs && node tools/prepare-design-system.mjs && node tools/select-content.mjs && node tools/build-gallery.mjs && node tools/build-responsive-images.mjs && astro build",
+    "build": "node tools/build-local-verification.mjs && node ../design-system/tools/build.mjs && node tools/prepare-design-system.mjs && node tools/select-content.mjs && node tools/build-gallery.mjs && node tools/build-responsive-images.mjs && astro build && node tools/export-dhaga.mjs",
     "preview": "astro preview --host 127.0.0.1",
     "test": "node --test tests/*.test.mjs",
     "build:coast": "node tools/build-coast.mjs",
