@@ -48,6 +48,19 @@ const readingLinks = [{
       <p class="publication-date"><time datetime="2026-10-24">24 October 2026</time></p>
     </header>
 
+    <figure>
+      <ResponsiveImage
+        src="/assets/bhubaneswar-week/poem-conversations-v1.png"
+        alt="Watercolor illustration of an open notebook, a flowing ink line, folded cloth and three people in conversation."
+        width="1536"
+        height="1024"
+        sizes="(max-width: 600px) calc(100vw - 2.4rem), (max-width: 740px) calc(100vw - 2.8rem), 695.2px"
+        loading="eager"
+        fetchpriority="high"
+      />
+      <figcaption>An illustration of the week’s connections: poetry, music and conversations.</figcaption>
+    </figure>
+
     {sections.map(({ html, photograph }) => <>
       <Fragment set:html={html} />
       {photograph === 'conversations' && <figure class="conversation-photograph">
