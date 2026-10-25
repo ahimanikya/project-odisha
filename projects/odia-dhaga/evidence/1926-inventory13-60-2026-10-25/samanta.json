@@ -1,0 +1,103 @@
+{
+  "input_head": "8bed12e412cafc133c6cdb5b4196050e297e1e3e",
+  "checked_at": "2026-10-25T17:26:30.424308+00:00",
+  "scope": "Output-only packaging of saved inspection, not a repeated source pass or canonical update",
+  "status": "frozen_with_source_corrections_awaiting_final_Drishti_review",
+  "current_baseline": {
+    "ledger_sha256": "9d4e9a799b0ca5051fcc6817137d691a30c90d1a086d84ec25b477c73bb0de56",
+    "reader_entries": 159,
+    "original127_pending": 75
+  },
+  "prior_inspection_baseline": {
+    "collection_sha256": "8a83e127202cca4fd6c5bfee82250f95c4385c176ff10bc72620735d7b76e4a9",
+    "entries": 110,
+    "pending_original127": 84,
+    "source127_sha256": "d2759946411a7fb322e627d5df0106880344d84296c634b6088fea702a153a36"
+  },
+  "baseline_limit": "Saved lexical comparisons were made against110 entries and84 pending positions. Current159/75 is a later licensed-source edition; this packaging does not retroactively claim a159-entry deduplication or complete negative crosswalk. No historical candidate is accepted.",
+  "coverage": {
+    "pages_overviewed": 48,
+    "full_render_pages": [
+      13,
+      14,
+      21,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60
+    ],
+    "candidate_records": 38,
+    "exact_provisional_transcriptions": 9,
+    "partial_or_uncertain": 29,
+    "accepted": 0
+  },
+  "checks": {
+    "inventory": "48 unique contiguous pages13–60",
+    "full_render_count": 37,
+    "capture_paths_and_hashes": "All48 local render paths exist and hashes match saved inventory; no facsimiles copied/published",
+    "candidate_ids": "Unique",
+    "proposal_idempotence": "Pass in memory",
+    "source_scope": "Only seven1926 fields proposed; other source rows/top-level unchanged",
+    "evidence_hashes": [
+      {
+        "path": "outputs/dhaga-expansion-2026-10-25/samanta/report.json",
+        "sha256": "5a8831c0037d58316f8a78cf7303cb5c5929f2eb02f0d00d90ee54a2cd97784c"
+      },
+      {
+        "path": "outputs/dhaga-expansion-2026-10-25/samanta/pageinventory.json",
+        "sha256": "881fbc1552d6e71fc63b60ff60565db37da3e7b1120b28f1d5fd0c930c7fda23"
+      },
+      {
+        "path": "outputs/dhaga-expansion-2026-10-25/samanta/candidates.json",
+        "sha256": "071061bf8d8e31446ce7daf9c344b5f418cc70f0fa2aeb834c74aacafd297817"
+      },
+      {
+        "path": "outputs/dhaga-1926-inventory-review-2026-10-25/anvesha.json",
+        "sha256": "51fb94be5f719466c601736870e08c5c5533830677403881b160adfa94a311f7",
+        "role": "Separate AI correction record; original candidates retained unchanged. Seven provisional confirmations, one correction, one deferral; all38 remain unaccepted."
+      }
+    ]
+  },
+  "delta_sha256": "442131254c000f763ddd5a9084b9907a74d91f4678d710eb2d72f8c0d0f851a0",
+  "limits": [
+    "No new visual reading claimed this packaging pass.",
+    "Creator roles, rights, uncertain glyphs and repeated scan sequences remain unresolved.",
+    "Next inventory61 is conditional on integration; full transcription starts31 and has not been completed.",
+    "Review corrections may revise this proposal; no acceptance or programme credit."
+  ],
+  "separate_source_review": {
+    "path": "outputs/dhaga-1926-inventory-review-2026-10-25/anvesha.json",
+    "sha256": "51fb94be5f719466c601736870e08c5c5533830677403881b160adfa94a311f7",
+    "result": "7 provisional confirmations,1 correction,1 deferral; all38 historical candidates unaccepted. Original candidate file unchanged."
+  }
+}
