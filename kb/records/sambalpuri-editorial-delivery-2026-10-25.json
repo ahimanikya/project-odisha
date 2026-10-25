@@ -1,0 +1,323 @@
+{
+  "status": "published_receipt",
+  "item": "POD-EDIT-079",
+  "route": "/languages/sambalpuri/",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/537",
+  "reviewed_head": "589ed80b3aaba726ec711623855e63220aaa783d",
+  "merge_commit": "9363672145e7f5559b30561f3a6ef8f3295710f6",
+  "required_ci": {
+    "run": 40169241984,
+    "result": "success"
+  },
+  "deployment": {
+    "workflow": "publish-site.yml",
+    "publish_approved": true,
+    "run": 40169696476,
+    "head": "9363672145e7f5559b30561f3a6ef8f3295710f6",
+    "conclusion": "success"
+  },
+  "live_checks": {
+    "checked_at": "2026-10-25T06:43:25.907326+00:00",
+    "url": "https://projectodisha.org/languages/sambalpuri/",
+    "all8paragraphs": true,
+    "author": true,
+    "numbered_sources": true,
+    "source_links": true,
+    "population2011": true,
+    "same_savedID": true,
+    "search_hold_preserved": true,
+    "robots": "noindex, follow",
+    "verification_note": "Initial checker expected nofollow; actual established article setting is noindex, follow. All eight paragraphs and source checks passed initially.",
+    "html_sha256": "1b5eabfd588056a809dda6a532046309b5f2685863865ed79a5a8f07bb3dd0b0"
+  },
+  "review": {
+    "review_type": "separate AI content/source review, not human review",
+    "input_head": "e9327ce1eac0e61a9440c212503566f6c6d75940",
+    "status": "pass_with_limitations",
+    "blockers": [],
+    "candidate_hashes": {
+      "kb/research/voices/collection.json": "4e6b9565d6bd30f11b52c0c2500896e839399727aa6afdc7aec780d7e0440eab",
+      "kb/research/voices/sambalpuri-editorial.json": "afb791293aa12dd55099fc208f81a97aa968f1ad477fb50a53f02473ce9acf5a",
+      "projects/site/src/components/CultureMagazine.astro": "41071f478abe6463eaaa6bed62f6320ec622656561f476b7a075a57fca49f800",
+      "projects/site/src/components/LanguagePopulation.astro": "2831ec3e684a0eca54c9483912af52fb0b5708fe26a64db4fb71f7fb2667997d",
+      "projects/site/src/data/journey-catalog.ts": "0edee3f3976df65c07f37daa6c3412a147bef0659ee12463146c6778b35573ee"
+    },
+    "source_budgets": {
+      "sambalpur-culture": 164,
+      "rangabati-interview-2022": 181,
+      "c16-odisha-2011": 94
+    },
+    "actual_checks": [
+      "Read current canonical eight-paragraph revision, editorial source map and shared implementation diff.",
+      "Independently reopened original January2022 interview PDF: printed52 credits,53 Q1 school magazine/essay and subsequent radio writing,54 Q2 female solo/male solo/duet versus recorded duet. Claims remain attributed recollection, no archive or recording inspection invented.",
+      "Reopened official district page: Language, Dalkhai and Nuakhai passages support scoped wording; universal household assertions omitted.",
+      "Source-first-use order is district/interview/C16 matching1/2/3. Closing passage is clearly editorial framing.",
+      "Recounted saved aggregate budget text: district164/interview181/C1694 before displayed panel. Added Census panel is roughly90 words including profile and district names, with portable repeating identical explanations rather than new interpretation; aggregate stays below200.",
+      "Same saved reading ID retained; all eight article paragraphs and author/three sources flow into portable export, with scoped population addition using existing atlas functions. Koya and legacy Desia dispatch preserved.",
+      "Substantive gain is specific radio-versus-disc selection plus named school writing, with concrete Nuakhai sequence; no comprehensive language origin asserted.",
+      "All five actual desktop/mobile screenshot images independently viewed: readable hero/body/numbered sources and mobile wrapping; no visible overflow.",
+      "Candidate hashes match prior source-pass snapshot exactly.",
+      "Actual downloaded HTML independently parsed: all8 canonical paragraphs, byline, population count26,29,495/share6.26%, largest districts and row104 present.",
+      "Actual logs inspected:595 full tests pass,509 coastal tests pass; publication limited to11 indexable pages. Samanta reports2496 audit and zero disclosure failures.",
+      "Legacy negative controls move from now-reviewed Sambalpuri to untouched Desia; Koya assertions retained, first-use source assertions expanded for Sambalpuri.",
+      "Portable population adds existing dated category wording only; no new numerical inference or identity claim. Census aggregate remains below200 including shared panel/unique portable framing."
+    ],
+    "limits": [
+      "Original magazine issue/audio/programme logs and Census workbook not newly inspected beyond stated original interview/district checks.",
+      "Browser interactions performed by Samanta; reviewer actually viewed screenshots and checked downloaded bytes, not independently repeated clicks.",
+      "No live deployment/publication verification or human review claimed.",
+      "Samanta screenshot dimension metadata initially invalid because JPEG content was parsed as PNG; correction requested, actual displayed images are coherent desktop/mobile captures.",
+      "Initial full594/595 and coastal483/509 failures preserved in Samanta history; final logs pass after narrow negative-control corrections."
+    ],
+    "reviewed_head": "589ed80b3aaba726ec711623855e63220aaa783d",
+    "download_sha256": "9709e87d49df03be573bda0205e29712fa7d5f2bbf807813a4bdac0e16f0fb9c",
+    "screenshots": [
+      {
+        "path": "/tmp/sambalpuri-desktop.png",
+        "sha256": "afc21a6219ecf5aa2a4d323f927bdef099172f7256b9e241b9b3b33be9b894cc",
+        "actual_view": true
+      },
+      {
+        "path": "/tmp/sambalpuri-desktop-body.png",
+        "sha256": "341bac308d961e66a3debaf47bd2f1b3e6f419dc32e435cbb38b6c82f079806d",
+        "actual_view": true
+      },
+      {
+        "path": "/tmp/sambalpuri-mobile.png",
+        "sha256": "c04f5dcc41462a8781c39a705a5cc6a6592c41484e1504a90591cc6334346b61",
+        "actual_view": true
+      },
+      {
+        "path": "/tmp/sambalpuri-mobile-body.png",
+        "sha256": "73e0557eb1266f4bf436da594824db66c3840ff5c5ca5ea367c6a7a0f0c0faea",
+        "actual_view": true
+      },
+      {
+        "path": "/tmp/sambalpuri-mobile-notes.png",
+        "sha256": "59e29cdae72601b6079d671837b21b7f014eaa2573011a901db40f30ef6da572",
+        "actual_view": true
+      }
+    ]
+  },
+  "implementation": {
+    "role": "Samanta",
+    "input_head": "e9327ce1eac0e61a9440c212503566f6c6d75940",
+    "checked_at": "2026-10-25T06:28:06.481094+00:00",
+    "result": "pass",
+    "files": [
+      "projects/site/src/components/CultureMagazine.astro",
+      "projects/site/src/components/LanguagePopulation.astro",
+      "projects/site/src/data/journey-catalog.ts",
+      "projects/site/tests-coast/balasore-editorial.test.mjs",
+      "projects/site/tests-coast/bhima-editorial.test.mjs",
+      "projects/site/tests-coast/bhubaneswar-editorial.test.mjs",
+      "projects/site/tests-coast/district-languages.test.mjs",
+      "projects/site/tests-coast/fakir-editorial.test.mjs",
+      "projects/site/tests-coast/gangadhar-editorial.test.mjs",
+      "projects/site/tests-coast/gopinath-editorial.test.mjs",
+      "projects/site/tests-coast/ho-editorial.test.mjs",
+      "projects/site/tests-coast/juang-editorial.test.mjs",
+      "projects/site/tests-coast/koya-editorial.test.mjs",
+      "projects/site/tests-coast/kui-editorial.test.mjs",
+      "projects/site/tests-coast/kuvi-editorial.test.mjs",
+      "projects/site/tests-coast/languages-editorial.test.mjs",
+      "projects/site/tests-coast/literature-editorial.test.mjs",
+      "projects/site/tests-coast/mayurbhanj-editorial.test.mjs",
+      "projects/site/tests-coast/odia-editorial.test.mjs",
+      "projects/site/tests-coast/pratibha-editorial.test.mjs",
+      "projects/site/tests-coast/puri-editorial.test.mjs",
+      "projects/site/tests-coast/sambalpuri-editorial.test.mjs",
+      "projects/site/tests-coast/santali-editorial.test.mjs",
+      "projects/site/tests-coast/saora-editorial.test.mjs",
+      "projects/site/tests-coast/sarala-editorial.test.mjs",
+      "projects/site/tests-coast/six-acres-editorial.test.mjs",
+      "projects/site/tests-coast/voices-passage-sources.test.mjs",
+      "projects/site/tests/voices.test.mjs"
+    ],
+    "changes": [
+      "Existing CultureMagazine and population editorial dispatch now includes Sambalpuri.",
+      "Portable reading includes all8 body paragraphs, byline,3short sources and full visible Census inset.",
+      "20 obsolete editorial test controls narrowly changed from Sambalpuri to untouched Desia, preserving negative assertions; Koya control and voices reviewed allowlist also updated with authorization."
+    ],
+    "guidance": {
+      "path": "/tmp/sambalpuri-accessibility-guidance.md",
+      "search": "accessible article navigation",
+      "rule": "Prefer native HTML",
+      "application": "Semantic navigation and native href footnote returns retained; no new API/polyfill."
+    },
+    "initial_failures": [
+      "Full594/595: obsolete Editorial preview assertion; authorized reviewed branch fixed.",
+      "Coast483/509:26 stale negative controls; exact Desia substitutions resolved all."
+    ],
+    "tests": [
+      {
+        "command": "npm run build && npm test",
+        "result": "595/595pass",
+        "logs": [
+          "/tmp/sambalpuri-final-full-build.log",
+          "/tmp/sambalpuri-final-full-tests.log"
+        ]
+      },
+      {
+        "command": "npm run build:coast && npm run test:coast",
+        "result": "509/509pass",
+        "logs": [
+          "/tmp/sambalpuri-final-coast-build.log",
+          "/tmp/sambalpuri-final-coast-tests.log"
+        ]
+      },
+      {
+        "command": "npm run build:publication",
+        "result": "pass",
+        "log": "/tmp/sambalpuri-publication.log"
+      },
+      {
+        "command": "node tools/check-public-disclosures.mjs on dist,dist-coast,dist-publish",
+        "result": "zero violations764/751/752pages"
+      },
+      {
+        "command": "python3 tools/audit-coast.py",
+        "result": "2496/2496pass"
+      }
+    ],
+    "browser": {
+      "url": "http://127.0.0.1:8801/languages/sambalpuri/",
+      "desktop": [
+        1440,
+        1000
+      ],
+      "mobile": [
+        390,
+        844
+      ],
+      "overflow": false,
+      "keyboard": "Enter note1 and exact backlink focused note-sambalpur-culture then ref-language-0-sambalpur-culture on both widths.",
+      "notes": 3,
+      "further_reading": "expanded",
+      "save": "Local preview aria-pressed true after reload",
+      "download": "/tmp/sambalpuri-downloaded-book.html",
+      "download_sha256": "9709e87d49df03be573bda0205e29712fa7d5f2bbf807813a4bdac0e16f0fb9c",
+      "download_verified": "all8paragraphs/byline,26,29,495/6.26%,3districtcounts,row104"
+    },
+    "screenshots": [
+      {
+        "path": "/tmp/sambalpuri-desktop-body.png",
+        "dimensions": [
+          1440,
+          1000
+        ],
+        "format": "JPEG"
+      },
+      {
+        "path": "/tmp/sambalpuri-mobile-body.png",
+        "dimensions": [
+          390,
+          844
+        ],
+        "format": "JPEG"
+      },
+      {
+        "path": "/tmp/sambalpuri-desktop.png",
+        "dimensions": [
+          1440,
+          1000
+        ],
+        "format": "JPEG"
+      },
+      {
+        "path": "/tmp/sambalpuri-mobile.png",
+        "dimensions": [
+          390,
+          844
+        ],
+        "format": "JPEG"
+      },
+      {
+        "path": "/tmp/sambalpuri-mobile-notes.png",
+        "dimensions": [
+          390,
+          844
+        ],
+        "format": "JPEG"
+      }
+    ],
+    "limits": [
+      "Local preview only; no deployment/live verification.",
+      "No allIndia value invented: visible population inset has none.",
+      "Mobile contents link initially hidden within native disclosure; recovered via visible Follow the story.",
+      "Separate AI factual/visual review pending Drishti; no human review claimed."
+    ],
+    "screenshot_metadata_correction": {
+      "checked_at": "2026-10-25T06:30:53.799238+00:00",
+      "reason": "Initial metadata parsed JPEG bytes as PNG headers. Actual image decoder used; screenshots and product bytes unchanged.",
+      "changes": [
+        {
+          "path": "/tmp/sambalpuri-desktop-body.png",
+          "previous_invalid_dimensions": [
+            65536,
+            4292542531
+          ],
+          "actual_dimensions": [
+            1440,
+            1000
+          ],
+          "actual_format": "JPEG"
+        },
+        {
+          "path": "/tmp/sambalpuri-mobile-body.png",
+          "previous_invalid_dimensions": [
+            65536,
+            4292542531
+          ],
+          "actual_dimensions": [
+            390,
+            844
+          ],
+          "actual_format": "JPEG"
+        },
+        {
+          "path": "/tmp/sambalpuri-desktop.png",
+          "previous_invalid_dimensions": [
+            65536,
+            4292542531
+          ],
+          "actual_dimensions": [
+            1440,
+            1000
+          ],
+          "actual_format": "JPEG"
+        },
+        {
+          "path": "/tmp/sambalpuri-mobile.png",
+          "previous_invalid_dimensions": [
+            65536,
+            4292542531
+          ],
+          "actual_dimensions": [
+            390,
+            844
+          ],
+          "actual_format": "JPEG"
+        },
+        {
+          "path": "/tmp/sambalpuri-mobile-notes.png",
+          "previous_invalid_dimensions": [
+            65536,
+            4292542531
+          ],
+          "actual_dimensions": [
+            390,
+            844
+          ],
+          "actual_format": "JPEG"
+        }
+      ]
+    }
+  },
+  "programme_credit": 0,
+  "completed_items": 131,
+  "scope_release": "Upon reviewed receipt PR merge after passing required checks.",
+  "verified_routes": [
+    "/languages/sambalpuri/"
+  ]
+}
