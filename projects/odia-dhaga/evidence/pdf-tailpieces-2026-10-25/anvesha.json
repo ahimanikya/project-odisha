@@ -1,0 +1,93 @@
+{
+  "input_head": "834bd74d4ccf3ea17d1a3440f5240aa66841a9fa",
+  "role": "Anvesha; read-only visual/editorial recommendation, no source or artwork-authenticity claims",
+  "baseline": {
+    "entries": 110,
+    "illustrations": 110,
+    "book_pages": 60,
+    "pdf_sha256": "30e0765b2c58d5010ceef4baa92b24137ccc3321ac12f928f5c6f25a11078903",
+    "packing_sha256": "dbeb276d03ce5ba9862edbd2dc315424b1205e066b36ced40bc0e6a69cbc6374"
+  },
+  "actual_visual_samples": [
+    {
+      "pdf_page": 9,
+      "capture": "baseline-09.png",
+      "sha256": "a9701942c69ad1e3ac6e3d69356c33decbaa4109aef6c91a3e23470bbc4058ca",
+      "observation": "Both completed columns leave a substantial open bottom area; a small centered tailpiece could add rhythm without displacing text."
+    },
+    {
+      "pdf_page": 14,
+      "capture": "baseline-14.png",
+      "sha256": "806b07a9c9769647580075713f112746d52d1ca0d4e9a5de5d7a4656d7cd2fcd",
+      "observation": "Left column is dense; right gap is legitimate asymmetric flow. Do not place decoration beside the dense left explanation or suggest another entry image."
+    },
+    {
+      "pdf_page": 18,
+      "capture": "baseline-18.png",
+      "sha256": "226f33c1d4cddee73d80afe8d0e6f526fabd20e821ebd66e2b20f79b4e4721f8",
+      "observation": "Both columns finish well above footer; a modest tailpiece fits, but a large second scene would compete with existing illustrations."
+    }
+  ],
+  "packing_observations": {
+    "reading_pages": 55,
+    "column_height_pt": 739.8897637795277,
+    "remaining_column_space_range_pt": [
+      31.188290213723462,
+      299.1882902137234
+    ],
+    "both_columns_at_least120pt": 49,
+    "both_columns_at_least180pt": 20,
+    "candidate_pages_at180pt": [
+      9,
+      11,
+      12,
+      13,
+      17,
+      18,
+      19,
+      20,
+      26,
+      27,
+      28,
+      32,
+      35,
+      36,
+      42,
+      46,
+      47,
+      48,
+      49,
+      58
+    ]
+  },
+  "recommendation": {
+    "minimum_clear_gap_both_columns_pt": 180,
+    "size_width_pt": [
+      100,
+      140
+    ],
+    "size_height_pt": [
+      45,
+      70
+    ],
+    "minimum_content_clearance_pt": 24,
+    "maximum_frequency": "One tailpiece per eligible reading page; never require one on every page. Alternate sparse motifs to avoid a repeated stamp.",
+    "placement": "Below the lower of the two complete column contents, centered within page body. Preserve footer and trim margins; never change text packing or scale existing entries to fit ornament.",
+    "style": "Fine black/sepia line art on white; small neutral leaf, curl or geometrical motif rather than another scene. No text, ritual insignia, human/caste figures or invented archaeological styling.",
+    "provenance": "Treat as newly made decorative editorial art; no labels such as authentic traditional border, archival ornament or historic Odia motif without evidence. Retain generated-art provenance in central credits/metadata; avoid per-motif source-like captions.",
+    "scope": "Reading pages only; no new ornament clutter over contents, cover or consolidated source credits.",
+    "cover_count": "Replace stale108 with actual110 as authorized related fix, preferably data-derived."
+  },
+  "acceptance_checks": [
+    "All110 entry prose/source fields and110 existing assets unchanged.",
+    "Same60page count and no text shrinking or repagination caused by decoration.",
+    "Exact visible110 cover count.",
+    "Visual check at least sparse, dense, chapter-transition and final reading pages after generation.",
+    "No overlaps with captions, lowest text or page numbers; no new artwork presented as evidence for a saying."
+  ],
+  "limits": [
+    "Only3actualPDFpages visually sampled, all55readingpage gaps measured from packing report.",
+    "Threshold is a design recommendation, not an implementation mandate; inspect final pixels.",
+    "No canonical or reader edits performed."
+  ]
+}

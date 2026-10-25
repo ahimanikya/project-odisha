@@ -20,8 +20,8 @@ from build import load_library, reading_caption
 ROOT=Path(__file__).resolve().parent
 
 class FlowPage(Flowable):
-    def __init__(self, placements, width, height):
-        Flowable.__init__(self);self.placements=placements;self.width=width;self.height=height
+    def __init__(self, placements, width, height, filler=None):
+        Flowable.__init__(self);self.placements=placements;self.width=width;self.height=height;self.filler=filler
     def draw(self):
         c=self.canv;shift=6 if c.getPageNumber()%2 else -6
         for item in self.placements:
@@ -39,6 +39,9 @@ class FlowPage(Flowable):
                 y-=block.getSpaceAfter()
             if image and not image_first:y=draw_image(y-8)
             if y < -0.01:raise ValueError('Measured reading unit overflow')
+        if self.filler:
+            f=self.filler
+            c.drawImage(f['path'],f['x']+shift,f['y'],width=f['width'],height=f['height'],preserveAspectRatio=True,mask='auto')
 
 def unit_height(unit,cw):
     blocks,image,caption=unit
@@ -65,7 +68,7 @@ def make_book(root=ROOT):
             # Preserve Odia shaping in mixed-language credits and text.
             chunks=re.split(r'([\u0b00-\u0b7f]+)',str(text));s=''.join('<font name="Odia">'+escape(c)+'</font>' if re.search(r'[\u0b00-\u0b7f]',c) else escape(c) for c in chunks)
             return Paragraph(s,styles[kind])
-        story=[Spacer(1,90),p('Sayings and Proverbs -','heading'),p('ଓଡ଼ିଆ ଢଗଢମାଳି','title'),p('108 Dhaga in Odia and English'),Spacer(1,22),p('By Ahimanikya Satapathy'),Spacer(1,35),p('Project Odisha · Reading edition'),PageBreak(),p('ଢଗଢମାଳି ବିଷୟରେ','title'),p('About this collection','heading')]
+        story=[Spacer(1,90),p('Sayings and Proverbs -','heading'),p('ଓଡ଼ିଆ ଢଗଢମାଳି','title'),p(f"{len(data['entries'])} Dhaga in Odia and English"),Spacer(1,22),p('By Ahimanikya Satapathy'),Spacer(1,35),p('Project Odisha · Reading edition'),PageBreak(),p('ଢଗଢମାଳି ବିଷୟରେ','title'),p('About this collection','heading')]
         for x in data['book_intro']['odia']:story.append(p(x,'odia'))
         for x in data['book_intro']['english']:story.append(p(x))
         story += [Spacer(1,20),p('Read by theme or follow the Dhaga in order. The examples are original illustrations of everyday use.'),PageBreak(),p('Contents','heading')]
@@ -116,13 +119,32 @@ def make_book(root=ROOT):
             packing.append({k:v for k,v in item.items() if k!='unit'}|{'page':page})
             placed.append(item);top+=h+22
         if placed:pages.append(placed)
+        # Decorative tail art never participates in measurement or text packing.
+        filler_manifest=root/'filler-manifest.json'
+        motifs=json.loads(filler_manifest.read_text()).get('motifs',[]) if filler_manifest.exists() else []
+        fillers=[];page_fillers={}
+        for index,placements in enumerate(pages):
+            tails=[{'column':col,'content_end':max((i['top']+i['height'] for i in placements if i['column']==col),default=0)} for col in (0,1)]
+            # Never decorate an otherwise empty column; whitespace may be intentional.
+            tails=[t for t in tails if t['content_end']>0]
+            if not motifs or len(tails)!=2:continue
+            tail=max(tails,key=lambda t:t['content_end']);gap=available-tail['content_end']
+            if gap<180:continue
+            motif=motifs[len(fillers)%len(motifs)];path=root/motif['src']
+            with RasterImage.open(path) as raster:iw,ih=raster.size
+            scale=min(160/iw,110/ih,(gap-48)/ih);fw,fh=iw*scale,ih*scale
+            if fh<45:continue
+            top=tail['content_end']+24+(gap-48-fh)/2
+            f={'page':index+4,'column':'page-centered','src':motif['src'],'path':str(path),'x':(usable-12-fw)/2,'y':available-top-fh,'width':fw,'height':fh,'top':top,'bottom':top+fh,'content_end':tail['content_end'],'gap_height':gap,'separation_pt':top-tail['content_end']}
+            assert f['separation_pt']>=24 and f['bottom']<=available-24+0.001
+            fillers.append({k:v for k,v in f.items() if k!='path'});page_fillers[index]=f
         # Second pass: contents use measured chapter starts, then draw measured pages.
         insert_at=next(i for i,v in enumerate(story) if isinstance(v,Paragraph) and v.getPlainText()=='Contents')+1
         story[insert_at:insert_at]=[p(f"{ch['label']} · {len(ch['entry_ids'])} Dhaga · page {chapter_pages[ch['label']]}") for ch in design['shelves']]
-        for placements in pages:story.extend([PageBreak(),FlowPage(placements,usable-12,available)])
+        for index,placements in enumerate(pages):story.extend([PageBreak(),FlowPage(placements,usable-12,available,page_fillers.get(index))])
         styles=front_styles
         sources={s['id']:s for s in data['sources']}
-        headers=[p('Sources & Credits','heading'),p(data['license'],'small'),Paragraph('<link href="https://creativecommons.org/licenses/by-sa/4.0/" color="#87503b">CC BY-SA4.0 licence</link>',styles['small']),p(f'Wikimedia source wording is credited below. Project Odisha supplies original translations, explanations and examples. Illustrations: Project Odisha, contemporary interpretations accompanying {sum(bool(e.get("graphic")) for e in data["entries"])} Dhaga, CC BY-SA4.0; detailed provenance retained with the digital book. Fonts: Noto Serif Oriya and Source Serif4, SIL Open Font License.','small')]
+        headers=[p('Sources & Credits','heading'),p(data['license'],'small'),Paragraph('<link href="https://creativecommons.org/licenses/by-sa/4.0/" color="#87503b">CC BY-SA4.0 licence</link>',styles['small']),p(f'Wikimedia source wording is credited below. Project Odisha supplies original translations, explanations and examples. Illustrations: Project Odisha, contemporary interpretations accompanying {sum(bool(e.get("graphic")) for e in data["entries"])} Dhaga and decorative botanical tailpieces, CC BY-SA4.0; detailed provenance retained with the digital book. Fonts: Noto Serif Oriya and Source Serif4, SIL Open Font License.','small')]
         credit_units=[]
         for sid,ids in primary.items():
             source=sources[sid];url=quote(source['url'],safe=':/?&=%#');parts=urlsplit(url)
@@ -158,7 +180,7 @@ def make_book(root=ROOT):
         def page_number(c,doc):
             c.saveState();c.setFont('English',8);c.setFillColor(colors.HexColor('#665c52'));c.drawCentredString(width/2,28,str(doc.page));c.restoreState()
         SimpleDocTemplate(str(out),pagesize=A4,rightMargin=42,leftMargin=42,topMargin=43,bottomMargin=47,title='Sayings and Proverbs - ଓଡ଼ିଆ ଢଗଢମାଳି',author='Ahimanikya Satapathy').build(story,onFirstPage=page_number,onLaterPages=page_number)
-        (root/'packing-report.json').write_text(json.dumps({'entries':len(units),'reading_pages':len(pages),'chapter_pages':chapter_pages,'placements':packing,'shrink':1,'body_font_size':10.5,'column_width':cardwidth,'column_height':available,'mirrored_margins_pt':{'inner':54,'outer':42}},indent=2)+'\n')
+        (root/'packing-report.json').write_text(json.dumps({'entries':len(units),'reading_pages':len(pages),'chapter_pages':chapter_pages,'placements':packing,'fillers':fillers,'filler_policy':{'max_per_reading_page':1,'minimum_gap_pt':180,'requires_both_columns':True,'minimum_separation_pt':24,'maximum_width_pt':160,'maximum_height_pt':110,'text_reflow':False},'shrink':1,'body_font_size':10.5,'column_width':cardwidth,'column_height':available,'mirrored_margins_pt':{'inner':54,'outer':42}},indent=2)+'\n')
         print('Reading pages:',len(pages),'units:',len(units),'shrink:',1)
         return out
 if __name__=='__main__':print(make_book())
