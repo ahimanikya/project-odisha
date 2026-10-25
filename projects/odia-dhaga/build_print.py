@@ -65,9 +65,12 @@ def make_book(root=ROOT):
           'label':ParagraphStyle('label',fontName='English',fontSize=8.5,leading=12,textColor=colors.HexColor('#87503b'),spaceBefore=6,spaceAfter=4,shaping=True),
           'small':ParagraphStyle('small',fontName='English',fontSize=8,leading=11,spaceAfter=6,shaping=True)}
         def p(text,kind='body'):
-            # Preserve Odia shaping in mixed-language credits and text.
-            chunks=re.split(r'([\u0b00-\u0b7f]+)',str(text));s=''.join('<font name="Odia">'+escape(c)+'</font>' if re.search(r'[\u0b00-\u0b7f]',c) else escape(c) for c in chunks)
-            return Paragraph(s,styles[kind])
+            # A single shaping font preserves mixed-script glyphs and word spacing.
+            # Noto Serif Oriya covers both Odia and the Latin text used here.
+            style=styles[kind]
+            if re.search(r'[\u0b00-\u0b7f]',str(text)) and style.fontName != 'Odia':
+                style=style.clone(style.name+'-mixed',fontName='Odia')
+            return Paragraph(escape(str(text)),style)
         story=[Spacer(1,90),p('Sayings and Proverbs -','heading'),p('ଓଡ଼ିଆ ଢଗଢମାଳି','title'),p(f"{len(data['entries'])} Dhaga in Odia and English"),Spacer(1,22),p('By Ahimanikya Satapathy'),Spacer(1,35),p('Project Odisha · Reading edition'),PageBreak(),p('ଢଗଢମାଳି ବିଷୟରେ','title'),p('About this collection','heading')]
         for x in data['book_intro']['odia']:story.append(p(x,'odia'))
         for x in data['book_intro']['english']:story.append(p(x))

@@ -1,0 +1,176 @@
+{
+  "review_type": "separate_AI_consolidated_dedup_crosswalk_not_human",
+  "input_head": "b6d41158a5078e77d698188d8d60aaca20e66abb",
+  "status": "pass_with_limitations",
+  "entry_map_sha256": "6797df6a2a904f6cc6daf9ceb4b60e988d769c8a1e0f9cb4fd0b5179325c70fe",
+  "draft_hashes": {
+    "anvesha/candidates.json": "3bb2b64a8de22d531a5a59c4ed7d1ef81350e659bc09bbc9f41ee47e14de0d3b",
+    "anvesha/incubator-candidates-a.json": "24f5fc19d784827c1c80f3f6a3fd7789fedc6207a01a0016e9ab8d6986b8a2b3",
+    "anvesha/incubator-candidates-c.json": "7d79ce50de127a63404470ab8218d28fc7c62be6c1ffcfc9fd050b0e08eb2a22",
+    "samanta/incubator-candidates-b.json": "d1bb13049557db3ffd16b0a1356ecda8683202e07f956ea208449842c1686a00"
+  },
+  "scope": "Final IDs111–159; metadata-only crosswalk and semantic dedup, not integrated book acceptance.",
+  "checks": [
+    "All49 ID-map strings equal reviewed source draft entries at exact indices.",
+    "49 unique sequentialIDs and no normalized display-headword collision against110 baseline or within49.",
+    "Read all49 source/meaning drafts in prior individual reviews and assessed thematic neighbours.",
+    "Reopened original127 discovery page and inspected all numbered Odia positions; no copied compilation included.",
+    "Compared source host+oldid identity, avoiding URL query-title differences."
+  ],
+  "mappings": [
+    {
+      "source127_position": 5,
+      "collection_id": "POD-DHAGA-140",
+      "relation": "spacing_punctuation_variant",
+      "note": "Only spacing/punctuation differs."
+    },
+    {
+      "source127_position": 11,
+      "collection_id": "POD-DHAGA-134",
+      "relation": "one_of_two_discovery_alternatives",
+      "note": "Walking/path alternative only; do not imply the dancing/ground wording independently witnessed."
+    },
+    {
+      "source127_position": 29,
+      "collection_id": "POD-DHAGA-137",
+      "relation": "orthographic_variant",
+      "note": "Source spelling differs from discovery; retain licensed witness spelling."
+    },
+    {
+      "source127_position": 30,
+      "collection_id": "POD-DHAGA-135",
+      "relation": "spacing_punctuation_variant",
+      "note": "Position35 remains duplicate30, not a second accepted item."
+    },
+    {
+      "source127_position": 40,
+      "collection_id": "POD-DHAGA-119",
+      "relation": "expanded_lexical_variant",
+      "note": "Longer way-comes wording, not exact discovery short wording."
+    },
+    {
+      "source127_position": 60,
+      "collection_id": "POD-DHAGA-120",
+      "relation": "punctuation_linebreak_variant",
+      "note": "Same words; punctuation/line division differs."
+    },
+    {
+      "source127_position": 85,
+      "collection_id": "POD-DHAGA-136",
+      "relation": "same_words_punctuation_only",
+      "note": "Faith expression, not guaranteed outcome."
+    },
+    {
+      "source127_position": 90,
+      "collection_id": "POD-DHAGA-125",
+      "relation": "short_witness_and_expanded_variant",
+      "note": "Both versions belong to one entry; no separate count for expanded verse."
+    },
+    {
+      "source127_position": 91,
+      "collection_id": "POD-DHAGA-138",
+      "relation": "lexical_variant",
+      "note": "Source uses different pronoun from discovery; do not claim exact quote."
+    }
+  ],
+  "new_linked_positions": 9,
+  "counts_after_acceptance_only": {
+    "entries": 159,
+    "linked_positions": 51,
+    "pending_positions": 75,
+    "duplicate_positions": 1,
+    "licensed_linked_positions": 48,
+    "scert_quoted_linked_positions": 3
+  },
+  "unmapped": [
+    {
+      "positions": [
+        9,
+        96
+      ],
+      "reason": "Supported inventory leads were not included among these49 entries; keep pending."
+    },
+    {
+      "positions": [
+        18,
+        87
+      ],
+      "reason": "Partial-component and different-subject variants remain unresolved, not newly witnessed exact positions."
+    },
+    {
+      "positions": [
+        21,
+        47,
+        49,
+        66,
+        88,
+        108,
+        118,
+        122
+      ],
+      "reason": "Potential thematic neighbours in new49 do not supply same wording: fixed nature, unsuitable recipient, ingratitude, show, impossibility, differences and fate are not exact/lexical crosswalks merely because themes agree."
+    }
+  ],
+  "semantic_dedup_findings": [
+    {
+      "ids": [
+        "POD-DHAGA-117",
+        "POD-DHAGA-106",
+        "POD-DHAGA-125"
+      ],
+      "decision": "retain distinct",
+      "reason": "Hare horn, sky flower and impossible meal are separately witnessed expressions, not spelling variants."
+    },
+    {
+      "ids": [
+        "POD-DHAGA-151",
+        "POD-DHAGA-031",
+        "POD-DHAGA-048"
+      ],
+      "decision": "retain distinct",
+      "reason": "Dog tail, burnt wood and husking implement use different recorded imagery despite persistence theme."
+    },
+    {
+      "ids": [
+        "POD-DHAGA-128",
+        "POD-DHAGA-100",
+        "POD-DHAGA-156"
+      ],
+      "decision": "retain distinct",
+      "reason": "Betrayal/ingratitude neighbour themes do not make drum-mouse, hidden knife and dog response one saying."
+    },
+    {
+      "ids": [
+        "POD-DHAGA-152",
+        "POD-DHAGA-090"
+      ],
+      "decision": "retain distinct",
+      "reason": "Pulse fear and indirect household warning distinct source utterances."
+    },
+    {
+      "ids": [
+        "POD-DHAGA-118",
+        "POD-DHAGA-140",
+        "POD-DHAGA-006"
+      ],
+      "decision": "retain distinct",
+      "reason": "Unequal relatives, darkness under lamp and advising others are related but individually worded images."
+    }
+  ],
+  "source_id_aliases": {
+    "dhaga-incubator-167954-r4144125": "dhaga-wikiquote-lakshana"
+  },
+  "expected_sources_after_dedup": 62,
+  "source_requirements": [
+    "48 baseline sources plus14 unique new records, including lexical support sources; do not relabel lexical support as saying witnesses.",
+    "Rewrite B157 witness source_id to existing Lakshana ID and do not append duplicate bibliography source.",
+    "C158/159 reuse existing Bibidha ID.",
+    "Retain spelling/expanded/contextual labels and source locators; preserve existing42 links and all unchanged position records."
+  ],
+  "limits": [
+    "No further new original127 mapping established from seven dictionary candidates, B16 or C2.",
+    "Different web pages do not prove independent oral collection or origin.",
+    "No acceptance change made by reviewer; counts conditional on successful integrated acceptance.",
+    "Artwork/PDF and integrated schema/link validation pending."
+  ]
+}

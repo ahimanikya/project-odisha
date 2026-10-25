@@ -1,0 +1,137 @@
+{
+  "review_type": "separate_AI_integrated_review_not_human",
+  "status": "pass_with_limitations",
+  "checked_at": "2026-10-25T16:51:50.363824+00:00",
+  "input_head": "cd87fcb58d6dd3d1b9c5ed58685d0fde920130fa",
+  "initial_input_head": "b6d41158a5078e77d698188d8d60aaca20e66abb",
+  "scope": "Staged159-entry edition, content/source reviews and final PDF layout; no canonical installation or publication claimed.",
+  "hashes": {
+    "collection.json": "c2f3f6246d5b2b074878aa6e40296198fed4452fb67f37b0fcadf20f567fc777",
+    "source127.json": "15756dbf6275158d1e7cb9edb02f0e5379938cf7e7e96f2010729f7411cdf483",
+    "index.html": "019113402fb8640d2408962741ffd7c6f48327c5d3cbd09c7494aa771de5e353",
+    "build_print.py": "412b5939cdf6f35793dd11c0266027f6f06dd68cd0ea9b494ad5ee9f99c5f7ce",
+    "odia-dhaga-book.pdf": "5780efedce5a7fd9be8c71d81937381341f1344b8865603f7c37690063a3cd22",
+    "packing-report.json": "2177122d6dfd9e5c6594aff918e8337d13ab63e55f7303ac4adffc3b9c2b3a28",
+    "coverage-ledger.json": "9d4e9a799b0ca5051fcc6817137d691a30c90d1a086d84ec25b477c73bb0de56"
+  },
+  "manifest_sha256": "e98bcae110bb10300d09f155328b6c68ace27d3dafca2455f99e1be2cf4301be",
+  "manifest_files_verified": 293,
+  "findings": [],
+  "resolved_findings": [
+    {
+      "issue": "Square glyphs in158 literal and dropped mixed-script boundary spacing in117",
+      "initial_pdf_sha256": "73b2412f4cb97cbff2df3f705a2f9f4e7e58d0a6be3ed0178f7504a9783ae054",
+      "resolution": "Whole-paragraph font fallback; independently viewed corrected pages17,27 and63, wording retained."
+    },
+    {
+      "issue": "Three stale installation hashes after final PDF and ledger regeneration",
+      "resolution": "Rechecked all292 listed files against final manifest: zero mismatches."
+    }
+  ],
+  "nonblocking_observations": [
+    "Pre-existing source prose The1893 and uploaded2024 retains joined spacing; baseline wording intentionally preserved.",
+    "Final source block occupies a sparse final credit page; no missing attribution or clipping."
+  ],
+  "actual_checks": [
+    "Baseline first110 full entry objects and first48 source records exactly equal canonical110 edition.",
+    "All110 prior graphic files compared byte-for-byte and unchanged.",
+    "159 unique entry IDs,62 unique source IDs; all witness/variant source references resolve.",
+    "All14 new captured source paths exist and exact declared SHA256 matches.",
+    "Exactly source127 positions5,11,29,30,40,60,85,90,91 changed;35 remains duplicate;51linked/48licensed/3SCERT/75pending/1duplicate,8pending locator leads.",
+    "Historical1893 and1926 ledger rows exactly preserved; no historical acceptance promoted.",
+    "PDFReader reports86pages; packing contains159 distinct placements across80reading pages, shrink1,10.5pt body.",
+    "41 filler placements: minimum eligible gap183.188pt, minimum separation53.594pt, exceeding180/24pt thresholds.",
+    "Read actual17-test final log:17passed. Tests were run by Samanta, not rerun by reviewer.",
+    "Reviewed all49 draft meanings/source/genre/rights with individual batch reviews and consolidated semantic crosswalk saved separately."
+  ],
+  "visual_review": {
+    "full_pages_independently_viewed": [
+      1,
+      2,
+      3,
+      14,
+      15,
+      16,
+      17,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      38,
+      39,
+      43,
+      44,
+      45,
+      46,
+      52,
+      53,
+      60,
+      61,
+      62,
+      63,
+      69,
+      70,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86
+    ],
+    "additional_final_fallback_samples": [
+      4,
+      25
+    ],
+    "corrected_final_pages_rechecked": [
+      17,
+      27,
+      63,
+      85
+    ],
+    "observations": "All49 new entries inspected in full-page context, readable Odia and English, intact text/art/captions, no clipped content or filler overlap observed. Intro/contents and all3credit pages inspected. Credits preserve source attribution and SCERT exception.",
+    "limits": "All35 requested pages viewed during initial and corrected-render pass; targeted reinspection of final font-fallback change rather than a new independent view of all86pages. Samanta additionally renders56pages. Full-resolution49asset audit belongs to Anvesha; this reviewer independently inspected their printed placement."
+  },
+  "separate_art_review": {
+    "path": "anvesha/visual-review.json",
+    "sha256": "9be2e622c1709fea9660672a1070484acaabb5057e145a0126410455b82f7131",
+    "note": "SeparateAI art review, not human proofreading;132v2 and159v2 present in printed pages."
+  },
+  "limitations": [
+    "No human Odia proofreading, field validation or earliest-origin certification.",
+    "Provisional lexical interpretations and genre distinctions remain explicit, particularly123,153,157,158,159.",
+    "75original127 positions remain unresolved;159book entries are not159positions from that compilation.",
+    "Historical1926 expansion13–60 is output-only research and not promoted by this book review.",
+    "This report approves staged reviewed bytes, not an uninspected later canonical commit."
+  ],
+  "previous_preliminary_review": {
+    "review_type": "separate_AI_integrated_review",
+    "status": "in_progress_final_PDF_pending",
+    "input_head": "b6d41158a5078e77d698188d8d60aaca20e66abb",
+    "checked_snapshot_hashes": {
+      "collection.json": "e26b097f20bf18a3fe0170e04fc037c32840f199c189aa331431a847e8d8a8cc",
+      "source127.json": "15756dbf6275158d1e7cb9edb02f0e5379938cf7e7e96f2010729f7411cdf483"
+    },
+    "completed_checks": [
+      "159 entry objects,62 sources, all graphic paths resolve.",
+      "First110 entry objects and first48 source records exactly equal canonical baseline.",
+      "All49 draft body fields preserved; three variants gain identical odia alias and157 witness uses existing Lakshana sourceID.",
+      "Read49 graphic captions/alt text for correspondence and restrained claim scope.",
+      "Final consolidated crosswalk requires9 links only; prior review saved."
+    ],
+    "pending": [
+      "Replace159 illustration with finalv2.",
+      "Regenerate source127 coverage currently still42/84 to final51/75.",
+      "Final frozenPDF, allnewentrypage actualpixel review, frontmatter and credits.",
+      "Final full manifest/hash and measured filler placement checks."
+    ],
+    "limitations": [
+      "No finalPASS, install or release approval.",
+      "Anvesha owns actual fullasset review; this report will separately inspect book placement."
+    ],
+    "findings": []
+  }
+}
