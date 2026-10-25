@@ -94,7 +94,7 @@ Regenerate with `python3 projects/odia-dhaga/build_source_inventory.py`; check i
 
 The reviewed local reader through POD-DHAGA-089 is integrated here, preserving its wording, explanations, captions and source attributions. Separate AI review is recorded in [evidence](evidence/HANDOFF.json); the retained handoff is a historical delivery snapshot, so its pending-integration language describes its earlier state. Human proofreading remains pending.
 
-The [127-position concordance](source127.html) has51 reader-linked positions,75 pending positions and1 duplicate. Added reader entries do not imply additional concordance matches. Eleven pending positions have SCERT locator leads, not accepted transcriptions. Three short SCERT quotations in entries048–050 have separate source rights: they are not openly licensed or relicensed by this repository. Original commentary remains CC BY-SA4.0; source-specific rights are retained.
+The [127-position concordance](source127.html) has51 reader-linked positions,75 pending positions and1 duplicate. Added reader entries do not imply additional concordance matches. Eight pending positions have SCERT locator leads, not accepted transcriptions. Three short SCERT quotations in entries048–050 have separate source rights: they are not openly licensed or relicensed by this repository. Original commentary remains CC BY-SA4.0; source-specific rights are retained.
 
 Historical1893 targeted inspection has reached the terminal PDF19; full transcription remains at PDF2. Provisional scan readings do not add explained entries. [The coverage ledger](coverage-ledger.json) and [latest dictionary cursor](evidence/dhaga-bulk-127-audit.json) retain the next research steps. The three new heritage illustrations are original contemporary interpretations; generation provenance and separate AI visual review are retained in [artwork-provenance.json](artwork-provenance.json). No source facsimile or checkpoint screenshots are bundled.
 
@@ -117,7 +117,7 @@ After editing entries or the introduction, run `python3 build.py`, then regenera
 
 ## Two illustrated additions · 25 October 2026
 
-Entries109–110 add a distant-mountain/friend proverb and a contextual idiom for harsh treatment. The original127 concordance links position6 as an expanded orthographic variant and121 through an inflected dictionary example, with the editorial infinitive kept distinct. All86 previously pending positions were assessed;84 still lack sufficient evidence for acceptance. The current book has110 illustrated entries across60 pages. Prior108 entries and artwork are preserved. See `evidence/all86-2026-10-25/` and `evidence/two-additions-2026-10-25/` for source, implementation and separate AI review evidence; no human proofreading is claimed.
+Entries109–110 add a distant-mountain/friend proverb and a contextual idiom for harsh treatment. The original127 concordance links position6 as an expanded orthographic variant and121 through an inflected dictionary example, with the editorial infinitive kept distinct. At that earlier delivery, all86 previously pending positions were assessed and84 remained unresolved. That edition contained110 illustrated entries across60 pages. Prior108 entries and artwork are preserved. See `evidence/all86-2026-10-25/` and `evidence/two-additions-2026-10-25/` for source, implementation and separate AI review evidence; no human proofreading is claimed.
 
 
 ## Consolidated expansion · 25 October 2026
