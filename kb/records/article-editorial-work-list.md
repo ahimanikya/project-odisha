@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 624. completed: 101, excluded: 218, queued: 305.
+Route inventory: 786. completed: 101, excluded: 380, queued: 305.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -638,3 +638,165 @@ Route inventory: 624. completed: 101, excluded: 218, queued: 305.
 | POD-EDIT-622 | [ଟଳମଳ ଚକ · ଦ୍ୱିଭାଷୀ ଗଳ୍ପ](https://projectodisha.org/characters/young-makers/pilot-story/page-odia-v1.html) | excluded | standalone_character_subsite |
 | POD-EDIT-623 | [ଟଳମଳ ଚକ · ଖସଡ଼ା ଦୃଶ୍ୟପଟ](https://projectodisha.org/characters/young-makers/pilot-story/rough-storyboard.html) | excluded | standalone_character_subsite |
 | POD-EDIT-624 | [A Week in Bhubaneswar: Conversations and New Beginnings](https://projectodisha.org/stories/bhubaneswar-week/) | completed | Founder-requested personal essay based on his firsthand account; original supplied photographs and verified poets portal context. No autonomous programme credit. |
+| POD-EDIT-625 | [Dhaga and Dhamali · Book contents](https://projectodisha.org/dhaga/) | excluded | standalone_dhaga_collection |
+| POD-EDIT-626 | [Dhaga · Reading entry point](https://projectodisha.org/dhaga/reader.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-627 | [Dhaga · Sources and rights](https://projectodisha.org/dhaga/sources.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-628 | [ଅତି ଲେମ୍ବୁ ଚିପୁଡ଼ିଲେ ପିତା ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-001.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-629 | [ଆ ବଳଦ ମୋତେ ବିନ୍ଧ ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-002.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-630 | [ଏକା ମାଘକେ ଶୀତ ଯାଏନାହିଁ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-003.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-631 | [କାନ୍ଧରେ ପଡିଲେ ବଜାଇ ଶିଖନ୍ତି](https://projectodisha.org/dhaga/sayings/pod-dhaga-004.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-632 | [କୁଟା ଖଣ୍ଡକ ଦିଖଣ୍ଡ ନ କରିବା](https://projectodisha.org/dhaga/sayings/pod-dhaga-005.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-633 | [କହି ଦେଉଥାଇ ପରକୁ, ବୁଦ୍ଧି ନ ଦିଶଇ ଘରକୁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-006.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-634 | [ଗରଜିଲା ମେଘ ବରଷେ ନାହିଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-007.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-635 | [ବାହାଘର ବେଳେ ବାଇଗଣ ରୂଆ](https://projectodisha.org/dhaga/sayings/pod-dhaga-008.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-636 | [ଓଷଦ ରାଗରେ ତାଟିଆ କାମୁଡିବା](https://projectodisha.org/dhaga/sayings/pod-dhaga-009.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-637 | [ଝିମିଟି ଖେଳରୁ ମହାଭାରତ](https://projectodisha.org/dhaga/sayings/pod-dhaga-010.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-638 | [ଅଧର୍ମ ବିତ୍ତ ବଢେ ବହୁତ, ଗଲା ବେଳେ ଯାଏ ମୂଳ ସହିତ ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-011.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-639 | [ଆଲୋ ସଖି, ଆପଣା ମହତ ଆପେ ରଖି](https://projectodisha.org/dhaga/sayings/pod-dhaga-012.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-640 | [ଅତି ଭକ୍ତି ଚୋର ଲକ୍ଷଣ ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-013.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-641 | [ଅନ୍ଧାରରେ ବାଡ଼ି ବୁଲାଇବା ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-014.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-642 | [ଅରଜି ନପାରେ ମୁଣ୍ଡ, ସୁଆଦ ଲୋଡୁଚି ତୁଣ୍ଡ ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-015.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-643 | [ଅଳପ ଧନ ବିକଳ ମନ](https://projectodisha.org/dhaga/sayings/pod-dhaga-016.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-644 | [ଆଜି କୁରୁ କୁରୁ ହସୁ, କାଲି ଲଙ୍ଗଳ କାହିଁରେ ଚଷୁ ?](https://projectodisha.org/dhaga/sayings/pod-dhaga-017.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-645 | [ଆରେ ଏ, ଯେତେବେଳେ ଯେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-018.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-646 | [ଆସିଲ ବନ୍ଧୁ ଭଲ କଲ, ବସିବାକୁ ନାହିଁ ଠା, ଯେଉଁ ବାଟେ ବାଟେ ଆସିଲ ବନ୍ଧୁ ସେଇ ବାଟେ ବାଟେ ଯା ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-019.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-647 | [କାଚ, କାଚ, ମଣି, ମଣି, କିଣା ବିକା ବେଳେ ଜଣା ଜଣି](https://projectodisha.org/dhaga/sayings/pod-dhaga-020.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-648 | [ଖସ କୁଣ୍ଡାଇ ଘା କରିବା](https://projectodisha.org/dhaga/sayings/pod-dhaga-021.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-649 | [ନଇ ନ ଦେଖୁଣୁ ନଙ୍ଗଳା](https://projectodisha.org/dhaga/sayings/pod-dhaga-022.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-650 | [ଆଗ ପଞ୍ଚା, ସବୁ କଞ୍ଚା!](https://projectodisha.org/dhaga/sayings/pod-dhaga-023.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-651 | [ମୋତେ ନ ଅଣ୍ଟେ ମୁଁ ନେଇ କରି ସାଇରେ ବାଣ୍ଟେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-024.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-652 | [ଏଣ୍ଡୁଅପରି ମୁଣ୍ଡ ଟୁଙ୍ଗାରିବା](https://projectodisha.org/dhaga/sayings/pod-dhaga-025.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-653 | [ଏ ଘର ମାଉସୀ ସେ ଘର ପିଉସୀ](https://projectodisha.org/dhaga/sayings/pod-dhaga-026.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-654 | [ଅଜାଗା ଘା ଦେଖି ହୁଏ ନାହିଁ କି ଦେଖାଇ ହୁଏ ନାହିଁ ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-027.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-655 | [ଅଙ୍ଗୁଳି ସନ୍ଧିରେ ମଳି ଭିତରେ ଭିତରେ ସଲା ସୁତୁରାଲୋ ଉପରେ ଉପରେ କଳି ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-028.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-656 | [ଏ କଥା ରହିଲା ମନେ, ବେଳ କାଳ ଦେଖି କହିବି ଦିନେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-029.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-657 | [କାହାକୁ କହିବା, କପାଳରେ ସିନା କର ମାରିବା](https://projectodisha.org/dhaga/sayings/pod-dhaga-030.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-658 | [ମୋତେ ଯେତେ ମାଠିବୁ ମାଠ ମୁହିଁ ସେଇ ଦରପଡ଼ା କାଠ](https://projectodisha.org/dhaga/sayings/pod-dhaga-031.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-659 | [ତୁ କେତେ ହଲଉଚୁ ହଲା... ମୁଁ କିଛି ନହଲିଲେ ଗଲା...!!!](https://projectodisha.org/dhaga/sayings/pod-dhaga-032.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-660 | [ମାଲୋ ମଲି, ଗାଁ ଚାରିଆଡ଼େ ବୁଲି ଆଇଲି... କେହି ନକହିଲେ ବସ ବୋଲି...!!!](https://projectodisha.org/dhaga/sayings/pod-dhaga-033.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-661 | [କ୍ଷୀର ଉତୁରିଲେ ଚୁଲିକୁ, ମଣିଷ ଉତୁରିଲେ ଗାତକୁ...!!!](https://projectodisha.org/dhaga/sayings/pod-dhaga-034.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-662 | [ତୁଳସୀ ଦୁଇ ପତ୍ରରୁ ବାସେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-035.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-663 | [ନାହିଁ ମାମୁଁ ଠଉଁ କଣା ମାମୁ ଭଲ](https://projectodisha.org/dhaga/sayings/pod-dhaga-036.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-664 | [ଲୁଚିଛି ନା ଗୋଡ ଦିଇଟା ଦିଶୁଛି!](https://projectodisha.org/dhaga/sayings/pod-dhaga-037.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-665 | [ଅନ୍ଧ ଥରେ ବାଡ଼ି ହଜାଏ ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-038.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-666 | [ଆପଣା ହସ୍ତେ ଜିହ୍ଵା ଛେଦି, କେ ଅଛି ତାର ପ୍ରତିବାଦୀ](https://projectodisha.org/dhaga/sayings/pod-dhaga-039.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-667 | [ଆରେ ଢମଣା , ବୁଲି ବୁଲିକରି ସେଇ ଅଗଣା ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-040.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-668 | [ଗୋଦରା କୋଡେ ଯେତେ ମାଡ଼େ ସେତେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-041.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-669 | [ମୁଳୁରୁ ମାଇପ ନାହିଁ ପୁଅ ନାଁ ଗୋପାଳ](https://projectodisha.org/dhaga/sayings/pod-dhaga-042.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-670 | [ଠାକୁର ଘରେ କିଏ ରେ? ନାଁ ମୁଁ କଦଳୀ ଖାଇନାହିଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-043.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-671 | [ଘଇତା ପଛେ ମରୁ କିନ୍ତୁ ସଉତୁଣି ରାଣ୍ଡ ହେଉ!.](https://projectodisha.org/dhaga/sayings/pod-dhaga-044.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-672 | [ଗାଁ କନିଆଁ ସିଂଘାଣି ନାକୀ](https://projectodisha.org/dhaga/sayings/pod-dhaga-045.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-673 | [କଂସାରୀ ଘର ପାରାଙ୍କୁ କୁଲା ଢାଉଁ ଢାଉଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-046.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-674 | [ଆଲୋ ମୁତୁରି ଶୋଇବା, ତୁ ମୁତୁରୀ କି ମୁଁ ମୁତୁରା ହେଂସ କାହିଁପାଇଁ ଧୋଇବା...!!!](https://projectodisha.org/dhaga/sayings/pod-dhaga-047.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-675 | [ଢିଙ୍କି ସ୍ୱର୍ଗକୁ ଗଲେ ବି ଧାନ କୁଟିବ](https://projectodisha.org/dhaga/sayings/pod-dhaga-048.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-676 | [ତିଳକୁ ତାଳ କରିବା](https://projectodisha.org/dhaga/sayings/pod-dhaga-049.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-677 | [ତେଲିଆ ମୁଣ୍ଡରେ ତେଲ](https://projectodisha.org/dhaga/sayings/pod-dhaga-050.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-678 | [ଆଜ ହୁଁ ଏଡ଼େ, ପାଣି ପଡିଲେ ହବୁ କେଡ଼େ](https://projectodisha.org/dhaga/sayings/pod-dhaga-051.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-679 | [କାନ୍ଦୁଥା ଯାହା ପାଉଥିବୁ ବାନ୍ଧୁଥା ॥](https://projectodisha.org/dhaga/sayings/pod-dhaga-052.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-680 | [ଗଙ୍ଗା ବୋଇଲେ ଥିବି ଗାଙ୍ଗୀ ବୋଇଲେ ଯିବି](https://projectodisha.org/dhaga/sayings/pod-dhaga-053.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-681 | [ସେଇ ଘଇତା କଲୁ, ବୟସ ଗଡ଼େଇ ଦେଲୁ!](https://projectodisha.org/dhaga/sayings/pod-dhaga-054.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-682 | [ତୁଛାକୁ ଏତେ ନା ମୁଦି ନାହିଁ ଗୋଡ଼ କଛାଡୁ କେତେ ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-055.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-683 | [ଓଧ ସାଙ୍ଗରେ ବଣଭୁଆ ବାଇ!](https://projectodisha.org/dhaga/sayings/pod-dhaga-056.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-684 | [ପଞ୍ଚମୂଳେ ପରମେଶ୍ୱର](https://projectodisha.org/dhaga/sayings/pod-dhaga-057.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-685 | [ଚୋର ମା ଯଦି କାନ୍ଦେ ଆଖି ମଳିମଳି କାନ୍ଦେ ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-058.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-686 | [ମାରିନେଲେ ମହାପାତ୍ରେ ଚାହିଚାହିଁ ଜଳକା ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-059.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-687 | [ଅଲାଜୁକ ଷାଠିଆ ପାନ ନାହିଁ ଗୁଆ ନାହିଁ ଖାଲି ବଟୁଆ!](https://projectodisha.org/dhaga/sayings/pod-dhaga-060.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-688 | [କୁହାଯାଉଥାଇ ସିନା, ତୁହାଇ ତୁହାଇ ପୁଟ ଦେଲେ କାହିଁ, ଲୁହା କି ହୋଇବ ସୁନା](https://projectodisha.org/dhaga/sayings/pod-dhaga-061.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-689 | [ଭାସି ଯାଉଥିଲୁ ମଝିନଇରେ ଧରି ଆଣିଥିଲି ତତେ, ଠାକୁଆ ଗାଲରେ ମାଉଁଶ ଲାଗିଲା ଜବାବ ଦେଉଛୁ ମତେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-062.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-690 | [ରାଧା କହିଲେ ଦୂତୀ କି, ଯାହା ହେଇଚି ସେତିକି...!!!](https://projectodisha.org/dhaga/sayings/pod-dhaga-063.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-691 | [ଶୁଣ୍ଢି ସାକ୍ଷୀ ମାତାଲ!](https://projectodisha.org/dhaga/sayings/pod-dhaga-064.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-692 | [ଏଣ୍ଡୁଅ ଧାଉଡ଼ି ସିଜୁ ବୁଦାକୁ!](https://projectodisha.org/dhaga/sayings/pod-dhaga-065.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-693 | [କାଣୀ ବିରାଡ଼ି କୁଜି ଅସରପା ଉପରେ ରଜା](https://projectodisha.org/dhaga/sayings/pod-dhaga-066.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-694 | [ଅଖ ବୁଲୁଥିଲେ ଚକ ବୁଲୁଥାଏ, ବୁଲି ପଡୁଥାଏ ମହି, ସଂସାର ଭିତରେ ଘର କରିଥିଲେ ପଥର ପଡ଼ିଲେ ସହି ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-067.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-695 | [ଗୋଦରୀ ଲୋ ଗୋଡ଼କୁ ଅନା](https://projectodisha.org/dhaga/sayings/pod-dhaga-068.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-696 | [ଗଂଗାଦି ନାନା ତୀର୍ଥ ନିକଟେ ଥାଇଣ ଚାତକ, ଜଳଦ ଜଳ ଟୋପେକୁ ଆଶ୍ରାକରି ଅବିରତେ ତୃଷୀକ](https://projectodisha.org/dhaga/sayings/pod-dhaga-069.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-697 | [କେଉଟ ଧରେ ମାଛ, ଖାଏ କଙ୍କଡ଼ା](https://projectodisha.org/dhaga/sayings/pod-dhaga-070.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-698 | [ମାଗି ଖାଉଥାଏ ବାସି ତୋଡ଼ାଣି, ଯାଚିଲେ ନ ଖାଏ ସର ଲବଣୀ](https://projectodisha.org/dhaga/sayings/pod-dhaga-071.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-699 | [ଛାଡ଼ ଅଞ୍ଚଳ ମହାବାହୁ... ଏ ଜନ୍ମେ ଭେଟ ନାହିଁ ଆଉ...!!!](https://projectodisha.org/dhaga/sayings/pod-dhaga-072.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-700 | [ବଣ ପୋଡ଼ିଲେ ଦୁନିଆ ଜାଣେ, ମନ ପୋଡ଼ିଲେ କେହୀ ନ ଜାଣେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-073.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-701 | [ଚଷା ହୁଡ଼ିଲେ ବରଷେ, ମଣିଷ ହୁଡିଲେ ପୁରୁଷେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-074.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-702 | [ରଜା ପୁଅକୁ କି ଖଜା ଅପୂର୍ବ?](https://projectodisha.org/dhaga/sayings/pod-dhaga-075.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-703 | [ରଜାର ପ୍ରଜା ନୁହେଁ କି ସାହୁର ଖାତକ ନୁହେଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-076.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-704 | [ରଜା ଗୋଜା](https://projectodisha.org/dhaga/sayings/pod-dhaga-077.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-705 | [ଅବୁଝାମଣା ରଜାକୁ ପାଳବିଣ୍ଡା ମନ୍ତ୍ରୀ](https://projectodisha.org/dhaga/sayings/pod-dhaga-078.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-706 | [ରଜାପୁଅ ସଙ୍ଗେ ଶୁଖୁଆବଣିଜ ବାଇ](https://projectodisha.org/dhaga/sayings/pod-dhaga-079.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-707 | [ଘର ଦେଖି ଦେଇ କି, ବର ଦେଖି ଦେଇ](https://projectodisha.org/dhaga/sayings/pod-dhaga-080.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-708 | [ମାଘ, ଶୀତ ହୁଏ ବାଘ](https://projectodisha.org/dhaga/sayings/pod-dhaga-081.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-709 | [ମାଘେ ଶୀତ, ମେଘେ ଶୀତ, ଯତ୍ର ବାତ ତତ୍ର ଶୀତ](https://projectodisha.org/dhaga/sayings/pod-dhaga-082.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-710 | [କହି ଜାଣିଲେ କଥା ସୁନ୍ଦର ବାନ୍ଧି ଜାଣିଲେ ମଥା ସୁନ୍ଦର](https://projectodisha.org/dhaga/sayings/pod-dhaga-083.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-711 | [ଅଳପ ନିଦକୁ ବହୁତ କଥା, ଝୁରିମରିବାକୁ କଲା ବିଧାତା](https://projectodisha.org/dhaga/sayings/pod-dhaga-084.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-712 | [ଦିନକର ଭାତ ଯୁଗକର କଥା](https://projectodisha.org/dhaga/sayings/pod-dhaga-085.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-713 | [କଥାର ମଞ୍ଜି, କୁଆ ଧାନ ଖାଏ ବୋହୁକୁ ଗଞ୍ଜି](https://projectodisha.org/dhaga/sayings/pod-dhaga-086.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-714 | [କଥା କହୁଥାଏ କେଉଁ ରସରେ, ମୋତେ ଲାଗୁଥାଏ ପରିହାସରେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-087.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-715 | [ମାରି ମାରି ଗଲା କାଳକ ଆଉ ରହିଗଲା ଫାଳକ](https://projectodisha.org/dhaga/sayings/pod-dhaga-088.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-716 | [ହାତରେ ନ ମାରି ଭାତରେ ମାରିବି](https://projectodisha.org/dhaga/sayings/pod-dhaga-089.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-717 | [ଝିଅକୁ ମାରି ବୋହୂକୁ ଶିଖାଇବା](https://projectodisha.org/dhaga/sayings/pod-dhaga-090.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-718 | [ମୂଳୁଁ ମାଇଲେ ଯିବ ସରି, ଦେବଙ୍କ ସଙ୍ଗେ କିପାଁ କଳି](https://projectodisha.org/dhaga/sayings/pod-dhaga-091.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-719 | [ଦେଖିଲେ କଥା ନ କହେ, ନ ଦେଖିଲେ ପାଣି ନ ପିଏ](https://projectodisha.org/dhaga/sayings/pod-dhaga-092.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-720 | [ହାଟକୁ ଗଲେ କନ୍ୟା ଦେଖିବି ବାଇଗଣ ବିକିବି ଦି କାମ କରିବି](https://projectodisha.org/dhaga/sayings/pod-dhaga-093.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-721 | [ମହର୍ଗରୁ ଯାଇ କାନ୍ତାରରେ ପଡ଼ିବା](https://projectodisha.org/dhaga/sayings/pod-dhaga-094.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-722 | [କଳେ ବଳେ କୌଶଳେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-095.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-723 | [ଝିଣ୍ଟିକା ମାରି ବଣି ପୋଷିବା ନ୍ୟାୟ](https://projectodisha.org/dhaga/sayings/pod-dhaga-096.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-724 | [ବସିଖାଇଲେ ନଈବାଲି ସରେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-097.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-725 | [ଚମବାଇଦ କୋଶେ, ତୁଣ୍ଡ ବାଇଦ ଶହସ୍ର କୋଶ](https://projectodisha.org/dhaga/sayings/pod-dhaga-098.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-726 | [ହାତେ ମାପି ଚାଖଣ୍ଡେ ଚାଲିବା](https://projectodisha.org/dhaga/sayings/pod-dhaga-099.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-727 | [ଅଣ୍ଟି ଛୁରି ତଣ୍ଟି କାଟେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-100.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-728 | [ଶୁଭସ୍ୟ ଶୀଘ୍ରଂ](https://projectodisha.org/dhaga/sayings/pod-dhaga-101.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-729 | [ବିରାଡ଼ି ବଇଷମ](https://projectodisha.org/dhaga/sayings/pod-dhaga-102.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-730 | [ଦେଶକେ ଫାଙ୍କ୍, ନଈକେ ବାଙ୍କ୍](https://projectodisha.org/dhaga/sayings/pod-dhaga-103.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-731 | [ଏକା ହାତରେ ତାଳି ବାଜେ ନାହିଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-104.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-732 | [ଗତସ୍ୟ ଶୋଚନା ନାସ୍ତି](https://projectodisha.org/dhaga/sayings/pod-dhaga-105.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-733 | [ଆକାଶକୁସୁମ](https://projectodisha.org/dhaga/sayings/pod-dhaga-106.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-734 | [ଆଳୁ ଖୋଳୁ ଖୋଳୁ ମହାଦେବ ବାହାରିଲେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-107.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-735 | [ମୌନଂ ସମ୍ମତିଲକ୍ଷଣଂ](https://projectodisha.org/dhaga/sayings/pod-dhaga-108.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-736 | [ଦୂର ପର୍ବତ ସୁନ୍ଦର; ଦୂର ବନ୍ଧୁ ସୁନ୍ଦର](https://projectodisha.org/dhaga/sayings/pod-dhaga-109.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-737 | [ଉତ୍ତମ ମଧ୍ୟମ ଦେବା](https://projectodisha.org/dhaga/sayings/pod-dhaga-110.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-738 | [ବିରାଡ଼ି କପାଲକୁ ଶିକା ଛିଣ୍ଡିବା ନ୍ୟାୟ](https://projectodisha.org/dhaga/sayings/pod-dhaga-111.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-739 | [କପାଳେ ନ ଥିଲେ ଭୂପାଳେ ନ ଦିଅନ୍ତି](https://projectodisha.org/dhaga/sayings/pod-dhaga-112.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-740 | [ମୋତେ ମାରନାଁ ମୁଁ ମଲିଣି, ଦୀପ ଲଗେଇ ଦେଖ୍ ପିଠି, ଲାଉ ଚୋର ଭାବ ପାଇଲିଣି](https://projectodisha.org/dhaga/sayings/pod-dhaga-113.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-741 | [ଆମ୍ୱ ଗଛରେ ପାଣି ଦଉଁ ଦଉଁ ଶିମ୍ୱ ଗଛ ମଲା](https://projectodisha.org/dhaga/sayings/pod-dhaga-114.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-742 | [କହିବି ତା ଆଗେ ଶୁଣିବେ କେ? ଘଇତା ଅବୁଝା ମାରିବ ଯେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-115.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-743 | [ଘର ବୁଡ଼ି ପାଣି ଆଣ୍ଠୁଏ ହେଲାଣି ପୁଅଙ୍କର ପିକା ଖିଆ ଛାଡ଼ ଯାଉ ନାହିଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-116.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-744 | [ଶଶ ବିଷାଣ](https://projectodisha.org/dhaga/sayings/pod-dhaga-117.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-745 | [ଆପଣା ଭଉଣୀ ନ ପାଏ ଭାତଗୁଣ୍ଡା ଶଳାଶାଳୀ ପାଇଁ ଥୁଆ କ୍ଷୀରମଣ୍ଡା ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-118.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-746 | [ଇଛା ଥିଲେ ଉପାୟ ବଳେ ବଳେ ଆସେ ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-119.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-747 | [ଯେ ଦେଶ ଯାଇ, ସେ ଫଳ ଖାଇ ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-120.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-748 | [ଇନ୍ଦ୍ରଚନ୍ଦ୍ର ନ ମାନିବା](https://projectodisha.org/dhaga/sayings/pod-dhaga-121.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-749 | [କାଉ ରାବିବାକୁ ତାଳ ପଡିବା](https://projectodisha.org/dhaga/sayings/pod-dhaga-122.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-750 | [ଗାଲୁଆଙ୍କର ବାରବାଟି ଚାଷ](https://projectodisha.org/dhaga/sayings/pod-dhaga-123.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-751 | [ବାପ ରାଣ, ଢିଙ୍କି ଗିଳ](https://projectodisha.org/dhaga/sayings/pod-dhaga-124.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-752 | [ଆକାଶ କଇଁଆ ଚିଲିକା ମାଛ](https://projectodisha.org/dhaga/sayings/pod-dhaga-125.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-753 | [ଛାଇ ପଡିଲେ ନାହିଁ ଡେଇଁବା ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-126.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-754 | [ସଭାରେ ଷଣ୍ଢ ପୂରାଇବା](https://projectodisha.org/dhaga/sayings/pod-dhaga-127.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-755 | [ଢୋଲ ଭିତରେ ମୂଷା](https://projectodisha.org/dhaga/sayings/pod-dhaga-128.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-756 | [ସୁନା ଚିହ୍ନେ ବଣିଆ](https://projectodisha.org/dhaga/sayings/pod-dhaga-129.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-757 | [ହଜିଲା ବଳଦ ଖୋଜିଲାଠେଇଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-130.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-758 | [ଅଲଣା କଥା](https://projectodisha.org/dhaga/sayings/pod-dhaga-131.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-759 | [ନ ଦେଖିଲା ଓଉ ଛଫଡା](https://projectodisha.org/dhaga/sayings/pod-dhaga-132.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-760 | [ବାନର କଣ୍ଠେ ମୁକ୍ତା ମାଳ](https://projectodisha.org/dhaga/sayings/pod-dhaga-133.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-761 | [ଚାଲି ନ ଜାଣି ବାଟର ଦୋଷ](https://projectodisha.org/dhaga/sayings/pod-dhaga-134.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-762 | [ଅତି ଦର୍ପେ ହତ ଲଙ୍କା ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-135.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-763 | [ଅରକ୍ଷିତକୁ ଦଇବ ସାହା ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-136.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-764 | [ଅଳ୍ପ ବିଦ୍ୟା ଭୟଙ୍କରୀ ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-137.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-765 | [ଆପେ ଭଲ ତ ଦୁନିଆ ଭଲ ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-138.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-766 | [କଂସ ତୁଣ୍ଡରେ ପୁଣି କୃଷ୍ଣ କଥା ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-139.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-767 | [ଦୀପ ତଳ ଅନ୍ଧାର ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-140.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-768 | [ଅଠାକାଠିରେ ପଡିବା](https://projectodisha.org/dhaga/sayings/pod-dhaga-141.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-769 | [ଅଇଲା ମାଳି, ମାଇଲା ତାଳି ଧରି ପଳେଇଲା, ଖେଚୁଡ଼ି ଥାଳି।](https://projectodisha.org/dhaga/sayings/pod-dhaga-142.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-770 | [ଅଗସ୍ତି ଦେଲେ ଦାନ କଷା ଗୁଆକୁ ପଚା ପାନ ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-143.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-771 | [ଅଗା, ବଗା, ଖଗା ତିନିହେଁ ତିନି ଅଲଗା ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-144.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-772 | [କୁକୁର ପରି ଧାଇଁବା](https://projectodisha.org/dhaga/sayings/pod-dhaga-145.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-773 | [ଖୁଣ୍ଟଟା ପରି ଠିଆହେବା](https://projectodisha.org/dhaga/sayings/pod-dhaga-146.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-774 | [ଦିଅଁ ଗଢୁ ଗଢୁ ମାଙ୍କଡ଼](https://projectodisha.org/dhaga/sayings/pod-dhaga-147.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-775 | [ବେଲ ପାଚିଲେ କାଉର କି ଯାଏ](https://projectodisha.org/dhaga/sayings/pod-dhaga-148.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-776 | [ହାତ ଅଳସେ ନିଶ ବଙ୍କା !](https://projectodisha.org/dhaga/sayings/pod-dhaga-149.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-777 | [ଅରଣା ମଇଁଷି ରହିଛି ଅନାଇ, ମଇଁଷିର ପାଖ ନଯାଅ ଦନାଇ ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-150.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-778 | [କୁକୁର ଲାଙ୍ଗୁଡ଼ ବଙ୍କା!](https://projectodisha.org/dhaga/sayings/pod-dhaga-151.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-779 | [ବିରି ମାଡ଼ ଶୁଣି କୋଳଥ ଚୋପା ହରଡ଼ କହୁଛି ରଖଲୋ ବାପା ॥](https://projectodisha.org/dhaga/sayings/pod-dhaga-152.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-780 | [ଉପର ବରଡ଼ା ଖସୁଛି, ମଝି ବରଡ଼ା ହସୁଛି ତଳ ବରଡ଼ା କହୁଛି, ମୋ ଦିନ କାଳ ଯାଉଛିରେ ଭାଇ ତୋ ଦିନକାଳ ଆସୁଛି ॥](https://projectodisha.org/dhaga/sayings/pod-dhaga-153.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-781 | [ବେଙ୍ଗ କହେ ବେଙ୍ଗୁଲିଲୋ ପୃଥ୍ଵୀ ଘଡ଼ିକେ ଆନ ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-154.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-782 | [ହାତି ବନସ୍ତରେ ଥିଲେ ବି ରଜାର !](https://projectodisha.org/dhaga/sayings/pod-dhaga-155.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-783 | [ଉପକାର କଲି କୁକୁରକୁ କୁକୁର ମୁତିଲା ଉପରକୁ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-156.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-784 | [ଠକ ଠକ ମାଳି ଭଜନ ଟାଣ ଭୋକ କଲା ଭାତ ପାଖକୁ ଆଣ —](https://projectodisha.org/dhaga/sayings/pod-dhaga-157.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-785 | [ଆତଙ୍କ ବେଳେ ଯାଚନ୍ତି କୁକୁଡ଼ା, ଆତଙ୍କ ଗଲେ ଦିଅନ୍ତି ନେଫେଡ଼ା](https://projectodisha.org/dhaga/sayings/pod-dhaga-158.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-786 | [ମାଲୁଣି ହାତରେ ଲଙ୍କା ମରିଚଲୋ, ମାଳି ହାତେ ଫୁଲ ହାର, ଯାହା ମନ କଥା, ସିଏ ଜାଣେ ସିନା, ତାହା କି ଜାଣିବ ପର ॥](https://projectodisha.org/dhaga/sayings/pod-dhaga-159.html) | excluded | standalone_dhaga_collection |
