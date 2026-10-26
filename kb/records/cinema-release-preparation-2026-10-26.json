@@ -1,5 +1,5 @@
 {
-  "status": "website_validated_pdf_disclosure_review",
+  "status": "ci_retry_lossless_delivery",
   "authorization": "User: ok, let\u2019s go, after recommendation to complete alignment/checks and publish articles, book and viewing room together.",
   "source_checkout": "prahallad-nataka-research",
   "release_checkout": "odia-cinema-release-20261026",
@@ -22,11 +22,10 @@
     "Disha": "shared release records, Git and publication"
   },
   "outstanding": [
-    "Separate final PDF review",
-    "Push and PR checks/merge",
-    "Both PDF release uploads and hash verification",
+    "PR checks/merge",
+    "Publish uploaded book release",
     "Manual deployment",
-    "Live URL and viewing-room checks"
+    "Live verification"
   ],
   "download_delivery": {
     "digital": "GitHub release odia-cinema-book-2026-10-26 asset odia-cinema-a-living-screen.pdf",
@@ -36,7 +35,7 @@
   },
   "checks": {
     "full_build": "PASS",
-    "full_tests": 602,
+    "full_tests": 606,
     "coast_tests": 515,
     "publication": "PASS",
     "kb_bundle": "PASS",
@@ -45,9 +44,9 @@
     "rollout": "PASS",
     "autonomous_program": "PASS",
     "public_disclosure": "PASS, full/coast/published artifacts",
-    "pdf_disclosure_revision": "Implementation and focused hash tests PASS; separate final review pending"
+    "pdf_disclosure_revision": "Drishti separate review PASS:95/106 pages,25 image streams unchanged,only label/process-page text changes,changed pages visually inspected"
   },
-  "artifact_bytes": 998812266,
+  "artifact_bytes": 981979358,
   "artifact_limit_bytes": 1000000000,
   "indexable_routes_unchanged": 11,
   "print_release_pending": true,
@@ -86,5 +85,13 @@
     "scope": "Latest curated candidate hashes match independently reviewed source; exact seven entries and public transfer verified. No browser/playback certification.",
     "size_only_delta": "Drishti separate review PASS: JPEG srcsets/dimensions retained, both release PDF links correct, source image and PDF hashes unchanged, five focused tests pass."
   },
-  "source_payload_audit": "Anvesha bounded read-only audit: no evidence of restricted contact/consent records or credential patterns in inspected text; not exhaustive binary/security clearance."
+  "source_payload_audit": "Anvesha bounded read-only audit: no evidence of restricted contact/consent records or credential patterns in inspected text; not exhaustive binary/security clearance.",
+  "ci_size_failure": {
+    "run": 40274252680,
+    "artifact_bytes": 1014244284,
+    "scope": "Publication-only lossless character PNG delivery optimization; source and dist-coast untouched",
+    "implementation": "Samanta: build-publication.mjs, new lossless delivery helper and focused tests",
+    "review": "Drishti independent delta review pending",
+    "resolution": "Lossless delivery-only IDAT recompression saves16,832,908 bytes; Drishti reviewPASS;606 full testsPASS. Source/coast unchanged."
+  }
 }
