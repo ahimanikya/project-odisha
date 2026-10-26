@@ -3,10 +3,10 @@ type: "Cinema History"
 title: "Parbati Ghose: the woman behind the credits"
 description: "Follow Parbati Ghose from collaborative production to a major literary adaptation—and read the credits more closely."
 status: "draft"
-research_date: "2026-10-25"
+research_date: "2026-10-26"
 human_review_claimed: false
 author: "Ahimanikya Satapathy"
-sources: [{"id": "cinema-parbati-film", "title": "Chha Mana Atha Guntha (1986)", "resource": "https://www.gourparbati.com/movie_chha_mana_atha_guntha.php"}, {"id": "cinema-gour-parbati", "title": "Gour–Parbati filmography", "resource": "https://www.gourparbati.com/filmography.php"}, {"id": "cinema-parbati-ghose-awards", "title": "Awards", "resource": "https://www.gourparbati.com/award.php"}, {"id": "cinema-parbati-ghose-novel", "title": "“Teaching about the Colonial India State and Society with Six Acres and a Third”", "resource": "https://www.educationaboutasia.org/article/id/1629/"}, {"id": "watch-0784752a93", "title": "Laxmi", "resource": "https://www.gourparbati.com/movie_laxmi.php", "kind": "Film information", "checked": "2026-10-26", "playback_verified": false}, {"id": "watch-3726ea0671", "title": "Kaa", "resource": "https://www.gourparbati.com/movie_kaa.php", "kind": "Film information", "checked": "2026-10-26", "playback_verified": false}, {"id": "watch-490fd1e306", "title": "Stree", "resource": "https://www.gourparbati.com/movie_stree.php", "kind": "Film information", "checked": "2026-10-26", "playback_verified": false}, {"id": "watch-stree-song", "title": "Stree - Kali Juga song clip", "resource": "https://www.youtube.com/watch?v=OlNg8Y-g3Qk", "kind": "Archive-linked channel song clip", "checked": "2026-10-26", "playback_verified": false}]
+sources: [{"id":"parbati-life","resource":"https://www.gourparbati.com/parbati_ghose.php"}, {"id": "cinema-parbati-film", "title": "Chha Mana Atha Guntha (1986)", "resource": "https://www.gourparbati.com/movie_chha_mana_atha_guntha.php"}, {"id": "cinema-gour-parbati", "title": "Gour–Parbati filmography", "resource": "https://www.gourparbati.com/filmography.php"}, {"id": "cinema-parbati-ghose-awards", "title": "Awards", "resource": "https://www.gourparbati.com/award.php"}, {"id": "cinema-parbati-ghose-novel", "title": "“Teaching about the Colonial India State and Society with Six Acres and a Third”", "resource": "https://www.educationaboutasia.org/article/id/1629/"}, {"id": "watch-0784752a93", "title": "Laxmi", "resource": "https://www.gourparbati.com/movie_laxmi.php", "kind": "Film information", "checked": "2026-10-26", "playback_verified": false}, {"id": "watch-3726ea0671", "title": "Kaa", "resource": "https://www.gourparbati.com/movie_kaa.php", "kind": "Film information", "checked": "2026-10-26", "playback_verified": false}, {"id": "watch-490fd1e306", "title": "Stree", "resource": "https://www.gourparbati.com/movie_stree.php", "kind": "Film information", "checked": "2026-10-26", "playback_verified": false}, {"id": "watch-stree-song", "title": "Stree - Kali Juga song clip", "resource": "https://www.youtube.com/watch?v=OlNg8Y-g3Qk", "kind": "Archive-linked channel song clip", "checked": "2026-10-26", "playback_verified": false}]
 hero_image: "../../media/cinema-series/parbati-ghose-title.png"
 series_intro: "Enter the film chapters through the overlapping work of producing, writing and performing."
 series_position: 3
@@ -27,11 +27,17 @@ Those entries ask us to look beyond the familiar photograph of an actress. They 
 
 *Parbati Ghose on India Post’s 2023 commemorative stamp. India Post, Government of India, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Parbati_Ghose_2023_stamp_of_India.jpg), [Government Open Data License–India](https://data.gov.in/sites/default/files/Gazette_Notification_OGDL.pdf). The complete stamp is shown; this is a commemorative portrait, not a film still.*
 
+## Chapala before Parbati
+
+Born in Cuttack in 1942, Parbati was also known as **Chapala** and **Chandana**. Her archive biography describes a childhood connected to books and performance: her father Basudev Naik worked at ManMohan Press, and her mother Sebati encouraged the children’s education and cultural interests. It records dance training and childhood participation in All India Radio.[^life]
+
+These details bring another history into view. The actress who later adapted a novel grew up around the worlds of publishing, listening and performance. The connection is suggestive rather than a claim that a childhood circumstance determined the films she would make.
+
 ## A career built through collaboration
 
 The Gour–Parbati archive records her as co-producer with Gour Prasad Ghose on *ଲକ୍ଷ୍ମୀ (Laxmi)*, *କା (Kaa)* and *ସ୍ତ୍ରୀ (Stree)*. It also identifies “Siddharth,” the directing credit associated with *Kaa* and *Stree*, as a collaboration involving Ram Chandra Thakur, Gour and Parbati.[^filmography]
 
-Her producing, directing and writing credits sit alongside the work of these collaborators.
+Her producing, directing and writing credits sit alongside the work of these collaborators. [Gour Prasad Ghose’s profile](../../people/gour-prasad-ghose.md) follows his theatre and production career, while the [shared archive](https://www.gourparbati.com/) lets readers explore both lives.
 
 ## Land, power and a literary inheritance
 
@@ -48,6 +54,12 @@ This is the adaptation’s literary context. The novel’s treatment of property
 In the adaptation, Parbati played Saria, Bijay Mohanty played Bhagia and Sarat Pujari played Mangaraj. The archive names Ashok Swain for camera, Tapas Mukherjee for editing and Prafulla Kar for music.[^adaptation]
 
 These credits give the relationship between literature and film a concrete form. A novel’s words must meet actors’ voices, images, cuts and music. Adaptation is a sequence of artistic decisions made by several people, even where one filmmaker carries unusually broad responsibility.
+
+## Beyond the feature film
+
+The archive also follows Parbati through television, radio drama, literacy work and films for public institutions. It credits her with *Salabeg* for Films Division in 1996 and identifies *Pratibha* as a television adaptation of Harekrushna Mahtab’s novel. These extend the literary connection beyond her better-known Fakir Mohan adaptation.[^life]
+
+Her work in shorter forms belongs within the history too. A film made for television or a public programme can involve writing, performance and production skills even when it attracts less retrospective attention than a theatrical feature. The archive records her death on **12 February 2018**.[^life]
 
 ## Remembering the work accurately
 
@@ -67,6 +79,8 @@ Links checked on 26 October 2026. Playback was not tested; territory, account an
 
 ## Footnotes & Sources
 
+[^life]: Gour–Parbati archive, [Parbati Ghose](https://www.gourparbati.com/parbati_ghose.php), retrospective biography. Used for family context, radio and later work. Claimed social impact, superlatives and disputed debut-year chronology are not repeated.
+
 [^adaptation]: Gour–Parbati archive, [Chha Mana Atha Guntha (1986)](https://www.gourparbati.com/movie_chha_mana_atha_guntha.php), production, screenplay, cast and technical credits.
 [^filmography]: Gour–Parbati archive, [Filmography](https://www.gourparbati.com/filmography.php), entries for Laxmi, Kaa and Stree. Collective credits are retained rather than recast as solo direction.
 [^awards]: Gour–Parbati archive, [Awards](https://www.gourparbati.com/award.php). Used for the films’ recognition, not an individual acting-award claim.
@@ -74,6 +88,9 @@ Links checked on 26 October 2026. Playback was not tested; territory, account an
 [^novel]: Peter Samuels, [“Teaching about the Colonial India State and Society with Six Acres and a Third”](https://www.educationaboutasia.org/article/id/1629/), Education About Asia, 10 June 2020. Used for the novel’s conflict; no claim of scene-by-scene fidelity in the film adaptation.
 
 ## Further reading
+
+- [Gour Prasad Ghose: from the stage to making films](../../people/gour-prasad-ghose.md)
+- [AIR Cuttack: where stories found another voice](../air-cuttack.md)
 
 - [Odia cinema: the world in our own voice](../odia-cinema.md)
 - [Maya Miriga: a family, a fragile film, a second life](maya-miriga.md)
