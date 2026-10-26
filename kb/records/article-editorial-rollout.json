@@ -12805,9 +12805,32 @@
       "id": "POD-EDIT-802",
       "route": "/stories/ratnagiri/",
       "title": "Ratnagiri: a place built for learning",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "new_researched_article",
       "source_template": "projects/site/src/pages/stories/ratnagiri.astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/buddhist-triangle-research-2026-10-26.json",
+        "records/ratnagiri-publication-2026-10-26.json"
+      ],
+      "blocker": null,
+      "publication_receipt": "records/ratnagiri-publication-2026-10-26.json"
+    },
+    {
+      "id": "POD-EDIT-803",
+      "route": "/stories/udayagiri-buddhist/",
+      "title": "Buddhist Udayagiri in Jajpur: monasteries and daily life",
+      "status": "in_progress",
+      "scope": "new_researched_article",
+      "source_template": "projects/site/src/pages/stories/udayagiri-buddhist.astro",
       "checks": {},
       "evidence": [
         "records/buddhist-triangle-research-2026-10-26.json"

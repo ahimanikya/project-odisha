@@ -1,5 +1,6 @@
 // Assemble a deployable artifact from the tested coastal build. Never mutate it.
 import {readFile,writeFile,cp,rm,lstat,readdir,mkdir} from 'node:fs/promises';
+import {optimizePublicationJPEGs} from './optimize-publication-jpeg.mjs';
 import {eligiblePNG,optimizePublicationPNGs} from './optimize-publication-png.mjs';
 import {fileURLToPath} from 'node:url';
 import {publicationPlan,publicationPage,publicationCrawlerFiles} from '../src/lib/search-publication.mjs';
@@ -41,6 +42,8 @@ export async function buildPublication(site){
  await mkdir(new URL('.astro/',site),{recursive:true});
  const optimization=await optimizePublicationPNGs(output);
  await writeFile(new URL('.astro/publication-png-optimization.json',site),JSON.stringify(optimization,null,2)+'\n');
+ const jpegOptimization=await optimizePublicationJPEGs(output);
+ await writeFile(new URL('.astro/publication-jpeg-optimization.json',site),JSON.stringify(jpegOptimization,null,2)+'\n');
  let publicationBytes=0;
  async function total(dir){for(const entry of await readdir(dir,{withFileTypes:true})){const url=new URL(entry.name+(entry.isDirectory()?'/':''),dir);if(entry.isDirectory())await total(url);else publicationBytes+=(await lstat(url)).size;}}
  await total(output);

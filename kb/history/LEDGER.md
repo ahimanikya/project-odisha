@@ -1187,3 +1187,7 @@ Founder explicitly authorized publication of reviewed Ratnagiri, Buddhist Udayag
 POD-HIS-PURI-PROJECT-20261026 · 26 October 2026 · Authorized implementation; publication pending.
 
 The Founder requested a Project Odisha page alongside the Investor kit. The public overview introduces the resort concept; Odisha Investor provides the kit and editable project workspaces. [Scope and delivery record](../records/puri-project-integration-20261026.json).
+
+### 26 October 2026 — Ratnagiri published; Udayagiri implementation
+
+Ratnagiri passed exact-head validation, merged in PR574 and deployed successfully in run40281996362. Live title, byline, image credits and six footnotes verified; publication receipt saved. Released POD-EDIT-802 and claimed POD-EDIT-803 for the next reviewed article, Buddhist Udayagiri. No social publication or programme credit claimed.
