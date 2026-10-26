@@ -1,0 +1,36 @@
+{
+  "status": "pass",
+  "reviewer": "Disha",
+  "type": "actual live browser visual review",
+  "viewports": [
+    [
+      1280,
+      900
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "routes": [
+    "/dhaga/",
+    "/dhaga/sayings/pod-dhaga-001.html",
+    "/dhaga/sayings/pod-dhaga-008.html"
+  ],
+  "findings": "Colour cover and line-art interior render clearly on desktop and phone. Live diagram008 labels and outlines legible at desktop. Live PDF link names86pages and resolves to verified immutable PDF.",
+  "limits": "Representative live browser review; all69changed full assets and86PDFpages separately visually AI reviewed. SVG008 raster differs from macOS build because of Linux font rendering; actual live pixels inspected. No physical print proof.",
+  "screenshots": [
+    {
+      "path": "live-phone-cover.png",
+      "sha256": "d40308c470e221eb75c685980ce0f40a4d17849fec9b2388623ab42dc8ea99a7"
+    },
+    {
+      "path": "live-line-art.png",
+      "sha256": "7329fc9eb490a6f230423d5cebe3ebabf1ac24aa3a0db0cddfcd3a970438b391"
+    },
+    {
+      "path": "live-diagram.png",
+      "sha256": "d4796987cb439395493485aa322748637afa91c755fed1bc5b398c839bfb861e"
+    }
+  ]
+}
