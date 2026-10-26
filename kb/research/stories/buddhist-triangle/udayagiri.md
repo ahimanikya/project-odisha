@@ -1,12 +1,12 @@
 ---
 type: "Story"
-title: "Buddhist Udayagiri: monasteries, sacred texts and daily life"
+title: "Buddhist Udayagiri in Jajpur: monasteries and daily life"
 description: "Excavated monastery names, shrines, drains, food preparation and sacred inscriptions at Buddhist Udayagiri in Jajpur."
 ---
 
 A Buddhist monastery needed more than a shrine. People needed rooms, water, food and paths between the places where they lived and worshipped. At Udayagiri in Odisha's Jajpur district, excavations have recovered evidence of all these things: monumental images and small clay impressions, residential buildings and drains, a paved approach and objects used for preparing food.
 
-This is the Buddhist Udayagiri of the Assia hills, part of the circuit with Ratnagiri and Lalitgiri. It is distinct from the Jain Udayagiri–Khandagiri caves near Bhubaneswar. The shared name can confuse a journey before it begins; the archaeological histories are different.[^1]
+This is Buddhist Udayagiri in the Assia hills of Jajpur, near Ratnagiri and part of the circuit with Lalitgiri. It is distinct from the Jain Udayagiri–Khandagiri caves near Bhubaneswar. The shared name can confuse a journey before it begins; the archaeological histories are different.[^1]
 
 Udayagiri also contains more than one named Buddhist establishment. Sealings identify Madhavapura Mahavihara and Simhaprastha Mahavihara. Those names, recovered from objects made and used at the site, provide a firmer starting point than the modern tendency to merge the region's monasteries into a single institution.[^2]
 

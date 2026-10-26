@@ -16,7 +16,9 @@ Independently opened the Commons file page and verified G41rn8, photograph date 
 
 Reviewed identities, relative to `output/bhubaneswar-week/site-publication`:
 
-- `kb/research/stories/buddhist-triangle/udayagiri.md`: SHA-256 `420ceacdc8e90567ac2930a389f37577b490c8efdda7c286189aacae0cfb3296`.
-- `projects/site/src/pages/stories/udayagiri-buddhist.astro`: SHA-256 `da84982dd8a061ccd65bf909ebfc593d65df0a938010a2392f7567adf1052c8b`.
+- `kb/research/stories/buddhist-triangle/udayagiri.md`: SHA-256 `7fd6cc4fc4aed0c56e436dde8ac083014edd5806dd9038bf9e69bd2317365531`.
+- `projects/site/src/pages/stories/udayagiri-buddhist.astro`: SHA-256 `57a63f93c01bd2969b4cb7903a25bdab234e47c30dd904c13b53393329c544b5`.
+
+Follow-up review of the user's geographic clarification: pass. The title explicitly says “Buddhist Udayagiri in Jajpur”; the opening locates it in the Assia hills near Ratnagiri and retains the distinction from the Jain caves near Bhubaneswar. The template alt text and caption also specify Jajpur. Discovery and correction-entry titles match. No historical claim was broadened by this clarification. Hashes above identify the revised files. The separate delivery-size CI remediation is outside this wording review.
 
 This is editorial/source and static integration review, not human approval, archaeological specialist certification, a successful build receipt or publication evidence.

@@ -816,4 +816,4 @@ Route inventory: 803. completed: 114, excluded: 387, in_progress: 1, queued: 301
 | POD-EDIT-800 | [The Odia OTT journey and the search for an audience](https://projectodisha.org/cinema/odia-ott/) | completed | Reviewed cinema article published and live delivery verified |
 | POD-EDIT-801 | [What Makes the Next Film Possible](https://projectodisha.org/cinema/cinema-economics/) | completed | Restore reviewed book economics chapter as standalone cinema article |
 | POD-EDIT-802 | [Ratnagiri: a place built for learning](https://projectodisha.org/stories/ratnagiri/) | completed | new_researched_article |
-| POD-EDIT-803 | [Buddhist Udayagiri: monasteries, sacred texts and daily life](https://projectodisha.org/stories/udayagiri-buddhist/) | in_progress | new_researched_article |
+| POD-EDIT-803 | [Buddhist Udayagiri in Jajpur: monasteries and daily life](https://projectodisha.org/stories/udayagiri-buddhist/) | in_progress | new_researched_article |
