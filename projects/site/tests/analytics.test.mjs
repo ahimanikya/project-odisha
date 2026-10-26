@@ -11,6 +11,13 @@ test('analytics accepts only explicit production routes and clean canonical meta
  const page=analyticsPage({...input,search:'?private-note=secret',hash:'#private'});
  assert.deepEqual(page,{page_location:input.canonical,page_title:input.title,page_referrer:'',ignore_referrer:true});
 });
+test('page-local configuration rejects other routes and error-page fallbacks',()=>{
+ assert.equal(analyticsPage({...input,allowedPaths:[]}),null);
+ assert.equal(analyticsPage({...input,pathname:'/how-to-use/',canonical:'https://projectodisha.org/how-to-use/'}),null);
+ assert.equal(analyticsPage({...input,canonical:'https://projectodisha.org/how-to-use/'}),null);
+ assert.equal(analyticsPage({...input,pathname:'/404.html',canonical:'https://projectodisha.org/404.html',allowedPaths:['/404.html']}),null);
+ assert.equal(analyticsPage({...input,pathname:'/missing-page/',canonical:'https://projectodisha.org/404.html',allowedPaths:[]}),null);
+});
 test('no tag or events before consent, one page view, withdrawal disables immediately',()=>{
  const events=[],loads=[],disabled=[];
  const a=createAnalytics({id:'G-ABC1234567',page:analyticsPage(input),gtag:(...args)=>events.push(args),loadTag:id=>loads.push(id),setDisabled:v=>disabled.push(v)});

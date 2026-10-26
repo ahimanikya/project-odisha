@@ -1,5 +1,5 @@
 {
-  "status": "reviewed_pending_delivery",
+  "status": "published_verified",
   "active_article": "cinema-economics",
   "request": "Restore economics/box-office article and improve Further reading design",
   "workers": {
@@ -15,7 +15,7 @@
     "Bou Buttu Bhuta figures are dated reported estimates, not audited producer profit",
     "No new full-movie catalogue entries or public-domain claims"
   ],
-  "publication": "pending",
+  "publication": "complete",
   "review": {
     "reviewer": "Drishti (separate AI agent)",
     "result": "No blocking finding",
@@ -26,7 +26,7 @@
       "Shared component default unchanged; cinema opt-in compact layout"
     ],
     "limitations": [
-      "Browser layout inspection pending live delivery"
+      "No full-movie playback verification; player content unchanged"
     ]
   },
   "validation": {
@@ -38,7 +38,36 @@
     "publication_build": "pass",
     "publication_bytes": 982784778,
     "disclosure_gates": "all three pass",
-    "browser": "pending live delivery"
+    "browser": "Live overview reading links and economics page visually inspected at642px viewport; no separate narrow-mobile viewport test claimed"
   },
-  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/573"
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/573",
+  "reviewed_head": "fa72d62b0b9ea3cbbb342df8070168d1e849d243",
+  "merge_commit": "d7d40ba939aa0a570b5931b56139f019f861587a",
+  "deployment": {
+    "run_id": 40279884197,
+    "conclusion": "success"
+  },
+  "verified_routes": [
+    "/cinema/",
+    "/cinema/book/",
+    "/cinema/watch/",
+    "/cinema/odia-cinema/",
+    "/cinema/air-cuttack/",
+    "/cinema/parbati-ghose/",
+    "/cinema/sadhu-meher/",
+    "/cinema/manmohan-mahapatra/",
+    "/cinema/maya-miriga/",
+    "/cinema/bhukha/",
+    "/cinema/nandita-das/",
+    "/cinema/daman/",
+    "/cinema/odia-television/",
+    "/cinema/odia-ott/",
+    "/cinema/cinema-economics/"
+  ],
+  "live_checks": {
+    "pages": 15,
+    "assets": 87,
+    "books": 2,
+    "result": "PASS"
+  }
 }

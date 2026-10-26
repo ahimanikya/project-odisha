@@ -1,0 +1,7 @@
+---
+import CinemaReading from '../../components/CinemaReading.astro';
+import {cinema} from '../../lib/cinema-article.mjs';
+const entry=cinema.articles.find(article=>article.route==='/people/ak-bir/');
+if(!entry)throw new Error('Missing reviewed A. K. Bir entry');
+---
+<CinemaReading entry={entry}/>

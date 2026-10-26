@@ -18,7 +18,7 @@ const articles=manifest.articles.map(entry=>{
  });
  const hero={...entry.hero};
  if(hero.caption)hero.caption=hero.caption.replace(/^AI-generated (?:editorial|Editorial Natural) illustration/, 'Editorial illustration').replace(' using Human Natural Editorial mode','');
- return {...entry,hero,route:'/cinema/'+entry.slug+'/',source_sha256:report.source_sha256,images};
+ return {...entry,hero,route:entry.route||'/cinema/'+entry.slug+'/',source_sha256:report.source_sha256,images};
 });
 const books=['odia-cinema-a-living-screen.pdf','odia-cinema-a-living-screen-print.pdf'].map(name=>{const bytes=fs.readFileSync(path.join(root,'output/pdf',name));fs.copyFileSync(path.join(root,'output/pdf',name),path.join(site,'public/archive',name));return {file:'/archive/'+name,bytes:bytes.length,sha256:hash(bytes)};});
 const data={parts:manifest.parts,articles,books};
