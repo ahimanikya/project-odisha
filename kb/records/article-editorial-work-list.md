@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 813. completed: 115, excluded: 387, in_progress: 1, queued: 310.
+Route inventory: 814. completed: 115, excluded: 388, in_progress: 1, queued: 310.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -827,3 +827,4 @@ Route inventory: 813. completed: 115, excluded: 387, in_progress: 1, queued: 310
 | POD-EDIT-810 | [ପ୍ରତୀକ୍ଷା (Pratikshya): a family waiting for security](https://projectodisha.org/cinema/pratikshya/) | queued | Individually reviewed cinema companion; awaiting delivery |
 | POD-EDIT-811 | [The page behind the screen](https://projectodisha.org/cinema/literature-and-screen/) | queued | Individually reviewed cinema companion; awaiting delivery |
 | POD-EDIT-812 | [Beyond One Successful Film: Building Odia Cinema Together](https://projectodisha.org/cinema/cinema-futures/) | queued | Individually reviewed cinema companion; awaiting delivery |
+| POD-EDIT-PURI-PROJECT-20261026 | [Puri resort project](https://projectodisha.org/business/puri-resort/) | excluded | product_concept_utility |

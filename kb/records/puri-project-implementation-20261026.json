@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-26",
+  "role": "Samanta",
+  "status": "implemented_pending_coordinator_release",
+  "input_head": "05987648f114a1ae39b08956df7efbd1f040b85e",
+  "scope": "Public Puri concept utility page, tourism opportunities navigation, public route and explicit search hold. No editorial programme credit.",
+  "route": "/business/puri-resort/",
+  "canonical_origin": "https://projectodisha.org",
+  "source_basis": "Founder Puri resort brief in this conversation and existing Odisha Investor Puri Resort Investment Kit v1.0, 26 October 2026. No new legal/subsidy/return claims.",
+  "links": {
+    "kit": "https://utkal-investor-pilot.web.app/puri-resort.html",
+    "starter": "https://utkal-investor-pilot.web.app/start-puri.html"
+  },
+  "image_provenance": {
+    "original": "outputs/utkal-investor/puri-architecture.png in the Project Odisha local workspace",
+    "origin": "Existing generated concept illustration from the Founder-directed Puri resort design work; not documentary photography or a construction drawing.",
+    "changes": "Pillow RGB WebP derivatives, widths640and1280, quality85; uncropped aspect-preserving. Original retained outside repository.",
+    "assets": [
+      {
+        "path": "projects/site/public/assets/puri-resort/architecture-1280.webp",
+        "bytes": 428998,
+        "sha256": "b8fb9b3f511e3bce127711b0d065795767d77e15fbad47440303c8a9284dabe0"
+      },
+      {
+        "path": "projects/site/public/assets/puri-resort/architecture-640.webp",
+        "bytes": 118682,
+        "sha256": "ff6b1e602faf865038e70f7400bdb138df9ba0218375e37b49c92c3ec26fd176"
+      }
+    ]
+  },
+  "modern_web_guidance": {
+    "guide": "accessibility",
+    "retrieved_by": "Coordinator; worker read full tmp/investment-kit/navigation-guidance.txt",
+    "applied": [
+      "Native breadcrumb navigation and links, sequential headings, shared Shell main/skip link, visible focus, informative image alternative, uncropped responsive image dimensions.",
+      "Static essential content works without JavaScript. No new APIs or dependencies."
+    ],
+    "quote": "Prefer HTML elements and attributes to ARIA"
+  },
+  "checks": {
+    "full_build": "passed522Astro routes plus existing exported standalone content",
+    "full_tests": "607/607passed after new route search hold and count fixture update",
+    "coastal_build": "Final build passed803pages; includes reviewed local-materials-only ambition and cultural road/path wording.",
+    "coastal_tests": "Final rendered artifact515/515passed",
+    "disclosure": "Full945, final coastal932and final publication933rendered pages, all0violations",
+    "initial_failures": "Initial tests accidentally overlapped build and failed missing dist. Subsequent completed-build run showed6route-registration/count failures, fixed by explicit search hold and count137to138. No approved search scope changed.",
+    "publication_build": "Passed; limited mode retains11existing indexable routes; new Puri route held/noindex.",
+    "logs": [
+      "/tmp/puri-public-build.log",
+      "/tmp/puri-public-tests-passed.log",
+      "/tmp/puri-public-coast-final.log",
+      "/tmp/puri-public-coast-tests-final.log",
+      "/tmp/puri-public-coast-disclosure-final.log",
+      "/tmp/puri-public-publication.log",
+      "/tmp/puri-public-publish-disclosure.log"
+    ]
+  },
+  "limits": [
+    "Worker did not perform native browser or screen-reader review; coordinator and separate reviewer own those results.",
+    "No push, merge, deployment or live publication claim by worker.",
+    "No new appointment, commercial offer, site approval, subsidy guarantee or investment-return claim."
+  ]
+}
