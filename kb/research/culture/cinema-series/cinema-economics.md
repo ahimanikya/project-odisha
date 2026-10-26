@@ -67,6 +67,9 @@ The useful economic question is consequently larger than which film collected th
 
 ## Further reading
 
+- [Beyond One Successful Film: Building Odia Cinema Together](cinema-futures.md)
+- [The page behind the screen](literature-and-screen.md)
+
 ### Follow the films and their audiences
 
 - [Odia cinema: the world in our own voice](../odia-cinema.md)
