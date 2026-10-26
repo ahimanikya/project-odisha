@@ -16,8 +16,19 @@ test('book navigation uses lowercase public URLs, a pinned exact PDF and retaine
 test('colour cover and exact book metadata match the illustrated edition',()=>{
  const packing=JSON.parse(readFileSync('../odia-dhaga/packing-report.json'));
  const h=read('index.html');
- assert.match(h,/class="book-cover"[^>]*src="assets\/lemon-heritage-v1\.webp"/);
+ const cover=data.cover.src.replace(/\.[^.]+$/,'.webp');
+ assert.ok(h.includes('class="book-cover" src="'+cover+'"'));
+ const coverTag=h.match(/<img class="book-cover"[^>]+>/)?.[0];assert.ok(coverTag);assert.doesNotMatch(coverTag,/loading="lazy"/);
  assert.match(h,/fetchpriority="high"/);
  assert.ok(h.includes(`Download PDF book (${packing.pdf.pages} pages, ~${Math.round(packing.pdf.bytes/1024/1024)} MB)`));
- assert.match(h,/og:image" content="https:\/\/projectodisha.org\/dhaga\/assets\/lemon-heritage-v1\.webp/);
+ assert.ok(h.includes('og:image" content="https://projectodisha.org/dhaga/'+cover));
+ for(const section of data.book_intro?.sections||[])for(const paragraph of section.paragraphs){assert.ok(h.includes(esc(paragraph.odia)));assert.ok(h.includes(esc(paragraph.english)));for(const sid of paragraph.source_ids)assert.ok(h.includes('id="intro-source-'+sid+'"'));}
+});
+
+
+test('public source credits retain exact revisions and distinct quotation rights without research logs',async()=>{
+ const {publicSourceCredit}=await import('../tools/export-dhaga.mjs');
+ const wiki=data.sources.find(s=>s.url.includes('oldid='));const credit=publicSourceCredit(wiki);
+ assert.ok(credit.includes(new URL(wiki.url).searchParams.get('oldid')));assert.ok(credit.includes('creativecommons.org/licenses/by-sa/4.0/'));assert.ok(credit.includes(esc(wiki.title)));assert.ok(!credit.includes(esc(wiki.access)));
+ const scert=data.sources.find(s=>s.id.includes('scert'));assert.match(publicSourceCredit(scert),/2024, p.139/);assert.match(publicSourceCredit(scert),/not openly licensed/);
 });

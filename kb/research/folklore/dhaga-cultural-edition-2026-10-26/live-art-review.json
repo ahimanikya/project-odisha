@@ -1,0 +1,38 @@
+{
+  "review_type": "separate AI bounded live-art visual review",
+  "status": "PASS_WITH_LIMITATIONS",
+  "input_head": "7cc058f00447dd1d83e2f3fa923e62562c05b769",
+  "coordinator_reported_deployment": 40310160816,
+  "coordinator_reported_deployed_head": "22a03bee",
+  "actual_views": [
+    "Saved live-image008.webp at full760x338 pixels",
+    "Local dist-publish derivative at full760x338 pixels"
+  ],
+  "source_check": "Read full canonical SVG text and geometry. Generic sans-serif family explains why platform-specific font selection can change raster metrics; exact font/rasterizer identity was not independently established.",
+  "verification_summary": {
+    "files_in_saved_report": 326,
+    "exact_matches": 325,
+    "mismatches": 1,
+    "mismatch_path": "assets/dhaga-008-unified-line-v1.webp",
+    "all_match": false
+  },
+  "findings": [
+    "Live and local derivatives visibly preserve title, subtitle, Plant/Grow/Ready/Needed labels, lower late-start explanation and full illustrative-only limitation.",
+    "Plant-growth icons, readiness fruit, two horizontal timelines and dashed moment-of-need line remain intact. No missing label, cropped text or content change observed.",
+    "Live text is visibly wider and has different font metrics from local output. Byte identity is false and must not be reported. Visual difference is consistent with platform-dependent rendering of generic SVG sans-serif.",
+    "Dashed vertical marker crosses the centered Needed/lower label area in both versions, inherited from source geometry; labels remain decipherable and this is not a newly introduced deployment defect."
+  ],
+  "blocking_findings": [],
+  "hashes": {
+    "live_image_sha256": "308508bf4f19201cbd8c9b47d9c714729e7df25bf53ed69dbb26e4b4d0cfc41b",
+    "local_derivative_sha256": "ff7b144e32f2886cf999aa5eb9c33792c2cc1ac0abdf0a19f6ddb05d83a61b69",
+    "canonical_svg_sha256": "a61b82947e24b9efb4a41025b5719922318d6026aa6d7c41f8476a3c90863104",
+    "saved_verification_sha256": "92bedcf6edc0f513c3de94d8e1fa607907f36eb3828dfae0818cb001959a321e"
+  },
+  "limits": [
+    "Reviewed coordinator-downloaded live bytes and confirmed their hash against saved live receipt; did not independently perform a fresh network download.",
+    "No exact live/local image match claimed;325/326 exact is the honest receipt count.",
+    "This bounded check is not a repeat audit of all326files, live responsive interactions or deployment service status.",
+    "No canonical files changed; output report only."
+  ]
+}

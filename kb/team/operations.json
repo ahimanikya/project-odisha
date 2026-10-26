@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/odia-dhaga-unified-art-2026-10-26.json",
+  "handoff_home": "records/odia-dhaga-cultural-edition-2026-10-26.json",
   "roles": [
     {
       "name": "Disha",
@@ -54,20 +54,13 @@
     "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
-  "current_article": {
-    "id": "POD-EDIT-813",
-    "route": "/stories/lalitgiri/",
-    "owner": "Disha",
-    "phase": "reviewed_candidate",
-    "handoff": "records/buddhist-triangle-research-2026-10-26.json",
-    "release_condition": "Checked publication and live receipt integration"
-  },
+  "current_article": null,
   "project_identity": "reference/project-identity.md",
   "current_task": {
-    "kind": "dhaga_unified_art_publication",
-    "status": "published_verified_receipt_integration",
-    "handoff": "records/odia-dhaga-unified-art-2026-10-26.json",
-    "scope_release": "Upon reviewed merge of this publication receipt; actual receipt merge saved in local delivery record."
+    "kind": "dhaga_cultural_edition_publication",
+    "status": "receipt_integration_review",
+    "handoff": "records/odia-dhaga-cultural-edition-2026-10-26.json",
+    "scope_release": "Own Dhaga scope released upon reviewed merge of this publication receipt; no new article claimed."
   },
   "parallel_programmes": [
     {
@@ -101,7 +94,7 @@
       "note": "PR582 deployed and six live routes plus13imagefiles verified. Own scope released; other claims preserved."
     }
   ],
-  "coordination_note": "Dhaga unified art PR575 published and verified via approved deployment40288358273. Own scope releases upon reviewed receipt merge. Preserve Ratnagiri author claim and Buddhist-series handoff; no other scope changed. Zero programme credit.",
+  "coordination_note": "Dhaga584 deployed successfully40310160816. All162 HTML pages exact;159 entry art and new cover checked, with one documented visually equivalent SVG rasterization difference. Exact90-page PDF verified. Own scope retained only through reviewed receipt merge; other programme records preserved.",
   "coordination_notes": "Print card scope releases upon reviewed merge after required checks; local receipt records actual delivery.",
   "onboarding_home": "records/blueprint-persona-onboarding-2026-10-24.json"
 }
