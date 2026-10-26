@@ -30,249 +30,6 @@ window.ODIA_CATALOGUE={
       "genres": []
     },
     {
-      "id": "idiot",
-      "titleOdia": "ଇଡିଅଟ୍",
-      "titleEnglish": "Idiot",
-      "language": "Odia",
-      "year": 2012,
-      "type": "full-film",
-      "watchURL": "https://www.youtube.com/watch?v=bEyF3BYKzj4",
-      "videoID": "bEyF3BYKzj4",
-      "sourceChannel": "Sidharth TV",
-      "evidenceURLs": [
-        "https://www.youtube.com/watch?v=bEyF3BYKzj4",
-        "https://sidharthtvnetwork.com/"
-      ],
-      "rightsStatus": "official-hosted; copyright retained; not public domain",
-      "embedStatus": "not playback tested; embedding eligibility unverified",
-      "playbackVerified": false,
-      "publicDomainVerified": false,
-      "inspection": "Fresh primary YouTube indexed title, By:Sidharth TV, languageOdia, year2012, runtime2h45m23, published15Jul2016.",
-      "verificationStatus": "primary listing supported; independent final check required",
-      "sourceTitleOdiaNote": "Odia display title is an editorial reading form, not a verified transcription of the film credits.",
-      "checkedOn": "2026-10-26",
-      "displayTitleNote": "Odia display title is an editorial reading form, not a verified transcription of the film credits.",
-      "verificationSummary": "Official upload metadata checked; embedded playback is untested.",
-      "access": "official-upload",
-      "filmID": "idiot",
-      "languageType": "unknown",
-      "genres": []
-    },
-    {
-      "id": "pagala-karichu-tu",
-      "titleOdia": "ପାଗଳ କରିଛୁ ତୁ",
-      "titleEnglish": "Pagala Karichu Tu",
-      "language": "Odia",
-      "year": 2014,
-      "type": "full-film",
-      "watchURL": "https://www.youtube.com/watch?v=kafjk5jS8WY",
-      "videoID": "kafjk5jS8WY",
-      "sourceChannel": "Sidharth TV",
-      "evidenceURLs": [
-        "https://www.youtube.com/watch?v=kafjk5jS8WY",
-        "https://sidharthtvnetwork.com/"
-      ],
-      "rightsStatus": "official-hosted; copyright retained; not public domain",
-      "embedStatus": "not playback tested; embedding eligibility unverified",
-      "playbackVerified": false,
-      "publicDomainVerified": false,
-      "inspection": "Fresh primary YouTube indexed full title, By:Sidharth TV, languageOdia, year2014,runtime2h36m23,published20May2016.",
-      "verificationStatus": "primary listing supported; independent final check required",
-      "sourceTitleOdiaNote": "Odia display title is an editorial reading form, not a verified transcription of the film credits.",
-      "checkedOn": "2026-10-26",
-      "displayTitleNote": "Odia display title is an editorial reading form, not a verified transcription of the film credits.",
-      "verificationSummary": "Official upload metadata checked; embedded playback is untested.",
-      "access": "official-upload",
-      "filmID": "pagala-karichu-tu",
-      "languageType": "unknown",
-      "genres": []
-    },
-    {
-      "id": "kandhei-akhire-luha",
-      "titleOdia": "କଣ୍ଢେଇ ଆଖିରେ ଲୁହ",
-      "titleEnglish": "Kandhei Akhire Luha",
-      "language": "Odia",
-      "year": null,
-      "type": "full-film",
-      "watchURL": "https://www.youtube.com/watch?v=o2ybZD-_oDs",
-      "videoID": "o2ybZD-_oDs",
-      "sourceChannel": "Sidharth TV",
-      "evidenceURLs": [
-        "https://www.youtube.com/watch?v=o2ybZD-_oDs",
-        "https://sidharthtvnetwork.com/",
-        "https://www.youtube.com/@OfficialSidharthTV"
-      ],
-      "rightsStatus": "official-hosted; copyright retained; not public domain",
-      "embedStatus": "not playback tested; embedding eligibility unverified",
-      "playbackVerified": false,
-      "publicDomainVerified": false,
-      "verificationStatus": "root source-page check cleared",
-      "sourceTitleOdiaNote": "Odia display title is an editorial reading form, not a verified transcription of the film credits.",
-      "checkedOn": "2026-10-26",
-      "displayTitleNote": "Odia display title is an editorial reading form, not a verified transcription of the film credits.",
-      "verificationSummary": "Source upload and channel checked in a signed-in India browser; embedded playback is untested.",
-      "duration": "2:17:11",
-      "researchInspection": "Fresh primary YouTube indexed title explicitly Odia Full Movie and Sidharth TV. Direct fetch failed; channel-ID not separately resolved in this pass.",
-      "inspection": "Earlier research gaps superseded by root source-page title, uploader and runtime check on 26 October 2026; embedded playback remains untested.",
-      "verificationRecord": "kb/records/cinema-player-browser-evidence-2026-10-26.json",
-      "access": "official-upload",
-      "filmID": "kandhei-akhire-luha",
-      "languageType": "unknown",
-      "genres": []
-    },
-    {
-      "id": "suna-chadhei-mo-rupa-chadhei",
-      "titleOdia": "ସୁନା ଚଢେଇ ମୋ ରୂପା ଚଢେଇ",
-      "titleEnglish": "Suna Chadhei Mo Rupa Chadhei",
-      "language": "Odia",
-      "year": null,
-      "type": "full-film",
-      "watchURL": "https://www.youtube.com/watch?v=NIgR4atnDw4",
-      "videoID": "NIgR4atnDw4",
-      "sourceChannel": "Sidharth TV",
-      "evidenceURLs": [
-        "https://www.youtube.com/watch?v=NIgR4atnDw4",
-        "https://sidharthtvnetwork.com/",
-        "https://www.youtube.com/@OfficialSidharthTV"
-      ],
-      "rightsStatus": "official-hosted; copyright retained; not public domain",
-      "embedStatus": "not playback tested; embedding eligibility unverified",
-      "playbackVerified": false,
-      "publicDomainVerified": false,
-      "verificationStatus": "root source-page check cleared",
-      "sourceTitleOdiaNote": "Copied from primary indexed title where present; null means not independently verified, not missing language version.",
-      "checkedOn": "2026-10-26",
-      "verificationSummary": "Source upload and channel checked in a signed-in India browser; embedded playback is untested.",
-      "duration": "3:01:06",
-      "researchInspection": "Fresh primary indexed Odia Full Film title; description directs viewers to Sidharth TV channel. Direct fetch failed; channel-ID not separately resolved.",
-      "inspection": "Earlier research gaps superseded by root source-page title, uploader and runtime check on 26 October 2026; embedded playback remains untested.",
-      "verificationRecord": "kb/records/cinema-player-browser-evidence-2026-10-26.json",
-      "access": "official-upload",
-      "filmID": "suna-chadhei-mo-rupa-chadhei",
-      "languageType": "unknown",
-      "genres": []
-    },
-    {
-      "id": "chhati-chiridele-tu",
-      "titleOdia": "ଛାତି ଚିରିଦେଲେ ତୁ",
-      "titleEnglish": "Chhati Chiridele Tu",
-      "language": "Odia",
-      "year": null,
-      "type": "full-film",
-      "watchURL": "https://www.youtube.com/watch?v=5UClhEnrRdU",
-      "videoID": "5UClhEnrRdU",
-      "sourceChannel": "Sidharth TV",
-      "evidenceURLs": [
-        "https://www.youtube.com/watch?v=5UClhEnrRdU",
-        "https://sidharthtvnetwork.com/",
-        "https://www.youtube.com/@OfficialSidharthTV"
-      ],
-      "rightsStatus": "official-hosted; copyright retained; not public domain",
-      "embedStatus": "not playback tested; embedding eligibility unverified",
-      "playbackVerified": false,
-      "publicDomainVerified": false,
-      "verificationStatus": "root source-page check cleared",
-      "sourceTitleOdiaNote": "Odia display title is an editorial reading form, not a verified transcription of the film credits.",
-      "checkedOn": "2026-10-26",
-      "displayTitleNote": "Odia display title is an editorial reading form, not a verified transcription of the film credits.",
-      "verificationSummary": "Source upload and channel checked in a signed-in India browser; embedded playback is untested.",
-      "duration": "3:02:59",
-      "researchInspection": "Fresh primary indexed title explicitly Odia Full Film and Sidharth TV. Direct fetch failed; channel-ID not separately resolved.",
-      "inspection": "Earlier research gaps superseded by root source-page title, uploader and runtime check on 26 October 2026; embedded playback remains untested.",
-      "verificationRecord": "kb/records/cinema-player-browser-evidence-2026-10-26.json",
-      "access": "official-upload",
-      "filmID": "chhati-chiridele-tu",
-      "languageType": "unknown",
-      "genres": []
-    },
-    {
-      "id": "daha-balunga",
-      "titleOdia": "ଡାହା ବାଳୁଙ୍ଗା",
-      "titleEnglish": "Daha Balunga",
-      "language": "Odia",
-      "year": null,
-      "type": "full-film",
-      "watchURL": "https://www.youtube.com/watch?v=m4youAxrecs",
-      "videoID": "m4youAxrecs",
-      "sourceChannel": "Sidharth TV",
-      "evidenceURLs": [
-        "https://www.youtube.com/watch?v=m4youAxrecs",
-        "https://sidharthtvnetwork.com/",
-        "https://www.youtube.com/@OfficialSidharthTV"
-      ],
-      "rightsStatus": "official-hosted; copyright retained; not public domain",
-      "embedStatus": "not playback tested; embedding eligibility unverified",
-      "playbackVerified": false,
-      "publicDomainVerified": false,
-      "verificationStatus": "root source-page check cleared",
-      "sourceTitleOdiaNote": "Copied from primary indexed title where present; null means not independently verified, not missing language version.",
-      "checkedOn": "2026-10-26",
-      "verificationSummary": "Source upload and channel checked in a signed-in India browser; embedded playback is untested.",
-      "duration": "2:10:59",
-      "researchInspection": "Fresh primary indexed title explicitly Odia Full Film and Sidharth TV. Direct fetch failed; channel-ID not separately resolved.",
-      "inspection": "Earlier research gaps superseded by root source-page title, uploader and runtime check on 26 October 2026; embedded playback remains untested.",
-      "verificationRecord": "kb/records/cinema-player-browser-evidence-2026-10-26.json",
-      "access": "official-upload",
-      "filmID": "daha-balunga",
-      "languageType": "unknown",
-      "genres": []
-    },
-    {
-      "id": "prem-leela",
-      "titleOdia": "ପ୍ରେମ ଲୀଳା",
-      "titleEnglish": "Prem Leela",
-      "language": "Odia",
-      "year": null,
-      "type": "full-film",
-      "watchURL": "https://www.youtube.com/watch?v=SXArXwByJPk",
-      "videoID": "SXArXwByJPk",
-      "sourceChannel": "Amara Muzik Odia",
-      "evidenceURLs": [
-        "https://www.youtube.com/watch?v=SXArXwByJPk",
-        "https://www.amaramuzik.in/amara_muzik_odia",
-        "https://www.youtube.com/@Amaramuzikodia"
-      ],
-      "rightsStatus": "official-hosted; copyright retained; not public domain",
-      "embedStatus": "not playback tested; embedding eligibility unverified",
-      "playbackVerified": false,
-      "publicDomainVerified": false,
-      "verificationStatus": "root source-page check cleared",
-      "sourceTitleOdiaNote": "Copied from primary indexed title where present; null means not independently verified, not missing language version.",
-      "checkedOn": "2026-10-26",
-      "verificationSummary": "Source upload and channel checked in a signed-in India browser; embedded playback is untested.",
-      "duration": "2:07:39",
-      "researchInspection": "Fresh primary indexed YouTube description names PremLeela FullMovie/OdiaFilm and AmaraMuzikOdia. Page title missing in this index; author identity needs browser corroboration before inclusion.",
-      "inspection": "Earlier research gaps superseded by root source-page title, uploader and runtime check on 26 October 2026; embedded playback remains untested.",
-      "verificationRecord": "kb/records/cinema-player-browser-evidence-2026-10-26.json",
-      "access": "official-upload",
-      "filmID": "prem-leela",
-      "languageType": "unknown",
-      "genres": []
-    },
-    {
-      "id": "daman-trailer",
-      "titleEnglish": "DAMaN",
-      "titleOdia": "ଦମନ",
-      "language": "Odia",
-      "year": null,
-      "type": "trailer",
-      "videoID": "YUQ_sHeaGWI",
-      "watchURL": "https://www.youtube.com/watch?v=YUQ_sHeaGWI",
-      "sourceChannel": "Amara Muzik Odia",
-      "evidenceURLs": [
-        "https://www.youtube.com/watch?v=YUQ_sHeaGWI"
-      ],
-      "rightsStatus": "Official-hosted; copyright retained; not public domain",
-      "publicDomainVerified": false,
-      "checkedOn": "2026-10-26",
-      "verificationSummary": "Official trailer metadata checked; playback is untested.",
-      "inspection": "Primary YouTube indexed title identifies official Odia trailer; description copyright Amara Muzik2022. Direct fetch failed.",
-      "access": "official-upload",
-      "filmID": "daman",
-      "languageType": "unknown",
-      "genres": []
-    },
-    {
       "id": "pratikshya-trailer",
       "titleEnglish": "Pratikshya",
       "titleOdia": "ପ୍ରତୀକ୍ଷା",
@@ -319,52 +76,6 @@ window.ODIA_CATALOGUE={
       "genres": []
     },
     {
-      "id": "karma-trailer",
-      "titleEnglish": "Karma",
-      "titleOdia": "କର୍ମ",
-      "language": "Odia",
-      "year": null,
-      "type": "trailer",
-      "videoID": "Ai9ItdxoWz8",
-      "watchURL": "https://www.youtube.com/watch?v=Ai9ItdxoWz8",
-      "sourceChannel": "Amara Muzik Odia",
-      "evidenceURLs": [
-        "https://www.youtube.com/watch?v=Ai9ItdxoWz8"
-      ],
-      "rightsStatus": "Official-hosted; copyright retained; not public domain",
-      "publicDomainVerified": false,
-      "checkedOn": "2026-10-26",
-      "verificationSummary": "Official trailer metadata checked; playback is untested.",
-      "inspection": "Primary YouTube indexed title/description identify Odia movie starring Anubhav Mohanty directed by Anupam Patnaik. Direct fetch failed.",
-      "access": "official-upload",
-      "filmID": "karma",
-      "languageType": "unknown",
-      "genres": []
-    },
-    {
-      "id": "bou-buttu-bhuta-trailer",
-      "titleEnglish": "Bou Buttu Bhuta",
-      "titleOdia": "ବୋଉ ବୁଟୁ ଭୂତ",
-      "language": "Odia",
-      "year": null,
-      "type": "trailer",
-      "videoID": "M1JaMbSCaSs",
-      "watchURL": "https://www.youtube.com/watch?v=M1JaMbSCaSs",
-      "sourceChannel": "Sidharth Music",
-      "evidenceURLs": [
-        "https://www.youtube.com/watch?v=M1JaMbSCaSs"
-      ],
-      "rightsStatus": "Official-hosted; copyright retained; not public domain",
-      "publicDomainVerified": false,
-      "checkedOn": "2026-10-26",
-      "verificationSummary": "Official trailer metadata checked; playback is untested.",
-      "inspection": "Primary indexed YouTube official trailer description identifies Sidharth Music; director Jagdish Mishra own LinkedIn post shares trailer. Direct page shell opens.",
-      "access": "official-upload",
-      "filmID": "bou-buttu-bhuta",
-      "languageType": "unknown",
-      "genres": []
-    },
-    {
       "id": "stree-kali-juga",
       "titleEnglish": "Stree · Kali Juga",
       "titleOdia": "ସ୍ତ୍ରୀ",
@@ -390,569 +101,6 @@ window.ODIA_CATALOGUE={
       "genres": []
     },
     {
-      "id": "tate-mo-rana",
-      "titleEnglish": "Tate Mo Rana",
-      "titleOdia": "ତତେ ମୋ ରାଣ",
-      "videoID": "9LyTo0S2IkY",
-      "year": null,
-      "runtime": "02:43:54",
-      "genres": [
-        "Romance"
-      ],
-      "limits": "Release-year sources differ: the uploader lists 2004 and ZEE5 lists 2005. The year remains unverified here.",
-      "sourceChannel": "Sidharth TV",
-      "language": "Odia",
-      "type": "full-film",
-      "format": "full-film",
-      "provider": "youtube",
-      "access": "official-upload",
-      "watchURL": "https://www.youtube.com/watch?v=9LyTo0S2IkY",
-      "evidenceURLs": [
-        "https://www.youtube.com/watch?v=9LyTo0S2IkY",
-        "https://sidharthtvnetwork.com/"
-      ],
-      "rightsStatus": "Official channel upload; copyright retained; no public-domain determination",
-      "publicDomainVerified": false,
-      "playbackVerified": false,
-      "embedStatus": "not-playback-tested",
-      "verificationStatus": "primary-indexed-uploader-confirmed",
-      "inspection": "Primary indexed title and By: Sidharth TV field inspected; no playback or embed test.",
-      "displayTitleNote": "Odia display title is an editorial reading form, not a verified transcription of the film credits.",
-      "sourceTitleOdiaNote": "Odia display title is an editorial reading form, not a verified transcription of the film credits.",
-      "checkedOn": "2026-10-26",
-      "verificationSummary": "Primary indexed source upload and channel metadata checked; embedded playback is untested.",
-      "filmID": "tate-mo-rana",
-      "languageType": "unknown"
-    },
-    {
-      "id": "mun-raja-tu-rani",
-      "titleEnglish": "Mun Raja Tu Rani",
-      "titleOdia": "ମୁଁ ରାଜା ତୁ ରାଣୀ",
-      "videoID": "RsXsGw8eGcM",
-      "year": 2013,
-      "runtime": "02:43:19",
-      "genres": [],
-      "limits": "",
-      "sourceChannel": "Sidharth TV",
-      "language": "Odia",
-      "type": "full-film",
-      "format": "full-film",
-      "provider": "youtube",
-      "access": "official-upload",
-      "watchURL": "https://www.youtube.com/watch?v=RsXsGw8eGcM",
-      "evidenceURLs": [
-        "https://www.youtube.com/watch?v=RsXsGw8eGcM",
-        "https://sidharthtvnetwork.com/"
-      ],
-      "rightsStatus": "Official channel upload; copyright retained; no public-domain determination",
-      "publicDomainVerified": false,
-      "playbackVerified": false,
-      "embedStatus": "not-playback-tested",
-      "verificationStatus": "primary-indexed-uploader-confirmed",
-      "inspection": "Primary indexed title and By: Sidharth TV field inspected; no playback or embed test.",
-      "displayTitleNote": "Odia display title is an editorial reading form, not a verified transcription of the film credits.",
-      "sourceTitleOdiaNote": "Odia display title is an editorial reading form, not a verified transcription of the film credits.",
-      "checkedOn": "2026-10-26",
-      "verificationSummary": "Primary indexed source upload and channel metadata checked; embedded playback is untested.",
-      "filmID": "mun-raja-tu-rani",
-      "languageType": "unknown"
-    },
-    {
-      "id": "kehi-jane-bhala-lagere",
-      "titleEnglish": "Kehi Jane Bhala Lagere",
-      "titleOdia": "କେହି ଜଣେ ଭଲ ଲାଗେରେ",
-      "videoID": "DM_MQyGHMf0",
-      "year": null,
-      "runtime": "02:49:26",
-      "genres": [
-        "Romance"
-      ],
-      "limits": "",
-      "sourceChannel": "Sidharth TV",
-      "language": "Odia",
-      "type": "full-film",
-      "format": "full-film",
-      "provider": "youtube",
-      "access": "official-upload",
-      "watchURL": "https://www.youtube.com/watch?v=DM_MQyGHMf0",
-      "evidenceURLs": [
-        "https://www.youtube.com/watch?v=DM_MQyGHMf0",
-        "https://sidharthtvnetwork.com/"
-      ],
-      "rightsStatus": "Official channel upload; copyright retained; no public-domain determination",
-      "publicDomainVerified": false,
-      "playbackVerified": false,
-      "embedStatus": "not-playback-tested",
-      "verificationStatus": "primary-indexed-uploader-confirmed",
-      "inspection": "Primary indexed title and By: Sidharth TV field inspected; no playback or embed test.",
-      "displayTitleNote": "Odia display title is an editorial reading form, not a verified transcription of the film credits.",
-      "sourceTitleOdiaNote": "Odia display title is an editorial reading form, not a verified transcription of the film credits.",
-      "checkedOn": "2026-10-26",
-      "verificationSummary": "Primary indexed source upload and channel metadata checked; embedded playback is untested.",
-      "filmID": "kehi-jane-bhala-lagere",
-      "languageType": "unknown"
-    },
-    {
-      "id": "bhala-paye-tate",
-      "titleEnglish": "Bhala Paye Tate 100 Ru 100",
-      "titleOdia": "ଭଲ ପାଏ ତତେ ୧୦୦ ରୁ ୧୦୦",
-      "videoID": "bkd47l5qB9U",
-      "year": null,
-      "runtime": null,
-      "genres": [],
-      "limits": "",
-      "sourceChannel": "Sidharth TV",
-      "language": "Odia",
-      "type": "full-film",
-      "format": "full-film",
-      "provider": "youtube",
-      "access": "official-upload",
-      "watchURL": "https://www.youtube.com/watch?v=bkd47l5qB9U",
-      "evidenceURLs": [
-        "https://www.youtube.com/watch?v=bkd47l5qB9U",
-        "https://sidharthtvnetwork.com/"
-      ],
-      "rightsStatus": "Official channel upload; copyright retained; no public-domain determination",
-      "publicDomainVerified": false,
-      "playbackVerified": false,
-      "embedStatus": "not-playback-tested",
-      "verificationStatus": "primary-indexed-uploader-confirmed",
-      "inspection": "Primary indexed title and By: Sidharth TV field inspected; no playback or embed test.",
-      "displayTitleNote": "Odia display title is an editorial reading form, not a verified transcription of the film credits.",
-      "sourceTitleOdiaNote": "Odia display title is an editorial reading form, not a verified transcription of the film credits.",
-      "checkedOn": "2026-10-26",
-      "verificationSummary": "Primary indexed source upload and channel metadata checked; embedded playback is untested.",
-      "filmID": "bhala-paye-tate",
-      "languageType": "unknown"
-    },
-    {
-      "id": "abhimanyu",
-      "titleEnglish": "Abhimanyu",
-      "titleOdia": "ଅଭିମନ୍ୟୁ",
-      "videoID": "TGvHQ1w6Xuc",
-      "year": 2009,
-      "runtime": null,
-      "genres": [],
-      "limits": "",
-      "sourceChannel": "Sidharth TV",
-      "language": "Odia",
-      "type": "full-film",
-      "format": "full-film",
-      "provider": "youtube",
-      "access": "official-upload",
-      "watchURL": "https://www.youtube.com/watch?v=TGvHQ1w6Xuc",
-      "evidenceURLs": [
-        "https://www.youtube.com/watch?v=TGvHQ1w6Xuc",
-        "https://sidharthtvnetwork.com/"
-      ],
-      "rightsStatus": "Official channel upload; copyright retained; no public-domain determination",
-      "publicDomainVerified": false,
-      "playbackVerified": false,
-      "embedStatus": "not-playback-tested",
-      "verificationStatus": "primary-indexed-uploader-confirmed",
-      "inspection": "Primary indexed title and By: Sidharth TV field inspected; no playback or embed test.",
-      "releaseYearEvidence": "Retained primary indexed description https://www.youtube.com/watch?v=TGvHQ1w6Xuc, result turn760youtube12, exact line: Release Dates : September 20, 2009. This line occurs after plot paragraphs and was omitted by previous1400-character capture truncation.",
-      "displayTitleNote": "Odia display title is an editorial reading form, not a verified transcription of the film credits.",
-      "sourceTitleOdiaNote": "Odia display title is an editorial reading form, not a verified transcription of the film credits.",
-      "checkedOn": "2026-10-26",
-      "verificationSummary": "Primary indexed source upload and channel metadata checked; embedded playback is untested.",
-      "filmID": "abhimanyu",
-      "languageType": "unknown"
-    },
-    {
-      "id": "ama-bhitare",
-      "titleEnglish": "Ama Bhitare Kichhi Achhi",
-      "titleOdia": "ଆମ ଭିତରେ କିଛି ଅଛି",
-      "videoID": "j9XI0pgtmKs",
-      "year": 2010,
-      "runtime": null,
-      "genres": [
-        "Romance",
-        "Comedy"
-      ],
-      "limits": "",
-      "sourceChannel": "Sidharth TV",
-      "language": "Odia",
-      "type": "full-film",
-      "format": "full-film",
-      "provider": "youtube",
-      "access": "official-upload",
-      "watchURL": "https://www.youtube.com/watch?v=j9XI0pgtmKs",
-      "evidenceURLs": [
-        "https://www.youtube.com/watch?v=j9XI0pgtmKs",
-        "https://sidharthtvnetwork.com/"
-      ],
-      "rightsStatus": "Official channel upload; copyright retained; no public-domain determination",
-      "publicDomainVerified": false,
-      "playbackVerified": false,
-      "embedStatus": "not-playback-tested",
-      "verificationStatus": "primary-indexed-uploader-confirmed",
-      "inspection": "Primary indexed title and By: Sidharth TV field inspected; no playback or embed test.",
-      "displayTitleNote": "Odia display title is an editorial reading form, not a verified transcription of the film credits.",
-      "sourceTitleOdiaNote": "Odia display title is an editorial reading form, not a verified transcription of the film credits.",
-      "checkedOn": "2026-10-26",
-      "verificationSummary": "Primary indexed source upload and channel metadata checked; embedded playback is untested.",
-      "filmID": "ama-bhitare",
-      "languageType": "unknown"
-    },
-    {
-      "id": "mu-eka-tumara",
-      "titleEnglish": "Mu Eka Tumara",
-      "titleOdia": "ମୁଁ ଏକା ତୁମର",
-      "videoID": "6ZDGV9ggLDQ",
-      "year": null,
-      "runtime": null,
-      "genres": [],
-      "limits": "",
-      "sourceChannel": "Sidharth TV",
-      "language": "Odia",
-      "type": "full-film",
-      "format": "full-film",
-      "provider": "youtube",
-      "access": "official-upload",
-      "watchURL": "https://www.youtube.com/watch?v=6ZDGV9ggLDQ",
-      "evidenceURLs": [
-        "https://www.youtube.com/watch?v=6ZDGV9ggLDQ",
-        "https://sidharthtvnetwork.com/"
-      ],
-      "rightsStatus": "Official channel upload; copyright retained; no public-domain determination",
-      "publicDomainVerified": false,
-      "playbackVerified": false,
-      "embedStatus": "not-playback-tested",
-      "verificationStatus": "primary-indexed-uploader-confirmed",
-      "inspection": "Primary indexed title and By: Sidharth TV field inspected; no playback or embed test.",
-      "displayTitleNote": "Odia display title is an editorial reading form, not a verified transcription of the film credits.",
-      "sourceTitleOdiaNote": "Odia display title is an editorial reading form, not a verified transcription of the film credits.",
-      "checkedOn": "2026-10-26",
-      "verificationSummary": "Primary indexed source upload and channel metadata checked; embedded playback is untested.",
-      "filmID": "mu-eka-tumara",
-      "languageType": "unknown"
-    },
-    {
-      "id": "tu-mo-arambha",
-      "titleEnglish": "Tu Mo Arambha Tu Mo Sesha",
-      "titleOdia": "ତୁ ମୋ ଆରମ୍ଭ ତୁ ମୋ ଶେଷ",
-      "videoID": "p8EF3NgbB_8",
-      "year": 2012,
-      "runtime": "02:24:12",
-      "genres": [
-        "Romance"
-      ],
-      "limits": "",
-      "sourceChannel": "Sidharth TV",
-      "language": "Odia",
-      "type": "full-film",
-      "format": "full-film",
-      "provider": "youtube",
-      "access": "official-upload",
-      "watchURL": "https://www.youtube.com/watch?v=p8EF3NgbB_8",
-      "evidenceURLs": [
-        "https://www.youtube.com/watch?v=p8EF3NgbB_8",
-        "https://sidharthtvnetwork.com/"
-      ],
-      "rightsStatus": "Official channel upload; copyright retained; no public-domain determination",
-      "publicDomainVerified": false,
-      "playbackVerified": false,
-      "embedStatus": "not-playback-tested",
-      "verificationStatus": "primary-indexed-uploader-confirmed",
-      "inspection": "Primary indexed title and By: Sidharth TV field inspected; no playback or embed test.",
-      "displayTitleNote": "Odia display title is an editorial reading form, not a verified transcription of the film credits.",
-      "sourceTitleOdiaNote": "Odia display title is an editorial reading form, not a verified transcription of the film credits.",
-      "checkedOn": "2026-10-26",
-      "verificationSummary": "Primary indexed source upload and channel metadata checked; embedded playback is untested.",
-      "filmID": "tu-mo-arambha",
-      "languageType": "unknown"
-    },
-    {
-      "id": "super-michhua",
-      "titleEnglish": "Super Michhua",
-      "titleOdia": "ସୁପର ମିଛୁଆ",
-      "videoID": "s6Od3SCBCng",
-      "year": null,
-      "runtime": null,
-      "genres": [],
-      "limits": "",
-      "sourceChannel": "Sidharth TV",
-      "language": "Odia",
-      "type": "full-film",
-      "format": "full-film",
-      "provider": "youtube",
-      "access": "official-upload",
-      "watchURL": "https://www.youtube.com/watch?v=s6Od3SCBCng",
-      "evidenceURLs": [
-        "https://www.youtube.com/watch?v=s6Od3SCBCng",
-        "https://sidharthtvnetwork.com/"
-      ],
-      "rightsStatus": "Official channel upload; copyright retained; no public-domain determination",
-      "publicDomainVerified": false,
-      "playbackVerified": false,
-      "embedStatus": "not-playback-tested",
-      "verificationStatus": "primary-indexed-uploader-confirmed",
-      "inspection": "Primary indexed title and By: Sidharth TV field inspected; no playback or embed test.",
-      "checkedOn": "2026-10-26",
-      "verificationSummary": "Primary indexed source upload and channel metadata checked; embedded playback is untested.",
-      "filmID": "super-michhua",
-      "languageType": "unknown"
-    },
-    {
-      "id": "raja-jhia",
-      "titleEnglish": "Raja Jhia Sange Heigala Bhaba",
-      "titleOdia": "ରାଜା ଝିଅ ସଙ୍ଗେ ହୋଇଗଲା ଭାବ",
-      "videoID": "lyqJ4d5V7aI",
-      "year": 2012,
-      "runtime": "02:47:04",
-      "genres": [
-        "Romance",
-        "Comedy"
-      ],
-      "limits": "",
-      "sourceChannel": "Sidharth TV",
-      "language": "Odia",
-      "type": "full-film",
-      "format": "full-film",
-      "provider": "youtube",
-      "access": "official-upload",
-      "watchURL": "https://www.youtube.com/watch?v=lyqJ4d5V7aI",
-      "evidenceURLs": [
-        "https://www.youtube.com/watch?v=lyqJ4d5V7aI",
-        "https://sidharthtvnetwork.com/"
-      ],
-      "rightsStatus": "Official channel upload; copyright retained; no public-domain determination",
-      "publicDomainVerified": false,
-      "playbackVerified": false,
-      "embedStatus": "not-playback-tested",
-      "verificationStatus": "primary-indexed-uploader-confirmed",
-      "inspection": "Primary indexed title and By: Sidharth TV field inspected; no playback or embed test.",
-      "displayTitleNote": "Odia display title is an editorial reading form, not a verified transcription of the film credits.",
-      "sourceTitleOdiaNote": "Odia display title is an editorial reading form, not a verified transcription of the film credits.",
-      "checkedOn": "2026-10-26",
-      "verificationSummary": "Primary indexed source upload and channel metadata checked; embedded playback is untested.",
-      "filmID": "raja-jhia",
-      "languageType": "unknown"
-    },
-    {
-      "id": "family-no-1",
-      "titleEnglish": "Family No 1",
-      "titleOdia": "ଫ୍ୟାମିଲି ନଂ ୧",
-      "videoID": "LhrfUYt83-0",
-      "year": null,
-      "runtime": null,
-      "genres": [],
-      "limits": "",
-      "sourceChannel": "Sidharth TV",
-      "language": "Odia",
-      "type": "full-film",
-      "format": "full-film",
-      "provider": "youtube",
-      "access": "official-upload",
-      "watchURL": "https://www.youtube.com/watch?v=LhrfUYt83-0",
-      "evidenceURLs": [
-        "https://www.youtube.com/watch?v=LhrfUYt83-0",
-        "https://sidharthtvnetwork.com/"
-      ],
-      "rightsStatus": "Official channel upload; copyright retained; no public-domain determination",
-      "publicDomainVerified": false,
-      "playbackVerified": false,
-      "embedStatus": "not-playback-tested",
-      "verificationStatus": "primary-indexed-uploader-confirmed",
-      "inspection": "Primary indexed title and By: Sidharth TV field inspected; no playback or embed test.",
-      "displayTitleNote": "Odia display title is an editorial reading form, not a verified transcription of the film credits.",
-      "sourceTitleOdiaNote": "Odia display title is an editorial reading form, not a verified transcription of the film credits.",
-      "checkedOn": "2026-10-26",
-      "verificationSummary": "Primary indexed source upload and channel metadata checked; embedded playback is untested.",
-      "filmID": "family-no-1",
-      "languageType": "unknown"
-    },
-    {
-      "id": "biswanath-airtel",
-      "filmID": "biswanath",
-      "titleEnglish": "Biswanath",
-      "titleOdia": "ବିଶ୍ୱନାଥ",
-      "year": 2022,
-      "genres": [
-        "Action",
-        "Drama"
-      ],
-      "language": "Odia",
-      "languageType": "unknown",
-      "type": "full-film",
-      "access": "provider-listing",
-      "watchURL": "https://www.airtelxstream.in/movies/biswanath/HOTSTAR_DTH_MOVIE_1033570",
-      "sourceChannel": "Airtel Xstream Play",
-      "evidenceURLs": [
-        "https://www.airtelxstream.in/movies/biswanath/HOTSTAR_DTH_MOVIE_1033570"
-      ],
-      "rightsStatus": "Provider listing; copyright retained; no public-domain determination",
-      "publicDomainVerified": false,
-      "checkedOn": "2026-10-26",
-      "verificationSummary": "Official provider title page lists Odia audio and these genre/year fields. JioHotstar access through Airtel may require an eligible plan or subscription. Playback, subtitles and regional entitlement not tested. Generic promotional and box-office claims excluded.",
-      "classificationNote": "Provider-listed year; original theatrical release not independently established in this pass",
-      "displayTitleNote": "Editorial reading form; not verified against on-screen title",
-      "accessNote": "Opens on the provider’s site. Subscription, rental, sign-in and regional conditions may apply; current playback access is not confirmed."
-    },
-    {
-      "id": "kissmiss-airtel",
-      "filmID": "kissmiss",
-      "titleEnglish": "KissMiss",
-      "titleOdia": "କିସ୍‌ମିସ୍",
-      "year": 2022,
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "language": "Odia",
-      "languageType": "unknown",
-      "type": "full-film",
-      "access": "provider-listing",
-      "watchURL": "https://www.airtelxstream.in/movies/kissmiss/HOTSTAR_DTH_MOVIE_1033576",
-      "sourceChannel": "Airtel Xstream Play",
-      "evidenceURLs": [
-        "https://www.airtelxstream.in/movies/kissmiss/HOTSTAR_DTH_MOVIE_1033576"
-      ],
-      "rightsStatus": "Provider listing; copyright retained; no public-domain determination",
-      "publicDomainVerified": false,
-      "checkedOn": "2026-10-26",
-      "verificationSummary": "Official provider title page lists Odia audio and these genre/year fields. JioHotstar access through Airtel may require an eligible plan or subscription. Playback, subtitles and regional entitlement not tested. Generic promotional and box-office claims excluded.",
-      "classificationNote": "Provider-listed year; original theatrical release not independently established in this pass",
-      "displayTitleNote": "Editorial reading form; not verified against on-screen title",
-      "accessNote": "Opens on the provider’s site. Subscription, rental, sign-in and regional conditions may apply; current playback access is not confirmed."
-    },
-    {
-      "id": "bidyarana-airtel",
-      "filmID": "bidyarana",
-      "titleEnglish": "Bidyarana",
-      "titleOdia": "ବିଦ୍ୟାରାଣ",
-      "year": 2022,
-      "genres": [
-        "Action",
-        "Romance"
-      ],
-      "language": "Odia",
-      "languageType": "unknown",
-      "type": "full-film",
-      "access": "provider-listing",
-      "watchURL": "https://www.airtelxstream.in/movies/bidyarana/HOTSTAR_DTH_MOVIE_1033572",
-      "sourceChannel": "Airtel Xstream Play",
-      "evidenceURLs": [
-        "https://www.airtelxstream.in/movies/bidyarana/HOTSTAR_DTH_MOVIE_1033572"
-      ],
-      "rightsStatus": "Provider listing; copyright retained; no public-domain determination",
-      "publicDomainVerified": false,
-      "checkedOn": "2026-10-26",
-      "verificationSummary": "Official provider title page lists Odia audio and these genre/year fields. JioHotstar access through Airtel may require an eligible plan or subscription. Playback, subtitles and regional entitlement not tested. Generic promotional and box-office claims excluded.",
-      "classificationNote": "Provider-listed year; original theatrical release not independently established in this pass",
-      "displayTitleNote": "Editorial reading form; not verified against on-screen title",
-      "accessNote": "Opens on the provider’s site. Subscription, rental, sign-in and regional conditions may apply; current playback access is not confirmed."
-    },
-    {
-      "id": "mayabi-airtel",
-      "filmID": "mayabi",
-      "titleEnglish": "Mayabi",
-      "titleOdia": "ମାୟାବୀ",
-      "year": 2022,
-      "genres": [
-        "Thriller",
-        "Crime"
-      ],
-      "language": "Odia",
-      "languageType": "unknown",
-      "type": "full-film",
-      "access": "provider-listing",
-      "watchURL": "https://www.airtelxstream.in/movies/mayabi/HOTSTAR_DTH_MOVIE_1033574",
-      "sourceChannel": "Airtel Xstream Play",
-      "evidenceURLs": [
-        "https://www.airtelxstream.in/movies/mayabi/HOTSTAR_DTH_MOVIE_1033574"
-      ],
-      "rightsStatus": "Provider listing; copyright retained; no public-domain determination",
-      "publicDomainVerified": false,
-      "checkedOn": "2026-10-26",
-      "verificationSummary": "Official provider title page lists Odia audio and these genre/year fields. JioHotstar access through Airtel may require an eligible plan or subscription. Playback, subtitles and regional entitlement not tested. Generic promotional and box-office claims excluded.",
-      "classificationNote": "Provider-listed year; original theatrical release not independently established in this pass",
-      "displayTitleNote": "Editorial reading form; not verified against on-screen title",
-      "accessNote": "Opens on the provider’s site. Subscription, rental, sign-in and regional conditions may apply; current playback access is not confirmed."
-    },
-    {
-      "id": "premam-airtel",
-      "filmID": "premam",
-      "titleEnglish": "Premam",
-      "titleOdia": "ପ୍ରେମମ୍",
-      "year": 2022,
-      "genres": [
-        "Thriller",
-        "Romance"
-      ],
-      "language": "Odia",
-      "languageType": "unknown",
-      "type": "full-film",
-      "access": "provider-listing",
-      "watchURL": "https://www.airtelxstream.in/movies/premam/HOTSTAR_DTH_MOVIE_1014451",
-      "sourceChannel": "Airtel Xstream Play",
-      "evidenceURLs": [
-        "https://www.airtelxstream.in/movies/premam/HOTSTAR_DTH_MOVIE_1014451"
-      ],
-      "rightsStatus": "Provider listing; copyright retained; no public-domain determination",
-      "publicDomainVerified": false,
-      "checkedOn": "2026-10-26",
-      "verificationSummary": "Official provider title page lists Odia audio and these genre/year fields. JioHotstar access through Airtel may require an eligible plan or subscription. Playback, subtitles and regional entitlement not tested. Generic promotional and box-office claims excluded.",
-      "classificationNote": "Provider-listed year; original theatrical release not independently established in this pass",
-      "displayTitleNote": "Editorial reading form; not verified against on-screen title",
-      "accessNote": "Opens on the provider’s site. Subscription, rental, sign-in and regional conditions may apply; current playback access is not confirmed."
-    },
-    {
-      "id": "rati-sari-sari-jauchi-airtel",
-      "filmID": "rati-sari-sari-jauchi",
-      "titleEnglish": "Rati Sari Sari Jauchi",
-      "titleOdia": "ରାତି ସରି ସରି ଯାଉଛି",
-      "year": 2021,
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "language": "Odia",
-      "languageType": "unknown",
-      "type": "full-film",
-      "access": "provider-listing",
-      "watchURL": "https://www.airtelxstream.in/movies/rati-sari-sari-jauchi/HOTSTAR_DTH_MOVIE_1271317097",
-      "sourceChannel": "Airtel Xstream Play",
-      "evidenceURLs": [
-        "https://www.airtelxstream.in/movies/rati-sari-sari-jauchi/HOTSTAR_DTH_MOVIE_1271317097"
-      ],
-      "rightsStatus": "Provider listing; copyright retained; no public-domain determination",
-      "publicDomainVerified": false,
-      "checkedOn": "2026-10-26",
-      "verificationSummary": "Official provider title page lists Odia audio and these genre/year fields. JioHotstar access through Airtel may require an eligible plan or subscription. Playback, subtitles and regional entitlement not tested. Generic promotional and box-office claims excluded.",
-      "classificationNote": "Provider-listed year; original theatrical release not independently established in this pass",
-      "displayTitleNote": "Editorial reading form; not verified against on-screen title",
-      "accessNote": "Opens on the provider’s site. Subscription, rental, sign-in and regional conditions may apply; current playback access is not confirmed."
-    },
-    {
-      "id": "charitra-airtel",
-      "filmID": "charitra",
-      "titleEnglish": "Charitra",
-      "titleOdia": "ଚରିତ୍ର",
-      "year": 2020,
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "language": "Odia",
-      "languageType": "unknown",
-      "type": "full-film",
-      "access": "provider-listing",
-      "watchURL": "https://www.airtelxstream.in/movies/charitra/HOTSTAR_DTH_MOVIE_1271306729",
-      "sourceChannel": "Airtel Xstream Play",
-      "evidenceURLs": [
-        "https://www.airtelxstream.in/movies/charitra/HOTSTAR_DTH_MOVIE_1271306729"
-      ],
-      "rightsStatus": "Provider listing; copyright retained; no public-domain determination",
-      "publicDomainVerified": false,
-      "checkedOn": "2026-10-26",
-      "verificationSummary": "Official provider title page lists Odia audio and these genre/year fields. JioHotstar access through Airtel may require an eligible plan or subscription. Playback, subtitles and regional entitlement not tested. Generic promotional and box-office claims excluded.",
-      "classificationNote": "Provider-listed year; original theatrical release not independently established in this pass",
-      "displayTitleNote": "Editorial reading form; not verified against on-screen title",
-      "accessNote": "Opens on the provider’s site. Subscription, rental, sign-in and regional conditions may apply; current playback access is not confirmed."
-    },
-    {
       "id": "prahalad-airtel",
       "filmID": "prahalad",
       "titleEnglish": "Prahalad",
@@ -976,32 +124,6 @@ window.ODIA_CATALOGUE={
       "publicDomainVerified": false,
       "checkedOn": "2026-10-26",
       "verificationSummary": "Official provider title page lists Odia audio and these genre/year fields. JioHotstar access through Airtel may require an eligible plan or subscription. Playback, subtitles and regional entitlement not tested. Generic promotional and box-office claims excluded.",
-      "classificationNote": "Provider-listed year; original theatrical release not independently established in this pass",
-      "displayTitleNote": "Editorial reading form; not verified against on-screen title",
-      "accessNote": "Opens on the provider’s site. Subscription, rental, sign-in and regional conditions may apply; current playback access is not confirmed."
-    },
-    {
-      "id": "stree-1998-airtel",
-      "filmID": "stree-1998",
-      "titleEnglish": "Stree",
-      "titleOdia": "ସ୍ତ୍ରୀ",
-      "year": 1998,
-      "genres": [
-        "Drama"
-      ],
-      "language": "Odia",
-      "languageType": "unknown",
-      "type": "full-film",
-      "access": "provider-listing",
-      "watchURL": "https://www.airtelxstream.in/movies/stree/HOTSTAR_DTH_MOVIE_1066302",
-      "sourceChannel": "Airtel Xstream Play",
-      "evidenceURLs": [
-        "https://www.airtelxstream.in/movies/stree/HOTSTAR_DTH_MOVIE_1066302"
-      ],
-      "rightsStatus": "Provider listing; copyright retained; no public-domain determination",
-      "publicDomainVerified": false,
-      "checkedOn": "2026-10-26",
-      "verificationSummary": "Official provider title page lists Odia audio and these genre/year fields. JioHotstar access through Airtel may require an eligible plan or subscription. Playback, subtitles and regional entitlement not tested. Generic promotional and box-office claims excluded. This is the Ravi Kinagi film listed as 1998, with Archana Joglekar, Mihir Das and Uttam Mohanty; not the 1968 Stree represented by the archive song.",
       "classificationNote": "Provider-listed year; original theatrical release not independently established in this pass",
       "displayTitleNote": "Editorial reading form; not verified against on-screen title",
       "accessNote": "Opens on the provider’s site. Subscription, rental, sign-in and regional conditions may apply; current playback access is not confirmed."
@@ -1059,117 +181,95 @@ window.ODIA_CATALOGUE={
       "classificationNote": "Year and genre follow the provider listing; independent release-date verification is not implied.",
       "displayTitleNote": "Editorial reading form",
       "accessNote": "Opens on the provider’s site. Subscription, rental, sign-in and regional conditions may apply; current playback access is not confirmed."
-    },
-    {
-      "id": "kabula-barabula-zee5",
-      "filmID": "kabula-barabula",
-      "titleEnglish": "Kabula Barabula",
-      "titleOdia": "କାବୁଲା ବାରବୁଲା",
-      "year": 2017,
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "language": "Odia",
-      "languageType": "original",
-      "type": "full-film",
-      "access": "provider-listing",
-      "watchURL": "https://www.zee5.com/de/movies/details/kabula-barabula/0-0-316245",
-      "sourceChannel": "ZEE5",
-      "evidenceURLs": [
-        "https://www.zee5.com/de/movies/details/kabula-barabula/0-0-316245"
-      ],
-      "rightsStatus": "Provider listing; copyright retained; no public-domain determination",
-      "publicDomainVerified": false,
-      "checkedOn": "2026-10-26",
-      "verificationSummary": "Official ZEE5 indexed title page and Odia Blockbusters collection identify 2017 Odia film with Anubhav Mohanty and Elina Samantray; collection supplies genre. Exact indexed URL is German-language localized: reader region/account conditions may differ. Direct fetch failed; playback not tested.",
-      "classificationNote": "Year and genre follow the provider listing; independent release-date verification is not implied.",
-      "displayTitleNote": "Editorial reading form",
-      "accessNote": "Opens on the provider’s site. Subscription, rental, sign-in and regional conditions may apply; current playback access is not confirmed."
     }
   ],
   "coverage": [
     {
-      "source": "Amara Muzik Odia / Sidharth TV",
-      "status": "Selected official uploads checked",
-      "note": "A bounded selection; not a complete channel catalogue."
+      "source": "Official film and trailer channels",
+      "url": "https://www.amaramuzik.in/amara_muzik_odia",
+      "status": "Selected source listings checked",
+      "note": "DAMaN and the selected official trailers support the article readings. Embedded playback remains untested."
     },
     {
       "source": "Gour–Parbati archive / GPG Productions",
-      "status": "One archive-linked song clip checked",
-      "note": "Song clip, not a full film."
-    },
-    {
-      "source": "Sidharth TV",
-      "url": "https://sidharthtvnetwork.com/",
-      "status": "11 new full-film metadata matches",
-      "note": "Exact-title searches recovered primary uploader metadata for Sidharth TV. The network website lists its official channel. Alternate uploads were excluded; this is not a complete channel inventory."
-    },
-    {
-      "source": "Amara",
-      "url": "https://www.amaramuzik.in/amara_muzik_odia",
-      "status": "New candidates held",
-      "note": "New Kabula Barabula Searching Laila and Inspector Sana candidates remain held because their uploader was not confirmed. The existing DAMaN listing was not counted as a new addition."
-    },
-    {
-      "source": "Tarang",
-      "url": "https://www.youtube.com/watch?v=F7BKIU3n5i4",
-      "status": "Clips/abridgement only",
-      "note": "Love Station was a 15-minute abridgement on Tarang TV. Searches for Tu Mo Love Story, Agastya and Jaga Hatare Pagha did not establish a full upload. Other results were short clips, not full films."
-    },
-    {
-      "source": "Saregama",
-      "url": "https://www.youtube.com/watch?v=9brJFxlQAm4",
-      "status": "Song only",
-      "note": "Full-film searches, including Sindura Bindu, recovered the song Na Jaa Radhika on Saregama Regional. It was excluded from the full-film count."
-    },
-    {
-      "source": "Pen / Shemaroo",
-      "url": "https://www.youtube.com/watch?v=IdA90uZRdSY",
-      "status": "Other-language results excluded",
-      "note": "Searches returned Hindi material and an explicitly Bengali-dubbed Something Something listing. These were excluded from the Odia collection."
-    },
-    {
-      "source": "NFDC / Cinemas of India",
-      "url": "https://www.youtube.com/",
-      "status": "No verified match",
-      "note": "The search did not establish an exact official Odia full-film upload. This does not establish that none exists."
-    },
-    {
-      "source": "Airtel Xstream Play",
-      "url": "https://www.airtelxstream.in/movies/odia-a-movies",
-      "status": "partial",
-      "note": "55 visible title links on language catalogue inspected as discovery inventory; 10 exact title pages checked and added. Remaining entries require individual language/version/format checks. Catalogue combines Odia productions with dubbed imports; not a count of original Odia cinema."
-    },
-    {
-      "source": "ZEE5",
-      "url": "https://www.zee5.com/collections/odia-blockbusters/0-8-2335",
-      "status": "partial",
-      "note": "Official collection and indexed title evidence checked. One exact title route added. Language catalogue timed out; no complete enumeration."
+      "url": "https://www.gourparbati.com/movie_stree.php",
+      "status": "Archive-linked song clip",
+      "note": "Kali Juga is a song from the 1968 Stree, not a full-film upload."
     },
     {
       "source": "Prime Video",
       "url": "https://www.primevideo.com/detail/Biswaprakash/0MJBHD5LPJL1VXW6T9MESR5IJM",
-      "status": "partial",
-      "note": "Biswaprakash exact listing rechecked; region availability unresolved. Search did not establish a complete Odia catalogue."
+      "status": "Conditional title listing",
+      "note": "Biswaprakash availability and payment terms depend on region and account."
     },
     {
-      "source": "AAO NXT",
-      "url": "https://aaonxt.com/movies",
-      "status": "dynamic-catalogue",
-      "note": "Official movies page returned navigation/login shell only. No title-specific routes promoted from old publicity."
-    },
-    {
-      "source": "Tarang Plus",
-      "url": "https://tarangplus.in/",
-      "status": "dynamic-catalogue",
-      "note": "Official homepage returned shell only. Full catalogue not enumerated."
-    },
-    {
-      "source": "Kanccha Lannka",
-      "url": "https://play.google.com/store/apps/details?hl=en&id=com.kancha.lanka",
-      "status": "partial",
-      "note": "Official app and YouTube promotional presence found. No current exact full-film playback routes verified; trailers and streaming announcements are not counted as full films."
+      "source": "Airtel Xstream Play",
+      "url": "https://www.airtelxstream.in/movies/odia-a-movies",
+      "status": "Two children’s-animation listings selected",
+      "note": "Odia audio is listed. Return of Hanuman is a dubbed version; Prahalad’s original-language status remains unverified. Provider access conditions apply."
     }
-  ]
+  ],
+  "curation": {
+    "featured": [
+      {
+        "id": "daman",
+        "reason": "A public-health drama recognised as Best Odia Film at the 70th National Film Awards, with questions of care and representation explored in our companion article.",
+        "evidence": [
+          {
+            "label": "National Film Awards record",
+            "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2045960&lang=2&reg=48"
+          },
+          {
+            "label": "Story and credits",
+            "url": "https://nfaindia.org/images/pdf/70th%20National%20Film%20Award%20Catalogue.pdf"
+          }
+        ],
+        "reading": "../odia-cinema-series/daman.html",
+        "readingLabel": "Read the DAMaN article"
+      },
+      {
+        "id": "biswaprakash-prime",
+        "reason": "Susant Misra’s film offers another filmmaking voice: it received Best Feature Film in Oriya recognition for 1999 at the 47th National Film Awards.",
+        "evidence": [
+          {
+            "label": "National Film Awards catalogue, p. 72",
+            "url": "https://dff.nic.in/images/Documents/70_47thNfacatalogue.pdf"
+          }
+        ],
+        "reading": "../odia-cinema-series/nandita-das.html",
+        "readingLabel": "Read about Biswaprakash and Nandita Das"
+      }
+    ],
+    "explorations": [
+      {
+        "id": "pratikshya-trailer",
+        "reason": "A National Film Award recipient whose story draws on Gourahari Das’s writing: a meeting of literature and contemporary film.",
+        "evidence": [
+          {
+            "label": "Award record",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1951758&lang=2&reg=48"
+          },
+          {
+            "label": "Literary connection",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1878242"
+          }
+        ],
+        "reading": "../odia-cinema-series/odia-cinema.html",
+        "readingLabel": "Read the cinema overview"
+      },
+      {
+        "id": "ananta-trailer",
+        "reason": "Fakir Mohan Senapati’s Randi Pua Ananta reaches the screen in Sabyasachi Mohapatra’s adaptation.",
+        "evidence": [
+          {
+            "label": "Reporting on the adaptation",
+            "url": "https://www.newindianexpress.com/cities/bhubaneswar/2025/Jun/18/amid-cinema-hall-crisis-raja-releases-run-to-packed-houses"
+          }
+        ],
+        "reading": "../odia-cinema-series/odia-cinema.html",
+        "readingLabel": "Read the cinema overview"
+      }
+    ]
+  },
+  "selectionPolicy": "A focused selection connected to the research, literature, archives and children’s viewing; not a broad entertainment directory or a ranking of other films."
 };

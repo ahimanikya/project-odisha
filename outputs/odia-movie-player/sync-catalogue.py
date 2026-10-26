@@ -71,7 +71,29 @@ for e in entries:
     e.setdefault('genres',[])
     e.setdefault('checkedOn','2026-10-26')
     if e.get('limits')=='Release year conflict: uploader 2004; ZEE5 catalogue 2005. Retain null.':e['limits']='Release-year sources differ: the uploader lists 2004 and ZEE5 lists 2005. The year remains unverified here.'
-output={'checkedOn':'2026-10-26','entries':entries,'coverage':coverage}
+curation={
+ 'featured':[
+  {'id':'daman','reason':'A public-health drama recognised as Best Odia Film at the 70th National Film Awards, with questions of care and representation explored in our companion article.','evidence':[{'label':'National Film Awards record','url':'https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2045960&lang=2&reg=48'},{'label':'Story and credits','url':'https://nfaindia.org/images/pdf/70th%20National%20Film%20Award%20Catalogue.pdf'}],'reading':'../odia-cinema-series/daman.html','readingLabel':'Read the DAMaN article'},
+  {'id':'biswaprakash-prime','reason':'Susant Misra’s film offers another filmmaking voice: it received Best Feature Film in Oriya recognition for 1999 at the 47th National Film Awards.','evidence':[{'label':'National Film Awards catalogue, p. 72','url':'https://dff.nic.in/images/Documents/70_47thNfacatalogue.pdf'}],'reading':'../odia-cinema-series/nandita-das.html','readingLabel':'Read about Biswaprakash and Nandita Das'}
+ ],
+ 'explorations':[
+  {'id':'pratikshya-trailer','reason':'A National Film Award recipient whose story draws on Gourahari Das’s writing: a meeting of literature and contemporary film.','evidence':[{'label':'Award record','url':'https://www.pib.gov.in/PressReleasePage.aspx?PRID=1951758&lang=2&reg=48'},{'label':'Literary connection','url':'https://www.pib.gov.in/PressReleasePage.aspx?PRID=1878242'}]},
+  {'id':'ananta-trailer','reason':'Fakir Mohan Senapati’s Randi Pua Ananta reaches the screen in Sabyasachi Mohapatra’s adaptation.','evidence':[{'label':'Reporting on the adaptation','url':'https://www.newindianexpress.com/cities/bhubaneswar/2025/Jun/18/amid-cinema-hall-crisis-raja-releases-run-to-packed-houses'}]}
+ ]
+}
+public_ids={'daman','biswaprakash-prime','pratikshya-trailer','ananta-trailer','stree-kali-juga','prahalad-airtel','return-of-hanuman-airtel'}
+entries=[e for e in entries if e['id'] in public_ids]
+assert {e['id'] for e in entries}==public_ids
+coverage=[
+ {'source':'Official film and trailer channels','url':'https://www.amaramuzik.in/amara_muzik_odia','status':'Selected source listings checked','note':'DAMaN and the selected official trailers support the article readings. Embedded playback remains untested.'},
+ {'source':'Gour–Parbati archive / GPG Productions','url':'https://www.gourparbati.com/movie_stree.php','status':'Archive-linked song clip','note':'Kali Juga is a song from the 1968 Stree, not a full-film upload.'},
+ {'source':'Prime Video','url':'https://www.primevideo.com/detail/Biswaprakash/0MJBHD5LPJL1VXW6T9MESR5IJM','status':'Conditional title listing','note':'Biswaprakash availability and payment terms depend on region and account.'},
+ {'source':'Airtel Xstream Play','url':'https://www.airtelxstream.in/movies/odia-a-movies','status':'Two children’s-animation listings selected','note':'Odia audio is listed. Return of Hanuman is a dubbed version; Prahalad’s original-language status remains unverified. Provider access conditions apply.'}
+]
+for choice in curation['explorations']:
+ choice['reading']='../odia-cinema-series/odia-cinema.html'
+ choice['readingLabel']='Read the cinema overview'
+output={'checkedOn':'2026-10-26','entries':entries,'coverage':coverage,'curation':curation,'selectionPolicy':'A focused selection connected to the research, literature, archives and children’s viewing; not a broad entertainment directory or a ranking of other films.'}
 (root/'outputs/odia-movie-player/catalogue.js').write_text('window.ODIA_CATALOGUE='+json.dumps(output,ensure_ascii=False,indent=2)+';\n')
 (root/'outputs/odia-movie-player/catalogue.json').write_text(json.dumps(output,ensure_ascii=False,indent=2)+'\n')
 print(f'{len(entries)} entries assembled')
