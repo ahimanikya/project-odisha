@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-25",
+  "agent": "Anvesha",
+  "scope": "One bounded final evidence pass; research query and existing captures reused. No article edits, broad searches, full-film viewing or publication.",
+  "article": "kb/research/culture/cinema-series/manmohan-mahapatra.md",
+  "article_sha256": "ad0cc3caec932885140080ddfdf1ed050b47246086530050acdc3a946e40888c",
+  "verdict": "PASS_WITH_RETAINED_SOURCE_ACCESS_LIMITS; no material factual correction found.",
+  "reused_evidence": [
+    {
+      "path": "kb/research/sources/cinema-depth-evidence-2026-10-25.json",
+      "sha256": "555275bfa1fd0f4e66a83337ba6d4934a13ec6e8e2f808ddd2b8f491cf2809a7"
+    },
+    {
+      "path": "kb/research/sources/cinema-series-research-2026-10-25.json",
+      "sha256": "c734bd1c10891e72e96c60964e18144eb6b6ae94f672817637e8e3b5eb2aee3f"
+    },
+    {
+      "path": "kb/research/sources/odia-cinema-research-2026-10-25.json",
+      "sha256": "a5b46c9397b7591903900aeebd4757c996418a9ea38cf183a263c20fd5d819d1"
+    },
+    {
+      "path": "kb/records/cinema-claims-review-2026-10-25.json",
+      "sha256": "f87e6b085741eb6533eeecee1e1e1bf6a93a5050a0f08c72266b433a7f207b0a"
+    },
+    {
+      "path": "kb/records/cinema-series-image-rights-audit-2026-10-25.json",
+      "sha256": "d216780234f8f26ff5b9047fcfebff6713634db1a26ca350c4101cbdc58b42b7"
+    }
+  ],
+  "checks": [
+    {
+      "claim": "Critical framing: rural society and family tensions",
+      "source": "https://fipresci-india.org/wp-content/uploads/2025/01/11.-Article-Ashok-Palit-New-Wave-Cinema-of-Odisha.pdf",
+      "inspection": "Fresh original8page PDF text opened; pp3–4, lines173–197.",
+      "finding": "Palit discusses continuing career and films about uprooted rural community, family/social change and village experience. Current short attributed summary supported.",
+      "limit": "Do not import his inconsistent dates, sweeping firsts or career counts into article; none are present."
+    },
+    {
+      "claim": "Utkal graduate, FTII direction1975; Seeta Raati made1976, recognition1982",
+      "source": "https://dff.nic.in/images/Documents/139_IPCatalogue1985.pdf",
+      "inspection": "Retained indexed original1985Panorama director biography, Klanta Aparanha entry. FullPDF not freshly fetched; known access limit explicitly preserved.",
+      "finding": "All four details match retained capture. Article expressly attributes chronology to1985catalogue and note distinguishes production from release.",
+      "limit": "Other catalogue biographies differ. Source-specific1976making is not independently resolved historical release date; no exhausted search repeated."
+    },
+    {
+      "claim": "Best Oriya Film,29th NFA films1981",
+      "source": "https://nfaindia.org/images/pdf/29th%20National%20Film%20Award%20Catalogue.pdf",
+      "inspection": "Retained indexed official award entry, plus prior1990Panorama recognition1982corroboration. No fresh complete catalogue read.",
+      "finding": "Historical category and eligibility year retained correctly;1982recognition not confused with1981film eligibility.",
+      "limit": "Exact production/release/selection dates remain separate. No first-Odia-Panorama claim made."
+    },
+    {
+      "claim": "Klanta Aparanha crew and household synopsis",
+      "source": "https://dff.nic.in/images/Documents/139_IPCatalogue1985.pdf",
+      "inspection": "Retained indexed primary credit/synopsis captures in series and depth dossiers.",
+      "finding": "NandalalMahapatra story,RanajitRay camera,SatyendraMohanty editing,ShantanuMahapatra music match. Retired Adikanda,mother,daughterNiru,teachercolleaguesSandhya/Veena and mortgagedland/dowry synopsis match.",
+      "limit": "Interpretive prose remains at premise level; no invented scene/dialogue or film-viewing assertion. Different credits remain distinct from direction."
+    },
+    {
+      "claim": "FTII contextual photograph",
+      "source": "kb/research/media/cinema-series/documentary-media.json",
+      "inspection": "Reused elevenarticle rights audit; actual originalhash previously matched.",
+      "finding": "Caption specifies2018institution view, photographerDesiBoy101,CCBYSA4.0 and notfilmlocation. Does not pretend to show filmmaker or historical training moment."
+    }
+  ],
+  "changes_recommended": [],
+  "remaining_limits": [
+    "Two official catalogue checks depend on retained indexed originals, openly noted; not fullPDF rereading.",
+    "1976making retained as1985catalogue attribution; no universal release-date claim.",
+    "No original film viewing or completefilmography/lifetime-awardcount verification.",
+    "No browser-layout or live-publication assessment."
+  ],
+  "source_budget_observation": "Current Panorama-derived biography, crew, synopsis and footnote remain concise; avoid adding further same-source material without recounting aggregate200word limit."
+}

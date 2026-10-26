@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-25",
+  "agent": "Anvesha",
+  "scope": "Bounded final pass1; query research and existing profile/work records reused; all four linked article sources directly reopened. No edits to articles/images, film viewing or publication.",
+  "article": "kb/research/culture/cinema-series/nandita-das.md",
+  "article_sha256": "30d401961ad5b903c9135223918068e386bd47d087a6a573632f3383a74682bf",
+  "verdict": "PASS; no material factual correction required. Optional source-note completeness improvement.",
+  "reused_records": [
+    {
+      "path": "kb/research/people/nandita-das.md",
+      "sha256": "31b6857df5dda52dfbf36fd9a3067c3d017998795c888d48b7fc1e479ba7f509"
+    },
+    {
+      "path": "kb/research/works/manto-film.md",
+      "sha256": "026ff2fed7a50ef2da9c313d67a5149acce6024574196ba7f5e9473f4e3e3f0d"
+    },
+    {
+      "path": "kb/research/works/zwigato-film.md",
+      "sha256": "742d04150127d634fd593415242d30a0b8dd6dd3b1f2e221710ba9c4b4f3c64b"
+    },
+    {
+      "path": "kb/research/sources/cinema-claims-audit-2026-10-25.json",
+      "sha256": "ca40fe18de0de8a5aac5a29fa7cc097dfae3249ac5a5405c9a8e61b3188260c7"
+    },
+    {
+      "path": "kb/records/cinema-series-image-rights-audit-2026-10-25.json",
+      "sha256": "d216780234f8f26ff5b9047fcfebff6713634db1a26ca350c4101cbdc58b42b7"
+    }
+  ],
+  "checks": [
+    {
+      "source": "https://openthemagazine.com/art-culture/i-am-still-searching-for-a-place-to-call-home/",
+      "locator": "Byline/date38; autobiographical paragraphs45\u201353",
+      "finding": "Nandita Das,8August2013, explicitly states Bombay birth,Delhi upbringing,JatinDas father and summerBaripada visits. Article correctly treats these as family/experience, not Odisha birthplace or exclusive identity.",
+      "inspection": "Fresh original essay text read."
+    },
+    {
+      "source": "https://www.festival-cannes.com/en/p/nandita-das/",
+      "locator": "Jury attendance24\u201327; featurefilm31",
+      "finding": "Member feature-film jury2005; member Cin\u00e9fondation andShortFilms2013; Manto UnCertainRegard2018,Director/Screenplay. Current distinctions between jury service,selection andaward correct.",
+      "inspection": "Fresh official page read."
+    },
+    {
+      "source": "https://www.festival-cannes.com/en/f/manto/",
+      "locator": "Synopsis21\u201322; credits31\u201332",
+      "finding": "Writer SaadatHasanManto,Partition,Bombay\u2013Lahore move,publication difficulties andobscenity trials directly supported. Nandita direction/screenplay credited. Article uses synopsis,not invented film scenes or independent viewing.",
+      "inspection": "Fresh official film page read."
+    },
+    {
+      "source": "https://nanditadas.com/nandita-das-initiatives/zwigato-copy2/",
+      "locator": "Story25\u201326; director note29\u201333; language/year/festivals40\u201347",
+      "finding": "Bhubaneswar setting,delivery riderManas,wifePratima exploringwork,ratings/incentives/algorithms supported. Official languageHindi&Odiya and2022TorontoWorld/BusanAsian/KeralaIndian premieres explicit. Current article attributes premise/note and does not convert premiere intoaward or story intoemploymentdata.",
+      "inspection": "Fresh original production/creator page read.",
+      "limit": "This specific page does not state2023theatricalrelease; that footnote fact is retained from creatorprofile and existing workrecord."
+    }
+  ],
+  "changes_recommended": [],
+  "optional_note_improvement": {
+    "location": "zwigato footnote",
+    "suggestion": "If retaining the2023theatricalrelease distinction, add the already-used official profile https://nanditadas.com/profile/ as its specific source. Current workrecord retains17March2023 from that profile; no fresh profile retrieval in this pass.",
+    "reason": "Separates directpage support for2022festivals from underlying record support for2023release."
+  },
+  "caption_check": "Prior image audit confirmed actual Nandita portrait hash and CommonsCCBYSA3.0 record. Caption deliberately credits usernameNanditadas rather than asserting verified photographer identity; no event/venue invented.",
+  "limits": [
+    "Four primary/self-authored pages inspected, not films.",
+    "Festival dates are creatorpage claims here, not fresh separate festivalarchivechecks.",
+    "2023release reused from existing linked work/profile evidence; not sourced by2022film page itself.",
+    "No independent audience/boxoffice or completecareer verification.",
+    "No article prose or rendering acceptance asserted."
+  ],
+  "coordinator_source_followup": {
+    "url": "https://nanditadas.com/profile/",
+    "checked": "2026-10-25",
+    "finding": "Current profile labels Zwigato (2023) but no longer supplies an explicit theatrical date in retrieved main biography. Unrelated template/sidebar material also present; not used as release evidence.",
+    "action": "Removed unnecessary2023theatricaldate from footnote; retained distinction that linked2022dates are festivalpremieres, nottheatricalrelease."
+  }
+}

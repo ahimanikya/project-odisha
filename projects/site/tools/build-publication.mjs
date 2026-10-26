@@ -1,5 +1,6 @@
 // Assemble a deployable artifact from the tested coastal build. Never mutate it.
 import {readFile,writeFile,cp,rm,lstat,readdir,mkdir} from 'node:fs/promises';
+import {eligiblePNG,optimizePublicationPNGs} from './optimize-publication-png.mjs';
 import {fileURLToPath} from 'node:url';
 import {publicationPlan,publicationPage,publicationCrawlerFiles} from '../src/lib/search-publication.mjs';
 export async function buildPublication(site){
@@ -23,9 +24,9 @@ export async function buildPublication(site){
  }
  if((await lstat(input)).isSymbolicLink())throw Error('Publication input must not be a symlink');
  await walk(input);
- const publicationBytes=(await Promise.all(files.map(async path=>(await lstat(new URL(path,input))).size))).reduce((sum,size)=>sum+size,0);
- // Leave a conservative decimal-GB boundary below Pages' published-site limit.
- if(publicationBytes>=1_000_000_000)throw Error(`Publication artifact exceeds the 1 GB budget: ${publicationBytes} bytes`);
+ const nonOptimizableBytes=(await Promise.all(files.filter(path=>!eligiblePNG(path)).map(async path=>(await lstat(new URL(path,input))).size))).reduce((sum,size)=>sum+size,0);
+ // Reject impossible oversized inputs before copying (also protects sparse-file fixtures).
+ if(nonOptimizableBytes>=1_000_000_000)throw Error(`Publication artifact exceeds the 1 GB budget: ${nonOptimizableBytes} non-optimizable bytes`);
  const paths=scope.routes.map(route=>route==='/'?'index.html':route.slice(1)+(route.endsWith('/')?'index.html':''));
  if(JSON.stringify(files.filter(f=>f.endsWith('.html')&&!(scope.downloads||[]).includes('/'+f)).sort())!==JSON.stringify([...paths].sort()))throw Error('Unexpected HTML outside the public edition');
  const pages=await Promise.all(paths.map(async(path,i)=>({path,html:publicationPage(await readFile(new URL(path,input),'utf8'),scope.routes[i],plan)})));
@@ -38,6 +39,14 @@ export async function buildPublication(site){
  if(controls.sitemap)await writeFile(new URL('sitemap.xml',output),controls.sitemap);
  await writeFile(new URL(verificationName,output),verification);
  await mkdir(new URL('.astro/',site),{recursive:true});
+ const optimization=await optimizePublicationPNGs(output);
+ await writeFile(new URL('.astro/publication-png-optimization.json',site),JSON.stringify(optimization,null,2)+'\n');
+ let publicationBytes=0;
+ async function total(dir){for(const entry of await readdir(dir,{withFileTypes:true})){const url=new URL(entry.name+(entry.isDirectory()?'/':''),dir);if(entry.isDirectory())await total(url);else publicationBytes+=(await lstat(url)).size;}}
+ await total(output);
+ // Keep the conservative decimal-GB gate on the actual final publication artifact.
+ if(publicationBytes>=1_000_000_000)throw Error(`Publication artifact exceeds the 1 GB budget: ${publicationBytes} bytes`);
+
  await writeFile(new URL('.astro/publication-plan.json',site),JSON.stringify({...plan,public_pages:pages.length,output:fileURLToPath(output)},null,2)+'\n');
  return plan;
 }

@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-26",
+  "reviewer": "Drishti",
+  "status": "PASS_STATIC_AND_EVIDENCE_REVIEW",
+  "scope": "Local-only player; no publication, browser-rendered visual QA or embedded playback test.",
+  "hashes": {
+    "test.cjs": "debe0a3d0289b495615ec7433da8aba7c9c5f0876da5f00bc93a26448bf81351",
+    "index.html": "a2c2ccd128bdbedd05a24bb68e5e4b56fa173d518d43bdb8673dbd03a71326d7",
+    "core.js": "e794bc59e2e67170347ee9d3b49e625fdea4406b08db7b9223d7b85c3e07b7e6",
+    "sync-catalogue.py": "1b4728e76a09f42277652c625e90bbd66cc8695f37f1eb1d593f19b4883b8734",
+    "README.md": "cebf199e1ed710f68152722840aca83355d3e9e095e6bd56e519fe8ba8b003df",
+    "catalogue.json": "8eeecba661825a202124ad170a2d66c49d151d5a1c7581447a14129dda76d4cf",
+    "catalogue.js": "d3703ce1e63b8f5080b0e8f8b06e7bc06eb87e8a07b0cff409020bb49762b73b",
+    "style.css": "98db2743fe607a5ee8ed0ec2099d58975034f625b8cd484b5a19e576ed2f1674",
+    "app.js": "5e93a9c77902cd860a3f17af7b392db6cff2c2406e61a18d89a28f35a6033c55"
+  },
+  "catalogue": {
+    "total": 14,
+    "full_films": 8,
+    "trailers": 5,
+    "song_clips": 1,
+    "public_domain_verified": 0,
+    "evidence": [
+      "kb/records/cinema-player-catalogue-2026-10-26.json",
+      "kb/records/cinema-player-browser-evidence-2026-10-26.json",
+      "Retained contemporary/viewing source records for five trailers and archive-linked Stree song."
+    ],
+    "source_limits": "Independent exact-ID web searches for four weaker Sidharth records returned no results. Inclusion relies on explicitly attributed root directChrome source-page evidence; reviewer does not claim own uploader browser observation. Indexed primary records retained for Idiot/Pagala. Source title/runtime do not establish full viewing or embedding availability."
+  },
+  "checks": [
+    "Read index.html/core.js/app.js/style.css/catalogue.json and test.cjs.",
+    "Independently ran six Node tests successfully, including fake-DOM execution of actual scripts. This is not a browser substitute.",
+    "Independently checked catalogue.js/JSON parity,14unique videoIDs, five malformed/host-confusion/watchURL attacks rejected and file/data/javascript/ftp embed protocols rejected.",
+    "Exact watchURL host/path/query and11characterID validation; hashselection only resolves entries already in catalogue. No arbitrary user URL embed path.",
+    "No iframe initially; explicit Load constructs single youtube-nocookie iframe without autoplay; stop and newselection remove prior iframe.",
+    "file protocol hides load action and preserves direct YouTube fallback. Relative plain scripts/styles support staticHTTP use without module/fetch dependency. Referrerpolicy is strict-origin-when-cross-origin.",
+    "Native labelled search/select/buttons, keyboard focus styles, skiplink, selected-detail focus, livecount and accessible empty/reset states present in code. Actual keyboard/browser rendering untested.",
+    "Remote YouTube thumbnails disclosed; no claim of network silence. Thirdparty iframe only on explicit action. No film media downloaded/hosted.",
+    "Full-film/trailer/song categories and rights limitations visible; publicdomainfilter empty bydesign, explanatory message. No exhaustivecollection/globalfreeavailability claim.",
+    "Source text inserted using textContent, no innerHTML/eval. Evidence URLs restricted to credential-freeHTTPS; videos restricted to exactYouTubeURLs.",
+    "Metadata editorialtitle/source-check discrepancies corrected before finalhash: fourOdialabels explicitly editorial, five historicaluploadergaps supersededbyrootrecord."
+  ],
+  "required_fixes": [],
+  "limitations": [
+    "No browser-policy bypass, localhost server, Playwright or alternate-browser QA.",
+    "Embedding eligibility, restrictions, playback, cookie behaviour and regional/account/payment conditions remain unverified.",
+    "Static accessibility review is not assistive-technology certification.",
+    "StaticHTTP-compatible code reviewed; no deployment or liveHTTP playback tested.",
+    "Source channel attribution is not a copyright ownership-contract audit or public-domain clearance."
+  ]
+}

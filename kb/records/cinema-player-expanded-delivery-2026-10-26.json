@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-26",
+  "status": "local_expansion_independently_reviewed",
+  "entrypoint": "outputs/odia-movie-player/index.html",
+  "counts": {
+    "entries": 37,
+    "distinct_works": 36,
+    "full_film_routes": 31,
+    "official_full_uploads": 19,
+    "provider_full_film_listings": 12,
+    "trailers": 5,
+    "song_clips": 1,
+    "verified_public_domain": 0
+  },
+  "classifications": [
+    "format",
+    "access",
+    "channel/provider",
+    "decade",
+    "sourced genre",
+    "original/dubbed/unknown Odia version"
+  ],
+  "research": [
+    "cinema-player-expanded-youtube-2026-10-26.json",
+    "cinema-player-expanded-providers-2026-10-26.json"
+  ],
+  "implementation": "cinema-player-expanded-implementation-2026-10-26.json",
+  "review": "cinema-player-expanded-review-2026-10-26.json",
+  "checks": [
+    "9 Node tests PASS",
+    "catalogue current",
+    "bundle PASS",
+    "team assignments PASS"
+  ],
+  "files": {
+    "outputs/odia-movie-player/test.cjs": "0c586d1c2ef65533ae1a4ae363dc2d1126bc9cc39c0c2bcc69e3596d885e119f",
+    "outputs/odia-movie-player/index.html": "f53ffe66cb1fc91f1988b829b7a34d166062c8a79bcec1440a6c4fb42a3a25f8",
+    "outputs/odia-movie-player/core.js": "f2b54d2f5a0c7b681d139c63398dfa70d1b51ae8cbdc5ad0a4d7b976778f49a8",
+    "outputs/odia-movie-player/sync-catalogue.py": "15a87578edd4d5a9bf9de0a6382adbacd9b56b7d52bf8213ebce0a440a6064b8",
+    "outputs/odia-movie-player/README.md": "f7a0d2f74e5daa6beb57baacbe2187389d970a9a5b166ec32f974fbc5d5c0120",
+    "outputs/odia-movie-player/catalogue.json": "f11f5f7397bb1d5096f3d4d3622f9a7cd5d128714964e60c4688a5e7fd7461a0",
+    "outputs/odia-movie-player/catalogue.js": "68d64e1e0f0bb0713b04ec78082060dab4a0dba25b41df60f97dad8e77a8f4b7",
+    "outputs/odia-movie-player/style.css": "b56e4602e6e0856a7335abc2650da81fcfc1e785e5e5860ee0f1d4c15f7432db",
+    "outputs/odia-movie-player/app.js": "162aa27337f5b7edec3856de1496baa9d4fea14563b2f1a88a8dc3c8268b6926"
+  },
+  "limits": [
+    "Bounded source sweep, not exhaustive. Dynamic regional catalogues and unverified candidates remain.",
+    "No browser layout or embedded-playback verification; local-file restriction preserved.",
+    "Provider entries are external listings, not tested account/region entitlements.",
+    "Public viewing is not public-domain clearance."
+  ],
+  "published": false,
+  "deployment_required": false,
+  "delivery_reason": "Local review update only; embedded YouTube playback requires HTTP hosting, while local preview provides external viewing links."
+}

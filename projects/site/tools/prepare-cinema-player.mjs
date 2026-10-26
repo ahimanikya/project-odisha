@@ -1,0 +1,15 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import postcss from 'postcss';
+import {fileURLToPath} from 'node:url';
+const site=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),root=path.resolve(site,'../..');
+const input=path.join(root,'outputs/odia-movie-player'),out=path.join(site,'public/assets/cinema/player');fs.mkdirSync(out,{recursive:true});
+for(const f of ['app.js','core.js','catalogue.js','catalogue.json'])fs.copyFileSync(path.join(input,f),path.join(out,f));
+const sheet=postcss.parse(fs.readFileSync(path.join(input,'style.css'),'utf8'));
+sheet.walkRules(rule=>{rule.selectors=rule.selectors.map(selector=>{if([':root','html','body'].includes(selector))return '.cinema-player';return '.cinema-player '+selector;});});
+fs.writeFileSync(path.join(out,'player.css'),sheet.toString());
+const source=fs.readFileSync(path.join(input,'index.html'),'utf8');
+let content=source.match(/<main>([\s\S]*?)<\/main>/)[1];
+content=content.replaceAll('../odia-cinema-series/index.html','/cinema/').replaceAll('../../output/pdf/odia-cinema-a-living-screen.pdf','/archive/odia-cinema-a-living-screen.pdf');
+fs.writeFileSync(path.join(site,'src/data/cinema-player.html'),content);
+console.log('Staged source-identical player logic and scoped cinema-only stylesheet.');

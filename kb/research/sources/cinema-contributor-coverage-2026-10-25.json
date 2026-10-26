@@ -1,0 +1,239 @@
+{
+  "status": "reviewed_bounded_research_shortlist",
+  "date": "2026-10-25",
+  "purpose": "Address gaps in our eight-article selection, not rank or declare artists neglected by society.",
+  "selection_policy": [
+    "Complement the current director/actor and festival emphasis with other crafts.",
+    "Use specific credited works and inspected sources, not surname or assumed identity.",
+    "Reuse an existing person/work entry before proposing a duplicate.",
+    "Limit this pass to six supported leads; future articles need their own research and review.",
+    "Evidence availability shapes this shortlist and is itself a source of selection bias."
+  ],
+  "selection_limits": [
+    "No exhibitor or distributor lead established in this bounded pass.",
+    "Technical crews beyond the named candidates, popular performers and regional film ecosystems still require wider research.",
+    "Two women candidates do not demonstrate representative gender coverage.",
+    "This shortlist is not a complete account of Odisha-origin or Odia-language cinema."
+  ],
+  "leads": [
+    {
+      "name": "Prafulla Kar",
+      "craft": "Film music, composition and lyrics",
+      "existing_kb": [
+        "kb/research/people/prafulla-kar.md",
+        "kb/research/works/mamata-film-music.md"
+      ],
+      "action": "Enhance existing profile and work entries; do not duplicate",
+      "supported_facts": [
+        "Kapilas Bhuyan\u2019s 2010 retrospective dates Kar\u2019s debut as music director to Mamata (1975).",
+        "Existing KB separates composer, singer and lyricist credits at recording level."
+      ],
+      "angle": "How a film lives through its songs: follow Mamata and recording-specific credits rather than a career award tally.",
+      "sources": [
+        {
+          "id": "music-pib-film-history",
+          "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=67399",
+          "access": "Full page reopened, music paragraph",
+          "type": "Authored retrospective hosted by PIB; not an official film-credit register"
+        }
+      ],
+      "limits": [
+        "Exact birth date remains disputed in existing sources; omit until resolved.",
+        "Akademi PDF timed out in this pass; existing indexed citation is not new full-text verification.",
+        "No complete discography, popularity ranking or sales measure established."
+      ]
+    },
+    {
+      "name": "Bijay Mishra",
+      "craft": "Screenwriting, dialogue and theatre-to-film collaboration",
+      "existing_kb": [],
+      "action": "Create a researched lead in the coverage dossier; future person/work entry after credit verification",
+      "supported_facts": [
+        "In a December 2019 interview Mishra describes his screenplay and dialogue practice and his continuing attachment to theatre.",
+        "He recalls learning screenplay writing from Shyamal Mukherjee during Jajabara and co-directing it with Hemanta Das and Akshaya Mohanty under Trimurty."
+      ],
+      "angle": "The words actors carry: how theatre and screenplay craft shaped Jajabara; retain the collaborative directing credit.",
+      "sources": [
+        {
+          "id": "cinema-bijay-mishra-interview2019",
+          "url": "https://www.orissapost.com/i-celebrate-failures-too-says-thespian-bijay-mishra/",
+          "title": "I celebrate failures too, says thespian Bijay Mishra",
+          "author": "Bijay Mandal",
+          "date": "2019-12-24",
+          "access": "Full interview opened; inspirations and favourite-works sections inspected",
+          "type": "Published first-person testimony; claims attributed to interviewee"
+        }
+      ],
+      "limits": [
+        "Original screen credits still need inspection before treating testimony as a complete credit list.",
+        "Do not repeat career totals or conflicting biographical dates from secondary profiles.",
+        "His criticism of contemporary films is his opinion, not a verdict adopted by the project.",
+        "Sahitya Akademi newsletter PDF search lead timed out; no award details adopted from that inaccessible source."
+      ]
+    }
+  ],
+  "additional_research": {
+    "date": "2026-10-25",
+    "scope": "Four contributor leads only; no canonical edits, outreach, article drafting, publication or full-film viewing. Root supplies two further leads within six-person cap.",
+    "kb_reuse": {
+      "query": "query_research.py Lipika Bijaya Bir Pramod returned no mapped result",
+      "direct_search": "rg searched kb/research Markdown/JSON for Lipika, Bijaya Jena, Pramod Pati, A.K.Bir variants",
+      "matches": [
+        "kb/research/culture/odia-cinema-series.json:142 lists Pramod Pati as future experimental/documentary lead",
+        "kb/research/culture/odia-cinema-series.json already lists A. K. Bir as a future lead; no duplicate person article located."
+      ],
+      "limit": "No person/work article surfaced in scoped search; not an exhaustive alias or Odia-script search."
+    },
+    "sources": {
+      "lipika-own": {
+        "url": "https://www.lipikasinghdarai.com/films",
+        "type": "Filmmaker primary filmography",
+        "access": "Opened HTML; credits and practice paragraphs inspected",
+        "locator": "Film list and practice statement"
+      },
+      "lipika-iffr": {
+        "url": "https://iffr.com/en/person/lipika-singh-darai",
+        "type": "Festival primary profile",
+        "access": "Opened HTML, biography and filmography",
+        "locator": "Biography paragraphs1\u20133, filmography"
+      },
+      "nfa39": {
+        "url": "https://nfaindia.org/images/pdf/39th%20National%20Film%20Award%20Catalogue.pdf",
+        "type": "Original national awards catalogue",
+        "access": "Web open timed out; curl downloaded172-page scannedPDF; visually inspected printed/PDFpp25and149",
+        "local": "/tmp/contributors-39.pdf",
+        "sha256": "7c5b68ac0f9cb1c34bc6404968c6186006965c434bd340e07c4ea131d2101d93"
+      },
+      "nfa21": {
+        "url": "https://dff.nic.in/images/Documents/95_21stNfacatalogue.pdf",
+        "type": "Original national awards catalogue",
+        "access": "Opened URL failed; search-indexed original biography inspected; directPDF not secured in pass",
+        "locator": "Excellence in Cinematography (B&W), Apurba Kishore Bir /27Down"
+      },
+      "pati-pib": {
+        "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=1690373&lang=2&reg=48",
+        "type": "Films Division original screening announcement",
+        "access": "Opened HTML body",
+        "locator": "20January2021, film-list paragraphs"
+      },
+      "pati-review": {
+        "url": "https://magazines.odisha.gov.in/Orissareview/2021/Feb-Mar/engpdf/64-67.pdf",
+        "type": "Government-published authored historical essay, not contemporaneous personnel record",
+        "title": "Pramod Pati: Father of Indian New Wave Cinema",
+        "author": "Golaka Bihari Singh",
+        "access": "Opened4-page PDF extractedtext; no screenshot inspection",
+        "locator": "printedp65 openingbiographical paragraphs"
+      }
+    },
+    "candidates": [
+      {
+        "name": "Lipika Singh Darai",
+        "recommendation": "Strong priority lead",
+        "coverage": "Woman filmmaker; editing, location sound, sound design; documentary and essay film",
+        "connection": "IFFR identifies her as from Odisha; her own filmography and Backstage subject connect the practice to the state. No ethnic identity inferred.",
+        "supported_facts": [
+          {
+            "source": "lipika-own",
+            "fact": "Her site credits her as director/editor of Backstage and Night and Fear, and says she does location sound and sound design for her own films."
+          },
+          {
+            "source": "lipika-iffr",
+            "fact": "Festival profile records Night and Fear in2023 Tiger Short Competition and B and S in2025 Short & Mid-length; these are programme appearances, not wins."
+          }
+        ],
+        "angle": "From sound recording to film letters: how a filmmaker\u2019s editing and listening connect puppeteers, memory and contemporary Odisha. Backstage can connect existing puppetry KB with cinema.",
+        "uncertainties": [
+          "IFFR profile internally disagrees on several film years and calls Sound Man Mangesh Desai co-directed, while filmmaker site credits editing only. Prefer exact filmmaker credit; verify film-end credits before resolving discrepancy.",
+          "Backstage labelled2021 by ownsite but IFFI2021 indexedcatalogue labels2020; distinguish completion/catalogue/premiere before date narrative.",
+          "Do not copy IFA only-woman-documentary-filmmaker claim or last-generation extinction prediction as established fact. IFA URL failed directopen inpass.",
+          "No cumulative award total verified; omit. No media rights cleared."
+        ]
+      },
+      {
+        "name": "Bijaya Jena",
+        "recommendation": "Strong credit-led lead",
+        "coverage": "Woman producer, director, co-screenwriter and actor",
+        "connection": "Original39thNFA catalogue p149 identifies Tara as Oriya-language and names Bijaya Jena producer/director/leading actress and co-screenwriter with Bimal Dutt. This work-based connection is sufficient without guessing birthplace.",
+        "supported_facts": [
+          {
+            "source": "nfa39",
+            "locator": "p149 visually inspected",
+            "fact": "Tara credits combine producing, direction, performance and shared screenwriting; crew includes Neelabh Kaul cinematography and Gadadhar Puty editing."
+          }
+        ],
+        "angle": "Read the credits of Tara to recover a woman\u2019s work on both sides of the camera, with collaboration visible.",
+        "uncertainties": [
+          "Do not call her a National Best Actress winner: the inspected page is credits/synopsis, not an individual acting citation.",
+          "2015IFFI and67thNFA biographies were indexed but directopens failed; broad accolades and Abhaas internationalclaims not adopted.",
+          "Tara film/release/awardyear needs original award-list verification before chronological feature. No first-woman-director claim.",
+          "Film treatment of religious authority and woman\u2019s agency needs viewing and criticism, not invented scenes."
+        ]
+      },
+      {
+        "name": "A. K. Bir / Apurba Kishore Bir",
+        "recommendation": "Accept as bounded craft lead; birthplace/award assertion remains indexed-primary provisional",
+        "coverage": "Cinematography across languages, documentary/advertising craft, later direction",
+        "connection": "21stNFA indexed original biography names Cuttack, Orissa birthplace and FTII cinematography training;39th cataloguep25 visually confirms FTII cinematography and advertising/documentary/feature practice.",
+        "supported_facts": [
+          {
+            "source": "nfa39",
+            "locator": "p25 visually inspected",
+            "fact": "Institutional biography confirms cinematography training and practice across advertising, documentaries, features and television."
+          },
+          {
+            "source": "nfa21",
+            "fact": "Indexed official citation ties his B&W cinematography to Hindi27Down; direct fullPDF not inspected."
+          }
+        ],
+        "angle": "Who makes the image? An Odisha-connected cinematographer\u2019s work provides a route beyond actor/director-centred cinema history.",
+        "uncertainties": [
+          "Recover21stcataloguepage visually before definitive birthplace/awardchronology publication. No exact village, birthyear, career awardtotal or handheld-shot percentage adopted.",
+          "Do not classify every film as Odia from the maker\u2019s origin.27Down is Hindi.",
+          "Later AadiMimansa credits/languages/awards require their own page inspection; not yet validated here."
+        ]
+      },
+      {
+        "name": "Pramod Pati",
+        "recommendation": "Strong experimental-film lead with attributed biographical bridge",
+        "coverage": "Animation, short documentary, experimental image/sound; state production beyond features",
+        "connection": "Golaka Bihari Singh\u2019s Odisha Review essay p65 records Sambalpur birth and service as Film Officer of Government of Orissa. Attribute this retrospective instead of asserting unexamined personnel history.",
+        "supported_facts": [
+          {
+            "source": "pati-pib",
+            "fact": "Films Division\u2019s2021 retrospective lists Abid(1972), Claxplosion(1968), Trip(1970) and Explorer(1968); programme presents them as music-led shorts, with documentary/experimental work."
+          },
+          {
+            "source": "pati-review",
+            "fact": "The essay connects his Odisha training/service with animation study abroad and Films Division; use selective attributed account."
+          }
+        ],
+        "angle": "Experiment inside a public institution: how short films, animation and music enlarge a history usually told through theatrical features.",
+        "uncertainties": [
+          "Father of Indian New Wave Cinema is an evaluative epithet even when used by PIB; omit or attribute, never universal firstness.",
+          "No national awardtotal, premiere chronology or cinema-language identity inferred from music-led films.",
+          "2021streamingannouncement does not prove present playback or give permission to download/reuse frames.",
+          "Work with Odisha state film unit would benefit from archival corroboration; no complete film viewing inpass."
+        ]
+      }
+    ],
+    "next_step": "Root and Drishti select from combined six-person shortlist. Leads establish bounded research value, not ready-to-publish biographies. Prioritise Lipika and Bijaya for missing craft perspectives; retain Bir primary-access limit explicitly.",
+    "source_budget": "Keep each future source-derived passage under200words and quotations under25words; no quotations supplied.",
+    "rejected_claims": [
+      "Award totals",
+      "Only woman filmmaker",
+      "Unqualified father/first labels",
+      "Identity inferred from surname",
+      "Catalogue photos treated as licensed assets"
+    ]
+  },
+  "recommended_order": [
+    "Lipika Singh Darai",
+    "Bijaya Jena",
+    "A. K. Bir / Apurba Kishore Bir",
+    "Pramod Pati",
+    "Prafulla Kar",
+    "Bijay Mishra"
+  ],
+  "review_correction": "Original39thcatalogue page149 independently inspected: co-screenwriter Bimal Dutt; corrected initial transcription.",
+  "review": "../../records/cinema-contributor-review-2026-10-25.json"
+}

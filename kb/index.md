@@ -29,6 +29,8 @@ This directory contains the organizational and working model, roles, work record
 
 ## Current delivery and open work
 
+The [Odia cinema overview](research/culture/odia-cinema.md) connects to the [reviewed series manifest](research/culture/cinema-series/manifest.json), [AIR Cuttack](research/culture/air-cuttack.md), [television](research/culture/odia-television.md) and [OTT](research/culture/odia-ott.md). The [cinema release preparation](records/cinema-release-preparation-2026-10-26.json) records the current website, book and viewing-room publication work.
+
 Use these maintained records to resume work. The dated links further down this page preserve the project's evolution; an old “pending” or “disabled” note describes that snapshot, not necessarily the current state.
 
 | What you need | Authoritative starting point |

@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-25",
+  "agent": "Anvesha",
+  "scope": "Bounded Sadhu Meher final pass1; research query and retained source captures reused. No canonical edits, publication, acquisition or film viewing.",
+  "article": "kb/research/culture/cinema-series/sadhu-meher.md",
+  "article_sha256": "45c39e977ddc9c2b27e1d8b78ddca20479737ed9217aa930aaaa99526bbcd708",
+  "verdict": "PASS; no material factual correction identified. Optional panel-label clarification.",
+  "reused_evidence": [
+    {
+      "path": "kb/research/sources/cinema-series-research-2026-10-25.json",
+      "sha256": "c734bd1c10891e72e96c60964e18144eb6b6ae94f672817637e8e3b5eb2aee3f"
+    },
+    {
+      "path": "kb/research/sources/cinema-depth-evidence-2026-10-25.json",
+      "sha256": "555275bfa1fd0f4e66a83337ba6d4934a13ec6e8e2f808ddd2b8f491cf2809a7"
+    },
+    {
+      "path": "kb/research/sources/cinema-claims-audit-2026-10-25.json",
+      "sha256": "ca40fe18de0de8a5aac5a29fa7cc097dfae3249ac5a5405c9a8e61b3188260c7"
+    },
+    {
+      "path": "kb/records/cinema-series-image-rights-audit-2026-10-25.json",
+      "sha256": "d216780234f8f26ff5b9047fcfebff6713634db1a26ca350c4101cbdc58b42b7"
+    }
+  ],
+  "checks": [
+    {
+      "claim": "Best Actor for Ankur, Hindi film1974; Odisha background and FTII training",
+      "source": "https://www.dff.nic.in/images/Documents/94_22ndNfacatalogue.pdf",
+      "inspection": "Retained original indexed catalogue citation/biography; no repeated exhausted direct-PDF search.",
+      "finding": "Matches retained22nd NFA evidence. Current1974 describes film, not an asserted ceremony date; no first-Odia-actor or Odia-film award conflation."
+    },
+    {
+      "claim": "Kishtaya plot and cast-role mapping",
+      "sources": [
+        "https://www.dff.nic.in/images/Documents/94_22ndNfacatalogue.pdf",
+        "https://www.shemaroome.com/short-films/ankur-the-seedling"
+      ],
+      "inspection": "Catalogue synopsis retained from prior indexed-original capture; distributor page freshly opened, synopsis lines319–320.",
+      "finding": "Poor potter, humiliation/departure, earnings/return, work request and assault follow catalogue capture. Shemaroo explicitly maps Kishtaya–Sadhu, Lakshmi–Shabana and Surya–Anant. Current interpretation of dependence is grounded in this synopsis, without invented dialogue or claimed viewing.",
+      "limit": "Shemaroo page is a17minute item and has generic/conflicting category metadata; no runtime, exact release-date or full-film availability assertion should be drawn from it."
+    },
+    {
+      "claim": "Abhiman1977 audience response",
+      "source": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=67399",
+      "inspection": "Fresh full PIB retrospective read; author/date lines1–7, filmography14, audience statement19.",
+      "finding": "Kapilas Bhuyan explicitly names Sadhu Meher’s1977Abhiman with SeshaShrabana as drawing audiences back during mid1970s lean period. Current attribution is correct; no numeric revenue or independently measured attendance claimed."
+    },
+    {
+      "claim": "60th NFA jury chair, six directed features, FTII and television work",
+      "source": "https://nfaindia.org/images/pdf/60th%20National%20Film%20Award%20Catalogue.pdf",
+      "inspection": "Retained indexed official biography, printed043, Feature Films Jury South I panel. No fresh fullPDF access claimed.",
+      "finding": "Specific role is South I panel chairman, not overall national feature jury head. Biography records six directed features by catalogue period; current body says a jury chair and note identifies South I. Count explicitly period-bound.",
+      "limit": "Do not convert six into lifetime total or40acted-features claim; article does neither."
+    },
+    {
+      "claim": "2017PadmaShri photograph",
+      "source": "kb/research/media/cinema-series/additions/provenance.json",
+      "inspection": "Reused fresh11article rights audit and captured Commons/GODL metadata.",
+      "finding": "Caption matches13April2017event, PresidentPranabMukherjee, President’sSecretariat credit and original full photo. Correctly distinguished from Ankur national award."
+    }
+  ],
+  "changes_recommended": [],
+  "optional_precision": {
+    "current": "included him as a jury chair",
+    "alternative": "listed him as chair of its South I feature-film jury panel",
+    "reason": "Makes existing footnote specificity visible in body; current wording is not false."
+  },
+  "limits": [
+    "NFA material reused from indexed original captures; fullPDFs were not newly read.",
+    "No film viewing or frame-level adaptation/performance analysis.",
+    "Bhuyan account is attributed retrospective testimony, not audited reception data.",
+    "No fresh browser-layout or deployment checks."
+  ]
+}

@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 786. completed: 101, excluded: 384, queued: 301.
+Route inventory: 800. completed: 101, excluded: 387, queued: 312.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -800,3 +800,17 @@ Route inventory: 786. completed: 101, excluded: 384, queued: 301.
 | POD-EDIT-784 | [ଠକ ଠକ ମାଳି ଭଜନ ଟାଣ ଭୋକ କଲା ଭାତ ପାଖକୁ ଆଣ —](https://projectodisha.org/dhaga/sayings/pod-dhaga-157.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-785 | [ଆତଙ୍କ ବେଳେ ଯାଚନ୍ତି କୁକୁଡ଼ା, ଆତଙ୍କ ଗଲେ ଦିଅନ୍ତି ନେଫେଡ଼ା](https://projectodisha.org/dhaga/sayings/pod-dhaga-158.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-786 | [ମାଲୁଣି ହାତରେ ଲଙ୍କା ମରିଚଲୋ, ମାଳି ହାତେ ଫୁଲ ହାର, ଯାହା ମନ କଥା, ସିଏ ଜାଣେ ସିନା, ତାହା କି ଜାଣିବ ପର ॥](https://projectodisha.org/dhaga/sayings/pod-dhaga-159.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-787 | [Odia Cinema: A Living Screen](https://projectodisha.org/cinema/) | excluded | cinema collection navigation and viewing utility |
+| POD-EDIT-788 | [Odia cinema viewing room](https://projectodisha.org/cinema/watch/) | excluded | cinema collection navigation and viewing utility |
+| POD-EDIT-789 | [Odia cinema book](https://projectodisha.org/cinema/book/) | excluded | cinema collection navigation and viewing utility |
+| POD-EDIT-790 | [Odia cinema: the world in our own voice](https://projectodisha.org/cinema/odia-cinema/) | queued | Reviewed cinema article awaiting integrated release and live delivery verification |
+| POD-EDIT-791 | [ଆକାଶବାଣୀ କଟକ — AIR Cuttack: where stories found another voice](https://projectodisha.org/cinema/air-cuttack/) | queued | Reviewed cinema article awaiting integrated release and live delivery verification |
+| POD-EDIT-792 | [Parbati Ghose: the woman behind the credits](https://projectodisha.org/cinema/parbati-ghose/) | queued | Reviewed cinema article awaiting integrated release and live delivery verification |
+| POD-EDIT-793 | [Sadhu Meher: an actor beyond one language](https://projectodisha.org/cinema/sadhu-meher/) | queued | Reviewed cinema article awaiting integrated release and live delivery verification |
+| POD-EDIT-794 | [Manmohan Mahapatra: households under pressure](https://projectodisha.org/cinema/manmohan-mahapatra/) | queued | Reviewed cinema article awaiting integrated release and live delivery verification |
+| POD-EDIT-795 | [ମାୟା ମିରିଗ (Maya Miriga): a family, a fragile film, a second life](https://projectodisha.org/cinema/maya-miriga/) | queued | Reviewed cinema article awaiting integrated release and live delivery verification |
+| POD-EDIT-796 | [ଭୂଖା (Bhukha): when a tradition must also feed a family](https://projectodisha.org/cinema/bhukha/) | queued | Reviewed cinema article awaiting integrated release and live delivery verification |
+| POD-EDIT-797 | [Nandita Das: roots, routes and the stories between](https://projectodisha.org/cinema/nandita-das/) | queued | Reviewed cinema article awaiting integrated release and live delivery verification |
+| POD-EDIT-798 | [ଦମନ (DAMaN): the road from Malkangiri to national recognition](https://projectodisha.org/cinema/daman/) | queued | Reviewed cinema article awaiting integrated release and live delivery verification |
+| POD-EDIT-799 | [Odia television and the stories that came home](https://projectodisha.org/cinema/odia-television/) | queued | Reviewed cinema article awaiting integrated release and live delivery verification |
+| POD-EDIT-800 | [The Odia OTT journey and the search for an audience](https://projectodisha.org/cinema/odia-ott/) | queued | Reviewed cinema article awaiting integrated release and live delivery verification |

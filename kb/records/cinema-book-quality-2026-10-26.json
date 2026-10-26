@@ -1,0 +1,256 @@
+{
+  "date": "2026-10-26",
+  "reviewer": "Drishti",
+  "status": "PASS_FINAL_RENDERED_PDF",
+  "skill": "pdf:pdf (read-only inspection)",
+  "scope": "All11-article book; independent visual, textual and link/provenance checks. No canonical edits.",
+  "criteria": [
+    "Inspect contact sheets covering every final PDF page; log page ranges actually seen.",
+    "Inspect full-size selected Odia titles and paragraphs for shaping, missing glyphs, clipping and spacing.",
+    "Inspect cover, contents, chapter starts/ends, headers/folios, image/caption placement and endnotes for readability, stranded headings and awkward breaks.",
+    "Compare image framing and quality to retained sources; real photographs not silently cropped/retouched and synthetic illustrations explicitly labelled.",
+    "Verify credits/licence links and source notes survive; sample internal contents/chapter/endnote links.",
+    "Compare book text against all11 canonical sources; editorial transitions must introduce no new unsupported historical claims or change attributed statements into author verdicts.",
+    "After any substantive correction, inspect affected final rerendered pages and bind approval to actual final PDF SHA."
+  ],
+  "limits": [
+    "Read-only review of this specific final75-pagePDF; not print-proof inspection or browser QA.",
+    "No new film viewing, comprehensive history claim, independent copyright clearance or public publication approval.",
+    "Recorded source/research and legacy image-provenance limits remain; book note makes synthetic imagery and contextual photographs distinct."
+  ],
+  "result": "PASS",
+  "initial_visual_review": {
+    "pages_seen_in_contact_sheets": "1–77 all seven sheets",
+    "full_size_pages_seen": [
+      19,
+      28,
+      52,
+      73
+    ],
+    "Odia_proof": "Full proof seen; conjunct forms render without tofu or clipping. Actual AIR title also inspected.",
+    "findings": [
+      {
+        "issue": "Bhukha heading stranded before figure",
+        "reported_by": "Disha",
+        "resolution": "Moved with image/caption in78-page candidate."
+      },
+      {
+        "issue": "AIR bridge-only leaf",
+        "reported_by": "Drishti",
+        "resolution": "Bridge now accompanies final narrative paragraph in78-page candidate."
+      },
+      {
+        "issue": "OTT final two-line spill leaf",
+        "reported_by": "Drishti",
+        "resolution": "Samanta keeping concluding paragraphs together; final rerender pending."
+      }
+    ],
+    "assessment": "Readable body/notes/captions, correctly labelled synthetic imagery and contextual photographs; no approval of superseded PDF."
+  },
+  "editorial_review": {
+    "preface_and_all_ten_bridges": "Read complete; connections remain editorial navigation grounded in chapter contents, no invented production lineage or new historical/medical claims.",
+    "source_boundaries": "Preserved film/novel, dates/awards, fiction/programme, image/photo distinctions.",
+    "image_rights": "Individual licence/source captions retained; edition note distinguishes licensed material from public domain and does not certify uploader ownership.",
+    "text_check_method": "ASCII-letter-normalized paragraph containment after stripping markdown links and reference markers, with page headers removed. Complements visual Odia checks; not proof of every numeric glyph."
+  },
+  "interim_text_link_check": {
+    "pages": 78,
+    "chapters": [
+      {
+        "source": "kb/research/culture/cinema-series/bhukha.md",
+        "paragraphs_checked": 12,
+        "missing": [],
+        "source_hash_matches_plan": true
+      },
+      {
+        "source": "kb/research/culture/cinema-series/maya-miriga.md",
+        "paragraphs_checked": 16,
+        "missing": [],
+        "source_hash_matches_plan": true
+      },
+      {
+        "source": "kb/research/culture/cinema-series/parbati-ghose.md",
+        "paragraphs_checked": 13,
+        "missing": [],
+        "source_hash_matches_plan": true
+      },
+      {
+        "source": "kb/research/culture/cinema-series/sadhu-meher.md",
+        "paragraphs_checked": 11,
+        "missing": [],
+        "source_hash_matches_plan": true
+      },
+      {
+        "source": "kb/research/culture/cinema-series/manmohan-mahapatra.md",
+        "paragraphs_checked": 10,
+        "missing": [],
+        "source_hash_matches_plan": true
+      },
+      {
+        "source": "kb/research/culture/cinema-series/nandita-das.md",
+        "paragraphs_checked": 13,
+        "missing": [],
+        "source_hash_matches_plan": true
+      },
+      {
+        "source": "kb/research/culture/odia-cinema.md",
+        "paragraphs_checked": 66,
+        "missing": [],
+        "source_hash_matches_plan": true
+      },
+      {
+        "source": "kb/research/culture/cinema-series/daman.md",
+        "paragraphs_checked": 19,
+        "missing": [],
+        "source_hash_matches_plan": true
+      },
+      {
+        "source": "kb/research/culture/air-cuttack.md",
+        "paragraphs_checked": 23,
+        "missing": [],
+        "source_hash_matches_plan": true
+      },
+      {
+        "source": "kb/research/culture/odia-television.md",
+        "paragraphs_checked": 22,
+        "missing": [],
+        "source_hash_matches_plan": true
+      },
+      {
+        "source": "kb/research/culture/odia-ott.md",
+        "paragraphs_checked": 18,
+        "missing": [],
+        "source_hash_matches_plan": true
+      }
+    ],
+    "internal_links": 342,
+    "external_links": 185,
+    "bad_destinations": []
+  },
+  "final_pdf": {
+    "path": "output/pdf/odia-cinema-a-living-screen.pdf",
+    "sha256": "44756b83637c2f562b058ae86a60e428fa37aebcd0856d171335186b92ca8f70",
+    "bytes": 4233100,
+    "pages": 75,
+    "notes": 115,
+    "citation_occurrences": 147,
+    "chapter_image_placements": 22,
+    "additional_cover_placement": 1
+  },
+  "final_visual_review": {
+    "coverage": "All75 final pages inspected via7 contact sheets; unchanged front/body pagination reinspected in final sequence, source section and last leaves inspected after final condensation.",
+    "full_size_final_samples": [
+      15,
+      37,
+      64,
+      74
+    ],
+    "additional_full_size_initial_samples": [
+      19,
+      28,
+      52,
+      73
+    ],
+    "Odia": "Title/body samples and separate conjunct proof show shaped text without missing-glyph boxes, clipping or broken line placement. This is visual verification, not independent Odia copyediting.",
+    "readability": "Body, source notes and image credits readable at rendered full-page size; stable margins, folios and hierarchy. Source notes dense but legible.",
+    "layout_fixes": "Bhukha heading now accompanies figure; AIR ending includes narrative paragraph with bridge; OTT ending retains complete paragraphs rather than two-line spill. Sparse chapter-end pages remain intentional, not blank or stranded-heading errors.",
+    "images": "All22 chapter placements visually considered in page context; illustration/photo labels and image-specific credit links present. Full originals retain aspect ratio; delivery resizing/compression is not presented as archival restoration. Novel page is a contextual illustration rather than full-size reading edition.",
+    "defects_remaining": []
+  },
+  "final_text_and_link_checks": {
+    "pages": 75,
+    "chapters": [
+      {
+        "source": "kb/research/culture/cinema-series/bhukha.md",
+        "paragraphs_checked": 12,
+        "missing": [],
+        "source_hash_matches_plan": true
+      },
+      {
+        "source": "kb/research/culture/cinema-series/maya-miriga.md",
+        "paragraphs_checked": 16,
+        "missing": [],
+        "source_hash_matches_plan": true
+      },
+      {
+        "source": "kb/research/culture/cinema-series/parbati-ghose.md",
+        "paragraphs_checked": 13,
+        "missing": [],
+        "source_hash_matches_plan": true
+      },
+      {
+        "source": "kb/research/culture/cinema-series/sadhu-meher.md",
+        "paragraphs_checked": 11,
+        "missing": [],
+        "source_hash_matches_plan": true
+      },
+      {
+        "source": "kb/research/culture/cinema-series/manmohan-mahapatra.md",
+        "paragraphs_checked": 10,
+        "missing": [],
+        "source_hash_matches_plan": true
+      },
+      {
+        "source": "kb/research/culture/cinema-series/nandita-das.md",
+        "paragraphs_checked": 13,
+        "missing": [],
+        "source_hash_matches_plan": true
+      },
+      {
+        "source": "kb/research/culture/odia-cinema.md",
+        "paragraphs_checked": 66,
+        "missing": [],
+        "source_hash_matches_plan": true
+      },
+      {
+        "source": "kb/research/culture/cinema-series/daman.md",
+        "paragraphs_checked": 19,
+        "missing": [],
+        "source_hash_matches_plan": true
+      },
+      {
+        "source": "kb/research/culture/air-cuttack.md",
+        "paragraphs_checked": 23,
+        "missing": [],
+        "source_hash_matches_plan": true
+      },
+      {
+        "source": "kb/research/culture/odia-television.md",
+        "paragraphs_checked": 22,
+        "missing": [],
+        "source_hash_matches_plan": true
+      },
+      {
+        "source": "kb/research/culture/odia-ott.md",
+        "paragraphs_checked": 18,
+        "missing": [],
+        "source_hash_matches_plan": true
+      }
+    ],
+    "internal_links": 307,
+    "external_links": 170,
+    "bad_destinations": []
+  },
+  "final_structural_review": {
+    "canonical_source_hashes": "All11 match build record and editorial plan.",
+    "paragraph_comparison": "223 substantial narrative/caption paragraphs found using normalized English text; no omitted body paragraph found. Numerical and Odia integrity assessed additionally through retained sources and rendered samples, not this normalization alone.",
+    "internal_links": 307,
+    "external_links": 170,
+    "bad_internal_destinations": 0,
+    "bookmarks": 13,
+    "image_original_hashes": "All22 source placements match retained originals; all recorded placement aspect ratios preserved.",
+    "TOC": "13 entries match actual chapter/source/credit start pages.",
+    "fonts": "Odia/Georgia embedding and HarfBuzz rendering corroborated by build/check record and actual pixels."
+  },
+  "edition_adaptations": "Repeated bylines, contribution interface and website further-reading lists omitted from book layout; main narrative links,115 notes and chapter navigation retained. One fewer citation occurrence than web previews comes from the omitted dated-screening further-reading paragraph. No canonical article or image originals altered.",
+  "build_receipt_sha256": "28da0d5528a60711337e9b965f59e4fb58dffca865ac5f65ce275fbd3387bc3a",
+  "contact_sheet_hashes": {
+    "tmp/pdfs/contact-01.jpg": "96c039b200c8f05616c4007cd2be6f84da21fe78825f6b6696e69e14b841a2de",
+    "tmp/pdfs/contact-02.jpg": "b0a47d34d036d86ae8d921483b50fa83662cad6400e9d179b7f7e054f0f8e5e9",
+    "tmp/pdfs/contact-03.jpg": "7474630c903caa4650eeb03aa65a6134dff0100aa3a068b1406a495585bde7d8",
+    "tmp/pdfs/contact-04.jpg": "bee45986fca728ffa1e4196fe81ccd80143ca0677a0ec25b9ea1f33bd7e1a821",
+    "tmp/pdfs/contact-05.jpg": "92047d34e0b501a6b720663f378a275a18594c0039d5a3064f4fd6a7fca6bc5c",
+    "tmp/pdfs/contact-06.jpg": "bf7fa892756501bdf1fd2ea8560f57b23bffac1e343efff5292d3c396ead65b9",
+    "tmp/pdfs/contact-07.jpg": "019cffc5f292963d65fb13deda71ca2394b0f45d0e9c0029554af8e89852ce2c"
+  }
+}

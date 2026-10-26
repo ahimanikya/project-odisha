@@ -1,0 +1,174 @@
+{
+  "status": "ready-for-independent-review",
+  "updated_at": "2026-10-25T22:43:38.623482+00:00",
+  "scope": "Curated local and staged site player only; no publication, article or book changes",
+  "selection_ids": [
+    "daman",
+    "pratikshya-trailer",
+    "ananta-trailer",
+    "stree-kali-juga",
+    "prahalad-airtel",
+    "return-of-hanuman-airtel",
+    "biswaprakash-prime"
+  ],
+  "counts": {
+    "entries": 7,
+    "distinct_titles": 7,
+    "full_film_routes": 4,
+    "trailers": 2,
+    "archive_song_clips": 1,
+    "featured_full_routes": 2,
+    "exploration_trailers": 2
+  },
+  "archive": "kb/records/cinema-discovery-catalogue-2026-10-26.json",
+  "policy": "A focused selection connected to the research, literature, archives and children’s viewing; not a broad entertainment directory or a ranking of other films.",
+  "curation": {
+    "featured": [
+      {
+        "id": "daman",
+        "reason": "A public-health drama recognised as Best Odia Film at the 70th National Film Awards, with questions of care and representation explored in our companion article.",
+        "evidence": [
+          {
+            "label": "National Film Awards record",
+            "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2045960&lang=2&reg=48"
+          },
+          {
+            "label": "Story and credits",
+            "url": "https://nfaindia.org/images/pdf/70th%20National%20Film%20Award%20Catalogue.pdf"
+          }
+        ],
+        "reading": "../odia-cinema-series/daman.html",
+        "readingLabel": "Read the DAMaN article"
+      },
+      {
+        "id": "biswaprakash-prime",
+        "reason": "Susant Misra’s film offers another filmmaking voice: it received Best Feature Film in Oriya recognition for 1999 at the 47th National Film Awards.",
+        "evidence": [
+          {
+            "label": "National Film Awards catalogue, p. 72",
+            "url": "https://dff.nic.in/images/Documents/70_47thNfacatalogue.pdf"
+          }
+        ],
+        "reading": "../odia-cinema-series/nandita-das.html",
+        "readingLabel": "Read about Biswaprakash and Nandita Das"
+      }
+    ],
+    "explorations": [
+      {
+        "id": "pratikshya-trailer",
+        "reason": "A National Film Award recipient whose story draws on Gourahari Das’s writing: a meeting of literature and contemporary film.",
+        "evidence": [
+          {
+            "label": "Award record",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1951758&lang=2&reg=48"
+          },
+          {
+            "label": "Literary connection",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1878242"
+          }
+        ],
+        "reading": "../odia-cinema-series/odia-cinema.html",
+        "readingLabel": "Read the cinema overview"
+      },
+      {
+        "id": "ananta-trailer",
+        "reason": "Fakir Mohan Senapati’s Randi Pua Ananta reaches the screen in Sabyasachi Mohapatra’s adaptation.",
+        "evidence": [
+          {
+            "label": "Reporting on the adaptation",
+            "url": "https://www.newindianexpress.com/cities/bhubaneswar/2025/Jun/18/amid-cinema-hall-crisis-raja-releases-run-to-packed-houses"
+          }
+        ],
+        "reading": "../odia-cinema-series/odia-cinema.html",
+        "readingLabel": "Read the cinema overview"
+      }
+    ]
+  },
+  "checks": {
+    "node_tests": "11/11 PASS",
+    "source_staged_logic_and_payload": "byte-identical",
+    "public_reading_links": "all four map to /cinema/ routes; relative local links retained",
+    "public_payload": "exact seven IDs; removed discovery entries are absent",
+    "iframe": "explicit user action only, provider external-only, file protocol fallback, stop and selection clear iframe"
+  },
+  "guidance": {
+    "skill": "modern-web-guidance",
+    "guide_id": "accessibility",
+    "retrieved_file": "/tmp/cinema-curation-accessibility.txt",
+    "quotes": [
+      "Use lists for repeated, contiguous content",
+      "Prefer HTML elements and attributes to ARIA"
+    ]
+  },
+  "limitations": [
+    "No browser visual QA or embedded playback test; prior local-file restriction respected.",
+    "Provider access and regional/account terms may change.",
+    "No verified public-domain entries."
+  ],
+  "files": {
+    "outputs/odia-movie-player/test.cjs": {
+      "sha256": "c108aeb746864086feb0311f44f878b09b673c316a1acd0b4175e28e846fcd8b",
+      "bytes": 9036
+    },
+    "outputs/odia-movie-player/index.html": {
+      "sha256": "46024ffb5f5660a9163323276a2aef887f74d079ac136be6457e1c3192a0d375",
+      "bytes": 6900
+    },
+    "outputs/odia-movie-player/core.js": {
+      "sha256": "f2b54d2f5a0c7b681d139c63398dfa70d1b51ae8cbdc5ad0a4d7b976778f49a8",
+      "bytes": 2504
+    },
+    "outputs/odia-movie-player/sync-catalogue.py": {
+      "sha256": "dc53e72ee4809921ff7afa18d31cda6fb16bc7d9026367b79db0ae2aeccfbf90",
+      "bytes": 12011
+    },
+    "outputs/odia-movie-player/README.md": {
+      "sha256": "bdf8846bc7f91f167accfd51216994c5f1831562444a914b97a2b620f46d4e99",
+      "bytes": 3726
+    },
+    "outputs/odia-movie-player/catalogue.json": {
+      "sha256": "0f3b0c6567039cdb461fc7c77cd4780974c962928347cb8a9f0089cf6974f854",
+      "bytes": 12727
+    },
+    "outputs/odia-movie-player/catalogue.js": {
+      "sha256": "3f48ef6fa89a6a3d448c119c9f6ef97ef4a0104d96f2709266883041033b13c3",
+      "bytes": 12750
+    },
+    "outputs/odia-movie-player/style.css": {
+      "sha256": "b02464d303cb78807af7b6e8515a2cbd032ccb4587c426e9aeff5caec4799659",
+      "bytes": 7439
+    },
+    "outputs/odia-movie-player/app.js": {
+      "sha256": "25da73c64946badf69f576e0ec9393ef78f4d0c79c9637dcfac3ed461aa854ad",
+      "bytes": 9550
+    },
+    "projects/site/public/assets/cinema/player/core.js": {
+      "sha256": "f2b54d2f5a0c7b681d139c63398dfa70d1b51ae8cbdc5ad0a4d7b976778f49a8",
+      "bytes": 2504
+    },
+    "projects/site/public/assets/cinema/player/catalogue.json": {
+      "sha256": "0f3b0c6567039cdb461fc7c77cd4780974c962928347cb8a9f0089cf6974f854",
+      "bytes": 12727
+    },
+    "projects/site/public/assets/cinema/player/catalogue.js": {
+      "sha256": "3f48ef6fa89a6a3d448c119c9f6ef97ef4a0104d96f2709266883041033b13c3",
+      "bytes": 12750
+    },
+    "projects/site/public/assets/cinema/player/player.css": {
+      "sha256": "6adb4cac224a9efac9ad9f8f81854b83714fb91b3839a75faff647d8c220c5e7",
+      "bytes": 9588
+    },
+    "projects/site/public/assets/cinema/player/app.js": {
+      "sha256": "25da73c64946badf69f576e0ec9393ef78f4d0c79c9637dcfac3ed461aa854ad",
+      "bytes": 9550
+    },
+    "projects/site/src/data/cinema-player.html": {
+      "sha256": "042517135ed7bea9d1cce74bc03f0c741fddb03031c15b7113c87cee89ce070e",
+      "bytes": 5625
+    },
+    "projects/site/tools/prepare-cinema-player.mjs": {
+      "sha256": "5d5c5b7690cf3f7edef85bc7ad21bf2158cba2edca6e38897aafbfae90953c6f",
+      "bytes": 1290
+    }
+  }
+}

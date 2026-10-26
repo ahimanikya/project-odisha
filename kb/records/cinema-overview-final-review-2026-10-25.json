@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-25",
+  "reviewer": "Drishti",
+  "status": "PASS",
+  "scope": "Independent final editorial/source and static-output review of overview only; supporting companion passages checked for shared source budgets. No canonical edits.",
+  "article": "kb/research/culture/odia-cinema.md",
+  "source_sha256": "64712c0192a5f6dfac300eb3d2bd0766a8d1befc1f198ed3328d033ef37dbc93",
+  "preview": "outputs/odia-cinema-series/odia-cinema.html",
+  "html_sha256": "9be71f916d816dfaffdc0ed63da6201be292d38bff99f0a96ce68a641be14173",
+  "report_sha256": "bd6d9146e07f4e33554f0c8ba6b207b7383f1d218e9150c7d8c06acf93160780",
+  "resolved_findings": [
+    {
+      "issue": "Bologna shared-source derivation exceeded 200 words before revision.",
+      "resolution": "Shortened overview opening, family description, concluding repetition and note; narrative opening and companion link remain.",
+      "current_visible_cited_block_counts": {
+        "overview": 58,
+        "maya_companion": 107
+      },
+      "aggregate": 165
+    },
+    {
+      "issue": "Nandita section needed direct Odia acting connection alongside roots and Cannes history.",
+      "resolution": "Official-filmography-supported Biswaprakash (1999), director Susant Misra, and companion deep link added; no individual award inferred."
+    }
+  ],
+  "editorial_checks": [
+    "Coherent selective history: foundations and collaborators, artistic and popular films, distinct recognition, exhibition and preservation; not presented as exhaustive canon.",
+    "1936 cinema versus 1948 AIR chronology preserved; documented stage/text/person connections distinguished from contextual performing forms.",
+    "Maya overall national honour, Cannes selection and Mannheim historical competition category remain distinct; Sambalpuri-language Bhukha is not collapsed into Odia-language identity.",
+    "Parbati collective credits and community support preserved without sole-credit or financing inference.",
+    "Award eligibility years remain distinct from announcement and festival dates; family roots not conflated with birthplace or film language.",
+    "Showtimes remain explicitly dated 25 October 2026 and venue-specific. Reported revenue/budget not profit or audited gross; remake negotiations not completed remake. Overseas announcements, subsequent indexed reporting and receipts remain distinct.",
+    "Public infrastructure credits distinguish 2021 foundation/implementation and 2026 inauguration; no utilisation or commercial success inferred."
+  ],
+  "source_budget_checks": {
+    "Bologna": {
+      "overview": 58,
+      "maya_companion": 107
+    },
+    "other_retained_tight_aggregates_approximate": {
+      "Bhuyan_PIB_overview_AIR_Sadhu": 195,
+      "DD_Odia_overview_TV": 192,
+      "Parbati_film_archive_overview_profile": 194,
+      "22nd_NFA_overview_Sadhu": 198
+    },
+    "method": "Count visible source-derived prose and source notes across companions; split mixed-source passages by actual attribution. Original general reflections are not automatically counted as source derivation. Prior reviews and unchanged companion passages reused; not a fresh full-corpus copyright audit.",
+    "result": "No remaining identified over-budget source after Bologna trim."
+  },
+  "final_preview": {
+    "status": "PASS_STATIC",
+    "notes": 44,
+    "citation_return_pairs": 51,
+    "images": 3,
+    "checks": [
+      "Current canonical and HTML hashes match report.",
+      "Unique IDs; every local fragment target exists.",
+      "Local article links and target-page anchors resolve, including Biswaprakash section.",
+      "All three image originals and preview copies match recorded hashes.",
+      "All copied provenance records match canonical bytes.",
+      "Hero, OG and Twitter image agree.",
+      "Existing documentary captions retain dates, authors, Commons/licence links and no-film-still scope; generated illustration explicitly labelled."
+    ]
+  },
+  "reconciled_records": [
+    "kb/records/cinema-overview-final-evidence-2026-10-25.json",
+    "kb/records/cinema-overview-final-preview-2026-10-25.json"
+  ],
+  "limits": [
+    "Retained source captures and prior independent reviews reused; no fresh reopening of every source in this pass. Anvesha fresh official OFDC/studio checks reconciled.",
+    "Several award catalogues rely on indexed original text after intermittent PDF access; original Gijon register/exact award year remains unverified.",
+    "No full-film viewing, comprehensive filmography, box-office audit or statewide current-screening census claimed.",
+    "No browser-rendered layout QA, human approval, publication approval or live deployment verification.",
+    "Previously recorded image art-direction, creation-provenance and performance follow-ups remain; no new image generation or blanket rights clearance."
+  ],
+  "blockers": []
+}

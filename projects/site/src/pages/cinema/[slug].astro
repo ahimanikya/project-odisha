@@ -1,0 +1,22 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import ReviewedCultureArticle from '../../components/ReviewedCultureArticle.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
+import {cinema,cinemaArticle} from '../../lib/cinema-article.mjs';
+export function getStaticPaths(){return cinema.articles.map(entry=>({params:{slug:entry.slug},props:{entry}}));}
+const {entry}=Astro.props;
+const {article,readingSections,afterReading,hero}=cinemaArticle(entry);
+const index=cinema.articles.findIndex(a=>a.slug===entry.slug);
+const part=cinema.parts.find(p=>p.chapters.includes(entry.slug));
+const sequence=[index>0?{entry:cinema.articles[index-1],direction:'Previous'}:null,index<cinema.articles.length-1?{entry:cinema.articles[index+1],direction:'Next'}:null].filter(Boolean).map(n=>({href:n.entry.route,title:n.entry.title,description:n.direction+' in this reading sequence',image:n.entry.images.find(i=>i.role==='title').file}));
+---
+<Shell title={article.title} description={entry.series_intro} active="explore" related={false} shareImage={{src:hero.file,alt:entry.hero.alt,width:hero.width,height:hero.height}}>
+ <ReviewedCultureArticle article={article}>
+  <div slot="intro"><p><a href="/cinema/">← Odia cinema: A Living Screen</a></p><p class="eyebrow">{part?.title} · Reading {index+1} of {cinema.articles.length}</p><p>{entry.series_intro}</p></div>
+  <section id="further-reading"><h2>Further reading</h2>{readingSections.map(section=><Fragment><div set:html={section.before}/><ArticleReadingPath heading={section.heading} links={section.links}/></Fragment>)}</section>
+  <div set:html={afterReading}/>
+  <ArticleReadingPath heading="Continue the reading" links={sequence}/>
+  <ArticleReadingPath heading="Watch and take the story with you" links={[{href:'/cinema/watch/',title:'The Odia cinema viewing room',description:'Official uploads, trailers, archive clips and provider listings.'},{href:'/cinema/book/',title:'Odia Cinema: A Living Screen',description:'The connected book, with digital and print editions.',image:cinema.articles[0].images.find(i=>i.role==='title').file},{href:'/cinema/',title:'All eleven readings in order'}]}/>
+ </ReviewedCultureArticle>
+</Shell>
+<style>.eyebrow{color:var(--earth);font-size:.8rem;letter-spacing:.08em}.reviewed-culture :global(picture){display:block}.reviewed-culture :global(figure img){height:auto;object-fit:contain}</style>
