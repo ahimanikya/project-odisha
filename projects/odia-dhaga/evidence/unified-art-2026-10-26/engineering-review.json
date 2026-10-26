@@ -1,0 +1,62 @@
+{
+  "checked_at": "2026-10-26T07:15:19.784761+00:00",
+  "input_head": "d7d40ba939aa0a570b5931b56139f019f861587a",
+  "status": "engineering_pass_with_release_gates",
+  "review_type": "AI engineering review; original cover-builder edits were mine, so not an independent review of those two edits",
+  "files": {
+    "projects/odia-dhaga/build.py": "eaafbf2b7d5826aad7c9ac3959f45f321689073671e64b8a7b87d35f854bd101",
+    "projects/odia-dhaga/build_print.py": "45ebc3f9e1485d4016402af6ae7aa4637a44e9eeb916bc9ff623c23b8cf516a3",
+    "projects/site/tools/export-dhaga.mjs": "892937d36ef1c31eb43f8ec41bebf39741dd304c368163c2eed684eb90c7e742",
+    "projects/site/tests/dhaga-export.test.mjs": "b86e9c555b27c29af8e8e458e0da23feffdf09584239cd7611f6267ff313081f"
+  },
+  "checks": [
+    {
+      "name": "Focused public export tests",
+      "command": "node --test tests/dhaga-export.test.mjs",
+      "result": "3 passed, 0 failed"
+    },
+    {
+      "name": "PDF metadata independently checked with pypdf/hash/actual length",
+      "result": {
+        "pages": 86,
+        "bytes": 77985781,
+        "sha256": "fac7cfc050d4cf3a8124611c719e202266efae603a7330f99531b2eba5a30ab8"
+      }
+    },
+    {
+      "name": "All exported img dimensions compared with actual decoded derivatives",
+      "images": 160,
+      "mismatches": []
+    },
+    {
+      "name": "Cover HTML",
+      "result": "One native non-lazy cover with fetchpriority=high; 800×533 derivative; responsive height:auto. Original cover1536×1024 retained."
+    },
+    {
+      "name": "OG metadata",
+      "result": "Colour cover derivative selected explicitly, actual800×533 dimensions."
+    },
+    {
+      "name": "PDF cover",
+      "result": "330×220 preserves original3:2 aspect; title/byline retained. Body packing/font/filler logic unchanged."
+    },
+    {
+      "name": "Export budget",
+      "bytes": 17976860,
+      "limit": 18000000,
+      "headroom": 23140,
+      "result": "Pass locally; narrow margin needs exact CI platform check."
+    }
+  ],
+  "findings": [],
+  "release_gates": [
+    "Immutable PDF URL still points to old9ef70063 book by planned two-commit sequence. Must pin new artifact commit and verify remote SHA before publication; current label describes new local86-page74MiB book, not old remote artifact.",
+    "Quality60 derivatives require final visual review; no actual browser/PDF pixel inspection performed in this engineering pass.",
+    "3 focused tests cover presence/label/social URL but do not themselves exercise negative stale-metadata rejection or dimension decode; actual read-only checks supplied here.",
+    "No full build or concurrent export command run; root owns final build and publication gates."
+  ],
+  "limits": [
+    "No canonical files edited during review.",
+    "All159 prose/source preservation and full-page visual review remain separately assigned."
+  ]
+}

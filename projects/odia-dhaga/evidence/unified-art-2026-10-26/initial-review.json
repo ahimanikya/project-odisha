@@ -1,0 +1,49 @@
+{
+  "review_type": "separate AI initial visual and scope review",
+  "input_head": "59d2a576d03ed44eb97924b665e6118f701a4424",
+  "status": "PASS_WITH_LIMITATIONS",
+  "findings": [],
+  "inputs": {
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-unified-art-2026-10-26/HANDOFF.json": "b399f2609ee98f1d85b8f546f0fb5f46d671d86aee93ac1c86ded260d8ebaf93",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-unified-art-2026-10-26/anvesha-audit.json": "153dcb71a04a668345627bc085bb68aae43ab0cd94bc5c5b1b2b6879027c4106",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-unified-art-2026-10-26/samanta-plan.json": "2c4286a7fcbcb38ae2bc62bc766ff7b494581fc402c0428198d72e370cdaefb6",
+    "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-unified-art-2026-10-26/generated/001.png": "b02f152b72d328792ffdf1cfe922d428e939edaae8b347afde3f665a6002581f"
+  },
+  "generated_001": {
+    "decision": "keep for staged integration",
+    "sha256": "b02f152b72d328792ffdf1cfe922d428e939edaae8b347afde3f665a6002581f",
+    "actual_visual_check": "Individually viewed full image against original coloured lemon illustration and full reference021/041. Two sari-clad figures retain gentle squeezing versus compressed rind, bowls and credible hand placement. Black outlines/hatching on white, no colour wash; stylized face remains faithful to original. No blocking anatomy or physical-action defect observed.",
+    "limit": "Right-panel flattened rind distinction needs final print/mobile reading-size check. This is an illustrative warning about excess, not a scientific claim about lemon bitterness.",
+    "original_colour_use": "Preserve original bytes; colour original001 reserved for cover, new monochrome image for interior."
+  },
+  "coverage_checks": {
+    "adaptation_count": 62,
+    "retain_count": 97,
+    "total": 159,
+    "disjoint_exhaustive_partition": true,
+    "all_62_original_hashes_match": true,
+    "collection_and_both_provenance_hashes_match": true,
+    "independent_visual_method": "Viewed six labelled contact sheets covering158 rasters; individually viewed original001, references021/041 and subtle accent cases148/152/154. Read SVG008 source separately: explicit coloured background/paths justify monochrome vector restyling.",
+    "result": "No omitted coloured/wash image evident at contact-sheet scale. Subtle yellow/brown/blue accents148/152/154 correctly included. Retained97 appear monochrome linework/hatching; dense black hair and hatching are not treated as colour wash.",
+    "contact_sheets": {
+      "/tmp/dhaga-style-0.jpg": "e72f2aa16484c66f7c2e9a25cfb6ed6de4957dc66a230709cef3ff6fad33d57e",
+      "/tmp/dhaga-style-30.jpg": "92488edd8fd4537b9dacfdb8019bad65bd81cf4dd1f48e5845d1b9168ce22210",
+      "/tmp/dhaga-style-60.jpg": "36359da365d6d25a81ad43144084eecdce1dc8a9152c0ec2dd7f019dcfe6a62f",
+      "/tmp/dhaga-style-90.jpg": "9750578f9c4425265d1aae80f92354882b032ce2401d86384e8950ef29c3846a",
+      "/tmp/dhaga-style-120.jpg": "8c0d35faeddcc8d91af7f50b33c001f506ba9c877bb8e74c5d696a026a0df15b",
+      "/tmp/dhaga-style-150.jpg": "0044e2758b7b3fd03f55a1977f269500e040ee400072182f7568ab62f6039549"
+    }
+  },
+  "required_followup": [
+    "Review every newly generated selected asset at full resolution, including semantic/anatomy checks.",
+    "Keep original files and provenance; captions must describe adaptations as modern AI-created interpretations, not archival or traditional artist work.",
+    "Review final PDF/site at reading size, including line weight, text/image balance, cover-only colour001 and unchanged159 narratives/sources."
+  ],
+  "limits": [
+    "Initial approval is limited to generated001 and style-selection completeness, not all future generated art or final release.",
+    "Contact sheets support broad style classification only; they do not certify every retained image anatomy at full resolution.",
+    "SVG008 source was read but not independently rendered here.",
+    "No build, browser, PDF, publication or human-proofreading approval in this initial review."
+  ],
+  "mutations": "Only this output review file written; no canonical or Git mutation."
+}

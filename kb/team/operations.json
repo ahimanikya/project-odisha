@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/odia-dhaga-1926-pages85-90-2026-10-26.json",
+  "handoff_home": "records/odia-dhaga-unified-art-2026-10-26.json",
   "roles": [
     {
       "name": "Disha",
@@ -55,18 +55,19 @@
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
   "current_article": {
-    "id": "POD-EDIT-810",
-    "route": "/cinema/cinema-futures/",
+    "id": "POD-EDIT-803",
+    "route": "/stories/udayagiri-buddhist/",
     "owner": "Disha",
-    "phase": "research",
-    "release_condition": "Reviewed delivery receipt"
+    "phase": "reviewed_candidate",
+    "handoff": "records/buddhist-triangle-research-2026-10-26.json",
+    "release_condition": "Checked publication and live receipt integration"
   },
   "project_identity": "reference/project-identity.md",
   "current_task": {
-    "kind": "dhaga_inventory_integration",
-    "status": "integration_review",
-    "handoff": "records/odia-dhaga-1926-pages85-90-2026-10-26.json",
-    "scope_release": "After reviewed exact-head merge, required checks and verified receipt"
+    "kind": "dhaga_unified_art_publication",
+    "status": "implementation",
+    "handoff": "records/odia-dhaga-unified-art-2026-10-26.json",
+    "scope_release": "After separate exact-head review, passing checks, approved publication and verified live receipt."
   },
   "parallel_programmes": [
     {
@@ -86,9 +87,15 @@
       "handoff": "records/odia-dhaga-historical-10-12-2026-10-24.json",
       "status": "integration_review",
       "note": "Preserved concurrent research handoff from merged PR526; this personal essay does not change its status."
+    },
+    {
+      "name": "Cinema human connections",
+      "handoff": "records/cinema-human-connections-2026-10-26.json",
+      "status": "integration_review",
+      "note": "Nine individually reviewed additions; preserve Udayagiri ownership and coordinate release after checks."
     }
   ],
-  "coordination_note": "PR553 PDF filler refinement actually merged and released. Founder-directed consolidated49-candidate Dhaga integration now active; source-only research is not a perpetual lock. Next community editorial084Debagarh remains separate.",
+  "coordination_note": "Founder-directed unified Dhaga art revision prepared locally. Preserve Ratnagiri574 scope through its actual receipt integration. Cinema573 and earlier Dhaga569/Jagatsinghapur571 remain delivered. No concurrent deployment initiated.",
   "coordination_notes": "Print card scope releases upon reviewed merge after required checks; local receipt records actual delivery.",
   "onboarding_home": "records/blueprint-persona-onboarding-2026-10-24.json"
 }

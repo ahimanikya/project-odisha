@@ -2,7 +2,7 @@
 The canonical research records remain separate from this reading edition.
 """
 from pathlib import Path
-import json, re, tempfile
+import json, re, tempfile, hashlib
 from io import BytesIO
 from PIL import Image as RasterImage
 from urllib.parse import urlsplit, urlunsplit, parse_qs, quote
@@ -71,7 +71,9 @@ def make_book(root=ROOT):
             if re.search(r'[\u0b00-\u0b7f]',str(text)) and style.fontName != 'Odia':
                 style=style.clone(style.name+'-mixed',fontName='Odia')
             return Paragraph(escape(str(text)),style)
-        story=[Spacer(1,90),p('Sayings and Proverbs -','heading'),p('ଓଡ଼ିଆ ଢଗଢମାଳି','title'),p(f"{len(data['entries'])} Dhaga in Odia and English"),Spacer(1,22),p('By Ahimanikya Satapathy'),Spacer(1,35),p('Project Odisha · Reading edition'),PageBreak(),p('ଢଗଢମାଳି ବିଷୟରେ','title'),p('About this collection','heading')]
+        cover=Image(str(root/'assets/lemon-heritage-v1.png'),width=330,height=220)
+        cover.hAlign='CENTER'
+        story=[Spacer(1,35),p('Sayings and Proverbs -','heading'),p('ଓଡ଼ିଆ ଢଗଢମାଳି','title'),p(f"{len(data['entries'])} Dhaga in Odia and English"),Spacer(1,22),p('By Ahimanikya Satapathy'),Spacer(1,20),cover,Spacer(1,16),p('Project Odisha · Reading edition'),PageBreak(),p('ଢଗଢମାଳି ବିଷୟରେ','title'),p('About this collection','heading')]
         for x in data['book_intro']['odia']:story.append(p(x,'odia'))
         for x in data['book_intro']['english']:story.append(p(x))
         story += [Spacer(1,20),p('Read by theme or follow the Dhaga in order. The examples are original illustrations of everyday use.'),PageBreak(),p('Contents','heading')]
@@ -182,8 +184,11 @@ def make_book(root=ROOT):
         out=root/'odia-dhaga-book.pdf'
         def page_number(c,doc):
             c.saveState();c.setFont('English',8);c.setFillColor(colors.HexColor('#665c52'));c.drawCentredString(width/2,28,str(doc.page));c.restoreState()
-        SimpleDocTemplate(str(out),pagesize=A4,rightMargin=42,leftMargin=42,topMargin=43,bottomMargin=47,title='Sayings and Proverbs - ଓଡ଼ିଆ ଢଗଢମାଳି',author='Ahimanikya Satapathy').build(story,onFirstPage=page_number,onLaterPages=page_number)
-        (root/'packing-report.json').write_text(json.dumps({'entries':len(units),'reading_pages':len(pages),'chapter_pages':chapter_pages,'placements':packing,'fillers':fillers,'filler_policy':{'max_per_reading_page':1,'minimum_gap_pt':180,'requires_both_columns':True,'minimum_separation_pt':24,'maximum_width_pt':160,'maximum_height_pt':110,'text_reflow':False},'shrink':1,'body_font_size':10.5,'column_width':cardwidth,'column_height':available,'mirrored_margins_pt':{'inner':54,'outer':42}},indent=2)+'\n')
+        document=SimpleDocTemplate(str(out),pagesize=A4,rightMargin=42,leftMargin=42,topMargin=43,bottomMargin=47,title='Sayings and Proverbs - ଓଡ଼ିଆ ଢଗଢମାଳି',author='Ahimanikya Satapathy')
+        document.build(story,onFirstPage=page_number,onLaterPages=page_number)
+        pdf_bytes=out.read_bytes()
+        pdf_metadata={'pages':document.page,'bytes':len(pdf_bytes),'sha256':hashlib.sha256(pdf_bytes).hexdigest()}
+        (root/'packing-report.json').write_text(json.dumps({'pdf':pdf_metadata,'entries':len(units),'reading_pages':len(pages),'chapter_pages':chapter_pages,'placements':packing,'fillers':fillers,'filler_policy':{'max_per_reading_page':1,'minimum_gap_pt':180,'requires_both_columns':True,'minimum_separation_pt':24,'maximum_width_pt':160,'maximum_height_pt':110,'text_reflow':False},'shrink':1,'body_font_size':10.5,'column_width':cardwidth,'column_height':available,'mirrored_margins_pt':{'inner':54,'outer':42}},indent=2)+'\n')
         print('Reading pages:',len(pages),'units:',len(units),'shrink:',1)
         return out
 if __name__=='__main__':print(make_book())

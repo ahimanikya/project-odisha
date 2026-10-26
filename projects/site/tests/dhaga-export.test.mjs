@@ -10,5 +10,14 @@ test('public Dhaga export preserves every accepted entry and its source links wi
  const all=readdirSync(root+'/dhaga');assert.ok(!all.includes('collection.json'));assert.ok(!all.includes('evidence'));assert.ok(!all.includes('source127.html'));
 });
 test('book navigation uses lowercase public URLs, a pinned exact PDF and retained rights',()=>{
- assert.match(read('reader.html'),/id\.toLowerCase\(\)/);assert.match(read('index.html'),/raw\.githubusercontent\.com\/ahimanikya\/project-odisha\/9ef70063/);assert.match(read('sources.html'),/SCERT/);assert.match(read('sources.html'),/NotoSerifOriya-OFL.txt/);assert.match(read('index.html'),/lang="or"/);assert.match(read('index.html'),/Skip to Dhaga/);
+ assert.match(read('reader.html'),/id\.toLowerCase\(\)/);assert.match(read('index.html'),/raw\.githubusercontent\.com\/ahimanikya\/project-odisha\/[a-f0-9]{40}/);assert.match(read('sources.html'),/SCERT/);assert.match(read('sources.html'),/NotoSerifOriya-OFL.txt/);assert.match(read('index.html'),/lang="or"/);assert.match(read('index.html'),/Skip to Dhaga/);
+});
+
+test('colour cover and exact book metadata match the illustrated edition',()=>{
+ const packing=JSON.parse(readFileSync('../odia-dhaga/packing-report.json'));
+ const h=read('index.html');
+ assert.match(h,/class="book-cover"[^>]*src="assets\/lemon-heritage-v1\.webp"/);
+ assert.match(h,/fetchpriority="high"/);
+ assert.ok(h.includes(`Download PDF book (${packing.pdf.pages} pages, ~${Math.round(packing.pdf.bytes/1024/1024)} MB)`));
+ assert.match(h,/og:image" content="https:\/\/projectodisha.org\/dhaga\/assets\/lemon-heritage-v1\.webp/);
 });
