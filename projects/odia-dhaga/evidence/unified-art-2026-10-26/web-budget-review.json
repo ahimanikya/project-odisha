@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-10-26T07:40:09.321232+00:00",
+  "input_head": "beea76c5fb246fa6121de09de3ca574b53afa408",
+  "review": "read-only AI engineering budget review",
+  "result": "plausibly_sufficient_pending_CI",
+  "ci_run": "40286094106",
+  "failure": {
+    "whole_publication_bytes": 1000267007,
+    "budget_exclusive": 1000000000,
+    "overage": 267007,
+    "failure_scope": "build:publication aggregate artifact budget; coastal515tests precede failure; Dhaga18MBgate passed",
+    "log_sha256": "aeb417b852099fe19cf966b8cbd670810ccf7e81bc825166e1f7751561f31c20"
+  },
+  "fix": {
+    "file": "projects/site/tools/export-dhaga.mjs",
+    "only_working_diff": "derivative maximum width800\u2192760, quality60/effort6 unchanged",
+    "source_art_and_pdf": "Not modified by this narrow diff",
+    "export_report_sha256": "075c00b7ccdcec132147ee550a1ced49ea3030ba5026b5cb179cf7af618b9569",
+    "old_CI_Dhaga_bytes": 17977864,
+    "new_local_Dhaga_bytes": 17153930,
+    "observed_saving_bytes": 823934,
+    "projected_whole_publication_bytes_if_other_outputs_constant": 999443073,
+    "projected_headroom_bytes": 556927,
+    "PDF_sha256": "fac7cfc050d4cf3a8124611c719e202266efae603a7330f99531b2eba5a30ab8",
+    "PDF_pages": 86
+  },
+  "checks": [
+    "Read actual CI error and preceding515-test completion.",
+    "Inspected exact exporter diff: one width constant change.",
+    "Read completed current export report with17153930bytes,326files, unchangedPDFmetadata.",
+    "No builds or product mutations run by reviewer."
+  ],
+  "limits": [
+    "Projected Linux total combines priorCIaggregate with newlocalexport size; only the nextCIrun proves the hard-budget result.",
+    "About0.56MB projected headroom is still narrow and vulnerable to other concurrent publication additions or platform differences.",
+    "This budget review does not replace image-quality/browser review of760px derivatives."
+  ]
+}

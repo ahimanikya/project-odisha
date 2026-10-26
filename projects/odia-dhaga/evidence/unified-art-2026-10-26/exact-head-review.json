@@ -1,0 +1,152 @@
+{
+  "review_type": "Separate AI exact-head integration and code review; not human review",
+  "status": "PASS_WITH_RELEASE_GATES",
+  "reviewed_head": "bfe8f66bf77e8e47b894c5d0ac7f1498be3c2595",
+  "base": "05987648f114a1ae39b08956df7efbd1f040b85e",
+  "findings": [],
+  "blocking_findings": [],
+  "checks_actually_run": [
+    "Resolved HEAD and inspected 237-file committed diff; non-book changes limited to shared claim/operations and public exporter/test. Ratnagiri files unchanged against base.",
+    "Compared all159 entry objects ignoring only graphic: all prose, witnesses, sources and non-entry collection metadata identical.69 changed graphics match selected generated files byte-for-byte;90 graphics unchanged.",
+    "Verified all69 manifest old and new art SHA256 bindings against canonical files; original selected artwork remains present.",
+    "Verified finished PDF bytes equal pinned commit29d6461b530c1789de9f789ba0d123db5005c07b and prior visual-review hash.",
+    "Independently read build.py cover code and build_print.py cover/metadata delta: responsive colour cover; original3:2 cover aspect; PDF body packing unchanged; final PDF size/hash stored after build.",
+    "Independently read export diff: finished-PDF metadata validated by size/hash, labels derived from it, cover explicitly exported/social-selected, decoded derivative dimensions replace original attributes, q60 applies only800px web derivatives;18MB cap retained.",
+    "Bundled Node runtime: node --test tests/dhaga-export.test.mjs:3 passed,0 failed. Initial system Node invocation rejected --test before executing tests; rerun with bundled runtime passed.",
+    "Read shared claim/operations: reviewed-local candidate and exact-head gate pending honestly recorded; conditional release requires checks/deployment/live receipt, no publication/completion claim."
+  ],
+  "prior_actual_visual_review_reused": {
+    "assets": 69,
+    "personal_pdf_pages": [
+      1,
+      2,
+      3,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86
+    ],
+    "other_reviewer_pdf_pages": "Anvesha1–43; not claimed as my independent page views",
+    "binding": "Exact selected assets and PDF hash unchanged; pdf-review-second-half.json retained."
+  },
+  "pdf": {
+    "sha256": "fac7cfc050d4cf3a8124611c719e202266efae603a7330f99531b2eba5a30ab8",
+    "bytes": 77985781,
+    "pages": 86,
+    "pin_commit": "29d6461b530c1789de9f789ba0d123db5005c07b"
+  },
+  "file_hashes": {
+    "projects/odia-dhaga/build.py": "eaafbf2b7d5826aad7c9ac3959f45f321689073671e64b8a7b87d35f854bd101",
+    "projects/odia-dhaga/build_print.py": "45ebc3f9e1485d4016402af6ae7aa4637a44e9eeb916bc9ff623c23b8cf516a3",
+    "projects/site/tools/export-dhaga.mjs": "2dc5f83527d9a6618dfe0dda8fa68dfe1a8a46de463cb379adb7d3a7ee06143c",
+    "projects/site/tests/dhaga-export.test.mjs": "b86e9c555b27c29af8e8e458e0da23feffdf09584239cd7611f6267ff313081f",
+    "projects/odia-dhaga/collection.json": "2bdc9fcb3cd7c52f3f24464853e0f11737dbc6451438c3b941779cd281c54a96",
+    "projects/odia-dhaga/packing-report.json": "64e1b13a5e69e28ccf225e608b7575fa6c1540ba6179641a832a6b47ba6928c3",
+    "projects/odia-dhaga/evidence/unified-art-2026-10-26/manifest.json": "77ebc12a2fe8bb28f53b9e441ebf210fc8bc4d8ada4749d0fb6d93848a0b9b4a"
+  },
+  "evidence_reviewed": {
+    "validation.json": "af8b7620831d1dd5da16afd0d5073cbd57d089bc1fda7ab1c22b8636a5e9350d",
+    "engineering-review.json": "6e8887c5bda24000aa7671a5f040a4fe5aed03edfb405f667c3463e2b7bce83e",
+    "final-invariants.json": "93913f4e4e0554572d7392b9c70963d88cc6b70c73c0a3c2621366a9cdca3921",
+    "pdf-review-second-half.json": "23484d719a406f04c70fb4a2f19e0beb6b0948e3a8f7e9b382444c5a7b7b655c",
+    "website-review.json": "eee63b3421f25dbfa804fee95aa8c102b5c42d82723a426e633dd7f12b712e4e",
+    "remote-pdf-verification.json": "e2d098e95b6898cf9c0526f4ed7be19f7ec77f25c567039b0e6d9f6e59bcc244",
+    "web-budget-review.json": "0690fb7115f8c441512c9f7bc1c29548b3fe13ff6b6663b6bf61e52a6be20347"
+  },
+  "reported_validation_not_rerun": {
+    "full_site_tests": 608,
+    "coast_tests": 515,
+    "repository_tests": 17,
+    "publication_build": "passed per final validation/log",
+    "page_acceptance": "3208/3208",
+    "indexable_routes": 11
+  },
+  "release_gates": [
+    "Final exact-head CI must prove both18MB Dhaga and1GB aggregate publication budgets; priorCI failed aggregate only.",
+    "Approved Dhaga publication and verified live receipt remain required; preceding-publication observation does not release unrelated author scopes."
+  ],
+  "limitations": [
+    "No full build or broad suite rerun; focused export tests run independently and coordinator logs reviewed.",
+    "No new browser session in this exact-head check; representative desktop/mobile review is attributed to coordinator website-review.json.",
+    "No human proofreading, physical print proof, new source/rights clearance or live deployment claim.",
+    "Pre-existing PDF text joins and sparse final credit page remain nonblocking as recorded in prior visual review."
+  ],
+  "canonical_edits": false,
+  "programme_credit": 0,
+  "initial_reviewed_head": "2d605d92f18b0c1d23ac841c5453f8ff7a1f30da",
+  "followup_review": {
+    "status": "PASS_WITH_RELEASE_GATES",
+    "base": "2d605d92f18b0c1d23ac841c5453f8ff7a1f30da",
+    "head": "beea76c5fb246fa6121de09de3ca574b53afa408",
+    "changed_files": [
+      "kb/records/odia-dhaga-unified-art-2026-10-26.json"
+    ],
+    "actual_delta": "Only preceding_publication_observation appended; all prior record values identical after removing this added field. No artwork, code, PDF, operations or other-author records changed.",
+    "interpretation": "Bounded coordinator-observed prior-publication receipt preserves Ratnagiri author handoff/status/future scopes and adds no completion credit. Does not assert Dhaga live publication.",
+    "checks_actually_run": [
+      "Inspected exact one-file Git diff and parsed old/new record equality excluding added field.",
+      "Rechecked all previously bound product hashes unchanged.",
+      "Read remote-pdf-verification.json: pinned URL,77985781 bytes and fac7cfc hash agree with reviewed Git PDF."
+    ],
+    "remote_pdf_receipt_sha256": "e2d098e95b6898cf9c0526f4ed7be19f7ec77f25c567039b0e6d9f6e59bcc244",
+    "limits": [
+      "Ratnagiri deployment/live browser observations are attributed to coordinator; I did not independently browse that page or rerun deployment checks.",
+      "Remote PDF download receipt inspected; network download not repeated.",
+      "No tests rerun for record-only addition; prior focused3 and broader coordinator validation remain applicable."
+    ]
+  },
+  "budget_followup_review": {
+    "base": "beea76c5fb246fa6121de09de3ca574b53afa408",
+    "head": "bfe8f66bf77e8e47b894c5d0ac7f1498be3c2595",
+    "status": "PASS_WITH_RELEASE_GATES",
+    "actual_delta": "Two files: exporter width800→760 only (q60/effort6 retained), plus own record web_derivatives disclosure of failed aggregate budget and pending CI. No asset/PDF/entry/builder change.",
+    "checks_actually_run": [
+      "Inspected exact committed two-file diff.",
+      "Rechecked all bound product hashes except intentionally changed exporter: unchanged.",
+      "Reran3 focused export tests with bundled Node:3 pass,0 fail.",
+      "Read separate web-budget-review.json:17,153,930-byte local export,823,934-byte savings versus priorCI Dhaga output."
+    ],
+    "image_review_attribution": "Coordinator reports actual desktop760 natural/display and390phone hatching checks; I did not repeat browser pixel inspection in this narrow followup. Prior full-resolution artwork/PDF visual reviews unchanged.",
+    "budget_limit": "Projected whole-site999,443,073 bytes is arithmetic, not CI proof; next exact-head Linux CI must confirm.",
+    "findings": []
+  }
+}

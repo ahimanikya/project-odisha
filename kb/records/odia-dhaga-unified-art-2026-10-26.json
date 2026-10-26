@@ -1,5 +1,5 @@
 {
-  "status": "reviewed_local_candidate",
+  "status": "published_verified",
   "owner": "Disha",
   "authorization": "Founder: unify line art across website and books; colour cover with line-art interiors agreed.",
   "base": "59d2a576d03ed44eb97924b665e6118f701a4424",
@@ -8,9 +8,9 @@
   "workers": {
     "Anvesha": "69asset audit/generation/text review and PDF1–43",
     "Samanta": "Scoped cover implementation/generation and engineering self-review",
-    "Drishti": "Separate69selectedasset review, PDF1–3/44–86 review; exact-head gate pending"
+    "Drishti": "Separate69selectedasset/PDF review and finalexacthead bfe8f66 review passed; receipt review is a separate gate."
   },
-  "release_condition": "Reviewed PR, passing checks, approved deployment and verified live receipt",
+  "release_condition": "Upon reviewed merge of this publication receipt; actual receipt merge saved in local delivery record.",
   "programme_credit": 0,
   "id": "POD-DHAGA-UNIFIED-ART-20261026",
   "candidate_count": 69,
@@ -79,6 +79,89 @@
       "result": "failed only final publication1GB gate at1000267007bytes"
     },
     "expected_saving_bytes_vs_ci": 823934,
-    "final_ci": "pending"
+    "final_ci": {
+      "run": 40287293924,
+      "conclusion": "success"
+    }
+  },
+  "delivery": {
+    "status": "published_verified_receipt_integration_pending",
+    "pr": "https://github.com/ahimanikya/project-odisha/pull/575",
+    "reviewed_head": "bfe8f66bf77e8e47b894c5d0ac7f1498be3c2595",
+    "merge": "dc55e8c39edf7861fd573e016a0f2b251b44fa44",
+    "ci": {
+      "run": 40287293924,
+      "conclusion": "success"
+    },
+    "deployment": {
+      "run": 40288358273,
+      "conclusion": "success",
+      "publish_approved": true
+    },
+    "site": "https://projectodisha.org/dhaga/",
+    "pdf": {
+      "url": "https://raw.githubusercontent.com/ahimanikya/project-odisha/29d6461b530c1789de9f789ba0d123db5005c07b/projects/odia-dhaga/odia-dhaga-book.pdf",
+      "bytes": 77985781,
+      "sha256": "fac7cfc050d4cf3a8124611c719e202266efae603a7330f99531b2eba5a30ab8",
+      "result": "pass"
+    },
+    "entries": 159,
+    "illustrations": 159,
+    "adapted": 69,
+    "retained": 90,
+    "pages": 86,
+    "live_checks": {
+      "files": 326,
+      "routes": 162,
+      "images": 160,
+      "exact_local_matches": 325,
+      "exception": "SVG008 web raster platform font difference; live pixels inspected and legible",
+      "reports": [
+        "live-files.json",
+        "live-browser-review.json"
+      ]
+    },
+    "preservation": "Original artwork, entry text/source evidence, research cursors and75pending original candidates preserved.",
+    "accepted_increment": 0,
+    "programme_credit": 0,
+    "human_review": false,
+    "physical_print_proof": false,
+    "scope_release": "Upon reviewed merge of this publication receipt; actual receipt merge saved in local delivery record."
+  },
+  "live_website_gate": {
+    "status": "pass",
+    "reviewer": "Disha",
+    "type": "actual live browser visual review",
+    "viewports": [
+      [
+        1280,
+        900
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "routes": [
+      "/dhaga/",
+      "/dhaga/sayings/pod-dhaga-001.html",
+      "/dhaga/sayings/pod-dhaga-008.html"
+    ],
+    "findings": "Colour cover and line-art interior render clearly on desktop and phone. Live diagram008 labels and outlines legible at desktop. Live PDF link names86pages and resolves to verified immutable PDF.",
+    "limits": "Representative live browser review; all69changed full assets and86PDFpages separately visually AI reviewed. SVG008 raster differs from macOS build because of Linux font rendering; actual live pixels inspected. No physical print proof.",
+    "screenshots": [
+      {
+        "path": "live-phone-cover.png",
+        "sha256": "d40308c470e221eb75c685980ce0f40a4d17849fec9b2388623ab42dc8ea99a7"
+      },
+      {
+        "path": "live-line-art.png",
+        "sha256": "7329fc9eb490a6f230423d5cebe3ebabf1ac24aa3a0db0cddfcd3a970438b391"
+      },
+      {
+        "path": "live-diagram.png",
+        "sha256": "d4796987cb439395493485aa322748637afa91c755fed1bc5b398c839bfb861e"
+      }
+    ]
   }
 }
