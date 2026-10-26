@@ -1,0 +1,113 @@
+{
+  "review_type": "separate AI visual inventory and proposal review; not human proofreading",
+  "status": "pass_with_limitations",
+  "input_head": "4ec37bb4fc184add578a966a5033903fe032db79",
+  "input_head_basis": "Supplied HANDOFF; no Git operations performed.",
+  "coordinator_verified_remote_main": "e496a247d5119b963083020cd80a764d91611aa7",
+  "checked_at": "2026-10-25T23:39:01.387819+00:00",
+  "source_sha256": "fe6b974c2b2b6de7a11ff34a2c79bb2bfc4986d8ecf6d9da08eca9d02f1e8863",
+  "actual_full_pages_viewed": [
+    79,
+    80,
+    81,
+    82,
+    83,
+    84
+  ],
+  "reviewed_images": [
+    {
+      "pdf_page": 79,
+      "preview_sha256": "929006b9fb340d52ffa61c2a7877bfc1e2ece01222f64a7af6a7b8aa658450cd",
+      "hires_path": "outputs/dhaga-1926-pages79-84-2026-10-26/renders/hires-079.png",
+      "hires_sha256": "a03023ae9608f0d06527a4bbd0463f0e6ccffb8e874ba087b7be6fb4d878783c",
+      "hires_dimensions": [
+        1200,
+        1800
+      ],
+      "observation": "Broad upper/middle fading and missing right clusters; long bracketed final explanation. Continued numbered material."
+    },
+    {
+      "pdf_page": 80,
+      "preview_sha256": "9737e16e094a90463fc82518845845b72b1494dee8c0c4b801f11a7bdd910c9b",
+      "hires_path": "outputs/dhaga-1926-pages79-84-2026-10-26/renders/hires-080.png",
+      "hires_sha256": "10eb8eab1cedcf2abc6a24a22207f94ace01e7b3d6ee37bfaea6e35279390fd6",
+      "hires_dimensions": [
+        1200,
+        1800
+      ],
+      "observation": "Short formulations interspersed with brackets/variants; lower and right losses; no new heading."
+    },
+    {
+      "pdf_page": 81,
+      "preview_sha256": "e9616e26f02ac7e5581b11acbe0b8a12a339c527bcb317ca686e0fe9bab15b4f",
+      "hires_path": "outputs/dhaga-1926-pages79-84-2026-10-26/renders/hires-081.png",
+      "hires_sha256": "9ae8783ab5f1911b82fc98ead32712c4dd9039d17480983e3900387ead8f3487",
+      "hires_dimensions": [
+        1200,
+        1800
+      ],
+      "observation": "Repeated openings and short middle entries with long lower glosses; no deduplicated saying count inferred."
+    },
+    {
+      "pdf_page": 82,
+      "preview_sha256": "0a31cd82f086416403d99d056b47e2a7559c8e2dadd49f5287fb54ced4751e7e",
+      "hires_path": "outputs/dhaga-1926-pages79-84-2026-10-26/renders/hires-082.png",
+      "hires_sha256": "5f05b4631940bdeacc9cf8918784d2ed93dcc7414b8d630130c4df2f73eb9478",
+      "hires_dimensions": [
+        1200,
+        1800
+      ],
+      "observation": "Dense continued entries; strong dark right-edge abrasion and clipped line endings. Do not restore missing endings."
+    },
+    {
+      "pdf_page": 83,
+      "preview_sha256": "72221be70df47f7119e833aa06a56028f70bb75fec6a36017edab9f4d9fd4681",
+      "hires_path": "outputs/dhaga-1926-pages79-84-2026-10-26/renders/hires-083.png",
+      "hires_sha256": "5d032643fabe25c97f8e0d4255a08bbf0ac63c9a1bcc76c97de93149cba209a2",
+      "hires_dimensions": [
+        1200,
+        1800
+      ],
+      "observation": "Faint leading numerals and top lines; long lower explanations. Damaged hundreds digits are not a section restart."
+    },
+    {
+      "pdf_page": 84,
+      "preview_sha256": "868f1c32d514bf257c746f1618db0c299571c1f67eecb7b2e1b1a1a9bd38cd12",
+      "hires_path": "outputs/dhaga-1926-pages79-84-2026-10-26/renders/hires-084.png",
+      "hires_sha256": "ef719cf6763b0ab699bc08c2b586aa1ab33e40884649496771759731b9ce9bd9",
+      "hires_dimensions": [
+        1200,
+        1800
+      ],
+      "observation": "Continued wrapped entries with right-edge loss and lower continuation; no section-completion inference."
+    }
+  ],
+  "findings": [],
+  "conclusion": "All six pages continue numbered କ material; no new alphabet heading or numbering reset observed. Two retrieval-position leads remain unaccepted with null wording, normalization, meaning and corpus relation. No glyph restoration required or performed.",
+  "correction_history": [
+    "Initial563×845 previews viewed for structure only. Higher-resolution1200×1800 images then independently viewed in full; these clarify ink without recovering missing source glyphs.",
+    "Requested Samanta refresh initial research hash to final Anvesha hires supplement; final binding now verified."
+  ],
+  "report_sha256": {
+    "anvesha.json": "cece12253cef5c434c10ffd83e05279e9c7c25dc286c3bd1730ec52ac5d7ca6f",
+    "samanta.json": "164e506de9712456ac5eb76ef68076f57e057a2c04ab35a849cd6c859943bb4f",
+    "proposed-ledger-delta.json": "c9f50015ee486c1a3cd11d0d9fdedf3ed28bee6167677d4fb5d12c0f0681a1cd"
+  },
+  "checks": [
+    "Pinned source PDF SHA verified.",
+    "Exact baseline ledger SHA/precondition row verified.",
+    "In-memory proposal changes exactly five1926fields; all other sources/top-level preserved and reapplication is idempotent.",
+    "Prior inventory coverage retained; next85 is conditional on integration, full-transcription31 unchanged, completed/human-reviewed lists remain empty.",
+    "Preservation hashes verify159entry/159illustration/86pagebook, original127pending75 and canonicalledger/rollout unchanged. Entire1893row including full2/83drafts unchanged.",
+    "All six preview and all six hires full images actually viewed independently; cautious provisional numbering retained, no accepted-entry count derived."
+  ],
+  "accepted_increment": 0,
+  "programme_credit": 0,
+  "next_action": "Coordinator may integrate frozen evidence with only the reviewed1926inventory fields after separate exact-head review. Then inspect bounded PDF85 onward; full-transcription cursor remains31.",
+  "limits": [
+    "Inventory only, not character-complete transcription, section completion, human/community review or exact current-corpus deduplication.",
+    "Higher raster resolution does not restore original fading/cropping; provisional item ranges and two position leads must not become accepted quotations.",
+    "Creator roles, repeated earlier scan material and worldwide rights remain unresolved; no facsimile/public wording publication authorized.",
+    "Output-only proposal not applied; no canonical/book/Git edits performed."
+  ]
+}
