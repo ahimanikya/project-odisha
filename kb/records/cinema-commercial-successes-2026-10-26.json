@@ -1,5 +1,5 @@
 {
-  "status": "publication_integration",
+  "status": "published_verified",
   "title": "Odia Cinema’s Commercial Successes",
   "scope": "Founder authorized publication. Single article commercial-successes, six-film comparison, cinema sequence and economics crosslinks.",
   "workers": {
@@ -8,13 +8,7 @@
     "Drishti": "Independent integration review PASS",
     "Disha": "Coordinator and this scoped record"
   },
-  "reserved_files": [
-    "kb/research/culture/cinema-series/commercial-successes.md",
-    "outputs/cinema-commercial-successes/article.md",
-    "projects/site/src/lib/cinema-article.mjs",
-    "projects/site/src/components/CinemaReading.astro",
-    "projects/site/tests/cinema-commercial-successes.test.mjs"
-  ],
+  "reserved_files": [],
   "other_claims": "Preserve existing team operations and other active article claims; this is an isolated cinema draft, no shared release mutation.",
   "human_review_claimed": false,
   "evidence": [
@@ -51,8 +45,10 @@
   "delivery": {
     "article": "kb/research/culture/cinema-series/commercial-successes.md",
     "reader": "outputs/cinema-commercial-successes/article.md",
-    "published": false,
-    "next": "Integrate into website reading sequence and economics crosslinks; rebuild and inspect before publication."
+    "published": true,
+    "next": "No remaining publication action for this article.",
+    "url": "https://projectodisha.org/cinema/commercial-successes/",
+    "publication_receipt": "records/cinema-commercial-successes-publication-2026-10-26.json"
   },
   "source_sha256": "ed8f628e83aa3b54949114af416836faa4fa63f78af353cc3f369346e90f9844",
   "checks": {
@@ -61,7 +57,8 @@
     "reader_and_canonical_wording_corrected": true,
     "eight_source_notes": true,
     "initial_release_gates": "618site tests and coast tests pass; all3disclosure gates pass. Rebuilding after scopedCSScorrection.",
-    "responsive_browser": true
+    "responsive_browser": true,
+    "final_release": "618site and515coast tests PASS; remotevalidation success; publication success;3routes andexacthero verifiedlive."
   },
   "expanded_table": {
     "films": [
@@ -75,6 +72,6 @@
     "source_record": "kb/records/cinema-box-office-list-recovered-2026-10-26.json",
     "review": "Drishti PASS expanded draft; Jadi gross label clarified",
     "checks": "8 footnote definitions and all references resolve; both image paths exist",
-    "publication": "Not published; both reader and canonical draft updated"
+    "publication": "Published and verified"
   }
 }
