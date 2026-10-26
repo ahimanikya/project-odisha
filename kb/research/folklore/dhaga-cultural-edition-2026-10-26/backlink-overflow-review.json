@@ -1,0 +1,44 @@
+{
+  "status": "PASS_PRELIMINARY",
+  "review_type": "Separate AI bounded code and synthetic boundary check",
+  "files": {
+    "build.py": "34a6fab05a91a5ce23aff5edd2e17a2c554d7f9c22672c0d9c284116ff63a609",
+    "build_print.py": "35c0943bbb285fac074a1cb9d337d2e3e31f0877f1d87f0c646e67cd2e58094d",
+    "test_repository.py": "e65e7fef3b1386db6b4be6c8bc875eede56be75ab750ede57cb8380d735a24f7"
+  },
+  "backlink_review": "Read all-occurrence source returns and two-paragraph shared-source regression; independently ran CulturalEditionTests2passed. Every relevant Odia/English paragraph has labelled backlink.",
+  "artwork_fit_checks": [
+    {
+      "body_height": 400,
+      "available": 700,
+      "final_image_height": 190,
+      "result": "pass"
+    },
+    {
+      "body_height": 500,
+      "available": 700,
+      "final_image_height": 175.0,
+      "result": "pass"
+    },
+    {
+      "body_height": 535,
+      "available": 700,
+      "final_image_height": 140.0,
+      "result": "pass"
+    },
+    {
+      "below140": "correctly rejected"
+    },
+    {
+      "text_only_overflow": "correctly rejected"
+    }
+  ],
+  "method": "Executed exact AST-extracted unit_height/fit_reading_unit functions with minimal measurement doubles; no builder mutation or PDF generation.",
+  "code_assessment": "Only image dimensions/scale change. Original text blocks/styles untouched; image remains aspect-proportional; below140pt and text-only oversize raise. Final measured draw guard remains.",
+  "limits": [
+    "Boundary checks use measurement doubles, not actual ReportLab raster/SVG drawing; final fullPDF rendered review still required.",
+    "Some original landscape illustrations may naturally have height below140pt without any downscaling;140floor applies to overflow reductions, not a guarantee for every original image.",
+    "No fullsuite/build repeated. No canonical edits."
+  ],
+  "findings": []
+}
