@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/odia-dhaga-cultural-edition-2026-10-26.json",
+  "handoff_home": "records/cinema-commercial-successes-2026-10-26.json",
   "roles": [
     {
       "name": "Disha",
@@ -54,7 +54,13 @@
     "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
-  "current_article": null,
+  "current_article": {
+    "id": "POD-EDIT-COMMERCIAL-20261026",
+    "route": "/cinema/commercial-successes/",
+    "owner": "Disha",
+    "phase": "publication_integration",
+    "handoff": "records/cinema-commercial-successes-2026-10-26.json"
+  },
   "project_identity": "reference/project-identity.md",
   "current_task": {
     "kind": "dhaga_cultural_edition_publication",

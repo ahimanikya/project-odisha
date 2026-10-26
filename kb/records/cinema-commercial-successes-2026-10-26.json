@@ -1,0 +1,80 @@
+{
+  "status": "publication_integration",
+  "title": "Odia Cinema’s Commercial Successes",
+  "scope": "Founder authorized publication. Single article commercial-successes, six-film comparison, cinema sequence and economics crosslinks.",
+  "workers": {
+    "Anvesha": "Read-only evidence verification",
+    "Samanta": "Implementation complete; reserved site scope released",
+    "Drishti": "Independent integration review PASS",
+    "Disha": "Coordinator and this scoped record"
+  },
+  "reserved_files": [
+    "kb/research/culture/cinema-series/commercial-successes.md",
+    "outputs/cinema-commercial-successes/article.md",
+    "projects/site/src/lib/cinema-article.mjs",
+    "projects/site/src/components/CinemaReading.astro",
+    "projects/site/tests/cinema-commercial-successes.test.mjs"
+  ],
+  "other_claims": "Preserve existing team operations and other active article claims; this is an isolated cinema draft, no shared release mutation.",
+  "human_review_claimed": false,
+  "evidence": [
+    {
+      "film": "Bou Buttu Bhuta",
+      "sources": [
+        "https://thefederal.com/category/entertainment/babushaan-bou-buttu-bhuta-babushaan-mohanty-odia-films-194582",
+        "https://www.newindianexpress.com/states/odisha/2025/Sep/24/kjos-dharma-productions-to-remake-bou-buttu-bhuta"
+      ],
+      "claims": "June30 2025 reported budget2–3crore and nearly12crore17days; September24 nearly21crore. Gross/net and territory unclear; no profit inference."
+    },
+    {
+      "film": "DAMaN",
+      "source": "https://www.newindianexpress.com/entertainment/2022/Nov/13/two-new-films-signal-theres-hope-for-odia-movie-industry-2517844.html",
+      "claims": "Nov13 2022 packedshows;51Odisha+15theatres nineothercities; nearly1crorebudget. No lifetimegross."
+    },
+    {
+      "films": [
+        "Karma",
+        "Ananta"
+      ],
+      "source": "https://www.newindianexpress.com/cities/bhubaneswar/2025/Jun/18/amid-cinema-hall-crisis-raja-releases-run-to-packed-houses",
+      "claims": "Karma37.20lakh openingday, retrospectively reported June18 2025; Ananta packed Raja shows, no collections known then. No alltime ranking."
+    }
+  ],
+  "research_review": "Anvesha independently inspected sources; no audited accounts established. Root reopened reports.",
+  "excluded_source": "2014 TNIE retrospective has material unrelated chronology errors; not used as sole history evidence.",
+  "review": {
+    "reviewer": "Drishti",
+    "result": "PASS as draft after editorial revisions; retrospective run wording corrected in both copies.",
+    "human_review": false,
+    "integration": "Drishti PASS content, builtmarkup and final selector scope correction. Root browser verified 390px and1280px layouts, pagewidth390 at390, table755 within346px scrollregion, keyboard focus outline and ArrowRight scrolling."
+  },
+  "delivery": {
+    "article": "kb/research/culture/cinema-series/commercial-successes.md",
+    "reader": "outputs/cinema-commercial-successes/article.md",
+    "published": false,
+    "next": "Integrate into website reading sequence and economics crosslinks; rebuild and inspect before publication."
+  },
+  "source_sha256": "ed8f628e83aa3b54949114af416836faa4fa63f78af353cc3f369346e90f9844",
+  "checks": {
+    "image_exists": true,
+    "independent_review": true,
+    "reader_and_canonical_wording_corrected": true,
+    "eight_source_notes": true,
+    "initial_release_gates": "618site tests and coast tests pass; all3disclosure gates pass. Rebuilding after scopedCSScorrection.",
+    "responsive_browser": true
+  },
+  "expanded_table": {
+    "films": [
+      "Bou Buttu Bhuta",
+      "Jadi",
+      "DAMaN",
+      "Karma",
+      "Pabaar",
+      "Mantra Muugdha"
+    ],
+    "source_record": "kb/records/cinema-box-office-list-recovered-2026-10-26.json",
+    "review": "Drishti PASS expanded draft; Jadi gross label clarified",
+    "checks": "8 footnote definitions and all references resolve; both image paths exist",
+    "publication": "Not published; both reader and canonical draft updated"
+  }
+}

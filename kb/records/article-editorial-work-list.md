@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 816. completed: 127, excluded: 388, queued: 301.
+Route inventory: 817. completed: 127, excluded: 388, in_progress: 1, queued: 301.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -830,3 +830,4 @@ Route inventory: 816. completed: 127, excluded: 388, queued: 301.
 | POD-EDIT-PURI-PROJECT-20261026 | [Puri resort project](https://projectodisha.org/business/puri-resort/) | excluded | product_concept_utility |
 | POD-EDIT-GOUR-GHOSE-20261026 | [Gour Prasad Ghose: from the stage to making films](https://projectodisha.org/people/gour-prasad-ghose/) | completed | Cinema literary-life research and future agenda published; live delivery verified |
 | POD-EDIT-814 | [Odisha’s Buddhist Triangle: three places, distinct histories](https://projectodisha.org/stories/buddhist-diamond-triangle/) | completed | new_researched_article |
+| POD-EDIT-COMMERCIAL-20261026 | [Odia Cinema’s Commercial Successes](https://projectodisha.org/cinema/commercial-successes/) | in_progress | new_researched_article |
