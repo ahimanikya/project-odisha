@@ -60,9 +60,24 @@
   "lalitgiri_review": "research/stories/buddhist-triangle/evidence/lalitgiri-integrated-review.md",
   "lalitgiri_visual_checks": "Desktop screenshot inspected;390px viewport width andscrollWidth390;hero351.61px;20footnotes,fullphotocredit,andtwoalready-live readinglinks verified.",
   "lalitgiri_validation": {
-    "full_build": "523pages passed",
-    "full_tests": "610passed",
-    "disclosure": "full edition946files0violations",
-    "remaining_checks": "Coastal and publication checks running; required hosted validation must pass before merge."
+    "full_build": "533 pages passed locally",
+    "full_tests": "614 passed locally",
+    "coast_tests": "515 passed locally",
+    "publication_local_without_analytics_bytes": 985298354,
+    "hosted_run": 40294922969,
+    "hosted_failure": "Publication size1001344102 bytes exceeds1GB; full and coastal tests passed.",
+    "remaining_checks": "Hosted validation rerun on final reviewed head required."
+  },
+  "release_size_repair": {
+    "scope": [
+      "projects/site/src/components/Analytics.astro",
+      "projects/site/tests/analytics.test.mjs",
+      "projects/site/tests-coast/analytics.test.mjs"
+    ],
+    "worker": "Samanta",
+    "reason": "Full editionRoutes array repeated in every enabled analytics config adds about15.5MB. Emit current path only if present in editionRoutes. Preserve origin, canonical, 404 and consent checks.",
+    "review": "research/stories/buddhist-triangle/evidence/analytics-delivery-review.md",
+    "local_validation_requirement": "Set PUBLIC_GA_MEASUREMENT_ID to the same public value used by CI for coastal/publication size checks.",
+    "result": "Separate review passed;10analytics/consent and515coastal tests passed with analytics enabled;publication985895175bytes;disclosure gates clear."
   }
 }
