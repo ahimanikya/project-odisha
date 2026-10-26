@@ -12576,7 +12576,7 @@
       "route": "/cinema/parbati-ghose/",
       "title": "Parbati Ghose: the woman behind the credits",
       "status": "completed",
-      "scope": "Reviewed cinema article published and live delivery verified",
+      "scope": "Cinema literary-life research and future agenda published; live delivery verified",
       "source_template": "projects/site/src/pages/cinema/",
       "checks": {
         "authorship": true,
@@ -12590,11 +12590,12 @@
       "evidence": [
         "records/cinema-release-implementation-2026-10-26.json",
         "records/cinema-publication-2026-10-26.json",
-        "records/cinema-lives-and-future-2026-10-26.json"
+        "records/cinema-lives-and-future-2026-10-26.json",
+        "records/cinema-lives-and-future-publication-2026-10-26.json"
       ],
       "blocker": null,
-      "publication_receipt": "records/cinema-publication-2026-10-26.json",
-      "revision_status": "reviewed_awaiting_delivery"
+      "publication_receipt": "records/cinema-lives-and-future-publication-2026-10-26.json",
+      "revision_status": "published_verified"
     },
     {
       "id": "POD-EDIT-793",
@@ -12877,7 +12878,7 @@
       "route": "/people/gourahari-das/",
       "title": "Gourahari Das: the story before the screen",
       "status": "completed",
-      "scope": "Individually reviewed cinema companion; published and live verified",
+      "scope": "Cinema literary-life research and future agenda published; live delivery verified",
       "source_template": "projects/site/src/pages/people/gourahari-das.astro",
       "checks": {
         "authorship": true,
@@ -12891,11 +12892,12 @@
       "evidence": [
         "records/cinema-human-connections-2026-10-26.json",
         "records/cinema-human-connections-publication-2026-10-26.json",
-        "records/cinema-lives-and-future-2026-10-26.json"
+        "records/cinema-lives-and-future-2026-10-26.json",
+        "records/cinema-lives-and-future-publication-2026-10-26.json"
       ],
       "blocker": null,
-      "publication_receipt": "records/cinema-human-connections-publication-2026-10-26.json",
-      "revision_status": "reviewed_awaiting_delivery"
+      "publication_receipt": "records/cinema-lives-and-future-publication-2026-10-26.json",
+      "revision_status": "published_verified"
     },
     {
       "id": "POD-EDIT-805",
@@ -13063,7 +13065,7 @@
       "route": "/cinema/cinema-futures/",
       "title": "Beyond One Successful Film: Building Odia Cinema Together",
       "status": "completed",
-      "scope": "Individually reviewed cinema companion; published and live verified",
+      "scope": "Cinema literary-life research and future agenda published; live delivery verified",
       "source_template": "projects/site/src/pages/",
       "checks": {
         "authorship": true,
@@ -13077,11 +13079,12 @@
       "evidence": [
         "records/cinema-human-connections-2026-10-26.json",
         "records/cinema-human-connections-publication-2026-10-26.json",
-        "records/cinema-lives-and-future-2026-10-26.json"
+        "records/cinema-lives-and-future-2026-10-26.json",
+        "records/cinema-lives-and-future-publication-2026-10-26.json"
       ],
       "blocker": null,
-      "publication_receipt": "records/cinema-human-connections-publication-2026-10-26.json",
-      "revision_status": "reviewed_awaiting_delivery"
+      "publication_receipt": "records/cinema-lives-and-future-publication-2026-10-26.json",
+      "revision_status": "published_verified"
     },
     {
       "id": "POD-EDIT-PURI-PROJECT-20261026",
@@ -13102,14 +13105,24 @@
       "id": "POD-EDIT-GOUR-GHOSE-20261026",
       "route": "/people/gour-prasad-ghose/",
       "title": "Gour Prasad Ghose: from the stage to making films",
-      "status": "queued",
-      "scope": "New researched cinema profile; individually reviewed awaiting delivery",
+      "status": "completed",
+      "scope": "Cinema literary-life research and future agenda published; live delivery verified",
       "source_template": "projects/site/src/pages/people/gour-prasad-ghose.astro",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
-        "records/cinema-lives-and-future-2026-10-26.json"
+        "records/cinema-lives-and-future-2026-10-26.json",
+        "records/cinema-lives-and-future-publication-2026-10-26.json"
       ],
-      "blocker": null
+      "blocker": null,
+      "publication_receipt": "records/cinema-lives-and-future-publication-2026-10-26.json"
     },
     {
       "id": "POD-EDIT-814",
@@ -13133,6 +13146,27 @@
       ],
       "blocker": null,
       "publication_receipt": "records/diamond-triangle-publication-2026-10-26.json"
+    },
+    {
+      "id": "POD-EDIT-COMMERCIAL-20261026",
+      "route": "/cinema/commercial-successes/",
+      "title": "Odia Cinema’s Commercial Successes",
+      "status": "in_progress",
+      "scope": "new_researched_article",
+      "source_template": "kb/research/culture/cinema-series/commercial-successes.md",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/cinema-commercial-successes-2026-10-26.json"
+      ],
+      "blocker": null
     }
   ]
 }

@@ -15,6 +15,13 @@ export function cinemaArticle(entry){
  for(const [,url]of source.matchAll(/(?<!!)\[[^\]]*\]\(([^)]+)\)/g)){if(/^(?:[a-z]+:|#|\/)/i.test(url))continue;const resolved=path.posix.normalize(path.posix.join(path.posix.dirname(entry.source),url));const target=cinema.articles.find(a=>a.source===resolved);if(target)links[url]=target.route;else if(knownRoutes[resolved])links[url]=knownRoutes[resolved];}
  const normalized=/^## Footnotes & Sources\s*$/m.test(source)?source:source.replace(/^(\[\^[^\]]+\]:)/m,'## Footnotes & Sources\n\n$1');
  const article=renderReviewedCultureArticle(normalized,{sourcePath:entry.source,route:entry.route,images,imageDimensions,links});
+ if(entry.slug==='commercial-successes'){
+  article.html=article.html.replace(/<div class="article-table"[^>]*><table>([\s\S]*?)<\/table><\/div>/g,(_,table)=>{
+   const captionId='commercial-comparison-caption';
+   const semantic=table.replace(/<thead>([\s\S]*?)<\/thead>/,(_,head)=>`<thead>${head.replace(/<th>/g,'<th scope="col">')}</thead>`).replace(/<tbody>([\s\S]*?)<\/tbody>/,(_,body)=>`<tbody>${body.replace(/<tr>\s*<td>([\s\S]*?)<\/td>/g,'<tr><th scope="row">$1</th>')}</tbody>`);
+   return `<div class="article-table cinema-comparison" role="region" aria-labelledby="${captionId}" tabindex="0"><table><caption id="${captionId}">Reported Odia film budgets and collections — dated estimates with differing accounting limits</caption>${semantic}</table></div>`;
+  });
+ }
  const hero=entry.images.find(i=>i.role==='title');
  article.html=article.html.replace(new RegExp(`<figure><img[^>]*src="${hero.file.replaceAll('.','\\.')}"[\\s\\S]*?<\\/figure>`),'');
  for(const image of entry.images){const expression=new RegExp(`<img[^>]*src="${image.file.replaceAll('.','\\.')}"[^>]*>`,'g');article.html=article.html.replace(expression,img=>picture(image,img.match(/alt="([^"]*)"/)?.[1]||'',false));}

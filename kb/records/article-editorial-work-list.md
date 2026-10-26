@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 816. completed: 126, excluded: 388, queued: 302.
+Route inventory: 817. completed: 127, excluded: 388, in_progress: 1, queued: 301.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -805,7 +805,7 @@ Route inventory: 816. completed: 126, excluded: 388, queued: 302.
 | POD-EDIT-789 | [Odia cinema book](https://projectodisha.org/cinema/book/) | excluded | cinema collection navigation and viewing utility |
 | POD-EDIT-790 | [Odia cinema: the world in our own voice](https://projectodisha.org/cinema/odia-cinema/) | completed | Reviewed cinema article published and live delivery verified |
 | POD-EDIT-791 | [ଆକାଶବାଣୀ କଟକ — AIR Cuttack: where stories found another voice](https://projectodisha.org/cinema/air-cuttack/) | completed | Reviewed cinema article published and live delivery verified |
-| POD-EDIT-792 | [Parbati Ghose: the woman behind the credits](https://projectodisha.org/cinema/parbati-ghose/) | completed | Reviewed cinema article published and live delivery verified |
+| POD-EDIT-792 | [Parbati Ghose: the woman behind the credits](https://projectodisha.org/cinema/parbati-ghose/) | completed | Cinema literary-life research and future agenda published; live delivery verified |
 | POD-EDIT-793 | [Sadhu Meher: an actor beyond one language](https://projectodisha.org/cinema/sadhu-meher/) | completed | Reviewed cinema article published and live delivery verified |
 | POD-EDIT-794 | [Manmohan Mahapatra: households under pressure](https://projectodisha.org/cinema/manmohan-mahapatra/) | completed | Reviewed cinema article published and live delivery verified |
 | POD-EDIT-795 | [ମାୟା ମିରିଗ (Maya Miriga): a family, a fragile film, a second life](https://projectodisha.org/cinema/maya-miriga/) | completed | Reviewed cinema article published and live delivery verified |
@@ -818,7 +818,7 @@ Route inventory: 816. completed: 126, excluded: 388, queued: 302.
 | POD-EDIT-802 | [Ratnagiri: a place built for learning](https://projectodisha.org/stories/ratnagiri/) | completed | new_researched_article |
 | POD-EDIT-803 | [Buddhist Udayagiri in Jajpur: monasteries and daily life](https://projectodisha.org/stories/udayagiri-buddhist/) | completed | new_researched_article |
 | POD-EDIT-813 | [Lalitgiri: relics, monasteries and a long Buddhist history](https://projectodisha.org/stories/lalitgiri/) | completed | new_researched_article |
-| POD-EDIT-804 | [Gourahari Das: the story before the screen](https://projectodisha.org/people/gourahari-das/) | completed | Individually reviewed cinema companion; published and live verified |
+| POD-EDIT-804 | [Gourahari Das: the story before the screen](https://projectodisha.org/people/gourahari-das/) | completed | Cinema literary-life research and future agenda published; live delivery verified |
 | POD-EDIT-805 | [Nirad Mohapatra: making a film, making room for others](https://projectodisha.org/people/nirad-mohapatra/) | completed | Individually reviewed cinema companion; published and live verified |
 | POD-EDIT-806 | [Sabyasachi Mohapatra: stories rooted in western Odisha](https://projectodisha.org/people/sabyasachi-mohapatra/) | completed | Individually reviewed cinema companion; published and live verified |
 | POD-EDIT-807 | [ଆଦିମ ବିଚାର (Aadim Vichar): whose understanding of justice?](https://projectodisha.org/cinema/aadim-vichar/) | completed | Individually reviewed cinema companion; published and live verified |
@@ -826,7 +826,8 @@ Route inventory: 816. completed: 126, excluded: 388, queued: 302.
 | POD-EDIT-809 | [ଲାବଣ୍ୟ ପ୍ରୀତି (Lavanya Preeti): growing up with a story](https://projectodisha.org/cinema/lavanya-preeti/) | completed | Individually reviewed cinema companion; published and live verified |
 | POD-EDIT-810 | [ପ୍ରତୀକ୍ଷା (Pratikshya): a family waiting for security](https://projectodisha.org/cinema/pratikshya/) | completed | Individually reviewed cinema companion; published and live verified |
 | POD-EDIT-811 | [The page behind the screen](https://projectodisha.org/cinema/literature-and-screen/) | completed | Individually reviewed cinema companion; published and live verified |
-| POD-EDIT-812 | [Beyond One Successful Film: Building Odia Cinema Together](https://projectodisha.org/cinema/cinema-futures/) | completed | Individually reviewed cinema companion; published and live verified |
+| POD-EDIT-812 | [Beyond One Successful Film: Building Odia Cinema Together](https://projectodisha.org/cinema/cinema-futures/) | completed | Cinema literary-life research and future agenda published; live delivery verified |
 | POD-EDIT-PURI-PROJECT-20261026 | [Puri resort project](https://projectodisha.org/business/puri-resort/) | excluded | product_concept_utility |
-| POD-EDIT-GOUR-GHOSE-20261026 | [Gour Prasad Ghose: from the stage to making films](https://projectodisha.org/people/gour-prasad-ghose/) | queued | New researched cinema profile; individually reviewed awaiting delivery |
+| POD-EDIT-GOUR-GHOSE-20261026 | [Gour Prasad Ghose: from the stage to making films](https://projectodisha.org/people/gour-prasad-ghose/) | completed | Cinema literary-life research and future agenda published; live delivery verified |
 | POD-EDIT-814 | [Odisha’s Buddhist Triangle: three places, distinct histories](https://projectodisha.org/stories/buddhist-diamond-triangle/) | completed | new_researched_article |
+| POD-EDIT-COMMERCIAL-20261026 | [Odia Cinema’s Commercial Successes](https://projectodisha.org/cinema/commercial-successes/) | in_progress | new_researched_article |
