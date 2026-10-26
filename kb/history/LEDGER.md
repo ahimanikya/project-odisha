@@ -1186,3 +1186,8 @@ Founder explicitly authorized publication of reviewed Ratnagiri, Buddhist Udayag
 ### 26 October 2026 — Ratnagiri published; Udayagiri implementation
 
 Ratnagiri passed exact-head validation, merged in PR574 and deployed successfully in run40281996362. Live title, byline, image credits and six footnotes verified; publication receipt saved. Released POD-EDIT-802 and claimed POD-EDIT-803 for the next reviewed article, Buddhist Udayagiri. No social publication or programme credit claimed.
+
+
+### 26 October 2026 — udayagiri publication verified
+
+PR576, validation40288816519 and deployment40290023762 succeeded; live article verified. Receipt: `records/udayagiri-publication-2026-10-26.json`. Next authorized article: Lalitgiri: relics, monasteries and a long Buddhist history.
