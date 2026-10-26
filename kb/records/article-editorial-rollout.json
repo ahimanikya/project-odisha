@@ -12782,14 +12782,23 @@
       "id": "POD-EDIT-801",
       "route": "/cinema/cinema-economics/",
       "title": "What Makes the Next Film Possible",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "Restore reviewed book economics chapter as standalone cinema article",
       "source_template": "projects/site/src/pages/cinema/",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
         "records/cinema-economics-reading-2026-10-26.json"
       ],
-      "blocker": null
+      "blocker": null,
+      "publication_receipt": "records/cinema-economics-reading-2026-10-26.json"
     }
   ]
 }
