@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 786. completed: 101, excluded: 384, queued: 301.
+Route inventory: 787. completed: 101, excluded: 384, in_progress: 1, queued: 301.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -800,3 +800,4 @@ Route inventory: 786. completed: 101, excluded: 384, queued: 301.
 | POD-EDIT-784 | [ଠକ ଠକ ମାଳି ଭଜନ ଟାଣ ଭୋକ କଲା ଭାତ ପାଖକୁ ଆଣ —](https://projectodisha.org/dhaga/sayings/pod-dhaga-157.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-785 | [ଆତଙ୍କ ବେଳେ ଯାଚନ୍ତି କୁକୁଡ଼ା, ଆତଙ୍କ ଗଲେ ଦିଅନ୍ତି ନେଫେଡ଼ା](https://projectodisha.org/dhaga/sayings/pod-dhaga-158.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-786 | [ମାଲୁଣି ହାତରେ ଲଙ୍କା ମରିଚଲୋ, ମାଳି ହାତେ ଫୁଲ ହାର, ଯାହା ମନ କଥା, ସିଏ ଜାଣେ ସିନା, ତାହା କି ଜାଣିବ ପର ॥](https://projectodisha.org/dhaga/sayings/pod-dhaga-159.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-787 | [Ratnagiri: a place built for learning](https://projectodisha.org/stories/ratnagiri/) | in_progress | new_researched_article |

@@ -1177,3 +1177,7 @@ Character transfer completed: reviewed PR517 and approved live deployment succee
 ## POD-HIS-BHUBANESWAR-WEEK-20261024 · Personal essay
 
 Founder requested an expanded account of his week in Bhubaneswar and publication on Project Odisha. Candidate prepared from his notes, with original supplied photographs; separate evidence and implementation passes completed. [Work and publication evidence](../records/bhubaneswar-week-publication-2026-10-24.json). Live verification pending.
+
+## 26 October 2026 · Ratnagiri research article candidate
+
+Founder explicitly authorized publication of reviewed Ratnagiri, Buddhist Udayagiri, Lalitgiri and connected Triangle articles. Ratnagiri is the single active article. Three ASI annual reports and scholarly studies underpin the sourced narrative; separate Drishti source review passed after a citation correction. Licensed photograph retains creator, source, licence and alterations. Publication and live receipt remain pending. Other Dhaga and Cinema scopes preserved; no social approval or programme completion inferred. Handoff: `records/buddhist-triangle-research-2026-10-26.json`.
