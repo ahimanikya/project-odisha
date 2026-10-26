@@ -1181,3 +1181,8 @@ Founder requested an expanded account of his week in Bhubaneswar and publication
 ## 26 October 2026 · Ratnagiri research article candidate
 
 Founder explicitly authorized publication of reviewed Ratnagiri, Buddhist Udayagiri, Lalitgiri and connected Triangle articles. Ratnagiri is the single active article. Three ASI annual reports and scholarly studies underpin the sourced narrative; separate Drishti source review passed after a citation correction. Licensed photograph retains creator, source, licence and alterations. Publication and live receipt remain pending. Other Dhaga and Cinema scopes preserved; no social approval or programme completion inferred. Handoff: `records/buddhist-triangle-research-2026-10-26.json`.
+
+
+### 26 October 2026 — Ratnagiri published; Udayagiri implementation
+
+Ratnagiri passed exact-head validation, merged in PR574 and deployed successfully in run40281996362. Live title, byline, image credits and six footnotes verified; publication receipt saved. Released POD-EDIT-802 and claimed POD-EDIT-803 for the next reviewed article, Buddhist Udayagiri. No social publication or programme credit claimed.
