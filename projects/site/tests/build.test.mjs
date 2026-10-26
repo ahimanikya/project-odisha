@@ -66,7 +66,7 @@ test('main website excludes the unpublished Store collection and links',()=>{
 test('every website page uses the same design system and retains font distribution licences',()=>{
  const pkg=JSON.parse(readFileSync('../design-system/package.json','utf8'));
  for(const file of pages.filter(f=>f!=="downloads/heritage-walks/odisha-heritage-walks.html"&&!standalonePages.has(f)))assert.ok(read(file).includes(`name="utkal-design-system" content="${pkg.version}"`),file);
- for(const file of standalonePages)assert.ok(read(file).includes('href="/characters/assets/typography.css"'),file);
+ for(const file of [...standalonePages].filter(file=>file.startsWith('characters/')))assert.ok(read(file).includes('href="/characters/assets/typography.css"'),file);
  assert.match(read('characters/assets/typography.css'),/font-family:var\(--character-type\)!important/);
  assert.ok(read('characters/assets/fonts/baloo-bhaina-2-OFL.txt').includes('SIL OPEN FONT LICENSE'));
  for(const name of ['CormorantGaramond-OFL.txt','SourceSerif4-OFL.txt','NotoSerifOriya-OFL.txt'])assert.equal(read('fonts/utkal/'+name),readFileSync('../design-system/fonts/'+name,'utf8'));

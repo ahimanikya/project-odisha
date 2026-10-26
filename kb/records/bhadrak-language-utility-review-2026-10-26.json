@@ -1,0 +1,1713 @@
+{
+  "status": "reviewed_classification_integration",
+  "item": "POD-EDIT-089",
+  "route": "/languages/districts/bhadrak/",
+  "input_head": "79229f24f1bc81701fd3f08d1db7453496cff7ab",
+  "decision": "Individually exclude POD-EDIT-089 as Census data/navigation utility; preserve public route/data/search and separate authored Bhadrak material. No destination or related-discovery narrative is configured on this route.",
+  "programme_credit": 0,
+  "article_completion_credit": 0,
+  "scope_release": "On separately reviewed merge after passing required checks; no website deployment because product unchanged.",
+  "reports": {
+    "anvesha.json": {
+      "role": "Anvesha separate AI source readiness; not human review",
+      "actual_input_head": "c8de142ba0545516280e64f739087d3ae45406a7",
+      "item": "POD-EDIT-089",
+      "route": "/languages/districts/bhadrak/",
+      "recommendation": "utility_exclusion_candidate",
+      "completion_credit": 0,
+      "programme_credit": 0,
+      "rationale": "Individually inspected Bhadrak route is a generated Census utility. Its leading-group paragraph is computed; tables expose district/residence denominators and language groups versus individual entries. Positive-return profiles provide navigation. No sustained authored Bhadrak language narrative, destination connection or related-discovery link is attached. Recommend retaining this route with individually justified rollout exclusion, without a byline or forced prose rewrite.",
+      "reader_question": "What mother-tongue entries were reported for the whole2011Bhadrak district, and how do rural/urban distributions compare?",
+      "source": {
+        "title": "C-16: Population by mother tongue, Odisha — 2011",
+        "url": "https://censusindia.gov.in/nada/index.php/catalog/10217",
+        "download": "https://censusindia.gov.in/nada/index.php/catalog/10217/download/13329/DDW-C16-STMT-MDDS-2100.XLSX",
+        "file": "references/census-2011/c16-odisha.xlsx",
+        "sha256": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db",
+        "sheet": "Sheet1"
+      },
+      "source_sha256": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db",
+      "district": {
+        "code": "378",
+        "source_name": "Bhadrak",
+        "source_rows": [
+          8615,
+          8681
+        ],
+        "row_count": 67,
+        "language_groups": 28,
+        "subordinate_entries": 39,
+        "population_H_to_P": [
+          1506337,
+          760260,
+          746077,
+          1320499,
+          665255,
+          655244,
+          185838,
+          95005,
+          90833
+        ],
+        "profile_links": [
+          "odia",
+          "santali",
+          "kui",
+          "saora",
+          "ho",
+          "koya"
+        ]
+      },
+      "checks": {
+        "all_original_district_rows_equal_atlas": true,
+        "numeric_cells_compared": 603,
+        "source_geography_codes_and_names_checked": true,
+        "group_sums_all_nine_denominators_match": true,
+        "row_arithmetic": true,
+        "configured_destination_connections": 0,
+        "configured_related_discovery_links": 0,
+        "actual_template_inspected": true
+      },
+      "original_rows": [
+        {
+          "row": 8615,
+          "code": "002000",
+          "raw_label": "2 BENGALI ",
+          "values_H_to_P": [
+            21936,
+            11084,
+            10852,
+            19719,
+            9933,
+            9786,
+            2217,
+            1151,
+            1066
+          ]
+        },
+        {
+          "row": 8616,
+          "code": "002007",
+          "raw_label": " Bengali",
+          "values_H_to_P": [
+            21936,
+            11084,
+            10852,
+            19719,
+            9933,
+            9786,
+            2217,
+            1151,
+            1066
+          ]
+        },
+        {
+          "row": 8617,
+          "code": "005000",
+          "raw_label": "5 GUJARATI",
+          "values_H_to_P": [
+            384,
+            206,
+            178,
+            86,
+            49,
+            37,
+            298,
+            157,
+            141
+          ]
+        },
+        {
+          "row": 8618,
+          "code": "005018",
+          "raw_label": " Gujarati",
+          "values_H_to_P": [
+            384,
+            206,
+            178,
+            86,
+            49,
+            37,
+            298,
+            157,
+            141
+          ]
+        },
+        {
+          "row": 8619,
+          "code": "006000",
+          "raw_label": "6 HINDI ",
+          "values_H_to_P": [
+            4597,
+            2420,
+            2177,
+            1240,
+            649,
+            591,
+            3357,
+            1771,
+            1586
+          ]
+        },
+        {
+          "row": 8620,
+          "code": "006102",
+          "raw_label": " Bhojpuri",
+          "values_H_to_P": [
+            64,
+            39,
+            25,
+            1,
+            0,
+            1,
+            63,
+            39,
+            24
+          ]
+        },
+        {
+          "row": 8621,
+          "code": "006240",
+          "raw_label": " Hindi",
+          "values_H_to_P": [
+            4290,
+            2246,
+            2044,
+            1217,
+            635,
+            582,
+            3073,
+            1611,
+            1462
+          ]
+        },
+        {
+          "row": 8622,
+          "code": "006355",
+          "raw_label": " Laria",
+          "values_H_to_P": [
+            11,
+            7,
+            4,
+            11,
+            7,
+            4,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 8623,
+          "code": "006400",
+          "raw_label": " Marwari",
+          "values_H_to_P": [
+            180,
+            98,
+            82,
+            0,
+            0,
+            0,
+            180,
+            98,
+            82
+          ]
+        },
+        {
+          "row": 8624,
+          "code": "006420",
+          "raw_label": " Nagpuria",
+          "values_H_to_P": [
+            2,
+            1,
+            1,
+            2,
+            1,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 8625,
+          "code": "006489",
+          "raw_label": " Rajasthani",
+          "values_H_to_P": [
+            23,
+            13,
+            10,
+            7,
+            4,
+            3,
+            16,
+            9,
+            7
+          ]
+        },
+        {
+          "row": 8626,
+          "code": "006999",
+          "raw_label": "6 Others",
+          "values_H_to_P": [
+            27,
+            16,
+            11,
+            2,
+            2,
+            0,
+            25,
+            14,
+            11
+          ]
+        },
+        {
+          "row": 8627,
+          "code": "007000",
+          "raw_label": "7 KANNADA",
+          "values_H_to_P": [
+            3,
+            0,
+            3,
+            3,
+            0,
+            3,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 8628,
+          "code": "007016",
+          "raw_label": " Kannada",
+          "values_H_to_P": [
+            2,
+            0,
+            2,
+            2,
+            0,
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 8629,
+          "code": "007999",
+          "raw_label": "7 Others",
+          "values_H_to_P": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 8630,
+          "code": "011000",
+          "raw_label": "11 MALAYALAM",
+          "values_H_to_P": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "row": 8631,
+          "code": "011016",
+          "raw_label": " Malayalam",
+          "values_H_to_P": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "row": 8632,
+          "code": "013000",
+          "raw_label": "13 MARATHI ",
+          "values_H_to_P": [
+            119,
+            65,
+            54,
+            68,
+            33,
+            35,
+            51,
+            32,
+            19
+          ]
+        },
+        {
+          "row": 8633,
+          "code": "013071",
+          "raw_label": " Marathi",
+          "values_H_to_P": [
+            119,
+            65,
+            54,
+            68,
+            33,
+            35,
+            51,
+            32,
+            19
+          ]
+        },
+        {
+          "row": 8634,
+          "code": "014000",
+          "raw_label": "14 NEPALI ",
+          "values_H_to_P": [
+            48,
+            24,
+            24,
+            1,
+            1,
+            0,
+            47,
+            23,
+            24
+          ]
+        },
+        {
+          "row": 8635,
+          "code": "014011",
+          "raw_label": " Nepali",
+          "values_H_to_P": [
+            48,
+            24,
+            24,
+            1,
+            1,
+            0,
+            47,
+            23,
+            24
+          ]
+        },
+        {
+          "row": 8636,
+          "code": "015000",
+          "raw_label": "15 ODIA ",
+          "values_H_to_P": [
+            1364096,
+            687504,
+            676592,
+            1248819,
+            628774,
+            620045,
+            115277,
+            58730,
+            56547
+          ]
+        },
+        {
+          "row": 8637,
+          "code": "015007",
+          "raw_label": " Bhuiya/Bhuyan[Ori]",
+          "values_H_to_P": [
+            4,
+            2,
+            2,
+            2,
+            1,
+            1,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "row": 8638,
+          "code": "015010",
+          "raw_label": " Bhumijali",
+          "values_H_to_P": [
+            52,
+            26,
+            26,
+            5,
+            2,
+            3,
+            47,
+            24,
+            23
+          ]
+        },
+        {
+          "row": 8639,
+          "code": "015043",
+          "raw_label": " Odia",
+          "values_H_to_P": [
+            1364023,
+            687468,
+            676555,
+            1248797,
+            628764,
+            620033,
+            115226,
+            58704,
+            56522
+          ]
+        },
+        {
+          "row": 8640,
+          "code": "015051",
+          "raw_label": " Proja (Ori)",
+          "values_H_to_P": [
+            4,
+            3,
+            1,
+            4,
+            3,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 8641,
+          "code": "015999",
+          "raw_label": "15 Others",
+          "values_H_to_P": [
+            13,
+            5,
+            8,
+            11,
+            4,
+            7,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "row": 8642,
+          "code": "016000",
+          "raw_label": "16 PUNJABI ",
+          "values_H_to_P": [
+            36,
+            22,
+            14,
+            9,
+            7,
+            2,
+            27,
+            15,
+            12
+          ]
+        },
+        {
+          "row": 8643,
+          "code": "016038",
+          "raw_label": " Punjabi",
+          "values_H_to_P": [
+            36,
+            22,
+            14,
+            9,
+            7,
+            2,
+            27,
+            15,
+            12
+          ]
+        },
+        {
+          "row": 8644,
+          "code": "017000",
+          "raw_label": "17 SANSKRIT ",
+          "values_H_to_P": [
+            10,
+            7,
+            3,
+            8,
+            5,
+            3,
+            2,
+            2,
+            0
+          ]
+        },
+        {
+          "row": 8645,
+          "code": "017002",
+          "raw_label": " Sanskrit",
+          "values_H_to_P": [
+            10,
+            7,
+            3,
+            8,
+            5,
+            3,
+            2,
+            2,
+            0
+          ]
+        },
+        {
+          "row": 8646,
+          "code": "018000",
+          "raw_label": "18 SANTALI ",
+          "values_H_to_P": [
+            7102,
+            3623,
+            3479,
+            5843,
+            2994,
+            2849,
+            1259,
+            629,
+            630
+          ]
+        },
+        {
+          "row": 8647,
+          "code": "018040",
+          "raw_label": " Santali",
+          "values_H_to_P": [
+            7102,
+            3623,
+            3479,
+            5843,
+            2994,
+            2849,
+            1259,
+            629,
+            630
+          ]
+        },
+        {
+          "row": 8648,
+          "code": "020000",
+          "raw_label": "20 TAMIL ",
+          "values_H_to_P": [
+            88,
+            40,
+            48,
+            64,
+            26,
+            38,
+            24,
+            14,
+            10
+          ]
+        },
+        {
+          "row": 8649,
+          "code": "020027",
+          "raw_label": " Tamil",
+          "values_H_to_P": [
+            88,
+            40,
+            48,
+            64,
+            26,
+            38,
+            24,
+            14,
+            10
+          ]
+        },
+        {
+          "row": 8650,
+          "code": "021000",
+          "raw_label": "21 TELUGU ",
+          "values_H_to_P": [
+            1688,
+            849,
+            839,
+            942,
+            477,
+            465,
+            746,
+            372,
+            374
+          ]
+        },
+        {
+          "row": 8651,
+          "code": "021046",
+          "raw_label": " Telugu",
+          "values_H_to_P": [
+            1688,
+            849,
+            839,
+            942,
+            477,
+            465,
+            746,
+            372,
+            374
+          ]
+        },
+        {
+          "row": 8652,
+          "code": "022000",
+          "raw_label": "22 URDU",
+          "values_H_to_P": [
+            99531,
+            50999,
+            48532,
+            38335,
+            19553,
+            18782,
+            61196,
+            31446,
+            29750
+          ]
+        },
+        {
+          "row": 8653,
+          "code": "022015",
+          "raw_label": " Urdu",
+          "values_H_to_P": [
+            99531,
+            50999,
+            48532,
+            38335,
+            19553,
+            18782,
+            61196,
+            31446,
+            29750
+          ]
+        },
+        {
+          "row": 8654,
+          "code": "028000",
+          "raw_label": "28 ARABIC/ARBI ",
+          "values_H_to_P": [
+            6,
+            4,
+            2,
+            6,
+            4,
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 8655,
+          "code": "028001",
+          "raw_label": " Arabic/Arbi",
+          "values_H_to_P": [
+            6,
+            4,
+            2,
+            6,
+            4,
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 8656,
+          "code": "030000",
+          "raw_label": "30 BHILI/BHILODI ",
+          "values_H_to_P": [
+            32,
+            15,
+            17,
+            32,
+            15,
+            17,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 8657,
+          "code": "030002",
+          "raw_label": " Baori",
+          "values_H_to_P": [
+            32,
+            15,
+            17,
+            32,
+            15,
+            17,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 8658,
+          "code": "032000",
+          "raw_label": "32 BHUMIJ ",
+          "values_H_to_P": [
+            58,
+            24,
+            34,
+            1,
+            1,
+            0,
+            57,
+            23,
+            34
+          ]
+        },
+        {
+          "row": 8659,
+          "code": "032002",
+          "raw_label": " Bhumij",
+          "values_H_to_P": [
+            58,
+            24,
+            34,
+            1,
+            1,
+            0,
+            57,
+            23,
+            34
+          ]
+        },
+        {
+          "row": 8660,
+          "code": "040000",
+          "raw_label": "40 ENGLISH ",
+          "values_H_to_P": [
+            47,
+            28,
+            19,
+            41,
+            26,
+            15,
+            6,
+            2,
+            4
+          ]
+        },
+        {
+          "row": 8661,
+          "code": "040001",
+          "raw_label": " English",
+          "values_H_to_P": [
+            47,
+            28,
+            19,
+            41,
+            26,
+            15,
+            6,
+            2,
+            4
+          ]
+        },
+        {
+          "row": 8662,
+          "code": "043000",
+          "raw_label": "43 GARO ",
+          "values_H_to_P": [
+            5,
+            3,
+            2,
+            5,
+            3,
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 8663,
+          "code": "043005",
+          "raw_label": " Garo",
+          "values_H_to_P": [
+            5,
+            3,
+            2,
+            5,
+            3,
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 8664,
+          "code": "048000",
+          "raw_label": "48 HO",
+          "values_H_to_P": [
+            1128,
+            562,
+            566,
+            655,
+            333,
+            322,
+            473,
+            229,
+            244
+          ]
+        },
+        {
+          "row": 8665,
+          "code": "048004",
+          "raw_label": " Ho",
+          "values_H_to_P": [
+            1128,
+            562,
+            566,
+            655,
+            333,
+            322,
+            473,
+            229,
+            244
+          ]
+        },
+        {
+          "row": 8666,
+          "code": "058000",
+          "raw_label": "58 KHOND/KONDH ",
+          "values_H_to_P": [
+            52,
+            29,
+            23,
+            50,
+            28,
+            22,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "row": 8667,
+          "code": "058001",
+          "raw_label": " Khond/Kondh",
+          "values_H_to_P": [
+            52,
+            29,
+            23,
+            50,
+            28,
+            22,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "row": 8668,
+          "code": "069000",
+          "raw_label": "69 KOYA ",
+          "values_H_to_P": [
+            18,
+            12,
+            6,
+            15,
+            11,
+            4,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "row": 8669,
+          "code": "069002",
+          "raw_label": " Koya",
+          "values_H_to_P": [
+            18,
+            12,
+            6,
+            15,
+            11,
+            4,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "row": 8670,
+          "code": "070000",
+          "raw_label": "70 KUI ",
+          "values_H_to_P": [
+            1348,
+            679,
+            669,
+            1227,
+            613,
+            614,
+            121,
+            66,
+            55
+          ]
+        },
+        {
+          "row": 8671,
+          "code": "070001",
+          "raw_label": " Kui",
+          "values_H_to_P": [
+            1348,
+            679,
+            669,
+            1227,
+            613,
+            614,
+            121,
+            66,
+            55
+          ]
+        },
+        {
+          "row": 8672,
+          "code": "072000",
+          "raw_label": "72 KURUKH/ORAON ",
+          "values_H_to_P": [
+            75,
+            36,
+            39,
+            70,
+            34,
+            36,
+            5,
+            2,
+            3
+          ]
+        },
+        {
+          "row": 8673,
+          "code": "072024",
+          "raw_label": " Kurukh/Oraon",
+          "values_H_to_P": [
+            75,
+            36,
+            39,
+            70,
+            34,
+            36,
+            5,
+            2,
+            3
+          ]
+        },
+        {
+          "row": 8674,
+          "code": "091000",
+          "raw_label": "91 MUNDA",
+          "values_H_to_P": [
+            1659,
+            818,
+            841,
+            1312,
+            646,
+            666,
+            347,
+            172,
+            175
+          ]
+        },
+        {
+          "row": 8675,
+          "code": "091009",
+          "raw_label": " Munda",
+          "values_H_to_P": [
+            1570,
+            769,
+            801,
+            1312,
+            646,
+            666,
+            258,
+            123,
+            135
+          ]
+        },
+        {
+          "row": 8676,
+          "code": "091999",
+          "raw_label": "91 Others ",
+          "values_H_to_P": [
+            89,
+            49,
+            40,
+            0,
+            0,
+            0,
+            89,
+            49,
+            40
+          ]
+        },
+        {
+          "row": 8677,
+          "code": "092000",
+          "raw_label": "92 MUNDARI ",
+          "values_H_to_P": [
+            51,
+            29,
+            22,
+            47,
+            27,
+            20,
+            4,
+            2,
+            2
+          ]
+        },
+        {
+          "row": 8678,
+          "code": "092005",
+          "raw_label": " Mundari",
+          "values_H_to_P": [
+            51,
+            29,
+            22,
+            47,
+            27,
+            20,
+            4,
+            2,
+            2
+          ]
+        },
+        {
+          "row": 8679,
+          "code": "106000",
+          "raw_label": "106 SAVARA",
+          "values_H_to_P": [
+            299,
+            153,
+            146,
+            234,
+            112,
+            122,
+            65,
+            41,
+            24
+          ]
+        },
+        {
+          "row": 8680,
+          "code": "106004",
+          "raw_label": " Savara",
+          "values_H_to_P": [
+            299,
+            153,
+            146,
+            234,
+            112,
+            122,
+            65,
+            41,
+            24
+          ]
+        },
+        {
+          "row": 8681,
+          "code": "124000",
+          "raw_label": "124 OTHERS",
+          "values_H_to_P": [
+            1920,
+            1025,
+            895,
+            1667,
+            901,
+            766,
+            253,
+            124,
+            129
+          ]
+        }
+      ],
+      "selected_examples": [
+        {
+          "row": 8616,
+          "code": "002007",
+          "raw_label": " Bengali",
+          "values_H_to_P": [
+            21936,
+            11084,
+            10852,
+            19719,
+            9933,
+            9786,
+            2217,
+            1151,
+            1066
+          ]
+        },
+        {
+          "row": 8636,
+          "code": "015000",
+          "raw_label": "15 ODIA ",
+          "values_H_to_P": [
+            1364096,
+            687504,
+            676592,
+            1248819,
+            628774,
+            620045,
+            115277,
+            58730,
+            56547
+          ]
+        },
+        {
+          "row": 8639,
+          "code": "015043",
+          "raw_label": " Odia",
+          "values_H_to_P": [
+            1364023,
+            687468,
+            676555,
+            1248797,
+            628764,
+            620033,
+            115226,
+            58704,
+            56522
+          ]
+        },
+        {
+          "row": 8647,
+          "code": "018040",
+          "raw_label": " Santali",
+          "values_H_to_P": [
+            7102,
+            3623,
+            3479,
+            5843,
+            2994,
+            2849,
+            1259,
+            629,
+            630
+          ]
+        },
+        {
+          "row": 8653,
+          "code": "022015",
+          "raw_label": " Urdu",
+          "values_H_to_P": [
+            99531,
+            50999,
+            48532,
+            38335,
+            19553,
+            18782,
+            61196,
+            31446,
+            29750
+          ]
+        }
+      ],
+      "existing_material": {
+        "search": [
+          "query_research.py Bhadrak",
+          "rg Bhadrak in voices/stories/culture",
+          "read existing sweets-and-places and Pala local passages"
+        ],
+        "preserve": [
+          {
+            "path": "kb/research/food/sweets-and-places.md",
+            "locator": "Bhadrak paragraph and footnote sweets-bhadrak-culture20261020",
+            "scope": "District association for Palua Ladu/Chena Mudki; not invention/recipe proof or language-demography evidence."
+          },
+          {
+            "path": "kb/research/culture/pala.md",
+            "locator": "CTMS district register discussion",
+            "scope": "Includes Bhadrak troupe entries; distinct performance/network material, not census explanation."
+          }
+        ],
+        "limit": "No attached authored district-language narrative found in searched source/template scope; this is not proof of absence of unpublished local research."
+      },
+      "limits": [
+        "Original saved C16 workbook directly parsed; no redundant web retrieval.",
+        "Adjacent external food/performance sources not freshly reverified; existing KB claims are reported only as separate material to preserve.",
+        "No current population, fluency, identity, caste, ancestry or migration inference. Parent groups and subordinate entries must not be added.",
+        "Statewide C17 cannot be assigned to Bhadrak.",
+        "No live-browser, deployment or human/community review.",
+        "No sibling-route blanket classification; no canonical/Git/public edits."
+      ],
+      "next_actions": [
+        "Coordinator may record the individual utility exclusion after separate review; preserve route, source labels, counters and positive-return language navigation.",
+        "Any later Bhadrak language-history article needs a separately sourced narrative question; preserve food and performance records independently."
+      ],
+      "file_hashes": {
+        "kb/research/references/census-2011/c16-odisha.xlsx": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db",
+        "kb/research/voices/population-2011.json": "c149d36bfa5c6c01595ddb517dfca21c5d8d5fe6d2283fa19dc020432b7fe998",
+        "projects/site/src/pages/languages/districts/[slug].astro": "4710838468016e58cf8b3d2a1537c1185b3cb39049b5ce90dbae6c1391568e76",
+        "kb/research/voices/district-connections.json": "149161595dab537134f247fd7c5fdb34aa128b2bb008ae5a35fc0bb04f97f303",
+        "kb/research/related-discoveries.json": "a5e4eff87f1a410f860950103d9cbbd527a03b084f7b6513ac95fe4f6100ee6c",
+        "kb/research/culture/pala.md": "52e24ead55ab86c7171d66650e618567d6e57828056988554521fc22d624a85d",
+        "kb/research/food/sweets-and-places.md": "e1b49b82d49df1abb36cc5363aedd2db43a46821dfea24d8e77f4401069ccbb9"
+      }
+    },
+    "samanta.json": {
+      "task": "POD-EDIT-089",
+      "route": "/languages/districts/bhadrak/",
+      "agent": "Samanta",
+      "input_head": "c8de142ba0545516280e64f739087d3ae45406a7",
+      "verified_remote_main_from_handoff": "79229f24f1bc81701fd3f08d1db7453496cff7ab",
+      "checked_at": "2026-10-26T01:28:11.161953+00:00",
+      "classification": "utility_population_profile",
+      "rationale": "Actual Bhadrak378 page consists of generated Census introduction/stats, group/return tables, residence views, data-selected language links and generic source/conversation cautions. No Bhadrak destination connection or related-discovery prose is configured. No sustained authored narrative exists on this route; separate Bhadrak material is not classified here.",
+      "data": {
+        "district": "378",
+        "atlas_rows": 67,
+        "population_nine_values": [
+          1506337,
+          760260,
+          746077,
+          1320499,
+          665255,
+          655244,
+          185838,
+          95005,
+          90833
+        ],
+        "source_rows": [
+          8615,
+          8616,
+          8617,
+          8618,
+          8619,
+          8620,
+          8621,
+          8622,
+          8623,
+          8624,
+          8625,
+          8626,
+          8627,
+          8628,
+          8629,
+          8630,
+          8631,
+          8632,
+          8633,
+          8634,
+          8635,
+          8636,
+          8637,
+          8638,
+          8639,
+          8640,
+          8641,
+          8642,
+          8643,
+          8644,
+          8645,
+          8646,
+          8647,
+          8648,
+          8649,
+          8650,
+          8651,
+          8652,
+          8653,
+          8654,
+          8655,
+          8656,
+          8657,
+          8658,
+          8659,
+          8660,
+          8661,
+          8662,
+          8663,
+          8664,
+          8665,
+          8666,
+          8667,
+          8668,
+          8669,
+          8670,
+          8671,
+          8672,
+          8673,
+          8674,
+          8675,
+          8676,
+          8677,
+          8678,
+          8679,
+          8680,
+          8681
+        ],
+        "population_method": "Independent sums of original workbook mutually exclusive language_group rows, never parent plus child rows.",
+        "workbook_sha256": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db",
+        "expected_sha256": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db",
+        "original_workbook": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/kb/research/references/census-2011/c16-odisha.xlsx",
+        "sheet": "Sheet1",
+        "columns": "C district; F language code; H:P total/rural/urban P/M/F"
+      },
+      "configured_context": {
+        "district_connections": [],
+        "related_discoveries": [],
+        "actual_article_links": [
+          "/languages/districts/",
+          "/languages/atlas/?language=015000&residence=total",
+          "/languages/atlas/?language=022000&residence=total",
+          "/languages/atlas/?language=002000&residence=total",
+          "/languages/atlas/?language=018000&residence=total",
+          "/languages/atlas/?language=006000&residence=total",
+          "/languages/atlas/?language=124000&residence=total",
+          "/languages/atlas/?language=021000&residence=total",
+          "/languages/atlas/?language=091000&residence=total",
+          "/languages/atlas/?language=070000&residence=total",
+          "/languages/atlas/?language=048000&residence=total",
+          "/languages/atlas/?language=005000&residence=total",
+          "/languages/atlas/?language=106000&residence=total",
+          "/languages/atlas/?language=013000&residence=total",
+          "/languages/atlas/?language=020000&residence=total",
+          "/languages/atlas/?language=072000&residence=total",
+          "/languages/atlas/?language=032000&residence=total",
+          "/languages/atlas/?language=058000&residence=total",
+          "/languages/atlas/?language=092000&residence=total",
+          "/languages/atlas/?language=014000&residence=total",
+          "/languages/atlas/?language=040000&residence=total",
+          "/languages/atlas/?language=016000&residence=total",
+          "/languages/atlas/?language=030000&residence=total",
+          "/languages/atlas/?language=069000&residence=total",
+          "/languages/atlas/?language=017000&residence=total",
+          "/languages/atlas/?language=028000&residence=total",
+          "/languages/atlas/?language=043000&residence=total",
+          "/languages/atlas/?language=007000&residence=total",
+          "/languages/atlas/?language=011000&residence=total",
+          "/languages/atlas/?language=015043&residence=total",
+          "/languages/atlas/?language=022015&residence=total",
+          "/languages/atlas/?language=002007&residence=total",
+          "/languages/atlas/?language=018040&residence=total",
+          "/languages/atlas/?language=006240&residence=total",
+          "/languages/atlas/?language=021046&residence=total",
+          "/languages/atlas/?language=091009&residence=total",
+          "/languages/atlas/?language=070001&residence=total",
+          "/languages/atlas/?language=048004&residence=total",
+          "/languages/atlas/?language=005018&residence=total",
+          "/languages/atlas/?language=106004&residence=total",
+          "/languages/atlas/?language=006400&residence=total",
+          "/languages/atlas/?language=013071&residence=total",
+          "/languages/atlas/?language=091999&residence=total",
+          "/languages/atlas/?language=020027&residence=total",
+          "/languages/atlas/?language=072024&residence=total",
+          "/languages/atlas/?language=006102&residence=total",
+          "/languages/atlas/?language=032002&residence=total",
+          "/languages/atlas/?language=015010&residence=total",
+          "/languages/atlas/?language=058001&residence=total",
+          "/languages/atlas/?language=092005&residence=total",
+          "/languages/atlas/?language=014011&residence=total",
+          "/languages/atlas/?language=040001&residence=total",
+          "/languages/atlas/?language=016038&residence=total",
+          "/languages/atlas/?language=030002&residence=total",
+          "/languages/atlas/?language=006999&residence=total",
+          "/languages/atlas/?language=006489&residence=total",
+          "/languages/atlas/?language=069002&residence=total",
+          "/languages/atlas/?language=015999&residence=total",
+          "/languages/atlas/?language=006355&residence=total",
+          "/languages/atlas/?language=017002&residence=total",
+          "/languages/atlas/?language=028001&residence=total",
+          "/languages/atlas/?language=043005&residence=total",
+          "/languages/atlas/?language=015007&residence=total",
+          "/languages/atlas/?language=015051&residence=total",
+          "/languages/atlas/?language=006420&residence=total",
+          "/languages/atlas/?language=007016&residence=total",
+          "/languages/atlas/?language=007999&residence=total",
+          "/languages/atlas/?language=011016&residence=total",
+          "/languages/atlas/?language=015000&residence=rural",
+          "/languages/atlas/?language=022000&residence=rural",
+          "/languages/atlas/?language=002000&residence=rural",
+          "/languages/atlas/?language=018000&residence=rural",
+          "/languages/atlas/?language=124000&residence=rural",
+          "/languages/atlas/?language=091000&residence=rural",
+          "/languages/atlas/?language=006000&residence=rural",
+          "/languages/atlas/?language=070000&residence=rural",
+          "/languages/atlas/?language=021000&residence=rural",
+          "/languages/atlas/?language=048000&residence=rural",
+          "/languages/atlas/?language=106000&residence=rural",
+          "/languages/atlas/?language=005000&residence=rural",
+          "/languages/atlas/?language=072000&residence=rural",
+          "/languages/atlas/?language=013000&residence=rural",
+          "/languages/atlas/?language=020000&residence=rural",
+          "/languages/atlas/?language=058000&residence=rural",
+          "/languages/atlas/?language=092000&residence=rural",
+          "/languages/atlas/?language=040000&residence=rural",
+          "/languages/atlas/?language=030000&residence=rural",
+          "/languages/atlas/?language=069000&residence=rural",
+          "/languages/atlas/?language=016000&residence=rural",
+          "/languages/atlas/?language=017000&residence=rural",
+          "/languages/atlas/?language=028000&residence=rural",
+          "/languages/atlas/?language=043000&residence=rural",
+          "/languages/atlas/?language=007000&residence=rural",
+          "/languages/atlas/?language=014000&residence=rural",
+          "/languages/atlas/?language=032000&residence=rural",
+          "/languages/atlas/?language=015043&residence=rural",
+          "/languages/atlas/?language=022015&residence=rural",
+          "/languages/atlas/?language=002007&residence=rural",
+          "/languages/atlas/?language=018040&residence=rural",
+          "/languages/atlas/?language=091009&residence=rural",
+          "/languages/atlas/?language=070001&residence=rural",
+          "/languages/atlas/?language=006240&residence=rural",
+          "/languages/atlas/?language=021046&residence=rural",
+          "/languages/atlas/?language=048004&residence=rural",
+          "/languages/atlas/?language=106004&residence=rural",
+          "/languages/atlas/?language=005018&residence=rural",
+          "/languages/atlas/?language=072024&residence=rural",
+          "/languages/atlas/?language=013071&residence=rural",
+          "/languages/atlas/?language=020027&residence=rural",
+          "/languages/atlas/?language=058001&residence=rural",
+          "/languages/atlas/?language=092005&residence=rural",
+          "/languages/atlas/?language=040001&residence=rural",
+          "/languages/atlas/?language=030002&residence=rural",
+          "/languages/atlas/?language=069002&residence=rural",
+          "/languages/atlas/?language=006355&residence=rural",
+          "/languages/atlas/?language=015999&residence=rural",
+          "/languages/atlas/?language=016038&residence=rural",
+          "/languages/atlas/?language=017002&residence=rural",
+          "/languages/atlas/?language=006489&residence=rural",
+          "/languages/atlas/?language=028001&residence=rural",
+          "/languages/atlas/?language=015010&residence=rural",
+          "/languages/atlas/?language=043005&residence=rural",
+          "/languages/atlas/?language=015051&residence=rural",
+          "/languages/atlas/?language=006420&residence=rural",
+          "/languages/atlas/?language=006999&residence=rural",
+          "/languages/atlas/?language=007016&residence=rural",
+          "/languages/atlas/?language=015007&residence=rural",
+          "/languages/atlas/?language=006102&residence=rural",
+          "/languages/atlas/?language=007999&residence=rural",
+          "/languages/atlas/?language=014011&residence=rural",
+          "/languages/atlas/?language=032002&residence=rural",
+          "/languages/atlas/?language=015000&residence=urban",
+          "/languages/atlas/?language=022000&residence=urban",
+          "/languages/atlas/?language=006000&residence=urban",
+          "/languages/atlas/?language=002000&residence=urban",
+          "/languages/atlas/?language=018000&residence=urban",
+          "/languages/atlas/?language=021000&residence=urban",
+          "/languages/atlas/?language=048000&residence=urban",
+          "/languages/atlas/?language=091000&residence=urban",
+          "/languages/atlas/?language=005000&residence=urban",
+          "/languages/atlas/?language=124000&residence=urban",
+          "/languages/atlas/?language=070000&residence=urban",
+          "/languages/atlas/?language=106000&residence=urban",
+          "/languages/atlas/?language=032000&residence=urban",
+          "/languages/atlas/?language=013000&residence=urban",
+          "/languages/atlas/?language=014000&residence=urban",
+          "/languages/atlas/?language=016000&residence=urban",
+          "/languages/atlas/?language=020000&residence=urban",
+          "/languages/atlas/?language=040000&residence=urban",
+          "/languages/atlas/?language=072000&residence=urban",
+          "/languages/atlas/?language=092000&residence=urban",
+          "/languages/atlas/?language=069000&residence=urban",
+          "/languages/atlas/?language=017000&residence=urban",
+          "/languages/atlas/?language=058000&residence=urban",
+          "/languages/atlas/?language=011000&residence=urban",
+          "/languages/atlas/?language=015043&residence=urban",
+          "/languages/atlas/?language=022015&residence=urban",
+          "/languages/atlas/?language=006240&residence=urban",
+          "/languages/atlas/?language=002007&residence=urban",
+          "/languages/atlas/?language=018040&residence=urban",
+          "/languages/atlas/?language=021046&residence=urban",
+          "/languages/atlas/?language=048004&residence=urban",
+          "/languages/atlas/?language=005018&residence=urban",
+          "/languages/atlas/?language=091009&residence=urban",
+          "/languages/atlas/?language=006400&residence=urban",
+          "/languages/atlas/?language=070001&residence=urban",
+          "/languages/atlas/?language=091999&residence=urban",
+          "/languages/atlas/?language=106004&residence=urban",
+          "/languages/atlas/?language=006102&residence=urban",
+          "/languages/atlas/?language=032002&residence=urban",
+          "/languages/atlas/?language=013071&residence=urban",
+          "/languages/atlas/?language=014011&residence=urban",
+          "/languages/atlas/?language=015010&residence=urban",
+          "/languages/atlas/?language=016038&residence=urban",
+          "/languages/atlas/?language=006999&residence=urban",
+          "/languages/atlas/?language=020027&residence=urban",
+          "/languages/atlas/?language=006489&residence=urban",
+          "/languages/atlas/?language=040001&residence=urban",
+          "/languages/atlas/?language=072024&residence=urban",
+          "/languages/atlas/?language=092005&residence=urban",
+          "/languages/atlas/?language=069002&residence=urban",
+          "/languages/atlas/?language=015007&residence=urban",
+          "/languages/atlas/?language=015999&residence=urban",
+          "/languages/atlas/?language=017002&residence=urban",
+          "/languages/atlas/?language=058001&residence=urban",
+          "/languages/atlas/?language=011016&residence=urban",
+          "/languages/odia/",
+          "/languages/santali/",
+          "/languages/kui/",
+          "/languages/ho/",
+          "/languages/saora/",
+          "/languages/koya/",
+          "/languages/multilingual-odisha/",
+          "/contribute/",
+          "https://censusindia.gov.in/nada/index.php/catalog/10217"
+        ]
+      },
+      "rendered_evidence": {
+        "path": "projects/site/dist-publish/languages/districts/bhadrak/index.html",
+        "article_text": "← All 30 districts\nA district in voices · Census 2011\nBhadrak\nMore than a single voice.\nThe largest recorded language group was ODIA, with 13,64,096 people (90.56%). Open the individual entries below: broad groups can contain distinct names and stories.\nDistrict population · 2011\n15,06,337\nRural population\n87.66%\n13,20,499 people\nUrban population\n12.34%\n1,85,838 people\nThis is a historical district profile, not a city survey or a present-day forecast. Mother tongue, community identity, ancestry and the languages used at work are different questions.\nThe whole district\nDenominator: 15,06,337 people in Bhadrak · all areas, 2011.\nCensus language groups · mutually exclusive totals\nGroup\nPeople\nShare\nODIA\n13,64,096\n90.56%\nURDU\n99,531\n6.61%\nBENGALI\n21,936\n1.46%\nSANTALI\n7,102\n0.47%\nHINDI\n4,597\n0.31%\nOTHERS\n1,920\n0.13%\nTELUGU\n1,688\n0.11%\nMUNDA\n1,659\n0.11%\nKUI\n1,348\n0.09%\nHO\n1,128\n0.07%\nGUJARATI\n384\n0.03%\nSAVARA\n299\n0.02%\nMARATHI\n119\n<0.01%\nTAMIL\n88\n<0.01%\nKURUKH/ORAON\n75\n<0.01%\nBHUMIJ\n58\n<0.01%\nKHOND/KONDH\n52\n<0.01%\nMUNDARI\n51\n<0.01%\nNEPALI\n48\n<0.01%\nENGLISH\n47\n<0.01%\nPUNJABI\n36\n<0.01%\nBHILI/BHILODI\n32\n<0.01%\nKOYA\n18\n<0.01%\nSANSKRIT\n10\n<0.01%\nARABIC/ARBI\n6\n<0.01%\nGARO\n5\n<0.01%\nKANNADA\n3\n<0.01%\nMALAYALAM\n1\n<0.01%\nLook inside the groups: individual mother-tongue entries\nThe entries below are already included in their parent groups above. Do not add both tables together. Only positive recorded counts for this residence category are shown; omission is not proof of an absence of speakers today. Residual group OTHERS has no subordinate entries here.\nIndividual entries · Census labels and parent classifications retained\nEntry / parent group\nPeople\nMale\nFemale\nShare\nOdia\nUnder ODIA · C-16 row 8639\n13,64,023\n6,87,468\n6,76,555\n90.55%\nUrdu\nUnder URDU · C-16 row 8653\n99,531\n50,999\n48,532\n6.61%\nBengali\nUnder BENGALI · C-16 row 8616\n21,936\n11,084\n10,852\n1.46%\nSantali\nUnder SANTALI · C-16 row 8647\n7,102\n3,623\n3,479\n0.47%\nHindi\nUnder HINDI · C-16 row 8621\n4,290\n2,246\n2,044\n0.28%\nTelugu\nUnder TELUGU · C-16 row 8651\n1,688\n849\n839\n0.11%\nMunda\nUnder MUNDA · C-16 row 8675\n1,570\n769\n801\n0.10%\nKui\nUnder KUI · C-16 row 8671\n1,348\n679\n669\n0.09%\nHo\nUnder HO · C-16 row 8665\n1,128\n562\n566\n0.07%\nGujarati\nUnder GUJARATI · C-16 row 8618\n384\n206\n178\n0.03%\nSavara\nUnder SAVARA · C-16 row 8680\n299\n153\n146\n0.02%\nMarwari\nUnder HINDI · C-16 row 8623\n180\n98\n82\n0.01%\nMarathi\nUnder MARATHI · C-16 row 8633\n119\n65\n54\n<0.01%\nOthers\nUnder MUNDA · C-16 row 8676\n89\n49\n40\n<0.01%\nTamil\nUnder TAMIL · C-16 row 8649\n88\n40\n48\n<0.01%\nKurukh/Oraon\nUnder KURUKH/ORAON · C-16 row 8673\n75\n36\n39\n<0.01%\nBhojpuri\nUnder HINDI · C-16 row 8620\n64\n39\n25\n<0.01%\nBhumij\nUnder BHUMIJ · C-16 row 8659\n58\n24\n34\n<0.01%\nBhumijali\nUnder ODIA · C-16 row 8638\n52\n26\n26\n<0.01%\nKhond/Kondh\nUnder KHOND/KONDH · C-16 row 8667\n52\n29\n23\n<0.01%\nMundari\nUnder MUNDARI · C-16 row 8678\n51\n29\n22\n<0.01%\nNepali\nUnder NEPALI · C-16 row 8635\n48\n24\n24\n<0.01%\nEnglish\nUnder ENGLISH · C-16 row 8661\n47\n28\n19\n<0.01%\nPunjabi\nUnder PUNJABI · C-16 row 8643\n36\n22\n14\n<0.01%\nBaori\nUnder BHILI/BHILODI · C-16 row 8657\n32\n15\n17\n<0.01%\nOthers\nUnder HINDI · C-16 row 8626\n27\n16\n11\n<0.01%\nRajasthani\nUnder HINDI · C-16 row 8625\n23\n13\n10\n<0.01%\nKoya\nUnder KOYA · C-16 row 8669\n18\n12\n6\n<0.01%\nOthers\nUnder ODIA · C-16 row 8641\n13\n5\n8\n<0.01%\nLaria\nUnder HINDI · C-16 row 8622\n11\n7\n4\n<0.01%\nSanskrit\nUnder SANSKRIT · C-16 row 8645\n10\n7\n3\n<0.01%\nArabic/Arbi\nUnder ARABIC/ARBI · C-16 row 8655\n6\n4\n2\n<0.01%\nGaro\nUnder GARO · C-16 row 8663\n5\n3\n2\n<0.01%\nBhuiya/Bhuyan[Ori]\nUnder ODIA · C-16 row 8637\n4\n2\n2\n<0.01%\nProja (Ori)\nUnder ODIA · C-16 row 8640\n4\n3\n1\n<0.01%\nNagpuria\nUnder HINDI · C-16 row 8624\n2\n1\n1\n<0.01%\nKannada\nUnder KANNADA · C-16 row 8628\n2\n0\n2\n<0.01%\nOthers\nUnder KANNADA · C-16 row 8629\n1\n0\n1\n<0.01%\nMalayalam\nUnder MALAYALAM · C-16 row 8631\n1\n0\n1\n<0.01%\nRural and urban: two views within the district\nEach share below uses the population of that residence category. Rural and urban counts add to the district total; their percentages use different denominators.\nRural population breakdown\nDenominator: 13,20,499 people in Bhadrak · rural areas, 2011.\nCensus language groups · mutually exclusive totals\nGroup\nPeople\nShare\nODIA\n12,48,819\n94.57%\nURDU\n38,335\n2.90%\nBENGALI\n19,719\n1.49%\nSANTALI\n5,843\n0.44%\nOTHERS\n1,667\n0.13%\nMUNDA\n1,312\n0.10%\nHINDI\n1,240\n0.09%\nKUI\n1,227\n0.09%\nTELUGU\n942\n0.07%\nHO\n655\n0.05%\nSAVARA\n234\n0.02%\nGUJARATI\n86\n<0.01%\nKURUKH/ORAON\n70\n<0.01%\nMARATHI\n68\n<0.01%\nTAMIL\n64\n<0.01%\nKHOND/KONDH\n50\n<0.01%\nMUNDARI\n47\n<0.01%\nENGLISH\n41\n<0.01%\nBHILI/BHILODI\n32\n<0.01%\nKOYA\n15\n<0.01%\nPUNJABI\n9\n<0.01%\nSANSKRIT\n8\n<0.01%\nARABIC/ARBI\n6\n<0.01%\nGARO\n5\n<0.01%\nKANNADA\n3\n<0.01%\nNEPALI\n1\n<0.01%\nBHUMIJ\n1\n<0.01%\nLook inside the groups: individual mother-tongue entries\nThe entries below are already included in their parent groups above. Do not add both tables together. Only positive recorded counts for this residence category are shown; omission is not proof of an absence of speakers today. Residual group OTHERS has no subordinate entries here.\nIndividual entries · Census labels and parent classifications retained\nEntry / parent group\nPeople\nMale\nFemale\nShare\nOdia\nUnder ODIA · C-16 row 8639\n12,48,797\n6,28,764\n6,20,033\n94.57%\nUrdu\nUnder URDU · C-16 row 8653\n38,335\n19,553\n18,782\n2.90%\nBengali\nUnder BENGALI · C-16 row 8616\n19,719\n9,933\n9,786\n1.49%\nSantali\nUnder SANTALI · C-16 row 8647\n5,843\n2,994\n2,849\n0.44%\nMunda\nUnder MUNDA · C-16 row 8675\n1,312\n646\n666\n0.10%\nKui\nUnder KUI · C-16 row 8671\n1,227\n613\n614\n0.09%\nHindi\nUnder HINDI · C-16 row 8621\n1,217\n635\n582\n0.09%\nTelugu\nUnder TELUGU · C-16 row 8651\n942\n477\n465\n0.07%\nHo\nUnder HO · C-16 row 8665\n655\n333\n322\n0.05%\nSavara\nUnder SAVARA · C-16 row 8680\n234\n112\n122\n0.02%\nGujarati\nUnder GUJARATI · C-16 row 8618\n86\n49\n37\n<0.01%\nKurukh/Oraon\nUnder KURUKH/ORAON · C-16 row 8673\n70\n34\n36\n<0.01%\nMarathi\nUnder MARATHI · C-16 row 8633\n68\n33\n35\n<0.01%\nTamil\nUnder TAMIL · C-16 row 8649\n64\n26\n38\n<0.01%\nKhond/Kondh\nUnder KHOND/KONDH · C-16 row 8667\n50\n28\n22\n<0.01%\nMundari\nUnder MUNDARI · C-16 row 8678\n47\n27\n20\n<0.01%\nEnglish\nUnder ENGLISH · C-16 row 8661\n41\n26\n15\n<0.01%\nBaori\nUnder BHILI/BHILODI · C-16 row 8657\n32\n15\n17\n<0.01%\nKoya\nUnder KOYA · C-16 row 8669\n15\n11\n4\n<0.01%\nLaria\nUnder HINDI · C-16 row 8622\n11\n7\n4\n<0.01%\nOthers\nUnder ODIA · C-16 row 8641\n11\n4\n7\n<0.01%\nPunjabi\nUnder PUNJABI · C-16 row 8643\n9\n7\n2\n<0.01%\nSanskrit\nUnder SANSKRIT · C-16 row 8645\n8\n5\n3\n<0.01%\nRajasthani\nUnder HINDI · C-16 row 8625\n7\n4\n3\n<0.01%\nArabic/Arbi\nUnder ARABIC/ARBI · C-16 row 8655\n6\n4\n2\n<0.01%\nBhumijali\nUnder ODIA · C-16 row 8638\n5\n2\n3\n<0.01%\nGaro\nUnder GARO · C-16 row 8663\n5\n3\n2\n<0.01%\nProja (Ori)\nUnder ODIA · C-16 row 8640\n4\n3\n1\n<0.01%\nNagpuria\nUnder HINDI · C-16 row 8624\n2\n1\n1\n<0.01%\nOthers\nUnder HINDI · C-16 row 8626\n2\n2\n0\n<0.01%\nKannada\nUnder KANNADA · C-16 row 8628\n2\n0\n2\n<0.01%\nBhuiya/Bhuyan[Ori]\nUnder ODIA · C-16 row 8637\n2\n1\n1\n<0.01%\nBhojpuri\nUnder HINDI · C-16 row 8620\n1\n0\n1\n<0.01%\nOthers\nUnder KANNADA · C-16 row 8629\n1\n0\n1\n<0.01%\nNepali\nUnder NEPALI · C-16 row 8635\n1\n1\n0\n<0.01%\nBhumij\nUnder BHUMIJ · C-16 row 8659\n1\n1\n0\n<0.01%\nUrban population breakdown\nDenominator: 1,85,838 people in Bhadrak · urban areas, 2011.\nCensus language groups · mutually exclusive totals\nGroup\nPeople\nShare\nODIA\n1,15,277\n62.03%\nURDU\n61,196\n32.93%\nHINDI\n3,357\n1.81%\nBENGALI\n2,217\n1.19%\nSANTALI\n1,259\n0.68%\nTELUGU\n746\n0.40%\nHO\n473\n0.25%\nMUNDA\n347\n0.19%\nGUJARATI\n298\n0.16%\nOTHERS\n253\n0.14%\nKUI\n121\n0.07%\nSAVARA\n65\n0.03%\nBHUMIJ\n57\n0.03%\nMARATHI\n51\n0.03%\nNEPALI\n47\n0.03%\nPUNJABI\n27\n0.01%\nTAMIL\n24\n0.01%\nENGLISH\n6\n<0.01%\nKURUKH/ORAON\n5\n<0.01%\nMUNDARI\n4\n<0.01%\nKOYA\n3\n<0.01%\nSANSKRIT\n2\n<0.01%\nKHOND/KONDH\n2\n<0.01%\nMALAYALAM\n1\n<0.01%\nLook inside the groups: individual mother-tongue entries\nThe entries below are already included in their parent groups above. Do not add both tables together. Only positive recorded counts for this residence category are shown; omission is not proof of an absence of speakers today. Residual group OTHERS has no subordinate entries here.\nIndividual entries · Census labels and parent classifications retained\nEntry / parent group\nPeople\nMale\nFemale\nShare\nOdia\nUnder ODIA · C-16 row 8639\n1,15,226\n58,704\n56,522\n62.00%\nUrdu\nUnder URDU · C-16 row 8653\n61,196\n31,446\n29,750\n32.93%\nHindi\nUnder HINDI · C-16 row 8621\n3,073\n1,611\n1,462\n1.65%\nBengali\nUnder BENGALI · C-16 row 8616\n2,217\n1,151\n1,066\n1.19%\nSantali\nUnder SANTALI · C-16 row 8647\n1,259\n629\n630\n0.68%\nTelugu\nUnder TELUGU · C-16 row 8651\n746\n372\n374\n0.40%\nHo\nUnder HO · C-16 row 8665\n473\n229\n244\n0.25%\nGujarati\nUnder GUJARATI · C-16 row 8618\n298\n157\n141\n0.16%\nMunda\nUnder MUNDA · C-16 row 8675\n258\n123\n135\n0.14%\nMarwari\nUnder HINDI · C-16 row 8623\n180\n98\n82\n0.10%\nKui\nUnder KUI · C-16 row 8671\n121\n66\n55\n0.07%\nOthers\nUnder MUNDA · C-16 row 8676\n89\n49\n40\n0.05%\nSavara\nUnder SAVARA · C-16 row 8680\n65\n41\n24\n0.03%\nBhojpuri\nUnder HINDI · C-16 row 8620\n63\n39\n24\n0.03%\nBhumij\nUnder BHUMIJ · C-16 row 8659\n57\n23\n34\n0.03%\nMarathi\nUnder MARATHI · C-16 row 8633\n51\n32\n19\n0.03%\nNepali\nUnder NEPALI · C-16 row 8635\n47\n23\n24\n0.03%\nBhumijali\nUnder ODIA · C-16 row 8638\n47\n24\n23\n0.03%\nPunjabi\nUnder PUNJABI · C-16 row 8643\n27\n15\n12\n0.01%\nOthers\nUnder HINDI · C-16 row 8626\n25\n14\n11\n0.01%\nTamil\nUnder TAMIL · C-16 row 8649\n24\n14\n10\n0.01%\nRajasthani\nUnder HINDI · C-16 row 8625\n16\n9\n7\n<0.01%\nEnglish\nUnder ENGLISH · C-16 row 8661\n6\n2\n4\n<0.01%\nKurukh/Oraon\nUnder KURUKH/ORAON · C-16 row 8673\n5\n2\n3\n<0.01%\nMundari\nUnder MUNDARI · C-16 row 8678\n4\n2\n2\n<0.01%\nKoya\nUnder KOYA · C-16 row 8669\n3\n1\n2\n<0.01%\nBhuiya/Bhuyan[Ori]\nUnder ODIA · C-16 row 8637\n2\n1\n1\n<0.01%\nOthers\nUnder ODIA · C-16 row 8641\n2\n1\n1\n<0.01%\nSanskrit\nUnder SANSKRIT · C-16 row 8645\n2\n2\n0\n<0.01%\nKhond/Kondh\nUnder KHOND/KONDH · C-16 row 8667\n2\n1\n1\n<0.01%\nMalayalam\nUnder MALAYALAM · C-16 row 8631\n1\n0\n1\n<0.01%\nFollow a voice into its story\nThese introductions connect to individual mother-tongue entries recorded here. They are a selection from our growing collection, not a complete list of the district’s languages.\nOdia →\nSantali →\nKui →\nHo →\nSaora / Sora (Census: Savara) →\nKoya →\nTake curiosity into a conversation\nAsk which name a speaker uses for their language and which language they prefer for your conversation. A family memory, a local publication or a song they choose can add context that a table cannot supply.\nRead about multilingual Odisha →\n·\nShare a source or correction →\nSources, geography & interpretation\nCensus C-16, Odisha, 2011\n. District code 378; source name Bhadrak. All figures derive from the original workbook retained in our KB. Parent groups contain their individual entries; classification does not determine community-preferred naming.\nDistrict figures cannot establish the languages of a particular town, accommodation provider or individual. C-17 multilingualism is statewide and is not apportioned to this district. No migration or ancestry claim is inferred.\nCommunity naming and visual review remain open.",
+        "fresh_live_proof": false,
+        "save_journey_ids": [],
+        "robots": [
+          "<meta name=\"robots\" content=\"noindex, follow\">"
+        ]
+      },
+      "current_search_selection": {
+        "route": "/languages/districts/bhadrak/",
+        "decision": "hold",
+        "reason": "Historical language context and source-led introductions; community naming and visual review remain open."
+      },
+      "current_rollout": {
+        "id": "POD-EDIT-089",
+        "route": "/languages/districts/bhadrak/",
+        "title": "Bhadrak · languages and population",
+        "status": "queued",
+        "scope": "classification_pending",
+        "source_template": null,
+        "checks": {},
+        "evidence": [],
+        "blocker": null
+      },
+      "checks": [
+        {
+          "name": "All67 exact original workbook rows and nine values",
+          "result": "pass"
+        },
+        {
+          "name": "Nine population denominators independently summed from parent-group workbook rows",
+          "result": "pass"
+        },
+        {
+          "name": "Rural plus urban equals district1506337",
+          "result": "pass"
+        },
+        {
+          "name": "Individual actual route/configuration/render inspection",
+          "result": "pass"
+        },
+        {
+          "name": "Existing district-languages test scope read",
+          "result": "not executed; no implementation changed"
+        }
+      ],
+      "check_history": [
+        "Initial attempt to locate a standalone workbook total row found none; corrected verification to independently sum mutually exclusive parent-group source rows. All nine sums exactly match atlas."
+      ],
+      "preservation": [
+        "Public Bhadrak district route/data/search eligibility/source cautions",
+        "Separate kb/research/statistics/districts/bhadrak.md banking snapshot",
+        "Separate sweets-and-places narrative and sweets-bhadrak-culture20261020 source",
+        "Separate Gokulananda Mohapatra narrative and other authored Bhadrak-linked material",
+        "All other rollout entries and programme completed count"
+      ],
+      "narrow_proposal": {
+        "action": "Records-only utility exclusion after independent review",
+        "files": [
+          "kb/records/article-editorial-rollout.json: POD-EDIT-089 only",
+          "New Bhadrak-specific language utility review record",
+          "Generated article-editorial-work-list.md"
+        ],
+        "validation": "Coordinator checks exact089-only status diff, preserved route/products and programme consistency. No frontend byline/portable rewrite or substantive credit."
+      },
+      "files_sha256": {
+        "projects/site/src/pages/languages/districts/[slug].astro": "4710838468016e58cf8b3d2a1537c1185b3cb39049b5ce90dbae6c1391568e76",
+        "projects/site/src/components/DistrictLanguageTable.astro": "36971c1f294c05a73ab2885629be49bea81ff14782d5a7c1846433ac734d06ed",
+        "projects/site/src/lib/language-atlas.mjs": "c52a825ccfec3aa241173e7d50355a42074bdfb8a45ee4ac225a2fec3e99a87c",
+        "projects/site/src/data/journey-catalog.ts": "681ded61bb26bbd0c6379b1d7819fdd49a077799ab153172c15c6d118d7a35d9",
+        "projects/site/tests-coast/district-languages.test.mjs": "d08f9361f582b4b9d079f82ea34eba984eba00774d1dbb963234d3557be522c9",
+        "kb/research/voices/population-2011.json": "c149d36bfa5c6c01595ddb517dfca21c5d8d5fe6d2283fa19dc020432b7fe998",
+        "kb/research/voices/district-connections.json": "149161595dab537134f247fd7c5fdb34aa128b2bb008ae5a35fc0bb04f97f303",
+        "kb/research/related-discoveries.json": "a5e4eff87f1a410f860950103d9cbbd527a03b084f7b6513ac95fe4f6100ee6c",
+        "kb/reference/article-editorial-standard.md": "f57a132777734615fa83badba44430683c254c9930f136e6dcd3d01302665df1",
+        "kb/research/statistics/districts/bhadrak.md": "76b9ae9a7d2d3d0177ef9eceeafcb932a763729a5ad26e0f548aa7f48d57d72f",
+        "projects/site/dist-publish/languages/districts/bhadrak/index.html": "0061ff973439e291dc310e055002682860b99cb93b94f04fc67f35754984ccbe"
+      },
+      "limits": [
+        "Saved local build only, no fresh live/responsive/keyboard claim.",
+        "2011 recorded mother-tongue data do not establish present fluency/identity/ancestry.",
+        "No canonical or Git edits, builds, release, human review or programme credit."
+      ]
+    },
+    "drishti.json": {
+      "review_type": "Separate independent AI readiness review; not human review",
+      "status": "pass_with_limitations",
+      "recommendation": "Individually classify POD-EDIT-089 as Census data/navigation utility, preserving its public route and all distinct authored material.",
+      "input_head": "c8de142ba0545516280e64f739087d3ae45406a7",
+      "input_head_basis": "Frozen HANDOFF and reports; no Git operations performed",
+      "coordinator_verified_remote_main": "79229f24f1bc81701fd3f08d1db7453496cff7ab",
+      "item": "POD-EDIT-089",
+      "route": "/languages/districts/bhadrak/",
+      "report_sha256": {
+        "anvesha.json": "63553c612b38b1660c515f3e37b8054dcff34f0f0f1782c9fefac845953b4876",
+        "samanta.json": "8785ce3f468fc36ef6c7e420b304963508180654f182f033464b3248073d6ea9"
+      },
+      "findings": [],
+      "actual_checks": [
+        "Read shared district template and its district378-specific configuration; no destination or related-discovery links configured for this route.",
+        "Independently parsed saved original C16 Sheet1 rows8615–8681:67 rows/603 H:P numeric cells equal both report and canonical atlas; district code, language code and raw labels checked.",
+        "Summed28 mutually exclusive parent groups across all nine denominators; totals equal atlas population vector.",
+        "Verified all source/template/config/render hashes cited across both reports.",
+        "Read saved actual local route text and checked actual HTML figures and absent optional narrative sections; no live/browser/responsive claim.",
+        "Read separate Bhadrak-linked sweets/Pala passages for preservation scope; no fresh external-source verification."
+      ],
+      "source_sha256": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db",
+      "specific_observations": {
+        "district_code": "378",
+        "population": 1506337,
+        "rural": 1320499,
+        "urban": 185838,
+        "parent_ODIA": 1364096,
+        "individual_Odia": 1364023,
+        "Urdu": 99531,
+        "group_count": 28,
+        "subordinate_count": 39,
+        "source_scope": "Recorded2011 mother-tongue returns, not current fluency, identity, ancestry or district C17 multilingualism.",
+        "article_assessment": "Computed leading-group introduction, tables, residence comparisons and data-selected profile links answer a reference question; generic conversation/source cautions do not constitute a sustained authored Bhadrak language narrative."
+      },
+      "preservation": [
+        "Public route, source labels, residence denominators, parent/child distinction, profile navigation and search hold",
+        "Separate sweets-and-places/Bhadrak Palua Ladu and Chena Mudki associations",
+        "Separate Pala performance/network records, Gokulananda Mohapatra and other authored Bhadrak material",
+        "Other district classifications and programme count"
+      ],
+      "next_action": "Coordinator may prepare records-only089 exclusion with this frozen evidence, then seek exact-head review proving only089 changes and products remain unchanged. A future language-history article requires its own sourced question.",
+      "completion_credit": 0,
+      "programme_credit": 0,
+      "limits": [
+        "Readiness recommendation only; no classification integration, release or deployment approval.",
+        "No new web retrieval, build, automated test-suite or live/mobile/keyboard verification. Direct saved-workbook parity checks above were executed.",
+        "No blanket conclusion about sibling routes or absence of unpublished Bhadrak research.",
+        "No human/community proofreading claim; no current demographic or social identity inference."
+      ],
+      "canonical_edits": false,
+      "git_operations": false
+    }
+  },
+  "report_hashes": {
+    "anvesha.json": "63553c612b38b1660c515f3e37b8054dcff34f0f0f1782c9fefac845953b4876",
+    "samanta.json": "8785ce3f468fc36ef6c7e420b304963508180654f182f033464b3248073d6ea9",
+    "drishti.json": "8715d7d591e2ef1e29225bb62deaebbc4c9ee3562adc28ef0231964221f786ec"
+  }
+}
