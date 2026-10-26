@@ -1,0 +1,87 @@
+{
+  "checked_on": "2026-10-25",
+  "scope": "Six Odisha cities; public booking-page text. No booking or seat selection. Snapshot, not exhaustive coverage.",
+  "method_limit": "Opening date-specific pages often failed; a date tab alone does not connect the displayed film/time to that day. Indexed entries preserved separately. No absence-of-screenings inference from inaccessible pages.",
+  "verified_date_specific": [
+    {
+      "city": "Cuttack",
+      "venue": "INOX SGBL Square Mall, Town Hall Road",
+      "film": "Jadi: The Untold Side of If",
+      "language_as_listed": "Odia",
+      "date": "2026-10-25",
+      "times": [
+        "16:25",
+        "20:05"
+      ],
+      "url": "https://www.district.in/movies/inox-sgbl-square-mall-town-hall-road-cuttack-CD1029236?fromdate=2026-10-25",
+      "inspection": "Direct full text opened; film/language/times lines110–116;25Oct date parameter and calendar tab; date FAQ includes25Oct. Live seats not checked."
+    }
+  ],
+  "indexed_or_date_uncertain": [
+    {
+      "city": "Bhubaneswar",
+      "venue": "PVR Utkal Galleria",
+      "films": [
+        "Monster: The Ultimate",
+        "AWM: Agney Weds Minal"
+      ],
+      "url": "https://www.district.in/movies/pvr-utkal-galleria-gautam-nagar-bhubneshwar-CD1017390",
+      "evidence": "Indexed recent page lists11:15am Monster and12pm AWM, but FAQdates22–24Oct. Direct genericpage opened with23–25Oct calendar; selecting25Oct failed. Do not publish those times as25Oct."
+    },
+    {
+      "city": "Rourkela",
+      "venue": "PVR Forum, Forum Galleria Mall",
+      "films": [
+        "Jadi: The Untold Side of If"
+      ],
+      "url": "https://www.district.in/movies/pvr-forum-forum-galleria-mall-rourkela-CD1023499?fromdate=2026-10-16",
+      "evidence": "Indexed page lists5:30pm Jadi and24–26Oct calendar; URL old16Oct parameter, full open failed.25Oct not verified."
+    },
+    {
+      "city": "Balasore",
+      "venue": "MovieEx Cinema",
+      "films": [
+        "Danger Devdas"
+      ],
+      "url": "https://www.district.in/movies/danger-devdas-movie-tickets-in-balasore-MV236063?frmtid=k2jbbbjvjaa&fromdate=2026-10-25",
+      "evidence": "Date-specific search retrieval lists25Oct and5:30pm, Odia. Direct open failed; strong indexed lead, not live checked."
+    },
+    {
+      "city": "Berhampur",
+      "venue": "Rukmini Theatre",
+      "films": [
+        "Madhumallati",
+        "Danger Devdas"
+      ],
+      "url": "https://in.bookmyshow.com/cinemas/berp/rukmini-theatre-dolby-digital-2k-lazer-projector/buytickets/RTBR/20261022",
+      "evidence": "22Oct indexed booking page lists3pm Madhumallati,6:15pm Danger Devdas, bothOdia.25Oct tab present, but25Oct URL inaccessible. Recentscreening evidence only."
+    },
+    {
+      "city": "Sambalpur",
+      "venue": "The Phoenix Cinema, City Centre Mall",
+      "films": [
+        "Danger Devdas",
+        "AWM: Agney Weds Minal"
+      ],
+      "url": "https://in.bookmyshow.com/cinemas/sambalpur/the-phoenix-cinema-city-centre-mall/buytickets/TPCE/20261022",
+      "evidence": "22Oct indexed page listsDanger Devdas2pm Odia;AWM4:45pm explicitlySambalpuri.25Oct URL inaccessible; do not relabelAWM language or imply25Oct confirmed."
+    }
+  ],
+  "rejected_sources": [
+    {
+      "url": "https://in.bookmyshow.com/berhampur/cinemas",
+      "reason": "City page text mixesTrivandrum addresses withBerhampur headings; not reliablevenue/showmatching."
+    },
+    {
+      "url": "https://mantramuugdha.com/showtimes",
+      "reason": "Indexed list lacksverifiedcurrentdate andincludesTEST-HALL; not proof25Oct."
+    }
+  ],
+  "query_groups": [
+    "Odia movies showtimes Bhubaneswar25October2026",
+    "DistrictCuttack/Odia/OCT25/Monster",
+    "DistrictBerhampur/Rourkela/Balasore/SambalpurOctober2026Odia",
+    "City+film+20261025/date-specificbookingURLs"
+  ],
+  "recommended_reporting": "Show confirmedCuttack entry separately; other5cities as recent/indexed leads needingdateconfirmation. Do not call this allOdisha cinemas or infer ticketrevenue/occupancy."
+}

@@ -1,0 +1,83 @@
+{
+  "phase": "independent source review; integrated draft pending",
+  "outcome": "PASS_FOR_BOUNDED_INTEGRATION",
+  "sources": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10754896/",
+      "verified": "Opened final published HTML: Introduction dates implementation to 2017; Methods specifies 15 villages in Keonjhar and Jharsuguda and 2019\u201320 camp cycles. Discussion explicitly denies causal inference, citing nonrandom allocation, pandemic disruption and follow-up limitations. Programme-affiliated coauthor is visible.",
+      "safe_text": "A 2019\u201320 evaluation in 15 villages in Keonjhar and Jharsuguda associated the camps with reduced malaria infection. Its authors cautioned that the study could not establish causality. This evaluates the programme, not the film\u2019s effects.",
+      "locators": "Introduction lines171\u2013175; Discussion430\u2013432; Methods441\u2013448; affiliation102."
+    },
+    {
+      "url": "https://medical.advancedresearchpublications.com/ojs-3.1.2-4/index.php/Journal-CommunicableDiseases/article/view/4187",
+      "fulltext": "https://chwcentral.org/wp-content/uploads/Community-Healthcare-Providers-Perspective-on-Malaria-Control-in-Difficult-Terrains-DAMaN-in-Odisha-India.pdf",
+      "verified": "Opened publisher page and PDF text. Methods names five districts excluding Malkangiri; 53 workers interviewed. Theme3 supports roads, camp scheduling, staffing and supply constraints; p62 supports volunteer follow-up incentives. Contributions identify programme staff collecting interviews.",
+      "safe_text": "Interviews published in 2025 with 53 health workers described difficult roads, staff and supply shortages, and inconvenient camp schedules. Respondents sought support for volunteers\u2019 work between camps. These are workers\u2019 accounts from five districts outside Malkangiri, not a survey of residents or film audiences.",
+      "locators": "Methods printed56; Theme3 printed61; volunteer follow-up62; contributions63."
+    }
+  ],
+  "chronology": {
+    "verified": "Re-extracted retained government 2016\u201317 annual report PDF43/printed39: funds approved for financial year2016\u201317, prospective camp description and next-year2017\u201318 expansion. This is compatible with the studies dating implementation to2017; it does not prove an exact launch day.",
+    "safe_text": "Government reporting records funding approved for 2016\u201317, while the published evaluation dates implementation to 2017. Neither date should be confused with the film\u2019s 2015 setting.",
+    "restriction": "Do not silently replace fiscal-year reporting with a precise launch date or describe source differences as proven contradiction."
+  },
+  "issues": [],
+  "integration_conditions": [
+    "Retain authorship/programme affiliation and design caveats in notes; do not call either source wholly independent of implementation.",
+    "Keep each new source\u2019s body, notes and interpretive derivation below200words.",
+    "Worker testimony does not resolve missing Malkangiri resident/Adivasi audience perspectives.",
+    "Avoid reproducing qualitative paper\u2019s broad measured-health-effect claims."
+  ],
+  "limits": [
+    "No raw-data analysis, community consultation or full-film viewing.",
+    "PDF text inspected; no visual-layout claim.",
+    "2016\u201317 source rechecked locally rather than remotely reopened."
+  ],
+  "integrated_review": {
+    "outcome": "PASS",
+    "canonical_sha256": "39230b45fa37abd2766534f660ae0b57a8ea2e2ef05a285bf8e4a9d37cc928c8",
+    "checks": [
+      "Chronology note now restricts itself to primary study\u2019s2017 implementation attribution, distinct from2015 film setting.",
+      "Early-camp versus delayed-camp comparison avoids implying controls had never received camps by final follow-up.",
+      "Programme evidence is not film-impact evidence; worker accounts are not resident consensus.",
+      "Each added source remains below200words including notes."
+    ],
+    "limits": [
+      "No full-film viewing or community consultation. Final preview structural review pending."
+    ]
+  },
+  "preview_review": {
+    "outcome": "PASS",
+    "article": {
+      "slug": "daman",
+      "canonical_sha256": "39230b45fa37abd2766534f660ae0b57a8ea2e2ef05a285bf8e4a9d37cc928c8",
+      "notes": 8,
+      "citations": 13,
+      "images": 2,
+      "result": "PASS"
+    },
+    "html_sha256": "44b7d2403bbaeb546261306ea072be6e4781762fc08395611b7a90e580a93936",
+    "checks": [
+      "Eight source and HTML hashes independently matched reports; local assets and provenance hashes verified.",
+      "All local links and fragments resolve; citation and return anchors match without duplicate IDs.",
+      "Hero, hub card, Open Graph and Twitter image match for every article.",
+      "18 article figures: 8 generated heroes and 10 documentary images; Parbati and flagship each have three images."
+    ],
+    "series_totals": {
+      "articles": 8,
+      "images": 18,
+      "notes": 56,
+      "citation_return_pairs": 76
+    },
+    "audit_resolution_hash_verified": "865dd2f5fcb36970c9229987a6f39d50e07011eb366375735397d5ff262db908",
+    "limits": [
+      "Structural inspection only; no browser-layout QA or new image-pixel review."
+    ],
+    "audit_html_sha256": "b2cacb2fb0c442d4b1b739e6617d8b93718409e57e3f2113d53eb91fc7c544c3",
+    "audit_daman_status": {
+      "article": "daman",
+      "status": "revised",
+      "summary": "Added peer-reviewed programme evaluation and attributed health-worker perspectives, with study and geographical limits. Film impact is not inferred; direct Malkangiri resident perspective remains open. Existing licensed actor photo and conceptual illustration retained."
+    }
+  }
+}

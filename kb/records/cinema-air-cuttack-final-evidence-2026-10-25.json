@@ -1,0 +1,89 @@
+{
+  "batch_id": "2026-10-25",
+  "review_date": "2026-10-26",
+  "reviewer": "Anvesha",
+  "article": "kb/research/culture/air-cuttack.md",
+  "article_sha256": "290f825712227d3a348fac1742e25326b0caf29d3cf902a08971e7d2c3e5baf3",
+  "scope": "Bounded final evidence pass; no article edits, programme canon survey or listening claim. Research query and retained AIR evidence reused before targeted verification.",
+  "verdict": "PASS with optional pronoun clarification",
+  "reused_evidence": [
+    {
+      "path": "kb/research/sources/air-cuttack-evidence-2026-10-25.json",
+      "sha256": "33dbc532befe9908b5cc16f81074be32f79b5ca388f3e4053573f90a8afa14e1"
+    },
+    {
+      "path": "kb/research/sources/storytelling-builders-broadcast-evidence-2026-10-25.json",
+      "sha256": "fc57ad5b1347c4c1b84eee736b79d29c5c30fff1d4e960a7dba9cb31aa4071f5"
+    }
+  ],
+  "fresh_checks": [
+    {
+      "url": "https://www.qsl.net/vu2jos/art/cuttack.pdf",
+      "inspection": "Full PDF text opened; relevant pp.1-2 read",
+      "locator": "p.1 inauguration/studio paragraph; p.2 cyclone paragraph",
+      "findings": "Jacob dates inauguration 28 January 1948, initial temporary Madhapur House studio and Killa Fort transmitter. Studio complex commissioned 25 December 1977; computers alongside reel tapes are observations during his 2008 visit. Cyclone interruption and emergency arrangements are dated retrospective observations. Current article correctly attributes and dates this account.",
+      "limits": "Engineer-guided visitor account, not contemporary commissioning register. District spelling Madhupur differs from Jacob Madhapur; article preserves separate attribution."
+    },
+    {
+      "url": "https://www.sahapedia.org/conversation-odia-lyricist-devdas-chhotray",
+      "inspection": "Original edited interview opened; Parts II-III read",
+      "locator": "Part II studio/stage answer; Part III first recorded ghazal answer and adhunika answer (web lines81-96)",
+      "findings": "September2018 interview distinguishes audience-responsive stage singing from AIR recording. Devdas remembers his own first recorded ghazal, composed and rendered by Akshaya for AIR Cuttack; he does not recall his first written ghazal. Adhunika classification supported.",
+      "limits": "Personal recollection, not first-ever Odia ghazal evidence. No lyric quotation added."
+    },
+    {
+      "url": "https://newsonair.gov.in/bulletins-city/cuttack/",
+      "inspection": "Official page opened26October2026",
+      "locator": "Cuttack Odia bulletin listings/table and Last Updated footer",
+      "findings": "Page lists dated Cuttack Odia bulletins for20-23October2026; footer last updated23October2026. Current article claims only continuing online news availability, supported.",
+      "limits": "No playback tested, listening figures established or completeness of historical archive inferred."
+    }
+  ],
+  "retained_checks": [
+    {
+      "claim": "1948 and old Madhupur building",
+      "source": "https://cuttack.odisha.gov.in/en/about-district/history",
+      "result": "Retained indexed official chronology; prior direct error disclosed in article. Exact28January attributed separately to Jacob."
+    },
+    {
+      "claim": "Gopal Chhotray AIR connection, genres and Gitinatya; readings",
+      "source": "https://www.loc.gov/acq/overseas-offices/delhi/salrp/chhotray.html",
+      "result": "Retained profile supports; literary readings explicitly distinguished from AIR productions."
+    },
+    {
+      "claim": "Sri Jagannath1950 dialogue versus screenplay/direction",
+      "source": "https://www.gourparbati.com/movie_sri_jagannath.php",
+      "result": "Retained archive credits Gopal dialogue and C.R.Mitra screenplay/direction; current text preserves division."
+    },
+    {
+      "claim": "Srimati Samarjani adapts Patent Medicine;1974edition",
+      "source": "https://odiabibhaba.in/en/compilations/gopal-chhotray-e/",
+      "result": "Retained collection supports adaptation and catalogue date. No first broadcast or music credit inferred."
+    },
+    {
+      "claim": "Shyamamani childartist1950 and family experience",
+      "source": "https://www.yumpu.com/en/document/view/16460695/shyamamani-devi-on-odissi-music-and-her-life-as-a-oaid-home",
+      "result": "Retained interview names Akashvani without station; article clearly wider context, not Cuttack appointment. Original interview date remains unverified."
+    },
+    {
+      "claim": "P.V.Krishnamoorthy encouragement and gatherings",
+      "source": "https://odishabytes.com/pv-krishnamoorthy-the-unsung-force-behind-modern-odia-songs/",
+      "result": "Retained2020 ShyamanujaDas retrospective; article attributes claims, preserves creators collective labour and avoids sole-founder claims."
+    }
+  ],
+  "recommended_changes": [
+    {
+      "severity": "clarity",
+      "current": "He recalls Akshaya Mohanty composing and singing his first recorded ghazal for AIR Cuttack",
+      "suggested": "He recalls that his first recorded ghazal was composed and sung by Akshaya Mohanty for AIR Cuttack",
+      "reason": "Resolve ambiguous possessive: first recorded ghazal belongs to Devdas recollection, not a first in Akshaya career or universal genre first."
+    }
+  ],
+  "unresolved_nonblocking": [
+    "Contemporary inauguration record not newly inspected; exact date remains attributed to visitor account.",
+    "First broadcast and music credits of Srimati Samarjani not established.",
+    "Shyamamani station assignment not established by cited interview.",
+    "No exhaustive programme, staff, audience or audio archive census claimed."
+  ],
+  "canonical_edits": false
+}

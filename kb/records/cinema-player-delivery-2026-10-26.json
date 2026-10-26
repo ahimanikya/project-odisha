@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-26",
+  "status": "local_player_independently_reviewed_with_browser_limits",
+  "entrypoint": "outputs/odia-movie-player/index.html",
+  "counts": {
+    "full_films": 8,
+    "trailers": 5,
+    "archive_song_clips": 1,
+    "verified_public_domain": 0
+  },
+  "files": {
+    "outputs/odia-movie-player/README.md": {
+      "sha256": "cebf199e1ed710f68152722840aca83355d3e9e095e6bd56e519fe8ba8b003df",
+      "bytes": 2403
+    },
+    "outputs/odia-movie-player/app.js": {
+      "sha256": "5e93a9c77902cd860a3f17af7b392db6cff2c2406e61a18d89a28f35a6033c55",
+      "bytes": 5486
+    },
+    "outputs/odia-movie-player/catalogue.js": {
+      "sha256": "d3703ce1e63b8f5080b0e8f8b06e7bc06eb87e8a07b0cff409020bb49762b73b",
+      "bytes": 17232
+    },
+    "outputs/odia-movie-player/catalogue.json": {
+      "sha256": "8eeecba661825a202124ad170a2d66c49d151d5a1c7581447a14129dda76d4cf",
+      "bytes": 17209
+    },
+    "outputs/odia-movie-player/core.js": {
+      "sha256": "e794bc59e2e67170347ee9d3b49e625fdea4406b08db7b9223d7b85c3e07b7e6",
+      "bytes": 1304
+    },
+    "outputs/odia-movie-player/index.html": {
+      "sha256": "a2c2ccd128bdbedd05a24bb68e5e4b56fa173d518d43bdb8673dbd03a71326d7",
+      "bytes": 4106
+    },
+    "outputs/odia-movie-player/style.css": {
+      "sha256": "98db2743fe607a5ee8ed0ec2099d58975034f625b8cd484b5a19e576ed2f1674",
+      "bytes": 4825
+    },
+    "outputs/odia-movie-player/sync-catalogue.py": {
+      "sha256": "1b4728e76a09f42277652c625e90bbd66cc8695f37f1eb1d593f19b4883b8734",
+      "bytes": 3731
+    },
+    "outputs/odia-movie-player/test.cjs": {
+      "sha256": "debe0a3d0289b495615ec7433da8aba7c9c5f0876da5f00bc93a26448bf81351",
+      "bytes": 4904
+    }
+  },
+  "research": [
+    "cinema-player-catalogue-2026-10-26.json",
+    "cinema-player-browser-evidence-2026-10-26.json"
+  ],
+  "implementation": "cinema-player-implementation-2026-10-26.json",
+  "review": "cinema-player-review-2026-10-26.json",
+  "deployment_required_for_embedded_playback": true,
+  "deployed": false,
+  "reason": "Continuing local reviewworkflow; user-facingcollection and HTTP-hostableembedcode delivered, no publication.",
+  "limits": [
+    "No actual browser layout or embedded-playback verification; prior local-file restriction respected",
+    "No local server, Playwright, alternate browser or navigation workaround used",
+    "Source-page confirmations do not establish worldwide free access",
+    "No public-domain film clearance; no downloads or film hosting"
+  ],
+  "root_checks": "Six tests passed using bundledNode; systemnode too old for --test. Catalogue/team checks passed.",
+  "platform_evidence": [
+    "https://support.google.com/youtube/answer/171780?hl=en",
+    "https://developers.google.com/youtube/iframe_api_reference"
+  ],
+  "copyright_reference": "https://copyright.gov.in/Copyright_Act_1957/chapter_v.html",
+  "coverage": "Boundedstarter14entries; not exhaustive. No film-level publicdomainclearance established."
+}
