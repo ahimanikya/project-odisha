@@ -1,0 +1,43 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
+import ArticleByline from '../../components/ArticleByline.astro';
+import '../../styles/article-reading.css';
+import {Content, frontmatter} from '../../../../../kb/research/stories/buddhist-triangle/diamond-triangle.md';
+
+const image = {
+  src: '/assets/buddhist-triangle/ratnagiri.jpg',
+  width: 1440,
+  height: 960,
+  alt: 'Stone stupas at Ratnagiri, photographed by Satyabrata Nanda in 2015.',
+};
+---
+<Shell title={frontmatter.title} description={frontmatter.description} shareImage={image} active="explore" wide related={false}>
+  <article class="article-reading">
+    <header>
+      <p class="eyebrow">Jajpur and Cuttack · Buddhist heritage</p>
+      <h1>{frontmatter.title}</h1>
+      <ArticleByline author="Ahimanikya Satapathy"/>
+    </header>
+    <figure>
+      <img {...image}
+        srcset="/assets/buddhist-triangle/ratnagiri-720.jpg 720w, /assets/buddhist-triangle/ratnagiri-1080.jpg 1080w, /assets/buddhist-triangle/ratnagiri.jpg 1440w"
+        sizes="(max-width: 600px) calc(100vw - 2.4rem), (max-width: 740px) calc(100vw - 2.8rem), 695.2px"
+        loading="eager" fetchpriority="high"/>
+      <figcaption>Stupas at Ratnagiri. Photograph: Satyabrata Nanda, <a href="https://commons.wikimedia.org/wiki/File:Monastery_at_Ratnagiri.jpg">“Monastery at Ratnagiri”</a>, 26 April 2015. <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Resized and compressed without cropping.</figcaption>
+    </figure>
+    <Content/>
+    <ArticleReadingPath links={[
+      {href:'/stories/ratnagiri/',title:'Ratnagiri: a place built for learning',description:'A named monastery, votive stupas and the evidence of excavation.',image:'/assets/buddhist-triangle/ratnagiri.jpg'},
+      {href:'/stories/udayagiri-buddhist/',title:'Buddhist Udayagiri in Jajpur',description:'Monastery names, shrines, sacred texts and daily life near Ratnagiri.',image:'/assets/buddhist-triangle/udayagiri.jpg'},
+      {href:'/stories/lalitgiri/',title:'Lalitgiri: relics, monasteries and a long Buddhist history',description:'Relic caskets, successive buildings and a monastery’s recovered name.',image:'/assets/buddhist-triangle/lalitgiri.jpg'}
+    ]}/>
+    <p><a href="/contribute/?page=%2Fstories%2Fbuddhist-diamond-triangle%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
+  </article>
+</Shell>
+<style>
+  article :global(.footnotes) { margin-top:3.5rem; padding-top:1.5rem; border-top:1px solid var(--line); font-size:.95rem; }
+  article :global(.footnotes h2) { position:static; width:auto; height:auto; padding:0; margin:0 0 1.4rem; overflow:visible; clip:auto; clip-path:none; white-space:normal; }
+  article :global(.footnotes li) { scroll-margin-top:2rem; }
+  article :global(.footnotes li:target) { background:var(--paper); outline:2px solid var(--line); outline-offset:.4rem; }
+</style>

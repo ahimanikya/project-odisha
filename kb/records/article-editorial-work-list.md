@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 815. completed: 124, excluded: 388, in_progress: 1, queued: 302.
+Route inventory: 816. completed: 126, excluded: 388, queued: 302.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -817,7 +817,7 @@ Route inventory: 815. completed: 124, excluded: 388, in_progress: 1, queued: 302
 | POD-EDIT-801 | [What Makes the Next Film Possible](https://projectodisha.org/cinema/cinema-economics/) | completed | Restore reviewed book economics chapter as standalone cinema article |
 | POD-EDIT-802 | [Ratnagiri: a place built for learning](https://projectodisha.org/stories/ratnagiri/) | completed | new_researched_article |
 | POD-EDIT-803 | [Buddhist Udayagiri in Jajpur: monasteries and daily life](https://projectodisha.org/stories/udayagiri-buddhist/) | completed | new_researched_article |
-| POD-EDIT-813 | [Lalitgiri: relics, monasteries and a long Buddhist history](https://projectodisha.org/stories/lalitgiri/) | in_progress | new_researched_article |
+| POD-EDIT-813 | [Lalitgiri: relics, monasteries and a long Buddhist history](https://projectodisha.org/stories/lalitgiri/) | completed | new_researched_article |
 | POD-EDIT-804 | [Gourahari Das: the story before the screen](https://projectodisha.org/people/gourahari-das/) | completed | Individually reviewed cinema companion; published and live verified |
 | POD-EDIT-805 | [Nirad Mohapatra: making a film, making room for others](https://projectodisha.org/people/nirad-mohapatra/) | completed | Individually reviewed cinema companion; published and live verified |
 | POD-EDIT-806 | [Sabyasachi Mohapatra: stories rooted in western Odisha](https://projectodisha.org/people/sabyasachi-mohapatra/) | completed | Individually reviewed cinema companion; published and live verified |
@@ -829,3 +829,4 @@ Route inventory: 815. completed: 124, excluded: 388, in_progress: 1, queued: 302
 | POD-EDIT-812 | [Beyond One Successful Film: Building Odia Cinema Together](https://projectodisha.org/cinema/cinema-futures/) | completed | Individually reviewed cinema companion; published and live verified |
 | POD-EDIT-PURI-PROJECT-20261026 | [Puri resort project](https://projectodisha.org/business/puri-resort/) | excluded | product_concept_utility |
 | POD-EDIT-GOUR-GHOSE-20261026 | [Gour Prasad Ghose: from the stage to making films](https://projectodisha.org/people/gour-prasad-ghose/) | queued | New researched cinema profile; individually reviewed awaiting delivery |
+| POD-EDIT-814 | [Odisha’s Buddhist Triangle: three places, distinct histories](https://projectodisha.org/stories/buddhist-diamond-triangle/) | completed | new_researched_article |
