@@ -1,0 +1,84 @@
+{
+  "status": "reviewed_local_candidate",
+  "owner": "Disha",
+  "authorization": "Founder: unify line art across website and books; colour cover with line-art interiors agreed.",
+  "base": "59d2a576d03ed44eb97924b665e6118f701a4424",
+  "scope": "Dhaga artwork, entry art references, generated reader/PDF/public derivatives, provenance and reviewed publication receipt",
+  "preserve": "All159 entry text/source evidence, original artwork,75pending,1893/1926research cursors, filler motifs and unrelated cinema publication",
+  "workers": {
+    "Anvesha": "69asset audit/generation/text review and PDF1–43",
+    "Samanta": "Scoped cover implementation/generation and engineering self-review",
+    "Drishti": "Separate69selectedasset review, PDF1–3/44–86 review; exact-head gate pending"
+  },
+  "release_condition": "Reviewed PR, passing checks, approved deployment and verified live receipt",
+  "programme_credit": 0,
+  "id": "POD-DHAGA-UNIFIED-ART-20261026",
+  "candidate_count": 69,
+  "retained_art_count": 90,
+  "audit_addendum": "Seven small remaining tints found by read-only palette diagnostic and individual full-resolution inspection; tint-only edits added.",
+  "artwork_gate": {
+    "selected": 69,
+    "retained": 90,
+    "separate_ai_visual_review": "passed for each selected file",
+    "manifest": "projects/odia-dhaga/evidence/unified-art-2026-10-26/manifest.json",
+    "human_review": false
+  },
+  "pdf": {
+    "pages": 86,
+    "bytes": 77985781,
+    "sha256": "fac7cfc050d4cf3a8124611c719e202266efae603a7330f99531b2eba5a30ab8"
+  },
+  "rendered_pdf_gate": "All86 pages separately visually AI reviewed; no physical proof",
+  "website_gate": {
+    "kind": "actual browser visual review by coordinator",
+    "viewports": [
+      [
+        1280,
+        720
+      ],
+      [
+        1280,
+        900
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "routes": [
+      "/dhaga/",
+      "/dhaga/sayings/pod-dhaga-001.html",
+      "/dhaga/sayings/pod-dhaga-031.html"
+    ],
+    "findings": "Colour cover intact; monochrome interiors clear after800px/q60 conversion; no horizontal overflow observed at390px; wood hatching remains legible.",
+    "limits": "Representative browser pages; every selected full-resolution asset separately reviewed. Live checks pending."
+  },
+  "pdf_commit": "29d6461b530c1789de9f789ba0d123db5005c07b",
+  "pdf_url": "https://raw.githubusercontent.com/ahimanikya/project-odisha/29d6461b530c1789de9f789ba0d123db5005c07b/projects/odia-dhaga/odia-dhaga-book.pdf",
+  "preceding_publication_observation": {
+    "scope": "Narrow live-publication receipt for release sequencing only; preserves the Ratnagiri author handoff, article status and remaining Buddhist-series scopes. No new source review or article completion credit.",
+    "article": "/stories/ratnagiri/",
+    "pr": 574,
+    "merge": "05987648f114a1ae39b08956df7efbd1f040b85e",
+    "deployment": {
+      "run": 40281996362,
+      "conclusion": "success"
+    },
+    "observed_on": "2026-10-26",
+    "live_browser": "Actual page title Ratnagiri: A place built for learning, Founder byline, loaded695px photograph and6footnotes verified; desktop screenshot inspected.",
+    "release_sequencing": "Prior deployment completed and live result verified; no active publication job. Dhaga does not modify the Ratnagiri claim or its future work."
+  },
+  "web_derivatives": {
+    "width": 760,
+    "quality": 60,
+    "purpose": "Match existing760px maximum figure display while staying within whole-site1GB hosting budget. Full-resolution artwork and PDF unchanged.",
+    "local_export_bytes": 17153930,
+    "review": "Desktop760px native/display match and390px phone hatching rechecked in actual browser; three focused export tests passed.",
+    "previous_ci": {
+      "run": 40286094106,
+      "result": "failed only final publication1GB gate at1000267007bytes"
+    },
+    "expected_saving_bytes_vs_ci": 823934,
+    "final_ci": "pending"
+  }
+}
