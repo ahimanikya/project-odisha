@@ -1,0 +1,62 @@
+{
+  "review_type": "Separate AI Odia/English reflective-prose review using Human Natural Translation skill; not human/native-speaker review",
+  "input_head": "21a471da0a03d47ce03aaf269f9d174fe8bd7bd2",
+  "draft_sha256": "797e9352a4451dc4730b0ffd1fdf3f6b42b3900b6e66059e597fbd83a0447003",
+  "status": "ACCEPTABLE_WITH_TWO_NARROW_CORRECTIONS",
+  "coverage": {
+    "sections": 6,
+    "paragraph_pairs": 12,
+    "all_read": true
+  },
+  "findings": [
+    {
+      "priority": "correct_before_freeze",
+      "section": "language-within",
+      "paragraph": 0,
+      "issue": "ଚେଷ୍ଟା କରି ମନେ ରଖିବା ଆଗରୁ ବି ସେ ମୋ ଭିତରେ ଅଛି means before trying, whereas English says without deliberate effort. Temporal phrasing feels translated and changes the point.",
+      "replace_odia": "ମନେ ରଖିବାକୁ ଅଲଗା ଚେଷ୍ଟା ନ କଲେ ବି ସେହି ଭାଷା ମୋ ଭିତରେ ରହିଛି।",
+      "english_change_required": false
+    },
+    {
+      "priority": "correct_before_freeze",
+      "section": "pictures-that-think",
+      "paragraph": 1,
+      "issue": "Exact quoted cloud Dhaga has empty source_ids although existing007 cites Bibidha.",
+      "action": "Add dhaga-wikiquote-bibidha; optionally link POD-DHAGA-007 internally as quote crosswalk. No new source interpretation."
+    },
+    {
+      "priority": "optional_polish",
+      "section": "pictures-that-think",
+      "paragraph": 0,
+      "issue": "ସମ୍ପର୍କରେ ପରିମାଣ ବୁଝିବା is understandable but abstract; appropriate limit is more natural here.",
+      "suggestion": "ଲେମ୍ବୁର ଚିତ୍ର ଏଠି ସମ୍ପର୍କରେ କେଉଁଠି ଅଟକିବା ଦରକାର, ତାହା ବୁଝାଏ।"
+    },
+    {
+      "priority": "optional_polish",
+      "section": "learn-through-life",
+      "paragraph": 0,
+      "issue": "ତାହାର ଚିତ୍ରଟି ପଚାରିପାରିବା is clunky: ask about the image, not ask the image.",
+      "suggestion": "ତାହା ଶୁଣି କେଉଁ ଚିତ୍ର ମନକୁ ଆସୁଛି ବୋଲି ପଚାରିପାରିବା।"
+    }
+  ],
+  "testimony_assessment": "Thirty-five years outside Odisha and language remaining within him track the direct Founder testimony supplied by coordinator. No invented relatives, hometown episodes, childhood conversations, migration dates or occupations. Added reflections are literary development, not independently sourced biographical incidents.",
+  "source_assessment": "1893 paragraph confines itself to existing title-page publisher/press/place/date and lemon attestation; does not invent origin or author.001/006/007 quotations checked against current entry headwords. Intro examples are recognizable editorial readings, not documented historic uses.",
+  "cultural_depth": "Goes beyond grammar or a bare proverb list: tone/relationship, moderation, self-criticism, version listening, learning by contextual questions, and critical handling of prejudice. Six sections form a coherent reflective introduction. Child-learning suggestions framed invitations, not evidence-backed efficacy claims.",
+  "bilingual_assessment": "All12 pairs substantively aligned apart from flagged temporal sentence. English sometimes compresses Odia illustrative questions and metaphors, without losing argument. No gender/kinship invention found.",
+  "cleanup_execution_review": {
+    "decision": "APPROVED_CONDITIONALLY_FOR77_WORKING_COPY_REMOVALS",
+    "scope": "76inactive baseline images plus old colour lemon cover only after replacement is integrated; no source scans/licences/font files.",
+    "conditions": [
+      "Root verifies public immutable21a471da archive URLs and exact hashes before deletion.",
+      "New manifest maps every deleted relative path to immutable URL/Gitblob/SHA; preserve existing historical evidence rather than rewriting its claims.",
+      "Update lemon-moderation.svg test dependency and all active cover builder/export references before removing old cover.",
+      "Ensure all159selected images and3fillers remain; final builders/export/tests/provenance resolver pass."
+    ],
+    "limits": "Old cover was active at audit baseline; additional removal is conditional on new-cover integration, not already safe in the current rendered book."
+  },
+  "limits": [
+    "No new primary-source retrieval or human proofreading; historical assertion assessed against established corpus record.",
+    "No final rendered intro/cover or full revised PDF review yet.",
+    "Only output reports changed."
+  ]
+}
