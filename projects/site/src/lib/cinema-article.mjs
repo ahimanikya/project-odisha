@@ -6,7 +6,7 @@ const root=[process.cwd(),path.resolve(process.cwd(),'../..')].find(candidate=>f
 if(!root)throw Error('Cinema sources require the repository or site build working directory');
 export const cinema=JSON.parse(fs.readFileSync(path.join(root,'projects/site/src/data/cinema.json'),'utf8'));
 const escape=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;');
-export function picture(image,alt,priority=false){const set=format=>image.derivatives.filter(d=>d.format===format).map(d=>`${d.file} ${d.width}w`).join(', ');const sizes='(max-width: 784px) calc(100vw - 44px), 740px';return `<picture><source type="image/webp" srcset="${set('webp')}" sizes="${sizes}"><img src="${image.file}" srcset="${set('jpeg')}" sizes="${sizes}" alt="${escape(alt)}" width="${image.width}" height="${image.height}" ${priority?'fetchpriority="high"':'loading="lazy"'} decoding="async"></picture>`;}
+export function picture(image,alt,priority=false){const set=format=>image.derivatives.filter(d=>d.format===format).map(d=>`${d.file} ${d.width}w`).join(', ');const sizes='(max-width: 784px) calc(100vw - 44px), 740px';return `<picture><img src="${image.file}" srcset="${set('jpeg')}" sizes="${sizes}" alt="${escape(alt)}" width="${image.width}" height="${image.height}" ${priority?'fetchpriority="high"':'loading="lazy"'} decoding="async"></picture>`;}
 const knownRoutes={'kb/research/culture/prahallad-nataka.md':'/stories/prahlada-nataka/','kb/research/culture/ashta-nayika.md':'/stories/ashta-nayika/','kb/research/culture/odissi-abhinaya.md':'/stories/odissi-abhinaya/','kb/research/culture/champu-and-sakhi.md':'/literature/champu-and-sakhi/'};
 export function cinemaArticle(entry){
  const source=fs.readFileSync(path.join(root,entry.source),'utf8'),images={},imageDimensions={},links={};
@@ -17,7 +17,7 @@ export function cinemaArticle(entry){
  const hero=entry.images.find(i=>i.role==='title');
  article.html=article.html.replace(new RegExp(`<figure><img[^>]*src="${hero.file.replaceAll('.','\\.')}"[\\s\\S]*?<\\/figure>`),'');
  for(const image of entry.images){const expression=new RegExp(`<img[^>]*src="${image.file.replaceAll('.','\\.')}"[^>]*>`,'g');article.html=article.html.replace(expression,img=>picture(image,img.match(/alt="([^"]*)"/)?.[1]||'',false));}
- const heroHTML=`<figure class="cinema-hero">${picture(hero,entry.hero.alt,true)}<figcaption>${escape(entry.hero.caption||'AI-generated editorial illustration created for this article; not a film still, historical photograph or reconstruction of a documented scene.')}</figcaption></figure>`;
+ const heroHTML=`<figure class="cinema-hero">${picture(hero,entry.hero.alt,true)}<figcaption>${escape(entry.hero.caption||'Editorial illustration; not a film still, historical photograph or reconstruction of a documented scene.')}</figcaption></figure>`;
  const marker='<h2 id="further-reading">Further reading</h2>';
  if(!article.html.includes(marker))throw Error('Missing further reading '+entry.slug);
  const [body,tail]=article.html.split(marker);const sections=[];let cursor=0;

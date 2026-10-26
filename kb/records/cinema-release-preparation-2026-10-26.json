@@ -1,5 +1,5 @@
 {
-  "status": "publication_authorized_final_checks",
+  "status": "website_validated_pdf_disclosure_review",
   "authorization": "User: ok, let\u2019s go, after recommendation to complete alignment/checks and publish articles, book and viewing room together.",
   "source_checkout": "prahallad-nataka-research",
   "release_checkout": "odia-cinema-release-20261026",
@@ -22,30 +22,32 @@
     "Disha": "shared release records, Git and publication"
   },
   "outstanding": [
-    "Final article alignment review",
-    "Website build and checks",
-    "Pull request checks/merge",
-    "Authorized manual deployment",
+    "Separate final PDF review",
+    "Push and PR checks/merge",
+    "Both PDF release uploads and hash verification",
+    "Manual deployment",
     "Live URL and viewing-room checks"
   ],
   "download_delivery": {
-    "digital": "site /archive/odia-cinema-a-living-screen.pdf",
+    "digital": "GitHub release odia-cinema-book-2026-10-26 asset odia-cinema-a-living-screen.pdf",
     "print": "GitHub release odia-cinema-book-2026-10-26 asset; unchanged reviewed PDF",
-    "reason": "Full artifact 1078312283 bytes exceeds Pages 1 GB limit; omit print PDF from Pages artifact while preserving public downloadable edition.",
+    "reason": "Newer upstream Dhaga content raised combined artifact to 1,013,633,923 bytes; both reviewed PDFs use release downloads and unreferenced alternative WebP cinema derivatives are excluded while full responsive JPEGs remain unchanged.",
     "limit_source": "https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits"
   },
   "checks": {
     "full_build": "PASS",
-    "full_tests": 599,
+    "full_tests": 602,
     "coast_tests": 515,
     "publication": "PASS",
     "kb_bundle": "PASS",
     "catalogue": "PASS",
     "registers": "PASS",
     "rollout": "PASS",
-    "autonomous_program": "PASS"
+    "autonomous_program": "PASS",
+    "public_disclosure": "PASS, full/coast/published artifacts",
+    "pdf_disclosure_revision": "Implementation and focused hash tests PASS; separate final review pending"
   },
-  "artifact_bytes": 996205516,
+  "artifact_bytes": 998812266,
   "artifact_limit_bytes": 1000000000,
   "indexable_routes_unchanged": 11,
   "print_release_pending": true,
@@ -59,7 +61,8 @@
     "result": "rejected",
     "reason": "Export of hundreds of project and KB files to external public Git repository requires explicit authorization for exact source payload and destination; repository trust/privacy not established by approval review.",
     "payload": "462 changed files: cinema articles, research/evidence/review records, credited images, source code, player sources and both PDFs; existing unrelated site work preserved.",
-    "next": "Ask user explicit approval for reviewed source payload and destination. Do not bypass rejection. After approval push same reviewed branch, create and attach PR, await checks, merge, upload verified print release, deploy, verify live."
+    "next": "Ask user explicit approval for reviewed source payload and destination. Do not bypass rejection. After approval push same reviewed branch, create and attach PR, await checks, merge, upload verified print release, deploy, verify live.",
+    "resolution": "User explicitly requested publication of everything on Odia Cinema after public destination and source record export were explained; previous rejection preserved as history."
   },
   "curation_revision": {
     "user_direction": "Balanced editorial selection; remove broad commercial-entertainment listings",
@@ -75,5 +78,13 @@
     "quote": "Let's do that publlish everything on Odia Cinema?",
     "context": "Direct reply after public repository destination and inclusion of research/review records alongside articles, images, PDFs and code were explained.",
     "scope": "Cinema source release, merge, print asset upload, website deployment and live verification; no social posting"
-  }
+  },
+  "reviewed_merge_head": "b31c8016",
+  "latest_independent_review": {
+    "reviewer": "Drishti separate agent",
+    "result": "PASS",
+    "scope": "Latest curated candidate hashes match independently reviewed source; exact seven entries and public transfer verified. No browser/playback certification.",
+    "size_only_delta": "Drishti separate review PASS: JPEG srcsets/dimensions retained, both release PDF links correct, source image and PDF hashes unchanged, five focused tests pass."
+  },
+  "source_payload_audit": "Anvesha bounded read-only audit: no evidence of restricted contact/consent records or credential patterns in inspected text; not exhaustive binary/security clearance."
 }
