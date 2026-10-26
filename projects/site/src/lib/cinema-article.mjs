@@ -23,8 +23,8 @@ export function cinemaArticle(entry){
  const [body,tail]=article.html.split(marker);const sections=[];let cursor=0;
  for(const match of tail.matchAll(/<ul>([\s\S]*?)<\/ul>/g)){
   const prefix=tail.slice(cursor,match.index),heading=prefix.match(/<h3[^>]*>([\s\S]*?)<\/h3>/);
-  const readingLinks=[...match[1].matchAll(/<a href="([^"]+)">([\s\S]*?)<\/a>/g)].map(([,href,title])=>{const target=cinema.articles.find(a=>a.route===href);return {href:href.replaceAll('&amp;','&'),title:title.replace(/<[^>]*>/g,'').replaceAll('&amp;','&'),...(target?{image:target.images.find(i=>i.role==='title').file}:{})};});
-  sections.push({before:prefix.replace(heading?.[0]||'',''),heading:heading?.[1]||'Related readings',links:readingLinks});cursor=match.index+match[0].length;
+  const readingLinks=[...match[1].matchAll(/<a href="([^"]+)">([\s\S]*?)<\/a>/g)].map(([,href,title])=>{const target=cinema.articles.find(a=>a.route===href);return {href:href.replaceAll('&amp;','&'),title:title.replace(/<[^>]*>/g,'').replaceAll('&amp;','&'),...(target?{image:target.images.find(i=>i.role==='title').file,description:target.series_intro}:{})};});
+  sections.push({before:prefix.replace(heading?.[0]||'',''),heading:heading?.[1]||'Related readings',id:heading?.[0].match(/id="([^"]+)"/)?.[1],links:readingLinks,compactReferences:!readingLinks.some(link=>link.image)});cursor=match.index+match[0].length;
  }
  if(!sections.length)throw Error('Missing further-reading links '+entry.slug);
  let afterReading=tail.slice(cursor);const update=article.html.includes('/contribute/?page=')?'':`<p><strong><a href="/contribute/?page=${encodeURIComponent(entry.route)}">Suggest an update</a></strong>: share a source, film credit or precise correction. GitHub submissions are public; omit private contact details and consent documents.</p>`;afterReading+=update;article.html=heroHTML+body;

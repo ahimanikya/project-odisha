@@ -1,0 +1,32 @@
+{
+  "status": "reviewed_pending_delivery",
+  "active_article": "cinema-economics",
+  "request": "Restore economics/box-office article and improve Further reading design",
+  "workers": {
+    "Anvesha": "Read-only trace of book chapter and verification of four original sources; completed",
+    "Samanta": "Cinema reading-link layout/components and tests only",
+    "Drishti": "Independent integration review pending",
+    "Disha": "Canonical article, manifest, shared records, Git and delivery"
+  },
+  "finding": "Economics chapter retained as book chapter 13 but omitted from eleven-article website release",
+  "source": "output/pdf/book-text/cinema-economics.md",
+  "limitations": [
+    "NFDC loan is not total Maya Miriga budget",
+    "Bou Buttu Bhuta figures are dated reported estimates, not audited producer profit",
+    "No new full-movie catalogue entries or public-domain claims"
+  ],
+  "publication": "pending",
+  "review": {
+    "reviewer": "Drishti (separate AI agent)",
+    "result": "No blocking finding",
+    "checks": [
+      "Book prose preserved with local-link/frontmatter/navigation changes only",
+      "Six focused tests pass",
+      "Built page fragment targets and source links preserved",
+      "Shared component default unchanged; cinema opt-in compact layout"
+    ],
+    "limitations": [
+      "Browser layout inspection pending live delivery"
+    ]
+  }
+}

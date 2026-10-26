@@ -299,6 +299,10 @@ The [25 October 2026 screening snapshot](../../records/cinema-screening-snapshot
 - [Odia television: programmes and production workers](odia-television.md)
 - [The Odia OTT journey: commissioning and access](odia-ott.md)
 
+### Film finance and box-office success
+
+- [What Makes the Next Film Possible: budgets, box office and support](cinema-series/cinema-economics.md)
+
 ### Additional references
 
 - [Nandita Das: biographical reference](../people/nandita-das.md)

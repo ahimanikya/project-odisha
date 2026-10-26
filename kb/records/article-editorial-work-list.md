@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 800. completed: 112, excluded: 387, queued: 301.
+Route inventory: 801. completed: 112, excluded: 387, in_progress: 1, queued: 301.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -814,3 +814,4 @@ Route inventory: 800. completed: 112, excluded: 387, queued: 301.
 | POD-EDIT-798 | [ଦମନ (DAMaN): the road from Malkangiri to national recognition](https://projectodisha.org/cinema/daman/) | completed | Reviewed cinema article published and live delivery verified |
 | POD-EDIT-799 | [Odia television and the stories that came home](https://projectodisha.org/cinema/odia-television/) | completed | Reviewed cinema article published and live delivery verified |
 | POD-EDIT-800 | [The Odia OTT journey and the search for an audience](https://projectodisha.org/cinema/odia-ott/) | completed | Reviewed cinema article published and live delivery verified |
+| POD-EDIT-801 | [What Makes the Next Film Possible](https://projectodisha.org/cinema/cinema-economics/) | in_progress | Restore reviewed book economics chapter as standalone cinema article |
