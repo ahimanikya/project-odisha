@@ -1,0 +1,1539 @@
+{
+  "id": "POD-DHAGA-UNIFIED-ART-20261026",
+  "authorization": "Founder approved colour cover and consistent line-art interiors across website and books.",
+  "input_head": "59d2a576d03ed44eb97924b665e6118f701a4424",
+  "integration_base": "05987648f114a1ae39b08956df7efbd1f040b85e",
+  "adapted_count": 69,
+  "retained_count": 90,
+  "entry_count": 159,
+  "accepted_entry_increment": 0,
+  "programme_credit": 0,
+  "cover": {
+    "src": "assets/lemon-heritage-v1.png",
+    "sha256": "5f59025cecdba8c96aa590e7ea5138b6a0ccb07b203e80e45788f27423ecb8dc",
+    "treatment": "Original colour artwork preserved unchanged, used for cover only."
+  },
+  "review_type": "Separate AI visual review, not human or print proof",
+  "selection_addendum": "Initial62selection expanded by7after full-size tint checks; original audit and addendum retained.",
+  "preservation": {
+    "entry_text_sources_and_witnesses": true,
+    "all_original_selected_art": true,
+    "historical_cursors_and_pending_candidates": true
+  },
+  "records": [
+    {
+      "id": "POD-DHAGA-001",
+      "old_graphic": {
+        "src": "assets/lemon-heritage-v1.png",
+        "alt": "Two heritage-inspired painted scenes show a woman gently squeezing a lemon into a brass bowl, then pressing its flattened rind.",
+        "caption": "Original Pattachitra-inspired interpretation for Project Odisha, approved by the Founder; not an archival painting or a work attributed to a traditional artist. CC BY-SA4.0."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-001-unified-line-v1.png",
+        "alt": "Two line drawings show a woman gently squeezing a lemon into a bowl, then pressing its flattened rind.",
+        "caption": "Gentle pressure gives juice; pressing the rind too far brings bitterness. An interpretation of the saying."
+      },
+      "old_sha256": "5f59025cecdba8c96aa590e7ea5138b6a0ccb07b203e80e45788f27423ecb8dc",
+      "new_sha256": "b02f152b72d328792ffdf1cfe922d428e939edaae8b347afde3f665a6002581f",
+      "method": "image_gen built-in edit",
+      "prompt": "Edit target image1 into a black ink line drawing for a compact Odia proverb book interior. Image2 is style reference only: fine clear pen contours, light hatching, white paper, restrained detail. Preserve image1 two sequential scenes: same sari-clad woman gently squeezing lemon over bowl on left, pressing flattened rind on right. Preserve bowl, lemon and hand action clearly, anatomically credible hands. Remove coloured fills, painted texture, elaborate frame and architectural ornament; simplify backdrop and leave generous white space. Pure black/grey ink on pure white, no sepia, no colour, no text, no border. Landscape3:2. This is a redraw, not grayscale painted art.",
+      "generation_report": "generation-c.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "initial-review.json"
+    },
+    {
+      "id": "POD-DHAGA-002",
+      "old_graphic": {
+        "src": "assets/dhaga-002-illustration-v1.png",
+        "alt": "A person beckons toward a horned ox from across a courtyard.",
+        "caption": "Inviting the trouble one could avoid."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-002-unified-line-v1.png",
+        "alt": "A person beckons toward a horned ox from across a courtyard.",
+        "caption": "Inviting the trouble one could avoid."
+      },
+      "old_sha256": "747254c0204e702156bded5986facba73ba7fca0dea3b0295ffb147f392e59a9",
+      "new_sha256": "4726a9302f17719b93547d436739af9e83307d6a34e3a953b9a6f1591e82b7a0",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Edit target is image1; image2 is STYLE ONLY, do not import its people or objects. Redraw image1 as coherent monochrome pen-and-ink book illustration matching image2: black/grey contours and delicate light hatching on pure white, generous white negative space, NO coloured or sepia fills, NO painterly wash, no heavy grey background. Preserve exact scene, subject count, poses, culturally credible clothing, metaphor, anatomy and important props. Simplify incidental scenery into sparse contours without changing meaning. No text, letters, watermark or border. Target scene: A person beckons toward a horned ox from across a courtyard. Meaning (context only, do not add text or objects): The speaker imagines someone summoning the very trouble they could have avoided. Used ironically, it criticises an unnecessary provocation or a knowingly risky decision. It should not be used to blame someone for harm they did not choose.",
+      "generation_report": "generation-a.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-a.json"
+    },
+    {
+      "id": "POD-DHAGA-003",
+      "old_graphic": {
+        "src": "assets/dhaga-003-illustration-v1.png",
+        "alt": "Two neighbours share a shawl at a courtyard gate in cool-season light.",
+        "caption": "Another season may bring another need for help."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-003-unified-line-v1.png",
+        "alt": "Two neighbours share a shawl at a courtyard gate in cool-season light.",
+        "caption": "Another season may bring another need for help."
+      },
+      "old_sha256": "61b5c24e702630ec4dee2ba525b34da4f6da50f5516f75798552b0de3e107853",
+      "new_sha256": "0c1bfe8d878ff7c3bde553209536da7d9451049c62d96548968133124199b579",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Edit target is image1; image2 is STYLE ONLY, do not import its people or objects. Redraw image1 as coherent monochrome pen-and-ink book illustration matching image2: black/grey contours and delicate light hatching on pure white, generous white negative space, NO coloured or sepia fills, NO painterly wash, no heavy grey background. Preserve exact scene, subject count, poses, culturally credible clothing, metaphor, anatomy and important props. Simplify incidental scenery into sparse contours without changing meaning. No text, letters, watermark or border. Target scene: Two neighbours share a shawl at a courtyard gate in cool-season light. Meaning (context only, do not add text or objects): One difficult season is not the last occasion on which we may need help. The saying can warn against treating a temporary advantage as permanent, or remind someone who refuses help that circumstances may change. Tone matters: it can sound like practical advice or a pointed warning.",
+      "generation_report": "generation-a.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-a.json"
+    },
+    {
+      "id": "POD-DHAGA-004",
+      "old_graphic": {
+        "src": "assets/dhaga-004-illustration-v1.png",
+        "alt": "A beginner practises on a shoulder-slung drum while a companion demonstrates.",
+        "caption": "An imagined drum illustrates learning through responsibility; the saying names no instrument."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-004-unified-line-v1.png",
+        "alt": "A beginner practises on a shoulder-slung drum while a companion demonstrates.",
+        "caption": "An imagined drum illustrates learning through responsibility; the saying names no instrument."
+      },
+      "old_sha256": "0435f54dc62f34dd25490254ec4d70573f96628ed2b632a28d1a5d4ccf859ec7",
+      "new_sha256": "d99a27ecfe797122370eda62cd3045b52610a92c7c4bc370d35b65a7ac06cf04",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Edit target is image1; image2 is STYLE ONLY, do not import its people or objects. Redraw image1 as coherent monochrome pen-and-ink book illustration matching image2: black/grey contours and delicate light hatching on pure white, generous white negative space, NO coloured or sepia fills, NO painterly wash, no heavy grey background. Preserve exact scene, subject count, poses, culturally credible clothing, metaphor, anatomy and important props. Simplify incidental scenery into sparse contours without changing meaning. No text, letters, watermark or border. Target scene: A beginner practises on a shoulder-slung drum while a companion demonstrates. Meaning (context only, do not add text or objects): Taking responsibility can force a beginner to learn the necessary skill. The compressed wording leaves the instrument unnamed; imagining a carried percussion instrument helps explain the metaphor, but does not establish which instrument first inspired it. This is encouragement to learn through doing, not a guarantee that preparation is unnecessary.",
+      "generation_report": "generation-a.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-a.json"
+    },
+    {
+      "id": "POD-DHAGA-005",
+      "old_graphic": {
+        "src": "assets/dhaga-005-illustration-v2.png",
+        "alt": "Two resting hands flank a bare, unbroken piece of straw on a wooden tabletop.",
+        "caption": "Even a single straw remains untouched."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-005-unified-line-v1.png",
+        "alt": "Two resting hands flank a bare, unbroken piece of straw on a wooden tabletop.",
+        "caption": "Even a single straw remains untouched."
+      },
+      "old_sha256": "a96fe7a5193bcae3eccd37d124e0fa203d4f11d8066e35f7eab7dec2b764a97f",
+      "new_sha256": "d96fd45f8aaad5bc39a2f23e835cbd8829c5d008a0d70ee21059009aab6e056d",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Edit target is image1; image2 is STYLE ONLY, do not import its people or objects. Redraw image1 as coherent monochrome pen-and-ink book illustration matching image2: black/grey contours and delicate light hatching on pure white, generous white negative space, NO coloured or sepia fills, NO painterly wash, no heavy grey background. Preserve exact scene, subject count, poses, culturally credible clothing, metaphor, anatomy and important props. Simplify incidental scenery into sparse contours without changing meaning. No text, letters, watermark or border. Target scene: Two resting hands flank a bare, unbroken piece of straw on a wooden tabletop. Meaning (context only, do not add text or objects): This expression makes a very small action stand for any contribution at all. Saying that someone has not done even this means they have done no work in the situation being discussed. It is an idiomatic phrase rather than a complete rhymed maxim.",
+      "generation_report": "generation-a.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-a.json"
+    },
+    {
+      "id": "POD-DHAGA-006",
+      "old_graphic": {
+        "src": "assets/dhaga-006-illustration-v1.png",
+        "alt": "A person explains orderly baskets while similar baskets sit tipped inside their own doorway.",
+        "caption": "Advice also needs a place at home."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-006-unified-line-v1.png",
+        "alt": "A person explains orderly baskets while similar baskets sit tipped inside their own doorway.",
+        "caption": "Advice also needs a place at home."
+      },
+      "old_sha256": "cfd1b2242f7dd25b83ec01be66a49e1557770741020a87586cc3af95af6b5d11",
+      "new_sha256": "40a37c27623f2591c81195836e21d5b52b09da4de82c80d515c34535fae713c0",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Image1 is edit target; image2 STYLE ONLY, never copy its objects. Convert only illustration style to black/grey ink contours and light hatching on pure white, matching image2. No sepia, colour, coloured fills, painterly wash or grey background. Generous white space; preserve composition, subject count, poses, facial expressions, clothing, anatomy, metaphor and props. For already tinted line art preserve the original linework with minimal edit, removing tint/fills only. No invented text or additional objects. Scene: A person explains orderly baskets while similar baskets sit tipped inside their own doorway. Meaning, context only: The criticism is the gap between giving advice and practising it. The outward-facing adviser appears wise, yet fails to apply that wisdom to their own affairs. The saying invites self-examination; it does not imply that advice is worthless whenever its giver has difficulties.",
+      "generation_report": "generation-a.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-a.json"
+    },
+    {
+      "id": "POD-DHAGA-007",
+      "old_graphic": {
+        "src": "assets/thunder-no-rain-line-v1.png",
+        "alt": "An ink-drawn thundercloud and lightning hang above an empty bowl on dry ground.",
+        "caption": "Thunder fills the air; the bowl stays empty. An illustration of noise without results. Original illustration for Project Odisha · CC BY-SA 4.0."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-007-unified-line-v1.png",
+        "alt": "An ink-drawn thundercloud and lightning hang above an empty bowl on dry ground.",
+        "caption": "Thunder fills the air; the bowl stays empty. An illustration of noise without results. Original illustration for Project Odisha · CC BY-SA 4.0."
+      },
+      "old_sha256": "d69e2172fb86a97e860f524a5045d3709110827d50983567947f2335aa2f8a44",
+      "new_sha256": "4bdce67a887036d9377f47f09eaf2fdafc8b130ffb67bf9fa1d1fb506904b430",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Image1 is edit target; image2 STYLE ONLY, never copy its objects. Convert only illustration style to black/grey ink contours and light hatching on pure white, matching image2. No sepia, colour, coloured fills, painterly wash or grey background. Generous white space; preserve composition, subject count, poses, facial expressions, clothing, anatomy, metaphor and props. For already tinted line art preserve the original linework with minimal edit, removing tint/fills only. No invented text or additional objects. Scene: An ink-drawn thundercloud and lightning hang above an empty bowl on dry ground. Meaning, context only: The contrast between loud thunder and absent rain is used to question bluster: impressive promises or threats do not necessarily lead to action. Read the sentence figuratively. Thunderstorms can, of course, bring rain; the proverb is not a dependable weather rule.",
+      "generation_report": "generation-a.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-a.json"
+    },
+    {
+      "id": "POD-DHAGA-008",
+      "old_graphic": {
+        "src": "assets/preparation-timeline.svg",
+        "alt": "Planting must precede growing and harvesting; starting at the moment a meal is needed is too late.",
+        "caption": "Original explanatory diagram by Project Odisha, CC BY-SA 4.0; an interpretation of the saying, not a historical illustration."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-008-unified-line-v1.svg",
+        "alt": "Planting must precede growing and harvesting; starting at the moment a meal is needed is too late.",
+        "caption": "Original explanatory diagram by Project Odisha, CC BY-SA 4.0; an interpretation of the saying, not a historical illustration."
+      },
+      "old_sha256": "54f244f9bf0ad012dc7ef9a02fc914e656f4e1bec856766706847aa3f509de35",
+      "new_sha256": "a61b82947e24b9efb4a41025b5719922318d6026aa6d7c41f8476a3c90863104",
+      "method": "native SVG palette and outline edit",
+      "prompt": "Preserve exact SVG text and geometry. Neutral black strokes, white background and outlined plant/fruit shapes replace coloured fills.",
+      "generation_report": "generation-c.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-c.json"
+    },
+    {
+      "id": "POD-DHAGA-009",
+      "old_graphic": {
+        "src": "assets/dhaga-009-illustration-v1.png",
+        "alt": "A seated adult gestures angrily toward a small bowl on a table.",
+        "caption": "Frustration turns toward the wrong object."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-009-unified-line-v1.png",
+        "alt": "A seated adult gestures angrily toward a small bowl on a table.",
+        "caption": "Frustration turns toward the wrong object."
+      },
+      "old_sha256": "4d95fb8a9ed88ef2e015764eaad744da5c5e755c16017009543ef4e19f3d5b37",
+      "new_sha256": "0e8475c47c721d3f1e34574a3cc0a9832e812eacf1257879ad34fe9bcc0c3449",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Image1 is edit target; image2 STYLE ONLY, never copy its objects. Convert only illustration style to black/grey ink contours and light hatching on pure white, matching image2. No sepia, colour, coloured fills, painterly wash or grey background. Generous white space; preserve composition, subject count, poses, facial expressions, clothing, anatomy, metaphor and props. For already tinted line art preserve the original linework with minimal edit, removing tint/fills only. No invented text or additional objects. Scene: A seated adult gestures angrily toward a small bowl on a table. Meaning, context only: The unpleasant thing is the medicine, but the anger is directed at its container. The expression describes displaced frustration: attacking a messenger, object or bystander instead of addressing the actual problem.",
+      "generation_report": "generation-a.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-a.json"
+    },
+    {
+      "id": "POD-DHAGA-010",
+      "old_graphic": {
+        "src": "assets/dhaga-010-illustration-v1.png",
+        "alt": "A few game counters lie between two friends as others join their argument.",
+        "caption": "A small disagreement gathers a much larger quarrel."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-010-unified-line-v1.png",
+        "alt": "A few game counters lie between two friends as others join their argument.",
+        "caption": "A small disagreement gathers a much larger quarrel."
+      },
+      "old_sha256": "6a10febaa5b2eb9bf2d0790a33380d85782bd7a8a8b27def2c21692e2bb0d1ca",
+      "new_sha256": "22ae6a438718e1c6bba0e691a5a9850aea817b0348654b003642edd9ad570165",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Image1 is edit target; image2 STYLE ONLY, never copy its objects. Convert only illustration style to black/grey ink contours and light hatching on pure white, matching image2. No sepia, colour, coloured fills, painterly wash or grey background. Generous white space; preserve composition, subject count, poses, facial expressions, clothing, anatomy, metaphor and props. For already tinted line art preserve the original linework with minimal edit, removing tint/fills only. No invented text or additional objects. Scene: A few game counters lie between two friends as others join their argument. Meaning, context only: A small disagreement grows into an outsized conflict. The Mahabharata provides a culturally recognisable scale of conflict. The expression is not evidence that the epic war literally began with this named game, and the game’s precise historical rules have not been established here.",
+      "generation_report": "generation-a.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-a.json"
+    },
+    {
+      "id": "POD-DHAGA-012",
+      "old_graphic": {
+        "src": "assets/dhaga-012-illustration-v1.png",
+        "alt": "Two friends calmly leave an animated discussion at a doorway.",
+        "caption": "Choosing one’s own response."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-012-unified-line-v1.png",
+        "alt": "Two friends calmly leave an animated discussion at a doorway.",
+        "caption": "Choosing one’s own response."
+      },
+      "old_sha256": "6cf85de26e82fca0b496ce88681eba0987bfad57c012c7c12b8c0bbd6039458f",
+      "new_sha256": "1c0ae416465074bf7a9c90fcd67bdf1ac022116531a25ff339003b97bba952d3",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Image1 edit target, image2 STYLE ONLY. Preserve scene and metaphor, subject count and poses, expressions, anatomy and culturally credible clothing/props. Redraw ONLY style as black/grey pen contours with sparse light hatching on pure white, like reference2. No sepia/colour/painterly wash or heavy grey filled backgrounds. Generous white space, no lettering/watermark. For tinted line art retain linework with minimal style edit. Scene: Two friends calmly leave an animated discussion at a doorway. Meaning for context only: The friendly address makes this advice sound like one person speaking directly to another: preserve your dignity through your own conduct. It may counsel restraint when someone is tempted to join a humiliating quarrel or chase approval. It does not make a person responsible for mistreatment inflicted by others.",
+      "generation_report": "generation-a.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-a.json"
+    },
+    {
+      "id": "POD-DHAGA-014",
+      "old_graphic": {
+        "src": "assets/dhaga-014-illustration-v1.png",
+        "alt": "A person sweeps a stick into the darkness of an empty courtyard.",
+        "caption": "Effort needs a direction."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-014-unified-line-v1.png",
+        "alt": "A person sweeps a stick into the darkness of an empty courtyard.",
+        "caption": "Effort needs a direction."
+      },
+      "old_sha256": "19bd1d1b9a54fa0e6ec3dcf0bd9b1eb43b8b78d0a6d2dd47bf65b13084b4a55e",
+      "new_sha256": "5265f5b4d2a967e2bd13354428132c11d90d9fdac7cecda550a947d37de3ac27",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Image1 edit target, image2 STYLE ONLY. Preserve scene and metaphor, subject count and poses, expressions, anatomy and culturally credible clothing/props. Redraw ONLY style as black/grey pen contours with sparse light hatching on pure white, like reference2. No sepia/colour/painterly wash or heavy grey filled backgrounds. Generous white space, no lettering/watermark. For tinted line art retain linework with minimal style edit. Keep the single person swinging a stick into empty uncertain darkness, suggest night only with restrained sparse hatching; no victims or new targets. Scene: A person sweeps a stick into the darkness of an empty courtyard. Meaning for context only: A stick swung in darkness may miss its intended target because the person cannot see where to aim. The expression describes guesses or effort without adequate information. Its criticism is not that no effort is being made, but that effort has no dependable direction.",
+      "generation_report": "generation-a.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-a.json"
+    },
+    {
+      "id": "POD-DHAGA-016",
+      "old_graphic": {
+        "src": "assets/dhaga-016-illustration-v1.png",
+        "alt": "Two adults weigh household needs beside a coin purse, school bag and lamp needing repair.",
+        "caption": "A small purse faces several necessary expenses."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-016-unified-line-v1.png",
+        "alt": "Two adults weigh household needs beside a coin purse, school bag and lamp needing repair.",
+        "caption": "A small purse faces several necessary expenses."
+      },
+      "old_sha256": "d6d2356265b973f6ceace11790ced0cec3c9448c92e1cffe426cbca7d3f5b287",
+      "new_sha256": "1bc0c0edc974de0a8eb9313826589bec78924af8b020c3ff25f550fb3a9141a5",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Image1 edit target, image2 STYLE ONLY. Preserve scene and metaphor, subject count and poses, expressions, anatomy and culturally credible clothing/props. Redraw ONLY style as black/grey pen contours with sparse light hatching on pure white, like reference2. No sepia/colour/painterly wash or heavy grey filled backgrounds. Generous white space, no lettering/watermark. For tinted line art retain linework with minimal style edit. Scene: Two adults weigh household needs beside a coin purse, school bag and lamp needing repair. Meaning for context only: The line connects limited means with the distress of being unable to meet needs. Its compact rhyme can express sympathy for someone trying to make a small sum cover many demands. It need not be read as an accusation of greed or a judgement about character.",
+      "generation_report": "generation-a.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-a.json"
+    },
+    {
+      "id": "POD-DHAGA-017",
+      "old_graphic": {
+        "src": "assets/dhaga-017-illustration-v2.png",
+        "alt": "Two adults pause over a box of hand tools beside a purse and empty serving bowls.",
+        "caption": "Keep tomorrow’s work in mind today—a modern work-tool analogy."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-017-unified-line-v1.png",
+        "alt": "Two adults pause over a box of hand tools beside a purse and empty serving bowls.",
+        "caption": "Keep tomorrow’s work in mind today—a modern work-tool analogy."
+      },
+      "old_sha256": "09e7e91b4cacdcfdb62a2dd93d3f86c539c80a9fb1bfa0466fc36f659bc5cfb9",
+      "new_sha256": "79c68f3be2c17b16b469072f59c6eefe2b0d0b86021aa5a203a50c81e965130e",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Image1 edit target, image2 STYLE ONLY. Preserve scene and metaphor, subject count and poses, expressions, anatomy and culturally credible clothing/props. Redraw ONLY style as black/grey pen contours with sparse light hatching on pure white, like reference2. No sepia/colour/painterly wash or heavy grey filled backgrounds. Generous white space, no lettering/watermark. For tinted line art retain linework with minimal style edit. Scene: Two adults pause over a box of hand tools beside a purse and empty serving bowls. Meaning for context only: The teasing question asks what will remain after today’s enjoyment. It warns against consuming the very means needed for tomorrow’s work. The pleasure is immediate, while the cost becomes visible only when work must resume.",
+      "generation_report": "generation-a.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-a.json"
+    },
+    {
+      "id": "POD-DHAGA-018",
+      "old_graphic": {
+        "src": "assets/dhaga-018-illustration-v1.png",
+        "alt": "Neighbours carry stools under a veranda as rain begins.",
+        "caption": "The plan changes with the weather."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-018-unified-line-v1.png",
+        "alt": "Neighbours carry stools under a veranda as rain begins.",
+        "caption": "The plan changes with the weather."
+      },
+      "old_sha256": "b2cf0322153a081f1b37096c0b683be6f5b0e4f7d13b7c7664c6db7be0b466a2",
+      "new_sha256": "08d68ba8735e0689136239fc113b91c6255ef8ddcfcda3e69ab1bca2a5918b56",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Image1 edit target; image2 STYLE ONLY. Redraw image1 in black/grey pen contours and sparse light hatching on pure white, matching image2. No colour or sepia, coloured fill, painterly wash or heavy grey background. Preserve composition, subject count and poses, expressions, anatomy, culturally credible clothing and important props/metaphor. Generous white negative space; no invented text or new objects. If existing image is tinted linework minimally restyle linework without scene changes. Scene: Neighbours carry stools under a veranda as rain begins. Meaning context only: This compressed expression advises a fitting response to the circumstances. It may interrupt someone who insists on handling every situation in the same way. The point is practical judgement about this occasion, rather than a rule that commitments can always be discarded.",
+      "generation_report": "generation-a.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-a.json"
+    },
+    {
+      "id": "POD-DHAGA-019",
+      "old_graphic": {
+        "src": "assets/dhaga-019-illustration-v2.png",
+        "alt": "A host greets a visitor while gesturing back toward the path, leaving an empty stool unused.",
+        "caption": "Warm words, no place offered."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-019-unified-line-v1.png",
+        "alt": "A host greets a visitor while gesturing back toward the path, leaving an empty stool unused.",
+        "caption": "Warm words, no place offered."
+      },
+      "old_sha256": "3e4d43a3c9c3446fde38d589dfb85c23fea7b3a3115d366163489630eca8cdca",
+      "new_sha256": "b1ee17705a926c9b44d99d9248e046cd6c4c9d22c986d7c129c6b1bcb51cc0df",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Image1 edit target; image2 STYLE ONLY. Redraw image1 in black/grey pen contours and sparse light hatching on pure white, matching image2. No colour or sepia, coloured fill, painterly wash or heavy grey background. Preserve composition, subject count and poses, expressions, anatomy, culturally credible clothing and important props/metaphor. Generous white negative space; no invented text or new objects. If existing image is tinted linework minimally restyle linework without scene changes. Scene: A host greets a visitor while gesturing back toward the path, leaving an empty stool unused. Meaning context only: The opening sounds hospitable, but the ending cancels the welcome. The humour lies in that sudden reversal: someone offers warm words while making it plain that the visitor is unwanted. Used pointedly, it exposes courtesy that provides no actual welcome.",
+      "generation_report": "generation-a.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-a.json"
+    },
+    {
+      "id": "POD-DHAGA-020",
+      "old_graphic": {
+        "src": "assets/dhaga-020-illustration-v2.png",
+        "alt": "A person examines a green stone through a loupe, with two green objects on the table.",
+        "caption": "Similar appearances invite a closer look."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-020-unified-line-v1.png",
+        "alt": "A person examines a small stone through a loupe, with two similar-looking objects on the table.",
+        "caption": "Similar appearances invite a closer look."
+      },
+      "old_sha256": "c281c1f9d62478771009bc317a821f5b91e7183ab025bdc54afa54cf7db41740",
+      "new_sha256": "ac092618e95ba935e7caa3d33d532942500eb814a65aca60d63a2be73ae84559",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Image1 edit target; image2 STYLE ONLY. Redraw image1 in black/grey pen contours and sparse light hatching on pure white, matching image2. No colour or sepia, coloured fill, painterly wash or heavy grey background. Preserve composition, subject count and poses, expressions, anatomy, culturally credible clothing and important props/metaphor. Generous white negative space; no invented text or new objects. If existing image is tinted linework minimally restyle linework without scene changes. Stones must become monochrome outlined facets, preserve loupe scrutiny and two stones on table; do NOT add any balance scale. Scene: A person examines a green stone through a loupe, with two green objects on the table. Meaning context only: Resemblance and confident claims are not enough to establish value. The saying imagines a transaction as the moment when differences become consequential. It can be used when an attractive promise finally has to face a practical test.",
+      "generation_report": "generation-a.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-a.json"
+    },
+    {
+      "id": "POD-DHAGA-023",
+      "old_graphic": {
+        "src": "assets/dhaga-023-illustration-v1.png",
+        "alt": "A woman rearranges stools while another organiser considers the empty seats and supplies.",
+        "caption": "The occasion puts the plan to the test."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-023-unified-line-v1.png",
+        "alt": "A woman rearranges stools while another organiser considers the empty seats and supplies.",
+        "caption": "The occasion puts the plan to the test."
+      },
+      "old_sha256": "782a09db7b86609553df0983d5230e530cfcdc2a066cd3e2eabb5b2685a25654",
+      "new_sha256": "be59b25e6f468871bddae9d608f838261118fbd571967d1f588328fb8f37f45a",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Image1 edit target; image2 STYLE ONLY. Redraw image1 in black/grey pen contours and sparse light hatching on pure white, matching image2. No colour or sepia, coloured fill, painterly wash or heavy grey background. Preserve composition, subject count and poses, expressions, anatomy, culturally credible clothing and important props/metaphor. Generous white negative space; no invented text or new objects. If existing image is tinted linework minimally restyle linework without scene changes. Scene: A woman rearranges stools while another organiser considers the empty seats and supplies. Meaning context only: An advance plan may look settled until circumstances put it to the test. The source explains the line as a warning that earlier arrangements can fall apart at the appointed time. It tempers certainty without making preparation itself pointless.",
+      "generation_report": "generation-a.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-a.json"
+    },
+    {
+      "id": "POD-DHAGA-024",
+      "old_graphic": {
+        "src": "assets/dhaga-024-illustration-v1.png",
+        "alt": "An organiser gestures toward several baskets beside a nearly empty box of notebooks.",
+        "caption": "Promises reach farther than the available supplies."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-024-unified-line-v1.png",
+        "alt": "An organiser gestures toward several baskets beside a nearly empty box of notebooks.",
+        "caption": "Promises reach farther than the available supplies."
+      },
+      "old_sha256": "e2ec721feef57e5b70cdbe45ba05eec7851d6bdf595aaf6f2c0b82d750ba5cff",
+      "new_sha256": "eeb48627ca0d29811bf11e6ba9733f383ff12714f6f42419bae549164059618c",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Image1 edit target; image2 STYLE ONLY. Preserve composition, subject count, poses, expressions, anatomy, clothing, metaphor and important props. Redraw only style as monochrome black/grey ink contours and sparse light hatching on pure white, like image2. No colour/sepia/coloured fills/painterly wash/heavy grey background; generous white space. For existing tinted linework, minimal style change only. No new objects/text/watermarks. Scene: An organiser gestures toward several baskets beside a nearly empty box of notebooks. Meaning context only: The speaker describes a mismatch between available means and a display of generosity. It can question a promise to provide for everyone when the giver has not secured enough to do so. Its irony concerns overextension; it need not belittle sharing during hardship.",
+      "generation_report": "generation-a.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-a.json"
+    },
+    {
+      "id": "POD-DHAGA-025",
+      "old_graphic": {
+        "src": "assets/dhaga-025-illustration-v1.png",
+        "alt": "A lizard raises its head on a low wall; curved strokes suggest a nod.",
+        "caption": "A nod need not mean understanding."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-025-unified-line-v1.png",
+        "alt": "A lizard raises its head on a low wall; curved strokes suggest a nod.",
+        "caption": "A nod need not mean understanding."
+      },
+      "old_sha256": "8d9694bcc4d2969f49c66bfc9159d340bac076dfe17814832c8f71f162ccb7f6",
+      "new_sha256": "2a49c7acaed730776deec76f39667a970c8aa31c698c83335974d179172a1b36",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Image1 edit target; image2 STYLE ONLY. Preserve composition, subject count, poses, expressions, anatomy, clothing, metaphor and important props. Redraw only style as monochrome black/grey ink contours and sparse light hatching on pure white, like image2. No colour/sepia/coloured fills/painterly wash/heavy grey background; generous white space. For existing tinted linework, minimal style change only. No new objects/text/watermarks. Scene: A lizard raises its head on a low wall; curved strokes suggest a nod. Meaning context only: A person keeps signalling agreement whether or not they understand what is being said. The source’s gloss makes the gap between the nod and comprehension explicit. The expression can tease empty assent or call attention to it when a real decision requires understanding.",
+      "generation_report": "generation-a.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-a.json"
+    },
+    {
+      "id": "POD-DHAGA-029",
+      "old_graphic": {
+        "src": "assets/dhaga-029-illustration-v1.png",
+        "alt": "A participant rests a hand on a closed notebook while three others discuss around a table.",
+        "caption": "The answer can wait; the matter remains."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-029-unified-line-v1.png",
+        "alt": "A participant rests a hand on a closed notebook while three others discuss around a table.",
+        "caption": "The answer can wait; the matter remains."
+      },
+      "old_sha256": "5147d6daf1483e0199ad1ce7b3bad0212a2c8876e43471dd56c1a112bf6fc406",
+      "new_sha256": "7558778dd84a89c115825b6af27725e338a5e0e242bb07ac4f94c891131105a7",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Image1 edit target; image2 STYLE ONLY. Preserve composition, subject count, poses, expressions, anatomy, clothing, metaphor and important props. Redraw only style as monochrome black/grey ink contours and sparse light hatching on pure white, like image2. No colour/sepia/coloured fills/painterly wash/heavy grey background; generous white space. For existing tinted linework, minimal style change only. No new objects/text/watermarks. Scene: A participant rests a hand on a closed notebook while three others discuss around a table. Meaning context only: The speaker declines an immediate reply while making clear that the matter is not forgotten. Depending on the situation, the line can sound restrained, pointed or quietly threatening. It preserves a future opportunity to answer rather than offering reconciliation now.",
+      "generation_report": "generation-a.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-a.json"
+    },
+    {
+      "id": "POD-DHAGA-031",
+      "old_graphic": {
+        "src": "assets/dhaga-031-illustration-v1.png",
+        "alt": "A hand rubs a cloth over a dark block of wood with visible grain.",
+        "caption": "The wood keeps its character under the polishing cloth."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-031-unified-line-v1.png",
+        "alt": "A hand rubs a cloth over a dark block of wood with visible grain.",
+        "caption": "The wood keeps its character under the polishing cloth."
+      },
+      "old_sha256": "4a221579c199f652b30ad41760894517dc660ebf84f2bf23922f9cca223bd7bd",
+      "new_sha256": "fc7d1a0466bd38023c7c233089f0fd3f7685209fa921f0cf4ccde1608ea5b4ec",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Image1 edit target; image2 STYLE ONLY. Preserve composition, subject count, poses, expressions, anatomy, clothing, metaphor and important props. Redraw only style as monochrome black/grey ink contours and sparse light hatching on pure white, like image2. No colour/sepia/coloured fills/painterly wash/heavy grey background; generous white space. For existing tinted linework, minimal style change only. No new objects/text/watermarks. Scene: A hand rubs a cloth over a dark block of wood with visible grain. Meaning context only: The speaker declares that repeated efforts to change or improve them will not work. The blunt material image can make the refusal comic, defiant or self-deprecating. It voices a stance in a conversation, not a truth that people cannot learn or change.",
+      "generation_report": "generation-a.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-a.json",
+      "correction": {
+        "id": "POD-DHAGA-031",
+        "previous_sha256": "ac77ae0532a2e4f28457472b0b10ecff7f524d2480615fc8e05ca16654db6a6c",
+        "selected_sha256": "fc7d1a0466bd38023c7c233089f0fd3f7685209fa921f0cf4ccde1608ea5b4ec",
+        "prompt": "Precise correction to this black ink illustration. Preserve the hand rubbing cloth, timber block shape, table, pose and composition. The block must read as DARK PARTLY CHARRED WOOD, not clean pale freshly sawn timber. Add irregular dark char-grain and restrained dense crosshatching on its near face and left end, with broken cracks and white gaps preserving clear pen linework. Keep hand/cloth/table lightly outlined, white paper background, no colour, no sepia or painted wash, no text. The hand is polishing wood but its dark character remains. Do not add fire or extra objects.",
+        "tool_output_path": "/Users/ahimanikya/.codex/generated_images/01a15f98-f531-70e0-b34b-c56040229b71/exec-659ab856-b634-4cd6-9373-1ef2866a6e7e.png",
+        "reason": "Restore dark wood contrast lost in first adaptation; review pending"
+      }
+    },
+    {
+      "id": "POD-DHAGA-032",
+      "old_graphic": {
+        "src": "assets/dhaga-032-illustration-v1.png",
+        "alt": "A woman remains calm while two friends urge her to change a decision.",
+        "caption": "Pressure need not decide the response."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-032-unified-line-v1.png",
+        "alt": "A woman remains calm while two friends urge her to change a decision.",
+        "caption": "Pressure need not decide the response."
+      },
+      "old_sha256": "c51299bbcffb554829be8ad59a0d7a8698f04f29ca82518aff036a09e69eb619",
+      "new_sha256": "72aaa888c646d624b21a979246b8c857503fa9c885e7aed77260980dac58333e",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Edit image1 only; image2 is black pen style reference only, not content. Create a single landscape illustration for a book, preserving image1's exact scene, people count, poses, objects and composition. This is already linework: minimally remove sepia/tint, retain existing drawing and details. No colour, sepia, grey wash, painterly fills, tinted background, text or watermark. Preserve scene: A woman remains calm while two friends urge her to change a decision.. Do not add style-reference characters or blocks. Keep cultural details as existing, no new ritual, no historical claims.  Keep landscape proportions.",
+      "generation_report": "generation-b.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-b.json"
+    },
+    {
+      "id": "POD-DHAGA-033",
+      "old_graphic": {
+        "src": "assets/dhaga-033-illustration-v1.png",
+        "alt": "A visitor pauses beside a veranda where an empty stool has not been offered.",
+        "caption": "Not even an invitation to sit."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-033-unified-line-v1.png",
+        "alt": "A visitor pauses beside a veranda where an empty stool has not been offered.",
+        "caption": "Not even an invitation to sit."
+      },
+      "old_sha256": "9617f61aac2f556545278daca6efac24118730d125570e9a6f57a719938fb221",
+      "new_sha256": "49bb23eed9ae043000fc906d8e826210bdc6bc6d5033027a9f16206c0c8bb8bb",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Edit image1 only; image2 is black pen style reference only, not content. Create a single landscape illustration for a book, preserving image1's exact scene, people count, poses, objects and composition. Redraw its painted masses as fine black/neutral-grey contours and sparse light hatching, with abundant pure white paper, matching image2. No colour, sepia, grey wash, painterly fills, tinted background, text or watermark. Preserve scene: A visitor pauses beside a veranda where an empty stool has not been offered.. Do not add style-reference characters or blocks. Keep cultural details as existing, no new ritual, no historical claims.  Keep landscape proportions.",
+      "generation_report": "generation-b.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-b.json"
+    },
+    {
+      "id": "POD-DHAGA-034",
+      "old_graphic": {
+        "src": "assets/dhaga-034-illustration-v1.png",
+        "alt": "White milk foams over a brass-coloured pot and spills down a clay hearth.",
+        "caption": "What rises too far can spill over."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-034-unified-line-v1.png",
+        "alt": "Milk foams over a metal pot and spills down a clay hearth.",
+        "caption": "What rises too far can spill over."
+      },
+      "old_sha256": "f0df8d763635b2a168a1932c5e6c4b75e8487601bfc6648e6f8ede25b3f6e98b",
+      "new_sha256": "97b8186019229dbb07e6ac69d0744c60d2c763db87e1e8b21f30ee55d0216d3e",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Edit image1 only; image2 is black pen style reference only, not content. Create a single landscape illustration for a book, preserving image1's exact scene, people count, poses, objects and composition. Redraw its painted masses as fine black/neutral-grey contours and sparse light hatching, with abundant pure white paper, matching image2. No colour, sepia, grey wash, painterly fills, tinted background, text or watermark. Preserve scene: White milk foams over a brass-coloured pot and spills down a clay hearth.. Do not add style-reference characters or blocks. Keep cultural details as existing, no new ritual, no historical claims.  Keep landscape proportions.",
+      "generation_report": "generation-b.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-b.json"
+    },
+    {
+      "id": "POD-DHAGA-035",
+      "old_graphic": {
+        "src": "assets/dhaga-035-illustration-v1.png",
+        "alt": "A young potted plant has two prominent leaves, with curling lines suggesting scent.",
+        "caption": "A small beginning can carry a promise."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-035-unified-line-v1.png",
+        "alt": "A young potted plant has two prominent leaves, with curling lines suggesting scent.",
+        "caption": "A small beginning can carry a promise."
+      },
+      "old_sha256": "4b1ee2db3710a9fcdbaab361416df19b011931d6a5a7d555ed28c867e1b31929",
+      "new_sha256": "5aaa58f7c70dddcbe54cb37f706ee24f21fd97d654cdc4ed5d7b9326c3f21b0a",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Edit image1 only; image2 is black pen style reference only, not content. Create a single landscape illustration for a book, preserving image1's exact scene, people count, poses, objects and composition. Redraw its painted masses as fine black/neutral-grey contours and sparse light hatching, with abundant pure white paper, matching image2. No colour, sepia, grey wash, painterly fills, tinted background, text or watermark. Preserve scene: A young potted plant has two prominent leaves, with curling lines suggesting scent.. Do not add style-reference characters or blocks. Keep cultural details as existing, no new ritual, no historical claims.  Keep landscape proportions.",
+      "generation_report": "generation-b.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-b.json"
+    },
+    {
+      "id": "POD-DHAGA-036",
+      "old_graphic": {
+        "src": "assets/dhaga-036-illustration-v1.png",
+        "alt": "A carefully patched basket carries a modest load of vegetables.",
+        "caption": "Imperfect, but still useful."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-036-unified-line-v1.png",
+        "alt": "A carefully patched basket carries a modest load of vegetables.",
+        "caption": "Imperfect, but still useful."
+      },
+      "old_sha256": "8147912b5430a5bcbff071710eb06dc59d06e977238e90a7aafbafe1ffef11e3",
+      "new_sha256": "c065417a61017c9c03be8eb81aa6537a2bf4b7a77b225aca1babcf26243b73df",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Edit image1 only; image2 is black pen style reference only, not content. Create a single landscape illustration for a book, preserving image1's exact scene, people count, poses, objects and composition. Redraw its painted masses as fine black/neutral-grey contours and sparse light hatching, with abundant pure white paper, matching image2. No colour, sepia, grey wash, painterly fills, tinted background, text or watermark. Preserve scene: A carefully patched basket carries a modest load of vegetables.. Do not add style-reference characters or blocks. Keep cultural details as existing, no new ritual, no historical claims.  Keep landscape proportions.",
+      "generation_report": "generation-b.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-b.json"
+    },
+    {
+      "id": "POD-DHAGA-037",
+      "old_graphic": {
+        "src": "assets/dhaga-037-illustration-v2.png",
+        "alt": "A woman’s feet and ankles, with simple anklets, remain visible beneath a hanging sari with a red border.",
+        "caption": "The sari hides the person, but the feet give her away."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-037-unified-line-v1.png",
+        "alt": "A woman’s feet and ankles, with simple anklets, remain visible beneath a hanging bordered sari.",
+        "caption": "The sari hides the person, but the feet give her away."
+      },
+      "old_sha256": "baeb47c56989c6e704e46c63b0d5d5226771e25e491e334a727ad7e3d105e561",
+      "new_sha256": "ebd553e7d041164910c99ea816efa59e0e2eba5c9f0ac4bae1ce6199f78a5221",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Edit image1 only; image2 is black pen style reference only, not content. Create a single landscape illustration for a book, preserving image1's exact scene, people count, poses, objects and composition. Redraw its painted masses as fine black/neutral-grey contours and sparse light hatching, with abundant pure white paper, matching image2. No colour, sepia, grey wash, painterly fills, tinted background, text or watermark. Preserve scene: A woman’s feet and ankles, with simple anklets, remain visible beneath a hanging sari with a red border.. Do not add style-reference characters or blocks. Keep cultural details as existing, no new ritual, no historical claims.  Keep landscape proportions.",
+      "generation_report": "generation-b.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-b.json"
+    },
+    {
+      "id": "POD-DHAGA-040",
+      "old_graphic": {
+        "src": "assets/dhaga-040-illustration-v2.png",
+        "alt": "A traveller in a sari returns to a courtyard beside a winding path through fields.",
+        "caption": "After the detours, the familiar courtyard."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-040-unified-line-v1.png",
+        "alt": "A traveller in a sari returns to a courtyard beside a winding path through fields.",
+        "caption": "After the detours, the familiar courtyard."
+      },
+      "old_sha256": "6c7562310d935a55651f19a37755e373e16b834bd04da21bcf87c46596a6b827",
+      "new_sha256": "e9886d0dffcb6859f3b28df0ef91097459640c9e449fb456767dab34cabf572b",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Edit image1 only; image2 is black pen style reference only, not content. Create a single landscape illustration for a book, preserving image1's exact scene, people count, poses, objects and composition. Redraw its painted masses as fine black/neutral-grey contours and sparse light hatching, with abundant pure white paper, matching image2. No colour, sepia, grey wash, painterly fills, tinted background, text or watermark. Preserve scene: A traveller in a sari returns to a courtyard beside a winding path through fields.. Do not add style-reference characters or blocks. Keep cultural details as existing, no new ritual, no historical claims.  Keep landscape proportions.",
+      "generation_report": "generation-b.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-b.json"
+    },
+    {
+      "id": "POD-DHAGA-043",
+      "old_graphic": {
+        "src": "assets/dhaga-043-illustration-v1.png",
+        "alt": "At a prayer-room doorway, a person gestures defensively beside a tray of whole bananas.",
+        "caption": "The explanation arrives before the accusation."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-043-unified-line-v1.png",
+        "alt": "At a prayer-room doorway, a person gestures defensively beside a tray of whole bananas.",
+        "caption": "The explanation arrives before the accusation."
+      },
+      "old_sha256": "67d5d22bc51e1241f499c767db08563269ead2f93033d1cbb6c0038d2909c3e5",
+      "new_sha256": "5ac8ff671819adf0593d68bf70dded2aba5c625e56bf01ae6a5f78629d538161",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Edit image1 only; image2 is black pen style reference only, not content. Create a single landscape illustration for a book, preserving image1's exact scene, people count, poses, objects and composition. Redraw its painted masses as fine black/neutral-grey contours and sparse light hatching, with abundant pure white paper, matching image2. No colour, sepia, grey wash, painterly fills, tinted background, text or watermark. Preserve scene: At a prayer-room doorway, a person gestures defensively beside a tray of whole bananas.. Do not add style-reference characters or blocks. Keep cultural details as existing, no new ritual, no historical claims.  Keep landscape proportions.",
+      "generation_report": "generation-b.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-b.json"
+    },
+    {
+      "id": "POD-DHAGA-046",
+      "old_graphic": {
+        "src": "assets/dhaga-046-illustration-v1.png",
+        "alt": "Pigeons rest above a metalworking shop while a person taps a woven winnowing tray.",
+        "caption": "A little noise leaves the workshop pigeons unmoved."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-046-unified-line-v1.png",
+        "alt": "Pigeons rest above a metalworking shop while a person taps a woven winnowing tray.",
+        "caption": "A little noise leaves the workshop pigeons unmoved."
+      },
+      "old_sha256": "7d59a31b2a86cba00e1f0b02b77a96985c40a7465ffbed2dc24f06280797b4f4",
+      "new_sha256": "bd480d8755dfbbe69f685af61a31519547e1586e7e3181e1de504073c66d126d",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Edit image1 only; image2 is black pen style reference only, not content. Create a single landscape illustration for a book, preserving image1's exact scene, people count, poses, objects and composition. Redraw its painted masses as fine black/neutral-grey contours and sparse light hatching, with abundant pure white paper, matching image2. No colour, sepia, grey wash, painterly fills, tinted background, text or watermark. Preserve scene: Pigeons rest above a metalworking shop while a person taps a woven winnowing tray.. Do not add style-reference characters or blocks. Keep cultural details as existing, no new ritual, no historical claims.  Keep landscape proportions.",
+      "generation_report": "generation-b.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-b.json"
+    },
+    {
+      "id": "POD-DHAGA-049",
+      "old_graphic": {
+        "src": "assets/dhaga-049-illustration-v1.png",
+        "alt": "A tiny seed casts an exaggerated, enormous blue shadow.",
+        "caption": "A small thing grows large in the telling."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-049-unified-line-v1.png",
+        "alt": "A tiny seed casts an exaggerated, enormous shadow.",
+        "caption": "A small thing grows large in the telling."
+      },
+      "old_sha256": "8e55454c3215621d1be72eff5a2923651602c3c6cff4140d90d6f5f836d7d512",
+      "new_sha256": "d02f1a192c2259810a97494da081e7be5fbc857c4ebd352f48eb477cc0216f13",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Edit image1 only; image2 is black pen style reference only, not content. Create a single landscape illustration for a book, preserving image1's exact scene, people count, poses, objects and composition. Redraw its painted masses as fine black/neutral-grey contours and sparse light hatching, with abundant pure white paper, matching image2. No colour, sepia, grey wash, painterly fills, tinted background, text or watermark. Preserve scene: A tiny seed casts an exaggerated, enormous blue shadow.. Do not add style-reference characters or blocks. Keep cultural details as existing, no new ritual, no historical claims. Preserve tiny seed and exaggerated giant shadow metaphor; express large shadow with light hatching and clear outline rather than solid ink block. Keep landscape proportions.",
+      "generation_report": "generation-b.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-b.json"
+    },
+    {
+      "id": "POD-DHAGA-050",
+      "old_graphic": {
+        "src": "assets/dhaga-050-illustration-v1.png",
+        "alt": "An oiled hand approaches a head whose hair is already smoothly oiled.",
+        "caption": "More goes where there is already plenty."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-050-unified-line-v1.png",
+        "alt": "A woman applies oil to another woman’s already smoothly arranged hair.",
+        "caption": "More goes where there is already plenty."
+      },
+      "old_sha256": "fbceef885af512aaccee317fa988c32c8d57b2bc8f68ce03880f4c36b7aae699",
+      "new_sha256": "0b28852c2cabec6ac6afe5b0e94a10684553f810222cbc958cfb3f734f15590d",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Edit image1 only; image2 is black pen style reference only, not content. Create a single landscape illustration for a book, preserving image1's exact scene, people count, poses, objects and composition. This is already linework: minimally remove sepia/tint, retain existing drawing and details. No colour, sepia, grey wash, painterly fills, tinted background, text or watermark. Preserve scene: An oiled hand approaches a head whose hair is already smoothly oiled.. Do not add style-reference characters or blocks. Keep cultural details as existing, no new ritual, no historical claims.  Keep landscape proportions.",
+      "generation_report": "generation-b.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-b.json"
+    },
+    {
+      "id": "POD-DHAGA-052",
+      "old_graphic": {
+        "src": "assets/dhaga-052-illustration-v1.png",
+        "alt": "An adult complains while tying the gifts they have accepted into a cloth bundle.",
+        "caption": "The complaints continue; the bundle grows."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-052-unified-line-v1.png",
+        "alt": "An adult complains while tying the gifts they have accepted into a cloth bundle.",
+        "caption": "The complaints continue; the bundle grows."
+      },
+      "old_sha256": "6dc4196a2e9be29c441ed12b307e86fe551a26602177d8ceeda87f1df6a77204",
+      "new_sha256": "d669c2b075761ff5d243fb2626792f05dcca440a72d2d94429ef530dba614ea9",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Edit image1 only; image2 is black pen style reference only, not content. Create a single landscape illustration for a book, preserving image1's exact scene, people count, poses, objects and composition. Redraw its painted masses as fine black/neutral-grey contours and sparse light hatching, with abundant pure white paper, matching image2. No colour, sepia, grey wash, painterly fills, tinted background, text or watermark. Preserve scene: An adult complains while tying the gifts they have accepted into a cloth bundle.. Do not add style-reference characters or blocks. Keep cultural details as existing, no new ritual, no historical claims.  Keep landscape proportions.",
+      "generation_report": "generation-b.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-b.json"
+    },
+    {
+      "id": "POD-DHAGA-054",
+      "old_graphic": {
+        "src": "assets/dhaga-054-illustration-v1.png",
+        "alt": "A group hesitates outside a veranda, then later chooses it as its meeting place.",
+        "caption": "After the delay, the same choice."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-054-unified-line-v1.png",
+        "alt": "A group hesitates outside a veranda, then later chooses it as its meeting place.",
+        "caption": "After the delay, the same choice."
+      },
+      "old_sha256": "6b1e8356bb287daff8db191a42268f9962ef081949a89bd5ff11e22ce6145ca4",
+      "new_sha256": "d110bd8806e291000a69ebc5df9785873528d1df90ca3f657b2497e6e55e2e6d",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Edit image1 only; image2 is black pen style reference only, not content. Create a single landscape illustration for a book, preserving image1's exact scene, people count, poses, objects and composition. This is already linework: minimally remove sepia/tint, retain existing drawing and details. No colour, sepia, grey wash, painterly fills, tinted background, text or watermark. Preserve scene: A group hesitates outside a veranda, then later chooses it as its meeting place.. Do not add style-reference characters or blocks. Keep cultural details as existing, no new ritual, no historical claims.  Keep landscape proportions.",
+      "generation_report": "generation-b.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-b.json"
+    },
+    {
+      "id": "POD-DHAGA-057",
+      "old_graphic": {
+        "src": "assets/dhaga-057-illustration-v1.png",
+        "alt": "Five neighbours sit in a circle and consider a shared plan.",
+        "caption": "Five people, room for more than one view."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-057-unified-line-v1.png",
+        "alt": "Five neighbours sit in a circle and consider a shared plan.",
+        "caption": "Five people, room for more than one view."
+      },
+      "old_sha256": "899d73154b7bb0b295f19d01c8c34d28d021896623661fb755c3ed56a9c41ce2",
+      "new_sha256": "eb411b80ac6139e781b7e96091533cfff670b35a643175aad17cac1884da3352",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Edit image1 only; image2 is black pen style reference only, not content. Create a single landscape illustration for a book, preserving image1's exact scene, people count, poses, objects and composition. Redraw its painted masses as fine black/neutral-grey contours and sparse light hatching, with abundant pure white paper, matching image2. No colour, sepia, grey wash, painterly fills, tinted background, text or watermark. Preserve scene: Five neighbours sit in a circle and consider a shared plan.. Do not add style-reference characters or blocks. Keep cultural details as existing, no new ritual, no historical claims.  Keep landscape proportions.",
+      "generation_report": "generation-b.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-b.json"
+    },
+    {
+      "id": "POD-DHAGA-060",
+      "old_graphic": {
+        "src": "assets/empty-betel-pouch-heritage-v2.png",
+        "alt": "An ornate cloth pouch stands open on a bare table, showing its empty lining.",
+        "caption": "An ornate pouch, with nothing inside—an imagined modern illustration."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-060-unified-line-v1.png",
+        "alt": "An ornate cloth pouch stands open on a bare table, showing its empty lining.",
+        "caption": "An ornate pouch, with nothing inside—an imagined modern illustration."
+      },
+      "old_sha256": "c1ec75b86972fed7d67701c9406d55b86232fc1bbb8c8095e27649dc0611d2c6",
+      "new_sha256": "53bb4e5994ac6f2a6b37a4c50cf8bb3e5cdc71404ddb84b5f41c0c8210610854",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Edit image1 only; image2 is black pen style reference only, not content. Create a single landscape illustration for a book, preserving image1's exact scene, people count, poses, objects and composition. Redraw its painted masses as fine black/neutral-grey contours and sparse light hatching, with abundant pure white paper, matching image2. No colour, sepia, grey wash, painterly fills, tinted background, text or watermark. Preserve scene: An ornate cloth pouch stands open on a bare table, showing its empty lining.. Do not add style-reference characters or blocks. Keep cultural details as existing, no new ritual, no historical claims. The ornamental pouch must remain completely empty; no nuts or leaves. Keep landscape proportions.",
+      "generation_report": "generation-b.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-b.json"
+    },
+    {
+      "id": "POD-DHAGA-061",
+      "old_graphic": {
+        "src": "assets/dhaga-061-illustration-v2.png",
+        "alt": "An iron rod glows red directly above charcoal embers, while its exposed ends remain dark.",
+        "caption": "Repeating the process does not guarantee the hoped-for change."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-061-unified-line-v1.png",
+        "alt": "An iron rod is heated directly above charcoal embers, with its exposed ends extending beyond the heat.",
+        "caption": "Repeating the process does not guarantee the hoped-for change."
+      },
+      "old_sha256": "916526d06fbcbb99a0c5c8fa4f4abd1c148aa0dbcaf9b9755b6a76e2c0e49e02",
+      "new_sha256": "d7e051ee4287277f37d388e2e2f93511e72bc97361f21d868a0d541458c52277",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Edit image1 only; image2 is black pen style reference only, not content. Create a single landscape illustration for a book, preserving image1's exact scene, people count, poses, objects and composition. Redraw its painted masses as fine black/neutral-grey contours and sparse light hatching, with abundant pure white paper, matching image2. No colour, sepia, grey wash, painterly fills, tinted background, text or watermark. Preserve scene: An iron rod glows red directly above charcoal embers, while its exposed ends remain dark.. Do not add style-reference characters or blocks. Keep cultural details as existing, no new ritual, no historical claims.  Keep landscape proportions.",
+      "generation_report": "generation-b.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-b.json"
+    },
+    {
+      "id": "POD-DHAGA-063",
+      "old_graphic": {
+        "src": "assets/dhaga-063-illustration-v2.png",
+        "alt": "Two organisers compare a pinned sheet bearing a circle and horizontal rules with a loose sheet bearing shorter rules and a diagonal revision mark.",
+        "caption": "Further words cannot undo what has happened."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-063-unified-line-v1.png",
+        "alt": "Two organisers compare a pinned sheet bearing a circle and horizontal rules with a loose sheet bearing shorter rules and a diagonal revision mark.",
+        "caption": "Further words cannot undo what has happened."
+      },
+      "old_sha256": "9b441d2cf3ef47e6431dab3ca5448cc782648eb391c350bf8e9a2059c58a8837",
+      "new_sha256": "abdb47ffb6bc8269c4c7be9cd03028e79b8b61749ac0798ffeee35b6e5c7d832",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Edit image1 only; image2 is black pen style reference only, not content. Create a single landscape illustration for a book, preserving image1's exact scene, people count, poses, objects and composition. This is already linework: minimally remove sepia/tint, retain existing drawing and details. No colour, sepia, grey wash, painterly fills, tinted background, text or watermark. Preserve scene: Two organisers compare a pinned sheet bearing a circle and horizontal rules with a loose sheet bearing shorter rules and a diagonal revision mark.. Do not add style-reference characters or blocks. Keep cultural details as existing, no new ritual, no historical claims.  Keep landscape proportions.",
+      "generation_report": "generation-b.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-b.json"
+    },
+    {
+      "id": "POD-DHAGA-065",
+      "old_graphic": {
+        "src": "assets/dhaga-065-illustration-v1.png",
+        "alt": "A small lizard follows a short curved track toward a green bush.",
+        "caption": "Much motion, the same familiar destination. The bush is an illustrative stand-in, not a botanical depiction of siju."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-065-unified-line-v1.png",
+        "alt": "A small lizard follows a short curved track toward a bush.",
+        "caption": "Much motion, the same familiar destination. The bush is an illustrative stand-in, not a botanical depiction of siju."
+      },
+      "old_sha256": "59839def9e0ec320e649b1d64c83a3538fe77f9049c47e4ec4dac555a88c91f7",
+      "new_sha256": "c708c9d7b5417700f9f405e543bc233acb817049f052d740e5dc53553ccfee58",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Edit image1 only; image2 is black pen style reference only, not content. Create a single landscape illustration for a book, preserving image1's exact scene, people count, poses, objects and composition. Redraw its painted masses as fine black/neutral-grey contours and sparse light hatching, with abundant pure white paper, matching image2. No colour, sepia, grey wash, painterly fills, tinted background, text or watermark. Preserve scene: A small lizard follows a short curved track toward a green bush.. Do not add style-reference characters or blocks. Keep cultural details as existing, no new ritual, no historical claims.  Keep landscape proportions.",
+      "generation_report": "generation-b.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-b.json"
+    },
+    {
+      "id": "POD-DHAGA-067",
+      "old_graphic": {
+        "src": "assets/dhaga-067-illustration-v1.png",
+        "alt": "A family clears branches and repairs a garden support after a storm.",
+        "caption": "Steady work after an unavoidable setback."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-067-unified-line-v1.png",
+        "alt": "A family clears branches and repairs a garden support after a storm.",
+        "caption": "Steady work after an unavoidable setback."
+      },
+      "old_sha256": "08a2ade3b5545de20943c22149458f1ebeab724b9345c59eeeac2b41bae89383",
+      "new_sha256": "4f34502757a6ae4202beea4adf93fd3ca782bdbb0999fc809a971b21333f1df0",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Edit image1 only; image2 is black pen style reference only, not content. Create a single landscape illustration for a book, preserving image1's exact scene, people count, poses, objects and composition. Redraw its painted masses as fine black/neutral-grey contours and sparse light hatching, with abundant pure white paper, matching image2. No colour, sepia, grey wash, painterly fills, tinted background, text or watermark. Preserve scene: A family clears branches and repairs a garden support after a storm.. Do not add style-reference characters or blocks. Keep cultural details as existing, no new ritual, no historical claims.  Keep landscape proportions.",
+      "generation_report": "generation-b.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-b.json"
+    },
+    {
+      "id": "POD-DHAGA-073",
+      "old_graphic": {
+        "src": "assets/forest-and-grief-heritage-v1.png",
+        "alt": "A painted comparison pairs a visible forest fire with a person quietly carrying grief.",
+        "caption": "Original Pattachitra-inspired modern interpretation for Project Odisha; not archival or attributed to a traditional artist. Visible fire and private grief are set beside each other as an interpretation of the saying. CC BY-SA4.0."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-073-unified-line-v1.png",
+        "alt": "A line drawing sets a visible forest fire beside a woman quietly carrying grief.",
+        "caption": "Visible fire and private grief are set beside each other as an interpretation of the saying."
+      },
+      "old_sha256": "80a7c83c6ead7fc994718de2ec399625856bc193a4ce4c3d304bc3c1c834c8bb",
+      "new_sha256": "f45cde94669232654f1dbb38c316dfd2944b0ea4f1f18f9222558a8976eee67c",
+      "method": "built-in image_gen edit",
+      "prompt": "Use case: style-transfer. Edit image1 only; image2 is black pen style reference only, not content. Create a single landscape illustration for a book, preserving image1's exact scene, people count, poses, objects and composition. Redraw its painted masses as fine black/neutral-grey contours and sparse light hatching, with abundant pure white paper, matching image2. No colour, sepia, grey wash, painterly fills, tinted background, text or watermark. Preserve scene: A painted comparison pairs a visible forest fire with a person quietly carrying grief.. Do not add style-reference characters or blocks. Keep cultural details as existing, no new ritual, no historical claims. Preserve visible forest fire versus privately grieving woman as juxtaposition, not causal event. No injuries. Keep landscape proportions.",
+      "generation_report": "generation-b.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-b.json"
+    },
+    {
+      "id": "POD-DHAGA-075",
+      "old_graphic": {
+        "src": "assets/prince-khaja-heritage-v1.png",
+        "alt": "A painted scene connects a richly dressed young royal figure with khaja sweets.",
+        "caption": "Original Pattachitra-inspired modern interpretation for Project Odisha; not archival or attributed to a traditional artist. A modern interpretation of the saying’s royal figure and sweet, not a documented historical scene. CC BY-SA4.0."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-075-unified-line-v1.png",
+        "alt": "A richly dressed young royal figure receives khaja sweets.",
+        "caption": "An imagined royal figure and sweet illustrate the saying; this is not a documented historical scene."
+      },
+      "old_sha256": "b3bed9867b546514a8d5c1df08b9c0266b8912d2eb4fcf96e77d0217669ad2ef",
+      "new_sha256": "32e07b00c0a3f6a67f13527b3bb21b1eacd20070e07f445b6c9596e86845dbef",
+      "method": "built-in image_gen edit",
+      "prompt": "Edit image1 to fine black ink line-art for Odia proverb book. Image2 style reference only. Preserve meaning and key composition. Keep prince receiving familiar layered khaja sweets; simplified royal setting, no ornate frame. Pure black/neutral grey contours and light hatching on pure white; no colour, sepia, painted washes or grey photographic shading. Simplify background, generous white space. No text/watermark. Landscape3:2.",
+      "generation_report": "generation-c.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-c.json"
+    },
+    {
+      "id": "POD-DHAGA-078",
+      "old_graphic": {
+        "src": "assets/dhaga-078-illustration-v2.png",
+        "alt": "A puzzled fictional ruler turns toward a bundle of straw occupying the adviser’s seat.",
+        "caption": "A poor decision finds no help in an empty adviser."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-078-unified-line-v1.png",
+        "alt": "A puzzled fictional ruler turns toward a bundle of straw occupying the adviser’s seat.",
+        "caption": "A poor decision finds no help in an empty adviser."
+      },
+      "old_sha256": "b8e01fff5a9817e85d9f6087d57cbf7fe9176cbe659830d8f149013f9fc6532a",
+      "new_sha256": "e601cce89e94baaec15cd573b968f861bca0c4be27c616e942465ab60558f218",
+      "method": "built-in image_gen edit",
+      "prompt": "Edit image1 to fine black ink line-art for Odia proverb book. Image2 style reference only. Preserve meaning and key composition. Keep puzzled fictional king at desk looking at straw bundle occupying adviser stool. No text on papers. Pure black/neutral grey contours and light hatching on pure white; no colour, sepia, painted washes or grey photographic shading. Simplify background, generous white space. No text/watermark. Landscape3:2.",
+      "generation_report": "generation-c.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-c.json"
+    },
+    {
+      "id": "POD-DHAGA-081",
+      "old_graphic": {
+        "src": "assets/winter-tiger-heritage-v1.png",
+        "alt": "A blue-grey gust takes the shape of a tiger beside a folded shawl.",
+        "caption": "Winter’s bite takes the shape of a tiger. A painted interpretation, not a literal scene. Original illustration for Project Odisha · CC BY-SA 4.0."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-081-unified-line-v1.png",
+        "alt": "A gust of wind takes the shape of a tiger beside a folded shawl.",
+        "caption": "Winter’s bite takes the shape of a tiger. An interpretation of the metaphor, not a literal scene."
+      },
+      "old_sha256": "4bb1715e758690034e4f8c5aa06f27966280f7f24e04134f2302696ca338d079",
+      "new_sha256": "fa4c21416d9dbba2b47b8ec530060151a859faee31d95aeb677e6401e42f91c9",
+      "method": "built-in image_gen edit",
+      "prompt": "Edit image1 to fine black ink line-art for Odia proverb book. Image2 style reference only. Preserve meaning and key composition. Keep metaphorical tiger made of wind beside folded shawl; flowing contours make wind visible, not a literal attacking animal. No frame. Pure black/neutral grey contours and light hatching on pure white; no colour, sepia, painted washes or grey photographic shading. Simplify background, generous white space. No text/watermark. Landscape3:2.",
+      "generation_report": "generation-c.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-c.json"
+    },
+    {
+      "id": "POD-DHAGA-082",
+      "old_graphic": {
+        "src": "assets/dhaga-082-illustration-v1.png",
+        "alt": "A woman draws her shawl closer in a cloudy courtyard as wind stirs its edge and nearby leaves.",
+        "caption": "Clouds gather, a breeze rises, and the shawl comes closer."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-082-unified-line-v1.png",
+        "alt": "A woman draws her shawl closer in a cloudy courtyard as wind stirs its edge and nearby leaves.",
+        "caption": "Clouds gather, a breeze rises, and the shawl comes closer."
+      },
+      "old_sha256": "33228f25729d9bce1d1d7ed9a1fd3ab4924af4e212e3bb5faecb19e62bfdb4d7",
+      "new_sha256": "bec74cee86e5d6241e9496b8fc532fd0ec361735428d080d31930eb256d7cc12",
+      "method": "built-in image_gen edit",
+      "prompt": "Edit image1 to fine black ink line-art for Odia proverb book. Image2 style reference only. Preserve meaning and key composition. Keep elderly sari-clad woman drawing shawl close, breeze lifting edge and leaves, cloudy courtyard. Sparse backdrop. Pure black/neutral grey contours and light hatching on pure white; no colour, sepia, painted washes or grey photographic shading. Simplify background, generous white space. No text/watermark. Landscape3:2.",
+      "generation_report": "generation-c.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-c.json"
+    },
+    {
+      "id": "POD-DHAGA-083",
+      "old_graphic": {
+        "src": "assets/dhaga-083-illustration-v1.png",
+        "alt": "Hair is carefully arranged while neighbours speak thoughtfully in a parallel scene.",
+        "caption": "Care in the doing makes a difference."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-083-unified-line-v1.png",
+        "alt": "Hair is carefully arranged while neighbours speak thoughtfully in a parallel scene.",
+        "caption": "Care in the doing makes a difference."
+      },
+      "old_sha256": "ccb14d5de55d9daeb314b3a06c45a36ed77ae37177837da3e822f6a87e36bfcf",
+      "new_sha256": "5948c522a8a65930d7d27f3abf0518e831a133f30b4149ba77cfef3473084ead",
+      "method": "built-in image_gen edit",
+      "prompt": "Edit image1 to fine black ink line-art for Odia proverb book. Image2 style reference only. Preserve meaning and key composition. Keep two parallel scenes: older woman arranging younger woman's hair and two neighbours conversing thoughtfully; credible hands and comb. Pure black/neutral grey contours and light hatching on pure white; no colour, sepia, painted washes or grey photographic shading. Simplify background, generous white space. No text/watermark. Landscape3:2.",
+      "generation_report": "generation-c.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-c.json"
+    },
+    {
+      "id": "POD-DHAGA-085",
+      "old_graphic": {
+        "src": "assets/dhaga-085-illustration-v1.png",
+        "alt": "A host offers water as guests prepare to leave after a simple meal.",
+        "caption": "The meal ends; the impression stays."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-085-unified-line-v1.png",
+        "alt": "A host offers water as guests prepare to leave after a simple meal.",
+        "caption": "The meal ends; the impression stays."
+      },
+      "old_sha256": "6790b8ccb7f5640e8ba394a03bda64e9f4562eb298d7a1885020f0ff3f017ed4",
+      "new_sha256": "0d2ef695f9b85665129bf46f1ecea8293d4110270a0a2c782b7850782e7e62c5",
+      "method": "built-in image_gen edit",
+      "prompt": "Edit image1 into fine black ink line drawing for Odia proverb book; image2 style reference only. Keep welcoming host serving water after a meal and two grateful guests, dishes visible. Preserve metaphor, composition and culturally credible attire. Pure neutral black/grey contours and sparse hatching, white paper and generous white space, no colour/sepia/washes/photographic shading/text/border. Landscape3:2.",
+      "generation_report": "generation-c.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-c.json"
+    },
+    {
+      "id": "POD-DHAGA-086",
+      "old_graphic": {
+        "src": "assets/dhaga-086-illustration-v1.png",
+        "alt": "A crow eats paddy while an adult mistakenly directs blame toward a woman standing nearby.",
+        "caption": "The crow takes the grain; the blame goes elsewhere."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-086-unified-line-v1.png",
+        "alt": "A crow eats paddy while an adult mistakenly directs blame toward a woman standing nearby.",
+        "caption": "The crow takes the grain; the blame goes elsewhere."
+      },
+      "old_sha256": "a97a2d4c7c6fb067d7e4786d08635cedc116467cfafd286967c60257f07e6c1b",
+      "new_sha256": "2bd7c7afca599035df1ef382898620ee5913256d336e950b6382bdb00fbe3799",
+      "method": "built-in image_gen edit",
+      "prompt": "Edit image1 into fine black ink line drawing for Odia proverb book; image2 style reference only. Keep crow eating paddy foreground, young woman unfairly blamed by older woman pointing. Illustrate unjust blame, not factual community stereotype. Preserve metaphor, composition and culturally credible attire. Pure neutral black/grey contours and sparse hatching, white paper and generous white space, no colour/sepia/washes/photographic shading/text/border. Landscape3:2.",
+      "generation_report": "generation-c.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-c.json"
+    },
+    {
+      "id": "POD-DHAGA-092",
+      "old_graphic": {
+        "src": "assets/dhaga-092-illustration-v1.png",
+        "alt": "Friends sit silently together; later one looks toward the other’s empty stool.",
+        "caption": "Quiet together, missing the company apart."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-092-unified-line-v1.png",
+        "alt": "Friends sit silently together; later one looks toward the other’s empty stool.",
+        "caption": "Quiet together, missing the company apart."
+      },
+      "old_sha256": "b7d7cccc4b6b54eb5df8a5796b0cc37872f3da2304aead022076ca6e5fe407e4",
+      "new_sha256": "2bcec002384f75017ea48fd647d41f5f38e53b1039c34bff887810f329f41faf",
+      "method": "built-in image_gen edit",
+      "prompt": "Edit image1 into fine black ink line drawing for Odia proverb book; image2 style reference only. Preserve existing linework and two-panel scene exactly, only replace sepia ink with neutral black on white: seated pair onleft, woman waits beside emptychair and waterglass onright. Preserve metaphor, composition and culturally credible attire. Pure neutral black/grey contours and sparse hatching, white paper and generous white space, no colour/sepia/washes/photographic shading/text/border. Landscape3:2.",
+      "generation_report": "generation-c.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-c.json"
+    },
+    {
+      "id": "POD-DHAGA-097",
+      "old_graphic": {
+        "src": "assets/dhaga-097-illustration-v2.png",
+        "alt": "Three successive panels show a sand mound shrinking beside a river, with filled baskets in the later panels.",
+        "caption": "Even a large reserve can diminish."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-097-unified-line-v1.png",
+        "alt": "Three successive panels show a sand mound shrinking beside a river, with filled baskets in the later panels.",
+        "caption": "Even a large reserve can diminish."
+      },
+      "old_sha256": "a9327a899f30e093ea183fb56380af7e471f416f835f7917d37e3a81d9b507b5",
+      "new_sha256": "6b124867f72afee536034518581053f1f33b1ae02d211580bad811ea3c347222",
+      "method": "built-in image_gen edit",
+      "prompt": "Edit image1 into fine black ink line drawing for Odia proverb book; image2 style reference only. Keep three sequential panels showing large sandpile dwindling to medium then small beside same river, basket as depletion cue. Preserve metaphor, composition and culturally credible attire. Pure neutral black/grey contours and sparse hatching, white paper and generous white space, no colour/sepia/washes/photographic shading/text/border. Landscape3:2.",
+      "generation_report": "generation-c.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-c.json"
+    },
+    {
+      "id": "POD-DHAGA-098",
+      "old_graphic": {
+        "src": "assets/dhaga-098-illustration-v1.png",
+        "alt": "A drum sounds nearby while people pass news between households farther along a path.",
+        "caption": "Conversation carries the news beyond the drumbeat."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-098-unified-line-v1.png",
+        "alt": "A drum sounds nearby while people pass news between households farther along a path.",
+        "caption": "Conversation carries the news beyond the drumbeat."
+      },
+      "old_sha256": "4f19afdc5d3f40b992963850e11b19a740662a94c336251b9f1573ce43f7aa89",
+      "new_sha256": "d716d58b9d1ce3d2cc0fc6aced5de8ffe66d5b414e2f382825c0da8126ebf61f",
+      "method": "built-in image_gen edit",
+      "prompt": "Edit image1 into fine black ink line drawing for Odia proverb book; image2 style reference only. Keep foreground drummer and successive pairs passing news along village path into distance. Simplify dense scenery for clear small-format drawing. Preserve metaphor, composition and culturally credible attire. Pure neutral black/grey contours and sparse hatching, white paper and generous white space, no colour/sepia/washes/photographic shading/text/border. Landscape3:2.",
+      "generation_report": "generation-c.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-c.json"
+    },
+    {
+      "id": "POD-DHAGA-099",
+      "old_graphic": {
+        "src": "assets/dhaga-099-illustration-v2.png",
+        "alt": "In two scenes, a woman looks along a courtyard path, then takes a short step onto it.",
+        "caption": "Look ahead, then take a small step—a modern analogy, not a demonstration of traditional measures."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-099-unified-line-v1.png",
+        "alt": "In two scenes, a woman looks along a courtyard path, then takes a short step onto it.",
+        "caption": "Look ahead, then take a small step—a modern analogy, not a demonstration of traditional measures."
+      },
+      "old_sha256": "642996aa323b1a89a7e0787dfe71666685083ef4fff2695bbfb28d7f7d8f0862",
+      "new_sha256": "297394c724728bbb6b063d5dcfec70dca8f0cc08c857c81983cfb29410b3f41d",
+      "method": "built-in image_gen edit",
+      "prompt": "Edit image1 to black ink line-art for Odia proverb book. Image2 reference style only. Preserve existing fine linework and two-panel woman checking path then stepping cautiously, only neutralize sepia to black ink white paper. Preserve subjects/action/meaning. Fine contours, light hatching, generous white background. No colour, sepia, washes, photographic shading, text or border. Landscape3:2.",
+      "generation_report": "generation-c.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-c.json"
+    },
+    {
+      "id": "POD-DHAGA-101",
+      "old_graphic": {
+        "src": "assets/dhaga-101-illustration-v1.png",
+        "alt": "Two volunteers prepare tools and a loose shelf panel to begin a repair.",
+        "caption": "Once agreed, make a careful beginning."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-101-unified-line-v1.png",
+        "alt": "Two volunteers prepare tools and a loose shelf panel to begin a repair.",
+        "caption": "Once agreed, make a careful beginning."
+      },
+      "old_sha256": "eb42a5f4ddc8fcb4f1e341d56d2e137358991c147a0754ee2f9f31a12150fa12",
+      "new_sha256": "a245183634140c1fc513b1e593b3d00f9ba2f4981bcfe81d2bb6d67339a3bd8e",
+      "method": "built-in image_gen edit",
+      "prompt": "Edit image1 to black ink line-art for Odia proverb book. Image2 reference style only. Preserve existing linework and two people repairing shelf together, tools and books; only neutralize sepia to black ink white paper. Preserve subjects/action/meaning. Fine contours, light hatching, generous white background. No colour, sepia, washes, photographic shading, text or border. Landscape3:2.",
+      "generation_report": "generation-c.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-c.json"
+    },
+    {
+      "id": "POD-DHAGA-103",
+      "old_graphic": {
+        "src": "assets/dhaga-103-illustration-v1.png",
+        "alt": "A blue river curves through a painted landscape of fields, trees and small houses.",
+        "caption": "Each bend reveals another place and its ways."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-103-unified-line-v1.png",
+        "alt": "A river curves through fields, trees and small houses.",
+        "caption": "Each bend reveals another place and its ways."
+      },
+      "old_sha256": "8541e652c7d0b35442801fb7fd1366ad3a3d8745421831dc663f7a1ed50e592d",
+      "new_sha256": "abd46d1d6f76b9aefd008af63e14cf387de265c7cb870775f906e5e089ed2b35",
+      "method": "built-in image_gen edit",
+      "prompt": "Edit image1 to black ink line-art for Odia proverb book. Image2 reference style only. Redraw winding river with distinct bends, fields and two small houses. Remove coloured frame, no dominant solid fills. Preserve subjects/action/meaning. Fine contours, light hatching, generous white background. No colour, sepia, washes, photographic shading, text or border. Landscape3:2.",
+      "generation_report": "generation-c.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-c.json"
+    },
+    {
+      "id": "POD-DHAGA-104",
+      "old_graphic": {
+        "src": "assets/one-hand-clap-line-v1.png",
+        "alt": "A single raised hand is contrasted with two hands meeting in a clap.",
+        "caption": "One hand, then two: the image makes cooperation visible. Original illustration for Project Odisha · CC BY-SA 4.0."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-104-unified-line-v1.png",
+        "alt": "A single raised hand is contrasted with two hands meeting in a clap.",
+        "caption": "One hand, then two: the image makes cooperation visible. Original illustration for Project Odisha · CC BY-SA 4.0."
+      },
+      "old_sha256": "51897cb59c4afe2ab5f2bcd8823f177a783743f351114237d494f583c048d318",
+      "new_sha256": "c8df6a05caab53bd3916d01b8ca30f73c2362ce1b685c310d30923417feddd0d",
+      "method": "built-in image_gen edit",
+      "prompt": "Edit image1 to black ink line-art for Odia proverb book. Image2 reference style only. Preserve existing simple diagram: one open hand left and two hands clapping right with short sound rays. Change blue/red strokes to neutral black and cream background to white. Credible five-finger hands. Preserve subjects/action/meaning. Fine contours, light hatching, generous white background. No colour, sepia, washes, photographic shading, text or border. Landscape3:2.",
+      "generation_report": "generation-c.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-c.json",
+      "correction_prompt": "Make one precise anatomy correction to this black ink illustration. On the LEFT isolated raised hand we see the PALM: remove all fingernail plate outlines from the four palm-facing fingertips and thumb, replacing them with natural finger pads and subtle skin creases. Preserve exactly five digits and palm pose. Keep the RIGHT clapping pair, sound rays, layout, neutral black ink and white background unchanged. No colour or text.",
+      "rejected_sha256": "c7b824972eaee1c2466123426ccbb7d90f27ac995abf89d3426e8c2cc161d3e5"
+    },
+    {
+      "id": "POD-DHAGA-105",
+      "old_graphic": {
+        "src": "assets/dhaga-105-illustration-v1.png",
+        "alt": "Two people clear a broken plant pot and prepare an intact pot for the plant.",
+        "caption": "What can still be done deserves attention."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-105-unified-line-v1.png",
+        "alt": "Two people clear a broken plant pot and prepare an intact pot for the plant.",
+        "caption": "What can still be done deserves attention."
+      },
+      "old_sha256": "40f4e0bf059213f10f2ec5ae15da3efd20679bd3a9b57bd8c8b0e660edbad860",
+      "new_sha256": "0d28cc472f0d7d45fb1623a1e09c75de033fddda52b27c4964bec6d38bbdede7",
+      "method": "built-in image_gen edit",
+      "prompt": "Edit image1 to black ink line-art for Odia proverb book. Image2 reference style only. Redraw two women calmly gathering shards of broken claypot and replanting rescued plant into intact pot, retain forward-looking practical action. Preserve subjects/action/meaning. Fine contours, light hatching, generous white background. No colour, sepia, washes, photographic shading, text or border. Landscape3:2.",
+      "generation_report": "generation-c.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-c.json"
+    },
+    {
+      "id": "POD-DHAGA-106",
+      "old_graphic": {
+        "src": "assets/sky-flower-heritage-v1.png",
+        "alt": "A red flower floats in empty blue sky, its stem ending far above the ground.",
+        "caption": "A beautiful flower, with nowhere to take root. A painted interpretation of the metaphor. Original illustration for Project Odisha · CC BY-SA 4.0."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-106-unified-line-v1.png",
+        "alt": "A flower floats in empty sky, its stem ending far above the ground.",
+        "caption": "A beautiful flower, with nowhere to take root. An interpretation of the metaphor."
+      },
+      "old_sha256": "2e912ada3734368d5f884a15cdbb25fe49a92e329da43418325fda04f42b5f5a",
+      "new_sha256": "2196185333cdf1e94b39125b63b5d00637ed11aae2e6028de6948357826ef58c",
+      "method": "built-in image_gen edit",
+      "prompt": "Edit image1 into consistent fine black pen line art on pure white for an Odia proverb book. Image2 is style reference only. Preserve the floating flower high above a distant horizon, conveying an impossible sky-flower. Remove decorative frame; spare clouds and horizon only. Preserve meaningful actions and credible anatomy. Neutral black/grey contours and sparse hatching only; no colour, sepia, painted wash, heavy photographic shading, text or border. Landscape3:2, generous white space.",
+      "generation_report": "generation-c.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-c.json"
+    },
+    {
+      "id": "POD-DHAGA-107",
+      "old_graphic": {
+        "src": "assets/dhaga-107-illustration-v1.png",
+        "alt": "Two people follow one receipt into a larger set of papers needing investigation.",
+        "caption": "A small question opens a much larger matter."
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-107-unified-line-v1.png",
+        "alt": "Two people follow one receipt into a larger set of papers needing investigation.",
+        "caption": "A small question opens a much larger matter."
+      },
+      "old_sha256": "e7b0d7937a9102365e99c9ff872898800f93e7fbfdb9082e3fa3f70dbc3d90a3",
+      "new_sha256": "314abbaf2eef7908c1c9f4cc06fb8cde782a3bd10fce4abed0cbf750e8a46d7a",
+      "method": "built-in image_gen edit",
+      "prompt": "Edit image1 into consistent fine black pen line art on pure white for an Odia proverb book. Image2 is style reference only. Preserve this modern original usage-example scene: a couple discover a surprising paper in an old file box on a table. Do not substitute a literal deity scene. Papers have no readable text. Preserve meaningful actions and credible anatomy. Neutral black/grey contours and sparse hatching only; no colour, sepia, painted wash, heavy photographic shading, text or border. Landscape3:2, generous white space.",
+      "generation_report": "generation-c.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-c.json"
+    },
+    {
+      "id": "POD-DHAGA-115",
+      "old_graphic": {
+        "src": "assets/dhaga-115-expansion-v1.png",
+        "alt": "A worried woman stands in a doorway while another adult turns away across the courtyard.",
+        "caption": "A voice without a safe listener.",
+        "creator": "Project Odisha",
+        "license": "CC BY-SA4.0"
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-115-unified-line-v1.png",
+        "alt": "A worried woman stands in a doorway while another adult turns away across the courtyard.",
+        "caption": "A voice without a safe listener.",
+        "creator": "Project Odisha",
+        "license": "CC BY-SA4.0"
+      },
+      "old_sha256": "e107cb59c27ee4eb732fc036c0f08fc5689162863a1ec1281915bff503c0122c",
+      "new_sha256": "8bb4bce22094b8750e8a728b42844094c82530a34a6c1e5afebae55ccf4ded57",
+      "method": "built-in image_gen edit",
+      "prompt": "Precise palette-only refinement of this existing fine ink line drawing. Worried woman stands at doorway while another adult turns away in courtyard; remove subtle warm sepia. Retain the original composition, object shapes, contours, human anatomy, linework and hatching as closely as possible. Make all ink strictly neutral black/grey and all paper white. No sepia, cream wash, yellow, blue, green or other colour. Do not add objects, text, borders or decorative details. Preserve landscape3:2.",
+      "generation_report": "generation-addendum.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-addendum.json"
+    },
+    {
+      "id": "POD-DHAGA-118",
+      "old_graphic": {
+        "src": "assets/dhaga-118-expansion-v1.png",
+        "alt": "A hand adds sweets to a full bowl while another bowl remains empty.",
+        "caption": "Favour given unequally.",
+        "creator": "Project Odisha",
+        "license": "CC BY-SA4.0"
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-118-unified-line-v1.png",
+        "alt": "A hand adds sweets to a full bowl while another bowl remains empty.",
+        "caption": "Favour given unequally.",
+        "creator": "Project Odisha",
+        "license": "CC BY-SA4.0"
+      },
+      "old_sha256": "21ec0ea2c291d56c6610a3677a7245974e1912bddeb973e6b3903518b1c3ca56",
+      "new_sha256": "735bdd5bda39f832c7425f9ecc3332107336676c9383fcd7cd93e4bc3b4b319d",
+      "method": "built-in image_gen edit",
+      "prompt": "Precise palette-only refinement of this existing fine ink line drawing. Hand adds sweets to full bowl while a second bowl remains empty; remove pale yellow food tint. Retain the original composition, object shapes, contours, human anatomy, linework and hatching as closely as possible. Make all ink strictly neutral black/grey and all paper white. No sepia, cream wash, yellow, blue, green or other colour. Do not add objects, text, borders or decorative details. Preserve landscape3:2.",
+      "generation_report": "generation-addendum.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-addendum.json"
+    },
+    {
+      "id": "POD-DHAGA-129",
+      "old_graphic": {
+        "src": "assets/dhaga-129-expansion-v1.png",
+        "alt": "Hands examine a ring beside a dark touchstone.",
+        "caption": "Recognising what one is handling.",
+        "creator": "Project Odisha",
+        "license": "CC BY-SA4.0"
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-129-unified-line-v1.png",
+        "alt": "Hands examine a ring beside a dark touchstone.",
+        "caption": "Recognising what one is handling.",
+        "creator": "Project Odisha",
+        "license": "CC BY-SA4.0"
+      },
+      "old_sha256": "eac6e126e52a4a3209394f3bfad463f338687abe24f10cee9681c98f30ee1688",
+      "new_sha256": "6aaffdc085870d8b04e3a28c228f85adf01ceabc55212f22dabb64991cd4dcc4",
+      "method": "built-in image_gen edit",
+      "prompt": "Precise palette-only refinement of this existing fine ink line drawing. Two hands examine a ring beside dark touchstone; remove gold ring tint, retain believable hands and metal outline. Retain the original composition, object shapes, contours, human anatomy, linework and hatching as closely as possible. Make all ink strictly neutral black/grey and all paper white. No sepia, cream wash, yellow, blue, green or other colour. Do not add objects, text, borders or decorative details. Preserve landscape3:2.",
+      "generation_report": "generation-addendum.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-addendum.json"
+    },
+    {
+      "id": "POD-DHAGA-138",
+      "old_graphic": {
+        "src": "assets/dhaga-138-expansion-v1.png",
+        "alt": "Two neighbours exchange a bowl of fruit across a low wall.",
+        "caption": "How we meet one another.",
+        "creator": "Project Odisha",
+        "license": "CC BY-SA4.0"
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-138-unified-line-v1.png",
+        "alt": "Two neighbours exchange a bowl of fruit across a low wall.",
+        "caption": "How we meet one another.",
+        "creator": "Project Odisha",
+        "license": "CC BY-SA4.0"
+      },
+      "old_sha256": "50b80b14b5a3f8063933625ec500e28d5b5a4a1b3147a8fe4ca7519d2e9f435b",
+      "new_sha256": "1c3234a0a22e46bba5744da6209ff7c92225d8de46101b387616efa1d1a02760",
+      "method": "built-in image_gen edit",
+      "prompt": "Precise palette-only refinement of this existing fine ink line drawing. Two neighbours exchange a fruit bowl across low wall; remove pale yellow fruit tint. Retain the original composition, object shapes, contours, human anatomy, linework and hatching as closely as possible. Make all ink strictly neutral black/grey and all paper white. No sepia, cream wash, yellow, blue, green or other colour. Do not add objects, text, borders or decorative details. Preserve landscape3:2.",
+      "generation_report": "generation-addendum.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-addendum.json"
+    },
+    {
+      "id": "POD-DHAGA-143",
+      "old_graphic": {
+        "src": "assets/dhaga-143-expansion-v1.png",
+        "alt": "Hands offer a tray with wilted leaves and an areca nut to a raised, refusing palm.",
+        "caption": "A gift whose quality disappoints.",
+        "creator": "Project Odisha",
+        "license": "CC BY-SA4.0"
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-143-unified-line-v1.png",
+        "alt": "Hands offer a tray with wilted leaves and an areca nut to a raised, refusing palm.",
+        "caption": "A gift whose quality disappoints.",
+        "creator": "Project Odisha",
+        "license": "CC BY-SA4.0"
+      },
+      "old_sha256": "b4339a4be22cbd5f7e7ab684e3ad644befe10a0d8db3e110e6e62958cb08f019",
+      "new_sha256": "40dddb230ac125638c484988c6dd8805f906416f0edabd27469b5c25c85a9709",
+      "method": "built-in image_gen edit",
+      "prompt": "Precise palette-only refinement of this existing fine ink line drawing. Hands offer tray of wilted leaves and areca nut toward raised refusing palm; remove olive/brown tints; preserve curled wilted leaves and credible hands. Retain the original composition, object shapes, contours, human anatomy, linework and hatching as closely as possible. Make all ink strictly neutral black/grey and all paper white. No sepia, cream wash, yellow, blue, green or other colour. Do not add objects, text, borders or decorative details. Preserve landscape3:2.",
+      "generation_report": "generation-addendum.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-addendum.json"
+    },
+    {
+      "id": "POD-DHAGA-147",
+      "old_graphic": {
+        "src": "assets/dhaga-147-expansion-v1.png",
+        "alt": "Hands shape a rough clay figure with a monkey-like face.",
+        "caption": "An intended creation takes another form.",
+        "creator": "Project Odisha",
+        "license": "CC BY-SA4.0"
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-147-unified-line-v1.png",
+        "alt": "Hands shape a rough clay figure with a monkey-like face.",
+        "caption": "An intended creation takes another form.",
+        "creator": "Project Odisha",
+        "license": "CC BY-SA4.0"
+      },
+      "old_sha256": "44ca863477b7247554cd16e8248fe3e261abd8d7dab200419c021e9229683c82",
+      "new_sha256": "3c2ad913c2c8ceb964b79eaecda6326e53134b48f7d3ebbfd785ba4b73ccd130",
+      "method": "built-in image_gen edit",
+      "prompt": "Precise palette-only refinement of this existing fine ink line drawing. Hands shape a rough clay figure with monkey-like face; remove warm clay tint; preserve sculpted roughness and actual gesture. Retain the original composition, object shapes, contours, human anatomy, linework and hatching as closely as possible. Make all ink strictly neutral black/grey and all paper white. No sepia, cream wash, yellow, blue, green or other colour. Do not add objects, text, borders or decorative details. Preserve landscape3:2.",
+      "generation_report": "generation-addendum.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-addendum.json"
+    },
+    {
+      "id": "POD-DHAGA-148",
+      "old_graphic": {
+        "src": "assets/dhaga-148-expansion-v1.png",
+        "alt": "A crow looks down at an unopened round bael fruit.",
+        "caption": "A benefit that cannot readily be used.",
+        "creator": "Project Odisha",
+        "license": "CC BY-SA4.0"
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-148-unified-line-v1.png",
+        "alt": "A crow looks down at an unopened round bael fruit.",
+        "caption": "A benefit that cannot readily be used.",
+        "creator": "Project Odisha",
+        "license": "CC BY-SA4.0"
+      },
+      "old_sha256": "27a684ded98026d1314b48cb48509c63a3e64004264611f1a8fb53945bf8e801",
+      "new_sha256": "b8250e51c0ff9ebd959d35d4d9f4fbee57840b9458df052ceee0bc6ddf44caf8",
+      "method": "built-in image_gen edit",
+      "prompt": "Edit image1 into consistent fine black pen line art on pure white for an Odia proverb book. Image2 is style reference only. Tint-only refinement: retain existing crow and hard bael fruit contours and composition. Replace yellow fruit with white and restrained neutral hatching. Preserve meaningful actions and credible anatomy. Neutral black/grey contours and sparse hatching only; no colour, sepia, painted wash, heavy photographic shading, text or border. Landscape3:2, generous white space.",
+      "generation_report": "generation-c.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-c.json"
+    },
+    {
+      "id": "POD-DHAGA-152",
+      "old_graphic": {
+        "src": "assets/dhaga-152-expansion-v1.png",
+        "alt": "Three bowls of pulses sit beside a wooden pestle.",
+        "caption": "Pulses lend their names to a shared fear.",
+        "creator": "Project Odisha",
+        "license": "CC BY-SA4.0"
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-152-unified-line-v1.png",
+        "alt": "Three bowls of pulses sit beside a wooden pestle.",
+        "caption": "Pulses lend their names to a shared fear.",
+        "creator": "Project Odisha",
+        "license": "CC BY-SA4.0"
+      },
+      "old_sha256": "e3da5ae32d33a4d083e22ed9ea545a4e3642297b87076f67728cd1a24db370a0",
+      "new_sha256": "c2ee058a33ed3c45530d51835915ab58e62eaebf63c0c10c361ba5d321f62a9c",
+      "method": "built-in image_gen edit",
+      "prompt": "Edit image1 into consistent fine black pen line art on pure white for an Odia proverb book. Image2 is style reference only. Tint-only refinement: retain three bowls of differently shaped pulses, wooden pestle and woven mat. Remove brown/yellow colours; distinguish pulses through shape and restrained hatching. Preserve meaningful actions and credible anatomy. Neutral black/grey contours and sparse hatching only; no colour, sepia, painted wash, heavy photographic shading, text or border. Landscape3:2, generous white space.",
+      "generation_report": "generation-c.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-c.json"
+    },
+    {
+      "id": "POD-DHAGA-153",
+      "old_graphic": {
+        "src": "assets/dhaga-153-expansion-v1.png",
+        "alt": "A palm tree has green and drooping leaves, with one leaf falling.",
+        "caption": "Leaves and the passing of time.",
+        "creator": "Project Odisha",
+        "license": "CC BY-SA4.0"
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-153-unified-line-v1.png",
+        "alt": "A palm tree has upright and drooping fronds, with one dry frond falling.",
+        "caption": "Leaves and the passing of time.",
+        "creator": "Project Odisha",
+        "license": "CC BY-SA4.0"
+      },
+      "old_sha256": "dfd736a89b13ded5101828b0f2b8bfefec150dd62488fc62e014092c1583cd35",
+      "new_sha256": "a91c4b74548fa65acfc1b8732452770a29da89fe0dc232f368e54f5dedd8bed5",
+      "method": "built-in image_gen edit",
+      "prompt": "Precise palette-only refinement of this existing fine ink line drawing. Palm tree with healthy and drooping fronds, one dry frond falling; remove brown tint and distinguish dry fronds through droop/shape/hatching. Retain the original composition, object shapes, contours, human anatomy, linework and hatching as closely as possible. Make all ink strictly neutral black/grey and all paper white. No sepia, cream wash, yellow, blue, green or other colour. Do not add objects, text, borders or decorative details. Preserve landscape3:2.",
+      "generation_report": "generation-addendum.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-addendum.json"
+    },
+    {
+      "id": "POD-DHAGA-154",
+      "old_graphic": {
+        "src": "assets/dhaga-154-expansion-v1.png",
+        "alt": "Two frogs face one another beside a pond reflecting the sky.",
+        "caption": "A conversation about a changing world.",
+        "creator": "Project Odisha",
+        "license": "CC BY-SA4.0"
+      },
+      "new_graphic": {
+        "src": "assets/dhaga-154-unified-line-v1.png",
+        "alt": "Two frogs face one another beside a pond reflecting the sky.",
+        "caption": "A conversation about a changing world.",
+        "creator": "Project Odisha",
+        "license": "CC BY-SA4.0"
+      },
+      "old_sha256": "49aafa4ac3da61bd2a1d508d4b1a56c2c4fb4ede199e6482a11cd62681ab493d",
+      "new_sha256": "26fc91057854879fd16cf4d96e3487ebfd9675f245f07a76e2a18f25cbb91f8d",
+      "method": "built-in image_gen edit",
+      "prompt": "Edit image1 into consistent fine black pen line art on pure white for an Odia proverb book. Image2 is style reference only. Tint-only refinement: retain two frogs beside pond, one touching water with ripples, and sky reflection. Remove blue wash; white water with fine neutral ripple lines. Preserve meaningful actions and credible anatomy. Neutral black/grey contours and sparse hatching only; no colour, sepia, painted wash, heavy photographic shading, text or border. Landscape3:2, generous white space.",
+      "generation_report": "generation-c.json",
+      "rights": "Original Project Odisha illustration, CC BY-SA4.0; source image retained.",
+      "review_report": "generated-review-c.json"
+    }
+  ],
+  "status": "All69 adapted assets and all86 PDF pages visually reviewed; website representative phone/desktop preview passed; release gates pending.",
+  "reports": [
+    {
+      "path": "anvesha-audit.json",
+      "sha256": "153dcb71a04a668345627bc085bb68aae43ab0cd94bc5c5b1b2b6879027c4106"
+    },
+    {
+      "path": "audit-addendum.json",
+      "sha256": "8d8fa9322a9ede5cd05188252ebc45cc3c9813e30beca8f9a0f1773eb5bf003b"
+    },
+    {
+      "path": "generation-a.json",
+      "sha256": "cb51f80c36332f64e5bf83041685f9d41a6f29c64e8f446d2f631675724a0226"
+    },
+    {
+      "path": "generation-b.json",
+      "sha256": "8041192ce470f85dd3bc966f800e14eddc7ef4869ad1afde18c9670e41f0cc6b"
+    },
+    {
+      "path": "generation-c.json",
+      "sha256": "144d514e1e398d9eb17d55ccb5916896e398cb229efede453c2cdfce757fe949"
+    },
+    {
+      "path": "generation-addendum.json",
+      "sha256": "efa55ad5d2d6e0a94a9815c7371059dfda1a38b62e70c86a5aeae3b46108a3dd"
+    },
+    {
+      "path": "generation-031-correction.json",
+      "sha256": "fc57b5603efbbf42431ceb40f8c91a6723ce70fc846b11f9c2d92ec021ae285d"
+    },
+    {
+      "path": "initial-review.json",
+      "sha256": "0cde775975dca71c6890f3dbfa2faa03659fb5ae2fe813c3ede882653488f709"
+    },
+    {
+      "path": "generated-review-a.json",
+      "sha256": "5899d951efb988032b2a5d9b3969212879a6846bdcf9fc79e2977e1a8fb57374"
+    },
+    {
+      "path": "generated-review-b.json",
+      "sha256": "b80311615e827605d6a1b045e0768f2e4d1bcd4460647d6e7e0f13443a8daaba"
+    },
+    {
+      "path": "generated-review-c.json",
+      "sha256": "b5ef1ce190ac332a41e653a4aa4d442f791e80020fd13be12c2cd514601d25f6"
+    },
+    {
+      "path": "generated-review-addendum.json",
+      "sha256": "38d2ecfc9b6397204e6d4c6c2d2718f185f207de8244c81a469f7458f07ae8fd"
+    },
+    {
+      "path": "text-art-review.json",
+      "sha256": "c6c180575957f887f06715f52ac27ef8f0a18ce9ed0a346024908bad96496941"
+    },
+    {
+      "path": "graphic-text-updates.json",
+      "sha256": "3cb718b6fda2cba4e9bb4b7ffe6d032b41f9ab7f54f03a7d49631b2c6a60370f"
+    },
+    {
+      "path": "pdf-review-first-half.json",
+      "sha256": "2fc15cf2f5c6de3663b656413ea6fc8d13682cfe1c4f6c7d24d525242b41fb6d"
+    },
+    {
+      "path": "pdf-review-second-half.json",
+      "sha256": "23484d719a406f04c70fb4a2f19e0beb6b0948e3a8f7e9b382444c5a7b7b655c"
+    },
+    {
+      "path": "engineering-review.json",
+      "sha256": "6e8887c5bda24000aa7671a5f040a4fe5aed03edfb405f667c3463e2b7bce83e"
+    },
+    {
+      "path": "final-invariants.json",
+      "sha256": "93913f4e4e0554572d7392b9c70963d88cc6b70c73c0a3c2621366a9cdca3921"
+    },
+    {
+      "path": "website-review.json",
+      "sha256": "eee63b3421f25dbfa804fee95aa8c102b5c42d82723a426e633dd7f12b712e4e"
+    }
+  ],
+  "pdf": {
+    "pages": 86,
+    "bytes": 77985781,
+    "sha256": "fac7cfc050d4cf3a8124611c719e202266efae603a7330f99531b2eba5a30ab8"
+  }
+}
