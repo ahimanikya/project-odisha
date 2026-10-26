@@ -1,23 +1,7 @@
 ---
-import Shell from '../../layouts/Shell.astro';
-import ReviewedCultureArticle from '../../components/ReviewedCultureArticle.astro';
-import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
-import {cinema,cinemaArticle} from '../../lib/cinema-article.mjs';
-export function getStaticPaths(){return cinema.articles.map(entry=>({params:{slug:entry.slug},props:{entry}}));}
+import CinemaReading from '../../components/CinemaReading.astro';
+import {cinemaRouteEntries} from '../../lib/cinema-article.mjs';
+export function getStaticPaths(){return cinemaRouteEntries().map(entry=>({params:{slug:entry.slug},props:{entry}}));}
 const {entry}=Astro.props;
-const {article,readingSections,afterReading,hero}=cinemaArticle(entry);
-const index=cinema.articles.findIndex(a=>a.slug===entry.slug);
-const part=cinema.parts.find(p=>p.chapters.includes(entry.slug));
-const sequence=[index>0?{entry:cinema.articles[index-1],direction:'Previous'}:null,index<cinema.articles.length-1?{entry:cinema.articles[index+1],direction:'Next'}:null].filter(Boolean);
 ---
-<Shell title={article.title} description={entry.series_intro} active="explore" related={false} shareImage={{src:hero.file,alt:entry.hero.alt,width:hero.width,height:hero.height}}>
- <ReviewedCultureArticle article={article}>
-  <div slot="intro"><p><a href="/cinema/">← Odia cinema: A Living Screen</a></p><p class="eyebrow">{part?.title} · Reading {index+1} of {cinema.articles.length}</p><p>{entry.series_intro}</p></div>
-  <section id="further-reading" class="cinema-further-reading"><h2>Further reading</h2>{readingSections.map(section=><Fragment><div set:html={section.before}/>{section.compactReferences ? <section id={section.id} class="cinema-references"><h3>{section.heading}</h3><ul>{section.links.map(link=><li><a href={link.href}>{link.title}</a></li>)}</ul></section> : <ArticleReadingPath id={section.id} heading={section.heading} headingLevel={3} compact links={section.links}/>}</Fragment>)}</section>
-  <div set:html={afterReading}/>
-  <nav class="cinema-sequence" aria-label="Reading sequence">{sequence.map(n=><a href={n.entry.route} rel={n.direction==='Next'?'next':'prev'}><span>{n.direction}</span>{n.entry.title} <span aria-hidden="true">→</span></a>)}</nav>
-  <nav class="cinema-utilities" aria-label="Cinema collection"><a href="/cinema/">All {cinema.articles.length} readings</a><a href="/cinema/book/">Read or print the book</a><a href="/cinema/watch/">Find something to watch</a></nav>
- </ReviewedCultureArticle>
-</Shell>
-<style>.eyebrow{color:var(--earth);font-size:.8rem;letter-spacing:.08em}.reviewed-culture :global(picture){display:block}.reviewed-culture :global(figure img){height:auto;object-fit:contain}.cinema-further-reading{margin-top:2.5rem}.cinema-references{margin-top:1.5rem}.cinema-references h3{font-size:1.15rem}.cinema-references ul{padding-left:1.2rem}.cinema-references li{font-size:.95rem;line-height:1.65;margin:.45rem 0}.cinema-sequence{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;border-top:1px solid var(--line);margin-top:2rem;padding-top:1rem}.cinema-sequence a{font-size:1rem;line-height:1.6}.cinema-sequence a>span:first-child{display:block;font-size:.8rem;color:var(--muted)}.cinema-utilities{display:flex;flex-wrap:wrap;gap:.5rem 1.25rem;margin-top:1.5rem;padding-bottom:1rem;font-size:.95rem}.cinema-utilities a{padding:.3rem 0}.cinema-sequence a:focus-visible,.cinema-utilities a:focus-visible{outline:3px solid var(--earth);outline-offset:4px}
-</style>
+<CinemaReading entry={entry}/>

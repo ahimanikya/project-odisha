@@ -73,6 +73,8 @@ Links checked on 26 October 2026. Playback was not tested; territory, account an
 
 ## Further reading
 
+- [Nirad Mohapatra: making a film, making room for others](../../people/nirad-mohapatra.md)
+
 - [Odia cinema: the world in our own voice](../odia-cinema.md)
 - [Bhukha: when a tradition must also feed a family](bhukha.md)
 

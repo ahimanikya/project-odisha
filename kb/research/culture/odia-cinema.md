@@ -112,7 +112,7 @@ Children belong in this history as viewers with imaginative lives of their own. 
 
 Sadhu Meher’s ବାବୁଲା (Babula) provides a concrete starting point for the first history. A Lok Sabha answer of 7 December 1987 lists it among the Children’s Film Society of India’s productions for 1985–86, identifying it as an Oriya feature. A contemporary 1986 catalogue from Berlin’s Arsenal describes Meher’s CFSI-supported film through a lonely boy’s dreams of outer space. This places institutional support and a child’s imagination within the same account. [^children-babula-parliament][^children-babula-arsenal]
 
-A. K. Bir’s ଲାବଣ୍ୟ ପ୍ରୀତି (Lavanya Preeti) offers another firmly documented example. The 41st National Film Awards catalogue names the Oriya film as Best Children’s Film for 1993. Its citation recognises the movement from childhood into adolescence through myth and visual storytelling. The accompanying synopsis explains Bir’s use of a story within a story to engage children and young people. Here childhood includes curiosity, attachment and growing awareness, rather than merely providing a small character inside an adult plot. [^children-lavanya-nfa]
+[A. K. Bir](../people/ak-bir.md)’s [ଲାବଣ୍ୟ ପ୍ରୀତି (Lavanya Preeti)](cinema-series/lavanya-preeti.md) received Best Children’s Film for 1993. Its dedicated page follows young characters into the imaginative world of an inherited story.[^children-lavanya-nfa]
 
 The history of what children can hear in Odia is wider than the history of original Odia production. ରିଟର୍ଣ୍ଣ ଅଫ୍ ହନୁମାନ (Return of Hanuman) demonstrates why records must be read carefully. CBFC’s 2022 list records an Odia video version certified on 11 February 2022, naming Shemaroo Entertainment. Airtel Xstream’s official catalogue describes the Anurag Kashyap film as a 2007 title available in Odia and places it under animation and children’s entertainment. The later certificate records a language version; it should not turn the film into a new Odia production of 2022. The provider listing supplies a route to check availability, not a guarantee of playback in every location. [^children-hanuman-cbfc][^children-hanuman-provider]
 
@@ -142,7 +142,7 @@ Recent national recognition provides further starting points. Anupam Patnaik’s
 
 *Babushaan Mohanty in 2018, before his starring role in Daman. Event photograph by Jnanaranjan Sahu, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Babusan_Mohanty.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Original close-up retained uncropped and without AI modification; this is not a film still.*
 
-The actors make these recent titles more than entries in an awards list. In *Pratikshya*, **Dipanwit Dashmohapatra** plays Sanjay, a young man seeking a government job while his family faces debt and his father’s illness. Inspired by a story by **Gourahari Das**, the film brings literature into a contemporary father–son relationship. At IFFI in November 2022, Dipanwit described it as his first film as a lead actor.[^pratikshya-actor]
+The [Pratikshya companion](cinema-series/pratikshya.md) follows its connection with [Gourahari Das](../people/gourahari-das.md) and Dipanwit Dashmohapatra’s first leading role.[^pratikshya-actor]
 
 **Babushaan Mohanty** offers another route into the period through [*ଦମନ (DAMaN)*](cinema-series/daman.md). Our companion article follows the film’s making, its fictional doctor and the wider healthcare work behind its subject. These films invite us to follow performers and collaborators as well as prizes: who receives a substantial role, whose writing reaches the screen, and which stories find a larger audience?
 
@@ -274,11 +274,18 @@ Links checked on 26 October 2026. Playback was not tested; territory, account an
 
 [^children-babula-parliament]: Lok Sabha, 7 December 1987, printed pp. 99–100, CFSI production list for financial year 1985–86. Indexed parliamentary record; financial year is not an exact theatrical release date. [Read source](https://eparlib.sansad.in/bitstream/123456789/2965152/1/lsd_08_09_07-12-1987.pdf).
 [^children-babula-arsenal]: Arsenal Berlin, Kino in Indien catalogue, 1986, Odia-cinema overview. Historical catalogue synopsis; no priority claim or fresh full-film viewing. Odia title spelling also appears in [OdishaLIVE](https://odisha.live/2018/02/07/ଏମାନଙ୍କ-କ୍ୟାରିଅର୍-ଅଭିମା/). [Read source](https://www.arsenal-berlin.de/assets/Legacy/katalog_blaetter/1986_KinoInIndien_komplett.pdf).
-[^children-lavanya-nfa]: 41st National Film Awards catalogue, Best Children’s Film entry and synopsis p.182. Award for 1993; plot description follows catalogue. Differing producer credits are not resolved here. Odia title spelling follows [Sahitya Charcha](https://www.sahityacharcha.com/2023/06/02/odia-chalachitrare-ama-sahitya/). [Read source](https://nfaindia.org/images/pdf/41st%20National%20Film%20Award%20Catalogue.pdf).
+[^children-lavanya-nfa]: [41st National Film Awards catalogue](https://nfaindia.org/images/pdf/41st%20National%20Film%20Award%20Catalogue.pdf), Best Children’s Film,1993.
 [^children-hanuman-cbfc]: Central Board of Film Certification, certificates issued 2022, p.127, Return of Hanuman, 11 February 2022, certificate VIL/1/10/2022-DEL. Video certification is not the original film’s release date. [Read source](https://cbfcindia.gov.in/cbfcAdmin/assets/pdf/CC_Issued_2022.pdf).
 [^children-hanuman-provider]: Airtel Xstream, Return of Hanuman catalogue listing, checked 26 October 2026. Lists 2007, Odia, animation and children’s entertainment; playback, audio, subscription and territory not tested. The displayed Odia title is an editorial transliteration of the provider’s English title; an official Odia title spelling was not verified. Listing and certification runtimes differ and are not assumed to describe the same cut. [Read source](https://www.airtelxstream.in/movies/return-of-hanuman/HOTSTAR_DTH_MOVIE_1055915).
 
 ## Further reading
+
+- [The page behind the screen: Odia literature and cinema](cinema-series/literature-and-screen.md)
+- [Nirad Mohapatra: filmmaking and film culture](../people/nirad-mohapatra.md)
+- [Sabyasachi Mohapatra: regional stories and collaborators](../people/sabyasachi-mohapatra.md)
+- [Aadim Vichar: whose understanding of justice?](cinema-series/aadim-vichar.md)
+- [A. K. Bir: from the camera to the child’s world](../people/ak-bir.md)
+- [Beyond One Successful Film: Building Odia Cinema Together](cinema-series/cinema-futures.md)
 
 The [25 October 2026 screening snapshot](../../records/cinema-screening-snapshot-2026-10-25.json) is retained as dated research evidence, not current booking advice.[^current-screening]
 
