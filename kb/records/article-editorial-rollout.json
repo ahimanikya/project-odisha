@@ -2533,12 +2533,15 @@
       "id": "POD-EDIT-089",
       "route": "/languages/districts/bhadrak/",
       "title": "Bhadrak · languages and population",
-      "status": "queued",
+      "status": "excluded",
       "scope": "classification_pending",
       "source_template": null,
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/bhadrak-language-utility-review-2026-10-26.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually inspected Census2011 district data/navigation utility with computed introduction, residence tables and language-profile links; no configured local destination or related-discovery narrative. Retain route/data/search and separate Bhadrak food, performance, banking and person narratives."
     },
     {
       "id": "POD-EDIT-090",
