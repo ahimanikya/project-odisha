@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 786. completed: 101, excluded: 382, queued: 303.
+Route inventory: 786. completed: 101, excluded: 383, queued: 302.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -103,7 +103,7 @@ Route inventory: 786. completed: 101, excluded: 382, queued: 303.
 | POD-EDIT-087 | [Mayurbhanj · languages and population](https://projectodisha.org/languages/districts/mayurbhanj/) | excluded | classification_pending |
 | POD-EDIT-088 | [Baleshwar · languages and population](https://projectodisha.org/languages/districts/baleshwar/) | excluded | classification_pending |
 | POD-EDIT-089 | [Bhadrak · languages and population](https://projectodisha.org/languages/districts/bhadrak/) | excluded | classification_pending |
-| POD-EDIT-090 | [Kendrapara · languages and population](https://projectodisha.org/languages/districts/kendrapara/) | queued | classification_pending |
+| POD-EDIT-090 | [Kendrapara · languages and population](https://projectodisha.org/languages/districts/kendrapara/) | excluded | classification_pending |
 | POD-EDIT-091 | [Jagatsinghapur · languages and population](https://projectodisha.org/languages/districts/jagatsinghapur/) | queued | classification_pending |
 | POD-EDIT-092 | [Cuttack · languages and population](https://projectodisha.org/languages/districts/cuttack/) | queued | classification_pending |
 | POD-EDIT-093 | [Jajapur · languages and population](https://projectodisha.org/languages/districts/jajapur/) | queued | classification_pending |

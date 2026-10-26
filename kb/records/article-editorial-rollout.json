@@ -2547,12 +2547,15 @@
       "id": "POD-EDIT-090",
       "route": "/languages/districts/kendrapara/",
       "title": "Kendrapara · languages and population",
-      "status": "queued",
+      "status": "excluded",
       "scope": "classification_pending",
       "source_template": null,
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/kendrapara-language-utility-review-2026-10-26.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually inspected Census2011 district data/navigation utility with computed introduction, residence tables and language-profile links; no configured local destination or related-discovery narrative. Retain route/data/search and separate Rasabali, Kendara, banking and other authored material."
     },
     {
       "id": "POD-EDIT-091",
