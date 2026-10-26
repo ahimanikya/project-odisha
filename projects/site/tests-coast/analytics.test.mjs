@@ -19,7 +19,7 @@ test('coastal analytics configuration is explicit and never eagerly loads the re
   if(!validMeasurementId(id)){assert.equal(raw,null);continue;}
   assert.ok(raw,route);
   const config=JSON.parse(raw[1]);
-  assert.equal(config.id,id);assert.deepEqual(config.allowedPaths,routes);
+  assert.equal(config.id,id);assert.deepEqual(config.allowedPaths,route==='/404.html'?[]:[route],route);
   assert.equal(new URL(config.canonical).origin,'https://projectodisha.org');
   assert.equal(new URL(config.canonical).search,'');
   assert.match(html,/id="analytics-choice"[^>]*hidden/);

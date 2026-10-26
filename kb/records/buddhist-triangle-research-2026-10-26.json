@@ -4,7 +4,7 @@
   "authorization": "Founder requested deep research on Ratnagiri, Udayagiri and Lalitgiri and explicitly selected publish reviewed articles on 26 October 2026",
   "input_head": "32ee7af",
   "coordinator": "Disha",
-  "current_article": "Buddhist Udayagiri",
+  "current_article": "Lalitgiri: relics, monasteries and a long Buddhist history",
   "sequence": [
     "Ratnagiri",
     "Buddhist Udayagiri",
@@ -22,8 +22,8 @@
   ],
   "workers": {
     "Anvesha": "All four deep research drafts complete",
-    "Samanta": "Udayagiri implementation and validation",
-    "Drishti": "Udayagiri integrated candidate independently reviewed; no blockers"
+    "Samanta": "Lalitgiri integration complete; buildchecks running",
+    "Drishti": "Lalitgiri separate integratedreview passed"
   },
   "boundaries": "One article implementation at a time. Existing Dhaga and Cinema work preserved. No social publication until saved button approval; no substantive programme credit claimed.",
   "ratnagiri_review": "research/stories/buddhist-triangle/evidence/ratnagiri-deep-review.md",
@@ -55,5 +55,29 @@
     "saved_bytes": 11129703,
     "review": "research/stories/buddhist-triangle/evidence/delivery-jpeg-review.md",
     "checks": "Separate code review and2targeted tests passed. Samanta visually compared originals and derivatives. Publicationbuild and disclosuregate passed. Hosted CI rerun pending."
+  },
+  "udayagiri_publication_receipt": "records/udayagiri-publication-2026-10-26.json",
+  "lalitgiri_review": "research/stories/buddhist-triangle/evidence/lalitgiri-integrated-review.md",
+  "lalitgiri_visual_checks": "Desktop screenshot inspected;390px viewport width andscrollWidth390;hero351.61px;20footnotes,fullphotocredit,andtwoalready-live readinglinks verified.",
+  "lalitgiri_validation": {
+    "full_build": "533 pages passed locally",
+    "full_tests": "614 passed locally",
+    "coast_tests": "515 passed locally",
+    "publication_local_without_analytics_bytes": 985298354,
+    "hosted_run": 40294922969,
+    "hosted_failure": "Publication size1001344102 bytes exceeds1GB; full and coastal tests passed.",
+    "remaining_checks": "Hosted validation rerun on final reviewed head required."
+  },
+  "release_size_repair": {
+    "scope": [
+      "projects/site/src/components/Analytics.astro",
+      "projects/site/tests/analytics.test.mjs",
+      "projects/site/tests-coast/analytics.test.mjs"
+    ],
+    "worker": "Samanta",
+    "reason": "Full editionRoutes array repeated in every enabled analytics config adds about15.5MB. Emit current path only if present in editionRoutes. Preserve origin, canonical, 404 and consent checks.",
+    "review": "research/stories/buddhist-triangle/evidence/analytics-delivery-review.md",
+    "local_validation_requirement": "Set PUBLIC_GA_MEASUREMENT_ID to the same public value used by CI for coastal/publication size checks.",
+    "result": "Separate review passed;10analytics/consent and515coastal tests passed with analytics enabled;publication985895175bytes;disclosure gates clear."
   }
 }
