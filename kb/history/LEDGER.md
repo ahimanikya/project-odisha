@@ -1181,3 +1181,9 @@ Founder requested an expanded account of his week in Bhubaneswar and publication
 ## 26 October 2026 · Ratnagiri research article candidate
 
 Founder explicitly authorized publication of reviewed Ratnagiri, Buddhist Udayagiri, Lalitgiri and connected Triangle articles. Ratnagiri is the single active article. Three ASI annual reports and scholarly studies underpin the sourced narrative; separate Drishti source review passed after a citation correction. Licensed photograph retains creator, source, licence and alterations. Publication and live receipt remain pending. Other Dhaga and Cinema scopes preserved; no social approval or programme completion inferred. Handoff: `records/buddhist-triangle-research-2026-10-26.json`.
+
+## Puri resort connects Project Odisha and Odisha Investor
+
+POD-HIS-PURI-PROJECT-20261026 · 26 October 2026 · Authorized implementation; publication pending.
+
+The Founder requested a Project Odisha page alongside the Investor kit. The public overview introduces the resort concept; Odisha Investor provides the kit and editable project workspaces. [Scope and delivery record](../records/puri-project-integration-20261026.json).
