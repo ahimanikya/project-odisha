@@ -131,6 +131,6 @@ The crisis-vow saying retains one untranslated noun, and the opening of the devo
 
 ## Cultural reading edition · 26 October 2026
 
-The current edition uses a new portrait cover and a bilingual introduction about language, everyday judgement and living away from Odisha. The first-person opening follows the Founder’s account of35years outside Odisha. Individual Odia explanations are being expanded and separately reviewed; release status belongs to the dated delivery record.
+The current edition uses a new portrait cover and a bilingual introduction about language, everyday judgement and living away from Odisha. The first-person opening follows the Founder’s account of 35 years outside Odisha. All 159 Odia explanations have been expanded and separately AI reviewed. The revised book contains 90 pages; publication status belongs to the dated delivery record.
 
 Superseded image working copies are removed from `assets/`. [The archive map](archived-artwork.json) preserves their exact SHA256 hashes, Git blobs and immutable links to commit21a471da. Historical evidence paths describe those earlier editions and resolve through this map; they are not missing current illustrations. Active entry art, decorative motifs and font licences remain local. No source scan or historical evidence record is removed.
