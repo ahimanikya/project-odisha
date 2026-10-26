@@ -4,7 +4,7 @@ const sections = [
  ['/crafts/', 'Crafts of Odisha'], ['/textiles/', 'Woven in Odisha'],
  ['/food/', 'Food & flavours'], ['/destinations/', 'Destinations'],
 ];
-const cinemaPeople = new Set(['/people/nirad-mohapatra/', '/people/sabyasachi-mohapatra/', '/people/ak-bir/']);
+const cinemaPeople = new Set(['/people/nirad-mohapatra/', '/people/sabyasachi-mohapatra/', '/people/ak-bir/', '/people/gour-prasad-ghose/']);
 export function pageContext(path, title) {
  const section = (cinemaPeople.has(path) ? ['/cinema/', 'Odia cinema'] : null) || (path === '/knowledge/kotpad/' ? ['/textiles/', 'Woven in Odisha'] : null) || (path === '/people/subhas-chandra-bose/' ? ['/destinations/cuttack/', 'Cuttack'] : null) || sections.find(([href]) => path.startsWith(href))
   || (path.startsWith('/people/') ? sections.find(([href])=>href==='/literature/') : null)

@@ -1,55 +1,82 @@
 ---
 type: "Person"
-title: "Gourahari Das: the story before the screen"
-description: "Meet a writer whose fiction travels through translation and into Pratikshya, while keeping the literary work in view."
+title: "Gourahari Das: fiction, public life and the art of listening"
+description: "Explore Gourahari Das through short stories, novels, journalism, translation, literary mentorship and adaptation."
 author: "Ahimanikya Satapathy"
 status: "draft"
 research_date: "2026-10-26"
 human_review_claimed: false
-sources: [{"id": "gourahari-das-1", "resource": "https://niyogibooksindia.com/author/gourahari-das/"}, {"id": "gourahari-das-2", "resource": "https://niyogibooksindia.com/books/the-labyrinth/"}, {"id": "gourahari-das-3", "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1878242"}, {"id": "gourahari-das-4", "resource": "https://www.sahitya-akademi.gov.in/publications/english-catalogue.jsp"}, {"id": "gourahari-das-5", "resource": "https://sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp"}, {"id": "gourahari-das-6", "resource": "https://sahitya-akademi.gov.in/awards/anuvad_samman_suchi.jsp"}]
-series_intro: "Meet a writer whose fiction travels through translation and into Pratikshya, while keeping the literary work in view."
+sources: [{"id": "gour-traveller", "resource": "https://gouraharidas.com/2019/07/11/gourahari-das/"}, {"id": "gour-klf", "resource": "https://kalingaliteraryfestival.com/speakers/gourahari-das/"}, {"id": "gour-kolkata", "resource": "https://kolkatalitmeet.in/2022/speakers/gourahari-das/"}, {"id": "gour-culprit", "resource": "https://www.thedreamingmachine.com/the-culprit-gourahari-das/"}, {"id": "gour-monks", "resource": "https://gouraharidas.com/2019/08/03/the-little-monk-and-other-stories/"}, {"id": "gour-panchaparba", "resource": "https://gouraharidas.com/2019/08/03/panchaparba-2/"}, {"id": "gour-stage", "resource": "https://gouraharidas.com/2019/08/01/from-page-to-stage/"}, {"id": "gour-sarala", "resource": "https://www.imfa.in/impact"}, {"id": "gourahari-das-1", "resource": "https://niyogibooksindia.com/author/gourahari-das/"}, {"id": "gourahari-das-2", "resource": "https://niyogibooksindia.com/books/the-labyrinth/"}, {"id": "gourahari-das-3", "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1878242"}, {"id": "gourahari-das-4", "resource": "https://www.sahitya-akademi.gov.in/publications/english-catalogue.jsp"}, {"id": "gourahari-das-5", "resource": "https://sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp"}, {"id": "gourahari-das-6", "resource": "https://sahitya-akademi.gov.in/awards/anuvad_samman_suchi.jsp"}]
+series_intro: "Explore Gourahari Das through short stories, novels, journalism, translation, literary mentorship and adaptation."
 hero_image: "../media/cinema-series/parbati-ghose-title.png"
 ---
 
-# Gourahari Das: the story before the screen
+# Gourahari Das: fiction, public life and the art of listening
 
 By Ahimanikya Satapathy
 
-A father is ill. A son needs a secure job. A family carries debt. In *ପ୍ରତୀକ୍ଷା (Pratikshya)*, those pressures become a troubling question about what the son begins to hope for. The official IFFI account identifies a short story by **Gourahari Das** as the film’s inspiration.[^film]
+A constable wants a promotion. The man in his custody begins to speak. In Gourahari Das’s short story **“The Culprit,”** the encounter gradually unsettles the policeman’s sense of what that promotion would mean. Listening changes the weight of the case before him.[^culprit]
 
-That credit opens a door back to the writer. Before a film has actors, locations and an audience, a story has already arranged a difficult encounter between people. Following the author helps us see an adaptation as a meeting of creative lives.
+It is one way into **ଗୌରହରି ଦାସ (Gourahari Das)**: through the movement of a story, before the list of honours or the film adaptation. His writing extends across short fiction, novels, columns, essays, plays and translation.[^author] Cinema is one of the places that work has travelled; the literary life is larger.
 
-## A writer beyond one adaptation
+## Formative surroundings and education
 
-Das’s work extends across fiction, essays and other forms, as well as translation. His publisher describes adaptations for theatre, television and film.[^author] That broad account is an invitation to investigate individual works; it does not supply a complete adaptation filmography.
+The biographical account on his website places his beginnings in **Sandhagara near the Mantei river**. It describes growing up in a monastery amid financial hardship, then continuing his education with scholarships, studying at Ravenshaw and pursuing postgraduate study at Utkal University.[^traveller]
 
-One reading route is *The Nail and Other Stories*. Sahitya Akademi lists the English collection as a translation by **Mona Lisa Jena** of *Kanta O’ Anyanya Galpa*, first published in that English edition in 2017. The original collection received the **2012 Sahitya Akademi Award** in Odia.[^catalogue][^award] The dates belong to different events: recognition of the Odia work and publication of its English translation.
+That account offers a context for approaching the writing. It should not turn every fictional child or village into a disguised autobiography. A novelist can transform experience, invent circumstances and enter lives different from his own. The distance between a writer’s life and a character’s life is part of what makes fiction possible.
 
-## Whose safety, whose responsibility?
+## What a short story can make us reconsider
 
-Niyogi Books introduces *The Labyrinth* through Draupadi, a fictional woman caught between reporting a crime and protecting her family. **Manoranjan Mishra** translated the novel into English.[^labyrinth] This is the publisher’s synopsis, rather than an account of a personal experience of the author.
+In **“The Culprit,” translated by Snehaprava Das**, constable Nimai keeps watch over Sanatan. The dialogue gives the detained man room to tell his story; Nimai’s hope of professional reward becomes difficult to hold onto. Our reading is that the shift of attention matters as much as the accusation: the person initially treated as a case becomes someone the policeman must hear.[^culprit]
 
-The dilemma gives a reader something concrete to approach: how does a story hold responsibility to others beside fear for those closest to us? It is a question to bring to the book, not a verdict reached without reading it.
+Readers can follow the complete translated story at [The Dreaming Machine](https://www.thedreamingmachine.com/the-culprit-gourahari-das/), where it appeared through an exchange with *The Antonym*. The translator and journal make that encounter available to people who do not read Odia.
 
-## Translation works in both directions
+The description of **The Little Monk and Other Stories** on Das’s website introduces rural lives, uneasy family relationships and people living with unequal power. It identifies the Rupa edition by ISBN **978-81-291-1699-4**.[^monk] This is another route into his short fiction, alongside **Kanta O’ Anyanya Galpa**, the collection recognised by the Sahitya Akademi in 2012.[^award]
 
-Das also brings writing into Odia. The Akademi’s **2021 Translation Prize** list credits his *Chheli Chareibara Dina*, translated from **Benyamin’s Malayalam novel Aadujeevitham (Goat Days)**.[^translation]
+## Novels and the pressure of a choice
 
-Here the connection widens beyond the journey from Odia to a national audience. A literary culture also grows through the works it welcomes in. The translator’s name belongs beside the author’s because the reader’s encounter depends on both.
+**Panchaparba**, published by Friends Publishers in 2019, gathers five novels: *Chhayasoudhara Abasesha*, *Nija Sange Nijara Ladhei*, *Eithu Arambha*, *Apananka Ajnadhina* and *Kete Rangara Jibana*. Its bibliographic description foregrounds women facing constraints on safety, choice and independence.[^panchaparba]
 
-## From a short story to Pratikshya
+One English reading route is **The Labyrinth**, translated by **Manoranjan Mishra**. Niyogi Books describes its central character, Draupadi, caught between reporting a crime and protecting her family.[^labyrinth] The dilemma is a useful question to carry into the novel: what happens when doing what seems right also threatens someone one loves?
 
-IFFI’s 2022 account introduces the film through director **Anupam Patnaik** and lead actor **Dipanwit Dashmohapatra**.[^film]
+This question need not be settled before reading. A literary profile can help us find a work without prescribing what every reader must think about it.
 
-The source confirms Das’s short-story connection but does not name the story. Nor does it establish which scenes or dialogue were carried from page to screen. A closer comparison should identify the published text and the film’s adaptation credits before describing those choices.
+## The newspaper column and the editor’s desk
 
-The connection nevertheless matters now. Credit for the literary starting point lets audiences travel back from the film to its writer, and from that writer towards translators and other books. It gives Odia cinema a living relationship with contemporary literature.
+Das’s literary life also includes journalism. The Kalinga Literary Festival biography identifies **Rajdhani Rajneeti**, a Sambad column written as **Sri Narada**, and **Jibanara Jalachabi**, a column drawing on observations of life.[^columns] The newspaper offers a different rhythm from the novel: a recurring conversation with readers, returning to public affairs and daily experience.
 
-## Read and explore
+The **2022 Kolkata Literary Meet** profile records him as Sambad’s features editor, editor of the literary monthly **Katha**, and principal of the **Sambad School of Media and Culture**.[^kolkata] These are dated career roles, rather than a claim about his present appointments.
 
-The [publisher’s author page](https://niyogibooksindia.com/author/gourahari-das/) and [The Labyrinth book page](https://niyogibooksindia.com/books/the-labyrinth/) offer bibliographic starting points. The Akademi catalogue identifies *The Nail and Other Stories* and its translator. These are information and reading routes, not claims that full texts are freely available.
+His website’s 2019 account also describes *Katha*’s young-writer competition and his theatre involvement.[^stage] Editing and encouraging new writing make the literary world visible as shared work. Alongside the writer whose name appears on a cover are other writers finding a first reader, a publication and the confidence to continue.
+
+## Translation in both directions
+
+Sahitya Akademi’s English catalogue lists **The Nail and Other Stories**, translated by **Mona Lisa Jena** from *Kanta O’ Anyanya Galpa*, in a 2017 edition. Its publication date is distinct from the original work’s 2012 award.[^catalogue][^award]
+
+Das is also a translator into Odia. The Akademi’s **2021 Translation Prize** recognises **Chheli Chareibara Dina**, his translation of Benyamin’s Malayalam novel *Aadujeevitham*, known in English as *Goat Days*.[^translation] The 2022 Kolkata profile additionally records his translations of autobiographical work by **Kuldip Nayar and Ruskin Bond**.[^kolkata]
+
+These journeys run both ways. Readers elsewhere encounter Odia fiction through translators such as Jena and Mishra; Odia readers encounter other literary worlds through Das’s translations. Translation is part of a living language’s curiosity, as well as its visibility.
+
+## Recognition and a reading route
+
+Three recognitions offer different entry points:
+
+- **2012 Sahitya Akademi Award:** *Kanta O’ Anyanya Galpa*, an Odia short-story collection.[^award]
+- **2021 Sahitya Akademi Translation Prize:** *Chheli Chareibara Dina*.[^translation]
+- **2022 Sarala Puraskar:** listed by award organiser IMPaCT.[^sarala]
+
+For a first encounter, read “The Culprit” online. For a collection, explore *The Nail and Other Stories* or *The Little Monk and Other Stories*. For a longer fictional world, follow *The Labyrinth* or the novels gathered in *Panchaparba*. These are selected routes, not a complete bibliography or a claim that all editions are currently in stock.
+
+## One journey from fiction to cinema
+
+The IFFI account of **ପ୍ରତୀକ୍ଷା (Pratikshya)** credits a short story by Das as the film’s inspiration. Director **Anupam Patnaik** and lead actor **Dipanwit Dashmohapatra** bring another set of creative lives into that journey.[^film]
+
+The [film companion](../culture/cinema-series/pratikshya.md) explores the family drama. The IFFI source does not name the original story, so a scene-by-scene comparison must wait for that text to be identified. The adaptation nevertheless offers a way back to the writer, just as a book can send a reader towards theatre or a film.
+
+In Project Odisha’s growing account of contemporary writers, Das belongs first among literary lives. His cinema connection sits beside the short story, the novel, the column, the translator’s work and the occasions on which new voices are heard.
 
 ## Footnotes & Sources
+
 
 [^film]: Press Information Bureau, [IFFI53 account of Pratikshya](https://www.pib.gov.in/PressReleasePage.aspx?PRID=1878242), 23 November 2022. Confirms short-story inspiration and film synopsis; does not name the underlying story.
 [^author]: Niyogi Books, [Gourahari Das](https://niyogibooksindia.com/author/gourahari-das/), publisher biography. Broad career description, not an independently complete bibliography.
@@ -58,13 +85,21 @@ The [publisher’s author page](https://niyogibooksindia.com/author/gourahari-da
 [^labyrinth]: Niyogi Books, [The Labyrinth](https://niyogibooksindia.com/books/the-labyrinth/), synopsis and translator credit. Synopsis attributed to publisher; exact edition date not asserted.
 [^translation]: Sahitya Akademi, [Translation Prizes](https://sahitya-akademi.gov.in/awards/anuvad_samman_suchi.jsp), Odia, 2021. Award year distinguished from later announcement.
 
+
+[^traveller]: Author website, [A Traveller](https://gouraharidas.com/2019/07/11/gourahari-das/), 11 July 2019. The website describes third-party preparation with writer inputs. Biographies disagree on birth year; no birth date is asserted here.
+[^columns]: [Kalinga Literary Festival biography](https://kalingaliteraryfestival.com/speakers/gourahari-das/), column names and pseudonym. Undated career account; current tenure is not inferred.
+[^kolkata]: [Kolkata Literary Meet 2022](https://kolkatalitmeet.in/2022/speakers/gourahari-das/), speaker biography and session dated 25 March 2022. Editorial/teaching roles are anchored to that profile.
+[^culprit]: Gourahari Das, [The Culprit](https://www.thedreamingmachine.com/the-culprit-gourahari-das/), translated by Snehaprava Das, The Dreaming Machine, 30 April 2022, courtesy The Antonym. Published fiction inspected; the discussion is an interpretation of the story, not testimony about real people.
+[^monk]: Author website, [The Little Monk and Other Stories](https://gouraharidas.com/2019/08/03/the-little-monk-and-other-stories/), bibliographic entry and description. Website posting date is not an asserted book publication date.
+[^panchaparba]: Author website, [Panchaparba](https://gouraharidas.com/2019/08/03/panchaparba-2/), Friends Publishers, 2019, collected novels volume 1. Descriptive themes are attributed to this entry rather than an independent reading of all five novels.
+[^stage]: Author website, [From page to stage](https://gouraharidas.com/2019/08/01/from-page-to-stage/), 1 August 2019, theatre and young-writer activity. Promotional impact claims are not adopted.
+[^sarala]: IMPaCT, [Sarala Puraskar recipients](https://www.imfa.in/impact), 2022 entry for Gourahari Das.
+
 ## Further reading
 
+- [Odia literature and literary lives](https://projectodisha.org/literature/)
 - [Pratikshya: a family waiting for security](../culture/cinema-series/pratikshya.md)
-
-- [Odia cinema: the world in our own voice](../culture/odia-cinema.md)
+- [The page behind the screen](../culture/cinema-series/literature-and-screen.md)
 - [Parbati Ghose: the woman behind the credits](../culture/cinema-series/parbati-ghose.md)
-- [AIR Cuttack: where stories found another voice](../culture/air-cuttack.md)
 
-
-**[Suggest an update](https://projectodisha.org/contribute/?page=/people/gourahari-das/):** share a credit, publication record or precise correction. GitHub submissions are public; omit private contact details and consent documents.
+**[Suggest an update](https://projectodisha.org/contribute/?page=/people/gourahari-das/):** share a book record, translation credit or precise correction. GitHub submissions are public; omit private contact details and consent documents.

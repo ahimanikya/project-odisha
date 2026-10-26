@@ -4,5 +4,6 @@ import VoicesPage from '../../components/VoicesPage.astro';
 import collection from '../../../../../kb/research/voices/collection.json';
 const entry=structuredClone(collection.pages.find(p=>p.path==='literature'));
 entry.cards.push(...reviewedCulture.filter(p=>p.category==='Literature').map(p=>({title:p.label,text:p.dek,href:p.href,asset:null,source_ids:[]})));
+entry.cards.push({title:'Gourahari Das',text:'Short fiction, novels, translation and an editorial life connecting writers and readers.',href:'/people/gourahari-das/',asset:null,source_ids:[]});
 ---
 <VoicesPage entry={entry}/>
