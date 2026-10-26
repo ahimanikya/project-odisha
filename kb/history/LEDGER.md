@@ -1201,3 +1201,8 @@ PR576, validation40288816519 and deployment40290023762 succeeded; live article v
 ### 26 October 2026 — lalitgiri publication verified
 
 PR580, validation40296411821 and deployment40297355055 succeeded; live article verified. Receipt: `records/lalitgiri-publication-2026-10-26.json`. Next authorized article: Odisha’s Buddhist Triangle: three places, distinct histories.
+
+
+### 26 October 2026 — diamond-triangle publication verified
+
+PR583, validation40299890804 and deployment40305705401 succeeded; live article verified. Receipt: `records/diamond-triangle-publication-2026-10-26.json`. All four Buddhist Triangle articles verified live; social publication remains subject to fresh button approval.
