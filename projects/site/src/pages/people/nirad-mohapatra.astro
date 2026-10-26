@@ -1,0 +1,7 @@
+---
+import CinemaReading from '../../components/CinemaReading.astro';
+import {cinema} from '../../lib/cinema-article.mjs';
+const entry=cinema.articles.find(article=>article.route==='/people/nirad-mohapatra/');
+if(!entry)throw new Error('Missing reviewed Nirad Mohapatra entry');
+---
+<CinemaReading entry={entry}/>
