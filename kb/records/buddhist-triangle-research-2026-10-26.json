@@ -4,7 +4,7 @@
   "authorization": "Founder requested deep research on Ratnagiri, Udayagiri and Lalitgiri and explicitly selected publish reviewed articles on 26 October 2026",
   "input_head": "32ee7af",
   "coordinator": "Disha",
-  "current_article": "Ratnagiri",
+  "current_article": "Buddhist Udayagiri",
   "sequence": [
     "Ratnagiri",
     "Buddhist Udayagiri",
@@ -21,9 +21,9 @@
     "projects/site/public/assets/buddhist-triangle/"
   ],
   "workers": {
-    "Anvesha": "Ratnagiri research complete; preparatory Udayagiri research complete",
-    "Samanta": "Ratnagiri presentation and publication-edition integration",
-    "Drishti": "Ratnagiri final narrative separate source review passed"
+    "Anvesha": "All four deep research drafts complete",
+    "Samanta": "Udayagiri implementation and validation",
+    "Drishti": "Udayagiri integrated candidate independently reviewed; no blockers"
   },
   "boundaries": "One article implementation at a time. Existing Dhaga and Cinema work preserved. No social publication until saved button approval; no substantive programme credit claimed.",
   "ratnagiri_review": "research/stories/buddhist-triangle/evidence/ratnagiri-deep-review.md",
@@ -35,5 +35,25 @@
     "scope": "Browser check of built candidate, not live publication."
   },
   "concurrent_release": "Preceding cinema deployment succeeded and live page verified; narrow observation receipt preserves original review and records completion.",
-  "preceding_release_receipt": "records/cinema-economics-delivery-observed-2026-10-26.json"
+  "preceding_release_receipt": "records/cinema-economics-delivery-observed-2026-10-26.json",
+  "ratnagiri_publication_receipt": "records/ratnagiri-publication-2026-10-26.json",
+  "udayagiri_review": "research/stories/buddhist-triangle/evidence/udayagiri-integrated-review.md",
+  "udayagiri_validation": {
+    "full_build": "522 pages passed",
+    "full_tests": "602 passed;5 search failures fixed by explicit hold route; affected7 tests passed",
+    "coast_tests": "515 passed",
+    "publication_build": "passed",
+    "disclosure": "all three editions0 violations",
+    "browser": "Desktop screenshot inspected;390px viewport scrollWidth390 andimage351.61px;19footnotes and fullcredit visible",
+    "geographic_clarification": "Founder clarification26October: Buddhist Udayagiri in Jajpur near Ratnagiri explicit in title/opening/credit; Jain Udayagiri–Khandagiri nearBhubaneswar distinguished."
+  },
+  "delivery_size_fix": {
+    "failed_ci_run": 40286393187,
+    "ci_bytes_before": 1001926486,
+    "local_bytes_after": 975232958,
+    "scope": "Two delivery-only JPEG derivatives, max3072px quality95. Original/coastal files unchanged; full credit and accurate modification captions retained. Lossy compression, no cropping.",
+    "saved_bytes": 11129703,
+    "review": "research/stories/buddhist-triangle/evidence/delivery-jpeg-review.md",
+    "checks": "Separate code review and2targeted tests passed. Samanta visually compared originals and derivatives. Publicationbuild and disclosuregate passed. Hosted CI rerun pending."
+  }
 }

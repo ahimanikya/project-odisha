@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 802. completed: 113, excluded: 387, in_progress: 1, queued: 301.
+Route inventory: 803. completed: 114, excluded: 387, in_progress: 1, queued: 301.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -815,4 +815,5 @@ Route inventory: 802. completed: 113, excluded: 387, in_progress: 1, queued: 301
 | POD-EDIT-799 | [Odia television and the stories that came home](https://projectodisha.org/cinema/odia-television/) | completed | Reviewed cinema article published and live delivery verified |
 | POD-EDIT-800 | [The Odia OTT journey and the search for an audience](https://projectodisha.org/cinema/odia-ott/) | completed | Reviewed cinema article published and live delivery verified |
 | POD-EDIT-801 | [What Makes the Next Film Possible](https://projectodisha.org/cinema/cinema-economics/) | completed | Restore reviewed book economics chapter as standalone cinema article |
-| POD-EDIT-802 | [Ratnagiri: a place built for learning](https://projectodisha.org/stories/ratnagiri/) | in_progress | new_researched_article |
+| POD-EDIT-802 | [Ratnagiri: a place built for learning](https://projectodisha.org/stories/ratnagiri/) | completed | new_researched_article |
+| POD-EDIT-803 | [Buddhist Udayagiri in Jajpur: monasteries and daily life](https://projectodisha.org/stories/udayagiri-buddhist/) | in_progress | new_researched_article |
