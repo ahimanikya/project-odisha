@@ -127,3 +127,10 @@ Entries111–159 add49 separately AI-reviewed sayings and idioms in one batch: s
 Nine more positions in the original127 concordance now link to completed explanations, with partial and expanded forms distinguished:51 linked,75 unresolved and one duplicate. Two additional discovered associations remain leads because no complete entry was accepted for them. The broad source pass does not establish exhaustive coverage of Odia oral tradition.
 
 The crisis-vow saying retains one untranslated noun, and the opening of the devotional rhyme remains explicitly uncertain; their bounded interpretations follow the available context rather than silently repairing the wording. No historical facsimiles, unsupported district origins or human proofreading claims have been added. Source, editorial and visual reviews are retained in `evidence/expansion-2026-10-25/`.
+
+
+## Cultural reading edition · 26 October 2026
+
+The current edition uses a new portrait cover and a bilingual introduction about language, everyday judgement and living away from Odisha. The first-person opening follows the Founder’s account of35years outside Odisha. Individual Odia explanations are being expanded and separately reviewed; release status belongs to the dated delivery record.
+
+Superseded image working copies are removed from `assets/`. [The archive map](archived-artwork.json) preserves their exact SHA256 hashes, Git blobs and immutable links to commit21a471da. Historical evidence paths describe those earlier editions and resolve through this map; they are not missing current illustrations. Active entry art, decorative motifs and font licences remain local. No source scan or historical evidence record is removed.

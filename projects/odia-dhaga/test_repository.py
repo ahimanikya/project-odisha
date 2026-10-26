@@ -58,7 +58,7 @@ class RepositoryTests(unittest.TestCase):
         for path in ['../secret.svg','assets/../secret.png','assets/%2e%2e/secret.png','https://example.org/a.png','assets/x.png?query=1']:
             d=fixture();d['entries'][0]['graphic']={'src':path,'alt':'alt','caption':'caption'}
             with self.assertRaises(ValueError):validate(d)
-        for path in ['assets/lemon-moderation.svg','assets/lemon-heritage-v1.png']:
+        for path in ['assets/dhaga-008-unified-line-v1.svg','assets/dhaga-cultural-cover-v2.png']:
             d=fixture();d['entries'][0]['graphic']={'src':path,'alt':'alt','caption':'caption'}
             validate(d)
             self.assertIn('src="'+path+'"',render(d))
@@ -97,6 +97,28 @@ class RepositoryTests(unittest.TestCase):
             if link.startswith('#'):self.assertIn(link[1:],p.ids)
         for path in p.resources:self.assertTrue((ROOT/path).is_file(),path)
 
+class CulturalEditionTests(unittest.TestCase):
+    def test_structured_intro_preserves_bilingual_prose_and_resolving_notes(self):
+        from build import validate, introduction_html
+        d=fixture();sid=d['sources'][0]['id']
+        d['book_intro']={'odia':[],'english':[],'sections':[{'id':'culture','title_odia':'ଢଗ','title_english':'Culture','paragraphs':[{'odia':'ଓଡ଼ିଆ କଥା','english':'A <living> expression & context.','source_ids':[sid]}]}]}
+        d['book_intro']['sections'][0]['paragraphs'].append({'odia':'ଦ୍ୱିତୀୟ କଥା','english':'Another use of the same source.','source_ids':[sid]})
+        validate(d);out=introduction_html(d);doc=Document();doc.feed(out)
+        for anchor in ['intro-ref-culture-0','intro-ref-culture-1']:
+            self.assertIn('href="#'+anchor+'"',out);self.assertIn('href="#'+anchor+'-or"',out)
+        self.assertIn('ଓଡ଼ିଆ କଥା',out);self.assertIn('A &lt;living&gt; expression &amp; context.',out)
+        for link in doc.links:
+            if link.startswith('#'):self.assertIn(link[1:],doc.ids)
+        d['book_intro']['sections'][0]['paragraphs'][0]['source_ids']=['missing']
+        with self.assertRaisesRegex(ValueError,'dangling intro source'):validate(d)
+    def test_cover_requires_safe_path_and_intrinsic_dimensions(self):
+        from build import validate
+        d=fixture();d['cover']={'src':'assets/cover.png','width':1055,'height':1491,'alt':'Portrait illustration','title_odia':'ଢଗ','title_english':'Dhaga','subtitle':'Odia and English','byline':'Project Odisha'}
+        validate(d);d['cover']['src']='../cover.png'
+        with self.assertRaisesRegex(ValueError,'local assets'):validate(d)
+        d['cover']['src']='assets/cover.png';d['cover']['width']=0
+        with self.assertRaisesRegex(ValueError,'intrinsic'):validate(d)
+
 class LibraryFileTests(unittest.TestCase):
     def test_default_cli_reads_entry_folder_deterministically(self):
         import subprocess,sys
@@ -113,6 +135,7 @@ class LibraryFileTests(unittest.TestCase):
             (folder/'entries'/'wrong.json').write_text(json.dumps(d['entries'][0]))
             with self.assertRaisesRegex(ValueError,'filename'):load_library(folder)
     def test_every_reading_has_one_saying_and_resolving_navigation(self):
+        from html import escape
         from build import load_library
         data=load_library()
         for i,e in enumerate(data['entries']):
@@ -120,6 +143,7 @@ class LibraryFileTests(unittest.TestCase):
             self.assertEqual(len(doc.entries),1);self.assertEqual(doc.entries[0]['id'],e['id']);self.assertNotIn('hidden',doc.entries[0])
             self.assertIn('<details class="saying-detail" open>',out)
             self.assertNotIn('id="pagination"',out)
+            if e.get('meaning_odia'):self.assertIn(escape(e['meaning_odia'],quote=True),out)
             expected={x['source_id'] for x in e['witnesses']+e.get('variants',[]) if x.get('source_id')}
             actual={x.removeprefix('source-') for x in doc.ids if x.startswith('source-')}
             self.assertEqual(actual,expected)
@@ -145,5 +169,6 @@ class LibraryFileTests(unittest.TestCase):
             self.assertIn(escape(brief['english_summary'],quote=True),out)
         self.assertNotIn('editorial_status',out)
         self.assertNotIn('AI-assisted',out)
+        self.assertIn('<p>By Ahimanikya Satapathy</p>',out)
 
 if __name__=='__main__':unittest.main()
