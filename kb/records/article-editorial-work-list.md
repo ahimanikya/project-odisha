@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 815. completed: 125, excluded: 388, in_progress: 1, queued: 301.
+Route inventory: 816. completed: 125, excluded: 388, in_progress: 1, queued: 302.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -828,4 +828,5 @@ Route inventory: 815. completed: 125, excluded: 388, in_progress: 1, queued: 301
 | POD-EDIT-811 | [The page behind the screen](https://projectodisha.org/cinema/literature-and-screen/) | completed | Individually reviewed cinema companion; published and live verified |
 | POD-EDIT-812 | [Beyond One Successful Film: Building Odia Cinema Together](https://projectodisha.org/cinema/cinema-futures/) | completed | Individually reviewed cinema companion; published and live verified |
 | POD-EDIT-PURI-PROJECT-20261026 | [Puri resort project](https://projectodisha.org/business/puri-resort/) | excluded | product_concept_utility |
+| POD-EDIT-GOUR-GHOSE-20261026 | [Gour Prasad Ghose: from the stage to making films](https://projectodisha.org/people/gour-prasad-ghose/) | queued | New researched cinema profile; individually reviewed awaiting delivery |
 | POD-EDIT-814 | [Odisha’s Buddhist Triangle: three places, distinct histories](https://projectodisha.org/stories/buddhist-diamond-triangle/) | in_progress | new_researched_article |
