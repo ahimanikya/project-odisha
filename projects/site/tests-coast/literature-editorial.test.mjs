@@ -36,7 +36,13 @@ test('Literature begins with complete narrative before the seven reading doors a
 });
 test('Literature preserves image context, rights once per source, existing and newly reviewed links and unlinked future writers without a hub download',()=>{
  const html=page('/literature/');
- const doors=html.match(/<section id="reading-doors"[\s\S]*?<\/section>/)?.[0];assert.ok(doors);assert.equal((doors.match(/<article\b/g)||[]).length,7+reviewedLiterature.length);
+ const doors=html.match(/<section id="reading-doors"[\s\S]*?<\/section>/)?.[0];assert.ok(doors);assert.equal((doors.match(/<article\b/g)||[]).length,entry.cards.length+reviewedLiterature.length+1);
+ const gourahariCards=[...doors.matchAll(/<article\b[\s\S]*?<\/article>/g)].map(m=>m[0]).filter(card=>card.includes('href="/people/gourahari-das/"'));
+ assert.equal(gourahariCards.length,1,'Gourahari Das has one distinct reading card');
+ assert.equal((gourahariCards[0].match(/href="\/people\/gourahari-das\/"/g)||[]).length,1);
+ assert.ok(gourahariCards[0].includes('Gourahari Das'));
+ assert.ok(gourahariCards[0].includes('Short fiction, novels, translation and an editorial life connecting writers and readers.'));
+ assert.ok(page('/people/gourahari-das/').includes('Gourahari Das'),'The author destination is published in the edition');
  for(const card of reviewedLiterature){assert.ok(doors.includes(`href="${card.href}"`));assert.ok(doors.includes(escape(card.dek)));}
  for(const card of entry.cards){assert.ok(doors.includes(`href="${card.href}"`));assert.ok(doors.includes(escape(card.text)));if(card.image_note)assert.ok(doors.includes(escape(card.image_note)));}
  for(const name of entry.roster)assert.match(html,new RegExp(`<li[^>]*>${name}</li>`));
