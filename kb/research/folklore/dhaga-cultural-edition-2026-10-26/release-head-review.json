@@ -1,0 +1,46 @@
+{
+  "review_type": "separate AI bounded release-head review",
+  "status": "PASS_WITH_LIMITATIONS",
+  "input_head": "7cc058f00447dd1d83e2f3fa923e62562c05b769",
+  "prior_approved_head": "2689efaaaedbf2dfb5caa55a8d96ff125726b79c",
+  "merged_main": "4069b69e9356d2c692301bff4999e8fc596826fb",
+  "blocking_findings": [],
+  "checks_actually_performed": [
+    "Compared all25 merged-main changed files:24 byte-identical to main; only operations differs for scoped Dhaga ownership reconciliation.",
+    "Read operations delta against main:current_article remains null; own current_task/handoff changes to cultural edition integration_review; release conditional on reviewed publication receipt. Other parallel records preserved.",
+    "Rechecked all prior exact-head product hashes:collection/metadata/builders/exporter/archive manifest/PDF unchanged.",
+    "Rechecked immutable PDF artifact ede3dd8755e95bfcd6b94eca939dd4dcff1c6cee remains ancestor of reviewed HEAD.",
+    "Read sibling checkout immutable f3f4de56a082f1d00eeb309b8a2ab438dcb051c0 cinema receipt/status/operations:published_verified, deployment40299705531 success, own scope explicitly released, other claims preserved.",
+    "Read merged Buddhist receipt state:reserved_scopes_released true; deployment40305705401 success; no social publication authorization inferred."
+  ],
+  "findings": [
+    "No product change requiring repeated art/narrative/PDF visual review. Reviewed final PDF remains 90 pages,77030109 bytes,SHA2565f2e94eb3732de2a2b59fe1ac0b88e5deea092ad97a7086bb25099e3caf416f0.",
+    "Cinema canonical parallel row remains historical integration_review because sibling local receipt has not been copied over it. Coordination note explicitly records immutable local published receipt and release; no silent rewrite or takeover of that programme.",
+    "Buddhist changes are preserved exactly from merged main. Dhaga takes only its own publication coordination slot with zero programme credit."
+  ],
+  "unchanged_product_hashes": {
+    "projects/odia-dhaga/collection.json": "8014f9b095affa197ee0c5af2a403a1a76b0e44fe19f3d05e7752edd346e448b",
+    "projects/odia-dhaga/collection-metadata.json": "b555012f38cc5a968cd5c1fd80015a81cea2cd95959a9e4e521873f4b962421b",
+    "projects/odia-dhaga/build.py": "7595e4a77b60f2b60d5f6ab579e26e96f2d85029d383521cefc81e04bc658dcb",
+    "projects/odia-dhaga/build_print.py": "08cab9f4e47f4dbc28adc705e9377ff7bcb766f842de8742539081f9e4c92fe2",
+    "projects/odia-dhaga/odia-dhaga-book.pdf": "5f2e94eb3732de2a2b59fe1ac0b88e5deea092ad97a7086bb25099e3caf416f0",
+    "projects/odia-dhaga/archived-artwork.json": "cddae432aa6d587452cf1b46abff113a3c6b3e5cef61f0bddb52f6b807f61517",
+    "projects/site/tools/export-dhaga.mjs": "a1ac627ce7889ea1c7700518852dd0e023304606afb1d10236e715ad987218f4"
+  },
+  "prior_review_hashes": {
+    "exact-head-review.json": "bfe0a13679a88583c90662c4f9ddf4596508d656105371351ed60a139ad95299",
+    "exact-head-review-final.json": "4dbe2883aac37d1a045fa4e8a0b67ba1c68e956e236cfe70fc65e942fd69a64e",
+    "final-pdf-review.json": "f70079b5d20ce6832a0dd9a19c7875b60176595748d00ed82385a3ee9816bc76"
+  },
+  "validation_status": {
+    "previous_CI": "Coordinator reports40300143558 passed; not represented as this new head CI.",
+    "new_head_CI": "Pending coordinator run/result.",
+    "new_tests_by_reviewer": "No broad suite repeated; immutable hash, Git ancestry, merged blob equality and receipt consistency checks performed."
+  },
+  "limits": [
+    "Saved receipts independently inspected; deployment services/live routes not re-fetched in this bounded review.",
+    "Separate AI review, no human proofreading or print claim.",
+    "Pass applies to preservation and ownership reconciliation. Publication still requires successful new-head CI and coordinator release process.",
+    "No canonical files or Git state mutated; only output review written."
+  ]
+}

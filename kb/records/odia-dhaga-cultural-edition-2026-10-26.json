@@ -1,6 +1,6 @@
 {
   "id": "POD-DHAGA-CULTURAL-20261026",
-  "status": "reviewed_candidate",
+  "status": "published_verified",
   "owner": "Disha",
   "authorization": "Founder requested fuller Odia explanation, cultural introduction grounded in his 35 years away from Odisha, new cover, precise credits and superseded-image cleanup in the website and book.",
   "input_head": "21a471da0a03d47ce03aaf269f9d174fe8bd7bd2",
@@ -47,7 +47,14 @@
     "kb/research/folklore/dhaga-cultural-edition-2026-10-26/final-engineering-review.json": "655f47539b5362c4a6220c432228d9967a24bed39e1a29d9aaddc29f2e88388f",
     "kb/research/folklore/dhaga-cultural-edition-2026-10-26/citation-render-comparison.json": "ab332414986c8cf47eab335c21470ff1d53e4f84d2a8812ace1619791bb3d75f",
     "kb/research/folklore/dhaga-cultural-edition-2026-10-26/image-floor-130-measurement.json": "92fec386b33ba6056f16b709618b944cf6802b4926a6c0479c68bd7114bced23",
-    "kb/research/folklore/dhaga-cultural-edition-2026-10-26/final-pdf-review.json": "f70079b5d20ce6832a0dd9a19c7875b60176595748d00ed82385a3ee9816bc76"
+    "kb/research/folklore/dhaga-cultural-edition-2026-10-26/final-pdf-review.json": "f70079b5d20ce6832a0dd9a19c7875b60176595748d00ed82385a3ee9816bc76",
+    "kb/research/folklore/dhaga-cultural-edition-2026-10-26/release-head-review.json": "0ba200d7870983b15b50cefbf975b6701a35f02f18087322f42dc8b0ba18ba5e",
+    "kb/research/folklore/dhaga-cultural-edition-2026-10-26/release-ci.json": "144a6e9607d270e6f798280010451e5262652c4b60355a603b1df64e4b0bdd7e",
+    "kb/research/folklore/dhaga-cultural-edition-2026-10-26/deployment-result.json": "d8b706c5840130e9d6c7434a7dbbe387d70fdc3ec9e0d7d3ae0151979fa3934e",
+    "kb/research/folklore/dhaga-cultural-edition-2026-10-26/live-verification.json": "92bedcf6edc0f513c3de94d8e1fa607907f36eb3828dfae0818cb001959a321e",
+    "kb/research/folklore/dhaga-cultural-edition-2026-10-26/live-art-review.json": "78ba9094263aadae40e7ae00689af9558c761cd5ceec762a36af3ad5a4e57e55",
+    "kb/research/folklore/dhaga-cultural-edition-2026-10-26/live-pdf-verification.json": "316a0859ebe7cd13d46c99bba1edac9054cf7a5ac2dac58f08b5ab41199ad1d8",
+    "kb/research/folklore/dhaga-cultural-edition-2026-10-26/live-browser-review.json": "3d6d5dede99a82177ea6cbdf0637cfa3c834a0f959fab73439d7cb070c427ba6"
   },
   "preservation": [
     "Existing source witnesses, variants, source rights, full English narratives and selected entry art retained.",
@@ -56,11 +63,27 @@
   ],
   "limitations": [
     "Separate AI review is not human Odia proofreading or physical print proof.",
-    "Historical wording and interpretation uncertainties remain explicit."
+    "Historical wording and interpretation uncertainties remain explicit.",
+    "One SVG-derived web image has platform-dependent font rasterization; live content separately visually verified."
   ],
   "publication": {
-    "status": "pending",
-    "release_gate": "Reconcile active site publication and receipt before claiming the shared release."
+    "status": "published_verified_receipt_integration_pending",
+    "pr": "https://github.com/ahimanikya/project-odisha/pull/584",
+    "reviewed_head": "7cc058f00447dd1d83e2f3fa923e62562c05b769",
+    "merge_commit": "22a03bee5b13d3508d14dc27733ff1c009930f79",
+    "validation_run": 40308843646,
+    "deployment_run": 40310160816,
+    "deployment_conclusion": "success",
+    "publish_approved": true,
+    "live_url": "https://projectodisha.org/dhaga/",
+    "live_files_checked": 326,
+    "exact_file_matches": 325,
+    "html_pages_exact": 162,
+    "entry_images": 159,
+    "cover_images": 1,
+    "exception": "One SVG-derived WebP008 differs in generic sans-serif font rendering between platforms; separately visually reviewed with all content intact. No326/326 exact-match claim.",
+    "pdf_matches_reviewed_hash": true,
+    "scope_release": "On reviewed receipt merge; retain scope until then."
   },
   "validation": {
     "full_site_tests": 616,
@@ -69,6 +92,6 @@
     "all90_pdf_pages_separately_visually_reviewed": true,
     "all159_other_entry_fields_preserved": true,
     "disclosure_gates": "Full, coastal and publication editions passed, including the analytics-enabled publication build.",
-    "publication_bytes": 985916356
+    "publication_bytes": 986721893
   }
 }
