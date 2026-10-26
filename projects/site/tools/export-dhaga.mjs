@@ -19,7 +19,7 @@ export async function exportDhaga(destination){
  for(const e of [...data.entries,{graphic:{src:coverSrc}}]){
   if(!/^assets\/[a-zA-Z0-9_-]+\.(png|webp|svg)$/.test(e.graphic.src))throw Error('Unsafe Dhaga art path');
   const src=resolve(book,e.graphic.src),name=basename(e.graphic.src).replace(/\.[^.]+$/,'.webp');
-  if(!assets.has(e.graphic.src)){const info=await sharp(src).resize({width:800,withoutEnlargement:true}).webp({quality:60,effort:6}).toFile(resolve(out,'assets',name));assets.set(e.graphic.src,'assets/'+name);dimensions.set('assets/'+name,info);}
+  if(!assets.has(e.graphic.src)){const info=await sharp(src).resize({width:760,withoutEnlargement:true}).webp({quality:60,effort:6}).toFile(resolve(out,'assets',name));assets.set(e.graphic.src,'assets/'+name);dimensions.set('assets/'+name,info);}
  }
  const fonts=['NotoSerifOriya-Variable.woff2','SourceSerif4-Variable.woff2'];
  const licences=['NotoSerifOriya-OFL.txt','SourceSerif4-OFL.txt'];
