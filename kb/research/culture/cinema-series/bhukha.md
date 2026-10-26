@@ -72,5 +72,8 @@ Links checked on 26 October 2026. Playback was not tested; territory, account an
 
 ## Further reading
 
+- [Sabyasachi Mohapatra: stories rooted in western Odisha](../../people/sabyasachi-mohapatra.md)
+- [Aadim Vichar: whose understanding of justice?](aadim-vichar.md)
+
 - [Odia cinema: the world in our own voice](../odia-cinema.md)
 - [Manmohan Mahapatra: another household under economic pressure](manmohan-mahapatra.md)

@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 801. completed: 113, excluded: 387, queued: 301.
+Route inventory: 810. completed: 113, excluded: 387, in_progress: 1, queued: 309.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -815,3 +815,12 @@ Route inventory: 801. completed: 113, excluded: 387, queued: 301.
 | POD-EDIT-799 | [Odia television and the stories that came home](https://projectodisha.org/cinema/odia-television/) | completed | Reviewed cinema article published and live delivery verified |
 | POD-EDIT-800 | [The Odia OTT journey and the search for an audience](https://projectodisha.org/cinema/odia-ott/) | completed | Reviewed cinema article published and live delivery verified |
 | POD-EDIT-801 | [What Makes the Next Film Possible](https://projectodisha.org/cinema/cinema-economics/) | completed | Restore reviewed book economics chapter as standalone cinema article |
+| POD-EDIT-802 | [Gourahari Das: the story before the screen](https://projectodisha.org/people/gourahari-das/) | queued | Reviewed profile awaiting series delivery |
+| POD-EDIT-803 | [Nirad Mohapatra: making a film, making room for others](https://projectodisha.org/people/nirad-mohapatra/) | queued | Reviewed draft awaiting delivery |
+| POD-EDIT-804 | [Sabyasachi Mohapatra: stories rooted in western Odisha](https://projectodisha.org/people/sabyasachi-mohapatra/) | queued | Reviewed draft awaiting delivery |
+| POD-EDIT-805 | [ଆଦିମ ବିଚାର (Aadim Vichar): whose understanding of justice?](https://projectodisha.org/cinema/aadim-vichar/) | queued | Reviewed draft awaiting delivery |
+| POD-EDIT-806 | [A. K. Bir: from the camera to the child’s world](https://projectodisha.org/people/ak-bir/) | queued | Reviewed draft awaiting delivery |
+| POD-EDIT-807 | [ଲାବଣ୍ୟ ପ୍ରୀତି (Lavanya Preeti): growing up with a story](https://projectodisha.org/cinema/lavanya-preeti/) | queued | Reviewed draft awaiting delivery |
+| POD-EDIT-808 | [ପ୍ରତୀକ୍ଷା (Pratikshya): a family waiting for security](https://projectodisha.org/cinema/pratikshya/) | queued | Reviewed draft awaiting delivery |
+| POD-EDIT-809 | [The page behind the screen](https://projectodisha.org/cinema/literature-and-screen/) | queued | Reviewed draft awaiting delivery |
+| POD-EDIT-810 | [Beyond One Successful Film: Building Odia Cinema Together](https://projectodisha.org/cinema/cinema-futures/) | in_progress | Awardee companion article |

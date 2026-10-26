@@ -5,6 +5,7 @@ import {renderReviewedCultureArticle} from './reviewed-culture-article.mjs';
 const root=[process.cwd(),path.resolve(process.cwd(),'../..')].find(candidate=>fs.existsSync(path.join(candidate,'kb/research/culture/cinema-series/manifest.json')));
 if(!root)throw Error('Cinema sources require the repository or site build working directory');
 export const cinema=JSON.parse(fs.readFileSync(path.join(root,'projects/site/src/data/cinema.json'),'utf8'));
+export function cinemaRouteEntries(entries=cinema.articles){return entries.filter(entry=>entry.route===`/cinema/${entry.slug}/`);}
 const escape=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;');
 export function picture(image,alt,priority=false){const set=format=>image.derivatives.filter(d=>d.format===format).map(d=>`${d.file} ${d.width}w`).join(', ');const sizes='(max-width: 784px) calc(100vw - 44px), 740px';return `<picture><img src="${image.file}" srcset="${set('jpeg')}" sizes="${sizes}" alt="${escape(alt)}" width="${image.width}" height="${image.height}" ${priority?'fetchpriority="high"':'loading="lazy"'} decoding="async"></picture>`;}
 const knownRoutes={'kb/research/culture/prahallad-nataka.md':'/stories/prahlada-nataka/','kb/research/culture/ashta-nayika.md':'/stories/ashta-nayika/','kb/research/culture/odissi-abhinaya.md':'/stories/odissi-abhinaya/','kb/research/culture/champu-and-sakhi.md':'/literature/champu-and-sakhi/'};
