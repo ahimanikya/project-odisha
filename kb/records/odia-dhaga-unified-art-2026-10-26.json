@@ -1,0 +1,56 @@
+{
+  "status": "reviewed_local_candidate",
+  "owner": "Disha",
+  "authorization": "Founder: unify line art across website and books; colour cover with line-art interiors agreed.",
+  "base": "59d2a576d03ed44eb97924b665e6118f701a4424",
+  "scope": "Dhaga artwork, entry art references, generated reader/PDF/public derivatives, provenance and reviewed publication receipt",
+  "preserve": "All159 entry text/source evidence, original artwork,75pending,1893/1926research cursors, filler motifs and unrelated cinema publication",
+  "workers": {
+    "Anvesha": "69asset audit/generation/text review and PDF1–43",
+    "Samanta": "Scoped cover implementation/generation and engineering self-review",
+    "Drishti": "Separate69selectedasset review, PDF1–3/44–86 review; exact-head gate pending"
+  },
+  "release_condition": "Reviewed PR, passing checks, approved deployment and verified live receipt",
+  "programme_credit": 0,
+  "id": "POD-DHAGA-UNIFIED-ART-20261026",
+  "candidate_count": 69,
+  "retained_art_count": 90,
+  "audit_addendum": "Seven small remaining tints found by read-only palette diagnostic and individual full-resolution inspection; tint-only edits added.",
+  "artwork_gate": {
+    "selected": 69,
+    "retained": 90,
+    "separate_ai_visual_review": "passed for each selected file",
+    "manifest": "projects/odia-dhaga/evidence/unified-art-2026-10-26/manifest.json",
+    "human_review": false
+  },
+  "pdf": {
+    "pages": 86,
+    "bytes": 77985781,
+    "sha256": "fac7cfc050d4cf3a8124611c719e202266efae603a7330f99531b2eba5a30ab8"
+  },
+  "rendered_pdf_gate": "All86 pages separately visually AI reviewed; no physical proof",
+  "website_gate": {
+    "kind": "actual browser visual review by coordinator",
+    "viewports": [
+      [
+        1280,
+        720
+      ],
+      [
+        1280,
+        900
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "routes": [
+      "/dhaga/",
+      "/dhaga/sayings/pod-dhaga-001.html",
+      "/dhaga/sayings/pod-dhaga-031.html"
+    ],
+    "findings": "Colour cover intact; monochrome interiors clear after800px/q60 conversion; no horizontal overflow observed at390px; wood hatching remains legible.",
+    "limits": "Representative browser pages; every selected full-resolution asset separately reviewed. Live checks pending."
+  }
+}
