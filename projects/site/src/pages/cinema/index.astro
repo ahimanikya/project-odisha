@@ -8,7 +8,7 @@ const lead=cinema.articles[0],hero=lead.images.find(i=>i.role==='title');
 <Shell title="Odia cinema: A Living Screen" description="Read the connected story of Odia cinema, its films, makers and shared voices. Explore the book and curated viewing room." active="explore" related={false} shareImage={{src:hero.file,alt:lead.hero.alt,width:hero.width,height:hero.height}}>
  <article class="article-reading cinema-hub">
   <p class="eyebrow">Films · People · Shared voices</p><h1>Odia Cinema:<br/>A Living Screen</h1>
-  <p>Stories move between stages, books, recording rooms and screens. Follow eleven readings through the films and people of Odia cinema, then explore the television and online worlds around them.</p>
+  <p>Stories move between stages, books, recording rooms and screens. Follow {cinema.articles.length} readings through the films and people of Odia cinema, then explore the television and online worlds around them.</p>
   <figure><Fragment set:html={picture(hero,lead.hero.alt,true)}/><figcaption>{lead.hero.caption}</figcaption></figure>
   <nav class="cinema-actions" aria-label="Explore cinema"><a href={lead.route}>Start reading →</a><a href="/cinema/watch/">Find something to watch →</a><a href="/cinema/book/">Read or print the book →</a></nav>
   {cinema.parts.map(part=><ArticleReadingPath heading={part.title} links={part.chapters.map(slug=>{const entry=cinema.articles.find(a=>a.slug===slug);return {href:entry.route,title:entry.title,description:entry.series_intro,image:entry.images.find(i=>i.role==='title').file};})}/>)}
