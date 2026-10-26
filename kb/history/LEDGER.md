@@ -1196,3 +1196,8 @@ Ratnagiri passed exact-head validation, merged in PR574 and deployed successfull
 ### 26 October 2026 — udayagiri publication verified
 
 PR576, validation40288816519 and deployment40290023762 succeeded; live article verified. Receipt: `records/udayagiri-publication-2026-10-26.json`. Next authorized article: Lalitgiri: relics, monasteries and a long Buddhist history.
+
+
+### 26 October 2026 — lalitgiri publication verified
+
+PR580, validation40296411821 and deployment40297355055 succeeded; live article verified. Receipt: `records/lalitgiri-publication-2026-10-26.json`. Next authorized article: Odisha’s Buddhist Triangle: three places, distinct histories.

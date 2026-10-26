@@ -12851,14 +12851,24 @@
       "id": "POD-EDIT-813",
       "route": "/stories/lalitgiri/",
       "title": "Lalitgiri: relics, monasteries and a long Buddhist history",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "new_researched_article",
       "source_template": "projects/site/src/pages/stories/lalitgiri.astro",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
-        "records/buddhist-triangle-research-2026-10-26.json"
+        "records/buddhist-triangle-research-2026-10-26.json",
+        "records/lalitgiri-publication-2026-10-26.json"
       ],
-      "blocker": null
+      "blocker": null,
+      "publication_receipt": "records/lalitgiri-publication-2026-10-26.json"
     },
     {
       "id": "POD-EDIT-804",
@@ -13081,6 +13091,19 @@
       ],
       "blocker": null,
       "exclusion_reason": "Founder-directed concept overview and navigation to the Odisha Investor kit; utility page, not an encyclopedia article or substantive-500 research delivery."
+    },
+    {
+      "id": "POD-EDIT-814",
+      "route": "/stories/buddhist-diamond-triangle/",
+      "title": "Odisha’s Buddhist Triangle: three places, distinct histories",
+      "status": "in_progress",
+      "scope": "new_researched_article",
+      "source_template": "projects/site/src/pages/stories/buddhist-diamond-triangle.astro",
+      "checks": {},
+      "evidence": [
+        "records/buddhist-triangle-research-2026-10-26.json"
+      ],
+      "blocker": null
     }
   ]
 }

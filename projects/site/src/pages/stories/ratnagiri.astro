@@ -1,5 +1,6 @@
 ---
 import Shell from '../../layouts/Shell.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
 import ArticleByline from '../../components/ArticleByline.astro';
 import '../../styles/article-reading.css';
 import {Content, frontmatter} from '../../../../../kb/research/stories/buddhist-triangle/ratnagiri.md';
@@ -26,6 +27,7 @@ const image = {
       <figcaption>Stupas at Ratnagiri. Photograph: Satyabrata Nanda, <a href="https://commons.wikimedia.org/wiki/File:Monastery_at_Ratnagiri.jpg">“Monastery at Ratnagiri”</a>, 26 April 2015. <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Resized and compressed without cropping.</figcaption>
     </figure>
     <Content/>
+    <ArticleReadingPath links={[{"href": "/stories/udayagiri-buddhist/", "title": "Buddhist Udayagiri in Jajpur", "description": "Monastery names, shrines, sacred texts and daily life near Ratnagiri.", "image": "/assets/buddhist-triangle/udayagiri.jpg"}, {"href": "/stories/lalitgiri/", "title": "Lalitgiri: relics, monasteries and a long Buddhist history", "description": "Relic caskets, successive buildings and a monastery’s recovered name.", "image": "/assets/buddhist-triangle/lalitgiri.jpg"}, {"href": "/stories/buddhist-diamond-triangle/", "title": "Odisha’s Buddhist Triangle: three places, distinct histories", "description": "Connect Ratnagiri, Buddhist Udayagiri in Jajpur and Lalitgiri through their archaeological evidence.", "image": "/assets/buddhist-triangle/ratnagiri.jpg"}]}/>
     <p><a href="/contribute/?page=%2Fstories%2Fratnagiri%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
   </article>
 </Shell>
