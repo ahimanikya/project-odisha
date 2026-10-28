@@ -1,0 +1,148 @@
+{
+  "input_head": "e5911d248488dc691f4b1adebc45cf7072f03a84",
+  "checked_at": "2026-10-26T04:35:58.385590+00:00",
+  "status": "output_only_inventory_frozen_pending_separate_review",
+  "role": "Samanta AI visual inventory and mechanical proposal validation; not human proofreading",
+  "source": {
+    "path": "/tmp/pod-dhaga-1926.pdf",
+    "sha256": "fe6b974c2b2b6de7a11ff34a2c79bb2bfc4986d8ecf6d9da08eca9d02f1e8863",
+    "total_pages": 259,
+    "url": "https://archive.org/details/dhagadhamali-bachana-v01-1926"
+  },
+  "method": {
+    "command": "FONTCONFIG_FILE=/tmp/dhaga-fontconfig.conf pdftoppm -f 91 -l 96 -scale-to 1800 -png /tmp/pod-dhaga-1926.pdf outputs/dhaga-1926-pages91-96-2026-10-26/renders/page",
+    "skill": "PDF read-only rendering; authoring marker not applicable",
+    "visual_inspection": "All six complete full-resolution images individually opened with view_image; no OCR-only claims."
+  },
+  "pages": [
+    {
+      "pdf_page": 91,
+      "render_path": "outputs/dhaga-1926-pages91-96-2026-10-26/renders/page-091.png",
+      "sha256": "4c75d82ff8f0d7b1b46598154b39561141a3d10f6610c09a62338fe483a3f585",
+      "dimensions": [
+        1200,
+        1800
+      ],
+      "actually_viewed_individually": true,
+      "printed_number_provisional": "59?",
+      "position_range_provisional": "ଖ:1–12?",
+      "structure": "Centered ଖ heading at top followed by numbering restart. This establishes a new section after the priorPDF90ornament. Short expressions, alternatives and bracketed notes follow.",
+      "limits": "Upper/right print dropout; some labels and endings incomplete."
+    },
+    {
+      "pdf_page": 92,
+      "render_path": "outputs/dhaga-1926-pages91-96-2026-10-26/renders/page-092.png",
+      "sha256": "ed74ff6d609bea331808ada0c850d79a27319b619aac91012231dbb515d2084b",
+      "dimensions": [
+        1200,
+        1800
+      ],
+      "actually_viewed_individually": true,
+      "printed_number_provisional": "60?",
+      "position_range_provisional": "ଖ:13–25?",
+      "structure": "Continued ଖ numbered material with longer wrapped expressions and short bracketed genre/use labels.",
+      "limits": "Right endings fade; printed numeral readings provisional."
+    },
+    {
+      "pdf_page": 93,
+      "render_path": "outputs/dhaga-1926-pages91-96-2026-10-26/renders/page-093.png",
+      "sha256": "cf211e439659cb8da215e7db3f4ca71406cc59e00d20607b758ce3fd7a14a7d5",
+      "dimensions": [
+        1200,
+        1800
+      ],
+      "actually_viewed_individually": true,
+      "printed_number_provisional": "61?",
+      "position_range_provisional": "ଖ:26–38?",
+      "structure": "Continued section; repeated eating-related openings visible among lower entries, with alternatives and explanatory notes.",
+      "limits": "Heavy left abrasion damages item numbers; right dropout damages many endings. Do not restore numbers or meanings from sequence."
+    },
+    {
+      "pdf_page": 94,
+      "render_path": "outputs/dhaga-1926-pages91-96-2026-10-26/renders/page-094.png",
+      "sha256": "d311618f6db257d924f3d44ebff6410a0ad2026cde460a2e19cc9367781865c3",
+      "dimensions": [
+        1200,
+        1800
+      ],
+      "actually_viewed_individually": true,
+      "printed_number_provisional": "62?",
+      "position_range_provisional": "ଖ:39–50?",
+      "structure": "Continued numbered formulations and bracketed usage explanations; no intervening section heading.",
+      "limits": "Strong right-edge dark gutter/cropping interrupts text."
+    },
+    {
+      "pdf_page": 95,
+      "render_path": "outputs/dhaga-1926-pages91-96-2026-10-26/renders/page-095.png",
+      "sha256": "294f3d115ce60a9c48c836fbc66d5251d918c5df97d1600a1bfa908ac10b545b",
+      "dimensions": [
+        1200,
+        1800
+      ],
+      "actually_viewed_individually": true,
+      "printed_number_provisional": "63?",
+      "position_range_provisional": "ଖ:51–52? then ଗ:1–9?",
+      "structure": "Two upper entries precede an ornamental divider; centered ଗ heading below it and numbering restart establish a second section boundary.",
+      "limits": "Upper and right text substantially faded; heading/structure clearer than individual wording."
+    },
+    {
+      "pdf_page": 96,
+      "render_path": "outputs/dhaga-1926-pages91-96-2026-10-26/renders/page-096.png",
+      "sha256": "108ea8e5194e87bad419501ab1f90a72d1b0386aaa1d379f64ac1cf1a4a6afbe",
+      "dimensions": [
+        1200,
+        1800
+      ],
+      "actually_viewed_individually": true,
+      "printed_number_provisional": "64?",
+      "position_range_provisional": "ଗ:10–22?",
+      "structure": "Continued ଗ section, with short expressions alternating with longer contextual notes. No new heading/reset.",
+      "limits": "Some glyph details remain uncertain despite clearer central print; no complete reading certified."
+    }
+  ],
+  "findings": "New section boundaries observed directly: ଖ begins PDF91, ଗ begins below divider on PDF95. No heading inferred merely from preceding ornament. Provisional ranges are locators, not counts.",
+  "research_report": {
+    "path": "outputs/dhaga-1926-pages91-96-2026-10-26/anvesha.json",
+    "sha256": "307e8839503b9eab1b6603098a589f4f0bda6ae82b6cfdee9784efe67230b6ce",
+    "reconciliation": "Independent structural readings agree; two Anvesha position leads remain null wording, normalization, meaning and corpus relation; no acceptance."
+  },
+  "proposal": {
+    "path": "outputs/dhaga-1926-pages91-96-2026-10-26/proposed-ledger-delta.json",
+    "sha256": "b1dabdcd511503fcd62cb31e379a93825a3385d273801a7d02326bad1ce9abaf",
+    "changed_fields": [
+      "inventory_pdf_pages_overviewed",
+      "inventory_pdf_pages_full_render_inspected",
+      "inspection",
+      "next_page_to_attempt",
+      "next_action"
+    ],
+    "next_inventory_if_integrated": 97,
+    "full_transcription_next": 31
+  },
+  "checks": [
+    "Source SHA matched expected original",
+    "Six decoded PNG headers1200x1800 and hashes match research",
+    "Current canonical inventory cursor91 verified",
+    "In-memory delta changes exactly five source-row fields",
+    "Reapplying set fields produces identical row",
+    "All other source rows and top-level fields unchanged",
+    "Source/report/proposal paths resolve"
+  ],
+  "preserved": {
+    "entries": 159,
+    "illustrations": 159,
+    "book_pages": 86,
+    "original_pending": 75,
+    "1893_full_cursor": 2,
+    "1893_drafts": 83,
+    "1926_full_cursor": 31
+  },
+  "accepted_increment": 0,
+  "programme_credit": 0,
+  "limits": [
+    "Structural visual inventory, not certified glyph transcription or human review.",
+    "No rights clearance, creator-role or edition equivalence inferred.",
+    "No new159/127 equivalence or exhaustive negative crosswalk claimed.",
+    "No canonical changes, Git mutations, public facsimiles, reader regeneration or deployment."
+  ]
+}
