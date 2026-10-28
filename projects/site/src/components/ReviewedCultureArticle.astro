@@ -2,12 +2,12 @@
 import ArticleByline from './ArticleByline.astro';
 import ResearchContents from './ResearchContents.astro';
 import '../styles/article-reading.css';
-interface Props { article: { title:string; author:string; html:string; headings:Array<{title:string;href:string}> }; }
+interface Props { article: { title:string; titleHtml?:string; author:string; html:string; headings:Array<{title:string;href:string}> }; }
 const {article}=Astro.props;
 ---
 <article class="article-reading reviewed-culture">
   <slot name="intro"/>
-  <h1>{article.title}</h1>
+  <h1>{article.titleHtml ? <Fragment set:html={article.titleHtml}/> : article.title}</h1>
   <ArticleByline author={article.author}/>
   <ResearchContents items={[...article.headings.filter(h=>h.title!=='Further reading'),{title:'Footnotes & Sources',href:'#footnote-label'}]} label="In this article"/>
   <div set:html={article.html}/>

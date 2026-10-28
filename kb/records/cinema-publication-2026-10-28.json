@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-28",
+  "status": "lossless_budget_correction_passed_hosted_recheck_pending",
+  "authorization": {
+    "quote": "publish",
+    "scope": "Publish reviewed local cinema series, author introduction, profile additions, reading/layout corrections and current book editions through the existing Project Odisha release path. No social posting."
+  },
+  "destination": "https://projectodisha.org",
+  "repository": "ahimanikya/project-odisha",
+  "scope": "Current reviewed 28-reading cinema candidate and supporting site/KB assets. Exclude temporary outputs, unrelated work, private material and oversized PDF binaries from Git; deliver reviewed PDFs as release assets.",
+  "workers": {
+    "Disha": "Release coordination, records, Git/PR/merge/deployment",
+    "Anvesha": "Read-only source payload and provenance audit",
+    "Samanta": "Build/deployment preparation and required integration fixes",
+    "Drishti": "Independent final candidate validation"
+  },
+  "reserved_files": {
+    "Samanta": [
+      "projects/site/src/data/cinema.json review_books delivery only",
+      "projects/site/editions/coast.json cinema downloads only",
+      "projects/site/src/pages/cinema/book.astro release URL integration if required",
+      "scoped failing checks with coordinator approval"
+    ],
+    "Anvesha": [
+      "tmp/cinema-release-payload-review-2026-10-28.json"
+    ],
+    "Drishti": [
+      "tmp/cinema-release-review-2026-10-28.json"
+    ]
+  },
+  "open_audit": {
+    "resolved": [
+      "CIN-AUD-04",
+      "CIN-AUD-08"
+    ],
+    "partial": [
+      "CIN-AUD-10"
+    ],
+    "open": [
+      "CIN-AUD-01",
+      "CIN-AUD-02",
+      "CIN-AUD-03",
+      "CIN-AUD-05",
+      "CIN-AUD-06",
+      "CIN-AUD-07",
+      "CIN-AUD-09"
+    ],
+    "note": "User explicitly requested publication after being told these remain; do not claim they are fixed or introduce unreviewed editorial revisions."
+  },
+  "published": false,
+  "validation": {
+    "full_site_tests": 628,
+    "coastal_tests": 523,
+    "edition_policy_tests": 11,
+    "disclosure_violations": 0,
+    "readings": 28,
+    "publication_bytes": 997102605,
+    "publication_limit_bytes": 1000000000,
+    "portable_KB_validator": "PASS, including unknown-route rejection",
+    "notes": [
+      "Five archived attribution snapshots retain original trailing blank lines; do not rewrite historical evidence.",
+      "Seven open and one partial editorial findings remain as disclosed."
+    ],
+    "png_safety_tests": 9,
+    "publication_headroom_bytes": 2897395
+  },
+  "evidence": [
+    "records/evidence/cinema-release-2026-10-28/cinema-release-payload-review-2026-10-28.json",
+    "records/evidence/cinema-release-2026-10-28/cinema-release-preparation-2026-10-28.json",
+    "records/evidence/cinema-release-2026-10-28/cinema-release-review-2026-10-28.json",
+    "records/evidence/cinema-release-2026-10-28/cinema-lossless-budget-fix-2026-10-28.json"
+  ],
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/589",
+  "reviewed_head": "b0bffd8a8cf9f42216200acbe77de166a1bf661f",
+  "hosted_validation_attempts": [
+    {
+      "run": "https://github.com/ahimanikya/project-odisha/actions/runs/40616986650",
+      "result": "failed_publication_budget",
+      "bytes": 1000327242,
+      "limit_bytes": 1000000000,
+      "correction": "Stronger lossless image compression; retain decoded pixels, metadata, URLs and reviewed narratives."
+    }
+  ],
+  "book_release": {
+    "url": "https://github.com/ahimanikya/project-odisha/releases/tag/odia-cinema-book-2026-10-27",
+    "status": "uploaded_verified",
+    "digital_sha256": "7ae26c3c71eb6693937a285ad9f8c28280dbcf40144e6efc052d502b5b445f15",
+    "print_sha256": "9a4a544f1d771e2fe44b624a3e481bcbca8ac7ae2bae7542cfad0b2c439565b9",
+    "public_head_responses": [
+      200,
+      200
+    ],
+    "note": "GitHub asset SHA-256 and sizes match unchanged reviewed PDFs."
+  }
+}

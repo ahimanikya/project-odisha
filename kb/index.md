@@ -29,6 +29,18 @@ This directory contains the organizational and working model, roles, work record
 
 ## Current delivery and open work
 
+Latest cinema audit: [reading, coverage and accessibility findings](records/cinema-fresh-audit-2026-10-27.json). The historical audit is preserved; its continuation and note-numbering findings are resolved locally, and its receipt/bilingual finding is partially resolved. Seven other findings remain open.
+
+Latest local cinema copy cleanup: [catalogue maintenance notes removed from articles](records/cinema-catalogue-check-notes-2026-10-27.json), with dated research and substantive availability limits retained.
+
+Latest local cinema navigation: [concise Previous, Next and Continue names](records/cinema-short-navigation-2026-10-27.json); full article titles are unchanged. [Previous/Next alignment](records/cinema-navigation-alignment-2026-10-27.json) keeps Previous left and Next right.
+
+Latest local cinema revision: [image credits integrated into regular footnotes](records/cinema-unified-footnotes-2026-10-27.json), following [performers, music and numbered references](records/cinema-performers-and-numbered-credits-2026-10-27.json).
+
+Latest local cinema addition: [historical imagery within the story](records/cinema-historical-images-2026-10-27.json).
+
+Latest local cinema layout review: [natural image frames without filler panels](records/cinema-natural-image-frames-2026-10-27.json), preserving cropped preview cards and caption alignment. This supersedes the fixed article frames in [the earlier sizing pass](records/cinema-image-sizing-2026-10-27.json); book editions remain unchanged. These are local review records, not publication receipts.
+
 The [Odia cinema overview](research/culture/odia-cinema.md) connects to the [reviewed series manifest](research/culture/cinema-series/manifest.json), [AIR Cuttack](research/culture/air-cuttack.md), [television](research/culture/odia-television.md) and [OTT](research/culture/odia-ott.md). The [cinema release preparation](records/cinema-release-preparation-2026-10-26.json) records the current website, book and viewing-room publication work.
 
 Use these maintained records to resume work. The dated links further down this page preserve the project's evolution; an old “pending” or “disabled” note describes that snapshot, not necessarily the current state.

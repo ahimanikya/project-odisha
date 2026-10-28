@@ -8,7 +8,7 @@ human_review_claimed: false
 author: "Ahimanikya Satapathy"
 sources: [{"id": "cinema-new-wave", "title": "“The New Wave Cinema of Odisha”", "resource": "https://fipresci-india.org/wp-content/uploads/2025/01/11.-Article-Ashok-Palit-New-Wave-Cinema-of-Odisha.pdf"}, {"id": "cinema-bhukha-play", "title": "“Film highlights struggle to survive in rural Odisha”", "resource": "https://timesofindia.indiatimes.com/city/bhubaneswar/film-highlights-struggle-to-survive-in-rural-odisha/articleshow/17396785.cms"}, {"id": "cinema-bhukha", "title": "70th National Film Awards catalogue", "resource": "https://nfaindia.org/images/pdf/70th%20National%20Film%20Award%20Catalogue.pdf"}, {"id": "cinema-sambalpuri-study", "title": "“Reading auteurship and subregional subjectivities in the Sambalpuri cinema of Sabyasachi Mohapatra”", "resource": "https://intellectdiscover.com/content/journals/10.1386/safm_00105_1"}, {"id": "cinema-aadim", "title": "62nd National Film Awards results", "resource": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=117636"}, {"id": "cinema-bhukha-interview", "title": "“Tete-e-tete with Sabyasachi Mohapatra”", "resource": "https://odisha.plus/2022/07/tete-e-tete-with-sabyasachi-mohapatra/"}, {"id": "music-forms", "title": "Sambalpuri sonority", "resource": "https://www.orissapost.com/sambalpuri-sonority/"}]
 hero_image: "../../media/cinema-series/bhukha-title.png"
-series_intro: "Turn from preserving a film to the livelihoods that sustain a performance tradition."
+series_intro: "Listen to a Sambalpuri screen story about folk performers, changing tastes and the work of sustaining a livelihood."
 series_position: 7
 series_part: "Films and Filmmakers"
 ---
@@ -27,17 +27,13 @@ The film grew from a play by Manglu Charan Biswal. A later report about Mohapatr
 
 For a working musician, cultural change can arrive as the loss of the next engagement. The film’s subject brings an economic question into the celebration of inherited art: what allows a performer to continue?
 
-![Sabyasachi Mohapatra seated at the Odisha State Film Awards](../../media/odia-cinema/sabyasachi-mohapatra.jpg)
-
-*Sabyasachi Mohapatra, photographed at the Odisha State Film Awards in Bhubaneswar, 21 November 2014. Photograph: Subhashish Panigrahi; existing crop by MKar. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sabyasachi_Mohapatra.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). A portrait of the director, not a still from Bhukha.*
-
-Ramesh Mahanand’s music offers a more specific way into the film. Himanshu Shekhar Guru’s 2015 account in *OrissaPOST* identifies a Nachnia song and a Sajani geet in its musical repertoire.[^music-forms] These named forms connect its music with the livelihood conflict.
+Ramesh Mahanand’s music offers a more specific way into the film. Himanshu Shekhar Guru’s 2015 account in *OrissaPOST* identifies a Nachnia song and a Sajani geet in its musical repertoire.[^music-forms] Listening for these forms gives the performers’ world a musical specificity beyond the general idea of a threatened tradition.
 
 ## Finding an audience at home
 
 In a 2022 interview, Mohapatra recalled that *Bhukha* did well in western Odisha and also reached audiences in Bhubaneswar, Cuttack and Puri. Looking back on the broader difficulties of distributing his films, he described the separate expense of posters, banners and promotion. Completing a film was only one part of bringing it to viewers.[^interview]
 
-That recollection gives the film another geography. Its journey was not only towards an international festival; it also ran between western Odisha and the coastal cities. These are the director’s memories of reception, rather than audited box-office figures.
+That recollection gives the film another geography. Its journey was not only towards an international festival; it also ran between western Odisha and the coastal cities. His account follows the film through places where audiences could encounter it.
 
 ## A regional voice reaching another audience
 
@@ -49,12 +45,12 @@ Amrit Amlan Pattanaik’s study places Mohapatra’s Sambalpuri films within wes
 
 Mohapatra’s later work gives this story another chapter. *ଆଦିମ ବିଚାର (Aadim Vichar)* received the Best Odiya Film award in the 62nd National Film Awards, announced in March 2015 for films of 2014.[^aadim]
 
-One question to explore in *Bhukha* is how a cultural practice and its practitioners’ livelihoods depend on one another. Mohapatra’s recollection of bringing the film to viewers adds a related question: what does it take for a story about working performers to find an audience?
+The drum in this story belongs to someone’s working life. Listening to the music while following that livelihood keeps art and its practitioners together. Mohapatra’s account of reaching viewers adds the next step: a story about performers also needs people willing and able to see it.
 
 
 ## Watch and explore
 
-Links checked on 26 October 2026. Playback was not tested; territory, account and payment conditions can change.
+Catalogue links checked on 26 October 2026.
 
 - **Institutional reference: [Sabyasachi Mohapatra and ଭୂଖା (Bhukha)](https://nfaindia.org/images/pdf/70th%20National%20Film%20Award%20Catalogue.pdf).** National Film Awards catalogue, printed page 036. A director biography, not a player; an authorised full-film route was not established in this check.
 

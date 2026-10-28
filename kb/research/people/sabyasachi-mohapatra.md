@@ -8,20 +8,20 @@ research_date: "2026-10-26"
 human_review_claimed: false
 sources: [{"id": "sabyasachi-mohapatra-1", "resource": "https://nfaindia.org/images/pdf/70th%20National%20Film%20Award%20Catalogue.pdf"}, {"id": "sabyasachi-mohapatra-2", "resource": "https://odisha.plus/2022/07/tete-e-tete-with-sabyasachi-mohapatra/"}, {"id": "sabyasachi-mohapatra-3", "resource": "https://dff.nic.in/images/Documents/20_IPCatalogue2014.pdf"}, {"id": "sabyasachi-mohapatra-4", "resource": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=117636"}]
 series_intro: "Meet the filmmaker through the performers, writers and collaborators whose work gives his films their regional worlds."
-hero_image: "../media/cinema-series/bhukha-title.png"
+hero_image: "../media/odia-cinema/sabyasachi-mohapatra.jpg"
 ---
 
 # Sabyasachi Mohapatra: stories rooted in western Odisha
 
 By Ahimanikya Satapathy
 
-What happens when a society celebrates a musical tradition but its performers cannot earn enough to continue? That question runs through our [article on ଭୂଖା (Bhukha)](../culture/cinema-series/bhukha.md). Following its director, **Sabyasachi Mohapatra**, opens another path into Odisha’s cinema: through western Odisha’s languages, writing and working performers.
+In a 2022 interview, **Sabyasachi Mohapatra** described learning through discussions with his cinematographer son, even when their ideas about an image differed.[^interview] The exchange offers a way into his career: a director rooted in western Odisha’s stories, still working out how to tell them with another generation.
 
-The National Film Awards’ retrospective identifies *Bhukha* as a 1989 Sambalpuri film and records an International Jury Award at Gijón. The retrospective does not establish the exact festival year; the recognition should not be enlarged into a claim about every festival the film attended.[^career]
+Our [article on ଭୂଖା (Bhukha)](../culture/cinema-series/bhukha.md) follows its performers’ livelihoods and musical world. The National Film Awards retrospective identifies it as a 1989 Sambalpuri film and records an International Jury Award at Gijón, without establishing the prize’s exact year.[^career] The director’s wider profile follows the collaborations around such films.
 
 ![Sabyasachi Mohapatra seated at the Odisha State Film Awards](../media/odia-cinema/sabyasachi-mohapatra.jpg)
 
-*Sabyasachi Mohapatra, photographed at the Odisha State Film Awards in Bhubaneswar, 21 November 2014. Photograph: Subhashish Panigrahi; existing crop by MKar. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sabyasachi_Mohapatra.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). A portrait of the director, not a still from Bhukha.*
+*Sabyasachi Mohapatra, photographed at the Odisha State Film Awards in Bhubaneswar, 21 November 2014. Photo: Subhashish Panigrahi; existing crop by MKar. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sabyasachi_Mohapatra.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*
 
 ## A film must also travel
 
@@ -29,7 +29,7 @@ In a 2022 interview, Mohapatra recalled *Bhukha* reaching audiences across weste
 
 That problem belongs beside the creative achievement. A local story does not reach viewers merely because it has been made. Distribution, publicity and the places where people can watch it help determine whether the conversation continues.
 
-He described learning from his cinematographer son through discussion, even when their visual ideas differed. He also argued that art films and mainstream films could coexist.[^interview] Different audiences need room for different kinds of cinema.
+Mohapatra also argued that art films and mainstream films could coexist.[^interview] His account leaves room for different audiences and ambitions within the same film culture.
 
 ## The names beside the director
 
@@ -39,9 +39,9 @@ A director’s profile can make those relationships visible. Writing supplies a 
 
 ## What the national award recognises
 
-*Aadim Vichar* received **Best Odiya Film** at the 62nd National Film Awards, announced on 24 March 2015 for films of 2014. The result names Mohapatra Movie Magic Pvt Ltd and Sabyasachi Mohapatra as producer and director recipients. This was the language-category film award, not the separate Best Direction prize.[^award]
+*Aadim Vichar* received **Best Odiya Film** at the 62nd National Film Awards, announced on 24 March 2015 for films of 2014. The result names Mohapatra Movie Magic Pvt Ltd and Sabyasachi Mohapatra as producer and director recipients. It was recognition in the language-category film award.[^award]
 
-Our [film companion](../culture/cinema-series/aadim-vichar.md) considers its encounter between a community’s understanding of justice and outside authority. The film’s account remains a work of storytelling, not a description of every Kandha household.
+Our [film companion](../culture/cinema-series/aadim-vichar.md) considers its encounter between a community’s understanding of justice and outside authority. Its credited writer and performers give that discussion particular voices.
 
 ## A regional world, with room for difference
 

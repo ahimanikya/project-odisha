@@ -27,9 +27,11 @@ Nirad Mohapatra’s 1984 film follows an extended middle-class family in a small
 
 Mohapatra’s own note, reproduced in the Bologna programme, describes married sons balancing competing responsibilities and daughters-in-law seeking freedom within the household. His interest held affection and frustration together: family could offer warmth while also constraining the people who lived within it.[^bologna]
 
-![Nirad Mohapatra photographed in 2010](../../media/cinema-series/nirad-mohapatra-raj-sampad.jpg)
+The household was shaped by several kinds of work. The Bologna programme credits **Nirad Mohapatra and Bibhuti Patnaik** with the story, **Rajgopal Mishra** with cinematography and **Bibekananda Satpathy** with editing.[^bologna]
 
-*Nirad Mohapatra, 2010. Photograph: Raj Sampad, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Nirad_Mohapatra_-_Filmmaker.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Reproduced without cropping.*
+## A house made ready for a family
+
+Mohapatra recalled arriving in Puri months in advance with a small crew and nonprofessional performers. They prepared an abandoned house and its courtyard as the film’s only set. In his director’s note, he described improvising within a written story.[^making-house] The household on screen had required another kind of shared work before filming: making a place ready for it.
 
 ## Different doors into the world
 
@@ -49,15 +51,17 @@ Bologna’s programme also credits the director’s family, Digital Film Restore
 
 The restoration was screened at Il Cinema Ritrovato in Bologna on 27 June 2024.[^bologna]
 
+## A new encounter with the family
+
 Prabha, the eldest son Tuku’s wife, is played by Manaswini Mangaraj.[^bologna][^alanen]
 
 Writing after that screening, film historian Antti Alanen placed her at the film’s emotional centre and traced the family’s tensions through gender and generation. He admired its atmosphere and music, while also finding moments when it lacked intensity.[^alanen]
 
-The restoration makes an encounter with the film possible again, alongside the work of the people who kept it available. Alanen’s response is one example of the new discussion that can follow an old film’s return.
+A restoration returns more than an image: it gives another viewer the chance to notice a character, hear the music and disagree with an earlier response. Alanen’s account is one such encounter. The family on screen can enter a new conversation because people kept the film available.
 
 ## Watch and explore
 
-Links checked on 26 October 2026. Playback was not tested; territory, account and payment conditions can change.
+Restoration page checked on 26 October 2026; clip playback untested.
 
 - **Restoration clip and information: [ମାୟା ମିରିଗ (Maya Miriga) at Film Heritage Foundation](https://filmheritagefoundation.co.in/film-heritage-foundation-restores-nirad-mohapatras-landmark-odia-film-maya-miriga1984/).** Restoration story and before-and-after comparison clip; not the full film.
 
@@ -70,6 +74,8 @@ Links checked on 26 October 2026. Playback was not tested; territory, account an
 [^bologna]: Il Cinema Ritrovato, [Māyā Miriga, 2024 programme](https://festival.ilcinemaritrovato.it/en/film/maya-miriga/), 27 June screening.
 
 [^alanen]: Antti Alanen, [Māyā Miriga / The Mirage (2024 restoration)](https://anttialanenfilmdiary.blogspot.com/2024/06/maya-miriga-mirage-2024-restoration.html), Film Diary, 27 June 2024. The official-film synopsis reproduced on the page identifies Prabha’s family relationship; his separate “AA” response supplies the critical assessment. The latter is one critic’s view, not an audience survey.
+
+[^making-house]: Nirad Mohapatra, director’s note reproduced by [Film Heritage Foundation](https://filmheritagefoundation.co.in/film-heritage-foundation-restores-nirad-mohapatras-landmark-odia-film-maya-miriga1984/), first paragraph. His account of preparing the Puri house and improvisation.
 
 ## Further reading
 

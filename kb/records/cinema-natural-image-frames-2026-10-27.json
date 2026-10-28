@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-27",
+  "status": "local_review_ready",
+  "request": "Adjust article images without large filler panels.",
+  "scope": "Cinema article figure layout only: natural aspect ratios; centre restrained portrait figures and align caption to image. Preserve cropped cards, image assets, source text, credit notes and books.",
+  "workers": {
+    "Disha": "Coordinator",
+    "Anvesha": "Read-only layout and asset inventory",
+    "Samanta": "Implementation and build",
+    "Drishti": "Independent visual responsive review"
+  },
+  "publication": false,
+  "implementation": {
+    "article_figures": 34,
+    "readings": 28,
+    "portraits_and_square_images": "Centred; width limited to native source and aspect-ratio-derived 600px maximum height. Caption shares figure width.",
+    "landscapes": "Natural aspect ratio at available reading width.",
+    "removed": "Fixed 3:2 article panels and absolute-positioned contained images.",
+    "unchanged": [
+      "preview-card crops",
+      "image assets",
+      "narrative text",
+      "numbered credits",
+      "book PDFs"
+    ]
+  },
+  "checks": {
+    "focused_tests_passed": 27,
+    "site_build": "PASS",
+    "disclosure_pages_checked": 965,
+    "disclosure_violations": 0
+  },
+  "review_iterations": [
+    {
+      "reviewer": "Drishti, separate AI agent",
+      "result": "Loaded image layouts passed; lazy inline images initially collapsed.",
+      "correction": "Per-image native aspect ratio now reserves space before download; no universal frame or fixed height."
+    }
+  ],
+  "review": {
+    "reviewer": "Drishti, separate AI agent",
+    "status": "PASS",
+    "report": "tmp/cinema-natural-image-review-2026-10-27.json",
+    "scope": "Representative portrait, square, stamp, book-page and landscape figures on desktop/mobile; initial lazy-image reservation; caption alignment; numeric credit keyboard roundtrip; unchanged cropped cards.",
+    "screenshot": "tmp/nirad-natural-desktop.png"
+  },
+  "reserved_files_released": {
+    "Samanta": [
+      "projects/site/src/components/CinemaReading.astro",
+      "projects/site/tests-coast/cinema-image-sizing.test.mjs",
+      "projects/site/src/lib/cinema-article.mjs if necessary",
+      "projects/site/tests/cinema-release.test.mjs (replace obsolete portrait frame assertions)"
+    ],
+    "Drishti": [
+      "tmp/cinema-natural-image-review-2026-10-27.json"
+    ]
+  },
+  "human_approval_claimed": false,
+  "next": "Local preview ready for Founder review; no publication."
+}

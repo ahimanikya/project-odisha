@@ -8,7 +8,7 @@ research_date: "2026-10-26"
 human_review_claimed: false
 sources: [{"id": "literature-and-screen-1", "resource": "https://or.wikisource.org/wiki/ଛମାଣ_ଆଠଗୁଣ୍ଠ/ଭଗିଆ_ଆଉ_ସାରିଆ"}, {"id": "literature-and-screen-2", "resource": "https://or.wikisource.org/wiki/ଗଳ୍ପସ୍ଵଳ୍ପ/ରେବତୀ"}, {"id": "literature-and-screen-3", "resource": "https://www.gourparbati.com/movie_kaa.php"}, {"id": "literature-and-screen-4", "resource": "https://timesofindia.indiatimes.com/city/bhubaneswar/film-highlights-struggle-to-survive-in-rural-odisha/articleshow/17396785.cms"}, {"id": "literature-and-screen-5", "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1878242"}, {"id": "literature-and-screen-6", "resource": "https://in.bookmyshow.com/movies/bengaluru/randi-pua-ananta/ET00432461"}]
 series_intro: "Read Odia cinema alongside fiction, theatre and listening, with short literary passages and named adaptation paths."
-hero_image: "../../media/cinema-series/parbati-ghose-title.png"
+hero_image: "../../media/cinema-series/distinct-2026-10-27/literature-and-screen.png"
 ---
 
 # The page behind the screen
@@ -27,9 +27,9 @@ In the chapter “Bhagia and Saria” of ଛମାଣ ଆଠଗୁଣ୍ଠ (Chh
 
 English rendering for this edition. The narrator’s apparent dismissal is a rebuke to that indifference.[^lit-neighbours]
 
-The passage offers Project Odisha a useful question about its own work. What do we learn to notice when we look closely at a place? A history of cinema can follow famous careers and prizes while also attending to the labour, speech and unequal relationships that stories make visible. Knowing a region is not the same as praising everything within it.
+The passage offers Project Odisha a useful question about its own work. What do we learn to notice when we look closely at a place? A history of cinema can follow famous careers and prizes while also attending to the labour, speech and unequal relationships that stories make visible. Such attention can make familiar places newly visible, including the lives a celebrated history might overlook.
 
-[Parbati Ghose’s chapter](parbati-ghose.md) follows the adaptation’s credited makers. Reading the novel beside the film invites questions rather than a verdict of fidelity. What can an actor convey without the narrator’s explanation? Where might a pause, a gesture or a cut carry the work of a sentence? These are invitations to comparison, not descriptions of scenes we have established from the film.
+[Parbati Ghose’s chapter](parbati-ghose.md) follows the adaptation’s credited makers. Reading the novel beside the film invites questions rather than a verdict of fidelity. What can an actor convey without the narrator’s explanation? Where might a pause, a gesture or a cut carry the work of a sentence? Let the passage and the performance guide the comparison.
 
 ## Before the screen, an act of listening
 
@@ -41,7 +41,7 @@ In the opening household passage of ରେବତୀ (Rebati), Fakir Mohan descri
 
 English rendering for this edition.[^lit-rebati]
 
-This short passage makes listening part of a child’s learning. It belongs to a literary household, not a record of a particular film production. Read alongside the AIR Cuttack chapter, it invites us to consider different settings in which a voice gathers listeners: beside a family member, around a radio, inside a cinema. The comparison is ours; it does not claim that this passage caused a broadcasting or film tradition.
+Rebati’s listening gives this literary household its quiet centre. Read alongside the AIR Cuttack chapter, the passage invites a comparison between settings in which a voice gathers listeners: beside a family member, around a radio, inside a cinema.
 
 The medium changes who can hear, when they can hear, and whether they can answer. A radio performance cannot rely on a face being visible. A film can hold on a face while speech falls away. Literature can let a narrator interrupt both the action and the reader’s confidence. Each makes room for a different kind of attention.
 
@@ -49,7 +49,7 @@ The medium changes who can hear, when they can hear, and whether they can answer
 
 There are concrete adaptation paths through this series. କା (Kaa) carries Kanhucharan Mohanty’s novel into film; the Gour–Parbati archive identifies the source and the directing collaboration.[^lit-kaa] ଭୂଖା (Bhukha) grew from Manglu Charan Biswal’s play, placing the livelihood of folk performers within a Sambalpuri screen story.[^lit-bhukha] [ପ୍ରତୀକ୍ଷା (Pratikshya)](pratikshya.md) draws on [Gourahari Das](../../people/gourahari-das.md)’s story, a connection described in the cast-and-crew account at IFFI.[^lit-pratikshya] BookMyShow’s film listing for ଅନନ୍ତା (Ananta) identifies Fakir Mohan Senapati’s Randi Pua Ananta as its literary source.[^lit-ananta]
 
-These connections should not be flattened into one timeless regional style. A novel, a play and a short story offer different ways of arranging people and events. Sambalpuri speech and performance carry their own local relationships. A new adaptation also belongs to the time in which it is made: to its actors, its audience and the practical circumstances of production.
+Each journey brings its own company of voices. A novel, a play and a short story offer different ways of arranging people and events. Sambalpuri speech and performance carry their own local relationships. A new adaptation also belongs to the time in which it is made: to its actors, its audience and the practical circumstances of production.
 
 ## Carrying the words forward
 
@@ -60,15 +60,15 @@ For Project Odisha, the page and the screen can therefore lead readers back to o
 ## Footnotes & Sources
 
 [^lit-neighbours]: Fakir Mohan Senapati, Chha Mana Atha Guntha, chapter10, “Bhagia and Saria,” opening paragraph, Odia Wikisource community transcription: [Source](https://or.wikisource.org/wiki/ଛମାଣ_ଆଠଗୁଣ୍ଠ/ଭଗିଆ_ଆଉ_ସାରିଆ) . Exact quoted sentence checked26October2026 against that transcription; not collated to a historical printed edition. English rendering made for the book edition from the Odia; not borrowed from a published translation. “Community” carries the passage’s social/caste context without erasing it.
-[^lit-rebati]: Fakir Mohan Senapati, Rebati, opening household passage, Galpa Swalpa, Odia Wikisource: [Source](https://or.wikisource.org/wiki/ଗଳ୍ପସ୍ଵଳ୍ପ/ରେବତୀ) . Selected excerpt and surrounding paragraph checked26October2026. Community transcription, not a facsimile-collated quotation. English rendering for the book edition; no author or fluent-reader approval claimed. This is a literary parallel, not an asserted source for any film discussed here.
+[^lit-rebati]: Fakir Mohan Senapati, Rebati, opening household passage, Galpa Swalpa, Odia Wikisource: [Source](https://or.wikisource.org/wiki/ଗଳ୍ପସ୍ଵଳ୍ପ/ରେବତୀ) . Selected excerpt and surrounding paragraph checked26October2026. Community transcription, not a facsimile-collated quotation. English rendering for this edition. This is a literary parallel, not an asserted source for any film discussed here.
 [^lit-kaa]: Gour–Parbati archive, Kaa: [Source](https://www.gourparbati.com/movie_kaa.php) . Film page identifies Kanhucharan Mohanty’s novel; chronology follows the archive’s1965heading, not a fresh award-year reconciliation.
 [^lit-bhukha]: Riyan Ramanath V, “Film highlights struggle to survive in rural Odisha,” Times of India,28November2012: [Source](https://timesofindia.indiatimes.com/city/bhubaneswar/film-highlights-struggle-to-survive-in-rural-odisha/articleshow/17396785.cms) .
 [^lit-pratikshya]: PIB, IFFI53 cast-and-crew account,23November2022: [Source](https://www.pib.gov.in/PressReleasePage.aspx?PRID=1878242) . Reused source for Gourahari Das story connection.
-[^lit-ananta]: [BookMyShow, Ananta film listing](https://in.bookmyshow.com/movies/bengaluru/randi-pua-ananta/ET00432461), “About movie.” Indexed listing inspected 26 October 2026; direct access was blocked. The listing identifies Fakir Mohan Senapati’s Randi Pua Ananta as its source; no full-film comparison is asserted here.
+[^lit-ananta]: [BookMyShow, Ananta film listing](https://in.bookmyshow.com/movies/bengaluru/randi-pua-ananta/ET00432461), “About movie.” Listing checked 26 October 2026. The listing identifies Fakir Mohan Senapati’s Randi Pua Ananta as its source; no full-film comparison is asserted here.
 
 ## Further reading
 
-- [Gourahari Das: the story before the screen](../../people/gourahari-das.md)
+- [Gourahari Das: fiction, translation and a literary life](../../people/gourahari-das.md)
 - [Pratikshya: a family waiting for security](pratikshya.md)
 - [Aadim Vichar: whose understanding of justice?](aadim-vichar.md)
 - [Lavanya Preeti: growing up with a story](lavanya-preeti.md)

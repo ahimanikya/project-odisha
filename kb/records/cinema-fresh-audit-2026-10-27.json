@@ -1,0 +1,227 @@
+{
+  "date": "2026-10-27",
+  "status": "audit_complete_changes_not_applied",
+  "scope": "Updated overview, broader series structure, generated site semantics, and current book navigation/changed sections. Not an exhaustive filmography or every-page accessibility certification.",
+  "source_sha256": "27782bacb295cd8eba0bb1e0057a6ba982e8bfc97c02cc9f7f2fad9cc19830ec",
+  "books": [
+    {
+      "edition": "digital",
+      "pages": 176,
+      "sha256": "f34384e0f0d0cdbf3d3a2430f39a2186c4b12e1bfc3420c85a76b5cdf46b6430"
+    },
+    {
+      "edition": "print",
+      "pages": 196,
+      "sha256": "4c44658a9ee6aad1f5222b4213a412110b570a4b5dcb3a0a5bab3e11506ddcc3"
+    }
+  ],
+  "workers": {
+    "Disha": "Synthesis, narrative/coverage audit and shared records",
+    "Anvesha": "Independent evidence/framing audit",
+    "Samanta": "Read-only implementation consistency audit",
+    "Drishti": "Independent reader-experience audit"
+  },
+  "findings": [
+    {
+      "id": "CIN-AUD-01",
+      "priority": "high",
+      "title": "Make named performer sections discoverable",
+      "evidence": "Bijay, Uttam and Aparajita are plain H3 headings without IDs; renderer only anchors H2. Book contents only names the companion survey; new performer/music detail falls after the closing future chapter.",
+      "locations": [
+        "projects/site/src/lib/reviewed-culture-article.mjs:30",
+        "kb/research/culture/odia-cinema.md:119",
+        "digital pages132–137; print136–142",
+        "kb/research/culture/cinema-series/book-narrative-2026-10-27.json: people_guide"
+      ],
+      "action": "Add stable H3 anchors and selected section-menu/hub shortcuts. Add named performer/music contents entries and people-guide pointers. Editorial option: promote a concise performers-and-music chapter into the main narrative before the new-generation section, leaving counts in reference material.",
+      "acceptance": "Each named profile has a working link; performers and songs can be reached from hub/book contents without searching the full survey."
+    },
+    {
+      "id": "CIN-AUD-02",
+      "priority": "high",
+      "title": "Put the measurement beside each film count",
+      "evidence": "Mahasweta's Almost40 counts lead-film credits, while other rows report broader film totals. Jayiram's source mixes reporter film count and recalled comic roles. Source qualifications are accurate but easier to overlook than the numbers.",
+      "locations": [
+        "kb/research/culture/odia-cinema.md:153"
+      ],
+      "action": "Write Almost40 lead-film credits in the estimate cell; separate lead-only and film/role-ambiguous rows from broader film totals or mark the unit directly beside every number. Retain dates and avoid ranking incomparable data.",
+      "acceptance": "A reader scanning numbers alone cannot reasonably mistake lead roles for total appearances or treat dated reports as current rankings."
+    },
+    {
+      "id": "CIN-AUD-03",
+      "priority": "high",
+      "title": "Keep statistics from interrupting the human narrative",
+      "evidence": "Three performer capsules lead into five contribution rows and nine count rows before the music story. The overview narrative is approximately5750words. The book count panels occupy several pages between stories and songs.",
+      "locations": [
+        "kb/research/culture/odia-cinema.md:137",
+        "digital133–136; print138–141"
+      ],
+      "action": "Keep the strongest performer and music stories together; move the count reference after the narrative or into a clearly named reference section with its own shortcut. Preserve all evidence.",
+      "acceptance": "Readers can follow people to music to newer films without crossing the count reference."
+    },
+    {
+      "id": "CIN-AUD-04",
+      "priority": "high",
+      "title": "Restore continuation before the sources",
+      "evidence": "On the inspected390px viewport, Footnotes begins around34572px and Next reading around47306px. Working source links do not solve that long traversal.",
+      "locations": [
+        "projects/site/src/components/CinemaReading.astro",
+        "current overview mobile DOM"
+      ],
+      "action": "Add a compact next-reading link at the narrative end before source/credit sections; retain expanded sources and bottom navigation.",
+      "acceptance": "Next reading is available immediately after the story on desktop and mobile."
+    },
+    {
+      "id": "CIN-AUD-05",
+      "priority": "high",
+      "title": "Complete accessibility semantics for the new content",
+      "evidence": "New verified Odia titles are absent from the reviewed language allowlist; the two performer tables both have generic Scrollable data table names and lack explicit scoped row/column header associations.",
+      "locations": [
+        "projects/site/src/lib/cinema-article.mjs:13",
+        "projects/site/src/lib/reviewed-culture-article.mjs:27"
+      ],
+      "action": "Add reviewed Odia title language spans; give contribution and count tables distinct accessible captions/names and appropriate scoped headers. Preserve keyboard-contained scrolling.",
+      "acceptance": "Verified titles expose lang=or; assistive technology can distinguish both tables and associate each figure with performer and unit."
+    },
+    {
+      "id": "CIN-AUD-06",
+      "priority": "medium",
+      "title": "Avoid narrowing major performers through headings or statistics",
+      "evidence": "Mahasweta's leading career sits under Comedy, character work. Siddhanta appears only as a count, without a meaningful work example.",
+      "locations": [
+        "kb/research/culture/odia-cinema.md:137",
+        "kb/research/culture/odia-cinema.md:163"
+      ],
+      "action": "Rename the wider selection Other performers and collaborations, keeping comedy as a distinct contribution. Add one sourced Siddhanta performance/collaboration example so the count is connected to work.",
+      "acceptance": "Leading, character and comic careers receive accurate framing; no actor exists in the overview only as a statistic."
+    },
+    {
+      "id": "CIN-AUD-07",
+      "priority": "medium",
+      "title": "Strengthen the missing generational bridge",
+      "evidence": "Prasanta Nanda is absent from the overview despite the Sesa Srabana discussion; Sarat Pujari already has a concrete Mangaraj credit in the Parbati essay. Tandra Ray remains an unresearched expansion lead.",
+      "locations": [
+        "kb/research/culture/odia-cinema.md:143",
+        "kb/research/culture/cinema-series/parbati-ghose.md:54",
+        "performer evidence packet"
+      ],
+      "action": "Prioritise sourced work-based connections for Prasanta Nanda, Sarat Pujari and Tandra Ray. Continue standalone Bijay/Uttam/Aparajita pages with distinct rights-cleared portraits; do not pad the story with an unbounded names list.",
+      "acceptance": "Each addition explains a specific contribution and links to a film or collaboration; absent counts stay unknown."
+    },
+    {
+      "id": "CIN-AUD-08",
+      "priority": "medium",
+      "title": "Clarify the two numeric note systems without verbose captions",
+      "evidence": "Caption superscript13 goes to image credit13; prose13 goes to a chapter source. Both use the requested numbers-only visible form, but print readers lack the web accessible labels.",
+      "locations": [
+        "digital128/175",
+        "output/pdf/build_book.py"
+      ],
+      "action": "Add one short reading-key explanation for caption numbers versus prose numbers, with page pointers in print. Keep caption markers numeric only; do not restore Photo credit labels.",
+      "acceptance": "Reader can locate the right note system with no repeated caption boilerplate."
+    },
+    {
+      "id": "CIN-AUD-09",
+      "priority": "medium",
+      "title": "Trim editorial scaffolding and repeated closing invitations",
+      "evidence": "Capsules retain phrases such as useful starting points and belong beside acting in this account. Cinema Futures repeats organise a licensed screening/help a colleague learn in closing paragraphs94 and98.",
+      "locations": [
+        "kb/research/culture/odia-cinema.md:121",
+        "kb/research/culture/odia-cinema.md:129",
+        "kb/research/culture/cinema-series/cinema-futures.md:94"
+      ],
+      "action": "Let verified teaching, mentorship, audience and song-making memories lead. Remove generic explanations of editorial intent and retain one stronger forward-looking closing invitation. Preserve attributed testimony; invent no scenes.",
+      "acceptance": "Concrete people and work carry the transition, with fewer repetitive instructions to the reader."
+    },
+    {
+      "id": "CIN-AUD-10",
+      "priority": "medium",
+      "title": "Reconcile audit receipts and remaining bilingual gaps",
+      "evidence": "Book-build receipt still says final PDF review pending and retains an older introduction-only edit scope despite current final PASS. LoveMaster and playAmariBhagaban remain English-only because original Odia spelling was not verified.",
+      "locations": [
+        "output/pdf/book-build-data-2026-10-27.json:3319",
+        "output/pdf/book-build-data-2026-10-27.json:3324",
+        "kb/research/culture/odia-cinema.md:123",
+        "kb/research/culture/odia-cinema.md:133"
+      ],
+      "action": "Bind receipt to the actual final independent review and accurate change scope, preserving prior events. Verify the remaining title spellings before adding Odia; don't guess.",
+      "acceptance": "Current receipts agree with exact reviewed hashes; bilingual status honestly distinguishes completed and unresolved titles."
+    }
+  ],
+  "passes": [
+    "No newly verified numerical or award error in checked new claims; does not certify every fact in all28readings.",
+    "All28 source hashes current; site and book manifest sequence agree.",
+    "No duplicate IDs, missing existing fragments or missing local destinations in checked28entries; missing new H3 anchors are a separate functionality gap.",
+    "All13numeric image-credit markers match notes and returns; attribution remains intact.",
+    "No repeated original image identities across different article entries in staged manifest.",
+    "Current download page counts and hashes agree; examined table panels and Odia titles render without clipping."
+  ],
+  "limits": [
+    "No public content, site code or PDFs edited by this audit.",
+    "Prior regressionPASS did not certify narrative completeness or accessibility of every newly introduced element.",
+    "Unique reusable portrait gaps remain for standalone profile pages.",
+    "No publication, contact or human approval claimed."
+  ],
+  "supporting_reports": [
+    "tmp/pdfs/cinema-fresh-audit-2026-10-27-drishti.json"
+  ],
+  "recommended_order": [
+    "CIN-AUD-01",
+    "CIN-AUD-02",
+    "CIN-AUD-04",
+    "CIN-AUD-05",
+    "CIN-AUD-10",
+    "CIN-AUD-03",
+    "CIN-AUD-06",
+    "CIN-AUD-07",
+    "CIN-AUD-08",
+    "CIN-AUD-09"
+  ],
+  "subsequent_resolutions": [
+    {
+      "date": "2026-10-27",
+      "finding": "CIN-AUD-08",
+      "status": "resolved_in_local_candidate",
+      "record": "records/cinema-unified-footnotes-2026-10-27.json",
+      "resolution": "Founder superseded the proposed two-system reading key: all image credits now share ordinary article/chapter footnote numbering, with no separate section. Independent review PASS."
+    },
+    {
+      "date": "2026-10-27",
+      "finding": "CIN-AUD-10",
+      "status": "partially_resolved_in_local_candidate",
+      "record": "records/cinema-unified-footnotes-2026-10-27.json",
+      "resolution": "New book receipt reconciled to unchanged canonical article sources and actual independent review of current PDF hashes. Remaining LoveMaster/Amari Bhagaban original-title verification is still open."
+    },
+    {
+      "date": "2026-10-27",
+      "finding": "CIN-AUD-04",
+      "status": "resolved_in_current_local_candidate",
+      "resolution": "Current rendered overview has Continue reading immediately before the source-note section. Existing implementation was missed by the earlier audit; verified current output and subsequent navigation review, not a new code change in this status check.",
+      "evidence": [
+        "projects/site/dist/cinema/odia-cinema/index.html",
+        "tmp/cinema-short-navigation-review-2026-10-27.json"
+      ]
+    }
+  ],
+  "current_status_reconciliation": {
+    "date": "2026-10-27",
+    "resolved": [
+      "CIN-AUD-04",
+      "CIN-AUD-08"
+    ],
+    "partially_resolved": [
+      "CIN-AUD-10"
+    ],
+    "open": [
+      "CIN-AUD-01",
+      "CIN-AUD-02",
+      "CIN-AUD-03",
+      "CIN-AUD-05",
+      "CIN-AUD-06",
+      "CIN-AUD-07",
+      "CIN-AUD-09"
+    ],
+    "basis": "Checked current renderer, built overview, canonical overview/futures and final book receipt. This is status reconciliation, not a new full audit or public revision.",
+    "publication": false
+  }
+}

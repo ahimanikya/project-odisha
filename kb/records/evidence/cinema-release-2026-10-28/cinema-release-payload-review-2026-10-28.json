@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-28",
+  "status": "PASS scoped payload with exclusions; not an exhaustive security audit",
+  "authorization": "Current publication plus prior source-export authorization; no new approval block",
+  "inspection": {
+    "tracked_changed_files": 49,
+    "untracked_scoped_files": 219,
+    "method": "Git status and explicit filenames; text-only credential patterns over modified tracked text and scoped untracked records/research/site-assets/tools; targeted provenance and author-introduction records",
+    "credential_pattern_matches": [],
+    "suspicious_filename_matches": []
+  },
+  "include": [
+    "Current manifest-referenced canonical28articles, book narrative plan and supporting research evidence JSON",
+    "Scoped kb/records and linked retrospective attribution snapshots (prior public article text, not private messages)",
+    "Active public cinema JPEG/WebP derivatives referenced by cinema.json, cover thumbnail and source/licence provenance",
+    "Current used original media and provenance, including licensed Anupam/A.K.Bir/Gourahari photos and user-authorized author portrait",
+    "Cinema site routes/components/tests/shared renderer changes after normal integration checks",
+    "tools/cinema-book including bundled font licence"
+  ],
+  "exclude": [
+    "tmp/**",
+    "output/** and transient outputs/** review sites/screenshots; selected receipts can be copied into records by coordinator if needed",
+    "projects/site/public/archive/*2026-10-27.pdf from Git; release assets instead",
+    "kb/research/media/cinema-series/research-evidence-2026-10-27/dassaaha-announcement.png",
+    "kb/research/media/cinema-series/research-evidence-2026-10-27/debakanya-announcement.png",
+    "Unused a-living-screen-cover-art-v1.png; current cover provenance selects v2"
+  ],
+  "specific_notes": [
+    "The two production posters are primary research artifacts but have no established publication licence. Their record references may remain archival local evidence pointers; do not bundle images by recursive media-directory staging.",
+    "Public and source attribution must preserve13 documentary credit records now merged into numbered footnotes. Creator/source/licence/alterations and historical image uncertainties remain required.",
+    "Commons-imageinfo.json contains public Commons API metadata, not browser credentials.",
+    "Existing attribution snapshots are prior public editorial Markdown; inclusion is source history, not a reason to republish outdated prose on site.",
+    "Author portrait provenance retains a historical pending-placement string, but later introduction record independently records PASS; preserve record chronology rather than infer current lack of authorization.",
+    "Current book cover selectedv2, author portrait and appropriateprovenance are reproducibility inputs; older generated candidates need not ship.",
+    "Public media provenance includes local/source-history paths and internal production information; these are not secrets, but avoid new visible page production labels beyond editorial-process policy."
+  ],
+  "author_intro": {
+    "sha256": "1908976c67ce0e8a8b063b6bb67c6d2ef424f32c145a7403cee623e2e00d9f61",
+    "comparison": "Matches recorded reviewed author-introduction source hash exactly",
+    "limit": "Original writing block59318 is not independently available in this subagent context; hash continuity establishes no change from approved reviewed artifact, not fresh character-by-character comparison to unavailable chat block."
+  },
+  "limits": [
+    "No complete binary metadata/EXIF forensic scan or external licence revalidation this pass.",
+    "No evidence of unexpected private contacts, consent dossiers or credentials in bounded inspected payload; not a universal absence guarantee.",
+    "Final staged diff and release-asset URLs still require coordinator/reviewer check."
+  ],
+  "public_edits": false
+}

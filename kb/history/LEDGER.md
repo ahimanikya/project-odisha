@@ -1206,3 +1206,41 @@ PR580, validation40296411821 and deployment40297355055 succeeded; live article v
 ### 26 October 2026 — diamond-triangle publication verified
 
 PR583, validation40299890804 and deployment40305705401 succeeded; live article verified. Receipt: `records/diamond-triangle-publication-2026-10-26.json`. All four Buddhist Triangle articles verified live; social publication remains subject to fresh button approval.
+
+
+### 27 October 2026 — Distinct cinema article images
+
+The Founder requested ending image reuse within the cinema series. Six distinct conceptual title illustrations replaced borrowed images, and four redundant body-photo placements were removed while originals and retained credits were preserved. All 26 article heroes and 31 active image placements are now unique by source content. Independent review and 14 focused checks passed; local preview rebuilt and inspected. No publication or PDF revision claimed. [Review record](../records/cinema-distinct-images-2026-10-27.json).
+
+
+### 27 October 2026 — Cinema attribution streamlined
+
+The Founder requested sufficient credit without repetitive explanation. All 26 article image captions/credits were reviewed; 44 source notes were shortened while retaining authors, translators, image creators, source/licence links, crop credits and material qualifications. Previous notes remain in the evidence archive. Independent attribution review, 14 tests and the build passed; local rendered credits verified. Publication and PDF refresh not performed. [Review record](../records/cinema-attribution-2026-10-27.json).
+
+
+### 27 October 2026 — Cinema public links
+
+Removed or replaced 18 direct KB links across five cinema articles at the Founder’s request. Public article routes and official film references replace available counterparts; internal research-register links removed. All 26 rendered readings now have zero direct KB links; 15 focused tests, build and independent review passed. Local preview only. [Record](../records/cinema-public-links-2026-10-27.json).
+
+
+### 27 October 2026 — The question behind the cinema book
+
+The Founder’s edited personal introduction now opens the 28-reading cinema series and both review books. It connects art, software, farmers’ and writers’ livelihoods, children’s characters and cinema, and explicitly uses selected history to explore future possibilities. The supplied watercolor-treated portrait retains its credit. Digital162pages and print180pages rebuilt and reviewed; no publication claimed. [Integration receipt](../records/cinema-author-introduction-2026-10-27.json).
+
+
+### 27 October 2026 — Proportionate cinema attribution
+
+The Founder requested concise credits throughout the cinema series. Removed the introduction’s self-portrait credit block from the article and both review books, retaining the name caption and internal provenance. Required third-party credits remain. The editorial standard now records this direction. Local review passed; no publication. [Record](../records/cinema-author-introduction-2026-10-27.json).
+
+
+### 27 October 2026 — Cinema reading experience
+
+Applied the reading audit’s navigation, footnote, download-placement and targeted repetition fixes. Your personal introduction remains unchanged. Updated local books contain162digital/182printpages; a separate taggedproof remains internal pending Odia language and accessibility validation. No publication. [Implementation and remaining work](../records/cinema-reading-ux-implementation-2026-10-27.json).
+
+## 27 October 2026 · Full-width cinema images
+
+The Founder requested full-width book images and consistent frames across previews and articles. All 33 figures now span the book text width, with original proportions intact; web images share a 3:2 frame. The revised 169-page digital and 188-page print editions passed separate AI review. The low-resolution stamp remains soft when enlarged. This is a local review update, not a publication. [Evidence](../records/cinema-image-sizing-2026-10-27.json).
+
+## 27 October 2026 · A historical moment behind the screen
+
+A source-labelled 1989 photograph of Pranab Das with Bijay Mohanty and Mihir Das now accompanies the overview’s account of production teams and the book companion. The original image and its source qualifications are retained, with concise public credits. Early-film and recording-session images remain research leads where reuse terms are unresolved. Local review only. [Evidence](../records/cinema-historical-images-2026-10-27.json).

@@ -13151,7 +13151,7 @@
       "id": "POD-EDIT-COMMERCIAL-20261026",
       "route": "/cinema/commercial-successes/",
       "title": "Odia Cinema’s Commercial Successes",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "new_researched_article",
       "source_template": "kb/research/culture/cinema-series/commercial-successes.md",
       "checks": {
@@ -13164,9 +13164,130 @@
         "responsive": true
       },
       "evidence": [
-        "records/cinema-commercial-successes-2026-10-26.json"
+        "records/cinema-commercial-successes-2026-10-26.json",
+        "records/cinema-commercial-successes-publication-2026-10-26.json"
       ],
-      "blocker": null
+      "blocker": null,
+      "publication_receipt": "records/cinema-commercial-successes-publication-2026-10-26.json"
+    },
+    {
+      "id": "POD-EDIT-DEEPENDRA-SAMAL-20261027",
+      "route": "/people/deependra-samal/",
+      "title": "Deependra Samal: making room for a different film",
+      "status": "queued",
+      "scope": "New public cinema profile; source review passed, local integration awaiting final check",
+      "source_template": "projects/site/src/pages/people/deependra-samal.astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": false,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": false
+      },
+      "evidence": [
+        "records/daman-makers-2026-10-27.json"
+      ],
+      "publication_receipt": null
+    },
+    {
+      "id": "POD-EDIT-VISHAL-MOURYA-20261027",
+      "route": "/people/vishal-mourya/",
+      "title": "Vishal Mourya: finding a filmmaking language together",
+      "status": "queued",
+      "scope": "New public cinema profile; source review passed, local integration awaiting final check",
+      "source_template": "projects/site/src/pages/people/vishal-mourya.astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": false,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": false
+      },
+      "evidence": [
+        "records/daman-makers-2026-10-27.json"
+      ],
+      "publication_receipt": null
+    },
+    {
+      "id": "POD-EDIT-DEBI-PRASAD-LENKA-20261027",
+      "route": "/people/debi-prasad-lenka/",
+      "title": "Debi Prasad Lenka: shaping the story, from script to edit",
+      "status": "queued",
+      "scope": "New public cinema profile; source review passed, local integration awaiting final check",
+      "source_template": "projects/site/src/pages/people/debi-prasad-lenka.astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": false,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": false
+      },
+      "evidence": [
+        "records/daman-makers-2026-10-27.json"
+      ],
+      "publication_receipt": null
+    },
+    {
+      "id": "POD-EDIT-ANUPAM-PATNAIK-20261027",
+      "route": "/people/anupam-patnaik/",
+      "title": "Anupam Patnaik: the work behind the waiting",
+      "status": "queued",
+      "scope": "Public profile reviewed locally; awaiting publication review",
+      "source_template": "projects/site/src/pages/people/anupam-patnaik.astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": false
+      },
+      "evidence": [
+        "records/anupam-patnaik-2026-10-27.json"
+      ],
+      "publication_receipt": null
+    },
+    {
+      "id": "POD-EDIT-CINEMA-AUTHOR-INTRODUCTION-20261027",
+      "route": "/cinema/the-question-that-brought-me-here/",
+      "title": "The Question That Brought Me Here",
+      "status": "queued",
+      "scope": "Author-approved personal essay integrated and reviewed locally in series and bothbooks; queued for futurepublication.",
+      "source_template": "projects/site/src/pages/cinema/[slug].astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/cinema-author-introduction-2026-10-27.json"
+      ],
+      "publication_receipt": null
+    },
+    {
+      "id": "POD-EDIT-CINEMA-READING-GUIDE-20261028",
+      "route": "/cinema/reading-guide/",
+      "title": "Cinema reading guide",
+      "status": "excluded",
+      "scope": "cinema collection navigation and reading utility",
+      "source_template": "projects/site/src/pages/cinema/reading-guide.astro",
+      "checks": {},
+      "evidence": [
+        "records/cinema-publication-2026-10-28.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "People and turning-point navigation for the existing cinema readings; not a separate editorial article or programme delivery."
     }
   ]
 }

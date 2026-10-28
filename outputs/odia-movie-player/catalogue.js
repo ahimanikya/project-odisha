@@ -254,8 +254,8 @@ window.ODIA_CATALOGUE={
             "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1878242"
           }
         ],
-        "reading": "../odia-cinema-series/odia-cinema.html",
-        "readingLabel": "Read the cinema overview"
+        "reading": "../odia-cinema-series/pratikshya.html",
+        "readingLabel": "Read about Pratikshya and its literary roots"
       },
       {
         "id": "ananta-trailer",

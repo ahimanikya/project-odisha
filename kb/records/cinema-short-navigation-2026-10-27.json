@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-27",
+  "status": "local_review_ready",
+  "request": "Shorten Previous and Next article links.",
+  "scope": "Concise destination names in cinema Previous/Next and matching Continue link. Full article/card titles, author-edited writing snapshot, canonical narratives, assets and PDFs unchanged.",
+  "workers": {
+    "Disha": "Coordinator",
+    "Anvesha": "Read-only label review",
+    "Samanta": "Implementation",
+    "Drishti": "Independent verification"
+  },
+  "publication": false,
+  "label_review": {
+    "reviewer": "Anvesha, separate AI agent",
+    "result": "PASS",
+    "notes": "Preserve full person names, exact bilingual film names and DAMaN capitalization. Explicit AIR Cuttack topic label; author article title unchanged."
+  },
+  "checks": {
+    "site_build": "PASS",
+    "focused_tests_passed": 27,
+    "disclosure_pages_checked": 965,
+    "disclosure_violations": 0
+  },
+  "implementation": {
+    "shared_label_function": "cinemaNavigationLabel",
+    "people": "Full name without article subtitle",
+    "films": "Bilingual film name without article subtitle",
+    "topic_labels": [
+      "Why this book",
+      "Odia cinema",
+      "Literature and cinema",
+      "AIR Cuttack",
+      "Odia television",
+      "Odia OTT",
+      "Commercial successes",
+      "Cinema economics",
+      "The road ahead"
+    ],
+    "surfaces": [
+      "Previous",
+      "Next",
+      "Continue reading"
+    ],
+    "unchanged": [
+      "full article titles",
+      "reading-card titles",
+      "canonical narratives",
+      "user-edited writing snapshot",
+      "PDFs",
+      "images"
+    ]
+  },
+  "review": {
+    "reviewer": "Drishti, separate AI agent",
+    "status": "PASS",
+    "report": "tmp/cinema-short-navigation-review-2026-10-27.json",
+    "scope": "All 28 reading-order destinations and full H1 titles; all 27 matching Continue links; Nirad desktop/mobile390 labels, arrows, focus and overflow."
+  },
+  "reserved_files_released": {
+    "Samanta": [
+      "projects/site/src/lib/cinema-article.mjs",
+      "projects/site/src/components/CinemaReading.astro"
+    ],
+    "Drishti": [
+      "tmp/cinema-short-navigation-review-2026-10-27.json"
+    ]
+  },
+  "human_approval_claimed": false
+}

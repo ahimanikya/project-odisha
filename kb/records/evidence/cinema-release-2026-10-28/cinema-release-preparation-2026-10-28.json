@@ -1,0 +1,58 @@
+{
+  "status": "local_release_gates_passed",
+  "full_tests_passed": 628,
+  "coast_tests_passed": 523,
+  "policy_tests_passed": 11,
+  "full_disclosure": {
+    "root": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/odia-cinema-release-20261026/projects/site/dist",
+    "pages": 965,
+    "violations": []
+  },
+  "coast_disclosure": {
+    "root": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/odia-cinema-release-20261026/projects/site/dist-coast",
+    "pages": 952,
+    "violations": []
+  },
+  "reviewed_release_assets": [
+    {
+      "edition": "digital",
+      "file": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-27/odia-cinema-a-living-screen-2026-10-27.pdf",
+      "bytes": 12927649,
+      "sha256": "7ae26c3c71eb6693937a285ad9f8c28280dbcf40144e6efc052d502b5b445f15",
+      "pages": 176,
+      "status": "reviewed_release_asset"
+    },
+    {
+      "edition": "print",
+      "file": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-27/odia-cinema-a-living-screen-print-2026-10-27.pdf",
+      "bytes": 132370249,
+      "sha256": "9a4a544f1d771e2fe44b624a3e481bcbca8ac7ae2bae7542cfad0b2c439565b9",
+      "pages": 196,
+      "status": "reviewed_release_asset"
+    }
+  ],
+  "pdf_bytes_unchanged": true,
+  "changed_files": [
+    "projects/site/src/data/cinema.json",
+    "projects/site/editions/coast.json",
+    "projects/site/src/pages/cinema/book.astro",
+    "projects/site/tests/cinema-release.test.mjs",
+    "projects/site/tools/finalize-edition.py",
+    "projects/site/tests-coast/edition-validation.test.mjs"
+  ],
+  "guidance": {
+    "id": "accessibility",
+    "quote": "Do include a control's visible text in its accessible name",
+    "applied": "Native PDF links retain visible edition, format and size labels."
+  },
+  "publication_bytes": 999720202,
+  "budget_bytes": 1000000000,
+  "headroom_bytes": 279798,
+  "publication_disclosure": {
+    "root": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/odia-cinema-release-20261026/projects/site/dist-publish",
+    "pages": 953,
+    "violations": []
+  },
+  "indexable_pages": 11,
+  "publication_output": "projects/site/dist-publish"
+}

@@ -1,0 +1,64 @@
+{
+  "status": "published_verified",
+  "article": "/cinema/commercial-successes/",
+  "authorization": "Founder explicitly requested publish in this chat",
+  "reviewed_head": "74d5a23fbd1aba3e648e6eb7bdda47d0d181a4a6",
+  "reviewer": "Drishti (separate AI review; no human review claimed)",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/588",
+  "merge_commit": "9ff9bb21f64b6a9a2d122ef9c80bf4168bb981a4",
+  "validation_run": "https://github.com/ahimanikya/project-odisha/actions/runs/40350813525",
+  "validation_result": "success",
+  "publication_run": "https://github.com/ahimanikya/project-odisha/actions/runs/40352246855",
+  "local_validation": {
+    "site_tests": 618,
+    "coast_tests": 515,
+    "disclosure_violations": 0,
+    "table_films": 6,
+    "source_notes": 8,
+    "series_readings": 23,
+    "browser": "Desktop and390px screenshot inspection; no page overflow at390px; keyboard scroll and focus outline verified"
+  },
+  "limits": [
+    "Reported figures not audited or directly comparable; lowconfidence tracker clearlylabelled.",
+    "Existing printable book unchanged; this release adds the website article.",
+    "Search selection unchanged at11indexablepages; no social posts."
+  ],
+  "live_checks": [
+    {
+      "route": "/cinema/commercial-successes/",
+      "status": 200,
+      "sha256": "75569b755730364c78d6d021fe36382c2e59cf05858259a0d028ec4b64aabf3b",
+      "six_rows": true,
+      "notes": true,
+      "hero": true,
+      "low_confidence": true
+    },
+    {
+      "route": "/cinema/",
+      "status": 200,
+      "sha256": "37c7694dc67914473f97b0fe6ff917253e0b1a690dbf929d467007f3b85dd48f",
+      "article_link": true
+    },
+    {
+      "route": "/cinema/cinema-economics/",
+      "status": 200,
+      "sha256": "81dd9369c3630c5a5faa967dcf72b8710e2578b21c9b47ee1cb41c92401359a5",
+      "article_link": true
+    },
+    {
+      "route": "/assets/cinema/odia-cinema-title-1200w.jpg",
+      "status": 200,
+      "exact_asset_match": true
+    }
+  ],
+  "publication_result": "success",
+  "deployment": {
+    "run_id": 40352246855,
+    "conclusion": "success"
+  },
+  "verified_routes": [
+    "/cinema/commercial-successes/",
+    "/cinema/",
+    "/cinema/cinema-economics/"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-27",
+  "status": "local_review_ready",
+  "scope": "Align cinema Next navigation to right and Previous to left, including first/last endpoints and narrow screens. Preserve labels, routes, content and books.",
+  "workers": {
+    "Samanta": "Component CSS implementation",
+    "Drishti": "Independent responsive verification",
+    "Disha": "Coordination"
+  },
+  "publication": false,
+  "implementation": "Two flexible columns; Previous explicitly placed left, Next explicitly placed right; source order unchanged, text wraps within columns.",
+  "checks": {
+    "site_build": "PASS",
+    "existing_focused_tests_passed": 25
+  },
+  "review": {
+    "reviewer": "Drishti, separate AI agent",
+    "status": "PASS",
+    "report": "tmp/cinema-navigation-alignment-review-2026-10-27.json",
+    "scope": "Bhukha and first/last reading desktop/mobile390; Previous left and Next right, no overflow, keyboard order retained."
+  },
+  "reserved_files_released": {
+    "Samanta": [
+      "projects/site/src/components/CinemaReading.astro"
+    ],
+    "Drishti": [
+      "tmp/cinema-navigation-alignment-review-2026-10-27.json"
+    ]
+  }
+}

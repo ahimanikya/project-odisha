@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-27",
+  "status": "local_review_ready",
+  "request": "Remove catalogue link-check timestamps from reading articles.",
+  "scope": "Presentation-only removal of routine link-check date boilerplate across cinema articles. Keep dated research/source records intact, preserve availability/type limitations and substantively dated announcements/screening claims. No canonical narrative, author snapshot, images or PDF changes.",
+  "workers": {
+    "Disha": "Coordinator",
+    "Anvesha": "Read-only identify maintenance lines versus substantive dates",
+    "Samanta": "Renderer cleanup/build",
+    "Drishti": "Independent review"
+  },
+  "publication": false,
+  "inventory": {
+    "reviewer": "Anvesha, separate AI agent",
+    "routine_occurrences": 12,
+    "standalone": 10,
+    "inline_ott": 2,
+    "affected_readings": 11,
+    "preserve": "Source/footnote dates, upcoming-project status dated27October and screening snapshot dated25October."
+  },
+  "implementation": "Exact presentation replacements for twelve routine occurrences. Check-only paragraphs removed; necessary regional/account caveats kept concise. AAO NXT inspection narration removed. Raw canonical research untouched.",
+  "checks": {
+    "site_build": "PASS",
+    "existing_tests_passed": 25,
+    "targeted_readings_checked": 28,
+    "disclosure_pages_checked": 965,
+    "disclosure_violations": 0
+  },
+  "review": {
+    "reviewer": "Drishti, separate AI agent",
+    "status": "PASS",
+    "report": "tmp/cinema-catalogue-check-notes-review-2026-10-27.json",
+    "scope": "All eleven affected source bindings/footnote targets and viewing blocks; substantive dated claims retained; actual Bhukha rendered block inspected."
+  },
+  "reserved_files_released": {
+    "Samanta": [
+      "projects/site/src/lib/cinema-article.mjs"
+    ],
+    "Drishti": [
+      "tmp/cinema-catalogue-check-notes-review-2026-10-27.json"
+    ]
+  }
+}

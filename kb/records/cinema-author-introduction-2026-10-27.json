@@ -1,0 +1,118 @@
+{
+  "status": "complete_local_review",
+  "title": "The Question That Brought Me Here",
+  "authorization": "User: I am good now, let’s create this article and stitch together with the series and book",
+  "scope": "User-edited block59318 plus explicit non-exhaustive-history purpose paragraph; local article, cinema reading path and digital/print review books. No publication this task.",
+  "workers": {
+    "Disha": "Canonical article text, scoped record and ledger; final integration",
+    "Anvesha": "Read-only evidence and author-photo provenance",
+    "Samanta": "Manifest, derived cinema data/assets, cinema page/navigation, preview generation, book builder and PDFs; no canonical essay or shared records",
+    "Drishti": "Read-only independent integrated review"
+  },
+  "reserved_files": {},
+  "human_approval": "User accepted edited essay and requested integration; not approval of a later rendered proof or release.",
+  "publication": false,
+  "source": "Current user-edited writing block59318; author personal testimony.",
+  "other_work": "Preserve all pre-existing dirty files and other programme ownership.",
+  "canonical_source": "kb/research/culture/cinema-series/the-question-that-brought-me-here.md",
+  "source_sha256": "1908976c67ce0e8a8b063b6bb67c6d2ef424f32c145a7403cee623e2e00d9f61",
+  "research_review": {
+    "reviewer": "Anvesha",
+    "result": "PASS",
+    "scope": "Exact saved essay against author testimony and existing personal essays",
+    "limitations": "Autobiographical figures and memories are the author’s own account, not independently audited outcomes."
+  },
+  "editorial_changes": [
+    "Preserved complete current user-edited block59318, including traveled and These stories wording.",
+    "Inserted previously requested explicit non-exhaustive-history purpose clarification and distinction between Odia language and Odisha state.",
+    "Added standard title/byline, two links to existing author essays in footnotes, further-reading and correction invitation."
+  ],
+  "portrait": {
+    "source": "kb/research/media/cinema-book/ahimanikya-satapathy-portrait.png",
+    "provenance": "kb/research/media/cinema-book/cover-provenance-2026-10-27.json",
+    "kind": "user-supplied watercolor-treated portrait",
+    "license_claim": "No public-domain or CC claim",
+    "existing_cinema_article_hero": false
+  },
+  "source_review": {
+    "reviewer": "Drishti",
+    "result": "PASS",
+    "source_sha256": "1908976c67ce0e8a8b063b6bb67c6d2ef424f32c145a7403cee623e2e00d9f61",
+    "scope": "Canonical source, prose flow, state/language distinction, first-person account, footnote references and public links",
+    "integrated_review": "pending"
+  },
+  "integration_report": "output/pdf/author-introduction-integration-2026-10-27.json",
+  "independent_review": {
+    "reviewer": "Drishti",
+    "result": "PASS",
+    "checks": [
+      "Complete essay appears once in bothPDFs",
+      "Original27 readings retain order; introduction→overview linked",
+      "State/language and personal-testimony scope preserved",
+      "Two source links and supplied-watercolor portrait credit preserved",
+      "Affected first/closing/credit pages inspected; no blocking defects"
+    ],
+    "limits": "Targeted affected-page review, not fresh pixel inspection of all180pages or press certification."
+  },
+  "browser_review": {
+    "reviewer": "Disha",
+    "route": "http://127.0.0.1:8769/cinema/the-question-that-brought-me-here/",
+    "desktop": "1280px default: title, suppliedportrait, opening spacing and reading navigation checked",
+    "mobile": "390px: pagewidth390, no horizontaloverflow; no failedloadedimages; title/opening/sourcecredits visually checked",
+    "book_page": "Current162/180page localPDFlinks and earlierpublishededition separation verified",
+    "viewport_override": "reset"
+  },
+  "checks": {
+    "site_build": "Samanta:542pages success",
+    "focused_checks": "Samanta22passed;root reran20cinema-release/commercial-successes tests passed",
+    "disclosure_gate": "Root:965generatedfiles scanned,zero violations",
+    "runtime_correction": "Initial root check used oldsystemNode and failed beforetests; rerun with bundledNode passed",
+    "rollout_consistency": "PASS",
+    "team_assignment_consistency": "PASS"
+  },
+  "delivery": {
+    "article_route": "/cinema/the-question-that-brought-me-here/",
+    "series_route": "/cinema/",
+    "book_route": "/cinema/book/",
+    "readings": 28,
+    "parts": 5,
+    "publication": false
+  },
+  "next": "Founder review; any later public release requires staging large printPDF as a release asset and publication verification.",
+  "books": [
+    {
+      "edition": "digital",
+      "path": "output/pdf/odia-cinema-a-living-screen-2026-10-27.pdf",
+      "pages": 162,
+      "bytes": 12741390,
+      "sha256": "4394cde578078b631a1f1191fd10172f6b01466e856cdc21bd0e1371ac94f860"
+    },
+    {
+      "edition": "print",
+      "path": "output/pdf/odia-cinema-a-living-screen-print-2026-10-27.pdf",
+      "pages": 180,
+      "bytes": 131952260,
+      "sha256": "7f4d70c85d3f2d1d22ffe79b0f9f069054b14435a59fa9aca879475a7c4bbc85"
+    }
+  ],
+  "credit_simplification": {
+    "status": "complete_local_review",
+    "user_direction": "Remove verbose self portrait credit from introduction; author finds Image credits plus supplied-by line unnecessary.",
+    "scope": "Introduction self-credit only in article/book; retain caption, truthful alt, internal provenance and all third-party credit requirements.",
+    "worker": "Samanta",
+    "reserved_files": [],
+    "publication": false,
+    "series_direction": {
+      "user_quote": "Please keep that extra transparent and verbose mindset throughout the series, so that we have manageable credits and attributions.",
+      "interpretation": "In context of requested removal of verbose selfcredit: clear, proportionate public attribution, fuller internal provenance, required thirdpartycredits retained.",
+      "standard": "kb/reference/article-editorial-standard.md#proportionate-cinema-attribution--27-october-2026",
+      "metadata_scan": "All28hero caption/credit-note fields inspected; remaininghero descriptions concise; no broad removal of rights credits."
+    },
+    "implementation_report": "output/pdf/introduction-self-credit-removal-2026-10-27.json",
+    "browser_verification": "Actual introduction page confirmed simple name caption; no Image credits heading, credit marker or selfcredit prose.",
+    "third_party_credit_notes": "12 retained unchanged in each book; implementation comparison",
+    "prose": "All canonical article hashes unchanged",
+    "checks": "22 focused checks and 542page sitebuild passed",
+    "independent_review": "Drishti PASS: introcredit removed;12thirdparty notes exact aside fromrenumbering;28chapter/source records,covers and canonicalessay unchanged; digital5/print6 visuallychecked."
+  }
+}

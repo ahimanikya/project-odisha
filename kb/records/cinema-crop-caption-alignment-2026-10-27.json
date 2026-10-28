@@ -1,0 +1,586 @@
+{
+  "date": "2026-10-27",
+  "status": "local_review_ready",
+  "request": "Restore cropped previews and align captions with image starts in book and articles.",
+  "scope": "Cinema presentation only; preserve book full-width native images, covers, prose and credits. No publication.",
+  "workers": {
+    "Disha": "Coordinator, records",
+    "Anvesha": "Read-only focal-point and caption review",
+    "Samanta": "Implement web and necessary book alignment fixes",
+    "Drishti": "Independent browser and PDF alignment QA"
+  },
+  "reserved_files": {
+    "Samanta": [
+      "projects/site/src/components/CinemaReading.astro",
+      "projects/site/src/components/ArticleReadingPath.astro",
+      "projects/site/src/pages/cinema/index.astro",
+      "projects/site/src/lib/cinema-article.mjs",
+      "projects/site/src/data/cinema.json",
+      "projects/site/tests-coast/cinema-image-sizing.test.mjs",
+      "output/pdf/build_book.py"
+    ]
+  },
+  "source_hashes": {
+    "kb/research/culture/cinema-series/the-question-that-brought-me-here.md": "1908976c67ce0e8a8b063b6bb67c6d2ef424f32c145a7403cee623e2e00d9f61",
+    "kb/research/culture/odia-cinema.md": "e92a23dd655e7b741a0118b5dc71f4539a6ec48e18d29ee8b778c202701205fe",
+    "kb/research/culture/cinema-series/literature-and-screen.md": "8b13997e31f98fb812117dbae26b7fd749a7fd372b402873cd99e58b66a49c0f",
+    "kb/research/culture/air-cuttack.md": "9858ac378afbb7da84af7b0e4375a9091b774656e3f2a6082637e83db6f8f9ff",
+    "kb/research/people/gour-prasad-ghose.md": "d7d92c728d7d4a3580bb8df33841ec5ce296350c9a07d1c848f731c7d65c9a25",
+    "kb/research/culture/cinema-series/parbati-ghose.md": "9bdb8e69dd36f4ebee8d20289a940c96c17d40d254bdf1c75d188a1ef219f721",
+    "kb/research/culture/cinema-series/sadhu-meher.md": "2d120513614df41fd288429d42e53589c50f6da009bad0dcb0f69a9614cfc7d6",
+    "kb/research/culture/cinema-series/manmohan-mahapatra.md": "597159a965a1ee58e761bf104852927b0b05e12df961090c10c902775f4361d1",
+    "kb/research/culture/cinema-series/maya-miriga.md": "00891ed9534008e838eeb33cb4c6e52cce9361f3a9c4f587e7e6054e808e449e",
+    "kb/research/people/nirad-mohapatra.md": "2e993b0a2f33205e9e420557994297b0af83ee1e06f227ddc7d82013a22a48bc",
+    "kb/research/culture/cinema-series/bhukha.md": "5bc683044f6a134b1b4ee7da105a1c370c1efdc7d3f78347a558b0daff65fb2f",
+    "kb/research/people/sabyasachi-mohapatra.md": "65d90f3c342082c08de722e15d449ae43316a2ed019332aeca62a57c727aed95",
+    "kb/research/culture/cinema-series/aadim-vichar.md": "f6aa6970da2c22ab357dc5e9b71a505203bab91928fd594a448d026e8ddf76b7",
+    "kb/research/culture/cinema-series/lavanya-preeti.md": "62368a7c48eb61f77ec508ebd8678ef9d6ff553ea0763ecb2867c3c00b93b3ee",
+    "kb/research/people/ak-bir.md": "370df28c23909d99bb358eb047ab2f5666538a29b6d4919905fcf014f0c5eab0",
+    "kb/research/culture/cinema-series/nandita-das.md": "ad9150a4d552de512e2e29eeadc0013c281a91e855497d7c28db3ca92dafd274",
+    "kb/research/people/gourahari-das.md": "adcb89475d80be6e0fc2f8c151489f0aaa24fa89d6c825b068015b63c4cdd27a",
+    "kb/research/culture/cinema-series/pratikshya.md": "cadef8b39bc93c9c39f80e574ff38bb392c3cd022473aa3ed8b568999b5898c3",
+    "kb/research/people/anupam-patnaik.md": "f8f520628378748dbc502db7c6e9a57c306a648d683035adda2d30e65eb24071",
+    "kb/research/culture/cinema-series/daman.md": "3070da9937f38a9ff075e58fc5d0e6335900f318df1e9ed197d8960c961502d5",
+    "kb/research/people/vishal-mourya.md": "ebd0ec503cf4695ccbfac315927bc19fc2e03f5984ecdaf6f07adf99fb22d190",
+    "kb/research/people/debi-prasad-lenka.md": "edb46b259c81e44b140a578d121ec11f53e3a77cd7c1702b26e278590d755ed8",
+    "kb/research/people/deependra-samal.md": "db871476d1d8bd908e2345bab073ca75ac9ac20e1eba2e2901ee29f416945826",
+    "kb/research/culture/odia-television.md": "2c9512363a20ab09a9ffe4e718058e34a40199842ccf5b323fe31023a109ed1a",
+    "kb/research/culture/odia-ott.md": "c92f247c4abcf9052477229fd8fbc1e2e531c6568dc13a3f64f0e0a19a0f66e2",
+    "kb/research/culture/cinema-series/commercial-successes.md": "42688a60d25c353b4cfa626ed96e158852ed0c1bee82c9c1ad0b7daf9c4d4bbf",
+    "kb/research/culture/cinema-series/cinema-economics.md": "f68db8ed52cac46cf2c5814fd9c60e4d18be83cd19b8a66ab144fa37af4e5593",
+    "kb/research/culture/cinema-series/cinema-futures.md": "0702c3e3a4b891d824505001e8e3101369db4afe2a598e3149724d4a54716e85"
+  },
+  "previous_record": "cinema-image-sizing-2026-10-27.json",
+  "implementation": {
+    "preview": "3:2 cover crops restored in cinema hub and further-reading cards",
+    "focal_positions": {
+      "nirad-mohapatra": "50% 20%",
+      "anupam-patnaik": "50% 15%",
+      "the-question-that-brought-me-here": "50% 35%",
+      "ak-bir": "0% 50% retained"
+    },
+    "articles": "Complete images retained, object-position left center, captions left aligned with zero indentation",
+    "book": "All 33 image/caption left edges already aligned in each existing edition; no PDF changes required",
+    "tests": "25 focused tests passed; 542-page build; zero disclosure violations",
+    "canonical_source_hashes_unchanged": true
+  },
+  "quality_review": {
+    "status": "PASS",
+    "pdf": {
+      "digital": {
+        "sha256": "7cba602db7357f507f5048a7f3f3ac9d5e9298eaec7a2e7d015d11b9a5d951d1",
+        "placements": [
+          {
+            "page": 5,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 13,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 15,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 19,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 20,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 25,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 29,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 30,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 32,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 35,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 38,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 40,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 42,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 46,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 49,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 52,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 55,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 58,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 61,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 63,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 67,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 72,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 75,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 79,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 81,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 85,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 88,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 91,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 94,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 101,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 106,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 113,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 117,
+            "image_x": 42.0,
+            "width": 348.0,
+            "caption_x": 42.0,
+            "aligned": true
+          }
+        ],
+        "pass": true
+      },
+      "print": {
+        "sha256": "5bea5e1c2a9e422cf06c534562f55b2ae2743787fa64aa5a14ce9707332694cd",
+        "placements": [
+          {
+            "page": 6,
+            "image_x": 42.0,
+            "width": 336.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 14,
+            "image_x": 42.0,
+            "width": 336.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 16,
+            "image_x": 42.0,
+            "width": 336.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 20,
+            "image_x": 42.0,
+            "width": 336.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 22,
+            "image_x": 42.0,
+            "width": 336.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 27,
+            "image_x": 54.0,
+            "width": 336.0,
+            "caption_x": 54.0,
+            "aligned": true
+          },
+          {
+            "page": 31,
+            "image_x": 54.0,
+            "width": 336.0,
+            "caption_x": 54.0,
+            "aligned": true
+          },
+          {
+            "page": 32,
+            "image_x": 42.0,
+            "width": 336.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 34,
+            "image_x": 42.0,
+            "width": 336.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 37,
+            "image_x": 54.0,
+            "width": 336.0,
+            "caption_x": 54.0,
+            "aligned": true
+          },
+          {
+            "page": 40,
+            "image_x": 42.0,
+            "width": 336.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 41,
+            "image_x": 54.0,
+            "width": 336.0,
+            "caption_x": 54.0,
+            "aligned": true
+          },
+          {
+            "page": 43,
+            "image_x": 54.0,
+            "width": 336.0,
+            "caption_x": 54.0,
+            "aligned": true
+          },
+          {
+            "page": 47,
+            "image_x": 54.0,
+            "width": 336.0,
+            "caption_x": 54.0,
+            "aligned": true
+          },
+          {
+            "page": 50,
+            "image_x": 42.0,
+            "width": 336.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 54,
+            "image_x": 42.0,
+            "width": 336.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 57,
+            "image_x": 54.0,
+            "width": 336.0,
+            "caption_x": 54.0,
+            "aligned": true
+          },
+          {
+            "page": 60,
+            "image_x": 42.0,
+            "width": 336.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 63,
+            "image_x": 54.0,
+            "width": 336.0,
+            "caption_x": 54.0,
+            "aligned": true
+          },
+          {
+            "page": 66,
+            "image_x": 42.0,
+            "width": 336.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 70,
+            "image_x": 42.0,
+            "width": 336.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 75,
+            "image_x": 54.0,
+            "width": 336.0,
+            "caption_x": 54.0,
+            "aligned": true
+          },
+          {
+            "page": 78,
+            "image_x": 42.0,
+            "width": 336.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 82,
+            "image_x": 42.0,
+            "width": 336.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 84,
+            "image_x": 42.0,
+            "width": 336.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 88,
+            "image_x": 42.0,
+            "width": 336.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 91,
+            "image_x": 54.0,
+            "width": 336.0,
+            "caption_x": 54.0,
+            "aligned": true
+          },
+          {
+            "page": 94,
+            "image_x": 42.0,
+            "width": 336.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 97,
+            "image_x": 54.0,
+            "width": 336.0,
+            "caption_x": 54.0,
+            "aligned": true
+          },
+          {
+            "page": 104,
+            "image_x": 42.0,
+            "width": 336.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 109,
+            "image_x": 54.0,
+            "width": 336.0,
+            "caption_x": 54.0,
+            "aligned": true
+          },
+          {
+            "page": 116,
+            "image_x": 42.0,
+            "width": 336.0,
+            "caption_x": 42.0,
+            "aligned": true
+          },
+          {
+            "page": 120,
+            "image_x": 42.0,
+            "width": 336.0,
+            "caption_x": 42.0,
+            "aligned": true
+          }
+        ],
+        "pass": true
+      }
+    },
+    "source_hashes_unchanged": true,
+    "web": {
+      "routes": 28,
+      "checks": 56,
+      "viewports": [
+        "desktop1114px",
+        "390px"
+      ],
+      "article_images": 33,
+      "image_fit": "contain",
+      "object_position": "0% 50%",
+      "caption_x_equals_image_x": true,
+      "caption_indent_zero": true,
+      "horizontal_overflow": false,
+      "hub_cards": 28,
+      "hub_fit": "cover",
+      "three_to_two": true,
+      "focal_positions": {
+        "author": "50% 35%",
+        "Nirad": "50% 20%",
+        "Nandita": "50% 8%",
+        "Sadhu": "50% 25%",
+        "AKBir": "0% 50%"
+      },
+      "visual_samples": [
+        "mobile Nirad article left-aligned image",
+        "mobile Nirad cropped card face visible",
+        "mobile A.K.Bir left subject preserved",
+        "mobile Nandita face preserved"
+      ],
+      "viewport_reset": true
+    },
+    "limitations": [
+      "No publication; independent AI QA, not human approval.",
+      "No new comprehensive source or rights review.",
+      "Full-width low-resolution stamp remains soft; no PDF edit needed for caption alignment."
+    ]
+  },
+  "reserved_files_released": true,
+  "publication": false,
+  "human_approval_claimed": false
+}
