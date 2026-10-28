@@ -26,7 +26,7 @@
     },
     "with_flags": 227,
     "mapped_pages": 13,
-    "newer_records_outside_frozen_selection": 571
+    "newer_records_outside_frozen_selection": 572
   },
   "additional_ids": [
     "source:arts-crt-ina-tiles",
@@ -541,6 +541,7 @@
     "source:textile-bargarh-products",
     "source:textile-rs130-20241206",
     "source:trade-basic-port-statistics2025",
+    "source:weekly-paradip-20261024",
     "source:weekly-paradip-oct2026",
     "source:weekly-trai-annual2026",
     "source:world-dae-3202-2022",
@@ -603,8 +604,8 @@
   ],
   "inputs": {
     "kb/records/editorial-workbench-selection.json": "11e1a66cec2f24379ce7e9f27b782bea26ccb55a7b242138135cad0897ea0fdb",
-    "kb/research/references/data/source-catalog.json": "d414c7037dd189bba0a4dd74cf572bdca9d64db4ea3bac510d2c87739c2327fd",
-    "kb/research/search-index.json": "070499293191d8ea1d0232f7e198435897bb723623aef06c190038a63f1b4573",
+    "kb/research/references/data/source-catalog.json": "c9d8a9b9a0d225ad7cc099a8daa67ce29aff76e7b157330b236bab4e31ddc64a",
+    "kb/research/search-index.json": "301b4d8432fd1e55fbb84c4a57b9269cb0377e3a5a4be6b6e1b2b385ca74832a",
     "kb/research/food/collection.json": "4d700f98827f06fd8fa24013b2d472937319283f1f003db5e4ca069799febfb5",
     "kb/research/voices/collection.json": "7c860069d965157b3865991a22766c67efeadcc0e334766db9763928393ceabe",
     "kb/research/references/data/food-preparations.json": "947ad5931899e0b1e9e21d8375c4d773e3deafd7f1344c6e0811f2d74191443e",
@@ -4635,6 +4636,16 @@
       },
       "connections": [
         {
+          "id": "culture/osha/prathamastami",
+          "title": "Prathamastami",
+          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/culture/osha/prathamastami.md"
+        },
+        {
+          "id": "culture/osha/raja-parba",
+          "title": "Raja Parba",
+          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/culture/osha/raja-parba.md"
+        },
+        {
           "id": "food/arisa-pitha",
           "title": "Arisa pitha",
           "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/food/arisa-pitha.md"
@@ -4678,16 +4689,6 @@
           "id": "stories/taste-odisha",
           "title": "Taste Odisha: a collection of kitchens",
           "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/stories/taste-odisha.md"
-        },
-        {
-          "id": "culture/osha/prathamastami",
-          "title": "Prathamastami",
-          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/culture/osha/prathamastami.md"
-        },
-        {
-          "id": "culture/osha/raja-parba",
-          "title": "Raja Parba",
-          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/culture/osha/raja-parba.md"
         }
       ],
       "related_source_ids": [],
@@ -4965,6 +4966,21 @@
       },
       "connections": [
         {
+          "id": "culture/osha-brata-seasonal-food",
+          "title": "Osha, brata: stories, seasons and food",
+          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/culture/osha-brata-seasonal-food.md"
+        },
+        {
+          "id": "culture/osha/prathamastami",
+          "title": "Prathamastami",
+          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/culture/osha/prathamastami.md"
+        },
+        {
+          "id": "culture/osha/raja-parba",
+          "title": "Raja Parba",
+          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/culture/osha/raja-parba.md"
+        },
+        {
           "id": "food/chakuli",
           "title": "Chakuli pitha",
           "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/food/chakuli.md"
@@ -5033,21 +5049,6 @@
           "id": "sources/food-tourism",
           "title": "The Taste of Odisha",
           "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/sources/food-tourism.md"
-        },
-        {
-          "id": "culture/osha-brata-seasonal-food",
-          "title": "Osha, brata: stories, seasons and food",
-          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/culture/osha-brata-seasonal-food.md"
-        },
-        {
-          "id": "culture/osha/prathamastami",
-          "title": "Prathamastami",
-          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/culture/osha/prathamastami.md"
-        },
-        {
-          "id": "culture/osha/raja-parba",
-          "title": "Raja Parba",
-          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/culture/osha/raja-parba.md"
         },
         {
           "id": "visitor-index/seasonal-food-guide",
@@ -8435,6 +8436,11 @@
           "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/economy/dmf-community-outcomes.md"
         },
         {
+          "id": "economy/mining-receipts",
+          "title": "Mining receipts: five years of growth, with volatility visible",
+          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/economy/mining-receipts.md"
+        },
+        {
           "id": "sources/macro-cag-fy2025",
           "title": "Odisha State Finances Audit Report 2024–25 — Chapter 1",
           "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/sources/macro-cag-fy2025.md"
@@ -8443,11 +8449,6 @@
           "id": "statistics/public-finance-audit",
           "title": "Public Finance Audit",
           "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/statistics/public-finance-audit.md"
-        },
-        {
-          "id": "economy/mining-receipts",
-          "title": "Mining receipts: five years of growth, with volatility visible",
-          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/economy/mining-receipts.md"
         }
       ],
       "related_source_ids": [
@@ -11961,16 +11962,6 @@
       },
       "connections": [
         {
-          "id": "sources/puri-approved-operators",
-          "title": "Approved Tour Operators — Puri entries",
-          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/sources/puri-approved-operators.md"
-        },
-        {
-          "id": "visitor-index/puri-providers",
-          "title": "Puri guides, operators, food and stays",
-          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/visitor-index/puri-providers.md"
-        },
-        {
           "id": "economy/puri-heritage-walk-service",
           "title": "Puri: a pre-booked outdoor heritage-walk service",
           "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/economy/puri-heritage-walk-service.md"
@@ -11979,6 +11970,16 @@
           "id": "product/puri-business-starter-guide",
           "title": "Puri heritage-walk business starter: downloadable research guide",
           "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/product/puri-business-starter-guide.md"
+        },
+        {
+          "id": "sources/puri-approved-operators",
+          "title": "Approved Tour Operators — Puri entries",
+          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/sources/puri-approved-operators.md"
+        },
+        {
+          "id": "visitor-index/puri-providers",
+          "title": "Puri guides, operators, food and stays",
+          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/visitor-index/puri-providers.md"
         }
       ],
       "related_source_ids": [],
@@ -12007,16 +12008,6 @@
       },
       "connections": [
         {
-          "id": "sources/puri-guide-app-directory",
-          "title": "Odisha Tourism alternate tour-guide directory",
-          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/sources/puri-guide-app-directory.md"
-        },
-        {
-          "id": "visitor-index/puri-providers",
-          "title": "Puri guides, operators, food and stays",
-          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/visitor-index/puri-providers.md"
-        },
-        {
           "id": "economy/puri-heritage-walk-service",
           "title": "Puri: a pre-booked outdoor heritage-walk service",
           "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/economy/puri-heritage-walk-service.md"
@@ -12025,6 +12016,16 @@
           "id": "product/puri-business-starter-guide",
           "title": "Puri heritage-walk business starter: downloadable research guide",
           "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/product/puri-business-starter-guide.md"
+        },
+        {
+          "id": "sources/puri-guide-app-directory",
+          "title": "Odisha Tourism alternate tour-guide directory",
+          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/sources/puri-guide-app-directory.md"
+        },
+        {
+          "id": "visitor-index/puri-providers",
+          "title": "Puri guides, operators, food and stays",
+          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/visitor-index/puri-providers.md"
         }
       ],
       "related_source_ids": [],
@@ -12053,6 +12054,11 @@
       },
       "connections": [
         {
+          "id": "economy/puri-heritage-walk-service",
+          "title": "Puri: a pre-booked outdoor heritage-walk service",
+          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/economy/puri-heritage-walk-service.md"
+        },
+        {
           "id": "sources/puri-heritage-golden-triangle",
           "title": "Heritage Tours — Golden Triangle itinerary",
           "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/sources/puri-heritage-golden-triangle.md"
@@ -12061,11 +12067,6 @@
           "id": "visitor-index/puri-journey-outline",
           "title": "Puri and craft places: a sourced journey outline",
           "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/visitor-index/puri-journey-outline.md"
-        },
-        {
-          "id": "economy/puri-heritage-walk-service",
-          "title": "Puri: a pre-booked outdoor heritage-walk service",
-          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/economy/puri-heritage-walk-service.md"
         }
       ],
       "related_source_ids": [],
@@ -15906,6 +15907,11 @@
       },
       "connections": [
         {
+          "id": "culture/odia-cultural-identity",
+          "title": "Odia Cultural Identity and Pride",
+          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/culture/odia-cultural-identity.md"
+        },
+        {
           "id": "handlooms/bargarh",
           "title": "Bargarh weaving centre",
           "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/handlooms/bargarh.md"
@@ -15959,11 +15965,6 @@
           "id": "sources/weaving-centres",
           "title": "Important handloom centres",
           "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/sources/weaving-centres.md"
-        },
-        {
-          "id": "culture/odia-cultural-identity",
-          "title": "Odia Cultural Identity and Pride",
-          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/culture/odia-cultural-identity.md"
         }
       ],
       "related_source_ids": [],

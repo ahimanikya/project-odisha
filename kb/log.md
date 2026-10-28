@@ -755,3 +755,7 @@ Founder requested photographs for five blank cards on /food/. Four credited Comm
 ## Poda pitha photograph restored · 21 October 2026
 
 Founder prefers the earlier documentary photo. Restore the cut-slice photograph by Udipta876 (CC BY-SA4.0) across the food article, related views and saved journey book; restore its matching opening sentence. Retain both photographs and their provenance. [Correction record](records/poda-pitha-photo-restore-2026-10-21.json). No substantive programme credit or article-rollout completion.
+
+## 25 October 2026 · Weekly cargo data candidate
+
+[Weekly data receipt](records/weekly-data-2026-10-25.json): Four Paradip matched partial-period cargo observations through23October, with two calculations. Seventeen primary-publisher tracks checked with partial availability; conflicts and unavailable tables retained. Routine research-only update under existing user authorisation; no public website change or new article rollout claimed.

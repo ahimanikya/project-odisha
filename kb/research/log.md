@@ -854,3 +854,8 @@ Added two sourced articles, Champu/sakhi evidence and a dated Instagram concept 
 ## 2026-10-23 · Illustrated Nayika second pass
 
 Deepened Ashta Nayika with precise Gita Govinda passages, expanded abhinaya through the historical waiting scene and credited practitioner views, and created Champu/sakhi feature. Every article has an image and visible Soumya Biswajit acknowledgement. Two Met public-domain paintings and one original SVG retain provenance. No new archive-completion or public-release claim.
+
+
+## 25 October 2026 · Weekly data checks
+
+Four new Paradip observations and two matched-period calculations through 23 October: financial-year cargo +0.35%, October-to-date +12.27%. Original 24 October PDF footers on pages 2–3 visually checked. Earlier snapshots retained; no full-year forecast. Other catalogue checks, failures and unresolved conflicts recorded in the weekly report. [Ports](statistics/ports.md).
