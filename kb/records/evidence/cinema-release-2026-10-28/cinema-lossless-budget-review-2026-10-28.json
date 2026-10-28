@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-28",
+  "result": "PASS",
+  "scope": "Independent lossless PNG publication size delta; no content or publication edits",
+  "publication_bytes": 997102605,
+  "headroom_bytes": 2897395,
+  "additional_savings_from_stable_local_baseline": 2617597,
+  "independent_checks": [
+    "All 102 source and output hashes match actual dist-coast and dist-publish files",
+    "All 96 changed PNGs independently decoded with Sharp: exact RGBA byte equality and audit pixel hash match",
+    "All 96 changed PNGs original non-IDAT chunks independently compared byte-exact, including IHDR and metadata",
+    "Five focused PNG tests independently passed",
+    "Reviewed smaller-only DEFLATE selection, exact inflated stream equality, rebuilt CRC, unchanged allowlist and symlink rejection"
+  ],
+  "file_hashes": {
+    "projects/site/tools/optimize-publication-png.mjs": "286c935938e5d4c957f16f3be3ec9bc6e802b5c578d242cd06e2d6b3e91907b6",
+    "projects/site/tests/publication-png.test.mjs": "f057ab89a3b5b80160cd85177e18383b251982bc8e1650dc533c9bac6f6052b8",
+    "projects/site/.astro/publication-png-optimization.json": "d758c9af07746f536320cb239c4c89b3d16562ead9e29171c7049410b89bc7f4"
+  },
+  "limits": [
+    "Hosted CI must rerun its own artifact size gate; no hosted deployment verification claimed",
+    "Earlier overlapping trial savings are excluded as invalid",
+    "Existing accepted editorial backlog unchanged",
+    "Exact scanline comparison is against Sharp candidate; original image fidelity independently established by decoded pixel and metadata equality"
+  ]
+}

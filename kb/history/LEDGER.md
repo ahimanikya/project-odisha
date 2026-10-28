@@ -1244,3 +1244,7 @@ The Founder requested full-width book images and consistent frames across previe
 ## 27 October 2026 · A historical moment behind the screen
 
 A source-labelled 1989 photograph of Pranab Das with Bijay Mohanty and Mihir Das now accompanies the overview’s account of production teams and the book companion. The original image and its source qualifications are retained, with concise public credits. Early-film and recording-session images remain research leads where reuse terms are unresolved. Local review only. [Evidence](../records/cinema-historical-images-2026-10-27.json).
+
+## 28 October 2026 · Reviewed cinema series published
+
+Published all 28 reviewed cinema readings and the two unchanged review book editions after the Founder’s explicit publication request. Required hosted checks passed, followed by successful deployment and live verification of 31 routes, 34 images and both PDF downloads. A lossless packaging correction preserved image pixels and metadata. Seven editorial audit findings remain open and one partial, as disclosed before publication. [Publication record](../records/cinema-publication-2026-10-28.json).
