@@ -1,0 +1,29 @@
+{
+  "baseline_local_bytes": 999720202,
+  "baseline_ci_bytes": 1000327242,
+  "ci_log": "tmp/cinema-ci-failure.log",
+  "publication_bytes": 997102605,
+  "headroom_bytes": 2897395,
+  "extra_saved_bytes": 2617597,
+  "png_saved_bytes": 19450505,
+  "eligible_png_files": 102,
+  "changed_png_files": 96,
+  "all_source_output_hashes_verified": true,
+  "safeguards": "Same IHDR and original non-IDAT bytes; exact inflated scanlines for additional DEFLATE step; final decoded RGBA equality; never enlarge; unchanged path allowlist",
+  "tests": {
+    "passed": 9,
+    "failed": 0,
+    "log": "/tmp/cinema-lossless-budget-tests.log"
+  },
+  "build_log": "/tmp/cinema-lossless-publication-build.log",
+  "disclosure_log": "/tmp/cinema-lossless-publication-disclosure.log",
+  "changed_files": [
+    "projects/site/tools/optimize-publication-png.mjs",
+    "projects/site/tests/publication-png.test.mjs"
+  ],
+  "trial_limit": "The preliminary 9,071,340-byte trial read dist-publish while publication was being rebuilt; it is not a valid baseline comparison. Final savings above use completed artifact totals only.",
+  "disclosure": {
+    "pages": 953,
+    "violations": 0
+  }
+}

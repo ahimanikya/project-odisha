@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "status": "local_review_passed_hosted_checks_pending",
+  "status": "lossless_budget_correction_passed_hosted_recheck_pending",
   "authorization": {
     "quote": "publish",
     "scope": "Publish reviewed local cinema series, author introduction, profile additions, reading/layout corrections and current book editions through the existing Project Odisha release path. No social posting."
@@ -54,17 +54,42 @@
     "edition_policy_tests": 11,
     "disclosure_violations": 0,
     "readings": 28,
-    "publication_bytes": 999720202,
+    "publication_bytes": 997102605,
     "publication_limit_bytes": 1000000000,
     "portable_KB_validator": "PASS, including unknown-route rejection",
     "notes": [
       "Five archived attribution snapshots retain original trailing blank lines; do not rewrite historical evidence.",
       "Seven open and one partial editorial findings remain as disclosed."
-    ]
+    ],
+    "png_safety_tests": 9,
+    "publication_headroom_bytes": 2897395
   },
   "evidence": [
     "records/evidence/cinema-release-2026-10-28/cinema-release-payload-review-2026-10-28.json",
     "records/evidence/cinema-release-2026-10-28/cinema-release-preparation-2026-10-28.json",
-    "records/evidence/cinema-release-2026-10-28/cinema-release-review-2026-10-28.json"
-  ]
+    "records/evidence/cinema-release-2026-10-28/cinema-release-review-2026-10-28.json",
+    "records/evidence/cinema-release-2026-10-28/cinema-lossless-budget-fix-2026-10-28.json"
+  ],
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/589",
+  "reviewed_head": "b0bffd8a8cf9f42216200acbe77de166a1bf661f",
+  "hosted_validation_attempts": [
+    {
+      "run": "https://github.com/ahimanikya/project-odisha/actions/runs/40616986650",
+      "result": "failed_publication_budget",
+      "bytes": 1000327242,
+      "limit_bytes": 1000000000,
+      "correction": "Stronger lossless image compression; retain decoded pixels, metadata, URLs and reviewed narratives."
+    }
+  ],
+  "book_release": {
+    "url": "https://github.com/ahimanikya/project-odisha/releases/tag/odia-cinema-book-2026-10-27",
+    "status": "uploaded_verified",
+    "digital_sha256": "7ae26c3c71eb6693937a285ad9f8c28280dbcf40144e6efc052d502b5b445f15",
+    "print_sha256": "9a4a544f1d771e2fe44b624a3e481bcbca8ac7ae2bae7542cfad0b2c439565b9",
+    "public_head_responses": [
+      200,
+      200
+    ],
+    "note": "GitHub asset SHA-256 and sizes match unchanged reviewed PDFs."
+  }
 }
