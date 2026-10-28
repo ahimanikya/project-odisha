@@ -1,13 +1,14 @@
 {
   "date": "2026-10-28",
   "result": "PASS",
-  "scope": "Narrow Poet Studio introduction correction",
-  "source_sha256": "8eebc81995749ad5948c7dde07fe31529184718748cf2b25a0a77f92c27c94c8",
-  "rendered_html_sha256": "eefdb139d257b003a889fac539b93e6f71ab530ca57458cceb2baa83c07547e4",
+  "scope": "Combined requested introduction wording: Poet Studio description and unfolding book/online article series",
+  "source_sha256": "887b1d7d23e77878defedaca596c43e4ee2178cd28c8ad1977404ce98395eca3",
+  "rendered_html_sha256": "11412ce64a0b7d2c7584d979f00781acfb8cab7d2748525ff67bd436aedc76fa",
   "checks": [
-    "Canonical exactly equals HEAD source with single requested phrase replaced; remaining prose/image markup unchanged",
-    "Built introduction contains new wording and no old phrase",
-    "Existing PDF hashes unchanged"
+    "Latest canonical equals HEAD plus only the exact user-requested unfolding-research sentence; previously reviewed Poet Studio correction retained",
+    "Site source hash matches canonical",
+    "Both exact requested wordings present in current built HTML; superseded phrases absent",
+    "Both PDF hashes independently rechecked unchanged"
   ],
   "pdf_hashes": {
     "odia-cinema-a-living-screen-2026-10-27.pdf": "7ae26c3c71eb6693937a285ad9f8c28280dbcf40144e6efc052d502b5b445f15",
