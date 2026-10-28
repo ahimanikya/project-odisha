@@ -3,15 +3,21 @@ import Shell from '../../layouts/Shell.astro';
 import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
 import {cinema,picture} from '../../lib/cinema-article.mjs';
 import '../../styles/article-reading.css';
-const lead=cinema.articles[0],hero=lead.images.find(i=>i.role==='title');
+const lead=cinema.articles.find(a=>a.slug==='odia-cinema'),hero=lead.images.find(i=>i.role==='title');
 ---
 <Shell title="Odia cinema: A Living Screen" description="Read the connected story of Odia cinema, its films, makers and shared voices. Explore the book and curated viewing room." active="explore" related={false} shareImage={{src:hero.file,alt:lead.hero.alt,width:hero.width,height:hero.height}}>
  <article class="article-reading cinema-hub">
   <p class="eyebrow">Films · People · Shared voices</p><h1>Odia Cinema:<br/>A Living Screen</h1>
   <p>Stories move between stages, books, recording rooms and screens. Follow {cinema.articles.length} readings through the films and people of Odia cinema, then explore the television and online worlds around them.</p>
+  <nav class="cinema-part-shortcuts" aria-label="Parts of the cinema collection"><ol>{cinema.parts.map(part=><li><a href={'#'+part.id}>{part.title}</a></li>)}</ol></nav>
   <figure><Fragment set:html={picture(hero,lead.hero.alt,true)}/><figcaption>{lead.hero.caption}</figcaption></figure>
-  <nav class="cinema-actions" aria-label="Explore cinema"><a href={lead.route}>Start reading →</a><a href="/cinema/watch/">Find something to watch →</a><a href="/cinema/book/">Read or print the book →</a></nav>
-  {cinema.parts.map(part=><ArticleReadingPath heading={part.title} links={part.chapters.map(slug=>{const entry=cinema.articles.find(a=>a.slug===slug);return {href:entry.route,title:entry.title,description:entry.series_intro,image:entry.images.find(i=>i.role==='title').file};})}/>)}
+  <nav class="cinema-actions" aria-label="Explore cinema"><a href={cinema.articles[0].route}>Start reading →</a><a href="/cinema/odia-cinema/#national-and-international-recognition">Awards and recognition →</a><a href="#new-search-for-stories">A New Search for Stories →</a><a href="/cinema/watch/">Find something to watch →</a><a href="/cinema/book/">Read or print the book →</a><a href="/cinema/reading-guide/">People and turning points →</a></nav>
+  {cinema.parts.map(part=><section id={part.id}><ArticleReadingPath uniformImages heading={part.title} intro={part.intro} links={part.chapters.map(slug=>{const entry=cinema.articles.find(a=>a.slug===slug);return {href:entry.route,title:entry.title,description:entry.series_intro,imagePosition:entry.card_image_position,image:entry.card_image||entry.images.find(i=>i.role==='title').file};})}/>{part.explore && <p><a href={part.explore.href}>{part.explore.label} →</a></p>}</section>)}
  </article>
 </Shell>
-<style>.cinema-hub{max-width:804px;padding-inline:32px}.cinema-hub :global(img){max-width:100%;height:auto}.cinema-actions{display:flex;gap:1rem;flex-wrap:wrap;padding-block:1rem}.cinema-actions a{padding:.5rem 0}.eyebrow{color:var(--earth)}@media(max-width:600px){.cinema-hub{padding-inline:22px}}</style>
+<style>.cinema-part-shortcuts ol{display:flex;flex-wrap:wrap;gap:.5rem 1.25rem;list-style:none;padding:0;margin-block:1.5rem}.cinema-part-shortcuts li{margin:0;padding:0}.cinema-part-shortcuts a{display:inline-block;min-height:44px;padding-block:.5rem;font-size:.95rem}.cinema-hub{max-width:804px;padding-inline:32px}.cinema-hub :global(img){max-width:100%;height:auto}.cinema-actions{display:flex;gap:1rem;flex-wrap:wrap;padding-block:1rem}.cinema-actions a{padding:.5rem 0}.eyebrow{color:var(--earth)}@media(max-width:600px){.cinema-hub{padding-inline:22px}}</style>
+
+<style>
+.cinema-hub>figure :global(picture){display:block;position:relative;width:100%;aspect-ratio:3/2;background:var(--paper)}
+.cinema-hub>figure :global(picture img){position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:contain;margin:0}
+</style>

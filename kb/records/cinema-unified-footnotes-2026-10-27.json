@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-27",
+  "status": "local_review_ready",
+  "request": "Remove separate Image credits sections throughout cinema series and books. Add each image credit as another number in the existing footnotes.",
+  "scope": "Shared presentation change across 28 cinema readings and both current digital/print review editions; preserve narratives and image assets.",
+  "workers": {
+    "Disha": "Coordinator and records",
+    "Anvesha": "Required-attribution inventory",
+    "Samanta": "Web/book implementation",
+    "Drishti": "Independent web/book QA"
+  },
+  "acceptance": [
+    "No separate visible Image credits heading, navigationentry or bookchapter.",
+    "Caption references contain numbers only and share article/chapter numbering with regularnotes.",
+    "Eachreference hasmatchingfootnote andreturn; no duplicatefootnotenumbers in samearticle/chapter.",
+    "Requiredcreator/source/license/alterationcredits retained.",
+    "Authorportraitname-onlyexception unchanged; covercredit in existingeditionnotes.",
+    "No unrelated narrative, imagery or audit-fix edits; no publication."
+  ],
+  "build_results": {
+    "readings": 28,
+    "migrated_image_credits": 13,
+    "credit_text_preserved": true,
+    "normal_book_notes": 262,
+    "book_citation_pairs": 380,
+    "source_paragraphs_preserved": 512,
+    "source_table_cells_preserved": 69,
+    "unexplained_missing": 0,
+    "editions": [
+      {
+        "edition": "digital",
+        "path": "output/pdf/odia-cinema-a-living-screen-2026-10-27.pdf",
+        "pages": 176,
+        "bytes": 12927649,
+        "sha256": "7ae26c3c71eb6693937a285ad9f8c28280dbcf40144e6efc052d502b5b445f15"
+      },
+      {
+        "edition": "print",
+        "path": "output/pdf/odia-cinema-a-living-screen-print-2026-10-27.pdf",
+        "pages": 196,
+        "bytes": 132370249,
+        "sha256": "9a4a544f1d771e2fe44b624a3e481bcbca8ac7ae2bae7542cfad0b2c439565b9"
+      }
+    ]
+  },
+  "preservation": {
+    "author_introduction_sha256": "1908976c67ce0e8a8b063b6bb67c6d2ef424f32c145a7403cee623e2e00d9f61",
+    "overview_sha256": "27782bacb295cd8eba0bb1e0057a6ba982e8bfc97c02cc9f7f2fad9cc19830ec",
+    "image_assets": "Unchanged",
+    "publication": false,
+    "human_approval_claimed": false
+  },
+  "review": {
+    "reviewer": "Drishti, separate AI agent",
+    "result": "PASS",
+    "report": "tmp/pdfs/cinema-unified-footnotes-review-2026-10-27.json",
+    "scope": "All 28 article structures; all 13 credit records in both books; Nirad desktop/mobile keyboard caption-note-return; targeted changed book pages and final PDF hashes.",
+    "limits": "Not a full book re-audit or PDF accessibility certification."
+  },
+  "checks": {
+    "focused_tests_passed": 27,
+    "disclosure_pages_checked": 965,
+    "disclosure_violations": 0,
+    "all_required_credit_records_unchanged": true,
+    "separate_image_credit_sections_removed": true,
+    "article_sources_and_image_assets_unchanged": true
+  },
+  "reserved_files_released": {
+    "Samanta": [
+      "projects/site/src/lib/cinema-article.mjs",
+      "projects/site/src/components/CinemaReading.astro",
+      "projects/site/tests/cinema-release.test.mjs",
+      "projects/site/tests-coast/cinema-image-sizing.test.mjs",
+      "output/pdf/build_book.py",
+      "tools/cinema-book/check_text_preservation.py",
+      "projects/site/src/data/cinema.json",
+      "output/pdf/current books and receipts",
+      "staged book copies"
+    ],
+    "Drishti": [
+      "tmp/pdfs/cinema-unified-footnotes-review-2026-10-27.json"
+    ]
+  },
+  "next": "Founder can review local preview and current books. Other audit findings remain separately tracked. No publication performed."
+}

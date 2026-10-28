@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 817. completed: 128, excluded: 388, queued: 301.
+Route inventory: 823. completed: 128, excluded: 389, queued: 306.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -831,3 +831,9 @@ Route inventory: 817. completed: 128, excluded: 388, queued: 301.
 | POD-EDIT-GOUR-GHOSE-20261026 | [Gour Prasad Ghose: from the stage to making films](https://projectodisha.org/people/gour-prasad-ghose/) | completed | Cinema literary-life research and future agenda published; live delivery verified |
 | POD-EDIT-814 | [Odisha’s Buddhist Triangle: three places, distinct histories](https://projectodisha.org/stories/buddhist-diamond-triangle/) | completed | new_researched_article |
 | POD-EDIT-COMMERCIAL-20261026 | [Odia Cinema’s Commercial Successes](https://projectodisha.org/cinema/commercial-successes/) | completed | new_researched_article |
+| POD-EDIT-DEEPENDRA-SAMAL-20261027 | [Deependra Samal: making room for a different film](https://projectodisha.org/people/deependra-samal/) | queued | New public cinema profile; source review passed, local integration awaiting final check |
+| POD-EDIT-VISHAL-MOURYA-20261027 | [Vishal Mourya: finding a filmmaking language together](https://projectodisha.org/people/vishal-mourya/) | queued | New public cinema profile; source review passed, local integration awaiting final check |
+| POD-EDIT-DEBI-PRASAD-LENKA-20261027 | [Debi Prasad Lenka: shaping the story, from script to edit](https://projectodisha.org/people/debi-prasad-lenka/) | queued | New public cinema profile; source review passed, local integration awaiting final check |
+| POD-EDIT-ANUPAM-PATNAIK-20261027 | [Anupam Patnaik: the work behind the waiting](https://projectodisha.org/people/anupam-patnaik/) | queued | Public profile reviewed locally; awaiting publication review |
+| POD-EDIT-CINEMA-AUTHOR-INTRODUCTION-20261027 | [The Question That Brought Me Here](https://projectodisha.org/cinema/the-question-that-brought-me-here/) | queued | Author-approved personal essay integrated and reviewed locally in series and bothbooks; queued for futurepublication. |
+| POD-EDIT-CINEMA-READING-GUIDE-20261028 | [Cinema reading guide](https://projectodisha.org/cinema/reading-guide/) | excluded | cinema collection navigation and reading utility |

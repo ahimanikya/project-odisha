@@ -16,6 +16,13 @@ with tempfile.TemporaryDirectory() as temp:
     shutil.copytree(root/'kb', kb)
     assert check_bundle.check(kb)['result'] == 'PASS'  # No config accompanies this export.
     assert check_bundle.check(kb, config)['result'] == 'PASS'
+    # Root-relative article links are public routes, not filesystem paths.
+    probe=kb/'public-route-probe.md'
+    probe.write_text('---\ntype: Test\n---\n[Cinema](/cinema/odia-cinema/)\n')
+    assert check_bundle.check(kb)['result']=='PASS'
+    probe.write_text('---\ntype: Test\n---\n[Unknown](/not-a-declared-public-route/)\n')
+    assert check_bundle.check(kb)['result']=='FAIL'
+    probe.unlink()
     for field, value in [('prefix', 'BAD'), ('artifact_kind', 'unexpected'), ('record_directory', '../outside')]:
         bad = copy.deepcopy(config)
         bad[field] = value

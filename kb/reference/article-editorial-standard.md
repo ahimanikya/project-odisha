@@ -77,3 +77,27 @@ The Founder reaffirmed this as a mandatory site-wide rule, including existing pa
 Use accurate image descriptions such as “illustration”, “imagined scene”, “adaptation” or “reconstruction” where needed to avoid mistaking artwork for documentary evidence. Preserve genuine creator credits, source links, licences, alteration descriptions, quotations, material uncertainty and internal provenance, prompts and review records. Do not imply a photograph, interview or human review occurred when it did not. Substantive discussion of AI as a topic and contribution-form provenance questions are not production boilerplate. Any exception for an exact quotation or legally required credit must be narrowly documented and reviewed; never add a broad page exemption. The empty-by-default `projects/site/tools/public-disclosure-exceptions.json` accepts only an exact route, a short exact excerpt and its review reason.
 
 Before publishing, run `node tools/check-public-disclosures.mjs dist` and the same check on `dist-coast` and `dist-publish` from `projects/site`. Both validation and publication workflows enforce this gate. It inspects generated HTML/TXT/MD and reader-facing attributes, including metadata, while excluding code and internal records. Review new PDF/EPUB, JSON exports and runtime-generated text separately; the text gate does not parse those formats. A clean scan establishes absence of the checked labels, not authorship or factual accuracy. Keep the central disclosure visible and accessible.
+
+
+## Proportionate cinema attribution · 27 October 2026
+
+Following the Founder’s removal of the verbose self-portrait credit from the author’s introduction, apply concise, reader-useful attribution throughout the cinema series and its book editions. Keep full evidence and provenance internally without repeating supply history, routine processing or review explanations in public prose.
+
+- A caption identifies the subject or explains why an image matters. For the Founder’s own supplied portrait, the name is sufficient; no separate self-credit section or credit link is needed.
+- Retain required creator, source, licence and alteration credits for third-party work, and credit distinctive quotations, translations and interpretations. Group these in compact footnotes or endnotes; do not repeat the same explanation in the caption and note.
+- Use one source note for a connected group of claims where the relationship is clear. Keep meaningful uncertainty and distinctions between photographs, illustrations and reconstructions; brevity must not obscure either.
+- Render a credit heading only when there is substantive credit content. No “Image 1”, “Photo 1” or “Article 1” labels in visible credit prose.
+- This is a presentation rule, not permission to remove attribution required by a creator or licence. It does not mark untouched articles as individually reviewed.
+
+
+## Numeric photograph references · 27 October 2026
+
+The Founder reaffirmed that visible photograph and illustration credit links in the cinema series and its books must be **superscript numbers only**. Do not display “Photo credit”, “Image credit”, “Photo 1” or “Image 1” beside an image. Give the linked credit entry the matching number and retain the actual creator, source, licence and required alteration information. Descriptive accessible names may accompany the visible digit. The Founder’s subsequent instruction removes the separate Image credits section throughout the cinema series and its current book editions. Append each required image attribution to the ordinary article/chapter source notes, using the same unique numeric sequence as prose references. Caption markers remain numbers only and return to the caption from the matching note. Do not create an image-only heading, contents entry or separate numbering system. Preserve creator, source, licence and required alteration details; the author’s own portrait remains name-only. Cover attribution may stay in the existing edition note.
+
+### Natural cinema article frames · 27 October 2026
+
+The Founder rejected large filler panels around cinema article photographs. On cinema reading pages, display the full image at its native aspect ratio. Centre portrait and square figures at a restrained width, avoid enlarging small source images, and align captions with the actual image edge. Landscape figures can span the reading column. Keep preview-card crops consistent; do not force the same landscape frame onto article portraits. This layout correction does not alter image assets or the current book editions.
+
+### Cinema catalogue maintenance notes · 27 October 2026
+
+Keep routine catalogue/link-check dates and inspection narration in research records, rather than interrupting article reading. Preserve source dates and any date necessary to understand a time-sensitive claim. Retain concise availability or access qualifications where they help a reader, and distinguish catalogue entries, trailers and full-film listings.

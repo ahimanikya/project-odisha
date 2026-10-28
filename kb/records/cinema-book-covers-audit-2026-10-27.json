@@ -1,0 +1,87 @@
+{
+  "status": "local_review_ready",
+  "scope": "Local series audit, book synchronization and new front/back covers",
+  "current_article": "cinema-book",
+  "title": "Odia Cinema: A Living Screen",
+  "subtitle": "Stories, People and the Places Between",
+  "workers": {
+    "Anvesha": "Read-only content and back-cover mission audit",
+    "Samanta": "Book-pipeline recovery investigation",
+    "Drishti": "Independent link/content/cover quality review",
+    "Disha": "Coverart, copy integration, PDF and sharedrecords"
+  },
+  "reserved_files": [
+    "output/pdf/",
+    "tools/cinema-book/",
+    "kb/research/media/cinema-book/",
+    "projects/site/src/pages/cinema/book.astro",
+    "projects/site/src/data/cinema.json"
+  ],
+  "publication": false,
+  "human_approval_claimed": false,
+  "changes": [
+    "Book synchronized from14 old chapters to27 current readings in5 parts",
+    "Repeated DAMaN interview material condensed in Deependra Samal and Vishal Mourya profiles, keeping canonical film chapter and correct source hashes",
+    "Recovered book builder with Source Serif4 English and shaped Noto Serif Oriya",
+    "Fixed mixed-font punctuation and nested emphasis rendering",
+    "Printed wide tables as readable per-film labelled panels preserving all values and qualifications",
+    "Created symbolic household cover inspired by Maya Miriga, not a film still",
+    "Added previously user-supplied intact watercolor author portrait",
+    "Front restores original centred170pt colour Project Odisha logo at latest user request",
+    "Back balances shorter author profile/portrait with concise Project Odisha introduction and website, without a logo"
+  ],
+  "verification_so_far": {
+    "site_build": "passed",
+    "focused_site_tests": 19,
+    "rendered_disclosure_pages": 963,
+    "rendered_disclosure_violations": 0,
+    "cover_visual_root": "passed",
+    "book_independent_review": "passed after Manmohan orphan heading correction",
+    "review": {
+      "status": "passed_local_independent_review",
+      "reviewers": [
+        "Disha",
+        "Drishti (separate AI quality agent)"
+      ],
+      "human_approval_claimed": false,
+      "checks": [
+        "Final cover and author portrait visually inspected",
+        "All page contact sheets reviewed, affected chapters rechecked after pagination repair",
+        "Odia quotations, financial panels and source URLs reviewed at reading size",
+        "All27 canonical chapter hashes match",
+        "226notes and312citation pairs retained",
+        "No missing image, clipped text or invalid internal destination found"
+      ]
+    }
+  },
+  "limitations": [
+    "Printable trim-size review edition, not printer-specific press-ready cover",
+    "Cover art170.67ppi at6x9; vector typography and logo",
+    "ISBN, printer spine/bleed and colour specifications not assigned",
+    "Previously published PDFs and their delivery receipts preserved"
+  ],
+  "deliverables": [
+    {
+      "path": "output/pdf/odia-cinema-covers-2026-10-27.pdf",
+      "bytes": 5008013,
+      "sha256": "720754a4e45a7d89602c5ad5f26ea9d255f95a95d3ce227601336a69d0891cb9"
+    },
+    {
+      "path": "output/pdf/odia-cinema-a-living-screen-2026-10-27.pdf",
+      "bytes": 17690183,
+      "sha256": "0f7040a0452896229d9346f692c435ea71ee551c2db94d7871859bfed90749a9"
+    },
+    {
+      "path": "output/pdf/odia-cinema-a-living-screen-print-2026-10-27.pdf",
+      "bytes": 136063382,
+      "sha256": "213afa0d25d00c2258dd24aea2515154602b998fc6363f8bfea795f710bd47ed"
+    }
+  ],
+  "next_actions": [
+    "Discuss narrative/design audit recommendations before editorial rewrite: output/pdf/cinema-story-and-design-audit-2026-10-27.md",
+    "Founder review of current cover design and27-reading book",
+    "Printer-specific specification and higher-resolution cover preparation when physical printing is commissioned",
+    "Release publication only in a separate authorized delivery; preserve earlier release receipts"
+  ],
+  "worker_scopes_released": true
+}

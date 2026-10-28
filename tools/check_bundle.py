@@ -9,11 +9,17 @@ try:
     from .registers import project_prefixes, matching_project_prefixes, load_id_aliases
 except ImportError:  # Direct script execution, including --kb exports.
     from registers import project_prefixes, matching_project_prefixes, load_id_aliases
-ARCHIVES=('references/pre-repair/','history/evidence/initial-capture/','records/evidence/research-import/')
+ARCHIVES=('references/pre-repair/','history/evidence/initial-capture/','records/evidence/research-import/','records/evidence/cinema-attribution-2026-10-27/')
 def check(kb, config=None):
     kb=kb.resolve(); errors=[]; links=concepts=0
+    # Website-relative links in articles are validated against the declared publication scope.
+    website_scope=kb.parent/'projects/site/editions/coast.json'
+    route_record=kb/'reference/public-website-routes.json'
+    public_routes=set(json.loads(route_record.read_text()).get('routes',[])) if route_record.is_file() else set()
     def need(ok,message):
         if not ok:errors.append(message)
+    if website_scope.is_file():
+        need(public_routes==set(json.loads(website_scope.read_text()).get('routes',[])), 'Portable public website route inventory is stale')
     need(not (kb/'project.json').exists() and not (kb/'utkal.config.json').exists(), 'Runtime configuration belongs at repository root, outside kb/')
     template=(kb/'team/people.json').is_file()
     instance=(kb/'team/assignments.json').is_file()
@@ -47,6 +53,10 @@ def check(kb, config=None):
         for value in re.findall(r'\[[^\]]*\]\(([^)]+)\)',raw):
             value=value.strip('<>');parts=urlsplit(value)
             if parts.scheme or value.startswith('#'):continue
+            if parts.path.startswith('/') and not parts.netloc:
+                links+=1
+                need(parts.path in public_routes,f'{rel}: unknown public website route: {value}')
+                continue
             target=(p.parent/unquote(parts.path)).resolve();links+=1
             need(target.is_relative_to(kb),f'{rel}: internal link escapes bundle: {value}')
             need(target.exists(),f'{rel}: missing link: {value}')

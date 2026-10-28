@@ -5,7 +5,7 @@ test('reading and travel breadcrumbs point to the right collection without self-
  for(const [path,parent] of [['/crafts/pattachitra/','/crafts/'],['/textiles/khandua/','/textiles/'],['/knowledge/kotpad/','/textiles/'],['/people/subhas-chandra-bose/','/destinations/cuttack/'],['/languages/kui/','/languages/'],['/people/bhima-bhoi/','/literature/'],['/food/chhena-poda/','/food/'],['/knowledge/chilika/','/destinations/']]){
   const trail=pageContext(path,'Title');assert.equal(trail[1].href,parent);assert.equal(trail.at(-1).current,true);assert.equal(trail.filter(i=>i.href===path).length,1);
  }
- for(const slug of ['nirad-mohapatra','sabyasachi-mohapatra','ak-bir','gour-prasad-ghose']){
+ for(const slug of ['nirad-mohapatra','sabyasachi-mohapatra','ak-bir','gour-prasad-ghose','anupam-patnaik']){
   const trail=pageContext(`/people/${slug}/`,'Filmmaker');
   assert.deepEqual(trail[1],{href:'/cinema/',label:'Odia cinema'});
   assert.equal(trail.at(-1).current,true);

@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-28",
+  "status": "local_review_passed_hosted_checks_pending",
+  "authorization": {
+    "quote": "publish",
+    "scope": "Publish reviewed local cinema series, author introduction, profile additions, reading/layout corrections and current book editions through the existing Project Odisha release path. No social posting."
+  },
+  "destination": "https://projectodisha.org",
+  "repository": "ahimanikya/project-odisha",
+  "scope": "Current reviewed 28-reading cinema candidate and supporting site/KB assets. Exclude temporary outputs, unrelated work, private material and oversized PDF binaries from Git; deliver reviewed PDFs as release assets.",
+  "workers": {
+    "Disha": "Release coordination, records, Git/PR/merge/deployment",
+    "Anvesha": "Read-only source payload and provenance audit",
+    "Samanta": "Build/deployment preparation and required integration fixes",
+    "Drishti": "Independent final candidate validation"
+  },
+  "reserved_files": {
+    "Samanta": [
+      "projects/site/src/data/cinema.json review_books delivery only",
+      "projects/site/editions/coast.json cinema downloads only",
+      "projects/site/src/pages/cinema/book.astro release URL integration if required",
+      "scoped failing checks with coordinator approval"
+    ],
+    "Anvesha": [
+      "tmp/cinema-release-payload-review-2026-10-28.json"
+    ],
+    "Drishti": [
+      "tmp/cinema-release-review-2026-10-28.json"
+    ]
+  },
+  "open_audit": {
+    "resolved": [
+      "CIN-AUD-04",
+      "CIN-AUD-08"
+    ],
+    "partial": [
+      "CIN-AUD-10"
+    ],
+    "open": [
+      "CIN-AUD-01",
+      "CIN-AUD-02",
+      "CIN-AUD-03",
+      "CIN-AUD-05",
+      "CIN-AUD-06",
+      "CIN-AUD-07",
+      "CIN-AUD-09"
+    ],
+    "note": "User explicitly requested publication after being told these remain; do not claim they are fixed or introduce unreviewed editorial revisions."
+  },
+  "published": false,
+  "validation": {
+    "full_site_tests": 628,
+    "coastal_tests": 523,
+    "edition_policy_tests": 11,
+    "disclosure_violations": 0,
+    "readings": 28,
+    "publication_bytes": 999720202,
+    "publication_limit_bytes": 1000000000,
+    "portable_KB_validator": "PASS, including unknown-route rejection",
+    "notes": [
+      "Five archived attribution snapshots retain original trailing blank lines; do not rewrite historical evidence.",
+      "Seven open and one partial editorial findings remain as disclosed."
+    ]
+  },
+  "evidence": [
+    "records/evidence/cinema-release-2026-10-28/cinema-release-payload-review-2026-10-28.json",
+    "records/evidence/cinema-release-2026-10-28/cinema-release-preparation-2026-10-28.json",
+    "records/evidence/cinema-release-2026-10-28/cinema-release-review-2026-10-28.json"
+  ]
+}

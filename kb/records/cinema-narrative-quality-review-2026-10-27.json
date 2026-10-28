@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-27",
+  "reviewer": "Drishti",
+  "status": "PASS-editorial-sampled-website-and-final-reading-editions",
+  "human_approval_claimed": false,
+  "checks": [
+    "Independently reopened FHF director note and Planet Bollywood location interview; new creator accounts match attributed sources, without invented rehearsal or dialogue.",
+    "Final shared Planet source repetition trimmed in Vishal, Debi and people guide; source-specific derivation within approximately200-word allowance.",
+    "Overview preservation SHA matches and every original narrative section retained verbatim in plan opening or companion.",
+    "Six callback targets each occur once, all cited note IDs exist in target articles.",
+    "Narrative bridges preserve thematic rather than invented causal connections; loan and award-year qualifications retained.",
+    "Sixteen focused cinema-release tests passed during independent execution before final presentational tweaks.",
+    "Sampled generated image-credit notes retain creator/source/licence and return anchors; documentary hero URLs require HTTPS and visible strings are escaped."
+  ],
+  "pending": [],
+  "limits": [
+    "No human approval, film viewing, playback or publication claimed.",
+    "This record does not yet approve an uninspected rebuilt PDF."
+  ],
+  "hashes": {
+    "kb/research/culture/cinema-series/book-narrative-2026-10-27.json": "a08e5ee08c4812f6971246a7d761a352ccc8bd308dfba403c0be28fe03478f31",
+    "kb/records/cinema-creator-experiences-2026-10-27.json": "b774801264902e64897893cabd97d9f4012d15095038754c11ff34ce0fcfa928",
+    "kb/research/culture/cinema-series/maya-miriga.md": "27c3fb75c535ef47feaa3cb22590921cf5c4a5b789b263e41cf798f9c65f7033",
+    "kb/research/people/vishal-mourya.md": "d36ce9427a2adfd57e46776014b6135dac7a508f6b0680e06acfa0c73921cd9f",
+    "kb/research/people/debi-prasad-lenka.md": "0c8201b0a7c07e5d8ad82d0aea852a5a0b4b06cd206496ff6ce1b4dd030e1d60",
+    "projects/site/src/lib/cinema-article.mjs": "152316a79253c974f8a1cf3d0fdbbf55809d9f049d5815f56db5b0eeefd04922"
+  },
+  "website_review": {
+    "method": "Authorized user-provided local development preview via Chrome CUA, separate review tab",
+    "viewport": "Desktop1114px plus isolated390×844 phone-width override, restored after checks",
+    "pages": [
+      "/cinema/reading-guide/",
+      "/people/vishal-mourya/#user-content-fn-award",
+      "/cinema/air-cuttack/",
+      "/cinema/air-cuttack/#image-credit-1",
+      "/cinema/",
+      "/cinema/book/"
+    ],
+    "result": "PASS",
+    "checks": [
+      "Guide source-note click landed on correct highlighted award note.",
+      "AIR callback readable with intact citation; Photo credit click exposes creator, source and CC BY-SA3 licence.",
+      "Part heading has no ordinal; Suggest an update is visibly separated.",
+      "Book page labels expanded27-reading review edition separately from published14-chapter PDFs, with current cover.",
+      "No clipping or horizontal overflow observed in sampled desktop pages.",
+      "Phone-width screenshots of book, AIR photograph/callback and reading guide are readable; document width390 equals viewport390 in each."
+    ],
+    "limits": [
+      "Sampled browser coverage, not every article at every breakpoint.",
+      "No playback, external downloads or publication performed."
+    ]
+  },
+  "pdf_intermediate_review": {
+    "sha256": "a8608331e68ab90bf86c0f64ed37a1463846f722cd21d905b2473530a52da867",
+    "pages": 159,
+    "status": "superseded-pending-pagination-repair",
+    "visual_coverage": "All14 digital contact sheets, covering159pages; fullsize pages8,12,134,157",
+    "findings": [
+      {
+        "severity": "blocking-layout",
+        "page": 102,
+        "issue": "Two-line paragraph tail occupies entire intervening leaf before economics callback/heading on103. Implementer confirmed nested KeepTogether root cause and is repairing."
+      }
+    ],
+    "passed": [
+      "Odia Rebati excerpt, English rendering label, citation punctuation and body typography legible at fullsize.",
+      "AIR callback text and source marker legible, no clipping.",
+      "People-guide relationships and linked source markers readable.",
+      "Image credit endnotes retain creator/source/licence/crop details; no uncovered credit omission identified.",
+      "Earlier Aadim/Lavanya/AKBir heading-orphan issues appear resolved."
+    ],
+    "limits": [
+      "Final print and repaired digital hashes not yet approved.",
+      "Some ordinary sparse chapter-ending/Watch pages remain; no optional repagination requested."
+    ]
+  },
+  "final_pdf_review": {
+    "status": "PASS",
+    "reviewer": "Drishti",
+    "blockers": [],
+    "digital": {
+      "pages": 155,
+      "sha256": "a408fae299800ebe88d0571465e015f4892793e2fd6bcf2720f55d028614cad1",
+      "visual_coverage": "Final contact sheets 01 and 04–13 inspected; unchanged pages 13–36 retained from preceding complete contact review. Final economics page 100 inspected full size."
+    },
+    "print": {
+      "pages": 172,
+      "sha256": "19d931889af452259241706293e9d850665d3cd2d135f9964780d392337ac7d7",
+      "visual_coverage": "All 15 final contact sheets inspected; final pages 9, 103 and 166 inspected full size for Odia quotation, repaired loan aside and printed URL directory."
+    },
+    "checks": [
+      "Independently recomputed both final PDF SHA256 values and matched structural receipts.",
+      "Previously reported nested-group premature break is resolved: economics continuation, loan aside, heading and substantive body share digital page 100 / print page 103.",
+      "Contact review found no remaining clipped text, detached heading or broken image. Ordinary short complete chapter endings are retained.",
+      "Odia quotation glyphs, explicit English-rendering label, running heads, mirrored print footer placement and percent-encoded printed URL wrapping are readable in selected full-size pages.",
+      "Reviewed structural receipts report 27 chapters, 227 notes, 335 citation pairs and 32 content image placements in each edition, with zero errors.",
+      "Text preservation receipts report 465 substantial blocks and no unexplained missing content or image credits; two documentary caption substitutions are explicitly accounted for.",
+      "Five major bridges are rendered; 21 unused plan bridge options are intentionally retained as non-rendered editorial options."
+    ],
+    "limits": [
+      "Visual contact review covers layout; selected full-size review is not a line-by-line proofread of every page.",
+      "Structural and text-preservation suites were executed by the implementer; reviewer independently checked their current hash bindings and results.",
+      "Print receipt reports minimum 300 dpi content images; cover art is 170.67 dpi with vector text. These are reading/print-proof editions, not certified press-ready files.",
+      "No physical print proof, printer-specific bleed/spine/CMYK verification, external-link playback test or human approval is claimed."
+    ]
+  }
+}

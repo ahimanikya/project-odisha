@@ -8,7 +8,7 @@ research_date: "2026-10-26"
 human_review_claimed: false
 sources: [{"id": "lavanya-preeti-1", "resource": "https://www.nfdcindia.com/catalogue/NFDC%20-%20Children%27s%20Films%20Catalogue%202024.pdf"}, {"id": "lavanya-preeti-2", "resource": "https://nfaindia.org/images/pdf/41st%20National%20Film%20Award%20Catalogue.pdf"}]
 series_intro: "A. K. Bir’s children’s film connects adolescent feeling with the inherited story of Kedar and Gouri."
-hero_image: "../../media/cinema-series/parbati-ghose-title.png"
+hero_image: "../../media/cinema-series/distinct-2026-10-27/lavanya-preeti.png"
 ---
 
 # ଲାବଣ୍ୟ ପ୍ରୀତି (Lavanya Preeti): growing up with a story
@@ -23,19 +23,19 @@ The film, also catalogued as **Loving Hearts**, is a 1993 Odia live-action featu
 
 The National Film Awards catalogue connects the Kedar–Gouri story with jatra and describes the contemporary classmates **Gopal, Vidyulata and Mayadhar** living under its imaginative influence.[^film] This offers a specific link between performance traditions and cinema. An older story can become part of how a young person understands a new friendship or separation.
 
-That relationship is worth exploring without treating a legend as historical biography. It also leaves room to ask how a familiar tale changes when a filmmaker places it beside another generation’s experience. What do young characters recognise in it, and where might their own lives depart from its ending?
+The inherited tale and the classmates’ experience give the film two connected levels of storytelling. What do young characters recognise in it, and where might their own lives depart from its ending?
 
 ## The people making the film
 
 The catalogue credits Bir with script, direction and cinematography; **Dilip Panda** with editing; **Manoj Sikka** with sound; and **Bhavdeep Jaipurwalle** with music. It lists **Tara Shankar Misra** as a child artist.[^film]
 
-These credits help us see children’s cinema as filmmaking with its own demands. A young character’s pause, a sound or the timing of an edit can carry meaning that dialogue alone cannot. They are also reminders that the director’s name stands beside the work of performers and technicians.
+The shared work supports a story that moves between the classmates and the tale shaping their imagination. Bir’s three roles sit alongside the distinct contributions of editing, sound, music and child performance.
 
 ## Recognition for children’s cinema
 
 *Lavanya Preeti* received **Best Children’s Film of 1993** at the 41st National Film Awards.[^film]
 
-That places childhood and growing up within the nationally recognised history of Odia cinema. It does not prescribe a response for every young viewer. A shared viewing can leave room for different understandings of the characters, their choices and the inherited story surrounding them.
+The classmates encounter Kedar and Gouri through an inherited tale; young viewers encounter the classmates through a film. Between those two acts of watching, a story acquires another life. What will the next listener recognise in it?
 
 ## Find the film in the catalogue
 

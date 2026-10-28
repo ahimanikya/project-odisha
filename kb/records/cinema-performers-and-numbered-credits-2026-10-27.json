@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-27",
+  "status": "local_review_ready",
+  "request": "Strengthen actors, comedians and musicians in the narrative; research significant contributors and actor list; visible image credit links must be numbers only.",
+  "active_article": null,
+  "workers": {
+    "Disha": "Coordinator, music research and shared records",
+    "Anvesha": "Actor/comedian career evidence",
+    "Samanta": "Numeric credit correction and sequential integration",
+    "Drishti": "Independent source and visual QA"
+  },
+  "reserved_files": {},
+  "constraints": [
+    "No visible Photo credit or Image credit labels: numeric markers only, with accessible names and complete credit notes.",
+    "No unsupported numeric ranking of contribution; counts must specify scope and source date.",
+    "Keep one public article active at a time; no publication.",
+    "Preserve current user-edited introduction and historical photo."
+  ],
+  "evidence": [
+    "kb/research/culture/cinema-series/performer-contributions-evidence-2026-10-27.json",
+    "kb/research/culture/cinema-series/music-contributions-evidence-2026-10-27.json",
+    "kb/research/culture/cinema-series/performer-contributions-supplement-2026-10-27.json"
+  ],
+  "decisions": [
+    "Two complementary views: editorial contribution selection and dated reported film totals; no combined score or incompatible ordinal ranking.",
+    "First three receive named anchored profile sections in overview. Standalone image-led pages need unique usable portraits; no repeated or rights-unclear stock images.",
+    "Nari remains the historically reported screen name in public text; provisional full-name corroboration stays in KB.",
+    "Retain award recipient, language and film-count scope distinctions."
+  ],
+  "remaining_profile_work": [
+    {
+      "name": "Bijay Mohanty",
+      "status": "researched_profile_candidate",
+      "next": "Verify a distinct reusable portrait and expand a standalone page in its own review cycle."
+    },
+    {
+      "name": "Uttam Mohanty",
+      "status": "researched_profile_candidate",
+      "next": "Verify a distinct reusable portrait and expand a standalone page in its own review cycle."
+    },
+    {
+      "name": "Aparajita Mohanty",
+      "status": "researched_profile_candidate",
+      "next": "Verify a distinct reusable portrait and expand a standalone page in its own review cycle."
+    }
+  ],
+  "web_credit_fix": {
+    "status": "implemented_local",
+    "visible_marker": "superscript digit",
+    "notes": "matching numbered entries retaining full credit",
+    "tests": "26 focused tests passed, site542pages built; independent keyboard roundtrip passed"
+  },
+  "changes": [
+    "Named anchored profiles for Bijay Mohanty, Uttam Mohanty and Aparajita Mohanty in overview.",
+    "Five contribution rows cover Mahasweta Ray, Mihir Das, Jayiram Samal, Shyamalendu and Nari, and Anita Das.",
+    "Nine dated reported-count rows with incompatible scopes kept explicit and no ordinal ranking.",
+    "Music collaborators and attributed recollections now link singers, lyricists and composers to the language/livelihood narrative.",
+    "Book opening includes a short contributor bridge and internal companion-survey link.",
+    "Website captions and both book editions use numeric image-credit references; complete credits retained."
+  ],
+  "source_sha256": "27782bacb295cd8eba0bb1e0057a6ba982e8bfc97c02cc9f7f2fad9cc19830ec",
+  "preserved": {
+    "author_introduction_sha256": "1908976c67ce0e8a8b063b6bb67c6d2ef424f32c145a7403cee623e2e00d9f61",
+    "images": 34,
+    "original_images_modified": false
+  },
+  "books": [
+    {
+      "edition": "digital",
+      "path": "output/pdf/odia-cinema-a-living-screen-2026-10-27.pdf",
+      "pages": 176,
+      "sha256": "f34384e0f0d0cdbf3d3a2430f39a2186c4b12e1bfc3420c85a76b5cdf46b6430"
+    },
+    {
+      "edition": "print",
+      "path": "output/pdf/odia-cinema-a-living-screen-print-2026-10-27.pdf",
+      "pages": 196,
+      "sha256": "4c44658a9ee6aad1f5222b4213a412110b570a4b5dcb3a0a5bab3e11506ddcc3"
+    }
+  ],
+  "review": {
+    "report": "tmp/pdfs/performers-numbered-credits-review.json",
+    "status": "source_web_and_targeted_pdf_review_pass",
+    "human_review_claimed": false,
+    "limits": [
+      "Independent AI review, not human approval.",
+      "Targeted changed-page review, not a new full-book accessibility certification.",
+      "Reported counts remain dated estimates, not an audited exhaustive filmography."
+    ]
+  },
+  "publication": {
+    "performed": false,
+    "status": "local_review_only"
+  },
+  "validation": {
+    "focused_tests": "27/27 passed",
+    "site_build_pages": 542,
+    "disclosure_files": 965,
+    "disclosure_violations": 0,
+    "chapters": 28,
+    "figures": 34,
+    "notes": 249,
+    "citation_pairs": 367,
+    "preserved_paragraphs": 512,
+    "preserved_table_cells": 69,
+    "unexplained_omissions": 0,
+    "source_hashes_current": "28/28",
+    "digital_companion_target": 126,
+    "print_companion_target": 130
+  }
+}

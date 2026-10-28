@@ -2,7 +2,7 @@ import {readFileSync,readdirSync,existsSync} from 'node:fs';
 import {resolve,relative,join} from 'node:path';
 import {pathToFileURL} from 'node:url';
 // Match production labels, not factual discussion of AI or provenance intake questions.
-const labels=/\bAI\s+(?:assistants?|researchers?)\b|\bAI[\s\u2010-\u2015-]+(?:generated|created|assisted|assistance|adaptation)\b|\b(?:prepared|drafted|written|created|generated|produced|developed|researched|designed|translated)\s+(?:with|by|using)\s+(?:an?\s+)?(?:AI|artificial intelligence)\b/gi;
+const labels=/\bwithout\s+AI\s+modification\b|\bAI\s+(?:assistants?|researchers?)\b|\bAI[\s\u2010-\u2015-]+(?:generated|created|assisted|assistance|adaptation)\b|\b(?:prepared|drafted|written|created|generated|produced|developed|researched|designed|translated)\s+(?:with|by|using)\s+(?:an?\s+)?(?:AI|artificial intelligence)\b/gi;
 export function productionLabels(html){
  const publicMarkup=html.replace(/<!--[\s\S]*?-->/g,'').replace(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>/gi,'');
  const normalized=publicMarkup.replace(/&(?:nbsp|#160|#xA0);/gi,' ').replace(/&#(?:45|8208|8209);/g,'-');

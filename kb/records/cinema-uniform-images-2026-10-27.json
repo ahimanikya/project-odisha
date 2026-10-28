@@ -1,0 +1,28 @@
+{
+  "status": "reviewed_local_preview",
+  "request": "Unify cinema preview image sizes",
+  "scope": "23 cinema collection previews and cinema Further reading cards",
+  "implementation": "Opt-in 3:2 cover frames with per-image focal positions; complete photographs retained on article pages. No original asset edits.",
+  "workers": {
+    "Anvesha": "Read-only layout diagnosis",
+    "Samanta": "Scoped components and hub implementation",
+    "Drishti": "Independent review PASS, focused tests11/11",
+    "Disha": "Metadata, integration and browser checks"
+  },
+  "focal_positions": {
+    "sadhu-meher": "50% 25%",
+    "nirad-mohapatra": "50% 0%",
+    "sabyasachi-mohapatra": "50% 20%",
+    "ak-bir": "0% 50%",
+    "nandita-das": "50% 8%"
+  },
+  "validation": {
+    "desktop_browser": "All23 hub previews measured180x120, object-fit cover; portraits inspected visually",
+    "responsive": "Source-reviewed 320px maximum hub frames and88px compact frames below600px; mobile browser not measured",
+    "build": "PASS:536pages",
+    "article_browser": "Nirad Further reading:3previews120x80 cover; full portrait600px contain",
+    "screenshot": "outputs/cinema-uniform-images-review/uniform-previews.png"
+  },
+  "publication": "Not published",
+  "human_review_claimed": false
+}

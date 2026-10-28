@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-27",
+  "status": "completed_audit_only",
+  "scope": "Read-only UX audit of current cinema reading experience and final book proofs",
+  "workers": {
+    "Anvesha": "Editorial reader journey",
+    "Samanta": "Read-only technical UX source review",
+    "Drishti": "Independent browser journey desktop/mobile",
+    "Disha": "Book reading UX and integrated prioritized report"
+  },
+  "report": "output/pdf/cinema-reading-ux-audit-2026-10-27.md",
+  "mutations": "Only audit reports and receipt; no article/site/PDF changes",
+  "publication": false,
+  "human_testing_claimed": false,
+  "coverage": {
+    "reading_routes": 27,
+    "broken_same_page_fragments": 0,
+    "web_footnote_references": 323,
+    "web_tables": 2,
+    "browser": "Desktop and 390 CSS-pixel width sampled journeys; keyboard contents and focus",
+    "pdf": "Both metadata inspected; literature and source-note page images sampled"
+  },
+  "findings": [
+    {
+      "id": "UX01",
+      "priority": "high",
+      "kind": "observed friction",
+      "finding": "Onward navigation comes after extensive notes and related readings",
+      "suggestion": "Continue link at narrative end"
+    },
+    {
+      "id": "UX02",
+      "priority": "high",
+      "kind": "editorial recommendation",
+      "finding": "Start route begins with substantial full overview",
+      "suggestion": "Offer short overture while preserving full history"
+    },
+    {
+      "id": "UX03",
+      "priority": "high",
+      "kind": "structural accessibility gap",
+      "finding": "PDFs lack semantic structure/language and sampled Odia quotations lack language markup",
+      "suggestion": "Real tagged-PDF remediation and language markup with assistive-technology validation"
+    },
+    {
+      "id": "UX04",
+      "priority": "medium",
+      "kind": "observed friction",
+      "finding": "Five parts lack complete top shortcuts",
+      "suggestion": "Compact descriptive part links"
+    },
+    {
+      "id": "UX05",
+      "priority": "medium",
+      "kind": "observed friction",
+      "finding": "Long smooth footnote travel and small inline targets",
+      "suggestion": "Instant citation travel and clearer return/context; no WCAG failure asserted"
+    },
+    {
+      "id": "UX06",
+      "priority": "medium",
+      "kind": "expectation gap",
+      "finding": "Current review presentation and older public download edition require reconciliation",
+      "suggestion": "Prominent edition/date/pages/size selector; no publication in this task"
+    },
+    {
+      "id": "UX07",
+      "priority": "medium",
+      "kind": "editorial recommendation",
+      "finding": "Repeated award credentials, availability notes and endings",
+      "suggestion": "Tighten while retaining standalone accuracy"
+    },
+    {
+      "id": "UX08",
+      "priority": "low",
+      "kind": "editorial design option",
+      "finding": "Repeated framing before article identity",
+      "suggestion": "Earlier title and compact part label"
+    }
+  ],
+  "limitations": [
+    "No screen-reader or disabled-user testing",
+    "No exhaustive cross-browser or high-zoom testing",
+    "No physical print proof",
+    "No playback or network-performance measurement",
+    "Narrow-screen comparison-table usability remains to be checked"
+  ],
+  "pdfs": [
+    {
+      "path": "output/pdf/odia-cinema-a-living-screen-2026-10-27.pdf",
+      "pages": 155,
+      "bytes": 12614055,
+      "sha256": "a408fae299800ebe88d0571465e015f4892793e2fd6bcf2720f55d028614cad1"
+    },
+    {
+      "path": "output/pdf/odia-cinema-a-living-screen-print-2026-10-27.pdf",
+      "pages": 172,
+      "bytes": 130989218,
+      "sha256": "19d931889af452259241706293e9d850665d3cd2d135f9964780d392337ac7d7"
+    }
+  ],
+  "next_action": "Discuss prioritized findings before implementation"
+}

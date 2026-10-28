@@ -43,3 +43,10 @@ test('character download allowlist rejects traversal and missing files',()=>fixt
  put('index.html',html());config.downloads=['/characters/assets/../private.txt'];assert.match(execute().stderr,/Invalid edition configuration/);
  config.downloads=['/characters/assets/missing.png'];assert.match(execute().stderr,/Missing asset/);
 }));
+
+test('cinema full-image links require an explicit JPEG declaration and reject other assets',()=>fixture(({dir,config,execute,put})=>{
+ put('index.html',html('<a href="/assets/cinema/portrait-1200w.jpg">Complete image</a>'));put('assets/cinema/portrait-1200w.jpg','reviewed image');put('assets/cinema/unused.jpg','held');
+ assert.match(execute().stderr,/Link outside scope/);
+ config.downloads=['/assets/cinema/portrait-1200w.jpg'];assert.equal(execute().status,0);assert.ok(existsSync(join(dir,'dist-coast/assets/cinema/portrait-1200w.jpg')));assert.ok(!existsSync(join(dir,'dist-coast/assets/cinema/unused.jpg')));
+ for(const invalid of ['/assets/cinema/private.pdf','/assets/cinema/../private.jpg','/assets/elsewhere/portrait.jpg']){put('index.html',html());config.downloads=[invalid];assert.match(execute().stderr,/Invalid edition configuration/);}
+}));

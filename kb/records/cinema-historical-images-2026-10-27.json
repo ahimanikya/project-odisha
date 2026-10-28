@@ -1,0 +1,143 @@
+{
+  "date": "2026-10-27",
+  "status": "local_review_ready",
+  "request": "Consistent imagery and historical images connected to the cinema stories",
+  "active_article": "odia-cinema",
+  "scope": "First bounded archival addition to overview, website and current books; research next candidates for the series. No publication.",
+  "workers": {
+    "Disha": "Coordinator and shared records",
+    "Anvesha": "Research and provenance",
+    "Samanta": "Approved media integration and books",
+    "Drishti": "Independent evidence and visual QA"
+  },
+  "reserved_files": {
+    "Anvesha": [
+      "kb/research/media/cinema-series/historical-image-candidates-2026-10-27.json"
+    ],
+    "Samanta": [
+      "kb/research/culture/odia-cinema.md",
+      "kb/research/culture/cinema-series/book-narrative-2026-10-27.json",
+      "projects/site/src/data/cinema.json",
+      "projects/site/tests-coast/cinema-image-sizing.test.mjs",
+      "output/pdf/build_book.py",
+      "outputs/odia-cinema-series/odia-cinema-report.json",
+      "projects/site/tests/cinema-release.test.mjs"
+    ]
+  },
+  "constraints": [
+    "No repetition of existing images across articles",
+    "Existing cropped preview frames and left-aligned complete article images retained",
+    "Dates attributed to the source where not independently established",
+    "Concise photo credits in footnotes; preserve licences and original images",
+    "No invented archival imagery or added artwork"
+  ],
+  "publication": false,
+  "image_standard": {
+    "previews": "Cropped 3:2 frames with subject-aware focal positions.",
+    "article_and_book": "Preserve complete archival image; left-align caption with visible image; book uses full text width.",
+    "placement": "A documentary image belongs beside the passage it supports, not as generic decoration.",
+    "credit": "Short caption; creator/source/licence in linked credit note. Retain full provenance internally.",
+    "treatment": "No historical scene inventions, face alteration, or artificial restoration.",
+    "uniqueness": "Avoid reusing the same photograph across articles."
+  },
+  "selected_candidate": "kb/research/media/cinema-series/archive/pranab-bijay-mihir-behind-scenes-1989.jpg",
+  "research_record": "kb/research/media/cinema-series/historical-image-candidates-2026-10-27.json",
+  "research_limits": "No newly cleared 1930s–1960s film still in this bounded pass. Source-labelled dates remain attributed; Creative Commons material is not labelled public domain.",
+  "quality_review": {
+    "status": "PASS",
+    "scope": "Bounded independent QA, no source/legal/publication approval",
+    "original_sha256": "7a9fb4f8dd0547a8c8f30c3d2e4390d6e5aef6950735051b88bcb16ee9457a57",
+    "original_viewed": true,
+    "caption_check": "Source-attributed1989, no film or photographer identification asserted; Commons author credit Director Pranab Das distinguished from uploader Sunny Roy; CC BY-SA4 source/licence links retained",
+    "source_changes": "Only overview differs from28-source snapshot; other27 unchanged",
+    "limits": [
+      "Retained file-specific Commons declaration, not independent ownership-chain clearance.",
+      "No identity inference from faces;1989 source-attributed, no film identified.",
+      "Targeted delta visual review, not whole-book rereview; no publication approval."
+    ],
+    "pdf": {
+      "digital": {
+        "sha256": "7f1d039c85a723ea0821ee04f981f718108b836dbeb80c898ab98d0e8abd338f",
+        "pages": 169,
+        "figures": 34,
+        "width_pt": 348,
+        "all_source_hashes_current": true,
+        "cover_sha256": "720754a4e45a7d89602c5ad5f26ea9d255f95a95d3ce227601336a69d0891cb9",
+        "page_references_stable": true
+      },
+      "print": {
+        "sha256": "8c976265f99969edb7ac4227ae85343a19aa5661fcc2000777b22d184da39101",
+        "pages": 188,
+        "figures": 34,
+        "width_pt": 336,
+        "all_source_hashes_current": true,
+        "cover_sha256": "720754a4e45a7d89602c5ad5f26ea9d255f95a95d3ce227601336a69d0891cb9",
+        "page_references_stable": true
+      }
+    },
+    "web": {
+      "viewports": [
+        1114,
+        390
+      ],
+      "frame_ratio": "3:2",
+      "object_fit": "contain",
+      "object_position": "0% 50%",
+      "caption_left_equals_image_left": true,
+      "credit_link_clicked": "#image-credit-1",
+      "credit_contains_creator_uploader_source_license_and_limits": true,
+      "viewport_reset": true
+    },
+    "visual_review": [
+      "Original image",
+      "Digital127 complete image and concise caption in teams section",
+      "Print131 complete image and concise caption in teams section",
+      "Print174 full credit and licence/source references"
+    ]
+  },
+  "research_findings": {
+    "added": "Pranab Das with Bijay Mohanty and Mihir Das, source-labelled 1989, CC BY-SA 4.0 declaration.",
+    "next_candidate": "Mohammad Mohsin on Sahari Bagha set: lower resolution and unknown original photograph date.",
+    "permission_leads": [
+      "Gour–Parbati gallery: Sri Jagannath and Stree recording photographs",
+      "Film Heritage Foundation: Maya Miriga film and restoration photographs"
+    ],
+    "held": "Goswami portrait labelled 1940: underlying historical photograph provenance unresolved."
+  },
+  "source_change": "Only one image and its caption/credit added to overview and matching book companion; no narrative claims added.",
+  "implementation": {
+    "image_placements": 34,
+    "website": "Historical image beside production-team section; concise caption and linked credit.",
+    "books": [
+      {
+        "edition": "digital",
+        "file": "/archive/odia-cinema-a-living-screen-2026-10-27.pdf",
+        "bytes": 12897473,
+        "sha256": "7f1d039c85a723ea0821ee04f981f718108b836dbeb80c898ab98d0e8abd338f",
+        "pages": 169,
+        "status": "local_review"
+      },
+      {
+        "edition": "print",
+        "file": "/archive/odia-cinema-a-living-screen-print-2026-10-27.pdf",
+        "bytes": 132339592,
+        "sha256": "8c976265f99969edb7ac4227ae85343a19aa5661fcc2000777b22d184da39101",
+        "pages": 188,
+        "status": "local_review"
+      }
+    ],
+    "copied_downloads_verified": true
+  },
+  "reserved_files_released": true,
+  "checks": {
+    "build": "542 pages passed",
+    "focused_tests": "25/25 passed",
+    "disclosure_gate": "965 files; zero violations",
+    "pdf_structure": "28 chapters, 34 figures, 229 notes, 338 citation pairs",
+    "pdf_text": "498 paragraphs and 41 table cells checked; no unexplained omissions",
+    "visual_review": "Independent desktop/mobile and affected PDF pages passed",
+    "original_photo": "SHA256 preserved",
+    "downloads": "Both staged copies and metadata match final PDF hashes"
+  },
+  "human_approval_claimed": false
+}

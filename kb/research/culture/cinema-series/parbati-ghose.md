@@ -17,7 +17,7 @@ series_part: "Films and Filmmakers"
 
 By Ahimanikya Satapathy
 
-Sometimes the most revealing way into a film career is to stay for the credits.
+One name in the credits invites a second look: **Shrabani**.
 
 In the published credits for *ଛ’ ମାଣ ଆଠ ଗୁଣ୍ଠ (Chha Mana Atha Guntha)*, Parbati Ghose appears as producer, director and performer. The screenplay and dialogue are credited to Shrabani, identified there as Parbati Ghose. The archive dates this adaptation of Fakir Mohan Senapati’s novel to 1986.[^adaptation]
 
@@ -25,13 +25,13 @@ Those entries ask us to look beyond the familiar photograph of an actress. They 
 
 ![Parbati Ghose on an India Post commemorative stamp](../../media/cinema-series/additions/parbati-ghose-india-post-2023.jpg)
 
-*Parbati Ghose on India Post’s 2023 commemorative stamp. India Post, Government of India, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Parbati_Ghose_2023_stamp_of_India.jpg), [Government Open Data License–India](https://data.gov.in/sites/default/files/Gazette_Notification_OGDL.pdf). The complete stamp is shown; this is a commemorative portrait, not a film still.*
+*Parbati Ghose on India Post’s 2023 commemorative stamp. India Post, Government of India, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Parbati_Ghose_2023_stamp_of_India.jpg), [Government Open Data License–India](https://data.gov.in/sites/default/files/Gazette_Notification_OGDL.pdf).*
 
 ## Chapala before Parbati
 
 Born in Cuttack in 1942, Parbati was also known as **Chapala** and **Chandana**. Her archive biography describes a childhood connected to books and performance: her father Basudev Naik worked at ManMohan Press, and her mother Sebati encouraged the children’s education and cultural interests. It records dance training and childhood participation in All India Radio.[^life]
 
-These details bring another history into view. The actress who later adapted a novel grew up around the worlds of publishing, listening and performance. The connection is suggestive rather than a claim that a childhood circumstance determined the films she would make.
+Publishing, listening and performance were part of the world in which Chapala grew up. Her later career would bring those arts together through the responsibilities of making a film.
 
 ## A career built through collaboration
 
@@ -43,13 +43,13 @@ Her producing, directing and writing credits sit alongside the work of these col
 
 The novel at the centre of Parbati’s adaptation concerns Mangaraj, a moneylender who exploits the colonial legal order to acquire other people’s property. Among those he ruins are the weaver couple Bhagia and Saria. Peter Samuels explains how the story turns the workings of law and rural power into satire.[^novel]
 
-This is the adaptation’s literary context. The novel’s treatment of property and unequal power provides a starting point for comparison; it does not establish how the film handles every passage or scene.
+The weavers’ place in this literary world gives a reader a starting point for the adaptation: whose speech, livelihood and loss must find a form on screen?
 
 ## When a novel becomes a film
 
 ![Opening chapter of the digitised Odia novel Chha Mana Atha Guntha](../../media/cinema-series/chha-mana-atha-guntha-opening.png)
 
-*Opening chapter of Fakir Mohan Senapati’s Chha Mana Atha Guntha, from the digitised text. Digitisation: Srujanika and NIT Rourkela; [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chha_mana_atha_guntha.pdf), [CC0](https://creativecommons.org/publicdomain/zero/1.0/). Full page rendered from PDF page 4. This is literary context, not a film poster or a copy documented as used during production.*
+*Opening chapter of Fakir Mohan Senapati’s Chha Mana Atha Guntha, from the digitised text. Digitisation: Srujanika and NIT Rourkela; [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chha_mana_atha_guntha.pdf), [CC0](https://creativecommons.org/publicdomain/zero/1.0/). Full page rendered from PDF page 4.*
 
 In the adaptation, Parbati played Saria, Bijay Mohanty played Bhagia and Sarat Pujari played Mangaraj. The archive names Ashok Swain for camera, Tapas Mukherjee for editing and Prafulla Kar for music.[^adaptation]
 
@@ -57,19 +57,19 @@ These credits give the relationship between literature and film a concrete form.
 
 ## Beyond the feature film
 
-The archive also follows Parbati through television, radio drama, literacy work and films for public institutions. It credits her with *Salabeg* for Films Division in 1996 and identifies *Pratibha* as a television adaptation of Harekrushna Mahtab’s novel. These extend the literary connection beyond her better-known Fakir Mohan adaptation.[^life]
+The archive also follows Parbati through television, radio drama, literacy work and films for public institutions. Its biography credits her with *Salabeg* for Films Division. It also identifies *Pratibha* as a television adaptation of Harekrushna Mahtab’s novel. These extend the literary connection beyond her better-known Fakir Mohan adaptation.[^life]
 
 Her work in shorter forms belongs within the history too. A film made for television or a public programme can involve writing, performance and production skills even when it attracts less retrospective attention than a theatrical feature. The archive records her death on **12 February 2018**.[^life]
 
-## Remembering the work accurately
+## The work within the recognition
 
 The archive records national recognition for *Laxmi*, *Kaa* and *Stree* as film honours.[^awards]
 
-Returning to the credits changes the familiar portrait: the performer also helped decide how the film would be made.
+Returning to the credits brings the work into view: Parbati helped carry stories from a page to a production, while making room for other artists’ contributions. Her career invites us to stay with those shared decisions as well as the performance we see.
 
 ## Watch and explore
 
-Links checked on 26 October 2026. Playback was not tested; territory, account and payment conditions can change.
+Archive and song links checked on 26 October 2026; clip playback untested.
 
 - **Film information: [ଛ’ ମାଣ ଆଠ ଗୁଣ୍ଠ (Chha Mana Atha Guntha)](https://www.gourparbati.com/movie_chha_mana_atha_guntha.php).** Gour–Parbati archive: credits and production context, not a player.
 - **Film information: [ଲକ୍ଷ୍ମୀ (Laxmi)](https://www.gourparbati.com/movie_laxmi.php).** Gour–Parbati archive.
@@ -82,7 +82,7 @@ Links checked on 26 October 2026. Playback was not tested; territory, account an
 [^life]: Gour–Parbati archive, [Parbati Ghose](https://www.gourparbati.com/parbati_ghose.php), retrospective biography. Used for family context, radio and later work. Claimed social impact, superlatives and disputed debut-year chronology are not repeated.
 
 [^adaptation]: Gour–Parbati archive, [Chha Mana Atha Guntha (1986)](https://www.gourparbati.com/movie_chha_mana_atha_guntha.php), production, screenplay, cast and technical credits.
-[^filmography]: Gour–Parbati archive, [Filmography](https://www.gourparbati.com/filmography.php), entries for Laxmi, Kaa and Stree. Collective credits are retained rather than recast as solo direction.
+[^filmography]: Gour–Parbati archive, [Filmography](https://www.gourparbati.com/filmography.php), entries for Laxmi, Kaa and Stree.
 [^awards]: Gour–Parbati archive, [Awards](https://www.gourparbati.com/award.php). Used for the films’ recognition, not an individual acting-award claim.
 
 [^novel]: Peter Samuels, [“Teaching about the Colonial India State and Society with Six Acres and a Third”](https://www.educationaboutasia.org/article/id/1629/), Education About Asia, 10 June 2020. Used for the novel’s conflict; no claim of scene-by-scene fidelity in the film adaptation.

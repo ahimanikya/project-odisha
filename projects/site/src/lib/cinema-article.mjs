@@ -5,12 +5,68 @@ import {renderReviewedCultureArticle} from './reviewed-culture-article.mjs';
 const root=[process.cwd(),path.resolve(process.cwd(),'../..')].find(candidate=>fs.existsSync(path.join(candidate,'kb/research/culture/cinema-series/manifest.json')));
 if(!root)throw Error('Cinema sources require the repository or site build working directory');
 export const cinema=JSON.parse(fs.readFileSync(path.join(root,'projects/site/src/data/cinema.json'),'utf8'));
+export const cinemaNarrative=JSON.parse(fs.readFileSync(path.join(root,'kb/research/culture/cinema-series/book-narrative-2026-10-27.json'),'utf8'));
 export function cinemaRouteEntries(entries=cinema.articles){return entries.filter(entry=>entry.route===`/cinema/${entry.slug}/`);}
-const escape=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;');
+const navigationLabels={'the-question-that-brought-me-here':'Why this book','odia-cinema':'Odia cinema','literature-and-screen':'Literature and cinema','air-cuttack':'AIR Cuttack','odia-television':'Odia television','odia-ott':'Odia OTT','commercial-successes':'Commercial successes','cinema-economics':'Cinema economics','cinema-futures':'The road ahead'};
+export function cinemaNavigationLabel(entry){return navigationLabels[entry.slug]||entry.title.split(':')[0].trim();}
+const escape=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
+// Explicitly reviewed Odia titles and quotations. Script alone does not establish language:
+// Sambalpuri Bhukha and unreviewed passages deliberately remain unlabelled here.
+const odiaReadings=['ଆମର ଏଠି କିଛି ହେବନି','ଆପଣାର ବା ପ୍ରତିବାସୀ ଜାତି ଓ ସମାଜର କଥା ଜାଣିବାର ଦରକାର କ&#39;ଣ ?','ଆପଣାର ବା ପ୍ରତିବାସୀ ଜାତି ଓ ସମାଜର କଥା ଜାଣିବାର ଦରକାର କ\'ଣ ?','ରେବତୀ ପାଖରେ ବସି ଶୁଣୁଥାଏ।','ଆକାଶବାଣୀ କଟକ','ଛମାଣ ଆଠଗୁଣ୍ଠ','ମାୟା ମିରିଗ','ବୋଉ ବୁଟୁ ଭୂତ','କର୍ମ','ପ୍ରତୀକ୍ଷା','ଦମନ','ରେବତୀ','ଅନନ୍ତା','ଲାବଣ୍ୟ ପ୍ରୀତି','ଆଦିମ ବିଚାର','ସୀତା ବିବାହ','ଶୀତ ରାତି','କା','ସ୍ତ୍ରୀ'];
+const odiaPattern=new RegExp(odiaReadings.sort((a,b)=>b.length-a.length).map(t=>t.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|'),'gu');
+export function markReviewedOdia(html){
+ const elements=[];
+ return html.split(/(<[^>]+>)/g).map(token=>{
+  if(token.startsWith('<')){
+   const tag=token.match(/^<(\/?)([a-z][\w-]*)\b/i);
+   if(tag){if(tag[1]){const last=elements.map(e=>e.tag).lastIndexOf(tag[2].toLowerCase());if(last>=0)elements.splice(last);}else if(!/^(?:img|br|hr|input|meta|link|source|wbr)$/i.test(tag[2])&&!token.endsWith('/>'))elements.push({tag:tag[2].toLowerCase(),language:/\blang\s*=/.test(token)});}
+   return token;
+  }
+  if(elements.some(e=>e.language||['script','style','code'].includes(e.tag)))return token;
+  return token.replace(odiaPattern,(text,offset,whole)=>{
+   // Do not mark a short reviewed word inside another word or an unknown phrase.
+   if(/[\u0b00-\u0b7f]/.test(whole[offset-1]||'')||/[\u0b00-\u0b7f]/.test(whole[offset+text.length]||''))return text;
+   return `<span lang="or">${text}</span>`;
+  });
+ }).join('');
+}
 export function picture(image,alt,priority=false){const set=format=>image.derivatives.filter(d=>d.format===format).map(d=>`${d.file} ${d.width}w`).join(', ');const sizes='(max-width: 784px) calc(100vw - 44px), 740px';return `<picture><img src="${image.file}" srcset="${set('jpeg')}" sizes="${sizes}" alt="${escape(alt)}" width="${image.width}" height="${image.height}" ${priority?'fetchpriority="high"':'loading="lazy"'} decoding="async"></picture>`;}
+function figureStyle(image){
+ // Portraits and square artwork share their image width with the caption; small archival objects are not enlarged.
+ const width=image.height>=image.width?`${Math.min(image.width,600*image.width/image.height)}px`:'100%';
+ return `--cinema-figure-width:${width};--cinema-image-ratio:${image.width} / ${image.height}`;
+}
+function heroCaption(entry){
+ const caption=escape(entry.hero.caption||'Editorial illustration; not a film still, historical photograph or reconstruction of a documented scene.');
+ if(entry.hero.kind!=='documentary')return caption;
+ const credit=entry.hero.credit;
+ if(!credit?.creator||!credit.source_url||!credit.license||!credit.license_url)throw Error('Missing documentary hero credit '+entry.slug);
+ const href=value=>{const url=new URL(value);if(url.protocol!=='https:')throw Error('Documentary credit requires HTTPS '+entry.slug);return escape(url.href);};
+ return `<span class="cinema-image-credit">Credit: ${escape(credit.creator)}. <a href="${href(credit.source_url)}">Source</a> · <a href="${href(credit.license_url)}">${escape(credit.license)}</a>${credit.notes?`. ${escape(credit.notes)}`:''}</span>`;
+}
 const knownRoutes={'kb/research/culture/prahallad-nataka.md':'/stories/prahlada-nataka/','kb/research/culture/ashta-nayika.md':'/stories/ashta-nayika/','kb/research/culture/odissi-abhinaya.md':'/stories/odissi-abhinaya/','kb/research/culture/champu-and-sakhi.md':'/literature/champu-and-sakhi/'};
+// Exact maintenance-copy replacements only. Historical dates and source-note records remain intact.
+const catalogueMaintenanceCopy=new Map([
+ ['Links checked on 26 October 2026. Playback was not tested; territory, account and payment conditions can change.','Availability may vary by region and subscription.'],
+ ['These exploration pages were checked in the retained research on 25 October 2026. Audio playback was not tested.',''],
+ ['Archive and song links checked on 26 October 2026; clip playback untested.',''],
+ ['Restoration page checked on 26 October 2026; clip playback untested.',''],
+ ['Listings checked on 26 October 2026.',''],
+ ['Catalogue links checked on 26 October 2026.',''],
+ ['Programme links were checked on 25 October 2026; the producer catalogue on 26 October 2026. Playback and current account or regional conditions were not tested.','Availability may vary by region and account conditions.'],
+ ['- **Provider catalogue: [AAO NXT](https://aaonxt.com/).** Homepage checked on 26 October 2026; login and subscription options were visible.','- **Provider catalogue: [AAO NXT](https://aaonxt.com/).**'],
+ ['- **Provider app listing: [Kanccha Lannka on the App Store](https://apps.apple.com/in/app/kanccha-lannka/id1584598214).** Listing checked on 25 October 2026. Descriptions of titles or subtitles do not guarantee access in every location.','- **Provider app listing: [Kanccha Lannka on the App Store](https://apps.apple.com/in/app/kanccha-lannka/id1584598214).** Descriptions of titles or subtitles do not guarantee access in every location.']
+]);
 export function cinemaArticle(entry){
- const source=fs.readFileSync(path.join(root,entry.source),'utf8'),images={},imageDimensions={},links={};
+ let source=fs.readFileSync(path.join(root,entry.source),'utf8');
+ source=source.split('\n').map(line=>catalogueMaintenanceCopy.get(line)??line).join('\n');
+ const images={},imageDimensions={},links={};
+ const callouts=cinemaNarrative.callouts.filter(c=>c.slug===entry.slug);
+ for(const c of callouts){
+  const target=`## ${c.before_heading}`;
+  if(!source.includes(target))throw Error('Missing callback target '+c.id);
+  source=source.replace(target,`CINEMACALLOUTSTART${c.id}\n\n${c.text}\n\nCINEMACALLOUTEND${c.id}\n\n${target}`);
+ }
  for(const [,url]of source.matchAll(/!\[[^\]]*\]\(([^)]+)\)/g)){const resolved=path.posix.normalize(path.posix.join(path.posix.dirname(entry.source),url));const image=entry.images.find(i=>i.source===resolved);if(!image)throw Error('Unmapped cinema image '+url);images[url]=image.file;imageDimensions[image.file]={width:image.width,height:image.height};}
  for(const [,url]of source.matchAll(/(?<!!)\[[^\]]*\]\(([^)]+)\)/g)){if(/^(?:[a-z]+:|#|\/)/i.test(url))continue;const resolved=path.posix.normalize(path.posix.join(path.posix.dirname(entry.source),url));const target=cinema.articles.find(a=>a.source===resolved);if(target)links[url]=target.route;else if(knownRoutes[resolved])links[url]=knownRoutes[resolved];}
  const normalized=/^## Footnotes & Sources\s*$/m.test(source)?source:source.replace(/^(\[\^[^\]]+\]:)/m,'## Footnotes & Sources\n\n$1');
@@ -22,19 +78,68 @@ export function cinemaArticle(entry){
    return `<div class="article-table cinema-comparison" role="region" aria-labelledby="${captionId}" tabindex="0"><table><caption id="${captionId}">Reported Odia film budgets and collections — dated estimates with differing accounting limits</caption>${semantic}</table></div>`;
   });
  }
+ if(entry.slug==='odia-cinema'){
+  article.html=article.html.replace(/(<h2 id="national-and-international-recognition">[\s\S]*?<\/h2>)([\s\S]*?)(?=<h2\b|$)/,(_,heading,section)=>heading+section.replace(/<div class="article-table"[^>]*><table>([\s\S]*?)<\/table><\/div>/g,(original,table)=>{
+   const headers=[...table.matchAll(/<th>([\s\S]*?)<\/th>/g)].map(m=>m[1].replace(/<[^>]*>/g,'').trim());
+   if(headers.join('|')!=='Film|Recognition|Award year and edition|Filmmakers to explore')return original;
+   const captionId='national-awards-caption';
+   const semantic=table.replace(/<thead>([\s\S]*?)<\/thead>/,(_,head)=>`<thead>${head.replace(/<th>/g,'<th scope="col">')}</thead>`).replace(/<tbody>([\s\S]*?)<\/tbody>/,(_,body)=>`<tbody>${body.replace(/<tr>\s*<td>([\s\S]*?)<\/td>/g,'<tr><th scope="row">$1</th>')}</tbody>`);
+   return `<div class="article-table cinema-recognition" role="region" aria-labelledby="${captionId}" tabindex="0"><table><caption id="${captionId}">Selected National Film Awards in this series — award years, not release dates</caption>${semantic}</table></div>`;
+  }));
+ }
  const hero=entry.images.find(i=>i.role==='title');
  article.html=article.html.replace(new RegExp(`<figure><img[^>]*src="${hero.file.replaceAll('.','\\.')}"[\\s\\S]*?<\\/figure>`),'');
  for(const image of entry.images){const expression=new RegExp(`<img[^>]*src="${image.file.replaceAll('.','\\.')}"[^>]*>`,'g');article.html=article.html.replace(expression,img=>picture(image,img.match(/alt="([^"]*)"/)?.[1]||'',false));}
- const heroHTML=`<figure class="cinema-hero">${picture(hero,entry.hero.alt,true)}<figcaption>${escape(entry.hero.caption||'Editorial illustration; not a film still, historical photograph or reconstruction of a documented scene.')}</figcaption></figure>`;
+ const imageCredits=[];
+ const proseNoteCount=(article.html.match(/<li id="user-content-fn-[^"]+"/g)||[]).length;
+ const creditRef=(credit)=>{
+  const index=imageCredits.push(credit),n=proseNoteCount+index;
+  return `<sup><a href="#user-content-fn-cinema-image-${index}" id="user-content-fnref-cinema-image-${index}" data-footnote-ref aria-describedby="footnote-label" aria-label="Source note ${n}">${n}</a></sup>`;
+ };
+ let heroDescription=escape(entry.hero.caption||'Illustration.');
+ if(entry.hero.kind==='documentary')heroDescription+=' '+creditRef(heroCaption(entry));
+ if(entry.hero.kind==='supplied-portrait')heroDescription+=' '+creditRef(escape(entry.hero.credit_note));
+ article.html=article.html.replace(/<figure>([\s\S]*?)<figcaption>([\s\S]*?)<\/figcaption><\/figure>/g,(whole,image,caption)=>{
+  if(!/Photo:|Wikimedia Commons|Digitisation:/.test(caption))return whole;
+  const description=caption.split(/(?<=\.)\s/)[0];
+  return `<figure>${image}<figcaption>${description} ${creditRef(caption)}</figcaption></figure>`;
+ });
+ for(const c of callouts){
+  const start=`<p>CINEMACALLOUTSTART${c.id}</p>`,end=`<p>CINEMACALLOUTEND${c.id}</p>`;
+  if(!article.html.includes(start)||!article.html.includes(end))throw Error('Callback render failed '+c.id);
+  article.html=article.html.replace(start,`<aside class="cinema-callback" aria-labelledby="${c.id}-label"><p class="cinema-callback-label" id="${c.id}-label">${c.kind==='fact'?'A detail to remember':'A thread to follow'}</p>`).replace(end,'</aside>');
+ }
+ if(imageCredits.length){
+  if(!/<section data-footnotes[\s\S]*?<\/ol>/.test(article.html))throw new Error(`Missing source footnote list for image credits: ${entry.slug}`);
+  const notes=imageCredits.map((credit,i)=>`<li id="user-content-fn-cinema-image-${i+1}" value="${proseNoteCount+i+1}"><p>${credit} <a href="#user-content-fnref-cinema-image-${i+1}" data-footnote-backref aria-label="Back to reference ${proseNoteCount+i+1}" class="data-footnote-backref">↩</a></p></li>`).join('');
+  article.html=article.html.replace(/(<section data-footnotes[\s\S]*?)(<\/ol>)/,(_,body,close)=>body+notes+close);
+ }
+
+ article.html=article.html.replace(/<figure>([\s\S]*?)<\/figure>/g,(_,body)=>{
+  const src=body.match(/<img[^>]*src="([^"]+)"/)?.[1],image=entry.images.find(i=>i.file===src);
+  if(!image)throw Error('Missing figure dimensions '+entry.slug);
+  return `<figure style="${figureStyle(image)}">${body}</figure>`;
+ });
+ article.html=article.html.replace(/<picture>([\s\S]*?)<\/picture>/g,(whole,img)=>{const src=img.match(/src="([^"]+)"/)?.[1];return src?`<a class="cinema-full-image" href="${src}" aria-label="View complete image">${whole}</a>`:whole;});
+ const portrait=hero.height>hero.width;
+ const heroHTML=`<figure class="cinema-hero${portrait?' cinema-hero-portrait':''}" style="${figureStyle(hero)}"><a class="cinema-full-image" href="${hero.file}" aria-label="View complete image">${picture(hero,entry.hero.alt,true)}</a><figcaption>${heroDescription}</figcaption></figure>`;
+ const next=cinema.articles[cinema.articles.findIndex(a=>a.slug===entry.slug)+1];
+ const onward=next?`<nav class="cinema-narrative-continue" aria-label="Continue this reading journey"><a href="${escape(next.route)}" rel="next">Continue reading: ${escape(cinemaNavigationLabel(next))} <span aria-hidden="true">→</span></a></nav>`:`<nav class="cinema-narrative-continue" aria-label="Continue exploring"><a href="/cinema/">Explore all cinema readings <span aria-hidden="true">→</span></a></nav>`;
+ article.html=article.html.replace(/(?=<section (?:class="cinema-image-notes"|data-footnotes))/,onward);
+ article.html=article.html.replace(/<a\b([^>]*data-footnote-ref[^>]*)>(\d+)<\/a>/g,(_,attrs,n)=>`<a${attrs}${attrs.includes('aria-label=')?'':` aria-label="Source note ${n}"`}>${n}</a>`);
+ article.html=article.html.replace(/aria-label="Back to reference (\d+)(?:-(\d+))?"/g,(_,n,occurrence)=>`aria-label="Return to citation ${n}${occurrence?', occurrence '+occurrence:''}"`);
+ article.html=article.html.replace(/<li id="(user-content-fn-[^"]+)"/g,'<li id="$1" tabindex="-1"');
+ article.html=markReviewedOdia(article.html);
+ article.titleHtml=markReviewedOdia(escape(article.title));
  const marker='<h2 id="further-reading">Further reading</h2>';
  if(!article.html.includes(marker))throw Error('Missing further reading '+entry.slug);
  const [body,tail]=article.html.split(marker);const sections=[];let cursor=0;
  for(const match of tail.matchAll(/<ul>([\s\S]*?)<\/ul>/g)){
   const prefix=tail.slice(cursor,match.index),heading=prefix.match(/<h3[^>]*>([\s\S]*?)<\/h3>/);
-  const readingLinks=[...match[1].matchAll(/<a href="([^"]+)">([\s\S]*?)<\/a>/g)].map(([,href,title])=>{const target=cinema.articles.find(a=>a.route===href);return {href:href.replaceAll('&amp;','&'),title:title.replace(/<[^>]*>/g,'').replaceAll('&amp;','&'),...(target?{image:target.images.find(i=>i.role==='title').file,description:target.series_intro}:{})};});
+  const readingLinks=[...match[1].matchAll(/<a href="([^"]+)">([\s\S]*?)<\/a>/g)].map(([,href,title])=>{const target=cinema.articles.find(a=>a.route===href);return {href:href.replaceAll('&amp;','&'),title:title.replace(/<[^>]*>/g,'').replaceAll('&amp;','&'),...(target?{image:target.card_image||target.images.find(i=>i.role==='title').file,description:target.series_intro,imagePosition:target.card_image_position}:{})};});
   sections.push({before:prefix.replace(heading?.[0]||'',''),heading:heading?.[1]||'Related readings',id:heading?.[0].match(/id="([^"]+)"/)?.[1],links:readingLinks,compactReferences:!readingLinks.some(link=>link.image)});cursor=match.index+match[0].length;
  }
  if(!sections.length)throw Error('Missing further-reading links '+entry.slug);
- let afterReading=tail.slice(cursor);const update=article.html.includes('/contribute/?page=')?'':`<p><strong><a href="/contribute/?page=${encodeURIComponent(entry.route)}">Suggest an update</a></strong>: share a source, film credit or precise correction. GitHub submissions are public; omit private contact details and consent documents.</p>`;afterReading+=update;article.html=heroHTML+body;
- return {article,readingLinks:sections.flatMap(s=>s.links),readingSections:sections,afterReading,hero,fullHTML:heroHTML+body+marker+tail+update};
+ let afterReading=tail.slice(cursor);const update=article.html.includes('/contribute/?page=')?'':`<p><strong><a href="/contribute/?page=${encodeURIComponent(entry.route)}">Suggest an update</a></strong>: share a source, film credit or precise correction. GitHub submissions are public; omit private contact details and consent documents.</p>`;afterReading+=update;article.html=markReviewedOdia(heroHTML)+body;
+ return {article,readingLinks:sections.flatMap(s=>s.links),readingSections:sections,afterReading,hero,fullHTML:markReviewedOdia(heroHTML)+body+marker+tail+update};
 }

@@ -1,0 +1,21 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import {cinema,cinemaNarrative} from '../../lib/cinema-article.mjs';
+import '../../styles/article-reading.css';
+const route=slug=>cinema.articles.find(a=>a.slug===slug).route;
+const note=item=>route(item.slug)+'#user-content-fn-'+item.source_note_id;
+---
+<Shell title="People, connections and turning points" description="A companion to A Living Screen: follow the people, collaborations and dated turning points in Odia cinema." active="explore" related={false}>
+ <article class="article-reading cinema-guide">
+  <p><a href="/cinema/">← A Living Screen</a></p>
+  <h1>People, connections and turning points</h1>
+  <p>A place to return when a name or date echoes across the readings. These connections offer starting points for exploration; they are not a complete roll of contributors or a single line of progress.</p>
+  <h2>People working together</h2>
+  <dl>{cinemaNarrative.people_guide.map(item=><Fragment><dt><a href={route(item.slug)}>{item.label}</a></dt><dd><p class="relationship">{item.relationship}</p><p>{item.text} <a href={note(item)}>Source note →</a></p></dd></Fragment>)}</dl>
+  <h2>Dates to place in the story</h2>
+  <p>A release, a festival selection, a restoration and an award belong to different histories. Each date below says what it records.</p>
+  <ol class="timeline">{cinemaNarrative.timeline.map(item=><li><p><strong>{item.date}</strong> <span class="relationship"> · {item.kind.replaceAll('-',' ')}</span></p><p>{item.text} <a href={note(item)}>Read the account and source →</a></p></li>)}</ol>
+  <p><a href="/cinema/">Return to the readings →</a></p>
+ </article>
+</Shell>
+<style>.cinema-guide{max-width:804px;padding-inline:32px}.cinema-guide dt{font-size:1.15rem;margin-top:1.5rem}.cinema-guide dd{margin-inline-start:0}.cinema-guide .relationship{font-size:.85rem;color:var(--muted);margin-block:.25rem}.timeline{list-style:none;padding:0}.timeline li{padding:1rem 0;border-top:1px solid var(--line)}.timeline p{margin:.25rem 0}@media(max-width:600px){.cinema-guide{padding-inline:22px}}</style>

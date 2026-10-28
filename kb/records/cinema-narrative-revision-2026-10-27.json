@@ -1,0 +1,96 @@
+{
+  "status": "complete-local-review-delivery",
+  "current_article": "cinema-book-and-connected-reading-path",
+  "scope": "Execute approved narrative/design audit across book and connected article sequence; local review delivery",
+  "authorization": "User: I agree with your assessment - let's get it all fixed; callbacks also in articles",
+  "workers": {
+    "Anvesha": "Canonical prose revision and narrative plan file only",
+    "Samanta": "Book builder and generated PDFs/verification tools only",
+    "Drishti": "Read-only independent review",
+    "Disha": "Manifest, web presentation, integration, shared records and final validation"
+  },
+  "reserved_files": {
+    "Anvesha": [
+      "kb/research/culture/cinema-series/book-narrative-2026-10-27.json",
+      "canonical Markdown sources of cinema manifest except comprehensive odia-cinema overview"
+    ],
+    "Samanta": [
+      "output/pdf/build_book.py",
+      "output/pdf/book-build-data-2026-10-27.json",
+      "output/pdf/odia-cinema-a-living-screen-2026-10-27.pdf",
+      "output/pdf/odia-cinema-a-living-screen-print-2026-10-27.pdf",
+      "tmp/pdfs/"
+    ],
+    "Disha": [
+      "projects/site/src/data/cinema.json",
+      "projects/site/src/lib/cinema-article.mjs",
+      "projects/site/src/components/CinemaReading.astro",
+      "projects/site/src/pages/cinema/index.astro",
+      "projects/site/src/pages/cinema/book.astro",
+      "projects/site/tests/",
+      "kb/records/",
+      "projects/site/src/pages/cinema/reading-guide.astro",
+      "kb/research/culture/cinema-series/manifest.json"
+    ]
+  },
+  "publication": false,
+  "human_approval_claimed": false,
+  "latest_user_direction": [
+    "Public creator experiences, sourced and attributed",
+    "Photo credits in footnotes; plain credit labels, no Image1/Photo1/reading ordinal",
+    "Clear visual break before Suggest an update"
+  ],
+  "implemented": [
+    "27 readings reordered into five coherent parts",
+    "six shared asides: five threads and one budget fact",
+    "short book overview with exact original sections preserved in companion appendix",
+    "people/connections guide and typed timeline",
+    "descriptive captions linked to full credit endnotes",
+    "book cover thumbnail and accurate earlier-edition download labels",
+    "visual separator for correction invitation"
+  ],
+  "voice_direction": {
+    "authorized": "User confirmed OK after discussion of we/I usage",
+    "rule": "Use we sparingly for author-and-reader exploration; I only for the author’s own memories or opinions; direct narration for facts; quoted speech unchanged. Do not imply consensus.",
+    "check": "The27canonicalreadings already use reader-inclusive we/our; no authorial I requiring replacement found. Source titles and quoted words preserved."
+  },
+  "validation": {
+    "focused_site_tests": {
+      "passed": 20,
+      "failed": 0,
+      "log": "tmp/pdfs/cinema-narrative-tests.log"
+    },
+    "site_build": "PASS",
+    "public_disclosure_gate": {
+      "pages": 964,
+      "violations": 0
+    },
+    "independent_review": "kb/records/cinema-narrative-quality-review-2026-10-27.json",
+    "pdf_status": "PASS: independent review of final digital and print candidates"
+  },
+  "research_receipt": "kb/records/cinema-creator-experiences-2026-10-27.json",
+  "programme_credit": 0,
+  "next_action": "Founder review of local articles and book proofs; no publication performed",
+  "outputs": [
+    {
+      "path": "output/pdf/odia-cinema-a-living-screen-2026-10-27.pdf",
+      "pages": 155,
+      "bytes": 12614055,
+      "sha256": "a408fae299800ebe88d0571465e015f4892793e2fd6bcf2720f55d028614cad1"
+    },
+    {
+      "path": "output/pdf/odia-cinema-a-living-screen-print-2026-10-27.pdf",
+      "pages": 172,
+      "bytes": 130989218,
+      "sha256": "19d931889af452259241706293e9d850665d3cd2d135f9964780d392337ac7d7"
+    }
+  ],
+  "worker_scopes": "Released after completed implementation and independent review",
+  "limits": [
+    "Web browser review sampled desktop and390px layouts, not every viewport.",
+    "Print proof uses6×9in mirrored margins; cover170.67dpi, no physical printer proof or press certification."
+  ],
+  "selected_book_bridges": 5,
+  "callbacks": 6,
+  "canonical_editorial_revisions": true
+}
