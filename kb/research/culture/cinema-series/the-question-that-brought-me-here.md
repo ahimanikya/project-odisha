@@ -55,7 +55,7 @@ Meanwhile, a poem from my own life was finding an unexpected form.
 
 During a weekend on a trip to the United States, I began turning *“I Am Free to Dream,”* which I had written as a teenager, into music. Words from my younger self returned through a voice I had not imagined for them.
 
-That experiment grew into Kabita Without Borders and led me to build Kabita Poet Studio. Sri Pradeep Biswal and Sri Paresh Patnaik, whom I had known since my teenage years, encouraged my renewed involvement in Odia literature. I also registered the Pravakar Satapathy Foundation with the intention of helping writers publish through grants.
+That experiment grew into Kabita Without Borders and led me to build Poet Studio, an application for poets to publish and manage their work. Sri Pradeep Biswal and Sri Paresh Patnaik, whom I had known since my teenage years, encouraged my renewed involvement in Odia literature. I also registered the Pravakar Satapathy Foundation with the intention of helping writers publish through grants.
 
 These were beginnings. I was learning through them, and each brought me back to the question of an audience.
 
@@ -79,7 +79,7 @@ I began reading more closely about the work behind the films.
 
 A screen gathers attention around actors and stories, but many people make that encounter possible. Writers, producers, technicians, musicians, performers, distributors and exhibitors contribute different kinds of skill and take different kinds of risk. If I wanted to understand how cinema could support literature, I also needed to understand the livelihoods and relationships that sustained cinema itself.
 
-Curiosity became research. Research became this book.
+Curiosity became research. That research is now taking shape as a book and a series of articles.
 
 I did not set out to write a history of Odia cinema. I turned to its past to understand the people, choices and creative possibilities that might help us move forward. The history in these pages serves that exploration; it does not attempt to record every film, every contributor or every period.
 

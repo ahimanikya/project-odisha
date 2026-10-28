@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "status": "lossless_budget_correction_passed_hosted_recheck_pending",
+  "status": "published_verified",
   "authorization": {
     "quote": "publish",
     "scope": "Publish reviewed local cinema series, author introduction, profile additions, reading/layout corrections and current book editions through the existing Project Odisha release path. No social posting."
@@ -47,9 +47,9 @@
     ],
     "note": "User explicitly requested publication after being told these remain; do not claim they are fixed or introduce unreviewed editorial revisions."
   },
-  "published": false,
+  "published": true,
   "validation": {
-    "full_site_tests": 628,
+    "full_site_tests": 629,
     "coastal_tests": 523,
     "edition_policy_tests": 11,
     "disclosure_violations": 0,
@@ -68,10 +68,12 @@
     "records/evidence/cinema-release-2026-10-28/cinema-release-payload-review-2026-10-28.json",
     "records/evidence/cinema-release-2026-10-28/cinema-release-preparation-2026-10-28.json",
     "records/evidence/cinema-release-2026-10-28/cinema-release-review-2026-10-28.json",
-    "records/evidence/cinema-release-2026-10-28/cinema-lossless-budget-fix-2026-10-28.json"
+    "records/evidence/cinema-release-2026-10-28/cinema-lossless-budget-fix-2026-10-28.json",
+    "records/evidence/cinema-release-2026-10-28/cinema-lossless-budget-review-2026-10-28.json",
+    "records/evidence/cinema-release-2026-10-28/cinema-live-verification-2026-10-28.json"
   ],
   "pull_request": "https://github.com/ahimanikya/project-odisha/pull/589",
-  "reviewed_head": "b0bffd8a8cf9f42216200acbe77de166a1bf661f",
+  "reviewed_head": "53e1d37a6145a1bb5b203ad6a855ba54de5b4976",
   "hosted_validation_attempts": [
     {
       "run": "https://github.com/ahimanikya/project-odisha/actions/runs/40616986650",
@@ -79,6 +81,11 @@
       "bytes": 1000327242,
       "limit_bytes": 1000000000,
       "correction": "Stronger lossless image compression; retain decoded pixels, metadata, URLs and reviewed narratives."
+    },
+    {
+      "run": "https://github.com/ahimanikya/project-odisha/actions/runs/40618776326",
+      "result": "success",
+      "reviewed_head": "53e1d37a6145a1bb5b203ad6a855ba54de5b4976"
     }
   ],
   "book_release": {
@@ -91,5 +98,21 @@
       200
     ],
     "note": "GitHub asset SHA-256 and sizes match unchanged reviewed PDFs."
-  }
+  },
+  "merge_commit": "26649fe761bb811d93754092e42034f8fbaa3db8",
+  "publication_run": "https://github.com/ahimanikya/project-odisha/actions/runs/40619906306",
+  "verified_at": "2026-10-28T02:28:55.728678+00:00",
+  "publication_result": "success",
+  "live_verification": {
+    "routes": 31,
+    "readings": 28,
+    "images": 34,
+    "all_responses": 200,
+    "all_reading_text_matches": true,
+    "current_book_links": true,
+    "separate_image_credit_headings": 0,
+    "full_html_byte_equality": false,
+    "note": "Reading text matches all31 routes. A bounded exact-byte check on the introduction found only the1160-character production analytics/cookie-choice insertion, absent from local configuration; wholeHTML byte equality is not asserted."
+  },
+  "publication_scope_note": "Website and two reviewed PDF editions published; no social posts. Editorial backlog remains7 open and1partial, as disclosed before authorization."
 }
