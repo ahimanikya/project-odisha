@@ -79,7 +79,7 @@ I began reading more closely about the work behind the films.
 
 A screen gathers attention around actors and stories, but many people make that encounter possible. Writers, producers, technicians, musicians, performers, distributors and exhibitors contribute different kinds of skill and take different kinds of risk. If I wanted to understand how cinema could support literature, I also needed to understand the livelihoods and relationships that sustained cinema itself.
 
-Curiosity became research. That research is now taking shape as a book and a series of articles online—an exploration that is still unfolding.
+Curiosity became research. That research is now taking shape as a book and a series of articles.
 
 I did not set out to write a history of Odia cinema. I turned to its past to understand the people, choices and creative possibilities that might help us move forward. The history in these pages serves that exploration; it does not attempt to record every film, every contributor or every period.
 

@@ -1,14 +1,15 @@
 {
   "date": "2026-10-28",
   "result": "PASS",
-  "scope": "Combined requested introduction wording: Poet Studio description and unfolding book/online article series",
-  "source_sha256": "887b1d7d23e77878defedaca596c43e4ee2178cd28c8ad1977404ce98395eca3",
-  "rendered_html_sha256": "11412ce64a0b7d2c7584d979f00781acfb8cab7d2748525ff67bd436aedc76fa",
+  "scope": "Final author-exact introduction wording and retained Poet Studio correction",
+  "source_sha256": "949224f95db8c0ccf60601003cc6b50b42fe22f3de7cda1929e957c9d63009ef",
+  "rendered_html_sha256": "f8632404677126bd56cefa342ed47f58860769d2074eff4e37d1060622b10957",
   "checks": [
-    "Latest canonical equals HEAD plus only the exact user-requested unfolding-research sentence; previously reviewed Poet Studio correction retained",
+    "Only the current author-exact research paragraph differs from HEAD; previously reviewed Poet Studio correction retained",
+    "No added online or still-unfolding clause remains in canonical or built HTML",
     "Site source hash matches canonical",
-    "Both exact requested wordings present in current built HTML; superseded phrases absent",
-    "Both PDF hashes independently rechecked unchanged"
+    "Both requested wordings present in built HTML",
+    "Both PDF byte hashes rechecked unchanged"
   ],
   "pdf_hashes": {
     "odia-cinema-a-living-screen-2026-10-27.pdf": "7ae26c3c71eb6693937a285ad9f8c28280dbcf40144e6efc052d502b5b445f15",
@@ -17,5 +18,6 @@
   "limits": [
     "Local built HTML checked; no fresh browser or hosted deployment claim",
     "Existing PDFs intentionally retain earlier edition wording"
-  ]
+  ],
+  "approved_exact_paragraph": "Curiosity became research. That research is now taking shape as a book and a series of articles."
 }
