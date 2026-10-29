@@ -1,0 +1,48 @@
+{
+  "review_type": "Separate AI source and bilingual draft review",
+  "input_head": "64439cf0db2ad447dc09934f09add0a59f9a46ea",
+  "status": "TWO_DRAFTS_PASS_ONE_DEFERRED",
+  "input_hashes": {
+    "samanta.json": "7e0ae2944eafbe27ab0e23c60ae5568670ca063b9e4340b57091b871411e5d28",
+    "selected-bibidha.json": "de73193ba7337f635efbd3530921c5eaf487ec4c3331f05f7f1aba8dd8561264",
+    "lexical-query.json": "dd854e130248327a414d9d18b3e3fcdd87c8827b38377dd8b5f329a75e15a2a6",
+    "original_api": "50cc6ca849eaf05a875baa31dc929df18f2f7b3d95ca464a3cf58437e3309746",
+    "baseline_collection": "8014f9b095affa197ee0c5af2a403a1a76b0e44fe19f3d05e7752edd346e448b",
+    "batch01_reviewed_candidates": "b9549fb842757d3ccd7a1fb4113f60c2797acf73e198fbdfb2bdc85884391600"
+  },
+  "actual_checks": [
+    "Original full revision6945232 saved capture independently read at lines54,80,83; selected lines exact and capture hashes match.",
+    "Actual217376 noun sense2 supports a kind of bodily exercise; adjective butter senses do not apply automatically.219442 supports incomplete/unfinished but does not resolve herd referent.",
+    "Two Odia/English drafts read against actual usage glosses, with witness wording and contextual introduction distinguished.",
+    "No normalized exact headword duplicate against159 baseline plus five batch01 drafts. Semantic comparisons include049/055 for Apai,007/060/147 for cat; shared display theme alone is not identical saying."
+  ],
+  "per_entry": [
+    {
+      "candidate": "batch02-samanta-apai",
+      "verdict": "PASS",
+      "reason": "Source explicitly gives show-off usage. Literal retains unidentified Apai and child without invented kinship or historical identity; village-scale commotion conveys comic excess. Odia interpretation/examples stay within that context.",
+      "limits": "No identification of Apai, occasion, origin or frequency; no criticism of childbirth itself."
+    },
+    {
+      "candidate": "batch02-samanta-cat",
+      "verdict": "PASS_WITH_EXPLICIT_LEXICAL_LIMIT",
+      "reason": "Source supplies unnecessary-swagger context and lexical source supports exercise, without a specific pose. English empty is a contextual rendering of the disparaging boast, not a separately verified dictionary sense of ନୁଖୁରା; keep that qualification attached.",
+      "nonblocking_edit": "Ordinary-looking movement is an editorial visualization, not source evidence; neutral exercise/movement is preferable. Do not turn this into an exact yoga/stretching pose in later artwork.",
+      "dedup": "Thunder/rain007 contrasts noise/result;060 empty accessory;147 spoiled creation. This separately attested cat/boy taunt is not their textual variant."
+    },
+    {
+      "candidate": "herd",
+      "verdict": "DEFER",
+      "reason": "Unfinished/incomplete alone does not establish what ଖଣ୍ଡିଆ refers to in this herd context. Null meaning and no invented injured animal or species are correct."
+    }
+  ],
+  "rights": "Retain Incubator6945232 and Wiktionary217376 contributor/revision attribution and established CC BY-SA4.0. Lexical source is support only, not a complete second witness. No fresh legal/source-footer clearance claimed.",
+  "preservation": "No accepted IDs, source127 mapping, corpus count increment, art, product or Git mutation.",
+  "limits": [
+    "Review of supplied saved primary captures, not new live retrieval.",
+    "Exact headword negative check is not exhaustive proof of historical independence; semantic review is bounded to current corpus and five reviewed drafts.",
+    "No human proofreading or acceptance claimed.",
+    "Batch01 addendum in frozen Samanta report predates corrected reviewed assembly; current batch01 review/assembly supersedes its deferred food status."
+  ],
+  "next_action": "Keep two ready drafts and one unresolved disposition separate. For later integration preserve explicit lexical uncertainty, source attribution and all source letters."
+}

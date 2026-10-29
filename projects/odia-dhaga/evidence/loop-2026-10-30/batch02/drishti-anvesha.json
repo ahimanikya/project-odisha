@@ -1,0 +1,126 @@
+{
+  "review_type": "Separate AI source and bilingual meaning review",
+  "input_head": "64439cf0db2ad447dc09934f09add0a59f9a46ea",
+  "status": "SEVEN_DRAFTS_PASS_WITH_BOUND_REGISTER_CORRECTION",
+  "input_hashes": {
+    "anvesha.json": "7c330e79ffc956716d8a6a0b163499a564f2c36e4c05b9c6ae559a8fd41f7293",
+    "originals.json": "3347a6e649c449beaffd17f67879052f8f8456384a91b4c4650d2c5032c497c8",
+    "search-dhaga.json": "ff8b1ee59148d0de1fa8ef9a8fc091639f516a32baa4ae4e52874aee8dff3dca",
+    "baseline_collection": "8014f9b095affa197ee0c5af2a403a1a76b0e44fe19f3d05e7752edd346e448b",
+    "batch01_reviewed_candidates": "b9549fb842757d3ccd7a1fb4113f60c2797acf73e198fbdfb2bdc85884391600",
+    "batch02_samanta": "7e0ae2944eafbe27ab0e23c60ae5568670ca063b9e4340b57091b871411e5d28",
+    "anvesha-correction.json": "c94da18460db4e5afd7f92e86df30521661b719eb6bd87b5b91e84451c88bd42"
+  },
+  "checks": [
+    {
+      "key": "anvesha-b02-01",
+      "revision": 43634,
+      "wording_verified": true,
+      "variant_wording_verified": true
+    },
+    {
+      "key": "anvesha-b02-02",
+      "revision": 219937,
+      "wording_verified": true,
+      "variant_wording_verified": true
+    },
+    {
+      "key": "anvesha-b02-03",
+      "revision": 132966,
+      "wording_verified": true,
+      "variant_wording_verified": true
+    },
+    {
+      "key": "anvesha-b02-04",
+      "revision": 86885,
+      "wording_verified": true,
+      "variant_wording_verified": true
+    },
+    {
+      "key": "anvesha-b02-05",
+      "revision": 108199,
+      "wording_verified": true,
+      "variant_wording_verified": true
+    },
+    {
+      "key": "anvesha-b02-06",
+      "revision": 193077,
+      "wording_verified": true,
+      "variant_wording_verified": true
+    },
+    {
+      "key": "anvesha-b02-07",
+      "revision": 126682,
+      "wording_verified": true,
+      "variant_wording_verified": true
+    }
+  ],
+  "per_entry": [
+    {
+      "candidate": "anvesha-b02-01",
+      "verdict": "PASS",
+      "meaning_review": "Two distinct dictionary senses of କୋଚଟ explicitly annotate iron and smith. Resistance/persistence reading preserves wordplay; craft community inherits no trait. Transparent annotation removal verified.",
+      "precise_locator_for_integration": "senses2/3 and immediately following marked ଢଗ example",
+      "semantic_comparison": "061 iron-to-gold questions unsuitable transformation;031 resistance-to-polishing and151 persistent disposition differ from matched task/worker tenacity."
+    },
+    {
+      "candidate": "anvesha-b02-02",
+      "verdict": "PASS_WITH_CORRECTION",
+      "meaning_review": "Exact saying, hot food/pakhala and timing preserved. However ଅନାଦରବ୍ୟଞ୍ଜକ is stronger than familiar: preserve non-respectful/dismissive address in context, without inventing a particular Chaitanya.",
+      "precise_locator_for_integration": "first Chaitanya-derived noun definition and marked example",
+      "semantic_comparison": "008 is starting preparation too late; this asks the beneficiary to state preferences in time. Batch01 food concerns contentment, not advance choice.",
+      "original_verdict": "REVISE_REGISTER"
+    },
+    {
+      "candidate": "anvesha-b02-03",
+      "verdict": "PASS",
+      "meaning_review": "Sense1 explicitly bodily/health care and example; wider commitment/self-care reading labelled editorial, not medical instruction.",
+      "precise_locator_for_integration": "verb sense1, bracketed ଉ example",
+      "semantic_comparison": "001 proportion/017 future resources are not this duty-and-bodily-care imperative."
+    },
+    {
+      "candidate": "anvesha-b02-04",
+      "verdict": "PASS",
+      "meaning_review": "Explicit proverb heading and social gloss support vicarious embarrassment. Dance image retained without presenting dance as inherently shameful.",
+      "precise_locator_for_integration": "ଢ଼ଗ (ନ୍ୟାୟ) heading and full usage definition",
+      "semantic_comparison": "No equivalent inversion of actor versus observer embarrassment in159 or current reviewed drafts."
+    },
+    {
+      "candidate": "anvesha-b02-05",
+      "verdict": "PASS",
+      "meaning_review": "Twelve/thirteen/cucumber/seed preserved exactly. Dictionary expressly defines physically impossible dimensions and gives sheath/sword alternative, correctly one variant not extra count.",
+      "precise_locator_for_integration": "headword, alternative-form line and ଦେଶଜ - ଢଗ definition",
+      "semantic_comparison": "049 enlarges significance;106/117/125 impossible images differ from internal part/whole contradiction. Candidate07 is budgeting overreach with explicit different use."
+    },
+    {
+      "candidate": "anvesha-b02-06",
+      "verdict": "PASS",
+      "meaning_review": "Sense2 contains exact river/boat question. Dependence on enabling conditions is bounded editorial reading; no historical-use gloss fabricated.",
+      "precise_locator_for_integration": "verb sense2 river/tank drying, bracketed example",
+      "semantic_comparison": "148 no benefit to crow and104 cooperation are related dependence themes, not this absent-water question."
+    },
+    {
+      "candidate": "anvesha-b02-07",
+      "verdict": "PASS",
+      "meaning_review": "Literal front hall supported by noun definition; source note explicitly applies it to expenditure exceeding income. Unusual ବିଳିଯିବା preserved, no architectural universality or temple identification claimed.",
+      "precise_locator_for_integration": "noun definition and bracketed ଦ୍ରଷ୍ଟବ୍ୟ proverb/use note",
+      "semantic_comparison": "024 generosity beyond means and097 depleted reserves differ from accessory expense/income disproportion. Candidate05 logical impossibility is distinct. Classify separately, not genealogically independent proof."
+    }
+  ],
+  "dedup": "Independent NFC/whitespace/punctuation-normalized comparison passes all seven against159 plus batch01five and batch02Samantatwo, with pairwise seven uniqueness. Semantic distinctions assessed separately above; this is not proof of independent historical lineages.",
+  "rights": "Exact dictionary digital witnesses with established Wikimedia contributor/revision CC BY-SA4.0 attribution; original interpretation remains adapted commentary. No new first-use, scan/public-domain or historical independence claim.",
+  "source_precision": "Replace generic full-revision locators with the precise supplied section/sense locators at integration. These are source-navigation improvements, not a reason to fabricate missing proof.",
+  "other_dispositions": "Three additional screened leads remain separate from assigned seven and are not counted as accepted or processed batch slots here. Their deferrals do not assert nonexistence.",
+  "limits": [
+    "All seven saved full source bodies directly read; no fresh network request or source scan review.",
+    "No human proofreading, accepted IDs, source127 matching, art, integration or publication.",
+    "Some interpretations are explicitly editorial; exact glossary meaning is not inferred merely from a nearby lexical sense.",
+    "Current book159 remains unchanged."
+  ],
+  "next_action": "All seven eligible for research assembly with this bound correction; specific source locators supplied in this report remain an integration requirement.",
+  "correction_review": {
+    "verdict": "PASS",
+    "findings": "Corrected English explanation/context explicitly preserve non-respectful address and possible impatience/dismissiveness without claiming a particular historical person. Exact saying remains unchanged. The direct Odia explanation remains a practical reading, not an assertion of uniformly polite tone.",
+    "sha256": "c94da18460db4e5afd7f92e86df30521661b719eb6bd87b5b91e84451c88bd42"
+  }
+}

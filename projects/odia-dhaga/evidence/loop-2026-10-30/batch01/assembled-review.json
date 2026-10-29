@@ -1,0 +1,83 @@
+{
+  "review_type": "Separate AI assembly verification; no human review",
+  "input_head": "64439cf0db2ad447dc09934f09add0a59f9a46ea",
+  "status": "PASS",
+  "input_hashes": {
+    "reviewed-candidates.json": "b9549fb842757d3ccd7a1fb4113f60c2797acf73e198fbdfb2bdc85884391600",
+    "samanta.json": "1b6725f53427651ecf4fb0c119ef6bed1fdf6cb70e6310a015c2ee9836f7929a",
+    "samanta-correction.json": "05b50256d720862bc3d7663cc8ab6b9ece2048cee499f07690d18bbc3308adc4",
+    "anvesha.json": "340b4097de7ab3c3b725af4a6f58163ea013f11bc5f6fba116aa3b4708776a00",
+    "drishti-anvesha.json": "e3d8ae665087e321369085f34cb64d2fddecdd91dc4d7cea68281f597ba008be",
+    "drishti-samanta.json": "a769dc064349af6dfea5fe54e3f2c529cd17fca6be4b6091990f3af91bc54100",
+    "disha-context-findings.json": "3e23a9ea960c307fe64f9e877c6d25fd53e02928bced88bb0af20ad916404131",
+    "bhagabata11-r57652.json": "a738e4033b4618f6fe7e1ea0924e512cad9d8c2f5a4520e7e2d5ffaa34b6eb6e"
+  },
+  "actual_checks": [
+    {
+      "candidate": "batch01-samanta-food",
+      "changed_fields": [
+        "context_witness",
+        "cultural_context",
+        "editorial_status",
+        "english_summary",
+        "explanation",
+        "genre_gate",
+        "meaning_odia",
+        "odia_summary",
+        "title"
+      ],
+      "all_changes_within_approved_scope": true
+    },
+    {
+      "candidate": "batch01-samanta-learning",
+      "changed_fields": [
+        "editorial_status",
+        "genre_gate"
+      ],
+      "all_changes_within_approved_scope": true
+    },
+    {
+      "candidate": "batch01-samanta-home",
+      "changed_fields": [
+        "attribution_lead",
+        "editorial_status",
+        "genre_gate"
+      ],
+      "all_changes_within_approved_scope": true
+    },
+    {
+      "candidate": "batch01-samanta-mortality",
+      "changed_fields": [
+        "editorial_status",
+        "genre_gate"
+      ],
+      "all_changes_within_approved_scope": true
+    },
+    {
+      "candidate": "batch01-samanta-harm",
+      "changed_fields": [
+        "editorial_status",
+        "genre_gate"
+      ],
+      "all_changes_within_approved_scope": true
+    }
+  ],
+  "findings": [
+    "All five source wordings, literal meanings, witnesses, genres and rights notes exactly preserve frozen Samanta drafts.",
+    "Only approved food explanatory fields changed; all equal the reviewed correction. Its new context_witness accurately cites57652 chapter9verses1–11 with wording difference.",
+    "Home secondary attribution remains explicitly an unverified lead, not a certified author claim.",
+    "Removing pending genre_gate and updating editorial status reflect separate draft review only; integration/artwork/publication remain pending.",
+    "Source object is exact frozen source_record. Counts correctly distinguish ten processed, five distinct drafts, one related variant, four deferred and zero installed additions.",
+    "Anvesha variant is referenced rather than silently added as a sixth distinct entry. No new unsupported claim found."
+  ],
+  "nonblocking_notes": [
+    "Food tags still include hospitality/adaptability from its original example; contentment would be a more representative primary tag during later integration. This is not a source or meaning blocker.",
+    "The related Bhagabata context currently uses a local context_witness object; later canonical integration must supply the appropriate complete source record and durable capture path."
+  ],
+  "limits": [
+    "Output-only assembled research candidates, not a schema/render/publication gate.",
+    "No new source research or canonical/Git mutations.",
+    "Saved57652 passage was independently inspected in the preceding review; no fresh network retrieval claimed."
+  ],
+  "next_action": "Freeze this research assembly. Await actual batch02 reports before review; do not infer completion or book-count increment."
+}

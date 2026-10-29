@@ -1,0 +1,129 @@
+{
+  "review_type": "Separate AI source/translation/editorial review; no human review",
+  "input_head": "64439cf0db2ad447dc09934f09add0a59f9a46ea",
+  "status": "FIVE_SCOPED_DRAFTS_PASS_AFTER_FOOD_CONTEXT_ADDENDUM",
+  "inputs": {
+    "samanta.json": "1b6725f53427651ecf4fb0c119ef6bed1fdf6cb70e6310a015c2ee9836f7929a",
+    "selected_capture": "5b780ff7b57cef1f84a87d05dee95383bfe6a6360194637bdc6f7dc73da558ff",
+    "original_full_capture": "50cc6ca849eaf05a875baa31dc929df18f2f7b3d95ca464a3cf58437e3309746",
+    "collection.json": "8014f9b095affa197ee0c5af2a403a1a76b0e44fe19f3d05e7752edd346e448b",
+    "disha-context-findings.json": "3e23a9ea960c307fe64f9e877c6d25fd53e02928bced88bb0af20ad916404131",
+    "samanta-correction.json": "05b50256d720862bc3d7663cc8ab6b9ece2048cee499f07690d18bbc3308adc4",
+    "bhagabata11-r57652.json": "a738e4033b4618f6fe7e1ea0924e512cad9d8c2f5a4520e7e2d5ffaa34b6eb6e"
+  },
+  "actual_checks": [
+    {
+      "candidate": "batch01-samanta-food",
+      "exact_line_and_markup_conversion": true,
+      "exact_normalized_headword_matches": [],
+      "draft_sha256": "bf55d656382bbe8386cc9f3ff42ee5df5a5935d3c2af729693bac3edebdb28f3"
+    },
+    {
+      "candidate": "batch01-samanta-learning",
+      "exact_line_and_markup_conversion": true,
+      "exact_normalized_headword_matches": [],
+      "draft_sha256": "870f3eb4b19b685e1537abd5375c794d8449ce55d1db24a407f062d0bdf14362"
+    },
+    {
+      "candidate": "batch01-samanta-home",
+      "exact_line_and_markup_conversion": true,
+      "exact_normalized_headword_matches": [],
+      "draft_sha256": "1668965d027b8fb4519a3897d2dafb8885c4cf652b597e27f32886f9679bd3a3"
+    },
+    {
+      "candidate": "batch01-samanta-mortality",
+      "exact_line_and_markup_conversion": true,
+      "exact_normalized_headword_matches": [],
+      "draft_sha256": "445dcafc4849f59bd25f572167ae132caefd8a0179e940e2eb5e4f48fc60b4ad"
+    },
+    {
+      "candidate": "batch01-samanta-harm",
+      "exact_line_and_markup_conversion": true,
+      "exact_normalized_headword_matches": [],
+      "draft_sha256": "fa7bec5f71abe4a98b9fa1c32c13079c915815543ba324ff06bc8a05999c3dca"
+    }
+  ],
+  "source_review": "Full saved page145340 revision5581025 read, title identifies instructive Dhaga, all five exact lines and list/br-only conversion verified against original capture. Capture/full-text hashes match. The source record already exists in baseline collection.",
+  "genre_decision": "Explicit source classification supports inclusion under clearly labelled didactic verse/religious maxim within this mixed collection. Lack of established earliest origin, named author or independent oral circulation is not itself a veto. Do not relabel them as independently collected anonymous folk proverbs.",
+  "rights": "Use established Incubator contributor attribution and CC BY-SA4.0 revision linkage and adaptation statement. No new public-domain or underlying literary-rights certification is made. Keep unresolved authorship leads visible in internal provenance; new positive attribution evidence must be incorporated accurately.",
+  "per_entry": [
+    {
+      "candidate": "batch01-samanta-food",
+      "verdict": "PASS_WITH_BOUND_CORRECTION_ADDENDUM",
+      "findings": [
+        "Literal accurately preserves Incubator wording. However hospitality/host consideration is narrower than the reported literary context of equanimity toward available food.",
+        "Core explanation and both summaries should describe contentment with what is available; imagined guest example may remain explicitly an application.",
+        "Add the reported Bhagabata11 chapter9 verses5–8 parallel and its different ଯେମନ୍ତ wording as a related textual witness, not silent correction of ଯେବଣ or an earliest-origin claim. Attribute this contextual evidence to Disha’s inspected source record unless a saved primary capture is independently reviewed.",
+        "Do not claim the original context teaches modern food safety; retain that as an editorial application boundary."
+      ],
+      "dedup": "120 concerns adjusting to local ways through fruit imagery; corrected food verse concerns non-preference/contentment. Related theme is not an identical proposition/formulation; no duplicate identified.",
+      "original_verdict": "REVISE_CONTEXT_ADDENDUM_BEFORE_INTEGRATION"
+    },
+    {
+      "candidate": "batch01-samanta-learning",
+      "verdict": "PASS_SCOPED_DIDACTIC_VERSE",
+      "findings": [
+        "Learning-as-treasure and direct address to children preserved in literal, Odia and summaries. The contrast with a possession handed over once is editorial elaboration, not an attested line; optionally simplify it.",
+        "No named author, origin or widespread use should be inferred from this capture."
+      ],
+      "dedup": "137 warns against partial knowledge;004 learns through responsibility. Neither duplicates an exhortation to acquire learning as wealth."
+    },
+    {
+      "candidate": "batch01-samanta-home",
+      "verdict": "PASS_SCOPED_DIDACTIC_VERSE",
+      "findings": [
+        "Vaikuntha, continuing mutual affection and exclamatory force retained. Care is not falsely assigned to women alone. House-size comparison and harmful-relationship boundary are editorial reading, not source gloss.",
+        "Record the Madhusudan Rao/ପରିବାର secondary lead as unresolved in provenance; do not call this anonymous folk composition or assert named authorship as independently verified."
+      ],
+      "dedup": "067 concerns endurance of household hardship,080 marriage appraisal,159 private thoughts; none duplicates this mutual-affection ideal."
+    },
+    {
+      "candidate": "batch01-samanta-mortality",
+      "verdict": "PASS_SCOPED_RELIGIOUS_MAXIM",
+      "findings": [
+        "Even divinity, bodily form and mortal-world condition all retained; explanatory voice presents a religious reflection rather than factually proving a death.",
+        "No specific scripture or author can be supplied from memory."
+      ],
+      "dedup": "088 passing time and153 leaf-decline warning share mortality/time themes but different argument, image and speech act; no duplicate found."
+    },
+    {
+      "candidate": "batch01-samanta-harm",
+      "verdict": "PASS_SCOPED_RELIGIOUS_MAXIM",
+      "findings": [
+        "Govinda remains the named acting figure and the deliberate planning of harm is preserved. The warning is distinguished from a factual guarantee or blaming sufferers.",
+        "Source spacing ପର ର is retained; no silent normalization required for acceptance."
+      ],
+      "dedup": "011 concerns dishonest gain,044 self-destructive spite,135 pride; none is the same divine reciprocity warning."
+    }
+  ],
+  "acceptance_boundary": {
+    "accepted_increment": 0,
+    "ids_assigned": false,
+    "source127_increment": 0,
+    "explanation": "All five now pass scoped draft review, food only with bound correction; no canonical installation or IDs authorized by this report."
+  },
+  "translation_method": "Human Natural Translation: direct Odia/source comparison; English literal separated from editorial interpretations; cultural names, agency, imagery, uncertainty and religious register retained.",
+  "limits": [
+    "No fresh source retrieval or scan inspection; original saved Incubator capture independently inspected.",
+    "Bhagabata saved primary digital capture was subsequently independently read, superseding initial supplied-context-only limitation. Home-author attribution remains only a secondary lead.",
+    "Semantic comparison used baseline headwords and explanations, including targeted contrasts; it cannot establish exhaustive historical variant independence.",
+    "No artwork, rendering, tests of a built product, canonical or Git changes performed.",
+    "No automatic five-entry quota and no human review claim."
+  ],
+  "next_action": "Coordinator may prepare five explicitly classified didactic/religious verse entries using the frozen source drafts plus food correction; keep143 related-witness enrichment separate and do not increment its entry count. Integrated schema/rights/render checks remain later gates.",
+  "correction_review": {
+    "sha256": "05b50256d720862bc3d7663cc8ab6b9ece2048cee499f07690d18bbc3308adc4",
+    "verdict": "PASS",
+    "findings": [
+      "New title, English/Odia explanation and summaries centre contentment/equanimity, resolving the previous host-focused narrowing.",
+      "Related literary context and everyday application are explicitly distinguished; ଯେମନ୍ତ versus ଯେବଣ and unknown borrowing direction remain explicit.",
+      "Exact selected Incubator wording/literal and witness remain untouched; imagined guest example may remain an application, not provenance."
+    ],
+    "limits": "Saved primary digital passage independently read in this addendum; retain pinned57652 citation/locator. No facsimile or first-origin verification."
+  },
+  "primary_context_addendum": {
+    "check": "Independently read saved Bhagabata11 revision57652 chapter9 opening verses1–11 after capture became available.",
+    "result": "PASS: Avadhuta directly addresses Yadu; python practice, equanimity, contentment with little/much and fasting if unavailable are explicit. Verse5 has ଯେମନ୍ତ, not selected Incubator ଯେବଣ.",
+    "limits": "Digital transcription inspected, not a facsimile or first-origin proof; no fresh network request by reviewer."
+  }
+}
