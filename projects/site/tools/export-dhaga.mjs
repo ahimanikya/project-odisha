@@ -65,6 +65,10 @@ export async function exportDhaga(destination){
   for(const [src,dst] of assets)html=html.replaceAll(src,dst);
   html=html.replace(/<img ([^>]*?)src="((?:\.\.\/)?assets\/[^"]+)"([^>]*)>/g,(match,before,path,after)=>{const info=dimensions.get(path.replace(/^\.\.\//,''));return info?'<img '+before.replace(/\s*(?:width|height)="[^"]*"/g,'')+'src="'+path+'" width="'+info.width+'" height="'+info.height+'"'+after.replace(/\s*(?:width|height)="[^"]*"/g,'')+'>':match;});
   html=html.replace('Read locally, share carefully.','Read and share with care.');
+  if(route==='/dhaga/'){
+   if(!html.includes('<img class="book-cover"'))throw Error('Dhaga collection cover anchor missing');
+   html=html.replace('<img class="book-cover"','<p><a href="/stories/odia-dhaga/">Read the introduction: The Poetry We Speak →</a></p><img class="book-cover"');
+  }
   const links='<nav aria-label="Project Odisha and book sources"><a href="/explore/">Explore Project Odisha</a> · <a href="/dhaga/sources.html">Sources &amp; rights</a> · <a href="/about/editorial-process/">Our editorial process</a></nav>';
   html=html.replace(/<footer>/,'<footer>'+links);
   if(!html.includes('<footer>'))html=html.replace('</body>','<footer>'+links+'</footer></body>');
