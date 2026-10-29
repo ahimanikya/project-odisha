@@ -1,4 +1,5 @@
 ---
+type: "Cultural essay"
 title: "The Poetry We Speak: Why Odia Dhaga Matter"
 description: "Odia sayings carry images, humour and ways of judging everyday life. Read their literary craft and give the words somewhere to live."
 author: "Ahimanikya Satapathy"
