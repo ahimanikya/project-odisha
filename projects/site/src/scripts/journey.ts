@@ -12,11 +12,14 @@ import {downloadFile,exportFilename} from '../lib/downloads.mjs';
 import {storageSnapshot,saveLibraryChecked} from '../lib/journey-storage.mjs';
 import {matchesWords} from '../lib/search.mjs';
 import {buildTourBook,buildTextItinerary,planningContext} from '../lib/tour-book.mjs';
-const publicData=JSON.parse(document.getElementById('journey-data')?.textContent||'{"catalog":[],"starters":[]}');
+import {STORAGE_KEY,LIBRARY_KEY,emptyLibrary,loadLibrary,addTrip,removeTrip,dayLabel,validDate,addItem,moveItem,groupItems,duplicateTrip,removeWithUndo,restoreRemoved,transferItem,journeyOverview,togglePreparation} from '../lib/journey.mjs';
+import {readJourneyData} from '../lib/journey-data.mjs';
+function initializeJourney(){
+const publicData=readJourneyData(document);
+if(!publicData)return;
 const journeyCatalog=publicData.catalog;
 const storyTrails=publicData.trails||[];
 const starterSelection={starters:publicData.starters};
-import {STORAGE_KEY,LIBRARY_KEY,emptyLibrary,loadLibrary,addTrip,removeTrip,dayLabel,validDate,addItem,moveItem,groupItems,duplicateTrip,removeWithUndo,restoreRemoved,transferItem,journeyOverview,togglePreparation} from '../lib/journey.mjs';
 const catalog=new Map(journeyCatalog.map(item=>[item.id,item]));
 let storage:Storage;
 try{storage=window.localStorage;}catch{storage={getItem(){throw Error('unavailable');},setItem(){throw Error('unavailable');}} as unknown as Storage;}
@@ -371,3 +374,6 @@ document.querySelectorAll<HTMLButtonElement>('[data-journey-starter]').forEach(b
 }));
 updateButtons();
 window.addEventListener('storage' ,e=>{if(e.key===LIBRARY_KEY||e.key===STORAGE_KEY||e.key===null){setBlocked('Your journey changed in another tab. Export any unsaved work here, then reload to use the latest copy.');}});
+
+}
+initializeJourney();

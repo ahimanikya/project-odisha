@@ -1,0 +1,17 @@
+---
+import Brand from "./Brand.astro";
+const {active=""}=Astro.props;
+const navLinks=[["/explore/","Explore","explore"],["/journey/","My journey","journey"],["/about/","Our purpose","about"],["/contribute/","Be part of it","contribute"]];
+---
+<div class="topline"><span>ROOTED IN ODISHA. OPEN TO THE WORLD.</span><span lang="or">ପ୍ରୋଜେକ୍ଟ ଓଡ଼ିଶା</span></div>
+<header class="header wrap utk-header">
+ <a class="home-link" href="/" aria-label="Project Odisha home"><Brand/></a>
+ <nav class="utk-nav desktop-navigation" aria-label="Main navigation">
+  <a href="/explore/" aria-current={active==='explore'?'page':undefined}>Explore</a>
+  <a href="/journey/" aria-current={active==='journey'?'page':undefined}>My journey</a>
+  <a href="/about/" aria-current={active==='about'?'page':undefined}>Our purpose</a>
+  <a class="nav-contribute utk-button utk-button--secondary" href="/contribute/" aria-current={active==='contribute'?'page':undefined}>Be part of it <span aria-hidden="true">↗</span></a>
+ </nav>
+ <details class="mobile-navigation"><summary>Menu</summary><nav aria-label="Main navigation">{navLinks.map(([href,label,key])=><a href={href} aria-current={active===key?'page':undefined}>{label}</a>)}</nav></details>
+</header>
+<script>const menu=document.querySelector<HTMLDetailsElement>('.mobile-navigation');menu?.addEventListener('keydown',event=>{if(event.key==='Escape'&&menu.open){menu.open=false;menu.querySelector('summary')?.focus();event.preventDefault();}});</script>

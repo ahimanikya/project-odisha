@@ -1,0 +1,275 @@
+{
+  "checked_at": "2026-10-29T02:47:03.923940+00:00",
+  "input_head": "d0d00e533f4448968d62e303947d28157a23cd55",
+  "status": "pass; implementation frozen for independent review",
+  "files_changed": [
+    "kb/research/culture/odia-dhaga.md",
+    "projects/site/src/components/SiteFooter.astro",
+    "projects/site/src/components/SiteHeader.astro",
+    "projects/site/src/data/journey-catalog.ts",
+    "projects/site/src/layouts/Shell.astro",
+    "projects/site/src/lib/journey-data.mjs",
+    "projects/site/src/pages/internal/dhaga-chrome.astro",
+    "projects/site/src/pages/stories/odia-dhaga.astro",
+    "projects/site/src/scripts/journey.ts",
+    "projects/site/tests-coast/cuttack-literature.test.mjs",
+    "projects/site/tests-coast/dhaga-article.test.mjs",
+    "projects/site/tests/build.test.mjs",
+    "projects/site/tests/dhaga-article.test.mjs",
+    "projects/site/tests/dhaga-export.test.mjs",
+    "projects/site/tests/journey-data.test.mjs",
+    "projects/site/tests/shared-journey-data.test.mjs",
+    "projects/site/tools/build-publication.mjs",
+    "projects/site/tools/export-dhaga.mjs",
+    "projects/site/tools/nimuhi-footnote-heading.mjs",
+    "projects/site/tools/shared-journey-data.mjs"
+  ],
+  "source_preservation": "Reviewed draft e085ee5fe76c79a553f22164ad9dfd46b48850ee45f60120088bca93f2ef2825 copied with first title/byline extracted to frontmatter; complete remaining body unchanged.",
+  "portable_id": "reading:stories/odia-dhaga",
+  "shared_chrome": "Header and Footer extracted preserving existing Shell markup, notebook slot and PageShare. Build-only internal endpoint emits components/scoped adapter CSS and module scripts; exporter consumes and removes endpoint. Single CSS asset avoids repeated162-page inline payload. Book controls remain intact.",
+  "guidance": {
+    "skill": "modern-web-guidance",
+    "guide": "/tmp/dhaga-accessibility-guidance.txt",
+    "quote": "Use one <main> landmark per page",
+    "application": "Native shared navigation, distinct footer navigation names, single main/skip target, static Odia lang spans, native note anchors/return links. Ordinary reading and menu remain available without JS."
+  },
+  "tests": [
+    {
+      "stage": "initial Astro build",
+      "result": "544 routes built; exporter failed18MB cap18329792 bytes"
+    },
+    {
+      "stage": "shared CSS correction",
+      "result": "export passed17786462 bytes; all159 narrative/source checks pass"
+    },
+    {
+      "stage": "focused initial",
+      "result": "5/6; paragraph matcher falsely counted footnote numbers/inline spacing. Corrected test text extraction,6/6 pass."
+    },
+    {
+      "stage": "extra chrome test invocation",
+      "result": "wrong cwd caused missing ../odia-dhaga/collection.json; full suite now running from site directory."
+    },
+    {
+      "stage": "final full build",
+      "result": "PASS; Dhaga17787428 bytes327files"
+    },
+    {
+      "stage": "full suite",
+      "result": "one failure build.test routecount838 vs837; all other tests pass"
+    },
+    {
+      "stage": "coastal build",
+      "result": "PASS824pages2297files; Dhaga17780786bytes"
+    },
+    {
+      "stage": "coastal suite",
+      "result": "one failure cuttack-literature.test readingcount50 vs49; all other tests pass"
+    },
+    {
+      "stage": "actual Chrome",
+      "result": "1440x1000 and390x844 article/book/048/sources no overflow; mobile menu Enter/Escape; exact footnote return both viewports. Initial mobile assertion ran before requestAnimationFrame focus, corrected wait passed without source changes."
+    },
+    {
+      "stage": "preview saved reading",
+      "result": {
+        "checked_at": "2026-10-29T01:44:26.337Z",
+        "persisted": "Saved to my journey ✓",
+        "filename": "My-Odisha-Journey-book-2026-10-29.html",
+        "bytes": 16281,
+        "hasTitle": true,
+        "hasEnding": true,
+        "hasLicense": true,
+        "hasRevision": true
+      }
+    },
+    {
+      "stage": "final focused tests",
+      "result": "9/9 passed; all31 portable paragraphs checked against canonical source"
+    },
+    {
+      "stage": "actual downloaded HTML",
+      "result": {
+        "checked_at": "2026-10-29T01:44:26.337Z",
+        "persisted": "Saved to my journey ✓",
+        "filename": "My-Odisha-Journey-book-2026-10-29.html",
+        "bytes": 16281,
+        "hasTitle": true,
+        "hasEnding": true,
+        "hasLicense": true,
+        "hasRevision": true,
+        "complete_portable_paragraph_count": 31,
+        "missing_paragraphs": [],
+        "all_portable_paragraphs_retained": true
+      }
+    },
+    {
+      "stage": "coastal auxiliary gates",
+      "result": "disclosure PASS,3296/3296coast checks, discovery PASS, searchreview11proposed, launch11sitemap/14contrast pairs PASS"
+    },
+    {
+      "stage": "preservation",
+      "result": "git diff projects/odia-dhaga empty; git diff --check PASS"
+    },
+    {
+      "stage": "publication assembly",
+      "result": "FAIL:1009186386bytes exceeds1000000000budget by9186386. No budget increase or unrelated content deletion."
+    },
+    {
+      "stage": "authorized count corrections",
+      "result": "route838 andreading50 confirmed; prior count-only failures resolved without removing assertions"
+    },
+    {
+      "stage": "actual published-tree catalog failure/recovery",
+      "result": "PASS; all31paragraphs exact in downloaded book; storage unchanged during blocked asset; recovery preserves saved article"
+    },
+    {
+      "stage": "final pipeline",
+      "result": "Full build+636/636 tests; coast build+525/525 tests; publication assembly PASS604682285bytes,11indexable"
+    },
+    {
+      "stage": "final publication gates",
+      "result": "Disclosure zero violations; searchshortlist11/11PASS; git diff --checkPASS"
+    }
+  ],
+  "current_logs": [
+    "/tmp/dhaga-article-final-full-build.log",
+    "/tmp/dhaga-article-full-tests.log",
+    "/tmp/dhaga-article-coast-build.log",
+    "/tmp/dhaga-article-coast-tests.log",
+    "/tmp/dhaga-article-publication.log",
+    "/tmp/dhaga-article-focused-final.log",
+    "/tmp/dhaga-article-shortlist.log"
+  ],
+  "limits": [
+    "Local preview and assembled publication tested; no live deployment or Git mutation performed.",
+    "Independent review and coordinator commit/CI/publication remain required.",
+    "Initial exporter budget failure, obsolete count failures and mobile assertion timing race retained in test history.",
+    "Shared catalog introduces one same-origin script request; actual missing-asset test confirms visible retry guidance, disabled mutation/download tools and unchanged saved data.",
+    "No canonical standalone book entry/art/PDF changes."
+  ],
+  "browser_report": "browser-check.json",
+  "download": "downloaded-book.html",
+  "screenshots": [
+    "article-1440.png",
+    "article-390.png",
+    "book-1440.png",
+    "book-390.png",
+    "048-1440.png",
+    "048-390.png",
+    "sources-1440.png",
+    "sources-390.png",
+    "article-notes-390.png",
+    "article-footer-390.png",
+    "book-footer-390.png"
+  ],
+  "full_suite": {
+    "tests": 636,
+    "passed": 636,
+    "failed": 0,
+    "log": "/tmp/dhaga-shared-full-tests.log"
+  },
+  "coast_suite": {
+    "tests": 525,
+    "passed": 525,
+    "failed": 0,
+    "log": "/tmp/dhaga-shared-coast-tests.log"
+  },
+  "budget_diagnosis": {
+    "pages_with_inline_catalog": 530,
+    "all_inline_catalog_bytes": 405353010,
+    "new_complete_article_repeated_bytes": 10350900,
+    "public_dhaga_bytes": 17780462,
+    "recommendation": "Coordinator to authorize shared catalog delivery or other evidence-based narrow optimization; preserve full prose."
+  },
+  "shared_catalog_fix": {
+    "scope": "publication-only content-hashed classic script; tested full/coast JSON retained",
+    "failure": "initializer returns before localStorage when catalog missing/malformed; visible reload guidance, controls disabled",
+    "focused_tests": "4/4 passed",
+    "preservation": "exact serialized JSON roundtrip, no prose trimming or budget increase",
+    "actual_equivalence": {
+      "compared": 530,
+      "unique_assets": [
+        "assets/journey-data-d34d7ac61449a2bb9e88898e85d07cad810a318e5b1809b4c18500c23fbe009a.js"
+      ],
+      "exact": true
+    },
+    "asset_bytes": 789205
+  },
+  "published_browser": {
+    "checked_at": "2026-10-29T02:42:01.832Z",
+    "published_tree": true,
+    "persisted": "Saved to my journey ✓",
+    "recovered": "Saved to my journey ✓",
+    "failure": {
+      "message": "Journey tools could not load. Your saved journeys are unchanged. Reload this page to try again.",
+      "saveDisabled": true,
+      "storageUnchanged": true,
+      "downloadDisabled": true,
+      "journeyStorageUnchanged": true
+    },
+    "download": {
+      "path": "published-downloaded-book.html",
+      "bytes": 16281,
+      "paragraphs_checked": 31,
+      "missing_paragraphs": [],
+      "source_revisions_retained": true
+    },
+    "width": 390,
+    "scrollWidth": 390
+  },
+  "result": "pass",
+  "publication": {
+    "result": "pass",
+    "bytes": 604682285,
+    "limit": 1000000000,
+    "indexable_pages": 11,
+    "initial_failed_bytes": 1009186386,
+    "reduction_bytes": 404504101,
+    "source_catalog_equivalence": "530/530 exact",
+    "asset_count": 1,
+    "asset_bytes": 789205
+  },
+  "preservation_report": "preservation.json",
+  "file_hashes": {
+    "kb/research/culture/odia-dhaga.md": "47f98a756f04b2c6fc2027deeca85e48dd39bb83dcc2f4a1ba541741011fc845",
+    "projects/site/src/components/SiteFooter.astro": "e44dedd67407551dc16d3884877218bcca24f1b12c85a20483897f3afcf4eee9",
+    "projects/site/src/components/SiteHeader.astro": "b7bbe6360600bb4b265b5902490abf6f5e677a2dc7b2cae2bad1fd591c56c3e4",
+    "projects/site/src/data/journey-catalog.ts": "fa4bad5b29456056661dba710529499b89044a9919fb32c597bca44f172bb263",
+    "projects/site/src/layouts/Shell.astro": "92e5506af4372276c9c0fc2e7867522284bd78326e7d10b111502d8e527a1e93",
+    "projects/site/src/lib/journey-data.mjs": "cd387294ad81be85d4105a5fe2fd555214d8725b612bcea2ceaf3a12f1e1dd34",
+    "projects/site/src/pages/internal/dhaga-chrome.astro": "153aad8b5a512a20473a10fdc614c084098d0dca23723e39543b670bc262d659",
+    "projects/site/src/pages/stories/odia-dhaga.astro": "ad3f742ff23f0c6d9fe4ae1676375ed67df65cdbd2a221d528bdf514f2ed36c2",
+    "projects/site/src/scripts/journey.ts": "3359e070b8422cccb17c8a7272b890555d513f17bebcb5a8dd16d64bc07e55eb",
+    "projects/site/tests-coast/cuttack-literature.test.mjs": "388ec9ac40835343f52ab9986bd30274baf2a5506d2eb99d8324cde371933bd0",
+    "projects/site/tests-coast/dhaga-article.test.mjs": "48764d967729644387be8153d19f0b9c3c70b0164ef4281147526aebab67f622",
+    "projects/site/tests/build.test.mjs": "fd677a938e34d3a6c95c377e367ea44e86cef50f80d3ded07fa11573172e2a0a",
+    "projects/site/tests/dhaga-article.test.mjs": "41a15d9434d902cc08635003bc317231dea9cb4209c9875c19d056a19b448632",
+    "projects/site/tests/dhaga-export.test.mjs": "3d08c3cfed7f58f0cfa0013e19c1fb833838386224ed06fd0b1cbeaf88d060da",
+    "projects/site/tests/journey-data.test.mjs": "bd866703f2344d7f27e0da89fbabd9275ec5dd4120ba18f2e6b3ffa2a2723afa",
+    "projects/site/tests/shared-journey-data.test.mjs": "9a83e0578d51cb19ee3176ea9bd7522ca7b181a7980d3307b209b2f03a74e1eb",
+    "projects/site/tools/build-publication.mjs": "29055cd68cc5a2ec83b69dc84a44381709dfa5f9a7f52154aeecd27a4d0f4887",
+    "projects/site/tools/export-dhaga.mjs": "e4454beec4c1b5f73ba4500904241496bb1fbfff90dea8b15bf25d0b61db0d72",
+    "projects/site/tools/nimuhi-footnote-heading.mjs": "c38731a6c4b289520d15cf4afc6ec7332ac4726f814aacb98b343a954c0416a2",
+    "projects/site/tools/shared-journey-data.mjs": "8f3cff6d2a0aa2a65ed07d2d2ee4fd87451829e691511bceccb0282f3e63ab37"
+  },
+  "final_logs": [
+    "logs/dhaga-shared-full-build.log",
+    "logs/dhaga-shared-full-tests.log",
+    "logs/dhaga-shared-coast-build.log",
+    "logs/dhaga-shared-coast-tests.log",
+    "logs/dhaga-shared-publication.log",
+    "logs/dhaga-shared-disclosure-coast.log",
+    "logs/dhaga-shared-audit-coast.log",
+    "logs/dhaga-shared-discovery.log",
+    "logs/dhaga-shared-launch.log",
+    "logs/dhaga-shared-disclosure-publication.log",
+    "logs/dhaga-shared-shortlist.log",
+    "logs/dhaga-catalog-equivalence.json"
+  ],
+  "browser_scripts": [
+    "/tmp/dhaga-article-browser-final.cjs",
+    "/tmp/dhaga-article-download.cjs",
+    "/tmp/dhaga-published-catalog-browser.cjs"
+  ]
+}

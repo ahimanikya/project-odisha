@@ -1,0 +1,17 @@
+---
+import SiteHeader from '../../components/SiteHeader.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+---
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="robots" content="noindex, nofollow"/><title>Internal chrome export</title></head><body>
+<div data-dhaga-header class="pod-chrome"><SiteHeader active="explore"/></div>
+<div data-dhaga-footer class="pod-chrome"><SiteFooter pathname="__DHAGA_PATH__"/></div>
+</body></html>
+<style is:global>
+/* Only the public adapter's shared chrome: never restyle the book or Shell. */
+.pod-chrome{--earth:#91462f;--ink:#29251e;--sea:#234b48;--muted:#655f55;--line:#d9d0c0;--paper:#fffaf0;--light:#fffaf0;font:1rem/1.6 system-ui,sans-serif;color:var(--ink);text-align:left;clear:both}
+.pod-chrome *{box-sizing:border-box}.pod-chrome .wrap{width:calc(100% - 48px);max-width:1280px;margin-inline:auto}.pod-chrome a{color:inherit;text-decoration:none}.pod-chrome a:hover{text-decoration:underline}.pod-chrome :is(a,button,summary):focus-visible{outline:3px solid #91462f;outline-offset:4px}.pod-chrome .topline{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:10px 24px;background:#234b48;color:#fffaf0;font-size:11px;letter-spacing:.08em}.pod-chrome .header{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:24px 0;margin-block:0;max-width:1280px;border:0;text-align:left}.pod-chrome .brand{display:inline-flex}.pod-chrome .brand-signature{display:block;width:240px;height:auto;max-width:100%;margin:0}.pod-chrome .header nav{display:flex;gap:24px;align-items:center}.pod-chrome nav a{display:inline-flex;align-items:center;min-height:44px;font-size:14px}.pod-chrome .mobile-navigation{display:none}.pod-chrome .nav-contribute,.pod-chrome button{padding:8px 14px;border:1px solid #91462f;background:transparent;color:#29251e;font:inherit}.pod-chrome .footer{border-top:3px solid #91462f;margin:48px 0 0;padding:40px 0 20px;max-width:none;background:#f3eee3;text-align:left}.pod-chrome .footer-grid{display:grid;grid-template-columns:minmax(240px,1.4fr) repeat(3,minmax(0,1fr));gap:32px}.pod-chrome .footer-links{display:flex;flex-direction:column;align-items:flex-start;gap:4px}.pod-chrome h2.eyebrow{font:650 .75rem/1.5 system-ui,sans-serif;letter-spacing:.1em;text-transform:uppercase;margin:0 0 12px}.pod-chrome .footer p{font:inherit;margin:12px 0}.pod-chrome .footer-bottom{display:flex;justify-content:space-between;gap:16px;border-top:1px solid #d9d0c0;margin-top:24px;padding-top:24px;font-size:12px}.pod-chrome [hidden]{display:none!important}.pod-chrome .page-share input{max-width:100%}
+@media(max-width:1000px){.pod-chrome .footer-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.pod-chrome .footer-intro{grid-column:1/-1}}
+@media(max-width:700px){.pod-chrome .wrap{width:calc(100% - 32px)}.pod-chrome .header{flex-wrap:wrap;gap:12px}.pod-chrome .header .desktop-navigation{display:none}.pod-chrome .mobile-navigation{display:block;width:100%;border:1px solid #d9d0c0;padding:0 12px;margin:0}.pod-chrome summary{cursor:pointer;min-height:44px;padding:10px 0}.pod-chrome .mobile-navigation nav{display:flex;flex-direction:column;align-items:stretch;gap:4px;padding-bottom:12px}.pod-chrome .footer-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.pod-chrome .footer-bottom{flex-direction:column}.pod-chrome .brand-signature{width:210px}.pod-chrome .topline{padding-inline:16px}}
+@media(max-width:360px){.pod-chrome .footer-grid{grid-template-columns:1fr}}
+@media print{.pod-chrome{display:none}}
+</style>

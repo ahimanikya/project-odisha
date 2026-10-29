@@ -1,0 +1,22 @@
+---
+import SaveJourney from '../../components/SaveJourney.astro';
+import Shell from '../../layouts/Shell.astro';
+import ArticleByline from '../../components/ArticleByline.astro';
+import OdiaConnectedReading from '../../components/OdiaConnectedReading.astro';
+import '../../styles/article-reading.css';
+import {Content,frontmatter} from '../../../../../kb/research/culture/odia-dhaga.md';
+---
+<Shell title={frontmatter.title} description={frontmatter.description} active="explore" wide related={false}>
+<article class="article-reading dhaga-essay">
+<header><p class="eyebrow">Language · Culture · Literature</p><h1>{frontmatter.title}</h1><ArticleByline author={frontmatter.author}/></header>
+<div class="actions"><SaveJourney id="reading:stories/odia-dhaga" quiet/><a href="/dhaga/">Open Words We Carry →</a></div>
+<Content/>
+<OdiaConnectedReading current="odia-dhaga"/>
+<section aria-labelledby="dhaga-next"><h2 id="dhaga-next">Further reading</h2><p><a href="/dhaga/">Words We Carry: the illustrated Dhaga collection →</a></p><p><a href="/languages/odia/">The Odia language →</a></p></section>
+<p><a href="/contribute/?page=%2Fstories%2Fodia-dhaga%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
+</article></Shell>
+<script>
+import {bindStorySourceLinks} from '../../lib/story-source-links.mjs';
+document.querySelectorAll('.dhaga-essay sup,.dhaga-essay .footnotes').forEach(group=>bindStorySourceLinks(group,document));
+</script>
+<style>.dhaga-essay :global(.footnotes h2){position:static;width:auto;height:auto;margin:0 0 1rem;overflow:visible;clip:auto;clip-path:none;white-space:normal}.dhaga-essay :global(.footnotes){margin-top:3rem}.dhaga-essay :global(.footnotes li){scroll-margin-top:2rem;overflow-wrap:anywhere}.actions{display:flex;flex-wrap:wrap;gap:1rem;align-items:center;margin-block:1.5rem}</style>
