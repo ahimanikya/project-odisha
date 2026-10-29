@@ -1,0 +1,24 @@
+---
+import SaveJourney from '../../components/SaveJourney.astro';
+import Shell from '../../layouts/Shell.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
+import ArticleByline from '../../components/ArticleByline.astro';
+import OdiaConnectedReading from '../../components/OdiaConnectedReading.astro';
+import '../../styles/article-reading.css';
+import {Content,frontmatter} from '../../../../../kb/research/culture/essential-odia-dhaga.md';
+---
+<Shell title={frontmatter.title} description={frontmatter.description} active="explore" wide related={false}>
+<article class="article-reading dhaga-essay">
+<header><p class="eyebrow">Dhaga Series · Reading companion</p><h1>{frontmatter.title}</h1><ArticleByline author={frontmatter.author}/></header>
+<div class="actions"><SaveJourney id="reading:stories/essential-odia-dhaga" quiet/><a href="/dhaga/">Open Words We Carry →</a></div>
+<figure class="companion-cover"><img src="/dhaga/assets/dhaga-cultural-cover-v2.webp" width="760" height="1074" alt="An illustrated tree grows from an open travelling suitcase, a metaphor for language remaining alive across distance." fetchpriority="high"/><figcaption>The cover illustration of <em>Words We Carry</em>. Project Odisha · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</figcaption></figure>
+<Content/>
+<OdiaConnectedReading current="essential-odia-dhaga"/>
+<ArticleReadingPath id="dhaga-next" heading="Further reading" links={[{href:'/stories/odia-dhaga/',title:'The Poetry We Speak: the series introduction',description:'How everyday sayings carry language, humour and cultural memory.',image:'/dhaga/assets/dhaga-cultural-cover-v2.webp'},{href:'/dhaga/',title:'Words We Carry: the illustrated Dhaga collection',description:'Read the full collection and download the book.',image:'/dhaga/assets/dhaga-cultural-cover-v2.webp'},{href:'/languages/odia/',title:'The Odia language'}]}/>
+<p><a href="/contribute/?page=%2Fstories%2Fessential-odia-dhaga%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
+</article></Shell>
+<script>
+import {bindStorySourceLinks} from '../../lib/story-source-links.mjs';
+document.querySelectorAll('.dhaga-essay sup,.dhaga-essay .footnotes').forEach(group=>bindStorySourceLinks(group,document));
+</script>
+<style>.dhaga-essay :global(blockquote p){white-space:pre-line}.companion-cover{margin:2rem auto;max-width:28rem}.companion-cover img{display:block;width:100%;height:auto}.companion-cover figcaption{font-size:.9rem;line-height:1.5;margin-top:.75rem}.dhaga-essay :global(.footnotes h2){position:static;width:auto;height:auto;margin:0 0 1rem;overflow:visible;clip:auto;clip-path:none;white-space:normal}.dhaga-essay :global(.footnotes){margin-top:3rem}.dhaga-essay :global(.footnotes li){scroll-margin-top:2rem;overflow-wrap:anywhere}.actions{display:flex;flex-wrap:wrap;gap:1rem;align-items:center;margin-block:1.5rem}</style>

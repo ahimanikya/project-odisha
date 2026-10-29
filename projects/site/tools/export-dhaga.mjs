@@ -67,7 +67,7 @@ export async function exportDhaga(destination){
   html=html.replace('Read locally, share carefully.','Read and share with care.');
   if(route==='/dhaga/'){
    if(!html.includes('<img class="book-cover"'))throw Error('Dhaga collection cover anchor missing');
-   html=html.replace('<img class="book-cover"','<p><a href="/stories/odia-dhaga/">Read the introduction: The Poetry We Speak →</a></p><img class="book-cover"');
+   html=html.replace('<img class="book-cover"','<p><a href="/stories/odia-dhaga/">Read the introduction: The Poetry We Speak →</a></p><p><a href="/stories/essential-odia-dhaga/">Essential Odia Dhaga: 25 Sayings to Carry With You →</a></p><img class="book-cover"');
   }
   const links='<nav aria-label="Project Odisha and book sources"><a href="/explore/">Explore Project Odisha</a> · <a href="/dhaga/sources.html">Sources &amp; rights</a> · <a href="/about/editorial-process/">Our editorial process</a></nav>';
   html=html.replace(/<footer>/,'<footer>'+links);
