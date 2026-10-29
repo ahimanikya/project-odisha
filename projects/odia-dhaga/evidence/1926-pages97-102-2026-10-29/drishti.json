@@ -1,0 +1,54 @@
+{
+  "review_type": "separate AI actual visual inventory and proposed-delta review",
+  "decision": "PASS_WITH_LIMITATIONS",
+  "input_head": "41f02e476f17d89c74e445d913a543c0f7f65d68",
+  "requested_input_head": "41f02e476f17d89c74e445d913a543c0f7f65d68",
+  "report_hashes": {
+    "anvesha.json": "97af448a55723faa69a0fd21015baeb04cd755c928d4ab895b6eefebabc92e45",
+    "samanta.json": "3c5cf480070f35872b6a9bca6cf1dd8b607f013c208227256661e31335c5046a",
+    "proposed-ledger-delta.json": "51f144598be88a1e411fd2ac929fde54ba41ef4e5af17f8366b95bfafe91f5f6"
+  },
+  "source_sha256": "fe6b974c2b2b6de7a11ff34a2c79bb2bfc4986d8ecf6d9da08eca9d02f1e8863",
+  "actual_pages_individually_viewed": [
+    97,
+    98,
+    99,
+    100,
+    101,
+    102
+  ],
+  "render_sha256": {
+    "97": "cf890e40f7bd461b362a738032c7880e7ae4e5f7f9eeebc3a537f822c318b672",
+    "98": "b1227cc3bbbd0062b9e6b754582f1d1dcd5f5ea4d46790c277162c5ebb67eb8e",
+    "99": "228dc90cbf90cca73442fa043b2c401806460112434bc89837eeb840eaa02368",
+    "100": "7983b7cc565cf8523b774eb281e6e65bbef2d5a2c355540b37a6ebdf2d453763",
+    "101": "01f2c4de043105ff90e71c7e34c5a9cc298fe443bfa60287b81b38766ba87b25",
+    "102": "8867e3665ba5cda75a9c7f931d24608221e0cb12a953911671bf6c4b1ebbc2ba"
+  },
+  "blocking_findings": [],
+  "visual_findings": {
+    "97": "Continued numbered material with bracketed notes; damaged left-margin digits and scattered glyph dropout.",
+    "98": "Continued section with subordinate lettered item and long notes; right margin damages endings.",
+    "99": "No new heading/reset; strong upper/right fading prevents full-word certification.",
+    "100": "Continued numbered formulations/notes, including short lower item at provisional58. Corrections/overprinting not normalized.",
+    "101": "Continued section with short central entries and long final item crossing page boundary.",
+    "102": "Begins continuation from101, then further numbered entries/extended bracketed notes to bottom; no new section heading. Continuation beyond102 is not certified without103."
+  },
+  "checks": [
+    "All six actual1200x1800 images independently viewed individually; render hashes agree with both frozen reports and dimensions verified.",
+    "Recovered source PDF SHA independently matches exact prior provenance fe6b974c2b2b6de7a11ff34a2c79bb2bfc4986d8ecf6d9da08eca9d02f1e8863.",
+    "Continued ଗ across all six pages; no observed heading or reset. Provisional printed65–70/section23–78 locators are not certified text or unique-saying counts.",
+    "Two candidate positions100/58 and101/68 retain null exact/normalized/meaning/corpus relation and unaccepted status. No spelling restoration or modern-corpus mapping endorsed.",
+    "Proposal baseline hash and exact precondition row match canonical ledger; exactly five1926 fields change in memory. Idempotent reapplication passes; other source rows/top-level values and all full/human/acceptance fields preserved.",
+    "Canonical next remains97 until reviewed integration; proposed next103 is conditional. Full cursor31,1893full2/83drafts and159/159/90book/75pending remain unchanged."
+  ],
+  "safe_next_action": "After separately reviewed canonical integration, continue bounded inventory atPDF103; keep full-transcription cursor31 and rights/creator-role/repetition questions open.",
+  "limits": [
+    "Structural page inventory only, not full transcription, glyph certification, deduplicated saying count or human proofreading.",
+    "No copyright/reuse clearance inferred from public access, date or recovered bytes; no1990 reprint equivalence.",
+    "No public facsimile, accepted wording/meaning, new entry or programme credit.",
+    "No canonical/Git/product modifications; only this output review written."
+  ],
+  "accepted_increment": 0,
+  "programme_credit": 0
+}
