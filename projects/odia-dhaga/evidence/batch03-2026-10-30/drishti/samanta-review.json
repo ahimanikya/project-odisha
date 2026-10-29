@@ -1,0 +1,72 @@
+{
+  "review_type": "Separate AI source/language review; not human review",
+  "input_head": "b9037de95c504afbf0ab5c97f3ac9b82d9ce7dc8",
+  "baseline_collection_sha256": "72b8adbf0b8ddbf8b4fe591bf569d201ef0b3ade277e093368c8156f17aecf53",
+  "accepted_increment": 0,
+  "limits": [
+    "Read saved complete API captures, not fresh network retrieval or historical facsimiles.",
+    "No earliest-origin, independent oral lineage, popularity or native-human proofreading claim.",
+    "Output-only proposals: no IDs, canonical edits, artwork or publication approval."
+  ],
+  "rights": "Preserve exact revision and contributor attribution plus established CC BY-SA4.0 adaptation terms. This is digital-source reuse, not a new public-domain certification.",
+  "decision": "PASS after one narrow correction: three ready drafts and two deferrals",
+  "inputs": {
+    "samanta/report.json": "50da996d4ec84d4a1797d0725892ff41a9cfce09662f9d8b40fcfec2fe8806f4",
+    "samanta/candidates.json": "4dc8bb0cce14a14c25ab81669475956643b1d2f517b89bd945247f5558fcc09e",
+    "samanta/captures/incubator-145358-r3584061.json": "bdfdf82f8c45550f6832b11c1dc31f95f85fb3f4fdaf8dbb467f189415ecbaf0",
+    "samanta/captures/incubator-147630-r668805.json": "ccd8cce821496ab5dea41e51fa77fbc4e58113b525c3b109089e8e6bae3969d7",
+    "samanta/captures/lexical.json": "a11d5875a1a7ca9c8a25d1f0528038a08ff8105ef63ee46399a6cf4ed54733f2"
+  },
+  "per_candidate": [
+    {
+      "key": "samanta-b03-01",
+      "decision": "ready_for_assembly",
+      "findings": "668805 explicitly glosses hard lesson and remembering the other person. Irony and lingering sack-washing are reasonable literary readings, not an invented origin story. Imagined bicycle example labelled. Distinct from029 remembered slight."
+    },
+    {
+      "key": "samanta-b03-03",
+      "decision": "ready_for_assembly_after_correction",
+      "findings": "3584061 explicitly pairs the selected root-wiping idiom with ଖୋଳ କରିବା and complete destruction. Selected headword exact; alternate is zero-count related expression. Distinct genre/function from091 root-removal conflict proverb. Unsupported prohibition on hyperbolic use removed from final Odia; source does not settle such usage."
+    },
+    {
+      "key": "samanta-b03-05",
+      "decision": "ready_for_assembly",
+      "findings": "Exact3584061 horse/stake text and weak-governance gloss preserved. Wider responsibility/boundaries application explicitly editorial, no harsh-discipline prescription or origin story. Distinct from146 immobility and078 unsuitable ruler/adviser."
+    },
+    {
+      "key": "samanta-b03-02",
+      "decision": "defer",
+      "findings": "Source figurative gloss present but actual ଅଗିରା literal scene unresolved; no festival-origin restoration."
+    },
+    {
+      "key": "samanta-b03-04",
+      "decision": "defer",
+      "findings": "Actual ମୂଳ retained. Captured dictionary distinguishes ମୂଲ price; ship-price literal would silently alter witness."
+    }
+  ],
+  "correction_history": {
+    "prior_candidates_sha256": "233e4f6651763968d3ccee0515a7bb1761a6abfdbe6277fc07e3eb16ec1ee830",
+    "resolution": "Re-read corrected root-wiping Odia; unsupported no-exaggeration clause removed. No source wording change."
+  },
+  "actual_checks": [
+    "Read complete saved668805/3584061 and lexical194542/214029/200633 plus missing-page result.",
+    "Reviewed all bilingual drafts, original imagined examples, genre and source gloss distinctions.",
+    "Verified exact headwords occur in decoded captures and no normalized baseline/cross-batch matches."
+  ],
+  "automated_checks": [
+    {
+      "key": "samanta-b03-01",
+      "baseline_exact_normalized_matches": []
+    },
+    {
+      "key": "samanta-b03-03",
+      "baseline_exact_normalized_matches": []
+    },
+    {
+      "key": "samanta-b03-05",
+      "baseline_exact_normalized_matches": []
+    }
+  ],
+  "blocking_findings": [],
+  "next_action": "Assemble three corrected drafts with source records; keep two lexical deferrals outside additions."
+}
