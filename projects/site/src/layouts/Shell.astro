@@ -3,12 +3,13 @@ import {publicJourney} from '../data/public-journey';
 import {allowsPage} from '../data/edition';
 const safeJSON=JSON.stringify(publicJourney).replaceAll('<','\\u003c');
 import Analytics from '../components/Analytics.astro';
-import Brand from '../components/Brand.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
 import ContextTrail from '../components/ContextTrail.astro';
 import {discoveryEntries} from '../data/discovery';
 import {sharingImage} from '../lib/page-context.mjs';
 import {homeSharingImage} from '../data/home-sharing';
-import PageShare from '../components/PageShare.astro';
+
 import visitNotebooks from '../../../../kb/research/destinations/visit-notebooks.json';
 const notebook=visitNotebooks.notebooks.find(n=>n.route===Astro.url.pathname);
 import pageDescriptions from '../../../../kb/research/coastal-page-descriptions.json';
@@ -20,7 +21,7 @@ import '../styles/global.css';
 import '../styles/design-system.css';
 import designSystem from '../../../design-system/package.json';
 const planningReturn=Astro.url.pathname.startsWith('/visit/stays/')?['/stay-areas/','Compare other stay areas']:Astro.url.pathname.startsWith('/visit/experiences/')?['/things-to-do/','Explore more things to do']:Astro.url.pathname.startsWith('/food/')&&Astro.url.pathname!=='/food/'?['/food/','Explore food & flavours']:Astro.url.pathname.startsWith('/destinations/')&&Astro.url.pathname!=='/destinations/'?['/destinations/','Browse destination guides']:null;
-const navLinks=[['/explore/','Explore','explore'],['/journey/','My journey','journey'],['/about/','Our purpose','about'],['/contribute/','Be part of it','contribute']];
+
 const {title='Discover Odisha. Imagine the possibilities.', description='A growing, shared encyclopedia of Odisha’s people, places and living heritage.',active='',wide=false,related=true,shareImage}=Astro.props;
 const pagePath=Astro.url.pathname==='/404/'?'/404.html':Astro.url.pathname;
 const pageDescription=isCoastalEdition?(pageDescriptions.descriptions[pagePath]||description):description;
@@ -43,46 +44,9 @@ const socialImage=new URL(sharePhoto.src,Astro.site).href;
 
 </head><body id="page-top" class:list={['utk',{'destination-layout':wide}]}>
 <a href="#main" class="skip">Skip to content</a>
-<div class="topline"><span>ROOTED IN ODISHA. OPEN TO THE WORLD.</span><span lang="or">ପ୍ରୋଜେକ୍ଟ ଓଡ଼ିଶା</span></div>
-<header class="header wrap utk-header">
- <a class="home-link" href="/" aria-label="Project Odisha home"><Brand/></a>
- <nav class="utk-nav desktop-navigation" aria-label="Main navigation">
-  <a href="/explore/" aria-current={active==='explore'?'page':undefined}>Explore</a>
-  <a href="/journey/" aria-current={active==='journey'?'page':undefined}>My journey</a>
-  <a href="/about/" aria-current={active==='about'?'page':undefined}>Our purpose</a>
-  <a class="nav-contribute utk-button utk-button--secondary" href="/contribute/" aria-current={active==='contribute'?'page':undefined}>Be part of it <span aria-hidden="true">↗</span></a>
- </nav>
- <details class="mobile-navigation"><summary>Menu</summary><nav aria-label="Main navigation">{navLinks.map(([href,label,key])=><a href={href} aria-current={active===key?'page':undefined}>{label}</a>)}</nav></details>
-</header>
+<SiteHeader active={active}/>
 <main id="main" tabindex="-1"><ContextTrail path={pagePath} title={discoveryEntry?.label||title}/><slot/><VisitorTrailReturn path={pagePath}/>{related&&<RelatedDiscoveries path={Astro.url.pathname}/>}</main>
-<footer class="footer">
-  <div class="wrap footer-grid">
-    <div class="footer-intro"><a href="/" class="home-link" aria-label="Project Odisha home"><Brand/></a><p>Discover Odisha. Imagine the possibilities.</p><p class="footer-mission">People, places and knowledge.<br/>A story we build together.</p><PageShare/>{notebook&&!notebook.editorial_notes_in_article&&<details class="notebook-credit"><summary>Visit notebook notes</summary><p>Original Project Odisha editorial prompts under Ahimanikya Satapathy’s direction. They invite observation and questions; they are not quotations, field reports or confirmed travel arrangements. Factual planning context is supported by the sources below. Guide sources and photograph credits appear above.</p>{notebook.planning_sources?.map(s=><p><a href={s.url}>{s.title}</a> · Planning reference checked {s.checked_on}.</p>)}</details>}</div>
-    <nav class="footer-links" aria-label="About Project Odisha">
-      <h2 class="eyebrow">The project</h2>
-      <a href="/about/">About the project</a>
-      <a href="/founder/">The founder</a>
-      {allowsPage('/about/editorial-process/')&&<a href="/about/editorial-process/">Our editorial process</a>}
-      {allowsPage('/global-connections/')&&<a href="/global-connections/">Global Connections</a>}
-    </nav>
-    <nav class="footer-links" aria-label="Explore and contribute">
-      <h2 class="eyebrow">Take part</h2>
-      {allowsPage('/characters/')&&<a href="/characters/">Character worlds</a>}
-      {allowsPage('/odia-poetry-jhula/')&&<a href="/odia-poetry-jhula/">Odia Poetry Jhula</a>}
-      <a href="/contribute/">Contribute</a>
-      <a href={"/contribute/?page="+encodeURIComponent(Astro.url.pathname)}>Suggest a correction</a>
-      {allowsPage('/brand-review/')&&<a href="/brand-review/">Brand studio</a>}
-    </nav>
-    <nav class="footer-links" aria-label="Website help">
-      <h2 class="eyebrow">Useful links</h2>
-      <a href="/how-to-use/">How to use Project Odisha</a>
-      <a href="/how-to-use/#privacy">Privacy</a>
-      {planningReturn&&allowsPage(planningReturn[0])&&<a href={planningReturn[0]}>{planningReturn[1]}</a>}
-      <a href="#page-top">Back to top ↑</a>
-    </nav>
-  </div>
-  <div class="wrap footer-bottom"><span>Founded by Ahimanikya Satapathy.</span><span>Preview edition · articles await editorial review</span></div>
-</footer>
+<SiteFooter pathname={Astro.url.pathname} planningReturn={planningReturn}>{notebook&&!notebook.editorial_notes_in_article&&<details class="notebook-credit"><summary>Visit notebook notes</summary><p>Original Project Odisha editorial prompts under Ahimanikya Satapathy’s direction. They invite observation and questions; they are not quotations, field reports or confirmed travel arrangements. Factual planning context is supported by the sources below. Guide sources and photograph credits appear above.</p>{notebook.planning_sources?.map(s=><p><a href={s.url}>{s.title}</a> · Planning reference checked {s.checked_on}.</p>)}</details>}</SiteFooter>
 <Analytics canonical={canonical} title={pageTitle}/>
 <script is:inline type="application/json" id="journey-data" set:html={safeJSON}/><script>import "../scripts/journey";</script>
 <script>
@@ -90,6 +54,4 @@ import {bindFragmentNavigation} from '../lib/fragment-navigation.mjs';
 import {bindStoryPrint} from '../lib/story-print.mjs';
 bindStoryPrint(document,window);
 bindFragmentNavigation(document,window);
-const mobileMenu=document.querySelector<HTMLDetailsElement>('.mobile-navigation');
-mobileMenu?.addEventListener('keydown',event=>{if(event.key==='Escape'&&mobileMenu.open){mobileMenu.open=false;mobileMenu.querySelector('summary')?.focus();event.preventDefault();}});
 </script></body></html>

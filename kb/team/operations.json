@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/odia-dhaga-1926-pages91-96-2026-10-28.json",
+  "handoff_home": "records/dhaga-cultural-article-team-2026-10-29.json",
   "roles": [
     {
       "name": "Disha",
@@ -54,13 +54,19 @@
     "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
-  "current_article": null,
+  "current_article": {
+    "id": "POD-EDIT-DHAGA-CULTURAL-20261029",
+    "route": "/stories/odia-dhaga/",
+    "owner": "Disha",
+    "phase": "implementation",
+    "handoff": "records/dhaga-cultural-article-team-2026-10-29.json"
+  },
   "project_identity": "reference/project-identity.md",
   "current_task": {
-    "kind": "dhaga_1926_inventory_integration",
-    "status": "integration_review",
-    "handoff": "records/odia-dhaga-1926-pages91-96-2026-10-28.json",
-    "scope_release": "Own scope releases after separately reviewed exact-head merge, passing checks and remote receipt verification."
+    "kind": "dhaga_cultural_article_and_reader_chrome",
+    "status": "implementation",
+    "handoff": "records/dhaga-cultural-article-team-2026-10-29.json",
+    "scope_release": "After reviewed merge, approved deployment, live verification and receipt integration"
   },
   "parallel_programmes": [
     {
@@ -76,7 +82,7 @@
       "last_completed_handoff": "records/odia-dhaga-audited-majority-2026-10-24.json"
     },
     {
-      "name": "Dhaga historical pages 10–12 research",
+      "name": "Dhaga historical pages 10\u201312 research",
       "handoff": "records/odia-dhaga-historical-10-12-2026-10-24.json",
       "status": "integration_review",
       "note": "Preserved concurrent research handoff from merged PR526; this personal essay does not change its status."
@@ -100,7 +106,7 @@
       "note": "PR588 merged; deployment40352246855success; article,hub,economics andhero verifiedlive. Own scope released."
     }
   ],
-  "coordination_note": "Cinema588 receipt589 merged and scope explicitly released. Dhaga584/586 released. Disha integrating saved separately reviewed1926PDF91–96 inventory; no new research, book changes or programme credit.",
+  "coordination_note": "PR590 and cinema receipt592 are merged/verified/released. Disha coordinates Founder-priority reviewed Dhaga article and reader shared header/footer; no new research or credit.",
   "coordination_notes": "Print card scope releases upon reviewed merge after required checks; local receipt records actual delivery.",
   "onboarding_home": "records/blueprint-persona-onboarding-2026-10-24.json"
 }

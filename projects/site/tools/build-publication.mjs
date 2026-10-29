@@ -1,3 +1,4 @@
+import {shareJourneyData} from './shared-journey-data.mjs';
 // Assemble a deployable artifact from the tested coastal build. Never mutate it.
 import {readFile,writeFile,cp,rm,lstat,readdir,mkdir} from 'node:fs/promises';
 import {optimizePublicationJPEGs} from './optimize-publication-jpeg.mjs';
@@ -30,10 +31,13 @@ export async function buildPublication(site){
  if(nonOptimizableBytes>=1_000_000_000)throw Error(`Publication artifact exceeds the 1 GB budget: ${nonOptimizableBytes} non-optimizable bytes`);
  const paths=scope.routes.map(route=>route==='/'?'index.html':route.slice(1)+(route.endsWith('/')?'index.html':''));
  if(JSON.stringify(files.filter(f=>f.endsWith('.html')&&!(scope.downloads||[]).includes('/'+f)).sort())!==JSON.stringify([...paths].sort()))throw Error('Unexpected HTML outside the public edition');
- const pages=await Promise.all(paths.map(async(path,i)=>({path,html:publicationPage(await readFile(new URL(path,input),'utf8'),scope.routes[i],plan)})));
+ const inlinePages=await Promise.all(paths.map(async(path,i)=>({path,html:publicationPage(await readFile(new URL(path,input),'utf8'),scope.routes[i],plan)})));
+ const {pages,assets:journeyAssets}=shareJourneyData(inlinePages);
  try{if((await lstat(output)).isSymbolicLink())throw Error('Publication output must not be a symlink');}catch(e){if(e.code!=='ENOENT')throw e;}
  await rm(output,{recursive:true,force:true});await cp(input,output,{recursive:true});
  for(const page of pages)await writeFile(new URL(page.path,output),page.html);
+ await mkdir(new URL('assets/',output),{recursive:true});
+ for(const [path,body] of journeyAssets)await writeFile(new URL(path,output),body);
  const controls=publicationCrawlerFiles(plan);
  await writeFile(new URL('robots.txt',output),controls.robots);
  await rm(new URL('sitemap.xml',output),{force:true});

@@ -1,0 +1,83 @@
+{
+  "status": "integration_review",
+  "coordinator": "Disha",
+  "input_head": "d0d00e533f4448968d62e303947d28157a23cd55",
+  "title": "The Poetry We Speak: Why Odia Dhaga Matter",
+  "route": "/stories/odia-dhaga/",
+  "draft_sha256": "e085ee5fe76c79a553f22164ad9dfd46b48850ee45f60120088bca93f2ef2825",
+  "authorization": "Founder connecting Dhaga article and shared reader header/footer direction; POD-DEC-225 routine tested publishing",
+  "scope": [
+    "Integrate existing reviewed draft with shared article layout and full portable reading",
+    "Add shared Project Odisha header/footer to exported reader while preserving book-specific navigation"
+  ],
+  "reserved_files": {
+    "Samanta": [
+      "kb/research/culture/odia-dhaga.md",
+      "projects/site/src/pages/stories/odia-dhaga.astro",
+      "projects/site/src/components/OdiaConnectedReading.astro",
+      "projects/site/src/data/journey-catalog.ts",
+      "projects/site/tools/export-dhaga.mjs",
+      "projects/site/tests/dhaga-article.test.mjs",
+      "projects/site/tests/dhaga-export.test.mjs",
+      "projects/site/tests-coast/dhaga-article.test.mjs",
+      "projects/site/src/components/SiteHeader.astro",
+      "projects/site/src/components/SiteFooter.astro",
+      "projects/site/src/layouts/Shell.astro",
+      "projects/site/src/pages/internal/dhaga-chrome.astro",
+      "projects/site/tools/nimuhi-footnote-heading.mjs",
+      "projects/site/tests/build.test.mjs",
+      "projects/site/tests-coast/cuttack-literature.test.mjs",
+      "projects/site/tools/shared-journey-data.mjs",
+      "projects/site/tools/build-publication.mjs",
+      "projects/site/src/scripts/journey.ts",
+      "projects/site/src/lib/journey-data.mjs",
+      "projects/site/tests/shared-journey-data.test.mjs",
+      "projects/site/tests/journey-data.test.mjs"
+    ],
+    "Disha": [
+      "kb/team/operations.json",
+      "kb/records/dhaga-cultural-article-team-2026-10-29.json",
+      "kb/records/article-editorial-rollout.json",
+      "edition/discovery configuration after exact mapping",
+      "projects/site/editions/coast.json",
+      "projects/site/editions/search-candidate.json",
+      "projects/site/src/pages/explore.astro",
+      "kb/records/article-editorial-work-list.md",
+      "kb/records/evidence/dhaga-cultural-article-2026-10-29/"
+    ]
+  },
+  "review": "Separate Drishti integrated review required after implementation",
+  "preservation": [
+    "159entries159illustrations90pagePDF unchanged",
+    "No invented decline statistics or origin claims",
+    "No search eligibility expansion",
+    "No new saying or programme credit"
+  ],
+  "receipt_prerequisite": "PR592 merged d0d00e533f4448968d62e303947d28157a23cd55;4remote files verified and scope released",
+  "scope_release": "After reviewed merge, approved deployment, live verification and receipt integration",
+  "remaining_gates": [
+    "Separate final exact-head review",
+    "Required CI and reviewed merge",
+    "Approved deployment, live verification and receipt integration"
+  ],
+  "budget_fix": "Publication-only content-hashed shared catalog script; exact data equivalence and loading/failure behavior verified, complete portable prose preserved. No budget increase.",
+  "evidence": [
+    "records/evidence/dhaga-cultural-article-2026-10-29/draft-anvesha.json",
+    "records/evidence/dhaga-cultural-article-2026-10-29/draft-drishti.json",
+    "records/evidence/dhaga-cultural-article-2026-10-29/integration-anvesha.json",
+    "records/evidence/dhaga-cultural-article-2026-10-29/samanta.json",
+    "records/evidence/dhaga-cultural-article-2026-10-29/drishti.json",
+    "records/evidence/dhaga-cultural-article-2026-10-29/browser-check.json",
+    "records/evidence/dhaga-cultural-article-2026-10-29/published-catalog-browser.json",
+    "records/evidence/dhaga-cultural-article-2026-10-29/preservation.json"
+  ],
+  "validation": {
+    "full_tests": "636/636 PASS",
+    "coast_tests": "525/525 PASS",
+    "publication_bytes": 604682285,
+    "indexable_routes": 11,
+    "catalog_payloads_exact": 530,
+    "browser": "Save/download/reload/missing-asset/recovery PASS",
+    "book": "159 entries,159 illustrations,90-page PDF unchanged"
+  }
+}

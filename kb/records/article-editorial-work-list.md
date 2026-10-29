@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 823. completed: 128, excluded: 389, queued: 306.
+Route inventory: 824. completed: 128, excluded: 389, in_progress: 1, queued: 306.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -837,3 +837,4 @@ Route inventory: 823. completed: 128, excluded: 389, queued: 306.
 | POD-EDIT-ANUPAM-PATNAIK-20261027 | [Anupam Patnaik: the work behind the waiting](https://projectodisha.org/people/anupam-patnaik/) | queued | Public profile reviewed locally; awaiting publication review |
 | POD-EDIT-CINEMA-AUTHOR-INTRODUCTION-20261027 | [The Question That Brought Me Here](https://projectodisha.org/cinema/the-question-that-brought-me-here/) | queued | Author-approved personal essay integrated and reviewed locally in series and bothbooks; queued for futurepublication. |
 | POD-EDIT-CINEMA-READING-GUIDE-20261028 | [Cinema reading guide](https://projectodisha.org/cinema/reading-guide/) | excluded | cinema collection navigation and reading utility |
+| POD-EDIT-DHAGA-CULTURAL-20261029 | [The Poetry We Speak: Why Odia Dhaga Matter](https://projectodisha.org/stories/odia-dhaga/) | in_progress | Reviewed Founder essay connecting everyday Dhaga literary form and cultural transmission; shared reader header/footer integration. No new saying or programme credit. |

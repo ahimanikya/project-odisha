@@ -32,3 +32,8 @@ test('public source credits retain exact revisions and distinct quotation rights
  assert.ok(credit.includes(new URL(wiki.url).searchParams.get('oldid')));assert.ok(credit.includes('creativecommons.org/licenses/by-sa/4.0/'));assert.ok(credit.includes(esc(wiki.title)));assert.ok(!credit.includes(esc(wiki.access)));
  const scert=data.sources.find(s=>s.id.includes('scert'));assert.match(publicSourceCredit(scert),/2024, p.139/);assert.match(publicSourceCredit(scert),/not openly licensed/);
 });
+test('all public book pages use shared chrome with one main, preserved controls and no build endpoint',()=>{
+ const paths=['index.html','reader.html','sources.html',...data.entries.map(e=>'sayings/'+e.id.toLowerCase()+'.html')];
+ for(const path of paths){const h=read(path);assert.equal((h.match(/data-dhaga-header/g)||[]).length,1,path);assert.equal((h.match(/data-dhaga-footer/g)||[]).length,1,path);assert.equal((h.match(/<main\b/g)||[]).length,1,path);assert.match(h,/class="mobile-navigation"/);assert.match(h,/aria-label="About Project Odisha"/);assert.match(h,/aria-label="Website help"/);assert.match(h,/data-page-share/);assert.match(h,/site-chrome.css/);assert.doesNotMatch(h,/__DHAGA_PATH__|internal\/dhaga-chrome/);const ids=[...h.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);assert.equal(ids.length,new Set(ids).size,path);}
+ assert.throws(()=>readFileSync(root+'/internal/dhaga-chrome/index.html'));
+});

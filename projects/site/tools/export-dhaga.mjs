@@ -20,7 +20,15 @@ export function publicSourceCredit(source){
 }
 export async function exportDhaga(destination){
  const data=JSON.parse(await readFile(resolve(book,'collection.json'),'utf8')),out=resolve(destination,'dhaga');
+ const chromePath=resolve(destination,'internal/dhaga-chrome/index.html');
+ const chrome=await readFile(chromePath,'utf8');
+ const header=chrome.match(/(<div data-dhaga-header[^>]*>[\s\S]*?)<div data-dhaga-footer/)?.[1];
+ const footer=chrome.match(/(<div data-dhaga-footer[^>]*>[\s\S]*?)<\/body>/)?.[1];
+ if(!header||!footer)throw Error('Shared Dhaga chrome build contract missing');
+ const chromeHead=[...(chrome.match(/<link[^>]+rel="stylesheet"[^>]*>/g)||[]),'<link rel="stylesheet" href="/dhaga/assets/site-chrome.css">',...(chrome.match(/<script[^>]*type="module"[^>]*>[\s\S]*?<\/script>/g)||[])].join('');
+
  await rm(out,{recursive:true,force:true});await mkdir(resolve(out,'sayings'),{recursive:true});await mkdir(resolve(out,'assets'),{recursive:true});
+ await writeFile(resolve(out,'assets/site-chrome.css'),(chrome.match(/<style[^>]*>[\s\S]*?<\/style>/g)||[]).map(s=>s.replace(/^<style[^>]*>|<\/style>$/g,'')).join('\n'));
  const pdfBytes=await readFile(resolve(book,'odia-dhaga-book.pdf'));
  const pdf=JSON.parse(await readFile(resolve(book,'packing-report.json'),'utf8')).pdf;
  if(!pdf||!Number.isInteger(pdf.pages)||pdf.pages<1||pdf.bytes!==pdfBytes.length||pdf.sha256!==createHash('sha256').update(pdfBytes).digest('hex'))throw Error('Dhaga PDF metadata does not match the finished book');
@@ -61,7 +69,9 @@ export async function exportDhaga(destination){
   html=html.replace(/<footer>/,'<footer>'+links);
   if(!html.includes('<footer>'))html=html.replace('</body>','<footer>'+links+'</footer></body>');
   html=html.replace(/ ·\s* ·/g,' ·').replace(/ ·\s*<\/nav>/g,'</nav>');
-  html=html.replace(/<title>/,meta+'<title>');
+  html=html.replace(/<body([^>]*)>/,(_,attrs)=>'<body id="page-top"'+attrs+'>'+header);
+  html=html.replace('</body>',footer.replaceAll('page=__DHAGA_PATH__','page='+encodeURIComponent(route)).replaceAll('__DHAGA_PATH__',esc(route))+'</body>');
+  html=html.replace(/<title>/,chromeHead+meta+'<title>');
   return html;
  }
  const routes=['/dhaga/','/dhaga/reader.html','/dhaga/sources.html'];
@@ -72,6 +82,7 @@ export async function exportDhaga(destination){
  const sourceHTML='<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Dhaga · Sources and rights</title><style>body{font:1.1rem/1.7 Georgia,serif;max-width:72ch;margin:auto;padding:2rem;background:#fffaf0;color:#29251e}a{color:#784025}li{margin:1.5rem 0;overflow-wrap:anywhere}a:focus-visible{outline:3px solid #784025;outline-offset:4px}</style></head><body><a href="#sources">Skip to sources</a><header><a href="/dhaga/">← Book contents</a><h1>Sources &amp; rights</h1></header><main id="sources" tabindex="-1"><p>Original Project Odisha commentary and illustrations are available under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA4.0</a>. Wikimedia wording and variants are adapted with original Project Odisha translations, explanations and examples; the attributed share-alike terms are retained. Three short SCERT quotations retain separate source rights; they are not openly licensed or relicensed here. Each Dhaga gives its witnesses, locators and limitations.</p><ul>'+data.sources.filter(s=>used.has(s.id)).map(s=>'<li>'+publicSourceCredit(s)+'</li>').join('')+'</ul><h2>Font licences</h2><ul>'+licences.map(n=>'<li><a href="assets/'+n+'">'+esc(n.replace('-OFL.txt',''))+' · SIL Open Font Licence</a></li>').join('')+'</ul></main><footer></footer></body></html>';
  await writeFile(resolve(out,'sources.html'),adapt(sourceHTML,'/dhaga/sources.html'));
  const files=await import('node:fs/promises').then(async fs=>{const all=[];async function walk(dir){for(const n of await fs.readdir(dir,{withFileTypes:true})){const p=resolve(dir,n.name);if(n.isDirectory())await walk(p);else all.push(p);}}await walk(out);return all;});
+ await rm(resolve(destination,'internal/dhaga-chrome'),{recursive:true,force:true});
  const bytes=(await Promise.all(files.map(async p=>(await stat(p)).size))).reduce((a,b)=>a+b,0);
  if(bytes>18_000_000)throw Error('Dhaga web export exceeds18MB budget: '+bytes);
  const report={entries:data.entries.length,routes,downloads:licences.map(n=>'/dhaga/assets/'+n),standalone_routes:routes,pdf_url:pdfURL,pdf_pages:pdf.pages,pdf_bytes:pdf.bytes,pdf_sha256:createHash('sha256').update(await readFile(resolve(book,'odia-dhaga-book.pdf'))).digest('hex'),bytes,files:files.length};

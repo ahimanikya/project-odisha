@@ -1,0 +1,96 @@
+{
+  "review_type": "separate AI preliminary working-diff implementation review",
+  "status": "CODE_REVIEW_PASS_PENDING_FINAL_PUBLICATION_GATE",
+  "input_head": "d0d00e533f4448968d62e303947d28157a23cd55",
+  "blocking_release_conditions": [
+    "Final publication optimizer/size/disclosure completion must be recorded before release approval.",
+    "Exact final committed head not yet supplied; this is hash-bound working-code review."
+  ],
+  "completed_checks": [
+    "Reviewed entire article and source report in prior hash-bound draft gate. Current canonical body equals reviewed draft after title/byline frontmatter extraction exactly.",
+    "Read Shell extraction,SiteHeader/SiteFooter,internal export contract,article wrapper,exporter,footnote-language transform and initialportable parser. Notebook slot,PageShare,planning return and conditional footer destinations preserved in ordinary Shell flow.",
+    "Actually viewed all11supplied screenshots individually:article/book/048/sources390and1440,article notes/footer andbookfooter390. Readable Odia,clear notes,no visible clipping.",
+    "Read actual saved downloadedHTML and checked licence/revisionlinks/ending; Samanta31paragraph equality and Save persistence recorded.",
+    "Read browser-check.json:exact keyboardnote return,MenuEnter/Escape and width equality reported forbothviewports. These interactions were performed bySamanta, not repeated byreviewer.",
+    "git diff projects/odia-dhaga empty:canonical159entry90pagebook untouched."
+  ],
+  "findings": [
+    {
+      "severity": "nonblocking",
+      "finding": "Shared navigation/footer semantic components are reused. Adapter intentionally retains book palette/layout, includingteal topline andfullwidthnativeMenu; ordinaryShell uses terracotta/compactMenu. Thisisvisualdivergence,notafunctionalfailure. Preserve scopedCSS rather than importing globalstyles blindly."
+    },
+    {
+      "severity": "nonblocking",
+      "finding": "Sourcespage retains narrowerbodycontainer, so header/footer fitthatcolumn; screenshotreadable. No requirementforfullwidthidenticalchromewasestablished."
+    },
+    {
+      "severity": "review_followup",
+      "finding": "Finalsharedcatalogdeliveryoptimizationmust preserve Save-on-reload,firstinteraction,offlinedownloadall31paragraphs/sourcecredits and existingreadings; currentreportdoesnotapproveanunseenfix."
+    }
+  ],
+  "screenshot_hashes": {
+    "048-1440.png": "2a4c8b69bcc3997fe6ec350cc4e928aa732c49e772fff1ae1985ed481f2e5b88",
+    "048-390.png": "52f037245ceba3f23813ed719ad94bd9672456a4832ae9c4ce16f217ce314e27",
+    "article-1440.png": "13c49dba16f05792bb7879bc0a2e9588ddbac8d793303f3ebfb62d10eb5667e7",
+    "article-390.png": "f69f1ea1c33bf9303669ba1e0e29ece7a717fd0499d0c0157e38b7361f8dcd31",
+    "article-footer-390.png": "00030a54e81ca41cd61d2b377d01c96367f8452b9cba1f926e96d103c1014551",
+    "article-notes-390.png": "0ac83b4ddd6a19018561f8981b8cf7bc2dcecf690f46958d4a285b8393027b8f",
+    "book-1440.png": "196b73d461ccfb18633ae3dbef4504bb67acf384d38bc232660dd666c84d209d",
+    "book-390.png": "01acc4fa028224f19a4a7d3af93e44ad866f06bc59fd1f11f89b3ece79ae208b",
+    "book-footer-390.png": "54aac98d308fb7ebff8d892eb82cd4b65978f1d6dc9fa7cc4a69d4ff190a8b59",
+    "sources-1440.png": "c93d8cbd28584033f433537cae28595b5b874fa5c5835ae6b0d6c1e7de9cbd11",
+    "sources-390.png": "c57915fdd503121222e2ee6ab1c93bf0a0f21cee69b402ad5fd6ad0296191e93"
+  },
+  "source_hashes_at_review": {
+    "src/layouts/Shell.astro": "92e5506af4372276c9c0fc2e7867522284bd78326e7d10b111502d8e527a1e93",
+    "src/components/SiteHeader.astro": "b7bbe6360600bb4b265b5902490abf6f5e677a2dc7b2cae2bad1fd591c56c3e4",
+    "src/components/SiteFooter.astro": "e44dedd67407551dc16d3884877218bcca24f1b12c85a20483897f3afcf4eee9",
+    "src/pages/internal/dhaga-chrome.astro": "153aad8b5a512a20473a10fdc614c084098d0dca23723e39543b670bc262d659",
+    "src/pages/stories/odia-dhaga.astro": "ad3f742ff23f0c6d9fe4ae1676375ed67df65cdbd2a221d528bdf514f2ed36c2",
+    "tools/export-dhaga.mjs": "e4454beec4c1b5f73ba4500904241496bb1fbfff90dea8b15bf25d0b61db0d72",
+    "tools/nimuhi-footnote-heading.mjs": "c38731a6c4b289520d15cf4afc6ec7332ac4726f814aacb98b343a954c0416a2",
+    "src/data/journey-catalog.ts": "fa4bad5b29456056661dba710529499b89044a9919fb32c597bca44f172bb263",
+    "tools/shared-journey-data.mjs": "8f3cff6d2a0aa2a65ed07d2d2ee4fd87451829e691511bceccb0282f3e63ab37",
+    "tools/build-publication.mjs": "29055cd68cc5a2ec83b69dc84a44381709dfa5f9a7f52154aeecd27a4d0f4887",
+    "src/lib/journey-data.mjs": "cd387294ad81be85d4105a5fe2fd555214d8725b612bcea2ceaf3a12f1e1dd34",
+    "src/scripts/journey.ts": "3359e070b8422cccb17c8a7272b890555d513f17bebcb5a8dd16d64bc07e55eb",
+    "tests/shared-journey-data.test.mjs": "9a83e0578d51cb19ee3176ea9bd7522ca7b181a7980d3307b209b2f03a74e1eb",
+    "tests/journey-data.test.mjs": "bd866703f2344d7f27e0da89fbabd9275ec5dd4120ba18f2e6b3ffa2a2723afa"
+  },
+  "evidence_hashes": {
+    "samanta.json": "1622193a6d4a731b5d2d5619ab41fb13e61ca363e4f0d48b6142da1af3586f0f",
+    "browser-check.json": "7e884579abfb8f41ad55aca654320d6285e75e6f5bdeaabb0f6bb2760194cd07",
+    "download-check.json": "154ef7e7e1fe3f57994875f7f738dae3505174a53daf25facf18d2288ff01b2e",
+    "downloaded-book.html": "4686e46b831d0b98cc7852ea8b40aa096a0aed446b675a0b03eeedd8895f67f0",
+    "published-catalog-browser.json": "4f7d8e92ec691cce66a2abde7cc5d859928c63d021b6f9b8f2951b196699647b",
+    "published-downloaded-book.html": "86edc2306a37917ea9c8789d11c738be8e32ff5b54640d1f28a42073351242d6",
+    "catalog-failure-390.png": "a80ace2efff96cb87ae4cc458c3d34f2e59f268c90e31aec06e7f6c7b9c9f715"
+  },
+  "limits": [
+    "Preliminaryonly,nofinalreleaseorheadapproval.",
+    "Noindependentrerunofbrowserinteractions/fullbuildsduringconcurrentimplementation.",
+    "No freshhistoricalscans or externalresearch; nohumanproofreadingclaim.",
+    "Onlythisoutputreviewwritten;canonical/Gituntouched."
+  ],
+  "catalog_review": {
+    "result": "PASS",
+    "actual_independent_checks": [
+      "Read full shared-journey-data.mjs, build-publication integration, readJourneyData guard and journey.ts initialization wrapper.",
+      "Ran4focused tests(shared-journey-data and journey-data):4pass. Injection-string/Odia tests verify escaping and exact runtimeJSON.",
+      "Independently executed every generated loader with VM and compared restoredtextContent against originalcoastinlineJSON for all530pages:530exact,oneasset.",
+      "Classicexternal script has noasync/defer/module; immediately follows empty application/json element. Parser execution precedes deferredmoduleinitialization.",
+      "JSON.stringify encodes literalstring; less-than escaped; no rawclosing-script sequence. SHA256filename deterministically binds loaderbody.",
+      "Missing/malformeddata returnsnull before localStorage acquisition/loadLibrary/snapshot. No saved-state write on failure path.",
+      "Actually viewed catalog-failure-390.png:visible retryguidance anddisabledSave;article remainsreadable. Read published-catalog-browser.json actualfailure/recovery/download evidence."
+    ],
+    "tradeoff": "Classic blocking download adds first-load latency, but retains deterministic synchronous initialization and reuses immutable cacheable payload acrosspages.",
+    "scope": "Publication-only transformation; testedcoastinlinepayload unchanged. No prose or source trimming.",
+    "limits": "No broad schema guarantee for arbitrary malicious valid-shapedcatalog; asset is same-origin build-controlled data. Browserinteractions performed bySamanta, not repeated by reviewer."
+  },
+  "latest_validation_status": {
+    "full_suite": "Samanta reports636/636PASS",
+    "coast_suite": "Samanta reports525/525PASS",
+    "publication_browser": "Saved report pass:Save/reload,recovery,blockedasset storageunchanged,all31downloadparagraphs andsource revisions retained",
+    "final_publication_optimizer": "Stillrunning at review; nofinalsizepassclaimed"
+  }
+}
