@@ -2603,12 +2603,15 @@
       "id": "POD-EDIT-094",
       "route": "/languages/districts/dhenkanal/",
       "title": "Dhenkanal · languages and population",
-      "status": "queued",
+      "status": "excluded",
       "scope": "classification_pending",
       "source_template": null,
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/dhenkanal-language-utility-review-2026-10-29.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually exclude POD-EDIT-094 as Census data/navigation utility. Preserve the Dhenkanal public route, district 383 data, Census group/return and residence caveats, language-profile links and search eligibility. This route has no configured destination or related-discovery narrative and no sustained authored district-language article. Preserve separate Magji, Dhokra, Sansari Gadatia, banking and historically scoped Talcher material; do not infer their coverage from the district utility."
     },
     {
       "id": "POD-EDIT-095",
