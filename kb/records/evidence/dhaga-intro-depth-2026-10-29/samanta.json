@@ -1,0 +1,67 @@
+{
+  "status": "pass; source and evidence frozen for independent review",
+  "input_head": "9ce0bb56fc8a6e7140a70dda54e635b65a497a47",
+  "updated_at": "2026-10-29T14:04:33.630682+00:00",
+  "files_changed": [
+    "kb/research/culture/odia-dhaga.md",
+    "projects/site/src/data/journey-catalog.ts",
+    "projects/site/tests/dhaga-article.test.mjs",
+    "projects/site/tests-coast/dhaga-article.test.mjs"
+  ],
+  "source_delta": "Reviewed draft plus approved matha/katha→ମାଠ/କାଠ clarification only",
+  "portable_change": "Dhaga-only full note qualifications retained and heading markers stripped; stable saved ID preserved",
+  "tests_completed": [
+    "Final full build PASS",
+    "Full suite638/638 PASS",
+    "Focused12/12 PASS",
+    "Coast build PASS",
+    "Coast suite527/527 PASS",
+    "Strengthened exact-marker/complete-visible-note tests6/6 PASS",
+    "Publication build PASS limited11indexable",
+    "Actual desktop1440x1000/mobile390x844: no overflow, all22 exact keyboard note returns",
+    "Mobile menu Enter/Escape PASS",
+    "Published-tree Save/reload/download/catalog failure and recovery PASS",
+    "Full/coast/publication disclosure, coast audit, discovery, search preparation, launch readiness and shortlist gates PASS"
+  ],
+  "limits": [
+    "Local assembled publication only; no live deployment or Git mutation.",
+    "Independent review and coordinator release still required.",
+    "No canonical standalone book edits; preservation baseline hashes all unchanged."
+  ],
+  "browser_report": "browser-check.json",
+  "download_report": "published-catalog-browser.json",
+  "download_parity": {
+    "result": "pass",
+    "paragraphs_including_notes": 56,
+    "missing": [],
+    "download_sha256": "d37b275742251345bba9da1fbe90bc48a8a33f08e610c3d4568cf1a5baa66f2f",
+    "book_files_unchanged": 786,
+    "source_urls_retained": true
+  },
+  "screenshots": [
+    "wood-1440.png",
+    "notes-390.png",
+    "wood-390.png",
+    "notes-1440.png",
+    "mamu-390.png",
+    "article-390.png",
+    "article-1440.png",
+    "mamu-1440.png",
+    "catalog-failure-390.png"
+  ],
+  "actual_pixels_inspected": [
+    "wood-390.png",
+    "mamu-1440.png"
+  ],
+  "publication_bytes": 604706412,
+  "file_hashes": {
+    "kb/research/culture/odia-dhaga.md": "bb054d8a270558a4203978a09128f654913ce803a4b3586fc4ee7bcf061df991",
+    "projects/site/src/data/journey-catalog.ts": "3bdb942025be5397de2832b72ad18c729ab4c0b18a6711bf0d274e16d62b26ee",
+    "projects/site/tests/dhaga-article.test.mjs": "b64ad989c6ec6cc984621e7f9062c9328a433942d0ff396cb7b77ed0e8eefd4c",
+    "projects/site/tests-coast/dhaga-article.test.mjs": "6ba6d150c5fe83f98cef361a2658071b1f5cdd9ea9d4f0452bb933e399857ce3"
+  },
+  "history": [
+    "Initial focused10/12 failure: stale heading output and smart-quote test normalization; corrected without changing approved prose.",
+    "First browser exact-return timeout and diagnostic false returns: automation focused backlink before forward animation-frame focus; final harness waits for destination focus, all22 pass; no client code change."
+  ]
+}
