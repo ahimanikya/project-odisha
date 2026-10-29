@@ -1,5 +1,5 @@
 {
-  "status": "candidate_validation",
+  "status": "published_and_live_verified",
   "input_head": "64439cf0db2ad447dc09934f09add0a59f9a46ea",
   "authorization": "Founder requested consecutive Dhaga batches targeting 5–10 candidates per run, then continued the reviewed expansion under existing book and publication authorization.",
   "source_bundle": "projects/odia-dhaga/evidence/loop-2026-10-30/candidate-bundle.json",
@@ -13,7 +13,7 @@
     "Disha": "sharedrecords/Git/publicexport/release"
   },
   "preserve": "Prior 159 readings and artwork preserved except the reviewed parallel variant on 143. Original discovery list: 75 pending. 1926: next inventory page 103, full transcription page 31. 1893: full transcription page 2, 83 drafts. Programme remains 131.",
-  "scope_release": "Release after reviewed integration, passing required checks, publication, live verification and receipt. This finite release does not claim future research work.",
+  "scope_release": "This release closes when this separately reviewed receipt is merged after passing checks. No future research scope is claimed.",
   "ownership_check": {
     "main": "64439cf0db2ad447dc09934f09add0a59f9a46ea",
     "open_prs": [
@@ -34,12 +34,130 @@
   "distinct_additions": 14,
   "related_variants_added": 1,
   "programme_credit": 0,
-  "review": "Separate AI source, art and integrated book review passed; final exact-head publication review pending. No human review claimed.",
+  "review": "Separate AI source, artwork, book, exact-head and live-evidence reviews passed. No human review claimed.",
   "review_files": [
     "kb/records/evidence/dhaga-expansion-173-2026-10-30/source-validation.json",
     "kb/records/evidence/dhaga-expansion-173-2026-10-30/art-review.json",
     "kb/records/evidence/dhaga-expansion-173-2026-10-30/web-art-review.json",
     "kb/records/evidence/dhaga-expansion-173-2026-10-30/drishti.json",
     "kb/records/evidence/dhaga-expansion-173-2026-10-30/browser-review.json"
-  ]
+  ],
+  "delivery": {
+    "status": "published_and_live_verified",
+    "release_pr": 606,
+    "reviewed_head": "7780ef32d1d4965fd46406efa2ce374318d8017f",
+    "merge": "f6a39218783ec47b06a9dbdeef9a9dc18641bd32",
+    "required_ci": {
+      "run": 40941189809,
+      "result": "SUCCESS"
+    },
+    "deployment": {
+      "run": 40943476480,
+      "result": "SUCCESS"
+    },
+    "url": "https://projectodisha.org/dhaga/",
+    "entries": 173,
+    "illustrations": 173,
+    "distinct_additions": 14,
+    "related_variants_added": 1,
+    "pdf": {
+      "pages": 97,
+      "bytes": 83560608,
+      "sha256": "ff3676c440eb2cc086af0dd689c7e813950cb59b46f859a5cae8cb0f89a9a894",
+      "immutable_commit": "c6f9ee88d4e4a1d40e6440f1a0ed274abc3bd356",
+      "remote_download_exact": true
+    },
+    "live": {
+      "reader_files": 355,
+      "exact_files": 353,
+      "html_pages": 176,
+      "all_html_exact": true,
+      "image_variances": [
+        "008: font spacing, separately visually reviewed and readable",
+        "073: no discernible delivered-size difference; byte cause not asserted"
+      ],
+      "companions": "Introduction, Essential and Explore otherwise exact after explicit production analytics and enumerated responsive-filename differences. All29 responsive pairs overviewed and4pairs individually inspected by separate reviewer; no substantive visual discrepancy. Raw HTML and image differences remain documented.",
+      "portable_catalog_sha256": "ad157418289fb0ec6e65195de985224769b8279082a679156476c8c5efdf7138",
+      "portable_catalog_exact": true,
+      "browser": "Actual desktop/phone/search/keyboard navigation and source-return checks passed"
+    },
+    "local_reader": {
+      "verified_files": 574,
+      "preserved_other_files": 411,
+      "tests": 19,
+      "receipt": "outputs/odia-dhaga-reader-47/expansion-173-delivery-2026-10-30.json"
+    },
+    "preservation": {
+      "prior159": "Preserved except related witness on143",
+      "original_pending": 75,
+      "1926_next_inventory": 103,
+      "1926_full_transcription": 31,
+      "1893_full_transcription": 2,
+      "1893_drafts": 83,
+      "programme_completed": 131,
+      "programme_credit": 0
+    },
+    "editorial_counts": {
+      "completed": 131,
+      "excluded": 406,
+      "queued": 303
+    },
+    "scope_release": "This release closes when this separately reviewed receipt is merged after passing checks. No future research scope is claimed.",
+    "review_type": "Separate AI review; no human proofreading claimed",
+    "evidence": [
+      {
+        "path": "kb/records/evidence/dhaga-expansion-173-2026-10-30/exact-head-review.json",
+        "sha256": "dd41b783dd12d60a03873c4fef14f3b8e65ad8f2185f2d058f4e070fb6e90237"
+      },
+      {
+        "path": "kb/records/evidence/dhaga-expansion-173-2026-10-30/validation.json",
+        "sha256": "a6e132ba7b09c52aecc601aeeef28d694e2858fd8b813a95be1bd1242182f178"
+      },
+      {
+        "path": "kb/records/evidence/dhaga-expansion-173-2026-10-30/merged-file-verification.json",
+        "sha256": "38cf172178af3f391ca6caab3a3175a78e7630cd3c7638d7b5e570f01802eb38"
+      },
+      {
+        "path": "kb/records/evidence/dhaga-expansion-173-2026-10-30/live-verification.json",
+        "sha256": "b9f08d45d715a57964b0001bce2fcbbfd63de1001793df8c29f010c745301db7"
+      },
+      {
+        "path": "kb/records/evidence/dhaga-expansion-173-2026-10-30/companion-live-verification.json",
+        "sha256": "b2e43985ff1cf83489393fc449073853aa1382fe6e739b7c2b848248e7f17c4a"
+      },
+      {
+        "path": "kb/records/evidence/dhaga-expansion-173-2026-10-30/companion-content-verification.json",
+        "sha256": "db563cf4e73d36a414aeb52418cbd7956c941a842ba9d3e4721817ed2d7ebabf"
+      },
+      {
+        "path": "kb/records/evidence/dhaga-expansion-173-2026-10-30/responsive-variances.json",
+        "sha256": "16ea4bb4b727b2dbe4e0575aa23e393cb04cdcba542c3b12e820f74badee9e4c"
+      },
+      {
+        "path": "kb/records/evidence/dhaga-expansion-173-2026-10-30/responsive-variance-verification.json",
+        "sha256": "05a4fd9a0866ece697e9dcd34025f77e8bbbd7971e0fa4061134ba3b84744d86"
+      },
+      {
+        "path": "kb/records/evidence/dhaga-expansion-173-2026-10-30/live-browser-review.json",
+        "sha256": "a8f10be404aaa801cc4ca084c0ba127ceb5c73838b2eacb194e943c82968cd52"
+      },
+      {
+        "path": "kb/records/evidence/dhaga-expansion-173-2026-10-30/live-image-variance-review.json",
+        "sha256": "cb1491f4afe04f25ed07bb6e1ac8e6488cd38b58915453edebdd3aca5df92f87"
+      },
+      {
+        "path": "kb/records/evidence/dhaga-expansion-173-2026-10-30/local-reader-sync-result.json",
+        "sha256": "0968c07dcb217a8d9c001c534db037378b04e5ca9d6edba8939c5562b33caaba"
+      },
+      {
+        "path": "kb/records/evidence/dhaga-expansion-173-2026-10-30/live-review.json",
+        "sha256": "e5c17e82419eef2ee2145de210b48b51cd38cb566bbec2c6aecf4c86a1b1491e"
+      }
+    ]
+  },
+  "receipt_integration": {
+    "status": "review_and_merge_pending",
+    "requires_deployment": false,
+    "reason": "Evidence and ownership records only; published products are unchanged."
+  }
 }

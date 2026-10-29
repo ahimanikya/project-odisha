@@ -1,0 +1,41 @@
+{
+  "input_head": "f6a39218783ec47b06a9dbdeef9a9dc18641bd32",
+  "deployment_run": "40943476480",
+  "review_type": "Independent AI actual live/local image comparison",
+  "status": "PASS_BOTH_PLATFORM_VARIANCES_NONBLOCKING",
+  "items": [
+    {
+      "id": "POD-DHAGA-008",
+      "url": "https://projectodisha.org/dhaga/assets/dhaga-008-unified-line-v1.webp",
+      "live_capture_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-173-2026-10-30/live-008.webp",
+      "local_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/dist/dhaga/assets/dhaga-008-unified-line-v1.webp",
+      "live_sha256": "e91499ad6bdea9480325c63fc1b7517dce98adc5aff0132a1bc88b95deab59ae",
+      "local_sha256": "292d17b301344b186322ba8b3c74b70b7c7ba2bb7fb16044f7b4b2df9e8226cb",
+      "live_bytes": 9328,
+      "local_bytes": 8312,
+      "actual_visual_review": "Both live and local actual files viewed separately at original detail.",
+      "verdict": "pass",
+      "observed_difference": "Live font visibly wider/more spaced, especially title and footer; all wording, plant/growth/fruit diagram, timeline, needed marker and final warning remain complete and readable. No clipping or changed meaning."
+    },
+    {
+      "id": "POD-DHAGA-073",
+      "url": "https://projectodisha.org/dhaga/assets/dhaga-073-unified-line-v1.webp",
+      "live_capture_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-173-2026-10-30/live-073.webp",
+      "local_path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/dist/dhaga/assets/dhaga-073-unified-line-v1.webp",
+      "live_sha256": "e9b17b0e784afe40998e6a81f29c7f4ba7461355c4a40b7c213b81177b436c1c",
+      "local_sha256": "df1308f615020c78d27c09a5ce4010f0a76e07b22a2d4cba14909204233e244d",
+      "live_bytes": 61464,
+      "local_bytes": 61492,
+      "actual_visual_review": "Both live and local actual files viewed separately at original detail.",
+      "verdict": "pass",
+      "observed_difference": "No discernible compositional or semantic difference at actual640px: forest fire/smoke, two observers, seated woman, veranda and ornamental border all retained. Byte variance exists; precise rasterization/encoding cause not established by visual check."
+    }
+  ],
+  "limits": [
+    "Download used only for authorized deployment verification, not bypassing display restrictions.",
+    "No canonical images or build files changed.",
+    "073 is visually equivalent at delivered resolution, not byte-identical.",
+    "008 font variance acknowledged explicitly; no claim of deterministic cross-platform SVG rendering.",
+    "No all-site or all-image review implied."
+  ]
+}

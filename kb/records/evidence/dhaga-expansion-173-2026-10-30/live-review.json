@@ -1,0 +1,62 @@
+{
+  "review_type": "Separate AI live-evidence and actual paired-pixel review",
+  "input_head": "f6a39218783ec47b06a9dbdeef9a9dc18641bd32",
+  "deployed_merge": "f6a39218783ec47b06a9dbdeef9a9dc18641bd32",
+  "deployment_run": "40943476480",
+  "verdict": "PASS_WITH_EXPLICIT_NONIDENTICAL_IMAGE_LIMITS",
+  "blocking_findings": [],
+  "actual_visual_method": {
+    "overview": "All29 local/live pairs viewed side-by-side in4 labelled contact sheets, generated from saved original files.",
+    "individual_original_pairs": [
+      4,
+      6,
+      27,
+      28
+    ],
+    "reason_for_full_views": "Two largest pixel differences plus image-embedded English/Odia lettering. Eight individual original files viewed after overview.",
+    "observation": "All29 overview pairs preserve composition, crop, subject and visible content. Full-size identity scene and carved wheel retain details; Kotpad title/credit text and textile Odia lettering retain corresponding shapes/readability. No visible substantive replacement, clipping or damage. Minor pixel changes remain real, not exact-equivalence."
+  },
+  "checks": {
+    "saved29live_hashes_match_report": true,
+    "saved29local_hashes_match_report": true,
+    "all29_dimensions_match_report": true,
+    "reported_MAE_range": [
+      0.10514055927970557,
+      1.2541357421875
+    ],
+    "reader_files_exact": 353,
+    "reader_files_total": 355,
+    "reader_html_exact": true,
+    "reader_html_count": 176,
+    "reader_nonmatching_paths": [
+      "assets/dhaga-008-unified-line-v1.webp",
+      "assets/dhaga-073-unified-line-v1.webp"
+    ]
+  },
+  "evidence_findings": [
+    "Raw live-verification correctly retains all_match:false:353/355files exact, with008/073 exceptions. All176HTML records exact.",
+    "Anvesha separately inspected actual008/073 pixels; that report explicitly distinguishes font metrics/visually equivalent image from byte equality. Its bounded separate review is reused here, not misrepresented as my fresh individual inspection.",
+    "Companion verification correctly retains raw matches_local:false. Responsive variance records explain filename substitutions; coordinator reports otherwise-identical page HTML after explicit production analytics and mapped filename normalization. This is qualified normalized equality, not raw-byte equality.",
+    "Live browser report honestly records offscreen pointer navigation limitation and successful keyboard alternative. Shared catalog exact hash is recorded; no new Save/download interactions invented by this reviewer."
+  ],
+  "limits": [
+    "No fresh network retrieval or browser interaction by this reviewer; reviewed saved actual HTTP captures, their hashes, paired pixels and worker evidence.",
+    "Only4responsive pairs viewed individually at original size; all29 overviewed. Pixel MAE values taken from saved Sharp comparison, not independently recomputed.",
+    "Encoding/platform explanation is consistent with tiny differences and identical dimensions but precise encoder causation is not established by pixels alone.",
+    "Receipt exact-head consistency and conditional ownership release remain subsequent gate. No human review, new rights clearance or full-site audit claimed."
+  ],
+  "bindings": {
+    "responsive-variance-verification.json": "05a4fd9a0866ece697e9dcd34025f77e8bbbd7971e0fa4061134ba3b84744d86",
+    "responsive-variances.json": "16ea4bb4b727b2dbe4e0575aa23e393cb04cdcba542c3b12e820f74badee9e4c",
+    "live-verification.json": "b9f08d45d715a57964b0001bce2fcbbfd63de1001793df8c29f010c745301db7",
+    "companion-live-verification.json": "b2e43985ff1cf83489393fc449073853aa1382fe6e739b7c2b848248e7f17c4a",
+    "live-image-variance-review.json": "cb1491f4afe04f25ed07bb6e1ac8e6488cd38b58915453edebdd3aca5df92f87",
+    "live-browser-review.json": "a8f10be404aaa801cc4ca084c0ba127ceb5c73838b2eacb194e943c82968cd52"
+  },
+  "overview_artifacts": {
+    "responsive-comparison-1.jpg": "7493729fb9c8279ba0c1765c8caa93091acb566585c4c044c300ab844db14cb6",
+    "responsive-comparison-2.jpg": "48c074a9ff229b1fd78e7c7b92ee725c7fa21b8470d224d43709f47b8c8c2dfc",
+    "responsive-comparison-3.jpg": "f4015eec1f09b6916ca6316382a8f9a8355e175c2fde256297c67ee38cc28cbe",
+    "responsive-comparison-4.jpg": "e22c99f2f02b0482989a2c887f36043314359186b98f0a3d6ccaa95b6f9e2265"
+  }
+}
