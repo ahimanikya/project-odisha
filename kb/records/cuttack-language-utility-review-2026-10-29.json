@@ -1,0 +1,3595 @@
+{
+  "status": "reviewed_classification_integration",
+  "item": "POD-EDIT-092",
+  "route": "/languages/districts/cuttack/",
+  "input_head": "898c5313fbe4ce76931e62fb4b44290d3f0ce311",
+  "decision": "Individually exclude POD-EDIT-092 as Census data/navigation utility. Preserve public route/data/search, the actual Cuttack destination link and district-versus-city distinction, and separate city, Barabati, Netaji, Tarakasi, AIR Cuttack, food, stays, people and banking authored material. The short geography note and selected language links do not constitute a sustained district-language article.",
+  "programme_credit": 0,
+  "article_completion_credit": 0,
+  "scope_release": "On separately reviewed merge after passing required checks and remote file verification; no website deployment because product unchanged.",
+  "report_hashes": {
+    "anvesha.json": "88247a1bd4b8b4f7ae2c33755aa406475d137cd0fa7295cd0aa893add85aa489",
+    "samanta.json": "1e50ede8bc3ec243ab5b0e9c8344908d2ae228ff9e4e428be36d38eb36aaeb8d",
+    "drishti.json": "92ff6f7c00c184b4a5700ffd12420d72e0342462a351497b56a211e8f6e4b59c"
+  },
+  "reports": {
+    "anvesha": {
+      "role": "Anvesha separate AI source-readiness review; not human review",
+      "input_head": "e923482e2628198e908ab1f94d39c136575d15a9",
+      "origin_main": "402c3e2d280afc80a2f2a5fd025fa0c69a60a5f4",
+      "remote_check_limit": "origin/main is local tracking ref; no network fetch or release-state certification performed.",
+      "item": "POD-EDIT-092",
+      "route": "/languages/districts/cuttack/",
+      "recommendation": "utility_exclusion_candidate",
+      "rationale": "This actual route is generated from C16 district381, with numeric tables, residence denominators and a selected language-profile list. Its one configured destination paragraph explicitly distinguishes district from city; no sustained authored district-language narrative or route-specific further-reading links are configured. Keep this useful Census explorer and its city connection, but individually exclude it from article rewriting unless a separately evidenced narrative is commissioned.",
+      "source": {
+        "title": "C-16: Population by mother tongue, Odisha — 2011",
+        "url": "https://censusindia.gov.in/nada/index.php/catalog/10217",
+        "download": "https://censusindia.gov.in/nada/index.php/catalog/10217/download/13329/DDW-C16-STMT-MDDS-2100.XLSX",
+        "file": "references/census-2011/c16-odisha.xlsx",
+        "sha256": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db",
+        "sheet": "Sheet1"
+      },
+      "district": {
+        "code": "381",
+        "source_name": "Cuttack",
+        "source_rows": [
+          9766,
+          9894
+        ],
+        "row_count": 129,
+        "language_groups": 51,
+        "subordinate_entries": 78,
+        "population_H_to_P": [
+          2624470,
+          1352760,
+          1271710,
+          1888423,
+          970885,
+          917538,
+          736047,
+          381875,
+          354172
+        ],
+        "group_sum_H_to_P": [
+          2624470,
+          1352760,
+          1271710,
+          1888423,
+          970885,
+          917538,
+          736047,
+          381875,
+          354172
+        ],
+        "profile_links": [
+          "odia",
+          "santali",
+          "kui",
+          "saora",
+          "ho",
+          "juang",
+          "koya",
+          "sambalpuri"
+        ]
+      },
+      "checks": {
+        "every_original_row_and_nine_numeric_cells_equal_atlas": true,
+        "source_and_atlas_row_sets_equal": true,
+        "numeric_cells_compared": 1161,
+        "original_labels_and_source_row_numbers_match": true,
+        "all_nine_group_sums_match_population": true,
+        "row_sex_and_residence_arithmetic": true,
+        "configured_destination_connections": [
+          {
+            "destination": "cuttack",
+            "district": "381",
+            "title": "Cuttack",
+            "note": "The Census figures cover Cuttack district, including places beyond the city."
+          }
+        ],
+        "configured_related_discovery_links": [],
+        "actual_template_and_slug_function_inspected": true
+      },
+      "original_rows": [
+        {
+          "row": 9766,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "001000",
+          "raw_label": "1 ASSAMESE",
+          "values_H_to_P": [
+            48,
+            27,
+            21,
+            22,
+            14,
+            8,
+            26,
+            13,
+            13
+          ]
+        },
+        {
+          "row": 9767,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "001002",
+          "raw_label": " Assamese",
+          "values_H_to_P": [
+            48,
+            27,
+            21,
+            22,
+            14,
+            8,
+            26,
+            13,
+            13
+          ]
+        },
+        {
+          "row": 9768,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "002000",
+          "raw_label": "2 BENGALI ",
+          "values_H_to_P": [
+            22567,
+            11839,
+            10728,
+            2935,
+            1630,
+            1305,
+            19632,
+            10209,
+            9423
+          ]
+        },
+        {
+          "row": 9769,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "002007",
+          "raw_label": " Bengali",
+          "values_H_to_P": [
+            22564,
+            11836,
+            10728,
+            2932,
+            1627,
+            1305,
+            19632,
+            10209,
+            9423
+          ]
+        },
+        {
+          "row": 9770,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "002011",
+          "raw_label": " Chakma",
+          "values_H_to_P": [
+            3,
+            3,
+            0,
+            3,
+            3,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 9771,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "004000",
+          "raw_label": "4 DOGRI ",
+          "values_H_to_P": [
+            28,
+            27,
+            1,
+            1,
+            1,
+            0,
+            27,
+            26,
+            1
+          ]
+        },
+        {
+          "row": 9772,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "004001",
+          "raw_label": " Dogri",
+          "values_H_to_P": [
+            28,
+            27,
+            1,
+            1,
+            1,
+            0,
+            27,
+            26,
+            1
+          ]
+        },
+        {
+          "row": 9773,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "005000",
+          "raw_label": "5 GUJARATI",
+          "values_H_to_P": [
+            1968,
+            1016,
+            952,
+            72,
+            33,
+            39,
+            1896,
+            983,
+            913
+          ]
+        },
+        {
+          "row": 9774,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "005018",
+          "raw_label": " Gujarati",
+          "values_H_to_P": [
+            1950,
+            1006,
+            944,
+            72,
+            33,
+            39,
+            1878,
+            973,
+            905
+          ]
+        },
+        {
+          "row": 9775,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "005999",
+          "raw_label": "5 Others",
+          "values_H_to_P": [
+            18,
+            10,
+            8,
+            0,
+            0,
+            0,
+            18,
+            10,
+            8
+          ]
+        },
+        {
+          "row": 9776,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "006000",
+          "raw_label": "6 HINDI ",
+          "values_H_to_P": [
+            36567,
+            19675,
+            16892,
+            4541,
+            2476,
+            2065,
+            32026,
+            17199,
+            14827
+          ]
+        },
+        {
+          "row": 9777,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "006030",
+          "raw_label": " Awadhi",
+          "values_H_to_P": [
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            2,
+            2,
+            0
+          ]
+        },
+        {
+          "row": 9778,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "006102",
+          "raw_label": " Bhojpuri",
+          "values_H_to_P": [
+            482,
+            287,
+            195,
+            29,
+            17,
+            12,
+            453,
+            270,
+            183
+          ]
+        },
+        {
+          "row": 9779,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "006142",
+          "raw_label": " Chhattisgarhi",
+          "values_H_to_P": [
+            23,
+            16,
+            7,
+            1,
+            1,
+            0,
+            22,
+            15,
+            7
+          ]
+        },
+        {
+          "row": 9780,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "006195",
+          "raw_label": " Garhwali",
+          "values_H_to_P": [
+            52,
+            52,
+            0,
+            0,
+            0,
+            0,
+            52,
+            52,
+            0
+          ]
+        },
+        {
+          "row": 9781,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "006235",
+          "raw_label": " Haryanvi",
+          "values_H_to_P": [
+            35,
+            31,
+            4,
+            0,
+            0,
+            0,
+            35,
+            31,
+            4
+          ]
+        },
+        {
+          "row": 9782,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "006240",
+          "raw_label": " Hindi",
+          "values_H_to_P": [
+            32671,
+            17482,
+            15189,
+            4440,
+            2413,
+            2027,
+            28231,
+            15069,
+            13162
+          ]
+        },
+        {
+          "row": 9783,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "006320",
+          "raw_label": " Khortha/Khotta",
+          "values_H_to_P": [
+            4,
+            2,
+            2,
+            4,
+            2,
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 9784,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "006340",
+          "raw_label": " Kumauni",
+          "values_H_to_P": [
+            18,
+            18,
+            0,
+            0,
+            0,
+            0,
+            18,
+            18,
+            0
+          ]
+        },
+        {
+          "row": 9785,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "006376",
+          "raw_label": " Magadhi/Magahi",
+          "values_H_to_P": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 9786,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "006400",
+          "raw_label": " Marwari",
+          "values_H_to_P": [
+            2615,
+            1376,
+            1239,
+            1,
+            1,
+            0,
+            2614,
+            1375,
+            1239
+          ]
+        },
+        {
+          "row": 9787,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "006439",
+          "raw_label": " Pahari",
+          "values_H_to_P": [
+            31,
+            31,
+            0,
+            0,
+            0,
+            0,
+            31,
+            31,
+            0
+          ]
+        },
+        {
+          "row": 9788,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "006489",
+          "raw_label": " Rajasthani",
+          "values_H_to_P": [
+            261,
+            163,
+            98,
+            17,
+            14,
+            3,
+            244,
+            149,
+            95
+          ]
+        },
+        {
+          "row": 9789,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "006503",
+          "raw_label": " Sadan/Sadri",
+          "values_H_to_P": [
+            17,
+            8,
+            9,
+            0,
+            0,
+            0,
+            17,
+            8,
+            9
+          ]
+        },
+        {
+          "row": 9790,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "006999",
+          "raw_label": "6 Others",
+          "values_H_to_P": [
+            355,
+            206,
+            149,
+            48,
+            27,
+            21,
+            307,
+            179,
+            128
+          ]
+        },
+        {
+          "row": 9791,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "007000",
+          "raw_label": "7 KANNADA",
+          "values_H_to_P": [
+            60,
+            36,
+            24,
+            2,
+            2,
+            0,
+            58,
+            34,
+            24
+          ]
+        },
+        {
+          "row": 9792,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "007016",
+          "raw_label": " Kannada",
+          "values_H_to_P": [
+            55,
+            34,
+            21,
+            2,
+            2,
+            0,
+            53,
+            32,
+            21
+          ]
+        },
+        {
+          "row": 9793,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "007999",
+          "raw_label": "7 Others",
+          "values_H_to_P": [
+            5,
+            2,
+            3,
+            0,
+            0,
+            0,
+            5,
+            2,
+            3
+          ]
+        },
+        {
+          "row": 9794,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "008000",
+          "raw_label": "8 KASHMIRI ",
+          "values_H_to_P": [
+            3,
+            3,
+            0,
+            2,
+            2,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "row": 9795,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "008005",
+          "raw_label": " Kashmiri",
+          "values_H_to_P": [
+            2,
+            2,
+            0,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 9796,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "008010",
+          "raw_label": " Kishtwari",
+          "values_H_to_P": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "row": 9797,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "009000",
+          "raw_label": "9 KONKANI",
+          "values_H_to_P": [
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            2,
+            2,
+            0
+          ]
+        },
+        {
+          "row": 9798,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "009028",
+          "raw_label": " Gorboli/Goru/Gorwani",
+          "values_H_to_P": [
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            2,
+            2,
+            0
+          ]
+        },
+        {
+          "row": 9799,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "010000",
+          "raw_label": "10 MAITHILI ",
+          "values_H_to_P": [
+            166,
+            85,
+            81,
+            17,
+            8,
+            9,
+            149,
+            77,
+            72
+          ]
+        },
+        {
+          "row": 9800,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "010008",
+          "raw_label": " Maithili",
+          "values_H_to_P": [
+            166,
+            85,
+            81,
+            17,
+            8,
+            9,
+            149,
+            77,
+            72
+          ]
+        },
+        {
+          "row": 9801,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "011000",
+          "raw_label": "11 MALAYALAM",
+          "values_H_to_P": [
+            376,
+            201,
+            175,
+            21,
+            16,
+            5,
+            355,
+            185,
+            170
+          ]
+        },
+        {
+          "row": 9802,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "011016",
+          "raw_label": " Malayalam",
+          "values_H_to_P": [
+            376,
+            201,
+            175,
+            21,
+            16,
+            5,
+            355,
+            185,
+            170
+          ]
+        },
+        {
+          "row": 9803,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "012000",
+          "raw_label": "12 MANIPURI ",
+          "values_H_to_P": [
+            65,
+            59,
+            6,
+            56,
+            56,
+            0,
+            9,
+            3,
+            6
+          ]
+        },
+        {
+          "row": 9804,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "012003",
+          "raw_label": " Manipuri",
+          "values_H_to_P": [
+            65,
+            59,
+            6,
+            56,
+            56,
+            0,
+            9,
+            3,
+            6
+          ]
+        },
+        {
+          "row": 9805,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "013000",
+          "raw_label": "13 MARATHI ",
+          "values_H_to_P": [
+            523,
+            272,
+            251,
+            31,
+            16,
+            15,
+            492,
+            256,
+            236
+          ]
+        },
+        {
+          "row": 9806,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "013071",
+          "raw_label": " Marathi",
+          "values_H_to_P": [
+            523,
+            272,
+            251,
+            31,
+            16,
+            15,
+            492,
+            256,
+            236
+          ]
+        },
+        {
+          "row": 9807,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "014000",
+          "raw_label": "14 NEPALI ",
+          "values_H_to_P": [
+            228,
+            126,
+            102,
+            41,
+            19,
+            22,
+            187,
+            107,
+            80
+          ]
+        },
+        {
+          "row": 9808,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "014011",
+          "raw_label": " Nepali",
+          "values_H_to_P": [
+            228,
+            126,
+            102,
+            41,
+            19,
+            22,
+            187,
+            107,
+            80
+          ]
+        },
+        {
+          "row": 9809,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "015000",
+          "raw_label": "15 ODIA ",
+          "values_H_to_P": [
+            2397705,
+            1236444,
+            1161261,
+            1786938,
+            919509,
+            867429,
+            610767,
+            316935,
+            293832
+          ]
+        },
+        {
+          "row": 9810,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "015007",
+          "raw_label": " Bhuiya/Bhuyan[Ori]",
+          "values_H_to_P": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 9811,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "015010",
+          "raw_label": " Bhumijali",
+          "values_H_to_P": [
+            21,
+            8,
+            13,
+            21,
+            8,
+            13,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 9812,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "015043",
+          "raw_label": " Odia",
+          "values_H_to_P": [
+            2397597,
+            1236389,
+            1161208,
+            1786867,
+            919474,
+            867393,
+            610730,
+            316915,
+            293815
+          ]
+        },
+        {
+          "row": 9813,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "015051",
+          "raw_label": " Proja (Ori)",
+          "values_H_to_P": [
+            13,
+            6,
+            7,
+            7,
+            3,
+            4,
+            6,
+            3,
+            3
+          ]
+        },
+        {
+          "row": 9814,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "015058",
+          "raw_label": " Sambalpuri",
+          "values_H_to_P": [
+            45,
+            26,
+            19,
+            37,
+            22,
+            15,
+            8,
+            4,
+            4
+          ]
+        },
+        {
+          "row": 9815,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "015999",
+          "raw_label": "15 Others",
+          "values_H_to_P": [
+            28,
+            15,
+            13,
+            5,
+            2,
+            3,
+            23,
+            13,
+            10
+          ]
+        },
+        {
+          "row": 9816,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "016000",
+          "raw_label": "16 PUNJABI ",
+          "values_H_to_P": [
+            862,
+            467,
+            395,
+            14,
+            10,
+            4,
+            848,
+            457,
+            391
+          ]
+        },
+        {
+          "row": 9817,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "016002",
+          "raw_label": " Bagri",
+          "values_H_to_P": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "row": 9818,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "016038",
+          "raw_label": " Punjabi",
+          "values_H_to_P": [
+            861,
+            466,
+            395,
+            14,
+            10,
+            4,
+            847,
+            456,
+            391
+          ]
+        },
+        {
+          "row": 9819,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "017000",
+          "raw_label": "17 SANSKRIT ",
+          "values_H_to_P": [
+            26,
+            16,
+            10,
+            9,
+            6,
+            3,
+            17,
+            10,
+            7
+          ]
+        },
+        {
+          "row": 9820,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "017002",
+          "raw_label": " Sanskrit",
+          "values_H_to_P": [
+            23,
+            14,
+            9,
+            6,
+            4,
+            2,
+            17,
+            10,
+            7
+          ]
+        },
+        {
+          "row": 9821,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "017999",
+          "raw_label": "17 Others",
+          "values_H_to_P": [
+            3,
+            2,
+            1,
+            3,
+            2,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 9822,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "018000",
+          "raw_label": "18 SANTALI ",
+          "values_H_to_P": [
+            4731,
+            2320,
+            2411,
+            2060,
+            976,
+            1084,
+            2671,
+            1344,
+            1327
+          ]
+        },
+        {
+          "row": 9823,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "018040",
+          "raw_label": " Santali",
+          "values_H_to_P": [
+            4731,
+            2320,
+            2411,
+            2060,
+            976,
+            1084,
+            2671,
+            1344,
+            1327
+          ]
+        },
+        {
+          "row": 9824,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "019000",
+          "raw_label": "19 SINDHI",
+          "values_H_to_P": [
+            51,
+            25,
+            26,
+            0,
+            0,
+            0,
+            51,
+            25,
+            26
+          ]
+        },
+        {
+          "row": 9825,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "019008",
+          "raw_label": " Kachchhi",
+          "values_H_to_P": [
+            32,
+            15,
+            17,
+            0,
+            0,
+            0,
+            32,
+            15,
+            17
+          ]
+        },
+        {
+          "row": 9826,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "019014",
+          "raw_label": " Sindhi",
+          "values_H_to_P": [
+            19,
+            10,
+            9,
+            0,
+            0,
+            0,
+            19,
+            10,
+            9
+          ]
+        },
+        {
+          "row": 9827,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "020000",
+          "raw_label": "20 TAMIL ",
+          "values_H_to_P": [
+            339,
+            172,
+            167,
+            24,
+            18,
+            6,
+            315,
+            154,
+            161
+          ]
+        },
+        {
+          "row": 9828,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "020027",
+          "raw_label": " Tamil",
+          "values_H_to_P": [
+            339,
+            172,
+            167,
+            24,
+            18,
+            6,
+            315,
+            154,
+            161
+          ]
+        },
+        {
+          "row": 9829,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "021000",
+          "raw_label": "21 TELUGU ",
+          "values_H_to_P": [
+            20600,
+            10209,
+            10391,
+            1361,
+            711,
+            650,
+            19239,
+            9498,
+            9741
+          ]
+        },
+        {
+          "row": 9830,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "021046",
+          "raw_label": " Telugu",
+          "values_H_to_P": [
+            20599,
+            10209,
+            10390,
+            1361,
+            711,
+            650,
+            19238,
+            9498,
+            9740
+          ]
+        },
+        {
+          "row": 9831,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "021999",
+          "raw_label": "21 Others",
+          "values_H_to_P": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "row": 9832,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "022000",
+          "raw_label": "22 URDU",
+          "values_H_to_P": [
+            122356,
+            61955,
+            60401,
+            76772,
+            38490,
+            38282,
+            45584,
+            23465,
+            22119
+          ]
+        },
+        {
+          "row": 9833,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "022015",
+          "raw_label": " Urdu",
+          "values_H_to_P": [
+            122356,
+            61955,
+            60401,
+            76772,
+            38490,
+            38282,
+            45584,
+            23465,
+            22119
+          ]
+        },
+        {
+          "row": 9834,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "024000",
+          "raw_label": "24 AFGHANI/KABULI/PASHTO ",
+          "values_H_to_P": [
+            12,
+            11,
+            1,
+            0,
+            0,
+            0,
+            12,
+            11,
+            1
+          ]
+        },
+        {
+          "row": 9835,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "024001",
+          "raw_label": " Afghani/Kabuli/Pashto",
+          "values_H_to_P": [
+            12,
+            11,
+            1,
+            0,
+            0,
+            0,
+            12,
+            11,
+            1
+          ]
+        },
+        {
+          "row": 9836,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "026000",
+          "raw_label": "26 ANGAMI ",
+          "values_H_to_P": [
+            3,
+            2,
+            1,
+            0,
+            0,
+            0,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "row": 9837,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "026999",
+          "raw_label": "26 Others",
+          "values_H_to_P": [
+            3,
+            2,
+            1,
+            0,
+            0,
+            0,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "row": 9838,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "028000",
+          "raw_label": "28 ARABIC/ARBI ",
+          "values_H_to_P": [
+            9,
+            3,
+            6,
+            5,
+            2,
+            3,
+            4,
+            1,
+            3
+          ]
+        },
+        {
+          "row": 9839,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "028001",
+          "raw_label": " Arabic/Arbi",
+          "values_H_to_P": [
+            9,
+            3,
+            6,
+            5,
+            2,
+            3,
+            4,
+            1,
+            3
+          ]
+        },
+        {
+          "row": 9840,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "030000",
+          "raw_label": "30 BHILI/BHILODI ",
+          "values_H_to_P": [
+            40,
+            24,
+            16,
+            17,
+            9,
+            8,
+            23,
+            15,
+            8
+          ]
+        },
+        {
+          "row": 9841,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "030002",
+          "raw_label": " Baori",
+          "values_H_to_P": [
+            37,
+            22,
+            15,
+            14,
+            7,
+            7,
+            23,
+            15,
+            8
+          ]
+        },
+        {
+          "row": 9842,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "030999",
+          "raw_label": "30 Others",
+          "values_H_to_P": [
+            3,
+            2,
+            1,
+            3,
+            2,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 9843,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "039000",
+          "raw_label": "39 DIMASA ",
+          "values_H_to_P": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "row": 9844,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "039999",
+          "raw_label": "39 Others",
+          "values_H_to_P": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "row": 9845,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "040000",
+          "raw_label": "40 ENGLISH ",
+          "values_H_to_P": [
+            220,
+            124,
+            96,
+            34,
+            18,
+            16,
+            186,
+            106,
+            80
+          ]
+        },
+        {
+          "row": 9846,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "040001",
+          "raw_label": " English",
+          "values_H_to_P": [
+            220,
+            124,
+            96,
+            34,
+            18,
+            16,
+            186,
+            106,
+            80
+          ]
+        },
+        {
+          "row": 9847,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "041000",
+          "raw_label": "41 GADABA ",
+          "values_H_to_P": [
+            3,
+            0,
+            3,
+            0,
+            0,
+            0,
+            3,
+            0,
+            3
+          ]
+        },
+        {
+          "row": 9848,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "041001",
+          "raw_label": " Gadaba",
+          "values_H_to_P": [
+            3,
+            0,
+            3,
+            0,
+            0,
+            0,
+            3,
+            0,
+            3
+          ]
+        },
+        {
+          "row": 9849,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "044000",
+          "raw_label": "44 GONDI",
+          "values_H_to_P": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "row": 9850,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "044999",
+          "raw_label": "44 Others",
+          "values_H_to_P": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "row": 9851,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "048000",
+          "raw_label": "48 HO",
+          "values_H_to_P": [
+            2589,
+            1345,
+            1244,
+            2517,
+            1303,
+            1214,
+            72,
+            42,
+            30
+          ]
+        },
+        {
+          "row": 9852,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "048004",
+          "raw_label": " Ho",
+          "values_H_to_P": [
+            2589,
+            1345,
+            1244,
+            2517,
+            1303,
+            1214,
+            72,
+            42,
+            30
+          ]
+        },
+        {
+          "row": 9853,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "050000",
+          "raw_label": "50 JUANG ",
+          "values_H_to_P": [
+            109,
+            57,
+            52,
+            107,
+            56,
+            51,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "row": 9854,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "050001",
+          "raw_label": " Juang",
+          "values_H_to_P": [
+            109,
+            57,
+            52,
+            107,
+            56,
+            51,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "row": 9855,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "054000",
+          "raw_label": "54 KHARIA ",
+          "values_H_to_P": [
+            10,
+            6,
+            4,
+            0,
+            0,
+            0,
+            10,
+            6,
+            4
+          ]
+        },
+        {
+          "row": 9856,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "054005",
+          "raw_label": " Kharia",
+          "values_H_to_P": [
+            10,
+            6,
+            4,
+            0,
+            0,
+            0,
+            10,
+            6,
+            4
+          ]
+        },
+        {
+          "row": 9857,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "058000",
+          "raw_label": "58 KHOND/KONDH ",
+          "values_H_to_P": [
+            57,
+            28,
+            29,
+            26,
+            13,
+            13,
+            31,
+            15,
+            16
+          ]
+        },
+        {
+          "row": 9858,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "058001",
+          "raw_label": " Khond/Kondh",
+          "values_H_to_P": [
+            57,
+            28,
+            29,
+            26,
+            13,
+            13,
+            31,
+            15,
+            16
+          ]
+        },
+        {
+          "row": 9859,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "060000",
+          "raw_label": "60 KISAN ",
+          "values_H_to_P": [
+            3,
+            2,
+            1,
+            0,
+            0,
+            0,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "row": 9860,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "060002",
+          "raw_label": " Kisan",
+          "values_H_to_P": [
+            3,
+            2,
+            1,
+            0,
+            0,
+            0,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "row": 9861,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "062000",
+          "raw_label": "62 KODA/KORA ",
+          "values_H_to_P": [
+            5,
+            4,
+            1,
+            5,
+            4,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 9862,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "062003",
+          "raw_label": " Koda/Kora",
+          "values_H_to_P": [
+            5,
+            4,
+            1,
+            5,
+            4,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 9863,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "069000",
+          "raw_label": "69 KOYA ",
+          "values_H_to_P": [
+            4,
+            4,
+            0,
+            4,
+            4,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 9864,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "069002",
+          "raw_label": " Koya",
+          "values_H_to_P": [
+            4,
+            4,
+            0,
+            4,
+            4,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 9865,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "070000",
+          "raw_label": "70 KUI ",
+          "values_H_to_P": [
+            417,
+            169,
+            248,
+            102,
+            38,
+            64,
+            315,
+            131,
+            184
+          ]
+        },
+        {
+          "row": 9866,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "070001",
+          "raw_label": " Kui",
+          "values_H_to_P": [
+            417,
+            169,
+            248,
+            102,
+            38,
+            64,
+            315,
+            131,
+            184
+          ]
+        },
+        {
+          "row": 9867,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "071000",
+          "raw_label": "71 KUKI",
+          "values_H_to_P": [
+            2,
+            2,
+            0,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 9868,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "071008",
+          "raw_label": " Kuki",
+          "values_H_to_P": [
+            2,
+            2,
+            0,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 9869,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "072000",
+          "raw_label": "72 KURUKH/ORAON ",
+          "values_H_to_P": [
+            14,
+            10,
+            4,
+            1,
+            1,
+            0,
+            13,
+            9,
+            4
+          ]
+        },
+        {
+          "row": 9870,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "072024",
+          "raw_label": " Kurukh/Oraon",
+          "values_H_to_P": [
+            14,
+            10,
+            4,
+            1,
+            1,
+            0,
+            13,
+            9,
+            4
+          ]
+        },
+        {
+          "row": 9871,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "073000",
+          "raw_label": "73 LADAKHI ",
+          "values_H_to_P": [
+            63,
+            39,
+            24,
+            51,
+            33,
+            18,
+            12,
+            6,
+            6
+          ]
+        },
+        {
+          "row": 9872,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "073003",
+          "raw_label": " Ladakhi",
+          "values_H_to_P": [
+            63,
+            39,
+            24,
+            51,
+            33,
+            18,
+            12,
+            6,
+            6
+          ]
+        },
+        {
+          "row": 9873,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "082000",
+          "raw_label": "82 LUSHAI/MIZO ",
+          "values_H_to_P": [
+            3,
+            3,
+            0,
+            1,
+            1,
+            0,
+            2,
+            2,
+            0
+          ]
+        },
+        {
+          "row": 9874,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "082005",
+          "raw_label": " Lushai/Mizo",
+          "values_H_to_P": [
+            3,
+            3,
+            0,
+            1,
+            1,
+            0,
+            2,
+            2,
+            0
+          ]
+        },
+        {
+          "row": 9875,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "091000",
+          "raw_label": "91 MUNDA",
+          "values_H_to_P": [
+            9764,
+            4986,
+            4778,
+            9313,
+            4743,
+            4570,
+            451,
+            243,
+            208
+          ]
+        },
+        {
+          "row": 9876,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "091009",
+          "raw_label": " Munda",
+          "values_H_to_P": [
+            9754,
+            4977,
+            4777,
+            9313,
+            4743,
+            4570,
+            441,
+            234,
+            207
+          ]
+        },
+        {
+          "row": 9877,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "091999",
+          "raw_label": "91 Others ",
+          "values_H_to_P": [
+            10,
+            9,
+            1,
+            0,
+            0,
+            0,
+            10,
+            9,
+            1
+          ]
+        },
+        {
+          "row": 9878,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "092000",
+          "raw_label": "92 MUNDARI ",
+          "values_H_to_P": [
+            100,
+            52,
+            48,
+            51,
+            25,
+            26,
+            49,
+            27,
+            22
+          ]
+        },
+        {
+          "row": 9879,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "092005",
+          "raw_label": " Mundari",
+          "values_H_to_P": [
+            100,
+            52,
+            48,
+            51,
+            25,
+            26,
+            49,
+            27,
+            22
+          ]
+        },
+        {
+          "row": 9880,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "096000",
+          "raw_label": "96 PAITE",
+          "values_H_to_P": [
+            2,
+            2,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "row": 9881,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "096002",
+          "raw_label": " Paite",
+          "values_H_to_P": [
+            2,
+            2,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "row": 9882,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "102000",
+          "raw_label": "102 RABHA ",
+          "values_H_to_P": [
+            3,
+            3,
+            0,
+            3,
+            3,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 9883,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "102002",
+          "raw_label": " Rabha",
+          "values_H_to_P": [
+            3,
+            3,
+            0,
+            3,
+            3,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 9884,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "106000",
+          "raw_label": "106 SAVARA",
+          "values_H_to_P": [
+            25,
+            15,
+            10,
+            14,
+            5,
+            9,
+            11,
+            10,
+            1
+          ]
+        },
+        {
+          "row": 9885,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "106004",
+          "raw_label": " Savara",
+          "values_H_to_P": [
+            25,
+            15,
+            10,
+            14,
+            5,
+            9,
+            11,
+            10,
+            1
+          ]
+        },
+        {
+          "row": 9886,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "114000",
+          "raw_label": "114 THADO ",
+          "values_H_to_P": [
+            8,
+            3,
+            5,
+            0,
+            0,
+            0,
+            8,
+            3,
+            5
+          ]
+        },
+        {
+          "row": 9887,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "114015",
+          "raw_label": " Thado",
+          "values_H_to_P": [
+            8,
+            3,
+            5,
+            0,
+            0,
+            0,
+            8,
+            3,
+            5
+          ]
+        },
+        {
+          "row": 9888,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "115000",
+          "raw_label": "115 TIBETAN ",
+          "values_H_to_P": [
+            7,
+            7,
+            0,
+            0,
+            0,
+            0,
+            7,
+            7,
+            0
+          ]
+        },
+        {
+          "row": 9889,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "115008",
+          "raw_label": " Tibetan",
+          "values_H_to_P": [
+            7,
+            7,
+            0,
+            0,
+            0,
+            0,
+            7,
+            7,
+            0
+          ]
+        },
+        {
+          "row": 9890,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "116000",
+          "raw_label": "116 TRIPURI ",
+          "values_H_to_P": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 9891,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "116007",
+          "raw_label": " Kokbarak",
+          "values_H_to_P": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 9892,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "120000",
+          "raw_label": "120 YIMCHUNGRE",
+          "values_H_to_P": [
+            26,
+            26,
+            0,
+            26,
+            26,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 9893,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "120004",
+          "raw_label": " Tikhir",
+          "values_H_to_P": [
+            26,
+            26,
+            0,
+            26,
+            26,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 9894,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "124000",
+          "raw_label": "124 OTHERS",
+          "values_H_to_P": [
+            1698,
+            854,
+            844,
+            1223,
+            604,
+            619,
+            475,
+            250,
+            225
+          ]
+        }
+      ],
+      "selected_examples": [
+        {
+          "row": 9769,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "002007",
+          "raw_label": " Bengali",
+          "values_H_to_P": [
+            22564,
+            11836,
+            10728,
+            2932,
+            1627,
+            1305,
+            19632,
+            10209,
+            9423
+          ]
+        },
+        {
+          "row": 9809,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "015000",
+          "raw_label": "15 ODIA ",
+          "values_H_to_P": [
+            2397705,
+            1236444,
+            1161261,
+            1786938,
+            919509,
+            867429,
+            610767,
+            316935,
+            293832
+          ]
+        },
+        {
+          "row": 9812,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "015043",
+          "raw_label": " Odia",
+          "values_H_to_P": [
+            2397597,
+            1236389,
+            1161208,
+            1786867,
+            919474,
+            867393,
+            610730,
+            316915,
+            293815
+          ]
+        },
+        {
+          "row": 9814,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "015058",
+          "raw_label": " Sambalpuri",
+          "values_H_to_P": [
+            45,
+            26,
+            19,
+            37,
+            22,
+            15,
+            8,
+            4,
+            4
+          ]
+        },
+        {
+          "row": 9833,
+          "geography_B_to_E": [
+            "21",
+            "381",
+            "00000",
+            "Cuttack"
+          ],
+          "code": "022015",
+          "raw_label": " Urdu",
+          "values_H_to_P": [
+            122356,
+            61955,
+            60401,
+            76772,
+            38490,
+            38282,
+            45584,
+            23465,
+            22119
+          ]
+        }
+      ],
+      "existing_material": {
+        "search": "python3 tools/research/query_research.py Cuttack plus configured route/context inspection",
+        "preserve": [
+          {
+            "path": "kb/research/cities/cuttack.md",
+            "scope": "Distinct city food/maritime-memory proposal linking dahibara aloodum, Bali Yatra and museum research; not a district linguistic explanation."
+          },
+          {
+            "path": "kb/research/culture/cuttack-tarakasi.md",
+            "scope": "Separate NID-backed silver-filigree technique and named-maker evidence, with links to an authored silver-structure narrative. Preserve independently; no mother-tongue inference."
+          },
+          {
+            "path": "kb/research/culture/air-cuttack.md",
+            "scope": "Substantial authored broadcast-history account, including Gopal Chhotray and named adaptations. Cultural narrative not convertible into district mother-tongue demographics."
+          },
+          {
+            "path": "kb/research/statistics/districts/cuttack.md",
+            "scope": "Separate dated banking dataset found by research query, not independently reverified this pass."
+          }
+        ]
+      },
+      "limits": [
+        "Original saved XLSX directly parsed from ZIP/XML, read-only; no external refetch necessary or performed.",
+        "Counts describe2011Census district, not Cuttack city or contemporary population. Parent groups contain member entries; do not add both levels.",
+        "No inference of ancestry, community identity, fluency, migration or individual language preference. Statewide C17 is not apportioned to Cuttack.",
+        "Existing cultural narratives inspected in KB, not original external sources reverified; no editing of these articles proposed.",
+        "No live browser render, deployment check, human/community review or exhaustive worldwide literature search.",
+        "No canonical/Git mutations, shared claim, article completion or substantive credit."
+      ],
+      "next_actions": [
+        "Independent review of the recommendation; coordinator can record individual utility exclusion while preserving route and its Cuttack destination connection.",
+        "Retain separate city/craft/radio authored material. Any future district-language narrative needs a specific reader question and independent source evidence."
+      ],
+      "file_hashes": {
+        "kb/research/references/census-2011/c16-odisha.xlsx": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db",
+        "kb/research/voices/population-2011.json": "c149d36bfa5c6c01595ddb517dfca21c5d8d5fe6d2283fa19dc020432b7fe998",
+        "projects/site/src/pages/languages/districts/[slug].astro": "4710838468016e58cf8b3d2a1537c1185b3cb39049b5ce90dbae6c1391568e76",
+        "projects/site/src/lib/language-atlas.mjs": "c52a825ccfec3aa241173e7d50355a42074bdfb8a45ee4ac225a2fec3e99a87c",
+        "kb/research/voices/district-connections.json": "149161595dab537134f247fd7c5fdb34aa128b2bb008ae5a35fc0bb04f97f303",
+        "kb/research/related-discoveries.json": "a5e4eff87f1a410f860950103d9cbbd527a03b084f7b6513ac95fe4f6100ee6c",
+        "kb/research/cities/cuttack.md": "72455f8e54191e117b4c813884996c20e6ba2f289d1a25d120382e62d7ad6844",
+        "kb/research/culture/cuttack-tarakasi.md": "fd2a0988f8a9af92159bde9eec0e54bbc0850cd4d21ec539294b92938c23f07e",
+        "kb/research/culture/air-cuttack.md": "7019028105a62ef647d96c8991fd44acb573fa676745f0b67ee3d21105a47a24"
+      },
+      "completion_credit": 0,
+      "programme_credit": 0
+    },
+    "samanta": {
+      "task": "POD-EDIT-092",
+      "route": "/languages/districts/cuttack/",
+      "input_head": "e923482e2628198e908ab1f94d39c136575d15a9",
+      "local_origin_main": "402c3e2d280afc80a2f2a5fd025fa0c69a60a5f4",
+      "checked_at": "2026-10-26T13:38:49.160738+00:00",
+      "classification": "utility_population_profile",
+      "rationale": "Individually inspected Cuttack381: generated Census population statistics, parent-group and subordinate-return tables, residence breakdowns and data-selected language reading links. One real district-to-city contextual note links the Cuttack destination; no additional related-discovery link is configured from this route and no sustained authored local narrative is embedded. That short geographic distinction does not turn the statistical utility into a substantive article.",
+      "source_checks": {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/kb/research/references/census-2011/c16-odisha.xlsx",
+        "sha256": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db",
+        "sheet": "Sheet1",
+        "rows_exact": 129,
+        "source_row_range": [
+          9766,
+          9894
+        ],
+        "nine_numeric_fields_per_row_verified": true,
+        "population_nine_values": [
+          2624470,
+          1352760,
+          1271710,
+          1888423,
+          970885,
+          917538,
+          736047,
+          381875,
+          354172
+        ],
+        "method": "Direct original XLSX C district/E name/F language code/H:P nine values for every atlas row; sum only mutually exclusive parent groups; no double counting subordinate mother-tongue entries.",
+        "result": "pass"
+      },
+      "context": {
+        "district_connections": [
+          {
+            "destination": "cuttack",
+            "district": "381",
+            "title": "Cuttack",
+            "note": "The Census figures cover Cuttack district, including places beyond the city."
+          }
+        ],
+        "related_discoveries": []
+      },
+      "cached_render": {
+        "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/dist-publish/languages/districts/cuttack/index.html",
+        "sha256": "3751497af3b486db6b3fa52943ee5829978641f79b30138092b3cd2e0ec853df",
+        "article_text": "← All 30 districts\nA district in voices · Census 2011\nCuttack\nMore than a single voice.\nThe largest recorded language group was ODIA, with 23,97,705 people (91.36%). Open the individual entries below: broad groups can contain distinct names and stories.\nDistrict population · 2011\n26,24,470\nRural population\n71.95%\n18,88,423 people\nUrban population\n28.05%\n7,36,047 people\nThis is a historical district profile, not a city survey or a present-day forecast. Mother tongue, community identity, ancestry and the languages used at work are different questions.\nThe whole district\nDenominator: 26,24,470 people in Cuttack · all areas, 2011.\nCensus language groups · mutually exclusive totals\nGroup\nPeople\nShare\nODIA\n23,97,705\n91.36%\nURDU\n1,22,356\n4.66%\nHINDI\n36,567\n1.39%\nBENGALI\n22,567\n0.86%\nTELUGU\n20,600\n0.78%\nMUNDA\n9,764\n0.37%\nSANTALI\n4,731\n0.18%\nHO\n2,589\n0.10%\nGUJARATI\n1,968\n0.07%\nOTHERS\n1,698\n0.06%\nPUNJABI\n862\n0.03%\nMARATHI\n523\n0.02%\nKUI\n417\n0.02%\nMALAYALAM\n376\n0.01%\nTAMIL\n339\n0.01%\nNEPALI\n228\n<0.01%\nENGLISH\n220\n<0.01%\nMAITHILI\n166\n<0.01%\nJUANG\n109\n<0.01%\nMUNDARI\n100\n<0.01%\nMANIPURI\n65\n<0.01%\nLADAKHI\n63\n<0.01%\nKANNADA\n60\n<0.01%\nKHOND/KONDH\n57\n<0.01%\nSINDHI\n51\n<0.01%\nASSAMESE\n48\n<0.01%\nBHILI/BHILODI\n40\n<0.01%\nDOGRI\n28\n<0.01%\nSANSKRIT\n26\n<0.01%\nYIMCHUNGRE\n26\n<0.01%\nSAVARA\n25\n<0.01%\nKURUKH/ORAON\n14\n<0.01%\nAFGHANI/KABULI/PASHTO\n12\n<0.01%\nKHARIA\n10\n<0.01%\nARABIC/ARBI\n9\n<0.01%\nTHADO\n8\n<0.01%\nTIBETAN\n7\n<0.01%\nKODA/KORA\n5\n<0.01%\nKOYA\n4\n<0.01%\nKASHMIRI\n3\n<0.01%\nANGAMI\n3\n<0.01%\nGADABA\n3\n<0.01%\nKISAN\n3\n<0.01%\nLUSHAI/MIZO\n3\n<0.01%\nRABHA\n3\n<0.01%\nKONKANI\n2\n<0.01%\nKUKI\n2\n<0.01%\nPAITE\n2\n<0.01%\nDIMASA\n1\n<0.01%\nGONDI\n1\n<0.01%\nTRIPURI\n1\n<0.01%\nLook inside the groups: individual mother-tongue entries\nThe entries below are already included in their parent groups above. Do not add both tables together. Only positive recorded counts for this residence category are shown; omission is not proof of an absence of speakers today. Residual group OTHERS has no subordinate entries here.\nIndividual entries · Census labels and parent classifications retained\nEntry / parent group\nPeople\nMale\nFemale\nShare\nOdia\nUnder ODIA · C-16 row 9812\n23,97,597\n12,36,389\n11,61,208\n91.36%\nUrdu\nUnder URDU · C-16 row 9833\n1,22,356\n61,955\n60,401\n4.66%\nHindi\nUnder HINDI · C-16 row 9782\n32,671\n17,482\n15,189\n1.24%\nBengali\nUnder BENGALI · C-16 row 9769\n22,564\n11,836\n10,728\n0.86%\nTelugu\nUnder TELUGU · C-16 row 9830\n20,599\n10,209\n10,390\n0.78%\nMunda\nUnder MUNDA · C-16 row 9876\n9,754\n4,977\n4,777\n0.37%\nSantali\nUnder SANTALI · C-16 row 9823\n4,731\n2,320\n2,411\n0.18%\nMarwari\nUnder HINDI · C-16 row 9786\n2,615\n1,376\n1,239\n0.10%\nHo\nUnder HO · C-16 row 9852\n2,589\n1,345\n1,244\n0.10%\nGujarati\nUnder GUJARATI · C-16 row 9774\n1,950\n1,006\n944\n0.07%\nPunjabi\nUnder PUNJABI · C-16 row 9818\n861\n466\n395\n0.03%\nMarathi\nUnder MARATHI · C-16 row 9806\n523\n272\n251\n0.02%\nBhojpuri\nUnder HINDI · C-16 row 9778\n482\n287\n195\n0.02%\nKui\nUnder KUI · C-16 row 9866\n417\n169\n248\n0.02%\nMalayalam\nUnder MALAYALAM · C-16 row 9802\n376\n201\n175\n0.01%\nOthers\nUnder HINDI · C-16 row 9790\n355\n206\n149\n0.01%\nTamil\nUnder TAMIL · C-16 row 9828\n339\n172\n167\n0.01%\nRajasthani\nUnder HINDI · C-16 row 9788\n261\n163\n98\n<0.01%\nNepali\nUnder NEPALI · C-16 row 9808\n228\n126\n102\n<0.01%\nEnglish\nUnder ENGLISH · C-16 row 9846\n220\n124\n96\n<0.01%\nMaithili\nUnder MAITHILI · C-16 row 9800\n166\n85\n81\n<0.01%\nJuang\nUnder JUANG · C-16 row 9854\n109\n57\n52\n<0.01%\nMundari\nUnder MUNDARI · C-16 row 9879\n100\n52\n48\n<0.01%\nManipuri\nUnder MANIPURI · C-16 row 9804\n65\n59\n6\n<0.01%\nLadakhi\nUnder LADAKHI · C-16 row 9872\n63\n39\n24\n<0.01%\nKhond/Kondh\nUnder KHOND/KONDH · C-16 row 9858\n57\n28\n29\n<0.01%\nKannada\nUnder KANNADA · C-16 row 9792\n55\n34\n21\n<0.01%\nGarhwali\nUnder HINDI · C-16 row 9780\n52\n52\n0\n<0.01%\nAssamese\nUnder ASSAMESE · C-16 row 9767\n48\n27\n21\n<0.01%\nSambalpuri\nUnder ODIA · C-16 row 9814\n45\n26\n19\n<0.01%\nBaori\nUnder BHILI/BHILODI · C-16 row 9841\n37\n22\n15\n<0.01%\nHaryanvi\nUnder HINDI · C-16 row 9781\n35\n31\n4\n<0.01%\nKachchhi\nUnder SINDHI · C-16 row 9825\n32\n15\n17\n<0.01%\nPahari\nUnder HINDI · C-16 row 9787\n31\n31\n0\n<0.01%\nDogri\nUnder DOGRI · C-16 row 9772\n28\n27\n1\n<0.01%\nOthers\nUnder ODIA · C-16 row 9815\n28\n15\n13\n<0.01%\nTikhir\nUnder YIMCHUNGRE · C-16 row 9893\n26\n26\n0\n<0.01%\nSavara\nUnder SAVARA · C-16 row 9885\n25\n15\n10\n<0.01%\nChhattisgarhi\nUnder HINDI · C-16 row 9779\n23\n16\n7\n<0.01%\nSanskrit\nUnder SANSKRIT · C-16 row 9820\n23\n14\n9\n<0.01%\nBhumijali\nUnder ODIA · C-16 row 9811\n21\n8\n13\n<0.01%\nSindhi\nUnder SINDHI · C-16 row 9826\n19\n10\n9\n<0.01%\nOthers\nUnder GUJARATI · C-16 row 9775\n18\n10\n8\n<0.01%\nKumauni\nUnder HINDI · C-16 row 9784\n18\n18\n0\n<0.01%\nSadan/Sadri\nUnder HINDI · C-16 row 9789\n17\n8\n9\n<0.01%\nKurukh/Oraon\nUnder KURUKH/ORAON · C-16 row 9870\n14\n10\n4\n<0.01%\nProja (Ori)\nUnder ODIA · C-16 row 9813\n13\n6\n7\n<0.01%\nAfghani/Kabuli/Pashto\nUnder AFGHANI/KABULI/PASHTO · C-16 row 9835\n12\n11\n1\n<0.01%\nKharia\nUnder KHARIA · C-16 row 9856\n10\n6\n4\n<0.01%\nOthers\nUnder MUNDA · C-16 row 9877\n10\n9\n1\n<0.01%\nArabic/Arbi\nUnder ARABIC/ARBI · C-16 row 9839\n9\n3\n6\n<0.01%\nThado\nUnder THADO · C-16 row 9887\n8\n3\n5\n<0.01%\nTibetan\nUnder TIBETAN · C-16 row 9889\n7\n7\n0\n<0.01%\nOthers\nUnder KANNADA · C-16 row 9793\n5\n2\n3\n<0.01%\nKoda/Kora\nUnder KODA/KORA · C-16 row 9862\n5\n4\n1\n<0.01%\nKhortha/Khotta\nUnder HINDI · C-16 row 9783\n4\n2\n2\n<0.01%\nKoya\nUnder KOYA · C-16 row 9864\n4\n4\n0\n<0.01%\nChakma\nUnder BENGALI · C-16 row 9770\n3\n3\n0\n<0.01%\nOthers\nUnder SANSKRIT · C-16 row 9821\n3\n2\n1\n<0.01%\nOthers\nUnder ANGAMI · C-16 row 9837\n3\n2\n1\n<0.01%\nOthers\nUnder BHILI/BHILODI · C-16 row 9842\n3\n2\n1\n<0.01%\nGadaba\nUnder GADABA · C-16 row 9848\n3\n0\n3\n<0.01%\nKisan\nUnder KISAN · C-16 row 9860\n3\n2\n1\n<0.01%\nLushai/Mizo\nUnder LUSHAI/MIZO · C-16 row 9874\n3\n3\n0\n<0.01%\nRabha\nUnder RABHA · C-16 row 9883\n3\n3\n0\n<0.01%\nAwadhi\nUnder HINDI · C-16 row 9777\n2\n2\n0\n<0.01%\nKashmiri\nUnder KASHMIRI · C-16 row 9795\n2\n2\n0\n<0.01%\nGorboli/Goru/Gorwani\nUnder KONKANI · C-16 row 9798\n2\n2\n0\n<0.01%\nKuki\nUnder KUKI · C-16 row 9868\n2\n2\n0\n<0.01%\nPaite\nUnder PAITE · C-16 row 9881\n2\n2\n0\n<0.01%\nMagadhi/Magahi\nUnder HINDI · C-16 row 9785\n1\n1\n0\n<0.01%\nKishtwari\nUnder KASHMIRI · C-16 row 9796\n1\n1\n0\n<0.01%\nBhuiya/Bhuyan[Ori]\nUnder ODIA · C-16 row 9810\n1\n0\n1\n<0.01%\nBagri\nUnder PUNJABI · C-16 row 9817\n1\n1\n0\n<0.01%\nOthers\nUnder TELUGU · C-16 row 9831\n1\n0\n1\n<0.01%\nOthers\nUnder DIMASA · C-16 row 9844\n1\n1\n0\n<0.01%\nOthers\nUnder GONDI · C-16 row 9850\n1\n1\n0\n<0.01%\nKokbarak\nUnder TRIPURI · C-16 row 9891\n1\n1\n0\n<0.01%\nRural and urban: two views within the district\nEach share below uses the population of that residence category. Rural and urban counts add to the district total; their percentages use different denominators.\nRural population breakdown\nDenominator: 18,88,423 people in Cuttack · rural areas, 2011.\nCensus language groups · mutually exclusive totals\nGroup\nPeople\nShare\nODIA\n17,86,938\n94.63%\nURDU\n76,772\n4.07%\nMUNDA\n9,313\n0.49%\nHINDI\n4,541\n0.24%\nBENGALI\n2,935\n0.16%\nHO\n2,517\n0.13%\nSANTALI\n2,060\n0.11%\nTELUGU\n1,361\n0.07%\nOTHERS\n1,223\n0.06%\nJUANG\n107\n<0.01%\nKUI\n102\n<0.01%\nGUJARATI\n72\n<0.01%\nMANIPURI\n56\n<0.01%\nLADAKHI\n51\n<0.01%\nMUNDARI\n51\n<0.01%\nNEPALI\n41\n<0.01%\nENGLISH\n34\n<0.01%\nMARATHI\n31\n<0.01%\nKHOND/KONDH\n26\n<0.01%\nYIMCHUNGRE\n26\n<0.01%\nTAMIL\n24\n<0.01%\nASSAMESE\n22\n<0.01%\nMALAYALAM\n21\n<0.01%\nMAITHILI\n17\n<0.01%\nBHILI/BHILODI\n17\n<0.01%\nPUNJABI\n14\n<0.01%\nSAVARA\n14\n<0.01%\nSANSKRIT\n9\n<0.01%\nARABIC/ARBI\n5\n<0.01%\nKODA/KORA\n5\n<0.01%\nKOYA\n4\n<0.01%\nRABHA\n3\n<0.01%\nKANNADA\n2\n<0.01%\nKASHMIRI\n2\n<0.01%\nKUKI\n2\n<0.01%\nDOGRI\n1\n<0.01%\nKURUKH/ORAON\n1\n<0.01%\nLUSHAI/MIZO\n1\n<0.01%\nPAITE\n1\n<0.01%\nTRIPURI\n1\n<0.01%\nLook inside the groups: individual mother-tongue entries\nThe entries below are already included in their parent groups above. Do not add both tables together. Only positive recorded counts for this residence category are shown; omission is not proof of an absence of speakers today. Residual group OTHERS has no subordinate entries here.\nIndividual entries · Census labels and parent classifications retained\nEntry / parent group\nPeople\nMale\nFemale\nShare\nOdia\nUnder ODIA · C-16 row 9812\n17,86,867\n9,19,474\n8,67,393\n94.62%\nUrdu\nUnder URDU · C-16 row 9833\n76,772\n38,490\n38,282\n4.07%\nMunda\nUnder MUNDA · C-16 row 9876\n9,313\n4,743\n4,570\n0.49%\nHindi\nUnder HINDI · C-16 row 9782\n4,440\n2,413\n2,027\n0.24%\nBengali\nUnder BENGALI · C-16 row 9769\n2,932\n1,627\n1,305\n0.16%\nHo\nUnder HO · C-16 row 9852\n2,517\n1,303\n1,214\n0.13%\nSantali\nUnder SANTALI · C-16 row 9823\n2,060\n976\n1,084\n0.11%\nTelugu\nUnder TELUGU · C-16 row 9830\n1,361\n711\n650\n0.07%\nJuang\nUnder JUANG · C-16 row 9854\n107\n56\n51\n<0.01%\nKui\nUnder KUI · C-16 row 9866\n102\n38\n64\n<0.01%\nGujarati\nUnder GUJARATI · C-16 row 9774\n72\n33\n39\n<0.01%\nManipuri\nUnder MANIPURI · C-16 row 9804\n56\n56\n0\n<0.01%\nLadakhi\nUnder LADAKHI · C-16 row 9872\n51\n33\n18\n<0.01%\nMundari\nUnder MUNDARI · C-16 row 9879\n51\n25\n26\n<0.01%\nOthers\nUnder HINDI · C-16 row 9790\n48\n27\n21\n<0.01%\nNepali\nUnder NEPALI · C-16 row 9808\n41\n19\n22\n<0.01%\nSambalpuri\nUnder ODIA · C-16 row 9814\n37\n22\n15\n<0.01%\nEnglish\nUnder ENGLISH · C-16 row 9846\n34\n18\n16\n<0.01%\nMarathi\nUnder MARATHI · C-16 row 9806\n31\n16\n15\n<0.01%\nBhojpuri\nUnder HINDI · C-16 row 9778\n29\n17\n12\n<0.01%\nKhond/Kondh\nUnder KHOND/KONDH · C-16 row 9858\n26\n13\n13\n<0.01%\nTikhir\nUnder YIMCHUNGRE · C-16 row 9893\n26\n26\n0\n<0.01%\nTamil\nUnder TAMIL · C-16 row 9828\n24\n18\n6\n<0.01%\nAssamese\nUnder ASSAMESE · C-16 row 9767\n22\n14\n8\n<0.01%\nMalayalam\nUnder MALAYALAM · C-16 row 9802\n21\n16\n5\n<0.01%\nBhumijali\nUnder ODIA · C-16 row 9811\n21\n8\n13\n<0.01%\nRajasthani\nUnder HINDI · C-16 row 9788\n17\n14\n3\n<0.01%\nMaithili\nUnder MAITHILI · C-16 row 9800\n17\n8\n9\n<0.01%\nPunjabi\nUnder PUNJABI · C-16 row 9818\n14\n10\n4\n<0.01%\nBaori\nUnder BHILI/BHILODI · C-16 row 9841\n14\n7\n7\n<0.01%\nSavara\nUnder SAVARA · C-16 row 9885\n14\n5\n9\n<0.01%\nProja (Ori)\nUnder ODIA · C-16 row 9813\n7\n3\n4\n<0.01%\nSanskrit\nUnder SANSKRIT · C-16 row 9820\n6\n4\n2\n<0.01%\nOthers\nUnder ODIA · C-16 row 9815\n5\n2\n3\n<0.01%\nArabic/Arbi\nUnder ARABIC/ARBI · C-16 row 9839\n5\n2\n3\n<0.01%\nKoda/Kora\nUnder KODA/KORA · C-16 row 9862\n5\n4\n1\n<0.01%\nKhortha/Khotta\nUnder HINDI · C-16 row 9783\n4\n2\n2\n<0.01%\nKoya\nUnder KOYA · C-16 row 9864\n4\n4\n0\n<0.01%\nChakma\nUnder BENGALI · C-16 row 9770\n3\n3\n0\n<0.01%\nOthers\nUnder SANSKRIT · C-16 row 9821\n3\n2\n1\n<0.01%\nOthers\nUnder BHILI/BHILODI · C-16 row 9842\n3\n2\n1\n<0.01%\nRabha\nUnder RABHA · C-16 row 9883\n3\n3\n0\n<0.01%\nKannada\nUnder KANNADA · C-16 row 9792\n2\n2\n0\n<0.01%\nKashmiri\nUnder KASHMIRI · C-16 row 9795\n2\n2\n0\n<0.01%\nKuki\nUnder KUKI · C-16 row 9868\n2\n2\n0\n<0.01%\nDogri\nUnder DOGRI · C-16 row 9772\n1\n1\n0\n<0.01%\nChhattisgarhi\nUnder HINDI · C-16 row 9779\n1\n1\n0\n<0.01%\nMagadhi/Magahi\nUnder HINDI · C-16 row 9785\n1\n1\n0\n<0.01%\nMarwari\nUnder HINDI · C-16 row 9786\n1\n1\n0\n<0.01%\nBhuiya/Bhuyan[Ori]\nUnder ODIA · C-16 row 9810\n1\n0\n1\n<0.01%\nKurukh/Oraon\nUnder KURUKH/ORAON · C-16 row 9870\n1\n1\n0\n<0.01%\nLushai/Mizo\nUnder LUSHAI/MIZO · C-16 row 9874\n1\n1\n0\n<0.01%\nPaite\nUnder PAITE · C-16 row 9881\n1\n1\n0\n<0.01%\nKokbarak\nUnder TRIPURI · C-16 row 9891\n1\n1\n0\n<0.01%\nUrban population breakdown\nDenominator: 7,36,047 people in Cuttack · urban areas, 2011.\nCensus language groups · mutually exclusive totals\nGroup\nPeople\nShare\nODIA\n6,10,767\n82.98%\nURDU\n45,584\n6.19%\nHINDI\n32,026\n4.35%\nBENGALI\n19,632\n2.67%\nTELUGU\n19,239\n2.61%\nSANTALI\n2,671\n0.36%\nGUJARATI\n1,896\n0.26%\nPUNJABI\n848\n0.12%\nMARATHI\n492\n0.07%\nOTHERS\n475\n0.06%\nMUNDA\n451\n0.06%\nMALAYALAM\n355\n0.05%\nTAMIL\n315\n0.04%\nKUI\n315\n0.04%\nNEPALI\n187\n0.03%\nENGLISH\n186\n0.03%\nMAITHILI\n149\n0.02%\nHO\n72\n<0.01%\nKANNADA\n58\n<0.01%\nSINDHI\n51\n<0.01%\nMUNDARI\n49\n<0.01%\nKHOND/KONDH\n31\n<0.01%\nDOGRI\n27\n<0.01%\nASSAMESE\n26\n<0.01%\nBHILI/BHILODI\n23\n<0.01%\nSANSKRIT\n17\n<0.01%\nKURUKH/ORAON\n13\n<0.01%\nAFGHANI/KABULI/PASHTO\n12\n<0.01%\nLADAKHI\n12\n<0.01%\nSAVARA\n11\n<0.01%\nKHARIA\n10\n<0.01%\nMANIPURI\n9\n<0.01%\nTHADO\n8\n<0.01%\nTIBETAN\n7\n<0.01%\nARABIC/ARBI\n4\n<0.01%\nANGAMI\n3\n<0.01%\nGADABA\n3\n<0.01%\nKISAN\n3\n<0.01%\nKONKANI\n2\n<0.01%\nJUANG\n2\n<0.01%\nLUSHAI/MIZO\n2\n<0.01%\nKASHMIRI\n1\n<0.01%\nDIMASA\n1\n<0.01%\nGONDI\n1\n<0.01%\nPAITE\n1\n<0.01%\nLook inside the groups: individual mother-tongue entries\nThe entries below are already included in their parent groups above. Do not add both tables together. Only positive recorded counts for this residence category are shown; omission is not proof of an absence of speakers today. Residual group OTHERS has no subordinate entries here.\nIndividual entries · Census labels and parent classifications retained\nEntry / parent group\nPeople\nMale\nFemale\nShare\nOdia\nUnder ODIA · C-16 row 9812\n6,10,730\n3,16,915\n2,93,815\n82.97%\nUrdu\nUnder URDU · C-16 row 9833\n45,584\n23,465\n22,119\n6.19%\nHindi\nUnder HINDI · C-16 row 9782\n28,231\n15,069\n13,162\n3.84%\nBengali\nUnder BENGALI · C-16 row 9769\n19,632\n10,209\n9,423\n2.67%\nTelugu\nUnder TELUGU · C-16 row 9830\n19,238\n9,498\n9,740\n2.61%\nSantali\nUnder SANTALI · C-16 row 9823\n2,671\n1,344\n1,327\n0.36%\nMarwari\nUnder HINDI · C-16 row 9786\n2,614\n1,375\n1,239\n0.36%\nGujarati\nUnder GUJARATI · C-16 row 9774\n1,878\n973\n905\n0.26%\nPunjabi\nUnder PUNJABI · C-16 row 9818\n847\n456\n391\n0.12%\nMarathi\nUnder MARATHI · C-16 row 9806\n492\n256\n236\n0.07%\nBhojpuri\nUnder HINDI · C-16 row 9778\n453\n270\n183\n0.06%\nMunda\nUnder MUNDA · C-16 row 9876\n441\n234\n207\n0.06%\nMalayalam\nUnder MALAYALAM · C-16 row 9802\n355\n185\n170\n0.05%\nTamil\nUnder TAMIL · C-16 row 9828\n315\n154\n161\n0.04%\nKui\nUnder KUI · C-16 row 9866\n315\n131\n184\n0.04%\nOthers\nUnder HINDI · C-16 row 9790\n307\n179\n128\n0.04%\nRajasthani\nUnder HINDI · C-16 row 9788\n244\n149\n95\n0.03%\nNepali\nUnder NEPALI · C-16 row 9808\n187\n107\n80\n0.03%\nEnglish\nUnder ENGLISH · C-16 row 9846\n186\n106\n80\n0.03%\nMaithili\nUnder MAITHILI · C-16 row 9800\n149\n77\n72\n0.02%\nHo\nUnder HO · C-16 row 9852\n72\n42\n30\n<0.01%\nKannada\nUnder KANNADA · C-16 row 9792\n53\n32\n21\n<0.01%\nGarhwali\nUnder HINDI · C-16 row 9780\n52\n52\n0\n<0.01%\nMundari\nUnder MUNDARI · C-16 row 9879\n49\n27\n22\n<0.01%\nHaryanvi\nUnder HINDI · C-16 row 9781\n35\n31\n4\n<0.01%\nKachchhi\nUnder SINDHI · C-16 row 9825\n32\n15\n17\n<0.01%\nPahari\nUnder HINDI · C-16 row 9787\n31\n31\n0\n<0.01%\nKhond/Kondh\nUnder KHOND/KONDH · C-16 row 9858\n31\n15\n16\n<0.01%\nDogri\nUnder DOGRI · C-16 row 9772\n27\n26\n1\n<0.01%\nAssamese\nUnder ASSAMESE · C-16 row 9767\n26\n13\n13\n<0.01%\nOthers\nUnder ODIA · C-16 row 9815\n23\n13\n10\n<0.01%\nBaori\nUnder BHILI/BHILODI · C-16 row 9841\n23\n15\n8\n<0.01%\nChhattisgarhi\nUnder HINDI · C-16 row 9779\n22\n15\n7\n<0.01%\nSindhi\nUnder SINDHI · C-16 row 9826\n19\n10\n9\n<0.01%\nOthers\nUnder GUJARATI · C-16 row 9775\n18\n10\n8\n<0.01%\nKumauni\nUnder HINDI · C-16 row 9784\n18\n18\n0\n<0.01%\nSadan/Sadri\nUnder HINDI · C-16 row 9789\n17\n8\n9\n<0.01%\nSanskrit\nUnder SANSKRIT · C-16 row 9820\n17\n10\n7\n<0.01%\nKurukh/Oraon\nUnder KURUKH/ORAON · C-16 row 9870\n13\n9\n4\n<0.01%\nAfghani/Kabuli/Pashto\nUnder AFGHANI/KABULI/PASHTO · C-16 row 9835\n12\n11\n1\n<0.01%\nLadakhi\nUnder LADAKHI · C-16 row 9872\n12\n6\n6\n<0.01%\nSavara\nUnder SAVARA · C-16 row 9885\n11\n10\n1\n<0.01%\nKharia\nUnder KHARIA · C-16 row 9856\n10\n6\n4\n<0.01%\nOthers\nUnder MUNDA · C-16 row 9877\n10\n9\n1\n<0.01%\nManipuri\nUnder MANIPURI · C-16 row 9804\n9\n3\n6\n<0.01%\nSambalpuri\nUnder ODIA · C-16 row 9814\n8\n4\n4\n<0.01%\nThado\nUnder THADO · C-16 row 9887\n8\n3\n5\n<0.01%\nTibetan\nUnder TIBETAN · C-16 row 9889\n7\n7\n0\n<0.01%\nProja (Ori)\nUnder ODIA · C-16 row 9813\n6\n3\n3\n<0.01%\nOthers\nUnder KANNADA · C-16 row 9793\n5\n2\n3\n<0.01%\nArabic/Arbi\nUnder ARABIC/ARBI · C-16 row 9839\n4\n1\n3\n<0.01%\nOthers\nUnder ANGAMI · C-16 row 9837\n3\n2\n1\n<0.01%\nGadaba\nUnder GADABA · C-16 row 9848\n3\n0\n3\n<0.01%\nKisan\nUnder KISAN · C-16 row 9860\n3\n2\n1\n<0.01%\nAwadhi\nUnder HINDI · C-16 row 9777\n2\n2\n0\n<0.01%\nGorboli/Goru/Gorwani\nUnder KONKANI · C-16 row 9798\n2\n2\n0\n<0.01%\nJuang\nUnder JUANG · C-16 row 9854\n2\n1\n1\n<0.01%\nLushai/Mizo\nUnder LUSHAI/MIZO · C-16 row 9874\n2\n2\n0\n<0.01%\nKishtwari\nUnder KASHMIRI · C-16 row 9796\n1\n1\n0\n<0.01%\nBagri\nUnder PUNJABI · C-16 row 9817\n1\n1\n0\n<0.01%\nOthers\nUnder TELUGU · C-16 row 9831\n1\n0\n1\n<0.01%\nOthers\nUnder DIMASA · C-16 row 9844\n1\n1\n0\n<0.01%\nOthers\nUnder GONDI · C-16 row 9850\n1\n1\n0\n<0.01%\nPaite\nUnder PAITE · C-16 row 9881\n1\n1\n0\n<0.01%\nFollow a voice into its story\nThese introductions connect to individual mother-tongue entries recorded here. They are a selection from our growing collection, not a complete list of the district’s languages.\nOdia →\nSantali →\nHo →\nKui →\nJuang →\nSambalpuri →\nSaora / Sora (Census: Savara) →\nKoya →\nLet the place deepen the reading\nThe Census figures cover Cuttack district, including places beyond the city.\nExplore Cuttack →\nTake curiosity into a conversation\nAsk which name a speaker uses for their language and which language they prefer for your conversation. A family memory, a local publication or a song they choose can add context that a table cannot supply.\nRead about multilingual Odisha →\n·\nShare a source or correction →\nSources, geography & interpretation\nCensus C-16, Odisha, 2011\n. District code 381; source name Cuttack. All figures derive from the original workbook retained in our KB. Parent groups contain their individual entries; classification does not determine community-preferred naming.\nDistrict figures cannot establish the languages of a particular town, accommodation provider or individual. C-17 multilingualism is statewide and is not apportioned to this district. No migration or ancestry claim is inferred.\nCommunity naming and visual review remain open.",
+        "links": [
+          "/languages/districts/",
+          "/languages/atlas/?language=015000&residence=total",
+          "/languages/atlas/?language=022000&residence=total",
+          "/languages/atlas/?language=006000&residence=total",
+          "/languages/atlas/?language=002000&residence=total",
+          "/languages/atlas/?language=021000&residence=total",
+          "/languages/atlas/?language=091000&residence=total",
+          "/languages/atlas/?language=018000&residence=total",
+          "/languages/atlas/?language=048000&residence=total",
+          "/languages/atlas/?language=005000&residence=total",
+          "/languages/atlas/?language=124000&residence=total",
+          "/languages/atlas/?language=016000&residence=total",
+          "/languages/atlas/?language=013000&residence=total",
+          "/languages/atlas/?language=070000&residence=total",
+          "/languages/atlas/?language=011000&residence=total",
+          "/languages/atlas/?language=020000&residence=total",
+          "/languages/atlas/?language=014000&residence=total",
+          "/languages/atlas/?language=040000&residence=total",
+          "/languages/atlas/?language=010000&residence=total",
+          "/languages/atlas/?language=050000&residence=total",
+          "/languages/atlas/?language=092000&residence=total",
+          "/languages/atlas/?language=012000&residence=total",
+          "/languages/atlas/?language=073000&residence=total",
+          "/languages/atlas/?language=007000&residence=total",
+          "/languages/atlas/?language=058000&residence=total",
+          "/languages/atlas/?language=019000&residence=total",
+          "/languages/atlas/?language=001000&residence=total",
+          "/languages/atlas/?language=030000&residence=total",
+          "/languages/atlas/?language=004000&residence=total",
+          "/languages/atlas/?language=017000&residence=total",
+          "/languages/atlas/?language=120000&residence=total",
+          "/languages/atlas/?language=106000&residence=total",
+          "/languages/atlas/?language=072000&residence=total",
+          "/languages/atlas/?language=024000&residence=total",
+          "/languages/atlas/?language=054000&residence=total",
+          "/languages/atlas/?language=028000&residence=total",
+          "/languages/atlas/?language=114000&residence=total",
+          "/languages/atlas/?language=115000&residence=total",
+          "/languages/atlas/?language=062000&residence=total",
+          "/languages/atlas/?language=069000&residence=total",
+          "/languages/atlas/?language=008000&residence=total",
+          "/languages/atlas/?language=026000&residence=total",
+          "/languages/atlas/?language=041000&residence=total",
+          "/languages/atlas/?language=060000&residence=total",
+          "/languages/atlas/?language=082000&residence=total",
+          "/languages/atlas/?language=102000&residence=total",
+          "/languages/atlas/?language=009000&residence=total",
+          "/languages/atlas/?language=071000&residence=total",
+          "/languages/atlas/?language=096000&residence=total",
+          "/languages/atlas/?language=039000&residence=total",
+          "/languages/atlas/?language=044000&residence=total",
+          "/languages/atlas/?language=116000&residence=total",
+          "/languages/atlas/?language=015043&residence=total",
+          "/languages/atlas/?language=022015&residence=total",
+          "/languages/atlas/?language=006240&residence=total",
+          "/languages/atlas/?language=002007&residence=total",
+          "/languages/atlas/?language=021046&residence=total",
+          "/languages/atlas/?language=091009&residence=total",
+          "/languages/atlas/?language=018040&residence=total",
+          "/languages/atlas/?language=006400&residence=total",
+          "/languages/atlas/?language=048004&residence=total",
+          "/languages/atlas/?language=005018&residence=total",
+          "/languages/atlas/?language=016038&residence=total",
+          "/languages/atlas/?language=013071&residence=total",
+          "/languages/atlas/?language=006102&residence=total",
+          "/languages/atlas/?language=070001&residence=total",
+          "/languages/atlas/?language=011016&residence=total",
+          "/languages/atlas/?language=006999&residence=total",
+          "/languages/atlas/?language=020027&residence=total",
+          "/languages/atlas/?language=006489&residence=total",
+          "/languages/atlas/?language=014011&residence=total",
+          "/languages/atlas/?language=040001&residence=total",
+          "/languages/atlas/?language=010008&residence=total",
+          "/languages/atlas/?language=050001&residence=total",
+          "/languages/atlas/?language=092005&residence=total",
+          "/languages/atlas/?language=012003&residence=total",
+          "/languages/atlas/?language=073003&residence=total",
+          "/languages/atlas/?language=058001&residence=total",
+          "/languages/atlas/?language=007016&residence=total",
+          "/languages/atlas/?language=006195&residence=total",
+          "/languages/atlas/?language=001002&residence=total",
+          "/languages/atlas/?language=015058&residence=total",
+          "/languages/atlas/?language=030002&residence=total",
+          "/languages/atlas/?language=006235&residence=total",
+          "/languages/atlas/?language=019008&residence=total",
+          "/languages/atlas/?language=006439&residence=total",
+          "/languages/atlas/?language=004001&residence=total",
+          "/languages/atlas/?language=015999&residence=total",
+          "/languages/atlas/?language=120004&residence=total",
+          "/languages/atlas/?language=106004&residence=total",
+          "/languages/atlas/?language=006142&residence=total",
+          "/languages/atlas/?language=017002&residence=total",
+          "/languages/atlas/?language=015010&residence=total",
+          "/languages/atlas/?language=019014&residence=total",
+          "/languages/atlas/?language=005999&residence=total",
+          "/languages/atlas/?language=006340&residence=total",
+          "/languages/atlas/?language=006503&residence=total",
+          "/languages/atlas/?language=072024&residence=total",
+          "/languages/atlas/?language=015051&residence=total",
+          "/languages/atlas/?language=024001&residence=total",
+          "/languages/atlas/?language=054005&residence=total",
+          "/languages/atlas/?language=091999&residence=total",
+          "/languages/atlas/?language=028001&residence=total",
+          "/languages/atlas/?language=114015&residence=total",
+          "/languages/atlas/?language=115008&residence=total",
+          "/languages/atlas/?language=007999&residence=total",
+          "/languages/atlas/?language=062003&residence=total",
+          "/languages/atlas/?language=006320&residence=total",
+          "/languages/atlas/?language=069002&residence=total",
+          "/languages/atlas/?language=002011&residence=total",
+          "/languages/atlas/?language=017999&residence=total",
+          "/languages/atlas/?language=026999&residence=total",
+          "/languages/atlas/?language=030999&residence=total",
+          "/languages/atlas/?language=041001&residence=total",
+          "/languages/atlas/?language=060002&residence=total",
+          "/languages/atlas/?language=082005&residence=total",
+          "/languages/atlas/?language=102002&residence=total",
+          "/languages/atlas/?language=006030&residence=total",
+          "/languages/atlas/?language=008005&residence=total",
+          "/languages/atlas/?language=009028&residence=total",
+          "/languages/atlas/?language=071008&residence=total",
+          "/languages/atlas/?language=096002&residence=total",
+          "/languages/atlas/?language=006376&residence=total",
+          "/languages/atlas/?language=008010&residence=total",
+          "/languages/atlas/?language=015007&residence=total",
+          "/languages/atlas/?language=016002&residence=total",
+          "/languages/atlas/?language=021999&residence=total",
+          "/languages/atlas/?language=039999&residence=total",
+          "/languages/atlas/?language=044999&residence=total",
+          "/languages/atlas/?language=116007&residence=total",
+          "/languages/atlas/?language=015000&residence=rural",
+          "/languages/atlas/?language=022000&residence=rural",
+          "/languages/atlas/?language=091000&residence=rural",
+          "/languages/atlas/?language=006000&residence=rural",
+          "/languages/atlas/?language=002000&residence=rural",
+          "/languages/atlas/?language=048000&residence=rural",
+          "/languages/atlas/?language=018000&residence=rural",
+          "/languages/atlas/?language=021000&residence=rural",
+          "/languages/atlas/?language=124000&residence=rural",
+          "/languages/atlas/?language=050000&residence=rural",
+          "/languages/atlas/?language=070000&residence=rural",
+          "/languages/atlas/?language=005000&residence=rural",
+          "/languages/atlas/?language=012000&residence=rural",
+          "/languages/atlas/?language=073000&residence=rural",
+          "/languages/atlas/?language=092000&residence=rural",
+          "/languages/atlas/?language=014000&residence=rural",
+          "/languages/atlas/?language=040000&residence=rural",
+          "/languages/atlas/?language=013000&residence=rural",
+          "/languages/atlas/?language=058000&residence=rural",
+          "/languages/atlas/?language=120000&residence=rural",
+          "/languages/atlas/?language=020000&residence=rural",
+          "/languages/atlas/?language=001000&residence=rural",
+          "/languages/atlas/?language=011000&residence=rural",
+          "/languages/atlas/?language=010000&residence=rural",
+          "/languages/atlas/?language=030000&residence=rural",
+          "/languages/atlas/?language=016000&residence=rural",
+          "/languages/atlas/?language=106000&residence=rural",
+          "/languages/atlas/?language=017000&residence=rural",
+          "/languages/atlas/?language=028000&residence=rural",
+          "/languages/atlas/?language=062000&residence=rural",
+          "/languages/atlas/?language=069000&residence=rural",
+          "/languages/atlas/?language=102000&residence=rural",
+          "/languages/atlas/?language=007000&residence=rural",
+          "/languages/atlas/?language=008000&residence=rural",
+          "/languages/atlas/?language=071000&residence=rural",
+          "/languages/atlas/?language=004000&residence=rural",
+          "/languages/atlas/?language=072000&residence=rural",
+          "/languages/atlas/?language=082000&residence=rural",
+          "/languages/atlas/?language=096000&residence=rural",
+          "/languages/atlas/?language=116000&residence=rural",
+          "/languages/atlas/?language=015043&residence=rural",
+          "/languages/atlas/?language=022015&residence=rural",
+          "/languages/atlas/?language=091009&residence=rural",
+          "/languages/atlas/?language=006240&residence=rural",
+          "/languages/atlas/?language=002007&residence=rural",
+          "/languages/atlas/?language=048004&residence=rural",
+          "/languages/atlas/?language=018040&residence=rural",
+          "/languages/atlas/?language=021046&residence=rural",
+          "/languages/atlas/?language=050001&residence=rural",
+          "/languages/atlas/?language=070001&residence=rural",
+          "/languages/atlas/?language=005018&residence=rural",
+          "/languages/atlas/?language=012003&residence=rural",
+          "/languages/atlas/?language=073003&residence=rural",
+          "/languages/atlas/?language=092005&residence=rural",
+          "/languages/atlas/?language=006999&residence=rural",
+          "/languages/atlas/?language=014011&residence=rural",
+          "/languages/atlas/?language=015058&residence=rural",
+          "/languages/atlas/?language=040001&residence=rural",
+          "/languages/atlas/?language=013071&residence=rural",
+          "/languages/atlas/?language=006102&residence=rural",
+          "/languages/atlas/?language=058001&residence=rural",
+          "/languages/atlas/?language=120004&residence=rural",
+          "/languages/atlas/?language=020027&residence=rural",
+          "/languages/atlas/?language=001002&residence=rural",
+          "/languages/atlas/?language=011016&residence=rural",
+          "/languages/atlas/?language=015010&residence=rural",
+          "/languages/atlas/?language=006489&residence=rural",
+          "/languages/atlas/?language=010008&residence=rural",
+          "/languages/atlas/?language=016038&residence=rural",
+          "/languages/atlas/?language=030002&residence=rural",
+          "/languages/atlas/?language=106004&residence=rural",
+          "/languages/atlas/?language=015051&residence=rural",
+          "/languages/atlas/?language=017002&residence=rural",
+          "/languages/atlas/?language=015999&residence=rural",
+          "/languages/atlas/?language=028001&residence=rural",
+          "/languages/atlas/?language=062003&residence=rural",
+          "/languages/atlas/?language=006320&residence=rural",
+          "/languages/atlas/?language=069002&residence=rural",
+          "/languages/atlas/?language=002011&residence=rural",
+          "/languages/atlas/?language=017999&residence=rural",
+          "/languages/atlas/?language=030999&residence=rural",
+          "/languages/atlas/?language=102002&residence=rural",
+          "/languages/atlas/?language=007016&residence=rural",
+          "/languages/atlas/?language=008005&residence=rural",
+          "/languages/atlas/?language=071008&residence=rural",
+          "/languages/atlas/?language=004001&residence=rural",
+          "/languages/atlas/?language=006142&residence=rural",
+          "/languages/atlas/?language=006376&residence=rural",
+          "/languages/atlas/?language=006400&residence=rural",
+          "/languages/atlas/?language=015007&residence=rural",
+          "/languages/atlas/?language=072024&residence=rural",
+          "/languages/atlas/?language=082005&residence=rural",
+          "/languages/atlas/?language=096002&residence=rural",
+          "/languages/atlas/?language=116007&residence=rural",
+          "/languages/atlas/?language=015000&residence=urban",
+          "/languages/atlas/?language=022000&residence=urban",
+          "/languages/atlas/?language=006000&residence=urban",
+          "/languages/atlas/?language=002000&residence=urban",
+          "/languages/atlas/?language=021000&residence=urban",
+          "/languages/atlas/?language=018000&residence=urban",
+          "/languages/atlas/?language=005000&residence=urban",
+          "/languages/atlas/?language=016000&residence=urban",
+          "/languages/atlas/?language=013000&residence=urban",
+          "/languages/atlas/?language=124000&residence=urban",
+          "/languages/atlas/?language=091000&residence=urban",
+          "/languages/atlas/?language=011000&residence=urban",
+          "/languages/atlas/?language=020000&residence=urban",
+          "/languages/atlas/?language=070000&residence=urban",
+          "/languages/atlas/?language=014000&residence=urban",
+          "/languages/atlas/?language=040000&residence=urban",
+          "/languages/atlas/?language=010000&residence=urban",
+          "/languages/atlas/?language=048000&residence=urban",
+          "/languages/atlas/?language=007000&residence=urban",
+          "/languages/atlas/?language=019000&residence=urban",
+          "/languages/atlas/?language=092000&residence=urban",
+          "/languages/atlas/?language=058000&residence=urban",
+          "/languages/atlas/?language=004000&residence=urban",
+          "/languages/atlas/?language=001000&residence=urban",
+          "/languages/atlas/?language=030000&residence=urban",
+          "/languages/atlas/?language=017000&residence=urban",
+          "/languages/atlas/?language=072000&residence=urban",
+          "/languages/atlas/?language=024000&residence=urban",
+          "/languages/atlas/?language=073000&residence=urban",
+          "/languages/atlas/?language=106000&residence=urban",
+          "/languages/atlas/?language=054000&residence=urban",
+          "/languages/atlas/?language=012000&residence=urban",
+          "/languages/atlas/?language=114000&residence=urban",
+          "/languages/atlas/?language=115000&residence=urban",
+          "/languages/atlas/?language=028000&residence=urban",
+          "/languages/atlas/?language=026000&residence=urban",
+          "/languages/atlas/?language=041000&residence=urban",
+          "/languages/atlas/?language=060000&residence=urban",
+          "/languages/atlas/?language=009000&residence=urban",
+          "/languages/atlas/?language=050000&residence=urban",
+          "/languages/atlas/?language=082000&residence=urban",
+          "/languages/atlas/?language=008000&residence=urban",
+          "/languages/atlas/?language=039000&residence=urban",
+          "/languages/atlas/?language=044000&residence=urban",
+          "/languages/atlas/?language=096000&residence=urban",
+          "/languages/atlas/?language=015043&residence=urban",
+          "/languages/atlas/?language=022015&residence=urban",
+          "/languages/atlas/?language=006240&residence=urban",
+          "/languages/atlas/?language=002007&residence=urban",
+          "/languages/atlas/?language=021046&residence=urban",
+          "/languages/atlas/?language=018040&residence=urban",
+          "/languages/atlas/?language=006400&residence=urban",
+          "/languages/atlas/?language=005018&residence=urban",
+          "/languages/atlas/?language=016038&residence=urban",
+          "/languages/atlas/?language=013071&residence=urban",
+          "/languages/atlas/?language=006102&residence=urban",
+          "/languages/atlas/?language=091009&residence=urban",
+          "/languages/atlas/?language=011016&residence=urban",
+          "/languages/atlas/?language=020027&residence=urban",
+          "/languages/atlas/?language=070001&residence=urban",
+          "/languages/atlas/?language=006999&residence=urban",
+          "/languages/atlas/?language=006489&residence=urban",
+          "/languages/atlas/?language=014011&residence=urban",
+          "/languages/atlas/?language=040001&residence=urban",
+          "/languages/atlas/?language=010008&residence=urban",
+          "/languages/atlas/?language=048004&residence=urban",
+          "/languages/atlas/?language=007016&residence=urban",
+          "/languages/atlas/?language=006195&residence=urban",
+          "/languages/atlas/?language=092005&residence=urban",
+          "/languages/atlas/?language=006235&residence=urban",
+          "/languages/atlas/?language=019008&residence=urban",
+          "/languages/atlas/?language=006439&residence=urban",
+          "/languages/atlas/?language=058001&residence=urban",
+          "/languages/atlas/?language=004001&residence=urban",
+          "/languages/atlas/?language=001002&residence=urban",
+          "/languages/atlas/?language=015999&residence=urban",
+          "/languages/atlas/?language=030002&residence=urban",
+          "/languages/atlas/?language=006142&residence=urban",
+          "/languages/atlas/?language=019014&residence=urban",
+          "/languages/atlas/?language=005999&residence=urban",
+          "/languages/atlas/?language=006340&residence=urban",
+          "/languages/atlas/?language=006503&residence=urban",
+          "/languages/atlas/?language=017002&residence=urban",
+          "/languages/atlas/?language=072024&residence=urban",
+          "/languages/atlas/?language=024001&residence=urban",
+          "/languages/atlas/?language=073003&residence=urban",
+          "/languages/atlas/?language=106004&residence=urban",
+          "/languages/atlas/?language=054005&residence=urban",
+          "/languages/atlas/?language=091999&residence=urban",
+          "/languages/atlas/?language=012003&residence=urban",
+          "/languages/atlas/?language=015058&residence=urban",
+          "/languages/atlas/?language=114015&residence=urban",
+          "/languages/atlas/?language=115008&residence=urban",
+          "/languages/atlas/?language=015051&residence=urban",
+          "/languages/atlas/?language=007999&residence=urban",
+          "/languages/atlas/?language=028001&residence=urban",
+          "/languages/atlas/?language=026999&residence=urban",
+          "/languages/atlas/?language=041001&residence=urban",
+          "/languages/atlas/?language=060002&residence=urban",
+          "/languages/atlas/?language=006030&residence=urban",
+          "/languages/atlas/?language=009028&residence=urban",
+          "/languages/atlas/?language=050001&residence=urban",
+          "/languages/atlas/?language=082005&residence=urban",
+          "/languages/atlas/?language=008010&residence=urban",
+          "/languages/atlas/?language=016002&residence=urban",
+          "/languages/atlas/?language=021999&residence=urban",
+          "/languages/atlas/?language=039999&residence=urban",
+          "/languages/atlas/?language=044999&residence=urban",
+          "/languages/atlas/?language=096002&residence=urban",
+          "/languages/odia/",
+          "/languages/santali/",
+          "/languages/ho/",
+          "/languages/kui/",
+          "/languages/juang/",
+          "/languages/sambalpuri/",
+          "/languages/saora/",
+          "/languages/koya/",
+          "/destinations/cuttack/",
+          "/languages/multilingual-odisha/",
+          "/contribute/",
+          "https://censusindia.gov.in/nada/index.php/catalog/10217"
+        ],
+        "robots": [
+          "<meta name=\"robots\" content=\"noindex, follow\">"
+        ],
+        "fresh_live_proof": false,
+        "save_journey_ids": []
+      },
+      "rollout": {
+        "id": "POD-EDIT-092",
+        "route": "/languages/districts/cuttack/",
+        "title": "Cuttack · languages and population",
+        "status": "queued",
+        "scope": "classification_pending",
+        "source_template": null,
+        "checks": {},
+        "evidence": [],
+        "blocker": null
+      },
+      "preservation": [
+        "Keep /languages/districts/cuttack/ and its original Census values, classifications, source rows and caveats.",
+        "Keep the explicit district-versus-city distinction and /destinations/cuttack/ connection.",
+        "Preserve separate authored Cuttack destination/Barabati/Netaji/Tarakasi/food/stay/journey and AIR Cuttack material; this assessment does not reclassify them.",
+        "Retain existing search eligibility and all other rollout items."
+      ],
+      "proposal": {
+        "action": "After independent review, records-only utility exclusion for POD-EDIT-092; no article rewrite justified by current statistical route.",
+        "files": [
+          "kb/records/article-editorial-rollout.json: POD-EDIT-092 only",
+          "New Cuttack-specific language utility review record",
+          "Generated article-editorial-work-list.md"
+        ],
+        "acceptance": [
+          "Verify other rollout items and site/data unchanged",
+          "Run rollout/programme/team consistency validators if records later integrated",
+          "Zero substantive article or500-item credit; no release claim from readiness"
+        ]
+      },
+      "files_sha256": {
+        "projects/site/src/pages/languages/districts/[slug].astro": "4710838468016e58cf8b3d2a1537c1185b3cb39049b5ce90dbae6c1391568e76",
+        "projects/site/src/components/DistrictLanguageTable.astro": "36971c1f294c05a73ab2885629be49bea81ff14782d5a7c1846433ac734d06ed",
+        "projects/site/src/lib/language-atlas.mjs": "c52a825ccfec3aa241173e7d50355a42074bdfb8a45ee4ac225a2fec3e99a87c",
+        "projects/site/src/data/journey-catalog.ts": "681ded61bb26bbd0c6379b1d7819fdd49a077799ab153172c15c6d118d7a35d9",
+        "projects/site/tests-coast/district-languages.test.mjs": "d08f9361f582b4b9d079f82ea34eba984eba00774d1dbb963234d3557be522c9",
+        "kb/research/voices/population-2011.json": "c149d36bfa5c6c01595ddb517dfca21c5d8d5fe6d2283fa19dc020432b7fe998",
+        "kb/research/voices/district-connections.json": "149161595dab537134f247fd7c5fdb34aa128b2bb008ae5a35fc0bb04f97f303",
+        "kb/research/related-discoveries.json": "a5e4eff87f1a410f860950103d9cbbd527a03b084f7b6513ac95fe4f6100ee6c",
+        "kb/reference/article-editorial-standard.md": "f57a132777734615fa83badba44430683c254c9930f136e6dcd3d01302665df1",
+        "kb/research/destinations/cuttack-editorial.json": "0ebea6abe957c8c8a459e0c61361d06866bbe6b003b1b3bad9dd5a4332b59bc2",
+        "kb/research/destinations/cuttack-trail.json": "00de95c5356991ec0a3e26d18590bf35bf2d1049276c68b5195e83031d099f1e",
+        "kb/research/culture/air-cuttack.md": "7019028105a62ef647d96c8991fd44acb573fa676745f0b67ee3d21105a47a24",
+        "kb/research/stories/narratives/cuttack-tarakasi-structure-in-silver.md": "389a7497955ccdd4b55aeaf49e703d691af93bd7ed48bc2eb724f22ab758f08e",
+        "projects/site/dist-publish/languages/districts/cuttack/index.html": "3751497af3b486db6b3fa52943ee5829978641f79b30138092b3cd2e0ec853df"
+      },
+      "checks": [
+        "Original saved source hash and all district atlas numeric rows independently verified",
+        "Nine group-only population sums and rural+urban arithmetic verified",
+        "Actual route template, context configuration and cached article inspected individually",
+        "Existing district test file inspected for applicable regression scope; no unchanged-product test suite or build run"
+      ],
+      "limits": [
+        "Saved dist-publish is not fresh live, responsive or keyboard verification.",
+        "Local origin/main is a read-only ref observation, not a fresh fetch or proof unresolved Puri release has completed.",
+        "Census2011 parity cannot establish present-day language use, identity, ancestry or individual fluency.",
+        "Only this report written; no canonical files, Git state, claim, build or publication changed."
+      ]
+    },
+    "drishti": {
+      "review_type": "separate AI individual readiness review",
+      "status": "PASS_WITH_LIMITATIONS",
+      "item": "POD-EDIT-092",
+      "route": "/languages/districts/cuttack/",
+      "input_head": "e923482e2628198e908ab1f94d39c136575d15a9",
+      "local_origin_main": "402c3e2d280afc80a2f2a5fd025fa0c69a60a5f4",
+      "recommendation": "utility_exclusion_candidate",
+      "decision": "Current Cuttack district route is a statistical reference utility. An individually scoped records-only exclusion from sustained-article rewriting is supported; no public route removal or article completion is implied.",
+      "report_hashes": {
+        "HANDOFF.json": "5bff0e16ff561b163b0035f09e62f528fcf4bec6110909b2c532eba56381dddf",
+        "anvesha.json": "88247a1bd4b8b4f7ae2c33755aa406475d137cd0fa7295cd0aa893add85aa489",
+        "samanta.json": "1e50ede8bc3ec243ab5b0e9c8344908d2ae228ff9e4e428be36d38eb36aaeb8d"
+      },
+      "checks_actually_performed": [
+        "Read applicable root AGENTS, project editorial standard and scoped handoff; inspected route template, district configuration and both complete report structures.",
+        "Independently parsed saved original C16 XLSX ZIP/XML:129 rows9766–9894, district381, language codes/raw labels and all1161 numeric cells equal reported rows and atlas. Original workbook hash matches pinned source.",
+        "Independently summed51 mutually exclusive groups across all9population fields; total2624470/rural1888423/urban736047 match. Row sex/residence arithmetic passes;78member rows are not double counted.",
+        "Verified actual configured Cuttack destination connection and district-versus-city caution; route-specific related-discovery list empty. Read cached rendered article evidence and confirmed actual HTML contains destination link/caution.",
+        "Verified every Samanta file-hash binding against current files. Inspected separate Cuttack city/craft/destination research to confirm substantive material exists independently of this district utility."
+      ],
+      "findings": [
+        "A short configured geography note and selected language reading links are useful context, but do not form a sustained authored district-language account.",
+        "Both reports agree on source counts and individual classification. No discrepancy requiring correction found.",
+        "Census2011 district is not Cuttack city, present-day demography, identity, ancestry or individual fluency. Preserve parent/member distinction and all existing naming limitations."
+      ],
+      "preservation": [
+        "Keep public district route, all source values and source rows, geography caveats, selected language links, destination connection and current search policy.",
+        "Do not classify or rewrite separate Cuttack destination, Barabati, Netaji, Tarakasi, food, stays, city trails, AIR Cuttack, people or banking material through this recommendation.",
+        "All other district items and159-entry90-page Dhaga edition remain outside scope."
+      ],
+      "next_action": "After coordinator resolves unrelated publication ownership, if integrating, change only POD-EDIT-092 classification in rollout, add exact reviewed evidence record, regenerate worklist and verify all other items/products unchanged. No site deployment is needed for such records-only classification.",
+      "completion_credit": 0,
+      "programme_credit": 0,
+      "blocking_findings": [],
+      "limits": [
+        "Readiness only, not integration or release approval; Puri receipt coordination not reverified here.",
+        "Saved local render is not fresh live, responsive, keyboard or screenshot proof. No build or unchanged-product test suite run.",
+        "Original saved workbook read directly; no network source refetch or broad new research. Separate cultural sources not reauthenticated.",
+        "Separate AI review, not human/community validation. Only drishti.json written; no canonical/Git/shared claim changes."
+      ]
+    }
+  }
+}

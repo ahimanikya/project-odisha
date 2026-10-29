@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 824. completed: 129, excluded: 389, queued: 306.
+Route inventory: 824. completed: 129, excluded: 390, queued: 305.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -105,7 +105,7 @@ Route inventory: 824. completed: 129, excluded: 389, queued: 306.
 | POD-EDIT-089 | [Bhadrak · languages and population](https://projectodisha.org/languages/districts/bhadrak/) | excluded | classification_pending |
 | POD-EDIT-090 | [Kendrapara · languages and population](https://projectodisha.org/languages/districts/kendrapara/) | excluded | classification_pending |
 | POD-EDIT-091 | [Jagatsinghapur · languages and population](https://projectodisha.org/languages/districts/jagatsinghapur/) | excluded | classification_pending |
-| POD-EDIT-092 | [Cuttack · languages and population](https://projectodisha.org/languages/districts/cuttack/) | queued | classification_pending |
+| POD-EDIT-092 | [Cuttack · languages and population](https://projectodisha.org/languages/districts/cuttack/) | excluded | classification_pending |
 | POD-EDIT-093 | [Jajapur · languages and population](https://projectodisha.org/languages/districts/jajapur/) | queued | classification_pending |
 | POD-EDIT-094 | [Dhenkanal · languages and population](https://projectodisha.org/languages/districts/dhenkanal/) | queued | classification_pending |
 | POD-EDIT-095 | [Anugul · languages and population](https://projectodisha.org/languages/districts/anugul/) | queued | classification_pending |
