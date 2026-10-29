@@ -1,0 +1,42 @@
+{
+  "review_type": "separate AI draft editorial/source review",
+  "decision": "PASS",
+  "input_head": "9ce0bb56fc8a6e7140a70dda54e635b65a497a47",
+  "draft_sha256": "c086b999ddb59095e317ae4f50dbc1c7b038242b3423879afc158d6e88c020c8",
+  "anvesha_sha256": "2b9316ddf80d9a42775975b6cd264bfbd57f9fb6ad2400becfb8cd5e34f53878",
+  "supporting_inputs": {
+    "outputs/dhaga-origins-2026-10-29/founder-clarification.json": "6bb76fbc974c447868aeb1a9d732790bf35efacac11dea298b53d09dd9d9455a",
+    "outputs/dhaga-origins-2026-10-29/anvesha.json": "d210d1e5ea199de8f9223c7549e07c3dfaee1efe2c0777819e01f20699f51050",
+    "outputs/dhaga-origins-2026-10-29/drishti.json": "84407853e76bc44aa5f23f9c97e73ae48a80cfc0e754fb54e546b0dc18ff50b2"
+  },
+  "blocking_findings": [],
+  "findings": [
+    "Five displayed Odia sayings001/073/036/037/031 match current corpus wording exactly. Original title/author and supported35-year testimony retained; no invented family or childhood scene attributed to Founder.",
+    "Three new close readings give substantial conversational and literary depth: kinship comparison and limited help; concealment/revelation and self-awareness; first-person defiance and possible stubbornness. Effects are expressed as possible readings rather than universal cultural practices or fixed moral rules.",
+    "Reading-group and parcel examples are visibly hypothetical and identified in notes.037 does not invent a hide-and-seek origin, original gender/sari detail or factual guilt.",
+    "031 is now the Founder-confirmed intended entry; this identification does not authenticate another remembered wording. Source adjective uncertainty and provisional half-burnt interpretation remain explicit in its note.",
+    "Praharaj paragraph and note preserve work-range1931–1940 and unresolved volume year. Aahwaan March2012 paragraph/note preserve related contracted wording, unsigned editorial, and distinction between childhood recollection and first use. These align with previously independently viewed sources.",
+    "Five-expression Wikimedia contributor/revision attribution and CC BY-SA adaptation statement are retained. DSAL/Aahwaan evidence is linked, not reproduced or represented as newly share-alike licensed facsimiles.",
+    "The essay deepens the existing introduction rather than asserting the earlier article lacked cultural/literary content. Existing essays remain thematic connections, not proof of these sayings’ origins."
+  ],
+  "nonblocking_suggestions": [
+    {
+      "location": "The wood that answers back, first prose paragraph",
+      "suggestion": "Show the sound pair as ମାଠ / କାଠ, optionally alongside romanization, instead of only matha/katha. This ties the sound observation to exact printed words and avoids ambiguous romanized consonants.",
+      "required_for_pass": false
+    }
+  ],
+  "checks_actually_run": [
+    "Read full revised article and source report, current corpus fields and Founder clarification.",
+    "Exact five-quotation substring comparison against current corpus:5/5.",
+    "Footnote integrity:11 references,11 unique definitions, identical label sets; old banana note removed.",
+    "Verified current canonical baseline article SHA9b0e97e5bb47a30438d8971e072aaf38db27ca0eb6d24164021c16752ecd4e51.",
+    "Read new primary-source descriptions against previous actual visual reviews of Praharaj6479 and Aahwaan pages2/8; no scan reread needed for unchanged evidence."
+  ],
+  "source_use_assessment": "New Praharaj and Aahwaan factual paragraphs plus notes are each comfortably below200words; no long source passage or magazine facsimile reproduced. Surrounding literary readings and hypothetical examples are authored interpretation.",
+  "limits": [
+    "Draft approval only; portable parity, actual rendering, source-note returns, builds, exact committed-head and publication checks remain separate.",
+    "No new external research, population-level familiarity claim, earliest origin or human/native-speaker approval.",
+    "No canonical/Git/product changes made. Book159entries/159illustrations/90pages is outside this draft change."
+  ]
+}

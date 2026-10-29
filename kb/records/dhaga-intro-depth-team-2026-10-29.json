@@ -1,0 +1,60 @@
+{
+  "status": "integration_review",
+  "coordinator": "Disha",
+  "input_head": "9ce0bb56fc8a6e7140a70dda54e635b65a497a47",
+  "title": "The Poetry We Speak: Why Odia Dhaga Matter",
+  "route": "/stories/odia-dhaga/",
+  "authorization": "Founder: Can we improve our intro based on last discussion? POD-DEC-225 routine tested publishing.",
+  "reserved_files": {
+    "Anvesha": [
+      "Output-only revised draft and evidence report"
+    ],
+    "Samanta": [
+      "kb/research/culture/odia-dhaga.md",
+      "projects/site/src/data/journey-catalog.ts",
+      "projects/site/tests/dhaga-article.test.mjs",
+      "projects/site/tests-coast/dhaga-article.test.mjs"
+    ],
+    "Disha": [
+      "kb/team/operations.json",
+      "kb/records/dhaga-intro-depth-team-2026-10-29.json",
+      "kb/records/evidence/dhaga-intro-depth-2026-10-29/"
+    ]
+  },
+  "review": "Separate Drishti draft/source and integrated exact-head review required",
+  "preservation": [
+    "159 entries and illustrations, exact 90-page book unchanged",
+    "Origin evidence distinct from literary interpretation",
+    "No new saying, programme credit or search eligibility",
+    "Canonical corpus diff empty against9ce0bb56; source review verifies159 entries"
+  ],
+  "scope_release": "After reviewed merge, approved deployment, live verification and receipt integration",
+  "prior_release": "Dhenkanal600 merged9ce0bb56; three remote hashes verified; scope released.",
+  "evidence": [
+    "records/evidence/dhaga-intro-depth-2026-10-29/anvesha.json",
+    "records/evidence/dhaga-intro-depth-2026-10-29/browser-check.json",
+    "records/evidence/dhaga-intro-depth-2026-10-29/download-parity.json",
+    "records/evidence/dhaga-intro-depth-2026-10-29/draft-drishti.json",
+    "records/evidence/dhaga-intro-depth-2026-10-29/integrated-drishti.json",
+    "records/evidence/dhaga-intro-depth-2026-10-29/integrated-source-check.json",
+    "records/evidence/dhaga-intro-depth-2026-10-29/published-catalog-browser.json",
+    "records/evidence/dhaga-intro-depth-2026-10-29/samanta.json"
+  ],
+  "draft_review": "Separate AI PASS; exact Odia sound units substituted for romanization during implementation.",
+  "validation": {
+    "full_tests": "638/638 PASS",
+    "coast_tests": "527/527 PASS",
+    "final_article_tests": "6/6 PASS after test-only strengthening",
+    "record_checks": "team,programme,bundle PASS",
+    "browser": "Desktop/mobile,22 exact note returns, save/reload/download and failure recovery PASS",
+    "publication": "604706412 bytes,11 indexable; disclosure and auxiliary gates PASS",
+    "portable": "56 text paragraphs including three subsection headings and11 full source notes; downloaded copy verified",
+    "book": "786 standalone book file hashes unchanged"
+  },
+  "remaining_gates": [
+    "Separate exact-head review",
+    "Required CI and reviewed merge",
+    "Approved main deployment",
+    "Actual live verification and reviewed receipt integration"
+  ]
+}

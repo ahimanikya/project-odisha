@@ -80,8 +80,8 @@ import cityMeal from '../../../../kb/research/food/bhubaneswar.json';
 import regions from '../../../../kb/research/destinations/regions.json';
 const entries=[];
 const dhagaBody=dhagaArticleRaw.replace(/^---[\s\S]*?---\s*/, '');
-const dhagaPlain=(text:string)=>text.replace(/\[\^[^\]]+\]/g,'').replace(/\[([^\]]+)\]\(([^)]+)\)/g,'$1 ($2)').replace(/^> ?/gm,'').replace(/\*\*/g,'').replace(/\*([^*]+)\*/g,'$1').trim();
-const dhagaSections=dhagaBody.split(/^## /m).map((chunk,index)=>{const lines=chunk.split('\n');const heading=index?lines.shift()!:'The Poetry We Speak';const paragraphs=lines.join('\n').split(/\n\s*\n/).filter(p=>p.trim()&&!p.startsWith('[^')).map(dhagaPlain);return {heading,paragraphs,text:paragraphs.join(' ')};}).filter(s=>s.paragraphs.length);
+const dhagaPlain=(text:string)=>text.replace(/^#{1,6}\s+/gm,'').replace(/\[\^[^\]]+\]/g,'').replace(/\[([^\]]+)\]\(([^)]+)\)/g,'$1 ($2)').replace(/^> ?/gm,'').replace(/\*\*/g,'').replace(/\*([^*]+)\*/g,'$1').trim();
+const dhagaSections=dhagaBody.split(/^## /m).map((chunk,index)=>{const lines=chunk.split('\n');const heading=index?lines.shift()!:'The Poetry We Speak';const paragraphs=lines.join('\n').split(/\n\s*\n/).filter(p=>p.trim()).map(p=>dhagaPlain(p.replace(/^\[\^[^\]]+\]:\s*/,'')));return {heading,paragraphs,text:paragraphs.join(' ')};}).filter(s=>s.paragraphs.length);
 const dhagaSources=[...dhagaBody.matchAll(/\[([^\]]+)\]\((https?:[^)]+)\)/g)].map(m=>({title:m[1].replace(/\*/g,''),url:m[2]}));
 entries.push({id:'reading:stories/odia-dhaga',author:'Ahimanikya Satapathy',title:'The Poetry We Speak: Why Odia Dhaga Matter',kind:'Reading',area:'Odisha',summary:'Odia sayings carry images, humour and ways of judging everyday life.',href:'/stories/odia-dhaga/',practical:dhagaSections,sources:[...new Map(dhagaSources.map(s=>[s.url,s])).values()]});
 

@@ -1,0 +1,62 @@
+{
+  "review_type": "separate AI integrated content/code and visual review",
+  "decision": "PASS_INTEGRATED_REVIEW_PENDING_PUBLICATION_BUILD_AND_EXACT_HEAD",
+  "input_head": "9ce0bb56fc8a6e7140a70dda54e635b65a497a47",
+  "candidate": "working tree, not yet bound to committed release head",
+  "blocking_findings": [],
+  "files": {
+    "kb/research/culture/odia-dhaga.md": "bb054d8a270558a4203978a09128f654913ce803a4b3586fc4ee7bcf061df991",
+    "projects/site/src/data/journey-catalog.ts": "3bdb942025be5397de2832b72ad18c729ab4c0b18a6711bf0d274e16d62b26ee",
+    "projects/site/tests/dhaga-article.test.mjs": "b64ad989c6ec6cc984621e7f9062c9328a433942d0ff396cb7b77ed0e8eefd4c",
+    "projects/site/tests-coast/dhaga-article.test.mjs": "6ba6d150c5fe83f98cef361a2658071b1f5cdd9ea9d4f0452bb933e399857ce3"
+  },
+  "evidence": {
+    "wood-1440.png": "edf17dc9df59f80c1825b69ff14488d382170404b65a7e05d7565d86b40c1019",
+    "notes-390.png": "4d6b88c454d85572382c8374b493e24d5f9897371900308ff2c5b4a7629bd1e9",
+    "wood-390.png": "29d56dc7e31f6ba1093d5cd6319ad3aeae7e8a0119ced70db7fe671795cd3c61",
+    "notes-1440.png": "4089795f281d31ae064c01a1fba6f0c3be7e01bec5c5110361e2b472405f7fa6",
+    "mamu-390.png": "6500dcc1f1d067d59f963b960c3cf6aa53609001b2cbf963b0a692d65ebc055d",
+    "article-390.png": "53dc9c3086c053682c6ee2230951c331815472c0089e188d763908b4d6ddb8c0",
+    "article-1440.png": "3c69fdeb1f90a0ce3b3c17a513524ee95c4f364f03835ee85f733f39984c8d5b",
+    "mamu-1440.png": "f227736b439b475a45509492e36f4a71632022bdd14951ffd921a34537ffcf54",
+    "catalog-failure-390.png": "7f7aae5e6ea460b90e058e3c1d53a0d397389fc782de0776eee3889e4cdf62d4"
+  },
+  "report_bindings": {
+    "browser-check.json": "c80819072785b7fa7d3459eb49c35ca212772605b263c5cb6ddf1e915d0edf2e",
+    "published-catalog-browser.json": "6302810b198d4f1fa077ef15e86f5be5e5417d0640fe64f986f4e3745d3fa8dd",
+    "published-downloaded-book.html": "d37b275742251345bba9da1fbe90bc48a8a33f08e610c3d4568cf1a5baa66f2f",
+    "integrated-source-check.json": "8104da6adcb5f46702a13ceeb235adaea90944dbdaec74b9835c9775d15936c4",
+    "draft-drishti.json": "02e6ebe3347d5ee9662979bdb38fd2cfee1787b55a3d181576127d581281f781"
+  },
+  "actual_visual_review": [
+    "article desktop1440/mobile390",
+    "mamu desktop1440/mobile390",
+    "wood desktop1440/mobile390",
+    "all11 notes desktop/mobile captures",
+    "catalog failure mobile390"
+  ],
+  "visual_findings": [
+    "Visible article headings, Odia quotations and English prose are readable with no clipping or overlap in supplied actual captures.",
+    "Long031 quotation wraps naturally on mobile; exact Odia sound units display in prose.",
+    "Sources retain bibliographic locators and interpretation/date caveats; mobile notes remain within column.",
+    "Catalog failure state visibly disables Save and presents reload guidance while article remains readable."
+  ],
+  "code_and_test_findings": [
+    "Dhaga-only portable parser preserves complete source notes and strips raw heading markers without changing stable saved ID or unrelated data/storage code.",
+    "Strengthened mirrored tests derive expected marker count from canonical references and verify every complete visible and portable note. Reviewer independently ran6/6 focused tests PASS.",
+    "Independently parsed actual downloaded HTML: all53 non-heading Markdown blocks (including11 notes) present after markup normalization; no raw heading markers; licence URL retained. Worker56 count also includes three subsection-heading paragraphs.",
+    "Canonical source differs from approved draft only by exact Odia sound-pair clarification."
+  ],
+  "browser_evidence_review": "Worker browser report records22/22 exact keyboard returns across1440/390, one main/header/footer, scrollWidth equalsviewport, mobile menu open/close. Published-tree report records Save persistence, blocked-catalog disabled controls and byte-preserved storage/recovery. Reviewer inspected reports and actual pixels/download; did not independently drive browser.",
+  "reported_pipeline": "Full638/638 and coast527/527 reported passed before test-only strengthening; final publication optimizer still running at this review.",
+  "remaining_gates": [
+    "Final publication payload/disclosure/shortlist result",
+    "Frozen implementation report and exact committed-head audit",
+    "RequiredCI and subsequent deployment/liveverification handled separately"
+  ],
+  "limits": [
+    "Separate AI review, not human proofreading.",
+    "Screenshot sampling covers opening/new036/031 passages and all source notes; no claim every scroll position inspected.",
+    "No canonical/Git edits or live publication claim."
+  ]
+}
