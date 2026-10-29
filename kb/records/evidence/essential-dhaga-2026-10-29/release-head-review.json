@@ -1,0 +1,31 @@
+{
+  "review_type": "separate AI exact-head incremental review",
+  "result": "PASS",
+  "input_head": "0227e98d96791b82f159ce0dda7607a6595855d5",
+  "previous_reviewed_head": "0615f878f9256d2baec32a6cbf6348592f0ffc3f",
+  "prior_review_sha256": "8b1f94d8609515bba575d3028220cb45d963f34520d90597b25338be07a931fe",
+  "delta_paths": [
+    "kb/records/editorial-workbench.json"
+  ],
+  "json_delta": [
+    "/inputs/projects/site/editions/coast.json"
+  ],
+  "updated_coast_sha256": "83b27b8c9cd3951d8172829d8c2855774083b978c4b433c1bdd20978517a5ac7",
+  "workbench_sha256": "b45459e3805ecb47d60ffeec291f4f80f9699726ccce4630040a5d2a02dc3754",
+  "checks": [
+    "Committed diff is exactly one generated coast fingerprint replacement.",
+    "Recursively compared JSON: exactly one value changed.",
+    "New fingerprint matches actual committed coast.json SHA256.",
+    "Every file/hash bound in prior24-file product review remains identical.",
+    "python3 tools/editorial/build_workbench.py --check: PASS",
+    "git diff --check previous..current: PASS"
+  ],
+  "blocking_findings": [],
+  "limits": [
+    "No broad tests or repeat visual checks: product bytes unchanged and prior review retained.",
+    "CI40923256469 reported running by coordinator; no independent remote result asserted.",
+    "This approves the narrow candidate delta, not merge/deployment/live success.",
+    "Only output report written; no canonical or Git mutations."
+  ],
+  "checked_at": "2026-10-29T17:41:34.539644+00:00"
+}

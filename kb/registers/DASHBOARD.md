@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `13b6d8188c1186de22247aa82926b65498278632255914b4899127bea2769351`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `5402a79a378114bc7e27d68ade6e3ec9648dde51e9812be587a45bd33a56bdcf`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -352,7 +352,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026102481 · Transfer character collection from Sishu Kishore | completed | published | Ahimanikya Satapathy | Complete. Character collection owns /characters/ on Project Odisha; old Sishu pages removed without redirects per Founder follow-up. | — |
 | POD-WORK-2026102491 · Publish a week in Bhubaneswar personal essay | completed | published | Ahimanikya Satapathy | Publication verified; no social posts sent. | — |
 | POD-WORK-2026102907 · Publish Maniabandha weaving and textile tourism article | completed | published | Ahimanikya Satapathy | Published and live verified; social copy remains unsent. | — |
-| POD-WORK-2026102908 · Publish Essential Odia Dhaga companion article | in_progress | draft | Ahimanikya Satapathy | Review integrated candidate, validate, publish and verify live article. | — |
+| POD-WORK-2026102908 · Publish Essential Odia Dhaga companion article | completed | published | Ahimanikya Satapathy | Published and live verified; finish reviewed receipt integration, then release own scope. | — |
 
 ## Pending human review and decisions
 
@@ -1033,6 +1033,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026102310 | pass_with_limitations | True | Separate AI review, not human community review or fieldwork.; No universal alias, surname-based caste assignment or verified community formation date established.; Ganjam district craft grouping has unresolved exact imprint and practice dates.; Crafts1962 fieldwork/published1967 is period evidence; closure causes attributed to smelters, not independently verified legal findings.; Daanla1962/published1968 household and occupational passages remain distinct; payment per pair of bullocks is local history, not current rate.; Source stereotypes and unsubstantiated settlement chronology excluded. No image rights verified; no image added. Search eligibility unchanged. |
 | POD-REV-2026102311 | pass_with_limitations | True | Separate AI review; no human community review or project fieldwork.; Regional names and mixed-community craft participation are not universal aliases or caste inferred from work.; No founder, formation date or current household census established. Kotpad testimony is dated2025 reporting.; No image rights verified; text-first article. Search eligibility unchanged. |
 | POD-REV-2026102907 | pass_with_limitations | True | Current visitor arrangements unverified; Government Khandua compendium page checked via indexed excerpt |
+| POD-REV-2026102908 | pass_with_limitations | True | Editorial selection, not popularity ranking; No first coinage or historical origin claim |
 
 ## Publication and application history
 
@@ -1274,6 +1275,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026102481 · Character worlds standalone subsite transfer | published | https://projectodisha.org/characters/ | POD-DEC-2026102481 |
 | POD-REL-2026102491 · A week in Bhubaneswar personal essay | published | https://projectodisha.org/stories/bhubaneswar-week/ | POD-DEC-2026102491 |
 | POD-REL-2026102907 · Maniabandha weaving and textile tourism article | published | https://projectodisha.org/stories/maniabandha/ | POD-DEC-2026102907 |
+| POD-REL-2026102908 · Essential Odia Dhaga companion article | published | https://projectodisha.org/stories/essential-odia-dhaga/ | POD-DEC-2026102908 |
 
 ## Sources and assets
 
@@ -1311,7 +1313,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-20261023012 | 2026-10-23T21:17:28.855212+00:00 | Founder-directed publication completed sequentially for twelve standalone illustrated articles. Individual reviewed heads, merged PRs, successful deployments and desktop/mobile/live receipts recorded in nataka-publication-2026-10-24.json; final cross-page audit passed. Soumya Biswajit credit remains in source notes. No autonomous programme credit, specialist review or exhaustive archive claim. | — |
 | POD-EVT-2026102481 | 2026-10-24T01:19:58.051266+00:00 | Founder requested transfer from Sishu Kishore. Isolated current main worktree; separate Anvesha audit and Samanta implementation; no research/programme credit. Preserving existing media and historical source records. | — |
 | POD-EVT-2026102482 | 2026-10-24T02:03:09.992892+00:00 | PR517 reviewed and merged; Project Odisha publication and Sishu retirement succeeded.132 new pages verified live;132 old pages confirmed removed without redirects;40download assets verified. Books unchanged; source/font/provenance preserved. No autonomous programme credit. Task scopes released. | — |
 | POD-EVT-2026102483 | 2026-10-24T02:08:36.906284+00:00 | Verified current Blueprint roster: Disha, Anvesha, Samanta and Drishti all assigned and oriented for this chat. Explicit Characters scope and no-redirect history loaded. Separate specialist acknowledgements and Drishti review recorded; no new access, schedules, article claim or programme credit. | — |
@@ -1321,6 +1322,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026102907 | 2026-10-29T16:23:33.674154+00:00 | Founder approved publication of the independently sourced Maniabandha article and illustration. Separate research, implementation and quality review assigned. | — |
 | POD-EVT-2026102908 | 2026-10-29T16:56:50.520839+00:00 | Approved Maniabandha article and illustration published through PR603 and deployment40914015209. Live article, image and discovery links verified; social post remains unsent. | — |
 | POD-EVT-2026102909 | 2026-10-29T17:21:18.231378+00:00 | Founder explicitly requested publishing the reviewed Essential Odia Dhaga selection as a companion to the book series. | — |
+| POD-EVT-2026102910 | 2026-10-29T18:08:50.067960+00:00 | Essential Odia Dhaga companion published and live verified; receipt integration pending. No programme credit. | — |
 
 ## Deferred extensions
 

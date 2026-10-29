@@ -9440,12 +9440,12 @@
       "id": "POD-WORK-2026102908",
       "title": "Publish Essential Odia Dhaga companion article",
       "category": "website",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Disha with Anvesha, Samanta and Drishti",
       "authorization": "POD-DEC-2026102908",
-      "next_action": "Review integrated candidate, validate, publish and verify live article.",
+      "next_action": "Published and live verified; finish reviewed receipt integration, then release own scope.",
       "blockers": [],
       "refs": [
         "POD-DEC-2026102908"
@@ -23048,6 +23048,28 @@
         "Current visitor arrangements unverified",
         "Government Khandua compendium page checked via indexed excerpt"
       ]
+    },
+    {
+      "id": "POD-REV-2026102908",
+      "title": "Essential Odia Dhaga separate source and article review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Anvesha and Drishti, separate subagents"
+      },
+      "independent": true,
+      "independence_scope": "Separate AI execution, not human specialist or field review.",
+      "reviewed_head": "0227e98d96791b82f159ce0dda7607a6595855d5",
+      "refs": [
+        "POD-WORK-2026102908"
+      ],
+      "evidence": [
+        "records/essential-dhaga-publication-2026-10-29.json"
+      ],
+      "limitations": [
+        "Editorial selection, not popularity ranking",
+        "No first coinage or historical origin claim"
+      ]
     }
   ],
   "releases": [
@@ -26906,6 +26928,22 @@
         "records/maniabandha-publication-2026-10-29.json"
       ],
       "note": "PR603; deployment40914015209success; live text, sources, original image hash and three incoming links verified."
+    },
+    {
+      "id": "POD-REL-2026102908",
+      "title": "Essential Odia Dhaga companion article",
+      "status": "published",
+      "authorization": "POD-DEC-2026102908",
+      "destination": "https://projectodisha.org/stories/essential-odia-dhaga/",
+      "refs": [
+        "POD-WORK-2026102908",
+        "POD-REV-2026102908",
+        "POD-DEC-2026102908"
+      ],
+      "evidence": [
+        "records/essential-dhaga-publication-2026-10-29.json"
+      ],
+      "note": "PR604; approved successful deployment and actual live verification. No new saying or programme credit."
     }
   ],
   "sources": [

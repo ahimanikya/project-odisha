@@ -1,0 +1,49 @@
+{
+  "status": "pass with documented verification-harness count correction",
+  "checked_at": "2026-10-29T18:07:16.005586+00:00",
+  "deployment": {
+    "run": 40925557742,
+    "conclusion": "success",
+    "head": "46b2137cf41d3ffb2f31d82d1db30827b74852d3",
+    "updated_at": "2026-10-29T18:06:27Z"
+  },
+  "checks": {
+    "item_exact": true,
+    "paragraphs": 159,
+    "source_links": 49,
+    "expected_paragraphs": 159,
+    "expected_source_links": 49,
+    "catalog_bytes_exact": true,
+    "catalog_asset_path_same": true
+  },
+  "local_catalog_asset": "/assets/journey-data-ce832e305d33fac68c6c0fb7cdf74e71ce2c36738c2ca69c62155fcb2c2c3ac9.js",
+  "live_catalog_asset": "/assets/journey-data-ce832e305d33fac68c6c0fb7cdf74e71ce2c36738c2ca69c62155fcb2c2c3ac9.js",
+  "live_catalog_sha256": "ce832e305d33fac68c6c0fb7cdf74e71ce2c36738c2ca69c62155fcb2c2c3ac9",
+  "live_item_sha256": "ef9d761e9f0509fa6eb3ab780739a45cf5ddd0db3db3a7e7fa448325de139a42",
+  "limits": [
+    "HTTP and exact shared-catalog comparison only; no concurrent browser use.",
+    "Interactive desktop/mobile, keyboard, Save and download checks are coordinator-owned.",
+    "No repository, publication-progress or HANDOFF changes; no builds repeated."
+  ],
+  "http_verification": {
+    "article_text_exact": true,
+    "article_sha256": "cadc31bb7b7db1a72c5296c420e2879b8f302882baf21fc22f08aac08a3af61e",
+    "25_notes": false,
+    "25_returns": false,
+    "intro_incoming": true,
+    "collection_incoming": true,
+    "byline": true,
+    "cover_exact": true
+  },
+  "http_report_sha256": "405c9c975599afdac0d7ad8cd7710afec0e562817665292d3f98dd1d85aa1a0d",
+  "http_script_result": "failed only raw substring-count assertions; actual anchors independently validated",
+  "note_anchor_checks": {
+    "reference_anchors": 25,
+    "return_anchors": 25,
+    "all_targets_exist": true,
+    "exact_return_targets": true,
+    "raw_substring_reference_count": 26,
+    "raw_substring_return_count": 51
+  },
+  "harness_limit": "verify-live.py counts selector literals inside inline scripts as notes/returns. Actual HTML anchor parsing confirms25 references and25 exact return anchors; script retained unchanged."
+}
