@@ -1,0 +1,124 @@
+{
+  "result": "pass",
+  "checked_at": "2026-10-29T14:34:26.381230+00:00",
+  "deployment": "40890279881",
+  "deployed_commit": "922b3501f7dd333f6bf0e1621d3a70a5df5fc1e0",
+  "url": "https://projectodisha.org/stories/odia-dhaga/",
+  "browser": "fresh headless Chrome contexts with no-cache request headers",
+  "checks": {
+    "desktop": [
+      1440,
+      1000
+    ],
+    "mobile": [
+      390,
+      844
+    ],
+    "exact_keyboard_note_returns": 22,
+    "notes_per_viewport": 11,
+    "no_horizontal_overflow": true,
+    "mobile_menu_enter_escape": true,
+    "save_reload_persistence": "Saved to my journey ✓",
+    "download_paragraphs_including_source_notes": 56,
+    "missing_paragraphs": [],
+    "catalog_failure_and_recovery": {
+      "message": "Journey tools could not load. Your saved journeys are unchanged. Reload this page to try again.",
+      "saveDisabled": true,
+      "storageUnchanged": true,
+      "downloadDisabled": true,
+      "journeyStorageUnchanged": true
+    }
+  },
+  "download": {
+    "path": "live/published-downloaded-book.html",
+    "bytes": 25610,
+    "sha256": "df4c153fecc5108bbcbecc3caf9b759c4a857f8f872e262aff1b1254e4704c5b"
+  },
+  "screenshots": {
+    "wood-1440.png": {
+      "sha256": "edf17dc9df59f80c1825b69ff14488d382170404b65a7e05d7565d86b40c1019",
+      "dimensions": [
+        1440,
+        1000
+      ]
+    },
+    "notes-390.png": {
+      "sha256": "4d6b88c454d85572382c8374b493e24d5f9897371900308ff2c5b4a7629bd1e9",
+      "dimensions": [
+        352,
+        2639
+      ]
+    },
+    "wood-390.png": {
+      "sha256": "29d56dc7e31f6ba1093d5cd6319ad3aeae7e8a0119ced70db7fe671795cd3c61",
+      "dimensions": [
+        390,
+        844
+      ]
+    },
+    "notes-1440.png": {
+      "sha256": "4089795f281d31ae064c01a1fba6f0c3be7e01bec5c5110361e2b472405f7fa6",
+      "dimensions": [
+        696,
+        1687
+      ]
+    },
+    "mamu-390.png": {
+      "sha256": "6500dcc1f1d067d59f963b960c3cf6aa53609001b2cbf963b0a692d65ebc055d",
+      "dimensions": [
+        390,
+        844
+      ]
+    },
+    "article-390.png": {
+      "sha256": "53dc9c3086c053682c6ee2230951c331815472c0089e188d763908b4d6ddb8c0",
+      "dimensions": [
+        390,
+        844
+      ]
+    },
+    "article-1440.png": {
+      "sha256": "3c69fdeb1f90a0ce3b3c17a513524ee95c4f364f03835ee85f733f39984c8d5b",
+      "dimensions": [
+        1440,
+        1000
+      ]
+    },
+    "mamu-1440.png": {
+      "sha256": "f227736b439b475a45509492e36f4a71632022bdd14951ffd921a34537ffcf54",
+      "dimensions": [
+        1440,
+        1000
+      ]
+    },
+    "catalog-failure-390.png": {
+      "sha256": "7f7aae5e6ea460b90e058e3c1d53a0d397389fc782de0776eee3889e4cdf62d4",
+      "dimensions": [
+        390,
+        844
+      ]
+    }
+  },
+  "actual_pixels_inspected": [
+    "live/wood-390.png",
+    "live/mamu-1440.png",
+    "live/connected-reading-390.png"
+  ],
+  "limits": [
+    "Isolated fresh-context Save affects browser-local journey storage only.",
+    "HTML byte identity is not asserted across deployment analytics/build metadata; downloaded text is checked against all56 frozen expected paragraphs.",
+    "No canonical, build or Git writes.",
+    "Standalone collection/PDF was not redownloaded in this bounded article verification; coordinator independently checks related live links."
+  ],
+  "connected_reading_derivative": {
+    "result": "pass",
+    "evidence": "live/connected-reading.json",
+    "screenshot": "live/connected-reading-390.png",
+    "naturalWidth": 320,
+    "naturalHeight": 213,
+    "complete": true,
+    "live_filename": "90a4fc03608d60c7-480.webp",
+    "local_filename_prefix": "f5d5282541da87dc",
+    "interpretation": "Deployment-specific derivative filename differs; live image loaded and actual screenshot visually inspected. No article prose or source change required."
+  }
+}

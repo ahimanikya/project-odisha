@@ -1,5 +1,5 @@
 {
-  "status": "integration_review",
+  "status": "receipt_integration",
   "coordinator": "Disha",
   "input_head": "9ce0bb56fc8a6e7140a70dda54e635b65a497a47",
   "title": "The Poetry We Speak: Why Odia Dhaga Matter",
@@ -52,9 +52,9 @@
     "book": "786 standalone book file hashes unchanged"
   },
   "remaining_gates": [
-    "Separate exact-head review",
-    "Required CI and reviewed merge",
-    "Approved main deployment",
-    "Actual live verification and reviewed receipt integration"
-  ]
+    "Separate receipt exact-head review",
+    "Required receipt checks and merge",
+    "Remote receipt hashes and release"
+  ],
+  "publication_receipt": "records/dhaga-intro-depth-publication-2026-10-29.json"
 }

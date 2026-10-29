@@ -1,0 +1,46 @@
+{
+  "review_type": "separate AI review of postdeployment evidence; not human review",
+  "result": "PASS",
+  "blocking_findings": [],
+  "input_head": "922b3501f7dd333f6bf0e1621d3a70a5df5fc1e0",
+  "deployment": "40890279881",
+  "url": "https://projectodisha.org/stories/odia-dhaga/",
+  "checked_at": "2026-10-29T14:38:23.302659+00:00",
+  "evidence_sha256": {
+    "samanta-live.json": "08c68296b50bfef9bd6afe66e35c8d3fb5ea29b0e3e8a9ce5eb415139e92decb",
+    "live-http.json": "be1e6092f85758c252c6c267aa18dacaf1eafbd33922930e72c6600b3b81cdc3",
+    "live/browser-check.json": "ccc32bc76bb0ebd067f976cbed74578765f9bda7b6dc51e6a9fe2e4406c58b6e",
+    "live/published-catalog-browser.json": "7b3e1ddf4e13aa5ef07bc53f7313fdaa74d5df644a6304bc2f5ae0f3d0424428",
+    "live/download-parity.json": "681f20ec59e700f0c4e7af1852f4511ebf61796ed8d255ed2f681e1f533a93c0",
+    "live/connected-reading.json": "194fca92aa5435ec3363a117bb22491024cd554756530be2a5e628282361a1bf",
+    "live/published-downloaded-book.html": "df4c153fecc5108bbcbecc3caf9b759c4a857f8f872e262aff1b1254e4704c5b",
+    "live/article-1440.png": "3c69fdeb1f90a0ce3b3c17a513524ee95c4f364f03835ee85f733f39984c8d5b",
+    "live/article-390.png": "53dc9c3086c053682c6ee2230951c331815472c0089e188d763908b4d6ddb8c0",
+    "live/catalog-failure-390.png": "7f7aae5e6ea460b90e058e3c1d53a0d397389fc782de0776eee3889e4cdf62d4",
+    "live/connected-reading-390.png": "dfd857bd4931cdd24a5823393a9d721321d8145f45ee2c427739d98454e32f57",
+    "live/mamu-1440.png": "f227736b439b475a45509492e36f4a71632022bdd14951ffd921a34537ffcf54",
+    "live/mamu-390.png": "6500dcc1f1d067d59f963b960c3cf6aa53609001b2cbf963b0a692d65ebc055d",
+    "live/notes-1440.png": "4089795f281d31ae064c01a1fba6f0c3be7e01bec5c5110361e2b472405f7fa6",
+    "live/notes-390.png": "4d6b88c454d85572382c8374b493e24d5f9897371900308ff2c5b4a7629bd1e9",
+    "live/wood-1440.png": "edf17dc9df59f80c1825b69ff14488d382170404b65a7e05d7565d86b40c1019",
+    "live/wood-390.png": "29d56dc7e31f6ba1093d5cd6319ad3aeae7e8a0119ced70db7fe671795cd3c61"
+  },
+  "actual_checks": [
+    "Individually viewed all nine article/close-reading/notes/failure screenshots and the additional connected-reading mobile screenshot (ten actual images). Text and Odia render legibly; no visible clipping or overlap; source notes retain qualifications and locators.",
+    "Independently recomputed and matched all nine screenshot hashes and downloaded HTML hash in the final Samanta report.",
+    "Independently normalized the actual downloaded HTML and current canonical Markdown: all 53 nonheading blocks, including all 11 complete source notes, present; zero missing. Worker count56 includes the three subsection headings.",
+    "Read final browser and HTTP evidence: 22 exact keyboard note returns, both viewport overflow checks, Save persistence and catalog-failure storage preservation/recovery passed in recorded fresh browser contexts.",
+    "Actually viewed connected-reading mobile screenshot: loaded photo and linked reading card remain coherent and unclipped. Recorded natural dimensions320x213 and complete:true support successful load."
+  ],
+  "findings": [
+    "No substantive live blocker found.",
+    "Full deployed HTML byte equality is not claimed: connected-reading responsive derivative filename differs from local build. Coordinator HTTP evidence reports body/notes exact and catalog exact; actual live thumbnail pixels are intact. This is not a source/prose change."
+  ],
+  "limits": [
+    "Separate reviewer inspected saved actual live screenshots and downloaded artifact, not a new independently driven browser session; interaction assertions are based on the preserved worker browser evidence.",
+    "No independent deployment API query or repeat live download was performed in this bounded review. Deployment success is bound to coordinator/worker evidence.",
+    "Standalone book/PDF not redownloaded here; this gate covers the changed article and its portable content.",
+    "No claim of human language review, new source authentication, or public-domain clearance.",
+    "No canonical or Git changes were made."
+  ]
+}
