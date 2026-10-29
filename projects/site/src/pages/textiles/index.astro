@@ -1,4 +1,5 @@
 ---
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
 import Shell from '../../layouts/Shell.astro';
 import MagazineCover from '../../components/MagazineCover.astro';
 import ResponsiveImage from '../../components/ResponsiveImage.astro';
@@ -21,6 +22,7 @@ const photos=[...new Set([c.hero,...cards.map(card=>card.hero)])].map(id=>data.a
     <div><p class="eyebrow">0{i+1} · A closer look</p><h3><a href={card.href}>{card.title} →</a></h3><p>{card.text}</p><SaveJourney id={card.save_id} quiet/></div>
    </article>)}</div>
   </section>
+  {allowsPage('/stories/maniabandha/')&&<ArticleReadingPath heading="In a weaving village" links={[{href:'/stories/maniabandha/',title:'Maniabandha: weaving heritage and textile tourism',description:'The skill behind the sari, and a future shaped by its makers.',image:'/assets/maniabandha/maniabandha-illustration.png'}]}/>}
   <section class="craft-questions" aria-labelledby="maker-title"><p class="eyebrow">A conversation to carry</p><h2 id="maker-title">The maker knows<br/><em>what the photograph cannot tell you.</em></h2><ol>{c.questions.map(q=><li><strong>{q.heading}</strong><p>{q.text}</p></li>)}</ol></section>
   <section class="culture-onward"><div><p class="eyebrow">Turn curiosity into a plan</p><h2>Keep a textile thread<br/><em>in your journey.</em></h2><p>Save the stories that catch your eye, with your own material, care and visit questions. These weaving places lie in different parts of Odisha: choose a region first and arrange any visit directly.</p></div><nav aria-label="Continue exploring textiles"><a class="utk-button" href="/journey-starters/#woven-in-odisha">Start a textile journey →</a><a href="/crafts/">Explore other handmade traditions →</a><a href="/contribute/">Share a maker’s story, with permission →</a></nav></section>
   <details class="mag-article-credits"><summary>Sources, photographs & editorial notes</summary><p>{c.limits} Research checked {c.checked_on}. Specialist Odia and maker review remain open. Founder & Editor-in-Chief: Ahimanikya Satapathy.</p><ul>{c.source_ids.map(id=><li><a href={data.sources[id].url}>{data.sources[id].title}</a></li>)}</ul>{photos.map(p=><p><a href={p.source}>{p.caption}</a> · {p.creator} · <a href={p.license_url}>{p.license}</a>. {p.changes}</p>)}</details>

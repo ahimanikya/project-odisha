@@ -10,7 +10,7 @@
   "maximum_active_articles": 1,
   "runtime": "Separate task-scoped AI agents in this chat, recreated from saved handoffs when needed; these names are not humans or continuously running staff.",
   "assignment_home": "team/assignments.json",
-  "handoff_home": "records/dhaga-intro-depth-team-2026-10-29.json",
+  "handoff_home": "records/maniabandha-publication-2026-10-29.json",
   "roles": [
     {
       "name": "Disha",
@@ -54,15 +54,20 @@
     "The ownership record detects conflicts; it is not an atomic lock across separate worktrees.",
     "Stop affected work on a newer Founder stop instruction; preserve handoff and do not self-restart."
   ],
-  "current_article": null,
+  "current_article": {
+    "id": "POD-EDIT-MANIABANDHA-20261029",
+    "route": "/stories/maniabandha/",
+    "owner": "Disha",
+    "phase": "implementation"
+  },
   "project_identity": "reference/project-identity.md",
   "current_task": {
-    "kind": "dhaga_introduction_revision",
-    "status": "receipt_integration",
-    "handoff": "records/dhaga-intro-depth-team-2026-10-29.json",
+    "kind": "maniabandha_article_publication",
+    "status": "implementation",
+    "handoff": "records/maniabandha-publication-2026-10-29.json",
     "owner": "Disha",
-    "route": "/stories/odia-dhaga/",
-    "scope_release": "After separately reviewed merge, approved deployment, live verification and reviewed receipt integration."
+    "route": "/stories/maniabandha/",
+    "scope_release": "After reviewed merge, approved deployment and live verification."
   },
   "parallel_programmes": [
     {
@@ -102,7 +107,15 @@
       "note": "PR588 merged; deployment40352246855success; article,hub,economics andhero verifiedlive. Own scope released."
     }
   ],
-  "coordination_note": "Founder-requested Dhaga intro revision601 published via40890279881 and live verified. Own scope retained through reviewed receipt integration; no new saying or programme credit. Previous600/599 released.",
+  "coordination_note": "Previous Dhaga receipt merged in PR602 at starting main 068100dc. Founder-approved Maniabandha article now assigned to separate research, implementation and quality agents; no social message sending authorized.",
   "coordination_notes": "Print card scope releases upon reviewed merge after required checks; local receipt records actual delivery.",
-  "onboarding_home": "records/blueprint-persona-onboarding-2026-10-24.json"
+  "onboarding_home": "records/blueprint-persona-onboarding-2026-10-24.json",
+  "previous_task": {
+    "kind": "dhaga_introduction_revision",
+    "status": "receipt_integration",
+    "handoff": "records/dhaga-intro-depth-team-2026-10-29.json",
+    "owner": "Disha",
+    "route": "/stories/odia-dhaga/",
+    "scope_release": "After separately reviewed merge, approved deployment, live verification and reviewed receipt integration."
+  }
 }
