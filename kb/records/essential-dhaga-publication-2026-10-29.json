@@ -1,5 +1,5 @@
 {
-  "status": "candidate_review",
+  "status": "published_verified",
   "input_head": "bb465e61aae0a1bcc6fabf04ee28f53d78f0e5db",
   "authorization": {
     "id": "POD-DEC-2026102908",
@@ -13,12 +13,18 @@
     "Drishti": "Separate integrated review; no implementation"
   },
   "preserve": "159 sayings/art and exact90-page PDF; existing sources, no programme credit",
-  "scope_release": "After publication and reviewed receipt integration",
+  "scope_release": "Effective after this separately reviewed receipt merges with passing required checks and remote hash verification. Own scope remains active until then.",
   "title": "Essential Odia Dhaga: 25 Sayings to Carry With You",
   "evidence": [
     "records/evidence/essential-dhaga-2026-10-29/anvesha.json",
     "records/evidence/essential-dhaga-2026-10-29/draft-review.json",
-    "records/evidence/essential-dhaga-2026-10-29/browser-review.json"
+    "records/evidence/essential-dhaga-2026-10-29/browser-review.json",
+    "records/evidence/essential-dhaga-2026-10-29/drishti.json",
+    "records/evidence/essential-dhaga-2026-10-29/release-head-review.json",
+    "records/evidence/essential-dhaga-2026-10-29/samanta.json",
+    "records/evidence/essential-dhaga-2026-10-29/live-http.json",
+    "records/evidence/essential-dhaga-2026-10-29/live-browser.json",
+    "records/evidence/essential-dhaga-2026-10-29/live-samanta.json"
   ],
   "source_review": "PASS; separate Anvesha execution; frozen wording, source/reuse and interpretation limits preserved",
   "limitations": [
@@ -32,6 +38,24 @@
     "browser": "Desktop1440/mobile390;25 keyboard notes/returns;save reload and actual offline book159paragraphs49links verified",
     "book": "786 canonical files unchanged",
     "search": "11 eligible unchanged",
-    "publication_build": "pending optimizer"
-  }
+    "publication_build": "608332358 bytes; disclosure gate passed",
+    "live": "Exact article body,25 notes/returns, cover, incoming series links and live responsive browser checks; see evidence."
+  },
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/604",
+  "reviewed_head": "0227e98d96791b82f159ce0dda7607a6595855d5",
+  "merge": "46b2137cf41d3ffb2f31d82d1db30827b74852d3",
+  "required_ci": 40923256469,
+  "ci_status": "SUCCESS",
+  "deployment": {
+    "run_id": 40925557742,
+    "head_sha": "46b2137cf41d3ffb2f31d82d1db30827b74852d3",
+    "conclusion": "success"
+  },
+  "verified_routes": [
+    "/stories/essential-odia-dhaga/",
+    "/stories/odia-dhaga/",
+    "/dhaga/"
+  ],
+  "programme_credit": 0,
+  "new_sayings": 0
 }

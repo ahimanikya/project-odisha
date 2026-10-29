@@ -1,0 +1,161 @@
+{
+  "status": "implementation and required local validation passed; coordinator browser review separate",
+  "input_head": "bb465e61aae0a1bcc6fabf04ee28f53d78f0e5db",
+  "files": [
+    {
+      "path": "kb/research/culture/essential-odia-dhaga.md",
+      "sha256": "c62d357491fd42a84f9394cac4538c832769b8ceafdcc348a6f9df94e1d33359"
+    },
+    {
+      "path": "projects/site/src/pages/stories/essential-odia-dhaga.astro",
+      "sha256": "3f417ccdafd05d8d40aead5dd9b8ac7691d73cf7a9d0a82220208a8c65ca638c"
+    },
+    {
+      "path": "projects/site/src/pages/stories/odia-dhaga.astro",
+      "sha256": "8c47a03a48cc68542e20f9366436e5444d73e47194edf38d61886068ff130328"
+    },
+    {
+      "path": "projects/site/src/data/journey-catalog.ts",
+      "sha256": "a1e4d6e53dacbe4d48618f983bc82b55df1fe99023b353c87a3f403a0ab07581"
+    },
+    {
+      "path": "projects/site/tools/export-dhaga.mjs",
+      "sha256": "d49296ded0a033804f2e91cc9900b928b22fc731f47e9b45e750988c6dad792d"
+    },
+    {
+      "path": "projects/site/tools/nimuhi-footnote-heading.mjs",
+      "sha256": "a045fa949e24915272108d1516eb2793202e1aaa28e2df2450cb229d75f066f7"
+    },
+    {
+      "path": "projects/site/editions/coast.json",
+      "sha256": "83b27b8c9cd3951d8172829d8c2855774083b978c4b433c1bdd20978517a5ac7"
+    },
+    {
+      "path": "projects/site/editions/search-candidate.json",
+      "sha256": "4f8393c992c6849ad9bb6ac33ea98dd4f5803064c47f7ffddc13eac5c69401ac"
+    },
+    {
+      "path": "projects/site/tests/essential-dhaga-article.test.mjs",
+      "sha256": "f01ac363519969bab053601000b8b9e108bc13afca2d0d21970c1097a8cbcd34"
+    },
+    {
+      "path": "projects/site/tests-coast/essential-dhaga-article.test.mjs",
+      "sha256": "7d481cd8b65bbed3cae70efca8fbd68770e465c0aafdf719ca02b357757160fe"
+    },
+    {
+      "path": "projects/site/tests/build.test.mjs",
+      "sha256": "24f6cdb98ea26b39fae3aaa37813a27a5b2f58bc606e30bfe6b32ad302adeb8a"
+    },
+    {
+      "path": "projects/site/tests-coast/cuttack-literature.test.mjs",
+      "sha256": "4bbebec4d7639eba2cfba1de5d5dde25c96edc9ff13c2a33bc50d834fca9dc7f"
+    }
+  ],
+  "changes": [
+    "New reviewed companion with 25 full notes and complete saved reading",
+    "Reciprocal series links; reused cover with explicit illustration licence",
+    "Odia language spans and preserved four-line dialogue; shared reading-path component",
+    "Encoded three source URL spaces, source overview heading clarified; original meanings unchanged",
+    "No standalone book/art/PDF edits"
+  ],
+  "guidance": {
+    "path": "/tmp/essential-accessibility.md",
+    "rules": [
+      "Native descriptive links",
+      "Declare human language changes",
+      "One main landmark",
+      "Intrinsic image dimensions and uncropped art"
+    ]
+  },
+  "tests": [
+    {
+      "command": "npm run build + npm test initial",
+      "result": "645/646; sole new lang wrapping test failed, fixed via scoped AST replacement; rerun pending"
+    },
+    {
+      "command": "git diff --check",
+      "result": "pass"
+    },
+    {
+      "command": "npm run build; npm test final",
+      "result": "pass 646/646",
+      "logs": [
+        "/tmp/essential-full-build-final2.log",
+        "/tmp/essential-full-test-final.log"
+      ]
+    },
+    {
+      "command": "node tools/check-public-disclosures.mjs dist",
+      "result": "pass 968 pages, zero violations"
+    },
+    {
+      "command": "npm run build:coast; npm run test:coast",
+      "result": "pass 535/535; 826 coastal pages",
+      "logs": [
+        "/tmp/essential-coast-build.log",
+        "/tmp/essential-coast-test.log"
+      ]
+    },
+    {
+      "command": "coast disclosures; audit-coast; audit-discovery; prepare-search-review; audit-launch-readiness",
+      "result": "pass; 3304/3304 page checks, zero disclosure violations, 11 eligible routes unchanged",
+      "logs_directory": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/essential-dhaga-publication-2026-10-29/logs"
+    },
+    {
+      "command": "npm run build:publication",
+      "result": "pass;608332358 bytes;11 indexable"
+    },
+    {
+      "command": "node tools/check-public-disclosures.mjs dist-publish",
+      "result": "pass;956 HTML files;zero violations"
+    },
+    {
+      "command": "python3 tools/audit-search-shortlist.py",
+      "result": "pass;11 reviewed pages;zero errors"
+    }
+  ],
+  "limits": [
+    "No deployment or live success claimed",
+    "Actual browser screenshots, keyboard and save/download evidence are owned by coordinator and recorded separately",
+    "No standalone collection/art/PDF changes"
+  ],
+  "preservation": {
+    "projects/odia-dhaga/collection.json": {
+      "sha256": "8014f9b095affa197ee0c5af2a403a1a76b0e44fe19f3d05e7752edd346e448b",
+      "byte_equal_HEAD": true
+    },
+    "projects/odia-dhaga/odia-dhaga-book.pdf": {
+      "sha256": "5f2e94eb3732de2a2b59fe1ac0b88e5deea092ad97a7086bb25099e3caf416f0",
+      "byte_equal_HEAD": true
+    }
+  },
+  "publication": {
+    "status": "pass",
+    "bytes": 608332358,
+    "public_pages": 826,
+    "indexable_routes": 11,
+    "new_route_indexing": "held"
+  },
+  "browser": {
+    "owner": "Disha",
+    "preview": "http://127.0.0.1:8779",
+    "status": "Coordinator performing actual desktop/mobile and download checks"
+  },
+  "source_frozen": true,
+  "portable": {
+    "sections": 9,
+    "paragraphs": 159,
+    "distinct_source_links": 49,
+    "footnotes": 25,
+    "full_source_qualifications": true
+  },
+  "remaining": [
+    "Coordinator browser review and release decisions"
+  ],
+  "source_transforms": [
+    "Frontmatter title/byline extracted from reviewed draft",
+    "Source URL literal spaces percent-encoded without target semantics change",
+    "Source overview heading renamed About the sources to avoid duplicate generated Footnotes & Sources"
+  ],
+  "head_at_validation": "0615f878f9256d2baec32a6cbf6348592f0ffc3f"
+}

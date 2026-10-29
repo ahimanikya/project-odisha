@@ -1,0 +1,69 @@
+{
+  "review_type": "Separate AI integrated exact-head review; not human certification",
+  "result": "PASS",
+  "input_head": "0615f878f9256d2baec32a6cbf6348592f0ffc3f",
+  "base": "bb465e61aae0a1bcc6fabf04ee28f53d78f0e5db",
+  "checked_at": "2026-10-29T17:34:52.932798+00:00",
+  "blocking_findings": [],
+  "committed_file_hashes": {
+    "kb/catalog.json": "ca738da280c6664bef2b5cfa5f462f9e8094cadf8245b414f608a6fb6cfabb3a",
+    "kb/records/article-editorial-rollout.json": "0abc99ee04357f3f9f31eaafe4dcc2421781d7f9e9f29967cde36c21fc77efdd",
+    "kb/records/article-editorial-work-list.md": "1f6bb82702ed0a09490648a8b2f7c35e6ec47f9773f2e65863e0a32ac21dd22e",
+    "kb/records/essential-dhaga-publication-2026-10-29.json": "e1218de7bb33135a5e3f51cd5ca39ad8eef70dccf33d26bef8f319b22f00d983",
+    "kb/records/evidence/essential-dhaga-2026-10-29/anvesha.json": "6ffa703bbd8f99201898146839841e2f7689b2a81334a0abecf42db99caa7851",
+    "kb/records/evidence/essential-dhaga-2026-10-29/browser-review.json": "3a75db00c676f48c6580bac42f88c3c26b8726bb5da708231d66e4ab270c5acf",
+    "kb/records/evidence/essential-dhaga-2026-10-29/draft-review.json": "433d8614eafcb98092838c5e718079d9f06002efa0cb768f283e0990d3145eb3",
+    "kb/reference/public-website-routes.json": "624dd63e743587784f4ea480a5a356be3c20a35e600b9bc2a9f4c46fd7169e5f",
+    "kb/registers/DASHBOARD.md": "7a85a97b9a72d5fbff1c1903b9c3265853e95bb05016d0a20a75a01a817881b2",
+    "kb/registers/activity.jsonl": "c18fa812a24354950957b6affa0f7fa36c4fe4733eebc16a91adfe9b0c8bc2c0",
+    "kb/registers/records.json": "97b71add0f08eb5c4c2385fb9bb3d2a7fd9734da0e0de1c7b235189f5f26a159",
+    "kb/research/culture/essential-odia-dhaga.md": "c62d357491fd42a84f9394cac4538c832769b8ceafdcc348a6f9df94e1d33359",
+    "kb/team/operations.json": "10a5488cf761115acc83e54f928d5f810b626e666869a1fa3069c52dfe9a5fca",
+    "projects/site/editions/coast.json": "83b27b8c9cd3951d8172829d8c2855774083b978c4b433c1bdd20978517a5ac7",
+    "projects/site/editions/search-candidate.json": "4f8393c992c6849ad9bb6ac33ea98dd4f5803064c47f7ffddc13eac5c69401ac",
+    "projects/site/src/data/journey-catalog.ts": "a1e4d6e53dacbe4d48618f983bc82b55df1fe99023b353c87a3f403a0ab07581",
+    "projects/site/src/pages/stories/essential-odia-dhaga.astro": "3f417ccdafd05d8d40aead5dd9b8ac7691d73cf7a9d0a82220208a8c65ca638c",
+    "projects/site/src/pages/stories/odia-dhaga.astro": "8c47a03a48cc68542e20f9366436e5444d73e47194edf38d61886068ff130328",
+    "projects/site/tests-coast/cuttack-literature.test.mjs": "4bbebec4d7639eba2cfba1de5d5dde25c96edc9ff13c2a33bc50d834fca9dc7f",
+    "projects/site/tests-coast/essential-dhaga-article.test.mjs": "7d481cd8b65bbed3cae70efca8fbd68770e465c0aafdf719ca02b357757160fe",
+    "projects/site/tests/build.test.mjs": "24f6cdb98ea26b39fae3aaa37813a27a5b2f58bc606e30bfe6b32ad302adeb8a",
+    "projects/site/tests/essential-dhaga-article.test.mjs": "f01ac363519969bab053601000b8b9e108bc13afca2d0d21970c1097a8cbcd34",
+    "projects/site/tools/export-dhaga.mjs": "d49296ded0a033804f2e91cc9900b928b22fc731f47e9b45e750988c6dad792d",
+    "projects/site/tools/nimuhi-footnote-heading.mjs": "a045fa949e24915272108d1516eb2793202e1aaa28e2df2450cb229d75f066f7"
+  },
+  "evidence_sha256": {
+    "anvesha.json": "6ffa703bbd8f99201898146839841e2f7689b2a81334a0abecf42db99caa7851",
+    "samanta.json": "6e88b27eae70e1640757f4ee3146700e8655837532897901018856247e6adf22",
+    "browser-review.json": "3a75db00c676f48c6580bac42f88c3c26b8726bb5da708231d66e4ab270c5acf",
+    "downloaded-reading.html": "1ad5610d5933ed153cb1da512a17a4272dd60e13db0e319a8ada7b712ab8bfc0",
+    "desktop-top.png": "b4cbc034a653be662f7f4b1cea9edabbffe8a684ca9035a927c9b5370e44b18a",
+    "mobile-top.png": "b4c27134fd291bea005261aa5db188a0bf68dd9f6d4fc8efaa12b63417b66099",
+    "mobile-verse.png": "994065e5b167a2003412d1484b60f90ec6adc749db1592c9097207af51b18dae"
+  },
+  "actual_checks": [
+    "Read24-file committed diff, article implementation, parser, language-span plugin, reciprocal discovery changes, search hold and new focused tests.",
+    "Verified all implementation file hashes against final Samanta report; source differs from frozen reviewed draft only by metadata/title-byline relocation, encoded URL spaces and renamed source overview heading.",
+    "No changes under projects/odia-dhaga:159 entries/art and90-page book remain untouched. New companion is separate; reciprocal public exporter link does not alter canonical book.",
+    "Ran10 full/coast focused companion tests: allPASS, including all25 complete notes, unique targets/returns, complete portable prose/URLs, reciprocallinks, language spans and four-line verse.",
+    "Actually viewed desktop-top, mobile-top and mobile-verse pixels. Readable and unclipped;153 intentional lines preserved with normal wrap for long final line.",
+    "Independently parsed actual downloaded-reading.html against all nonheading canonical blocks including25 source notes: zero missing.",
+    "Ran team consistency, autonomous programme and rollout checks:PASS;130completed392excluded1in_progress303queued. New article remains in_progress, no new programme credit.",
+    "Read final Samanta build evidence:646full/535coast, publication608332358bytes,11eligible unchanged, disclosure/discovery gatesPASS. These broad builds were performed by implementer, not rerun by reviewer."
+  ],
+  "findings": [
+    "Earlier153 line-collapse concern resolved with scoped pre-line style and test; Odia metadata validated on25 quote spans.",
+    "048SCERT exception,031lexical caveat,036respectful framing,104coercion boundary and153voice-order/interpretive limits preserved with all source revisions and reuse credit.",
+    "Tests changed count expectations by exactly one route/reading item; no assertion weakening found.",
+    "Only native reciprocal links added to existing introduction/book public index; existing introduction prose and book metadata/assets/PDF untouched.",
+    "Ownership record accurately remains candidate_review with release after publication and reviewed receipt; this report is not deployment or scope-release evidence."
+  ],
+  "nonblocking_findings": [
+    "Plain git diff --check flags one retained trailing space in canonical153 verse, inherited verbatim from reviewed witness. No new prose whitespace defect; do not silently alter source wording for this check."
+  ],
+  "limits": [
+    "Actual browser interactions are coordinator evidence; reviewer independently inspected saved pixels and downloaded text, not a separate driven browser session.",
+    "No fresh source research, legal clearance, physical-device or human assistive-technology assessment.",
+    "Required remote CI, reviewed merge, authorized deployment and live verification/receipt remain future release gates.",
+    "Only output review written; no canonical/Git mutations."
+  ]
+}
