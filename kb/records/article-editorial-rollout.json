@@ -2617,12 +2617,15 @@
       "id": "POD-EDIT-095",
       "route": "/languages/districts/anugul/",
       "title": "Anugul · languages and population",
-      "status": "queued",
+      "status": "excluded",
       "scope": "classification_pending",
       "source_template": null,
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/anugul-language-utility-review-2026-10-30.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually exclude POD-EDIT-095 as Census data/navigation utility. Preserve the Anugul public route, district 384 data, Census group/return and residence caveats, language-profile links and search eligibility. This route has no configured destination or related-discovery narrative and no sustained authored district-language article. Preserve separate Angul/Talcher historical geography, Ho/Juang, mining, aluminium, banking and theatre narratives; do not infer their coverage or identities from district totals."
     },
     {
       "id": "POD-EDIT-096",
