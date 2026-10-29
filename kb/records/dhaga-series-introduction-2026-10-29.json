@@ -1,5 +1,5 @@
 {
-  "status": "integration_review",
+  "status": "published_verified",
   "kind": "dhaga_series_introduction",
   "authorization": "Founder request in this chat,29October2026: Let us create this as an intro article for the Dhaga Series",
   "input_head": "d0ad256179bcd60edda17ffaed8e3dcc1b8e9f74",
@@ -14,7 +14,38 @@
   },
   "programme_credit": 0,
   "new_sayings": 0,
-  "scope_release": "Reserved until reviewed PR/checks/merge, approved deployment, live checks and receipt integration.",
+  "scope_release": "Effective after separately reviewed receipt merge and remote file hash verification; retain own scope until then.",
   "evidence_review": "records/evidence/dhaga-series-introduction-2026-10-29/anvesha.json",
-  "preserved_pdf_sha256": "5f2e94eb3732de2a2b59fe1ac0b88e5deea092ad97a7086bb25099e3caf416f0"
+  "preserved_pdf_sha256": "5f2e94eb3732de2a2b59fe1ac0b88e5deea092ad97a7086bb25099e3caf416f0",
+  "pr": 596,
+  "reviewed_head": "e37afde50d713e9b350736b5947871880d8cdeb5",
+  "merge_commit": "79fc4b2fec4c956c3a4e0af8b4ad48a47712ee46",
+  "required_ci": {
+    "run": 40834284691,
+    "conclusion": "SUCCESS"
+  },
+  "deployment": {
+    "run": 40838993431,
+    "conclusion": "SUCCESS",
+    "head": "79fc4b2fec4c956c3a4e0af8b4ad48a47712ee46"
+  },
+  "live_checks": {
+    "result": "PASS",
+    "routes": [
+      "/dhaga/",
+      "/stories/odia-dhaga/"
+    ],
+    "checks": "Desktop1440x1000 and mobile390x844, visible label, keyboard reciprocal navigation, no horizontal overflow; independent HTTP checks"
+  },
+  "evidence": [
+    "records/evidence/dhaga-series-introduction-2026-10-29/samanta.json",
+    "records/evidence/dhaga-series-introduction-2026-10-29/exact-head-review.json",
+    "records/evidence/dhaga-series-introduction-2026-10-29/live-http.json",
+    "records/evidence/dhaga-series-introduction-2026-10-29/live-browser.json"
+  ],
+  "limitations": [
+    "Separate AI review, not human certification.",
+    "Headless browser desktop/mobile viewports, not physical devices.",
+    "Existing book/PDF preserved by zero source diff; no new full PDF download claimed."
+  ]
 }

@@ -1,0 +1,44 @@
+{
+  "review_type": "separate AI exact-head implementation and visual review",
+  "input_head": "e37afde50d713e9b350736b5947871880d8cdeb5",
+  "base": "d0ad256179bcd60edda17ffaed8e3dcc1b8e9f74",
+  "decision": "PASS_WITH_LIMITATIONS",
+  "blocking_findings": [],
+  "file_hashes": {
+    "kb/records/dhaga-series-introduction-2026-10-29.json": "8d05d72f76c26793ebb18f02895d154d16071151201cd10c42dcb223d15ac3d6",
+    "kb/records/evidence/dhaga-series-introduction-2026-10-29/anvesha.json": "49bd9571ba0c085c163cb2f4807095d0f9103434a7e4793986476b4208c30f29",
+    "kb/team/operations.json": "098a7a44e6fb978140f1d1e64c659a27251fffa38a51b7ef54972e37c89ad7d0",
+    "projects/site/src/pages/stories/odia-dhaga.astro": "056c997f4116ae4826d2358b0be8ceaf95e90aab68eabd9f139b3da663da6dc9",
+    "projects/site/tests-coast/dhaga-publication.test.mjs": "1495d9d162a93efdd1682d1e738905c916dd1e651474666b821259d507e4b1fd",
+    "projects/site/tests/dhaga-publication.test.mjs": "f96d923ae9d772c102fb05748319e1ce7a5b3b534dd07eabafca0534c04ae2a6",
+    "projects/site/tools/export-dhaga.mjs": "bb3fbed2ab11d68f3200af7b607014fdbcfabea4fa7301f48d52a6bda6dfcb73"
+  },
+  "evidence_hashes": {
+    "anvesha.json": "49bd9571ba0c085c163cb2f4807095d0f9103434a7e4793986476b4208c30f29",
+    "samanta.json": "6efdcf5390f43c09de254478ea029ded765aa3761402f8033f86ed89d5b9556c",
+    "browser.json": "12b0153505a26421e0b345803292baf502f10cd97b511797e45d539d38187cbf"
+  },
+  "actual_images_viewed": {
+    "desktop-article.png": "3c69fdeb1f90a0ce3b3c17a513524ee95c4f364f03835ee85f733f39984c8d5b",
+    "desktop-book.png": "937e4b9b69ca434502148fa820cfa71817d10075ead9b485379cafc70cdb7824",
+    "mobile-article.png": "53dc9c3086c053682c6ee2230951c331815472c0089e188d763908b4d6ddb8c0",
+    "mobile-book.png": "26c3ea222d394f255f9b3827a3bf1277c0d22d81004557f35c2f602efdfe390c"
+  },
+  "checks": [
+    "Exact7-file scope: two public implementation changes, two narrow regression tests, coordinator record/operations and frozen framing evidence.",
+    "Article eyebrow only becomes Dhaga Series · Introduction; title/byline/body/sources untouched. Public /dhaga/ index alone receives one native introduction link before cover; route guard and missing-cover error prevent silent misplaced insertion.",
+    "Canonical article Markdown and entire book tree have no diff against base.159 entries/illustrations90-page PDF and all rights retained; article/collection/packing/PDF hashes independently match audit.",
+    "Native reciprocal link test covers exact-once label, placement before cover, title/byline/return link and standalone source preservation; appropriate to narrow change.",
+    "Independently ran full/coastal focused introduction tests after refreshed coast:2/2PASS. Initial run during stale coastal build was1pass/1failure; final refreshed result supersedes it, no source workaround.",
+    "Read final Samanta report: full focused8/8/coastal3/3 and both builds pass; all4 changed-source hashes match.",
+    "Independently viewed all4 actual1440x1000/390x844 book/article PNGs and verified hashes. Label/link clear; mobile arrow wraps but remains readable and unclipped. Browser evidence records keyboard Enter navigation and no horizontal overflow at both sizes.",
+    "Scope claims remain integration_review with zero programme/new-saying credit and conditional release after CI/merge/deployment/live/receipt."
+  ],
+  "limits": [
+    "Separate AI review, not human certification.",
+    "Browser interactions executed by Samanta; reviewer independently inspected actual screenshots and saved metrics.",
+    "Only focused tests rerun by reviewer; no unrelated full suite or publication optimizer rerun for this bounded framing change.",
+    "Local preview is not live evidence; required CI and deployment/live/receipt gates remain.",
+    "No canonical/Git edits."
+  ]
+}

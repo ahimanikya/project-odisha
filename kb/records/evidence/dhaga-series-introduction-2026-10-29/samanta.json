@@ -1,0 +1,115 @@
+{
+  "checked_at": "2026-10-29T07:17:38.030112+00:00",
+  "result": "pass",
+  "input_head": "d0ad256179bcd60edda17ffaed8e3dcc1b8e9f74",
+  "reviewed_head": "e37afde50d713e9b350736b5947871880d8cdeb5",
+  "files": {
+    "projects/site/src/pages/stories/odia-dhaga.astro": "056c997f4116ae4826d2358b0be8ceaf95e90aab68eabd9f139b3da663da6dc9",
+    "projects/site/tools/export-dhaga.mjs": "bb3fbed2ab11d68f3200af7b607014fdbcfabea4fa7301f48d52a6bda6dfcb73",
+    "projects/site/tests/dhaga-publication.test.mjs": "f96d923ae9d772c102fb05748319e1ce7a5b3b534dd07eabafca0534c04ae2a6",
+    "projects/site/tests-coast/dhaga-publication.test.mjs": "1495d9d162a93efdd1682d1e738905c916dd1e651474666b821259d507e4b1fd"
+  },
+  "changes": [
+    "Article eyebrow identifies existing essay as Dhaga Series introduction.",
+    "Public export index alone gains one visible native introduction link before cover; standalone book remains unchanged."
+  ],
+  "guidance": {
+    "path": "/tmp/dhaga-intro-accessibility.md",
+    "rule": "Prefer native HTML; descriptive visible link text supplies accessible name."
+  },
+  "tests": [
+    {
+      "command": "npm run build",
+      "result": "pass",
+      "log": "/tmp/dhaga-series-full-build.log"
+    },
+    {
+      "command": "node --test tests/dhaga-publication.test.mjs tests/dhaga-article.test.mjs tests/dhaga-export.test.mjs",
+      "result": "8/8 pass",
+      "log": "/tmp/dhaga-series-focused.log"
+    },
+    {
+      "command": "npm run build:coast",
+      "result": "pass",
+      "log": "/tmp/dhaga-series-coast.log"
+    },
+    {
+      "command": "node --test tests-coast/dhaga-publication.test.mjs tests-coast/dhaga-article.test.mjs",
+      "result": "3/3 pass",
+      "log": "/tmp/dhaga-series-coast-tests.log"
+    }
+  ],
+  "browser": {
+    "checked_at": "2026-10-29T07:16:25.619Z",
+    "results": [
+      {
+        "label": "desktop",
+        "width": 1440,
+        "height": 1000,
+        "overflow": false,
+        "keyboard_link": "http://127.0.0.1:8997/stories/odia-dhaga/",
+        "eyebrow": "Dhaga Series · Introduction",
+        "articleOverflow": false
+      },
+      {
+        "label": "mobile",
+        "width": 390,
+        "height": 844,
+        "overflow": false,
+        "keyboard_link": "http://127.0.0.1:8997/stories/odia-dhaga/",
+        "eyebrow": "Dhaga Series · Introduction",
+        "articleOverflow": false
+      }
+    ]
+  },
+  "screenshots": [
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-series-introduction-2026-10-29/desktop-article.png",
+      "format": "PNG",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "sha256": "3c69fdeb1f90a0ce3b3c17a513524ee95c4f364f03835ee85f733f39984c8d5b"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-series-introduction-2026-10-29/desktop-book.png",
+      "format": "PNG",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "sha256": "937e4b9b69ca434502148fa820cfa71817d10075ead9b485379cafc70cdb7824"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-series-introduction-2026-10-29/mobile-article.png",
+      "format": "PNG",
+      "dimensions": [
+        390,
+        844
+      ],
+      "sha256": "53dc9c3086c053682c6ee2230951c331815472c0089e188d763908b4d6ddb8c0"
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-series-introduction-2026-10-29/mobile-book.png",
+      "format": "PNG",
+      "dimensions": [
+        390,
+        844
+      ],
+      "sha256": "26c3ea222d394f255f9b3827a3bf1277c0d22d81004557f35c2f602efdfe390c"
+    }
+  ],
+  "visual_review": "Actually viewed all four full screenshots: introduction link visible and readable; article framing intact; no horizontal overflow. Mobile arrow wraps naturally. Keyboard Enter navigates from book link to existing article at both sizes.",
+  "preservation": "git diff d0ad2561 for projects/odia-dhaga and canonical article Markdown is empty: all159 entries/art/PDF and full article body preserved.",
+  "history": [
+    "Initial new test failed because reciprocal link regex omitted Astro attributes; assertion corrected and focused8/8 passed.",
+    "Initial Chrome launch failed sandbox; authorized elevated local browser succeeded. First browser script selected all eyebrow elements; scoped to article and reran successfully.",
+    "Independent coast check occurred during stale pre-rebuild output; completed fresh coast focused3/3 pass."
+  ],
+  "limits": [
+    "Local preview evidence, not deployment verification.",
+    "No publication optimizer or unrelated full suite rerun locally for this two-change adjustment; release CI owned by coordinator.",
+    "No Save/download repeated because implementation does not alter catalog or controls; existing full-prose portable tests pass."
+  ]
+}
