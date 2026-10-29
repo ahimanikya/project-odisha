@@ -1,0 +1,102 @@
+{
+  "review_type": "separate AI exact-head integrated review",
+  "decision": "PASS",
+  "input_head": "c8fd9457d38d5cd623167da0ac920f94a71f4631",
+  "base": "9ce0bb56fc8a6e7140a70dda54e635b65a497a47",
+  "blocking_findings": [],
+  "manifest_sha256": "c0035a7e0ec61bf053e276e8fec3e8feeff2332304a60cc4f5ce4e0e2bfa5f84",
+  "file_hashes": [
+    {
+      "path": "kb/research/culture/odia-dhaga.md",
+      "sha256": "bb054d8a270558a4203978a09128f654913ce803a4b3586fc4ee7bcf061df991"
+    },
+    {
+      "path": "kb/team/operations.json",
+      "sha256": "c60965cb52d1f481211934dd15cb94fc2c979ffe3345c3ed4480601f534bd6e3"
+    },
+    {
+      "path": "kb/records/dhaga-intro-depth-team-2026-10-29.json",
+      "sha256": "d28c55db1d4c14173bfc4571358672612f2d260c3e33dac78978f07510cf5133"
+    },
+    {
+      "path": "projects/site/src/data/journey-catalog.ts",
+      "sha256": "3bdb942025be5397de2832b72ad18c729ab4c0b18a6711bf0d274e16d62b26ee"
+    },
+    {
+      "path": "projects/site/tests/dhaga-article.test.mjs",
+      "sha256": "b64ad989c6ec6cc984621e7f9062c9328a433942d0ff396cb7b77ed0e8eefd4c"
+    },
+    {
+      "path": "projects/site/tests-coast/dhaga-article.test.mjs",
+      "sha256": "6ba6d150c5fe83f98cef361a2658071b1f5cdd9ea9d4f0452bb933e399857ce3"
+    },
+    {
+      "path": "kb/records/evidence/dhaga-intro-depth-2026-10-29/anvesha.json",
+      "sha256": "2b9316ddf80d9a42775975b6cd264bfbd57f9fb6ad2400becfb8cd5e34f53878"
+    },
+    {
+      "path": "kb/records/evidence/dhaga-intro-depth-2026-10-29/browser-check.json",
+      "sha256": "c80819072785b7fa7d3459eb49c35ca212772605b263c5cb6ddf1e915d0edf2e"
+    },
+    {
+      "path": "kb/records/evidence/dhaga-intro-depth-2026-10-29/download-parity.json",
+      "sha256": "1adfa7979716c8fcbc65c55d22e2b324c1cd825586a4ee59ddda15eb3c2b3692"
+    },
+    {
+      "path": "kb/records/evidence/dhaga-intro-depth-2026-10-29/draft-drishti.json",
+      "sha256": "02e6ebe3347d5ee9662979bdb38fd2cfee1787b55a3d181576127d581281f781"
+    },
+    {
+      "path": "kb/records/evidence/dhaga-intro-depth-2026-10-29/integrated-drishti.json",
+      "sha256": "b6ecf5fb0ce4adb65426d0467f73c5ead503f18c22deec2fa403e4e0b38501f8"
+    },
+    {
+      "path": "kb/records/evidence/dhaga-intro-depth-2026-10-29/integrated-source-check.json",
+      "sha256": "8104da6adcb5f46702a13ceeb235adaea90944dbdaec74b9835c9775d15936c4"
+    },
+    {
+      "path": "kb/records/evidence/dhaga-intro-depth-2026-10-29/published-catalog-browser.json",
+      "sha256": "6302810b198d4f1fa077ef15e86f5be5e5417d0640fe64f986f4e3745d3fa8dd"
+    },
+    {
+      "path": "kb/records/evidence/dhaga-intro-depth-2026-10-29/samanta.json",
+      "sha256": "af882b4751c5769a33d0c3f9d6a883cc2e69aea317dde48660b67f7c8d1a77bc"
+    }
+  ],
+  "review_bindings": {
+    "draft-drishti.json": "02e6ebe3347d5ee9662979bdb38fd2cfee1787b55a3d181576127d581281f781",
+    "integrated-drishti.json": "b6ecf5fb0ce4adb65426d0467f73c5ead503f18c22deec2fa403e4e0b38501f8",
+    "samanta.json": "af882b4751c5769a33d0c3f9d6a883cc2e69aea317dde48660b67f7c8d1a77bc",
+    "integrated-source-check.json": "8104da6adcb5f46702a13ceeb235adaea90944dbdaec74b9835c9775d15936c4",
+    "browser-check.json": "c80819072785b7fa7d3459eb49c35ca212772605b263c5cb6ddf1e915d0edf2e",
+    "published-catalog-browser.json": "6302810b198d4f1fa077ef15e86f5be5e5417d0640fe64f986f4e3745d3fa8dd",
+    "published-downloaded-book.html": "d37b275742251345bba9da1fbe90bc48a8a33f08e610c3d4568cf1a5baa66f2f"
+  },
+  "findings": [
+    "Exact14-file committed scope matches manifest; all blob hashes equal manifest and current files. Eight canonical evidence files are byte-identical to frozen outputs.",
+    "Four source/test files match hashes independently reviewed beforecommit; no intervening code/content changes. Approved prose contains exact-script rhyme clarification only beyond reviewed draft.",
+    "Book directory has zero diff. Source inventory, all159entries/art,90-page PDF, other public products, search configuration, programme and rollout records are unchanged.",
+    "Operations and own team handoff reserve a single introduction revision and retain scope through reviewed merge/deployment/live verification/receipt; no premature delivery or scope release claimed.",
+    "Record correctly distinguishes56 portable blocks including three subsection headings from53 non-heading content/note blocks; all11notes and licence retained.",
+    "Final frozen implementation report closes previously pending local publication gate:604706412bytes,11indexable and auxiliary/disclosure PASS. This is local pipeline evidence, not live deployment."
+  ],
+  "checks_actually_run": [
+    "Git HEAD/base and complete14-file diff inspection",
+    "All14 committed manifest hashes,8frozen evidence copies and4priorreview product/test hashes verified",
+    "Prior same-byte independent6/6focused full/coast Dhaga tests PASS, actual9PNGvisual inspections and downloaded53-block parity reused",
+    "python3 tools/editorial/article_rollout.py --check PASS129/392/303",
+    "python3 tools/check_autonomous_program.py PASS",
+    "git diff --check base HEAD PASS"
+  ],
+  "worker_pipeline_evidence": [
+    "Full638/638 and coast527/527 PASS",
+    "Final strengthened6/6 and focused12/12 PASS",
+    "Publication604706412bytes,11indexable; disclosure/auxiliary gates PASS",
+    "Actual worker browser22keyboard returns,Save/reload/download/missing-catalog recovery PASS; reports and actualpixels independently reviewed"
+  ],
+  "limits": [
+    "Full suites and publication pipeline not rerun by reviewer; frozen worker evidence reviewed and exact source hashes bound.",
+    "No live publication, remoteCI or subsequent merge verified here. RequiredCI/merge/deployment/liveverification/receipt remain coordinator gates.",
+    "Separate AI review only; no human proofreading claim. No canonical/Git mutations."
+  ]
+}
