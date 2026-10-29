@@ -1,3 +1,4 @@
+import essentialDhagaRaw from '../../../../kb/research/culture/essential-odia-dhaga.md?raw';
 import maniabandha from '../../../../kb/research/culture/maniabandha.json';
 import dhagaArticleRaw from '../../../../kb/research/culture/odia-dhaga.md?raw';
 import multilingualEditorial from '../../../../kb/research/voices/multilingual-editorial.json';
@@ -86,6 +87,12 @@ const dhagaPlain=(text:string)=>text.replace(/^#{1,6}\s+/gm,'').replace(/\[\^[^\
 const dhagaSections=dhagaBody.split(/^## /m).map((chunk,index)=>{const lines=chunk.split('\n');const heading=index?lines.shift()!:'The Poetry We Speak';const paragraphs=lines.join('\n').split(/\n\s*\n/).filter(p=>p.trim()).map(p=>dhagaPlain(p.replace(/^\[\^[^\]]+\]:\s*/,'')));return {heading,paragraphs,text:paragraphs.join(' ')};}).filter(s=>s.paragraphs.length);
 const dhagaSources=[...dhagaBody.matchAll(/\[([^\]]+)\]\((https?:[^)]+)\)/g)].map(m=>({title:m[1].replace(/\*/g,''),url:m[2]}));
 entries.push({id:'reading:stories/odia-dhaga',author:'Ahimanikya Satapathy',title:'The Poetry We Speak: Why Odia Dhaga Matter',kind:'Reading',area:'Odisha',summary:'Odia sayings carry images, humour and ways of judging everyday life.',href:'/stories/odia-dhaga/',practical:dhagaSections,sources:[...new Map(dhagaSources.map(s=>[s.url,s])).values()]});
+
+
+const essentialDhagaBody=essentialDhagaRaw.replace(/^---[\s\S]*?---\s*/, '');
+const essentialDhagaSections=essentialDhagaBody.split(/^## /m).map((chunk,index)=>{const lines=chunk.split('\n');const heading=index?lines.shift()!:'Essential Odia Dhaga';const paragraphs=lines.join('\n').split(/\n\s*\n/).filter(p=>p.trim()).map(p=>dhagaPlain(p.replace(/^\[\^[^\]]+\]:\s*/gm,'')));return {heading,paragraphs,text:paragraphs.join(' ')};}).filter(s=>s.paragraphs.length);
+const essentialDhagaSources=[...essentialDhagaBody.matchAll(/\[([^\]]+)\]\((https?:[^)]+)\)/g)].map(m=>({title:m[1].replace(/\*/g,''),url:m[2]}));
+entries.push({id:'reading:stories/essential-odia-dhaga',author:'Ahimanikya Satapathy',title:'Essential Odia Dhaga: 25 Sayings to Carry With You',kind:'Reading',area:'Odisha',summary:'Twenty-five sayings: a reading journey through images, humour and everyday meaning.',href:'/stories/essential-odia-dhaga/',practical:essentialDhagaSections,sources:[...new Map(essentialDhagaSources.map(s=>[s.url,s])).values()]});
 
 entries.push({id:'reading:paika',author:paika.author,title:paika.title,kind:'Reading',area:'Odisha',summary:paika.lead,href:'/communities/paika/',checked:paika.checked_on,practical:paika.sections.map(s=>({heading:s.title,text:s.paragraphs.map(p=>p.text).join(' '),paragraphs:s.paragraphs.map(p=>p.text)})),sources:paika.sources.map(({title,url})=>({title,url}))});
 entries.push({id:'reading:khandayat',author:khandayat.author,title:khandayat.title,kind:'Reading',area:'Odisha',summary:khandayat.lead,href:'/communities/khandayat/',checked:khandayat.checked_on,practical:khandayat.sections.map(s=>({heading:s.title,text:s.paragraphs.map(p=>p.text).join(' '),paragraphs:s.paragraphs.map(p=>p.text)})),sources:khandayat.sources.map(({title,url})=>({title,url}))});

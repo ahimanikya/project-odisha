@@ -1,0 +1,37 @@
+{
+  "status": "candidate_review",
+  "input_head": "bb465e61aae0a1bcc6fabf04ee28f53d78f0e5db",
+  "authorization": {
+    "id": "POD-DEC-2026102908",
+    "quote": "Publish this as an article- a companion to the book series."
+  },
+  "route": "/stories/essential-odia-dhaga/",
+  "roles": {
+    "Disha": "Shared records, Git and publication",
+    "Anvesha": "Read-only evidence check; output anvesha.json",
+    "Samanta": "kb/research/culture/essential-odia-dhaga.md; projects/site article route, series links, catalog/export and focused tests only; no shared records/Git",
+    "Drishti": "Separate integrated review; no implementation"
+  },
+  "preserve": "159 sayings/art and exact90-page PDF; existing sources, no programme credit",
+  "scope_release": "After publication and reviewed receipt integration",
+  "title": "Essential Odia Dhaga: 25 Sayings to Carry With You",
+  "evidence": [
+    "records/evidence/essential-dhaga-2026-10-29/anvesha.json",
+    "records/evidence/essential-dhaga-2026-10-29/draft-review.json",
+    "records/evidence/essential-dhaga-2026-10-29/browser-review.json"
+  ],
+  "source_review": "PASS; separate Anvesha execution; frozen wording, source/reuse and interpretation limits preserved",
+  "limitations": [
+    "Editorial selection, not population popularity ranking",
+    "Original examples, not collected speech or origin stories",
+    "Separate AI review, not human specialist or field confirmation"
+  ],
+  "validation": {
+    "full_tests": "646 passed",
+    "coast_tests": "535 passed",
+    "browser": "Desktop1440/mobile390;25 keyboard notes/returns;save reload and actual offline book159paragraphs49links verified",
+    "book": "786 canonical files unchanged",
+    "search": "11 eligible unchanged",
+    "publication_build": "pending optimizer"
+  }
+}
