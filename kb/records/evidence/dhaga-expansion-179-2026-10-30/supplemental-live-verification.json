@@ -1,0 +1,121 @@
+{
+  "checked_at": "2026-10-29T22:40:55.494359+00:00",
+  "checks": {
+    "pinned_pdf": {
+      "url": "https://raw.githubusercontent.com/ahimanikya/project-odisha/e5e6c9a36b5ff2f3db141dab4d37dcded06c9e04/projects/odia-dhaga/odia-dhaga-book.pdf",
+      "status": 200,
+      "bytes": 85494270,
+      "sha256": "fc813aabd4c916567c719aab79e9ba5a3c835dad62d95da715e0748cf3f95f92",
+      "expected": {
+        "pages": 101,
+        "bytes": 85494270,
+        "sha256": "fc813aabd4c916567c719aab79e9ba5a3c835dad62d95da715e0748cf3f95f92"
+      },
+      "pass": true
+    },
+    "sitemap": {
+      "status": 200,
+      "urls": [
+        "https://projectodisha.org/destinations/bhubaneswar/",
+        "https://projectodisha.org/visit/places/dhauli/",
+        "https://projectodisha.org/knowledge/konark/",
+        "https://projectodisha.org/destinations/puri/",
+        "https://projectodisha.org/visit/places/raghurajpur/",
+        "https://projectodisha.org/",
+        "https://projectodisha.org/about/",
+        "https://projectodisha.org/founder/",
+        "https://projectodisha.org/how-to-use/",
+        "https://projectodisha.org/knowledge/chilika/",
+        "https://projectodisha.org/stories/bhubaneswar-fresco/"
+      ],
+      "pass": true
+    },
+    "six_search_holds": [
+      {
+        "route": "/dhaga/sayings/pod-dhaga-174.html",
+        "status": 200,
+        "robots": [
+          "<meta name=\"robots\" content=\"noindex, follow\">"
+        ],
+        "absent_from_sitemap": true,
+        "pass": true
+      },
+      {
+        "route": "/dhaga/sayings/pod-dhaga-175.html",
+        "status": 200,
+        "robots": [
+          "<meta name=\"robots\" content=\"noindex, follow\">"
+        ],
+        "absent_from_sitemap": true,
+        "pass": true
+      },
+      {
+        "route": "/dhaga/sayings/pod-dhaga-176.html",
+        "status": 200,
+        "robots": [
+          "<meta name=\"robots\" content=\"noindex, follow\">"
+        ],
+        "absent_from_sitemap": true,
+        "pass": true
+      },
+      {
+        "route": "/dhaga/sayings/pod-dhaga-177.html",
+        "status": 200,
+        "robots": [
+          "<meta name=\"robots\" content=\"noindex, follow\">"
+        ],
+        "absent_from_sitemap": true,
+        "pass": true
+      },
+      {
+        "route": "/dhaga/sayings/pod-dhaga-178.html",
+        "status": 200,
+        "robots": [
+          "<meta name=\"robots\" content=\"noindex, follow\">"
+        ],
+        "absent_from_sitemap": true,
+        "pass": true
+      },
+      {
+        "route": "/dhaga/sayings/pod-dhaga-179.html",
+        "status": 200,
+        "robots": [
+          "<meta name=\"robots\" content=\"noindex, follow\">"
+        ],
+        "absent_from_sitemap": true,
+        "pass": true
+      }
+    ],
+    "internal_research_404": [
+      {
+        "path": "coverage-ledger.json",
+        "status": 404,
+        "pass": true
+      },
+      {
+        "path": "source127.json",
+        "status": 404,
+        "pass": true
+      },
+      {
+        "path": "source127.html",
+        "status": 404,
+        "pass": true
+      },
+      {
+        "path": "README.md",
+        "status": 404,
+        "pass": true
+      },
+      {
+        "path": "evidence/batch03-2026-10-30/candidate-bundle.json",
+        "status": 404,
+        "pass": true
+      }
+    ]
+  },
+  "limits": [
+    "HTTP/source checks only; no browser interaction or visual review. No local-reader synchronization."
+  ],
+  "pass": true
+}

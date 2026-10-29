@@ -1,0 +1,71 @@
+{
+  "review_type": "Separate AI live evidence consistency review",
+  "input_head": "6d9469e92edb4c8d2001325c38b51b9dda3525d3",
+  "candidate_head": "63a0ffe71cde7f87c96d93f871d1e9f9fd05c502",
+  "deployed_head": "6d9469e92edb4c8d2001325c38b51b9dda3525d3",
+  "deployment_run": 40966089146,
+  "decision": "PASS_WITH_EXPLICIT_REUSED_VISUAL_VARIANCES",
+  "inputs": {
+    "deployment-verification.json": "b03a28acb498fb4fc91ad6f100ef8919ae3b95b931733471525b5bc29f7373c6",
+    "live-verification.json": "7e336e9a151437e7ae4912040cc3a3f4f1a1b0e73d624d66585ba82705f38ac2",
+    "live-image-variance-reconciliation.json": "293ea8b6da61f970888ae1b7423a9ca28bba56a7be8af2a3dcfb8cda7cd8cb19",
+    "companion-main-verification.json": "d66660bcae3d594a797a5ba021f633db784b31e6a6c775e87407a9db529dc3e2",
+    "supplemental-live-verification.json": "7b3964e5514a858c177c618920adf399fbffc4311641116ad447ed8c0490a5aa",
+    "live-browser-review.json": "4777cb2cba86a9e2c4a5bd84893125c04e377bc6a9ffaad8ff78319f1b8cee41",
+    "publication-file-manifest.json": "d2225e08bad0f9e37ac05bdb1a14ecd55a388cbb64ba6d53fe6198a1691ead67",
+    "local-reader-sync-result.json": "995ab3445645585634b1986bf8e8b19038e4a3c64364ece4e93f747e9c1ec3eb",
+    "local-reader-sync-plan.json": "605b1c66d379b2348d6dd9de2265982ee06d7364f1d9d6deeabae09d8ff61dcb",
+    "verify-live.py": "2b3f6dcc52362208f93a734e015a06f78f8b8a3765dec70987228c85955165de",
+    "verify-companion-main.py": "86e30c972da119aac891a274e44110538a137d55f51d87337befdb31976e657f",
+    "verify-supplemental-live.py": "ae0bf5f131b478c8530058b0b01c32e6a13beefc56f6dfd3c964f7263d20533e"
+  },
+  "actual_checks": {
+    "publication_manifest": {
+      "files": 2347,
+      "all_current_local_hashes_sizes_and_path_inventory_exact": true
+    },
+    "reader": {
+      "total": 367,
+      "exact": 365,
+      "html_exact": 182,
+      "raw_all_match": false,
+      "exceptions": [
+        "008",
+        "073"
+      ],
+      "both_hashes_match_prior_visual_pairs": true
+    },
+    "companions": {
+      "main_content_exact_after_explicit_mapping": 3,
+      "raw_html_exact": false,
+      "responsive_pairs_same_as_reviewed": 29,
+      "catalogs_nonempty_exact": true
+    },
+    "local_sync": {
+      "copied_files_hash_verified": 218,
+      "protected_hashes_verified": 446,
+      "reported_allowlist_verified": 577,
+      "reported_tests": {
+        "local_repository_and_inventory": "19 tests passed",
+        "initial_extra_transcription_attempt": "Module absent from preserved local reader; initial combined command returned import error after19 passing tests. No research module copied to bypass scope. Canonical transcription fixtures passed before publication."
+      }
+    }
+  },
+  "findings": [
+    "No blocking content discrepancy found. Reader raw failure is honestly preserved; only008/073 are non-identical and both sides match previously independently viewed pairs.",
+    "Independently recomputed all local publication manifest hashes and companion main normalization from saved live HTML.",
+    "Fresh PDF HTTP success/hash,11 sitemap routes,six noindex holds and five research404s are supported by saved supplemental script/results.",
+    "Saved official deployment JSON reports completed success at the expected merge.",
+    "Root live browser report documents desktop/phone/search/keyboard checks, and explicitly says screenshots were viewed but not saved. No independent fresh pixel claim made here."
+  ],
+  "blocking_findings": [],
+  "required_receipt_limits": [
+    "365/367 reader files exact, not367/367; all182HTML exact.008/073 accepted via exact prior pair reuse.",
+    "Three companion mains normalized-exact; raw whole HTML is not byte-identical.",
+    "29 responsive pairs reuse earlier overview/selected-full-pair review, not29 newly individually viewed images.",
+    "Reviewer performed local evidence/hash assertions only, not fresh network/browser/download; coordinator and worker performed those recorded checks.",
+    "Local19 tests passed as recorded; absent local transcription-module attempt is not a passed test. Canonical fixture result remains separately attributed.",
+    "No live all179-page individual visual review, physical print proof or human review."
+  ],
+  "next_action": "Freeze records-only receipt with these exact evidence bindings; obtain separate exact-head receipt review before releasing scope."
+}
