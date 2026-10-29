@@ -1,0 +1,165 @@
+{
+  "review_type": "Separate AI integrated book review",
+  "input_head": "b9037de95c504afbf0ab5c97f3ac9b82d9ce7dc8",
+  "status": "PASS_BOOK_INTEGRATION_AND_SELECTED_LAYOUT",
+  "inputs": {
+    "collection_sha256": "79564f8f4e2fd2586763405de330ac58a1883eee86acc068c5af53c0cda294e0",
+    "bundle_sha256": "89a34734164016101b5abb6f4f6dd949ac72b18557779594690949ce06580077",
+    "source_validation_sha256": "bf954179eddfefde01d5d5b79959552062fb969728b04b75a10be10084846b2c",
+    "art_review_sha256": "231912666f2330651e0799d4e63a13e8795bb1bd2d90049970899b9e39d37bb8",
+    "samanta_report_sha256": "69ca12af48831875d4c86e1426909e3eb11fe3ff9f5cce154c1b4da30fb1acbf",
+    "packing_report_sha256": "049602492e89d29cd19cab7c7c4ff7c5aa1d7c3c73c384811c659f8c9213115a"
+  },
+  "actual_checks": [
+    "Compared all173 baseline entry objects against current collection: only036 variants changed.",
+    "Compared six new complete objects with frozen bundle: only assigned IDs, graphic/status fields and omitted internal candidate_key/dedup differ. All prose, witnesses, genre and rights preserved.",
+    "Read036 added parallel and confirmed explicitly non-exact/no descent/no additional count.",
+    "Individually viewed all six installed image files using image tool; alt/caption correspondence checked.",
+    "All173 prior graphic blobs compared with baseline Git bytes: exact.",
+    "All179 placement IDs unique, bounds within column height and text_scale_factor1.",
+    "Actual PDF SHA matches frozen packing/report hash.",
+    "Coverage ledger total173→179; five licensed source rows added, existing Incubator rows extend accepted ID lists only as recorded below; historical1893/1926 rows exact. Source127 only scope_note changes, so all positions/counts preserved."
+  ],
+  "images": [
+    {
+      "id": 174,
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/odia-dhaga/assets/dhaga-174-line-art-v1.png",
+      "sha256": "bab72022898cd8e448517058cfcf1d58ecd3277735d692139deae2b501476416",
+      "actual_full_image_viewed": true,
+      "decision": "PASS",
+      "findings": "174 cutaway is clearly imagined, body partly cropped at left; visible bubbles and shore observer convey concealment, not an instructional diagram."
+    },
+    {
+      "id": 175,
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/odia-dhaga/assets/dhaga-175-line-art-v1.png",
+      "sha256": "fd58940016e9490d2bbf79c42b8b1e474ad17a68896faab01bf8b48aa84470e2",
+      "actual_full_image_viewed": true,
+      "decision": "PASS",
+      "findings": "175 empty plate and departing covered bowl communicate a lost meal; modern imagined domestic scene, not a documented nephew or recipe."
+    },
+    {
+      "id": 176,
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/odia-dhaga/assets/dhaga-176-line-art-v1.png",
+      "sha256": "a55b8b474917fbecc4b43fba6c8aba536a260208582acac06d12662dabb8171a",
+      "actual_full_image_viewed": true,
+      "decision": "PASS",
+      "findings": "176 volunteer carrying chairs is overlooked while organiser greets guests; credible anatomy and no religious stereotype."
+    },
+    {
+      "id": 177,
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/odia-dhaga/assets/dhaga-177-line-art-v1.png",
+      "sha256": "4bd23febe8f5348117825c4c0288d38c19d16420c675ffb1abd69d5fc4c87a3f",
+      "actual_full_image_viewed": true,
+      "decision": "PASS",
+      "findings": "177 hands grip coarse sack over basin coherently; rueful washing scene supports ironic lesson without inventing source history."
+    },
+    {
+      "id": 178,
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/odia-dhaga/assets/dhaga-178-line-art-v1.png",
+      "sha256": "cbe6b1f047869a57269d77f97a04cb29578ad12ffef013eded9ec46fdbad275a",
+      "actual_full_image_viewed": true,
+      "decision": "PASS",
+      "findings": "178 exposed root system and hole coherently convey removal; botanical metaphor, not a documentary claim."
+    },
+    {
+      "id": 179,
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/odia-dhaga/assets/dhaga-179-line-art-v1.png",
+      "sha256": "40a5820022a23266f17d2bb46532d0c875b1c0b9345fe01d8e54606863fce4d2",
+      "actual_full_image_viewed": true,
+      "decision": "PASS",
+      "findings": "179 four-leg horse anatomy, raised foreleg and slack tether/stake coherent; quiet pose matches caption without falsely illustrating a historical event."
+    }
+  ],
+  "blocking_findings": [],
+  "pending": [
+    "Separate exact committed head and site/publication review."
+  ],
+  "limits": [
+    "No new source retrieval or human review.",
+    "Book/source/art/layout gate only; CI, public export, deployment and receipt remain separate.",
+    "No tests beyond recorded independent assertions were run by this reviewer."
+  ],
+  "pdf": {
+    "pages": 101,
+    "bytes": 85494270,
+    "sha256": "fc813aabd4c916567c719aab79e9ba5a3c835dad62d95da715e0748cf3f95f92"
+  },
+  "pdf_visual_review": {
+    "actual_pages_viewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      21,
+      22,
+      24,
+      37,
+      45,
+      54,
+      55,
+      62,
+      73,
+      74,
+      81,
+      82,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101
+    ],
+    "render_sha256": {
+      "1": "600d815396ca05daf02bef6d5c4700e62fccdda3405089ebfdada92883109ae8",
+      "2": "4079b7e32d23f279250406567b8b9c70c090b465bfa93488608cbd2254610e9c",
+      "3": "40355dc3f3ff76cb9b64a44ca005ddb7b42c37c7656338343988e9d0ccc34b0f",
+      "4": "afe6c2a97e7659a1ec8fc05bc0ea00e2da32b4ef289b809d5fde656a75e40750",
+      "5": "b814d9c9485b0cc7ea0f7570a9fab9f3e4beea94fd7510efd2ad4df41960c5a8",
+      "6": "1f1c9eb2cc0b8fb212f646b84509243165de70d57f920f59ab4c65bb1439a284",
+      "21": "637455a26f970005fc23debba7d0162c7f2f0618b8bb6b5c0697b0c7a12ec148",
+      "22": "b899c8801b2d42df8bc889bf2ace1992955009ccd8cc82a500edc61a224cc8e0",
+      "24": "5f56fd7c8964e2d55f6abf667cbf7a903a5f9879eb05e6e5d770446736c5a97c",
+      "37": "9514f4067647ac104e9186da9629552b0ca4fcc362371902eca2153e1635ec5e",
+      "45": "d3eb10684f2aa147c0ee8044324bf2cfe053a949017aeb8561aab8fa2650e09e",
+      "54": "da9845e78c30cdc7863872d30a1f4cf4c3ae2980d6bdf73a63d112e2b09bf240",
+      "55": "2b27cec80299bddfb74abbb7bc59fedcfa836ef669595575ae8335aed409a410",
+      "62": "53fc33504f291008c886efb429a9e9a0a8220379b96840bfab886302b785dabf",
+      "73": "4f4391cfd538d23c99c309a831ea83f0be0c42501055cdbd0dfbaba953b8345a",
+      "74": "aa3ca7c15076d543042e7eb2e4d9557f549171e1d2fa2662b8116e4c84f1740a",
+      "81": "3bde2479e673c7caf461b46bd2ad862bbfa15020f844b7317a62c9bfb47d20da",
+      "82": "83bf040f6b26e87fdb54fd55866bc1aab9fe2ec5adeb79df8250281480f2dfb3",
+      "96": "f08dc6d082441566d71ba8258a35945240fdeb7471c5299c64ad332fc34abcd4",
+      "97": "28b4764b0f6c5094ac311a11c6a878453766f1ac365bb24fc1363863e2e2c62a",
+      "98": "0be03a7ed4796ba351d294dcccd6847ba63f6c0b0ab75944abffbc77bc8e73f6",
+      "99": "64b5dd60748f9563e67c32aa4004980621184fd9da8923f4d37c1a49f0ebb076",
+      "100": "a2ba4d15414b619e880ece3f2c2556a8a4fb8d2a6bc1fac11f4ccd5e8147671f",
+      "101": "4d50c1d21a8ae996ca98ea8d734061e0d8571b772770a24c48e3fba532c926e2"
+    },
+    "findings": "All six new entry pages,036,frontmatter,all chapter-start pages and credits viewed individually. No clipping, overlapping text/art, tofu glyphs or disconnected captions observed. Dense175 fits with readable138.89pt artwork; text remains unshrunk. Cover179; contents matches chapter mapping. SCERT exception and source-specific rights remain in credits. Existing joined reference strings such as sense19 remain inherited/source locator presentation, not new textual damage.",
+    "limits": "Selected24 of101 PDF pages visually inspected; not a new visual inspection of all remaining pages."
+  },
+  "tests": {
+    "independent": "JSON object parity,173 graphic byte parity,179 packing bounds/IDs/text scale and PDF hash assertions passed",
+    "reported_by_samanta": "19 tests plus22/28/32 transcription negative fixtures passed; suite not rerun by reviewer"
+  },
+  "ledger_review": {
+    "existing_row_changes": {
+      "dhaga-incubator-145358-3584061": [
+        "accepted_entry_ids"
+      ],
+      "dhaga-incubator-147630-668805": [
+        "accepted_entry_ids"
+      ]
+    },
+    "added_source_ids": [
+      "dhaga-wiktionary-161413",
+      "dhaga-wiktionary-193413",
+      "dhaga-wiktionary-216573",
+      "dhaga-wiktionary-216849",
+      "dhaga-wiktionary-paji95132"
+    ],
+    "historical_rows_exact": true
+  }
+}

@@ -5,7 +5,7 @@ import {resolve,basename} from 'node:path';
 import {createHash} from 'node:crypto';
 import sharp from 'sharp';
 const site=fileURLToPath(new URL('../',import.meta.url)),book=resolve(site,'../odia-dhaga');
-export const pdfURL='https://raw.githubusercontent.com/ahimanikya/project-odisha/c6f9ee88d4e4a1d40e6440f1a0ed274abc3bd356/projects/odia-dhaga/odia-dhaga-book.pdf';
+export const pdfURL='https://raw.githubusercontent.com/ahimanikya/project-odisha/e5e6c9a36b5ff2f3db141dab4d37dcded06c9e04/projects/odia-dhaga/odia-dhaga-book.pdf';
 const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 export function publicSourceCredit(source){
  const url=new URL(source.url),revision=url.searchParams.get('oldid');
@@ -40,7 +40,9 @@ export async function exportDhaga(destination){
  for(const e of [...data.entries,{graphic:{src:coverSrc}}]){
   if(!/^assets\/[a-zA-Z0-9_-]+\.(png|webp|svg)$/.test(e.graphic.src))throw Error('Unsafe Dhaga art path');
   const src=resolve(book,e.graphic.src),name=basename(e.graphic.src).replace(/\.[^.]+$/,'.webp');
-  if(!assets.has(e.graphic.src)){const info=await sharp(src).resize({width:640,withoutEnlargement:true}).webp({quality:60,effort:6}).toFile(resolve(out,'assets',name));assets.set(e.graphic.src,'assets/'+name);dimensions.set('assets/'+name,info);}
+  // New densely hatched illustrations use compact web copies; print originals stay intact.
+  const compact=/^POD-DHAGA-17[4-9]$/.test(e.id||'');
+  if(!assets.has(e.graphic.src)){const info=await sharp(src).resize({width:compact?320:640,withoutEnlargement:true}).webp({quality:compact?40:60,effort:6}).toFile(resolve(out,'assets',name));assets.set(e.graphic.src,'assets/'+name);dimensions.set('assets/'+name,info);}
  }
  const fonts=['NotoSerifOriya-Variable.woff2','SourceSerif4-Variable.woff2'];
  const licences=['NotoSerifOriya-OFL.txt','SourceSerif4-OFL.txt'];
