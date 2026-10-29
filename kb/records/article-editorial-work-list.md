@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 825. completed: 129, excluded: 392, in_progress: 1, queued: 303.
+Route inventory: 825. completed: 130, excluded: 392, queued: 303.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -838,4 +838,4 @@ Route inventory: 825. completed: 129, excluded: 392, in_progress: 1, queued: 303
 | POD-EDIT-CINEMA-AUTHOR-INTRODUCTION-20261027 | [The Question That Brought Me Here](https://projectodisha.org/cinema/the-question-that-brought-me-here/) | queued | Author-approved personal essay integrated and reviewed locally in series and bothbooks; queued for futurepublication. |
 | POD-EDIT-CINEMA-READING-GUIDE-20261028 | [Cinema reading guide](https://projectodisha.org/cinema/reading-guide/) | excluded | cinema collection navigation and reading utility |
 | POD-EDIT-DHAGA-CULTURAL-20261029 | [The Poetry We Speak: Why Odia Dhaga Matter](https://projectodisha.org/stories/odia-dhaga/) | completed | Reviewed Founder essay connecting everyday Dhaga literary form and cultural transmission; shared reader header/footer integration. No new saying or programme credit. |
-| POD-EDIT-MANIABANDHA-20261029 | [Maniabandha: Where Odisha’s Weaving Heritage Meets a New Generation of Travellers](https://projectodisha.org/stories/maniabandha/) | in_progress | Approved new article and interpretive illustration, with independent sources and related reading links. |
+| POD-EDIT-MANIABANDHA-20261029 | [Maniabandha: Where Odisha’s Weaving Heritage Meets a New Generation of Travellers](https://projectodisha.org/stories/maniabandha/) | completed | Approved new article and interpretive illustration, with independent sources and related reading links. |

@@ -1,5 +1,5 @@
 {
-  "status": "reviewed_pending_publication",
+  "status": "published_verified",
   "title": "Maniabandha: Where Odisha’s Weaving Heritage Meets a New Generation of Travellers",
   "url": "https://projectodisha.org/stories/maniabandha/",
   "authorization": {
@@ -17,7 +17,7 @@
     "coordinator": "Disha, primary agent",
     "research": "Anvesha, separate subagent",
     "implementation": "Samanta, separate subagent",
-    "quality": "Drishti, separate subagent pending"
+    "quality": "Drishti, separate subagent; exact reviewed head passed"
   },
   "limitations": [
     "Documentary research, not fieldwork or specialist certification",
@@ -41,10 +41,31 @@
     "visual": "Parent desktop1440 and mobile390 screenshots inspected; no horizontal overflow",
     "independent_quality": "Drishti source/rendered-structure PASS; separate AI execution",
     "record_checks": "Registers,catalog,bundle,research,rollout,team PASS",
-    "disclosures": "dist and dist-coast zero violations"
+    "disclosures": "dist and dist-coast zero violations",
+    "publication": "Local assembly passed; dist-publish955 pages scanned with zero violations"
   },
   "evidence": [
     "records/evidence/maniabandha-2026-10-29/drishti-review.json",
-    "records/evidence/maniabandha-2026-10-29/parent-visual-review.json"
-  ]
+    "records/evidence/maniabandha-2026-10-29/parent-visual-review.json",
+    "records/evidence/maniabandha-2026-10-29/live-check.json"
+  ],
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/603",
+  "reviewed_head": "f5d59cf68b3e3a71c143be7f1b44a920dbc5f046",
+  "merge": "a222bbc01bf290315dcf55f6b141e5c5b048ea56",
+  "required_ci": {
+    "run_id": 40912181418,
+    "conclusion": "success"
+  },
+  "deployment": {
+    "run_id": 40914015209,
+    "conclusion": "success"
+  },
+  "live_checked_at": "2026-10-29T16:56:50.520839+00:00",
+  "verified_routes": [
+    "/stories/maniabandha/",
+    "/crafts/",
+    "/textiles/",
+    "/destinations/cuttack/"
+  ],
+  "live_browser": "Title, heading, loaded illustration and 11 notes verified in browser"
 }

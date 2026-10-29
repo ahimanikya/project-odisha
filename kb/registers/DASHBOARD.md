@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `23a1b9992e5250e62f4c3d4940093dde159891a48739cc0aeee4b28489cf264b`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `0c1cb8e66f251ba37c55f7e9b62af2af60619f245c66173b712badb294cf0c16`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -351,7 +351,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026102392 · Nayika articles and Odissi & Beyond concept survey | in_progress | reviewed | Ahimanikya Satapathy | Twelve standalone articles published and verified in their subject sections. Archive research remains open: reconcile the five-post count gap and inspect complete media before claiming exhaustive coverage. | — |
 | POD-WORK-2026102481 · Transfer character collection from Sishu Kishore | completed | published | Ahimanikya Satapathy | Complete. Character collection owns /characters/ on Project Odisha; old Sishu pages removed without redirects per Founder follow-up. | — |
 | POD-WORK-2026102491 · Publish a week in Bhubaneswar personal essay | completed | published | Ahimanikya Satapathy | Publication verified; no social posts sent. | — |
-| POD-WORK-2026102907 · Publish Maniabandha weaving and textile tourism article | in_progress | reviewed | Ahimanikya Satapathy | Push reviewed candidate, pass required CI, merge and publish; verify live page. | — |
+| POD-WORK-2026102907 · Publish Maniabandha weaving and textile tourism article | completed | published | Ahimanikya Satapathy | Published and live verified; social copy remains unsent. | — |
 
 ## Pending human review and decisions
 
@@ -1271,6 +1271,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REL-2026102311 · Sunari ornaments family learning and changing work | published | https://projectodisha.org/communities/sunari/ | POD-DEC-225 |
 | POD-REL-2026102481 · Character worlds standalone subsite transfer | published | https://projectodisha.org/characters/ | POD-DEC-2026102481 |
 | POD-REL-2026102491 · A week in Bhubaneswar personal essay | published | https://projectodisha.org/stories/bhubaneswar-week/ | POD-DEC-2026102491 |
+| POD-REL-2026102907 · Maniabandha weaving and textile tourism article | published | https://projectodisha.org/stories/maniabandha/ | POD-DEC-2026102907 |
 
 ## Sources and assets
 
@@ -1308,7 +1309,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026102410 | 2026-10-23T18:13:47.887363+00:00 | Recovered primaryarchive-linked Abana/SridharRao and1939Subhadraprintedscans; correctedAbana digitalcounterexample framing, verified signatureplacements andrupaka variant, addedboundedrecordinguploadercredits. Anvesharesearch/Drishtiindependentreview/Samantapreviewchecks passed. Filmcertificate/audio/browserlayoutlimits retained; unpublished. | — |
 | POD-EVT-2026102411 | 2026-10-23T18:18:42.271663+00:00 | Three separate workers visually screened complete runningverse PDF2–112 in SridharRao witness; cover1 andadvertisement113 distinguished. No clear dependent-vowel exception found; notcharacter-perfect transcription or humanreview. AddedWikisource/printcomparisontable, updatedKB, all12previewchecks pass. Othermedia/browseraccesslimitsremain; unpublished. | — |
 | POD-EVT-20261023012 | 2026-10-23T21:17:28.855212+00:00 | Founder-directed publication completed sequentially for twelve standalone illustrated articles. Individual reviewed heads, merged PRs, successful deployments and desktop/mobile/live receipts recorded in nataka-publication-2026-10-24.json; final cross-page audit passed. Soumya Biswajit credit remains in source notes. No autonomous programme credit, specialist review or exhaustive archive claim. | — |
 | POD-EVT-2026102481 | 2026-10-24T01:19:58.051266+00:00 | Founder requested transfer from Sishu Kishore. Isolated current main worktree; separate Anvesha audit and Samanta implementation; no research/programme credit. Preserving existing media and historical source records. | — |
@@ -1318,6 +1318,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026102492 | 2026-10-24T17:54:35.622277+00:00 | Published author-directed essay via PR527 and deployment40117643003; verified live content, original images and mobile/desktop layout. No programme credit or social posting. | — |
 | POD-EVT-2026102699 | 2026-10-25T23:07:41.478596+00:00 | Founder-requested159-entry illustrated Dhaga reader and exact86-page PDF published via PR564/deployment40242598763. All162routes/159images/PDFhash and live mobile navigation verified. No new saying acceptance, article completion, human proof or500programme credit. Receipt: records/odia-dhaga-publication-2026-10-26.json | — |
 | POD-EVT-2026102907 | 2026-10-29T16:23:33.674154+00:00 | Founder approved publication of the independently sourced Maniabandha article and illustration. Separate research, implementation and quality review assigned. | — |
+| POD-EVT-2026102908 | 2026-10-29T16:56:50.520839+00:00 | Approved Maniabandha article and illustration published through PR603 and deployment40914015209. Live article, image and discovery links verified; social post remains unsent. | — |
 
 ## Deferred extensions
 
