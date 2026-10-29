@@ -1,0 +1,137 @@
+{
+  "input_head": "41f02e476f17d89c74e445d913a543c0f7f65d68",
+  "checked_at": "2026-10-29T10:38:23.303932+00:00",
+  "status": "output_only_inventory_frozen_pending_separate_review",
+  "role": "AI visual inventory, not human proofreading",
+  "source": {
+    "path": "/tmp/pod-dhaga-1926.pdf",
+    "sha256": "fe6b974c2b2b6de7a11ff34a2c79bb2bfc4986d8ecf6d9da08eca9d02f1e8863",
+    "url": "https://archive.org/download/dhagadhamali-bachana-v01-1926/dhagadhamali-bachana-v01-1926.pdf",
+    "recovery": "Previous temporary file absent. Sandbox DNS failed; one authorized metadata lookup succeeded, then exact4,092,770-byte PDF downloaded successfully and SHA matched prior provenance.",
+    "total_pages": 259
+  },
+  "method": "PDF skill read-only rendering; no authoring marker applicable. pdftoppm -f97 -l102 -scale-to1800 -png; all six images actually viewed individually.",
+  "pages": [
+    {
+      "pdf_page": 97,
+      "render_path": "outputs/dhaga-1926-pages97-102-2026-10-29/renders/page-097.png",
+      "sha256": "cf890e40f7bd461b362a738032c7880e7ae4e5f7f9eeebc3a537f822c318b672",
+      "dimensions": [
+        1200,
+        1800
+      ],
+      "actually_viewed_individually": true,
+      "printed_number_provisional": "65?",
+      "position_range_provisional": "ଗ:23–32?",
+      "structure": "Continued numbered ଗ material, short expressions and longer bracketed notes; heavy left-margin abrasion damages leading digits."
+    },
+    {
+      "pdf_page": 98,
+      "render_path": "outputs/dhaga-1926-pages97-102-2026-10-29/renders/page-098.png",
+      "sha256": "b1227cc3bbbd0062b9e6b754582f1d1dcd5f5ea4d46790c277162c5ebb67eb8e",
+      "dimensions": [
+        1200,
+        1800
+      ],
+      "actually_viewed_individually": true,
+      "printed_number_provisional": "66?",
+      "position_range_provisional": "ଗ:33–40?",
+      "structure": "Continued section with wrapped entries and extended bracketed explanation; right edge dark/cropped and several word endings damaged."
+    },
+    {
+      "pdf_page": 99,
+      "render_path": "outputs/dhaga-1926-pages97-102-2026-10-29/renders/page-099.png",
+      "sha256": "228dc90cbf90cca73442fa043b2c401806460112434bc89837eeb840eaa02368",
+      "dimensions": [
+        1200,
+        1800
+      ],
+      "actually_viewed_individually": true,
+      "printed_number_provisional": "67?",
+      "position_range_provisional": "ଗ:41–50?",
+      "structure": "Continued section; upper-right and central fading removes glyph components, lower entries clearer. No heading/reset."
+    },
+    {
+      "pdf_page": 100,
+      "render_path": "outputs/dhaga-1926-pages97-102-2026-10-29/renders/page-100.png",
+      "sha256": "7983b7cc565cf8523b774eb281e6e65bbef2d5a2c355540b37a6ebdf2d453763",
+      "dimensions": [
+        1200,
+        1800
+      ],
+      "actually_viewed_individually": true,
+      "printed_number_provisional": "68?",
+      "position_range_provisional": "ଗ:51–60?",
+      "structure": "Continued numbered expressions and bracketed notes; some words have corrections/strike-through marks that are not silently normalized."
+    },
+    {
+      "pdf_page": 101,
+      "render_path": "outputs/dhaga-1926-pages97-102-2026-10-29/renders/page-101.png",
+      "sha256": "01f2c4de043105ff90e71c7e34c5a9cc298fe443bfa60287b81b38766ba87b25",
+      "dimensions": [
+        1200,
+        1800
+      ],
+      "actually_viewed_individually": true,
+      "printed_number_provisional": "69?",
+      "position_range_provisional": "ଗ:61–73?",
+      "structure": "Continued section; short entries above a long lower entry that continues beyond page bottom."
+    },
+    {
+      "pdf_page": 102,
+      "render_path": "outputs/dhaga-1926-pages97-102-2026-10-29/renders/page-102.png",
+      "sha256": "8867e3665ba5cda75a9c7f931d24608221e0cb12a953911671bf6c4b1ebbc2ba",
+      "dimensions": [
+        1200,
+        1800
+      ],
+      "actually_viewed_individually": true,
+      "printed_number_provisional": "70?",
+      "position_range_provisional": "ଗ:continuation73? then74–78?",
+      "structure": "Opens with continuation and bracketed explanation from previous page, then further numbered entries; right-edge clipping and bottom continuation. No new section heading."
+    }
+  ],
+  "findings": "Continued numbered ଗ section throughout97–102; no visible new alphabet heading/reset. Full-page scans include damaged print. No wording restored from sequence.",
+  "research_report": {
+    "path": "outputs/dhaga-1926-pages97-102-2026-10-29/anvesha.json",
+    "sha256": "97af448a55723faa69a0fd21015baeb04cd755c928d4ab895b6eefebabc92e45",
+    "reconciliation": "All six structural readings and cautious ranges agree; two position-only leads100/58 and101/68 retain null wording, normalization, meaning and corpus relation. No acceptance."
+  },
+  "proposal": {
+    "path": "outputs/dhaga-1926-pages97-102-2026-10-29/proposed-ledger-delta.json",
+    "sha256": "51f144598be88a1e411fd2ac929fde54ba41ef4e5af17f8366b95bfafe91f5f6",
+    "changed_fields": [
+      "inspection",
+      "next_action",
+      "next_page_to_attempt",
+      "inventory_pdf_pages_overviewed",
+      "inventory_pdf_pages_full_render_inspected"
+    ],
+    "next_inventory_if_reviewed_and_integrated": 103
+  },
+  "checks": [
+    "Actual recovered source SHA matches fe6b974c2b2b6de7a11ff34a2c79bb2bfc4986d8ecf6d9da08eca9d02f1e8863",
+    "Six PNGs1200x1800 decoded and hashed",
+    "Canonical cursor97 verified",
+    "Exactly five source fields differ in memory",
+    "Idempotent reapplication verified",
+    "No canonical or Git writes"
+  ],
+  "preserved": {
+    "entries": 159,
+    "illustrations": 159,
+    "book_pages": 90,
+    "original_pending": 75,
+    "1926_full_cursor": 31,
+    "1893_full_cursor": 2,
+    "1893_drafts": 83
+  },
+  "accepted_increment": 0,
+  "programme_credit": 0,
+  "limits": [
+    "Structural inventory, not full transcription or glyph certification.",
+    "Anvesha final report bound; separate Drishti review pending.",
+    "No rights clearance, creator attribution or corpus equivalence inferred.",
+    "No public facsimile publication or book changes."
+  ]
+}
