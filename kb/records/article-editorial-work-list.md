@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 840. completed: 131, excluded: 406, queued: 303.
+Route inventory: 846. completed: 131, excluded: 412, queued: 303.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -861,3 +861,9 @@ Route inventory: 840. completed: 131, excluded: 406, queued: 303.
 ନା ଗାଁ ଯାକ କିଲିବିଲା...!!!](https://projectodisha.org/dhaga/sayings/pod-dhaga-172.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-828 | [ଚୂଲିମୂଳେ ନହୁଣିଆ ପାରୁଥିବ ବିଲେଇ...
 ପୁଅ ଦେଖଉଚି ନୁଖୁରା ବଡ଼େଇ...!!](https://projectodisha.org/dhaga/sayings/pod-dhaga-173.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-20261030 | [ବୁଡ଼ି କରି ପାଣି ପିଇଲେ ମହାଦେବଙ୍କ ବାପା ମଧ୍ୟ ଜାଣି ପରିବେ ନାହିଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-174.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-20261031 | [ପୁତୁରା ସାଙ୍ଗରେ କଳି କଲି, ମହୁର ତିଅଣରୁ ମେଞ୍ଚାଏ ପାଆନ୍ତି, ତୁଣ୍ଡ ପରସାଦୁଁ ନାଶ ଗଲି](https://projectodisha.org/dhaga/sayings/pod-dhaga-175.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-20261032 | [କାମ ପଡ଼ିଲେ କାଜି, କାମ ଛାଡ଼ିଲେ ପାଜି](https://projectodisha.org/dhaga/sayings/pod-dhaga-176.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-20261033 | [ଅଖା ଧୋଉଥିବୁ ଗୁଣ ଗାଉଥିବୁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-177.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-20261034 | [ମୂଳପୋଛ କରିବା](https://projectodisha.org/dhaga/sayings/pod-dhaga-178.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-20261035 | [ଖୁଣ୍ଟ ଗୁଣେ ଘୋଡା କୁଦେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-179.html) | excluded | standalone_dhaga_collection |

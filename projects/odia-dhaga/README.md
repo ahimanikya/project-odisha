@@ -4,7 +4,7 @@ A source-led repository of Odia sayings: what the words picture, what people mea
 
 Open **[index.html](index.html)** in a browser. Search in Odia or English, filter by theme, read the original wording and explanations, and follow each witness to its source. The collection works offline; source links require internet. The portable research data is **[collection.json](collection.json)**.
 
-The current collection contains **159 explained sayings and idioms, each illustrated, and 62 source records**. It is a bounded seed, not a complete anthology. Three sayings have located nineteenth-century versions; provisional historical readings are labelled. The remaining entries are grounded in identified contemporary digital witnesses while historical comparison remains open. Odia explanations are editorial drafts, not a substitute for an experienced human language editor.
+The current collection contains **179 explained sayings and idioms, each illustrated, and 77 source records**. It is a bounded seed, not a complete anthology. Three sayings have located nineteenth-century versions; provisional historical readings are labelled. The remaining entries are grounded in identified contemporary digital witnesses while historical comparison remains open. Odia explanations are editorial drafts, not a substitute for an experienced human language editor.
 
 ## What we found
 
@@ -79,7 +79,7 @@ The canonical data is `collection.json`; regenerate `index.html` after edits. Re
 
 ## Coverage checkpoint
 
-[coverage-ledger.json](coverage-ledger.json) records source-by-source progress and the exact next transcription page. 159 explained entries are distinct from historical variants and repeated witnesses. The 1893 scan now has page-wide provisional transcription drafts for PDF pages 2–6 (printed pages 1–5): 83 tentative punctuation/layout segments across 80 physical body lines. These are research attempts, not 83 verified or newly explained sayings. Unclear glyphs and semantic boundaries remain explicit; no page is claimed fully transcribed or human-proofread. Targeted visual inspection reached terminal PDF19, an uncaptioned rider/horse illustration. The targeted cursor is null because the scan ended; the full-transcription cursor remains PDF2. The1926 volume has canonical frontmatter inventory for PDF1–12; the next canonical inventory page is PDF13. A broader local pass throughPDF60 remains separate research evidence until integrated. The bull-saying comparison on PDF6 points to existing entry002 and does not add a unique saying.
+[coverage-ledger.json](coverage-ledger.json) records source-by-source progress and the exact next transcription page. 179 explained entries are distinct from historical variants and repeated witnesses. The 1893 scan now has page-wide provisional transcription drafts for PDF pages 2–6 (printed pages 1–5): 83 tentative punctuation/layout segments across 80 physical body lines. These are research attempts, not 83 verified or newly explained sayings. Unclear glyphs and semantic boundaries remain explicit; no page is claimed fully transcribed or human-proofread. Targeted visual inspection reached terminal PDF19, an uncaptioned rider/horse illustration. The targeted cursor is null because the scan ended; the full-transcription cursor remains PDF2. The1926 volume has canonical frontmatter inventory for PDF1–12; the next canonical inventory page is PDF13. A broader local pass throughPDF60 remains separate research evidence until integrated. The bull-saying comparison on PDF6 points to existing entry002 and does not add a unique saying.
 
 Drafts, exact source hashes, separate AI reviews and mechanical checks are linked in the coverage ledger. Multiple sayings can share one printed line, so their anchors preserve both line number and position within that line. Research drafts are kept outside `collection.json` and the reader browser until wording and interpretation are sufficiently supported.
 
@@ -105,7 +105,7 @@ Entries092–108 add17 independently AI-reviewed records beyond the canonical91:
 
 ## Book source files and building
 
-Edit one saying in `entries/POD-DHAGA-NNN.json`. These159 individual files are the narrative source, including each bilingual summary and optional illustration. Edit `collection-metadata.json` for sources, collection rights and the bilingual book introduction. `research-design.json` supplies the complete thematic chapter map. The original bilingual-summary research file is provenance only; the build reads the summaries from each entry.
+Edit one saying in `entries/POD-DHAGA-NNN.json`. These179 individual files are the narrative source, including each bilingual summary and optional illustration. Edit `collection-metadata.json` for sources, collection rights and the bilingual book introduction. `research-design.json` supplies the complete thematic chapter map. The original bilingual-summary research file is provenance only; the build reads the summaries from each entry.
 
 Run `python3 build.py` in this folder. It reads the entry folder by default and regenerates `collection.json` (derived compatibility/export data; do not edit), `index.html` (bilingual contents article), `reader.html` (stable hash entry point) and `sayings/POD-DHAGA-NNN.html` (one complete saying per static page). All reading pages and previous/next navigation work without JavaScript; index search needs JavaScript. Print the contents article for every bilingual short reading, or an individual page for its full reading and sources. Run `python3 -m unittest test_repository test_source_inventory` to check the source folder, generated pages, navigation, rights references and offline assets. No source facsimiles are bundled.
 
@@ -131,6 +131,10 @@ The crisis-vow saying retains one untranslated noun, and the opening of the devo
 
 ## Cultural reading edition · 26 October 2026
 
-The current edition uses a new portrait cover and a bilingual introduction about language, everyday judgement and living away from Odisha. The first-person opening follows the Founder’s account of 35 years outside Odisha. All 159 Odia explanations have been expanded and separately AI reviewed. The revised book contains 90 pages; publication status belongs to the dated delivery record.
+The 26 October edition uses a new portrait cover and a bilingual introduction about language, everyday judgement and living away from Odisha. The first-person opening follows the Founder’s account of 35 years outside Odisha. All 159 Odia explanations have been expanded and separately AI reviewed. The revised book contains 90 pages; publication status belongs to the dated delivery record.
 
 Superseded image working copies are removed from `assets/`. [The archive map](archived-artwork.json) preserves their exact SHA256 hashes, Git blobs and immutable links to commit21a471da. Historical evidence paths describe those earlier editions and resolve through this map; they are not missing current illustrations. Active entry art, decorative motifs and font licences remain local. No source scan or historical evidence record is removed.
+
+## 30 October 2026: six reviewed additions
+
+The 179-entry edition adds six separately reviewed sayings and idioms, each with a new line illustration and pinned digital witnesses. Entry036 gains a separately worded aunt-and-buffalo parallel without another count. Earlier173 entry bodies and artwork remain unchanged. The original127 concordance still has75 unresolved positions; historical research cursors are unchanged. Exact PDF pagination and publication status are recorded in the dated delivery evidence.
