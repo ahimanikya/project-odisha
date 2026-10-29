@@ -1248,3 +1248,7 @@ A source-labelled 1989 photograph of Pranab Das with Bijay Mohanty and Mihir Das
 ## 28 October 2026 · Reviewed cinema series published
 
 Published all 28 reviewed cinema readings and the two unchanged review book editions after the Founder’s explicit publication request. Required hosted checks passed, followed by successful deployment and live verification of 31 routes, 34 images and both PDF downloads. A lossless packaging correction preserved image pixels and metadata. Seven editorial audit findings remain open and one partial, as disclosed before publication. [Publication record](../records/cinema-publication-2026-10-28.json).
+
+## 28 October 2026 · Introduction wording published
+
+Published the author’s exact sentence describing the research as a book and a series of articles, alongside the Poet Studio description. Required checks and deployment passed, and both corrections were verified on the live introduction. The dated PDF editions remain unchanged. [Publication record](../records/cinema-poet-studio-wording-2026-10-28.json).
