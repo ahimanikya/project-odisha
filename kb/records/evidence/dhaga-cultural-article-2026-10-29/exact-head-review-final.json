@@ -1,0 +1,38 @@
+{
+  "review_type": "separate AI incremental exact-head review",
+  "decision": "PASS_WITH_LIMITATIONS",
+  "input_head": "092d2f6356f77f1c92bd2fa94fc978c49cb9a141",
+  "previous_approved_head": "790c4dc579621bcda9d5c80e5647c320a218b581",
+  "original_base": "d0d00e533f4448968d62e303947d28157a23cd55",
+  "reviewed_at": "2026-10-29T03:33:25.605093+00:00",
+  "prior_review": {
+    "path": "exact-head-review.json",
+    "sha256": "5501122dfe2f00a4c64c0fbeb291857b75ec970f2aaca21dfa7f9df492f09000",
+    "preserved": true
+  },
+  "blocking_findings": [],
+  "delta": {
+    "files": {
+      "kb/catalog.json": "8e9452b60ea9a6ad41d0b6213d8f04f605c10fe11c6032f5f9c21a16d19755f5",
+      "kb/reference/public-website-routes.json": "f066a680aaa75758bfbd43c2b8c51a5c31af3bb3893ba131152b9aa4dfcc442e",
+      "kb/research/culture/odia-dhaga.md": "9b0e97e5bb47a30438d8971e072aaf38db27ca0eb6d24164021c16752ecd4e51"
+    },
+    "impact": "Catalog registration and matching route inventory only; article adds Cultural essay frontmatter type. Exact article content after removing that one metadata line equals previous approved bytes. Site code, book, artwork, PDF, portable catalog, rights and claims have no delta.",
+    "catalog": "Exactly one new concept; all prior records preserved.",
+    "routes": "Exactly /stories/odia-dhaga/ appended; all other fields and routes preserved."
+  },
+  "checks_actually_run": [
+    "git exact-head and three-file diff inspection",
+    "Programmatic metadata-only article equality; prior catalog/route record preservation",
+    "python3 tools/catalog.py --check: PASS1842 concepts",
+    "python3 tools/check_bundle.py: PASS1842 concepts/7810local links/no errors",
+    "git diff --check790c4dc5..HEAD: PASS"
+  ],
+  "ci_context": "Coordinator reported40809600440 failed stale KB catalog; this correction directly supplies missing type/registration and matching route inventory. A new remote CI result is still required.",
+  "limits": [
+    "Prior detailed source/code/browser review retained for unchanged implementation.",
+    "No full/coastal suites repeated for this metadata-only delta. Coordinator reports register/rollout/team/programme checks; these were not rerun by this reviewer.",
+    "Separate AI review; no human review, merge, deployment or live publication claim.",
+    "Only this output review file written."
+  ]
+}

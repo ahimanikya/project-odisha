@@ -13293,15 +13293,26 @@
       "id": "POD-EDIT-DHAGA-CULTURAL-20261029",
       "route": "/stories/odia-dhaga/",
       "title": "The Poetry We Speak: Why Odia Dhaga Matter",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "Reviewed Founder essay connecting everyday Dhaga literary form and cultural transmission; shared reader header/footer integration. No new saying or programme credit.",
       "source_template": "projects/site/src/pages/stories/odia-dhaga.astro",
-      "checks": {},
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
       "evidence": [
-        "records/dhaga-cultural-article-team-2026-10-29.json"
+        "records/dhaga-cultural-article-team-2026-10-29.json",
+        "records/dhaga-cultural-article-publication-2026-10-29.json"
       ],
       "blocker": null,
-      "started_at": "2026-10-29T01:30:05Z"
+      "started_at": "2026-10-29T01:30:05Z",
+      "completed_at": "2026-10-29T04:53:01.920627+00:00",
+      "publication_receipt": "records/dhaga-cultural-article-publication-2026-10-29.json"
     }
   ]
 }

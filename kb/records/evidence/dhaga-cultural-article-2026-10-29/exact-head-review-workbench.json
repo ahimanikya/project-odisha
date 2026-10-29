@@ -1,0 +1,33 @@
+{
+  "review_type": "separate AI incremental exact-head review",
+  "decision": "PASS_WITH_LIMITATIONS",
+  "input_head": "4853deedfc6b00daab0e4af6012506d194f391df",
+  "base": "092d2f6356f77f1c92bd2fa94fc978c49cb9a141",
+  "blocking_findings": [],
+  "delta": {
+    "only_file": "kb/records/editorial-workbench.json",
+    "file_sha256": "59006621407a162cf137c8cd02e4e497d0a6adc452a836e48ad070b7b9e696ab",
+    "only_changed_field": "inputs.projects/site/editions/coast.json",
+    "old": "6734a5d276676320f75e3c350f5fdc698ea3f39dff98faf6c26aa6e6591c6e36",
+    "new": "e58428a8dd990829916b9181b2873d175104e4f1a9c96011edb69eddd6036cfe",
+    "actual_coast_hash_matches": true,
+    "all_other_fields_equal": true
+  },
+  "checks_actually_run": [
+    "Exact one-file git diff; programmatic single-field equality and current coast SHA256 verification",
+    "python3 tools/editorial/build_workbench.py --check: PASS500 frozen records",
+    "python3 -m unittest discover -s tools/editorial -p test_workbench.py:6/6PASS",
+    "git diff --check092d2f63..HEAD:PASS"
+  ],
+  "prior_review": {
+    "path": "exact-head-review-final.json",
+    "sha256": "92f74b1a2c82de46a6a653d760953cb21c771b91d1881931e456f395b778847a",
+    "unchanged_implementation_approval_retained": true
+  },
+  "impact": "Generated source fingerprint repair only; no source/config/content/record payload changes, site code or book changes.",
+  "limits": [
+    "No JavaScript test pass claimed in this incremental review.",
+    "Remote CI must rerun; no merge/deployment/live claim.",
+    "Separate AI review; only output report written."
+  ]
+}
