@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 846. completed: 131, excluded: 413, queued: 302.
+Route inventory: 852. completed: 131, excluded: 419, queued: 302.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -867,3 +867,12 @@ Route inventory: 846. completed: 131, excluded: 413, queued: 302.
 | POD-EDIT-20261033 | [ଅଖା ଧୋଉଥିବୁ ଗୁଣ ଗାଉଥିବୁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-177.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-20261034 | [ମୂଳପୋଛ କରିବା](https://projectodisha.org/dhaga/sayings/pod-dhaga-178.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-20261035 | [ଖୁଣ୍ଟ ଗୁଣେ ଘୋଡା କୁଦେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-179.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-20261036 | [କଥା ରହିୟିବ କାଳକାଳକୁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-180.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-20261037 | [ତୋର ମୋର ରାଜି, କିସ କରିବ କାଜି](https://projectodisha.org/dhaga/sayings/pod-dhaga-181.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-20261038 | [ବାଟିଏ ଚାଷ, ନୀତି ଉପାସ](https://projectodisha.org/dhaga/sayings/pod-dhaga-182.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-20261039 | [ଧୀର ସ୍ଥିର ନୋହି ଉତ୍ତେଜିତ ହେଲେ
+କାର୍ଯ୍ୟ କେବେ ସିଦ୍ଧ ନୁହେଁ ।
+ଧୀରପାଣି ସିନା ପଥର କାଟଇ
+ସ୍ରୋତ ତହିଁ ବ୍ୟର୍ଥ ହୁଏ  ॥](https://projectodisha.org/dhaga/sayings/pod-dhaga-183.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-20261040 | [ଆପେ ବଞ୍ଚିଲେ ବାପର ନାଆଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-184.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-20261041 | [ଜାଣି ଘୋଡ଼ାର ଶିଙ୍ଗ ନାହିଁ, ଶିଙ୍ଗ ଥିଲେ ଘୋଡ଼ା ରଖନ୍ତା ନାହିଁ ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-185.html) | excluded | standalone_dhaga_collection |

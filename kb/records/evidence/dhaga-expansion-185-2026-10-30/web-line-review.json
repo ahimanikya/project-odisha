@@ -1,0 +1,33 @@
+{
+  "review_type": "separate AI bounded code review",
+  "status": "PASS",
+  "input_head": "1b81b550c785bfd776c948ca9aada5dc62f6563a",
+  "working_candidate": true,
+  "file_hashes": {
+    "build.py": "a47aab04821346a696be9cf986fe16d02c51ca5ed161e9d20309c58ead0826ef",
+    "test_repository.py": "31e09c462bba7d10ad5b314c5fa34d5fb5cde34422e1422017bf248eca1a3533",
+    "collection.json": "279fdfe1b4f3ca653f34792e8a37f792f5253d44c72ea5156b2cce706eb57067",
+    "index.html": "20daa5707f60876c6ee0ecbe140712c01e48b0c6b2949f860028c4f8a62904fb",
+    "odia-dhaga-book.pdf": "030dc508ca71b4343bbe1053b90f05ea411ce116b2348e7a9a44f79b7f5ffc37"
+  },
+  "samanta_sha256": "a34f4835e0349c785614c9deae58650959f099d38668b47cd3d974d0a3b7fd36",
+  "checks": [
+    "Reviewed exact builder/test diff: escape source first, insert br only for newline, only source h2 render sites changed.",
+    "All185 exact escaped newline-preserving headings independently asserted in generated index and individual readings.",
+    "Prior179 entry files byte-equal baseline1b81b550; approved PDF030dc508 unchanged.",
+    "Focused regression passed1/1 including hostile img markup/ampersand escaping, all185 heading and summary assertions."
+  ],
+  "findings": [
+    "183 web line-divisions blocker resolved. No source normalization or unescaped markup introduced. Existing source paragraph whitespace intentionally preserved."
+  ],
+  "blocking_findings": [],
+  "test_history": [
+    "Initial guessed test_library_index method absent; corrected actual method passed.",
+    "Initial extra assertion incorrectly expected source h2 in navigation-only reader.html; removed after inspecting reader role. Index/individual reading assertions then passed."
+  ],
+  "limits": [
+    "No new browser viewport check; final site/CI/live gates remain parent responsibility.",
+    "19-test full suite passed per Samanta, not independently rerun here.",
+    "No human linguistic certification or new rights clearance."
+  ]
+}
