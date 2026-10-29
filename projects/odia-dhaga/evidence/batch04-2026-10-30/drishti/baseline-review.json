@@ -1,0 +1,1755 @@
+{
+  "review_type": "separate AI reviewer baseline preparation",
+  "status": "BASELINE_READY_CANDIDATE_REVIEW_PENDING",
+  "input_head": "94caa729ad0d9786815727e0209bfe45fd9516de",
+  "assigned_head": "94caa729ad0d9786815727e0209bfe45fd9516de",
+  "baseline_file_checks": {
+    "projects/odia-dhaga/collection.json": true,
+    "projects/odia-dhaga/coverage-ledger.json": true,
+    "kb/team/operations.json": true
+  },
+  "baseline_hashes": {
+    "projects/odia-dhaga/collection.json": "79564f8f4e2fd2586763405de330ac58a1883eee86acc068c5af53c0cda294e0",
+    "projects/odia-dhaga/coverage-ledger.json": "015629a686f7295d99983be32d724ad0df5483d0dac509b71134930d473e63b5",
+    "kb/team/operations.json": "61bc03236b5bbb2ff0e360230258b2be06b5ab146045d0f278eb082f8610d4c3"
+  },
+  "entry_count": 179,
+  "unique_ids": 179,
+  "source_records": 77,
+  "prior_batch_bindings": {
+    "batch01/reviewed-candidates.json": "b9549fb842757d3ccd7a1fb4113f60c2797acf73e198fbdfb2bdc85884391600",
+    "batch02/reviewed-candidates.json": "c117ad339483837e305a385e0474da602637879208b33a301af364886256a221",
+    "batch03/candidate-bundle.json": "89a34734164016101b5abb6f4f6dd949ac72b18557779594690949ce06580077",
+    "batch01/anvesha.json": "340b4097de7ab3c3b725af4a6f58163ea013f11bc5f6fba116aa3b4708776a00",
+    "batch01/samanta.json": "1b6725f53427651ecf4fb0c119ef6bed1fdf6cb70e6310a015c2ee9836f7929a",
+    "batch02/anvesha.json": "7c330e79ffc956716d8a6a0b163499a564f2c36e4c05b9c6ae559a8fd41f7293",
+    "batch02/samanta.json": "7e0ae2944eafbe27ab0e23c60ae5568670ca063b9e4340b57091b871411e5d28"
+  },
+  "prior_twenty_installed_crosswalk": [
+    {
+      "batch": "batch01",
+      "candidate_key": "batch01-samanta-food",
+      "odia": "ଆହାରେ ଭଲ ମନ୍ଦ ନାହିଁ,\n ଯେ ସ୍ଥାନେ ଯେବଣ ମିଳଇ ।",
+      "installed_id": "POD-DHAGA-160"
+    },
+    {
+      "batch": "batch01",
+      "candidate_key": "batch01-samanta-learning",
+      "odia": "ବିଦ୍ୟା ଅଟଇ ମହାଧନ \nବାଳକେ କର ଉପାର୍ଜନ ।",
+      "installed_id": "POD-DHAGA-161"
+    },
+    {
+      "batch": "batch01",
+      "candidate_key": "batch01-samanta-home",
+      "odia": "ବୈକୁଣ୍ଠ ସମାନ ଆହା ଅଟେ ସେହି ଘର, \n ପରସ୍ପର ସ୍ନେହ ଯହିଁ ଥାଏ ନିରନ୍ତର ।",
+      "installed_id": "POD-DHAGA-162"
+    },
+    {
+      "batch": "batch01",
+      "candidate_key": "batch01-samanta-mortality",
+      "odia": "ମର୍ତ୍ୟ ମଣ୍ଡଳେ ଦେହ ବହି\nଦେବତା ହୋଇଲେ ମରଇ ।",
+      "installed_id": "POD-DHAGA-163"
+    },
+    {
+      "batch": "batch01",
+      "candidate_key": "batch01-samanta-harm",
+      "odia": "ଯେ ପାଞ୍ଚେ ପର ର ମନ୍ଦ\nତା ମନ୍ଦ ପାଞ୍ଚନ୍ତି ଗୋବିନ୍ଦ ।",
+      "installed_id": "POD-DHAGA-164"
+    },
+    {
+      "batch": "batch02",
+      "candidate_key": "anvesha-b02-01",
+      "odia": "ଲୁହା କୋଚଟ କୁ କମାର କୋଚଟ",
+      "installed_id": "POD-DHAGA-165"
+    },
+    {
+      "batch": "batch02",
+      "candidate_key": "anvesha-b02-02",
+      "odia": "ଚଇତା ! ତବତ ଖାଇବୁ କି ପଖାଳ ଖାଇବୁ ବେଳ ଥାଉଁ ଥାଉଁ କହିଥା",
+      "installed_id": "POD-DHAGA-166"
+    },
+    {
+      "batch": "batch02",
+      "candidate_key": "anvesha-b02-03",
+      "odia": "ଦିହ ରଖି ଧର୍ମ କର",
+      "installed_id": "POD-DHAGA-167"
+    },
+    {
+      "batch": "batch02",
+      "candidate_key": "anvesha-b02-04",
+      "odia": "ନାଚିଲା ଲୋକକୁ ଲାଜ ନାହିଁ ଦେଖିଲା ଲୋକକୁ ଲାଜ",
+      "installed_id": "POD-DHAGA-168"
+    },
+    {
+      "batch": "batch02",
+      "candidate_key": "anvesha-b02-05",
+      "odia": "ବାର ହାତ କାକୁଡ଼ିର ତେର ହାତ ମଞ୍ଜି",
+      "installed_id": "POD-DHAGA-169"
+    },
+    {
+      "batch": "batch02",
+      "candidate_key": "anvesha-b02-06",
+      "odia": "ନଈ ଶୁଖିଲେ କି କରଇ ନାଆ",
+      "installed_id": "POD-DHAGA-170"
+    },
+    {
+      "batch": "batch02",
+      "candidate_key": "anvesha-b02-07",
+      "odia": "ଦେଉଳକୁ ମୁକୁଶିଆଳି ବିଳିଯିବା ନ୍ୟାୟ",
+      "installed_id": "POD-DHAGA-171"
+    },
+    {
+      "batch": "batch02",
+      "candidate_key": "batch02-samanta-apai",
+      "odia": "ଅପାଇ ପାଇଚି ପିଲା,\nନା ଗାଁ ଯାକ କିଲିବିଲା...!!!",
+      "installed_id": "POD-DHAGA-172"
+    },
+    {
+      "batch": "batch02",
+      "candidate_key": "batch02-samanta-cat",
+      "odia": "ଚୂଲିମୂଳେ ନହୁଣିଆ ପାରୁଥିବ ବିଲେଇ...\nପୁଅ ଦେଖଉଚି ନୁଖୁରା ବଡ଼େଇ...!!",
+      "installed_id": "POD-DHAGA-173"
+    },
+    {
+      "batch": "batch03",
+      "candidate_key": "batch03-anvesha-01",
+      "odia": "ବୁଡ଼ି କରି ପାଣି ପିଇଲେ ମହାଦେବଙ୍କ ବାପା ମଧ୍ୟ ଜାଣି ପରିବେ ନାହିଁ",
+      "installed_id": "POD-DHAGA-174"
+    },
+    {
+      "batch": "batch03",
+      "candidate_key": "batch03-anvesha-02",
+      "odia": "ପୁତୁରା ସାଙ୍ଗରେ କଳି କଲି, ମହୁର ତିଅଣରୁ ମେଞ୍ଚାଏ ପାଆନ୍ତି, ତୁଣ୍ଡ ପରସାଦୁଁ ନାଶ ଗଲି",
+      "installed_id": "POD-DHAGA-175"
+    },
+    {
+      "batch": "batch03",
+      "candidate_key": "batch03-anvesha-03",
+      "odia": "କାମ ପଡ଼ିଲେ କାଜି, କାମ ଛାଡ଼ିଲେ ପାଜି",
+      "installed_id": "POD-DHAGA-176"
+    },
+    {
+      "batch": "batch03",
+      "candidate_key": "samanta-b03-01",
+      "odia": "ଅଖା ଧୋଉଥିବୁ ଗୁଣ ଗାଉଥିବୁ",
+      "installed_id": "POD-DHAGA-177"
+    },
+    {
+      "batch": "batch03",
+      "candidate_key": "samanta-b03-03",
+      "odia": "ମୂଳପୋଛ କରିବା",
+      "installed_id": "POD-DHAGA-178"
+    },
+    {
+      "batch": "batch03",
+      "candidate_key": "samanta-b03-05",
+      "odia": "ଖୁଣ୍ଟ ଗୁଣେ ଘୋଡା କୁଦେ",
+      "installed_id": "POD-DHAGA-179"
+    }
+  ],
+  "ledger_snapshot": {
+    "schema_version": 1,
+    "checked_on": "2026-10-25",
+    "unique_explained_entries": 179,
+    "unique_count_basis": "Editorially distinct saying records; historical variants and repeated witnesses do not add to this count.",
+    "entries_with_located_historical_versions": [
+      "POD-DHAGA-001",
+      "POD-DHAGA-011",
+      "POD-DHAGA-012"
+    ],
+    "human_proofread_entries": 0,
+    "sources": [
+      {
+        "source_id": "dhaga-rath1893",
+        "url": "https://archive.org/details/dhagamalika-1893",
+        "status": "inspected historical scan",
+        "rights": "Publicly accessible scan from Srujanika/Odia Bibhaba, uploaded2024. No rights field in inspected IA metadata. Underlying1893 text is a strong public-domain candidate, but publisher-only credit means author identification still unresolved; this report does not certify worldwide public-domain status. Digital watermark is provenance, not reuse licence.",
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "total_pdf_pages": 19,
+        "title_pdf_pages_inspected": [
+          1
+        ],
+        "text_pdf_pages_targeted_inspection": [
+          2,
+          3,
+          4,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "next_full_transcription_pdf_page": 2,
+        "accepted_entry_ids": [
+          "POD-DHAGA-001",
+          "POD-DHAGA-011",
+          "POD-DHAGA-012"
+        ],
+        "uncertain_candidates": [
+          "Possible earning/appetite variant on PDF4; exact second half unresolved.",
+          "PDF6/printed5 bodyline2 bull saying may be a historical witness of existing POD-DHAGA-002; independent AI comparison only, not accepted exact text or a new entry."
+        ],
+        "pdf_pages_draft_attempted": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "draft_segments_attempted": 83,
+        "draft_segments_accepted_as_new_entries": 0,
+        "research_draft": "../../kb/research/folklore/odia-dhaga-1893-page2-transcription-2026-10-23.json",
+        "independent_ai_review": "../../kb/research/folklore/odia-dhaga-1893-page2-review-2026-10-23.json",
+        "next_page_to_attempt": null,
+        "next_action": "Reached the end of the available19-page PDF: PDF19 is an uncaptioned illustration, not proverb text. No PDF20 target. This does not complete transcription or human review; full-transcription cursor remains2 and earlier uncertainties remain open. For separate-source coverage, first verify the1926 edition/creator roles and exact page inventory before extraction.",
+        "page_drafts": [
+          {
+            "pdf_page": 2,
+            "segments_attempted": 10,
+            "transcription": "../../kb/research/folklore/odia-dhaga-1893-page2-transcription-2026-10-23.json",
+            "ai_review": "../../kb/research/folklore/odia-dhaga-1893-page2-review-2026-10-23.json"
+          },
+          {
+            "pdf_page": 3,
+            "segments_attempted": 21,
+            "transcription": "../../kb/research/folklore/odia-dhaga-1893-page3-transcription-2026-10-23.json",
+            "ai_review": "../../kb/research/folklore/odia-dhaga-1893-page3-review-2026-10-23.json"
+          },
+          {
+            "pdf_page": 4,
+            "segments_attempted": 18,
+            "status": "reviewed_provisional_checkpoint_merged",
+            "transcription": "../../kb/research/folklore/odia-dhaga-1893-page4-transcription-2026-10-23.json",
+            "ai_review": "../../kb/research/folklore/odia-dhaga-1893-page4-review-2026-10-23.json",
+            "delivery_pull_request": "https://github.com/ahimanikya/project-odisha/pull/467"
+          },
+          {
+            "pdf_page": 5,
+            "segments_attempted": 18,
+            "status": "reviewed_provisional_checkpoint_merged",
+            "transcription": "../../kb/research/folklore/odia-dhaga-1893-page5-transcription-2026-10-23.json",
+            "ai_review": "../../kb/research/folklore/odia-dhaga-1893-page5-review-2026-10-23.json",
+            "delivery_pull_request": "https://github.com/ahimanikya/project-odisha/pull/467"
+          },
+          {
+            "pdf_page": 6,
+            "segments_attempted": 16,
+            "status": "reviewed_provisional_checkpoint_merged",
+            "transcription": "../../kb/research/folklore/odia-dhaga-1893-page6-transcription-2026-10-23.json",
+            "ai_review": "../../kb/research/folklore/odia-dhaga-1893-page6-review-2026-10-23.json",
+            "delivery_pull_request": "https://github.com/ahimanikya/project-odisha/pull/469"
+          }
+        ],
+        "duplicate_witnesses_identified": [
+          {
+            "segment_id": "dhaga-rath1893-pdf003-s08",
+            "existing_entry_id": "POD-DHAGA-001",
+            "count_effect": 0
+          },
+          {
+            "segment_id": "dhaga-rath1893-pdf004-s16",
+            "existing_entry_id": "POD-DHAGA-012",
+            "count_effect": 0
+          }
+        ],
+        "draft_count_caution": "Tentative punctuation and layout segments, not verified unique sayings. Short vocative openings on PDF5 may belong to following passages; semantic boundaries remain unresolved.",
+        "targeted_page7_inspection_report": "evidence/dhaga1893-page7-inspection.json",
+        "targeted_page8_inspection_report": "evidence/dhaga1893-page8-inspection.json",
+        "targeted_page9_inspection_report": "evidence/dhaga1893-page9-research.json",
+        "targeted_page9_ai_review": "evidence/dhaga1893-page9-review.json",
+        "targeted_page10_inspection_report": "evidence/dhaga1893-page10-research.json",
+        "targeted_page10_ai_review": "evidence/dhaga1893-page10-review.json",
+        "targeted_page11_inspection_report": "evidence/dhaga1893-page11-research.json",
+        "targeted_page11_ai_review": "evidence/dhaga1893-page11-review.json",
+        "targeted_page12_inspection_report": "evidence/dhaga1893-page12-research.json",
+        "targeted_page12_ai_review": "evidence/dhaga1893-page12-review.json",
+        "targeted_page13_inspection_report": "evidence/dhaga1893-pages13-15-research.json",
+        "targeted_page13_ai_review": "evidence/dhaga1893-pages13-15-review.json",
+        "targeted_page14_inspection_report": "evidence/dhaga1893-pages13-15-research.json",
+        "targeted_page14_ai_review": "evidence/dhaga1893-pages13-15-review.json",
+        "targeted_page15_inspection_report": "evidence/dhaga1893-pages13-15-research.json",
+        "targeted_page15_ai_review": "evidence/dhaga1893-pages13-15-review.json",
+        "targeted_page16_inspection_report": "evidence/dhaga1893-page16-research.json",
+        "targeted_page16_ai_review": "evidence/dhaga1893-page16-review.json",
+        "targeted_page17_inspection_report": "evidence/dhaga1893-page17-research.json",
+        "targeted_page17_ai_review": "evidence/dhaga1893-page17-review.json",
+        "targeted_page18_inspection_report": "evidence/dhaga1893-page18-research.json",
+        "targeted_page18_ai_review": "evidence/dhaga1893-page18-review.json",
+        "nontext_pdf_pages_inspected": [
+          19
+        ],
+        "targeted_page19_inspection_report": "evidence/dhaga1893-page19-research.json",
+        "targeted_page19_ai_review": "evidence/dhaga1893-page19-review.json"
+      },
+      {
+        "source_id": "dhaga-praharaj-pitambari1926",
+        "url": "https://archive.org/details/dhagadhamali-bachana-v01-1926",
+        "status": "inspected historical scan",
+        "rights": "Access confirmed, rights metadata absent. Do not determine copyright from Praharaj death alone: Pitambari Debi credit requires separate role/death research. A separate1990 reprint identifier exists and must not be conflated with this edition.",
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "total_pdf_pages": 259,
+        "inspection": "Earlier PDF1–12 checkpoint: PDF1 title page and PDF2–12 introductory prose independently visually inspected at page-inventory level. PDF7–12 remain prefatory prose, including embedded examples rather than a standalone numbered proverb list; no body-opening boundary established. PDF3 and PDF5 visually repeat material; scan/printed sequence still needs checking. Provisional printed numerals5–10 on PDF7–12 do not resolve that earlier uncertainty. No full transcription or human review is recorded. Creator-role and rights questions remain unresolved. Later PDF13–60 inventory supersedes the earlier boundary uncertainty:48 pages overviewed and37 individually inspected full renders; prefatory ending28, notation key29–30, numbered body opening31. These are inventory observations, not complete transcription. Repeated material56/58 and57/59 requires sequence-aware deduplication. Creator roles and rights remain unresolved. Additional PDF61–66 full-render inventory: numbered body continues through61–65; PDF66 shows an ornamental divider and new ଓ section with numbering reset. Faded numerals and damaged glyphs remain unresolved; no full transcription or acceptance. Additional PDF67–72 full-render inventory: ଓ section continues67–68 with a terminal ornament; PDF69 begins centered କ with section-local numbering reset, continuing70–72. Damaged glyphs and numerals remain provisional. No complete transcription or acceptance. Additional PDF73–78 full-render inventory: କ section continues throughout, with short numbered formulations, variants and extended bracketed notes. No new section heading or reset observed; numerals and damaged glyphs remain provisional. No complete transcription or acceptance. Additional PDF79–84 full-render inventory: numbered କ material continues throughout without an observed new alphabet heading or numbering reset. Short formulations alternate with variants and bracketed explanations. Strong fading and right-edge damage on several pages leave glyphs and printed numbers provisional; no full transcription or acceptance. Additional PDF85–90 full-render inventory: numbered କ material continues throughout, including short formulations, variants and longer bracketed explanations. PDF85 opens with apparent continuation text; PDF90 ends with an ornament, but no subsequent alphabet heading is visible in this range. Faded or cropped numerals and line endings remain provisional. No full transcription or acceptance. Additional PDF91–96 full-render inventory: PDF91 visibly begins centered ଖ with section-local numbering restart; PDF92–94 continue that section. PDF95 has two upper entries followed by an ornamental divider and centered ଗ with a new numbering restart; PDF96 continues ଗ. Fading, left numeral abrasion and cropped right endings leave wording and numerical locators provisional. No full transcription or acceptance. Additional PDF97–102 full-render inventory: numbered ଗ material continues without an observed new alphabet heading or numbering reset. PDF102 opens with continuation from PDF101; expressions, variants and bracketed notes remain partly faded or edge-damaged. Provisional numerals are retrieval locators, not certified transcription or acceptance.",
+        "next_action": "After independent review and integration of PDF97–102 inventory, continue inventory at PDF103. Full-transcription cursor remains31; prior scan repetition, creator-role and rights uncertainties remain unresolved.",
+        "title_pdf_pages_inspected": [
+          1
+        ],
+        "frontmatter_pdf_pages_targeted_inspection": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "next_page_to_attempt": 103,
+        "frontmatter_pages1_6_inspection_report": "evidence/dhaga1926-frontmatter-pages1-6-research.json",
+        "frontmatter_pages1_6_ai_review": "evidence/dhaga1926-frontmatter-pages1-6-review.json",
+        "frontmatter_pages7_12_inspection_report": "evidence/dhaga1926-frontmatter-pages7-12-research.json",
+        "frontmatter_pages7_12_ai_review": "evidence/dhaga1926-frontmatter-pages7-12-review.json",
+        "inventory_pdf_pages_overviewed": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102
+        ],
+        "inventory_pdf_pages_full_render_inspected": [
+          13,
+          14,
+          21,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102
+        ],
+        "numbered_body_opening_pdf_page": 31,
+        "next_full_transcription_pdf_page": 31,
+        "inventory13_60_evidence": {
+          "report.json": {
+            "path": "evidence/1926-inventory13-60-2026-10-25/report.json",
+            "sha256": "5a8831c0037d58316f8a78cf7303cb5c5929f2eb02f0d00d90ee54a2cd97784c"
+          },
+          "pageinventory.json": {
+            "path": "evidence/1926-inventory13-60-2026-10-25/pageinventory.json",
+            "sha256": "881fbc1552d6e71fc63b60ff60565db37da3e7b1120b28f1d5fd0c930c7fda23"
+          },
+          "candidates.json": {
+            "path": "evidence/1926-inventory13-60-2026-10-25/candidates.json",
+            "sha256": "071061bf8d8e31446ce7daf9c344b5f418cc70f0fa2aeb834c74aacafd297817"
+          },
+          "anvesha.json": {
+            "path": "evidence/1926-inventory13-60-2026-10-25/anvesha.json",
+            "sha256": "51fb94be5f719466c601736870e08c5c5533830677403881b160adfa94a311f7"
+          },
+          "samanta.json": {
+            "path": "evidence/1926-inventory13-60-2026-10-25/samanta.json",
+            "sha256": "29ae4ff49a086136aae20692391fcb113d31cf7175a979d3fb965e1dcb98b558"
+          },
+          "drishti.json": {
+            "path": "evidence/1926-inventory13-60-2026-10-25/drishti.json",
+            "sha256": "2b73945ab0b5e301709aee5b16828d6837f4364d9afe68c8cb6be12f7a5ad055"
+          },
+          "proposed-ledger-delta.json": {
+            "path": "evidence/1926-inventory13-60-2026-10-25/proposed-ledger-delta.json",
+            "sha256": "442131254c000f763ddd5a9084b9907a74d91f4678d710eb2d72f8c0d0f851a0"
+          }
+        },
+        "inventory13_60_review_limit": "Separate AI review confirms inventory boundaries; nine provisional readings:seven provisionally confirmed,one correction andone deferral. Consult anvesha.json before reusing original candidates.json. All38 candidates unaccepted; no human review or completed transcription.",
+        "inventory61_66_evidence": {
+          "anvesha.json": {
+            "path": "projects/odia-dhaga/evidence/1926-pages61-66-2026-10-26/anvesha.json",
+            "sha256": "94f72a75d33478dad0672537af3ca1a6609472e3c00a77a98a09df16a9871e15"
+          },
+          "samanta.json": {
+            "path": "projects/odia-dhaga/evidence/1926-pages61-66-2026-10-26/samanta.json",
+            "sha256": "19a102e0183ad506a260d2bd95b0fe39c2743117620c9ff3154a157e231033e0"
+          },
+          "drishti.json": {
+            "path": "projects/odia-dhaga/evidence/1926-pages61-66-2026-10-26/drishti.json",
+            "sha256": "8177a54a881bf8596f386baa1958618a072bf977a721bfba5896382f4377ea56"
+          },
+          "proposed-ledger-delta.json": {
+            "path": "projects/odia-dhaga/evidence/1926-pages61-66-2026-10-26/proposed-ledger-delta.json",
+            "sha256": "e3c5b6db8af78856e813b0b0c50c55e9defbb4b535944a6e29fb13d28ee7f617"
+          }
+        },
+        "inventory67_72_evidence": {
+          "anvesha.json": {
+            "path": "projects/odia-dhaga/evidence/1926-pages67-72-2026-10-26/anvesha.json",
+            "sha256": "5b3a5d03b33a59aa2ab0c51d72e50cc96895ef61b0e5df369db55132206a395c"
+          },
+          "samanta.json": {
+            "path": "projects/odia-dhaga/evidence/1926-pages67-72-2026-10-26/samanta.json",
+            "sha256": "92242047a8d0f281f31b9dafd32e259d7e13dea4cfffdafa6b43742a97c139c0"
+          },
+          "drishti.json": {
+            "path": "projects/odia-dhaga/evidence/1926-pages67-72-2026-10-26/drishti.json",
+            "sha256": "4584e240617f6b2dc9e767d5aebd258b044c8d1c6805bd981c8d2d31e6841d10"
+          },
+          "proposed-ledger-delta.json": {
+            "path": "projects/odia-dhaga/evidence/1926-pages67-72-2026-10-26/proposed-ledger-delta.json",
+            "sha256": "3a8d24437f8caea3f3c1e963497c70dfc333cfb885464a3448de1b17ef853487"
+          }
+        },
+        "inventory73_78_evidence": {
+          "anvesha.json": {
+            "path": "projects/odia-dhaga/evidence/1926-pages73-78-2026-10-26/anvesha.json",
+            "sha256": "310cbaec2e6c046b0a6845287ab2c9b41c97bd004a7652791d89542cb2179375"
+          },
+          "samanta.json": {
+            "path": "projects/odia-dhaga/evidence/1926-pages73-78-2026-10-26/samanta.json",
+            "sha256": "a9efa1b9fda61855819ae56f54b6ba02e8ef6498965523e6cee8136e39827ca1"
+          },
+          "drishti.json": {
+            "path": "projects/odia-dhaga/evidence/1926-pages73-78-2026-10-26/drishti.json",
+            "sha256": "44e2a8446f63bf5c0c9bc858609dd53a969639d43114e94ec71111389325c1d1"
+          },
+          "proposed-ledger-delta.json": {
+            "path": "projects/odia-dhaga/evidence/1926-pages73-78-2026-10-26/proposed-ledger-delta.json",
+            "sha256": "add4d73c7dc202bf7f82c10bba0075dd8e2765eb2b8c7e8794c494939e95e6ff"
+          }
+        },
+        "inventory79_84_evidence": {
+          "anvesha.json": {
+            "path": "projects/odia-dhaga/evidence/1926-pages79-84-2026-10-26/anvesha.json",
+            "sha256": "cece12253cef5c434c10ffd83e05279e9c7c25dc286c3bd1730ec52ac5d7ca6f"
+          },
+          "samanta.json": {
+            "path": "projects/odia-dhaga/evidence/1926-pages79-84-2026-10-26/samanta.json",
+            "sha256": "164e506de9712456ac5eb76ef68076f57e057a2c04ab35a849cd6c859943bb4f"
+          },
+          "drishti.json": {
+            "path": "projects/odia-dhaga/evidence/1926-pages79-84-2026-10-26/drishti.json",
+            "sha256": "5e453acaa86af2a7da426a33ad08b93a65e1eb79aa83a24da5cae264015d4e6c"
+          },
+          "proposed-ledger-delta.json": {
+            "path": "projects/odia-dhaga/evidence/1926-pages79-84-2026-10-26/proposed-ledger-delta.json",
+            "sha256": "c9f50015ee486c1a3cd11d0d9fdedf3ed28bee6167677d4fb5d12c0f0681a1cd"
+          }
+        },
+        "inventory85_90_evidence": {
+          "anvesha.json": {
+            "path": "projects/odia-dhaga/evidence/1926-pages85-90-2026-10-26/anvesha.json",
+            "sha256": "1abdfc87fdbf324afc04ca8b2e14938e7e74168650a962f81200257047a9945a"
+          },
+          "samanta.json": {
+            "path": "projects/odia-dhaga/evidence/1926-pages85-90-2026-10-26/samanta.json",
+            "sha256": "2fb137f198fee7d2596f2828768e9709778a76fc5c7494ea1250764d94f24f65"
+          },
+          "drishti.json": {
+            "path": "projects/odia-dhaga/evidence/1926-pages85-90-2026-10-26/drishti.json",
+            "sha256": "d20eb9aa94beeeff6f928bb3508637b7d0101c4afa9eded6a74a59be88218592"
+          },
+          "proposed-ledger-delta.json": {
+            "path": "projects/odia-dhaga/evidence/1926-pages85-90-2026-10-26/proposed-ledger-delta.json",
+            "sha256": "08b3498f554cb76db3cf617039c8df5381a86e1d88986928586ada6aa11cdc4b"
+          }
+        },
+        "inventory91_96_evidence": {
+          "anvesha.json": {
+            "path": "projects/odia-dhaga/evidence/1926-pages91-96-2026-10-26/anvesha.json",
+            "sha256": "307e8839503b9eab1b6603098a589f4f0bda6ae82b6cfdee9784efe67230b6ce"
+          },
+          "samanta.json": {
+            "path": "projects/odia-dhaga/evidence/1926-pages91-96-2026-10-26/samanta.json",
+            "sha256": "be7e3f2f424ca25b64b21dec360b614a3ba8abaee18ba4bdd0f75521c77e4b69"
+          },
+          "drishti.json": {
+            "path": "projects/odia-dhaga/evidence/1926-pages91-96-2026-10-26/drishti.json",
+            "sha256": "db90d56b5ce894f84079516bbe357c1f42f22bddc82366c7837c3be1e60efb5c"
+          },
+          "proposed-ledger-delta.json": {
+            "path": "projects/odia-dhaga/evidence/1926-pages91-96-2026-10-26/proposed-ledger-delta.json",
+            "sha256": "b1dabdcd511503fcd62cb31e379a93825a3385d273801a7d02326bad1ce9abaf"
+          }
+        },
+        "inventory97_102_evidence": {
+          "anvesha.json": {
+            "path": "projects/odia-dhaga/evidence/1926-pages97-102-2026-10-29/anvesha.json",
+            "sha256": "97af448a55723faa69a0fd21015baeb04cd755c928d4ab895b6eefebabc92e45"
+          },
+          "samanta.json": {
+            "path": "projects/odia-dhaga/evidence/1926-pages97-102-2026-10-29/samanta.json",
+            "sha256": "3c5cf480070f35872b6a9bca6cf1dd8b607f013c208227256661e31335c5046a"
+          },
+          "drishti.json": {
+            "path": "projects/odia-dhaga/evidence/1926-pages97-102-2026-10-29/drishti.json",
+            "sha256": "a583c119ae54502dc529c0f47fce2e82b7d46fa0f9db83f65f7c8f7a3fb9378b"
+          },
+          "proposed-ledger-delta.json": {
+            "path": "projects/odia-dhaga/evidence/1926-pages97-102-2026-10-29/proposed-ledger-delta.json",
+            "sha256": "51f144598be88a1e411fd2ac929fde54ba41ef4e5af17f8366b95bfafe91f5f6"
+          }
+        }
+      },
+      {
+        "source_id": "dhaga-doctor2004-bibliography",
+        "url": "https://naklada.ffos.hr/casopisi/index.php/proverbium/article/download/588/380/1682",
+        "status": "research reference",
+        "rights": "Reuse status not established; linked for research, not bulk reproduced.",
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "next_action": "Inspect pending material as access and reuse basis allow; no completed extraction claimed."
+      },
+      {
+        "source_id": "dhaga-praharaj-dsal",
+        "url": "https://dsal.uchicago.edu/dictionaries/praharaj/",
+        "status": "research reference",
+        "rights": "Landing licence links https://creativecommons.org/licenses/by-nc-nd/2.0/ . Public access is not unrestricted adaptation permission. Distinguish historical underlying dictionary from digital edition/data. No dictionary-entry bulk copying undertaken.",
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "next_action": "Inspect pending material as access and reuse basis allow; no completed extraction claimed."
+      },
+      {
+        "source_id": "dhaga-wikiquote-bibidha",
+        "url": "https://incubator.wikimedia.org/w/index.php?title=Wq/or/ବିବିଧ_ଢଗଢମାଳି&oldid=6945232",
+        "status": "licensed contemporary witness",
+        "rights": "Footer links CC BY-SA4.0: https://creativecommons.org/licenses/by-sa/4.0/ . Credit Wikimedia contributors, link exact revision and licence, identify changes, apply compatible share-alike treatment to adapted material. Licensed is not public domain.",
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-001",
+          "POD-DHAGA-002",
+          "POD-DHAGA-003",
+          "POD-DHAGA-004",
+          "POD-DHAGA-005",
+          "POD-DHAGA-006",
+          "POD-DHAGA-007",
+          "POD-DHAGA-008",
+          "POD-DHAGA-011",
+          "POD-DHAGA-012",
+          "POD-DHAGA-013",
+          "POD-DHAGA-014",
+          "POD-DHAGA-015",
+          "POD-DHAGA-016",
+          "POD-DHAGA-017",
+          "POD-DHAGA-018",
+          "POD-DHAGA-019",
+          "POD-DHAGA-020",
+          "POD-DHAGA-021",
+          "POD-DHAGA-022",
+          "POD-DHAGA-027",
+          "POD-DHAGA-028",
+          "POD-DHAGA-029",
+          "POD-DHAGA-030",
+          "POD-DHAGA-031",
+          "POD-DHAGA-032",
+          "POD-DHAGA-033",
+          "POD-DHAGA-034",
+          "POD-DHAGA-038",
+          "POD-DHAGA-039",
+          "POD-DHAGA-040",
+          "POD-DHAGA-041",
+          "POD-DHAGA-042",
+          "POD-DHAGA-045",
+          "POD-DHAGA-046",
+          "POD-DHAGA-047",
+          "POD-DHAGA-051",
+          "POD-DHAGA-052",
+          "POD-DHAGA-053",
+          "POD-DHAGA-061",
+          "POD-DHAGA-062",
+          "POD-DHAGA-063",
+          "POD-DHAGA-067",
+          "POD-DHAGA-068",
+          "POD-DHAGA-069",
+          "POD-DHAGA-070",
+          "POD-DHAGA-072",
+          "POD-DHAGA-158",
+          "POD-DHAGA-159",
+          "POD-DHAGA-172",
+          "POD-DHAGA-173"
+        ],
+        "complete_source_extraction": false
+      },
+      {
+        "source_id": "dhaga-wikiquote-lakshana",
+        "url": "https://incubator.wikimedia.org/w/index.php?title=Wq/or/ଢଗଢମାଳି/ଲକ୍ଷଣାର୍ଥ&oldid=4144125",
+        "status": "licensed contemporary witness",
+        "rights": "CC BY-SA4.0 per linked footer; same attribution/change/share-alike requirements.",
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-009",
+          "POD-DHAGA-010",
+          "POD-DHAGA-023",
+          "POD-DHAGA-024",
+          "POD-DHAGA-025",
+          "POD-DHAGA-026",
+          "POD-DHAGA-037",
+          "POD-DHAGA-044",
+          "POD-DHAGA-054",
+          "POD-DHAGA-055",
+          "POD-DHAGA-056",
+          "POD-DHAGA-058",
+          "POD-DHAGA-059",
+          "POD-DHAGA-060",
+          "POD-DHAGA-064",
+          "POD-DHAGA-065",
+          "POD-DHAGA-066",
+          "POD-DHAGA-157"
+        ],
+        "complete_source_extraction": false
+      },
+      {
+        "source_id": "dhaga-mohanty1991-access",
+        "url": "https://archive.org/details/odia-dhaga-dhamali",
+        "status": "research reference",
+        "rights": "No verified reuse licence; exclude bulk copying. Useful access lead only.",
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "next_action": "Inspect pending material as access and reuse basis allow; no completed extraction claimed."
+      },
+      {
+        "source_id": "dhaga-wiktionary-definition",
+        "url": "https://or.wiktionary.org/w/index.php?title=ଢଗ_ଢମାଳି&oldid=72721",
+        "status": "terminology reference",
+        "rights": "CC BY-SA 4.0 per page footer. Link: https://creativecommons.org/licenses/by-sa/4.0/",
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "next_action": "Inspect pending material as access and reuse basis allow; no completed extraction claimed.",
+        "accepted_entry_ids": []
+      },
+      {
+        "source_id": "dhaga-pattanaik2017",
+        "url": "https://medium.com/prateek-pattanaik/crowdsourcing-odia-proverbs-dhagadhamali-1cac38c39dbc",
+        "status": "existing project",
+        "rights": "Article links CC BY-NC-SA 4.0. This does not establish the licence of the database or books contributing to it. No database entries copied.",
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "next_action": "Inspect pending material as access and reuse basis allow; no completed extraction claimed."
+      },
+      {
+        "source_id": "dhaga-bibhaba",
+        "url": "https://odiabibhaba.in/en/home/",
+        "status": "archive access lead",
+        "rights": "The notice says some hosted books remain in copyright. Public access is not blanket permission.",
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "next_action": "Inspect pending material as access and reuse basis allow; no completed extraction claimed."
+      },
+      {
+        "source_id": "dhaga-archive-dhagamalika-ba-dhagadhamali-rahasya-1927-5e",
+        "url": "https://archive.org/details/dhagamalika-ba-dhagadhamali-rahasya-1927-5e",
+        "status": "catalogue lead",
+        "rights": "Unverified; no text or images reproduced.",
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "next_action": "Inspect pending material as access and reuse basis allow; no completed extraction claimed."
+      },
+      {
+        "source_id": "dhaga-archive-dhagaratnamala",
+        "url": "https://archive.org/details/dhagaratnamala-",
+        "status": "catalogue lead",
+        "rights": "Unverified; no text or images reproduced.",
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "next_action": "Inspect pending material as access and reuse basis allow; no completed extraction claimed."
+      },
+      {
+        "source_id": "dhaga-archive-dhagadhamali-2e-1949",
+        "url": "https://archive.org/details/dhagadhamali-2e-1949",
+        "status": "catalogue lead",
+        "rights": "Unverified; no text or images reproduced.",
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "next_action": "Inspect pending material as access and reuse basis allow; no completed extraction claimed."
+      },
+      {
+        "source_id": "dhaga-wiktionary-jachiba214784",
+        "url": "https://or.wiktionary.org/w/index.php?title=ଯାଚିବା&oldid=214784",
+        "edition": "revision214784",
+        "status": "licensed digital dictionary witness; targeted sense inspected",
+        "rights": "Odia Wiktionary contributors; CC BY-SA4.0, https://creativecommons.org/licenses/by-sa/4.0/. Attribute original revision and new translations; share alike. Not asserted public domain.",
+        "accepted_entry_ids": [
+          "POD-DHAGA-071"
+        ],
+        "inspection": "Sense5 inspected for the cited proverb; other examples pending.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "source_pass_report": "evidence/dhaga-yachiba-source-pass.json"
+      },
+      {
+        "source_id": "dhaga-wiktionary-podiba193065",
+        "url": "https://or.wiktionary.org/w/index.php?title=ପୋଡ଼ିବା&oldid=193065",
+        "edition": "revision193065",
+        "status": "licensed digital dictionary witness; targeted examples inspected",
+        "rights": "Odia Wiktionary contributors; CC BY-SA4.0, https://creativecommons.org/licenses/by-sa/4.0/. Link source/revision/licence, identify editorial additions and share alike. Not asserted public domain.",
+        "inspection": "sense5 example, line149; other examples pending.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-073"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-purusha228370",
+        "url": "https://or.wiktionary.org/w/index.php?title=ପୁରୁଷ&oldid=228370",
+        "edition": "revision228370",
+        "status": "licensed digital dictionary witness; targeted examples inspected",
+        "rights": "Odia Wiktionary contributors; CC BY-SA4.0, https://creativecommons.org/licenses/by-sa/4.0/. Link source/revision/licence, identify editorial additions and share alike. Not asserted public domain.",
+        "inspection": "ଦେଶଜ sense2, line174; other examples pending.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-074"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-raja219463",
+        "url": "https://or.wiktionary.org/w/index.php?title=ରଜା&oldid=219463",
+        "edition": "revision219463",
+        "status": "licensed digital dictionary witness; targeted examples inspected",
+        "rights": "Odia Wiktionary contributors; CC BY-SA4.0, https://creativecommons.org/licenses/by-sa/4.0/. Link source/revision/licence, identify editorial additions and share alike. Not asserted public domain.",
+        "inspection": "Collected sayings cluster, rendered lines417,425,426,429 and434 inspected; other examples pending.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-075",
+          "POD-DHAGA-076",
+          "POD-DHAGA-077",
+          "POD-DHAGA-078",
+          "POD-DHAGA-079"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-ghara228357",
+        "url": "https://or.wiktionary.org/w/index.php?title=ଘର&oldid=228357",
+        "edition": "revision228357",
+        "status": "licensed digital dictionary witness; targeted example inspected",
+        "rights": "Odia Wiktionary contributors; CC BY-SA4.0, https://creativecommons.org/licenses/by-sa/4.0/. Source/revision/licence attribution and share-alike retained; translations and examples are new editorial work. Not public-domain certification.",
+        "inspection": "sense7 example, renderedlines157–159; other examples pending.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-080"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-magha214373",
+        "url": "https://or.wiktionary.org/w/index.php?title=ମାଘ&oldid=214373",
+        "edition": "revision214373",
+        "status": "licensed digital dictionary witness; targeted example inspected",
+        "rights": "Wording credited to Odia Wiktionary contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha adds original translations, explanations and examples; adapted entries use the same licence.",
+        "inspection": "month sense, numbered sayings1–4, renderedlines124–131; other examples pending.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-081",
+          "POD-DHAGA-082"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-bandhiba214480",
+        "url": "https://or.wiktionary.org/w/index.php?title=ବାନ୍ଧିବା&oldid=214480",
+        "edition": "revision214480",
+        "status": "licensed digital dictionary witness; targeted example inspected",
+        "rights": "Wording credited to Odia Wiktionary contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha adds original translations, explanations and examples; adapted entries use the same licence.",
+        "inspection": "sense5/142; other examples pending.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-083"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-katha7705",
+        "url": "https://or.wiktionary.org/w/index.php?title=କଥା&oldid=7705",
+        "edition": "revision7705",
+        "status": "licensed digital dictionary witness; targeted example inspected",
+        "rights": "Wording credited to Odia Wiktionary contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha adds original translations, explanations and examples; adapted entries use the same licence.",
+        "inspection": "senses12/119 and31/139; other examples pending.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-084",
+          "POD-DHAGA-085"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-manji220844",
+        "url": "https://or.wiktionary.org/w/index.php?title=ମଞ୍ଜି&oldid=220844",
+        "edition": "revision220844",
+        "status": "licensed digital dictionary witness; targeted example inspected",
+        "rights": "Wording credited to Odia Wiktionary contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha adds original translations, explanations and examples; adapted entries use the same licence.",
+        "inspection": "senses7–9, renderedlines157–163; saying161; other examples pending.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-086"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-rasa209851",
+        "url": "https://or.wiktionary.org/w/index.php?title=ରସ&oldid=209851",
+        "edition": "revision209851",
+        "status": "licensed digital dictionary witness; targeted example inspected",
+        "rights": "Wording credited to Odia Wiktionary contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha adds original translations, explanations and examples; adapted entries use the same licence.",
+        "inspection": "senses15/407 and23/437; other examples pending.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-087"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-mariba214762",
+        "url": "https://or.wiktionary.org/w/index.php?title=ମାରିବା&oldid=214762",
+        "edition": "revision214762",
+        "status": "licensed digital dictionary witness; targeted example inspected",
+        "rights": "Wording credited to Odia Wiktionary contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha adds original translations, explanations and examples; adapted entries use the same licence.",
+        "inspection": "sense25/228 and collected item3/300; other examples pending.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-088",
+          "POD-DHAGA-089",
+          "POD-DHAGA-090",
+          "POD-DHAGA-091"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-dekhiba218712",
+        "url": "https://or.wiktionary.org/w/index.php?title=ଦେଖିବା&oldid=218712",
+        "edition": "revision218712",
+        "status": "licensed digital dictionary witness; targeted example inspected",
+        "rights": "Wording credited to Odia Wiktionary contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha adds original translations, explanations and examples; adapted entries use the same licence.",
+        "inspection": "senses2/145 and8/164; other examples pending.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-092",
+          "POD-DHAGA-093"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-tulasi212670",
+        "url": "https://or.wiktionary.org/w/index.php?title=ତୁଳସୀ&oldid=212670",
+        "edition": "revision212670",
+        "status": "licensed digital witness; integrated candidate awaiting separate AI review",
+        "rights": "CC BY-SA4.0, Odia Wiktionary contributors. https://creativecommons.org/licenses/by-sa/4.0/ . Credit source and revision; indicate changes; adapted entries use the same licence.",
+        "inspection": "See entry witness locator",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-035"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-mamu227694",
+        "url": "https://or.wiktionary.org/w/index.php?title=ମାମୁଁ&oldid=227694",
+        "edition": "revision227694",
+        "status": "licensed digital witness; integrated candidate awaiting separate AI review",
+        "rights": "CC BY-SA4.0, Odia Wiktionary contributors. https://creativecommons.org/licenses/by-sa/4.0/ . Credit source and revision; indicate changes; adapted entries use the same licence.",
+        "inspection": "See entry witness locator",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-036"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-na200354",
+        "url": "https://or.wiktionary.org/w/index.php?title=ନାଁ&oldid=200354",
+        "edition": "revision200354",
+        "status": "licensed digital witness; integrated candidate awaiting separate AI review",
+        "rights": "CC BY-SA4.0, Odia Wiktionary contributors. https://creativecommons.org/licenses/by-sa/4.0/ . Credit source and revision; indicate changes; adapted entries use the same licence.",
+        "inspection": "See entry witness locator",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-043"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-pancha223025",
+        "url": "https://or.wiktionary.org/w/index.php?title=ପଞ୍ଚ&oldid=223025",
+        "edition": "revision223025",
+        "status": "licensed digital witness; integrated candidate awaiting separate AI review",
+        "rights": "Odia Wiktionary contributors; CC BY-SA4.0, https://creativecommons.org/licenses/by-sa/4.0/. Attribution, linked revision, indication of additions and share-alike retained. Not asserted public domain.",
+        "inspection": "ଦେଶଜ - ବିଶେଷ୍ୟ -, sense5; proverb at renderedline157",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-057"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-bulk-167053",
+        "url": "https://or.wiktionary.org/w/index.php?title=କାନ୍ତାର&oldid=167053",
+        "edition": "revision167053",
+        "status": "licensed digital witness; integrated candidate awaiting separate AI review",
+        "rights": "Odia Wiktionary contributors, CC BY-SA 4.0, at the linked revision. Original Project Odisha explanations and usage examples share that licence. No historical public-domain certification.",
+        "inspection": "ଦେ. ବି., sense1 famine; explicit ଢଗ",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-094"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-bulk-38213",
+        "url": "https://or.wiktionary.org/w/index.php?title=କଳେ ବଳେ କୌଶଳେ&oldid=38213",
+        "edition": "revision38213",
+        "status": "licensed digital witness; integrated candidate awaiting separate AI review",
+        "rights": "Odia Wiktionary contributors, CC BY-SA 4.0, at the linked revision. Original Project Odisha explanations and usage examples share that licence. No historical public-domain certification.",
+        "inspection": "headword and adverbial definition",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-095"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-bulk-221664",
+        "url": "https://or.wiktionary.org/w/index.php?title=ଝିଣ୍ଟିକା&oldid=221664",
+        "edition": "revision221664",
+        "status": "licensed digital witness; integrated candidate awaiting separate AI review",
+        "rights": "Odia Wiktionary contributors, CC BY-SA 4.0, at the linked revision. Original Project Odisha explanations and usage examples share that licence. No historical public-domain certification.",
+        "inspection": "ଦେଶଜ ବିଶେଷ୍ୟ, quotation labelled ପ୍ରବଚନ",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-096"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-bulk-106376",
+        "url": "https://or.wiktionary.org/w/index.php?title=ବସି ଖାଇବା&oldid=106376",
+        "edition": "revision106376",
+        "status": "licensed digital witness; integrated candidate awaiting separate AI review",
+        "rights": "Odia Wiktionary contributors, CC BY-SA 4.0, at the linked revision. Original Project Odisha explanations and usage examples share that licence. No historical public-domain certification.",
+        "inspection": "sense1, explicit ଢଗ",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-097"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-bulk-158072",
+        "url": "https://or.wiktionary.org/w/index.php?title=ତୁଣ୍ଡ ବାଇଦ&oldid=158072",
+        "edition": "revision158072",
+        "status": "licensed digital witness; integrated candidate awaiting separate AI review",
+        "rights": "Odia Wiktionary contributors, CC BY-SA 4.0, at the linked revision. Original Project Odisha explanations and usage examples share that licence. No historical public-domain certification.",
+        "inspection": "sense1 word-of-mouth report; explicit ଢଗ",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-098"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-bulk-226813",
+        "url": "https://or.wiktionary.org/w/index.php?title=ମାପିବା&oldid=226813",
+        "edition": "revision226813",
+        "status": "licensed digital witness; integrated candidate awaiting separate AI review",
+        "rights": "Odia Wiktionary contributors, CC BY-SA 4.0, at the linked revision. Original Project Odisha explanations and usage examples share that licence. No historical public-domain certification.",
+        "inspection": "ଦ୍ରଷ୍ଟବ୍ୟ following measure definition; explicit ଢଗ and gloss",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-099"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-bulk-73577",
+        "url": "https://or.wiktionary.org/w/index.php?title=ତଣ୍ଟି କାଟିବା&oldid=73577",
+        "edition": "revision73577",
+        "status": "licensed digital witness; integrated candidate awaiting separate AI review",
+        "rights": "Odia Wiktionary contributors, CC BY-SA 4.0, at the linked revision. Original Project Odisha explanations and usage examples share that licence. No historical public-domain certification.",
+        "inspection": "sense4 cheating; quotation labelled ପ୍ରବଚନ",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-100"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-bulk-146696",
+        "url": "https://or.wiktionary.org/w/index.php?title=ଶୁଭସ୍ୟ ଶୀଘ୍ରଂ&oldid=146696",
+        "edition": "revision146696",
+        "status": "licensed digital witness; integrated candidate awaiting separate AI review",
+        "rights": "Odia Wiktionary contributors, CC BY-SA 4.0, at the linked revision. Original Project Odisha explanations and usage examples share that licence. No historical public-domain certification.",
+        "inspection": "headword; section ସଂସ୍କୃତ - ପ୍ରବଚନ",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-101"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-bulk-118803",
+        "url": "https://or.wiktionary.org/w/index.php?title=ଭେଖଧାରୀ ବୈଷ୍ଣବ&oldid=118803",
+        "edition": "revision118803",
+        "status": "licensed digital witness; integrated candidate awaiting separate AI review",
+        "rights": "Odia Wiktionary contributors, CC BY-SA 4.0, at the linked revision. Original Project Odisha explanations and usage examples share that licence. No historical public-domain certification.",
+        "inspection": "figurative definition, synonym ବିରାଡ଼ି ବଇଷମ",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-102"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-tali212890",
+        "url": "https://or.wiktionary.org/w/index.php?title=ତାଳି&oldid=212890",
+        "edition": "revision212890",
+        "status": "licensed digital witness; integrated candidate awaiting separate AI review",
+        "rights": "Wording credited to Odia Wiktionary contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha adds original translations, explanations and examples; adapted entries use the same licence.",
+        "inspection": "deshaja sense1, rendered line134",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-104"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-desha220128",
+        "url": "https://or.wiktionary.org/w/index.php?title=ଦେଶ&oldid=220128",
+        "edition": "revision220128",
+        "status": "licensed digital witness; integrated candidate awaiting separate AI review",
+        "rights": "Wording credited to Odia Wiktionary contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha adds original translations, explanations and examples; adapted entries use the same licence.",
+        "inspection": "deshaja sense1, rendered line153",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-103"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-phanka7975",
+        "url": "https://or.wiktionary.org/w/index.php?title=ଫାଙ୍କ&oldid=7975",
+        "edition": "revision7975",
+        "status": "licensed digital witness; integrated candidate awaiting separate AI review",
+        "rights": "Wording credited to Odia Wiktionary contributors at the linked revision, CC BY-SA4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Project Odisha adds original translations, explanations and examples; adapted entries use the same licence.",
+        "inspection": "deshaja noun list: difference, peculiarity, special and differing custom",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-103"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-bulk-55633",
+        "url": "https://or.wiktionary.org/w/index.php?title=ଗତସ୍ୟ ଶୋଚନା ନାସ୍ତି&oldid=55633",
+        "edition": "revision55633",
+        "status": "licensed digital witness; integrated candidate awaiting separate AI review",
+        "rights": "Odia Wiktionary contributors, CC BY-SA 4.0, at the linked revision. Original Project Odisha explanations and usage examples share that licence. No historical public-domain certification.",
+        "inspection": "headword and Sanskrit proverb gloss",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-105"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-bulk-167536",
+        "url": "https://or.wiktionary.org/w/index.php?title=ଖପୁଷ୍ପ&oldid=167536",
+        "edition": "revision167536",
+        "status": "licensed digital witness; integrated candidate awaiting separate AI review",
+        "rights": "Odia Wiktionary contributors, CC BY-SA 4.0, at the linked revision. Original Project Odisha explanations and usage examples share that licence. No historical public-domain certification.",
+        "inspection": "sense1 synonym and sense2 imaginary/impossible object",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-106"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-bulk-226924",
+        "url": "https://or.wiktionary.org/w/index.php?title=ବାହାରିବା&oldid=226924",
+        "edition": "revision226924",
+        "status": "licensed digital witness; integrated candidate awaiting separate AI review",
+        "rights": "Odia Wiktionary contributors, CC BY-SA 4.0, at the linked revision. Original Project Odisha explanations and usage examples share that licence. No historical public-domain certification.",
+        "inspection": "sense4 appearing; explicit ଢଗ",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-107"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-bulk-130149",
+        "url": "https://or.wiktionary.org/w/index.php?title=ମୌନ ସମ୍ମତି&oldid=130149",
+        "edition": "revision130149",
+        "status": "licensed digital witness; integrated candidate awaiting separate AI review",
+        "rights": "Odia Wiktionary contributors, CC BY-SA 4.0, at the linked revision. Original Project Odisha explanations and usage examples share that licence. No historical public-domain certification.",
+        "inspection": "ଦ୍ରଷ୍ଟବ୍ୟ, explicitly labelled Sanskrit proverb",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-108"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-16520",
+        "url": "https://or.wiktionary.org/w/index.php?title=କପାଳ&oldid=16520",
+        "edition": "revision16520",
+        "status": "licensed digital witness; local expansion awaiting final integrated review",
+        "rights": "Odia Wiktionary contributors, CC BY-SA4.0; original adaptations share that licence. Not certified public domain.",
+        "inspection": "Witness locators retained with entries; full captured pages inspected.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-111",
+          "POD-DHAGA-112"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-203608",
+        "url": "https://or.wiktionary.org/w/index.php?title=ଶିକା&oldid=203608",
+        "edition": "revision203608",
+        "status": "licensed digital witness; local expansion awaiting final integrated review",
+        "rights": "Odia Wiktionary contributors, CC BY-SA4.0; original adaptations share that licence. Not certified public domain.",
+        "inspection": "Witness locators retained with entries; full captured pages inspected.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-111"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-226833",
+        "url": "https://or.wiktionary.org/w/index.php?title=ମରିବା&oldid=226833",
+        "edition": "revision226833",
+        "status": "licensed digital witness; local expansion awaiting final integrated review",
+        "rights": "Odia Wiktionary contributors, CC BY-SA4.0; original adaptations share that licence. Not certified public domain.",
+        "inspection": "Witness locators retained with entries; full captured pages inspected.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-113",
+          "POD-DHAGA-114"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-38456",
+        "url": "https://or.wiktionary.org/w/index.php?title=କହିବା&oldid=38456",
+        "edition": "revision38456",
+        "status": "licensed digital witness; local expansion awaiting final integrated review",
+        "rights": "Odia Wiktionary contributors, CC BY-SA4.0; original adaptations share that licence. Not certified public domain.",
+        "inspection": "Witness locators retained with entries; full captured pages inspected.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-115"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-218709",
+        "url": "https://or.wiktionary.org/w/index.php?title=ପୁଅ&oldid=218709",
+        "edition": "revision218709",
+        "status": "licensed digital witness; local expansion awaiting final integrated review",
+        "rights": "Odia Wiktionary contributors, CC BY-SA4.0; original adaptations share that licence. Not certified public domain.",
+        "inspection": "Witness locators retained with entries; full captured pages inspected.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-116"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-143819",
+        "url": "https://or.wiktionary.org/w/index.php?title=ଶଶ ବିଷାଣ&oldid=143819",
+        "edition": "revision143819",
+        "status": "licensed digital witness; local expansion awaiting final integrated review",
+        "rights": "Odia Wiktionary contributors, CC BY-SA4.0; original adaptations share that licence. Not certified public domain.",
+        "inspection": "Witness locators retained with entries; full captured pages inspected.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-117"
+        ]
+      },
+      {
+        "source_id": "dhaga-incubator-145340-5581025",
+        "url": "https://incubator.wikimedia.org/w/index.php?title=Wq/or/ଢଗଢମାଳି/ଉପଦେଶମୂଳକ&oldid=5581025",
+        "edition": "revision5581025",
+        "status": "licensed digital witness; local expansion awaiting final integrated review",
+        "rights": "Wikimedia Incubator contributors, CC BY-SA4.0 under established project licence evidence. Original explanations and adaptations use the same licence; no public-domain certification.",
+        "inspection": "Witness locators retained with entries; full captured pages inspected.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-118",
+          "POD-DHAGA-119",
+          "POD-DHAGA-120",
+          "POD-DHAGA-125",
+          "POD-DHAGA-160",
+          "POD-DHAGA-161",
+          "POD-DHAGA-162",
+          "POD-DHAGA-163",
+          "POD-DHAGA-164"
+        ]
+      },
+      {
+        "source_id": "dhaga-incubator-145358-3584061",
+        "url": "https://incubator.wikimedia.org/w/index.php?title=Wq/or/ରୁଢ଼ି ପ୍ରୟୋଗ&oldid=3584061",
+        "edition": "revision3584061",
+        "status": "licensed digital witness; local expansion awaiting final integrated review",
+        "rights": "Wikimedia Incubator contributors, CC BY-SA4.0 under established project licence evidence. Original explanations and adaptations use the same licence; no public-domain certification.",
+        "inspection": "Witness locators retained with entries; full captured pages inspected.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-121",
+          "POD-DHAGA-122",
+          "POD-DHAGA-123",
+          "POD-DHAGA-124",
+          "POD-DHAGA-125",
+          "POD-DHAGA-126",
+          "POD-DHAGA-127",
+          "POD-DHAGA-128",
+          "POD-DHAGA-129",
+          "POD-DHAGA-130",
+          "POD-DHAGA-131",
+          "POD-DHAGA-132",
+          "POD-DHAGA-133",
+          "POD-DHAGA-134",
+          "POD-DHAGA-178",
+          "POD-DHAGA-179"
+        ]
+      },
+      {
+        "source_id": "dhaga-incubator-146978-719176",
+        "url": "https://incubator.wikimedia.org/w/index.php?title=Wq/or/ପାରମ୍ପାରିକ ବାଣୀ&oldid=719176",
+        "edition": "revision719176",
+        "status": "licensed digital witness; local expansion awaiting final integrated review",
+        "rights": "Wikimedia Incubator contributors, CC BY-SA4.0 under established project licence evidence. Original explanations and adaptations use the same licence; no public-domain certification.",
+        "inspection": "Witness locators retained with entries; full captured pages inspected.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-135",
+          "POD-DHAGA-136",
+          "POD-DHAGA-137",
+          "POD-DHAGA-138",
+          "POD-DHAGA-139",
+          "POD-DHAGA-140"
+        ]
+      },
+      {
+        "source_id": "dhaga-incubator-147630-668805",
+        "url": "https://incubator.wikimedia.org/w/index.php?title=Wq/or/ରୁଢ଼ି ପ୍ରୟୋଗ/କ୍ରିୟାଯୁକ୍ତ&oldid=668805",
+        "edition": "revision668805",
+        "status": "licensed digital witness; local expansion awaiting final integrated review",
+        "rights": "Wikimedia Incubator contributors, CC BY-SA4.0 under established project licence evidence. Original explanations and adaptations use the same licence; no public-domain certification.",
+        "inspection": "Witness locators retained with entries; full captured pages inspected.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-141",
+          "POD-DHAGA-177"
+        ]
+      },
+      {
+        "source_id": "dhaga-incubator-146285-r1145515",
+        "url": "https://incubator.wikimedia.org/w/index.php?oldid=1145515",
+        "edition": "revision1145515",
+        "status": "licensed digital witness; local expansion awaiting final integrated review",
+        "rights": "Wikimedia Incubator contributors, CC BY-SA4.0 at revision1145515. Original explanations share that licence.",
+        "inspection": "Witness locators retained with entries; full captured pages inspected.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-142",
+          "POD-DHAGA-143",
+          "POD-DHAGA-144"
+        ]
+      },
+      {
+        "source_id": "dhaga-incubator-146343-r585205",
+        "url": "https://incubator.wikimedia.org/w/index.php?oldid=585205",
+        "edition": "revision585205",
+        "status": "licensed digital witness; local expansion awaiting final integrated review",
+        "rights": "Wikimedia Incubator contributors, CC BY-SA4.0 at revision585205. Original explanations share that licence.",
+        "inspection": "Witness locators retained with entries; full captured pages inspected.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-145",
+          "POD-DHAGA-146"
+        ]
+      },
+      {
+        "source_id": "dhaga-incubator-171363-r4117332",
+        "url": "https://incubator.wikimedia.org/w/index.php?oldid=4117332",
+        "edition": "revision4117332",
+        "status": "licensed digital witness; local expansion awaiting final integrated review",
+        "rights": "Wikimedia Incubator contributors, CC BY-SA4.0 at revision4117332. Original explanations share that licence.",
+        "inspection": "Witness locators retained with entries; full captured pages inspected.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-147",
+          "POD-DHAGA-148",
+          "POD-DHAGA-149",
+          "POD-DHAGA-150",
+          "POD-DHAGA-151",
+          "POD-DHAGA-152",
+          "POD-DHAGA-153",
+          "POD-DHAGA-154",
+          "POD-DHAGA-155",
+          "POD-DHAGA-156"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-43634",
+        "url": "https://or.wiktionary.org/w/index.php?title=କୋଚଟ&oldid=43634",
+        "edition": "revision43634",
+        "status": "inspected licensed digital witness",
+        "rights": "Odia Wiktionary contributors, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Exact revision credited; original explanations are editorial adaptations under the same licence.",
+        "inspection": "Exact entry locators and complete revision captures retained; no complete extraction claim.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-165"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-219937",
+        "url": "https://or.wiktionary.org/w/index.php?title=ଚଇତା&oldid=219937",
+        "edition": "revision219937",
+        "status": "inspected licensed digital witness",
+        "rights": "Odia Wiktionary contributors, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Exact revision credited; original explanations are editorial adaptations under the same licence.",
+        "inspection": "Exact entry locators and complete revision captures retained; no complete extraction claim.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-166"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-132966",
+        "url": "https://or.wiktionary.org/w/index.php?title=ଦିହ_ରଖିବା&oldid=132966",
+        "edition": "revision132966",
+        "status": "inspected licensed digital witness",
+        "rights": "Odia Wiktionary contributors, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Exact revision credited; original explanations are editorial adaptations under the same licence.",
+        "inspection": "Exact entry locators and complete revision captures retained; no complete extraction claim.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-167"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-86885",
+        "url": "https://or.wiktionary.org/w/index.php?title=ନାଚିଲା_ଲୋକକୁ_ଲାଜ_ନାହିଁ_ଦେଖିଲା_ଲୋକକୁ_ଲାଜ&oldid=86885",
+        "edition": "revision86885",
+        "status": "inspected licensed digital witness",
+        "rights": "Odia Wiktionary contributors, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Exact revision credited; original explanations are editorial adaptations under the same licence.",
+        "inspection": "Exact entry locators and complete revision captures retained; no complete extraction claim.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-168"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-108199",
+        "url": "https://or.wiktionary.org/w/index.php?title=ବାର_ହାତ_କାକୁଡ଼ିର_ତେର_ହାତ_ମଞ୍ଜି&oldid=108199",
+        "edition": "revision108199",
+        "status": "inspected licensed digital witness",
+        "rights": "Odia Wiktionary contributors, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Exact revision credited; original explanations are editorial adaptations under the same licence.",
+        "inspection": "Exact entry locators and complete revision captures retained; no complete extraction claim.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-169"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-193077",
+        "url": "https://or.wiktionary.org/w/index.php?title=ଶୁଖିବା&oldid=193077",
+        "edition": "revision193077",
+        "status": "inspected licensed digital witness",
+        "rights": "Odia Wiktionary contributors, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Exact revision credited; original explanations are editorial adaptations under the same licence.",
+        "inspection": "Exact entry locators and complete revision captures retained; no complete extraction claim.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-170"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-126682",
+        "url": "https://or.wiktionary.org/w/index.php?title=ମୁକୁଶିଆଳି&oldid=126682",
+        "edition": "revision126682",
+        "status": "inspected licensed digital witness",
+        "rights": "Odia Wiktionary contributors, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Exact revision credited; original explanations are editorial adaptations under the same licence.",
+        "inspection": "Exact entry locators and complete revision captures retained; no complete extraction claim.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-171"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-nahunia217376",
+        "url": "https://or.wiktionary.org/w/index.php?title=ନହୁଣିଆ&oldid=217376",
+        "edition": "revision217376",
+        "status": "lexical support only",
+        "rights": "Odia Wiktionary contributors, CC BY-SA4.0 under existing project Wikimedia licence evidence; attribute exact revision and editorial adaptation.",
+        "inspection": "Exact entry locators and complete revision captures retained; no complete extraction claim.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-173"
+        ]
+      },
+      {
+        "source_id": "dhaga-wikisource-bhagabata11-57652",
+        "url": "https://or.wikisource.org/w/index.php?title=ଓଡ଼ିଆ_ଭାଗବତ/୧୧&oldid=57652",
+        "edition": "revision57652",
+        "status": "inspected contextual literary witness",
+        "rights": "Digital transcription credited to Odia Wikisource contributors under the project’s Wikimedia CC BY-SA 4.0 attribution practice. No new worldwide public-domain determination or facsimile reproduction.",
+        "inspection": "Exact entry locators and complete revision captures retained; no complete extraction claim.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-160"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-budhigai113019",
+        "url": "https://or.wiktionary.org/w/index.php?title=ବୁଢ଼ୀଗାଈ_ଦାନ&oldid=113019",
+        "edition": "revision113019",
+        "status": "inspected licensed digital witness",
+        "rights": "CC BY-SA 4.0; exact source wording retained and editorial relationship described separately.",
+        "inspection": "Exact entry locators and complete revision captures retained; no complete extraction claim.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": []
+      },
+      {
+        "source_id": "dhaga-wiktionary-161413",
+        "url": "https://or.wiktionary.org/w/index.php?title=ବୁଡ଼ିବା&oldid=161413",
+        "edition": "revision 161413",
+        "status": "inspected licensed digital witness",
+        "rights": "CC BY-SA 4.0 under established Wikimedia project attribution evidence; adaptations retain this licence. Not a new public-domain certification.",
+        "inspection": "Reviewed exact locators; related parallel remains zero additional entries. No complete extraction claim.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-174"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-216573",
+        "url": "https://or.wiktionary.org/w/index.php?title=ମେଞ୍ଚାଏ&oldid=216573",
+        "edition": "revision 216573",
+        "status": "inspected licensed digital witness",
+        "rights": "CC BY-SA 4.0 under established Wikimedia project attribution evidence; adaptations retain this licence. Not a new public-domain certification.",
+        "inspection": "Reviewed exact locators; related parallel remains zero additional entries. No complete extraction claim.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-175"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-193413",
+        "url": "https://or.wiktionary.org/w/index.php?title=କାଜି&oldid=193413",
+        "edition": "revision 193413",
+        "status": "inspected licensed digital witness",
+        "rights": "CC BY-SA 4.0 under established Wikimedia project attribution evidence; adaptations retain this licence. Not a new public-domain certification.",
+        "inspection": "Reviewed exact locators; related parallel remains zero additional entries. No complete extraction claim.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-176"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-paji95132",
+        "url": "https://or.wiktionary.org/w/index.php?title=ପାଜି&oldid=95132",
+        "edition": "revision 95132",
+        "status": "inspected licensed digital witness",
+        "rights": "CC BY-SA 4.0 under established project Wikimedia attribution evidence.",
+        "inspection": "Reviewed exact locators; related parallel remains zero additional entries. No complete extraction claim.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-176"
+        ]
+      },
+      {
+        "source_id": "dhaga-wiktionary-216849",
+        "url": "https://or.wiktionary.org/w/index.php?title=ମାଉସୀ&oldid=216849",
+        "edition": "revision 216849",
+        "status": "inspected licensed digital witness",
+        "rights": "CC BY-SA 4.0 under established Wikimedia project attribution evidence; not public-domain certification.",
+        "inspection": "Reviewed exact locators; related parallel remains zero additional entries. No complete extraction claim.",
+        "complete_source_extraction": false,
+        "pages_fully_transcribed": [],
+        "pages_human_reviewed": [],
+        "accepted_entry_ids": [
+          "POD-DHAGA-036"
+        ]
+      }
+    ],
+    "next_action": "Continue the75 unresolved original127 positions using source127.json and evidence/expansion-2026-10-25/final-crosswalk.json; preserve variant and partial-alternative distinctions, seek reliable reusable witnesses without an arbitrary small-batch cap. Historical transcription and targeted-inspection cursors remain unchanged.",
+    "illustration_direction": "Approved contemporary Pattachitra-inspired heritage style; use selectively, retain honest AI provenance, never imply historical artifact or traditional artist authorship."
+  },
+  "review_requirements": [
+    "Compare exact source capture and revision with displayed wording; record normalization separately, preserving uncertain glyphs.",
+    "Use all179 headwords, explanations and variants plus earlier deferrals; normalized equality is a screen, not semantic proof.",
+    "Different witnesses or expanded wording may belong to existing entries; distinguish related parallel from exact historical witness.",
+    "Evaluate idiom, proverb and source-labelled verse honestly; unknown first origin alone does not disqualify a source-supported genre.",
+    "Separate source gloss, literal translation, editorial humour/application and original illustrative examples.",
+    "Preserve source-specific rights including SCERT exceptions; independently accessed dictionary is not independent historical lineage.",
+    "Do not advance historical full-transcription cursors or source127 positions without actual evidence and authorized integration."
+  ],
+  "findings": [
+    "All three supplied baseline hashes match current files.",
+    "All20 prior reviewed drafts map uniquely to installed160–179 under NFC/whitespace/punctuation comparison; do not count them again.",
+    "Existing036/143 related variants and prior lexical deferrals remain in comparison context."
+  ],
+  "tests_actually_run": [
+    "Read current HEAD and compared supplied three baseline SHA256 hashes.",
+    "Parsed collection and checked179 unique IDs.",
+    "Mapped all5+9+6 prior draft headwords to current entries with exact normalized matching."
+  ],
+  "limits": [
+    "Preparation only: no batch04 candidate verdict or accepted increment.",
+    "No fresh source retrieval, scan reading, browser work or release tests.",
+    "No exhaustive semantic deduplication claimed; each forthcoming candidate still requires meaning-level comparison.",
+    "Existing historical and human-review limitations retained."
+  ],
+  "accepted_increment": 0,
+  "output_hashes": {
+    "corpus-comparison-index.json": "72833d6fa041907db4894eeb9f133373debbe8f421206bc7ab1ac1ee1f7829c4",
+    "prior-dispositions.json": "22306114f43e72e7fe72962e6b7929c293d94fe5af80b93b23122563a4d725ea"
+  }
+}

@@ -162,11 +162,16 @@ class LibraryFileTests(unittest.TestCase):
         for e in data['entries']:
             self.assertIn('id="'+e['id']+'"',out)
             for key in ['odia']:
-                if e.get(key):self.assertIn(escape(e[key],quote=True),out)
+                if e.get(key):self.assertIn('<h2 lang="or">'+escape(e[key],quote=True).replace('\n','<br>')+'</h2>',out)
             self.assertIn('sayings/'+e['id']+'.html',out)
         for brief in data['entries']:
             self.assertIn(escape(brief['odia_summary'],quote=True),out)
             self.assertIn(escape(brief['english_summary'],quote=True),out)
+        from build import source_heading
+        self.assertEqual(source_heading('<img src=x>\n& second'), '&lt;img src=x&gt;<br>&amp; second')
+        for e in data['entries']:
+            heading='<h2 lang="or">'+escape(e['odia'],quote=True).replace('\n','<br>')+'</h2>'
+            self.assertIn(heading,(ROOT/'sayings'/f"{e['id']}.html").read_text())
         self.assertNotIn('editorial_status',out)
         self.assertNotIn('AI-assisted',out)
         self.assertIn('<p>By Ahimanikya Satapathy</p>',out)

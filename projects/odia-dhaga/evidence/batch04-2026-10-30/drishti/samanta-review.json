@@ -1,0 +1,126 @@
+{
+  "review_type": "separate AI source and bilingual draft review",
+  "status": "PASS_FOUR_RESEARCH_DRAFTS_ONE_DEFERRAL",
+  "input_head": "94caa729ad0d9786815727e0209bfe45fd9516de",
+  "bindings": {
+    "samanta/candidates.json": "76aba22d55ecc84238a0efbb3a53954202b175d11c2d6ceacd6107679edb9078",
+    "samanta/report.json": "a8415efeef540353539f651c148cf9e1a1c62aabe2c1e9a309e1fd5044250767",
+    "samanta/captures/145337-revision.json": "a5549a243d30d9057cb4afb90df634cf4602e04c49b90fc2abcc49cc55442856",
+    "samanta/captures/146978-revision.json": "e1a5910949a1fe0cd6b075be332af32a05381d38c3a2ab67930a57dd2e870ef1"
+  },
+  "actual_checks": [
+    "Read complete saved revision3889857 and719176 wikitext, not fresh network retrieval.",
+    "Compared all four exact raw witness blocks and their glosses.",
+    "Read all four bilingual drafts and original examples.",
+    "Normalized headword screen against179; meaning-level comparisons with123,138,146,151,167,176,179 and existing corpus index.",
+    "Read all corrected literal/explanation/Odia/context fields and final report; verified final hashes and exact witness/capture preservation."
+  ],
+  "witness_checks": [
+    {
+      "candidate": "samanta-b04-01",
+      "raw_witness_exact_in_capture": true,
+      "normalized_headword_matches": []
+    },
+    {
+      "candidate": "samanta-b04-02",
+      "raw_witness_exact_in_capture": true,
+      "normalized_headword_matches": []
+    },
+    {
+      "candidate": "samanta-b04-03",
+      "raw_witness_exact_in_capture": true,
+      "normalized_headword_matches": []
+    },
+    {
+      "candidate": "samanta-b04-04",
+      "raw_witness_exact_in_capture": true,
+      "normalized_headword_matches": []
+    }
+  ],
+  "per_candidate": [
+    {
+      "key": "samanta-b04-01",
+      "decision": "PASS_DRAFT",
+      "reason": "Abundance versus usable food supported by gloss; bati retained without invented conversion, source spelling preserved."
+    },
+    {
+      "key": "samanta-b04-02",
+      "decision": "PASS_RESEARCH_DRAFT_AFTER_CORRECTION",
+      "reason": "Verse/patient-work reading supported; no explicit instructive heading in inspected page, so describe genre editorially rather than claiming source labels it that way."
+    },
+    {
+      "key": "samanta-b04-03",
+      "decision": "PASS_RESEARCH_DRAFT_AFTER_CORRECTION",
+      "reason": "Odia categorical denial of neglecting others overgeneralizes the positive source gloss. Attribute to this witness and preserve pragmatic ambiguity."
+    },
+    {
+      "key": "samanta-b04-04",
+      "decision": "PASS_RESEARCH_DRAFT_AFTER_CORRECTION",
+      "reason": "Opening ଜାଣି does not securely establish imperative Know that. Neutral literal opening plus explicit unresolved agency avoids forcing deity or addressee subject. Omitted object no one supported by gloss, not independent exact phrase."
+    },
+    {
+      "key": "samanta-b04-05",
+      "decision": "KEEP_DEFERRED",
+      "reason": "Exact negative ending and fish compound remain unresolved; gloss alone cannot certify literal reading."
+    }
+  ],
+  "report_corrections": [
+    "semantic_dedup wrongly labels111 scant land/large demands and151 false effort; actual111 is cat/food sling and151 curved dog tail. Correct intended comparator IDs or remove.",
+    "Reuse existing canonical source ID dhaga-incubator-146978-719176 rather than adding a duplicate source record at future integration."
+  ],
+  "limits": [
+    "No new accepted entries or publication decision.",
+    "No earliest-origin, independent oral lineage, human language approval or legal rights clearance claimed.",
+    "CC BY-SA4 reuse follows established project evidence; saved3889857 also contains historical3.0/GFDL boilerplate which is retained, not rewritten.",
+    "No current source127 position or historical cursor change justified by this review."
+  ],
+  "accepted_increment": 0,
+  "prior_review": {
+    "status": "REVISE_BOUNDED_FIELDS_PENDING_FREEZE",
+    "bindings": {
+      "samanta/candidates.json": "c1eb84f75eeae4709ea2642ba8745e0ca0c5e8fab8e0f635ef26b3e1f282f24a",
+      "samanta/report.json": "a8138e27d492d40cbb7c93b91b7221fd67672132cfc5ce57fd100f9bfe4acfca",
+      "samanta/captures/145337-revision.json": "a5549a243d30d9057cb4afb90df634cf4602e04c49b90fc2abcc49cc55442856",
+      "samanta/captures/146978-revision.json": "e1a5910949a1fe0cd6b075be332af32a05381d38c3a2ab67930a57dd2e870ef1"
+    },
+    "per_candidate": [
+      {
+        "key": "samanta-b04-01",
+        "decision": "PASS_DRAFT",
+        "reason": "Abundance versus usable food supported by gloss; bati retained without invented conversion, source spelling preserved."
+      },
+      {
+        "key": "samanta-b04-02",
+        "decision": "PASS_RESEARCH_DRAFT_AFTER_CORRECTION",
+        "reason": "Verse/patient-work reading supported; no explicit instructive heading in inspected page, so describe genre editorially rather than claiming source labels it that way."
+      },
+      {
+        "key": "samanta-b04-03",
+        "decision": "PASS_RESEARCH_DRAFT_AFTER_CORRECTION",
+        "reason": "Odia categorical denial of neglecting others overgeneralizes the positive source gloss. Attribute to this witness and preserve pragmatic ambiguity."
+      },
+      {
+        "key": "samanta-b04-04",
+        "decision": "PASS_RESEARCH_DRAFT_AFTER_CORRECTION",
+        "reason": "Opening ଜାଣି does not securely establish imperative Know that. Neutral literal opening plus explicit unresolved agency avoids forcing deity or addressee subject. Omitted object no one supported by gloss, not independent exact phrase."
+      },
+      {
+        "key": "samanta-b04-05",
+        "decision": "KEEP_DEFERRED",
+        "reason": "Exact negative ending and fish compound remain unresolved; gloss alone cannot certify literal reading."
+      }
+    ],
+    "report_corrections": [
+      "semantic_dedup wrongly labels111 scant land/large demands and151 false effort; actual111 is cat/food sling and151 curved dog tail. Correct intended comparator IDs or remove.",
+      "Reuse existing canonical source ID dhaga-incubator-146978-719176 rather than adding a duplicate source record at future integration."
+    ]
+  },
+  "correction_resolution": [
+    "Survival explicitly confines benevolent interpretation to this source gloss and permits context-dependent self-serving use.",
+    "Horse English no longer invents imperative agency; unresolved opening and gloss-supplied object explicitly recorded.",
+    "Four-line exhortation is editorial genre description; unsupported source-heading claim removed.",
+    "Erroneous111/151 comparator claims explicitly withdrawn.",
+    "All four exact Odia witness fields still equal selected wording and raw blocks occur in unchanged saved captures."
+  ],
+  "blocking_findings": []
+}
