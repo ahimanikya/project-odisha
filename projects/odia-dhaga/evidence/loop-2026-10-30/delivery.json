@@ -1,0 +1,46 @@
+{
+  "status": "two_consecutive_research_batches_completed_and_separately_ai_reviewed",
+  "completed_at_utc": "2026-10-29T18:56:57.080298+00:00",
+  "input_head": "64439cf0db2ad447dc09934f09add0a59f9a46ea",
+  "counts": {
+    "batches": 2,
+    "selected_candidates_processed": 20,
+    "distinct_reviewed_drafts": 14,
+    "related_variant_for_existing143": 1,
+    "selected_candidates_deferred": 5,
+    "extra_screening_leads_deferred": 3,
+    "new_installed_or_published_entries": 0,
+    "published_book_entries": 159
+  },
+  "candidate_bundle": {
+    "path": "candidate-bundle.json",
+    "sha256": "e25c09a44b8635b5ffd6700f318157dcd62db72dbabdb4912ac66787303f51d2"
+  },
+  "reviews": {
+    "batch02/drishti-anvesha.json": "c959cbdb5ec93d3964d30e957e285d1d4a6368d9f0e3b5a00b09ee0a93cabac4",
+    "batch02/drishti-samanta.json": "4cee3a7a3e16a79da3fff1b8d201021b6cd069db2b73aba562af73355dea2832",
+    "batch01/drishti-anvesha.json": "e3d8ae665087e321369085f34cb64d2fddecdd91dc4d7cea68281f597ba008be",
+    "batch01/drishti-samanta.json": "a769dc064349af6dfea5fe54e3f2c529cd17fca6be4b6091990f3af91bc54100"
+  },
+  "assembly_reviews": {
+    "batch02/assembled-review.json": "c0ee563400a25e5e1259470058ca9b0d05ac1873bc171571f50f7d89ecffd383",
+    "batch01/assembled-review.json": "769676ee8b6d9d41bd364b5257089f8bb5d2b2a91c693fc57693f57a0427a9c4"
+  },
+  "preserved": {
+    "sayings": 159,
+    "art": 159,
+    "pdf_pages": 90,
+    "pdf_sha256": "5f2e94eb3732de2a2b59fe1ac0b88e5deea092ad97a7086bb25099e3caf416f0",
+    "original_pending": 75,
+    "1926_next_inventory": 103,
+    "1926_full_transcription": 31,
+    "1893_full_transcription": 2,
+    "1893_drafts": 83
+  },
+  "next": "Integrate reviewed14drafts and143relatedvariant after currentownership reconciliation; newillustrations/generatedbook/test/review/release gates remain. No repeatresearch. Then next5–10candidatebatch from saved remainingleads.",
+  "limitations": [
+    "Separate AI source/meaning/assembly review, not human proofreading.",
+    "Fourteen are reviewed research drafts, not fourteen published or accepted corpus additions.",
+    "No canonical/public/Git changes in these research runs; no deployment or programme credit."
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "review_type": "Separate AI source and meaning review; no human proofreading claim",
+  "input_head": "64439cf0db2ad447dc09934f09add0a59f9a46ea",
+  "requested_baseline": "64439cf0db2ad447dc09934f09add0a59f9a46ea",
+  "status": "PASS_FOR_RELATED_VARIANT_ENRICHMENT_NOT_NEW_COUNT",
+  "inputs": {
+    "anvesha.json": "340b4097de7ab3c3b725af4a6f58163ea013f11bc5f6fba116aa3b4708776a00",
+    "collection.json": "8014f9b095affa197ee0c5af2a403a1a76b0e44fe19f3d05e7752edd346e448b",
+    "captures": {
+      "wiktionary-followup.json": "622654584af05f961a06f077ddc7dbf836caa5f3dc462550bfa42c1b6eb37b6a",
+      "wiktionary-batch.json": "284d920e060b6c737d61a83863e5696a2c4d001d77e8490082b6eec3c5afcfca",
+      "wiktionary-search.json": "eb6d8048108b37243c299104dd0bd0a6628dabdcf38b336266e303e8906b8cb1",
+      "incubator-search.json": "59211b7c9b443457c61acbd6726560e21a6286d26f23e6dad49a2a028cc7f36d"
+    }
+  },
+  "checks": {
+    "capture_hashes_match": {
+      "wiktionary-followup.json": true,
+      "wiktionary-batch.json": true,
+      "wiktionary-search.json": true,
+      "incubator-search.json": true
+    },
+    "baseline_collection_matches_report": true,
+    "exact_revision_and_example_wording": true,
+    "canonical_143_read_in_full": true,
+    "baseline_entries": 159
+  },
+  "decision": {
+    "candidate": "1926-pdf038-ଅ-71 related dictionary witness",
+    "source_revision": 113019,
+    "recommended_existing_entry": "POD-DHAGA-143",
+    "classification": "Related variant / parallel formulation, quoted separately with its own locator; not an exact witness of 143 headword",
+    "reasoning": [
+      "Both formulations explicitly concern donation and culminate in poor areca nut paired with spoiled betel leaf. Their figurative target is nominal generosity versus the recipient’s actual benefit.",
+      "The new half-meal/old-cow opening adds memorable images and removes Agasti; this warrants preserving its complete wording rather than collapsing or silently substituting it. It does not produce a sufficiently different practical proposition or rhetorical target to justify a second counted entry in this collection.",
+      "Differences କଞ୍ଚା versus କଷା and ସଢ଼ା versus ପଚା must remain verbatim. Editorial grouping does not prove common authorship, textual descent, oral circulation or historical identity."
+    ],
+    "new_entry_increment": 0,
+    "source127_increment": 0,
+    "historical_transcription_promotion": false
+  },
+  "draft_review": {
+    "literal": "PASS: half meal, old cow, unripe areca and rotten betel are preserved; no mistaken substitution of canonical143 astringent areca.",
+    "english_interpretation": "PASS: directly supported by figurative dictionary definition of giving a useless thing. Ceremony/publicity contrasts are editorial explanation, not quoted gloss or established historical practice.",
+    "odia_interpretation": "PASS: natural recipient-usefulness reading with concrete source images; no invented biography or ritual origin.",
+    "example": "PASS: explicitly imagined broken-printer analogy, not collected usage.",
+    "rights": "PASS within established project Wiktionary CC BY-SA4.0 evidence; retain contributor attribution, revision URL, adaptation notice and share-alike licence. API capture alone is not a fresh licence-footer inspection or clearance of the 1926 scan.",
+    "presentation_requirement": "If integrated, preserve 143 existing headword/witness and separately label the full expanded related wording. Do not describe it as a normalized transcription of the historical short reading."
+  },
+  "other_outcomes": "Four deferrals remain justified: lexical component hits, missing pages, zero search results or busy responses are not full-saying/context evidence, nor proof the sayings do not exist. Unrelated Balunga saying is a separate lead only.",
+  "skills_read": [
+    "human-natural-translation/SKILL.md",
+    "references/indian-languages.md: Odia",
+    "references/languages.md: English and shared principles",
+    "references/poetic-review-lessons.md"
+  ],
+  "limitations": [
+    "No fresh network or scan inspection in this review; inspected saved exact API evidence and canonical143.",
+    "No historically independent lineage, earliest use or origin established. Those are not prerequisites imposed on otherwise truthfully labelled source-supported sayings.",
+    "No canonical changes, acceptance, new ID, artwork or publication; no human approval inferred.",
+    "This report covers Anvesha batch only, not Samanta five verse drafts."
+  ],
+  "next_action": "Prepare a bounded variant/source enrichment for 143 if coordinator chooses integration, retaining independent capture and all uncertainty; continue other unresolved leads without incrementing counts from this witness."
+}

@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 826. completed: 131, excluded: 392, queued: 303.
+Route inventory: 840. completed: 131, excluded: 406, queued: 303.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -840,3 +840,24 @@ Route inventory: 826. completed: 131, excluded: 392, queued: 303.
 | POD-EDIT-DHAGA-CULTURAL-20261029 | [The Poetry We Speak: Why Odia Dhaga Matter](https://projectodisha.org/stories/odia-dhaga/) | completed | Reviewed Founder essay connecting everyday Dhaga literary form and cultural transmission; shared reader header/footer integration. No new saying or programme credit. |
 | POD-EDIT-MANIABANDHA-20261029 | [Maniabandha: Where Odisha’s Weaving Heritage Meets a New Generation of Travellers](https://projectodisha.org/stories/maniabandha/) | completed | Approved new article and interpretive illustration, with independent sources and related reading links. |
 | POD-EDIT-ESSENTIAL-DHAGA-20261029 | [Essential Odia Dhaga: 25 Sayings to Carry With You](https://projectodisha.org/stories/essential-odia-dhaga/) | completed | Founder-requested companion to the Dhaga book series; reviewed editorial selection, not popularity ranking. No new sayings or programme credit. |
+| POD-EDIT-815 | [ଆହାରେ ଭଲ ମନ୍ଦ ନାହିଁ,
+ ଯେ ସ୍ଥାନେ ଯେବଣ ମିଳଇ ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-160.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-816 | [ବିଦ୍ୟା ଅଟଇ ମହାଧନ 
+ବାଳକେ କର ଉପାର୍ଜନ ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-161.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-817 | [ବୈକୁଣ୍ଠ ସମାନ ଆହା ଅଟେ ସେହି ଘର, 
+ ପରସ୍ପର ସ୍ନେହ ଯହିଁ ଥାଏ ନିରନ୍ତର ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-162.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-818 | [ମର୍ତ୍ୟ ମଣ୍ଡଳେ ଦେହ ବହି
+ଦେବତା ହୋଇଲେ ମରଇ ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-163.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-819 | [ଯେ ପାଞ୍ଚେ ପର ର ମନ୍ଦ
+ତା ମନ୍ଦ ପାଞ୍ଚନ୍ତି ଗୋବିନ୍ଦ ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-164.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-820 | [ଲୁହା କୋଚଟ କୁ କମାର କୋଚଟ](https://projectodisha.org/dhaga/sayings/pod-dhaga-165.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-821 | [ଚଇତା ! ତବତ ଖାଇବୁ କି ପଖାଳ ଖାଇବୁ ବେଳ ଥାଉଁ ଥାଉଁ କହିଥା](https://projectodisha.org/dhaga/sayings/pod-dhaga-166.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-822 | [ଦିହ ରଖି ଧର୍ମ କର](https://projectodisha.org/dhaga/sayings/pod-dhaga-167.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-823 | [ନାଚିଲା ଲୋକକୁ ଲାଜ ନାହିଁ ଦେଖିଲା ଲୋକକୁ ଲାଜ](https://projectodisha.org/dhaga/sayings/pod-dhaga-168.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-824 | [ବାର ହାତ କାକୁଡ଼ିର ତେର ହାତ ମଞ୍ଜି](https://projectodisha.org/dhaga/sayings/pod-dhaga-169.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-825 | [ନଈ ଶୁଖିଲେ କି କରଇ ନାଆ](https://projectodisha.org/dhaga/sayings/pod-dhaga-170.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-826 | [ଦେଉଳକୁ ମୁକୁଶିଆଳି ବିଳିଯିବା ନ୍ୟାୟ](https://projectodisha.org/dhaga/sayings/pod-dhaga-171.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-827 | [ଅପାଇ ପାଇଚି ପିଲା,
+ନା ଗାଁ ଯାକ କିଲିବିଲା...!!!](https://projectodisha.org/dhaga/sayings/pod-dhaga-172.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-828 | [ଚୂଲିମୂଳେ ନହୁଣିଆ ପାରୁଥିବ ବିଲେଇ...
+ପୁଅ ଦେଖଉଚି ନୁଖୁରା ବଡ଼େଇ...!!](https://projectodisha.org/dhaga/sayings/pod-dhaga-173.html) | excluded | standalone_dhaga_collection |

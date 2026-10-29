@@ -1,0 +1,103 @@
+{
+  "review_type": "Separate AI research assembly verification",
+  "input_head": "64439cf0db2ad447dc09934f09add0a59f9a46ea",
+  "status": "PASS",
+  "input_hashes": {
+    "reviewed-candidates.json": "c117ad339483837e305a385e0474da602637879208b33a301af364886256a221",
+    "anvesha.json": "7c330e79ffc956716d8a6a0b163499a564f2c36e4c05b9c6ae559a8fd41f7293",
+    "samanta.json": "7e0ae2944eafbe27ab0e23c60ae5568670ca063b9e4340b57091b871411e5d28",
+    "anvesha-correction.json": "c94da18460db4e5afd7f92e86df30521661b719eb6bd87b5b91e84451c88bd42",
+    "drishti-anvesha.json": "c959cbdb5ec93d3964d30e957e285d1d4a6368d9f0e3b5a00b09ee0a93cabac4",
+    "drishti-samanta.json": "4cee3a7a3e16a79da3fff1b8d201021b6cd069db2b73aba562af73355dea2832"
+  },
+  "checks": [
+    {
+      "key": "anvesha-b02-01",
+      "changed_fields": [
+        "editorial_status"
+      ],
+      "only_approved_fields": true
+    },
+    {
+      "key": "anvesha-b02-02",
+      "changed_fields": [
+        "cultural_context",
+        "editorial_status",
+        "explanation"
+      ],
+      "only_approved_fields": true
+    },
+    {
+      "key": "anvesha-b02-03",
+      "changed_fields": [
+        "editorial_status"
+      ],
+      "only_approved_fields": true
+    },
+    {
+      "key": "anvesha-b02-04",
+      "changed_fields": [
+        "editorial_status"
+      ],
+      "only_approved_fields": true
+    },
+    {
+      "key": "anvesha-b02-05",
+      "changed_fields": [
+        "editorial_status"
+      ],
+      "only_approved_fields": true
+    },
+    {
+      "key": "anvesha-b02-06",
+      "changed_fields": [
+        "editorial_status"
+      ],
+      "only_approved_fields": true
+    },
+    {
+      "key": "anvesha-b02-07",
+      "changed_fields": [
+        "editorial_status"
+      ],
+      "only_approved_fields": true
+    },
+    {
+      "key": "batch02-samanta-apai",
+      "changed_fields": [
+        "editorial_status"
+      ],
+      "only_approved_fields": true
+    },
+    {
+      "key": "batch02-samanta-cat",
+      "changed_fields": [
+        "editorial_status"
+      ],
+      "only_approved_fields": true
+    }
+  ],
+  "findings": [
+    "Exactly nine candidate objects: seven Anvesha and two Samanta; no duplicates or ID allocation.",
+    "Only editorial_status changes except the exact reviewed Chaita explanation/context correction. Every source wording/literal/witness/rights/genre field remains frozen.",
+    "New source list exactly concatenates seven dictionary sources and lexical217376 support; existing Bibidha source referenced explicitly.",
+    "One herd deferral remains outside drafts; three extra screening leads are not part of assigned ten or accepted count.",
+    "Together with reviewed batch01:20 assigned candidates processed,14 distinct draft entries,one related variant,five deferred; zero installed additions."
+  ],
+  "limits": [
+    "This approves research assembly only, not canonical schema/render/artwork/publication.",
+    "Draft qualifiers, source specificity and unresolved cat lexical nuance remain required in any later integration.",
+    "No canonical or Git mutations or new source retrieval performed."
+  ],
+  "next_action": "Freeze both reviewed research assemblies; preserve baseline159 until separately authorized and reviewed integration.",
+  "combined_bundle_check": {
+    "path": "../candidate-bundle.json",
+    "sha256": "e25c09a44b8635b5ffd6700f318157dcd62db72dbabdb4912ac66787303f51d2",
+    "verdict": "PASS",
+    "entries_exact_concatenation": true,
+    "sources_exact_concatenation": true,
+    "fourteen_unique_candidate_keys": true,
+    "counts": "20 assigned processed =14 distinct drafts +1related variant +5deferred;3extra screening leads separately recorded;159published and0installed additions remain unchanged.",
+    "status_note": "Frozen bundle says pending final batch02 review; this separate review resolves that pending research gate without mutating the bundle. Later integration/publication gates remain open."
+  }
+}
