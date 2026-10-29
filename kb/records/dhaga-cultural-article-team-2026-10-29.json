@@ -1,5 +1,5 @@
 {
-  "status": "integration_review",
+  "status": "receipt_integration",
   "coordinator": "Disha",
   "input_head": "d0d00e533f4448968d62e303947d28157a23cd55",
   "title": "The Poetry We Speak: Why Odia Dhaga Matter",
@@ -56,9 +56,9 @@
   "receipt_prerequisite": "PR592 merged d0d00e533f4448968d62e303947d28157a23cd55;4remote files verified and scope released",
   "scope_release": "After reviewed merge, approved deployment, live verification and receipt integration",
   "remaining_gates": [
-    "Separate final exact-head review",
-    "Required CI and reviewed merge",
-    "Approved deployment, live verification and receipt integration"
+    "Separate live/receipt review",
+    "Required receipt CI and reviewed merge",
+    "Remote receipt verification and release own scope"
   ],
   "budget_fix": "Publication-only content-hashed shared catalog script; exact data equivalence and loading/failure behavior verified, complete portable prose preserved. No budget increase.",
   "evidence": [
@@ -79,5 +79,6 @@
     "catalog_payloads_exact": 530,
     "browser": "Save/download/reload/missing-asset/recovery PASS",
     "book": "159 entries,159 illustrations,90-page PDF unchanged"
-  }
+  },
+  "publication_receipt": "records/dhaga-cultural-article-publication-2026-10-29.json"
 }

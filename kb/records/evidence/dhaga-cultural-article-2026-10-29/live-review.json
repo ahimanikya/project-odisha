@@ -1,0 +1,45 @@
+{
+  "review_type": "separate AI review of saved actual live evidence",
+  "result": "PASS_WITH_LIMITATIONS",
+  "reviewed_at": "2026-10-29T04:54:19.308857+00:00",
+  "input_head": "4dab58103e63b064d970c5a51159dcc3feb16848",
+  "deployed_merge": "4dab58103e63b064d970c5a51159dcc3feb16848",
+  "deployment_run": "40818356833",
+  "samanta_live_sha256": "6e1f4fd01593716e81171522f2ee3b5d8d5a6e25776a7138de0b84d295bfb50b",
+  "blocking_findings": [],
+  "actual_visuals_viewed": {
+    "article-1440.png": "13c49dba16f05792bb7879bc0a2e9588ddbac8d793303f3ebfb62d10eb5667e7",
+    "article-390.png": "5952878e7003f8840c67d79f870d70c25ea87bf8d044e4a6b7afc8ef195cd0db",
+    "article-notes-390.png": "0ac83b4ddd6a19018561f8981b8cf7bc2dcecf690f46958d4a285b8393027b8f",
+    "048-image-390.png": "6890a4c76ab32fc8a00753199d66d4e47ae42e1ccad11feb9e61b1817a30f262",
+    "book-390.png": "01acc4fa028224f19a4a7d3af93e44ad866f06bc59fd1f11f89b3ece79ae208b",
+    "book-footer-390.png": "7322d90a2242e2b9c5adc9723327316697e651d790f5d441573d2d806333e1d0",
+    "sources-390.png": "c57915fdd503121222e2ee6ab1c93bf0a0f21cee69b402ad5fd6ad0296191e93",
+    "catalog-failure-390.png": "a80ace2efff96cb87ae4cc458c3d34f2e59f268c90e31aec06e7f6c7b9c9f715"
+  },
+  "findings": [
+    "Actual live desktop/mobile screenshots show legible title, byline, English/Odia passage, notes, book cover and048art; no visible clipping. Mobile source exceptions and footer links remain readable.",
+    "All13 recorded screenshot hashes independently match retained files;8 selected images independently viewed in this review.",
+    "Downloaded HTML independently checked:31/31 expected portable paragraphs, three exact source revision links andCCBYSA4.0 link retained; hash67ac7d9c1683c758732dba0df824e4136af33498b3dd71f612e348cf944b1eef.",
+    "Full article evidence contains30 expected visible body paragraphs with none missing and7/7 exact keyboard note returns. Portable31 count includes its separate reading structure; not an article omission claim.",
+    "Reviewed remote PDF stream verification code and saved result:77030109bytes/SHA5f2e94eb3732de2a2b59fe1ac0b88e5deea092ad97a7086bb25099e3caf416f0 match independently hashed canonical reviewed90-page PDF.",
+    "Live browser evidence records1440/390 width parity across article/book/048/sources, native menu interactions, Save persistence, blocked catalog storage preservation and recovery. Actual failure screenshot confirms disabledSave and clear reload guidance."
+  ],
+  "evidence_hashes": {
+    "full-article.json": "e34e3b6c4a946906bd9152332f25470aa703bf08dc03f7250c7162d535038fef",
+    "browser-check.json": "96923fc95ff3b36e1eaef95407234dba9a10a1ddb7798c92b82f086cbce40ad2",
+    "semantic-and-pdf.json": "ecdc5b54a9ae10ad00e380bda6fc503df9cc7dfd4c3955756d73a342be050fc8",
+    "published-catalog-browser.json": "aed2ff6761976d5c03359216c544d14bbd1e9b0731c8d5a80c4faac7d17d2e2f",
+    "published-downloaded-book.html": "67ac7d9c1683c758732dba0df824e4136af33498b3dd71f612e348cf944b1eef",
+    "semantic-and-pdf.cjs": "f06268192a97e9ac879c8cfd926487591e85972f5a2f5d9686c8f049c30b1d13",
+    "full-article.cjs": "7d8310f5f91cc5aec8300520e8e8981d3091952d8691ae79795cd87a88aa1958",
+    "expected-article.json": "6b9f586df4d915105a390995a5d8ffac8c8bee505d676cb84206f9d5ae4ba2f3"
+  },
+  "limits": [
+    "Reviewer inspected retained actual live screenshots, scripts, results and downloaded HTML; did not repeat browser interactions or download77MB PDF again. Remote stream hash test was executed by Samanta and matched against local reviewed PDF by reviewer.",
+    "Deployment success supplied by coordinator and recorded by Samanta; this review does not independently query hosting workflow.",
+    "Chrome headless emulated sizes, not physical-device or human-language proofreading.",
+    "No byte-equivalence claim for live HTML/module/analytics artifacts; semantic content checked.",
+    "Separate AI review; no canonical or Git changes."
+  ]
+}
