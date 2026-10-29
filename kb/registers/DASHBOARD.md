@@ -5,7 +5,7 @@ title: "Project Odisha dashboard"
 
 # Project Odisha · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `77370bf5ce8c04fbefa750b8910bf6d9325dcaabf87b474651140effb7d9fb66`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `23a1b9992e5250e62f4c3d4940093dde159891a48739cc0aeee4b28489cf264b`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -351,6 +351,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-WORK-2026102392 · Nayika articles and Odissi & Beyond concept survey | in_progress | reviewed | Ahimanikya Satapathy | Twelve standalone articles published and verified in their subject sections. Archive research remains open: reconcile the five-post count gap and inspect complete media before claiming exhaustive coverage. | — |
 | POD-WORK-2026102481 · Transfer character collection from Sishu Kishore | completed | published | Ahimanikya Satapathy | Complete. Character collection owns /characters/ on Project Odisha; old Sishu pages removed without redirects per Founder follow-up. | — |
 | POD-WORK-2026102491 · Publish a week in Bhubaneswar personal essay | completed | published | Ahimanikya Satapathy | Publication verified; no social posts sent. | — |
+| POD-WORK-2026102907 · Publish Maniabandha weaving and textile tourism article | in_progress | reviewed | Ahimanikya Satapathy | Push reviewed candidate, pass required CI, merge and publish; verify live page. | — |
 
 ## Pending human review and decisions
 
@@ -662,6 +663,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-DEC-2026102481 · Move character worlds to Project Odisha | recorded_direction | Ahimanikya Satapathy | Transfer existing character website, media, downloads and provenance; publish destination and retire source with compatibility links. |
 | POD-DEC-2026102483 · Onboard all Blueprint personas for this Project Odisha chat | recorded_direction | Ahimanikya Satapathy | Verify the complete current Blueprint persona roster, orient existing Project Odisha assignments for this chat and explicitly include Characters; retain existing human authority and permissions. |
 | POD-DEC-2026102491 · Expand and publish Bhubaneswar personal essay | recorded_direction | Ahimanikya Satapathy | Publish expanded personal essay on Project Odisha; prepare Facebook and Instagram captions without posting them. |
+| POD-DEC-2026102907 · Publish Maniabandha article and illustration | recorded_direction | Ahimanikya Satapathy | Publish the independently sourced Maniabandha article and approved illustration on Project Odisha; preserve companion social draft without sending it. |
 
 ## Reviews
 
@@ -1028,6 +1030,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-REV-2026102309 | pass_with_limitations | True | Separate AI review, not human community review or fieldwork.; No universal alias, surname-based caste assignment or verified community formation date established.; Bhadrak district account has unresolved exact imprint and practice dates.; Thurston1909 describes historical organisation, not current identity authority; Telugu Patras remain distinct.; Named Puri service reporting from2017 and2026 does not represent all Patara households or establish practice antiquity.; NCBC scan unread and excluded. No image rights verified; no image added. Search eligibility unchanged. |
 | POD-REV-2026102310 | pass_with_limitations | True | Separate AI review, not human community review or fieldwork.; No universal alias, surname-based caste assignment or verified community formation date established.; Ganjam district craft grouping has unresolved exact imprint and practice dates.; Crafts1962 fieldwork/published1967 is period evidence; closure causes attributed to smelters, not independently verified legal findings.; Daanla1962/published1968 household and occupational passages remain distinct; payment per pair of bullocks is local history, not current rate.; Source stereotypes and unsubstantiated settlement chronology excluded. No image rights verified; no image added. Search eligibility unchanged. |
 | POD-REV-2026102311 | pass_with_limitations | True | Separate AI review; no human community review or project fieldwork.; Regional names and mixed-community craft participation are not universal aliases or caste inferred from work.; No founder, formation date or current household census established. Kotpad testimony is dated2025 reporting.; No image rights verified; text-first article. Search eligibility unchanged. |
+| POD-REV-2026102907 | pass_with_limitations | True | Current visitor arrangements unverified; Government Khandua compendium page checked via indexed excerpt |
 
 ## Publication and application history
 
@@ -1305,7 +1308,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| POD-EVT-2026102409 | 2026-10-23T18:03:04.908091+00:00 | Resolved Jhula notation example, verified FilmsDivision productioncredits, recoveredAbana digitalreader, matched bhanita displayedverse, fixed3previewtableaccessibilityissues. Independent boundedreviews and all12structuralchecks pass. Printedwitnesses,fullfilm/audio and browservisualreview remainopen; receipt evidence-gap-review-2026-10-23.json. Unpublished. | — |
 | POD-EVT-2026102410 | 2026-10-23T18:13:47.887363+00:00 | Recovered primaryarchive-linked Abana/SridharRao and1939Subhadraprintedscans; correctedAbana digitalcounterexample framing, verified signatureplacements andrupaka variant, addedboundedrecordinguploadercredits. Anvesharesearch/Drishtiindependentreview/Samantapreviewchecks passed. Filmcertificate/audio/browserlayoutlimits retained; unpublished. | — |
 | POD-EVT-2026102411 | 2026-10-23T18:18:42.271663+00:00 | Three separate workers visually screened complete runningverse PDF2–112 in SridharRao witness; cover1 andadvertisement113 distinguished. No clear dependent-vowel exception found; notcharacter-perfect transcription or humanreview. AddedWikisource/printcomparisontable, updatedKB, all12previewchecks pass. Othermedia/browseraccesslimitsremain; unpublished. | — |
 | POD-EVT-20261023012 | 2026-10-23T21:17:28.855212+00:00 | Founder-directed publication completed sequentially for twelve standalone illustrated articles. Individual reviewed heads, merged PRs, successful deployments and desktop/mobile/live receipts recorded in nataka-publication-2026-10-24.json; final cross-page audit passed. Soumya Biswajit credit remains in source notes. No autonomous programme credit, specialist review or exhaustive archive claim. | — |
@@ -1315,6 +1317,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | POD-EVT-2026102491 | 2026-10-24T14:14:28.870294+00:00 | Prepared author-directed personal essay and original supplied photographs with separate evidence and implementation passes. Publication and live verification pending; no programme credit or social posting. | — |
 | POD-EVT-2026102492 | 2026-10-24T17:54:35.622277+00:00 | Published author-directed essay via PR527 and deployment40117643003; verified live content, original images and mobile/desktop layout. No programme credit or social posting. | — |
 | POD-EVT-2026102699 | 2026-10-25T23:07:41.478596+00:00 | Founder-requested159-entry illustrated Dhaga reader and exact86-page PDF published via PR564/deployment40242598763. All162routes/159images/PDFhash and live mobile navigation verified. No new saying acceptance, article completion, human proof or500programme credit. Receipt: records/odia-dhaga-publication-2026-10-26.json | — |
+| POD-EVT-2026102907 | 2026-10-29T16:23:33.674154+00:00 | Founder approved publication of the independently sourced Maniabandha article and illustration. Separate research, implementation and quality review assigned. | — |
 
 ## Deferred extensions
 

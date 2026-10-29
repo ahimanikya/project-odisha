@@ -1,0 +1,26 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import ArticleByline from '../../components/ArticleByline.astro';
+import ArticleFootnote from '../../components/ArticleFootnote.astro';
+import ArticleFootnotes from '../../components/ArticleFootnotes.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
+import ResponsiveImage from '../../components/ResponsiveImage.astro';
+import SaveJourney from '../../components/SaveJourney.astro';
+import '../../styles/article-reading.css';
+import story from '../../../../../kb/research/culture/maniabandha.json';
+const headings={3:'Cloth, community and worship',6:'Welcoming visitors',10:'A fair return for the maker'};
+---
+<Shell title={story.title} description={story.lead} active="explore" related={false} shareImage={story.image}>
+<article class="article-reading">
+<p class="eyebrow">Cuttack · Handlooms and cultural tourism</p>
+<h1>{story.title}</h1>
+<ArticleByline author={story.author}/>
+<p class="lead">{story.lead}</p>
+<figure><ResponsiveImage src={story.image.src} alt={story.image.alt} width={story.image.width} height={story.image.height} sizes="(max-width: 740px) 94vw, 740px" fetchpriority="high"/><figcaption>{story.image.caption}</figcaption></figure>
+<SaveJourney id={story.save_id}/>
+{story.passages.map((p,i)=><>{headings[i]&&<h2>{headings[i]}</h2>}<p>{p.text}<ArticleFootnote ids={p.source_ids} sources={story.sources} passage={p.id}/></p></>)}
+<ArticleFootnotes sources={story.sources} passages={story.passages}/>
+<ArticleReadingPath heading="Further reading" links={[{href:'/textiles/',title:'Woven in Odisha',description:'Follow the region’s textile traditions.'},{href:'/destinations/cuttack/',title:'Cuttack',description:'Places, food and living culture across the district.'},{href:'/crafts/',title:'Handmade in Odisha',description:'Meet other traditions through their materials and makers.'}]}/>
+<p><a href="/contribute/?page=%2Fstories%2Fmaniabandha%2F">Suggest an update</a>. GitHub submissions are public; omit private contact details and consent documents.</p>
+</article>
+</Shell>

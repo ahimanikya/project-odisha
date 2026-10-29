@@ -1,3 +1,4 @@
+import maniabandha from '../../../../kb/research/culture/maniabandha.json';
 import dhagaArticleRaw from '../../../../kb/research/culture/odia-dhaga.md?raw';
 import multilingualEditorial from '../../../../kb/research/voices/multilingual-editorial.json';
 import languagePopulation from '../../../../kb/research/voices/population-2011.json';
@@ -79,6 +80,7 @@ import cuttackMeal from '../../../../kb/research/food/cuttack.json';
 import cityMeal from '../../../../kb/research/food/bhubaneswar.json';
 import regions from '../../../../kb/research/destinations/regions.json';
 const entries=[];
+entries.push({id:maniabandha.save_id,title:maniabandha.title,author:maniabandha.author,kind:'Reading',area:'Cuttack',summary:maniabandha.lead,href:maniabandha.href,checked:maniabandha.checked_on,practical:maniabandha.passages.map(p=>({heading:'',text:p.text})),sources:maniabandha.sources});
 const dhagaBody=dhagaArticleRaw.replace(/^---[\s\S]*?---\s*/, '');
 const dhagaPlain=(text:string)=>text.replace(/^#{1,6}\s+/gm,'').replace(/\[\^[^\]]+\]/g,'').replace(/\[([^\]]+)\]\(([^)]+)\)/g,'$1 ($2)').replace(/^> ?/gm,'').replace(/\*\*/g,'').replace(/\*([^*]+)\*/g,'$1').trim();
 const dhagaSections=dhagaBody.split(/^## /m).map((chunk,index)=>{const lines=chunk.split('\n');const heading=index?lines.shift()!:'The Poetry We Speak';const paragraphs=lines.join('\n').split(/\n\s*\n/).filter(p=>p.trim()).map(p=>dhagaPlain(p.replace(/^\[\^[^\]]+\]:\s*/,'')));return {heading,paragraphs,text:paragraphs.join(' ')};}).filter(s=>s.paragraphs.length);
