@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 852. completed: 131, excluded: 419, queued: 302.
+Route inventory: 852. completed: 131, excluded: 420, queued: 301.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -109,7 +109,7 @@ Route inventory: 852. completed: 131, excluded: 419, queued: 302.
 | POD-EDIT-093 | [Jajapur · languages and population](https://projectodisha.org/languages/districts/jajapur/) | excluded | classification_pending |
 | POD-EDIT-094 | [Dhenkanal · languages and population](https://projectodisha.org/languages/districts/dhenkanal/) | excluded | classification_pending |
 | POD-EDIT-095 | [Anugul · languages and population](https://projectodisha.org/languages/districts/anugul/) | excluded | classification_pending |
-| POD-EDIT-096 | [Nayagarh · languages and population](https://projectodisha.org/languages/districts/nayagarh/) | queued | classification_pending |
+| POD-EDIT-096 | [Nayagarh · languages and population](https://projectodisha.org/languages/districts/nayagarh/) | excluded | classification_pending |
 | POD-EDIT-097 | [Khordha · languages and population](https://projectodisha.org/languages/districts/khordha/) | queued | classification_pending |
 | POD-EDIT-098 | [Puri · languages and population](https://projectodisha.org/languages/districts/puri/) | queued | classification_pending |
 | POD-EDIT-099 | [Ganjam · languages and population](https://projectodisha.org/languages/districts/ganjam/) | queued | classification_pending |
