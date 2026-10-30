@@ -134,7 +134,7 @@
       "id": "bijaya-jena",
       "title": "Bijaya Jena",
       "scope": "Research a profile through Tara and her work across producing, directing, acting and writing.",
-      "status": "queued",
+      "status": "local_review_ready",
       "reuse_before_research": [
         "kb/research/culture/cinema-contributor-leads.md",
         "kb/research/sources/cinema-contributor-coverage-2026-10-25.json"
@@ -145,7 +145,17 @@
         "Changed article is rendered and independently reviewed when prose changes.",
         "Unresolved evidence and next action are recorded."
       ],
-      "evidence": []
+      "evidence": [
+        "outputs/cinema-expansion-20261031/bijaya-evidence.json",
+        "outputs/cinema-expansion-20261031/bijaya-review.json",
+        "outputs/cinema-expansion-20261031/bijaya-image-provenance.json",
+        "outputs/cinema-expansion-20261031/bijaya-integration.json",
+        "outputs/cinema-expansion-20261031/bijaya-browser-review.json",
+        "outputs/cinema-expansion-20261031/bijaya-targeted-tests.log",
+        "outputs/cinema-expansion-20261031/bijaya-rendered-tests.log"
+      ],
+      "scope_released": true,
+      "outcome": "Added sourced profile through Tara and Abhaas, collaborative credits, literary influence and distribution testimony. Unique licensed portrait, independent review and responsive checks complete. Tara award row linked from overview. 45 local readings; PDF rebuild and publication pending."
     },
     {
       "order": 6,
@@ -352,7 +362,7 @@
       "evidence": []
     }
   ],
-  "next_item": "bijaya-jena",
+  "next_item": "lipika-darai",
   "scope_state": "released_after_local_review",
   "updated_on": "2026-10-31",
   "reserved_scopes_history": {
@@ -472,6 +482,49 @@
         ]
       },
       "final_correction": "Award wording corrected from genre-category ambiguity to Odia-language award; independently re-reviewed."
+    },
+    {
+      "item": "bijaya-jena",
+      "date": "2026-10-31",
+      "state": "released_after_local_review",
+      "reserved_scopes": {
+        "Anvesha": [
+          "outputs/cinema-expansion-20261031/bijaya-evidence.json"
+        ],
+        "Samanta": [
+          "kb/research/people/bijaya-jena.md"
+        ],
+        "Drishti": [
+          "outputs/cinema-expansion-20261031/bijaya-review.json"
+        ],
+        "Disha": [
+          "kb/records/cinema-expansion-work-list-2026-10-31.json",
+          "kb/records/cinema-expansion-work-list-2026-10-31.md",
+          "kb/index.md",
+          "kb/team/operations.json",
+          "kb/history/ledger.jsonl",
+          "kb/research/methods/research-map.md",
+          "kb/research/culture/cinema-series/manifest.json",
+          "kb/research/culture/cinema-series/book-narrative-2026-10-27.json",
+          "kb/research/culture/cinema-series/image-layout-2026-10-30.json",
+          "kb/research/media/cinema-series/bijaya-jena-*",
+          "projects/site/public/assets/cinema/bijaya-jena-*",
+          "projects/site/src/data/cinema.json",
+          "projects/site/src/pages/people/bijaya-jena.astro",
+          "projects/site/src/lib/page-context.mjs",
+          "projects/site/editions/coast.json",
+          "projects/site/editions/search-candidate.json",
+          "kb/records/article-editorial-rollout.json",
+          "kb/records/article-editorial-work-list.md",
+          "outputs/cinema-expansion-20261031/bijaya-integration.json",
+          "outputs/cinema-expansion-20261031/bijaya-image-provenance.json",
+          "outputs/cinema-expansion-20261031/bijaya-browser-review.json",
+          "outputs/cinema-expansion-20261031/bijaya-*.log",
+          "outputs/cinema-expansion-20261031/bijaya-*.png",
+          "projects/site/tests/cinema-release.test.mjs",
+          "kb/research/culture/odia-cinema.md"
+        ]
+      }
     }
   ]
 }

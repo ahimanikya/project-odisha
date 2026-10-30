@@ -4,9 +4,9 @@ Strengthen the series through literature, people, creative livelihoods and audie
 
 ## Current progress
 
-The adaptation research pass is reviewed. The existing Amada Bata book-publication account is retained; source-author film compensation remains unresolved. Kanhu Charan Mohanty, Manglu Charan Biswal and Bijay Mishra now have separately reviewed local articles. Bijay’s profile connects his early writing, Jajabara collaboration and continuing theatre performances. Next is Bijaya Jena.
+The adaptation research pass is reviewed. Source-author film compensation remains unresolved. Kanhu Charan Mohanty, Manglu Charan Biswal, Bijay Mishra and Bijaya Jena now have separately reviewed local articles. Jena’s profile connects Tara’s shared production work, her reading while developing Abhaas, and finding an audience. Next is Lipika Singh Darai.
 
-[Preview Bijay Mishra](http://127.0.0.1:8771/people/bijay-mishra/). The local series has 44 readings; the published books remain the earlier 41-reading edition.
+[Preview Bijaya Jena](http://127.0.0.1:8771/people/bijaya-jena/). The local series has 45 readings; the published books remain the earlier 41-reading edition.
 
 ## Sequence
 
@@ -16,7 +16,7 @@ The adaptation research pass is reviewed. The existing Amada Bata book-publicati
 | 2 | Kanhu Charan Mohanty | Research a focused writer profile connected to Kaa; distinguish original novel, adaptation and credited collaborators. | Local draft reviewed |
 | 3 | Manglu Charan Biswal | Develop the writer and theatrical world behind Bhukha with careful Sambalpuri language and livelihood context. | Local draft reviewed |
 | 4 | Bijay Mishra | Follow theatre, screenplay learning and cinema collaboration; complement Gopal Chhotray rather than repeat him. | Local draft reviewed |
-| 5 | Bijaya Jena | Research a profile through Tara and her work across producing, directing, acting and writing. | Queued |
+| 5 | Bijaya Jena | Research a profile through Tara and her work across producing, directing, acting and writing. | Local draft reviewed |
 | 6 | Lipika Singh Darai | Develop documentary, sound and editing practice beyond the existing Sita Bibaha preservation account. | Queued |
 | 7 | Pramod Pati | Inspect selected experimental works and institutional evidence; distinguish Odisha connection from film language. | Queued |
 | 8 | Bijay Mohanty | Develop performance, training and mentoring beyond the overview mention, with a distinct verified portrait. | Queued |
@@ -40,3 +40,5 @@ Research and review files are linked from the structured queue. [Kanhu illustrat
 [Manglu research](../../outputs/cinema-expansion-20261031/manglu-evidence.json), [independent review](../../outputs/cinema-expansion-20261031/manglu-review.json) and [illustration provenance](../../outputs/cinema-expansion-20261031/manglu-image-provenance.json) preserve sources, limits and the conceptual image treatment.
 
 [Bijay research](../../outputs/cinema-expansion-20261031/bijay-evidence.json), [independent review](../../outputs/cinema-expansion-20261031/bijay-review.json) and [photograph provenance](../../outputs/cinema-expansion-20261031/bijay-image-provenance.json) preserve the source accounts, limitations and CC BY-SA 3.0 credit.
+
+[Bijaya research](../../outputs/cinema-expansion-20261031/bijaya-evidence.json), [independent review](../../outputs/cinema-expansion-20261031/bijaya-review.json) and [portrait provenance](../../outputs/cinema-expansion-20261031/bijaya-image-provenance.json) preserve collaborator credits, award-year distinctions and the Commons CC BY-SA 3.0 permission record.

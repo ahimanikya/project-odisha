@@ -127,8 +127,9 @@ test('overview national awards preserve column relationships, row citations and 
  assert.ok(region);assert.ok(region[1].includes('tabindex="0"'));assert.ok(region[1].includes('role="region"'));assert.ok(region[1].includes('aria-labelledby="national-awards-caption"'));
  assert.ok(region[2].includes('<caption id="national-awards-caption">Selected National Film Awards in this series — award years, not release dates</caption>'));
  assert.deepEqual([...region[2].matchAll(/<th scope="col">([\s\S]*?)<\/th>/g)].map(m=>m[1]),['Film','Recognition','Award year and edition','Filmmakers to explore']);
- const rows=[...region[2].matchAll(/<tbody>([\s\S]*?)<\/tbody>/g)].flatMap(m=>[...m[1].matchAll(/<tr>([\s\S]*?)<\/tr>/g)].map(r=>r[1]));assert.equal(rows.length,7);
+ const rows=[...region[2].matchAll(/<tbody>([\s\S]*?)<\/tbody>/g)].flatMap(m=>[...m[1].matchAll(/<tr>([\s\S]*?)<\/tr>/g)].map(r=>r[1]));assert.equal(rows.length,8);
  assert.ok(region[2].includes("Lahari"));
+ assert.ok(region[2].includes("Tara"));assert.ok(region[2].includes("/people/bijaya-jena/"));
  for(const row of rows){assert.ok(row.includes('scope="row"'));assert.ok(/data-footnote-ref|href="#fn/.test(row),'award row retains source citation');}
  assert.equal((html.match(/id="national-awards-caption"/g)||[]).length,1);
  for(const other of cinema.articles.filter(a=>a.slug!=='odia-cinema'))assert.ok(!cinemaArticle(other).fullHTML.includes('national-awards-caption'),other.slug+' table remains unchanged');
@@ -193,7 +194,7 @@ test('image attributions continue the regular source-note sequence with matching
   assert.equal(new Set(sourceIds).size,sourceIds.length);
   for(const [,caption]of html.matchAll(/<figcaption>([\s\S]*?)<\/figcaption>/g))assert.ok(!/>\s*(?:Photo credit|Image credit)\s*</.test(caption));
  }
- assert.equal(total,20,'all required image attributions retained in regular notes, including Bijay Mishra');
+ assert.equal(total,21,'all required image attributions retained in regular notes, including Bijaya Jena');
 });
 
 test('overview keeps performer profiles, dated scoped counts and music ahead of cross-language recognition',()=>{
