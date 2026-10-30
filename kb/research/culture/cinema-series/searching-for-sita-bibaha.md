@@ -19,7 +19,7 @@ A song, a contract, a poster: small things can hold a large absence.
 
 The first Odia film, *ସୀତା ବିବାହ (Sita Bibaha)*, has a place in our histories that few readers have been able to encounter on a screen. In 2011, Mohan Sunder Deb Goswami’s grandson, Kabiraj Deb Goswami, told a reporter that no print was available.[^memory] That was a statement about what could be found then, not a reason to stop asking.
 
-Years later, filmmaker **Lipika Singh Darai** made the search the subject of a new project, with **Surya Deo** as collaborator. Their point of departure includes recordings and paper records he has collected.[^search] A history that seems to end with an unavailable film opens into the possibility of another.
+Years later, filmmaker **[Lipika Singh Darai](../../people/lipika-singh-darai.md)** made the search the subject of a new project, with **Surya Deo** as collaborator. Their point of departure includes recordings and paper records he has collected.[^search] A history that seems to end with an unavailable film opens into the possibility of another.
 
 ## Returning to 1936
 

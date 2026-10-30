@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 869. completed: 149, excluded: 420, queued: 300.
+Route inventory: 870. completed: 149, excluded: 420, queued: 301.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -893,3 +893,4 @@ Route inventory: 869. completed: 149, excluded: 420, queued: 300.
 | POD-EDIT-20261043 | [Manglu Charan Biswal: Words for the Stage and the Page](https://projectodisha.org/people/manglu-charan-biswal/) | queued | New writer profile locally reviewed in the cinema expansion; publication separately pending |
 | POD-EDIT-20261044 | [Bijay Mishra: People, Plays and the Work of Cinema](https://projectodisha.org/people/bijay-mishra/) | queued | New writer profile locally reviewed in the cinema expansion; publication separately pending |
 | POD-EDIT-20261045 | [Bijaya Jena: Making a Film, Finding Its Audience](https://projectodisha.org/people/bijaya-jena/) | queued | New writer profile locally reviewed in the cinema expansion; publication separately pending |
+| POD-EDIT-20261046 | [Lipika Singh Darai: Listening Beyond the Performance](https://projectodisha.org/people/lipika-singh-darai/) | queued | New filmmaker profile in the local cinema expansion; publication separately pending |
