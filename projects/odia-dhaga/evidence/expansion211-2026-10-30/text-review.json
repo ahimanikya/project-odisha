@@ -1,0 +1,96 @@
+{
+  "decision": "PASS_TEXT_MAPPING_ONLY",
+  "reviewer": "Drishti, separate AI review",
+  "input_head": "c284f2a5cd742bd1bca627e1010c4f7092199ba7",
+  "bindings": {
+    "entry_map": "0c940514ab1819037ff8f045dd054a709b7578d3cad1048180e9ea3a917185a6",
+    "batch10_bundle": "499b103c52a21cb2f445025b31ecbfab23fb902e2e80817defd10cd5e56d2560",
+    "source_metadata": "06547e7d41f20fd9f08a9bcc26247c0e32ba9854a2edf45593fac0595a315373",
+    "ledger": "0ee94289fe8de47f6ebd79c9911a9e2094e9badd4f14c8dbefff63ae35986be4"
+  },
+  "per_entry": [
+    {
+      "id": "POD-DHAGA-203",
+      "key": "anvesha-b10-01",
+      "draft_fields_differ": [],
+      "actual_entry_sha256": "f6a765605a473ea89b14218fff3476eb09cab7f6f2b33e5f363eaa6779e052f2",
+      "mapped_entry_hash_match": true
+    },
+    {
+      "id": "POD-DHAGA-204",
+      "key": "anvesha-b10-02",
+      "draft_fields_differ": [],
+      "actual_entry_sha256": "f0dff924d148a8b3de21d889bd731d0b2c5f4610394f917fec81c3e5e794e3b0",
+      "mapped_entry_hash_match": true
+    },
+    {
+      "id": "POD-DHAGA-205",
+      "key": "anvesha-b10-03",
+      "draft_fields_differ": [],
+      "actual_entry_sha256": "020a7b077a5496366a562510c32e6df27da14b7ab7afafbcc115d32335ee0cea",
+      "mapped_entry_hash_match": true
+    },
+    {
+      "id": "POD-DHAGA-206",
+      "key": "anvesha-b10-04",
+      "draft_fields_differ": [],
+      "actual_entry_sha256": "f8fad8b19cf49fc57e467f288c14419265071b7671fdb5d36de317a09d8c5890",
+      "mapped_entry_hash_match": true
+    },
+    {
+      "id": "POD-DHAGA-207",
+      "key": "samanta-b10-note5",
+      "draft_fields_differ": [],
+      "actual_entry_sha256": "cdd52f8b08259e189e12d31ee99184c0d89be1c6895df972341e4ecc09ba3d93",
+      "mapped_entry_hash_match": true
+    },
+    {
+      "id": "POD-DHAGA-208",
+      "key": "samanta-b10-note6",
+      "draft_fields_differ": [],
+      "actual_entry_sha256": "b5dc7ca50d02229581ae5fa0997a10bf3669d24497ca5e751d797546a9c319a9",
+      "mapped_entry_hash_match": true
+    },
+    {
+      "id": "POD-DHAGA-209",
+      "key": "samanta-b10-note7",
+      "draft_fields_differ": [],
+      "actual_entry_sha256": "7258917614fe4558c4a743de008de36e97a1216f3af0feecc6dace008ed4e48e",
+      "mapped_entry_hash_match": true
+    },
+    {
+      "id": "POD-DHAGA-210",
+      "key": "samanta-b10-note8",
+      "draft_fields_differ": [],
+      "actual_entry_sha256": "98ed800d74112968be1c22321f348022891d1b3f3204a736d91c653693a9a54a",
+      "mapped_entry_hash_match": true
+    },
+    {
+      "id": "POD-DHAGA-211",
+      "key": "samanta-b10-note9",
+      "draft_fields_differ": [],
+      "actual_entry_sha256": "090da4386b43c4e49ceeb6fa575c99a1e81c0fa70a52b84b6dbf772dcea8e15d",
+      "mapped_entry_hash_match": true
+    }
+  ],
+  "preservation": {
+    "prior_entry_bytes_exact": 202,
+    "prior_asset_bytes_exact": 210,
+    "prior_source_objects_exact": 97,
+    "prior_ledger_rows_exact": 93
+  },
+  "findings": [
+    "All9 approved draft narrative, exact wording, witness/variant, credit, rights and origin fields preserved under explicit schema mapping and source-ID alias only.",
+    "Same213323 revision registered once; scan verification registered separately as same lineage, no independent oral corroboration.",
+    "Both new capture pointers resolve and hash-match; printed scan is represented by verification JSON rather than republished image.",
+    "Anvesha extracted headwords and Samanta full genre-marker wording retained; all category values remain analogies.",
+    "Current entry-map entry hashes match all9 text-stage files; future graphic population will require updated bindings."
+  ],
+  "blockers": [],
+  "limits": [
+    "Text-only checkpoint, not final artwork/PDF/build or public release approval.",
+    "Metrics and visual preservation await frozen generated PDF; no future test pass claimed.",
+    "No canonical/Git edits or acceptance increment."
+  ],
+  "next_action": "Complete independently reviewed art, build, render and final manifest; then integrated production review."
+}

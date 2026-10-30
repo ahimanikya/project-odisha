@@ -8,13 +8,14 @@ class LongReadingLayoutTests(unittest.TestCase):
     def unit(self,ident,height=100):
         return {'id':ident,'chapter':'A','unit':([Spacer(1,height)],None,None)}
     def test_exception_flushes_and_resumes_without_overlap(self):
-        units=[self.unit('POD-DHAGA-198'),self.unit('POD-DHAGA-200'),self.unit('POD-DHAGA-201')]
+        units=[self.unit('POD-DHAGA-198'),self.unit('POD-DHAGA-204'),self.unit('POD-DHAGA-206'),self.unit('POD-DHAGA-201')]
         pages,chapters,packing=pack_reading_units(units,200,420,600)
         self.assertEqual([[i['id'] for i in p] for p in pages],[[u['id']] for u in units])
-        self.assertEqual([x['page'] for x in packing],[4,5,6])
+        self.assertEqual([x['page'] for x in packing],[4,5,6,7])
         self.assertEqual(packing[1]['layout'],'full-width')
         self.assertEqual(packing[1]['measured_width_pt'],420)
-        self.assertEqual(packing[2]['column'],0)
+        self.assertEqual(packing[2]['layout'],'full-width')
+        self.assertEqual(packing[3]['column'],0)
         for page in pages:
             for item in page:self.assertGreaterEqual(item['top'],0);self.assertLessEqual(item['top']+item['height'],600);self.assertEqual(item['text_scale_factor'],1)
     def test_width_reflows_text_without_font_reduction(self):
