@@ -2659,12 +2659,15 @@
       "id": "POD-EDIT-098",
       "route": "/languages/districts/puri/",
       "title": "Puri · languages and population",
-      "status": "queued",
+      "status": "excluded",
       "scope": "classification_pending",
       "source_template": null,
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/puri-language-utility-review-2026-10-30.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually exclude POD-EDIT-098 as a Census2011 district data/navigation utility. Preserve Puri district387 and its81 rows, parent/member classifications, historical residence denominators, language links, search settings and actual Puri destination connection with explicit city-versus-district caveat. This route has no sustained authored district-language narrative and no configured related-discovery links. Preserve separate Puri visitor/destination, Sahi Jatra, food and craft material; district totals do not establish city speech, ancestry or community identity."
     },
     {
       "id": "POD-EDIT-099",

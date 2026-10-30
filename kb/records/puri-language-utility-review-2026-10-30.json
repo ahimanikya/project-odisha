@@ -1,0 +1,5290 @@
+{
+  "status": "reviewed_classification_integration_candidate",
+  "item": "POD-EDIT-098",
+  "route": "/languages/districts/puri/",
+  "input_head": "eaf190a9fa72013375646659399dc0fe1a0d480e",
+  "integration_base": "49ece72a27d5145bb1d48f17f76961ea1026c555",
+  "decision": "Individually exclude POD-EDIT-098 as a Census2011 district data/navigation utility. Preserve Puri district387 and its81 rows, parent/member classifications, historical residence denominators, language links, search settings and actual Puri destination connection with explicit city-versus-district caveat. This route has no sustained authored district-language narrative and no configured related-discovery links. Preserve separate Puri visitor/destination, Sahi Jatra, food and craft material; district totals do not establish city speech, ancestry or community identity.",
+  "programme_credit": 0,
+  "article_completion_credit": 0,
+  "scope_release": "Only after coordinator ownership reconciliation, separate exact-head review, passing CI, merge and remote verification. No deployment required because products remain unchanged.",
+  "report_hashes": {
+    "anvesha.json": "e4fe7b4f53f9006df43ca8a8bf7f05c34d7abe8e910fcba7d6b850c3552b512a",
+    "samanta.json": "488acb37bbbfd499b3f37a4b681ce0bbebd6fcd215699c86425ff5188c735044",
+    "drishti.json": "06e2e14dc5cc92437ac22ac0e85d13096fbeacc1052d66afb5e104d9044e150c"
+  },
+  "reports": {
+    "anvesha.json": {
+      "input_head": "eaf190a9fa72013375646659399dc0fe1a0d480e",
+      "origin_main_local_ref": "1a5ecb5b7919cdacb5be6cc75d39c71293ecf758",
+      "item": "POD-EDIT-098",
+      "route": "/languages/districts/puri/",
+      "recommendation": "individual_utility_exclusion_candidate",
+      "rationale": "The inspected Puri route is a historical Census district explorer built from actual district387 data: group/member tables, rural/urban denominators and selected language links. Its configured destination connection explicitly distinguishes Puri city from the wider district. Neither that useful connection nor the district-specific numerical results constitute a sustained authored language narrative. Preserve this utility and separately authored Puri destination/performance material rather than add an artificial article byline or infer cultural identity from census counts.",
+      "source": {
+        "title": "C-16: Population by mother tongue, Odisha — 2011",
+        "url": "https://censusindia.gov.in/nada/index.php/catalog/10217",
+        "download": "https://censusindia.gov.in/nada/index.php/catalog/10217/download/13329/DDW-C16-STMT-MDDS-2100.XLSX",
+        "file": "references/census-2011/c16-odisha.xlsx",
+        "sha256": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db",
+        "sheet": "Sheet1"
+      },
+      "source_locator": "Sheet1 rows13597–13677; A=C0116, B=21, C=387, D=00000; F language code, G original label, H:P nine numeric cells. Puri(M)03070 and all non00000geographies excluded.",
+      "district_checks": {
+        "actual_workbook_sha256": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db",
+        "district": "Puri",
+        "code": "387",
+        "row_range": [
+          13597,
+          13677
+        ],
+        "row_count": 81,
+        "group_count": 33,
+        "subordinate_count": 48,
+        "numeric_cells_compared": 729,
+        "all_identifiers_numeric_cells_and_locators_match": true,
+        "errors": [],
+        "population_H_to_P": [
+          1698730,
+          865380,
+          833350,
+          1433800,
+          728213,
+          705587,
+          264930,
+          137167,
+          127763
+        ],
+        "group_sums_H_to_P": [
+          1698730,
+          865380,
+          833350,
+          1433800,
+          728213,
+          705587,
+          264930,
+          137167,
+          127763
+        ],
+        "residual_groups_without_children": [
+          {
+            "row": 13677,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "124000",
+            "raw_label": "124 OTHERS",
+            "values": [
+              297,
+              157,
+              140,
+              237,
+              118,
+              119,
+              60,
+              39,
+              21
+            ]
+          }
+        ],
+        "other_geographies_not_combined": {
+          "03056": "Delanga",
+          "03057": "Pipili ",
+          "03058": "Nimapada",
+          "03059": "Kakatpur",
+          "03060": "Astaranga",
+          "03061": "Konark",
+          "03062": "Gop",
+          "03063": "Ramachandi",
+          "03064": "Satyabadi",
+          "03065": "Chandanpur ",
+          "03066": "Sadar ",
+          "03067": "Brahmagiri",
+          "03068": "Gadisagada",
+          "03069": "Krushna Prasad ",
+          "03070": "Puri (M)"
+        },
+        "selected_profiles": {
+          "odia": 1614787,
+          "santali": 657,
+          "kui": 66,
+          "saora": 82,
+          "ho": 15,
+          "koya": 3,
+          "sambalpuri": 433
+        },
+        "odia_group_vs_return": {
+          "015000": {
+            "values": [
+              1615249,
+              822908,
+              792341,
+              1392970,
+              707554,
+              685416,
+              222279,
+              115354,
+              106925
+            ],
+            "source_row": 13632
+          },
+          "015043": {
+            "values": [
+              1614787,
+              822680,
+              792107,
+              1392528,
+              707338,
+              685190,
+              222259,
+              115342,
+              106917
+            ],
+            "source_row": 13633
+          }
+        }
+      },
+      "context": {
+        "actual_destination_connections": [
+          {
+            "destination": "puri",
+            "district": "387",
+            "title": "Puri",
+            "note": "Puri city and the wider Puri district are different geographic scopes. These figures cover the district."
+          }
+        ],
+        "configured_further_reading": [],
+        "interpretation": "Puri(M)03070 is a separate source geography, not a substitute denominator for district387. Raghurajpur village, Puri city, temple institutions and the district are not interchangeable."
+      },
+      "authored_material_to_preserve": [
+        {
+          "path": "kb/research/destinations/puri-editorial.json",
+          "detail": "Separate Founder-authored destination treatment/source map connecting city, coast, Mahaprasad and Raghurajpur; visitor guidance and evidence limits distinct from district mother-tongue data."
+        },
+        {
+          "path": "kb/research/culture/sahi-jatra.md",
+          "detail": "Actual By Ahimanikya Satapathy narrative on Puri neighbourhood performance, named sahis/characters and akhada/jaga institutions; preserve sources and photograph credit. Not evidence of every district resident’s language."
+        },
+        {
+          "path": "kb/research/culture/raghurajpur-pattachitra.md",
+          "detail": "Separate research nucleus for craft village; its draft status remains distinct from published Sahi Jatra."
+        },
+        {
+          "path": "kb/research/food/mahaprasad.md",
+          "detail": "Separate draft food research and source trail; not a district-wide cultural or linguistic identity claim."
+        },
+        {
+          "path": "kb/research/places/puri.md",
+          "detail": "Separate coast/food research nucleus, not language population evidence."
+        },
+        {
+          "path": "kb/research/statistics/districts/puri.md",
+          "detail": "Separate dated banking snapshot, not household income, GDP or language explanation."
+        }
+      ],
+      "governance_consulted": [
+        "AGENTS.md",
+        "kb/index.md",
+        "kb/TEAM-CHARTER.md",
+        "kb/Working-Agreement.md",
+        "kb/team/assignments.json",
+        "kb/team/operations.json",
+        "kb/research/methods/research-map.md",
+        "kb/reference/article-editorial-standard.md",
+        "outputHANDOFF",
+        "kb/team/working-arrangements.md",
+        "kb/reference/adopted-blueprint/working-agreement.md"
+      ],
+      "searches": {
+        "method": "Ran research-map query Puri before inspecting retained material; focused route/config/source reads, no fresh web search.",
+        "capture": "anvesha/query-puri.txt",
+        "limit": "Research map dated and not exhaustive. Separate material identified for preservation, not externally revalidated."
+      },
+      "tests": [
+        "Read original XLSX ZIP/XML independently without invoking atlas generator or modifying workbook.",
+        "Compared all81 district rows, row locators, code set and729numeric cells to stored atlas.",
+        "Every row sex/residence arithmetic checked; all parent group totals sum to district population; subordinate sums checked where present.",
+        "Verified retained original workbook SHA against atlas source metadata.",
+        "Inspected actual district387 context link and absence of configured extra reading links; did not inherit sibling classification."
+      ],
+      "file_hashes": {
+        "kb/research/references/census-2011/c16-odisha.xlsx": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db",
+        "kb/research/voices/population-2011.json": "c149d36bfa5c6c01595ddb517dfca21c5d8d5fe6d2283fa19dc020432b7fe998",
+        "projects/site/src/pages/languages/districts/[slug].astro": "4710838468016e58cf8b3d2a1537c1185b3cb39049b5ce90dbae6c1391568e76",
+        "projects/site/src/lib/language-atlas.mjs": "c52a825ccfec3aa241173e7d50355a42074bdfb8a45ee4ac225a2fec3e99a87c",
+        "tools/languages/build_atlas.py": "900f85b4a7f97bfd1537af6da8fd016221b9fd30c418f8ce125a293d8140471b",
+        "kb/research/voices/district-connections.json": "149161595dab537134f247fd7c5fdb34aa128b2bb008ae5a35fc0bb04f97f303",
+        "kb/research/related-discoveries.json": "139d0e02577be85b4df622cd1c16befa88daeeef3b3002f7097bd8cb7a79d742",
+        "kb/research/destinations/puri-editorial.json": "39135305b98bff4c1ee9416cab6c427ceb67cc4b3f268d46a1ddafddefa13aa6",
+        "kb/research/destinations/regions.json": "7c6cb3cd47edb321aa869696b35a9062adf066fc39a42122c91027e511475f70",
+        "kb/research/culture/sahi-jatra.md": "796676f8851c730293951d8745f443bee1b7e261bdbb854504048d4e3bec06ce",
+        "kb/research/food/mahaprasad.md": "494a55ca98757a5347f90c88cdf5a2d5a0709cd0f147a2dc1d820bedd571d897",
+        "kb/research/culture/raghurajpur-pattachitra.md": "a2ace1af5d370eefb2177d16a36107d7819553c20499a372282e48e0dc589536",
+        "kb/research/places/puri.md": "319446c37acf3b5bfa0835d1e97f7ddcf56450a6a2362dfff8861a236a824015",
+        "kb/research/statistics/districts/puri.md": "0b975a88ee60d9279afcfcbe3917c62ad39e3470a092e9249477a31599f0a538"
+      },
+      "evidence_hashes": {
+        "source-parity.json": "c8a02733a0e7a3e2d2637c3c5d735c209bc3050b7d7b49d05ab4d3dfc97cc80f",
+        "query-puri.txt": "b0c67503e9c93296780b775027cc788684849a1cfd14e518062419881ebb6cc4",
+        "check-source.py": "16095cab0f55c2b10606871819333f2be8655576eaddad675fe458df7c66bec9"
+      },
+      "limits": [
+        "Retained original Census2011source inspected; no fresh download or current population estimate.",
+        "ODIAgroup1615249 and Odiareturn1614787 are distinct; group/member rows must not be added together.",
+        "Mother tongue counts do not establish fluency, ancestry, migration, work language or individual/community identity.",
+        "Statewide C17cannot be apportioned to Puri district/city.",
+        "No live rendering, canonical edits, public release, other-district classification or programme credit."
+      ],
+      "next_actions": [
+        "Independent reviewer should bind actual81row/729cell evidence, originalsourcehash and city/district connection.",
+        "Coordinator may record098 as individually justified utility exclusion while preserving route/data and separate authored narratives."
+      ],
+      "completion_credit": 0,
+      "programme_credit": 0
+    },
+    "samanta.json": {
+      "item": "POD-EDIT-098",
+      "route": "/languages/districts/puri/",
+      "input_head": "eaf190a9fa72013375646659399dc0fe1a0d480e",
+      "origin_main_local_ref": "1a5ecb5b7919cdacb5be6cc75d39c71293ecf758",
+      "recommendation": "individual_utility_exclusion_candidate",
+      "rationale": "This actual Puri route supplies calculated Census group counts, historical rural/urban denominators and nested mother-tongue tables. Its single tailored destination connection explicitly distinguishes Puri city from the district; no configured related-discovery or sustained locally authored narrative is injected. These features support a utility exclusion for098 alone, not for the separate Puri destination article.",
+      "district": {
+        "code": "387",
+        "name": "Puri",
+        "rows": 81,
+        "groups": 33,
+        "subordinate_rows": 48,
+        "source_row_range": [
+          13597,
+          13677
+        ],
+        "population_nine_fields": [
+          1698730,
+          865380,
+          833350,
+          1433800,
+          728213,
+          705587,
+          264930,
+          137167,
+          127763
+        ],
+        "largest_group": {
+          "code": "015000",
+          "label": "ODIA",
+          "persons": 1615249,
+          "share_percent": 95.09
+        }
+      },
+      "source_checks": {
+        "source": {
+          "title": "C-16: Population by mother tongue, Odisha — 2011",
+          "url": "https://censusindia.gov.in/nada/index.php/catalog/10217",
+          "download": "https://censusindia.gov.in/nada/index.php/catalog/10217/download/13329/DDW-C16-STMT-MDDS-2100.XLSX",
+          "file": "references/census-2011/c16-odisha.xlsx",
+          "sha256": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db",
+          "sheet": "Sheet1"
+        },
+        "numeric_cells": 729,
+        "result": "PASS original saved XLSX vs derived atlas, every district row/code/anchor and all9numbers; sex/residence arithmetic and group sums also pass",
+        "evidence": "samanta/original-row-parity.json"
+      },
+      "context": {
+        "destination_connections": [
+          {
+            "destination": "puri",
+            "district": "387",
+            "title": "Puri",
+            "note": "Puri city and the wider Puri district are different geographic scopes. These figures cover the district."
+          }
+        ],
+        "related_discoveries": [],
+        "preserve_separate_authored_material": [
+          {
+            "path": "kb/research/destinations/puri-editorial.json",
+            "route": "/destinations/puri/",
+            "reason": "Separate authored city/visitor narrative with seven named sources and mapped notebook passages, not the district statistical utility."
+          },
+          {
+            "path": "kb/research/product/puri-visitor-essentials-2026-09-30.md",
+            "reason": "Separate practical visitor material; untouched by this utility classification."
+          }
+        ]
+      },
+      "cached_render": {
+        "path": "projects/site/dist-publish/languages/districts/puri/index.html",
+        "sha256": "8ad7966d2d877c78badd73c90cc92ec1d908b3fb5f94cffedf819ad82b1ea5e2",
+        "extracted_article": "samanta/cached-article.txt",
+        "extracted_sha256": "3f9be2e74653551cc3dff485ff9e9c510208b496d3f4d3321d7505e9536f77e9",
+        "article_links": [
+          "/languages/districts/",
+          "/languages/atlas/?language=015000&residence=total",
+          "/languages/atlas/?language=022000&residence=total",
+          "/languages/atlas/?language=021000&residence=total",
+          "/languages/atlas/?language=002000&residence=total",
+          "/languages/atlas/?language=006000&residence=total",
+          "/languages/atlas/?language=018000&residence=total",
+          "/languages/atlas/?language=124000&residence=total",
+          "/languages/atlas/?language=040000&residence=total",
+          "/languages/atlas/?language=020000&residence=total",
+          "/languages/atlas/?language=106000&residence=total",
+          "/languages/atlas/?language=070000&residence=total",
+          "/languages/atlas/?language=091000&residence=total",
+          "/languages/atlas/?language=013000&residence=total",
+          "/languages/atlas/?language=011000&residence=total",
+          "/languages/atlas/?language=014000&residence=total",
+          "/languages/atlas/?language=016000&residence=total",
+          "/languages/atlas/?language=048000&residence=total",
+          "/languages/atlas/?language=005000&residence=total",
+          "/languages/atlas/?language=010000&residence=total",
+          "/languages/atlas/?language=058000&residence=total",
+          "/languages/atlas/?language=001000&residence=total",
+          "/languages/atlas/?language=054000&residence=total",
+          "/languages/atlas/?language=017000&residence=total",
+          "/languages/atlas/?language=030000&residence=total",
+          "/languages/atlas/?language=072000&residence=total",
+          "/languages/atlas/?language=009000&residence=total",
+          "/languages/atlas/?language=092000&residence=total",
+          "/languages/atlas/?language=007000&residence=total",
+          "/languages/atlas/?language=069000&residence=total",
+          "/languages/atlas/?language=083000&residence=total",
+          "/languages/atlas/?language=012000&residence=total",
+          "/languages/atlas/?language=032000&residence=total",
+          "/languages/atlas/?language=044000&residence=total",
+          "/languages/atlas/?language=015043&residence=total",
+          "/languages/atlas/?language=022015&residence=total",
+          "/languages/atlas/?language=021046&residence=total",
+          "/languages/atlas/?language=002007&residence=total",
+          "/languages/atlas/?language=006240&residence=total",
+          "/languages/atlas/?language=018040&residence=total",
+          "/languages/atlas/?language=015058&residence=total",
+          "/languages/atlas/?language=006400&residence=total",
+          "/languages/atlas/?language=040001&residence=total",
+          "/languages/atlas/?language=020027&residence=total",
+          "/languages/atlas/?language=106004&residence=total",
+          "/languages/atlas/?language=070001&residence=total",
+          "/languages/atlas/?language=091009&residence=total",
+          "/languages/atlas/?language=006142&residence=total",
+          "/languages/atlas/?language=013071&residence=total",
+          "/languages/atlas/?language=006999&residence=total",
+          "/languages/atlas/?language=011016&residence=total",
+          "/languages/atlas/?language=015051&residence=total",
+          "/languages/atlas/?language=014011&residence=total",
+          "/languages/atlas/?language=016038&residence=total",
+          "/languages/atlas/?language=006102&residence=total",
+          "/languages/atlas/?language=048004&residence=total",
+          "/languages/atlas/?language=005018&residence=total",
+          "/languages/atlas/?language=010008&residence=total",
+          "/languages/atlas/?language=058001&residence=total",
+          "/languages/atlas/?language=001002&residence=total",
+          "/languages/atlas/?language=006355&residence=total",
+          "/languages/atlas/?language=054005&residence=total",
+          "/languages/atlas/?language=017002&residence=total",
+          "/languages/atlas/?language=030002&residence=total",
+          "/languages/atlas/?language=072024&residence=total",
+          "/languages/atlas/?language=006503&residence=total",
+          "/languages/atlas/?language=009011&residence=total",
+          "/languages/atlas/?language=006066&residence=total",
+          "/languages/atlas/?language=006235&residence=total",
+          "/languages/atlas/?language=006489&residence=total",
+          "/languages/atlas/?language=092005&residence=total",
+          "/languages/atlas/?language=015999&residence=total",
+          "/languages/atlas/?language=069002&residence=total",
+          "/languages/atlas/?language=083999&residence=total",
+          "/languages/atlas/?language=007016&residence=total",
+          "/languages/atlas/?language=012003&residence=total",
+          "/languages/atlas/?language=006345&residence=total",
+          "/languages/atlas/?language=006420&residence=total",
+          "/languages/atlas/?language=006476&residence=total",
+          "/languages/atlas/?language=007999&residence=total",
+          "/languages/atlas/?language=032999&residence=total",
+          "/languages/atlas/?language=044999&residence=total",
+          "/languages/atlas/?language=015000&residence=rural",
+          "/languages/atlas/?language=022000&residence=rural",
+          "/languages/atlas/?language=021000&residence=rural",
+          "/languages/atlas/?language=006000&residence=rural",
+          "/languages/atlas/?language=002000&residence=rural",
+          "/languages/atlas/?language=018000&residence=rural",
+          "/languages/atlas/?language=124000&residence=rural",
+          "/languages/atlas/?language=106000&residence=rural",
+          "/languages/atlas/?language=040000&residence=rural",
+          "/languages/atlas/?language=020000&residence=rural",
+          "/languages/atlas/?language=070000&residence=rural",
+          "/languages/atlas/?language=091000&residence=rural",
+          "/languages/atlas/?language=013000&residence=rural",
+          "/languages/atlas/?language=048000&residence=rural",
+          "/languages/atlas/?language=058000&residence=rural",
+          "/languages/atlas/?language=010000&residence=rural",
+          "/languages/atlas/?language=054000&residence=rural",
+          "/languages/atlas/?language=030000&residence=rural",
+          "/languages/atlas/?language=016000&residence=rural",
+          "/languages/atlas/?language=011000&residence=rural",
+          "/languages/atlas/?language=017000&residence=rural",
+          "/languages/atlas/?language=001000&residence=rural",
+          "/languages/atlas/?language=005000&residence=rural",
+          "/languages/atlas/?language=014000&residence=rural",
+          "/languages/atlas/?language=083000&residence=rural",
+          "/languages/atlas/?language=007000&residence=rural",
+          "/languages/atlas/?language=032000&residence=rural",
+          "/languages/atlas/?language=044000&residence=rural",
+          "/languages/atlas/?language=072000&residence=rural",
+          "/languages/atlas/?language=092000&residence=rural",
+          "/languages/atlas/?language=015043&residence=rural",
+          "/languages/atlas/?language=022015&residence=rural",
+          "/languages/atlas/?language=021046&residence=rural",
+          "/languages/atlas/?language=006240&residence=rural",
+          "/languages/atlas/?language=002007&residence=rural",
+          "/languages/atlas/?language=015058&residence=rural",
+          "/languages/atlas/?language=018040&residence=rural",
+          "/languages/atlas/?language=106004&residence=rural",
+          "/languages/atlas/?language=040001&residence=rural",
+          "/languages/atlas/?language=006142&residence=rural",
+          "/languages/atlas/?language=006400&residence=rural",
+          "/languages/atlas/?language=015051&residence=rural",
+          "/languages/atlas/?language=020027&residence=rural",
+          "/languages/atlas/?language=070001&residence=rural",
+          "/languages/atlas/?language=091009&residence=rural",
+          "/languages/atlas/?language=013071&residence=rural",
+          "/languages/atlas/?language=048004&residence=rural",
+          "/languages/atlas/?language=058001&residence=rural",
+          "/languages/atlas/?language=006355&residence=rural",
+          "/languages/atlas/?language=006102&residence=rural",
+          "/languages/atlas/?language=010008&residence=rural",
+          "/languages/atlas/?language=054005&residence=rural",
+          "/languages/atlas/?language=030002&residence=rural",
+          "/languages/atlas/?language=016038&residence=rural",
+          "/languages/atlas/?language=011016&residence=rural",
+          "/languages/atlas/?language=017002&residence=rural",
+          "/languages/atlas/?language=001002&residence=rural",
+          "/languages/atlas/?language=005018&residence=rural",
+          "/languages/atlas/?language=006066&residence=rural",
+          "/languages/atlas/?language=014011&residence=rural",
+          "/languages/atlas/?language=083999&residence=rural",
+          "/languages/atlas/?language=006420&residence=rural",
+          "/languages/atlas/?language=006476&residence=rural",
+          "/languages/atlas/?language=006489&residence=rural",
+          "/languages/atlas/?language=006999&residence=rural",
+          "/languages/atlas/?language=007016&residence=rural",
+          "/languages/atlas/?language=032999&residence=rural",
+          "/languages/atlas/?language=044999&residence=rural",
+          "/languages/atlas/?language=072024&residence=rural",
+          "/languages/atlas/?language=092005&residence=rural",
+          "/languages/atlas/?language=015000&residence=urban",
+          "/languages/atlas/?language=021000&residence=urban",
+          "/languages/atlas/?language=022000&residence=urban",
+          "/languages/atlas/?language=002000&residence=urban",
+          "/languages/atlas/?language=006000&residence=urban",
+          "/languages/atlas/?language=018000&residence=urban",
+          "/languages/atlas/?language=020000&residence=urban",
+          "/languages/atlas/?language=124000&residence=urban",
+          "/languages/atlas/?language=070000&residence=urban",
+          "/languages/atlas/?language=013000&residence=urban",
+          "/languages/atlas/?language=091000&residence=urban",
+          "/languages/atlas/?language=011000&residence=urban",
+          "/languages/atlas/?language=040000&residence=urban",
+          "/languages/atlas/?language=014000&residence=urban",
+          "/languages/atlas/?language=016000&residence=urban",
+          "/languages/atlas/?language=005000&residence=urban",
+          "/languages/atlas/?language=106000&residence=urban",
+          "/languages/atlas/?language=001000&residence=urban",
+          "/languages/atlas/?language=072000&residence=urban",
+          "/languages/atlas/?language=009000&residence=urban",
+          "/languages/atlas/?language=010000&residence=urban",
+          "/languages/atlas/?language=017000&residence=urban",
+          "/languages/atlas/?language=069000&residence=urban",
+          "/languages/atlas/?language=092000&residence=urban",
+          "/languages/atlas/?language=007000&residence=urban",
+          "/languages/atlas/?language=012000&residence=urban",
+          "/languages/atlas/?language=054000&residence=urban",
+          "/languages/atlas/?language=048000&residence=urban",
+          "/languages/atlas/?language=058000&residence=urban",
+          "/languages/atlas/?language=015043&residence=urban",
+          "/languages/atlas/?language=021046&residence=urban",
+          "/languages/atlas/?language=022015&residence=urban",
+          "/languages/atlas/?language=002007&residence=urban",
+          "/languages/atlas/?language=006240&residence=urban",
+          "/languages/atlas/?language=018040&residence=urban",
+          "/languages/atlas/?language=006400&residence=urban",
+          "/languages/atlas/?language=020027&residence=urban",
+          "/languages/atlas/?language=070001&residence=urban",
+          "/languages/atlas/?language=006999&residence=urban",
+          "/languages/atlas/?language=013071&residence=urban",
+          "/languages/atlas/?language=091009&residence=urban",
+          "/languages/atlas/?language=011016&residence=urban",
+          "/languages/atlas/?language=040001&residence=urban",
+          "/languages/atlas/?language=014011&residence=urban",
+          "/languages/atlas/?language=016038&residence=urban",
+          "/languages/atlas/?language=015058&residence=urban",
+          "/languages/atlas/?language=006102&residence=urban",
+          "/languages/atlas/?language=005018&residence=urban",
+          "/languages/atlas/?language=106004&residence=urban",
+          "/languages/atlas/?language=001002&residence=urban",
+          "/languages/atlas/?language=006503&residence=urban",
+          "/languages/atlas/?language=072024&residence=urban",
+          "/languages/atlas/?language=009011&residence=urban",
+          "/languages/atlas/?language=010008&residence=urban",
+          "/languages/atlas/?language=006235&residence=urban",
+          "/languages/atlas/?language=006489&residence=urban",
+          "/languages/atlas/?language=015999&residence=urban",
+          "/languages/atlas/?language=017002&residence=urban",
+          "/languages/atlas/?language=069002&residence=urban",
+          "/languages/atlas/?language=092005&residence=urban",
+          "/languages/atlas/?language=012003&residence=urban",
+          "/languages/atlas/?language=015051&residence=urban",
+          "/languages/atlas/?language=054005&residence=urban",
+          "/languages/atlas/?language=006345&residence=urban",
+          "/languages/atlas/?language=006355&residence=urban",
+          "/languages/atlas/?language=007016&residence=urban",
+          "/languages/atlas/?language=007999&residence=urban",
+          "/languages/atlas/?language=048004&residence=urban",
+          "/languages/atlas/?language=058001&residence=urban",
+          "/languages/odia/",
+          "/languages/santali/",
+          "/languages/sambalpuri/",
+          "/languages/saora/",
+          "/languages/kui/",
+          "/languages/ho/",
+          "/languages/koya/",
+          "/destinations/puri/",
+          "/languages/multilingual-odisha/",
+          "/contribute/",
+          "https://censusindia.gov.in/nada/index.php/catalog/10217"
+        ],
+        "basis": "Existing saved build only; no fresh build/live/browser claim.",
+        "accessibility_scope": "Text/links read from saved build; no new browser, physical phone or screen-reader inspection."
+      },
+      "frozen_proposal": {
+        "files": [
+          "kb/records/puri-language-utility-review-2026-10-30.json",
+          "kb/records/article-editorial-rollout.json",
+          "kb/records/article-editorial-work-list.md"
+        ],
+        "change": "After separate review and coordinator ownership reconciliation, only098 queued→excluded with individual evidence/reason; regenerate work-list. No authored-article completion credit.",
+        "preserve": [
+          "Public route,data,search eligibility,source caveats and Puri city/district connection",
+          "All other rollout items and separate Puri city/visitor/regional narratives",
+          "201Dhaga readings/art and114pagePDF"
+        ],
+        "checks": [
+          "Only098 disposition fields change; all sibling records equal",
+          "Existing rollout/worklist/programme/team consistency checks",
+          "No public/site/data/book diff; unchanged-product build unnecessary"
+        ],
+        "programme_credit": 0
+      },
+      "actual_checks": [
+        "Independent original workbook XML read; no fresh download",
+        "Complete cached article/links extracted and actual configured connection confirmed",
+        "Template/table/helper and existing district/atlas test coverage inspected",
+        "No new mirror tests, builds or canonical mutations"
+      ],
+      "files": [
+        {
+          "path": "AGENTS.md",
+          "sha256": "201a1681b987fac0947dc7dd846d29058d753f7f3e7b497026ec197f35c19a58"
+        },
+        {
+          "path": "kb/index.md",
+          "sha256": "d8e8e8799ec541dc59b6325f5575ed9a7b6679fd290976163ac60c22ebb1cacf"
+        },
+        {
+          "path": "kb/team/assignments.json",
+          "sha256": "d9dbe76765901a7458c2a8aadfce0163253347f53f13856ebc7ab1e5b4fd3a0e"
+        },
+        {
+          "path": "kb/team/operations.json",
+          "sha256": "fac6a7e7a5697dcab89855842a75626462ae7f25aad43568c756eb6aa6ce668a"
+        },
+        {
+          "path": "kb/reference/article-editorial-standard.md",
+          "sha256": "2cf78004a05aa57dc303950ad37004484389f1645775532081c0013a09a13238"
+        },
+        {
+          "path": "projects/site/src/pages/languages/districts/[slug].astro",
+          "sha256": "4710838468016e58cf8b3d2a1537c1185b3cb39049b5ce90dbae6c1391568e76"
+        },
+        {
+          "path": "projects/site/src/components/DistrictLanguageTable.astro",
+          "sha256": "36971c1f294c05a73ab2885629be49bea81ff14782d5a7c1846433ac734d06ed"
+        },
+        {
+          "path": "projects/site/src/lib/language-atlas.mjs",
+          "sha256": "c52a825ccfec3aa241173e7d50355a42074bdfb8a45ee4ac225a2fec3e99a87c"
+        },
+        {
+          "path": "kb/research/voices/population-2011.json",
+          "sha256": "c149d36bfa5c6c01595ddb517dfca21c5d8d5fe6d2283fa19dc020432b7fe998"
+        },
+        {
+          "path": "kb/research/voices/district-connections.json",
+          "sha256": "149161595dab537134f247fd7c5fdb34aa128b2bb008ae5a35fc0bb04f97f303"
+        },
+        {
+          "path": "kb/research/related-discoveries.json",
+          "sha256": "139d0e02577be85b4df622cd1c16befa88daeeef3b3002f7097bd8cb7a79d742"
+        },
+        {
+          "path": "projects/site/tests-coast/district-languages.test.mjs",
+          "sha256": "d08f9361f582b4b9d079f82ea34eba984eba00774d1dbb963234d3557be522c9"
+        },
+        {
+          "path": "projects/site/tests/language-atlas.test.mjs",
+          "sha256": "bda0b2cf8391ffecab92327ce9bce42e8aca3975cba280c10705c77d7abd84df"
+        },
+        {
+          "path": "kb/research/destinations/puri-editorial.json",
+          "sha256": "39135305b98bff4c1ee9416cab6c427ceb67cc4b3f268d46a1ddafddefa13aa6"
+        },
+        {
+          "path": "kb/research/product/puri-visitor-essentials-2026-09-30.md",
+          "sha256": "e57ca9fd0db0a0b302a6f31a254168444858ba0ba8af4482a77bfafbc31c4c74"
+        },
+        {
+          "path": "kb/TEAM-CHARTER.md",
+          "sha256": "02b4d83a6a6536d7ebd6d6f7afb621db293c6457c66f95c18b450654b0d32925"
+        },
+        {
+          "path": "kb/Working-Agreement.md",
+          "sha256": "b4dc8bdad4602e0854a7104b7624548baa1f99aab5e3e7ef41c4cd3963402aaa"
+        },
+        {
+          "path": "kb/records/article-editorial-rollout.json",
+          "sha256": "227da3ae30b6610f1dfd979daec1ebd9145b59f336c4aae10443c106324c1245"
+        }
+      ],
+      "limits": [
+        "No current-day population, town language, ancestry, fluency or community identity inferred.",
+        "Workbook labels preserve Census classification; parent and member tables must not be added together.",
+        "Separate authored material identified for preservation, not externally re-researched.",
+        "No blanket sibling classification or publication claim."
+      ],
+      "rollout_before": {
+        "id": "POD-EDIT-098",
+        "route": "/languages/districts/puri/",
+        "title": "Puri · languages and population",
+        "status": "queued",
+        "scope": "classification_pending",
+        "source_template": null,
+        "checks": {},
+        "evidence": [],
+        "blocker": null
+      },
+      "programme_completed_preserved": 131,
+      "tests": {
+        "executed": [
+          "Read-only original workbook XML parity:81row codes/anchors,729numeric cells; sex/residence arithmetic;33group population sums; applicable parent/member sums.",
+          "Cached article exact connection and destination href assertions."
+        ],
+        "inspected_not_run": [
+          "projects/site/tests-coast/district-languages.test.mjs",
+          "projects/site/tests/language-atlas.test.mjs"
+        ],
+        "not_run_reason": "No product changes or build regeneration; current saved rendering inspected only."
+      },
+      "technical_evidence": [
+        {
+          "path": "samanta/check.py",
+          "sha256": "e909e164457b8fefb7060fe122575acdd18aaee3f3acb1620da6c53344f5d876"
+        },
+        {
+          "path": "samanta/original-row-parity.json",
+          "sha256": "a73a410f0784ad5d26b379d9cdc070ad85ed49c0ad5104c500be2d8b72b734d2"
+        },
+        {
+          "path": "samanta/cached-article.txt",
+          "sha256": "3f9be2e74653551cc3dff485ff9e9c510208b496d3f4d3321d7505e9536f77e9"
+        }
+      ]
+    },
+    "drishti.json": {
+      "reviewer": "Drishti, separate AI reviewer",
+      "item": "POD-EDIT-098",
+      "route": "/languages/districts/puri/",
+      "decision": "PASS_READINESS",
+      "recommendation": "Individually classify098 as a Census district utility for exclusion from sustained-article rollout; preserve its public route, tables, source notes and Puri destination connection.",
+      "input_head": "eaf190a9fa72013375646659399dc0fe1a0d480e",
+      "origin_main_local_ref": "1a5ecb5b7919cdacb5be6cc75d39c71293ecf758",
+      "scope": "Output-only readiness, not integration or publication approval.",
+      "report_hashes": {
+        "HANDOFF.json": "e5162b27af85a98b06090b4603b1c4443775764774a0cb06435d28bcf1ae5903",
+        "anvesha.json": "e4fe7b4f53f9006df43ca8a8bf7f05c34d7abe8e910fcba7d6b850c3552b512a",
+        "samanta.json": "488acb37bbbfd499b3f37a4b681ce0bbebd6fcd215699c86425ff5188c735044"
+      },
+      "independent_evidence": {
+        "path": "drishti/source-parity.json",
+        "sha256": "86afba7382c947d6d3c31fad72a08d81466233c129a65a6177c4e693b550c2fd"
+      },
+      "checks_performed": [
+        "Read actual district template, atlas helper, district387 atlas data and configured destination/related-discovery records.",
+        "Independently parsed original XLSX ZIP/XML:81 district387/D00000 rows13597–13677,729 H:P numeric cells and all row anchors exactly match atlas.33 parent groups/48 subordinate rows; all nine group sums match population; row sex/residence arithmetic passes.",
+        "Original workbook SHA matches recorded source metadata. District total1698730,rural1433800,urban264930; Puri municipality03070 excluded from district aggregation.",
+        "Verified all source/config file hashes declared by both reports and all underlying evidence hashes against actual files.",
+        "Read cached article text and verified cached HTML hash. Actual Puri destination link and city-versus-district caveat present; no configured related-discovery link. Cached render is not live proof.",
+        "Inspected distinct Puri destination editorial source map, Sahi Jatra narrative, Mahaprasad and Raghurajpur research nucleus statuses; these are preserved separately."
+      ],
+      "findings": [
+        "Puri route is derived district tables, denominator guidance and selected language navigation. Its useful city/district bridge does not supply a sustained authored district-language article. Classification is justified specifically for098.",
+        "ODIA group1615249 and Odia return1614787 are distinct nested classifications; do not add parent and child counts. OTHERS residual297 has no subordinate rows and is preserved.",
+        "Preserve destination/Puri visitor narrative, Sahi Jatra performance writing, craft and food research, historical statistics and all other siblings; no blanket district exclusion.",
+        "Samanta copied097 check label was corrected to098 before final binding; no source or substantive finding changed."
+      ],
+      "preservation": {
+        "canonical_writes": 0,
+        "public_changes": 0,
+        "completion_credit": 0,
+        "programme_credit": 0,
+        "programme_completed": 131,
+        "dhaga": "201 entries/201 illustrations/114-page PDF remain outside this scope"
+      },
+      "limits": [
+        "No new source download, live browser session, build, screen-reader or physical-device check performed. Read-only source parity script was executed; application test suites were not rerun for this output-only classification.",
+        "2011 data are not current population estimates and do not establish town-level speech, fluency, ancestry, migration, community identity or individual language. State C17 is not apportioned to district387.",
+        "Separate authored materials were checked for distinction and preservation, not externally re-researched or newly certified.",
+        "Remote ownership completion was reported by coordinator; local origin/main value is recorded as observed and is not a fresh remote fetch.",
+        "Separate AI review is not human or specialist review. Canonical integration requires a separately scoped candidate and review."
+      ],
+      "blockers": [],
+      "next_action": "Coordinator may prepare a records-only098 exclusion with frozen evidence, preserving all other rollout items and public products; review exact integrated head separately."
+    }
+  },
+  "embedded_evidence": {
+    "anvesha/check-source.py": {
+      "sha256": "16095cab0f55c2b10606871819333f2be8655576eaddad675fe458df7c66bec9",
+      "content": "from pathlib import Path\nimport json,zipfile,hashlib,xml.etree.ElementTree as E,re,subprocess\nROOT=Path(__file__).resolve().parents[3];R=ROOT/'planning/utkala-odisha/checkouts/utkal-fieldwork-pack';O=Path(__file__).resolve().parent\n# Independent read of ZIP/XML, no workbook writes and no atlas extractor invocation.\nf=R/'kb/research/references/census-2011/c16-odisha.xlsx';N={'x':'http://schemas.openxmlformats.org/spreadsheetml/2006/main'}\nwith zipfile.ZipFile(f)as z:\n strings=[''.join(t.itertext())for t in E.fromstring(z.read('xl/sharedStrings.xml')).findall('x:si',N)]\n sheet=E.fromstring(z.read('xl/worksheets/sheet1.xml'))\n rows=[];geos={}\n for rr in sheet.findall('x:sheetData/x:row',N):\n  v={}\n  for c in rr.findall('x:c',N):\n   val=c.find('x:v',N)\n   if val is not None:v[re.sub(r'\\d','',c.attrib['r'])]=strings[int(val.text)]if c.get('t')=='s'else val.text\n  if v.get('A')!='C0116' or str(v.get('C')).zfill(3)!='387':continue\n  geos[v['D']]=v['E']\n  if v['D']!='00000':continue\n  rows.append({'row':int(rr.attrib['r']),'state_code':v['B'],'district_code':v['C'],'subdistrict_code':v['D'],'area_name':v['E'],'code':str(v['F']).zfill(6),'raw_label':v['G'],'values':[int(v[x])for x in 'HIJKLMNOP']})\na=json.loads((R/'kb/research/voices/population-2011.json').read_text());d=a['areas']['387'];errors=[]\nassert set(x['code']for x in rows)==set(d['rows'])\nfor x in rows:\n t=d['rows'][x['code']];v=x['values'];p,m,w,r,rm,rw,u,um,uw=v\n if t['values']!=v or t['source_row']!=x['row']:errors.append(['parity',x['code']])\n if not(p==m+w and r==rm+rw and u==um+uw and p==r+u and m==rm+um and w==rw+uw):errors.append(['sums',x['code']])\ngroups=[x for x in rows if x['code'].endswith('000')];children=[x for x in rows if not x['code'].endswith('000')];residual=[]\nfor g in groups:\n kids=[x for x in children if x['code'][:3]==g['code'][:3]]\n if kids:\n  if [sum(x['values'][i]for x in kids)for i in range(9)]!=g['values']:errors.append(['children',g['code']])\n else:residual.append(g)\nsums=[sum(x['values'][i]for x in groups)for i in range(9)];assert sums==d['population'];assert not errors\nr={'source':a['sources']['c16'],'actual_workbook_sha256':hashlib.sha256(f.read_bytes()).hexdigest(),'district':d['name'],'code':'387','row_range':[min(x['row']for x in rows),max(x['row']for x in rows)],'row_count':len(rows),'group_count':len(groups),'subordinate_count':len(children),'numeric_cells_compared':len(rows)*9,'all_identifiers_numeric_cells_and_locators_match':True,'errors':errors,'population_H_to_P':d['population'],'group_sums_H_to_P':sums,'residual_groups_without_children':residual,'other_geographies_not_combined':{k:v for k,v in geos.items()if k!='00000'},'original_rows':rows,'selected_profiles':{k:d['rows'][v['code']]['values'][0]for k,v in a['profiles'].items()if v['code']in d['rows']},'odia_group_vs_return':{c:d['rows'][c]for c in ['015000','015043']}}\nassert r['actual_workbook_sha256']==r['source']['sha256'];(O/'source-parity.json').write_text(json.dumps(r,ensure_ascii=False,indent=2)+'\\n');print(json.dumps({k:v for k,v in r.items()if k in ['row_count','group_count','subordinate_count','numeric_cells_compared','row_range','population_H_to_P','odia_group_vs_return','other_geographies_not_combined']},ensure_ascii=False))\n"
+    },
+    "anvesha/query-puri.txt": {
+      "sha256": "b0c67503e9c93296780b775027cc788684849a1cfd14e518062419881ebb6cc4",
+      "content": "culture/raghurajpur-pattachitra | Raghurajpur and Pattachitra | kb/research/culture/raghurajpur-pattachitra.md\nculture/sand-art | Sand art: people, works and evidence | kb/research/culture/sand-art.md\nfacilities/nimantran-puri | Nimantran Restaurant, Puri | kb/research/facilities/nimantran-puri.md\nfacilities/panthanivas-puri | Panthanivas Puri | kb/research/facilities/panthanivas-puri.md\nfacilities/tourist-office-puri | Tourist office — Puri | kb/research/facilities/tourist-office-puri.md\nfood/mahaprasad | Mahaprasad at Puri | kb/research/food/mahaprasad.md\nhandlooms/berhampuri-patta | Berhampuri Patta | kb/research/handlooms/berhampuri-patta.md\nhandlooms/garments-and-markets | Odisha garments, cloth and markets | kb/research/handlooms/garments-and-markets.md\nhandlooms/habaspuri | Habaspuri | kb/research/handlooms/habaspuri.md\nhandlooms/sambalpuri-bandha | Sambalpuri Bandha | kb/research/handlooms/sambalpuri-bandha.md\npeople/sudarsan-pattnaik | Sudarsan Pattnaik | kb/research/people/sudarsan-pattnaik.md\nplaces/jagannath-temple-puri | Shree Jagannath Temple, Puri | kb/research/places/jagannath-temple-puri.md\nplaces/puri | Puri coast and food | kb/research/places/puri.md\nsources/puri-approved-operators | Approved Tour Operators — Puri entries | kb/research/sources/puri-approved-operators.md\nsources/puri-guide-app-directory | Odisha Tourism alternate tour-guide directory | kb/research/sources/puri-guide-app-directory.md\nsources/puri-heritage-golden-triangle | Heritage Tours — Golden Triangle itinerary | kb/research/sources/puri-heritage-golden-triangle.md\nsources/puri-heritage-tours-provider | Heritage Tours — provider website | kb/research/sources/puri-heritage-tours-provider.md\nsources/puri-nimantran-otdc | Nimantran Restaurant, Puri — OTDC listing | kb/research/sources/puri-nimantran-otdc.md\nsources/puri-panthanivas-property | Panthanivas Puri — OTDC property listing | kb/research/sources/puri-panthanivas-property.md\nsources/puri-raghurajpur-district | Raghurajpur — Puri district profile | kb/research/sources/puri-raghurajpur-district.md\nsources/puri-religious-shrines-directory | Religious Shrines — Odisha Tourism directory | kb/research/sources/puri-religious-shrines-directory.md\nsources/puri-temple-tourism-guidance | Jagannath Temple — Odisha Tourism visitor guidance | kb/research/sources/puri-temple-tourism-guidance.md\nsources/puri-wonders-operator-route | Wonders of Odisha — operator itinerary on Odisha Tourism | kb/research/sources/puri-wonders-operator-route.md\nstatistics/districts/puri | Puri — district banking | kb/research/statistics/districts/puri.md\nvisitor-index/areas/puri-crafts | Puri and the craft corridor | kb/research/visitor-index/areas/puri-crafts.md\nvisitor-index/puri-journey-outline | Puri and craft places: a sourced journey outline | kb/research/visitor-index/puri-journey-outline.md\nvisitor-index/puri-providers | Puri guides, operators, food and stays | kb/research/visitor-index/puri-providers.md\nproject:research/product/coastal-collection | Puri–Konark — city, craft and coast | kb/research/product/coastal-collection.md\nproject:research/product/puri-visitor-essentials-2026-09-30 | Puri visitor essentials — 30 September 2026 | kb/research/product/puri-visitor-essentials-2026-09-30.md\ndestination:details:stays:puri | Staying in Puri | kb/research/destinations/details.json\ndestination:central-details:places:puri-beach | Puri beach | kb/research/destinations/central-details.json\ndestination:central-details:stays:puri-coast | Puri, Konark or the coast? | kb/research/destinations/central-details.json\ndestination:regions:puri | Puri | kb/research/destinations/regions.json\nplanning:visit-questions:puri | Puri | kb/research/destinations/visit-questions.json\nplanning:visit-questions:coastal-meals | A coastal meal | kb/research/destinations/visit-questions.json\nplanning:visit-questions:coastal-stays | A coastal base | kb/research/destinations/visit-questions.json\nplanning:visit-notebooks:place:puri | Leave space between shore and town | kb/research/destinations/visit-notebooks.json\nplanning:visit-notebooks:food:puri-mahaprasad | Let the meal have a story | kb/research/destinations/visit-notebooks.json\nplanning:visit-notebooks:stay:puri | Choose a base for your kind of day | kb/research/destinations/visit-notebooks.json\nsources/rulers-puri-history | Puri: government historical overview | sources/rulers-puri-history.md\npeople/anantavarman-chodaganga | Anantavarman Chodaganga Deva | people/anantavarman-chodaganga.md\npeople/rulers-and-royal-legacies | Utkal’s rulers and royal legacies | people/rulers-and-royal-legacies.md\nsources/faith-puri-inscriptions-ei30 | Puri inscriptions of Anangabhima III: Sircar’s epigraphic edition | sources/faith-puri-inscriptions-ei30.md\nhistory/jagannath-origins | Jagannath: sacred narratives, inscriptions and the making of Puri | history/jagannath-origins.md\nsources/handloom-boyanika-sambalpuri | Boyanika Sambalpuri specimen 6967/A/BO/78 | sources/handloom-boyanika-sambalpuri.md\nsources/handloom-tribal-crafts-lead | Tribal crafts study — Habaspuri maker lead | sources/handloom-tribal-crafts-lead.md\nsources/sand-puri-tiranga2025 | Sudarsan Pattnaik — Har Ghar Tiranga sculpture at Puri | kb/research/sources/sand-puri-tiranga2025.md\nworks/puri-tiranga-sand-2025 | Puri Har Ghar Tiranga sand sculpture, 2025 | kb/research/works/puri-tiranga-sand-2025.md\neconomy/gi-opportunity-programme | economy/gi-opportunity-programme | kb/research/economy/gi-opportunity-programme.md\nproduct/gi-application-preparation | product/gi-application-preparation | kb/research/product/gi-application-preparation.md\nsources/gi-opportunity-registry2026 | IP India application index and nine comparator/pending records | kb/research/sources/gi-opportunity-registry2026.md\nsources/gi-filing-booklet | CGPDTM introductory booklet: GI filing evidence | kb/research/sources/gi-filing-booklet.md\nsources/gi-act-wipolex | GI Act 1999: producer representation and goods/place link | kb/research/sources/gi-act-wipolex.md\nsources/gi-puri-msme2019 | Puri district industrial profile 2019–20: product clusters | kb/research/sources/gi-puri-msme2019.md\nsources/gi-temple-food2019 | Odisha Review June–July2019: dry Mahaprasad foods | kb/research/sources/gi-temple-food2019.md\nsources/gi-eu-quality | European Commission: PDO, PGI and TSG distinctions | kb/research/sources/gi-eu-quality.md\nsources/gi-wipo-faq | WIPO: GI protection and territorial limits | kb/research/sources/gi-wipo-faq.md\nsources/gi-fao-approach | FAO approach to sustainable geographical indications | kb/research/sources/gi-fao-approach.md\nsources/gi-eu-crafts | EUIPO craft and industrial GI system | kb/research/sources/gi-eu-crafts.md\nsources/gi-edii-facilitation | EDII GI facilitation centre with NABARD support | kb/research/sources/gi-edii-facilitation.md\neconomy/khaja-gi-comparison | Khaja GI specifications and evidence needed for Puri | kb/research/economy/khaja-gi-comparison.md\nhandlooms/puri-gamucha-gi-study | Puri gamucha identity and the Assam GI comparison | kb/research/handlooms/puri-gamucha-gi-study.md\nsources/gi-gamosa-journal2019 | Gamosa specification in GI Journal 124 | kb/research/sources/gi-gamosa-journal2019.md\nsources/gi-gamosa-journal2022 | Gamosa of Assam specification in GI Journal 161 | kb/research/sources/gi-gamosa-journal2022.md\nsources/gi-puri-clusters | Odisha official handloom cluster list | kb/research/sources/gi-puri-clusters.md\nsources/gi-alangdia-report2026 | Alangdia Machhi Gamucha: attributed reporting lead | kb/research/sources/gi-alangdia-report2026.md\nfood/temple-food-gi-governance | Temple-food GI evidence: Tirupathi Laddu and questions for Puri | kb/research/food/temple-food-gi-governance.md\nfood/nimapada-jhili-evidence | Nimapada chhena jhili: documentary name use and maker attribution | kb/research/food/nimapada-jhili-evidence.md\nsources/gi-puri-msme-undated | Puri industrial profile: undated edition and Nimapara Jhili | kb/research/sources/gi-puri-msme-undated.md\nsources/gi-puri-msme2016 | Puri industrial profile 2016–17: Nimapara Jhili | kb/research/sources/gi-puri-msme2016.md\nsources/gi-nimapada-sahu2015 | Diana Sahu: Scripting A Seaside Story (2015; updated 2016) | kb/research/sources/gi-nimapada-sahu2015.md\nsources/gi-palm805-submission2021 | Talapatra Pothi Chitra of Puri: 2021 statement and geographic annexure | kb/research/sources/gi-palm805-submission2021.md\nfood/poda-arisa-place-evidence | Poda pitha and arisa: Puri associations and wider Odisha traditions | kb/research/food/poda-arisa-place-evidence.md\nsources/enterprise-sambalpuri-site-lead | Sambalpuri Bastralaya: direct website retrieval lead | kb/research/sources/enterprise-sambalpuri-site-lead.md\neconomy/bargarh-textile-catalogue-service | Bargarh: a textile photography and catalogue service | kb/research/economy/bargarh-textile-catalogue-service.md\nsources/enterprise-puri-walk-offer | I Love Jagannath: advertised Puri heritage-walk service | kb/research/sources/enterprise-puri-walk-offer.md\neconomy/puri-heritage-walk-service | Puri: a pre-booked outdoor heritage-walk service | kb/research/economy/puri-heritage-walk-service.md\nsources/enterprise-puri-sanatan-walk | Sanatan Sahoo: advertised Puri Heritage Walk | kb/research/sources/enterprise-puri-sanatan-walk.md\nsources/enterprise-puri-sacred-directory | SacredPuri: empty guide-directory pricing lead | kb/research/sources/enterprise-puri-sacred-directory.md\nproduct/puri-business-starter-guide | Puri heritage-walk business starter: downloadable research guide | kb/research/product/puri-business-starter-guide.md\nculture/osha/budhei | Budhei Osha | kb/research/culture/osha/budhei.md\nculture/osha/pandu | Pandu Osha | kb/research/culture/osha/pandu.md\nsources/osha-pandu-puriwaves | Pandu Purnima Osha | kb/research/sources/osha-pandu-puriwaves.md\nsources/osha-kartika-patra-punit2018 | Seeking Refuge in the Lord: Antiquity and Continuity of the Puranic Tradition of the Kartik Brata by Widows at Jagannath Puri | kb/research/sources/osha-kartika-patra-punit2018.md\nsources/osha-markandeswar2013 | The Temple of Markandeswar of Puri | kb/research/sources/osha-markandeswar2013.md\nculture/osha-identity-guide | Which Osha? Names, full moons and food traditions | kb/research/culture/osha-identity-guide.md\nsources/osha-budhei-puriwaves | Budhei Sudhei Osha – Budhi Bamana Osha | kb/research/sources/osha-budhei-puriwaves.md\nfood/sweets-and-places | Sweets and the places they carry | kb/research/food/sweets-and-places.md\nculture/sahi-jatra | Sahi Jatra: Puri’s neighbourhoods in performance | kb/research/culture/sahi-jatra.md\nRES-005 | Puri craft corridor places and access | reuse existing records before browsing\nRES-006 | Puri guides food and stays | reuse existing records before browsing\nRES-007 | Puri journey research outline | reuse existing records before browsing\nRES-012 | Handloom techniques makers and sales | reuse existing records before browsing\nRES-032 | Sand art and other material arts | reuse existing records before browsing\nRES-038 | Rulers and royal legacies of Utkal | reuse existing records before browsing\nRES-048 | Jagannath origins: tradition, evidence and temple phases | reuse existing records before browsing\nRES-049 | Yogini and Tantric traditions: sites and textual evidence | reuse existing records before browsing\nRES-070 | GI candidate discovery, comparison and producer-led application preparation | reuse existing records before browsing\nRES-065 | Bargarh business dossier: maker-linked services | reuse existing records before browsing\nRES-066 | Puri business dossier: a visitor or food service | reuse existing records before browsing\nRES-077 | Osha, brata and seasonal food culture | reuse existing records before browsing\nDated inventory; verify scope and freshness before reuse.\n"
+    },
+    "anvesha/source-parity.json": {
+      "sha256": "c8a02733a0e7a3e2d2637c3c5d735c209bc3050b7d7b49d05ab4d3dfc97cc80f",
+      "content": {
+        "source": {
+          "title": "C-16: Population by mother tongue, Odisha — 2011",
+          "url": "https://censusindia.gov.in/nada/index.php/catalog/10217",
+          "download": "https://censusindia.gov.in/nada/index.php/catalog/10217/download/13329/DDW-C16-STMT-MDDS-2100.XLSX",
+          "file": "references/census-2011/c16-odisha.xlsx",
+          "sha256": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db",
+          "sheet": "Sheet1"
+        },
+        "actual_workbook_sha256": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db",
+        "district": "Puri",
+        "code": "387",
+        "row_range": [
+          13597,
+          13677
+        ],
+        "row_count": 81,
+        "group_count": 33,
+        "subordinate_count": 48,
+        "numeric_cells_compared": 729,
+        "all_identifiers_numeric_cells_and_locators_match": true,
+        "errors": [],
+        "population_H_to_P": [
+          1698730,
+          865380,
+          833350,
+          1433800,
+          728213,
+          705587,
+          264930,
+          137167,
+          127763
+        ],
+        "group_sums_H_to_P": [
+          1698730,
+          865380,
+          833350,
+          1433800,
+          728213,
+          705587,
+          264930,
+          137167,
+          127763
+        ],
+        "residual_groups_without_children": [
+          {
+            "row": 13677,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "124000",
+            "raw_label": "124 OTHERS",
+            "values": [
+              297,
+              157,
+              140,
+              237,
+              118,
+              119,
+              60,
+              39,
+              21
+            ]
+          }
+        ],
+        "other_geographies_not_combined": {
+          "03056": "Delanga",
+          "03057": "Pipili ",
+          "03058": "Nimapada",
+          "03059": "Kakatpur",
+          "03060": "Astaranga",
+          "03061": "Konark",
+          "03062": "Gop",
+          "03063": "Ramachandi",
+          "03064": "Satyabadi",
+          "03065": "Chandanpur ",
+          "03066": "Sadar ",
+          "03067": "Brahmagiri",
+          "03068": "Gadisagada",
+          "03069": "Krushna Prasad ",
+          "03070": "Puri (M)"
+        },
+        "original_rows": [
+          {
+            "row": 13597,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "001000",
+            "raw_label": "1 ASSAMESE",
+            "values": [
+              13,
+              5,
+              8,
+              4,
+              1,
+              3,
+              9,
+              4,
+              5
+            ]
+          },
+          {
+            "row": 13598,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "001002",
+            "raw_label": " Assamese",
+            "values": [
+              13,
+              5,
+              8,
+              4,
+              1,
+              3,
+              9,
+              4,
+              5
+            ]
+          },
+          {
+            "row": 13599,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "002000",
+            "raw_label": "2 BENGALI ",
+            "values": [
+              5616,
+              2927,
+              2689,
+              873,
+              440,
+              433,
+              4743,
+              2487,
+              2256
+            ]
+          },
+          {
+            "row": 13600,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "002007",
+            "raw_label": " Bengali",
+            "values": [
+              5616,
+              2927,
+              2689,
+              873,
+              440,
+              433,
+              4743,
+              2487,
+              2256
+            ]
+          },
+          {
+            "row": 13601,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "005000",
+            "raw_label": "5 GUJARATI",
+            "values": [
+              14,
+              6,
+              8,
+              4,
+              1,
+              3,
+              10,
+              5,
+              5
+            ]
+          },
+          {
+            "row": 13602,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "005018",
+            "raw_label": " Gujarati",
+            "values": [
+              14,
+              6,
+              8,
+              4,
+              1,
+              3,
+              10,
+              5,
+              5
+            ]
+          },
+          {
+            "row": 13603,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "006000",
+            "raw_label": "6 HINDI ",
+            "values": [
+              3582,
+              1911,
+              1671,
+              1175,
+              611,
+              564,
+              2407,
+              1300,
+              1107
+            ]
+          },
+          {
+            "row": 13604,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "006066",
+            "raw_label": " Banjari",
+            "values": [
+              4,
+              2,
+              2,
+              4,
+              2,
+              2,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "row": 13605,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "006102",
+            "raw_label": " Bhojpuri",
+            "values": [
+              21,
+              14,
+              7,
+              10,
+              8,
+              2,
+              11,
+              6,
+              5
+            ]
+          },
+          {
+            "row": 13606,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "006142",
+            "raw_label": " Chhattisgarhi",
+            "values": [
+              58,
+              29,
+              29,
+              58,
+              29,
+              29,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "row": 13607,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "006235",
+            "raw_label": " Haryanvi",
+            "values": [
+              4,
+              3,
+              1,
+              0,
+              0,
+              0,
+              4,
+              3,
+              1
+            ]
+          },
+          {
+            "row": 13608,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "006240",
+            "raw_label": " Hindi",
+            "values": [
+              3287,
+              1752,
+              1535,
+              1056,
+              543,
+              513,
+              2231,
+              1209,
+              1022
+            ]
+          },
+          {
+            "row": 13609,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "006345",
+            "raw_label": " Kurmali Thar",
+            "values": [
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "row": 13610,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "006355",
+            "raw_label": " Laria",
+            "values": [
+              12,
+              7,
+              5,
+              11,
+              6,
+              5,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "row": 13611,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "006400",
+            "raw_label": " Marwari",
+            "values": [
+              137,
+              72,
+              65,
+              32,
+              20,
+              12,
+              105,
+              52,
+              53
+            ]
+          },
+          {
+            "row": 13612,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "006420",
+            "raw_label": " Nagpuria",
+            "values": [
+              1,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "row": 13613,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "006476",
+            "raw_label": " Puran/Puran Bhasha",
+            "values": [
+              1,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "row": 13614,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "006489",
+            "raw_label": " Rajasthani",
+            "values": [
+              4,
+              2,
+              2,
+              1,
+              0,
+              1,
+              3,
+              2,
+              1
+            ]
+          },
+          {
+            "row": 13615,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "006503",
+            "raw_label": " Sadan/Sadri",
+            "values": [
+              7,
+              2,
+              5,
+              0,
+              0,
+              0,
+              7,
+              2,
+              5
+            ]
+          },
+          {
+            "row": 13616,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "006999",
+            "raw_label": "6 Others",
+            "values": [
+              45,
+              25,
+              20,
+              1,
+              1,
+              0,
+              44,
+              24,
+              20
+            ]
+          },
+          {
+            "row": 13617,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "007000",
+            "raw_label": "7 KANNADA",
+            "values": [
+              3,
+              2,
+              1,
+              1,
+              1,
+              0,
+              2,
+              1,
+              1
+            ]
+          },
+          {
+            "row": 13618,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "007016",
+            "raw_label": " Kannada",
+            "values": [
+              2,
+              2,
+              0,
+              1,
+              1,
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "row": 13619,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "007999",
+            "raw_label": "7 Others",
+            "values": [
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "row": 13620,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "009000",
+            "raw_label": "9 KONKANI",
+            "values": [
+              6,
+              3,
+              3,
+              0,
+              0,
+              0,
+              6,
+              3,
+              3
+            ]
+          },
+          {
+            "row": 13621,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "009011",
+            "raw_label": " Konkani",
+            "values": [
+              6,
+              3,
+              3,
+              0,
+              0,
+              0,
+              6,
+              3,
+              3
+            ]
+          },
+          {
+            "row": 13622,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "010000",
+            "raw_label": "10 MAITHILI ",
+            "values": [
+              14,
+              8,
+              6,
+              9,
+              5,
+              4,
+              5,
+              3,
+              2
+            ]
+          },
+          {
+            "row": 13623,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "010008",
+            "raw_label": " Maithili",
+            "values": [
+              14,
+              8,
+              6,
+              9,
+              5,
+              4,
+              5,
+              3,
+              2
+            ]
+          },
+          {
+            "row": 13624,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "011000",
+            "raw_label": "11 MALAYALAM",
+            "values": [
+              35,
+              12,
+              23,
+              5,
+              2,
+              3,
+              30,
+              10,
+              20
+            ]
+          },
+          {
+            "row": 13625,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "011016",
+            "raw_label": " Malayalam",
+            "values": [
+              35,
+              12,
+              23,
+              5,
+              2,
+              3,
+              30,
+              10,
+              20
+            ]
+          },
+          {
+            "row": 13626,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "012000",
+            "raw_label": "12 MANIPURI ",
+            "values": [
+              2,
+              1,
+              1,
+              0,
+              0,
+              0,
+              2,
+              1,
+              1
+            ]
+          },
+          {
+            "row": 13627,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "012003",
+            "raw_label": " Manipuri",
+            "values": [
+              2,
+              1,
+              1,
+              0,
+              0,
+              0,
+              2,
+              1,
+              1
+            ]
+          },
+          {
+            "row": 13628,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "013000",
+            "raw_label": "13 MARATHI ",
+            "values": [
+              56,
+              31,
+              25,
+              14,
+              7,
+              7,
+              42,
+              24,
+              18
+            ]
+          },
+          {
+            "row": 13629,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "013071",
+            "raw_label": " Marathi",
+            "values": [
+              56,
+              31,
+              25,
+              14,
+              7,
+              7,
+              42,
+              24,
+              18
+            ]
+          },
+          {
+            "row": 13630,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "014000",
+            "raw_label": "14 NEPALI ",
+            "values": [
+              23,
+              15,
+              8,
+              4,
+              4,
+              0,
+              19,
+              11,
+              8
+            ]
+          },
+          {
+            "row": 13631,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "014011",
+            "raw_label": " Nepali",
+            "values": [
+              23,
+              15,
+              8,
+              4,
+              4,
+              0,
+              19,
+              11,
+              8
+            ]
+          },
+          {
+            "row": 13632,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "015000",
+            "raw_label": "15 ODIA ",
+            "values": [
+              1615249,
+              822908,
+              792341,
+              1392970,
+              707554,
+              685416,
+              222279,
+              115354,
+              106925
+            ]
+          },
+          {
+            "row": 13633,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "015043",
+            "raw_label": " Odia",
+            "values": [
+              1614787,
+              822680,
+              792107,
+              1392528,
+              707338,
+              685190,
+              222259,
+              115342,
+              106917
+            ]
+          },
+          {
+            "row": 13634,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "015051",
+            "raw_label": " Proja (Ori)",
+            "values": [
+              26,
+              16,
+              10,
+              24,
+              16,
+              8,
+              2,
+              0,
+              2
+            ]
+          },
+          {
+            "row": 13635,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "015058",
+            "raw_label": " Sambalpuri",
+            "values": [
+              433,
+              212,
+              221,
+              418,
+              200,
+              218,
+              15,
+              12,
+              3
+            ]
+          },
+          {
+            "row": 13636,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "015999",
+            "raw_label": "15 Others",
+            "values": [
+              3,
+              0,
+              3,
+              0,
+              0,
+              0,
+              3,
+              0,
+              3
+            ]
+          },
+          {
+            "row": 13637,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "016000",
+            "raw_label": "16 PUNJABI ",
+            "values": [
+              23,
+              18,
+              5,
+              6,
+              6,
+              0,
+              17,
+              12,
+              5
+            ]
+          },
+          {
+            "row": 13638,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "016038",
+            "raw_label": " Punjabi",
+            "values": [
+              23,
+              18,
+              5,
+              6,
+              6,
+              0,
+              17,
+              12,
+              5
+            ]
+          },
+          {
+            "row": 13639,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "017000",
+            "raw_label": "17 SANSKRIT ",
+            "values": [
+              8,
+              4,
+              4,
+              5,
+              2,
+              3,
+              3,
+              2,
+              1
+            ]
+          },
+          {
+            "row": 13640,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "017002",
+            "raw_label": " Sanskrit",
+            "values": [
+              8,
+              4,
+              4,
+              5,
+              2,
+              3,
+              3,
+              2,
+              1
+            ]
+          },
+          {
+            "row": 13641,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "018000",
+            "raw_label": "18 SANTALI ",
+            "values": [
+              657,
+              303,
+              354,
+              306,
+              92,
+              214,
+              351,
+              211,
+              140
+            ]
+          },
+          {
+            "row": 13642,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "018040",
+            "raw_label": " Santali",
+            "values": [
+              657,
+              303,
+              354,
+              306,
+              92,
+              214,
+              351,
+              211,
+              140
+            ]
+          },
+          {
+            "row": 13643,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "020000",
+            "raw_label": "20 TAMIL ",
+            "values": [
+              86,
+              38,
+              48,
+              22,
+              11,
+              11,
+              64,
+              27,
+              37
+            ]
+          },
+          {
+            "row": 13644,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "020027",
+            "raw_label": " Tamil",
+            "values": [
+              86,
+              38,
+              48,
+              22,
+              11,
+              11,
+              64,
+              27,
+              37
+            ]
+          },
+          {
+            "row": 13645,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "021000",
+            "raw_label": "21 TELUGU ",
+            "values": [
+              32565,
+              16345,
+              16220,
+              3351,
+              1675,
+              1676,
+              29214,
+              14670,
+              14544
+            ]
+          },
+          {
+            "row": 13646,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "021046",
+            "raw_label": " Telugu",
+            "values": [
+              32565,
+              16345,
+              16220,
+              3351,
+              1675,
+              1676,
+              29214,
+              14670,
+              14544
+            ]
+          },
+          {
+            "row": 13647,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "022000",
+            "raw_label": "22 URDU",
+            "values": [
+              40113,
+              20441,
+              19672,
+              34589,
+              17526,
+              17063,
+              5524,
+              2915,
+              2609
+            ]
+          },
+          {
+            "row": 13648,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "022015",
+            "raw_label": " Urdu",
+            "values": [
+              40113,
+              20441,
+              19672,
+              34589,
+              17526,
+              17063,
+              5524,
+              2915,
+              2609
+            ]
+          },
+          {
+            "row": 13649,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "030000",
+            "raw_label": "30 BHILI/BHILODI ",
+            "values": [
+              8,
+              7,
+              1,
+              8,
+              7,
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "row": 13650,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "030002",
+            "raw_label": " Baori",
+            "values": [
+              8,
+              7,
+              1,
+              8,
+              7,
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "row": 13651,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "032000",
+            "raw_label": "32 BHUMIJ ",
+            "values": [
+              1,
+              0,
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "row": 13652,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "032999",
+            "raw_label": "32 Others",
+            "values": [
+              1,
+              0,
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "row": 13653,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "040000",
+            "raw_label": "40 ENGLISH ",
+            "values": [
+              93,
+              49,
+              44,
+              66,
+              36,
+              30,
+              27,
+              13,
+              14
+            ]
+          },
+          {
+            "row": 13654,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "040001",
+            "raw_label": " English",
+            "values": [
+              93,
+              49,
+              44,
+              66,
+              36,
+              30,
+              27,
+              13,
+              14
+            ]
+          },
+          {
+            "row": 13655,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "044000",
+            "raw_label": "44 GONDI",
+            "values": [
+              1,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "row": 13656,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "044999",
+            "raw_label": "44 Others",
+            "values": [
+              1,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "row": 13657,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "048000",
+            "raw_label": "48 HO",
+            "values": [
+              15,
+              7,
+              8,
+              14,
+              6,
+              8,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "row": 13658,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "048004",
+            "raw_label": " Ho",
+            "values": [
+              15,
+              7,
+              8,
+              14,
+              6,
+              8,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "row": 13659,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "054000",
+            "raw_label": "54 KHARIA ",
+            "values": [
+              11,
+              5,
+              6,
+              9,
+              3,
+              6,
+              2,
+              2,
+              0
+            ]
+          },
+          {
+            "row": 13660,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "054005",
+            "raw_label": " Kharia",
+            "values": [
+              11,
+              5,
+              6,
+              9,
+              3,
+              6,
+              2,
+              2,
+              0
+            ]
+          },
+          {
+            "row": 13661,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "058000",
+            "raw_label": "58 KHOND/KONDH ",
+            "values": [
+              14,
+              10,
+              4,
+              13,
+              9,
+              4,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "row": 13662,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "058001",
+            "raw_label": " Khond/Kondh",
+            "values": [
+              14,
+              10,
+              4,
+              13,
+              9,
+              4,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "row": 13663,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "069000",
+            "raw_label": "69 KOYA ",
+            "values": [
+              3,
+              1,
+              2,
+              0,
+              0,
+              0,
+              3,
+              1,
+              2
+            ]
+          },
+          {
+            "row": 13664,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "069002",
+            "raw_label": " Koya",
+            "values": [
+              3,
+              1,
+              2,
+              0,
+              0,
+              0,
+              3,
+              1,
+              2
+            ]
+          },
+          {
+            "row": 13665,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "070000",
+            "raw_label": "70 KUI ",
+            "values": [
+              66,
+              36,
+              30,
+              19,
+              8,
+              11,
+              47,
+              28,
+              19
+            ]
+          },
+          {
+            "row": 13666,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "070001",
+            "raw_label": " Kui",
+            "values": [
+              66,
+              36,
+              30,
+              19,
+              8,
+              11,
+              47,
+              28,
+              19
+            ]
+          },
+          {
+            "row": 13667,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "072000",
+            "raw_label": "72 KURUKH/ORAON ",
+            "values": [
+              8,
+              3,
+              5,
+              1,
+              1,
+              0,
+              7,
+              2,
+              5
+            ]
+          },
+          {
+            "row": 13668,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "072024",
+            "raw_label": " Kurukh/Oraon",
+            "values": [
+              8,
+              3,
+              5,
+              1,
+              1,
+              0,
+              7,
+              2,
+              5
+            ]
+          },
+          {
+            "row": 13669,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "083000",
+            "raw_label": "83 MALTO ",
+            "values": [
+              3,
+              2,
+              1,
+              3,
+              2,
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "row": 13670,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "083999",
+            "raw_label": "83 Others",
+            "values": [
+              3,
+              2,
+              1,
+              3,
+              2,
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "row": 13671,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "091000",
+            "raw_label": "91 MUNDA",
+            "values": [
+              59,
+              45,
+              14,
+              17,
+              12,
+              5,
+              42,
+              33,
+              9
+            ]
+          },
+          {
+            "row": 13672,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "091009",
+            "raw_label": " Munda",
+            "values": [
+              59,
+              45,
+              14,
+              17,
+              12,
+              5,
+              42,
+              33,
+              9
+            ]
+          },
+          {
+            "row": 13673,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "092000",
+            "raw_label": "92 MUNDARI ",
+            "values": [
+              4,
+              1,
+              3,
+              1,
+              0,
+              1,
+              3,
+              1,
+              2
+            ]
+          },
+          {
+            "row": 13674,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "092005",
+            "raw_label": " Mundari",
+            "values": [
+              4,
+              1,
+              3,
+              1,
+              0,
+              1,
+              3,
+              1,
+              2
+            ]
+          },
+          {
+            "row": 13675,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "106000",
+            "raw_label": "106 SAVARA",
+            "values": [
+              82,
+              78,
+              4,
+              72,
+              72,
+              0,
+              10,
+              6,
+              4
+            ]
+          },
+          {
+            "row": 13676,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "106004",
+            "raw_label": " Savara",
+            "values": [
+              82,
+              78,
+              4,
+              72,
+              72,
+              0,
+              10,
+              6,
+              4
+            ]
+          },
+          {
+            "row": 13677,
+            "state_code": "21",
+            "district_code": "387",
+            "subdistrict_code": "00000",
+            "area_name": "Puri",
+            "code": "124000",
+            "raw_label": "124 OTHERS",
+            "values": [
+              297,
+              157,
+              140,
+              237,
+              118,
+              119,
+              60,
+              39,
+              21
+            ]
+          }
+        ],
+        "selected_profiles": {
+          "odia": 1614787,
+          "santali": 657,
+          "kui": 66,
+          "saora": 82,
+          "ho": 15,
+          "koya": 3,
+          "sambalpuri": 433
+        },
+        "odia_group_vs_return": {
+          "015000": {
+            "values": [
+              1615249,
+              822908,
+              792341,
+              1392970,
+              707554,
+              685416,
+              222279,
+              115354,
+              106925
+            ],
+            "source_row": 13632
+          },
+          "015043": {
+            "values": [
+              1614787,
+              822680,
+              792107,
+              1392528,
+              707338,
+              685190,
+              222259,
+              115342,
+              106917
+            ],
+            "source_row": 13633
+          }
+        }
+      }
+    },
+    "samanta/cached-article.txt": {
+      "sha256": "3f9be2e74653551cc3dff485ff9e9c510208b496d3f4d3321d7505e9536f77e9",
+      "content": "← All 30 districts\nA district in voices · Census 2011\nPuriMore than a single voice.\nThe largest recorded language group was ODIA, with 16,15,249 people (95.09%). Open the individual entries below: broad groups can contain distinct names and stories.District population · 201116,98,730Rural population84.40%14,33,800 peopleUrban population15.60%2,64,930 people\nThis is a historical district profile, not a city survey or a present-day forecast. Mother tongue, community identity, ancestry and the languages used at work are different questions.\nThe whole district\nDenominator: 16,98,730 people in Puri · all areas, 2011.Census language groups · mutually exclusive totals\nGroupPeopleShare\nODIA16,15,24995.09%\nURDU40,1132.36%\nTELUGU32,5651.92%\nBENGALI5,6160.33%\nHINDI3,5820.21%\nSANTALI6570.04%\nOTHERS2970.02%\nENGLISH93<0.01%\nTAMIL86<0.01%\nSAVARA82<0.01%\nKUI66<0.01%\nMUNDA59<0.01%\nMARATHI56<0.01%\nMALAYALAM35<0.01%\nNEPALI23<0.01%\nPUNJABI23<0.01%\nHO15<0.01%\nGUJARATI14<0.01%\nMAITHILI14<0.01%\nKHOND/KONDH14<0.01%\nASSAMESE13<0.01%\nKHARIA11<0.01%\nSANSKRIT8<0.01%\nBHILI/BHILODI8<0.01%\nKURUKH/ORAON8<0.01%\nKONKANI6<0.01%\nMUNDARI4<0.01%\nKANNADA3<0.01%\nKOYA3<0.01%\nMALTO3<0.01%\nMANIPURI2<0.01%\nBHUMIJ1<0.01%\nGONDI1<0.01%\nLook inside the groups: individual mother-tongue entries\nThe entries below are already included in their parent groups above. Do not add both tables together. Only positive recorded counts for this residence category are shown; omission is not proof of an absence of speakers today. Residual group OTHERS has no subordinate entries here.Individual entries · Census labels and parent classifications retained\nEntry / parent groupPeopleMaleFemaleShare\nOdiaUnder ODIA · C-16 row 1363316,14,7878,22,6807,92,10795.06%\nUrduUnder URDU · C-16 row 1364840,11320,44119,6722.36%\nTeluguUnder TELUGU · C-16 row 1364632,56516,34516,2201.92%\nBengaliUnder BENGALI · C-16 row 136005,6162,9272,6890.33%\nHindiUnder HINDI · C-16 row 136083,2871,7521,5350.19%\nSantaliUnder SANTALI · C-16 row 136426573033540.04%\nSambalpuriUnder ODIA · C-16 row 136354332122210.03%\nMarwariUnder HINDI · C-16 row 136111377265<0.01%\nEnglishUnder ENGLISH · C-16 row 13654934944<0.01%\nTamilUnder TAMIL · C-16 row 13644863848<0.01%\nSavaraUnder SAVARA · C-16 row 1367682784<0.01%\nKuiUnder KUI · C-16 row 13666663630<0.01%\nMundaUnder MUNDA · C-16 row 13672594514<0.01%\nChhattisgarhiUnder HINDI · C-16 row 13606582929<0.01%\nMarathiUnder MARATHI · C-16 row 13629563125<0.01%\nOthersUnder HINDI · C-16 row 13616452520<0.01%\nMalayalamUnder MALAYALAM · C-16 row 13625351223<0.01%\nProja (Ori)Under ODIA · C-16 row 13634261610<0.01%\nNepaliUnder NEPALI · C-16 row 1363123158<0.01%\nPunjabiUnder PUNJABI · C-16 row 1363823185<0.01%\nBhojpuriUnder HINDI · C-16 row 1360521147<0.01%\nHoUnder HO · C-16 row 136581578<0.01%\nGujaratiUnder GUJARATI · C-16 row 136021468<0.01%\nMaithiliUnder MAITHILI · C-16 row 136231486<0.01%\nKhond/KondhUnder KHOND/KONDH · C-16 row 1366214104<0.01%\nAssameseUnder ASSAMESE · C-16 row 135981358<0.01%\nLariaUnder HINDI · C-16 row 136101275<0.01%\nKhariaUnder KHARIA · C-16 row 136601156<0.01%\nSanskritUnder SANSKRIT · C-16 row 13640844<0.01%\nBaoriUnder BHILI/BHILODI · C-16 row 13650871<0.01%\nKurukh/OraonUnder KURUKH/ORAON · C-16 row 13668835<0.01%\nSadan/SadriUnder HINDI · C-16 row 13615725<0.01%\nKonkaniUnder KONKANI · C-16 row 13621633<0.01%\nBanjariUnder HINDI · C-16 row 13604422<0.01%\nHaryanviUnder HINDI · C-16 row 13607431<0.01%\nRajasthaniUnder HINDI · C-16 row 13614422<0.01%\nMundariUnder MUNDARI · C-16 row 13674413<0.01%\nOthersUnder ODIA · C-16 row 13636303<0.01%\nKoyaUnder KOYA · C-16 row 13664312<0.01%\nOthersUnder MALTO · C-16 row 13670321<0.01%\nKannadaUnder KANNADA · C-16 row 13618220<0.01%\nManipuriUnder MANIPURI · C-16 row 13627211<0.01%\nKurmali TharUnder HINDI · C-16 row 13609110<0.01%\nNagpuriaUnder HINDI · C-16 row 13612110<0.01%\nPuran/Puran BhashaUnder HINDI · C-16 row 13613110<0.01%\nOthersUnder KANNADA · C-16 row 13619101<0.01%\nOthersUnder BHUMIJ · C-16 row 13652101<0.01%\nOthersUnder GONDI · C-16 row 13656110<0.01%\nRural and urban: two views within the district\nEach share below uses the population of that residence category. Rural and urban counts add to the district total; their percentages use different denominators.\nRural population breakdown\nDenominator: 14,33,800 people in Puri · rural areas, 2011.Census language groups · mutually exclusive totals\nGroupPeopleShare\nODIA13,92,97097.15%\nURDU34,5892.41%\nTELUGU3,3510.23%\nHINDI1,1750.08%\nBENGALI8730.06%\nSANTALI3060.02%\nOTHERS2370.02%\nSAVARA72<0.01%\nENGLISH66<0.01%\nTAMIL22<0.01%\nKUI19<0.01%\nMUNDA17<0.01%\nMARATHI14<0.01%\nHO14<0.01%\nKHOND/KONDH13<0.01%\nMAITHILI9<0.01%\nKHARIA9<0.01%\nBHILI/BHILODI8<0.01%\nPUNJABI6<0.01%\nMALAYALAM5<0.01%\nSANSKRIT5<0.01%\nASSAMESE4<0.01%\nGUJARATI4<0.01%\nNEPALI4<0.01%\nMALTO3<0.01%\nKANNADA1<0.01%\nBHUMIJ1<0.01%\nGONDI1<0.01%\nKURUKH/ORAON1<0.01%\nMUNDARI1<0.01%\nLook inside the groups: individual mother-tongue entries\nThe entries below are already included in their parent groups above. Do not add both tables together. Only positive recorded counts for this residence category are shown; omission is not proof of an absence of speakers today. Residual group OTHERS has no subordinate entries here.Individual entries · Census labels and parent classifications retained\nEntry / parent groupPeopleMaleFemaleShare\nOdiaUnder ODIA · C-16 row 1363313,92,5287,07,3386,85,19097.12%\nUrduUnder URDU · C-16 row 1364834,58917,52617,0632.41%\nTeluguUnder TELUGU · C-16 row 136463,3511,6751,6760.23%\nHindiUnder HINDI · C-16 row 136081,0565435130.07%\nBengaliUnder BENGALI · C-16 row 136008734404330.06%\nSambalpuriUnder ODIA · C-16 row 136354182002180.03%\nSantaliUnder SANTALI · C-16 row 13642306922140.02%\nSavaraUnder SAVARA · C-16 row 1367672720<0.01%\nEnglishUnder ENGLISH · C-16 row 13654663630<0.01%\nChhattisgarhiUnder HINDI · C-16 row 13606582929<0.01%\nMarwariUnder HINDI · C-16 row 13611322012<0.01%\nProja (Ori)Under ODIA · C-16 row 1363424168<0.01%\nTamilUnder TAMIL · C-16 row 13644221111<0.01%\nKuiUnder KUI · C-16 row 1366619811<0.01%\nMundaUnder MUNDA · C-16 row 1367217125<0.01%\nMarathiUnder MARATHI · C-16 row 136291477<0.01%\nHoUnder HO · C-16 row 136581468<0.01%\nKhond/KondhUnder KHOND/KONDH · C-16 row 136621394<0.01%\nLariaUnder HINDI · C-16 row 136101165<0.01%\nBhojpuriUnder HINDI · C-16 row 136051082<0.01%\nMaithiliUnder MAITHILI · C-16 row 13623954<0.01%\nKhariaUnder KHARIA · C-16 row 13660936<0.01%\nBaoriUnder BHILI/BHILODI · C-16 row 13650871<0.01%\nPunjabiUnder PUNJABI · C-16 row 13638660<0.01%\nMalayalamUnder MALAYALAM · C-16 row 13625523<0.01%\nSanskritUnder SANSKRIT · C-16 row 13640523<0.01%\nAssameseUnder ASSAMESE · C-16 row 13598413<0.01%\nGujaratiUnder GUJARATI · C-16 row 13602413<0.01%\nBanjariUnder HINDI · C-16 row 13604422<0.01%\nNepaliUnder NEPALI · C-16 row 13631440<0.01%\nOthersUnder MALTO · C-16 row 13670321<0.01%\nNagpuriaUnder HINDI · C-16 row 13612110<0.01%\nPuran/Puran BhashaUnder HINDI · C-16 row 13613110<0.01%\nRajasthaniUnder HINDI · C-16 row 13614101<0.01%\nOthersUnder HINDI · C-16 row 13616110<0.01%\nKannadaUnder KANNADA · C-16 row 13618110<0.01%\nOthersUnder BHUMIJ · C-16 row 13652101<0.01%\nOthersUnder GONDI · C-16 row 13656110<0.01%\nKurukh/OraonUnder KURUKH/ORAON · C-16 row 13668110<0.01%\nMundariUnder MUNDARI · C-16 row 13674101<0.01%\nUrban population breakdown\nDenominator: 2,64,930 people in Puri · urban areas, 2011.Census language groups · mutually exclusive totals\nGroupPeopleShare\nODIA2,22,27983.90%\nTELUGU29,21411.03%\nURDU5,5242.09%\nBENGALI4,7431.79%\nHINDI2,4070.91%\nSANTALI3510.13%\nTAMIL640.02%\nOTHERS600.02%\nKUI470.02%\nMARATHI420.02%\nMUNDA420.02%\nMALAYALAM300.01%\nENGLISH270.01%\nNEPALI19<0.01%\nPUNJABI17<0.01%\nGUJARATI10<0.01%\nSAVARA10<0.01%\nASSAMESE9<0.01%\nKURUKH/ORAON7<0.01%\nKONKANI6<0.01%\nMAITHILI5<0.01%\nSANSKRIT3<0.01%\nKOYA3<0.01%\nMUNDARI3<0.01%\nKANNADA2<0.01%\nMANIPURI2<0.01%\nKHARIA2<0.01%\nHO1<0.01%\nKHOND/KONDH1<0.01%\nLook inside the groups: individual mother-tongue entries\nThe entries below are already included in their parent groups above. Do not add both tables together. Only positive recorded counts for this residence category are shown; omission is not proof of an absence of speakers today. Residual group OTHERS has no subordinate entries here.Individual entries · Census labels and parent classifications retained\nEntry / parent groupPeopleMaleFemaleShare\nOdiaUnder ODIA · C-16 row 136332,22,2591,15,3421,06,91783.89%\nTeluguUnder TELUGU · C-16 row 1364629,21414,67014,54411.03%\nUrduUnder URDU · C-16 row 136485,5242,9152,6092.09%\nBengaliUnder BENGALI · C-16 row 136004,7432,4872,2561.79%\nHindiUnder HINDI · C-16 row 136082,2311,2091,0220.84%\nSantaliUnder SANTALI · C-16 row 136423512111400.13%\nMarwariUnder HINDI · C-16 row 1361110552530.04%\nTamilUnder TAMIL · C-16 row 136446427370.02%\nKuiUnder KUI · C-16 row 136664728190.02%\nOthersUnder HINDI · C-16 row 136164424200.02%\nMarathiUnder MARATHI · C-16 row 136294224180.02%\nMundaUnder MUNDA · C-16 row 13672423390.02%\nMalayalamUnder MALAYALAM · C-16 row 136253010200.01%\nEnglishUnder ENGLISH · C-16 row 136542713140.01%\nNepaliUnder NEPALI · C-16 row 1363119118<0.01%\nPunjabiUnder PUNJABI · C-16 row 1363817125<0.01%\nSambalpuriUnder ODIA · C-16 row 1363515123<0.01%\nBhojpuriUnder HINDI · C-16 row 136051165<0.01%\nGujaratiUnder GUJARATI · C-16 row 136021055<0.01%\nSavaraUnder SAVARA · C-16 row 136761064<0.01%\nAssameseUnder ASSAMESE · C-16 row 13598945<0.01%\nSadan/SadriUnder HINDI · C-16 row 13615725<0.01%\nKurukh/OraonUnder KURUKH/ORAON · C-16 row 13668725<0.01%\nKonkaniUnder KONKANI · C-16 row 13621633<0.01%\nMaithiliUnder MAITHILI · C-16 row 13623532<0.01%\nHaryanviUnder HINDI · C-16 row 13607431<0.01%\nRajasthaniUnder HINDI · C-16 row 13614321<0.01%\nOthersUnder ODIA · C-16 row 13636303<0.01%\nSanskritUnder SANSKRIT · C-16 row 13640321<0.01%\nKoyaUnder KOYA · C-16 row 13664312<0.01%\nMundariUnder MUNDARI · C-16 row 13674312<0.01%\nManipuriUnder MANIPURI · C-16 row 13627211<0.01%\nProja (Ori)Under ODIA · C-16 row 13634202<0.01%\nKhariaUnder KHARIA · C-16 row 13660220<0.01%\nKurmali TharUnder HINDI · C-16 row 13609110<0.01%\nLariaUnder HINDI · C-16 row 13610110<0.01%\nKannadaUnder KANNADA · C-16 row 13618110<0.01%\nOthersUnder KANNADA · C-16 row 13619101<0.01%\nHoUnder HO · C-16 row 13658110<0.01%\nKhond/KondhUnder KHOND/KONDH · C-16 row 13662110<0.01%\nFollow a voice into its story\nThese introductions connect to individual mother-tongue entries recorded here. They are a selection from our growing collection, not a complete list of the district’s languages.Odia →Santali →Sambalpuri →Saora / Sora (Census: Savara) →Kui →Ho →Koya →\nLet the place deepen the reading\nPuri city and the wider Puri district are different geographic scopes. These figures cover the district.Explore Puri →\nTake curiosity into a conversation\nAsk which name a speaker uses for their language and which language they prefer for your conversation. A family memory, a local publication or a song they choose can add context that a table cannot supply.\nRead about multilingual Odisha → · Share a source or correction →\nSources, geography & interpretation\nCensus C-16, Odisha, 2011. District code 387; source name Puri. All figures derive from the original workbook retained in our KB. Parent groups contain their individual entries; classification does not determine community-preferred naming.\nDistrict figures cannot establish the languages of a particular town, accommodation provider or individual. C-17 multilingualism is statewide and is not apportioned to this district. No migration or ancestry claim is inferred.\nCommunity naming and visual review remain open.\n"
+    },
+    "samanta/check.py": {
+      "sha256": "e909e164457b8fefb7060fe122575acdd18aaee3f3acb1620da6c53344f5d876",
+      "content": "import pathlib,json,hashlib,zipfile,xml.etree.ElementTree as E,subprocess,re\nfrom html.parser import HTMLParser\nO=pathlib.Path(__file__).resolve().parent;R=O.parents[2];repo=R/'planning/utkala-odisha/checkouts/utkal-fieldwork-pack'\ndef rd(p):return json.loads(p.read_text())\ndef sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()\ndef wr(p,d):p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\\n')\natlas=rd(repo/'kb/research/voices/population-2011.json');a=atlas['areas']['387'];src=repo/'kb/research/references/census-2011/c16-odisha.xlsx';assert sha(src)==atlas['sources']['c16']['sha256'];ns={'m':'http://schemas.openxmlformats.org/spreadsheetml/2006/main'}\nwith zipfile.ZipFile(src) as z:\n strings=[''.join(e.itertext()) for e in E.fromstring(z.read('xl/sharedStrings.xml')).findall('m:si',ns)];sheet=E.fromstring(z.read('xl/worksheets/sheet1.xml'))\nrows=[]\nfor row in sheet.findall('.//m:row',ns):\n v={}\n for c in row:\n  n=c.find('m:v',ns)\n  if n is not None:v[re.sub(r'\\d','',c.attrib['r'])]=strings[int(n.text)] if c.attrib.get('t')=='s' else n.text\n if v.get('C')=='387' and v.get('D')=='00000':rows.append({'row':int(row.attrib['r']),'code':v['F'],'label':v['G'],'values':[int(float(v[k])) for k in 'HIJKLMNOP']})\nassert {r['code'] for r in rows}==set(a['rows'])\nfor r in rows:\n q=a['rows'][r['code']];assert q['source_row']==r['row'] and q['values']==r['values'];v=r['values'];assert all(v[k]==v[k+1]+v[k+2] for k in [0,3,6]);assert all(v[k]==v[k+3]+v[k+6] for k in range(3))\ngroups=[r for r in rows if atlas['labels'][r['code']]['level']=='language_group'];assert [sum(r['values'][i] for r in groups) for i in range(9)]==a['population']\nchildren_checks=[]\nfor g in groups:\n c=[r for r in rows if atlas['labels'][r['code']].get('parent')==g['code']]\n if c:assert [sum(r['values'][i] for r in c) for i in range(9)]==g['values'];children_checks.append(g['code'])\nwr(O/'original-row-parity.json',{'source_sha256':sha(src),'filter':'Sheet1 district C387/subdistrict D00000; H:P numeric cells','rows':rows,'numeric_cells':len(rows)*9,'all_numeric_and_row_anchors_equal':True,'row_code_sets_complete':True,'sex_and_residence_sums_pass':True,'parent_groups_population_pass':True,'parent_member_groups_checked':children_checks})\nconnections=[c for c in rd(repo/'kb/research/voices/district-connections.json')['connections'] if c['district']=='387'];links=[l for l in rd(repo/'kb/research/related-discoveries.json')['links'] if l['from']=='/languages/districts/puri/']\nclass Extract(HTMLParser):\n def __init__(self):super().__init__();self.on=False;self.depth=0;self.text=[];self.links=[]\n def handle_starttag(self,t,attrs):\n  if t=='article':self.on=True\n  if self.on:\n   if t=='a':self.links.extend(v for k,v in attrs if k=='href')\n   if t in ['p','h1','h2','h3','tr','section','summary']:self.text.append('\\n')\n def handle_endtag(self,t):\n  if t=='article':self.on=False\n def handle_data(self,d):\n  if self.on:self.text.append(d)\nhtml=repo/'projects/site/dist-publish/languages/districts/puri/index.html';parser=Extract();parser.feed(html.read_text());text='\\n'.join(' '.join(l.split()) for l in ''.join(parser.text).splitlines() if l.strip());(O/'cached-article.txt').write_text(text+'\\n');assert 'Puri city and the wider Puri district are different geographic scopes.' in text;assert '/destinations/puri/' in parser.links\nfiles=['AGENTS.md','kb/index.md','kb/team/assignments.json','kb/team/operations.json','kb/reference/article-editorial-standard.md','projects/site/src/pages/languages/districts/[slug].astro','projects/site/src/components/DistrictLanguageTable.astro','projects/site/src/lib/language-atlas.mjs','kb/research/voices/population-2011.json','kb/research/voices/district-connections.json','kb/research/related-discoveries.json','projects/site/tests-coast/district-languages.test.mjs','projects/site/tests/language-atlas.test.mjs','kb/research/destinations/puri-editorial.json','kb/research/product/puri-visitor-essentials-2026-09-30.md']\nreport={'item':'POD-EDIT-098','route':'/languages/districts/puri/','input_head':subprocess.check_output(['git','rev-parse','HEAD'],cwd=repo,text=True).strip(),'origin_main_local_ref':subprocess.check_output(['git','rev-parse','origin/main'],cwd=repo,text=True).strip(),'recommendation':'individual_utility_exclusion_candidate','rationale':'This actual Puri route supplies calculated Census group counts, historical rural/urban denominators and nested mother-tongue tables. Its single tailored destination connection explicitly distinguishes Puri city from the district; no configured related-discovery or sustained locally authored narrative is injected. These features support a utility exclusion for098 alone, not for the separate Puri destination article.','district':{'code':'387','name':a['name'],'rows':len(rows),'groups':len(groups),'subordinate_rows':len(rows)-len(groups),'source_row_range':[rows[0]['row'],rows[-1]['row']],'population_nine_fields':a['population']},'source_checks':{'source':atlas['sources']['c16'],'numeric_cells':9*len(rows),'result':'PASS original saved XLSX vs derived atlas, every district row/code/anchor and all9numbers; sex/residence arithmetic and group sums also pass','evidence':'samanta/original-row-parity.json'},'context':{'destination_connections':connections,'related_discoveries':links,'preserve_separate_authored_material':[{'path':'kb/research/destinations/puri-editorial.json','route':'/destinations/puri/','reason':'Separate authored city/visitor narrative with seven named sources and mapped notebook passages, not the district statistical utility.'},{'path':'kb/research/product/puri-visitor-essentials-2026-09-30.md','reason':'Separate practical visitor material; untouched by this utility classification.'}]},'cached_render':{'path':str(html.relative_to(repo)),'sha256':sha(html),'extracted_article':'samanta/cached-article.txt','extracted_sha256':sha(O/'cached-article.txt'),'article_links':parser.links,'basis':'Existing saved build only; no fresh build/live/browser claim.'},'frozen_proposal':{'files':['kb/records/puri-language-utility-review-2026-10-30.json','kb/records/article-editorial-rollout.json','kb/records/article-editorial-work-list.md'],'change':'After separate review and coordinator ownership reconciliation, only098 queued→excluded with individual evidence/reason; regenerate work-list. No authored-article completion credit.','preserve':['Public route,data,search eligibility,source caveats and Puri city/district connection','All other rollout items and separate Puri city/visitor/regional narratives','201Dhaga readings/art and114pagePDF'],'checks':['Only097 disposition fields change; all sibling records equal','Existing rollout/worklist/programme/team consistency checks','No public/site/data/book diff; unchanged-product build unnecessary'],'programme_credit':0},'actual_checks':['Independent original workbook XML read; no fresh download','Complete cached article/links extracted and actual configured connection confirmed','Template/table/helper and existing district/atlas test coverage inspected','No new mirror tests, builds or canonical mutations'],'files':[{'path':f,'sha256':sha(repo/f)} for f in files],'limits':['No current-day population, town language, ancestry, fluency or community identity inferred.','Workbook labels preserve Census classification; parent and member tables must not be added together.','Separate authored material identified for preservation, not externally re-researched.','No blanket sibling classification or publication claim.']}\nwr(O.parent/'samanta.json',report);print(report['district']);print(sha(O.parent/'samanta.json'))\n"
+    },
+    "samanta/original-row-parity.json": {
+      "sha256": "a73a410f0784ad5d26b379d9cdc070ad85ed49c0ad5104c500be2d8b72b734d2",
+      "content": {
+        "source_sha256": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db",
+        "filter": "Sheet1 district C387/subdistrict D00000; H:P numeric cells",
+        "rows": [
+          {
+            "row": 13597,
+            "code": "001000",
+            "label": "1 ASSAMESE",
+            "values": [
+              13,
+              5,
+              8,
+              4,
+              1,
+              3,
+              9,
+              4,
+              5
+            ]
+          },
+          {
+            "row": 13598,
+            "code": "001002",
+            "label": " Assamese",
+            "values": [
+              13,
+              5,
+              8,
+              4,
+              1,
+              3,
+              9,
+              4,
+              5
+            ]
+          },
+          {
+            "row": 13599,
+            "code": "002000",
+            "label": "2 BENGALI ",
+            "values": [
+              5616,
+              2927,
+              2689,
+              873,
+              440,
+              433,
+              4743,
+              2487,
+              2256
+            ]
+          },
+          {
+            "row": 13600,
+            "code": "002007",
+            "label": " Bengali",
+            "values": [
+              5616,
+              2927,
+              2689,
+              873,
+              440,
+              433,
+              4743,
+              2487,
+              2256
+            ]
+          },
+          {
+            "row": 13601,
+            "code": "005000",
+            "label": "5 GUJARATI",
+            "values": [
+              14,
+              6,
+              8,
+              4,
+              1,
+              3,
+              10,
+              5,
+              5
+            ]
+          },
+          {
+            "row": 13602,
+            "code": "005018",
+            "label": " Gujarati",
+            "values": [
+              14,
+              6,
+              8,
+              4,
+              1,
+              3,
+              10,
+              5,
+              5
+            ]
+          },
+          {
+            "row": 13603,
+            "code": "006000",
+            "label": "6 HINDI ",
+            "values": [
+              3582,
+              1911,
+              1671,
+              1175,
+              611,
+              564,
+              2407,
+              1300,
+              1107
+            ]
+          },
+          {
+            "row": 13604,
+            "code": "006066",
+            "label": " Banjari",
+            "values": [
+              4,
+              2,
+              2,
+              4,
+              2,
+              2,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "row": 13605,
+            "code": "006102",
+            "label": " Bhojpuri",
+            "values": [
+              21,
+              14,
+              7,
+              10,
+              8,
+              2,
+              11,
+              6,
+              5
+            ]
+          },
+          {
+            "row": 13606,
+            "code": "006142",
+            "label": " Chhattisgarhi",
+            "values": [
+              58,
+              29,
+              29,
+              58,
+              29,
+              29,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "row": 13607,
+            "code": "006235",
+            "label": " Haryanvi",
+            "values": [
+              4,
+              3,
+              1,
+              0,
+              0,
+              0,
+              4,
+              3,
+              1
+            ]
+          },
+          {
+            "row": 13608,
+            "code": "006240",
+            "label": " Hindi",
+            "values": [
+              3287,
+              1752,
+              1535,
+              1056,
+              543,
+              513,
+              2231,
+              1209,
+              1022
+            ]
+          },
+          {
+            "row": 13609,
+            "code": "006345",
+            "label": " Kurmali Thar",
+            "values": [
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "row": 13610,
+            "code": "006355",
+            "label": " Laria",
+            "values": [
+              12,
+              7,
+              5,
+              11,
+              6,
+              5,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "row": 13611,
+            "code": "006400",
+            "label": " Marwari",
+            "values": [
+              137,
+              72,
+              65,
+              32,
+              20,
+              12,
+              105,
+              52,
+              53
+            ]
+          },
+          {
+            "row": 13612,
+            "code": "006420",
+            "label": " Nagpuria",
+            "values": [
+              1,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "row": 13613,
+            "code": "006476",
+            "label": " Puran/Puran Bhasha",
+            "values": [
+              1,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "row": 13614,
+            "code": "006489",
+            "label": " Rajasthani",
+            "values": [
+              4,
+              2,
+              2,
+              1,
+              0,
+              1,
+              3,
+              2,
+              1
+            ]
+          },
+          {
+            "row": 13615,
+            "code": "006503",
+            "label": " Sadan/Sadri",
+            "values": [
+              7,
+              2,
+              5,
+              0,
+              0,
+              0,
+              7,
+              2,
+              5
+            ]
+          },
+          {
+            "row": 13616,
+            "code": "006999",
+            "label": "6 Others",
+            "values": [
+              45,
+              25,
+              20,
+              1,
+              1,
+              0,
+              44,
+              24,
+              20
+            ]
+          },
+          {
+            "row": 13617,
+            "code": "007000",
+            "label": "7 KANNADA",
+            "values": [
+              3,
+              2,
+              1,
+              1,
+              1,
+              0,
+              2,
+              1,
+              1
+            ]
+          },
+          {
+            "row": 13618,
+            "code": "007016",
+            "label": " Kannada",
+            "values": [
+              2,
+              2,
+              0,
+              1,
+              1,
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "row": 13619,
+            "code": "007999",
+            "label": "7 Others",
+            "values": [
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "row": 13620,
+            "code": "009000",
+            "label": "9 KONKANI",
+            "values": [
+              6,
+              3,
+              3,
+              0,
+              0,
+              0,
+              6,
+              3,
+              3
+            ]
+          },
+          {
+            "row": 13621,
+            "code": "009011",
+            "label": " Konkani",
+            "values": [
+              6,
+              3,
+              3,
+              0,
+              0,
+              0,
+              6,
+              3,
+              3
+            ]
+          },
+          {
+            "row": 13622,
+            "code": "010000",
+            "label": "10 MAITHILI ",
+            "values": [
+              14,
+              8,
+              6,
+              9,
+              5,
+              4,
+              5,
+              3,
+              2
+            ]
+          },
+          {
+            "row": 13623,
+            "code": "010008",
+            "label": " Maithili",
+            "values": [
+              14,
+              8,
+              6,
+              9,
+              5,
+              4,
+              5,
+              3,
+              2
+            ]
+          },
+          {
+            "row": 13624,
+            "code": "011000",
+            "label": "11 MALAYALAM",
+            "values": [
+              35,
+              12,
+              23,
+              5,
+              2,
+              3,
+              30,
+              10,
+              20
+            ]
+          },
+          {
+            "row": 13625,
+            "code": "011016",
+            "label": " Malayalam",
+            "values": [
+              35,
+              12,
+              23,
+              5,
+              2,
+              3,
+              30,
+              10,
+              20
+            ]
+          },
+          {
+            "row": 13626,
+            "code": "012000",
+            "label": "12 MANIPURI ",
+            "values": [
+              2,
+              1,
+              1,
+              0,
+              0,
+              0,
+              2,
+              1,
+              1
+            ]
+          },
+          {
+            "row": 13627,
+            "code": "012003",
+            "label": " Manipuri",
+            "values": [
+              2,
+              1,
+              1,
+              0,
+              0,
+              0,
+              2,
+              1,
+              1
+            ]
+          },
+          {
+            "row": 13628,
+            "code": "013000",
+            "label": "13 MARATHI ",
+            "values": [
+              56,
+              31,
+              25,
+              14,
+              7,
+              7,
+              42,
+              24,
+              18
+            ]
+          },
+          {
+            "row": 13629,
+            "code": "013071",
+            "label": " Marathi",
+            "values": [
+              56,
+              31,
+              25,
+              14,
+              7,
+              7,
+              42,
+              24,
+              18
+            ]
+          },
+          {
+            "row": 13630,
+            "code": "014000",
+            "label": "14 NEPALI ",
+            "values": [
+              23,
+              15,
+              8,
+              4,
+              4,
+              0,
+              19,
+              11,
+              8
+            ]
+          },
+          {
+            "row": 13631,
+            "code": "014011",
+            "label": " Nepali",
+            "values": [
+              23,
+              15,
+              8,
+              4,
+              4,
+              0,
+              19,
+              11,
+              8
+            ]
+          },
+          {
+            "row": 13632,
+            "code": "015000",
+            "label": "15 ODIA ",
+            "values": [
+              1615249,
+              822908,
+              792341,
+              1392970,
+              707554,
+              685416,
+              222279,
+              115354,
+              106925
+            ]
+          },
+          {
+            "row": 13633,
+            "code": "015043",
+            "label": " Odia",
+            "values": [
+              1614787,
+              822680,
+              792107,
+              1392528,
+              707338,
+              685190,
+              222259,
+              115342,
+              106917
+            ]
+          },
+          {
+            "row": 13634,
+            "code": "015051",
+            "label": " Proja (Ori)",
+            "values": [
+              26,
+              16,
+              10,
+              24,
+              16,
+              8,
+              2,
+              0,
+              2
+            ]
+          },
+          {
+            "row": 13635,
+            "code": "015058",
+            "label": " Sambalpuri",
+            "values": [
+              433,
+              212,
+              221,
+              418,
+              200,
+              218,
+              15,
+              12,
+              3
+            ]
+          },
+          {
+            "row": 13636,
+            "code": "015999",
+            "label": "15 Others",
+            "values": [
+              3,
+              0,
+              3,
+              0,
+              0,
+              0,
+              3,
+              0,
+              3
+            ]
+          },
+          {
+            "row": 13637,
+            "code": "016000",
+            "label": "16 PUNJABI ",
+            "values": [
+              23,
+              18,
+              5,
+              6,
+              6,
+              0,
+              17,
+              12,
+              5
+            ]
+          },
+          {
+            "row": 13638,
+            "code": "016038",
+            "label": " Punjabi",
+            "values": [
+              23,
+              18,
+              5,
+              6,
+              6,
+              0,
+              17,
+              12,
+              5
+            ]
+          },
+          {
+            "row": 13639,
+            "code": "017000",
+            "label": "17 SANSKRIT ",
+            "values": [
+              8,
+              4,
+              4,
+              5,
+              2,
+              3,
+              3,
+              2,
+              1
+            ]
+          },
+          {
+            "row": 13640,
+            "code": "017002",
+            "label": " Sanskrit",
+            "values": [
+              8,
+              4,
+              4,
+              5,
+              2,
+              3,
+              3,
+              2,
+              1
+            ]
+          },
+          {
+            "row": 13641,
+            "code": "018000",
+            "label": "18 SANTALI ",
+            "values": [
+              657,
+              303,
+              354,
+              306,
+              92,
+              214,
+              351,
+              211,
+              140
+            ]
+          },
+          {
+            "row": 13642,
+            "code": "018040",
+            "label": " Santali",
+            "values": [
+              657,
+              303,
+              354,
+              306,
+              92,
+              214,
+              351,
+              211,
+              140
+            ]
+          },
+          {
+            "row": 13643,
+            "code": "020000",
+            "label": "20 TAMIL ",
+            "values": [
+              86,
+              38,
+              48,
+              22,
+              11,
+              11,
+              64,
+              27,
+              37
+            ]
+          },
+          {
+            "row": 13644,
+            "code": "020027",
+            "label": " Tamil",
+            "values": [
+              86,
+              38,
+              48,
+              22,
+              11,
+              11,
+              64,
+              27,
+              37
+            ]
+          },
+          {
+            "row": 13645,
+            "code": "021000",
+            "label": "21 TELUGU ",
+            "values": [
+              32565,
+              16345,
+              16220,
+              3351,
+              1675,
+              1676,
+              29214,
+              14670,
+              14544
+            ]
+          },
+          {
+            "row": 13646,
+            "code": "021046",
+            "label": " Telugu",
+            "values": [
+              32565,
+              16345,
+              16220,
+              3351,
+              1675,
+              1676,
+              29214,
+              14670,
+              14544
+            ]
+          },
+          {
+            "row": 13647,
+            "code": "022000",
+            "label": "22 URDU",
+            "values": [
+              40113,
+              20441,
+              19672,
+              34589,
+              17526,
+              17063,
+              5524,
+              2915,
+              2609
+            ]
+          },
+          {
+            "row": 13648,
+            "code": "022015",
+            "label": " Urdu",
+            "values": [
+              40113,
+              20441,
+              19672,
+              34589,
+              17526,
+              17063,
+              5524,
+              2915,
+              2609
+            ]
+          },
+          {
+            "row": 13649,
+            "code": "030000",
+            "label": "30 BHILI/BHILODI ",
+            "values": [
+              8,
+              7,
+              1,
+              8,
+              7,
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "row": 13650,
+            "code": "030002",
+            "label": " Baori",
+            "values": [
+              8,
+              7,
+              1,
+              8,
+              7,
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "row": 13651,
+            "code": "032000",
+            "label": "32 BHUMIJ ",
+            "values": [
+              1,
+              0,
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "row": 13652,
+            "code": "032999",
+            "label": "32 Others",
+            "values": [
+              1,
+              0,
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "row": 13653,
+            "code": "040000",
+            "label": "40 ENGLISH ",
+            "values": [
+              93,
+              49,
+              44,
+              66,
+              36,
+              30,
+              27,
+              13,
+              14
+            ]
+          },
+          {
+            "row": 13654,
+            "code": "040001",
+            "label": " English",
+            "values": [
+              93,
+              49,
+              44,
+              66,
+              36,
+              30,
+              27,
+              13,
+              14
+            ]
+          },
+          {
+            "row": 13655,
+            "code": "044000",
+            "label": "44 GONDI",
+            "values": [
+              1,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "row": 13656,
+            "code": "044999",
+            "label": "44 Others",
+            "values": [
+              1,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "row": 13657,
+            "code": "048000",
+            "label": "48 HO",
+            "values": [
+              15,
+              7,
+              8,
+              14,
+              6,
+              8,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "row": 13658,
+            "code": "048004",
+            "label": " Ho",
+            "values": [
+              15,
+              7,
+              8,
+              14,
+              6,
+              8,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "row": 13659,
+            "code": "054000",
+            "label": "54 KHARIA ",
+            "values": [
+              11,
+              5,
+              6,
+              9,
+              3,
+              6,
+              2,
+              2,
+              0
+            ]
+          },
+          {
+            "row": 13660,
+            "code": "054005",
+            "label": " Kharia",
+            "values": [
+              11,
+              5,
+              6,
+              9,
+              3,
+              6,
+              2,
+              2,
+              0
+            ]
+          },
+          {
+            "row": 13661,
+            "code": "058000",
+            "label": "58 KHOND/KONDH ",
+            "values": [
+              14,
+              10,
+              4,
+              13,
+              9,
+              4,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "row": 13662,
+            "code": "058001",
+            "label": " Khond/Kondh",
+            "values": [
+              14,
+              10,
+              4,
+              13,
+              9,
+              4,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "row": 13663,
+            "code": "069000",
+            "label": "69 KOYA ",
+            "values": [
+              3,
+              1,
+              2,
+              0,
+              0,
+              0,
+              3,
+              1,
+              2
+            ]
+          },
+          {
+            "row": 13664,
+            "code": "069002",
+            "label": " Koya",
+            "values": [
+              3,
+              1,
+              2,
+              0,
+              0,
+              0,
+              3,
+              1,
+              2
+            ]
+          },
+          {
+            "row": 13665,
+            "code": "070000",
+            "label": "70 KUI ",
+            "values": [
+              66,
+              36,
+              30,
+              19,
+              8,
+              11,
+              47,
+              28,
+              19
+            ]
+          },
+          {
+            "row": 13666,
+            "code": "070001",
+            "label": " Kui",
+            "values": [
+              66,
+              36,
+              30,
+              19,
+              8,
+              11,
+              47,
+              28,
+              19
+            ]
+          },
+          {
+            "row": 13667,
+            "code": "072000",
+            "label": "72 KURUKH/ORAON ",
+            "values": [
+              8,
+              3,
+              5,
+              1,
+              1,
+              0,
+              7,
+              2,
+              5
+            ]
+          },
+          {
+            "row": 13668,
+            "code": "072024",
+            "label": " Kurukh/Oraon",
+            "values": [
+              8,
+              3,
+              5,
+              1,
+              1,
+              0,
+              7,
+              2,
+              5
+            ]
+          },
+          {
+            "row": 13669,
+            "code": "083000",
+            "label": "83 MALTO ",
+            "values": [
+              3,
+              2,
+              1,
+              3,
+              2,
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "row": 13670,
+            "code": "083999",
+            "label": "83 Others",
+            "values": [
+              3,
+              2,
+              1,
+              3,
+              2,
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "row": 13671,
+            "code": "091000",
+            "label": "91 MUNDA",
+            "values": [
+              59,
+              45,
+              14,
+              17,
+              12,
+              5,
+              42,
+              33,
+              9
+            ]
+          },
+          {
+            "row": 13672,
+            "code": "091009",
+            "label": " Munda",
+            "values": [
+              59,
+              45,
+              14,
+              17,
+              12,
+              5,
+              42,
+              33,
+              9
+            ]
+          },
+          {
+            "row": 13673,
+            "code": "092000",
+            "label": "92 MUNDARI ",
+            "values": [
+              4,
+              1,
+              3,
+              1,
+              0,
+              1,
+              3,
+              1,
+              2
+            ]
+          },
+          {
+            "row": 13674,
+            "code": "092005",
+            "label": " Mundari",
+            "values": [
+              4,
+              1,
+              3,
+              1,
+              0,
+              1,
+              3,
+              1,
+              2
+            ]
+          },
+          {
+            "row": 13675,
+            "code": "106000",
+            "label": "106 SAVARA",
+            "values": [
+              82,
+              78,
+              4,
+              72,
+              72,
+              0,
+              10,
+              6,
+              4
+            ]
+          },
+          {
+            "row": 13676,
+            "code": "106004",
+            "label": " Savara",
+            "values": [
+              82,
+              78,
+              4,
+              72,
+              72,
+              0,
+              10,
+              6,
+              4
+            ]
+          },
+          {
+            "row": 13677,
+            "code": "124000",
+            "label": "124 OTHERS",
+            "values": [
+              297,
+              157,
+              140,
+              237,
+              118,
+              119,
+              60,
+              39,
+              21
+            ]
+          }
+        ],
+        "numeric_cells": 729,
+        "all_numeric_and_row_anchors_equal": true,
+        "row_code_sets_complete": true,
+        "sex_and_residence_sums_pass": true,
+        "parent_groups_population_pass": true,
+        "parent_member_groups_checked": [
+          "001000",
+          "002000",
+          "005000",
+          "006000",
+          "007000",
+          "009000",
+          "010000",
+          "011000",
+          "012000",
+          "013000",
+          "014000",
+          "015000",
+          "016000",
+          "017000",
+          "018000",
+          "020000",
+          "021000",
+          "022000",
+          "030000",
+          "032000",
+          "040000",
+          "044000",
+          "048000",
+          "054000",
+          "058000",
+          "069000",
+          "070000",
+          "072000",
+          "083000",
+          "091000",
+          "092000",
+          "106000"
+        ]
+      }
+    },
+    "drishti/source-parity.json": {
+      "sha256": "86afba7382c947d6d3c31fad72a08d81466233c129a65a6177c4e693b550c2fd",
+      "content": {
+        "input_head": "eaf190a9fa72013375646659399dc0fe1a0d480e",
+        "source_sha256": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db",
+        "district": "387",
+        "rows": 81,
+        "numeric_cells": 729,
+        "groups": 33,
+        "subordinate_rows": 48,
+        "parent_sums": [
+          1698730,
+          865380,
+          833350,
+          1433800,
+          728213,
+          705587,
+          264930,
+          137167,
+          127763
+        ],
+        "all_numeric_values_and_row_anchors_exact": true,
+        "row_arithmetic_pass": true,
+        "observations": [
+          {
+            "row": 13597,
+            "code": "001000",
+            "raw_label": "1 ASSAMESE",
+            "values": [
+              13,
+              5,
+              8,
+              4,
+              1,
+              3,
+              9,
+              4,
+              5
+            ],
+            "level": "language_group"
+          },
+          {
+            "row": 13598,
+            "code": "001002",
+            "raw_label": " Assamese",
+            "values": [
+              13,
+              5,
+              8,
+              4,
+              1,
+              3,
+              9,
+              4,
+              5
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13599,
+            "code": "002000",
+            "raw_label": "2 BENGALI ",
+            "values": [
+              5616,
+              2927,
+              2689,
+              873,
+              440,
+              433,
+              4743,
+              2487,
+              2256
+            ],
+            "level": "language_group"
+          },
+          {
+            "row": 13600,
+            "code": "002007",
+            "raw_label": " Bengali",
+            "values": [
+              5616,
+              2927,
+              2689,
+              873,
+              440,
+              433,
+              4743,
+              2487,
+              2256
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13601,
+            "code": "005000",
+            "raw_label": "5 GUJARATI",
+            "values": [
+              14,
+              6,
+              8,
+              4,
+              1,
+              3,
+              10,
+              5,
+              5
+            ],
+            "level": "language_group"
+          },
+          {
+            "row": 13602,
+            "code": "005018",
+            "raw_label": " Gujarati",
+            "values": [
+              14,
+              6,
+              8,
+              4,
+              1,
+              3,
+              10,
+              5,
+              5
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13603,
+            "code": "006000",
+            "raw_label": "6 HINDI ",
+            "values": [
+              3582,
+              1911,
+              1671,
+              1175,
+              611,
+              564,
+              2407,
+              1300,
+              1107
+            ],
+            "level": "language_group"
+          },
+          {
+            "row": 13604,
+            "code": "006066",
+            "raw_label": " Banjari",
+            "values": [
+              4,
+              2,
+              2,
+              4,
+              2,
+              2,
+              0,
+              0,
+              0
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13605,
+            "code": "006102",
+            "raw_label": " Bhojpuri",
+            "values": [
+              21,
+              14,
+              7,
+              10,
+              8,
+              2,
+              11,
+              6,
+              5
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13606,
+            "code": "006142",
+            "raw_label": " Chhattisgarhi",
+            "values": [
+              58,
+              29,
+              29,
+              58,
+              29,
+              29,
+              0,
+              0,
+              0
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13607,
+            "code": "006235",
+            "raw_label": " Haryanvi",
+            "values": [
+              4,
+              3,
+              1,
+              0,
+              0,
+              0,
+              4,
+              3,
+              1
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13608,
+            "code": "006240",
+            "raw_label": " Hindi",
+            "values": [
+              3287,
+              1752,
+              1535,
+              1056,
+              543,
+              513,
+              2231,
+              1209,
+              1022
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13609,
+            "code": "006345",
+            "raw_label": " Kurmali Thar",
+            "values": [
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13610,
+            "code": "006355",
+            "raw_label": " Laria",
+            "values": [
+              12,
+              7,
+              5,
+              11,
+              6,
+              5,
+              1,
+              1,
+              0
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13611,
+            "code": "006400",
+            "raw_label": " Marwari",
+            "values": [
+              137,
+              72,
+              65,
+              32,
+              20,
+              12,
+              105,
+              52,
+              53
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13612,
+            "code": "006420",
+            "raw_label": " Nagpuria",
+            "values": [
+              1,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13613,
+            "code": "006476",
+            "raw_label": " Puran/Puran Bhasha",
+            "values": [
+              1,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13614,
+            "code": "006489",
+            "raw_label": " Rajasthani",
+            "values": [
+              4,
+              2,
+              2,
+              1,
+              0,
+              1,
+              3,
+              2,
+              1
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13615,
+            "code": "006503",
+            "raw_label": " Sadan/Sadri",
+            "values": [
+              7,
+              2,
+              5,
+              0,
+              0,
+              0,
+              7,
+              2,
+              5
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13616,
+            "code": "006999",
+            "raw_label": "6 Others",
+            "values": [
+              45,
+              25,
+              20,
+              1,
+              1,
+              0,
+              44,
+              24,
+              20
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13617,
+            "code": "007000",
+            "raw_label": "7 KANNADA",
+            "values": [
+              3,
+              2,
+              1,
+              1,
+              1,
+              0,
+              2,
+              1,
+              1
+            ],
+            "level": "language_group"
+          },
+          {
+            "row": 13618,
+            "code": "007016",
+            "raw_label": " Kannada",
+            "values": [
+              2,
+              2,
+              0,
+              1,
+              1,
+              0,
+              1,
+              1,
+              0
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13619,
+            "code": "007999",
+            "raw_label": "7 Others",
+            "values": [
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              1
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13620,
+            "code": "009000",
+            "raw_label": "9 KONKANI",
+            "values": [
+              6,
+              3,
+              3,
+              0,
+              0,
+              0,
+              6,
+              3,
+              3
+            ],
+            "level": "language_group"
+          },
+          {
+            "row": 13621,
+            "code": "009011",
+            "raw_label": " Konkani",
+            "values": [
+              6,
+              3,
+              3,
+              0,
+              0,
+              0,
+              6,
+              3,
+              3
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13622,
+            "code": "010000",
+            "raw_label": "10 MAITHILI ",
+            "values": [
+              14,
+              8,
+              6,
+              9,
+              5,
+              4,
+              5,
+              3,
+              2
+            ],
+            "level": "language_group"
+          },
+          {
+            "row": 13623,
+            "code": "010008",
+            "raw_label": " Maithili",
+            "values": [
+              14,
+              8,
+              6,
+              9,
+              5,
+              4,
+              5,
+              3,
+              2
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13624,
+            "code": "011000",
+            "raw_label": "11 MALAYALAM",
+            "values": [
+              35,
+              12,
+              23,
+              5,
+              2,
+              3,
+              30,
+              10,
+              20
+            ],
+            "level": "language_group"
+          },
+          {
+            "row": 13625,
+            "code": "011016",
+            "raw_label": " Malayalam",
+            "values": [
+              35,
+              12,
+              23,
+              5,
+              2,
+              3,
+              30,
+              10,
+              20
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13626,
+            "code": "012000",
+            "raw_label": "12 MANIPURI ",
+            "values": [
+              2,
+              1,
+              1,
+              0,
+              0,
+              0,
+              2,
+              1,
+              1
+            ],
+            "level": "language_group"
+          },
+          {
+            "row": 13627,
+            "code": "012003",
+            "raw_label": " Manipuri",
+            "values": [
+              2,
+              1,
+              1,
+              0,
+              0,
+              0,
+              2,
+              1,
+              1
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13628,
+            "code": "013000",
+            "raw_label": "13 MARATHI ",
+            "values": [
+              56,
+              31,
+              25,
+              14,
+              7,
+              7,
+              42,
+              24,
+              18
+            ],
+            "level": "language_group"
+          },
+          {
+            "row": 13629,
+            "code": "013071",
+            "raw_label": " Marathi",
+            "values": [
+              56,
+              31,
+              25,
+              14,
+              7,
+              7,
+              42,
+              24,
+              18
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13630,
+            "code": "014000",
+            "raw_label": "14 NEPALI ",
+            "values": [
+              23,
+              15,
+              8,
+              4,
+              4,
+              0,
+              19,
+              11,
+              8
+            ],
+            "level": "language_group"
+          },
+          {
+            "row": 13631,
+            "code": "014011",
+            "raw_label": " Nepali",
+            "values": [
+              23,
+              15,
+              8,
+              4,
+              4,
+              0,
+              19,
+              11,
+              8
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13632,
+            "code": "015000",
+            "raw_label": "15 ODIA ",
+            "values": [
+              1615249,
+              822908,
+              792341,
+              1392970,
+              707554,
+              685416,
+              222279,
+              115354,
+              106925
+            ],
+            "level": "language_group"
+          },
+          {
+            "row": 13633,
+            "code": "015043",
+            "raw_label": " Odia",
+            "values": [
+              1614787,
+              822680,
+              792107,
+              1392528,
+              707338,
+              685190,
+              222259,
+              115342,
+              106917
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13634,
+            "code": "015051",
+            "raw_label": " Proja (Ori)",
+            "values": [
+              26,
+              16,
+              10,
+              24,
+              16,
+              8,
+              2,
+              0,
+              2
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13635,
+            "code": "015058",
+            "raw_label": " Sambalpuri",
+            "values": [
+              433,
+              212,
+              221,
+              418,
+              200,
+              218,
+              15,
+              12,
+              3
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13636,
+            "code": "015999",
+            "raw_label": "15 Others",
+            "values": [
+              3,
+              0,
+              3,
+              0,
+              0,
+              0,
+              3,
+              0,
+              3
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13637,
+            "code": "016000",
+            "raw_label": "16 PUNJABI ",
+            "values": [
+              23,
+              18,
+              5,
+              6,
+              6,
+              0,
+              17,
+              12,
+              5
+            ],
+            "level": "language_group"
+          },
+          {
+            "row": 13638,
+            "code": "016038",
+            "raw_label": " Punjabi",
+            "values": [
+              23,
+              18,
+              5,
+              6,
+              6,
+              0,
+              17,
+              12,
+              5
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13639,
+            "code": "017000",
+            "raw_label": "17 SANSKRIT ",
+            "values": [
+              8,
+              4,
+              4,
+              5,
+              2,
+              3,
+              3,
+              2,
+              1
+            ],
+            "level": "language_group"
+          },
+          {
+            "row": 13640,
+            "code": "017002",
+            "raw_label": " Sanskrit",
+            "values": [
+              8,
+              4,
+              4,
+              5,
+              2,
+              3,
+              3,
+              2,
+              1
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13641,
+            "code": "018000",
+            "raw_label": "18 SANTALI ",
+            "values": [
+              657,
+              303,
+              354,
+              306,
+              92,
+              214,
+              351,
+              211,
+              140
+            ],
+            "level": "language_group"
+          },
+          {
+            "row": 13642,
+            "code": "018040",
+            "raw_label": " Santali",
+            "values": [
+              657,
+              303,
+              354,
+              306,
+              92,
+              214,
+              351,
+              211,
+              140
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13643,
+            "code": "020000",
+            "raw_label": "20 TAMIL ",
+            "values": [
+              86,
+              38,
+              48,
+              22,
+              11,
+              11,
+              64,
+              27,
+              37
+            ],
+            "level": "language_group"
+          },
+          {
+            "row": 13644,
+            "code": "020027",
+            "raw_label": " Tamil",
+            "values": [
+              86,
+              38,
+              48,
+              22,
+              11,
+              11,
+              64,
+              27,
+              37
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13645,
+            "code": "021000",
+            "raw_label": "21 TELUGU ",
+            "values": [
+              32565,
+              16345,
+              16220,
+              3351,
+              1675,
+              1676,
+              29214,
+              14670,
+              14544
+            ],
+            "level": "language_group"
+          },
+          {
+            "row": 13646,
+            "code": "021046",
+            "raw_label": " Telugu",
+            "values": [
+              32565,
+              16345,
+              16220,
+              3351,
+              1675,
+              1676,
+              29214,
+              14670,
+              14544
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13647,
+            "code": "022000",
+            "raw_label": "22 URDU",
+            "values": [
+              40113,
+              20441,
+              19672,
+              34589,
+              17526,
+              17063,
+              5524,
+              2915,
+              2609
+            ],
+            "level": "language_group"
+          },
+          {
+            "row": 13648,
+            "code": "022015",
+            "raw_label": " Urdu",
+            "values": [
+              40113,
+              20441,
+              19672,
+              34589,
+              17526,
+              17063,
+              5524,
+              2915,
+              2609
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13649,
+            "code": "030000",
+            "raw_label": "30 BHILI/BHILODI ",
+            "values": [
+              8,
+              7,
+              1,
+              8,
+              7,
+              1,
+              0,
+              0,
+              0
+            ],
+            "level": "language_group"
+          },
+          {
+            "row": 13650,
+            "code": "030002",
+            "raw_label": " Baori",
+            "values": [
+              8,
+              7,
+              1,
+              8,
+              7,
+              1,
+              0,
+              0,
+              0
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13651,
+            "code": "032000",
+            "raw_label": "32 BHUMIJ ",
+            "values": [
+              1,
+              0,
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            "level": "language_group"
+          },
+          {
+            "row": 13652,
+            "code": "032999",
+            "raw_label": "32 Others",
+            "values": [
+              1,
+              0,
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13653,
+            "code": "040000",
+            "raw_label": "40 ENGLISH ",
+            "values": [
+              93,
+              49,
+              44,
+              66,
+              36,
+              30,
+              27,
+              13,
+              14
+            ],
+            "level": "language_group"
+          },
+          {
+            "row": 13654,
+            "code": "040001",
+            "raw_label": " English",
+            "values": [
+              93,
+              49,
+              44,
+              66,
+              36,
+              30,
+              27,
+              13,
+              14
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13655,
+            "code": "044000",
+            "raw_label": "44 GONDI",
+            "values": [
+              1,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "level": "language_group"
+          },
+          {
+            "row": 13656,
+            "code": "044999",
+            "raw_label": "44 Others",
+            "values": [
+              1,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13657,
+            "code": "048000",
+            "raw_label": "48 HO",
+            "values": [
+              15,
+              7,
+              8,
+              14,
+              6,
+              8,
+              1,
+              1,
+              0
+            ],
+            "level": "language_group"
+          },
+          {
+            "row": 13658,
+            "code": "048004",
+            "raw_label": " Ho",
+            "values": [
+              15,
+              7,
+              8,
+              14,
+              6,
+              8,
+              1,
+              1,
+              0
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13659,
+            "code": "054000",
+            "raw_label": "54 KHARIA ",
+            "values": [
+              11,
+              5,
+              6,
+              9,
+              3,
+              6,
+              2,
+              2,
+              0
+            ],
+            "level": "language_group"
+          },
+          {
+            "row": 13660,
+            "code": "054005",
+            "raw_label": " Kharia",
+            "values": [
+              11,
+              5,
+              6,
+              9,
+              3,
+              6,
+              2,
+              2,
+              0
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13661,
+            "code": "058000",
+            "raw_label": "58 KHOND/KONDH ",
+            "values": [
+              14,
+              10,
+              4,
+              13,
+              9,
+              4,
+              1,
+              1,
+              0
+            ],
+            "level": "language_group"
+          },
+          {
+            "row": 13662,
+            "code": "058001",
+            "raw_label": " Khond/Kondh",
+            "values": [
+              14,
+              10,
+              4,
+              13,
+              9,
+              4,
+              1,
+              1,
+              0
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13663,
+            "code": "069000",
+            "raw_label": "69 KOYA ",
+            "values": [
+              3,
+              1,
+              2,
+              0,
+              0,
+              0,
+              3,
+              1,
+              2
+            ],
+            "level": "language_group"
+          },
+          {
+            "row": 13664,
+            "code": "069002",
+            "raw_label": " Koya",
+            "values": [
+              3,
+              1,
+              2,
+              0,
+              0,
+              0,
+              3,
+              1,
+              2
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13665,
+            "code": "070000",
+            "raw_label": "70 KUI ",
+            "values": [
+              66,
+              36,
+              30,
+              19,
+              8,
+              11,
+              47,
+              28,
+              19
+            ],
+            "level": "language_group"
+          },
+          {
+            "row": 13666,
+            "code": "070001",
+            "raw_label": " Kui",
+            "values": [
+              66,
+              36,
+              30,
+              19,
+              8,
+              11,
+              47,
+              28,
+              19
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13667,
+            "code": "072000",
+            "raw_label": "72 KURUKH/ORAON ",
+            "values": [
+              8,
+              3,
+              5,
+              1,
+              1,
+              0,
+              7,
+              2,
+              5
+            ],
+            "level": "language_group"
+          },
+          {
+            "row": 13668,
+            "code": "072024",
+            "raw_label": " Kurukh/Oraon",
+            "values": [
+              8,
+              3,
+              5,
+              1,
+              1,
+              0,
+              7,
+              2,
+              5
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13669,
+            "code": "083000",
+            "raw_label": "83 MALTO ",
+            "values": [
+              3,
+              2,
+              1,
+              3,
+              2,
+              1,
+              0,
+              0,
+              0
+            ],
+            "level": "language_group"
+          },
+          {
+            "row": 13670,
+            "code": "083999",
+            "raw_label": "83 Others",
+            "values": [
+              3,
+              2,
+              1,
+              3,
+              2,
+              1,
+              0,
+              0,
+              0
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13671,
+            "code": "091000",
+            "raw_label": "91 MUNDA",
+            "values": [
+              59,
+              45,
+              14,
+              17,
+              12,
+              5,
+              42,
+              33,
+              9
+            ],
+            "level": "language_group"
+          },
+          {
+            "row": 13672,
+            "code": "091009",
+            "raw_label": " Munda",
+            "values": [
+              59,
+              45,
+              14,
+              17,
+              12,
+              5,
+              42,
+              33,
+              9
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13673,
+            "code": "092000",
+            "raw_label": "92 MUNDARI ",
+            "values": [
+              4,
+              1,
+              3,
+              1,
+              0,
+              1,
+              3,
+              1,
+              2
+            ],
+            "level": "language_group"
+          },
+          {
+            "row": 13674,
+            "code": "092005",
+            "raw_label": " Mundari",
+            "values": [
+              4,
+              1,
+              3,
+              1,
+              0,
+              1,
+              3,
+              1,
+              2
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13675,
+            "code": "106000",
+            "raw_label": "106 SAVARA",
+            "values": [
+              82,
+              78,
+              4,
+              72,
+              72,
+              0,
+              10,
+              6,
+              4
+            ],
+            "level": "language_group"
+          },
+          {
+            "row": 13676,
+            "code": "106004",
+            "raw_label": " Savara",
+            "values": [
+              82,
+              78,
+              4,
+              72,
+              72,
+              0,
+              10,
+              6,
+              4
+            ],
+            "level": "mother_tongue"
+          },
+          {
+            "row": 13677,
+            "code": "124000",
+            "raw_label": "124 OTHERS",
+            "values": [
+              297,
+              157,
+              140,
+              237,
+              118,
+              119,
+              60,
+              39,
+              21
+            ],
+            "level": "language_group"
+          }
+        ]
+      }
+    },
+    "reviewed-handoff-snapshot.json": {
+      "sha256": "e5162b27af85a98b06090b4603b1c4443775764774a0cb06435d28bcf1ae5903",
+      "content": {
+        "status": "individual_readiness_in_progress",
+        "item": "POD-EDIT-098",
+        "route": "/languages/districts/puri/",
+        "owner": "Disha",
+        "scope": "Output-only individual readiness; no canonical release claim",
+        "input_head": "eaf190a9fa72013375646659399dc0fe1a0d480e",
+        "ownership": "Fresh remote operations current task/article null; open PRs534/304/281 unrelated. Dhaga201 release complete through receipt622 and16remotehashes.",
+        "roles": {
+          "Anvesha": "anvesha.json and anvesha/ source evidence only",
+          "Samanta": "samanta.json and samanta/ technical evidence only",
+          "Drishti": "drishti.json independent review only"
+        },
+        "preserve": "All canonical/public products, Dhaga201/201art/114pages and programme131; no sibling classification"
+      }
+    }
+  },
+  "evidence_resolution": {
+    "report_local_paths": "Relative local evidence references resolve to embedded_evidence keys; complete original report objects retained.",
+    "source_paths": "Canonical source/template/data paths remain bound by report hashes. Original workbook kb/research/references/census-2011/c16-odisha.xlsx stays unchanged.",
+    "cached_html": "Historical noncanonical build; extracted article embedded, not fresh live proof.",
+    "handoff": "reviewed-handoff-snapshot.json preserves the reviewed coordination snapshot; mutable HANDOFF is not substituted."
+  }
+}
