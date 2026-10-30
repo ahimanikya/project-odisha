@@ -1,0 +1,34 @@
+{
+  "review_type": "Separate AI merge exact-head preservation review",
+  "verdict": "PASS merge preservation; new required CI still pending",
+  "head": "20dae61ffda9e49f76b7522acea8b5e024c7aa19",
+  "merged_main": "79b70bd6667ab22abd9f0ab1ba3d2f68c4d2cf34",
+  "prior_reviewed_head": "580fb90bd84570a9d95d68ec760b68a4cbc59caf",
+  "pdf_pin": "5b18adef5d5a17486f3f2e408e7cd60effec99ca",
+  "actual_checks": {
+    "all380_prior_file_hashes_equal": true,
+    "difference_from_main_confined_to_original_attribution_paths": true,
+    "main_ancestor": true,
+    "pdf_pin_ancestor": true,
+    "operations_changed_keys_vs_main": [
+      "handoff_home",
+      "current_task"
+    ],
+    "diff_check_excluding_existing_source_trailing_whitespace": "PASS"
+  },
+  "findings": [
+    "Cinema/main files outside original attribution scope are byte-preserved by exact tree-diff comparison.",
+    "All380 original candidate hashes unchanged, including reviewed PDF/builders/entries/exporter and own scoped operations.",
+    "Main delivery/rollout/other programme records preserved; own claim remains implementation review and publication is not asserted."
+  ],
+  "bindings": {
+    "prior_review": "d409fea7fb81f8af444653f84c1ba2b6d1ff79adaebde327a2bb98b355dbead9",
+    "validation_site": "fe4c55554834190836fc9d6fd08f6ad56f76a8ab8d36bf72151fd9f82b19d2e9"
+  },
+  "validation_limit": "Read bound validation-site evidence for prior580fb90b:646 full/535 coast/3408 acceptance,609481003 bytes and11 indexable reported PASS. Did not rerun those builds; they do not certify newly merged cinema combination. New CI remains required.",
+  "limits": [
+    "No repeat PDF/art visual review because all relevant bytes match.",
+    "No live/deployment or human-review claim.",
+    "No canonical edits or Git mutations."
+  ]
+}
