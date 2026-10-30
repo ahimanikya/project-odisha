@@ -1,0 +1,284 @@
+{
+  "date": "2026-10-30",
+  "status": "four_content_and_static_integration_PASS",
+  "scope": "Four sequential local articles; no draft approval, publication or PDF changes.",
+  "photo_checks": [
+    {
+      "file": "Prafulla Kar 01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Prafulla_Kar_01.jpg",
+      "creator": "Subhashish Panigrahi",
+      "source": "Own work",
+      "license": "CC BY-SA 4.0",
+      "dimensions": [
+        3264,
+        4928
+      ],
+      "capture_date": "2014-10-18",
+      "access": "Fresh direct Commons page"
+    },
+    {
+      "file": "Pranab Patnaik.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Pranab_Patnaik.jpg",
+      "creator": "Subhashish Panigrahi",
+      "source": "Own work",
+      "license": "CC BY-SA 4.0",
+      "dimensions": [
+        2220,
+        2734
+      ],
+      "capture_date": "2014-11-27",
+      "access": "Fresh indexed full Commons file text",
+      "caveat": "Use actual file dimensions, not larger EXIF camera dimensions."
+    },
+    {
+      "file": "Tapu Mishra.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tapu_Mishra.jpg",
+      "creator": "Jnanaranjan Sahu",
+      "source": "Own work",
+      "license": "CC BY-SA 4.0",
+      "dimensions": [
+        3456,
+        4608
+      ],
+      "capture_date": "2016-01-24",
+      "access": "Direct Chrome file-page read earlier same research session",
+      "caveat": "Standard personality-rights warning; generic description, identity supported by title/category/wiki usage."
+    },
+    {
+      "file": "Odia singer Trupti Das felicitated during 2nd Odisha State Television Award 01 (cropped).JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Odia_singer_Trupti_Das_felicitated_during_2nd_Odisha_State_Television_Award_01_(cropped).JPG",
+      "creator": "Subhashish Panigrahi",
+      "source": "Own work; extracted from group photograph",
+      "license": "CC BY-SA 4.0",
+      "dimensions": [
+        1096,
+        1154
+      ],
+      "capture_date": "2014-11-22",
+      "crop_date": "2015-12-16",
+      "cropper": "Psubhashish / Subhashish Panigrahi",
+      "access": "Fresh direct Commons page",
+      "caveat": "Do not call uncropped. Different similarly named1072×987 crop has stale Sourav-only description; distinguish filenames and do not infer new award facts from generic inherited caption."
+    }
+  ],
+  "integration_constraints": [
+    "Keep manifest and cinema.json source hashes, order, title-image dimensions/provenance/derivative hashes synchronized sequentially.",
+    "Use documentary hero kind and complete creator/source_url/license/license_url so existing renderer creates ordinary numbered image note.",
+    "People routes need generic CinemaReading wrappers; do not copy Akshaya-specific listening enhancement.",
+    "Legacy projects/site/tools/prepare-cinema.mjs rewrites cinema.json from preview reports and copies undated PDFs; avoid global use for this no-PDF batch.",
+    "Keep related-reading links resolving through existing metadata routes; queued draft links only accepted temporarily, not final completion.",
+    "Use unique active photo per article, retained complete photographs and consistent cropped cards; preserve explicit crop attribution where source itself is cropped."
+  ],
+  "limitations": [
+    "No new photographs downloaded or pixel selection reviewed in this preliminary pass.",
+    "No article draft factual approval or browser/build review yet."
+  ],
+  "human_review_claimed": false,
+  "scope_released": true,
+  "first_article_review": {
+    "source_sha256": "cdd2b115a5f2dc5224161d6a6e829444fb29b5a7888e04b370bec05a2b5bae96",
+    "factual_verdict": "No material contradiction found against retained packet and fresh targeted sources; not final integration approval.",
+    "coverage": "All15 requested musicians present with specific examples; additional collaborators fairly credited.",
+    "notes": {
+      "definitions": 15,
+      "undefined": 0,
+      "unused": 0
+    },
+    "fresh_checks": [
+      "Aseema MyCityLinks13March2019: stateaward and Odissi/Hindustani teachers directly read.",
+      "Bhubaneswari TNIE20February2016 song and stateaward credits directly read.",
+      "Tapu OdishaBytes14February2018: selectivework and proposedfuturemusic correctly attributed; no completedproduction inference.",
+      "Krishna PlanetBollywood participant interview and YRF song page directly opened; YRF erroneous composer field not adopted."
+    ],
+    "retained_evidence_limits": [
+      "Official YouTube recording metadata relies on root/Anvesha retained captures; no listening claimed by reviewer.",
+      "QueuedPrafulla/Pranab/Tapu links not final integration defects while sequential drafting remainsactive."
+    ],
+    "source_budget_assessment": {
+      "SaregamaJajabara_shared_with_Akshaya": "Conservative entire two cited paragraphs plus notes about105words; under200.",
+      "Bhubaneswari_shared_overview": "Even whole mixedsource paragraphs plus notes about126words; true source-specific portion smaller.",
+      "Pranab2017": "Current citedparagraph+note78words; laterprofile must reserve remaining allowance.",
+      "Tapu2018": "Currentparagraph+note64words; laterprofile must reserve remaining allowance.",
+      "KrishnaPlanet": "Whole two paragraphs+note116words, mixedYRFfacts included conservatively; under200.",
+      "other_current_new_sources": "Short credit factualpassages and notes well under200; future profiles require retally."
+    },
+    "editorial_adjustments": [
+      {
+        "priority": "medium",
+        "passage": "Prafulla/Pranab/Sikandar/Chitta recap paragraph afterPranab",
+        "action": "Remove repeated Mamata credit-map explanation; opener already establishes it."
+      },
+      {
+        "priority": "medium",
+        "passage": "Older and newer voices can be connected…; Diptirekha Again,a pair…; These are starting points…",
+        "action": "Trim repeated listening instructions; retain one opening and closing invitation."
+      },
+      {
+        "priority": "medium",
+        "passage": "Aseema award-versus-NationalFilmAward explanation",
+        "action": "Replace with attributed specific training: Odissi withPrafullaKumarSahoo thenHindustani withArtatranaBhola, freshsource lines84–86; keep stateaward adjective without separate institutional caution."
+      },
+      {
+        "priority": "low",
+        "passage": "Bhubaneswari Keeping that particular song…",
+        "action": "Drop generic invitation sentence; retain precise song. Existing source does not support detailed vocaltechnique, so avoid invented craft description."
+      },
+      {
+        "priority": "low",
+        "passage": "Geeta/Trupti A duet gives us…",
+        "action": "Compress generic teaching/representation explanation; do not describe actual arrangement as heard unless listened."
+      }
+    ],
+    "blocking_findings": [],
+    "pending": "Root-requested prose refinements, then exacthash/image/staticintegration review. No public edits, build or browser review performed."
+  },
+  "final_content_review": {
+    "verdict": "PASS",
+    "source_sha256": "8a5d54384a14ca58aedf8e9d38b2d0a642aef62a7b7570b612c09d3a158423e1",
+    "editorial_adjustments_resolved": true,
+    "details": [
+      "Repeated Mamata recap and recurring credit-following instructions removed or compressed.",
+      "Aseema training teachers precisely match freshly read participant interview; stateaward scope retained.",
+      "Bhubaneswari retains supported song rather than invented vocal-technique detail.",
+      "All15musicians and15defined/usednotes preserved; Hindi/nonfilm/TV distinctions unchanged.",
+      "No new firsthand listening or universal reception claims."
+    ],
+    "source_budget_update": "Aseema body+note approximately60words, below200; prior conservative shared-source limits unchanged or reduced.",
+    "remaining": [
+      "Root static/photo/route integration and browser checks pending.",
+      "Three queued profile links tracked dependencies; final batch completion must resolve."
+    ],
+    "human_review_claimed": false
+  },
+  "prafulla_review": {
+    "status": "content_PASS_integration_pending",
+    "source_sha256": "666386436bbe797e34e5dbd99cd95e34f4298fc676fec9da5a117d38f24604c9",
+    "fresh_checks": [
+      "TOI19April2022 lines159–163 directly confirm Pranab birthdayrequest, RabindraMandap, Majhire/ReAtman and named attribution.",
+      "PIB4October2016 directly confirms nationalSNA2015 SugamSangeet award and presentationdate.",
+      "OSASeptember2012 originalPDFp13 confirms its2012lifetimeachievement recognition; not nationalaward."
+    ],
+    "retained_checks": [
+      "Filmdebut1962/composerdebutMamata1975 retainedTNIE/report corroboration.",
+      "Distinct singer/composer/lyricist roles for3Mamata songs and KaliKapali checked against packet; no full listeningclaim."
+    ],
+    "source_budgets": {
+      "TOI2022_shared_overview": "Conservative<=150 including second interpretiveparagraph andnotes; actualderivedportion smaller.",
+      "Mamata_each_shared_music": "<=130 conservatively per recording including whole mixedparagraphs andnotes.",
+      "TNIEcareer": "<=110 source-specificwords.",
+      "SNAcitation": "<=110 inclnotes andrecognition; no earlierpackage reuse found.",
+      "PIBpresentation": "<50",
+      "OSA": "<45",
+      "KaliKapali": "<65",
+      "MuTaManisha": "<60"
+    },
+    "pending_detail": {
+      "claim": "SNAcitation records musicdirection for more than70Odiafilms",
+      "issue": "Retainedpacket claims list omits count and says countsnotadopted; directPDF timedout inindependentreview. Requested retainedexactexcerpt fromSamanta orremoveoptionalcount. No evidenceofcontradiction.",
+      "status": "resolved_optional_count_removed"
+    },
+    "editorial": "Warm attributedopening, fairsharedcredits, no fabricatedscene or birthdaydate. Closinglisteningadvice optionalpolish, notblocker.",
+    "notes": {
+      "definitions": 8,
+      "undefined": []
+    },
+    "limitations": "Contentreviewonly; photo/staticintegration/browserpending; futurePranabroute queued.",
+    "final_delta": "Removed unconfirmed optional count and its scale explanation; AIR/DD and vocalist/composer/lyricist roles retained. Eight source notes unchanged and resolved."
+  },
+  "integrated_first_two_static_review": {
+    "verdict": "PASS_static_pending_browser_and_queued_profiles",
+    "articles": 38,
+    "active_figures": 44,
+    "duplicate_original_hashes": 0,
+    "checks": [
+      "Manifest entries agree with site metadata; both final canonical SHA bindings correct.",
+      "All collection original byte hashes checked; no duplicate active originals.",
+      "Both pages four derivative byte hashes and provenance original hashes verified.",
+      "Generic Prafulla wrapper and cinemaPeople breadcrumb entry verified.",
+      "Renderer generated ordinary numbered documentary credits: music16, Prafulla9, with named creator and CC BY-SA4.",
+      "Trupti existing Commons crop explicitly credited; Prafulla proportional resize retained.",
+      "Overview music links are additive and fact-preserving; earlier Surya addition separate accepted scope. Akshaya no current git diff."
+    ],
+    "limits": [
+      "No browser or original-photo pixel review in this static pass.",
+      "Pranab and Tapu links queued; not final resolved batch.",
+      "Expected19credit and7part final counts must wait allfour integration."
+    ]
+  },
+  "pranab_review": {
+    "status": "content_PASS_integration_pending",
+    "source_sha256": "9b8fd70ef326c0a13345719832b6d83a76a50dca117d81d7e53e218c41ed8fef",
+    "notes": {
+      "definitions": 6,
+      "undefined": []
+    },
+    "fresh_checks": [
+      "Akashvani21August2026 obituary directly read: deathdate/age/sevenstateawards/forms and named collaborators match.",
+      "TOI1December2017 interview directly read: Aligarh/Urdu/riyaz and composers accurately attributed; dubious health and exclusive-singer claims not imported."
+    ],
+    "retained_checks": [
+      "Saregama named recording credits reused without exclusive two-singer claim; note preserves unnamed other singers.",
+      "TOI2022 birthday remembrance freshly checked in preceding Prafulla review; brief Pranab reprise consistent.",
+      "TNIE28November2017 Jayadev for2016 retained research; independent directfetch cachemiss."
+    ],
+    "budgets": {
+      "TOI2017": "Explicit fact passages+notes approximately165 shared; allowing short factual reprises remains around190–200. Original general reflections about practice/collaboration are not additional sourced historical claims. Do not add more from this source.",
+      "TOI2022": "Brief new35 words plus prior conservative<=150 remains<=185.",
+      "Newsonair": "Approximately90 including note, under200.",
+      "recordings": "Brief shared source-specific credit statements remain under200 per recording; do not count unrelated mixedparagraph statements as one source."
+    },
+    "editorial": "Warm concise learner/collaborator thread. No forced length increase; no fabricated listening, universal acclaim or unsupported film totals. Awardyear and announcementyear distinct.",
+    "blockers": [],
+    "limits": [
+      "No route/photo/browser review for Pranab yet.",
+      "No full listening; source metadata and participant recollections remain their own evidence types."
+    ]
+  },
+  "tapu_review": {
+    "verdict": "content_PASS",
+    "source_sha256": "1b8e13c25e690e59e6d41f5f680c4353240114025828351125ee2160601b7777",
+    "notes": 3,
+    "fresh_checks": [
+      "TNIE20June2021 directly confirms Kulanandana1995, NaReNa breakthrough, education/forms/four stateawards/ownchannel and Saturday death.",
+      "OdishaBytes14February2018 directly confirms future musical ambitions, selectivity, Sushil/Venus/Poonam credits; no acting claim inferred."
+    ],
+    "budget": "Three requested cuts confirmed. Source-specific OdishaBytes facts, remaining recollection reprises and both notes fit within200 shared with hub; original generic film-playback comparison/economic questions are distinguished from sourced history. No further reuse recommended. TNIE remains under200.",
+    "editorial": "Human agency and future plans attributed; no completed-production inference or invented scene/listening. Some reflective repetition but not a material blocker.",
+    "blockers": [],
+    "pending": [],
+    "resolved": [
+      "Removed second opening paragraph, first-paragraph ambition reprise and closing listening/ambition reprise.",
+      "Verified ଆଇ ଲଭ୍ ୟୁ matches orthography2 OdishaLIVE title-only evidence; no conflicting biography imported."
+    ]
+  },
+  "final_four_static_review": {
+    "verdict": "PASS",
+    "source_hashes": {
+      "cinema-music": "8a5d54384a14ca58aedf8e9d38b2d0a642aef62a7b7570b612c09d3a158423e1",
+      "prafulla-kar": "666386436bbe797e34e5dbd99cd95e34f4298fc676fec9da5a117d38f24604c9",
+      "pranab-patnaik": "9b8fd70ef326c0a13345719832b6d83a76a50dca117d81d7e53e218c41ed8fef",
+      "tapu-mishra": "1b8e13c25e690e59e6d41f5f680c4353240114025828351125ee2160601b7777"
+    },
+    "articles": 40,
+    "parts": 7,
+    "active_unique_originals": 46,
+    "duplicate_originals": {},
+    "checks": [
+      "All four manifest entries/source hashes agree with metadata.",
+      "All16 derivatives and4 provenance original bindings match bytes.",
+      "All four ordinary imagecredit note and return pairs render:16/9/7/4.",
+      "All four relative Markdown destinations exist; no rendered direct KB links.",
+      "All current collection original bytes match metadata and are unique."
+    ],
+    "limits": [
+      "No browser review performed by this reviewer.",
+      "No PDF changes or publication approval claimed.",
+      "Photos rely on retained independently checked Commons metadata; no new face identification claimed."
+    ],
+    "final_delta": "Final Tapu source hash synchronized in both manifest and cinema.json; all four current source hashes and16derivative hashes independently rechecked PASS."
+  },
+  "final_review_limits": [
+    "Independent content and static integration review only; root owns browser/build checks.",
+    "No publication, PDF change or human approval claimed."
+  ]
+}

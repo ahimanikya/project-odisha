@@ -24,11 +24,12 @@
       "Place": 4,
       "Work": 48
     },
-    "with_flags": 227,
+    "with_flags": 229,
     "mapped_pages": 13,
-    "newer_records_outside_frozen_selection": 571
+    "newer_records_outside_frozen_selection": 579
   },
   "additional_ids": [
+    "source:akademi",
     "source:arts-crt-ina-tiles",
     "source:arts-iic-clay2016",
     "source:arts-national-awards2015",
@@ -44,7 +45,9 @@
     "source:arts-state-awards",
     "source:arts-state-craft-awards",
     "source:arts-sudarshan-museum",
+    "source:banamalli",
     "source:bhima-akademi",
+    "source:career",
     "source:chilika-curd-kumar2024",
     "source:chilika-curd-nanda2013",
     "source:coffee-board-extension",
@@ -267,8 +270,10 @@
     "source:investment-nalco-ar2025",
     "source:investment-tata-imfa-agreement",
     "source:investment-tata-imfa-completion",
+    "source:kali",
     "source:literature-kar-mahima2024",
     "source:literature-nbt-stuti2026",
+    "source:mamata",
     "source:manufacturing-cag-bf2025",
     "source:manufacturing-rsp-page2026",
     "source:manufacturing-sail-ar2025",
@@ -329,6 +334,7 @@
     "source:mining-sukurangi-eia-summary",
     "source:mining-talcher-mcl2019",
     "source:mining-xaxa-niyamgiri2014",
+    "source:mu-ta",
     "source:music-breath-gold-publisher",
     "source:music-chaurasia-cinemaazi",
     "source:music-chaurasia-gurukul",
@@ -347,6 +353,7 @@
     "source:nonmetal-iffco2026",
     "source:nonmetal-ppl2026",
     "source:odisha-assembly-province",
+    "source:osa",
     "source:osha-alana-shrutilipi2025",
     "source:osha-ananta-agni",
     "source:osha-ananta-bhavishya",
@@ -523,6 +530,7 @@
     "source:sand-puri-tiranga2025",
     "source:sand-tourism-newsletter2020",
     "source:sand-weymouth-award-lead2025",
+    "source:spark",
     "source:sweets-apeda-query-routes",
     "source:sweets-bhadrak-culture20261020",
     "source:sweets-dhenkanal-book-lead2021",
@@ -603,12 +611,12 @@
   ],
   "inputs": {
     "kb/records/editorial-workbench-selection.json": "11e1a66cec2f24379ce7e9f27b782bea26ccb55a7b242138135cad0897ea0fdb",
-    "kb/research/references/data/source-catalog.json": "d414c7037dd189bba0a4dd74cf572bdca9d64db4ea3bac510d2c87739c2327fd",
-    "kb/research/search-index.json": "070499293191d8ea1d0232f7e198435897bb723623aef06c190038a63f1b4573",
+    "kb/research/references/data/source-catalog.json": "87d858e10d3a21a1b4018af0ca739accc6c1491043b3fccc917849e222be31c2",
+    "kb/research/search-index.json": "3b89879d73c4da3da523896bf7738f7ffdd2852ee78a0bafd757ab656d9b8455",
     "kb/research/food/collection.json": "4d700f98827f06fd8fa24013b2d472937319283f1f003db5e4ca069799febfb5",
     "kb/research/voices/collection.json": "7c860069d965157b3865991a22766c67efeadcc0e334766db9763928393ceabe",
     "kb/research/references/data/food-preparations.json": "947ad5931899e0b1e9e21d8375c4d773e3deafd7f1344c6e0811f2d74191443e",
-    "projects/site/editions/coast.json": "e62b76171ffe246044ea794a6b3273423975659186bab7323eed26e0f92f84ad"
+    "projects/site/editions/coast.json": "ea5f6b548dd432500a5f5b010a2580fe402533dda8d0927c91b59f0feb54d9d1"
   },
   "records": [
     {
@@ -3055,11 +3063,6 @@
           "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/people/people-and-creations.md"
         },
         {
-          "id": "people/prafulla-kar",
-          "title": "Prafulla Kar",
-          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/people/prafulla-kar.md"
-        },
-        {
           "id": "sources/creators-prafulla-sna",
           "title": "Prafulla Kar — 2015 award citation",
           "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/sources/creators-prafulla-sna.md"
@@ -3070,9 +3073,14 @@
           "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/works/mamata-film-music.md"
         }
       ],
-      "related_source_ids": [],
-      "flags": [],
+      "related_source_ids": [
+        "akademi"
+      ],
+      "flags": [
+        "Shared reference URL"
+      ],
       "next_actions": [
+        "Compare locators and editions with akademi. A shared URL may be an index containing different publications. Keep citation IDs and do not infer either identical publications or independent corroboration.",
         "For the next story using this source, compare each proposed claim with its exact passage and recorded scope."
       ],
       "stage": "Metadata mapped; claim review required",
@@ -8222,11 +8230,6 @@
       },
       "connections": [
         {
-          "id": "people/basanta-kumari-patnaik",
-          "title": "Basanta Kumari Patnaik",
-          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/people/basanta-kumari-patnaik.md"
-        },
-        {
           "id": "people/binapani-mohanty",
           "title": "Binapani Mohanty",
           "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/people/binapani-mohanty.md"
@@ -8282,9 +8285,14 @@
           "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/works/the-vigil.md"
         }
       ],
-      "related_source_ids": [],
-      "flags": [],
+      "related_source_ids": [
+        "spark"
+      ],
+      "flags": [
+        "Shared reference URL"
+      ],
       "next_actions": [
+        "Compare locators and editions with spark. A shared URL may be an index containing different publications. Keep citation IDs and do not infer either identical publications or independent corroboration.",
         "For the next story using this source, compare each proposed claim with its exact passage and recorded scope."
       ],
       "stage": "Metadata mapped; claim review required",
@@ -8307,6 +8315,11 @@
         "capture_history": []
       },
       "connections": [
+        {
+          "id": "people/basanta-kumari-patnaik",
+          "title": "Basanta Kumari Patnaik: Writing, Publishing and the Screen",
+          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/people/basanta-kumari-patnaik.md"
+        },
         {
           "id": "sources/literature-spark-translators",
           "title": "Spark of Light — translators explain their choices",
@@ -9413,11 +9426,6 @@
       },
       "connections": [
         {
-          "id": "people/prafulla-kar",
-          "title": "Prafulla Kar",
-          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/people/prafulla-kar.md"
-        },
-        {
           "id": "sources/music-dekhi-label",
           "title": "Dekhi Se Banamalli — label upload credits",
           "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/sources/music-dekhi-label.md"
@@ -9433,11 +9441,15 @@
           "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/works/mamata-film-music.md"
         }
       ],
-      "related_source_ids": [],
+      "related_source_ids": [
+        "banamalli"
+      ],
       "flags": [
+        "Shared reference URL",
         "Retrieval limitation recorded"
       ],
       "next_actions": [
+        "Compare locators and editions with banamalli. A shared URL may be an index containing different publications. Keep citation IDs and do not infer either identical publications or independent corroboration.",
         "Read the capture history before reusing this source; identify which passage is still unavailable and whether a later capture resolves it.",
         "For the next story using this source, compare each proposed claim with its exact passage and recorded scope."
       ],
@@ -9544,11 +9556,6 @@
       },
       "connections": [
         {
-          "id": "people/prafulla-kar",
-          "title": "Prafulla Kar",
-          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/people/prafulla-kar.md"
-        },
-        {
           "id": "sources/music-kali-qobuz",
           "title": "Sesa Srabana — distributed Saregama soundtrack",
           "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/sources/music-kali-qobuz.md"
@@ -9559,11 +9566,15 @@
           "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/works/kali-kapali-prafulla.md"
         }
       ],
-      "related_source_ids": [],
+      "related_source_ids": [
+        "kali"
+      ],
       "flags": [
+        "Shared reference URL",
         "Retrieval limitation recorded"
       ],
       "next_actions": [
+        "Compare locators and editions with kali. A shared URL may be an index containing different publications. Keep citation IDs and do not infer either identical publications or independent corroboration.",
         "Read the capture history before reusing this source; identify which passage is still unavailable and whether a later capture resolves it.",
         "For the next story using this source, compare each proposed claim with its exact passage and recorded scope."
       ],
@@ -9639,11 +9650,6 @@
       },
       "connections": [
         {
-          "id": "people/prafulla-kar",
-          "title": "Prafulla Kar",
-          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/people/prafulla-kar.md"
-        },
-        {
           "id": "sources/music-mu-ta-label",
           "title": "Mu Ta Manisha Marini — Saregama track 80979",
           "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/sources/music-mu-ta-label.md"
@@ -9659,11 +9665,15 @@
           "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/works/mu-ta-manisha-marini.md"
         }
       ],
-      "related_source_ids": [],
+      "related_source_ids": [
+        "mu-ta"
+      ],
       "flags": [
+        "Shared reference URL",
         "Retrieval limitation recorded"
       ],
       "next_actions": [
+        "Compare locators and editions with mu-ta. A shared URL may be an index containing different publications. Keep citation IDs and do not infer either identical publications or independent corroboration.",
         "Read the capture history before reusing this source; identify which passage is still unavailable and whether a later capture resolves it.",
         "For the next story using this source, compare each proposed claim with its exact passage and recorded scope."
       ],
@@ -9688,11 +9698,6 @@
       },
       "connections": [
         {
-          "id": "people/prafulla-kar",
-          "title": "Prafulla Kar",
-          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/people/prafulla-kar.md"
-        },
-        {
           "id": "people/sunanda-patnaik",
           "title": "Sunanda Patnaik",
           "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/people/sunanda-patnaik.md"
@@ -9703,11 +9708,15 @@
           "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/sources/music-osa-awards-2012.md"
         }
       ],
-      "related_source_ids": [],
+      "related_source_ids": [
+        "osa"
+      ],
       "flags": [
+        "Shared reference URL",
         "Retrieval limitation recorded"
       ],
       "next_actions": [
+        "Compare locators and editions with osa. A shared URL may be an index containing different publications. Keep citation IDs and do not infer either identical publications or independent corroboration.",
         "Read the capture history before reusing this source; identify which passage is still unavailable and whether a later capture resolves it.",
         "For the next story using this source, compare each proposed claim with its exact passage and recorded scope."
       ],
@@ -9731,11 +9740,6 @@
         "capture_history": []
       },
       "connections": [
-        {
-          "id": "people/prafulla-kar",
-          "title": "Prafulla Kar",
-          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/people/prafulla-kar.md"
-        },
         {
           "id": "sources/music-pib-film-history",
           "title": "75 Years of Odiya Film Making: A Flashback",
@@ -9772,11 +9776,6 @@
         "capture_history": []
       },
       "connections": [
-        {
-          "id": "people/prafulla-kar",
-          "title": "Prafulla Kar",
-          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/people/prafulla-kar.md"
-        },
         {
           "id": "sources/music-prafulla-label-profile",
           "title": "Prafulla Kar — Saregama artist profile",
@@ -9818,11 +9817,6 @@
       },
       "connections": [
         {
-          "id": "people/prafulla-kar",
-          "title": "Prafulla Kar",
-          "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/people/prafulla-kar.md"
-        },
-        {
           "id": "sources/music-re-mita-label",
           "title": "Re Mita Aa Sangata — label upload credits",
           "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/sources/music-re-mita-label.md"
@@ -9838,11 +9832,15 @@
           "url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/works/re-mita-aa-sangata.md"
         }
       ],
-      "related_source_ids": [],
+      "related_source_ids": [
+        "mamata"
+      ],
       "flags": [
+        "Shared reference URL",
         "Retrieval limitation recorded"
       ],
       "next_actions": [
+        "Compare locators and editions with mamata. A shared URL may be an index containing different publications. Keep citation IDs and do not infer either identical publications or independent corroboration.",
         "Read the capture history before reusing this source; identify which passage is still unavailable and whether a later capture resolves it.",
         "For the next story using this source, compare each proposed claim with its exact passage and recorded scope."
       ],
@@ -17611,20 +17609,25 @@
     {
       "id": "subject:people/basanta-kumari-patnaik",
       "kind": "Person",
-      "title": "Basanta Kumari Patnaik",
+      "title": "Basanta Kumari Patnaik: Writing, Publishing and the Screen",
       "knowledge_path": "kb/research/people/basanta-kumari-patnaik.md",
       "knowledge_url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/people/basanta-kumari-patnaik.md",
-      "description": "Basanta Kumari Patnaik — sources, editions and open questions.",
+      "description": "Stories, translation and a publishing partnership open a route into Basanta Kumari Patnaik’s literary life beyond Amada Bata.",
       "evidence": {
         "record_status": "draft",
         "recorded_scope": null,
         "readiness": null,
-        "source_connections": 1,
+        "source_connections": 2,
         "held_claims": []
       },
       "connections": [
         {
-          "id": "literature-spark-text",
+          "id": "literature-spark-translators",
+          "title": "Spark of Light — translators explain their choices",
+          "url": "https://www.aupress.ca/blog/2017/01/10/sparkoflight/"
+        },
+        {
+          "id": "spark",
           "title": "Spark of Light — edition and contributor notes",
           "url": "https://www.aupress.ca/app/uploads/120262_99Z_Henitiuk_Kar_2016-Spark_of_Light.pdf"
         }
@@ -18866,57 +18869,52 @@
     {
       "id": "subject:people/prafulla-kar",
       "kind": "Person",
-      "title": "Prafulla Kar",
+      "title": "Prafulla Kar: A Composer in the Company of Voices",
       "knowledge_path": "kb/research/people/prafulla-kar.md",
       "knowledge_url": "https://github.com/ahimanikya/project-odisha/blob/main/kb/research/people/prafulla-kar.md",
-      "description": "Prafulla Kar — sourced research, relationships and open questions.",
+      "description": "A singer’s remembrance and a handful of recordings open a path through Prafulla Kar’s work as vocalist, composer and lyricist.",
       "evidence": {
         "record_status": "draft",
         "recorded_scope": null,
         "readiness": null,
-        "source_connections": 8,
+        "source_connections": 7,
         "held_claims": []
       },
       "connections": [
         {
-          "id": "creators-prafulla-sna",
+          "id": "akademi",
           "title": "Prafulla Kar — 2015 award citation",
           "url": "https://www.sangeetnatak.gov.in/public/uploads/awardees/docs/Prafulla_Kar.pdf"
         },
         {
-          "id": "music-dekhi-label",
+          "id": "banamalli",
           "title": "Dekhi Se Banamalli — label upload credits",
           "url": "https://www.youtube.com/watch?v=dzRRMvhO5w8"
         },
         {
-          "id": "music-kali-qobuz",
+          "id": "career",
+          "title": "Legendary musician Prafulla Kar passes away",
+          "url": "https://www.newindianexpress.com/amp/story/states/odisha/2022/Apr/18/legendary-musicianprafulla-kar-passes-away-2443352.html"
+        },
+        {
+          "id": "kali",
           "title": "Sesa Srabana — distributed Saregama soundtrack",
           "url": "https://www.qobuz.com/lu-fr/album/sesa-srabana-original-motion-picture-soundtrack-prafulla-kar/leerea1dwepjb"
         },
         {
-          "id": "music-mu-ta-label",
+          "id": "mamata",
+          "title": "Re Mita Aa Sangata — label upload credits",
+          "url": "https://www.youtube.com/watch?v=wd3SLHMTfm8"
+        },
+        {
+          "id": "mu-ta",
           "title": "Mu Ta Manisha Marini — Saregama track 80979",
           "url": "https://www.saregama.com/song/mu-ta-manisha-marini_80979"
         },
         {
-          "id": "music-osa-awards-2012",
+          "id": "osa",
           "title": "OSA lifetime recognition for Sunanda Patnaik and Prafulla Kar",
           "url": "https://archive.odishasociety.org/media/newsletters/UtkarsaSeptember2012.pdf"
-        },
-        {
-          "id": "music-pib-film-history",
-          "title": "75 Years of Odiya Film Making: A Flashback",
-          "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=67399"
-        },
-        {
-          "id": "music-prafulla-label-profile",
-          "title": "Prafulla Kar — Saregama artist profile",
-          "url": "https://www.saregama.com/artist/prafulla-kar_5841"
-        },
-        {
-          "id": "music-re-mita-label",
-          "title": "Re Mita Aa Sangata — label upload credits",
-          "url": "https://www.youtube.com/watch?v=wd3SLHMTfm8"
         }
       ],
       "related_source_ids": [],

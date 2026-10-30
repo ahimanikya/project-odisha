@@ -1,0 +1,10 @@
+---
+import KhokaListening from '../../components/KhokaListening.astro';
+import CinemaReading from '../../components/CinemaReading.astro';
+import {cinema} from '../../lib/cinema-article.mjs';
+const entry=cinema.articles.find(article=>article.route==='/people/akshaya-mohanty/');
+if(!entry)throw new Error('Missing reviewed Akshaya Mohanty entry');
+---
+<CinemaReading entry={entry}/>
+
+<KhokaListening/>

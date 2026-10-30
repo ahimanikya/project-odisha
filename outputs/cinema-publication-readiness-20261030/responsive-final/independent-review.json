@@ -1,0 +1,47 @@
+{
+  "status": "PASS within bounded responsive scope",
+  "reviewer": "Drishti / independent AI review",
+  "basis": "Independently viewed all eight root-captured screenshots and assessed root browser measurements/interaction results. Did not independently operate the four mobile pages.",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "routes": [
+    "/people/anupam-patnaik/",
+    "/people/vishal-mourya/",
+    "/people/debi-prasad-lenka/",
+    "/people/deependra-samal/"
+  ],
+  "visual_findings": [
+    "All four titles and opening text wrap legibly within the phone viewport; no overlapping header, breadcrumb or contents control.",
+    "All four source-note screenshots show readable wrapped text and visible numbered-note/return links with focus outline; no clipped right edge.",
+    "Anupam related-reading previews also fit the narrow viewport."
+  ],
+  "measurement_findings": [
+    "All four document widths are390px; loaded heroes and captions each346px wide atleft22px.",
+    "All four first source-note destinations and return hashes match, with note near32px and returned citation near0px."
+  ],
+  "limitations": [
+    "Opening screenshots show only the upper portions of hero images; complete-image/caption geometry is supported by root measurements, not independent full-image pixel inspection.",
+    "This is not an exhaustive keyboard, menu, navigation or all-breakpoint test.",
+    "Viewport reset reported by root. No specialist human approval claimed."
+  ],
+  "responsive_gate": {
+    "anupam-patnaik": true,
+    "vishal-mourya": true,
+    "debi-prasad-lenka": true,
+    "deependra-samal": true
+  },
+  "evidence_sha256": {
+    "report.json": "f9e558460afd96e756c3a2a8a2c89fa943ab92b90fc3adbf576305617389a47b",
+    "anupam-patnaik-note.png": "a956c8edff38576712d7ed6b28b715b338550d58c47563143587a587687c44bf",
+    "deependra-samal-phone.png": "f211c4adc13a6197967080a51c78f48eef6a9501e791b1668166ac8b399c66e5",
+    "anupam-patnaik-phone.png": "add3eb3b6e2b4d89ad45c72d636dcd948395941c96adbf30a618fd0d18521202",
+    "deependra-samal-note.png": "181e8c53d96e9dd8fb16f11403854273042586911dcc08db00b7eabc2ffcdf58",
+    "vishal-mourya-phone.png": "958484b0b5ec826dbb93deea9a12ea9aaaf2d9860025dc9e0ef7b80ddf70961d",
+    "vishal-mourya-note.png": "9433c4beb485c2ec97d2a9c8b7720d14b2d2a6fbff47a592bf5185f92bdff910",
+    "debi-prasad-lenka-note.png": "0a5faf2021a0986372599557af98c2e76a10fe38433d65c98153ace662d7994a",
+    "debi-prasad-lenka-phone.png": "edb62f8ba3bad491b0dfd6cb84f7e665865503347025f86c061979957fb92a22"
+  },
+  "temporary_tab_cleanup": "Close attempted on agent-created Chrome tab1950991794; tool reported tab no longer exists (already auto-cleaned). No user tabs touched."
+}

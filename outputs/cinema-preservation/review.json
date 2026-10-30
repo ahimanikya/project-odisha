@@ -1,0 +1,2231 @@
+{
+  "date": "2026-10-30",
+  "scope": "Preliminary read-only sequence and book-tooling audit; no candidate content/PDF approval.",
+  "status": "PASS_independent_content_text_and_bounded_visual_review",
+  "current_articles": 40,
+  "planned_articles": 41,
+  "parts": 7,
+  "findings": [
+    {
+      "priority": "required",
+      "path": "output/pdf/build_book.py:49",
+      "issue": "Output filenames and report filenames/date metadata fixed27October; rerun would overwrite retained editions.",
+      "action": "Add explicit new edition date/output/report directories; preserve old PDFs and their release metadata. Update page185 and360 count/date/part text from actual selected entries."
+    },
+    {
+      "priority": "required",
+      "path": "projects/site/src/pages/cinema/book.astro:13",
+      "issue": "Dynamic article count presented with fixed fiveparts and review_books still27October176/196page release assets.",
+      "action": "Distinguish current website collection, archived edition and newly generated local review PDFs; only bind new count/pages/hash after final output. No uncreated release URL."
+    },
+    {
+      "priority": "required",
+      "path": "output/pdf/build_book.py:297",
+      "issue": "Overview substituted from old narrative.opening_markdown/companion_markdown; snapshot lacks recent cinema-music links and Surya jury note.",
+      "action": "Reconcile current canonical additions against explicit book adaptation sectionmap; do not silently discard or blindly duplicate fulloverview."
+    },
+    {
+      "priority": "required",
+      "path": "tmp/pdfs/check_text.py:5",
+      "issue": "Normalization strips digits and allOdia; shortblocks below100letters and certaincaption differences skipped; overview missing canonical content reported but not failing.",
+      "action": "Add complementary digits-preserving and Unicode/Odia checks, exact authorintro check, and explicit reviewed adaptation exceptions. Make unexplainedmissing/table/note/credit failures actionable rather than successful-process falsePASS."
+    },
+    {
+      "priority": "required",
+      "path": "tmp/pdfs/check_book.py:8",
+      "issue": "Checker fixed27Octrecords and can silently skip missingrecord; verifies only chapters present inrecord, not complete current manifest set.",
+      "action": "Require both new records and exact41slugset/order, current sourcehashes, asset/creditset and output hashes; use date-scoped inputs."
+    },
+    {
+      "priority": "moderate",
+      "path": "kb/research/culture/cinema-series/book-narrative-2026-10-27.json",
+      "issue": "Partintros coverfive legacy titles; Songs and Voices/Memory and Discovery absent. Peopleguide stillsix entries excludingnewwriters/music/preservation.",
+      "action": "Add concise seven-part orientation and selected new crossconnections where useful, preserving non-exhaustive framing; validate each noteanchor against current source."
+    },
+    {
+      "priority": "moderate",
+      "path": "output/pdf/build_book.py:73",
+      "issue": "Bridge selection uses lastchapter perpart, but newlastchapters may have no oldbridge; oldoptions retainedunused.",
+      "action": "Choose few actual transitions for finalorder intentionally; no fabricatedcausalconnections or automatic26bridge revival."
+    }
+  ],
+  "safe_existing_design": [
+    "Manifest order asserted equal completeentry count andunique; no28chapter array truncation.",
+    "Photo credit notes generated dynamically in ordinarychapter sources;19existingcredits need manifest-derived verification, notold13constant.",
+    "Printusesoriginalimages;digitalusesdelivery files;34oldimagecount mustnotbe retained as expected.",
+    "Print page-map convergence alreadyrecorded; dynamicchapter links available.",
+    "Existingcover source canremain27Octdatedasset if unchanged, while new edition date isdistinct."
+  ],
+  "safe_regeneration_route": [
+    "Freeze41sourcehashes and7part order; reconcile overviewadaptation and guide references before layout.",
+    "Parameterize date/paths inbuilder andchecks; retain historical outputs/receipts, fonts and shaping fixes.",
+    "Run digital layout and print page-map passes until references converge; then finalrenders/coverbinding/hash.",
+    "Verify exact source set, prose includingnumbers/Odia, tables, allcredittexts+URLs, internaldestinations, pagebounds and actualembeddedDPI.",
+    "Inspect allcontact sheets andfullsize representative newchapters, tallportraits, tables, notes, sourceURLdirectory, cover/TOC and shortchaptertails.",
+    "Update local review metadata only after verifiedfinalhash; keep publication/releaseURLs separate."
+  ],
+  "runtime_notes": [
+    "Builder references sibling prahallad-nataka-research dependencyfolder and tmp/pdfs/fonts/NotoSerifOriya-Regular.ttf; confirm exist before regeneration.",
+    "No claim of taggedPDF/PDFUA or printpressreadiness; currentcover170.67ppi andlettershaping requirevisualcheck."
+  ],
+  "limits": [
+    "No publicsource edits, build, PDF rendering or browserreview performed.",
+    "Newpreservation article not reviewed yet; later content/static/PDF verdicts separate."
+  ],
+  "scope_released": true,
+  "content_review": {
+    "status": "PASS_content_only",
+    "source_sha256": "50790efba578a29f13ebd485ceee1e62e1757e4efd9e00319d68d6876a4b28f3",
+    "fresh_checks": [
+      "JDCA FilmArchive original directly read donation/selecteddigitisation.",
+      "FHF workshop original directly read retrospectivecaption and actualcurriculum."
+    ],
+    "retained_checks": [
+      "OFDC report snapshot51LTO/10digitising and pagecitation per researchpacket.",
+      "Kalingaannouncement vsMoU separated; nationaldeposit/library/distributionconditions distinct."
+    ],
+    "budget": "Source-specific passages+notes below200; conservative shared Kalinga mixedparagraphceiling~150 and distribution~170. JDCA opening+connectiveparagraph+note~140; workshop definitions+two explanations+note~180. Others brief.",
+    "editorial": "Humanhandover opening, meaningfulcustody/access distinction, practicalproposals labelled. Slight skills repetition optional, not blocker. No inventedvisit, digitisationcompletion,rightsorpublicaccess.",
+    "blockers": [],
+    "pending": [
+      "Uniqueimage/staticintegration and finalPDF review separate."
+    ]
+  },
+  "independent_checker": {
+    "path": "outputs/cinema-preservation/verify_book.py",
+    "syntax": "AST parse PASS",
+    "execution": "Executed both currentdatedPDFs; superscript markers excluded using positive text rise andsmallfont; ordinarydigits/Unicode retained.",
+    "scope": "Dateparameterized, required two records, exact41slugs/order/hash, Unicode/digits-preserving text/tables/notes/credits and imageplacementset; prints JSON only.",
+    "limitations": "Conservative extraction misses require adjudication; cannot certify layout or exact-once presence. Final report remains required.",
+    "residual_results": [
+      {
+        "edition": "digital",
+        "pdf": "output/pdf/odia-cinema-a-living-screen-2026-10-30.pdf",
+        "sha256": "6b6989f22ce3d1ee10a78eb218d5e00135f91e591b4dd7fb13f2b05442d70721",
+        "pages": 243,
+        "checks": {
+          "paragraphs": 820,
+          "table_cells": 105,
+          "notes": 364,
+          "credits": 19
+        },
+        "citation_markers_excluded": 501,
+        "citation_marker_examples": [
+          {
+            "page": 10,
+            "text": "1",
+            "font_size": 9.0,
+            "rise": 5.5
+          },
+          {
+            "page": 11,
+            "text": "2",
+            "font_size": 9.0,
+            "rise": 5.5
+          },
+          {
+            "page": 14,
+            "text": "1",
+            "font_size": 9.0,
+            "rise": 5.5
+          },
+          {
+            "page": 14,
+            "text": "1",
+            "font_size": 9.0,
+            "rise": 5.5
+          },
+          {
+            "page": 15,
+            "text": "5",
+            "font_size": 9.0,
+            "rise": 5.5
+          },
+          {
+            "page": 15,
+            "text": "5",
+            "font_size": 9.0,
+            "rise": 5.5
+          },
+          {
+            "page": 16,
+            "text": "32, 13, 36",
+            "font_size": 9.0,
+            "rise": 5.5
+          },
+          {
+            "page": 17,
+            "text": "1",
+            "font_size": 9.0,
+            "rise": 5.5
+          },
+          {
+            "page": 18,
+            "text": "2",
+            "font_size": 9.0,
+            "rise": 5.5
+          },
+          {
+            "page": 18,
+            "text": "3",
+            "font_size": 9.0,
+            "rise": 5.5
+          },
+          {
+            "page": 18,
+            "text": "4",
+            "font_size": 9.0,
+            "rise": 5.5
+          },
+          {
+            "page": 19,
+            "text": "5",
+            "font_size": 9.0,
+            "rise": 5.5
+          }
+        ],
+        "errors": [
+          "Unmatched text requires review; not automatic extraction exception"
+        ],
+        "unmatched": [
+          {
+            "slug": "the-question-that-brought-me-here",
+            "kind": "paragraphs",
+            "text": "This also shaped an essay I wrote, *“Rise, Children of Utkal.”* I had heard the familiar expression “ଆମର ଏଠି କିଛି ହେବନି”—nothing will happen here. I understood that disappointment could sit behind it. Still, I wanted to leave the conversation open.[^utkal]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Music was present from the beginning. Bhuyan records fourteen songs in *Sita Bibah*, sung by its actors, and a move to background singing in *Lalita*. Later films drew on Odia literature, including *ଅମଡ଼ା ବାଟ (Amada Bata)*, *ମଲାଜହ୍ନ (Malajanha)* and *ମାଟିର ମଣିଷ (Matira Manisha)*.[^foundation]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Chhotray is a concrete link between the media. The Library of Congress documents his work in Gitinatya, his long association with AIR Cuttack, and his writing of plays, operas and screenplays.[^chhotray-loc] The Gour–Parbati archive credits him specifically with **dialogue for *ଶ୍ରୀଜଗନ୍ନାଥ (Sri Jagannath)* (1950)**, while assigning direction and screenplay to C.R. Mitra.[^jagannath-dialogue]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Parbati Ghose belongs near the centre of this history. The Gour–Parbati filmography records her as a co-producer with Gour Prasad Ghose on *ଲକ୍ଷ୍ମୀ (Laxmi)*, *କା (Kaa)* and *ସ୍ତ୍ରୀ (Stree)*. It also credits her within the directing partnership used on *Kaa* and *Stree*. Her work crossed the boundaries between performing, organising a production and deciding what would reach the screen.[^gour-parbati]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "The archive dates her *ଛ’ ମାଣ ଆଠ ଗୁଣ୍ଠ (Chha Mana Atha Guntha)* adaptation to 1986. Its credits name **Nagen Barik** for sound and **Asim Basu and Sarat Sahoo** for art, and acknowledge Olosingh’s villagers and host **Kalyani Patnaik**.[^parbati-film] The [Parbati Ghose companion](cinema-series/parbati-ghose.md) follows her producing, writing, directing and acting work.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "In his account of Odisha’s New Wave, critic Ashok Palit describes the social worlds of Mahapatra’s films: a rural community facing upheaval in *ନୀରବ ଝଡ଼ (Niraba Jhada)*, and a family negotiating social change in *ନିଷିଦ୍ଧ ସ୍ଵପ୍ନ (Nisiddha Swapna)*. His survey places Mahapatra and Nirad Mohapatra among the filmmakers who developed a sustained interest in cinema as an art of close observation.[^new-wave]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Sabyasachi Mohapatra’s *ଭୂଖା (Bhukha)* (**1989**) makes the map of cinema in Odisha more expansive. It is a **Sambalpuri-language film**. Palit reads its conflict through the pressures between inherited ways of life and modernity.[^new-wave]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Mohapatra’s later work offers further, separately documented milestones. *ଶଳାବୁଢ଼ା (Sala Budha)* was selected for Indian Panorama in 2013. *ଆଦିମ ବିଚାର (Aadim Vichar)* received the Best Odiya Film award at the 62nd National Film Awards, for 2014, announced in 2015.[^sala][^aadim]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Sadhu Meher’s ବାବୁଲା (Babula) provides a concrete starting point for the first history. A Lok Sabha answer of 7 December 1987 lists it among the Children’s Film Society of India’s productions for 1985–86, identifying it as an Oriya feature. A contemporary 1986 catalogue from Berlin’s Arsenal describes Meher’s CFSI-supported film through a lonely boy’s dreams of outer space. This places institutional support and a child’s imagination within the same account. [^children-babula-parliament][^children-babula-arsenal]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "[A. K. Bir](../people/ak-bir.md)’s [ଲାବଣ୍ୟ ପ୍ରୀତି (Lavanya Preeti)](cinema-series/lavanya-preeti.md) received Best Children’s Film for 1993. Its dedicated page follows young characters into the imaginative world of an inherited story.[^children-lavanya-nfa]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Children can also encounter films through Odia-language versions. CBFC’s 2022 list records an Odia video version of ରିଟର୍ଣ୍ଣ ଅଫ୍ ହନୁମାନ (Return of Hanuman), certified on 11 February 2022 and naming Shemaroo Entertainment. Airtel Xstream lists the Anurag Kashyap film as a 2007 animation title available in Odia. This is a route to a dubbed film, distinct from an original Odia production; current access depends on the provider.[^children-hanuman-cbfc][^children-hanuman-provider]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Bijay Mohanty carried theatre training into films and into the classroom. A National School of Drama graduate, he worked in the drama department of Utkal Sangeet Mahavidyalaya and retired as a professor. His screen career includes *ଚିଲିକା ତୀରେ (Chilika Tire)*, *ନାଗଫାଶ (Nagaphasa)* and *ଚକା ଭଉଁରୀ (Chaka Bhaunri)*: useful starting points for exploring a performer whose working life extended beyond the finished film.[^performer-bijay]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Uttam Mohanty's *ଅଭିମାନ (Abhiman)* debut connects his story to [Sadhu Meher](/cinema/sadhu-meher/), its director. In a 2018 interview, he recalled a Bengali viewer in Cuttack praising his portrayal of Salabega. The memory gives one audience encounter a place beside the career record.[^uttam-technology]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Aparajita Mohanty's work offers several points of entry. *ଉଦଣ୍ଡୀ ସୀତା (Udandi Sita)* is among the films associated with her screen career.[^performer-aparajita] She produced *Love Master*.[^performer-aparajita-production] Acting and producing are distinct forms of participation: one places a performer before the camera, while the other helps bring a production into being.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Her remembrance of Anita Das opens another relationship. Aparajita described the senior actor as an elder-sister figure who taught her about acting and the workings of the industry.[^performer-anita] That account gives mentorship between women a place in this history. Her later appearance in *ବୋଉ ବୁଟୁ ଭୂତ (Bou Buttu Bhuta)* brings that working life into the recent films discussed later in this survey.[^bou-commercial]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "table_cells",
+            "text": " Her recollection of viewers calling her Manika, her character in *ଶେଷ ଶ୍ରାବଣ (Sesa Srabana)*, connects a role with audience memory.[^performer-mahasweta] ",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "The credits of *ଶ୍ରୀ ଜଗନ୍ନାଥ (Sri Jagannath, 1950)* name **Balakrushna Das and Ranjit Roy** as music directors, with **Kalyani Das, Chhabi Ray and Suryamoni Dei** among the singers. Cinema was already a meeting place for many voices.[^music-sri-jagannath-archive] **Shantanu Mohapatra** later composed Lata Mangeshkar's songs for *ସୂର୍ଯ୍ୟମୁଖୀ (Suryamukhi)* and *ଅରୁନ୍ଧତୀ (Arundhati)*. His son Koushik remembers a young composer approaching her, and producer Dhiren Patnaik backing the later collaboration. Such journeys began with someone making a connection and someone else making room for it.[^music-shantanu-lata]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "[Akshaya Mohanty](../people/akshaya-mohanty.md) belongs here as a composer, singer and producer. When *ମଲାଜହ୍ନ (Malajanha)* returned for a Film Journalists' Forum screening, actress **Jharana Das**, singer [Pranab Patnaik](../people/pranab-patnaik.md), lyricist **Binodini Debi** and the filmmakers' families were part of the occasion. A literary adaptation had gathered actors, words and music; its return gathered people again.[^music-malajanha-return]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Other voices deserve their own listening paths. **Bhubaneswari Mishra's** “Tiki Mora Naa Ti” in *କୃଷ୍ଣ ସୁଦାମା (Krushna Sudama)* is one such doorway.[^music-bhubaneswari] Pranab Patnaik's account of his long friendship and stage work with Prafulla Kar offers another.[^music-pranab-remembers] These are starting points for a wider account of the singers, lyricists, arrangers and instrumentalists behind the songs.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "**Sadhu Meher** received the National Film Award for Best Actor for his performance in Shyam Benegal’s Hindi film *ଅଙ୍କୁର (Ankur)*, honoured at the 22nd awards for 1974. The official catalogue records his upbringing in Odisha and his training at the Film and Television Institute in Pune. This is a major achievement by an actor from Odisha, within the history of Hindi cinema.[^sadhu]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Her connection also includes acting in Odia: she appeared in Susant Misra’s **ବିଶ୍ୱପ୍ରକାଶ (Biswaprakash / The Young Rebel, 1999)**, listed in her official filmography. The [Nandita Das article](/cinema/nandita-das/#acting-in-odia-biswaprakash) explores that credit alongside her wider career.[^nandita-acting]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Cannes records her membership of its feature-film jury in **2005** and its Cinéfondation and short-film jury in **2013**. Her film *ମଣ୍ଟୋ (Manto)* was selected for Un Certain Regard in **2018**. These occasions mark both jury service and film selection across her career in acting and directing.[^nandita-cannes]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "table_cells",
+            "text": " [ଲାବଣ୍ୟ ପ୍ରୀତି (Lavanya Preeti)](cinema-series/lavanya-preeti.md) ",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "table_cells",
+            "text": " [ପ୍ରତୀକ୍ଷା (Pratikshya)](cinema-series/pratikshya.md) ",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Recognition also follows people across languages. [Sadhu Meher](cinema-series/sadhu-meher.md) received Best Actor for *ଅଙ୍କୁର (Ankur)* at the 22nd awards for 1974. His achievement belongs here as an actor from Odisha working in a Hindi film.[^sadhu]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "**A Sambalpuri film’s recognition abroad:** the official 70th National Film Awards catalogue credits [ଭୂଖା (Bhukha)](cinema-series/bhukha.md) with an **International Jury Award at Gijón, Spain**. The catalogue does not give the prize year; that detail remains open for further archive research.[^bhukha]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "The newer *ମାଲିପୁଟ (Maliput Melodies)* was screened in **Indian Panorama at IFFI 2025**. That documented festival appearance opens a contemporary thread below; it is kept distinct from the prize record.[^maliput-iffi]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "A film can leave something behind after its run: a new collaborator, an audience willing to try another story, or the confidence to begin a difficult script. *ଦମନ (DAMaN)* and *ପ୍ରତୀକ୍ଷା (Pratikshya)* offer two recent starting points for that conversation. Their subjects are different—healthcare in a difficult landscape, and the pressures inside a household—but both give recognisably local lives room on the screen.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "The range also includes **କର୍ମ (Karma, 2024)**. Anupam Patnaik directed **Anubhav Mohanty** as investigator Amar Patnaik in a murder-case thriller. The filmmaker behind *Pratikshya* was working with a different star and dramatic form; contemporary Odia cinema cannot be reduced to a single kind of revival.[^karma-contemporary]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "A film culture also depends on tickets sold and the chance to finance the next production. In 2025, **ବୋଉ ବୁଟୁ ଭୂତ (Bou Buttu Bhuta)** supplied a conspicuous commercial story. Directed by **Jagdish Mishra**, the horror-comedy brought **Aparajita Mohanty, Babushaan Mohanty and Archita Sahu** together in leading roles. On 24 September 2025, *The New Indian Express* reported box-office revenue of nearly **₹21 crore**, against a reported budget of **₹2–3 crore**. These are reported figures, not audited accounts or a calculation of producer profit.[^bou-commercial]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Commercial momentum has a setting as well as a number. During Raja in June 2025, *The New Indian Express* reported packed shows for *Bou Buttu Bhuta* and **ଅନନ୍ତା (Ananta)**. The latter starred **Sabyasachi Mishra** and was directed by **Sabyasachi Mohapatra**, drawing on Fakir Mohan Senapati’s *Randi Pua Ananta*. Literature and popular exhibition were meeting again.[^raja-audiences]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Overseas announcements show another route to audiences. On 26 April 2023, *OrissaPOST* reported plans to screen **ଫାଲ୍ଗୁନ ଚୈତ୍ର (Phalguna Chaitra)** on 13 May at Hoyts Docklands in Melbourne, Hoyts Blacktown in Sydney and Event Cinemas in Brisbane. A July follow-up in *OrissaPOST* subsequently reported overseas screenings, including Australia. Neither report supplied receipts or a country-by-country earnings breakdown.[^phalgun-australia][^phalgun-followup]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "- **Full-film listing: [ଦମନ (DAMaN) on Amara Muzik Odia’s YouTube channel](https://www.youtube.com/watch?v=bX9WYaIzVa4).** Verified official-channel page; playback untested.\n- **Official trailer: [ପ୍ରତୀକ୍ଷା (Pratikshya)](https://www.youtube.com/watch?v=E_p4kHzZBTM).** Amiya Patnaik Productions.\n- **Official trailer: [କର୍ମ (Karma)](https://www.youtube.com/watch?v=Ai9ItdxoWz8).** Amara Muzik Odia.\n- **Official trailer: [ବୋଉ ବୁଟୁ ଭୂତ (Bou Buttu Bhuta)](https://www.youtube.com/watch?v=M1JaMbSCaSs).** Sidharth Music.\n- **Official trailer: [ଅନନ୍ତା (Ananta)](https://www.youtube.com/watch?v=aNGaiOD2d74).** Amara Muzik Odia.\n- **Restoration clip and information: [ମାୟା ମିରିଗ (Maya Miriga)](https://filmheritagefoundation.co.in/film-heritage-foundation-restores-nirad-mohapatras-landmark-odia-film-maya-miriga1984/).** Film Heritage Foundation’s restoration page and comparison clip, not the full film.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "- **Provider catalogue, Odia version:** [ରିଟର୍ଣ୍ଣ ଅଫ୍ ହନୁମାନ (Return of Hanuman)](https://www.airtelxstream.in/movies/return-of-hanuman/HOTSTAR_DTH_MOVIE_1055915). Check current access and subscription terms; playback unverified.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "- [Odia Cinema Music: The Songs We Carry Home](cinema-series/cinema-music.md)\n- [The page behind the screen: Odia literature and cinema](cinema-series/literature-and-screen.md)\n- [AIR Cuttack: writing, performance and listening](air-cuttack.md)\n- [Odia Cinema’s Commercial Successes: films, reported collections and audiences](cinema-series/commercial-successes.md)\n- [What Makes the Next Film Possible: budgets, box office and support](cinema-series/cinema-economics.md)\n- [Beyond One Successful Film: Building Odia Cinema Together](cinema-series/cinema-futures.md)\n- [Explore the complete cinema collection: films, people and changing screens](https://projectodisha.org/cinema/)",
+            "latin_and_digits_match": false,
+            "all_surrounding_runs_present": false,
+            "has_odia": false
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "The screening listing cited here was checked on 25 October 2026; consult current cinema listings before booking.[^current-screening]",
+            "latin_and_digits_match": false,
+            "all_surrounding_runs_present": false,
+            "has_odia": false
+          },
+          {
+            "slug": "literature-and-screen",
+            "kind": "paragraphs",
+            "text": "In the chapter “Bhagia and Saria” of ଛମାଣ ଆଠଗୁଣ୍ଠ (Chha Mana Atha Guntha), Fakir Mohan Senapati’s narrator turns towards educated readers who know distant societies better than their neighbours. The question is deliberately ironic:",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "literature-and-screen",
+            "kind": "paragraphs",
+            "text": "“ଆପଣାର ବା ପ୍ରତିବାସୀ ଜାତି ଓ ସମାଜର କଥା ଜାଣିବାର ଦରକାର କ'ଣ ?”",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "literature-and-screen",
+            "kind": "paragraphs",
+            "text": "In the opening household passage of ରେବତୀ (Rebati), Fakir Mohan describes a child beside her father as he reads and sings:",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "literature-and-screen",
+            "kind": "paragraphs",
+            "text": "“ରେବତୀ ପାଖରେ ବସି ଶୁଣୁଥାଏ।”",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "literature-and-screen",
+            "kind": "paragraphs",
+            "text": "Pratibha Ray’s official bibliography identifies her novel ଅପରିଚିତା (Aparichita) as adapted into a film and the title story of ମୋକ୍ଷ (Moksha) as adapted into a feature.[^pratibha] A novel’s sustained companionship and a short story’s concentrated moment offer different possibilities to the screen.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "literature-and-screen",
+            "kind": "paragraphs",
+            "text": "Other paths lead through theatre and contemporary short fiction. ଭୂଖା (Bhukha) grew from Manglu Charan Biswal’s play, bringing folk performers’ livelihoods into a Sambalpuri screen story.[^lit-bhukha] [ପ୍ରତୀକ୍ଷା (Pratikshya)](pratikshya.md) draws on a short story by [Gourahari Das](../../people/gourahari-das.md).[^lit-pratikshya] BookMyShow’s listing for ଅନନ୍ତା (Ananta) identifies Fakir Mohan’s *Randi Pua Ananta* as its literary source.[^lit-ananta]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "gopal-chhotray",
+            "kind": "paragraphs",
+            "text": "Odia Bibhaba’s collection identifies ଶ୍ରୀମତୀ ସମାର୍ଜନୀ (Srimati Samarjani) as Chhotray’s opera adaptation of Fakir Mohan Senapati’s short story *Patent Medicine*.[^archive] A work of fiction had become something that singers and performers could take up together.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "gopal-chhotray",
+            "kind": "paragraphs",
+            "text": "In ଶ୍ରୀଜଗନ୍ନାଥ (Sri Jagannath, 1950), the Gour–Parbati archive credits Chhotray for dialogue and C.R. Mitra for screenplay and direction.[^jagannath] For ମାଆ (Maa), Chhotray shares the dialogue credit with Biswajit Das; Nitai Palit is credited with screenplay and direction.[^maa]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "air-cuttack",
+            "kind": "paragraphs",
+            "text": "His connection with cinema can be made precise. The Gour–Parbati film archive credits him with dialogue for **ଶ୍ରୀଜଗନ୍ନାଥ (Sri Jagannath, 1950)**. The same record names C.R. Mitra for direction and screenplay.[^jagannath]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "air-cuttack",
+            "kind": "paragraphs",
+            "text": "Odia Bibhaba’s Chhotray collection identifies **ଶ୍ରୀମତୀ ସମାର୍ଜନୀ (Srimati Samarjani)** as an opera adapted from Fakir Mohan Senapati’s short story *Patent Medicine*.[^bibhaba]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "cinema-music",
+            "kind": "paragraphs",
+            "text": "**Bhubaneswari Mishra** offers another starting point with “Tiki Mora Naa Ti” in *କୃଷ୍ଣ ସୁଦାମା (Krushna Sudama)*.[^bhubaneswari]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "cinema-music",
+            "kind": "paragraphs",
+            "text": "Her voice also meets **Humane Sagar’s** in the title song of *ଇସ୍କ ତୁ ହି ତୁ (Ishq Tu Hi Tu)*. The recording credits both singers, **Abhijit Majumdar** as composer and **Nizam** as writer.[^ishq] Reporting on Sagar’s career identifies the 2015 film’s title track as a breakthrough.[^humane] Listening through the duet keeps both performers in view, together with the people who supplied its music and words.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "cinema-music",
+            "kind": "paragraphs",
+            "text": "**Aseema Panda’s** training began with Odissi music under Prafulla Kumar Sahoo, followed by Hindustani music under Artatrana Bhola. In her account, that learning sits beside the film work for which she received state best-singer recognition, *ମୁଁ ଖାଣ୍ଟି ଓଡ଼ିଆ ଝିଅ (Mu Khanti Odia Jhia)*.[^aseema]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "cinema-music",
+            "kind": "paragraphs",
+            "text": "**Diptirekha Padhi** and **Sabisesh Mishra** share “Bhala Paigali Tate” from *ତୁ ମୋ ଲଭ୍ ଷ୍ଟୋରୀ-୨ (Tu Mo Love Story 2)*, as the official Tarang Music recording credits show.[^diptirekha]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "cinema-music:diptirekha",
+            "kind": "notes",
+            "text": "Tarang Music, [“Bhala Paigali Tate”](https://www.youtube.com/watch?v=r2rLxCCFVqs), *ତୁ ମୋ ଲଭ୍ ଷ୍ଟୋରୀ-୨ (Tu Mo Love Story 2)* recording credits.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "akshaya-mohanty",
+            "kind": "paragraphs",
+            "text": "In a public caption headed “ଲୋକସ୍ୱର ଛାଞ୍ଚ”, film historian Surya Deo discusses a duet by Akshaya Mohanty and **Trupti Das**, with lyrics by **Sirshananda Das Kanungo**. Deo draws attention to a folk-shaped pattern of question, answer and retort, and to a simple, expressive delivery.[^folk-exchange] His account directs attention to something shared: the lyric creates an exchange, and two singers carry it.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "akshaya-mohanty",
+            "kind": "paragraphs",
+            "text": "Mohanty entered cinema as a playback singer in **ମାଆ (Maa)** in the late 1950s, under composer **Bhubaneswar Mishra**, alongside fellow playback singers **Pranab Patnaik** and **Ila Chakraborty**.[^maa] By **ମଲାଜହ୍ନ (Malajanha, 1965)**, he was its music director.[^malajanha] A voice heard within a film was now helping shape its musical world.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "akshaya-mohanty:folk-exchange",
+            "kind": "notes",
+            "text": "Surya Deo, [“ଲୋକସ୍ୱର ଛାଞ୍ଚ”](https://www.facebook.com/reel/28591660633830620/), public Facebook caption.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "prafulla-kar",
+            "kind": "paragraphs",
+            "text": "Kar entered film playback with *ଶ୍ରୀ ଶ୍ରୀ ପତିତପାବନ (Shri Shri Patita Pabana)* in 1962 and made his debut as a film music director with *ମମତା (Mamata)* in 1975.[^career] These were different responsibilities within the same musical world: singing a part and shaping music for a production.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "prafulla-kar",
+            "kind": "paragraphs",
+            "text": "Kar’s own voice offers another route. The distributed soundtrack listing for *ଶେଷ ଶ୍ରାବଣ (Sesa Srabana)* credits him as composer and main artist for “Kali Kapali.”[^kali] Here the person shaping the music is also named as its performer.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "tapu-mishra",
+            "kind": "paragraphs",
+            "text": "Mishra grew up in Sambalpur and began singing young. She attended Sambalpur University and obtained a music degree from Gandharva Mahavidyalaya. Her film career began with Himanshu Parija’s *କୁଳନନ୍ଦନ (Kulanandana)* in 1995; “Na Re Na Bajana Bansi” from *ଆଇ ଲଭ୍ ୟୁ (I Love You)* brought her wider recognition.[^career]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "tapu-mishra",
+            "kind": "paragraphs",
+            "text": "Tapu and Humane Sagar shared the title song of *ଇସ୍କ ତୁ ହି ତୁ (Ishq Tu Hi Tu)*. Abhijit Majumdar composed the music and Nizam wrote the words.[^ishq] The recording places her within a newer chapter of the [Odia cinema-music story](../culture/cinema-series/cinema-music.md), alongside a fellow singer whose voice also became closely associated with contemporary film songs.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "gour-prasad-ghose",
+            "kind": "paragraphs",
+            "text": "The archive’s filmography records Gour and Parbati across productions including *ଲକ୍ଷ୍ମୀ (Laxmi)*, *କା (Kaa)* and *ସ୍ତ୍ରୀ (Stree)*. For the latter two, it identifies the directing name **Siddharth** with **Ram Chandra Thakur, Gour and Parbati**.[^credits] That collective credit should remain visible rather than being reassigned to one person.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "gour-prasad-ghose",
+            "kind": "paragraphs",
+            "text": "[Parbati’s own profile](../culture/cinema-series/parbati-ghose.md) follows her producing, writing, directing and performance work, including *ଛ’ ମାଣ ଆଠ ଗୁଣ୍ଠ (Chha Mana Atha Guntha)*. Their partnership belongs in both lives, without making either career merely an appendix to the other.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "parbati-ghose",
+            "kind": "paragraphs",
+            "text": "In the published credits for *ଛ’ ମାଣ ଆଠ ଗୁଣ୍ଠ (Chha Mana Atha Guntha)*, Parbati Ghose appears as producer, director and performer. The screenplay and dialogue are credited to Shrabani, identified there as Parbati Ghose. The archive dates this adaptation of Fakir Mohan Senapati’s novel to 1986.[^adaptation]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "parbati-ghose",
+            "kind": "paragraphs",
+            "text": "The Gour–Parbati archive records her as co-producer with Gour Prasad Ghose on *ଲକ୍ଷ୍ମୀ (Laxmi)*, *କା (Kaa)* and *ସ୍ତ୍ରୀ (Stree)*. It also identifies “Siddharth,” the directing credit associated with *Kaa* and *Stree*, as a collaboration involving Ram Chandra Thakur, Gour and Parbati.[^filmography]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "parbati-ghose",
+            "kind": "paragraphs",
+            "text": "- **Film information: [ଛ’ ମାଣ ଆଠ ଗୁଣ୍ଠ (Chha Mana Atha Guntha)](https://www.gourparbati.com/movie_chha_mana_atha_guntha.php).** Gour–Parbati archive: credits and production context, not a player.\n- **Film information: [ଲକ୍ଷ୍ମୀ (Laxmi)](https://www.gourparbati.com/movie_laxmi.php).** Gour–Parbati archive.\n- **Film information: [କା (Kaa)](https://www.gourparbati.com/movie_kaa.php).** Gour–Parbati archive.\n- **Film information: [ସ୍ତ୍ରୀ (Stree)](https://www.gourparbati.com/movie_stree.php).** Gour–Parbati archive. An authorised full-film route was not established in this check.\n- **Song clip: [ସ୍ତ୍ରୀ (Stree) - Kali Juga](https://www.youtube.com/watch?v=OlNg8Y-g3Qk).** GPG Productions, the channel linked by the Gour–Parbati archive; a song excerpt, not the full film.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "sadhu-meher",
+            "kind": "paragraphs",
+            "text": "Kishtaya comes back to the village with money he has earned. Seeking work from Surya, the landlord’s son, he is beaten; his wife Lakshmi intervenes. The National Film Awards catalogue describes this painful return in *ଅଙ୍କୁର (Ankur)*, the Hindi film for which **Sadhu Meher** received Best Actor for 1974.[^award]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "sadhu-meher",
+            "kind": "paragraphs",
+            "text": "*Sadhu Meher receiving the Padma Shri from President Pranab Mukherjee on 13 April 2017. Photo: President’s Secretariat, Government of India, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:The_President,_Shri_Pranab_Mukherjee_presenting_the_Padma_Shri_Award_to_Shri_Sadhu_Meher,_at_the_Civil_Investiture_Ceremony,_at_Rashtrapati_Bhavan,_in_New_Delhi_on_April_13,_2017.jpg); [Government Open Data License–India](https://data.gov.in/sites/default/files/Gazette_Notification_OGDL.pdf).*",
+            "latin_and_digits_match": false,
+            "all_surrounding_runs_present": false,
+            "has_odia": false
+          },
+          {
+            "slug": "sadhu-meher",
+            "kind": "paragraphs",
+            "text": "Kapilas Bhuyan’s 2010 retrospective credits Meher’s *ଅଭିମାନ (Abhiman)* (1977) with helping revive cinema attendance.[^abhiman]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "sadhu-meher",
+            "kind": "paragraphs",
+            "text": "- **Full-film listing: [ଅଙ୍କୁର (Ankur) on Shemaroo’s YouTube channel](https://www.youtube.com/watch?v=zlURxHM0cm4).** Official-channel upload identified in the indexed listing; playback and regional access untested.\n- **Film information: [ଅଭିମାନ (Abhiman) in an IFFI retrospective](https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=67399).** Historical account of the Odia film, not a stream.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "manmohan-mahapatra",
+            "kind": "paragraphs",
+            "text": "In *କ୍ଳାନ୍ତ ଅପରାହ୍ନ (Klanta Aparanha)*, retired Adikanda lives with his mother and daughter Niru. Niru teaches alongside Sandhya and Veena, with whom she exchanges news and hopes. An anticipated marriage proposal draws the family into financial pressure: Adikanda mortgages land to raise money for the dowry.[^panorama]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "manmohan-mahapatra",
+            "kind": "paragraphs",
+            "text": "- **Official catalogue: [ଶୀତରାତି (Seeta Raati)](https://nfaindia.org/images/pdf/29th%20National%20Film%20Award%20Catalogue.pdf).** National Film Awards catalogue, page 53; not streaming.\n- **Official catalogue: [କ୍ଳାନ୍ତ ଅପରାହ୍ନ (Klanta Aparanha)](https://dff.nic.in/images/Documents/139_IPCatalogue1985.pdf).** Indian Panorama 1985. No authorised full-film route was established in this check.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "maya-miriga",
+            "kind": "paragraphs",
+            "text": "The film was selected for Cannes Critics’ Week in 1984. Mannheim’s 1984 archive records it in the Grand Prize of the Third World competition, shared with *ଲେଇଲା ଏ ଲେ ଲୁ (Leila et les loups)*; that category was distinct from the festival’s overall Grand Prize.[^cannes][^mannheim]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "nirad-mohapatra",
+            "kind": "paragraphs",
+            "text": "*Nirad Mohapatra, 2010. Photo: Raj Sampad, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Nirad_Mohapatra_-_Filmmaker.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*",
+            "latin_and_digits_match": false,
+            "all_surrounding_runs_present": false,
+            "has_odia": false
+          },
+          {
+            "slug": "bhukha",
+            "kind": "paragraphs",
+            "text": "\n# ଭୂଖା (Bhukha): when a tradition must also feed a family",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "bhukha",
+            "kind": "paragraphs",
+            "text": "*ଭୂଖା (Bhukha)* offers one starting point for exploring cinema in western Odisha. Sabyasachi Mohapatra’s 1989 Sambalpuri film places folk performers within a changing society. Film critic Ashok Palit discusses it as an encounter between inherited ways of life and modernity.[^palit]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "bhukha",
+            "kind": "paragraphs",
+            "text": "- **Institutional reference: [Sabyasachi Mohapatra and ଭୂଖା (Bhukha)](https://nfaindia.org/images/pdf/70th%20National%20Film%20Award%20Catalogue.pdf).** National Film Awards catalogue, printed page 036. A director biography, not a player; an authorised full-film route was not established in this check.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "sabyasachi-mohapatra",
+            "kind": "paragraphs",
+            "text": "Our [article on ଭୂଖା (Bhukha)](../culture/cinema-series/bhukha.md) follows its performers’ livelihoods and musical world. The National Film Awards retrospective identifies it as a 1989 Sambalpuri film and records an International Jury Award at Gijón, without establishing the prize’s exact year.[^career] The director’s wider profile follows the collaborations around such films.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "sabyasachi-mohapatra",
+            "kind": "paragraphs",
+            "text": "*Sabyasachi Mohapatra, photographed at the Odisha State Film Awards in Bhubaneswar, 21 November 2014. Photo: Subhashish Panigrahi; existing crop by MKar. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sabyasachi_Mohapatra.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*",
+            "latin_and_digits_match": false,
+            "all_surrounding_runs_present": false,
+            "has_odia": false
+          },
+          {
+            "slug": "lavanya-preeti",
+            "kind": "paragraphs",
+            "text": "\n# ଲାବଣ୍ୟ ପ୍ରୀତି (Lavanya Preeti): growing up with a story",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "lavanya-preeti",
+            "kind": "paragraphs",
+            "text": "A story heard in childhood can become a way of understanding feelings that arrive later. In **ଲାବଣ୍ୟ ପ୍ରୀତି (Lavanya Preeti)**, A. K. Bir places adolescent experience beside the story of Kedar and Gouri. NFDC’s catalogue describes a story within a story, in which elders misunderstand the young lovers and tragedy follows.[^nfdc]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "ak-bir",
+            "kind": "paragraphs",
+            "text": "A person behind a camera makes choices about what we notice: a face, a distance, the space between two people. **A. K. Bir’s** career offers a way into cinema through that craft. Trained in cinematography at FTII, he went on to write, photograph and direct films, including *ଆଦି ମୀମାଂସା (Adi Mimansa)* and *ଲାବଣ୍ୟ ପ୍ରୀତି (Lavanya Preeti)*.[^career]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "nandita-das",
+            "kind": "paragraphs",
+            "text": "*Nandita Das, 2008. Image credited on [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:NanditaDas2008.jpg) to user Nanditadas, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).*",
+            "latin_and_digits_match": false,
+            "all_surrounding_runs_present": false,
+            "has_odia": false
+          },
+          {
+            "slug": "nandita-das",
+            "kind": "paragraphs",
+            "text": "Her connection to Odia cinema also includes acting in the language. She appears in *ବିଶ୍ୱପ୍ରକାଶ (Biswaprakash / The Young Rebel)*, Susant Misra’s 1999 film. Her official acting filmography lists the work, and the national-awards catalogue names her in its cast.[^biswaprakash]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "nandita-das",
+            "kind": "paragraphs",
+            "text": "Cannes records Das as a member of its feature-film jury in 2005 and its Cinéfondation and short-film jury in 2013. It also lists *ମଣ୍ଟୋ (Manto)*, which she directed and wrote, in the 2018 Un Certain Regard selection.[^cannes]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "nandita-das",
+            "kind": "paragraphs",
+            "text": "The subject gives the festival entry a human shape: a writer whose ability to describe his world is tested by upheaval and prosecution. Beside *ଜ୍ୱିଗାଟୋ (Zwigato)*, it offers a second way into Das’s choice of stories—one concerned with a writer’s freedom, the other with the pressures of earning a living.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "nandita-das",
+            "kind": "paragraphs",
+            "text": "- **Paid provider listing: [ବିଶ୍ୱପ୍ରକାଶ (Biswaprakash) on Prime Video](https://www.primevideo.com/detail/Biswaprakash/0MJBHD5LPJL1VXW6T9MESR5IJM).** Check current availability and account terms; regional responses differed during verification.\n- **Provider catalogue: [ମଣ୍ଟୋ (Manto) on Netflix](https://www.netflix.com/title/81039383).** The 2018 Nandita Das film. Unavailable in the returned locale during verification; this is not a current-playback assurance.\n- **Paid provider listing: [ଜ୍ୱିଗାଟୋ (Zwigato) on Prime Video](https://www.primevideo.com/-/fil/detail/0SNEIZTRDXW0YU3QX1RFKCVFAD?tr=fm).** Check local availability; indexed regional listings differed.\n- **Filmmaker’s page and trailer: [ଜ୍ୱିଗାଟୋ (Zwigato)](https://nanditadas.com/nandita-das-initiatives/zwigato-copy2/).** Official film page with a trailer link, not a full-film stream.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "surya-deo",
+            "kind": "paragraphs",
+            "text": "A 2024 account of efforts to screen *ଉଲ୍କା (Ulka)* describes a damaged film print that could not be projected. A U-matic video cassette was subsequently traced and cleaned for use.[^ulka] It was a way to bring the film back before viewers; the report does not establish a restoration from the original film negative.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "reading-odia-cinema",
+            "kind": "paragraphs",
+            "text": "**Dillip Kumar Pani — *Odia Chalachitra Ra Sahitika O Sanskrutika Mulyayana*.** Its launch was reported alongside a 2019 Film Journalists’ Forum screening of *ରକ୍ତ ଗୋଲାପ (Rakta Golapa)*. The title concerns cinema’s literary and cultural evaluation. We still need the title page to settle its exact transliteration and publication details.[^pani]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "gourahari-das",
+            "kind": "paragraphs",
+            "text": "It is one way into **ଗୌରହରି ଦାସ (Gourahari Das)**: through the movement of a story, before the list of honours or the film adaptation. His writing extends across short fiction, novels, columns, essays, plays and translation.[^author] Cinema is one of the places that work has travelled; the literary life is larger.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "gourahari-das",
+            "kind": "paragraphs",
+            "text": "The IFFI account of **ପ୍ରତୀକ୍ଷା (Pratikshya)** credits a short story by Das as the film’s inspiration. Director **Anupam Patnaik** and lead actor **Dipanwit Dashmohapatra** bring another set of creative lives into that journey.[^film]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "pratikshya",
+            "kind": "paragraphs",
+            "text": "\n# ପ୍ରତୀକ୍ଷା (Pratikshya): a family waiting for security",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "pratikshya",
+            "kind": "paragraphs",
+            "text": "A secure job can become more than employment. It can stand for a family’s hopes, the ability to repay a loan and relief from being dependent on someone else. **ପ୍ରତୀକ୍ଷା (Pratikshya)** places that desire beside a father’s illness, until the son’s hope for security becomes entangled with the possibility of loss.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "anupam-patnaik",
+            "kind": "paragraphs",
+            "text": "Seventeen drafts and three years of work: that is how Anupam Patnaik described making *ପ୍ରତୀକ୍ଷା (Pratikshya)*. In an interview before its release, he recalled working with screenwriter Roshan Bisoi to find the shape of a story about a son, an ailing father and the longing for a secure job.[^drafts] The title means waiting. Behind the finished film was another kind of patience—the repeated work of returning to a story until it could be filmed.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "anupam-patnaik",
+            "kind": "paragraphs",
+            "text": "Feature production came before the recognition for his direction. The Bengaluru International Film Festival’s 2016 catalogue credits him as producer of *ତୁଳସୀ ଅପା (Tulasi Apa)*, directed by his father, Amiya Patnaik. The film follows the life and educational work of Tulasi Munda.[^tulasi] It offers an early connection between his filmmaking and a life rooted in Odisha, carried to audiences through Odia.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "anupam-patnaik",
+            "kind": "paragraphs",
+            "text": "Patnaik’s later *କର୍ମ (Karma, 2024)* moved into a murder-investigation thriller, with Anubhav Mohanty playing investigator Amar Patnaik.[^karma] A family drama and a thriller ask different things of a director. Together, they suggest a career still exploring what kinds of stories can find an audience in the language.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "vishal-mourya",
+            "kind": "paragraphs",
+            "text": "Their later Odia collaboration, *ବିଜୁ ବାବୁ (Biju Babu)*, was released in 2019. Mentis Films’ own profile identifies Mourya as a director, writer and founder, and places this film alongside *DAMaN* and *B for Bundelkhand*.[^mentis]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "debi-prasad-lenka",
+            "kind": "paragraphs",
+            "text": "Mentis Films identifies him as a filmmaker, director, editor and founder. Its profile connects him with *B for Bundelkhand*, *ବିଜୁ ବାବୁ (Biju Babu)* and *DAMaN*.[^mentis] The range suggests a useful way to approach his public career: follow the work across formats, rather than begin and end with one award.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-television",
+            "kind": "paragraphs",
+            "text": "**କେମିତି କହିବି କହ (Kemiti Kahibi Kaha)** offers a concrete connection between television and cinema’s performers. ZEE5’s programme page identifies **Siddhant Mohapatra** and **Supriya Nayak** in its cast and dates the Odia drama to 2021. Its central relationship brings a wealthy businessman and a younger woman into a story about love and an age difference.[^kemiti]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-television",
+            "kind": "paragraphs",
+            "text": "The broadcaster describes a programme mix spanning literature, folk music, dance, agriculture, news and festivals. Its public catalogue links **କଥା ସରିତା (Katha Sarita)** stories and **ଗୋପାଳ ରହସ୍ୟ (Gopala Rahasya)**, alongside a programme identified with Godabarisha Mishra’s **ପାଣୁ ମିଶ୍ର (Panu Mishra)**. The catalogue connects literary and oral storytelling with television.[^dd]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-television",
+            "kind": "paragraphs",
+            "text": "IDMT’s own catalogue records ଚତୁର କାଉ (Chatura Kau) as an Odia animated short released on 14 January 2008. It also describes ଧର୍ମପଦ (Dharmapada) as an animated feature project. The short and the proposed feature show different ambitions within local animation.[^child-idmt]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-television",
+            "kind": "paragraphs",
+            "text": "କୁନି ଗଣେଶ (Kuni Ganesha) provides a television connection. Reporting on Media Pixels Productions described an eight-episode Odia 3D series prepared for Doordarshan, with Gouri Shankar Singh as producer and Jyotiranjan Swain as writer-director. The account also records the difficulty of bringing funding and technology together.[^child-ganesha]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-television",
+            "kind": "paragraphs",
+            "text": "A later example connects local production to national broadcasting. ELE Animations’ announcement for ଜୟ ଜଗନ୍ନାଥ (Jay Jagannath) describes its collaboration with Toonz and Warner Bros. Discovery and a Pogo premiere in May 2024. The six announced broadcast languages did not include Odia. The collaboration connects an Odisha studio to a wider children’s television audience, while leaving an Odia-language broadcast unconfirmed.[^child-ele-pogo]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-television",
+            "kind": "paragraphs",
+            "text": "The distinction continues into features. ELE’s ମହାପ୍ରଭୁ ଜଗନ୍ନାଥ (Mahaprabhu Jagannath), directed by Shripad Warkhedkar, received a trade review recording a Bombay theatrical release on 4 September 2026. Producer publicity named Odia among its planned languages. An advertised language does not establish that an Odia-language screening took place.[^child-mahaprabhu][^child-mahaprabhu-languages]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-television",
+            "kind": "paragraphs",
+            "text": "- **Programme and episode catalogue: [କେମିତି କହିବି କହ (Kemiti Kahibi Kaha) on ZEE5](https://www.zee5.com/tv-shows/details/kemiti-kahibi-kaha/0-6-3141).** Check individual episode access and current account terms.\n- **Official programme information: [DD Odia at Prasar Bharati](https://prasarbharati.gov.in/dd-oriya/).** Channel history and linked catalogue; not a promise that every listed programme is available to watch.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "commercial-successes",
+            "kind": "table_cells",
+            "text": " ବୋଉ ବୁଟୁ ଭୂତ (Bou Buttu Bhuta) ",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "commercial-successes",
+            "kind": "table_cells",
+            "text": " କର୍ମ (Karma) ",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "commercial-successes",
+            "kind": "paragraphs",
+            "text": "For **ବୋଉ ବୁଟୁ ଭୂତ (Bou Buttu Bhuta)**, The Federal reported almost **₹12 crore after 17 days**, against a **₹2–3 crore budget**, on 30 June 2025.[^commercial-bou-june] By 24 September, The New Indian Express reported nearly **₹21 crore** and a run of close to 50 days. Its account also described Dharma Productions as acquiring remake rights, with the process still under way.[^commercial-bou-september]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "commercial-successes",
+            "kind": "paragraphs",
+            "text": "**କର୍ମ (Karma)** had a reported **₹37.20 lakh opening day**, recalled in The New Indian Express’s June 2025 coverage.[^commercial-raja]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "commercial-successes",
+            "kind": "paragraphs",
+            "text": "**ଅନନ୍ତା (Ananta)**, adapted from Fakir Mohan Senapati’s story, shared the reported packed Raja shows; its collection was then unspecified.[^commercial-raja]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "cinema-economics",
+            "kind": "paragraphs",
+            "text": "For a recent commercial example, consider ବୋଉ ବୁଟୁ ଭୂତ (Bou Buttu Bhuta). On 30 June 2025, The Federal reported a production budget of Rs 2–3 crore and almost Rs 12 crore at the box office after 17 days. The Rs 12 crore figure is a receipt estimate, not a production budget.[^eco-bou-june] The [commercial-successes reading](commercial-successes.md) follows the differently dated reports of this and other films.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "akshaya-mohanty",
+            "kind": "credits",
+            "text": "ଅକ୍ଷୟ ମହାନ୍ତି — Akshaya Mohanty, remembered as Khoka Bhai. Krupasindhu Muduli. [Source](https://commons.wikimedia.org/wiki/File:Akshaya_Mohanty_(Khoka_Bhai).jpg); [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Resized for display.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          }
+        ],
+        "overview_adaptation_requires_review": [
+          "Music was present from the beginning. Bhuyan records fourteen songs in *Sita Bibah*, sung by its actors, and a move to background singing in *Lalita*. Later films drew on Odia literature, including *ଅମଡ଼ା ବାଟ (Amada Bata)*, *ମଲାଜହ୍ନ (Malajanha)* and *",
+          "Chhotray is a concrete link between the media. The Library of Congress documents his work in Gitinatya, his long association with AIR Cuttack, and his writing of plays, operas and screenplays.[^chhotray-loc] The Gour–Parbati archive credits him speci",
+          "Parbati Ghose belongs near the centre of this history. The Gour–Parbati filmography records her as a co-producer with Gour Prasad Ghose on *ଲକ୍ଷ୍ମୀ (Laxmi)*, *କା (Kaa)* and *ସ୍ତ୍ରୀ (Stree)*. It also credits her within the directing partnership used o",
+          "The archive dates her *ଛ’ ମାଣ ଆଠ ଗୁଣ୍ଠ (Chha Mana Atha Guntha)* adaptation to 1986. Its credits name **Nagen Barik** for sound and **Asim Basu and Sarat Sahoo** for art, and acknowledge Olosingh’s villagers and host **Kalyani Patnaik**.[^parbati-film",
+          "In his account of Odisha’s New Wave, critic Ashok Palit describes the social worlds of Mahapatra’s films: a rural community facing upheaval in *ନୀରବ ଝଡ଼ (Niraba Jhada)*, and a family negotiating social change in *ନିଷିଦ୍ଧ ସ୍ଵପ୍ନ (Nisiddha Swapna)*. Hi",
+          "Sabyasachi Mohapatra’s *ଭୂଖା (Bhukha)* (**1989**) makes the map of cinema in Odisha more expansive. It is a **Sambalpuri-language film**. Palit reads its conflict through the pressures between inherited ways of life and modernity.[^new-wave]",
+          "Mohapatra’s later work offers further, separately documented milestones. *ଶଳାବୁଢ଼ା (Sala Budha)* was selected for Indian Panorama in 2013. *ଆଦିମ ବିଚାର (Aadim Vichar)* received the Best Odiya Film award at the 62nd National Film Awards, for 2014, anno",
+          "Sadhu Meher’s ବାବୁଲା (Babula) provides a concrete starting point for the first history. A Lok Sabha answer of 7 December 1987 lists it among the Children’s Film Society of India’s productions for 1985–86, identifying it as an Oriya feature. A contemp",
+          "[A. K. Bir](../people/ak-bir.md)’s [ଲାବଣ୍ୟ ପ୍ରୀତି (Lavanya Preeti)](cinema-series/lavanya-preeti.md) received Best Children’s Film for 1993. Its dedicated page follows young characters into the imaginative world of an inherited story.[^children-lavan",
+          "Children can also encounter films through Odia-language versions. CBFC’s 2022 list records an Odia video version of ରିଟର୍ଣ୍ଣ ଅଫ୍ ହନୁମାନ (Return of Hanuman), certified on 11 February 2022 and naming Shemaroo Entertainment. Airtel Xstream lists the Anu",
+          "Bijay Mohanty carried theatre training into films and into the classroom. A National School of Drama graduate, he worked in the drama department of Utkal Sangeet Mahavidyalaya and retired as a professor. His screen career includes *ଚିଲିକା ତୀରେ (Chili",
+          "Uttam Mohanty's *ଅଭିମାନ (Abhiman)* debut connects his story to [Sadhu Meher](/cinema/sadhu-meher/), its director. In a 2018 interview, he recalled a Bengali viewer in Cuttack praising his portrayal of Salabega. The memory gives one audience encounter",
+          "Aparajita Mohanty's work offers several points of entry. *ଉଦଣ୍ଡୀ ସୀତା (Udandi Sita)* is among the films associated with her screen career.[^performer-aparajita] She produced *Love Master*.[^performer-aparajita-production] Acting and producing are dis",
+          "Her remembrance of Anita Das opens another relationship. Aparajita described the senior actor as an elder-sister figure who taught her about acting and the workings of the industry.[^performer-anita] That account gives mentorship between women a plac",
+          "| Performer | A contribution to follow |\n| --- | --- |\n| Mahasweta Ray | Her recollection of viewers calling her Manika, her character in *ଶେଷ ଶ୍ରାବଣ (Sesa Srabana)*, connects a role with audience memory.[^performer-mahasweta] |\n| Mihir Das | His car",
+          "| Performer | Reported estimate | Date and scope |\n| --- | --- | --- |\n| Bijay Mohanty | More than 180 | 21 July 2020; Films; languages not separately enumerated.[^count-bijay] |\n| Uttam Mohanty | More than 135 Odia; as many as 30 Bengali; Hindi film",
+          "The credits of *ଶ୍ରୀ ଜଗନ୍ନାଥ (Sri Jagannath, 1950)* name **Balakrushna Das and Ranjit Roy** as music directors, with **Kalyani Das, Chhabi Ray and Suryamoni Dei** among the singers. Cinema was already a meeting place for many voices.[^music-sri-jagan",
+          "[Akshaya Mohanty](../people/akshaya-mohanty.md) belongs here as a composer, singer and producer. When *ମଲାଜହ୍ନ (Malajanha)* returned for a Film Journalists' Forum screening, actress **Jharana Das**, singer [Pranab Patnaik](../people/pranab-patnaik.md",
+          "Other voices deserve their own listening paths. **Bhubaneswari Mishra's** “Tiki Mora Naa Ti” in *କୃଷ୍ଣ ସୁଦାମା (Krushna Sudama)* is one such doorway.[^music-bhubaneswari] Pranab Patnaik's account of his long friendship and stage work with Prafulla Kar",
+          "**Sadhu Meher** received the National Film Award for Best Actor for his performance in Shyam Benegal’s Hindi film *ଅଙ୍କୁର (Ankur)*, honoured at the 22nd awards for 1974. The official catalogue records his upbringing in Odisha and his training at the ",
+          "Her connection also includes acting in Odia: she appeared in Susant Misra’s **ବିଶ୍ୱପ୍ରକାଶ (Biswaprakash / The Young Rebel, 1999)**, listed in her official filmography. The [Nandita Das article](/cinema/nandita-das/#acting-in-odia-biswaprakash) explor",
+          "Cannes records her membership of its feature-film jury in **2005** and its Cinéfondation and short-film jury in **2013**. Her film *ମଣ୍ଟୋ (Manto)* was selected for Un Certain Regard in **2018**. These occasions mark both jury service and film selecti",
+          "| Film | Recognition | Award year and edition | Filmmakers to explore |\n| --- | --- | --- | --- |\n| [ଶୀତରାତି (Seeta Raati)](cinema-series/manmohan-mahapatra.md) | Best Oriya Film[^seeta] | 1981 · 29th awards | Manmohan Mahapatra |\n| [ମାୟା ମିରିଗ (Maya",
+          "Recognition also follows people across languages. [Sadhu Meher](cinema-series/sadhu-meher.md) received Best Actor for *ଅଙ୍କୁର (Ankur)* at the 22nd awards for 1974. His achievement belongs here as an actor from Odisha working in a Hindi film.[^sadhu]",
+          "**A Sambalpuri film’s recognition abroad:** the official 70th National Film Awards catalogue credits [ଭୂଖା (Bhukha)](cinema-series/bhukha.md) with an **International Jury Award at Gijón, Spain**. The catalogue does not give the prize year; that detai",
+          "The newer *ମାଲିପୁଟ (Maliput Melodies)* was screened in **Indian Panorama at IFFI 2025**. That documented festival appearance opens a contemporary thread below; it is kept distinct from the prize record.[^maliput-iffi]",
+          "A film can leave something behind after its run: a new collaborator, an audience willing to try another story, or the confidence to begin a difficult script. *ଦମନ (DAMaN)* and *ପ୍ରତୀକ୍ଷା (Pratikshya)* offer two recent starting points for that convers",
+          "The range also includes **କର୍ମ (Karma, 2024)**. Anupam Patnaik directed **Anubhav Mohanty** as investigator Amar Patnaik in a murder-case thriller. The filmmaker behind *Pratikshya* was working with a different star and dramatic form; contemporary Od",
+          "A film culture also depends on tickets sold and the chance to finance the next production. In 2025, **ବୋଉ ବୁଟୁ ଭୂତ (Bou Buttu Bhuta)** supplied a conspicuous commercial story. Directed by **Jagdish Mishra**, the horror-comedy brought **Aparajita Moha",
+          "Commercial momentum has a setting as well as a number. During Raja in June 2025, *The New Indian Express* reported packed shows for *Bou Buttu Bhuta* and **ଅନନ୍ତା (Ananta)**. The latter starred **Sabyasachi Mishra** and was directed by **Sabyasachi M",
+          "Overseas announcements show another route to audiences. On 26 April 2023, *OrissaPOST* reported plans to screen **ଫାଲ୍ଗୁନ ଚୈତ୍ର (Phalguna Chaitra)** on 13 May at Hoyts Docklands in Melbourne, Hoyts Blacktown in Sydney and Event Cinemas in Brisbane. A",
+          "Links checked on 26 October 2026. Playback was not tested; territory, account and payment conditions can change.",
+          "- **Full-film listing: [ଦମନ (DAMaN) on Amara Muzik Odia’s YouTube channel](https://www.youtube.com/watch?v=bX9WYaIzVa4).** Verified official-channel page; playback untested.\n- **Official trailer: [ପ୍ରତୀକ୍ଷା (Pratikshya)](https://www.youtube.com/watch",
+          "- **Provider catalogue, Odia version:** [ରିଟର୍ଣ୍ଣ ଅଫ୍ ହନୁମାନ (Return of Hanuman)](https://www.airtelxstream.in/movies/return-of-hanuman/HOTSTAR_DTH_MOVIE_1055915). Check current access and subscription terms; playback unverified."
+        ],
+        "limits": [
+          "Pixel layout, Odia shaping, credit completeness against metadata and semantic link destinations require separate review.",
+          "Whole-document matching proves presence, not exactly-once placement.",
+          "Any overview exceptions must be reconciled explicitly; this script does not approve them."
+        ]
+      },
+      {
+        "edition": "print",
+        "pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-10-30.pdf",
+        "sha256": "9d0ded93f6d7995e63d43d849fb07956b102f0f5f068f74bd7fd2042cc870c24",
+        "pages": 268,
+        "checks": {
+          "paragraphs": 820,
+          "table_cells": 105,
+          "notes": 364,
+          "credits": 19
+        },
+        "citation_markers_excluded": 501,
+        "citation_marker_examples": [
+          {
+            "page": 10,
+            "text": "1",
+            "font_size": 9.0,
+            "rise": 5.5
+          },
+          {
+            "page": 11,
+            "text": "2",
+            "font_size": 9.0,
+            "rise": 5.5
+          },
+          {
+            "page": 14,
+            "text": "1",
+            "font_size": 9.0,
+            "rise": 5.5
+          },
+          {
+            "page": 14,
+            "text": "1",
+            "font_size": 9.0,
+            "rise": 5.5
+          },
+          {
+            "page": 15,
+            "text": "5",
+            "font_size": 9.0,
+            "rise": 5.5
+          },
+          {
+            "page": 15,
+            "text": "5",
+            "font_size": 9.0,
+            "rise": 5.5
+          },
+          {
+            "page": 16,
+            "text": "32, 13, 36",
+            "font_size": 9.0,
+            "rise": 5.5
+          },
+          {
+            "page": 17,
+            "text": "1",
+            "font_size": 9.0,
+            "rise": 5.5
+          },
+          {
+            "page": 18,
+            "text": "2",
+            "font_size": 9.0,
+            "rise": 5.5
+          },
+          {
+            "page": 18,
+            "text": "3",
+            "font_size": 9.0,
+            "rise": 5.5
+          },
+          {
+            "page": 18,
+            "text": "4",
+            "font_size": 9.0,
+            "rise": 5.5
+          },
+          {
+            "page": 19,
+            "text": "5",
+            "font_size": 9.0,
+            "rise": 5.5
+          }
+        ],
+        "errors": [
+          "Unmatched text requires review; not automatic extraction exception"
+        ],
+        "unmatched": [
+          {
+            "slug": "the-question-that-brought-me-here",
+            "kind": "paragraphs",
+            "text": "This also shaped an essay I wrote, *“Rise, Children of Utkal.”* I had heard the familiar expression “ଆମର ଏଠି କିଛି ହେବନି”—nothing will happen here. I understood that disappointment could sit behind it. Still, I wanted to leave the conversation open.[^utkal]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Music was present from the beginning. Bhuyan records fourteen songs in *Sita Bibah*, sung by its actors, and a move to background singing in *Lalita*. Later films drew on Odia literature, including *ଅମଡ଼ା ବାଟ (Amada Bata)*, *ମଲାଜହ୍ନ (Malajanha)* and *ମାଟିର ମଣିଷ (Matira Manisha)*.[^foundation]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Chhotray is a concrete link between the media. The Library of Congress documents his work in Gitinatya, his long association with AIR Cuttack, and his writing of plays, operas and screenplays.[^chhotray-loc] The Gour–Parbati archive credits him specifically with **dialogue for *ଶ୍ରୀଜଗନ୍ନାଥ (Sri Jagannath)* (1950)**, while assigning direction and screenplay to C.R. Mitra.[^jagannath-dialogue]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Parbati Ghose belongs near the centre of this history. The Gour–Parbati filmography records her as a co-producer with Gour Prasad Ghose on *ଲକ୍ଷ୍ମୀ (Laxmi)*, *କା (Kaa)* and *ସ୍ତ୍ରୀ (Stree)*. It also credits her within the directing partnership used on *Kaa* and *Stree*. Her work crossed the boundaries between performing, organising a production and deciding what would reach the screen.[^gour-parbati]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "The archive dates her *ଛ’ ମାଣ ଆଠ ଗୁଣ୍ଠ (Chha Mana Atha Guntha)* adaptation to 1986. Its credits name **Nagen Barik** for sound and **Asim Basu and Sarat Sahoo** for art, and acknowledge Olosingh’s villagers and host **Kalyani Patnaik**.[^parbati-film] The [Parbati Ghose companion](cinema-series/parbati-ghose.md) follows her producing, writing, directing and acting work.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "In his account of Odisha’s New Wave, critic Ashok Palit describes the social worlds of Mahapatra’s films: a rural community facing upheaval in *ନୀରବ ଝଡ଼ (Niraba Jhada)*, and a family negotiating social change in *ନିଷିଦ୍ଧ ସ୍ଵପ୍ନ (Nisiddha Swapna)*. His survey places Mahapatra and Nirad Mohapatra among the filmmakers who developed a sustained interest in cinema as an art of close observation.[^new-wave]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Sabyasachi Mohapatra’s *ଭୂଖା (Bhukha)* (**1989**) makes the map of cinema in Odisha more expansive. It is a **Sambalpuri-language film**. Palit reads its conflict through the pressures between inherited ways of life and modernity.[^new-wave]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Mohapatra’s later work offers further, separately documented milestones. *ଶଳାବୁଢ଼ା (Sala Budha)* was selected for Indian Panorama in 2013. *ଆଦିମ ବିଚାର (Aadim Vichar)* received the Best Odiya Film award at the 62nd National Film Awards, for 2014, announced in 2015.[^sala][^aadim]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Sadhu Meher’s ବାବୁଲା (Babula) provides a concrete starting point for the first history. A Lok Sabha answer of 7 December 1987 lists it among the Children’s Film Society of India’s productions for 1985–86, identifying it as an Oriya feature. A contemporary 1986 catalogue from Berlin’s Arsenal describes Meher’s CFSI-supported film through a lonely boy’s dreams of outer space. This places institutional support and a child’s imagination within the same account. [^children-babula-parliament][^children-babula-arsenal]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "[A. K. Bir](../people/ak-bir.md)’s [ଲାବଣ୍ୟ ପ୍ରୀତି (Lavanya Preeti)](cinema-series/lavanya-preeti.md) received Best Children’s Film for 1993. Its dedicated page follows young characters into the imaginative world of an inherited story.[^children-lavanya-nfa]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Children can also encounter films through Odia-language versions. CBFC’s 2022 list records an Odia video version of ରିଟର୍ଣ୍ଣ ଅଫ୍ ହନୁମାନ (Return of Hanuman), certified on 11 February 2022 and naming Shemaroo Entertainment. Airtel Xstream lists the Anurag Kashyap film as a 2007 animation title available in Odia. This is a route to a dubbed film, distinct from an original Odia production; current access depends on the provider.[^children-hanuman-cbfc][^children-hanuman-provider]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Bijay Mohanty carried theatre training into films and into the classroom. A National School of Drama graduate, he worked in the drama department of Utkal Sangeet Mahavidyalaya and retired as a professor. His screen career includes *ଚିଲିକା ତୀରେ (Chilika Tire)*, *ନାଗଫାଶ (Nagaphasa)* and *ଚକା ଭଉଁରୀ (Chaka Bhaunri)*: useful starting points for exploring a performer whose working life extended beyond the finished film.[^performer-bijay]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Uttam Mohanty's *ଅଭିମାନ (Abhiman)* debut connects his story to [Sadhu Meher](/cinema/sadhu-meher/), its director. In a 2018 interview, he recalled a Bengali viewer in Cuttack praising his portrayal of Salabega. The memory gives one audience encounter a place beside the career record.[^uttam-technology]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Aparajita Mohanty's work offers several points of entry. *ଉଦଣ୍ଡୀ ସୀତା (Udandi Sita)* is among the films associated with her screen career.[^performer-aparajita] She produced *Love Master*.[^performer-aparajita-production] Acting and producing are distinct forms of participation: one places a performer before the camera, while the other helps bring a production into being.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Her remembrance of Anita Das opens another relationship. Aparajita described the senior actor as an elder-sister figure who taught her about acting and the workings of the industry.[^performer-anita] That account gives mentorship between women a place in this history. Her later appearance in *ବୋଉ ବୁଟୁ ଭୂତ (Bou Buttu Bhuta)* brings that working life into the recent films discussed later in this survey.[^bou-commercial]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "table_cells",
+            "text": " Her recollection of viewers calling her Manika, her character in *ଶେଷ ଶ୍ରାବଣ (Sesa Srabana)*, connects a role with audience memory.[^performer-mahasweta] ",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "The credits of *ଶ୍ରୀ ଜଗନ୍ନାଥ (Sri Jagannath, 1950)* name **Balakrushna Das and Ranjit Roy** as music directors, with **Kalyani Das, Chhabi Ray and Suryamoni Dei** among the singers. Cinema was already a meeting place for many voices.[^music-sri-jagannath-archive] **Shantanu Mohapatra** later composed Lata Mangeshkar's songs for *ସୂର୍ଯ୍ୟମୁଖୀ (Suryamukhi)* and *ଅରୁନ୍ଧତୀ (Arundhati)*. His son Koushik remembers a young composer approaching her, and producer Dhiren Patnaik backing the later collaboration. Such journeys began with someone making a connection and someone else making room for it.[^music-shantanu-lata]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "[Akshaya Mohanty](../people/akshaya-mohanty.md) belongs here as a composer, singer and producer. When *ମଲାଜହ୍ନ (Malajanha)* returned for a Film Journalists' Forum screening, actress **Jharana Das**, singer [Pranab Patnaik](../people/pranab-patnaik.md), lyricist **Binodini Debi** and the filmmakers' families were part of the occasion. A literary adaptation had gathered actors, words and music; its return gathered people again.[^music-malajanha-return]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Other voices deserve their own listening paths. **Bhubaneswari Mishra's** “Tiki Mora Naa Ti” in *କୃଷ୍ଣ ସୁଦାମା (Krushna Sudama)* is one such doorway.[^music-bhubaneswari] Pranab Patnaik's account of his long friendship and stage work with Prafulla Kar offers another.[^music-pranab-remembers] These are starting points for a wider account of the singers, lyricists, arrangers and instrumentalists behind the songs.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "**Sadhu Meher** received the National Film Award for Best Actor for his performance in Shyam Benegal’s Hindi film *ଅଙ୍କୁର (Ankur)*, honoured at the 22nd awards for 1974. The official catalogue records his upbringing in Odisha and his training at the Film and Television Institute in Pune. This is a major achievement by an actor from Odisha, within the history of Hindi cinema.[^sadhu]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Her connection also includes acting in Odia: she appeared in Susant Misra’s **ବିଶ୍ୱପ୍ରକାଶ (Biswaprakash / The Young Rebel, 1999)**, listed in her official filmography. The [Nandita Das article](/cinema/nandita-das/#acting-in-odia-biswaprakash) explores that credit alongside her wider career.[^nandita-acting]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Cannes records her membership of its feature-film jury in **2005** and its Cinéfondation and short-film jury in **2013**. Her film *ମଣ୍ଟୋ (Manto)* was selected for Un Certain Regard in **2018**. These occasions mark both jury service and film selection across her career in acting and directing.[^nandita-cannes]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "table_cells",
+            "text": " [ଲାବଣ୍ୟ ପ୍ରୀତି (Lavanya Preeti)](cinema-series/lavanya-preeti.md) ",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "table_cells",
+            "text": " [ପ୍ରତୀକ୍ଷା (Pratikshya)](cinema-series/pratikshya.md) ",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Recognition also follows people across languages. [Sadhu Meher](cinema-series/sadhu-meher.md) received Best Actor for *ଅଙ୍କୁର (Ankur)* at the 22nd awards for 1974. His achievement belongs here as an actor from Odisha working in a Hindi film.[^sadhu]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "**A Sambalpuri film’s recognition abroad:** the official 70th National Film Awards catalogue credits [ଭୂଖା (Bhukha)](cinema-series/bhukha.md) with an **International Jury Award at Gijón, Spain**. The catalogue does not give the prize year; that detail remains open for further archive research.[^bhukha]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "The newer *ମାଲିପୁଟ (Maliput Melodies)* was screened in **Indian Panorama at IFFI 2025**. That documented festival appearance opens a contemporary thread below; it is kept distinct from the prize record.[^maliput-iffi]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "A film can leave something behind after its run: a new collaborator, an audience willing to try another story, or the confidence to begin a difficult script. *ଦମନ (DAMaN)* and *ପ୍ରତୀକ୍ଷା (Pratikshya)* offer two recent starting points for that conversation. Their subjects are different—healthcare in a difficult landscape, and the pressures inside a household—but both give recognisably local lives room on the screen.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "The range also includes **କର୍ମ (Karma, 2024)**. Anupam Patnaik directed **Anubhav Mohanty** as investigator Amar Patnaik in a murder-case thriller. The filmmaker behind *Pratikshya* was working with a different star and dramatic form; contemporary Odia cinema cannot be reduced to a single kind of revival.[^karma-contemporary]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "A film culture also depends on tickets sold and the chance to finance the next production. In 2025, **ବୋଉ ବୁଟୁ ଭୂତ (Bou Buttu Bhuta)** supplied a conspicuous commercial story. Directed by **Jagdish Mishra**, the horror-comedy brought **Aparajita Mohanty, Babushaan Mohanty and Archita Sahu** together in leading roles. On 24 September 2025, *The New Indian Express* reported box-office revenue of nearly **₹21 crore**, against a reported budget of **₹2–3 crore**. These are reported figures, not audited accounts or a calculation of producer profit.[^bou-commercial]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Commercial momentum has a setting as well as a number. During Raja in June 2025, *The New Indian Express* reported packed shows for *Bou Buttu Bhuta* and **ଅନନ୍ତା (Ananta)**. The latter starred **Sabyasachi Mishra** and was directed by **Sabyasachi Mohapatra**, drawing on Fakir Mohan Senapati’s *Randi Pua Ananta*. Literature and popular exhibition were meeting again.[^raja-audiences]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "Overseas announcements show another route to audiences. On 26 April 2023, *OrissaPOST* reported plans to screen **ଫାଲ୍ଗୁନ ଚୈତ୍ର (Phalguna Chaitra)** on 13 May at Hoyts Docklands in Melbourne, Hoyts Blacktown in Sydney and Event Cinemas in Brisbane. A July follow-up in *OrissaPOST* subsequently reported overseas screenings, including Australia. Neither report supplied receipts or a country-by-country earnings breakdown.[^phalgun-australia][^phalgun-followup]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "- **Full-film listing: [ଦମନ (DAMaN) on Amara Muzik Odia’s YouTube channel](https://www.youtube.com/watch?v=bX9WYaIzVa4).** Verified official-channel page; playback untested.\n- **Official trailer: [ପ୍ରତୀକ୍ଷା (Pratikshya)](https://www.youtube.com/watch?v=E_p4kHzZBTM).** Amiya Patnaik Productions.\n- **Official trailer: [କର୍ମ (Karma)](https://www.youtube.com/watch?v=Ai9ItdxoWz8).** Amara Muzik Odia.\n- **Official trailer: [ବୋଉ ବୁଟୁ ଭୂତ (Bou Buttu Bhuta)](https://www.youtube.com/watch?v=M1JaMbSCaSs).** Sidharth Music.\n- **Official trailer: [ଅନନ୍ତା (Ananta)](https://www.youtube.com/watch?v=aNGaiOD2d74).** Amara Muzik Odia.\n- **Restoration clip and information: [ମାୟା ମିରିଗ (Maya Miriga)](https://filmheritagefoundation.co.in/film-heritage-foundation-restores-nirad-mohapatras-landmark-odia-film-maya-miriga1984/).** Film Heritage Foundation’s restoration page and comparison clip, not the full film.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "- **Provider catalogue, Odia version:** [ରିଟର୍ଣ୍ଣ ଅଫ୍ ହନୁମାନ (Return of Hanuman)](https://www.airtelxstream.in/movies/return-of-hanuman/HOTSTAR_DTH_MOVIE_1055915). Check current access and subscription terms; playback unverified.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "- [Odia Cinema Music: The Songs We Carry Home](cinema-series/cinema-music.md)\n- [The page behind the screen: Odia literature and cinema](cinema-series/literature-and-screen.md)\n- [AIR Cuttack: writing, performance and listening](air-cuttack.md)\n- [Odia Cinema’s Commercial Successes: films, reported collections and audiences](cinema-series/commercial-successes.md)\n- [What Makes the Next Film Possible: budgets, box office and support](cinema-series/cinema-economics.md)\n- [Beyond One Successful Film: Building Odia Cinema Together](cinema-series/cinema-futures.md)\n- [Explore the complete cinema collection: films, people and changing screens](https://projectodisha.org/cinema/)",
+            "latin_and_digits_match": false,
+            "all_surrounding_runs_present": false,
+            "has_odia": false
+          },
+          {
+            "slug": "odia-cinema",
+            "kind": "paragraphs",
+            "text": "The screening listing cited here was checked on 25 October 2026; consult current cinema listings before booking.[^current-screening]",
+            "latin_and_digits_match": false,
+            "all_surrounding_runs_present": false,
+            "has_odia": false
+          },
+          {
+            "slug": "literature-and-screen",
+            "kind": "paragraphs",
+            "text": "In the chapter “Bhagia and Saria” of ଛମାଣ ଆଠଗୁଣ୍ଠ (Chha Mana Atha Guntha), Fakir Mohan Senapati’s narrator turns towards educated readers who know distant societies better than their neighbours. The question is deliberately ironic:",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "literature-and-screen",
+            "kind": "paragraphs",
+            "text": "“ଆପଣାର ବା ପ୍ରତିବାସୀ ଜାତି ଓ ସମାଜର କଥା ଜାଣିବାର ଦରକାର କ'ଣ ?”",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "literature-and-screen",
+            "kind": "paragraphs",
+            "text": "In the opening household passage of ରେବତୀ (Rebati), Fakir Mohan describes a child beside her father as he reads and sings:",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "literature-and-screen",
+            "kind": "paragraphs",
+            "text": "“ରେବତୀ ପାଖରେ ବସି ଶୁଣୁଥାଏ।”",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "literature-and-screen",
+            "kind": "paragraphs",
+            "text": "Pratibha Ray’s official bibliography identifies her novel ଅପରିଚିତା (Aparichita) as adapted into a film and the title story of ମୋକ୍ଷ (Moksha) as adapted into a feature.[^pratibha] A novel’s sustained companionship and a short story’s concentrated moment offer different possibilities to the screen.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "literature-and-screen",
+            "kind": "paragraphs",
+            "text": "Other paths lead through theatre and contemporary short fiction. ଭୂଖା (Bhukha) grew from Manglu Charan Biswal’s play, bringing folk performers’ livelihoods into a Sambalpuri screen story.[^lit-bhukha] [ପ୍ରତୀକ୍ଷା (Pratikshya)](pratikshya.md) draws on a short story by [Gourahari Das](../../people/gourahari-das.md).[^lit-pratikshya] BookMyShow’s listing for ଅନନ୍ତା (Ananta) identifies Fakir Mohan’s *Randi Pua Ananta* as its literary source.[^lit-ananta]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "gopal-chhotray",
+            "kind": "paragraphs",
+            "text": "Odia Bibhaba’s collection identifies ଶ୍ରୀମତୀ ସମାର୍ଜନୀ (Srimati Samarjani) as Chhotray’s opera adaptation of Fakir Mohan Senapati’s short story *Patent Medicine*.[^archive] A work of fiction had become something that singers and performers could take up together.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "gopal-chhotray",
+            "kind": "paragraphs",
+            "text": "In ଶ୍ରୀଜଗନ୍ନାଥ (Sri Jagannath, 1950), the Gour–Parbati archive credits Chhotray for dialogue and C.R. Mitra for screenplay and direction.[^jagannath] For ମାଆ (Maa), Chhotray shares the dialogue credit with Biswajit Das; Nitai Palit is credited with screenplay and direction.[^maa]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "air-cuttack",
+            "kind": "paragraphs",
+            "text": "His connection with cinema can be made precise. The Gour–Parbati film archive credits him with dialogue for **ଶ୍ରୀଜଗନ୍ନାଥ (Sri Jagannath, 1950)**. The same record names C.R. Mitra for direction and screenplay.[^jagannath]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "air-cuttack",
+            "kind": "paragraphs",
+            "text": "Odia Bibhaba’s Chhotray collection identifies **ଶ୍ରୀମତୀ ସମାର୍ଜନୀ (Srimati Samarjani)** as an opera adapted from Fakir Mohan Senapati’s short story *Patent Medicine*.[^bibhaba]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "cinema-music",
+            "kind": "paragraphs",
+            "text": "**Bhubaneswari Mishra** offers another starting point with “Tiki Mora Naa Ti” in *କୃଷ୍ଣ ସୁଦାମା (Krushna Sudama)*.[^bhubaneswari]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "cinema-music",
+            "kind": "paragraphs",
+            "text": "Her voice also meets **Humane Sagar’s** in the title song of *ଇସ୍କ ତୁ ହି ତୁ (Ishq Tu Hi Tu)*. The recording credits both singers, **Abhijit Majumdar** as composer and **Nizam** as writer.[^ishq] Reporting on Sagar’s career identifies the 2015 film’s title track as a breakthrough.[^humane] Listening through the duet keeps both performers in view, together with the people who supplied its music and words.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "cinema-music",
+            "kind": "paragraphs",
+            "text": "**Aseema Panda’s** training began with Odissi music under Prafulla Kumar Sahoo, followed by Hindustani music under Artatrana Bhola. In her account, that learning sits beside the film work for which she received state best-singer recognition, *ମୁଁ ଖାଣ୍ଟି ଓଡ଼ିଆ ଝିଅ (Mu Khanti Odia Jhia)*.[^aseema]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "cinema-music",
+            "kind": "paragraphs",
+            "text": "**Diptirekha Padhi** and **Sabisesh Mishra** share “Bhala Paigali Tate” from *ତୁ ମୋ ଲଭ୍ ଷ୍ଟୋରୀ-୨ (Tu Mo Love Story 2)*, as the official Tarang Music recording credits show.[^diptirekha]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "cinema-music:diptirekha",
+            "kind": "notes",
+            "text": "Tarang Music, [“Bhala Paigali Tate”](https://www.youtube.com/watch?v=r2rLxCCFVqs), *ତୁ ମୋ ଲଭ୍ ଷ୍ଟୋରୀ-୨ (Tu Mo Love Story 2)* recording credits.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "akshaya-mohanty",
+            "kind": "paragraphs",
+            "text": "In a public caption headed “ଲୋକସ୍ୱର ଛାଞ୍ଚ”, film historian Surya Deo discusses a duet by Akshaya Mohanty and **Trupti Das**, with lyrics by **Sirshananda Das Kanungo**. Deo draws attention to a folk-shaped pattern of question, answer and retort, and to a simple, expressive delivery.[^folk-exchange] His account directs attention to something shared: the lyric creates an exchange, and two singers carry it.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "akshaya-mohanty",
+            "kind": "paragraphs",
+            "text": "Mohanty entered cinema as a playback singer in **ମାଆ (Maa)** in the late 1950s, under composer **Bhubaneswar Mishra**, alongside fellow playback singers **Pranab Patnaik** and **Ila Chakraborty**.[^maa] By **ମଲାଜହ୍ନ (Malajanha, 1965)**, he was its music director.[^malajanha] A voice heard within a film was now helping shape its musical world.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "akshaya-mohanty:folk-exchange",
+            "kind": "notes",
+            "text": "Surya Deo, [“ଲୋକସ୍ୱର ଛାଞ୍ଚ”](https://www.facebook.com/reel/28591660633830620/), public Facebook caption.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "prafulla-kar",
+            "kind": "paragraphs",
+            "text": "Kar entered film playback with *ଶ୍ରୀ ଶ୍ରୀ ପତିତପାବନ (Shri Shri Patita Pabana)* in 1962 and made his debut as a film music director with *ମମତା (Mamata)* in 1975.[^career] These were different responsibilities within the same musical world: singing a part and shaping music for a production.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "prafulla-kar",
+            "kind": "paragraphs",
+            "text": "Kar’s own voice offers another route. The distributed soundtrack listing for *ଶେଷ ଶ୍ରାବଣ (Sesa Srabana)* credits him as composer and main artist for “Kali Kapali.”[^kali] Here the person shaping the music is also named as its performer.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "tapu-mishra",
+            "kind": "paragraphs",
+            "text": "Mishra grew up in Sambalpur and began singing young. She attended Sambalpur University and obtained a music degree from Gandharva Mahavidyalaya. Her film career began with Himanshu Parija’s *କୁଳନନ୍ଦନ (Kulanandana)* in 1995; “Na Re Na Bajana Bansi” from *ଆଇ ଲଭ୍ ୟୁ (I Love You)* brought her wider recognition.[^career]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "tapu-mishra",
+            "kind": "paragraphs",
+            "text": "Tapu and Humane Sagar shared the title song of *ଇସ୍କ ତୁ ହି ତୁ (Ishq Tu Hi Tu)*. Abhijit Majumdar composed the music and Nizam wrote the words.[^ishq] The recording places her within a newer chapter of the [Odia cinema-music story](../culture/cinema-series/cinema-music.md), alongside a fellow singer whose voice also became closely associated with contemporary film songs.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "gour-prasad-ghose",
+            "kind": "paragraphs",
+            "text": "The archive’s filmography records Gour and Parbati across productions including *ଲକ୍ଷ୍ମୀ (Laxmi)*, *କା (Kaa)* and *ସ୍ତ୍ରୀ (Stree)*. For the latter two, it identifies the directing name **Siddharth** with **Ram Chandra Thakur, Gour and Parbati**.[^credits] That collective credit should remain visible rather than being reassigned to one person.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "gour-prasad-ghose",
+            "kind": "paragraphs",
+            "text": "[Parbati’s own profile](../culture/cinema-series/parbati-ghose.md) follows her producing, writing, directing and performance work, including *ଛ’ ମାଣ ଆଠ ଗୁଣ୍ଠ (Chha Mana Atha Guntha)*. Their partnership belongs in both lives, without making either career merely an appendix to the other.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "parbati-ghose",
+            "kind": "paragraphs",
+            "text": "In the published credits for *ଛ’ ମାଣ ଆଠ ଗୁଣ୍ଠ (Chha Mana Atha Guntha)*, Parbati Ghose appears as producer, director and performer. The screenplay and dialogue are credited to Shrabani, identified there as Parbati Ghose. The archive dates this adaptation of Fakir Mohan Senapati’s novel to 1986.[^adaptation]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "parbati-ghose",
+            "kind": "paragraphs",
+            "text": "The Gour–Parbati archive records her as co-producer with Gour Prasad Ghose on *ଲକ୍ଷ୍ମୀ (Laxmi)*, *କା (Kaa)* and *ସ୍ତ୍ରୀ (Stree)*. It also identifies “Siddharth,” the directing credit associated with *Kaa* and *Stree*, as a collaboration involving Ram Chandra Thakur, Gour and Parbati.[^filmography]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "parbati-ghose",
+            "kind": "paragraphs",
+            "text": "- **Film information: [ଛ’ ମାଣ ଆଠ ଗୁଣ୍ଠ (Chha Mana Atha Guntha)](https://www.gourparbati.com/movie_chha_mana_atha_guntha.php).** Gour–Parbati archive: credits and production context, not a player.\n- **Film information: [ଲକ୍ଷ୍ମୀ (Laxmi)](https://www.gourparbati.com/movie_laxmi.php).** Gour–Parbati archive.\n- **Film information: [କା (Kaa)](https://www.gourparbati.com/movie_kaa.php).** Gour–Parbati archive.\n- **Film information: [ସ୍ତ୍ରୀ (Stree)](https://www.gourparbati.com/movie_stree.php).** Gour–Parbati archive. An authorised full-film route was not established in this check.\n- **Song clip: [ସ୍ତ୍ରୀ (Stree) - Kali Juga](https://www.youtube.com/watch?v=OlNg8Y-g3Qk).** GPG Productions, the channel linked by the Gour–Parbati archive; a song excerpt, not the full film.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "sadhu-meher",
+            "kind": "paragraphs",
+            "text": "Kishtaya comes back to the village with money he has earned. Seeking work from Surya, the landlord’s son, he is beaten; his wife Lakshmi intervenes. The National Film Awards catalogue describes this painful return in *ଅଙ୍କୁର (Ankur)*, the Hindi film for which **Sadhu Meher** received Best Actor for 1974.[^award]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "sadhu-meher",
+            "kind": "paragraphs",
+            "text": "*Sadhu Meher receiving the Padma Shri from President Pranab Mukherjee on 13 April 2017. Photo: President’s Secretariat, Government of India, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:The_President,_Shri_Pranab_Mukherjee_presenting_the_Padma_Shri_Award_to_Shri_Sadhu_Meher,_at_the_Civil_Investiture_Ceremony,_at_Rashtrapati_Bhavan,_in_New_Delhi_on_April_13,_2017.jpg); [Government Open Data License–India](https://data.gov.in/sites/default/files/Gazette_Notification_OGDL.pdf).*",
+            "latin_and_digits_match": false,
+            "all_surrounding_runs_present": false,
+            "has_odia": false
+          },
+          {
+            "slug": "sadhu-meher",
+            "kind": "paragraphs",
+            "text": "Kapilas Bhuyan’s 2010 retrospective credits Meher’s *ଅଭିମାନ (Abhiman)* (1977) with helping revive cinema attendance.[^abhiman]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "sadhu-meher",
+            "kind": "paragraphs",
+            "text": "- **Full-film listing: [ଅଙ୍କୁର (Ankur) on Shemaroo’s YouTube channel](https://www.youtube.com/watch?v=zlURxHM0cm4).** Official-channel upload identified in the indexed listing; playback and regional access untested.\n- **Film information: [ଅଭିମାନ (Abhiman) in an IFFI retrospective](https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=67399).** Historical account of the Odia film, not a stream.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "manmohan-mahapatra",
+            "kind": "paragraphs",
+            "text": "In *କ୍ଳାନ୍ତ ଅପରାହ୍ନ (Klanta Aparanha)*, retired Adikanda lives with his mother and daughter Niru. Niru teaches alongside Sandhya and Veena, with whom she exchanges news and hopes. An anticipated marriage proposal draws the family into financial pressure: Adikanda mortgages land to raise money for the dowry.[^panorama]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "manmohan-mahapatra",
+            "kind": "paragraphs",
+            "text": "- **Official catalogue: [ଶୀତରାତି (Seeta Raati)](https://nfaindia.org/images/pdf/29th%20National%20Film%20Award%20Catalogue.pdf).** National Film Awards catalogue, page 53; not streaming.\n- **Official catalogue: [କ୍ଳାନ୍ତ ଅପରାହ୍ନ (Klanta Aparanha)](https://dff.nic.in/images/Documents/139_IPCatalogue1985.pdf).** Indian Panorama 1985. No authorised full-film route was established in this check.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "maya-miriga",
+            "kind": "paragraphs",
+            "text": "The film was selected for Cannes Critics’ Week in 1984. Mannheim’s 1984 archive records it in the Grand Prize of the Third World competition, shared with *ଲେଇଲା ଏ ଲେ ଲୁ (Leila et les loups)*; that category was distinct from the festival’s overall Grand Prize.[^cannes][^mannheim]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "nirad-mohapatra",
+            "kind": "paragraphs",
+            "text": "*Nirad Mohapatra, 2010. Photo: Raj Sampad, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Nirad_Mohapatra_-_Filmmaker.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*",
+            "latin_and_digits_match": false,
+            "all_surrounding_runs_present": false,
+            "has_odia": false
+          },
+          {
+            "slug": "bhukha",
+            "kind": "paragraphs",
+            "text": "\n# ଭୂଖା (Bhukha): when a tradition must also feed a family",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "bhukha",
+            "kind": "paragraphs",
+            "text": "*ଭୂଖା (Bhukha)* offers one starting point for exploring cinema in western Odisha. Sabyasachi Mohapatra’s 1989 Sambalpuri film places folk performers within a changing society. Film critic Ashok Palit discusses it as an encounter between inherited ways of life and modernity.[^palit]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "bhukha",
+            "kind": "paragraphs",
+            "text": "- **Institutional reference: [Sabyasachi Mohapatra and ଭୂଖା (Bhukha)](https://nfaindia.org/images/pdf/70th%20National%20Film%20Award%20Catalogue.pdf).** National Film Awards catalogue, printed page 036. A director biography, not a player; an authorised full-film route was not established in this check.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "sabyasachi-mohapatra",
+            "kind": "paragraphs",
+            "text": "Our [article on ଭୂଖା (Bhukha)](../culture/cinema-series/bhukha.md) follows its performers’ livelihoods and musical world. The National Film Awards retrospective identifies it as a 1989 Sambalpuri film and records an International Jury Award at Gijón, without establishing the prize’s exact year.[^career] The director’s wider profile follows the collaborations around such films.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "sabyasachi-mohapatra",
+            "kind": "paragraphs",
+            "text": "*Sabyasachi Mohapatra, photographed at the Odisha State Film Awards in Bhubaneswar, 21 November 2014. Photo: Subhashish Panigrahi; existing crop by MKar. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sabyasachi_Mohapatra.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*",
+            "latin_and_digits_match": false,
+            "all_surrounding_runs_present": false,
+            "has_odia": false
+          },
+          {
+            "slug": "lavanya-preeti",
+            "kind": "paragraphs",
+            "text": "\n# ଲାବଣ୍ୟ ପ୍ରୀତି (Lavanya Preeti): growing up with a story",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "lavanya-preeti",
+            "kind": "paragraphs",
+            "text": "A story heard in childhood can become a way of understanding feelings that arrive later. In **ଲାବଣ୍ୟ ପ୍ରୀତି (Lavanya Preeti)**, A. K. Bir places adolescent experience beside the story of Kedar and Gouri. NFDC’s catalogue describes a story within a story, in which elders misunderstand the young lovers and tragedy follows.[^nfdc]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "ak-bir",
+            "kind": "paragraphs",
+            "text": "A person behind a camera makes choices about what we notice: a face, a distance, the space between two people. **A. K. Bir’s** career offers a way into cinema through that craft. Trained in cinematography at FTII, he went on to write, photograph and direct films, including *ଆଦି ମୀମାଂସା (Adi Mimansa)* and *ଲାବଣ୍ୟ ପ୍ରୀତି (Lavanya Preeti)*.[^career]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "nandita-das",
+            "kind": "paragraphs",
+            "text": "*Nandita Das, 2008. Image credited on [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:NanditaDas2008.jpg) to user Nanditadas, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).*",
+            "latin_and_digits_match": false,
+            "all_surrounding_runs_present": false,
+            "has_odia": false
+          },
+          {
+            "slug": "nandita-das",
+            "kind": "paragraphs",
+            "text": "Her connection to Odia cinema also includes acting in the language. She appears in *ବିଶ୍ୱପ୍ରକାଶ (Biswaprakash / The Young Rebel)*, Susant Misra’s 1999 film. Her official acting filmography lists the work, and the national-awards catalogue names her in its cast.[^biswaprakash]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "nandita-das",
+            "kind": "paragraphs",
+            "text": "Cannes records Das as a member of its feature-film jury in 2005 and its Cinéfondation and short-film jury in 2013. It also lists *ମଣ୍ଟୋ (Manto)*, which she directed and wrote, in the 2018 Un Certain Regard selection.[^cannes]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "nandita-das",
+            "kind": "paragraphs",
+            "text": "The subject gives the festival entry a human shape: a writer whose ability to describe his world is tested by upheaval and prosecution. Beside *ଜ୍ୱିଗାଟୋ (Zwigato)*, it offers a second way into Das’s choice of stories—one concerned with a writer’s freedom, the other with the pressures of earning a living.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "nandita-das",
+            "kind": "paragraphs",
+            "text": "- **Paid provider listing: [ବିଶ୍ୱପ୍ରକାଶ (Biswaprakash) on Prime Video](https://www.primevideo.com/detail/Biswaprakash/0MJBHD5LPJL1VXW6T9MESR5IJM).** Check current availability and account terms; regional responses differed during verification.\n- **Provider catalogue: [ମଣ୍ଟୋ (Manto) on Netflix](https://www.netflix.com/title/81039383).** The 2018 Nandita Das film. Unavailable in the returned locale during verification; this is not a current-playback assurance.\n- **Paid provider listing: [ଜ୍ୱିଗାଟୋ (Zwigato) on Prime Video](https://www.primevideo.com/-/fil/detail/0SNEIZTRDXW0YU3QX1RFKCVFAD?tr=fm).** Check local availability; indexed regional listings differed.\n- **Filmmaker’s page and trailer: [ଜ୍ୱିଗାଟୋ (Zwigato)](https://nanditadas.com/nandita-das-initiatives/zwigato-copy2/).** Official film page with a trailer link, not a full-film stream.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "surya-deo",
+            "kind": "paragraphs",
+            "text": "A 2024 account of efforts to screen *ଉଲ୍କା (Ulka)* describes a damaged film print that could not be projected. A U-matic video cassette was subsequently traced and cleaned for use.[^ulka] It was a way to bring the film back before viewers; the report does not establish a restoration from the original film negative.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "reading-odia-cinema",
+            "kind": "paragraphs",
+            "text": "**Dillip Kumar Pani — *Odia Chalachitra Ra Sahitika O Sanskrutika Mulyayana*.** Its launch was reported alongside a 2019 Film Journalists’ Forum screening of *ରକ୍ତ ଗୋଲାପ (Rakta Golapa)*. The title concerns cinema’s literary and cultural evaluation. We still need the title page to settle its exact transliteration and publication details.[^pani]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "gourahari-das",
+            "kind": "paragraphs",
+            "text": "It is one way into **ଗୌରହରି ଦାସ (Gourahari Das)**: through the movement of a story, before the list of honours or the film adaptation. His writing extends across short fiction, novels, columns, essays, plays and translation.[^author] Cinema is one of the places that work has travelled; the literary life is larger.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "gourahari-das",
+            "kind": "paragraphs",
+            "text": "The IFFI account of **ପ୍ରତୀକ୍ଷା (Pratikshya)** credits a short story by Das as the film’s inspiration. Director **Anupam Patnaik** and lead actor **Dipanwit Dashmohapatra** bring another set of creative lives into that journey.[^film]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "pratikshya",
+            "kind": "paragraphs",
+            "text": "\n# ପ୍ରତୀକ୍ଷା (Pratikshya): a family waiting for security",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "pratikshya",
+            "kind": "paragraphs",
+            "text": "A secure job can become more than employment. It can stand for a family’s hopes, the ability to repay a loan and relief from being dependent on someone else. **ପ୍ରତୀକ୍ଷା (Pratikshya)** places that desire beside a father’s illness, until the son’s hope for security becomes entangled with the possibility of loss.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "anupam-patnaik",
+            "kind": "paragraphs",
+            "text": "Seventeen drafts and three years of work: that is how Anupam Patnaik described making *ପ୍ରତୀକ୍ଷା (Pratikshya)*. In an interview before its release, he recalled working with screenwriter Roshan Bisoi to find the shape of a story about a son, an ailing father and the longing for a secure job.[^drafts] The title means waiting. Behind the finished film was another kind of patience—the repeated work of returning to a story until it could be filmed.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "anupam-patnaik",
+            "kind": "paragraphs",
+            "text": "Feature production came before the recognition for his direction. The Bengaluru International Film Festival’s 2016 catalogue credits him as producer of *ତୁଳସୀ ଅପା (Tulasi Apa)*, directed by his father, Amiya Patnaik. The film follows the life and educational work of Tulasi Munda.[^tulasi] It offers an early connection between his filmmaking and a life rooted in Odisha, carried to audiences through Odia.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "anupam-patnaik",
+            "kind": "paragraphs",
+            "text": "Patnaik’s later *କର୍ମ (Karma, 2024)* moved into a murder-investigation thriller, with Anubhav Mohanty playing investigator Amar Patnaik.[^karma] A family drama and a thriller ask different things of a director. Together, they suggest a career still exploring what kinds of stories can find an audience in the language.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "vishal-mourya",
+            "kind": "paragraphs",
+            "text": "Their later Odia collaboration, *ବିଜୁ ବାବୁ (Biju Babu)*, was released in 2019. Mentis Films’ own profile identifies Mourya as a director, writer and founder, and places this film alongside *DAMaN* and *B for Bundelkhand*.[^mentis]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "debi-prasad-lenka",
+            "kind": "paragraphs",
+            "text": "Mentis Films identifies him as a filmmaker, director, editor and founder. Its profile connects him with *B for Bundelkhand*, *ବିଜୁ ବାବୁ (Biju Babu)* and *DAMaN*.[^mentis] The range suggests a useful way to approach his public career: follow the work across formats, rather than begin and end with one award.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-television",
+            "kind": "paragraphs",
+            "text": "**କେମିତି କହିବି କହ (Kemiti Kahibi Kaha)** offers a concrete connection between television and cinema’s performers. ZEE5’s programme page identifies **Siddhant Mohapatra** and **Supriya Nayak** in its cast and dates the Odia drama to 2021. Its central relationship brings a wealthy businessman and a younger woman into a story about love and an age difference.[^kemiti]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-television",
+            "kind": "paragraphs",
+            "text": "The broadcaster describes a programme mix spanning literature, folk music, dance, agriculture, news and festivals. Its public catalogue links **କଥା ସରିତା (Katha Sarita)** stories and **ଗୋପାଳ ରହସ୍ୟ (Gopala Rahasya)**, alongside a programme identified with Godabarisha Mishra’s **ପାଣୁ ମିଶ୍ର (Panu Mishra)**. The catalogue connects literary and oral storytelling with television.[^dd]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-television",
+            "kind": "paragraphs",
+            "text": "IDMT’s own catalogue records ଚତୁର କାଉ (Chatura Kau) as an Odia animated short released on 14 January 2008. It also describes ଧର୍ମପଦ (Dharmapada) as an animated feature project. The short and the proposed feature show different ambitions within local animation.[^child-idmt]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-television",
+            "kind": "paragraphs",
+            "text": "କୁନି ଗଣେଶ (Kuni Ganesha) provides a television connection. Reporting on Media Pixels Productions described an eight-episode Odia 3D series prepared for Doordarshan, with Gouri Shankar Singh as producer and Jyotiranjan Swain as writer-director. The account also records the difficulty of bringing funding and technology together.[^child-ganesha]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-television",
+            "kind": "paragraphs",
+            "text": "A later example connects local production to national broadcasting. ELE Animations’ announcement for ଜୟ ଜଗନ୍ନାଥ (Jay Jagannath) describes its collaboration with Toonz and Warner Bros. Discovery and a Pogo premiere in May 2024. The six announced broadcast languages did not include Odia. The collaboration connects an Odisha studio to a wider children’s television audience, while leaving an Odia-language broadcast unconfirmed.[^child-ele-pogo]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-television",
+            "kind": "paragraphs",
+            "text": "The distinction continues into features. ELE’s ମହାପ୍ରଭୁ ଜଗନ୍ନାଥ (Mahaprabhu Jagannath), directed by Shripad Warkhedkar, received a trade review recording a Bombay theatrical release on 4 September 2026. Producer publicity named Odia among its planned languages. An advertised language does not establish that an Odia-language screening took place.[^child-mahaprabhu][^child-mahaprabhu-languages]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "odia-television",
+            "kind": "paragraphs",
+            "text": "- **Programme and episode catalogue: [କେମିତି କହିବି କହ (Kemiti Kahibi Kaha) on ZEE5](https://www.zee5.com/tv-shows/details/kemiti-kahibi-kaha/0-6-3141).** Check individual episode access and current account terms.\n- **Official programme information: [DD Odia at Prasar Bharati](https://prasarbharati.gov.in/dd-oriya/).** Channel history and linked catalogue; not a promise that every listed programme is available to watch.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "commercial-successes",
+            "kind": "table_cells",
+            "text": " ବୋଉ ବୁଟୁ ଭୂତ (Bou Buttu Bhuta) ",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "commercial-successes",
+            "kind": "table_cells",
+            "text": " କର୍ମ (Karma) ",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "commercial-successes",
+            "kind": "paragraphs",
+            "text": "For **ବୋଉ ବୁଟୁ ଭୂତ (Bou Buttu Bhuta)**, The Federal reported almost **₹12 crore after 17 days**, against a **₹2–3 crore budget**, on 30 June 2025.[^commercial-bou-june] By 24 September, The New Indian Express reported nearly **₹21 crore** and a run of close to 50 days. Its account also described Dharma Productions as acquiring remake rights, with the process still under way.[^commercial-bou-september]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "commercial-successes",
+            "kind": "paragraphs",
+            "text": "**କର୍ମ (Karma)** had a reported **₹37.20 lakh opening day**, recalled in The New Indian Express’s June 2025 coverage.[^commercial-raja]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "commercial-successes",
+            "kind": "paragraphs",
+            "text": "**ଅନନ୍ତା (Ananta)**, adapted from Fakir Mohan Senapati’s story, shared the reported packed Raja shows; its collection was then unspecified.[^commercial-raja]",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "cinema-economics",
+            "kind": "paragraphs",
+            "text": "For a recent commercial example, consider ବୋଉ ବୁଟୁ ଭୂତ (Bou Buttu Bhuta). On 30 June 2025, The Federal reported a production budget of Rs 2–3 crore and almost Rs 12 crore at the box office after 17 days. The Rs 12 crore figure is a receipt estimate, not a production budget.[^eco-bou-june] The [commercial-successes reading](commercial-successes.md) follows the differently dated reports of this and other films.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          },
+          {
+            "slug": "akshaya-mohanty",
+            "kind": "credits",
+            "text": "ଅକ୍ଷୟ ମହାନ୍ତି — Akshaya Mohanty, remembered as Khoka Bhai. Krupasindhu Muduli. [Source](https://commons.wikimedia.org/wiki/File:Akshaya_Mohanty_(Khoka_Bhai).jpg); [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Resized for display.",
+            "latin_and_digits_match": true,
+            "all_surrounding_runs_present": true,
+            "has_odia": true
+          }
+        ],
+        "overview_adaptation_requires_review": [
+          "Music was present from the beginning. Bhuyan records fourteen songs in *Sita Bibah*, sung by its actors, and a move to background singing in *Lalita*. Later films drew on Odia literature, including *ଅମଡ଼ା ବାଟ (Amada Bata)*, *ମଲାଜହ୍ନ (Malajanha)* and *",
+          "Chhotray is a concrete link between the media. The Library of Congress documents his work in Gitinatya, his long association with AIR Cuttack, and his writing of plays, operas and screenplays.[^chhotray-loc] The Gour–Parbati archive credits him speci",
+          "Parbati Ghose belongs near the centre of this history. The Gour–Parbati filmography records her as a co-producer with Gour Prasad Ghose on *ଲକ୍ଷ୍ମୀ (Laxmi)*, *କା (Kaa)* and *ସ୍ତ୍ରୀ (Stree)*. It also credits her within the directing partnership used o",
+          "The archive dates her *ଛ’ ମାଣ ଆଠ ଗୁଣ୍ଠ (Chha Mana Atha Guntha)* adaptation to 1986. Its credits name **Nagen Barik** for sound and **Asim Basu and Sarat Sahoo** for art, and acknowledge Olosingh’s villagers and host **Kalyani Patnaik**.[^parbati-film",
+          "In his account of Odisha’s New Wave, critic Ashok Palit describes the social worlds of Mahapatra’s films: a rural community facing upheaval in *ନୀରବ ଝଡ଼ (Niraba Jhada)*, and a family negotiating social change in *ନିଷିଦ୍ଧ ସ୍ଵପ୍ନ (Nisiddha Swapna)*. Hi",
+          "Sabyasachi Mohapatra’s *ଭୂଖା (Bhukha)* (**1989**) makes the map of cinema in Odisha more expansive. It is a **Sambalpuri-language film**. Palit reads its conflict through the pressures between inherited ways of life and modernity.[^new-wave]",
+          "Mohapatra’s later work offers further, separately documented milestones. *ଶଳାବୁଢ଼ା (Sala Budha)* was selected for Indian Panorama in 2013. *ଆଦିମ ବିଚାର (Aadim Vichar)* received the Best Odiya Film award at the 62nd National Film Awards, for 2014, anno",
+          "Sadhu Meher’s ବାବୁଲା (Babula) provides a concrete starting point for the first history. A Lok Sabha answer of 7 December 1987 lists it among the Children’s Film Society of India’s productions for 1985–86, identifying it as an Oriya feature. A contemp",
+          "[A. K. Bir](../people/ak-bir.md)’s [ଲାବଣ୍ୟ ପ୍ରୀତି (Lavanya Preeti)](cinema-series/lavanya-preeti.md) received Best Children’s Film for 1993. Its dedicated page follows young characters into the imaginative world of an inherited story.[^children-lavan",
+          "Children can also encounter films through Odia-language versions. CBFC’s 2022 list records an Odia video version of ରିଟର୍ଣ୍ଣ ଅଫ୍ ହନୁମାନ (Return of Hanuman), certified on 11 February 2022 and naming Shemaroo Entertainment. Airtel Xstream lists the Anu",
+          "Bijay Mohanty carried theatre training into films and into the classroom. A National School of Drama graduate, he worked in the drama department of Utkal Sangeet Mahavidyalaya and retired as a professor. His screen career includes *ଚିଲିକା ତୀରେ (Chili",
+          "Uttam Mohanty's *ଅଭିମାନ (Abhiman)* debut connects his story to [Sadhu Meher](/cinema/sadhu-meher/), its director. In a 2018 interview, he recalled a Bengali viewer in Cuttack praising his portrayal of Salabega. The memory gives one audience encounter",
+          "Aparajita Mohanty's work offers several points of entry. *ଉଦଣ୍ଡୀ ସୀତା (Udandi Sita)* is among the films associated with her screen career.[^performer-aparajita] She produced *Love Master*.[^performer-aparajita-production] Acting and producing are dis",
+          "Her remembrance of Anita Das opens another relationship. Aparajita described the senior actor as an elder-sister figure who taught her about acting and the workings of the industry.[^performer-anita] That account gives mentorship between women a plac",
+          "| Performer | A contribution to follow |\n| --- | --- |\n| Mahasweta Ray | Her recollection of viewers calling her Manika, her character in *ଶେଷ ଶ୍ରାବଣ (Sesa Srabana)*, connects a role with audience memory.[^performer-mahasweta] |\n| Mihir Das | His car",
+          "| Performer | Reported estimate | Date and scope |\n| --- | --- | --- |\n| Bijay Mohanty | More than 180 | 21 July 2020; Films; languages not separately enumerated.[^count-bijay] |\n| Uttam Mohanty | More than 135 Odia; as many as 30 Bengali; Hindi film",
+          "The credits of *ଶ୍ରୀ ଜଗନ୍ନାଥ (Sri Jagannath, 1950)* name **Balakrushna Das and Ranjit Roy** as music directors, with **Kalyani Das, Chhabi Ray and Suryamoni Dei** among the singers. Cinema was already a meeting place for many voices.[^music-sri-jagan",
+          "[Akshaya Mohanty](../people/akshaya-mohanty.md) belongs here as a composer, singer and producer. When *ମଲାଜହ୍ନ (Malajanha)* returned for a Film Journalists' Forum screening, actress **Jharana Das**, singer [Pranab Patnaik](../people/pranab-patnaik.md",
+          "Other voices deserve their own listening paths. **Bhubaneswari Mishra's** “Tiki Mora Naa Ti” in *କୃଷ୍ଣ ସୁଦାମା (Krushna Sudama)* is one such doorway.[^music-bhubaneswari] Pranab Patnaik's account of his long friendship and stage work with Prafulla Kar",
+          "**Sadhu Meher** received the National Film Award for Best Actor for his performance in Shyam Benegal’s Hindi film *ଅଙ୍କୁର (Ankur)*, honoured at the 22nd awards for 1974. The official catalogue records his upbringing in Odisha and his training at the ",
+          "Her connection also includes acting in Odia: she appeared in Susant Misra’s **ବିଶ୍ୱପ୍ରକାଶ (Biswaprakash / The Young Rebel, 1999)**, listed in her official filmography. The [Nandita Das article](/cinema/nandita-das/#acting-in-odia-biswaprakash) explor",
+          "Cannes records her membership of its feature-film jury in **2005** and its Cinéfondation and short-film jury in **2013**. Her film *ମଣ୍ଟୋ (Manto)* was selected for Un Certain Regard in **2018**. These occasions mark both jury service and film selecti",
+          "| Film | Recognition | Award year and edition | Filmmakers to explore |\n| --- | --- | --- | --- |\n| [ଶୀତରାତି (Seeta Raati)](cinema-series/manmohan-mahapatra.md) | Best Oriya Film[^seeta] | 1981 · 29th awards | Manmohan Mahapatra |\n| [ମାୟା ମିରିଗ (Maya",
+          "Recognition also follows people across languages. [Sadhu Meher](cinema-series/sadhu-meher.md) received Best Actor for *ଅଙ୍କୁର (Ankur)* at the 22nd awards for 1974. His achievement belongs here as an actor from Odisha working in a Hindi film.[^sadhu]",
+          "**A Sambalpuri film’s recognition abroad:** the official 70th National Film Awards catalogue credits [ଭୂଖା (Bhukha)](cinema-series/bhukha.md) with an **International Jury Award at Gijón, Spain**. The catalogue does not give the prize year; that detai",
+          "The newer *ମାଲିପୁଟ (Maliput Melodies)* was screened in **Indian Panorama at IFFI 2025**. That documented festival appearance opens a contemporary thread below; it is kept distinct from the prize record.[^maliput-iffi]",
+          "A film can leave something behind after its run: a new collaborator, an audience willing to try another story, or the confidence to begin a difficult script. *ଦମନ (DAMaN)* and *ପ୍ରତୀକ୍ଷା (Pratikshya)* offer two recent starting points for that convers",
+          "The range also includes **କର୍ମ (Karma, 2024)**. Anupam Patnaik directed **Anubhav Mohanty** as investigator Amar Patnaik in a murder-case thriller. The filmmaker behind *Pratikshya* was working with a different star and dramatic form; contemporary Od",
+          "A film culture also depends on tickets sold and the chance to finance the next production. In 2025, **ବୋଉ ବୁଟୁ ଭୂତ (Bou Buttu Bhuta)** supplied a conspicuous commercial story. Directed by **Jagdish Mishra**, the horror-comedy brought **Aparajita Moha",
+          "Commercial momentum has a setting as well as a number. During Raja in June 2025, *The New Indian Express* reported packed shows for *Bou Buttu Bhuta* and **ଅନନ୍ତା (Ananta)**. The latter starred **Sabyasachi Mishra** and was directed by **Sabyasachi M",
+          "Overseas announcements show another route to audiences. On 26 April 2023, *OrissaPOST* reported plans to screen **ଫାଲ୍ଗୁନ ଚୈତ୍ର (Phalguna Chaitra)** on 13 May at Hoyts Docklands in Melbourne, Hoyts Blacktown in Sydney and Event Cinemas in Brisbane. A",
+          "Links checked on 26 October 2026. Playback was not tested; territory, account and payment conditions can change.",
+          "- **Full-film listing: [ଦମନ (DAMaN) on Amara Muzik Odia’s YouTube channel](https://www.youtube.com/watch?v=bX9WYaIzVa4).** Verified official-channel page; playback untested.\n- **Official trailer: [ପ୍ରତୀକ୍ଷା (Pratikshya)](https://www.youtube.com/watch",
+          "- **Provider catalogue, Odia version:** [ରିଟର୍ଣ୍ଣ ଅଫ୍ ହନୁମାନ (Return of Hanuman)](https://www.airtelxstream.in/movies/return-of-hanuman/HOTSTAR_DTH_MOVIE_1055915). Check current access and subscription terms; playback unverified."
+        ],
+        "limits": [
+          "Pixel layout, Odia shaping, credit completeness against metadata and semantic link destinations require separate review.",
+          "Whole-document matching proves presence, not exactly-once placement.",
+          "Any overview exceptions must be reconciled explicitly; this script does not approve them."
+        ]
+      }
+    ],
+    "adjudication": {
+      "status": "PASS_no_unexplained_substantive_omissions",
+      "per_edition": {
+        "unmatched_total": 109,
+        "odia_extraction_residuals": 103,
+        "all_103_full_surrounding_latin_and_digits_match": true,
+        "non_odia": 6
+      },
+      "non_odia_dispositions": [
+        {
+          "slugs": [
+            "sadhu-meher",
+            "nirad-mohapatra",
+            "sabyasachi-mohapatra",
+            "nandita-das"
+          ],
+          "count": 4,
+          "reason": "Original body captions replaced by equivalent credited hero captions and ordinary chapter image-source notes; exact required full-credit checks pass."
+        },
+        {
+          "slug": "odia-cinema",
+          "count": 1,
+          "reason": "Further reading list omitted as website navigation; book has its own guide/navigation."
+        },
+        {
+          "slug": "odia-cinema",
+          "count": 1,
+          "source_line": 493,
+          "reason": "Routine screening-check sentence follows Further reading heading at line 483 and is omitted by established navigation exclusion. Date-specific current-screening source note remains, including 25 October 2026 and seats-not-checked limit; no current availability claim substituted."
+        }
+      ],
+      "odia_visual_samples": {
+        "edition": "digital",
+        "pages": [
+          10,
+          19,
+          20,
+          59
+        ],
+        "observed": "Author quotation, both Fakir Mohan literary excerpts, bilingual film names and Tapu dates visibly readable without tofu or clipping."
+      },
+      "limits": "The 103 items are extraction residuals supported by complete surrounding-text/digit matches and representative visual samples, not a claim to have individually proofread every Odia glyph. The checker deliberately retains Unicode and ordinary digits; raw extraction misses remain in residual_results."
+    }
+  },
+  "digital_visual_candidate": {
+    "sha256": "9b5879b03d23940135114b8c879a3fdf431635a4822a22a8fa68ddf968c41386",
+    "pages": 242,
+    "status": "BLOCKED_portrait_orientation_geometry",
+    "inspected": "All21 contact sheets covering242pages; fullsize114 preservation,208guide,222musicnotes.",
+    "blockers": [
+      {
+        "pages": [
+          51,
+          57
+        ],
+        "issue": "Prafulla and Tapu upright derivatives stretched into raw-EXIF landscape geometry. Prafulla embedded1200x1812 butplaced348x230.49; Tapu1200x1600 butplaced348x261.",
+        "fix": "Use EXIF-transposed dimensions for layout, orientation-corrected printembedding too; originals retained. Recheck all imagegeometry ratios and regenerated affectedpages."
+      }
+    ],
+    "other_findings": [
+      "No other visible clipping or strandedheading identified atcontactscale. TallNirad/Nandita/Pranab leaves andstamp/novelpage complete.",
+      "New preservation image clearlyillustrated andcaptions readable; guide andunifiedmusiccredits readable fullsize.",
+      "Sparse endings remain e.gBasanta26,Akshaya50,Anupam136; optionalspacingpolish, not releaseblocker inthisboundedpass."
+    ],
+    "limits": [
+      "Contacts insufficient for fullbody proofread; separate text/structural checks pending.",
+      "This candidate hash is not finalapproved; repair changes pagination.",
+      "Print reviewed separately byroot."
+    ],
+    "superseded_by": {
+      "sha256": "6b6989f22ce3d1ee10a78eb218d5e00135f91e591b4dd7fb13f2b05442d70721",
+      "pages": 243,
+      "status": "PASS_reviewed_repair_delta",
+      "fullsize_pages": [
+        51,
+        58,
+        10,
+        19,
+        20,
+        59
+      ],
+      "resolved": "Prafulla and Tapu now retain natural upright proportions and complete captions. Prior orientation/geometry blocker resolved. All initial 21 contact sheets were inspected; final review covers changed portrait geometry and representative text samples, not a fresh full-size read of all pages."
+    }
+  },
+  "print_status": {
+    "reviewed_text_sha256": "9d0ded93f6d7995e63d43d849fb07956b102f0f5f068f74bd7fd2042cc870c24",
+    "pages": 268,
+    "text_and_source_verdict": "PASS_with_documented_extraction_adjudication",
+    "visual_reviewer": "Parent independently reviewed print contacts; no independent full print pixel review claimed here.",
+    "pending": null,
+    "final_binding": "Final compressed PDF matches current report and text checker; all residuals identical to adjudicated prior print."
+  },
+  "final_binding": [
+    {
+      "edition": "digital",
+      "sha256": "6b6989f22ce3d1ee10a78eb218d5e00135f91e591b4dd7fb13f2b05442d70721",
+      "pages": 243,
+      "receipt_and_text_hash_match": true,
+      "residuals_identical": true,
+      "stale_source_hashes": [],
+      "new_illustration_unique": true,
+      "internal_link_annotations": 1183,
+      "invalid_named_destinations": [],
+      "page_references_stable": true
+    },
+    {
+      "edition": "print",
+      "sha256": "9d0ded93f6d7995e63d43d849fb07956b102f0f5f068f74bd7fd2042cc870c24",
+      "pages": 268,
+      "receipt_and_text_hash_match": true,
+      "residuals_identical": true,
+      "stale_source_hashes": [],
+      "new_illustration_unique": true,
+      "internal_link_annotations": 1193,
+      "invalid_named_destinations": [],
+      "page_references_stable": true
+    }
+  ],
+  "release_limit": "Local review only; not published. Independent AI QA is not human approval. Human editorial review remains pending. Parent performed full print contact and selected full-size visual review; this record does not recast that as an independent full print pixel review."
+}

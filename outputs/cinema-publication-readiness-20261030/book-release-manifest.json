@@ -1,0 +1,274 @@
+{
+  "status": "local review ready; assets not uploaded",
+  "edition_date": "2026-10-30",
+  "readings": 41,
+  "assets": [
+    {
+      "edition": "digital",
+      "path": "output/pdf/odia-cinema-a-living-screen-2026-10-30-open-possibilities.pdf",
+      "filename": "odia-cinema-a-living-screen-2026-10-30-open-possibilities.pdf",
+      "pages": 235,
+      "bytes": 17085322,
+      "sha256": "cab8a61622abe576c2a21cadcbf3868fc2d33615b8da136ea18c4b516743b537"
+    },
+    {
+      "edition": "print",
+      "path": "output/pdf/odia-cinema-a-living-screen-print-2026-10-30-open-possibilities.pdf",
+      "filename": "odia-cinema-a-living-screen-print-2026-10-30-open-possibilities.pdf",
+      "pages": 260,
+      "bytes": 39974692,
+      "sha256": "14160f265ad6f7c4756d2689fd9ac39d6b88ea2909f8470fc52f0be3e4dd2e17"
+    }
+  ],
+  "expected_previous_review_books": [
+    {
+      "edition": "digital",
+      "file": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-27/odia-cinema-a-living-screen-2026-10-27.pdf",
+      "bytes": 12927649,
+      "sha256": "7ae26c3c71eb6693937a285ad9f8c28280dbcf40144e6efc052d502b5b445f15",
+      "pages": 176,
+      "status": "reviewed_release_asset"
+    },
+    {
+      "edition": "print",
+      "file": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-27/odia-cinema-a-living-screen-print-2026-10-27.pdf",
+      "bytes": 132370249,
+      "sha256": "9a4a544f1d771e2fe44b624a3e481bcbca8ac7ae2bae7542cfad0b2c439565b9",
+      "pages": 196,
+      "status": "reviewed_release_asset"
+    }
+  ],
+  "expected_book_page_sha256": "142af220d572a4213577288f6be07e11cbbacbb661a5c0378c7cb984a3084e32",
+  "instructions": [
+    "Upload these exact files through the separately authorized release process; this script never uploads.",
+    "Run node activate-book-release.mjs --release-base https://github.com/ahimanikya/project-odisha/releases/download/ACTUAL_TAG for a verification-only dry run.",
+    "Review the proposed page and metadata in stdout. Then rerun with the same release base and --apply only when authorized.",
+    "Run focused book tests, full build and publication gates after activation; existing edition-specific tests may need the reviewed new expectations."
+  ],
+  "limitations": [
+    "6 × 9 inch reading edition, not printer-specific press-ready.",
+    "PDFs have bookmarks and links but are not tagged accessibility editions.",
+    "Image resolution varies; no blanket high-resolution or 300 ppi claim."
+  ],
+  "guidance": {
+    "id": "accessibility",
+    "quote": "Don't reuse an accessible name across hyperlinks that point to different `href` targets"
+  },
+  "reviewed_source_receipt": {
+    "path": "tmp/pdfs/2026-10-30-open-possibilities/digital/book-build-2026-10-30-open-possibilities.json",
+    "sha256": "540fc07f9b7219f3b81ab668d0e04dbf829173b2e5727950b294608318db8a2c",
+    "pdf_sha256": "cab8a61622abe576c2a21cadcbf3868fc2d33615b8da136ea18c4b516743b537"
+  },
+  "canonical_sources": [
+    {
+      "slug": "the-question-that-brought-me-here",
+      "source": "kb/research/culture/cinema-series/the-question-that-brought-me-here.md",
+      "source_sha256": "8aacfe9736b59b89db17c036ec19bf7563451f752e675f1ccae85df076277d53"
+    },
+    {
+      "slug": "odia-cinema",
+      "source": "kb/research/culture/odia-cinema.md",
+      "source_sha256": "d49e7f5fd30c2cf345c73498f3daf5968542b7fe828e61fcb58b9eb0abd9d1c0"
+    },
+    {
+      "slug": "literature-and-screen",
+      "source": "kb/research/culture/cinema-series/literature-and-screen.md",
+      "source_sha256": "d1142dc15aa43c0f0e43579ae576821ce013be4c784018b317b637e0e8e1aa55"
+    },
+    {
+      "slug": "basanta-kumari-patnaik",
+      "source": "kb/research/people/basanta-kumari-patnaik.md",
+      "source_sha256": "d8c4a678b0ba2279ce863a370745a30fe1874a25b07d419160d95348097e9da2"
+    },
+    {
+      "slug": "kalindi-charan-panigrahi",
+      "source": "kb/research/people/kalindi-charan-panigrahi.md",
+      "source_sha256": "77bc4d1d5357fbc68b51047547117336c5664174a25441cfe4d0ddace83ff8f3"
+    },
+    {
+      "slug": "gopal-chhotray",
+      "source": "kb/research/people/gopal-chhotray.md",
+      "source_sha256": "10315a831e1abeb4ede15939d69d5fb67621690b2c4646f78c72ce31b9e4349f"
+    },
+    {
+      "slug": "air-cuttack",
+      "source": "kb/research/culture/air-cuttack.md",
+      "source_sha256": "2878279ac16c949f5be71b6bba88a789837cbc1fb31d900bae5ffc1499dd0e6b"
+    },
+    {
+      "slug": "cinema-music",
+      "source": "kb/research/culture/cinema-series/cinema-music.md",
+      "source_sha256": "8a5d54384a14ca58aedf8e9d38b2d0a642aef62a7b7570b612c09d3a158423e1"
+    },
+    {
+      "slug": "akshaya-mohanty",
+      "source": "kb/research/people/akshaya-mohanty.md",
+      "source_sha256": "298b1cd2f24e20293b6ba95f5b01f3f08b36624ed10a5912d1cfcd6612d85476"
+    },
+    {
+      "slug": "prafulla-kar",
+      "source": "kb/research/people/prafulla-kar.md",
+      "source_sha256": "21c95a00b1393b62224bdad4dfc347ed49e1f9244a65dcf87eaadf4d54768d39"
+    },
+    {
+      "slug": "pranab-patnaik",
+      "source": "kb/research/people/pranab-patnaik.md",
+      "source_sha256": "1b73b8d130172adba2763ddc5469ec87e56f40369ec1f5f4b9a787572906bf61"
+    },
+    {
+      "slug": "tapu-mishra",
+      "source": "kb/research/people/tapu-mishra.md",
+      "source_sha256": "1b8e13c25e690e59e6d41f5f680c4353240114025828351125ee2160601b7777"
+    },
+    {
+      "slug": "gour-prasad-ghose",
+      "source": "kb/research/people/gour-prasad-ghose.md",
+      "source_sha256": "d7d92c728d7d4a3580bb8df33841ec5ce296350c9a07d1c848f731c7d65c9a25"
+    },
+    {
+      "slug": "parbati-ghose",
+      "source": "kb/research/culture/cinema-series/parbati-ghose.md",
+      "source_sha256": "9bdb8e69dd36f4ebee8d20289a940c96c17d40d254bdf1c75d188a1ef219f721"
+    },
+    {
+      "slug": "sadhu-meher",
+      "source": "kb/research/culture/cinema-series/sadhu-meher.md",
+      "source_sha256": "2d120513614df41fd288429d42e53589c50f6da009bad0dcb0f69a9614cfc7d6"
+    },
+    {
+      "slug": "manmohan-mahapatra",
+      "source": "kb/research/culture/cinema-series/manmohan-mahapatra.md",
+      "source_sha256": "597159a965a1ee58e761bf104852927b0b05e12df961090c10c902775f4361d1"
+    },
+    {
+      "slug": "maya-miriga",
+      "source": "kb/research/culture/cinema-series/maya-miriga.md",
+      "source_sha256": "00891ed9534008e838eeb33cb4c6e52cce9361f3a9c4f587e7e6054e808e449e"
+    },
+    {
+      "slug": "nirad-mohapatra",
+      "source": "kb/research/people/nirad-mohapatra.md",
+      "source_sha256": "0beb54fa7b4b9764c2edc1903df3ab06008e57610856e4ef942c5ee32b506b08"
+    },
+    {
+      "slug": "bhukha",
+      "source": "kb/research/culture/cinema-series/bhukha.md",
+      "source_sha256": "1cfee8abcd3cf76a76c0c46ead1fc4ddcecdfa7cdef4bbb95a91c053ef95d44a"
+    },
+    {
+      "slug": "sabyasachi-mohapatra",
+      "source": "kb/research/people/sabyasachi-mohapatra.md",
+      "source_sha256": "417106f80b10b38d281314e8f4501f597e8a431aedaf203d168394d02b5fa0e4"
+    },
+    {
+      "slug": "aadim-vichar",
+      "source": "kb/research/culture/cinema-series/aadim-vichar.md",
+      "source_sha256": "be7f1cf5acb8f9d3039d4cbe7f96f509ec378cba32ef1f8947f8a67ebc6f846d"
+    },
+    {
+      "slug": "lavanya-preeti",
+      "source": "kb/research/culture/cinema-series/lavanya-preeti.md",
+      "source_sha256": "62368a7c48eb61f77ec508ebd8678ef9d6ff553ea0763ecb2867c3c00b93b3ee"
+    },
+    {
+      "slug": "ak-bir",
+      "source": "kb/research/people/ak-bir.md",
+      "source_sha256": "370df28c23909d99bb358eb047ab2f5666538a29b6d4919905fcf014f0c5eab0"
+    },
+    {
+      "slug": "nandita-das",
+      "source": "kb/research/culture/cinema-series/nandita-das.md",
+      "source_sha256": "ad9150a4d552de512e2e29eeadc0013c281a91e855497d7c28db3ca92dafd274"
+    },
+    {
+      "slug": "learning-cinema-together",
+      "source": "kb/research/culture/cinema-series/learning-cinema-together.md",
+      "source_sha256": "671cd9a8aa4078d0195f181db989798dec39b6a17c340210587983a445007525"
+    },
+    {
+      "slug": "surya-deo",
+      "source": "kb/research/people/surya-deo.md",
+      "source_sha256": "f566e26208d6ea38bf4cb4618d7e8534c2c7061b3cbfe2fe33b04be46aa1b769"
+    },
+    {
+      "slug": "searching-for-sita-bibaha",
+      "source": "kb/research/culture/cinema-series/searching-for-sita-bibaha.md",
+      "source_sha256": "9e8eeab25fead317f223988c43c86f322cea9ddc93ecb9873b64f39648180586"
+    },
+    {
+      "slug": "who-keeps-a-film-alive",
+      "source": "kb/research/culture/cinema-series/who-keeps-a-film-alive.md",
+      "source_sha256": "5932e5bbaad1ffe73a5e6be5bb9d9f55375b94436179275e620681fa63df9dc4"
+    },
+    {
+      "slug": "reading-odia-cinema",
+      "source": "kb/research/culture/cinema-series/reading-odia-cinema.md",
+      "source_sha256": "2a794a4bd8f9257733a7b01ed2135558d02077881d0df4c921f8717f97439b39"
+    },
+    {
+      "slug": "gourahari-das",
+      "source": "kb/research/people/gourahari-das.md",
+      "source_sha256": "fc037d222c6ed17cf8d7d2b313ab5e9caf8864d92da630c97b2f75f35b7ab32a"
+    },
+    {
+      "slug": "pratikshya",
+      "source": "kb/research/culture/cinema-series/pratikshya.md",
+      "source_sha256": "bf7c463c862e92fe995b596e2fe5a84ea85810fdf83c9c635bc7b7cf79c0ad91"
+    },
+    {
+      "slug": "anupam-patnaik",
+      "source": "kb/research/people/anupam-patnaik.md",
+      "source_sha256": "f8f520628378748dbc502db7c6e9a57c306a648d683035adda2d30e65eb24071"
+    },
+    {
+      "slug": "daman",
+      "source": "kb/research/culture/cinema-series/daman.md",
+      "source_sha256": "969b5e0397dd74360c92fe970cedfc0eb94a437ddabec8d7b76a66b52b3cbc49"
+    },
+    {
+      "slug": "vishal-mourya",
+      "source": "kb/research/people/vishal-mourya.md",
+      "source_sha256": "ebd0ec503cf4695ccbfac315927bc19fc2e03f5984ecdaf6f07adf99fb22d190"
+    },
+    {
+      "slug": "debi-prasad-lenka",
+      "source": "kb/research/people/debi-prasad-lenka.md",
+      "source_sha256": "78bc5b608ee2744a0f1677f04223d851cd3e77400cf3fc7b1aaaf2234d74ddb3"
+    },
+    {
+      "slug": "deependra-samal",
+      "source": "kb/research/people/deependra-samal.md",
+      "source_sha256": "fb38c0b889e5847e0e6ba48bbd9202af4797847a463a471071a58e223ef13a2c"
+    },
+    {
+      "slug": "odia-television",
+      "source": "kb/research/culture/odia-television.md",
+      "source_sha256": "2c9512363a20ab09a9ffe4e718058e34a40199842ccf5b323fe31023a109ed1a"
+    },
+    {
+      "slug": "odia-ott",
+      "source": "kb/research/culture/odia-ott.md",
+      "source_sha256": "9360192e49a82c06f563c9ffbc9ec0755dd70ecc9a3a736f2e258f6f3728aa47"
+    },
+    {
+      "slug": "commercial-successes",
+      "source": "kb/research/culture/cinema-series/commercial-successes.md",
+      "source_sha256": "6baab5905905b3fe0631e53c6fa097a1da06d63884fb7a9023f028f23fc7c83b"
+    },
+    {
+      "slug": "cinema-economics",
+      "source": "kb/research/culture/cinema-series/cinema-economics.md",
+      "source_sha256": "4c45967b86a75627c67257aee8099e3b1ee160f08b1d32e319b5eea66e126276"
+    },
+    {
+      "slug": "cinema-futures",
+      "source": "kb/research/culture/cinema-series/cinema-futures.md",
+      "source_sha256": "ad4245f846c1b3c21770ea05e77e23493fe0fc6d6d4edd61019f67ee790da5c0"
+    }
+  ],
+  "narrative_plan": {
+    "path": "kb/research/culture/cinema-series/book-narrative-2026-10-27.json",
+    "sha256": "58a746af7be1ca03d2924ca57c8d256b88142ec498c1c7a0aadf8ec0ba8afe01"
+  },
+  "latest_review": "outputs/cinema-futures-open-recommendations-20261030/independent-review.json"
+}

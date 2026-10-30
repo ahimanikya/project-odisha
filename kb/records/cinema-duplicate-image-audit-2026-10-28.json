@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-28",
+  "status": "audit_complete_no_public_changes",
+  "request": "Check for duplicate image usage",
+  "scope": {
+    "live_routes": 29,
+    "readings": 28,
+    "article_figures": 34,
+    "book_chapter_image_assignments_per_edition": 34
+  },
+  "methods": [
+    "Actual original file SHA-256, delivered file SHA-256 and decoded-pixel hash grouping",
+    "63-bit perceptual-hash screening and visual review of all34 figure thumbnails",
+    "Independent source/provenance and rendered-document audits",
+    "Live HTML figure assignments checked against all28 article image records",
+    "Current digital and print book image-assignment metadata inspected; PDFs not rebuilt or exhaustively re-extracted in this pass"
+  ],
+  "results": {
+    "cross_article_exact_duplicate_groups": 0,
+    "within_article_duplicate_image_families": 0,
+    "live_figure_assignments_match": true,
+    "repeated_book_chapter_sources": 0
+  },
+  "findings": [
+    {
+      "id": "CIN-IMG-DUP-01",
+      "severity": "minor",
+      "route": "/cinema/",
+      "finding": "The overview illustration appears twice on the hub: as the opening feature image and on the overview article card.",
+      "asset": "/assets/cinema/odia-cinema-title-1200w.jpg",
+      "recommendation": "Keep the card image; remove the repeated opening image or replace it with artwork reserved for the hub.",
+      "status": "identified_not_changed"
+    },
+    {
+      "id": "CIN-IMG-DUP-02",
+      "severity": "editorial_suggestion",
+      "routes": [
+        "/people/deependra-samal/",
+        "/cinema/cinema-economics/"
+      ],
+      "finding": "Distinct illustrations use similar warm desk, paper and calculator compositions; this is visual similarity, not reuse of an image.",
+      "recommendation": "If more visual variety is desired, prioritize a verified portrait for the producer profile while retaining the economics illustration.",
+      "status": "optional"
+    }
+  ],
+  "expected_reuse": [
+    "An article preview and related-reading card reuse that same article\u2019s key image.",
+    "Header/footer Project Odisha logos repeat as site identity.",
+    "The author portrait appears in the introduction and on the book back cover; this is outside cross-chapter reuse."
+  ],
+  "historical_filename_notes": [
+    "Nirad Mohapatra\u2019s current portrait has a maya-miriga-documentary filename but is not used as an image in the current Maya Miriga article.",
+    "Sabyasachi Mohapatra\u2019s portrait has a bhukha-documentary filename but the current Bhukha article has a separate illustration."
+  ],
+  "limits": [
+    "Perceptual similarity screening is not proof against every possible heavily modified reuse.",
+    "Book claims here concern current recorded chapter placements and the previously verified reviewed PDF edition, not a fresh exhaustive PDF object comparison."
+  ],
+  "workers": {
+    "Anvesha": "Source/provenance audit",
+    "Samanta": "Rendered figure, card and book metadata audit",
+    "Disha": "Perceptual, visual and live route checks",
+    "Drishti": "Separate review PASS with hub presentation observation; live evidence reconciled, not independently refetched."
+  },
+  "source_reports": [
+    "records/evidence/cinema-duplicate-images-2026-10-28/cinema-duplicate-source-audit-2026-10-28.json",
+    "records/evidence/cinema-duplicate-images-2026-10-28/cinema-duplicate-render-audit-2026-10-28.json",
+    "records/evidence/cinema-duplicate-images-2026-10-28/cinema-duplicate-pixel-audit-2026-10-28.json",
+    "records/evidence/cinema-duplicate-images-2026-10-28/cinema-duplicate-live-audit-2026-10-28.json",
+    "records/evidence/cinema-duplicate-images-2026-10-28/cinema-duplicate-qa-2026-10-28.json"
+  ],
+  "published_changes": false
+}

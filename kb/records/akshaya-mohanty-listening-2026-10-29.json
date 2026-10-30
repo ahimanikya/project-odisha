@@ -1,0 +1,119 @@
+{
+  "id": "POD-REC-AKSHAYA-LISTENING-20261029",
+  "date": "2026-10-29",
+  "status": "reviewed_local_preview",
+  "request": "Embed Essential Khoka Bhai listening on the article with a play option without leaving the page.",
+  "article": "kb/research/people/akshaya-mohanty.md",
+  "route": "/people/akshaya-mohanty/",
+  "one_active_article": true,
+  "published": false,
+  "human_review_claimed": false,
+  "scopes": {
+    "Disha/root": [
+      "kb/records/akshaya-mohanty-listening-2026-10-29.json",
+      "kb/research/culture/cinema-series/manifest.json:akshaya-mohanty entry",
+      "projects/site/src/data/cinema.json:akshaya-mohanty entry",
+      "kb/history/LEDGER.md:append only",
+      "outputs/khoka-listening:integration and browser evidence"
+    ],
+    "Anvesha": [
+      "outputs/khoka-listening/source-check.json"
+    ],
+    "Samanta": [
+      "kb/research/people/akshaya-mohanty.md",
+      "projects/site/src/pages/people/akshaya-mohanty.astro",
+      "projects/site/src/components/KhokaListening.astro",
+      "projects/site/src/lib/khoka-listening.mjs",
+      "projects/site/tests/khoka-listening.test.mjs"
+    ],
+    "Drishti": [
+      "outputs/khoka-listening/qa.json"
+    ]
+  },
+  "constraints": [
+    "Official recordings only",
+    "User-initiated playback with one visible player",
+    "Canonical song links work without JavaScript and in print",
+    "Curated introduction, not an all-time chart",
+    "Preserve unrelated changes and dated PDF editions"
+  ],
+  "scope_released": true,
+  "source_sha256": "811255846eacd48bbadaee123834192a97b889e899961723fc2b7c980beb5c2c",
+  "preview": "http://127.0.0.1:8769/people/akshaya-mohanty/#essential-khoka-bhai-listening",
+  "source_evidence": "outputs/khoka-listening/source-check.json",
+  "source_decision": {
+    "original_jajabara": "phhuIVzFk6Q",
+    "observed_restriction": "YouTube reports playback on other websites disabled by video owner. No bypass attempted.",
+    "replacement": "Official Saregama Odia collection LgqHdOa_U1g, chapter199 to613 seconds; verified in existing primary description and browser playback.",
+    "kalankita": "qwMZC1VTU_k; standalone plays successfully.",
+    "end_parameters": "Absolute next-chapter timestamps, not independently audited silence-free audio endings."
+  },
+  "checks": [
+    {
+      "name": "Cinema regression and listening lifecycle tests",
+      "passed": 23,
+      "failed": 0,
+      "evidence": "outputs/khoka-listening/tests.log"
+    },
+    {
+      "name": "Site build",
+      "result": "PASS",
+      "evidence": "outputs/khoka-listening/build.log"
+    },
+    {
+      "name": "Independent source and code review",
+      "result": "PASS; root browser results separately recorded",
+      "evidence": "outputs/khoka-listening/qa.json"
+    },
+    {
+      "name": "Browser interaction review",
+      "result": "PASS within tested environment",
+      "evidence": "outputs/khoka-listening/browser-check.json"
+    }
+  ],
+  "guidance": {
+    "skill": "modern-web-guidance",
+    "retrieved": [
+      "privacy",
+      "performance"
+    ],
+    "saved": "outputs/khoka-listening-guidance.txt",
+    "applied": [
+      "User-initiated facade; no initial third-party iframe/thumbnail/API",
+      "youtube-nocookie.com and explicit strict-origin-when-cross-origin iframe referrer",
+      "Deferred page-specific module, native buttons, one player, dimensioned responsive frame, static/print fallback"
+    ],
+    "primary_documents": [
+      "https://developers.google.com/youtube/player_parameters",
+      "https://developers.google.com/youtube/terms/required-minimum-functionality"
+    ]
+  },
+  "book_status": "Dated PDFs unchanged; canonical Markdown now retains eight working source links for future book rebuild.",
+  "next_actions": [
+    "Author review of local preview; publication not performed."
+  ],
+  "simplification": {
+    "request": "One embedded collection player instead of individual song selection",
+    "status": "reviewed_local",
+    "scope_released": true,
+    "article": "kb/research/people/akshaya-mohanty.md",
+    "implementation_files": [
+      "projects/site/src/components/KhokaListening.astro",
+      "projects/site/src/lib/khoka-listening.mjs",
+      "projects/site/tests/khoka-listening.test.mjs"
+    ],
+    "review_output": "outputs/khoka-listening/qa-single-player.json",
+    "preserve": "Earlier implementation evidence remains historical; local-only update, no PDF rebuild or publication.",
+    "source_sha256": "99f86874a68897aba204f0716608f0a93a8746e32f2702490a9d1f9f3ed4a50c",
+    "checks": {
+      "tests": "outputs/khoka-listening/tests-single-player.log",
+      "tests_passed": 23,
+      "build": "outputs/khoka-listening/build-single-player.log",
+      "browser": "outputs/khoka-listening/browser-single-player.json",
+      "quality": "outputs/khoka-listening/qa-single-player.json"
+    },
+    "published": false,
+    "pdf_rebuilt": false
+  },
+  "current_revision": "simplification"
+}

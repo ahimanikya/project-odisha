@@ -17,7 +17,7 @@ By Ahimanikya Satapathy
 
 In a 2022 interview, **Sabyasachi Mohapatra** described learning through discussions with his cinematographer son, even when their ideas about an image differed.[^interview] The exchange offers a way into his career: a director rooted in western Odisha’s stories, still working out how to tell them with another generation.
 
-Our [article on ଭୂଖା (Bhukha)](../culture/cinema-series/bhukha.md) follows its performers’ livelihoods and musical world. The National Film Awards retrospective identifies it as a 1989 Sambalpuri film and records an International Jury Award at Gijón, without establishing the prize’s exact year.[^career] The director’s wider profile follows the collaborations around such films.
+Our [article on ଭୂଖା (Bhukha)](../culture/cinema-series/bhukha.md) follows its performers’ livelihoods, musical world and international recognition. The director’s wider profile follows the collaborations around such films.
 
 ![Sabyasachi Mohapatra seated at the Odisha State Film Awards](../media/odia-cinema/sabyasachi-mohapatra.jpg)
 
@@ -49,7 +49,6 @@ These films invite a more particular way of reading Odisha’s cinema. Language,
 
 ## Footnotes & Sources
 
-[^career]: [70th National Film Awards catalogue](https://nfaindia.org/images/pdf/70th%20National%20Film%20Award%20Catalogue.pdf), printed p. 036, retrospective director biography. Original Gijón award register remains unverified.
 [^interview]: OdishaPlus, [Tete-e-tete with Sabyasachi Mohapatra](https://odisha.plus/2022/07/tete-e-tete-with-sabyasachi-mohapatra/), July 2022. Retrospective testimony, not audited box-office data.
 [^panorama]: Directorate of Film Festivals, [Indian Panorama 2014 catalogue](https://dff.nic.in/images/Documents/20_IPCatalogue2014.pdf), printed p. 031, *Adim Vichar* credits.
 [^award]: Press Information Bureau, [62nd National Film Awards results](https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=117636), 24 March 2015, Best Odiya Film.

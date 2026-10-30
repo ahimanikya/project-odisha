@@ -57,11 +57,7 @@ These journeys run both ways. Readers elsewhere encounter Odia fiction through t
 
 ## Recognition and a reading route
 
-Three recognitions offer different entry points:
-
-- **2012 Sahitya Akademi Award:** *Kanta O’ Anyanya Galpa*, an Odia short-story collection.[^award]
-- **2021 Sahitya Akademi Translation Prize:** *Chheli Chareibara Dina*.[^translation]
-- **2022 Sarala Puraskar:** listed by award organiser IMPaCT.[^sarala]
+Alongside the Akademi recognitions attached to his writing and translation, Das received the **2022 Sarala Puraskar**, recorded by award organiser IMPaCT.[^sarala]
 
 For a first encounter, read “The Culprit” online. For a collection, explore *The Nail and Other Stories* or *The Little Monk and Other Stories*. For a longer fictional world, follow *The Labyrinth* or the novels gathered in *Panchaparba*. Together they offer several lengths and forms in which to spend time with his writing.
 

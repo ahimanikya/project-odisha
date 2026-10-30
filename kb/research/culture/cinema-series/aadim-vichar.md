@@ -29,7 +29,7 @@ The character’s voice, and the authority listening to him, invite viewers into
 
 The Indian Panorama catalogue credits **Kapileswar Prasad Mohapatra** with the story and Sabyasachi with screenplay and direction. Its cast includes **Atal Bihari Panda, Tapaswini Guru and Sushree Smita Panda**.[^catalogue] These names connect the film with the labour of writing and performance, rather than leaving it as a director’s achievement alone.
 
-For Project Odisha’s wider story, this is a concrete link between literature and cinema. The story credit gives readers a writer to follow; the actor’s theatre experience gives another route back towards the stage. Adaptation and performance give this encounter a chosen viewpoint and a particular human presence.
+A credited story writer and a veteran of the stage meet in this film. Writing and performance give the encounter its viewpoint and human presence.
 
 ## Selection and award
 

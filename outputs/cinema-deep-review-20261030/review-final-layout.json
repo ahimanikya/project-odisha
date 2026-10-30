@@ -1,0 +1,76 @@
+{
+  "status": "PASS bounded final layout delta",
+  "scope": "Final closing-section grouping and affected print music chapter; retains earlier complete digital contact review as history. No full print visual audit claimed.",
+  "bindings": {
+    "digital": {
+      "pdf_sha256": "e1ed3cf111993128b093b4254d08697626f5680c85780fbfc55a3ac229476ae8",
+      "pages": 236,
+      "pdf": "output/pdf/odia-cinema-a-living-screen-2026-10-30-deep-review.pdf"
+    },
+    "print": {
+      "pdf_sha256": "cd32c0ad6b174138bc39adb325b54f35ca5fa7844a97328c45df8edefe0107a1",
+      "pages": 260,
+      "pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-10-30-deep-review.pdf"
+    }
+  },
+  "readable_pages_viewed": {
+    "digital": [
+      49,
+      50,
+      142,
+      143,
+      144,
+      164,
+      165
+    ],
+    "print": [
+      39,
+      40,
+      41,
+      42,
+      50,
+      51,
+      143,
+      144,
+      145,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167
+    ]
+  },
+  "resolved_findings": [
+    {
+      "issue": "Prafulla isolated three-line ending",
+      "status": "resolved",
+      "evidence": "Digital50 and print51 now contain Recognition heading, award paragraph and final reflection together."
+    },
+    {
+      "issue": "Commercial split/isolated ending",
+      "status": "resolved",
+      "evidence": "Digital165 and print166 now contain After the successful run heading and both closing paragraphs together."
+    },
+    {
+      "issue": "Debi closing tail",
+      "status": "resolved",
+      "evidence": "Digital144 and print145 now contain Recognition heading, award paragraph and workshop conclusion together."
+    }
+  ],
+  "observations": [
+    "The repaired endings remain short pages, but form coherent complete sections rather than orphaned tail paragraphs; no further spacing iteration requested.",
+    "Print music39–42 remains readable, no stranded headings/clipping; normal paragraph continuation across pages is retained.",
+    "Print commercial161–162 contains five intact labelled finance panels, with qualifiers readable and no cell overflow.",
+    "Digital142/print143 Debi opener and print167 economics opener retain intact images/captions and legible body.",
+    "No off-page content, overlap or missing-glyph boxes observed in sampled pages."
+  ],
+  "metadata_followup": "Coordinator confirms both new source-frontmatter registrations resolved; not a new source verification in this pixel pass.",
+  "limitations": [
+    "Exact bindings taken from completed render-receipt files, not inferred from a parallel build.",
+    "No comprehensive fresh text/credit/link comparison; coordinator owns structural checks.",
+    "Earlier digital all236 contact review applies as documented history; this final pass is confined to changed sections.",
+    "No publication, human approval or accessibility-compliance claim."
+  ]
+}

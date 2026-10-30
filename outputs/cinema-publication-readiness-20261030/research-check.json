@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-30",
+  "scope": "Boundedpublication-readiness externalreader-destination review; not complete linkcrawl or comprehensivefactualreaudit.",
+  "reuse": [
+    "kb/records/cinema-deep-review-2026-10-30.json",
+    "outputs/cinema-deep-review-20261030/research-audit.json",
+    "kb/research/methods/research-map.md",
+    "query_research.py cinema viewing links",
+    "currentSadhu,Nandita,MayaMiriga,Akshaya,Gopalcanonicalarticles"
+  ],
+  "checks": [
+    {
+      "url": "https://www.netflix.com/title/81039383",
+      "result": "opened",
+      "finding": "Correct2018Manto/NanditaDas catalogue; returnedlocale explicitly unavailable. Existingarticle accurately qualifies it.",
+      "locator": "lines4–22"
+    },
+    {
+      "url": "https://www.primevideo.com/detail/Biswaprakash/0MJBHD5LPJL1VXW6T9MESR5IJM",
+      "result": "opened",
+      "finding": "Correct1999Biswaprakash listing; subscriptiontrial prompt. No playbackverified; existingqualifiedproviderlabel appropriate.",
+      "locator": "lines118–142"
+    },
+    {
+      "url": "https://www.shemaroome.com/short-films/ankur-the-seedling",
+      "result": "opened-metadata-caution",
+      "finding": "Correctfilm/cast-role synopsis, but duration17m02s and short-films path. Do not promote this as confirmed complete feature. CurrentSadhuarticle uses it as synopsis source, with separateYouTubewatchlink, so no mandatorycorrection.",
+      "locator": "lines288–328"
+    },
+    {
+      "url": "https://filmheritagefoundation.co.in/film-heritage-foundation-restores-nirad-mohapatras-landmark-odia-film-maya-miriga1984/",
+      "result": "opened",
+      "finding": "Correctrestoration destination; not full-film access. Existinglabel appropriate.",
+      "locator": "titleandbody"
+    },
+    {
+      "url": "https://www.loc.gov/acq/overseas-offices/delhi/salrp/chhotray.html",
+      "result": "opened",
+      "finding": "Authorrecord plus threeMP3excerptlinks retained. Landingpage verified; audiofiles/playback nottested.",
+      "locator": "lines10–27"
+    },
+    {
+      "url": "https://odiabibhaba.in/en/compilations/gopal-chhotray-e/",
+      "result": "opened",
+      "finding": "Correctwritercollection with individualdownloadlinks. Editionlabels retained; fullbookreading notclaimed.",
+      "locator": "lines15–45"
+    },
+    {
+      "url": "https://nanditadas.com/nandita-das-initiatives/zwigato-copy2/",
+      "result": "opened",
+      "finding": "Despite Copy2slug, correctofficialfilmstoryanddirectorsnote. Bhubaneswarsetting and couple/workpremise supported.",
+      "locator": "lines22–30"
+    },
+    {
+      "url": "https://www.saregama.com/regional/odia_15/romantic_6/song",
+      "result": "403",
+      "finding": "Toolblocked; cannotdeclarebroken. Broadcataloguelink is less stable than recording-specificcreditpage. Retainedsourcecapture remains historicalevidence.",
+      "locator": "freshfetch"
+    },
+    {
+      "url": "https://www.primevideo.com/-/fil/detail/0SNEIZTRDXW0YU3QX1RFKCVFAD?tr=fm",
+      "result": "cache-miss",
+      "finding": "No freshverification. Not evidence of deadtitle; retainregionalavailabilityqualification.",
+      "locator": "freshfetch"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=LgqHdOa_U1g",
+      "result": "fetch-failed",
+      "finding": "Khoka collection not freshlyverifiable viawebtool; exactIDsearch returned no primaryresult. Priorverifiedrecord unchanged; no playbackclaim.",
+      "locator": "freshfetchandsearch"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=bX9WYaIzVa4",
+      "result": "cache-miss",
+      "finding": "DAMaNfullfilm not freshlyverifiable viawebtool; exactIDsearch returned no primaryresult. Reuse priorrootUI evidence, not newverification.",
+      "locator": "freshfetchandsearch"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=zlURxHM0cm4",
+      "result": "fetch-failed",
+      "finding": "Ankur exactID occurs inthirdpartysearchresults, insufficientnewuploaderconfirmation. Priorofficialindexevidence retained; no newplaybackverification.",
+      "locator": "freshfetchandsearch"
+    }
+  ],
+  "findings": [
+    {
+      "priority": "advisory",
+      "issue": "ShemarooMe Ankur source has17-minute runtime despite genericfullmovie marketing.",
+      "action": "Keepit as cast/plot source only; do not substitute it for completefilmwatchlink."
+    },
+    {
+      "priority": "access-limit",
+      "issue": "Five destinations returnedaccess/toolfailure, not independentlyconfirmeddeadlinks.",
+      "action": "Do not labelbrokenorremove solely on thisfetch. Existingplayback/territoryqualifiers remain necessary."
+    }
+  ],
+  "confirmed_wrong_destinations": [],
+  "confirmed_dead_links": [],
+  "new_material_factual_corrections": [],
+  "fresh_source_claim_budget": "No public prose added; short evidence descriptions only. Existing source budgets unaffected.",
+  "limits": [
+    "Webopen may returncached text withreportedcrawl dates; not real-time logged-inavailability.",
+    "No film/audio playback, subscriptionlogin, purchases orcontacts.",
+    "ThirdpartyYouTubeIDmentions not treated as authorizationproof.",
+    "Exhaustedhistoricalgaps not re-searched."
+  ],
+  "public_edits": false
+}

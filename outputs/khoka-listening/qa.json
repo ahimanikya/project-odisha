@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-29",
+  "reviewer": "Drishti (independent AI)",
+  "status": "PASS_source_and_static_implementation_browser_pending",
+  "file_sha256": {
+    "kb/research/people/akshaya-mohanty.md": "811255846eacd48bbadaee123834192a97b889e899961723fc2b7c980beb5c2c",
+    "projects/site/src/pages/people/akshaya-mohanty.astro": "057dcc75537cf64fa6c725fa3ca961b6bca1c121b3e0ac05fb404a774cdde3e4",
+    "projects/site/src/components/KhokaListening.astro": "58dbedaaa242d9dba0970db6cd29250fb92308956346fdf63ebd19c8291974d0",
+    "projects/site/src/lib/khoka-listening.mjs": "edebbcf906a1e74af4dda05435ea553d5edb5f97d44237a85a340a34775b3c06",
+    "projects/site/tests/khoka-listening.test.mjs": "81696468350f94ae56ff35d780000c923a0f00f790386c2be447cdf8f69c68a0"
+  },
+  "scope": "Eight-entry source mapping, canonical fallback links, dedicated component/module and focused lifecycle tests. No browser or playback test performed by reviewer.",
+  "checks": [
+    "Eight source mappings preserved; Jajabara now uses source-check optional verified jukebox segment199–613. Kalankita standalone still omits end.",
+    "Credits preserve Trupti Das duet and Sibabrata Das lyric authorship; chapter markers not described as independently heard musical endpoints.",
+    "No iframe or third-party fetch occurs on module initialization. User button activation creates one youtube-nocookie iframe; reselection replaces it; close removes it.",
+    "Iframe explicitly uses strict-origin-when-cross-origin despite global no-referrer; controls/fullscreen/playsinline available.",
+    "Immutable exact-object allowlist rejects arbitrary entries; DOM strings use textContent, not HTML interpolation.",
+    "Canonical eight links work before enhancement; failed matching leaves links untouched; print CSS restores links and hides controls.",
+    "Native buttons have selected state/controls association, polite status and visible focus; close returns focus to selected song.",
+    "Only Akshaya wrapper imports enhancement; no shared renderer or PDF change."
+  ],
+  "tests": {
+    "command": "bundled Node --test tests/khoka-listening.test.mjs",
+    "passed": 3,
+    "failed": 0
+  },
+  "required_fixes": [],
+  "pending_browser": [
+    "Confirm actual YouTube embed permitted/referrer behavior, not just URL construction.",
+    "Desktop/mobile geometry and keyboard path between song buttons and player controls; no actual playback success inferred from selection state."
+  ],
+  "limits": [
+    "Upstream listing evidence reused from source-check; no full song listening or exact audio-boundary certification.",
+    "End parameter follows uploader next-chapter boundary.",
+    "Current dated PDFs unchanged; static source links are available for future book regeneration."
+  ],
+  "source_word_budget": "Curated new titles/compact role credits and connective introduction remain below200derived words for jukebox source; no lyrics quoted.",
+  "delta_review": {
+    "status": "PASS_static_and_source",
+    "Jajabara": "Official jukebox LgqHdOa_U1g start199/end613 matches previously verified optional segment; canonical fallback matches. Owner-disabled standalone removed from active selection.",
+    "credits": "Compact shared credit retains Trupti Das and Sibabrata Das exceptions without changing roles.",
+    "tests": "3/3 focused tests rerun passed.",
+    "coordinator_browser_evidence": "Root reports Smruti playback from chapter point, Kalankita playback, and close/focus return; reviewer did not independently observe browser.",
+    "pending": "Root final Jajabara playback/mobile/keyboard checks."
+  }
+}

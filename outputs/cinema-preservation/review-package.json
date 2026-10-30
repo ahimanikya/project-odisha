@@ -1,0 +1,43 @@
+{
+  "status": "local_review_ready",
+  "record": "kb/records/cinema-preservation-2026-10-30.json",
+  "article_url": "http://127.0.0.1:8769/cinema/who-keeps-a-film-alive/",
+  "guide_url": "http://127.0.0.1:8769/cinema/reading-guide/",
+  "books": [
+    {
+      "edition": "digital",
+      "path": "output/pdf/odia-cinema-a-living-screen-2026-10-30.pdf",
+      "pages": 243,
+      "bytes": 17102418,
+      "sha256": "6b6989f22ce3d1ee10a78eb218d5e00135f91e591b4dd7fb13f2b05442d70721",
+      "structural_report": "tmp/pdfs/2026-10-30/digital/structural-check-2026-10-30.json"
+    },
+    {
+      "edition": "print",
+      "path": "output/pdf/odia-cinema-a-living-screen-print-2026-10-30.pdf",
+      "pages": 268,
+      "bytes": 39992453,
+      "sha256": "9d0ded93f6d7995e63d43d849fb07956b102f0f5f068f74bd7fd2042cc870c24",
+      "structural_report": "tmp/pdfs/2026-10-30/print/structural-check-2026-10-30.json"
+    }
+  ],
+  "checks": {
+    "independent_review": "PASS — source/editorial, source hash, integration and final PDF text/link binding; outputs/cinema-preservation/review.json",
+    "build": "PASS — 555 Astro pages; exit 0",
+    "focused_tests": "PASS — 27 targeted/regression checks",
+    "public_disclosures": "PASS — 978 HTML pages, no violations",
+    "research_map": "PASS — 1821 records, 71 tasks, no errors",
+    "browser": "PASS — article and four-path reading guide at 1280 desktop and 390 phone; no horizontal overflow, aligned caption, numbered source link and return exercised; viewport reset.",
+    "book_structure": "PASS — both editions have 41 chapters, 383 notes, 532 citation pairs and 47 image placements; no invalid destinations or off-page text.",
+    "book_text": "PASS with recorded extraction adjudication — per edition 103 Odia extraction residuals checked against complete surrounding Latin/digit sequences and representative Odia visual samples; six caption/navigation exceptions documented. Raw exact-string checker intentionally retains residuals; no unexplained substantive omissions.",
+    "book_visual": "PASS — independent digital contact review and repaired portrait delta; coordinator all 23 print contact sheets plus selected full-size pages, final Poppler pages 19/53/118/214; covers preserved. Not a full copy edit of every glyph.",
+    "previous_editions": "PASS — 27 October digital and print SHA256 unchanged."
+  },
+  "remaining": [
+    "User editorial review and publication decision.",
+    "Exact Cuttack archive start date, collection transfer and current research-access terms remain unverified; no such claims added.",
+    "Print review edition is 6×9 inches with mirrored margins, no bleed; printer-specific press preparation, tagged-PDF accessibility and low-resolution historical-source improvements remain separate work."
+  ],
+  "human_review_claimed": false,
+  "publication": false
+}
