@@ -1,0 +1,41 @@
+{
+  "decision": "PASS_QUALIFIED_LIVE_EVIDENCE",
+  "review_type": "Separate AI saved live-evidence and hash reconciliation review",
+  "deployment": "41050927487",
+  "deployed_head": "1a5ecb5b7919cdacb5be6cc75d39c71293ecf758",
+  "bindings": {
+    "outputs/dhaga-expansion-201-2026-10-30/anvesha/live-verification.json": "bae0b32990652fbd52d7d92eb53f8cecd12358c1f992d3bd8c3418b82779b7c9",
+    "outputs/dhaga-expansion-201-2026-10-30/anvesha/supplemental-live-verification.json": "ddd9d8a7c619a734eab74a9d7c1016081a975d1e2e6e1863625577ccd8dff559",
+    "outputs/dhaga-expansion-201-2026-10-30/anvesha/companion-main-verification.json": "2f69319724cf268cf7daaaafa17bae749444fbf2e49274400ffd270cd22a41f3",
+    "outputs/dhaga-expansion-201-2026-10-30/anvesha/live-summary.json": "0c349fbcc43b4b99bf3768a44244b68bc45b06a18bd9ab729866bef54feb3079",
+    "outputs/dhaga-expansion-201-2026-10-30/anvesha/local-delivery-validation.json": "ee5ab635bf1fc14462db5acf5746b7cdc4bb9c4b0a5f2bce2e55d438e6c0bf63",
+    "outputs/dhaga-expansion-201-2026-10-30/live-browser-review.json": "19f444c6ecbe1c3e506fc2edd5e6059d9d7bd5221350ea128fcba272aef45b83",
+    "outputs/dhaga-expansion-201-2026-10-30/remote-verification.json": "b3e6e5f4211824d2f96eec33c901d9e1514f7ad3f6691ff6bfbca61d5fba24db",
+    "outputs/dhaga-expansion-201-2026-10-30/deployment-status.json": "9846381dc86be446c1777cc20153c5afe1296bbf3dcab03c2a5318588953f4d6",
+    "outputs/dhaga-expansion-201-2026-10-30/drishti/live-checks.json": "bd9f26f0c876fd26b2f6478af866b7109c50d7f38fd0c3bcebefa1858439deda"
+  },
+  "findings": [
+    "411 reader files accounted for:390 byte-exact and21 nonidentical images match exactly both sides of previously reviewed hash pairs. All204HTML byte-exact. No new unmatched image pair accepted.",
+    "New199/200/201 live image hashes exactly match the three derivatives independently visually reviewed earlier. No repeat pixel inspection is needed for identical files.",
+    "Three companion main elements independently recomputed from saved live HTML and current local HTML: exact after only29 previously reviewed responsive-filename mappings. Raw whole HTML remains nonidentical; this is not an exact-page-byte claim.",
+    "All29 responsive local/live hashes independently match prior review pairs; nonempty shared portable catalog reported exact.",
+    "Fresh PDF download receipt matches the actual live index link and approved immutable PDF015fb453…,114pages. Supplemental verifier checks sitemap against configured11routes, all3 new noindex holds and4 internal404 paths.",
+    "Deployment-status records successful exact merge;266 merged remote file hashes match the approved candidate manifest. Browser desktop/390px/search/keyboard evidence is Disha actual observation, not a new browser operation by this reviewer.",
+    "Local delivery evidence bound and independently rehashed:618 source/local products exact and507 protected extras unchanged.1116 pre-sync guards and19 post-sync tests are recorded by Anvesha; tests not rerun in this review."
+  ],
+  "actual_checks": [
+    "Recomputed411 local publication file hashes and counted204 HTML/390 exact/21 known pairs.",
+    "Compared all21 nonexact reader hash pairs with198 evidence; all3 new art hashes with own web-art review.",
+    "Compared29 companion image pairs with prior173 review evidence and recomputed3 saved main elements after explicit mapping.",
+    "Verified all266 remote receipt hashes against exact-head reviewed hashes.",
+    "Rehashed618 local-reader products against canonical source and507 protected extras against saved guards; checked bound local report evidence.",
+    "Read live verifier scripts, supplemental checks and browser limitations."
+  ],
+  "limitations": [
+    "No fresh network requests, downloads or browser interactions performed by this reviewer; producer captures/receipts and exact prior visual bindings reused.",
+    "Raw byte variance is retained:390/411 exact, not411/411. Companion whole HTML is not byte-exact.",
+    "Prior pixel reviews qualify only identical known both-side hashes, not arbitrary future encoder differences.",
+    "Receipt integration, its separate exact-head review and required checks remain outstanding; this report does not release scope or claim human review."
+  ],
+  "next_action": "Prepare the records-only receipt preserving qualified raw counts, then obtain separate exact-head receipt review."
+}

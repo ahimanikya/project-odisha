@@ -1,0 +1,62 @@
+{
+  "deployment": "41050927487",
+  "head": "1a5ecb5b7919cdacb5be6cc75d39c71293ecf758",
+  "pdf": {
+    "url": "https://raw.githubusercontent.com/ahimanikya/project-odisha/fd8c3057437f662ef5d7d025bf53f0c2af43308c/projects/odia-dhaga/odia-dhaga-book.pdf",
+    "status": 200,
+    "sha256": "015fb453c5af662788fa08fc67c8d4caec7fc592218d856ca213d9beecd3dfc5",
+    "expected_sha256": "015fb453c5af662788fa08fc67c8d4caec7fc592218d856ca213d9beecd3dfc5",
+    "pass": true
+  },
+  "actual_live_index_pdf_link": {
+    "status": 200,
+    "pdf_links": [
+      "https://raw.githubusercontent.com/ahimanikya/project-odisha/fd8c3057437f662ef5d7d025bf53f0c2af43308c/projects/odia-dhaga/odia-dhaga-book.pdf"
+    ],
+    "pass": true
+  },
+  "sitemap": {
+    "status": 200,
+    "pass": true
+  },
+  "new_search_holds": [
+    {
+      "url": "https://projectodisha.org/dhaga/sayings/pod-dhaga-199.html",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://projectodisha.org/dhaga/sayings/pod-dhaga-200.html",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://projectodisha.org/dhaga/sayings/pod-dhaga-201.html",
+      "status": 200,
+      "pass": true
+    }
+  ],
+  "internal_404": [
+    {
+      "path": "coverage-ledger.json",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "path": "source127.json",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "path": "source127.html",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "path": "README.md",
+      "status": 404,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

@@ -1,0 +1,28 @@
+{
+  "status": "LOCAL_DELIVERY_PASS",
+  "entries": 201,
+  "verified_product_files": 618,
+  "preserved_extra_files": 507,
+  "pdf_sha256": "015fb453c5af662788fa08fc67c8d4caec7fc592218d856ca213d9beecd3dfc5",
+  "pdf_pages": 114,
+  "tests": {
+    "command": "python3 -m unittest test_repository test_source_inventory",
+    "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "count": 19,
+    "seconds": 2.23,
+    "exit_code": 0,
+    "log_sha256": "30feaeeb7d5050f7650089a5bfbdad2d25a9959212a36ad8d9cc71e0ded6c451"
+  },
+  "post_test_product_hash_differences": [],
+  "post_test_extra_hash_differences": [],
+  "evidence": {
+    "candidate-plan.json": "7cf156f46c0a11a6562cee77bf6d12ce8f818280c74eaffc2050b7bca9abdfb1",
+    "local-baseline.json": "ee0c9fb1f8ed59ccee6b90bd098b04c8f87e5c8003dff5952040a8ee7579d6f6",
+    "local-reader-sync-result.json": "cd4eb5c3f82b964cf3d758c44bb5266e437de44fdbc9b3813b84ab0ddc707937"
+  },
+  "limits": [
+    "All1116 baseline file guards matched before authorized sync;507 protected extras remain unchanged.",
+    "Local repository tests rebuild local HTML; all618 product hashes rechecked after tests.",
+    "No canonical edits or Git mutation."
+  ]
+}

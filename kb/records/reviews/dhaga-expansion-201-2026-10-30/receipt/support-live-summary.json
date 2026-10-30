@@ -1,0 +1,31 @@
+{
+  "status": "PASS_QUALIFIED_LIVE_CHECKS",
+  "deployment_id": "41050927487",
+  "deployed_head": "1a5ecb5b7919cdacb5be6cc75d39c71293ecf758",
+  "completed_at": "2026-10-30T12:06:16.039606+00:00",
+  "evidence": {
+    "live-verification.json": "bae0b32990652fbd52d7d92eb53f8cecd12358c1f992d3bd8c3418b82779b7c9",
+    "supplemental-live-verification.json": "ddd9d8a7c619a734eab74a9d7c1016081a975d1e2e6e1863625577ccd8dff559",
+    "companion-main-verification.json": "2f69319724cf268cf7daaaafa17bae749444fbf2e49274400ffd270cd22a41f3"
+  },
+  "reader": {
+    "files": 411,
+    "byte_exact": 390,
+    "html_exact": 204,
+    "known_both_hash_image_pairs": 21,
+    "new199_201_images_byte_exact": 3,
+    "new_unreviewed_variances": 0
+  },
+  "supplemental": "Actual index PDF pin and exact PDF hash, sitemap, three noindex search holds, four internal404s pass.",
+  "companions": {
+    "main_content_exact_after_known_mapping": 3,
+    "known_responsive_both_hash_pairs": 29,
+    "portable_catalog_exact": true,
+    "raw_whole_html_exact": false
+  },
+  "limits": [
+    "Raw21 reader mismatches remain recorded; qualified using exact previously reviewed hash pairs, not rewritten as byte-exact.",
+    "Three companion HTML files differ outside the normalized main-content check; not whole-file exact.",
+    "No local-reader synchronization performed; no canonical edits or extra deployment."
+  ]
+}
