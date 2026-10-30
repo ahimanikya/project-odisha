@@ -4,9 +4,9 @@ Strengthen the series through literature, people, creative livelihoods and audie
 
 ## Current progress
 
-The adaptation research pass is reviewed. Source-author film compensation remains unresolved. Kanhu Charan Mohanty, Manglu Charan Biswal, Bijay Mishra, Bijaya Jena, Lipika Singh Darai, Pramod Pati, Bijay Mohanty and Uttam Mohanty now have separately reviewed local articles. Uttam’s profile follows collaboration and help behind the performance. Next is Aparajita Mohanty.
+The adaptation research pass is reviewed. Source-author film compensation remains unresolved. Kanhu Charan Mohanty, Manglu Charan Biswal, Bijay Mishra, Bijaya Jena, Lipika Singh Darai, Pramod Pati, Bijay Mohanty, Uttam Mohanty and Aparajita Mohanty now have separately reviewed local articles. Aparajita’s profile follows creative input, learning from Anita Das and producing. Next: Audiences and the people who bring films to them.
 
-[Preview Uttam Mohanty](http://127.0.0.1:8771/people/uttam-mohanty/). The local series has 49 readings; the published books remain the earlier 41-reading edition.
+[Preview Aparajita Mohanty](http://127.0.0.1:8771/people/aparajita-mohanty/). The local series has 50 readings; the published books remain the earlier 41-reading edition.
 
 ## Sequence
 
@@ -21,7 +21,7 @@ The adaptation research pass is reviewed. Source-author film compensation remain
 | 7 | Pramod Pati | Inspect selected experimental works and institutional evidence; distinguish Odisha connection from film language. | Local draft reviewed |
 | 8 | Bijay Mohanty | Develop performance, training and mentoring beyond the overview mention, with a distinct verified portrait. | Local draft reviewed |
 | 9 | Uttam Mohanty | Develop a selective account of craft and audience relationships; do not rank artistic value by film totals. | Local draft reviewed |
-| 10 | Aparajita Mohanty | Develop acting and production work; fairly connect supporting performers, Anita Das and comedy where evidence warrants. | Queued |
+| 10 | Aparajita Mohanty | Develop acting and production work; fairly connect supporting performers, Anita Das and comedy where evidence warrants. | Local draft reviewed |
 | 11 | Audiences and the people who bring films to them | Find a documented viewer, library, film-club, exhibitor or technician experience; connect access, work and livelihood without invented audience consensus. | Queued |
 | 12 | Children and Odia screen stories | Connect scattered film, animation and dubbing research to the introduction's children's question. Enhance first; a dedicated article requires substantial additional evidence. | Queued |
 | 13 | Read the sources more deeply | Inspect selected complete works and accessible original film periodicals/booklets. Pursue the Banichitra and Suna Sansara finance lead only with original evidence. | Queued |
@@ -50,3 +50,5 @@ Research and review files are linked from the structured queue. [Kanhu illustrat
 [Bijay Mohanty research](../../outputs/cinema-expansion-20261031/bijay-mohanty-evidence.json), [independent review](../../outputs/cinema-expansion-20261031/bijay-mohanty-review.json) and [photograph provenance](../../outputs/cinema-expansion-20261031/bijay-mohanty-image-provenance.json) preserve attributed recollections, primary play-production credits and the qualified Commons licence record for the full Sahari Bagha set photograph.
 
 [Uttam Mohanty research](../../outputs/cinema-expansion-20261031/uttam-mohanty-evidence.json), [independent review](../../outputs/cinema-expansion-20261031/uttam-mohanty-review.json) and [illustration prompt and provenance](../../outputs/cinema-expansion-20261031/uttam-mohanty-image-provenance.json) preserve attributed colleagues’ memories, source limits and the anonymous rehearsal illustration. A rights-cleared portrait remains an open gap.
+
+[Aparajita Mohanty research](../../outputs/cinema-expansion-20261031/aparajita-mohanty-evidence.json), [independent review](../../outputs/cinema-expansion-20261031/aparajita-mohanty-review.json) and [illustration prompt and provenance](../../outputs/cinema-expansion-20261031/aparajita-mohanty-image-provenance.json) preserve attributed creative and mentoring recollections, the production report and the anonymous script-discussion illustration. A rights-cleared portrait remains an open gap.

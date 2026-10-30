@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 873. completed: 149, excluded: 420, queued: 304.
+Route inventory: 874. completed: 149, excluded: 420, queued: 305.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -897,3 +897,4 @@ Route inventory: 873. completed: 149, excluded: 420, queued: 304.
 | POD-EDIT-20261047 | [Pramod Pati: A Room for Experiment](https://projectodisha.org/people/pramod-pati/) | queued | New filmmaker profile in the local cinema expansion; publication separately pending |
 | POD-EDIT-20261048 | [Bijay Mohanty: Learning a Role, Sharing a Craft](https://projectodisha.org/people/bijay-mohanty/) | queued | New filmmaker profile in the local cinema expansion; publication separately pending |
 | POD-EDIT-20261049 | [Uttam Mohanty: The Work Beside the Performance](https://projectodisha.org/people/uttam-mohanty/) | queued | New actor profile in the local cinema expansion; publication separately pending |
+| POD-EDIT-20261050 | [Aparajita Mohanty: Helping a Film Take Shape](https://projectodisha.org/people/aparajita-mohanty/) | queued | New actor and producer profile in the local cinema expansion; publication separately pending |

@@ -130,7 +130,7 @@ Akashvani records his work in Bengali cinema and the Hindi film *ନୟା ଜ�
 
 ### Aparajita Mohanty: acting, producing and learning from another woman
 
-Aparajita Mohanty's work offers several points of entry. *ଉଦଣ୍ଡୀ ସୀତା (Udandi Sita)* is among the films associated with her screen career.[^performer-aparajita] She produced *Love Master*.[^performer-aparajita-production] 
+[Aparajita Mohanty](/people/aparajita-mohanty/)'s work offers several points of entry. *ଉଦଣ୍ଡୀ ସୀତା (Udandi Sita)* is among the films associated with her screen career.[^performer-aparajita] She produced *Love Master*.[^performer-aparajita-production]
 
 Her remembrance of Anita Das opens another relationship. Aparajita described the senior actor as an elder-sister figure who taught her about acting and the workings of the industry.[^performer-anita] Her later appearance in *ବୋଉ ବୁଟୁ ଭୂତ (Bou Buttu Bhuta)* brings that working life into the recent films discussed later in this survey.[^bou-commercial]
 
