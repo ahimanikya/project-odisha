@@ -1,0 +1,81 @@
+{
+  "status": "PASS_QUALIFIED_LIVE_EVIDENCE",
+  "review_type": "Separate AI evidence review",
+  "reviewed_head": "9594c8b98305143deae7a5b3db49ed51f2f43483",
+  "deployed_merge": "ec8f92c5f991b115fafc432d45b6b494a6ca6b6b",
+  "deployment_id": 41117598609,
+  "bindings": {
+    "deployment-status.json": "214a83ea21123a6adca9f2265f1abb68ab7bd13514b3ed9e1b0ae35cd9bef3da",
+    "candidate-manifest.json": "09012342c9c61c007c5be6e64736944e048e0449e88429d0f451568f5750bb6c",
+    "live-preparation/candidate-plan.json": "b700de9cd7a01a585304f0a15ea6a13b06e5c3a4310f34e832dfdce388be3897",
+    "live-preparation/merged-verification.json": "08b703a9197f5100244ec53800ee314d1e78efdd97b0c9c9a6befe5b1e0cdd4e",
+    "live-preparation/live-verification.json": "3da7d359c8523d0f2e6ed44e969319514d3eef19eee0861d5ef190009802a455",
+    "live-preparation/known-image-pairs.json": "3dd5ebe4f7b123e663e1267f2d711d9cdfbb8fe688fc5b1c58d2bf3ea2c1d361",
+    "live-preparation/supplemental-live-verification.json": "95165e1fbea94846a3273732e3a51947c395615ca790f44427396589482be920",
+    "live-preparation/companion-main-verification.json": "f9fbdf9293814f2c78b6d53d9ee5972a57ebc00dc9d6668cb920fc0e444f3e27",
+    "live-browser.json": "061be2b151b8116576e7cd7ee1bfb7c9b83fa8f35730e7a4b9f627ed60c62a9b"
+  },
+  "actual_checks": [
+    "Inspected actual completed-success deployment record and266/266 merged manifest report.",
+    "Independently recomputed437 row uniqueness/status200/local manifest bindings;416 exact and21 non-exact pairs each match both historical hashes. All217 HTML exact; all3 new212\u2013214 images byte exact.",
+    "Inspected fresh saved live-index PDF link and actual PDF response hash f8f46a62b00c29844015643abc04e3d30bf4dac15d72262053fe2cf84b0d628b,126page frozen binding. Supplemental sitemap/3 holds/4 internal404 checks pass.",
+    "Compared all29 companion responsive local/live hash pairs to prior173 report. Three mains exact after explicitly qualified filename mapping, nonempty catalog exact. Raw whole HTML not exact and retained.",
+    "Read actual live browser report and independently viewed all5 hash-bound desktop/390px screenshots: title, Odia shaping, body, flower artwork/caption, source limits and native menu remain readable without visible clipping. Worker executed search/keyboard/skip/reference-return interactions; reviewer did not rerun them.",
+    "All deployment/report head bindings consistent with completed41117598609 at ec8f92c5f991b115fafc432d45b6b494a6ca6b6b. No new pixel variance exception needed."
+  ],
+  "blockers": [],
+  "pending": [],
+  "limits": [
+    "No independent repeated network fetch or browser interactions in this review; reviewed saved actual results and independently checked identities/hashes.",
+    "No new image variance accepted; prior visual review reused only for exact both-side hashes.",
+    "No local reader sync or receipt release claimed; those remain later authorized gates.",
+    "Separate AI review, not human proofreading or rights clearance. PASS satisfies live evidence review only; local sync and receipt still require coordinator authorization and subsequent verification."
+  ],
+  "browser_screenshots_independently_viewed": [
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-214-2026-10-31/live-screenshots/desktop-214.jpg",
+      "sha256": "814d3ad147dac137b914d9606c6b0785b9020dbd48b7b73025b30f2cc0621b01",
+      "format": "JPEG",
+      "dimensions": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-214-2026-10-31/live-screenshots/desktop-index.jpg",
+      "sha256": "771a3037f10426d3eb9319526e1e3e06cb6d59cf3d7299e4a276ca9c3bb3dbdc",
+      "format": "JPEG",
+      "dimensions": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-214-2026-10-31/live-screenshots/mobile-214-art.jpg",
+      "sha256": "3c1c61ecb2d8d6315595a6a67e08198947cce9ed8f248dc31bbe3ca1a9522b5e",
+      "format": "JPEG",
+      "dimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-214-2026-10-31/live-screenshots/mobile-214.jpg",
+      "sha256": "5764b52b28dec374e8d172a4a1cd63a634d3066adb5a1694c3e23e1af5997497",
+      "format": "JPEG",
+      "dimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-214-2026-10-31/live-screenshots/mobile-menu.jpg",
+      "sha256": "71f8cc9235156d6ff9015389f8c192eb52aa4ee1525b1c6e14a86063218d75a5",
+      "format": "JPEG",
+      "dimensions": [
+        390,
+        844
+      ]
+    }
+  ]
+}
