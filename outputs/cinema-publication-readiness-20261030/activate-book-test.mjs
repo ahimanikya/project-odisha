@@ -15,6 +15,14 @@ function fixture(t){
  const manifest=JSON.parse(fs.readFileSync(path.join(dir,'book-release-manifest.json'),'utf8'));
  const put=(name,bytes)=>{const file=path.join(root,name);fs.mkdirSync(path.dirname(file),{recursive:true});fs.writeFileSync(file,bytes);};
  for(const name of ['projects/site/src/data/cinema.json','projects/site/src/pages/cinema/book.astro',manifest.narrative_plan.path,...manifest.canonical_sources.map(s=>s.source)])put(name,fs.readFileSync(path.join(realRoot,name)));
+ // The published checkout has already been activated. Fixtures retain the
+ // reviewed pre-activation template rather than depending on live book state.
+ const dataPath='projects/site/src/data/cinema.json';
+ const data=JSON.parse(fs.readFileSync(path.join(root,dataPath),'utf8'));
+ data.review_books=manifest.expected_previous_review_books;
+ delete data.archived_review_books;
+ put(dataPath,JSON.stringify(data));
+ put('projects/site/src/pages/cinema/book.astro',fs.readFileSync(path.join(dir,'fixtures/book-before-activation.astro')));
  const payloads=new Map();for(const asset of manifest.assets){const bytes=Buffer.from('%PDF-SIMULATED-FIXTURE-'+asset.edition);asset.bytes=bytes.length;asset.sha256=hash(bytes);put(asset.path,bytes);payloads.set(asset.filename,bytes);}
  put('outputs/cinema-publication-readiness-20261030/book-release-manifest.json',JSON.stringify(manifest));
  const paths=['projects/site/src/data/cinema.json','projects/site/src/pages/cinema/book.astro'];const before=paths.map(p=>fs.readFileSync(path.join(root,p),'utf8'));

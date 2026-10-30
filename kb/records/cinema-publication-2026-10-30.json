@@ -16,10 +16,14 @@
       "write_scope": []
     },
     "Samanta": {
-      "scope": "Book activation preparation and focused current-edition test updates",
+      "scope": "Book activation preparation and focused current-edition test updates; reconcile two stale KB register references to reviewed source records without changing article text",
       "write_scope": [
         "projects/site/tests/cinema-release.test.mjs",
-        "projects/site/tests-coast/cinema-reading-ux.test.mjs"
+        "projects/site/tests-coast/cinema-reading-ux.test.mjs",
+        "kb/research/references/data/people-creations.json",
+        "kb/research/references/data/content-classification.json",
+        "kb/research/references/data/source-catalog.json",
+        "outputs/cinema-publication-readiness-20261030/registry-reconciliation.json"
       ]
     },
     "Drishti": {
@@ -74,5 +78,29 @@
     "status": "validation_in_progress",
     "deployed": false
   },
-  "publication_scope_performed": "Book release assets only; website deployment pending"
+  "publication_scope_performed": "Book release assets only; website deployment pending",
+  "pull_request": "https://github.com/ahimanikya/project-odisha/pull/615",
+  "validation": {
+    "full_site_tests": {
+      "passed": 653,
+      "failed": 0
+    },
+    "coast_tests": {
+      "passed": 535,
+      "failed": 0
+    },
+    "activation_guard_fixture_tests": {
+      "passed": 7,
+      "failed": 0
+    },
+    "non_site_checks": {
+      "initial_passed": 37,
+      "initial_failed": 2,
+      "resolved_failures": [
+        "validate_classification.py",
+        "validate_creations.py"
+      ],
+      "reconciliation": "outputs/cinema-publication-readiness-20261030/registry-reconciliation.json"
+    }
+  }
 }
