@@ -978,3 +978,8 @@ Reuse the per-item pointers in [the sequential cinema work list](../../records/c
 ### Manglu Charan Biswal · 31 October 2026
 
 Reuse [writer profile](../people/manglu-charan-biswal.md), [research packet](../../../outputs/cinema-expansion-20261031/manglu-evidence.json) and [independent review](../../../outputs/cinema-expansion-20261031/manglu-review.json). Hachette biography/catalogue, PTI obituary and JLA contributor biography support the selected life, works and Bhukha–The Starved translation connection; existing TOI2012 source-play attribution is reused. The full play was not read; original play date, teaching posts, author remuneration and photograph reuse rights remain unverified. No new award or community-wide livelihood claim.
+
+
+### Bijay Mishra · 31 October 2026
+
+Reuse [writer profile](../people/bijay-mishra.md), [research packet](../../../outputs/cinema-expansion-20261031/bijay-evidence.json), [independent review](../../../outputs/cinema-expansion-20261031/bijay-review.json) and [photo provenance](../../../outputs/cinema-expansion-20261031/bijay-image-provenance.json). Direct 2013 and 2019 interviews support attributed writing/collaboration memories; shared-source allocation is recorded. Sahitya Akademi’s award list and NSD programme have indexed support but direct retrieval failures; no invented event date. The 2026 theatre report documents named groups/plays, not audience consensus. The original plays were not read; engineering-study newsletter detail remains an excluded lead. The Commons portrait is Hellohappy, CC BY-SA 3.0; conflicting month metadata is resolved only to shared year 2019. Full photograph retained; displayed crop disclosed in ordinary numbered notes.

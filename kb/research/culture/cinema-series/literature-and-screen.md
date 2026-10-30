@@ -49,7 +49,7 @@ The question reaches beyond any one adaptation. What do we learn to notice when 
 
 Chhotray wrote across theatre, radio and cinema.[^chhotray] The family archive for ମା (Maa) credits Chhotray and Biswajit Das jointly for dialogue, while Nitai Palit supplied screenplay and direction.[^maa]
 
-A writer’s movement into cinema can also involve learning a new craft. In a 2019 interview, Bijay Mishra recalled learning screenplay writing from Shyamal Mukherjee while working on ଯାଯାବର (Jajabara).[^bijay] Such recollections bring the working relationship into view: a literary or theatrical life can continue through conversations, revisions and decisions made for the screen.
+A writer’s movement into cinema can also involve learning a new craft. In a 2019 interview, [Bijay Mishra](../../people/bijay-mishra.md) recalled learning screenplay writing from Shyamal Mukherjee while working on ଯାଯାବର (Jajabara).[^bijay] Such recollections bring the working relationship into view: a literary or theatrical life can continue through conversations, revisions and decisions made for the screen.
 
 Songs open another path. A lyric has to find room within a tune and a voice, yet its phrasing can carry a writer’s wit and feeling. The [Akshaya Mohanty chapter](../../people/akshaya-mohanty.md) follows some of those exchanges through named singers and lyricists. A remembered voice can lead us back to the person who found the words.
 

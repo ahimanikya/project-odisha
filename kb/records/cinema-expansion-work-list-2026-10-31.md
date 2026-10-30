@@ -4,9 +4,9 @@ Strengthen the series through literature, people, creative livelihoods and audie
 
 ## Current progress
 
-The adaptation research pass is reviewed. The existing Amada Bata book-publication account is retained; source-author film compensation remains unresolved. Kanhu Charan Mohanty and Manglu Charan Biswal now have separately reviewed, illustrated local articles. Manglu’s profile connects his wider literary work to Bhukha and its English translation, The Starved. Next is Bijay Mishra.
+The adaptation research pass is reviewed. The existing Amada Bata book-publication account is retained; source-author film compensation remains unresolved. Kanhu Charan Mohanty, Manglu Charan Biswal and Bijay Mishra now have separately reviewed local articles. Bijay’s profile connects his early writing, Jajabara collaboration and continuing theatre performances. Next is Bijaya Jena.
 
-[Preview Manglu Charan Biswal](http://127.0.0.1:8771/people/manglu-charan-biswal/). The local series has 43 readings; the published books remain the earlier 41-reading edition.
+[Preview Bijay Mishra](http://127.0.0.1:8771/people/bijay-mishra/). The local series has 44 readings; the published books remain the earlier 41-reading edition.
 
 ## Sequence
 
@@ -15,7 +15,7 @@ The adaptation research pass is reviewed. The existing Amada Bata book-publicati
 | 1 | Follow a story from writer to film | Enhance The page behind the screen with a documented adaptation account; distinguish permission, story credit, screenplay work, book royalties and film payment. | Reviewed; payment evidence open |
 | 2 | Kanhu Charan Mohanty | Research a focused writer profile connected to Kaa; distinguish original novel, adaptation and credited collaborators. | Local draft reviewed |
 | 3 | Manglu Charan Biswal | Develop the writer and theatrical world behind Bhukha with careful Sambalpuri language and livelihood context. | Local draft reviewed |
-| 4 | Bijay Mishra | Follow theatre, screenplay learning and cinema collaboration; complement Gopal Chhotray rather than repeat him. | Queued |
+| 4 | Bijay Mishra | Follow theatre, screenplay learning and cinema collaboration; complement Gopal Chhotray rather than repeat him. | Local draft reviewed |
 | 5 | Bijaya Jena | Research a profile through Tara and her work across producing, directing, acting and writing. | Queued |
 | 6 | Lipika Singh Darai | Develop documentary, sound and editing practice beyond the existing Sita Bibaha preservation account. | Queued |
 | 7 | Pramod Pati | Inspect selected experimental works and institutional evidence; distinguish Odisha connection from film language. | Queued |
@@ -38,3 +38,5 @@ Each new article needs its own relevant image and links into the series. Existin
 Research and review files are linked from the structured queue. [Kanhu illustration prompt and provenance](../../outputs/cinema-expansion-20261031/kanhu-image-provenance.json) record the Human Natural Poetic Natural treatment and its saved original.
 
 [Manglu research](../../outputs/cinema-expansion-20261031/manglu-evidence.json), [independent review](../../outputs/cinema-expansion-20261031/manglu-review.json) and [illustration provenance](../../outputs/cinema-expansion-20261031/manglu-image-provenance.json) preserve sources, limits and the conceptual image treatment.
+
+[Bijay research](../../outputs/cinema-expansion-20261031/bijay-evidence.json), [independent review](../../outputs/cinema-expansion-20261031/bijay-review.json) and [photograph provenance](../../outputs/cinema-expansion-20261031/bijay-image-provenance.json) preserve the source accounts, limitations and CC BY-SA 3.0 credit.

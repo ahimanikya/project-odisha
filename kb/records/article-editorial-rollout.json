@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-30T05:56:01.987891+00:00",
+  "updated_at": "2026-10-31",
   "authorization": "POD-DEC-2026101702",
   "work_id": "POD-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -14502,6 +14502,31 @@
       "status": "queued",
       "scope": "New writer profile locally reviewed in the cinema expansion; publication separately pending",
       "source_template": "projects/site/src/pages/people/manglu-charan-biswal.astro",
+      "checks": {
+        "authorship": true,
+        "language": true,
+        "formatting": true,
+        "footnotes": true,
+        "images": true,
+        "kb_alignment": true,
+        "responsive": true
+      },
+      "evidence": [
+        "records/cinema-expansion-work-list-2026-10-31.json"
+      ],
+      "blocker": null,
+      "publication": false,
+      "editorial_stage": "local_review_ready_awaiting_publication",
+      "human_review_claimed": false,
+      "next_action": "Publish the reviewed local candidate when authorized; include it in the later rebuilt book edition."
+    },
+    {
+      "id": "POD-EDIT-20261044",
+      "route": "/people/bijay-mishra/",
+      "title": "Bijay Mishra: People, Plays and the Work of Cinema",
+      "status": "queued",
+      "scope": "New writer profile locally reviewed in the cinema expansion; publication separately pending",
+      "source_template": "projects/site/src/pages/people/bijay-mishra.astro",
       "checks": {
         "authorship": true,
         "language": true,

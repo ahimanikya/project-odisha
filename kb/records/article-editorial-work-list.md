@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 867. completed: 149, excluded: 420, queued: 298.
+Route inventory: 868. completed: 149, excluded: 420, queued: 299.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -891,3 +891,4 @@ Route inventory: 867. completed: 149, excluded: 420, queued: 298.
 | POD-EDIT-CINEMA-READING-ODIA-CINEMA-20261030 | [Reading Odia Cinema: the books behind the screen](https://projectodisha.org/cinema/reading-odia-cinema/) | completed | Cinema series reading; no autonomous programme increment |
 | POD-EDIT-20261042 | [Kanhu Charan Mohanty: The Household and the Wider World](https://projectodisha.org/people/kanhu-charan-mohanty/) | queued | New writer profile locally reviewed in the cinema expansion; publication separately pending |
 | POD-EDIT-20261043 | [Manglu Charan Biswal: Words for the Stage and the Page](https://projectodisha.org/people/manglu-charan-biswal/) | queued | New writer profile locally reviewed in the cinema expansion; publication separately pending |
+| POD-EDIT-20261044 | [Bijay Mishra: People, Plays and the Work of Cinema](https://projectodisha.org/people/bijay-mishra/) | queued | New writer profile locally reviewed in the cinema expansion; publication separately pending |
