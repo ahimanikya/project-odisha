@@ -25,7 +25,7 @@ The same catalogue records Meher’s Odisha background and training at the Film 
 
 Meher plays Kishtaya, a poor potter and husband of Lakshmi, played by Shabana Azmi. Anant Nag plays Surya.[^roles] Kishtaya had left following public humiliation. On returning, he accepts his wife’s approaching motherhood, before the encounter with Surya turns violent.[^award]
 
-The conflict puts employment, dependence and the landlord’s power inside a marriage. Kishtaya’s return is therefore more than a change in the household: it brings a vulnerable worker back within reach of the person who can decide whether he earns. This is the role behind the award, and a concrete starting point for understanding the actor’s place in Indian cinema.
+The conflict puts employment, dependence and the landlord’s power inside a marriage. Kishtaya’s return is therefore more than a change in the household: it brings a vulnerable worker back within reach of the person who can decide whether he earns.
 
 ![Sadhu Meher receiving the Padma Shri in 2017](../../media/cinema-series/additions/sadhu-meher-padma-shri-2017.jpg)
 
@@ -35,11 +35,11 @@ The conflict puts employment, dependence and the landlord’s power inside a mar
 
 Kapilas Bhuyan’s 2010 retrospective credits Meher’s *ଅଭିମାନ (Abhiman)* (1977) with helping revive cinema attendance.[^abhiman]
 
-Uttam Mohanty recalled meeting Meher, who photographed him and cast him in *Abhiman*. In the 2018 interview, Mohanty described obtaining his family’s permission and completing the shoot in 35 days.[^uttam-making] The recollection supplies an actor’s account of entering a production Meher directed.
+Uttam Mohanty recalled meeting Meher, who photographed him and cast him in *Abhiman*. In the 2018 interview, Mohanty described obtaining his family’s permission and completing the shoot in 35 days.[^uttam-making]
 
 The official 60th National Film Awards catalogue later listed him as chair of its South I feature-film jury panel. Its biography recorded six directed feature films by that point, alongside work in acting and television.[^jury]
 
-*Ankur* and *Abhiman* offer two entrances into that career: the role of Kishtaya, and an Odia film he directed. Following both keeps his work behind the camera beside the performance for which he received national recognition.
+In *Ankur*, Meher was the actor returning as Kishtaya. In *Abhiman*, he was the director giving Uttam Mohanty a role. Both belong to the career.
 
 ## Watch and explore
 

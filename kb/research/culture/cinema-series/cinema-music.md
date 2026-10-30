@@ -16,7 +16,7 @@ By Ahimanikya Satapathy
 
 A song can be the part of a film we keep closest. We may forget the order of its scenes and still want to hear a voice again. Following that wish can lead us back into the film—or towards another singer, another soundtrack, another person whose name deserves a place beside the melody.
 
-Take *ମମତା (Mamata)*. “Re Mita Aa Sangata” brings **Pranab Kishore Patnaik** and **Sikandar Alam** into the same recording, with music by [Prafulla Kar](../../people/prafulla-kar.md) and words by **Sibabrata Das**.[^mamata] Elsewhere on the soundtrack, **Chitta Jena** and **P. Susheela** sing “Dekhi Se Banamalli,” again with Kar’s music and Das’s lyrics.[^banamalli] One film offers several voices to follow. The credits begin to look like invitations.
+Take *ମମତା (Mamata)*. “Re Mita Aa Sangata” brings **Pranab Kishore Patnaik** and **Sikandar Alam** into the same recording, with music by [Prafulla Kar](../../people/prafulla-kar.md) and words by **Sibabrata Das**.[^mamata] Elsewhere on the soundtrack, **Chitta Jena** and **P. Susheela** sing “Dekhi Se Banamalli,” again with Kar’s music and Das’s lyrics.[^banamalli] Pranab and Sikandar share one song; Chitta and Susheela another.
 
 ## The possibilities inside a voice
 
@@ -28,17 +28,15 @@ That is a generous way to approach a long career: listen for what changes when a
 
 **Geeta Patnaik** joins **Akshaya Mohanty** in “Danei Das Kahere Bhai” from *ଯାଯାବର (Jajabara)*; **Trupti Das** sings with him in “Gadi Chale Pachhei.” Saregama credits Mohanty as the film’s composer.[^jajabara] His [dedicated profile](../../people/akshaya-mohanty.md) follows these exchanges more closely, alongside the writers who worked with him.
 
-Geeta and Trupti give these songs two further listening paths beyond the composer’s career. A duet can introduce us to either singer, and to the company they make together.
-
 **Bhubaneswari Mishra** offers another starting point with “Tiki Mora Naa Ti” in *କୃଷ୍ଣ ସୁଦାମା (Krushna Sudama)*.[^bhubaneswari]
 
 The movement between recordings and listeners also reaches beyond the cinema hall. The [AIR Cuttack story](../air-cuttack.md) follows broadcasting as another setting for words and music. A singer’s work may be encountered through a film, a radio recording or a concert; each encounter can prompt us to look for the others.
 
 ## Tapu’s choices, and a newer duet
 
-[Tapu Mishra](../../people/tapu-mishra.md) spoke in a 2018 interview about choosing playback and stage work, and about wanting to create new songs through her own production house. Her Hindi single “Bali Umariya” was a non-film release.[^tapu] The account presents a working singer making choices about what to take on and what she wanted to bring into being.
+[Tapu Mishra](../../people/tapu-mishra.md) spoke in a 2018 interview about choosing playback and stage work, and about wanting to create new songs through her own production house. Her Hindi single “Bali Umariya” was a non-film release.[^tapu] She was thinking about the songs she wanted to make, as well as the offers already before her.
 
-Her voice also meets **Humane Sagar’s** in the title song of *ଇସ୍କ ତୁ ହି ତୁ (Ishq Tu Hi Tu)*. The recording credits both singers, **Abhijit Majumdar** as composer and **Nizam** as writer.[^ishq] Reporting on Sagar’s career identifies the 2015 film’s title track as a breakthrough.[^humane] Listening through the duet keeps both performers in view, together with the people who supplied its music and words.
+Her voice also meets **Humane Sagar’s** in the title song of *ଇସ୍କ ତୁ ହି ତୁ (Ishq Tu Hi Tu)*. The recording credits both singers, **Abhijit Majumdar** as composer and **Nizam** as writer.[^ishq] Reporting on Sagar’s career identifies the 2015 film’s title track as a breakthrough.[^humane] 
 
 ## Other voices to follow now
 
@@ -50,11 +48,11 @@ Her voice also meets **Humane Sagar’s** in the title song of *ଇସ୍କ ତ
 
 An Odisha musician’s wider career can introduce another language or another form of performance. **Krishna Beura** recalled Salim Merchant recommending him for “Maula Mere Lele Meri Jaan” in the Hindi film *Chak De! India*. He credited **Salim–Sulaiman** with the composition and **Jaideep Sahni** with the words; the label names Krishna and Salim Merchant as singers.[^krishna][^maula] The connection is part of Hindi playback history, carried by an artist from Odisha.
 
-**Sona Mohapatra’s** “Ambarsariya” in the Hindi film *Fukrey* brings another collaboration into view: **Ram Sampath** composed the music and **Munna Dhiman** wrote the lyrics.[^sona] Her voice leads us into a different film industry, while the recording still asks the familiar question of who made the song together.
+**Sona Mohapatra’s** “Ambarsariya” in the Hindi film *Fukrey* brings another collaboration into view: **Ram Sampath** composed the music and **Munna Dhiman** wrote the lyrics.[^sona] 
 
 **Rituraj Mohanty** sang “Sahib” for the Hindi film *Bhoothnath Returns*, also with music by Ram Sampath and lyrics by Munna Dhiman.[^rituraj] His victory in *India’s Raw Star* in November 2014 belongs to television, a separate achievement from that film recording.[^raw-star] The two settings offer different ways an audience might first encounter the same singer.
 
-These Hindi-film examples sit beside the Odia soundtracks in this story. A musician’s connection to Odisha can travel across languages without making every song part of Odia cinema. The pleasure for a listener is being able to follow those journeys while keeping the particular film and collaborators in view.
+The Hindi recordings extend this story beyond Odia cinema. They belong to the singers’ wider working lives, alongside the films, languages and colleagues already encountered here.
 
 ## Keeping the work beside the song
 
@@ -62,7 +60,7 @@ The [literature and cinema reading](literature-and-screen.md) begins with writer
 
 Krishna Beura also spoke in favour of live recording, where singers and instrumentalists could work together and musicians could earn from the session.[^krishna] His preference brings the people making the accompaniment into the conversation about a singer’s work.
 
-There is practical work here for producers and labels. Agreements could make payment, credit and permitted uses clear before recording begins; a release could carry complete contributor information alongside the audio. Reissues could retain the earlier recording’s identities while distinguishing a new arrangement or performance. These are proposals for care, not claims that every song follows the same contract or earns the same return.
+There is practical work here for producers and labels. Agreements could make payment, credit and permitted uses clear before recording begins; a release could carry complete contributor information alongside the audio. Reissues could retain the earlier recording’s identities while distinguishing a new arrangement or performance. Such agreements would need to fit the particular recording and the people making it.
 
 The [cinema economics reading](cinema-economics.md) asks how money moves through a production. Music belongs in that conversation: singers, lyricists, composers and instrumentalists need paid work as well as recognition. For listeners, a smaller action is available now. Follow an official recording, read its credits, and let a familiar song introduce someone new.
 

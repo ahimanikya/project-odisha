@@ -17,19 +17,17 @@ By Ahimanikya Satapathy
 
 A story heard in childhood can become a way of understanding feelings that arrive later. In **ଲାବଣ୍ୟ ପ୍ରୀତି (Lavanya Preeti)**, A. K. Bir places adolescent experience beside the story of Kedar and Gouri. NFDC’s catalogue describes a story within a story, in which elders misunderstand the young lovers and tragedy follows.[^nfdc]
 
-The film, also catalogued as **Loving Hearts**, is a 1993 Odia live-action feature.[^nfdc] It belongs in our account of children’s cinema alongside animation, with a different set of expressive possibilities: young performers, spoken language and relationships unfolding on screen.
+The film, also catalogued as **Loving Hearts**, is a 1993 Odia live-action feature.[^nfdc] Young performers bring its friendships and misunderstandings to the screen.
 
 ## An inherited story and a present feeling
 
-The National Film Awards catalogue connects the Kedar–Gouri story with jatra and describes the contemporary classmates **Gopal, Vidyulata and Mayadhar** living under its imaginative influence.[^film] This offers a specific link between performance traditions and cinema. An older story can become part of how a young person understands a new friendship or separation.
+The National Film Awards catalogue connects the Kedar–Gouri story with jatra and describes the contemporary classmates **Gopal, Vidyulata and Mayadhar** living under its imaginative influence.[^film] An older story can become part of how a young person understands a new friendship or separation.
 
 The inherited tale and the classmates’ experience give the film two connected levels of storytelling. What do young characters recognise in it, and where might their own lives depart from its ending?
 
 ## The people making the film
 
 The catalogue credits Bir with script, direction and cinematography; **Dilip Panda** with editing; **Manoj Sikka** with sound; and **Bhavdeep Jaipurwalle** with music. It lists **Tara Shankar Misra** as a child artist.[^film]
-
-The shared work supports a story that moves between the classmates and the tale shaping their imagination. Bir’s three roles sit alongside the distinct contributions of editing, sound, music and child performance.
 
 ## Recognition for children’s cinema
 

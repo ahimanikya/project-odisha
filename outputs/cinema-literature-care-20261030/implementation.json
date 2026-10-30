@@ -1,0 +1,101 @@
+{
+  "status": "supporting implementation complete; no full builds or metadata apply",
+  "files": [
+    {
+      "path": "tools/cinema-literature-care-sync.mjs",
+      "sha256": "e5dfc1823727872c1bef9c2407476f0f5ba3a4ad1414ce9954e925f4ad974622"
+    },
+    {
+      "path": "projects/site/src/lib/cinema-article.mjs",
+      "sha256": "f5f0d6ac105000d68655a9d914b875895ba7b0e69c7fb3c18badb71280a93d44"
+    },
+    {
+      "path": "projects/site/src/components/CinemaReading.astro",
+      "sha256": "17d3662a15ea7bf730a99108a8ae83e35a4b729c1629a4c0d9904d77ac1a30ed"
+    },
+    {
+      "path": "output/pdf/build_book.py",
+      "sha256": "65190b88e7fa29b0b166fb2f5065cdb223a861a4339ce05a1abc75392cbe3ed3"
+    }
+  ],
+  "line_art_contract": {
+    "id": "unique-lowercase-id",
+    "slug": "existing-article-slug",
+    "placement": "before_heading OR after_section",
+    "heading": "Exact H2 text",
+    "image": "kb/media/cinema-series/literature-care-20261030/name.png",
+    "public_image": "/assets/cinema/name.png (optional; defaults original basename)",
+    "alt": "short visual description; empty for purely decorative drawing",
+    "caption": "Line drawing. (optional)",
+    "width_pt": "optional48–240; default144; height capped90pt preserving aspect"
+  },
+  "behavior": [
+    "Absent narrative.line_art leaves existing rendering unchanged.",
+    "Source PNG and public PNG must match byte-for-byte; intrinsic dimensions reserve web layout space.",
+    "Web drawing uses a separate compact div rather than replacing/adding to original figure/credit associations.",
+    "Book drawing is a compact centered flowable, caption width matches drawing; CondPageBreak avoids stranding it against the next section.",
+    "Book receipt records line_art_placements separately; unresolved placements fail rather than silently disappear.",
+    "Overview companion targets can resolve when companion renders; missing final target fails."
+  ],
+  "fast_commands": [
+    "node tools/cinema-literature-care-sync.mjs --slug SLUG",
+    "node tools/cinema-literature-care-sync.mjs --slug SLUG --apply"
+  ],
+  "sync_guards": [
+    "dry-run default; never edits canonical source or assets",
+    "only selected entry source hash and selected frontmatter fields",
+    "preserves all other articles, parts, book downloads and asset metadata",
+    "fails unmapped/new hero images and concurrent edits",
+    "per-slug fullHTML fragment and check receipt; not a full Astro visual preview"
+  ],
+  "checks": {
+    "node_syntax": "PASS helper and renderer",
+    "python_syntax": "PASS via AST/compile; no pycache or PDF",
+    "targeted_sync_dry_run": "PASS cinema-futures, no metadata mutation",
+    "web_mocked_asset_tests": "PASS absent config, before/after placement, intrinsic sizes, alt escaping, invalid path/target/duplicate failures",
+    "all_current_articles": "41 rendered; original figure counts preserved",
+    "book_isolated_marker_test": "PASS after-section and nonmatching-slug no-op; no full PDF run"
+  },
+  "guidance": {
+    "id": "responsive-design",
+    "search": "responsive intrinsic images",
+    "quote": "Use `aspect-ratio` for media elements (like `<img>` and `<video>`) to reserve space during loading and prevent Cumulative Layout Shift (CLS).",
+    "application": "Explicit original width/height and aspect-ratio reserve compact drawing geometry; no cropping."
+  },
+  "final_commands": [
+    "npm test && npm run build",
+    "node tools/check-public-disclosures.mjs dist",
+    "PYTHON output/pdf/build_book.py --edition digital --date 2026-10-30 --revision literature-care",
+    "PYTHON output/pdf/build_book.py --edition print --date 2026-10-30 --revision literature-care --layout-only",
+    "PYTHON output/pdf/build_book.py --edition print --date 2026-10-30 --revision literature-care --page-map tmp/pdfs/2026-10-30-literature-care/print/page-map.json"
+  ],
+  "pending": [
+    "Root supplies reviewed source/public PNG copies and narrative config.",
+    "Root synchronizes canonical manifest and book adaptation plan.",
+    "Full page/browser review and PDF marker/build/render QA only after source and artwork lock.",
+    "No new line-art image produced; existing47images, requiredcredits and covers preserved."
+  ],
+  "final_integration": {
+    "status": "Integrated and checked",
+    "files": [
+      {
+        "path": "tools/cinema-literature-care-sync.mjs",
+        "sha256": "e5dfc1823727872c1bef9c2407476f0f5ba3a4ad1414ce9954e925f4ad974622"
+      },
+      {
+        "path": "projects/site/src/lib/cinema-article.mjs",
+        "sha256": "70fa58d46c82c1c974b94b102e2e4a20d4b4eada8df8bc7713aed1bc5d204235"
+      },
+      {
+        "path": "projects/site/src/components/CinemaReading.astro",
+        "sha256": "6b47e6c12038378dfdec554c77db222fc2a6a632ff9d88764a9b97c25708bbab"
+      },
+      {
+        "path": "output/pdf/build_book.py",
+        "sha256": "add5c6fa5796edc50a03995125830b0aca0d3d90aefa860697bbedd8dabb3d65"
+      }
+    ],
+    "receipt": "validation.json",
+    "note": "Earlier hashes preserve the initial implementation handoff; these final hashes include root layout and citation-wrap corrections."
+  }
+}

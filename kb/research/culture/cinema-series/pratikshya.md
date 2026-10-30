@@ -21,7 +21,7 @@ The Film Bazaar viewing-room synopsis locates the story in a middle-class Bhuban
 
 ## A writer, a director and a leading actor
 
-The official IFFI account identifies a short story by **Gourahari Das** as the film’s inspiration. [Anupam Patnaik](../../people/anupam-patnaik.md) directed it; **Dipanwit Dashmohapatra**, playing Sanjay, described this as his first lead role.[^iffi] These connections make the film a useful meeting point between contemporary Odia writing and performance.
+The official IFFI account identifies a short story by **Gourahari Das** as the film’s inspiration. [Anupam Patnaik](../../people/anupam-patnaik.md) directed it; **Dipanwit Dashmohapatra**, playing Sanjay, described this as his first lead role.[^iffi]
 
 Patnaik’s [profile](../../people/anupam-patnaik.md) follows the work that led to the film. The [Gourahari Das profile](../../people/gourahari-das.md) opens a path to the writer’s fiction beyond this adaptation.
 
@@ -37,7 +37,7 @@ The discomfort of that premise gives viewers room to think about the relationshi
 
 The Film Bazaar entry credits **Roshan Bisoi** as writer, placing screenwriting beside the source story in the film’s creative history.[^bazaar]
 
-**Deepak Kumar’s cinematography** and **Deven Mishra’s editing** helped bring that writing to the screen. **Barsha Patnaik** contributed production and costume design; **Ankesh Anand and Ashish Pradhan** composed the music and background score, with **Bivash Rath** composing one song. These contributions belong beside the writer, director and actors in the film’s creative story.[^crew]
+**Deepak Kumar’s cinematography** and **Deven Mishra’s editing** helped bring that writing to the screen. **Barsha Patnaik** contributed production and costume design; **Ankesh Anand and Ashish Pradhan** composed the music and background score, with **Bivash Rath** composing one song.[^crew]
 
 *Pratikshya* later received **Best Odia Film at the 69th National Film Awards**, announced in August 2023 for the **2021 award year**. The result names **Amiya Patnaik Productions** and **Anupam Patnaik** as producer and director recipients.[^award]
 
@@ -47,7 +47,7 @@ The Film Bazaar entry credits **Roshan Bisoi** as writer, placing screenwriting 
 
 You can also select the [Pratikshya trailer in our viewing room](https://projectodisha.org/cinema/watch/#pratikshya-trailer), where it remains clearly separated from full-film listings.
 
-The film also belongs beside the series’ [economics chapter](cinema-economics.md). On screen, a family searches for financial stability. Behind the screen, another set of decisions determines how a story gets made and finds its audience. These are connected questions without being the same story.
+The household’s search for stability lingers beyond its synopsis. The [economics chapter](cinema-economics.md) turns to a different uncertainty: how the people making such a film can sustain their own work.
 
 ## Footnotes & Sources
 

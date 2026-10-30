@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {cinema,cinemaArticle,cinemaReadingSemantics,markReviewedOdia} from '../src/lib/cinema-article.mjs';
+import {cinema,cinemaArticle,cinemaReadingSemantics,markReviewedOdia,joinCinemaCitations} from '../src/lib/cinema-article.mjs';
 
 test('cinema subsection anchors preserve existing destinations and avoid collisions',()=>{
  const html=cinemaReadingSemantics('<h2 id="voices">Voices</h2><h3>Voices</h3><h3>Voices</h3><h3 id="retained">Old link</h3>');
@@ -27,3 +27,13 @@ test('language tagging uses verified phrases, respects existing language, and le
  assert.equal(markReviewedOdia('<span lang="or">ମମତା</span>'),'<span lang="or">ମମତା</span>');
  assert.equal(markReviewedOdia('<code>ମମତା</code>'),'<code>ମମତା</code>');
 });
+
+ test('citation tails keep a plain final word with adjacent native references without crossing inline tags',()=>{
+ const ref='<sup><a href="#user-content-fn-one" data-footnote-ref aria-label="Source 1">1</a></sup>';
+ assert.equal(joinCinemaCitations('the Foundation.'+ref), 'the <span class="cinema-citation-tail">Foundation.'+ref+'</span>');
+ assert.equal(joinCinemaCitations('Foundation.'+ref+ref), '<span class="cinema-citation-tail">Foundation.'+ref+ref+'</span>');
+ for(const tag of ['em','a'])assert.equal(joinCinemaCitations(`<${tag}>Foundation</${tag}>`+ref), `<${tag}>Foundation</${tag}>`+ref);
+ const html=cinemaArticle(cinema.articles.find(a=>a.slug==='literature-and-screen')).fullHTML;
+ assert.match(html,/<span class="cinema-citation-tail">Foundation\.<sup>/);
+ assert.doesNotMatch(html,/&#8288;/);
+ });

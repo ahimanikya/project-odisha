@@ -19,7 +19,7 @@ By Ahimanikya Satapathy
 
 A tradition can be admired long after the people who practise it have begun to struggle. The drum remains a symbol; the drummer still needs to earn a living.
 
-*ଭୂଖା (Bhukha)* offers one starting point for exploring cinema in western Odisha. Sabyasachi Mohapatra’s 1989 Sambalpuri film places folk performers within a changing society. Film critic Ashok Palit discusses it as an encounter between inherited ways of life and modernity.[^palit]
+In *ଭୂଖା (Bhukha)*, Sabyasachi Mohapatra’s 1989 Sambalpuri film, folk performers live within a changing society. Film critic Ashok Palit discusses it as an encounter between inherited ways of life and modernity.[^palit]
 
 ## Behind the sound, a livelihood
 
@@ -27,19 +27,19 @@ The film grew from a play by Manglu Charan Biswal. A later report about Mohapatr
 
 For a working musician, cultural change can arrive as the loss of the next engagement. The film’s subject brings an economic question into the celebration of inherited art: what allows a performer to continue?
 
-Ramesh Mahanand’s music offers a more specific way into the film. Himanshu Shekhar Guru’s 2015 account in *OrissaPOST* identifies a Nachnia song and a Sajani geet in its musical repertoire.[^music-forms] Listening for these forms gives the performers’ world a musical specificity beyond the general idea of a threatened tradition.
+Ramesh Mahanand composed the film’s music. Himanshu Shekhar Guru’s 2015 account in *OrissaPOST* identifies a Nachnia song and a Sajani geet in its musical repertoire.[^music-forms]
 
 ## Finding an audience at home
 
 In a 2022 interview, Mohapatra recalled that *Bhukha* did well in western Odisha and also reached audiences in Bhubaneswar, Cuttack and Puri. Looking back on the broader difficulties of distributing his films, he described the separate expense of posters, banners and promotion. Completing a film was only one part of bringing it to viewers.[^interview]
 
-That recollection gives the film another geography. Its journey was not only towards an international festival; it also ran between western Odisha and the coastal cities. His account follows the film through places where audiences could encounter it.
+In his recollection, the film travelled between western Odisha and the coastal cities. Its local audiences belong to its history alongside the festival record.
 
 ## A regional voice reaching another audience
 
 The 70th National Film Awards catalogue records an International Jury Award at Gijón for *Bhukha*, but gives no prize year.[^gijon]
 
-Amrit Amlan Pattanaik’s study places Mohapatra’s Sambalpuri films within western Odisha’s literary and cultural worlds.[^study] That regional focus offers another route through the films, alongside their festival record.
+Amrit Amlan Pattanaik’s study places Mohapatra’s Sambalpuri films within western Odisha’s literary and cultural worlds.[^study]
 
 ## Following the filmmaker forward
 

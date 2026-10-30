@@ -22,21 +22,21 @@ The meeting joined two working lives: Mourya’s move from engineering into film
 
 Mourya recalled a period of financial difficulty and a YouTube channel whose earnings helped them make *B for Bundelkhand*. By 2017, the Hindi film appeared in NFDC’s Film Bazaar Viewing Room catalogue, with both men credited as writers and directors, and as producers alongside Vivek Maurya.[^journey][^bundelkhand]
 
-The catalogue describes a farmer and his son facing drought and a strained relationship. It records a film seeking distribution, rather than an award or a confirmed theatrical release. That distinction matters when tracing a career: making a film, finding a market and reaching a paying audience are different stages.
+The catalogue describes a farmer and his son facing drought and a strained relationship. It records a film seeking distribution, rather than an award or a confirmed theatrical release.
 
 Their later Odia collaboration, *ବିଜୁ ବାବୁ (Biju Babu)*, was released in 2019. Mentis Films’ own profile identifies Mourya as a director, writer and founder, and places this film alongside *DAMaN* and *B for Bundelkhand*.[^mentis]
 
-The [DAMaN chapter](../culture/cinema-series/daman.md) follows the documentary encounter and local casting networks behind their best-known Odia collaboration. Here, Mourya’s account offers a closer view of how the two directors worked together.
+The [DAMaN chapter](../culture/cinema-series/daman.md) follows the documentary encounter and local casting networks behind their best-known Odia collaboration. Mourya also spoke about the discussions between the two directors.
 
 ## Discussion before the camera turns
 
-Mourya described a partnership in which either director could challenge an idea. They discussed shots together and worked through roughly ten drafts of *DAMaN* before filming.[^journey] It is a useful detail to place beside the finished film: the public result followed repeated decisions about what the story should become.
+Mourya described a partnership in which either director could challenge an idea. They discussed shots together and worked through roughly ten drafts of *DAMaN* before filming.[^journey]
 
-Preparation could not remove every obstacle on location. Mourya recalled the crew leaving vehicles behind and carrying equipment for miles to reach some shooting sites, with rain and missing mobile coverage adding difficulties.[^journey] His account gives the collaboration a physical scale: the work also had to reach the place where a scene would be filmed.
+Preparation could not remove every obstacle on location. Mourya recalled the crew leaving vehicles behind and carrying equipment for miles to reach some shooting sites, with rain and missing mobile coverage adding difficulties.[^journey] The work also had to reach the place where a scene would be filmed.
 
 Their *DAMaN* received Best Odia Film for 2022 at the 70th National Film Awards, announced in 2024.[^award]
 
-A creative partnership has to survive both disagreement and the demands of a shoot. Mourya’s account lets us see some of that work before the finished film reaches its audience.
+In Mourya’s recollection, the shared drafts and the equipment carried on foot belong to the same production. Discussion continued into the practical demands of the shoot.
 
 ## Footnotes & Sources
 

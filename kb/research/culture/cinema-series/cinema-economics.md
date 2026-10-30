@@ -29,13 +29,13 @@ It helps to follow money through the work. **Finance** makes preparation and pro
 
 A film may also earn through separately agreed television, streaming or other rights. Those payments can arrive on different schedules. To understand what can support another production, the producer needs to bring the actual receipts together and set them against the full costs and obligations. The published Bou Buttu Bhuta reports do not supply that settlement, so they establish a reported hit rather than an audited profit.
 
-This is why a successful release can be both a cultural occasion and a practical opening. It can make a new project worth discussing. Turning that possibility into paid work requires a plan for when money is available and what the next team can responsibly undertake.
+A successful release can make a new project worth discussing. For the next team, the question becomes concrete: when will the money arrive, and what work can it pay for?
 
 ## The audience needs a screen
 
 The [overview](../odia-cinema.md) describes the tension between busy shows and places without convenient cinema access. A successful film and a healthy exhibition network remain different questions.
 
-Location, showtimes, ticket affordability and the duration of a run shape who can attend. A release plan can begin with those everyday conditions: which towns have suitable screens, when the intended audience can come, and how long the film can remain available as word spreads. Opening-day business and a longer run tell different parts of that story.
+A viewer needs a suitable screen, an affordable ticket and a showtime they can attend. Word of mouth also needs time: a film may leave before someone who has heard about it can go. Opening-day business and a longer run tell different parts of that story.
 
 ## Support is more than a building
 
@@ -47,7 +47,7 @@ The redevelopment of Kalinga Studio, inaugurated in October 2026, can be judged 
 
 Streaming changes the route to a viewer, but does not abolish the cost of reaching one. The [OTT chapter](../odia-ott.md) follows the work of building platforms and catalogues. The economic question is what continuing arrangements these outlets can sustain with creators, as well as how many titles they carry.
 
-The next film begins where these relationships meet: a writer with time to develop an idea, a producer with a workable finance plan, a crew paid for its skills and a route to viewers. A dependable payment from one completed project can help someone commit to the next. That continuity is the practical ambition behind the [practical possibilities explored in the final reading](cinema-futures.md).
+The next film begins where these relationships meet: a writer with time to develop an idea, a producer with a workable finance plan, a crew paid for its skills and a route to viewers. A dependable payment from one completed project can help someone commit to the next. The [final reading](cinema-futures.md) stays with the possibilities for giving that work room to continue.
 
 ## Footnotes & Sources
 

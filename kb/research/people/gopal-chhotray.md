@@ -23,7 +23,7 @@ Odia Bibhaba’s collection identifies ଶ୍ରୀମତୀ ସମାର୍ଜ�
 
 A reader can linger over a narrator’s irony. In performance, a line arrives through a particular voice: an exchange needs its pace, and a pause has to be held. Chhotray’s adaptation gives the literary work another company of people through whom to reach an audience.
 
-The source author and the adapter both belong in that encounter. Keeping Fakir Mohan’s name beside Chhotray’s lets a listener follow the work back towards the story, or a reader seek out its musical form. The [AIR Cuttack chapter](../culture/air-cuttack.md) places that journey within the station’s wider life of writers and performers.
+Fakir Mohan’s story and Chhotray’s musical play remain available as two encounters with the work. The [AIR Cuttack chapter](../culture/air-cuttack.md) follows the writers and performers who gave such exchanges a home.
 
 ## Room for humour
 
@@ -47,7 +47,7 @@ The Library of Congress offers Chhotray’s readings from *Pheria*, *Parakalama*
 
 Begin with an excerpt that interests you. Where a matching text is available, place it beside the recording and notice the pace of the spoken passage. The digitised works also offer a separate route into the writing.
 
-Chhotray’s place in this cinema series is therefore also an invitation beyond cinema. Follow a dialogue credit towards a play, a play towards its literary source, or a recorded reading towards a book. Words made for voices can keep finding new company when the writing remains available and the people who carried it are remembered.
+The question from *Sova* stays with us: what becomes of the person whose life gives a successful story its shape? It belongs beside our admiration for the playwright. Chhotray’s words can still be heard, and the people within them can still ask something of us.
 
 ## Read and listen
 

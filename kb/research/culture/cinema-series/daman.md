@@ -21,13 +21,13 @@ The story began with another film that needed making. In 2020, Vishal Mourya and
 
 On **16 August 2024**, *DAMaN* was announced as **Best Odia Film at the 70th National Film Awards**, which honoured films of **2022**. The official record names producer JP Motion Pictures and directors Vishal Mourya and Debi Prasad Lenka.[^award]
 
-For Odia cinema, this was another chapter in a long history of national recognition. For this particular film, it marked the distance travelled by a story rooted in the difficult business of getting care to people.
+The award followed a story rooted in the difficult business of getting care to people.
 
 ## The people who brought it together
 
 Producer [Deependra Samal](../../people/deependra-samal.md), co-director [Vishal Mourya](../../people/vishal-mourya.md) and co-director and editor [Debi Prasad Lenka](../../people/debi-prasad-lenka.md) brought different responsibilities to the film.[^producer-credit][^catalogue]
 
-Their individual stories let us follow the work behind the finished film: backing an idea, developing it together and shaping it for the screen. They sit alongside the actors, technicians, local performers and healthcare workers whose contributions are also part of this account.
+Their profiles follow the backing, writing and editing of the film. Its story also involves local performers, technicians and the healthcare workers who inspired it.
 
 ## A doctor who has to decide whether to stay
 

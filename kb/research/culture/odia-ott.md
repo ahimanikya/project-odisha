@@ -25,7 +25,7 @@ Odia OTT belongs within the longer history of theatre, [radio](air-cuttack.md), 
 
 OTT, or over-the-top delivery, broadly describes media delivered through the internet. For this history, it helps to distinguish three kinds of offering: live or catch-up television, films acquired for streaming, and productions commissioned for a platform. An app can contain all three. “Original” and “exclusive” also need care: a work available exclusively through one service is not necessarily a work that service originally commissioned.
 
-That is why the Odia journey has several starting points. A broadcaster can extend an existing television library; an independent service can build a catalogue and produce new work; a filmmaker can license a completed film. Together they make a history of several kinds of initiative, from extending a library to commissioning a new story.
+That is why the Odia journey has several starting points. A broadcaster can extend an existing television library; an independent service can build a catalogue and produce new work; a filmmaker can license a completed film. 
 
 ## From broadcaster to streaming service
 
@@ -35,7 +35,7 @@ A contemporary launch report dates **Tarang Plus** to **27 October 2019**, after
 
 By March 2020, **ଚୁମ୍ବକ (Chumbak)** was providing a concrete example. MyCityLinks reported on the Tarang Plus series directed by **Susant Mani**, with **Tamanna Vyas** and **Divyadisha Mohanty**, about a same-gender relationship. Mani described the opportunity to experiment within a limited budget; Mohanty discussed preparing for a role that initially took her outside her comfort zone.[^chumbak]
 
-The director’s wish to experiment and the actor’s preparation meet in a particular story about intimacy. A new commissioning space can be understood through that practical encounter: what a filmmaker wants to attempt, and what a performer must bring to the role.
+The new commission asked something of both director and performer: a story Mani wanted to attempt, and a role Mohanty had to prepare for.
 
 ## Independent platforms build another route
 
@@ -47,7 +47,7 @@ Building a service means keeping both parts working: a place where viewers can f
 
 ## Finding a place among other apps
 
-Distribution also changed through bundles. On **12 January 2023**, Tata Play announced the addition of Tarang Plus to its Binge service, alongside other regional platforms. A viewer could encounter Odia programming through a shared subscription interface rather than searching for the standalone app. For a small-language service, that additional doorway can matter to how a viewer discovers its catalogue.[^binge]
+Distribution also changed through bundles. On **12 January 2023**, Tata Play announced the addition of Tarang Plus to its Binge service, alongside other regional platforms. A viewer could encounter Odia programming through a shared subscription interface rather than searching for the standalone app. [^binge]
 
 ## Language can travel beyond the state
 
@@ -74,7 +74,7 @@ Check the provider’s current catalogue, location and subscription terms.
 
 [^tarang]: Basil Kannagi Arasu, [Tarang Plus launch report](https://onlytech.com/tarang-plus-first-odia-ott-otv/), OnlyTech, 4 November 2019. Reports the 27 October launch and its initial offering.
 
-[^chumbak]: Jyoti Prakash Sahoo, [Tarang Plus and Chumbak](https://www.mycitylinks.in/tarang-plus-first-odia-ott-platform-to-break-stereotypes), MyCityLinks, 4 March 2020. Named maker and actor interviews; no independent audience survey or full-series viewing is claimed. The interviews concern making the series, not a survey of audience reception.
+[^chumbak]: Jyoti Prakash Sahoo, [Tarang Plus and Chumbak](https://www.mycitylinks.in/tarang-plus-first-odia-ott-platform-to-break-stereotypes), MyCityLinks, 4 March 2020. Maker and actor interviews about production, not audience-reception evidence.
 
 [^aao]: Choudhury Rajeshwari, [Interview with Kaushik Das](https://www.mediainfoline.com/interview/interview-of-kaushik-das-ceo-founder-aaonxt), Media Infoline, 15 February 2023. Founder’s chronology and operational account; announced future releases, “first” claims and subscriber totals are not treated as audited outcomes.
 

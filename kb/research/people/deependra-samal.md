@@ -16,21 +16,21 @@ By Ahimanikya Satapathy
 
 Before *ଦମନ (DAMaN)* took shape, Deependra Samal encouraged its directors to make something distinctive. Vishal Mourya recalled that request as part of the film’s beginning.[^making]
 
-Samal produced *DAMaN* under JP Motion Pictures; the CBFC’s certification record identifies him by name.[^certificate] His place in the story is worth understanding alongside the directors, performers and technicians whose work reached the screen.
+Samal produced *DAMaN* under JP Motion Pictures; the CBFC’s certification record identifies him by name.[^certificate]
 
 ## A producer in the conversation
 
-The directors’ public recollections describe more than financial backing. In their interview with *The Federal*, they credited Samal with constructive feedback and an understanding of what the project needed.[^conversation] This gives us a small but meaningful view of the collaboration: producing could involve listening to an idea and helping the filmmakers develop it.
+The directors’ public recollections describe more than financial backing. In their interview with *The Federal*, they credited Samal with constructive feedback and an understanding of what the project needed.[^conversation] They remembered a producer engaged in developing the idea as well as backing it.
 
 ## Recognition for a shared work
 
 JP Motion Pictures is the credited producer of *DAMaN*, named Best Odia Film for 2022 at the 70th National Film Awards, announced in 2024.[^award]
 
-The distinction belongs to a film made through many contributions. Naming its producer helps complete that record. Readers can follow the connected [DAMaN story](../culture/cinema-series/daman.md) for the actors, local performers, healthcare context and questions of representation that also belong to its history.
+The [DAMaN story](../culture/cinema-series/daman.md) follows the actors, local performers, healthcare context and questions of representation around the production.
 
 ## The work continues
 
-Samal’s public production credits extend to *ପରବ (Parab)*. Its colourist Sriprasad Sahoo’s project announcement names him as producer, Chinmay Das as director and Anu Choudhury as co-producer, again under JP Motion Pictures.[^parab] This brings another creative team into view rather than treating one successful collaboration as the whole of his career.
+Samal’s public production credits extend to *ପରବ (Parab)*. Its colourist Sriprasad Sahoo’s project announcement names him as producer, Chinmay Das as director and Anu Choudhury as co-producer, again under JP Motion Pictures.[^parab] The production brought Samal together with another director and co-producer.
 
 ## Footnotes & Sources
 

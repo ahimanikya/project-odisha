@@ -39,8 +39,6 @@ The film was selected for Cannes Critics’ Week in 1984. Mannheim’s 1984 arch
 
 At home, it received the Second Best Feature Film recognition in the 31st National Film Awards, covering films of 1983 and presented in 1984.[^national]
 
-The national award, Cannes selection and Mannheim prize trace different parts of its circulation.
-
 ## The work of bringing a film back
 
 The negative had been found abandoned in a warehouse in poor condition, according to Film Heritage Foundation’s Shivendra Singh Dungarpur in the Bologna programme.[^bologna]

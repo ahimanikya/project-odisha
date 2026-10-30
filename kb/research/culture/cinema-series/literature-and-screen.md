@@ -23,13 +23,13 @@ A film seen with a parent, a novel sought out later, an author deciding where it
 
 ## Writers who give a film its first world
 
-A page can hold a voice before a camera finds a face for it. Basanta Kumari Pattanayak’s *Amada Bata* became a 1964 film directed by Amar Ganguly, with [Gopal Chhotray](../../people/gopal-chhotray.md) credited for the screenplay.[^amada-film] Naming both writers lets us see two acts of creation: the novel’s world and the work of giving it a screen form.
+A page can hold a voice before a camera finds a face for it. Basanta Kumari Pattanayak’s *Amada Bata* became a 1964 film directed by Amar Ganguly, with [Gopal Chhotray](../../people/gopal-chhotray.md) credited for the screenplay.[^amada-film] The novel supplied a world; Chhotray had to find its life in scenes, speech and silences.
 
 There are other routes through this shared history. [Kalindi Charan Panigrahi](../../people/kalindi-charan-panigrahi.md)’s ମାଟିର ମଣିଷ (Matira Manisha) became Mrinal Sen’s 1966 Odia film. Sen’s filmography credits Panigrahi with the story and Sen with screenplay and direction.[^matira] In କା (Kaa), Kanhucharan Mohanty’s novel meets the screenplay and dialogue of Sarada Naik; the Gour–Parbati archive names the directing collective Siddharth as Ram Chandra Thakur, Gour Ghose and Parbati Ghose.[^lit-kaa]
 
-These credits describe people working on different parts of the same undertaking. A novelist may give us access to a character’s thoughts over many pages. A screenwriter must decide what can be seen and heard, what can be left to an actor, and where one scene should end. Dialogue has to live in a performer’s mouth. The source author remains present even when the film finds a different rhythm.
+A novelist may give us access to a character’s thoughts over many pages. A screenwriter must decide what can be seen and heard, what can be left to an actor, and where one scene should end. Dialogue has to live in a performer’s mouth. The source author remains present even when the film finds a different rhythm.
 
-Odia cinema’s literary relationships also include collaboration across languages and filmmaking traditions. Panigrahi and Sen belong in the same account. The interesting question is what people made together, and what their different experience brought to the work.
+Odia cinema’s literary relationships also include collaboration across languages and filmmaking traditions. Panigrahi and Sen belong in the same account. Their collaboration makes room for a story rooted in Odisha and a filmmaker bringing another experience of cinema to it.
 
 ## What a story asks us to notice
 
@@ -51,7 +51,7 @@ Chhotray wrote across theatre, radio and cinema.[^chhotray] The family archive f
 
 A writer’s movement into cinema can also involve learning a new craft. In a 2019 interview, Bijay Mishra recalled learning screenplay writing from Shyamal Mukherjee while working on ଯାଯାବର (Jajabara).[^bijay] Such recollections bring the working relationship into view: a literary or theatrical life can continue through conversations, revisions and decisions made for the screen.
 
-Songs open another path. A lyric has to find room within a tune and a voice, yet its phrasing can carry a writer’s wit and feeling. The [Akshaya Mohanty chapter](../../people/akshaya-mohanty.md) follows some of those exchanges through named singers and lyricists. Following their credits can take a listener beyond the best-known voice to the person who found the words.
+Songs open another path. A lyric has to find room within a tune and a voice, yet its phrasing can carry a writer’s wit and feeling. The [Akshaya Mohanty chapter](../../people/akshaya-mohanty.md) follows some of those exchanges through named singers and lyricists. A remembered voice can lead us back to the person who found the words.
 
 In the opening household passage of ରେବତୀ (Rebati), Fakir Mohan describes a child beside her father as he reads and sings:
 
@@ -69,33 +69,23 @@ Other paths lead through theatre and contemporary short fiction. ଭୂଖା (B
 
 These examples keep different forms and languages in the picture. A play, a novel and a short story give filmmakers different starting points. Sambalpuri speech and performance carry particular local relationships. Each adaptation also enters the circumstances of its own production and audience.
 
-Across these films, novels, short stories and plays have found new forms on screen. The next opportunity is to make those connections easier to build—with writers involved early, their work credited clearly, and paid time to develop stories for cinema.
-
 ## When a film brings a book into view
 
-A film can introduce a writer’s name to someone who has never opened the book. Whether that person then finds an edition, reads it, buys it or borrows it is another part of the journey. Mahapatra’s recollection shows a remembered film becoming part of a publishing project. To understand that journey more widely, we would need to hear from readers, writers and publishers about what happened after a film brought a book into view.
+Mahapatra’s remembered visit to *Amada Bata* did not end at the cinema door. Years later, it became part of his search for its author and a new edition. That is one documented journey, not a promise that every adaptation creates readers. It is enough to make us wonder what happens after a film stays with someone.
 
-The distinction matters to the people doing the work. A prominent credit is recognition. A book sale is a transaction. An author’s fee or royalty is income under an agreement. A film’s receipts still have to meet its costs and the claims of those distributing and exhibiting it. One cannot stand in for the others. The [cinema economics chapter](cinema-economics.md) follows that wider movement of money.
+A character may send us looking for a novel. A line may make us curious about the language in which it was first written. The book need not become an obligation after the pleasure of the film. It can be another pleasure waiting nearby.
 
-A useful account of an adaptation would therefore follow more than its opening weekend. It could ask which edition readers can obtain, how the author or rights holder participated, and what work the screenwriter was paid to develop. Answers would make the relationship clearer without asking literary prestige to guarantee commercial success.
+There is a practical kindness in keeping that next encounter possible: an obtainable edition, the author’s name, a translation that welcomes another reader. The [closing essay](cinema-futures.md) returns to the paid work and partnerships that could make more such encounters possible. Here, we can begin with the stories themselves.
 
-## Giving the next collaboration room to grow
-
-There is practical work to imagine here. Publishers, libraries and filmmakers could build a small, carefully credited selection of stories available for discussion, with a synopsis, the relevant edition and a route to the rights holder. Such a selection could include women writers, theatre and writing in the region’s different languages, with people who know those works helping choose them.
-
-Paid development would give writers and screenwriters time to explore an adaptation before a full production commitment. The [closing essay](cinema-futures.md) takes up the practical terms of such a collaboration.
-
-For readers, a simpler step is already possible: place an obtainable source-book link beside a film’s catalogue page or discussion. Offer a short, properly attributed passage where reuse is permitted. Name the translator when a translation is used. Give audiences somewhere to go when a character, a line or a situation makes them curious.
-
-The page and the screen can keep leading people back to one another. A child’s remembered film may become an adult’s search for a book; a reader may become a collaborator in a new production. Keeping the writer visible through that journey gives the next story a firmer place to begin.
+Basanta’s novel, Panigrahi’s brothers, Fakir Mohan’s neighbours and Rebati listening beside her father belong to different works. Together they remind us what literature offers the screen: people whose lives deserve our attention, and language through which we can begin to know them.
 
 ## Footnotes & Sources
 
 [^lit-neighbours]: Fakir Mohan Senapati, [Chha Mana Atha Guntha, “Bhagia and Saria”](https://or.wikisource.org/wiki/ଛମାଣ_ଆଠଗୁଣ୍ଠ/ଭଗିଆ_ଆଉ_ସାରିଆ), opening paragraph; Odia Wikisource transcription. English rendering for this edition; “community” retains the social/caste context.
 [^lit-rebati]: Fakir Mohan Senapati, [Rebati](https://or.wikisource.org/wiki/ଗଳ୍ପସ୍ଵଳ୍ପ/ରେବତୀ), opening household passage; Odia Wikisource transcription. English rendering for this edition.
-[^lit-kaa]: Gour–Parbati archive, Kaa: [Source](https://www.gourparbati.com/movie_kaa.php) . Source novel, screenplay/dialogue and directing credits.
-[^lit-bhukha]: Riyan Ramanath V, “Film highlights struggle to survive in rural Odisha,” Times of India,28November2012: [Source](https://timesofindia.indiatimes.com/city/bhubaneswar/film-highlights-struggle-to-survive-in-rural-odisha/articleshow/17396785.cms) .
-[^lit-pratikshya]: PIB, IFFI53 cast-and-crew account,23November2022: [Source](https://www.pib.gov.in/PressReleasePage.aspx?PRID=1878242) .
+[^lit-kaa]: Gour–Parbati archive, Kaa: [Source](https://www.gourparbati.com/movie_kaa.php). Source novel, screenplay/dialogue and directing credits.
+[^lit-bhukha]: Riyan Ramanath V, “Film highlights struggle to survive in rural Odisha,” Times of India, 28 November 2012: [Source](https://timesofindia.indiatimes.com/city/bhubaneswar/film-highlights-struggle-to-survive-in-rural-odisha/articleshow/17396785.cms).
+[^lit-pratikshya]: PIB, IFFI 53 cast-and-crew account, 23 November 2022: [Source](https://www.pib.gov.in/PressReleasePage.aspx?PRID=1878242).
 [^lit-ananta]: [BookMyShow, Ananta film listing](https://in.bookmyshow.com/movies/bengaluru/randi-pua-ananta/ET00432461), “About movie.” Literary source identified in the film synopsis.
 
 [^amada-memory]: [Manas Ranjan Mahapatra, “Remembering Amada Bata,” OdishaPlus, 20 July 2022.](https://odisha.plus/2022/07/remembering-amada-bata/)

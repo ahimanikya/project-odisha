@@ -20,13 +20,13 @@ In 2018, Tapu Mishra was thinking about which work to accept. She said she had b
 
 Mishra grew up in Sambalpur and began singing young. She attended Sambalpur University and obtained a music degree from Gandharva Mahavidyalaya. Her film career began with Himanshu Parija’s *କୁଳନନ୍ଦନ (Kulanandana)* in 1995; “Na Re Na Bajana Bansi” from *ଆଇ ଲଭ୍ ୟୁ (I Love You)* brought her wider recognition.[^career]
 
-A first film and a breakthrough mark different moments in a working life. The first is an entrance into a production; the later song gives listeners something particular to remember. Her career continued across film songs, bhajans and recordings in languages including Bengali and Hindi.[^career] These settings allowed her work to travel beyond one kind of screen performance.
+Her career continued across film songs, bhajans and recordings in languages including Bengali and Hindi.[^career]
 
 ## A duet, and a song outside cinema
 
 Tapu and Humane Sagar shared the title song of *ଇସ୍କ ତୁ ହି ତୁ (Ishq Tu Hi Tu)*. Abhijit Majumdar composed the music and Nizam wrote the words.[^ishq] The recording places her within a newer chapter of the [Odia cinema-music story](../culture/cinema-series/cinema-music.md), alongside a fellow singer whose voice also became closely associated with contemporary film songs.
 
-Another project took a different form. Her Hindi single “Bali Umariya,” with music by Sushil, was released by Venus on 14 February 2018. It was a music video outside a feature film, with Poonam Mishra appearing on screen.[^choices] Film playback and a standalone single could sit within the same singer’s working life, offering different ways for a song to meet its audience.
+Another project took a different form. Her Hindi single “Bali Umariya,” with music by Sushil, was released by Venus on 14 February 2018. It was a music video outside a feature film, with Poonam Mishra appearing on screen.[^choices] 
 
 ## The work she left, and the choices she voiced
 

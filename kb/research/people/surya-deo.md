@@ -25,15 +25,11 @@ Deo traced the beginning to a cinema-history column for *Dharitri*’s Sunday su
 
 A column needs an answer by its deadline. Research can leave the writer with more questions. A notice may establish that a film was advertised; a songbook may preserve a lyricist’s name. Neither, by itself, explains everything that happened. Their value grows when they can be read together.
 
-For this series, that is an important invitation: to follow a claim back to the people and records from which it came.
-
 ## When a singer finds a photograph she does not own
 
 At *Geeti Chhaya*, an exhibition opened at the Odisha State Museum in 2017, singer Trupti Das expressed surprise at seeing photographs she did not herself possess. Reporting on the exhibition described more than a hundred photographs of film-music work from 1950 to 1986, alongside gramophone records. The Culture Department and Film Journalists’ Forum collaborated on it; Deo credited material gathered from producers, directors, composers, lyricists, researchers and actors.[^exhibition]
 
 The photograph of a recording session can change the way we remember a song. It returns the song to a room of people working together. The singer remains visible, but so do the composer, the equipment and the other hands behind the sound.
-
-That is one reason the story of cinema needs more than a succession of leading actors and directors. Public memory becomes richer when it can accommodate those who wrote, played, recorded, printed, projected and preserved.
 
 ## Writing that travels beyond a screening
 
@@ -41,13 +37,13 @@ Some of the writing collected in *Kali Paine Kalira Cinema* grew from booklets p
 
 Deo’s wider work includes *Odia Cinema Rupa Rupantara*, *Jhura Mana Jhara Giti* and compilations of Odia film lyrics. A narrative history, writing about music and a collection of song texts serve different readers and different questions.[^works] Our [guide to books on Odia cinema](../culture/cinema-series/reading-odia-cinema.md) places these alongside work by other authors.
 
-The National Film Archive of India also lists his *History of Odia Film* among its completed research-fellowship projects.[^fellowship] Such records matter because research has a working life beyond the better-known publication or award.
+The National Film Archive of India also lists his *History of Odia Film* among its completed research-fellowship projects.[^fellowship]
 
 ## Finding a copy is also work
 
 A 2024 account of efforts to screen *ଉଲ୍କା (Ulka)* describes a damaged film print that could not be projected. A U-matic video cassette was subsequently traced and cleaned for use.[^ulka] It was a way to bring the film back before viewers; the report does not establish a restoration from the original film negative.
 
-The distinction helps us appreciate the labour accurately. Locating a surviving video copy and restoring film elements are different achievements. Both may help an audience encounter a work, but each offers different possibilities for its future.
+A surviving video copy allowed an audience to meet the film again. Its recovery mattered, even while the future of the film elements remained a separate question.
 
 ## Memory can become another film
 

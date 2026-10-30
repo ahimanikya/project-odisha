@@ -16,15 +16,15 @@ By Ahimanikya Satapathy
 
 Pranab Patnaik remembered learning Urdu from friends while an undergraduate at Aligarh Muslim University. Singing Urdu poetry and listening to ghazal singers helped him develop his style. Recalling that learning in 2017, he also spoke of sustained *riyaz*—practice.[^learning]
 
-It is an approachable beginning for a singer’s story: friendship opening a language, and practice giving that encounter time to grow. The familiar playback voice had a learner behind it. His recollection leaves room for the patient work that a finished recording rarely reveals.
+Behind the familiar playback voice was a student learning a language among friends, then returning to the discipline of practice.
 
 ## A voice among composers
 
-Patnaik said successive composers had explored his voice differently. Among them were [Akshaya Mohanty](akshaya-mohanty.md) and [Prafulla Kar](prafulla-kar.md).[^learning] That observation places collaboration close to the centre of his working life. A singer brought experience to each composition while remaining open to what another musician might ask of him.
+Patnaik said successive composers had explored his voice differently. Among them were [Akshaya Mohanty](akshaya-mohanty.md) and [Prafulla Kar](prafulla-kar.md).[^learning] He remembered being asked to do different things with a voice audiences already knew.
 
 In *ମମତା (Mamata)*, “Re Mita Aa Sangata” brought Pranab Kishore Patnaik and Sikandar Alam together, with Prafulla Kar’s music and Sibabrata Das’s words.[^mamata]
 
-“[Hai Se Harini Akhi](https://www.saregama.com/regional/odia_15/romantic_6/song),” from *ଯାଯାବର (Jajabara)*, carries Patnaik’s voice in a composition by Akshaya Mohanty.[^jajabara] These two recordings offer a small, concrete passage through the relationships he described. They also connect his story with the wider [Odia cinema-music story](../culture/cinema-series/cinema-music.md), where songs move between individual careers and the collective work of a film.
+“[Hai Se Harini Akhi](https://www.saregama.com/regional/odia_15/romantic_6/song),” from *ଯାଯାବର (Jajabara)*, carries Patnaik’s voice in a composition by Akshaya Mohanty.[^jajabara] Kar and Mohanty are two of the composers in the wider [Odia cinema-music story](../culture/cinema-series/cinema-music.md); here their songs meet in one singer’s career.
 
 ## A wider musical life
 

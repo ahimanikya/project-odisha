@@ -33,7 +33,7 @@ This is a growing reading guide, not a claim to have found every book or reviewe
 
 **Sanjoy Patnaik — *Of Reels, Romance and Retakes: Social Narratives of Cinema in Odisha*.** Released in 2023, with Routledge’s catalogue carrying a 2024 copyright date, this study places cinema in a social and cultural frame. Its contents and publisher description point towards literature, audiences, class, gender and the industry’s future. We have read selected preview passages, not the full arguments of those chapters. [Explore the Google Books preview](https://www.google.co.in/books/edition/Of_Reels_Romance_and_Retakes/NnrOEAAAQBAJ?hl=en&gbpv=1&printsec=frontcover).[^patnaik]
 
-These books invite different kinds of reading. A chronology helps establish what followed what. A social study asks who participated, whose lives were represented and how audiences encountered them. Neither task is completed by a list of awards.
+The books ask different questions: what followed what, who participated, and how audiences encountered the films.
 
 ## Songs, literature and the people around a film
 
@@ -47,9 +47,9 @@ These books invite different kinds of reading. A chronology helps establish what
 
 **Sanjoy Patnaik, editor — *Odia Cinema@90: Rhythms, Renditions and Reflections*.** The Bhubaneswar Film Circle’s 2024 collection brings multiple contributors into the discussion. A contemporary review identifies writing on literature, folk music, film songs, production facilities and representation. The festival’s subsequent report describes the book as bilingual.[^ninety]
 
-That range matters to the questions running through our series. Pragati Mohapatra’s chapter on literary classics and cinema is also recorded in her institution’s publication list. The collection’s review names Mahasweta Baxipatra on film songs and Debasis Mohapatra on folk music. These are promising routes for further reading, rather than arguments we can claim to have examined in full.[^ninety]
+Pragati Mohapatra’s chapter on literary classics and cinema is also recorded in her institution’s publication list. The collection’s review names Mahasweta Baxipatra on film songs and Debasis Mohapatra on folk music. These are promising routes for further reading, rather than arguments we can claim to have examined in full.[^ninety]
 
-**Sandip Kumar Nayak — *Ollywood and Its Superstars: Its All About Odia Cinema*.** Catalogues list this short English-language book from Notion Press in 2021. We have not assessed its contents. Including it keeps the reading field broader than academic publishing, and cautions against calling a later book the first in English without a much fuller survey.[^nayak]
+**Sandip Kumar Nayak — *Ollywood and Its Superstars: Its All About Odia Cinema*.** Catalogues list this short English-language book from Notion Press in 2021. Its contents have not been assessed here.[^nayak]
 
 A lyric collection may help us find a writer’s contribution. An interview collection may reveal an editor, a technician or a producer whose decisions shaped a film. For the question that brought us here—how creative work reaches people and supports those who make it—both deserve attention.
 
@@ -74,7 +74,7 @@ Three broader works offer useful connections without being books exclusively abo
 
 The present reading list identifies **14 cinema-focused entries and five related entries in life writing or tribute**, with the three broader works above kept separate. Editions and formats are not interchangeable: the two reported song compilations are listed separately, while a paperback and an ebook of the same text are not different works.
 
-This is enough to begin a more generous conversation about the people who have already done the work. It also leaves concrete tasks: finding older editions, recording title pages accurately, reading the books in full, and bringing overlooked writing into view.
+Older editions and overlooked writing may still change this shelf. A title page supplied by a reader can settle an uncertainty; a full reading can change what we thought a book offered.
 
 For Project Odisha, the next step is to let that reading sharpen our questions. What can an earlier production teach a new team? How did a song acquire a life beyond its film? Which experiences have still not reached a page?
 

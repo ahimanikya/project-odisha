@@ -32,7 +32,7 @@ Conservation means caring for the material itself. Digitisation makes a digital 
 
 The distinction is practical. Scanning a poster does not settle how to store the paper. Having a video file does not settle its identification or future upkeep. And a restored film still needs a route to viewers. The [return of ମାୟା ମିରିଗ (Maya Miriga)](maya-miriga.md) gives that last connection a particular history, with the restoration and its later screenings described together.
 
-OFDC’s 2024–25 reporting described an archive at its Cuttack corporate office and recorded 51 films stored on LTO, with ten undergoing digitisation. Those are figures from that reporting period, rather than a current total or a count of fully restored films.[^ofdc] Storage and transfer are meaningful work; keeping their descriptions precise helps us see what further work may be needed.
+OFDC’s 2024–25 reporting described an archive at its Cuttack corporate office and recorded 51 films stored on LTO, with ten undergoing digitisation. Those are figures from that reporting period, rather than a current total or a count of fully restored films.[^ofdc] The figures record storage and work in progress.
 
 ## Skills need somewhere to continue
 
@@ -40,7 +40,7 @@ A workshop can begin a working life. Continuing it takes somewhere to practise, 
 
 A November 2025 agreement between the Odisha government and Film Heritage Foundation concerned preservation and an archive centre.[^agreement] Kalinga Studio’s cinema archive and museum were inaugurated in October 2026.[^kalinga] The established Cuttack collection, the agreement and the inauguration should each retain their own place in the chronology; a collection’s location and access arrangements need to be established individually.
 
-The opportunity now is continuity. Paid placements could let trainees work alongside experienced conservators and cataloguers. Institutions could define manageable projects, provide supervision and budget for the time each task takes. These are proposals for turning learning into sustained work, not measured outcomes of the workshop or the agreement. The [learning-cinema reading](learning-cinema-together.md) approaches the same question through other kinds of shared practice.
+Paid placements alongside experienced conservators and cataloguers could help trainees continue this work. Time to practise, ask for help and care for an object is part of what an institution would need to support. The [learning-cinema reading](learning-cinema-together.md) follows that need for continued guidance in other kinds of film work.
 
 ## Custody and access belong together
 
@@ -54,7 +54,7 @@ There are established routes worth exploring. NFAI’s library page asks visitor
 
 For a family holding a songbook, photograph or labelled tape, a useful first contribution could be to write down the names, dates and story of how it came into their care. Keep uncertain identifications marked as uncertain. When approaching an institution, ask what it can accept, what documentation it needs and how the family’s contribution would be acknowledged. Damaged film deserves specialist advice rather than an improvised repair.
 
-For a college or film society, a modest project could pair a permitted screening with discussion of the people who made and preserved the work. For institutions, clear collection descriptions and an enquiry route would help connect care with use. The [economics of cinema](cinema-economics.md) extends into this continuing labour: a completed film still asks for skilled time, resources and agreements.
+A permitted screening can bring the work before people again, with time to acknowledge those who made and preserved it. The [economics of cinema](cinema-economics.md) extends into this continuing labour: a completed film still asks for skilled time, resources and agreements.
 
 Keeping a film alive is work passed between people. The person who saves a tape, the person who describes it, the technician who makes it usable and the organiser who brings it before viewers each carries a part. A future audience becomes possible when those contributions can meet.
 

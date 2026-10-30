@@ -21,13 +21,13 @@ On 27 June 2024, *ମାୟା ମିରିଗ (Maya Miriga)* met an audience ag
 
 Nirad Mohapatra’s film asks what family gives its members—and what it withholds. His programme note holds warmth alongside daughters-in-law’s desire for freedom.[^restoration] Bringing that story back to the screen required people to work with a badly damaged negative. The screening was an achievement in preservation as well as an encounter with a film.
 
-That meeting of people and work runs through this collection: a writer’s words finding actors, a performer learning another medium, a production finding its audience. We follow selected connections between language, art and the practical life of filmmaking. The companion readings offer places to pause with particular films and careers.
+A writer’s words find actors; a production finds its audience. Between them lie rehearsals, borrowed spaces, recording sessions and the work of keeping a finished film available. This collection follows those connections through particular films and careers.
 
 ## Before the camera: Natak, Rasa and Gitinatya
 
 *Sita Bibah* had a life before the camera. A later report by Minati Singha identifies a play by Kamapal Mishra as the basis of *Sita Bibah*.[^first-play] Piyush Roy’s research describes Goswami’s touring rasalila group and his work training performers. In an interview recorded by Roy, film historian Surya Deo characterises the first film as primarily *gitinatya*, or musical drama.[^stage-roots]
 
-This gives the connection a human shape. Goswami brought experience of performing, singing and organising a troupe to filmmaking. A familiar story could now be carried by recorded voices and moving images. The stage connection lies in particular people and a dramatic text, as well as in the place of song within the film.
+Goswami brought experience of performing, singing and organising a troupe to filmmaking. A familiar dramatic story could now be carried by recorded voices and moving images.
 
 Gitinatya joins dramatic storytelling with music and verse. Theatre scholar Alok Baral places Kalicharan Pattanaik among its practitioners.[^gitinatya] Kalicharan also wrote lyrics for *Lalita*, according to Bhuyan’s retrospective.[^foundation] His work connects musical theatre with the second Odia feature through an identifiable contribution.
 
@@ -41,7 +41,7 @@ Thirteen years is a striking interval. A first film establishes possibility; it 
 
 Music was present from the beginning. Bhuyan records fourteen songs in *Sita Bibah*, sung by its actors, and a move to background singing in *Lalita*. Later films drew on Odia literature, including *ଅମଡ଼ା ବାଟ (Amada Bata)*, *ମଲାଜହ୍ନ (Malajanha)* and *ମାଟିର ମଣିଷ (Matira Manisha)*.[^foundation]
 
-The screen offered another life to words and voices already circulating through the culture. To understand that foundation, we need to follow writers and composers as closely as directors. A film’s opening credits can be a small map of the arts meeting one another.
+The screen offered another life to words and voices already circulating through the culture. Writers and composers helped shape that life alongside directors and performers.
 
 
 ## Radio drama: another home for the storyteller
@@ -50,7 +50,7 @@ Radio enters this account later. AIR Cuttack began in **1948**, twelve years aft
 
 Chhotray is a concrete link between the media. The Library of Congress documents his work in Gitinatya, his long association with AIR Cuttack, and his writing of plays, operas and screenplays.[^chhotray-loc] The Gour–Parbati archive credits him specifically with **dialogue for *ଶ୍ରୀଜଗନ୍ନାଥ (Sri Jagannath)* (1950)**, while assigning direction and screenplay to C.R. Mitra.[^jagannath-dialogue]
 
-His career helps us follow the writer between a stage, a microphone and a film production. Radio drama asks listeners to imagine a scene through voices and sound; cinema supplies moving images as well. Chhotray’s credited dialogue supplies one specific connection between those working worlds.
+Chhotray worked between the stage, the microphone and film production. Dialogue was part of what he carried between them.
 
 **Continue this history:** [ଆକାଶବାଣୀ କଟକ — AIR Cuttack: where stories found another voice](air-cuttack.md).
 
@@ -313,12 +313,12 @@ The Bologna screening at the beginning of this story adds another question to th
 
 Preservation depends on teams too. **Shivendra Singh Dungarpur** describes Film Heritage Foundation’s conservators repairing *Maya Miriga*. Its restoration credits also name **L’Immagine Ritrovata, Digital Film Restore and Prasad Corporation**, in association with the filmmaker’s family, and identify NFDC–NFAI’s surviving print. A restored image carries technical labour that a director’s name alone cannot acknowledge.[^builders-preservation]
 
-Giving credit should recover the work, not replace one star-centred history with a new list of famous names.
+The work behind those names deserves attention too.
 
 
 The next chapter of Odia cinema history belongs partly to viewers: watching beyond the famous titles, learning the names behind the credits, asking for subtitled and restored editions, and making room for films whose worlds are unfamiliar even within Odisha.
 
-For a viewing journey, one starting point is the household in *Maya Miriga*, followed by the livelihoods in *Bhukha* and today’s family dramas, thrillers and popular releases. These are invitations to explore the films; the reading sequence continues next with Literature and Screen. Which film would you want the next generation to be able to find?
+For a viewing journey, one starting point is the household in *Maya Miriga*, followed by the livelihoods in *Bhukha* and today’s family dramas, thrillers and popular releases. The companion readings stay with their households, livelihoods and collaborators in greater detail. Which film would you want the next generation to be able to find?
 
 ## Reported film counts: a dated reference
 

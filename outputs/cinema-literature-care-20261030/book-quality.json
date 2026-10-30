@@ -1,0 +1,302 @@
+{
+  "status": "PASS",
+  "scope": "Independent AI visual review; draft books, not published. No human approval or accessibility certification.",
+  "initial_candidate": {
+    "digital": {
+      "sha256": "6c07bb5392aaaaa9da482e10cde82cc78e8b9336b02d4e5f0434dbb75af85a81",
+      "pages": 228,
+      "contact_sheets_viewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "contact_page_coverage": [
+        1,
+        228
+      ],
+      "full_pages_viewed": [
+        2,
+        7,
+        13,
+        14,
+        15,
+        53,
+        96,
+        108,
+        160,
+        168,
+        169
+      ]
+    },
+    "print": {
+      "sha256": "cdcebac0bc0b525f1c3dcddc8ad78fb7a56bd0d377cae71bbe96360bd314427f",
+      "pages": 250,
+      "full_pages_viewed": [
+        13,
+        108,
+        168,
+        231
+      ],
+      "all_pages_visual_review": false
+    }
+  },
+  "findings": [
+    {
+      "id": "layout-economics-tail",
+      "severity": "medium",
+      "digital_page": 160,
+      "finding": "Only three continuation lines of the final paragraph appear on a separate leaf.",
+      "recommendation": "Keep final paragraph whole or tighten chapter spacing without shrinking type."
+    },
+    {
+      "id": "layout-futures-tail",
+      "severity": "medium",
+      "digital_page": 169,
+      "finding": "Final two short paragraphs separated from closing line art and invitation on preceding page.",
+      "recommendation": "Tighten local spacing to keep a more substantial closing passage together."
+    },
+    {
+      "id": "layout-overview-tail",
+      "severity": "low",
+      "digital_page": 53,
+      "finding": "Performer bridge and transition occupy only the top fifth of page.",
+      "recommendation": "Bounded chapter spacing reduction."
+    },
+    {
+      "id": "layout-learning-tail",
+      "severity": "low",
+      "digital_page": 96,
+      "finding": "Final paragraph and part transition occupy only the top fifth of page.",
+      "recommendation": "Bounded chapter spacing reduction."
+    }
+  ],
+  "accepted_layouts": [
+    "Full portrait, stamp and facsimile leaves are intentional, not filler.",
+    "Watch/catalogue leaves and chapter-boundary whitespace are not treated as defects by themselves.",
+    "Anupam p125 is a short but cohesive closing section; no required repair."
+  ],
+  "positive_checks": [
+    "No clipped text or stranded headings seen across all digital contacts.",
+    "Three distinct line drawings appear once each at the intended literature, preservation and closing passages; full-size digital and print inspected.",
+    "Digital Odia literary excerpts p14–15 and dhaga p168 visibly render without tofu or clipping; this does not certify semantic PDF Unicode extraction.",
+    "Integrated source/image credit notes and guide are orderly at contact scale; no separate Image credits chapter.",
+    "Print directory p231 shows readable complete wrapped URLs."
+  ],
+  "limitations": [
+    "All digital pages inspected at contact scale only, with listed full-size samples.",
+    "Print sampled only as listed; root handles full print contact inspection.",
+    "No fresh factual source research, full film viewing, accessibility certification or publication action."
+  ],
+  "followup": "Parent has begun four-chapter spacing repair; these hashes are superseded for final approval. Wait for fresh matching receipts and render pages before final delta QA.",
+  "digital_reflow_review": {
+    "pdf": "output/pdf/odia-cinema-a-living-screen-2026-10-30-literature-care.pdf",
+    "sha256": "34b41cd2fdbe44ac61b60aa8549c04b1402d4d5a6fce8f305f80440f269e41aa",
+    "pages": 226,
+    "full_pages_viewed": [
+      51,
+      52,
+      93,
+      94,
+      157,
+      158,
+      166,
+      167
+    ],
+    "basis": "Fresh receipt and actual PDF SHA matched; inspected current rendered PNGs. Prior all-contact review retained for unaffected material.",
+    "resolved_findings": [
+      "layout-overview-tail",
+      "layout-learning-tail"
+    ],
+    "remaining_findings": [
+      {
+        "id": "layout-economics-tail",
+        "severity": "medium",
+        "page": 158,
+        "finding": "Only two continuation lines remain on a new leaf; preceding page ends with The.",
+        "recommendation": "Keep the final paragraph whole or use a bounded local fit adjustment; do not shrink body type or change canonical prose."
+      },
+      {
+        "id": "layout-futures-tail",
+        "severity": "low",
+        "page": 167,
+        "finding": "Final two complete paragraphs remain on a mostly empty closing leaf. No split paragraph or orphan heading.",
+        "recommendation": "Optional grouping with more of the closing passage if achievable without further broad reflow."
+      }
+    ],
+    "other_checks": "Overview p52 and Learning p94 have substantial coherent endings and transitions. No clipping or orphan headings on the eight inspected pages. Final line-art/dhaga remain legible at p166.",
+    "print_status": "New print not reviewed yet."
+  },
+  "latest_digital_reflow": {
+    "sha256": "41f1dcde46452e0c3f4d80668fefe94aa4dd2386e5ee14a67693eee2034668a0",
+    "pages": 226,
+    "full_pages_viewed": [
+      157,
+      158,
+      166,
+      167
+    ],
+    "status": "remaining_layout_issues",
+    "findings": [
+      {
+        "page": 158,
+        "finding": "Economics still has two-line continuation leaf; spacing4pt insufficient.",
+        "recommendation": "Keep final paragraph whole."
+      },
+      {
+        "page": 166,
+        "finding": "Forced closing-page break leaves previous page with only four-line A useful experience paragraph.",
+        "recommendation": "Keep this paragraph with preceding paragraph before the new closing leaf."
+      }
+    ],
+    "resolved": "p167 now contains complete illustrated invocation, heading, dhaga and all closing paragraphs, readable and unclipped."
+  },
+  "final_digital_review": {
+    "status": "PASS",
+    "sha256": "8c6d01347e27710d150d9793c8ab9d532af5ee194afc4bee578a0d63e2e4b22d",
+    "pages": 224,
+    "final_delta_full_pages_viewed": [
+      157,
+      164,
+      165
+    ],
+    "basis": "Initial full digital contact review plus successive bounded full-size delta checks recorded above.",
+    "resolved": "All four original sparse-tail findings resolved. Economics final paragraph now whole on157; futures164 contains substantial preceding section and165 a coherent complete illustrated closing. No clipping or orphan headings.",
+    "remaining_material_findings": [],
+    "limitations": "No all-pages full-size claim; final print review pending. Not human approval or accessibility certification."
+  },
+  "print_delta_review": {
+    "sha256": "1698df984a5a11e1d21bca2b78a1d610ce2425b7910cb04ad4b1e7c9ccb15d1f",
+    "pages": 248,
+    "chapter_page_references_stable": true,
+    "full_pages_viewed": [
+      158,
+      159,
+      167,
+      168,
+      199,
+      230
+    ],
+    "status": "two_print_layout_tails_remaining",
+    "findings": [
+      {
+        "page": 159,
+        "finding": "Only two lines of final-reading cross-reference on separate leaf."
+      },
+      {
+        "page": 167,
+        "finding": "Only five-line A useful experience paragraph on separate leaf before intentional closing page."
+      }
+    ],
+    "positive": "Full illustrated closing p168 coherent and Odia dhaga visibly legible; notes and source-directory sample readable with no clipping.",
+    "recommendation": "Bounded print-only grouping/fit; do not alter already passing digital or canonical prose."
+  },
+  "latest_final_binding": {
+    "digital": {
+      "sha256": "5b3624777bacd3541658129343ae67bdd5f88e391b4f2fba0249df93c1ef0209",
+      "pages": 224,
+      "page_map_stable": true
+    },
+    "print": {
+      "sha256": "43b1e8fe436b4e4467daa2fe87eb32ce3e6004b8e062ab609b25d9b1f8ad1d74",
+      "pages": 248,
+      "page_map_stable": true
+    }
+  },
+  "latest_final_visual_delta": {
+    "digital_full_pages": [
+      157
+    ],
+    "print_full_pages": [
+      158,
+      166,
+      167
+    ],
+    "economics_tail": "resolved both editions",
+    "digital_status": "PASS",
+    "print_status": "qualified PASS: cosmetic sparse leaf remains",
+    "remaining_minor_issue": "Print166 contains only one five-line paragraph before intentional complete illustrated closing167; no missing text, clipping, orphan heading or broken paragraph. Reported to coordinator explicitly, not marked resolved.",
+    "limitations": "Previous all-digital contact review plus recorded bounded full-size deltas; print sampling only. Not accessibility certification, press certification or human approval."
+  },
+  "latest_print_reflow": {
+    "sha256": "3c6b70b00df109ef2e6e6e269172e38492eafb946a19112df056dd88569ce890",
+    "pages": 248,
+    "page_map_stable": true,
+    "full_pages_viewed": [
+      165,
+      166,
+      167,
+      168
+    ],
+    "findings": [
+      {
+        "severity": "medium",
+        "page": 168,
+        "finding": "Companion intro says numbered sources belong to Chapter 2; reordered overview is Chapter12, while Chapter2 is literature.",
+        "required_fix": "Derive number from actual overview chapter order; check digital equivalent."
+      },
+      {
+        "severity": "low",
+        "page": 167,
+        "finding": "Final two complete closing paragraphs remain on a sparse leaf after illustration now flows on166. No missing text, split paragraph or clipping.",
+        "required_fix": false
+      }
+    ],
+    "positive": "Closing illustration/heading/dhaga on166 legible; p165 coherent and no orphan headings.",
+    "scope": "Bounded requested print pages only; earlier full contacts and samples retained."
+  },
+  "final_assessment": {
+    "status": "PASS",
+    "remaining_material_findings": [],
+    "digital_full_pages_final_delta": [
+      166
+    ],
+    "print_full_pages_final_delta": [
+      166,
+      167,
+      168
+    ],
+    "findings_resolved": [
+      "Companion correctly says Chapter12 in both editions.",
+      "Print closing now groups the final three complete paragraphs on167; airy intentional closing design, not a broken fragment.",
+      "All prior required sparse-tail and chapter-label defects resolved within reviewed scope."
+    ],
+    "coverage_basis": "Initial all-digital-contact inspection plus successive documented full-size deltas; selected print samples and final affected pages. Not all print pages reviewed by this agent.",
+    "limitations": [
+      "Independent AI review, not human approval.",
+      "No PDF/UA or press-ready certification.",
+      "Books remain draft; this review does not publish them."
+    ]
+  },
+  "final_artifacts": {
+    "digital": {
+      "pdf": "output/pdf/odia-cinema-a-living-screen-2026-10-30-literature-care.pdf",
+      "sha256": "9d235d61d50bc8be3bf78f63e11db243dda250e81f1ec2b46b21b079fb8724a0",
+      "pages": 224,
+      "chapter_page_references_stable": true,
+      "narrative_plan_sha256": "777998bcae65fd5fe573c04988f3c6d382ef21723f7adb031b64ddb5e12a79bd"
+    },
+    "print": {
+      "pdf": "output/pdf/odia-cinema-a-living-screen-print-2026-10-30-literature-care.pdf",
+      "sha256": "d81c95edcd1438a27b31749ba7058aba1b03436e84994f233d9c21740df40f1c",
+      "pages": 248,
+      "chapter_page_references_stable": true,
+      "narrative_plan_sha256": "777998bcae65fd5fe573c04988f3c6d382ef21723f7adb031b64ddb5e12a79bd"
+    }
+  }
+}
