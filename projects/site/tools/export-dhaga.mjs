@@ -5,7 +5,7 @@ import {resolve,basename} from 'node:path';
 import {createHash} from 'node:crypto';
 import sharp from 'sharp';
 const site=fileURLToPath(new URL('../',import.meta.url)),book=resolve(site,'../odia-dhaga');
-export const pdfURL='https://raw.githubusercontent.com/ahimanikya/project-odisha/8be61895fd213ec15ff7eec58f1633acc7aa5b6b/projects/odia-dhaga/odia-dhaga-book.pdf';
+export const pdfURL='https://raw.githubusercontent.com/ahimanikya/project-odisha/5b18adef5d5a17486f3f2e408e7cd60effec99ca/projects/odia-dhaga/odia-dhaga-book.pdf';
 const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 export function publicSourceCredit(source){
  const url=new URL(source.url),revision=url.searchParams.get('oldid');
