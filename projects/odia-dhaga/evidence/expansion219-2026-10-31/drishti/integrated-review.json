@@ -1,0 +1,82 @@
+{
+  "status": "PASS_REVIEWED_RESEARCH_DRAFTS",
+  "input_head": "f83f13001057120eba2d48b9b07ec4c69bc32216",
+  "research_baseline": "f83f13001057120eba2d48b9b07ec4c69bc32216",
+  "bindings": {
+    "anvesha/candidates.json": "0c1731bed5111e0cf5edad7f99a96e8a714618d8ac08e3611880f4edbfdf9369",
+    "anvesha/report.json": "c996a87a32e910371f916ad560d960e19f442e712b36744079b25a969e0510f5",
+    "anvesha/dispositions.json": "fdc21341b6792128aef8bdf6b8f553ee4a21687f36b66dbe3103f5c901e6227e",
+    "samanta/coverage-map.json": "9c9a607b0209b39ea8eb23d9df19a8cb156b780a966d326fb16d985b2087e318",
+    "samanta/selection-check.json": "e602903dbfd151723525036b3d09b79ef06e77e94f515157a12c528798282b51",
+    "drishti/source-context-review.json": "672ce805f66edfe050bd53c29590d62ea6eb3e3831e20e01163de9bb30d55ef7",
+    "samanta/validation.json": "336ca40ca10e4eaff48ebfe2eba28132ced9bab466f13dd7a48b2eb2424180e5"
+  },
+  "counts": {
+    "headwords": 8,
+    "positions": 9,
+    "reviewed_ready_drafts": 5,
+    "deferred": 4,
+    "accepted_increment": 0,
+    "programme_credit": 0,
+    "published_preserved": 214
+  },
+  "per_entry": [
+    {
+      "candidate_key": "anvesha-b12-01",
+      "verdict": "PASS_RESEARCH_DRAFT",
+      "entry_sha256": "e2f195128ed820beeabb9777c6775fa56cd24947c73615918f4b8f2b8d366ea4",
+      "finding": "Figurative superiority preserved; neutral charming one and onlooker framing. Romance/rivalry explicitly possible performance; no source-established biography/gender."
+    },
+    {
+      "candidate_key": "anvesha-b12-02",
+      "verdict": "PASS_RESEARCH_DRAFT",
+      "entry_sha256": "25a4135a192545819085fcacbb1410c728af541f4450a21acc771dbce5c74b2e",
+      "finding": "Pot/bathing contrast supports explicitly editorial tease about inconsistent standards; no invented ritual/caste custom."
+    },
+    {
+      "candidate_key": "anvesha-b12-03",
+      "verdict": "PASS_RESEARCH_DRAFT",
+      "entry_sha256": "d4e7e0ec8f0ae0634596a5bb990635b89f10829cac9ad898072abd27310af9f4",
+      "finding": "Source sense of deprivation and lexical221175 hot rice support unequal-allocation contrast. Distinct from166advance choice/202hot-meal hardship; lexical context is not another proverb witness."
+    },
+    {
+      "candidate_key": "anvesha-b12-04",
+      "verdict": "PASS_RESEARCH_DRAFT",
+      "entry_sha256": "1d1087761897981dcbb0cd3c1df67a15fe60e6bbd6ab9174e18dc2d7e5da5e3c",
+      "finding": "Banki/Dampara revenue explanation attributed to dictionary, not independently established fiscal history or origin. Original fundraiser application labelled invented."
+    },
+    {
+      "candidate_key": "anvesha-b12-05",
+      "verdict": "PASS_RESEARCH_DRAFT",
+      "entry_sha256": "ea4b96ca55b62b18147d049df862f6a34e16215dfb4f871a7d82a4f2bf03dcd2",
+      "finding": "Coarse-grass/old-bull line read critically as perfunctory care; no advice to neglect or species claim. Distinct from114attention displacement/140nearby neglect."
+    }
+  ],
+  "actual_checks": [
+    "Read all eight full original captures plus lexical221175 and all five complete bilingual drafts, summaries, examples, context and source notes.",
+    "Checked full captured API revision text equals each source text and source SHA; checked all author capture_manifest hashes and candidate/disposition bindings.",
+    "All exact headings occur verbatim in saved sources; labels exact; normalized_odia null; original examples explicitly labelled.",
+    "Read captured rightsinfo CC BY-SA4.0. Credits distinguish adapted source gloss on01/03/04 from source-informed editorial readings02/05; documentation licence is not traditional authorship.",
+    "Independently screened distinctive fragments against entire canonical214 JSON and examined related166/202/114/140 entries; distinct rhetorical actions, not only different nouns.",
+    "Reviewed four explicit deferrals: star/gourd agency, opaque support word, wooden-bell mechanism, unresolved domestic vessel. No invented restoration/biology/caste-history assertions.",
+    "Read final Samanta technical validation rebound to same final candidate/report hashes; source-role integration note agrees with separate review."
+  ],
+  "resolved_findings": [
+    "Exact source labels replace generic alternatives.",
+    "First draft no longer asserts beloved/admirer relationship as fact; literal/heading/summaries/body/example consistently distinguish possible performance."
+  ],
+  "integration_requirements": [
+    "Use only five referenced source IDs132951,57051,72971,68799,221175; four deferred-only sources remain research evidence.",
+    "Map221175 to visibly rendered context-only lexical note with no full-saying wording/attestation. Current context_source_ids alone is ignored by reader.",
+    "Retain source spelling, uncertainty, original example labels and concise narrative credits.",
+    "Actual illustrated integration, acceptance counts and publication remain separate future gates."
+  ],
+  "limits": [
+    "Separate AI review, no human proofreading or new print/scan verification.",
+    "No network research performed by reviewer; examined saved actual API captures.",
+    "No exhaustive oral-variant uniqueness or historical-origin proof; same dictionary lineage not independent corroboration.",
+    "500–1000 is low-confidence planning hypothesis only, not verified total or quota.",
+    "No canonical/Git edits or public changes."
+  ],
+  "next_action": "Assemble unchanged five reviewed drafts and four deferrals; request parity-only assembled review."
+}
