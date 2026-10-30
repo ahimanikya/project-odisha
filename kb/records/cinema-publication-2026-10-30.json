@@ -6,7 +6,7 @@
     "actor": "Ahimanikya Satapathy",
     "request": "publish",
     "date": "2026-10-30",
-    "scope": "Reviewed41-readingcinemacollectionandupdateddigitalandprintbookeditions"
+    "scope": "Reviewed 41-reading cinema collection and updated digital and print book editions"
   },
   "active_article": null,
   "scope": "Release integration of already-reviewed cinema readings; no new article research",
@@ -27,7 +27,7 @@
       "write_scope": []
     },
     "Disha": {
-      "scope": "Release metadata,sourceintegration,GitHubbookupload,PR,merge,deployandreceipts",
+      "scope": "Release metadata, source integration, GitHub book upload, PR, merge, deployment and receipts",
       "write_scope": [
         "Cinema release payload and shared records with preserved unrelated ownership"
       ]
@@ -35,7 +35,44 @@
   },
   "baseline": "records/cinema-publication-readiness-2026-10-30.json",
   "book_manifest": "outputs/cinema-publication-readiness-20261030/book-release-manifest.json",
-  "publication_performed": false,
+  "publication_performed": true,
   "human_specialist_review_claimed": false,
-  "scope_released": false
+  "scope_released": false,
+  "book_release": {
+    "status": "published_assets_verified",
+    "url": "https://github.com/ahimanikya/project-odisha/releases/tag/odia-cinema-book-2026-10-30",
+    "tag": "odia-cinema-book-2026-10-30",
+    "source_revision": "5c7856420861e311ec6cd2a4354e7bbbc7e5f780",
+    "verified_at": "2026-10-30T05:19:04.823936+00:00",
+    "verification": "Remote bytes and SHA-256 equal both reviewed local PDFs; 41 canonical source bindings and narrative plan checked before activation",
+    "assets": [
+      {
+        "edition": "digital",
+        "file": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-30/odia-cinema-a-living-screen-2026-10-30-open-possibilities.pdf",
+        "bytes": 17085322,
+        "sha256": "cab8a61622abe576c2a21cadcbf3868fc2d33615b8da136ea18c4b516743b537",
+        "pages": 235,
+        "status": "reviewed_release_asset"
+      },
+      {
+        "edition": "print",
+        "file": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-30/odia-cinema-a-living-screen-print-2026-10-30-open-possibilities.pdf",
+        "bytes": 39974692,
+        "sha256": "14160f265ad6f7c4756d2689fd9ac39d6b88ea2909f8470fc52f0be3e4dd2e17",
+        "pages": 260,
+        "status": "reviewed_release_asset"
+      }
+    ]
+  },
+  "independent_review": {
+    "reviewer": "Drishti AI subagent",
+    "result": "PASS",
+    "revision": "ed310d16",
+    "scope": "Semantic merge preservation, all 41 canonical source hashes, both PDF hashes and sizes; no claim of human specialist review"
+  },
+  "website": {
+    "status": "validation_in_progress",
+    "deployed": false
+  },
+  "publication_scope_performed": "Book release assets only; website deployment pending"
 }
