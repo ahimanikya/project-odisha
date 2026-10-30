@@ -1,0 +1,28 @@
+{
+  "status": "LOCAL_DELIVERY_PASS_NOT_PUBLICATION",
+  "entries": 198,
+  "illustrations": 198,
+  "pdf_sha256": "3260a6e99ddf58ef9516979d85eb5dc73c10d148e30d38738d2cf15871282d41",
+  "pdf_pages": 111,
+  "verified_product_files": 609,
+  "preserved_extra_files": 506,
+  "tests": {
+    "repository": 14,
+    "source_inventory": 5,
+    "all_pass": true,
+    "transcription_test": "Not present locally; not claimed run"
+  },
+  "initial_omission_and_resolution": "Initial606file allowlist omitted three required product support files. Exact baseline-guarded correction adds collection-metadata.json,research-design.json,reader.html. Initial failures and all reports retained.",
+  "authorization": "Coordinator explicitly authorized local sync before public deployment; this is local delivery only.",
+  "evidence": {
+    "local-reader-sync-result.json": "d5dc53e55c768d1c579ccede0c7a326821c93007e88c8eebe45298a59a928c60",
+    "local-sync-support-correction.json": "65f2a04ea871f524319c947c28906eff4648e72502c70cd15e2ef98f95be3a18",
+    "candidate-plan.json": "cea4321a583e5623b9e3e9b1155dbf035f42aa80599754edc99c97500ed1195f",
+    "local-baseline.json": "e95d575ff086343aace9e3562759e1aef0e3dfa6c7105227c2fac933a576c561"
+  },
+  "limits": [
+    "No live network calls, public deployment claim or canonical changes.",
+    "Repository test rebuilds local HTML; all609product hashes rechecked exact to final candidate afterward.",
+    "509initialextras became506protected extras after three required product files explicitly reconciled."
+  ]
+}
