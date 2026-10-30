@@ -1,0 +1,67 @@
+{
+  "status": "local_review_ready",
+  "date": "2026-10-30",
+  "baseline": "c66f1b22b03312b57ec880bc6c6c35207296a41b",
+  "authorization": "Founder: Better, let’s apply to all",
+  "scope": "Apply approved image families across all 41 articles and both book drafts; preserve cards, prose, original images, full-image links and numbered credits. No publication.",
+  "active_article": null,
+  "reserved_scopes": {
+    "Disha": [
+      "shared image-layout-2026-10-30.json",
+      "records/builds/integration"
+    ],
+    "Anvesha": [
+      "outputs/cinema-image-rollout-20261030/asset-review.json",
+      "outputs/cinema-image-rollout-20261030/contact-sheets/"
+    ],
+    "Samanta": [
+      "output/pdf/build_book.py",
+      "projects/site/src/lib/cinema-article.mjs",
+      "projects/site/src/components/CinemaReading.astro",
+      "projects/site/tests/cinema-reading-semantics.test.mjs",
+      "projects/site/tests/cinema-release.test.mjs",
+      "projects/site/tests-coast/cinema-image-sizing.test.mjs"
+    ],
+    "Drishti": [
+      "outputs/cinema-image-rollout-20261030/quality-review.json"
+    ]
+  },
+  "programme_progress_credit": 0,
+  "completed_at": "2026-10-30T15:43:12.914639+00:00",
+  "configuration": "kb/research/culture/cinema-series/image-layout-2026-10-30.json",
+  "evidence_directory": "outputs/cinema-image-rollout-20261030",
+  "validation": "outputs/cinema-image-rollout-20261030/validation.json",
+  "quality_review": "outputs/cinema-image-rollout-20261030/quality-review.json",
+  "books": {
+    "digital": {
+      "file": "output/pdf/odia-cinema-a-living-screen-2026-10-30-image-layout.pdf",
+      "sha256": "67ea96e6a0ffca3b56a1cefbeba23e8b78aeab2a46afd0161c27d71624560f98",
+      "pages": 223,
+      "receipt": "outputs/cinema-image-rollout-20261030/digital-book-build.json"
+    },
+    "print": {
+      "file": "output/pdf/odia-cinema-a-living-screen-print-2026-10-30-image-layout.pdf",
+      "sha256": "b212009537cf29b625641f2b67824e120e085ebcd60526f15a5bb62b585f6a62",
+      "pages": 246,
+      "receipt": "outputs/cinema-image-rollout-20261030/print-book-build.json"
+    }
+  },
+  "families": {
+    "full_width_illustrations": 27,
+    "full_width_documentary": 8,
+    "large_portraits": 5,
+    "large_uncropped_context_portraits": 4,
+    "author_portrait": 1,
+    "stamp": 1,
+    "printed_page": 1
+  },
+  "layout_rules": {
+    "portrait_web_width_px": 380,
+    "portrait_book_text_width_fraction": 0.85,
+    "safe_portrait_ratio": "4:5",
+    "context_sensitive_photographs": "Natural ratio; preserve hands, trophies, instruments and setting.",
+    "captions": "Left edge and width follow their image.",
+    "preview_cards": "Unchanged"
+  },
+  "publication_performed": false
+}

@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {cinema,cinemaArticle,cinemaReadingSemantics,markReviewedOdia,joinCinemaCitations,cinemaImageTrial,figureStyle} from '../src/lib/cinema-article.mjs';
+import {cinema,cinemaArticle,cinemaReadingSemantics,markReviewedOdia,joinCinemaCitations,cinemaImageLayout,figureStyle} from '../src/lib/cinema-article.mjs';
 
 test('cinema subsection anchors preserve existing destinations and avoid collisions',()=>{
  const html=cinemaReadingSemantics('<h2 id="voices">Voices</h2><h3>Voices</h3><h3>Voices</h3><h3 id="retained">Old link</h3>');
@@ -38,13 +38,16 @@ test('language tagging uses verified phrases, respects existing language, and le
  assert.doesNotMatch(html,/&#8288;/);
  });
 
-test('image trial targets exact source and slug, retains complete-image links and bounded frames',()=>{
- assert.equal(cinemaImageTrial.length,7);assert.equal(new Set(cinemaImageTrial.map(f=>f.slug)).size,5);
+test('image layout targets exact source and slug, retains complete-image links and bounded frames',()=>{
+ const expected=cinema.articles.flatMap(e=>e.images.map(i=>`${e.slug}\n${i.source}`));
+ assert.deepEqual(cinemaImageLayout.map(f=>`${f.slug}\n${f.source}`).sort(),expected.sort());
+ assert.equal(new Set(expected).size,expected.length);
  for(const entry of cinema.articles){
   const html=cinemaArticle(entry).fullHTML;
   for(const image of entry.images){
-   const frame=cinemaImageTrial.find(f=>f.slug===entry.slug&&f.source===image.source);
-   if(!frame){assert.equal(figureStyle(image,entry.slug),figureStyle(image,'outside-trial'));continue;}
+   const frame=cinemaImageLayout.find(f=>f.slug===entry.slug&&f.source===image.source);
+   assert.ok(frame,entry.slug+' source configured');
+   if(frame.web.width_px===null)assert.ok(figureStyle(image,entry.slug).includes('--cinema-figure-width:100%'));
    assert.ok(html.includes(figureStyle(image,entry.slug)),entry.slug+' configured frame');
    assert.ok(html.includes(`href="${image.file}" aria-label="View complete image"`));
    const figure=[...html.matchAll(/<figure\b[\s\S]*?<\/figure>/g)].find(m=>m[0].includes(`src="${image.file}"`))?.[0];

@@ -1,10 +1,10 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {cinema,cinemaArticle,cinemaImageTrial} from '../src/lib/cinema-article.mjs';
+import {cinema,cinemaArticle,cinemaImageLayout} from '../src/lib/cinema-article.mjs';
 const read=route=>readFileSync(new URL('../'+(process.env.CINEMA_UX_DIST||'dist-coast')+route+'index.html',import.meta.url),'utf8');
-test('all cinema figures preserve native dimensions and source associations with natural geometry or explicit trial frames',()=>{
- let placements=0,trialPlacements=0;
+test('all cinema figures preserve native dimensions and source associations with natural geometry or configured frames',()=>{
+ let placements=0,configuredPlacements=0;
  for(const entry of cinema.articles){
   const {article}=cinemaArticle(entry),figures=[...article.html.matchAll(/<figure\b([^>]*)>([\s\S]*?)<\/figure>/g)];
   placements+=figures.length;
@@ -12,9 +12,10 @@ test('all cinema figures preserve native dimensions and source associations with
    assert.match(figure,/<picture><img/);assert.match(figure,/<figcaption>/);
    const src=figure.match(/<img[^>]*src="([^"]+)"/)[1];const image=entry.images.find(i=>i.file===src);assert.ok(image,entry.slug);
    assert.ok(figure.includes(`width="${image.width}" height="${image.height}"`));
-   const trial=cinemaImageTrial.find(frame=>frame.slug===entry.slug&&frame.source===image.source);
-   if(trial)trialPlacements++;
-   const expected=trial?.web.width_px!=null?`${trial.web.width_px}px`:image.height>=image.width?`${Math.min(image.width,600*image.width/image.height)}px`:'100%';
+   const trial=cinemaImageLayout.find(frame=>frame.slug===entry.slug&&frame.source===image.source);
+   if(trial)configuredPlacements++;
+   assert.ok(trial,entry.slug+' source configured');
+   const expected=trial.web.width_px===null?'100%':`${trial.web.width_px}px`;
    assert.ok(attributes.includes(`--cinema-figure-width:${expected}`),entry.slug);
    const ratio=trial?.web.ratio||[image.width,image.height];
    assert.ok(attributes.includes(`--cinema-image-ratio:${ratio[0]} / ${ratio[1]}`),entry.slug);
@@ -29,7 +30,7 @@ test('all cinema figures preserve native dimensions and source associations with
   const html=read(entry.route);assert.match(html,/cinema-reader/);
   for(const block of html.matchAll(/<section\b[^>]*class="([^"]*article-reading-path[^"]*)"/g)){assert.match(block[1],/uniform-images/);assert.doesNotMatch(block[1],/contain-images/);};
  }
- assert.equal(trialPlacements,cinemaImageTrial.length);
+ assert.equal(configuredPlacements,cinemaImageLayout.length);
  assert.equal(placements,cinema.articles.reduce((count,entry)=>count+entry.images.length,0));
 });
 test('cinema cards use cropped preview frames while article images retain full sources',()=>{
