@@ -230,7 +230,7 @@ def render(data):
 <details><summary>Witnesses, variants &amp; limits</summary><ul class="witnesses">{witnesses}</ul>
 {f'<h3>Recorded variants</h3><ul>{variants}</ul>' if variants else '<p class="note">No additional variant is documented in this entry.</p>'}
 <h3>Origins and uncertainty</h3><p>{esc(entry['origin_note'].replace('Meanings here are original editorial interpretations with human Odia proofreading still pending.', 'The interpretation remains provisional.'))}</p>
-<h3>Reuse and rights</h3><p>{esc(entry['rights_note'])}</p></details></div></details></article>''')
+<h3>Explanation credit</h3><p>{narrative_credit_html(entry,data['sources'])}</p></details></div></details></article>''')
     cited_source_ids = {item['source_id'] for entry in data['entries']
                         for item in entry['witnesses'] + entry.get('variants', [])
                         if item.get('source_id')}
@@ -321,6 +321,25 @@ def reading_caption(text):
     text=text.replace(' by Project Odisha,;', ';').replace(' by Project Odisha,', '').replace(' for Project Odisha, approved by the Founder;', ';').replace(' for Project Odisha;', ';')
     return text.strip()
 
+def narrative_credit_parts(entry, sources):
+    """Plain editorial credit with optional exact registry-title links; never raw markup."""
+    text=entry.get('narrative_credit') or 'Explanation by Project Odisha.'
+    if not isinstance(text,str):raise ValueError('narrative_credit must be a plain string')
+    titles={source['title']:source['url'] for source in sources if source.get('title') and source.get('url')}
+    if not titles:return [(text,None)]
+    pattern='|'.join(re.escape(title) for title in sorted(titles,key=len,reverse=True))
+    parts=[];start=0
+    for match in re.finditer(pattern,text):
+        if match.start()>start:parts.append((text[start:match.start()],None))
+        parts.append((match.group(),titles[match.group()]));start=match.end()
+    if start<len(text):parts.append((text[start:],None))
+    return parts
+
+def narrative_credit_html(entry, sources):
+    return ''.join(f'<a href="{esc(url)}">{esc(text)}</a>' if url else esc(text)
+                   for text,url in narrative_credit_parts(entry,sources))
+
+
 def consolidate_entry_sources(page, entry, data):
     # Keep exact witness locators and source links; internal access/status logs stay in JSON.
     sources={source['id']:source for source in data['sources']}
@@ -360,7 +379,7 @@ def consolidate_entry_sources(page, entry, data):
     if entry.get('graphic'):
         page=page.replace(esc(entry['graphic']['caption']),esc(reading_caption(entry['graphic']['caption'])))
     page=page.replace('Offline typefaces: Noto Serif Oriya and Source Serif 4, SIL Open Font License. Licences are included in assets/.','')
-    extra='<h3>Origins and uncertainty</h3><p>'+public_note(entry['origin_note'])+'</p><h3>Entry reuse</h3><p>'+esc(entry['rights_note'])+'</p><p>Original commentary and illustrations: Project Odisha · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Fonts: Noto Serif Oriya and Source Serif 4, SIL Open Font License.</p>'
+    extra='<h3>Origins and uncertainty</h3><p>'+public_note(entry['origin_note'])+'</p><h3>Explanation credit</h3><p>'+narrative_credit_html(entry,data['sources'])+'</p><p>Illustrations: Project Odisha · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Fonts: Noto Serif Oriya and Source Serif 4, SIL Open Font License.</p>'
     for v in entry.get('variants',[]):
         if not v.get('source_id'):extra+='<p class="odia" lang="or">'+esc(v['odia'])+'</p><p>'+public_note(v['note'])+'</p>'
     page=page.replace('<section id="sources"><h2>Sources &amp; rights</h2>','<section id="sources"><details open><summary>Sources &amp; rights</summary>'+extra)

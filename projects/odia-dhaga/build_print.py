@@ -214,7 +214,7 @@ def make_book(root=ROOT):
         for index,placements in enumerate(pages):story.extend([PageBreak(),FlowPage(placements,usable-12,available,page_fillers.get(index))])
         styles=front_styles
         sources={s['id']:s for s in data['sources']}
-        headers=[p('Sources & Credits','heading'),p(data['license'],'small'),Paragraph('<link href="https://creativecommons.org/licenses/by-sa/4.0/" color="#87503b">CC BY-SA4.0 licence</link>',styles['small']),p(f'Wikimedia source wording is credited below. Project Odisha supplies original translations, explanations and examples. Illustrations: Project Odisha, contemporary interpretations accompanying {sum(bool(e.get("graphic")) for e in data["entries"])} Dhaga and decorative botanical tailpieces, CC BY-SA4.0; detailed provenance retained with the digital book. Fonts: Noto Serif Oriya and Source Serif4, SIL Open Font License.','small')]
+        headers=[p('Sources & Credits','heading'),p(data['license'],'small'),Paragraph('<link href="https://creativecommons.org/licenses/by-sa/4.0/" color="#87503b">CC BY-SA4.0 licence</link>',styles['small']),p(f'Explanations expanded by Project Odisha, drawing on the sources below. Illustrations: Project Odisha, contemporary interpretations accompanying {sum(bool(e.get("graphic")) for e in data["entries"])} Dhaga and decorative botanical tailpieces, CC BY-SA4.0; detailed provenance retained with the digital book. Fonts: Noto Serif Oriya and Source Serif4, SIL Open Font License.','small')]
         credit_units=[]
         for sid in intro_source_ids(data):primary.setdefault(sid,[])
         for sid,ids in primary.items():
