@@ -1,0 +1,46 @@
+{
+  "status": "PASS_QUALIFIED_LIVE_EVIDENCE",
+  "review_type": "Separate AI review",
+  "reviewed_head": "29b2b429a540445132183259f6eb80f704f064e1",
+  "deployed_merge": "95c47bf3e76c45e3e4c6d27c7338981f5714a62a",
+  "deployment_id": 41131980986,
+  "bindings": {
+    "deployment-status.json": "e70206ae3fc98c358cf70f869f255b7b9ff3a4536edf7c558560c399cae833f8",
+    "candidate-manifest.json": "3972aa9a5ba1d249242cbd908104b32505030b985fe91698cc22aa57d3e54122",
+    "live-preparation/candidate-plan.json": "5817e40f868ae1d5e5bdf169f11b131a8b964791d6e2bc3d1aeffb4928909ff5",
+    "live-preparation/merged-verification.json": "ebeca776c7b0415b4e6c397d413285987b82604688413836aa8a69938bebb5f4",
+    "live-preparation/live-verification.json": "641a5dd86fdc57c0b36b028568df37c902b7d0012ebe7d969ff51c397b1ead50",
+    "live-preparation/known-image-pairs.json": "3dd5ebe4f7b123e663e1267f2d711d9cdfbb8fe688fc5b1c58d2bf3ea2c1d361",
+    "live-preparation/known-responsive-pairs.json": "71e09f0f9ce6127700e00b3508e3431db23f17340005b17a4bd176e478eb3c40",
+    "live-preparation/supplemental-live-verification.json": "fd791fca5c56a84c020686c02d8f4684d5730d2118ec9e16452322252fd427e7",
+    "live-preparation/companion-main-verification.json": "eba451b5c772db5e58ea5f37fe0e6cc7a9e24ef01520fa371a0536be17e5bab9",
+    "live-browser.json": "af67ecd6c163b9705ead2a47bb2eb02b21e3b808bd3e0078a216ab1c9a2d2c1d"
+  },
+  "prior_review_binding": {
+    "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-214-2026-10-31/live-evidence-review.json",
+    "sha256": "04e6e67e1db7db870e301ce8d2aaf835c612fb9228ae0f891a1644b91bcc8cb5"
+  },
+  "actual_checks": [
+    "Official deployment identity/success matches claimed run and merge.",
+    "447 unique HTTP200 rows match candidate local hashes;426 byte-exact,21 non-exact match BOTH hashes from prior214 reviewed delivery. No new exception.",
+    "222HTML exact and all5new215\u2013219art byte-exact.",
+    "3companion mains exact after explicit filename mapping,29 responsive BOTH hashes identical to prior214; nonempty catalog exact. Whole companion HTML remains non-byte-exact.",
+    "Fresh132page PDF/index href verification exact8a87d790\u2026; supplemental sitemap/5holds/4internal404 checks pass.",
+    "Actual independent live desktop/phone browser review passed; initial219 lazy-load observation retained and actual loaded640px image rechecked.",
+    "280 immutable remote results previously independently checked against candidate manifest."
+  ],
+  "counts": {
+    "reader_files": 447,
+    "html_exact": 222,
+    "raw_exact": 426,
+    "qualified_known_pairs": 21,
+    "new_art_exact": 5,
+    "responsive_prior_pairs": 29
+  },
+  "limits": [
+    "No claim447 byte-exact:21 historical platform derivatives remain different and explicitly qualified.",
+    "No new pixel-variance approval or unseen pair waiver; prior visual review reused only on exact both-hash identity.",
+    "Browser samples do not constitute exhaustive219page visual review or human language review.",
+    "Local reader sync and final receipt integration are subsequent gates, not performed in this review."
+  ]
+}
