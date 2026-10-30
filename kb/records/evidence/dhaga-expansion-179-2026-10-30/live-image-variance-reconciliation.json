@@ -1,0 +1,27 @@
+{
+  "status": "PASS_WITH_TWO_PREVIOUSLY_REVIEWED_BYTE_VARIANCES",
+  "deployment": 40966089146,
+  "files": 367,
+  "exact_files": 365,
+  "html_pages": 182,
+  "all_html_exact": true,
+  "prior_visual_review": "kb/records/evidence/dhaga-expansion-173-2026-10-30/live-image-variance-review.json",
+  "prior_review_sha256": "cb1491f4afe04f25ed07bb6e1ac8e6488cd38b58915453edebdd3aca5df92f87",
+  "items": [
+    {
+      "path": "assets/dhaga-008-unified-line-v1.webp",
+      "local_sha256": "292d17b301344b186322ba8b3c74b70b7c7ba2bb7fb16044f7b4b2df9e8226cb",
+      "live_sha256": "e91499ad6bdea9480325c63fc1b7517dce98adc5aff0132a1bc88b95deab59ae",
+      "same_previously_visually_reviewed_pair": true,
+      "prior_observed_difference": "Live font visibly wider/more spaced, especially title and footer; all wording, plant/growth/fruit diagram, timeline, needed marker and final warning remain complete and readable. No clipping or changed meaning."
+    },
+    {
+      "path": "assets/dhaga-073-unified-line-v1.webp",
+      "local_sha256": "df1308f615020c78d27c09a5ce4010f0a76e07b22a2d4cba14909204233e244d",
+      "live_sha256": "e9b17b0e784afe40998e6a81f29c7f4ba7461355c4a40b7c213b81177b436c1c",
+      "same_previously_visually_reviewed_pair": true,
+      "prior_observed_difference": "No discernible compositional or semantic difference at actual640px: forest fire/smoke, two observers, seated woman, veranda and ornamental border all retained. Byte variance exists; precise rasterization/encoding cause not established by visual check."
+    }
+  ],
+  "limit": "Actual new live hashes checked; earlier independent actual pixel review reused because both sides identical. No fresh pixel review or all-byte-exact claim."
+}

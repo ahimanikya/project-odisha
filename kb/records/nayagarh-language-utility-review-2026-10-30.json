@@ -1,0 +1,1376 @@
+{
+  "status": "reviewed_classification_integration",
+  "item": "POD-EDIT-096",
+  "route": "/languages/districts/nayagarh/",
+  "input_head": "b6350153ac7e1a998883c61c381bea492e784979",
+  "decision": "Individually exclude POD-EDIT-096 as Census data/navigation utility. Preserve the Nayagarh public route, district385 data, Census group/return and residence caveats, language-profile links and search eligibility. This inspected route has no configured destination or related-discovery narrative and no sustained authored district-language article. Preserve separate Dhuduki/Ranapur, Chhena poda, Pala, Kantilo, forest/maker and banking narratives; district totals do not establish town, ancestry or community identities.",
+  "programme_credit": 0,
+  "article_completion_credit": 0,
+  "scope_release": "On separately reviewed merge after passing required checks and remote file verification; no website deployment because product unchanged.",
+  "report_hashes": {
+    "anvesha.json": "a9598cfd946b2093f9775bb345b0c1af224a659828a27b8ea2637224976ed686",
+    "samanta.json": "6bedf8a68534e7f35daa021e70eff82f903c0d018f18ccf366d641a69852d585",
+    "drishti.json": "bc80b6d887a60b461ef4474ab0126446c9705d2ba8bc61f4b78f11db2993a22c"
+  },
+  "reports": {
+    "anvesha.json": {
+      "input_head": "a43fa6a61718228404ee9c33a43916ce7444572f",
+      "origin_main": "b6350153ac7e1a998883c61c381bea492e784979",
+      "parent_announced_remote": "b6350153ac7e1a998883c61c381bea492e784979",
+      "item": "POD-EDIT-096",
+      "route": "/languages/districts/nayagarh/",
+      "recommendation": "individual_utility_exclusion_candidate",
+      "rationale": "The inspected route generates a historical Census district table and residence breakdowns with selected language-profile links. Its actual Nayagarh configuration has no destination connection or related-reading item and no sustained authored district-language narrative. Retain this useful route and classify this individual rollout item as a utility, preserving separate authored Nayagarh material.",
+      "source": {
+        "title": "C-16: Population by mother tongue, Odisha — 2011",
+        "url": "https://censusindia.gov.in/nada/index.php/catalog/10217",
+        "download": "https://censusindia.gov.in/nada/index.php/catalog/10217/download/13329/DDW-C16-STMT-MDDS-2100.XLSX",
+        "file": "references/census-2011/c16-odisha.xlsx",
+        "sha256": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db",
+        "sheet": "Sheet1"
+      },
+      "district": {
+        "name": "Nayagarh",
+        "code": "385",
+        "filter": "Sheet1 C=385 and D=00000; F group/member code; H:P nine numeric cells",
+        "row_range": [
+          12528,
+          12581
+        ],
+        "row_count": 54,
+        "groups": 24,
+        "subordinate_entries": 30,
+        "population_H_to_P": [
+          962789,
+          502636,
+          460153,
+          883051,
+          461019,
+          422032,
+          79738,
+          41617,
+          38121
+        ],
+        "parent_sums_H_to_P": [
+          962789,
+          502636,
+          460153,
+          883051,
+          461019,
+          422032,
+          79738,
+          41617,
+          38121
+        ],
+        "other_geographies_not_combined": {
+          "03022": "Gania ",
+          "03023": "Dasapalla ",
+          "03024": "Banigochha ",
+          "03025": "Nuagaon ",
+          "03026": "Khandapada ",
+          "03027": "Fategarh",
+          "03028": "Nayagarh ",
+          "03029": "Itamati ",
+          "03030": "Nayagarh Sadar",
+          "03031": "Odagaon",
+          "03032": "Sarankul",
+          "03033": "Ranapur "
+        }
+      },
+      "checks": {
+        "all_numeric_cells_compared": 486,
+        "original_and_atlas_code_sets_equal": true,
+        "row_locator_numeric_and_internal_sum_errors": [],
+        "group_member_sum_errors": [],
+        "group_population_sum_equal": true,
+        "residual_without_subordinate_rows": {
+          "code": "124000",
+          "label": "OTHERS",
+          "source_row": 12581,
+          "values": [
+            4,
+            2,
+            2,
+            4,
+            2,
+            2,
+            0,
+            0,
+            0
+          ],
+          "note": "Residual source group has no separately listed subordinate rows. Not an arithmetic mismatch; retained in parent population sum."
+        }
+      },
+      "original_rows": [
+        {
+          "row": 12528,
+          "code": "001000",
+          "raw_label": "1 ASSAMESE",
+          "values": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 12529,
+          "code": "001002",
+          "raw_label": " Assamese",
+          "values": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 12530,
+          "code": "002000",
+          "raw_label": "2 BENGALI ",
+          "values": [
+            153,
+            92,
+            61,
+            89,
+            55,
+            34,
+            64,
+            37,
+            27
+          ]
+        },
+        {
+          "row": 12531,
+          "code": "002007",
+          "raw_label": " Bengali",
+          "values": [
+            153,
+            92,
+            61,
+            89,
+            55,
+            34,
+            64,
+            37,
+            27
+          ]
+        },
+        {
+          "row": 12532,
+          "code": "005000",
+          "raw_label": "5 GUJARATI",
+          "values": [
+            77,
+            35,
+            42,
+            17,
+            5,
+            12,
+            60,
+            30,
+            30
+          ]
+        },
+        {
+          "row": 12533,
+          "code": "005018",
+          "raw_label": " Gujarati",
+          "values": [
+            77,
+            35,
+            42,
+            17,
+            5,
+            12,
+            60,
+            30,
+            30
+          ]
+        },
+        {
+          "row": 12534,
+          "code": "006000",
+          "raw_label": "6 HINDI ",
+          "values": [
+            961,
+            493,
+            468,
+            580,
+            297,
+            283,
+            381,
+            196,
+            185
+          ]
+        },
+        {
+          "row": 12535,
+          "code": "006102",
+          "raw_label": " Bhojpuri",
+          "values": [
+            25,
+            12,
+            13,
+            0,
+            0,
+            0,
+            25,
+            12,
+            13
+          ]
+        },
+        {
+          "row": 12536,
+          "code": "006240",
+          "raw_label": " Hindi",
+          "values": [
+            893,
+            460,
+            433,
+            576,
+            294,
+            282,
+            317,
+            166,
+            151
+          ]
+        },
+        {
+          "row": 12537,
+          "code": "006355",
+          "raw_label": " Laria",
+          "values": [
+            3,
+            2,
+            1,
+            3,
+            2,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 12538,
+          "code": "006400",
+          "raw_label": " Marwari",
+          "values": [
+            34,
+            15,
+            19,
+            0,
+            0,
+            0,
+            34,
+            15,
+            19
+          ]
+        },
+        {
+          "row": 12539,
+          "code": "006489",
+          "raw_label": " Rajasthani",
+          "values": [
+            5,
+            3,
+            2,
+            0,
+            0,
+            0,
+            5,
+            3,
+            2
+          ]
+        },
+        {
+          "row": 12540,
+          "code": "006503",
+          "raw_label": " Sadan/Sadri",
+          "values": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 12541,
+          "code": "010000",
+          "raw_label": "10 MAITHILI ",
+          "values": [
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            2,
+            2,
+            0
+          ]
+        },
+        {
+          "row": 12542,
+          "code": "010008",
+          "raw_label": " Maithili",
+          "values": [
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            2,
+            2,
+            0
+          ]
+        },
+        {
+          "row": 12543,
+          "code": "011000",
+          "raw_label": "11 MALAYALAM",
+          "values": [
+            14,
+            4,
+            10,
+            4,
+            0,
+            4,
+            10,
+            4,
+            6
+          ]
+        },
+        {
+          "row": 12544,
+          "code": "011016",
+          "raw_label": " Malayalam",
+          "values": [
+            14,
+            4,
+            10,
+            4,
+            0,
+            4,
+            10,
+            4,
+            6
+          ]
+        },
+        {
+          "row": 12545,
+          "code": "013000",
+          "raw_label": "13 MARATHI ",
+          "values": [
+            48,
+            26,
+            22,
+            21,
+            10,
+            11,
+            27,
+            16,
+            11
+          ]
+        },
+        {
+          "row": 12546,
+          "code": "013071",
+          "raw_label": " Marathi",
+          "values": [
+            48,
+            26,
+            22,
+            21,
+            10,
+            11,
+            27,
+            16,
+            11
+          ]
+        },
+        {
+          "row": 12547,
+          "code": "014000",
+          "raw_label": "14 NEPALI ",
+          "values": [
+            5,
+            4,
+            1,
+            1,
+            1,
+            0,
+            4,
+            3,
+            1
+          ]
+        },
+        {
+          "row": 12548,
+          "code": "014011",
+          "raw_label": " Nepali",
+          "values": [
+            5,
+            4,
+            1,
+            1,
+            1,
+            0,
+            4,
+            3,
+            1
+          ]
+        },
+        {
+          "row": 12549,
+          "code": "015000",
+          "raw_label": "15 ODIA ",
+          "values": [
+            954046,
+            498190,
+            455856,
+            875298,
+            457093,
+            418205,
+            78748,
+            41097,
+            37651
+          ]
+        },
+        {
+          "row": 12550,
+          "code": "015043",
+          "raw_label": " Odia",
+          "values": [
+            954012,
+            498173,
+            455839,
+            875264,
+            457076,
+            418188,
+            78748,
+            41097,
+            37651
+          ]
+        },
+        {
+          "row": 12551,
+          "code": "015051",
+          "raw_label": " Proja (Ori)",
+          "values": [
+            32,
+            15,
+            17,
+            32,
+            15,
+            17,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 12552,
+          "code": "015999",
+          "raw_label": "15 Others",
+          "values": [
+            2,
+            2,
+            0,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 12553,
+          "code": "016000",
+          "raw_label": "16 PUNJABI ",
+          "values": [
+            12,
+            5,
+            7,
+            0,
+            0,
+            0,
+            12,
+            5,
+            7
+          ]
+        },
+        {
+          "row": 12554,
+          "code": "016038",
+          "raw_label": " Punjabi",
+          "values": [
+            12,
+            5,
+            7,
+            0,
+            0,
+            0,
+            12,
+            5,
+            7
+          ]
+        },
+        {
+          "row": 12555,
+          "code": "018000",
+          "raw_label": "18 SANTALI ",
+          "values": [
+            72,
+            38,
+            34,
+            64,
+            34,
+            30,
+            8,
+            4,
+            4
+          ]
+        },
+        {
+          "row": 12556,
+          "code": "018040",
+          "raw_label": " Santali",
+          "values": [
+            72,
+            38,
+            34,
+            64,
+            34,
+            30,
+            8,
+            4,
+            4
+          ]
+        },
+        {
+          "row": 12557,
+          "code": "020000",
+          "raw_label": "20 TAMIL ",
+          "values": [
+            21,
+            10,
+            11,
+            16,
+            9,
+            7,
+            5,
+            1,
+            4
+          ]
+        },
+        {
+          "row": 12558,
+          "code": "020027",
+          "raw_label": " Tamil",
+          "values": [
+            21,
+            10,
+            11,
+            16,
+            9,
+            7,
+            5,
+            1,
+            4
+          ]
+        },
+        {
+          "row": 12559,
+          "code": "021000",
+          "raw_label": "21 TELUGU ",
+          "values": [
+            941,
+            458,
+            483,
+            792,
+            382,
+            410,
+            149,
+            76,
+            73
+          ]
+        },
+        {
+          "row": 12560,
+          "code": "021046",
+          "raw_label": " Telugu",
+          "values": [
+            941,
+            458,
+            483,
+            792,
+            382,
+            410,
+            149,
+            76,
+            73
+          ]
+        },
+        {
+          "row": 12561,
+          "code": "022000",
+          "raw_label": "22 URDU",
+          "values": [
+            423,
+            213,
+            210,
+            171,
+            74,
+            97,
+            252,
+            139,
+            113
+          ]
+        },
+        {
+          "row": 12562,
+          "code": "022015",
+          "raw_label": " Urdu",
+          "values": [
+            423,
+            213,
+            210,
+            171,
+            74,
+            97,
+            252,
+            139,
+            113
+          ]
+        },
+        {
+          "row": 12563,
+          "code": "030000",
+          "raw_label": "30 BHILI/BHILODI ",
+          "values": [
+            43,
+            23,
+            20,
+            39,
+            22,
+            17,
+            4,
+            1,
+            3
+          ]
+        },
+        {
+          "row": 12564,
+          "code": "030002",
+          "raw_label": " Baori",
+          "values": [
+            43,
+            23,
+            20,
+            39,
+            22,
+            17,
+            4,
+            1,
+            3
+          ]
+        },
+        {
+          "row": 12565,
+          "code": "040000",
+          "raw_label": "40 ENGLISH ",
+          "values": [
+            32,
+            21,
+            11,
+            31,
+            20,
+            11,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "row": 12566,
+          "code": "040001",
+          "raw_label": " English",
+          "values": [
+            32,
+            21,
+            11,
+            31,
+            20,
+            11,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "row": 12567,
+          "code": "058000",
+          "raw_label": "58 KHOND/KONDH ",
+          "values": [
+            11,
+            2,
+            9,
+            11,
+            2,
+            9,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 12568,
+          "code": "058001",
+          "raw_label": " Khond/Kondh",
+          "values": [
+            11,
+            2,
+            9,
+            11,
+            2,
+            9,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 12569,
+          "code": "060000",
+          "raw_label": "60 KISAN ",
+          "values": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 12570,
+          "code": "060002",
+          "raw_label": " Kisan",
+          "values": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 12571,
+          "code": "068000",
+          "raw_label": "68 KORWA ",
+          "values": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 12572,
+          "code": "068999",
+          "raw_label": "68 Others ",
+          "values": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 12573,
+          "code": "069000",
+          "raw_label": "69 KOYA ",
+          "values": [
+            2,
+            1,
+            1,
+            2,
+            1,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 12574,
+          "code": "069002",
+          "raw_label": " Koya",
+          "values": [
+            2,
+            1,
+            1,
+            2,
+            1,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 12575,
+          "code": "070000",
+          "raw_label": "70 KUI ",
+          "values": [
+            5787,
+            2946,
+            2841,
+            5781,
+            2944,
+            2837,
+            6,
+            2,
+            4
+          ]
+        },
+        {
+          "row": 12576,
+          "code": "070001",
+          "raw_label": " Kui",
+          "values": [
+            5787,
+            2946,
+            2841,
+            5781,
+            2944,
+            2837,
+            6,
+            2,
+            4
+          ]
+        },
+        {
+          "row": 12577,
+          "code": "091000",
+          "raw_label": "91 MUNDA",
+          "values": [
+            131,
+            69,
+            62,
+            126,
+            66,
+            60,
+            5,
+            3,
+            2
+          ]
+        },
+        {
+          "row": 12578,
+          "code": "091009",
+          "raw_label": " Munda",
+          "values": [
+            131,
+            69,
+            62,
+            126,
+            66,
+            60,
+            5,
+            3,
+            2
+          ]
+        },
+        {
+          "row": 12579,
+          "code": "106000",
+          "raw_label": "106 SAVARA",
+          "values": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 12580,
+          "code": "106004",
+          "raw_label": " Savara",
+          "values": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 12581,
+          "code": "124000",
+          "raw_label": "124 OTHERS",
+          "values": [
+            4,
+            2,
+            2,
+            4,
+            2,
+            2,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "context": {
+        "destination_connections": [],
+        "configured_further_reading": [],
+        "selected_profile_counts": {
+          "odia": 954012,
+          "santali": 72,
+          "kui": 5787,
+          "saora": 1,
+          "koya": 2
+        },
+        "template": "Actual template includes historical district-not-city caveat, residence denominators, mother-tongue/community distinction, profile links and statewide C17 not apportioned locally."
+      },
+      "separate_material_to_preserve": [
+        {
+          "path": "kb/research/culture/dhuduki-website.json",
+          "reason": "Authored Dhuduki narrative cites Ranapur/Ghuduki via Nayagarh district account; explicitly distinguishes Rayagada context."
+        },
+        {
+          "path": "kb/research/food/chhena-poda.md",
+          "reason": "Chhena poda Nayagarh association, retrospective invention accounts and named adaptations; no verified inventor implied by district table."
+        },
+        {
+          "path": "kb/research/people/pala-artists.md",
+          "reason": "Named Pala festival participant associated with Nayagarh; not population or language evidence."
+        },
+        {
+          "path": "kb/research/statistics/districts/nayagarh.md",
+          "reason": "Separate district banking statistics, not language identity."
+        }
+      ],
+      "search_findings": {
+        "method": "query_research.py Nayagarh plus case-insensitive KB rg; inspected actual route, configuration and relevant narrative passages",
+        "query_hits": [
+          "statistics/districts/nayagarh",
+          "culture/dhuduki-website"
+        ],
+        "not_exhaustive": true
+      },
+      "file_hashes": {
+        "kb/research/references/census-2011/c16-odisha.xlsx": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db",
+        "kb/research/voices/population-2011.json": "c149d36bfa5c6c01595ddb517dfca21c5d8d5fe6d2283fa19dc020432b7fe998",
+        "projects/site/src/pages/languages/districts/[slug].astro": "4710838468016e58cf8b3d2a1537c1185b3cb39049b5ce90dbae6c1391568e76",
+        "projects/site/src/lib/language-atlas.mjs": "c52a825ccfec3aa241173e7d50355a42074bdfb8a45ee4ac225a2fec3e99a87c",
+        "kb/research/voices/district-connections.json": "149161595dab537134f247fd7c5fdb34aa128b2bb008ae5a35fc0bb04f97f303",
+        "kb/research/related-discoveries.json": "139d0e02577be85b4df622cd1c16befa88daeeef3b3002f7097bd8cb7a79d742",
+        "kb/research/culture/dhuduki-website.json": "42b886751efe4cf5eb6d4345940b63bc15acd149516ce9186b6c0b8c5fd12ccf",
+        "kb/research/food/chhena-poda.md": "45d963b34ba13a7a06cc046df8175ad76bbf25f85dcbb1cd7c039d25cefc4b53",
+        "kb/research/food/chhena-poda-editorial.json": "d6e750a35cad27a77489c09c124a6b9cc2b5c1fb13b7d8e97134bca82e3b4931",
+        "kb/research/people/pala-artists.md": "8406efef879db7497c1eb0c4a56185c4fe33207a761de5936c2381d0af6ceb86",
+        "kb/research/statistics/districts/nayagarh.md": "539f1d809780cb832f5f98824f93b9d7b395a297fe0cbef5c8b5ddf5dbaf39b8"
+      },
+      "tests": [
+        "Parsed original XLSX XML/shared strings directly without changing workbook.",
+        "Compared every district row identifier and all nine numeric cells to atlas.",
+        "Checked sex/residence arithmetic per row, child sums for groups with subordinate rows, and all parent population sums; separately retained OTHERS residual without invented children.",
+        "Inspected route template and actual district385 configuration independently of sibling classifications."
+      ],
+      "limits": [
+        "Saved original workbook inspected; no fresh Census download or current-demographic assertion.",
+        "Counts describe2011 district385, not Nayagarh town, historical princely territory, current speaker fluency or ancestry.",
+        "Groups and subordinate returns cannot be added together; ODIAgroup954046 differs from Odiareturn954012.",
+        "No browser rendering or public release check in this output-only readiness task.",
+        "Separate cultural sources not revalidated externally; this is preservation identification, not new cultural research.",
+        "No other district classification follows from this recommendation."
+      ],
+      "next_actions": [
+        "Disha may record a justified individual utility exclusion while preserving route and all separate narrative material.",
+        "Separate review should bind this report and actual source hashes before any records-only integration."
+      ],
+      "completion_credit": 0,
+      "programme_credit": 0
+    },
+    "samanta.json": {
+      "item": "POD-EDIT-096",
+      "route": "/languages/districts/nayagarh/",
+      "input_head": "a43fa6a61718228404ee9c33a43916ce7444572f",
+      "origin_main_local_ref": "b6350153ac7e1a998883c61c381bea492e784979",
+      "recommendation": "individual_utility_exclusion_candidate",
+      "rationale": "Actual Nayagarh route is a2011 Census district reference utility: calculated leading-group sentence, district/residence figures, grouped and subordinate tables, language-profile links and generic conversation prompt. Independently checked385 has no configured destination or related-discovery prose. Cached article contains no sustained bespoke Nayagarh narrative. This classification is only for096, not every district or separate regional articles.",
+      "district": {
+        "code": "385",
+        "name": "Nayagarh",
+        "rows": 54,
+        "groups": 24,
+        "subordinate_entries": 30,
+        "population_nine_fields": [
+          962789,
+          502636,
+          460153,
+          883051,
+          461019,
+          422032,
+          79738,
+          41617,
+          38121
+        ],
+        "source_row_range": [
+          12528,
+          12581
+        ]
+      },
+      "source_checks": {
+        "method": "Direct retained original XLSX ZIP/XML, district385/subdistrict00000. All H:P numeric cells, source-row anchors, codes and labels compared; label comparison strips source group-number prefix and edge whitespace only.",
+        "numeric_cells_compared": 486,
+        "all_equal": true,
+        "district_row_set_complete": true,
+        "parent_population_sums_all_nine": true,
+        "sex_residence_arithmetic_all_rows": true,
+        "source_sha256": "bc538f2b805158d3a6025e40163bc64ac0af4d0b2b2bf470fad531d7d65062db",
+        "source_url": "https://censusindia.gov.in/nada/index.php/catalog/10217"
+      },
+      "context": {
+        "destination_connections": [],
+        "related_discoveries": [],
+        "preserve_separate_authored_material": [
+          {
+            "path": "kb/research/places/jagannath-temple-puri.md",
+            "distinction": "Kantilo Nilamadhab religious association is source-qualified; no dated relocation inferred."
+          },
+          {
+            "path": "kb/research/sources/forest-cysd2002.md",
+            "distinction": "Named historical Satajhari/Nayagarh maker and publication evidence, not current income or uniform district practice."
+          },
+          {
+            "material": "Nayagarh Chhena Poda culinary narrative and regional Pala/forest material remain separate; the district utility exclusion does not classify them."
+          }
+        ]
+      },
+      "cached_render": {
+        "path": "projects/site/dist-publish/languages/districts/nayagarh/index.html",
+        "sha256": "5326256bb8ce37c8b083f4a591ff20c225383eb587c81ab49f9b07a6936a6456",
+        "article_text": "← All 30 districts\nA district in voices · Census 2011\nNayagarh\nMore than a single voice.\nThe largest recorded language group was ODIA, with 9,54,046 people (99.09%). Open the individual entries below: broad groups can contain distinct names and stories.\nDistrict population · 2011\n9,62,789\nRural population\n91.72%\n8,83,051 people\nUrban population\n8.28%\n79,738 people\nThis is a historical district profile, not a city survey or a present-day forecast. Mother tongue, community identity, ancestry and the languages used at work are different questions.\nThe whole district\nDenominator: 9,62,789 people in Nayagarh · all areas, 2011.\nCensus language groups · mutually exclusive totals\nGroup\nPeople\nShare\nODIA\n9,54,046\n99.09%\nKUI\n5,787\n0.60%\nHINDI\n961\n0.10%\nTELUGU\n941\n0.10%\nURDU\n423\n0.04%\nBENGALI\n153\n0.02%\nMUNDA\n131\n0.01%\nGUJARATI\n77\n<0.01%\nSANTALI\n72\n<0.01%\nMARATHI\n48\n<0.01%\nBHILI/BHILODI\n43\n<0.01%\nENGLISH\n32\n<0.01%\nTAMIL\n21\n<0.01%\nMALAYALAM\n14\n<0.01%\nPUNJABI\n12\n<0.01%\nKHOND/KONDH\n11\n<0.01%\nNEPALI\n5\n<0.01%\nOTHERS\n4\n<0.01%\nMAITHILI\n2\n<0.01%\nKOYA\n2\n<0.01%\nASSAMESE\n1\n<0.01%\nKISAN\n1\n<0.01%\nKORWA\n1\n<0.01%\nSAVARA\n1\n<0.01%\nLook inside the groups: individual mother-tongue entries\nThe entries below are already included in their parent groups above. Do not add both tables together. Only positive recorded counts for this residence category are shown; omission is not proof of an absence of speakers today. Residual group OTHERS has no subordinate entries here.\nIndividual entries · Census labels and parent classifications retained\nEntry / parent group\nPeople\nMale\nFemale\nShare\nOdia\nUnder ODIA · C-16 row 12550\n9,54,012\n4,98,173\n4,55,839\n99.09%\nKui\nUnder KUI · C-16 row 12576\n5,787\n2,946\n2,841\n0.60%\nTelugu\nUnder TELUGU · C-16 row 12560\n941\n458\n483\n0.10%\nHindi\nUnder HINDI · C-16 row 12536\n893\n460\n433\n0.09%\nUrdu\nUnder URDU · C-16 row 12562\n423\n213\n210\n0.04%\nBengali\nUnder BENGALI · C-16 row 12531\n153\n92\n61\n0.02%\nMunda\nUnder MUNDA · C-16 row 12578\n131\n69\n62\n0.01%\nGujarati\nUnder GUJARATI · C-16 row 12533\n77\n35\n42\n<0.01%\nSantali\nUnder SANTALI · C-16 row 12556\n72\n38\n34\n<0.01%\nMarathi\nUnder MARATHI · C-16 row 12546\n48\n26\n22\n<0.01%\nBaori\nUnder BHILI/BHILODI · C-16 row 12564\n43\n23\n20\n<0.01%\nMarwari\nUnder HINDI · C-16 row 12538\n34\n15\n19\n<0.01%\nProja (Ori)\nUnder ODIA · C-16 row 12551\n32\n15\n17\n<0.01%\nEnglish\nUnder ENGLISH · C-16 row 12566\n32\n21\n11\n<0.01%\nBhojpuri\nUnder HINDI · C-16 row 12535\n25\n12\n13\n<0.01%\nTamil\nUnder TAMIL · C-16 row 12558\n21\n10\n11\n<0.01%\nMalayalam\nUnder MALAYALAM · C-16 row 12544\n14\n4\n10\n<0.01%\nPunjabi\nUnder PUNJABI · C-16 row 12554\n12\n5\n7\n<0.01%\nKhond/Kondh\nUnder KHOND/KONDH · C-16 row 12568\n11\n2\n9\n<0.01%\nRajasthani\nUnder HINDI · C-16 row 12539\n5\n3\n2\n<0.01%\nNepali\nUnder NEPALI · C-16 row 12548\n5\n4\n1\n<0.01%\nLaria\nUnder HINDI · C-16 row 12537\n3\n2\n1\n<0.01%\nMaithili\nUnder MAITHILI · C-16 row 12542\n2\n2\n0\n<0.01%\nOthers\nUnder ODIA · C-16 row 12552\n2\n2\n0\n<0.01%\nKoya\nUnder KOYA · C-16 row 12574\n2\n1\n1\n<0.01%\nAssamese\nUnder ASSAMESE · C-16 row 12529\n1\n0\n1\n<0.01%\nSadan/Sadri\nUnder HINDI · C-16 row 12540\n1\n1\n0\n<0.01%\nKisan\nUnder KISAN · C-16 row 12570\n1\n1\n0\n<0.01%\nOthers\nUnder KORWA · C-16 row 12572\n1\n0\n1\n<0.01%\nSavara\nUnder SAVARA · C-16 row 12580\n1\n1\n0\n<0.01%\nRural and urban: two views within the district\nEach share below uses the population of that residence category. Rural and urban counts add to the district total; their percentages use different denominators.\nRural population breakdown\nDenominator: 8,83,051 people in Nayagarh · rural areas, 2011.\nCensus language groups · mutually exclusive totals\nGroup\nPeople\nShare\nODIA\n8,75,298\n99.12%\nKUI\n5,781\n0.65%\nTELUGU\n792\n0.09%\nHINDI\n580\n0.07%\nURDU\n171\n0.02%\nMUNDA\n126\n0.01%\nBENGALI\n89\n0.01%\nSANTALI\n64\n<0.01%\nBHILI/BHILODI\n39\n<0.01%\nENGLISH\n31\n<0.01%\nMARATHI\n21\n<0.01%\nGUJARATI\n17\n<0.01%\nTAMIL\n16\n<0.01%\nKHOND/KONDH\n11\n<0.01%\nMALAYALAM\n4\n<0.01%\nOTHERS\n4\n<0.01%\nKOYA\n2\n<0.01%\nASSAMESE\n1\n<0.01%\nNEPALI\n1\n<0.01%\nKISAN\n1\n<0.01%\nKORWA\n1\n<0.01%\nSAVARA\n1\n<0.01%\nLook inside the groups: individual mother-tongue entries\nThe entries below are already included in their parent groups above. Do not add both tables together. Only positive recorded counts for this residence category are shown; omission is not proof of an absence of speakers today. Residual group OTHERS has no subordinate entries here.\nIndividual entries · Census labels and parent classifications retained\nEntry / parent group\nPeople\nMale\nFemale\nShare\nOdia\nUnder ODIA · C-16 row 12550\n8,75,264\n4,57,076\n4,18,188\n99.12%\nKui\nUnder KUI · C-16 row 12576\n5,781\n2,944\n2,837\n0.65%\nTelugu\nUnder TELUGU · C-16 row 12560\n792\n382\n410\n0.09%\nHindi\nUnder HINDI · C-16 row 12536\n576\n294\n282\n0.07%\nUrdu\nUnder URDU · C-16 row 12562\n171\n74\n97\n0.02%\nMunda\nUnder MUNDA · C-16 row 12578\n126\n66\n60\n0.01%\nBengali\nUnder BENGALI · C-16 row 12531\n89\n55\n34\n0.01%\nSantali\nUnder SANTALI · C-16 row 12556\n64\n34\n30\n<0.01%\nBaori\nUnder BHILI/BHILODI · C-16 row 12564\n39\n22\n17\n<0.01%\nProja (Ori)\nUnder ODIA · C-16 row 12551\n32\n15\n17\n<0.01%\nEnglish\nUnder ENGLISH · C-16 row 12566\n31\n20\n11\n<0.01%\nMarathi\nUnder MARATHI · C-16 row 12546\n21\n10\n11\n<0.01%\nGujarati\nUnder GUJARATI · C-16 row 12533\n17\n5\n12\n<0.01%\nTamil\nUnder TAMIL · C-16 row 12558\n16\n9\n7\n<0.01%\nKhond/Kondh\nUnder KHOND/KONDH · C-16 row 12568\n11\n2\n9\n<0.01%\nMalayalam\nUnder MALAYALAM · C-16 row 12544\n4\n0\n4\n<0.01%\nLaria\nUnder HINDI · C-16 row 12537\n3\n2\n1\n<0.01%\nOthers\nUnder ODIA · C-16 row 12552\n2\n2\n0\n<0.01%\nKoya\nUnder KOYA · C-16 row 12574\n2\n1\n1\n<0.01%\nAssamese\nUnder ASSAMESE · C-16 row 12529\n1\n0\n1\n<0.01%\nSadan/Sadri\nUnder HINDI · C-16 row 12540\n1\n1\n0\n<0.01%\nNepali\nUnder NEPALI · C-16 row 12548\n1\n1\n0\n<0.01%\nKisan\nUnder KISAN · C-16 row 12570\n1\n1\n0\n<0.01%\nOthers\nUnder KORWA · C-16 row 12572\n1\n0\n1\n<0.01%\nSavara\nUnder SAVARA · C-16 row 12580\n1\n1\n0\n<0.01%\nUrban population breakdown\nDenominator: 79,738 people in Nayagarh · urban areas, 2011.\nCensus language groups · mutually exclusive totals\nGroup\nPeople\nShare\nODIA\n78,748\n98.76%\nHINDI\n381\n0.48%\nURDU\n252\n0.32%\nTELUGU\n149\n0.19%\nBENGALI\n64\n0.08%\nGUJARATI\n60\n0.08%\nMARATHI\n27\n0.03%\nPUNJABI\n12\n0.02%\nMALAYALAM\n10\n0.01%\nSANTALI\n8\n0.01%\nKUI\n6\n<0.01%\nTAMIL\n5\n<0.01%\nMUNDA\n5\n<0.01%\nNEPALI\n4\n<0.01%\nBHILI/BHILODI\n4\n<0.01%\nMAITHILI\n2\n<0.01%\nENGLISH\n1\n<0.01%\nLook inside the groups: individual mother-tongue entries\nThe entries below are already included in their parent groups above. Do not add both tables together. Only positive recorded counts for this residence category are shown; omission is not proof of an absence of speakers today. Residual group OTHERS has no subordinate entries here.\nIndividual entries · Census labels and parent classifications retained\nEntry / parent group\nPeople\nMale\nFemale\nShare\nOdia\nUnder ODIA · C-16 row 12550\n78,748\n41,097\n37,651\n98.76%\nHindi\nUnder HINDI · C-16 row 12536\n317\n166\n151\n0.40%\nUrdu\nUnder URDU · C-16 row 12562\n252\n139\n113\n0.32%\nTelugu\nUnder TELUGU · C-16 row 12560\n149\n76\n73\n0.19%\nBengali\nUnder BENGALI · C-16 row 12531\n64\n37\n27\n0.08%\nGujarati\nUnder GUJARATI · C-16 row 12533\n60\n30\n30\n0.08%\nMarwari\nUnder HINDI · C-16 row 12538\n34\n15\n19\n0.04%\nMarathi\nUnder MARATHI · C-16 row 12546\n27\n16\n11\n0.03%\nBhojpuri\nUnder HINDI · C-16 row 12535\n25\n12\n13\n0.03%\nPunjabi\nUnder PUNJABI · C-16 row 12554\n12\n5\n7\n0.02%\nMalayalam\nUnder MALAYALAM · C-16 row 12544\n10\n4\n6\n0.01%\nSantali\nUnder SANTALI · C-16 row 12556\n8\n4\n4\n0.01%\nKui\nUnder KUI · C-16 row 12576\n6\n2\n4\n<0.01%\nRajasthani\nUnder HINDI · C-16 row 12539\n5\n3\n2\n<0.01%\nTamil\nUnder TAMIL · C-16 row 12558\n5\n1\n4\n<0.01%\nMunda\nUnder MUNDA · C-16 row 12578\n5\n3\n2\n<0.01%\nNepali\nUnder NEPALI · C-16 row 12548\n4\n3\n1\n<0.01%\nBaori\nUnder BHILI/BHILODI · C-16 row 12564\n4\n1\n3\n<0.01%\nMaithili\nUnder MAITHILI · C-16 row 12542\n2\n2\n0\n<0.01%\nEnglish\nUnder ENGLISH · C-16 row 12566\n1\n1\n0\n<0.01%\nFollow a voice into its story\nThese introductions connect to individual mother-tongue entries recorded here. They are a selection from our growing collection, not a complete list of the district’s languages.\nOdia →\nKui →\nSantali →\nKoya →\nSaora / Sora (Census: Savara) →\nTake curiosity into a conversation\nAsk which name a speaker uses for their language and which language they prefer for your conversation. A family memory, a local publication or a song they choose can add context that a table cannot supply.\nRead about multilingual Odisha →\n·\nShare a source or correction →\nSources, geography & interpretation\nCensus C-16, Odisha, 2011\n. District code 385; source name Nayagarh. All figures derive from the original workbook retained in our KB. Parent groups contain their individual entries; classification does not determine community-preferred naming.\nDistrict figures cannot establish the languages of a particular town, accommodation provider or individual. C-17 multilingualism is statewide and is not apportioned to this district. No migration or ancestry claim is inferred.\nCommunity naming and visual review remain open.",
+        "links": [
+          "/languages/districts/",
+          "/languages/atlas/?language=015000&residence=total",
+          "/languages/atlas/?language=070000&residence=total",
+          "/languages/atlas/?language=006000&residence=total",
+          "/languages/atlas/?language=021000&residence=total",
+          "/languages/atlas/?language=022000&residence=total",
+          "/languages/atlas/?language=002000&residence=total",
+          "/languages/atlas/?language=091000&residence=total",
+          "/languages/atlas/?language=005000&residence=total",
+          "/languages/atlas/?language=018000&residence=total",
+          "/languages/atlas/?language=013000&residence=total",
+          "/languages/atlas/?language=030000&residence=total",
+          "/languages/atlas/?language=040000&residence=total",
+          "/languages/atlas/?language=020000&residence=total",
+          "/languages/atlas/?language=011000&residence=total",
+          "/languages/atlas/?language=016000&residence=total",
+          "/languages/atlas/?language=058000&residence=total",
+          "/languages/atlas/?language=014000&residence=total",
+          "/languages/atlas/?language=124000&residence=total",
+          "/languages/atlas/?language=010000&residence=total",
+          "/languages/atlas/?language=069000&residence=total",
+          "/languages/atlas/?language=001000&residence=total",
+          "/languages/atlas/?language=060000&residence=total",
+          "/languages/atlas/?language=068000&residence=total",
+          "/languages/atlas/?language=106000&residence=total",
+          "/languages/atlas/?language=015043&residence=total",
+          "/languages/atlas/?language=070001&residence=total",
+          "/languages/atlas/?language=021046&residence=total",
+          "/languages/atlas/?language=006240&residence=total",
+          "/languages/atlas/?language=022015&residence=total",
+          "/languages/atlas/?language=002007&residence=total",
+          "/languages/atlas/?language=091009&residence=total",
+          "/languages/atlas/?language=005018&residence=total",
+          "/languages/atlas/?language=018040&residence=total",
+          "/languages/atlas/?language=013071&residence=total",
+          "/languages/atlas/?language=030002&residence=total",
+          "/languages/atlas/?language=006400&residence=total",
+          "/languages/atlas/?language=015051&residence=total",
+          "/languages/atlas/?language=040001&residence=total",
+          "/languages/atlas/?language=006102&residence=total",
+          "/languages/atlas/?language=020027&residence=total",
+          "/languages/atlas/?language=011016&residence=total",
+          "/languages/atlas/?language=016038&residence=total",
+          "/languages/atlas/?language=058001&residence=total",
+          "/languages/atlas/?language=006489&residence=total",
+          "/languages/atlas/?language=014011&residence=total",
+          "/languages/atlas/?language=006355&residence=total",
+          "/languages/atlas/?language=010008&residence=total",
+          "/languages/atlas/?language=015999&residence=total",
+          "/languages/atlas/?language=069002&residence=total",
+          "/languages/atlas/?language=001002&residence=total",
+          "/languages/atlas/?language=006503&residence=total",
+          "/languages/atlas/?language=060002&residence=total",
+          "/languages/atlas/?language=068999&residence=total",
+          "/languages/atlas/?language=106004&residence=total",
+          "/languages/atlas/?language=015000&residence=rural",
+          "/languages/atlas/?language=070000&residence=rural",
+          "/languages/atlas/?language=021000&residence=rural",
+          "/languages/atlas/?language=006000&residence=rural",
+          "/languages/atlas/?language=022000&residence=rural",
+          "/languages/atlas/?language=091000&residence=rural",
+          "/languages/atlas/?language=002000&residence=rural",
+          "/languages/atlas/?language=018000&residence=rural",
+          "/languages/atlas/?language=030000&residence=rural",
+          "/languages/atlas/?language=040000&residence=rural",
+          "/languages/atlas/?language=013000&residence=rural",
+          "/languages/atlas/?language=005000&residence=rural",
+          "/languages/atlas/?language=020000&residence=rural",
+          "/languages/atlas/?language=058000&residence=rural",
+          "/languages/atlas/?language=011000&residence=rural",
+          "/languages/atlas/?language=124000&residence=rural",
+          "/languages/atlas/?language=069000&residence=rural",
+          "/languages/atlas/?language=001000&residence=rural",
+          "/languages/atlas/?language=014000&residence=rural",
+          "/languages/atlas/?language=060000&residence=rural",
+          "/languages/atlas/?language=068000&residence=rural",
+          "/languages/atlas/?language=106000&residence=rural",
+          "/languages/atlas/?language=015043&residence=rural",
+          "/languages/atlas/?language=070001&residence=rural",
+          "/languages/atlas/?language=021046&residence=rural",
+          "/languages/atlas/?language=006240&residence=rural",
+          "/languages/atlas/?language=022015&residence=rural",
+          "/languages/atlas/?language=091009&residence=rural",
+          "/languages/atlas/?language=002007&residence=rural",
+          "/languages/atlas/?language=018040&residence=rural",
+          "/languages/atlas/?language=030002&residence=rural",
+          "/languages/atlas/?language=015051&residence=rural",
+          "/languages/atlas/?language=040001&residence=rural",
+          "/languages/atlas/?language=013071&residence=rural",
+          "/languages/atlas/?language=005018&residence=rural",
+          "/languages/atlas/?language=020027&residence=rural",
+          "/languages/atlas/?language=058001&residence=rural",
+          "/languages/atlas/?language=011016&residence=rural",
+          "/languages/atlas/?language=006355&residence=rural",
+          "/languages/atlas/?language=015999&residence=rural",
+          "/languages/atlas/?language=069002&residence=rural",
+          "/languages/atlas/?language=001002&residence=rural",
+          "/languages/atlas/?language=006503&residence=rural",
+          "/languages/atlas/?language=014011&residence=rural",
+          "/languages/atlas/?language=060002&residence=rural",
+          "/languages/atlas/?language=068999&residence=rural",
+          "/languages/atlas/?language=106004&residence=rural",
+          "/languages/atlas/?language=015000&residence=urban",
+          "/languages/atlas/?language=006000&residence=urban",
+          "/languages/atlas/?language=022000&residence=urban",
+          "/languages/atlas/?language=021000&residence=urban",
+          "/languages/atlas/?language=002000&residence=urban",
+          "/languages/atlas/?language=005000&residence=urban",
+          "/languages/atlas/?language=013000&residence=urban",
+          "/languages/atlas/?language=016000&residence=urban",
+          "/languages/atlas/?language=011000&residence=urban",
+          "/languages/atlas/?language=018000&residence=urban",
+          "/languages/atlas/?language=070000&residence=urban",
+          "/languages/atlas/?language=020000&residence=urban",
+          "/languages/atlas/?language=091000&residence=urban",
+          "/languages/atlas/?language=014000&residence=urban",
+          "/languages/atlas/?language=030000&residence=urban",
+          "/languages/atlas/?language=010000&residence=urban",
+          "/languages/atlas/?language=040000&residence=urban",
+          "/languages/atlas/?language=015043&residence=urban",
+          "/languages/atlas/?language=006240&residence=urban",
+          "/languages/atlas/?language=022015&residence=urban",
+          "/languages/atlas/?language=021046&residence=urban",
+          "/languages/atlas/?language=002007&residence=urban",
+          "/languages/atlas/?language=005018&residence=urban",
+          "/languages/atlas/?language=006400&residence=urban",
+          "/languages/atlas/?language=013071&residence=urban",
+          "/languages/atlas/?language=006102&residence=urban",
+          "/languages/atlas/?language=016038&residence=urban",
+          "/languages/atlas/?language=011016&residence=urban",
+          "/languages/atlas/?language=018040&residence=urban",
+          "/languages/atlas/?language=070001&residence=urban",
+          "/languages/atlas/?language=006489&residence=urban",
+          "/languages/atlas/?language=020027&residence=urban",
+          "/languages/atlas/?language=091009&residence=urban",
+          "/languages/atlas/?language=014011&residence=urban",
+          "/languages/atlas/?language=030002&residence=urban",
+          "/languages/atlas/?language=010008&residence=urban",
+          "/languages/atlas/?language=040001&residence=urban",
+          "/languages/odia/",
+          "/languages/kui/",
+          "/languages/santali/",
+          "/languages/koya/",
+          "/languages/saora/",
+          "/languages/multilingual-odisha/",
+          "/contribute/",
+          "https://censusindia.gov.in/nada/index.php/catalog/10217"
+        ],
+        "limits": "Existing dist-publish, not fresh build or live proof."
+      },
+      "frozen_proposal": {
+        "files": [
+          "kb/records/nayagarh-language-utility-review-2026-10-30.json",
+          "kb/records/article-editorial-rollout.json",
+          "kb/records/article-editorial-work-list.md"
+        ],
+        "change": "After independent review/ownership reconciliation, set only096 status excluded, evidence pointer and individual reason; regenerate work-list. Do not mark authored article completed.",
+        "preserve": [
+          "Public route, search eligibility, original atlas/workbook and caveats",
+          "All other rollout items and distinct authored regional narratives",
+          "185 Dhaga entries/art and104-page book"
+        ],
+        "programme_credit": 0,
+        "checks": [
+          "Frozen report bindings, only096 field delta, sibling equality",
+          "Existing rollout/work-list and programme consistency checks",
+          "No site/data/product diff; no unchanged-site build needed"
+        ]
+      },
+      "actual_checks": [
+        "54 original rows and486 numeric cells compared directly",
+        "Cached complete article and links extracted",
+        "Template, table helper, configuration and existing tests inspected",
+        "No new mirroring tests or builds run"
+      ],
+      "files": [
+        {
+          "path": "AGENTS.md",
+          "sha256": "201a1681b987fac0947dc7dd846d29058d753f7f3e7b497026ec197f35c19a58"
+        },
+        {
+          "path": "kb/reference/article-editorial-standard.md",
+          "sha256": "2cf78004a05aa57dc303950ad37004484389f1645775532081c0013a09a13238"
+        },
+        {
+          "path": "projects/site/src/pages/languages/districts/[slug].astro",
+          "sha256": "4710838468016e58cf8b3d2a1537c1185b3cb39049b5ce90dbae6c1391568e76"
+        },
+        {
+          "path": "projects/site/src/components/DistrictLanguageTable.astro",
+          "sha256": "36971c1f294c05a73ab2885629be49bea81ff14782d5a7c1846433ac734d06ed"
+        },
+        {
+          "path": "projects/site/src/lib/language-atlas.mjs",
+          "sha256": "c52a825ccfec3aa241173e7d50355a42074bdfb8a45ee4ac225a2fec3e99a87c"
+        },
+        {
+          "path": "kb/research/voices/population-2011.json",
+          "sha256": "c149d36bfa5c6c01595ddb517dfca21c5d8d5fe6d2283fa19dc020432b7fe998"
+        },
+        {
+          "path": "kb/research/voices/district-connections.json",
+          "sha256": "149161595dab537134f247fd7c5fdb34aa128b2bb008ae5a35fc0bb04f97f303"
+        },
+        {
+          "path": "kb/research/related-discoveries.json",
+          "sha256": "139d0e02577be85b4df622cd1c16befa88daeeef3b3002f7097bd8cb7a79d742"
+        },
+        {
+          "path": "projects/site/tests-coast/district-languages.test.mjs",
+          "sha256": "d08f9361f582b4b9d079f82ea34eba984eba00774d1dbb963234d3557be522c9"
+        },
+        {
+          "path": "projects/site/tests/language-atlas.test.mjs",
+          "sha256": "bda0b2cf8391ffecab92327ce9bce42e8aca3975cba280c10705c77d7abd84df"
+        },
+        {
+          "path": "kb/research/sources/forest-cysd2002.md",
+          "sha256": "21c45f1dfe191d9be7763894d3bf5fe0e3c4c7b0840a77860b79b7c6bfd2d244"
+        },
+        {
+          "path": "kb/research/places/jagannath-temple-puri.md",
+          "sha256": "07d09bae7d399426c24274155c3c36555b424e39e1c433a51761d367eb5f40fc"
+        }
+      ],
+      "limits": [
+        "No fresh source download, live browser or responsive claim.",
+        "No community identity, fluency, ancestry or town population inferred.",
+        "No canonical/Git/shared-record mutation, acceptance credit or release."
+      ]
+    },
+    "drishti.json": {
+      "review_type": "separate AI individual readiness review",
+      "status": "PASS_INDIVIDUAL_UTILITY_RECOMMENDATION",
+      "item": "POD-EDIT-096",
+      "route": "/languages/districts/nayagarh/",
+      "input_head": "a43fa6a61718228404ee9c33a43916ce7444572f",
+      "origin_main": "b6350153ac7e1a998883c61c381bea492e784979",
+      "report_hashes": {
+        "HANDOFF.json": "6aa57307935d77e4c637b81865065c90604b4ae8cd8eec91decc658c52a20fed",
+        "anvesha.json": "a9598cfd946b2093f9775bb345b0c1af224a659828a27b8ea2637224976ed686",
+        "samanta.json": "6bedf8a68534e7f35daa021e70eff82f903c0d018f18ccf366d641a69852d585"
+      },
+      "independent_checks": [
+        "Read both frozen reports and relevant governance; verified every listed source/template/context hash and cached-render hash against actual files.",
+        "Independently parsed retained original XLSX Sheet1 district385/subdistrict00000:54rows12528–12581,486H:Pcells and allsource-row/code sets equal atlas.",
+        "Independently summed24parent groups to all9 population fields and checked each54row sex/residence arithmetic.30 subordinate rows are not added to parent totals.",
+        "Read actual district route template and complete cached article text: historical tables/residence splits, computed lead and profile navigation; no sustained authored Nayagarh-language essay.",
+        "Independently checked district-connections and related-discoveries: no385 destination connection or route-specific further-reading configured.",
+        "Both reports agree on962789 total,883051 rural,79738 urban; residualOTHERS4 is retained without invented child rows."
+      ],
+      "findings": [
+        "Classify only096 as a Census reference utility in sustained-article rollout. This remains a useful public route, not a rejected or disposable page.",
+        "Preserve all public route/data/search behavior, caveats, language-profile links and source references.",
+        "Preserve separate Chhena poda,Dhuduki/Ranapur,Kantilo/maker,forest,Pala and banking narratives; utility classification says nothing about their substantive editorial value.",
+        "No discrepancy requiring correction found."
+      ],
+      "blocking_findings": [],
+      "next_action": "If coordinator proceeds, records-only integration may change096 status/evidence/individual reason and regenerate work-list; verify allsiblings unchanged and exact frozen report bindings. No public build or deployment justified by this readiness result.",
+      "credit": {
+        "completion": 0,
+        "programme": 0
+      },
+      "limits": [
+        "Readiness recommendation only, not canonical classification/integration/release approval.",
+        "Retained source parsed locally; no fresh network retrieval or present-day demographic claim. District2011 figures do not establish town, ancestry, fluency or current community preferences.",
+        "Cached HTML read, not fresh browser/live proof. No new viewport or accessibility test.",
+        "No broad suite rerun or new cultural-source validation; arithmetic/hash/config assertions actually executed.",
+        "Onlydrishti.json written; no canonical/Git/source/public edits. Dhaga185/104 and programme131 outside this change scope."
+      ]
+    }
+  },
+  "readiness_handoff_note": "Drishti HANDOFF hash binds the initial assignment snapshot, before coordinator completion metadata; frozen anvesha/samanta report hashes remain exact."
+}

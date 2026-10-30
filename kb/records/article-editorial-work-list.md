@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 859. completed: 131, excluded: 412, queued: 316.
+Route inventory: 865. completed: 131, excluded: 420, queued: 314.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -108,8 +108,8 @@ Route inventory: 859. completed: 131, excluded: 412, queued: 316.
 | POD-EDIT-092 | [Cuttack · languages and population](https://projectodisha.org/languages/districts/cuttack/) | excluded | classification_pending |
 | POD-EDIT-093 | [Jajapur · languages and population](https://projectodisha.org/languages/districts/jajapur/) | excluded | classification_pending |
 | POD-EDIT-094 | [Dhenkanal · languages and population](https://projectodisha.org/languages/districts/dhenkanal/) | excluded | classification_pending |
-| POD-EDIT-095 | [Anugul · languages and population](https://projectodisha.org/languages/districts/anugul/) | queued | classification_pending |
-| POD-EDIT-096 | [Nayagarh · languages and population](https://projectodisha.org/languages/districts/nayagarh/) | queued | classification_pending |
+| POD-EDIT-095 | [Anugul · languages and population](https://projectodisha.org/languages/districts/anugul/) | excluded | classification_pending |
+| POD-EDIT-096 | [Nayagarh · languages and population](https://projectodisha.org/languages/districts/nayagarh/) | excluded | classification_pending |
 | POD-EDIT-097 | [Khordha · languages and population](https://projectodisha.org/languages/districts/khordha/) | queued | classification_pending |
 | POD-EDIT-098 | [Puri · languages and population](https://projectodisha.org/languages/districts/puri/) | queued | classification_pending |
 | POD-EDIT-099 | [Ganjam · languages and population](https://projectodisha.org/languages/districts/ganjam/) | queued | classification_pending |
@@ -867,6 +867,15 @@ Route inventory: 859. completed: 131, excluded: 412, queued: 316.
 | POD-EDIT-20261033 | [ଅଖା ଧୋଉଥିବୁ ଗୁଣ ଗାଉଥିବୁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-177.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-20261034 | [ମୂଳପୋଛ କରିବା](https://projectodisha.org/dhaga/sayings/pod-dhaga-178.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-20261035 | [ଖୁଣ୍ଟ ଗୁଣେ ଘୋଡା କୁଦେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-179.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-20261036 | [କଥା ରହିୟିବ କାଳକାଳକୁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-180.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-20261037 | [ତୋର ମୋର ରାଜି, କିସ କରିବ କାଜି](https://projectodisha.org/dhaga/sayings/pod-dhaga-181.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-20261038 | [ବାଟିଏ ଚାଷ, ନୀତି ଉପାସ](https://projectodisha.org/dhaga/sayings/pod-dhaga-182.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-20261039 | [ଧୀର ସ୍ଥିର ନୋହି ଉତ୍ତେଜିତ ହେଲେ
+କାର୍ଯ୍ୟ କେବେ ସିଦ୍ଧ ନୁହେଁ ।
+ଧୀରପାଣି ସିନା ପଥର କାଟଇ
+ସ୍ରୋତ ତହିଁ ବ୍ୟର୍ଥ ହୁଏ  ॥](https://projectodisha.org/dhaga/sayings/pod-dhaga-183.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-20261040 | [ଆପେ ବଞ୍ଚିଲେ ବାପର ନାଆଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-184.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-20261041 | [ଜାଣି ଘୋଡ଼ାର ଶିଙ୍ଗ ନାହିଁ, ଶିଙ୍ଗ ଥିଲେ ଘୋଡ଼ା ରଖନ୍ତା ନାହିଁ ।](https://projectodisha.org/dhaga/sayings/pod-dhaga-185.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-GOPAL-CHHOTRAY-20261029 | [Gopal Chhotray: Words Made for Voices](https://projectodisha.org/people/gopal-chhotray/) | queued | Founder-requested cinema companion; not counted toward general article programme |
 | POD-EDIT-BASANTA-KUMARI-20261029 | [Basanta Kumari Patnaik: Writing, Publishing and the Screen](https://projectodisha.org/people/basanta-kumari-patnaik/) | queued | Founder-requested cinema companion; not counted toward general article programme |
 | POD-EDIT-LEARNING-CINEMA-20261029 | [Learning Cinema Together](https://projectodisha.org/cinema/learning-cinema-together/) | queued | Founder-requested cinema companion; not counted toward general article programme |

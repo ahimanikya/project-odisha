@@ -1,0 +1,110 @@
+{
+  "review_type": "separate AI delivery evidence and actual image review",
+  "status": "PASS_WITH_EXPLICIT_BYTE_VARIANCES",
+  "deployed_merge": "59ac5094923866be482d7787ae1ebb0c55308351",
+  "deployment_run": 40979105109,
+  "deployment_basis": "Coordinator-confirmed successful deployment and bound browser/sync reports; no independent network deployment query in this review.",
+  "evidence_hashes": {
+    "live-verification.json": "915fc37c7fba30472036fdf6556742ec9b04f0571e4bd79267fb6fa185f64e4f",
+    "companion-main-verification.json": "7638a75e47c7f6ec3ed640063048819a00604f752bf4c5f2333a3dfcc73c0dfa",
+    "supplemental-live-verification.json": "29d80b1835587d9d49830c96711a3c8b85df69ce2d8315fbcc88f69222d3f577",
+    "live-browser-review.json": "7f80f0b0c4c529e5f64e49a1bcc74fc238633ab5e4f72c61983daf348a523fb2",
+    "local-reader-sync-result.json": "83e7e0bb7b43c1f1084aa7bc0ac718db5c575e2cf319efc3c7e05078e0e73cff",
+    "merged-verification.json": "64d2b466f0ae5d0ce7c418c93f508a2ecd8127f7c63e88b0cc2f0e7154490d6f",
+    "verify-live.py": "a5c5f96743986ba935062419ecce415ad92ebd6a8fdcb0e956a3a36b32d42bc9",
+    "verify-companion-main.py": "4da68e54e132435db20464b4c613c3e2fc8b49f8271bcf449572900be505e809"
+  },
+  "checks": [
+    "Reviewed live checker and companion comparison scripts; both-hash pair requirements and nonempty catalog assertion retained.",
+    "Independently checked all379 expected local hashes against actual dist-publish;188HTML exact per captured HTTP results. Raw371/379 equality and false raw pass_check remain unchanged.",
+    "Individually viewed12 actual images: local/live180–185. All six downloaded bytes independently match captured live SHA.",
+    "008/073 exact local/live pairs independently equal previously reviewed179 pairs; no new visual review claimed for these.",
+    "All29 companion local/live pairs independently match original173 reviewed pairs; three main sections exact after this explicit mapping, not raw whole-HTML equality. Shared catalog nonempty/exact per captured evidence.",
+    "Supplemental report records fresh exact104-page PDF030dc508/87816084bytes,11 sitemap URLs,sixheld/noindex routes andfiveinternal404.",
+    "Root actual desktop/390px browser evidence covers185 navigation and183four lines; no reviewer browser interaction claimed.",
+    "Local sync report distinguishes immutable8be61895 product plan from actuald648b1c3 checkout:628verifiedallowlist files447protected files19tests. Optional transcription module absent and not run, correctly disclosed."
+  ],
+  "new_variance_pairs": [
+    {
+      "path": "assets/dhaga-180-line-art-v1.webp",
+      "url": "https://projectodisha.org/dhaga/assets/dhaga-180-line-art-v1.webp",
+      "status": 200,
+      "bytes": 46538,
+      "local_sha256": "e110b1b6f2594bb9d15c37e59080fb309ae54b5ff633ac279ad0236f5df92b06",
+      "live_sha256": "e09c9303b1caf850cd658dd565a26f11eae8cd321a1d0d82a002bd381a1ef72d",
+      "exact": false,
+      "previously_reviewed_exact_hash_pair": false,
+      "pass_check": false,
+      "independent_visual_result": "PASS: actual local and live image individually viewed; composition, anatomy, metaphor and line detail intact/readable. Byte mismatch retained."
+    },
+    {
+      "path": "assets/dhaga-181-line-art-v1.webp",
+      "url": "https://projectodisha.org/dhaga/assets/dhaga-181-line-art-v1.webp",
+      "status": 200,
+      "bytes": 50682,
+      "local_sha256": "87d438d54b469a91e45fac60ff90cd7237720c0d7fa362f69116f650740f9e06",
+      "live_sha256": "bf042e802f4d6be31e0fd46490a911145aac6bcf2da1ae9c1ed23d29d1e4f53a",
+      "exact": false,
+      "previously_reviewed_exact_hash_pair": false,
+      "pass_check": false,
+      "independent_visual_result": "PASS: actual local and live image individually viewed; composition, anatomy, metaphor and line detail intact/readable. Byte mismatch retained."
+    },
+    {
+      "path": "assets/dhaga-182-line-art-v1.webp",
+      "url": "https://projectodisha.org/dhaga/assets/dhaga-182-line-art-v1.webp",
+      "status": 200,
+      "bytes": 74304,
+      "local_sha256": "9c4284820442422da7d8ece5610d8d014abc7febc112d4ea344dc9266319ccbc",
+      "live_sha256": "0eee4b47cbd357657b71512c2c314d78809599c3394f54e05d731ba6cd5271e9",
+      "exact": false,
+      "previously_reviewed_exact_hash_pair": false,
+      "pass_check": false,
+      "independent_visual_result": "PASS: actual local and live image individually viewed; composition, anatomy, metaphor and line detail intact/readable. Byte mismatch retained."
+    },
+    {
+      "path": "assets/dhaga-183-line-art-v1.webp",
+      "url": "https://projectodisha.org/dhaga/assets/dhaga-183-line-art-v1.webp",
+      "status": 200,
+      "bytes": 83554,
+      "local_sha256": "3e602b72f4d7f3544a3dc889b10c8af5f6464d30480a88c335393d008caeec70",
+      "live_sha256": "90f99dc3389d0e75c8a78c10495287add7732d771778d7315f1d41e37cda4d9a",
+      "exact": false,
+      "previously_reviewed_exact_hash_pair": false,
+      "pass_check": false,
+      "independent_visual_result": "PASS: actual local and live image individually viewed; composition, anatomy, metaphor and line detail intact/readable. Byte mismatch retained."
+    },
+    {
+      "path": "assets/dhaga-184-line-art-v1.webp",
+      "url": "https://projectodisha.org/dhaga/assets/dhaga-184-line-art-v1.webp",
+      "status": 200,
+      "bytes": 57416,
+      "local_sha256": "e1afa53cdc44bb555b73b5e7ab8cf0b47c222c8624dca86550284484e7f13fcb",
+      "live_sha256": "68237a708b21d9743373c839457eb0cd02471fc1a5c8edb3ee7d6851c5fa4f58",
+      "exact": false,
+      "previously_reviewed_exact_hash_pair": false,
+      "pass_check": false,
+      "independent_visual_result": "PASS: actual local and live image individually viewed; composition, anatomy, metaphor and line detail intact/readable. Byte mismatch retained."
+    },
+    {
+      "path": "assets/dhaga-185-line-art-v1.webp",
+      "url": "https://projectodisha.org/dhaga/assets/dhaga-185-line-art-v1.webp",
+      "status": 200,
+      "bytes": 46006,
+      "local_sha256": "c7f4416c7a40e66d51309afdfbc2579031f31bdfd0a1966abda42afdddf33847",
+      "live_sha256": "53e907933e4bdc2e65d6b87584c38fbe7c11f67342c03fd791d54055eb0152e6",
+      "exact": false,
+      "previously_reviewed_exact_hash_pair": false,
+      "pass_check": false,
+      "independent_visual_result": "PASS: actual local and live image individually viewed; composition, anatomy, metaphor and line detail intact/readable. Byte mismatch retained."
+    }
+  ],
+  "visual_findings": [
+    "180 faces/hands/sapling unchanged in appearance.181 collaborators/objector anatomy and composition intact.182 full rice/empty vessels contrast intact.183 stream,hollow and hatching clear.184 resting/watering activity intact.185 imaginary horns/horse geometry and calm observers intact."
+  ],
+  "blocking_findings": [],
+  "limits": [
+    "Visual equivalence does not mean byte equality; cause of encoder differences not independently diagnosed.",
+    "No fresh HTTP requests, physical-device test, citation-return test or live download interaction by this reviewer. Reused exact pair reviews are explicitly limited to their established coverage.",
+    "Receipt commit review/merge and conditional scope release remain separate; no other programme credit or release claim."
+  ]
+}
