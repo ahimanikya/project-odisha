@@ -2673,12 +2673,15 @@
       "id": "POD-EDIT-099",
       "route": "/languages/districts/ganjam/",
       "title": "Ganjam · languages and population",
-      "status": "queued",
+      "status": "excluded",
       "scope": "classification_pending",
       "source_template": null,
       "checks": {},
-      "evidence": [],
-      "blocker": null
+      "evidence": [
+        "records/ganjam-language-utility-review-2026-10-31.json"
+      ],
+      "blocker": null,
+      "exclusion_reason": "Individually exclude POD-EDIT-099 as a Census 2011 district data utility. Preserve Ganjam district388 tables, source notes, language-profile navigation and search status. Its actual configuration has no destination or extra editorial-reading connections and no sustained Ganjam-specific authored narrative. Preserve separate Ranapa, Danda Nata, Prahlada Nataka, Rambha, Gopalpur and Berhampuri material. District counts do not establish town or individual speech, ancestry or community identity."
     },
     {
       "id": "POD-EDIT-100",
