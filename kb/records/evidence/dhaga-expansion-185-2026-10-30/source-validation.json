@@ -1,0 +1,111 @@
+{
+  "review_type": "separate AI text/source integration parity review",
+  "status": "PASS_TEXT_INTEGRATION_BUILD_AND_VISUAL_REVIEW_PENDING",
+  "input_head": "1b81b550c785bfd776c948ca9aada5dc62f6563a",
+  "baseline": "1b81b550c785bfd776c948ca9aada5dc62f6563a",
+  "bundle_sha256": "90728d3b67b0e1aac937a2ae6f243b9bf0a4a66e120a480adb4ef8de5e6e56d2",
+  "findings": [
+    "All six installed entry bodies equal frozen reviewed draft fields; only ID/status/internal candidate/dedup metadata differ.",
+    "All179 prior entry files byte-identical to baseline.",
+    "All77 existing source records unchanged; two added accepted-source records exactly as intended; capture paths resolve.",
+    "Ledger only total185, two reused accepted-ID lists and two new source rows; all historical and other source rows/top-level limits preserved.",
+    "Source127 data/counters unchanged; scope count wording only.",
+    "All31 copied batch04 evidence files byte-equal output originals.",
+    "All185 unique editorial shelf IDs and per-shelf counts reconcile."
+  ],
+  "entry_field_deltas": {
+    "180": [
+      "id",
+      "editorial_status",
+      "candidate_key"
+    ],
+    "181": [
+      "id",
+      "editorial_status",
+      "candidate_key"
+    ],
+    "182": [
+      "id",
+      "editorial_status",
+      "dedup",
+      "candidate_key"
+    ],
+    "183": [
+      "id",
+      "editorial_status",
+      "dedup",
+      "candidate_key"
+    ],
+    "184": [
+      "id",
+      "editorial_status",
+      "dedup",
+      "candidate_key"
+    ],
+    "185": [
+      "id",
+      "editorial_status",
+      "dedup",
+      "candidate_key"
+    ]
+  },
+  "copied_evidence_hashes": {
+    "source-coverage.json": "d06f9db5f71e2ed6d8b87dc82a60f8c0682ee748b2f5efb0784661e15d53a102",
+    "HANDOFF.json": "5cc51fa044079738bf2efa2e46b9d78d0e2970c1558420bb1d68ef5a716c4896",
+    "current-179-dedupe.json": "d5dc5899edf771a9a184a3ff47fa6f27d91e92345c175de70a5e78b26eb10fe3",
+    "delivery.json": "acad1ac4f9c82f945a32cb29f7ccc80fa688662984e2e974a59100f38dcf7060",
+    "source-reuse-map.json": "e8ceae158e18af9cc15ebb4ce6617896a1309dc1f96752e866aa9012aca1202d",
+    "candidate-bundle.json": "90728d3b67b0e1aac937a2ae6f243b9bf0a4a66e120a480adb4ef8de5e6e56d2",
+    "baseline.json": "f395ef71c9e3e9f1a1f3f023070d16226191a1a5ca8e513f3cede622d2092561",
+    "samanta/candidates.json": "76aba22d55ecc84238a0efbb3a53954202b175d11c2d6ceacd6107679edb9078",
+    "samanta/report.json": "a8415efeef540353539f651c148cf9e1a1c62aabe2c1e9a309e1fd5044250767",
+    "samanta/selected.json": "f4acb25375ac33e875db95bfee24180bb8eb7d30e95e0753eda64cd6ad63f9c8",
+    "anvesha/candidates.json": "c0909b8da3a8aef4db5cd177143db958d306e67f05da1c59e202de001b336a83",
+    "anvesha/anvesha.json": "8743cf58371ce39f2827d57c3642bed28a119e6de05fd8f9177af883a6e01761",
+    "anvesha/manifest.json": "db99ed9a4c1a797742995c0dc30e671ea5dac51f9a53abf162fcd45a014958fa",
+    "drishti/baseline-review.json": "8f1cf8b9c9e8cf63875623921a5e70d9bab0d49291bd188b8439c71c3ff8ca72",
+    "drishti/samanta-review.json": "783e3e52a53188fe40ffab63bbbe123c6af5724826b1f3f1ac4c11871057ef53",
+    "drishti/prior-dispositions.json": "22306114f43e72e7fe72962e6b7929c293d94fe5af80b93b23122563a4d725ea",
+    "drishti/integrated-review.json": "3052053d094e4df654d79d08b455910fe8d7d58e59ae17d19d9ba1763a7a268f",
+    "drishti/corpus-comparison-index.json": "72833d6fa041907db4894eeb9f133373debbe8f421206bc7ab1ac1ee1f7829c4",
+    "drishti/anvesha-review.json": "90aa6ab134bf5af7ec15c21db39a5d20510d37c10a9140ef46bdfe674bdf4737",
+    "anvesha/captures/193413.txt": "07faa76d02ff5afab1c14acaa1e8377146e66e62711d64fa13238b59759dd677",
+    "anvesha/captures/lexical.json": "df5c79a57d99727fc84d73984a7d068a8745daf9b6e4355abfc9c75fbaebc075",
+    "anvesha/captures/171747.txt": "ffdd2a45e4c592ce76c21fb8188c22460c3962e574bf23d42c2a5ae5dbd99a82",
+    "anvesha/captures/originals.json": "69513eb62dfa4a88645b3b6f1a1e49f79ba7350a8bc9aea7cc084f45ba3c2191",
+    "anvesha/captures/40132.txt": "e9a15a8912e06efb21853cb460dd749df3795da3fa18a0f8dd59e34f9f842de8",
+    "anvesha/captures/214967.txt": "b0d219bf089e33d9597bb8f9ff84baf0c32f345719fc06437d2a5c73d93581f7",
+    "anvesha/captures/122262.txt": "b717be6a46b15acaadedeea9e70e788403cd6f1481f53e42a3787bbc3a8e2a5a",
+    "anvesha/captures/lexical-request-url.txt": "ae50155248a218e65b02cadaebd2c277b78cfb2f97ca9af0e8a89bb2c978e992",
+    "anvesha/captures/request-url.txt": "f4b7f914837e7eae207259a8575a984f86ba3157ee95ebda95178b231631d234",
+    "samanta/captures/146978-revision.json": "e1a5910949a1fe0cd6b075be332af32a05381d38c3a2ab67930a57dd2e870ef1",
+    "samanta/captures/research-map-query.json": "198a6dfd858962a4a4e4c188b1e2727b02dbfefe4440ac2bcd7186daf73d588d",
+    "samanta/captures/145337-revision.json": "a5549a243d30d9057cb4afb90df634cf4602e04c49b90fc2abcc49cc55442856"
+  },
+  "inspected_file_hashes": {
+    "collection-metadata.json": "cf035f46c287c15d357d628da4dfba94a7e120fec5fde328b86b947b289b5d54",
+    "coverage-ledger.json": "4d221023756db483e5010ef95f7eb1bd25f4ba9290215f4a9eee1706c0b01f49",
+    "source127.json": "950b944bbab78af6e8a23a9614756abd8332ae99b1dad0c1e4ad86a4b45c923f",
+    "research-design.json": "2995288bb5510505253eb86e36bd2ac9b0202b8b819d1416da6b385d5056785f",
+    "entries/POD-DHAGA-180.json": "6ab0c9c210fbd446491812ab42163a5e1122ae35e077a2a185775b9df158c16f",
+    "entries/POD-DHAGA-181.json": "d97e054d7b0b9401951f515b90f49c4de820f802dc81c7b7b471e3885a4309be",
+    "entries/POD-DHAGA-182.json": "39125c6ac7afc43959690fa9a81b9ed4701e0c9fe2773d371c90f4ab2421da4e",
+    "entries/POD-DHAGA-183.json": "4f3c29a72f6df4fb338e889476bf1baf7f7cfc4e10d01e8f690eb6c6bb86ae1f",
+    "entries/POD-DHAGA-184.json": "5dff4f84fce051d4b5bd00616a957b0cffdb052b219e72328f2b69db321bec26",
+    "entries/POD-DHAGA-185.json": "c61ccf38aaf00ffa61a43791a2ae0c90fd98e412c05462de73c18b3ee8e96f5f"
+  },
+  "blocking_findings": [],
+  "remaining_gates": [
+    "Generated collection/index/source inventory/PDF still baseline while build/art pending; do not claim complete185 reader yet.",
+    "research-design collection_sha256 still baseline179; refresh binding when final collection is generated.",
+    "Actual six art files and final affected PDF pages require separate visual review."
+  ],
+  "actual_checks": [
+    "Direct byte comparison179 entries, source/cursor deep comparisons, six-field parity checks,31 evidence byte comparisons and shelf uniqueness/count assertions."
+  ],
+  "limits": [
+    "Read-only text checkpoint, not final build/site/release approval.",
+    "No repeated source research or new human/rights certification.",
+    "No generator or broad test suite run while implementer builds."
+  ]
+}

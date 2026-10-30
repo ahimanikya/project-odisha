@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "input_head": "8be61895fd213ec15ff7eec58f1633acc7aa5b6b",
+  "scope": "Generated site outputs and output report only; no source/Git/shared edits",
+  "tests": {
+    "full": 646,
+    "coast": 535,
+    "coast_acceptance": "3408/3408",
+    "disclosures": {
+      "pages": {
+        "full": 994,
+        "coast": 981,
+        "publish": 982
+      },
+      "violations": 0
+    },
+    "discovery": "pass",
+    "launch": "11 sitemap URLs and14 contrast pairs passed",
+    "shortlist": "11 reviewed pages pass"
+  },
+  "publication": {
+    "build_exit": 0,
+    "bytes": 609507720,
+    "indexable_pages": 11,
+    "dhaga_full_export_bytes": 18964102,
+    "dhaga_coast_export_bytes": 18956394
+  },
+  "logs": {
+    "build": {
+      "path": "/tmp/dh185-build.log",
+      "sha256": "1d29e1f09479d2449ff3bffe597d0b8004016eb33db6b812670964ff7cbb7b4e",
+      "tail": "ml',\n    '/dhaga/sayings/pod-dhaga-082.html',\n    '/dhaga/sayings/pod-dhaga-083.html',\n    '/dhaga/sayings/pod-dhaga-084.html',\n    '/dhaga/sayings/pod-dhaga-085.html',\n    '/dhaga/sayings/pod-dhaga-086.html',\n    '/dhaga/sayings/pod-dhaga-087.html',\n    '/dhaga/sayings/pod-dhaga-088.html',\n    '/dhaga/sayings/pod-dhaga-089.html',\n    '/dhaga/sayings/pod-dhaga-090.html',\n    '/dhaga/sayings/pod-dhaga-091.html',\n    '/dhaga/sayings/pod-dhaga-092.html',\n    '/dhaga/sayings/pod-dhaga-093.html',\n    '/dhaga/sayings/pod-dhaga-094.html',\n    '/dhaga/sayings/pod-dhaga-095.html',\n    '/dhaga/sayings/pod-dhaga-096.html',\n    '/dhaga/sayings/pod-dhaga-097.html',\n    ... 88 more items\n  ],\n  pdf_url: 'https://raw.githubusercontent.com/ahimanikya/project-odisha/8be61895fd213ec15ff7eec58f1633acc7aa5b6b/projects/odia-dhaga/odia-dhaga-book.pdf',\n  pdf_pages: 104,\n  pdf_bytes: 87816084,\n  pdf_sha256: '030dc508ca71b4343bbe1053b90f05ea411ce116b2348e7a9a44f79b7f5ffc37',\n  bytes: 18964102,\n  files: 379\n}\n"
+    },
+    "tests": {
+      "path": "/tmp/dh185-tests.log",
+      "sha256": "e6cf75cf34bd8d3ddd75f8271d1df121f2ebe1156b6def8f618c3601bd96e7ee",
+      "tail": "665834ms)\n\u2714 checklists survive collection backups and duplication without leaking edits to other trips (0.244625ms)\n\u2714 malformed checklist backups are blocked rather than silently discarding marks (0.203125ms)\n\u2714 both offline editions include marked and unmarked prompts plus retained unknown items (0.357333ms)\n\u2714 the three planning collections expose valid, unique save targets and property limitations (8.259291ms)\n\u2714 illustrated trail connects every saved idea to a real guide and back to the trail (9.740708ms)\n\u2714 revised starter leaves an earlier five-stop journey, dates and notes intact (1.480042ms)\n\u2714 documentary photographs retain dates, identity limits and licensed source credits (0.716375ms)\n\u2714 language and literary pages retain claim sources, real assets and reuse credit (22.584709ms)\n\u2714 new collection pages are discoverable without presenting unwritten profiles as links (5.242333ms)\n\u2139 tests 646\n\u2139 suites 0\n\u2139 pass 646\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 13163.263125\n"
+    },
+    "coast": {
+      "path": "/tmp/dh185-coast.log",
+      "sha256": "1a2a104698bc3e50959a685b8a385bda9599b9f17c66cf33d0b9314052647412",
+      "tail": " '/dhaga/sayings/pod-dhaga-084.html',\n    '/dhaga/sayings/pod-dhaga-085.html',\n    '/dhaga/sayings/pod-dhaga-086.html',\n    '/dhaga/sayings/pod-dhaga-087.html',\n    '/dhaga/sayings/pod-dhaga-088.html',\n    '/dhaga/sayings/pod-dhaga-089.html',\n    '/dhaga/sayings/pod-dhaga-090.html',\n    '/dhaga/sayings/pod-dhaga-091.html',\n    '/dhaga/sayings/pod-dhaga-092.html',\n    '/dhaga/sayings/pod-dhaga-093.html',\n    '/dhaga/sayings/pod-dhaga-094.html',\n    '/dhaga/sayings/pod-dhaga-095.html',\n    '/dhaga/sayings/pod-dhaga-096.html',\n    '/dhaga/sayings/pod-dhaga-097.html',\n    ... 88 more items\n  ],\n  pdf_url: 'https://raw.githubusercontent.com/ahimanikya/project-odisha/8be61895fd213ec15ff7eec58f1633acc7aa5b6b/projects/odia-dhaga/odia-dhaga-book.pdf',\n  pdf_pages: 104,\n  pdf_bytes: 87816084,\n  pdf_sha256: '030dc508ca71b4343bbe1053b90f05ea411ce116b2348e7a9a44f79b7f5ffc37',\n  bytes: 18956394,\n  files: 379\n}\nCoastal candidate: 852 pages, 2356 files, 1,092,583,385 bytes; 294 unused files excluded.\n"
+    },
+    "coast-tests": {
+      "path": "/tmp/dh185-coast-tests.log",
+      "sha256": "4259b913beb056d4ad948140fdf3956aac632933e282c7e985e83d147acb1b5f",
+      "tail": "source notes (7.344291ms)\n\u2714 people/sarala-das: every passage reaches its own qualified source notes (4.824916ms)\n\u2714 people/pratibha-ray: every passage reaches its own qualified source notes (4.979416ms)\n\u2714 people/bhima-bhoi: every passage reaches its own qualified source notes (5.287166ms)\n\u2714 people/gopinath-mohanty: every passage reaches its own qualified source notes (4.125ms)\n\u2714 languages/ho: every passage reaches its own qualified source notes (5.940125ms)\n\u2714 languages/juang: every passage reaches its own qualified source notes (4.995833ms)\n\u2714 languages/koya: every passage reaches its own qualified source notes (7.085792ms)\n\u2714 people/gangadhar-meher: every passage reaches its own qualified source notes (6.246292ms)\n\u2714 languages/sambalpuri: every passage reaches its own qualified source notes (3.719125ms)\n\u2714 languages/desia: every passage reaches its own qualified source notes (4.010709ms)\n\u2139 tests 535\n\u2139 suites 0\n\u2139 pass 535\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 4474.22875\n"
+    },
+    "publication": {
+      "path": "/tmp/dh185-publication.log",
+      "sha256": "2d70e15eb6d846cb408f2d6b9d0b2c787e989850ffc67a9e86a5c5cb8f20e84c",
+      "tail": "\n> project-odisha-site@0.1.0 build:publication\n> node tools/build-publication.mjs\n\nPublication mode: limited; 11 indexable pages. dist-coast unchanged.\n"
+    },
+    "disclosure-full": {
+      "path": "/tmp/dh185-disclosure-full.log",
+      "sha256": "ea0df79c717d9cfc2c48c668081e4818f8b30092b983a4dcfb8c04612e9717ca",
+      "tail": "{\n  \"root\": \"/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/dist\",\n  \"pages\": 994,\n  \"violations\": []\n}\n"
+    },
+    "disclosure-coast": {
+      "path": "/tmp/dh185-disclosure-coast.log",
+      "sha256": "c9c0b3f1eae6af0039181defe43bcf8acae83b7d4033be6d414f8a49734bf1f3",
+      "tail": "{\n  \"root\": \"/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/dist-coast\",\n  \"pages\": 981,\n  \"violations\": []\n}\n"
+    },
+    "disclosure-publish": {
+      "path": "/tmp/dh185-disclosure-publish.log",
+      "sha256": "87653d65b0be46e47848523138952feb09e58bc4e4afc44524d1a43b0693aa4e",
+      "tail": "{\n  \"root\": \"/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/site/dist-publish\",\n  \"pages\": 982,\n  \"violations\": []\n}\n"
+    },
+    "audit-coast": {
+      "path": "/tmp/dh185-audit-coast.log",
+      "sha256": "aafcc6cfd9ee0c44f1f6bcdd68fb368e8ab7bf02aceb8e7ca66b8bfdc1f56368",
+      "tail": "3408 / 3408 page acceptance checks passed\n"
+    },
+    "audit-discovery": {
+      "path": "/tmp/dh185-audit-discovery.log",
+      "sha256": "484b44284824189667788530928287302ae797f0fe7735093e28e668aa8cd3b1",
+      "tail": "dhaga/sayings/pod-dhaga-163.html\",\n    \"/dhaga/sayings/pod-dhaga-164.html\",\n    \"/dhaga/sayings/pod-dhaga-165.html\",\n    \"/dhaga/sayings/pod-dhaga-166.html\",\n    \"/dhaga/sayings/pod-dhaga-167.html\",\n    \"/dhaga/sayings/pod-dhaga-168.html\",\n    \"/dhaga/sayings/pod-dhaga-169.html\",\n    \"/dhaga/sayings/pod-dhaga-170.html\",\n    \"/dhaga/sayings/pod-dhaga-171.html\",\n    \"/dhaga/sayings/pod-dhaga-172.html\",\n    \"/dhaga/sayings/pod-dhaga-173.html\",\n    \"/dhaga/sayings/pod-dhaga-174.html\",\n    \"/dhaga/sayings/pod-dhaga-175.html\",\n    \"/dhaga/sayings/pod-dhaga-176.html\",\n    \"/dhaga/sayings/pod-dhaga-177.html\",\n    \"/dhaga/sayings/pod-dhaga-178.html\",\n    \"/dhaga/sayings/pod-dhaga-179.html\",\n    \"/dhaga/sayings/pod-dhaga-180.html\",\n    \"/dhaga/sayings/pod-dhaga-181.html\",\n    \"/dhaga/sayings/pod-dhaga-182.html\",\n    \"/dhaga/sayings/pod-dhaga-183.html\",\n    \"/dhaga/sayings/pod-dhaga-184.html\",\n    \"/dhaga/sayings/pod-dhaga-185.html\"\n  ],\n  \"proposed_routes\": 11,\n  \"distinct_social_images\": 147\n}\n"
+    },
+    "search-review": {
+      "path": "/tmp/dh185-search-review.log",
+      "sha256": "9b3ae3151cba980d5a76dd4afa98f4d591304cd8b1ee604bba294236dc6378cf",
+      "tail": "Prepared separate search review: 11 proposed pages. dist-coast and publication workflow remain unchanged.\n"
+    },
+    "audit-launch": {
+      "path": "/tmp/dh185-audit-launch.log",
+      "sha256": "82087845785ece9e84d10b4ef7c8857d017a5fe8e65432cc31f8fece5d80d0cb",
+      "tail": "All candidate/default indexing comparisons, 11 sitemap URLs, 14 contrast pairs passed.\n"
+    },
+    "audit-shortlist": {
+      "path": "/tmp/dh185-audit-shortlist.log",
+      "sha256": "ec9aa81aca2982464bff82e86ad6769dd955cb33b86ef0c6a0c60cea2b884aed",
+      "tail": "{\"status\": \"pass\", \"reviewed_pages\": 11, \"errors\": []}\n"
+    }
+  },
+  "limits": [
+    "Browser interaction and visual checks owned by coordinator, not performed in this validation task.",
+    "No live publication claim."
+  ]
+}

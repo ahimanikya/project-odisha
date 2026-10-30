@@ -86,7 +86,11 @@ def make_book(root=ROOT):
             style=styles[kind]
             if re.search(r'[\u0b00-\u0b7f]',str(text)) and style.fontName != 'Odia':
                 style=style.clone(style.name+'-mixed',fontName='Odia')
-            return Paragraph(escape(str(text)),style)
+            markup=escape(str(text))
+            if kind == 'saying':
+                # Source verse divisions are distinct from automatic line wrapping.
+                markup=markup.replace('\n', '<br/>')
+            return Paragraph(markup,style)
         cover=book_cover(data)
         class CoverPage(Flowable):
             def __init__(self):

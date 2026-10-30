@@ -12,6 +12,10 @@ ROOT = Path(__file__).resolve().parent
 def esc(value):
     return html.escape(str(value), quote=True)
 
+def source_heading(value):
+    """Escape source text, retaining intentional verse divisions."""
+    return esc(value).replace("\n", "<br>")
+
 def required(obj, fields, context):
     for field in fields:
         if not isinstance(obj.get(field), str) or not obj[field].strip():
@@ -217,7 +221,7 @@ def render(data):
         cards.append(f'''<article class="entry" id="{esc(entry['id'])}" data-shelf="{esc(shelf(entry))}">
 <details class="saying-detail"><summary><span class="entry-header"><span class="number">DHAGA {n:02d}{' · '+esc(entry['category']) if entry.get('category') else ''}</span><span class="open-hint" aria-hidden="true">Read ↗</span></span>
 {f'<p class="entry-title">{esc(entry["title"])}</p>' if entry.get('title') else ''}
-<h2 lang="or">{esc(entry['odia'])}</h2></summary><div class="reading-body"><a class="permalink" href="#{esc(entry['id'])}">Link to this Dhaga</a>
+<h2 lang="or">{source_heading(entry['odia'])}</h2></summary><div class="reading-body"><a class="permalink" href="#{esc(entry['id'])}">Link to this Dhaga</a>
 {f'<p class="odia" lang="or">{esc(entry["meaning_odia"])}</p>' if entry.get('meaning_odia') else ''}
 
 {f'<p class="transliteration">{esc(entry["transliteration"])}</p>' if entry.get('transliteration') else ''}
@@ -291,7 +295,7 @@ def library_index(data, directory=ROOT):
     rows=[]
     for e in data['entries']:
         theme=labels[mapping[e['id']]]
-        rows.append(f'''<article class="index-row" id="{esc(e["id"])}" data-theme="{esc(theme)}"><p class="number">Dhaga {int(e["id"].rsplit("-",1)[-1]):02d} · {esc(theme)}</p><h2 lang="or">{esc(e["odia"])}</h2><p lang="or" class="odia">{esc(abstracts['summaries'][e['id']]['odia_summary'])}</p><p>{esc(abstracts['summaries'][e['id']]['english_summary'])}</p><a href="sayings/{esc(e["id"])}.html">Read the Dhaga, context &amp; sources →</a><span hidden>{esc(' '.join(e['tags']))} {esc(e.get('title',''))}</span></article>''')
+        rows.append(f'''<article class="index-row" id="{esc(e["id"])}" data-theme="{esc(theme)}"><p class="number">Dhaga {int(e["id"].rsplit("-",1)[-1]):02d} · {esc(theme)}</p><h2 lang="or">{source_heading(e["odia"])}</h2><p lang="or" class="odia">{esc(abstracts['summaries'][e['id']]['odia_summary'])}</p><p>{esc(abstracts['summaries'][e['id']]['english_summary'])}</p><a href="sayings/{esc(e["id"])}.html">Read the Dhaga, context &amp; sources →</a><span hidden>{esc(' '.join(e['tags']))} {esc(e.get('title',''))}</span></article>''')
     introduction=introduction_html(data)
     cover=book_cover(data)
     web_byline=cover['byline'] if cover['byline'].startswith('By ') else 'By '+cover['byline']

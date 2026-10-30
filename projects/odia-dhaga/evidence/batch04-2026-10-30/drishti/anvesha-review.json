@@ -1,0 +1,64 @@
+{
+  "review_type": "separate AI source and bilingual draft review",
+  "input_head": "94caa729ad0d9786815727e0209bfe45fd9516de",
+  "status": "PASS_TWO_DRAFTS_THREE_DEFERRALS",
+  "bindings": {
+    "anvesha/anvesha.json": "8743cf58371ce39f2827d57c3642bed28a119e6de05fd8f9177af883a6e01761",
+    "anvesha/candidates.json": "c0909b8da3a8aef4db5cd177143db958d306e67f05da1c59e202de001b336a83",
+    "anvesha/captures/122262.txt": "b717be6a46b15acaadedeea9e70e788403cd6f1481f53e42a3787bbc3a8e2a5a",
+    "anvesha/captures/171747.txt": "ffdd2a45e4c592ce76c21fb8188c22460c3962e574bf23d42c2a5ae5dbd99a82",
+    "anvesha/captures/193413.txt": "07faa76d02ff5afab1c14acaa1e8377146e66e62711d64fa13238b59759dd677",
+    "anvesha/captures/214967.txt": "b0d219bf089e33d9597bb8f9ff84baf0c32f345719fc06437d2a5c73d93581f7",
+    "anvesha/captures/40132.txt": "e9a15a8912e06efb21853cb460dd749df3795da3fa18a0f8dd59e34f9f842de8",
+    "anvesha/captures/lexical-request-url.txt": "ae50155248a218e65b02cadaebd2c277b78cfb2f97ca9af0e8a89bb2c978e992",
+    "anvesha/captures/lexical.json": "df5c79a57d99727fc84d73984a7d068a8745daf9b6e4355abfc9c75fbaebc075",
+    "anvesha/captures/originals.json": "69513eb62dfa4a88645b3b6f1a1e49f79ba7350a8bc9aea7cc084f45ba3c2191",
+    "anvesha/captures/request-url.txt": "f4b7f914837e7eae207259a8575a984f86ba3157ee95ebda95178b231631d234"
+  },
+  "per_candidate": [
+    {
+      "key": "batch04-anvesha-01",
+      "decision": "PASS_RESEARCH_DRAFT",
+      "findings": "Exact40132 wording and explicit Dhaga marker verified. For ever supports literal. Promise/warning uses are qualified editorial readings. Distinct from029 delayed response and085 meal enduring reputation, and098 spread of speech. Preserve unusual ରହିୟିବ."
+    },
+    {
+      "key": "batch04-anvesha-02",
+      "decision": "PASS_RESEARCH_DRAFT",
+      "findings": "Exact193413 sense2 example; cheeky raji/qazi rhyme preserved. Marriage role explicitly attributed to dictionary, not current law. Distinct from176 opportunistic respect,076 independence from ruler,108 silence/consent. Same source reused, not new historical lineage."
+    },
+    {
+      "key": "batch04-anvesha-03",
+      "decision": "KEEP_DEFERRED",
+      "findings": "Full122262 contains demeaning dependent-person and widow/daughter-in-law framing. A future critical historical account is possible; neutral management paraphrase would erase meaning. No blanket exclusion asserted."
+    },
+    {
+      "key": "batch04-anvesha-04",
+      "decision": "KEEP_DEFERRED",
+      "findings": "214967 whole example and99142 literal/figurative senses verified. Sullenness is supported; second-clause participant and force remain uncertain. Do not invent boasting or poverty ridicule."
+    },
+    {
+      "key": "batch04-anvesha-05",
+      "decision": "KEEP_DEFERRED",
+      "findings": "171747 regional role and exact phrase verified; missing lexical pages do not prove absence of word. ରାଇନେ stays unresolved, no normalized substitute."
+    }
+  ],
+  "actual_checks": [
+    "Read both complete drafts, all five full source text captures and lexical response.",
+    "All nine report capture SHA256 values match actual files.",
+    "All five text captures equal original API revision payloads.",
+    "Two headwords occur exactly in their attributed source; normalized179-headword screen has no matches.",
+    "Reviewed semantic neighbours029/085/098/076/108/176 and corpus summaries; no forced new variant mapping."
+  ],
+  "integration_notes": [
+    "Reuse existing dhaga-wiktionary-193413 record; add40132 only if integrating new witness.",
+    "Deferred source records are research evidence, not accepted entries or proof of completeness.",
+    "CC BY-SA contributor/revision/adaptation statements retained under established project evidence; no public-domain claim."
+  ],
+  "limits": [
+    "No fresh network retrieval, independent oral lineage or earliest-origin determination.",
+    "Separate AI review is not human/native/community approval.",
+    "No public acceptance increment, source127 crosswalk, historical cursor advance or canonical mutation.",
+    "Normalized equality does not certify exhaustive semantic uniqueness."
+  ],
+  "accepted_increment": 0
+}
