@@ -1,0 +1,35 @@
+{
+  "baseline": "1813c967874bc2fe82b2f8235d618197e62c5151",
+  "default_diff_check": {
+    "exit_code": 2,
+    "result": "FAIL, two inherited exact-source trailing-space lines"
+  },
+  "qualified_check": {
+    "command": "git -c core.whitespace=-blank-at-eol diff --check",
+    "exit_code": 0,
+    "limitation": "This command disables all end-of-line whitespace checks, so it is accepted only alongside the explicit audit proving the default check has exactly these two preserved witness cases."
+  },
+  "cases": [
+    {
+      "path": "projects/odia-dhaga/sayings/POD-DHAGA-161.html",
+      "line": 112,
+      "entry_byte_exact_to_baseline": true,
+      "unchanged_witness_lines": [
+        "ବିଦ୍ୟା ଅଟଇ ମହାଧନ "
+      ],
+      "prior_html_already_contains_exact_witness_line": true,
+      "entry_sha256": "b5673f115ca31d4d23769e65caa70d56c74251736e4ee4538af4dfd37c92a6e6"
+    },
+    {
+      "path": "projects/odia-dhaga/sayings/POD-DHAGA-162.html",
+      "line": 112,
+      "entry_byte_exact_to_baseline": true,
+      "unchanged_witness_lines": [
+        "ବୈକୁଣ୍ଠ ସମାନ ଆହା ଅଟେ ସେହି ଘର, "
+      ],
+      "prior_html_already_contains_exact_witness_line": true,
+      "entry_sha256": "d23d5143612b4a3f436a794ca312528a4232b914a4c773700544f4f6b30c5e39"
+    }
+  ],
+  "action": "No witness stripping, source change or PDF rebuild. Navigation regenerated around the unchanged witness suffix causes the whole HTML line to appear as new in diff."
+}

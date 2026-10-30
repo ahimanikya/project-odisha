@@ -1,0 +1,79 @@
+{
+  "id": "POD-DHAGA-EXPANSION-198-20261030",
+  "status": "candidate_built_reviewed",
+  "owner": "Disha",
+  "base": "1813c967874bc2fe82b2f8235d618197e62c5151",
+  "scope": "Thirteen reviewed additions186–198, two existing-entry variant patches103/156, one195parallel; illustrated book and public reader release.",
+  "assignments": {
+    "Disha": "Shared records, public export, Git and publication",
+    "Samanta": "projects/odia-dhaga/ only: guarded13-entry integration, art, generated book; output reports; no Git/shared records",
+    "Anvesha": "Output-only art and source review",
+    "Drishti": "Separate preparation and integrated source/book/render review; output reports only"
+  },
+  "prior_release": {
+    "receipt_pr": 617,
+    "merge": "1813c967874bc2fe82b2f8235d618197e62c5151",
+    "ci": 41021350301,
+    "remote_files_verified": 12,
+    "scope_released": true
+  },
+  "accepted_increment": 0,
+  "proposed_new": 13,
+  "next": "Guard current185 baseline, integrate reviewed package/art, build/test/render-review198, exact-head PR/CI/deploy/live/receipt.",
+  "preserve": {
+    "existing_entries": 185,
+    "original_pending": 75,
+    "1926_inventory": 103,
+    "1926_full": 31,
+    "1893_full": 2,
+    "1893_drafts": 83,
+    "programme": 131
+  },
+  "schema_version": 1,
+  "project": "POD",
+  "target_entries": 198,
+  "pdf": {
+    "pages": 111,
+    "bytes": 91216308,
+    "sha256": "3260a6e99ddf58ef9516979d85eb5dc73c10d148e30d38738d2cf15871282d41"
+  },
+  "immutable_pdf_commit": "2283967e2da98993418ad3afcd1b97940e764ecb",
+  "web_budget": {
+    "ceiling_bytes": 21000000,
+    "reason": "Thirteen complete readings and640px reviewed web illustrations; prior185 derivatives retained. Initialfull20,749,324bytes, finalpinbuild pending.",
+    "final_public_export_bytes": 20740681
+  },
+  "evidence": [
+    "records/evidence/dhaga-expansion-198-2026-10-30/art-186-187-review.json",
+    "records/evidence/dhaga-expansion-198-2026-10-30/art-batch06-review.json",
+    "records/evidence/dhaga-expansion-198-2026-10-30/art-batch07-review.json",
+    "records/evidence/dhaga-expansion-198-2026-10-30/art-mapping.json",
+    "records/evidence/dhaga-expansion-198-2026-10-30/art-revision-review.json",
+    "records/evidence/dhaga-expansion-198-2026-10-30/art-samanta-review.json",
+    "records/evidence/dhaga-expansion-198-2026-10-30/browser-review.json",
+    "records/evidence/dhaga-expansion-198-2026-10-30/drishti.json",
+    "records/evidence/dhaga-expansion-198-2026-10-30/generation-prompts.json",
+    "records/evidence/dhaga-expansion-198-2026-10-30/inherited-whitespace-supplement.json",
+    "records/evidence/dhaga-expansion-198-2026-10-30/pinned-pdf-verification.json",
+    "records/evidence/dhaga-expansion-198-2026-10-30/preparation-review.json",
+    "records/evidence/dhaga-expansion-198-2026-10-30/preservation.json",
+    "records/evidence/dhaga-expansion-198-2026-10-30/samanta.json",
+    "records/evidence/dhaga-expansion-198-2026-10-30/source-review.json",
+    "records/evidence/dhaga-expansion-198-2026-10-30/validation-site.json",
+    "records/evidence/dhaga-expansion-198-2026-10-30/web-art-review.json"
+  ],
+  "scope_release": "Only after separately reviewed publication, live verification and receipt merge with passing checks and remote hashes.",
+  "validation": {
+    "book_tests": 19,
+    "packing": "198 placements withincolumns,body10.5/textscale1",
+    "pdf_review": "All28affected/cover/chapter/creditpages separatelyvisuallyreviewedPASS",
+    "site": "PASS",
+    "full_tests": 653,
+    "coast_tests": 535,
+    "acceptance": "3512/3512",
+    "publication_bytes": 618372995,
+    "indexable": 11,
+    "disclosures": "zero violations"
+  },
+  "review": "Separate AI source/meaning/art/integratedbook review passed; no human review claimed."
+}

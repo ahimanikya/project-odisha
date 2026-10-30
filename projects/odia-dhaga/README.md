@@ -4,7 +4,7 @@ A source-led repository of Odia sayings: what the words picture, what people mea
 
 Open **[index.html](index.html)** in a browser. Search in Odia or English, filter by theme, read the original wording and explanations, and follow each witness to its source. The collection works offline; source links require internet. The portable research data is **[collection.json](collection.json)**.
 
-The current collection contains **185 explained sayings and idioms, each illustrated, and 79 source records**. It is a bounded seed, not a complete anthology. Three sayings have located nineteenth-century versions; provisional historical readings are labelled. The remaining entries are grounded in identified contemporary digital witnesses while historical comparison remains open. Odia explanations are editorial drafts, not a substitute for an experienced human language editor.
+The current collection contains **198 explained sayings and idioms, each illustrated, and 91 source records**. It is a bounded seed, not a complete anthology. Three sayings have located nineteenth-century versions; provisional historical readings are labelled. The remaining entries are grounded in identified contemporary digital witnesses while historical comparison remains open. Odia explanations are editorial drafts, not a substitute for an experienced human language editor.
 
 ## What we found
 
@@ -79,7 +79,7 @@ The canonical data is `collection.json`; regenerate `index.html` after edits. Re
 
 ## Coverage checkpoint
 
-[coverage-ledger.json](coverage-ledger.json) records source-by-source progress and the exact next transcription page. 185 explained entries are distinct from historical variants and repeated witnesses. The 1893 scan now has page-wide provisional transcription drafts for PDF pages 2–6 (printed pages 1–5): 83 tentative punctuation/layout segments across 80 physical body lines. These are research attempts, not 83 verified or newly explained sayings. Unclear glyphs and semantic boundaries remain explicit; no page is claimed fully transcribed or human-proofread. Targeted visual inspection reached terminal PDF19, an uncaptioned rider/horse illustration. The targeted cursor is null because the scan ended; the full-transcription cursor remains PDF2. The1926 volume has canonical frontmatter inventory for PDF1–12; the next canonical inventory page is PDF13. A broader local pass throughPDF60 remains separate research evidence until integrated. The bull-saying comparison on PDF6 points to existing entry002 and does not add a unique saying.
+[coverage-ledger.json](coverage-ledger.json) records source-by-source progress and the exact next transcription page. 198 explained entries are distinct from historical variants and repeated witnesses. The 1893 scan now has page-wide provisional transcription drafts for PDF pages 2–6 (printed pages 1–5): 83 tentative punctuation/layout segments across 80 physical body lines. These are research attempts, not 83 verified or newly explained sayings. Unclear glyphs and semantic boundaries remain explicit; no page is claimed fully transcribed or human-proofread. Targeted visual inspection reached terminal PDF19, an uncaptioned rider/horse illustration. The targeted cursor is null because the scan ended; the full-transcription cursor remains PDF2. The1926 volume has canonical frontmatter inventory for PDF1–12; the next canonical inventory page is PDF13. A broader local pass throughPDF60 remains separate research evidence until integrated. The bull-saying comparison on PDF6 points to existing entry002 and does not add a unique saying.
 
 Drafts, exact source hashes, separate AI reviews and mechanical checks are linked in the coverage ledger. Multiple sayings can share one printed line, so their anchors preserve both line number and position within that line. Research drafts are kept outside `collection.json` and the reader browser until wording and interpretation are sufficiently supported.
 
@@ -105,7 +105,7 @@ Entries092–108 add17 independently AI-reviewed records beyond the canonical91:
 
 ## Book source files and building
 
-Edit one saying in `entries/POD-DHAGA-NNN.json`. These185 individual files are the narrative source, including each bilingual summary and optional illustration. Edit `collection-metadata.json` for sources, collection rights and the bilingual book introduction. `research-design.json` supplies the complete thematic chapter map. The original bilingual-summary research file is provenance only; the build reads the summaries from each entry.
+Edit one saying in `entries/POD-DHAGA-NNN.json`. These198 individual files are the narrative source, including each bilingual summary and optional illustration. Edit `collection-metadata.json` for sources, collection rights and the bilingual book introduction. `research-design.json` supplies the complete thematic chapter map. The original bilingual-summary research file is provenance only; the build reads the summaries from each entry.
 
 Run `python3 build.py` in this folder. It reads the entry folder by default and regenerates `collection.json` (derived compatibility/export data; do not edit), `index.html` (bilingual contents article), `reader.html` (stable hash entry point) and `sayings/POD-DHAGA-NNN.html` (one complete saying per static page). All reading pages and previous/next navigation work without JavaScript; index search needs JavaScript. Print the contents article for every bilingual short reading, or an individual page for its full reading and sources. Run `python3 -m unittest test_repository test_source_inventory` to check the source folder, generated pages, navigation, rights references and offline assets. No source facsimiles are bundled.
 
@@ -142,3 +142,7 @@ The 179-entry edition adds six separately reviewed sayings and idioms, each with
 ## 30 October 2026: batch04 edition
 
 Six reviewed additions bring the reader to185 illustrated sayings, idioms and collection-attested verse. All prior179 entry bodies and artwork are preserved. Two new digital source records join reused witnesses. Historical cursors and75 unresolved original-concordance positions remain unchanged; publication status belongs to the dated delivery record.
+
+### 30 October 2026 · 198-entry preparation
+
+Thirteen reviewed additions bring this illustrated reader to198 entries and91 source records. Existing185 narratives and artwork remain unchanged;103 and156 gain separately sourced parallel wording. The195 salt-refusal parallel remains within that entry. The generated book has111 pages. Historical cursors and75 unresolved original-concordance positions remain unchanged. This local build awaits integrated review and the separate publication receipt.
