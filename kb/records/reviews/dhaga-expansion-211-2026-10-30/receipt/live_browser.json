@@ -1,0 +1,80 @@
+{
+  "status": "PASS_BOUNDED_ACTUAL_LIVE_BROWSER",
+  "deployment_run": 41095946656,
+  "deployed_merge": "498d53b8cf47b1904923b6a803a553f5fabe93fc",
+  "observed_at_utc": "2026-10-30T17:23:42.297255+00:00",
+  "browser": "Actual Chrome via CUA extension",
+  "origin": "https://projectodisha.org",
+  "viewports": [
+    [
+      1440,
+      1000
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "checks": {
+    "index": "211of211;122-page~92MBPDFlink; both companion links present",
+    "pdf_href": "https://raw.githubusercontent.com/ahimanikya/project-odisha/bf9865f2518b9ea87d895998a3986cc0bf44b781/projects/odia-dhaga/odia-dhaga-book.pdf",
+    "search": "Browse book activated with Enter; Odiaଗୁଡ଼କୁ returns1of211; result Enter opens211. Phone browseତତଲା returns202; Enter opens202.",
+    "keyboard_navigation": "211Previous Enter opens210;210Next Enter returns211 confirmed by subsequentDOM;211Last shown.",
+    "mobile_menu": "Enter opens Menu; Escape closes withSUMMARYfocus.",
+    "202_context": "VisibleRudrakshya title/author/link and exact context-only note; not a saying witness/origin; separate literaryrights retained. Printed6322/digital217462 distinction visible.",
+    "phone": "202/211documentwidth390 equalsviewport390; headings/navigation/body readable, no clipping.",
+    "illustration": "202 initiallylazy-pending immediatelyafter scroll, then loaded640px/naturalWidth withcomplete true and fullactualpixels viewed; meal/fuel/work readable.",
+    "viewport_reset": true
+  },
+  "screenshots": {
+    "live-phone-202-art.jpg": {
+      "sha256": "c6a72518cdf6184b36761619ffaf4c93ebf48afb4859a57e6783a2a84be8c065",
+      "format": "JPEG",
+      "dimensions": [
+        390,
+        844
+      ]
+    },
+    "live-phone-202.jpg": {
+      "sha256": "886b2c17dac45ba1dfce9c5d0b46df3e2280657926ead2157cb94877d113cd80",
+      "format": "JPEG",
+      "dimensions": [
+        390,
+        844
+      ]
+    },
+    "live-desktop-index.jpg": {
+      "sha256": "e34b83fc969b0a1e7408a35336de6fbfec7c7dd298f3c8d99dac4de216c3eedf",
+      "format": "JPEG",
+      "dimensions": [
+        1440,
+        1000
+      ]
+    },
+    "live-phone-211.jpg": {
+      "sha256": "dec3ba67fd7e06fd496258a5b1ef28947c64be6bfa55cec45acef9de55a28222",
+      "format": "JPEG",
+      "dimensions": [
+        390,
+        844
+      ]
+    }
+  },
+  "local_sync": {
+    "path": "local-sync/local-reader-sync-result.json",
+    "sha256": "020f9eb788bbaf911fa01ba13b4b3f525bba7de2cb056d092689767d3c6a5da4",
+    "status": "PASS",
+    "copied": 238,
+    "verified_product_files": 648,
+    "protected_existing_files": 508,
+    "prior507protected_preserved": true,
+    "tests": 19,
+    "delivery_receipt": "outputs/odia-dhaga-reader-47/dhaga-211-delivery-2026-10-30.json"
+  },
+  "limitations": [
+    "One initialCDP snapshot timeout recovered using existingtab and freshDOM; no repeateddeployment/build.",
+    "Representative browserchecks, not all214routes visually reviewed; separate raw/hashverification ownedcoordinator.",
+    "Browser confirmed exactdownloadlink; independent supplemental verifier checked actualPDFbytes.",
+    "No Firefox/WebKit/screenreader/field-performance claim."
+  ]
+}
