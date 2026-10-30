@@ -29,6 +29,8 @@ This directory contains the organizational and working model, roles, work record
 
 ## Current delivery and open work
 
+Current cinema expansion: [sequential research and story work list](records/cinema-expansion-work-list-2026-10-31.md). Adaptation evidence has been reviewed and Kanhu Charan Mohanty added as the 42nd local reading. Next: Manglu Charan Biswal. Source-author payment remains an open evidence question; the published books remain the prior edition.
+
 Latest cinema refinement: [practical possibilities without a timed programme](records/cinema-futures-open-recommendations-2026-10-30.json). The article, matching cross-reference and both book drafts are updated and reviewed locally.
 
 Current cinema image layout: [series-wide image families](records/cinema-image-rollout-2026-10-30.json). All 41 articles and 47 placements now use the approved image treatments, with portraits at 85% of book text width, full-width scenes and complete contextual photographs. Captions align with images; preview-card metadata and original sources are unchanged. Desktop/phone checks and separate book review passed; new 223-page digital / 246-page print proofs are local only. The [five-page trial](records/cinema-image-trial-2026-10-30.json) remains as historical evidence.

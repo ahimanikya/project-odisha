@@ -970,3 +970,7 @@ Reuse `communities/sunari.json`, `communities/sunari.md` and `communities/sunari
 ## Dhaga 89-entry integration · 24 October 2026
 
 Reuse repository-relative `projects/odia-dhaga/collection.json`, its `coverage-ledger.json` and `evidence/` batch reports, plus `records/odia-dhaga-89-integration-2026-10-24.json` in the KB. The standalone reader integrates55 previously reviewed local additions035–089 into89 explained entries. The127-position concordance remains25 witnessed,101pending and1duplicate; reader count is separate. Three brief SCERT quotations retain their own rights, unlike licensed Wikimedia text. Historical1893 targeted inspection reachesPDF9, with nexttargetedPDF10 and fulltranscriptioncursor2; no additional historical acceptance or human proofreading claimed. Preserve all source-specific limits, caption preferences and image provenance.
+
+## Cinema story expansion 31 October 2026
+
+Reuse the per-item pointers in [the sequential cinema work list](../../records/cinema-expansion-work-list-2026-10-31.json). The first item checks the existing Amada Bata book-publication recollection against adaptation and remake-rights evidence; do not treat book royalties or filmmaker-to-filmmaker remake payments as source-author film compensation. Preserve the existing profiles and published edition while developing one locally reviewed article at a time.
