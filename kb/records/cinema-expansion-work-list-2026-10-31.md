@@ -4,9 +4,9 @@ Strengthen the series through literature, people, creative livelihoods and audie
 
 ## Current progress
 
-The adaptation research pass is reviewed. Source-author film compensation remains unresolved. Kanhu Charan Mohanty, Manglu Charan Biswal, Bijay Mishra, Bijaya Jena, Lipika Singh Darai, Pramod Pati and Bijay Mohanty now have separately reviewed local articles. Mohanty’s profile connects acting preparation, language, teaching and playwriting. Next is Uttam Mohanty.
+The adaptation research pass is reviewed. Source-author film compensation remains unresolved. Kanhu Charan Mohanty, Manglu Charan Biswal, Bijay Mishra, Bijaya Jena, Lipika Singh Darai, Pramod Pati, Bijay Mohanty and Uttam Mohanty now have separately reviewed local articles. Uttam’s profile follows collaboration and help behind the performance. Next is Aparajita Mohanty.
 
-[Preview Bijay Mohanty](http://127.0.0.1:8771/people/bijay-mohanty/). The local series has 48 readings; the published books remain the earlier 41-reading edition.
+[Preview Uttam Mohanty](http://127.0.0.1:8771/people/uttam-mohanty/). The local series has 49 readings; the published books remain the earlier 41-reading edition.
 
 ## Sequence
 
@@ -20,7 +20,7 @@ The adaptation research pass is reviewed. Source-author film compensation remain
 | 6 | Lipika Singh Darai | Develop documentary, sound and editing practice beyond the existing Sita Bibaha preservation account. | Local draft reviewed |
 | 7 | Pramod Pati | Inspect selected experimental works and institutional evidence; distinguish Odisha connection from film language. | Local draft reviewed |
 | 8 | Bijay Mohanty | Develop performance, training and mentoring beyond the overview mention, with a distinct verified portrait. | Local draft reviewed |
-| 9 | Uttam Mohanty | Develop a selective account of craft and audience relationships; do not rank artistic value by film totals. | Queued |
+| 9 | Uttam Mohanty | Develop a selective account of craft and audience relationships; do not rank artistic value by film totals. | Local draft reviewed |
 | 10 | Aparajita Mohanty | Develop acting and production work; fairly connect supporting performers, Anita Das and comedy where evidence warrants. | Queued |
 | 11 | Audiences and the people who bring films to them | Find a documented viewer, library, film-club, exhibitor or technician experience; connect access, work and livelihood without invented audience consensus. | Queued |
 | 12 | Children and Odia screen stories | Connect scattered film, animation and dubbing research to the introduction's children's question. Enhance first; a dedicated article requires substantial additional evidence. | Queued |
@@ -48,3 +48,5 @@ Research and review files are linked from the structured queue. [Kanhu illustrat
 [Pramod research](../../outputs/cinema-expansion-20261031/pramod-evidence.json), [independent review](../../outputs/cinema-expansion-20261031/pramod-review.json) and [illustration prompt and provenance](../../outputs/cinema-expansion-20261031/pramod-image-provenance.json) preserve participant recollections, catalogue credits, checked official viewing links and the Human Natural Editorial Natural image treatment.
 
 [Bijay Mohanty research](../../outputs/cinema-expansion-20261031/bijay-mohanty-evidence.json), [independent review](../../outputs/cinema-expansion-20261031/bijay-mohanty-review.json) and [photograph provenance](../../outputs/cinema-expansion-20261031/bijay-mohanty-image-provenance.json) preserve attributed recollections, primary play-production credits and the qualified Commons licence record for the full Sahari Bagha set photograph.
+
+[Uttam Mohanty research](../../outputs/cinema-expansion-20261031/uttam-mohanty-evidence.json), [independent review](../../outputs/cinema-expansion-20261031/uttam-mohanty-review.json) and [illustration prompt and provenance](../../outputs/cinema-expansion-20261031/uttam-mohanty-image-provenance.json) preserve attributed colleagues’ memories, source limits and the anonymous rehearsal illustration. A rights-cleared portrait remains an open gap.

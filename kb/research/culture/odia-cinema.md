@@ -124,7 +124,7 @@ The theatre connection remained part of how colleagues remembered him. Director 
 
 ### Uttam Mohanty: a remembered encounter
 
-Uttam Mohanty's *ଅଭିମାନ (Abhiman)* debut connects his story to [Sadhu Meher](/cinema/sadhu-meher/), its director. In a 2018 interview, he recalled a Bengali viewer in Cuttack praising his portrayal of Salabega. The memory gives one audience encounter a place beside the career record.[^uttam-technology]
+[Uttam Mohanty](/people/uttam-mohanty/)'s *ଅଭିମାନ (Abhiman)* debut connects his story to [Sadhu Meher](/cinema/sadhu-meher/), its director. In a 2018 interview, he recalled a Bengali viewer in Cuttack praising his portrayal of Salabega. The memory gives one audience encounter a place beside the career record.[^uttam-technology]
 
 Akashvani records his work in Bengali cinema and the Hindi film *ନୟା ଜହର (Naya Zahar)* alongside his Odia career.[^uttam] His recollection of reflector-lit shoots also brings an actor’s experience into the changing conditions of filmmaking.
 
