@@ -1,0 +1,112 @@
+{
+  "status": "BUILT_FROZEN_FOR_INDEPENDENT_REVIEW",
+  "input_head": "f83f13001057120eba2d48b9b07ec4c69bc32216",
+  "staged_book": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/outputs/dhaga-expansion-219-2026-10-31/production/staged-book",
+  "counts": {
+    "entries": 219,
+    "illustrations": 219,
+    "sources": 108,
+    "pdf_pages": 132,
+    "accepted_increment": 0,
+    "programme_credit": 0
+  },
+  "pdf": {
+    "pages": 132,
+    "bytes": 99758194,
+    "sha256": "8a87d79048ebbe75dfc391ae84d54ebf7620e7aefcd8e4108c3558ea40725282"
+  },
+  "preservation": {
+    "prior214_entry_bytes_exact": true,
+    "prior_art_bytes_exact": true,
+    "prior214_unit_metrics_exact": true,
+    "metric_keys": [
+      "height",
+      "original_image_height_pt",
+      "image_height_pt",
+      "image_scale_factor",
+      "text_scale_factor",
+      "measured_width_pt",
+      "layout"
+    ],
+    "canonical1167_hashes_unchanged": true,
+    "historical_rows_cursors_and_source127_75pending_unchanged": true,
+    "all219_bounds_pass": true,
+    "wide_pages_skip_fillers": true,
+    "body_font": 10.5,
+    "text_scale": 1,
+    "new_prose_exact_package": true,
+    "lexical_context_visible_html": true
+  },
+  "implementation": "Only215–219 added to existing full-width exception set after actual narrow-column targets failed130pt floor. Full prose,font10.5,art159.70pt and all214 prior unit metrics unchanged. Existing browser/inventory generators executed, no HTML/CSS design changes.",
+  "pdf_marker": {
+    "executed_by": "Root coordinator",
+    "success_basis": "Explicit parent authorization states marker successfully ran before this production; instructed not to repeat.",
+    "executions_by_this_worker": 0
+  },
+  "commands": [
+    "python3 reviewed import-package.py --book staged-book --apply (RUN_AUTHORIZED_STAGING_IMPORT=1)",
+    "python3 build.py",
+    "python3 build_source_inventory.py",
+    "PYTHONPATH=/tmp/dhaga173-pdf-libs /Users/ahimanikya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 measure-new.py",
+    "same runtime: build_print.py",
+    "same runtime: -m unittest test_repository test_source_inventory",
+    "same runtime with PYTHONPATH: -m unittest test_print_layout",
+    "pdftoppm per selected page -scale-to1404 -png -singlefile"
+  ],
+  "tests": {
+    "book_repository_inventory": "19 PASS",
+    "print_layout": "3 PASS",
+    "all219_bounds": "PASS",
+    "prior214_unit_metrics": "exact",
+    "fullwidth_filler_exclusion": "PASS",
+    "attempt_history": [
+      "Initial build.py launched from projectROOT failed before execution; corrected workingdirectory succeeded.",
+      "Provenance correction copy first used wrong relative root and failed; corrected exactcopy succeeded.",
+      "Extra test_transcription module attempt failed at import because output-only stage lacks repository-relative KB fixture; not part of existing19test suite. Original failure log retained; no claim transcription fixtures passed."
+    ]
+  },
+  "render_review": {
+    "page_map": "page-map.json",
+    "rendered_pages": 31,
+    "dimensions": "993x1404 full A4 pages, equivalent approximately120dpi",
+    "actual_pixels_viewed_by_samanta": [
+      1,
+      26,
+      75,
+      90,
+      91,
+      106,
+      131,
+      132
+    ],
+    "finding": "Five new illustrations, bilingual readings, cover and lexical-credit page readable; no clipping/overlap/missing glyph blocker on viewed pages. Dense218 fundraising illustration remains legible.",
+    "independent_review": "Drishti reviewing complete selected set separately."
+  },
+  "source_role_check": {
+    "html217": "Explicit lexical-context note visible, no wording attached to221175 citation.",
+    "pdf106": "Context explicitly says same-lineage lexical entry, not independent witness.",
+    "pdf131": "Credits list Deshaja noun definition/Fresh boiled rice and revision221175."
+  },
+  "provenance": "Exact original generation record preserved with separate root version-history-correction; selected219v2 matches art-review. Only five selected originals installed.",
+  "installation": {
+    "changed_files": 264,
+    "stage_files": 1205,
+    "baseline_files": 1167,
+    "deleted_files": []
+  },
+  "bindings": {
+    "installation-manifest.json": "a43beea05ad4006511b92d835428e42b4ce7b2268411977c854f07c73cbc1c08",
+    "page-map.json": "b1d97f04f6e94fa0b3bab0dcb66955289ab0d6a4bed605e2499428cbaebe22e9",
+    "preservation.json": "74f2544389e7ab99488098b3b31ccf8f72a54f63bd10da921d5f0bf4511f2466",
+    "new-entry-measurement.json": "7c752f642c5930aef9a28143f4e00ec089885f6c11fa57d98167881caa00096c",
+    "book-tests.log": "0d0efb5c040e3d269b98cbc2a727cf645db47cb4d0ca158579335e4e4862e3b8",
+    "layout-tests.log": "921b60a7fd52e978fbb551cacd29df2d6708879400278e1fcc70fceeb0c6f8e0",
+    "pdf-build.log": "77b2ef802f08717a410e9de0b7a39ad984039308081cde257e20d4290bf709f2"
+  },
+  "limits": [
+    "Local output-only edition, no canonical install/publication/acceptance.",
+    "No public web derivative/browser verification in this scope.",
+    "Source12775pending,1926inventory103/full31,1893full2/83drafts unchanged.",
+    "No final independent PDF approval claimed until Drishti report."
+  ]
+}
