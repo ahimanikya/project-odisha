@@ -1,0 +1,31 @@
+{
+  "decision": "PASS_EXACT_HEAD",
+  "reviewer": "Drishti separate AI",
+  "head": "977ee15828b3c34a46249fa12f5794a4a8d116ee",
+  "previous_reviewed_head": "13b1b0f0408487ea97e3c886eca23f87d60d4d8e",
+  "base": "6d79bf9a0fb06c27ea8dbea4f0ce928f94b66f4c",
+  "actual_checks": [
+    "Exact one-file Git delta",
+    "Recursive JSON comparison: exactly one coast.json fingerprint value changed",
+    "New fingerprint equals committed coast.json SHA256",
+    "Updated296-file manifest matches prior295 committed hashes plus corrected workbench blob"
+  ],
+  "field_change": [
+    [
+      "/inputs/projects/site/editions/coast.json",
+      "1da649e90ae23a22d019570011894818ca96db8ad95f8ea9d072a4c290437ede",
+      "6b9edb6253a74ee1f67357dc820d51589fd0dba49524d3641912af1277700814"
+    ]
+  ],
+  "bindings": {
+    "candidate_manifest": "d96d4f9b4772ec4695d260543be209765205699be1f3eaa2b49214e3cebf125e",
+    "prior_final_review": "2d2e10081ae83899e6a612e8dcc66a0dbb385186d2d41048145579942ec4bde5",
+    "workbench": "42fb30f1428e5ff14ef9fd0f12cd3c3736f2b64e6aeb751034138643e6c20517"
+  },
+  "blockers": [],
+  "limits": [
+    "No new site/book/PDF/browser tests rerun for this generated fingerprint-only correction; prior final validation remains applicable.",
+    "Root reports6Python+3Node workbench tests and checks; these are not independently rerun in this bounded review.",
+    "RemoteCI/merge/deployment/live receipt remain coordinator gates; no publication claimed."
+  ]
+}
