@@ -974,3 +974,7 @@ Reuse repository-relative `projects/odia-dhaga/collection.json`, its `coverage-l
 ## Cinema story expansion 31 October 2026
 
 Reuse the per-item pointers in [the sequential cinema work list](../../records/cinema-expansion-work-list-2026-10-31.json). The first item checks the existing Amada Bata book-publication recollection against adaptation and remake-rights evidence; do not treat book royalties or filmmaker-to-filmmaker remake payments as source-author film compensation. Preserve the existing profiles and published edition while developing one locally reviewed article at a time.
+
+### Manglu Charan Biswal · 31 October 2026
+
+Reuse [writer profile](../people/manglu-charan-biswal.md), [research packet](../../../outputs/cinema-expansion-20261031/manglu-evidence.json) and [independent review](../../../outputs/cinema-expansion-20261031/manglu-review.json). Hachette biography/catalogue, PTI obituary and JLA contributor biography support the selected life, works and Bhukha–The Starved translation connection; existing TOI2012 source-play attribution is reused. The full play was not read; original play date, teaching posts, author remuneration and photograph reuse rights remain unverified. No new award or community-wide livelihood claim.

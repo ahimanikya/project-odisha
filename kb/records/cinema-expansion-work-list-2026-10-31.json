@@ -78,7 +78,7 @@
       "id": "manglu-charan",
       "title": "Manglu Charan Biswal",
       "scope": "Develop the writer and theatrical world behind Bhukha with careful Sambalpuri language and livelihood context.",
-      "status": "queued",
+      "status": "local_review_ready",
       "reuse_before_research": [
         "kb/research/culture/cinema-series/bhukha.md",
         "kb/research/sources/literature-and-screen-expansion-2026-10-29.json"
@@ -89,7 +89,17 @@
         "Changed article is rendered and independently reviewed when prose changes.",
         "Unresolved evidence and next action are recorded."
       ],
-      "evidence": []
+      "evidence": [
+        "outputs/cinema-expansion-20261031/manglu-evidence.json",
+        "outputs/cinema-expansion-20261031/manglu-review.json",
+        "outputs/cinema-expansion-20261031/manglu-image-provenance.json",
+        "outputs/cinema-expansion-20261031/manglu-integration.json",
+        "outputs/cinema-expansion-20261031/manglu-browser-review.json",
+        "outputs/cinema-expansion-20261031/manglu-targeted-tests.log",
+        "outputs/cinema-expansion-20261031/manglu-rendered-tests.log"
+      ],
+      "scope_released": true,
+      "outcome": "Added a writer-first profile covering teaching, poems, plays and children’s writing in Sambalpuri and Odia; linked Bhukha and its 2023 English translation. Unique conceptual illustration and independent review complete. Series has 43 local readings; PDFs and publication remain pending."
     },
     {
       "order": 4,
@@ -332,8 +342,8 @@
       "evidence": []
     }
   ],
-  "next_item": "manglu-charan",
-  "scope_state": "Released after local review; queued items remain authorized for sequential continuation.",
+  "next_item": "bijay-mishra",
+  "scope_state": "Manglu Charan local review complete and scope released; Bijay Mishra is next in the authorized sequence.",
   "updated_on": "2026-10-31",
   "reserved_scopes_history": {
     "Disha": [
@@ -365,5 +375,49 @@
       "outputs/cinema-expansion-20261031/kanhu-review.json"
     ]
   },
-  "reserved_scopes": {}
+  "reserved_scopes": {},
+  "scope_sessions": [
+    {
+      "item": "manglu-charan",
+      "date": "2026-10-31",
+      "state": "released_after_local_review",
+      "reserved_scopes": {
+        "Anvesha": [
+          "outputs/cinema-expansion-20261031/manglu-evidence.json"
+        ],
+        "Samanta": [
+          "kb/research/people/manglu-charan-biswal.md"
+        ],
+        "Drishti": [
+          "outputs/cinema-expansion-20261031/manglu-review.json"
+        ],
+        "Disha": [
+          "kb/records/cinema-expansion-work-list-2026-10-31.json",
+          "kb/records/cinema-expansion-work-list-2026-10-31.md",
+          "kb/index.md",
+          "kb/team/operations.json",
+          "kb/history/ledger.jsonl",
+          "kb/research/methods/research-map.md",
+          "kb/research/culture/cinema-series/manifest.json",
+          "kb/research/culture/cinema-series/book-narrative-2026-10-27.json",
+          "kb/research/culture/cinema-series/image-layout-2026-10-30.json",
+          "kb/research/media/cinema-series/manglu-charan-*",
+          "projects/site/public/assets/cinema/manglu-charan-*",
+          "projects/site/src/data/cinema.json",
+          "projects/site/src/pages/people/manglu-charan-biswal.astro",
+          "projects/site/src/lib/page-context.mjs",
+          "projects/site/editions/coast.json",
+          "projects/site/editions/search-candidate.json",
+          "kb/records/article-editorial-rollout.json",
+          "kb/records/article-editorial-work-list.md",
+          "outputs/cinema-expansion-20261031/manglu-integration.json",
+          "outputs/cinema-expansion-20261031/manglu-image-provenance.json",
+          "outputs/cinema-expansion-20261031/manglu-browser-review.json",
+          "outputs/cinema-expansion-20261031/manglu-*.log",
+          "outputs/cinema-expansion-20261031/manglu-*.png",
+          "kb/research/culture/cinema-series/bhukha.md"
+        ]
+      }
+    }
+  ]
 }

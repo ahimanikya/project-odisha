@@ -23,7 +23,7 @@ In *ଭୂଖା (Bhukha)*, Sabyasachi Mohapatra’s 1989 Sambalpuri film, folk 
 
 ## Behind the sound, a livelihood
 
-The film grew from a play by Manglu Charan Biswal. A later report about Mohapatra’s work describes its concern with bajnia folk drummers whose livelihoods were threatened by changing musical tastes.[^play]
+The film grew from a play by [Manglu Charan Biswal](../../people/manglu-charan-biswal.md). A later report about Mohapatra’s work describes its concern with bajnia folk drummers whose livelihoods were threatened by changing musical tastes.[^play]
 
 For a working musician, cultural change can arrive as the loss of the next engagement. The film’s subject brings an economic question into the celebration of inherited art: what allows a performer to continue?
 
