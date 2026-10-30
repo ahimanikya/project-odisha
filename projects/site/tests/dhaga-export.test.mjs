@@ -59,3 +59,17 @@ test('flower reading preserves separate corrected print and digital witnesses',(
  for(const witness of [digital,print]){assert.ok(h.includes(esc(witness.wording)));assert.ok(h.includes(esc(witness.note)));}
  assert.ok(h.includes('same dictionary lineage')||h.includes('Same dictionary lineage'));
 });
+
+
+test('hot-rice lexical context stays visible without becoming a second saying witness',()=>{
+ const entry=data.entries.find(e=>e.id==='POD-DHAGA-217');
+ const context=entry.witnesses.find(w=>w.source_id==='dhaga-wiktionary-221175');
+ assert.ok(context&&!Object.hasOwn(context,'wording'));
+ const main=entry.witnesses.find(w=>w.source_id==='dhaga-wiktionary-57051');
+ assert.equal(main.wording,entry.odia);
+ const h=read('sayings/pod-dhaga-217.html');
+ assert.ok(h.includes(esc(context.note)));assert.ok(h.includes(esc(context.locator)));
+ assert.match(h,/Lexical context only/);assert.match(h,/does not attest this complete saying/);
+ const source=data.sources.find(s=>s.id===context.source_id);
+ assert.ok(h.includes(esc(source.url)));assert.ok(read('sources.html').includes(esc(source.url)));
+});

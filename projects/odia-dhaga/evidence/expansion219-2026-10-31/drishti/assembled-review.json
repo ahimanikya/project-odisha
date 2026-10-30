@@ -1,0 +1,27 @@
+{
+  "status": "PASS_ASSEMBLED_PARITY",
+  "input_head": "f83f13001057120eba2d48b9b07ec4c69bc32216",
+  "bundle_sha256": "facc1c68d946d139364f53b8465932f94ab9dbf4060459811c8c6b8052480dac",
+  "evidence_hashes": {
+    "anvesha/candidates.json": "0c1731bed5111e0cf5edad7f99a96e8a714618d8ac08e3611880f4edbfdf9369",
+    "anvesha/report.json": "c996a87a32e910371f916ad560d960e19f442e712b36744079b25a969e0510f5",
+    "anvesha/dispositions.json": "fdc21341b6792128aef8bdf6b8f553ee4a21687f36b66dbe3103f5c901e6227e",
+    "samanta/validation.json": "336ca40ca10e4eaff48ebfe2eba28132ced9bab466f13dd7a48b2eb2424180e5",
+    "samanta/report.json": "d7a980cee2733f2166e3f427461036c7f50c272f0edaffab30e7ae9b35475869",
+    "drishti/integrated-review.json": "e2d3efd1848a650092511128f1fb91bc3eda52c053478fa4f81b447f8e82fd89"
+  },
+  "checks": [
+    "Five assembled entry objects exactly equal approved final candidate objects.",
+    "Nine research-source registry objects exactly equal frozen source registry; only five IDs referenced by ready entries.",
+    "Four deferred objects exactly equal final dispositions;9positions=5drafts+4deferrals;0accepted/0programme credit.",
+    "All six evidence hashes rechecked against actual files.",
+    "All1167 canonical baseline file hashes independently rechecked unchanged.",
+    "Integration requirements preserve explicit lexical221175 context-only citation and exclude deferred-only sources from public import; no fabricated independent witness."
+  ],
+  "findings": [],
+  "limits": [
+    "Parity-only review reuses hash-bound source/meaning review; no repeated research or scan reading.",
+    "Ready research drafts are not canonical additions or release approval. Art,source mapping,build/render/tests/publication remain future work.",
+    "No canonical/Git changes; separate AI review, not human approval."
+  ]
+}

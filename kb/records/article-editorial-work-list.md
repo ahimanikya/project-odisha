@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 894. completed: 149, excluded: 451, queued: 294.
+Route inventory: 899. completed: 149, excluded: 456, queued: 294.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -918,3 +918,8 @@ Route inventory: 894. completed: 149, excluded: 451, queued: 294.
 | POD-EDIT-DHAGA-212-20261031 | [ଏତେ ଖାଇ ନ ପୂରିଲା ପେଟ ବିରି ଓଳିଆରେ ମାରୁଛ ହାତ](https://projectodisha.org/dhaga/sayings/pod-dhaga-212.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-DHAGA-213-20261031 | [ଯେବେ ପାଇଥାଏ ଘଇତାବୁକୁ, ସଜ ହେଉଥାଏ ବାପ ଘରକୁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-213.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-DHAGA-214-20261031 | [ଜହ୍ନିଫୁଲ ପରି ଆୟୁଷ ପା ସଞ୍ଜେ ଫୁଟି ସକାଳେ ଯା](https://projectodisha.org/dhaga/sayings/pod-dhaga-214.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-215-20261031 | [କେତେ ଅନଉଛୁ ମତେ, ତୋଠଉଁ ସୁନ୍ଦର ମୋର ବିନୋଦିଆ, ଚାକର ରଖିବ ତତେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-215.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-216-20261031 | [ହାଣ୍ଡିରେ ଖାଏ, ଗୋଡ଼ରେ ପଡ଼ିଲେ ଗାଧୋଇ ଯାଏ](https://projectodisha.org/dhaga/sayings/pod-dhaga-216.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-217-20261031 | [ଯେ ତବତ ଖାଇଛି ସେ ପଖାଳ ଖାଉ, ଯେ କିଛି ନ ଖାଇଛି ସେ ଗାଧୋଇ ଯାଉ](https://projectodisha.org/dhaga/sayings/pod-dhaga-217.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-218-20261031 | [ରଣ, ବଣ, ଛଣ, ବାଙ୍କିରଜା ଥାଇ ବୋଇଲେ ମୋ ଢୁଢୁଆ ବାଇଗଣ](https://projectodisha.org/dhaga/sayings/pod-dhaga-218.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-219-20261031 | [ବୁଢ଼ା ବଳଦକୁ ଜୂଆଁଣିଆ ଘାସ ଖାଉ କି ନ ଖାଉ ମେଲି ଦେଇ ଆସ](https://projectodisha.org/dhaga/sayings/pod-dhaga-219.html) | excluded | standalone_dhaga_collection |
