@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 881. completed: 149, excluded: 438, queued: 294.
+Route inventory: 891. completed: 149, excluded: 448, queued: 294.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -905,3 +905,13 @@ Route inventory: 881. completed: 149, excluded: 438, queued: 294.
 | POD-EDIT-DHAGA-199-20261030 | [ଖାଇଲାଘରର ପୁଅ ରଙ୍କ!](https://projectodisha.org/dhaga/sayings/pod-dhaga-199.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-DHAGA-200-20261030 | [ରଙ୍କ ତିନି ଜନମ କଥା ଜାଣେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-200.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-DHAGA-201-20261030 | [ଜାଉ ଖାଇବ କି ମାଛି ହୁରୁଡ଼େଇବ](https://projectodisha.org/dhaga/sayings/pod-dhaga-201.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-202-20261030 | [ଏଡ଼େ ମଲାଠେଇଁ ଦିଓଳି ବି ତତଲା ଖିଆ!](https://projectodisha.org/dhaga/sayings/pod-dhaga-202.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-203-20261030 | [ଗୁଡ଼ଘରେ ପିମ୍ପୂଡ଼ି ଜଗୁଆଳି](https://projectodisha.org/dhaga/sayings/pod-dhaga-203.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-204-20261030 | [ପିମ୍ପୂଡ଼ିର ପକ୍ଷୀ ଲାଗିବା](https://projectodisha.org/dhaga/sayings/pod-dhaga-204.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-205-20261030 | [ହାତୀ ଗଳି ଯାଉଛି ପିମ୍ପୂଡ଼ି ଗଳିବାକୁ ବାଟ ନାହିଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-205.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-206-20261030 | [ପିମ୍ପୂଡ଼ି ହୋଇ ଦୀପରୁଖାରେ ଚଢ଼ିବା](https://projectodisha.org/dhaga/sayings/pod-dhaga-206.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-207-20261030 | [ହାତୀ ମୁହଁରୁ କଳେ ଖସି ପଡ଼ିଲେ ପିମ୍ପୂଡ଼ିକୁ ଖାଇବାକୁ ଶହେ ବରଷ ନ୍ୟାୟ](https://projectodisha.org/dhaga/sayings/pod-dhaga-207.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-208-20261030 | [ହାତୀ ମୁତି ଦେଲେ ପିମ୍ପୂଡ଼ି ପହଁରାଏ ନ୍ୟାୟ](https://projectodisha.org/dhaga/sayings/pod-dhaga-208.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-209-20261030 | [ଗୁଡ଼ଘର ପିମ୍ପୂଡ଼ି ଖାଇଯିବା ନ୍ୟାୟ](https://projectodisha.org/dhaga/sayings/pod-dhaga-209.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-210-20261030 | [ପିମ୍ପୂଡ଼ି ଧାର ଲାଗିବା ନ୍ୟାୟ](https://projectodisha.org/dhaga/sayings/pod-dhaga-210.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-211-20261030 | [ଗୁଡ଼କୁ ପିମ୍ପୂଡ଼ି ବାଇ ହେବା ନ୍ୟାୟ](https://projectodisha.org/dhaga/sayings/pod-dhaga-211.html) | excluded | standalone_dhaga_collection |

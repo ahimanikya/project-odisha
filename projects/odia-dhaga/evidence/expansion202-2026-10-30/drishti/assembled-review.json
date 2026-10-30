@@ -1,0 +1,30 @@
+{
+  "decision": "PASS_ASSEMBLED_PARITY",
+  "reviewer": "Drishti, separate AI reviewer",
+  "input_head": "eaf190a9fa72013375646659399dc0fe1a0d480e",
+  "bundle_sha256": "48d596a165d2181358a66b0c1119bb8aa54c5c1a9269b3f8c3e380cf58526267",
+  "bindings": {
+    "anvesha/report.json": "c6494181a19ee9a9ca1551f5ddd916157aff742e4c364afe04713febd492feee",
+    "samanta/report.json": "1a1750783f9ac215fa94a916c283986e9ec05e67ae0c908444d407a81a02f795",
+    "samanta/candidates.json": "83df14dcc6c4051f791b1a2b9d2999c66f340c434c02a8d1fd6e264863e111b8",
+    "drishti/integrated-review.json": "ff06ef49c8f340af67708908dd7056b8085f25d76648084e5396839eaa6de4be"
+  },
+  "additional_source_binding": {
+    "anvesha/candidates.json": "5a297239bc4d80d4376fe0c0f908d8efad7854957e4cf551739946c0d82bed79"
+  },
+  "checks": [
+    "Ready draft object equals final reviewed Samanta candidate exactly, all fields including exact/corrupted witnesses, bilingual meanings, original example,credit,source_ids and rights.",
+    "Seven deferred objects equal five Anvesha dispositions plus two Samanta deferred outcomes exactly and in order.",
+    "All four assembly evidence hashes resolve and match actual files. Eight=one draft+seven deferrals; zero accepted/programme increment."
+  ],
+  "findings": [
+    "No prose or source claim added by assembly.",
+    "Contextual source metadata remains in hash-bound samanta/candidates.json sources array; bundle is a linked research handoff, not a standalone complete source registry. Future integration must carry the Rudrakshya source object as well as its source_id.",
+    "Nested draft_for_independent_review status and review_questions are retained historical preparation fields; the separately bound integrated review records their resolution."
+  ],
+  "limits": [
+    "Parity-only review; prior source/scan/meaning findings reused, no repeated research or new visual inspection.",
+    "No canonical acceptance, public change, illustration or release approval. Puri098 integration remains a separate next task."
+  ],
+  "blockers": []
+}

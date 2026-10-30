@@ -4,7 +4,7 @@ A source-led repository of Odia sayings: what the words picture, what people mea
 
 Open **[index.html](index.html)** in a browser. Search in Odia or English, filter by theme, read the original wording and explanations, and follow each witness to its source. The collection works offline; source links require internet. The portable research data is **[collection.json](collection.json)**.
 
-The current collection contains **201 explained sayings and idioms, each illustrated, and 94 source records**. It is a bounded seed, not a complete anthology. Three sayings have located nineteenth-century versions; provisional historical readings are labelled. The remaining entries are grounded in identified contemporary digital witnesses while historical comparison remains open. Odia explanations are editorial drafts, not a substitute for an experienced human language editor.
+The current collection contains **211 explained sayings and idioms, each illustrated, and 99 source records**. It is a bounded seed, not a complete anthology. Three sayings have located nineteenth-century versions; provisional historical readings are labelled. The remaining entries are grounded in identified contemporary digital witnesses while historical comparison remains open. Odia explanations are editorial drafts, not a substitute for an experienced human language editor.
 
 ## What we found
 
@@ -105,7 +105,7 @@ Entries092–108 add17 independently AI-reviewed records beyond the canonical91:
 
 ## Book source files and building
 
-Edit one saying in `entries/POD-DHAGA-NNN.json`. These201 individual files are the narrative source, including each bilingual summary and optional illustration. Edit `collection-metadata.json` for sources, collection rights and the bilingual book introduction. `research-design.json` supplies the complete thematic chapter map. The original bilingual-summary research file is provenance only; the build reads the summaries from each entry.
+Edit one saying in `entries/POD-DHAGA-NNN.json`. These211 individual files are the narrative source, including each bilingual summary and optional illustration. Edit `collection-metadata.json` for sources, collection rights and the bilingual book introduction. `research-design.json` supplies the complete thematic chapter map. The original bilingual-summary research file is provenance only; the build reads the summaries from each entry.
 
 Run `python3 build.py` in this folder. It reads the entry folder by default and regenerates `collection.json` (derived compatibility/export data; do not edit), `index.html` (bilingual contents article), `reader.html` (stable hash entry point) and `sayings/POD-DHAGA-NNN.html` (one complete saying per static page). All reading pages and previous/next navigation work without JavaScript; index search needs JavaScript. Print the contents article for every bilingual short reading, or an individual page for its full reading and sources. Run `python3 -m unittest test_repository test_source_inventory` to check the source folder, generated pages, navigation, rights references and offline assets. No source facsimiles are bundled.
 
@@ -150,3 +150,11 @@ Thirteen reviewed additions bring this illustrated reader to198 entries and91 so
 ## 30 October 2026 · 201-entry preparation
 
 Three separately reviewed additions bring the illustrated reader to201 entries and94 source records. Entry187 gains a separately worded thematic parallel without another count. The prior198 narratives and artwork remain unchanged. The gruel saying preserves its printed flies wording alongside the discrepant digital fish transcription; the three-birth saying documents and questions the source belief rather than asserting a cause of poverty. Readings199 and200 use explicit full-width pages to retain all bilingual prose at the existing type size; other readings retain the flowing two-column layout. The generated book has114 pages. Historical cursors and75 unresolved concordance positions remain unchanged. Integrated visual review and publication are separate gates.
+
+## 30 October 2026 · Local 202-entry trial
+
+One separately reviewed candidate adds a contextual literary citation without treating it as a proverb witness. The local illustrated trial contains202 readings,97 source records and115 PDF pages. Reading202 uses the existing full-width treatment to preserve all prose and illustration at the established type size. The preceding201 narratives and art remain unchanged; historical cursors and75 unresolved concordance positions are preserved. This staged edition is not a publication or acceptance receipt.
+
+## 30 October 2026 · Local 211-entry trial
+
+Nine separately reviewed dictionary analogies join the reviewed202 local edition. The illustrated trial contains211 readings,99 source records and122 PDF pages. The digital213323 source is registered once; printed4856 is verification from the same dictionary lineage, not independent oral evidence. Readings204 and206 use measured full-width exceptions to preserve prose, existing type size and artwork. All prior202 narrative and artwork files remain unchanged. The75 unresolved concordance positions and historical cursors remain unchanged. This local trial is not an acceptance or publication receipt.
