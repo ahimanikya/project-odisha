@@ -31,7 +31,7 @@ This directory contains the organizational and working model, roles, work record
 
 Latest cinema refinement: [practical possibilities without a timed programme](records/cinema-futures-open-recommendations-2026-10-30.json). The article, matching cross-reference and both book drafts are updated and reviewed locally.
 
-Current cinema image trial: [five-page image families](records/cinema-image-trial-2026-10-30.json). A safe portrait crop, full documentary frames and restrained archival objects are ready for local review in the articles and new 222-page digital / 246-page print proofs. Other 36 articles and preview-card layouts are unchanged; no publication or wider rollout.
+Current cinema image trial: [five-page image families](records/cinema-image-trial-2026-10-30.json). A safe portrait crop, full documentary frames and restrained archival objects are ready for local review in the articles and new 223-page digital / 246-page print proofs. Nirad’s book portrait now uses85% of the text width. Other 36 articles and preview-card layouts are unchanged; no publication or wider rollout.
 
 Current cinema draft: [literature, people and cultural care revision](records/cinema-literature-care-2026-10-30.json). All 41 readings have been revised and independently reviewed;224-page digital and248-page print drafts are ready for author review, separate from the published edition below.
 

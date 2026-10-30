@@ -153,7 +153,12 @@ class FramedImage(Flowable):
   c.drawImage(self.path,self.offset_x,self.offset_y,width=self.draw_width,height=self.draw_height,mask='auto');c.restoreState()
 def frame_geometry(path,slug,width,height):
  item=image_frames.get((slug,str(Path(path).relative_to(R))),{});cfg=item.get('book',{})
- fw=min(WIDTH,cfg.get('width_pt') or WIDTH);ratio=cfg.get('ratio');fh=fw*ratio[1]/ratio[0] if ratio else fw*height/width
+ if 'width_fraction' in cfg:
+  fraction=cfg['width_fraction']
+  if isinstance(fraction,bool) or not isinstance(fraction,(int,float)) or not 0<fraction<=1:raise ValueError('Image width_fraction must be greater than 0 and at most 1')
+  fw=WIDTH*fraction
+ else:fw=min(WIDTH,cfg.get('width_pt') or WIDTH)
+ ratio=cfg.get('ratio');fh=fw*ratio[1]/ratio[0] if ratio else fw*height/width
  return item,fw,fh
 
 delivery={}

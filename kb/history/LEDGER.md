@@ -1319,3 +1319,7 @@ Prepared the41-reading candidate on current main, preserving45newer changes. Add
 ### 30 October 2026 · Five-page cinema image sizing trial
 
 Applied seven explicit placements across five readings: a safe 4:5 portrait, complete group and author photographs, wide illustrations, and smaller archival objects. Captions align with their image edges in articles and books. All 41 prose files, 47 original images and preview-card metadata remain unchanged. New 222-page digital and 246-page print proofs passed separate affected-page review; 656 site and 535 coast tests passed. Desktop and phone checks found no overflow, and the complete-image link retains the full portrait. Local trial only; no publication, wider rollout, human approval or programme increment. [Review record](../records/cinema-image-trial-2026-10-30.json).
+
+### 30 October 2026 · Larger portrait in the book trial
+
+At the Founder’s request, enlarged Nirad Mohapatra’s portrait to85% of the text width in both book editions. The printed opening keeps the title, image, caption and first paragraph together. The digital edition gains one page; final proofs contain223 and246 pages respectively. Source images, prose, web frames and all other book image sizes are unchanged. Local drafts only. [Trial and follow-up](../records/cinema-image-trial-2026-10-30.json).

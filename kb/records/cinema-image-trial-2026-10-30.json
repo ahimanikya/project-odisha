@@ -26,7 +26,7 @@
   ],
   "completed_at": "2026-10-30T11:21:47.881321+00:00",
   "frame_configuration": "kb/research/culture/cinema-series/image-layout-trial-2026-10-30.json",
-  "configuration_sha256": "402c00b15df45b7f2283163b5b0dd678b9d1ae138279f78ad22d877afe1785c0",
+  "configuration_sha256": "4bb181d505d4e8bfe2bcb8e984c3637ccf587c1231112a5bce2e8582c72c4bfd",
   "evidence_directory": "outputs/cinema-image-trial-20261030",
   "validation": "outputs/cinema-image-trial-20261030/validation.json",
   "quality_review": "outputs/cinema-image-trial-20261030/quality-review.json",
@@ -55,6 +55,64 @@
   "books": [
     {
       "edition": "digital",
+      "file": "output/pdf/odia-cinema-a-living-screen-2026-10-30-image-trial-large-portrait.pdf",
+      "sha256": "f6fee6511985e6be90a2394e324f8910fd9c3e83bcd5919bf717109ecc2a43e1",
+      "pages": 223,
+      "receipt": "outputs/cinema-image-trial-20261030/digital-large-portrait-build.json",
+      "status": "local reading proof"
+    },
+    {
+      "edition": "print",
+      "file": "output/pdf/odia-cinema-a-living-screen-print-2026-10-30-image-trial-large-portrait.pdf",
+      "sha256": "617e3c372a2e4f484c9e3fdf373e8350222c133165aa1ae7af7330a81926ca95",
+      "pages": 246,
+      "receipt": "outputs/cinema-image-trial-20261030/print-large-portrait-build.json",
+      "status": "local reading proof"
+    }
+  ],
+  "portrait_followup": {
+    "status": "local_review_ready",
+    "request": "Founder accepted enlarging Nirad\u2019s book portrait to approximately85% of text width.",
+    "baseline": "2237d6d5fb15928139bc9f110f1e8be97a4d14a1",
+    "scope": "Book-only refinement of existing five-page trial; no website, prose, source image or other frame changes.",
+    "reserved_scopes": {
+      "Samanta": [
+        "output/pdf/build_book.py",
+        "kb/research/culture/cinema-series/image-layout-trial-2026-10-30.json"
+      ],
+      "Disha": [
+        "records, PDF builds and integration"
+      ],
+      "Drishti": [
+        "independent read-only page and scope review"
+      ]
+    },
+    "programme_progress_credit": 0,
+    "completed_at": "2026-10-30T15:07:25.283817+00:00",
+    "width_fraction": 0.85,
+    "digital_frame_pt": [
+      295.8,
+      369.75
+    ],
+    "print_frame_pt": [
+      285.6,
+      357
+    ],
+    "caption_spacing_pt": 18,
+    "review": "outputs/cinema-image-trial-20261030/large-portrait-review.json",
+    "web_configuration_unchanged": true,
+    "source_and_book_body_hashes_unchanged": true,
+    "other46_image_placements_unchanged": true,
+    "experimental_caption_spacing": "A6pt reduction did not recover the digital page and was reverted.",
+    "final_page_counts": {
+      "digital": 223,
+      "print": 246
+    },
+    "scope_release": "Implementation complete; independent review bound to final artifacts before delivery."
+  },
+  "previous_book_proofs": [
+    {
+      "edition": "digital",
       "file": "output/pdf/odia-cinema-a-living-screen-2026-10-30-image-trial.pdf",
       "sha256": "0a142538d0d79b78fc10d1c46170e979fb35014c6efb6ca03148072bc14899bb",
       "pages": 222,
@@ -69,5 +127,6 @@
       "receipt": "outputs/cinema-image-trial-20261030/print-book-build.json",
       "status": "local reading proof; not a press certification"
     }
-  ]
+  ],
+  "previous_configuration_sha256": "402c00b15df45b7f2283163b5b0dd678b9d1ae138279f78ad22d877afe1785c0"
 }
