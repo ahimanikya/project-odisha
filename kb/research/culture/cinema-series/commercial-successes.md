@@ -33,7 +33,6 @@ These sources use different reporting windows and do not consistently define ter
 | ଦମନ (DAMaN) | Nearly ₹1 crore | ₹7.5 crore, described as lifetime | Budget: 13 November 2022; collection: 23 June 2025 | Separate TNIE/Pinkvilla reports; collection’s gross/net and territory unspecified.[^commercial-daman][^commercial-pinkvilla] |
 | କର୍ମ (Karma) | Not established | ₹6.5 crore, described as lifetime | 23 June 2025 | Pinkvilla; gross/net and territory unspecified.[^commercial-pinkvilla] |
 | Pabaar | Not established | ₹3.5 crore, described as lifetime | 23 June 2025 | Pinkvilla; gross/net and territory unspecified.[^commercial-pinkvilla] |
-| Mantra Muugdha | Not established | ₹4.27 crore gross; ₹3.74 crore net | Tracker updated 4 October 2026 | **Low confidence:** Ollypedia says figures are approximate, may differ greatly from producers’ figures, and does not claim authenticity.[^commercial-mantra] |
 
 ## Bou Buttu Bhuta: following a run through time
 
@@ -71,7 +70,7 @@ The case also gives the [literature-to-cinema reading](literature-and-screen.md)
 
 Jadi extends the comparison into 2026. CineJosh’s October report paired its budget and collection estimates with an announcement of a Telugu version; a release date for that version was still to be announced.[^commercial-jadi] As with remake interest, this is a further commercial possibility, not evidence of receipts from the proposed version.
 
-Pabaar’s inclusion comes from the same Pinkvilla comparison that supplied the DAMaN and Karma lifetime figures. Mantra Muugdha sits on a different evidential footing: its figures come from a tracker whose own disclaimer makes a strong qualification necessary. Its entry is therefore explicitly marked low confidence in the table.
+Pabaar’s inclusion comes from the same Pinkvilla comparison that supplied the DAMaN and Karma lifetime figures. The tracker entry for *Mantra Muugdha* remains a research lead; its authenticity disclaimer leaves it outside this comparison.[^commercial-mantra]
 
 A budget-only report belongs beside this discussion, but outside the collection table. Odia Celebrity reported a roughly **₹10 crore budget for Landfall** on 30 June 2026, when it announced completion of shooting.[^commercial-landfall] That is a reported investment, not evidence of release earnings or a verified highest-budget record.
 

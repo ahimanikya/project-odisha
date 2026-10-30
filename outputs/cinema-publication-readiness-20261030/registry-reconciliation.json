@@ -1,0 +1,167 @@
+{
+  "status": "implemented; both validators PASS",
+  "scope": "Register-only reconciliation to current reviewed profiles; no canonical or public source edits",
+  "source_hashes_unchanged": {
+    "people/prafulla-kar": "21c95a00b1393b62224bdad4dfc347ed49e1f9244a65dcf87eaadf4d54768d39",
+    "people/basanta-kumari-patnaik": "d8c4a678b0ba2279ce863a370745a30fe1874a25b07d419160d95348097e9da2"
+  },
+  "source_id_aliases": {
+    "creators-prafulla-sna": "akademi",
+    "music-osa-awards-2012": "osa",
+    "music-re-mita-label": "mamata",
+    "music-dekhi-label": "banamalli",
+    "music-mu-ta-label": "mu-ta",
+    "music-kali-qobuz": "kali",
+    "literature-spark-text": "spark"
+  },
+  "new_career_evidence": {
+    "id": "career",
+    "title": "Legendary musician Prafulla Kar passes away",
+    "resource": "https://www.newindianexpress.com/amp/story/states/odisha/2022/Apr/18/legendary-musicianprafulla-kar-passes-away-2443352.html",
+    "publisher": "The New Indian Express",
+    "publication_date": "2022-04-18",
+    "capture_method": "retained_reviewed_evidence",
+    "capture_note": "Fresh direct web text read 30 October 2026; Reported biography, not primary award registry. Avoid totalfilm/award counts, exactbirthday and firsts beyond attributed debut. Allocate remaining source budget to later profile.",
+    "evidence_record": "sources/cinema-music-evidence-2026-10-30.json#prafulla-career",
+    "accessed_on": "2026-10-30"
+  },
+  "retained_historical_person_records": [
+    {
+      "id": "people/prafulla-kar",
+      "name": "Prafulla Kar",
+      "fields": [
+        "music",
+        "composition",
+        "singing",
+        "lyrics"
+      ],
+      "odisha_connection": {
+        "description": "Sangeet Natak Akademi citation records his birth in Puri.",
+        "source_ids": [
+          "creators-prafulla-sna"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "national",
+          "basis": "2015 Sangeet Natak Akademi award citation, Sugam Sangeet",
+          "source_ids": [
+            "creators-prafulla-sna"
+          ]
+        },
+        {
+          "scope": "diaspora_institutional_recognition",
+          "basis": "OSA records its 2012 lifetime achievement award for his contribution as singer, director, composer and lyricist.",
+          "source_ids": [
+            "music-osa-awards-2012"
+          ]
+        }
+      ],
+      "source_ids": [
+        "creators-prafulla-sna",
+        "music-osa-awards-2012",
+        "music-pib-film-history",
+        "music-prafulla-label-profile",
+        "music-re-mita-label",
+        "music-dekhi-label",
+        "music-mu-ta-label",
+        "music-kali-qobuz"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/mamata-film-music",
+        "works/re-mita-aa-sangata",
+        "works/dekhi-se-banamalli",
+        "works/mu-ta-manisha-marini",
+        "works/kali-kapali-prafulla"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null,
+      "biographical_notes": [
+        {
+          "topic": "film_music_entry",
+          "statement": "Kapilas Bhuyan’s PIB-hosted 2010 feature dates the music-direction debut to Mamata (1975).",
+          "source_ids": [
+            "music-pib-film-history"
+          ],
+          "scope": "Attributed retrospective, not original film-credit inspection."
+        }
+      ]
+    },
+    {
+      "id": "people/basanta-kumari-patnaik",
+      "name": "Basanta Kumari Patnaik",
+      "fields": [
+        "literature"
+      ],
+      "odisha_connection": {
+        "description": "Studied economics at Ravenshaw College, Cuttack; wrote fiction in Odia.",
+        "source_ids": [
+          "literature-spark-text"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "statewide",
+          "basis": "Odia fiction and publishing activity documented in institutional anthology",
+          "source_ids": [
+            "literature-spark-text"
+          ]
+        },
+        {
+          "scope": "international_circulation",
+          "basis": "English story included in AU Press Canadian anthology, 2016; no readership or popularity measurement",
+          "source_ids": [
+            "literature-spark-text"
+          ]
+        }
+      ],
+      "source_ids": [
+        "literature-spark-text"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/in-bondage"
+      ],
+      "publication_status": "research_profile_editorial_review_pending",
+      "portrait_rights": null
+    }
+  ],
+  "retired_related_reading_relationships": [
+    {
+      "entry": {
+        "from": "people/prafulla-kar",
+        "to": "works/mamata-film-music",
+        "type": "related_reading",
+        "basis": "editorial_context",
+        "explanation": "Read a documented work alongside the person’s profile; this is a selected example, not a complete bibliography."
+      },
+      "reason": "Current reviewed article no longer contains this explicit work-page link or its old explanation. This retires navigation classification only; person/work creator associations remain."
+    },
+    {
+      "entry": {
+        "from": "people/basanta-kumari-patnaik",
+        "to": "works/in-bondage",
+        "type": "related_reading",
+        "basis": "editorial_context",
+        "explanation": "Read this credited English translation alongside the author’s profile; edition date differs from original publication."
+      },
+      "reason": "Current reviewed article no longer contains this explicit work-page link or its old explanation. This retires navigation classification only; person/work creator associations remain."
+    }
+  ],
+  "all_existing_source_catalog_entries_unchanged": true,
+  "person_work_associations_preserved": true,
+  "validation": {
+    "validate_classification.py": {
+      "result": "PASS",
+      "explained_relationships": 613,
+      "errors": []
+    },
+    "validate_creations.py": {
+      "result": "PASS",
+      "people": 71,
+      "works": 60,
+      "errors": []
+    }
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "status": "read-only readiness audit; no build or publication performed",
+  "corpus": {
+    "articles": 41,
+    "parts": 7,
+    "figures": 47,
+    "all_article_metadata_hashes_current": true
+  },
+  "blockers": [
+    {
+      "priority": "P1",
+      "file": "projects/site/editions/coast.json",
+      "issue": "13 current articles missing from public edition. Existing hub/related links target these routes; finalizer rejects links outside scope.",
+      "routes": [
+        "/people/basanta-kumari-patnaik/",
+        "/people/kalindi-charan-panigrahi/",
+        "/people/gopal-chhotray/",
+        "/cinema/cinema-music/",
+        "/people/akshaya-mohanty/",
+        "/people/prafulla-kar/",
+        "/people/pranab-patnaik/",
+        "/people/tapu-mishra/",
+        "/cinema/learning-cinema-together/",
+        "/people/surya-deo/",
+        "/cinema/searching-for-sita-bibaha/",
+        "/cinema/who-keeps-a-film-alive/",
+        "/cinema/reading-odia-cinema/"
+      ],
+      "fix": "Add only approved13routes and associated full-imageJPEGdownloads; do not weaken scope gate."
+    },
+    {
+      "priority": "P1",
+      "file": "projects/site/editions/search-candidate.json",
+      "issue": "Same13routes have no search classification.",
+      "fix": "Add explicit hold/noindex entries unless Founder separately authorizes indexing. Preserve existing search decisions."
+    },
+    {
+      "priority": "P1",
+      "issue": "Old publication artifact is not current41-reading output; current margin2,897,395bytes cannot establish new artifact fits.",
+      "existing_publication_bytes": 997102605,
+      "new_jpeg_paths": [
+        "/assets/cinema/akshaya-mohanty-320.jpg",
+        "/assets/cinema/akshaya-mohanty-640.jpg",
+        "/assets/cinema/akshaya-mohanty-809.jpg",
+        "/assets/cinema/basanta-kumari-1200.jpg",
+        "/assets/cinema/basanta-kumari-320.jpg",
+        "/assets/cinema/basanta-kumari-640.jpg",
+        "/assets/cinema/basanta-kumari-960.jpg",
+        "/assets/cinema/cinema-music-1096.jpg",
+        "/assets/cinema/cinema-music-320.jpg",
+        "/assets/cinema/cinema-music-640.jpg",
+        "/assets/cinema/cinema-music-960.jpg",
+        "/assets/cinema/gopal-chhotray-1200.jpg",
+        "/assets/cinema/gopal-chhotray-320.jpg",
+        "/assets/cinema/gopal-chhotray-640.jpg",
+        "/assets/cinema/gopal-chhotray-960.jpg",
+        "/assets/cinema/kalindi-charan-1200.jpg",
+        "/assets/cinema/kalindi-charan-320.jpg",
+        "/assets/cinema/kalindi-charan-640.jpg",
+        "/assets/cinema/kalindi-charan-960.jpg",
+        "/assets/cinema/learning-cinema-1200.jpg",
+        "/assets/cinema/learning-cinema-320.jpg",
+        "/assets/cinema/learning-cinema-640.jpg",
+        "/assets/cinema/learning-cinema-960.jpg",
+        "/assets/cinema/prafulla-kar-1200.jpg",
+        "/assets/cinema/prafulla-kar-320.jpg",
+        "/assets/cinema/prafulla-kar-640.jpg",
+        "/assets/cinema/prafulla-kar-960.jpg",
+        "/assets/cinema/pranab-patnaik-1200.jpg",
+        "/assets/cinema/pranab-patnaik-320.jpg",
+        "/assets/cinema/pranab-patnaik-640.jpg",
+        "/assets/cinema/pranab-patnaik-960.jpg",
+        "/assets/cinema/preservation-1200.jpg",
+        "/assets/cinema/preservation-320.jpg",
+        "/assets/cinema/preservation-640.jpg",
+        "/assets/cinema/preservation-960.jpg",
+        "/assets/cinema/reading-odia-cinema-1200.jpg",
+        "/assets/cinema/reading-odia-cinema-320.jpg",
+        "/assets/cinema/reading-odia-cinema-640.jpg",
+        "/assets/cinema/reading-odia-cinema-960.jpg",
+        "/assets/cinema/searching-for-sita-bibaha-1200.jpg",
+        "/assets/cinema/searching-for-sita-bibaha-320.jpg",
+        "/assets/cinema/searching-for-sita-bibaha-640.jpg",
+        "/assets/cinema/searching-for-sita-bibaha-960.jpg",
+        "/assets/cinema/surya-deo-bhadrak-2023-1200.jpg",
+        "/assets/cinema/surya-deo-bhadrak-2023-320.jpg",
+        "/assets/cinema/surya-deo-bhadrak-2023-640.jpg",
+        "/assets/cinema/surya-deo-bhadrak-2023-960.jpg",
+        "/assets/cinema/tapu-mishra-1200.jpg",
+        "/assets/cinema/tapu-mishra-320.jpg",
+        "/assets/cinema/tapu-mishra-640.jpg",
+        "/assets/cinema/tapu-mishra-960.jpg"
+      ],
+      "new_jpeg_unoptimized_bytes": 6638742,
+      "fix": "Run actual full/coast/publication chain after scope integration; existing lossless optimizers and1GBgate remain. PDFs remain external release assets."
+    },
+    {
+      "priority": "P2",
+      "files": [
+        "projects/site/src/pages/cinema/book.astro",
+        "projects/site/src/data/cinema.json"
+      ],
+      "issue": "Downloads are truthful Oct27 28-reading release, not new Oct30 41-reading books. New chapters being prepared is outdated as local review is complete, but no new public assets exist in this inspected local mapping.",
+      "fix": "Stage proposed Oct30 release URLs with final filenames only after parent verifies upload; update date/count/pages/bytes/hash and printedition image wording if needed. Keep prior edition explicitly archived; never overwrite old release asset."
+    }
+  ],
+  "existing_book_claims": {
+    "review_books": [
+      {
+        "edition": "digital",
+        "file": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-27/odia-cinema-a-living-screen-2026-10-27.pdf",
+        "bytes": 12927649,
+        "sha256": "7ae26c3c71eb6693937a285ad9f8c28280dbcf40144e6efc052d502b5b445f15",
+        "pages": 176,
+        "status": "reviewed_release_asset"
+      },
+      {
+        "edition": "print",
+        "file": "https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-27/odia-cinema-a-living-screen-print-2026-10-27.pdf",
+        "bytes": 132370249,
+        "sha256": "9a4a544f1d771e2fe44b624a3e481bcbca8ac7ae2bae7542cfad0b2c439565b9",
+        "pages": 196,
+        "status": "reviewed_release_asset"
+      }
+    ],
+    "cover_caption": "27October2026cover remains truthful because cover unchanged; distinguish cover from current editiondate",
+    "accessibility": "Page honestly says PDFs are not tagged accessibility editions",
+    "printing": "6x9/100percent matchingstock andA4fit instructions remain accurate"
+  },
+  "current_local_books": [
+    {
+      "edition": "digital",
+      "receipt": "tmp/pdfs/2026-10-30-deep-review/digital/book-build-2026-10-30-deep-review.json",
+      "path": "output/pdf/odia-cinema-a-living-screen-2026-10-30-deep-review.pdf",
+      "pages": 236,
+      "bytes": 17087675,
+      "sha256": "e1ed3cf111993128b093b4254d08697626f5680c85780fbfc55a3ac229476ae8",
+      "receipt_hash_matches": true,
+      "chapters": 41,
+      "source_bindings_current": true
+    },
+    {
+      "edition": "print",
+      "receipt": "tmp/pdfs/2026-10-30-deep-review/print/book-build-2026-10-30-deep-review.json",
+      "path": "output/pdf/odia-cinema-a-living-screen-print-2026-10-30-deep-review.pdf",
+      "pages": 260,
+      "bytes": 39977032,
+      "sha256": "cd32c0ad6b174138bc39adb325b54f35ca5fa7844a97328c45df8edefe0107a1",
+      "receipt_hash_matches": true,
+      "chapters": 41,
+      "source_bindings_current": true
+    }
+  ],
+  "safe_staging_plan": [
+    "Parent reserves edition/search/data/bookpage/tests updates; newrouteclassificationhold/noindex without newindexingapproval.",
+    "Use new unique release tag/filenames for reviewedOct30books; preservebytes and priorrelease. NoPDFcontentchange needed.",
+    "Update bookdownload metadata/copy after verified upload, or maintain clearly labelled older available edition until then.",
+    "Run npm run build; disclosure dist; npm test; npm run build:coast; disclosure dist-coast; npm run test:coast; npm run build:publication; disclosure dist-publish.",
+    "IndependentQAall41routes+numericcredits+newreleaseassetchecks; Founderworkflowdispatch only after approved mainbranch."
+  ],
+  "workflow": {
+    "file": ".github/workflows/publish-site.yml",
+    "deployment_requires": "main branch, actor ahimanikya, publish_approved true; serialized github-pages concurrency",
+    "artifact": "projects/site/dist-publish",
+    "local_publication_output_stale": true
+  },
+  "limits": [
+    "No remote release/network verification this localaudit; existing realOct27asset status from retainedreviewedmetadata.",
+    "No productionpublish or Git mutation.",
+    "No currentcoast/publicationbuild attempted; oldbytecounts notnewreleaseapproval.",
+    "NoHTML/CSSwork performed; modern guidance retrieval not needed for read-only packaging audit."
+  ],
+  "route_inclusion_implementation": {
+    "status": "implemented; parent owns builds/publication",
+    "routes_added": [
+      "/people/basanta-kumari-patnaik/",
+      "/people/kalindi-charan-panigrahi/",
+      "/people/gopal-chhotray/",
+      "/cinema/cinema-music/",
+      "/people/akshaya-mohanty/",
+      "/people/prafulla-kar/",
+      "/people/pranab-patnaik/",
+      "/people/tapu-mishra/",
+      "/cinema/learning-cinema-together/",
+      "/people/surya-deo/",
+      "/cinema/searching-for-sita-bibaha/",
+      "/cinema/who-keeps-a-film-alive/",
+      "/cinema/reading-odia-cinema/"
+    ],
+    "downloads_added": [
+      "/assets/cinema/basanta-kumari-1200.jpg",
+      "/assets/cinema/kalindi-charan-1200.jpg",
+      "/assets/cinema/gopal-chhotray-1200.jpg",
+      "/assets/cinema/cinema-music-1096.jpg",
+      "/assets/cinema/akshaya-mohanty-809.jpg",
+      "/assets/cinema/prafulla-kar-1200.jpg",
+      "/assets/cinema/pranab-patnaik-1200.jpg",
+      "/assets/cinema/tapu-mishra-1200.jpg",
+      "/assets/cinema/learning-cinema-1200.jpg",
+      "/assets/cinema/surya-deo-bhadrak-2023-1200.jpg",
+      "/assets/cinema/searching-for-sita-bibaha-1200.jpg",
+      "/assets/cinema/preservation-1200.jpg",
+      "/assets/cinema/reading-odia-cinema-1200.jpg"
+    ],
+    "search_hold_added": [
+      "/people/basanta-kumari-patnaik/",
+      "/people/kalindi-charan-panigrahi/",
+      "/people/gopal-chhotray/",
+      "/cinema/cinema-music/",
+      "/people/akshaya-mohanty/",
+      "/people/prafulla-kar/",
+      "/people/pranab-patnaik/",
+      "/people/tapu-mishra/",
+      "/cinema/learning-cinema-together/",
+      "/people/surya-deo/",
+      "/cinema/searching-for-sita-bibaha/",
+      "/cinema/who-keeps-a-film-alive/",
+      "/cinema/reading-odia-cinema/"
+    ],
+    "existing_search_entries_preserved": 823,
+    "existing_proposed_count": 11,
+    "incremental_jpeg_bytes": 6638742,
+    "incremental_jpeg_files": 51,
+    "largest_incremental_jpegs": [
+      {
+        "file": "/assets/cinema/tapu-mishra-1200.jpg",
+        "bytes": 524345
+      },
+      {
+        "file": "/assets/cinema/tapu-mishra-960.jpg",
+        "bytes": 356337
+      },
+      {
+        "file": "/assets/cinema/kalindi-charan-1200.jpg",
+        "bytes": 355072
+      },
+      {
+        "file": "/assets/cinema/pranab-patnaik-1200.jpg",
+        "bytes": 290794
+      },
+      {
+        "file": "/assets/cinema/prafulla-kar-1200.jpg",
+        "bytes": 261314
+      },
+      {
+        "file": "/assets/cinema/preservation-1200.jpg",
+        "bytes": 255201
+      },
+      {
+        "file": "/assets/cinema/learning-cinema-1200.jpg",
+        "bytes": 251913
+      },
+      {
+        "file": "/assets/cinema/kalindi-charan-960.jpg",
+        "bytes": 237108
+      },
+      {
+        "file": "/assets/cinema/reading-odia-cinema-1200.jpg",
+        "bytes": 227424
+      },
+      {
+        "file": "/assets/cinema/basanta-kumari-1200.jpg",
+        "bytes": 202809
+      }
+    ],
+    "validation": {
+      "command": "node --test --test-name-pattern='publication scope includes every current cinema reading' projects/site/tests/cinema-release.test.mjs",
+      "passed": 1,
+      "failed": 0,
+      "scope": "41 derived routes,47 complete-image placements; no build run"
+    }
+  }
+}

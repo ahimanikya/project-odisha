@@ -1,0 +1,268 @@
+{
+  "review_date": "2026-10-30",
+  "reviewer": "Anvesha",
+  "sha256": "abac27d06b224d3a765c84dcf4a2fa593e09b7ad6c1a8e878aeeed1d1bcbf1f1",
+  "page_count": 260,
+  "first_pass": {
+    "review_date": "2026-10-30",
+    "reviewer": "Anvesha",
+    "pdf": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/odia-cinema-release-20261026/output/pdf/odia-cinema-a-living-screen-print-2026-10-30-deep-review.pdf",
+    "sha256": "18fa16008ec1082292033c252aabc3dd853019a349f50975d0a4fa2ea8674529",
+    "page_count": 262,
+    "scope": "Read-only visual inspection; no content edits or publication. Parent handles structural/text validation.",
+    "coverage": {
+      "contact_sheets": [
+        "001-024",
+        "025-048",
+        "049-072",
+        "073-096",
+        "097-120",
+        "121-144",
+        "145-168",
+        "169-192",
+        "193-216",
+        "217-240",
+        "241-262"
+      ],
+      "all_pages_contact_inspected": true,
+      "full_size_pages": [
+        21,
+        22,
+        23,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        52,
+        146,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        261,
+        262
+      ],
+      "limits": "Contacts establish overall layout only; fine glyph and reference legibility checked on listed full-size pages, not every source-note glyph in the book."
+    },
+    "verdict": "Readable with three pagination improvements recommended; no observed overlapping text, clipped figures or missing Odia glyphs in inspected risk pages.",
+    "findings": [
+      {
+        "id": "PRINT-01",
+        "pages": [
+          43,
+          52,
+          146
+        ],
+        "severity": "layout-improvement",
+        "finding": "Near-empty chapter-ending pages: cinema-music p43 has three lines; Prafulla p52 three lines; Debi p146 five lines.",
+        "recommendation": "Reflow each preceding chapter slightly or use chapter-specific pagination adjustment; preserve prose and intentional portrait pages. Recheck subsequent page references after rebuilding."
+      },
+      {
+        "id": "PRINT-02",
+        "pages": [
+          261
+        ],
+        "severity": "confirm-intent",
+        "finding": "Completely blank page immediately before back cover262.",
+        "recommendation": "Retain if intentional print parity; verify builder intent rather than treating it as missing content."
+      }
+    ],
+    "positive_checks": [
+      {
+        "pages": [
+          21,
+          22,
+          23
+        ],
+        "result": "Basanta title, illustration/caption, prose and superscripts readable; no overlap."
+      },
+      {
+        "pages": [
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49
+        ],
+        "result": "Music and Akshaya headings, bilingual names and superscripts readable. Portrait pages44 and49 preserve full subjects and captions."
+      },
+      {
+        "pages": [
+          172,
+          173,
+          174,
+          175,
+          176,
+          177,
+          178,
+          179,
+          180
+        ],
+        "result": "Conclusion headings, sidebar and body readable. Odia dhaga on179 renders as ଏକା ହାତରେ ତାଳି ବାଜେ ନାହିଁ with readable superscript7 and English gloss; no tofu or clipping."
+      },
+      {
+        "pages": [
+          181,
+          182,
+          183,
+          184,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203,
+          204,
+          205
+        ],
+        "result": "Overview appendix body and archival photo/caption readable. Performer/award/count tables keep complete labelled blocks inside margins; latest Lahari row visible194."
+      },
+      {
+        "pages": [
+          206,
+          207,
+          208,
+          209,
+          210,
+          211
+        ],
+        "result": "Guide chapter/page references and superscript note identifiers readable. Sources begin211, rather than206. No collision with headers or footers."
+      },
+      {
+        "pages": [
+          1,
+          262
+        ],
+        "result": "Cover designs preserved; back-cover title, author portrait and text readable. Front inspected at contact scale; back at full size."
+      }
+    ],
+    "preserve": [
+      "Existing covers",
+      "Print margins",
+      "Intentional standalone portrait pages",
+      "Complete table blocks",
+      "Source notes and title-specific access limitations"
+    ],
+    "changes_made": [],
+    "binding_correction": "First-pass images were the original262-page edition; earlier receipt mistakenly read the replacement260-page PDF hash during concurrent rebuild. Correct original hash recovered from book-text-check.json."
+  },
+  "followup": {
+    "coverage": {
+      "contact_sheets": [
+        "193-216",
+        "217-240",
+        "241-260"
+      ],
+      "fresh_direct_pdf_full_size_pages": [
+        42,
+        50,
+        51,
+        144,
+        145,
+        178,
+        190,
+        191,
+        192,
+        193,
+        206,
+        259,
+        260
+      ],
+      "method": "Checked render receipt against currentPDF SHA256; rendered selected pages directly with pdftoppm to avoid uncertainty from older files remaining in render folder."
+    },
+    "resolved": [
+      {
+        "old_page": 43,
+        "current_page": 42,
+        "finding": "Music closing paragraph now fits previous page cleanly."
+      },
+      {
+        "old_page": 261,
+        "finding": "Old blank was intentional parity (parent confirmed); current edition has editionnote259 and backcover260 without blank."
+      }
+    ],
+    "remaining": [
+      {
+        "page": 51,
+        "finding": "Prafulla ending remains a three-line near-empty page. Cosmetic reflow recommendation, no missing text."
+      },
+      {
+        "page": 145,
+        "finding": "Debi ending remains a five-line near-empty page. Cosmetic reflow recommendation. Sparse word-count list does not flag it, so absence from sparse list is not resolution."
+      }
+    ],
+    "passes": [
+      "Odia dhaga current178 readable, no glyph defects observed.",
+      "Award-table blocks191–193 remain complete and legible; Lahari row retained.",
+      "Guide206 citations and updated chapter references readable.",
+      "Contacts193–260 reveal no obvious overlap/clipping; finalnote/backcover clean."
+    ],
+    "limitations": "This is targeted follow-up on260-page edition, not a claim to have re-inspected all260pages at fullsize. Prior262-page visual coverage retained separately."
+  },
+  "verdict": "Music tail resolved; two cosmetic tail pages remain. No observed clipping, overlap or missingglyphs in follow-up.",
+  "changes_made": [
+    "Review receipt corrected and follow-up added; no article or PDF changes."
+  ]
+}

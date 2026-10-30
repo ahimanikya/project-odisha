@@ -1,0 +1,92 @@
+{
+  "status": "read-only audit; source revision awaits evidence handoff",
+  "source": "kb/research/culture/cinema-series/literature-and-screen.md",
+  "source_sha256": "8b13997e31f98fb812117dbae26b7fd749a7fd372b402873cd99e58b66a49c0f",
+  "present": [
+    "Four short thematic sections: place/Chha Mana quotation; listening/Rebati quotation; named adaptation paths; reading-and-viewing invitation.",
+    "Six source notes; adaptation examples Kaa, Bhukha, Pratikshya and Ananta; Parbati linked for Chha Mana.",
+    "Further paths already include Gourahari, Pratikshya, Aadim Vichar, Lavanya Preeti and AIR."
+  ],
+  "strengths": [
+    "Warm clear opening; two precise Odia excerpts with original English renderings and transcription limits.",
+    "Rebati explicitly remains a literary parallel, not a claimed film source.",
+    "Adaptation framed as changed tools/point of view rather than a fidelity contest; Sambalpuri contribution retained.",
+    "No existing claim that literature began influencing cinema only in the1960s or disappeared after1980."
+  ],
+  "gaps": [
+    {
+      "priority": 1,
+      "finding": "Writers mostly appear as source names; screenplay, dialogue and lyric labour barely appears.",
+      "proposal": "Use Basanta Kumari Pattanayak/Amada Bata as human opening, then distinguish source author from Gopal Chhotray screenplay, Sarada Naik dialogue and Bijay Mishra screen craft through exact credited examples."
+    },
+    {
+      "priority": 1,
+      "finding": "Ending suggests film-to-book discovery but supplies no actual instance or compensation evidence.",
+      "proposal": "Use Manas Mahapatra memoir as one attributed film-memory-to-permissions journey; requested royalty destination is not proof of payment, publication in all languages, increased sales or general readership."
+    },
+    {
+      "priority": 2,
+      "finding": "Representative continuity is compressed into one catalogue-like paragraph; 1960s cases and later transformations lack room.",
+      "proposal": "Choose Amada Bata, Matira Manisha and one later pair rather than exhaustive film list; retain concise linked paths to existing detailed film pages."
+    },
+    {
+      "priority": 2,
+      "finding": "The article has no economic explanation distinguishing reach, remuneration, commercial outcome and literary worth.",
+      "proposal": "One concrete paragraph with qualitative Kaa/Chha Mana archive assessments and evidence limits; keep general money flow in cinema-economics."
+    },
+    {
+      "priority": 2,
+      "finding": "Future invitation mostly addresses readers, not working writers/publishers/filmmakers.",
+      "proposal": "Clearly proposed paid story discovery, screenplay development, permission/credit agreements and source-edition access; no guarantee of box office or livelihood."
+    }
+  ],
+  "proposed_structure": [
+    "1. A film remembered, a book sought: attributed Manas Mahapatra mother/Amada Bata recollection and later permission work; no invented scene.",
+    "2. Writers who originate worlds: Basanta, Kalindi, Kanhucharan, Fakir Mohan; select examples, women writers visible, avoid purity/closed-language narrative.",
+    "3. The work between page and screen: Chhotray, Sarada Naik, Bijay Mishra; source, screenplay, dialogue and song each named; concise bridge to AIR and Akshaya profile instead of duplicating them.",
+    "4. What a film can do differently: attributed Matira Manisha balloon account; preserve neighbour quotation and comparison questions without claiming first-hand film/text analysis.",
+    "5. Continuity, reach and reward: Bhukha/Pratikshya/Ananta as later examples, Deo2022 critique attributed, no adaptation census; memoir royalties and retrospective commercial assessments distinguished.",
+    "6. Making the next connection practical: paid development/rights/credits/source access as proposals; close with one approachable reading-viewing invitation, retaining Rebati as a brief parallel if flow supports it."
+  ],
+  "reuse_limits": [
+    "AIR already develops Gopal Chhotray/Gitinatya/Patent Medicine and Devdas studio-stage account; link instead of repeating.",
+    "Akshaya new profile already develops lyric collaborators and Devdas; keep this page focused on writing as creative work.",
+    "Do not map Bijay Mishra play and film lists into unverified adaptation pairs.",
+    "Shared sources Kaa/Chha Mana/Pratikshya/Bhukha already used elsewhere: tally combined derived words before expansion.",
+    "Do not treat reported royalties request as a completed transfer or paid contract."
+  ],
+  "profile_research_queue_candidates": [
+    "Basanta Kumari Pattanayak",
+    "Gopal Chhotray",
+    "Bijay Mishra",
+    "Sarada Naik",
+    "Kalindi Charan Panigrahi",
+    "Kanhucharan Mohanty",
+    "Manglu Charan Biswal"
+  ],
+  "presentation": {
+    "route": "/cinema/literature-and-screen/",
+    "template": "projects/site/src/pages/cinema/[slug].astro -> CinemaReading.astro -> cinemaArticle",
+    "local_preview": "projects/site/dist/cinema/literature-and-screen/index.html",
+    "hero": "kb/research/media/cinema-series/distinct-2026-10-27/literature-and-screen.png",
+    "caption": "Illustration: from reading to screen adaptation.",
+    "alt": "A reader holding an open book beside a sheet of storyboard sketches",
+    "delivery": "/assets/cinema/literature-and-screen-distinct-1200w.jpg",
+    "dimensions": [
+      1200,
+      800
+    ],
+    "assessment": "Existing unique book/storyboard illustration remains relevant; no new image or layout required.",
+    "part": "A Shared Storytelling World"
+  },
+  "implementation_after_handoff": [
+    "Revise only existing canonical article when authorized.",
+    "Root synchronizes source SHA and descriptive metadata; preserve hero/derivatives.",
+    "Targeted cinemaArticle rendering validates note targets/public reading routes; site build refreshes same preview.",
+    "No book regeneration, author profiles, new route or publication in this cycle."
+  ],
+  "limits": [
+    "Local source/evidence audit only; no new external verification or browser review.",
+    "Current reading-time estimate may change after revision; no count adjustment needed until final prose."
+  ]
+}

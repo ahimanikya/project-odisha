@@ -29,7 +29,7 @@ test('player logic source-identical, scoped styling, explicit frame policy',()=>
 test('cinema delivery preserves responsive JPEGs and release PDF URLs',()=>{
  for(const entry of cinema.articles)for(const image of entry.images){const html=picture(image,'Image',image.role==='title');assert.ok(!html.includes('.webp'));for(const d of image.derivatives.filter(d=>d.format==='jpeg'))assert.ok(html.includes(`${d.file} ${d.width}w`));assert.ok(html.includes('sizes="'));assert.ok(html.includes(`width="${image.width}" height="${image.height}"`));assert.ok(html.includes(image.role==='title'?'fetchpriority="high"':'loading="lazy"'));}
  const book=fs.readFileSync(path.join(site,'src/pages/cinema/book.astro'),'utf8');for(const name of ['odia-cinema-a-living-screen.pdf','odia-cinema-a-living-screen-print.pdf'])assert.ok(book.includes('https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-26/'+name));
- const coast=JSON.parse(fs.readFileSync(path.join(site,'editions/coast.json'),'utf8'));for(const book of cinema.review_books||[]){assert.ok(book.file.startsWith('https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-27/'));assert.ok(!coast.documents.includes('/archive/'+path.basename(book.file)));}
+ const coast=JSON.parse(fs.readFileSync(path.join(site,'editions/coast.json'),'utf8'));for(const book of cinema.review_books||[]){assert.ok(/^https:\/\/github\.com\/ahimanikya\/project-odisha\/releases\/download\/[A-Za-z0-9._-]+\/[^/]+\.pdf$/.test(book.file));assert.ok(!coast.documents.includes('/archive/'+path.basename(book.file)));}
 });
 
 test('further reading preserves all source links and enriches destination articles',()=>{
@@ -37,7 +37,7 @@ test('further reading preserves all source links and enriches destination articl
  const page=fs.readFileSync(path.join(site,'src/components/CinemaReading.astro'),'utf8');assert.ok(page.includes('headingLevel={3} compact'));assert.ok(page.includes('class="cinema-sequence"'));assert.ok(page.includes('class="cinema-utilities"'));assert.ok(!page.includes('All eleven'));
 });
 
-test('people route overrides are excluded from cinema slug emission',()=>{const sample=[{slug:'gourahari-das',route:'/people/gourahari-das/'},{slug:'nirad-mohapatra',route:'/people/nirad-mohapatra/'},{slug:'pratikshya',route:'/cinema/pratikshya/'}];assert.deepEqual(cinemaRouteEntries(sample),[sample[2]]);assert.ok(cinemaRouteEntries().every(e=>e.route===`/cinema/${e.slug}/`));const prep=fs.readFileSync(path.join(site,'tools/prepare-cinema.mjs'),'utf8');assert.ok(prep.includes("route:entry.route||'/cinema/'+entry.slug+'/'"));const route=fs.readFileSync(path.join(site,'src/pages/cinema/[slug].astro'),'utf8');assert.ok(route.includes('cinemaRouteEntries()'));assert.ok(route.includes('<CinemaReading entry={entry}/>'));const book=fs.readFileSync(path.join(site,'src/pages/cinema/book.astro'),'utf8');assert.ok(book.includes('Current review edition · 27 October 2026'));assert.ok(book.includes('Earlier published edition · 26 October 2026'));assert.ok(book.includes('{cinema.articles.length} readings'));assert.ok(book.includes('fourteen-chapter edition of 26 October 2026'));});
+test('people route overrides are excluded from cinema slug emission',()=>{const sample=[{slug:'gourahari-das',route:'/people/gourahari-das/'},{slug:'nirad-mohapatra',route:'/people/nirad-mohapatra/'},{slug:'pratikshya',route:'/cinema/pratikshya/'}];assert.deepEqual(cinemaRouteEntries(sample),[sample[2]]);assert.ok(cinemaRouteEntries().every(e=>e.route===`/cinema/${e.slug}/`));const prep=fs.readFileSync(path.join(site,'tools/prepare-cinema.mjs'),'utf8');assert.ok(prep.includes("route:entry.route||'/cinema/'+entry.slug+'/'"));const route=fs.readFileSync(path.join(site,'src/pages/cinema/[slug].astro'),'utf8');assert.ok(route.includes('cinemaRouteEntries()'));assert.ok(route.includes('<CinemaReading entry={entry}/>'));const book=fs.readFileSync(path.join(site,'src/pages/cinema/book.astro'),'utf8');assert.ok(book.includes('Available PDF edition · '));assert.ok(book.includes('Earlier published edition · 26 October 2026'));assert.ok(book.includes('{cinema.articles.length} readings'));assert.ok(book.includes('fourteen-chapter edition of 26 October 2026'));});
 
 test('Gourahari is a people companion with an accurately labelled hero',()=>{const entry=cinema.articles.find(a=>a.slug==='gourahari-das');assert.ok(entry);assert.equal(entry.route,'/people/gourahari-das/');assert.ok(!cinemaRouteEntries().includes(entry));if(entry.hero.kind!=='documentary'){assert.match(entry.hero.caption,/illustration/i);}const page=fs.readFileSync(path.join(site,'src/pages/people/gourahari-das.astro'),'utf8');assert.ok(page.includes("article.route==='/people/gourahari-das/'"));assert.ok(page.includes('<CinemaReading entry={entry}/>'));});
 
@@ -127,7 +127,8 @@ test('overview national awards preserve column relationships, row citations and 
  assert.ok(region);assert.ok(region[1].includes('tabindex="0"'));assert.ok(region[1].includes('role="region"'));assert.ok(region[1].includes('aria-labelledby="national-awards-caption"'));
  assert.ok(region[2].includes('<caption id="national-awards-caption">Selected National Film Awards in this series — award years, not release dates</caption>'));
  assert.deepEqual([...region[2].matchAll(/<th scope="col">([\s\S]*?)<\/th>/g)].map(m=>m[1]),['Film','Recognition','Award year and edition','Filmmakers to explore']);
- const rows=[...region[2].matchAll(/<tbody>([\s\S]*?)<\/tbody>/g)].flatMap(m=>[...m[1].matchAll(/<tr>([\s\S]*?)<\/tr>/g)].map(r=>r[1]));assert.equal(rows.length,6);
+ const rows=[...region[2].matchAll(/<tbody>([\s\S]*?)<\/tbody>/g)].flatMap(m=>[...m[1].matchAll(/<tr>([\s\S]*?)<\/tr>/g)].map(r=>r[1]));assert.equal(rows.length,7);
+ assert.ok(region[2].includes("Lahari"));
  for(const row of rows){assert.ok(row.includes('scope="row"'));assert.ok(/data-footnote-ref|href="#fn/.test(row),'award row retains source citation');}
  assert.equal((html.match(/id="national-awards-caption"/g)||[]).length,1);
  for(const other of cinema.articles.filter(a=>a.slug!=='odia-cinema'))assert.ok(!cinemaArticle(other).fullHTML.includes('national-awards-caption'),other.slug+' table remains unchanged');
@@ -148,12 +149,33 @@ test('reading order is coherent across parts, callbacks preserve citations, imag
  }
 });
 
-test('author introduction precedes overview and preserves the five-part collection',()=>{
- const first=cinema.articles[0];assert.equal(first.slug,'the-question-that-brought-me-here');assert.equal(cinema.articles[1].slug,'odia-cinema');assert.equal(cinema.parts.length,5);assert.equal(cinema.parts[0].chapters[0],first.slug);assert.equal(first.hero.kind,'author-portrait');assert.equal(first.images[0].original_sha256,hash(fs.readFileSync(path.join(root,first.hero.path))));
+test('author introduction precedes overview and preserves the expanded collection',()=>{
+ const first=cinema.articles[0];assert.equal(first.slug,'the-question-that-brought-me-here');assert.equal(cinema.articles[1].slug,'odia-cinema');assert.equal(cinema.parts.length,7);assert.equal(cinema.parts[0].chapters[0],first.slug);assert.equal(first.hero.kind,'author-portrait');assert.equal(first.images[0].original_sha256,hash(fs.readFileSync(path.join(root,first.hero.path))));
  const out=cinemaArticle(first);assert.ok(out.article.html.includes('How could I help put money in writers’ pockets?'));assert.ok(out.readingLinks.some(link=>link.href==='/cinema/odia-cinema/'));assert.ok(!out.fullHTML.includes('Portrait supplied by Ahimanikya Satapathy; watercolor treatment.'));assert.ok(!out.fullHTML.includes('Image credit'));assert.ok(first.hero.alt.includes('watercolor-treated'));
 });
 
-test('current review book downloads identify date, edition and exact bytes',()=>{assert.equal(cinema.review_books.length,2);for(const b of cinema.review_books){const receipt=JSON.parse(fs.readFileSync(path.join(root,'kb/records/cinema-unified-footnotes-2026-10-27.json'),'utf8')).build_results.editions.find(e=>e.edition===b.edition);assert.ok(receipt);assert.equal(b.sha256,receipt.sha256);assert.equal(b.bytes,receipt.bytes);assert.equal(b.pages,receipt.pages);assert.equal(b.file,'https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-27/'+path.basename(receipt.path));}const page=fs.readFileSync(path.join(site,'src/pages/cinema/book.astro'),'utf8');assert.ok(page.includes('Current review edition · 27 October 2026'));assert.ok(page.includes('Earlier published edition · 26 October 2026'));assert.ok(page.includes('cinema.review_books.map'));});
+test('current review books match the reviewed release manifest and retain both archives',()=>{
+ const manifest=JSON.parse(fs.readFileSync(path.join(root,'outputs/cinema-publication-readiness-20261030/book-release-manifest.json'),'utf8'));
+ assert.equal(manifest.edition_date,'2026-10-30');assert.equal(manifest.readings,41);
+ assert.equal(cinema.review_books.length,2);const releaseBases=new Set();
+ for(const b of cinema.review_books){
+  const reviewed=manifest.assets.find(a=>a.edition===b.edition);assert.ok(reviewed,b.edition);
+  for(const key of ['sha256','bytes','pages'])assert.equal(b[key],reviewed[key],b.edition+' '+key);
+  const url=new URL(b.file);assert.equal(url.origin,'https://github.com');assert.equal(url.search,'');assert.equal(url.hash,'');
+  assert.match(url.pathname,/^\/ahimanikya\/project-odisha\/releases\/download\/[A-Za-z0-9._-]+\/[^/]+\.pdf$/);
+  assert.equal(path.posix.basename(url.pathname),reviewed.filename);releaseBases.add(path.posix.dirname(url.pathname));
+ }
+ assert.equal(releaseBases.size,1);
+ const page=fs.readFileSync(path.join(site,'src/pages/cinema/book.astro'),'utf8');
+ assert.ok(page.includes('Available PDF edition · 30 October 2026'));assert.ok(page.includes('41 readings'));
+ for(const date of ['27 October 2026','26 October 2026'])assert.ok(page.includes('Earlier published edition · '+date));
+ for(const archived of manifest.expected_previous_review_books){
+  assert.ok(page.includes('href="'+archived.file+'"'));assert.ok(!cinema.review_books.some(b=>b.file===archived.file));
+  assert.deepEqual(cinema.archived_review_books.find(b=>b.file===archived.file),archived);
+ }
+ for(const name of ['odia-cinema-a-living-screen.pdf','odia-cinema-a-living-screen-print.pdf'])assert.ok(page.includes('https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-26/'+name));
+ assert.ok(page.includes('cinema.review_books.map'));assert.ok(page.includes('not a printer-specific press-ready PDF'));assert.ok(page.includes('not tagged accessibility editions'));
+});
 
 test('image attributions continue the regular source-note sequence with matching native returns',()=>{
  let total=0;
@@ -171,7 +193,7 @@ test('image attributions continue the regular source-note sequence with matching
   assert.equal(new Set(sourceIds).size,sourceIds.length);
   for(const [,caption]of html.matchAll(/<figcaption>([\s\S]*?)<\/figcaption>/g))assert.ok(!/>\s*(?:Photo credit|Image credit)\s*</.test(caption));
  }
- assert.equal(total,13,'all required image attributions retained in regular notes');
+ assert.equal(total,19,'all required image attributions retained in regular notes');
 });
 
 test('overview keeps performer profiles, dated scoped counts and music ahead of cross-language recognition',()=>{
@@ -185,4 +207,20 @@ test('overview keeps performer profiles, dated scoped counts and music ahead of 
  assert.ok(table.includes('language breakdown unspecified'));
  assert.ok(table.includes('Hindi film Naya Zahar named'));
  for(const note of ['performer-bijay','performer-aparajita-production','count-siddhanta','music-chitta-collaboration'])assert.ok(html.includes(`id="user-content-fn-${note}"`));
+});
+
+
+test('publication scope includes every current cinema reading and complete image',()=>{
+ const coast=JSON.parse(fs.readFileSync(path.join(site,'editions/coast.json'),'utf8'));
+ const search=JSON.parse(fs.readFileSync(path.join(site,'editions/search-candidate.json'),'utf8'));
+ for(const entry of cinema.articles){
+  assert.equal(coast.routes.filter(route=>route===entry.route).length,1,entry.slug+' publication route');
+  const decisions=search.pages.filter(page=>page.route===entry.route);
+  assert.equal(decisions.length,1,entry.slug+' explicit search decision');
+  assert.equal(decisions[0].decision,'hold',entry.slug+' remains outside approved search launch');
+  for(const image of entry.images){
+   assert.equal(coast.downloads.filter(file=>file===image.file).length,1,entry.slug+' complete image download');
+   assert.ok(fs.existsSync(path.join(site,'public',image.file)),entry.slug+' complete image exists');
+  }
+ }
 });

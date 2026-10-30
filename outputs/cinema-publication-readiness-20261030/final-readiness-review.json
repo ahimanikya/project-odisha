@@ -1,0 +1,93 @@
+{
+  "status": "PASS final local readiness; explicit release actions remain outstanding",
+  "scope": "Final independent read-only candidate delta; no build, upload, activation or publication executed.",
+  "artifact_checks": {
+    "routes": 41,
+    "local_links_and_fragment_checks": 3776,
+    "missing_destinations": 0,
+    "unique_cinema_asset_urls_checked": 179,
+    "publication_bytes": 615608991,
+    "source_files": "All41 unchanged byte-for-byte against reviewed source checkout.",
+    "PDFs": "Both exact reviewed localPDF hashes match release manifest.",
+    "tests": "Coordinator receipts report653full/535coast; inspected relevant changed assertions rather than rerunning suites."
+  },
+  "activation_review": {
+    "verdict": "PASS",
+    "verified_guards": [
+      "Default local verification makes no remote request or mutation.",
+      "Requires explicit apply plus exact HTTPS ProjectOdishaGitHub release base.",
+      "Verifies both localPDF byte sizes/hashes, all41 canonical bindings/order and narrative plan.",
+      "Checks existing book page SHA and previous book metadata baseline.",
+      "Remote assets require successful HTTP, allowed HTTPS final host, bounded size and exactSHA256. Both verified before proposing/writing metadata.",
+      "Explicit apply rechecks concurrent metadata/page/source/plan changes; rolls metadata back if page write fails.",
+      "No upload/Git/build/PDF mutation in helper.",
+      "Proposed page preserves both older editions, distinct date-specific download labels, untagged-PDF caveat and reading-edition printing limits; no blanket high-resolution claim."
+    ],
+    "test_evidence": "Seven fixture tests inspected; remote success is explicitly simulated, not live proof."
+  },
+  "record_review": {
+    "queued_status": "Correctly separates delivery queued from editorial_stage reviewed_local_draft; no newhumanapproval orpublication claim.",
+    "remaining_issue": {
+      "severity": "P2 record consistency",
+      "file": "kb/records/article-editorial-rollout.json",
+      "field": "items[].source_sha256",
+      "affected": [],
+      "fix": "Refresh five current source bindings or explicitly label them historical; no public content/PDF rebuild needed.",
+      "resolution": "Resolved: current hashes verified and old values retained in reconciliation."
+    }
+  },
+  "release_actions_not_done": [
+    "Actual PDF release upload and byte verification at chosen release base.",
+    "Explicit guarded link activation and subsequent final build/publication checks.",
+    "Deployment and live route/assets/download verification."
+  ],
+  "binding_hashes": {
+    "outputs/cinema-publication-readiness-20261030/activate-book-release.mjs": "425756f70af3bd47beba46e7cf7485ca2dfc1530f3937b658298299fa7432234",
+    "outputs/cinema-publication-readiness-20261030/book-release-manifest.json": "f4eee1b92252e1c1e223c86ae712f78302cc74ec7f61184a051746cea10a64ce",
+    "projects/site/src/data/cinema.json": "3129845cf81b9b6dd26759f4b7d6911c867f2f372bc8944891a18e0e73b4bba7",
+    "kb/records/article-editorial-rollout.json": "251016adc3e69a1d9f5dfaced5b8d048934f68bc6c80c7804d43ed013865ad96"
+  },
+  "limits": [
+    "Static artifact/guard inspection is not live availability or fresh browser accessibility certification.",
+    "Approved historical/editorial limitations remain explicit; no broad re-audit reopened."
+  ],
+  "human_approval_claimed": false,
+  "publication_performed": false,
+  "final_followup": {
+    "status": "PASS",
+    "checks": [
+      {
+        "route": "/people/gopal-chhotray/",
+        "sha256": "10315a831e1abeb4ede15939d69d5fb67621690b2c4646f78c72ce31b9e4349f",
+        "matches": true,
+        "old_hash_retained_in_reconciliation": true
+      },
+      {
+        "route": "/people/basanta-kumari-patnaik/",
+        "sha256": "d8c4a678b0ba2279ce863a370745a30fe1874a25b07d419160d95348097e9da2",
+        "matches": true,
+        "old_hash_retained_in_reconciliation": true
+      },
+      {
+        "route": "/people/prafulla-kar/",
+        "sha256": "21c95a00b1393b62224bdad4dfc347ed49e1f9244a65dcf87eaadf4d54768d39",
+        "matches": true,
+        "old_hash_retained_in_reconciliation": true
+      },
+      {
+        "route": "/people/pranab-patnaik/",
+        "sha256": "1b73b8d130172adba2763ddc5469ec87e56f40369ec1f5f4b9a787572906bf61",
+        "matches": true,
+        "old_hash_retained_in_reconciliation": true
+      },
+      {
+        "route": "/cinema/who-keeps-a-film-alive/",
+        "sha256": "5932e5bbaad1ffe73a5e6be5bb9d9f55375b94436179275e620681fa63df9dc4",
+        "matches": true,
+        "old_hash_retained_in_reconciliation": true
+      }
+    ],
+    "rollout_sha256": "251016adc3e69a1d9f5dfaced5b8d048934f68bc6c80c7804d43ed013865ad96",
+    "scope": "Record-only correction; prior artifact/source/PDF and activation verdict unchanged. Upload/deployment/live verification remain outstanding."
+  }
+}

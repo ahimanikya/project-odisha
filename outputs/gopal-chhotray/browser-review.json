@@ -1,0 +1,39 @@
+{
+  "result": "PASS",
+  "date": "2026-10-29",
+  "route": "http://127.0.0.1:8769/people/gopal-chhotray/",
+  "viewports": [
+    {
+      "width": 1280,
+      "height": 900,
+      "document_width": 1280,
+      "caption_left": 270,
+      "image_left": 270
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "document_width": 390,
+      "caption_left": 22,
+      "image_left": 22
+    }
+  ],
+  "checks": [
+    "Unique illustration loaded with aligned caption and native aspect ratio.",
+    "Title, byline, series breadcrumb and six numbered source notes rendered.",
+    "Contents disclosure opens to article headings on phone.",
+    "Source note1 and native return link navigate to the correct anchors.",
+    "Series hub lists33 readings and Gopal entry uses its own image; entry navigated to new route.",
+    "Reading sequence puts literature-and-screen before Gopal and AIR Cuttack after.",
+    "Viewport override reset after review."
+  ],
+  "screenshots": [
+    "outputs/gopal-chhotray/article-preview.png",
+    "outputs/gopal-chhotray/mobile-preview.png"
+  ],
+  "limits": [
+    "No audio playback tested.",
+    "No publication or PDF regeneration.",
+    "Not an exhaustive accessibility audit."
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "status": "original_portrait_layout_restored_revision_flag_retained",
+  "files": {
+    "projects/site/src/components/CinemaReading.astro": "8478a3fe840a4d13d40d9b4dfa0216915aa671693d50baf17ca3f03d89a888b4",
+    "output/pdf/build_book.py": "bfa665ebc7bac6f16479a920a93db012fb0dc209c3f1c6367b553290e9b34b27"
+  },
+  "web": {
+    "position": "Original hero placement restored",
+    "size": "Original full natural proportions",
+    "intro_specific_override": false
+  },
+  "book": {
+    "portrait_width_pt": "Full text width per original figure function",
+    "position": "Original hero placement restored, including separate image leaf when opener requires it",
+    "image_association_retained": true,
+    "covers_unchanged": true,
+    "new_flag": "--revision intro-revised",
+    "digital_output": "output/pdf/odia-cinema-a-living-screen-2026-10-30-intro-revised.pdf",
+    "print_output": "output/pdf/odia-cinema-a-living-screen-print-2026-10-30-intro-revised.pdf",
+    "temp_root": "tmp/pdfs/2026-10-30-intro-revised/{digital,print}",
+    "receipt_name": "book-build-2026-10-30-intro-revised.json",
+    "page_map": "Pass --page-map tmp/pdfs/2026-10-30-intro-revised/print/page-map.json on subsequent print passes until stable.",
+    "backward_compatible": "Omit --revision to retain existing date-only naming.",
+    "caption_space_after_pt": "Original caption style"
+  },
+  "checks": {
+    "python_ast": "PASS",
+    "cli_help": "PASS",
+    "astro_frontmatter_js_syntax": "PASS",
+    "standalone_astro_compiler": "Unavailable at direct @astrojs/compiler import; root full build still required.",
+    "site_build": "Not run by assignment",
+    "pdf_build": "Not run by assignment",
+    "visual_review": "Pending root build/render"
+  },
+  "guidance": {
+    "skill": "/Users/ahimanikya/.codex/skills/modern-web-guidance/SKILL.md",
+    "query": "size responsive images",
+    "retrieved": "/tmp/cinema-intro-guidance.txt",
+    "applied": [
+      {
+        "id": "responsive-design",
+        "quote": "Use `aspect-ratio` for media elements (like `<img>` and `<video>`) to reserve space during loading and prevent Cumulative Layout Shift (CLS).",
+        "application": "Retained existing native aspect-ratio variable and intrinsic image dimensions while reducing only intro figure width."
+      },
+      {
+        "id": "css",
+        "quote": "Overrides are fine for specialization",
+        "application": "Intro-only ancestor class and hero selector specialize sizing without resetting shared figure styles."
+      }
+    ]
+  },
+  "pdf_marker": "Not run; root owns marker and PDF authoring execution.",
+  "publication": false,
+  "qa_correction": "User preferred original full image; reverted only compact portrait placement/sizing code. Revision filename support and existing provenance wording retained.",
+  "root_quality_polish": "Intro uses existing body-tight spacing (6pt after each paragraph; same font and leading), retaining final poem and return together."
+}

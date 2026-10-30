@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-17T03:38:12.459503+00:00",
-  "updated_at": "2026-10-29T23:37:44.576073+00:00",
+  "updated_at": "2026-10-30T05:12:23.835449+00:00",
   "authorization": "POD-DEC-2026101702",
   "work_id": "POD-WORK-302",
   "reference_route": "/stories/nimuhi-temple/",
@@ -12561,7 +12561,14 @@
         "records/cinema-publication-2026-10-26.json"
       ],
       "blocker": null,
-      "publication_receipt": "records/cinema-publication-2026-10-26.json"
+      "publication_receipt": "records/cinema-publication-2026-10-26.json",
+      "latest_local_revision": {
+        "record": "records/cinema-surya-jury-2026-10-29.json",
+        "date": "2026-10-30",
+        "status": "reviewed_local_revision",
+        "source_sha256": "7804bc96975fa8ef14660f3513693753a6040838e95833fc5bceee4c16256d1e",
+        "published": false
+      }
     },
     {
       "id": "POD-EDIT-791",
@@ -12817,7 +12824,10 @@
         "records/cinema-economics-delivery-observed-2026-10-26.json"
       ],
       "blocker": null,
-      "publication_receipt": "records/cinema-economics-delivery-observed-2026-10-26.json"
+      "publication_receipt": "records/cinema-economics-delivery-observed-2026-10-26.json",
+      "revision_status": "local_review_ready",
+      "latest_local_revision": "records/cinema-futures-open-recommendations-2026-10-30.json",
+      "source_sha256": "4c45967b86a75627c67257aee8099e3b1ee160f08b1d32e319b5eea66e126276"
     },
     {
       "id": "POD-EDIT-802",
@@ -13099,7 +13109,9 @@
       ],
       "blocker": null,
       "publication_receipt": "records/cinema-lives-and-future-publication-2026-10-26.json",
-      "revision_status": "published_verified"
+      "revision_status": "local_review_ready",
+      "latest_local_revision": "records/cinema-futures-open-recommendations-2026-10-30.json",
+      "source_sha256": "ad4245f846c1b3c21770ea05e77e23493fe0fc6d6d4edd61019f67ee790da5c0"
     },
     {
       "id": "POD-EDIT-PURI-PROJECT-20261026",
@@ -13274,21 +13286,29 @@
       "route": "/cinema/the-question-that-brought-me-here/",
       "title": "The Question That Brought Me Here",
       "status": "queued",
-      "scope": "Author-approved personal essay integrated and reviewed locally in series and bothbooks; queued for futurepublication.",
+      "scope": "Authorized refinement of author introduction; full portrait retained after user correction; book/site previews only.",
       "source_template": "projects/site/src/pages/cinema/[slug].astro",
       "checks": {
-        "authorship": true,
-        "language": true,
-        "formatting": true,
-        "footnotes": true,
-        "images": true,
-        "kb_alignment": true,
-        "responsive": true
+        "content": "PASS — Drishti, final source hash; author testimony, intent/outcome distinction and preservation thread preserved.",
+        "independent_qa": "outputs/cinema-intro-refinement/review.json",
+        "site": "PASS — 555-page build; 978-page disclosure scan, zero violations.",
+        "tests": "PASS — 27 existing focused checks.",
+        "browser": "PASS — full600px desktop portrait,346px phone portrait in390px viewport; no horizontal overflow; captions aligned; source note/return exercised; viewport reset.",
+        "book_structure": "PASS — 41chapters,47imageplacements,382notes,531citationpairs; stable print page references; valid internal links, no offpage text.",
+        "book_text": "PASS with existing108 documented extraction/caption/navigation residuals unchanged; zero introduction omissions.",
+        "book_visual": "PASS — affected first12page contacts, fullsize closing and Poppler print closing; full portrait retained; closing poem kept with final paragraphs. Unchanged40readings supported by source-hash comparison and prior full-book review.",
+        "record_consistency": "PASS — autonomous programme, team assignment and research map validators."
       },
       "evidence": [
-        "records/cinema-author-introduction-2026-10-27.json"
+        "records/cinema-author-introduction-2026-10-27.json",
+        "records/cinema-intro-refinement-2026-10-30.json"
       ],
-      "publication_receipt": null
+      "publication_receipt": null,
+      "source_sha256": "8aacfe9736b59b89db17c036ec19bf7563451f752e675f1ccae85df076277d53",
+      "human_review_claimed": false,
+      "publication": false,
+      "editorial_stage": "reviewed_local_draft",
+      "next_action": "Publish reviewed cinema candidate only after the release workflow and actual verification."
     },
     {
       "id": "POD-EDIT-CINEMA-READING-GUIDE-20261028",
@@ -13792,6 +13812,318 @@
       ],
       "blocker": null,
       "exclusion_reason": "Individually source-reviewed expression in the Dhaga book collection; not a sustained research article or programme completion. Public delivery remains subject to the expansion release receipt."
+    },
+    {
+      "id": "POD-EDIT-GOPAL-CHHOTRAY-20261029",
+      "route": "/people/gopal-chhotray/",
+      "title": "Gopal Chhotray: Words Made for Voices",
+      "status": "queued",
+      "scope": "Founder-requested cinema companion; not counted toward general article programme",
+      "source": "kb/research/people/gopal-chhotray.md",
+      "checks": {
+        "independent_review": "pass",
+        "targeted_checks": 23,
+        "site_build": "pass",
+        "browser": "pass",
+        "map": "pass"
+      },
+      "evidence": [
+        "records/gopal-chhotray-story-2026-10-29.json",
+        "records/cinema-deep-review-2026-10-30.json"
+      ],
+      "blocker": null,
+      "human_review_claimed": false,
+      "publication": false,
+      "source_sha256": "10315a831e1abeb4ede15939d69d5fb67621690b2c4646f78c72ce31b9e4349f",
+      "editorial_stage": "reviewed_local_draft",
+      "next_action": "Publish reviewed cinema candidate only after the release workflow and actual verification."
+    },
+    {
+      "id": "POD-EDIT-BASANTA-KUMARI-20261029",
+      "route": "/people/basanta-kumari-patnaik/",
+      "title": "Basanta Kumari Patnaik: Writing, Publishing and the Screen",
+      "status": "queued",
+      "scope": "Founder-requested cinema companion; not counted toward general article programme",
+      "source": "kb/research/people/basanta-kumari-patnaik.md",
+      "checks": {
+        "independent_review": "pass",
+        "targeted_checks": 23,
+        "site_build": "pass",
+        "browser": "pass",
+        "map": "pass"
+      },
+      "evidence": [
+        "records/basanta-kumari-story-2026-10-29.json",
+        "records/cinema-deep-review-2026-10-30.json"
+      ],
+      "blocker": null,
+      "human_review_claimed": false,
+      "publication": false,
+      "source_sha256": "d8c4a678b0ba2279ce863a370745a30fe1874a25b07d419160d95348097e9da2",
+      "editorial_stage": "reviewed_local_draft",
+      "next_action": "Publish reviewed cinema candidate only after the release workflow and actual verification."
+    },
+    {
+      "id": "POD-EDIT-LEARNING-CINEMA-20261029",
+      "route": "/cinema/learning-cinema-together/",
+      "title": "Learning Cinema Together",
+      "status": "queued",
+      "scope": "Founder-requested cinema companion; not counted toward general article programme",
+      "source": "kb/research/culture/cinema-series/learning-cinema-together.md",
+      "checks": {
+        "independent_review": "PASS — content, evidence, revised image, integration and final title spellings",
+        "build": "PASS — 549 Astro pages; site build exit 0",
+        "tests": "PASS — 23 targeted and regression tests",
+        "research_map": "PASS — 1810 records, 71 tasks, no errors",
+        "public_disclosures": "PASS — 972 HTML pages, no violations",
+        "browser": "PASS — desktop 1280×900 and phone 390×844; image/card, aligned captions, source links and return, bilingual titles"
+      },
+      "evidence": [
+        "records/learning-cinema-together-2026-10-29.json"
+      ],
+      "blocker": null,
+      "human_review_claimed": false,
+      "publication": false,
+      "source_sha256": "671cd9a8aa4078d0195f181db989798dec39b6a17c340210587983a445007525",
+      "editorial_stage": "reviewed_local_draft",
+      "next_action": "Publish reviewed cinema candidate only after the release workflow and actual verification."
+    },
+    {
+      "id": "POD-EDIT-KALINDI-CHARAN-20261029",
+      "route": "/people/kalindi-charan-panigrahi/",
+      "title": "Kalindi Charan Panigrahi: A Writer Among People",
+      "status": "queued",
+      "scope": "Founder-requested cinema writer profile; not counted toward general article programme",
+      "source": "kb/research/people/kalindi-charan-panigrahi.md",
+      "checks": {
+        "independent_review": "PASS — final prose, evidence, image and static integration",
+        "build": "PASS — 550 Astro pages; exit 0",
+        "tests": "PASS — 23 targeted and regression checks",
+        "research_map": "PASS — 1813 records, 71 tasks, no errors",
+        "public_disclosures": "PASS — 973 HTML pages, no violations",
+        "browser": "PASS — desktop and phone image, caption alignment, notes and return, collection card and reading order"
+      },
+      "evidence": [
+        "records/kalindi-charan-story-2026-10-29.json"
+      ],
+      "blocker": null,
+      "human_review_claimed": false,
+      "publication": false,
+      "source_sha256": "77bc4d1d5357fbc68b51047547117336c5664174a25441cfe4d0ddace83ff8f3",
+      "editorial_stage": "reviewed_local_draft",
+      "next_action": "Publish reviewed cinema candidate only after the release workflow and actual verification."
+    },
+    {
+      "id": "POD-EDIT-CINEMA-MUSIC-20261030",
+      "route": "/cinema/cinema-music/",
+      "title": "Odia Cinema Music: The Songs We Carry Home",
+      "status": "queued",
+      "scope": "Founder-requested cinema music readings; not counted toward general article programme",
+      "source": "kb/research/culture/cinema-series/cinema-music.md",
+      "checks": {
+        "independent_review": "PASS — four sequential source/editorial reviews and final static integration; outputs/cinema-music/review.json",
+        "build": "PASS — 554 Astro pages; exit 0",
+        "tests": "PASS — 27 targeted and regression checks",
+        "research_map": "PASS — 1818 records, 71 tasks, no errors",
+        "public_disclosures": "PASS — 977 HTML pages, no violations",
+        "browser": "PASS — all four routes at desktop 1280 and phone 390; loaded unique portraits, aligned captions, numeric image notes; Tapu note return exercised; collection cards consistent and crops refined."
+      },
+      "evidence": [
+        "records/cinema-music-2026-10-30.json"
+      ],
+      "blocker": null,
+      "human_review_claimed": false,
+      "publication": false,
+      "source_sha256": "8a5d54384a14ca58aedf8e9d38b2d0a642aef62a7b7570b612c09d3a158423e1",
+      "editorial_stage": "reviewed_local_draft",
+      "next_action": "Publish reviewed cinema candidate only after the release workflow and actual verification."
+    },
+    {
+      "id": "POD-EDIT-PRAFULLA-KAR-20261030",
+      "route": "/people/prafulla-kar/",
+      "title": "Prafulla Kar: A Composer in the Company of Voices",
+      "status": "queued",
+      "scope": "Founder-requested cinema music readings; not counted toward general article programme",
+      "source": "kb/research/people/prafulla-kar.md",
+      "checks": {
+        "independent_review": "PASS — four sequential source/editorial reviews and final static integration; outputs/cinema-music/review.json",
+        "build": "PASS — 554 Astro pages; exit 0",
+        "tests": "PASS — 27 targeted and regression checks",
+        "research_map": "PASS — 1818 records, 71 tasks, no errors",
+        "public_disclosures": "PASS — 977 HTML pages, no violations",
+        "browser": "PASS — all four routes at desktop 1280 and phone 390; loaded unique portraits, aligned captions, numeric image notes; Tapu note return exercised; collection cards consistent and crops refined."
+      },
+      "evidence": [
+        "records/cinema-music-2026-10-30.json",
+        "records/cinema-deep-review-2026-10-30.json"
+      ],
+      "blocker": null,
+      "human_review_claimed": false,
+      "publication": false,
+      "source_sha256": "21c95a00b1393b62224bdad4dfc347ed49e1f9244a65dcf87eaadf4d54768d39",
+      "editorial_stage": "reviewed_local_draft",
+      "next_action": "Publish reviewed cinema candidate only after the release workflow and actual verification."
+    },
+    {
+      "id": "POD-EDIT-PRANAB-PATNAIK-20261030",
+      "route": "/people/pranab-patnaik/",
+      "title": "Pranab Patnaik: A Voice That Kept Learning",
+      "status": "queued",
+      "scope": "Founder-requested cinema music readings; not counted toward general article programme",
+      "source": "kb/research/people/pranab-patnaik.md",
+      "checks": {
+        "independent_review": "PASS — four sequential source/editorial reviews and final static integration; outputs/cinema-music/review.json",
+        "build": "PASS — 554 Astro pages; exit 0",
+        "tests": "PASS — 27 targeted and regression checks",
+        "research_map": "PASS — 1818 records, 71 tasks, no errors",
+        "public_disclosures": "PASS — 977 HTML pages, no violations",
+        "browser": "PASS — all four routes at desktop 1280 and phone 390; loaded unique portraits, aligned captions, numeric image notes; Tapu note return exercised; collection cards consistent and crops refined."
+      },
+      "evidence": [
+        "records/cinema-music-2026-10-30.json",
+        "records/cinema-deep-review-2026-10-30.json"
+      ],
+      "blocker": null,
+      "human_review_claimed": false,
+      "publication": false,
+      "source_sha256": "1b73b8d130172adba2763ddc5469ec87e56f40369ec1f5f4b9a787572906bf61",
+      "editorial_stage": "reviewed_local_draft",
+      "next_action": "Publish reviewed cinema candidate only after the release workflow and actual verification."
+    },
+    {
+      "id": "POD-EDIT-TAPU-MISHRA-20261030",
+      "route": "/people/tapu-mishra/",
+      "title": "Tapu Mishra: A Singer Choosing Her Own Work",
+      "status": "queued",
+      "scope": "Founder-requested cinema music readings; not counted toward general article programme",
+      "source": "kb/research/people/tapu-mishra.md",
+      "checks": {
+        "independent_review": "PASS — four sequential source/editorial reviews and final static integration; outputs/cinema-music/review.json",
+        "build": "PASS — 554 Astro pages; exit 0",
+        "tests": "PASS — 27 targeted and regression checks",
+        "research_map": "PASS — 1818 records, 71 tasks, no errors",
+        "public_disclosures": "PASS — 977 HTML pages, no violations",
+        "browser": "PASS — all four routes at desktop 1280 and phone 390; loaded unique portraits, aligned captions, numeric image notes; Tapu note return exercised; collection cards consistent and crops refined."
+      },
+      "evidence": [
+        "records/cinema-music-2026-10-30.json"
+      ],
+      "blocker": null,
+      "human_review_claimed": false,
+      "publication": false,
+      "source_sha256": "1b8e13c25e690e59e6d41f5f680c4353240114025828351125ee2160601b7777",
+      "editorial_stage": "reviewed_local_draft",
+      "next_action": "Publish reviewed cinema candidate only after the release workflow and actual verification."
+    },
+    {
+      "id": "POD-EDIT-CINEMA-PRESERVATION-20261030",
+      "route": "/cinema/who-keeps-a-film-alive/",
+      "title": "Who Keeps a Film Alive?",
+      "status": "queued",
+      "scope": "Founder-requested cinema series; not counted toward general article programme",
+      "source": "kb/research/culture/cinema-series/who-keeps-a-film-alive.md",
+      "source_sha256": "5932e5bbaad1ffe73a5e6be5bb9d9f55375b94436179275e620681fa63df9dc4",
+      "checks": {
+        "independent_review": "PASS — source/editorial, source hash, integration and final PDF text/link binding; outputs/cinema-preservation/review.json",
+        "build": "PASS — 555 Astro pages; exit 0",
+        "focused_tests": "PASS — 27 targeted/regression checks",
+        "public_disclosures": "PASS — 978 HTML pages, no violations",
+        "research_map": "PASS — 1821 records, 71 tasks, no errors",
+        "browser": "PASS — article and four-path reading guide at 1280 desktop and 390 phone; no horizontal overflow, aligned caption, numbered source link and return exercised; viewport reset.",
+        "book_structure": "PASS — both editions have 41 chapters, 383 notes, 532 citation pairs and 47 image placements; no invalid destinations or off-page text.",
+        "book_text": "PASS with recorded extraction adjudication — per edition 103 Odia extraction residuals checked against complete surrounding Latin/digit sequences and representative Odia visual samples; six caption/navigation exceptions documented. Raw exact-string checker intentionally retains residuals; no unexplained substantive omissions.",
+        "book_visual": "PASS — independent digital contact review and repaired portrait delta; coordinator all 23 print contact sheets plus selected full-size pages, final Poppler pages 19/53/118/214; covers preserved. Not a full copy edit of every glyph.",
+        "previous_editions": "PASS — 27 October digital and print SHA256 unchanged."
+      },
+      "evidence": [
+        "records/cinema-preservation-2026-10-30.json",
+        "records/cinema-deep-review-2026-10-30.json"
+      ],
+      "blocker": null,
+      "human_review_claimed": false,
+      "publication": false,
+      "editorial_stage": "reviewed_local_draft",
+      "next_action": "Publish reviewed cinema candidate only after the release workflow and actual verification."
+    },
+    {
+      "id": "POD-EDIT-CINEMA-AKSHAYA-MOHANTY-20261030",
+      "route": "/people/akshaya-mohanty/",
+      "title": "Akshaya Mohanty: Khoka Bhai and the art of singing to people",
+      "status": "queued",
+      "editorial_stage": "reviewed_local_draft",
+      "scope": "Cinema series reading; no autonomous programme increment",
+      "source": "kb/research/people/akshaya-mohanty.md",
+      "source_sha256": "298b1cd2f24e20293b6ba95f5b01f3f08b36624ed10a5912d1cfcd6612d85476",
+      "checks": {
+        "local_review": "kb/records/cinema-deep-review-2026-10-30.json"
+      },
+      "evidence": [
+        "records/cinema-deep-review-2026-10-30.json",
+        "records/cinema-publication-readiness-2026-10-30.json"
+      ],
+      "publication_receipt": null,
+      "human_review_claimed": false,
+      "publication": false
+    },
+    {
+      "id": "POD-EDIT-CINEMA-SURYA-DEO-20261030",
+      "route": "/people/surya-deo/",
+      "title": "Surya Deo: keeping a cinema’s memory alive",
+      "status": "queued",
+      "editorial_stage": "reviewed_local_draft",
+      "scope": "Cinema series reading; no autonomous programme increment",
+      "source": "kb/research/people/surya-deo.md",
+      "source_sha256": "f566e26208d6ea38bf4cb4618d7e8534c2c7061b3cbfe2fe33b04be46aa1b769",
+      "checks": {
+        "local_review": "kb/records/cinema-deep-review-2026-10-30.json"
+      },
+      "evidence": [
+        "records/cinema-deep-review-2026-10-30.json",
+        "records/cinema-publication-readiness-2026-10-30.json"
+      ],
+      "publication_receipt": null,
+      "human_review_claimed": false,
+      "publication": false
+    },
+    {
+      "id": "POD-EDIT-CINEMA-SEARCHING-FOR-SITA-BIBAHA-20261030",
+      "route": "/cinema/searching-for-sita-bibaha/",
+      "title": "Searching for Sita Bibaha: the film beyond the missing print",
+      "status": "queued",
+      "editorial_stage": "reviewed_local_draft",
+      "scope": "Cinema series reading; no autonomous programme increment",
+      "source": "kb/research/culture/cinema-series/searching-for-sita-bibaha.md",
+      "source_sha256": "9e8eeab25fead317f223988c43c86f322cea9ddc93ecb9873b64f39648180586",
+      "checks": {
+        "local_review": "kb/records/cinema-deep-review-2026-10-30.json"
+      },
+      "evidence": [
+        "records/cinema-deep-review-2026-10-30.json",
+        "records/cinema-publication-readiness-2026-10-30.json"
+      ],
+      "publication_receipt": null,
+      "human_review_claimed": false,
+      "publication": false
+    },
+    {
+      "id": "POD-EDIT-CINEMA-READING-ODIA-CINEMA-20261030",
+      "route": "/cinema/reading-odia-cinema/",
+      "title": "Reading Odia Cinema: the books behind the screen",
+      "status": "queued",
+      "editorial_stage": "reviewed_local_draft",
+      "scope": "Cinema series reading; no autonomous programme increment",
+      "source": "kb/research/culture/cinema-series/reading-odia-cinema.md",
+      "source_sha256": "2a794a4bd8f9257733a7b01ed2135558d02077881d0df4c921f8717f97439b39",
+      "checks": {
+        "local_review": "kb/records/cinema-deep-review-2026-10-30.json"
+      },
+      "evidence": [
+        "records/cinema-deep-review-2026-10-30.json",
+        "records/cinema-publication-readiness-2026-10-30.json"
+      ],
+      "publication_receipt": null,
+      "human_review_claimed": false,
+      "publication": false
     }
   ]
 }

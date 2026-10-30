@@ -1,0 +1,32 @@
+{
+  "status": "Simulated fixture proposal only; not evidence of upload or live availability",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "real_local_validation": {
+    "source_bindings": 41,
+    "narrative_plan": "verified",
+    "pdf_hashes": "verified by default dry run"
+  },
+  "remote_verification": "SIMULATED ONLY",
+  "proposed_template": "---\nimport Shell from '../../layouts/Shell.astro';\nimport ArticleByline from '../../components/ArticleByline.astro';\nimport ArticleReadingPath from '../../components/ArticleReadingPath.astro';\nimport {cinema,picture} from '../../lib/cinema-article.mjs';\nimport '../../styles/article-reading.css';\nconst lead=cinema.articles.find(a=>a.slug==='odia-cinema'),hero=lead.images.find(i=>i.role==='title');\nconst mb=n=>(n/1000000).toFixed(1)+' MB';\n---\n<Shell title=\"Odia Cinema: A Living Screen — the book\" description=\"Download the connected digital and printable book about Odia cinema, literature, radio, television and the people making stories.\" active=\"explore\" related={false} shareImage={{src:hero.file,alt:lead.hero.alt,width:hero.width,height:hero.height}}>\n <article class=\"article-reading cinema-book\"><p><a href=\"/cinema/\">← The cinema readings</a></p><h1>Odia Cinema:<br/>A Living Screen</h1><p>Stories, People and the Places Between</p><ArticleByline author=\"Ahimanikya Satapathy\"/>\n\n  <p>The collection opens with <a href=\"/cinema/the-question-that-brought-me-here/\">The Question That Brought Me Here</a>, the author’s personal introduction. The online collection brings {cinema.articles.length} readings into {cinema.parts.length} parts, with connecting threads, a people guide, dated turning points and linked image credits.</p>\n  <h2>Available PDF edition · 30 October 2026</h2>\n  <p>These downloads contain the 41 readings in the 30 October review edition, with linked sources and image credits.</p>\n  <ul>{cinema.review_books.map(book=><li><a href={book.file}>{book.edition==='digital'?'Digital reading edition · 30 October 2026':'Printable reading edition · 30 October 2026'} — PDF, {mb(book.bytes)}</a>. {book.pages} pages. {book.edition==='digital'?'Linked contents, chapter references and sources.':'Mirrored margins, printed source URLs and credited images.'}</li>)}</ul>\n  <figure class=\"book-cover\"><img src=\"/assets/cinema/a-living-screen-cover-20261027.jpg\" width=\"800\" height=\"1199\" alt=\"Odia Cinema: A Living Screen, with a symbolic household scene on the front cover\" fetchpriority=\"high\"/><figcaption>Cover of Odia Cinema: A Living Screen.</figcaption></figure>\n  <p>The <a href=\"/cinema/\">online reading collection</a> offers the expanded sequence in accessible HTML. These PDF reading editions have bookmarks and links but are not tagged accessibility editions.</p>\n  <h2>Earlier published edition · 27 October 2026</h2><p>The 28-reading edition remains available as an archive.</p><ul><li><a href=\"https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-27/odia-cinema-a-living-screen-2026-10-27.pdf\">Digital reading edition · 27 October 2026 — PDF, 12.9 MB</a>. 176 pages.</li><li><a href=\"https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-27/odia-cinema-a-living-screen-print-2026-10-27.pdf\">Printable reading edition · 27 October 2026 — PDF, 132.4 MB</a>. 196 pages.</li></ul>\n  <h2>Earlier published edition · 26 October 2026</h2><p>The fourteen-chapter edition of 26 October 2026 remains available as an archive; it predates the current introduction and later readings.</p><ul><li><a href=\"https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-26/odia-cinema-a-living-screen.pdf\">Digital reading edition · 26 October 2026 — PDF, {mb(cinema.books[0].bytes)}</a>. Hosted as a Project Odisha release download. 95 pages, linked contents and sources.</li><li><a href=\"https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-26/odia-cinema-a-living-screen-print.pdf\">Printable reading edition · 26 October 2026 — PDF download, {mb(cinema.books[1].bytes)}</a>. Hosted as a Project Odisha release download. 106 pages, mirrored margins, printed source URLs and credited images.</li></ul>\n  <h2>Printing the book</h2><p>The print edition uses a 6 × 9 inch page. Print at 100% on matching stock, duplex with long-edge binding, or ask a print shop to impose and trim it to that size. For A4 or Letter home printing, choose fit-to-page and expect a different finished size. This is a reading edition, not a printer-specific press-ready PDF.</p>\n  <p>Downloadable PDF edition dated 30 October 2026; earlier published editions remain available above. Documentary images retain their credits and reuse terms; imagined illustrations are labelled. The book offers a sourced reading of this history, not a definitive account of every Odia film.</p>\n  <ArticleReadingPath links={[{href:'/cinema/',title:'Read the connected articles online'},{href:'/cinema/watch/',title:'Open the viewing room',description:'Source-hosted films and clips, with provider conditions made explicit.'}]}/>\n </article>\n</Shell>\n<style>.cinema-book{max-width:804px;padding-inline:32px}.cinema-book :global(img){max-width:100%;height:auto}.book-cover img{display:block;max-width:350px;margin-inline:auto}.book-cover figcaption{text-align:center}@media(max-width:600px){.cinema-book{padding-inline:22px}}</style>\n",
+  "proposed_metadata": [
+    {
+      "edition": "digital",
+      "file": "https://github.com/ahimanikya/project-odisha/releases/download/SIMULATED-TEST-NOT-UPLOADED/odia-cinema-a-living-screen-2026-10-30-open-possibilities.pdf",
+      "bytes": 30,
+      "sha256": "4206314b22c434ce40a513ce99cbe7d072ac03ede4c9529cee71dd3be5d0c7e7",
+      "pages": 235,
+      "status": "reviewed_release_asset"
+    },
+    {
+      "edition": "print",
+      "file": "https://github.com/ahimanikya/project-odisha/releases/download/SIMULATED-TEST-NOT-UPLOADED/odia-cinema-a-living-screen-print-2026-10-30-open-possibilities.pdf",
+      "bytes": 28,
+      "sha256": "6599ba373d6b730edb148ab57006581552d9a028e2424b017ab86a31e6619fa4",
+      "pages": 260,
+      "status": "reviewed_release_asset"
+    }
+  ]
+}

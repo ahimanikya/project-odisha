@@ -1,0 +1,103 @@
+{
+  "id": "POD-REC-LITERATURE-SCREEN-20261029",
+  "date": "2026-10-29",
+  "status": "reviewed_local_draft",
+  "request": "Deepen existing literature-to-cinema article and identify dedicated writer-profile priorities.",
+  "article": "kb/research/culture/cinema-series/literature-and-screen.md",
+  "one_active_article": true,
+  "published": false,
+  "human_review_claimed": false,
+  "scopes": {
+    "Disha/root": [
+      "kb/records/literature-and-screen-2026-10-29.json",
+      "kb/research/sources/literature-and-screen-expansion-2026-10-29.json",
+      "kb/research/culture/cinema-series/manifest.json:literature-and-screen entry",
+      "projects/site/src/data/cinema.json:literature-and-screen entry",
+      "kb research map and ledger additions"
+    ],
+    "Anvesha": [
+      "outputs/literature-and-screen-2026-10-29/writer-research.json"
+    ],
+    "Samanta": [
+      "outputs/literature-and-screen-2026-10-29/implementation-notes.json",
+      "kb/research/culture/cinema-series/literature-and-screen.md"
+    ],
+    "Drishti": [
+      "outputs/literature-and-screen-2026-10-29/qa.json"
+    ]
+  },
+  "preserve": [
+    "Other current local drafts and source evidence",
+    "Published site",
+    "Dated book PDFs and metadata",
+    "Existing unique illustration and responsive assets"
+  ],
+  "next_actions": [
+    "Author review of expanded article",
+    "Choose next dedicated writer profile; do not count research priorities as completed pages"
+  ],
+  "source_sha256": "5491c15a17f868bead10e6b4096cb5590b47d65cc87323cfb32f123fcb39ac34",
+  "narrative_word_count_whitespace_including_subheads": 1439,
+  "source_evidence": "kb/research/sources/literature-and-screen-expansion-2026-10-29.json",
+  "route": "/cinema/literature-and-screen/",
+  "preview": "http://127.0.0.1:8769/cinema/literature-and-screen/",
+  "checks": [
+    {
+      "name": "Independent source and editorial review",
+      "result": "PASS current article",
+      "evidence": "outputs/literature-and-screen-2026-10-29/qa.json"
+    },
+    {
+      "name": "Cinema regression checks",
+      "result": "PASS",
+      "passed": 20,
+      "failed": 0,
+      "evidence": "outputs/literature-and-screen-2026-10-29/tests.log"
+    },
+    {
+      "name": "Site build",
+      "result": "PASS",
+      "exit_code": 0,
+      "evidence": "outputs/literature-and-screen-2026-10-29/build.log"
+    },
+    {
+      "name": "Research map",
+      "result": "PASS",
+      "records": 1800,
+      "tasks": 71
+    },
+    {
+      "name": "Browser preview",
+      "result": "PASS",
+      "details": [
+        "Updated article title, author, opening, headings,14notes and5related readings rendered",
+        "Existing unique hero loaded; illustration labelled",
+        "No horizontal overflow at568px; all page fragment targets exist",
+        "Previous overview and Next AIR Cuttack retained in32reading series"
+      ],
+      "evidence": "outputs/literature-and-screen-2026-10-29/preview.png"
+    }
+  ],
+  "writer_profile_plan": "Eight prioritized writers in canonical source record. Existing Basanta/Fakir/Pratibha KB profiles reused as next-work entrances; no duplicate person pages.",
+  "remaining_research": [
+    "Precise modern Sashisena Natak or AIR recording titlepage/credits to resolve user recollection; older Pratap Ray kavya does not establish modern playwright.",
+    "Dedicated Gopal Chhotray then Kalindi Charan Panigrahi and Basanta Kumari Pattanayak profile expansions; other writers prioritized in evidence."
+  ],
+  "scope_released": true,
+  "book_status": "Dated PDF editions preserved; article-source revision available for a future book rebuild.",
+  "inherited_collection_followup": "Independent reviewer flagged approximate aggregate PIB1878242 source budget across earlier series pages; not caused by expanding this article. Requires a separately scoped collection check before book/publication release.",
+  "editorial_followup": {
+    "request": "Remove attributed criticism; focus on documented adaptations and constructive possibilities.",
+    "scope": "One paragraph, its source note and metadata reference; retain historical research evidence.",
+    "implementation": "Samanta",
+    "review": "Drishti",
+    "coordinator": "Disha/root",
+    "status": "complete_local",
+    "source_notes": 13,
+    "independent_review": "outputs/literature-and-screen-2026-10-29/qa-editorial-followup.json",
+    "build_result": "PASS",
+    "build_evidence": "outputs/literature-and-screen-2026-10-29/build-editorial-followup.log",
+    "rendered_check": "Within current article: replacement present; removed criticism/note absent;13linked source notes all resolve.",
+    "published": false
+  }
+}

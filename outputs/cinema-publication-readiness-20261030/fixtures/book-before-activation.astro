@@ -1,0 +1,25 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import ArticleByline from '../../components/ArticleByline.astro';
+import ArticleReadingPath from '../../components/ArticleReadingPath.astro';
+import {cinema,picture} from '../../lib/cinema-article.mjs';
+import '../../styles/article-reading.css';
+const lead=cinema.articles.find(a=>a.slug==='odia-cinema'),hero=lead.images.find(i=>i.role==='title');
+const mb=n=>(n/1000000).toFixed(1)+' MB';
+---
+<Shell title="Odia Cinema: A Living Screen — the book" description="Download the connected digital and printable book about Odia cinema, literature, radio, television and the people making stories." active="explore" related={false} shareImage={{src:hero.file,alt:lead.hero.alt,width:hero.width,height:hero.height}}>
+ <article class="article-reading cinema-book"><p><a href="/cinema/">← The cinema readings</a></p><h1>Odia Cinema:<br/>A Living Screen</h1><p>Stories, People and the Places Between</p><ArticleByline author="Ahimanikya Satapathy"/>
+
+  <p>The collection opens with <a href="/cinema/the-question-that-brought-me-here/">The Question That Brought Me Here</a>, the author’s personal introduction. The online collection brings {cinema.articles.length} readings into {cinema.parts.length} parts, with connecting threads, a people guide, dated turning points and linked image credits.</p>
+  <h2>Available PDF edition · 27 October 2026</h2>
+  <p>These downloads contain the 28 readings in the 27 October edition. The online collection has since expanded; newer chapters are being prepared for the next book edition.</p>
+  <ul>{cinema.review_books.map(book=><li><a href={book.file}>{book.edition==='digital'?'Digital reading edition':'Printable reading edition'} — PDF, {mb(book.bytes)}</a>. {book.pages} pages. {book.edition==='digital'?'Linked contents, chapter references and sources.':'Mirrored margins, printed source URLs and high-resolution images.'}</li>)}</ul>
+  <figure class="book-cover"><img src="/assets/cinema/a-living-screen-cover-20261027.jpg" width="800" height="1199" alt="Odia Cinema: A Living Screen, with a symbolic household scene on the front cover" fetchpriority="high"/><figcaption>Cover of the expanded review edition, 27 October 2026.</figcaption></figure>
+  <p>The <a href="/cinema/">online reading collection</a> offers the expanded sequence in accessible HTML. These PDF reading editions have bookmarks and links but are not tagged accessibility editions.</p>
+  <h2>Earlier published edition · 26 October 2026</h2><p>The fourteen-chapter edition of 26 October 2026 remains available as an archive; it predates the current introduction and later readings.</p><ul><li><a href="https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-26/odia-cinema-a-living-screen.pdf">Digital reading edition — PDF, {mb(cinema.books[0].bytes)}</a>. Hosted as a Project Odisha release download. 95 pages, linked contents and sources.</li><li><a href="https://github.com/ahimanikya/project-odisha/releases/download/odia-cinema-book-2026-10-26/odia-cinema-a-living-screen-print.pdf">Printable reading edition — PDF download, {mb(cinema.books[1].bytes)}</a>. Hosted as a Project Odisha release download. 106 pages, mirrored margins, printed source URLs and high-resolution images.</li></ul>
+  <h2>Printing the book</h2><p>The print edition uses a 6 × 9 inch page. Print at 100% on matching stock, duplex with long-edge binding, or ask a print shop to impose and trim it to that size. For A4 or Letter home printing, choose fit-to-page and expect a different finished size. This is a reading edition, not a printer-specific press-ready PDF.</p>
+  <p>Downloadable PDF edition dated 27 October 2026; the earlier published edition remains available above. Documentary images retain their credits and reuse terms; imagined illustrations are labelled. The book offers a sourced reading of this history, not a definitive account of every Odia film.</p>
+  <ArticleReadingPath links={[{href:'/cinema/',title:'Read the connected articles online'},{href:'/cinema/watch/',title:'Open the viewing room',description:'Source-hosted films and clips, with provider conditions made explicit.'}]}/>
+ </article>
+</Shell>
+<style>.cinema-book{max-width:804px;padding-inline:32px}.cinema-book :global(img){max-width:100%;height:auto}.book-cover img{display:block;max-width:350px;margin-inline:auto}.book-cover figcaption{text-align:center}@media(max-width:600px){.cinema-book{padding-inline:22px}}</style>

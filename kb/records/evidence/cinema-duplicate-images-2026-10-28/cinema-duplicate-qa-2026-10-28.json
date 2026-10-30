@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-28",
+  "result": "PASS_WITH_PRESENTATION_OBSERVATION",
+  "scope": "Read-only reconciliation of current 28 readings, 34 article figures, book placement metadata and supplied live HTML audit",
+  "independent_checks": [
+    "Recomputed all 34 original source SHA256 values; all match evidence and are distinct",
+    "Recomputed all 34 published delivery JPEG hashes; all are distinct",
+    "Both book placement inventories contain 34 distinct original hashes",
+    "Local hub HTML contains the overview image twice; live report independently records the same banner and overview-card reuse",
+    "Live report includes 29 HTTP-200 routes and matching figures for all article routes; this reviewer reconciled the report but did not independently refetch remote pages"
+  ],
+  "conclusions": [
+    "No same-original or same-delivery-image duplication across the 34 active article figure placements",
+    "Related-reading previews intentionally reuse destination illustrations or portraits; responsive image sizes are not additional originals",
+    "Old maya-miriga-documentary and bhukha-documentary filename prefixes belong to Nirad and Sabyasachi portraits respectively, not duplicate current film illustrations",
+    "Different desk compositions may feel visually similar, but exact/hash evidence does not identify them as reused art"
+  ],
+  "presentation_observation": {
+    "route": "/cinema/",
+    "image": "/assets/cinema/odia-cinema-title-1200w.jpg",
+    "occurrences": 2,
+    "locations": [
+      "featured banner",
+      "overview reading card"
+    ],
+    "severity": "optional presentation refinement",
+    "recommendation": "Describe this literal within-page repeat honestly; if reducing repetition is desired, use a text-led featured introduction or a different existing banner, without implying duplicate article art."
+  },
+  "limits": [
+    "No blanket no-repetition claim across the entire website: site logos, related cards, hub banner/card and author portrait on book cover intentionally recur",
+    "Perceptual hashes are heuristic and do not prove all edited/cropped imagery unique",
+    "Book finding covers chapter/companion placement metadata, not a fresh full-PDF image extraction or pixel audit",
+    "No source edits or publication performed"
+  ],
+  "evidence": {
+    "cinema-duplicate-source-audit-2026-10-28.json": "4cbf0157c2642a2648d8dce2afb064a09cdd6aac218cb022691a250cabf41d14",
+    "cinema-duplicate-render-audit-2026-10-28.json": "7426e541c7dacffe529de4050ff923349af0017f4a31635ef7306196e489cc4d",
+    "cinema-duplicate-pixel-audit-2026-10-28.json": "2553340dbd4cb7f94d53ded325550c156175a8a34a7bdeaba224a9d9104cf2b6",
+    "cinema-duplicate-live-audit-2026-10-28.json": "f41f1427e92e8768ef32e10ccd76ba6ec6d4b08f3fc7eab356dac0f9a4ca5e0e"
+  }
+}

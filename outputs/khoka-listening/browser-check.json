@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-29",
+  "route": "/people/akshaya-mohanty/",
+  "environment": "Codex in-app browser on macOS; local HTTP preview",
+  "result": "PASS tested playback and interactions",
+  "observations": [
+    "Initial page: eight song buttons, zero iframes.",
+    "Smruti Tume: official collection progressed from16:37 to17:11 and later17:35; native Pause video/Play video controls observed.",
+    "Kalankita Nayak: native Pause video and progress42seconds of3:18 observed.",
+    "Replacement Jajabara: Enter activated official collection199–613; native Pause video and seek progress4percent observed.",
+    "Tab from Jajabara moved to Smruti; Space selected it; one iframe and one pressed button remained.",
+    "Close removed iframe, cleared selected states and returned focus to previously selected song.",
+    "At390px: frame312×200px, all eight button heights48px or greater, no horizontal overflow. At820px and restored viewport: no horizontal overflow.",
+    "Final visible player paused; preview tab retained for reader."
+  ],
+  "evidence": "outputs/khoka-listening/preview.png",
+  "limits": [
+    "Not a full listening audit of every song or chapter ending.",
+    "Remaining five chapter mappings checked against official timestamps and automated tests; not each individually played.",
+    "No cross-engine, screen-reader, regional availability or deployed-origin test claimed.",
+    "Print and no-JavaScript fallback confirmed from canonical rendered links and print styling; no new PDF generated."
+  ]
+}

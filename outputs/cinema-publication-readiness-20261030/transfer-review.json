@@ -1,0 +1,28 @@
+{
+  "status": "PASS bounded static transfer review",
+  "target_head": "6d9469e92edb4c8d2001325c38b51b9dda3525d3",
+  "source_checkout": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/odia-cinema-release-20261026",
+  "target_checkout": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/cinema-publication-ready-20261030",
+  "checks": {
+    "canonical_sources": "All41 byte-identical to reviewed source checkout and match current metadata SHA256.",
+    "article_metadata": "All41 article objects exactly equal reviewed source metadata.",
+    "original_images": "All47 originals present, match metadata original_sha256 and source checkout bytes.",
+    "derivatives": "All301 derivative entries present, match declaredSHA256 and source checkout bytes;94 original/default image paths also compared.",
+    "transfer_receipt": "Every copied path matches receipt except coordinator-owned cinema-publication-readiness record updated during integration; no content/asset discrepancy.",
+    "routes": "All41 routes registered in coast; dynamic cinema/[slug].astro provides cinema routes and people wrappers present.",
+    "upstream_coast": "Every upstream list entry retained in routes/starter_ids/journey_ids/downloads/documents/standalone_routes.",
+    "upstream_search": "Every upstream search pages row retained unchanged.",
+    "upstream_implementation": "No tracked diff versus candidateHEAD in tools/, projects/site/tools/, shared components/, journeys.json or public/dhaga/. page-context diff only adds8 cinema people routes; generic upstream context branches remain.",
+    "download_registration": "Receipt adds exact13 new full-image links, rather than broad asset allowance.",
+    "credential_scan": "294 copied text/code/evidence files scanned for private-key blocks and common GitHub/AWS/OpenAI credential patterns; zero matches. No sensitive values printed."
+  },
+  "blockers": [],
+  "limits": [
+    "Read-only static transfer review, not build/runtime/live verification. Root owns fresh builds and book staging.",
+    "Pattern scan is bounded and cannot establish absence of every possible secret or private information; no credential-like content found in this scan.",
+    "No remote publication or upload performed.",
+    "Book metadata/release wiring may change after this transfer review and requires its own final binding.",
+    "Upstream preservation checked against exact targetHEAD6d9469e9, not an unverified later upstream state."
+  ],
+  "publication_approval_claimed": false
+}

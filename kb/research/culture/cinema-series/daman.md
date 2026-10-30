@@ -25,13 +25,13 @@ For Odia cinema, this was another chapter in a long history of national recognit
 
 ## The people who brought it together
 
-Producer [Deependra Samal](../../people/deependra-samal.md), co-director [Vishal Mourya](../../people/vishal-mourya.md) and co-director and editor [Debi Prasad Lenka](../../people/debi-prasad-lenka.md) brought different responsibilities to the film. The certification register identifies Samal with JP Motion Pictures; the award catalogue records the directors and Lenka’s editing credit.[^producer-credit][^catalogue]
+Producer [Deependra Samal](../../people/deependra-samal.md), co-director [Vishal Mourya](../../people/vishal-mourya.md) and co-director and editor [Debi Prasad Lenka](../../people/debi-prasad-lenka.md) brought different responsibilities to the film.[^producer-credit][^catalogue]
 
 Their individual stories let us follow the work behind the finished film: backing an idea, developing it together and shaping it for the screen. They sit alongside the actors, technicians, local performers and healthcare workers whose contributions are also part of this account.
 
 ## A doctor who has to decide whether to stay
 
-The National Film Awards catalogue places the story in 2015. Its young doctor, Siddharth, arrives in Malkangiri and struggles with the conditions of his posting before committing himself to tackling malaria. Babushaan Mohanty plays the doctor; Dipanwit Dashmohapatra plays the pharmacist who works alongside him.[^catalogue][^trade]
+The catalogue sets the story in 2015: a young doctor takes up a posting in Malkangiri and commits himself to tackling malaria.[^catalogue] Babushaan Mohanty plays the doctor; Dipanwit Dashmohapatra plays the pharmacist.[^trade]
 
 The premise raises a question: what happens when an assignment becomes a responsibility a person can no longer walk away from? The film gives that question a particular location and profession.
 
@@ -43,7 +43,7 @@ Babushaan told *Indulge* that he spoke with doctors while preparing for the role
 
 ## Making the story travel
 
-Mourya said the production drew performers from the Koraput and Jeypore film societies, alongside the lead actors and other local talent. The award catalogue credits Pratap Rout for cinematography and Debi Prasad Lenka for editing.[^making][^catalogue]
+Mourya said the production drew performers from the Koraput and Jeypore film societies, alongside the lead actors and other local talent. Pratap Rout handled cinematography.[^making][^catalogue]
 
 The soundtrack brought another set of collaborators into that journey. Mourya credits **Gaurav Anand** with the music and **Tushar Jena** with the score, recalling roughly six months spent developing the music.[^making]
 
@@ -82,7 +82,7 @@ Listings checked on 26 October 2026.
 
 [^making]: Cinema Express, [interview with Vishal Mourya](https://www.cinemaexpress.com/international/interviews/2022/Dec/07/daman-director-vishal-maurya-success-of-my-film-could-be-a-ray-of-hope-for-odia-filmmakers-37464.html), 7 December 2022. Documentary assignment, collective inspiration and casting are the director’s account.
 [^award]: Press Information Bureau, [70th National Film Awards results](https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2045960&lang=2&reg=48), 16 August 2024, Best Odia Film. This is a film-category award, not a National Best Actor award for Babushaan.
-[^catalogue]: [70th National Film Awards catalogue](https://nfaindia.org/images/pdf/70th%20National%20Film%20Award%20Catalogue.pdf), printed p. 082, DAMaN synopsis and credits. The story’s 2015 setting is not the programme’s launch date. Synopsis-based discussion; no fresh full-film viewing claimed.
+[^catalogue]: [70th National Film Awards catalogue](https://nfaindia.org/images/pdf/70th%20National%20Film%20Award%20Catalogue.pdf), p. 082, synopsis and credits.
 [^trade]: Film Information, [review of the Hindi-dubbed DAMaN](https://filminformation.com/featured/daman-dubbed-review-3-february-2023/), 3 February 2023. Used for character casting, release and an attributed critical assessment, not as audited revenue evidence.
 [^actor]: Indulge, [interview with Babushaan Mohanty](https://www.indulgexpress.com/entertainment/cinema/2023/Feb/14/odia-actor-babushaan-mohanty-speaks-about-his-struggles-shooting-for-daman-47212.html), 14 February 2023. Actor’s account of preparation and ambitions; the report dates the original opening to 4 November 2022.
 [^health]: Odisha Health and Family Welfare Department, [Annual Activity Report 2022–23](https://nhmodisha.gov.in/wp-content/uploads/2023/09/ar202223.pdf), printed p. 41 (PDF p. 49). The report records 1,817 camps during 2022 and more than half a million people screened. Historical service data, not current medical guidance or evidence of the film’s health impact.

@@ -35,7 +35,7 @@ The discomfort of that premise gives viewers room to think about the relationshi
 
 ## A film’s development and its recognition
 
-The development-stage Film Bazaar entry credits **Roshan Bisoi** as writer and gives April 2021 as a tentative completion date, rather than a release date.[^bazaar] The credit places screenwriting beside the source story in the film’s creative history.
+The Film Bazaar entry credits **Roshan Bisoi** as writer, placing screenwriting beside the source story in the film’s creative history.[^bazaar]
 
 **Deepak Kumar’s cinematography** and **Deven Mishra’s editing** helped bring that writing to the screen. **Barsha Patnaik** contributed production and costume design; **Ankesh Anand and Ashish Pradhan** composed the music and background score, with **Bivash Rath** composing one song. These contributions belong beside the writer, director and actors in the film’s creative story.[^crew]
 
@@ -43,7 +43,7 @@ The development-stage Film Bazaar entry credits **Roshan Bisoi** as writer and g
 
 ## Watch an official introduction
 
-[Amiya Patnaik Productions’ official trailer](https://www.youtube.com/watch?v=E_p4kHzZBTM) offers an introduction to the film. It is a trailer, not the complete film; current playback and territorial availability have not been tested here.
+[Amiya Patnaik Productions’ official trailer](https://www.youtube.com/watch?v=E_p4kHzZBTM) offers an introduction to the film. Availability may vary by location.
 
 You can also select the [Pratikshya trailer in our viewing room](https://projectodisha.org/cinema/watch/#pratikshya-trailer), where it remains clearly separated from full-film listings.
 

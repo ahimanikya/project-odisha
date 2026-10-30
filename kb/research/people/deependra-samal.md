@@ -22,8 +22,6 @@ Samal produced *DAMaN* under JP Motion Pictures; the CBFC’s certification reco
 
 The directors’ public recollections describe more than financial backing. In their interview with *The Federal*, they credited Samal with constructive feedback and an understanding of what the project needed.[^conversation] This gives us a small but meaningful view of the collaboration: producing could involve listening to an idea and helping the filmmakers develop it.
 
-The request to attempt something distinctive left the directors with a creative task; the production gave them a way to pursue it. Their recollections let us follow that exchange without assuming that every collaboration begins in the same way.
-
 ## Recognition for a shared work
 
 JP Motion Pictures is the credited producer of *DAMaN*, named Best Odia Film for 2022 at the 70th National Film Awards, announced in 2024.[^award]

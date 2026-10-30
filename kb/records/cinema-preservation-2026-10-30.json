@@ -1,0 +1,87 @@
+{
+  "id": "POD-REC-CINEMA-PRESERVATION-20261030",
+  "date": "2026-10-30",
+  "status": "local_review_ready",
+  "active_article": null,
+  "request": "Proceed with preservation story, reading guide, narrative sequence and printable book update; publication after reader review.",
+  "scope": "One new preservation/access article, focused crosslinks and reading paths, sequence audit, new dated digital/print review PDFs preserving previous editions. No publication, contact or external posting.",
+  "workers": {
+    "Anvesha": [
+      "kb/research/sources/cinema-preservation-evidence-2026-10-30.json"
+    ],
+    "Samanta": [
+      "kb/research/culture/cinema-series/who-keeps-a-film-alive.md"
+    ],
+    "Drishti": [
+      "outputs/cinema-preservation/review.json",
+      "outputs/cinema-preservation/verify_book.py"
+    ],
+    "Disha": [
+      "shared manifests/routes/reading-guide, image assets and provenance, book tooling/build/records/map/ledger"
+    ]
+  },
+  "human_review_claimed": false,
+  "publication": false,
+  "scope_released": true,
+  "acceptance": [
+    "Distinct institutional/human preservation story; no invented archive access, collection transfer, rights or state/NFAI equivalence.",
+    "One unique image; concise numeric source/image notes and mapped public crosslinks.",
+    "Coherent thematic reading paths and sequence with all readings reachable.",
+    "New dated printable and digital PDF editions include all current readings; old editions preserved; source preservation and visual QA.",
+    "Separate content/quality reviews, source hashes, relevant checks, browser review and recorded remaining limitations."
+  ],
+  "completed_at": "2026-10-29T21:01:54.039125+00:00",
+  "source_sha256": "50790efba578a29f13ebd485ceee1e62e1757e4efd9e00319d68d6876a4b28f3",
+  "checks": {
+    "independent_review": "PASS — source/editorial, source hash, integration and final PDF text/link binding; outputs/cinema-preservation/review.json",
+    "build": "PASS — 555 Astro pages; exit 0",
+    "focused_tests": "PASS — 27 targeted/regression checks",
+    "public_disclosures": "PASS — 978 HTML pages, no violations",
+    "research_map": "PASS — 1821 records, 71 tasks, no errors",
+    "browser": "PASS — article and four-path reading guide at 1280 desktop and 390 phone; no horizontal overflow, aligned caption, numbered source link and return exercised; viewport reset.",
+    "book_structure": "PASS — both editions have 41 chapters, 383 notes, 532 citation pairs and 47 image placements; no invalid destinations or off-page text.",
+    "book_text": "PASS with recorded extraction adjudication — per edition 103 Odia extraction residuals checked against complete surrounding Latin/digit sequences and representative Odia visual samples; six caption/navigation exceptions documented. Raw exact-string checker intentionally retains residuals; no unexplained substantive omissions.",
+    "book_visual": "PASS — independent digital contact review and repaired portrait delta; coordinator all 23 print contact sheets plus selected full-size pages, final Poppler pages 19/53/118/214; covers preserved. Not a full copy edit of every glyph.",
+    "previous_editions": "PASS — 27 October digital and print SHA256 unchanged."
+  },
+  "books": [
+    {
+      "edition": "digital",
+      "path": "output/pdf/odia-cinema-a-living-screen-2026-10-30.pdf",
+      "pages": 243,
+      "bytes": 17102418,
+      "sha256": "6b6989f22ce3d1ee10a78eb218d5e00135f91e591b4dd7fb13f2b05442d70721",
+      "structural_report": "tmp/pdfs/2026-10-30/digital/structural-check-2026-10-30.json"
+    },
+    {
+      "edition": "print",
+      "path": "output/pdf/odia-cinema-a-living-screen-print-2026-10-30.pdf",
+      "pages": 268,
+      "bytes": 39992453,
+      "sha256": "9d0ded93f6d7995e63d43d849fb07956b102f0f5f068f74bd7fd2042cc870c24",
+      "structural_report": "tmp/pdfs/2026-10-30/print/structural-check-2026-10-30.json"
+    }
+  ],
+  "series": {
+    "readings": 41,
+    "parts": 7,
+    "reading_paths": 4
+  },
+  "changes": [
+    "Added Who Keeps a Film Alive? with nine source notes and one unique Human Natural illustration.",
+    "Connected preservation to Memory and Discovery; expanded reading and people guides.",
+    "Reconciled current overview with book companion while preserving the book opening.",
+    "Rebuilt dated digital/print editions, corrected EXIF portrait proportions, retained original photographs and existing covers.",
+    "Clarified that website downloads remain the older 27 October edition until reviewed publication."
+  ],
+  "remaining": [
+    "User editorial review and publication decision.",
+    "Exact Cuttack archive start date, collection transfer and current research-access terms remain unverified; no such claims added.",
+    "Print review edition is 6×9 inches with mirrored margins, no bleed; printer-specific press preparation, tagged-PDF accessibility and low-resolution historical-source improvements remain separate work."
+  ],
+  "evidence": [
+    "kb/research/sources/cinema-preservation-evidence-2026-10-30.json",
+    "outputs/cinema-preservation/review.json",
+    "kb/research/media/cinema-series/preservation-provenance-20261030.json"
+  ]
+}

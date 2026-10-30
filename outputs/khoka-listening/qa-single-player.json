@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-29",
+  "reviewer": "Drishti (independent AI)",
+  "status": "PASS_static_and_source_browser_pending",
+  "scope": "Single full-collection simplification only; no source edits, book build or publication",
+  "hashes": {
+    "kb/research/people/akshaya-mohanty.md": "99f86874a68897aba204f0716608f0a93a8746e32f2702490a9d1f9f3ed4a50c",
+    "projects/site/src/components/KhokaListening.astro": "3168843e1eb05632fe813fb0281bd1649b1b3ac8a29ad8345461d045bbdbce40",
+    "projects/site/src/lib/khoka-listening.mjs": "7505af3910718a474842e14b1ae53f57f18f32bd4285146ca413c9bc60d188bf",
+    "projects/site/tests/khoka-listening.test.mjs": "cc0a6f39f9b5e94c8dbd4868742db0360ad055e61d249245f78699cdaee73789"
+  },
+  "checks": [
+    "Exact official collection video LgqHdOa_U1g; no start/end parameters or segmented selection.",
+    "autoplay=0, controls=1, playsinline=1; autoplay permission absent.",
+    "One lazy iframe with title, dimensions, fullscreen and explicit strict-origin-when-cross-origin policy; idempotent container guard.",
+    "Eight-button UI and eight-track aggregate credit claim removed; prose identifies official collection without assigning every song all roles.",
+    "Canonical collection link and previous incoming anchor retained; no-JS link available and print CSS hides only iframe container.",
+    "Dedicated enhancement remains on Akshaya wrapper; unrelated heading/missing exact URL produces no frame."
+  ],
+  "tests": {
+    "focused_passed": 3,
+    "failed": 0
+  },
+  "privacy_change": "Unlike prior click-created player, this version can contact YouTube when the lazy iframe approaches the viewport before Play is pressed. autoplay=0 prevents automatic playback, not initial provider requests. This matches an ordinary embedded collection; do not retain the previous no-third-party-request-until-click claim.",
+  "required_fixes": [],
+  "limitations": [
+    "Actual player playback, keyboard controls and responsive geometry remain root browser checks.",
+    "No full collection listening or rights/public-domain assertion."
+  ]
+}
