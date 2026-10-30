@@ -1,0 +1,7 @@
+---
+import CinemaReading from '../../components/CinemaReading.astro';
+import {cinema} from '../../lib/cinema-article.mjs';
+const entry=cinema.articles.find(article=>article.route==='/people/pramod-pati/');
+if(!entry)throw new Error('Missing reviewed Pramod Pati entry');
+---
+<CinemaReading entry={entry}/>

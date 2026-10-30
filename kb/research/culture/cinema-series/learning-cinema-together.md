@@ -62,6 +62,7 @@ The [road ahead](cinema-futures.md) considers paid development and mentoring mor
 
 ## Further reading
 
+- [Pramod Pati: A Room for Experiment](../../people/pramod-pati.md)
 - [Manmohan Mahapatra](manmohan-mahapatra.md)
 - [Nirad Mohapatra](../../people/nirad-mohapatra.md)
 - [The page behind the screen](literature-and-screen.md)
