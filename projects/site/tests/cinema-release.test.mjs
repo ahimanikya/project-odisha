@@ -56,7 +56,7 @@ test('documentary hero promotes an existing body photograph once with escaped li
  for(const expected of ['Full portrait &lt;not markup&gt;','Photographer &amp; archive','Uncropped &lt;original&gt;','a=1&amp;b=2','>Source</a>','>CC BY-SA 4.0</a>'])assert.ok(html.replace(/<span class="cinema-citation-tail">([\s\S]*?)<\/span>/g,'$1').includes(expected),expected);
  assert.ok(!html.includes('<not markup>'));
  entry.hero.credit.source_url='javascript:alert(1)';assert.throws(()=>cinemaArticle(entry),/requires HTTPS/);
- const naturalWidth=Math.min(photo.width,600*photo.width/photo.height);assert.ok(html.includes(`--cinema-figure-width:${naturalWidth}px`));assert.equal(naturalWidth/photo.width*photo.height,600);
+ assert.ok(html.includes('--cinema-figure-width:380px;--cinema-image-ratio:4 / 5'));assert.ok(html.includes('--cinema-image-position:50% 0%'));assert.ok(html.includes('Display crop.'));
 });
 
 

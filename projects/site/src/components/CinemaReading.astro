@@ -66,7 +66,7 @@ const sequence=[index>0?{entry:cinema.articles[index-1],direction:'Previous'}:nu
 :global(.cinema-reader .article-reading.reviewed-culture figure){width:var(--cinema-figure-width,100%);max-width:100%;margin-inline:auto}
 :global(.cinema-reader .article-reading.reviewed-culture figure .cinema-full-image),
 :global(.cinema-reader .article-reading.reviewed-culture figure picture){display:block;width:100%}
-:global(.cinema-reader .article-reading.reviewed-culture figure picture img){display:block;position:static;width:100%;height:auto;max-width:100%;max-height:none;aspect-ratio:var(--cinema-image-ratio);object-fit:contain;margin:0}
+:global(.cinema-reader .article-reading.reviewed-culture figure picture img){display:block;position:static;width:100%;height:auto;max-width:100%;max-height:none;aspect-ratio:var(--cinema-image-ratio);object-fit:var(--cinema-image-fit,contain);object-position:var(--cinema-image-position,50% 50%);margin:0}
 :global(.cinema-reader .article-reading.reviewed-culture figure figcaption){text-align:left;margin-inline:0;padding-inline:0;text-indent:0}
 </style>
 

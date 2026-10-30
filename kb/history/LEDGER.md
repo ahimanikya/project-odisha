@@ -1315,3 +1315,7 @@ Audited all 41 readings for theme, sequence, evidence, images and reading design
 ### 30 October 2026 · Cinema publication readiness
 
 Prepared the41-reading candidate on current main, preserving45newer changes. Added13publication routes and13fullimage allowances, corrected3stale tests,4missing rollout entries,10status values and5source bindings. Separate review verified41sources,47originals,301derivative entries and3,776local links/fragments. Full653and selected535tests passed; artifact615,608,991bytes fits the1GBbudget. Exact236/260page PDFs remain unchanged; seven isolated activation tests passed. Targeted source access limits and print constraints retained. No upload, merge, deployment, human approval or programme increment. [Handoff](../records/cinema-publication-readiness-2026-10-30.json).
+
+### 30 October 2026 · Five-page cinema image sizing trial
+
+Applied seven explicit placements across five readings: a safe 4:5 portrait, complete group and author photographs, wide illustrations, and smaller archival objects. Captions align with their image edges in articles and books. All 41 prose files, 47 original images and preview-card metadata remain unchanged. New 222-page digital and 246-page print proofs passed separate affected-page review; 656 site and 535 coast tests passed. Desktop and phone checks found no overflow, and the complete-image link retains the full portrait. Local trial only; no publication, wider rollout, human approval or programme increment. [Review record](../records/cinema-image-trial-2026-10-30.json).

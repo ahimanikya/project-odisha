@@ -31,6 +31,8 @@ This directory contains the organizational and working model, roles, work record
 
 Latest cinema refinement: [practical possibilities without a timed programme](records/cinema-futures-open-recommendations-2026-10-30.json). The article, matching cross-reference and both book drafts are updated and reviewed locally.
 
+Current cinema image trial: [five-page image families](records/cinema-image-trial-2026-10-30.json). A safe portrait crop, full documentary frames and restrained archival objects are ready for local review in the articles and new 222-page digital / 246-page print proofs. Other 36 articles and preview-card layouts are unchanged; no publication or wider rollout.
+
 Current cinema draft: [literature, people and cultural care revision](records/cinema-literature-care-2026-10-30.json). All 41 readings have been revised and independently reviewed;224-page digital and248-page print drafts are ready for author review, separate from the published edition below.
 
 Latest cinema publication: [30 October verified release](records/cinema-publication-2026-10-30.json). The 41-reading collection and both current books are published. All 45 cinema pages and 49 referenced image files passed live checks; the digital and printable downloads match their reviewed hashes. The [readiness record](records/cinema-publication-readiness-2026-10-30.json) preserves the preparation history.

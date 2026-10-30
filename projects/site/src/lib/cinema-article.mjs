@@ -37,11 +37,18 @@ export function markReviewedOdia(html){
  }).join('');
 }
 export function picture(image,alt,priority=false){const set=format=>image.derivatives.filter(d=>d.format===format).map(d=>`${d.file} ${d.width}w`).join(', ');const sizes='(max-width: 784px) calc(100vw - 44px), 740px';return `<picture><img src="${image.file}" srcset="${set('jpeg')}" sizes="${sizes}" alt="${escape(alt)}" width="${image.width}" height="${image.height}" ${priority?'fetchpriority="high"':'loading="lazy"'} decoding="async"></picture>`;}
-function figureStyle(image){
- // Portraits and square artwork share their image width with the caption; small archival objects are not enlarged.
- const width=image.height>=image.width?`${Math.min(image.width,600*image.width/image.height)}px`:'100%';
- return `--cinema-figure-width:${width};--cinema-image-ratio:${image.width} / ${image.height}`;
+const imageTrialPath=path.join(root,'kb/research/culture/cinema-series/image-layout-trial-2026-10-30.json');
+export const cinemaImageTrial=fs.existsSync(imageTrialPath)?JSON.parse(fs.readFileSync(imageTrialPath,'utf8')).frames:[];
+function imageFrame(image,slug){return cinemaImageTrial.find(frame=>frame.slug===slug&&frame.source===image?.source);}
+export function figureStyle(image,slug){
+ const trial=imageFrame(image,slug)?.web;
+ const width=trial?.width_px!=null?`${trial.width_px}px`:image.height>=image.width?`${Math.min(image.width,600*image.width/image.height)}px`:'100%';
+ const ratio=trial?.ratio||[image.width,image.height];
+ if(trial&&(!(trial.width_px===null||Number.isFinite(trial.width_px)&&trial.width_px>0)||!['natural','cover'].includes(trial.fit)||ratio.length!==2||ratio.some(n=>!Number.isFinite(n)||n<=0)||trial.position.length!==2||trial.position.some(n=>!Number.isFinite(n)||n<0||n>100)))throw Error('Invalid cinema image trial '+slug);
+ return `--cinema-figure-width:${width};--cinema-image-ratio:${ratio[0]} / ${ratio[1]}`+(trial?.fit==='cover'?`;--cinema-image-fit:cover;--cinema-image-position:${trial.position[0]}% ${trial.position[1]}%`:'');
 }
+function trialCredit(credit,image,slug){const note=imageFrame(image,slug)?.credit_note;return credit+(note?' '+escape(note):'');}
+
 function heroCaption(entry){
  const caption=escape(entry.hero.caption||'Editorial illustration; not a film still, historical photograph or reconstruction of a documented scene.');
  if(entry.hero.kind!=='documentary')return caption;
@@ -150,12 +157,12 @@ export function cinemaArticle(entry){
   return `<sup><a href="#user-content-fn-cinema-image-${index}" id="user-content-fnref-cinema-image-${index}" data-footnote-ref aria-describedby="footnote-label" aria-label="Source note ${n}">${n}</a></sup>`;
  };
  let heroDescription=escape(entry.hero.caption||'Illustration.');
- if(entry.hero.kind==='documentary')heroDescription+=' '+creditRef(heroCaption(entry));
+ if(entry.hero.kind==='documentary')heroDescription+=' '+creditRef(trialCredit(heroCaption(entry),hero,entry.slug));
  if(entry.hero.kind==='supplied-portrait')heroDescription+=' '+creditRef(escape(entry.hero.credit_note));
  article.html=article.html.replace(/<figure>([\s\S]*?)<figcaption>([\s\S]*?)<\/figcaption><\/figure>/g,(whole,image,caption)=>{
   if(!/Photo:|Wikimedia Commons|Digitisation:/.test(caption))return whole;
   const description=caption.split(/(?<=\.)\s/)[0];
-  return `<figure>${image}<figcaption>${description} ${creditRef(caption)}</figcaption></figure>`;
+  return `<figure>${image}<figcaption>${description} ${creditRef(trialCredit(caption,entry.images.find(i=>image.includes(`src="${i.file}"`)),entry.slug))}</figcaption></figure>`;
  });
  for(const c of callouts){
   const start=`<p>CINEMACALLOUTSTART${c.id}</p>`,end=`<p>CINEMACALLOUTEND${c.id}</p>`;
@@ -171,11 +178,11 @@ export function cinemaArticle(entry){
  article.html=article.html.replace(/<figure>([\s\S]*?)<\/figure>/g,(_,body)=>{
   const src=body.match(/<img[^>]*src="([^"]+)"/)?.[1],image=entry.images.find(i=>i.file===src);
   if(!image)throw Error('Missing figure dimensions '+entry.slug);
-  return `<figure style="${figureStyle(image)}">${body}</figure>`;
+  return `<figure style="${figureStyle(image,entry.slug)}">${body}</figure>`;
  });
  article.html=article.html.replace(/<picture>([\s\S]*?)<\/picture>/g,(whole,img)=>{const src=img.match(/src="([^"]+)"/)?.[1];return src?`<a class="cinema-full-image" href="${src}" aria-label="View complete image">${whole}</a>`:whole;});
  const portrait=hero.height>hero.width;
- const heroHTML=joinCinemaCitations(`<figure class="cinema-hero${portrait?' cinema-hero-portrait':''}" style="${figureStyle(hero)}"><a class="cinema-full-image" href="${hero.file}" aria-label="View complete image">${picture(hero,entry.hero.alt,true)}</a><figcaption>${heroDescription}</figcaption></figure>`);
+ const heroHTML=joinCinemaCitations(`<figure class="cinema-hero${portrait?' cinema-hero-portrait':''}" style="${figureStyle(hero,entry.slug)}"><a class="cinema-full-image" href="${hero.file}" aria-label="View complete image">${picture(hero,entry.hero.alt,true)}</a><figcaption>${heroDescription}</figcaption></figure>`);
  const next=cinema.articles[cinema.articles.findIndex(a=>a.slug===entry.slug)+1];
  const onward=next?`<nav class="cinema-narrative-continue" aria-label="Continue this reading journey"><a href="${escape(next.route)}" rel="next">Continue reading: ${escape(cinemaNavigationLabel(next))} <span aria-hidden="true">→</span></a></nav>`:`<nav class="cinema-narrative-continue" aria-label="Continue exploring"><a href="/cinema/">Explore all cinema readings <span aria-hidden="true">→</span></a></nav>`;
  article.html=article.html.replace(/(?=<section (?:class="cinema-image-notes"|data-footnotes))/,onward);

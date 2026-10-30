@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {cinema,cinemaArticle,cinemaReadingSemantics,markReviewedOdia,joinCinemaCitations} from '../src/lib/cinema-article.mjs';
+import {cinema,cinemaArticle,cinemaReadingSemantics,markReviewedOdia,joinCinemaCitations,cinemaImageTrial,figureStyle} from '../src/lib/cinema-article.mjs';
 
 test('cinema subsection anchors preserve existing destinations and avoid collisions',()=>{
  const html=cinemaReadingSemantics('<h2 id="voices">Voices</h2><h3>Voices</h3><h3>Voices</h3><h3 id="retained">Old link</h3>');
@@ -37,3 +37,23 @@ test('language tagging uses verified phrases, respects existing language, and le
  assert.match(html,/<span class="cinema-citation-tail">Foundation\.<sup>/);
  assert.doesNotMatch(html,/&#8288;/);
  });
+
+test('image trial targets exact source and slug, retains complete-image links and bounded frames',()=>{
+ assert.equal(cinemaImageTrial.length,7);assert.equal(new Set(cinemaImageTrial.map(f=>f.slug)).size,5);
+ for(const entry of cinema.articles){
+  const html=cinemaArticle(entry).fullHTML;
+  for(const image of entry.images){
+   const frame=cinemaImageTrial.find(f=>f.slug===entry.slug&&f.source===image.source);
+   if(!frame){assert.equal(figureStyle(image,entry.slug),figureStyle(image,'outside-trial'));continue;}
+   assert.ok(html.includes(figureStyle(image,entry.slug)),entry.slug+' configured frame');
+   assert.ok(html.includes(`href="${image.file}" aria-label="View complete image"`));
+   const figure=[...html.matchAll(/<figure\b[\s\S]*?<\/figure>/g)].find(m=>m[0].includes(`src="${image.file}"`))?.[0];
+   assert.ok(figure?.includes('<figcaption>'),'caption inside sized frame');
+   if(frame.web.fit==='cover')assert.ok(html.includes('Display crop.'));
+   else assert.ok(!figure.includes('--cinema-image-fit:cover'));
+  }
+ }
+ const parbati=cinemaArticle(cinema.articles.find(e=>e.slug==='parbati-ghose')).fullHTML;
+ assert.ok(parbati.includes('--cinema-figure-width:172px'));
+ assert.ok(parbati.includes('--cinema-figure-width:420px'));
+});

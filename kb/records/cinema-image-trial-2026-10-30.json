@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-30",
+  "status": "local_trial_review_ready",
+  "scope": "Five-page trial of agreed image families; local preview and new book editions only",
+  "baseline": "c4611bd1b03994f1b1c4f3c78331cfd70f8d1db7",
+  "slugs": [
+    "the-question-that-brought-me-here",
+    "nirad-mohapatra",
+    "ak-bir",
+    "literature-and-screen",
+    "parbati-ghose"
+  ],
+  "active_article": null,
+  "worker_scopes": {
+    "Disha": "Shared frame configuration, book renderer, records, builds and integration",
+    "Samanta": "Web image-frame rendering/components and focused tests only",
+    "Anvesha": "Read-only source/crop/credit constraints",
+    "Drishti": "Independent final visual and scope review"
+  },
+  "constraints": [
+    "No prose changes",
+    "Original image bytes and existing credits preserved",
+    "No new or generatively altered imagery",
+    "No filler backgrounds",
+    "No publication or series-wide rollout"
+  ],
+  "completed_at": "2026-10-30T11:21:47.881321+00:00",
+  "frame_configuration": "kb/research/culture/cinema-series/image-layout-trial-2026-10-30.json",
+  "configuration_sha256": "402c00b15df45b7f2283163b5b0dd678b9d1ae138279f78ad22d877afe1785c0",
+  "evidence_directory": "outputs/cinema-image-trial-20261030",
+  "validation": "outputs/cinema-image-trial-20261030/validation.json",
+  "quality_review": "outputs/cinema-image-trial-20261030/quality-review.json",
+  "source_scope": {
+    "status": "pass",
+    "canonical_articles_unchanged": 41,
+    "original_images_unchanged": 47,
+    "manifest_and_preview_card_metadata_unchanged": true,
+    "unchanged_files_compared_to": "c4611bd1b03994f1b1c4f3c78331cfd70f8d1db7",
+    "actual_geometry_changes": [
+      "Nirad portrait",
+      "Parbati stamp",
+      "Parbati printed opening sheet"
+    ],
+    "configured_unchanged_controls": [
+      "Author portrait",
+      "A. K. Bir group",
+      "Literature illustration",
+      "Parbati title illustration"
+    ]
+  },
+  "preview_base": "http://127.0.0.1:8771",
+  "next_action": "Author review of the five-page trial before extending the image families; no series-wide rollout or publication performed.",
+  "human_approval_claimed": false,
+  "programme_progress_credit": 0,
+  "books": [
+    {
+      "edition": "digital",
+      "file": "output/pdf/odia-cinema-a-living-screen-2026-10-30-image-trial.pdf",
+      "sha256": "0a142538d0d79b78fc10d1c46170e979fb35014c6efb6ca03148072bc14899bb",
+      "pages": 222,
+      "receipt": "outputs/cinema-image-trial-20261030/digital-book-build.json",
+      "status": "local reading proof; not a press certification"
+    },
+    {
+      "edition": "print",
+      "file": "output/pdf/odia-cinema-a-living-screen-print-2026-10-30-image-trial.pdf",
+      "sha256": "9d6b85b96ddb6686ff108c805ded77872a420f875646d723ad769da6ed5d9c56",
+      "pages": 246,
+      "receipt": "outputs/cinema-image-trial-20261030/print-book-build.json",
+      "status": "local reading proof; not a press certification"
+    }
+  ]
+}
