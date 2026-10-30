@@ -1,6 +1,6 @@
 {
   "id": "POD-CINEMA-READINESS-20261030",
-  "status": "local_release_candidate_ready",
+  "status": "published_verified",
   "authorization": "User: keep looking at issues and lets get ready for publishing",
   "started_at": "2026-10-29T22:44:28.406183+00:00",
   "baseline": "kb/records/cinema-deep-review-2026-10-30.json",
@@ -37,7 +37,7 @@
       "role": "Coordinate integration and record actual checks"
     }
   },
-  "publication_performed": false,
+  "publication_performed": true,
   "human_approval_claimed": false,
   "scope_released": true,
   "release_checkout": "../cinema-publication-ready-20261030",
@@ -79,12 +79,7 @@
   },
   "review": "outputs/cinema-publication-readiness-20261030/final-readiness-review.json",
   "report": "outputs/cinema-publication-readiness-20261030/readiness.md",
-  "remaining_release_actions": [
-    "Create reviewed source PR and pass required checks",
-    "Upload exact PDF assets and verify real downloads",
-    "Activate current book metadata and revalidate changed output",
-    "Merge/deploy under publication authorization and verify live destinations"
-  ],
+  "remaining_release_actions": [],
   "residual_limits": [
     "Prior historical/commercial evidence limitations remain explicit",
     "Five access-limited external destinations not declared dead",
@@ -93,5 +88,13 @@
   ],
   "latest_revision": "records/cinema-futures-open-recommendations-2026-10-30.json",
   "revision_note": "User-requested non-timed recommendations incorporated and independently reviewed. New235-page digital and260-page print books have current source bindings; prior audit retained.",
-  "revision_checks": "See latest_revision for affected tests, book and browser checks. Earlier broad audit evidence is retained, not represented as rerun."
+  "revision_checks": "See latest_revision for affected tests, book and browser checks. Earlier broad audit evidence is retained, not represented as rerun.",
+  "publication_receipt": "records/cinema-publication-2026-10-30.json",
+  "publication_completed_at": "2026-10-30T05:56:01.987891+00:00",
+  "completed_release_actions": [
+    "Create reviewed source PR and pass required checks",
+    "Upload exact PDF assets and verify real downloads",
+    "Activate current book metadata and revalidate changed output",
+    "Merge/deploy under publication authorization and verify live destinations"
+  ]
 }

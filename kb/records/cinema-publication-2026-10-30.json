@@ -1,6 +1,6 @@
 {
   "id": "POD-CINEMA-PUBLICATION-20261030",
-  "status": "release_in_progress",
+  "status": "published_verified",
   "started_at": "2026-10-30T05:08:31.068621+00:00",
   "authorization": {
     "actor": "Ahimanikya Satapathy",
@@ -27,8 +27,10 @@
       ]
     },
     "Drishti": {
-      "scope": "Independent release candidate review before publication and live verification",
-      "write_scope": []
+      "scope": "Independent release review, plus bounded responsive browser verification of the four maker profiles lacking individual phone evidence",
+      "write_scope": [
+        "outputs/cinema-publication-readiness-20261030/responsive-final/"
+      ]
     },
     "Disha": {
       "scope": "Release metadata, source integration, GitHub book upload, PR, merge, deployment and receipts",
@@ -41,7 +43,7 @@
   "book_manifest": "outputs/cinema-publication-readiness-20261030/book-release-manifest.json",
   "publication_performed": true,
   "human_specialist_review_claimed": false,
-  "scope_released": false,
+  "scope_released": true,
   "book_release": {
     "status": "published_assets_verified",
     "url": "https://github.com/ahimanikya/project-odisha/releases/tag/odia-cinema-book-2026-10-30",
@@ -75,10 +77,15 @@
     "scope": "Semantic merge preservation, all 41 canonical source hashes, both PDF hashes and sizes; no claim of human specialist review"
   },
   "website": {
-    "status": "validation_in_progress",
-    "deployed": false
+    "status": "published_verified",
+    "deployed": true,
+    "merge_commit": "a4f52d71d06320d70610ab7b977d0a4ee5939336",
+    "pull_request": "https://github.com/ahimanikya/project-odisha/pull/615",
+    "validation_run": "https://github.com/ahimanikya/project-odisha/actions/runs/41008180847",
+    "validation_conclusion": "success",
+    "deployment_run": "https://github.com/ahimanikya/project-odisha/actions/runs/41009626807"
   },
-  "publication_scope_performed": "Book release assets only; website deployment pending",
+  "publication_scope_performed": "41-reading cinema collection, related navigation and both current book editions",
   "pull_request": "https://github.com/ahimanikya/project-odisha/pull/615",
   "validation": {
     "full_site_tests": {
@@ -101,6 +108,103 @@
         "validate_creations.py"
       ],
       "reconciliation": "outputs/cinema-publication-readiness-20261030/registry-reconciliation.json"
+    },
+    "publication_build": "PASS; zero public-disclosure violations",
+    "rendered_readings": {
+      "count": 41,
+      "issues": 0
+    },
+    "page_acceptance_checks": {
+      "passed": 3460,
+      "failed": 0
+    },
+    "github_required_checks": {
+      "run_id": 41008180847,
+      "conclusion": "success"
     }
+  },
+  "completed_at": "2026-10-30T05:56:01.987891+00:00",
+  "deployment": {
+    "run_id": 41009626807,
+    "url": "https://github.com/ahimanikya/project-odisha/actions/runs/41009626807",
+    "conclusion": "success",
+    "head_sha": "a4f52d71d06320d70610ab7b977d0a4ee5939336"
+  },
+  "verified_routes": [
+    "/cinema/the-question-that-brought-me-here/",
+    "/cinema/odia-cinema/",
+    "/cinema/literature-and-screen/",
+    "/people/basanta-kumari-patnaik/",
+    "/people/kalindi-charan-panigrahi/",
+    "/people/gopal-chhotray/",
+    "/cinema/air-cuttack/",
+    "/cinema/cinema-music/",
+    "/people/akshaya-mohanty/",
+    "/people/prafulla-kar/",
+    "/people/pranab-patnaik/",
+    "/people/tapu-mishra/",
+    "/people/gour-prasad-ghose/",
+    "/cinema/parbati-ghose/",
+    "/cinema/sadhu-meher/",
+    "/cinema/manmohan-mahapatra/",
+    "/cinema/maya-miriga/",
+    "/people/nirad-mohapatra/",
+    "/cinema/bhukha/",
+    "/people/sabyasachi-mohapatra/",
+    "/cinema/aadim-vichar/",
+    "/cinema/lavanya-preeti/",
+    "/people/ak-bir/",
+    "/cinema/nandita-das/",
+    "/cinema/learning-cinema-together/",
+    "/people/surya-deo/",
+    "/cinema/searching-for-sita-bibaha/",
+    "/cinema/who-keeps-a-film-alive/",
+    "/cinema/reading-odia-cinema/",
+    "/people/gourahari-das/",
+    "/cinema/pratikshya/",
+    "/people/anupam-patnaik/",
+    "/cinema/daman/",
+    "/people/vishal-mourya/",
+    "/people/debi-prasad-lenka/",
+    "/people/deependra-samal/",
+    "/cinema/odia-television/",
+    "/cinema/odia-ott/",
+    "/cinema/commercial-successes/",
+    "/cinema/cinema-economics/",
+    "/cinema/cinema-futures/",
+    "/cinema/",
+    "/cinema/book/",
+    "/cinema/reading-guide/",
+    "/cinema/watch/"
+  ],
+  "live_verification": {
+    "receipt": "outputs/cinema-publication-readiness-20261030/live-verification.json",
+    "pages": 45,
+    "image_files": 49,
+    "result": "PASS",
+    "book_remote_hashes_verified": true
+  },
+  "independent_final_review": {
+    "reviewer": "Drishti / independent AI subagent",
+    "reviewed_head": "10985dc2d340fe655143fc9b6d88a000c023dd4a",
+    "result": "PASS",
+    "responsive_followup": "outputs/cinema-publication-readiness-20261030/responsive-final/independent-review.json"
+  },
+  "completion_basis": {
+    "authorship_language": "Individual AI editorial reviews, consolidated 41-reading deep audit and unchanged reviewed source bindings; Founder explicitly authorized publication, not specialist review.",
+    "formatting_footnotes_images_kb": "Current rendered 41-route audit, distinct article image/source bindings, numbered notes, registry reconciliation and live checks.",
+    "responsive": "Retained individual desktop/mobile review records, with four remaining maker profiles checked at 390 \u00d7 844 and independently assessed in responsive-final."
+  },
+  "remaining_limits": [
+    "No ISBN registration or printer-specific press certification is claimed.",
+    "Human specialist or native-language proof review remains distinct from publication authorization."
+  ],
+  "independent_receipt_review": {
+    "reviewer": "Drishti / independent AI subagent",
+    "result": "Supported; two minor record inconsistencies identified and corrected",
+    "corrections": [
+      "Closed readiness remaining_release_actions using the actual publication receipt",
+      "Updated introduction current scope to published edition; old scope preserved"
+    ]
   }
 }
