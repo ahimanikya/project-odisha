@@ -1,0 +1,85 @@
+{
+  "reviewer": "Drishti, separate AI preparation review",
+  "verdict": "PASS output-only preparation package; no import/build/publication approval",
+  "input_head": "1813c967874bc2fe82b2f8235d618197e62c5151",
+  "bindings": {
+    "outputs/dhaga-expansion-198-2026-10-30/samanta/manifest.json": "b6ce9e8ac5de84b5f068d08d5a7f0b7aba2152f98ff7219b6ffd39b063e3a092",
+    "outputs/dhaga-expansion-198-2026-10-30/samanta/art-mapping.json": "d9899fb55a3faf70a8e9c053880249fbc6db0c9991a8bdf2452d11f621b3e501",
+    "outputs/dhaga-expansion-198-2026-10-30/samanta/baseline.json": "002be02bae455417b48da90638b5962d36e948b6be193f009e26f25cc0a47c89",
+    "outputs/dhaga-expansion-198-2026-10-30/samanta/sources.json": "1667ed461a112f83364c0c354aadeb8b677f7496ebd24fee1c854aba554c603b",
+    "outputs/dhaga-expansion-198-2026-10-30/samanta/parallel-patches.json": "dea362f432c55dfb22f81453adbed364a4934231ba5e5d040438b6544ea9d587",
+    "outputs/dhaga-expansion-198-2026-10-30/samanta/verify-package.py": "f94d086274bd0a2465097e99ac18d9d22635f1c3b53a37e00ea0ce561229ac0b",
+    "outputs/dhaga-expansion-198-2026-10-30/samanta/samanta.json": "0f383289cfadfbf101195a12963cf5708928bee65793afff4c3b1a1e25fdda6e"
+  },
+  "checks": [
+    "Ran final read-only verify-package.py successfully:950 baseline files,13 proposed entries,12 source records,2 variant patches,13 selected artwork/review bindings; writes0/import_readyfalse.",
+    "Independently verified all manifest input bindings and per-entry frozen source parity; only proposed IDs/graphics, approved186/187 narrative credits and195 variant key transform differ.",
+    "103/156 exact variant objects match previously reviewed package; simulated append-if-absent twice in memory is idempotent and preserves every other field including current narrative_credit.",
+    "All13 graphic paths, bytes, alt/captions and review-file hashes bound; selected asset SHA appears in corresponding saved review.193/194 use v2. Existing old pending status removed from selected186/187 mappings.",
+    "228369 registered once for187/188. All12 source captures resolve; dictionary-only sources197/198 retain modern-compilation discovery restrictions.",
+    "No canonical files changed by this review or verification."
+  ],
+  "entry_delta_keys": {
+    "POD-DHAGA-186": [
+      "narrative_credit",
+      "graphic"
+    ],
+    "POD-DHAGA-187": [
+      "narrative_credit",
+      "graphic"
+    ],
+    "POD-DHAGA-188": [
+      "graphic",
+      "id"
+    ],
+    "POD-DHAGA-189": [
+      "graphic",
+      "id"
+    ],
+    "POD-DHAGA-190": [
+      "graphic",
+      "id"
+    ],
+    "POD-DHAGA-191": [
+      "graphic",
+      "id"
+    ],
+    "POD-DHAGA-192": [
+      "graphic",
+      "id"
+    ],
+    "POD-DHAGA-193": [
+      "graphic",
+      "id"
+    ],
+    "POD-DHAGA-194": [
+      "graphic",
+      "id"
+    ],
+    "POD-DHAGA-195": [
+      "variants",
+      "graphic",
+      "id"
+    ],
+    "POD-DHAGA-196": [
+      "graphic",
+      "id"
+    ],
+    "POD-DHAGA-197": [
+      "graphic",
+      "id"
+    ],
+    "POD-DHAGA-198": [
+      "graphic",
+      "id"
+    ]
+  },
+  "attribution": "186 adapted supplied ironic gloss;187 source-informed. Existing185 credits guarded unchanged.189/191/197 explicit-gloss adaptations retained; other new entries retain reviewed source-informed descriptions. No wholesale previous-entry replacement.",
+  "limits": [
+    "Reviewed artwork evidence bindings; no new pixel review of all13 in this structural audit. Prior separate image reviews remain the visual evidence.",
+    "Verifier is a read-only assertion-based check, not an import implementation; do not run with Python optimization disabling assertions.",
+    "No assembled198book, generated collection, layout/PDF/site/build or release reviewed.",
+    "Fresh baseline checks and coordinator authorization after receipt gate remain required. Current accepted/public book stays185; historical/source127 cursors unchanged."
+  ],
+  "next_action": "After receipt gate and explicit integration authorization, apply scoped entries/sources/variants and approved art, preserve185 fields, then generate and separately review full artifacts/tests."
+}

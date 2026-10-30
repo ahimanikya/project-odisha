@@ -5,7 +5,7 @@ import {resolve,basename} from 'node:path';
 import {createHash} from 'node:crypto';
 import sharp from 'sharp';
 const site=fileURLToPath(new URL('../',import.meta.url)),book=resolve(site,'../odia-dhaga');
-export const pdfURL='https://raw.githubusercontent.com/ahimanikya/project-odisha/5b18adef5d5a17486f3f2e408e7cd60effec99ca/projects/odia-dhaga/odia-dhaga-book.pdf';
+export const pdfURL='https://raw.githubusercontent.com/ahimanikya/project-odisha/2283967e2da98993418ad3afcd1b97940e764ecb/projects/odia-dhaga/odia-dhaga-book.pdf';
 const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 export function publicSourceCredit(source){
  const url=new URL(source.url),revision=url.searchParams.get('oldid');
@@ -91,8 +91,8 @@ export async function exportDhaga(destination){
  const files=await import('node:fs/promises').then(async fs=>{const all=[];async function walk(dir){for(const n of await fs.readdir(dir,{withFileTypes:true})){const p=resolve(dir,n.name);if(n.isDirectory())await walk(p);else all.push(p);}}await walk(out);return all;});
  await rm(resolve(destination,'internal/dhaga-chrome'),{recursive:true,force:true});
  const bytes=(await Promise.all(files.map(async p=>(await stat(p)).size))).reduce((a,b)=>a+b,0);
- //185 readings retain existing derivatives; bound the additional six pages and illustrations.
- if(bytes>19_000_000)throw Error('Dhaga web export exceeds19MB budget: '+bytes);
+ //198 readings retain prior185 derivatives; bound thirteen new readings and illustrations.
+ if(bytes>21_000_000)throw Error('Dhaga web export exceeds21MB budget: '+bytes);
  const report={entries:data.entries.length,routes,downloads:licences.map(n=>'/dhaga/assets/'+n),standalone_routes:routes,pdf_url:pdfURL,pdf_pages:pdf.pages,pdf_bytes:pdf.bytes,pdf_sha256:createHash('sha256').update(await readFile(resolve(book,'odia-dhaga-book.pdf'))).digest('hex'),bytes,files:files.length};
  await mkdir(resolve(site,'.astro'),{recursive:true});await writeFile(resolve(site,'.astro/dhaga-export.json'),JSON.stringify(report,null,2)+'\n');return report;
 }

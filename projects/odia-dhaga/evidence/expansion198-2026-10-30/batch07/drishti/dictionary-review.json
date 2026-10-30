@@ -1,0 +1,64 @@
+{
+  "reviewer": "Drishti, separate AI review",
+  "decision": "PASS for five output-only drafts; not canonical acceptance",
+  "input_head": "7195f680ddc801f69f2493b0f31c55c8a83de167",
+  "bindings": {
+    "outputs/dhaga-loop-2026-10-30/batch07/anvesha/candidates.json": "d1edfee7e75f2b947489f104701a00b44b4957aefe5195aa4885f8dfb2250ecc",
+    "outputs/dhaga-loop-2026-10-30/batch07/anvesha/anvesha.json": "1306265e849216081ac8ed8b9218e1f37db689f22903446bac845534d49ea4b7",
+    "outputs/dhaga-loop-2026-10-30/batch06/anvesha/candidates.json": "ecc64d1eef00a850eb18321dbb38bc71cf7488d68294493204a4afe9b16a171c",
+    "outputs/dhaga-loop-2026-10-30/batch06/drishti/comparison-baseline.json": "1534d17d59eeb6695167fa28b297c8a6f51b2ec948ade7b0bb00898d1e6be55f"
+  },
+  "checks": [
+    "Read all five complete bilingual drafts and all eight saved original revision text bodies.",
+    "Verified all report capture hashes, exact five quoted headwords and refusal parallel in saved bodies.",
+    "Normalized NFC/punctuation/whitespace primary-headword comparison against 185 plus prepared186/187 plus batch06 dictionary4 and each other: no exact match.",
+    "Reviewed related seasonal and inward-experience entries; shared themes are not themselves duplicate sayings.",
+    "Five source-informed credits accurately distinguish lexical support from new explanatory applications; licence documentation retained without historical authorship or public-domain certification."
+  ],
+  "per_entry": [
+    {
+      "candidate_key": "anvesha-b07-01",
+      "verdict": "PASS",
+      "finding": "Seasonal rhyme is distinct from 003/081/082; no universal weather claim. Kartiki retained, explanatory calendar link supported by source.",
+      "entry_sha256": "c01b16d8d0039eeb915d8e43c5351c0fc67c60637dbd05bb916ca937619f6873"
+    },
+    {
+      "candidate_key": "anvesha-b07-02",
+      "verdict": "PASS",
+      "finding": "Exact unusual ଭାଙ୍ଗିୟିବ retained. Source describes stripped stems; no verified species or botanical experiment claimed. Resolve/stubbornness dual reading is transparently editorial.",
+      "entry_sha256": "62acb4a7ff02604c84579e7baf3dc2e37b4961d6aafb937d6e3714e3a5b442d4"
+    },
+    {
+      "candidate_key": "anvesha-b07-03",
+      "verdict": "PASS",
+      "finding": "Body-pain question exact at sense3. Empathy interpretation is defensible and distinct wording/image from 073/159, not a new medical assertion.",
+      "entry_sha256": "1335893063f64b148091f2b2870b9ab9bb56ef84c8e3b7ae71c12452e10a42b9"
+    },
+    {
+      "candidate_key": "anvesha-b07-04",
+      "verdict": "PASS",
+      "finding": "Service/livelihood definition supports salt metaphor; praise/loyalty versus dependence tones remain editorial. Exact refusal parallel including ତେ is preserved with zero additional count.",
+      "entry_sha256": "b5dc9eb7ee6dd0af197ff068565654f35ea7226cbd77d20b1aa5bf6181c83fc4"
+    },
+    {
+      "candidate_key": "anvesha-b07-05",
+      "verdict": "PASS",
+      "finding": "Exact family dilemma preserved. Speaking-versus-silence costs supported by words; unpaid bills explicitly imagined and no injunction to conceal harm.",
+      "entry_sha256": "73568bd85c3e4f9888dc191a7f08c6ebc3ba31e350f40bdef34d1d150ab3d2ea"
+    }
+  ],
+  "coverage": {
+    "processed_positions": 10,
+    "drafts": 5,
+    "parallel_no_increment": 1,
+    "deferred": 4,
+    "accepted_increment": 0
+  },
+  "limitations": [
+    "Saved-source review, no fresh network retrieval or historical scan authentication.",
+    "Automated exact matching is not exhaustive semantic or oral-variant proof.",
+    "No artwork, installation, reader/PDF layout, publication or human review certified.",
+    "Four explicit lexical/tone deferrals remain unresolved."
+  ],
+  "next_action": "May prepare illustrations and integration for these five reviewed drafts; preserve witnesses, refusal variant and source-informed attribution, then review assembled edition separately."
+}

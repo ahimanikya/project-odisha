@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 865. completed: 149, excluded: 420, queued: 296.
+Route inventory: 878. completed: 149, excluded: 433, queued: 296.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -889,3 +889,16 @@ Route inventory: 865. completed: 149, excluded: 420, queued: 296.
 | POD-EDIT-CINEMA-SURYA-DEO-20261030 | [Surya Deo: keeping a cinema’s memory alive](https://projectodisha.org/people/surya-deo/) | completed | Cinema series reading; no autonomous programme increment |
 | POD-EDIT-CINEMA-SEARCHING-FOR-SITA-BIBAHA-20261030 | [Searching for Sita Bibaha: the film beyond the missing print](https://projectodisha.org/cinema/searching-for-sita-bibaha/) | completed | Cinema series reading; no autonomous programme increment |
 | POD-EDIT-CINEMA-READING-ODIA-CINEMA-20261030 | [Reading Odia Cinema: the books behind the screen](https://projectodisha.org/cinema/reading-odia-cinema/) | completed | Cinema series reading; no autonomous programme increment |
+| POD-EDIT-DHAGA-186-20261030 | [ମିତ ରହିବ ମାଣିକ ରହିବ](https://projectodisha.org/dhaga/sayings/pod-dhaga-186.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-187-20261030 | [ନଖ ବାଳ ରଖି ଭାଲୁଏ ଏ କେତେ ଯୋଗୀ ହେଲେଣି?](https://projectodisha.org/dhaga/sayings/pod-dhaga-187.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-188-20261030 | [ରଖେ ହରି ମାରେ କିଏ? ମାରେ ହରି ରଖେ କିଏ?](https://projectodisha.org/dhaga/sayings/pod-dhaga-188.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-189-20261030 | [ତୁଳସୀ ବଣରେ ବାଘ](https://projectodisha.org/dhaga/sayings/pod-dhaga-189.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-190-20261030 | [କଖାରୁଡ଼ଙ୍କ ! ବଡ଼ଘରପୁଅ ଏଡ଼ିକି ରଙ୍କ !](https://projectodisha.org/dhaga/sayings/pod-dhaga-190.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-191-20261030 | [ରଙ୍କ ଇଚ୍ଛାରେ କି ଭୋଜନ?](https://projectodisha.org/dhaga/sayings/pod-dhaga-191.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-192-20261030 | [କାର୍ତ୍ତିକି—ଶୀତ କରେ ରାତିକି](https://projectodisha.org/dhaga/sayings/pod-dhaga-192.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-193-20261030 | [କାଉଁରିଆ କାଠି ଭାଙ୍ଗିୟିବ ନଇଁବ ନାହିଁ](https://projectodisha.org/dhaga/sayings/pod-dhaga-193.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-194-20261030 | [ପେଟ ଦୁଖ ପିଠି କାହୁଁ ଜାଣିବ ?](https://projectodisha.org/dhaga/sayings/pod-dhaga-194.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-195-20261030 | [ଲୁଣ ଖାଇବା ଯାହାର, ଗୁଣ ଗାଇ ତାହାର](https://projectodisha.org/dhaga/sayings/pod-dhaga-195.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-196-20261030 | [କହିଲେ କୁଳକୁଟୁମ୍ଭଙ୍କୁ ଲାଜ, ନ କହିଲେ କୁଳ ଭାସି ୟାଉଛି](https://projectodisha.org/dhaga/sayings/pod-dhaga-196.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-197-20261030 | [ଖୋଳ ପର୍ବତ ମାର ମୂଷା](https://projectodisha.org/dhaga/sayings/pod-dhaga-197.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-198-20261030 | [ବ୍ରହ୍ମା ବିଳିବିଳେଇଲେ ବେଦ](https://projectodisha.org/dhaga/sayings/pod-dhaga-198.html) | excluded | standalone_dhaga_collection |

@@ -1,0 +1,109 @@
+{
+  "status": "Prepared reviewer baseline; no batch06 candidate verdict",
+  "actual_head": "20dae61ffda9e49f76b7522acea8b5e024c7aa19",
+  "origin_main": "7195f680ddc801f69f2493b0f31c55c8a83de167",
+  "delivered_count": 185,
+  "prepared_not_installed": [
+    "POD-DHAGA-186",
+    "POD-DHAGA-187"
+  ],
+  "baseline_hashes": {
+    "planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/odia-dhaga/collection.json": "8b77c74c510e6b116a9aae126901d2129717958840537842ad651267a1f4d96d",
+    "outputs/dhaga-expansion-187-2026-10-30/samanta/entries/POD-DHAGA-186.json": "db1b0ceeb7d0b63ebdbd526627a776b6595c57058f43b2ca0b1532509c2912d7",
+    "outputs/dhaga-expansion-187-2026-10-30/samanta/entries/POD-DHAGA-187.json": "b9118920acdd4836917661d6b432b3c52bf4181093ada2f34bb45e76139adc91",
+    "outputs/dhaga-expansion-187-2026-10-30/anvesha/source-provenance.json": "c7b2aa795c09d6e0ca266f69d7da75fb5a3f50932636f5acea4527b3bb10efcb"
+  },
+  "prior_bundle_hashes": {
+    "outputs/dhaga-loop-2026-10-30/batch03/candidate-bundle.json": "89a34734164016101b5abb6f4f6dd949ac72b18557779594690949ce06580077",
+    "outputs/dhaga-loop-2026-10-30/batch04/candidate-bundle.json": "90728d3b67b0e1aac937a2ae6f243b9bf0a4a66e120a480adb4ef8de5e6e56d2",
+    "outputs/dhaga-loop-2026-10-30/batch05/candidate-bundle.json": "2e7627f06041e55c831dbff20e6c165cfe0114fe1df68944298b6461438dc63e"
+  },
+  "prior_bundle_summaries": [
+    {
+      "batch": 3,
+      "keys": [
+        "status",
+        "input_head",
+        "entries",
+        "sources",
+        "related_variants",
+        "deferred",
+        "counts",
+        "baseline",
+        "limits"
+      ],
+      "counts": {
+        "processed": 10,
+        "distinct_drafts": 6,
+        "related_variant": 1,
+        "deferred": 3,
+        "accepted_or_published_increment": 0
+      }
+    },
+    {
+      "batch": 4,
+      "keys": [
+        "status",
+        "input_head",
+        "baseline_entries",
+        "counts",
+        "entries",
+        "source_records_by_worker",
+        "deferred",
+        "source_reuse",
+        "coverage",
+        "input_files",
+        "limits"
+      ],
+      "counts": {
+        "processed": 10,
+        "distinct_drafts": 6,
+        "deferred": 4,
+        "variants": 0,
+        "accepted_increment": 0
+      }
+    },
+    {
+      "batch": 5,
+      "keys": [
+        "status",
+        "input_head",
+        "remote_baseline",
+        "baseline_entries",
+        "counts",
+        "entries",
+        "related_variants",
+        "deferred",
+        "source_records_by_worker",
+        "coverage_reports",
+        "input_files",
+        "limits"
+      ],
+      "counts": {
+        "processed": 10,
+        "distinct_drafts": 2,
+        "related_parallels": 2,
+        "deferred": 6,
+        "accepted_increment": 0
+      }
+    }
+  ],
+  "comparison_index_sha256": "1534d17d59eeb6695167fa28b297c8a6f51b2ec948ade7b0bb00898d1e6be55f",
+  "review_requirements": [
+    "Compare headwords AND witness/variant wording, then meaning; string proximity is not semantic duplication proof.",
+    "Prepared186 ironic failed-both-sides and187 bear/yogi appearance/practice are already reserved drafts, not new discoveries.",
+    "Keep103 and156 batch05 parallels as zero-count related forms.",
+    "Distinguish literal transcription, editorial normalization, lexical support and complete proverb attestation.",
+    "Digital dictionary or Wikimedia lineage does not prove independent historical corroboration.",
+    "Explicit source-labelled verse/maxim/idiom may qualify with honest genre; unknown origin alone is not a blocker.",
+    "Preserve literary author attribution where established; no invention from signature/address.",
+    "Source-informed original explanations and explicitly adapted supplied glosses must remain distinguishable.",
+    "Verify all proposed bilingual narratives and imagined examples against source agency, negation, tone, quantities and uncertainty.",
+    "No source127/historical cursor or accepted/public count movement from research review."
+  ],
+  "limits": [
+    "Handoff file absent when checked; assignment message supplies bounded scope.",
+    "No new source retrieval, repeated earlier research or canonical/Git writes.",
+    "Final worker bundles not yet available; no acceptance or readiness verdict."
+  ]
+}
