@@ -1,0 +1,32 @@
+{
+  "status": "reviewable output-only package; no accepted increment or import authorization",
+  "source_head": "64d08f193edafec18c3f75ddef600de2c632297f",
+  "ids": [
+    "POD-DHAGA-199",
+    "POD-DHAGA-200",
+    "POD-DHAGA-201"
+  ],
+  "baseline_entries": 198,
+  "proposed_entries": 201,
+  "scope": "projects/odia-dhaga only after coordinator authorization; no public exporter/shared records/Git",
+  "preservation": [
+    "All198 prior entry fields except187 variants append.",
+    "All prior artwork, attribution builders, source records and historical rows unchanged except accepted_entry_ids for reused133124.",
+    "Source12751linked/75pending/1duplicate unchanged; only current edition-count wording may update.",
+    "1893full2/83drafts;1926inventory103/full31 unchanged."
+  ],
+  "commands": [
+    "python3 import-package.py --book /absolute/path/to/book",
+    "Only after art binding, separate preparation review and authorization: DHAGA201_IMPORT_AUTHORIZED=1 python3 import-package.py --book /absolute/path/to/book --art /absolute/path/to/reviewed-art.json --apply",
+    "python3 build.py",
+    "Run PDF skill authoring marker once immediately before first PDF authoring command, then PYTHONPATH=/tmp/dhaga173-pdf-libs <bundled-python> build_print.py",
+    "python3 -m unittest test_repository.py",
+    "Refresh research-design generated-collection hash using established build workflow; compare all198 prior objects and allpriorassets, sources, historical cursors; visually review cover,new/parallel pages,contents,credits and image fit."
+  ],
+  "pending": [
+    "Three original reviewed illustrations/captions/alt and actual prompt provenance.",
+    "Separate package/importer temporary-copy review.",
+    "Fresh target baseline verification after coordinator updates checkout; do not silently regenerate guards.",
+    "Book build, actual print packing/pages/renders, site/publication handled later."
+  ]
+}

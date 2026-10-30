@@ -1,0 +1,100 @@
+{
+  "input_head": "64d08f193edafec18c3f75ddef600de2c632297f",
+  "scope": "Output-only batch08 dictionary source pass; no canonical edits or acceptance",
+  "baseline": {
+    "path": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/projects/odia-dhaga/collection.json",
+    "sha256": "dcde478696b0143f59c43843ddf754a90846c5669dffbb8a5e886a54f2aacf9e",
+    "entry_count": 198
+  },
+  "candidate_sha256": "32aa897ad4113e149418924bf4176c60140de856287d48592a339355bcc756d9",
+  "coverage": {
+    "actual_quoted_forms_processed": 10,
+    "distinct_new_drafts": 2,
+    "same_item_variant_forms": 2,
+    "parallel_to_existing": 1,
+    "deferred": 5,
+    "qualification": "Ten counts individual quoted forms, including the two explicit alternatives; it does not mean ten independent new sayings."
+  },
+  "tests": {
+    "json_parsed": true,
+    "exact_baseline_checks": {
+      "anvesha-b08-01": {
+        "exact_headword_present": false,
+        "exact_phrase_anywhere_in_baseline": false
+      },
+      "anvesha-b08-02": {
+        "exact_headword_present": false,
+        "exact_phrase_anywhere_in_baseline": false
+      }
+    },
+    "semantic_comparisons": [
+      "187/189 outward appearance and hidden wrongdoing: proposed217981 parallel only.",
+      "190 stinginess differs from food eagerness;191 restricted choice differs from eagerness despite access.",
+      "Three-birth belief absent from current headwords/variants; no origin or real poverty cause inferred."
+    ],
+    "source_captures_hash_verified": true,
+    "research_map_query": "Ran tools/research/query_research.py Dhaga in repository: dated inventory scope/freshness warning; initial ROOT invocation failed path and was corrected."
+  },
+  "fresh_requests": [
+    {
+      "kind": "web open",
+      "targets": [
+        "DSAL exact ମଲା query",
+        "or.wiktionary.org/wiki/ଝରୀ",
+        "or.wiktionary.org/wiki/ରାଜକୁଳୁହା"
+      ],
+      "outcome": "Unavailable; no text used, no repeated opens."
+    },
+    {
+      "kind": "one Wikimedia API batch",
+      "capture": "captures/targeted-lexical.json",
+      "sha256": "7fad635fa5afb32c1e98090f3c201d9677ee36a3156928c2370b3069a358992c",
+      "titles": [
+        "ଝରୀ",
+        "ରାଜକୁଳୁହା",
+        "ଦିଓଳି",
+        "ତତଲା ଖିଅ"
+      ],
+      "outcome": "All four missing, no new lexical evidence."
+    }
+  ],
+  "limits": [
+    "Saved full exact-revision wikitext is the witness; no new original printed Praharaj page read.",
+    "Project-retained Wikimedia licence provenance reused; no fresh licence-footer verification or public-domain conclusion.",
+    "Explicit source meanings distinguished from original imagined examples and critical editorial response.",
+    "No independent oral collection, native-speaker certification, origin, popularity or dated first-use claim.",
+    "Source attribution credits documentation and adapted explanation, not authorship of traditional saying.",
+    "Critical three-birth draft requires reviewer judgment on suitability; not promoted simply because the source labels it Dhaga."
+  ],
+  "next_source_pass": {
+    "completed": [
+      "217981senses2/5",
+      "133124adjective2,noun1/3/4,final paired proverb forms",
+      "217462noun2"
+    ],
+    "do_not_repeat": [
+      "133124adjective1=current190",
+      "133124deshaja2=current191",
+      "217462adjective2priorfragment",
+      "four missing targeted lexical heads"
+    ],
+    "pending": [
+      "A verified printed dictionary page for217462noun2 may resolve embedded metadata corruption; no guessed repair.",
+      "Independent exact-context witness for133124noun1 before any interpretation of status contempt.",
+      "One-in-crore sense2 needs contextual usage evidence before attributing moral excellence."
+    ],
+    "excluded_other_agent": "Samanta owns ଜାଉ revision220791 and assigned Incubator positions."
+  },
+  "review_corrections": [
+    {
+      "candidate": "anvesha-b08-02",
+      "fields": [
+        "explanation",
+        "meaning_odia",
+        "english_summary",
+        "odia_summary"
+      ],
+      "reason": "Corrected chronology: past non-giving, present poverty and non-giving, predicted future poverty. No assertion of poverty in previous birth. Exact sayings, variant and other draft unchanged."
+    }
+  ]
+}
