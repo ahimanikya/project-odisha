@@ -1,0 +1,65 @@
+{
+  "status": "canonical_integration_active",
+  "owner": "Disha",
+  "scope": "Finite 214 release through reviewed publication and receipt",
+  "baseline": 211,
+  "proposed": 214,
+  "accepted_increment": 0,
+  "public_delivered_entries": 211,
+  "programme_credit": 0,
+  "canonical_release_active": true,
+  "branch": "codex/dhaga-214-expansion-20261031",
+  "base_head": "d76f8232ccdd99393ff2f276c741aa335151d961",
+  "roles": {
+    "Disha": "Shared records, Git and publishing",
+    "Samanta": "Site adapter and validation",
+    "Anvesha": "Source preservation and verification preparation",
+    "Drishti": "Separate integrated and exact-head review"
+  },
+  "pdf": {
+    "pages": 126,
+    "bytes": 97861155,
+    "sha256": "f8f46a62b00c29844015643abc04e3d30bf4dac15d72262053fe2cf84b0d628b",
+    "ancestor": "4a832a5f04c7c06f30e6972e285030be149bc7a6",
+    "fresh_remote_download_exact": true
+  },
+  "preparation_evidence": [
+    {
+      "path": "records/reviews/dhaga-expansion-214-2026-10-31/production-samanta.json",
+      "sha256": "576538a6e26ce86fb825eed4bbc727c992b7d00352fb5dcab8747bf5b6974a8b"
+    },
+    {
+      "path": "records/reviews/dhaga-expansion-214-2026-10-31/production-installation-manifest.json",
+      "sha256": "b875359e1c825343da8f291655502410f62051f13953a0a3231af9d3ad43a44d"
+    },
+    {
+      "path": "records/reviews/dhaga-expansion-214-2026-10-31/drishti-integrated-review.json",
+      "sha256": "2fba5985f78db18f554ced2041af6208021afcb7d0012bf6b0efb1a25b46ffbd"
+    },
+    {
+      "path": "records/reviews/dhaga-expansion-214-2026-10-31/drishti-art-review.json",
+      "sha256": "7c9f57905fae03dca1b959d0af8705c4f431ff3995c4ebf078c4cdde73f38ec0"
+    },
+    {
+      "path": "records/reviews/dhaga-expansion-214-2026-10-31/release-source-review.json",
+      "sha256": "4b0c62bba4d3a3a599fb83e52acad2de3a8148525946d04013950b289a3ceef7"
+    }
+  ],
+  "preservation": {
+    "original_pending": 75,
+    "1926_next_inventory": 103,
+    "1926_full_transcription": 31,
+    "1893_full_transcription": 2,
+    "1893_drafts": 83,
+    "programme_completed": 131
+  },
+  "local_review": "Separate AI review PASS: three art, 27 selected PDF pages, 22 tests; prior 211 entries/art/unit metrics preserved",
+  "scope_release": "After reviewed receipt merge, checks and remote hash verification",
+  "next": "Site gates, exact-head review, PR checks, merge preserving PDF ancestor, approved deployment, live verification and receipt",
+  "export_budget": {
+    "previous_bytes": 23000000,
+    "new_bytes": 24000000,
+    "initial_measured_bytes": 23131919,
+    "reason": "Preserve all prior211 derivative settings and new three640px q60 illustrations; actual growth exceeds old guard by131919bytes, new headroom868081bytes."
+  }
+}

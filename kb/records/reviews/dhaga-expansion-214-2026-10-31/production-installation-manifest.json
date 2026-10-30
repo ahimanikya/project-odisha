@@ -1,0 +1,2432 @@
+{
+  "baseline_head": "d76f8232ccdd99393ff2f276c741aa335151d961",
+  "baseline_files": 1139,
+  "stage_files": 1167,
+  "changed_files": [
+    {
+      "path": "README.md",
+      "sha256": "5307b59cbdfdc087c55694b0924cbd75251055eed46da57949d4fcdc4196ef7f",
+      "previous_sha256": "5e397e5e41182538da09d070053286cfb663f0af6267b7c3831aac1e63318d4c"
+    },
+    {
+      "path": "assets/dhaga-212-v1.png",
+      "sha256": "2fd15c0a858daf6e24969e966942d04e0d0b2140813723ad1e6b0fc6554e8cf1",
+      "previous_sha256": null
+    },
+    {
+      "path": "assets/dhaga-213-v1.png",
+      "sha256": "158d634ea7bd8998686de727fef05e5e36bea4e1ea9eb2d8c743e888449de0d0",
+      "previous_sha256": null
+    },
+    {
+      "path": "assets/dhaga-214-v1.png",
+      "sha256": "ae9bdf5f2003e0a7817bd666f1ea32039baf99528d485430036b82b10001e027",
+      "previous_sha256": null
+    },
+    {
+      "path": "build_print.py",
+      "sha256": "0a6a962a2db6213d9c1e000734102c45184f0440439badd8628c6d15cf60d23d",
+      "previous_sha256": "9fb0aa48a3445945dbc2516fbc91ce66340b98d8c6eb34350885a70c19895438"
+    },
+    {
+      "path": "collection-metadata.json",
+      "sha256": "664d289da862f7c7bd57e1417e12d404e04cfaac08cb906c324e7b41eb34cfb1",
+      "previous_sha256": "06547e7d41f20fd9f08a9bcc26247c0e32ba9854a2edf45593fac0595a315373"
+    },
+    {
+      "path": "collection.json",
+      "sha256": "4a5916e344fac39072c7d07b18a0c9aaad5b4ff49fe9c8221cbe4b5e1e695049",
+      "previous_sha256": "eb86f3e44595910803b91aa9d0dc72a3ca7ab3fed787bb4305ef100313fce77d"
+    },
+    {
+      "path": "coverage-ledger.json",
+      "sha256": "92544c7d56af2cf495df1b74dd012a13447e5716695ee098af956b89b8489ff1",
+      "previous_sha256": "0ee94289fe8de47f6ebd79c9911a9e2094e9badd4f14c8dbefff63ae35986be4"
+    },
+    {
+      "path": "entries/POD-DHAGA-212.json",
+      "sha256": "e09179d1cf315d0a2e1e1eda7dd46e454f826ae9a6d147908ea600c607410a78",
+      "previous_sha256": null
+    },
+    {
+      "path": "entries/POD-DHAGA-213.json",
+      "sha256": "a2bb08e58ae8e14bc0f094c5b65d5c69873d95af9fa4decfda843907aaee2e70",
+      "previous_sha256": null
+    },
+    {
+      "path": "entries/POD-DHAGA-214.json",
+      "sha256": "38be5efd350f719bdbc792928a38c577d7fa356d0ab82760657428d363596a4b",
+      "previous_sha256": null
+    },
+    {
+      "path": "evidence/expansion214-2026-10-31/anvesha/155158.txt",
+      "sha256": "35f820bb1ed490d31f1e01b3a3b22d0d9448f598ea6e99055f21b8326ece8851",
+      "previous_sha256": null
+    },
+    {
+      "path": "evidence/expansion214-2026-10-31/anvesha/158575.txt",
+      "sha256": "e6ae50bfc0d29bf0e31703caa3eeddcd06e2d547a3ee795a5e6f454891e3408a",
+      "previous_sha256": null
+    },
+    {
+      "path": "evidence/expansion214-2026-10-31/anvesha/67652.txt",
+      "sha256": "daad1ba969733064967d966704f0545554599f8ab3d3c03b4950baf5b7535dc2",
+      "previous_sha256": null
+    },
+    {
+      "path": "evidence/expansion214-2026-10-31/anvesha/candidates.json",
+      "sha256": "437b84be86e0abf4b52e4f8baae527bfac2518131ded8b8e172ea2d984bb0ce6",
+      "previous_sha256": null
+    },
+    {
+      "path": "evidence/expansion214-2026-10-31/anvesha/report.json",
+      "sha256": "c6651a62c58646851f34397e7be7597aea407a271143bac63b00aa371b53561b",
+      "previous_sha256": null
+    },
+    {
+      "path": "evidence/expansion214-2026-10-31/anvesha/source-registry.json",
+      "sha256": "ae9de1ace8314a732cf2508b4ba6ec5fa4b35bba2494a5ef7e2d6efc1fdd7e6a",
+      "previous_sha256": null
+    },
+    {
+      "path": "evidence/expansion214-2026-10-31/art-prompts.json",
+      "sha256": "350562e1bdb437f000b4819b8c9948a0a0d6170f06ca8ca3f025851125996c63",
+      "previous_sha256": null
+    },
+    {
+      "path": "evidence/expansion214-2026-10-31/art-review.json",
+      "sha256": "7c9f57905fae03dca1b959d0af8705c4f431ff3995c4ebf078c4cdde73f38ec0",
+      "previous_sha256": null
+    },
+    {
+      "path": "evidence/expansion214-2026-10-31/candidate-bundle.json",
+      "sha256": "814d8e9f607e722f3d46c76c5c8bc452f90b0b2373aba09e342434b1fb7b8cdc",
+      "previous_sha256": null
+    },
+    {
+      "path": "evidence/expansion214-2026-10-31/delivery.json",
+      "sha256": "afa756c423ca9037c73656732c6a404ef8542e10c9cc0a37010d55c8ee99e92c",
+      "previous_sha256": null
+    },
+    {
+      "path": "evidence/expansion214-2026-10-31/drishti/assembled-review.json",
+      "sha256": "79621034afcb4ddb0b9e99da463624115fa6251d11b81d3811384ab30165ea51",
+      "previous_sha256": null
+    },
+    {
+      "path": "evidence/expansion214-2026-10-31/drishti/integrated-review.json",
+      "sha256": "df5242ce3b69ed5ed9c384c654f7d90e07c25bdb4f08140e5583a877b31dec0c",
+      "previous_sha256": null
+    },
+    {
+      "path": "evidence/expansion214-2026-10-31/drishti/source-context-review.json",
+      "sha256": "59494697ffdeba63d1ca5e233836967f086c143a98ec70c97152071e8f8a6a88",
+      "previous_sha256": null
+    },
+    {
+      "path": "evidence/expansion214-2026-10-31/generation-provenance.json",
+      "sha256": "74a3b86864afb79b52d1d481ea355d33b6720a768f08e8960a2086121159ccbc",
+      "previous_sha256": null
+    },
+    {
+      "path": "evidence/expansion214-2026-10-31/preparation-review.json",
+      "sha256": "99914c785566527215447e7f2c2be9c64ca1e442ac86a578ea1b5eb637ad4040",
+      "previous_sha256": null
+    },
+    {
+      "path": "evidence/expansion214-2026-10-31/printed-2941-verification.json",
+      "sha256": "a0782cb56ff26166aed7036b7edd378fcedfe7ba4e7f196987e22cb22c36d679",
+      "previous_sha256": null
+    },
+    {
+      "path": "evidence/expansion214-2026-10-31/samanta/final-draft-validation.json",
+      "sha256": "b4c77fb0c7af15230f9f6cdf68451cccfc154681d683735a6c3ddbe734cd9609",
+      "previous_sha256": null
+    },
+    {
+      "path": "evidence/expansion214-2026-10-31/samanta/witness-check.json",
+      "sha256": "d0183a84b7566a01774944a640f430f4723916a8073c75c6cea72abb4f58890c",
+      "previous_sha256": null
+    },
+    {
+      "path": "evidence/expansion214-2026-10-31/selected-art.json",
+      "sha256": "78803df19ac1c5e8b1b43a1e44ca1447d208c4328831187dc620c3e2c0f92523",
+      "previous_sha256": null
+    },
+    {
+      "path": "index.html",
+      "sha256": "bdafd5f1cea9ab814cd11c70b99ecdf7902cd0c5b6efbc9b3f364dd5fb30ecf6",
+      "previous_sha256": "fb253053447e8d14c40c87c4fd809fa05d98fe48e3f9c2108cf9aef5b52178b1"
+    },
+    {
+      "path": "odia-dhaga-book.pdf",
+      "sha256": "f8f46a62b00c29844015643abc04e3d30bf4dac15d72262053fe2cf84b0d628b",
+      "previous_sha256": "1babc5d71db9522c65eb8ee23887c9da3917f54fa0fea306f37b4502f2786877"
+    },
+    {
+      "path": "packing-report.json",
+      "sha256": "7d6d222db82678235f030162a349a52bbf4d9ba39f7b169aeb976bf89eec2e01",
+      "previous_sha256": "8ba87586b06d27d47266c5413da50feaba462fd38f70fea5288688dc7aa867e0"
+    },
+    {
+      "path": "reader.html",
+      "sha256": "c210441b3ddb73721c26824d4f79f9781daad8559b8d2e43847bb269fe64a8bf",
+      "previous_sha256": "8b0ea5f627b6f440f050ff8b3f4b36006488d5f3cb6fb6b5859defab61ab9cc0"
+    },
+    {
+      "path": "research-design.json",
+      "sha256": "5507f02f37313d6208cb4ec0a09af62fe506e248dc2cbb8cabf4ada02cce9342",
+      "previous_sha256": "d6b67813054a4c2a0aff24b06e3455d252f75089e3bb8fc670380431e39a2fcd"
+    },
+    {
+      "path": "sayings/POD-DHAGA-001.html",
+      "sha256": "db09f054b28c612620623e5d8c38f5514d754818b86b542eeac76dce326456f3",
+      "previous_sha256": "c811f87623c7a770812c4ec96790b9234e7e3b11dc1359c4f424b4e55a028617"
+    },
+    {
+      "path": "sayings/POD-DHAGA-002.html",
+      "sha256": "bdbef2eb483e93573aded5f09974580d837f7b9fc1b4823089f454fb3bd9f590",
+      "previous_sha256": "6b6c92f6c20a255ca2d29d4b9b0ffb40bfde071cb4c9074930aac6041b2497de"
+    },
+    {
+      "path": "sayings/POD-DHAGA-003.html",
+      "sha256": "dce5e1bb0c86bf9a230164991b80fe1971e5bbd61807e913903750e5812504c0",
+      "previous_sha256": "ef2c7c4644a1cea21b7176840f6019ea36bb82a46ec8f5a52f55461156769904"
+    },
+    {
+      "path": "sayings/POD-DHAGA-004.html",
+      "sha256": "0e7fadbaa57412bacd3f1724b3a1e8d239f8b620235372fe177796be67a9471a",
+      "previous_sha256": "85069ae0b715e6ea9e42ff002319c7f5eb413559512b9356edd59c8d8e0c112c"
+    },
+    {
+      "path": "sayings/POD-DHAGA-005.html",
+      "sha256": "c75d7e2b8b8916a9a0bd50b9d33ddaf570c3a718cdd5e35f8bb1258f49663e94",
+      "previous_sha256": "d093dfa6a8b6786dd08ebad56f5a645ac4f5385e76e320ce0777666309341dfb"
+    },
+    {
+      "path": "sayings/POD-DHAGA-006.html",
+      "sha256": "0bc60340bdd712b23e10c9586409d98f230f1eca29221886971bb45e5d571c98",
+      "previous_sha256": "6f0396550162ba500a2beb7a33f08682c5666ed3b38c40cfac09729f0abd7f89"
+    },
+    {
+      "path": "sayings/POD-DHAGA-007.html",
+      "sha256": "cca6440cc2c78ab025a3a9369b0c50b6036dc243d163000b9cb6ee204f124c21",
+      "previous_sha256": "b36ff7a7389e3de262326beaf42903f2cc2f1c32261dda66c737b94a871cf09e"
+    },
+    {
+      "path": "sayings/POD-DHAGA-008.html",
+      "sha256": "2508a3e6d78a593603c468840f347d1dca960baefdbb7a980db2868d2fc7d895",
+      "previous_sha256": "fd3ae51d48e83b36baabcab551289597199c15dbf1532b7024f4ea68efa6d372"
+    },
+    {
+      "path": "sayings/POD-DHAGA-009.html",
+      "sha256": "e82287a5630c6f6cf6e7e4fc0fed173a659a70a0be408eed09cd76a41e8d5933",
+      "previous_sha256": "7e6a9088a6abb83d28284d096af12afc119235ffa6ab2834a776e1e7ae7d8848"
+    },
+    {
+      "path": "sayings/POD-DHAGA-010.html",
+      "sha256": "72df7ba3ecb8852392e3c3378fa5e7428ce2edd2aacec31ed994109c27537d97",
+      "previous_sha256": "632e78d74da73225b4684ea11d8746982c196ae1d1d460ab2f31a466b4c89b60"
+    },
+    {
+      "path": "sayings/POD-DHAGA-011.html",
+      "sha256": "31bbe8d4be634a84003953dc3d38fa8832ac578c90383ccb7b01037ba74893c9",
+      "previous_sha256": "0d17771544535f8bfb1865566c2e01cf9f499b16e26f31d19e0171d115f46eba"
+    },
+    {
+      "path": "sayings/POD-DHAGA-012.html",
+      "sha256": "52af1574767e8f78118c15e1f8795ef7ec5915079b30d3903ddad7d14f9d32d0",
+      "previous_sha256": "0afc70d204ee1bf5bd663a9001d70e3bc5e7f023435d2f192cdb340af616f604"
+    },
+    {
+      "path": "sayings/POD-DHAGA-013.html",
+      "sha256": "b53dccdab6e2aaf61ac3cb1b8dc86e1e03becdedd14bd4008a87266234747ddb",
+      "previous_sha256": "2db0c23431d978b7bbb8b9994a1d5cdf44b534498b04e83e41347621d48d9cd3"
+    },
+    {
+      "path": "sayings/POD-DHAGA-014.html",
+      "sha256": "176587a6eb43458542f480508619e70608175cb1f430bf419758b82b5d48c1a3",
+      "previous_sha256": "af36ea1e1df1c8242180686373bf3d3e7812f1c63396a9f1c53003c9560c0ee0"
+    },
+    {
+      "path": "sayings/POD-DHAGA-015.html",
+      "sha256": "7f4242ae9493f4746d05df479acf0195ad8475751499ea48cc6e90c24e85cbfb",
+      "previous_sha256": "cea699fab2fff61938585a98bd538a17adbe9b190c0b5e35a8476f3940d4e3c5"
+    },
+    {
+      "path": "sayings/POD-DHAGA-016.html",
+      "sha256": "4abf450cd4261a97856db179ddf2dd3d06dbf924afa368ceb88c5eeb26defa51",
+      "previous_sha256": "370971ed60cdd467865e9ca9ca6c98a89e6ceed07c17d5fec224e959119c2d33"
+    },
+    {
+      "path": "sayings/POD-DHAGA-017.html",
+      "sha256": "d0e2498853f34cdf538e1fad7caef75fcf9e5c0998a35bf023f19c9107fa0730",
+      "previous_sha256": "71092c399303e477d0f29ce183af235a19d0c2c419ebf760b08a5b24d3e421b4"
+    },
+    {
+      "path": "sayings/POD-DHAGA-018.html",
+      "sha256": "3aceb5f47b926c7612fd2b7f8943353d2bee6fa88fee517b399492795676f935",
+      "previous_sha256": "9821fd3fa0b031be7d553beae5de1225fb0248a36e5c6b3889efc13ec49749e9"
+    },
+    {
+      "path": "sayings/POD-DHAGA-019.html",
+      "sha256": "c6d068d0dbdc3d0eee6a3d421787468370cebe01c1dc81c104e44f3677186273",
+      "previous_sha256": "803f114006bc7d838b6be8a6ade2fffbd1d95aa8600c9f817f8876e7808cfa3e"
+    },
+    {
+      "path": "sayings/POD-DHAGA-020.html",
+      "sha256": "dfaca4f0f8f6e9632d08c74e3918d68b1b9738d12076bd8cd3fa3f5719aad2a9",
+      "previous_sha256": "ee36ee635d0bd09dbb282d0fa1b3b1b014b809e19a123318a6d8f2b95bbafc23"
+    },
+    {
+      "path": "sayings/POD-DHAGA-021.html",
+      "sha256": "c1a55f0a9a1494686261c4552b32bb22064b0aeb8361c5f8840b12101834771c",
+      "previous_sha256": "4988677953b1e3cf847da784fb047d7770dfbaf874194386054b91d285bdba9b"
+    },
+    {
+      "path": "sayings/POD-DHAGA-022.html",
+      "sha256": "1fddce0d6cb3b5f1ef056835cc56d1e67e1440ace57c1e165ab80b9615118fd1",
+      "previous_sha256": "fa0758d05d5c185299ce0961311a94a86b9078428ee2ac0403f861763fe058fd"
+    },
+    {
+      "path": "sayings/POD-DHAGA-023.html",
+      "sha256": "de358f2010bf7e5ecf6ebdf47abf77a3b745141b55b537574d6cd9d30a064530",
+      "previous_sha256": "ad4cfa3fa86cbb1500dbf3f105bfcfdfa78502ce754a8ac5cba3308c41e1d5f0"
+    },
+    {
+      "path": "sayings/POD-DHAGA-024.html",
+      "sha256": "86109acd229c4472e48d1bc0078e11a45a1a44ca3ee6401b6a4954d73f30e535",
+      "previous_sha256": "bd043d9dbab617b5025f561627128e8f50f81348949f20807164e6c6e59a8768"
+    },
+    {
+      "path": "sayings/POD-DHAGA-025.html",
+      "sha256": "1aae13c19b3446dc96a8a1950abe61085331f2c56eb320ab5f5f41d9da90798a",
+      "previous_sha256": "cdd1531098b0c87ffb5f90907935838a5458711cecb536eb807ac32950a68761"
+    },
+    {
+      "path": "sayings/POD-DHAGA-026.html",
+      "sha256": "a2ea5a06cddb38843a1ffac10752ba05a778c4f67e03b12b00dddaa52633856f",
+      "previous_sha256": "0f0438b146be258034f90fd7e91a88cb11e4720621aa6075215c18fd4a41e386"
+    },
+    {
+      "path": "sayings/POD-DHAGA-027.html",
+      "sha256": "0f72e4482726365d929e0dcb8ab3be71984790c148140c55361ea210c798d1b9",
+      "previous_sha256": "e94d583c9fc4d7d4be6d0b8da6f17679272593ec042ff231e79a8c8a47f2d201"
+    },
+    {
+      "path": "sayings/POD-DHAGA-028.html",
+      "sha256": "e72a5f1bafb4c7d4abc5ddfcda4e1a16322894c952a3827c560315641234250c",
+      "previous_sha256": "516ae1758b6aea0dfaca29ea7e0f54cd431de27ef6ead668671197708d2ca3a5"
+    },
+    {
+      "path": "sayings/POD-DHAGA-029.html",
+      "sha256": "c162f88a17ac0b1ca6e7bbdce575022dde1cf2901c95ed2476b23a2f52aeebd7",
+      "previous_sha256": "9f0fc4a5efc903f1b9eefdcf302b5fdff7251e2654f6956d8f8992a3fc51380c"
+    },
+    {
+      "path": "sayings/POD-DHAGA-030.html",
+      "sha256": "590bc244eec41d07736fbb738a9f06266149e4d95db698205672a3f1559cffa4",
+      "previous_sha256": "d6884f568e8e2e6739e46d2c3ab30d6162dc9296fe9cd0e5ca512f3bb319c92a"
+    },
+    {
+      "path": "sayings/POD-DHAGA-031.html",
+      "sha256": "e86a4eda49652c5f8aca935e81eab4c1420275ecdb730deb470c3d5de4002e96",
+      "previous_sha256": "116a1b4c7fe6d7070e0cfff9eae0fdde7f02e3c55ce59e0c650e65f2d4b991ef"
+    },
+    {
+      "path": "sayings/POD-DHAGA-032.html",
+      "sha256": "2cb86a2b896b05d5b2185ad8754aeab77e936ac30a56ad5afcbb10b34565d601",
+      "previous_sha256": "06cdb606ae62277c495e656d308ec5887023ae98f0d1c94a4191d9546dad8fc0"
+    },
+    {
+      "path": "sayings/POD-DHAGA-033.html",
+      "sha256": "2e2e7d17a4659502d8413267795cf53fb4ce1fbc84e76fa18ecc15a30c617076",
+      "previous_sha256": "0f20790e6f3c0a339173481386e4a891714d77cf5f115d73a39209a3e2513782"
+    },
+    {
+      "path": "sayings/POD-DHAGA-034.html",
+      "sha256": "4db6df01f0855df1161db2bd6a8d7da1d0d6197a726dca08d8ba735d0bb07bc2",
+      "previous_sha256": "18e590b90968e2cdfa50525f9b23a38b045d71a89f6b7a88ddd9fdb11681a62e"
+    },
+    {
+      "path": "sayings/POD-DHAGA-035.html",
+      "sha256": "5f775deee453bb44564dedabbaac6f2c6d803a05b6834d91491f3701d2e98332",
+      "previous_sha256": "05ff3114112ab595d5b57e8c69cdddb40604aeeb64223479848b98bf5328bce8"
+    },
+    {
+      "path": "sayings/POD-DHAGA-036.html",
+      "sha256": "b538c871b5480fe0e74490b31f2eeeea3bde45608db7a07a8d945898d1d84a72",
+      "previous_sha256": "842524e646823801ef8feeb4d026a348c053d968edb5a4e8eb8c032952dfeb0f"
+    },
+    {
+      "path": "sayings/POD-DHAGA-037.html",
+      "sha256": "28ac12735239510d9960f524925e5f391868689cd5ba080e4a7ef805a61ddf17",
+      "previous_sha256": "fac99cd74603ed2511d1f2a98d87f7113738a49ed42506209ce3599c63393817"
+    },
+    {
+      "path": "sayings/POD-DHAGA-038.html",
+      "sha256": "e9ad129e1d96c9a055823bc3e1f5586055f89b86e2d39beac6847b86a1432daf",
+      "previous_sha256": "9bd4e4b4fd64f67eece8d74e8ff9bf461d32302fc697446e3619e78c9ddd2487"
+    },
+    {
+      "path": "sayings/POD-DHAGA-039.html",
+      "sha256": "110323fda70d54f0ce0dfa893a0b05dcdfde936d8205572df5aa7ddebf6920ca",
+      "previous_sha256": "8958f9ff47ba86f4536b7f4deef9c9e5d97c070e8198938951067d955de9f3e2"
+    },
+    {
+      "path": "sayings/POD-DHAGA-040.html",
+      "sha256": "478c32f8fe580db60d19ed72abccfea783c998829041a90acc2219ba79a2a9e7",
+      "previous_sha256": "6f3f28eb2bc2e00ed0face4bfaa636adc97b1b328a5675ed6c3b5aa30271159a"
+    },
+    {
+      "path": "sayings/POD-DHAGA-041.html",
+      "sha256": "eb57939747ebc0c124c126d09b7884fc0bfe7d83e6547caa50d5e03b15969a79",
+      "previous_sha256": "e01c284c0221dd508fe3674f30a71de9d1144987234f004b82062179079f55be"
+    },
+    {
+      "path": "sayings/POD-DHAGA-042.html",
+      "sha256": "4fdfd0edab23dc343a4321a7689015ed93e93199e309d41cd0f2f7201e8c2c6d",
+      "previous_sha256": "34546833a2f0fbb77997b59858cc00956f95b1cc27827d78a5a56d419d5304b9"
+    },
+    {
+      "path": "sayings/POD-DHAGA-043.html",
+      "sha256": "a1f86726d79e3dc19fab771fcb58c6ab8acf193c8cb19b2cc6c8deba68f1ec00",
+      "previous_sha256": "b87ed02d4466a01ca3ac00a70e939401a75ab392f68472802ba7f20f84847d5c"
+    },
+    {
+      "path": "sayings/POD-DHAGA-044.html",
+      "sha256": "d6fba35fb8ef3a5d093da7113d684fb30410e3ee9b97593262afd6638b0b1585",
+      "previous_sha256": "1c22d04729ef65ccd0f6d9c913b3ff4921cc114280b9c83f5cc3632da6bb7c3a"
+    },
+    {
+      "path": "sayings/POD-DHAGA-045.html",
+      "sha256": "f2544f5aee0ee3403290a70878a1b50e4af44b57fe3e4a0427935dd95e8d9007",
+      "previous_sha256": "d36220e3ba3529c4ae9e7e63d9391285279cea81011c219348dee8f8716f6f07"
+    },
+    {
+      "path": "sayings/POD-DHAGA-046.html",
+      "sha256": "95894554f1e2443ad52818ac78dd46a8fce07d29624c0514f4085b1901b4ad28",
+      "previous_sha256": "5f4b64628c9c68819d090645a16b46de1a20c11a220034031613cc6948d1e68e"
+    },
+    {
+      "path": "sayings/POD-DHAGA-047.html",
+      "sha256": "8cd8c2d89df458116c5ba0dc800e2802d57f981a47e1e9a1f18d8897bac58421",
+      "previous_sha256": "320c3f565d86a75e107e4005673445a61e76b5b9bf1736e29f0d82d108fb11da"
+    },
+    {
+      "path": "sayings/POD-DHAGA-048.html",
+      "sha256": "affc16cc65200a4a28287139b897ac762fb9442f3ac0c990cdaae9dbde93082f",
+      "previous_sha256": "087d127e276707e17c2ff749a3e5b26514ba4f8bde121d12850fc28ff8208be0"
+    },
+    {
+      "path": "sayings/POD-DHAGA-049.html",
+      "sha256": "455d2987513fdd1f603e5b86149645bd61b244bea5525454fddc5cc741e645a9",
+      "previous_sha256": "feb147fedd183bc4da7572b37202d7892f4c5e0e021accc0dc612f0285fb7407"
+    },
+    {
+      "path": "sayings/POD-DHAGA-050.html",
+      "sha256": "6ef6a709eff99cca6fa7976c6667f19229ddfd66ae323376273726eb4f29785d",
+      "previous_sha256": "348a56a478650e0a0864ee3d93b565ae275ca7e7a419602ac7939a0dba4cbfdb"
+    },
+    {
+      "path": "sayings/POD-DHAGA-051.html",
+      "sha256": "c4e76b1ecbbad61672a5dabe5b3487a2eaa55b261c3b7b7564734fb71713b26d",
+      "previous_sha256": "dc3efb3d2788d47b5fc565256d5ef24d0b0e21632c61cfab204e8a0f32bd77c4"
+    },
+    {
+      "path": "sayings/POD-DHAGA-052.html",
+      "sha256": "6ab0cb7b97baf52b933d0fe67ba4883bb5a34467040e6a8be26a016ce5dbd3c3",
+      "previous_sha256": "ef0d5559b0d79be558305ca5cd79d8390e901f23108ae4556b393db34a80bb76"
+    },
+    {
+      "path": "sayings/POD-DHAGA-053.html",
+      "sha256": "ce0471b9942ec335052cd90db847916bd18ac81649fc484d5d6f315d24ddb1bd",
+      "previous_sha256": "a00604e68a57f009d151abedfc33188f7b802d696888b0f43708a7bb3b7b0e15"
+    },
+    {
+      "path": "sayings/POD-DHAGA-054.html",
+      "sha256": "89b012cce2948aa1f0995f1fde87cc857b172eca3b6b3bb3b2116fbb4b142cc2",
+      "previous_sha256": "5885105b2542ce98e666c31621ef186b250335bc85e64cdcdb8d9ca23718b174"
+    },
+    {
+      "path": "sayings/POD-DHAGA-055.html",
+      "sha256": "e8848f057072f8a1215385cd53e296004f25b1417c4ec02592916a4bd717762f",
+      "previous_sha256": "df0d2846ad845f3cce9ddcd9b4260f3533fd096cccc3e41c0d96c3e7dfd0601f"
+    },
+    {
+      "path": "sayings/POD-DHAGA-056.html",
+      "sha256": "166f65262e9528d302700ad4edbef8a97a7df98d340bf4b6b087bd93c43454ab",
+      "previous_sha256": "354f22ad063d41593530b76629e815c3616712ed6c9ce9ce2a7162ed5ab369fa"
+    },
+    {
+      "path": "sayings/POD-DHAGA-057.html",
+      "sha256": "17cb52ed0d7521b80dbbcb10cc4f8cafc8cabbc819e90ee18a8c74cd68015ef0",
+      "previous_sha256": "e3e15bb406988b1e2942e6acfdb8780941e770f54930f027cec60c13ec3b9a0b"
+    },
+    {
+      "path": "sayings/POD-DHAGA-058.html",
+      "sha256": "d4e09c97f85920f1b1dbf0e17b14a5e68122eaef393f0d62fcf32c371511591f",
+      "previous_sha256": "59e268ada019785dbda74b989f9ba26805330cbe606358d77c6807b0f01035b6"
+    },
+    {
+      "path": "sayings/POD-DHAGA-059.html",
+      "sha256": "ebe4858153611e00d9faefde10b8981b696b0b223745d892d9ff9f147accadad",
+      "previous_sha256": "64497761c7589b3574c20b92d63e144af918bf6579dc79fa549c98fe40517208"
+    },
+    {
+      "path": "sayings/POD-DHAGA-060.html",
+      "sha256": "45933b28b4907b75cc7e4b3cd760ab653bce918b80c3f069143c7233c13f54b1",
+      "previous_sha256": "dc35948b9fbce3435d1946b18f4108a59951837294f16d293d0bef563b8a96aa"
+    },
+    {
+      "path": "sayings/POD-DHAGA-061.html",
+      "sha256": "1bb88adf665734c0b9333e9144f4213d3c5f63fcf4be8253b2dc383c4986b183",
+      "previous_sha256": "f9cfcef057e31100676f2504d97365cff04b826307a5c0b3d1ff18eb07392221"
+    },
+    {
+      "path": "sayings/POD-DHAGA-062.html",
+      "sha256": "c40bffb06b9b78d677551d86f245c65e0644f59797935c9b4b43b4c11d57cbc1",
+      "previous_sha256": "52b69f221c96d4157f42b55817d0e34831389611233fd33492dc3534ce440cd3"
+    },
+    {
+      "path": "sayings/POD-DHAGA-063.html",
+      "sha256": "512e94eff9bbf82bd41671a19638de0c381dbde7ccff576c2cb806024fda0b65",
+      "previous_sha256": "b548616628ae75f00a8b3416e1ab02fdc5bc2d3539b73698c07e1a1388f34a94"
+    },
+    {
+      "path": "sayings/POD-DHAGA-064.html",
+      "sha256": "54f3b8e738f92c45d63281168a4812d3307789e2b8b7882f038c4120a03b9492",
+      "previous_sha256": "d692b5be1bf7f5bc958a73261dc836979acacde13fb655405277bb5d47107e84"
+    },
+    {
+      "path": "sayings/POD-DHAGA-065.html",
+      "sha256": "f7fd65d789b0417564f1807575c35dace11a6c8c420893d5724003435b852c33",
+      "previous_sha256": "1fafd95551a42241dc93c3ee7103d6d0ed48a97b7326c8b62f2f42179e5de6ce"
+    },
+    {
+      "path": "sayings/POD-DHAGA-066.html",
+      "sha256": "2eb3a99f7f3458043855593e2af910cfaaf61ce67bdbb6d50f4398f63386b932",
+      "previous_sha256": "5235f1ce16568ba967dda9aa48ca64ad406e0ce53a802e39a229e11fa99c0c2f"
+    },
+    {
+      "path": "sayings/POD-DHAGA-067.html",
+      "sha256": "e7f6a861919fbab867a3f717ed1efe7a2a10d562f6dffd38c583579efacd5513",
+      "previous_sha256": "92b32a4cbbea6c6fe885ad0dfb5533acd14c9a49810a1cd2907c05b7b33f431d"
+    },
+    {
+      "path": "sayings/POD-DHAGA-068.html",
+      "sha256": "395547be8721000c49ed6037489fafd077b09498ffbcf19add25ad7ed35b8839",
+      "previous_sha256": "d1fad18318833f42c26dfbb8a52e127df20957b454e7d3a157bcb255807c7b5a"
+    },
+    {
+      "path": "sayings/POD-DHAGA-069.html",
+      "sha256": "b2033d18b2ce19b16f21df35986cf02031e8dd742ac5062e13935ce9d11e7f2f",
+      "previous_sha256": "6d691f131f7c66f901c3433bb9a318280a5ec51c0c47147f95fa1fcdc66458f8"
+    },
+    {
+      "path": "sayings/POD-DHAGA-070.html",
+      "sha256": "6b7919a6e95ee11e94583c6eacc49cfc271251f35709dffcbfa8d16b0f3b13a8",
+      "previous_sha256": "a5a2d16bad6b781d24de34b2c6581e3f7f383ec02fd85a83a01f11fab51325d4"
+    },
+    {
+      "path": "sayings/POD-DHAGA-071.html",
+      "sha256": "5b442b57a5e45b1ae879ab07aa4c9a1ade8b7b8cee5168929cdb9f781ba6b364",
+      "previous_sha256": "2b6fbfd03bc3f103be429597c65ec55bb937b50214621489070cd5eb10fee78b"
+    },
+    {
+      "path": "sayings/POD-DHAGA-072.html",
+      "sha256": "3272d6c212abefbc0fd53d53cca9177128c2d15bb86a965992bd9e4682b1c060",
+      "previous_sha256": "77244108f5bdde7287ff22cb1eff6bb8d934b447bd1446fc4ad328f959984ad7"
+    },
+    {
+      "path": "sayings/POD-DHAGA-073.html",
+      "sha256": "f104968ecbde762c692748602673c6203ecd0bd18432225887af6887d0e82537",
+      "previous_sha256": "b3a0c81df84ec17b056b21e16af83821b5432337f28adb454411689c4eaa5f32"
+    },
+    {
+      "path": "sayings/POD-DHAGA-074.html",
+      "sha256": "7141c486af3b7ca5ae06fd9ff351e1d34dfeff94f02e7f0cc86bcb6a11f49282",
+      "previous_sha256": "8904282cf191873f878fae7f13cec3e7dc9fbda9ac6e60fc69db6b7cc4dbe74d"
+    },
+    {
+      "path": "sayings/POD-DHAGA-075.html",
+      "sha256": "f89b801ca1fc66bbb45b684d1bac543545f439ab9173252955e4ae1bb36e887b",
+      "previous_sha256": "faefdced61bbd32c4704d3bdca3b8288b00422e6b18664bab77a95e989fa65ee"
+    },
+    {
+      "path": "sayings/POD-DHAGA-076.html",
+      "sha256": "92937327f17d082c3fe24308c4fa7e65bacaf437025003f71c3ab602633f598e",
+      "previous_sha256": "dc4de46a6d4728eb4794cc7068d67e5c6fca25428b89110160e8fb16b1870e59"
+    },
+    {
+      "path": "sayings/POD-DHAGA-077.html",
+      "sha256": "dffea70097cede66c697d0a7623041ab6ad160854e8eeb1326c2ce07897829f1",
+      "previous_sha256": "cb8f0184e78c8a617bc05470e32634a703b7bad76ae8bdf451d4ec22e60c9f92"
+    },
+    {
+      "path": "sayings/POD-DHAGA-078.html",
+      "sha256": "274b592ccb73f6085f0e7de0921cd55ea42a20c9e367f95b7b3a790a133ac526",
+      "previous_sha256": "d61486e7edccd06be8c588b86dabc581af162969ba94f695842f9343ade6b516"
+    },
+    {
+      "path": "sayings/POD-DHAGA-079.html",
+      "sha256": "39c059e43ba089f406970be2222fb9387f22b43d8c430265049154812459b269",
+      "previous_sha256": "c457939fab663b4dd0b956f013c32e93450644d0d6c30ba3e8c96ef47babcff5"
+    },
+    {
+      "path": "sayings/POD-DHAGA-080.html",
+      "sha256": "80f13d5cdc5e84b103977c45de87e274c374600a9fd86875dcaa45f5716a0138",
+      "previous_sha256": "4b32e4b43ea347963fcda7921247708dbbc13c6cdb43bd9fea749c88a077f42c"
+    },
+    {
+      "path": "sayings/POD-DHAGA-081.html",
+      "sha256": "0f84d1a80458b7d8d04c7f6ba39cd11f41605844101a90919d4202cb2706309a",
+      "previous_sha256": "4e48700ba65c2cbbcf3e816d1f0091aece5d3bf2d5f30efbab2c3f0656a8c92e"
+    },
+    {
+      "path": "sayings/POD-DHAGA-082.html",
+      "sha256": "aa163a8a493ad34d371da9ccb96edbc4b3fd5d2ed7e0c11e51f2cbc59c0375c9",
+      "previous_sha256": "e7fabb4935e41466d948bec59356152987b2e2230846c5894ff9c61def88df3c"
+    },
+    {
+      "path": "sayings/POD-DHAGA-083.html",
+      "sha256": "089cf4f2b9f043311becd27dbbd14fdf03a706374ad1d3c5ded88619432bc12a",
+      "previous_sha256": "79236c3f12a3edcaed433dc99b4761a024d3254b33a2b6b1b77a7d1711efe774"
+    },
+    {
+      "path": "sayings/POD-DHAGA-084.html",
+      "sha256": "3b7b432e7b0ac663ab0bcef200664a835f013584aa4efcaaecd0f240f5e9b1b0",
+      "previous_sha256": "d18b56cd912dadd00aa43e4523489fb4f75c3aa2f2a51e5020da663df53d2f36"
+    },
+    {
+      "path": "sayings/POD-DHAGA-085.html",
+      "sha256": "d46da5df434654d16cce98fac5d6c2a2dcfeb7b8f6968a41066d6be117391b9a",
+      "previous_sha256": "e4427ed7dac8e7465429390957aae8be825e0eef3a24aae75e9ff62acd0a2924"
+    },
+    {
+      "path": "sayings/POD-DHAGA-086.html",
+      "sha256": "cb3a5b971c7887a70e7dab5a86d0976b53f12260a2b94a2340dd71811b6c4853",
+      "previous_sha256": "a172fd327729bdcde4f6dd0934b85f18f2d06b3c7883fafd9db45c48bcca0aaf"
+    },
+    {
+      "path": "sayings/POD-DHAGA-087.html",
+      "sha256": "d402d3947951fe112f0bf05189fe86d2248e7e04441884902e3fdfcb64987eb5",
+      "previous_sha256": "41f967f6184543f648fc441b19d791d85b01f9ba2742376c297802476a6b348b"
+    },
+    {
+      "path": "sayings/POD-DHAGA-088.html",
+      "sha256": "c3729f82b576d47e761f6eca75017180417e86aa9fc02eaf516715443ee9662b",
+      "previous_sha256": "6873661bdfa22cd3cdbac9f9a5b6b7d642b0dfdcdad25cd9d3e4669263fc407a"
+    },
+    {
+      "path": "sayings/POD-DHAGA-089.html",
+      "sha256": "b36db0e24bbc1747aaf22ef9906806e609a46002c9f9ecf2958ab3f82b653096",
+      "previous_sha256": "d1a989c938db520117625121a848d3ab16cfff4814ee596dc85d4a316cc8d29e"
+    },
+    {
+      "path": "sayings/POD-DHAGA-090.html",
+      "sha256": "908bbb1bf14b93f69f9cc95e7f6dfe2153de3937e394ed70d3fc9e2a98202dc2",
+      "previous_sha256": "57a0ecbfa0415b35e5e1a8e62b494f09a83ed63ff483e0f4c3f2459aff73e2d1"
+    },
+    {
+      "path": "sayings/POD-DHAGA-091.html",
+      "sha256": "a255419a55266473f79eadf3ed1635c5b854efaffb5fb3357b8e806c88eb265c",
+      "previous_sha256": "dac9ebb7fd8d61bf7bcdc73eef18d1ab6d8c3eb037cef32386c97ee6fe77813a"
+    },
+    {
+      "path": "sayings/POD-DHAGA-092.html",
+      "sha256": "1af33c219aa185ed3d1f35bf8dd2ecb5d64e73f4ff252625e988a96e4bc0c069",
+      "previous_sha256": "c353f65226925df5817070690bcdca15c6ecf4bdbb9791d37fa4928bcae091ec"
+    },
+    {
+      "path": "sayings/POD-DHAGA-093.html",
+      "sha256": "36c19263965afb9a26b002a3584f13dfa63cf7a5df2c1c87b22f6a28005fd066",
+      "previous_sha256": "a204eab181e1640cbef04cab4db1a4cceef084c814b40e2d1b56230d293e0c1c"
+    },
+    {
+      "path": "sayings/POD-DHAGA-094.html",
+      "sha256": "583b5961f2af7ce806c274c8c1cda0dcde6c914e1c4ce0d15077562c9d0a94c7",
+      "previous_sha256": "9ca6f0c9adfab0789622bf9c7a558ffd8c2f4858b55c6558e29031b4c99bfae2"
+    },
+    {
+      "path": "sayings/POD-DHAGA-095.html",
+      "sha256": "855baf94907e261b3a42d623def0727c2fb8db09322075bab0e0ec8536e707cf",
+      "previous_sha256": "68e5039ecbbf2d55f0f748ed19cacc062cbf20245edd9e407d790a0264154e5c"
+    },
+    {
+      "path": "sayings/POD-DHAGA-096.html",
+      "sha256": "a5dd0254296452e8ec3b7c6c35a986f8090443dc8f74c2e94e8b970c2b09526b",
+      "previous_sha256": "45c2a998f70f5f8432bf2caea387c9d09c14a56465d21e6f52225cf5eb1f897a"
+    },
+    {
+      "path": "sayings/POD-DHAGA-097.html",
+      "sha256": "a38dba15c8f9c64680ba150a041fb5d26ae3f47de1ebfc579501b06c877e816e",
+      "previous_sha256": "c95d095ad0a769f61423247e44fbf69dd061a0d9e05fd2bb0f0500a9a9c5fad2"
+    },
+    {
+      "path": "sayings/POD-DHAGA-098.html",
+      "sha256": "c321779df2e0d20ebb3f9efbb163e52f9e7cd6704898c7a325f3b2fe836bce47",
+      "previous_sha256": "68a571738e0742938d3c035ec38ccf46b3394813b728192dd09f970e402eb055"
+    },
+    {
+      "path": "sayings/POD-DHAGA-099.html",
+      "sha256": "307ca2e605eeddf78339dd5e11069e2a8a6f6b3ac96d283448a15e39609cc7f7",
+      "previous_sha256": "190aba6e0b3bad1c5dcfb655c42c3e1b1ec5802cb875080a61783beef75708ca"
+    },
+    {
+      "path": "sayings/POD-DHAGA-100.html",
+      "sha256": "69dd21154f7c3bc8918ef5fedab721250839256ed7938fed065a624098996239",
+      "previous_sha256": "a9f116048c9d450a6d4b4c64ad6ad47dbfd29f492e104100f7f78a62f9bc2265"
+    },
+    {
+      "path": "sayings/POD-DHAGA-101.html",
+      "sha256": "e6d613439335e4d2a32f5b07cc539128a08c7d7bda304822ac8ca495b7b6dd18",
+      "previous_sha256": "736bfc5bf9fd3ffa3a87d8ec8842e1e900a7b540c2dd9e9b302230fc2a93760f"
+    },
+    {
+      "path": "sayings/POD-DHAGA-102.html",
+      "sha256": "0d65d60532e12cfe604a2aa3e2e3204a94394875c61351dc07ed0e24a1904a1b",
+      "previous_sha256": "4ea607a04ab2018025be09c80fe070028fa62dc37f78d092cf4e17e184f9235f"
+    },
+    {
+      "path": "sayings/POD-DHAGA-103.html",
+      "sha256": "db61675114298ef6bfee345a5046dc794948ed51577ccd2ffe0585acba9fdfdc",
+      "previous_sha256": "29ea1e4ea3f02bb3c3b4f74393ab4c1a52681b86f9a54fded8cf83a5949734c0"
+    },
+    {
+      "path": "sayings/POD-DHAGA-104.html",
+      "sha256": "a70e0ee7af4d4f922242996fa29c7d50f48df05d28dddd5f17a04a11d720c6f7",
+      "previous_sha256": "982162652f9e0c11dc20d389a5b86b008af34020a92acbe5265b694287878503"
+    },
+    {
+      "path": "sayings/POD-DHAGA-105.html",
+      "sha256": "6486c34d33e3d024becadaf3cb55167f7dd2b0119e9ffb6ad6bccb34546f9998",
+      "previous_sha256": "653879c40f6f78fde7c1e3ac7b49486235f4996bc3b24305667fd26fc0aae007"
+    },
+    {
+      "path": "sayings/POD-DHAGA-106.html",
+      "sha256": "3f1a7a88f03d2168c666b0c6bc994b8688ff6a1080cb79d168bd68ad33cd0188",
+      "previous_sha256": "ab57e08da3a8dc1a8457a6066a267cbc8fdfc5ac9d8e09f8862d15471d04e1f2"
+    },
+    {
+      "path": "sayings/POD-DHAGA-107.html",
+      "sha256": "a888f2db725b1bff6a78e36ef3cf6e9ae409a7711c208652dd1db319fb2e984a",
+      "previous_sha256": "bf721fb49738ac4e14c39a2e4a4426ba6c5e5a79e957424025721baa29ffbdd5"
+    },
+    {
+      "path": "sayings/POD-DHAGA-108.html",
+      "sha256": "a5e7fe1cb11a7a8412d38f18e53603c24ef05156de1fa154f68620903c4f39b0",
+      "previous_sha256": "1068f925b6fd12bacefcab8e97cba13f79540456566512c14b8300545d4371a3"
+    },
+    {
+      "path": "sayings/POD-DHAGA-109.html",
+      "sha256": "e0f0885b5830656b42c10faf90d2965f8eebd4e5f80b8f60137b9677e9f5b435",
+      "previous_sha256": "5d5882637b8fe0a1eb4ed0f0fdabfd472927322e915ac43e026664a99aa02ce1"
+    },
+    {
+      "path": "sayings/POD-DHAGA-110.html",
+      "sha256": "71bd53c39c5ea9318c08e3e8dd5ec08c8b7c5b4aed85dff184714812a837a311",
+      "previous_sha256": "3aa3b5a7218ebf773605dbd7338579717097ae93b7c24ea77384a3635bef2ca9"
+    },
+    {
+      "path": "sayings/POD-DHAGA-111.html",
+      "sha256": "729ab6f43cbb45e0a9dd4582dedd829d5afab8c85bfdc7ebb2599264d8c2480b",
+      "previous_sha256": "c1b53b3de6a0a0be71721255de84af7b1a2ac75c599bc4dfd524ed2f77312c7a"
+    },
+    {
+      "path": "sayings/POD-DHAGA-112.html",
+      "sha256": "5203fe8fc3b28c6f264fc23caabf8728fd6761322b4a3c23b1035a9f24c98aef",
+      "previous_sha256": "439c2fd07605fda9e9145e09ee22f7df9f3289e7a14b2faf3954d7e9b0118368"
+    },
+    {
+      "path": "sayings/POD-DHAGA-113.html",
+      "sha256": "94ac77da39eb27555ebc9bcce82517f2b0f1f6c6ffc0c909ff930fc4539ae0b2",
+      "previous_sha256": "30fc88c55455899683ef0ba273c7f07194fc72f55d265747b03aa0ed219a5111"
+    },
+    {
+      "path": "sayings/POD-DHAGA-114.html",
+      "sha256": "dcc0fa0c0da4320f21b0eea30d061544b133c56e00f146798813c11bb496ab53",
+      "previous_sha256": "b17a6d23e8fcc2dcb167dcbc3c3ba47b0d0e3883e5e9eb11d0deea5f4723b186"
+    },
+    {
+      "path": "sayings/POD-DHAGA-115.html",
+      "sha256": "d3f304860055bf30a327ef318b7b842f57c547ce1076d365432b9695155b9a26",
+      "previous_sha256": "e9d65ee825d195ccca058d5474d21ceb1e0117c4e71ff161e358829d85391aee"
+    },
+    {
+      "path": "sayings/POD-DHAGA-116.html",
+      "sha256": "83ca8bb28498dc18a55f2a2e36bcf5a41ab0a53581338493fbda10fd96cb3d8c",
+      "previous_sha256": "f48a007089a652c0ed5ef7ecb9d041b488deb9ee05cad078b6b92bd2a82f654a"
+    },
+    {
+      "path": "sayings/POD-DHAGA-117.html",
+      "sha256": "7ca067449451c311baedb1ccc297d43335d0a689814c2d7782413fcbf758603f",
+      "previous_sha256": "2f01849622b0446df99f9dd33fbd00f9dbc2e5cb6ef4171befc36c2d248d9f15"
+    },
+    {
+      "path": "sayings/POD-DHAGA-118.html",
+      "sha256": "6774f6179a4723b1c15b80011690827928cb5bd492c4a3d33a0193f2411e5edf",
+      "previous_sha256": "61beba57ffbdad6376278ccaada99044a9d28b19745228e4e4f878f5cd2cc1b3"
+    },
+    {
+      "path": "sayings/POD-DHAGA-119.html",
+      "sha256": "5e81cc971cbc897be69b30f259894e6a9c5600910f0dfe5fe26b8cd86bceccd5",
+      "previous_sha256": "de47784f16ba9f235e186f7e56e6b6247ad4691bd722833c6ab22a549029bb08"
+    },
+    {
+      "path": "sayings/POD-DHAGA-120.html",
+      "sha256": "b851c34c7aaa9e0d32bfbb5bf1b320f246b17fe64fdeeb2ae1f8fd15c530d8cb",
+      "previous_sha256": "843a0e15c9818eefdd329f8761e92305f6d5422324415988b42c3a2c5f8c76b5"
+    },
+    {
+      "path": "sayings/POD-DHAGA-121.html",
+      "sha256": "3315f714830a9d71b3181e68493e7bc0a853ebd30720c7120a67f7f81c7f390f",
+      "previous_sha256": "09a43f0e064dc826ec8e8618cf81e8bbc2d66e440e45dad15cf58abf6037c3a3"
+    },
+    {
+      "path": "sayings/POD-DHAGA-122.html",
+      "sha256": "41e4c5965690a14a04ea813284ae20e5e208516a7a9fd93c1a1d1cbb7c98ca3b",
+      "previous_sha256": "9b37edd5624f1213d6bd8a156b1554d17784371d72eeba9c871f9997e005729d"
+    },
+    {
+      "path": "sayings/POD-DHAGA-123.html",
+      "sha256": "69a6d05d80bcc7321b4346badfee1b5f44731c8e9efca93c7f8e9b5efdbe4c28",
+      "previous_sha256": "05401a4d65ac041eeb93557ed044981c428d2ca8f49149fc8d9b239bc6d04783"
+    },
+    {
+      "path": "sayings/POD-DHAGA-124.html",
+      "sha256": "d708735188ab515ea9ad098a38c45d13f920cb74fa8754e4603fbe8c747105df",
+      "previous_sha256": "4d41bff91b4a88cacf2fae9670796b55c8ea067190c04742222c94eefc0c99d7"
+    },
+    {
+      "path": "sayings/POD-DHAGA-125.html",
+      "sha256": "b8bf41cf893c53ef36f915ea13f2322d3dc3f8815a6f3ffce5e3d4fe3bf90064",
+      "previous_sha256": "6ddbdc1c3c144e4b9f1ec56f500aae06e470b4b1f335ca4752d29f72bd8ecc75"
+    },
+    {
+      "path": "sayings/POD-DHAGA-126.html",
+      "sha256": "a8ba9654d4428eb543cf81b178cb1f2bf31745d4505b10804a78897bc6a47d8a",
+      "previous_sha256": "1fdae7766bfa5fad399efc807567aa6894de7f19057886b684cd9b564101db00"
+    },
+    {
+      "path": "sayings/POD-DHAGA-127.html",
+      "sha256": "9cfc00c85d9ca8a97bf470c238740d25e8033dc855230fa5d3568bf728b6f2d9",
+      "previous_sha256": "85efd560f9478a458efee0748afbeda4eeaec207b3180acc31da64edd10eca5b"
+    },
+    {
+      "path": "sayings/POD-DHAGA-128.html",
+      "sha256": "f22df6ae74445398facc7b5640f9fd848625ac4931eed5849ee426eb2c5da7ab",
+      "previous_sha256": "55d36389e12902e4c6853b986da68f6832da86b1960c25ca9b1c215145826720"
+    },
+    {
+      "path": "sayings/POD-DHAGA-129.html",
+      "sha256": "dbbc37107936beadc207dd82c34addf2af8066dad39cca321c578f807e43d3c3",
+      "previous_sha256": "eb52237405f5a174f031194ed790fd6814c5f72df2582e18dc9544cafc9fcb16"
+    },
+    {
+      "path": "sayings/POD-DHAGA-130.html",
+      "sha256": "abb2329be2aff09b2d1439038cd9a63ba2227a533a314deeb40004bde2c7a5f4",
+      "previous_sha256": "438a6d96680f8496d4cbb405dcea48f6be1030a7c90057764c720efe7000f41d"
+    },
+    {
+      "path": "sayings/POD-DHAGA-131.html",
+      "sha256": "6f70be54e1a1125506854c92d2943b3caca60fddf93fd3ca8389a0ea1b58c35d",
+      "previous_sha256": "9c8888264b56ce9eb0c6e7c5a387072e92d87df8592a17ecbc7a1ccc7b13a3b3"
+    },
+    {
+      "path": "sayings/POD-DHAGA-132.html",
+      "sha256": "6531e51f101638bf63424e4cfd914ffdb77daf8300bf86f2c17c0acf9eb71343",
+      "previous_sha256": "b29d4429a01b2db188805e00eb3c7f815c8223a2f701370d0cb89af6d0292a7e"
+    },
+    {
+      "path": "sayings/POD-DHAGA-133.html",
+      "sha256": "145b357c1b242d0054d36a9ec719e2603498dea0469c8ab01308b3a399ab3e04",
+      "previous_sha256": "6efe81ea8458e95f2c8128f58e19c59b89c79a5c080991088da641a1f9fd28eb"
+    },
+    {
+      "path": "sayings/POD-DHAGA-134.html",
+      "sha256": "923378edfc38659f0f70f63628f6a9f8373c6580c3321ad4791553dbec2640c1",
+      "previous_sha256": "fd37fdc137d547968d6748f0a4ddf5a9b028ee2ebb8e83b8e89eda5058c9f098"
+    },
+    {
+      "path": "sayings/POD-DHAGA-135.html",
+      "sha256": "1d1ac470685a5366d1c4921d7c35c30e83eab0626a2eb4432ae53dadda8c2612",
+      "previous_sha256": "c77536c7feabbf474cd68d33409de10277e72ee8ef45ea106c2b080635b32910"
+    },
+    {
+      "path": "sayings/POD-DHAGA-136.html",
+      "sha256": "6aacb28dabf0ccec9ec78ca49a2ded46faf9f1d667ed5acc2f7593578b5b2a8f",
+      "previous_sha256": "46e6581004b1325f1cf3c8c6186d5a0a8c17cb87d3729ad9d9617a3a3a806de8"
+    },
+    {
+      "path": "sayings/POD-DHAGA-137.html",
+      "sha256": "80058081fe82df58df013a306e56d5ae5f9c270d9fdc4da99f9177ae0c187a2b",
+      "previous_sha256": "2e5980d788cc802c3db2e7c540abf2449e65d8c957cb13e2749826f2c819f47b"
+    },
+    {
+      "path": "sayings/POD-DHAGA-138.html",
+      "sha256": "6717ea0c86589aa2a85c5b99319a0d97f13faf640982a9b7098db3917d79dc90",
+      "previous_sha256": "ac204f812a63282f82d3030b70bcd6da93685684b76a6b7509612ee15b56b037"
+    },
+    {
+      "path": "sayings/POD-DHAGA-139.html",
+      "sha256": "c46f79ea0ba278ad03037ba22ca0c0b1b2f16fab321bf5041929f67a0de11114",
+      "previous_sha256": "2f1f2e421ca8f6bf9a1cca3cc03ad09c8796a81df92085736c34149af4af157c"
+    },
+    {
+      "path": "sayings/POD-DHAGA-140.html",
+      "sha256": "be98f0bc4e6333d12817c4a2c325248fc1a3360deb20accbf5ec7b3efa73be28",
+      "previous_sha256": "dedaf28c117897a1543f4b01abdb32a249784521fdefcff8a8e226f3c7c27f9a"
+    },
+    {
+      "path": "sayings/POD-DHAGA-141.html",
+      "sha256": "f6279428d59754dfac2c6343660d3d1f2063f1e9abc27cec0ced927ceb1bc2c5",
+      "previous_sha256": "99bf45f0c6d5371135f5b1264752fbc048b33761a09a672b3d8807fdc548c350"
+    },
+    {
+      "path": "sayings/POD-DHAGA-142.html",
+      "sha256": "b4c3e9c3eebb7a75b1c24d4030f6b32ace63f6d2e38673f70b6f101db6d09185",
+      "previous_sha256": "33df0e25b5c3b811255493bac5ebfbbea1b398858663af4b0b84fb83f72feb05"
+    },
+    {
+      "path": "sayings/POD-DHAGA-143.html",
+      "sha256": "66deb1c9d22794261a4ba2e5ebb46b07b7b30c8b677d50b6dcbc17ba3b75b8c0",
+      "previous_sha256": "4394f3a6a65f7c80d72d733bbdad56411dbc8a9cd9fe0294940f0f1581e43c3c"
+    },
+    {
+      "path": "sayings/POD-DHAGA-144.html",
+      "sha256": "7dc3a59a1b973a97a2e4c265f29dce742aaf185ef2e65c36d18ae1a8ae113a98",
+      "previous_sha256": "e3a2061491332fd17f37924aa459d6e07a1b7c8270e519550df58f460d21834c"
+    },
+    {
+      "path": "sayings/POD-DHAGA-145.html",
+      "sha256": "212b3077f107c1b5a1632037b59aacc1fd7916b6a7081edcdf9ab0fad859ffbc",
+      "previous_sha256": "d2c342d05dae763b9dc1c638994b9b3b6e85cf041588bcfd54c1afb1e0600e7c"
+    },
+    {
+      "path": "sayings/POD-DHAGA-146.html",
+      "sha256": "f33f372c2e52a678710c8e6ee1fd845967abd348fcf923203722534835b7f454",
+      "previous_sha256": "7fc35c1d174800da8277cbe975b5bf02cf8953fa17e0f075b2ca647b9a19acae"
+    },
+    {
+      "path": "sayings/POD-DHAGA-147.html",
+      "sha256": "fccad4b8b8e5ae04d501320afff825dc0dbad05d9715a7ef1fd3628237293880",
+      "previous_sha256": "23ec8d448b69524f2ef9fc5f53d8d18a2a3181512a6f38762ec406c0dd584e5e"
+    },
+    {
+      "path": "sayings/POD-DHAGA-148.html",
+      "sha256": "228d29b7cc64f47147b26a5a7bb8103bd1825d4c0aea9bd5a3dbd6aeea951e22",
+      "previous_sha256": "42d64892285d19a605e9de499ad716b77582d43c0e29a73fdd4a5ef87ed41f25"
+    },
+    {
+      "path": "sayings/POD-DHAGA-149.html",
+      "sha256": "f30aad7f6738626f51d43335b1405d3e803b7f078cc13599a69854167f46d58a",
+      "previous_sha256": "1c9b6ef57d96e88b55d6af0584cfaddcbadba012b4db20911fac4edd7b076e39"
+    },
+    {
+      "path": "sayings/POD-DHAGA-150.html",
+      "sha256": "ef746e6c15143ddb026b4836124fa8e30a8d52e86ed9cfa470ae12dcae4bab7a",
+      "previous_sha256": "9acaa40dc75afdcff19269b6b0fafe0756722bdbdc84255e5c7b42d11e73d0f6"
+    },
+    {
+      "path": "sayings/POD-DHAGA-151.html",
+      "sha256": "3f9eb1482483e9b8b8b61d147665b57dc55b3c34757d6625d419518c52b37af0",
+      "previous_sha256": "e065f7414de7db38590fbf5df8891d30c864e72ad6ac656699ae2ed2f2b0bd96"
+    },
+    {
+      "path": "sayings/POD-DHAGA-152.html",
+      "sha256": "15f880bf3d17ea9ca44b34e03e1f7a45eb29073118a22aa3d956d7f89627b44d",
+      "previous_sha256": "a747ac015fcdd2a3d926a78b3e39b254a8b8475546a7762d64f4a2f1ed593705"
+    },
+    {
+      "path": "sayings/POD-DHAGA-153.html",
+      "sha256": "f0a037ce22d46a430fcbb4af956fa9a74dfa4b4d2c45f0ed4bbc74c6c4613a5e",
+      "previous_sha256": "1a799a3f1a1d33eecde2adc8c8b92f516c231a3b42b9f5a9305af38a2420ea68"
+    },
+    {
+      "path": "sayings/POD-DHAGA-154.html",
+      "sha256": "00d420dc57e3c45a71479560fbaab65fe3ad2ecd599a4e6a5b28e903d8d43c01",
+      "previous_sha256": "155953dc22e89125cb78b8a3c1ebfe6097b379a1531ea0c856c75a0b45529a5c"
+    },
+    {
+      "path": "sayings/POD-DHAGA-155.html",
+      "sha256": "797c1599c75248118b13b28fd2d83033c1214a09c27b8cddb22e77a1b6b38341",
+      "previous_sha256": "856c4ac10cef7336ef039a7dd55cbc53e28e0de081d1dcc4c499db796ffe1fd5"
+    },
+    {
+      "path": "sayings/POD-DHAGA-156.html",
+      "sha256": "ec4d83d1dbb40b64dd433864b3f88d7b6dac046997ddaf5682c900058064e98f",
+      "previous_sha256": "6d76b60b5664d837db53382aedc7dc3798d545149b8fa3b2c3731006d5c68be2"
+    },
+    {
+      "path": "sayings/POD-DHAGA-157.html",
+      "sha256": "7035ad0e20fd7ce17e6af8d074c6c0804bf9284b2bb3d94c3f1d1a7eeb492abd",
+      "previous_sha256": "c7b09c46bf73a7de8c31872f2500c6d826c56582024231ab5b244969e52bf27b"
+    },
+    {
+      "path": "sayings/POD-DHAGA-158.html",
+      "sha256": "a5fb9341beefe3c87128d8963aa91322224144b0768e44b18c42dadd3620421d",
+      "previous_sha256": "e6ab34f0f1dd99b44d59c1310a70b81fe98c63a8a542b880c4e1c4d22af4e374"
+    },
+    {
+      "path": "sayings/POD-DHAGA-159.html",
+      "sha256": "956e1a547046b470bcb5e1873b75ba379108cb44a70af9a73abf7162564ce411",
+      "previous_sha256": "4482d5c1d27708ab03c5acef9d8090856f1b249f8d49e0526e26a9dfc413ce88"
+    },
+    {
+      "path": "sayings/POD-DHAGA-160.html",
+      "sha256": "cd755b5ad4c6516e4a1c699de7931a71bd499a8c7b4346a64ecb0ee83bac536f",
+      "previous_sha256": "2291c1ca4a06737c5cb28526434f3f84a4ac4ddaab2fb989311601f71e66dc07"
+    },
+    {
+      "path": "sayings/POD-DHAGA-161.html",
+      "sha256": "7b04cb4db923fbd344c187a8585dc6015ab02dd33c3cb65a8d05cd087af36e15",
+      "previous_sha256": "cdb44a25ce7a2e0c557811715d92ac18715876eb7d4b36d2f7822607b17e218a"
+    },
+    {
+      "path": "sayings/POD-DHAGA-162.html",
+      "sha256": "9569b7c607a2cc90e06ecc0fd65fcbfb08114b243f0541a4505b3026d4023d46",
+      "previous_sha256": "ee450a534585d43c746e649b07c763e4e94f85d75f45db6c3224adb5674187f2"
+    },
+    {
+      "path": "sayings/POD-DHAGA-163.html",
+      "sha256": "a157bbd429a285794d0579093fd1bcab2b25139018a218bf23623aeea2ba5dd6",
+      "previous_sha256": "4e49676a2945b778a7eef9e3f69ef771a7dba7aead5123d53733da8358855ba4"
+    },
+    {
+      "path": "sayings/POD-DHAGA-164.html",
+      "sha256": "9ee4cc8e5f443476cf9dbb659f897201d16103c6f0ad29e136136e93d40ccd72",
+      "previous_sha256": "0fdeacac8c785be5eb17b07626f4a7b07861feb36f94df0cd7615755a89896c1"
+    },
+    {
+      "path": "sayings/POD-DHAGA-165.html",
+      "sha256": "81617435123cc5da23632978447a5fd0e208be4fa95ce478ca6e250ed4c71b60",
+      "previous_sha256": "c23722b11daf1a2dded6490e0e424ea3f69af28bdd9c7c55c673ccd1105c288d"
+    },
+    {
+      "path": "sayings/POD-DHAGA-166.html",
+      "sha256": "f727ac11f2c40f018433a255728d24aa7ebf47fa1472b80760c1e0b788dc5c05",
+      "previous_sha256": "a9e76efd422e64123de28d5db1ab395ec15671a49e705a48716de28a1aa4fe90"
+    },
+    {
+      "path": "sayings/POD-DHAGA-167.html",
+      "sha256": "c07177156c79d9140303ae03c4f9f5132d324af281fb834bca7d889409b0fbd2",
+      "previous_sha256": "2f9162c093e476b4cf8cde629da0c488e0d7db833881fd536f56a85ea1d0b2d7"
+    },
+    {
+      "path": "sayings/POD-DHAGA-168.html",
+      "sha256": "38e48f28456822e4d7167cf6268070b76365232779c89563e192f6ead1a32678",
+      "previous_sha256": "a556ad71c550874acee6ae1f20ef9f42b12729f7c8ffec9936787f07deeef92d"
+    },
+    {
+      "path": "sayings/POD-DHAGA-169.html",
+      "sha256": "88ce9d0b93c377a2b67ea4598d2c055b9915200d8fe9745685cc1c46dd58f359",
+      "previous_sha256": "62a0acd1f25ca8fa34b4bddccf63d1afa8e6ffa6e7bbfaa0c32f82d9e4aa572f"
+    },
+    {
+      "path": "sayings/POD-DHAGA-170.html",
+      "sha256": "ec4752fd32c035deb7e93a97fe20d54ca8d67b582f2c7238854523faeab94a72",
+      "previous_sha256": "df35a327d3d608e80104d0820d8f97cc824ea1fa0c1f8eba5f1bcbae307b02cd"
+    },
+    {
+      "path": "sayings/POD-DHAGA-171.html",
+      "sha256": "7e3af8938271b77f39bdd06d60352154059707869796d1f953b58bd5fa5a5a0f",
+      "previous_sha256": "6f4b39e70655047242e9329e96524bbb89c541e8b6a5381a5b958bd61a09b9b4"
+    },
+    {
+      "path": "sayings/POD-DHAGA-172.html",
+      "sha256": "184d25d30a33fc16d1fb0ee1817eadf197fd917865f81481d95a7688326890bf",
+      "previous_sha256": "eb04648146ceda1afe4b01c6a7c3ea862bd35a9ce3b8e8802d2c55a28a3ba274"
+    },
+    {
+      "path": "sayings/POD-DHAGA-173.html",
+      "sha256": "b9aeda1c887f4e9c187a1665f5ac88cbeaecb6e3e2fb37c4a55bbc89906c66fb",
+      "previous_sha256": "a72a6b29334d7669f02575e2d3e4dfc8c410baf9d5af3108c55f62d03ca5d223"
+    },
+    {
+      "path": "sayings/POD-DHAGA-174.html",
+      "sha256": "eb35b3f7a6dbf467e4687158eabcd23f7b32f9ddb2dfc045523c6e5a7f366ceb",
+      "previous_sha256": "916dd3cc038ea616852e84259193101a3fc33f517210e0e89f327a7c24c5878a"
+    },
+    {
+      "path": "sayings/POD-DHAGA-175.html",
+      "sha256": "8c3a713b6d90bc8b6d035721955f1ed557c4a78cfee774be8c83b4492c3e3740",
+      "previous_sha256": "e865a8c3d42ba867d5da9fdc212c939232c47e4566f312dc98c41862a9f8399e"
+    },
+    {
+      "path": "sayings/POD-DHAGA-176.html",
+      "sha256": "7a207e51712ff9ff41c308c3a3828d84c5700699478f9cb41e9c2170cf33f28b",
+      "previous_sha256": "37887a4ac2f6c6f024b431adc781ac3856dff9c5c2a874fe50d9163b0db03f3c"
+    },
+    {
+      "path": "sayings/POD-DHAGA-177.html",
+      "sha256": "5bc04eaa26f850b69519088cc01e0c449bd705b60c929177f3f686ca5b76fa06",
+      "previous_sha256": "0366250a7809756961c914397f264f8127fd693292cb527d2fc34986dcb322c9"
+    },
+    {
+      "path": "sayings/POD-DHAGA-178.html",
+      "sha256": "8eda17af0d877f5161a3fae11f88bf48826a067122b5506485b130c4c47a932d",
+      "previous_sha256": "eb67f64b5251c359c60ce5bd997cd7f8e6cc00aeee5d4c41a053c52ead535f37"
+    },
+    {
+      "path": "sayings/POD-DHAGA-179.html",
+      "sha256": "c27524b7ee22e716649fff4b66b329cdde377bd1ff73ac3fb950a7f6c9b3ac4d",
+      "previous_sha256": "2bea409bee8fafe87cc7642a88a25ae5fb953a6f929b38bb76abd36827ffce1f"
+    },
+    {
+      "path": "sayings/POD-DHAGA-180.html",
+      "sha256": "d573d6ada74afcc5b045226144c9df0ec3dd435740b74edfb9270d73b6fddffa",
+      "previous_sha256": "627e62ef86fc11347d3efb83c2c89f8a3797485a179dd011b1ba1b37e9225be4"
+    },
+    {
+      "path": "sayings/POD-DHAGA-181.html",
+      "sha256": "f7f1394312fa86cf007f94e6b42988f437a75613ef8cf65fb876d8ae5c3637f4",
+      "previous_sha256": "6ae06f0a1dd4bbfb68b314dc10cd4226ab3a72c3a6331ae327e6cfb8455de4dc"
+    },
+    {
+      "path": "sayings/POD-DHAGA-182.html",
+      "sha256": "f30cd3de8263ba0c18de5a3dbc7010be08b75984792840707669b7035973f774",
+      "previous_sha256": "35dde9151799bbf24c7f7b00bcd06ad8ea1a225a5182d3e7a81eb41d69509347"
+    },
+    {
+      "path": "sayings/POD-DHAGA-183.html",
+      "sha256": "8c7f3a5caee8b2db2353ca884061557b8d613f5f91f723088c8315fcb2832d7a",
+      "previous_sha256": "d1dc7556b97fed49dd58ad7498cac487f08a6f791e1af95e94785dfce7c42ae1"
+    },
+    {
+      "path": "sayings/POD-DHAGA-184.html",
+      "sha256": "e1c6395fea31f99f3376a9960449570071e0bbc382b5b14b4a60c2011ab39792",
+      "previous_sha256": "16c3dced5269f65f2eaef07d64fde8c8863195180c15cb447d630178e0f42192"
+    },
+    {
+      "path": "sayings/POD-DHAGA-185.html",
+      "sha256": "d33c1b40114328c11497a6e73cef4076e049f0a0078401e4e2574a821ed87d46",
+      "previous_sha256": "d96fbe6fdbe77bb992c2c6ad4c45d191f97c4804afcf55751fb304cbc58b99be"
+    },
+    {
+      "path": "sayings/POD-DHAGA-186.html",
+      "sha256": "4bb8ebdcbc13cca1b6d8291b098e24225e882beea0f5387762505f0541b6cf27",
+      "previous_sha256": "c7624dddb43a93514580cbf984f07172d7b353632ef5ec0f83afd201cf63ae3f"
+    },
+    {
+      "path": "sayings/POD-DHAGA-187.html",
+      "sha256": "c904f8279ee008edfb2c2e53d6e511e4f749893f32daf0581f20b66019028248",
+      "previous_sha256": "32328d3a8987bbe3f40788733c9d52a310cdbb8db0e67ff4fca271dffa174a36"
+    },
+    {
+      "path": "sayings/POD-DHAGA-188.html",
+      "sha256": "14490035a48b0de20d8f7f365fc6437018b4f7722c56b607b53af004cb123dba",
+      "previous_sha256": "334173e0c91a1c8d03b83ec314bb70af009a9e6c34449eda858aae38723ef0b4"
+    },
+    {
+      "path": "sayings/POD-DHAGA-189.html",
+      "sha256": "fc06799ec5ebfdd16b294720c48fae57c5ab040828b5aa26a8adb16672e7af1d",
+      "previous_sha256": "1a4b894137c0db4c54b770d8f1b9334a8bc68fe8a5e278ccfa22173c844e27a9"
+    },
+    {
+      "path": "sayings/POD-DHAGA-190.html",
+      "sha256": "54d687a5002e03e5d6069113acd3c659955d2a2202a135a92cc0625a2004b8cd",
+      "previous_sha256": "d60d124620ac6366e248c8ed6630c980a883f4e4c95a7fd07a1de0efc3d9817b"
+    },
+    {
+      "path": "sayings/POD-DHAGA-191.html",
+      "sha256": "797a142e4b82baac255d461ddfa034001f7055c62cac31183648197b10982a1f",
+      "previous_sha256": "755c0add665dd7a87cad32acf086fea9a9a8aff022d9af52c5d0aa7f6baefde4"
+    },
+    {
+      "path": "sayings/POD-DHAGA-192.html",
+      "sha256": "fb867a1ded40a72ebd26add0326006b638ee37e624313c0f1d2ffd18dc21ea7b",
+      "previous_sha256": "cef3ed4cb210889561df7937253fae711144c427c82be1cc6d79e4ee09884042"
+    },
+    {
+      "path": "sayings/POD-DHAGA-193.html",
+      "sha256": "3b4905658e294fa1aaac373850e6c66c98d5ee793dcbaf392f5621d1420d588c",
+      "previous_sha256": "a82f8dbd1967c2565843ed75320e9a48fcca18e6c72fd21479629cce8d3577d2"
+    },
+    {
+      "path": "sayings/POD-DHAGA-194.html",
+      "sha256": "54e8e38c5af25ab5e045600bc6975b0d3362e9b9014f80e575a818870a68866e",
+      "previous_sha256": "ed31f4b752c034cddab7d43c63e0ca70f6a2bdf6ca01be0cc447d648ff4c1179"
+    },
+    {
+      "path": "sayings/POD-DHAGA-195.html",
+      "sha256": "90f14bc209a6ecdbce62f0eb588b5733fb46626afa0e32cc3f90b184ea74fa8c",
+      "previous_sha256": "c356f1acea1fde539a3806e0779624e9409830ae3795480f62a5a68fa4f53643"
+    },
+    {
+      "path": "sayings/POD-DHAGA-196.html",
+      "sha256": "9dd4e845911b5a42bf378ffd18d351611a9f73d3f9d5aa8f39c4f30d98405dd7",
+      "previous_sha256": "b0ea7e3fc796e7de9e36f24a33417a9865096b1b25c9c07a079809dbfd359998"
+    },
+    {
+      "path": "sayings/POD-DHAGA-197.html",
+      "sha256": "c04fbed3b460bc1d2341bc829ef1a7f291136c11a23a29807f1e3c1c7c1f43c8",
+      "previous_sha256": "65443083db6bf9f6577ec397f0d6a47bc4ed226ac854c4bb013f0f8701d54e6e"
+    },
+    {
+      "path": "sayings/POD-DHAGA-198.html",
+      "sha256": "056b02a863d1d57f9d7290553401665b3fe9a3f483b943d6040ea18278c70484",
+      "previous_sha256": "cc74b3c42623011b2a195405e1d41ce0e90a1241a1522e79a6bcb23f26a6aa7e"
+    },
+    {
+      "path": "sayings/POD-DHAGA-199.html",
+      "sha256": "0201824204fa8227f00b73298a30a215cd242c0f9874a956bda0076f9d351563",
+      "previous_sha256": "b8ccb166148032a1c2f0bc85bafe5107949c45e6c04adc830b81a47458efd2ab"
+    },
+    {
+      "path": "sayings/POD-DHAGA-200.html",
+      "sha256": "75c9551a9c2bb4055ff53f56b3ae4b38f3194e0f68af62996e53cc800143d1c7",
+      "previous_sha256": "17fd1543b2c29003f4f5a76ba6be0e2450d3fe29c1fa49f82937ff601bf820f5"
+    },
+    {
+      "path": "sayings/POD-DHAGA-201.html",
+      "sha256": "750d99083fbcba3481bd98c3241b10d0464d9781298258765d0669c91d1c3b67",
+      "previous_sha256": "54c0d4be14f54aa93b390d413e97c1ddb78159c76a16f6e885433d57bbe1e6f3"
+    },
+    {
+      "path": "sayings/POD-DHAGA-202.html",
+      "sha256": "aa83c5fcfd0278c11c2ca9b601e7b1cd6d4793c40da275b9aa57e12a974e7cc4",
+      "previous_sha256": "23cdaed4f166a04ddc46fc331f26415abac6f7ab979a76a81f1f34da763c70fc"
+    },
+    {
+      "path": "sayings/POD-DHAGA-203.html",
+      "sha256": "8598bfaf5b068dfdd4bea991458a4d42160bc50401f43861c98e418a42f04061",
+      "previous_sha256": "ae28eae83ce073e61483752b0b9646675d25a7f7f8ddfe3530f586aa4ce889e4"
+    },
+    {
+      "path": "sayings/POD-DHAGA-204.html",
+      "sha256": "4cd83bdfb6dddf9c2b8a7161c21a388472eaeaf40eecd4fa66ad93ec15d36ad7",
+      "previous_sha256": "e2658f3b504eaaf45a0180715fcfdb49983f6db92ca83d47365144bc156d543f"
+    },
+    {
+      "path": "sayings/POD-DHAGA-205.html",
+      "sha256": "2edcc49816ee2e60325038037004bfcdfa5b89c6545124674e9ebfe1a1e3e5b8",
+      "previous_sha256": "80d2720bc5b7d5d48b174e5a034e896ee34fa54592dee4d2c09d58ffc8a53be5"
+    },
+    {
+      "path": "sayings/POD-DHAGA-206.html",
+      "sha256": "edb69dfb516fea1c760e681096ee5739ebca89dc5b648bdb2d7ef4b1bb641827",
+      "previous_sha256": "a1c5c8b79a8a2ca218836efc9295d5d8d2d778f0795d55c797fcabeb63070d53"
+    },
+    {
+      "path": "sayings/POD-DHAGA-207.html",
+      "sha256": "55d1f5d8beb64d37ab56e3114af31eb007b15a884e320f6ebb08be2f43d42863",
+      "previous_sha256": "6c3e8749e4c4f26386bc9943735f07bb853d7bc5d2802dd18e946861a92f4797"
+    },
+    {
+      "path": "sayings/POD-DHAGA-208.html",
+      "sha256": "493f4786ce27fae340e0586ea57a799ef708d3664536af842ecfb4ae4494a6b0",
+      "previous_sha256": "52a6d0209634f68450ae445c54f26021d5402274caf696cd4fb1107818e01f56"
+    },
+    {
+      "path": "sayings/POD-DHAGA-209.html",
+      "sha256": "a82ba413e16ed92d0f6b384981eabe8cc40469542816a42b2bdbb5e7100804ee",
+      "previous_sha256": "625e194e3b4d17668779af6dfd1d5ab8b5f8852e19834928a2e0f1f026d31a12"
+    },
+    {
+      "path": "sayings/POD-DHAGA-210.html",
+      "sha256": "bbc06e710150d873bca135fc445f39d2c34624ffbf6a4887b97dfbb9672b550d",
+      "previous_sha256": "3311669c86c69dac98c8e89b12a76eee6b08978280e4c5d00c5c637017368874"
+    },
+    {
+      "path": "sayings/POD-DHAGA-211.html",
+      "sha256": "493057abac06fec7822985a5ad9965c913b8266df89a05cb5bce30cf2aa81ce3",
+      "previous_sha256": "fb2b908ff94f85d701b9e2948f758f1d2528b682c04b8c802990a06d2be4311f"
+    },
+    {
+      "path": "sayings/POD-DHAGA-212.html",
+      "sha256": "c80cdc495fc17c6d92b17775eba714836c42d3a93f7507d9ec5cf47dee6e9bd7",
+      "previous_sha256": null
+    },
+    {
+      "path": "sayings/POD-DHAGA-213.html",
+      "sha256": "ddd11b48f04d9cc1aed4675a28ddf9baca9c896e391ceaba355cfd5a4f574de1",
+      "previous_sha256": null
+    },
+    {
+      "path": "sayings/POD-DHAGA-214.html",
+      "sha256": "f81ecdde6bac9a847c703c7794f2459767d8449f087574cde7767ea28c8ccce8",
+      "previous_sha256": null
+    },
+    {
+      "path": "source127.html",
+      "sha256": "9f462a9e655967d72bd1e37139e599b3751955a0d81cb1d2c58974de86c606a1",
+      "previous_sha256": "c3950b1cf0a438fc353f62f7a34005f0630702a4142c08d87fb2a90ef7b3108b"
+    },
+    {
+      "path": "source127.json",
+      "sha256": "a42103497e3eae259dd660e94eac30a5f306f3a1111947bc6825e5c7d7037e18",
+      "previous_sha256": "a2680f6321a9db113cc220d91b9eb44f236208e9fa67fe9adaf8495bce76255c"
+    }
+  ],
+  "deleted_files": [],
+  "all_stage_files": {
+    "README.md": "5307b59cbdfdc087c55694b0924cbd75251055eed46da57949d4fcdc4196ef7f",
+    "archived-artwork.json": "cddae432aa6d587452cf1b46abff113a3c6b3e5cef61f0bddb52f6b807f61517",
+    "artwork-provenance.json": "23ffe1cf052bb6a44c6cf51ad01d94e269646c7b1630af64b424040f89dc11c6",
+    "assets/NotoSerifOriya-OFL.txt": "c90ff15ade263a49148e35af34e9c177c6d56881e81260b29f10123e9e227eca",
+    "assets/NotoSerifOriya-Variable.woff2": "f83bd7dbbfefbe3f7ee544f07f0de44eb59bd370abb44ec9568fab23a53175a1",
+    "assets/SourceSerif4-OFL.txt": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9",
+    "assets/SourceSerif4-Variable.woff2": "4453d73855919eb67a8291bf2bad07782ecaf8af0e4e363d58948ff993209d51",
+    "assets/dhaga-001-unified-line-v1.png": "b02f152b72d328792ffdf1cfe922d428e939edaae8b347afde3f665a6002581f",
+    "assets/dhaga-002-unified-line-v1.png": "4726a9302f17719b93547d436739af9e83307d6a34e3a953b9a6f1591e82b7a0",
+    "assets/dhaga-003-unified-line-v1.png": "0c1bfe8d878ff7c3bde553209536da7d9451049c62d96548968133124199b579",
+    "assets/dhaga-004-unified-line-v1.png": "d99a27ecfe797122370eda62cd3045b52610a92c7c4bc370d35b65a7ac06cf04",
+    "assets/dhaga-005-unified-line-v1.png": "d96fd45f8aaad5bc39a2f23e835cbd8829c5d008a0d70ee21059009aab6e056d",
+    "assets/dhaga-006-unified-line-v1.png": "40a37c27623f2591c81195836e21d5b52b09da4de82c80d515c34535fae713c0",
+    "assets/dhaga-007-unified-line-v1.png": "4bdce67a887036d9377f47f09eaf2fdafc8b130ffb67bf9fa1d1fb506904b430",
+    "assets/dhaga-008-unified-line-v1.svg": "a61b82947e24b9efb4a41025b5719922318d6026aa6d7c41f8476a3c90863104",
+    "assets/dhaga-009-unified-line-v1.png": "0e8475c47c721d3f1e34574a3cc0a9832e812eacf1257879ad34fe9bcc0c3449",
+    "assets/dhaga-010-unified-line-v1.png": "22ae6a438718e1c6bba0e691a5a9850aea817b0348654b003642edd9ad570165",
+    "assets/dhaga-011-line-art-v1.png": "d0ccf564986b7cfae68ce6019347e44981a28fc144ed3b52d2681b4af64e4102",
+    "assets/dhaga-012-unified-line-v1.png": "1c0ae416465074bf7a9c90fcd67bdf1ac022116531a25ff339003b97bba952d3",
+    "assets/dhaga-013-line-art-v1.png": "7ea4cc73c0878cc8fbf5e1d52c22ea097c0ce2f9ae06d69c47221ccfa7dbc77c",
+    "assets/dhaga-014-unified-line-v1.png": "5265f5b4d2a967e2bd13354428132c11d90d9fdac7cecda550a947d37de3ac27",
+    "assets/dhaga-015-line-art-v1.png": "937595c07b2953e2e5b31931125f933c1703dba907c0db555534f45b0cb242cc",
+    "assets/dhaga-016-unified-line-v1.png": "1bc0c0edc974de0a8eb9313826589bec78924af8b020c3ff25f550fb3a9141a5",
+    "assets/dhaga-017-unified-line-v1.png": "79c68f3be2c17b16b469072f59c6eefe2b0d0b86021aa5a203a50c81e965130e",
+    "assets/dhaga-018-unified-line-v1.png": "08d68ba8735e0689136239fc113b91c6255ef8ddcfcda3e69ab1bca2a5918b56",
+    "assets/dhaga-019-unified-line-v1.png": "b1ee17705a926c9b44d99d9248e046cd6c4c9d22c986d7c129c6b1bcb51cc0df",
+    "assets/dhaga-020-unified-line-v1.png": "ac092618e95ba935e7caa3d33d532942500eb814a65aca60d63a2be73ae84559",
+    "assets/dhaga-021-line-art-v1.png": "e7fb69be3eb77b32a607a0308c27e1a069243fbac8f3b92ae37b1520d28a90b0",
+    "assets/dhaga-022-line-art-v1.png": "a5cb4b77794d9bb1610d54f900feecb982a9ab4670ad0692980911238d946794",
+    "assets/dhaga-023-unified-line-v1.png": "be59b25e6f468871bddae9d608f838261118fbd571967d1f588328fb8f37f45a",
+    "assets/dhaga-024-unified-line-v1.png": "eeb48627ca0d29811bf11e6ba9733f383ff12714f6f42419bae549164059618c",
+    "assets/dhaga-025-unified-line-v1.png": "2a49c7acaed730776deec76f39667a970c8aa31c698c83335974d179172a1b36",
+    "assets/dhaga-026-line-art-v1.png": "0f43b6e869044b7d983c646bd3cf6190171d26daba09f40dd807610ec97ebeee",
+    "assets/dhaga-027-line-art-v1.png": "0493ce76beb3a439f1a54ba4ce3295778874fe3a12300d3c6998f2d31815b851",
+    "assets/dhaga-028-line-art-v1.png": "fc97b8e743b07ed2559913dc20d5d17392801979f055d567360376fcd7a73b3f",
+    "assets/dhaga-029-unified-line-v1.png": "7558778dd84a89c115825b6af27725e338a5e0e242bb07ac4f94c891131105a7",
+    "assets/dhaga-030-line-art-v1.png": "e6c07b2991b02b38b7f4981643ccdc93df8f97bd7aaa2e4f95169843453d6f01",
+    "assets/dhaga-031-unified-line-v1.png": "fc7d1a0466bd38023c7c233089f0fd3f7685209fa921f0cf4ccde1608ea5b4ec",
+    "assets/dhaga-032-unified-line-v1.png": "72aaa888c646d624b21a979246b8c857503fa9c885e7aed77260980dac58333e",
+    "assets/dhaga-033-unified-line-v1.png": "49bb23eed9ae043000fc906d8e826210bdc6bc6d5033027a9f16206c0c8bb8bb",
+    "assets/dhaga-034-unified-line-v1.png": "97b8186019229dbb07e6ac69d0744c60d2c763db87e1e8b21f30ee55d0216d3e",
+    "assets/dhaga-035-unified-line-v1.png": "5aaa58f7c70dddcbe54cb37f706ee24f21fd97d654cdc4ed5d7b9326c3f21b0a",
+    "assets/dhaga-036-unified-line-v1.png": "c065417a61017c9c03be8eb81aa6537a2bf4b7a77b225aca1babcf26243b73df",
+    "assets/dhaga-037-unified-line-v1.png": "ebd553e7d041164910c99ea816efa59e0e2eba5c9f0ac4bae1ce6199f78a5221",
+    "assets/dhaga-038-line-art-v1.png": "000cb35374eb285697a448406b534cadf7c939210d2658c44e43c581f2985aff",
+    "assets/dhaga-039-line-art-v1.png": "9e468cc1701c762735c930788bb4b0a5c03c2206b9061a658cdca7cea9a530f6",
+    "assets/dhaga-040-unified-line-v1.png": "e9886d0dffcb6859f3b28df0ef91097459640c9e449fb456767dab34cabf572b",
+    "assets/dhaga-041-line-art-v1.png": "0eb048cd47721702aecce6c67f027a8760ec87939f63525a13e61fcb318e1294",
+    "assets/dhaga-042-line-art-v1.png": "896ea9a9b5655829e3ba55d1affe980253247d83a2cc64d5ff5ee02aec581941",
+    "assets/dhaga-043-unified-line-v1.png": "5ac8ff671819adf0593d68bf70dded2aba5c625e56bf01ae6a5f78629d538161",
+    "assets/dhaga-044-line-art-v1.png": "9f0e093d1cf488998d37fdd512f2ff1130118a24b00436b2e8cf27bef6930e7e",
+    "assets/dhaga-045-line-art-v1.png": "170ad1a012a77a4a1a0d283fb099e60a413241da984bda8be3e33ff488ecce28",
+    "assets/dhaga-046-unified-line-v1.png": "bd480d8755dfbbe69f685af61a31519547e1586e7e3181e1de504073c66d126d",
+    "assets/dhaga-047-line-art-v2.png": "de28cdda3d39eed3c8523124da84563d180d60c8c4ecd08d35b0e2f6722fbad1",
+    "assets/dhaga-048-line-art-v1.png": "11e2d125298b129ea4bd00ecd8d3d1e1373f707d583c93a4331968e0083cd609",
+    "assets/dhaga-049-unified-line-v1.png": "d02f1a192c2259810a97494da081e7be5fbc857c4ebd352f48eb477cc0216f13",
+    "assets/dhaga-050-unified-line-v1.png": "0b28852c2cabec6ac6afe5b0e94a10684553f810222cbc958cfb3f734f15590d",
+    "assets/dhaga-051-line-art-v1.png": "9ff4cf48110e9c5c08a35f272102425005d5731cd58a2148bd212cb92310cdf1",
+    "assets/dhaga-052-unified-line-v1.png": "d669c2b075761ff5d243fb2626792f05dcca440a72d2d94429ef530dba614ea9",
+    "assets/dhaga-053-line-art-v1.png": "05bd9357f7fda13ae7b9f5b25cc61af11209d42e09a4164abad8af7899cbcf9c",
+    "assets/dhaga-054-unified-line-v1.png": "d110bd8806e291000a69ebc5df9785873528d1df90ca3f657b2497e6e55e2e6d",
+    "assets/dhaga-055-line-art-v1.png": "79a363e2896d0ffe70ef1f46d420085c835dbb1ebd18795c08a0d33679146e97",
+    "assets/dhaga-056-line-art-v1.png": "739497dc46052d1be38cc6d21d1e6cdbb81ba8af64fddcc8922e2c5bf2b31a29",
+    "assets/dhaga-057-unified-line-v1.png": "eb411b80ac6139e781b7e96091533cfff670b35a643175aad17cac1884da3352",
+    "assets/dhaga-058-line-art-v1.png": "8f6ba69982bfbef7dd79fea8ba36a2eccc7a764fdbdcfb71894f60ecd589593a",
+    "assets/dhaga-059-line-art-v1.png": "4bb03fca539b96bf9516617bd354afcea7292d2ea5555c24eeaff0d2ae8f04c0",
+    "assets/dhaga-060-unified-line-v1.png": "53bb4e5994ac6f2a6b37a4c50cf8bb3e5cdc71404ddb84b5f41c0c8210610854",
+    "assets/dhaga-061-unified-line-v1.png": "d7e051ee4287277f37d388e2e2f93511e72bc97361f21d868a0d541458c52277",
+    "assets/dhaga-062-line-art-v1.png": "2aada440c8c07948bc74fc2b888e77796c3036c1349a63cf87d6aa6a4b75b5e0",
+    "assets/dhaga-063-unified-line-v1.png": "abdb47ffb6bc8269c4c7be9cd03028e79b8b61749ac0798ffeee35b6e5c7d832",
+    "assets/dhaga-064-line-art-v1.png": "411c06373973e5fd01ce689391e60a269e9c4f67ed2448e366cafb6356a81987",
+    "assets/dhaga-065-unified-line-v1.png": "c708c9d7b5417700f9f405e543bc233acb817049f052d740e5dc53553ccfee58",
+    "assets/dhaga-066-line-art-v1.png": "5282862a12b15c5fb7288e371d9c0b322fb12d3c7325f39e76a7023799e82c9c",
+    "assets/dhaga-067-unified-line-v1.png": "4f34502757a6ae4202beea4adf93fd3ca782bdbb0999fc809a971b21333f1df0",
+    "assets/dhaga-068-line-art-v1.png": "d43b2b9b74aee05ddd52e69bec73d43dc48d0108b81cc75f2a5781366a554004",
+    "assets/dhaga-069-line-art-v1.png": "1cec5a4e8a26cd739a85926f08b1ca566d7ce134ad4a8ff5343b257947349ac5",
+    "assets/dhaga-070-line-art-v2.png": "fbc3317aee42a752e0d5b566efeedfd99637af64b00b0c59ef8ed6e0004bb9d9",
+    "assets/dhaga-071-line-art-v1.png": "da5b2042b7636c2f63d90a2cf4796e0a537a668f588ca207d40ce2056d484443",
+    "assets/dhaga-072-line-art-v1.png": "b4c2022ec6d798ad7c46d52b594d5eb3ea91cd55e2af5a3159878b2a936ba6db",
+    "assets/dhaga-073-unified-line-v1.png": "f45cde94669232654f1dbb38c316dfd2944b0ea4f1f18f9222558a8976eee67c",
+    "assets/dhaga-074-line-art-v1.png": "f61c089afaf1ce9faf8894083c7036960e6d3d571432dfdc51e853d8de364e00",
+    "assets/dhaga-075-unified-line-v1.png": "32e07b00c0a3f6a67f13527b3bb21b1eacd20070e07f445b6c9596e86845dbef",
+    "assets/dhaga-076-line-art-v1.png": "0fc1e58371851086df484fd1476630f1bae6a4c1bafa0c51729ea900f4108a1e",
+    "assets/dhaga-077-line-art-v1.png": "ae6c7e5b53d1b8b0dc6ee0d74d78cb1ab0c1c770c2c604469cab5d14bf29d108",
+    "assets/dhaga-078-unified-line-v1.png": "e601cce89e94baaec15cd573b968f861bca0c4be27c616e942465ab60558f218",
+    "assets/dhaga-079-line-art-v1.png": "4d3b556e642c2cd82e38650466e4b93ff50c1af0f2a42faab4d09818308c4e0d",
+    "assets/dhaga-080-line-art-v1.png": "a17a810df01b986e9f5b674ec91d48ce664ce223df176031b6aaea546ce5ceba",
+    "assets/dhaga-081-unified-line-v1.png": "fa4c21416d9dbba2b47b8ec530060151a859faee31d95aeb677e6401e42f91c9",
+    "assets/dhaga-082-unified-line-v1.png": "bec74cee86e5d6241e9496b8fc532fd0ec361735428d080d31930eb256d7cc12",
+    "assets/dhaga-083-unified-line-v1.png": "5948c522a8a65930d7d27f3abf0518e831a133f30b4149ba77cfef3473084ead",
+    "assets/dhaga-084-line-art-v1.png": "7e664aa023c3b2d21cb28b15443c634ba48224ee97da650597330d9482b516e7",
+    "assets/dhaga-085-unified-line-v1.png": "0d2ef695f9b85665129bf46f1ecea8293d4110270a0a2c782b7850782e7e62c5",
+    "assets/dhaga-086-unified-line-v1.png": "2bd7c7afca599035df1ef382898620ee5913256d336e950b6382bdb00fbe3799",
+    "assets/dhaga-087-line-art-v1.png": "c1dbc357189927a794b6b58797bcb93ca90a5d284e2854c521ac08323675d3ab",
+    "assets/dhaga-088-line-art-v1.png": "507227eb41382990788232105dd1e272b8c81954225b414d87cf0ff7bedc5890",
+    "assets/dhaga-089-line-art-v1.png": "34134976710421e16c7a2920a0cc906e28b6fbae7453cef24786e18b04863ee3",
+    "assets/dhaga-090-line-art-v2.png": "05aaa6427d2829759060a648895721ab79598b42633d46662176715a579dd6f0",
+    "assets/dhaga-091-line-art-v1.png": "a98bb51ec8c4bc120c7cf3f8926cc13ff6925a5819756cda2e5803bcb1855fb7",
+    "assets/dhaga-092-unified-line-v1.png": "2bcec002384f75017ea48fd647d41f5f38e53b1039c34bff887810f329f41faf",
+    "assets/dhaga-093-line-art-v1.png": "84ad50a1d5497bdd07731e929cc4e187338ef79b727f2345865647a387fe94f7",
+    "assets/dhaga-094-line-art-v1.png": "02b409086ba6b4c0187bcd437099e7344977f9fd278ab6633e8eadca69bbd983",
+    "assets/dhaga-095-line-art-v1.png": "7699880d86bfbcc2e35803f7c3b4f4637af5781a528c04f5746386c94190f309",
+    "assets/dhaga-096-line-art-v1.png": "eb7ca75dc130f2010ff351a10e266f78e8d10f2f5b1629cd0d41e3645d43ffe7",
+    "assets/dhaga-097-unified-line-v1.png": "6b124867f72afee536034518581053f1f33b1ae02d211580bad811ea3c347222",
+    "assets/dhaga-098-unified-line-v1.png": "d716d58b9d1ce3d2cc0fc6aced5de8ffe66d5b414e2f382825c0da8126ebf61f",
+    "assets/dhaga-099-unified-line-v1.png": "297394c724728bbb6b063d5dcfec70dca8f0cc08c857c81983cfb29410b3f41d",
+    "assets/dhaga-100-line-art-v1.png": "94e2b313a4f6bc00e028a91936102d0cc6e1025409f9d3e306417acb2ffc5ae2",
+    "assets/dhaga-101-unified-line-v1.png": "a245183634140c1fc513b1e593b3d00f9ba2f4981bcfe81d2bb6d67339a3bd8e",
+    "assets/dhaga-102-line-art-v1.png": "787c353c465f00c4ca70aecee90c7fc8b71853e3b200a9c5e90a696bde8e468e",
+    "assets/dhaga-103-unified-line-v1.png": "abd46d1d6f76b9aefd008af63e14cf387de265c7cb870775f906e5e089ed2b35",
+    "assets/dhaga-104-unified-line-v1.png": "c8df6a05caab53bd3916d01b8ca30f73c2362ce1b685c310d30923417feddd0d",
+    "assets/dhaga-105-unified-line-v1.png": "0d28cc472f0d7d45fb1623a1e09c75de033fddda52b27c4964bec6d38bbdede7",
+    "assets/dhaga-106-unified-line-v1.png": "2196185333cdf1e94b39125b63b5d00637ed11aae2e6028de6948357826ef58c",
+    "assets/dhaga-107-unified-line-v1.png": "314abbaf2eef7908c1c9f4cc06fb8cde782a3bd10fce4abed0cbf750e8a46d7a",
+    "assets/dhaga-108-line-art-v1.png": "4b3b5f87282d09392e0aef98d594bca7ed6d00054e4d40042528e534e99e9622",
+    "assets/dhaga-109-line-art-v1.png": "180a1c5ec3940416f72886069210e41dc923a9ddb10c40558a928c11da1c8d81",
+    "assets/dhaga-110-line-art-v1.png": "23a8f555320ec76be3260f31ead4c601d08bd3106a26b0948a858d5e6bdf1413",
+    "assets/dhaga-111-expansion-v1.png": "1d3001e85d7ee1e64775f8ab31eef58a8dc66037e64f66be5460ce26dc1cdf31",
+    "assets/dhaga-112-expansion-v1.png": "e095984ba81a8ca0cf5e91c96747d7e8a535635c3671e5457b3f8729d54b76e8",
+    "assets/dhaga-113-expansion-v1.png": "144c8f82950161eeca1dc42c8415a9e66ed66c0384b175918e31e6091c0c7213",
+    "assets/dhaga-114-expansion-v1.png": "e5adad5168dcd49ffb2e47bcd90dd99e6c9f15f6ca7187be231b497eb3250117",
+    "assets/dhaga-115-unified-line-v1.png": "8bb4bce22094b8750e8a728b42844094c82530a34a6c1e5afebae55ccf4ded57",
+    "assets/dhaga-116-expansion-v1.png": "82408af26b8d03bf599a709c58069c252e15d549559c4e05b2d8d602fc77cbd3",
+    "assets/dhaga-117-expansion-v1.png": "ec873a3fa7cf0abbcf0ba6f20561475d1fb587e6935cf9d2221f9f626f47f02d",
+    "assets/dhaga-118-unified-line-v1.png": "735bdd5bda39f832c7425f9ecc3332107336676c9383fcd7cd93e4bc3b4b319d",
+    "assets/dhaga-119-expansion-v1.png": "a05b7cc77ca41bb3baf20c4cc0cf514e72142bb0773c32f6770e0c7430a7ea13",
+    "assets/dhaga-120-expansion-v1.png": "254dcade12d42b4ffb4b43f6cb4b59bfc909253130d59dda567bf5b623a27938",
+    "assets/dhaga-121-expansion-v1.png": "5aa1e06bd34a4e163e7cbd6fb625e4b2c15b6d30f38efc8d4b52c324e03d8f65",
+    "assets/dhaga-122-expansion-v1.png": "b090494695880495da2ccc7d00f3df5d34e08902370d2534ca541dbc9e8aeaeb",
+    "assets/dhaga-123-expansion-v1.png": "f4bc02f56737bb69fe8cae19446193794638d554e2a7b10e9678e59c9a919036",
+    "assets/dhaga-124-expansion-v1.png": "5d7cb1831e6dc0bf7a2ce16a4797090eed840aca9f22a170bc3f200e7ea87777",
+    "assets/dhaga-125-expansion-v1.png": "d7941d91c9ce2c5d9eeae14e6bf3a829887be3ab3e86253ce2f9e93cfffb80c2",
+    "assets/dhaga-126-expansion-v1.png": "bc1f523560c332912e322bd3cc2d386b8828431037766a08726ccca678430928",
+    "assets/dhaga-127-expansion-v1.png": "fb4a546e18ceeca4d7f60522f9026708eee8c140651243ec3fda5c3d50ca8785",
+    "assets/dhaga-128-expansion-v1.png": "30a80471171ec2aab57fd818522b5ba5c62de03cb892f139b1dce2e5a62784f1",
+    "assets/dhaga-129-unified-line-v1.png": "6aaffdc085870d8b04e3a28c228f85adf01ceabc55212f22dabb64991cd4dcc4",
+    "assets/dhaga-130-expansion-v1.png": "0f0036968619fa117ff9bcce0b2db60b98831022082c52f2914a8c7fb2cec6d0",
+    "assets/dhaga-131-expansion-v1.png": "d894762f1069d5fce72e4c7f22cab438166cdf030d93d49a3fdd38643e03bbb4",
+    "assets/dhaga-132-line-art-v2.png": "f0c1425bbeab457137fa706fa84a6e2dc26c5529005c8c76bb9332f8dae4cd0e",
+    "assets/dhaga-133-expansion-v1.png": "2b76930694ebe635c11977ae0b4a9e2a1bc6f4dfdbe6bfff6d168e49ce8c6981",
+    "assets/dhaga-134-expansion-v1.png": "29a675ddb7a5741c493549f2d7e2842f0230c42588ccdb3edd7fc326be4221e6",
+    "assets/dhaga-135-expansion-v1.png": "40a9bebd01e13448b7da7a57e6ac491a424f45b0b9f19cf702590e4af5eb8d07",
+    "assets/dhaga-136-expansion-v1.png": "89b4b1324fbd2432ca26429e350187fb0696f1a19d3d172301184d6ef1651c34",
+    "assets/dhaga-137-expansion-v1.png": "8dfd765ab2a4e423cdbf4be7b398ced682d6bdfcd525efd114e35acb9c6f3d73",
+    "assets/dhaga-138-unified-line-v1.png": "1c3234a0a22e46bba5744da6209ff7c92225d8de46101b387616efa1d1a02760",
+    "assets/dhaga-139-expansion-v1.png": "006ff059419fbf6bc19757792b96dbfffbbb25fb30949e445f9713d0614f2f86",
+    "assets/dhaga-140-expansion-v1.png": "08cf1c23fc1cf7c3ad1a6e538d23c0e337f42bb61bae88c73e190a412e16c58b",
+    "assets/dhaga-141-expansion-v1.png": "3b697b67ce1f32dc0a62e68a30157109fff72d887ffd324fbbf080250a5cdab6",
+    "assets/dhaga-142-expansion-v1.png": "efa91ad6d94d2ef9ce5bb396555b71811a4e47bb37dd933f428b3f0bd277228c",
+    "assets/dhaga-143-unified-line-v1.png": "40dddb230ac125638c484988c6dd8805f906416f0edabd27469b5c25c85a9709",
+    "assets/dhaga-144-expansion-v1.png": "3d8b28d423620fcc92d85af0f5d089fdc68e307d97d91086b481743358cd2581",
+    "assets/dhaga-145-expansion-v1.png": "76efb68257f7b24ba94d92548b35e1959117c3a23904f6ceaf4bbf29ad4d94c2",
+    "assets/dhaga-146-expansion-v1.png": "49144eae30224888b28dce7cf85ad4636b3c8f7f7b7e5e6a8a6fd0b83120493b",
+    "assets/dhaga-147-unified-line-v1.png": "3c2ad913c2c8ceb964b79eaecda6326e53134b48f7d3ebbfd785ba4b73ccd130",
+    "assets/dhaga-148-unified-line-v1.png": "b8250e51c0ff9ebd959d35d4d9f4fbee57840b9458df052ceee0bc6ddf44caf8",
+    "assets/dhaga-149-expansion-v1.png": "1dadb3fe63942839153acc75be001ae2d228fc834807464b56674967961c9543",
+    "assets/dhaga-150-expansion-v1.png": "9db881c8b925adf2de0a40df955e29e8252e41432bb77874657ad7be49da3325",
+    "assets/dhaga-151-expansion-v1.png": "1935c9143fbcd632a0cf1cfb1330068dd1ba99fca8ad9eee58e165db47eb5d73",
+    "assets/dhaga-152-unified-line-v1.png": "c2ee058a33ed3c45530d51835915ab58e62eaebf63c0c10c361ba5d321f62a9c",
+    "assets/dhaga-153-unified-line-v1.png": "a91c4b74548fa65acfc1b8732452770a29da89fe0dc232f368e54f5dedd8bed5",
+    "assets/dhaga-154-unified-line-v1.png": "26fc91057854879fd16cf4d96e3487ebfd9675f245f07a76e2a18f25cbb91f8d",
+    "assets/dhaga-155-expansion-v1.png": "6b201e787eb40abdb053173c6d1f3b5b599e7dc01d8683adc81440888e2063cf",
+    "assets/dhaga-156-expansion-v1.png": "09021445d245796dc8bda746bac6276945bb394faf4a2460aa19789f00c35d70",
+    "assets/dhaga-157-expansion-v1.png": "b2330ee79ad0a2536541aaad9a38f75d945584c33a8cad73ea43c158513d013c",
+    "assets/dhaga-158-expansion-v1.png": "c5ab13b42b7baed4c8181cdd141f697b2966c5ac511f15dde60942e2170a2ffc",
+    "assets/dhaga-159-line-art-v2.png": "ddca895c1d35a724194a587544ae806b45e0c194da217f5bcd258909de233d95",
+    "assets/dhaga-160-line-art-v2.png": "7b0096af1013f36f4d943125ec5a79d694fecc7c99a9457c0e30a867541fea0c",
+    "assets/dhaga-161-line-art-v1.png": "1fe5797c3f6c91b75559f8f2c42e727052b20d091834ff4d2786850b9af6a440",
+    "assets/dhaga-162-line-art-v1.png": "6eda511571dcb9f786bccb2b12b58679ce8835d76fcfe46b092c19bc2363edbb",
+    "assets/dhaga-163-line-art-v1.png": "519d7f98f791e78287ceb133f9b0bc4df196ea40c44bf926f045252c90b053e2",
+    "assets/dhaga-164-line-art-v1.png": "f3fc6dc95d6995cc43d5912866a0c66fd6b8ec7efbb430d1e644257342d91444",
+    "assets/dhaga-165-line-art-v3.png": "73d38a07e5b919c64edaa5f6906b5cf9300cb20a23d345a88cb4105df64bf23f",
+    "assets/dhaga-166-line-art-v1.png": "e53746a99bd97624aba5229f276bee650a61cd812e5daea9d5a9bee7f3f3c900",
+    "assets/dhaga-167-line-art-v1.png": "2698d3f5fdcfa96579ad2ef47c75490ec67aef6f8df740a8423a7efba102079c",
+    "assets/dhaga-168-line-art-v1.png": "07d235849dafdb9cd020dc8ef149622c0a6d97c42abe8263c8de95dd42594a18",
+    "assets/dhaga-169-line-art-v2.png": "1a09f9507c6dac7ab93a6a383875bb12fd9d213e4bd51e021f0e3bdf524fce4e",
+    "assets/dhaga-170-line-art-v1.png": "459892f1f98071f8928f06ecc9cd1f6305e9c646e670208fde74442da83ef329",
+    "assets/dhaga-171-line-art-v1.png": "f0d679a986c9084ab82896bcdcc9d75d04a4d3af4641ae0e65835b5170f27b76",
+    "assets/dhaga-172-line-art-v1.png": "5d8e08ffca3a260823c40c93901c672be975221c7eb1329ae5a5f0e3eb74ac64",
+    "assets/dhaga-173-line-art-v1.png": "72cff93c92cc07396c4538427c552db41147648c7bca750b31cccf7f556264ec",
+    "assets/dhaga-174-line-art-v1.png": "bab72022898cd8e448517058cfcf1d58ecd3277735d692139deae2b501476416",
+    "assets/dhaga-175-line-art-v1.png": "fd58940016e9490d2bbf79c42b8b1e474ad17a68896faab01bf8b48aa84470e2",
+    "assets/dhaga-176-line-art-v1.png": "a55b8b474917fbecc4b43fba6c8aba536a260208582acac06d12662dabb8171a",
+    "assets/dhaga-177-line-art-v1.png": "4bd23febe8f5348117825c4c0288d38c19d16420c675ffb1abd69d5fc4c87a3f",
+    "assets/dhaga-178-line-art-v1.png": "cbe6b1f047869a57269d77f97a04cb29578ad12ffef013eded9ec46fdbad275a",
+    "assets/dhaga-179-line-art-v1.png": "40a5820022a23266f17d2bb46532d0c875b1c0b9345fe01d8e54606863fce4d2",
+    "assets/dhaga-180-line-art-v1.png": "baf8da2eff23a0394b8631a51388f5da542b2cce2f28f7b944d9989011601303",
+    "assets/dhaga-181-line-art-v1.png": "b87b75cc6d650dcd28b5304274f4d791bcce5c674188cee0a85871b55a074f0a",
+    "assets/dhaga-182-line-art-v1.png": "2e3068e928339fb6017bb7242d2412efee8bd29944884cce41393b02280bdd53",
+    "assets/dhaga-183-line-art-v1.png": "40e0e164f4831b165ef739e3790f95440d1002ce26c54a42dcafa0c8488f0bf1",
+    "assets/dhaga-184-line-art-v1.png": "656bafa1b3d3ab1551a4cc1ea92863a056a04fcd9d3039d690be925dfe0c2dae",
+    "assets/dhaga-185-line-art-v1.png": "013ad8b33197c9380fb15313af230d029c669123156cf2e834bb1171f1d2f97c",
+    "assets/dhaga-186-line-art-v1.png": "0d3849b2e5f089e94b44c9a16eca544c7b2e9ab5babd8989bfac3f8e989b34cf",
+    "assets/dhaga-187-line-art-v1.png": "0a3b310c42dfe8056973fed804026b160bb491138165800907bbd1b4df1313fc",
+    "assets/dhaga-188-line-art-v1.png": "235a6b0d5d1f2d4be6fc3e950fa9bc5afc47a433d997d1a3cae6529101d6bafb",
+    "assets/dhaga-189-line-art-v1.png": "d2810c5b4bd1e3882b754831409ab106b175f683b7431b7f3e065f1580cab5cf",
+    "assets/dhaga-190-line-art-v1.png": "44401bb0571a1b80ff355fc9aab3811d629dd3fd777139270c2565c3ca5b2003",
+    "assets/dhaga-191-line-art-v1.png": "4d96823b8ffd34bfa9014a44911965258b5dadac4e487f276aa798a9a6c2834f",
+    "assets/dhaga-192-line-art-v1.png": "8140b9187592b4d7ba2da09074069a54cfd1c979e8f44609d0ca93d9bd34e4e3",
+    "assets/dhaga-193-line-art-v2.png": "c318ea4cfeb01fb34f8190a40a9203141aea22c8e6c9516681bb2f05b1872b48",
+    "assets/dhaga-194-line-art-v2.png": "93758ded7faf8cfa4110dcf94531dbe7a03d6b709f46a54f1a3f2f1b14361452",
+    "assets/dhaga-195-line-art-v1.png": "3babc0c61d2d3b59445e46cb51b9e11ec0f391c112ac658539dda11ebf2f3d6c",
+    "assets/dhaga-196-line-art-v1.png": "316d8bfab32965b681dcbd2e7823d0400c5acc8c0e99d97da0ad64b87b46f3d7",
+    "assets/dhaga-197-line-art-v1.png": "8ab452abea4f673af6500874ff2cbeffcc5031016f53142012d45075a331294c",
+    "assets/dhaga-198-line-art-v1.png": "5ea28665d4efc6290c6f7fd6d690101eea896259749685b38dab3e8415198b1e",
+    "assets/dhaga-199-line-art-v1.png": "6ef5d2b50fa729c8aee0ad037f30d5d21a9874ee644919a544a34d0e3b5f1580",
+    "assets/dhaga-200-line-art-v1.png": "5918dcf43e5e29caebf1b1b6835e1a255caed1ed428861333c92755a02e249af",
+    "assets/dhaga-201-line-art-v1.png": "eaec0b07be78167ac412ecc70c5145f9a3d6b22dbb7acf4a4d76d3938dfb35a2",
+    "assets/dhaga-202-line-art-v1.png": "e6322c53fb8a60be15ef98a4b4aaeb67cb4de4b77e36e214f59b2dd27d0a12d4",
+    "assets/dhaga-203-line-art-v2.png": "51ff74f139be0ca8eeb2c508f4cd381f16ba8b06eff4b6885454e5c783edaf99",
+    "assets/dhaga-204-line-art-v1.png": "aa6693384bee89813e707d0fb44840fc0a50bf818db94d1c3a0e5b50d914a75b",
+    "assets/dhaga-205-line-art-v1.png": "c0f2cb7dad902067693913f0cc181bcb362409e2bd4ed3955ba857f7cf47fb40",
+    "assets/dhaga-206-line-art-v1.png": "a86ba1f244d5447185c0de386dd712739d0d5cabb430157d2dfb0eba81f9f543",
+    "assets/dhaga-207-line-art-v1.png": "38d08d6a049762ff5999874ce5068bdf5190846aaa1cd9f92985ce936fbeda6a",
+    "assets/dhaga-208-line-art-v1.png": "91211fc3095e0c6bf2e20e070169cea1f9ac18e82b7b7cdd7cd897249bd2bbe0",
+    "assets/dhaga-209-line-art-v2.png": "4761eb91cb565b21f9c269be96542e77c3a7a9a3be9c62a0ab32c45f5c964b68",
+    "assets/dhaga-210-line-art-v2.png": "ba27483060cb9cc972a722a6eadea1498f403948682cc9a3b068bd9d830e81e7",
+    "assets/dhaga-211-line-art-v1.png": "73a22111ca8e9d9eb4e4f600889dc7420982f989591e1e816c14ff0d5e7f5c9c",
+    "assets/dhaga-212-v1.png": "2fd15c0a858daf6e24969e966942d04e0d0b2140813723ad1e6b0fc6554e8cf1",
+    "assets/dhaga-213-v1.png": "158d634ea7bd8998686de727fef05e5e36bea4e1ea9eb2d8c743e888449de0d0",
+    "assets/dhaga-214-v1.png": "ae9bdf5f2003e0a7817bd666f1ea32039baf99528d485430036b82b10001e027",
+    "assets/dhaga-cultural-cover-v2.png": "bf915d89298e7285bfd13296109d99bdaabfba65c7b5532ddb7fbfd4237d7fa2",
+    "assets/filler-grass-v1.png": "f7e7361cc8f32e125cf60ef31194a357b9ef8253a9ee0ee045eb624014422d7b",
+    "assets/filler-twig-v1.png": "42bd199b872fd82b7398145b52cd9381687d71eecba7912f4f332add4bf915a2",
+    "assets/filler-vine-v1.png": "4d04c890b7676856125979f9420fd5205d22762fa39ba861a31fc4401800b015",
+    "bilingual-summaries.json": "98a1f3012b0df7033f854a44c35031991c16d22295845ac6ddd0e8c08cea741e",
+    "build.py": "56bcacf00c8bfe753f83b816f11da83252845a11a3f855f96639fb0aeb199c1e",
+    "build_print.py": "0a6a962a2db6213d9c1e000734102c45184f0440439badd8628c6d15cf60d23d",
+    "build_source_inventory.py": "2a142be610226f2ec69f81278435f800e988c2f7bc6145e6b5de6c4a7900be8c",
+    "collection-metadata.json": "664d289da862f7c7bd57e1417e12d404e04cfaac08cb906c324e7b41eb34cfb1",
+    "collection.json": "4a5916e344fac39072c7d07b18a0c9aaad5b4ff49fe9c8221cbe4b5e1e695049",
+    "coverage-ledger.json": "92544c7d56af2cf495df1b74dd012a13447e5716695ee098af956b89b8489ff1",
+    "discovery-inventory.json": "91ca449af4b4e30ec5d90aa4a1b9ec02846b4fdf9ea301d9c6acfbc32fd7e7f9",
+    "entries/POD-DHAGA-001.json": "4c97303e5dc609e38cbb2096dcf5e2f8dfee3fb4d533aa12ac74466f44ffb815",
+    "entries/POD-DHAGA-002.json": "bb6d15ae84cdeabc863fda1e86bd92b4ffd001b519ad8421cf0c380c873293c9",
+    "entries/POD-DHAGA-003.json": "bb1772d025a6b8abbceed8b28067442eadb912f0a14a3fcc86ab84cd7d3a2497",
+    "entries/POD-DHAGA-004.json": "5396026dd50e3cf04bbf67d5ab709b5be69a791da2d5855341b9e6e2ffa848ab",
+    "entries/POD-DHAGA-005.json": "5e48543868179e43db17fe5225ca221230740eda6c9826586ff015dcdd79cf5c",
+    "entries/POD-DHAGA-006.json": "6f32fe9bcd3200cccde05fc73d6741867f37eb4bbb44e372755d9770ad2ab0b8",
+    "entries/POD-DHAGA-007.json": "35ef9235de338547897f65ed6a5420bb87d60c94d441e781ad4ea5a7fa6f5406",
+    "entries/POD-DHAGA-008.json": "51ea9b9e31ba0f48684700ba8012169925bbb8a7faa94a54961219b29d515293",
+    "entries/POD-DHAGA-009.json": "fd2e07891d175ee5e1a59e666b3dada223d293b7428c88031be12ceef12784df",
+    "entries/POD-DHAGA-010.json": "c95de02736701344ef6b384b27af58c68c8ccaa0affd4baf1e02a60dd09eb379",
+    "entries/POD-DHAGA-011.json": "b7162c0ecb947e32f678cb60b49068704c22d3f6f628a40a9da585482fa08912",
+    "entries/POD-DHAGA-012.json": "1608b4edb592ad990e8123ba3d9217f6db69a48d2cfd8b65b31db8a3dbd66050",
+    "entries/POD-DHAGA-013.json": "34178b31175cf9d308add0ba18d3e21c6e327a4e41c7c53e15d1cb8a754420e5",
+    "entries/POD-DHAGA-014.json": "17059b096ebd363690d4cc4a33610a713c1ac62d5800807e9b0bd74a500230cd",
+    "entries/POD-DHAGA-015.json": "36e4f3e5c1c0c2600f2de3a059986c052fd5b7ad4884245a4f63b24fb5653ec8",
+    "entries/POD-DHAGA-016.json": "ea70e6d4e2ae4d77452fd30d6f3fe45cc1ef6934f2d08f06482ee41f6bfb8092",
+    "entries/POD-DHAGA-017.json": "846f0954a40b6cb67c22244d670af0fd15a88dc027225ef2abd64e04daf21082",
+    "entries/POD-DHAGA-018.json": "816f095c10a4ebc64ef92c5c77fb3f9cf9fb79a64ae90cec38db5e081b1fd60f",
+    "entries/POD-DHAGA-019.json": "69f90aaa6f9f165b96ddc7b6633543763fa8f3fc4cdece7a50c0ed1e8b54ae6a",
+    "entries/POD-DHAGA-020.json": "0e6d4b9945ae11c1deec3d2dfc3ebf52d58619b862ee28d0fa52f2ea3c6340dd",
+    "entries/POD-DHAGA-021.json": "a191632e31e55b8713d9a0b52af9f784fcded3450b9c7584efb22356182442db",
+    "entries/POD-DHAGA-022.json": "d5bd8b0cb3bb25a0d64bebb9609134b6c98083ade8f0b8eca1f96b8f64936462",
+    "entries/POD-DHAGA-023.json": "50b02d3349666a43d7c1aea4a221de719b00b388246f2693243f32e904c9bb46",
+    "entries/POD-DHAGA-024.json": "42715837a5eb88c93637ae62778fd9b6420818534362c57c5f4701bb3bd87e02",
+    "entries/POD-DHAGA-025.json": "e268beba6d435539fe0d3bc4e37fa75441442b0ee02da5ef5d1fab3ab50c157a",
+    "entries/POD-DHAGA-026.json": "4cbb9192513d271671f8115152f495ab195b31afdb8a137a57d6010e475b14ec",
+    "entries/POD-DHAGA-027.json": "3d6e4989f69d1a6782f2a199dddbeb45c9b878ab71cf7b2016a2842b64a984e5",
+    "entries/POD-DHAGA-028.json": "f3df3bd418043fdc24d4fe37d1e9fc3f783681b23c7cefe60a35c863b38150c9",
+    "entries/POD-DHAGA-029.json": "dca5ad2c93d81b92b87f303ef2a597e240e37d583668bfa4a428faf1cddbbc61",
+    "entries/POD-DHAGA-030.json": "32e6d39769a0753f049b5b6c3f5957c0426dda4a86f181e7a9599a691169eff8",
+    "entries/POD-DHAGA-031.json": "6f8ddbe0f26c0733aeddcdbbd99f061f365c55572e37176cfee3038f0d5e656f",
+    "entries/POD-DHAGA-032.json": "e7d1f671e301ad116f885065a500af87dc769940c4158ac2f0e6ceb3927e661b",
+    "entries/POD-DHAGA-033.json": "e164b33b936a057a65657cf1ba871c857de7bbe0eb0cc9d3a751415ec8a15e45",
+    "entries/POD-DHAGA-034.json": "7d638605211f98836627ca846e443b89ded4bb089fbd397d8a4c452415a33318",
+    "entries/POD-DHAGA-035.json": "cee7c6023b5ca599838f0e18739721815dd1557aa5df1c51396df625314454d4",
+    "entries/POD-DHAGA-036.json": "d9f045bef832fdee85ca04f5238088196c06a04d864ef4c1d1972f5530f57c6b",
+    "entries/POD-DHAGA-037.json": "dcbb21c46a721eff997213a20f4ecb305e3a0896d992de582455d2ca3727f1fb",
+    "entries/POD-DHAGA-038.json": "41b8ad8236bf8ce9cac4b1d4ef82f9aa20ca485112a29f9886b4e289a7d5548b",
+    "entries/POD-DHAGA-039.json": "38fa6cb92e11322d88705000875c46dd0eedd4dd8e798ceae7a1a28591ad71ab",
+    "entries/POD-DHAGA-040.json": "20a66d50470ad7727d0ba623575e62a4019d53e89a311a910ff06a4ce6ed4342",
+    "entries/POD-DHAGA-041.json": "6bee708b930ef05cc2b57135b4a98a80d9be36f5ba1925965784e17514b47ca6",
+    "entries/POD-DHAGA-042.json": "b74a633c4ded83688b89e8040460e8ef13df97d33806399b508100d57c3421e6",
+    "entries/POD-DHAGA-043.json": "9b5011bae5553f4a8500a84d011486a8e121193a258c573f6a54ca608482384e",
+    "entries/POD-DHAGA-044.json": "ba8e4e595a3e1065bac533f9eca56ef5596956198b68a374fc91b3ea1907726f",
+    "entries/POD-DHAGA-045.json": "9d3c1245a866383a32c4295a93b56152393227bf75d2b234b2fd92ced92896c7",
+    "entries/POD-DHAGA-046.json": "e13bda0903579a2775a0097bc9a4cb2c7b27c61f8e0f20397a029f6f9389d78c",
+    "entries/POD-DHAGA-047.json": "b8ae50748e913b6edbb1d357fb9f36eae1f5f4f849760a2a1d337734074dd7d1",
+    "entries/POD-DHAGA-048.json": "a856e27661d8a6be58e5aa65ce7c15f94b55951069576ff6dc80a4461a94afa9",
+    "entries/POD-DHAGA-049.json": "ec1ac6c96a7eaadde3f27a6e2df34cc56424e33de05d7b9c61276b373dba964a",
+    "entries/POD-DHAGA-050.json": "1eecc4afc59c118db7077705963e68c185779711717ac60e1cdef8427fe2a5eb",
+    "entries/POD-DHAGA-051.json": "52962e0629e0fce66e4a814999eedf7577fe6055df37b0a24a7c2b292b3c6151",
+    "entries/POD-DHAGA-052.json": "9ab1f18f0adc5c25c647c0f291f462a1469dc2b4b8fd6280c575ed35b4bb20c1",
+    "entries/POD-DHAGA-053.json": "816fa7cb88a545acfc13fcf2b573be0522960c6a28ff917526db162d58acad18",
+    "entries/POD-DHAGA-054.json": "5dfee95734cf6721ad9b9cf6e204ad6b58a7c7d69a52aa8977ce4f84b590823d",
+    "entries/POD-DHAGA-055.json": "7bf8df9aa7c960d67e9f55c6e247e54ef2ff24e216f5870d4bc2e4209c6f940d",
+    "entries/POD-DHAGA-056.json": "10fe0dfb9c91ded34863ed15706808cd0dff1dc05b7849e12d952eefedba170f",
+    "entries/POD-DHAGA-057.json": "31b5be867a1c4283b2a353a97dd46aa22931f804d425d5296acdcabd0ebc6fbc",
+    "entries/POD-DHAGA-058.json": "bfd4042c589671ab90e765dc8c31c844cffb3ffd4202f7778bafc569b5998113",
+    "entries/POD-DHAGA-059.json": "85b87b00a1620befd4700f9299cad65f867dd4311d62d05f4fe6b15abb4be4d4",
+    "entries/POD-DHAGA-060.json": "0a2f4b575ce7b01e4753667056c266e34cfead210691579d0d24c7938328995e",
+    "entries/POD-DHAGA-061.json": "f6343c8865488b67ebb2d55829f11dd44bdd91a867b9d8a4588a8a4130fe8d8e",
+    "entries/POD-DHAGA-062.json": "603ca8437deafad4275e8e59360ac5fc4089fc1752c336b4a0d4730eabf720b5",
+    "entries/POD-DHAGA-063.json": "a8b5ab37e10a5b9a3388f5c6da23d4c4975968a0f6cd2aeae3d07205a4bd7127",
+    "entries/POD-DHAGA-064.json": "233fee068e9471fddcc98dae1e099459f1681bc845ba27605cefba9919fb89a1",
+    "entries/POD-DHAGA-065.json": "4dfcade192c274dbc734618fca5ff1b90fb7627b3449634371e5a33f563a0a13",
+    "entries/POD-DHAGA-066.json": "d16ce552588aa267106193f4624c9ddc325ea5f899ec970da0375ead14d87bb3",
+    "entries/POD-DHAGA-067.json": "d03c5e481251707616103e8ae65c02f6b6ec4b8900108cca7453fde69fe1e45b",
+    "entries/POD-DHAGA-068.json": "843379a83d4312a29134087ebf1c0c60809348cd1ae4e568847c598400794b18",
+    "entries/POD-DHAGA-069.json": "ee6078e462d548e1d55e4740fcea9787d4abb634776eaa9faff969d9479ce0af",
+    "entries/POD-DHAGA-070.json": "5d05c66dfde1beba9676e20cd0d83ed20d09515d997318ec22300f38b07a0da7",
+    "entries/POD-DHAGA-071.json": "0cc67d0c55a17aa8854425ea1ebb5ab1436d6ca10e427fd17b7b72fae8377694",
+    "entries/POD-DHAGA-072.json": "0568553738044b075f1fb3ffb8f70f9fed54c5926d3af3785ce0505a7506596b",
+    "entries/POD-DHAGA-073.json": "394ea9f494f4e588404186d7de9ace6f01f6c723fd6b26d7a7edf52d3bc1aa97",
+    "entries/POD-DHAGA-074.json": "9b433efa7a64c50f35b5dd9bc96b9b81ed0a4c4bd90b19afd24a6be20d9f6e0f",
+    "entries/POD-DHAGA-075.json": "e5ba68d14335ce2563dc9a3baf6c754172393fbda324e2f15930d2653527ca35",
+    "entries/POD-DHAGA-076.json": "503c1ce130a3f4f3be7ec6bfdfdf00d3a211a80769b84ebb358df1db36c0c96e",
+    "entries/POD-DHAGA-077.json": "fea45302ba96468803c3060b0df4ccc4e1c90565e5d55bc5e628490f5c67dbfe",
+    "entries/POD-DHAGA-078.json": "2d55d291211b1341fb2d7e692e017d507266be949d9ec2b0d371a63d2a29e96e",
+    "entries/POD-DHAGA-079.json": "bbc9a906f790b81a3b91351ed9a13d433f9b2b5eb9ac1b34dd214a0f76421093",
+    "entries/POD-DHAGA-080.json": "8cd28a3f5c91e728c31426f69c5db767b2b72938f096671fb09b852f8789ae4f",
+    "entries/POD-DHAGA-081.json": "a4fdbbf8f3f9e0b4ebfe47d6c3eb063a0e7254cdeed6941328399f21d61eacfb",
+    "entries/POD-DHAGA-082.json": "f160f543088f8639c00091b255bd1275b2d0cafac3702fcc06a1b6eb03b53d69",
+    "entries/POD-DHAGA-083.json": "6855dfa53e949cfa23b12369dce798fc9822ad0dbf1f26888b713e08c3c8ade2",
+    "entries/POD-DHAGA-084.json": "66b94ceec6c500202fff64f4c90eaffc336cc2b2623967bc91b901bbce684575",
+    "entries/POD-DHAGA-085.json": "c7385b291ffe7c3f602279e4c755c62760591651baf8eeae56cedf94a3425f8b",
+    "entries/POD-DHAGA-086.json": "3a91be437705d53e3db7b9964cfb0c12de7aba786141e779fabe8b9707c8dff7",
+    "entries/POD-DHAGA-087.json": "e0e1ba231d87a42efc2dcb6a85995175f9ed271fb3177cc8f881110eacc75809",
+    "entries/POD-DHAGA-088.json": "c40d62b7e7bb7d17b51294c60f79f79a10519c2a01f7673198522ee94c78c239",
+    "entries/POD-DHAGA-089.json": "c203ccbc6bce6f3b249c01488cf3a5cce777e78e71e4c46ecf9a55f6915a3a4a",
+    "entries/POD-DHAGA-090.json": "80d9281fc37dcd958c054a40a064ccea7341090bfb1ae3af84885de3d7c78bda",
+    "entries/POD-DHAGA-091.json": "dcbfa67ec1e98a18ce30d90fc992f16c5c56daa0bf09660b6f9dfe4ae55ec3c3",
+    "entries/POD-DHAGA-092.json": "9ed27d82b6b86f8b3af859b55387d823cc7ae412e15022ad246c99c898de18f1",
+    "entries/POD-DHAGA-093.json": "6b1a30e15704f84ed52a3a06d5a5694d3b545587920280d68a0de9efaf5cda9a",
+    "entries/POD-DHAGA-094.json": "b45b7602800926a925c4c649ed5be5d79493122905fc20c0b864377779e6ea3a",
+    "entries/POD-DHAGA-095.json": "61aee4363c2781b7a4aa345b5413c96dba239f3547ad45c4e3945a5732192e5c",
+    "entries/POD-DHAGA-096.json": "f480c6c80a611c4a7f41bbb2724df440a1f855cd037536c345b453ae7ae571be",
+    "entries/POD-DHAGA-097.json": "0504ca415f8ae907f62cb92fb6b094e243f6f87b86e229928900201c7f66b909",
+    "entries/POD-DHAGA-098.json": "1200250feae4b0230dd1f58953f8397a7c0d3e5b3f9457d7a665a99c0488e080",
+    "entries/POD-DHAGA-099.json": "b069e3b4e0366304d63ee47df026e9ccc4b5e8aa0ad70935670f522dbb590fcb",
+    "entries/POD-DHAGA-100.json": "672dc9545ab14bb264e2570962366bf7e1a79c84abd79e072ae48e843f1a09b3",
+    "entries/POD-DHAGA-101.json": "2d2c3062a4460a0d28292962f8f94c2494c9529ac6273dc617b0a8a2a130d234",
+    "entries/POD-DHAGA-102.json": "469f1449606861421bd1e4982aa0e28f1fab662f261bab502c9cfe39aa0a6233",
+    "entries/POD-DHAGA-103.json": "de92f28472f947d0364220afcbdf85f5471e5439e608ea88008f7e2270108b3c",
+    "entries/POD-DHAGA-104.json": "09f3b3f752aab89b4e9ce58f06136c442e2899a49ad9cc4b74fa3cd5f33f6bda",
+    "entries/POD-DHAGA-105.json": "08c3ba8162f17d66af10e9e5482dcd48bd6b6f0e15d8a171575f8ba0eaaf0935",
+    "entries/POD-DHAGA-106.json": "f1095c5991e85d9e97d77067905501b53a6d11ac3b829cbdbe69355b4ed7b65d",
+    "entries/POD-DHAGA-107.json": "ede8fbb73febb0010a607108217abd75a66b175aaf8ff1e3d4b888e2ec4046e6",
+    "entries/POD-DHAGA-108.json": "ac3083c9a91054b2e1b2aae0065b692cf5a618460e2bbbe04c9257d4eda82ff2",
+    "entries/POD-DHAGA-109.json": "2ad2f20ce3b6559f66517a446244ac35ea0b0996d3f81f0ba4c2f23e152f316c",
+    "entries/POD-DHAGA-110.json": "8a8577905c0c7e8d152a62af548fac1cf7c624110ba6a2ce3193308f936e7b77",
+    "entries/POD-DHAGA-111.json": "2918f2b33226546b50658f928b5fecefdc6e8be66c96d68c64bee1783dba20e3",
+    "entries/POD-DHAGA-112.json": "ecb51db63ae72573c82ae6d4b23c49f318124075e653fa4b99e0d15c133eae2f",
+    "entries/POD-DHAGA-113.json": "91b695a5f5ede1d8ce7dd717a54642eb79a24cc4f020dd2ecc1fc31883c1d0cc",
+    "entries/POD-DHAGA-114.json": "b08940cb8f61569f6bcdd14f3902b9516f0f596a4a0cebedb6f51ab895541d5f",
+    "entries/POD-DHAGA-115.json": "5c75744938bff5807f96cac5081de489084665288cc3766d26ee341d38dbc788",
+    "entries/POD-DHAGA-116.json": "bba9afbb676f9770503d470ee300785bd22482725a00bf20ed18a7d873be8f3b",
+    "entries/POD-DHAGA-117.json": "2ba8fd1f973de2ccb19dfcb2d4ca5235efada87dcff05e0d6b33191e80cc7cf1",
+    "entries/POD-DHAGA-118.json": "cb11f3b9f74a38e90bae3a7877f8a12faa76ea73d37235b58e14d661c5fec0d2",
+    "entries/POD-DHAGA-119.json": "6052df7eb9244f4f25e3bc9036e199ead4afaf8a26274314a75c941a38ae0fe9",
+    "entries/POD-DHAGA-120.json": "9aaa84f924e8e8e2eeb87c3090ee287b6654fbfe3c98e9fec53cc31a2c8cc5b3",
+    "entries/POD-DHAGA-121.json": "a657afba64ad88e9df313c50c79b0be567ab5b3b437e03769bac95b39b0922af",
+    "entries/POD-DHAGA-122.json": "7a0bccabbd67766579c618597fb5c4e251803371a2b7d096b9c34fa5f1bfde5e",
+    "entries/POD-DHAGA-123.json": "69a798580578d605f03c08dbce3e6d336219b129480c6012e5a089c3df13e965",
+    "entries/POD-DHAGA-124.json": "7c99b81df6f37b30e7a094a6e2b99355fca1c6259228cef7b1603d0a8da354a1",
+    "entries/POD-DHAGA-125.json": "9195346698033b0086afcaf17bad01839c0b80a0b5784607e47cdd6da5294353",
+    "entries/POD-DHAGA-126.json": "0913c29851e3df0e853e50d23b359956914d0280bd83ab8b1737028e2992012e",
+    "entries/POD-DHAGA-127.json": "fe12d2ddfe27b70cb072a3ed1d641ecd74bc9f1101b6f00828144537277fc0be",
+    "entries/POD-DHAGA-128.json": "8907d40564613bac1f21388cfbb84126d83a65e844108d3593fc28b9c9ea9479",
+    "entries/POD-DHAGA-129.json": "2b0a48866ab72db0b3693f9ffea0d9c460fd6b477ac81ec5ef0d84f1be9613ec",
+    "entries/POD-DHAGA-130.json": "4a68d2cf0b65308d10460266f77c8161334d187037599372f9acacd8ba7cf08e",
+    "entries/POD-DHAGA-131.json": "f5baee85402b9f7a18b8c865e1bd2edd2870b883affb9df74a09356a4b448e02",
+    "entries/POD-DHAGA-132.json": "5206c8d23f11980e9efa159967e614ebb0837853707d333de2a63004217527e3",
+    "entries/POD-DHAGA-133.json": "3189a9c5168620efcc9dc49f8cefd9b53b9e0c77a9e2da5255c4eb2de8021219",
+    "entries/POD-DHAGA-134.json": "d77549f9904d4661264134e295cf7972e56e4c1c40c1d6d748921f4ee946b38d",
+    "entries/POD-DHAGA-135.json": "0d8189d930387db83f4b4ae88f1ffd5d2bdd1f73d0735069ff284aac6065606a",
+    "entries/POD-DHAGA-136.json": "75ceaeedcd998d760dee9ee506f3855c3d7d0d2f3f5f9d4800a2540d2373d359",
+    "entries/POD-DHAGA-137.json": "48339ab1a2c29797ac4c00fcf23d3ff40c470b270fcf5d5c32121686c2a6d1ef",
+    "entries/POD-DHAGA-138.json": "5c0e2d1567a19d164b455b5541c1de99cbc37abc29ede506aad3b12223d0d33f",
+    "entries/POD-DHAGA-139.json": "756c059e3d06ef3e23bdf26c36b1d15d9f96c511aabc68d29e946890fdc72ec5",
+    "entries/POD-DHAGA-140.json": "bd1e51073f874496f66ffbecbb05f39f6d08490214c4424eedbbc1d22bf90457",
+    "entries/POD-DHAGA-141.json": "205f1c3e24c6c29c702b678482a76133277db9709c0f41c97c869719b5c86ba7",
+    "entries/POD-DHAGA-142.json": "80dfaf3b3a4d698ddee2a00a58721ede671a5b9062c34274cd83c30c9a2e7b6c",
+    "entries/POD-DHAGA-143.json": "6b3e7ebc06b1c6210ec7ef38af507e936d0085359fb0af875840d9cc938c336c",
+    "entries/POD-DHAGA-144.json": "268f0e3056a900b391627d7a3f7685c8a256835eb4e1e545ca37b406ddcafd1b",
+    "entries/POD-DHAGA-145.json": "e3a2d6394c20803ed4634f71226a0bf7f6f4bb690d5b7f80537443731cfbf442",
+    "entries/POD-DHAGA-146.json": "98bdf3c602a02021c7cdc77c8279f7108e9947bd84ea23c4f553d29f895c8ac9",
+    "entries/POD-DHAGA-147.json": "291b24d2df58421803727c1b725450d7da5f96bed8af9b5cba72c5ac59ef4655",
+    "entries/POD-DHAGA-148.json": "db9ee85a9e326878155436348e56d3ef5db9470652c60f9df63f84cad67db718",
+    "entries/POD-DHAGA-149.json": "5d8794012924dcd1966ee58fd8e435c2b7b5ce59949a70a7ffb92d44125c689c",
+    "entries/POD-DHAGA-150.json": "4d3b2062be75efac987d8a9060085e6e87523a6aff40fe1fee5a761fbd2174ca",
+    "entries/POD-DHAGA-151.json": "b22b1551874712433a3ca2e72351cdf5229bd50f2fcdf839385cf749937b757b",
+    "entries/POD-DHAGA-152.json": "3baf588e3562bb2e7d911f5592ae35944808ffd25ab5076cb20dcbef1ffc799a",
+    "entries/POD-DHAGA-153.json": "6c26d51bc19d5ff27804f83ca22f011e7b423c0f183523ff0c44bac4eec2a4ac",
+    "entries/POD-DHAGA-154.json": "45f0500bc9c808db1666d01839c3d5ca5c97ca3049f0693eaf3fc64006b39ac7",
+    "entries/POD-DHAGA-155.json": "027c5a1b7adbe2b9c4ba119e701f35d17f8694d85bcb1949594ce5e69a98bd63",
+    "entries/POD-DHAGA-156.json": "3e4bd7641c54b8016d822516b603ca1704b9890de486c6698390d8d06bd17d76",
+    "entries/POD-DHAGA-157.json": "60a83319ebd53e37da049ebda7b6a524a5dc39fe585dc94bf55b84a52e9f47e9",
+    "entries/POD-DHAGA-158.json": "6cdbc306ee05bd4abb2a9eb2f595e9678a3a9fa1649aaa77bb6c7b5b406b1b88",
+    "entries/POD-DHAGA-159.json": "5f3c5a0b20551ddc84f181d9bc89ee8a26fb7b7f076703c40a30d40cc18296b6",
+    "entries/POD-DHAGA-160.json": "e1acf11659db5b21b3a73ac3ffb598bddce6ae92e9d0ed7d196d99b216f53bc5",
+    "entries/POD-DHAGA-161.json": "b5673f115ca31d4d23769e65caa70d56c74251736e4ee4538af4dfd37c92a6e6",
+    "entries/POD-DHAGA-162.json": "d23d5143612b4a3f436a794ca312528a4232b914a4c773700544f4f6b30c5e39",
+    "entries/POD-DHAGA-163.json": "fa263afe6484d4eaaa8b2130ac6316801eb4aa702d87b47f1e93352c4bb91f76",
+    "entries/POD-DHAGA-164.json": "b04916a2dec27802699bfa4b608d39945109b503f643bba65687600d88b19efa",
+    "entries/POD-DHAGA-165.json": "b05612d33b44c37ea0aa2476f4527b5abc62d9d41e0badb936931582d5c78c95",
+    "entries/POD-DHAGA-166.json": "b5b75e242cc1c780819b867a874398a275c4208423858725e0ed161df0f787ce",
+    "entries/POD-DHAGA-167.json": "bd7651327f2c31abb94e8dd09528bf85c98dace2cc4af7d97d1d4c25d66641c5",
+    "entries/POD-DHAGA-168.json": "8dc1bf1c8d12f070a736c57f3ae63fde1f4e9349ec44c0cb6075617885f23276",
+    "entries/POD-DHAGA-169.json": "168f7be4ba7c5fb9d0a88ab1ad972aa6bb4f64937fa03a5499dc6977ed6dc21d",
+    "entries/POD-DHAGA-170.json": "4bee301c85a45a06909fcfdfa76ee14e6f433916e9e766043524e1993a5e861b",
+    "entries/POD-DHAGA-171.json": "ee93873c2b5638522d03d60e28f4ccba39bbb361e9067ec3309a735694930c27",
+    "entries/POD-DHAGA-172.json": "e69d53b91af57c4376bbd878f713a55f39079d306f3222c214fa8e57c3217193",
+    "entries/POD-DHAGA-173.json": "3f76ab37c6c9d448445939be53d58559802a832d9052213771d083dd3b062647",
+    "entries/POD-DHAGA-174.json": "ad7adbd059bd4ab75985ab342af12a8288fd1d4cb1e3ac3058ba67afecd91f97",
+    "entries/POD-DHAGA-175.json": "702571a7d5642fc9e6e95137cb2b69573e5fc03df33ce2c3c6b460decb10bed3",
+    "entries/POD-DHAGA-176.json": "3d80ced056e8edccd46c592d2c59040c28110721746a1d80b9e64222fa0f289a",
+    "entries/POD-DHAGA-177.json": "cffe499d12e0effea6408ef4a1036086fe213f37e73f59ba09d2c4fc0d885774",
+    "entries/POD-DHAGA-178.json": "3b2acb0c01b7c34c6b0573db688dbaf31ff5f77307f6c3a02fb88e561d9ab907",
+    "entries/POD-DHAGA-179.json": "681910263192fc058b10d56d97a1c8d06029337ff267d4f7356b8c9cbeae7beb",
+    "entries/POD-DHAGA-180.json": "de7905deb01b7adc6dc9997bc2bc3b7db5c8f684733e95b0036746f793b7b3b8",
+    "entries/POD-DHAGA-181.json": "80baf24ac5bc31d6a5b63c3bd942b38d332f36f8581f6f1b1d9ecb3cf1c91cc8",
+    "entries/POD-DHAGA-182.json": "a123696ffc2f0cf792d15035a9deb115a0a058963580d19778c8e6d2ced9b784",
+    "entries/POD-DHAGA-183.json": "a0588a63ee47aad841f500254fccc9219d602722acb5d813219d756b1d9249f2",
+    "entries/POD-DHAGA-184.json": "0826d1abcd7378d6e82d19b486918c6089ee4dad914dabe6c6acb1bc89b2ba63",
+    "entries/POD-DHAGA-185.json": "dd658c76e845e625dea466f071d16e35010072dbf853901800ae3493d90868f3",
+    "entries/POD-DHAGA-186.json": "bae08873ef5df4c3e48998d6cef102dfa6c0c2cc46141c5727c2a20187fd3e09",
+    "entries/POD-DHAGA-187.json": "2b368b56d99bd12fa61eac6bb929c9dc6a75015254ad005d37f6d13e132d9ff6",
+    "entries/POD-DHAGA-188.json": "618c8e66fe84f949b42182322592e00195b067c2143fe2fbdd212242e04601f2",
+    "entries/POD-DHAGA-189.json": "93369f5dd81edec3d0db5d4833cae0da0cf919afea1b8e75a243faa97e69a900",
+    "entries/POD-DHAGA-190.json": "41585033c4374177ba42327e1b5588d2f62dcd6edf1592cd11aa5269193c756b",
+    "entries/POD-DHAGA-191.json": "ce6cc30e350a441540b0eb1252618f2186446c3ef46d2e7d37325599d2489cef",
+    "entries/POD-DHAGA-192.json": "2f71e8246763056a82162a2afcb4c888988563e9e713106ee4e85f55dfc55628",
+    "entries/POD-DHAGA-193.json": "545708f1d1e8fef9ba25cfad5830cafd16d2c623085ac677891910155a5cda62",
+    "entries/POD-DHAGA-194.json": "de5118e2b51e46386853de772eace86002f9bea2f068e13ab41b949248f205c3",
+    "entries/POD-DHAGA-195.json": "878edbc350abcc99ac8d439d429efb558957a94aba8d6003d0949a8e1f4afdb3",
+    "entries/POD-DHAGA-196.json": "453444b64bf9fcfc1e49a89f684981e8adfbdd75b70b17f11e796c8045646776",
+    "entries/POD-DHAGA-197.json": "8c2603c8787bae5a8f4c2903d9eabbda40434375b43e786b3af1f605b667e22c",
+    "entries/POD-DHAGA-198.json": "27b8b8e1818369e30a83740cb682d6ac8b7566ac0847cfcd5f09acfee1fbe344",
+    "entries/POD-DHAGA-199.json": "eb78323e7fb13a5195babd5b0a7ce83a41bd5e3aa06fecc92de49e847c08f7c1",
+    "entries/POD-DHAGA-200.json": "ed5d6cf58912dde467e14c470214dc630c5530d0b19fc9f892e25e670541d618",
+    "entries/POD-DHAGA-201.json": "ace61c1031098ad97a7de327fededc798642361c9da89e0e48032d6ac81b496d",
+    "entries/POD-DHAGA-202.json": "a47f86caae78ee58e8a5ea3b704b21d94ece4fb7837308fe4d0bd09ecd110e3c",
+    "entries/POD-DHAGA-203.json": "b70b04276aff4943a4de06b48edf9e82b7aa6a399b26fcf792ada8b50cf17a5d",
+    "entries/POD-DHAGA-204.json": "b062a8dad9240af350bca74db603a446e30732261e38f08c7173c30a71952135",
+    "entries/POD-DHAGA-205.json": "368b2def9a34c943ece1e82a597e09a7f8f543a99131b46c29a5b41fe8f77871",
+    "entries/POD-DHAGA-206.json": "485430271d9f885461e8ca6e3edf3a45b397600770f3b18454c8dfb111febf7b",
+    "entries/POD-DHAGA-207.json": "e67f4069d7b5b1313d31818f1e9fcae5c5adb08500aa4bd132bef0dfac869d64",
+    "entries/POD-DHAGA-208.json": "73e4f763811646986d40a2f3530a7e0e2691787cd2d3b3b10cac98c19c0c001a",
+    "entries/POD-DHAGA-209.json": "ca9820d141d2b4178aec82d725e4bcf291c9dff2528f65d0495bdb0dfa881240",
+    "entries/POD-DHAGA-210.json": "8f9a564fcbd5bfe6339bf193f111b4875fe3f01c7de731c1e1f2f511778c9754",
+    "entries/POD-DHAGA-211.json": "ecc53e28393cebda3a7b5bd43a4cf4ee4e897c3c0e41de712617ce190d4ca890",
+    "entries/POD-DHAGA-212.json": "e09179d1cf315d0a2e1e1eda7dd46e454f826ae9a6d147908ea600c607410a78",
+    "entries/POD-DHAGA-213.json": "a2bb08e58ae8e14bc0f094c5b65d5c69873d95af9fa4decfda843907aaee2e70",
+    "entries/POD-DHAGA-214.json": "38be5efd350f719bdbc792928a38c577d7fa356d0ab82760657428d363596a4b",
+    "evidence/1926-inventory13-60-2026-10-25/anvesha.json": "51fb94be5f719466c601736870e08c5c5533830677403881b160adfa94a311f7",
+    "evidence/1926-inventory13-60-2026-10-25/candidates.json": "071061bf8d8e31446ce7daf9c344b5f418cc70f0fa2aeb834c74aacafd297817",
+    "evidence/1926-inventory13-60-2026-10-25/drishti.json": "2b73945ab0b5e301709aee5b16828d6837f4364d9afe68c8cb6be12f7a5ad055",
+    "evidence/1926-inventory13-60-2026-10-25/pageinventory.json": "881fbc1552d6e71fc63b60ff60565db37da3e7b1120b28f1d5fd0c930c7fda23",
+    "evidence/1926-inventory13-60-2026-10-25/proposed-ledger-delta.json": "442131254c000f763ddd5a9084b9907a74d91f4678d710eb2d72f8c0d0f851a0",
+    "evidence/1926-inventory13-60-2026-10-25/report.json": "5a8831c0037d58316f8a78cf7303cb5c5929f2eb02f0d00d90ee54a2cd97784c",
+    "evidence/1926-inventory13-60-2026-10-25/samanta.json": "29ae4ff49a086136aae20692391fcb113d31cf7175a979d3fb965e1dcb98b558",
+    "evidence/1926-pages61-66-2026-10-26/anvesha.json": "94f72a75d33478dad0672537af3ca1a6609472e3c00a77a98a09df16a9871e15",
+    "evidence/1926-pages61-66-2026-10-26/drishti.json": "8177a54a881bf8596f386baa1958618a072bf977a721bfba5896382f4377ea56",
+    "evidence/1926-pages61-66-2026-10-26/proposed-ledger-delta.json": "e3c5b6db8af78856e813b0b0c50c55e9defbb4b535944a6e29fb13d28ee7f617",
+    "evidence/1926-pages61-66-2026-10-26/samanta.json": "19a102e0183ad506a260d2bd95b0fe39c2743117620c9ff3154a157e231033e0",
+    "evidence/1926-pages67-72-2026-10-26/anvesha.json": "5b3a5d03b33a59aa2ab0c51d72e50cc96895ef61b0e5df369db55132206a395c",
+    "evidence/1926-pages67-72-2026-10-26/drishti.json": "4584e240617f6b2dc9e767d5aebd258b044c8d1c6805bd981c8d2d31e6841d10",
+    "evidence/1926-pages67-72-2026-10-26/proposed-ledger-delta.json": "3a8d24437f8caea3f3c1e963497c70dfc333cfb885464a3448de1b17ef853487",
+    "evidence/1926-pages67-72-2026-10-26/samanta.json": "92242047a8d0f281f31b9dafd32e259d7e13dea4cfffdafa6b43742a97c139c0",
+    "evidence/1926-pages73-78-2026-10-26/anvesha.json": "310cbaec2e6c046b0a6845287ab2c9b41c97bd004a7652791d89542cb2179375",
+    "evidence/1926-pages73-78-2026-10-26/drishti.json": "44e2a8446f63bf5c0c9bc858609dd53a969639d43114e94ec71111389325c1d1",
+    "evidence/1926-pages73-78-2026-10-26/proposed-ledger-delta.json": "add4d73c7dc202bf7f82c10bba0075dd8e2765eb2b8c7e8794c494939e95e6ff",
+    "evidence/1926-pages73-78-2026-10-26/samanta.json": "a9efa1b9fda61855819ae56f54b6ba02e8ef6498965523e6cee8136e39827ca1",
+    "evidence/1926-pages79-84-2026-10-26/anvesha.json": "cece12253cef5c434c10ffd83e05279e9c7c25dc286c3bd1730ec52ac5d7ca6f",
+    "evidence/1926-pages79-84-2026-10-26/drishti.json": "5e453acaa86af2a7da426a33ad08b93a65e1eb79aa83a24da5cae264015d4e6c",
+    "evidence/1926-pages79-84-2026-10-26/proposed-ledger-delta.json": "c9f50015ee486c1a3cd11d0d9fdedf3ed28bee6167677d4fb5d12c0f0681a1cd",
+    "evidence/1926-pages79-84-2026-10-26/samanta.json": "164e506de9712456ac5eb76ef68076f57e057a2c04ab35a849cd6c859943bb4f",
+    "evidence/1926-pages85-90-2026-10-26/anvesha.json": "1abdfc87fdbf324afc04ca8b2e14938e7e74168650a962f81200257047a9945a",
+    "evidence/1926-pages85-90-2026-10-26/drishti.json": "d20eb9aa94beeeff6f928bb3508637b7d0101c4afa9eded6a74a59be88218592",
+    "evidence/1926-pages85-90-2026-10-26/proposed-ledger-delta.json": "08b3498f554cb76db3cf617039c8df5381a86e1d88986928586ada6aa11cdc4b",
+    "evidence/1926-pages85-90-2026-10-26/samanta.json": "2fb137f198fee7d2596f2828768e9709778a76fc5c7494ea1250764d94f24f65",
+    "evidence/1926-pages91-96-2026-10-26/anvesha.json": "307e8839503b9eab1b6603098a589f4f0bda6ae82b6cfdee9784efe67230b6ce",
+    "evidence/1926-pages91-96-2026-10-26/drishti.json": "db90d56b5ce894f84079516bbe357c1f42f22bddc82366c7837c3be1e60efb5c",
+    "evidence/1926-pages91-96-2026-10-26/proposed-ledger-delta.json": "b1dabdcd511503fcd62cb31e379a93825a3385d273801a7d02326bad1ce9abaf",
+    "evidence/1926-pages91-96-2026-10-26/samanta.json": "be7e3f2f424ca25b64b21dec360b614a3ba8abaee18ba4bdd0f75521c77e4b69",
+    "evidence/1926-pages97-102-2026-10-29/anvesha.json": "97af448a55723faa69a0fd21015baeb04cd755c928d4ab895b6eefebabc92e45",
+    "evidence/1926-pages97-102-2026-10-29/drishti.json": "a583c119ae54502dc529c0f47fce2e82b7d46fa0f9db83f65f7c8f7a3fb9378b",
+    "evidence/1926-pages97-102-2026-10-29/proposed-ledger-delta.json": "51f144598be88a1e411fd2ac929fde54ba41ef4e5af17f8366b95bfafe91f5f6",
+    "evidence/1926-pages97-102-2026-10-29/samanta.json": "3c5cf480070f35872b6a9bca6cf1dd8b607f013c208227256661e31335c5046a",
+    "evidence/HANDOFF.json": "4dddb11bc11d1dd8ca82460ff190d8abe352b38f41fd7765002a23e9d4f9fafc",
+    "evidence/all-illustrations-2026-10-25.json": "d4af78079b8f2d5d4670b594c8431e02ec27d1372f85e13bde362787915017ca",
+    "evidence/all-illustrations-anvesha-2026-10-25.json": "b7a92c96075b12f2411cac36c0282201900c48b2eee6c3bbfe026cddacd702d3",
+    "evidence/all-illustrations-samanta-2026-10-25.json": "8b1559f630df3fe7875575c2875024a5d6da01ed81f21ab2ba8bc404bd104ac7",
+    "evidence/all-illustrations-visual_assets-2026-10-25.json": "1d956c2fef5b720241ec152d2494ce5350e631b18047d4741de17168efa0dd65",
+    "evidence/all-illustrations-visual_pdf-2026-10-25.json": "795db7f12922d9e9a3b671594ea01db55bde44402393355dc5db0c1be888d00f",
+    "evidence/all86-2026-10-25/HANDOFF.json": "d4a6be73c8dbbf89918b95284bec83b1df8535505b6319f5a0b862cc7555cd04",
+    "evidence/all86-2026-10-25/anvesha.json": "27822943597b268f7660e93aec885c9336435df53ffd64a4f0e39620982a0016",
+    "evidence/all86-2026-10-25/api-failure.txt": "35281279d8e2164cee8666d6f8aad891326911e887ab1b2ab778c8ac6d09dc6c",
+    "evidence/all86-2026-10-25/candidates-complete.json": "2075a9cc5db3dc3887c46aef22d086cd7f685f2a6977eddbb019d6e61040b438",
+    "evidence/all86-2026-10-25/compound-batch.json": "17a3beb5a64de82fe18d55ec3e4a1e7b6f670b587900203800ca3c9b5a566cd5",
+    "evidence/all86-2026-10-25/drishti.json": "9f399a7be2d8f0bad73c02ab0ce1e6c7bf70767e7d8f6bebdcd605a94bf60f90",
+    "evidence/all86-2026-10-25/phrase-search.json": "4ca6e8ce8d5a54e23b2f49327dcc643b89a4fc57d64865182d0613b5febece32",
+    "evidence/all86-2026-10-25/samanta-captures/dhaga-bulk-search.json": "67d3c34b80f50a1fc3cdb870d845b0c03359619a97da0c28b3ec0c5084f31263",
+    "evidence/all86-2026-10-25/samanta-captures/dhaga-bulk-search2.json": "eff7b61b29bd699fc2b662b1616fca7cc231a22e13c140dd025e064fe7c2f1e9",
+    "evidence/all86-2026-10-25/samanta-captures/fresh-components.json": "0aae4f14477da423d32babbd4c2806b35db983b96ff165ee9c854bcfd817cc5b",
+    "evidence/all86-2026-10-25/samanta-captures/fresh-components.json.request.json": "5b277343a47c0cf508a0793582abd6c8df932f6f09faf9d1b8a6792eb72b5fe1",
+    "evidence/all86-2026-10-25/samanta-captures/fresh-compounds.json": "cd50db4a6369128778901369185fb6be0b0742bbb7233760ec316f53b26db837",
+    "evidence/all86-2026-10-25/samanta-captures/fresh-compounds.json.request.json": "235240441c702aacf62ea9e5ebfb21750c509bfba91aca36b85dcda509837af8",
+    "evidence/all86-2026-10-25/samanta-captures/fresh-dhinki-links.json": "7c876370b00a494284c7825ff792250881e3138bb0ebee6d397109269178a049",
+    "evidence/all86-2026-10-25/samanta-captures/fresh-dhinki-links.json.request.json": "0bef2beb2b71488a98ee4f181ae9f23996bac46dde799f1ea01a30d951e3b10e",
+    "evidence/all86-2026-10-25/samanta-captures/reused-and-fresh-revisions.json": "fe62f285c8e5b9aeb5670e5c369b6302279ce7bdc1b14f9dd84e5a41f150ecc0",
+    "evidence/all86-2026-10-25/samanta.json": "7853cb5fbecd95f4cb4379614def3648b5c68c5ded0571539763c47544542cf0",
+    "evidence/all86-2026-10-25/wiktionary-batch.json": "d5fe71413b9273849c3bdb05e4ff97bb76071f1d08b67c671e282699c3639916",
+    "evidence/alternating-illustrations-2026-10-25.json": "3cfc21fe8da7f92b604189891fd0f4c99039dc0a7d57536080d855be46d7dde1",
+    "evidence/audit-fixes-2026-10-24.json": "93685e684033d84d6ba5debaf0d000d1f6688c221039752b831d468e074e145a",
+    "evidence/audit-fixes-anvesha-2026-10-24.json": "4f7b07996fc68c9e4950199f3eb01e7be460ceb0cddc67b759e93ba9dce567a8",
+    "evidence/audit-fixes-review-2026-10-24.json": "e75b5d3413eca8428b5716d2aba392b65c48500794f6305545094b5c42211cb2",
+    "evidence/audit-fixes-samanta-2026-10-24.json": "cad746efe9e53e08233b1cb915ef635927585e26cf31e51a51b951e12ecd19d6",
+    "evidence/audited-integration-anvesha-2026-10-24.json": "da90f0160c1b4b72492dd9f315e3f6bc71f4ff9e02f0eeea2d3487f78a52a92a",
+    "evidence/audited-integration-review-2026-10-24.json": "a38b9b49260467e62b058de0d1f86e4acae8183cd7b5eb18d745661039a2e726",
+    "evidence/audited-integration-samanta-2026-10-24.json": "c4a395203fc879079a4e00fa805ce76250b2f815b031236f8b1d852e1c763368",
+    "evidence/batch03-2026-10-30/HANDOFF.json": "e391e605105590c8535fc1d4e8973b3365cae26292321b8c98a27edc95d42cee",
+    "evidence/batch03-2026-10-30/anvesha/anvesha.json": "dc36e1337a3925d1656332fa2fb0ca189fbb398f1313a99a228717f002af918d",
+    "evidence/batch03-2026-10-30/anvesha/captures/five-originals.json": "9605d155303e41ad568f77aba7a446304554adc3df595906b1fe5c49ae0207fe",
+    "evidence/batch03-2026-10-30/anvesha/captures/lexical-support.json": "3764a2e4079501b4185e89766e0cc76636faa43895bad9be7ee3f18bbb58ea31",
+    "evidence/batch03-2026-10-30/art-review.json": "231912666f2330651e0799d4e63a13e8795bb1bd2d90049970899b9e39d37bb8",
+    "evidence/batch03-2026-10-30/candidate-bundle.json": "89a34734164016101b5abb6f4f6dd949ac72b18557779594690949ce06580077",
+    "evidence/batch03-2026-10-30/delivery.json": "4bffb3a64c128a02848dcf34335a5cf5911f5885cff9b5e98b8fd883a899edc2",
+    "evidence/batch03-2026-10-30/drishti/anvesha-review.json": "8ebb9af649aa4b5b941d1364a7e61d3b0107d42bfae64c2550638496407fd3b7",
+    "evidence/batch03-2026-10-30/drishti/baseline.json": "ca9328a03eaebb6b37e4b1b1f774da14e8f29bfc87e8b90b11629983c643d123",
+    "evidence/batch03-2026-10-30/drishti/integrated-review.json": "8a00e3ba8d743c99f75bcdbd7c1be299d61fdb57821ee05b138ae436565918b2",
+    "evidence/batch03-2026-10-30/drishti/samanta-review.json": "a993bf528f10832bbf3a9f0c8861253ea37e49eb869c53221ef34d5901a0529d",
+    "evidence/batch03-2026-10-30/generation-manifest.json": "f91750093109d799a6a23d9da903afbc22537086762ce114be9ce97113030fad",
+    "evidence/batch03-2026-10-30/samanta/candidates.json": "4dc8bb0cce14a14c25ab81669475956643b1d2f517b89bd945247f5558fcc09e",
+    "evidence/batch03-2026-10-30/samanta/captures/incubator-145358-r3584061.json": "bdfdf82f8c45550f6832b11c1dc31f95f85fb3f4fdaf8dbb467f189415ecbaf0",
+    "evidence/batch03-2026-10-30/samanta/captures/incubator-147630-r668805.json": "ccd8cce821496ab5dea41e51fa77fbc4e58113b525c3b109089e8e6bae3969d7",
+    "evidence/batch03-2026-10-30/samanta/captures/lexical.json": "a11d5875a1a7ca9c8a25d1f0528038a08ff8105ef63ee46399a6cf4ed54733f2",
+    "evidence/batch03-2026-10-30/samanta/report.json": "50da996d4ec84d4a1797d0725892ff41a9cfce09662f9d8b40fcfec2fe8806f4",
+    "evidence/batch03-2026-10-30/selected-art.json": "86fb83b7da9da6346b370213997d11eba71a070ad68b6416dbec007a2206208c",
+    "evidence/batch03-2026-10-30/source-validation.json": "bf954179eddfefde01d5d5b79959552062fb969728b04b75a10be10084846b2c",
+    "evidence/batch04-2026-10-30/HANDOFF.json": "5cc51fa044079738bf2efa2e46b9d78d0e2970c1558420bb1d68ef5a716c4896",
+    "evidence/batch04-2026-10-30/anvesha/anvesha.json": "8743cf58371ce39f2827d57c3642bed28a119e6de05fd8f9177af883a6e01761",
+    "evidence/batch04-2026-10-30/anvesha/candidates.json": "c0909b8da3a8aef4db5cd177143db958d306e67f05da1c59e202de001b336a83",
+    "evidence/batch04-2026-10-30/anvesha/captures/122262.txt": "b717be6a46b15acaadedeea9e70e788403cd6f1481f53e42a3787bbc3a8e2a5a",
+    "evidence/batch04-2026-10-30/anvesha/captures/171747.txt": "ffdd2a45e4c592ce76c21fb8188c22460c3962e574bf23d42c2a5ae5dbd99a82",
+    "evidence/batch04-2026-10-30/anvesha/captures/193413.txt": "07faa76d02ff5afab1c14acaa1e8377146e66e62711d64fa13238b59759dd677",
+    "evidence/batch04-2026-10-30/anvesha/captures/214967.txt": "b0d219bf089e33d9597bb8f9ff84baf0c32f345719fc06437d2a5c73d93581f7",
+    "evidence/batch04-2026-10-30/anvesha/captures/40132.txt": "e9a15a8912e06efb21853cb460dd749df3795da3fa18a0f8dd59e34f9f842de8",
+    "evidence/batch04-2026-10-30/anvesha/captures/lexical-request-url.txt": "ae50155248a218e65b02cadaebd2c277b78cfb2f97ca9af0e8a89bb2c978e992",
+    "evidence/batch04-2026-10-30/anvesha/captures/lexical.json": "df5c79a57d99727fc84d73984a7d068a8745daf9b6e4355abfc9c75fbaebc075",
+    "evidence/batch04-2026-10-30/anvesha/captures/originals.json": "69513eb62dfa4a88645b3b6f1a1e49f79ba7350a8bc9aea7cc084f45ba3c2191",
+    "evidence/batch04-2026-10-30/anvesha/captures/request-url.txt": "f4b7f914837e7eae207259a8575a984f86ba3157ee95ebda95178b231631d234",
+    "evidence/batch04-2026-10-30/anvesha/manifest.json": "db99ed9a4c1a797742995c0dc30e671ea5dac51f9a53abf162fcd45a014958fa",
+    "evidence/batch04-2026-10-30/art-review.json": "bd30a6b3e31b57eb5b9b391b3864ece9f5a3e457658c519e29de0b2015c3bf74",
+    "evidence/batch04-2026-10-30/baseline.json": "f395ef71c9e3e9f1a1f3f023070d16226191a1a5ca8e513f3cede622d2092561",
+    "evidence/batch04-2026-10-30/candidate-bundle.json": "90728d3b67b0e1aac937a2ae6f243b9bf0a4a66e120a480adb4ef8de5e6e56d2",
+    "evidence/batch04-2026-10-30/current-179-dedupe.json": "d5dc5899edf771a9a184a3ff47fa6f27d91e92345c175de70a5e78b26eb10fe3",
+    "evidence/batch04-2026-10-30/delivery.json": "acad1ac4f9c82f945a32cb29f7ccc80fa688662984e2e974a59100f38dcf7060",
+    "evidence/batch04-2026-10-30/drishti/anvesha-review.json": "90aa6ab134bf5af7ec15c21db39a5d20510d37c10a9140ef46bdfe674bdf4737",
+    "evidence/batch04-2026-10-30/drishti/baseline-review.json": "8f1cf8b9c9e8cf63875623921a5e70d9bab0d49291bd188b8439c71c3ff8ca72",
+    "evidence/batch04-2026-10-30/drishti/corpus-comparison-index.json": "72833d6fa041907db4894eeb9f133373debbe8f421206bc7ab1ac1ee1f7829c4",
+    "evidence/batch04-2026-10-30/drishti/integrated-review.json": "3052053d094e4df654d79d08b455910fe8d7d58e59ae17d19d9ba1763a7a268f",
+    "evidence/batch04-2026-10-30/drishti/prior-dispositions.json": "22306114f43e72e7fe72962e6b7929c293d94fe5af80b93b23122563a4d725ea",
+    "evidence/batch04-2026-10-30/drishti/samanta-review.json": "783e3e52a53188fe40ffab63bbbe123c6af5724826b1f3f1ac4c11871057ef53",
+    "evidence/batch04-2026-10-30/generation-manifest.json": "8b9b6c0c9cb9b9a67228b957a48f59c411e4bad2dc0c3d2cdf3a400b6a6c9727",
+    "evidence/batch04-2026-10-30/samanta/candidates.json": "76aba22d55ecc84238a0efbb3a53954202b175d11c2d6ceacd6107679edb9078",
+    "evidence/batch04-2026-10-30/samanta/captures/145337-revision.json": "a5549a243d30d9057cb4afb90df634cf4602e04c49b90fc2abcc49cc55442856",
+    "evidence/batch04-2026-10-30/samanta/captures/146978-revision.json": "e1a5910949a1fe0cd6b075be332af32a05381d38c3a2ab67930a57dd2e870ef1",
+    "evidence/batch04-2026-10-30/samanta/captures/research-map-query.json": "198a6dfd858962a4a4e4c188b1e2727b02dbfefe4440ac2bcd7186daf73d588d",
+    "evidence/batch04-2026-10-30/samanta/report.json": "a8415efeef540353539f651c148cf9e1a1c62aabe2c1e9a309e1fd5044250767",
+    "evidence/batch04-2026-10-30/samanta/selected.json": "f4acb25375ac33e875db95bfee24180bb8eb7d30e95e0753eda64cd6ad63f9c8",
+    "evidence/batch04-2026-10-30/source-coverage.json": "d06f9db5f71e2ed6d8b87dc82a60f8c0682ee748b2f5efb0784661e15d53a102",
+    "evidence/batch04-2026-10-30/source-reuse-map.json": "e8ceae158e18af9cc15ebb4ce6617896a1309dc1f96752e866aa9012aca1202d",
+    "evidence/batch05-2026-10-30/anvesha/anvesha.json": "02ba782618b35a7923aacfcaea3bf4c20bd3c293eb86c7045e1e44025d0d5dec",
+    "evidence/batch05-2026-10-30/anvesha/captures/126206.txt": "a9412caf610ef37a818964d6962ebaa76f4e32e815ce442e03210f2fa7e690f5",
+    "evidence/batch05-2026-10-30/anvesha/captures/228369.txt": "79ab3b302a461263a44c8ea72a4e845731bba1f65c6472299f1071e37b5feb71",
+    "evidence/batch05-2026-10-30/candidate-bundle.json": "2e7627f06041e55c831dbff20e6c165cfe0114fe1df68944298b6461438dc63e",
+    "evidence/batch05-2026-10-30/drishti/baseline-review.json": "57eebab5d060f7c0df7285878f0953d0ccf2fdaeb4873192dabf8eaf0a5de6d4",
+    "evidence/batch05-2026-10-30/drishti/integrated-review.json": "38f0697e85fc181e59c7c0c5eabd799ee845bccfac2fcb02e19974a395cc291c",
+    "evidence/batch05-2026-10-30/samanta/captures/incubator-145341-r669865.json": "0648403695631221dc37ff03663d2496f18c4c25b5c378ebbbacd075b037e46c",
+    "evidence/batch05-2026-10-30/samanta/report.json": "a6e5b09367e5121756153088e83b14b2a301e9a9a53c46fe95890bf256d48983",
+    "evidence/batch05-2026-10-30/source-provenance.json": "c7b2aa795c09d6e0ca266f69d7da75fb5a3f50932636f5acea4527b3bb10efcb",
+    "evidence/book-head-review-2026-10-24.json": "4b3d231a99269fc87752a50bcbd178c45da0800020e5e6ac68922ebaf5bf3753",
+    "evidence/book-implementation-2026-10-24.json": "8a486eefcd9d7afd0ee2e0745c27b73ffdd5bfa71217c6ef353a7dab31f050eb",
+    "evidence/book-introduction-2026-10-24.json": "7e3ad151790bbc38b6d6a058d5d85daab94677d16bf098d70d3149f181119155",
+    "evidence/book-review-2026-10-24.json": "3e07f5588446aa1b6e01c40e337b29adda014bb17f0a2fec770c956744c2fb12",
+    "evidence/browse-navigation-review-2026-10-24.json": "a57efdec67e468955942e780c1afa69f02973ca6f495c01a16b1ff729218b7e5",
+    "evidence/coverage-ledger.json": "3eb3932c63bf0c9c087cd5d31415019aa331cc82e24f9d5a1bc1d902cd73e9a1",
+    "evidence/dhaga-bulk-127-audit.json": "7fcba587f6e845a41b5f4e3911aa28d730574f11781faf1cdbab40636f6e1a07",
+    "evidence/dhaga-bulk-a.json": "dae0adb6e3b6b6c1f3f06b4465f14b71568015ff136b082cc2caae116bd24727",
+    "evidence/dhaga-bulk-api-a-failure.txt": "b64d81e6ea8f1655ca0676ada3ada65bdf35795015459ba8c12562b33d377bb0",
+    "evidence/dhaga-bulk-api.json": "388b32c1aca0955ec692c9e903ea2efd95a9a02843c0a94ecf6ef0c03133254b",
+    "evidence/dhaga-bulk-api2.json": "b863fa5373ffaed76ff57bb94662cc182c15d37caecaed152ce1d0fbc02cded7",
+    "evidence/dhaga-bulk-api3.json": "d9b873599707bf32f1513831e97d810d533c08ed4711369a4b5dcc6a4c732692",
+    "evidence/dhaga-bulk-api4.json": "f3d2a24b9135543280f4237c4c3aea3214101a02e85180ed1e471837c00da401",
+    "evidence/dhaga-bulk-api5-failure.txt": "c5c210b53a8f1042b4d9af1f061848869b2908f49384d8382a37f2e5933fe871",
+    "evidence/dhaga-bulk-api5-retry.json": "e20c59a6632bfb8a0091ac3dab9b1fd2be44a969515e41517afebe4a2cf4a6e5",
+    "evidence/dhaga-bulk-b.json": "e5e4e94e94c30d54e0d498b7de5cef565469d9102219d50e9913a3e0661474e9",
+    "evidence/dhaga-bulk-c.json": "59a283a7b805273ac4030c26360a358a23e535cbf704e6a2b43829dd1948ba06",
+    "evidence/dhaga-bulk-canonical-review.json": "ee0ec1ae707de23361302471ca204271f8f14821cf6b38e29144e1bcc8801c67",
+    "evidence/dhaga-bulk-review.json": "e337cd4feaa2c0cee4ed5e4cf62436fa63143d69768e87a908704b672bcf30be",
+    "evidence/dhaga-bulk-search.json": "107a1af305377db1a2ad33b288d92be43db8a9b760786633d384a93ac6ec4d9e",
+    "evidence/dhaga-bulk-search2.json": "46c19c651ada66fd652cc9eddb2daf99f0fa32159c043042728fb5de12136e15",
+    "evidence/dhaga-canonical-integration-assessment.json": "7ef8c7ff06f0f80b2ca13d9137b598c56bc8e3d456469f15746b8cc37a050aeb",
+    "evidence/dhaga-continue-entries.json": "a4f09129653d661f457cb2e968828eb2eb13a9de79a9eae810b71f2a25354b98",
+    "evidence/dhaga-continue-implementation.json": "bfc1597a9c98240fc44fb5165d81228e9280b9795f81a283ea8e46dcd4aa84b7",
+    "evidence/dhaga-continue-review.json": "6b30c7d76c7a6b12c2a6b28db0d3083676aa90ef106eb28e46d99a218249cf09",
+    "evidence/dhaga-continue-target-gaps.json": "fd8271c851c99eb1f52fa7b9b2b7dcde2b0e83e0ce3aa762dc43be8464311b1c",
+    "evidence/dhaga-illustrated-implementation.json": "fa42b2a5b38b0b51f7ad50f4dcacd23c8f9c0ce8f19c8aa5ea4480df7d687d4d",
+    "evidence/dhaga-illustrated-review.json": "3c5d6e6670712aa6edab9fcad2ab7c026984c8f9a5295b188e290222138bea22",
+    "evidence/dhaga-magha-next-source.json": "f173c01d978436bf4a739d45fe8b80a242f00d6ce0590a24e08b288eabb40c13",
+    "evidence/dhaga-more-entries.json": "81f82f538b4a887db98fe4bacc94b11c994a2741eec53971a069fef7df6932ad",
+    "evidence/dhaga-more-implementation.json": "e98014cd99f590e3ab9466e2ee09b1e114c194c3273ecd9e89674abe45882569",
+    "evidence/dhaga-more-review.json": "4d2946080e7104cacd8ab0c45f0fb953d2b82c336d0614dbd46d39651f0690d6",
+    "evidence/dhaga-next-implementation.json": "17ba87bbffecc2d98e6a2a193f98f2a5c69d2b99f72e2271075880b9faa145ae",
+    "evidence/dhaga-next-research.json": "4ae1e87a344226fada02573140f5e92025620f8096c76751495fc348d4f3d13c",
+    "evidence/dhaga-next-review.json": "d7934d0548fd672b7f0f9d10f900e52bd9b4467e563051cac83ef6e3728d7314",
+    "evidence/dhaga-next64-entries.json": "5fb3b22f773e747aadd3a49d2db03d573a56611fcdf745a744cc275da06ebdaa",
+    "evidence/dhaga-next64-implementation.json": "99874e4fd78cabfaac9632769e7e5eca7ab98ca934a1b031462df203be15f4b4",
+    "evidence/dhaga-next64-review.json": "c403984f07d90cf7d9a733770c11d1d65066f95aa8cb0036514c1d19b96a7918",
+    "evidence/dhaga-next70-entries.json": "5191405318c1e22b6c43f5ed5d6f5d3b09f5cda5b97d13ad21992b12d2fbf6ba",
+    "evidence/dhaga-next70-implementation.json": "0eaa5c5c280adf35eca05848f13596f5abf52c49d91b6be4818f83e5ff10b066",
+    "evidence/dhaga-next70-review.json": "8b0d765f88b10132dfa9591688f10f09f35027692245f1fb3684b9e272232ebe",
+    "evidence/dhaga-next73-entries.json": "a69fa516ca69a9034cdd4e4a95756ca97798017d77ebaa5f6a533ac20b2bc236",
+    "evidence/dhaga-next73-implementation.json": "aab6d6828ef8498206d521fab5678a85706273a9879f713d4ef729f2a573968c",
+    "evidence/dhaga-next73-review.json": "5abd3a10c10e97584806f3926a270b40b87b6a99eb3f2899ea0c0b80a4211b81",
+    "evidence/dhaga-next73-source-discovery.json": "d1da1663d29ff487cfbb584c29c0ca45d5d76aceabee1e9e885b20f2129dad23",
+    "evidence/dhaga-next77-entries.json": "50cc5c46901ed7a6b24dc7ec27c1e471655c4182085706f5fa4364645e07b8ab",
+    "evidence/dhaga-next77-implementation.json": "7898dfed3fe09a891322e5703cd918cbe0e514334e08b728a5479d965403717e",
+    "evidence/dhaga-next77-review.json": "f9b049fc834ec62bebc28ca5c63f17a109038e2c4968e4a952486d5ae5025567",
+    "evidence/dhaga-next81-entries.json": "f3786e90d4519db958385e1ad35585a5c3bb4c03301c50f85b535795d5bce832",
+    "evidence/dhaga-next81-implementation.json": "ecad10d3ac6db1b62cd5988bd4dc974fdad0493c62239382b7c61332026ce43a",
+    "evidence/dhaga-next81-review.json": "f46d021687e0947c2139183388707b1414591a83a3802f1f214b3ab951211d97",
+    "evidence/dhaga-next83-entries.json": "26ffc671e8bea312158f12049db55e9e4cf89f2467d96849c5eff3f2865e6ff9",
+    "evidence/dhaga-next83-implementation.json": "5812cb7a702fd3e43bd0d7304262e322ac7e95cc9bbe0ff8180c04ee4f5a571a",
+    "evidence/dhaga-next83-review.json": "bc43b4684e19a6ec68a12caa48bdd6d1843cce9abcdf91150b740d6458631bf7",
+    "evidence/dhaga-next86-entries.json": "44422a7f0ab8cd9acef33d2ffad9373e3db8c040970bfa67149b2d375136a79c",
+    "evidence/dhaga-next86-implementation.json": "0cdc8f95f8940093f17a20d21dcb13ae999c244eea51e1f2dca76d0ab5980014",
+    "evidence/dhaga-next86-review.json": "ff2efffe7c0fe0eea82d1608cec8dfd90cacec9ccd01af8ff93253a12e7da8d8",
+    "evidence/dhaga-next87-entries.json": "116ccb46ce926ebe8ae6439c2c5d5afbe5c050f0125acdf3e29485ddee20621b",
+    "evidence/dhaga-next87-implementation.json": "0e04d61dec9fb5e65eb7261dadc3e8acbdea7b320f90d8f72636501220942e10",
+    "evidence/dhaga-next87-review.json": "89aa643eff89d5a0cc93ddacef9a1ffced8b726fae4bff6bc761cf56dbb1b11e",
+    "evidence/dhaga-next90-canonical-implementation.json": "2e3bb453b72fc6e1f80b3dbd8a919c7f15880b475fc19acff9651ce9363c5f0e",
+    "evidence/dhaga-next90-entries.json": "1eaa566fc9e782bb1b317f4cbab36005b50e0dc860eff57831ed5e6f99457dfc",
+    "evidence/dhaga-next90-head-review.json": "572128fdaa480a009df695741da16ee125f2cd67375b5719ffb2a4f0abf9773b",
+    "evidence/dhaga-next90-implementation.json": "c4d7ad1133c63e0aecfd015731abcf894a4bdd89bd476ddb9f4df20b81b7a796",
+    "evidence/dhaga-next90-review.json": "6951fabf918c008a12a9036b434bf5112c38b37e8c80489fd962a7cb008e5330",
+    "evidence/dhaga-next92-entries.json": "b426830d324a811ea5ac6871d7454754c35efa70f6285f3735ebe7ad0b5541f6",
+    "evidence/dhaga-next92-implementation.json": "041d445b759c0db47c8c88993f1c2386146e59fef2bbf9dce066767a6761ec3b",
+    "evidence/dhaga-next92-review.json": "02da4283ed1b187c15e0978f6c701cc38cbcdf28ecba5d6ac2df7ee8020276c8",
+    "evidence/dhaga-scert-page138-leads.json": "09ddc3909318b6e692bec3c909a283b7dd040ab5a377f669609c6fc3974160f0",
+    "evidence/dhaga-scert-page138-review.json": "d7b1512d784c69738057919083a8c2c37ecbe9879979328422578b1ec987d8d2",
+    "evidence/dhaga-yachiba-source-pass.json": "001891498a435e3b817b150b5268176578096e161750053800637142cb0e4a0e",
+    "evidence/dhaga108-head-review.json": "656def80141beec93d5e42af2f261813a360e9de68169cca0761d96907d25e27",
+    "evidence/dhaga127-scert-three-review.json": "267f77c304976ba7b4a136f0305c4308d98e40d9fe3279ab444e596610437f08",
+    "evidence/dhaga127-scert-three.json": "323ab3aa6f986ac69fedfb7e9c85ae788e7363c89d9c91fc50f518278a944813",
+    "evidence/dhaga13-entries.json": "f0abb0c57f70d7a728361917590546ac3c4faa012d5956dee3589d7c898be21d",
+    "evidence/dhaga1893-page10-research.json": "6c45b252a942595a36a5fac53e04f97f6d0cd93a5417f8eeafd04e22e5266f11",
+    "evidence/dhaga1893-page10-review.json": "0a4a7965885a348f6c05f4a8a3a4d551738f7a71fc03f0d5ea8540793706b3d3",
+    "evidence/dhaga1893-page10-samanta.json": "b38105304b798f3cc95d5e7a84285c97fbd735bebc4a25c9c4fe6d16a1b65244",
+    "evidence/dhaga1893-page11-camphor-followup.json": "b7c1d85c8b085d8854083dbf223156ee33e94e6e4b08399872c3027414fb9343",
+    "evidence/dhaga1893-page11-research.json": "2f74bc52ba8724aaab3d133cee37bab46fc4bf5589277459d57e5698ba1170ad",
+    "evidence/dhaga1893-page11-review.json": "46c7adcb9403aa3a7a36ccd02901c1fb0f3012bb810b90a5a64f6507213f483c",
+    "evidence/dhaga1893-page11-samanta.json": "df38f483bca960a61c7077343723d8de0a34d15ae030783155b93da8a69d19a3",
+    "evidence/dhaga1893-page12-research.json": "4ec24e757b3cc03afeed6c46c14d57642234167cd88338c1516b35e1c8810b47",
+    "evidence/dhaga1893-page12-review.json": "49d558ab2a350a151b96bc760c4e5fa3a47c9fc165c02728eee54acd2967b7f8",
+    "evidence/dhaga1893-page12-samanta.json": "4c410ea05ea510043ea6a33a07808fb828e4d593f92ca205963963639f2594a3",
+    "evidence/dhaga1893-page16-implementation.json": "73c4d6ec6dcd577a10cc210938e7a38079044bd798abebda135b8e3521ce84aa",
+    "evidence/dhaga1893-page16-research.json": "fd28825d689f35788bc6c5910d5c82cd6cc4521e5f8c94d3e1568991ce744348",
+    "evidence/dhaga1893-page16-review.json": "774972769953e91c074e3d52c5757f6c64804d3aa83caf3ab26a976d1d0e5f7a",
+    "evidence/dhaga1893-page17-implementation.json": "894080acfbe1fb5f65bf463e9f98616f68b814f4d2bb175a01d066f14fb1e788",
+    "evidence/dhaga1893-page17-research.json": "f10205960a3cfffc7490789534c815b241564123c9243d089f06c4a8e5290e2e",
+    "evidence/dhaga1893-page17-review.json": "0c9333b11c97b930e2516aaae8a7a26e120d11d9ef1d776b7908ac0c6bbb5d02",
+    "evidence/dhaga1893-page18-implementation.json": "d62e3a5aea17b14bf65c80ae4465c420fed64e4b27a8e0c2b7827605ac3998ab",
+    "evidence/dhaga1893-page18-research.json": "b5e5e71227d0d75472c51eaee92e2fc1b8fc976c140ee470dc30bde9e27ad29d",
+    "evidence/dhaga1893-page18-review.json": "ac48e0ff749a8ec56a1a935fa6f795a48acd3af76b09fdfe0a1711ba3f03798f",
+    "evidence/dhaga1893-page19-implementation.json": "323b49951bc9ab46aff0926afe56eebd9b287aa9309d701a54f4ead8a3bcfa7d",
+    "evidence/dhaga1893-page19-research.json": "98d1cc171ae8d7f7c3b1b54a04161f39d8f2bf24a818b732212027a0b3c6478c",
+    "evidence/dhaga1893-page19-review.json": "f1fd0eec0c6630488dddb160ea59617a901b0d367d7a81ee1e766a216399fbcd",
+    "evidence/dhaga1893-page7-inspection.json": "eeba0d9e9595a1d75629467fdea72efad1d026277d1d2ace84fd34d189164774",
+    "evidence/dhaga1893-page8-inspection.json": "b13cefbaa0b42fc049e1625eb8c10c61fe7bced8602f291a323141231fa1addc",
+    "evidence/dhaga1893-page9-research.json": "2ac07e3f000d42ed36c9b83aab81399f6ed2e62509722150d25b081bcdf7378c",
+    "evidence/dhaga1893-page9-review.json": "762763d0e1637f5b7e67bef3e26680f1bd413ea23701f8c41f0945a34f20d499",
+    "evidence/dhaga1893-pages13-15-implementation.json": "aa709632a355f9c5d1316b4d7819c1ccd213400504f1cb62a9ffb4cdacf05368",
+    "evidence/dhaga1893-pages13-15-research.json": "0e4b3cf6f9c104db4786fb354f87046c88a1faa5c162be87a738e6d91bb70010",
+    "evidence/dhaga1893-pages13-15-review.json": "bb1a176e8d4ce5a4843185dce08c24e347543ffdeaa8643dad17e45c8cf9fdd0",
+    "evidence/dhaga1926-frontmatter-pages1-6-implementation.json": "84bda178c5f8ce825cb81b0995c739951e1f4e988c42d65cc21639aeb4f77268",
+    "evidence/dhaga1926-frontmatter-pages1-6-research.json": "148475b4052dcf84d73656024c0576908236556242b85c088de2701db2edb768",
+    "evidence/dhaga1926-frontmatter-pages1-6-review.json": "abea62e689fe9cfd6481eb3d5aa0e4fb1e185831af0d5d2a7df3778a845a926c",
+    "evidence/dhaga1926-frontmatter-pages7-12-implementation.json": "6704ff904c60fc6a6a4cbab4186858ba4a332f61b102d9816bef7167b73c1adc",
+    "evidence/dhaga1926-frontmatter-pages7-12-research.json": "4ac5bfafad9f61980b772f95e6c8fe7635852f9d172f52edf0877480d7af301b",
+    "evidence/dhaga1926-frontmatter-pages7-12-review.json": "0f4152d8d0b2ffd64ee4ef6dd57bffa965e523576d6a9855064de1b94e6ec813",
+    "evidence/dhaga47-implementation.json": "c5aec062d9dda3d0ab3833be1de5ad97019f27d23f418ddadf3934cebbf041a8",
+    "evidence/dhaga47-review.json": "a5f90811d156ee1cd2e9019aa07e79160312413bb34f97e92ea9308c0c96cd56",
+    "evidence/dhaga89-head-confirmation.json": "0617eb291b9bc0f3cd3c7654d32e81458a702a089130e3565c2825e16449deb0",
+    "evidence/dhaga89-implementation.json": "f16af3b42847760542ef7807d771c7aa3f879eb5db06d176664ddbedb8f16361",
+    "evidence/dhaga89-integration-review.json": "87de57c4dd4c7f9afef199a11448364fe58384d4fb5ea935b9a580a065d507cb",
+    "evidence/dhaga89-receipt-review.json": "afeea6b06e570de5924b6ae2e09ede18a483d1a7986d8d5fd70f0982604861da",
+    "evidence/dhaga89-research-integration-audit.json": "615cd423218faf1d9088dcf18a0af1df9af3a5792074202c83a2861812922ecc",
+    "evidence/dhaga91-receipt-review.json": "fa4f0e6da40b53063265923e10953598b6c6cc441a3a24345fb295124255c778",
+    "evidence/expansion-2026-10-25/anvesha/candidates.json": "3bb2b64a8de22d531a5a59c4ed7d1ef81350e659bc09bbc9f41ee47e14de0d3b",
+    "evidence/expansion-2026-10-25/anvesha/incubator-candidates-a.json": "24f5fc19d784827c1c80f3f6a3fd7789fedc6207a01a0016e9ab8d6986b8a2b3",
+    "evidence/expansion-2026-10-25/anvesha/incubator-candidates-c.json": "7d79ce50de127a63404470ab8218d28fc7c62be6c1ffcfc9fd050b0e08eb2a22",
+    "evidence/expansion-2026-10-25/anvesha/incubator-disposition-a.json": "40af24835d048ded11b6768bf5d762c93a5fe48550b6532d5924e6a0bbd013ea",
+    "evidence/expansion-2026-10-25/anvesha/incubator-disposition-c.json": "0a5200b754973fd894417012552686c52d2bed2993aaf05e6ce0bb7eff61174d",
+    "evidence/expansion-2026-10-25/dhaga-bulk-api.json": "388b32c1aca0955ec692c9e903ea2efd95a9a02843c0a94ecf6ef0c03133254b",
+    "evidence/expansion-2026-10-25/dhaga-bulk-api5-retry.json": "e20c59a6632bfb8a0091ac3dab9b1fd2be44a969515e41517afebe4a2cf4a6e5",
+    "evidence/expansion-2026-10-25/entry-map.json": "6797df6a2a904f6cc6daf9ceb4b60e988d769c8a1e0f9cb4fd0b5179325c70fe",
+    "evidence/expansion-2026-10-25/final-crosswalk.json": "8f5bc183bc4a7dae8a535f4aa1622c787ed172db391306ee369805e832a95922",
+    "evidence/expansion-2026-10-25/fresh-components.json": "0aae4f14477da423d32babbd4c2806b35db983b96ff165ee9c854bcfd817cc5b",
+    "evidence/expansion-2026-10-25/illustration-provenance.json": "cff9ed440363a73c5e31031350858f5027fdee8919ca18befc444e43c1991f3f",
+    "evidence/expansion-2026-10-25/implementation.json": "bc3137b1525f0beb1e4fb655e4e1484e38464fe56fcd2bb8dd14841f3fc12f39",
+    "evidence/expansion-2026-10-25/incubator-item-inventory.json": "515ccbb86d93baab5c52ff39b5ca1f93dff77f4174b85f41c7e051b09167b8fe",
+    "evidence/expansion-2026-10-25/incubator-revisions.json": "50cc6ca849eaf05a875baa31dc929df18f2f7b3d95ca464a3cf58437e3309746",
+    "evidence/expansion-2026-10-25/incubator-selected-titles.json": "d144b0f7134e0a8c97514d23f4fbfa2d03cb968c758402db2fdf8c424b142e40",
+    "evidence/expansion-2026-10-25/integrated-review.json": "230f75b60a18249c94f08f1d65701701d25c6ac7be16f4d45741e3759113fec2",
+    "evidence/expansion-2026-10-25/lexical-support.json": "8155f6c33254b3a7ed8995c207ac41b2a6f9dbad066f886fb5df2253adc4b9f2",
+    "evidence/expansion-2026-10-25/review-anvesha-seven.json": "10df7f873a819b87de5f8900643fd71415b31b052110f14b2df1c963e011bb96",
+    "evidence/expansion-2026-10-25/review-incubator-a.json": "a6cf9025a5ee6c1c73659557dcd983f904aa16ba9a1ad15994da0e65ec529686",
+    "evidence/expansion-2026-10-25/review-incubator-b.json": "e9af5b92e9f4b0d4bf97fc5e994c6ca3e7aeb8fd1d0187c7f901b32eac4e8a7e",
+    "evidence/expansion-2026-10-25/review-incubator-c.json": "a9252c6d6330b06e78a0241b1bd169c498304ef2c202db4f22bec30498ac47e5",
+    "evidence/expansion-2026-10-25/samanta/candidates.json": "071061bf8d8e31446ce7daf9c344b5f418cc70f0fa2aeb834c74aacafd297817",
+    "evidence/expansion-2026-10-25/samanta/incubator-candidates-b.json": "d1bb13049557db3ffd16b0a1356ecda8683202e07f956ea208449842c1686a00",
+    "evidence/expansion-2026-10-25/samanta/incubator-dispositions-b.json": "0bfd82975f06eddad1ee124e602ad2f3723f12bea3c860f23a5a0742e5f6eae4",
+    "evidence/expansion-2026-10-25/selected-art-manifest.json": "c8ed5f1f17396491825dfcbf2ddced609dd851073402f4e98f38622556db7dfb",
+    "evidence/expansion-2026-10-25/visual-review.json": "9be2e622c1709fea9660672a1070484acaabb5057e145a0126410455b82f7131",
+    "evidence/expansion-2026-10-25/wiktionary-batch.json": "d5fe71413b9273849c3bdb05e4ff97bb76071f1d08b67c671e282699c3639916",
+    "evidence/expansion198-2026-10-30/batch06/anvesha/candidates.json": "ecc64d1eef00a850eb18321dbb38bc71cf7488d68294493204a4afe9b16a171c",
+    "evidence/expansion198-2026-10-30/batch06/anvesha/captures/133124.txt": "0a243012e956384a9fc27d87eb1911a74d020f05f360c40dda70adc776b81d53",
+    "evidence/expansion198-2026-10-30/batch06/anvesha/captures/76345.txt": "3c0a65dafb07ffe7ff0916b1aa14254183e00df3b6142b8f5875e8288806b917",
+    "evidence/expansion198-2026-10-30/batch06/art/art-review.json": "b5d65ebf6be2459650187bf5a0fa221f537c98ed7a331be9c49271a928a3f7d8",
+    "evidence/expansion198-2026-10-30/batch06/art/manifest.json": "5c0905ce2b09b8b5ba0de46a874c1863937abd17cfc3bad7a5f2e970ae12ef6c",
+    "evidence/expansion198-2026-10-30/batch06/art/prompts.json": "3f06e88e4a546906a0a645504a7b8b02c25198e63b5593f458831535a36be10f",
+    "evidence/expansion198-2026-10-30/batch06/art/samanta-art-review.json": "9426ac83b53d6bf56545c06c9657456c9e7dc794cf91c17c293a43ba2a0250a6",
+    "evidence/expansion198-2026-10-30/batch06/art/samanta-manifest.json": "a73bd2055c0c13c81f64c439c222e047ff551ec039614c38a86cd81dbac74753",
+    "evidence/expansion198-2026-10-30/batch06/art/samanta-prompts.json": "95d579ed1f641d4d9cc6a540ac7e17bc78d710f52527e99485ed8a7441e710fd",
+    "evidence/expansion198-2026-10-30/batch06/drishti/baseline-review.json": "4aa3c627d978b2b680b06fd17002e32f5746e54b7cad54e82f5b9b3d5cbbd6bd",
+    "evidence/expansion198-2026-10-30/batch06/drishti/combined-13-review.json": "1f59382d0e08801635fea69a02d22901b72b21a1c6626ad12a4fc4730b8cbe76",
+    "evidence/expansion198-2026-10-30/batch06/drishti/comparison-baseline.json": "1534d17d59eeb6695167fa28b297c8a6f51b2ec948ade7b0bb00898d1e6be55f",
+    "evidence/expansion198-2026-10-30/batch06/drishti/dictionary-review.json": "030debaa19eb2b0337d543f98e874e720af728fa9b68b73ad43f9222d37c0640",
+    "evidence/expansion198-2026-10-30/batch06/drishti/samanta-corroboration-review.json": "8718135cb117ccb7b797c9d9325c1911e9495f20b4704d983d5a75c71b435fa9",
+    "evidence/expansion198-2026-10-30/batch06/drishti/samanta-review.json": "f95ce76900bfa7d2f18c8741e8a259e3693bb67214d6c599bf6a3e2172e44566",
+    "evidence/expansion198-2026-10-30/batch06/samanta/captures/corroboration-headwords.json": "fb5ade41e994477e6fa6e156b519b37e504c1b939815dc998d67ec22eb1b884c",
+    "evidence/expansion198-2026-10-30/batch06/samanta/captures/corroboration-two-full.json": "b94681d17eb480aa995dad4bab18a8091ab470c60cffc812a31db79ebd1e8ad1",
+    "evidence/expansion198-2026-10-30/batch06/samanta/release-candidates.json": "44772ce4fde6f459ea89c973c52cb5dc6c7418a4c89b5d31dbe74cc2c5ed0738",
+    "evidence/expansion198-2026-10-30/batch07/anvesha/candidates.json": "d1edfee7e75f2b947489f104701a00b44b4957aefe5195aa4885f8dfb2250ecc",
+    "evidence/expansion198-2026-10-30/batch07/anvesha/captures/159751.txt": "7134108919be89acb79fb4786c6395a5ba6f66cd1f99c45b1d8a7dae274d6a12",
+    "evidence/expansion198-2026-10-30/batch07/anvesha/captures/167293.txt": "ac6de26023d61dfe8d25f6ebd030c9095c94c7ac3762d732d7cd44cd0e0cafd5",
+    "evidence/expansion198-2026-10-30/batch07/anvesha/captures/167457.txt": "829c96612b112696310b0e7b3822efeaab1662dcc4b19f1d7593fdd8792b4722",
+    "evidence/expansion198-2026-10-30/batch07/anvesha/captures/39946.txt": "00480010098765b2705b50a6406d1b6a481ae012492eac0586955230759923b4",
+    "evidence/expansion198-2026-10-30/batch07/anvesha/captures/99118.txt": "7acb2d4c81161092bfcd41ae9684f725528c7867889a553e46d5ce72d6b1babe",
+    "evidence/expansion198-2026-10-30/batch07/art/art-review.json": "af4437c492cad02c44f759dbcc60df1f2b00d468203e83c73bddc47af6a9de9d",
+    "evidence/expansion198-2026-10-30/batch07/art/manifest.json": "e061dc4e91329320fd41ca4a3154e7b9baa402dea91921fa2ff2be3dcaa0d366",
+    "evidence/expansion198-2026-10-30/batch07/art/prompts.json": "b6a98ba1533760602fd4446392d69fe50c0af812ccfab5928802603b0b6bdbab",
+    "evidence/expansion198-2026-10-30/batch07/art/revised-manifest.json": "ce2b1c596a5839e7b07f1f0cb4eb101964e5939e76e72b0abb0771f84beb4c51",
+    "evidence/expansion198-2026-10-30/batch07/art/revised-prompts.json": "8ec8e0e7f91e86bd57c35d3ac112b3b3857a344635ffb939b1174cfd29b16592",
+    "evidence/expansion198-2026-10-30/batch07/art/revision-review.json": "fd6c28ee441826e5064a1c9017dd6380cf0067e7ccf2abad2c0935fed326f13e",
+    "evidence/expansion198-2026-10-30/batch07/drishti/dictionary-review.json": "77817448722101bb32a9fe0b5ffd61ea1fd8e1954676d4121060e58a28ce140c",
+    "evidence/expansion198-2026-10-30/integration/art-mapping.json": "d9899fb55a3faf70a8e9c053880249fbc6db0c9991a8bdf2452d11f621b3e501",
+    "evidence/expansion198-2026-10-30/integration/entry-map.json": "113f0dc09fbd4f378361c2c364f5826d0948ea4728d9993e63e791e9548d7e99",
+    "evidence/expansion198-2026-10-30/integration/manifest.json": "b6ce9e8ac5de84b5f068d08d5a7f0b7aba2152f98ff7219b6ffd39b063e3a092",
+    "evidence/expansion198-2026-10-30/integration/parallel-patches.json": "dea362f432c55dfb22f81453adbed364a4934231ba5e5d040438b6544ea9d587",
+    "evidence/expansion198-2026-10-30/integration/preparation-review.json": "21c67abbaf962af13ba80685ec1473bea85446305693bc425fc90a4372666243",
+    "evidence/expansion198-2026-10-30/integration/sources.json": "1667ed461a112f83364c0c354aadeb8b677f7496ebd24fee1c854aba554c603b",
+    "evidence/expansion198-2026-10-30/prepared187/art-review.json": "8b498cee5a9114fbab71b39954fb070e5e6faa50b11f4abe52a98ded6767696e",
+    "evidence/expansion198-2026-10-30/prepared187/continuation-brief.json": "79e040ef423d06ec97bbb090ff4c61060410c6e9a5fe9b87252831debbcac32c",
+    "evidence/expansion198-2026-10-30/prepared187/manifest.json": "86a33964b779cf2d8fdb9413f24c7d1d39ce7556030f8ce087b475135c9db3f8",
+    "evidence/expansion201-2026-10-30/anvesha/candidates.json": "32aa897ad4113e149418924bf4176c60140de856287d48592a339355bcc756d9",
+    "evidence/expansion201-2026-10-30/anvesha/captures/133124.txt": "0a243012e956384a9fc27d87eb1911a74d020f05f360c40dda70adc776b81d53",
+    "evidence/expansion201-2026-10-30/anvesha/captures/217981.txt": "22baf7cae08d9cac1b1d10f443286bfcae1e41fcbdf6fe433436585e0affda9f",
+    "evidence/expansion201-2026-10-30/anvesha/report.json": "e45ffd490936d2431bbe87aa9b30a23388422f595c360e56835de860a4cf59f2",
+    "evidence/expansion201-2026-10-30/drishti/anvesha-review.json": "55f533fb6f6e1f879f44115197736aa3b7638d5740502dbbe9e7f2abd84d87a8",
+    "evidence/expansion201-2026-10-30/drishti/integrated-review.json": "f5f07e352530224314c96cfd01e26c0331b8046970fd8a8846f260dba8e0e0e2",
+    "evidence/expansion201-2026-10-30/drishti/samanta-review.json": "acdc9baa04abf408ad7a2da84d0cfe220755dd4fc0d1675b1bab3278a8aa9572",
+    "evidence/expansion201-2026-10-30/integration/art-review.json": "60b83ec9d76d824bcc5084c91c0e0a23d0179d07f17ef4069fcf41d446e90e06",
+    "evidence/expansion201-2026-10-30/integration/entry-map.json": "6f76db3675d7158c60454d2cff6f21c0da7043c5621e1d22c5e886143f68e578",
+    "evidence/expansion201-2026-10-30/integration/generation-prompts.json": "dc8df9e3acd2bbf01cdbda996ebfa11f5d9376b24b91e85aad6ce78f8addbf03",
+    "evidence/expansion201-2026-10-30/integration/integration-plan.json": "f74b7871cd72bf7c9c44af3fa67843f451809833997c4bdf08407efe6e394095",
+    "evidence/expansion201-2026-10-30/integration/manifest.json": "0db6075789a466452e21615a581d1fce7ed81a1500ca168acbdc13a5a52c76c4",
+    "evidence/expansion201-2026-10-30/integration/parallel-patches.json": "b980c88126aa315b119a0568cc39f79dc0a4dfabb7ea3a3f73473a433245f414",
+    "evidence/expansion201-2026-10-30/integration/preparation-report.json": "027eda3222a1d65e92eb4d23d313ae87b244e16ab551542e00fe1bd37f7e4fcb",
+    "evidence/expansion201-2026-10-30/integration/preparation-review.json": "2c6ca1fa9d1ac4e66db0f6f074ae7c9133f1a46a1f3cdf19d3ee96afa6426329",
+    "evidence/expansion201-2026-10-30/integration/selected-art.json": "d2a0c2c88bb45e6430c89f5b840252ca950a43ea3488fbbc636b3b160f3ac324",
+    "evidence/expansion201-2026-10-30/integration/source-reuse-map.json": "64fee223a7bcff3b38d2913c6f6f1b5bd8527c25f774e66c47c3afc5a2cde592",
+    "evidence/expansion201-2026-10-30/integration/sources.json": "3ff0e324badfb152034b760531ea47c176cecfb6e0a140eac7399f7e98606110",
+    "evidence/expansion201-2026-10-30/samanta/candidates.json": "02833b116ddb0b48aab1e0f32d1bb55bcf018e3ec07632c6c672ca86deab6aff",
+    "evidence/expansion201-2026-10-30/samanta/captures/jau-220791.txt": "0f26f0e605205d20ee3e2b7e409bfadadea3ac6eb88b18dfae905f04c51b770e",
+    "evidence/expansion201-2026-10-30/samanta/captures/praharaj-jau.html": "216de8ee3edad2dacc2132531131e66e1dbb758e2f62c0f6b2d60e20efd8e51d",
+    "evidence/expansion201-2026-10-30/samanta/dedup-checks.json": "9efc086119aa62c4bbe28bb3a8c63cb6b3d0011b5db17317ebd5eb51696f8b2e",
+    "evidence/expansion201-2026-10-30/samanta/printed-2943-verification.json": "d2572a418888558fbf1226720b92bb370cd8e901dcb50359b36f981b4225f66c",
+    "evidence/expansion201-2026-10-30/samanta/report.json": "c6e4ed58b0595ece7d7e58f9fc3e5703ceaa1f36863bc3bfdff14d579936d80d",
+    "evidence/expansion202-2026-10-30/art-review.json": "6c12f58dccce5de18448778bcca3348b6988d2e230a972977c6bbf50fc551047",
+    "evidence/expansion202-2026-10-30/candidate-bundle.json": "48d596a165d2181358a66b0c1119bb8aa54c5c1a9269b3f8c3e380cf58526267",
+    "evidence/expansion202-2026-10-30/delivery.json": "368f4b442c6ce71f962ef613bad518e3ba9f1da7447d33b2054d1e64b17f3e65",
+    "evidence/expansion202-2026-10-30/drishti/assembled-review.json": "46151433589a66715e86a1bb8671bfbe7861b537953f6501b1cca3447d5bba5a",
+    "evidence/expansion202-2026-10-30/drishti/integrated-review.json": "ff06ef49c8f340af67708908dd7056b8085f25d76648084e5396839eaa6de4be",
+    "evidence/expansion202-2026-10-30/drishti/samanta-review.json": "e390d1f4d8c8093cb395f5f8f1cbcc8b62bfa0a954c18e5049dfad7686a35965",
+    "evidence/expansion202-2026-10-30/generation-provenance.json": "ac77c71140c6e6a557f22e9245d112ac61a38a790b785fe490233c1704e38d27",
+    "evidence/expansion202-2026-10-30/printed-6322-verification.json": "e353a7e18dfe2d92a1e66e842ebf234a0f87276f0ef16b0c4cd5cc14b3cd221d",
+    "evidence/expansion202-2026-10-30/samanta/candidates.json": "83df14dcc6c4051f791b1a2b9d2999c66f340c434c02a8d1fd6e264863e111b8",
+    "evidence/expansion202-2026-10-30/samanta/captures/context-reading.json": "0755cb89cc2ea4cf5dd574a7999c3ed26a7a675931c28378a80d1d205f99f6c0",
+    "evidence/expansion202-2026-10-30/samanta/captures/dsal-mala.html": "082b8d29d6461c0c1f82d44103d6ef95a9b13c08b4fa9dff5f20788ce9440e29",
+    "evidence/expansion202-2026-10-30/samanta/captures/saved-217462.txt": "ada3c8691319fd63f8d5b559ea3e06df056b345ed70569f758294a91dfc813f9",
+    "evidence/expansion202-2026-10-30/samanta/report.json": "1a1750783f9ac215fa94a916c283986e9ec05e67ae0c908444d407a81a02f795",
+    "evidence/expansion211-2026-10-30/HANDOFF.json": "67e8e1de9ddd6c25d90abb0a5c93b1fbb1f0bbee74ce85442b70063c3b92509f",
+    "evidence/expansion211-2026-10-30/anvesha/candidates.json": "b621ad042a5a3f868f4cf28eb954c023448a3e677141a93be82e042fd977532e",
+    "evidence/expansion211-2026-10-30/anvesha/captures/213323.txt": "ba3f465478437c8959fa2c55e9a8784065f053e8f4479e9c5e32566f51416ef7",
+    "evidence/expansion211-2026-10-30/anvesha/report.json": "6be6826fbe51e8a25f259f4a3ff77ae7385589c086111ba187486dd4c7c7c11e",
+    "evidence/expansion211-2026-10-30/art-review.json": "4393e32c5719fcecdae6872246688569747a800f4c9aa1e587a7c6eb5862c3f6",
+    "evidence/expansion211-2026-10-30/candidate-bundle.json": "499b103c52a21cb2f445025b31ecbfab23fb902e2e80817defd10cd5e56d2560",
+    "evidence/expansion211-2026-10-30/delivery.json": "f96bd68626c3b80fbebfcfc62863c3dc8a58eca2e73b3d11ee81e15fed1d1c2a",
+    "evidence/expansion211-2026-10-30/drishti/anvesha-review.json": "27c8f7815873bd686f80eeed91b7174ad84237a2bcd3ca83d63e116ea4ae05e4",
+    "evidence/expansion211-2026-10-30/drishti/assembled-review.json": "2fcf76ce3c1e22524cd51348d706aa849ea10233a9c931ada843676eea381ec4",
+    "evidence/expansion211-2026-10-30/drishti/baseline-entries.json": "634f0fab24e178dff1d976ebcc6f721684802fc9cb224b73f7ca2203d3a87668",
+    "evidence/expansion211-2026-10-30/drishti/baseline-review.json": "be5d1ebadd33023985ec167c72d70dfee20e22dbefd1c382b64c845ee97371e9",
+    "evidence/expansion211-2026-10-30/drishti/integrated-review.json": "0500b1c6e5d47ff859cc33719e372926a5496889d4322a9e8ffd902ac3905f29",
+    "evidence/expansion211-2026-10-30/drishti/samanta-review.json": "90dfccb2c1db17a7aba942b5fd4ec2f7069d569578fb138725132118d024005c",
+    "evidence/expansion211-2026-10-30/generation-provenance.json": "b932bb0dc66ccb451866f46b11e9e593e4d48663d52c8dadfc9cc40c6e353181",
+    "evidence/expansion211-2026-10-30/printed4856-verification.json": "7b50d28bbbdb03a9ce057039a4ea39f3050b34e2c7d39a248326533da1623c21",
+    "evidence/expansion211-2026-10-30/samanta/candidates.json": "c880fd8662453ad97f24bff898168f05e1d42d0dddc7126e367e8d515e7a1a1f",
+    "evidence/expansion211-2026-10-30/samanta/captures/pimpudi-213323.json": "af82255b3aed479449425b8664a51769dd7bc70982078ef139e2f4218a96a2d5",
+    "evidence/expansion211-2026-10-30/samanta/captures/pimpudi-213323.txt": "ba3f465478437c8959fa2c55e9a8784065f053e8f4479e9c5e32566f51416ef7",
+    "evidence/expansion211-2026-10-30/samanta/coverage.json": "38bb95d57fc8e25d5042988d100bee59d83f81b26f381ee50d99097176f68bf5",
+    "evidence/expansion211-2026-10-30/samanta/report.json": "e0702d9556eadc466c7168a7700b086a5658c8389873ec526e929d818e0baf63",
+    "evidence/expansion211-2026-10-30/selected-art.json": "81ad4134b6f3e65837971db8a50317b6b7bf2d3c2e037d68abecf465ca64e0be",
+    "evidence/expansion211-2026-10-30/source-213323.txt": "ba3f465478437c8959fa2c55e9a8784065f053e8f4479e9c5e32566f51416ef7",
+    "evidence/expansion211-2026-10-30/source-and-preservation.json": "a8d90a24d65e2379022ff1b8f5f85b09884a74495758ab588e06e0a609fad3e5",
+    "evidence/expansion211-2026-10-30/text-review.json": "1b753102d6d8a415886b13a467a8564bed226080f782965b4419ce3a9604f66b",
+    "evidence/expansion214-2026-10-31/anvesha/155158.txt": "35f820bb1ed490d31f1e01b3a3b22d0d9448f598ea6e99055f21b8326ece8851",
+    "evidence/expansion214-2026-10-31/anvesha/158575.txt": "e6ae50bfc0d29bf0e31703caa3eeddcd06e2d547a3ee795a5e6f454891e3408a",
+    "evidence/expansion214-2026-10-31/anvesha/67652.txt": "daad1ba969733064967d966704f0545554599f8ab3d3c03b4950baf5b7535dc2",
+    "evidence/expansion214-2026-10-31/anvesha/candidates.json": "437b84be86e0abf4b52e4f8baae527bfac2518131ded8b8e172ea2d984bb0ce6",
+    "evidence/expansion214-2026-10-31/anvesha/report.json": "c6651a62c58646851f34397e7be7597aea407a271143bac63b00aa371b53561b",
+    "evidence/expansion214-2026-10-31/anvesha/source-registry.json": "ae9de1ace8314a732cf2508b4ba6ec5fa4b35bba2494a5ef7e2d6efc1fdd7e6a",
+    "evidence/expansion214-2026-10-31/art-prompts.json": "350562e1bdb437f000b4819b8c9948a0a0d6170f06ca8ca3f025851125996c63",
+    "evidence/expansion214-2026-10-31/art-review.json": "7c9f57905fae03dca1b959d0af8705c4f431ff3995c4ebf078c4cdde73f38ec0",
+    "evidence/expansion214-2026-10-31/candidate-bundle.json": "814d8e9f607e722f3d46c76c5c8bc452f90b0b2373aba09e342434b1fb7b8cdc",
+    "evidence/expansion214-2026-10-31/delivery.json": "afa756c423ca9037c73656732c6a404ef8542e10c9cc0a37010d55c8ee99e92c",
+    "evidence/expansion214-2026-10-31/drishti/assembled-review.json": "79621034afcb4ddb0b9e99da463624115fa6251d11b81d3811384ab30165ea51",
+    "evidence/expansion214-2026-10-31/drishti/integrated-review.json": "df5242ce3b69ed5ed9c384c654f7d90e07c25bdb4f08140e5583a877b31dec0c",
+    "evidence/expansion214-2026-10-31/drishti/source-context-review.json": "59494697ffdeba63d1ca5e233836967f086c143a98ec70c97152071e8f8a6a88",
+    "evidence/expansion214-2026-10-31/generation-provenance.json": "74a3b86864afb79b52d1d481ea355d33b6720a768f08e8960a2086121159ccbc",
+    "evidence/expansion214-2026-10-31/preparation-review.json": "99914c785566527215447e7f2c2be9c64ca1e442ac86a578ea1b5eb637ad4040",
+    "evidence/expansion214-2026-10-31/printed-2941-verification.json": "a0782cb56ff26166aed7036b7edd378fcedfe7ba4e7f196987e22cb22c36d679",
+    "evidence/expansion214-2026-10-31/samanta/final-draft-validation.json": "b4c77fb0c7af15230f9f6cdf68451cccfc154681d683735a6c3ddbe734cd9609",
+    "evidence/expansion214-2026-10-31/samanta/witness-check.json": "d0183a84b7566a01774944a640f430f4723916a8073c75c6cea72abb4f58890c",
+    "evidence/expansion214-2026-10-31/selected-art.json": "78803df19ac1c5e8b1b43a1e44ca1447d208c4328831187dc620c3e2c0f92523",
+    "evidence/illustration-prompts.json": "21467f6beb9ab07ec500f5002f3adb039e4f623d62ca6fd7fc40c14335b98579",
+    "evidence/illustrations-expanded-prompts-2026-10-24.json": "80b812446f792961b96be13547fe50c4b12a9e26327babcdb26ecb7d505ee7f9",
+    "evidence/illustrations-expanded-review-2026-10-24.json": "2c2c93ea6ab589d7cdb5c495579baeda27022817151b6daba2017ef2198b39ff",
+    "evidence/index-navigation-review-2026-10-24.json": "eff2662ed32fd69f0e5fad59b129ad64554a45e553bc535fcbb9ff1e87a27ee8",
+    "evidence/line-art-illustrations-2026-10-25.json": "3ec967afbccf9aad126e5c3508b46cfdaa1fc305feb7c7cf9bf51a5f4c915e6e",
+    "evidence/line-art-integration-anvesha-2026-10-25.json": "953ddf75f52844d477a58d58dbce197ff8efa28c92f463c4fe307af53857ab14",
+    "evidence/line-art-integration-samanta-2026-10-25.json": "6380ad525a3301c4c715937e8cc8bebe008f407a494a01cd740343aff202fc04",
+    "evidence/loop-2026-10-30/HANDOFF.json": "139b4de02ec64d777b2778587459d74b61025b9df7776e5d5ce3e00784bead0f",
+    "evidence/loop-2026-10-30/art-review.json": "cab0a627ae31cdddaa32f85a3718ae7d31fe2655c696a7ad7f5d63f213208e54",
+    "evidence/loop-2026-10-30/batch01/anvesha.json": "340b4097de7ab3c3b725af4a6f58163ea013f11bc5f6fba116aa3b4708776a00",
+    "evidence/loop-2026-10-30/batch01/assembled-review.json": "769676ee8b6d9d41bd364b5257089f8bb5d2b2a91c693fc57693f57a0427a9c4",
+    "evidence/loop-2026-10-30/batch01/bhagabata11-r57652.json": "a738e4033b4618f6fe7e1ea0924e512cad9d8c2f5a4520e7e2d5ffaa34b6eb6e",
+    "evidence/loop-2026-10-30/batch01/captures/incubator-search.json": "59211b7c9b443457c61acbd6726560e21a6286d26f23e6dad49a2a028cc7f36d",
+    "evidence/loop-2026-10-30/batch01/captures/wiktionary-batch.json": "284d920e060b6c737d61a83863e5696a2c4d001d77e8490082b6eec3c5afcfca",
+    "evidence/loop-2026-10-30/batch01/captures/wiktionary-followup.json": "622654584af05f961a06f077ddc7dbf836caa5f3dc462550bfa42c1b6eb37b6a",
+    "evidence/loop-2026-10-30/batch01/captures/wiktionary-search.json": "eb6d8048108b37243c299104dd0bd0a6628dabdcf38b336266e303e8906b8cb1",
+    "evidence/loop-2026-10-30/batch01/disha-context-findings.json": "3e23a9ea960c307fe64f9e877c6d25fd53e02928bced88bb0af20ad916404131",
+    "evidence/loop-2026-10-30/batch01/drishti-anvesha.json": "e3d8ae665087e321369085f34cb64d2fddecdd91dc4d7cea68281f597ba008be",
+    "evidence/loop-2026-10-30/batch01/drishti-samanta.json": "a769dc064349af6dfea5fe54e3f2c529cd17fca6be4b6091990f3af91bc54100",
+    "evidence/loop-2026-10-30/batch01/reviewed-candidates.json": "b9549fb842757d3ccd7a1fb4113f60c2797acf73e198fbdfb2bdc85884391600",
+    "evidence/loop-2026-10-30/batch01/samanta-captures/selected-145340-r5581025.json": "5b780ff7b57cef1f84a87d05dee95383bfe6a6360194637bdc6f7dc73da558ff",
+    "evidence/loop-2026-10-30/batch01/samanta-correction.json": "05b50256d720862bc3d7663cc8ab6b9ece2048cee499f07690d18bbc3308adc4",
+    "evidence/loop-2026-10-30/batch01/samanta.json": "1b6725f53427651ecf4fb0c119ef6bed1fdf6cb70e6310a015c2ee9836f7929a",
+    "evidence/loop-2026-10-30/batch02/anvesha-correction.json": "c94da18460db4e5afd7f92e86df30521661b719eb6bd87b5b91e84451c88bd42",
+    "evidence/loop-2026-10-30/batch02/anvesha.json": "7c330e79ffc956716d8a6a0b163499a564f2c36e4c05b9c6ae559a8fd41f7293",
+    "evidence/loop-2026-10-30/batch02/assembled-review.json": "c0ee563400a25e5e1259470058ca9b0d05ac1873bc171571f50f7d89ecffd383",
+    "evidence/loop-2026-10-30/batch02/captures/originals.json": "3347a6e649c449beaffd17f67879052f8f8456384a91b4c4650d2c5032c497c8",
+    "evidence/loop-2026-10-30/batch02/captures/search-dhaga.json": "ff8b1ee59148d0de1fa8ef9a8fc091639f516a32baa4ae4e52874aee8dff3dca",
+    "evidence/loop-2026-10-30/batch02/drishti-anvesha.json": "c959cbdb5ec93d3964d30e957e285d1d4a6368d9f0e3b5a00b09ee0a93cabac4",
+    "evidence/loop-2026-10-30/batch02/drishti-samanta.json": "4cee3a7a3e16a79da3fff1b8d201021b6cd069db2b73aba562af73355dea2832",
+    "evidence/loop-2026-10-30/batch02/reviewed-candidates.json": "c117ad339483837e305a385e0474da602637879208b33a301af364886256a221",
+    "evidence/loop-2026-10-30/batch02/samanta-captures/lexical-query.json": "dd854e130248327a414d9d18b3e3fcdd87c8827b38377dd8b5f329a75e15a2a6",
+    "evidence/loop-2026-10-30/batch02/samanta-captures/selected-bibidha.json": "de73193ba7337f635efbd3530921c5eaf487ec4c3331f05f7f1aba8dd8561264",
+    "evidence/loop-2026-10-30/batch02/samanta.json": "7e0ae2944eafbe27ab0e23c60ae5568670ca063b9e4340b57091b871411e5d28",
+    "evidence/loop-2026-10-30/candidate-bundle.json": "e25c09a44b8635b5ffd6700f318157dcd62db72dbabdb4912ac66787303f51d2",
+    "evidence/loop-2026-10-30/delivery.json": "bfcdee69d98db2dc42cbcec4d3a4f1e4c97e8002b8c86dfe92a093f0dbfce872",
+    "evidence/loop-2026-10-30/duplicate-check.json": "440584d8de5450b1eabedb9ad2b9a8158babe205050bb2e24b2fc4b70e524b8c",
+    "evidence/loop-2026-10-30/generation-root.json": "268a198b28bbb7bf748b2fc7fe1fda231e82332fc2252fbfee79f784310a5d79",
+    "evidence/loop-2026-10-30/generation-samanta.json": "77fd975aaf019e512985bb30eaab0929080582b3d56ee49287b83120b83bfa70",
+    "evidence/loop-2026-10-30/selected-art.json": "20bf73a7b7f280d9e0f55a3b897bf601758e952245860fa90dc124378fafe41c",
+    "evidence/loop-2026-10-30/source-validation.json": "7f03dd66b54460c0af5f603df2869dee454c905d6f6ed3bab504e41f32be3608",
+    "evidence/majority-illustrations-prompts-2026-10-24.json": "c75fe85e60b16af3cc78ecea2e2048a9ca42e0faac5b85876ac6a37abe10e89a",
+    "evidence/more-illustrations-prompts-2026-10-24.json": "8eddafa931ba4c1f9736b45d21938c4efb65d67abea239762dff9504c34fa4d7",
+    "evidence/more-illustrations-review-2026-10-24.json": "b66ef1e1ec7237d82d9ce3db9c98f4582f2ae38e3b73e5d6f23e51ad63a18980",
+    "evidence/navigation-order-review-2026-10-24.json": "0b34f054aab9338298f4a7d5adf9b43890ccf1b743b37978caa55478961fb995",
+    "evidence/pdf-tailpieces-2026-10-25/anvesha.json": "b8971f9c13a17e12e360808dba682922276d3a252e1dd64e231e439c776bd3d2",
+    "evidence/pdf-tailpieces-2026-10-25/drishti.json": "b9a5884cd089d82292a21f3d80cbceadac502d7a74bf1c5b35aad49a2a6b2b1d",
+    "evidence/pdf-tailpieces-2026-10-25/implementation.json": "186c078288f9271f460910ad73052a8ea2838fb838f1c4e48cc5821b4c0edff3",
+    "evidence/pdf-tailpieces-2026-10-25/installation-manifest.json": "36519dbf9a003fe306f7853ec065115983adce11c40a887ea0fae749789a7707",
+    "evidence/print-book-review-2026-10-24.json": "c562c5da3c574856ae448a12e63d8c484777f328bbd9697b42b72148c82b4aa0",
+    "evidence/print-book-title-review-2026-10-24.json": "552b41c17243d1d8dcaaf418182a320cb78ed04fa67fedd70e5a6fc9d097cb2a",
+    "evidence/print-cards-anvesha.json": "4e846e817c93cc20ee8953e820278ce9baa1901bd40c45e7548da0d71c6c05c2",
+    "evidence/print-cards-drishti.json": "2f3a4e2d0fd2d46ffaa1ae4dc3031d2636a06c3b2029f976ebea941ee10c8d83",
+    "evidence/print-cards-implementation-report.json": "f7c576c04f073cb7b241f9747e3f2e087d32fc561e70c9b5b2e04df9ddc2611e",
+    "evidence/quiet-opening-review-2026-10-24.json": "7a10c88c0361107e58765992257e0ae554478f46caca9139ad5bbb018cac0a17",
+    "evidence/quiet-panel-review-2026-10-24.json": "b32bbdd02f1d52f972e3c85352a6930678d9f3c9ce2471c5a782e313e5480167",
+    "evidence/single-credits-review-2026-10-24.json": "487175a9736e3e7e399a1cd115e1f7a126f1e57f86da3a490e6ea2c505841f9c",
+    "evidence/source127.json": "a53bcd578a36434fcd7a57118eba3649a90dccc94206e0223e65ee87a26ce774",
+    "evidence/terminology-review-2026-10-24.json": "424ecb7f579a68789fd6f5c793d62d668d42499a9c3254f70436659805ba0efc",
+    "evidence/third-illustrations-prompts-2026-10-24.json": "395f461fe33ec56ac2ddea21adadb81e592a186f6dad4ed346ff6f0ab64bbc7e",
+    "evidence/third-illustrations-review-2026-10-24.json": "2287080c74c862b1d759848dcb661cd3be422c8b6992909fea07cd0e309c62dd",
+    "evidence/two-additions-2026-10-25/anvesha.json": "e07a52fd1dcab95363dd32bfc6fa83b5a9e4675b0ba12effc666a7bce6f47b45",
+    "evidence/two-additions-2026-10-25/art-prompts.json": "1a85b674213c29d227f9279cabef94972fb6bf5ad0bd9ccd4bcdba1a3119c696",
+    "evidence/two-additions-2026-10-25/drishti.json": "3465239b67134b2291cc57c763a43ccae6126431b5dea2fafd77f27f5d9c4902",
+    "evidence/two-additions-2026-10-25/implementation.json": "d077c1306939fe9327524832b23bb2bc2b40ee9e7d80f936c22e997459f904c7",
+    "evidence/two-additions-2026-10-25/installation-manifest.json": "816d8de330b2955908ba7cc187bb5ebf3ff1ca978f1c3e5a781524c02a9f8190",
+    "evidence/two-illustrations-2026-10-25.json": "a03fdb42d7b3850fa3571ccb5d0c8ff1c46f8e7ff0820c1ade6a903ad3436ab6",
+    "evidence/unified-art-2026-10-26/anvesha-audit.json": "153dcb71a04a668345627bc085bb68aae43ab0cd94bc5c5b1b2b6879027c4106",
+    "evidence/unified-art-2026-10-26/audit-addendum.json": "8d8fa9322a9ede5cd05188252ebc45cc3c9813e30beca8f9a0f1773eb5bf003b",
+    "evidence/unified-art-2026-10-26/engineering-review.json": "6e8887c5bda24000aa7671a5f040a4fe5aed03edfb405f667c3463e2b7bce83e",
+    "evidence/unified-art-2026-10-26/exact-head-review.json": "0ad0db52c44e917672318263f0a22f68fb40cbbd674a70a86fc7a0f98af1f357",
+    "evidence/unified-art-2026-10-26/final-invariants.json": "93913f4e4e0554572d7392b9c70963d88cc6b70c73c0a3c2621366a9cdca3921",
+    "evidence/unified-art-2026-10-26/generated-review-a.json": "5899d951efb988032b2a5d9b3969212879a6846bdcf9fc79e2977e1a8fb57374",
+    "evidence/unified-art-2026-10-26/generated-review-addendum.json": "38d2ecfc9b6397204e6d4c6c2d2718f185f207de8244c81a469f7458f07ae8fd",
+    "evidence/unified-art-2026-10-26/generated-review-b.json": "b80311615e827605d6a1b045e0768f2e4d1bcd4460647d6e7e0f13443a8daaba",
+    "evidence/unified-art-2026-10-26/generated-review-c.json": "b5ef1ce190ac332a41e653a4aa4d442f791e80020fd13be12c2cd514601d25f6",
+    "evidence/unified-art-2026-10-26/generation-031-correction.json": "fc57b5603efbbf42431ceb40f8c91a6723ce70fc846b11f9c2d92ec021ae285d",
+    "evidence/unified-art-2026-10-26/generation-a.json": "cb51f80c36332f64e5bf83041685f9d41a6f29c64e8f446d2f631675724a0226",
+    "evidence/unified-art-2026-10-26/generation-addendum.json": "efa55ad5d2d6e0a94a9815c7371059dfda1a38b62e70c86a5aeae3b46108a3dd",
+    "evidence/unified-art-2026-10-26/generation-b.json": "8041192ce470f85dd3bc966f800e14eddc7ef4869ad1afde18c9670e41f0cc6b",
+    "evidence/unified-art-2026-10-26/generation-c.json": "144d514e1e398d9eb17d55ccb5916896e398cb229efede453c2cdfce757fe949",
+    "evidence/unified-art-2026-10-26/graphic-text-updates.json": "3cb718b6fda2cba4e9bb4b7ffe6d032b41f9ab7f54f03a7d49631b2c6a60370f",
+    "evidence/unified-art-2026-10-26/initial-review.json": "0cde775975dca71c6890f3dbfa2faa03659fb5ae2fe813c3ede882653488f709",
+    "evidence/unified-art-2026-10-26/live-browser-review.json": "c315ea84911048767819618ad7fa1f24a9e5480982ee56825a33a9102955058c",
+    "evidence/unified-art-2026-10-26/live-diagram.png": "d4796987cb439395493485aa322748637afa91c755fed1bc5b398c839bfb861e",
+    "evidence/unified-art-2026-10-26/live-files.json": "ac9b0c0743da41c57ca116fdfebda21489657b34de85020349e2b4faaac81bcb",
+    "evidence/unified-art-2026-10-26/live-line-art.png": "7329fc9eb490a6f230423d5cebe3ebabf1ac24aa3a0db0cddfcd3a970438b391",
+    "evidence/unified-art-2026-10-26/live-phone-cover.png": "d40308c470e221eb75c685980ce0f40a4d17849fec9b2388623ab42dc8ea99a7",
+    "evidence/unified-art-2026-10-26/manifest.json": "2aa604282a2275797b8faff1e295a5433ad0c87106e70aaad07a9c413e8aab83",
+    "evidence/unified-art-2026-10-26/pdf-review-first-half.json": "2fc15cf2f5c6de3663b656413ea6fc8d13682cfe1c4f6c7d24d525242b41fb6d",
+    "evidence/unified-art-2026-10-26/pdf-review-second-half.json": "23484d719a406f04c70fb4a2f19e0beb6b0948e3a8f7e9b382444c5a7b7b655c",
+    "evidence/unified-art-2026-10-26/preservation-review.json": "376f513b2f6b4150840b8a8ab3bfd72909dad0cf6e5f5f383d2e5946b4e90813",
+    "evidence/unified-art-2026-10-26/publication-receipt.json": "a5f5c1d7d7957e854e86e2b9b92f87f269a093bb47f5b0d86c23720cb5821cdc",
+    "evidence/unified-art-2026-10-26/remote-pdf-verification.json": "e2d098e95b6898cf9c0526f4ed7be19f7ec77f25c567039b0e6d9f6e59bcc244",
+    "evidence/unified-art-2026-10-26/text-art-review.json": "c6c180575957f887f06715f52ac27ef8f0a18ce9ed0a346024908bad96496941",
+    "evidence/unified-art-2026-10-26/validation.json": "d4ba77498daa836556cc9a0078e2c2dd7f901c71fb516dea2020d9af6416dcf7",
+    "evidence/unified-art-2026-10-26/web-budget-review.json": "0690fb7115f8c441512c9f7bc1c29548b3fe13ff6b6663b6bf61e52a6be20347",
+    "evidence/unified-art-2026-10-26/website-review.json": "eee63b3421f25dbfa804fee95aa8c102b5c42d82723a426e633dd7f12b712e4e",
+    "filler-manifest.json": "54562349e1452375c5e6b2dd5ec4f9088d9955389acd1692ee7c763027c690be",
+    "illustration-provenance-book.json": "42b25076a34f4f41856ec0381079ac3d4ae8f1c56167082c47f42de7ca827075",
+    "index.html": "bdafd5f1cea9ab814cd11c70b99ecdf7902cd0c5b6efbc9b3f364dd5fb30ecf6",
+    "odia-dhaga-book.pdf": "f8f46a62b00c29844015643abc04e3d30bf4dac15d72262053fe2cf84b0d628b",
+    "packing-report.json": "7d6d222db82678235f030162a349a52bbf4d9ba39f7b169aeb976bf89eec2e01",
+    "reader.html": "c210441b3ddb73721c26824d4f79f9781daad8559b8d2e43847bb269fe64a8bf",
+    "requirements-print.txt": "6dd9a6f9bac0fa86ffd2838e5d33985e6f30de2e903b7dc7ed67cea85032464e",
+    "research-design.json": "5507f02f37313d6208cb4ec0a09af62fe506e248dc2cbb8cabf4ada02cce9342",
+    "sayings/POD-DHAGA-001.html": "db09f054b28c612620623e5d8c38f5514d754818b86b542eeac76dce326456f3",
+    "sayings/POD-DHAGA-002.html": "bdbef2eb483e93573aded5f09974580d837f7b9fc1b4823089f454fb3bd9f590",
+    "sayings/POD-DHAGA-003.html": "dce5e1bb0c86bf9a230164991b80fe1971e5bbd61807e913903750e5812504c0",
+    "sayings/POD-DHAGA-004.html": "0e7fadbaa57412bacd3f1724b3a1e8d239f8b620235372fe177796be67a9471a",
+    "sayings/POD-DHAGA-005.html": "c75d7e2b8b8916a9a0bd50b9d33ddaf570c3a718cdd5e35f8bb1258f49663e94",
+    "sayings/POD-DHAGA-006.html": "0bc60340bdd712b23e10c9586409d98f230f1eca29221886971bb45e5d571c98",
+    "sayings/POD-DHAGA-007.html": "cca6440cc2c78ab025a3a9369b0c50b6036dc243d163000b9cb6ee204f124c21",
+    "sayings/POD-DHAGA-008.html": "2508a3e6d78a593603c468840f347d1dca960baefdbb7a980db2868d2fc7d895",
+    "sayings/POD-DHAGA-009.html": "e82287a5630c6f6cf6e7e4fc0fed173a659a70a0be408eed09cd76a41e8d5933",
+    "sayings/POD-DHAGA-010.html": "72df7ba3ecb8852392e3c3378fa5e7428ce2edd2aacec31ed994109c27537d97",
+    "sayings/POD-DHAGA-011.html": "31bbe8d4be634a84003953dc3d38fa8832ac578c90383ccb7b01037ba74893c9",
+    "sayings/POD-DHAGA-012.html": "52af1574767e8f78118c15e1f8795ef7ec5915079b30d3903ddad7d14f9d32d0",
+    "sayings/POD-DHAGA-013.html": "b53dccdab6e2aaf61ac3cb1b8dc86e1e03becdedd14bd4008a87266234747ddb",
+    "sayings/POD-DHAGA-014.html": "176587a6eb43458542f480508619e70608175cb1f430bf419758b82b5d48c1a3",
+    "sayings/POD-DHAGA-015.html": "7f4242ae9493f4746d05df479acf0195ad8475751499ea48cc6e90c24e85cbfb",
+    "sayings/POD-DHAGA-016.html": "4abf450cd4261a97856db179ddf2dd3d06dbf924afa368ceb88c5eeb26defa51",
+    "sayings/POD-DHAGA-017.html": "d0e2498853f34cdf538e1fad7caef75fcf9e5c0998a35bf023f19c9107fa0730",
+    "sayings/POD-DHAGA-018.html": "3aceb5f47b926c7612fd2b7f8943353d2bee6fa88fee517b399492795676f935",
+    "sayings/POD-DHAGA-019.html": "c6d068d0dbdc3d0eee6a3d421787468370cebe01c1dc81c104e44f3677186273",
+    "sayings/POD-DHAGA-020.html": "dfaca4f0f8f6e9632d08c74e3918d68b1b9738d12076bd8cd3fa3f5719aad2a9",
+    "sayings/POD-DHAGA-021.html": "c1a55f0a9a1494686261c4552b32bb22064b0aeb8361c5f8840b12101834771c",
+    "sayings/POD-DHAGA-022.html": "1fddce0d6cb3b5f1ef056835cc56d1e67e1440ace57c1e165ab80b9615118fd1",
+    "sayings/POD-DHAGA-023.html": "de358f2010bf7e5ecf6ebdf47abf77a3b745141b55b537574d6cd9d30a064530",
+    "sayings/POD-DHAGA-024.html": "86109acd229c4472e48d1bc0078e11a45a1a44ca3ee6401b6a4954d73f30e535",
+    "sayings/POD-DHAGA-025.html": "1aae13c19b3446dc96a8a1950abe61085331f2c56eb320ab5f5f41d9da90798a",
+    "sayings/POD-DHAGA-026.html": "a2ea5a06cddb38843a1ffac10752ba05a778c4f67e03b12b00dddaa52633856f",
+    "sayings/POD-DHAGA-027.html": "0f72e4482726365d929e0dcb8ab3be71984790c148140c55361ea210c798d1b9",
+    "sayings/POD-DHAGA-028.html": "e72a5f1bafb4c7d4abc5ddfcda4e1a16322894c952a3827c560315641234250c",
+    "sayings/POD-DHAGA-029.html": "c162f88a17ac0b1ca6e7bbdce575022dde1cf2901c95ed2476b23a2f52aeebd7",
+    "sayings/POD-DHAGA-030.html": "590bc244eec41d07736fbb738a9f06266149e4d95db698205672a3f1559cffa4",
+    "sayings/POD-DHAGA-031.html": "e86a4eda49652c5f8aca935e81eab4c1420275ecdb730deb470c3d5de4002e96",
+    "sayings/POD-DHAGA-032.html": "2cb86a2b896b05d5b2185ad8754aeab77e936ac30a56ad5afcbb10b34565d601",
+    "sayings/POD-DHAGA-033.html": "2e2e7d17a4659502d8413267795cf53fb4ce1fbc84e76fa18ecc15a30c617076",
+    "sayings/POD-DHAGA-034.html": "4db6df01f0855df1161db2bd6a8d7da1d0d6197a726dca08d8ba735d0bb07bc2",
+    "sayings/POD-DHAGA-035.html": "5f775deee453bb44564dedabbaac6f2c6d803a05b6834d91491f3701d2e98332",
+    "sayings/POD-DHAGA-036.html": "b538c871b5480fe0e74490b31f2eeeea3bde45608db7a07a8d945898d1d84a72",
+    "sayings/POD-DHAGA-037.html": "28ac12735239510d9960f524925e5f391868689cd5ba080e4a7ef805a61ddf17",
+    "sayings/POD-DHAGA-038.html": "e9ad129e1d96c9a055823bc3e1f5586055f89b86e2d39beac6847b86a1432daf",
+    "sayings/POD-DHAGA-039.html": "110323fda70d54f0ce0dfa893a0b05dcdfde936d8205572df5aa7ddebf6920ca",
+    "sayings/POD-DHAGA-040.html": "478c32f8fe580db60d19ed72abccfea783c998829041a90acc2219ba79a2a9e7",
+    "sayings/POD-DHAGA-041.html": "eb57939747ebc0c124c126d09b7884fc0bfe7d83e6547caa50d5e03b15969a79",
+    "sayings/POD-DHAGA-042.html": "4fdfd0edab23dc343a4321a7689015ed93e93199e309d41cd0f2f7201e8c2c6d",
+    "sayings/POD-DHAGA-043.html": "a1f86726d79e3dc19fab771fcb58c6ab8acf193c8cb19b2cc6c8deba68f1ec00",
+    "sayings/POD-DHAGA-044.html": "d6fba35fb8ef3a5d093da7113d684fb30410e3ee9b97593262afd6638b0b1585",
+    "sayings/POD-DHAGA-045.html": "f2544f5aee0ee3403290a70878a1b50e4af44b57fe3e4a0427935dd95e8d9007",
+    "sayings/POD-DHAGA-046.html": "95894554f1e2443ad52818ac78dd46a8fce07d29624c0514f4085b1901b4ad28",
+    "sayings/POD-DHAGA-047.html": "8cd8c2d89df458116c5ba0dc800e2802d57f981a47e1e9a1f18d8897bac58421",
+    "sayings/POD-DHAGA-048.html": "affc16cc65200a4a28287139b897ac762fb9442f3ac0c990cdaae9dbde93082f",
+    "sayings/POD-DHAGA-049.html": "455d2987513fdd1f603e5b86149645bd61b244bea5525454fddc5cc741e645a9",
+    "sayings/POD-DHAGA-050.html": "6ef6a709eff99cca6fa7976c6667f19229ddfd66ae323376273726eb4f29785d",
+    "sayings/POD-DHAGA-051.html": "c4e76b1ecbbad61672a5dabe5b3487a2eaa55b261c3b7b7564734fb71713b26d",
+    "sayings/POD-DHAGA-052.html": "6ab0cb7b97baf52b933d0fe67ba4883bb5a34467040e6a8be26a016ce5dbd3c3",
+    "sayings/POD-DHAGA-053.html": "ce0471b9942ec335052cd90db847916bd18ac81649fc484d5d6f315d24ddb1bd",
+    "sayings/POD-DHAGA-054.html": "89b012cce2948aa1f0995f1fde87cc857b172eca3b6b3bb3b2116fbb4b142cc2",
+    "sayings/POD-DHAGA-055.html": "e8848f057072f8a1215385cd53e296004f25b1417c4ec02592916a4bd717762f",
+    "sayings/POD-DHAGA-056.html": "166f65262e9528d302700ad4edbef8a97a7df98d340bf4b6b087bd93c43454ab",
+    "sayings/POD-DHAGA-057.html": "17cb52ed0d7521b80dbbcb10cc4f8cafc8cabbc819e90ee18a8c74cd68015ef0",
+    "sayings/POD-DHAGA-058.html": "d4e09c97f85920f1b1dbf0e17b14a5e68122eaef393f0d62fcf32c371511591f",
+    "sayings/POD-DHAGA-059.html": "ebe4858153611e00d9faefde10b8981b696b0b223745d892d9ff9f147accadad",
+    "sayings/POD-DHAGA-060.html": "45933b28b4907b75cc7e4b3cd760ab653bce918b80c3f069143c7233c13f54b1",
+    "sayings/POD-DHAGA-061.html": "1bb88adf665734c0b9333e9144f4213d3c5f63fcf4be8253b2dc383c4986b183",
+    "sayings/POD-DHAGA-062.html": "c40bffb06b9b78d677551d86f245c65e0644f59797935c9b4b43b4c11d57cbc1",
+    "sayings/POD-DHAGA-063.html": "512e94eff9bbf82bd41671a19638de0c381dbde7ccff576c2cb806024fda0b65",
+    "sayings/POD-DHAGA-064.html": "54f3b8e738f92c45d63281168a4812d3307789e2b8b7882f038c4120a03b9492",
+    "sayings/POD-DHAGA-065.html": "f7fd65d789b0417564f1807575c35dace11a6c8c420893d5724003435b852c33",
+    "sayings/POD-DHAGA-066.html": "2eb3a99f7f3458043855593e2af910cfaaf61ce67bdbb6d50f4398f63386b932",
+    "sayings/POD-DHAGA-067.html": "e7f6a861919fbab867a3f717ed1efe7a2a10d562f6dffd38c583579efacd5513",
+    "sayings/POD-DHAGA-068.html": "395547be8721000c49ed6037489fafd077b09498ffbcf19add25ad7ed35b8839",
+    "sayings/POD-DHAGA-069.html": "b2033d18b2ce19b16f21df35986cf02031e8dd742ac5062e13935ce9d11e7f2f",
+    "sayings/POD-DHAGA-070.html": "6b7919a6e95ee11e94583c6eacc49cfc271251f35709dffcbfa8d16b0f3b13a8",
+    "sayings/POD-DHAGA-071.html": "5b442b57a5e45b1ae879ab07aa4c9a1ade8b7b8cee5168929cdb9f781ba6b364",
+    "sayings/POD-DHAGA-072.html": "3272d6c212abefbc0fd53d53cca9177128c2d15bb86a965992bd9e4682b1c060",
+    "sayings/POD-DHAGA-073.html": "f104968ecbde762c692748602673c6203ecd0bd18432225887af6887d0e82537",
+    "sayings/POD-DHAGA-074.html": "7141c486af3b7ca5ae06fd9ff351e1d34dfeff94f02e7f0cc86bcb6a11f49282",
+    "sayings/POD-DHAGA-075.html": "f89b801ca1fc66bbb45b684d1bac543545f439ab9173252955e4ae1bb36e887b",
+    "sayings/POD-DHAGA-076.html": "92937327f17d082c3fe24308c4fa7e65bacaf437025003f71c3ab602633f598e",
+    "sayings/POD-DHAGA-077.html": "dffea70097cede66c697d0a7623041ab6ad160854e8eeb1326c2ce07897829f1",
+    "sayings/POD-DHAGA-078.html": "274b592ccb73f6085f0e7de0921cd55ea42a20c9e367f95b7b3a790a133ac526",
+    "sayings/POD-DHAGA-079.html": "39c059e43ba089f406970be2222fb9387f22b43d8c430265049154812459b269",
+    "sayings/POD-DHAGA-080.html": "80f13d5cdc5e84b103977c45de87e274c374600a9fd86875dcaa45f5716a0138",
+    "sayings/POD-DHAGA-081.html": "0f84d1a80458b7d8d04c7f6ba39cd11f41605844101a90919d4202cb2706309a",
+    "sayings/POD-DHAGA-082.html": "aa163a8a493ad34d371da9ccb96edbc4b3fd5d2ed7e0c11e51f2cbc59c0375c9",
+    "sayings/POD-DHAGA-083.html": "089cf4f2b9f043311becd27dbbd14fdf03a706374ad1d3c5ded88619432bc12a",
+    "sayings/POD-DHAGA-084.html": "3b7b432e7b0ac663ab0bcef200664a835f013584aa4efcaaecd0f240f5e9b1b0",
+    "sayings/POD-DHAGA-085.html": "d46da5df434654d16cce98fac5d6c2a2dcfeb7b8f6968a41066d6be117391b9a",
+    "sayings/POD-DHAGA-086.html": "cb3a5b971c7887a70e7dab5a86d0976b53f12260a2b94a2340dd71811b6c4853",
+    "sayings/POD-DHAGA-087.html": "d402d3947951fe112f0bf05189fe86d2248e7e04441884902e3fdfcb64987eb5",
+    "sayings/POD-DHAGA-088.html": "c3729f82b576d47e761f6eca75017180417e86aa9fc02eaf516715443ee9662b",
+    "sayings/POD-DHAGA-089.html": "b36db0e24bbc1747aaf22ef9906806e609a46002c9f9ecf2958ab3f82b653096",
+    "sayings/POD-DHAGA-090.html": "908bbb1bf14b93f69f9cc95e7f6dfe2153de3937e394ed70d3fc9e2a98202dc2",
+    "sayings/POD-DHAGA-091.html": "a255419a55266473f79eadf3ed1635c5b854efaffb5fb3357b8e806c88eb265c",
+    "sayings/POD-DHAGA-092.html": "1af33c219aa185ed3d1f35bf8dd2ecb5d64e73f4ff252625e988a96e4bc0c069",
+    "sayings/POD-DHAGA-093.html": "36c19263965afb9a26b002a3584f13dfa63cf7a5df2c1c87b22f6a28005fd066",
+    "sayings/POD-DHAGA-094.html": "583b5961f2af7ce806c274c8c1cda0dcde6c914e1c4ce0d15077562c9d0a94c7",
+    "sayings/POD-DHAGA-095.html": "855baf94907e261b3a42d623def0727c2fb8db09322075bab0e0ec8536e707cf",
+    "sayings/POD-DHAGA-096.html": "a5dd0254296452e8ec3b7c6c35a986f8090443dc8f74c2e94e8b970c2b09526b",
+    "sayings/POD-DHAGA-097.html": "a38dba15c8f9c64680ba150a041fb5d26ae3f47de1ebfc579501b06c877e816e",
+    "sayings/POD-DHAGA-098.html": "c321779df2e0d20ebb3f9efbb163e52f9e7cd6704898c7a325f3b2fe836bce47",
+    "sayings/POD-DHAGA-099.html": "307ca2e605eeddf78339dd5e11069e2a8a6f6b3ac96d283448a15e39609cc7f7",
+    "sayings/POD-DHAGA-100.html": "69dd21154f7c3bc8918ef5fedab721250839256ed7938fed065a624098996239",
+    "sayings/POD-DHAGA-101.html": "e6d613439335e4d2a32f5b07cc539128a08c7d7bda304822ac8ca495b7b6dd18",
+    "sayings/POD-DHAGA-102.html": "0d65d60532e12cfe604a2aa3e2e3204a94394875c61351dc07ed0e24a1904a1b",
+    "sayings/POD-DHAGA-103.html": "db61675114298ef6bfee345a5046dc794948ed51577ccd2ffe0585acba9fdfdc",
+    "sayings/POD-DHAGA-104.html": "a70e0ee7af4d4f922242996fa29c7d50f48df05d28dddd5f17a04a11d720c6f7",
+    "sayings/POD-DHAGA-105.html": "6486c34d33e3d024becadaf3cb55167f7dd2b0119e9ffb6ad6bccb34546f9998",
+    "sayings/POD-DHAGA-106.html": "3f1a7a88f03d2168c666b0c6bc994b8688ff6a1080cb79d168bd68ad33cd0188",
+    "sayings/POD-DHAGA-107.html": "a888f2db725b1bff6a78e36ef3cf6e9ae409a7711c208652dd1db319fb2e984a",
+    "sayings/POD-DHAGA-108.html": "a5e7fe1cb11a7a8412d38f18e53603c24ef05156de1fa154f68620903c4f39b0",
+    "sayings/POD-DHAGA-109.html": "e0f0885b5830656b42c10faf90d2965f8eebd4e5f80b8f60137b9677e9f5b435",
+    "sayings/POD-DHAGA-110.html": "71bd53c39c5ea9318c08e3e8dd5ec08c8b7c5b4aed85dff184714812a837a311",
+    "sayings/POD-DHAGA-111.html": "729ab6f43cbb45e0a9dd4582dedd829d5afab8c85bfdc7ebb2599264d8c2480b",
+    "sayings/POD-DHAGA-112.html": "5203fe8fc3b28c6f264fc23caabf8728fd6761322b4a3c23b1035a9f24c98aef",
+    "sayings/POD-DHAGA-113.html": "94ac77da39eb27555ebc9bcce82517f2b0f1f6c6ffc0c909ff930fc4539ae0b2",
+    "sayings/POD-DHAGA-114.html": "dcc0fa0c0da4320f21b0eea30d061544b133c56e00f146798813c11bb496ab53",
+    "sayings/POD-DHAGA-115.html": "d3f304860055bf30a327ef318b7b842f57c547ce1076d365432b9695155b9a26",
+    "sayings/POD-DHAGA-116.html": "83ca8bb28498dc18a55f2a2e36bcf5a41ab0a53581338493fbda10fd96cb3d8c",
+    "sayings/POD-DHAGA-117.html": "7ca067449451c311baedb1ccc297d43335d0a689814c2d7782413fcbf758603f",
+    "sayings/POD-DHAGA-118.html": "6774f6179a4723b1c15b80011690827928cb5bd492c4a3d33a0193f2411e5edf",
+    "sayings/POD-DHAGA-119.html": "5e81cc971cbc897be69b30f259894e6a9c5600910f0dfe5fe26b8cd86bceccd5",
+    "sayings/POD-DHAGA-120.html": "b851c34c7aaa9e0d32bfbb5bf1b320f246b17fe64fdeeb2ae1f8fd15c530d8cb",
+    "sayings/POD-DHAGA-121.html": "3315f714830a9d71b3181e68493e7bc0a853ebd30720c7120a67f7f81c7f390f",
+    "sayings/POD-DHAGA-122.html": "41e4c5965690a14a04ea813284ae20e5e208516a7a9fd93c1a1d1cbb7c98ca3b",
+    "sayings/POD-DHAGA-123.html": "69a6d05d80bcc7321b4346badfee1b5f44731c8e9efca93c7f8e9b5efdbe4c28",
+    "sayings/POD-DHAGA-124.html": "d708735188ab515ea9ad098a38c45d13f920cb74fa8754e4603fbe8c747105df",
+    "sayings/POD-DHAGA-125.html": "b8bf41cf893c53ef36f915ea13f2322d3dc3f8815a6f3ffce5e3d4fe3bf90064",
+    "sayings/POD-DHAGA-126.html": "a8ba9654d4428eb543cf81b178cb1f2bf31745d4505b10804a78897bc6a47d8a",
+    "sayings/POD-DHAGA-127.html": "9cfc00c85d9ca8a97bf470c238740d25e8033dc855230fa5d3568bf728b6f2d9",
+    "sayings/POD-DHAGA-128.html": "f22df6ae74445398facc7b5640f9fd848625ac4931eed5849ee426eb2c5da7ab",
+    "sayings/POD-DHAGA-129.html": "dbbc37107936beadc207dd82c34addf2af8066dad39cca321c578f807e43d3c3",
+    "sayings/POD-DHAGA-130.html": "abb2329be2aff09b2d1439038cd9a63ba2227a533a314deeb40004bde2c7a5f4",
+    "sayings/POD-DHAGA-131.html": "6f70be54e1a1125506854c92d2943b3caca60fddf93fd3ca8389a0ea1b58c35d",
+    "sayings/POD-DHAGA-132.html": "6531e51f101638bf63424e4cfd914ffdb77daf8300bf86f2c17c0acf9eb71343",
+    "sayings/POD-DHAGA-133.html": "145b357c1b242d0054d36a9ec719e2603498dea0469c8ab01308b3a399ab3e04",
+    "sayings/POD-DHAGA-134.html": "923378edfc38659f0f70f63628f6a9f8373c6580c3321ad4791553dbec2640c1",
+    "sayings/POD-DHAGA-135.html": "1d1ac470685a5366d1c4921d7c35c30e83eab0626a2eb4432ae53dadda8c2612",
+    "sayings/POD-DHAGA-136.html": "6aacb28dabf0ccec9ec78ca49a2ded46faf9f1d667ed5acc2f7593578b5b2a8f",
+    "sayings/POD-DHAGA-137.html": "80058081fe82df58df013a306e56d5ae5f9c270d9fdc4da99f9177ae0c187a2b",
+    "sayings/POD-DHAGA-138.html": "6717ea0c86589aa2a85c5b99319a0d97f13faf640982a9b7098db3917d79dc90",
+    "sayings/POD-DHAGA-139.html": "c46f79ea0ba278ad03037ba22ca0c0b1b2f16fab321bf5041929f67a0de11114",
+    "sayings/POD-DHAGA-140.html": "be98f0bc4e6333d12817c4a2c325248fc1a3360deb20accbf5ec7b3efa73be28",
+    "sayings/POD-DHAGA-141.html": "f6279428d59754dfac2c6343660d3d1f2063f1e9abc27cec0ced927ceb1bc2c5",
+    "sayings/POD-DHAGA-142.html": "b4c3e9c3eebb7a75b1c24d4030f6b32ace63f6d2e38673f70b6f101db6d09185",
+    "sayings/POD-DHAGA-143.html": "66deb1c9d22794261a4ba2e5ebb46b07b7b30c8b677d50b6dcbc17ba3b75b8c0",
+    "sayings/POD-DHAGA-144.html": "7dc3a59a1b973a97a2e4c265f29dce742aaf185ef2e65c36d18ae1a8ae113a98",
+    "sayings/POD-DHAGA-145.html": "212b3077f107c1b5a1632037b59aacc1fd7916b6a7081edcdf9ab0fad859ffbc",
+    "sayings/POD-DHAGA-146.html": "f33f372c2e52a678710c8e6ee1fd845967abd348fcf923203722534835b7f454",
+    "sayings/POD-DHAGA-147.html": "fccad4b8b8e5ae04d501320afff825dc0dbad05d9715a7ef1fd3628237293880",
+    "sayings/POD-DHAGA-148.html": "228d29b7cc64f47147b26a5a7bb8103bd1825d4c0aea9bd5a3dbd6aeea951e22",
+    "sayings/POD-DHAGA-149.html": "f30aad7f6738626f51d43335b1405d3e803b7f078cc13599a69854167f46d58a",
+    "sayings/POD-DHAGA-150.html": "ef746e6c15143ddb026b4836124fa8e30a8d52e86ed9cfa470ae12dcae4bab7a",
+    "sayings/POD-DHAGA-151.html": "3f9eb1482483e9b8b8b61d147665b57dc55b3c34757d6625d419518c52b37af0",
+    "sayings/POD-DHAGA-152.html": "15f880bf3d17ea9ca44b34e03e1f7a45eb29073118a22aa3d956d7f89627b44d",
+    "sayings/POD-DHAGA-153.html": "f0a037ce22d46a430fcbb4af956fa9a74dfa4b4d2c45f0ed4bbc74c6c4613a5e",
+    "sayings/POD-DHAGA-154.html": "00d420dc57e3c45a71479560fbaab65fe3ad2ecd599a4e6a5b28e903d8d43c01",
+    "sayings/POD-DHAGA-155.html": "797c1599c75248118b13b28fd2d83033c1214a09c27b8cddb22e77a1b6b38341",
+    "sayings/POD-DHAGA-156.html": "ec4d83d1dbb40b64dd433864b3f88d7b6dac046997ddaf5682c900058064e98f",
+    "sayings/POD-DHAGA-157.html": "7035ad0e20fd7ce17e6af8d074c6c0804bf9284b2bb3d94c3f1d1a7eeb492abd",
+    "sayings/POD-DHAGA-158.html": "a5fb9341beefe3c87128d8963aa91322224144b0768e44b18c42dadd3620421d",
+    "sayings/POD-DHAGA-159.html": "956e1a547046b470bcb5e1873b75ba379108cb44a70af9a73abf7162564ce411",
+    "sayings/POD-DHAGA-160.html": "cd755b5ad4c6516e4a1c699de7931a71bd499a8c7b4346a64ecb0ee83bac536f",
+    "sayings/POD-DHAGA-161.html": "7b04cb4db923fbd344c187a8585dc6015ab02dd33c3cb65a8d05cd087af36e15",
+    "sayings/POD-DHAGA-162.html": "9569b7c607a2cc90e06ecc0fd65fcbfb08114b243f0541a4505b3026d4023d46",
+    "sayings/POD-DHAGA-163.html": "a157bbd429a285794d0579093fd1bcab2b25139018a218bf23623aeea2ba5dd6",
+    "sayings/POD-DHAGA-164.html": "9ee4cc8e5f443476cf9dbb659f897201d16103c6f0ad29e136136e93d40ccd72",
+    "sayings/POD-DHAGA-165.html": "81617435123cc5da23632978447a5fd0e208be4fa95ce478ca6e250ed4c71b60",
+    "sayings/POD-DHAGA-166.html": "f727ac11f2c40f018433a255728d24aa7ebf47fa1472b80760c1e0b788dc5c05",
+    "sayings/POD-DHAGA-167.html": "c07177156c79d9140303ae03c4f9f5132d324af281fb834bca7d889409b0fbd2",
+    "sayings/POD-DHAGA-168.html": "38e48f28456822e4d7167cf6268070b76365232779c89563e192f6ead1a32678",
+    "sayings/POD-DHAGA-169.html": "88ce9d0b93c377a2b67ea4598d2c055b9915200d8fe9745685cc1c46dd58f359",
+    "sayings/POD-DHAGA-170.html": "ec4752fd32c035deb7e93a97fe20d54ca8d67b582f2c7238854523faeab94a72",
+    "sayings/POD-DHAGA-171.html": "7e3af8938271b77f39bdd06d60352154059707869796d1f953b58bd5fa5a5a0f",
+    "sayings/POD-DHAGA-172.html": "184d25d30a33fc16d1fb0ee1817eadf197fd917865f81481d95a7688326890bf",
+    "sayings/POD-DHAGA-173.html": "b9aeda1c887f4e9c187a1665f5ac88cbeaecb6e3e2fb37c4a55bbc89906c66fb",
+    "sayings/POD-DHAGA-174.html": "eb35b3f7a6dbf467e4687158eabcd23f7b32f9ddb2dfc045523c6e5a7f366ceb",
+    "sayings/POD-DHAGA-175.html": "8c3a713b6d90bc8b6d035721955f1ed557c4a78cfee774be8c83b4492c3e3740",
+    "sayings/POD-DHAGA-176.html": "7a207e51712ff9ff41c308c3a3828d84c5700699478f9cb41e9c2170cf33f28b",
+    "sayings/POD-DHAGA-177.html": "5bc04eaa26f850b69519088cc01e0c449bd705b60c929177f3f686ca5b76fa06",
+    "sayings/POD-DHAGA-178.html": "8eda17af0d877f5161a3fae11f88bf48826a067122b5506485b130c4c47a932d",
+    "sayings/POD-DHAGA-179.html": "c27524b7ee22e716649fff4b66b329cdde377bd1ff73ac3fb950a7f6c9b3ac4d",
+    "sayings/POD-DHAGA-180.html": "d573d6ada74afcc5b045226144c9df0ec3dd435740b74edfb9270d73b6fddffa",
+    "sayings/POD-DHAGA-181.html": "f7f1394312fa86cf007f94e6b42988f437a75613ef8cf65fb876d8ae5c3637f4",
+    "sayings/POD-DHAGA-182.html": "f30cd3de8263ba0c18de5a3dbc7010be08b75984792840707669b7035973f774",
+    "sayings/POD-DHAGA-183.html": "8c7f3a5caee8b2db2353ca884061557b8d613f5f91f723088c8315fcb2832d7a",
+    "sayings/POD-DHAGA-184.html": "e1c6395fea31f99f3376a9960449570071e0bbc382b5b14b4a60c2011ab39792",
+    "sayings/POD-DHAGA-185.html": "d33c1b40114328c11497a6e73cef4076e049f0a0078401e4e2574a821ed87d46",
+    "sayings/POD-DHAGA-186.html": "4bb8ebdcbc13cca1b6d8291b098e24225e882beea0f5387762505f0541b6cf27",
+    "sayings/POD-DHAGA-187.html": "c904f8279ee008edfb2c2e53d6e511e4f749893f32daf0581f20b66019028248",
+    "sayings/POD-DHAGA-188.html": "14490035a48b0de20d8f7f365fc6437018b4f7722c56b607b53af004cb123dba",
+    "sayings/POD-DHAGA-189.html": "fc06799ec5ebfdd16b294720c48fae57c5ab040828b5aa26a8adb16672e7af1d",
+    "sayings/POD-DHAGA-190.html": "54d687a5002e03e5d6069113acd3c659955d2a2202a135a92cc0625a2004b8cd",
+    "sayings/POD-DHAGA-191.html": "797a142e4b82baac255d461ddfa034001f7055c62cac31183648197b10982a1f",
+    "sayings/POD-DHAGA-192.html": "fb867a1ded40a72ebd26add0326006b638ee37e624313c0f1d2ffd18dc21ea7b",
+    "sayings/POD-DHAGA-193.html": "3b4905658e294fa1aaac373850e6c66c98d5ee793dcbaf392f5621d1420d588c",
+    "sayings/POD-DHAGA-194.html": "54e8e38c5af25ab5e045600bc6975b0d3362e9b9014f80e575a818870a68866e",
+    "sayings/POD-DHAGA-195.html": "90f14bc209a6ecdbce62f0eb588b5733fb46626afa0e32cc3f90b184ea74fa8c",
+    "sayings/POD-DHAGA-196.html": "9dd4e845911b5a42bf378ffd18d351611a9f73d3f9d5aa8f39c4f30d98405dd7",
+    "sayings/POD-DHAGA-197.html": "c04fbed3b460bc1d2341bc829ef1a7f291136c11a23a29807f1e3c1c7c1f43c8",
+    "sayings/POD-DHAGA-198.html": "056b02a863d1d57f9d7290553401665b3fe9a3f483b943d6040ea18278c70484",
+    "sayings/POD-DHAGA-199.html": "0201824204fa8227f00b73298a30a215cd242c0f9874a956bda0076f9d351563",
+    "sayings/POD-DHAGA-200.html": "75c9551a9c2bb4055ff53f56b3ae4b38f3194e0f68af62996e53cc800143d1c7",
+    "sayings/POD-DHAGA-201.html": "750d99083fbcba3481bd98c3241b10d0464d9781298258765d0669c91d1c3b67",
+    "sayings/POD-DHAGA-202.html": "aa83c5fcfd0278c11c2ca9b601e7b1cd6d4793c40da275b9aa57e12a974e7cc4",
+    "sayings/POD-DHAGA-203.html": "8598bfaf5b068dfdd4bea991458a4d42160bc50401f43861c98e418a42f04061",
+    "sayings/POD-DHAGA-204.html": "4cd83bdfb6dddf9c2b8a7161c21a388472eaeaf40eecd4fa66ad93ec15d36ad7",
+    "sayings/POD-DHAGA-205.html": "2edcc49816ee2e60325038037004bfcdfa5b89c6545124674e9ebfe1a1e3e5b8",
+    "sayings/POD-DHAGA-206.html": "edb69dfb516fea1c760e681096ee5739ebca89dc5b648bdb2d7ef4b1bb641827",
+    "sayings/POD-DHAGA-207.html": "55d1f5d8beb64d37ab56e3114af31eb007b15a884e320f6ebb08be2f43d42863",
+    "sayings/POD-DHAGA-208.html": "493f4786ce27fae340e0586ea57a799ef708d3664536af842ecfb4ae4494a6b0",
+    "sayings/POD-DHAGA-209.html": "a82ba413e16ed92d0f6b384981eabe8cc40469542816a42b2bdbb5e7100804ee",
+    "sayings/POD-DHAGA-210.html": "bbc06e710150d873bca135fc445f39d2c34624ffbf6a4887b97dfbb9672b550d",
+    "sayings/POD-DHAGA-211.html": "493057abac06fec7822985a5ad9965c913b8266df89a05cb5bce30cf2aa81ce3",
+    "sayings/POD-DHAGA-212.html": "c80cdc495fc17c6d92b17775eba714836c42d3a93f7507d9ec5cf47dee6e9bd7",
+    "sayings/POD-DHAGA-213.html": "ddd11b48f04d9cc1aed4675a28ddf9baca9c896e391ceaba355cfd5a4f574de1",
+    "sayings/POD-DHAGA-214.html": "f81ecdde6bac9a847c703c7794f2459767d8449f087574cde7767ea28c8ccce8",
+    "source127.html": "9f462a9e655967d72bd1e37139e599b3751955a0d81cb1d2c58974de86c606a1",
+    "source127.json": "a42103497e3eae259dd660e94eac30a5f306f3a1111947bc6825e5c7d7037e18",
+    "test_print_layout.py": "9b5bd4841d6276e6821a7380543f7a75625ebaf81e29a4e33bdaccc605b47f13",
+    "test_repository.py": "31e09c462bba7d10ad5b314c5fa34d5fb5cde34422e1422017bf248eca1a3533",
+    "test_source_inventory.py": "974ac518eab28e419407e0a33cd0bc0a77a353e14408a16733cbc6e06c839de5",
+    "test_transcription.py": "c6db2e6dd8ff55ead44a85338097f47bc6b92d1f7cca6c5e2f15adcccbbca351",
+    "validate_transcription.py": "ee182213a67b8cf1bb6173e96134f145b0ebd165506d3a841ab809228789d048"
+  }
+}

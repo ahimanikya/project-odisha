@@ -4,7 +4,7 @@ A source-led repository of Odia sayings: what the words picture, what people mea
 
 Open **[index.html](index.html)** in a browser. Search in Odia or English, filter by theme, read the original wording and explanations, and follow each witness to its source. The collection works offline; source links require internet. The portable research data is **[collection.json](collection.json)**.
 
-The current collection contains **211 explained sayings and idioms, each illustrated, and 99 source records**. It is a bounded seed, not a complete anthology. Three sayings have located nineteenth-century versions; provisional historical readings are labelled. The remaining entries are grounded in identified contemporary digital witnesses while historical comparison remains open. Odia explanations are editorial drafts, not a substitute for an experienced human language editor.
+The current collection contains **214 explained sayings and idioms, each illustrated, and 103 source records**. It is a bounded seed, not a complete anthology. Three sayings have located nineteenth-century versions; provisional historical readings are labelled. The remaining entries are grounded in identified contemporary digital witnesses while historical comparison remains open. Odia explanations are editorial drafts, not a substitute for an experienced human language editor.
 
 ## What we found
 
@@ -105,7 +105,7 @@ Entries092–108 add17 independently AI-reviewed records beyond the canonical91:
 
 ## Book source files and building
 
-Edit one saying in `entries/POD-DHAGA-NNN.json`. These211 individual files are the narrative source, including each bilingual summary and optional illustration. Edit `collection-metadata.json` for sources, collection rights and the bilingual book introduction. `research-design.json` supplies the complete thematic chapter map. The original bilingual-summary research file is provenance only; the build reads the summaries from each entry.
+Edit one saying in `entries/POD-DHAGA-NNN.json`. These214 individual files are the narrative source, including each bilingual summary and optional illustration. Edit `collection-metadata.json` for sources, collection rights and the bilingual book introduction. `research-design.json` supplies the complete thematic chapter map. The original bilingual-summary research file is provenance only; the build reads the summaries from each entry.
 
 Run `python3 build.py` in this folder. It reads the entry folder by default and regenerates `collection.json` (derived compatibility/export data; do not edit), `index.html` (bilingual contents article), `reader.html` (stable hash entry point) and `sayings/POD-DHAGA-NNN.html` (one complete saying per static page). All reading pages and previous/next navigation work without JavaScript; index search needs JavaScript. Print the contents article for every bilingual short reading, or an individual page for its full reading and sources. Run `python3 -m unittest test_repository test_source_inventory` to check the source folder, generated pages, navigation, rights references and offline assets. No source facsimiles are bundled.
 
@@ -158,3 +158,7 @@ One separately reviewed candidate adds a contextual literary citation without tr
 ## 30 October 2026 · Local 211-entry trial
 
 Nine separately reviewed dictionary analogies join the reviewed202 local edition. The illustrated trial contains211 readings,99 source records and122 PDF pages. The digital213323 source is registered once; printed4856 is verification from the same dictionary lineage, not independent oral evidence. Readings204 and206 use measured full-width exceptions to preserve prose, existing type size and artwork. All prior202 narrative and artwork files remain unchanged. The75 unresolved concordance positions and historical cursors remain unchanged. This local trial is not an acceptance or publication receipt.
+
+## 31 October 2026 · Local 214-entry trial
+
+Three separately reviewed sayings join the211 edition, retaining all prior entry text and art. Four source records include digital67652 and printed2941 as the same dictionary lineage; the digital reading remains visible beside the print-based correction. All75 unresolved concordance positions and historical cursors remain unchanged. This local trial is not a publication receipt.

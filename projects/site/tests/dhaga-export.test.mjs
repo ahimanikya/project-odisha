@@ -49,3 +49,13 @@ test('new dictionary readings retain full bilingual explanations and context-onl
  const h=read('sayings/pod-dhaga-202.html');assert.ok(h.includes(esc(context.note)));
  assert.ok(read('sources.html').includes(esc(data.sources.find(s=>s.id===context.source_id).url)));
 });
+
+test('flower reading preserves separate corrected print and digital witnesses',()=>{
+ const entry=data.entries.find(e=>e.id==='POD-DHAGA-214');
+ const digital=entry.witnesses.find(w=>w.source_id==='dhaga-wiktionary-67652');
+ const print=entry.witnesses.find(w=>w.source_id==='dhaga-praharaj-jahniphula-2941');
+ assert.notEqual(digital.wording,print.wording);assert.equal(entry.odia,print.wording);
+ const h=read('sayings/pod-dhaga-214.html');
+ for(const witness of [digital,print]){assert.ok(h.includes(esc(witness.wording)));assert.ok(h.includes(esc(witness.note)));}
+ assert.ok(h.includes('same dictionary lineage')||h.includes('Same dictionary lineage'));
+});

@@ -1,0 +1,106 @@
+{
+  "status": "PASS final three-draft technical validation; independent content/scan review remains separately owned",
+  "input_head": "d76f8232ccdd99393ff2f276c741aa335151d961",
+  "bindings": {
+    "candidates.json": "437b84be86e0abf4b52e4f8baae527bfac2518131ded8b8e172ea2d984bb0ce6",
+    "source-registry.json": "ae9de1ace8314a732cf2508b4ba6ec5fa4b35bba2494a5ef7e2d6efc1fdd7e6a",
+    "report.json": "c6651a62c58646851f34397e7be7597aea407a271143bac63b00aa371b53561b"
+  },
+  "candidate_count": 3,
+  "candidate_checks": [
+    {
+      "candidate_key": "anvesha-b11-01",
+      "schema_fields_present": true,
+      "bilingual_text_nonempty": true,
+      "original_example_label": true,
+      "lemma_matches_at_least_one_exact_witness": true,
+      "source_checks": [
+        {
+          "source_id": "dhaga-wiktionary-158575",
+          "locator": "ଦେଶଜ ବିଶେଷ୍ୟ, sense1 example immediately after Having a full meal",
+          "wording": "ଏତେ ଖାଇ ନ ପୂରିଲା ପେଟ ବିରି ଓଳିଆରେ ମାରୁଛ ହାତ",
+          "capture_hash_verified": true,
+          "digital_exact_substring": true,
+          "printed_evidence_limit": null
+        }
+      ],
+      "canonical_exact_normalized_matches": []
+    },
+    {
+      "candidate_key": "anvesha-b11-02",
+      "schema_fields_present": true,
+      "bilingual_text_nonempty": true,
+      "original_example_label": true,
+      "lemma_matches_at_least_one_exact_witness": true,
+      "source_checks": [
+        {
+          "source_id": "dhaga-wiktionary-155158",
+          "locator": "ଗ୍ରାମ୍ୟ ବିଶେଷ୍ୟ (ଲକ୍ଷଣାର୍ଥ), example after husband encouragement/promise definition",
+          "wording": "ଯେବେ ପାଇଥାଏ ଘଇତାବୁକୁ, ସଜ ହେଉଥାଏ ବାପ ଘରକୁ",
+          "capture_hash_verified": true,
+          "digital_exact_substring": true,
+          "printed_evidence_limit": null
+        }
+      ],
+      "canonical_exact_normalized_matches": []
+    },
+    {
+      "candidate_key": "anvesha-b11-03",
+      "schema_fields_present": true,
+      "bilingual_text_nonempty": true,
+      "original_example_label": true,
+      "lemma_matches_at_least_one_exact_witness": true,
+      "source_checks": [
+        {
+          "source_id": "dhaga-wiktionary-67652",
+          "locator": "Example following To be short-lived; actual digital reading retained",
+          "wording": "ଜହ୍ନିଫୁଲ ପରି ଆୟୁଷ ପା ପଞ୍ଜେ ଫୁଟି ସକାଳେ ଯା",
+          "capture_hash_verified": true,
+          "digital_exact_substring": true,
+          "printed_evidence_limit": null
+        },
+        {
+          "source_id": "dhaga-praharaj-jahniphula-2941",
+          "locator": "Printed2941 upper-right column, two-line verse under ଜହ୍ନିଫୁଲ ପରି ଆୟୁଷ ପାଇବା",
+          "wording": "ଜହ୍ନିଫୁଲ ପରି ଆୟୁଷ ପା ସଞ୍ଜେ ଫୁଟି ସକାଳେ ଯା",
+          "capture_hash_verified": true,
+          "digital_exact_substring": null,
+          "printed_evidence_limit": "Hash and metadata verified here; actual scan reading belongs to Anvesha and separate Drishti review, not claimed by this validator."
+        }
+      ],
+      "canonical_exact_normalized_matches": []
+    }
+  ],
+  "source_ids_unique": true,
+  "sources_in_candidate_bundle": [
+    "dhaga-wiktionary-155158",
+    "dhaga-wiktionary-158575",
+    "dhaga-wiktionary-67652",
+    "dhaga-praharaj-jahniphula-2941"
+  ],
+  "same_lineage": {
+    "digital": "dhaga-wiktionary-67652",
+    "print": "dhaga-praharaj-jahniphula-2941",
+    "finding": "Two representations of same dictionary lineage; not independent attestation."
+  },
+  "flower_correction": {
+    "digital": "ପଞ୍ଜେ",
+    "proposed_print_based_lemma": "ସଞ୍ଜେ",
+    "preserved_digital_witness": true,
+    "normalization_not_silent": true,
+    "limit": "I verified distinct witness objects and actual capture hashes, not the scan pixels in this engineering pass."
+  },
+  "semantic_reading": "Flower draft preserves ironic short-life reversal and explicitly attributes the supplied jest gloss; it does not assert botanical lifespan or origin. Earlier two semantic findings retained in draft-validation.json.",
+  "integration_notes": [
+    "Import four referenced source records for three entries if later authorized, not all inspected/deferred registry items.",
+    "Print source must retain no-facsimile/no-new-public-domain limitation.",
+    "Research-stage unassigned IDs/no graphic remain valid; nothing accepted by this report."
+  ],
+  "prior_validation": "draft-validation.json retains the earlier two-entry hash-bound result.",
+  "accepted_increment": 0,
+  "limits": [
+    "No new lookup or scan review by this worker.",
+    "No canonical or Git writes.",
+    "Exact and semantic comparison is bounded to saved211 corpus and prior indexed evidence, not exhaustive oral tradition."
+  ]
+}

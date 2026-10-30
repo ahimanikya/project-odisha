@@ -1,0 +1,109 @@
+{
+  "status": "PASS for output-only text preparation; not book or publication approval",
+  "reviewer": "Drishti, separate AI review",
+  "input_head": "d76f8232ccdd99393ff2f276c741aa335151d961",
+  "bindings": {
+    "samanta/manifest.json": "da775e6001e37cd480ec1424d40f553c4dc2c4383041a74f37935b948415ee6b",
+    "samanta/import-package.py": "c15509d3e11a134f2002b9f609be465f4d0cf3e1010e4b133c01d46d6b4c550e",
+    "samanta/report.json": "d5f0218aea66e98fae3bc72bc8f8713a660dba13b5eee8bd789fc36f379eaab9",
+    "samanta/baseline.json": "ea29ed9882280503a646cd2545fd15873ce591cdc1c8a75b0d7a66ef400cfdda",
+    "samanta/sources.json": "f51276ba64b98d8df33d03715179414f19ac5649ad0b63fa44c651e8cc3f02a8",
+    "samanta/source-reuse-map.json": "2fc864a6aeecbb6a64176222bffc37844c6de4802cda30832945058619a6d382",
+    "anvesha/source-preservation.json": "409cfdb96e04456bb562c654373b876bba27d5790c01f63d93bc6e829a872ace",
+    "drishti/actual-test-results.json": "787ab5d5ea4d7b62222dfcd6d03e6aca44570ca3f754816bf23b418b51cd042f",
+    "drishti/verify.py": "b01f1a836d935fa0df863e101f3c8c9df24dc8f3f31137e4eed0e2c971b28903"
+  },
+  "actual_tests": {
+    "temp_book": "/tmp/dh214-drishti-calc8u1q/book",
+    "checks": [
+      {
+        "name": "dry-run",
+        "exit": 0,
+        "no_mutation": true,
+        "log_sha256": "50ea8d72d2864a1b3405d6a1dea5237aaf0c6d6437e22c0784a67306f62ce4cd"
+      },
+      {
+        "name": "missing-authorization",
+        "exit": 1,
+        "no_mutation": true,
+        "log_sha256": "21fb1a5414b9d8f510709d05b8afdd0b68021dd54ec7f71086ab88b4c38af37e"
+      },
+      {
+        "name": "git-destination",
+        "exit": 1,
+        "no_mutation": true,
+        "log_sha256": "436ef4ff6a6dadf39628d069ded04357443445aac4b73daa63369c7ea7adf6e7"
+      },
+      {
+        "name": "wrong-baseline",
+        "exit": 1,
+        "no_mutation": true,
+        "log_sha256": "c77f1bd98301ca6bdfbb516e26b371dfccbf26b70dd9567e2c5bedee9b356b4b"
+      },
+      {
+        "name": "apply",
+        "exit": 0,
+        "no_mutation": false,
+        "log_sha256": "d98210b969fe4e4973b533a5749f3fc4800298b087b8cdd059d6050549f90b65"
+      },
+      {
+        "name": "repeat-apply",
+        "exit": 1,
+        "no_mutation": true,
+        "log_sha256": "e2fa5a0a43c7394dd15c5247d85b795e3fa202102a55b32af3efb1a3293bf4b4"
+      }
+    ],
+    "canonical_files_verified": 1139,
+    "prior_entries_identical": 211,
+    "changed_prior_paths": [
+      "collection-metadata.json",
+      "coverage-ledger.json",
+      "research-design.json",
+      "source127.json"
+    ],
+    "new_files": [
+      "entries/POD-DHAGA-212.json",
+      "entries/POD-DHAGA-213.json",
+      "entries/POD-DHAGA-214.json",
+      "evidence/expansion214-2026-10-31/anvesha/155158.txt",
+      "evidence/expansion214-2026-10-31/anvesha/158575.txt",
+      "evidence/expansion214-2026-10-31/anvesha/67652.txt",
+      "evidence/expansion214-2026-10-31/anvesha/candidates.json",
+      "evidence/expansion214-2026-10-31/anvesha/report.json",
+      "evidence/expansion214-2026-10-31/anvesha/source-registry.json",
+      "evidence/expansion214-2026-10-31/candidate-bundle.json",
+      "evidence/expansion214-2026-10-31/delivery.json",
+      "evidence/expansion214-2026-10-31/drishti/assembled-review.json",
+      "evidence/expansion214-2026-10-31/drishti/integrated-review.json",
+      "evidence/expansion214-2026-10-31/drishti/source-context-review.json",
+      "evidence/expansion214-2026-10-31/printed-2941-verification.json",
+      "evidence/expansion214-2026-10-31/samanta/final-draft-validation.json",
+      "evidence/expansion214-2026-10-31/samanta/witness-check.json"
+    ],
+    "unmanifested_existing_files_preserved": true,
+    "historical_ledger_rows_identical": 95,
+    "prior_source127_fields_except_scope_identical": true,
+    "draft_fields_exact": 3,
+    "source_identity_rights_limits_exact": 4,
+    "generated_collection_pdf_art_unchanged": true,
+    "canonical_postcheck_pass": true
+  },
+  "findings": [
+    "All frozen package hashes verified before testing. Actual dry-run and authorized apply succeeded on an isolated temporary211 copy.",
+    "Missing authorization, Git marker destination, changed baseline and repeated apply were each refused with no destination file changes.",
+    "All three reviewed draft fields retained exactly except assigned IDs and documented packaging metadata. All three graphics remain null. No prose, witness, literal, summary, example or narrative-credit revision introduced.",
+    "Four source identity/title/URL/creator/rights/limits objects match reviewed sources. IDs are distinct and absent from baseline registry; capture links and hashes resolve. Printed2941 is represented by verification JSON, not a copied scan. Digital faultyପଞ୍ଜେ and print-supportedସଞ୍ଜେ remain separate same-lineage witnesses.",
+    "All211 previous entry files, art, generated collection and PDF bytes remain unchanged. All95 previous coverage rows and historical cursor fields remain exact; source127 changes only its count-context scope note.",
+    "Only four preexisting metadata files changed in staging, plus three proposed entries and evidence. Proposed214 count fields are staging preparation only: no accepted IDs added to new source rows, no canonical acceptance or programme credit.",
+    "Rehashed all1139 canonical baseline files after tests: unchanged. Unmanifested copied cache files also preserved; they were not importer additions."
+  ],
+  "blockers": [],
+  "limits": [
+    "No new source research or repeat scan review performed; reused frozen batch11 separate review.",
+    "Importer tested with ordinary python3 invocation; assertion-based guards must not be disabled with optimized Python. This is a bounded trusted staging tool, not a security boundary for hostile filesystem/package inputs.",
+    "No art generation, rendered HTML/PDF approval, repository build tests or public deployment undertaken. Generated products intentionally remain211; this staged text package is not a completed214 book.",
+    "Later authorized production requires approved art, complete build/hash refresh, repository/layout tests and actual affected-page review.",
+    "No canonical writes, Git mutation or human-review claim."
+  ],
+  "next_action": "Coordinator may use this verified package for explicitly authorized isolated text staging; proceed to separately reviewed illustration and production before any canonical/public release."
+}
