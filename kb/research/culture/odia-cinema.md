@@ -118,7 +118,7 @@ The history of a film culture also lives in the performers people recognise acro
 
 ### Bijay Mohanty: performance and teaching
 
-Bijay Mohanty carried theatre training into films and into the classroom. A National School of Drama graduate, he worked in the drama department of Utkal Sangeet Mahavidyalaya and retired as a professor. His screen career includes *ଚିଲିକା ତୀରେ (Chilika Tire)*, *ନାଗଫାଶ (Nagaphasa)* and *ଚକା ଭଉଁରୀ (Chaka Bhaunri)*.[^performer-bijay]
+[Bijay Mohanty](/people/bijay-mohanty/) carried theatre training into films and into the classroom. A National School of Drama graduate, he worked in the drama department of Utkal Sangeet Mahavidyalaya and retired as a professor. His screen career includes *ଚିଲିକା ତୀରେ (Chilika Tire)*, *ନାଗଫାଶ (Nagaphasa)* and *ଚକା ଭଉଁରୀ (Chaka Bhaunri)*.[^performer-bijay]
 
 The theatre connection remained part of how colleagues remembered him. Director Manoj Pattanaik recalled his play *Amari Bhagaban*, staged by Manan Natya Sangstha.[^performer-bijay-theatre] The classroom and the theatre group were part of the work he passed on.
 

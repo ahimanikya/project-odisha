@@ -29,7 +29,7 @@ This directory contains the organizational and working model, roles, work record
 
 ## Current delivery and open work
 
-Current cinema expansion: [sequential research and story work list](records/cinema-expansion-work-list-2026-10-31.md). Adaptation evidence has been reviewed; Kanhu Charan Mohanty, Manglu Charan Biswal, Bijay Mishra, Bijaya Jena, Lipika Singh Darai and Pramod Pati bring the local series to 47 readings. Next: Bijay Mohanty. Source-author payment remains an open evidence question; the published books remain the prior edition.
+Current cinema expansion: [sequential research and story work list](records/cinema-expansion-work-list-2026-10-31.md). Adaptation evidence has been reviewed; Kanhu Charan Mohanty, Manglu Charan Biswal, Bijay Mishra, Bijaya Jena, Lipika Singh Darai, Pramod Pati and Bijay Mohanty bring the local series to 48 readings. Next: Uttam Mohanty. Source-author payment remains an open evidence question; the published books remain the prior edition.
 
 Latest cinema refinement: [practical possibilities without a timed programme](records/cinema-futures-open-recommendations-2026-10-30.json). The article, matching cross-reference and both book drafts are updated and reviewed locally.
 

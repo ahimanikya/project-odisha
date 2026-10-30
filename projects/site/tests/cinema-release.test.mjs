@@ -194,7 +194,7 @@ test('image attributions continue the regular source-note sequence with matching
   assert.equal(new Set(sourceIds).size,sourceIds.length);
   for(const [,caption]of html.matchAll(/<figcaption>([\s\S]*?)<\/figcaption>/g))assert.ok(!/>\s*(?:Photo credit|Image credit)\s*</.test(caption));
  }
- assert.equal(total,22,'all required image attributions retained in regular notes, including Lipika Singh Darai');
+ assert.equal(total,23,'all required image attributions retained in regular notes, including Bijay Mohanty');
 });
 
 test('overview keeps performer profiles, dated scoped counts and music ahead of cross-language recognition',()=>{
