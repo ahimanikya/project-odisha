@@ -1,0 +1,65 @@
+{
+  "review_type": "Separate AI output-only preparation review; not human review or release approval",
+  "decision": "PASS",
+  "input_head": "ed277655b93493153249560baf7a49f3d68fd3b9",
+  "bindings": {
+    "samanta/manifest.json": "0db6075789a466452e21615a581d1fce7ed81a1500ca168acbdc13a5a52c76c4",
+    "samanta/import-package.py": "7d3e10db249888958658f24b768461de4264c5e3cb0a47868d06edadeac4e2aa",
+    "selected-art.json": "d2a0c2c88bb45e6430c89f5b840252ca950a43ea3488fbbc636b3b160f3ac324",
+    "anvesha/art-review.json": "60b83ec9d76d824bcc5084c91c0e0a23d0179d07f17ef4069fcf41d446e90e06",
+    "drishti/temp-checks.json": "a9dabd3d047b3a0eb542afa226f5e5893841ea041a78a8435e90a71d19e5af82"
+  },
+  "actual_checks": {
+    "manifest_files_verified": 27,
+    "all_three_narrative_and_witness_fields_exact": {
+      "199": [],
+      "200": [],
+      "201": []
+    },
+    "selected_three_art_hashes_alt_captions_match_separate_review": true,
+    "temporary_import_tests": {
+      "dry_run": {
+        "exit": 0,
+        "stdout": "{\n  \"status\": \"PASS_PREPARATION_GUARDS\",\n  \"baseline_files_checked\": 1038,\n  \"baseline_entries\": 198,\n  \"proposed_entries\": 3,\n  \"proposed_total\": 201,\n  \"new_sources\": 3,\n  \"proposed_source_total\": 94,\n  \"parallel_count_increment\": 0,\n  \"art_ready\": true,\n  \"applied\": false\n}\n",
+        "stderr": ""
+      },
+      "unauthorized_apply": {
+        "exit": 1,
+        "stdout": "",
+        "stderr": "Apply needs explicit coordinator authorization flag\n"
+      },
+      "baseline_drift_rejected": "Baseline drift: entries/POD-DHAGA-001.json\n",
+      "art_drift_rejected": "Art hash mismatch\n",
+      "authorized_temp_apply": {
+        "exit": 0,
+        "stdout": "{\n  \"status\": \"IMPORTED_SOURCE_ONLY_BUILD_PENDING\",\n  \"baseline_files_checked\": 1038,\n  \"baseline_entries\": 198,\n  \"proposed_entries\": 3,\n  \"proposed_total\": 201,\n  \"new_sources\": 3,\n  \"proposed_source_total\": 94,\n  \"parallel_count_increment\": 0,\n  \"art_ready\": true,\n  \"applied\": true,\n  \"written_json_files\": 9,\n  \"copied_files\": 23\n}\n",
+        "stderr": ""
+      },
+      "temporary_book": "/var/folders/b_/1gc2phlj7j36fz_xkzj4mfm00000gn/T/drishti201-stixb7ox/book",
+      "changed_baseline_paths": [
+        "collection-metadata.json",
+        "research-design.json",
+        "source127.json",
+        "coverage-ledger.json",
+        "entries/POD-DHAGA-187.json"
+      ],
+      "canonical1038_unchanged": true,
+      "derived_collection_remains198_pending_build": true
+    }
+  },
+  "findings": [
+    "All three entries preserve the final reviewed prose, source wording, witness distinctions, narrative credits and rights limits. Entry200 retains corrected chronology and critically documents the belief without endorsing poverty blame.",
+    "201 preserves printed flies wording separately from digital fish discrepancy; verification evidence records the scan without importing the facsimile. No blanket public-domain permission is implied.",
+    "198 prior entries are preserved except the explicit187 thematic parallel append; that parallel adds zero entries. Existing source133124 is reused; three new source records yield94 sources.",
+    "Importer preflights package/baseline/source/art conflicts before writing, requires explicit apply authorization and all three approved images. Negative authorization, baseline drift and art drift checks rejected without partial writes.",
+    "Authorized temporary application passed. Only five prior files changed, with187 other fields and prior variants preserved; canonical1038-file baseline remained unchanged.",
+    "Selected200v2 supersedes rejected200v1. Art approval is reused from hash-bound independent Anvesha review; no new visual inspection claimed here."
+  ],
+  "limits": [
+    "Entry-map historical art-not-generated statements describe package preparation; final selected-art and successful art-ready validation supersede that state.",
+    "Importer is not an atomic filesystem transaction against unexpected IO errors. Coordinator should maintain the guarded baseline and avoid concurrent writes during application.",
+    "Generated collection remains198 until authorized build; this review approves guarded preparation only. Book tests,201 generated text/layout/PDF and web derivatives, exact-head integration and release checks remain required.",
+    "No fresh source retrieval, human review, canonical acceptance increment or publication is claimed."
+  ],
+  "next_action": "Coordinator may apply this exact guarded package with the verified selected-art mapping, then build and obtain separate integrated review."
+}

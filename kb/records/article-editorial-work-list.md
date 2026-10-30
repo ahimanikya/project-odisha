@@ -10,7 +10,7 @@ Reference: [Ahimanikya and Sashisena](https://projectodisha.org/stories/nimuhi-t
 
 One route at a time. This inventory includes navigation and utility pages for explicit classification; it is not a claim that every route is an article. Formatting changes are separate from the 500 substantive-item programme.
 
-Route inventory: 878. completed: 149, excluded: 434, queued: 295.
+Route inventory: 881. completed: 149, excluded: 437, queued: 295.
 
 | Order | Page | Status | Scope |
 | --- | --- | --- | --- |
@@ -902,3 +902,6 @@ Route inventory: 878. completed: 149, excluded: 434, queued: 295.
 | POD-EDIT-DHAGA-196-20261030 | [କହିଲେ କୁଳକୁଟୁମ୍ଭଙ୍କୁ ଲାଜ, ନ କହିଲେ କୁଳ ଭାସି ୟାଉଛି](https://projectodisha.org/dhaga/sayings/pod-dhaga-196.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-DHAGA-197-20261030 | [ଖୋଳ ପର୍ବତ ମାର ମୂଷା](https://projectodisha.org/dhaga/sayings/pod-dhaga-197.html) | excluded | standalone_dhaga_collection |
 | POD-EDIT-DHAGA-198-20261030 | [ବ୍ରହ୍ମା ବିଳିବିଳେଇଲେ ବେଦ](https://projectodisha.org/dhaga/sayings/pod-dhaga-198.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-199-20261030 | [ଖାଇଲାଘରର ପୁଅ ରଙ୍କ!](https://projectodisha.org/dhaga/sayings/pod-dhaga-199.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-200-20261030 | [ରଙ୍କ ତିନି ଜନମ କଥା ଜାଣେ](https://projectodisha.org/dhaga/sayings/pod-dhaga-200.html) | excluded | standalone_dhaga_collection |
+| POD-EDIT-DHAGA-201-20261030 | [ଜାଉ ଖାଇବ କି ମାଛି ହୁରୁଡ଼େଇବ](https://projectodisha.org/dhaga/sayings/pod-dhaga-201.html) | excluded | standalone_dhaga_collection |
